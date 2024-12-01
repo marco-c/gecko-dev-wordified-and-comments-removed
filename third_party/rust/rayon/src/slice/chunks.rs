@@ -28,12 +28,6 @@ math
 :
 div_round_up
 ;
-use
-std
-:
-:
-cmp
-;
 #
 [
 derive
@@ -469,7 +463,7 @@ Self
 let
 elem_index
 =
-cmp
+Ord
 :
 :
 min
@@ -1477,7 +1471,7 @@ Self
 let
 elem_index
 =
-cmp
+Ord
 :
 :
 min

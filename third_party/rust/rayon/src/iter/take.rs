@@ -13,15 +13,6 @@ super
 :
 *
 ;
-use
-std
-:
-:
-cmp
-:
-:
-min
-;
 #
 [
 must_use
@@ -94,6 +85,9 @@ Self
 let
 n
 =
+Ord
+:
+:
 min
 (
 base

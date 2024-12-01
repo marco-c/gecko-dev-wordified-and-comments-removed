@@ -14,12 +14,6 @@ use
 std
 :
 :
-cmp
-;
-use
-std
-:
-:
 usize
 ;
 pub
@@ -548,7 +542,7 @@ self
 .
 splits
 =
-cmp
+Ord
 :
 :
 max
@@ -647,7 +641,7 @@ new
 )
 min
 :
-cmp
+Ord
 :
 :
 max
@@ -662,7 +656,7 @@ min_splits
 =
 len
 /
-cmp
+Ord
 :
 :
 max

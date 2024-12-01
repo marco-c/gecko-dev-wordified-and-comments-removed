@@ -41,6 +41,15 @@ use
 crate
 :
 :
+sync
+:
+:
+Mutex
+;
+use
+crate
+:
+:
 unwind
 ;
 use
@@ -146,7 +155,6 @@ sync
 :
 {
 Arc
-Mutex
 Once
 }
 ;

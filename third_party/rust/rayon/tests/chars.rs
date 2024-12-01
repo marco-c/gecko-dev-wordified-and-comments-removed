@@ -7,12 +7,6 @@ prelude
 :
 *
 ;
-use
-std
-:
-:
-char
-;
 #
 [
 test

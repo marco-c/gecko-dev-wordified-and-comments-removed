@@ -13,12 +13,6 @@ super
 :
 *
 ;
-use
-std
-:
-:
-cmp
-;
 #
 [
 must_use
@@ -457,7 +451,7 @@ self
 >
 usize
 {
-cmp
+Ord
 :
 :
 max
@@ -1038,7 +1032,7 @@ self
 >
 usize
 {
-cmp
+Ord
 :
 :
 min

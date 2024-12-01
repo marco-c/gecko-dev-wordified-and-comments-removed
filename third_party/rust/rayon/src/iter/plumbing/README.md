@@ -396,7 +396,7 @@ ultimately
 reduced
 .
 )
-Unlike
+Like
 producers
 there
 are
@@ -404,10 +404,9 @@ two
 variants
 of
 consumers
-.
-The
-difference
-is
+which
+differ
+in
 how
 the
 split
