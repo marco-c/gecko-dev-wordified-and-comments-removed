@@ -31,6 +31,8 @@ list
 of
 rules
 .
+lint
+.
 select
 =
 [
@@ -58,6 +60,8 @@ PL
 #
 pylint
 ]
+lint
+.
 ignore
 =
 [
@@ -855,6 +859,8 @@ py
 tool
 .
 ruff
+.
+lint
 .
 per
 -
