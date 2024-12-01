@@ -95,14 +95,6 @@ widget
 .
 Toast
 import
-mozilla
-.
-telemetry
-.
-glean
-.
-Glean
-import
 org
 .
 mozilla
@@ -220,7 +212,11 @@ super
 onClick
 (
 )
-Glean
+context
+.
+components
+.
+metrics
 .
 setUploadEnabled
 (
