@@ -21469,13 +21469,6 @@ aTab
 )
 )
 ;
-this
-.
-removeFromMultiSelectedTabs
-(
-aTab
-)
-;
 }
 _handleTabMove
 (
