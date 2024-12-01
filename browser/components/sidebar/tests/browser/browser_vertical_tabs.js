@@ -352,7 +352,7 @@ if
 (
 win
 .
-TabsInTitlebar
+CustomTitlebar
 .
 enabled
 )
@@ -418,7 +418,7 @@ if
 (
 win
 .
-TabsInTitlebar
+CustomTitlebar
 .
 enabled
 )
@@ -635,7 +635,7 @@ sizemode
 ;
 info
 (
-tabsintitlebar
+customtitlebar
 :
 {
 document
@@ -645,7 +645,7 @@ documentElement
 getAttribute
 (
 "
-tabsintitlebar
+customtitlebar
 "
 )
 }
