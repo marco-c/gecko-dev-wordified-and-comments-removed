@@ -179,9 +179,11 @@ pub
 enum
 RuleChangeKind
 {
+Generic
+=
+0
 Insertion
 Removal
-Generic
 StyleRuleDeclarations
 }
 #

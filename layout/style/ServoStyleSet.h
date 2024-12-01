@@ -180,6 +180,15 @@ StyleRuleChangeKind
 :
 uint32_t
 ;
+enum
+class
+StyleRelativeSelectorNthEdgeInvalidateFor
+:
+uint8_t
+;
+struct
+StyleRuleChange
+;
 class
 ErrorResult
 ;
@@ -494,7 +503,9 @@ css
 :
 Rule
 *
-StyleRuleChangeKind
+const
+StyleRuleChange
+&
 )
 ;
 void
@@ -1458,6 +1469,7 @@ dom
 :
 Element
 &
+StyleRelativeSelectorNthEdgeInvalidateFor
 )
 ;
 void
@@ -1502,10 +1514,6 @@ dom
 Element
 &
 aElement
-const
-nsIContent
-*
-aFollowingSibling
 )
 ;
 bool
@@ -1646,7 +1654,9 @@ css
 :
 Rule
 &
-StyleRuleChangeKind
+const
+StyleRuleChange
+&
 )
 ;
 void

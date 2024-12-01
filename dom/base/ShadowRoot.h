@@ -431,14 +431,14 @@ css
 :
 Rule
 *
-StyleRuleChangeKind
+const
+StyleRuleChange
+&
 )
 ;
 void
 ImportRuleLoaded
 (
-CSSImportRule
-&
 StyleSheet
 &
 )

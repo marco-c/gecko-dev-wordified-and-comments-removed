@@ -4280,8 +4280,10 @@ css
 Rule
 *
 aRule
-StyleRuleChangeKind
-aKind
+const
+StyleRuleChange
+&
+aChange
 )
 {
 MOZ_ASSERT
@@ -4316,7 +4318,7 @@ RuleChanged
 *
 this
 aRule
-aKind
+aChange
 )
 )
 ;
