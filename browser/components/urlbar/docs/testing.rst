@@ -1602,9 +1602,9 @@ mjs
 files
 .
 The
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 method
 within
 head
