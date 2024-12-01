@@ -78,6 +78,9 @@ class
 WorkerPrivate
 ;
 class
+TrustedScriptURLOrUSVString
+;
+class
 Worker
 :
 public
@@ -93,6 +96,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 Worker
 DOMEventTargetHelper
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 already_AddRefed
 <
@@ -105,7 +109,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+TrustedScriptURLOrUSVString
 &
 aScriptURL
 const

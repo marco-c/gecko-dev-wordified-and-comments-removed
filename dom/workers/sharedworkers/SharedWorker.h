@@ -71,6 +71,9 @@ class
 SharedWorkerChild
 ;
 class
+TrustedScriptURLOrUSVString
+;
+class
 SharedWorker
 final
 :
@@ -128,6 +131,7 @@ mFrozen
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 already_AddRefed
 <
@@ -140,7 +144,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+TrustedScriptURLOrUSVString
 &
 aScriptURL
 const
@@ -255,6 +259,7 @@ Thaw
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -267,7 +272,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+TrustedScriptURLOrUSVString
 &
 aScriptURL
 const

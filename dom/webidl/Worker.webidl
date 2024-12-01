@@ -173,7 +173,11 @@ Throws
 ]
 constructor
 (
+(
+TrustedScriptURL
+or
 USVString
+)
 scriptURL
 optional
 WorkerOptions
