@@ -464,6 +464,15 @@ bar
 titlebar
 -
 spacer
+[
+type
+=
+'
+post
+-
+tabs
+'
+]
 "
 )
 ;
