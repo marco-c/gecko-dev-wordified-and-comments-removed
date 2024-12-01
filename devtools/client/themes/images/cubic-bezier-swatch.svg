@@ -107,8 +107,9 @@ r
 fill
 =
 "
-#
-fff
+context
+-
+fill
 "
 /
 >
@@ -159,8 +160,9 @@ M7
 stroke
 =
 "
-#
-808080
+context
+-
+stroke
 "
 stroke
 -
@@ -173,8 +175,9 @@ width
 fill
 =
 "
-#
-808080
+context
+-
+stroke
 "
 fill
 -
