@@ -3311,7 +3311,7 @@ resolve
 [
 Ci
 .
-nsIContentPrefService2
+nsIContentPrefCallback2
 .
 COMPLETE_OK
 false
@@ -4160,7 +4160,7 @@ resolve
 [
 Ci
 .
-nsIContentPrefService2
+nsIContentPrefCallback2
 .
 COMPLETE_OK
 false
@@ -4790,7 +4790,7 @@ resolve
 [
 Ci
 .
-nsIContentPrefService2
+nsIContentPrefCallback2
 .
 COMPLETE_OK
 false
@@ -5533,7 +5533,7 @@ resolve
 [
 Ci
 .
-nsIContentPrefService2
+nsIContentPrefCallback2
 .
 COMPLETE_OK
 false
