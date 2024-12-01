@@ -4961,6 +4961,7 @@ http_status
 =
 500
 and
+(
 e
 .
 status_code
@@ -4969,6 +4970,18 @@ status_code
 "
 disconnected
 "
+or
+                        
+e
+.
+status_code
+=
+=
+"
+tab
+crashed
+"
+)
 :
                     
 status
