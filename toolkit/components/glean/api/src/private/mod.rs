@@ -1177,9 +1177,6 @@ FixedOffset
 Utc
 }
 ;
-use
-time
-;
 let
 tm
 =
