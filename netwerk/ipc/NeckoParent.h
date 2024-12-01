@@ -822,10 +822,6 @@ PFileChannelParent
 >
 AllocPFileChannelParent
 (
-const
-uint32_t
-&
-channelId
 )
 ;
 virtual
@@ -841,10 +837,6 @@ RecvPFileChannelConstructor
 PFileChannelParent
 *
 aActor
-const
-uint32_t
-&
-channelId
 )
 override
 ;
