@@ -108,6 +108,9 @@ set_test_context
 parent
 )
 ;
+const
+authenticator
+=
 await
 window
 .
@@ -314,6 +317,16 @@ e
 name
 ;
 }
+await
+window
+.
+test_driver
+.
+remove_virtual_authenticator
+(
+authenticator
+)
+;
 parent
 .
 postMessage
