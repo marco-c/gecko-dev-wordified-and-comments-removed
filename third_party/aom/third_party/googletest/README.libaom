@@ -111,17 +111,6 @@ CMakeLists
 .
 txt
 CONTRIBUTORS
-googlemock
-/
-cmake
-CMakeLists
-.
-txt
-include
-README
-.
-md
-src
 googletest
 /
 cmake

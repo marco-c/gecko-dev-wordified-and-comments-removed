@@ -41,7 +41,7 @@ mem
 h
 "
 static
-INLINE
+inline
 int
 horizontal_add_u8x8
 (
@@ -94,7 +94,7 @@ c
 endif
 }
 static
-INLINE
+inline
 int
 horizontal_add_s16x8
 (
@@ -165,7 +165,7 @@ d
 endif
 }
 static
-INLINE
+inline
 int
 horizontal_add_s32x4
 (
@@ -227,7 +227,7 @@ c
 endif
 }
 static
-INLINE
+inline
 int64_t
 horizontal_add_s64x2
 (
@@ -264,7 +264,7 @@ a
 endif
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_add_u64x2
 (
@@ -301,7 +301,7 @@ a
 endif
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x4
 (
@@ -347,7 +347,7 @@ b
 endif
 }
 static
-INLINE
+inline
 int64_t
 horizontal_long_add_s32x4
 (
@@ -393,7 +393,7 @@ b
 endif
 }
 static
-INLINE
+inline
 uint32_t
 horizontal_add_u32x4
 (
@@ -455,7 +455,7 @@ c
 endif
 }
 static
-INLINE
+inline
 uint32x4_t
 horizontal_add_4d_u32x4
 (
@@ -584,7 +584,7 @@ res
 endif
 }
 static
-INLINE
+inline
 int32x4_t
 horizontal_add_4d_s32x4
 (
@@ -713,7 +713,7 @@ res
 endif
 }
 static
-INLINE
+inline
 uint32_t
 horizontal_long_add_u16x8
 (
@@ -825,7 +825,7 @@ c
 endif
 }
 static
-INLINE
+inline
 uint32x4_t
 horizontal_long_add_4d_u16x8
 (
@@ -1070,7 +1070,7 @@ d1
 endif
 }
 static
-INLINE
+inline
 uint32_t
 horizontal_add_u16x8
 (
@@ -1141,7 +1141,7 @@ d
 endif
 }
 static
-INLINE
+inline
 uint32x4_t
 horizontal_add_4d_u16x8
 (
@@ -1328,7 +1328,7 @@ b1
 endif
 }
 static
-INLINE
+inline
 int32x4_t
 horizontal_add_4d_s16x8
 (
@@ -1515,7 +1515,7 @@ b1
 endif
 }
 static
-INLINE
+inline
 uint32_t
 horizontal_add_u32x2
 (
@@ -1558,7 +1558,7 @@ b
 endif
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x2
 (
@@ -1598,7 +1598,7 @@ b
 endif
 }
 static
-INLINE
+inline
 uint32_t
 horizontal_add_u16x4
 (
@@ -1650,7 +1650,7 @@ c
 endif
 }
 static
-INLINE
+inline
 int32x4_t
 horizontal_add_2d_s32
 (
@@ -1715,7 +1715,7 @@ b0
 endif
 }
 static
-INLINE
+inline
 int32x2_t
 add_pairwise_s32x4
 (
@@ -1755,7 +1755,7 @@ a
 endif
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x4_x2
 (
@@ -1786,7 +1786,7 @@ a
 ;
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x4_x4
 (
@@ -1850,7 +1850,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x4_x8
 (
@@ -2014,7 +2014,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint64_t
 horizontal_long_add_u32x4_x16
 (

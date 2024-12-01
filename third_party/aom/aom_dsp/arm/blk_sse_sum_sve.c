@@ -53,7 +53,7 @@ mem_neon
 h
 "
 static
-INLINE
+inline
 void
 get_blk_sse_sum_4xh_sve
 (
@@ -164,7 +164,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 void
 get_blk_sse_sum_8xh_sve
 (
@@ -355,7 +355,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 void
 get_blk_sse_sum_large_sve
 (

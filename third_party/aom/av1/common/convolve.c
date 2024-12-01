@@ -292,6 +292,9 @@ dst_stride
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 av1_highbd_convolve_horiz_rs_c
 (
@@ -484,6 +487,8 @@ dst_stride
 ;
 }
 }
+#
+endif
 void
 av1_convolve_2d_sr_c
 (
@@ -5001,7 +5006,7 @@ subpel_x_qn
 subpel_y_qn
 )
 {
-av1_convolve_2d_sr_intrabc_c
+av1_convolve_2d_sr_intrabc
 (
 src
 src_stride
@@ -5025,7 +5030,7 @@ if
 subpel_x_qn
 )
 {
-av1_convolve_x_sr_intrabc_c
+av1_convolve_x_sr_intrabc
 (
 src
 src_stride
@@ -5047,7 +5052,7 @@ if
 subpel_y_qn
 )
 {
-av1_convolve_y_sr_intrabc_c
+av1_convolve_y_sr_intrabc
 (
 src
 src_stride
@@ -9919,8 +9924,15 @@ endif
 define
 WIENER_MAX_EXT_SIZE
 263
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 static
-INLINE
+inline
 int
 horz_scalar_product
 (
@@ -9975,7 +9987,7 @@ sum
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 int
 highbd_horz_scalar_product
 (
@@ -10029,7 +10041,7 @@ sum
 #
 endif
 static
-INLINE
+inline
 int
 highbd_vert_scalar_product
 (
@@ -10766,8 +10778,17 @@ round_1
 ;
 }
 #
+endif
+#
 if
 CONFIG_AV1_HIGHBITDEPTH
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 static
 void
 highbd_convolve_add_src_horiz_hip
@@ -11403,5 +11424,7 @@ bd
 )
 ;
 }
+#
+endif
 #
 endif

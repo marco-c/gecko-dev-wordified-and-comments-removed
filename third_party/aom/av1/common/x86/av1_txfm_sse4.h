@@ -22,7 +22,7 @@ C
 #
 endif
 static
-INLINE
+inline
 __m128i
 av1_round_shift_32_sse4_1
 (
@@ -67,7 +67,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 void
 av1_round_shift_array_32_sse4_1
 (
@@ -166,7 +166,7 @@ bit
 }
 }
 static
-INLINE
+inline
 void
 av1_round_shift_rect_array_32_sse4_1
 (

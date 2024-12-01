@@ -1660,7 +1660,7 @@ num_outputs
 ;
 }
 static
-AOM_INLINE
+inline
 __m128
 approx_exp
 (
@@ -1790,7 +1790,7 @@ undef
 C
 }
 static
-AOM_INLINE
+inline
 __m128
 reduce_max
 (
@@ -1840,7 +1840,7 @@ reg
 ;
 }
 static
-AOM_INLINE
+inline
 __m128
 reduce_sum
 (

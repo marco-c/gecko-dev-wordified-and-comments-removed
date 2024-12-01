@@ -2730,7 +2730,10 @@ rand
 ;
 #
 elif
+defined
+(
 __ANDROID__
+)
 (
 void
 )

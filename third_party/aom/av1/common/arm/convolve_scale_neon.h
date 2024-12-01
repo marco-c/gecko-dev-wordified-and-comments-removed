@@ -59,7 +59,7 @@ transpose_neon
 h
 "
 static
-INLINE
+inline
 int16x4_t
 compound_convolve8_4_v
 (
@@ -207,7 +207,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 compound_convolve8_8_v
 (
@@ -506,7 +506,7 @@ res1
 ;
 }
 static
-INLINE
+inline
 void
 compound_convolve_vert_scale_8tap_neon
 (
@@ -888,7 +888,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 compound_avg_convolve_vert_scale_8tap_neon
 (
@@ -1402,7 +1402,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 compound_dist_wtd_convolve_vert_scale_8tap_neon
 (
@@ -2054,7 +2054,7 @@ h
 }
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_4_v
 (
@@ -2221,7 +2221,7 @@ vdup_n_s16
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_v
 (
@@ -2531,7 +2531,7 @@ res1
 ;
 }
 static
-INLINE
+inline
 void
 convolve_vert_scale_8tap_neon
 (
@@ -3219,7 +3219,7 @@ h
 }
 }
 static
-INLINE
+inline
 int16x4_t
 compound_convolve6_4_v
 (
@@ -3341,7 +3341,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 compound_convolve6_8_v
 (
@@ -3582,7 +3582,7 @@ res1
 ;
 }
 static
-INLINE
+inline
 void
 compound_convolve_vert_scale_6tap_neon
 (
@@ -3948,7 +3948,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 compound_avg_convolve_vert_scale_6tap_neon
 (
@@ -4446,7 +4446,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 compound_dist_wtd_convolve_vert_scale_6tap_neon
 (
@@ -5082,7 +5082,7 @@ h
 }
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve6_4_v
 (
@@ -5223,7 +5223,7 @@ vdup_n_s16
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve6_8_v
 (
@@ -5475,7 +5475,7 @@ res1
 ;
 }
 static
-INLINE
+inline
 void
 convolve_vert_scale_6tap_neon
 (

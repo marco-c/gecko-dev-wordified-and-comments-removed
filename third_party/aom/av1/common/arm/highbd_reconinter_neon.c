@@ -58,7 +58,7 @@ av1_rtcd
 h
 "
 static
-INLINE
+inline
 void
 diffwtd_mask_highbd_neon
 (

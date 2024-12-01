@@ -38,7 +38,7 @@ sum_neon
 h
 "
 static
-INLINE
+inline
 void
 obmc_variance_8x1_s16_neon
 (
@@ -313,7 +313,7 @@ obmc_variance_permute_idx
 }
 ;
 static
-INLINE
+inline
 void
 obmc_variance_8x1_s32_neon
 (
@@ -487,7 +487,7 @@ round_hi
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_large_neon
 (
@@ -766,7 +766,7 @@ sumv
 #
 else
 static
-INLINE
+inline
 void
 obmc_variance_large_neon
 (
@@ -976,7 +976,7 @@ sumv
 #
 endif
 static
-INLINE
+inline
 void
 obmc_variance_neon_128xh
 (
@@ -1018,7 +1018,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_neon_64xh
 (
@@ -1060,7 +1060,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_neon_32xh
 (
@@ -1102,7 +1102,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_neon_16xh
 (
@@ -1144,7 +1144,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_neon_8xh
 (
@@ -1264,7 +1264,7 @@ sumv
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_neon_4xh
 (

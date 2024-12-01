@@ -33,7 +33,7 @@ aom_dsp_common
 h
 "
 static
-INLINE
+inline
 __m256i
 load_tran_low
 (
@@ -84,7 +84,7 @@ a_high
 ;
 }
 static
-INLINE
+inline
 void
 store_tran_low
 (

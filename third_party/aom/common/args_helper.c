@@ -61,6 +61,7 @@ err_msg
 ARG_ERR_MSG_MAX_LEN
 __VA_ARGS__
 )
+static
 struct
 arg
 arg_init

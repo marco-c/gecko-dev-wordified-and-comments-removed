@@ -66,7 +66,7 @@ convolve
 h
 "
 static
-INLINE
+inline
 void
 prepare_coeffs
 (
@@ -177,7 +177,7 @@ tmp_1
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve
 (
@@ -280,7 +280,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_x
 (
@@ -375,7 +375,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_y
 (
@@ -470,7 +470,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_hi_y
 (

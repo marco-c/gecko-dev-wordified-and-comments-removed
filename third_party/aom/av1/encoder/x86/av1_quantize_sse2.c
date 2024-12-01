@@ -42,7 +42,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 void
 read_coeff
 (
@@ -194,7 +194,7 @@ addr
 }
 }
 static
-INLINE
+inline
 void
 write_qcoeff
 (
@@ -373,7 +373,7 @@ qc1
 }
 }
 static
-INLINE
+inline
 void
 write_zero
 (
@@ -485,7 +485,7 @@ zero
 }
 }
 static
-INLINE
+inline
 void
 quantize
 (
@@ -1269,7 +1269,7 @@ eob
 }
 }
 static
-INLINE
+inline
 void
 quantize_lp
 (

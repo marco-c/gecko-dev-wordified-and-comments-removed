@@ -202,7 +202,7 @@ dest
 )
 )
 static
-INLINE
+inline
 int
 get_unsigned_bits
 (

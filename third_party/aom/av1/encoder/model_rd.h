@@ -351,7 +351,7 @@ sse
 ;
 }
 static
-AOM_INLINE
+inline
 int64_t
 compute_sse_plane
 (
@@ -453,7 +453,7 @@ sse
 ;
 }
 static
-AOM_INLINE
+inline
 void
 model_rd_from_sse
 (
@@ -662,7 +662,7 @@ dist
 ;
 }
 static
-AOM_INLINE
+inline
 void
 model_rd_with_curvfit
 (
@@ -974,7 +974,7 @@ dist_i
 ;
 }
 static
-AOM_INLINE
+inline
 void
 model_rd_for_sb
 (
@@ -1327,7 +1327,7 @@ dist_sum
 ;
 }
 static
-AOM_INLINE
+inline
 void
 model_rd_for_sb_with_curvfit
 (

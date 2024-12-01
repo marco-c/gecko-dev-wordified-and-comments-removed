@@ -2505,7 +2505,7 @@ srcReg6
 }
 }
 static
-INLINE
+inline
 __m128i
 shuffle_filter_convolve8_8_ssse3
 (

@@ -42,7 +42,7 @@ C
 #
 endif
 static
-INLINE
+inline
 __m256i
 pair_set_w16_epi16
 (
@@ -74,6 +74,9 @@ a
 uint32_t
 )
 (
+uint16_t
+)
+(
 b
 )
 )
@@ -86,7 +89,7 @@ b
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_w16_avx2
 (
@@ -260,7 +263,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_adds_subs_avx2
 (
@@ -306,7 +309,7 @@ _in1
 ;
 }
 static
-INLINE
+inline
 void
 btf_32_add_sub_avx2
 (
@@ -352,7 +355,7 @@ _in1
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_adds_subs_out_avx2
 (
@@ -400,7 +403,7 @@ _in1
 ;
 }
 static
-INLINE
+inline
 void
 btf_32_add_sub_out_avx2
 (
@@ -448,7 +451,7 @@ _in1
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_16bit_to_16bit_avx2
 (
@@ -471,7 +474,7 @@ a
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_16bit_to_16bit_avx2
 (
@@ -521,7 +524,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 load_buffer_16bit_to_16bit_flip_avx2
 (
@@ -575,7 +578,7 @@ stride
 }
 }
 static
-INLINE
+inline
 __m256i
 load_32bit_to_16bit_w16_avx2
 (
@@ -628,7 +631,7 @@ b
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_32bit_to_16bit_w16_avx2
 (
@@ -678,7 +681,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 transpose2_8x8_avx2
 (
@@ -1004,7 +1007,7 @@ i
 }
 }
 static
-INLINE
+inline
 void
 transpose_16bit_16x16_avx2
 (
@@ -1242,7 +1245,7 @@ out
 ;
 }
 static
-INLINE
+inline
 void
 transpose_16bit_16x8_avx2
 (
@@ -1555,7 +1558,7 @@ b7
 ;
 }
 static
-INLINE
+inline
 void
 flip_buf_avx2
 (
@@ -1602,7 +1605,7 @@ i
 }
 }
 static
-INLINE
+inline
 void
 round_shift_16bit_w16_avx2
 (
@@ -1730,7 +1733,7 @@ bit
 }
 }
 static
-INLINE
+inline
 __m256i
 round_shift_32_avx2
 (
@@ -1775,7 +1778,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 void
 round_shift_array_32_avx2
 (
@@ -1873,7 +1876,7 @@ bit
 }
 }
 static
-INLINE
+inline
 void
 round_shift_rect_array_32_avx2
 (
@@ -2023,7 +2026,7 @@ NewSqrt2Bits
 }
 }
 static
-INLINE
+inline
 __m256i
 scale_round_avx2
 (
@@ -2071,7 +2074,7 @@ NewSqrt2Bits
 ;
 }
 static
-INLINE
+inline
 void
 store_rect_16bit_to_32bit_w8_avx2
 (
@@ -2190,7 +2193,7 @@ temp
 ;
 }
 static
-INLINE
+inline
 void
 store_rect_buffer_16bit_to_32bit_w8_avx2
 (
@@ -2243,7 +2246,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 pack_reg
 (
@@ -2430,7 +2433,7 @@ in2
 ;
 }
 static
-INLINE
+inline
 void
 extract_reg
 (

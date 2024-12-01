@@ -1301,7 +1301,7 @@ cm
 )
 ;
 static
-INLINE
+inline
 int
 av1_ceil_log2
 (

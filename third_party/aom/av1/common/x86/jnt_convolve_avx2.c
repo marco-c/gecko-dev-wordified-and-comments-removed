@@ -106,7 +106,7 @@ convolve
 h
 "
 static
-INLINE
+inline
 __m256i
 unpack_weights_avx2
 (
@@ -172,7 +172,7 @@ wt
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_line2_avx2
 (
@@ -6042,7 +6042,7 @@ FILTER_BITS
 7
 )
 static
-AOM_INLINE
+inline
 void
 av1_dist_wtd_convolve_2d_no_avg_copy_avx2
 (

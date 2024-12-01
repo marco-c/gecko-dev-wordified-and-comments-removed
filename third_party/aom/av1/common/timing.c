@@ -48,6 +48,7 @@ rate
 to
 0
 static
+const
 int32_t
 main_kbps
 [
@@ -93,6 +94,7 @@ UNDEFINED_RATE
 }
 ;
 static
+const
 int32_t
 high_kbps
 [
@@ -138,6 +140,7 @@ UNDEFINED_RATE
 }
 ;
 static
+const
 int
 bitrate_profile_factor
 [

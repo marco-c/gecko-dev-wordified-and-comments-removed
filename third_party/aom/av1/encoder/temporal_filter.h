@@ -395,18 +395,8 @@ aom_bit_depth_t
 bit_depth
 )
 ;
-int
-av1_get_q
-(
-const
-struct
-AV1_COMP
-*
-cpi
-)
-;
 static
-AOM_INLINE
+inline
 bool
 tf_alloc_and_reset_data
 (
@@ -596,7 +586,7 @@ true
 ;
 }
 static
-AOM_INLINE
+inline
 void
 tf_setup_macroblockd
 (
@@ -659,7 +649,7 @@ SIMPLE_TRANSLATION
 ;
 }
 static
-AOM_INLINE
+inline
 void
 tf_dealloc_data
 (
@@ -753,7 +743,7 @@ NULL
 ;
 }
 static
-INLINE
+inline
 void
 tf_save_state
 (
@@ -820,7 +810,7 @@ mi
 ;
 }
 static
-INLINE
+inline
 void
 tf_restore_state
 (

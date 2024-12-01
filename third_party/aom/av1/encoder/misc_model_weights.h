@@ -45,6 +45,7 @@ MV_PREC_LAYER_SIZE_0
 define
 NUM_LOGITS
 1
+static
 const
 float
 av1_mv_prec_mean
@@ -109,6 +110,7 @@ MV_PREC_FEATURE_SIZE
 63597847427077f
 }
 ;
+static
 const
 float
 av1_mv_prec_std
@@ -173,6 +175,7 @@ MV_PREC_FEATURE_SIZE
 07985259573601f
 }
 ;
+static
 const
 float
 av1_mv_prec_nn_weights_layer_0
@@ -2175,6 +2178,7 @@ av1_mv_prec_nn_weights_layer_0
 33253649399571805f
 }
 ;
+static
 const
 float
 av1_mv_prec_nn_bias_layer_0
@@ -2298,6 +2302,7 @@ av1_mv_prec_nn_bias_layer_0
 9658160514319954f
 }
 ;
+static
 const
 float
 av1_mv_prec_nn_weights_layer_1
@@ -2418,6 +2423,7 @@ av1_mv_prec_nn_weights_layer_1
 2890127265725608f
 }
 ;
+static
 const
 float
 av1_mv_prec_nn_bias_layer_1

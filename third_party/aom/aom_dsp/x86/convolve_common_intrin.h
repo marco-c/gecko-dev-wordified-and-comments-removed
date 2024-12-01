@@ -5,7 +5,7 @@ AOM_AOM_DSP_X86_CONVOLVE_COMMON_INTRIN_H_
 define
 AOM_AOM_DSP_X86_CONVOLVE_COMMON_INTRIN_H_
 static
-INLINE
+inline
 void
 add_store
 (
@@ -80,7 +80,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_12tap
 (
@@ -204,7 +204,7 @@ coeffs_y
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_12tap
 (
@@ -351,7 +351,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_x_12tap
 (
@@ -467,7 +467,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_y_12tap
 (
@@ -588,7 +588,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_hi_y_12tap
 (

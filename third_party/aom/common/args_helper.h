@@ -150,16 +150,6 @@ ARG_DEF_LIST_END
 {
 0
 }
-struct
-arg
-arg_init
-(
-char
-*
-*
-argv
-)
-;
 int
 arg_match_helper
 (

@@ -248,7 +248,7 @@ conv_params
 )
 ;
 static
-INLINE
+inline
 ConvolveParams
 get_conv_params_no_round
 (
@@ -413,7 +413,7 @@ conv_params
 ;
 }
 static
-INLINE
+inline
 ConvolveParams
 get_conv_params
 (
@@ -438,7 +438,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 WienerConvolveParams
 get_conv_params_wiener
 (

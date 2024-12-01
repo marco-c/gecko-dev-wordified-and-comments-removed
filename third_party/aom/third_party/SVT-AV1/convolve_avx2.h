@@ -57,7 +57,7 @@ mem_sse2
 h
 "
 static
-INLINE
+inline
 void
 populate_coeffs_4tap_avx2
 (
@@ -110,7 +110,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 populate_coeffs_6tap_avx2
 (
@@ -177,7 +177,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 populate_coeffs_8tap_avx2
 (
@@ -258,7 +258,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_2tap_ssse3
 (
@@ -296,12 +296,7 @@ coeffs_8
 =
 _mm_cvtsi32_si128
 (
-*
-(
-const
-int32_t
-*
-)
+loadu_int32
 (
 filter
 +
@@ -355,7 +350,7 @@ _mm_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_4tap_ssse3
 (
@@ -462,7 +457,7 @@ _mm_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_6tap_ssse3
 (
@@ -583,7 +578,7 @@ _mm_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_8tap_ssse3
 (
@@ -718,7 +713,7 @@ _mm_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_2tap_avx2
 (
@@ -819,7 +814,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_4tap_avx2
 (
@@ -904,7 +899,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_6tap_avx2
 (
@@ -989,7 +984,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 prepare_half_coeffs_8tap_avx2
 (
@@ -1074,7 +1069,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_2tap_sse2
 (
@@ -1111,12 +1106,7 @@ coeff
 =
 _mm_cvtsi32_si128
 (
-*
-(
-const
-int32_t
-*
-)
+loadu_int32
 (
 filter
 +
@@ -1137,7 +1127,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_4tap_sse2
 (
@@ -1205,7 +1195,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_6tap_ssse3
 (
@@ -1294,7 +1284,7 @@ _mm_set1_epi32
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_8tap_sse2
 (
@@ -1384,7 +1374,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_2tap_avx2
 (
@@ -1421,12 +1411,7 @@ coeff_8
 =
 _mm_cvtsi32_si128
 (
-*
-(
-const
-int32_t
-*
-)
+loadu_int32
 (
 filter
 +
@@ -1456,7 +1441,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_4tap_avx2
 (
@@ -1533,7 +1518,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_6tap_avx2
 (
@@ -1631,7 +1616,7 @@ _mm256_set1_epi32
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_8tap_avx2
 (
@@ -1730,7 +1715,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 load_16bit_5rows_avx2
 (
@@ -1851,7 +1836,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 load_16bit_7rows_avx2
 (
@@ -2619,7 +2604,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 void
 convolve_8tap_unpack_avx2
 (
@@ -2740,7 +2725,7 @@ s
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_2tap_ssse3
 (
@@ -2773,7 +2758,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_4tap_ssse3
 (
@@ -2832,7 +2817,7 @@ res_45
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_6tap_ssse3
 (
@@ -2917,7 +2902,7 @@ res_34
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_8tap_ssse3
 (
@@ -3028,7 +3013,7 @@ res_2367
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_2tap_avx2
 (
@@ -3061,7 +3046,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_4tap_avx2
 (
@@ -3120,7 +3105,7 @@ res_45
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_6tap_avx2
 (
@@ -3205,7 +3190,7 @@ res_23
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_8tap_avx2
 (
@@ -3316,7 +3301,7 @@ res_2367
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve16_2tap_sse2
 (
@@ -3349,7 +3334,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve16_4tap_sse2
 (
@@ -3408,7 +3393,7 @@ res_23
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve16_6tap_sse2
 (
@@ -3493,7 +3478,7 @@ res_45
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve16_8tap_sse2
 (
@@ -3604,7 +3589,7 @@ res_4567
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve16_2tap_avx2
 (
@@ -3637,7 +3622,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve16_4tap_avx2
 (
@@ -3696,7 +3681,7 @@ res_2
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve16_6tap_avx2
 (
@@ -3781,7 +3766,7 @@ res_45
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve16_8tap_avx2
 (
@@ -3892,7 +3877,7 @@ res_4567
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_4tap_avx2
 (
@@ -3956,7 +3941,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_6tap_avx2
 (
@@ -4034,7 +4019,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_8tap_avx2
 (
@@ -4126,7 +4111,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 sr_y_round_avx2
 (
@@ -4165,7 +4150,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_x_round_sse2
 (
@@ -4202,7 +4187,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_x_round_avx2
 (
@@ -4239,7 +4224,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_round_store_2x2_sse2
 (
@@ -4273,7 +4258,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_round_store_4x2_sse2
 (
@@ -4307,7 +4292,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_round_store_8x2_sse2
 (
@@ -4387,7 +4372,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_round_store_8x2_avx2
 (
@@ -4421,7 +4406,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_round_store_32_avx2
 (
@@ -4536,7 +4521,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_round_sse2
 (
@@ -4573,7 +4558,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_round_half_pel_sse2
 (
@@ -4610,7 +4595,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_round_avx2
 (
@@ -4647,7 +4632,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_round_16_avx2
 (
@@ -4692,7 +4677,7 @@ r1
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_round_half_pel_avx2
 (
@@ -4729,7 +4714,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_2x2_sse2
 (
@@ -4792,7 +4777,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_4x2_sse2
 (
@@ -4827,7 +4812,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_4x2_avx2
 (
@@ -4888,7 +4873,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_8x2_avx2
 (
@@ -4959,7 +4944,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_16x2_avx2
 (
@@ -4997,7 +4982,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_pack_store_16x2_avx2
 (
@@ -5045,7 +5030,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 pack_store_32_avx2
 (
@@ -5093,7 +5078,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_round_store_2x2_sse2
 (
@@ -5137,7 +5122,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_round_store_4x2_avx2
 (
@@ -5181,7 +5166,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_pack_store_32_avx2
 (
@@ -5219,7 +5204,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_round_store_32_avx2
 (
@@ -5268,7 +5253,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 convolve_store_32_avx2
 (
@@ -5306,7 +5291,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 sr_x_round_sse2
 (
@@ -5343,7 +5328,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m256i
 sr_x_round_avx2
 (
@@ -5380,7 +5365,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m128i
 sr_y_round_sse2
 (
@@ -5419,7 +5404,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 sr_x_round_store_8x2_avx2
 (
@@ -5453,7 +5438,7 @@ dst_stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_x_round_store_16x2_avx2
 (
@@ -5520,7 +5505,7 @@ dst_stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_x_round_store_32_avx2
 (
@@ -5583,7 +5568,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_round_store_8x2_avx2
 (
@@ -5617,7 +5602,7 @@ dst_stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_round_store_16x2_avx2
 (
@@ -5684,7 +5669,7 @@ dst_stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_2tap_32_avg_avx2
 (
@@ -5741,7 +5726,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 sr_x_2tap_32_avg_avx2
 (
@@ -5808,7 +5793,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_2tap_2x2_sse4_1
 (
@@ -5882,7 +5867,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_2tap_4x2_ssse3
 (
@@ -5956,7 +5941,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_2tap_8x2_ssse3
 (
@@ -6091,7 +6076,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_2tap_8x2_avx2
 (
@@ -6276,7 +6261,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_2tap_16x2_avx2
 (
@@ -6369,7 +6354,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_2tap_32_avx2
 (
@@ -6467,7 +6452,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_4tap_2x2_ssse3
 (
@@ -6582,7 +6567,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_4tap_4x2_ssse3
 (
@@ -6697,7 +6682,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_4tap_8x2_avx2
 (
@@ -6743,7 +6728,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_4tap_16x2_avx2
 (
@@ -6806,7 +6791,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_4tap_32_avx2
 (
@@ -6890,7 +6875,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_6tap_2x2_ssse3
 (
@@ -7040,7 +7025,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 x_convolve_6tap_4x2_ssse3
 (
@@ -7190,7 +7175,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_6tap_8x2_avx2
 (
@@ -7236,7 +7221,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_6tap_16x2_avx2
 (
@@ -7299,7 +7284,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 void
 x_convolve_6tap_32_avx2
 (
@@ -7383,7 +7368,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 __m256i
 x_convolve_8tap_8x2_avx2
 (
@@ -7576,7 +7561,7 @@ filt
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_2tap_2x2_ssse3
 (
@@ -7707,7 +7692,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_2tap_4x2_ssse3
 (
@@ -7745,11 +7730,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -7781,11 +7762,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -7838,7 +7815,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 y_convolve_2tap_8x2_avx2
 (
@@ -7967,7 +7944,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_2tap_16x2_avx2
 (
@@ -8133,7 +8110,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_2tap_32_avx2
 (
@@ -8222,7 +8199,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_4tap_2x2_ssse3
 (
@@ -8336,7 +8313,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_4tap_4x2_ssse3
 (
@@ -8450,7 +8427,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 y_convolve_4tap_8x2_avx2
 (
@@ -8570,7 +8547,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_4tap_16x2_avx2
 (
@@ -8723,7 +8700,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_6tap_2x2_ssse3
 (
@@ -8839,7 +8816,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_4tap_32x2_avx2
 (
@@ -9041,7 +9018,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_6tap_4x2_ssse3
 (
@@ -9157,7 +9134,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 y_convolve_6tap_8x2_avx2
 (
@@ -9279,7 +9256,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_6tap_16x2_avx2
 (
@@ -9434,7 +9411,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_6tap_32x2_avx2
 (
@@ -9636,7 +9613,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_8tap_2x2_ssse3
 (
@@ -9752,7 +9729,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 y_convolve_8tap_4x2_ssse3
 (
@@ -9868,7 +9845,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 y_convolve_8tap_8x2_avx2
 (
@@ -9990,7 +9967,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_8tap_16x2_avx2
 (
@@ -10145,7 +10122,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 y_convolve_8tap_32x2_avx2
 (
@@ -10347,7 +10324,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_convolve_2tap_32_avx2
 (
@@ -10445,7 +10422,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_2tap_32_avx2
 (
@@ -10529,7 +10506,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_4tap_32_avx2
 (
@@ -10620,7 +10597,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_6tap_32_avx2
 (
@@ -10711,7 +10688,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 void
 xy_x_8tap_32_avx2
 (
@@ -10802,7 +10779,7 @@ d1
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_2tap_2x2_sse2
 (
@@ -10922,7 +10899,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_2tap_2x2_half_pel_sse2
 (
@@ -11025,7 +11002,7 @@ s_128
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_4x2_sse2
 (
@@ -11188,7 +11165,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_2tap_4x2_half_pel_sse2
 (
@@ -11297,7 +11274,7 @@ s_128
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_16_avx2
 (
@@ -11366,7 +11343,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_8x2_avx2
 (
@@ -11487,7 +11464,7 @@ r
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_convolve_2tap_8x2_half_pel_avx2
 (
@@ -11596,7 +11573,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_16x2_half_pel_avx2
 (
@@ -11691,7 +11668,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_store_16x2_avx2
 (
@@ -11745,7 +11722,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_16x2_avx2
 (
@@ -11844,7 +11821,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_32_avx2
 (
@@ -11943,7 +11920,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_32_all_avx2
 (
@@ -12003,7 +11980,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_half_pel_32_avx2
 (
@@ -12098,7 +12075,7 @@ s1
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_2tap_half_pel_32_all_avx2
 (
@@ -12179,7 +12156,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_4tap_2x2_sse2
 (
@@ -12213,11 +12190,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -12250,11 +12223,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -12316,7 +12285,7 @@ r
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_convolve_4tap_4x2_avx2
 (
@@ -12465,7 +12434,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_16_avx2
 (
@@ -12513,7 +12482,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_8x2_avx2
 (
@@ -12649,7 +12618,7 @@ ss_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_8x2_half_pel_avx2
 (
@@ -12792,7 +12761,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_16x2_avx2
 (
@@ -12997,7 +12966,7 @@ tt_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_32x2_avx2
 (
@@ -13205,7 +13174,7 @@ tt_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_4tap_16x2_half_pelavx2
 (
@@ -13410,7 +13379,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_6tap_2x2_sse2
 (
@@ -13444,11 +13413,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -13481,11 +13446,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -13557,7 +13518,7 @@ r
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_convolve_6tap_4x2_avx2
 (
@@ -13716,7 +13677,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_6tap_16_avx2
 (
@@ -13765,7 +13726,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_6tap_8x2_avx2
 (
@@ -13921,7 +13882,7 @@ ss_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_6tap_8x2_half_pel_avx2
 (
@@ -14149,7 +14110,7 @@ s_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_6tap_16x2_avx2
 (
@@ -14397,7 +14358,7 @@ tt_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_6tap_16x2_half_pel_avx2
 (
@@ -14742,7 +14703,7 @@ r
 ;
 }
 static
-INLINE
+inline
 __m128i
 xy_y_convolve_8tap_2x2_sse2
 (
@@ -14776,11 +14737,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -14813,11 +14770,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src
 +
@@ -14899,7 +14852,7 @@ r
 ;
 }
 static
-INLINE
+inline
 __m256i
 xy_y_convolve_8tap_4x2_avx2
 (
@@ -15068,7 +15021,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_8tap_16_avx2
 (
@@ -15116,7 +15069,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_8tap_8x2_avx2
 (
@@ -15292,7 +15245,7 @@ ss_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_8tap_8x2_half_pel_avx2
 (
@@ -15862,7 +15815,7 @@ tt_256
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_convolve_8tap_16x2_half_pel_avx2
 (
@@ -16294,7 +16247,7 @@ r
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_round_store_8x2_avx2
 (
@@ -16331,7 +16284,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 xy_y_round_store_16x2_avx2
 (
@@ -16382,7 +16335,7 @@ stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_round_store_32_avx2
 (
@@ -16445,7 +16398,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_round_store_32x2_avx2
 (
@@ -16482,7 +16435,7 @@ dst_stride
 ;
 }
 static
-INLINE
+inline
 void
 sr_y_2tap_32_avx2
 (
@@ -16735,12 +16688,10 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
+loadu_int32
 (
-int32_t
-*
-)
 src_ptr
+)
 )
 ;
 do
@@ -18020,12 +17971,10 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
+loadu_int32
 (
-int32_t
-*
-)
 src_ptr
+)
 )
 ;
 do
@@ -18037,11 +17986,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src_ptr
 +
@@ -18078,11 +18023,7 @@ s_32
 =
 _mm_cvtsi32_si128
 (
-*
-(
-int32_t
-*
-)
+loadu_int32
 (
 src_ptr
 +
@@ -24214,7 +24155,7 @@ w
 }
 }
 static
-INLINE
+inline
 void
 sr_x_2tap_32_avx2
 (
@@ -24256,7 +24197,7 @@ dst
 ;
 }
 static
-INLINE
+inline
 void
 sr_x_6tap_32_avx2
 (

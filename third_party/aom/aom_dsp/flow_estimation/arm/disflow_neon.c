@@ -77,7 +77,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 void
 compute_flow_error
 (
@@ -785,7 +785,7 @@ err_hi
 }
 }
 static
-INLINE
+inline
 void
 compute_flow_matrix
 (
@@ -1139,7 +1139,7 @@ det_inv
 ;
 }
 static
-INLINE
+inline
 void
 compute_flow_vector
 (

@@ -93,7 +93,7 @@ av1_temporal_denoiser
 h
 "
 static
-INLINE
+inline
 int
 horizontal_add_s8x16
 (
@@ -176,7 +176,7 @@ sum_diff
 endif
 }
 static
-INLINE
+inline
 int8x16_t
 denoiser_16x1_neon
 (
@@ -416,7 +416,7 @@ v_sum_diff_total
 ;
 }
 static
-INLINE
+inline
 int8x16_t
 denoiser_adjust_16x1_neon
 (

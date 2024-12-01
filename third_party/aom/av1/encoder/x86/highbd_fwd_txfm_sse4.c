@@ -119,7 +119,7 @@ av1_rtcd
 h
 "
 static
-INLINE
+inline
 void
 store_output_w4
 (
@@ -624,7 +624,7 @@ op
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_4x4
 (
@@ -1333,7 +1333,7 @@ u3
 ;
 }
 static
-INLINE
+inline
 void
 write_buffer_4x4
 (
@@ -2946,7 +2946,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_8x8
 (
@@ -3948,7 +3948,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 col_txfm_8x8_rounding
 (
@@ -4425,7 +4425,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 col_txfm_4x8_rounding
 (
@@ -4678,7 +4678,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 write_buffer_8x8
 (
@@ -4997,7 +4997,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 write_buffer_16x8
 (
@@ -9592,7 +9592,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 convert_8x8_to_16x16
 (
@@ -9781,7 +9781,7 @@ row_index
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_16x16
 (
@@ -9977,7 +9977,7 @@ out
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_8x16
 (
@@ -10063,7 +10063,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_8x4
 (
@@ -10147,7 +10147,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_16x4
 (
@@ -10231,7 +10231,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_4x8
 (
@@ -10321,7 +10321,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-INLINE
+inline
 void
 load_buffer_4x16
 (
@@ -10413,7 +10413,7 @@ shift
 #
 endif
 static
-INLINE
+inline
 void
 load_buffer_32x8n
 (
@@ -18663,7 +18663,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 flip_buf_sse4_1
 (

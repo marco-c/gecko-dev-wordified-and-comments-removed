@@ -66,7 +66,7 @@ mem
 h
 "
 static
-INLINE
+inline
 void
 hadamard_highbd_col8_first_pass
 (
@@ -330,7 +330,7 @@ c7
 ;
 }
 static
-INLINE
+inline
 void
 hadamard_highbd_col4_second_pass
 (

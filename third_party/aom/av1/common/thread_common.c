@@ -170,7 +170,7 @@ restoration
 h
 "
 static
-INLINE
+inline
 int
 get_sync_range
 (
@@ -214,8 +214,15 @@ return
 8
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 static
-INLINE
+inline
 int
 get_lr_sync_range
 (
@@ -274,6 +281,8 @@ return
 #
 endif
 }
+#
+endif
 void
 av1_loop_filter_alloc
 (
@@ -1014,7 +1023,7 @@ mutex_
 endif
 }
 static
-INLINE
+inline
 void
 cdef_row_mt_sync_read
 (
@@ -1126,7 +1135,7 @@ cdef_sync
 endif
 }
 static
-INLINE
+inline
 void
 cdef_row_mt_sync_write
 (
@@ -1206,7 +1215,7 @@ row
 endif
 }
 static
-INLINE
+inline
 void
 sync_read
 (
@@ -1346,7 +1355,7 @@ plane
 endif
 }
 static
-INLINE
+inline
 void
 sync_write
 (
@@ -2078,7 +2087,7 @@ plane
 ;
 }
 static
-AOM_INLINE
+inline
 void
 sync_lf_workers
 (
@@ -2909,8 +2918,15 @@ lpf_opt_level
 ;
 }
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 static
-INLINE
+inline
 void
 lr_sync_read
 (
@@ -3061,7 +3077,7 @@ plane
 endif
 }
 static
-INLINE
+inline
 void
 lr_sync_write
 (
@@ -5293,7 +5309,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 sync_lr_workers
 (
@@ -5896,8 +5912,10 @@ do_extend_border
 )
 ;
 }
+#
+endif
 static
-AOM_INLINE
+inline
 void
 reset_cdef_job_info
 (
@@ -5937,7 +5955,7 @@ false
 ;
 }
 static
-AOM_INLINE
+inline
 void
 launch_cdef_workers
 (
@@ -6023,7 +6041,7 @@ worker
 }
 }
 static
-AOM_INLINE
+inline
 void
 sync_cdef_workers
 (
@@ -6215,7 +6233,7 @@ end_of_frame
 }
 }
 static
-AOM_INLINE
+inline
 int
 get_cdef_row_next_job
 (

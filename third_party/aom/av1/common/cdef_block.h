@@ -231,7 +231,7 @@ coeff_shift
 )
 ;
 static
-INLINE
+inline
 void
 fill_rect
 (

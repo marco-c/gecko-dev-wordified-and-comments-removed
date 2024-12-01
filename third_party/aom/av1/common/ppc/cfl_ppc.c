@@ -101,7 +101,7 @@ long
 uint64x2_t
 ;
 static
-INLINE
+inline
 void
 subtract_average_vsx
 (

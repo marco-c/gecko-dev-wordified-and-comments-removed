@@ -281,7 +281,7 @@ while
 0
 )
 static
-INLINE
+inline
 void
 round_shift_16bit_ssse3
 (
@@ -871,7 +871,7 @@ TX_SIZES_ALL
 }
 ;
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_default
 (
@@ -959,6 +959,7 @@ eobxy
 ;
 }
 static
+const
 int
 eob_fill
 [
@@ -1001,7 +1002,7 @@ eob_fill
 }
 ;
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_h_identity
 (
@@ -1089,7 +1090,7 @@ temp_eoby
 ;
 }
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_v_identity
 (

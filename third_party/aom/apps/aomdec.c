@@ -891,7 +891,7 @@ NULL
 if
 CONFIG_LIBYUV
 static
-INLINE
+inline
 int
 libyuv_scale
 (

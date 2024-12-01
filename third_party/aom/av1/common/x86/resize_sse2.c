@@ -492,7 +492,7 @@ data
 stride
 ;
 static
-INLINE
+inline
 void
 prepare_filter_coeffs
 (
@@ -984,7 +984,7 @@ true
 ;
 }
 static
-INLINE
+inline
 __m128i
 blend
 (

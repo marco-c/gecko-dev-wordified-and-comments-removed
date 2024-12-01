@@ -46,7 +46,7 @@ transpose_neon
 h
 "
 static
-INLINE
+inline
 void
 hadamard_4x4_one_pass
 (

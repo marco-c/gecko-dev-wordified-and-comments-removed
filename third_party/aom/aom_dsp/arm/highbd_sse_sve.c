@@ -37,7 +37,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 void
 highbd_sse_8x1_neon
 (
@@ -92,7 +92,7 @@ abs_diff
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_128xh_sve
 (
@@ -526,7 +526,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_64xh_sve
 (
@@ -808,7 +808,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_32xh_sve
 (
@@ -1014,7 +1014,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_16xh_sve
 (
@@ -1130,7 +1130,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_8xh_sve
 (
@@ -1253,7 +1253,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_4xh_sve
 (
@@ -1355,7 +1355,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 int64_t
 highbd_sse_wxh_sve
 (

@@ -235,7 +235,7 @@ tpl_model
 h
 "
 static
-AOM_INLINE
+inline
 void
 accumulate_rd_opt
 (
@@ -494,7 +494,7 @@ newmv_or_intra_blocks
 ;
 }
 static
-AOM_INLINE
+inline
 void
 update_delta_lf_for_row_mt
 (
@@ -1526,7 +1526,7 @@ row_mt_sync
 }
 }
 static
-AOM_INLINE
+inline
 int
 get_sb_rows_in_frame
 (
@@ -1972,7 +1972,7 @@ allocated_sb_rows
 ;
 }
 static
-AOM_INLINE
+inline
 void
 assign_tile_to_thread
 (
@@ -2031,7 +2031,7 @@ tile_id
 }
 }
 static
-AOM_INLINE
+inline
 int
 get_next_job
 (
@@ -2110,7 +2110,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 switch_tile_and_get_next_job
 (
@@ -4329,6 +4329,10 @@ mb
 e_mbd
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 cfl_init
 (
 &
@@ -4346,6 +4350,8 @@ cm
 seq_params
 )
 ;
+#
+endif
 if
 (
 td
@@ -7118,7 +7124,7 @@ worker
 }
 }
 static
-AOM_INLINE
+inline
 int
 is_fpmt_config
 (
@@ -7552,7 +7558,7 @@ define
 MAX_THREADS
 100
 static
-AOM_INLINE
+inline
 int
 compute_max_num_enc_workers
 (
@@ -7899,7 +7905,7 @@ num_fp_contexts
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_workers_per_frame
 (
@@ -7925,7 +7931,7 @@ workers_per_frame
 ;
 }
 static
-AOM_INLINE
+inline
 void
 restore_workers_after_fpmt
 (
@@ -7939,7 +7945,7 @@ num_fpmt_workers_prepared
 )
 ;
 static
-AOM_INLINE
+inline
 void
 prepare_fpmt_workers
 (
@@ -8487,7 +8493,7 @@ parallel_frame_count
 ;
 }
 static
-AOM_INLINE
+inline
 void
 launch_fpmt_workers
 (
@@ -8577,7 +8583,7 @@ worker
 }
 }
 static
-AOM_INLINE
+inline
 void
 restore_workers_after_fpmt
 (
@@ -8837,7 +8843,7 @@ num_workers
 }
 }
 static
-AOM_INLINE
+inline
 void
 sync_fpmt_workers
 (
@@ -9113,7 +9119,7 @@ ref_buffers_used_map
 ;
 }
 static
-AOM_INLINE
+inline
 void
 launch_workers
 (
@@ -9202,7 +9208,7 @@ worker
 }
 }
 static
-AOM_INLINE
+inline
 void
 sync_enc_workers
 (
@@ -9394,7 +9400,7 @@ error
 ;
 }
 static
-AOM_INLINE
+inline
 void
 accumulate_counters_enc_workers
 (
@@ -9726,7 +9732,7 @@ endif
 }
 }
 static
-AOM_INLINE
+inline
 void
 prepare_enc_workers
 (
@@ -10616,7 +10622,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 void
 fp_prepare_enc_workers
 (
@@ -10806,7 +10812,7 @@ mb
 #
 endif
 static
-AOM_INLINE
+inline
 int
 compute_num_enc_row_mt_workers
 (
@@ -10938,7 +10944,7 @@ total_num_threads_row_mt
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_enc_tile_mt_workers
 (
@@ -11051,8 +11057,9 @@ max_threads
 )
 ;
 }
+static
 int
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 const
 AV1_COMP
@@ -11342,7 +11349,7 @@ i
 ;
 }
 static
-AOM_INLINE
+inline
 void
 compute_max_sb_rows_cols
 (
@@ -11747,7 +11754,7 @@ total_num_threads_row_mt
 ;
 }
 static
-AOM_INLINE
+inline
 int
 fp_compute_max_mb_rows
 (
@@ -13705,7 +13712,7 @@ cols
 endif
 }
 static
-AOM_INLINE
+inline
 void
 set_mode_estimation_done
 (
@@ -14524,7 +14531,7 @@ sync_range
 ;
 }
 static
-AOM_INLINE
+inline
 void
 prepare_tpl_workers
 (
@@ -15227,7 +15234,7 @@ next_tf_row
 ;
 }
 static
-AOM_INLINE
+inline
 int
 tf_get_next_job
 (
@@ -16177,7 +16184,7 @@ is_highbitdepth
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_next_gm_job
 (
@@ -16290,7 +16297,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 switch_direction
 (
@@ -16717,7 +16724,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 prepare_gm_workers
 (
@@ -16899,7 +16906,7 @@ gm_data
 }
 }
 static
-AOM_INLINE
+inline
 void
 assign_thread_to_dir
 (
@@ -16954,7 +16961,7 @@ frame_dir_idx
 }
 }
 static
-AOM_INLINE
+inline
 int
 compute_gm_workers
 (
@@ -17027,7 +17034,7 @@ num_gm_workers
 ;
 }
 static
-AOM_INLINE
+inline
 void
 gm_dealloc_thread_data
 (
@@ -17195,7 +17202,7 @@ num_workers
 #
 endif
 static
-AOM_INLINE
+inline
 int
 get_next_job_allintra
 (
@@ -17255,7 +17262,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 prepare_wiener_var_workers
 (
@@ -18320,7 +18327,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_next_pack_bs_tile_idx
 (
@@ -18376,7 +18383,7 @@ tile_idx
 ;
 }
 static
-AOM_INLINE
+inline
 size_t
 get_bs_chunk_size
 (
@@ -20401,7 +20408,7 @@ fbc
 }
 }
 static
-AOM_INLINE
+inline
 void
 cdef_reset_job_info
 (
@@ -20461,7 +20468,7 @@ false
 ;
 }
 static
-AOM_INLINE
+inline
 int
 cdef_get_next_job
 (
@@ -20977,7 +20984,7 @@ num_workers
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_tf_workers
 (
@@ -20999,8 +21006,7 @@ pass
 AOM_RC_SECOND_PASS
 )
 return
-(
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21009,7 +21015,6 @@ cpi
 oxcf
 .
 max_threads
-)
 )
 ;
 if
@@ -21077,7 +21082,7 @@ mb_rows
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_tpl_workers
 (
@@ -21087,7 +21092,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21100,7 +21105,7 @@ max_threads
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_lf_workers
 (
@@ -21110,7 +21115,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21123,7 +21128,7 @@ max_threads
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_cdef_workers
 (
@@ -21133,7 +21138,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21146,7 +21151,7 @@ max_threads
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_lr_workers
 (
@@ -21156,7 +21161,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21169,7 +21174,7 @@ max_threads
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_pack_bs_workers
 (
@@ -21211,7 +21216,7 @@ max_threads
 ;
 }
 static
-AOM_INLINE
+inline
 int
 compute_num_ai_workers
 (
@@ -21344,7 +21349,7 @@ num_mod_workers
 else
 num_mod_workers
 =
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -21395,7 +21400,7 @@ MOD_ENC
 :
 num_mod_workers
 =
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi

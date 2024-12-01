@@ -32,12 +32,21 @@ include
 "
 config
 /
+aom_config
+.
+h
+"
+#
+include
+"
+config
+/
 aom_dsp_rtcd
 .
 h
 "
 static
-INLINE
+inline
 uint64_t
 aom_sum_squares_2d_i16_4xh_sve
 (
@@ -119,7 +128,7 @@ sum_squares
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_squares_2d_i16_8xh_sve
 (
@@ -258,7 +267,7 @@ sum_squares
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_squares_2d_i16_large_sve
 (
@@ -421,7 +430,7 @@ sum_squares
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_squares_2d_i16_wxh_sve
 (
@@ -859,7 +868,7 @@ n
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_sse_2d_i16_4xh_sve
 (
@@ -966,7 +975,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_sse_2d_i16_8xh_sve
 (
@@ -1153,7 +1162,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_sum_sse_2d_i16_16xh_sve
 (
@@ -1461,8 +1470,11 @@ return
 sse
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 uint64_t
 aom_var_2d_u16_4xh_sve
 (
@@ -1605,7 +1617,7 @@ height
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_var_2d_u16_8xh_sve
 (
@@ -1766,7 +1778,7 @@ height
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_var_2d_u16_16xh_sve
 (
@@ -2036,7 +2048,7 @@ height
 ;
 }
 static
-INLINE
+inline
 uint64_t
 aom_var_2d_u16_large_sve
 (
@@ -2565,3 +2577,5 @@ height
 )
 ;
 }
+#
+endif

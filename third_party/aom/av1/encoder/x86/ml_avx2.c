@@ -135,7 +135,7 @@ mul1
 )
 ;
 static
-INLINE
+inline
 void
 nn_propagate_8to1
 (
@@ -357,7 +357,7 @@ bias_val
 }
 }
 static
-INLINE
+inline
 void
 nn_propagate_8to4
 (
@@ -581,7 +581,7 @@ in_result
 }
 }
 static
-INLINE
+inline
 void
 nn_propagate_8to8
 (
@@ -821,7 +821,7 @@ in_result
 }
 }
 static
-INLINE
+inline
 void
 nn_propagate_input_multiple_of_8
 (

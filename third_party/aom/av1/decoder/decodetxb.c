@@ -177,7 +177,7 @@ x
 ;
 }
 static
-INLINE
+inline
 int
 rec_eob_pos
 (
@@ -215,7 +215,7 @@ eob
 ;
 }
 static
-INLINE
+inline
 int
 get_dqv
 (
@@ -280,7 +280,7 @@ dqv
 ;
 }
 static
-INLINE
+inline
 void
 read_coeffs_reverse_2d
 (
@@ -455,7 +455,7 @@ level
 }
 }
 static
-INLINE
+inline
 void
 read_coeffs_reverse
 (
@@ -633,8 +633,9 @@ level
 ;
 }
 }
+static
 uint8_t
-av1_read_coeffs_txb
+read_coeffs_txb
 (
 const
 AV1_COMMON
@@ -2000,7 +2001,7 @@ cul_level
 ;
 }
 void
-av1_read_coeffs_txb_facade
+av1_read_coeffs_txb
 (
 const
 AV1_COMMON
@@ -2143,7 +2144,7 @@ const
 uint8_t
 cul_level
 =
-av1_read_coeffs_txb
+read_coeffs_txb
 (
 cm
 dcb

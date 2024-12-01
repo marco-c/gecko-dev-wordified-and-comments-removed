@@ -7,16 +7,6 @@ AOM_TEST_TRANSFORM_TEST_BASE_H_
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest

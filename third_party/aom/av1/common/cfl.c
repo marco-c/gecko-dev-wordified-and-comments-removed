@@ -457,7 +457,7 @@ height
 ;
 }
 static
-INLINE
+inline
 void
 cfl_pad
 (
@@ -860,7 +860,7 @@ CFL_SUB_AVG_FN
 c
 )
 static
-INLINE
+inline
 int
 cfl_idx_to_alpha
 (
@@ -943,7 +943,7 @@ abs_alpha_q3
 ;
 }
 static
-INLINE
+inline
 void
 cfl_predict_lbd_c
 (
@@ -1040,7 +1040,7 @@ lbd
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 cfl_predict_hbd_c
 (
@@ -2009,7 +2009,7 @@ c
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 cfl_subsample_hbd_fn
 cfl_subsampling_hbd
 (
@@ -2061,7 +2061,7 @@ tx_size
 #
 endif
 static
-INLINE
+inline
 cfl_subsample_lbd_fn
 cfl_subsampling_lbd
 (
@@ -2389,7 +2389,7 @@ recon_buf_q3
 endif
 }
 static
-INLINE
+inline
 void
 sub8x8_adjust_offset
 (
@@ -2647,7 +2647,7 @@ xd
 ;
 }
 static
-INLINE
+inline
 int
 max_intra_block_width
 (
@@ -2689,7 +2689,7 @@ tx_size
 ;
 }
 static
-INLINE
+inline
 int
 max_intra_block_height
 (

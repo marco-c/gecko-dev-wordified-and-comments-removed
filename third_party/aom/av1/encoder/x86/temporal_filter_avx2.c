@@ -2226,7 +2226,7 @@ v128a
 ;
 }
 static
-AOM_INLINE
+inline
 __m256
 approx_exp_avx2
 (

@@ -99,7 +99,7 @@ max_itr
 )
 ;
 static
-INLINE
+inline
 void
 av1_calc_indices
 (
@@ -193,7 +193,7 @@ dimension
 }
 }
 static
-INLINE
+inline
 void
 av1_k_means
 (
@@ -295,16 +295,6 @@ dimension
 ;
 }
 }
-int
-av1_remove_duplicates
-(
-int16_t
-*
-centroids
-int
-num_centroids
-)
-;
 int
 av1_index_color_cache
 (

@@ -688,7 +688,7 @@ ni
 }
 }
 static
-INLINE
+inline
 int
 get_max_bit
 (

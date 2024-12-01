@@ -130,7 +130,7 @@ best_sse
 )
 ;
 static
-INLINE
+inline
 int
 is_comp_rd_match
 (
@@ -504,7 +504,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 find_comp_rd_in_stats
 (
@@ -599,7 +599,7 @@ return
 ;
 }
 static
-INLINE
+inline
 bool
 enable_wedge_search
 (
@@ -623,7 +623,7 @@ disable_wedge_var_thresh
 ;
 }
 static
-INLINE
+inline
 bool
 enable_wedge_interinter_search
 (
@@ -664,7 +664,7 @@ enable_interinter_wedge
 ;
 }
 static
-INLINE
+inline
 bool
 enable_wedge_interintra_search
 (
@@ -2687,7 +2687,7 @@ rd
 ;
 }
 static
-AOM_INLINE
+inline
 void
 get_inter_predictors_masked_compound
 (
@@ -2913,7 +2913,7 @@ bw
 endif
 }
 static
-INLINE
+inline
 void
 compute_best_interintra_mode
 (
@@ -3239,7 +3239,7 @@ rd
 ;
 }
 static
-AOM_INLINE
+inline
 int64_t
 compute_rd_thresh
 (
@@ -3292,7 +3292,7 @@ mode_rd
 ;
 }
 static
-AOM_INLINE
+inline
 int64_t
 compute_best_wedge_interintra
 (
@@ -5299,7 +5299,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 compute_valid_comp_types
 (
@@ -5552,7 +5552,7 @@ valid_type_count
 ;
 }
 static
-INLINE
+inline
 void
 calc_masked_type_cost
 (
@@ -5711,7 +5711,7 @@ bsize
 ;
 }
 static
-INLINE
+inline
 void
 update_mbmi_for_compound_type
 (
@@ -5757,7 +5757,7 @@ COMPOUND_DISTWTD
 ;
 }
 static
-INLINE
+inline
 int
 populate_reuse_comp_type_data
 (
@@ -5915,7 +5915,7 @@ winner_comp_type
 ;
 }
 static
-INLINE
+inline
 void
 update_best_info
 (
@@ -5969,7 +5969,7 @@ rs2
 ;
 }
 static
-INLINE
+inline
 void
 update_mask_best_mv
 (
@@ -6029,7 +6029,7 @@ as_int
 ;
 }
 static
-INLINE
+inline
 void
 save_comp_rd_search_stat
 (
@@ -6338,7 +6338,7 @@ comp_rd_stats_idx
 }
 }
 static
-INLINE
+inline
 int
 get_interinter_compound_mask_rate
 (
@@ -6428,7 +6428,7 @@ av1_cost_literal
 }
 }
 static
-INLINE
+inline
 void
 backup_stats
 (
@@ -6503,7 +6503,7 @@ rs2
 ;
 }
 static
-INLINE
+inline
 int
 save_mask_search_results
 (
@@ -6536,7 +6536,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 prune_mode_by_skip_rd
 (
@@ -7642,6 +7642,7 @@ rd
 ;
 }
 static
+const
 int
 comp_type_rd_threshold_mul
 [
@@ -7655,6 +7656,7 @@ comp_type_rd_threshold_mul
 }
 ;
 static
+const
 int
 comp_type_rd_threshold_div
 [

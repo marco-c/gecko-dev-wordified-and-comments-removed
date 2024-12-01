@@ -182,7 +182,7 @@ is_integer
 )
 ;
 static
-INLINE
+inline
 MV_JOINT_TYPE
 av1_get_mv_joint
 (
@@ -218,7 +218,7 @@ row
 ;
 }
 static
-INLINE
+inline
 int
 av1_mv_class_base
 (
@@ -242,7 +242,7 @@ c
 ;
 }
 static
-INLINE
+inline
 uint8_t
 av1_log_in_base_2
 (
@@ -266,7 +266,7 @@ n
 ;
 }
 static
-INLINE
+inline
 MV_CLASS_TYPE
 av1_get_mv_class
 (
@@ -327,7 +327,7 @@ c
 ;
 }
 static
-INLINE
+inline
 int
 av1_check_newmv_joint_nonzero
 (

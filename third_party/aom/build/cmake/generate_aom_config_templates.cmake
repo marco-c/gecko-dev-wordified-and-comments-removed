@@ -13,6 +13,7 @@ Media
 All
 rights
 reserved
+.
 #
 #
 This
@@ -155,6 +156,7 @@ Media
 All
 rights
 reserved
+.
 \
 ;
 \
@@ -290,6 +292,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -427,6 +430,7 @@ Media
 All
 rights
 reserved
+.
 #
 #
 #
@@ -858,17 +862,6 @@ aom_build_vars
 )
 if
 (
-NOT
-"
-{
-aom_var
-}
-"
-STREQUAL
-"
-INLINE
-"
-AND
 NOT
 "
 {

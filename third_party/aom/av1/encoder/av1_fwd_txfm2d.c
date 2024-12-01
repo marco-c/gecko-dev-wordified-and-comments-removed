@@ -77,7 +77,7 @@ av1_fwd_txfm1d_cfg
 h
 "
 static
-INLINE
+inline
 TxfmFunc
 fwd_txfm_type_to_func
 (
@@ -302,7 +302,7 @@ bd
 }
 }
 static
-INLINE
+inline
 void
 fwd_txfm2d_c
 (
@@ -1106,6 +1106,10 @@ bd
 )
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
 void
 av1_fwd_txfm2d_4x16_c
 (
@@ -1159,6 +1163,8 @@ bd
 )
 ;
 }
+#
+endif
 void
 av1_fwd_txfm2d_16x4_c
 (
@@ -1208,6 +1214,10 @@ bd
 )
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
 void
 av1_fwd_txfm2d_8x32_c
 (
@@ -1310,6 +1320,8 @@ bd
 )
 ;
 }
+#
+endif
 void
 av1_fwd_txfm2d_4x4_c
 (
@@ -1843,6 +1855,10 @@ output
 )
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
 void
 av1_fwd_txfm2d_16x64_c
 (
@@ -2038,6 +2054,8 @@ output
 )
 ;
 }
+#
+endif
 static
 const
 int8_t
@@ -2677,7 +2695,7 @@ fidtx32_range_mult2
 }
 ;
 static
-INLINE
+inline
 void
 set_fwd_txfm_non_scale_range
 (

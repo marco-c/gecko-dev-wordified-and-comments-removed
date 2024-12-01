@@ -14,9 +14,9 @@ h
 #
 include
 "
-aom
+aom_dsp
 /
-aom_integer
+aom_dsp_common
 .
 h
 "

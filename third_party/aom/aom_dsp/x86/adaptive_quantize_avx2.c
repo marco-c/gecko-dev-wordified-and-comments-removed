@@ -44,7 +44,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 void
 load_b_values_avx2
 (
@@ -230,7 +230,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_coefficients_avx2
 (
@@ -281,7 +281,7 @@ coeff2
 ;
 }
 static
-INLINE
+inline
 void
 update_mask1_avx2
 (
@@ -358,7 +358,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 void
 update_mask0_avx2
 (
@@ -498,7 +498,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 void
 calculate_qcoeff_avx2
 (
@@ -562,7 +562,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 __m256i
 calculate_dqcoeff_avx2
 (
@@ -581,7 +581,7 @@ dequant
 ;
 }
 static
-INLINE
+inline
 void
 store_coefficients_avx2
 (

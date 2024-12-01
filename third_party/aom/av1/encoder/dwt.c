@@ -910,7 +910,7 @@ output
 64
 ]
 ;
-av1_fdwt8x8_uint8_input_c
+av1_fdwt8x8_uint8_input
 (
 input
 output

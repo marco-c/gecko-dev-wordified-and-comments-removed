@@ -2039,7 +2039,7 @@ rdmult
 }
 }
 static
-AOM_INLINE
+inline
 void
 inter_mode_data_push
 (
@@ -2188,7 +2188,7 @@ ld
 }
 }
 static
-AOM_INLINE
+inline
 void
 inter_modes_info_push
 (
@@ -2457,7 +2457,7 @@ return
 }
 }
 static
-AOM_INLINE
+inline
 void
 inter_modes_info_sort
 (
@@ -3727,20 +3727,15 @@ bd
 int
 rounding
 =
-shift
->
-0
-?
-1
-<
-<
 (
-shift
--
 1
+<
+<
+shift
 )
-:
-0
+>
+>
+1
 ;
 for
 (
@@ -3798,20 +3793,6 @@ i
 ]
 ;
 }
-assert
-(
-error
->
-=
-0
-&
-&
-sqcoeff
->
-=
-0
-)
-;
 error
 =
 (
@@ -4134,7 +4115,7 @@ mode_cost
 }
 }
 static
-INLINE
+inline
 PREDICTION_MODE
 get_single_mode
 (
@@ -4159,7 +4140,7 @@ this_mode
 ;
 }
 static
-AOM_INLINE
+inline
 void
 estimate_ref_frame_costs
 (
@@ -5557,7 +5538,7 @@ ALTREF_FRAME
 }
 }
 static
-AOM_INLINE
+inline
 void
 store_coding_context
 (
@@ -5673,7 +5654,7 @@ ref_frame
 ;
 }
 static
-AOM_INLINE
+inline
 void
 setup_buffer_ref_mvs_inter
 (
@@ -5942,7 +5923,7 @@ AOM_INTERP_EXTEND
 3
 )
 static
-INLINE
+inline
 void
 clamp_mv2
 (
@@ -6307,7 +6288,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 clamp_and_check_mv
 (
@@ -6394,7 +6375,7 @@ as_mv
 ;
 }
 static
-INLINE
+inline
 void
 clamp_mv_in_range
 (
@@ -7342,7 +7323,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 update_mode_start_end_index
 (
@@ -10259,7 +10240,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 check_repeat_ref_mv
 (
@@ -10463,7 +10444,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 get_this_mv
 (
@@ -10707,7 +10688,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 skip_nearest_near_mv_using_refmv_weight
 (
@@ -10916,7 +10897,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 build_cur_mv
 (
@@ -11135,7 +11116,7 @@ ret
 ;
 }
 static
-INLINE
+inline
 int
 get_drl_cost
 (
@@ -11374,7 +11355,7 @@ cost
 ;
 }
 static
-INLINE
+inline
 int
 is_single_newmv_valid
 (
@@ -12606,7 +12587,7 @@ est_dist
 ;
 }
 static
-INLINE
+inline
 void
 mask_set_bit
 (
@@ -12630,7 +12611,7 @@ index
 ;
 }
 static
-INLINE
+inline
 bool
 mask_check_bit
 (
@@ -13114,7 +13095,7 @@ num_motion_mode_cand
 motion_mode_best_st_candidate
 ;
 static
-AOM_INLINE
+inline
 int
 ref_match_found_in_nb_blocks
 (
@@ -13245,7 +13226,7 @@ match_found
 ;
 }
 static
-AOM_INLINE
+inline
 int
 find_ref_match_in_above_nbs
 (
@@ -13399,7 +13380,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 int
 find_ref_match_in_left_nbs
 (
@@ -13577,7 +13558,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 void
 get_block_level_tpl_stats
 (
@@ -13971,7 +13952,7 @@ best_inter_cost
 #
 endif
 static
-AOM_INLINE
+inline
 int
 prune_modes_based_on_tpl_stats
 (
@@ -14774,7 +14755,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 int
 prune_zero_mv_with_sse
 (
@@ -15147,7 +15128,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 bool
 fast_interp_search
 (
@@ -19904,7 +19885,7 @@ num_4x4_blk
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_target_weighted_pred
 (
@@ -19935,7 +19916,7 @@ left_stride
 )
 ;
 static
-AOM_INLINE
+inline
 void
 rd_pick_skip_mode
 (
@@ -20873,7 +20854,7 @@ skip_txfm
 }
 }
 static
-AOM_INLINE
+inline
 MB_MODE_INFO
 *
 get_winner_mode_stats
@@ -21026,7 +21007,7 @@ winner_mbmi
 ;
 }
 static
-AOM_INLINE
+inline
 void
 refine_winner_mode_tx
 (
@@ -22048,7 +22029,7 @@ REF_FRAMES
 mode_skip_mask_t
 ;
 static
-AOM_INLINE
+inline
 void
 disable_reference
 (
@@ -22097,7 +22078,7 @@ true
 }
 }
 static
-AOM_INLINE
+inline
 void
 disable_inter_references_except_altref
 (
@@ -22237,7 +22218,7 @@ REF_SET_REALTIME
 REF_SET
 ;
 static
-AOM_INLINE
+inline
 void
 default_skip_mask
 (
@@ -22471,7 +22452,7 @@ false
 }
 }
 static
-AOM_INLINE
+inline
 void
 init_mode_skip_mask
 (
@@ -23648,7 +23629,7 @@ INTER_SINGLE_ALL
 }
 }
 static
-AOM_INLINE
+inline
 void
 init_neighbor_pred_buf
 (
@@ -23903,7 +23884,7 @@ MAX_SB_SQUARE
 }
 }
 static
-AOM_INLINE
+inline
 int
 prune_ref_frame
 (
@@ -23986,7 +23967,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 int
 is_ref_frame_used_by_compound_ref
 (
@@ -24072,7 +24053,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 int
 is_ref_frame_used_in_cache
 (
@@ -24147,7 +24128,7 @@ cached_ref_type
 ;
 }
 static
-AOM_INLINE
+inline
 void
 set_params_rd_pick_inter_mode
 (
@@ -25095,7 +25076,7 @@ INT32_MAX
 }
 }
 static
-AOM_INLINE
+inline
 void
 init_single_inter_mode_search_state
 (
@@ -25292,7 +25273,7 @@ single_state_modelled_cnt
 ;
 }
 static
-AOM_INLINE
+inline
 void
 init_inter_mode_search_state
 (
@@ -26294,7 +26275,7 @@ picked_ref_frames_mask
 ;
 }
 static
-INLINE
+inline
 int
 match_ref_frame_pair
 (
@@ -27153,7 +27134,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 init_mbmi
 (
@@ -27315,7 +27296,7 @@ interp_filter
 ;
 }
 static
-AOM_INLINE
+inline
 void
 collect_single_states
 (
@@ -27715,7 +27696,7 @@ mode_offset
 ;
 }
 static
-AOM_INLINE
+inline
 void
 analyze_single_states
 (
@@ -29182,7 +29163,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 match_ref_frame
 (
@@ -29301,7 +29282,7 @@ ref_frame
 }
 }
 static
-INLINE
+inline
 int
 compound_skip_using_neighbor_refs
 (
@@ -29431,7 +29412,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 update_best_single_mode
 (
@@ -29484,7 +29465,7 @@ this_mode
 }
 }
 static
-INLINE
+inline
 int
 skip_compound_using_best_single_mode_ref
 (
@@ -29677,7 +29658,7 @@ return
 }
 }
 static
-INLINE
+inline
 void
 update_search_state
 (
@@ -29923,7 +29904,7 @@ num_4x4_blk
 ;
 }
 static
-AOM_INLINE
+inline
 void
 find_top_ref
 (
@@ -30032,7 +30013,7 @@ cutoff
 ;
 }
 static
-INLINE
+inline
 bool
 in_single_ref_cutoff
 (
@@ -30080,7 +30061,7 @@ ref_frame_rd
 ;
 }
 static
-AOM_INLINE
+inline
 void
 evaluate_motion_mode_for_winner_candidates
 (
@@ -33141,7 +33122,7 @@ num_motion_mode_cand
 }
 }
 static
-AOM_INLINE
+inline
 void
 search_intra_modes_in_interframe
 (
@@ -34262,7 +34243,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 void
 calculate_cost_from_tpl_data
 (
@@ -34568,7 +34549,7 @@ nh
 #
 endif
 static
-AOM_INLINE
+inline
 void
 skip_intra_modes_in_interframe
 (
@@ -35118,7 +35099,7 @@ skip_intra_modes
 }
 }
 static
-AOM_INLINE
+inline
 bool
 skip_interp_filter_search
 (
@@ -35217,7 +35198,7 @@ false
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_block_temp_var
 (
@@ -38918,7 +38899,7 @@ overlap
 }
 ;
 static
-INLINE
+inline
 void
 calc_target_weighted_pred_above
 (
@@ -39269,7 +39250,7 @@ tmp_stride
 }
 }
 static
-INLINE
+inline
 void
 calc_target_weighted_pred_left
 (
@@ -39685,7 +39666,7 @@ tmp_stride
 }
 }
 static
-AOM_INLINE
+inline
 void
 calc_target_weighted_pred
 (

@@ -524,6 +524,9 @@ j
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 cdef_copy_rect8_16bit_to_16bit_c
 (
@@ -597,6 +600,8 @@ j
 }
 }
 }
+#
+endif
 void
 av1_cdef_copy_sb8_16_lowbd
 (
@@ -651,6 +656,9 @@ vsize
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 av1_cdef_copy_sb8_16_highbd
 (
@@ -708,6 +716,8 @@ vsize
 )
 ;
 }
+#
+endif
 void
 av1_cdef_copy_sb8_16
 (
@@ -738,6 +748,9 @@ int
 hsize
 )
 {
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 if
 (
 cm
@@ -761,9 +774,18 @@ vsize
 hsize
 )
 ;
+return
+;
 }
+#
 else
-{
+(
+void
+)
+cm
+;
+#
+endif
 av1_cdef_copy_sb8_16_lowbd
 (
 dst
@@ -777,9 +799,8 @@ hsize
 )
 ;
 }
-}
 static
-INLINE
+inline
 void
 copy_rect
 (
@@ -1582,7 +1603,7 @@ CDEF_VERY_LARGE
 }
 }
 static
-INLINE
+inline
 void
 cdef_filter_fb
 (
@@ -1769,7 +1790,7 @@ coeff_shift
 }
 }
 static
-INLINE
+inline
 void
 cdef_init_fb_col
 (

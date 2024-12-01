@@ -78,7 +78,7 @@ obmc_intrinsic_sse4
 h
 "
 static
-INLINE
+inline
 void
 obmc_variance_w8n
 (
@@ -457,7 +457,7 @@ v_d
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_w16n
 (

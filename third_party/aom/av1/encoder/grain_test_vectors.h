@@ -4,6 +4,10 @@ AOM_AV1_ENCODER_GRAIN_TEST_VECTORS_H_
 #
 define
 AOM_AV1_ENCODER_GRAIN_TEST_VECTORS_H_
+#
+if
+!
+CONFIG_REALTIME_ONLY
 static
 aom_film_grain_t
 film_grain_test_vectors
@@ -2845,5 +2849,7 @@ film_grain_test_vectors
 }
 }
 ;
+#
+endif
 #
 endif

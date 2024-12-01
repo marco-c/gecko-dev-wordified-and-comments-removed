@@ -1053,7 +1053,7 @@ limit
 ;
 }
 static
-INLINE
+inline
 __m128i
 negm_epi16
 (

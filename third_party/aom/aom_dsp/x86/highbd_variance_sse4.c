@@ -42,7 +42,7 @@ aom_filter
 h
 "
 static
-INLINE
+inline
 void
 variance4x4_64_sse4_1
 (

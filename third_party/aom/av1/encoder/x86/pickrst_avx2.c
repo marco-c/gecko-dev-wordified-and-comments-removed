@@ -84,7 +84,7 @@ h
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 acc_stat_highbd_avx2
 (
@@ -229,7 +229,7 @@ dst1
 ;
 }
 static
-INLINE
+inline
 void
 acc_stat_highbd_win7_one_line_avx2
 (
@@ -877,7 +877,7 @@ dgd_ijkl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_highbd_win7_opt_avx2
 (
@@ -1373,7 +1373,7 @@ bit_depth_divider
 }
 }
 static
-INLINE
+inline
 void
 acc_stat_highbd_win5_one_line_avx2
 (
@@ -1953,7 +1953,7 @@ dgd_ijkl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_highbd_win5_opt_avx2
 (
@@ -2583,7 +2583,7 @@ bit_depth
 #
 endif
 static
-INLINE
+inline
 void
 madd_and_accum_avx2
 (
@@ -2612,7 +2612,7 @@ dgd
 ;
 }
 static
-INLINE
+inline
 __m256i
 convert_and_add_avx2
 (
@@ -2654,7 +2654,7 @@ s1
 ;
 }
 static
-INLINE
+inline
 __m256i
 hadd_four_32_to_64_avx2
 (
@@ -2710,7 +2710,7 @@ s_2
 ;
 }
 static
-INLINE
+inline
 __m128i
 add_64bit_lvl_avx2
 (
@@ -2778,7 +2778,7 @@ sum1
 ;
 }
 static
-INLINE
+inline
 __m128i
 convert_32_to_64_add_avx2
 (
@@ -2815,7 +2815,7 @@ s1
 ;
 }
 static
-INLINE
+inline
 int32_t
 calc_sum_of_register
 (
@@ -2888,7 +2888,7 @@ dst1
 ;
 }
 static
-INLINE
+inline
 void
 transpose_64bit_4x4_avx2
 (
@@ -3149,7 +3149,7 @@ mask_16bit
 }
 ;
 static
-INLINE
+inline
 uint8_t
 calc_dgd_buf_avg_avx2
 (
@@ -3463,7 +3463,7 @@ avg
 ;
 }
 static
-INLINE
+inline
 void
 sub_avg_block_avx2
 (
@@ -3631,7 +3631,7 @@ height
 ;
 }
 static
-INLINE
+inline
 void
 fill_lower_triag_elements_avx2
 (
@@ -9420,7 +9420,7 @@ use_downsampled_wiener_stats
 }
 }
 static
-INLINE
+inline
 __m256i
 pair_set_epi16
 (
@@ -9450,6 +9450,9 @@ a
 (
 (
 uint32_t
+)
+(
+uint16_t
 )
 (
 b
@@ -10667,7 +10670,7 @@ err
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_r1_avx2
 (
@@ -11369,7 +11372,7 @@ size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_avx2
 (
@@ -11798,7 +11801,7 @@ size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r1_avx2
 (
@@ -12378,8 +12381,11 @@ C
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_r1_high_bd_avx2
 (
@@ -13087,7 +13093,7 @@ size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_high_bd_avx2
 (
@@ -13522,7 +13528,7 @@ size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r1_high_bd_avx2
 (
@@ -14108,9 +14114,6 @@ C
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 int64_t
 av1_highbd_pixel_proj_error_avx2
 (

@@ -45,7 +45,7 @@ current_q
 )
 ;
 static
-AOM_INLINE
+inline
 int
 av1_frame_allows_smart_mv
 (
@@ -111,7 +111,7 @@ OVERLAY_UPDATE
 #
 endif
 static
-AOM_INLINE
+inline
 void
 av1_set_high_precision_mv
 (

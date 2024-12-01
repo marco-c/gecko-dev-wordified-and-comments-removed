@@ -111,7 +111,7 @@ mem
 h
 "
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve8_4
 (
@@ -263,7 +263,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve8_8
 (

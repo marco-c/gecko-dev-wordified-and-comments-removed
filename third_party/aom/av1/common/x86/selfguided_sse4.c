@@ -718,7 +718,7 @@ above2
 }
 }
 static
-INLINE
+inline
 __m128i
 boxsum_from_ii
 (
@@ -1503,7 +1503,7 @@ b_res
 }
 }
 static
-INLINE
+inline
 __m128i
 cross_sum
 (
@@ -2373,7 +2373,7 @@ b_res
 }
 }
 static
-INLINE
+inline
 __m128i
 cross_sum_fast_even_row
 (
@@ -2514,7 +2514,7 @@ sixes
 ;
 }
 static
-INLINE
+inline
 __m128i
 cross_sum_fast_odd_row
 (

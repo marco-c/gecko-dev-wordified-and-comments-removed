@@ -375,7 +375,7 @@ index
 ;
 }
 static
-AOM_INLINE
+inline
 void
 reset_cdf_symbol_counter
 (
@@ -499,7 +499,7 @@ while
 0
 )
 static
-AOM_INLINE
+inline
 void
 reset_nmv_counter
 (
