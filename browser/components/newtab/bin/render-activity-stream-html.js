@@ -350,7 +350,7 @@ MPL
 >
 <
 !
-DOCTYPE
+doctype
 html
 >
 <

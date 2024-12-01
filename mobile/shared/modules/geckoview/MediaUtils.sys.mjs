@@ -118,6 +118,7 @@ aElement
 seekable
 audioTrackCount
 :
+(
 aElement
 .
 audioTracks
@@ -142,12 +143,14 @@ isAudioElement
 (
 aElement
 )
+)
 ?
 1
 :
 0
 videoTrackCount
 :
+(
 aElement
 .
 videoTracks
@@ -161,6 +164,7 @@ MediaUtils
 isVideoElement
 (
 aElement
+)
 )
 ?
 1

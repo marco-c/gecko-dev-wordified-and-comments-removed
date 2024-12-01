@@ -2748,6 +2748,7 @@ char
 ?
 char
 :
+(
 matches
 [
 char
@@ -2756,6 +2757,7 @@ char
 ?
 "
 "
+)
 ;
 }
 )

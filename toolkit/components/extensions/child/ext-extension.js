@@ -207,6 +207,7 @@ viewType
 background
 "
 ?
+(
 bc
 ?
 .
@@ -215,6 +216,7 @@ chromeOuterWindowID
 ?
 -
 1
+)
 :
 -
 1

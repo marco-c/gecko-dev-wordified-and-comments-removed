@@ -2731,11 +2731,13 @@ formatValue
 typeL10nId
 )
 :
+(
 type
 ?
 ?
 "
 "
+)
 ;
 /
 /

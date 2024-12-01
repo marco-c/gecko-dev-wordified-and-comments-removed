@@ -7888,6 +7888,7 @@ manifest
 .
 options_ui
 ?
+(
 this
 .
 manifest
@@ -7898,6 +7899,7 @@ open_in_tab
 ?
 ?
 false
+)
 :
 true
 /
