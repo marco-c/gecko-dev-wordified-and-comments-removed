@@ -171,12 +171,6 @@ TEST_URI_2
 1
 "
 TEST_URI_2
-+
-"
-#
-inject
-"
-TEST_URI_2
 TEST_URI
 ]
 )

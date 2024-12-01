@@ -60,6 +60,14 @@ function
 {
 content
 .
+document
+.
+notifyUserGestureActivation
+(
+)
+;
+content
+.
 history
 .
 pushState

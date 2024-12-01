@@ -7952,7 +7952,7 @@ browsingContext
 embedderElement
 ?
 .
-canGoBack
+canGoBackIgnoringUserInteraction
 )
 {
 return

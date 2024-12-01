@@ -161,6 +161,7 @@ Index
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Reload
 (
@@ -176,8 +177,11 @@ CanGo
 (
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Go
 (
@@ -208,6 +212,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GotoIndex
 (
@@ -337,6 +342,7 @@ aOffset
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -374,6 +380,7 @@ NS_OK
 }
 private
 :
+const
 RefPtr
 <
 ChildSHistory
