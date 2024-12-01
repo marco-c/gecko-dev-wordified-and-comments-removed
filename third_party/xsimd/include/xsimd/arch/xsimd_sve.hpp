@@ -6016,7 +6016,7 @@ batch
 T
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <

@@ -7769,7 +7769,7 @@ batch
 double
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <

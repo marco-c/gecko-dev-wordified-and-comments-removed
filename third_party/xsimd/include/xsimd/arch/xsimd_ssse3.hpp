@@ -669,7 +669,7 @@ batch
 uint16_t
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <
@@ -708,7 +708,7 @@ batch
 int16_t
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <
@@ -731,7 +731,7 @@ bitwise_cast
 int16_t
 >
 (
-rotate_right
+rotate_left
 <
 N
 A

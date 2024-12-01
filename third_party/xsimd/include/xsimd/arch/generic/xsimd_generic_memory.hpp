@@ -2465,7 +2465,7 @@ batch
 T
 A
 >
-rotate_left
+rotate_right
 (
 batch
 <
@@ -2550,7 +2550,7 @@ T
 >
 A
 >
-rotate_left
+rotate_right
 (
 batch
 <
@@ -2575,7 +2575,7 @@ noexcept
 {
 return
 {
-rotate_left
+rotate_right
 <
 N
 >
@@ -2586,7 +2586,7 @@ real
 (
 )
 )
-rotate_left
+rotate_right
 <
 N
 >
@@ -2615,7 +2615,7 @@ batch
 T
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <
@@ -2700,7 +2700,7 @@ T
 >
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <
@@ -2725,7 +2725,7 @@ noexcept
 {
 return
 {
-rotate_right
+rotate_left
 <
 N
 >
@@ -2736,7 +2736,7 @@ real
 (
 )
 )
-rotate_right
+rotate_left
 <
 N
 >
