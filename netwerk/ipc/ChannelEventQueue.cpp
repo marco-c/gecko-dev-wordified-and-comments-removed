@@ -268,9 +268,12 @@ rv
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
+"
+IsOnCurrentThread
+failed
+"
 )
 ;
 isCurrentThread
