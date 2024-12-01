@@ -455,7 +455,7 @@ currentTime
 "
 currentTime
 reflects
-progress
+overallProgress
 as
 a
 percentage
@@ -498,10 +498,10 @@ a
 scroll
 animation
 as
-a
 "
 +
 "
+a
 number
 between
 0
@@ -635,7 +635,7 @@ should
 be
 100
 %
-progress
+overallProgress
 should
 reflect
 40
@@ -729,7 +729,7 @@ should
 be
 50
 %
-progress
+overallProgress
 should
 still
 reflect
@@ -783,6 +783,7 @@ overallProgress
 "
 The
 overallProgress
+is
 should
 match
 the
@@ -804,7 +805,6 @@ progress
 of
 a
 scroll
-animation
 "
 +
 "
@@ -1030,6 +1030,9 @@ view
 timeline
 range
 scroll
+"
++
+"
 through
 .
 "
@@ -1047,7 +1050,6 @@ progress
 of
 a
 scroll
-animation
 "
 +
 "
@@ -1229,12 +1231,12 @@ overallProgress
 01
 "
 overallProgress
-is
-zero
-when
 "
 +
 "
+is
+zero
+when
 scroll
 offset
 is
@@ -1291,12 +1293,12 @@ overallProgress
 01
 "
 overallProgress
-is
-one
-when
 "
 +
 "
+is
+one
+when
 scroll
 offset
 goes
@@ -1310,7 +1312,7 @@ end
 ;
 }
 "
-overallProgresss
+overallProgress
 of
 a
 view
