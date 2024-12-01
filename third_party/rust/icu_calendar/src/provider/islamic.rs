@@ -678,6 +678,7 @@ Deserialize
 [
 repr
 (
+C
 packed
 )
 ]
