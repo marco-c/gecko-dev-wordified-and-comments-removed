@@ -642,7 +642,7 @@ code
 JavaScript
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -655,7 +655,9 @@ common
 /
 httpd
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -702,7 +704,7 @@ t
 use
 ChromeUtils
 .
-import
+importESModule
 .
 server
 .
@@ -1032,7 +1034,9 @@ way
 edit
 httpd
 .
-js
+sys
+.
+mjs
 <
 https
 :
@@ -1056,7 +1060,9 @@ httpserver
 /
 httpd
 .
-js
+sys
+.
+mjs
 >
 __
 and
