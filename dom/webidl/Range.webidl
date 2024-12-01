@@ -571,7 +571,11 @@ UseCounter
 DocumentFragment
 createContextualFragment
 (
+(
+TrustedHTML
+or
 DOMString
+)
 fragment
 )
 ;
