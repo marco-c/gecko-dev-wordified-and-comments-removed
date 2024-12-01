@@ -1079,7 +1079,6 @@ rtc_build_ssl
 rtc_ssl_root
 =
 "
-unused
 "
 #
 Enable
@@ -2625,8 +2624,7 @@ builds
 .
 enable_libaom
 =
-!
-build_with_mozilla
+true
 #
 Make
 it
