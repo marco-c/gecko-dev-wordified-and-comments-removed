@@ -16480,16 +16480,10 @@ resultCoord
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 (
 aOriginalCoord
 min
-)
 max
 )
 ;
