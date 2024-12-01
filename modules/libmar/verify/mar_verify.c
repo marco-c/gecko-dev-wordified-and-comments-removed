@@ -607,7 +607,7 @@ ERROR
 Could
 not
 init
-crytpo
+crypto
 library
 .
 \
