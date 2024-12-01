@@ -6,7 +6,7 @@ version
 "
 50
 .
-15
+20
 "
 "
 log_list_timestamp
@@ -17,11 +17,11 @@ log_list_timestamp
 -
 11
 -
-24T12
+27T12
 :
-56
+57
 :
-20Z
+56Z
 "
 "
 operators
