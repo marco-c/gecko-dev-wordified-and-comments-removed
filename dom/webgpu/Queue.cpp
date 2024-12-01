@@ -852,7 +852,7 @@ const
 dom
 :
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 &
 aDestination
 const
@@ -866,7 +866,7 @@ const
 dom
 :
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 &
 aDataLayout
 const
@@ -1466,14 +1466,14 @@ const
 dom
 :
 :
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 &
 aSource
 const
 dom
 :
 :
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 &
 aDestination
 const
