@@ -10326,7 +10326,7 @@ this
 .
 window
 .
-CustomTitlebar
+TabsInTitlebar
 .
 systemSupported
 ;

@@ -2727,7 +2727,7 @@ e
 g
 WindowSize
 and
-CustomTitlebar
+TabsInTitlebar
 return
 Promise
 .

@@ -1039,7 +1039,7 @@ browser
 /
 browser
 -
-customtitlebar
+tabsintitlebar
 .
 js
 (
@@ -1047,7 +1047,7 @@ content
 /
 browser
 -
-customtitlebar
+tabsintitlebar
 .
 js
 )

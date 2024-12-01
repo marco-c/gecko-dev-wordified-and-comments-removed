@@ -1778,7 +1778,7 @@ event
 {
 if
 (
-CustomTitlebar
+TabsInTitlebar
 .
 enabled
 &

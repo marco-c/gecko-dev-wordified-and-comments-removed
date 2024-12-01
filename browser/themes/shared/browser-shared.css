@@ -1943,7 +1943,7 @@ anyways
 :
 root
 [
-customtitlebar
+tabsintitlebar
 ]
 :
 not
@@ -2171,13 +2171,13 @@ drag
 :
 root
 [
-customtitlebar
+tabsintitlebar
 ]
 &
 :
 root
 [
-customtitlebar
+tabsintitlebar
 ]
 &
 #
@@ -2356,7 +2356,7 @@ root
 not
 (
 [
-customtitlebar
+chromemargin
 ]
 [
 inFullscreen
@@ -2387,7 +2387,7 @@ root
 not
 (
 [
-customtitlebar
+tabsintitlebar
 ]
 )
 &
@@ -2808,7 +2808,7 @@ root
 not
 (
 [
-customtitlebar
+tabsintitlebar
 ]
 [
 sizemode
@@ -2898,7 +2898,7 @@ menubar
 :
 root
 [
-customtitlebar
+tabsintitlebar
 ]
 #
 navigator
@@ -2967,7 +2967,7 @@ bar
 :
 root
 [
-customtitlebar
+tabsintitlebar
 ]
 #
 navigator

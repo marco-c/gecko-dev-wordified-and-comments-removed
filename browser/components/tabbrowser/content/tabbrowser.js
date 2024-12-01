@@ -31377,7 +31377,7 @@ hideTabstrip
 =
 true
 ;
-CustomTitlebar
+TabsInTitlebar
 .
 allowedBy
 (
@@ -31392,7 +31392,7 @@ true
 }
 else
 {
-CustomTitlebar
+TabsInTitlebar
 .
 allowedBy
 (
@@ -31429,7 +31429,7 @@ browser
 -
 titlebar
 "
-CustomTitlebar
+TabsInTitlebar
 .
 enabled
 &
@@ -31457,7 +31457,7 @@ toolbox
 -
 background
 "
-CustomTitlebar
+TabsInTitlebar
 .
 enabled
 &

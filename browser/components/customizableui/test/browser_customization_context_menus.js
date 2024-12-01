@@ -529,7 +529,7 @@ titlebar_spacer_context
 if
 (
 !
-CustomTitlebar
+TabsInTitlebar
 .
 enabled
 )
