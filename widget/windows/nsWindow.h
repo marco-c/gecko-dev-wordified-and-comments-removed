@@ -3605,11 +3605,6 @@ mCustomNonClient
 =
 false
 ;
-bool
-mUseResizeMarginOverrides
-=
-false
-;
 mozilla
 :
 :
@@ -3627,6 +3622,15 @@ mozilla
 :
 LayoutDeviceIntCoord
 mCaptionHeight
+;
+mozilla
+:
+:
+LayoutDeviceIntCoord
+mCustomResizeMargin
+{
+0
+}
 ;
 double
 mDefaultScale
