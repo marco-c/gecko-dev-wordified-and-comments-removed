@@ -40,7 +40,6 @@ BASE_URL
 .
 pathname
 ;
-const
 RESOURCE_PATH
 =
 {
