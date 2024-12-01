@@ -1261,11 +1261,9 @@ context
 -
 menu
 -
-strip
+copy
 -
-on
--
-share
+clean
 -
 link
 "

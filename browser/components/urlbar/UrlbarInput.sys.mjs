@@ -23238,11 +23238,11 @@ text
 -
 action
 -
-strip
+copy
 -
-on
+clean
 -
-share
+link
 "
 )
 ;
