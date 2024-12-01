@@ -68,7 +68,7 @@ g_blend_a64_mask_shuffle
 }
 ;
 static
-inline
+INLINE
 __m128i
 blend_4
 (
@@ -173,7 +173,7 @@ v_res_w
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_8
 (
@@ -278,7 +278,7 @@ v_res_w
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_4_u8
 (
@@ -368,7 +368,7 @@ v_res
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_8_u8
 (
@@ -458,7 +458,7 @@ v_res
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_16_u8
 (
@@ -602,7 +602,7 @@ v_m1_w
 )
 ;
 static
-inline
+INLINE
 __m128i
 blend_4_b10
 (
@@ -685,7 +685,7 @@ v_res_w
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_8_b10
 (
@@ -768,7 +768,7 @@ v_res_w
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_4_b12
 (
@@ -872,7 +872,7 @@ v_res_w
 ;
 }
 static
-inline
+INLINE
 __m128i
 blend_8_b12
 (

@@ -69,7 +69,7 @@ v
 8
 )
 static
-inline
+INLINE
 void
 highbd_transpose6x6_sse2
 (
@@ -276,7 +276,7 @@ w5
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose4x8_8x4_low_sse2
 (
@@ -393,7 +393,7 @@ zero
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose4x8_8x4_high_sse2
 (
@@ -510,7 +510,7 @@ zero
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose4x8_8x4_sse2
 (
@@ -578,7 +578,7 @@ d7
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose8x8_low_sse2
 (
@@ -738,7 +738,7 @@ ww1
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose8x8_high_sse2
 (
@@ -898,7 +898,7 @@ ww1
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose8x8_sse2
 (
@@ -986,7 +986,7 @@ d7
 ;
 }
 static
-inline
+INLINE
 void
 highbd_transpose8x16_sse2
 (
@@ -1114,7 +1114,7 @@ d7
 ;
 }
 static
-inline
+INLINE
 void
 transpose4x8_8x4_low_sse2
 (
@@ -1209,7 +1209,7 @@ d0
 ;
 }
 static
-inline
+INLINE
 void
 transpose4x8_8x4_sse2
 (
@@ -1359,7 +1359,7 @@ ww1
 ;
 }
 static
-inline
+INLINE
 void
 transpose8x8_low_sse2
 (
@@ -1505,7 +1505,7 @@ d2
 ;
 }
 static
-inline
+INLINE
 void
 transpose8x8_sse2
 (
@@ -1667,7 +1667,7 @@ w7
 ;
 }
 static
-inline
+INLINE
 void
 transpose16x8_8x16_sse2
 (
@@ -2047,7 +2047,7 @@ w15
 ;
 }
 static
-inline
+INLINE
 void
 transpose8x16_16x8_sse2
 (
@@ -2403,7 +2403,7 @@ w15
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16x8
 (
@@ -3047,7 +3047,7 @@ x15
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16x8_to_8x16
 (
@@ -3655,7 +3655,7 @@ x_s37
 ;
 }
 static
-inline
+INLINE
 void
 transpose_8xn
 (

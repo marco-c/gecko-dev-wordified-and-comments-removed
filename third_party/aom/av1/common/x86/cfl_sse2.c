@@ -26,7 +26,7 @@ av1_rtcd
 h
 "
 static
-inline
+INLINE
 __m128i
 fill_sum_epi32
 (
@@ -71,7 +71,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+INLINE
 void
 subtract_average_sse2
 (

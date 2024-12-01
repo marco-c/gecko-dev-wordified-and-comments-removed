@@ -24,7 +24,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 void
 read_coeff
 (
@@ -127,7 +127,7 @@ addr
 }
 }
 static
-inline
+INLINE
 void
 av1_block_error_block_size16_avx2
 (
@@ -215,7 +215,7 @@ _mm256_setzero_si256
 ;
 }
 static
-inline
+INLINE
 void
 av1_block_error_block_size32_avx2
 (
@@ -396,7 +396,7 @@ sum_temp_0
 ;
 }
 static
-inline
+INLINE
 void
 av1_block_error_block_size64_avx2
 (

@@ -195,7 +195,7 @@ endif
 }
 ;
 static
-inline
+INLINE
 void
 aom_usec_timer_start
 (
@@ -236,7 +236,7 @@ NULL
 endif
 }
 static
-inline
+INLINE
 void
 aom_usec_timer_mark
 (
@@ -277,7 +277,7 @@ NULL
 endif
 }
 static
-inline
+INLINE
 int64_t
 aom_usec_timer_elapsed
 (
@@ -398,7 +398,7 @@ dummy
 }
 ;
 static
-inline
+INLINE
 void
 aom_usec_timer_start
 (
@@ -415,7 +415,7 @@ t
 ;
 }
 static
-inline
+INLINE
 void
 aom_usec_timer_mark
 (
@@ -432,7 +432,7 @@ t
 ;
 }
 static
-inline
+INLINE
 int
 aom_usec_timer_elapsed
 (

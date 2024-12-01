@@ -261,7 +261,7 @@ mi_col
 )
 ;
 static
-inline
+INLINE
 int
 av1_cost_skip_txb
 (

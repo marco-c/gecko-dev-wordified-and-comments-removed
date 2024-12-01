@@ -63,7 +63,7 @@ AV1_PROB_COST_SHIFT
 )
 )
 static
-inline
+INLINE
 int
 av1_cost_symbol
 (

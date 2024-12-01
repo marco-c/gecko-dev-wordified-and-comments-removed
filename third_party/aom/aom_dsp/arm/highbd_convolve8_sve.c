@@ -82,7 +82,7 @@ mem_neon
 h
 "
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4_h
 (
@@ -238,7 +238,7 @@ max
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8_h
 (
@@ -519,7 +519,7 @@ max
 ;
 }
 static
-inline
+INLINE
 void
 highbd_convolve8_horiz_8tap_sve
 (
@@ -1236,7 +1236,7 @@ kDeinterleaveTbl
 }
 ;
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve4_4_h
 (
@@ -1339,7 +1339,7 @@ max
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve4_8_h
 (
@@ -1488,7 +1488,7 @@ max
 ;
 }
 static
-inline
+INLINE
 void
 highbd_convolve8_horiz_4tap_sve
 (
@@ -2220,7 +2220,7 @@ kDotProdMergeBlockTbl
 }
 ;
 static
-inline
+INLINE
 void
 transpose_concat_4x4
 (
@@ -2352,7 +2352,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 transpose_concat_8x4
 (
@@ -2501,7 +2501,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 aom_tbl2x4_s16
 (
@@ -2662,7 +2662,7 @@ tbl
 ;
 }
 static
-inline
+INLINE
 void
 aom_tbl2x2_s16
 (
@@ -2755,7 +2755,7 @@ tbl
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4_v
 (
@@ -2896,7 +2896,7 @@ max
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8_v
 (
@@ -3142,7 +3142,7 @@ max
 ;
 }
 static
-inline
+INLINE
 void
 highbd_convolve8_vert_8tap_sve
 (

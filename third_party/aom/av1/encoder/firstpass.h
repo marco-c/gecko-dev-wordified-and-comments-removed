@@ -338,6 +338,17 @@ int
 offset_from_cur
 )
 ;
+int
+av1_firstpass_info_past_count
+(
+const
+FIRSTPASS_INFO
+*
+firstpass_info
+int
+offset_from_cur
+)
+;
 #
 define
 FC_ANIMATION_THRESH
@@ -735,7 +746,7 @@ struct
 TileDataEnc
 ;
 static
-inline
+INLINE
 int
 is_fp_wavelet_energy_invalid
 (
@@ -765,7 +776,7 @@ frame_avg_wavelet_energy
 ;
 }
 static
-inline
+INLINE
 BLOCK_SIZE
 get_fp_block_size
 (

@@ -220,9 +220,8 @@ off
 1
 ;
 }
-static
 void
-overwrite_bit
+aom_wb_overwrite_bit
 (
 struct
 aom_write_bit_buffer
@@ -448,7 +447,7 @@ bit
 -
 -
 )
-overwrite_bit
+aom_wb_overwrite_bit
 (
 wb
 (

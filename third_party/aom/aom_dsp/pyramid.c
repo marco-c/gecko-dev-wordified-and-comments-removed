@@ -693,7 +693,7 @@ pyr
 ;
 }
 static
-inline
+INLINE
 void
 fill_border
 (
@@ -885,7 +885,7 @@ PYRAMID_PADDING
 }
 }
 static
-inline
+INLINE
 int
 fill_pyramid
 (

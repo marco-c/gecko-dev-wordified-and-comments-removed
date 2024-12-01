@@ -897,7 +897,6 @@ tx_size_
 }
 ;
 static
-const
 int
 max_error_ls
 [
@@ -927,7 +926,6 @@ TX_SIZES_ALL
 }
 ;
 static
-const
 double
 avg_error_ls
 [

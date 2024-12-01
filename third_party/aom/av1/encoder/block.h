@@ -2060,9 +2060,6 @@ min_dist_inter_uv
 int
 color_palette_thresh
 ;
-int
-force_color_check_block_level
-;
 tran_low_t
 *
 dqcoeff_buf
@@ -2162,7 +2159,7 @@ MACROBLOCK
 undef
 SINGLE_REF_MODES
 static
-inline
+INLINE
 void
 zero_winner_mode_stats
 (
@@ -2358,7 +2355,7 @@ mode_index
 }
 }
 static
-inline
+INLINE
 int
 is_rect_tx_allowed_bsize
 (
@@ -2407,7 +2404,7 @@ bsize
 ;
 }
 static
-inline
+INLINE
 int
 is_rect_tx_allowed
 (
@@ -2445,7 +2442,7 @@ segment_id
 ;
 }
 static
-inline
+INLINE
 int
 tx_size_to_depth
 (
@@ -2501,7 +2498,7 @@ depth
 ;
 }
 static
-inline
+INLINE
 void
 set_blk_skip
 (
@@ -2611,7 +2608,7 @@ plane
 endif
 }
 static
-inline
+INLINE
 int
 is_blk_skip
 (

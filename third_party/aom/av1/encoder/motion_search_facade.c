@@ -261,7 +261,7 @@ speed
 ;
 }
 static
-inline
+INLINE
 void
 get_mv_candidate_from_tpl
 (
@@ -5130,7 +5130,7 @@ bestsme
 ;
 }
 static
-inline
+AOM_INLINE
 void
 build_second_inter_pred
 (
@@ -5393,9 +5393,8 @@ inter_pred_params
 )
 ;
 }
-static
 int
-compound_single_motion_search_interinter
+av1_compound_single_motion_search_interinter
 (
 const
 AV1_COMP
@@ -5535,7 +5534,7 @@ ref_idx
 ;
 }
 static
-inline
+AOM_INLINE
 void
 do_masked_motion_search_indexed
 (
@@ -5663,7 +5662,7 @@ which
 1
 )
 {
-compound_single_motion_search_interinter
+av1_compound_single_motion_search_interinter
 (
 cpi
 x

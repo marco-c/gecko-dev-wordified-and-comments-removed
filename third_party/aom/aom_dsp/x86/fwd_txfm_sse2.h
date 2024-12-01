@@ -15,7 +15,7 @@ C
 #
 endif
 static
-inline
+INLINE
 __m128i
 k_madd_epi32
 (
@@ -70,7 +70,7 @@ buf1
 ;
 }
 static
-inline
+INLINE
 __m128i
 k_packs_epi64
 (
@@ -119,7 +119,7 @@ buf1
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x2
 (
@@ -208,7 +208,7 @@ cmp0
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x4
 (
@@ -351,7 +351,7 @@ cmp0
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x8
 (
@@ -420,7 +420,7 @@ res1
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x12
 (
@@ -520,7 +520,7 @@ res1
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x16
 (
@@ -653,7 +653,7 @@ res1
 ;
 }
 static
-inline
+INLINE
 int
 check_epi16_overflow_x32
 (
@@ -918,7 +918,7 @@ res1
 ;
 }
 static
-inline
+INLINE
 void
 store_output
 (
@@ -998,7 +998,7 @@ out1
 ;
 }
 static
-inline
+INLINE
 void
 storeu_output
 (

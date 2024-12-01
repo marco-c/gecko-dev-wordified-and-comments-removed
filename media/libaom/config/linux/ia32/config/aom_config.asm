@@ -13,7 +13,6 @@ Media
 All
 rights
 reserved
-.
 ;
 ;
 This
@@ -177,9 +176,6 @@ equ
 CONFIG_CWG_C013
 equ
 0
-CONFIG_CWG_E050
-equ
-0
 CONFIG_DEBUG
 equ
 0
@@ -282,12 +278,12 @@ equ
 CONFIG_SIZE_LIMIT
 equ
 0
+CONFIG_SPATIAL_RESAMPLING
+equ
+1
 CONFIG_SPEED_STATS
 equ
 0
-CONFIG_SVT_AV1
-equ
-1
 CONFIG_TFLITE
 equ
 0

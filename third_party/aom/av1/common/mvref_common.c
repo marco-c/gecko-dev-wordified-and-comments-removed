@@ -28,7 +28,6 @@ warped_motion
 h
 "
 static
-const
 int
 div_mult
 [
@@ -71,7 +70,7 @@ div_mult
 }
 ;
 static
-inline
+AOM_INLINE
 void
 get_mv_projection
 (
@@ -469,7 +468,7 @@ frame_mvs_stride
 }
 }
 static
-inline
+AOM_INLINE
 void
 add_ref_mv_candidate
 (
@@ -961,7 +960,7 @@ ref_match_count
 }
 }
 static
-inline
+AOM_INLINE
 void
 scan_row_mbmi
 (
@@ -1301,7 +1300,7 @@ len
 }
 }
 static
-inline
+AOM_INLINE
 void
 scan_col_mbmi
 (
@@ -1637,7 +1636,7 @@ len
 }
 }
 static
-inline
+AOM_INLINE
 void
 scan_blk_mbmi
 (
@@ -2926,7 +2925,7 @@ return
 ;
 }
 static
-inline
+AOM_INLINE
 void
 process_compound_ref_mv_candidate
 (
@@ -3164,7 +3163,7 @@ cmp_idx
 }
 }
 static
-inline
+AOM_INLINE
 void
 process_single_ref_mv_candidate
 (
@@ -3370,7 +3369,7 @@ refmv_count
 }
 }
 static
-inline
+AOM_INLINE
 void
 setup_ref_mv_list
 (
@@ -7673,7 +7672,7 @@ LAST2_FRAME
 ;
 }
 static
-inline
+INLINE
 void
 record_samples
 (
@@ -9563,7 +9562,7 @@ map_idx
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_ref_frame_info
 (

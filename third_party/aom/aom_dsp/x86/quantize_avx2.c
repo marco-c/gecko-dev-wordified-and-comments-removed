@@ -35,7 +35,7 @@ quantize_x86
 h
 "
 static
-inline
+INLINE
 void
 load_b_values_avx2
 (
@@ -321,7 +321,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 __m256i
 load_coefficients_avx2
 (
@@ -370,7 +370,7 @@ coeff2
 ;
 }
 static
-inline
+INLINE
 void
 store_coefficients_avx2
 (
@@ -664,7 +664,7 @@ v_nz_mask
 ;
 }
 static
-inline
+INLINE
 __m256i
 get_max_lane_eob
 (
@@ -731,7 +731,7 @@ v_nz_iscan
 ;
 }
 static
-inline
+INLINE
 int16_t
 accumulate_eob256
 (

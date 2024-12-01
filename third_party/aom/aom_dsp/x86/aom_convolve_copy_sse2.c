@@ -15,7 +15,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 copy_128
 (
@@ -1357,11 +1357,8 @@ h
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 highbd_copy_64
 (
@@ -1694,7 +1691,7 @@ s
 ;
 }
 static
-inline
+INLINE
 void
 highbd_copy_128
 (
@@ -2363,7 +2360,7 @@ if
 w
 >
 =
-8
+16
 )
 {
 assert
@@ -2385,7 +2382,7 @@ assert
 (
 dst_stride
 %
-8
+16
 )
 )
 ;
@@ -3355,5 +3352,3 @@ h
 ;
 }
 }
-#
-endif

@@ -2336,7 +2336,7 @@ j
 }
 }
 static
-inline
+INLINE
 double
 convolve_map
 (
@@ -2393,7 +2393,7 @@ result
 ;
 }
 static
-inline
+INLINE
 void
 decimate_map
 (
@@ -2708,7 +2708,7 @@ window_size
 }
 }
 static
-inline
+INLINE
 int
 upscale_map
 (
@@ -5042,7 +5042,7 @@ return
 ;
 }
 static
-inline
+INLINE
 void
 filter2d
 (
@@ -5968,7 +5968,7 @@ return
 ;
 }
 static
-inline
+INLINE
 void
 find_min_max
 (
@@ -6118,7 +6118,7 @@ max_value
 }
 }
 static
-inline
+INLINE
 double
 average_local_max
 (

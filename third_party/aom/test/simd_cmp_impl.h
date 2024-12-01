@@ -1856,8 +1856,6 @@ shift
 )
 ;
 }
-namespace
-{
 uint32_t
 v64_sad_u8
 (
@@ -2358,6 +2356,8 @@ b
 )
 ;
 }
+namespace
+{
 typedef
 void
 (

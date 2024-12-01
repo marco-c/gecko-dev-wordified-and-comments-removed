@@ -21,6 +21,16 @@ tuple
 #
 include
 "
+third_party
+/
+googletest
+/
+src
+/
+googletest
+/
+include
+/
 gtest
 /
 gtest
@@ -4713,9 +4723,6 @@ aom_var_2d_u8_neon_dotprod
 ;
 #
 endif
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 class
 Highbd2dVarTest
 :
@@ -5590,8 +5597,6 @@ aom_var_2d_u16_sve
 )
 )
 ;
-#
-endif
 #
 endif
 }

@@ -978,7 +978,7 @@ c
 }
 }
 static
-inline
+INLINE
 void
 free_solver_local_buf
 (

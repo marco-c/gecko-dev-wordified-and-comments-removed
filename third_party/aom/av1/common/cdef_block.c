@@ -44,7 +44,6 @@ h
 DECLARE_ALIGNED
 (
 16
-static
 const
 int
 cdef_directions_padded
@@ -2071,7 +2070,7 @@ block_height
 ;
 }
 static
-inline
+INLINE
 int
 adjust_strength
 (
@@ -2126,7 +2125,7 @@ i
 ;
 }
 static
-inline
+AOM_INLINE
 void
 aom_cdef_find_dir
 (

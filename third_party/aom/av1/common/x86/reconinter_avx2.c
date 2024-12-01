@@ -66,7 +66,7 @@ blockd
 h
 "
 static
-inline
+INLINE
 __m256i
 calc_mask_avx2
 (
@@ -990,7 +990,7 @@ h
 }
 }
 static
-inline
+INLINE
 __m256i
 calc_mask_d16_avx2
 (
@@ -1104,7 +1104,7 @@ diff_clamp
 ;
 }
 static
-inline
+INLINE
 __m256i
 calc_mask_d16_inv_avx2
 (
@@ -1229,7 +1229,7 @@ diff_const_16
 ;
 }
 static
-inline
+INLINE
 void
 build_compound_diffwtd_mask_d16_avx2
 (
@@ -2652,7 +2652,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 build_compound_diffwtd_mask_d16_inv_avx2
 (

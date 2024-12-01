@@ -42,7 +42,7 @@ synonyms
 h
 "
 static
-inline
+INLINE
 void
 quantize_coeff_phase1
 (
@@ -250,7 +250,7 @@ param
 ;
 }
 static
-inline
+INLINE
 void
 quantize_coeff_phase2
 (
@@ -608,7 +608,7 @@ dquan
 ;
 }
 static
-inline
+INLINE
 void
 find_eob
 (
@@ -750,7 +750,7 @@ iscanIdx
 ;
 }
 static
-inline
+INLINE
 uint16_t
 get_accumulated_eob
 (

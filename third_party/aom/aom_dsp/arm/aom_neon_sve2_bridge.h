@@ -30,7 +30,7 @@ aom_config
 h
 "
 static
-inline
+INLINE
 int16x8_t
 aom_tbl2_s16
 (

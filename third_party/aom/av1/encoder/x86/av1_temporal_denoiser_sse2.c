@@ -66,7 +66,7 @@ av1_temporal_denoiser
 h
 "
 static
-inline
+INLINE
 int
 sum_diff_16x1
 (
@@ -167,7 +167,7 @@ hgfedcba
 ;
 }
 static
-inline
+INLINE
 __m128i
 av1_denoiser_16x1_sse2
 (
@@ -468,7 +468,7 @@ acc_diff
 ;
 }
 static
-inline
+INLINE
 __m128i
 av1_denoiser_adj_16x1_sse2
 (

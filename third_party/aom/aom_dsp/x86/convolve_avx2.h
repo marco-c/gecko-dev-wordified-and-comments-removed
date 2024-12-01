@@ -5484,7 +5484,7 @@ while
 0
 )
 static
-inline
+INLINE
 void
 prepare_coeffs_lowbd
 (
@@ -5628,7 +5628,7 @@ _mm256_set1_epi16
 ;
 }
 static
-inline
+INLINE
 void
 prepare_coeffs_6t_lowbd
 (
@@ -5758,7 +5758,7 @@ _mm256_set1_epi16
 ;
 }
 static
-inline
+INLINE
 void
 prepare_coeffs_6t
 (
@@ -5850,7 +5850,7 @@ coeff
 ;
 }
 static
-inline
+INLINE
 void
 prepare_coeffs
 (
@@ -5949,7 +5949,7 @@ coeff
 ;
 }
 static
-inline
+INLINE
 void
 prepare_coeffs_12taps
 (
@@ -6090,7 +6090,7 @@ coeff
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd
 (
@@ -6193,7 +6193,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd_6tap
 (
@@ -6276,7 +6276,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd_4tap
 (
@@ -6339,7 +6339,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_6tap
 (
@@ -6422,7 +6422,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_12taps
 (
@@ -6571,7 +6571,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve
 (
@@ -6674,7 +6674,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_4tap
 (
@@ -6737,7 +6737,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd_x
 (
@@ -6827,7 +6827,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd_x_6tap
 (
@@ -6903,7 +6903,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_lowbd_x_4tap
 (
@@ -6965,7 +6965,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 void
 add_store_aligned_256
 (
@@ -7040,7 +7040,7 @@ d
 ;
 }
 static
-inline
+INLINE
 __m256i
 comp_avg
 (
@@ -7175,7 +7175,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 convolve_rounding
 (
@@ -7231,7 +7231,7 @@ res_round
 ;
 }
 static
-inline
+INLINE
 __m256i
 highbd_comp_avg
 (
@@ -7339,7 +7339,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m256i
 highbd_convolve_rounding
 (

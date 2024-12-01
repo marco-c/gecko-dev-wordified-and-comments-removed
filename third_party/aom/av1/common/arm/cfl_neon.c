@@ -35,7 +35,7 @@ cfl
 h
 "
 static
-inline
+INLINE
 void
 vldsubstq_s16
 (
@@ -74,7 +74,7 @@ sub
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 vldaddq_u16
 (
@@ -103,7 +103,7 @@ offset
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 vldh_dup_u8
 (
@@ -129,7 +129,7 @@ ptr
 ;
 }
 static
-inline
+INLINE
 void
 vsth_u16
 (
@@ -156,7 +156,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 vsth_u8
 (
@@ -962,7 +962,6 @@ CONFIG_AV1_HIGHBITDEPTH
 if
 !
 AOM_ARCH_AARCH64
-static
 uint16x8_t
 vpaddq_u16
 (
@@ -1927,7 +1926,7 @@ CFL_GET_SUBSAMPLE_FUNCTION
 neon
 )
 static
-inline
+INLINE
 void
 subtract_average_neon
 (
@@ -2813,7 +2812,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int16x4_t
 predict_w4
 (
@@ -2873,7 +2872,7 @@ dc
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 predict_w8
 (
@@ -2933,7 +2932,7 @@ dc
 ;
 }
 static
-inline
+INLINE
 int16x8x2_t
 predict_w16
 (
@@ -3066,7 +3065,7 @@ result
 ;
 }
 static
-inline
+INLINE
 int16x8x4_t
 predict_w32
 (
@@ -3299,7 +3298,7 @@ result
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_lbd_neon
 (
@@ -3614,7 +3613,7 @@ lbd
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 uint16x4_t
 clamp_s16
 (
@@ -3643,7 +3642,7 @@ vdup_n_s16
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 clampq_s16
 (
@@ -3672,7 +3671,7 @@ vdupq_n_s16
 ;
 }
 static
-inline
+INLINE
 uint16x8x2_t
 clamp2q_s16
 (
@@ -3746,7 +3745,7 @@ result
 ;
 }
 static
-inline
+INLINE
 uint16x8x4_t
 clamp4q_s16
 (
@@ -3876,7 +3875,7 @@ result
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_hbd_neon
 (

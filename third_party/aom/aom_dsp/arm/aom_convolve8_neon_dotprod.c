@@ -248,7 +248,7 @@ kDotProdMergeBlockTbl
 }
 ;
 static
-inline
+INLINE
 int16x4_t
 convolve8_4_h
 (
@@ -352,7 +352,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve8_8_h
 (
@@ -509,7 +509,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve8_horiz_8tap_neon_dotprod
 (
@@ -858,7 +858,7 @@ h
 }
 }
 static
-inline
+INLINE
 int16x4_t
 convolve4_4_h
 (
@@ -928,7 +928,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve4_8_h
 (
@@ -1053,7 +1053,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve8_horiz_4tap_neon_dotprod
 (
@@ -1573,7 +1573,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 transpose_concat_4x4
 (
@@ -1696,7 +1696,7 @@ a0123
 ;
 }
 static
-inline
+INLINE
 void
 transpose_concat_8x4
 (
@@ -1835,7 +1835,7 @@ val
 ;
 }
 static
-inline
+INLINE
 int16x4_t
 convolve8_4_v
 (
@@ -1889,7 +1889,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve8_8_v
 (
@@ -1986,7 +1986,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve8_vert_8tap_neon_dotprod
 (

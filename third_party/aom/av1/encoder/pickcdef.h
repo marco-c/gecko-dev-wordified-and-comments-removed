@@ -48,9 +48,6 @@ CDEF_ALL
 CDEF_REFERENCE
 =
 2
-CDEF_ADAPTIVE
-=
-3
 }
 CDEF_CONTROL
 ;
@@ -394,7 +391,7 @@ use_highbitdepth
 CdefSearchCtx
 ;
 static
-inline
+INLINE
 int
 sb_all_skip
 (
@@ -521,7 +518,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 cdef_sb_skip
 (

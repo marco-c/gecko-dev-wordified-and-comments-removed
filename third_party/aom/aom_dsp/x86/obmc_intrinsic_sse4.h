@@ -34,7 +34,7 @@ synonyms
 h
 "
 static
-inline
+INLINE
 void
 obmc_variance_w4
 (

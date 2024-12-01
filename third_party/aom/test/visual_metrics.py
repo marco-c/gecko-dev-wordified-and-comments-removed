@@ -1836,8 +1836,7 @@ each
 which
   
 compares
-file
-size
+filesize
 to
 that
 metric

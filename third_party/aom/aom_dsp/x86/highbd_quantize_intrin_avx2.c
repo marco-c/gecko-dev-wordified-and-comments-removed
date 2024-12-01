@@ -24,7 +24,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 void
 init_one_qp
 (
@@ -85,7 +85,7 @@ ac
 ;
 }
 static
-inline
+INLINE
 void
 update_qp
 (
@@ -133,7 +133,7 @@ i
 }
 }
 static
-inline
+INLINE
 void
 init_qp
 (
@@ -393,7 +393,7 @@ _mm256_set1_epi32
 ;
 }
 static
-inline
+INLINE
 __m256i
 mm256_mul_shift_epi32
 (

@@ -650,7 +650,7 @@ wmtype
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 int
 generic_sad_highbd
 (
@@ -1317,7 +1317,7 @@ gm_sumerr
 #
 endif
 static
-inline
+INLINE
 int
 generic_sad
 (
@@ -2043,9 +2043,8 @@ segment_map_stride
 )
 ;
 }
-static
 int64_t
-get_warp_error
+av1_warp_error
 (
 WarpedMotionParams
 *
@@ -2310,7 +2309,7 @@ erroradv_tr
 )
 ;
 return
-get_warp_error
+av1_warp_error
 (
 wm
 use_hbd
@@ -2362,7 +2361,7 @@ erroradv_early_tr
 ;
 best_error
 =
-get_warp_error
+av1_warp_error
 (
 wm
 use_hbd
@@ -2494,7 +2493,7 @@ wmtype
 ;
 step_error
 =
-get_warp_error
+av1_warp_error
 (
 wm
 use_hbd
@@ -2570,7 +2569,7 @@ wmtype
 ;
 step_error
 =
-get_warp_error
+av1_warp_error
 (
 wm
 use_hbd
@@ -2652,7 +2651,7 @@ wmtype
 ;
 step_error
 =
-get_warp_error
+av1_warp_error
 (
 wm
 use_hbd

@@ -50,15 +50,6 @@ include
 "
 config
 /
-aom_config
-.
-h
-"
-#
-include
-"
-config
-/
 aom_dsp_rtcd
 .
 h
@@ -1165,7 +1156,7 @@ sum
 }
 }
 static
-inline
+AOM_INLINE
 int32_t
 mm256_accumulate_epi16
 (
@@ -1255,7 +1246,7 @@ vtmp1
 ;
 }
 static
-inline
+AOM_INLINE
 int32_t
 mm256_accumulate_epi32
 (
@@ -1776,9 +1767,6 @@ height
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_avx2
 (
@@ -2207,5 +2195,3 @@ height
 )
 ;
 }
-#
-endif

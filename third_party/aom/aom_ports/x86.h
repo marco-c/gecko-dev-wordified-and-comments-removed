@@ -84,6 +84,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 |
 |
 defined
@@ -709,7 +712,7 @@ __x86_64__
 )
 )
 static
-inline
+INLINE
 uint64_t
 xgetbv
 (
@@ -832,7 +835,7 @@ defined
 _M_IX86
 )
 static
-inline
+INLINE
 uint64_t
 xgetbv
 (
@@ -1003,7 +1006,7 @@ n
 #
 endif
 static
-inline
+INLINE
 int
 x86_simd_caps
 (
@@ -1318,7 +1321,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 x86_readtsc
@@ -1332,6 +1335,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 unsigned
 int
 tsc
@@ -1425,7 +1431,7 @@ endif
 endif
 }
 static
-inline
+INLINE
 uint64_t
 x86_readtsc64
 (
@@ -1438,6 +1444,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 uint32_t
 hi
 lo
@@ -1558,7 +1567,7 @@ endif
 endif
 }
 static
-inline
+INLINE
 unsigned
 int
 x86_readtscp
@@ -1572,6 +1581,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 unsigned
 int
 tscp
@@ -1686,7 +1698,7 @@ endif
 endif
 }
 static
-inline
+INLINE
 unsigned
 int
 x86_tsc_start
@@ -1738,7 +1750,7 @@ x86_readtsc
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 x86_tsc_end
@@ -1800,6 +1812,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 #
 define
 x86_pause_hint
@@ -1877,6 +1892,9 @@ defined
 (
 __GNUC__
 )
+&
+&
+__GNUC__
 static
 void
 x87_set_control_word
@@ -2100,7 +2118,7 @@ mode
 #
 endif
 static
-inline
+INLINE
 unsigned
 int
 x87_set_double_precision

@@ -8,15 +8,6 @@ h
 #
 include
 "
-config
-/
-aom_config
-.
-h
-"
-#
-include
-"
 av1
 /
 encoder
@@ -25,9 +16,6 @@ encodeframe_utils
 .
 h
 "
-#
-if
-CONFIG_THREE_PASS
 #
 include
 "
@@ -39,8 +27,6 @@ thirdpass
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -171,7 +157,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+AOM_INLINE
 void
 simple_motion_search_prune_part_features
 (
@@ -412,7 +398,7 @@ mi_col
 )
 ;
 static
-inline
+INLINE
 int
 convert_bsize_to_idx
 (
@@ -711,9 +697,8 @@ pfile
 )
 ;
 }
-static
 void
-intra_mode_cnn_partition
+av1_intra_mode_cnn_partition
 (
 const
 AV1_COMMON
@@ -2046,7 +2031,7 @@ part_state
 }
 }
 static
-inline
+INLINE
 int
 get_simple_motion_search_prune_agg
 (
@@ -2144,9 +2129,8 @@ qband
 ]
 ;
 }
-static
 void
-simple_motion_search_based_split
+av1_simple_motion_search_based_split
 (
 AV1_COMP
 *
@@ -2946,7 +2930,7 @@ best_ref
 ;
 }
 static
-inline
+AOM_INLINE
 void
 simple_motion_search_prune_part_features
 (
@@ -3828,9 +3812,8 @@ left_bsize
 ]
 ;
 }
-static
 void
-simple_motion_search_prune_rect
+av1_simple_motion_search_prune_rect
 (
 AV1_COMP
 *
@@ -5807,7 +5790,7 @@ result
 ;
 }
 static
-inline
+AOM_INLINE
 void
 get_min_bsize
 (
@@ -5995,7 +5978,7 @@ subsize
 }
 }
 static
-inline
+INLINE
 void
 add_rd_feature
 (
@@ -7565,9 +7548,8 @@ VERT
 1
 ;
 }
-static
 void
-ml_prune_ab_partition
+av1_ml_prune_ab_partition
 (
 AV1_COMP
 *
@@ -10066,9 +10048,6 @@ blk_params
 >
 bsize
 ;
-#
-if
-CONFIG_THREE_PASS
 if
 (
 cpi
@@ -10438,8 +10417,6 @@ return
 }
 }
 }
-#
-endif
 if
 (
 bsize
@@ -10772,7 +10749,7 @@ if
 try_intra_cnn_based_part_prune
 )
 {
-intra_mode_cnn_partition
+av1_intra_mode_cnn_partition
 (
 &
 cpi
@@ -10849,7 +10826,7 @@ if
 try_split_only
 )
 {
-simple_motion_search_based_split
+av1_simple_motion_search_based_split
 (
 cpi
 x
@@ -10964,7 +10941,7 @@ if
 try_prune_rect
 )
 {
-simple_motion_search_prune_rect
+av1_simple_motion_search_prune_rect
 (
 cpi
 x
@@ -10978,7 +10955,7 @@ part_state
 ifndef
 NDEBUG
 static
-inline
+AOM_INLINE
 int
 is_bsize_square
 (
@@ -12171,7 +12148,7 @@ VERT
 ]
 )
 {
-ml_prune_ab_partition
+av1_ml_prune_ab_partition
 (
 cpi
 pc_tree
@@ -15344,9 +15321,6 @@ sms_tree
 )
 ;
 }
-#
-if
-CONFIG_PARTITION_SEARCH_ORDER
 void
 av1_prepare_motion_search_features_block
 (
@@ -15863,10 +15837,8 @@ sms_tree
 }
 #
 endif
-#
-endif
 static
-inline
+INLINE
 void
 init_simple_motion_search_mvs
 (

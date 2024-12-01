@@ -28,6 +28,16 @@ h
 #
 include
 "
+third_party
+/
+googletest
+/
+src
+/
+googletest
+/
+include
+/
 gtest
 /
 gtest
@@ -345,7 +355,7 @@ psnr
 ;
 }
 static
-inline
+INLINE
 double
 get_time_mark
 (

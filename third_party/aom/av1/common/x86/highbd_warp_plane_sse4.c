@@ -161,7 +161,7 @@ highbd_shuffle_alpha0_mask3
 }
 ;
 static
-inline
+INLINE
 void
 highbd_prepare_horizontal_filter_coeff
 (
@@ -568,7 +568,7 @@ tmp_15
 ;
 }
 static
-inline
+INLINE
 void
 highbd_prepare_horizontal_filter_coeff_alpha0
 (
@@ -715,7 +715,7 @@ coeff
 ;
 }
 static
-inline
+INLINE
 void
 highbd_filter_src_pixels
 (
@@ -1001,7 +1001,7 @@ res_odd
 ;
 }
 static
-inline
+INLINE
 void
 highbd_horiz_filter
 (
@@ -1056,7 +1056,7 @@ k
 ;
 }
 static
-inline
+INLINE
 void
 highbd_warp_horizontal_filter_alpha0_beta0
 (
@@ -1234,7 +1234,7 @@ k
 }
 }
 static
-inline
+INLINE
 void
 highbd_warp_horizontal_filter_alpha0
 (
@@ -1420,7 +1420,7 @@ k
 }
 }
 static
-inline
+INLINE
 void
 highbd_warp_horizontal_filter_beta0
 (
@@ -1594,7 +1594,7 @@ k
 }
 }
 static
-inline
+INLINE
 void
 highbd_warp_horizontal_filter
 (
@@ -1764,7 +1764,7 @@ reduce_bits_horiz
 }
 }
 static
-inline
+INLINE
 void
 highbd_prepare_warp_horizontal_filter
 (

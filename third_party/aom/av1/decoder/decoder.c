@@ -76,6 +76,15 @@ h
 #
 include
 "
+aom_scale
+/
+aom_scale
+.
+h
+"
+#
+include
+"
 aom_util
 /
 aom_pthread

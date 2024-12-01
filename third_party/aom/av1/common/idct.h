@@ -148,7 +148,7 @@ bd
 )
 ;
 static
-inline
+INLINE
 const
 int32_t
 *

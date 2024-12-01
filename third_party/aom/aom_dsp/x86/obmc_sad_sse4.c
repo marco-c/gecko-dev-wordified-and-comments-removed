@@ -731,9 +731,6 @@ OBMCSADWXH
 64
 16
 )
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
 AOM_FORCE_INLINE
 unsigned
@@ -1406,5 +1403,3 @@ HBD_OBMCSADWXH
 64
 16
 )
-#
-endif

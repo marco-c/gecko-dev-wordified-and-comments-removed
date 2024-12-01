@@ -227,7 +227,7 @@ AV1_PROB_COST_SHIFT
 10000
 ;
 static
-inline
+INLINE
 int
 get_dqv
 (
@@ -292,7 +292,7 @@ dqv
 ;
 }
 static
-inline
+INLINE
 int64_t
 get_coeff_dist
 (
@@ -542,7 +542,7 @@ eob_cost
 ;
 }
 static
-inline
+INLINE
 int
 get_golomb_cost
 (
@@ -599,7 +599,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 get_br_cost
 (
@@ -638,7 +638,7 @@ level
 ;
 }
 static
-inline
+INLINE
 int
 get_br_cost_with_diff
 (
@@ -935,7 +935,7 @@ cost
 ;
 }
 static
-inline
+INLINE
 int
 get_coeff_cost_eob
 (
@@ -1067,7 +1067,7 @@ cost
 ;
 }
 static
-inline
+INLINE
 int
 get_coeff_cost_general
 (
@@ -1247,7 +1247,7 @@ cost
 ;
 }
 static
-inline
+INLINE
 void
 get_qc_dqc_low
 (
@@ -1344,7 +1344,7 @@ dqc_low
 ;
 }
 static
-inline
+INLINE
 void
 update_coeff_eob_fast
 (

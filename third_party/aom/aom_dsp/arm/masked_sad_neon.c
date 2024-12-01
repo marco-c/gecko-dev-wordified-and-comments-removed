@@ -75,7 +75,7 @@ blend
 h
 "
 static
-inline
+INLINE
 uint16x8_t
 masked_sad_16x1_neon
 (
@@ -154,7 +154,7 @@ s0
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_128xh_neon
 (
@@ -584,7 +584,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_64xh_neon
 (
@@ -842,7 +842,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_32xh_neon
 (
@@ -987,7 +987,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_16xh_neon
 (
@@ -1089,7 +1089,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_8xh_neon
 (
@@ -1234,7 +1234,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 masked_sad_4xh_neon
 (

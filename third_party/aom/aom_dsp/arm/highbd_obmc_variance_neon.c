@@ -55,7 +55,7 @@ sum_neon
 h
 "
 static
-inline
+INLINE
 void
 highbd_obmc_variance_8x1_s16_neon
 (
@@ -286,7 +286,7 @@ round_hi
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_xlarge_neon
 (
@@ -535,7 +535,7 @@ sum_s32
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_xlarge_neon_128xh
 (
@@ -578,7 +578,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_xlarge_neon_64xh
 (
@@ -621,7 +621,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_xlarge_neon_32xh
 (
@@ -664,7 +664,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_large_neon
 (
@@ -833,7 +833,7 @@ sum_s32
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_128xh
 (
@@ -875,7 +875,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_64xh
 (
@@ -917,7 +917,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_32xh
 (
@@ -959,7 +959,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_16xh
 (
@@ -1001,7 +1001,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_8xh
 (
@@ -1119,7 +1119,7 @@ sum_s32
 ;
 }
 static
-inline
+INLINE
 void
 highbd_obmc_variance_neon_4xh
 (
@@ -1253,7 +1253,7 @@ sum_s32
 ;
 }
 static
-inline
+INLINE
 void
 highbd_8_obmc_variance_cast
 (
@@ -1289,7 +1289,7 @@ sse64
 ;
 }
 static
-inline
+INLINE
 void
 highbd_10_obmc_variance_cast
 (
@@ -1333,7 +1333,7 @@ sse64
 ;
 }
 static
-inline
+INLINE
 void
 highbd_12_obmc_variance_cast
 (

@@ -227,7 +227,7 @@ counts
 )
 ;
 static
-inline
+INLINE
 int
 av1_get_tx_eob
 (
@@ -265,7 +265,7 @@ eob_max
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 get_token_alloc
@@ -347,7 +347,7 @@ sb_palette_toks
 ;
 }
 static
-inline
+AOM_INLINE
 void
 alloc_token_info
 (
@@ -469,7 +469,7 @@ tplist
 ;
 }
 static
-inline
+AOM_INLINE
 bool
 is_token_info_allocated
 (
@@ -517,7 +517,7 @@ NULL
 ;
 }
 static
-inline
+AOM_INLINE
 void
 free_token_info
 (

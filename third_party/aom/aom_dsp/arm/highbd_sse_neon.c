@@ -26,7 +26,7 @@ sum_neon
 h
 "
 static
-inline
+INLINE
 void
 highbd_sse_8x1_init_neon
 (
@@ -107,7 +107,7 @@ abs_diff_hi
 ;
 }
 static
-inline
+INLINE
 void
 highbd_sse_8x1_neon
 (
@@ -192,7 +192,7 @@ abs_diff_hi
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_128xh_neon
 (
@@ -1025,7 +1025,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_64xh_neon
 (
@@ -1474,7 +1474,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_32xh_neon
 (
@@ -1731,7 +1731,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_16xh_neon
 (
@@ -1892,7 +1892,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_8xh_neon
 (
@@ -1989,7 +1989,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_4xh_neon
 (
@@ -2113,7 +2113,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int64_t
 highbd_sse_wxh_neon
 (

@@ -33,7 +33,7 @@ aom_dsp_common
 h
 "
 static
-inline
+INLINE
 __m128i
 load_tran_low
 (
@@ -76,7 +76,7 @@ a
 ;
 }
 static
-inline
+INLINE
 void
 unpack_trans
 (
@@ -139,7 +139,7 @@ a_hi
 ;
 }
 static
-inline
+INLINE
 void
 store_tran_low
 (
@@ -191,7 +191,7 @@ a_2
 ;
 }
 static
-inline
+INLINE
 void
 store_tran_low_offset_4
 (

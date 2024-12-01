@@ -39,7 +39,7 @@ cfl_simd
 h
 "
 static
-inline
+INLINE
 __m128i
 _mm_loadh_epi32
 (
@@ -64,7 +64,7 @@ mem_addr
 ;
 }
 static
-inline
+INLINE
 void
 _mm_storeh_epi32
 (
@@ -92,7 +92,7 @@ a
 ;
 }
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_420_lbd_ssse3
 (
@@ -457,7 +457,7 @@ end
 ;
 }
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_422_lbd_ssse3
 (
@@ -669,7 +669,7 @@ end
 ;
 }
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_444_lbd_ssse3
 (
@@ -953,7 +953,7 @@ end
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_420_hbd_ssse3
 (
@@ -1365,7 +1365,7 @@ end
 ;
 }
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_422_hbd_ssse3
 (
@@ -1619,7 +1619,7 @@ end
 ;
 }
 static
-inline
+INLINE
 void
 cfl_luma_subsampling_444_hbd_ssse3
 (
@@ -1875,7 +1875,7 @@ CFL_GET_SUBSAMPLE_FUNCTION
 ssse3
 )
 static
-inline
+INLINE
 __m128i
 predict_unclipped
 (
@@ -1937,7 +1937,7 @@ dc_q0
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_lbd_ssse3
 (
@@ -2185,7 +2185,7 @@ lbd
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 __m128i
 highbd_max_epi16
 (
@@ -2216,7 +2216,7 @@ neg_one
 ;
 }
 static
-inline
+INLINE
 __m128i
 highbd_clamp_epi16
 (
@@ -2241,7 +2241,7 @@ zero
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_hbd_ssse3
 (

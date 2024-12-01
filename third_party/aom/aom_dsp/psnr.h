@@ -14,15 +14,6 @@ yv12config
 h
 "
 #
-include
-"
-config
-/
-aom_config
-.
-h
-"
-#
 define
 MAX_PSNR
 100
@@ -80,9 +71,6 @@ samples_hbd
 }
 PSNR_STATS
 ;
-#
-if
-CONFIG_INTERNAL_STATS
 double
 aom_sse_to_psnr
 (
@@ -94,8 +82,6 @@ double
 sse
 )
 ;
-#
-endif
 uint64_t
 aom_get_y_var
 (

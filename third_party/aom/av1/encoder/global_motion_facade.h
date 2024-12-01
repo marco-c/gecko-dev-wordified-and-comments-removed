@@ -21,7 +21,7 @@ struct
 AV1_COMP
 ;
 static
-inline
+AOM_INLINE
 void
 gm_alloc_data
 (
@@ -145,7 +145,7 @@ MAX_CORNERS
 }
 }
 static
-inline
+AOM_INLINE
 void
 gm_dealloc_data
 (

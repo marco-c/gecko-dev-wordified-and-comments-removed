@@ -648,7 +648,7 @@ src_avg
 RestSearchCtxt
 ;
 static
-inline
+AOM_INLINE
 void
 rsc_on_tile
 (
@@ -705,7 +705,7 @@ switchable_ref_sgrproj
 ;
 }
 static
-inline
+AOM_INLINE
 void
 reset_rsc
 (
@@ -748,7 +748,7 @@ total_bits
 ;
 }
 static
-inline
+AOM_INLINE
 void
 init_rsc
 (
@@ -3023,7 +3023,7 @@ divisor
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_r1_c
 (
@@ -3344,11 +3344,8 @@ C
 size
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_r1_high_bd_c
 (
@@ -3675,10 +3672,8 @@ C
 size
 ;
 }
-#
-endif
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_c
 (
@@ -3885,11 +3880,8 @@ C
 size
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_high_bd_c
 (
@@ -4102,10 +4094,8 @@ C
 size
 ;
 }
-#
-endif
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r1_c
 (
@@ -4312,11 +4302,8 @@ C
 size
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r1_high_bd_c
 (
@@ -4529,8 +4516,6 @@ C
 size
 ;
 }
-#
-endif
 void
 av1_calc_proj_params_c
 (
@@ -4683,9 +4668,6 @@ C
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 void
 av1_calc_proj_params_high_bd_c
 (
@@ -4838,10 +4820,8 @@ C
 ;
 }
 }
-#
-endif
 static
-inline
+AOM_INLINE
 void
 get_proj_subspace
 (
@@ -5451,7 +5431,7 @@ Det
 }
 }
 static
-inline
+AOM_INLINE
 void
 encode_xq
 (
@@ -5611,7 +5591,7 @@ SGRPROJ_PRJ_MAX1
 }
 }
 static
-inline
+AOM_INLINE
 void
 apply_sgr
 (
@@ -5782,7 +5762,7 @@ av1_selfguided_restoration
 }
 }
 static
-inline
+AOM_INLINE
 void
 compute_sgrproj_err
 (
@@ -5924,7 +5904,7 @@ params
 ;
 }
 static
-inline
+AOM_INLINE
 void
 get_best_error
 (
@@ -6553,7 +6533,7 @@ bits
 ;
 }
 static
-inline
+AOM_INLINE
 void
 search_sgrproj
 (
@@ -8194,7 +8174,7 @@ l
 #
 endif
 static
-inline
+INLINE
 int
 wrap_index
 (
@@ -8235,7 +8215,7 @@ i
 ;
 }
 static
-inline
+INLINE
 void
 split_wiener_filter_coefficients
 (
@@ -8322,7 +8302,7 @@ i
 }
 }
 static
-inline
+INLINE
 int64_t
 multiply_and_scale
 (
@@ -8885,7 +8865,7 @@ return
 ;
 }
 static
-inline
+AOM_INLINE
 void
 update_a_sep_sym
 (
@@ -9474,7 +9454,7 @@ WIENER_FILT_BITS
 }
 }
 static
-inline
+AOM_INLINE
 void
 update_b_sep_sym
 (
@@ -10646,7 +10626,7 @@ iScore
 ;
 }
 static
-inline
+AOM_INLINE
 void
 finalize_sym_filter
 (
@@ -11892,7 +11872,7 @@ err
 ;
 }
 static
-inline
+AOM_INLINE
 void
 search_wiener
 (
@@ -12972,7 +12952,7 @@ wiener
 ;
 }
 static
-inline
+AOM_INLINE
 void
 search_norestore
 (
@@ -13094,7 +13074,7 @@ RESTORE_NONE
 ;
 }
 static
-inline
+AOM_INLINE
 void
 search_switchable
 (
@@ -13569,7 +13549,7 @@ sgrproj
 ;
 }
 static
-inline
+AOM_INLINE
 void
 copy_unit_info
 (
@@ -14226,7 +14206,7 @@ error
 }
 }
 static
-inline
+INLINE
 void
 av1_derive_flags_for_lr_processing
 (
@@ -14913,9 +14893,6 @@ if
 HAVE_AVX2
 |
 |
-HAVE_NEON
-|
-|
 HAVE_SVE
 #
 if
@@ -14939,9 +14916,6 @@ highbd
 ;
 #
 elif
-HAVE_NEON
-|
-|
 HAVE_SVE
 bool
 allocate_buffers
@@ -15701,9 +15675,6 @@ if
 HAVE_AVX2
 |
 |
-HAVE_NEON
-|
-|
 HAVE_SVE
 #
 if
@@ -15727,9 +15698,6 @@ highbd
 ;
 #
 elif
-HAVE_NEON
-|
-|
 HAVE_SVE
 bool
 free_buffers

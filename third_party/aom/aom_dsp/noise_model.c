@@ -247,7 +247,7 @@ uint16_t
 highbd
 )
 static
-inline
+INLINE
 double
 get_block_mean
 (
@@ -511,7 +511,7 @@ uint16_t
 highbd
 )
 static
-inline
+INLINE
 double
 get_noise_var
 (

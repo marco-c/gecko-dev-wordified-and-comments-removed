@@ -19,7 +19,6 @@ Media
 All
 rights
 reserved
-.
 #
 #
 #

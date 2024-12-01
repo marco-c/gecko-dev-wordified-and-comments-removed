@@ -270,7 +270,7 @@ rdmult
 )
 ;
 static
-inline
+INLINE
 int
 coded_to_superres_mi
 (
@@ -295,7 +295,7 @@ SCALE_NUMERATOR
 ;
 }
 static
-inline
+INLINE
 int
 av1_encoder_get_relative_dist
 (
@@ -328,7 +328,7 @@ b
 ;
 }
 static
-inline
+INLINE
 int
 av1_get_sb_mi_size
 (
@@ -413,7 +413,7 @@ sb_mi_size
 ;
 }
 static
-inline
+INLINE
 int
 prune_ref
 (
@@ -520,7 +520,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 has_closest_ref_frames
 (
@@ -592,7 +592,7 @@ has_closest_future_ref
 ;
 }
 static
-inline
+INLINE
 int
 has_best_pred_mv_sad
 (
@@ -746,7 +746,7 @@ has_best_future_pred_mv_sad
 ;
 }
 static
-inline
+INLINE
 int
 prune_ref_by_selective_ref_frame
 (
@@ -1177,7 +1177,7 @@ return
 ;
 }
 static
-inline
+INLINE
 void
 av1_copy_mbmi_ext_to_mbmi_ext_frame
 (

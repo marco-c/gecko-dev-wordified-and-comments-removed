@@ -27,7 +27,7 @@ synonyms
 h
 "
 static
-inline
+INLINE
 __m128i
 load_u8_8x2_sse2
 (

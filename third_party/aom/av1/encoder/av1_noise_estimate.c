@@ -108,7 +108,7 @@ endif
 if
 CONFIG_AV1_TEMPORAL_DENOISING
 static
-inline
+INLINE
 int
 noise_est_svc
 (

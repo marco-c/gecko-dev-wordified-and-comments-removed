@@ -35,7 +35,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 uint32_t
 highbd_mse8_8xh_neon_dotprod
 (
@@ -201,7 +201,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 highbd_mse8_16xh_neon_dotprod
 (

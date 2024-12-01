@@ -94,9 +94,6 @@ vector
 capacity
 ;
 }
-#
-if
-0
 static
 bool
 _vector_should_shrink
@@ -135,8 +132,6 @@ capacity
 VECTOR_SHRINK_THRESHOLD
 ;
 }
-#
-endif
 static
 void
 *
@@ -170,9 +165,6 @@ element_size
 )
 ;
 }
-#
-if
-0
 static
 const
 void
@@ -208,8 +200,6 @@ element_size
 )
 ;
 }
-#
-endif
 static
 void
 _vector_assign
@@ -245,9 +235,6 @@ element_size
 )
 ;
 }
-#
-if
-0
 static
 int
 _vector_move_right
@@ -436,8 +423,6 @@ right_elements_in_bytes
 )
 ;
 }
-#
-endif
 static
 int
 _vector_reallocate
@@ -617,9 +602,6 @@ VECTOR_GROWTH_FACTOR
 )
 ;
 }
-#
-if
-0
 static
 void
 _vector_swap
@@ -650,8 +632,6 @@ second
 temp
 ;
 }
-#
-endif
 int
 aom_vector_setup
 (
@@ -736,9 +716,6 @@ VECTOR_ERROR
 VECTOR_SUCCESS
 ;
 }
-#
-if
-0
 int
 aom_vector_copy
 (
@@ -1252,8 +1229,6 @@ return
 VECTOR_SUCCESS
 ;
 }
-#
-endif
 int
 aom_vector_destroy
 (
@@ -1371,9 +1346,6 @@ return
 VECTOR_SUCCESS
 ;
 }
-#
-if
-0
 int
 aom_vector_push_front
 (
@@ -2049,8 +2021,6 @@ size
 )
 ;
 }
-#
-endif
 bool
 aom_vector_is_initialized
 (
@@ -2091,9 +2061,6 @@ vector
 element_size
 ;
 }
-#
-if
-0
 size_t
 aom_vector_free_space
 (
@@ -2286,8 +2253,6 @@ size
 )
 ;
 }
-#
-endif
 Iterator
 aom_vector_begin
 (
@@ -2304,9 +2269,6 @@ vector
 )
 ;
 }
-#
-if
-0
 Iterator
 aom_vector_end
 (
@@ -2326,8 +2288,6 @@ size
 )
 ;
 }
-#
-endif
 Iterator
 aom_vector_iterator
 (
@@ -2439,9 +2399,6 @@ iterator
 pointer
 ;
 }
-#
-if
-0
 int
 aom_iterator_erase
 (
@@ -2491,8 +2448,6 @@ return
 VECTOR_SUCCESS
 ;
 }
-#
-endif
 void
 aom_iterator_increment
 (
@@ -2530,9 +2485,6 @@ iterator
 element_size
 ;
 }
-#
-if
-0
 void
 aom_iterator_decrement
 (
@@ -2792,5 +2744,3 @@ vector
 element_size
 ;
 }
-#
-endif

@@ -78,7 +78,7 @@ av1_rtcd
 h
 "
 static
-inline
+AOM_INLINE
 void
 diffwtd_mask_d16_neon
 (
@@ -748,7 +748,7 @@ bd
 }
 }
 static
-inline
+AOM_INLINE
 void
 diffwtd_mask_neon
 (

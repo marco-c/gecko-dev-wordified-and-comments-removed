@@ -927,7 +927,7 @@ pbi
 )
 ;
 static
-inline
+INLINE
 void
 decrease_ref_count
 (
@@ -1037,7 +1037,7 @@ define
 ACCT_STR
 __func__
 static
-inline
+INLINE
 int
 av1_read_uniform
 (

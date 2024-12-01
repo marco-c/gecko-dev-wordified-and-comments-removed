@@ -183,7 +183,7 @@ CTRL_MAP_END
 NULL
 }
 static
-inline
+AOM_INLINE
 int
 at_ctrl_map_end
 (

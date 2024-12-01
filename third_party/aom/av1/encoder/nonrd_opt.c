@@ -341,7 +341,7 @@ step
 ;
 }
 static
-inline
+INLINE
 void
 aom_process_hadamard_lp_8x16
 (
@@ -1812,7 +1812,7 @@ AV1_PROB_COST_SHIFT
 ;
 }
 static
-inline
+AOM_INLINE
 void
 scale_square_buf_vals
 (
@@ -3168,7 +3168,7 @@ dst_buf_base
 ;
 }
 static
-inline
+INLINE
 bool
 is_prune_intra_mode
 (

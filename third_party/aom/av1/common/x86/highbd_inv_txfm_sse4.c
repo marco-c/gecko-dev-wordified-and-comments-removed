@@ -105,7 +105,7 @@ highbd_txfm_utility_sse4
 h
 "
 static
-inline
+INLINE
 __m128i
 highbd_clamp_epi16
 (
@@ -203,7 +203,7 @@ clamped
 ;
 }
 static
-inline
+INLINE
 void
 round_shift_4x4
 (
@@ -557,7 +557,7 @@ clamp_hi
 }
 }
 static
-inline
+INLINE
 __m128i
 highbd_get_recon_8x8_sse4_1
 (
@@ -676,7 +676,7 @@ x0
 ;
 }
 static
-inline
+INLINE
 __m128i
 highbd_get_recon_4xn_sse4_1
 (
@@ -727,7 +727,7 @@ x0
 ;
 }
 static
-inline
+INLINE
 void
 highbd_write_buffer_4xn_sse4_1
 (
@@ -843,7 +843,7 @@ u
 }
 }
 static
-inline
+INLINE
 void
 highbd_write_buffer_8xn_sse4_1
 (
@@ -965,7 +965,7 @@ u
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_32bit_input
 (
@@ -1022,7 +1022,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_4x4
 (
@@ -1912,7 +1912,7 @@ in1_w_offset
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage4_sse4_1
 (
@@ -2165,7 +2165,7 @@ temp2
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage5_sse4_1
 (
@@ -2470,7 +2470,7 @@ clamp_hi
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage6_sse4_1
 (
@@ -2853,7 +2853,7 @@ temp2
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage7_sse4_1
 (
@@ -3230,7 +3230,7 @@ clamp_hi
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage8_sse4_1
 (
@@ -3627,7 +3627,7 @@ temp2
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage9_sse4_1
 (
@@ -31219,7 +31219,7 @@ clamp_hi
 }
 }
 static
-inline
+INLINE
 void
 idct64_stage8_sse4_1
 (
@@ -31853,7 +31853,7 @@ temp4
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage9_sse4_1
 (
@@ -32227,7 +32227,7 @@ clamp_hi
 }
 }
 static
-inline
+INLINE
 void
 idct64_stage10_sse4_1
 (
@@ -32711,7 +32711,7 @@ temp4
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage11_sse4_1
 (
@@ -55532,7 +55532,6 @@ clamp_hi_out
 ;
 }
 }
-static
 void
 av1_highbd_inv_txfm_add_8x8_sse4_1
 (
@@ -55641,7 +55640,6 @@ break
 ;
 }
 }
-static
 void
 av1_highbd_inv_txfm_add_4x4_sse4_1
 (
@@ -60090,7 +60088,6 @@ break
 ;
 }
 }
-static
 void
 av1_highbd_inv_txfm_add_4x8_sse4_1
 (
@@ -60158,7 +60155,6 @@ bd
 )
 ;
 }
-static
 void
 av1_highbd_inv_txfm_add_8x4_sse4_1
 (
@@ -60226,7 +60222,6 @@ bd
 )
 ;
 }
-static
 void
 av1_highbd_inv_txfm_add_4x16_sse4_1
 (
@@ -60294,7 +60289,6 @@ bd
 )
 ;
 }
-static
 void
 av1_highbd_inv_txfm_add_16x4_sse4_1
 (

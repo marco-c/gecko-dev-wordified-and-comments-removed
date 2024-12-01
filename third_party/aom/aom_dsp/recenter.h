@@ -23,7 +23,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 uint16_t
 inv_recenter_nonneg
 (
@@ -86,7 +86,7 @@ v
 ;
 }
 static
-inline
+INLINE
 uint16_t
 inv_recenter_finite_nonneg
 (
@@ -139,7 +139,7 @@ v
 }
 }
 static
-inline
+INLINE
 uint16_t
 recenter_nonneg
 (
@@ -200,7 +200,7 @@ v
 ;
 }
 static
-inline
+INLINE
 uint16_t
 recenter_finite_nonneg
 (

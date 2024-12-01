@@ -237,7 +237,7 @@ first_frame_index
 }
 }
 static
-inline
+AOM_INLINE
 void
 set_params_for_leaf_frames
 (
@@ -472,7 +472,7 @@ cur_frame_idx
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_params_for_intnl_overlay_frames
 (
@@ -610,7 +610,7 @@ cur_frame_idx
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_params_for_internal_arfs
 (
@@ -1540,7 +1540,7 @@ display_index
 FRAME_REORDER_INFO
 ;
 static
-inline
+AOM_INLINE
 void
 fill_arf_frame_stats
 (
@@ -1586,7 +1586,7 @@ display_idx
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_params_for_internal_arfs_in_gf14
 (
@@ -1861,7 +1861,7 @@ count_arf_frames
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_params_for_cur_layer_frames
 (
@@ -2034,7 +2034,7 @@ layer_with_parallel_encodes
 }
 }
 static
-inline
+AOM_INLINE
 void
 set_multi_layer_params_for_gf14
 (

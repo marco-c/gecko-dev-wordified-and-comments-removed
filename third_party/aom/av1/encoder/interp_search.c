@@ -54,7 +54,7 @@ reconinter_enc
 h
 "
 static
-inline
+INLINE
 int
 is_interp_filter_good_match
 (
@@ -253,7 +253,7 @@ mv_diff
 ;
 }
 static
-inline
+INLINE
 int
 save_interp_filter_search_stat
 (
@@ -351,7 +351,7 @@ interp_filter_stats_idx
 ;
 }
 static
-inline
+INLINE
 int
 find_interp_filter_in_stats
 (
@@ -524,9 +524,8 @@ return
 1
 ;
 }
-static
 int
-find_interp_filter_match
+av1_find_interp_filter_match
 (
 MB_MODE_INFO
 *
@@ -610,7 +609,7 @@ match_found_idx
 ;
 }
 static
-inline
+INLINE
 int
 get_switchable_rate
 (
@@ -702,7 +701,7 @@ inter_filter_cost
 ;
 }
 static
-inline
+INLINE
 void
 interp_model_rd_eval
 (
@@ -853,7 +852,7 @@ tmp_rd_stats
 ;
 }
 static
-inline
+INLINE
 int64_t
 interpolation_filter_rd
 (
@@ -1501,7 +1500,7 @@ return
 ;
 }
 static
-inline
+INLINE
 INTERP_PRED_TYPE
 is_pred_filter_search_allowed
 (
@@ -1907,7 +1906,7 @@ best_filt_type
 ;
 }
 static
-inline
+INLINE
 void
 pred_dual_interp_filter_rd
 (
@@ -2104,7 +2103,7 @@ allowed_interp_mask
 ;
 }
 static
-inline
+INLINE
 void
 fast_dual_interp_filter_rd
 (
@@ -2433,7 +2432,7 @@ skip_ver
 }
 }
 static
-inline
+INLINE
 void
 find_best_non_dual_interp_filter
 (
@@ -3251,7 +3250,7 @@ break
 }
 }
 static
-inline
+INLINE
 void
 calc_interp_skip_pred_flag
 (
@@ -3809,7 +3808,7 @@ interp_filter
 ;
 match_found_idx
 =
-find_interp_filter_match
+av1_find_interp_filter_match
 (
 mbmi
 cpi

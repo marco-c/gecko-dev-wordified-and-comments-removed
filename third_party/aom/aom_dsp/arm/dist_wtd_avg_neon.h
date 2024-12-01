@@ -32,7 +32,7 @@ enums
 h
 "
 static
-inline
+INLINE
 uint8x8_t
 dist_wtd_avg_u8x8
 (
@@ -73,7 +73,7 @@ DIST_PRECISION_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 dist_wtd_avg_u16x4
 (
@@ -114,7 +114,7 @@ DIST_PRECISION_BITS
 ;
 }
 static
-inline
+INLINE
 uint8x16_t
 dist_wtd_avg_u8x16
 (
@@ -215,7 +215,7 @@ wtd_avg_hi
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 dist_wtd_avg_u16x8
 (

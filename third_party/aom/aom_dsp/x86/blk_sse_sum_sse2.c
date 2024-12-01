@@ -15,7 +15,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 sse_sum_wd4_sse2
 (
@@ -283,7 +283,7 @@ tmp
 endif
 }
 static
-inline
+INLINE
 void
 sse_sum_wd8_sse2
 (

@@ -1166,7 +1166,7 @@ FIX_PREC_BITS
 16
 )
 static
-inline
+AOM_INLINE
 int
 get_hist_bin_idx
 (
@@ -1393,7 +1393,7 @@ BINS
 undef
 FIX_PREC_BITS
 static
-inline
+AOM_INLINE
 void
 normalize_hog
 (
@@ -1429,7 +1429,7 @@ total
 ;
 }
 static
-inline
+AOM_INLINE
 void
 lowbd_generate_hog
 (
@@ -1757,7 +1757,7 @@ hist
 ;
 }
 static
-inline
+AOM_INLINE
 void
 lowbd_compute_gradient_info_sb
 (
@@ -2138,7 +2138,7 @@ stride
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+AOM_INLINE
 void
 highbd_generate_hog
 (
@@ -2476,7 +2476,7 @@ hist
 ;
 }
 static
-inline
+AOM_INLINE
 void
 highbd_compute_gradient_info_sb
 (
@@ -2859,7 +2859,7 @@ stride
 #
 endif
 static
-inline
+AOM_INLINE
 void
 generate_hog
 (
@@ -2920,7 +2920,7 @@ hist
 ;
 }
 static
-inline
+AOM_INLINE
 void
 compute_gradient_info_sb
 (
@@ -2970,7 +2970,7 @@ plane
 ;
 }
 static
-inline
+AOM_INLINE
 bool
 is_gradient_caching_for_hog_enabled
 (
@@ -3045,7 +3045,7 @@ chroma_intra_pruning_with_hog
 ;
 }
 static
-inline
+AOM_INLINE
 void
 produce_gradients_for_sb
 (
@@ -3193,7 +3193,7 @@ true
 }
 }
 static
-inline
+AOM_INLINE
 void
 generate_hog_using_gradient_cache
 (
@@ -3506,7 +3506,7 @@ hist
 ;
 }
 static
-inline
+INLINE
 void
 collect_hog_data
 (
@@ -3762,7 +3762,7 @@ ss_y
 }
 }
 static
-inline
+AOM_INLINE
 void
 prune_intra_mode_with_hog
 (
@@ -3897,7 +3897,7 @@ is_hbd
 )
 ;
 static
-inline
+AOM_INLINE
 bool
 is_src_var_for_4x4_sub_blocks_caching_enabled
 (
@@ -3992,7 +3992,7 @@ true
 ;
 }
 static
-inline
+AOM_INLINE
 void
 init_src_var_info_of_4x4_sub_blocks
 (
@@ -4074,7 +4074,7 @@ log_var
 }
 }
 static
-inline
+AOM_INLINE
 int
 write_uniform_cost
 (
@@ -4139,7 +4139,7 @@ l
 ;
 }
 static
-inline
+AOM_INLINE
 int
 intra_mode_info_cost_y
 (
@@ -4597,7 +4597,7 @@ total_rate
 ;
 }
 static
-inline
+AOM_INLINE
 int
 intra_mode_info_cost_uv
 (
@@ -5253,7 +5253,7 @@ satd_cost
 ;
 }
 static
-inline
+AOM_INLINE
 int
 model_intra_yrd_and_prune
 (

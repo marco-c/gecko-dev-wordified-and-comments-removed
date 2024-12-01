@@ -87,7 +87,7 @@ in
 pel
 units
 static
-inline
+INLINE
 int
 get_relative_dist
 (
@@ -210,7 +210,7 @@ diff
 ;
 }
 static
-inline
+INLINE
 void
 clamp_mv_ref
 (
@@ -287,7 +287,7 @@ mv_limits
 ;
 }
 static
-inline
+INLINE
 int_mv
 get_block_mv
 (
@@ -310,7 +310,7 @@ which_mv
 ;
 }
 static
-inline
+INLINE
 int
 is_inside
 (
@@ -388,7 +388,7 @@ mi_col_end
 ;
 }
 static
-inline
+INLINE
 int
 find_valid_row_offset
 (
@@ -425,7 +425,7 @@ mi_row
 ;
 }
 static
-inline
+INLINE
 int
 find_valid_col_offset
 (
@@ -462,7 +462,7 @@ mi_col
 ;
 }
 static
-inline
+INLINE
 void
 lower_mv_precision
 (
@@ -556,7 +556,7 @@ col
 }
 }
 static
-inline
+INLINE
 int8_t
 get_uni_comp_ref_idx
 (
@@ -658,7 +658,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int8_t
 av1_ref_frame_type
 (
@@ -851,7 +851,7 @@ ALTREF_FRAME
 }
 ;
 static
-inline
+INLINE
 void
 av1_set_ref_frame
 (
@@ -961,7 +961,7 @@ COMP_NEWMV_CTXS
 }
 ;
 static
-inline
+INLINE
 int16_t
 av1_mode_context_analyzer
 (
@@ -1055,7 +1055,7 @@ comp_ctx
 ;
 }
 static
-inline
+INLINE
 uint8_t
 av1_drl_ctx
 (
@@ -1197,7 +1197,7 @@ gld_map_idx
 )
 ;
 static
-inline
+INLINE
 void
 av1_collect_neighbors_ref_counts
 (
@@ -1506,7 +1506,7 @@ INTRABC_DELAY_PIXELS
 64
 )
 static
-inline
+INLINE
 void
 av1_find_ref_dv
 (
@@ -1591,7 +1591,7 @@ ref_dv
 ;
 }
 static
-inline
+INLINE
 int
 av1_is_dv_valid
 (

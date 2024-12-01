@@ -67,8 +67,6 @@ uint8_t
 *
 const
 dest
-size_t
-dest_size
 unsigned
 int
 *
@@ -189,7 +187,7 @@ compressor_stage
 )
 ;
 static
-inline
+AOM_INLINE
 int
 is_frame_droppable
 (
@@ -265,7 +263,7 @@ return
 ;
 }
 static
-inline
+AOM_INLINE
 int
 get_current_frame_ref_type
 (

@@ -468,7 +468,7 @@ AV1_PROB_COST_SHIFT
 ;
 }
 static
-inline
+AOM_INLINE
 void
 compute_global_motion_for_ref_frame
 (
@@ -1051,7 +1051,7 @@ ref_params
 ;
 }
 static
-inline
+AOM_INLINE
 void
 compute_global_motion_for_references
 (
@@ -1438,7 +1438,7 @@ return
 ;
 }
 static
-inline
+AOM_INLINE
 void
 update_valid_ref_frames_for_gm
 (
@@ -1902,7 +1902,7 @@ num_future_ref_frames
 }
 }
 static
-inline
+AOM_INLINE
 void
 setup_global_motion_info_params
 (
@@ -2184,7 +2184,7 @@ num_ref_frames
 }
 }
 static
-inline
+AOM_INLINE
 void
 global_motion_estimation
 (

@@ -669,7 +669,7 @@ h
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 blend_a64_vmask_bn_w4_sse4_1
 (
@@ -879,7 +879,7 @@ blend_4_b12
 ;
 }
 static
-inline
+INLINE
 void
 blend_a64_vmask_bn_w8n_sse4_1
 (

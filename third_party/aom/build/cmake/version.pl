@@ -24,7 +24,6 @@ Media
 All
 rights
 reserved
-.
 #
 #
 #
@@ -622,7 +621,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -748,12 +746,6 @@ EOF
 ;
 lic_block
 #
-ifndef
-AOM_VERSION_H_
-#
-define
-AOM_VERSION_H_
-#
 define
 VERSION_MAJOR
 version_major
@@ -795,11 +787,6 @@ VERSION_STRING
 git_desc
 \
 "
-#
-endif
-/
-/
-AOM_VERSION_H_
 EOF
 }
 else
@@ -813,12 +800,6 @@ EOF
 ;
 lic_block
 #
-ifndef
-AOM_VERSION_H_
-#
-define
-AOM_VERSION_H_
-#
 define
 VERSION_MAJOR
 version_major
@@ -862,11 +843,6 @@ v
 version_string
 \
 "
-#
-endif
-/
-/
-AOM_VERSION_H_
 EOF
 }
 close

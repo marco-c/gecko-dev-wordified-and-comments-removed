@@ -66,7 +66,7 @@ av1_rtcd
 h
 "
 static
-inline
+INLINE
 int16x4_t
 convolve4_4_2d_h
 (
@@ -146,7 +146,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve8_8_2d_h
 (
@@ -296,7 +296,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_horiz_neon
 (
@@ -1803,7 +1803,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_copy_dist_wtd_avg_neon
 (
@@ -2364,7 +2364,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_copy_avg_neon
 (
@@ -2903,7 +2903,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_copy_neon
 (
@@ -3388,7 +3388,7 @@ conv_params
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve4_4_x
 (
@@ -3472,7 +3472,7 @@ res
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve8_8_x
 (
@@ -3626,7 +3626,7 @@ res
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_dist_wtd_avg_neon
 (
@@ -5000,7 +5000,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_avg_neon
 (
@@ -6348,7 +6348,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_neon
 (
@@ -7586,7 +7586,7 @@ conv_params
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve6_4_y
 (
@@ -7714,7 +7714,7 @@ res
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve6_8_y
 (
@@ -7842,7 +7842,7 @@ res
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_6tap_dist_wtd_avg_neon
 (
@@ -9251,7 +9251,7 @@ width
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_6tap_avg_neon
 (
@@ -10632,7 +10632,7 @@ width
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_6tap_neon
 (
@@ -11754,7 +11754,7 @@ width
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve8_4_y
 (
@@ -11908,7 +11908,7 @@ res
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve8_8_y
 (
@@ -12062,7 +12062,7 @@ res
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_8tap_dist_wtd_avg_neon
 (
@@ -13913,7 +13913,7 @@ width
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_8tap_avg_neon
 (
@@ -15736,7 +15736,7 @@ width
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_y_8tap_neon
 (

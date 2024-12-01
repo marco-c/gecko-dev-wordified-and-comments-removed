@@ -150,7 +150,7 @@ random_seed
 aom_film_grain_t
 ;
 static
-inline
+INLINE
 int
 aom_check_grain_params_equiv
 (

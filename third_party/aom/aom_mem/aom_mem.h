@@ -132,7 +132,7 @@ memblk
 )
 ;
 static
-inline
+INLINE
 void
 *
 aom_memset16

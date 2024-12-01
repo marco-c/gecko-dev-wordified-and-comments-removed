@@ -135,7 +135,7 @@ tokenize
 h
 "
 static
-inline
+AOM_INLINE
 int
 av1_fast_palette_color_index_context_on_edge
 (
@@ -422,7 +422,7 @@ INVALID_COLOR_IDX
 UINT8_MAX
 )
 static
-inline
+AOM_INLINE
 int
 av1_fast_palette_color_index_context
 (

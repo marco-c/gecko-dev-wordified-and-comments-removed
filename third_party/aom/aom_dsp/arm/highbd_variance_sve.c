@@ -71,7 +71,7 @@ variance
 h
 "
 static
-inline
+INLINE
 void
 highbd_variance_4xh_sve
 (
@@ -210,7 +210,7 @@ sse_s64
 ;
 }
 static
-inline
+INLINE
 void
 variance_8x1_sve
 (
@@ -284,7 +284,7 @@ diff
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_8xh_sve
 (
@@ -377,7 +377,7 @@ sse_s64
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_16xh_sve
 (
@@ -534,7 +534,7 @@ sse_s64
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_large_sve
 (
@@ -853,7 +853,7 @@ sse_s64
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_32xh_sve
 (
@@ -893,7 +893,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_64xh_sve
 (
@@ -933,7 +933,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_variance_128xh_sve
 (
@@ -1809,7 +1809,7 @@ HBD_VARIANCE_WXH_10_SVE
 undef
 HBD_VARIANCE_WXH_12_SVE
 static
-inline
+INLINE
 uint32_t
 highbd_mse_wxh_sve
 (

@@ -33,7 +33,7 @@ aom_dsp_common
 h
 "
 static
-inline
+INLINE
 void
 init_one_qp
 (
@@ -91,7 +91,7 @@ ac
 ;
 }
 static
-inline
+INLINE
 void
 update_qp
 (
@@ -156,7 +156,7 @@ qp
 ;
 }
 static
-inline
+INLINE
 void
 init_qp
 (
@@ -285,7 +285,7 @@ qp
 ;
 }
 static
-inline
+INLINE
 void
 quantize
 (

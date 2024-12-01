@@ -37,7 +37,7 @@ synonyms
 h
 "
 static
-inline
+INLINE
 __m128i
 mm256_add_hi_lo_epi16
 (
@@ -62,7 +62,7 @@ val
 ;
 }
 static
-inline
+INLINE
 __m128i
 mm256_add_hi_lo_epi32
 (
@@ -87,7 +87,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 variance_kernel_avx2
 (
@@ -209,7 +209,7 @@ madd1
 ;
 }
 static
-inline
+INLINE
 int
 variance_final_from_32bit_sum_avx2
 (
@@ -300,7 +300,7 @@ res
 ;
 }
 static
-inline
+INLINE
 int
 variance_final_512_avx2
 (
@@ -357,7 +357,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 int
 variance_final_1024_avx2
 (
@@ -411,7 +411,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 __m256i
 sum_to_32bit_avx2
 (
@@ -454,7 +454,7 @@ sum_hi
 ;
 }
 static
-inline
+INLINE
 int
 variance_final_2048_avx2
 (
@@ -495,7 +495,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 void
 variance16_kernel_avx2
 (
@@ -643,7 +643,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 variance32_kernel_avx2
 (
@@ -709,7 +709,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 variance16_avx2
 (
@@ -791,7 +791,7 @@ ref_stride
 }
 }
 static
-inline
+INLINE
 void
 variance32_avx2
 (
@@ -866,7 +866,7 @@ ref_stride
 }
 }
 static
-inline
+INLINE
 void
 variance64_avx2
 (
@@ -957,7 +957,7 @@ ref_stride
 }
 }
 static
-inline
+INLINE
 void
 variance128_avx2
 (
@@ -1524,7 +1524,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 __m256i
 mm256_loadu2
 (
@@ -1572,11 +1572,8 @@ p0
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 __m256i
 mm256_loadu2_16
 (
@@ -1624,10 +1621,8 @@ p0
 )
 ;
 }
-#
-endif
 static
-inline
+INLINE
 void
 comp_mask_pred_line_avx2
 (
@@ -2971,11 +2966,8 @@ height
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 __m256i
 highbd_comp_mask_pred_line_avx2
 (
@@ -3774,8 +3766,6 @@ height
 ;
 }
 }
-#
-endif
 static
 uint64_t
 mse_4xh_16bit_avx2
@@ -5569,7 +5559,7 @@ return
 }
 }
 static
-inline
+INLINE
 void
 calc_sum_sse_wd32_avx2
 (
@@ -5733,7 +5723,7 @@ diff1
 ;
 }
 static
-inline
+INLINE
 __m256i
 calc_sum_sse_order
 (
@@ -5896,7 +5886,7 @@ sum_sse_order_add
 ;
 }
 static
-inline
+INLINE
 void
 get_var_sse_sum_8x8_quad_avx2
 (
@@ -6122,7 +6112,7 @@ variance_8x8
 ;
 }
 static
-inline
+INLINE
 void
 get_var_sse_sum_16x16_dual_avx2
 (

@@ -20,7 +20,7 @@ endif
 if
 IS_DEC
 static
-inline
+AOM_INLINE
 void
 build_one_inter_predictor
 (
@@ -54,7 +54,7 @@ mc_buf
 #
 else
 static
-inline
+AOM_INLINE
 void
 build_one_inter_predictor
 (
@@ -386,7 +386,7 @@ true
 if
 IS_DEC
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors_sub8x8
 (
@@ -416,7 +416,7 @@ mc_buf
 #
 else
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors_sub8x8
 (
@@ -955,7 +955,7 @@ row
 if
 IS_DEC
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors_8x8_and_bigger
 (
@@ -991,7 +991,7 @@ mc_buf
 #
 else
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors_8x8_and_bigger
 (
@@ -1573,7 +1573,7 @@ endif
 if
 IS_DEC
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors
 (
@@ -1669,7 +1669,7 @@ mc_buf
 #
 else
 static
-inline
+AOM_INLINE
 void
 build_inter_predictors
 (

@@ -236,9 +236,6 @@ return
 value
 ;
 }
-#
-if
-CONFIG_AV1_DECODER
 uint32_t
 aom_rb_read_unsigned_literal
 (
@@ -357,8 +354,6 @@ value
 nbits
 ;
 }
-#
-endif
 uint32_t
 aom_rb_read_uvlc
 (
@@ -429,9 +424,6 @@ base
 value
 ;
 }
-#
-if
-CONFIG_AV1_DECODER
 static
 uint16_t
 aom_rb_read_primitive_quniform
@@ -709,5 +701,3 @@ n
 1
 ;
 }
-#
-endif

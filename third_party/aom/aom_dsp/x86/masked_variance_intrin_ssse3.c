@@ -816,10 +816,6 @@ MASK_SUBPIX_VAR4XH_SSSE3
 (
 4
 )
-#
-if
-!
-CONFIG_REALTIME_ONLY
 MASK_SUBPIX_VAR4XH_SSSE3
 (
 16
@@ -848,10 +844,8 @@ MASK_SUBPIX_VAR_SSSE3
 16
 64
 )
-#
-endif
 static
-inline
+INLINE
 __m128i
 filter_block
 (
@@ -1567,7 +1561,7 @@ w
 }
 }
 static
-inline
+INLINE
 __m128i
 filter_block_2rows
 (
@@ -3000,7 +2994,7 @@ dst
 }
 }
 static
-inline
+INLINE
 void
 accumulate_block
 (
@@ -5525,10 +5519,6 @@ HIGHBD_MASK_SUBPIX_VAR4XH_SSSE3
 (
 4
 )
-#
-if
-!
-CONFIG_REALTIME_ONLY
 HIGHBD_MASK_SUBPIX_VAR4XH_SSSE3
 (
 16
@@ -5558,10 +5548,8 @@ HIGHBD_MASK_SUBPIX_VAR_SSSE3
 64
 16
 )
-#
-endif
 static
-inline
+INLINE
 __m128i
 highbd_filter_block
 (
@@ -6277,7 +6265,7 @@ w
 }
 }
 static
-inline
+INLINE
 __m128i
 highbd_filter_block_2rows
 (

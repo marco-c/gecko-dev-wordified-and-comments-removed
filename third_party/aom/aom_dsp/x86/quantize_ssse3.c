@@ -56,7 +56,7 @@ quantize_x86
 h
 "
 static
-inline
+INLINE
 void
 calculate_qcoeff_64x64
 (
@@ -150,7 +150,7 @@ tmp1
 ;
 }
 static
-inline
+INLINE
 void
 calculate_dqcoeff_and_store_64x64
 (

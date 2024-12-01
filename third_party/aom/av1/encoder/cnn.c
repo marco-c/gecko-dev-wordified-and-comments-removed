@@ -130,7 +130,7 @@ th_step
 CONVOLVE_OPS
 ;
 static
-inline
+INLINE
 float
 softsign
 (
@@ -154,7 +154,7 @@ x
 ;
 }
 static
-inline
+INLINE
 float
 relu
 (
@@ -1662,7 +1662,7 @@ c
 if
 CONFIG_DEBUG
 static
-inline
+INLINE
 int
 cnn_has_at_least_one_output
 (
@@ -2130,7 +2130,7 @@ branch
 }
 }
 static
-inline
+INLINE
 int
 get_start_shift_convolve
 (
@@ -5847,7 +5847,7 @@ th
 }
 }
 static
-inline
+INLINE
 int
 get_start_shift_deconvolve
 (

@@ -2797,7 +2797,7 @@ av1_fast_idtx_iscan_16x16
 }
 ;
 static
-inline
+INLINE
 int
 get_model_rd_flag
 (
@@ -2885,7 +2885,7 @@ use_highbitdepth
 ;
 }
 static
-inline
+INLINE
 void
 find_predictors
 (
@@ -3296,7 +3296,7 @@ scaled_ref
 ;
 }
 static
-inline
+INLINE
 void
 init_mbmi_nonrd
 (
@@ -3452,7 +3452,7 @@ interp_filter
 ;
 }
 static
-inline
+INLINE
 void
 init_estimate_block_intra_args
 (
@@ -3519,7 +3519,7 @@ false
 ;
 }
 static
-inline
+INLINE
 int
 get_pred_buffer
 (
@@ -3577,7 +3577,7 @@ return
 ;
 }
 static
-inline
+INLINE
 void
 free_pred_buffer
 (
@@ -3605,7 +3605,7 @@ in_use
 if
 CONFIG_INTERNAL_STATS
 static
-inline
+INLINE
 void
 store_coding_context_nonrd
 (
@@ -3622,7 +3622,7 @@ mode_index
 #
 else
 static
-inline
+INLINE
 void
 store_coding_context_nonrd
 (

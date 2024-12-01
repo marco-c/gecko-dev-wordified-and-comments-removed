@@ -12,6 +12,15 @@ arm_neon
 h
 >
 #
+include
+"
+aom
+/
+aom_integer
+.
+h
+"
+#
 define
 SHIFT_LOOP_HELPER
 (
@@ -22,7 +31,7 @@ arg
 )
 \
 static
-inline
+AOM_INLINE
 void
 name
 (

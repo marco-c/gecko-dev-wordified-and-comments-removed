@@ -115,7 +115,7 @@ rd
 h
 "
 static
-inline
+INLINE
 uint16_t
 get_max_eob
 (
@@ -219,7 +219,7 @@ v_eobmax_final
 endif
 }
 static
-inline
+INLINE
 int16x8_t
 get_max_lane_eob
 (
@@ -282,7 +282,7 @@ v_nz_iscan
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 quantize_fp_8
 (
@@ -665,7 +665,7 @@ v_eobmax_76543210
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 quantize_lp_8
 (

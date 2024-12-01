@@ -107,7 +107,7 @@ xd
 )
 ;
 static
-inline
+INLINE
 const
 SCAN_ORDER
 *
@@ -131,7 +131,7 @@ tx_type
 ;
 }
 static
-inline
+INLINE
 const
 SCAN_ORDER
 *

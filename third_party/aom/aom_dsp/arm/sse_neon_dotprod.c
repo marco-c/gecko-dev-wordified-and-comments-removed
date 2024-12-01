@@ -37,7 +37,7 @@ sum_neon
 h
 "
 static
-inline
+INLINE
 void
 sse_16x1_neon_dotprod
 (
@@ -92,7 +92,7 @@ abs_diff
 ;
 }
 static
-inline
+INLINE
 void
 sse_8x1_neon_dotprod
 (
@@ -147,7 +147,7 @@ abs_diff
 ;
 }
 static
-inline
+INLINE
 void
 sse_4x2_neon_dotprod
 (
@@ -208,7 +208,7 @@ abs_diff
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_wxh_neon_dotprod
 (
@@ -486,7 +486,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_128xh_neon_dotprod
 (
@@ -685,7 +685,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_64xh_neon_dotprod
 (
@@ -824,7 +824,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_32xh_neon_dotprod
 (
@@ -933,7 +933,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_16xh_neon_dotprod
 (
@@ -1051,7 +1051,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_8xh_neon_dotprod
 (
@@ -1169,7 +1169,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint32_t
 sse_4xh_neon_dotprod
 (

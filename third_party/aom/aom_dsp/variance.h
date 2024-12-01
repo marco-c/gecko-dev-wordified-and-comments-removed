@@ -502,6 +502,12 @@ ovf
 aom_obmc_subpixvariance_fn_t
 osvf
 ;
+aom_dist_wtd_sad_avg_fn_t
+jsdaf
+;
+aom_dist_wtd_subp_avg_variance_fn_t
+jsvaf
+;
 }
 aom_variance_fn_ptr_t
 ;

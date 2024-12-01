@@ -666,9 +666,6 @@ shifted_8
 }
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 void
 av1_highbd_convolve_horiz_rs_sse4_1
 (
@@ -1283,5 +1280,3 @@ clipped_16
 }
 }
 }
-#
-endif

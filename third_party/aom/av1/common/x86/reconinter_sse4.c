@@ -51,7 +51,7 @@ av1_rtcd
 h
 "
 static
-inline
+INLINE
 __m128i
 calc_mask
 (

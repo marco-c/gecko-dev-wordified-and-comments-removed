@@ -2781,9 +2781,6 @@ current_time
 ;
 }
 }
-#
-if
-0
 void
 av1_decoder_model_print_status
 (
@@ -2948,11 +2945,8 @@ presentation_time
 ;
 }
 }
-#
-endif
-static
 void
-decoder_model_init
+av1_decoder_model_init
 (
 const
 AV1_COMP
@@ -3690,9 +3684,8 @@ status
 ;
 }
 }
-static
 void
-decoder_model_process_frame
+av1_decoder_model_process_frame
 (
 const
 AV1_COMP
@@ -4996,7 +4989,7 @@ DECODER_MODEL_DISABLED
 }
 else
 {
-decoder_model_init
+av1_decoder_model_init
 (
 cpi
 level
@@ -7341,7 +7334,7 @@ SEQ_LEVELS
 level
 )
 {
-decoder_model_process_frame
+av1_decoder_model_process_frame
 (
 cpi
 size

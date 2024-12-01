@@ -37,7 +37,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 int16_t
 loadu_int16
 (
@@ -66,7 +66,7 @@ v
 ;
 }
 static
-inline
+INLINE
 int32_t
 loadu_int32
 (
@@ -95,7 +95,7 @@ v
 ;
 }
 static
-inline
+INLINE
 int64_t
 loadu_int64
 (
@@ -124,7 +124,7 @@ v
 ;
 }
 static
-inline
+INLINE
 void
 _mm_storeh_epi64
 (
@@ -152,7 +152,7 @@ s
 ;
 }
 static
-inline
+INLINE
 __m128i
 loadh_epi64
 (
@@ -186,7 +186,7 @@ src
 ;
 }
 static
-inline
+INLINE
 __m128i
 load_8bit_4x4_to_1_reg_sse2
 (
@@ -255,7 +255,7 @@ byte_stride
 ;
 }
 static
-inline
+INLINE
 __m128i
 load_8bit_8x2_to_1_reg_sse2
 (
@@ -314,7 +314,7 @@ dst
 ;
 }
 static
-inline
+INLINE
 void
 store_8bit_8x4_from_16x2
 (
@@ -410,7 +410,7 @@ s
 ;
 }
 static
-inline
+INLINE
 void
 store_8bit_4x4
 (
@@ -514,7 +514,7 @@ s
 ;
 }
 static
-inline
+INLINE
 void
 store_8bit_4x4_sse2
 (
@@ -585,7 +585,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_8bit_4x4
 (
@@ -693,7 +693,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_8bit_4x8
 (
@@ -743,7 +743,7 @@ d
 ;
 }
 static
-inline
+INLINE
 void
 load_8bit_8x4
 (
@@ -847,7 +847,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 loadu_8bit_16x4
 (
@@ -951,7 +951,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_8bit_8x8
 (
@@ -1001,7 +1001,7 @@ d
 ;
 }
 static
-inline
+INLINE
 void
 load_8bit_16x8
 (
@@ -1189,7 +1189,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 loadu_8bit_16x8
 (
@@ -1239,7 +1239,7 @@ d
 ;
 }
 static
-inline
+INLINE
 void
 store_8bit_8x8
 (
@@ -1411,7 +1411,7 @@ s
 ;
 }
 static
-inline
+INLINE
 void
 storeu_8bit_16x4
 (

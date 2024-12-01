@@ -21,7 +21,7 @@ aom_config
 h
 "
 static
-inline
+INLINE
 int32_t
 xx_hsum_epi32_si32
 (
@@ -53,7 +53,7 @@ v_d
 ;
 }
 static
-inline
+INLINE
 int64_t
 xx_hsum_epi64_si64
 (
@@ -107,7 +107,7 @@ tmp
 endif
 }
 static
-inline
+INLINE
 int64_t
 xx_hsum_epi32_si64
 (
@@ -159,7 +159,7 @@ v_1_q
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_roundn_epi32
 (

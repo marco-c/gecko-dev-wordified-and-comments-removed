@@ -21,7 +21,7 @@ aom_config
 h
 "
 static
-inline
+INLINE
 void
 mm256_transpose_16x16
 (

@@ -59,7 +59,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 get_cubic_kernel_dbl
 (
@@ -184,7 +184,7 @@ x3
 ;
 }
 static
-inline
+INLINE
 void
 get_cubic_kernel_int
 (
@@ -303,7 +303,7 @@ DISFLOW_INTERP_BITS
 ;
 }
 static
-inline
+INLINE
 void
 sobel_filter_x
 (
@@ -517,7 +517,7 @@ s2
 }
 }
 static
-inline
+INLINE
 void
 sobel_filter_y
 (

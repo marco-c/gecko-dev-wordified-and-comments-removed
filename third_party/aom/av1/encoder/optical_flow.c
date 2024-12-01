@@ -144,7 +144,7 @@ OPFL_WINDOW_SIZE
 ;
 }
 static
-inline
+INLINE
 int
 is_frame_high_bitdepth
 (
@@ -170,7 +170,7 @@ YV12_FLAG_HIGHBITDEPTH
 ;
 }
 static
-inline
+INLINE
 int
 is_sparse
 (

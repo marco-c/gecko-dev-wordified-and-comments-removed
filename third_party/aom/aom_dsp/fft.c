@@ -26,7 +26,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 simple_transpose
 (
@@ -95,7 +95,7 @@ y
 }
 }
 static
-inline
+INLINE
 void
 unpack_2d_output
 (
@@ -492,7 +492,7 @@ n
 ;
 }
 static
-inline
+INLINE
 void
 store_float
 (
@@ -510,7 +510,7 @@ input
 ;
 }
 static
-inline
+INLINE
 float
 add_float
 (
@@ -527,7 +527,7 @@ b
 ;
 }
 static
-inline
+INLINE
 float
 sub_float
 (
@@ -544,7 +544,7 @@ b
 ;
 }
 static
-inline
+INLINE
 float
 mul_float
 (
@@ -1558,7 +1558,6 @@ n
 }
 GEN_IFFT_2
 (
-static
 void
 float
 float
@@ -1568,7 +1567,6 @@ store_float
 )
 GEN_IFFT_4
 (
-static
 void
 float
 float
@@ -1583,7 +1581,6 @@ sub_float
 )
 GEN_IFFT_8
 (
-static
 void
 float
 float
@@ -1599,7 +1596,6 @@ mul_float
 )
 GEN_IFFT_16
 (
-static
 void
 float
 float
@@ -1615,7 +1611,6 @@ mul_float
 )
 GEN_IFFT_32
 (
-static
 void
 float
 float

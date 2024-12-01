@@ -266,7 +266,7 @@ char
 ENTROPY_CONTEXT
 ;
 static
-inline
+INLINE
 int
 combine_entropy_contexts
 (
@@ -293,7 +293,7 @@ b
 ;
 }
 static
-inline
+INLINE
 int
 get_entropy_context
 (
@@ -972,7 +972,7 @@ left_ec
 ;
 }
 static
-inline
+INLINE
 TX_SIZE
 get_txsize_entropy_ctx
 (

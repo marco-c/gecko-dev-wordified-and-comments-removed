@@ -108,7 +108,7 @@ __GNUC__
 4
 )
 static
-inline
+INLINE
 int
 get_msb
 (
@@ -147,7 +147,7 @@ intrinsic
 _BitScanReverse
 )
 static
-inline
+INLINE
 int
 get_msb
 (
@@ -182,7 +182,7 @@ first_set_bit
 #
 else
 static
-inline
+INLINE
 int
 get_msb
 (
@@ -294,7 +294,7 @@ __GNUC__
 4
 )
 static
-inline
+INLINE
 int
 aom_clzll
 (
@@ -336,7 +336,7 @@ _BitScanReverse64
 #
 endif
 static
-inline
+INLINE
 int
 aom_clzll
 (
@@ -490,7 +490,7 @@ USE_MSC_INTRINSICS
 #
 else
 static
-inline
+INLINE
 int
 aom_clzll
 (

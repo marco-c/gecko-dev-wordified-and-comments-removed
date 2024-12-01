@@ -113,7 +113,7 @@ while
 0
 )
 static
-inline
+INLINE
 void
 transpose_8x8
 (
@@ -272,7 +272,7 @@ out
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16x16
 (
@@ -863,7 +863,7 @@ out
 ;
 }
 static
-inline
+INLINE
 void
 transpose_8nx8n
 (
@@ -1052,7 +1052,7 @@ numcol
 }
 }
 static
-inline
+INLINE
 __m128i
 half_btf_sse4_1
 (
@@ -1134,7 +1134,7 @@ x
 ;
 }
 static
-inline
+INLINE
 __m128i
 half_btf_0_sse4_1
 (

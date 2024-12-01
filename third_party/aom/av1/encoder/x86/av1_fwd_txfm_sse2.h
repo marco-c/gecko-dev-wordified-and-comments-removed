@@ -99,7 +99,7 @@ cos_bit
 )
 ;
 static
-inline
+INLINE
 void
 fidentity4x4_new_sse2
 (
@@ -184,7 +184,7 @@ b
 }
 }
 static
-inline
+INLINE
 void
 fidentity8x4_new_sse2
 (
@@ -292,7 +292,7 @@ b_hi
 }
 }
 static
-inline
+INLINE
 void
 fidentity8x8_new_sse2
 (
@@ -450,7 +450,7 @@ input
 ;
 }
 static
-inline
+INLINE
 void
 fdct8x8_new_sse2
 (
@@ -1102,7 +1102,7 @@ output
 ;
 }
 static
-inline
+INLINE
 void
 fadst8x8_new_sse2
 (
@@ -2016,7 +2016,7 @@ output
 ;
 }
 static
-inline
+INLINE
 void
 fidentity8x16_new_sse2
 (
@@ -2125,7 +2125,7 @@ b_hi
 }
 }
 static
-inline
+INLINE
 void
 fidentity8x32_new_sse2
 (

@@ -12,7 +12,7 @@ immintrin
 h
 >
 static
-inline
+INLINE
 void
 btf_32_avx2_type0
 (
@@ -160,7 +160,7 @@ cos_bit
 ;
 }
 static
-inline
+INLINE
 void
 btf_32_avx2_type1
 (
@@ -308,7 +308,7 @@ cos_bit
 ;
 }
 static
-inline
+INLINE
 void
 btf_32_avx2_type0_new
 (
@@ -438,7 +438,7 @@ cos_bit
 ;
 }
 static
-inline
+INLINE
 void
 btf_32_avx2_type1_new
 (

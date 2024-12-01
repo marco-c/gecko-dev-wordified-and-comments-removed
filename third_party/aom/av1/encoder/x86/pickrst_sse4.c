@@ -66,7 +66,7 @@ pickrst
 h
 "
 static
-inline
+INLINE
 void
 acc_stat_sse41
 (
@@ -189,7 +189,7 @@ r1
 ;
 }
 static
-inline
+INLINE
 void
 acc_stat_win7_one_line_sse4_1
 (
@@ -843,7 +843,7 @@ kl
 }
 }
 static
-inline
+INLINE
 void
 compute_stats_win7_opt_sse4_1
 (
@@ -1702,7 +1702,7 @@ m
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 acc_stat_highbd_sse41
 (
@@ -1921,7 +1921,7 @@ rhh
 ;
 }
 static
-inline
+INLINE
 void
 acc_stat_highbd_win7_one_line_sse4_1
 (
@@ -2569,7 +2569,7 @@ dgd_ijkl
 }
 }
 static
-inline
+INLINE
 void
 compute_stats_highbd_win7_opt_sse4_1
 (
@@ -3061,7 +3061,7 @@ bit_depth_divider
 }
 }
 static
-inline
+INLINE
 void
 acc_stat_highbd_win5_one_line_sse4_1
 (
@@ -3641,7 +3641,7 @@ dgd_ijkl
 }
 }
 static
-inline
+INLINE
 void
 compute_stats_highbd_win5_opt_sse4_1
 (
@@ -4267,7 +4267,7 @@ bit_depth
 #
 endif
 static
-inline
+INLINE
 void
 acc_stat_win5_one_line_sse4_1
 (
@@ -4853,7 +4853,7 @@ kl
 }
 }
 static
-inline
+INLINE
 void
 compute_stats_win5_opt_sse4_1
 (
@@ -5825,7 +5825,7 @@ use_downsampled_wiener_stats
 }
 }
 static
-inline
+INLINE
 __m128i
 pair_set_epi16
 (
@@ -5855,9 +5855,6 @@ a
 (
 (
 uint32_t
-)
-(
-uint16_t
 )
 (
 b
@@ -7110,7 +7107,7 @@ err
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_r1_sse4_1
 (
@@ -7767,7 +7764,7 @@ size
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_sse4_1
 (
@@ -8162,7 +8159,7 @@ size
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r1_sse4_1
 (
@@ -8708,11 +8705,8 @@ C
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_r1_high_bd_sse4_1
 (
@@ -9369,7 +9363,7 @@ size
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r0_high_bd_sse4_1
 (
@@ -9764,7 +9758,7 @@ size
 ;
 }
 static
-inline
+AOM_INLINE
 void
 calc_proj_params_r1_high_bd_sse4_1
 (
@@ -10310,6 +10304,9 @@ C
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 int64_t
 av1_highbd_pixel_proj_error_sse4_1
 (

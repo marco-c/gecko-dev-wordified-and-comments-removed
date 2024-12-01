@@ -51,7 +51,7 @@ test
 /
 simd_cmp_impl
 .
-inc
+h
 "
 #
 endif

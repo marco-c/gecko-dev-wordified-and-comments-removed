@@ -44,7 +44,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_4xh_neon_dotprod
 (
@@ -245,7 +245,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_8xh_neon_dotprod
 (
@@ -441,7 +441,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_16xh_neon_dotprod
 (

@@ -138,7 +138,7 @@ endif
 TOKEN_STATS
 ;
 static
-inline
+INLINE
 void
 init_token_stats
 (
@@ -237,7 +237,7 @@ w
 )
 ;
 static
-inline
+INLINE
 void
 aom_write
 (
@@ -308,7 +308,7 @@ p
 ;
 }
 static
-inline
+INLINE
 void
 aom_write_bit
 (
@@ -328,7 +328,7 @@ bit
 ;
 }
 static
-inline
+INLINE
 void
 aom_write_literal
 (
@@ -376,7 +376,7 @@ bit
 ;
 }
 static
-inline
+INLINE
 void
 aom_write_cdf
 (
@@ -419,7 +419,7 @@ nsymbs
 ;
 }
 static
-inline
+INLINE
 void
 aom_write_symbol
 (

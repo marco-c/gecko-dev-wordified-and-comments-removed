@@ -1786,9 +1786,6 @@ conv_params
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
 void
 highbd_hfilter8
@@ -3532,5 +3529,3 @@ bd
 )
 ;
 }
-#
-endif

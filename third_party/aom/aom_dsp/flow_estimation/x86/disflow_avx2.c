@@ -94,7 +94,7 @@ DISFLOW_PATCH_SIZE
 #
 endif
 static
-inline
+INLINE
 __m128i
 compute_cubic_kernels
 (
@@ -398,7 +398,7 @@ c23
 ;
 }
 static
-inline
+INLINE
 void
 compute_flow_vector
 (
@@ -1303,7 +1303,7 @@ partial_sum
 ;
 }
 static
-inline
+INLINE
 void
 sobel_filter
 (
@@ -1624,7 +1624,7 @@ row_p1_p2_hdiff
 }
 }
 static
-inline
+INLINE
 void
 compute_flow_matrix
 (
@@ -1844,7 +1844,7 @@ result
 ;
 }
 static
-inline
+INLINE
 void
 invert_2x2
 (

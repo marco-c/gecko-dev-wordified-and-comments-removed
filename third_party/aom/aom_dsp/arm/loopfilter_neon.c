@@ -55,7 +55,7 @@ transpose_neon
 h
 "
 static
-inline
+INLINE
 uint8x8_t
 lpf_mask
 (
@@ -278,7 +278,7 @@ mask_8x8
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 lpf_mask2
 (
@@ -470,7 +470,7 @@ mask_8x8
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 lpf_flat_mask4
 (
@@ -563,7 +563,7 @@ flat_8x8
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 lpf_flat_mask3
 (
@@ -642,7 +642,7 @@ flat_8x8
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 lpf_mask3_chroma
 (

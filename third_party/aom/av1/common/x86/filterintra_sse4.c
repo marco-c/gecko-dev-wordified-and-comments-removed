@@ -66,7 +66,7 @@ define
 DUPLICATE_FIRST_HALF
 0x44
 static
-inline
+INLINE
 void
 filter_4x2_sse4_1
 (
@@ -224,7 +224,7 @@ output_row1
 ;
 }
 static
-inline
+INLINE
 void
 filter_4xh
 (
@@ -878,7 +878,7 @@ taps_6_7
 }
 }
 static
-inline
+INLINE
 void
 filter_intra_predictor_sse4_1
 (

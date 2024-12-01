@@ -11,9 +11,9 @@ tuple
 #
 include
 "
-aom
+config
 /
-aom_codec
+aom_version
 .
 h
 "
@@ -384,9 +384,7 @@ s
 \
 n
 "
-aom_codec_version_str
-(
-)
+VERSION_STRING_NOSP
 )
 ;
 printf
@@ -1331,9 +1329,7 @@ s
 \
 n
 "
-aom_codec_version_str
-(
-)
+VERSION_STRING_NOSP
 )
 ;
 printf

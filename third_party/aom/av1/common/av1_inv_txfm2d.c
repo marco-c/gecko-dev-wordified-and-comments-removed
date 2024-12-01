@@ -703,7 +703,7 @@ dest
 }
 }
 static
-inline
+INLINE
 TxfmFunc
 inv_txfm_type_to_func
 (
@@ -1625,7 +1625,7 @@ opt_range_col
 }
 }
 static
-inline
+INLINE
 void
 inv_txfm2d_add_c
 (
@@ -2201,7 +2201,7 @@ bd
 }
 }
 static
-inline
+INLINE
 void
 inv_txfm2d_add_facade
 (

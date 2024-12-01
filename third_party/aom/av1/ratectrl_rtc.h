@@ -102,7 +102,7 @@ int
 frame_drop_thresh
 ;
 int
-max_consec_drop_ms
+max_consec_drop
 ;
 double
 framerate
