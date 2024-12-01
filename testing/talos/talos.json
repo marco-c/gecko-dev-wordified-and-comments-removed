@@ -129,6 +129,9 @@ tests
 "
 tp5o_scroll
 "
+"
+tp5o_scroll_paint_skip
+"
 ]
 "
 pagesets_name
@@ -440,6 +443,9 @@ tsvgr_opacity
 "
 "
 tscrollx
+"
+"
+tscrollx_paint_skip
 "
 "
 tsvg_static
