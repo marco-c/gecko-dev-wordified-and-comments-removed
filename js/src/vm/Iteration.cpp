@@ -9316,6 +9316,17 @@ NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
+concat
+"
+"
+IteratorConcat
+"
+0
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 range
 "
 "

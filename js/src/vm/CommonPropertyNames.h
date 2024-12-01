@@ -646,6 +646,14 @@ compare
 \
 MACRO_
 (
+concat
+"
+concat
+"
+)
+\
+MACRO_
+(
 configurable
 "
 configurable
