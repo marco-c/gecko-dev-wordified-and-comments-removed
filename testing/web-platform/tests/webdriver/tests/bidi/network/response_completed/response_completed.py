@@ -3419,11 +3419,8 @@ PAGE_INITIATOR
 HTML
 "
 ]
+None
 "
-browser
-"
-"
-document
 "
 )
     
