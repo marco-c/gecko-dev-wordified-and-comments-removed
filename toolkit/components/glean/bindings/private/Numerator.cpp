@@ -69,6 +69,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+GIFFTFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -108,10 +115,10 @@ aAmount
 0
 )
 {
-Telemetry
+TelemetryScalar
 :
 :
-ScalarAdd
+Add
 (
 scalarId
 .
