@@ -121,9 +121,7 @@ resolvedOptions
 .
 timeZone
 "
-America
-/
-Los_Angeles
+PST8PDT
 "
 )
 ;
