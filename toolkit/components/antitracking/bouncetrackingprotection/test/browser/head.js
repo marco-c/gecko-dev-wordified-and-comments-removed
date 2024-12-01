@@ -1960,6 +1960,16 @@ originAttributes
 if
 (
 expectPurge
+&
+&
+mode
+=
+=
+Ci
+.
+nsIBounceTrackingProtection
+.
+MODE_ENABLED
 )
 {
 Assert
