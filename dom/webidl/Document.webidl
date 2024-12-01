@@ -1042,12 +1042,17 @@ declarative
 .
 enabled
 "
+Throws
 ]
 static
 Document
 parseHTMLUnsafe
 (
+(
+TrustedHTML
+or
 DOMString
+)
 html
 )
 ;

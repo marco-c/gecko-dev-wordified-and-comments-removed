@@ -1305,6 +1305,9 @@ class
 TreeWalker
 ;
 class
+TrustedHTMLOrString
+;
+class
 OwningTrustedHTMLOrString
 ;
 enum
@@ -15039,6 +15042,7 @@ OwnedRadioGroupContainer
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -15050,9 +15054,12 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 ;
 }
