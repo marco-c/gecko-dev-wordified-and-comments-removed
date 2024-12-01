@@ -112,7 +112,7 @@ headerbarinactivetext
 where
 (
 [
-tabsintitlebar
+customtitlebar
 ]
 )
 {
@@ -1499,7 +1499,7 @@ textcolor
 where
 (
 [
-tabsintitlebar
+customtitlebar
 ]
 )
 {

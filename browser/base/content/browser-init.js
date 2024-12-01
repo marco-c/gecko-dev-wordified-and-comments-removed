@@ -498,7 +498,7 @@ update
 (
 )
 ;
-TabsInTitlebar
+CustomTitlebar
 .
 init
 (
@@ -4448,7 +4448,7 @@ uninit
 (
 )
 ;
-TabsInTitlebar
+CustomTitlebar
 .
 uninit
 (

@@ -1943,7 +1943,7 @@ anyways
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 :
 not
@@ -2171,13 +2171,13 @@ drag
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 &
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 &
 #
@@ -2387,7 +2387,7 @@ root
 not
 (
 [
-tabsintitlebar
+customtitlebar
 ]
 )
 &
@@ -2808,7 +2808,7 @@ root
 not
 (
 [
-tabsintitlebar
+customtitlebar
 ]
 [
 sizemode
@@ -2898,7 +2898,7 @@ menubar
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 #
 navigator
@@ -2967,7 +2967,7 @@ bar
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 #
 navigator

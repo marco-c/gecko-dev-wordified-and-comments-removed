@@ -69,7 +69,7 @@ inTitlebar
 ;
 export
 var
-TabsInTitlebar
+CustomTitlebar
 =
 {
 init
