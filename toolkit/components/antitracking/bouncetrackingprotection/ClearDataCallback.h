@@ -57,7 +57,7 @@ MozPromise
 <
 RefPtr
 <
-BounceTrackingMapEntry
+BounceTrackingPurgeEntry
 >
 uint32_t
 true
@@ -112,7 +112,7 @@ ClearDataCallback
 ;
 RefPtr
 <
-BounceTrackingMapEntry
+BounceTrackingPurgeEntry
 >
 mEntry
 ;
