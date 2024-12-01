@@ -871,7 +871,7 @@ promise_test
 )
 =
 >
-fetch
+fetch_json
 (
 "
 .
@@ -895,18 +895,6 @@ base64
 .
 json
 "
-)
-.
-then
-(
-res
-=
->
-res
-.
-json
-(
-)
 )
 .
 then
