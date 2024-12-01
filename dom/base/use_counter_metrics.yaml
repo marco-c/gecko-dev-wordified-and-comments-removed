@@ -3224,7 +3224,7 @@ send_in_pings
 use
 -
 counters
-js__optimize_get_iterator_fuse
+js_optimize_get_iterator_fuse
 :
 type
 :
@@ -36163,7 +36163,7 @@ send_in_pings
 use
 -
 counters
-js__optimize_get_iterator_fuse
+js_optimize_get_iterator_fuse
 :
 type
 :
