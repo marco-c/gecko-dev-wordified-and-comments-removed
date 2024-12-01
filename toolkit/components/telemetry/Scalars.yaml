@@ -34811,6 +34811,10 @@ firefox
 '
 -
 '
+fennec
+'
+-
+'
 thunderbird
 '
 record_in_processes
@@ -36424,6 +36428,9 @@ products
 [
 "
 firefox
+"
+"
+fennec
 "
 "
 thunderbird
