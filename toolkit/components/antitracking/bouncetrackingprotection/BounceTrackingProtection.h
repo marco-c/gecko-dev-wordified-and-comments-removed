@@ -230,6 +230,17 @@ aStateGlobal
 nullptr
 )
 ;
+void
+MaybeLogPurgedWarningForSite
+(
+nsIPrincipal
+*
+aPrincipal
+BounceTrackingState
+*
+aBounceTrackingState
+)
+;
 private
 :
 BounceTrackingProtection
