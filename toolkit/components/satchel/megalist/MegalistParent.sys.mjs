@@ -174,4 +174,17 @@ message
 )
 ;
 }
+authExpirationTime
+(
+)
+{
+return
+this
+.
+#
+viewModel
+.
+authExpirationTime
+;
+}
 }
