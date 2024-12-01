@@ -15423,6 +15423,10 @@ JS
 TracingContext
 *
 trc
+const
+char
+*
+name
 char
 *
 buf
@@ -15447,6 +15451,10 @@ JS
 TracingContext
 *
 tcx
+const
+char
+*
+name
 char
 *
 buf
