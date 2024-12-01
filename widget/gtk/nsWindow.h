@@ -2011,14 +2011,6 @@ bool
 )
 override
 ;
-mozilla
-:
-:
-LayoutDeviceIntCoord
-GetTitlebarRadius
-(
-)
-;
 void
 UpdateWindowDraggingRegion
 (
