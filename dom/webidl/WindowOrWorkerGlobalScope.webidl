@@ -186,6 +186,8 @@ typedef
 (
 Function
 or
+TrustedScript
+or
 DOMString
 )
 TimerHandler

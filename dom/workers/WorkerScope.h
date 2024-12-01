@@ -301,7 +301,7 @@ class
 Function
 ;
 class
-FunctionOrString
+FunctionOrTrustedScriptOrString
 ;
 class
 IDBFactory
@@ -1313,7 +1313,7 @@ JSContext
 *
 aCx
 const
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 int32_t
@@ -1349,7 +1349,7 @@ JSContext
 *
 aCx
 const
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 int32_t
@@ -1593,7 +1593,7 @@ JSContext
 *
 aCx
 const
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 int32_t
