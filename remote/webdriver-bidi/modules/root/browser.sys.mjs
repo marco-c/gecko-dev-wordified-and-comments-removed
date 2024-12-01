@@ -756,7 +756,7 @@ win
 of
 lazy
 .
-TabManager
+windowManager
 .
 windows
 )
