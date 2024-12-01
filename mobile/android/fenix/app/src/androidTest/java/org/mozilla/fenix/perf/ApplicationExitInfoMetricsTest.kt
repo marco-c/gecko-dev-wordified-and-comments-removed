@@ -305,6 +305,9 @@ HomeActivity
 =
 HomeActivityTestRule
 (
+skipOnboarding
+=
+true
 )
 get
 :
