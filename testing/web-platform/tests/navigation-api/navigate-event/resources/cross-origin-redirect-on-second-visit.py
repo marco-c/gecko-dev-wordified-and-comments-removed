@@ -3,27 +3,23 @@ uuid
 def
 redirect_response
 (
+remote_origin
 )
 :
   
 location
 =
-b
-'
-http
-:
-/
-/
-localhost
-:
-8000
+remote_origin
++
+"
 /
 common
 /
 blank
 .
 html
-'
+"
+;
   
 return
 (
@@ -183,6 +179,19 @@ key
 ]
 ;
   
+remote_origin
+=
+request
+.
+GET
+[
+b
+'
+remote_origin
+'
+]
+;
+  
 visited
 =
 request
@@ -222,4 +231,5 @@ ok_response
 return
 redirect_response
 (
+remote_origin
 )
