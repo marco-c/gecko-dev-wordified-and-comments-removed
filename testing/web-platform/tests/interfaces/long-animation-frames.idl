@@ -134,6 +134,10 @@ toJSON
 ;
 }
 ;
+PerformanceLongAnimationFrameTiming
+includes
+PaintTimingMixin
+;
 enum
 ScriptInvokerType
 {
