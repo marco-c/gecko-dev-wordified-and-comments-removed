@@ -3894,10 +3894,6 @@ SetNonClientMargins
 (
 LayoutDeviceIntMargin
 (
-0
-2
-2
-2
 )
 )
 ;
