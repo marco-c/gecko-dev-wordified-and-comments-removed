@@ -3156,6 +3156,13 @@ js
 ]
 [
 "
+test_file_url_with_host
+.
+js
+"
+]
+[
+"
 test_filestreams
 .
 js
