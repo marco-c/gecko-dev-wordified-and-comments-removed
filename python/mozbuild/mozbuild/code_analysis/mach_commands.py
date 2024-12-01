@@ -5939,10 +5939,11 @@ prettier
 "
 "
 bin
--
+"
+"
 prettier
 .
-js
+cjs
 "
     
 )
