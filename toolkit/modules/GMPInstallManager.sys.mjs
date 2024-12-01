@@ -985,6 +985,11 @@ URL
 details
 .
 fileUrl
+mirrorURLs
+:
+details
+.
+mirrorUrls
 hashFunction
 :
 addons
@@ -3496,6 +3501,13 @@ gmpAddon
 URL
 =
 redirectUrl
+;
+gmpAddon
+.
+mirrorURLs
+=
+[
+]
 ;
 gmpAddon
 .
