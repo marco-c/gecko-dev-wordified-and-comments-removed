@@ -11433,12 +11433,9 @@ win
 .
 windowUtils
 .
-setChromeMargin
+setCustomTitlebar
 (
-0
-0
-0
-0
+true
 )
 ;
 }
