@@ -259,6 +259,11 @@ SandboxingKind
 aSandbox
 )
 ;
+void
+StartProcessForRemoteMediaDecoding
+(
+)
+;
 RefPtr
 <
 StartRemoteDecodingUtilityPromise
