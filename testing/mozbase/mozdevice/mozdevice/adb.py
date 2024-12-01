@@ -27615,14 +27615,6 @@ android
 .
 permission
 .
-READ_EXTERNAL_STORAGE
-"
-                
-"
-android
-.
-permission
-.
 ACCESS_COARSE_LOCATION
 "
                 
@@ -27672,6 +27664,29 @@ android
 permission
 .
 WRITE_EXTERNAL_STORAGE
+"
+)
+            
+if
+self
+.
+version
+<
+version_codes
+.
+TIRAMISU
+:
+                
+permissions
+.
+append
+(
+"
+android
+.
+permission
+.
+READ_EXTERNAL_STORAGE
 "
 )
             

@@ -9,7 +9,7 @@ android
 releases
 .
 See
-http
+https
 :
 /
 /
@@ -127,3 +127,18 @@ Q
 R
 =
 30
+S
+=
+31
+S_V2
+=
+32
+TIRAMISU
+=
+33
+UPSIDE_DOWN_CAKE
+=
+34
+VANILLA_ICE_CREAM
+=
+35
