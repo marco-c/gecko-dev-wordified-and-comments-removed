@@ -103,9 +103,7 @@ startLoadingURIString
 browser
 javascript
 :
-"
 1
-"
 ;
 )
 ;
