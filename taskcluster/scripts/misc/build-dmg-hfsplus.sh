@@ -123,6 +123,11 @@ no
 -
 pie
 \
+-
+DCMAKE_BUILD_TYPE
+=
+Release
+\
 .
 make
 VERBOSE
