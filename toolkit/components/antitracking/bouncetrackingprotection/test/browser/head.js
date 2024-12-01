@@ -1047,6 +1047,9 @@ postBounceCallback
 skipSiteDataCleanup
 =
 false
+skipBounceTrackingProtectionCleanup
+=
+false
 closeTabAfterBounce
 =
 false
@@ -2229,6 +2232,12 @@ window
 ;
 }
 }
+if
+(
+!
+skipBounceTrackingProtectionCleanup
+)
+{
 bounceTrackingProtection
 ?
 .
@@ -2236,6 +2245,7 @@ clearAll
 (
 )
 ;
+}
 if
 (
 !
