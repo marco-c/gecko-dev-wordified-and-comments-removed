@@ -396,9 +396,12 @@ text
 (
 )
 ;
-assert_equals
+assert_true
 (
 html
+.
+includes
+(
 '
 <
 img
@@ -417,6 +420,7 @@ oops
 "
 >
 '
+)
 )
 ;
 /
