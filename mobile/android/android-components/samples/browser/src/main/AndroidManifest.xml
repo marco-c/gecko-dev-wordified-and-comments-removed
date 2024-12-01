@@ -685,11 +685,7 @@ theme
 "
 style
 /
-Theme
-.
-AppCompat
-.
-Light
+AddonsActivityTheme
 "
 android
 :
