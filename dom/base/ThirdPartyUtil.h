@@ -162,14 +162,6 @@ bool
 aResult
 )
 ;
-nsCString
-GetBaseDomainFromWindow
-(
-nsPIDOMWindowOuter
-*
-aWindow
-)
-;
 RefPtr
 <
 nsEffectiveTLDService
