@@ -6795,7 +6795,7 @@ pref_key_open_links_in_external_app_old
 )
 default
 =
-false
+true
 )
 /
 *
