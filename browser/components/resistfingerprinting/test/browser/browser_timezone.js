@@ -53,7 +53,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Default
@@ -744,7 +746,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Default
@@ -820,7 +824,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Content
@@ -1050,7 +1056,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Default
@@ -1102,7 +1110,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Timezone
@@ -1163,7 +1173,9 @@ resolvedOptions
 .
 timeZone
 "
-PST8PDT
+America
+/
+Los_Angeles
 "
 "
 Timezone
