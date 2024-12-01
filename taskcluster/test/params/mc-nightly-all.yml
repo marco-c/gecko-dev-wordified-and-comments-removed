@@ -2616,15 +2616,6 @@ build
 -
 macosx64
 -
-ccov
-/
-opt
-:
-QfV320DSTL66ZVnJZdK2OQ
-build
--
-macosx64
--
 fuzzing
 /
 debug
