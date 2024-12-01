@@ -1,11 +1,5 @@
 use
-crate
-:
-:
-Url
-;
-use
-std
+core
 :
 :
 ops
@@ -18,6 +12,12 @@ RangeFrom
 RangeFull
 RangeTo
 }
+;
+use
+crate
+:
+:
+Url
 ;
 impl
 Index
