@@ -1018,14 +1018,6 @@ History
 :
 UndoCloseTab
 "
-oncommand
-=
-"
-undoCloseTab
-(
-)
-;
-"
 data
 -
 l10n
