@@ -1210,7 +1210,10 @@ BuildCompositorHitTestInfo
 const
 {
 return
-mBuildCompositorHitTestInfo
+mAsyncPanZoomEnabled
+&
+&
+mIsPaintingToWindow
 ;
 }
 bool
@@ -5655,6 +5658,9 @@ bool
 mIsPaintingToWindow
 ;
 bool
+mAsyncPanZoomEnabled
+;
+bool
 mUseHighQualityScaling
 ;
 bool
@@ -5679,9 +5685,6 @@ bool
 mContainsNonMinimalDisplayPort
 ;
 bool
-mAsyncPanZoomEnabled
-;
-bool
 mBuildingInvisibleItems
 ;
 bool
@@ -5689,9 +5692,6 @@ mIsBuilding
 ;
 bool
 mInInvalidSubtree
-;
-bool
-mBuildCompositorHitTestInfo
 ;
 bool
 mDisablePartialUpdates
