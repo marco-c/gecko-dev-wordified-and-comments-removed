@@ -1228,7 +1228,7 @@ MenuAction
 dispatched
 when
 the
-save
+tools
 menu
 item
 is
