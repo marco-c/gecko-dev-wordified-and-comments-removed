@@ -386,7 +386,8 @@ inference
 engine
 and
 the
-experiments
+WebExtensions
+API
 enabled
 by
 switching
@@ -409,7 +410,7 @@ true
 -
 extensions
 .
-experiments
+ml
 .
 enabled
 :
