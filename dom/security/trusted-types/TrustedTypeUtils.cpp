@@ -179,6 +179,17 @@ mozilla
 /
 dom
 /
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 nsCSPUtils
 .
 h

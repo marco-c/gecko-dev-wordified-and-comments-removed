@@ -245,7 +245,11 @@ SetterThrows
 Pure
 ]
 attribute
+(
+TrustedHTML
+or
 DOMString
+)
 srcdoc
 ;
 [
