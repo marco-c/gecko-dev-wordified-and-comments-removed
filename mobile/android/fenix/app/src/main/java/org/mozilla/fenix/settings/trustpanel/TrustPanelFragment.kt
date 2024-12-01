@@ -556,6 +556,9 @@ isSecured
 args
 .
 isSecured
+isTrackingProtectionEnabled
+=
+true
 onTrackerBlockedMenuClick
 =
 {
