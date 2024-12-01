@@ -975,6 +975,17 @@ Shutdown
 (
 )
 ;
+static
+Task
+:
+:
+TaskResult
+RunTask
+(
+Task
+*
+)
+;
 void
 AddTask
 (
