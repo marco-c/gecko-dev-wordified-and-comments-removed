@@ -81,6 +81,11 @@ nsIFocusManager
 idl
 "
 "
+nsIGeckoViewServiceWorker
+.
+idl
+"
+"
 nsIPermissionDelegateHandler
 .
 idl

@@ -108,6 +108,13 @@ sys
 mjs
 "
 "
+GeckoViewServiceWorker
+.
+sys
+.
+mjs
+"
+"
 GeckoViewStartup
 .
 sys
