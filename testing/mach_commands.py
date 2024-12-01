@@ -5440,6 +5440,36 @@ file
 )
 CommandArgument
 (
+    
+"
+-
+-
+config
+-
+matrix
+-
+output
+-
+file
+"
+    
+help
+=
+"
+Path
+to
+report
+the
+config
+matrix
+for
+each
+manifest
+.
+"
+)
+CommandArgument
+(
 "
 -
 -
@@ -5593,6 +5623,8 @@ end
 show_testruns
     
 runcounts_input_file
+    
+config_matrix_output_file
 )
 :
     
@@ -5686,6 +5718,8 @@ end
 show_testruns
         
 runcounts_input_file
+        
+config_matrix_output_file
     
 )
 SubCommand
