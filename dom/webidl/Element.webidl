@@ -1804,10 +1804,14 @@ Pure
 SetterThrows
 ]
 attribute
+(
+TrustedHTML
+or
 [
 LegacyNullToEmptyString
 ]
 DOMString
+)
 outerHTML
 ;
 [
