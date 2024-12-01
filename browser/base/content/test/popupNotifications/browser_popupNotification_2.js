@@ -1064,9 +1064,11 @@ notifyObj
 ;
 EventUtils
 .
-synthesizeMouseAtCenter
+synthesizeMouse
 (
 button
+4
+4
 {
 }
 )
