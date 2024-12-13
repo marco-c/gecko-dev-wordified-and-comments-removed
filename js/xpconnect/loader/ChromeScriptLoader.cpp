@@ -2442,7 +2442,7 @@ aOptions
 ;
 options
 .
-assertDefault
+assertCompatibleWithDefault
 (
 )
 ;

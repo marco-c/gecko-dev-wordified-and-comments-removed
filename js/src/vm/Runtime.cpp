@@ -1057,14 +1057,6 @@ reset
 (
 )
 ;
-caches
-(
-)
-.
-purgeStencils
-(
-)
-;
 if
 (
 gc

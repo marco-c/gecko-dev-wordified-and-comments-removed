@@ -28,14 +28,14 @@ the
 stencil
 cache
 .
-waitForStencilCache
+waitForDelazificationOf
 (
 foo
 )
 ;
 assertEq
 (
-isInStencilCache
+isDelazificationPopulatedFor
 (
 foo
 )

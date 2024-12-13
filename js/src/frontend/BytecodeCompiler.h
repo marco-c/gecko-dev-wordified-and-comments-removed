@@ -262,7 +262,6 @@ cx
 CompilationInput
 &
 input
-const
 InitialStencilAndDelazifications
 &
 stencils
@@ -808,6 +807,9 @@ CompilationStencil
 context
 ScriptIndex
 scriptIndex
+InitialStencilAndDelazifications
+*
+stencils
 DelazifyFailureReason
 *
 failureReason

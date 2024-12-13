@@ -5947,7 +5947,6 @@ cx
 CompilationInput
 &
 input
-const
 InitialStencilAndDelazifications
 &
 stencils
