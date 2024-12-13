@@ -595,7 +595,7 @@ duration
 ;
 inline
 int32_t
-CompareNormalizedTimeDuration
+CompareTimeDuration
 (
 const
 NormalizedTimeDuration
@@ -652,7 +652,7 @@ return
 }
 inline
 int32_t
-NormalizedTimeDurationSign
+TimeDurationSign
 (
 const
 NormalizedTimeDuration
@@ -669,7 +669,7 @@ d
 )
 ;
 return
-CompareNormalizedTimeDuration
+CompareTimeDuration
 (
 d
 NormalizedTimeDuration
