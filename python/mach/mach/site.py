@@ -1021,9 +1021,6 @@ with
 open
 (
 metadata_path
-"
-r
-"
 )
 as
 file

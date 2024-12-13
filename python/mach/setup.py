@@ -234,10 +234,6 @@ mozfile
 "
 mozprocess
 "
-        
-"
-six
-"
     
 ]
     

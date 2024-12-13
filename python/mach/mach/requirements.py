@@ -885,9 +885,6 @@ with
 open
 (
 requirements_path
-"
-r
-"
 )
 as
 requirements_file

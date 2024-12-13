@@ -92,6 +92,11 @@ abc
 import
 sys
 from
+configparser
+import
+NoSectionError
+RawConfigParser
+from
 functools
 import
 wraps
@@ -104,21 +109,6 @@ typing
 import
 List
 Union
-import
-six
-from
-six
-import
-string_types
-from
-six
-.
-moves
-.
-configparser
-import
-NoSectionError
-RawConfigParser
 class
 ConfigException
 (
@@ -129,9 +119,6 @@ Exception
 pass
 class
 ConfigType
-(
-object
-)
 :
     
 "
@@ -313,7 +300,7 @@ not
 isinstance
 (
 value
-string_types
+str
 )
 :
             
@@ -520,7 +507,7 @@ not
 isinstance
 (
 value
-string_types
+str
 )
 :
             
@@ -584,9 +571,6 @@ PathType
 }
 class
 DefaultValue
-(
-object
-)
 :
     
 pass
@@ -663,16 +647,11 @@ exc_info
 (
 )
             
-six
-.
-reraise
-(
-AttributeError
-(
-)
-.
-__class__
+raise
 exc
+.
+with_traceback
+(
 tb
 )
     
@@ -1026,7 +1005,6 @@ collections
 abc
 .
 MutableMapping
-object
 )
 :
         
@@ -1773,9 +1751,6 @@ fps
 open
 (
 f
-"
-rt
-"
 )
 for
 f
@@ -2001,7 +1976,7 @@ if
 isinstance
 (
 type_cls
-string_types
+str
 )
 :
             
@@ -2169,13 +2144,14 @@ already
 been
 registered
 :
-%
-s
+{
+}
 .
-%
-s
+{
+}
 "
-%
+.
+format
 (
 section
 option
@@ -2257,13 +2233,14 @@ Setting
 already
 registered
 :
-%
-s
+{
+}
 .
-%
-s
+{
+}
 "
-%
+.
+format
 (
 section_name
 k

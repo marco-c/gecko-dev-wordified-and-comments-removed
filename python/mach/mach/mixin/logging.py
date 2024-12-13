@@ -2,9 +2,6 @@ import
 logging
 class
 LoggingMixin
-(
-object
-)
 :
     
 "

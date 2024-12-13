@@ -28,9 +28,6 @@ import
 Registrar
 class
 _MachCommand
-(
-object
-)
 :
     
 "
@@ -752,9 +749,6 @@ subcommand
 self
 class
 Command
-(
-object
-)
 :
     
 "
@@ -997,9 +991,6 @@ return
 func
 class
 SubCommand
-(
-object
-)
 :
     
 "
@@ -1266,9 +1257,6 @@ return
 func
 class
 CommandArgument
-(
-object
-)
 :
     
 "
@@ -1503,9 +1491,6 @@ return
 func
 class
 CommandArgumentGroup
-(
-object
-)
 :
     
 "

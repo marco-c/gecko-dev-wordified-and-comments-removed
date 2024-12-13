@@ -2,6 +2,8 @@ import
 abc
 import
 re
+import
+sys
 from
 pathlib
 import
@@ -25,10 +27,6 @@ MissingVCSTool
     
 get_repository_object
 )
-from
-six
-import
-string_types
 from
 mach
 .
@@ -64,9 +62,6 @@ io
 )
 class
 ErrorReporter
-(
-object
-)
 :
     
 abc
@@ -595,7 +590,7 @@ elif
 isinstance
 (
 value
-string_types
+str
 )
 :
             
@@ -812,7 +807,26 @@ except
 InvalidRepoPath
 MissingVCSTool
 )
+as
+e
 :
+        
+print
+(
+f
+"
+Warning
+:
+{
+e
+}
+"
+file
+=
+sys
+.
+stderr
+)
         
 return
 None

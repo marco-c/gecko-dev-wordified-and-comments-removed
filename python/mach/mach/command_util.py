@@ -1270,31 +1270,6 @@ py
 )
     
 "
-l10n
--
-cross
--
-channel
-"
-:
-MachCommandReference
-(
-        
-"
-tools
-/
-compare
--
-locales
-/
-mach_commands
-.
-py
-"
-    
-)
-    
-"
 lint
 "
 :
@@ -4004,7 +3979,7 @@ path
 )
     
 except
-IOError
+OSError
 as
 e
 :
@@ -4085,8 +4060,7 @@ metadata
     
 modules
 =
-set
-(
+{
 spec
 [
 command
@@ -4097,7 +4071,7 @@ for
 command
 in
 spec
-)
+}
     
 for
 path

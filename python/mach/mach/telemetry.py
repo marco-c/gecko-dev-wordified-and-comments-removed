@@ -674,9 +674,6 @@ with
 open
 (
 arcconfig_path
-"
-r
-"
 )
 as
 arcconfig_file
@@ -755,9 +752,6 @@ open
 arcrc_path
 (
 )
-"
-r
-"
 )
 as
 arcrc_file

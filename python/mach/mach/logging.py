@@ -12,8 +12,6 @@ import
 time
 import
 blessed
-import
-six
 from
 mozbuild
 .
@@ -239,31 +237,6 @@ charmap
 else
 encoding
         
-if
-six
-.
-PY2
-:
-            
-return
-codecs
-.
-getwriter
-(
-encoding
-)
-(
-fh
-errors
-=
-"
-replace
-"
-)
-        
-else
-:
-            
 return
 codecs
 .
@@ -1528,9 +1501,6 @@ return
 rv
 class
 LoggingManager
-(
-object
-)
 :
     
 "
