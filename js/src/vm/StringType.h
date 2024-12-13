@@ -1263,7 +1263,7 @@ validateLength
 (
 JSContext
 *
-maybecx
+cx
 size_t
 length
 )
@@ -1283,7 +1283,7 @@ validateLengthInternal
 (
 JSContext
 *
-maybecx
+cx
 size_t
 length
 )

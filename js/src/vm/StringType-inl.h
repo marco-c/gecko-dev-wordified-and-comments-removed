@@ -1526,7 +1526,7 @@ validateLength
 (
 JSContext
 *
-maybecx
+cx
 size_t
 length
 )
@@ -1540,7 +1540,7 @@ js
 CanGC
 >
 (
-maybecx
+cx
 length
 )
 ;
@@ -1562,7 +1562,7 @@ validateLengthInternal
 (
 JSContext
 *
-maybecx
+cx
 size_t
 length
 )
@@ -1591,7 +1591,7 @@ js
 :
 ReportOversizedAllocation
 (
-maybecx
+cx
 JSMSG_ALLOC_OVERFLOW
 )
 ;
