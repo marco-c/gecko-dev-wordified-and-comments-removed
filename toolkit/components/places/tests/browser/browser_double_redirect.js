@@ -18,7 +18,7 @@ const
 BASE_URL
 =
 "
-http
+https
 :
 /
 /
@@ -80,7 +80,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /

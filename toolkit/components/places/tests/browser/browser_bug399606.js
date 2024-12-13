@@ -19,7 +19,7 @@ URIS
 =
 [
 "
-http
+https
 :
 /
 /
@@ -50,7 +50,7 @@ href
 html
 "
 "
-http
+https
 :
 /
 /
@@ -81,7 +81,7 @@ go
 html
 "
 "
-http
+https
 :
 /
 /
@@ -110,7 +110,7 @@ replace
 html
 "
 "
-http
+https
 :
 /
 /
@@ -139,7 +139,7 @@ reload
 html
 "
 "
-http
+https
 :
 /
 /
@@ -166,7 +166,7 @@ httprefresh
 html
 "
 "
-http
+https
 :
 /
 /

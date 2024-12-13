@@ -26,7 +26,7 @@ const
 prefix
 =
 "
-http
+https
 :
 /
 /

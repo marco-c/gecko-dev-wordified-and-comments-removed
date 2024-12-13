@@ -2,7 +2,7 @@ const
 PAGE_URI
 =
 "
-http
+https
 :
 /
 /
@@ -35,7 +35,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /

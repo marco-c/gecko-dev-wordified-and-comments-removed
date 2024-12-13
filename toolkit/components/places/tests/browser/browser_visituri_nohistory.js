@@ -2,7 +2,7 @@ const
 INITIAL_URL
 =
 "
-http
+https
 :
 /
 /
@@ -31,7 +31,7 @@ const
 FINAL_URL
 =
 "
-http
+https
 :
 /
 /

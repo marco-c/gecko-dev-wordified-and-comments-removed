@@ -107,7 +107,7 @@ const
 url1
 =
 "
-http
+https
 :
 /
 /
@@ -145,7 +145,7 @@ const
 url2
 =
 "
-http
+https
 :
 /
 /
@@ -210,7 +210,7 @@ events
 .
 url
 "
-http
+https
 :
 /
 /
