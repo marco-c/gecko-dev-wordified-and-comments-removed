@@ -13069,9 +13069,11 @@ text
 .
 measure
 .
-caret
+index
 -
-position
+from
+-
+offset
 .
 tentative
 desc
@@ -13083,7 +13085,7 @@ that
 TextMetrics
 :
 :
-caretPositionFromPoint
+getIndexFromOffset
 (
 )
 matches
@@ -13825,7 +13827,7 @@ tm_position
 =
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 adjusted_offset
 )
@@ -13876,7 +13878,7 @@ tm_position
 =
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 adjusted_offset
 )
@@ -13927,7 +13929,7 @@ tm_position
 =
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 adjusted_offset
 )
@@ -13976,7 +13978,7 @@ tm_position
 =
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 adjusted_offset
 )
@@ -14108,9 +14110,11 @@ text
 .
 measure
 .
-caret
+index
 -
-position
+from
+-
+offset
 -
 edges
 .
@@ -14124,7 +14128,7 @@ that
 TextMetrics
 :
 :
-caretPositionFromPoint
+getIndexFromOffset
 (
 )
 gives
@@ -14524,7 +14528,7 @@ tm_position
 =
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 offset
 )
@@ -14624,9 +14628,11 @@ text
 .
 measure
 .
-caret
+index
 -
-position
+from
+-
+offset
 -
 edge
 -
@@ -14642,7 +14648,7 @@ the
 edge
 cases
 for
-caretPositionFromPoint
+getIndexFromOffset
 where
 the
 point
@@ -14780,7 +14786,7 @@ ABC
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 0
 )
@@ -14791,7 +14797,7 @@ caretPositionFromPoint
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 /
@@ -14804,7 +14810,7 @@ a_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 /
@@ -14819,7 +14825,7 @@ a_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 )
@@ -14830,7 +14836,7 @@ a_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
@@ -14845,7 +14851,7 @@ b_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
@@ -14862,7 +14868,7 @@ b_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
@@ -14875,7 +14881,7 @@ b_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
@@ -14892,7 +14898,7 @@ c_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
@@ -14911,7 +14917,7 @@ c_width
 assert
 tm
 .
-caretPositionFromPoint
+getIndexFromOffset
 (
 a_width
 +
