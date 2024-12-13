@@ -516,16 +516,6 @@ false
 )
 matches
 :
-UrlbarPrefs
-.
-get
-(
-"
-quickSuggestRustEnabled
-"
-)
-&
-&
 !
 fullKeyword
 .
