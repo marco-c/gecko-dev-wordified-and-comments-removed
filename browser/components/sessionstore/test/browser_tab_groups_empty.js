@@ -177,10 +177,6 @@ closeWindow
 win
 )
 ;
-forgetClosedWindows
-(
-)
-;
 }
 )
 ;

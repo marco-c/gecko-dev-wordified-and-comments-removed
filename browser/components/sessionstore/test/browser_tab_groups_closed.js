@@ -246,10 +246,6 @@ closeWindow
 win
 )
 ;
-forgetClosedWindows
-(
-)
-;
 await
 SessionStoreTestUtils
 .
@@ -473,10 +469,6 @@ BrowserTestUtils
 closeWindow
 (
 win
-)
-;
-forgetClosedWindows
-(
 )
 ;
 await
@@ -862,10 +854,6 @@ windows
 "
 )
 ;
-forgetClosedWindows
-(
-)
-;
 await
 SessionStoreTestUtils
 .
@@ -1050,10 +1038,6 @@ BrowserTestUtils
 closeWindow
 (
 win
-)
-;
-forgetClosedWindows
-(
 )
 ;
 await
