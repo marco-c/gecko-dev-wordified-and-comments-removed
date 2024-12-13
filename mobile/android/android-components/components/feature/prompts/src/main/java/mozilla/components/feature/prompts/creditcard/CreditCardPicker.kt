@@ -129,6 +129,18 @@ prompts
 .
 concept
 .
+AutocompletePrompt
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+concept
+.
 SelectablePromptView
 import
 mozilla
@@ -225,7 +237,7 @@ property
 creditCardSelectBar
 The
 [
-SelectablePromptView
+AutocompletePrompt
 ]
 view
 into
@@ -309,7 +321,7 @@ private
 val
 creditCardSelectBar
 :
-SelectablePromptView
+AutocompletePrompt
 <
 CreditCardEntry
 >
@@ -358,7 +370,7 @@ init
 {
 creditCardSelectBar
 .
-listener
+selectablePromptListener
 =
 this
 }
@@ -725,6 +737,11 @@ emitCreditCardAutofillShownFact
 creditCardSelectBar
 .
 showPrompt
+(
+)
+creditCardSelectBar
+.
+populate
 (
 request
 .

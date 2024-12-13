@@ -290,7 +290,7 @@ init
 {
 suggestStrongPasswordBar
 .
-listener
+passwordPromptListener
 =
 this
 }

@@ -123,6 +123,18 @@ prompts
 .
 concept
 .
+AutocompletePrompt
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+concept
+.
 SelectablePromptView
 import
 mozilla
@@ -275,7 +287,7 @@ property
 loginSelectBar
 The
 [
-SelectablePromptView
+AutocompletePrompt
 ]
 view
 into
@@ -341,7 +353,7 @@ private
 val
 loginSelectBar
 :
-SelectablePromptView
+AutocompletePrompt
 <
 Login
 >
@@ -378,7 +390,7 @@ init
 {
 loginSelectBar
 .
-listener
+selectablePromptListener
 =
 this
 }
@@ -399,6 +411,11 @@ emitLoginAutofillShownFact
 loginSelectBar
 .
 showPrompt
+(
+)
+loginSelectBar
+.
+populate
 (
 request
 .

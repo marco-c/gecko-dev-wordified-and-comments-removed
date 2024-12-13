@@ -123,6 +123,18 @@ prompts
 .
 concept
 .
+AutocompletePrompt
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+concept
+.
 SelectablePromptView
 import
 mozilla
@@ -218,7 +230,7 @@ property
 addressSelectBar
 The
 [
-SelectablePromptView
+AutocompletePrompt
 ]
 view
 into
@@ -277,7 +289,7 @@ private
 val
 addressSelectBar
 :
-SelectablePromptView
+AutocompletePrompt
 <
 Address
 >
@@ -314,7 +326,7 @@ init
 {
 addressSelectBar
 .
-listener
+selectablePromptListener
 =
 this
 }
@@ -373,6 +385,11 @@ emitAddressAutofillShownFact
 addressSelectBar
 .
 showPrompt
+(
+)
+addressSelectBar
+.
+populate
 (
 request
 .

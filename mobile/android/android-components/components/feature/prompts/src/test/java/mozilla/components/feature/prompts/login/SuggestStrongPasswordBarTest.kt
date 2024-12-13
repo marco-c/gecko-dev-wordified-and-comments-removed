@@ -75,14 +75,6 @@ View
 import
 androidx
 .
-core
-.
-view
-.
-isVisible
-import
-androidx
-.
 test
 .
 ext
@@ -233,11 +225,11 @@ assertNull
 (
 bar
 .
-listener
+passwordPromptListener
 )
 bar
 .
-listener
+passwordPromptListener
 =
 listener
 Assert
@@ -246,7 +238,7 @@ assertNotNull
 (
 bar
 .
-listener
+passwordPromptListener
 )
 bar
 .
@@ -259,7 +251,7 @@ assertTrue
 (
 bar
 .
-isVisible
+isPromptDisplayed
 )
 }
 }

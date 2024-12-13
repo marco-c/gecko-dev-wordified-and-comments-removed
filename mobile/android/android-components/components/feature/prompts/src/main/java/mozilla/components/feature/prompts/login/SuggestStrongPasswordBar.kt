@@ -167,7 +167,7 @@ PasswordPromptView
 {
 override
 var
-listener
+passwordPromptListener
 :
 PasswordPromptView
 .
@@ -183,6 +183,11 @@ PasswordGeneratorPromptColors
 (
 context
 )
+override
+val
+isPromptDisplayed
+=
+isVisible
 Composable
 override
 fun
@@ -195,7 +200,7 @@ PasswordGeneratorPrompt
 onGeneratedPasswordPromptClick
 =
 {
-listener
+passwordPromptListener
 ?
 .
 onGeneratedPasswordPromptClick
@@ -226,16 +231,5 @@ hidePrompt
 isVisible
 =
 false
-}
-override
-fun
-isVisible
-(
-)
-:
-Boolean
-{
-return
-isVisible
 }
 }
