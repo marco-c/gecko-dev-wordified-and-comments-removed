@@ -1641,7 +1641,7 @@ THEME_DARK
 val
 themeOptions
 =
-ThemeOptions
+listOf
 (
 themeOptionSystem
 themeOptionLight
