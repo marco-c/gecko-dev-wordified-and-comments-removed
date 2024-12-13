@@ -1019,6 +1019,7 @@ constructor
 (
 cid
 x5u
+signerName
 )
 {
 let
@@ -1063,6 +1064,11 @@ using
 chain
 }
 '
+and
+signer
+{
+signerName
+}
 ;
 }
 super
@@ -7106,6 +7112,9 @@ this
 .
 identifier
 x5u
+this
+.
+signerName
 )
 ;
 }
