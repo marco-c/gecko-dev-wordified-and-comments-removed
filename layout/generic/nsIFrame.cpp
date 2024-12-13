@@ -30829,7 +30829,7 @@ IsTrueOverflowContainer
 )
 {
 bool
-stretch
+isStretchAligned
 =
 false
 ;
@@ -30927,7 +30927,7 @@ Style
 .
 _0
 ;
-stretch
+isStretchAligned
 =
 inlineAxisAlignment
 =
@@ -30956,7 +30956,7 @@ mayUseAspectRatio
 if
 (
 !
-stretch
+isStretchAligned
 &
 &
 mayUseAspectRatio
@@ -30992,7 +30992,7 @@ ToComputeISize
 }
 if
 (
-stretch
+isStretchAligned
 |
 |
 aFlags
@@ -31042,7 +31042,7 @@ aWM
 ;
 if
 (
-stretch
+isStretchAligned
 |
 |
 result
@@ -31794,7 +31794,7 @@ NS_UNCONSTRAINEDSIZE
 )
 {
 bool
-stretch
+isStretchAligned
 =
 false
 ;
@@ -31867,7 +31867,7 @@ Style
 .
 _0
 ;
-stretch
+isStretchAligned
 =
 blockAxisAlignment
 =
@@ -31896,7 +31896,7 @@ mayUseAspectRatio
 if
 (
 !
-stretch
+isStretchAligned
 &
 &
 mayUseAspectRatio
@@ -31948,7 +31948,7 @@ ToComputeBSize
 }
 if
 (
-stretch
+isStretchAligned
 |
 |
 aFlags
@@ -31993,7 +31993,7 @@ aWM
 ;
 if
 (
-stretch
+isStretchAligned
 |
 |
 (
