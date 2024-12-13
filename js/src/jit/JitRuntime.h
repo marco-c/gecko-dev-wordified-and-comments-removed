@@ -1488,6 +1488,14 @@ bool
 force
 )
 ;
+UniquePtr
+<
+LifoAlloc
+>
+tryReuseIonLifoAlloc
+(
+)
+;
 #
 ifdef
 DEBUG
