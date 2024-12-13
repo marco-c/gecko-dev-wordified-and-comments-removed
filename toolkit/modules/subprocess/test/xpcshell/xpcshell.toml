@@ -107,6 +107,13 @@ parallel
 "
 [
 "
+test_subprocess_connectRunning
+.
+js
+"
+]
+[
+"
 test_subprocess_getEnvironment
 .
 js
