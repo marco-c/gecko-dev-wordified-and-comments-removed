@@ -88426,7 +88426,8 @@ JSLinearString
 (
 JSContext
 *
-HandleString
+JSString
+*
 )
 ;
 OutOfLineCode
@@ -89118,7 +89119,8 @@ JSLinearString
 (
 JSContext
 *
-HandleString
+JSString
+*
 )
 ;
 callVM
