@@ -1,11 +1,18 @@
-import
+from
 os
 .
 path
 import
-re
+join
+dirname
 import
+re
+from
 urllib
+.
+request
+import
+urlopen
 def
 main
 (
@@ -48,6 +55,10 @@ link
 )
 '
 line
+.
+decode
+(
+)
 )
 .
 group
@@ -58,8 +69,6 @@ group
 for
 line
 in
-urllib
-.
 urlopen
 (
 "
@@ -83,6 +92,7 @@ styles
 )
         
 if
+b
 '
 data
 -
@@ -104,6 +114,7 @@ in
 line
         
 or
+b
 '
 data
 -
@@ -129,7 +140,7 @@ open
 (
 filename
 "
-wb
+w
 "
 )
 as
@@ -257,16 +268,8 @@ __main__
     
 main
 (
-os
-.
-path
-.
 join
 (
-os
-.
-path
-.
 dirname
 (
 __file__
