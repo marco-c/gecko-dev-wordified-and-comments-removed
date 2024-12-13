@@ -370,7 +370,7 @@ colors
 val
 typography
 :
-FenixTypography
+AcornTypography
 get
 (
 )

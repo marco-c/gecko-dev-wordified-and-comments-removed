@@ -198,13 +198,8 @@ A
 custom
 typography
 for
-Mozilla
-Firefox
-for
-Android
-(
-Fenix
-)
+Acorn
+Theming
 .
 *
 *
@@ -314,7 +309,7 @@ LongParameterList
 "
 )
 class
-FenixTypography
+AcornTypography
 (
 val
 headline5
@@ -364,7 +359,7 @@ TextStyle
 val
 defaultTypography
 =
-FenixTypography
+AcornTypography
 (
 headline5
 =

@@ -348,7 +348,7 @@ current
 val
 typography
 :
-FenixTypography
+AcornTypography
 get
 (
 )
