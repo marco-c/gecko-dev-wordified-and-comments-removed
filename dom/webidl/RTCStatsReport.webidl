@@ -364,6 +364,9 @@ DOMString
 trackIdentifier
 ;
 DOMString
+mid
+;
+DOMString
 remoteId
 ;
 unsigned
@@ -546,6 +549,9 @@ RTCOutboundRtpStreamStats
 :
 RTCSentRtpStreamStats
 {
+DOMString
+mid
+;
 DOMString
 remoteId
 ;
