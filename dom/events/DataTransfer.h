@@ -285,6 +285,11 @@ nsIClipboard
 ClipboardType
 >
 aClipboardType
+nsCOMPtr
+<
+nsIClipboardDataSnapshot
+>
+aClipboardDataSnapshot
 DataTransferItemList
 *
 aItems
@@ -1383,6 +1388,11 @@ ParseExternalCustomTypesStringData
 &
 &
 aCallback
+)
+;
+void
+ClearForPaste
+(
 )
 ;
 protected
