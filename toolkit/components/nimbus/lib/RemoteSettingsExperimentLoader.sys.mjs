@@ -1112,6 +1112,15 @@ _updating
 =
 true
 ;
+this
+.
+manager
+.
+optInRecipes
+=
+[
+]
+;
 /
 /
 If
