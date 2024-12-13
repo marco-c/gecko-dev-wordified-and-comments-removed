@@ -275,7 +275,7 @@ kPageSize
 var
 kSpecMaxPages
 =
-65535
+65536
 ;
 var
 kMaxVarInt32Size
