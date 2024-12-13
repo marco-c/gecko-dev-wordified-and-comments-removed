@@ -1869,10 +1869,6 @@ a
 FunctionInfo
 }
 impl
-<
-'
-a
->
 std
 :
 :
@@ -1893,7 +1889,7 @@ for
 ExpressionTypeResolver
 <
 '
-a
+_
 >
 {
 type

@@ -3597,7 +3597,7 @@ src
 wgt
 :
 :
-ImageCopyExternalImage
+CopyExternalImageSourceInfo
 dst
 :
 &
@@ -4906,7 +4906,7 @@ only
 access
 .
 const
-STORAGE
+STORAGE_WRITE
 =
 1
 <
@@ -5397,12 +5397,9 @@ bits
 (
 )
 .
-count_ones
+is_power_of_two
 (
 )
-=
-=
-1
 }
 pub
 fn
@@ -8778,7 +8775,7 @@ buffer_layout
 wgt
 :
 :
-ImageDataLayout
+TexelCopyBufferLayout
 pub
 texture_base
 :

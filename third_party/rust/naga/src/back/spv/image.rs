@@ -668,14 +668,10 @@ _
 }
 }
 impl
-<
-'
-w
->
 BlockContext
 <
 '
-w
+_
 >
 {
 fn

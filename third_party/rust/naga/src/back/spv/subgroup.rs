@@ -33,14 +33,10 @@ TypeInner
 }
 ;
 impl
-<
-'
-w
->
 BlockContext
 <
 '
-w
+_
 >
 {
 pub

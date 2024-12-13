@@ -6137,7 +6137,7 @@ base
 Tfc
 :
 :
-STORAGE
+STORAGE_WRITE
 |
 Tfc
 :

@@ -255,14 +255,10 @@ ty
 }
 }
 impl
-<
-'
-source
->
 ParsingContext
 <
 '
-source
+_
 >
 {
 pub

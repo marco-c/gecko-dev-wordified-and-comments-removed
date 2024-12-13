@@ -79,14 +79,10 @@ UnaryOperator
 }
 ;
 impl
-<
-'
-source
->
 ParsingContext
 <
 '
-source
+_
 >
 {
 pub
