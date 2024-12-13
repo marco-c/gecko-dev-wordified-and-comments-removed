@@ -2328,7 +2328,7 @@ AcornWindowSize
 Large
 )
 }
-FirefoxTheme
+AcornTheme
 {
 Column
 (
@@ -2578,7 +2578,7 @@ space
 small
 )
 )
-FirefoxTheme
+AcornTheme
 (
 windowSize
 =
