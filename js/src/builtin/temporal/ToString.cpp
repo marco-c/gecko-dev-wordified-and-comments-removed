@@ -2278,7 +2278,7 @@ js
 temporal
 :
 :
-TemporalTimeToString
+TimeRecordToString
 (
 JSContext
 *

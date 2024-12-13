@@ -149,7 +149,7 @@ showCalendar
 ;
 JSString
 *
-TemporalTimeToString
+TimeRecordToString
 (
 JSContext
 *

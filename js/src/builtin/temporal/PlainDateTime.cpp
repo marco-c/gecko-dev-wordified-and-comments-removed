@@ -2825,7 +2825,7 @@ dateResult
 ;
 }
 return
-CompareTemporalTime
+CompareTimeRecord
 (
 one
 .
