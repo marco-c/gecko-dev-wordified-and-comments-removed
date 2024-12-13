@@ -1367,6 +1367,15 @@ AsyncPanZoomController
 aApzc
 )
 ;
+HitTestResult
+GetTargetAPZCForMouseInput
+(
+const
+MouseInput
+&
+aMouseInput
+)
+;
 HitTestingTreeNode
 *
 FindRootNodeForLayersId
@@ -2122,6 +2131,9 @@ mTouchCounter
 HitTestResult
 mTapGestureHitResult
 ;
+HitTestResult
+mDragBlockHitResult
+;
 mutable
 DataMutex
 <
@@ -2214,6 +2226,9 @@ mInteractiveWidget
 ;
 bool
 mIsSoftwareKeyboardVisible
+;
+bool
+mHaveOOPIframes
 ;
 #
 if
