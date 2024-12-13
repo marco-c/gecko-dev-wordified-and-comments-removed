@@ -265,15 +265,7 @@ GetDpi
 bool
 isHDR
 =
-java
-:
-:
-GeckoAppShell
-:
-:
-HasHDRScreen
-(
-)
+false
 ;
 auto
 orientation
