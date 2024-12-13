@@ -4553,6 +4553,19 @@ js
                     
 continue
                 
+if
+fileName
+.
+endswith
+(
+"
+~
+"
+)
+:
+                    
+continue
+                
 filePath
 =
 os
