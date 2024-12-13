@@ -150,7 +150,11 @@ UseCounter
 Document
 parseFromString
 (
+(
+TrustedHTML
+or
 DOMString
+)
 str
 SupportedType
 type
