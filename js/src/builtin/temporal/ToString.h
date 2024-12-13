@@ -124,7 +124,7 @@ showCalendar
 ;
 JSString
 *
-TemporalDateTimeToString
+ISODateTimeToString
 (
 JSContext
 *
@@ -132,7 +132,7 @@ cx
 const
 ISODateTime
 &
-dateTime
+isoDateTime
 JS
 :
 :

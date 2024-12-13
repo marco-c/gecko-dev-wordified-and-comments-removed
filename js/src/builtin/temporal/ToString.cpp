@@ -2190,7 +2190,7 @@ js
 temporal
 :
 :
-TemporalDateTimeToString
+ISODateTimeToString
 (
 JSContext
 *
@@ -2198,7 +2198,7 @@ cx
 const
 ISODateTime
 &
-dateTime
+isoDateTime
 Handle
 <
 CalendarValue
@@ -2214,7 +2214,7 @@ MOZ_ASSERT
 (
 IsValidISODateTime
 (
-dateTime
+isoDateTime
 )
 )
 ;
@@ -2245,7 +2245,7 @@ nullptr
 FormatDateTimeString
 (
 result
-dateTime
+isoDateTime
 precision
 )
 ;
