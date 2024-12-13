@@ -79,14 +79,14 @@ class
 AudioDecoderFactory
 ;
 class
-NoTrialsConfig
+MozTrialsConfig
 :
 public
 FieldTrialsView
 {
 public
 :
-NoTrialsConfig
+MozTrialsConfig
 (
 )
 =
