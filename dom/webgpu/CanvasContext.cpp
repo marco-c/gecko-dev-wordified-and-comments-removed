@@ -1868,12 +1868,6 @@ mIsOpaque
 =
 false
 ;
-data
-.
-mOwnerId
-=
-mRemoteTextureOwnerId
-;
 mOffscreenCanvas
 -
 >

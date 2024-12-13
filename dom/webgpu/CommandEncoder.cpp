@@ -604,17 +604,6 @@ if
 aTargetContext
 )
 {
-if
-(
-!
-aTargetContext
--
->
-IsOffscreenCanvas
-(
-)
-)
-{
 mPresentationContexts
 .
 AppendElement
@@ -622,7 +611,6 @@ AppendElement
 aTargetContext
 )
 ;
-}
 }
 }
 void

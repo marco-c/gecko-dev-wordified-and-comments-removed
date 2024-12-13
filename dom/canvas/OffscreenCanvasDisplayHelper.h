@@ -166,15 +166,6 @@ OriginPos
 :
 TopLeft
 ;
-Maybe
-<
-layers
-:
-:
-RemoteTextureOwnerId
->
-mOwnerId
-;
 }
 ;
 class
