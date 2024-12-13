@@ -1632,9 +1632,9 @@ _findTabToBlurTo
 gBrowser
 .
 selectedTab
-group
+gBrowser
 .
-tabs
+tabsInCollapsedTabGroups
 )
 |
 |
