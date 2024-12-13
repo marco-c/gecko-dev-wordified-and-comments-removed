@@ -26,14 +26,5 @@ nsIQuotaManagerServiceInternal
 :
 nsISupports
 {
-void
-setThumbnailPrivateIdentityId
-(
-in
-unsigned
-long
-aThumbnailPrivateIdentityId
-)
-;
 }
 ;
