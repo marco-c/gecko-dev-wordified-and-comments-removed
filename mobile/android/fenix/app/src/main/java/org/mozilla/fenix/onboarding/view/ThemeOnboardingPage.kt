@@ -756,16 +756,13 @@ Arrangement
 Center
 )
 {
-themeOptions
-?
-.
-let
-{
 ThemeOptions
 (
 options
 =
-it
+themeOptions
+!
+!
 selectedOption
 =
 state
@@ -775,7 +772,6 @@ onClick
 =
 onThemeSelectionClicked
 )
-}
 }
 }
 Spacer
