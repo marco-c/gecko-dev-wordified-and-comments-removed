@@ -224,7 +224,6 @@ type
 =
 "
 icon
-ghost
 "
 size
 =
