@@ -528,6 +528,15 @@ GetWidget
 )
 const
 ;
+already_AddRefed
+<
+nsIWidget
+>
+ComputeParentWidget
+(
+)
+const
+;
 enum
 class
 WidgetStyle
@@ -675,7 +684,7 @@ void
 PrepareWidget
 (
 bool
-aRecreate
+aForceRecreate
 =
 false
 )
