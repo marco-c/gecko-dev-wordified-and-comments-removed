@@ -6763,6 +6763,7 @@ task_to_skip_if
 manifest
 task_id
 kind
+p
 )
             
 if
@@ -9244,27 +9245,6 @@ runtimes
 [
 ]
             
-test_suite
-=
-task
-.
-get
-(
-"
-extra
-"
-{
-}
-)
-.
-get
-(
-"
-suite
-"
-None
-)
-            
 test_setting
 =
 task
@@ -9664,12 +9644,6 @@ runtimes
 "
 :
 runtimes
-                
-"
-test_suite
-"
-:
-test_suite
             
 }
         
@@ -10527,6 +10501,9 @@ str
 kind
 :
 str
+file_path
+:
+str
 )
 :
         
@@ -10805,15 +10782,6 @@ processor
 +
 qq
             
-test_suite
-=
-extra
-[
-"
-test_suite
-"
-]
-            
 failure_key
 =
 os
@@ -10824,7 +10792,7 @@ processor
 +
 manifest
 +
-test_suite
+file_path
             
 if
 self

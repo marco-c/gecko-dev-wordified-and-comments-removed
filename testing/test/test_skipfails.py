@@ -1772,6 +1772,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -2014,6 +2019,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -2275,6 +2285,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -2515,6 +2530,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -2749,6 +2769,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -2983,6 +3008,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -3185,6 +3215,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -3439,6 +3474,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -3631,6 +3671,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -3817,6 +3862,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -4069,6 +4119,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -4257,6 +4312,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -4442,6 +4502,11 @@ task_id
 Kind
 .
 TOML
+"
+test
+-
+path
+"
 )
     
 assert
@@ -4704,6 +4769,11 @@ task_id
 Kind
 .
 WPT
+"
+test
+-
+path
+"
 )
     
 assert
@@ -4908,6 +4978,11 @@ task_id
 Kind
 .
 LIST
+"
+test
+-
+path
+"
 )
     
 assert
@@ -5092,6 +5167,11 @@ task_id
 Kind
 .
 LIST
+"
+test
+-
+path
+"
 )
     
 assert
@@ -5277,6 +5357,11 @@ task_id
 Kind
 .
 LIST
+"
+test
+-
+path
+"
 )
     
 assert
@@ -5461,6 +5546,11 @@ task_id
 Kind
 .
 LIST
+"
+test
+-
+path
+"
 )
     
 assert
