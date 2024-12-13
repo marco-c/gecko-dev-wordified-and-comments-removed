@@ -17199,13 +17199,13 @@ selfHostStencil_
 ;
 MOZ_ASSERT
 (
+!
 stencil
 -
 >
-refCount
-=
-=
-1
+hasMultipleReference
+(
+)
 )
 ;
 }

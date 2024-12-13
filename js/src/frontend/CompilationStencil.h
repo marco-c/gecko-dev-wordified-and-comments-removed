@@ -4928,7 +4928,7 @@ Atomic
 <
 uintptr_t
 >
-refCount
+refCount_
 {
 0
 }
@@ -5113,6 +5113,16 @@ ExtensibleCompilationStencil
 &
 &
 extensibleStencil
+)
+;
+void
+AddRef
+(
+)
+;
+void
+Release
+(
 )
 ;
 protected
@@ -5396,7 +5406,7 @@ CompilationStencil
 MOZ_ASSERT
 (
 !
-refCount
+refCount_
 )
 ;
 }
@@ -5498,7 +5508,7 @@ hasMultipleReference
 const
 {
 return
-refCount
+refCount_
 >
 1
 ;
