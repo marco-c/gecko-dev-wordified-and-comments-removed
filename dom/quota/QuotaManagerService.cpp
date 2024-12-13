@@ -2359,6 +2359,7 @@ NS_IMPL_QUERY_INTERFACE
 (
 QuotaManagerService
 nsIQuotaManagerService
+nsIQuotaManagerServiceInternal
 nsIObserver
 )
 NS_IMETHODIMP
