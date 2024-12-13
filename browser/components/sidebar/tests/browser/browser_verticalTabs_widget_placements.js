@@ -36,6 +36,15 @@ clearUserPref
 kPrefCustomizationHorizontalTabstrip
 )
 ;
+Services
+.
+prefs
+.
+clearUserPref
+(
+kPrefCustomizationVerticalNavBar
+)
+;
 }
 )
 ;
