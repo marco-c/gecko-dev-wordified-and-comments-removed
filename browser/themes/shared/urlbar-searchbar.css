@@ -9027,9 +9027,16 @@ bgcolor
 }
 #
 urlbar
+:
+is
+(
 [
 focused
 ]
+[
+searchmode
+]
+)
 &
 {
 background
