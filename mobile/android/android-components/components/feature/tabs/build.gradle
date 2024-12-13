@@ -225,6 +225,16 @@ browser
 tabstray
 '
 )
+implementation
+project
+(
+'
+:
+browser
+-
+toolbar
+'
+)
 api
 project
 (
