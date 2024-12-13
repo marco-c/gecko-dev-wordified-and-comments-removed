@@ -574,7 +574,7 @@ R
 .
 dimen
 .
-browser_fragment_download_dialog_elevation
+browser_fragment_above_toolbar_panels_elevation
 )
 visibility
 =
