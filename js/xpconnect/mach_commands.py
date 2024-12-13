@@ -67,7 +67,7 @@ Path
 (
 command_context
 .
-topobjdir
+_topobjdir
 "
 dist
 "
