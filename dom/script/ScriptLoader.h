@@ -1663,8 +1663,6 @@ JSScript
 *
 >
 aScript
-bool
-keepStencil
 RefPtr
 <
 JS
@@ -1673,7 +1671,7 @@ JS
 Stencil
 >
 &
-aStencilDup
+aStencilOut
 JS
 :
 :
