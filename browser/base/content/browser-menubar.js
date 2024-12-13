@@ -587,7 +587,19 @@ event
 }
 )
 ;
-mainMenuBar
+const
+bookmarksMenu
+=
+document
+.
+getElementById
+(
+"
+bookmarksMenu
+"
+)
+;
+bookmarksMenu
 .
 addEventListener
 (
@@ -605,7 +617,7 @@ event
 )
 )
 ;
-mainMenuBar
+bookmarksMenu
 .
 addEventListener
 (
@@ -623,7 +635,7 @@ event
 )
 )
 ;
-mainMenuBar
+bookmarksMenu
 .
 addEventListener
 (
@@ -641,7 +653,7 @@ event
 )
 )
 ;
-mainMenuBar
+bookmarksMenu
 .
 addEventListener
 (
