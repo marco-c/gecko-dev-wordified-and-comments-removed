@@ -747,13 +747,6 @@ source
 )
     
 source
-=
-convertReportCompare
-(
-source
-)
-    
-source
 reftest
 =
 parseHeader
@@ -770,6 +763,7 @@ source
 )
     
 frontmatter
+source
 =
 extractMeta
 (
@@ -784,6 +778,13 @@ source
 reftest
 frontmatter
 includes
+)
+    
+source
+=
+convertReportCompare
+(
+source
 )
     
 return
@@ -2235,10 +2236,14 @@ bytes
 -
 >
 "
+tuple
+[
 dict
 [
 str
 Any
+]
+bytes
 ]
 "
 :
@@ -2290,6 +2295,7 @@ match
 return
 {
 }
+source
     
 indent
 frontmatter_lines
@@ -2354,8 +2360,28 @@ result
 =
 yamlresult
     
+start
+end
+=
+match
+.
+span
+(
+)
+    
 return
 result
+source
+[
+:
+start
+]
++
+source
+[
+end
+:
+]
 def
 translateHelpers
 (
@@ -3639,7 +3665,7 @@ n
 "
 )
     
-frontmatterstr
+source
 =
 b
 "
@@ -3651,40 +3677,6 @@ join
 (
 lines
 )
-    
-if
-frontmattermatch
-:
-=
-FRONTMATTER_WRAPPER_PATTERN
-.
-search
-(
-source
-)
-:
-        
-source
-=
-source
-.
-replace
-(
-frontmattermatch
-.
-group
-(
-0
-)
-frontmatterstr
-)
-    
-else
-:
-        
-source
-=
-frontmatterstr
 +
 source
     
