@@ -1353,7 +1353,7 @@ if
 JS
 :
 :
-StartIncrementalEncoding
+StartCollectingDelazifications
 (
 aCx
 aModuleOut
@@ -1611,7 +1611,7 @@ if
 JS
 :
 :
-StartIncrementalEncoding
+StartCollectingDelazifications
 (
 aCx
 aModuleOut
