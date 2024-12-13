@@ -14,7 +14,6 @@ gtest
 .
 h
 "
-using
 namespace
 mozilla
 :
@@ -23,10 +22,10 @@ dom
 :
 :
 quota
-;
+{
 TEST
 (
-OriginParser_IsUUIDOrigin
+DOM_Quota_OriginParser_IsUUIDOrigin
 Valid
 )
 {
@@ -56,7 +55,7 @@ _ns
 }
 TEST
 (
-OriginParser_IsUUIDOrigin
+DOM_Quota_OriginParser_IsUUIDOrigin
 Invalid
 )
 {
@@ -136,4 +135,5 @@ _ns
 )
 )
 ;
+}
 }
