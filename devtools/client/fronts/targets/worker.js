@@ -221,6 +221,14 @@ json
 .
 id
 ;
+this
+.
+relatedDocumentInnerWindowId
+=
+json
+.
+relatedDocumentInnerWindowId
+;
 }
 }
 exports

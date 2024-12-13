@@ -317,6 +317,14 @@ SHARED_WORKER
 }
 this
 .
+_relatedDocumentInnerWindowId
+=
+workerDebuggerData
+.
+relatedDocumentInnerWindowId
+;
+this
+.
 _workerDebuggerData
 =
 workerDebuggerData
@@ -548,6 +556,11 @@ this
 _workerDebuggerData
 .
 url
+relatedDocumentInnerWindowId
+:
+this
+.
+_relatedDocumentInnerWindowId
 traits
 :
 {
