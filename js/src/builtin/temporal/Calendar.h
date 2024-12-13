@@ -552,7 +552,7 @@ day
 )
 ;
 bool
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 JSContext
 *

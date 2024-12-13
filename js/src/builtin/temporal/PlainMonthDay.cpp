@@ -1421,7 +1421,7 @@ calendarString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
@@ -1745,7 +1745,7 @@ toString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
