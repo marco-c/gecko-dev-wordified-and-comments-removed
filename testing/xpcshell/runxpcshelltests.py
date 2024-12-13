@@ -788,7 +788,7 @@ test_object
         
 retry
 =
-True
+None
         
 verbose
 =
@@ -833,6 +833,31 @@ self
 retry
 =
 retry
+        
+if
+retry
+is
+None
+:
+            
+self
+.
+retry
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+0
+)
+!
+=
+0
         
 self
 .
@@ -14780,22 +14805,9 @@ passCount
 0
 )
 and
-os
+test
 .
-environ
-.
-get
-(
-                    
-"
-MOZ_AUTOMATION
-"
-0
-                
-)
-!
-=
-0
+retry
 :
                     
 self
