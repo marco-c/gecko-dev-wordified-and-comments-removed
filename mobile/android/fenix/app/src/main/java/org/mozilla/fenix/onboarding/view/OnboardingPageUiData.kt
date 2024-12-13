@@ -167,10 +167,7 @@ null
 val
 themeOptions
 :
-List
-<
-ThemeOption
->
+ThemeOptions
 ?
 =
 null
