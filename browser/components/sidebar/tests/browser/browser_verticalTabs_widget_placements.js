@@ -42,7 +42,7 @@ prefs
 .
 clearUserPref
 (
-kPrefCustomizationNavBarWhenVerticalTabs
+kPrefCustomizationVerticalNavBar
 )
 ;
 }

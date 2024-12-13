@@ -93,14 +93,14 @@ horizontalTabstrip
 "
 ;
 const
-kPrefCustomizationNavBarWhenVerticalTabs
+kPrefCustomizationVerticalNavBar
 =
 "
 browser
 .
 uiCustomization
 .
-navBarWhenVerticalTabs
+verticalNavBar
 "
 ;
 Services
@@ -127,7 +127,7 @@ prefs
 .
 clearUserPref
 (
-kPrefCustomizationNavBarWhenVerticalTabs
+kPrefCustomizationVerticalNavBar
 )
 ;
 const
