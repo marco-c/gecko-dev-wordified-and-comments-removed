@@ -1,14 +1,6 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-checkFromJSM
-"
-]
-;
+export
 function
-checkFromJSM
+checkFromESM
 (
 is_op
 )
@@ -27,7 +19,7 @@ utf
 8
 "
 "
-JSM
+ESM
 should
 have
 TextDecoder
@@ -48,7 +40,7 @@ utf
 8
 "
 "
-JSM
+ESM
 should
 have
 TextEncoder

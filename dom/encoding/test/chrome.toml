@@ -9,7 +9,9 @@ files
 "
 file_stringencoding
 .
-jsm
+sys
+.
+mjs
 "
 ]
 [
