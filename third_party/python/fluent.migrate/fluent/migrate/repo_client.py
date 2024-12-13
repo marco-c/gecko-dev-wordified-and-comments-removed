@@ -201,18 +201,7 @@ utf
 "
 )
         
-elif
-isdir
-(
-join
-(
-root
-"
-.
-git
-"
-)
-)
+else
 :
             
 self
@@ -221,6 +210,9 @@ hgclient
 =
 None
             
+try
+:
+                
 stdout
 =
 git
@@ -246,6 +238,15 @@ tree
 "
 )
             
+except
+Exception
+:
+                
+stdout
+=
+"
+"
+            
 if
 stdout
 !
@@ -257,21 +258,6 @@ n
 "
 :
                 
-raise
-Exception
-(
-"
-git
-rev
--
-parse
-failed
-"
-)
-        
-else
-:
-            
 raise
 Exception
 (
@@ -843,6 +829,12 @@ root
                     
 "
 log
+"
+                    
+"
+-
+-
+reverse
 "
                     
 "

@@ -127,12 +127,8 @@ repo_client
 py
 sha256
 =
-hZvfD1P
--
-ZOoM6u
--
-aMQ4hNzBtMlcjevZERLfizjcgDWo
-3541
+bA_w9uZqfelraYmEVnVkw9XNWFfO0qD5BqHn5OjUbQM
+3561
 fluent
 /
 migrate
@@ -177,8 +173,8 @@ validator
 py
 sha256
 =
-SpjTfaKvH8ZN7ZKuoJCEWIp3xXEyplzN6vF23piXSGE
-11043
+_H_hUB7VtbiDiPiaxix_d2dVwxOjF6Xpj3_ztlRld7s
+11006
 fluent
 .
 migrate
@@ -187,7 +183,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -
@@ -206,7 +202,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -
@@ -215,11 +211,8 @@ info
 METADATA
 sha256
 =
--
-mqYB_hRmQqgLT9EyWfNO85wJvKaz3AvY5K1r
--
-jcsZg
-2363
+517w5WPp3BzhOA8HrezBMpwl8cgAVLC0YwqUhmObrWE
+2360
 fluent
 .
 migrate
@@ -228,7 +221,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -
@@ -237,9 +230,8 @@ info
 WHEEL
 sha256
 =
--
-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk
-110
+0VNUDWQJzfRahYI3neAhz2UVbRCtztpN5dPHAGvmGXc
+109
 fluent
 .
 migrate
@@ -248,7 +240,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -
@@ -271,7 +263,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -
@@ -294,7 +286,7 @@ migrate
 .
 13
 .
-0
+2
 .
 dist
 -

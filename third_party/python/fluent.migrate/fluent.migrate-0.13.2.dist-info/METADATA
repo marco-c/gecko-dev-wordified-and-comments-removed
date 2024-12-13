@@ -16,7 +16,7 @@ Version
 .
 13
 .
-0
+2
 Summary
 :
 Toolchain
@@ -227,9 +227,9 @@ hglib
 extra
 =
 =
-'
+"
 hg
-'
+"
 Fluent
 Migration
 Tools

@@ -32,14 +32,6 @@ from
 fluent
 .
 syntax
-import
-ast
-as
-FTL
-from
-fluent
-.
-syntax
 .
 visitor
 import
