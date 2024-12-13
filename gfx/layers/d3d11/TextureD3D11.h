@@ -214,7 +214,7 @@ class
 CompositorD3D11
 ;
 class
-IMFSampleUsageInfo
+ZeroCopyUsageInfo
 ;
 class
 VideoProcessorD3D11
@@ -309,7 +309,7 @@ KnowsCompositor
 aKnowsCompositor
 RefPtr
 <
-IMFSampleUsageInfo
+ZeroCopyUsageInfo
 >
 aUsageInfo
 )
