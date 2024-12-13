@@ -273,7 +273,7 @@ MAX_PREVIEW_SIZE
 #
 define
 MAX_PREVIEW_SOURCE_SIZE
-4096
+8192
 nsIFile
 *
 nsFilePicker
