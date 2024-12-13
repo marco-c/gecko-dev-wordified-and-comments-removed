@@ -3797,6 +3797,7 @@ localizations
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsGroup
 }
 branch
 source
@@ -4058,6 +4059,7 @@ experiment
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsGroup
 }
 )
 ;

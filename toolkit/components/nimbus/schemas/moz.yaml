@@ -66,7 +66,7 @@ MPL
 revision
 :
 "
-902e80c57dee68d44bf65211cbc23247082650f4
+ab82c0cd4232411b45705f2f99bed909e519268f
 "
 release
 :
@@ -74,9 +74,9 @@ release
 version
 2024
 .
-11
+12
 .
-4
+1
 "
 vendoring
 :
