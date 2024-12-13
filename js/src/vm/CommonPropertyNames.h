@@ -4627,14 +4627,6 @@ ToString
 \
 MACRO_
 (
-toTemporalInstant
-"
-toTemporalInstant
-"
-)
-\
-MACRO_
-(
 toUTCString
 "
 toUTCString
