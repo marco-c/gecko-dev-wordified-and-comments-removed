@@ -283,6 +283,17 @@ nsCString
 aOrigin
 )
 ;
+bool
+IsUserContextSuffix
+(
+const
+nsACString
+&
+aSuffix
+uint32_t
+aUserContextId
+)
+;
 }
 }
 #
