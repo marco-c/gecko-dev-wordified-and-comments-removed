@@ -105,7 +105,16 @@ be
 replaced
 by
 the
-realm
+hostname
+or
+a
+description
+of
+the
+protected
+area
+/
+site
 %
 2
 s
@@ -144,7 +153,7 @@ nama
 pengguna
 dan
 sandi
-anda
+Anda
 .
 Situs
 ini
@@ -213,7 +222,7 @@ nama
 pengguna
 dan
 sandi
-anda
+Anda
 .
 <
 /
