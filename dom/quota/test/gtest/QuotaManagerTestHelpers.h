@@ -26,7 +26,7 @@ GetPrincipalMetadata
 const
 nsCString
 &
-aGroup
+aGroupNoSuffix
 const
 nsCString
 &
@@ -39,7 +39,7 @@ GetPrincipalMetadata
 const
 nsCString
 &
-aSuffix
+aOriginSuffix
 const
 nsCString
 &
