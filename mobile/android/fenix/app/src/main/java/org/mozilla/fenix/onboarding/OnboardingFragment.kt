@@ -1405,6 +1405,13 @@ Type
 .
 TOOLBAR_PLACEMENT
 )
+onboardingToolbarStore
+.
+state
+.
+selected
+.
+id
 )
 }
 onSkipCustomizeToolbarClick
