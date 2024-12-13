@@ -782,7 +782,7 @@ downloaded
 static
 WASM_MAJOR_VERSION
 =
-2
+3
 ;
 /
 *
