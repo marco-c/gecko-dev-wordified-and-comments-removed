@@ -262,7 +262,7 @@ class
 D3D11ShareHandleImage
 ;
 class
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 ;
 class
 SurfaceDescriptorD3D10
@@ -1567,7 +1567,7 @@ BlitImage
 layers
 :
 :
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 *
 srcImage
 const

@@ -65,7 +65,7 @@ mozilla
 /
 layers
 /
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 .
 h
 "
@@ -1162,7 +1162,7 @@ BlitImage
 layers
 :
 :
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 *
 const
 srcImage

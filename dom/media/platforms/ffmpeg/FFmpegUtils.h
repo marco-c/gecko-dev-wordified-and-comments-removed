@@ -301,17 +301,6 @@ duration
 #
 endif
 }
-const
-char
-*
-AVCodecToString
-(
-const
-AVCodecID
-&
-aCodec
-)
-;
 }
 #
 endif
