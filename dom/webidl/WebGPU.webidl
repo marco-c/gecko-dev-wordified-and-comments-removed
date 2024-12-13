@@ -4187,10 +4187,7 @@ false
 ;
 }
 ;
-dictionary
-GPUCopyExternalImageSourceInfo
-{
-required
+typedef
 (
 ImageBitmap
 or
@@ -4198,6 +4195,13 @@ HTMLCanvasElement
 or
 OffscreenCanvas
 )
+GPUCopyExternalImageSource
+;
+dictionary
+GPUCopyExternalImageSourceInfo
+{
+required
+GPUCopyExternalImageSource
 source
 ;
 GPUOrigin2D
