@@ -521,17 +521,6 @@ gl
 ShBuiltInResources
 resources
 ;
-memset
-(
-&
-resources
-0
-sizeof
-(
-resources
-)
-)
-;
 sh
 :
 :

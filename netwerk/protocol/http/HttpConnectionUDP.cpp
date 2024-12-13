@@ -452,17 +452,6 @@ rv
 NetAddr
 local
 ;
-memset
-(
-&
-local
-0
-sizeof
-(
-local
-)
-)
-;
 local
 .
 raw

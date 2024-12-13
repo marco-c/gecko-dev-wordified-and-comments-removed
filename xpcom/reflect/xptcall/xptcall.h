@@ -192,6 +192,10 @@ nsXPTCVariant
 {
 memset
 (
+(
+void
+*
+)
 this
 0
 sizeof
