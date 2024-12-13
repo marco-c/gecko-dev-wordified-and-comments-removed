@@ -882,7 +882,10 @@ ToolbarOptions
 (
 options
 :
-ToolbarOptions
+List
+<
+ToolbarOption
+>
 selectedOption
 :
 ToolbarOptionType
@@ -901,8 +904,9 @@ SelectableImageItem
 toolbarOption
 =
 options
-.
-top
+[
+0
+]
 selectedOption
 =
 selectedOption
@@ -926,8 +930,9 @@ SelectableImageItem
 toolbarOption
 =
 options
-.
-bottom
+[
+1
+]
 selectedOption
 =
 selectedOption
@@ -1279,10 +1284,8 @@ onClick
 )
 toolbarOptions
 =
-ToolbarOptions
+listOf
 (
-top
-=
 ToolbarOption
 (
 toolbarType
@@ -1308,8 +1311,6 @@ string
 onboarding_customize_toolbar_top_option
 )
 )
-bottom
-=
 ToolbarOption
 (
 toolbarType
