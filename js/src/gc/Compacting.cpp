@@ -3597,7 +3597,7 @@ DICT_PROP_MAP
 static
 constexpr
 AllocKinds
-UpdatePhaseThree
+UpdatePhaseTwo
 {
 AllocKind
 :
@@ -3696,7 +3696,7 @@ UpdatePhaseOne
 updateCellPointers
 (
 zone
-UpdatePhaseThree
+UpdatePhaseTwo
 )
 ;
 }
