@@ -28487,7 +28487,8 @@ JSLinearString
 (
 JSContext
 *
-HandleString
+JSString
+*
 )
 ;
 callvm
@@ -28570,7 +28571,8 @@ JSLinearString
 (
 JSContext
 *
-HandleString
+JSString
+*
 )
 ;
 callvm

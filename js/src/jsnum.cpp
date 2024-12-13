@@ -9776,14 +9776,10 @@ bool
 lowerCase
 )
 {
-Rooted
-<
 JSLinearString
 *
->
 str
-(
-cx
+=
 :
 :
 Int32ToStringWithBase
@@ -9794,7 +9790,6 @@ allowGC
 cx
 i
 base
-)
 )
 ;
 if

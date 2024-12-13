@@ -5030,7 +5030,8 @@ StringToLowerCase
 JSContext
 *
 cx
-HandleString
+JSString
+*
 string
 )
 {
@@ -5125,10 +5126,10 @@ argc
 vp
 )
 ;
-RootedString
+JSString
+*
 str
-(
-cx
+=
 ToStringForStringFunction
 (
 cx
@@ -5139,7 +5140,6 @@ args
 .
 thisv
 (
-)
 )
 )
 ;
@@ -7240,7 +7240,8 @@ StringToUpperCase
 JSContext
 *
 cx
-HandleString
+JSString
+*
 string
 )
 {
@@ -7335,10 +7336,10 @@ argc
 vp
 )
 ;
-RootedString
+JSString
+*
 str
-(
-cx
+=
 ToStringForStringFunction
 (
 cx
@@ -7349,7 +7350,6 @@ args
 .
 thisv
 (
-)
 )
 )
 ;
