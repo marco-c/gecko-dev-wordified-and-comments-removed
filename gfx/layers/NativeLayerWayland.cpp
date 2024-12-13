@@ -760,9 +760,6 @@ mFrameInProcess
 =
 false
 ;
-#
-if
-0
 MozContainerSurfaceLock
 lock
 (
@@ -1320,8 +1317,6 @@ containerSurface
 )
 ;
 }
-#
-endif
 wl_display_flush
 (
 widget
@@ -1391,9 +1386,6 @@ mCallbackMultiplexHelper
 )
 ;
 }
-#
-if
-0
 MozContainerSurfaceLock
 lockContainer
 (
@@ -1437,12 +1429,7 @@ GetDisplay
 )
 ;
 }
-#
-endif
 }
-#
-if
-0
 static
 void
 sAfterFrameClockAfterPaint
@@ -1463,8 +1450,6 @@ AfterFrameClockAfterPaint
 )
 ;
 }
-#
-endif
 void
 NativeLayerRootWayland
 :
@@ -1479,9 +1464,6 @@ lock
 mMutex
 )
 ;
-#
-if
-0
 MozContainerSurfaceLock
 lockContainer
 (
@@ -1532,8 +1514,6 @@ containerSurface
 )
 ;
 }
-#
-endif
 }
 void
 NativeLayerRootWayland
@@ -1543,9 +1523,6 @@ UpdateLayersOnMainThread
 (
 )
 {
-#
-if
-0
 AssertIsOnMainThread
 (
 )
@@ -1943,8 +1920,6 @@ this
 )
 ;
 }
-#
-endif
 }
 NativeLayerWayland
 :
@@ -3190,9 +3165,6 @@ Commit
 (
 )
 {
-#
-if
-0
 MutexAutoLock
 lock
 (
@@ -3294,8 +3266,6 @@ SetEmpty
 (
 )
 ;
-#
-endif
 }
 void
 NativeLayerWayland

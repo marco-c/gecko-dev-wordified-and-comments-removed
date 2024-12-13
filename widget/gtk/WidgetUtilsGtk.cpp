@@ -2118,6 +2118,13 @@ GetDesktopEnvironmentIdentifier
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 static
 const
 nsDependentCString
