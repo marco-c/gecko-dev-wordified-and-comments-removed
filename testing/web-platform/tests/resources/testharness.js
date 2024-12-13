@@ -4196,7 +4196,7 @@ status
 .
 ERROR
 "
-promise_test
+promise_setup
 invoked
 without
 a
