@@ -2006,6 +2006,17 @@ SupportsZeroCopyNV12Texture
 )
 ;
 }
+ID3D11Device
+*
+GetD3D11Device
+(
+)
+override
+{
+return
+mDevice
+;
+}
 private
 :
 HRESULT
