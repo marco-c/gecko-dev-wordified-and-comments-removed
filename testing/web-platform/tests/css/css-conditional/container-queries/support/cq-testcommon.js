@@ -521,6 +521,17 @@ condition
 should
 be
 valid
+{
+unknown
+?
+'
+but
+unknown
+'
+:
+'
+'
+}
 :
 {
 condition
