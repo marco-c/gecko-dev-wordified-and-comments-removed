@@ -1089,6 +1089,13 @@ contentAnalysis
 analyzeContentRequest
 (
 {
+reason
+:
+Ci
+.
+nsIContentAnalysisRequest
+.
+eDragAndDrop
 requestToken
 :
 Services
