@@ -10337,6 +10337,11 @@ sidebar
 .
 verticalTabs
 "
+"
+sidebar
+.
+visibility
+"
 ]
 ;
 const

@@ -490,6 +490,9 @@ revamp
 "
 verticalTabs
 "
+"
+visibility
+"
 ]
 .
 forEach

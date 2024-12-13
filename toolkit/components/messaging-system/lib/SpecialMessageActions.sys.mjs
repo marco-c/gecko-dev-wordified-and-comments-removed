@@ -1679,6 +1679,11 @@ sidebar
 .
 revamp
 "
+"
+sidebar
+.
+visibility
+"
 ]
 ;
 if
