@@ -445,8 +445,6 @@ webExtensionMenuItems
 List
 <
 WebExtensionMenuItem
-.
-WebExtensionBrowserMenuItem
 >
 showExtensionsOnboarding
 :
@@ -1261,8 +1259,6 @@ webExtensionMenuItems
 listOf
 (
 WebExtensionMenuItem
-.
-WebExtensionBrowserMenuItem
 (
 label
 =
@@ -1485,8 +1481,6 @@ webExtensionMenuItems
 listOf
 (
 WebExtensionMenuItem
-.
-WebExtensionBrowserMenuItem
 (
 label
 =
