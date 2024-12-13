@@ -1,4 +1,6 @@
 import
+io
+import
 json
 import
 os
@@ -10,8 +12,6 @@ import
 mozinfo
 import
 pytest
-import
-six
 from
 manifestparser
 import
@@ -112,9 +112,7 @@ True
         
 path
 =
-six
-.
-text_type
+str
 (
 manifest
 )
@@ -478,7 +476,7 @@ flavor
     
 buf
 =
-six
+io
 .
 StringIO
 (

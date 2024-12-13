@@ -22,8 +22,6 @@ import
 mozunit
 import
 pytest
-import
-six
 from
 conftest
 import
@@ -132,9 +130,7 @@ if
 isinstance
 (
 manifest
-six
-.
-string_types
+str
 )
 :
             
@@ -279,9 +275,7 @@ True
         
 path
 =
-six
-.
-text_type
+str
 (
 manifest
 )

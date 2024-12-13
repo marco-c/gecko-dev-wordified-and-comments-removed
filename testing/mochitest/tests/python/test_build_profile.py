@@ -30,10 +30,6 @@ mozprofile
 prefs
 import
 Preferences
-from
-six
-import
-string_types
 here
 =
 os
@@ -225,9 +221,6 @@ result
 =
 build_profile
 (
-e10s
-=
-False
 )
     
 with
@@ -412,7 +405,7 @@ if
 isinstance
 (
 v
-string_types
+str
 )
 :
             
