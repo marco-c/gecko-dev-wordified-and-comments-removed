@@ -517,17 +517,6 @@ passwordVisible
 }
 ;
 }
-disconnectedCallback
-(
-)
-{
-this
-.
-onClose
-(
-)
-;
-}
 #
 removeWarning
 (
@@ -1574,7 +1563,7 @@ click
 {
 this
 .
-remove
+onClose
 }
 >
 <
