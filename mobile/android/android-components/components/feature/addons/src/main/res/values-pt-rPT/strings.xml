@@ -1665,13 +1665,14 @@ mozac_feature_addons_permissions_user_scripts_description
 "
 >
 Permitir
+que
 scripts
-de
-terceiros
 n
 o
 verificados
-aceder
+de
+terceiros
+acedam
 aos
 seus
 dados
