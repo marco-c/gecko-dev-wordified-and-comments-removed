@@ -235,7 +235,7 @@ sendMouseEvent
 type
 :
 "
-mousedown
+click
 "
 }
 node
