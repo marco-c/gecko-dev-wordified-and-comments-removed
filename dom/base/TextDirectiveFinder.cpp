@@ -180,7 +180,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Frames
+Layout
 )
 ;
 nsTArray
