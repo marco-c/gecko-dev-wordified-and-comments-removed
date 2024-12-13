@@ -138534,6 +138534,11 @@ offsetOfDisposeCapability
 )
 )
 ;
+emitPreBarrier
+(
+capabilityAddr
+)
+;
 masm
 .
 loadValue
