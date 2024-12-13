@@ -502,15 +502,9 @@ QuotaManager
 >
 aQuotaManager
 const
-mozilla
-:
-:
-ipc
-:
-:
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 RefPtr
 <
 UniversalDirectoryLock
