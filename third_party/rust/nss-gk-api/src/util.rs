@@ -47,7 +47,7 @@ use
 crate
 :
 :
-prtypes
+nss_prelude
 :
 :
 *
@@ -56,7 +56,7 @@ use
 crate
 :
 :
-nss_prelude
+prtypes
 :
 :
 *
@@ -304,6 +304,7 @@ ptr
 }
 }
 }
+;
 }
 macro_rules
 !
@@ -370,6 +371,7 @@ ptr
 }
 }
 }
+;
 }
 impl
 SECItem
