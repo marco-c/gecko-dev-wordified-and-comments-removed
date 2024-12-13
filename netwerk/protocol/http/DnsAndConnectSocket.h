@@ -110,12 +110,10 @@ define
 NS_DNSANDCONNECTSOCKET_IID
 \
 {
-\
 0x8d411b53
 0x54bc
 0x4a99
 {
-\
 0x8b
 0x78
 0xff
@@ -124,9 +122,7 @@ NS_DNSANDCONNECTSOCKET_IID
 0xab
 0x15
 0x64
-\
 }
-\
 }
 class
 PendingTransactionInfo
@@ -622,6 +618,11 @@ CheckConnectedResult
 DnsAndConnectSocket
 *
 dnsAndSock
+)
+;
+bool
+ToggleIpFamilyFlagsIfRetryEnabled
+(
 )
 ;
 protected
