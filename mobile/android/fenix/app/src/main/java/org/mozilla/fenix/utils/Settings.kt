@@ -10935,7 +10935,7 @@ enabled
 var
 microsurveyFeatureEnabled
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -10951,6 +10951,7 @@ pref_key_microsurvey_feature_enabled
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -10962,6 +10963,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
