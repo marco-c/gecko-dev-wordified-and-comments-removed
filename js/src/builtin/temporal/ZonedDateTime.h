@@ -610,13 +610,13 @@ const
 DifferenceSettings
 &
 settings
-Duration
+InternalDuration
 *
 result
 )
 ;
 bool
-DifferenceZonedDateTimeWithRounding
+DifferenceZonedDateTimeWithTotal
 (
 JSContext
 *

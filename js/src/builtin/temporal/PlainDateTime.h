@@ -564,7 +564,7 @@ RoundISODateTime
 const
 ISODateTime
 &
-dateTime
+isoDateTime
 Increment
 increment
 TemporalUnit
@@ -599,13 +599,13 @@ const
 DifferenceSettings
 &
 settings
-Duration
+InternalDuration
 *
 result
 )
 ;
 bool
-DifferencePlainDateTimeWithRounding
+DifferencePlainDateTimeWithTotal
 (
 JSContext
 *

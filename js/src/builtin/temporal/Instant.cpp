@@ -3037,7 +3037,7 @@ Increment
 ;
 }
 auto
-difference
+timeDuration
 =
 DifferenceInstant
 (
@@ -3060,10 +3060,10 @@ duration
 if
 (
 !
-BalanceTimeDuration
+TemporalDurationFromInternal
 (
 cx
-difference
+timeDuration
 settings
 .
 largestUnit

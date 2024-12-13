@@ -4370,7 +4370,7 @@ duration
 if
 (
 !
-BalanceTimeDuration
+TemporalDurationFromInternal
 (
 cx
 diff
