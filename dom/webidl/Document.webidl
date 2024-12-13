@@ -1354,7 +1354,11 @@ showUI
 =
 false
 optional
+(
+TrustedHTML
+or
 DOMString
+)
 value
 =
 "
