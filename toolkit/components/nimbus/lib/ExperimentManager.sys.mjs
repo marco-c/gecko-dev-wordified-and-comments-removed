@@ -3797,6 +3797,10 @@ localizations
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsGroup
+requiresRestart
+=
+false
 }
 branch
 source
@@ -4058,6 +4062,8 @@ experiment
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsGroup
+requiresRestart
 }
 )
 ;
