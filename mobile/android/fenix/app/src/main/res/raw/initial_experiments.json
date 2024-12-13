@@ -408,6 +408,11 @@ firefoxLabsDescription
 "
 :
 null
+"
+firefoxLabsGroup
+"
+:
+null
 }
 {
 "
@@ -890,6 +895,11 @@ firefoxLabsTitle
 null
 "
 firefoxLabsDescription
+"
+:
+null
+"
+firefoxLabsGroup
 "
 :
 null
