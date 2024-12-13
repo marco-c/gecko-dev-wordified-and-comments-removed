@@ -216,6 +216,7 @@ true
 void
 Disassemble
 (
+const
 uint8_t
 *
 code
