@@ -2204,11 +2204,6 @@ input
 .
 handleRevert
 (
-{
-escapeSearchMode
-:
-true
-}
 )
 ;
 }
