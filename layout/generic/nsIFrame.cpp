@@ -4320,6 +4320,10 @@ SVGObserverUtils
 InvalidateDirectRenderingObservers
 (
 this
+SVGObserverUtils
+:
+:
+INVALIDATE_DESTROY
 )
 ;
 const

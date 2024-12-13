@@ -158,12 +158,10 @@ define
 MOZILLA_ICANVASFILTEROBSERVER_IID
 \
 {
-\
 0xd1c85f93
 0xd1ed
 0x4ea9
 {
-\
 0xa0
 0x39
 0x71
@@ -172,9 +170,7 @@ MOZILLA_ICANVASFILTEROBSERVER_IID
 0x41
 0xf1
 0xa1
-\
 }
-\
 }
 namespace
 mozilla
@@ -395,7 +391,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 {
 SetEnabledCallbacks
@@ -620,7 +616,10 @@ enum
 {
 INVALIDATE_REFLOW
 =
-1
+0x1
+INVALIDATE_DESTROY
+=
+0x2
 }
 ;
 enum
