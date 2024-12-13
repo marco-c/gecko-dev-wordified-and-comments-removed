@@ -9239,6 +9239,16 @@ NoExtras
 onMenuButtonClick
 =
 {
+NavigationBar
+.
+browserMenuTapped
+.
+record
+(
+NoExtras
+(
+)
+)
 findNavController
 (
 )
