@@ -2127,6 +2127,11 @@ skip_if
 else
 :
         
+conditions_array
+=
+[
+]
+        
 if
 first
 is
@@ -2158,23 +2163,17 @@ condition
 )
 :
                 
-mp_array
+conditions_array
 .
-add_line
+append
 (
-                    
+[
 first
-indent
-=
-"
-"
-comment
-=
 _simplify_comment
 (
 first_comment
 )
-                
+]
 )
         
 if
@@ -2227,20 +2226,14 @@ condition
 )
 :
                             
-mp_array
+conditions_array
 .
-add_line
+append
 (
-                                
+[
 e_condition
-indent
-=
-"
-"
-comment
-=
 e_comment
-                            
+]
 )
                         
 e_comment
@@ -2320,18 +2313,14 @@ condition
 )
 :
                 
-mp_array
+conditions_array
 .
-add_line
+append
 (
+[
 e_condition
-indent
-=
-"
-"
-comment
-=
 e_comment
+]
 )
         
 if
@@ -2339,18 +2328,46 @@ not
 existing
 :
             
+conditions_array
+.
+append
+(
+[
+condition
+bug
+]
+)
+        
+conditions_array
+.
+sort
+(
+)
+        
+for
+c
+in
+conditions_array
+:
+            
 mp_array
 .
 add_line
 (
-condition
+c
+[
+0
+]
 indent
 =
 "
 "
 comment
 =
-bug
+c
+[
+1
+]
 )
         
 mp_array
