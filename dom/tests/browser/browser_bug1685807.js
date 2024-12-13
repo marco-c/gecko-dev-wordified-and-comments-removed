@@ -166,6 +166,14 @@ aTestDocDomain
 {
 content
 .
+document
+.
+notifyUserGestureActivation
+(
+)
+;
+content
+.
 name
 =
 "
@@ -286,6 +294,7 @@ browser
 .
 goBack
 (
+false
 )
 ;
 await

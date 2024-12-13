@@ -1007,6 +1007,14 @@ tab
 =
 >
 {
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 SpecialPowers
 .
 spawn
