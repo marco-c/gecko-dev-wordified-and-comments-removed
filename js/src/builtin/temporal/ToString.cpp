@@ -2035,7 +2035,7 @@ Day
 auto
 dateTime
 =
-GetPlainDateTimeFor
+GetISODateTimeFor
 (
 instant
 offsetNanoseconds
@@ -2770,7 +2770,7 @@ Day
 auto
 temporalDateTime
 =
-GetPlainDateTimeFor
+GetISODateTimeFor
 (
 ns
 offsetNanoseconds
