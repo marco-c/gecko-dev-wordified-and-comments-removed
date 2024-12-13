@@ -315,7 +315,7 @@ else
 const
 {
 bergamotWasmArrayBuffer
-languageModelFiles
+translationModelPayloads
 }
 =
 enginePayload
@@ -339,7 +339,7 @@ Engine
 fromLanguage
 toLanguage
 bergamot
-languageModelFiles
+translationModelPayloads
 )
 ;
 }
@@ -857,7 +857,7 @@ constructor
 fromLanguage
 toLanguage
 bergamot
-languageTranslationModelFiles
+translationModelPayloads
 )
 {
 this
@@ -882,11 +882,11 @@ this
 .
 languageTranslationModels
 =
-languageTranslationModelFiles
+translationModelPayloads
 .
 map
 (
-modelFiles
+translationModelPayload
 =
 >
 BergamotUtils
@@ -894,7 +894,7 @@ BergamotUtils
 constructSingleTranslationModel
 (
 bergamot
-modelFiles
+translationModelPayload
 )
 )
 ;
@@ -1320,7 +1320,7 @@ static
 constructSingleTranslationModel
 (
 bergamot
-languageTranslationModelFiles
+translationModelPayload
 )
 {
 log
@@ -1330,6 +1330,15 @@ translation
 model
 .
 )
+;
+const
+{
+sourceLanguage
+targetLanguage
+languageModelFiles
+}
+=
+translationModelPayload
 ;
 const
 {
@@ -1346,7 +1355,7 @@ BergamotUtils
 allocateModelMemory
 (
 bergamot
-languageTranslationModelFiles
+languageModelFiles
 )
 ;
 const
@@ -1658,7 +1667,7 @@ gemm
 precision
 "
 :
-languageTranslationModelFiles
+languageModelFiles
 .
 model
 .
@@ -1713,6 +1722,8 @@ bergamot
 .
 TranslationModel
 (
+sourceLanguage
+targetLanguage
 config
 model
 lex
@@ -1728,7 +1739,7 @@ static
 allocateModelMemory
 (
 bergamot
-languageTranslationModelFiles
+languageModelFiles
 )
 {
 const
@@ -1749,7 +1760,7 @@ Object
 .
 entries
 (
-languageTranslationModelFiles
+languageModelFiles
 )
 )
 {
