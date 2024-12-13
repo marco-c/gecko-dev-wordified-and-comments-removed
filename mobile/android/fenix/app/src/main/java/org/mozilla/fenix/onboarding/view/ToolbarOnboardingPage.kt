@@ -551,7 +551,7 @@ horizontal
 dp
 vertical
 =
-32
+24
 .
 dp
 )
