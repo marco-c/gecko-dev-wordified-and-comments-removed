@@ -5562,6 +5562,7 @@ beginning
 .
 if
 (
+!
 soughtUrl
 .
 schemeIs
@@ -5572,6 +5573,7 @@ http
 )
 &
 &
+!
 soughtUrl
 .
 schemeIs
