@@ -555,6 +555,9 @@ mid
 DOMString
 remoteId
 ;
+DOMString
+rid
+;
 unsigned
 long
 framesEncoded
