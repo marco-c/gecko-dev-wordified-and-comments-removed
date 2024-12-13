@@ -184,7 +184,7 @@ is
 alltabsPlacement
 .
 position
-14
+13
 "
 alltabs
 -
@@ -203,7 +203,7 @@ is
 firefoxViewPlacement
 .
 position
-13
+12
 "
 firefox
 -
