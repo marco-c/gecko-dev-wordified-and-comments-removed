@@ -1,6 +1,7 @@
 (
 function
 (
+global
 )
 {
 const
@@ -9,7 +10,7 @@ undefined
 void
 0
 ;
-globalThis
+global
 .
 completesNormally
 =
@@ -40,7 +41,7 @@ false
 ;
 }
 }
-globalThis
+global
 .
 raisesException
 =
@@ -82,7 +83,7 @@ exception
 ;
 }
 ;
-globalThis
+global
 .
 deepEqual
 =
@@ -228,7 +229,7 @@ b
 b
 ;
 }
-globalThis
+global
 .
 makeIterator
 =
@@ -341,7 +342,7 @@ iterator
 ;
 }
 ;
-globalThis
+global
 .
 Permutations
 =
@@ -459,7 +460,7 @@ e
 if
 (
 typeof
-globalThis
+global
 .
 assertThrowsValue
 =
@@ -470,7 +471,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrowsValue
 =
@@ -614,7 +615,7 @@ fullmsg
 if
 (
 typeof
-globalThis
+global
 .
 assertThrownErrorContains
 =
@@ -625,7 +626,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrownErrorContains
 =
@@ -711,7 +712,7 @@ thrown
 if
 (
 typeof
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessageCheck
 =
@@ -722,7 +723,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessageCheck
 =
@@ -866,7 +867,7 @@ fullmsg
 if
 (
 typeof
-globalThis
+global
 .
 assertThrowsInstanceOf
 =
@@ -877,7 +878,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrowsInstanceOf
 =
@@ -906,7 +907,7 @@ msg
 if
 (
 typeof
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessage
 =
@@ -917,7 +918,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessage
 =
@@ -950,7 +951,7 @@ msg
 if
 (
 typeof
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessageContains
 =
@@ -961,7 +962,7 @@ undefined
 '
 )
 {
-globalThis
+global
 .
 assertThrowsInstanceOfWithMessageContains
 =
@@ -997,7 +998,7 @@ msg
 ;
 }
 }
-globalThis
+global
 .
 assertDeepEq
 =
@@ -2384,5 +2385,6 @@ b
 }
 )
 (
+this
 )
 ;

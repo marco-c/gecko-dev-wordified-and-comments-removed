@@ -6,7 +6,7 @@ bug1488117
 -
 import
 -
-namespace_FIXTURE
+namespace
 .
 js
 "
@@ -19,7 +19,7 @@ from
 /
 bug1488117
 -
-empty_FIXTURE
+empty
 .
 js
 "

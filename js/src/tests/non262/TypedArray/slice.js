@@ -6,7 +6,7 @@ of
 anyTypedArrayConstructors
 )
 {
-assertEq
+assertDeepEq
 (
 constructor
 .
@@ -18,7 +18,7 @@ length
 2
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -35,7 +35,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -53,7 +53,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -73,7 +73,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -97,7 +97,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -122,7 +122,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -148,7 +148,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -178,7 +178,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -207,7 +207,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -233,7 +233,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -256,7 +256,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -277,7 +277,7 @@ constructor
 )
 )
 ;
-assertEqArray
+assertDeepEq
 (
 new
 constructor
@@ -330,7 +330,7 @@ prototype
 .
 slice
 ;
-assertEqArray
+assertDeepEq
 (
 slice
 .

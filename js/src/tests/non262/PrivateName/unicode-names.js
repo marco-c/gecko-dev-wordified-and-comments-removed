@@ -10,6 +10,17 @@ this
 name
 parses
 .
+Failure
+would
+be
+an
+InternalError
+:
+Buffer
+too
+/
+/
+small
 #
 ;
 }
