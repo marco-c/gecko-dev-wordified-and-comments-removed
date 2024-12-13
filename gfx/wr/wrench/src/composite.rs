@@ -33,8 +33,9 @@ webrender
 :
 :
 {
-LayerCompositor
 CompositorInputConfig
+CompositorSurfaceTransform
+LayerCompositor
 }
 ;
 use
@@ -1130,6 +1131,9 @@ self
 index
 :
 usize
+_transform
+:
+CompositorSurfaceTransform
 _clip_rect
 :
 webrender
