@@ -223,7 +223,7 @@ store
 .
 state
 .
-url
+enteredUrl
 )
 }
 Test

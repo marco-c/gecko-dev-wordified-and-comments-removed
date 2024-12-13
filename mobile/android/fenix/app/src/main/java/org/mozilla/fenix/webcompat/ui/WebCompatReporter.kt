@@ -615,11 +615,14 @@ R
 string
 .
 webcompat_reporter_description
+stringResource
+(
 R
 .
 string
 .
 app_name
+)
 )
 color
 =
@@ -655,7 +658,7 @@ value
 =
 state
 .
-url
+enteredUrl
 onValueChange
 =
 {
@@ -1141,7 +1144,7 @@ feature
 opening
 WebCompatReporterState
 (
-url
+enteredUrl
 =
 "
 www
@@ -1161,7 +1164,7 @@ URL
 field
 WebCompatReporterState
 (
-url
+enteredUrl
 =
 "
 "
@@ -1174,7 +1177,7 @@ line
 description
 WebCompatReporterState
 (
-url
+enteredUrl
 =
 "
 www
