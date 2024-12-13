@@ -1323,6 +1323,17 @@ if
 aResponse
 -
 >
+dwVersion
+>
+=
+WEBAUTHN_ASSERTION_VERSION_3
+)
+{
+if
+(
+aResponse
+-
+>
 pHmacSecret
 )
 {
@@ -1407,6 +1418,7 @@ pHmacSecret
 cbSecond
 )
 ;
+}
 }
 }
 }
