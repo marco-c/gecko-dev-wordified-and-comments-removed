@@ -229,6 +229,16 @@ compose
 .
 base
 .
+Divider
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
 theme
 .
 AcornWindowSize

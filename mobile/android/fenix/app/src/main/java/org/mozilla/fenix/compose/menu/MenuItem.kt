@@ -97,13 +97,13 @@ runtime
 .
 Composable
 import
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 Divider
 import
