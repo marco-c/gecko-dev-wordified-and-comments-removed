@@ -1148,7 +1148,7 @@ outerHTML
 substring
 (
 0
-512
+1024
 )
 ;
 fieldDetail
