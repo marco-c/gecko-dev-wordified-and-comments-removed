@@ -2246,6 +2246,17 @@ Edit
 password
 passwords
 -
+remove
+-
+label
+=
+.
+title
+=
+Remove
+password
+passwords
+-
 origin
 -
 tooltip
