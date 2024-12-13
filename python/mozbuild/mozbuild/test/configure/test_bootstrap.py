@@ -472,6 +472,12 @@ foo
 .
 artifact
 "
+                    
+"
+extract
+"
+:
+True
                 
 }
                 
@@ -510,6 +516,12 @@ bar
 .
 artifact
 "
+                    
+"
+extract
+"
+:
+True
                 
 }
                 
@@ -548,6 +560,12 @@ qux
 .
 artifact
 "
+                    
+"
+extract
+"
+:
+True
                 
 }
             
