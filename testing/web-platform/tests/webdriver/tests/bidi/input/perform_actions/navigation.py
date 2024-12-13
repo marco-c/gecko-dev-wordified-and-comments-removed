@@ -1,5 +1,13 @@
 import
 pytest
+import
+webdriver
+.
+bidi
+.
+error
+as
+error
 from
 webdriver
 .
@@ -11,6 +19,10 @@ input
 import
 Actions
 get_element_origin
+from
+.
+import
+get_element_rect
 from
 .
 .
@@ -153,6 +165,7 @@ test_key
 bidi_session
 inline
 top_context
+get_element
 )
 :
     
@@ -245,6 +258,16 @@ complete
     
 )
     
+input
+=
+await
+get_element
+(
+"
+input
+"
+)
+    
 actions
 =
 Actions
@@ -321,35 +344,27 @@ context
     
 )
     
-info
-=
-await
-bidi_session
+with
+pytest
 .
-browsing_context
-.
-get_tree
+raises
 (
-max_depth
-=
-1
+error
+.
+NoSuchNodeException
 )
-    
-assert
-info
-[
-0
-]
-[
-"
-url
-"
-]
-=
-=
-inline
+:
+        
+await
+get_element_rect
 (
-PAGE_CONTENT
+bidi_session
+context
+=
+top_context
+element
+=
+input
 )
     
 events
@@ -555,35 +570,27 @@ context
     
 )
     
-info
-=
-await
-bidi_session
+with
+pytest
 .
-browsing_context
-.
-get_tree
+raises
 (
-max_depth
-=
-1
+error
+.
+NoSuchNodeException
 )
-    
-assert
-info
-[
-0
-]
-[
-"
-url
-"
-]
-=
-=
-inline
+:
+        
+await
+get_element_rect
 (
-PAGE_CONTENT
+bidi_session
+context
+=
+top_context
+element
+=
+input
 )
     
 events
