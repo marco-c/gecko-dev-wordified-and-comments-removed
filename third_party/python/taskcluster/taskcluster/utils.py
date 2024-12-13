@@ -39,8 +39,6 @@ slugid
 import
 time
 import
-six
-import
 random
 import
 taskcluster_urls
@@ -424,16 +422,10 @@ utf
 :
     
 if
-six
-.
-PY3
-and
 isinstance
 (
 obj
-six
-.
-binary_type
+bytes
 )
 :
         
@@ -929,16 +921,10 @@ x
 :
         
 if
-six
-.
-PY3
-and
 isinstance
 (
 x
-six
-.
-binary_type
+bytes
 )
 :
             
@@ -1110,9 +1096,7 @@ if
 isinstance
 (
 b64str
-six
-.
-text_type
+str
 )
 :
         
@@ -1174,9 +1158,7 @@ if
 isinstance
 (
 b64str
-six
-.
-text_type
+str
 )
 :
         
@@ -1245,9 +1227,7 @@ if
 isinstance
 (
 s
-six
-.
-text_type
+str
 )
 :
         
@@ -1259,29 +1239,11 @@ encode
 (
 )
     
-if
-six
-.
-PY3
-:
-        
 b64str
 =
 base64
 .
 encodebytes
-(
-s
-)
-    
-else
-:
-        
-b64str
-=
-base64
-.
-encodestring
 (
 s
 )
@@ -1824,7 +1786,7 @@ retries
                 
 log
 .
-warn
+warning
 (
 '
 Retrying
@@ -2234,9 +2196,7 @@ if
 isinstance
 (
 certificate
-six
-.
-string_types
+str
 )
 :
         

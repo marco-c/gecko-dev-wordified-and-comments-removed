@@ -966,6 +966,12 @@ isinstance
 content
 str
 )
+or
+isinstance
+(
+content
+bytes
+)
     
 assert
 isinstance
