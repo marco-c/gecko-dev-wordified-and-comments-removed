@@ -6987,6 +6987,7 @@ securityCallbacks
 =
 {
 ContentSecurityPolicyPermitsJSAction
+nullptr
 JSPrincipalsSubsume
 }
 ;
