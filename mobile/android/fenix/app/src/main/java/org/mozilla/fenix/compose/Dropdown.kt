@@ -401,6 +401,16 @@ compose
 .
 base
 .
+Divider
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
 annotation
 .
 FlexibleWindowLightDarkPreview
