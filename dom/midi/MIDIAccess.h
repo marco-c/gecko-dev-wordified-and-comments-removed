@@ -107,8 +107,6 @@ Observer
 <
 MIDIPortList
 >
-public
-SupportsWeakPtr
 {
 friend
 class

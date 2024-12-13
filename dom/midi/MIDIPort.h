@@ -372,7 +372,7 @@ DontKeepAliveOnStatechange
 (
 )
 ;
-WeakPtr
+RefPtr
 <
 MIDIAccess
 >
