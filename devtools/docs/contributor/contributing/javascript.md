@@ -414,7 +414,7 @@ bar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 .
