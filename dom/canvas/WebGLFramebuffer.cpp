@@ -4514,8 +4514,8 @@ imageInfo
 -
 >
 mUninitializedSlices
-=
-Nothing
+.
+reset
 (
 )
 ;
@@ -4589,8 +4589,8 @@ imageInfo
 -
 >
 mUninitializedSlices
-=
-Nothing
+.
+reset
 (
 )
 ;
