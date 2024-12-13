@@ -9332,7 +9332,7 @@ range
 "
 IteratorRange
 "
-1
+3
 0
 )
 JS_SELF_HOSTED_FN
