@@ -1206,7 +1206,7 @@ print
 (
 "
 Errors
-occured
+occurred
 ;
 new
 rust
