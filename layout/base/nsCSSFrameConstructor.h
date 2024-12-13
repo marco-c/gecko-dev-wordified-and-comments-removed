@@ -530,14 +530,11 @@ REMOVE_FOR_RECONSTRUCTION
 }
 ;
 bool
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aOldNextSibling
 RemoveFlags
 aFlags
 )
@@ -5547,6 +5544,11 @@ mCountersDirty
 ;
 bool
 mAlwaysCreateFramesForIgnorableWhitespace
+:
+1
+;
+bool
+mRemovingContent
 :
 1
 ;
