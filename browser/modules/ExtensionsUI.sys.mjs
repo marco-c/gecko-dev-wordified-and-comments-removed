@@ -1530,7 +1530,7 @@ extensions
 .
 ui
 .
-ignoreUnsigned
+showAddonIconForUnsigned
 "
 false
 )
