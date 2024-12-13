@@ -475,15 +475,9 @@ true
 clickStudiesToggle
 (
 )
-verifyStudiesDialog
-(
-)
-clickStudiesDialogCancelButton
-(
-)
 verifyStudiesToggle
 (
-false
+true
 )
 }
 }
