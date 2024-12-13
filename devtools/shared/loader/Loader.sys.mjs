@@ -297,7 +297,7 @@ shared
 by
 *
 all
-JSMs
+ESMs
 XPCOMs
 and
 modules
@@ -998,10 +998,10 @@ const
 injectedGlobals
 =
 {
-CanonicalBrowsingContext
-console
 BrowsingContext
+CanonicalBrowsingContext
 ChromeWorker
+console
 DebuggerNotificationObserver
 DOMPoint
 DOMQuad
@@ -1020,8 +1020,8 @@ StructuredCloneHolder
 TelemetryStopwatch
 WebExtensionPolicy
 WebSocket
-WindowGlobalParent
 WindowGlobalChild
+WindowGlobalParent
 }
 ;
 for
@@ -1185,7 +1185,7 @@ usecases
 access
 via
 the
-JSM
+ESM
 (
 this
 .
@@ -1286,7 +1286,7 @@ like
 that
 from
 a
-JSM
+ESM
 :
 /
 /
