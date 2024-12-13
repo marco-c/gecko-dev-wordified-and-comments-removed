@@ -2198,9 +2198,6 @@ scriptCounts_
 IonPerfSpewer
 perfSpewer_
 ;
-uint32_t
-zoneStubsToReadBarrier_
-;
 mozilla
 :
 :

@@ -358,13 +358,6 @@ Zone
 zone
 )
 ;
-const
-JitZone
-*
-jitZone
-(
-)
-;
 CompileRuntime
 *
 runtime
