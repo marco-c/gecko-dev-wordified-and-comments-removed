@@ -129,8 +129,8 @@ name
 mozac_lib_crash_dialog_checkbox
 "
 >
-Signala
-scrasciu
+Signalija
+scasciu
 a
 %
 1
@@ -265,7 +265,7 @@ name
 mozac_lib_crash_channel
 "
 >
-Scrasci
+Scasci
 <
 /
 string
@@ -419,7 +419,7 @@ mozac_lib_send_crash_report_in_progress
 Staju
 mannannu
 a
-signalazzioni
+signalijazzioni
 a
 %
 1
@@ -463,7 +463,7 @@ ricugghiennu
 i
 dati
 d
-scrasciu
+scasciu
 <
 /
 string
@@ -505,7 +505,7 @@ d
 tilimitr
 a
 d
-scrasciu
+scasciu
 <
 /
 string
@@ -545,7 +545,7 @@ mozac_lib_crash_activity_title
 >
 Signalijazzioni
 di
-scrasciu
+scasciu
 <
 /
 string
@@ -585,7 +585,7 @@ nu
 a
 signalijazzioni
 di
-scrasciu
+scasciu
 .
 <
 /
