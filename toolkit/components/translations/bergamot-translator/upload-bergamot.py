@@ -214,9 +214,9 @@ yaml
 REMOTE_SETTINGS_VERSION
 =
 "
-1
+2
 .
-1
+0
 "
 COLLECTION_NAME
 =
