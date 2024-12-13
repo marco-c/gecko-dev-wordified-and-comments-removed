@@ -5055,6 +5055,9 @@ st_size
 0
 :
         
+import
+ssl
+        
 from
 urllib
 .
@@ -5121,6 +5124,21 @@ as
 fh
 :
             
+context
+=
+ssl
+.
+create_default_context
+(
+cafile
+=
+certifi
+.
+where
+(
+)
+)
+            
 shutil
 .
 copyfileobj
@@ -5128,7 +5146,6 @@ copyfileobj
                 
 urlopen
 (
-                    
 f
 "
 {
@@ -5143,14 +5160,9 @@ download
 .
 py
 "
-cafile
+context
 =
-certifi
-.
-where
-(
-)
-                
+context
 )
                 
 fh
