@@ -925,13 +925,6 @@ aExternalImage
 )
 override
 ;
-GpuFence
-*
-GetGpuFence
-(
-)
-override
-;
 void
 SetRootWindowIsFullscreen
 (
