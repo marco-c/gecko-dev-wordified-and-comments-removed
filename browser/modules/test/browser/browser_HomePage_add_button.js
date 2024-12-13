@@ -703,9 +703,9 @@ position
 !
 sidebarRevampEnabled
 ?
-5
-:
 6
+:
+7
 "
 There
 '
