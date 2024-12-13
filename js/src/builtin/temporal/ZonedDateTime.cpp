@@ -4426,7 +4426,7 @@ duration
 if
 (
 !
-ToTemporalDurationRecord
+ToTemporalDuration
 (
 cx
 args

@@ -884,7 +884,7 @@ duration
 )
 ;
 bool
-ToTemporalDurationRecord
+ToTemporalDuration
 (
 JSContext
 *
@@ -899,7 +899,7 @@ JS
 :
 Value
 >
-temporalDurationLike
+item
 Duration
 *
 result
