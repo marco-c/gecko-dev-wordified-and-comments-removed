@@ -90,7 +90,7 @@ i
 {
 url
 :
-http
+https
 :
 /
 /
@@ -544,7 +544,7 @@ _placesNode
 .
 uri
 "
-http
+https
 :
 /
 /
@@ -675,7 +675,7 @@ toolbarGuid
 url
 :
 "
-http
+https
 :
 /
 /
@@ -723,7 +723,7 @@ Map
 [
 [
 "
-http
+https
 :
 /
 /
@@ -977,7 +977,7 @@ toolbarGuid
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1181,7 +1181,7 @@ index
 _placesNode
 .
 uri
-http
+https
 :
 /
 /

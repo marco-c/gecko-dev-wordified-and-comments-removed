@@ -16,7 +16,7 @@ addVisits
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -36,7 +36,7 @@ TRANSITION_TYPED
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -56,7 +56,7 @@ TRANSITION_DOWNLOAD
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -78,7 +78,7 @@ TRANSITION_TYPED
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -161,7 +161,7 @@ testURIs
 =
 [
 "
-http
+https
 :
 /
 /
@@ -171,7 +171,7 @@ org
 /
 "
 "
-http
+https
 :
 /
 /

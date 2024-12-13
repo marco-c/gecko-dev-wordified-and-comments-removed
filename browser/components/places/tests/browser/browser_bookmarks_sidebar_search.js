@@ -19,7 +19,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -45,7 +45,7 @@ const
 TEST_SIF_URL
 =
 "
-http
+https
 :
 /
 /

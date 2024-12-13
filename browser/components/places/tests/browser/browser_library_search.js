@@ -2,7 +2,7 @@ const
 TEST_URL
 =
 "
-http
+https
 :
 /
 /
@@ -18,7 +18,7 @@ const
 TEST_DOWNLOAD_URL
 =
 "
-http
+https
 :
 /
 /
@@ -44,7 +44,7 @@ const
 TEST_SIF_URL
 =
 "
-http
+https
 :
 /
 /

@@ -40,7 +40,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /

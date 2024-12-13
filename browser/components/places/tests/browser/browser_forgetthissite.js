@@ -94,7 +94,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -112,7 +112,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -134,7 +134,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /

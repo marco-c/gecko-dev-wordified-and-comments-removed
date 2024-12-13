@@ -726,7 +726,7 @@ const
 uri
 =
 "
-http
+https
 :
 /
 /
@@ -803,7 +803,7 @@ bookmarkNode
 .
 uri
 "
-http
+https
 :
 /
 /

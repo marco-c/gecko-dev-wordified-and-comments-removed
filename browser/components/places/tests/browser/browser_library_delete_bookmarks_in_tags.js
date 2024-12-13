@@ -45,7 +45,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -63,7 +63,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -81,7 +81,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /

@@ -18,7 +18,7 @@ const
 TEST_EXAMPLE_URL
 =
 "
-http
+https
 :
 /
 /

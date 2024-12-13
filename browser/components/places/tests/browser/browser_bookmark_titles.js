@@ -6,7 +6,7 @@ tests
 url
 :
 "
-http
+https
 :
 /
 /
@@ -192,7 +192,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /

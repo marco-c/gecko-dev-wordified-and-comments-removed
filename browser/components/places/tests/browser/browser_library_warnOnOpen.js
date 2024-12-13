@@ -146,7 +146,7 @@ i
 }
 url
 :
-http
+https
 :
 /
 /
@@ -412,7 +412,7 @@ i
 }
 url
 :
-http
+https
 :
 /
 /

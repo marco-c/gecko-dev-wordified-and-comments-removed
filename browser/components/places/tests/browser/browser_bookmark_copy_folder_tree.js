@@ -212,7 +212,7 @@ firstBM
 url
 :
 "
-http
+https
 :
 /
 /
@@ -232,7 +232,7 @@ secondBM
 url
 :
 "
-http
+https
 :
 /
 /
@@ -252,7 +252,7 @@ thirdBM
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1467,7 +1467,7 @@ nFolderA
 \
 nsubFolderA
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1477,7 +1477,7 @@ com
 /
 1
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1487,7 +1487,7 @@ com
 /
 2
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1501,7 +1501,7 @@ nFolderA
 \
 nsubFolderA
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1511,7 +1511,7 @@ com
 /
 1
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1521,7 +1521,7 @@ com
 /
 2
 \
-nhttp
+nhttps
 :
 /
 /
@@ -1623,7 +1623,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /
@@ -1657,7 +1657,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /
@@ -1691,7 +1691,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /
@@ -1785,7 +1785,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /
@@ -1819,7 +1819,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /
@@ -1853,7 +1853,7 @@ A
 HREF
 =
 "
-http
+https
 :
 /
 /

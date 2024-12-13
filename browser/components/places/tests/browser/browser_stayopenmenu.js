@@ -398,7 +398,7 @@ menuGuid
 url
 :
 "
-http
+https
 :
 /
 /
@@ -467,7 +467,7 @@ guid
 url
 :
 "
-http
+https
 :
 /
 /

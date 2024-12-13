@@ -170,7 +170,7 @@ assign
 url
 :
 "
-http
+https
 :
 /
 /

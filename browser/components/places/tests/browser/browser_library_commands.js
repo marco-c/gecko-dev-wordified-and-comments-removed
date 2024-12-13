@@ -6,7 +6,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -1000,7 +1000,7 @@ TYPE_BOOKMARK
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1168,7 +1168,7 @@ bookmarkNode
 .
 uri
 "
-http
+https
 :
 /
 /
@@ -1298,7 +1298,7 @@ TYPE_BOOKMARK
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1337,7 +1337,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -1666,7 +1666,7 @@ bookmarkNode
 .
 uri
 "
-http
+https
 :
 /
 /

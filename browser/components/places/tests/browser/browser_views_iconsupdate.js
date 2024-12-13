@@ -13,7 +13,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /

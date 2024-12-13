@@ -28,7 +28,7 @@ menuGuid
 url
 :
 "
-http
+https
 :
 /
 /
