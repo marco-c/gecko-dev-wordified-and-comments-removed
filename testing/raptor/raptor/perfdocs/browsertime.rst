@@ -1784,9 +1784,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 -
 q
 "
@@ -1822,9 +1820,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 -
 q
 "

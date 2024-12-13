@@ -1007,9 +1007,7 @@ single
 run
 -
 -
-show
--
-all
+full
 -
 -
 artifact

@@ -97,9 +97,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 -
 q
 "
@@ -127,9 +125,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 -
 q
 "
@@ -157,9 +153,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 -
 q
 "
@@ -198,9 +192,7 @@ chrome
 safari
 -
 -
-show
--
-all
+full
 -
 q
 '
@@ -227,9 +219,7 @@ try
 perf
 -
 -
-show
--
-all
+full
 *
 Filter
 out
