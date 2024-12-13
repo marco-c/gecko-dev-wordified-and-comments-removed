@@ -197,13 +197,13 @@ annotation
 .
 LightDarkPreview
 import
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 button
 .
