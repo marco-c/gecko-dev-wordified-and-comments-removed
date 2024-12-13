@@ -2104,9 +2104,6 @@ js
 :
 :
 Int32ToStringWithBase
-<
-CanGC
->
 )
 \
 _
