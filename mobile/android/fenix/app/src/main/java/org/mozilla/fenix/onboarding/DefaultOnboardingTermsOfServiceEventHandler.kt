@@ -129,6 +129,15 @@ String
 -
 >
 Unit
+private
+val
+showManagePrivacyPreferencesDialog
+:
+(
+)
+-
+>
+Unit
 )
 :
 OnboardingTermsOfServiceEventHandler
@@ -216,6 +225,9 @@ onManagePrivacyPreferencesLinkClicked
 telemetryRecorder
 .
 onTermsOfServiceManagePrivacyPreferencesLinkClick
+(
+)
+showManagePrivacyPreferencesDialog
 (
 )
 }
