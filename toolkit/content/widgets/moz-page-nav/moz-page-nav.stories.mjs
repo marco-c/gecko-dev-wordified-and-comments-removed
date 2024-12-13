@@ -358,15 +358,6 @@ nav
 -
 heading
 "
-data
--
-l10n
--
-attrs
-=
-"
-heading
-"
 >
 <
 moz

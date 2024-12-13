@@ -258,6 +258,9 @@ heading
 type
 :
 String
+fluent
+:
+true
 }
 }
 ;
