@@ -692,6 +692,11 @@ dxva2
 c
 '
 '
+dxva2_av1
+.
+c
+'
+'
 dxva2_vp9
 .
 c
