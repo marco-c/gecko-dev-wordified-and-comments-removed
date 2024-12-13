@@ -18279,15 +18279,6 @@ instead
 if
 (
 !
-(
-Array
-.
-isArray
-(
-savedPlacements
-)
-&
-&
 savedPlacements
 .
 includes
@@ -18297,7 +18288,6 @@ tabbrowser
 -
 tabs
 "
-)
 )
 )
 {
@@ -25505,6 +25495,8 @@ savedPlacements
 if
 (
 savedPlacements
+.
+length
 )
 {
 /
