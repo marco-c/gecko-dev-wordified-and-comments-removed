@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-8
+16
 )
 ;
 Services
