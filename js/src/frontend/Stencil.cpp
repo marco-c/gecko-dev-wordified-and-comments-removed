@@ -31361,6 +31361,9 @@ JS
 :
 StencilIsBorrowed
 (
+JS
+:
+:
 Stencil
 *
 stencil

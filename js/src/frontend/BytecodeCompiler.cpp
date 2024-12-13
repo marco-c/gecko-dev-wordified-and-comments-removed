@@ -2311,10 +2311,7 @@ options
 ;
 RefPtr
 <
-JS
-:
-:
-Stencil
+CompilationStencil
 >
 stencil
 =
@@ -2518,10 +2515,7 @@ options
 ;
 RefPtr
 <
-JS
-:
-:
-Stencil
+CompilationStencil
 >
 stencil
 =
@@ -6676,10 +6670,7 @@ options
 ;
 RefPtr
 <
-JS
-:
-:
-Stencil
+CompilationStencil
 >
 stencil
 =
@@ -6884,10 +6875,7 @@ BackgroundMallocArena
 ;
 RefPtr
 <
-JS
-:
-:
-Stencil
+CompilationStencil
 >
 stencil
 =
