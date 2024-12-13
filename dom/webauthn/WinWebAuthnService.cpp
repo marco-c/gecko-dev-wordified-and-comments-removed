@@ -1648,7 +1648,7 @@ TRUE
 ;
 winPreferResidentKey
 =
-TRUE
+FALSE
 ;
 }
 else
