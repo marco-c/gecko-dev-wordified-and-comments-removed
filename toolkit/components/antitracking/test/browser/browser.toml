@@ -1055,13 +1055,6 @@ sjs
 ]
 [
 "
-browser_sameSiteTrackerBlocking
-.
-js
-"
-]
-[
-"
 browser_script
 .
 js
