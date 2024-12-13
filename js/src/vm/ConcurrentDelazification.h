@@ -401,13 +401,12 @@ JS
 ReadOnlyCompileOptions
 &
 options
-const
 frontend
 :
 :
-CompilationStencil
-&
-stencil
+InitialStencilAndDelazifications
+*
+stencils
 )
 ;
 bool
