@@ -2610,7 +2610,7 @@ image
 :
 apple_vision_user
 .
-webp
+jpg
 :
 width
 :
