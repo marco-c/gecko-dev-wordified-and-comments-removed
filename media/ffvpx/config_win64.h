@@ -2699,7 +2699,7 @@ CONFIG_CBS
 #
 define
 CONFIG_CBS_AV1
-0
+1
 #
 define
 CONFIG_CBS_H264
