@@ -638,6 +638,13 @@ js
 ]
 [
 "
+browser_action_tabgroups
+.
+js
+"
+]
+[
+"
 browser_add_search_engine
 .
 js
