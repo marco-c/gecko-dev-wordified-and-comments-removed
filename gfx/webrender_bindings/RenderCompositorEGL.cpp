@@ -1028,7 +1028,10 @@ ifdef
 MOZ_WIDGET_GTK
 UniquePtr
 <
-MozContainerSurfaceLock
+widget
+:
+:
+WaylandSurfaceLock
 >
 lock
 ;
