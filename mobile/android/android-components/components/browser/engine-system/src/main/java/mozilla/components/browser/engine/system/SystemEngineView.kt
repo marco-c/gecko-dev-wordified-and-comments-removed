@@ -69,12 +69,6 @@ system
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 app
 .
 Activity
@@ -324,6 +318,12 @@ android
 widget
 .
 FrameLayout
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 androidx
 .
@@ -2087,7 +2087,7 @@ uri
 }
 }
 }
-TargetApi
+RequiresApi
 (
 Build
 .
@@ -4301,7 +4301,7 @@ onFinish
 outBitmap
 )
 }
-TargetApi
+RequiresApi
 (
 Build
 .

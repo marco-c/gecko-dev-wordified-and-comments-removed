@@ -67,12 +67,6 @@ dataprotect
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 content
 .
 Context
@@ -112,6 +106,12 @@ android
 util
 .
 Base64
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 mozilla
 .
@@ -1041,7 +1041,7 @@ values
 .
 *
 /
-TargetApi
+RequiresApi
 (
 M
 )

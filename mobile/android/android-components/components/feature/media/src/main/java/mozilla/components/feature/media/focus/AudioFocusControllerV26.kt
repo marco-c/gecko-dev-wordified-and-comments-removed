@@ -69,12 +69,6 @@ focus
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 media
 .
 AudioAttributes
@@ -96,6 +90,12 @@ android
 os
 .
 Build
+import
+androidx
+.
+annotation
+.
+RequiresApi
 /
 *
 *
@@ -112,7 +112,7 @@ API
 .
 *
 /
-TargetApi
+RequiresApi
 (
 Build
 .

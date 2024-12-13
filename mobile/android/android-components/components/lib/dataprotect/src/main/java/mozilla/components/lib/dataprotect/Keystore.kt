@@ -67,12 +67,6 @@ dataprotect
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 os
 .
 Build
@@ -96,6 +90,12 @@ security
 keystore
 .
 KeyProperties
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 mozilla
 .
@@ -180,7 +180,7 @@ val
 ENCRYPTED_VERSION
 =
 0x02
-TargetApi
+RequiresApi
 (
 M
 )
@@ -192,7 +192,7 @@ CIPHER_ALG
 KeyProperties
 .
 KEY_ALGORITHM_AES
-TargetApi
+RequiresApi
 (
 M
 )
@@ -204,7 +204,7 @@ CIPHER_MOD
 KeyProperties
 .
 BLOCK_MODE_GCM
-TargetApi
+RequiresApi
 (
 M
 )
@@ -228,6 +228,10 @@ val
 CIPHER_TAG_LEN
 =
 128
+RequiresApi
+(
+M
+)
 internal
 const
 val
@@ -269,7 +273,7 @@ instrumenting
 *
 *
 /
-TargetApi
+RequiresApi
 (
 M
 )
@@ -930,7 +934,7 @@ storage
 .
 *
 /
-TargetApi
+RequiresApi
 (
 M
 )

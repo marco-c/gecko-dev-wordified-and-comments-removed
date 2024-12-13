@@ -73,12 +73,6 @@ SuppressLint
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 app
 .
 DownloadManager
@@ -252,6 +246,12 @@ androidx
 annotation
 .
 GuardedBy
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 androidx
 .
@@ -5513,7 +5513,7 @@ status
 PAUSED
 )
 }
-TargetApi
+RequiresApi
 (
 Build
 .
@@ -5728,7 +5728,7 @@ resolver
 "
 )
 }
-TargetApi
+RequiresApi
 (
 Build
 .
@@ -6216,7 +6216,7 @@ packageName
 return
 newIntent
 }
-TargetApi
+RequiresApi
 (
 Build
 .
