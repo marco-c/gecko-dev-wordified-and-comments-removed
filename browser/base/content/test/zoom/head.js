@@ -678,6 +678,7 @@ gBrowser
 .
 goBack
 (
+false
 )
 ;
 }

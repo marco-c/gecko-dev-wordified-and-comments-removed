@@ -1106,6 +1106,7 @@ gBrowser
 .
 goBack
 (
+false
 )
 ;
 await
@@ -1281,6 +1282,7 @@ gBrowser
 .
 goBack
 (
+false
 )
 ;
 await
@@ -1353,6 +1355,7 @@ gBrowser
 .
 goForward
 (
+false
 )
 ;
 await

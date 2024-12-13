@@ -177,6 +177,8 @@ CanGo
 (
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 )
 ;
 MOZ_CAN_RUN_SCRIPT
