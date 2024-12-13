@@ -484,7 +484,7 @@ composite
 :
 :
 {
-Compositor2
+LayerCompositor
 CompositorInputConfig
 CompositorSurfaceUsage
 }
