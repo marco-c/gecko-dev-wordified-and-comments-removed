@@ -109,9 +109,7 @@ version
 "
 1
 .
-70
-.
-0
+71
 "
 name
 =
@@ -127,7 +125,7 @@ version
 .
 5
 .
-6
+8
 "
 build
 =
@@ -136,6 +134,9 @@ build
 .
 rs
 "
+autolib
+=
+false
 autobins
 =
 false
@@ -536,5 +537,11 @@ Win32_System_IO
 "
 "
 Win32_Networking_WinSock
+"
+"
+Win32_System_SystemInformation
+"
+"
+Win32_System_Threading
 "
 ]
