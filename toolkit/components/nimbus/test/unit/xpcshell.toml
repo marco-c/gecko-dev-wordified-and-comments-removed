@@ -184,15 +184,6 @@ test_TargetingContextRecorder
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-artifact
-"
-]
 [
 "
 test_localization
