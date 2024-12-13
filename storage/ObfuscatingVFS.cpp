@@ -1968,6 +1968,9 @@ sqlite3_file
 pFile
 )
 {
+int
+dc
+;
 pFile
 =
 ORIGFILE
@@ -1975,7 +1978,8 @@ ORIGFILE
 pFile
 )
 ;
-return
+dc
+=
 pFile
 -
 >
@@ -1986,6 +1990,12 @@ xDeviceCharacteristics
 (
 pFile
 )
+;
+return
+dc
+&
+~
+SQLITE_IOCAP_SUBPAGE_READ
 ;
 }
 static
