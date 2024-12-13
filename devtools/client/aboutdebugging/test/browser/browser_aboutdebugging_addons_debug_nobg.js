@@ -201,7 +201,12 @@ name
 is
 (
 targetName
-ADDON_NOBG_NAME
+"
+Web
+Extension
+Fallback
+Document
+"
 "
 Toolbox
 has

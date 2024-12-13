@@ -890,6 +890,16 @@ name
 targetFront
 .
 isTopLevel
+&
+&
+!
+targetFront
+.
+commands
+.
+descriptorFront
+.
+isWebExtension
 ?
 L10N
 .
