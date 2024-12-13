@@ -91,11 +91,13 @@ preview
 .
 Preview
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+compose
+.
+base
 .
 theme
 .
