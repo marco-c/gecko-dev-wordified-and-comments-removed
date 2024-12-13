@@ -30549,7 +30549,7 @@ s
 }
 static
 nscoord
-MinSize
+MinContribution
 (
 const
 GridItemInfo
@@ -31437,7 +31437,7 @@ else
 {
 s
 =
-MinSize
+MinContribution
 (
 aGridItem
 aState
@@ -36288,7 +36288,7 @@ eIntrinsicMinSizing
 {
 minSize
 =
-MinSize
+MinContribution
 (
 gridItem
 aState
