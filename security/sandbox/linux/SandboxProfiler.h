@@ -634,15 +634,11 @@ aSem
 ;
 static
 int
-TimedWait
+Wait
 (
 sem_t
 *
 aSem
-int
-aSec
-int
-aNSec
 )
 ;
 void
@@ -655,6 +651,9 @@ aThreadName
 SandboxProfilerQueue
 *
 aQueue
+sem_t
+*
+aRequest
 )
 ;
 void

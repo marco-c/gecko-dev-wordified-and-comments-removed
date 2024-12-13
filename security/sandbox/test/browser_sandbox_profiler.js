@@ -37,11 +37,6 @@ js
 this
 )
 ;
-requestLongerTimeout
-(
-2
-)
-;
 async
 function
 addTab
@@ -359,8 +354,8 @@ from
 {
 threadName
 }
-250
-75
+100
+25
 )
 ;
 Assert
