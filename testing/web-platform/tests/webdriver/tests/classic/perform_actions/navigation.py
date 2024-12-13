@@ -1,3 +1,11 @@
+import
+pytest
+import
+webdriver
+.
+error
+as
+error
 from
 tests
 .
@@ -208,6 +216,22 @@ script
 "
 )
     
+input
+=
+session
+.
+find
+.
+css
+(
+"
+input
+"
+all
+=
+False
+)
+    
 key_chain
 \
         
@@ -259,16 +283,20 @@ perform
 (
 )
     
-assert
-session
+with
+pytest
 .
-url
-=
-=
-inline
+raises
 (
-PAGE_CONTENT
+error
+.
+StaleElementReferenceException
 )
+:
+        
+input
+.
+rect
     
 events
 =
@@ -419,16 +447,20 @@ perform
 (
 )
     
-assert
-session
+with
+pytest
 .
-url
-=
-=
-inline
+raises
 (
-PAGE_CONTENT
+error
+.
+StaleElementReferenceException
 )
+:
+        
+input
+.
+rect
     
 events
 =

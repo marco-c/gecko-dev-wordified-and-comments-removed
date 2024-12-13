@@ -4166,8 +4166,9 @@ platform
 /
 debug
 :
-[
-]
+built
+-
+projects
 default
 :
 [
