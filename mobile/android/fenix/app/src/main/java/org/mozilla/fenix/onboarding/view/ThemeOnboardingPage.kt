@@ -281,14 +281,6 @@ androidx
 .
 compose
 .
-runtime
-.
-getValue
-import
-androidx
-.
-compose
-.
 ui
 .
 Alignment
@@ -562,7 +554,7 @@ Modifier
 .
 height
 (
-28
+18
 .
 dp
 )
@@ -586,7 +578,7 @@ Modifier
 .
 width
 (
-323
+263
 .
 dp
 )
@@ -597,7 +589,7 @@ Modifier
 .
 height
 (
-68
+52
 .
 dp
 )
@@ -669,7 +661,7 @@ Modifier
 .
 height
 (
-34
+32
 .
 dp
 )
@@ -724,7 +716,7 @@ Modifier
 .
 height
 (
-8
+16
 .
 dp
 )
