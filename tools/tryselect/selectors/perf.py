@@ -4489,6 +4489,7 @@ suite
                         
 +
 [
+                            
 PerfParser
 .
 platforms
@@ -4502,6 +4503,35 @@ value
 query
 "
 ]
+.
+get
+(
+                                
+suite
+                                
+PerfParser
+.
+platforms
+[
+platform
+.
+value
+]
+[
+"
+query
+"
+]
+[
+                                    
+"
+default
+"
+                                
+]
+                            
+)
+                        
 ]
                     
 )
