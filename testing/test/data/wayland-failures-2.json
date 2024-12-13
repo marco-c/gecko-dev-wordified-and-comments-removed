@@ -196,7 +196,7 @@ classification
 "
 :
 "
-secondary
+intermittent
 "
 "
 runs
@@ -214,7 +214,7 @@ X7r1q2xWSu
 result
 "
 :
-false
+true
 }
 "
 Y7r1q2xWSu
@@ -240,14 +240,14 @@ Z7r1q2xWSu
 result
 "
 :
-false
+true
 }
 }
 "
 runs_failed
 "
 :
-3
+1
 "
 runs_total
 "
@@ -266,7 +266,7 @@ disable_recommended
 :
 1
 "
-secondary
+intermittent
 "
 :
 1

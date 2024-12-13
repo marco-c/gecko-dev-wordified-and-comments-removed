@@ -116,7 +116,7 @@ classification
 "
 :
 "
-disable_recommended
+intermittent
 "
 "
 runs
@@ -132,7 +132,7 @@ Bgc6We1sSjakIo3V9crldw
 result
 "
 :
-false
+true
 }
 "
 EH0WPmGtQsGzu5K7OxFOyg
@@ -143,7 +143,7 @@ EH0WPmGtQsGzu5K7OxFOyg
 result
 "
 :
-false
+true
 }
 "
 bxDhZzsxQw65gn
@@ -163,7 +163,7 @@ false
 runs_failed
 "
 :
-3
+1
 "
 runs_total
 "
@@ -192,7 +192,7 @@ classification
 "
 :
 "
-secondary
+disable_recommended
 "
 "
 runs
@@ -258,7 +258,7 @@ disable_recommended
 :
 1
 "
-secondary
+intermittent
 "
 :
 1
