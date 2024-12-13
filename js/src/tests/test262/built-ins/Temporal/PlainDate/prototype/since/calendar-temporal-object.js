@@ -19,7 +19,6 @@ PlainDate
 2000
 5
 2
-temporalObject
 )
 ;
 date

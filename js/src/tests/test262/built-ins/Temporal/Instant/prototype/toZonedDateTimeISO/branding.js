@@ -27,15 +27,9 @@ args
 {
 timeZone
 :
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 }
 ]
 ;

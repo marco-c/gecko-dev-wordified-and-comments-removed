@@ -4,7 +4,6 @@ checkToTemporalPlainDateTimeFastPath
 (
 (
 date
-calendar
 )
 =
 >
@@ -51,10 +50,10 @@ sameValue
 (
 result
 .
-getCalendar
-(
-)
-calendar
+calendarId
+"
+iso8601
+"
 "
 calendar
 result

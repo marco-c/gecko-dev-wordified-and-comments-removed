@@ -1,35 +1,3 @@
-const
-cal1
-=
-"
-iso8601
-"
-;
-const
-cal2
-=
-new
-(
-class
-extends
-Temporal
-.
-Calendar
-{
-id
-=
-"
-custom
-"
-;
-}
-)
-(
-"
-iso8601
-"
-)
-;
 assert
 .
 sameValue
@@ -54,7 +22,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -70,7 +37,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -104,7 +70,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -120,7 +85,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -155,7 +119,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -171,7 +134,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -205,7 +167,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -221,7 +182,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -256,7 +216,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -272,7 +231,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -306,7 +264,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -322,7 +279,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -357,7 +313,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -373,7 +328,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -407,7 +361,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -423,7 +376,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -458,7 +410,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -474,7 +425,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -508,7 +458,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -524,7 +473,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -559,7 +507,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -575,7 +522,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -609,7 +555,6 @@ PlainDateTime
 222
 444
 6
-cal1
 )
 new
 Temporal
@@ -625,7 +570,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -660,7 +604,6 @@ PlainDateTime
 6
 777
 111
-cal1
 )
 new
 Temporal
@@ -676,7 +619,6 @@ PlainDateTime
 5
 777
 111
-cal2
 )
 )
 1
@@ -710,7 +652,6 @@ PlainDateTime
 3
 444
 6
-cal1
 )
 new
 Temporal
@@ -726,7 +667,6 @@ PlainDateTime
 4
 444
 6
-cal2
 )
 )
 -
@@ -761,7 +701,6 @@ PlainDateTime
 333
 6
 111
-cal1
 )
 new
 Temporal
@@ -777,7 +716,6 @@ PlainDateTime
 333
 5
 111
-cal2
 )
 )
 1
@@ -811,7 +749,6 @@ PlainDateTime
 222
 3
 6
-cal1
 )
 new
 Temporal
@@ -827,7 +764,6 @@ PlainDateTime
 222
 4
 6
-cal2
 )
 )
 -
@@ -862,7 +798,6 @@ PlainDateTime
 333
 777
 999
-cal1
 )
 new
 Temporal
@@ -878,7 +813,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 1
@@ -912,7 +846,6 @@ PlainDateTime
 222
 444
 0
-cal1
 )
 new
 Temporal
@@ -928,7 +861,6 @@ PlainDateTime
 222
 444
 6
-cal2
 )
 )
 -
@@ -963,7 +895,6 @@ PlainDateTime
 333
 777
 111
-cal1
 )
 new
 Temporal
@@ -979,7 +910,6 @@ PlainDateTime
 333
 777
 111
-cal2
 )
 )
 0
