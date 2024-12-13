@@ -1332,7 +1332,7 @@ R
 .
 string
 .
-onboarding_customize_toolbar_save_and_continue_button
+onboarding_save_and_start_button
 )
 onClick
 =
