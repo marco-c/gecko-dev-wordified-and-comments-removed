@@ -469,6 +469,13 @@ descriptorType
 DESCRIPTOR_TYPES
 .
 TAB
+descriptorName
+:
+"
+Usb
+debugging
+context
+"
 }
 toolbox
 :
@@ -498,6 +505,14 @@ descriptorType
 DESCRIPTOR_TYPES
 .
 TAB
+descriptorName
+:
+"
+This
+firefox
+first
+tab
+"
 }
 toolbox
 :
@@ -776,7 +791,7 @@ root
 "
 qa
 -
-target
+descriptor
 -
 title
 "
@@ -887,7 +902,7 @@ root
 "
 qa
 -
-target
+descriptor
 -
 title
 "
