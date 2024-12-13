@@ -153,11 +153,6 @@ toolchain
 tar
 .
 xz
-toolchain
--
-extract
-:
-false
 use
 -
 sccache
@@ -226,11 +221,6 @@ toolchain
 tar
 .
 xz
-toolchain
--
-extract
-:
-false
 use
 -
 sccache

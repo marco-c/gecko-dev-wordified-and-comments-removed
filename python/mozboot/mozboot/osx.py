@@ -1378,6 +1378,9 @@ install_toolchain_artifact
 sccache
 .
 RUSTC_DIST_TOOLCHAIN
+no_unpack
+=
+True
 )
         
 self
@@ -1387,6 +1390,9 @@ install_toolchain_artifact
 sccache
 .
 CLANG_DIST_TOOLCHAIN
+no_unpack
+=
+True
 )
     
 def
