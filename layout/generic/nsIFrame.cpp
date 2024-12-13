@@ -16870,6 +16870,14 @@ StylePositionProperty
 Fixed
 &
 &
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+&
+&
 (
 DisplayPortUtils
 :
