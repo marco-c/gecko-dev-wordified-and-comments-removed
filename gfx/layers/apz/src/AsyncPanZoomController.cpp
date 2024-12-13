@@ -24415,17 +24415,6 @@ GetTransformToAncestorScale
 ;
 mScrollMetadata
 .
-SetHasScrollgrab
-(
-aScrollMetadata
-.
-GetHasScrollgrab
-(
-)
-)
-;
-mScrollMetadata
-.
 SetLineScrollAmount
 (
 aScrollMetadata
