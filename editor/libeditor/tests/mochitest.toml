@@ -1418,6 +1418,13 @@ html
 ]
 [
 "
+test_bug1094000
+.
+html
+"
+]
+[
+"
 test_bug1102906
 .
 html
@@ -1673,6 +1680,13 @@ html
 [
 "
 test_bug1352799
+.
+html
+"
+]
+[
+"
+test_bug1355792
 .
 html
 "
