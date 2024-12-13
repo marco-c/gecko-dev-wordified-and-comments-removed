@@ -329,13 +329,6 @@ js
 ]
 [
 "
-browser_ads_exposure_telemetry
-.
-js
-"
-]
-[
-"
 browser_analysis_explainer
 .
 js
