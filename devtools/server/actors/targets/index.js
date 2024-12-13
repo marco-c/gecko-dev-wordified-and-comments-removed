@@ -32,6 +32,11 @@ SHARED_WORKER
 "
 shared_worker
 "
+CONTENT_SCRIPT
+:
+"
+content_script
+"
 }
 ;
 exports

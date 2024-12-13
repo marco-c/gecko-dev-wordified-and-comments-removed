@@ -1762,6 +1762,11 @@ instanceof
 Ci
 .
 nsIDOMWindow
+&
+&
+win
+.
+docShell
 )
 {
 const

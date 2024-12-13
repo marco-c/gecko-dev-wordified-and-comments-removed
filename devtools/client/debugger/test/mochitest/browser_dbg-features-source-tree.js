@@ -2714,7 +2714,7 @@ focused
 const
 contentScriptGroupItem
 =
-findSourceNodeWithText
+findSourceTreeGroupByName
 (
 dbg
 "

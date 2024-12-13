@@ -8,6 +8,13 @@ process
 js
 "
 "
+content
+-
+script
+.
+js
+"
+"
 parent
 -
 process

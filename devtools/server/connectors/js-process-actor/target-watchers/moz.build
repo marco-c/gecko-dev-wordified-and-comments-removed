@@ -1,6 +1,13 @@
 DevToolsModules
 (
 "
+content_script
+.
+sys
+.
+mjs
+"
+"
 process
 .
 sys
