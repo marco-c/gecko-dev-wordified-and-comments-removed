@@ -120,6 +120,13 @@ js
 ]
 [
 "
+browser_translations_about_preferences_settings_ui_tab
+.
+js
+"
+]
+[
+"
 browser_translations_e2e_full_page_translate
 .
 js
