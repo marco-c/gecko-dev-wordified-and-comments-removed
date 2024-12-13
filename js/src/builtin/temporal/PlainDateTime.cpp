@@ -3589,7 +3589,7 @@ days
 ;
 }
 return
-CreateNormalizedDurationRecord
+CombineDateAndNormalizedTimeDuration
 (
 cx
 dateDifference
@@ -4811,7 +4811,7 @@ negate
 auto
 normalized
 =
-CreateNormalizedDurationRecord
+NormalizeDuration
 (
 duration
 )

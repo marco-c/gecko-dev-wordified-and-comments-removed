@@ -17426,7 +17426,7 @@ duration
 auto
 normalized
 =
-CreateNormalizedDurationRecord
+NormalizeDuration
 (
 duration
 )
