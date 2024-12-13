@@ -593,6 +593,11 @@ pocketSponsoredStories
 emptyList
 (
 )
+contentRecommendations
+=
+emptyList
+(
+)
 )
 }
 is
