@@ -2121,7 +2121,7 @@ eraYear
 if
 (
 !
-ToPositiveIntegerWithTruncation
+ToIntegerWithTruncation
 (
 cx
 value
