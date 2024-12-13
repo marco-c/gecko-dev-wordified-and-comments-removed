@@ -69,7 +69,7 @@ kInternalRegExpFallbackToExperimental
 }
 ;
 static
-Result
+int
 MatchForCallFromRuntime
 (
 Isolate
@@ -95,7 +95,7 @@ start_position
 )
 ;
 static
-Result
+int
 MatchForCallFromJs
 (
 Address
@@ -134,11 +134,13 @@ Tagged
 <
 TrustedByteArray
 >
+*
 code_array
 Tagged
 <
 String
 >
+*
 subject_string
 int
 *
@@ -161,7 +163,7 @@ backtrack_limit
 private
 :
 static
-Result
+int
 Match
 (
 Isolate
