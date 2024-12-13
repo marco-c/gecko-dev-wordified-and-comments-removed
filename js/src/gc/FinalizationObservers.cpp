@@ -1505,6 +1505,9 @@ FinalizationRecordObject
 record
 )
 {
+AutoTouchingGrayThings
+atgt
+;
 if
 (
 record
