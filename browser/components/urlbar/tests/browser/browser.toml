@@ -2051,6 +2051,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_opensearchInstall
+.
+js
+"
+]
+[
+"
 browser_searchMode_alias_replacement
 .
 js
