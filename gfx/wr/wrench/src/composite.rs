@@ -33,7 +33,7 @@ webrender
 :
 :
 {
-LayerCompositor
+Compositor2
 CompositorInputConfig
 }
 ;
@@ -471,7 +471,7 @@ compositor
 }
 }
 impl
-LayerCompositor
+Compositor2
 for
 WrCompositor
 {
