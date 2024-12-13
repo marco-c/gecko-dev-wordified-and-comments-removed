@@ -99,6 +99,14 @@ coroutines
 .
 flow
 .
+collect
+import
+kotlinx
+.
+coroutines
+.
+flow
+.
 map
 import
 mozilla

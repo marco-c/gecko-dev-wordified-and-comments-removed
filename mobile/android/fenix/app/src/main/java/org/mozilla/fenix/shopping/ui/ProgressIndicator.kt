@@ -255,13 +255,13 @@ unit
 .
 dp
 import
+org
+.
 mozilla
 .
-components
+fenix
 .
 compose
-.
-base
 .
 annotation
 .

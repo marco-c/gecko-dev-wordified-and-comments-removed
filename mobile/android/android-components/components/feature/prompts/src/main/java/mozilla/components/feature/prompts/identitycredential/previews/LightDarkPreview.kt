@@ -61,11 +61,13 @@ mozilla
 .
 components
 .
-compose
+feature
 .
-base
+prompts
 .
-annotation
+identitycredential
+.
+previews
 import
 android
 .

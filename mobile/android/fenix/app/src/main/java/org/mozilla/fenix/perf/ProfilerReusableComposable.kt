@@ -263,13 +263,13 @@ unit
 .
 sp
 import
+org
+.
 mozilla
 .
-components
+fenix
 .
 compose
-.
-base
 .
 annotation
 .

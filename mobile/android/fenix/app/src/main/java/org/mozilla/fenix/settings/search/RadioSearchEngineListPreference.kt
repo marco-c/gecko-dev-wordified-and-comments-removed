@@ -335,6 +335,16 @@ fenix
 .
 ext
 .
+settings
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 telemetryName
 import
 org
