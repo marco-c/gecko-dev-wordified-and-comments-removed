@@ -812,6 +812,11 @@ chat
 .
 html
 "
+keyId
+:
+"
+viewGenaiChatSidebarKb
+"
 menuId
 :
 "
