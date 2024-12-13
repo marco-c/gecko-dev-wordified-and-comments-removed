@@ -15459,7 +15459,12 @@ CompilationStencil
 prepareForInstantiate
 (
 fc
+*
 stencil
+.
+getInitial
+(
+)
 *
 storage
 .
@@ -31371,6 +31376,11 @@ stencil
 {
 return
 stencil
+-
+>
+getInitial
+(
+)
 -
 >
 storageType

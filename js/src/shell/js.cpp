@@ -15453,8 +15453,11 @@ js
 ValidateLazinessOfStencilAndGlobal
 (
 cx
-*
 stencil
+.
+get
+(
+)
 )
 )
 {
@@ -30802,6 +30805,11 @@ stencil
 )
 -
 >
+getInitial
+(
+)
+-
+>
 isModule
 (
 )
@@ -30922,7 +30930,6 @@ js
 ValidateLazinessOfStencilAndGlobal
 (
 cx
-*
 stencilObj
 -
 >
@@ -31367,6 +31374,11 @@ if
 stencil
 -
 >
+getInitial
+(
+)
+-
+>
 isModule
 (
 )
@@ -31397,8 +31409,11 @@ js
 ValidateLazinessOfStencilAndGlobal
 (
 cx
-*
 stencil
+.
+get
+(
+)
 )
 )
 {

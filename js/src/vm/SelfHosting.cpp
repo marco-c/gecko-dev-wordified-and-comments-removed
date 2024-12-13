@@ -373,6 +373,15 @@ h
 #
 include
 "
+frontend
+/
+StencilXdr
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations
@@ -16670,7 +16679,7 @@ JS
 TranscodeResult
 result
 =
-JS
+js
 :
 :
 DecodeStencil
@@ -16951,7 +16960,7 @@ JS
 TranscodeResult
 result
 =
-JS
+js
 :
 :
 EncodeStencil

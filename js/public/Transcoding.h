@@ -52,7 +52,7 @@ js
 frontend
 {
 struct
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 }
 namespace
@@ -67,7 +67,7 @@ js
 frontend
 :
 :
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 class
 JS_PUBLIC_API

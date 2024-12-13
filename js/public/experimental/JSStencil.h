@@ -110,6 +110,9 @@ CompilationInput
 struct
 PreallocatedCompilationGCOutput
 ;
+struct
+InitialStencilAndDelazifications
+;
 }
 }
 namespace
@@ -124,7 +127,7 @@ js
 frontend
 :
 :
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 using
 FrontendContext
