@@ -760,12 +760,13 @@ TODO
 :
 Undefine
 __wasm_nontrapping_fptoint__
-and
 __wasm_bulk_memory__
-that
-are
+and
 +
 #
+__wasm_bulk_memory_opt__
+that
+are
 new
 to
 clang
@@ -815,7 +816,7 @@ SYSROOT_INC
 6
 +
 700
-10
+11
 check
 -
 symbols
@@ -863,6 +864,10 @@ TARGET_TRIPLE
 U__wasm_bulk_memory__
 )
 \
++
+-
+U__wasm_bulk_memory_opt__
+\
 -
 U__GNUC__
 \
@@ -876,7 +881,7 @@ U__GNUC_PATCHLEVEL__
 702
 6
 +
-716
+717
 12
 check
 -
