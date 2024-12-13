@@ -7210,7 +7210,9 @@ spinEventLoopUntil
 "
 DevToolsStartup
 .
-jsm
+sys
+.
+mjs
 :
 handleDebuggerFlag
 "
