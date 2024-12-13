@@ -721,6 +721,11 @@ action
 scope
 .
 launch
+(
+Dispatchers
+.
+Main
+)
 {
 when
 (
