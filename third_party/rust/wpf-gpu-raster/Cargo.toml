@@ -143,6 +143,9 @@ README
 md
 "
 ]
+autolib
+=
+false
 autobins
 =
 false

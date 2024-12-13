@@ -133,6 +133,9 @@ fi
 build
 =
 false
+autolib
+=
+false
 autobins
 =
 false

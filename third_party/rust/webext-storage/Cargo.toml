@@ -145,6 +145,9 @@ exclude
 android
 "
 ]
+autolib
+=
+false
 autobins
 =
 false

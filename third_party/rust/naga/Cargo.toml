@@ -175,6 +175,9 @@ target
 *
 "
 ]
+autolib
+=
+false
 autobins
 =
 false

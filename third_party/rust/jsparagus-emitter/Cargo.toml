@@ -134,6 +134,9 @@ com
 build
 =
 false
+autolib
+=
+false
 autobins
 =
 false

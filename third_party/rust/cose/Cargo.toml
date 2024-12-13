@@ -142,6 +142,9 @@ build
 .
 rs
 "
+autolib
+=
+false
 autobins
 =
 false

@@ -151,6 +151,9 @@ android
 ios
 "
 ]
+autolib
+=
+false
 autobins
 =
 false

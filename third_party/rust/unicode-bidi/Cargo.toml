@@ -176,6 +176,9 @@ tools
 *
 "
 ]
+autolib
+=
+false
 autobins
 =
 false

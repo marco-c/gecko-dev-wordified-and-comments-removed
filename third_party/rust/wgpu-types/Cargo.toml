@@ -140,6 +140,9 @@ developers
 build
 =
 false
+autolib
+=
+false
 autobins
 =
 false

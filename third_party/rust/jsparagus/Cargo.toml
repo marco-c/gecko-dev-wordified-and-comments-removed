@@ -132,6 +132,9 @@ false
 publish
 =
 false
+autolib
+=
+false
 autobins
 =
 false

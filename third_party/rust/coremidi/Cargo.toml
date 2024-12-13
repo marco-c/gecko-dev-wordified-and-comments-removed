@@ -129,6 +129,9 @@ Llamas
 build
 =
 false
+autolib
+=
+false
 autobins
 =
 false

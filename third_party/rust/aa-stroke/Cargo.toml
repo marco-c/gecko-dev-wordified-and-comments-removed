@@ -121,6 +121,9 @@ version
 build
 =
 false
+autolib
+=
+false
 autobins
 =
 false
