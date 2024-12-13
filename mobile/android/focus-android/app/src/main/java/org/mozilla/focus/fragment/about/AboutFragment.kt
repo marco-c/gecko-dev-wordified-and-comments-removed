@@ -187,6 +187,18 @@ compose
 .
 foundation
 .
+text
+.
+selection
+.
+SelectionContainer
+import
+androidx
+.
+compose
+.
+foundation
+.
 verticalScroll
 import
 androidx
@@ -1080,6 +1092,8 @@ aboutVersion
 String
 )
 {
+SelectionContainer
+{
 Text
 (
 text
@@ -1129,6 +1143,7 @@ padding
 dp
 )
 )
+}
 }
 Composable
 private
