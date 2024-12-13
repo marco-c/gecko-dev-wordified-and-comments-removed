@@ -3212,13 +3212,6 @@ js
 ]
 [
 "
-test_ip_space_glean
-.
-js
-"
-]
-[
-"
 test_h2proxy_connection_limit
 .
 js
