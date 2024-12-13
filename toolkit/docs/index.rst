@@ -202,3 +202,8 @@ components
 translations
 /
 index
+components
+/
+sessionstore
+/
+index
