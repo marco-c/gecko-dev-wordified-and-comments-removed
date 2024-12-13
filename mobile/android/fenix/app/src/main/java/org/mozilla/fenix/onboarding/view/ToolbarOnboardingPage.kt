@@ -751,13 +751,16 @@ Arrangement
 Center
 )
 {
+toolbarOptions
+?
+.
+let
+{
 ToolbarOptions
 (
 options
 =
-toolbarOptions
-!
-!
+it
 selectedOption
 =
 state
@@ -767,6 +770,7 @@ onClick
 =
 onToolbarSelectionClicked
 )
+}
 }
 }
 Column
