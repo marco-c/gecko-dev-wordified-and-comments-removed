@@ -939,12 +939,6 @@ StaticPrefs
 gfx_webrender_enable_subpixel_aa_AtStartup
 (
 )
-StaticPrefs
-:
-:
-gfx_webrender_layer_compositor_AtStartup
-(
-)
 )
 )
 {
