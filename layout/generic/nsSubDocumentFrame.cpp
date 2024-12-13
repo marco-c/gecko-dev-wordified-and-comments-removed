@@ -6286,6 +6286,16 @@ if
 aBuilder
 -
 >
+BuildCompositorHitTestInfo
+(
+)
+)
+{
+if
+(
+aBuilder
+-
+>
 IsInsidePointerEventsNoneDoc
 (
 )
@@ -6333,6 +6343,7 @@ EventRegionsOverride
 :
 ForceDispatchToContent
 ;
+}
 }
 mPaintData
 =
