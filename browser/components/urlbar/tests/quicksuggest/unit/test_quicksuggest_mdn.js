@@ -361,7 +361,7 @@ false
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -553,7 +553,7 @@ suggestion
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -706,7 +706,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -959,7 +959,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

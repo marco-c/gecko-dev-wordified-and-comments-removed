@@ -150,7 +150,7 @@ true
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -410,7 +410,7 @@ loaded
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1030,7 +1030,7 @@ window
 ;
 }
 }
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1068,7 +1068,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1651,7 +1651,7 @@ clear
 )
 ;
 }
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1769,7 +1769,7 @@ expected
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

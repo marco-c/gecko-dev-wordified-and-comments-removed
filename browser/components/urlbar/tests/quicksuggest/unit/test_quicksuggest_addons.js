@@ -628,7 +628,7 @@ amo
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -767,7 +767,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -903,7 +903,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1119,7 +1119,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1262,7 +1262,7 @@ false
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -2221,7 +2221,7 @@ merino
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

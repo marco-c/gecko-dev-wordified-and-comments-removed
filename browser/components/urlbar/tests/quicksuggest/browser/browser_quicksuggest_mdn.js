@@ -129,7 +129,7 @@ REMOTE_SETTINGS_DATA
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -321,7 +321,7 @@ clear
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -418,7 +418,7 @@ window
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -522,7 +522,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -608,7 +608,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -683,7 +683,7 @@ clear
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

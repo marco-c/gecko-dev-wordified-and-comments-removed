@@ -143,7 +143,7 @@ request_id
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

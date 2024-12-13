@@ -255,7 +255,7 @@ REMOTE_SETTINGS_RESULTS
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -298,7 +298,7 @@ resultIndex
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -894,7 +894,7 @@ clear
 )
 ;
 }
-add_tasks_with_rust
+add_task
 (
 async
 function

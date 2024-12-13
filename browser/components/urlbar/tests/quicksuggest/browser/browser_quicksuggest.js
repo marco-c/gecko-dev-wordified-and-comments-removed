@@ -236,7 +236,7 @@ false
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -386,7 +386,7 @@ window
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -449,7 +449,7 @@ window
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -689,7 +689,7 @@ cleanUpNimbus
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -851,7 +851,7 @@ cleanUpNimbus
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1065,7 +1065,7 @@ cleanUpNimbus
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1269,7 +1269,7 @@ cleanUpNimbus
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1295,7 +1295,7 @@ index
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1321,7 +1321,7 @@ index
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1395,7 +1395,7 @@ popPrefEnv
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function

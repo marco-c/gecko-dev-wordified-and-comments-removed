@@ -138,7 +138,7 @@ REMOTE_SETTINGS_RESULT
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -488,7 +488,7 @@ popPrefEnv
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
