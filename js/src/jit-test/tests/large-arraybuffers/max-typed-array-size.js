@@ -12,7 +12,7 @@ js
 const
 maxByteLength
 =
-16
+8
 *
 1024
 *

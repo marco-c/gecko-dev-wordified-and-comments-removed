@@ -20,7 +20,7 @@ bytes
 "
 autoAllocateChunkSize
 :
-20
+10
 *
 1024
 *

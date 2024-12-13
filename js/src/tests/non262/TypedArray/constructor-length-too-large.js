@@ -9,9 +9,9 @@ INT32_MAX
 1
 ;
 const
-SIXTEENGB
+EIGHTGB
 =
-16
+8
 *
 1024
 *
@@ -34,7 +34,7 @@ largeArrayBufferSupported
 {
 return
 (
-SIXTEENGB
+EIGHTGB
 /
 elementSize
 )

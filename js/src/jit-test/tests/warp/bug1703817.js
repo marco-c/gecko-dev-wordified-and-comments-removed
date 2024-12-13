@@ -6,7 +6,7 @@ foo
 new
 Float64Array
 (
-0x80000001
+0x40000001
 )
 (
 )
