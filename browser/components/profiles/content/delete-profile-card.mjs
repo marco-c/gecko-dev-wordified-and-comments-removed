@@ -654,7 +654,7 @@ content
 div
 >
 <
-h1
+h2
 data
 -
 l10n
@@ -697,7 +697,7 @@ name
 >
 <
 /
-h1
+h2
 >
 <
 p
