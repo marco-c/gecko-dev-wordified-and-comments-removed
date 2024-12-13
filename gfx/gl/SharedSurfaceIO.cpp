@@ -533,6 +533,14 @@ mIOSurf
 GetYUVColorSpace
 (
 )
+(
+layers
+:
+:
+GpuFence
+*
+)
+nullptr
 )
 )
 ;

@@ -843,6 +843,11 @@ Effects
 h
 "
 "
+GpuFence
+.
+h
+"
+"
 ImageDataSerializer
 .
 h
@@ -1572,6 +1577,11 @@ layers
 =
 [
 "
+GpuFenceMTLSharedEvent
+.
+h
+"
+"
 NativeLayerCA
 .
 h
@@ -1616,6 +1626,11 @@ SOURCES
 +
 =
 [
+"
+GpuFenceMTLSharedEvent
+.
+cpp
+"
 "
 MacIOSurfaceHelpers
 .

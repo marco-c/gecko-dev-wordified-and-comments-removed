@@ -9440,11 +9440,7 @@ ExternalTexture
 :
 Create
 (
-mContext
-.
-get
-(
-)
+this
 aDeviceId
 aWidth
 aHeight
