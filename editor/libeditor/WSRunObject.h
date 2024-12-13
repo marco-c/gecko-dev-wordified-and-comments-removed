@@ -6250,7 +6250,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
-EditActionResult
+MoveNodeResult
 nsresult
 >
 MergeFirstLineOfRightBlockElementIntoDescendantLeftBlockElement
@@ -6295,7 +6295,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
-EditActionResult
+MoveNodeResult
 nsresult
 >
 MergeFirstLineOfRightBlockElementIntoAncestorLeftBlockElement
@@ -6343,7 +6343,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
-EditActionResult
+MoveNodeResult
 nsresult
 >
 MergeFirstLineOfRightBlockElementIntoLeftBlockElement

@@ -615,6 +615,10 @@ mHandledCaretPoint
 =
 false
 ;
+friend
+class
+AutoTrackDOMPoint
+;
 }
 ;
 class
