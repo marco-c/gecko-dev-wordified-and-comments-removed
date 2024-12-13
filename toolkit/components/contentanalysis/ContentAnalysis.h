@@ -382,6 +382,9 @@ delete
 AnalysisType
 mAnalysisType
 ;
+Reason
+mReason
+;
 nsString
 mTextContent
 ;
