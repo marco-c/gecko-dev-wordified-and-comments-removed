@@ -9138,7 +9138,7 @@ false
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone

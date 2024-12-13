@@ -11456,7 +11456,7 @@ startDateTime
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
@@ -11496,7 +11496,7 @@ endDateTime
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
@@ -12097,7 +12097,7 @@ startEpochNs
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
@@ -12121,7 +12121,7 @@ endEpochNs
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
@@ -13114,7 +13114,7 @@ else
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
