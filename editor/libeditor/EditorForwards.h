@@ -264,6 +264,9 @@ class
 DeleteNodeTransaction
 ;
 class
+DeleteRangeResult
+;
+class
 DeleteRangeTransaction
 ;
 class
