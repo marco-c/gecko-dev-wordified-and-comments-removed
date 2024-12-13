@@ -218,15 +218,6 @@ helper_fission_checkerboard_severity
 html
 "
 }
-{
-file
-:
-"
-helper_fission_inactivescroller_positionedcontent
-.
-html
-"
-}
 ]
 ;
 requestLongerTimeout
