@@ -33886,7 +33886,7 @@ ml
 .
 defaultModelMemoryUsage
 "
-2
+1
 )
 ;
 pref
@@ -33898,7 +33898,7 @@ ml
 .
 checkForMemory
 "
-false
+true
 )
 ;
 pref
