@@ -1041,7 +1041,7 @@ value
 ;
 }
 function
-assert_element_accepts_non_trusted_type_set_ns
+assert_element_accepts_value_set_ns
 (
 tag
 attribute
