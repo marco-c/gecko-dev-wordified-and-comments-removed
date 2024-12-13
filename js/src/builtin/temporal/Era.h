@@ -1,4 +1,10 @@
 #
+ifndef
+builtin_temporal_Era_h
+#
+define
+builtin_temporal_Era_h
+#
 include
 "
 mozilla
@@ -1353,3 +1359,5 @@ year
 ;
 }
 }
+#
+endif
