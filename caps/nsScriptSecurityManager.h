@@ -97,12 +97,10 @@ define
 NS_SCRIPTSECURITYMANAGER_CID
 \
 {
-\
 0x7ee2a4c0
 0x4b93
 0x17d3
 {
-\
 0xba
 0x18
 0x00
@@ -111,9 +109,7 @@ NS_SCRIPTSECURITYMANAGER_CID
 0xf1
 0x99
 0xa2
-\
 }
-\
 }
 class
 nsScriptSecurityManager
