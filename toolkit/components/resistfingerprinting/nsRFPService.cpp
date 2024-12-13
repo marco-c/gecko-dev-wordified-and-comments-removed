@@ -7080,7 +7080,7 @@ glean
 fingerprinting_protection
 :
 :
-canvas_noise_calculate_time
+canvas_noise_calculate_time_ns
 .
 Start
 (
@@ -7117,7 +7117,7 @@ glean
 fingerprinting_protection
 :
 :
-canvas_noise_calculate_time
+canvas_noise_calculate_time_ns
 .
 Cancel
 (
@@ -7472,7 +7472,7 @@ glean
 fingerprinting_protection
 :
 :
-canvas_noise_calculate_time
+canvas_noise_calculate_time_ns
 .
 StopAndAccumulate
 (
