@@ -33257,6 +33257,9 @@ auto
 result
 =
 Int32ToStringWithBase
+<
+CanGC
+>
 (
 cx
 input

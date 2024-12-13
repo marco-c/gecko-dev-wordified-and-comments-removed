@@ -72370,7 +72370,7 @@ lowerCase
 using
 Fn
 =
-JSString
+JSLinearString
 *
 (
 *
@@ -72406,6 +72406,9 @@ js
 :
 :
 Int32ToStringWithBase
+<
+CanGC
+>
 >
 (
 lir
@@ -72500,6 +72503,9 @@ js
 :
 :
 Int32ToStringWithBase
+<
+CanGC
+>
 >
 (
 lir
@@ -88412,7 +88418,7 @@ temp4
 using
 Fn
 =
-JSString
+JSLinearString
 *
 (
 *
@@ -89104,7 +89110,7 @@ string
 using
 Fn
 =
-JSString
+JSLinearString
 *
 (
 *

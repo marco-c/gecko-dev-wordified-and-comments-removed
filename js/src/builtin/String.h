@@ -364,7 +364,7 @@ result
 )
 ;
 extern
-JSString
+JSLinearString
 *
 StringToLowerCase
 (
@@ -376,7 +376,7 @@ string
 )
 ;
 extern
-JSString
+JSLinearString
 *
 StringToUpperCase
 (

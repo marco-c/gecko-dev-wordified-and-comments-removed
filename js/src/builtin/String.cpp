@@ -4577,7 +4577,7 @@ typename
 CharT
 >
 static
-JSString
+JSLinearString
 *
 ToLowerCase
 (
@@ -5020,7 +5020,7 @@ resultLength
 )
 ;
 }
-JSString
+JSLinearString
 *
 js
 :
@@ -6649,7 +6649,7 @@ typename
 CharT
 >
 static
-JSString
+JSLinearString
 *
 ToUpperCase
 (
@@ -7230,7 +7230,7 @@ toString
 )
 ;
 }
-JSString
+JSLinearString
 *
 js
 :

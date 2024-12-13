@@ -225,8 +225,13 @@ int32_t
 i
 )
 ;
+template
+<
+AllowGC
+allowGC
+>
 extern
-JSString
+JSLinearString
 *
 Int32ToStringWithBase
 (
