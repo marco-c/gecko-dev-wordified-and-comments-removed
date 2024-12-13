@@ -1275,7 +1275,7 @@ win
 .
 document
 .
-querySelector
+getElementById
 (
 "
 sidebar
@@ -1404,7 +1404,7 @@ isSidebarMainShown
 !
 document
 .
-querySelector
+getElementById
 (
 "
 sidebar

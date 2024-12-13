@@ -172,9 +172,7 @@ waitForCondition
 >
 SidebarController
 .
-getUIState
-(
-)
+sidebarMain
 .
 expanded
 =
@@ -353,9 +351,7 @@ ok
 (
 SidebarController
 .
-getUIState
-(
-)
+sidebarContainer
 .
 hidden
 "
