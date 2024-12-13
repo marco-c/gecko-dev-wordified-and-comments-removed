@@ -297,6 +297,9 @@ mYUVColorSpace
 aData
 .
 mColorRange
+aData
+.
+mColorDepth
 )
 ;
 RefPtr
@@ -901,6 +904,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 :
 Image
@@ -926,6 +934,10 @@ aColorSpace
 mColorRange
 (
 aColorRange
+)
+mColorDepth
+(
+aColorDepth
 )
 {
 }

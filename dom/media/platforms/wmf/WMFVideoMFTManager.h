@@ -390,6 +390,12 @@ gfx
 ColorRange
 mColorRange
 ;
+gfx
+:
+:
+ColorDepth
+mColorDepth
+;
 RefPtr
 <
 layers

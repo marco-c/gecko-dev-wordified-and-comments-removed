@@ -176,6 +176,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 :
 Image
@@ -209,6 +214,10 @@ aColorSpace
 mColorRange
 (
 aColorRange
+)
+mColorDepth
+(
+aColorDepth
 )
 {
 MOZ_ASSERT
@@ -668,6 +677,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 :
 D3D11ZeroCopyTextureImage
@@ -678,6 +692,7 @@ aSize
 aRect
 aColorSpace
 aColorRange
+aColorDepth
 )
 mVideoSample
 (
