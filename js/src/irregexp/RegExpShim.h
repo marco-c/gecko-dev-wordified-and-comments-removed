@@ -6868,6 +6868,11 @@ InstructionStream
 }
 ;
 class
+RegExpResultVectorScope
+{
+}
+;
+class
 Label
 {
 public
