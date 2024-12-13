@@ -212,6 +212,13 @@ js
 ]
 [
 "
+browser_aboutwelcome_embedded_browser
+.
+js
+"
+]
+[
+"
 browser_aboutwelcome_fxa_signin_flow
 .
 js

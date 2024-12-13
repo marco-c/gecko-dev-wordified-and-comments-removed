@@ -1219,6 +1219,7 @@ browser
 await
 openAboutWelcome
 (
+TEST_DEFAULT_JSON
 )
 ;
 await
