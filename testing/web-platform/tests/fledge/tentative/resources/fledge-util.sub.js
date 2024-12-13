@@ -1824,7 +1824,7 @@ else
 await
 joinInterestGroupWithoutDefaults
 (
-test_instance
+test
 interestGroup
 )
 ;
