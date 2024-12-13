@@ -86,13 +86,12 @@ notification
 -
 default
 -
-button
+button2
 =
 .
 label
 =
 OK
-!
 .
 accesskey
 =
