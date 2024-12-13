@@ -3167,7 +3167,7 @@ engine
 {
 engine
 .
-discardTranslationQueue
+cancelSingleTranslation
 (
 innerWindowId
 translationId
