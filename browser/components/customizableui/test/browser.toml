@@ -1701,6 +1701,13 @@ js
 ]
 [
 "
+browser_vertical_tabs_customize_navbar
+.
+js
+"
+]
+[
+"
 browser_widget_animation
 .
 js
