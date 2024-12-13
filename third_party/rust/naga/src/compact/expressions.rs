@@ -115,14 +115,10 @@ Expression
 >
 }
 impl
-<
-'
-tracer
->
 ExpressionTracer
 <
 '
-tracer
+_
 >
 {
 pub

@@ -1789,6 +1789,8 @@ check_ser
 &
 &
 ser_name
+.
+value
 =
 =
 tag
@@ -1816,6 +1818,8 @@ check_de
 &
 &
 de_name
+.
+value
 =
 =
 tag

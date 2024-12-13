@@ -453,8 +453,6 @@ NumSamples
 }
 impl
 <
-'
-a
 W
 :
 Write
@@ -465,7 +463,7 @@ super
 Writer
 <
 '
-a
+_
 W
 >
 {

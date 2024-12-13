@@ -98,7 +98,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 #
 TODO
@@ -233,7 +233,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 features
 =
@@ -295,7 +295,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 features
 =
@@ -382,7 +382,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 features
 =
@@ -423,7 +423,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 [
 dependencies
@@ -457,7 +457,7 @@ wgpu
 rev
 =
 "
-47bfede63f82e09f5e50e9735c6d98dd19403d3c
+66d51b6059127b81c7385ec3f2d49c3e81f76f0e
 "
 features
 =
@@ -535,7 +535,7 @@ metal
 "
 0
 .
-29
+30
 "
 io
 -

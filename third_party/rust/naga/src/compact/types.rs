@@ -53,14 +53,10 @@ Type
 >
 }
 impl
-<
-'
-a
->
 TypeTracer
 <
 '
-a
+_
 >
 {
 pub

@@ -211,16 +211,12 @@ pp
 }
 }
 impl
-<
-'
-a
->
 Iterator
 for
 Lexer
 <
 '
-a
+_
 >
 {
 type
