@@ -699,7 +699,7 @@ cx
 const
 ISODate
 &
-date
+isoDate
 OffsetBehaviour
 offsetBehaviour
 int64_t
