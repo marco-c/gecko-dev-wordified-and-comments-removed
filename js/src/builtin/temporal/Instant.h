@@ -331,7 +331,7 @@ EpochNanoseconds
 &
 epochNanoseconds
 const
-NormalizedTimeDuration
+TimeDuration
 &
 duration
 EpochNanoseconds
@@ -339,7 +339,7 @@ EpochNanoseconds
 result
 )
 ;
-NormalizedTimeDuration
+TimeDuration
 DifferenceInstant
 (
 const

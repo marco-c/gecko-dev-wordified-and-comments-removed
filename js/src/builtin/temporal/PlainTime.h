@@ -279,12 +279,12 @@ Time
 &
 time
 const
-NormalizedTimeDuration
+TimeDuration
 &
 duration
 )
 ;
-NormalizedTimeDuration
+TimeDuration
 DifferenceTime
 (
 const

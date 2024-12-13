@@ -1986,7 +1986,7 @@ Increment
 auto
 duration
 =
-NormalizedDuration
+InternalDuration
 {
 dateDuration
 {
@@ -2479,7 +2479,7 @@ intermediateDate
 auto
 durationToAdd
 =
-NormalizeDurationWithoutTime
+ToDateDurationRecordWithoutTime
 (
 duration
 )

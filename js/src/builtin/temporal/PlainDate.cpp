@@ -4801,7 +4801,7 @@ roundingGranularityIsNoop
 auto
 duration
 =
-NormalizedDuration
+InternalDuration
 {
 difference
 {
@@ -5095,7 +5095,7 @@ negate
 auto
 dateDuration
 =
-NormalizeDurationWithoutTime
+ToDateDurationRecordWithoutTime
 (
 duration
 )

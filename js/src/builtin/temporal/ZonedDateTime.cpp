@@ -2565,7 +2565,7 @@ ZonedDateTime
 >
 zonedDateTime
 const
-NormalizedDuration
+InternalDuration
 &
 duration
 TemporalOverflow
@@ -2755,7 +2755,7 @@ ZonedDateTime
 >
 zonedDateTime
 const
-NormalizedDuration
+InternalDuration
 &
 duration
 EpochNanoseconds
@@ -2806,7 +2806,7 @@ CalendarValue
 calendar
 TemporalUnit
 largestUnit
-NormalizedDuration
+InternalDuration
 *
 result
 )
@@ -2838,7 +2838,7 @@ ns2
 *
 result
 =
-NormalizedDuration
+InternalDuration
 {
 {
 }
@@ -3026,7 +3026,7 @@ false
 auto
 norm
 =
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 (
 ns2
 intermediateNs
@@ -3119,7 +3119,7 @@ false
 ;
 }
 return
-CombineDateAndNormalizedTimeDuration
+CombineDateAndTimeDuration
 (
 cx
 dateDifference
@@ -3274,7 +3274,7 @@ result
 )
 ;
 }
-NormalizedDuration
+InternalDuration
 difference
 ;
 if
@@ -3558,7 +3558,7 @@ Day
 auto
 diff
 =
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 (
 ns2
 ns1
@@ -3582,7 +3582,7 @@ EpochDuration
 *
 result
 =
-DivideNormalizedTimeDuration
+DivideTimeDuration
 (
 diff
 unit
@@ -3592,7 +3592,7 @@ return
 true
 ;
 }
-NormalizedDuration
+InternalDuration
 difference
 ;
 if
@@ -4449,9 +4449,9 @@ timeZone
 )
 ;
 auto
-normalized
+internalDuration
 =
-NormalizeDuration
+ToInternalDurationRecord
 (
 duration
 )
@@ -4468,7 +4468,7 @@ AddZonedDateTime
 (
 cx
 zonedDateTime
-normalized
+internalDuration
 overflow
 &
 epochNanoseconds
