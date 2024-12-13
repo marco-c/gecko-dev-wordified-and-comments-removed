@@ -594,16 +594,10 @@ return
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 (
 level_base
 level_prime_max
-)
 level_immut
 -
 1u
