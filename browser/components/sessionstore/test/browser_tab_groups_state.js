@@ -578,6 +578,10 @@ closeWindow
 win
 )
 ;
+forgetClosedWindows
+(
+)
+;
 }
 )
 ;
