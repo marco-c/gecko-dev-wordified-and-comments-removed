@@ -555,7 +555,7 @@ DisplaySVGImage
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 DisplaySVGImage
 )

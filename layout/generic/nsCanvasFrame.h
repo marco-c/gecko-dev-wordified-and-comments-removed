@@ -599,6 +599,7 @@ override
 ;
 class
 nsDisplayCanvasBackgroundImage
+final
 :
 public
 nsDisplayBackgroundImage
@@ -677,6 +678,7 @@ TYPE_CANVAS_BACKGROUND_IMAGE
 ;
 class
 nsDisplayCanvasThemedBackground
+final
 :
 public
 nsDisplayThemedBackground

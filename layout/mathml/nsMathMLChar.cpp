@@ -7985,7 +7985,7 @@ nsDisplayMathMLSelectionRect
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayMathMLSelectionRect
 )
@@ -8145,7 +8145,7 @@ nsDisplayMathMLCharForeground
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayMathMLCharForeground
 )
@@ -8364,7 +8364,7 @@ nsDisplayMathMLCharDebug
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayMathMLCharDebug
 )

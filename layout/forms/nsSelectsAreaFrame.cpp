@@ -284,6 +284,7 @@ mozilla
 {
 class
 nsDisplayOptionEventGrabber
+final
 :
 public
 nsDisplayWrapList
@@ -641,6 +642,7 @@ aItem
 ;
 class
 nsDisplayListFocus
+final
 :
 public
 nsPaintedDisplayItem
@@ -669,7 +671,7 @@ nsDisplayListFocus
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayListFocus
 )
