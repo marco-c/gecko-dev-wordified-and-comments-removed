@@ -745,6 +745,9 @@ NS_FAILED
 (
 rv
 )
+&
+&
+mResolver
 )
 {
 mResolver
