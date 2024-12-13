@@ -442,6 +442,15 @@ int32_t
 DurationSign
 (
 const
+Duration
+&
+duration
+)
+;
+int32_t
+DurationSign
+(
+const
 DateDuration
 &
 duration

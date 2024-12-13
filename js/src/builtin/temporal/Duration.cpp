@@ -826,8 +826,13 @@ x
 MaxSafeInteger
 ;
 }
-static
 int32_t
+js
+:
+:
+temporal
+:
+:
 DurationSign
 (
 const
@@ -2889,8 +2894,6 @@ duration
 int32_t
 sign
 =
-:
-:
 DurationSign
 (
 duration
@@ -3266,8 +3269,6 @@ duration
 int32_t
 sign
 =
-:
-:
 DurationSign
 (
 duration
