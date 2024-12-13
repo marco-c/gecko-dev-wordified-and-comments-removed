@@ -762,6 +762,10 @@ closeWindow
 win
 )
 ;
+forgetClosedWindows
+(
+)
+;
 }
 )
 ;
