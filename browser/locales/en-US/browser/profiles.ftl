@@ -58,6 +58,8 @@ profile
 window
 -
 title
+-
+2
 =
 {
 -
@@ -69,8 +71,8 @@ name
 }
 -
 Choose
-User
-Profile
+a
+profile
 profile
 -
 window
