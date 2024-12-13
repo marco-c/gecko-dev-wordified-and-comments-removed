@@ -365,6 +365,8 @@ hostOnly
 isHttpOnly
 #
 sameSite
+#
+partitioned
 {
 min
 -

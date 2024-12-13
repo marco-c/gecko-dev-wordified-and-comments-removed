@@ -1636,14 +1636,6 @@ principal
 getBrowsingContextsFromHost
 (
 host
-{
-acceptSameProcessIframes
-=
-true
-}
-=
-{
-}
 )
 {
 return
@@ -1655,6 +1647,8 @@ getAllBrowsingContexts
 (
 {
 acceptSameProcessIframes
+:
+true
 }
 )
 .
