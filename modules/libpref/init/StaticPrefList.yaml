@@ -52526,9 +52526,8 @@ always
 #
 When
 selecting
-a
 call_ref
-target
+targets
 for
 speculative
 inlining
@@ -52552,7 +52551,11 @@ that
 a
 candidate
 #
+set
+of
+targets
 must
+collectively
 have
 in
 order
@@ -52562,6 +52565,7 @@ elegible
 for
 inlining
 .
+#
 Allowable
 :
 10
@@ -52572,7 +52576,6 @@ Allowable
 %
 )
 .
-#
 Setting
 it
 (
@@ -52581,9 +52584,10 @@ eg
 75
 means
 the
-hottest
-target
+targets
 must
+collectively
+#
 be
 75
 %
@@ -52591,7 +52595,6 @@ of
 all
 observed
 calls
-#
 to
 be
 considered
@@ -52601,12 +52604,13 @@ inlining
 Probably
 unwise
 to
+#
 let
 this
 be
 much
 below
-50
+40
 .
 -
 name
@@ -52621,7 +52625,7 @@ type
 uint32_t
 value
 :
-50
+40
 mirror
 :
 always

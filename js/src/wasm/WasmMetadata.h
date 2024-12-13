@@ -1078,9 +1078,6 @@ callRefHints
 {
 return
 CallRefHint
-:
-:
-unknown
 (
 )
 ;
