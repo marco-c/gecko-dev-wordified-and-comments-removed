@@ -10885,7 +10885,7 @@ toolbar
 var
 navigationToolbarEnabled
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -10901,6 +10901,7 @@ pref_key_toolbar_show_navigation_toolbar
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -10912,6 +10913,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
