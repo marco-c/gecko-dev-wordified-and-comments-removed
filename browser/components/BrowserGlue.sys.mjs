@@ -5335,6 +5335,13 @@ about
 newprofile
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 enablePreference
 :
 "
