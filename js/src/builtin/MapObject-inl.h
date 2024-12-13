@@ -99,6 +99,12 @@ ProtoKey
 =
 =
 JSProto_Map
+|
+|
+ProtoKey
+=
+=
+JSProto_WeakMap
 ;
 constexpr
 bool
