@@ -788,7 +788,7 @@ of
 the
 commands
 in
-config
+build
 /
 cargo
 /
