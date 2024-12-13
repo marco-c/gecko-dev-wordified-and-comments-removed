@@ -387,6 +387,13 @@ final
 public
 CodeGeneratorSpecific
 {
+const
+WarpSnapshot
+*
+snapshot_
+=
+nullptr
+;
 [
 [
 nodiscard
@@ -562,6 +569,10 @@ nodiscard
 bool
 generate
 (
+const
+WarpSnapshot
+*
+snapshot
 )
 ;
 [
@@ -626,10 +637,6 @@ link
 JSContext
 *
 cx
-const
-WarpSnapshot
-*
-snapshot
 )
 ;
 void

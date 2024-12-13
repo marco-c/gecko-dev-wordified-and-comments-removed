@@ -2413,10 +2413,6 @@ CodeGenerator
 codegen
 HandleScript
 script
-const
-WarpSnapshot
-*
-snapshot
 )
 {
 if
@@ -2428,7 +2424,6 @@ codegen
 link
 (
 cx
-snapshot
 )
 )
 {
@@ -2526,12 +2521,6 @@ LinkCodeGen
 cx
 codegen
 script
-task
--
->
-snapshot
-(
-)
 )
 ;
 }
@@ -9058,6 +9047,7 @@ return
 lir
 ;
 }
+static
 CodeGenerator
 *
 GenerateCode
@@ -9068,6 +9058,10 @@ mir
 LIRGraph
 *
 lir
+const
+WarpSnapshot
+*
+snapshot
 )
 {
 auto
@@ -9100,6 +9094,7 @@ codegen
 >
 generate
 (
+snapshot
 )
 )
 {
@@ -9230,6 +9225,7 @@ GenerateCode
 (
 mir
 lir
+snapshot
 )
 ;
 if
@@ -10274,7 +10270,6 @@ get
 (
 )
 script
-snapshot
 )
 ;
 }

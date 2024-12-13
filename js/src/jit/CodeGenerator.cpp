@@ -101301,6 +101301,10 @@ CodeGenerator
 :
 generate
 (
+const
+WarpSnapshot
+*
+snapshot
 )
 {
 AutoCreatedBy
@@ -101314,6 +101318,15 @@ CodeGenerator
 generate
 "
 )
+;
+MOZ_ASSERT
+(
+snapshot
+)
+;
+snapshot_
+=
+snapshot
 ;
 JitSpew
 (
@@ -102014,10 +102027,6 @@ link
 JSContext
 *
 cx
-const
-WarpSnapshot
-*
-snapshot
 )
 {
 AutoCreatedBy
@@ -102191,7 +102200,7 @@ AddInlinedCompilations
 cx
 script
 compilationId
-snapshot
+snapshot_
 &
 isValid
 )
@@ -102313,7 +102322,7 @@ Value
 size_t
 numNurseryObjects
 =
-snapshot
+snapshot_
 -
 >
 nurseryObjects
@@ -102408,7 +102417,7 @@ ionScript
 >
 setICHash
 (
-snapshot
+snapshot_
 -
 >
 icHash
@@ -103399,7 +103408,7 @@ auto
 &
 nurseryObjects
 =
-snapshot
+snapshot_
 -
 >
 nurseryObjects
