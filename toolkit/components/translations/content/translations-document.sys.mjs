@@ -13237,7 +13237,7 @@ the
 sibling
 '
 s
-translationsId
+mozTranslationsId
 matches
 then
 use

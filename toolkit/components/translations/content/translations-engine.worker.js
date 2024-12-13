@@ -969,7 +969,7 @@ data
 innerWindowId
 data
 .
-translationsId
+translationId
 )
 ;
 break
@@ -1216,7 +1216,7 @@ innerWindowId
 discardSingleTranslation
 (
 innerWindowId
-translationsId
+translationId
 )
 {
 const
@@ -1243,16 +1243,16 @@ trace
 Discarding
 translation
 with
-translationsId
+translationId
 "
-translationsId
+translationId
 )
 ;
 workQueue
 .
 cancelTask
 (
-translationsId
+translationId
 )
 ;
 }
