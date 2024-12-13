@@ -345,10 +345,6 @@ closeWindow
 win
 )
 ;
-forgetClosedWindows
-(
-)
-;
 }
 )
 ;
