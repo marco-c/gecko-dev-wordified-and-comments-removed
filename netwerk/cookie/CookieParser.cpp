@@ -2289,6 +2289,15 @@ true
 ;
 }
 else
+if
+(
+StaticPrefs
+:
+:
+network_cookie_sameSite_laxByDefaultWarningsForBeta
+(
+)
+)
 {
 mWarnings
 .
