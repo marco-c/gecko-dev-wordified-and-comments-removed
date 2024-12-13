@@ -797,6 +797,14 @@ backgroundColor
 wallpaperState
 .
 cardBackgroundColor
+showPlaceholderStory
+=
+!
+components
+.
+settings
+.
+showContentRecommendations
 onStoryShown
 =
 interactor

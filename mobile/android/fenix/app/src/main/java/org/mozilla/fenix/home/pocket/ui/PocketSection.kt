@@ -465,6 +465,12 @@ horizontalPadding
 backgroundColor
 =
 cardBackgroundColor
+showPlaceholderStory
+=
+!
+state
+.
+showContentRecommendations
 onStoryShown
 =
 interactor
