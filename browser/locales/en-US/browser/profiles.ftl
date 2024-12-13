@@ -162,12 +162,15 @@ window
 checkbox
 -
 label
+-
+2
 =
 .
 label
 =
-Show
-this
+Choose
+a
+profile
 when
 {
 -
