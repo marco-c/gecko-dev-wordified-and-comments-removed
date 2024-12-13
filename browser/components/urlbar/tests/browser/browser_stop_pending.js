@@ -1376,7 +1376,7 @@ tab
 .
 linkedBrowser
 .
-canGoBackIgnoringUserInteraction
+canGoBack
 )
 ;
 ok
@@ -1385,7 +1385,7 @@ tab
 .
 linkedBrowser
 .
-canGoBackIgnoringUserInteraction
+canGoBack
 "
 can
 go

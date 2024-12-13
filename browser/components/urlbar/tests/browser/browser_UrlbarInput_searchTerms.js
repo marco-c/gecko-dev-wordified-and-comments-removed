@@ -161,7 +161,6 @@ linkedBrowser
 .
 goBack
 (
-false
 )
 ;
 await
