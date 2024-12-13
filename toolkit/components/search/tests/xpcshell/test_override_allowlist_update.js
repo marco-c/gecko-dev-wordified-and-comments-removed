@@ -233,6 +233,12 @@ unload
 (
 )
 ;
+sinon
+.
+restore
+(
+)
+;
 }
 )
 ;

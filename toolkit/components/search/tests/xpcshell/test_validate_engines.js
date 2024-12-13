@@ -332,6 +332,12 @@ found
 )
 ;
 }
+sinon
+.
+restore
+(
+)
+;
 }
 )
 ;

@@ -883,6 +883,12 @@ unload
 (
 )
 ;
+sinon
+.
+restore
+(
+)
+;
 }
 )
 ;
