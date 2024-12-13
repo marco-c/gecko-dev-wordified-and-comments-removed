@@ -65,11 +65,13 @@ MagicNumber
 "
 )
 package
-org
-.
 mozilla
 .
-fenix
+components
+.
+compose
+.
+base
 .
 theme
 import
