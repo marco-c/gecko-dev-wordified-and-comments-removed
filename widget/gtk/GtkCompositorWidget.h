@@ -50,7 +50,7 @@ h
 #
 include
 "
-MozContainerSurfaceLock
+WaylandSurfaceLock
 .
 h
 "
@@ -378,7 +378,7 @@ this
 }
 UniquePtr
 <
-MozContainerSurfaceLock
+WaylandSurfaceLock
 >
 LockSurface
 (
