@@ -4335,11 +4335,6 @@ true
 }
 if
 (
-XRE_IsParentProcess
-(
-)
-&
-&
 aFrame
 -
 >
