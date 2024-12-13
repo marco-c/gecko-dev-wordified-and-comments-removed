@@ -8665,6 +8665,7 @@ mainSession
 .
 goBack
 (
+false
 )
 waitForInitialFocus
 (
