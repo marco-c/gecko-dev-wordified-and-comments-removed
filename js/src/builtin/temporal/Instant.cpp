@@ -3054,8 +3054,8 @@ settings
 roundingMode
 )
 ;
-TimeDuration
-balanced
+Duration
+duration
 ;
 if
 (
@@ -3068,7 +3068,7 @@ settings
 .
 largestUnit
 &
-balanced
+duration
 )
 )
 {
@@ -3076,15 +3076,6 @@ return
 false
 ;
 }
-auto
-duration
-=
-balanced
-.
-toDuration
-(
-)
-;
 if
 (
 operation
