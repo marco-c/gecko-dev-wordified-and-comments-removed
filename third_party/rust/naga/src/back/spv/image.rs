@@ -668,10 +668,14 @@ _
 }
 }
 impl
+<
+'
+w
+>
 BlockContext
 <
 '
-_
+w
 >
 {
 fn

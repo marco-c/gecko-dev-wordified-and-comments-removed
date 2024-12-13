@@ -197,7 +197,7 @@ aLayout
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 *
 aLayoutFFI
 )
@@ -216,7 +216,7 @@ aCopy
 ffi
 :
 :
-WGPUTexelCopyTextureInfo_TextureId
+WGPUImageCopyTexture_TextureId
 *
 aViewFFI
 )

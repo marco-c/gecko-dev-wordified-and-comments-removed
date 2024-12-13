@@ -5144,11 +5144,6 @@ pointer
 GlobalUse
 :
 :
-READ
-|
-GlobalUse
-:
-:
 WRITE
 )
 ;

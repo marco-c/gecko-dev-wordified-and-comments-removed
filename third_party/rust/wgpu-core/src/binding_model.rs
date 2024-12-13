@@ -1342,8 +1342,8 @@ support
 read
 access
 for
-storage
-textures
+storages
+texture
 of
 format
 {
@@ -5444,8 +5444,6 @@ SnatchGuard
 Result
 <
 &
-'
-a
 dyn
 hal
 :

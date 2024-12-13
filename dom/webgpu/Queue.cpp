@@ -884,7 +884,7 @@ aRv
 ffi
 :
 :
-WGPUTexelCopyTextureInfo
+WGPUImageCopyTexture
 copyView
 =
 {
@@ -903,7 +903,7 @@ copyView
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 dataLayout
 =
 {
@@ -2850,7 +2850,7 @@ return
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 dataLayout
 =
 {
@@ -2864,7 +2864,7 @@ dstHeight
 ffi
 :
 :
-WGPUTexelCopyTextureInfo
+WGPUImageCopyTexture
 copyView
 =
 {

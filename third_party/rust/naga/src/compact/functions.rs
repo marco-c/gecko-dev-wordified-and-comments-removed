@@ -104,10 +104,14 @@ Expression
 >
 }
 impl
+<
+'
+a
+>
 FunctionTracer
 <
 '
-_
+a
 >
 {
 pub

@@ -775,7 +775,7 @@ crate
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 data
 :
 FileName
@@ -784,7 +784,7 @@ layout
 wgt
 :
 :
-TexelCopyBufferLayout
+ImageDataLayout
 size
 :
 wgt
@@ -958,7 +958,7 @@ crate
 command
 :
 :
-TexelCopyBufferInfo
+ImageCopyBuffer
 dst
 :
 crate
@@ -967,7 +967,7 @@ crate
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 size
 :
 wgt
@@ -985,7 +985,7 @@ crate
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 dst
 :
 crate
@@ -994,7 +994,7 @@ crate
 command
 :
 :
-TexelCopyBufferInfo
+ImageCopyBuffer
 size
 :
 wgt
@@ -1012,7 +1012,7 @@ crate
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 dst
 :
 crate
@@ -1021,7 +1021,7 @@ crate
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 size
 :
 wgt

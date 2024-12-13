@@ -103,10 +103,14 @@ Word
 )
 }
 impl
+<
+'
+w
+>
 BlockContext
 <
 '
-_
+w
 >
 {
 pub

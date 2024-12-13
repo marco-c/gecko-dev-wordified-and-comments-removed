@@ -36,18 +36,6 @@ crate
 internals
 :
 :
-name
-:
-:
-Name
-;
-use
-crate
-:
-:
-internals
-:
-:
 {
 attr
 replace_receiver
@@ -4973,7 +4961,7 @@ type_name
 &
 '
 a
-Name
+str
 variant_index
 :
 u32
@@ -4982,7 +4970,7 @@ variant_name
 &
 '
 a
-Name
+str
 }
 Untagged
 }
@@ -5344,7 +5332,7 @@ variant_name
 &
 '
 a
-Name
+str
 }
 InternallyTagged
 {
@@ -5359,7 +5347,7 @@ variant_name
 &
 '
 a
-Name
+str
 }
 Untagged
 }
@@ -5382,7 +5370,7 @@ Field
 name
 :
 &
-Name
+str
 )
 -
 >
@@ -5820,7 +5808,7 @@ Field
 name
 :
 &
-Name
+str
 )
 -
 >

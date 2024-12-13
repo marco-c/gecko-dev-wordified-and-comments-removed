@@ -1748,12 +1748,14 @@ Ok
 }
 impl
 <
+'
+a
 W
 >
 Writer
 <
 '
-_
+a
 W
 >
 {

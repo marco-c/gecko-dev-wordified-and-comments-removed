@@ -62,10 +62,14 @@ TypeInner
 }
 ;
 impl
+<
+'
+source
+>
 ParsingContext
 <
 '
-_
+source
 >
 {
 pub

@@ -134,7 +134,7 @@ aLayout
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 *
 aLayoutFFI
 )
@@ -243,7 +243,7 @@ aCopy
 ffi
 :
 :
-WGPUTexelCopyTextureInfo
+WGPUImageCopyTexture
 *
 aViewFFI
 )
@@ -443,7 +443,7 @@ static
 ffi
 :
 :
-WGPUTexelCopyTextureInfo
+WGPUImageCopyTexture
 ConvertTextureCopyView
 (
 const
@@ -458,7 +458,7 @@ aCopy
 ffi
 :
 :
-WGPUTexelCopyTextureInfo
+WGPUImageCopyTexture
 view
 =
 {
@@ -760,7 +760,7 @@ bb
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 src_layout
 =
 {
@@ -886,7 +886,7 @@ bb
 ffi
 :
 :
-WGPUTexelCopyBufferLayout
+WGPUImageDataLayout
 dstLayout
 =
 {

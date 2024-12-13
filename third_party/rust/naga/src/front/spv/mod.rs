@@ -2035,10 +2035,14 @@ SamplingFlags
 ]
 }
 impl
+<
+'
+a
+>
 BlockContext
 <
 '
-_
+a
 >
 {
 fn

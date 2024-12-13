@@ -3923,7 +3923,7 @@ src
 wgt
 :
 :
-CopyExternalImageSourceInfo
+ImageCopyExternalImage
 dst
 :
 glow

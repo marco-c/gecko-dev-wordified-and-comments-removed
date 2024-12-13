@@ -33,10 +33,14 @@ TypeInner
 }
 ;
 impl
+<
+'
+w
+>
 BlockContext
 <
 '
-_
+w
 >
 {
 pub

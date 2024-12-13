@@ -2248,7 +2248,7 @@ src
 wgt
 :
 :
-CopyExternalImageSourceInfo
+ImageCopyExternalImage
 dst
 :
 &

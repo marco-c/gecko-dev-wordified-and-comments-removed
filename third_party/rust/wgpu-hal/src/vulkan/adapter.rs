@@ -10625,7 +10625,7 @@ set
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE
 |
 Tfc
 :

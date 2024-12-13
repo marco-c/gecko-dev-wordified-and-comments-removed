@@ -462,10 +462,14 @@ mut
 Module
 }
 impl
+<
+'
+a
+>
 UpgradeState
 <
 '
-_
+a
 >
 {
 fn
