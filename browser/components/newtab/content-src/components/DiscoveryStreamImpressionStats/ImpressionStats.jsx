@@ -179,7 +179,7 @@ components
 *
 *
 It
-makses
+makes
 use
 of
 the
