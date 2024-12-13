@@ -439,14 +439,15 @@ the
 root
 object
 in
-a
-JSM
+an
+ESM
 and
 use
 the
 "
-defineModuleGetter
+defineESModuleGetter
 "
+*
 method
 .
 *
@@ -1893,7 +1894,7 @@ Integration
 .
 test
 .
-defineModuleGetter
+defineESModuleGetter
 (
 this
 "
