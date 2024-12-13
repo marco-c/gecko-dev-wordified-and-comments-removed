@@ -3982,7 +3982,18 @@ lir
 setOperand
 (
 1
+willHaveDifferentLIRNodes
+(
+lhs
+rhs
+)
+?
 useRegister
+(
+rhs
+)
+:
+useRegisterAtStart
 (
 rhs
 )
@@ -6531,7 +6542,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -6789,7 +6800,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -7029,7 +7040,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
