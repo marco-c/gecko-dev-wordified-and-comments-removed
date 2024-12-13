@@ -3306,24 +3306,18 @@ f
 "
 Bandwidth
 :
-[
 {
-'
-'
-.
-join
-(
-map
-(
-str
 bandwidth
-)
-)
 }
-]
 "
 )
         
+for
+b
+in
+bandwidth
+:
+            
 bt_result
 [
 "
@@ -3340,7 +3334,7 @@ bandwidth_key
 .
 append
 (
-bandwidth
+b
 )
     
 def
@@ -3446,6 +3440,12 @@ replicates
 replicates
             
 "
+shouldAlert
+"
+:
+False
+            
+"
 value
 "
 :
@@ -3453,12 +3453,9 @@ round
 (
 filters
 .
-geometric_mean
+mean
 (
 replicates
-[
-0
-]
 )
 3
 )
