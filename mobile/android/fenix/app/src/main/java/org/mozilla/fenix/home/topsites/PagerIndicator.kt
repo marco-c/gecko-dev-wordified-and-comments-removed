@@ -93,14 +93,6 @@ View
 import
 android
 .
-view
-.
-ViewGroup
-.
-LayoutParams
-import
-android
-.
 widget
 .
 LinearLayout
