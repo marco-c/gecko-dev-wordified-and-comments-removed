@@ -764,11 +764,6 @@ restrict_keyword_actions
 restrict_keyword_bookmarks
 restrict_keyword_history
 restrict_keyword_tabs
-rs_adm_nonsponsored
-rs_adm_sponsored
-rs_amo
-rs_mdn
-rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
@@ -1540,11 +1535,6 @@ restrict_keyword_actions
 restrict_keyword_bookmarks
 restrict_keyword_history
 restrict_keyword_tabs
-rs_adm_nonsponsored
-rs_adm_sponsored
-rs_amo
-rs_mdn
-rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
@@ -1966,11 +1956,6 @@ restrict_keyword_actions
 restrict_keyword_bookmarks
 restrict_keyword_history
 restrict_keyword_tabs
-rs_adm_nonsponsored
-rs_adm_sponsored
-rs_amo
-rs_mdn
-rs_pocket
 rust_adm_nonsponsored
 rust_adm_sponsored
 rust_amo
