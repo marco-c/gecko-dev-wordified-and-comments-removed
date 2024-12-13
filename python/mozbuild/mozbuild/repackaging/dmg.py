@@ -34,6 +34,9 @@ output
 attribution_sentinel
 =
 None
+compression
+=
+None
 )
 :
     
@@ -263,5 +266,9 @@ mkfshfs_tool
 attribution_sentinel
 =
 attribution_sentinel
+            
+compression
+=
+compression
         
 )
