@@ -108,6 +108,20 @@ from
 shutil
 import
 which
+from
+urllib
+.
+parse
+import
+quote_plus
+as
+encodeURIComponent
+from
+urllib
+.
+request
+import
+urlopen
 import
 bisection
 import
@@ -278,28 +292,6 @@ ImportError
 :
     
 pass
-import
-six
-from
-six
-.
-moves
-.
-urllib
-.
-parse
-import
-quote_plus
-as
-encodeURIComponent
-from
-six
-.
-moves
-.
-urllib_request
-import
-urlopen
 try
 :
     
@@ -815,17 +807,13 @@ and
 not
 isinstance
 (
-            
 message
 [
 "
 subtest
 "
 ]
-six
-.
-string_types
-        
+str
 )
 :
             
@@ -1006,9 +994,7 @@ message
 message
 "
 ]
-six
-.
-text_type
+str
 )
 :
                 
@@ -1019,9 +1005,7 @@ message
 "
 ]
 =
-six
-.
-text_type
+str
 (
 message
 [
@@ -1069,9 +1053,7 @@ if
 isinstance
 (
 line
-six
-.
-binary_type
+bytes
 )
 :
             
@@ -3416,15 +3398,19 @@ _log
 .
 info
 (
-six
-.
-ensure_text
-(
 c
 .
 read
 (
 )
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
 )
                     
@@ -3617,15 +3603,19 @@ _log
 .
 info
 (
-six
-.
-ensure_text
-(
 c
 .
 read
 (
 )
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
 )
         
@@ -5145,11 +5135,13 @@ libc
 .
 open
 (
-six
-.
-ensure_binary
-(
 device
+.
+encode
+(
+"
+ascii
+"
 )
 O_RDWR
 )
@@ -5196,13 +5188,17 @@ False
 "
     
 if
-six
-.
-ensure_text
-(
 vcap
 .
 driver
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
 !
 =
@@ -5326,13 +5322,17 @@ fd
     
 return
 True
-six
-.
-ensure_text
-(
 vcap
 .
 card
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
 def
 findTestMediaDevices
@@ -12746,19 +12746,17 @@ testob
 args_not_default
 =
 [
-            
 m
 for
 m
 p
 in
-six
-.
-iteritems
-(
 self
 .
 args_by_manifest
+.
+items
+(
 )
 if
 len
@@ -12767,7 +12765,6 @@ p
 )
 >
 1
-        
 ]
         
 if
@@ -12837,19 +12834,17 @@ exit
 pref_not_default
 =
 [
-            
 m
 for
 m
 p
 in
-six
-.
-iteritems
-(
 self
 .
 prefs_by_manifest
+.
+items
+(
 )
 if
 len
@@ -12858,7 +12853,6 @@ p
 )
 >
 1
-        
 ]
         
 if
@@ -12934,13 +12928,12 @@ for
 m
 p
 in
-six
-.
-iteritems
-(
 self
 .
 env_vars_by_manifest
+.
+items
+(
 )
 if
 len
@@ -13607,9 +13600,7 @@ isinstance
 (
 v
 (
-six
-.
-string_types
+str
 numbers
 .
 Number
@@ -19474,15 +19465,13 @@ marionette
             
 except
 IOError
+as
+e
 :
                 
 marionette_exception
 =
-sys
-.
-exc_info
-(
-)
+e
             
 self
 .
@@ -20027,20 +20016,8 @@ not
 None
 :
             
-exc
-value
-tb
-=
+raise
 marionette_exception
-            
-six
-.
-reraise
-(
-exc
-value
-tb
-)
         
 return
 status
@@ -28753,14 +28730,13 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 vars
 (
 options
 )
+.
+items
+(
 )
         
 if
