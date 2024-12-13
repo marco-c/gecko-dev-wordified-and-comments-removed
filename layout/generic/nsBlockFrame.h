@@ -821,6 +821,10 @@ const
 nsIFrame
 &
 aLineChildFrame
+bool
+aConsiderMargins
+=
+true
 )
 const
 ;
