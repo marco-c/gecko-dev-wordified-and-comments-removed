@@ -448,7 +448,7 @@ duration
 )
 ;
 int32_t
-DurationSign
+DateDurationSign
 (
 const
 DateDuration
