@@ -465,7 +465,7 @@ void
 vpx_quantize_b_lsx
 (
 const
-int16_t
+tran_low_t
 *
 coeff_ptr
 intptr_t

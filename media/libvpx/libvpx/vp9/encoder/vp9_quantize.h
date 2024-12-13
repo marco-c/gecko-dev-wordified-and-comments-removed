@@ -238,9 +238,11 @@ vp9_set_quantizer
 struct
 VP9_COMP
 *
-cm
+cpi
 int
 q
+int
+ext_rc_delta_q_uv
 )
 ;
 int

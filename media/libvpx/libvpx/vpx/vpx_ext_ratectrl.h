@@ -197,6 +197,9 @@ q_index
 int
 rdmult
 ;
+int
+delta_q_uv
+;
 sb_params
 *
 sb_params_list

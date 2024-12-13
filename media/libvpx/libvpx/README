@@ -603,6 +603,11 @@ darwin23
 gcc
 arm64
 -
+darwin24
+-
+gcc
+arm64
+-
 linux
 -
 gcc
@@ -923,6 +928,11 @@ gcc
 x86_64
 -
 darwin23
+-
+gcc
+x86_64
+-
+darwin24
 -
 gcc
 x86_64
