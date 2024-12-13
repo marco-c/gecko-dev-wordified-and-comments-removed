@@ -512,6 +512,12 @@ clicked
 .
 *
 /
+Suppress
+(
+"
+LongMethod
+"
+)
 Composable
 fun
 ThemeOnboardingPage

@@ -1621,6 +1621,11 @@ themeOptions
 onboardingPageUiData
 .
 themeOptions
+toolbarOptions
+=
+onboardingPageUiData
+.
+toolbarOptions
 termsOfService
 =
 onboardingPageUiData
