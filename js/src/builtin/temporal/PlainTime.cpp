@@ -680,7 +680,7 @@ temporal
 IsValidTime
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -1112,7 +1112,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 )
@@ -1205,7 +1205,7 @@ TemporalTimeLike
 time
 TemporalOverflow
 overflow
-PlainTime
+Time
 *
 result
 )
@@ -1458,7 +1458,7 @@ CallArgs
 &
 args
 const
-PlainTime
+Time
 &
 time
 )
@@ -1576,7 +1576,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 )
@@ -1736,7 +1736,7 @@ quotient
 ;
 }
 ;
-PlainTime
+Time
 time
 =
 {
@@ -1968,7 +1968,7 @@ temporal
 BalanceTime
 (
 const
-PlainTime
+Time
 &
 time
 int64_t
@@ -2044,11 +2044,11 @@ temporal
 DifferenceTime
 (
 const
-PlainTime
+Time
 &
 time1
 const
-PlainTime
+Time
 &
 time2
 )
@@ -2607,7 +2607,7 @@ Handle
 Value
 >
 options
-PlainTime
+Time
 *
 result
 )
@@ -2767,7 +2767,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2891,7 +2891,7 @@ Handle
 Value
 >
 options
-PlainTime
+Time
 *
 result
 )
@@ -3038,7 +3038,7 @@ Handle
 Value
 >
 item
-PlainTime
+Time
 *
 result
 )
@@ -3063,11 +3063,11 @@ temporal
 CompareTimeRecord
 (
 const
-PlainTime
+Time
 &
 one
 const
-PlainTime
+Time
 &
 two
 )
@@ -3231,7 +3231,7 @@ int64_t
 TimeToNanos
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -3331,7 +3331,7 @@ temporal
 RoundTime
 (
 const
-PlainTime
+Time
 &
 time
 Increment
@@ -3413,7 +3413,7 @@ nanosecond
 =
 time
 ;
-PlainTime
+Time
 quantity
 ;
 int32_t
@@ -3840,7 +3840,7 @@ temporal
 AddTime
 (
 const
-PlainTime
+Time
 &
 time
 const
@@ -3967,7 +3967,7 @@ time
 (
 )
 ;
-PlainTime
+Time
 other
 ;
 if
@@ -4656,7 +4656,7 @@ false
 ;
 }
 }
-PlainTime
+Time
 time
 ;
 if
@@ -4746,7 +4746,7 @@ argc
 vp
 )
 ;
-PlainTime
+Time
 result
 ;
 if
@@ -4846,7 +4846,7 @@ argc
 vp
 )
 ;
-PlainTime
+Time
 one
 ;
 if
@@ -4870,7 +4870,7 @@ return
 false
 ;
 }
-PlainTime
+Time
 two
 ;
 if
@@ -5809,7 +5809,7 @@ false
 ;
 }
 }
-PlainTime
+Time
 result
 ;
 if
@@ -6412,7 +6412,7 @@ time
 (
 )
 ;
-PlainTime
+Time
 other
 ;
 if

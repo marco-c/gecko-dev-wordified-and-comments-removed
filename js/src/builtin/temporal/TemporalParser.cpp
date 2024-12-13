@@ -543,7 +543,7 @@ struct
 TimeSpec
 final
 {
-PlainTime
+Time
 time
 ;
 }
@@ -1140,10 +1140,10 @@ struct
 ZonedDateTimeString
 final
 {
-PlainDate
+ISODate
 date
 ;
-PlainTime
+Time
 time
 ;
 TimeZoneString
@@ -1272,12 +1272,12 @@ const
 ZonedDateTimeString
 &
 parsed
-PlainDateTime
+ISODateTime
 *
 result
 )
 {
-PlainDateTime
+ISODateTime
 dateTime
 =
 {
@@ -3767,7 +3767,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 date
@@ -3779,7 +3779,7 @@ mozilla
 :
 Result
 <
-PlainTime
+Time
 ParserError
 >
 time
@@ -3805,7 +3805,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 dateSpecYearMonth
@@ -3817,7 +3817,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 dateSpecMonthDay
@@ -5163,7 +5163,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 TemporalParser
@@ -5176,7 +5176,7 @@ date
 (
 )
 {
-PlainDate
+ISODate
 result
 {
 }
@@ -5257,7 +5257,7 @@ mozilla
 :
 Result
 <
-PlainTime
+Time
 ParserError
 >
 TemporalParser
@@ -5270,7 +5270,7 @@ time
 (
 )
 {
-PlainTime
+Time
 result
 {
 }
@@ -6564,7 +6564,7 @@ JSString
 *
 >
 str
-PlainDateTime
+ISODateTime
 *
 result
 int64_t
@@ -7178,7 +7178,7 @@ parsed
 .
 timeZone
 ;
-PlainDateTime
+ISODateTime
 unused
 ;
 if
@@ -9782,7 +9782,7 @@ isValidMonthDay
 ]
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -10376,7 +10376,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 TemporalParser
@@ -10389,7 +10389,7 @@ dateSpecYearMonth
 (
 )
 {
-PlainDate
+ISODate
 result
 {
 }
@@ -10432,7 +10432,7 @@ mozilla
 :
 Result
 <
-PlainDate
+ISODate
 ParserError
 >
 TemporalParser
@@ -10445,7 +10445,7 @@ dateSpecMonthDay
 (
 )
 {
-PlainDate
+ISODate
 result
 {
 }
@@ -10888,7 +10888,7 @@ unwrap
 (
 )
 ;
-PlainDateTime
+ISODateTime
 unused
 ;
 if
@@ -11117,7 +11117,7 @@ JSString
 *
 >
 str
-PlainTime
+Time
 *
 result
 )
@@ -11193,7 +11193,7 @@ unwrap
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11451,7 +11451,7 @@ JSString
 *
 >
 str
-PlainDate
+ISODate
 *
 result
 bool
@@ -11536,7 +11536,7 @@ unwrap
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11834,7 +11834,7 @@ JSString
 *
 >
 str
-PlainDate
+ISODate
 *
 result
 MutableHandle
@@ -11916,7 +11916,7 @@ unwrap
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -12129,7 +12129,7 @@ JSString
 *
 >
 str
-PlainDateTime
+ISODateTime
 *
 result
 MutableHandle
@@ -12579,7 +12579,7 @@ false
 ;
 }
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -13067,7 +13067,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if

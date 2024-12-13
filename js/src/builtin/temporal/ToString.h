@@ -74,10 +74,10 @@ class
 ZonedDateTime
 ;
 struct
-PlainDateTime
+ISODateTime
 ;
 struct
-PlainTime
+Time
 ;
 JSString
 *
@@ -130,7 +130,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 JS
@@ -155,7 +155,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 Precision

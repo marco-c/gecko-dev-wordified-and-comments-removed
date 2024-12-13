@@ -454,7 +454,7 @@ temporal
 ISOYearMonthWithinLimits
 (
 const
-PlainDate
+ISODate
 &
 isoDate
 )
@@ -547,7 +547,7 @@ CallArgs
 &
 args
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -691,7 +691,7 @@ JSContext
 cx
 Handle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 )
@@ -799,7 +799,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -809,7 +809,7 @@ CalendarValue
 calendar
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -847,7 +847,7 @@ result
 .
 set
 (
-PlainYearMonthWithCalendar
+PlainYearMonth
 {
 isoDate
 calendar
@@ -993,7 +993,7 @@ Value
 options
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -1078,7 +1078,7 @@ result
 .
 set
 (
-PlainYearMonthWithCalendar
+PlainYearMonth
 {
 date
 calendar
@@ -1210,7 +1210,7 @@ Value
 options
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -1293,7 +1293,7 @@ toString
 )
 )
 ;
-PlainDate
+ISODate
 date
 ;
 Rooted
@@ -1383,7 +1383,7 @@ false
 }
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -1460,7 +1460,7 @@ Value
 item
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -1492,7 +1492,7 @@ args
 {
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -1518,7 +1518,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 other
 (
@@ -1818,7 +1818,7 @@ setDay
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 thisDate
 (
@@ -1894,7 +1894,7 @@ setDay
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 otherDate
 (
@@ -1998,7 +1998,7 @@ destEpochNs
 =
 GetUTCEpochNanoseconds
 (
-PlainDateTime
+ISODateTime
 {
 otherDate
 {
@@ -2009,7 +2009,7 @@ otherDate
 auto
 dateTime
 =
-PlainDateTime
+ISODateTime
 {
 thisDate
 {
@@ -2176,7 +2176,7 @@ args
 {
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -2379,7 +2379,7 @@ setDay
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 intermediateDate
 (
@@ -2407,7 +2407,7 @@ return
 false
 ;
 }
-PlainDate
+ISODate
 date
 ;
 if
@@ -2426,7 +2426,7 @@ DateDuration
 1
 }
 ;
-PlainDate
+ISODate
 nextMonth
 ;
 if
@@ -2484,7 +2484,7 @@ NormalizeDurationWithoutTime
 duration
 )
 ;
-PlainDate
+ISODate
 addedDate
 ;
 if
@@ -2516,12 +2516,12 @@ addedDate
 ;
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 addedYearMonth
 (
 cx
-PlainYearMonthWithCalendar
+PlainYearMonth
 {
 addedDate
 calendar
@@ -2555,7 +2555,7 @@ false
 }
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 (
@@ -2864,7 +2864,7 @@ false
 auto
 isoDate
 =
-PlainDate
+ISODate
 {
 int32_t
 (
@@ -2943,7 +2943,7 @@ vp
 ;
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -3038,7 +3038,7 @@ vp
 ;
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 one
 (
@@ -3068,7 +3068,7 @@ false
 }
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 two
 (
@@ -4186,7 +4186,7 @@ args
 {
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -4428,7 +4428,7 @@ false
 }
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 (
@@ -4826,7 +4826,7 @@ calendar
 ;
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 other
 (
@@ -5383,7 +5383,7 @@ args
 {
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 (
@@ -5520,7 +5520,7 @@ inputFields
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 (

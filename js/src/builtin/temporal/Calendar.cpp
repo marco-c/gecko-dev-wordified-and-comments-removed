@@ -1142,7 +1142,7 @@ int32_t
 ToISODayOfWeek
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1318,7 +1318,7 @@ int32_t
 ToISODayOfYear
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1448,7 +1448,7 @@ int64_t
 MakeTime
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -1533,7 +1533,7 @@ temporal
 MakeDay
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1572,7 +1572,7 @@ temporal
 MakeDate
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 )
@@ -1635,7 +1635,7 @@ YearWeek
 ToISOWeekOfYear
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -3351,7 +3351,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -9450,8 +9450,8 @@ true
 ;
 }
 static
-PlainDate
-ToPlainDate
+ISODate
+ToISODate
 (
 const
 capi
@@ -9767,7 +9767,7 @@ CalendarFields
 fields
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -10014,7 +10014,7 @@ false
 *
 result
 =
-ToPlainDate
+ToISODate
 (
 date
 .
@@ -10043,7 +10043,7 @@ CalendarFields
 fields
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -10174,7 +10174,7 @@ year
 )
 ;
 }
-PlainDate
+ISODate
 regulated
 ;
 if
@@ -10611,7 +10611,7 @@ constexpr
 auto
 isoReferenceDate
 =
-PlainDate
+ISODate
 {
 1972
 12
@@ -10741,9 +10741,9 @@ isOk
 )
 {
 auto
-plainDate
+isoDate
 =
-ToPlainDate
+ToISODate
 (
 result
 .
@@ -10758,7 +10758,7 @@ get
 ;
 if
 (
-plainDate
+isoDate
 .
 year
 >
@@ -10970,7 +10970,7 @@ false
 *
 result
 =
-ToPlainDate
+ToISODate
 (
 date
 .
@@ -11444,7 +11444,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -11626,7 +11626,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -11772,7 +11772,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -11911,7 +11911,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -12041,7 +12041,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -12246,7 +12246,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -12376,7 +12376,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -12593,7 +12593,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -12883,7 +12883,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13085,7 +13085,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13361,7 +13361,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13400,7 +13400,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13538,7 +13538,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13671,7 +13671,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -13799,7 +13799,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 MutableHandle
@@ -14192,7 +14192,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 DateFieldType
@@ -14496,7 +14496,7 @@ JSContext
 cx
 Handle
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 MutableHandle
@@ -14538,7 +14538,7 @@ JSContext
 cx
 Handle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 MutableHandle
@@ -14584,7 +14584,7 @@ JSContext
 cx
 Handle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 MutableHandle
@@ -14630,7 +14630,7 @@ JSContext
 cx
 Handle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 MutableHandle
@@ -14688,7 +14688,7 @@ TemporalOverflow
 overflow
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -14721,7 +14721,7 @@ return
 false
 ;
 }
-PlainDate
+ISODate
 date
 ;
 if
@@ -14778,7 +14778,7 @@ TemporalOverflow
 overflow
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -14836,7 +14836,7 @@ setDay
 firstDayIndex
 )
 ;
-PlainDate
+ISODate
 date
 ;
 if
@@ -14893,7 +14893,7 @@ TemporalOverflow
 overflow
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -14926,7 +14926,7 @@ return
 false
 ;
 }
-PlainDate
+ISODate
 date
 ;
 if
@@ -14975,7 +14975,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -14984,7 +14984,7 @@ DateDuration
 duration
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -15066,11 +15066,11 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 one
 const
-PlainDate
+ISODate
 &
 two
 TemporalUnit

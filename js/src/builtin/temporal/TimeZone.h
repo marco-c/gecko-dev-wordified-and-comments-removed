@@ -831,7 +831,7 @@ struct
 ParsedTimeZone
 ;
 struct
-PlainDateTime
+ISODateTime
 ;
 enum
 class
@@ -963,7 +963,7 @@ TimeZoneValue
 two
 )
 ;
-PlainDateTime
+ISODateTime
 GetISODateTimeFor
 (
 const
@@ -992,7 +992,7 @@ const
 Instant
 &
 instant
-PlainDateTime
+ISODateTime
 *
 result
 )
@@ -1012,7 +1012,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation
@@ -1071,7 +1071,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 PossibleInstants
@@ -1098,7 +1098,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation
@@ -1181,7 +1181,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDate
+ISODate
 &
 date
 Instant

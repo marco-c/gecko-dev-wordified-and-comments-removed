@@ -137,7 +137,7 @@ SLOT_COUNT
 =
 2
 ;
-PlainDate
+ISODate
 date
 (
 )
@@ -195,10 +195,10 @@ classSpec_
 ;
 class
 MOZ_STACK_CLASS
-PlainMonthDayWithCalendar
+PlainMonthDay
 final
 {
-PlainDate
+ISODate
 date_
 ;
 CalendarValue
@@ -206,16 +206,16 @@ calendar_
 ;
 public
 :
-PlainMonthDayWithCalendar
+PlainMonthDay
 (
 )
 =
 default
 ;
-PlainMonthDayWithCalendar
+PlainMonthDay
 (
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -243,7 +243,7 @@ date
 ;
 }
 explicit
-PlainMonthDayWithCalendar
+PlainMonthDay
 (
 const
 PlainMonthDayObject
@@ -251,7 +251,7 @@ PlainMonthDayObject
 monthDay
 )
 :
-PlainMonthDayWithCalendar
+PlainMonthDay
 (
 monthDay
 -
@@ -294,7 +294,7 @@ calendar_
 }
 operator
 const
-PlainDate
+ISODate
 &
 (
 )
@@ -349,7 +349,7 @@ JS
 :
 Handle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 )
@@ -361,7 +361,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 isoDate
 JS
@@ -377,7 +377,7 @@ JS
 :
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -397,7 +397,7 @@ WrappedPtrOperations
 temporal
 :
 :
-PlainMonthDayWithCalendar
+PlainMonthDay
 Wrapper
 >
 {
@@ -491,7 +491,7 @@ const
 temporal
 :
 :
-PlainDate
+ISODate
 &
 (
 )

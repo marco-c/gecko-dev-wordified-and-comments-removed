@@ -1889,7 +1889,7 @@ temporal
 GetUTCEpochNanoseconds
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 )
@@ -1971,7 +1971,7 @@ temporal
 GetUTCEpochNanoseconds
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 const
@@ -2434,7 +2434,7 @@ toString
 )
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 int64_t

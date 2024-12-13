@@ -680,7 +680,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 OffsetBehaviour
@@ -1091,7 +1091,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 OffsetBehaviour
@@ -1687,7 +1687,7 @@ overflow
 =
 resolvedOptions
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2627,7 +2627,7 @@ result
 )
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2665,7 +2665,7 @@ time
 =
 dateTime
 ;
-PlainDate
+ISODate
 addedDate
 ;
 if
@@ -2693,7 +2693,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 intermediateDateTime
 ;
 if
@@ -2866,7 +2866,7 @@ return
 true
 ;
 }
-PlainDateTime
+ISODateTime
 startDateTime
 ;
 if
@@ -2886,7 +2886,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 endDateTime
 ;
 if
@@ -2993,7 +2993,7 @@ dayCorrection
 sign
 )
 ;
-PlainDateTime
+ISODateTime
 intermediateDateTime
 ;
 if
@@ -3458,7 +3458,7 @@ return
 true
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -3676,7 +3676,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5415,7 +5415,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5540,7 +5540,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5665,7 +5665,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5790,7 +5790,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5915,7 +5915,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6040,7 +6040,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6165,7 +6165,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6289,7 +6289,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6413,7 +6413,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6537,7 +6537,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6661,7 +6661,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -6785,7 +6785,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7114,7 +7114,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7239,7 +7239,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7364,7 +7364,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7489,7 +7489,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7623,7 +7623,7 @@ timeZone
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7874,7 +7874,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7999,7 +7999,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8124,7 +8124,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8249,7 +8249,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8374,7 +8374,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8915,12 +8915,12 @@ dateTime
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 (
 cx
-PlainDateWithCalendar
+PlainDate
 {
 dateTime
 .
@@ -9242,7 +9242,7 @@ false
 ;
 }
 }
-PlainDateTime
+ISODateTime
 dateTimeResult
 ;
 if
@@ -9439,7 +9439,7 @@ calendar
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -9506,7 +9506,7 @@ false
 }
 else
 {
-PlainTime
+Time
 time
 =
 {
@@ -9531,7 +9531,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 resultPlainDateTime
 ;
 if
@@ -10606,7 +10606,7 @@ calendar
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11959,7 +11959,7 @@ calendar
 (
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -12620,7 +12620,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 temporalDateTime
 ;
 if
@@ -12768,7 +12768,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 temporalDateTime
 ;
 if
@@ -12911,7 +12911,7 @@ ZonedDateTimeObject
 }
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if

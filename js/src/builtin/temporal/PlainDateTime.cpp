@@ -517,7 +517,7 @@ temporal
 IsValidISODateTime
 (
 const
-PlainDateTime
+ISODateTime
 &
 isoDateTime
 )
@@ -551,7 +551,7 @@ temporal
 ISODateTimeWithinLimits
 (
 const
-PlainDateTime
+ISODateTime
 &
 isoDateTime
 )
@@ -777,7 +777,7 @@ CallArgs
 &
 args
 const
-PlainDateTime
+ISODateTime
 &
 isoDateTime
 Handle
@@ -969,7 +969,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 isoDateTime
 Handle
@@ -1129,7 +1129,7 @@ JSContext
 cx
 Handle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 )
@@ -1163,7 +1163,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -1173,7 +1173,7 @@ CalendarValue
 calendar
 MutableHandle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 result
 )
@@ -1211,7 +1211,7 @@ result
 .
 set
 (
-PlainDateTimeWithCalendar
+PlainDateTime
 {
 dateTime
 calendar
@@ -1235,14 +1235,14 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 const
-PlainTime
+Time
 &
 time
-PlainDateTime
+ISODateTime
 *
 result
 )
@@ -1250,7 +1250,7 @@ result
 auto
 dateTime
 =
-PlainDateTime
+ISODateTime
 {
 date
 time
@@ -1318,14 +1318,14 @@ CalendarFields
 fields
 TemporalOverflow
 overflow
-PlainDateTime
+ISODateTime
 *
 result
 )
 {
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 temporalDate
 (
@@ -1387,7 +1387,7 @@ nanosecond
 )
 }
 ;
-PlainTime
+Time
 time
 ;
 if
@@ -1558,7 +1558,7 @@ Value
 options
 MutableHandle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 result
 )
@@ -1643,7 +1643,7 @@ result
 .
 set
 (
-PlainDateTimeWithCalendar
+PlainDateTime
 {
 dateTime
 calendar
@@ -1739,7 +1739,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -1782,7 +1782,7 @@ result
 .
 set
 (
-PlainDateTimeWithCalendar
+PlainDateTime
 {
 dateTime
 calendar
@@ -1873,7 +1873,7 @@ return
 CreateTemporalDateTime
 (
 cx
-PlainDateTime
+ISODateTime
 {
 date
 }
@@ -2001,7 +2001,7 @@ overflow
 =
 resolvedOptions
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2051,7 +2051,7 @@ Value
 options
 MutableHandle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 result
 )
@@ -2134,7 +2134,7 @@ toString
 )
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 Rooted
@@ -2254,7 +2254,7 @@ Value
 item
 MutableHandle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 result
 )
@@ -2274,11 +2274,11 @@ int32_t
 CompareISODateTime
 (
 const
-PlainDateTime
+ISODateTime
 &
 one
 const
-PlainDateTime
+ISODateTime
 &
 two
 )
@@ -2323,11 +2323,11 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 one
 const
-PlainDateTime
+ISODateTime
 &
 two
 Handle
@@ -2564,7 +2564,7 @@ result
 )
 ;
 }
-PlainDateTime
+ISODateTime
 js
 :
 :
@@ -2574,7 +2574,7 @@ temporal
 RoundISODateTime
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Increment
@@ -2673,11 +2673,11 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 one
 const
-PlainDateTime
+ISODateTime
 &
 two
 Handle
@@ -3001,11 +3001,11 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 one
 const
-PlainDateTime
+ISODateTime
 &
 two
 Handle
@@ -3230,7 +3230,7 @@ args
 {
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 (
@@ -3256,7 +3256,7 @@ PlainDateTimeObject
 ;
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 other
 (
@@ -3600,7 +3600,7 @@ args
 {
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 (
@@ -3809,7 +3809,7 @@ return
 false
 ;
 }
-PlainDate
+ISODate
 addedDate
 ;
 if
@@ -3838,7 +3838,7 @@ false
 auto
 result
 =
-PlainDateTime
+ISODateTime
 {
 addedDate
 timeResult
@@ -4360,7 +4360,7 @@ false
 auto
 isoDate
 =
-PlainDate
+ISODate
 {
 int32_t
 (
@@ -4398,7 +4398,7 @@ false
 auto
 time
 =
-PlainTime
+Time
 {
 int32_t
 (
@@ -4429,7 +4429,7 @@ nanosecond
 auto
 isoDateTime
 =
-PlainDateTime
+ISODateTime
 {
 isoDate
 time
@@ -4498,7 +4498,7 @@ vp
 ;
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 (
@@ -4593,7 +4593,7 @@ vp
 ;
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 one
 (
@@ -4623,7 +4623,7 @@ false
 }
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 two
 (
@@ -6917,7 +6917,7 @@ args
 {
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 (
@@ -7263,7 +7263,7 @@ false
 ;
 }
 }
-PlainDateTime
+ISODateTime
 result
 ;
 if
@@ -7424,7 +7424,7 @@ calendar
 )
 )
 ;
-PlainTime
+Time
 time
 =
 {
@@ -8477,7 +8477,7 @@ calendar
 ;
 Rooted
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 other
 (

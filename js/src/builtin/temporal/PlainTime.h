@@ -95,7 +95,7 @@ SLOT_COUNT
 =
 1
 ;
-PlainTime
+Time
 time
 (
 )
@@ -166,7 +166,7 @@ bool
 IsValidTime
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -197,7 +197,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 )
@@ -230,7 +230,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 )
@@ -252,7 +252,7 @@ JS
 Value
 >
 item
-PlainTime
+Time
 *
 result
 )
@@ -266,7 +266,7 @@ days
 =
 0
 ;
-PlainTime
+Time
 time
 ;
 }
@@ -275,7 +275,7 @@ TimeRecord
 AddTime
 (
 const
-PlainTime
+Time
 &
 time
 const
@@ -288,11 +288,11 @@ NormalizedTimeDuration
 DifferenceTime
 (
 const
-PlainTime
+Time
 &
 time1
 const
-PlainTime
+Time
 &
 time2
 )
@@ -345,7 +345,7 @@ TemporalTimeLike
 time
 TemporalOverflow
 overflow
-PlainTime
+Time
 *
 result
 )
@@ -354,11 +354,11 @@ int32_t
 CompareTimeRecord
 (
 const
-PlainTime
+Time
 &
 one
 const
-PlainTime
+Time
 &
 two
 )
@@ -367,7 +367,7 @@ TimeRecord
 BalanceTime
 (
 const
-PlainTime
+Time
 &
 time
 int64_t
@@ -378,7 +378,7 @@ TimeRecord
 RoundTime
 (
 const
-PlainTime
+Time
 &
 time
 Increment

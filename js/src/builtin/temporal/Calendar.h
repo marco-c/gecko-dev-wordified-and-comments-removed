@@ -453,25 +453,25 @@ struct
 DateDuration
 ;
 struct
-PlainDate
+ISODate
 ;
 struct
-PlainDateTime
+ISODateTime
 ;
 class
-PlainDateWithCalendar
+PlainDate
 ;
 class
 PlainMonthDayObject
 ;
 class
-PlainMonthDayWithCalendar
+PlainMonthDay
 ;
 class
 PlainYearMonthObject
 ;
 class
-PlainYearMonthWithCalendar
+PlainYearMonth
 ;
 class
 CalendarFields
@@ -497,7 +497,7 @@ int32_t
 MakeDay
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -506,7 +506,7 @@ int64_t
 MakeDate
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 )
@@ -632,7 +632,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -641,7 +641,7 @@ DateDuration
 duration
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -661,11 +661,11 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 one
 const
-PlainDate
+ISODate
 &
 two
 TemporalUnit
@@ -690,7 +690,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -721,7 +721,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -752,7 +752,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -783,7 +783,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -814,7 +814,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -845,7 +845,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -876,7 +876,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -907,7 +907,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -938,7 +938,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -969,7 +969,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1000,7 +1000,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1031,7 +1031,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1062,7 +1062,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1093,7 +1093,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1124,7 +1124,7 @@ CalendarValue
 >
 calendar
 const
-PlainDate
+ISODate
 &
 date
 JS
@@ -1166,7 +1166,7 @@ TemporalOverflow
 overflow
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -1200,7 +1200,7 @@ JS
 :
 MutableHandle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 )
@@ -1234,7 +1234,7 @@ JS
 :
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )

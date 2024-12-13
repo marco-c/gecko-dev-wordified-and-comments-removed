@@ -1749,7 +1749,7 @@ MaxEpochDay
 MinEpochDay
 ;
 struct
-PlainDate
+ISODate
 final
 {
 int32_t
@@ -1773,7 +1773,7 @@ operator
 =
 (
 const
-PlainDate
+ISODate
 &
 other
 )
@@ -1810,7 +1810,7 @@ operator
 =
 (
 const
-PlainDate
+ISODate
 &
 other
 )
@@ -1830,7 +1830,7 @@ other
 }
 ;
 struct
-PlainTime
+Time
 final
 {
 int32_t
@@ -1869,7 +1869,7 @@ operator
 =
 (
 const
-PlainTime
+Time
 &
 other
 )
@@ -1930,7 +1930,7 @@ operator
 =
 (
 const
-PlainTime
+Time
 &
 other
 )
@@ -1950,13 +1950,13 @@ other
 }
 ;
 struct
-PlainDateTime
+ISODateTime
 final
 {
-PlainDate
+ISODate
 date
 ;
-PlainTime
+Time
 time
 ;
 bool
@@ -1965,7 +1965,7 @@ operator
 =
 (
 const
-PlainDateTime
+ISODateTime
 &
 other
 )
@@ -1994,7 +1994,7 @@ operator
 =
 (
 const
-PlainDateTime
+ISODateTime
 &
 other
 )
@@ -2074,7 +2074,7 @@ PackedDate
 pack
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -2115,7 +2115,7 @@ DayShift
 }
 static
 constexpr
-PlainDate
+ISODate
 unpack
 (
 const
@@ -2281,7 +2281,7 @@ PackedTime
 pack
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -2352,7 +2352,7 @@ NanosecondShift
 }
 static
 constexpr
-PlainTime
+Time
 unpack
 (
 const

@@ -1447,7 +1447,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 PossibleInstants
@@ -2335,7 +2335,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDate
+ISODate
 &
 date
 Instant
@@ -2346,7 +2346,7 @@ result
 auto
 dateTime
 =
-PlainDateTime
+ISODateTime
 {
 date
 {
@@ -4001,7 +4001,7 @@ false
 ;
 }
 static
-PlainDateTime
+ISODateTime
 GetISOPartsFromEpoch
 (
 const
@@ -4091,7 +4091,7 @@ remainderNs
 %
 1000
 ;
-PlainDateTime
+ISODateTime
 result
 =
 {
@@ -4133,11 +4133,11 @@ result
 ;
 }
 static
-PlainDateTime
+ISODateTime
 BalanceISODateTime
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 int64_t
@@ -4234,7 +4234,7 @@ time
 }
 ;
 }
-PlainDateTime
+ISODateTime
 js
 :
 :
@@ -4278,7 +4278,7 @@ Day
 )
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 =
 GetISOPartsFromEpoch
@@ -4328,7 +4328,7 @@ const
 Instant
 &
 instant
-PlainDateTime
+ISODateTime
 *
 result
 )
@@ -4411,7 +4411,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 PossibleInstants
@@ -4581,7 +4581,7 @@ auto
 AddTime
 (
 const
-PlainTime
+Time
 &
 time
 int64_t
@@ -4646,7 +4646,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation
@@ -5058,7 +5058,7 @@ days
 auto
 earlierDateTime
 =
-PlainDateTime
+ISODateTime
 {
 earlierDate
 earlierTime
@@ -5194,7 +5194,7 @@ days
 auto
 laterDateTime
 =
-PlainDateTime
+ISODateTime
 {
 laterDate
 laterTime
@@ -5274,7 +5274,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation

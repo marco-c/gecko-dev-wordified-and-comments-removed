@@ -627,7 +627,7 @@ temporal
 IsValidISODate
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -699,7 +699,7 @@ temporal
 ISODateWithinLimits
 (
 const
-PlainDate
+ISODate
 &
 isoDate
 )
@@ -1143,7 +1143,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1204,11 +1204,11 @@ day
 ;
 }
 static
-PlainDate
+ISODate
 ConstrainISODate
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1278,12 +1278,12 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -1367,7 +1367,7 @@ double
 day
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -1521,7 +1521,7 @@ CallArgs
 &
 args
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -1672,7 +1672,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -1796,7 +1796,7 @@ JSContext
 cx
 Handle
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 )
@@ -1835,7 +1835,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -1845,7 +1845,7 @@ CalendarValue
 calendar
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -1883,7 +1883,7 @@ result
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 isoDate
 calendar
@@ -2029,7 +2029,7 @@ Value
 options
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -2114,7 +2114,7 @@ result
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 date
 calendar
@@ -2210,7 +2210,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2253,7 +2253,7 @@ result
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 dateTime
 .
@@ -2346,7 +2346,7 @@ result
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 date
 calendar
@@ -2482,7 +2482,7 @@ Value
 options
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -2565,7 +2565,7 @@ toString
 )
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 ;
 Rooted
@@ -2689,7 +2689,7 @@ Value
 item
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 result
 )
@@ -2901,7 +2901,7 @@ balancedMonth
 }
 static
 bool
-IsValidPlainDateEpochMilliseconds
+IsValidISODateEpochMilliseconds
 (
 int64_t
 epochMilliseconds
@@ -2987,12 +2987,12 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 int64_t
 days
-PlainDate
+ISODate
 *
 result
 )
@@ -3053,7 +3053,7 @@ isValid
 |
 |
 !
-IsValidPlainDateEpochMilliseconds
+IsValidISODateEpochMilliseconds
 (
 epochMilliseconds
 .
@@ -3094,7 +3094,7 @@ value
 *
 result
 =
-PlainDate
+ISODate
 {
 year
 month
@@ -3125,7 +3125,7 @@ return
 true
 ;
 }
-PlainDate
+ISODate
 js
 :
 :
@@ -3135,7 +3135,7 @@ temporal
 BalanceISODate
 (
 const
-PlainDate
+ISODate
 &
 date
 int32_t
@@ -3220,7 +3220,7 @@ epochMilliseconds
 auto
 result
 =
-PlainDate
+ISODate
 {
 year
 month
@@ -3288,7 +3288,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -3297,7 +3297,7 @@ DateDuration
 duration
 TemporalOverflow
 overflow
-PlainDate
+ISODate
 *
 result
 )
@@ -3388,7 +3388,7 @@ return
 false
 ;
 }
-PlainDate
+ISODate
 regulated
 ;
 if
@@ -3455,7 +3455,7 @@ weeks
 *
 7
 ;
-PlainDate
+ISODate
 balanced
 ;
 if
@@ -3508,11 +3508,11 @@ months
 }
 ;
 static
-PlainDate
+ISODate
 AddISODate
 (
 const
-PlainDate
+ISODate
 &
 date
 const
@@ -3770,11 +3770,11 @@ temporal
 CompareISODate
 (
 const
-PlainDate
+ISODate
 &
 one
 const
-PlainDate
+ISODate
 &
 two
 )
@@ -3923,11 +3923,11 @@ temporal
 DifferenceISODate
 (
 const
-PlainDate
+ISODate
 &
 start
 const
-PlainDate
+ISODate
 &
 end
 TemporalUnit
@@ -4503,7 +4503,7 @@ calendar
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 other
 (
@@ -4809,7 +4809,7 @@ difference
 auto
 otherDateTime
 =
-PlainDateTime
+ISODateTime
 {
 other
 .
@@ -4831,7 +4831,7 @@ otherDateTime
 auto
 dateTime
 =
-PlainDateTime
+ISODateTime
 {
 temporalDate
 -
@@ -5168,7 +5168,7 @@ false
 ;
 }
 }
-PlainDate
+ISODate
 result
 ;
 if
@@ -5464,7 +5464,7 @@ false
 auto
 isoDate
 =
-PlainDate
+ISODate
 {
 int32_t
 (
@@ -5543,7 +5543,7 @@ vp
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 (
@@ -5638,7 +5638,7 @@ vp
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 one
 (
@@ -5668,7 +5668,7 @@ false
 }
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 two
 (
@@ -7410,7 +7410,7 @@ args
 {
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 temporalDate
 (
@@ -7470,7 +7470,7 @@ false
 }
 Rooted
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 result
 (
@@ -7584,7 +7584,7 @@ args
 {
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 temporalDate
 (
@@ -7644,7 +7644,7 @@ false
 }
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 (
@@ -7793,7 +7793,7 @@ calendar
 )
 )
 ;
-PlainDateTime
+ISODateTime
 dateTime
 =
 {
@@ -8046,7 +8046,7 @@ args
 {
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 temporalDate
 (
@@ -8292,7 +8292,7 @@ false
 }
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 (
@@ -8717,7 +8717,7 @@ calendar
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 other
 (
@@ -9093,7 +9093,7 @@ false
 }
 else
 {
-PlainTime
+Time
 time
 =
 {
@@ -9115,7 +9115,7 @@ return
 false
 ;
 }
-PlainDateTime
+ISODateTime
 temporalDateTime
 ;
 if

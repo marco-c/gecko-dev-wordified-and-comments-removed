@@ -454,7 +454,7 @@ CallArgs
 &
 args
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -598,7 +598,7 @@ JSContext
 cx
 Handle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 )
@@ -706,7 +706,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 isoDate
 Handle
@@ -716,7 +716,7 @@ CalendarValue
 calendar
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -754,7 +754,7 @@ result
 .
 set
 (
-PlainMonthDayWithCalendar
+PlainMonthDay
 {
 isoDate
 calendar
@@ -900,7 +900,7 @@ Value
 options
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -985,7 +985,7 @@ result
 .
 set
 (
-PlainMonthDayWithCalendar
+PlainMonthDay
 {
 date
 calendar
@@ -1121,7 +1121,7 @@ Value
 options
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -1204,7 +1204,7 @@ toString
 )
 )
 ;
-PlainDate
+ISODate
 date
 ;
 bool
@@ -1344,7 +1344,7 @@ result
 }
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 (
@@ -1421,7 +1421,7 @@ Value
 item
 MutableHandle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 )
@@ -1684,7 +1684,7 @@ false
 auto
 isoDate
 =
-PlainDate
+ISODate
 {
 int32_t
 (
@@ -1763,7 +1763,7 @@ vp
 ;
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 (
@@ -2176,7 +2176,7 @@ args
 {
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 (
@@ -2422,7 +2422,7 @@ false
 }
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 result
 (
@@ -2588,7 +2588,7 @@ calendar
 ;
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 other
 (
@@ -3145,7 +3145,7 @@ args
 {
 Rooted
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 (
@@ -3282,7 +3282,7 @@ inputFields
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 (
