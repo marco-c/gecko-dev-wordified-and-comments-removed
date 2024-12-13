@@ -2355,15 +2355,9 @@ oneDay
 EpochDuration
 :
 :
-fromSeconds
+fromDays
 (
-ToSeconds
-(
-TemporalUnit
-:
-:
-Day
-)
+1
 )
 ;
 constexpr
