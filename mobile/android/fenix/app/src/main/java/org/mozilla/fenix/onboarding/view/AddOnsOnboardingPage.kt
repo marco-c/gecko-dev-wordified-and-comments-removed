@@ -459,16 +459,6 @@ unit
 .
 dp
 import
-androidx
-.
-core
-.
-content
-.
-ContextCompat
-.
-startActivity
-import
 mozilla
 .
 components
