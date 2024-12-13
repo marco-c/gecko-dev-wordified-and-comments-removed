@@ -762,7 +762,14 @@ Couldn
 t
 open
 avcodec
+for
+%
+s
 "
+codec
+-
+>
+name
 )
 ;
 return
