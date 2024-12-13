@@ -4178,12 +4178,6 @@ si
 {
 if
 (
-si
->
-=
-0
-&
-&
 StaticStrings
 :
 :
