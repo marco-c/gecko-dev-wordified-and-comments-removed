@@ -2367,7 +2367,7 @@ stub
 =
 PopNextBitmaskValue
 <
-StubIndex
+StubKind
 >
 (
 &
