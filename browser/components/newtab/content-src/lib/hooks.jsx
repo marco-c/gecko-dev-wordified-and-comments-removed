@@ -218,15 +218,11 @@ function
 useIntersectionObserver
 (
 callback
-options
-=
-{
 threshold
-:
+=
 0
 .
 3
-}
 )
 {
 const
@@ -291,7 +287,9 @@ target
 )
 ;
 }
-options
+{
+threshold
+}
 )
 ;
 elementsRef
@@ -323,7 +321,7 @@ el
 }
 [
 callback
-options
+threshold
 ]
 )
 ;
