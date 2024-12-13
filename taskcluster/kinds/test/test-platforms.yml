@@ -2083,6 +2083,16 @@ macosx1470
 64
 -
 tests
+-
+webgpu
+-
+web
+-
+platform
+-
+tests
+-
+backlog
 macosx1470
 -
 64
@@ -2110,6 +2120,8 @@ macosx1470
 64
 -
 tests
+-
+webgpu
 macosx1470
 -
 64
@@ -2141,6 +2153,8 @@ platform
 tests
 -
 backlog
+-
+webgpu
 macosx1470
 -
 64
@@ -2164,6 +2178,8 @@ macosx1470
 64
 -
 tests
+-
+webgpu
 macosx1015
 -
 64
@@ -2225,8 +2241,6 @@ platform
 tests
 -
 1015
--
-webgpu
 macosx1015
 -
 64
@@ -2291,8 +2305,6 @@ platform
 tests
 -
 1015
--
-webgpu
 macosx1015
 -
 64
@@ -2335,8 +2347,6 @@ tests
 -
 1015
 -
-webgpu
--
 browsertime
 macosx1015
 -
@@ -2373,8 +2383,6 @@ platform
 tests
 -
 1015
--
-webgpu
 macosx1400
 -
 64
