@@ -1192,6 +1192,10 @@ getCookieId
 name
 domain
 path
+partitionKey
+=
+"
+"
 )
 {
 return
@@ -1209,6 +1213,12 @@ SEPARATOR_GUID
 }
 {
 path
+}
+{
+SEPARATOR_GUID
+}
+{
+partitionKey
 }
 ;
 }
