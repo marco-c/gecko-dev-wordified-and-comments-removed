@@ -25,7 +25,7 @@ evaluate
 (
 code
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

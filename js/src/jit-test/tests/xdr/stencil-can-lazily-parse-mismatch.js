@@ -166,7 +166,7 @@ sourceIsLazy1
 forceFullParse
 :
 forceFullParse1
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

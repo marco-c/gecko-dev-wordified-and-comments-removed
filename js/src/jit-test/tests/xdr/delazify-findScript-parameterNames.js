@@ -163,7 +163,7 @@ cache
 global
 :
 g
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

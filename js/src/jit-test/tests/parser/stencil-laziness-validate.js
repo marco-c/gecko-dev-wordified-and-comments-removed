@@ -115,7 +115,7 @@ code
 global
 :
 gWithSource
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

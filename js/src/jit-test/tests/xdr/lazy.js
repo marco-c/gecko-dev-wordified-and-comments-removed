@@ -831,7 +831,7 @@ code
 global
 :
 g1
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

@@ -52,7 +52,7 @@ true
 )
 }
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

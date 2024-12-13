@@ -37,7 +37,7 @@ code
 global
 :
 g
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

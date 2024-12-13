@@ -66,7 +66,7 @@ entry
 global
 :
 global
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

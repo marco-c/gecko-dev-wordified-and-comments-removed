@@ -1498,7 +1498,7 @@ False
 encodeOpt
 [
 "
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 "
 ]
 =

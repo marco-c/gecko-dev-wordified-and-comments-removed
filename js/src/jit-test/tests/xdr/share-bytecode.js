@@ -30,7 +30,7 @@ evaluate
 (
 entry
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

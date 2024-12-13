@@ -55,7 +55,7 @@ create
 {
 }
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

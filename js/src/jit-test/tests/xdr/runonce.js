@@ -16,7 +16,7 @@ cacheEntry
 "
 )
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
@@ -30,7 +30,7 @@ cacheEntry
 "
 )
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 isRunOnce
@@ -47,7 +47,7 @@ cacheEntry
 "
 )
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 isRunOnce

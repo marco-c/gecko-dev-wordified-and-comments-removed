@@ -35,7 +35,7 @@ evaluate
 code
 {
 global
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
@@ -46,7 +46,7 @@ evaluate
 code
 {
 global
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

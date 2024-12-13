@@ -56,11 +56,11 @@ code
 )
 ;
 var
-incremental
+collectDelazifications
 =
 ctx
 .
-incremental
+collectDelazifications
 |
 |
 false
@@ -100,7 +100,7 @@ create
 (
 ctx
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

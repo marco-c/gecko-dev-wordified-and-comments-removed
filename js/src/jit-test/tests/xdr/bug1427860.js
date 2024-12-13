@@ -24,7 +24,7 @@ evaluate
 (
 x
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

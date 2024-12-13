@@ -25,7 +25,7 @@ evaluate
 (
 c
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

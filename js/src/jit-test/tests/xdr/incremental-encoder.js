@@ -50,7 +50,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 assertEqResult
@@ -78,7 +78,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 assertEqResult
@@ -108,7 +108,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 assertEqResult
@@ -148,7 +148,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 assertEqResult
@@ -229,7 +229,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 }

@@ -98,7 +98,7 @@ create
 (
 ctx
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value
@@ -128,7 +128,7 @@ value
 :
 true
 }
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

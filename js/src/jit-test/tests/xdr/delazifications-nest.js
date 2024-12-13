@@ -308,7 +308,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 oassertEqResult
