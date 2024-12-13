@@ -385,7 +385,11 @@ isServerTargetSwitchingEnabled
 )
 {
 return
-true
+this
+.
+traits
+.
+isServerTargetSwitchingEnabled
 ;
 }
 getWatcher

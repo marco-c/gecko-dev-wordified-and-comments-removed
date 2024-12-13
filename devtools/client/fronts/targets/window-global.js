@@ -319,6 +319,11 @@ if
 packet
 .
 isFrameSwitching
+|
+|
+this
+.
+isWebExtension
 )
 {
 this
