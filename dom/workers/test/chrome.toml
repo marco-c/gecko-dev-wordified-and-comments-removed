@@ -228,7 +228,9 @@ js
 "
 WorkerTest
 .
-jsm
+sys
+.
+mjs
 "
 "
 WorkerTest_subworker
@@ -452,7 +454,7 @@ xhtml
 ]
 [
 "
-test_chromeWorkerJSM
+test_chromeWorkerESM
 .
 xhtml
 "
