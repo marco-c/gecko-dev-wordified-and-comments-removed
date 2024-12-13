@@ -251,6 +251,12 @@ nsIFrame
 *
 GetPaintGeometry
 (
+)
+;
+nsIFrame
+*
+GetPaintGeometry
+(
 nsRect
 *
 aRect

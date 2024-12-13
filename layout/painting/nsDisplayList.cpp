@@ -2253,9 +2253,6 @@ GetLastPaintedFrame
 (
 )
 ;
-nsRect
-caretRect
-;
 nsIFrame
 *
 currentCaret
@@ -2265,8 +2262,6 @@ caret
 >
 GetPaintGeometry
 (
-&
-caretRect
 )
 ;
 if
