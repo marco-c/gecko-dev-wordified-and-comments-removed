@@ -1783,9 +1783,6 @@ aCodec
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 AVCodec
 *
 FFmpegDataDecoder
@@ -1864,6 +1861,4 @@ return
 nullptr
 ;
 }
-#
-endif
 }
