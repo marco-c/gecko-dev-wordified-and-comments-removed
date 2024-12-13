@@ -985,17 +985,6 @@ EpochNanoseconds
 result
 )
 ;
-JSString
-*
-FormatUTCOffsetNanoseconds
-(
-JSContext
-*
-cx
-int64_t
-offsetNanoseconds
-)
-;
 bool
 GetOffsetNanosecondsFor
 (
