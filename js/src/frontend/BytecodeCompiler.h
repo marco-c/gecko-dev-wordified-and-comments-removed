@@ -777,10 +777,9 @@ Other
 }
 ;
 extern
-already_AddRefed
-<
+const
 CompilationStencil
->
+*
 DelazifyCanonicalScriptedFunction
 (
 FrontendContext
