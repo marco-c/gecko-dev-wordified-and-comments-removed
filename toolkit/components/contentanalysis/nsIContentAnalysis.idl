@@ -152,6 +152,9 @@ eErrorOther
 eOtherRequestInGroupCancelled
 =
 4
+eShutdown
+=
+5
 }
 ;
 readonly
@@ -610,6 +613,9 @@ cancelContentAnalysisRequest
 in
 ACString
 aRequestToken
+in
+boolean
+aNotifyObservers
 )
 ;
 void
