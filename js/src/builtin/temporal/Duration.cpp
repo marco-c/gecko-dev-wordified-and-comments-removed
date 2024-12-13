@@ -5442,7 +5442,7 @@ later
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 earlier
 )
@@ -5450,7 +5450,7 @@ earlier
 ;
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 later
 )

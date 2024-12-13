@@ -509,7 +509,7 @@ nullptr
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 isoYear
 isoMonth
@@ -700,7 +700,7 @@ nullptr
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date
 )
@@ -827,7 +827,7 @@ monthDay
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 monthDay
 )
@@ -891,7 +891,7 @@ false
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date
 )

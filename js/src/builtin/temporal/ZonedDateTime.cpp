@@ -3132,7 +3132,7 @@ date
 ;
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date1
 )
@@ -3147,7 +3147,7 @@ intermediateDate
 ;
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date2
 )
