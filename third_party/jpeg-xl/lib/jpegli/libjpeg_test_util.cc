@@ -12,6 +12,11 @@ h
 #
 include
 <
+cstdlib
+>
+#
+include
+<
 cstring
 >
 #

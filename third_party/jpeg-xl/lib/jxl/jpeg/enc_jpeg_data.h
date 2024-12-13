@@ -128,7 +128,7 @@ CompressParams
 cparams
 )
 ;
-void
+Status
 SetColorEncodingFromJpegData
 (
 const

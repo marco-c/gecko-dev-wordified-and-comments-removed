@@ -27,7 +27,7 @@ constexpr
 int
 kJpegHuffmanLutSize
 =
-758
+1024
 ;
 struct
 HuffmanTableEntry

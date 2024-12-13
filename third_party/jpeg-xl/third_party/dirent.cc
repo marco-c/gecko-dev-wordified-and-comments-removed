@@ -43,6 +43,13 @@ endif
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 windows
 .
 h
