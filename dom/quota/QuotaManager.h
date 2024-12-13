@@ -1671,9 +1671,9 @@ BoolPromise
 PersistentOriginInitialized
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 bool
@@ -1768,9 +1768,9 @@ TemporaryOriginInitialized
 PersistenceType
 aPersistenceType
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 bool
