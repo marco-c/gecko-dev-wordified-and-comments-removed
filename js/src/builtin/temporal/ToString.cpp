@@ -1949,9 +1949,9 @@ JSContext
 *
 cx
 const
-Instant
+EpochNanoseconds
 &
-instant
+epochNs
 Handle
 <
 TimeZoneValue
@@ -2002,7 +2002,7 @@ GetOffsetNanosecondsFor
 (
 cx
 timeZone
-instant
+epochNs
 &
 offsetNanoseconds
 )
@@ -2037,7 +2037,7 @@ dateTime
 =
 GetISODateTimeFor
 (
-instant
+epochNs
 offsetNanoseconds
 )
 ;
@@ -2717,7 +2717,7 @@ RoundTemporalInstant
 (
 zonedDateTime
 .
-instant
+epochNanoseconds
 (
 )
 increment

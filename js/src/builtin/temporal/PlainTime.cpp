@@ -2730,11 +2730,13 @@ ZonedDateTimeObject
 )
 {
 auto
-epochInstant
+epochNs
 =
-ToInstant
-(
 zonedDateTime
+-
+>
+epochNanoseconds
+(
 )
 ;
 Rooted
@@ -2777,7 +2779,7 @@ GetISODateTimeFor
 (
 cx
 timeZone
-epochInstant
+epochNs
 &
 dateTime
 )

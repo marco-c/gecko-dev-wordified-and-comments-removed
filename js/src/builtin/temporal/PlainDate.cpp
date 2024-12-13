@@ -2143,11 +2143,13 @@ ZonedDateTimeObject
 )
 {
 auto
-epochInstant
+epochNs
 =
-ToInstant
-(
 zonedDateTime
+-
+>
+epochNanoseconds
+(
 )
 ;
 Rooted
@@ -2220,7 +2222,7 @@ GetISODateTimeFor
 (
 cx
 timeZone
-epochInstant
+epochNs
 &
 dateTime
 )
@@ -2911,7 +2913,7 @@ constexpr
 auto
 oneDay
 =
-InstantSpan
+EpochDuration
 :
 :
 fromSeconds
@@ -2929,7 +2931,7 @@ constexpr
 auto
 min
 =
-Instant
+EpochNanoseconds
 :
 :
 min
@@ -2942,7 +2944,7 @@ constexpr
 auto
 max
 =
-Instant
+EpochNanoseconds
 :
 :
 max
@@ -2952,9 +2954,9 @@ max
 oneDay
 ;
 auto
-instant
+epochNs
 =
-Instant
+EpochNanoseconds
 :
 :
 fromMilliseconds
@@ -2966,10 +2968,10 @@ return
 min
 <
 =
-instant
+epochNs
 &
 &
-instant
+epochNs
 <
 max
 ;
@@ -9061,8 +9063,8 @@ false
 ;
 }
 }
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -9082,7 +9084,7 @@ cx
 timeZone
 date
 &
-instant
+epochNs
 )
 )
 {
@@ -9148,7 +9150,7 @@ TemporalDisambiguation
 :
 Compatible
 &
-instant
+epochNs
 )
 )
 {
@@ -9164,7 +9166,7 @@ result
 CreateTemporalZonedDateTime
 (
 cx
-instant
+epochNs
 timeZone
 calendar
 )

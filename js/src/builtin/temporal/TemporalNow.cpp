@@ -349,7 +349,7 @@ SystemUTCEpochNanoseconds
 JSContext
 *
 cx
-Instant
+EpochNanoseconds
 *
 result
 )
@@ -407,7 +407,7 @@ EndOfTime
 *
 result
 =
-Instant
+EpochNanoseconds
 :
 :
 fromMilliseconds
@@ -496,8 +496,8 @@ false
 ;
 }
 }
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -506,7 +506,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -519,7 +519,7 @@ GetISODateTimeFor
 (
 cx
 timeZone
-instant
+epochNs
 dateTime
 )
 ;
@@ -604,8 +604,8 @@ argc
 vp
 )
 ;
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -614,7 +614,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -629,7 +629,7 @@ result
 CreateTemporalInstant
 (
 cx
-instant
+epochNs
 )
 ;
 if
@@ -839,8 +839,8 @@ false
 ;
 }
 }
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -849,7 +849,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -880,7 +880,7 @@ result
 CreateTemporalZonedDateTime
 (
 cx
-instant
+epochNs
 timeZone
 calendar
 )
