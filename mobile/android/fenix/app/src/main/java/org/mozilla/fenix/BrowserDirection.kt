@@ -355,4 +355,12 @@ id
 .
 menuDialogFragment
 )
+FromWebCompatReporterFragment
+(
+R
+.
+id
+.
+webCompatReporterFragment
+)
 }
