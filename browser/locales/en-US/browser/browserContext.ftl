@@ -1201,7 +1201,7 @@ Link
 .
 accesskey
 =
-n
+u
 #
 #
 Media
