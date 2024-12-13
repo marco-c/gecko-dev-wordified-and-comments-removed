@@ -1386,7 +1386,7 @@ Debug
 (
 "
 [
-Backstage
+SystemGlobal
 .
 Dump
 ]
@@ -3438,11 +3438,11 @@ aGlobal
 )
 {
 auto
-backstagePass
+systemGlobal
 =
 MakeRefPtr
 <
-BackstagePass
+SystemGlobal
 >
 (
 )
@@ -3524,7 +3524,7 @@ nsIGlobalObject
 *
 >
 (
-backstagePass
+systemGlobal
 )
 nsContentUtils
 :
@@ -3560,7 +3560,7 @@ NS_ENSURE_TRUE_VOID
 global
 )
 ;
-backstagePass
+systemGlobal
 -
 >
 SetGlobalObject
@@ -3644,10 +3644,10 @@ new
 SyncModuleLoader
 (
 scriptLoader
-backstagePass
+systemGlobal
 )
 ;
-backstagePass
+systemGlobal
 -
 >
 InitModuleLoader

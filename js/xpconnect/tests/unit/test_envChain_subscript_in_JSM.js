@@ -420,7 +420,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )

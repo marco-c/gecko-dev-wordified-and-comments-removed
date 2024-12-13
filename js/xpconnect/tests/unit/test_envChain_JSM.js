@@ -253,7 +253,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )

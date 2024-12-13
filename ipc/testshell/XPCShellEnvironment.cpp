@@ -166,7 +166,7 @@ h
 #
 include
 "
-BackstagePass
+SystemGlobal
 .
 h
 "
@@ -2192,11 +2192,11 @@ principals
 ;
 }
 auto
-backstagePass
+systemGlobal
 =
 MakeRefPtr
 <
-BackstagePass
+SystemGlobal
 >
 (
 )
@@ -2252,7 +2252,7 @@ nsIGlobalObject
 *
 >
 (
-backstagePass
+systemGlobal
 )
 principal
 0
@@ -2311,7 +2311,7 @@ cx
 globalObj
 )
 ;
-backstagePass
+systemGlobal
 -
 >
 SetGlobalObject

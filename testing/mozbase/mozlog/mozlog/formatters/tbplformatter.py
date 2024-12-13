@@ -3284,7 +3284,7 @@ BrowsingContext
 "
             
 "
-BackstagePass
+SystemGlobal
 "
         
 ]

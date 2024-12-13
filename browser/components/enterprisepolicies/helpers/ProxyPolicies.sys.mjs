@@ -191,7 +191,7 @@ by
 tests
 through
 the
-BackstagePass
+SystemGlobal
 object
 .
 export

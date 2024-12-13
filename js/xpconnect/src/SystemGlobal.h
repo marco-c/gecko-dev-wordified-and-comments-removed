@@ -1,9 +1,9 @@
 #
 ifndef
-BackstagePass_h__
+SystemGlobal_h__
 #
 define
-BackstagePass_h__
+SystemGlobal_h__
 #
 include
 "
@@ -90,7 +90,7 @@ class
 XPCWrappedNative
 ;
 class
-BackstagePass
+SystemGlobal
 final
 :
 public
@@ -106,7 +106,7 @@ nsSupportsWeakReference
 {
 public
 :
-BackstagePass
+SystemGlobal
 (
 )
 ;
@@ -405,7 +405,7 @@ private
 :
 virtual
 ~
-BackstagePass
+SystemGlobal
 (
 )
 =
