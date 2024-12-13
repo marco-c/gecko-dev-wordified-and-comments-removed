@@ -296,7 +296,7 @@ MutableHandle
 <
 Value
 >
-result
+rval
 )
 ;
 static
@@ -316,7 +316,7 @@ MutableHandle
 <
 Value
 >
-result
+rval
 )
 ;
 JS_PUBLIC_API
@@ -6923,7 +6923,7 @@ MutableHandle
 <
 Value
 >
-result
+rval
 )
 {
 Rooted
@@ -6957,7 +6957,10 @@ AsyncFunctionReturned
 (
 cx
 resultPromise
-result
+JS
+:
+:
+UndefinedHandleValue
 )
 )
 {
@@ -6965,7 +6968,7 @@ return
 false
 ;
 }
-result
+rval
 .
 set
 (
