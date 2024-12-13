@@ -383,9 +383,9 @@ QuotaManager
 >
 aQuotaManager
 const
-PrincipalMetadata
+OriginMetadata
 &
-aPrincipalMetadata
+aOriginMetadata
 )
 ;
 RefPtr
@@ -539,9 +539,9 @@ QuotaManager
 >
 aQuotaManager
 const
-PrincipalMetadata
+OriginMetadata
 &
-aPrincipalMetadata
+aOriginMetadata
 RefPtr
 <
 UniversalDirectoryLock
