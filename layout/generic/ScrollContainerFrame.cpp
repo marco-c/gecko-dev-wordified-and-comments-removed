@@ -15482,6 +15482,14 @@ ScrollableLayerGuid
 ViewID
 scrollTargetId
 =
+aBuilder
+-
+>
+BuildCompositorHitTestInfo
+(
+)
+&
+&
 IsScrollingActive
 (
 )
