@@ -46,9 +46,7 @@ include
 "
 mozilla
 /
-dom
-/
-WebGLIpdl
+ParamTraits_TiedFields
 .
 h
 "
