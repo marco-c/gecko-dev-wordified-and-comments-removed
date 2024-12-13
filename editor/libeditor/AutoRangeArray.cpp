@@ -3087,6 +3087,7 @@ maybeNonEditableBlockElement
 ;
 }
 }
+MOZ_NEVER_INLINE_DEBUG
 static
 EditorDOMPoint
 GetPointAtFirstContentOfLineOrParentHTMLBlockIfFirstContentOfBlock
@@ -3102,7 +3103,7 @@ aBlockInlineCheck
 const
 Element
 &
-aEditingHost
+aAncestorLimiter
 )
 {
 if
@@ -3239,7 +3240,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 previousEditableContent
@@ -3286,7 +3287,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -3351,7 +3352,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 !
@@ -3387,7 +3388,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -3476,7 +3477,7 @@ GetContainerParent
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 &
 &
@@ -3495,7 +3496,7 @@ GetContainer
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 )
@@ -3568,6 +3569,7 @@ return
 point
 ;
 }
+MOZ_NEVER_INLINE_DEBUG
 static
 EditorDOMPoint
 GetPointAfterFollowingLineBreakOrAtFollowingHTMLBlock
@@ -3583,7 +3585,7 @@ aBlockInlineCheck
 const
 Element
 &
-aEditingHost
+aAncestorLimiter
 )
 {
 if
@@ -3693,7 +3695,7 @@ maybeNonEditableBlockElement
 =
 =
 &
-aEditingHost
+aAncestorLimiter
 |
 |
 !
@@ -3703,7 +3705,7 @@ maybeNonEditableBlockElement
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -3713,8 +3715,7 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
-maybeNonEditableBlockElement
+aAncestorLimiter
 )
 ;
 }
@@ -3831,7 +3832,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 nextEditableContent
@@ -3867,7 +3868,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -3926,7 +3927,7 @@ maybeNonEditableBlockElement
 =
 =
 &
-aEditingHost
+aAncestorLimiter
 |
 |
 !
@@ -3936,7 +3937,7 @@ maybeNonEditableBlockElement
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -3946,8 +3947,7 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
-maybeNonEditableBlockElement
+aAncestorLimiter
 )
 ;
 }
@@ -4049,7 +4049,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 !
@@ -4085,7 +4085,7 @@ point
 ignoreNonEditableNodeAndStopAtBlockBoundary
 aBlockInlineCheck
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -4102,7 +4102,7 @@ GetContainer
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 &
 &
@@ -4117,7 +4117,7 @@ GetContainerParent
 IsInclusiveDescendantOf
 (
 &
-aEditingHost
+aAncestorLimiter
 )
 )
 {
@@ -4218,7 +4218,7 @@ aBlockInlineCheck
 const
 Element
 &
-aEditingHost
+aAncestorLimiter
 )
 {
 bool
@@ -4388,7 +4388,7 @@ ExtendRangeToWrapStartAndEndLinesContainingBoundaries
 range
 aEditSubAction
 aBlockInlineCheck
-aEditingHost
+aAncestorLimiter
 )
 )
 )

@@ -488,7 +488,7 @@ dom
 :
 Element
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 [

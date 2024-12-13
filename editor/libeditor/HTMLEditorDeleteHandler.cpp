@@ -31612,6 +31612,11 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayOutsideStyle
+mTopmostSrcAncestorBlockInDestBlock
+?
+*
+mTopmostSrcAncestorBlockInDestBlock
+:
 aEditingHost
 )
 ;
