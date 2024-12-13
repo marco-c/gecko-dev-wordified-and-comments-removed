@@ -667,7 +667,7 @@ name
 tab_tray_add_new_collection
 "
 >
-Agghiunci
+Junci
 na
 ricota
 nova
@@ -1469,7 +1469,7 @@ name
 private_mode_cfr_pos_button_text
 "
 >
-Agghiunci
+Junci
 schirmata
 mastra
 <
@@ -3557,7 +3557,7 @@ name
 browser_menu_extension_plus_icon_content_description_2
 "
 >
-Agghiunci
+Junci
 %
 1
 s
@@ -3926,7 +3926,7 @@ name
 browser_menu_add_to_homescreen
 "
 >
-Agghiunci
+Junci
 schirmata
 mastra
 <
@@ -3964,7 +3964,7 @@ name
 browser_menu_add_app_to_homescreen
 "
 >
-Agghiunci
+Junci
 l
 \
 '
@@ -4006,7 +4006,7 @@ name
 browser_menu_add_to_homescreen_2
 "
 >
-Agghiunci
+Junci
 schirmata
 mastra
 <
@@ -4044,7 +4044,7 @@ name
 browser_menu_add_app_to_homescreen_2
 "
 >
-Agghiunci
+Junci
 app
 schirmata
 mastra
@@ -4093,10 +4093,8 @@ gnanu
 di
 pirmisi
 addizziunali
-p
-\
-'
-agghi
+pi
+j
 nciri
 accurzi
 schirmata
@@ -4772,7 +4770,7 @@ name
 browser_menu_add
 "
 >
-Agghiunci
+Junci
 <
 /
 string
@@ -6134,7 +6132,7 @@ name
 browser_menu_save_description
 "
 >
-Agghiunci
+Junci
 nzingalibbru
 Accurzu
 P
@@ -6170,7 +6168,7 @@ name
 browser_menu_bookmark_this_page
 "
 >
-Agghiunci
+Junci
 sta
 p
 ggina
@@ -9176,7 +9174,7 @@ BrandUsage
 UnusedResources
 "
 >
-Agghiunci
+Junci
 stigghiu
 di
 Firefox
@@ -9325,7 +9323,7 @@ ignore
 UnusedResources
 "
 >
-Agghiunci
+Junci
 stinneri
 terzi
 p
@@ -10013,11 +10011,8 @@ onboarding_add_on_icon_content_description
 "
 >
 Icona
-di
-l
-\
-'
-agghiuncitina
+d
+juncitina
 <
 /
 string
@@ -10049,11 +10044,8 @@ onboarding_installed_add_on_icon_content_description
 "
 >
 Icona
-di
-l
-\
-'
-agghiuncitina
+d
+juncitina
 nzitata
 <
 /
@@ -10086,11 +10078,8 @@ onboarding_installing_add_on_icon_content_description
 "
 >
 Icona
-di
-l
-\
-'
-agghiuncitina
+d
+juncitina
 \
 '
 n
@@ -12273,7 +12262,7 @@ name
 preferences_add_private_browsing_shortcut
 "
 >
-Agghiunci
+Junci
 accurzu
 di
 navigazzioni
@@ -20956,7 +20945,7 @@ name
 add_tab
 "
 >
-Agghiunci
+Junci
 na
 scheda
 <
@@ -21000,7 +20989,7 @@ name
 add_private_tab
 "
 >
-Agghiunci
+Junci
 na
 scheda
 privata
@@ -21302,7 +21291,7 @@ name
 tab_tray_multiselect_menu_item_bookmark
 "
 >
-Agghiunci
+Junci
 nzingalibbra
 <
 /
@@ -23655,7 +23644,7 @@ name
 bookmark_add_folder
 "
 >
-Agghiunci
+Junci
 na
 carpetta
 <
@@ -24303,7 +24292,7 @@ name
 bookmark_add_folder_fragment_label
 "
 >
-Agghiunci
+Junci
 na
 carpetta
 <
@@ -24738,7 +24727,7 @@ name
 bookmark_add_new_folder_button_content_description
 "
 >
-Agghiunci
+Junci
 na
 carpetta
 nova
@@ -25092,7 +25081,7 @@ name
 bookmark_empty_list_folder_description
 "
 >
-Agghiunci
+Junci
 nzingalibbra
 mentri
 chi
@@ -26853,7 +26842,7 @@ name
 create_collection_add_new_collection
 "
 >
-Agghiunci
+Junci
 na
 ricota
 nova
@@ -29257,7 +29246,7 @@ name
 snackbar_added_to_shortcuts
 "
 >
-Agghiuncisti
+Juncisti
 a
 l
 \
@@ -34118,7 +34107,7 @@ name
 add_to_homescreen_title
 "
 >
-Agghiunci
+Junci
 schirmata
 mastra
 <
@@ -34178,7 +34167,7 @@ name
 add_to_homescreen_add
 "
 >
-Agghiunci
+Junci
 <
 /
 string
@@ -34279,7 +34268,7 @@ add_to_homescreen_description_2
 Po
 \
 '
-agghi
+j
 nciri
 f
 cili
@@ -34676,7 +34665,7 @@ name
 preferences_logins_add_login_2
 "
 >
-Agghiunci
+Junci
 chiavi
 <
 /
@@ -36247,7 +36236,7 @@ name
 preferences_credit_cards_add_credit_card_2
 "
 >
-Agghiunci
+Junci
 na
 carta
 <
@@ -36303,7 +36292,7 @@ name
 preferences_addresses_add_address
 "
 >
-Agghiunci
+Junci
 nu
 nnirizzu
 <
@@ -36430,7 +36419,7 @@ name
 credit_cards_add_card
 "
 >
-Agghiunci
+Junci
 na
 carta
 <
@@ -36974,7 +36963,7 @@ name
 credit_cards_name_on_card_validation_error_message_2
 "
 >
-Agghiunci
+Junci
 un
 nomu
 <
@@ -37314,7 +37303,7 @@ name
 addresses_add_address
 "
 >
-Agghiunci
+Junci
 nu
 nnirizzu
 <
@@ -37981,7 +37970,7 @@ name
 search_engine_add_custom_search_engine_title
 "
 >
-Agghiunci
+Junci
 muturi
 di
 risciduta
@@ -38027,7 +38016,7 @@ name
 search_engine_add_custom_search_engine_button_content_description
 "
 >
-Agghiunci
+Junci
 un
 novu
 muturi
@@ -39385,7 +39374,7 @@ name
 browser_menu_add_to_shortcuts
 "
 >
-Agghiunci
+Junci
 a
 l
 \
@@ -39734,7 +39723,7 @@ name
 add_login_2
 "
 >
-Agghiunci
+Junci
 chiavi
 <
 /
@@ -40628,9 +40617,8 @@ shortcut_max_limit_content
 "
 >
 P
-\
-'
-agghi
+i
+j
 nciri
 n
 \
@@ -48708,10 +48696,8 @@ name
 never_translate_site_header_preference
 "
 >
-P
-\
-'
-agghi
+Pi
+j
 nciri
 un
 novu
@@ -51621,7 +51607,7 @@ name
 debug_drawer_tab_tools_tab_creation_tool_button_text_active
 "
 >
-Agghiunci
+Junci
 schedi
 attivi
 <
@@ -51660,7 +51646,7 @@ name
 debug_drawer_tab_tools_tab_creation_tool_button_text_inactive
 "
 >
-Agghiunci
+Junci
 schedi
 fermi
 <
@@ -51699,7 +51685,7 @@ name
 debug_drawer_tab_tools_tab_creation_tool_button_text_private
 "
 >
-Agghiunci
+Junci
 schedi
 privati
 <
@@ -52930,7 +52916,7 @@ name
 debug_drawer_logins_add_login_button
 "
 >
-Agghiunci
+Junci
 na
 cridinziali
 fausa
@@ -53775,10 +53761,8 @@ U
 14
 di
 marzu
-l
-\
-'
-agghiuncitini
+i
+juncitini
 e
 autri
 carattir
@@ -53990,10 +53974,8 @@ ignore
 UnusedResources
 "
 >
-L
-\
-'
-agghiuncitini
+I
+juncitini
 e
 certi
 carattar
@@ -54112,10 +54094,8 @@ pi
 cuntinuari
 a
 usari
-l
-\
-'
-agghiuncitini
+i
+juncitini
 e
 autri
 carattar

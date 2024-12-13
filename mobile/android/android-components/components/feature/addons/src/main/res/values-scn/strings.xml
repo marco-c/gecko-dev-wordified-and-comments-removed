@@ -3164,7 +3164,7 @@ name
 mozac_feature_addons_addons
 "
 >
-Agghiuncitini
+Juncitini
 <
 /
 string
@@ -3198,11 +3198,8 @@ mozac_feature_addons_addons_manager
 "
 >
 Manijaturi
-di
-l
-\
-'
-agghiuncitini
+d
+juncitini
 <
 /
 string
@@ -3757,7 +3754,7 @@ UnusedResources
 "
 >
 Nova
-agghiuncitina
+juncitina
 dispun
 bbili
 <
@@ -3811,7 +3808,7 @@ UnusedResources
 "
 >
 Novi
-agghiuncitini
+juncitini
 dispun
 bbili
 <
@@ -3879,7 +3876,7 @@ name
 mozac_feature_addons_supported_checker_notification_content_one
 "
 >
-Agghiunci
+Junci
 %
 1
 s
@@ -3964,7 +3961,7 @@ name
 mozac_feature_addons_supported_checker_notification_content_two
 "
 >
-Agghiunci
+Junci
 %
 1
 s
@@ -4033,7 +4030,7 @@ name
 mozac_feature_addons_supported_checker_notification_content_more_than_two
 "
 >
-Agghi
+J
 ncili
 a
 %
@@ -5436,10 +5433,8 @@ ignore
 UnusedResources
 "
 >
-St
-\
-'
-agghiuncitina
+Sta
+juncitina
 fu
 migrata
 di
@@ -5887,7 +5882,7 @@ mozac_feature_addons_installed_dialog_title
 1
 s
 fu
-agghiunciutu
+junciutu
 a
 %
 2
