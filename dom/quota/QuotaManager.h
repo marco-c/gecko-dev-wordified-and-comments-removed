@@ -1594,9 +1594,9 @@ BoolPromise
 TemporaryGroupInitialized
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 bool

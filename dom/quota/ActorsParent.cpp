@@ -24980,9 +24980,9 @@ QuotaManager
 TemporaryGroupInitialized
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 {
 AssertIsOnOwningThread
@@ -24998,7 +24998,7 @@ WrapMovingNotNullUnchecked
 (
 this
 )
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 RegisterNormalOriginOp
