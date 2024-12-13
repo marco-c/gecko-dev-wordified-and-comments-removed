@@ -268,6 +268,10 @@ false
 assertDeepEq
 (
 log
+.
+slice
+(
+)
 [
 "
 has
@@ -502,6 +506,10 @@ true
 assertDeepEq
 (
 log
+.
+slice
+(
+)
 [
 "
 has
@@ -736,6 +744,10 @@ true
 assertDeepEq
 (
 log
+.
+slice
+(
+)
 [
 "
 has
