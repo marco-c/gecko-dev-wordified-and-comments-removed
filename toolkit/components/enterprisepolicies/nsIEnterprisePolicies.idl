@@ -165,7 +165,7 @@ places
 .
 readonly
 attribute
-short
+boolean
 isEnterprise
 ;
 boolean
