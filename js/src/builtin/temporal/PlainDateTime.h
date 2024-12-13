@@ -492,7 +492,7 @@ class
 Increment
 ;
 class
-TemporalFields
+CalendarFields
 ;
 enum
 class
@@ -778,7 +778,7 @@ JS
 :
 Handle
 <
-TemporalFields
+CalendarFields
 >
 fields
 TemporalOverflow

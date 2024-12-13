@@ -96,6 +96,11 @@ Calendar
 cpp
 "
 "
+CalendarFields
+.
+cpp
+"
+"
 Duration
 .
 cpp
@@ -142,11 +147,6 @@ cpp
 "
 "
 Temporal
-.
-cpp
-"
-"
-TemporalFields
 .
 cpp
 "
