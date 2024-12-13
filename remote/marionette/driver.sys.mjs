@@ -1634,6 +1634,7 @@ finalizeAction
 browsingContext
 )
 {
+return
 this
 .
 #
