@@ -897,6 +897,19 @@ use_restricting_sids_
 false
 ;
 }
+void
+PolicyBase
+:
+:
+SetAllowEveryoneForUserRestricted
+(
+)
+{
+allow_everyone_for_user_restricted_
+=
+true
+;
+}
 ResultCode
 PolicyBase
 :
@@ -2010,6 +2023,7 @@ PRIMARY
 lockdown_default_dacl_
 random_sid_ptr
 use_restricting_sids_
+allow_everyone_for_user_restricted_
 lockdown
 )
 ;
@@ -2267,6 +2281,7 @@ IMPERSONATION
 lockdown_default_dacl_
 random_sid_ptr
 use_restricting_sids_
+allow_everyone_for_user_restricted_
 initial
 )
 ;

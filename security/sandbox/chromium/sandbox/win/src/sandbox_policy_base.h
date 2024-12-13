@@ -270,6 +270,12 @@ SetDoNotUseRestrictingSIDs
 )
 final
 ;
+void
+SetAllowEveryoneForUserRestricted
+(
+)
+final
+;
 ResultCode
 SetJobLevel
 (
@@ -692,6 +698,11 @@ bool
 use_restricting_sids_
 =
 true
+;
+bool
+allow_everyone_for_user_restricted_
+=
+false
 ;
 JobLevel
 job_level_

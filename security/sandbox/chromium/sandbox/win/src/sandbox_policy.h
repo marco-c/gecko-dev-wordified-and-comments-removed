@@ -159,6 +159,14 @@ SetDoNotUseRestrictingSIDs
 0
 ;
 virtual
+void
+SetAllowEveryoneForUserRestricted
+(
+)
+=
+0
+;
+virtual
 ResultCode
 SetJobLevel
 (
