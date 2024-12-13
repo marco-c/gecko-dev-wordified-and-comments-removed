@@ -523,6 +523,25 @@ return
 True
     
 if
+dep
+.
+startswith
+(
+(
+"
+dxcompiler
+"
+"
+dxil
+"
+)
+)
+:
+        
+return
+True
+    
+if
 substs
 .
 get
