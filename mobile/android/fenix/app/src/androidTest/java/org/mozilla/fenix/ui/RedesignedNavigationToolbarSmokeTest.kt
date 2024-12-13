@@ -834,6 +834,9 @@ composeTestRule
 }
 .
 openHelp
+(
+composeTestRule
+)
 {
 }
 .
@@ -996,6 +999,7 @@ composeTestRule
 {
 verifySettingsButton
 (
+composeTestRule
 )
 }
 }
@@ -1566,6 +1570,9 @@ composeTestRule
 }
 .
 openSettings
+(
+composeTestRule
+)
 {
 }
 .
@@ -1656,6 +1663,9 @@ composeTestRule
 }
 .
 openSettings
+(
+composeTestRule
+)
 {
 }
 .
@@ -1772,6 +1782,9 @@ composeTestRule
 }
 .
 openSettings
+(
+composeTestRule
+)
 {
 }
 .

@@ -6815,7 +6815,6 @@ button
 )
 RedesignedMainMenuRobot
 (
-composeTestRule
 )
 .
 interact
@@ -6826,7 +6825,6 @@ RedesignedMainMenuRobot
 .
 Transition
 (
-composeTestRule
 )
 }
 fun
