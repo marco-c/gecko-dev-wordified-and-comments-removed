@@ -99,15 +99,9 @@ Promise
 any
 >
 ;
-openAndCloseFileDialogForTesting
+loadModuleForTesting
 (
 aModuleName
-:
-string
-aInitialDir
-:
-string
-aFilter
 :
 string
 )

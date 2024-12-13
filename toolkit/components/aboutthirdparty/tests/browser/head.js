@@ -107,15 +107,12 @@ loadShellExtension
 {
 kATP
 .
-openAndCloseFileDialogForTesting
+loadModuleForTesting
 (
-kExtensionModuleName
 getTestFilePath
 (
-"
-"
+kExtensionModuleName
 )
-kFileFilterInDialog
 )
 ;
 }
