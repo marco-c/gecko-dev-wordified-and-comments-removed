@@ -15337,6 +15337,9 @@ bool
 aCanGoBack
 const
 bool
+aCanGoBackIgnoringUserInteraction
+const
+bool
 aCanGoForward
 const
 Maybe
@@ -15463,6 +15466,7 @@ browser
 UpdateWebNavigationForLocationChange
 (
 aCanGoBack
+aCanGoBackIgnoringUserInteraction
 aCanGoForward
 )
 ;

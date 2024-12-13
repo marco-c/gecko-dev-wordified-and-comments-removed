@@ -126,7 +126,7 @@ ok
 (
 browser
 .
-canGoBack
+canGoBackIgnoringUserInteraction
 "
 we
 can
@@ -785,7 +785,7 @@ ok
 (
 browser
 .
-canGoBack
+canGoBackIgnoringUserInteraction
 "
 we
 can
