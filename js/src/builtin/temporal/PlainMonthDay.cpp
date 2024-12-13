@@ -1537,7 +1537,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 monthDay
@@ -2391,7 +2391,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 monthDay
@@ -3344,7 +3344,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 monthDay

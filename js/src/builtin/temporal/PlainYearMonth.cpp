@@ -1660,7 +1660,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 yearMonth
@@ -2023,7 +2023,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 yearMonth
@@ -2099,7 +2099,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 other
@@ -2584,7 +2584,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 yearMonth
@@ -2789,7 +2789,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 addedYearMonth
@@ -4479,7 +4479,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 yearMonth
@@ -5660,7 +5660,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 yearMonth
