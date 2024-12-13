@@ -630,8 +630,7 @@ name
 mozac_feature_prompt_login_save_headline_2
 "
 >
-Voi
-sarbari
+Sarbari
 a
 chiavi
 ?
@@ -681,8 +680,7 @@ name
 mozac_feature_prompt_login_update_headline_2
 "
 >
-Voi
-attualizzari
+Attualizzari
 a
 chiavi
 ?
@@ -734,8 +732,7 @@ name
 mozac_feature_prompt_login_add_username_headline_2
 "
 >
-Voi
-attualizzari
+Attualizzari
 u
 nomu
 utenti
@@ -931,7 +928,9 @@ name
 mozac_feature_prompt_before_unload_dialog_body
 "
 >
-Voi
+Vo
+\
+'
 n
 sciri
 di
@@ -1643,7 +1642,7 @@ name
 mozac_feature_prompts_collapse_logins_content_description_2
 "
 >
-Chiuji
+Cumprimi
 i
 chiavi
 sarbati
@@ -1845,7 +1844,9 @@ name
 mozac_feature_prompts_suggest_strong_password_title
 "
 >
-Voi
+Vo
+\
+'
 usari
 na
 chiavi
@@ -2107,7 +2108,9 @@ name
 mozac_feature_prompt_repost_title
 "
 >
-Voi
+Vo
+\
+'
 mannari
 arr
 i
@@ -2233,7 +2236,7 @@ mozac_feature_prompts_select_credit_card_2
 "
 >
 Usa
-a
+na
 carta
 sarbata
 <
@@ -2305,7 +2308,7 @@ name
 mozac_feature_prompts_collapse_credit_cards_content_description_2
 "
 >
-Chiuji
+Cumprimi
 i
 carti
 sarbati
@@ -2377,7 +2380,7 @@ mozac_feature_prompts_save_credit_card_prompt_title
 Vo
 \
 '
-sarbati
+sarbari
 sta
 carta
 di
@@ -2601,7 +2604,7 @@ name
 mozac_feature_prompts_collapse_address_content_description_2
 "
 >
-Chiuji
+Cumprimi
 i
 nnirizzi
 sarbati
