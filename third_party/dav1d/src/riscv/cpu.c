@@ -37,6 +37,9 @@ h
 #
 if
 HAVE_GETAUXVAL
+|
+|
+HAVE_ELF_AUX_INFO
 #
 include
 <
@@ -88,11 +91,14 @@ dav1d_get_default_cpu_flags
 #
 if
 HAVE_GETAUXVAL
+|
+|
+HAVE_ELF_AUX_INFO
 unsigned
 long
 hw_cap
 =
-getauxval
+dav1d_getauxval
 (
 AT_HWCAP
 )

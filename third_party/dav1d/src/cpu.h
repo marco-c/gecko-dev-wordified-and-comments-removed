@@ -143,6 +143,14 @@ Dav1dContext
 c
 )
 ;
+unsigned
+long
+dav1d_getauxval
+(
+unsigned
+long
+)
+;
 static
 ALWAYS_INLINE
 unsigned

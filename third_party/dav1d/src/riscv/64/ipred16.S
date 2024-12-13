@@ -420,7 +420,7 @@ zbb
 "
 .
 variant_cc
-dav1d_dc_gen_8bpc_rvv
+dav1d_dc_gen_16bpc_rvv
 add
 t1
 a1

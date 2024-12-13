@@ -559,7 +559,7 @@ startswith
 loongarch
 '
 )
-checkasm_asm_objs
+checkasm_asm_sources
 +
 =
 files
