@@ -2961,15 +2961,9 @@ lhs
 algorithm
 =
 =
-0
-|
-|
 rhs
 .
 algorithm
-=
-=
-0
 )
 {
 return
