@@ -828,7 +828,6 @@ homeScreen
 .
 openThreeDotMenuFromRedesignedToolbar
 (
-composeTestRule
 )
 {
 }
@@ -994,7 +993,6 @@ verifyExistingTopSitesList
 .
 openThreeDotMenuFromRedesignedToolbar
 (
-composeTestRule
 )
 {
 verifySettingsButton
@@ -1564,7 +1562,6 @@ homeScreen
 .
 openThreeDotMenuFromRedesignedToolbar
 (
-composeTestRule
 )
 {
 }
@@ -1657,7 +1654,6 @@ homeScreen
 .
 openThreeDotMenuFromRedesignedToolbar
 (
-composeTestRule
 )
 {
 }
@@ -1776,7 +1772,6 @@ verifyHomeScreen
 .
 openThreeDotMenuFromRedesignedToolbar
 (
-composeTestRule
 )
 {
 }
