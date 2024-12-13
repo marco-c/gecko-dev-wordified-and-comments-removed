@@ -2281,8 +2281,8 @@ cx
 duration
 destEpochNs
 dateTime
-calendar
 timeZone
+calendar
 settings
 .
 largestUnit
