@@ -3127,7 +3127,34 @@ compilation_commands_path
 common_args
         
 +
+[
+os
+.
+path
+.
+normpath
+(
+s
+)
+.
+replace
+(
+"
+\
+\
+"
+"
+\
+\
+\
+\
+"
+)
+for
+s
+in
 sources
+]
     
 )
 StaticAnalysisSubCommand
