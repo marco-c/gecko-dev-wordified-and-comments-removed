@@ -1876,7 +1876,7 @@ def
 calculate_bdp
 (
 bandwidth_mbit
-delay_ms
+rtt_ms
 )
 :
             
@@ -1886,9 +1886,9 @@ bandwidth_mbit
 *
 1_000_000
             
-delay_sec
+rtt_sec
 =
-delay_ms
+rtt_ms
 /
 1000
             
@@ -1896,13 +1896,23 @@ bdp_bits
 =
 bandwidth_bps
 *
-delay_sec
+rtt_sec
             
 bdp_bytes
 =
 bdp_bits
 /
 8
+            
+if
+bdp_bytes
+<
+1500
+:
+                
+bdp_bytes
+=
+1500
             
 return
 int
@@ -2054,6 +2064,8 @@ calculate_bdp
 (
 bandwidth_mbit
 delay_ms
+*
+2
 )
         
 LOG
