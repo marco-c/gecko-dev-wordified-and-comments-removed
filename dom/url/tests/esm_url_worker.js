@@ -22,7 +22,7 @@ new
 Worker
 (
 "
-jsm_url_worker
+esm_url_worker
 .
 js
 "

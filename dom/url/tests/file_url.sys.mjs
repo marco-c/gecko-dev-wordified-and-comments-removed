@@ -1,14 +1,6 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-checkFromJSM
-"
-]
-;
+export
 function
-checkFromJSM
+checkFromESM
 (
 ok
 is
@@ -21,7 +13,7 @@ new
 URL
 (
 "
-http
+https
 :
 /
 /
@@ -39,7 +31,7 @@ url
 .
 href
 "
-http
+https
 :
 /
 /
@@ -51,7 +43,7 @@ com
 /
 "
 "
-JSM
+ESM
 should
 have
 URL
@@ -77,7 +69,7 @@ url2
 .
 href
 "
-http
+https
 :
 /
 /
@@ -90,7 +82,7 @@ com
 foobar
 "
 "
-JSM
+ESM
 should
 have
 URL
@@ -173,7 +165,7 @@ if
 created
 in
 a
-JSM
+ESM
 "
 )
 ;
