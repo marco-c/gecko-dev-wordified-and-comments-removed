@@ -4814,6 +4814,12 @@ resulting
 in
 whole
 string
+<
+{
+key
+}
+>
+{
 context
 [
 key
@@ -4828,6 +4834,13 @@ options
 ?
 ?
 placeholder
+}
+<
+/
+{
+key
+}
+>
 )
 ;
 }
