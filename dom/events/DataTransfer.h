@@ -1395,6 +1395,12 @@ ClearForPaste
 (
 )
 ;
+bool
+HasPrivateHTMLFlavor
+(
+)
+const
+;
 protected
 :
 void

@@ -8493,6 +8493,10 @@ mHasPolicyWithRequireTrustedTypesForDirective
 (
 false
 )
+mClipboardCopyTriggered
+(
+false
+)
 mXMLDeclarationBits
 (
 0

@@ -2535,6 +2535,7 @@ DispatchPasteEvent
 :
 :
 Yes
+nullptr
 aPrincipal
 )
 ;
@@ -4985,6 +4986,7 @@ DispatchPasteEvent
 :
 :
 Yes
+nullptr
 aPrincipal
 )
 ;
