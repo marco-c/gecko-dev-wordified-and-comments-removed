@@ -1591,7 +1591,7 @@ fenix
 .
 utils
 .
-changeAppLauncherIconBackgroundColor
+changeAppLauncherIcon
 import
 java
 .
@@ -4024,7 +4024,7 @@ with
 applicationContext
 )
 {
-changeAppLauncherIconBackgroundColor
+changeAppLauncherIcon
 (
 context
 =
