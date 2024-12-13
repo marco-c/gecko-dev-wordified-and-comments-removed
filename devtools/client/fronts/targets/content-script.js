@@ -120,6 +120,14 @@ json
 .
 title
 ;
+this
+.
+innerWindowId
+=
+json
+.
+innerWindowId
+;
 }
 }
 exports
