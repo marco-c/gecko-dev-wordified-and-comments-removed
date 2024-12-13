@@ -168,6 +168,8 @@ linux64
 -
 rust
 -
+toolchain
+-
 sysroot
 -
 x86_64
@@ -220,6 +222,8 @@ rust
 -
 macos
 -
+toolchain
+-
 linux64
 -
 clang
@@ -268,6 +272,8 @@ linux64
 rust
 -
 macos
+-
+toolchain
 -
 linux64
 -
@@ -323,6 +329,8 @@ linux64
 rust
 -
 windows
+-
+toolchain
 -
 vs
 -
