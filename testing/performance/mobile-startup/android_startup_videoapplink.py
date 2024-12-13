@@ -160,7 +160,7 @@ falcons
 ]
 ITERATIONS
 =
-1
+5
 class
 ImageAnalzer
 :

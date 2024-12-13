@@ -7,11 +7,11 @@ bash
 #
 name
 :
-shopify
--
 applink
 -
 startup
+-
+cnve
 #
 owner
 :
@@ -21,7 +21,6 @@ description
 :
 Runs
 the
-shopify
 applink
 startup
 (
