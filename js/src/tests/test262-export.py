@@ -2673,7 +2673,7 @@ matchobj
 .
 group
 (
-2
+4
 )
         
 expected
@@ -2684,7 +2684,7 @@ matchobj
 .
 group
 (
-3
+5
 )
         
 if
@@ -2743,11 +2743,20 @@ reportCompare
 =
 =
 =
+?
+(
 \
 "
+|
+'
+)
 function
+(
 \
 "
+|
+'
+)
 \
 )
 \
