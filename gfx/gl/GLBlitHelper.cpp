@@ -227,7 +227,7 @@ mozilla
 /
 layers
 /
-D3D11TextureIMFSampleImage
+D3D11ZeroCopyTextureImage
 .
 h
 "
@@ -6059,7 +6059,7 @@ case
 ImageFormat
 :
 :
-D3D11_TEXTURE_IMF_SAMPLE
+D3D11_TEXTURE_ZERO_COPY
 :
 return
 BlitImage
@@ -6069,7 +6069,7 @@ static_cast
 layers
 :
 :
-D3D11TextureIMFSampleImage
+D3D11ZeroCopyTextureImage
 *
 >
 (
@@ -6109,7 +6109,7 @@ case
 ImageFormat
 :
 :
-D3D11_TEXTURE_IMF_SAMPLE
+D3D11_TEXTURE_ZERO_COPY
 :
 case
 ImageFormat
