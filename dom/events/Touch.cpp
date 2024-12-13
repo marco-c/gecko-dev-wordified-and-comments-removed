@@ -902,6 +902,8 @@ return
 }
 mClientPoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -912,9 +914,12 @@ aEvent
 mRefPoint
 mClientPoint
 )
+)
 ;
 mPagePoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -925,9 +930,12 @@ aEvent
 mRefPoint
 mClientPoint
 )
+)
 ;
 mScreenPoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -940,6 +948,7 @@ mRefPoint
 .
 extract
 (
+)
 )
 ;
 mPointsInitialized

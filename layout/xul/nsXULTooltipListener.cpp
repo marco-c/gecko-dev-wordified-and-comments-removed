@@ -1558,6 +1558,8 @@ tree
 CSSIntPoint
 pos
 =
+RoundedToInt
+(
 aMouseEvent
 -
 >
@@ -1567,6 +1569,7 @@ CallerType
 :
 :
 System
+)
 )
 ;
 CSSIntRect

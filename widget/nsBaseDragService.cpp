@@ -1980,6 +1980,8 @@ nullptr
 ;
 mScreenPosition
 =
+RoundedToInt
+(
 aDragEvent
 -
 >
@@ -1989,6 +1991,7 @@ CallerType
 :
 :
 System
+)
 )
 ;
 mInputSource
@@ -2357,6 +2360,8 @@ GetSourceTopWindowContext
 ;
 mScreenPosition
 =
+RoundedToInt
+(
 aDragEvent
 -
 >
@@ -2366,6 +2371,7 @@ CallerType
 :
 :
 System
+)
 )
 ;
 mInputSource
@@ -2647,6 +2653,8 @@ Nothing
 ;
 mScreenPosition
 =
+RoundedToInt
+(
 aDragEvent
 -
 >
@@ -2656,6 +2664,7 @@ CallerType
 :
 :
 System
+)
 )
 ;
 mInputSource

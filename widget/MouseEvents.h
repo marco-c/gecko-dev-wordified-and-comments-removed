@@ -965,6 +965,17 @@ InputSourceSupportsHover
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
+bool
+DOMEventShouldUseFractionalCoords
+(
+)
+const
+;
 }
 ;
 class
