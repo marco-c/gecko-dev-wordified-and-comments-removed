@@ -3234,7 +3234,6 @@ kGlobalClipboard
 )
 presShell
 nullptr
-nullptr
 &
 actionTaken
 )

@@ -9224,7 +9224,6 @@ kGlobalClipboard
 )
 presShell
 nullptr
-nullptr
 )
 ;
 return

@@ -88,9 +88,6 @@ namespace
 dom
 {
 class
-DataTransfer
-;
-class
 Document
 ;
 class
@@ -325,15 +322,6 @@ dom
 Selection
 *
 aSelection
-mozilla
-:
-:
-dom
-:
-:
-DataTransfer
-*
-aDataTransfer
 bool
 *
 aActionTaken

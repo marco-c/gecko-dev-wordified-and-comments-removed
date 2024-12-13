@@ -712,11 +712,6 @@ ClipboardType
 aClipboardType
 DispatchPasteEvent
 aDispatchPasteEvent
-DataTransfer
-*
-aDataTransfer
-=
-nullptr
 nsIPrincipal
 *
 aPrincipal
@@ -2378,6 +2373,9 @@ InsertDroppedDataTransferAsAction
 AutoEditActionDataSetter
 &
 aEditActionData
+dom
+:
+:
 DataTransfer
 &
 aDataTransfer
@@ -6058,9 +6056,6 @@ nsIClipboard
 :
 ClipboardType
 aClipboardType
-DataTransfer
-*
-aDataTransfer
 )
 final
 ;
@@ -6081,9 +6076,6 @@ nsIClipboard
 :
 ClipboardType
 aClipboardType
-DataTransfer
-*
-aDataTransfer
 )
 final
 ;
@@ -6114,9 +6106,6 @@ nsIClipboard
 :
 ClipboardType
 aClipboardType
-DataTransfer
-*
-aDataTransfer
 const
 Element
 &
@@ -6657,6 +6646,9 @@ mEditingHost
 ;
 RefPtr
 <
+dom
+:
+:
 DataTransfer
 >
 mDataTransfer
@@ -7149,9 +7141,6 @@ nsIClipboard
 :
 ClipboardType
 aSelectionType
-DataTransfer
-*
-aDataTransfer
 const
 Element
 &
@@ -7271,6 +7260,9 @@ nsresult
 InsertFromDataTransfer
 (
 const
+dom
+:
+:
 DataTransfer
 *
 aDataTransfer
@@ -7293,11 +7285,8 @@ aEditingHost
 ;
 static
 HavePrivateHTMLFlavor
-DataTransferOrClipboardHasPrivateHTMLFlavor
+ClipboardHasPrivateHTMLFlavor
 (
-DataTransfer
-*
-aDataTransfer
 nsIClipboard
 *
 clipboard

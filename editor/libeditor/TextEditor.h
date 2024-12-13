@@ -1133,6 +1133,9 @@ InsertDroppedDataTransferAsAction
 AutoEditActionDataSetter
 &
 aEditActionData
+dom
+:
+:
 DataTransfer
 &
 aDataTransfer
@@ -1385,9 +1388,6 @@ nsIClipboard
 :
 ClipboardType
 aClipboardType
-DataTransfer
-*
-aDataTransfer
 )
 final
 ;
@@ -1408,9 +1408,6 @@ nsIClipboard
 :
 ClipboardType
 aClipboardType
-DataTransfer
-*
-aDataTransfer
 )
 final
 ;

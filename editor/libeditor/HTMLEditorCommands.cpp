@@ -633,7 +633,6 @@ DispatchPasteEvent
 :
 :
 Yes
-nullptr
 aPrincipal
 )
 ;
