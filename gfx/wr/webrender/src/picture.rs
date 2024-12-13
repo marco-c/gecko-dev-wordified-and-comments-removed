@@ -21857,6 +21857,17 @@ PrimitiveList
 )
 >
 {
+frame_state
+.
+visited_pictures
+[
+pic_index
+.
+0
+]
+=
+true
+;
 self
 .
 primary_render_task_id
