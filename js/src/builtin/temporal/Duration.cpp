@@ -8364,7 +8364,7 @@ js
 temporal
 :
 :
-DivideTimeDuration
+TotalTimeDuration
 (
 const
 TimeDuration
