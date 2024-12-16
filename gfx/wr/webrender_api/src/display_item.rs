@@ -3441,6 +3441,10 @@ pub
 area
 :
 LayoutRect
+pub
+detached
+:
+bool
 }
 #
 [
