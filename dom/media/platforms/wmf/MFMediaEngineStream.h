@@ -858,6 +858,16 @@ ShouldDecoderAlwaysBeRecycled
 const
 override
 ;
+bool
+IsHardwareAccelerated
+(
+nsACString
+&
+aFailureReason
+)
+const
+override
+;
 private
 :
 ~
