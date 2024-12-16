@@ -23324,24 +23324,6 @@ options
 verify_fission
                 
 "
-vertical_tab
-"
-:
-self
-.
-extraPrefs
-.
-get
-(
-"
-sidebar
-.
-verticalTabs
-"
-False
-)
-                
-"
 webgl_ipc
 "
 :
