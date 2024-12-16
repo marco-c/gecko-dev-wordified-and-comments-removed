@@ -691,7 +691,7 @@ uint32_t
 rowsA
 uint32_t
 colsA
-int8_t
+uint8_t
 *
 outputMatrixA
 )
@@ -1007,7 +1007,7 @@ respectively
 int8_multiply_and_add_bias
 (
 const
-int8_t
+uint8_t
 *
 inputMatrixAPrepared
 float
