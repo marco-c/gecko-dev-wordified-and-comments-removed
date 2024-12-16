@@ -193,6 +193,17 @@ pid
 nullptr
 )
 ;
+nsresult
+IsMultiSessionInstallLockoutActive
+(
+nsIFile
+*
+updRootDir
+bool
+&
+isActive
+)
+;
 class
 nsUpdateProcessor
 final
