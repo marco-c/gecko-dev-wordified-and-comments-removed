@@ -437,7 +437,7 @@ mainFlowToolbarEnabled
 false
 mainFlowBrowserMenuEnabled
 =
-false
+true
 )
 }
 Log
