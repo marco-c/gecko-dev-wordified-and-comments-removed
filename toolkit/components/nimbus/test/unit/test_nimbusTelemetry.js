@@ -329,6 +329,9 @@ enrollmentStatus
 .
 testGetValue
 (
+"
+events
+"
 )
 null
 "
@@ -426,6 +429,9 @@ enrollmentStatus
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -559,6 +565,9 @@ enrollmentStatus
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -671,6 +680,9 @@ enrollmentStatus
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -810,6 +822,9 @@ enrollmentStatus
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
