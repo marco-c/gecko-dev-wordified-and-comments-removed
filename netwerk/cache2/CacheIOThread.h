@@ -108,12 +108,13 @@ CacheIOThread
 using
 EventQueue
 =
-nsTArray
+AutoTArray
 <
 nsCOMPtr
 <
 nsIRunnable
 >
+32
 >
 ;
 enum
