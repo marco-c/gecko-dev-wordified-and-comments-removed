@@ -1791,11 +1791,22 @@ or
 not
 (
         
+(
 existing_condition
++
+"
+"
+)
 in
 new_condition
+        
 or
+(
 new_condition
++
+"
+"
+)
 in
 existing_condition
     
