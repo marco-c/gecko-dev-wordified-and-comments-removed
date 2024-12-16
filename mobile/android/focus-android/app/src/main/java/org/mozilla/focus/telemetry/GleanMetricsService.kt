@@ -1152,7 +1152,7 @@ Boolean
 {
 Glean
 .
-setUploadEnabled
+setCollectionEnabled
 (
 enabled
 )

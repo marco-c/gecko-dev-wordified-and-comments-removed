@@ -240,8 +240,6 @@ boolean
 send_in_pings
 :
 -
-active
--
 events
 -
 metrics

@@ -244,8 +244,6 @@ dismiss_local_default
 send_in_pings
 :
 -
-active
--
 metrics
 handler_prompt_shown
 :
@@ -323,7 +321,5 @@ os_default
 fx_default
 send_in_pings
 :
--
-active
 -
 metrics

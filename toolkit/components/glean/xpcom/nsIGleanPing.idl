@@ -75,5 +75,13 @@ nsIGleanPingTestCallback
 aCallback
 )
 ;
+void
+setEnabled
+(
+in
+boolean
+aValue
+)
+;
 }
 ;

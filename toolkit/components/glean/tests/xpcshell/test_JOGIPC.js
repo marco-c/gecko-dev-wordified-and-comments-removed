@@ -207,7 +207,7 @@ jog_counter
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -229,7 +229,7 @@ jog_string_list
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -251,7 +251,7 @@ jog_event_no_extra
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -273,7 +273,7 @@ jog_event
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -309,7 +309,7 @@ jog_memory_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -343,7 +343,7 @@ jog_timing_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -377,7 +377,7 @@ jog_custom_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -420,7 +420,7 @@ jog_labeled_counter
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -442,7 +442,7 @@ jog_labeled_counter_err
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -464,7 +464,7 @@ jog_labeled_counter_with_labels
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -503,7 +503,7 @@ jog_labeled_counter_with_labels_err
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -542,7 +542,7 @@ jog_rate
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -564,7 +564,7 @@ jog_labeled_custom_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -607,7 +607,7 @@ jog_labeled_memory_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -641,7 +641,7 @@ jog_labeled_timing_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -675,7 +675,7 @@ jog_unordered_bool
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -707,7 +707,7 @@ jog_unordered_labeled_bool
 "
 test
 -
-only
+ping
 "
 ]
 "

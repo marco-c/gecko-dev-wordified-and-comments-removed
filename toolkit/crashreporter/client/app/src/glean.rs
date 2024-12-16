@@ -112,6 +112,12 @@ cfg
 Config
 )
 {
+_
+=
+&
+*
+crash
+;
 glean
 :
 :

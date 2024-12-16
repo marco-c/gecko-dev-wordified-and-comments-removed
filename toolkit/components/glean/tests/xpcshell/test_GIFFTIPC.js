@@ -1169,7 +1169,9 @@ aCustomDist
 testGetValue
 (
 "
-store1
+test
+-
+ping
 "
 )
 ;
