@@ -548,7 +548,7 @@ FenixApplication
 .
 Glean
 .
-setUploadEnabled
+setCollectionEnabled
 (
 true
 )
@@ -703,7 +703,7 @@ stop
 {
 Glean
 .
-setUploadEnabled
+setCollectionEnabled
 (
 false
 )

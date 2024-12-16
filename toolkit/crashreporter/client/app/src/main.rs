@@ -1231,6 +1231,15 @@ move_crash_data_to_pending
 extra
 }
 ;
+_
+=
+&
+*
+glean
+:
+:
+crash
+;
 #
 [
 cfg

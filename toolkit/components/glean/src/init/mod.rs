@@ -1940,6 +1940,14 @@ PingUploader
 >
 )
 ;
+pings
+:
+:
+register_pings
+(
+None
+)
+;
 glean
 :
 :
