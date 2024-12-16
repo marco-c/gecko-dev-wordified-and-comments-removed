@@ -105,13 +105,6 @@ UploadMetrics
 Glean
 }
 ;
-pub
-use
-directory
-:
-:
-process_metadata
-;
 use
 directory
 :
@@ -4361,7 +4354,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -4530,7 +4522,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -4675,7 +4666,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -4846,7 +4836,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -5017,7 +5006,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -5204,7 +5192,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -5750,7 +5737,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -6087,7 +6073,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -6317,7 +6302,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -6603,7 +6587,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -6933,7 +6916,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean
@@ -7273,7 +7255,6 @@ vec
 !
 [
 ]
-true
 )
 ;
 glean

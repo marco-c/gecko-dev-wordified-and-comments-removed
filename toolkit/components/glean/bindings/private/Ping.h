@@ -115,14 +115,6 @@ aCallback
 )
 const
 ;
-void
-SetEnabled
-(
-bool
-aValue
-)
-const
-;
 private
 :
 const

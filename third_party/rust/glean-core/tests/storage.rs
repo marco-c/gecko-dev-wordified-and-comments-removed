@@ -140,7 +140,7 @@ vec
 !
 [
 "
-store1
+store
 "
 .
 into
@@ -183,7 +183,7 @@ storage
 (
 )
 "
-store1
+store
 "
 true
 )
@@ -470,7 +470,7 @@ vec
 !
 [
 "
-store1
+core
 "
 .
 into
@@ -676,7 +676,7 @@ storage
 (
 )
 "
-store1
+core
 "
 true
 )

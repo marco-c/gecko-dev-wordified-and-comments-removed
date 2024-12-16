@@ -250,22 +250,6 @@ include_info_sections
 True
 )
         
-self
-.
-follows_collection_enabled
-=
-self
-.
-metadata
-.
-get
-(
-"
-follows_collection_enabled
-"
-True
-)
-        
 if
 enabled
 is
@@ -281,19 +265,6 @@ self
 enabled
 =
 enabled
-        
-if
-not
-self
-.
-follows_collection_enabled
-:
-            
-self
-.
-enabled
-=
-False
         
 self
 .
@@ -603,20 +574,6 @@ remove_output_params
 modified_dict
 "
 include_info_sections
-"
-        
-)
-        
-modified_dict
-=
-util
-.
-remove_output_params
-(
-            
-modified_dict
-"
-follows_collection_enabled
 "
         
 )

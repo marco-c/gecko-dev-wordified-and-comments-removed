@@ -176,10 +176,6 @@ schedules_pings
 "
 reason_codes
 "
-    
-"
-follows_collection_enabled
-"
 ]
 def
 ensure_jog_support_for_args

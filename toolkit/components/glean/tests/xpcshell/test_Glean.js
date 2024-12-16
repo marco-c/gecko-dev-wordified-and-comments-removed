@@ -1506,9 +1506,7 @@ aCustomDist
 testGetValue
 (
 "
-test
--
-ping
+store1
 "
 )
 ;
@@ -3106,9 +3104,7 @@ aUrl
 testGetValue
 (
 "
-test
--
-ping
+store1
 "
 )
 )

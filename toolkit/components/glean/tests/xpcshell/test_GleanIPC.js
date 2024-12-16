@@ -790,9 +790,7 @@ aCustomDist
 testGetValue
 (
 "
-test
--
-ping
+store1
 "
 )
 ;

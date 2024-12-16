@@ -740,7 +740,6 @@ dirty_startup
 foreground
 "
 ]
-true
 ]
 [
 "
@@ -759,7 +758,6 @@ true
 ]
 [
 ]
-true
 ]
 [
 "
@@ -785,7 +783,6 @@ max_capacity
 startup
 "
 ]
-true
 ]
 [
 "
@@ -817,7 +814,6 @@ tomorrow
 upgrade
 "
 ]
-true
 ]
 [
 "
@@ -834,7 +830,6 @@ true
 ]
 [
 ]
-true
 ]
 [
 "
@@ -851,7 +846,6 @@ true
 ]
 [
 ]
-true
 ]
 ]
 }
