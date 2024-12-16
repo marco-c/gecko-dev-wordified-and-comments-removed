@@ -1353,6 +1353,10 @@ NativeActivity
 intent
 =
 None
+            
+grant_runtime_permissions
+=
+False
         
 )
         
