@@ -2296,14 +2296,7 @@ mouse_hovering_panel_should_prevent_autoclose
 {
 if
 (
-AppConstants
-.
-platform
-!
-=
-"
-win
-"
+true
 )
 {
 return
