@@ -37697,6 +37697,12 @@ talos
 pdfs
 .
 *
+alert_threshold
+:
+6
+.
+0
+*
 pdfpaint
 :
 True
