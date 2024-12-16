@@ -2066,6 +2066,16 @@ service
 "
 relay
 "
+entrypoint_experiment
+:
+"
+first_offer_version
+"
+entrypoint_variation
+:
+"
+control
+"
 }
 )
 ;
