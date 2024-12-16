@@ -69,12 +69,6 @@ browser
 import
 androidx
 .
-annotation
-.
-NonNull
-import
-androidx
-.
 recyclerview
 .
 widget
@@ -99,13 +93,11 @@ override
 fun
 animatePersistence
 (
-NonNull
 viewHolder
 :
 RecyclerView
 .
 ViewHolder
-NonNull
 preLayoutInfo
 :
 RecyclerView
@@ -113,7 +105,6 @@ RecyclerView
 ItemAnimator
 .
 ItemHolderInfo
-NonNull
 postLayoutInfo
 :
 RecyclerView
