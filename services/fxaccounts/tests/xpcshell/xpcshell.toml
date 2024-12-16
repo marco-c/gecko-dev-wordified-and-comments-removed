@@ -255,6 +255,13 @@ js
 ]
 [
 "
+test_sync_warning_dialogs
+.
+js
+"
+]
+[
+"
 test_telemetry
 .
 js
