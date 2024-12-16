@@ -1675,9 +1675,9 @@ Servo_InterpolateColor
 (
 kMethod
 &
-aRight
-&
 aLeft
+&
+aRight
 aFrac
 )
 ;

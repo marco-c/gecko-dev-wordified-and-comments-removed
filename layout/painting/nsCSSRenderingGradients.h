@@ -445,11 +445,11 @@ Servo_InterpolateColor
 (
 mStyleColorInterpolationMethod
 &
-end
+start
 .
 mColor
 &
-start
+end
 .
 mColor
 progress
