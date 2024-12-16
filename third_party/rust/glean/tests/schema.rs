@@ -1174,6 +1174,7 @@ vec
 !
 [
 ]
+true
 )
 ;
 custom_ping

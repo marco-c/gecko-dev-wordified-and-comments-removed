@@ -204,6 +204,7 @@ vec
 !
 [
 ]
+true
 )
 }
 )
@@ -260,6 +261,15 @@ path
 to_path_buf
 (
 )
+;
+_
+=
+&
+*
+pings
+:
+:
+validation
 ;
 let
 cfg
