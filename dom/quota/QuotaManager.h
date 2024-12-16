@@ -379,6 +379,9 @@ class
 CanonicalQuotaObject
 ;
 class
+ClearRequestBase
+;
+class
 ClientUsageArray
 ;
 class
@@ -421,6 +424,10 @@ BackgroundThreadObject
 friend
 class
 CanonicalQuotaObject
+;
+friend
+class
+ClearRequestBase
 ;
 friend
 class
@@ -2482,6 +2489,12 @@ OriginMetadata
 aOriginMetadata
 )
 ;
+uint64_t
+TotalDirectoryIterations
+(
+)
+const
+;
 static
 void
 MaybeRecordQuotaClientShutdownStep
@@ -3423,6 +3436,11 @@ StringGenerator
 &
 >
 ;
+void
+IncreaseTotalDirectoryIterations
+(
+)
+;
 template
 <
 typename
@@ -3623,6 +3641,11 @@ FullOriginMetadata
 >
 >
 mAllTemporaryOrigins
+;
+uint64_t
+mTotalDirectoryIterations
+=
+0
 ;
 }
 ;

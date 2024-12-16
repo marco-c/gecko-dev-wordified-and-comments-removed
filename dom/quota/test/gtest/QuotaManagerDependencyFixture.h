@@ -336,6 +336,12 @@ ClientMetadata
 aClientMetadata
 )
 ;
+static
+uint64_t
+TotalDirectoryIterations
+(
+)
+;
 template
 <
 class
