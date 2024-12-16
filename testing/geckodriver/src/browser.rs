@@ -684,6 +684,10 @@ PrefsBackup
 process
 :
 FirefoxProcess
+pub
+(
+crate
+)
 profile_path
 :
 Option
