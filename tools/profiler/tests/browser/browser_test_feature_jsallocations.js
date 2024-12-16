@@ -34,6 +34,8 @@ active
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -117,6 +119,8 @@ Assert
 .
 greater
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 parentThread
@@ -158,6 +162,8 @@ Assert
 .
 greater
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 contentThread
@@ -197,6 +203,8 @@ on
 ;
 }
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -239,6 +247,8 @@ Assert
 .
 equal
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 parentThread
@@ -280,6 +290,8 @@ Assert
 .
 equal
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 contentThread

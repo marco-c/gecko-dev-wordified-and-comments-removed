@@ -88,6 +88,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )
@@ -766,6 +768,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )

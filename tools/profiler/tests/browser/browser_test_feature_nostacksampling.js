@@ -29,6 +29,8 @@ active
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -190,6 +192,8 @@ on
 ;
 }
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {

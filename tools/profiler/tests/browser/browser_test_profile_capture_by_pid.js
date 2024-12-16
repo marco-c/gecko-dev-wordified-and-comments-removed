@@ -244,6 +244,8 @@ content
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -330,6 +332,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )

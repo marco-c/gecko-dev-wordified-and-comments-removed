@@ -39,6 +39,8 @@ mode
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -92,6 +94,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -99,6 +103,8 @@ stopNowAndGetProfile
 const
 markers
 =
+ProfilerTestUtils
+.
 getInflatedMarkerData
 (
 profile
@@ -129,6 +135,10 @@ phase
 =
 =
 =
+ProfilerTestUtils
+.
+markerPhases
+.
 INTERVAL_START
 &
 &
@@ -163,6 +173,10 @@ phase
 =
 =
 =
+ProfilerTestUtils
+.
+markerPhases
+.
 INTERVAL_END
 &
 &

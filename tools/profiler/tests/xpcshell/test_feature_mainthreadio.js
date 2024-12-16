@@ -566,6 +566,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -598,6 +600,8 @@ GeckoMain
 const
 schema
 =
+ProfilerTestUtils
+.
 getSchema
 (
 profile

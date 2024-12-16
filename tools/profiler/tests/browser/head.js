@@ -163,6 +163,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )

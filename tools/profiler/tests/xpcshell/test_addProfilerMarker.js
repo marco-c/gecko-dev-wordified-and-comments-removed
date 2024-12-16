@@ -579,6 +579,9 @@ async
 =
 >
 {
+await
+ProfilerTestUtils
+.
 startProfilerForMarkerTests
 (
 )
@@ -1146,6 +1149,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -1178,6 +1183,8 @@ GeckoMain
 const
 markers
 =
+ProfilerTestUtils
+.
 getInflatedMarkerData
 (
 mainThread

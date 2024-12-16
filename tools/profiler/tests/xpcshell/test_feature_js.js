@@ -56,6 +56,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -225,6 +227,8 @@ functionC
 )
 {
 return
+ProfilerTestUtils
+.
 captureAtLeastOneJsSample
 (
 )

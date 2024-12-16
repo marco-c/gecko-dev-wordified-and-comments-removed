@@ -30,6 +30,8 @@ profile
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -50,6 +52,8 @@ tempProfileContainer
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -65,6 +69,8 @@ profiler
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -202,6 +208,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -209,6 +217,8 @@ waitSamplingAndStopAndGetProfile
 const
 markers
 =
+ProfilerTestUtils
+.
 getInflatedMarkerData
 (
 profile

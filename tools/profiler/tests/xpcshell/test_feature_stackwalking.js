@@ -48,6 +48,8 @@ const
 sampleIndex
 =
 await
+ProfilerTestUtils
+.
 captureAtLeastOneJsSample
 (
 )
@@ -56,6 +58,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )

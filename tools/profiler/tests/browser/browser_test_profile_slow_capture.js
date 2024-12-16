@@ -68,6 +68,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -201,6 +203,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -388,6 +392,8 @@ profile
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )
@@ -419,6 +425,8 @@ waitOnePeriodicSampling
 ;
 }
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -499,6 +507,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -605,6 +615,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -672,6 +684,8 @@ profile
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )
@@ -703,6 +717,8 @@ waitOnePeriodicSampling
 ;
 }
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )

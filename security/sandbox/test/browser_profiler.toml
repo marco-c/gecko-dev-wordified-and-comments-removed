@@ -10,6 +10,10 @@ if
 ccov
 "
 "
+!
+gecko_profiler
+"
+"
 os
 =
 =

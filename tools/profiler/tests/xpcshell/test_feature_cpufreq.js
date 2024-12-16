@@ -351,6 +351,8 @@ thread
 const
 markers
 =
+ProfilerTestUtils
+.
 getInflatedMarkerData
 (
 thread
@@ -419,6 +421,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -451,6 +455,8 @@ GeckoMain
 const
 schema
 =
+ProfilerTestUtils
+.
 getSchema
 (
 profile

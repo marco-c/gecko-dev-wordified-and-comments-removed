@@ -88,6 +88,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )

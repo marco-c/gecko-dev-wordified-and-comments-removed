@@ -134,6 +134,8 @@ messages
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -276,6 +278,8 @@ Assert
 .
 greater
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 parentThread
@@ -317,6 +321,8 @@ Assert
 .
 greater
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 contentThread
@@ -374,6 +380,8 @@ messages
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -466,6 +474,8 @@ Assert
 .
 equal
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 parentThread
@@ -508,6 +518,8 @@ Assert
 .
 equal
 (
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 contentThread
