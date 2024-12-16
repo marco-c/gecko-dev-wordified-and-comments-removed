@@ -26215,7 +26215,7 @@ d
 (
 bytecode
 .
-vector
+bytes
 0
 error
 )

@@ -2899,7 +2899,10 @@ relativeDepth
 void
 insertBreakablePoint
 (
-CallSiteKind
+CallSiteDesc
+:
+:
+Kind
 kind
 )
 ;
@@ -4566,13 +4569,6 @@ r0
 inline
 BytecodeOffset
 bytecodeOffset
-(
-)
-const
-;
-inline
-TrapSiteDesc
-trapSiteDesc
 (
 )
 const

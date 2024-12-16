@@ -972,14 +972,6 @@ funcDefIndex
 ]
 ;
 }
-uint32_t
-findFuncIndex
-(
-uint32_t
-bytecodeOffset
-)
-const
-;
 BuiltinModuleFuncId
 knownFuncImport
 (

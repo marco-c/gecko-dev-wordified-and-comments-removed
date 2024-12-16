@@ -3415,7 +3415,7 @@ d
 (
 bytecode
 .
-vector
+bytes
 0
 error
 warnings
@@ -4304,7 +4304,7 @@ bytecode
 bytecode
 -
 >
-vector
+bytes
 .
 resize
 (
@@ -4323,7 +4323,7 @@ p
 bytecode
 -
 >
-vector
+bytes
 .
 begin
 (
@@ -5032,7 +5032,7 @@ d
 (
 bytecode
 .
-vector
+bytes
 0
 error
 &

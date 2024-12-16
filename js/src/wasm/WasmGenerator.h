@@ -271,13 +271,13 @@ bytes
 CodeRangeVector
 codeRanges
 ;
-CallSites
+CallSiteVector
 callSites
 ;
 CallSiteTargetVector
 callSiteTargets
 ;
-TrapSites
+TrapSiteVectorArray
 trapSites
 ;
 SymbolicAccessVector
