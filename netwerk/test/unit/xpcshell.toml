@@ -4767,6 +4767,13 @@ js
 ]
 [
 "
+test_bug1830022
+.
+js
+"
+]
+[
+"
 test_https_rr_ech_prefs
 .
 js
