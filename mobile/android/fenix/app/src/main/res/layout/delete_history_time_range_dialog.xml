@@ -130,6 +130,15 @@ auto
 "
 android
 :
+theme
+=
+"
+style
+/
+DialogStyleNormal
+"
+android
+:
 layout_width
 =
 "
