@@ -204,6 +204,14 @@ bool
 isActive
 )
 ;
+nsresult
+WriteUpdateCompleteTestFile
+(
+nsIFile
+*
+updRootDir
+)
+;
 class
 nsUpdateProcessor
 final
