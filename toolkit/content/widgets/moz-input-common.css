@@ -526,8 +526,6 @@ adjust
 margin
 -
 inline
--
-start
 :
 var
 (
@@ -542,6 +540,14 @@ inline
 start
 -
 adjust
+)
+var
+(
+-
+-
+space
+-
+small
 )
 ;
 }
