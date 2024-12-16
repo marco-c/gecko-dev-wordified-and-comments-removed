@@ -1418,13 +1418,6 @@ html
 ]
 [
 "
-test_bug1094000
-.
-html
-"
-]
-[
-"
 test_bug1102906
 .
 html
