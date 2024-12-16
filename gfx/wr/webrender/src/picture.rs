@@ -11345,6 +11345,7 @@ invalid
 )
 native_surface_id
 update_params
+external_image_id
 }
 ;
 match
