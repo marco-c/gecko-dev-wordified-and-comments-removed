@@ -542,6 +542,13 @@ this
 _workerDebuggerData
 .
 id
+name
+:
+this
+.
+_workerDebuggerData
+.
+name
 type
 :
 this
