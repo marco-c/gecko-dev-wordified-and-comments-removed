@@ -1026,8 +1026,10 @@ Second
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -1170,8 +1172,10 @@ Microsecond
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }

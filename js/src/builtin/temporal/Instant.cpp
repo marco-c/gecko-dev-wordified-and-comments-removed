@@ -1292,8 +1292,10 @@ Second
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -1956,8 +1958,10 @@ ms
 +
 EpochDuration
 {
+{
 0
 nanos
+}
 }
 ;
 }
