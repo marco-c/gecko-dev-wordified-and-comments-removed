@@ -165,15 +165,6 @@ html
 file
 :
 "
-helper_fission_large_subframe
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_initial_displayport
 .
 html
