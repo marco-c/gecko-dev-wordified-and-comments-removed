@@ -916,7 +916,6 @@ cancel
 "
 )
 ;
-await
 removeSelectedSite
 (
 hosts
@@ -1025,7 +1024,6 @@ cancel
 "
 )
 ;
-await
 removeSelectedSite
 (
 hosts
@@ -1095,6 +1093,12 @@ promiseSettingsDialogClose
 (
 )
 ;
+updatePromise
+=
+promiseSiteDataManagerSitesUpdated
+(
+)
+;
 frameDoc
 =
 win
@@ -1125,7 +1129,6 @@ accept
 "
 )
 ;
-await
 removeSelectedSite
 (
 hosts
@@ -1159,6 +1162,9 @@ removeDialogOpenPromise
 ;
 await
 settingsDialogClosePromise
+;
+await
+updatePromise
 ;
 await
 openSiteDataSettingsDialog
