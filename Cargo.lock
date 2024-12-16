@@ -18,7 +18,7 @@ editing
 .
 version
 =
-4
+3
 [
 [
 package
@@ -61,9 +61,9 @@ stroke
 ?
 rev
 =
-c985e1baf196b489a8151de29b8f8ee4a77246ab
+35a650261605662795a04cc249c465436cbfab45
 #
-c985e1baf196b489a8151de29b8f8ee4a77246ab
+35a650261605662795a04cc249c465436cbfab45
 "
 dependencies
 =
