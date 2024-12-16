@@ -3638,14 +3638,12 @@ event
 .
 currentTarget
 .
-setAttribute
+toggleAttribute
 (
 "
 textoverflow
 "
-"
 true
-"
 )
 ;
 }
