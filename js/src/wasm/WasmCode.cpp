@@ -5829,10 +5829,10 @@ void
 pc
 Trap
 *
-trapOut
-BytecodeOffset
+kindOut
+TrapSiteDesc
 *
-bytecodeOut
+trapOut
 )
 const
 {
@@ -5868,8 +5868,8 @@ trapSites
 lookup
 (
 target
+kindOut
 trapOut
-bytecodeOut
 )
 ;
 }
