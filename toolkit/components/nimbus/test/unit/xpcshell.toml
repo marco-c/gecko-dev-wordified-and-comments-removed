@@ -202,6 +202,13 @@ js
 ]
 [
 "
+test_nimbusTelemetry
+.
+js
+"
+]
+[
+"
 test_policy
 .
 js
