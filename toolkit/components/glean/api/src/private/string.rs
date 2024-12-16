@@ -712,7 +712,9 @@ metric
 test_get_value
 (
 "
-store1
+test
+-
+ping
 "
 )
 .
@@ -829,7 +831,9 @@ parent_metric
 test_get_value
 (
 "
-store1
+test
+-
+ping
 "
 )
 .

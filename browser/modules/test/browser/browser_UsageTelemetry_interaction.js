@@ -459,6 +459,15 @@ testResetFOG
 (
 )
 ;
+GleanPings
+.
+prototypeNoCodeEvents
+.
+setEnabled
+(
+true
+)
+;
 let
 newTab
 =

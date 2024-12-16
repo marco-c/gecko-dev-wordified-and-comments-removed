@@ -561,7 +561,7 @@ recording_enabled
 glean
 :
 :
-set_upload_enabled
+set_collection_enabled
 (
 false
 )
@@ -581,7 +581,7 @@ SeqCst
 glean
 :
 :
-set_upload_enabled
+set_collection_enabled
 (
 upload_enabled
 |
