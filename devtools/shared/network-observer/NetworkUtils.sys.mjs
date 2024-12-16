@@ -1158,6 +1158,16 @@ Ci
 nsIContentPolicy
 .
 TYPE_INTERNAL_FONT_PRELOAD
+|
+|
+type
+=
+=
+Ci
+.
+nsIContentPolicy
+.
+TYPE_INTERNAL_JSON_PRELOAD
 )
 ;
 }

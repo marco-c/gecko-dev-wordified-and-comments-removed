@@ -162,6 +162,9 @@ web_manifest
 speculative
 "
 "
+json
+"
+"
 other
 "
 }

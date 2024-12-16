@@ -28490,6 +28490,12 @@ ExtContentPolicy
 :
 TYPE_SCRIPT
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_JSON
+:
 Telemetry
 :
 :

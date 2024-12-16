@@ -546,6 +546,9 @@ iframe
 image
 "
 "
+json
+"
+"
 manifest
 "
 "

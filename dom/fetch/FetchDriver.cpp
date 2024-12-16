@@ -4069,6 +4069,12 @@ RequestDestination
 :
 Xslt
 :
+case
+RequestDestination
+:
+:
+Json
+:
 return
 FETCH_PRIORITY_ADJUSTMENT_FOR
 (
