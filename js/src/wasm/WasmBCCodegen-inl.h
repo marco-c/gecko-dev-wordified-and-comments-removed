@@ -806,7 +806,7 @@ masm
 wasmTrap
 (
 t
-bytecodeOffset
+trapSiteDesc
 (
 )
 )

@@ -5087,7 +5087,7 @@ wasm
 :
 :
 TrapSitesForKind
-520
+160
 )
 ;
 #
@@ -5180,7 +5180,7 @@ wasm
 :
 :
 TrapSites
-520
+2080
 )
 ;
 for
@@ -7869,7 +7869,7 @@ wasm
 :
 :
 CodeBlock
-1024
+2584
 )
 ;
 *
@@ -8161,7 +8161,7 @@ wasm
 :
 :
 CodeBlock
-1024
+2584
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING

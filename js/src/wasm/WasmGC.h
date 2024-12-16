@@ -1907,9 +1907,8 @@ jit
 Label
 *
 skipBarrier
-BytecodeOffset
-*
-trapOffset
+MaybeTrapSiteDesc
+trapSiteDesc
 )
 ;
 void
