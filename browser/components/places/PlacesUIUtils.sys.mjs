@@ -8759,7 +8759,6 @@ events
 from
 submenus
 return
-true
 ;
 }
 PlacesUIUtils
@@ -8919,7 +8918,6 @@ event
 )
 ;
 return
-true
 ;
 }
 menupopup
@@ -8975,7 +8973,6 @@ preventDefault
 )
 ;
 return
-false
 ;
 }
 if
@@ -9010,7 +9007,9 @@ single
 )
 ;
 }
-return
+if
+(
+!
 menupopup
 .
 _view
@@ -9019,7 +9018,15 @@ buildContextMenu
 (
 menupopup
 )
+)
+{
+event
+.
+preventDefault
+(
+)
 ;
+}
 }
 placesContextHiding
 (
