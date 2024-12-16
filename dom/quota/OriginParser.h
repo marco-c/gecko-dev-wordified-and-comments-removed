@@ -51,6 +51,9 @@ mozilla
 class
 OriginAttributes
 ;
+class
+OriginAttributesPattern
+;
 namespace
 dom
 :
@@ -290,6 +293,17 @@ const
 nsACString
 &
 aSuffix
+uint32_t
+aUserContextId
+)
+;
+bool
+IsUserContextPattern
+(
+const
+OriginAttributesPattern
+&
+aPattern
 uint32_t
 aUserContextId
 )
