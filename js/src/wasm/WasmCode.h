@@ -2089,7 +2089,7 @@ codeRanges
 CallSites
 callSites
 ;
-TrapSiteVectorArray
+TrapSites
 trapSites
 ;
 FuncExportVector
@@ -2441,7 +2441,7 @@ Trap
 trapOut
 BytecodeOffset
 *
-bytecode
+bytecodeOut
 )
 const
 ;
