@@ -660,9 +660,7 @@ metric
 test_get_value
 (
 "
-test
--
-ping
+store1
 "
 )
 .

@@ -101,7 +101,7 @@ vec
 !
 [
 "
-store1
+core
 "
 .
 into
@@ -140,7 +140,7 @@ get_value
 &
 glean
 "
-store1
+core
 "
 )
 .
@@ -177,7 +177,7 @@ get_value
 &
 glean
 "
-store1
+core
 "
 )
 .
@@ -225,7 +225,7 @@ get_value
 &
 glean
 "
-store1
+core
 "
 )
 .
@@ -262,7 +262,7 @@ get_value
 &
 glean
 "
-store1
+core
 "
 )
 .

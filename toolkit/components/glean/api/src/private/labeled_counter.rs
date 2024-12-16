@@ -652,9 +652,7 @@ a_label
 test_get_value
 (
 "
-test
--
-ping
+store1
 "
 )
 .
@@ -950,9 +948,7 @@ label
 test_get_value
 (
 "
-test
--
-ping
+store1
 "
 )
 .
