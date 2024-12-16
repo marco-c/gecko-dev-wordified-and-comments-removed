@@ -145,7 +145,7 @@ robots
 )
 ;
 let
-aboutCrashesTab
+aboutAboutTab
 =
 BrowserTestUtils
 .
@@ -157,7 +157,7 @@ gBrowser
 "
 about
 :
-crashes
+about
 "
 )
 ;
@@ -188,7 +188,7 @@ gBrowser
 addTabGroup
 (
 [
-aboutCrashesTab
+aboutAboutTab
 aboutMemoryTab
 ]
 {
@@ -247,11 +247,6 @@ BrowserTestUtils
 closeWindow
 (
 win
-)
-;
-await
-forceSaveState
-(
 )
 ;
 win
@@ -515,7 +510,7 @@ systemTabGroupId
 "
 about
 :
-crashes
+about
 tab
 should
 be

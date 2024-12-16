@@ -91,7 +91,7 @@ robots
 )
 ;
 let
-aboutCrashesTab
+aboutMozillaTab
 =
 BrowserTestUtils
 .
@@ -103,7 +103,7 @@ gBrowser
 "
 about
 :
-crashes
+mozilla
 "
 )
 ;
@@ -132,7 +132,7 @@ addTabGroup
 (
 [
 aboutRobotsTab
-aboutCrashesTab
+aboutMozillaTab
 ]
 {
 label
@@ -407,7 +407,7 @@ group
 )
 ;
 const
-aboutCrashesTabState
+aboutMozillaTabState
 =
 findTabStateByUrl
 (
@@ -415,7 +415,7 @@ windowState
 "
 about
 :
-crashes
+mozilla
 "
 )
 ;
@@ -423,11 +423,11 @@ Assert
 .
 ok
 (
-aboutCrashesTabState
+aboutMozillaTabState
 "
 about
 :
-crashes
+mozilla
 tab
 should
 be
@@ -441,7 +441,7 @@ Assert
 .
 equal
 (
-aboutCrashesTabState
+aboutMozillaTabState
 .
 groupId
 group
@@ -450,7 +450,7 @@ id
 "
 about
 :
-crashes
+mozilla
 tab
 should
 be
