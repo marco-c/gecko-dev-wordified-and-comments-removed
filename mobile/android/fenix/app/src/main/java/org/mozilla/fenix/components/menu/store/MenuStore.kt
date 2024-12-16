@@ -255,6 +255,10 @@ ShowCFR
 is
 MenuAction
 .
+OpenInRegularTab
+is
+MenuAction
+.
 DismissCFR
 -
 >
