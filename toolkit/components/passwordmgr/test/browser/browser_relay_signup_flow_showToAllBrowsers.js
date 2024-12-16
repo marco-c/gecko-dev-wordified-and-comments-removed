@@ -753,7 +753,7 @@ fxaRelayOptInPrompt
 querySelector
 (
 "
-#
+.
 firefox
 -
 fxa
@@ -799,7 +799,7 @@ fxaRelayOptInPrompt
 querySelector
 (
 "
-#
+.
 firefox
 -
 fxa
