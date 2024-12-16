@@ -460,9 +460,6 @@ true
 watcher
 :
 true
-isServerTargetSwitchingEnabled
-:
-true
 }
 url
 :
