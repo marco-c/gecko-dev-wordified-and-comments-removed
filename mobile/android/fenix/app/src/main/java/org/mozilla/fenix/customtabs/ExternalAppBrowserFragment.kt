@@ -1702,6 +1702,16 @@ OpenInFenix
 onMenuButtonClick
 =
 {
+NavigationBar
+.
+customMenuTapped
+.
+record
+(
+NoExtras
+(
+)
+)
 nav
 (
 R
