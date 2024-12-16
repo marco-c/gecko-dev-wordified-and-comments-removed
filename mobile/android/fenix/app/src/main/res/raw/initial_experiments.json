@@ -413,6 +413,11 @@ firefoxLabsGroup
 "
 :
 null
+"
+requiresRestart
+"
+:
+false
 }
 {
 "
@@ -903,6 +908,11 @@ firefoxLabsGroup
 "
 :
 null
+"
+requiresRestart
+"
+:
+false
 }
 ]
 }
