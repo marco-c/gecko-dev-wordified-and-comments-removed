@@ -1073,14 +1073,14 @@ StyleColorInterpolationMethod
 &
 aStyleColorInterpolationMethod
 bool
-aExtendLastStop
+aExtend
 )
 :
 ColorStopInterpolator
 (
 aStops
 aStyleColorInterpolationMethod
-aExtendLastStop
+aExtend
 )
 mGradient
 (

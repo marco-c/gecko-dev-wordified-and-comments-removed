@@ -162,7 +162,7 @@ StyleColorInterpolationMethod
 &
 aStyleColorInterpolationMethod
 bool
-aExtendLastStop
+aExtend
 )
 :
 mStyleColorInterpolationMethod
@@ -173,9 +173,9 @@ mStops
 (
 aStops
 )
-mExtendLastStop
+mExtend
 (
-aExtendLastStop
+aExtend
 )
 {
 }
@@ -196,7 +196,7 @@ Length
 1
 +
 (
-mExtendLastStop
+mExtend
 ?
 2
 :
@@ -222,7 +222,7 @@ i
 auto
 thisindex
 =
-mExtendLastStop
+mExtend
 ?
 (
 i
@@ -242,7 +242,7 @@ i
 auto
 nextindex
 =
-mExtendLastStop
+mExtend
 &
 &
 (
@@ -302,7 +302,7 @@ mPosition
 ;
 if
 (
-mExtendLastStop
+mExtend
 )
 {
 if
@@ -497,7 +497,7 @@ ColorStop
 mStops
 ;
 bool
-mExtendLastStop
+mExtend
 ;
 inline
 static
