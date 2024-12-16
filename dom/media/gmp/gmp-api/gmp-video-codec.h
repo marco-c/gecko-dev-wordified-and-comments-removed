@@ -257,6 +257,9 @@ kGMPVersion34
 kGMPVersion35
 =
 35
+kGMPVersion36
+=
+36
 }
 ;
 struct
@@ -336,6 +339,9 @@ mSliceMode
 ;
 bool
 mUseThreadedEncode
+;
+int32_t
+mTemporalLayerNum
 ;
 }
 ;
