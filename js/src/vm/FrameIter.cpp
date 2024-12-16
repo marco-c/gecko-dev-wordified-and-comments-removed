@@ -2003,6 +2003,14 @@ isWasm
 )
 )
 ;
+wasmFrame
+(
+)
+.
+enableInlinedFrames
+(
+)
+;
 data_
 .
 pc_
