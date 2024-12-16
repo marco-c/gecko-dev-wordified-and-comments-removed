@@ -5463,6 +5463,11 @@ seen
 true
 ;
 }
+updateBlocklistState
+(
+)
+{
+}
 _updateActiveState
 (
 currentActive
