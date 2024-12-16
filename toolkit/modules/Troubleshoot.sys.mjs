@@ -368,6 +368,13 @@ browser
 .
 search
 .
+lastSettingsCorruptTime
+"
+"
+browser
+.
+search
+.
 log
 "
 "
