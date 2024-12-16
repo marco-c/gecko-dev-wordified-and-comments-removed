@@ -345,11 +345,6 @@ principalInfo
 ;
 }
 ;
-struct
-ListOriginsParams
-{
-}
-;
 union
 RequestParams
 {
@@ -362,8 +357,6 @@ PersistedParams
 PersistParams
 ;
 EstimateParams
-;
-ListOriginsParams
 ;
 }
 ;
@@ -612,6 +605,16 @@ principalInfo
 returns
 (
 UInt64Response
+response
+)
+;
+async
+ListOrigins
+(
+)
+returns
+(
+CStringArrayResponse
 response
 )
 ;

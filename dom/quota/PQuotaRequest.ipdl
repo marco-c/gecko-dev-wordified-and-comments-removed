@@ -147,16 +147,6 @@ limit
 ;
 }
 ;
-struct
-ListOriginsResponse
-{
-nsCString
-[
-]
-origins
-;
-}
-;
 union
 RequestResponse
 {
@@ -171,8 +161,6 @@ PersistedResponse
 PersistResponse
 ;
 EstimateResponse
-;
-ListOriginsResponse
 ;
 }
 ;

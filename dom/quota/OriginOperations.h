@@ -998,7 +998,11 @@ aParams
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+CStringArray
+true
+>
 >
 CreateListOriginsOp
 (

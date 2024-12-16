@@ -1992,6 +1992,14 @@ RefPtr
 <
 CStringArrayPromise
 >
+ListOrigins
+(
+)
+;
+RefPtr
+<
+CStringArrayPromise
+>
 ListCachedOrigins
 (
 )
