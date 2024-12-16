@@ -7,11 +7,11 @@ bash
 #
 name
 :
-applink
+tab
 -
-startup
+restore
 -
-cnve
+shopify
 #
 owner
 :
@@ -21,11 +21,9 @@ description
 :
 Runs
 the
-applink
-startup
-(
-cvne
-)
+shopify
+mobile
+restore
 test
 for
 chrome
@@ -60,4 +58,4 @@ script
 PYTHON_PATH_SHELL_SCRIPT
 SCRIPT_PATH
 APP
-cold_view_nav_end
+mobile_restore

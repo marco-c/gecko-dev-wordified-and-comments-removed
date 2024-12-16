@@ -61,3 +61,4 @@ script
 PYTHON_PATH_SHELL_SCRIPT
 SCRIPT_PATH
 APP
+cold_view_nav_end
