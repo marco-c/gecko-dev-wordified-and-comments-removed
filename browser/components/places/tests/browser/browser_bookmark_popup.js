@@ -2399,10 +2399,6 @@ true
 ;
 }
 )
-.
-skip
-(
-)
 ;
 add_task
 (
