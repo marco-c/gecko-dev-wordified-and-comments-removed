@@ -677,6 +677,12 @@ js
 )
 ;
 await
+waitForDocumentLoadComplete
+(
+dbg
+)
+;
+await
 setLogPoint
 (
 dbg
@@ -722,6 +728,12 @@ logpoint
 .
 js
 "
+)
+;
+await
+waitForDocumentLoadComplete
+(
+dbg
 )
 ;
 await
