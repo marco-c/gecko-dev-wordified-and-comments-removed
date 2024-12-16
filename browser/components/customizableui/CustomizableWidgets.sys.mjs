@@ -1744,14 +1744,12 @@ sidebar
 -
 button
 "
-tooltiptext
+l10nId
 :
 "
-sidebar
+show
 -
-button
-.
-tooltiptext2
+sidebars
 "
 defaultArea
 :

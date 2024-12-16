@@ -511,6 +511,16 @@ shortcut
 key
 =
 X
+toggle
+-
+sidebar
+-
+shortcut
+=
+.
+key
+=
+Z
 history
 -
 show

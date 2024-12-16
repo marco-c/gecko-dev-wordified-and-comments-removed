@@ -148,6 +148,18 @@ BrowserGlue
 "
     
 }
+    
+{
+        
+"
+message
+"
+:
+"
+toggleSidebarKb
+"
+    
+}
 ]
 headless_errors
 =
