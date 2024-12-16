@@ -254,6 +254,11 @@ attribute
 AString
 id
 ;
+readonly
+attribute
+AString
+name
+;
 void
 initialize
 (
