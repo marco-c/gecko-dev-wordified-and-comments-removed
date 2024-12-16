@@ -52,6 +52,13 @@ js
 ]
 [
 "
+browser_passwords_remove_all_notification
+.
+js
+"
+]
+[
+"
 browser_passwords_sidebar
 .
 js
