@@ -3410,6 +3410,13 @@ SpatialTreeItemKey
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone

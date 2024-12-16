@@ -2844,6 +2844,13 @@ wr
 RasterSpace
 &
 aRasterSpace
+const
+wr
+:
+:
+SnapshotInfo
+*
+aSnapshot
 )
 ;
 void

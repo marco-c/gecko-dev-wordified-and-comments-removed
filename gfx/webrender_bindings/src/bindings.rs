@@ -14222,6 +14222,13 @@ usize
 glyph_raster_space
 :
 RasterSpace
+snapshot
+:
+Option
+<
+&
+SnapshotInfo
+>
 )
 -
 >
@@ -15046,7 +15053,11 @@ glyph_raster_space
 params
 .
 flags
-None
+snapshot
+.
+cloned
+(
+)
 )
 ;
 result
