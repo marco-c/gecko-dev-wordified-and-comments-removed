@@ -11567,7 +11567,7 @@ UI
 .
 *
 /
-val
+var
 useNewBookmarks
 by
 lazyFeatureFlagPreference
