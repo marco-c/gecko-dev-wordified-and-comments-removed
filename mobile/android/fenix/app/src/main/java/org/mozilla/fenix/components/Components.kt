@@ -1445,17 +1445,6 @@ currentTimeMillis
 .
 also
 {
-if
-(
-context
-.
-settings
-(
-)
-.
-useNewCrashReporter
-)
-{
 it
 .
 dispatch
@@ -1469,7 +1458,6 @@ CrashAction
 Initialize
 )
 )
-}
 }
 }
 val

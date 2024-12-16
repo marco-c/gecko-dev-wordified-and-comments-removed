@@ -11531,7 +11531,7 @@ dialog
 *
 /
 var
-useNewCrashReporter
+useNewCrashReporterDialog
 by
 booleanPreference
 (
