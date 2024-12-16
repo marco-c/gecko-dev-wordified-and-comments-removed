@@ -281,6 +281,13 @@ fullscreen
 "
 [
 "
+test_browser_shadow_dom
+.
+xhtml
+"
+]
+[
+"
 test_bug800817
 .
 xhtml
