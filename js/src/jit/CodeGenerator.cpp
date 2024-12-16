@@ -58740,10 +58740,7 @@ desc
 wasm
 :
 :
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 :
 :
 StackSwitch
@@ -59515,10 +59512,7 @@ desc
 wasm
 :
 :
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 :
 :
 StackSwitch
@@ -60453,10 +60447,7 @@ desc
 wasm
 :
 :
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 :
 :
 StackSwitch

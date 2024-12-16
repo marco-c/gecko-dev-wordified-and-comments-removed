@@ -2797,7 +2797,7 @@ debugEnabled
 {
 insertBreakablePoint
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 EnterFrame
@@ -3072,7 +3072,7 @@ resultType
 ;
 insertBreakablePoint
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Breakpoint
@@ -3104,7 +3104,7 @@ false
 }
 insertBreakablePoint
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 LeaveFrame
@@ -3353,10 +3353,7 @@ BaseCompiler
 :
 insertBreakablePoint
 (
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 kind
 )
 {
@@ -5188,7 +5185,7 @@ append
 CallSiteDesc
 (
 lastOpcodeOffset_
-CallSiteDesc
+CallSiteKind
 :
 :
 RequestTierUp
@@ -7521,7 +7518,7 @@ true
 }
 insertBreakablePoint
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 CollapseFrame
@@ -8861,7 +8858,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Func
@@ -8897,7 +8894,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Symbolic
@@ -9096,7 +9093,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Indirect
@@ -9663,7 +9660,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 FuncRef
@@ -9770,7 +9767,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 FuncRef
@@ -9839,7 +9836,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Import
@@ -9926,7 +9923,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Symbolic
@@ -26426,7 +26423,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 Import
@@ -26466,7 +26463,7 @@ desc
 bytecodeOffset
 (
 )
-CallSiteDesc
+CallSiteKind
 :
 :
 ReturnFunc
@@ -49607,7 +49604,7 @@ sync
 ;
 insertBreakablePoint
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Breakpoint

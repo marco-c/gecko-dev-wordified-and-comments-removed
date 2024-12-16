@@ -271,7 +271,7 @@ bytes
 CodeRangeVector
 codeRanges
 ;
-CallSiteVector
+CallSites
 callSites
 ;
 CallSiteTargetVector
@@ -879,6 +879,12 @@ compilerEnv_
 ;
 SharedCode
 partialTieringCode_
+;
+mozilla
+:
+:
+TimeStamp
+completeTierStartTime_
 ;
 BytecodeRangeVector
 funcDefRanges_

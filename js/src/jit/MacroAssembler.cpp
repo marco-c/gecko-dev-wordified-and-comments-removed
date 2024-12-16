@@ -25225,7 +25225,7 @@ offset
 wasm
 :
 :
-CallSite
+CallSiteKind
 :
 :
 Symbolic
@@ -31620,7 +31620,7 @@ lineOrBytecode
 wasm
 :
 :
-CallSiteDesc
+CallSiteKind
 :
 :
 ReturnStub
@@ -32825,7 +32825,7 @@ lineOrBytecode
 wasm
 :
 :
-CallSiteDesc
+CallSiteKind
 :
 :
 IndirectFast
@@ -33335,7 +33335,7 @@ lineOrBytecode
 wasm
 :
 :
-CallSiteDesc
+CallSiteKind
 :
 :
 ReturnStub
@@ -33705,7 +33705,7 @@ lineOrBytecode
 wasm
 :
 :
-CallSiteDesc
+CallSiteKind
 :
 :
 FuncRefFast
@@ -33963,7 +33963,7 @@ lineOrBytecode
 wasm
 :
 :
-CallSiteDesc
+CallSiteKind
 :
 :
 ReturnStub

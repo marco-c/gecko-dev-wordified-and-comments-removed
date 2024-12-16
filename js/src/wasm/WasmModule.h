@@ -495,7 +495,7 @@ codeMeta
 debugBytecode
 -
 >
-bytes
+vector
 ;
 }
 uint32_t

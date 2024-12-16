@@ -3379,7 +3379,7 @@ call
 (
 CallSiteDesc
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Func
@@ -10931,7 +10931,7 @@ n
 CallSiteDesc
 desc
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Import
