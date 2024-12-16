@@ -85,6 +85,17 @@ enabled
 =
 true
 "
+"
+app
+.
+update
+.
+multiSessionInstallLockout
+.
+enabled
+=
+false
+"
 ]
 run
 -
