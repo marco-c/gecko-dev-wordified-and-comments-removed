@@ -1980,6 +1980,7 @@ mScrollData
 .
 SetIsFirstPaint
 (
+true
 )
 ;
 mIsFirstPaint

@@ -1909,11 +1909,13 @@ WebRenderScrollData
 :
 SetIsFirstPaint
 (
+bool
+aValue
 )
 {
 mIsFirstPaint
 =
-true
+aValue
 ;
 }
 bool

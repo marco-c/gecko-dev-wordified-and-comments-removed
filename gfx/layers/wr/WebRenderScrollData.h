@@ -1068,6 +1068,8 @@ const
 void
 SetIsFirstPaint
 (
+bool
+aValue
 )
 ;
 bool
