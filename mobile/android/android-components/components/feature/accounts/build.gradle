@@ -275,7 +275,7 @@ androidx_test_junit
 testImplementation
 ComponentsDependencies
 .
-mozilla_appservices_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_libsForTests
 testImplementation
 ComponentsDependencies
 .

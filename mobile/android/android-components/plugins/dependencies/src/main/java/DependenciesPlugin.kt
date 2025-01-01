@@ -3559,7 +3559,7 @@ version
 }
 "
 val
-mozilla_appservices_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_libsForTests
 =
 "
 {
@@ -3572,7 +3572,7 @@ full
 -
 megazord
 -
-forUnitTests
+libsForTests
 :
 {
 ApplicationServicesConfig

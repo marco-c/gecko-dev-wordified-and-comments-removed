@@ -336,7 +336,7 @@ testing_coroutines
 testImplementation
 ComponentsDependencies
 .
-mozilla_appservices_full_megazord_forUnitTests
+mozilla_appservices_full_megazord_libsForTests
 testImplementation
 ComponentsDependencies
 .
