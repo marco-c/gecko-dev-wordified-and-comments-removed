@@ -201,7 +201,7 @@ ui
 .
 robots
 .
-browserScreen
+surveyScreen
 /
 *
 *
@@ -550,7 +550,7 @@ checkSurveyNavigatesCorrectly
 (
 )
 {
-browserScreen
+surveyScreen
 {
 verifySurveyButton
 (
@@ -600,7 +600,7 @@ checkSurveyNoThanksNavigatesCorrectly
 (
 )
 {
-browserScreen
+surveyScreen
 {
 verifySurveyNoThanksButton
 (
@@ -657,7 +657,7 @@ requestedOrientation
 ActivityInfo
 .
 SCREEN_ORIENTATION_LANDSCAPE
-browserScreen
+surveyScreen
 {
 verifySurveyNoThanksButton
 (

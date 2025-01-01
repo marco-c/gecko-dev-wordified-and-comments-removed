@@ -137,7 +137,7 @@ ui
 .
 robots
 .
-browserScreen
+homeScreen
 import
 org
 .
@@ -149,7 +149,7 @@ ui
 .
 robots
 .
-homeScreen
+surveyScreen
 /
 *
 *
@@ -268,7 +268,7 @@ checkSurveyNavigatesCorrectly
 (
 )
 {
-browserScreen
+surveyScreen
 {
 verifySurveyButton
 (
@@ -292,7 +292,7 @@ checkSurveyNoThanksNavigatesCorrectly
 (
 )
 {
-browserScreen
+surveyScreen
 {
 verifySurveyNoThanksButton
 (
@@ -318,7 +318,7 @@ checkHomescreenSurveyDismissesCorrectly
 (
 )
 {
-browserScreen
+surveyScreen
 {
 verifyHomeScreenSurveyCloseButton
 (
@@ -356,7 +356,7 @@ requestedOrientation
 ActivityInfo
 .
 SCREEN_ORIENTATION_LANDSCAPE
-browserScreen
+surveyScreen
 {
 verifySurveyNoThanksButton
 (
