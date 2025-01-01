@@ -271,6 +271,12 @@ h
 "
         
 "
+ICU4XError
+.
+h
+"
+        
+"
 ICU4XGraphemeClusterSegmenter
 .
 h

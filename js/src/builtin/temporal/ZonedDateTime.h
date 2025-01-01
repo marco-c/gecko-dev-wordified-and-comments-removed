@@ -532,10 +532,6 @@ TemporalOffset
 ;
 enum
 class
-TemporalOverflow
-;
-enum
-class
 TemporalUnit
 ;
 ZonedDateTimeObject
