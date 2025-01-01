@@ -1377,7 +1377,7 @@ R
 .
 string
 .
-onboarding_customize_toolbar_not_now_button
+onboarding_customize_toolbar_skip_button
 )
 onClick
 =
