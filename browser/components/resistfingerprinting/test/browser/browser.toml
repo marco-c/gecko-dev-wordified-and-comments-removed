@@ -37,11 +37,6 @@ file_dummy
 html
 "
 "
-file_pdf
-.
-pdf
-"
-"
 file_keyBoardEvent
 .
 sjs
