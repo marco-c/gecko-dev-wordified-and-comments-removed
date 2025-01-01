@@ -755,6 +755,8 @@ search
 wrappedJSObject
 .
 errorToThrowInTest
+.
+type
 =
 "
 Settings

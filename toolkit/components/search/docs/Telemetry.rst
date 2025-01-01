@@ -937,6 +937,7 @@ include
 failedSettings
 failedFetchEngines
 failedLoadEngines
+failedLoadSettingsAddonManager
 success
 .
 A
