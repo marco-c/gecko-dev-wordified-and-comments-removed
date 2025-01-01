@@ -258,3 +258,10 @@ task
 checkout
 :
 false
+tags
+:
+test
+-
+type
+:
+mozperftest
