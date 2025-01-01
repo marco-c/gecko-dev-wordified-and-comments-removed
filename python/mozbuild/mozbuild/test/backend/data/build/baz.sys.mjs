@@ -3,7 +3,9 @@ filter
 substitution
 baz
 .
-jsm
+sys
+.
+mjs
 :
 FOO
 is

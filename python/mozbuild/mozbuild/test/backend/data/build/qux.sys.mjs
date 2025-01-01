@@ -3,7 +3,9 @@ ifdef
 BAR
 qux
 .
-jsm
+sys
+.
+mjs
 :
 BAR
 is
@@ -12,7 +14,9 @@ defined
 else
 qux
 .
-jsm
+sys
+.
+mjs
 :
 BAR
 is

@@ -55,7 +55,9 @@ child
 /
 baz
 .
-jsm
+sys
+.
+mjs
 %
 override
 chrome
