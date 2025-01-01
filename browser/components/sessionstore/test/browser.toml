@@ -1241,6 +1241,13 @@ js
 ]
 [
 "
+browser_purge_domaindata
+.
+js
+"
+]
+[
+"
 browser_purge_shistory
 .
 js

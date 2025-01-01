@@ -345,6 +345,10 @@ _closedTabs
 :
 [
 ]
+closedGroups
+:
+[
+]
 }
 {
 tabs
@@ -478,6 +482,10 @@ _closedTabs
 :
 [
 ]
+closedGroups
+:
+[
+]
 }
 {
 tabs
@@ -602,6 +610,10 @@ title
 :
 REMEMBER
 }
+]
+closedGroups
+:
+[
 ]
 }
 ]
