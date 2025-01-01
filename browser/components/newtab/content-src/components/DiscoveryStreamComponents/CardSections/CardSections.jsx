@@ -1242,11 +1242,6 @@ type
 {
 type
 }
-section
-=
-{
-sectionKey
-}
 sectionPosition
 =
 {

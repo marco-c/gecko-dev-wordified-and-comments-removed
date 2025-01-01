@@ -128,7 +128,6 @@ sectionKey
 following
 followedSections
 blockedSections
-section
 sectionPosition
 }
 )
@@ -324,7 +323,6 @@ site
 {
 followedSections
 blockedSections
-section
 sectionKey
 sectionPosition
 }
