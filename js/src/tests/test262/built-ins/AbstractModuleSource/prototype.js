@@ -35,7 +35,7 @@ enumerable
 false
 configurable
 :
-false
+true
 }
 )
 ;

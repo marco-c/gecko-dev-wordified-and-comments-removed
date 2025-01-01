@@ -1,4 +1,4 @@
-verifyPrimordialProperty
+verifyProperty
 (
 DataView
 .

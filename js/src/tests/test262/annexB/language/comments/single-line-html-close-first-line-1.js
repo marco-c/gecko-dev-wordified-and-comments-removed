@@ -5,7 +5,7 @@ a
 comment
 throw
 new
-EvalError
+Test262Error
 (
 "
 This
