@@ -375,11 +375,6 @@ index
 ;
 MOZ_ASSERT
 (
-rawIndex
->
-0
-&
-&
 index
 <
 RealmFuses
