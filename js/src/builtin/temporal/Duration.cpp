@@ -10876,6 +10876,14 @@ days
 ;
 MOZ_ASSERT
 (
+IsValidDuration
+(
+dateDuration
+)
+)
+;
+MOZ_ASSERT
+(
 DateDurationSign
 (
 dateDuration
