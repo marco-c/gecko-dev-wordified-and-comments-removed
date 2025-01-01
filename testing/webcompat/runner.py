@@ -47,7 +47,7 @@ environ
 =
 None
     
-bug
+bugs
 =
 None
     
@@ -409,28 +409,6 @@ addon
 )
             
 if
-bug
-:
-                
-args
-.
-append
-(
-"
--
--
-bug
-"
-)
-                
-args
-.
-append
-(
-bug
-)
-            
-if
 do2fa
 :
                 
@@ -719,7 +697,7 @@ shims
 "
             
 if
-bug
+bugs
 is
 not
 None
@@ -734,7 +712,14 @@ extend
 -
 k
 "
-bug
+"
+or
+"
+.
+join
+(
+bugs
+)
 ]
 )
             
@@ -1024,32 +1009,6 @@ the
 browser
 "
         
-)
-        
-parser
-.
-addoption
-(
-"
--
--
-bug
-"
-action
-=
-"
-store
-"
-help
-=
-"
-Bug
-number
-to
-run
-tests
-for
-"
 )
         
 parser
