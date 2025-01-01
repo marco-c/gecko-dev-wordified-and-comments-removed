@@ -18,7 +18,7 @@ editing
 .
 version
 =
-4
+3
 [
 [
 package
@@ -37390,13 +37390,6 @@ uniffi
 example
 -
 geometry
-"
-"
-uniffi
--
-example
--
-sprites
 "
 ]
 [

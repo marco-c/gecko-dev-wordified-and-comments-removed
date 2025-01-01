@@ -349,7 +349,6 @@ String
 impl
 TodoList
 {
-pub
 fn
 new
 (
@@ -376,7 +375,6 @@ new
 )
 }
 }
-pub
 fn
 add_item
 <
@@ -490,7 +488,6 @@ Ok
 )
 )
 }
-pub
 fn
 get_last
 (
@@ -537,7 +534,6 @@ TodoError
 EmptyTodoList
 )
 }
-pub
 fn
 get_first
 (
@@ -584,7 +580,6 @@ TodoError
 EmptyTodoList
 )
 }
-pub
 fn
 add_entries
 (
@@ -635,7 +630,6 @@ text
 )
 )
 }
-pub
 fn
 add_entry
 (
@@ -662,7 +656,6 @@ entry
 text
 )
 }
-pub
 fn
 add_items
 <
@@ -719,7 +712,6 @@ into
 )
 )
 }
-pub
 fn
 get_items
 (
@@ -754,7 +746,6 @@ clone
 (
 )
 }
-pub
 fn
 get_entries
 (
@@ -810,7 +801,6 @@ collect
 (
 )
 }
-pub
 fn
 get_last_entry
 (
@@ -842,7 +832,6 @@ text
 }
 )
 }
-pub
 fn
 clear_item
 <
@@ -936,7 +925,6 @@ Ok
 )
 )
 }
-pub
 fn
 make_default
 (
