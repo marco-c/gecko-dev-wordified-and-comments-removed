@@ -68,3 +68,17 @@ sys
 mjs
 "
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+"
+tests
+/
+mochitest
+/
+mochitest
+.
+toml
+"
+]
