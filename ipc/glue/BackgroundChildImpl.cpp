@@ -748,11 +748,6 @@ MsgProcessingError
 ;
 HANDLE_CASE
 (
-MsgRouteError
-)
-;
-HANDLE_CASE
-(
 MsgValueError
 )
 ;
