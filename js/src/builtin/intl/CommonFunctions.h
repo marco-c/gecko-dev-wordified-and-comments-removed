@@ -182,6 +182,17 @@ JSString
 *
 >
 defaults
+JS
+:
+:
+Handle
+<
+JS
+:
+:
+Value
+>
+toLocaleStringTimeZone
 DateTimeFormatOptions
 dtfOptions
 JS
