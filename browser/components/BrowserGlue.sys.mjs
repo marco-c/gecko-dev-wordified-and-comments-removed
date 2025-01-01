@@ -5588,6 +5588,13 @@ wantUntrusted
 :
 true
 }
+CloseShoppingSidebar
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
