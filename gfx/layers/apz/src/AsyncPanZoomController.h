@@ -2788,6 +2788,10 @@ friend
 class
 StateChangeNotificationBlocker
 ;
+friend
+class
+ThreadSafeStateChangeNotificationBlocker
+;
 int
 mNotificationBlockers
 ;
