@@ -4982,6 +4982,16 @@ attemptFlushProfileService
 (
 )
 ;
+Glean
+.
+profilesDefault
+.
+updated
+.
+record
+(
+)
+;
 }
 /
 *
