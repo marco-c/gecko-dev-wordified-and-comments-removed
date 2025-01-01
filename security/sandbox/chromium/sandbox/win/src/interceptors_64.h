@@ -474,6 +474,13 @@ object
 )
 ;
 SANDBOX_INTERCEPT
+HWND
+WINAPI
+TargetGetForegroundWindow64
+(
+)
+;
+SANDBOX_INTERCEPT
 ATOM
 WINAPI
 TargetRegisterClassW64

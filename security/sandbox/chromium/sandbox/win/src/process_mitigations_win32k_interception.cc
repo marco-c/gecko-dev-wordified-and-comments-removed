@@ -499,6 +499,17 @@ return
 nullptr
 ;
 }
+HWND
+WINAPI
+TargetGetForegroundWindow
+(
+GetForegroundWindowFunction
+)
+{
+return
+nullptr
+;
+}
 ATOM
 WINAPI
 TargetRegisterClassW
