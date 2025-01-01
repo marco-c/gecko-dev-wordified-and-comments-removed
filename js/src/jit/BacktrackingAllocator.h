@@ -1182,6 +1182,14 @@ other
 )
 ;
 void
+moveAllUsesToTheEndOf
+(
+LiveRange
+*
+other
+)
+;
+void
 setHasDefinition
 (
 )
