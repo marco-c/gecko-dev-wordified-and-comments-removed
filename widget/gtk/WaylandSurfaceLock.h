@@ -4,6 +4,15 @@ __MOZ_WAYLAND_SURFACE_LOCK_H__
 #
 define
 __MOZ_WAYLAND_SURFACE_LOCK_H__
+#
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
 struct
 wl_surface
 ;

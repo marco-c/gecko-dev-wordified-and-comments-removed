@@ -36,6 +36,15 @@ WaylandSurfaceLock
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GRefPtr
+.
+h
+"
 struct
 wl_surface
 ;
