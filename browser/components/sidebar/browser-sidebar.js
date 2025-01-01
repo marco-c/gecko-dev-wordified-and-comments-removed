@@ -7977,7 +7977,7 @@ if
 menu
 )
 {
-return
+continue
 ;
 }
 let
