@@ -509,9 +509,6 @@ uint64_t
 ?
 overriddenFingerprintingSettings
 ;
-bool
-isOn3PCBExceptionList
-;
 OriginTrials
 originTrials
 ;

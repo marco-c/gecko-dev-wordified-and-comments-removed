@@ -2707,12 +2707,6 @@ storagePrincipalOriginAttributes
 IsPrivateBrowsing
 (
 )
-loadInfo
--
->
-GetIsOn3PCBExceptionList
-(
-)
 )
 ;
 if

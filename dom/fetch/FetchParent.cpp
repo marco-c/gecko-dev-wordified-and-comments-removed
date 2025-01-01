@@ -704,14 +704,6 @@ isThirdPartyContext
 (
 )
 ;
-mIsOn3PCBExceptionList
-=
-aArgs
-.
-isOn3PCBExceptionList
-(
-)
-;
 if
 (
 mHasCSPEventListener
@@ -1285,10 +1277,6 @@ self
 -
 >
 mPromise
-self
--
->
-mIsOn3PCBExceptionList
 }
 )
 )
