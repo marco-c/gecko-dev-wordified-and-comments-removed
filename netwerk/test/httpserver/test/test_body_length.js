@@ -224,9 +224,10 @@ nsIStringInputStream
 ;
 content
 .
-data
-=
+setByteStringData
+(
 REQUEST_DATA
+)
 ;
 ch
 .
