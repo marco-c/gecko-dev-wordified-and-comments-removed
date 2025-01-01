@@ -322,6 +322,9 @@ SitePermissionsRules
 Action
 .
 BLOCKED
+isPageLoadTranslationsPromptEnabled
+=
+false
 )
 Rule
 JvmField

@@ -393,6 +393,9 @@ true
 isMenuRedesignCFREnabled
 =
 false
+isPageLoadTranslationsPromptEnabled
+=
+false
 )
 )
 {
