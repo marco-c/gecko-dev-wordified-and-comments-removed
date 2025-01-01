@@ -5773,14 +5773,7 @@ return
 }
 if
 (
-IsRequestingVideoData
-(
-)
-|
-|
-mVideoWaitRequest
-.
-Exists
+IsTrackingVideoData
 (
 )
 |
