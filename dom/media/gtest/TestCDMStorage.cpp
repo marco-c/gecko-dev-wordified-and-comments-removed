@@ -6947,9 +6947,17 @@ XP_WIN
 )
 &
 &
+(
 defined
 (
 MOZ_ASAN
+)
+|
+|
+defined
+(
+MOZ_CODE_COVERAGE
+)
 )
 )
 TEST
