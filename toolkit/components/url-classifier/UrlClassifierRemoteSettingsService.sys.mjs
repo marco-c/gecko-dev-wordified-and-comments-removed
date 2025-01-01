@@ -852,12 +852,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 payload
-payload
-.
-length
 )
 ;
 try

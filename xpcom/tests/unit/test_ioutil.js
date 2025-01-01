@@ -145,12 +145,9 @@ test
 ;
 s
 .
-setData
+setByteStringData
 (
 body
-body
-.
-length
 )
 ;
 Assert

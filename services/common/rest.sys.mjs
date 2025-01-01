@@ -240,12 +240,9 @@ nsIStringInputStream
 ;
 stringStream
 .
-setData
+setByteStringData
 (
 data
-data
-.
-length
 )
 ;
 let
@@ -2042,12 +2039,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 data
-data
-.
-length
 )
 ;
 channel

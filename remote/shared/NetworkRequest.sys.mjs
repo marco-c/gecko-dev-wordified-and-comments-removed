@@ -1283,12 +1283,9 @@ nsIStringInputStream
 ;
 bodyStream
 .
-setData
+setByteStringData
 (
 body
-body
-.
-length
 )
 ;
 this

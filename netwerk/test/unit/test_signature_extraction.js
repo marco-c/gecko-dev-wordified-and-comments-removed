@@ -86,7 +86,7 @@ stream
 nsIStringInputStream
 "
 "
-setData
+setByteStringData
 "
 )
 ;
@@ -238,9 +238,6 @@ new
 StringInputStream
 (
 aSourceString
-aSourceString
-.
-length
 )
 ;
 let

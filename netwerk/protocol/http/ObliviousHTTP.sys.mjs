@@ -208,7 +208,7 @@ stream
 nsIStringInputStream
 "
 "
-setData
+setByteStringData
 "
 )
 ;
@@ -802,9 +802,6 @@ new
 StringInputStream
 (
 body
-body
-.
-length
 )
 ;
 }

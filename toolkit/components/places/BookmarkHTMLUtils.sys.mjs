@@ -791,12 +791,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 aString
-aString
-.
-length
 )
 ;
 let

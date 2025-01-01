@@ -3498,16 +3498,11 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 options
 .
 body
-options
-.
-body
-.
-length
 )
 ;
 channel

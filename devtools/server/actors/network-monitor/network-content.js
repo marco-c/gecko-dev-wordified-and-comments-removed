@@ -518,12 +518,9 @@ nsIStringInputStream
 ;
 bodyStream
 .
-setData
+setByteStringData
 (
 body
-body
-.
-length
 )
 ;
 channel

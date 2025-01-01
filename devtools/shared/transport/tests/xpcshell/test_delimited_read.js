@@ -53,7 +53,7 @@ stream
 nsIStringInputStream
 "
 "
-setData
+setByteStringData
 "
 )
 ;
@@ -145,9 +145,6 @@ new
 StringInputStream
 (
 input
-input
-.
-length
 )
 ;
 const

@@ -72,12 +72,9 @@ nsIStringInputStream
 ;
 inStr
 .
-setData
+setByteStringData
 (
 testStr
-testStr
-.
-length
 )
 ;
 Assert
