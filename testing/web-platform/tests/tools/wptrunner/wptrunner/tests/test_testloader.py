@@ -31,7 +31,7 @@ TestLoader
     
 TagFilter
     
-read_include_from_file
+read_test_prefixes_from_file
 )
 from
 .
@@ -693,7 +693,7 @@ flush
         
 include
 =
-read_include_from_file
+read_test_prefixes_from_file
 (
 f
 .
