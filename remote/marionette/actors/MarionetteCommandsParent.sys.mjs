@@ -1660,6 +1660,11 @@ capture
 toBase64
 (
 canvas
+"
+image
+/
+png
+"
 )
 ;
 default
