@@ -1846,6 +1846,9 @@ manifest
 ]
 :
             
+try
+:
+                
 tags
 =
 "
@@ -1865,8 +1868,6 @@ get
 "
 tags
 "
-"
-"
 )
 )
 .
@@ -1875,6 +1876,15 @@ split
 "
 "
 )
+            
+except
+KeyError
+:
+                
+tags
+=
+[
+]
             
 if
 "
