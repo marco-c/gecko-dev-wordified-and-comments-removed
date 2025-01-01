@@ -6264,6 +6264,9 @@ CallFlagsImm
 argcFixed
 :
 UInt32Imm
+#
+ifdef
+JS_PUNBOX64
 -
 name
 :
@@ -6336,6 +6339,8 @@ ObjId
 nargsAndFlags
 :
 UInt32Imm
+#
+endif
 #
 Meta
 ops

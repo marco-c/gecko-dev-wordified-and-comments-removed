@@ -82,10 +82,6 @@ GetUnaryMathFunctionName
 (
 UnaryMathFunction
 fun
-bool
-enumName
-=
-false
 )
 ;
 extern
