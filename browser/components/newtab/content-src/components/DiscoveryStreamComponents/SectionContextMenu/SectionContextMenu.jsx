@@ -127,6 +127,8 @@ dispatch
 sectionKey
 following
 followedSections
+section
+sectionPosition
 }
 )
 {
@@ -313,14 +315,16 @@ SECTIONS_CONTEXT_MENU_OPTIONS
 shouldSendImpressionStats
 =
 {
-false
+true
 }
 site
 =
 {
 {
-sectionKey
 followedSections
+section
+sectionKey
+sectionPosition
 }
 }
 /
