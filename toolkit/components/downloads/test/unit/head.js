@@ -2344,12 +2344,11 @@ ex
 if
 (
 !
+DOMException
+.
+isInstance
 (
 ex
-instanceof
-IOUtils
-.
-Error
 )
 )
 {
@@ -2360,7 +2359,7 @@ ex
 info
 (
 "
-Expected
+IOUtils
 exception
 while
 checking
@@ -2370,9 +2369,7 @@ existence
 +
 ex
 .
-toString
-(
-)
+name
 )
 ;
 await
