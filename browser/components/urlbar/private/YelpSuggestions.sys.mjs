@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -260,7 +260,7 @@ export
 class
 YelpSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 get
 shouldEnable
@@ -2694,11 +2694,15 @@ coffee
 in
 atlanta
 "
+{
+types
+:
 [
 "
 Yelp
 "
 ]
+}
 )
 ;
 if

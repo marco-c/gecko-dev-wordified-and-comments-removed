@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -205,7 +205,7 @@ export
 class
 PocketSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 get
 shouldEnable

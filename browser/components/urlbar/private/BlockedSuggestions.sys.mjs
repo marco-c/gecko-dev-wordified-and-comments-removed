@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestFeature
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -146,7 +146,7 @@ export
 class
 BlockedSuggestions
 extends
-BaseFeature
+SuggestFeature
 {
 constructor
 (

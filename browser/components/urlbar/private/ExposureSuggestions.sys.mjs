@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -159,7 +159,7 @@ export
 class
 ExposureSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 get
 shouldEnable

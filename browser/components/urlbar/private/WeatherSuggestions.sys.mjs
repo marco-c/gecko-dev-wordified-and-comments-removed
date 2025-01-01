@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -677,9 +677,9 @@ Merino
 /
 export
 class
-Weather
+WeatherSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 constructor
 (

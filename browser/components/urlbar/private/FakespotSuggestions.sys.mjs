@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -410,7 +410,7 @@ export
 class
 FakespotSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 constructor
 (

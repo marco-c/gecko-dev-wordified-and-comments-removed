@@ -1883,7 +1883,12 @@ feature
 =
 QuickSuggest
 .
-weather
+getFeature
+(
+"
+WeatherSuggestions
+"
+)
 ;
 let
 expectedResult

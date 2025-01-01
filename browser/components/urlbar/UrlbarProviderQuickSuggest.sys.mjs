@@ -924,6 +924,9 @@ rustBackend
 query
 (
 searchString
+{
+queryContext
+}
 )
 )
 ;
@@ -996,9 +999,10 @@ mlBackend
 .
 query
 (
+searchString
+{
 queryContext
-.
-trimmedLowerCaseSearchString
+}
 )
 )
 ;

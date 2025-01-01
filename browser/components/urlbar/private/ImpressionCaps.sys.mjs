@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestFeature
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -210,7 +210,7 @@ export
 class
 ImpressionCaps
 extends
-BaseFeature
+SuggestFeature
 {
 constructor
 (

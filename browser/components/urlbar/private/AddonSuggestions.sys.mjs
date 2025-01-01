@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-BaseFeature
+SuggestProvider
 }
 from
 "
@@ -73,7 +73,7 @@ urlbar
 /
 private
 /
-BaseFeature
+SuggestFeature
 .
 sys
 .
@@ -239,7 +239,7 @@ export
 class
 AddonSuggestions
 extends
-BaseFeature
+SuggestProvider
 {
 get
 shouldEnable
