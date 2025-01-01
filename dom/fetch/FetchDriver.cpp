@@ -2957,7 +2957,7 @@ rv
 }
 if
 (
-mIsThirdPartyContext
+mIsThirdPartyWorker
 .
 isSome
 (
@@ -2984,7 +2984,7 @@ loadInfo
 >
 SetIsInThirdPartyContext
 (
-mIsThirdPartyContext
+mIsThirdPartyWorker
 .
 ref
 (

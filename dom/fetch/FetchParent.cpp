@@ -1364,10 +1364,6 @@ self
 -
 >
 mID
-self
--
->
-mIsThirdPartyContext
 }
 )
 )
