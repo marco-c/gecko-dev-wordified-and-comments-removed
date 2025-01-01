@@ -248,6 +248,11 @@ arg
 =
 -
 isysroot
+-
+C
+link
+-
+arg
 =
 MOZ_FETCHES_DIR
 /
