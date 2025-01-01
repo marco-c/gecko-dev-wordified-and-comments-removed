@@ -267,7 +267,7 @@ add_argument
 (
 "
 -
-B
+b
 "
 "
 -
@@ -559,7 +559,7 @@ add_argument
         
 "
 -
-S
+s
 "
         
 "
