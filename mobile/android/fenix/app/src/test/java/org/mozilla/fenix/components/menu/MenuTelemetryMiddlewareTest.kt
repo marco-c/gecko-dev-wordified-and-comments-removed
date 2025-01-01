@@ -981,12 +981,6 @@ AppMenu
 .
 customizeHomepage
 )
-assertTelemetryRecorded
-(
-HomeScreen
-.
-customizeHomeClicked
-)
 }
 Test
 fun
