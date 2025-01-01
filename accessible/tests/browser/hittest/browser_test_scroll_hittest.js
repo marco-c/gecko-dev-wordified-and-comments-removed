@@ -847,6 +847,7 @@ body
 {
 overflow
 :
+hidden
 auto
 ;
 }
