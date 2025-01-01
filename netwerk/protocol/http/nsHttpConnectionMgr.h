@@ -725,12 +725,6 @@ false
 }
 ;
 uint32_t
-mThrottleVersion
-{
-2
-}
-;
-uint32_t
 mThrottleSuspendFor
 {
 0

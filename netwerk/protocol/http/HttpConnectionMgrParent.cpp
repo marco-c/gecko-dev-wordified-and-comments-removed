@@ -241,8 +241,6 @@ maxRequestDelay
 bool
 throttleEnabled
 uint32_t
-throttleVersion
-uint32_t
 throttleSuspendFor
 uint32_t
 throttleResumeFor
