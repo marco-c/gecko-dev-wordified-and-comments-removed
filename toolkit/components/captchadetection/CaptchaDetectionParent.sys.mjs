@@ -1848,6 +1848,12 @@ https
 "
 &
 &
+(
+Cu
+.
+isInAutomation
+|
+|
 channel
 .
 URI
@@ -1865,6 +1871,7 @@ awswaf
 com
 "
 )
+)
 &
 &
 channel
@@ -1875,6 +1882,16 @@ filePath
 .
 endsWith
 (
+Cu
+.
+isInAutomation
+?
+"
+aws_waf_api
+.
+sjs
+"
+:
 "
 /
 verify
