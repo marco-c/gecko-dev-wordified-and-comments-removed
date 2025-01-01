@@ -92,12 +92,12 @@ client
 .
 apz_click
 (
-x
+coords
 =
+(
 400
-y
-=
 400
+)
 )
         
 await
@@ -115,12 +115,12 @@ client
 .
 apz_click
 (
-x
+coords
 =
+(
 400
-y
-=
 400
+)
 )
         
 await
