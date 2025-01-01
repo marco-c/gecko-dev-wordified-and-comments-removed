@@ -798,6 +798,12 @@ case
 CacheKind
 :
 :
+Lambda
+:
+case
+CacheKind
+:
+:
 LazyConstant
 :
 return

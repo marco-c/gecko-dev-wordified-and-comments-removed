@@ -1724,6 +1724,8 @@ NULL
 JOF_OBJECT
 |
 JOF_USES_ENV
+|
+JOF_IC
 )
 \
 \

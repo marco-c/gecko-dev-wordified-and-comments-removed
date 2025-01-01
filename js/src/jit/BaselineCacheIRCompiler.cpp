@@ -10809,6 +10809,12 @@ case
 CacheKind
 :
 :
+Lambda
+:
+case
+CacheKind
+:
+:
 LazyConstant
 :
 MOZ_ASSERT

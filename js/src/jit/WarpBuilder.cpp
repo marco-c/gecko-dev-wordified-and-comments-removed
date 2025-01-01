@@ -21009,6 +21009,12 @@ CacheKind
 :
 Call
 :
+case
+CacheKind
+:
+:
+Lambda
+:
 MOZ_CRASH
 (
 "
@@ -21182,6 +21188,12 @@ CacheKind
 :
 :
 NewObject
+:
+case
+CacheKind
+:
+:
+Lambda
 :
 resultType
 =
