@@ -10319,7 +10319,7 @@ nsCString
 &
 installSection
 const
-CurrentProfileData
+GroupProfileData
 *
 profileInfo
 )
@@ -10917,7 +10917,7 @@ NS_IMETHODIMP
 nsToolkitProfileService
 :
 :
-AsyncFlushCurrentProfile
+AsyncFlushGroupProfile
 (
 JSContext
 *
@@ -10942,7 +10942,7 @@ else
 if
 (
 !
-mCurrent
+mGroupProfile
 )
 {
 return
@@ -11017,13 +11017,13 @@ StealNSResult
 }
 UniquePtr
 <
-CurrentProfileData
+GroupProfileData
 >
 profileData
 =
 MakeUnique
 <
-CurrentProfileData
+GroupProfileData
 >
 (
 )
@@ -11033,7 +11033,7 @@ profileData
 >
 mStoreID
 =
-mCurrent
+mGroupProfile
 -
 >
 mStoreID
@@ -11043,7 +11043,7 @@ profileData
 >
 mShowSelector
 =
-mCurrent
+mGroupProfile
 -
 >
 mShowProfileSelector
@@ -11053,7 +11053,7 @@ isRelative
 ;
 GetProfileDescriptor
 (
-mCurrent
+mGroupProfile
 profileData
 -
 >
@@ -11253,7 +11253,7 @@ Promise
 nsToolkitProfileService
 :
 :
-AsyncFlushCurrentProfile
+AsyncFlushGroupProfile
 "
 promise
 )
@@ -11652,7 +11652,7 @@ Promise
 nsToolkitProfileService
 :
 :
-AsyncFlushCurrentProfile
+AsyncFlushGroupProfile
 "
 promise
 )

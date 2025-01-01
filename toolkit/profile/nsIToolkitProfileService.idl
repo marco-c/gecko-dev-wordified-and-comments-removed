@@ -1188,6 +1188,7 @@ data
 about
 the
 current
+group
 profile
 to
 disk
@@ -1262,7 +1263,7 @@ completes
 implicit_jscontext
 ]
 Promise
-asyncFlushCurrentProfile
+asyncFlushGroupProfile
 (
 )
 ;

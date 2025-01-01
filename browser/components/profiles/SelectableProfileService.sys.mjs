@@ -1150,7 +1150,7 @@ this
 #
 profileService
 .
-asyncFlushCurrentProfile
+asyncFlushGroupProfile
 (
 )
 ;

@@ -316,13 +316,6 @@ failed
 )
 ;
 }
-await
-service
-.
-asyncFlushCurrentProfile
-(
-)
-;
 profileData
 =
 readProfilesIni
@@ -587,7 +580,7 @@ storeID
 await
 service
 .
-asyncFlushCurrentProfile
+asyncFlushGroupProfile
 (
 )
 ;
@@ -846,7 +839,7 @@ newProfileDir
 await
 service
 .
-asyncFlushCurrentProfile
+asyncFlushGroupProfile
 (
 )
 ;
