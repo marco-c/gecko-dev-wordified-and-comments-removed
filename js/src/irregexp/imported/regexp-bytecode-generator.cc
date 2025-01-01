@@ -1558,7 +1558,7 @@ RegExpBytecodeGenerator
 :
 EmitSkipTable
 (
-Handle
+DirectHandle
 <
 ByteArray
 >

@@ -636,7 +636,7 @@ arg
 void
 EmitSkipTable
 (
-Handle
+DirectHandle
 <
 ByteArray
 >
