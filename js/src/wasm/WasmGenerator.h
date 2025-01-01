@@ -277,7 +277,7 @@ callSites
 CallSiteTargetVector
 callSiteTargets
 ;
-TrapSiteVectorArray
+TrapSites
 trapSites
 ;
 SymbolicAccessVector

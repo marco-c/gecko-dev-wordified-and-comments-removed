@@ -3111,7 +3111,7 @@ callSiteTargets_
 wasm
 :
 :
-TrapSiteVectorArray
+TrapSites
 trapSites_
 ;
 wasm
@@ -3402,12 +3402,10 @@ enoughMemory_
 &
 =
 trapSites_
-[
-trap
-]
 .
 append
 (
+trap
 site
 )
 ;
@@ -3606,7 +3604,7 @@ callSiteTargets_
 wasm
 :
 :
-TrapSiteVectorArray
+TrapSites
 &
 trapSites
 (
