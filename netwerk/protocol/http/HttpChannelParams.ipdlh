@@ -167,9 +167,7 @@ nsCString
 altDataType
 ;
 nsCString
-[
-]
-cookieHeaders
+cookie
 ;
 NetAddr
 selfAddr

@@ -2676,6 +2676,9 @@ CookieStruct
 cookiesToSend
 partitionedCookiesToSend
 ;
+bool
+moreCookies
+;
 do
 {
 CookieParser
@@ -2685,6 +2688,8 @@ crc
 aHostURI
 )
 ;
+moreCookies
+=
 parser
 .
 Parse
@@ -2907,7 +2912,7 @@ CookieData
 }
 while
 (
-0
+moreCookies
 )
 ;
 if

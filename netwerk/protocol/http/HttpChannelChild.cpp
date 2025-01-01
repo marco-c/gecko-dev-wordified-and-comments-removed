@@ -2536,7 +2536,7 @@ if
 !
 aArgs
 .
-cookieHeaders
+cookie
 (
 )
 .
@@ -2545,11 +2545,11 @@ IsEmpty
 )
 )
 {
-SetCookieHeaders
+SetCookie
 (
 aArgs
 .
-cookieHeaders
+cookie
 (
 )
 )
