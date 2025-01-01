@@ -37391,6 +37391,13 @@ example
 -
 geometry
 "
+"
+uniffi
+-
+example
+-
+sprites
+"
 ]
 [
 [
