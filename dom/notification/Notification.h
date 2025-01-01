@@ -675,10 +675,6 @@ uint32_t
 &
 &
 aVibrate
-const
-NotificationBehavior
-&
-aBehavior
 )
 ;
 static
@@ -807,10 +803,6 @@ mVibrate
 nsString
 mDataAsBase64
 ;
-const
-NotificationBehavior
-mBehavior
-;
 JS
 :
 :
@@ -884,7 +876,7 @@ aPromise
 ;
 static
 nsresult
-ResolveIconAndSoundURL
+ResolveIconURL
 (
 nsIGlobalObject
 *
@@ -892,9 +884,6 @@ aGlobal
 nsString
 &
 aIconURL
-nsString
-&
-aSoundURL
 )
 ;
 }

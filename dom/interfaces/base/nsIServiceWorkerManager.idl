@@ -2196,9 +2196,6 @@ aIcon
 in
 AString
 aData
-in
-AString
-aBehavior
 )
 ;
 void
@@ -2234,9 +2231,6 @@ aIcon
 in
 AString
 aData
-in
-AString
-aBehavior
 )
 ;
 [

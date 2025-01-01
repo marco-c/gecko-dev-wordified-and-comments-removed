@@ -390,7 +390,6 @@ tag
 icon
 alertName
 data
-behavior
 serviceWorkerRegistrationScope
 )
 {
@@ -438,9 +437,6 @@ getTime
 )
 origin
 data
-mozbehavior
-:
-behavior
 serviceWorkerRegistrationScope
 }
 ;
@@ -912,9 +908,6 @@ icon
 notification
 .
 data
-notification
-.
-mozbehavior
 notification
 .
 serviceWorkerRegistrationScope

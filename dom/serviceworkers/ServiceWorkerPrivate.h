@@ -461,10 +461,6 @@ aData
 const
 nsAString
 &
-aBehavior
-const
-nsAString
-&
 aScope
 )
 ;

@@ -320,10 +320,12 @@ a65d
 /
 \
 0xf4f8755a
-0x69ca
-0x46e8
-{
 \
+0x69ca
+\
+0x46e8
+\
+{
 0xa6
 0x5d
 0x77
@@ -332,9 +334,7 @@ a65d
 0x53
 0x59
 0x90
-\
 }
-\
 }
 class
 ServiceWorkerManager
@@ -1447,10 +1447,6 @@ const
 nsAString
 &
 aData
-const
-nsAString
-&
-aBehavior
 )
 ;
 void

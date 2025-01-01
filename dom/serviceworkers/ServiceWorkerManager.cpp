@@ -5570,10 +5570,6 @@ const
 nsAString
 &
 aData
-const
-nsAString
-&
-aBehavior
 )
 {
 OriginAttributes
@@ -5640,7 +5636,6 @@ aBody
 aTag
 aIcon
 aData
-aBehavior
 NS_ConvertUTF8toUTF16
 (
 aScope
@@ -5694,10 +5689,6 @@ const
 nsAString
 &
 aData
-const
-nsAString
-&
-aBehavior
 )
 {
 return
@@ -5717,7 +5708,6 @@ aBody
 aTag
 aIcon
 aData
-aBehavior
 )
 ;
 }
@@ -5767,10 +5757,6 @@ const
 nsAString
 &
 aData
-const
-nsAString
-&
-aBehavior
 )
 {
 return
@@ -5790,7 +5776,6 @@ aBody
 aTag
 aIcon
 aData
-aBehavior
 )
 ;
 }

@@ -2989,11 +2989,6 @@ AppInfo
 webidl
 "
 "
-AppNotificationServiceOptions
-.
-webidl
-"
-"
 APZTestData
 .
 webidl

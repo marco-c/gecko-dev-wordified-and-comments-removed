@@ -197,9 +197,6 @@ AString
 data
 in
 AString
-behavior
-in
-AString
 serviceWorkerRegistrationScope
 )
 ;
@@ -477,9 +474,6 @@ alertName
 in
 AString
 data
-in
-AString
-behavior
 in
 AString
 serviceWorkerRegistrationScope
