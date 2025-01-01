@@ -27190,6 +27190,8 @@ SEC
 Mono
 CJK
 SC
+MiSans
+VF
 Droid
 Sans
 Fallback
@@ -27299,6 +27301,9 @@ SEC
 Mono
 CJK
 TC
+MiSans
+TC
+VF
 Droid
 Sans
 Fallback
@@ -27408,6 +27413,9 @@ SEC
 Mono
 CJK
 TC
+MiSans
+TC
+VF
 Droid
 Sans
 Fallback
