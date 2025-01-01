@@ -186,6 +186,9 @@ tracing
 "
 sandbox
 "
+"
+flows
+"
 ]
 }
 {
