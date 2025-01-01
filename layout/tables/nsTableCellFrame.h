@@ -528,7 +528,10 @@ GetContentEmpty
 )
 ;
 }
+Maybe
+<
 nscoord
+>
 GetCellBaseline
 (
 )
