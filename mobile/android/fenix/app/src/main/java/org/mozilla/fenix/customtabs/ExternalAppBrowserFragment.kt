@@ -1329,6 +1329,13 @@ initializeNavBar
 (
 )
 {
+NavigationBar
+.
+customTabInitializeTimespan
+.
+start
+(
+)
 /
 /
 Update
@@ -1804,5 +1811,12 @@ configureEngineViewWithDynamicToolbarsMaxHeight
 }
 }
 }
+NavigationBar
+.
+customTabInitializeTimespan
+.
+stop
+(
+)
 }
 }

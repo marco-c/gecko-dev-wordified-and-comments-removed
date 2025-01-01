@@ -8140,6 +8140,13 @@ activity
 HomeActivity
 )
 {
+NavigationBar
+.
+browserInitializeTimespan
+.
+start
+(
+)
 val
 isToolbarAtBottom
 =
@@ -8503,6 +8510,13 @@ this
 view
 =
 view
+)
+NavigationBar
+.
+browserInitializeTimespan
+.
+stop
+(
 )
 }
 Suppress

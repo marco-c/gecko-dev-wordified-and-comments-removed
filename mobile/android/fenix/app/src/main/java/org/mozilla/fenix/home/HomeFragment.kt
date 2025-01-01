@@ -3891,6 +3891,13 @@ Boolean
 false
 )
 {
+NavigationBar
+.
+homeInitializeTimespan
+.
+start
+(
+)
 val
 context
 =
@@ -4861,6 +4868,13 @@ Home
 }
 }
 }
+)
+NavigationBar
+.
+homeInitializeTimespan
+.
+stop
+(
 )
 }
 VisibleForTesting
