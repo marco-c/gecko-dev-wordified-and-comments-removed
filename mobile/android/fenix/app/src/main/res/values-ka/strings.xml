@@ -36089,6 +36089,7 @@ name
 synced_tabs_expand_group
 "
 >
+.
 <
 /
 string
@@ -36118,6 +36119,7 @@ name
 synced_tabs_collapse_group
 "
 >
+.
 <
 /
 string
