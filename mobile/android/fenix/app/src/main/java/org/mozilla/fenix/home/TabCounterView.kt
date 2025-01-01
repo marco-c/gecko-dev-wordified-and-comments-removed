@@ -700,6 +700,16 @@ tabCounter
 .
 setOnLongClickListener
 {
+StartOnHome
+.
+longClickTabsTray
+.
+record
+(
+NoExtras
+(
+)
+)
 tabCounterMenu
 .
 menuController

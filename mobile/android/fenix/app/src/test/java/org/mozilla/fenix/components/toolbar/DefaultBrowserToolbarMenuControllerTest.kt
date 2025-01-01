@@ -1711,6 +1711,8 @@ ToolbarMenu
 Item
 .
 OpenInFenix
+(
+)
 every
 {
 activity

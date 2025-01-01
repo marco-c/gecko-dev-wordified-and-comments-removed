@@ -648,6 +648,16 @@ MenuAccessPoint
 Home
 )
 )
+Events
+.
+toolbarMenuVisible
+.
+record
+(
+NoExtras
+(
+)
+)
 }
 else
 {
