@@ -3748,6 +3748,7 @@ SpecifiedStyle
 :
 :
 Preserve
+mEditingHost
 )
 ;
 if
