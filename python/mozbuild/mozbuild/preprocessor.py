@@ -6037,6 +6037,8 @@ js
 |
 jsm
 |
+mjs
+|
 java
 |
 webidl
