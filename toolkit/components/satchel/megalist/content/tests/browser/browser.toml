@@ -45,6 +45,13 @@ js
 ]
 [
 "
+browser_passwords_export_success_notification
+.
+js
+"
+]
+[
+"
 browser_passwords_filter
 .
 js
