@@ -11,6 +11,9 @@ x
 e
 -
 v
+TARGET
+=
+1
 .
 GECKO_PATH
 /
@@ -135,6 +138,11 @@ bin
 clang
 -
 cl
+-
+-
+target
+=
+TARGET
 -
 Xclang
 -
