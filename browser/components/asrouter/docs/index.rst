@@ -902,6 +902,11 @@ toctree
 maxdepth
 :
 2
+building
+-
+and
+-
+testing
 debugging
 -
 docs
