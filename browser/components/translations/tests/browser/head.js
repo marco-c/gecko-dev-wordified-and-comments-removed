@@ -8377,6 +8377,10 @@ waitForCondition
 )
 =
 >
+TranslationsUtils
+.
+langTagsMatch
+(
 menuItem
 .
 getAttribute
@@ -8387,10 +8391,8 @@ target
 language
 "
 )
-=
-=
-=
 expectedTargetLanguage
+)
 Waiting
 for
 translate
