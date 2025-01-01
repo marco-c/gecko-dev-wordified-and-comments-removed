@@ -150,14 +150,10 @@ usize
 2
 ;
 impl
-<
-'
-a
->
 SuggestDao
 <
 '
-a
+_
 >
 {
 pub

@@ -2627,7 +2627,7 @@ UniFFIScaffolding
 .
 callSync
 (
-15
+16
 /
 /
 remote_settings
@@ -2784,7 +2784,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-12
+13
 /
 /
 remote_settings
@@ -2917,7 +2917,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-13
+14
 /
 /
 remote_settings
@@ -3083,7 +3083,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-14
+15
 /
 /
 remote_settings
@@ -3481,7 +3481,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-16
+17
 /
 /
 remote_settings
@@ -3632,7 +3632,7 @@ string
 /
 getAttachment
 (
-attachmentId
+record
 )
 {
 const
@@ -3675,11 +3675,11 @@ functionCall
 {
 try
 {
-FfiConverterString
+FfiConverterTypeRemoteSettingsRecord
 .
 checkType
 (
-attachmentId
+record
 )
 }
 catch
@@ -3699,7 +3699,7 @@ e
 addItemDescriptionPart
 (
 "
-attachmentId
+record
 "
 )
 ;
@@ -3713,7 +3713,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-17
+18
 /
 /
 remote_settings
@@ -3725,11 +3725,11 @@ lower
 (
 this
 )
-FfiConverterString
+FfiConverterTypeRemoteSettingsRecord
 .
 lower
 (
-attachmentId
+record
 )
 )
 }
@@ -3918,14 +3918,6 @@ synced
 .
 *
 *
-TODO
-(
-Bug
-1919141
-)
-:
-*
-*
 Application
 -
 services
@@ -4057,7 +4049,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-18
+19
 /
 /
 remote_settings
@@ -4244,7 +4236,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-19
+20
 /
 /
 remote_settings
@@ -4748,7 +4740,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-23
+24
 /
 /
 remote_settings
@@ -4941,7 +4933,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-20
+21
 /
 /
 remote_settings
@@ -5072,7 +5064,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-21
+22
 /
 /
 remote_settings
@@ -5270,7 +5262,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-22
+23
 /
 /
 remote_settings
