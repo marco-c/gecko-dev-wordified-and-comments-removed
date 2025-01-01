@@ -3668,11 +3668,27 @@ testdriver_nodes
         
 if
 test_type
-!
-=
+not
+in
+{
 "
 testharness
 "
+"
+reftest
+"
+"
+print
+-
+reftest
+"
+"
+crashtest
+"
+"
+support
+"
+}
 :
             
 errors
