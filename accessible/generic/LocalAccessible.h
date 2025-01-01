@@ -304,10 +304,12 @@ bd50
 /
 \
 0x133c8bf4
-0x4913
-0x4355
-{
 \
+0x4913
+\
+0x4355
+\
+{
 0xbd
 0x50
 0x42
@@ -316,9 +318,7 @@ bd50
 0xd6
 0xe1
 0xad
-\
 }
-\
 }
 class
 LocalAccessible
@@ -1881,6 +1881,10 @@ uint64_t
 aCacheDomain
 CacheUpdateType
 aUpdate
+bool
+aAppendEventData
+=
+false
 )
 ;
 void
