@@ -173,3 +173,10 @@ browser_update_profile_on_window_switch
 js
 "
 ]
+[
+"
+browser_window_title_test
+.
+js
+"
+]
