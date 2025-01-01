@@ -5550,6 +5550,12 @@ optional
 in
 nsIObserver
 aObserver
+[
+optional
+]
+in
+Element
+aElement
 )
 ;
 /
