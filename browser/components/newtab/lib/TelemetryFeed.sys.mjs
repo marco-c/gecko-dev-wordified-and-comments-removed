@@ -4818,6 +4818,7 @@ is_list_card
 format
 section
 section_position
+is_secton_followed
 }
 =
 action
@@ -4971,6 +4972,7 @@ section
 {
 section
 section_position
+is_secton_followed
 }
 :
 {
@@ -5173,6 +5175,9 @@ recommended_at
 thumbs_up
 thumbs_down
 topic
+section
+section_position
+is_secton_followed
 }
 =
 action
@@ -5257,6 +5262,21 @@ recommendation_id
 thumbs_up
 thumbs_down
 topic
+.
+.
+.
+(
+section
+?
+{
+section
+section_position
+is_secton_followed
+}
+:
+{
+}
+)
 }
 )
 ;
@@ -5288,6 +5308,7 @@ is_list_card
 format
 section
 section_position
+is_secton_followed
 }
 =
 action
@@ -5345,6 +5366,7 @@ section
 {
 section
 section_position
+is_secton_followed
 }
 :
 {
@@ -7879,6 +7901,11 @@ section_position
 datum
 .
 section_position
+is_secton_followed
+:
+datum
+.
+is_secton_followed
 }
 :
 {
@@ -8297,6 +8324,11 @@ section_position
 tile
 .
 section_position
+is_secton_followed
+:
+tile
+.
+is_secton_followed
 }
 :
 {

@@ -577,6 +577,13 @@ this
 props
 .
 section_position
+is_secton_followed
+:
+this
+.
+props
+.
+is_secton_followed
 }
 :
 {

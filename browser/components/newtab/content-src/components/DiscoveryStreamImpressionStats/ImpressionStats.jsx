@@ -813,6 +813,11 @@ section_position
 link
 .
 section_position
+is_secton_followed
+:
+link
+.
+is_secton_followed
 }
 :
 {

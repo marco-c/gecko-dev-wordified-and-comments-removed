@@ -1649,6 +1649,11 @@ sectionPosition
 {
 sectionPosition
 }
+sectionFollowed
+=
+{
+following
+}
 /
 >
 )
