@@ -14567,7 +14567,7 @@ evt
 )
 ;
 }
-getTabsToTheStartFrom
+_getTabsToTheStartFrom
 (
 aTab
 )
@@ -14595,7 +14595,7 @@ tabs
 =
 this
 .
-visibleTabs
+openTabs
 ;
 for
 (
@@ -14637,6 +14637,14 @@ i
 ]
 .
 pinned
+|
+|
+tabs
+[
+i
+]
+.
+hidden
 )
 {
 continue
@@ -14675,7 +14683,7 @@ return
 tabsToStart
 ;
 }
-getTabsToTheEndFrom
+_getTabsToTheEndFrom
 (
 aTab
 )
@@ -14703,7 +14711,7 @@ tabs
 =
 this
 .
-visibleTabs
+openTabs
 ;
 for
 (
@@ -14748,6 +14756,14 @@ i
 ]
 .
 pinned
+|
+|
+tabs
+[
+i
+]
+.
+hidden
 )
 {
 continue
@@ -15314,7 +15330,7 @@ tabs
 =
 this
 .
-getTabsToTheStartFrom
+_getTabsToTheStartFrom
 (
 aTab
 )
@@ -15358,7 +15374,7 @@ tabs
 =
 this
 .
-getTabsToTheEndFrom
+_getTabsToTheEndFrom
 (
 aTab
 )
@@ -33383,7 +33399,7 @@ noTabsToStart
 !
 gBrowser
 .
-getTabsToTheStartFrom
+_getTabsToTheStartFrom
 (
 this
 .
@@ -33404,7 +33420,7 @@ noTabsToEnd
 !
 gBrowser
 .
-getTabsToTheEndFrom
+_getTabsToTheEndFrom
 (
 this
 .
