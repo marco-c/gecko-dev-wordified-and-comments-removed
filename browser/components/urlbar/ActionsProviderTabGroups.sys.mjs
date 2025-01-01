@@ -346,9 +346,11 @@ result
 -
 action
 -
-search
+switch
 -
-tabgroups
+to
+-
+tabgroup
 "
 l10nArgs
 :
