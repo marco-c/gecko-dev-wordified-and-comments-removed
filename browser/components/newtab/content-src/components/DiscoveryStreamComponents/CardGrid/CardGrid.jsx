@@ -372,7 +372,7 @@ PREF_LEADERBOARD_POSITION
 "
 newtabAdSize
 .
-leaderboard
+billboard
 .
 position
 "
