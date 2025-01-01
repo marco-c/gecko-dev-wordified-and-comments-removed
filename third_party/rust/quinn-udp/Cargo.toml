@@ -125,7 +125,7 @@ version
 .
 5
 .
-8
+9
 "
 build
 =
@@ -537,11 +537,5 @@ Win32_System_IO
 "
 "
 Win32_Networking_WinSock
-"
-"
-Win32_System_SystemInformation
-"
-"
-Win32_System_Threading
 "
 ]
