@@ -8219,6 +8219,15 @@ win
 _maybeDontRestoreTabs
 )
 ;
+this
+.
+_savedGroups
+=
+state
+?
+.
+savedGroups
+;
 }
 catch
 (
