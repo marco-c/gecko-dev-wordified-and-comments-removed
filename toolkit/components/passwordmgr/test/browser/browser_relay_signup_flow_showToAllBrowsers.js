@@ -775,6 +775,8 @@ Assert
 ok
 (
 relayTermsLink
+.
+href
 "
 Relay
 opt
@@ -821,6 +823,8 @@ Assert
 ok
 (
 relayPrivacyLink
+.
+href
 "
 Relay
 opt
