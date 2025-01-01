@@ -52,6 +52,16 @@ set
 [
 [
 "
+apz
+.
+popups
+.
+enabled
+"
+false
+]
+[
+"
 layout
 .
 animation
