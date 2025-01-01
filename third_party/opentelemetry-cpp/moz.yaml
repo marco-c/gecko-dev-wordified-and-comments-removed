@@ -507,6 +507,14 @@ version
 *
 .
 cc
+keep
+:
+-
+opentelemetry
+-
+config
+.
+mozbuild
 updatebot
 :
 maintainer
