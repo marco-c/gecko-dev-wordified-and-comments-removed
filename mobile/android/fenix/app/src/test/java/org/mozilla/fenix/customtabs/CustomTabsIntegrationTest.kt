@@ -683,9 +683,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 }
@@ -1519,9 +1516,6 @@ testContext
 isNavBarEnabled
 =
 true
-isNavBarVisible
-=
-false
 isWindowSizeSmall
 =
 false
@@ -1608,9 +1602,6 @@ context
 =
 testContext
 isNavBarEnabled
-=
-false
-isNavBarVisible
 =
 false
 isWindowSizeSmall

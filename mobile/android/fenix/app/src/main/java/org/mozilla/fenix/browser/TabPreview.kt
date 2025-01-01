@@ -1107,14 +1107,6 @@ navigationToolbarEnabled
 )
 {
 val
-isTablet
-=
-context
-.
-isLargeWindow
-(
-)
-val
 isLargeWindow
 =
 (
@@ -1133,12 +1125,6 @@ initNavBarLandscapeChanges
 (
 isLargeWindow
 )
-if
-(
-!
-isTablet
-)
-{
 updateNavBarForConfigurationChange
 (
 context
@@ -1166,7 +1152,6 @@ reinitializeMicrosurveyPrompt
 {
 }
 )
-}
 }
 }
 /
