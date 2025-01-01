@@ -6334,7 +6334,7 @@ name
 browser_menu_open_in_normal_tab
 "
 >
-Zu
+In
 nicht
 privaten
 Tab
@@ -11631,8 +11631,8 @@ name
 onboarding_customize_theme_system_option
 "
 >
-System
-automatisch
+Automatische
+Systemeinstellung
 <
 /
 string
@@ -11673,9 +11673,10 @@ Auswahlansicht
 mit
 illustrierten
 K
-nstlern
+nstler
+-
 und
-Entwicklern
+Entwicklerwerkzeugen
 .
 <
 /
