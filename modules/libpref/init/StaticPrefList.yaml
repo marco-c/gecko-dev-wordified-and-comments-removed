@@ -95569,13 +95569,13 @@ fileuri
 strict_origin_policy
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
 mirror
 :
-once
+always
 #
 The
 level
