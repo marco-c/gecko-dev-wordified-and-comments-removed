@@ -36401,3 +36401,15 @@ canDisable
 true
 )
 ;
+pref
+(
+"
+captchadetection
+.
+loglevel
+"
+"
+Warn
+"
+)
+;
