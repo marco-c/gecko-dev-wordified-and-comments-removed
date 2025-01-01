@@ -1755,6 +1755,15 @@ mLength
 }
 }
 ;
+enum
+class
+AAStrokeMode
+{
+Unsupported
+Geometry
+Mask
+}
+;
 class
 PathCacheEntry
 :
@@ -1783,6 +1792,8 @@ aPattern
 StoredStrokeOptions
 *
 aStrokeOptions
+AAStrokeMode
+aStrokeMode
 const
 Matrix
 &
@@ -1821,6 +1832,8 @@ const
 StrokeOptions
 *
 aStrokeOptions
+AAStrokeMode
+aStrokeMode
 const
 Matrix
 &
@@ -1955,6 +1968,14 @@ StoredStrokeOptions
 >
 mStrokeOptions
 ;
+AAStrokeMode
+mAAStrokeMode
+=
+AAStrokeMode
+:
+:
+Unsupported
+;
 float
 mSigma
 ;
@@ -1997,6 +2018,8 @@ const
 StrokeOptions
 *
 aStrokeOptions
+AAStrokeMode
+aStrokeMode
 const
 Matrix
 &
