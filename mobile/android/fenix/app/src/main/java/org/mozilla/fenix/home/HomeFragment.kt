@@ -6896,6 +6896,9 @@ appState
 settings
 =
 settings
+browsingModeManager
+=
+browsingModeManager
 )
 interactor
 =

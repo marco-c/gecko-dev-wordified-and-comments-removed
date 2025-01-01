@@ -1895,7 +1895,7 @@ expandedCollections
 setOf
 (
 )
-showAddTabToCollection
+showSaveTabsToCollection
 =
 true
 )
