@@ -2980,6 +2980,14 @@ searchTerm
 "
 mozilla
 "
+shouldUseSearchShort
+=
+true
+searchEngineName
+=
+"
+DuckDuckGo
+"
 )
 }
 .
