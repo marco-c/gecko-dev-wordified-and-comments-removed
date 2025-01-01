@@ -334,12 +334,6 @@ TOTAL_LEN
 false
 )
 ;
-response
-.
-finish
-(
-)
-;
 return
 ;
 }
@@ -2458,7 +2452,7 @@ result
 ]
 .
 estimatedEndTime
-null
+undefined
 "
 download
 .
@@ -3004,7 +2998,7 @@ result
 ]
 .
 estimatedEndTime
-null
+undefined
 "
 download
 .
@@ -3458,7 +3452,7 @@ result
 ]
 .
 estimatedEndTime
-null
+undefined
 "
 download
 .
@@ -3996,7 +3990,7 @@ result
 ]
 .
 estimatedEndTime
-null
+undefined
 "
 download
 .
@@ -4367,7 +4361,7 @@ result
 ]
 .
 estimatedEndTime
-null
+undefined
 "
 download
 .
