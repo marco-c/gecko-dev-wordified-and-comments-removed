@@ -309,7 +309,7 @@ for
 const
 [
 token
-l10nRestrictKeyword
+l10nRestrictKeywords
 ]
 of
 tokenToKeyword
@@ -377,7 +377,16 @@ icon
 keyword
 :
 token
-l10nRestrictKeyword
+l10nRestrictKeywords
+:
+[
+l10nRestrictKeywords
+UrlbarUtils
+.
+HIGHLIGHT
+.
+TYPED
+]
 providesSearchMode
 :
 true

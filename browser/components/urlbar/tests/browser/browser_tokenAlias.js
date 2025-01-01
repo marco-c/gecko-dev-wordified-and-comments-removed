@@ -1976,7 +1976,10 @@ result
 .
 payload
 .
-l10nRestrictKeyword
+l10nRestrictKeywords
+[
+0
+]
 ;
 let
 keyword

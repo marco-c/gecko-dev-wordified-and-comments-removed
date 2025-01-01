@@ -13407,7 +13407,15 @@ type
 string
 "
 }
-l10nRestrictKeyword
+l10nRestrictKeywords
+:
+{
+type
+:
+"
+array
+"
+items
 :
 {
 type
@@ -13415,6 +13423,7 @@ type
 "
 string
 "
+}
 }
 autofillKeyword
 :
