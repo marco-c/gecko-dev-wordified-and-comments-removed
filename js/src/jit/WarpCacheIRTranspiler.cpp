@@ -18548,6 +18548,8 @@ StringOperandId
 lhsId
 StringOperandId
 rhsId
+uint32_t
+stubOffset
 )
 {
 MDefinition

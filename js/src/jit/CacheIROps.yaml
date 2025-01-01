@@ -9235,6 +9235,9 @@ StringId
 rhs
 :
 StringId
+stub
+:
+JitCodeField
 -
 name
 :
