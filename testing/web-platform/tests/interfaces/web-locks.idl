@@ -83,6 +83,7 @@ Exposed
 (
 Window
 Worker
+SharedStorageWorklet
 )
 ]
 interface
@@ -211,6 +212,7 @@ Exposed
 (
 Window
 Worker
+SharedStorageWorklet
 )
 ]
 interface

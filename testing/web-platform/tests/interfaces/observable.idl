@@ -147,12 +147,14 @@ the
 Observable
 "
 creator
+'
 s
 "
 code
 lives
 .
 It
+'
 s
 /
 /
@@ -408,6 +410,7 @@ from
 value
 if
 it
+'
 s
 any
 of

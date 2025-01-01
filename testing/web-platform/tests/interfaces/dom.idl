@@ -1274,7 +1274,7 @@ cloneNode
 (
 optional
 boolean
-deep
+subtree
 =
 false
 )
@@ -1657,7 +1657,7 @@ Node
 node
 optional
 boolean
-deep
+subtree
 =
 false
 )
