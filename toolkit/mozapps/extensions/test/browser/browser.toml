@@ -443,6 +443,13 @@ js
 ]
 [
 "
+browser_html_detail_permissions_userScripts
+.
+js
+"
+]
+[
+"
 browser_html_detail_view
 .
 js
