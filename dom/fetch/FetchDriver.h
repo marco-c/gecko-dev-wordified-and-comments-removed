@@ -508,7 +508,7 @@ aID
 ;
 }
 void
-SetIsThirdPartyWorker
+SetIsThirdPartyContext
 (
 const
 Maybe
@@ -518,7 +518,7 @@ bool
 aIsThirdPartyWorker
 )
 {
-mIsThirdPartyWorker
+mIsThirdPartyContext
 =
 aIsThirdPartyWorker
 ;
@@ -649,7 +649,7 @@ Maybe
 <
 bool
 >
-mIsThirdPartyWorker
+mIsThirdPartyContext
 ;
 bool
 mIsOn3PCBExceptionList
