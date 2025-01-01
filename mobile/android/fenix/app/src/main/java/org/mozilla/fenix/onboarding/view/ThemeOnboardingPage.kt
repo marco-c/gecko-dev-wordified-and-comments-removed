@@ -1531,7 +1531,7 @@ R
 .
 string
 .
-onboarding_customize_theme_skip_button
+onboarding_customize_theme_not_now_button
 )
 onClick
 =
