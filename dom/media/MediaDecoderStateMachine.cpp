@@ -3397,6 +3397,13 @@ aPlayState
 )
 override
 {
+mMaster
+-
+>
+ScheduleStateMachine
+(
+)
+;
 if
 (
 aPlayState
@@ -3408,13 +3415,6 @@ MediaDecoder
 PLAY_STATE_PLAYING
 )
 {
-mMaster
--
->
-ScheduleStateMachine
-(
-)
-;
 DispatchDecodeTasksIfNeeded
 (
 )
