@@ -150,6 +150,11 @@ wgsl
 "
 api_log_info
 "
+"
+indirect
+-
+validation
+"
 ]
 #
 We
