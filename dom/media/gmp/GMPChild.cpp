@@ -3295,6 +3295,10 @@ Shutdown
 )
 ;
 }
+ShutdownPlatformAPI
+(
+)
+;
 if
 (
 AbnormalShutdown
