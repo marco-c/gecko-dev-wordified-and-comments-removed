@@ -1637,7 +1637,7 @@ UiSelector
 (
 )
 .
-description
+descriptionStartsWith
 (
 engineName
 )
