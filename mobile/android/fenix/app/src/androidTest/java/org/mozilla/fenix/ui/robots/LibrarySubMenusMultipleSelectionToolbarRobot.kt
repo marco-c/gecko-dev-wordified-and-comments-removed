@@ -1353,7 +1353,7 @@ button
 )
 }
 fun
-clickRedesignedBookmarksMenuMultiSelectDeleteButton
+clickMultiSelectDeleteButton
 (
 composeTestRule
 :
@@ -1366,7 +1366,7 @@ i
 (
 TAG
 "
-clickRedesignedBookmarksMenuMultiSelectDeleteButton
+clickMultiSelectDeleteButton
 :
 Trying
 to
@@ -1393,7 +1393,7 @@ i
 (
 TAG
 "
-clickRedesignedBookmarksMenuMultiSelectDeleteButton
+clickMultiSelectDeleteButton
 :
 Clicked
 the
@@ -1406,7 +1406,7 @@ button
 )
 }
 fun
-clickRedesignedBookmarksMenuMultiSelectThreeDotButton
+clickMultiSelectThreeDotButton
 (
 composeTestRule
 :
@@ -1419,7 +1419,7 @@ i
 (
 TAG
 "
-clickRedesignedBookmarksMenuMultiSelectThreeDotButton
+clickMultiSelectThreeDotButton
 :
 Trying
 to
@@ -1456,7 +1456,7 @@ i
 (
 TAG
 "
-clickRedesignedBookmarksMenuMultiSelectThreeDotButton
+clickMultiSelectThreeDotButton
 :
 Clicked
 the
@@ -1765,7 +1765,7 @@ composeTestRule
 )
 }
 fun
-clickOpenInNewTabButtonFromRedesignedBookmarksMenu
+clickOpenInNewTabButton
 (
 composeTestRule
 :
@@ -1791,7 +1791,7 @@ i
 (
 TAG
 "
-clickOpenInNewTabButtonFromRedesignedBookmarksMenu
+clickOpenInNewTabButton
 :
 Trying
 to
@@ -1828,7 +1828,7 @@ i
 (
 TAG
 "
-clickOpenInNewTabButtonFromRedesignedBookmarksMenu
+clickOpenInNewTabButton
 :
 Clicked
 the
@@ -1855,7 +1855,7 @@ i
 (
 TAG
 "
-clickOpenInNewTabButtonFromRedesignedBookmarksMenu
+clickOpenInNewTabButton
 :
 Trying
 to
@@ -1885,7 +1885,7 @@ i
 (
 TAG
 "
-clickOpenInNewTabButtonFromRedesignedBookmarksMenu
+clickOpenInNewTabButton
 :
 Verified
 that
