@@ -52,6 +52,9 @@ true
 lower_is_better
 =
 false
+subtest_lower_is_better
+=
+false
 page_cycles
 =
 1
@@ -92,6 +95,11 @@ type
 benchmark
 "
 unit
+=
+"
+score
+"
+subtest_unit
 =
 "
 score
