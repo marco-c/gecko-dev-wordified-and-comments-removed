@@ -2495,7 +2495,12 @@ MLEngineParent
 .
 WASM_FILENAME
 }
-majorVersion
+minSupportedMajorVersion
+:
+MLEngineParent
+.
+WASM_MAJOR_VERSION
+maxSupportedMajorVersion
 :
 MLEngineParent
 .
