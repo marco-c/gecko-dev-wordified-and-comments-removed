@@ -186,6 +186,11 @@ Shutdown
 )
 override
 ;
+void
+Init
+(
+)
+;
 private
 :
 Maybe
@@ -220,11 +225,6 @@ mWindow
 ;
 void
 SetHiddenWindowVSync
-(
-)
-;
-void
-Init
 (
 )
 ;

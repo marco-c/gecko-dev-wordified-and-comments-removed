@@ -548,10 +548,6 @@ WaylandVsyncSource
 "
 )
 ;
-Init
-(
-)
-;
 }
 WaylandVsyncSource
 :
