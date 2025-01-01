@@ -321,7 +321,7 @@ LazyLogModule
 gWidgetVsync
 (
 "
-WidgetVsync
+WidgetVSync
 "
 )
 ;
@@ -330,6 +330,14 @@ gDmabufLog
 (
 "
 Dmabuf
+"
+)
+;
+LazyLogModule
+gWidgetCompositorLog
+(
+"
+WidgetCompositor
 "
 )
 ;
