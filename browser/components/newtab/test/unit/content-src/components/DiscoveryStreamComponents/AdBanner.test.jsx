@@ -970,6 +970,7 @@ gridRow
 clampedRow
 }
 )
+;
 }
 )
 ;
