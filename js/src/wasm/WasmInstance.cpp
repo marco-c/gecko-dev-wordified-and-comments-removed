@@ -18207,6 +18207,11 @@ interpEntry
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -18259,6 +18264,11 @@ EnsureBuiltinThunksInitialized
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
