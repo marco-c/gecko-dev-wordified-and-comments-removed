@@ -211,10 +211,6 @@ GOBJECT_TRAITS
 (
 GDBusMethodInvocation
 )
-GOBJECT_TRAITS
-(
-GdkWindow
-)
 #
 undef
 GOBJECT_TRAITS
