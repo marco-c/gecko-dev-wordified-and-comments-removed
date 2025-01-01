@@ -3087,6 +3087,7 @@ jit
 JitZone
 >
 (
+cx
 allocNurseryStrings
 (
 )
