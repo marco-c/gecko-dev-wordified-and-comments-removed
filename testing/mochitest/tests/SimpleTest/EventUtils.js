@@ -4699,7 +4699,6 @@ utils
 .
 flushApzRepaints
 (
-aWindow
 )
 )
 {
