@@ -6053,6 +6053,14 @@ nsIRequest
 :
 LOAD_ANONYMOUS
 ;
+flags
+|
+=
+nsIChannel
+:
+:
+LOAD_BYPASS_SERVICE_WORKER
+;
 rv
 =
 reportChannel
