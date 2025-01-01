@@ -21,7 +21,7 @@ snap
 /
 scroll
 -
-start
+initial
 -
 target
 -
@@ -42,7 +42,7 @@ data
 .
 scroll
 -
-start
+initial
 -
 target
 -
@@ -65,7 +65,7 @@ window
 to
 scroll
 -
-start
+initial
 -
 target
 -
@@ -167,7 +167,7 @@ snap
 /
 scroll
 -
-start
+initial
 -
 target
 /
@@ -209,7 +209,7 @@ snap
 /
 scroll
 -
-start
+initial
 -
 target
 /
