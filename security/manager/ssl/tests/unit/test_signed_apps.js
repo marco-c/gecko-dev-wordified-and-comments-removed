@@ -499,11 +499,10 @@ nsIStringInputStream
 ;
 content
 .
-setByteStringData
-(
+data
+=
 "
 "
-)
 ;
 return
 [

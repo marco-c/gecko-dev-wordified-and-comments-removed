@@ -897,8 +897,8 @@ nsIStringInputStream
 ;
 stream
 .
-setByteStringData
-(
+data
+=
 "
 b
 "
@@ -906,7 +906,6 @@ b
 repeat
 (
 500
-)
 )
 ;
 chan

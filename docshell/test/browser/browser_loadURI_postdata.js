@@ -109,10 +109,9 @@ nsIStringInputStream
 ;
 dataStream
 .
-setByteStringData
-(
+data
+=
 gPostData
-)
 ;
 var
 postStream

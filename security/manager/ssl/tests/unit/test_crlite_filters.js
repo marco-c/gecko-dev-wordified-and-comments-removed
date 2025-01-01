@@ -216,10 +216,9 @@ nsIStringInputStream
 ;
 stringStream
 .
-setByteStringData
-(
+data
+=
 aStr
-)
 ;
 hasher
 .

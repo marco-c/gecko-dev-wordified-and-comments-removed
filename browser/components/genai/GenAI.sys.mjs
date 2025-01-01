@@ -5072,8 +5072,8 @@ options
 .
 headers
 .
-setByteStringData
-(
+data
+=
 {
 header
 }
@@ -5088,7 +5088,6 @@ prompt
 r
 \
 n
-)
 ;
 }
 else

@@ -2643,10 +2643,9 @@ nsIStringInputStream
 ;
 stream
 .
-setByteStringData
-(
+data
+=
 content
-)
 ;
 let
 uchan

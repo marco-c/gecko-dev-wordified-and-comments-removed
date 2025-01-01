@@ -134,10 +134,9 @@ nsIStringInputStream
 ;
 stream
 .
-setByteStringData
-(
+data
+=
 string
-)
 ;
 return
 stream

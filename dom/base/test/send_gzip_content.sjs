@@ -110,10 +110,9 @@ nsIStringInputStream
 ;
 stringStream
 .
-setByteStringData
-(
+data
+=
 string
-)
 ;
 converter
 .

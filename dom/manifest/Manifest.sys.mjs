@@ -320,10 +320,9 @@ nsIStringInputStream
 ;
 stringStream
 .
-setByteStringData
-(
+data
+=
 aString
-)
 ;
 cryptoHash
 .
