@@ -185,9 +185,7 @@ linux64
 -
 rust
 -
-1
-.
-83
+toolchain
 -
 sysroot
 -
@@ -234,9 +232,7 @@ rust
 -
 macos
 -
-1
-.
-83
+toolchain
 -
 linux64
 -
@@ -289,9 +285,7 @@ rust
 -
 macos
 -
-1
-.
-83
+toolchain
 -
 linux64
 -
@@ -350,9 +344,7 @@ rust
 -
 windows
 -
-1
-.
-83
+toolchain
 -
 vs
 -
@@ -403,9 +395,7 @@ rust
 -
 windows
 -
-1
-.
-83
+toolchain
 -
 vs
 -
