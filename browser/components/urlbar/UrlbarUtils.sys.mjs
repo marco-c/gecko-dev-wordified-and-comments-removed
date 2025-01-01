@@ -2556,9 +2556,10 @@ nsIStringInputStream
 ;
 dataStream
 .
-data
-=
+setByteStringData
+(
 postDataString
+)
 ;
 let
 mimeStream

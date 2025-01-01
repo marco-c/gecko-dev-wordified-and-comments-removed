@@ -2604,9 +2604,10 @@ nsIStringInputStream
 ;
 stringStream
 .
-data
-=
+setByteStringData
+(
 dataString
+)
 ;
 postData
 =

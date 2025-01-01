@@ -193,8 +193,8 @@ nsIStringInputStream
 ;
 sstream
 .
-data
-=
+setByteStringData
+(
 "
 x
 "
@@ -202,6 +202,7 @@ x
 repeat
 (
 size
+)
 )
 ;
 let
