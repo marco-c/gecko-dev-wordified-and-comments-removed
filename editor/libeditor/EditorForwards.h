@@ -280,6 +280,9 @@ class
 CompositionTransaction
 ;
 class
+CreateLineBreakResult
+;
+class
 CSSEditUtils
 ;
 class
