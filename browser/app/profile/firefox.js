@@ -2616,11 +2616,11 @@ browser
 .
 urlbar
 .
-usb
+unifiedSearchButton
 .
-dynamic
+always
 "
-true
+false
 )
 ;
 pref

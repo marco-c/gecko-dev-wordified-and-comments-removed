@@ -2742,7 +2742,7 @@ add_task
 (
 async
 function
-test_esc_on_usb
+test_esc_on_UnifiedSearchButton
 (
 )
 {

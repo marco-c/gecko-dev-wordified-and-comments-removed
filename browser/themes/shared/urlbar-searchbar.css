@@ -9867,6 +9867,7 @@ invalid
 *
 /
 media
+not
 (
 -
 moz
@@ -9880,9 +9881,9 @@ browser
 .
 urlbar
 .
-usb
+unifiedSearchButton
 .
-dynamic
+always
 "
 )
 {

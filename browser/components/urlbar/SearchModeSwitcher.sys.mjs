@@ -1639,6 +1639,7 @@ searchMode
 ;
 if
 (
+!
 lazy
 .
 UrlbarPrefs
@@ -1646,9 +1647,9 @@ UrlbarPrefs
 get
 (
 "
-usb
+unifiedSearchButton
 .
-dynamic
+always
 "
 )
 )

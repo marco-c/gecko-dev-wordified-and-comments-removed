@@ -83,7 +83,7 @@ add_task
 (
 async
 function
-test_usb_visibility_by_pageproxystate
+test_button_visibility_by_pageproxystate
 (
 )
 {
@@ -119,7 +119,7 @@ com
 )
 ;
 await
-assertUSBVisibility
+assertButtonVisibility
 (
 false
 )
@@ -140,7 +140,7 @@ clickOnBrowserElement
 )
 ;
 await
-assertUSBVisibility
+assertButtonVisibility
 (
 false
 )
@@ -166,7 +166,7 @@ inputField
 )
 ;
 await
-assertUSBVisibility
+assertButtonVisibility
 (
 false
 )
@@ -190,7 +190,7 @@ a
 )
 ;
 await
-assertUSBVisibility
+assertButtonVisibility
 (
 true
 )
@@ -211,7 +211,7 @@ clickOnBrowserElement
 )
 ;
 await
-assertUSBVisibility
+assertButtonVisibility
 (
 true
 )
@@ -228,7 +228,7 @@ tab
 ;
 async
 function
-assertUSBVisibility
+assertButtonVisibility
 (
 expected
 )
@@ -285,7 +285,9 @@ expected
 }
 Wait
 until
-USB
+Unified
+Search
+Button
 visibility
 will
 be
@@ -302,7 +304,9 @@ ok
 (
 true
 "
-USB
+Unified
+Search
+Button
 visibility
 is
 correct
