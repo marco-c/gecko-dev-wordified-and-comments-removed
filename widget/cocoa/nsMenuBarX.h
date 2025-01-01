@@ -402,6 +402,11 @@ Paint
 )
 ;
 void
+PaintAsync
+(
+)
+;
+void
 ForceUpdateNativeMenuAt
 (
 const

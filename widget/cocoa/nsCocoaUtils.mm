@@ -1944,14 +1944,17 @@ if
 !
 mainWindow
 )
+{
 hiddenWindowMenuBar
 -
 >
-Paint
+PaintAsync
 (
 )
 ;
+}
 else
+{
 [
 WindowDelegate
 paintMenubarForWindow
@@ -1959,6 +1962,7 @@ paintMenubarForWindow
 mainWindow
 ]
 ;
+}
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
