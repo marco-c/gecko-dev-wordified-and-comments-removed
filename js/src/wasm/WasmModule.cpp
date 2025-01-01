@@ -676,7 +676,7 @@ CompileCompleteTier2
 bytecode_
 -
 >
-bytes
+vector
 *
 module_
 &

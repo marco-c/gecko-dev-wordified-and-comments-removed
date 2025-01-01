@@ -2899,10 +2899,7 @@ relativeDepth
 void
 insertBreakablePoint
 (
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 kind
 )
 ;
