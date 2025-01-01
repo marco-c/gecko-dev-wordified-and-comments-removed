@@ -2540,7 +2540,7 @@ clang
 .
 1
 .
-4
+6
 source
 code
 fetch
@@ -2565,7 +2565,7 @@ llvm
 project
 revision
 :
-aadaa00de76ed0c4987b97450dd638f63a385bed
+e21dc4bd5474d04b8e62d7331362edcc5648d7e5
 clang
 -
 trunk
