@@ -1255,6 +1255,14 @@ DOMContentLoaded
 :
 {
 }
+pageshow
+:
+{
+}
+pagehide
+:
+{
+}
 }
 }
 matches
