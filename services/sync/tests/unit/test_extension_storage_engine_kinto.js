@@ -638,7 +638,7 @@ resolve
 try
 {
 await
-withContext
+withSyncContext
 (
 async
 function

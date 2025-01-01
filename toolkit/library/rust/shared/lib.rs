@@ -267,7 +267,7 @@ android
 ]
 extern
 crate
-webext_storage
+webext_storage_bridge
 ;
 #
 [

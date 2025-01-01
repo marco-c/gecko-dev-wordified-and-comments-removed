@@ -99,9 +99,6 @@ crate
 mod
 jexl_filter
 ;
-mod
-macros
-;
 pub
 use
 client
@@ -731,9 +728,9 @@ get_attachment
 (
 &
 self
-record
+attachment_id
 :
-RemoteSettingsRecord
+String
 )
 -
 >
@@ -751,7 +748,8 @@ internal
 .
 get_attachment
 (
-record
+&
+attachment_id
 )
 }
 }
