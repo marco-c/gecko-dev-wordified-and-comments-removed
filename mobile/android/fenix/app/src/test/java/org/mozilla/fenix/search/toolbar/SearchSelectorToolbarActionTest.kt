@@ -843,7 +843,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 testSearchEngine
 .
 name
@@ -1047,7 +1047,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 testSearchEngine
 .
 name
@@ -1235,7 +1235,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 testSearchEngine
 .
 name
@@ -1320,7 +1320,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 testSearchEngine
 .
 name
@@ -1420,7 +1420,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 testSearchEngine
 .
 name
@@ -1451,7 +1451,7 @@ R
 .
 string
 .
-search_engine_icon_content_description_1
+search_engine_selector_content_description
 newSearchEngine
 .
 name
