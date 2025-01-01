@@ -20154,6 +20154,7 @@ psn
 =
 noErr
 )
+{
 :
 :
 SetFrontProcess
@@ -20162,6 +20163,7 @@ SetFrontProcess
 psn
 )
 ;
+}
 }
 #
 endif
