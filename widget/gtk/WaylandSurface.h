@@ -987,10 +987,6 @@ mSubsurfacePosition
 1
 }
 ;
-static
-bool
-sForceEmulateFrameCallback
-;
 AutoTArray
 <
 RefPtr
