@@ -326,6 +326,14 @@ enable
 =
 true
 [
+webext_storage
+.
+async_wrappers
+]
+enable
+=
+true
+[
 arithmetical
 .
 async_wrappers

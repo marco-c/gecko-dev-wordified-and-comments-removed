@@ -265,6 +265,14 @@ serde_json
 "
 1
 "
+sha2
+=
+"
+^
+0
+.
+10
+"
 thiserror
 =
 "
@@ -276,8 +284,6 @@ url
 =
 "
 2
-.
-1
 "
 [
 dependencies

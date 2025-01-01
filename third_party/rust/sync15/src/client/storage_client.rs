@@ -2747,16 +2747,12 @@ a
 CollectionName
 }
 impl
-<
-'
-a
->
 BatchPoster
 for
 PostWrapper
 <
 '
-a
+_
 >
 {
 fn
