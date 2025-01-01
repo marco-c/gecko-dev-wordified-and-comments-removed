@@ -3914,15 +3914,8 @@ asWasm
 (
 )
 .
-setUnwind
+setIsLeavingFrames
 (
-WasmFrameIter
-:
-:
-Unwind
-:
-:
-True
 )
 ;
 JitActivation

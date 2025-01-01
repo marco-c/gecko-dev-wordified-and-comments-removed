@@ -8624,7 +8624,7 @@ if
 (
 wasmFrameIter
 .
-stackSwitched
+currentFrameStackSwitched
 (
 )
 )
