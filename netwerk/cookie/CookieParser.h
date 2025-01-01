@@ -101,7 +101,7 @@ return
 mHostURI
 ;
 }
-bool
+void
 Parse
 (
 const
@@ -198,7 +198,7 @@ aValue
 private
 :
 static
-bool
+void
 GetTokenValue
 (
 nsACString
@@ -224,7 +224,7 @@ bool
 aEqualsFound
 )
 ;
-bool
+void
 ParseAttributes
 (
 nsCString

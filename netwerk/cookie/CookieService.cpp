@@ -2595,16 +2595,6 @@ aChannel
 dateHeader
 )
 ;
-bool
-moreCookieToRead
-=
-true
-;
-while
-(
-moreCookieToRead
-)
-{
 CookieParser
 cookieParser
 (
@@ -2612,8 +2602,6 @@ crc
 aHostURI
 )
 ;
-moreCookieToRead
-=
 cookieParser
 .
 Parse
@@ -2649,7 +2637,8 @@ ContainsCookie
 )
 )
 {
-continue
+return
+NS_OK
 ;
 }
 if
@@ -2707,7 +2696,8 @@ CookieParser
 RejectedByPermissionManager
 )
 ;
-continue
+return
+NS_OK
 ;
 }
 bool
@@ -2837,7 +2827,6 @@ isForeignAndNotAddon
 bc
 )
 ;
-}
 return
 NS_OK
 ;
