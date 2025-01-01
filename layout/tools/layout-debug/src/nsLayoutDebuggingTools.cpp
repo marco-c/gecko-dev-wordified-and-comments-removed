@@ -423,6 +423,9 @@ mDocShell
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+#
+ifdef
+MOZ_REFLOW_PERF
 if
 (
 PresShell
@@ -435,9 +438,6 @@ mDocShell
 )
 )
 {
-#
-ifdef
-MOZ_REFLOW_PERF
 presShell
 -
 >
@@ -446,6 +446,7 @@ SetPaintFrameCount
 aShow
 )
 ;
+}
 #
 else
 printf
@@ -579,7 +580,6 @@ n
 ;
 #
 endif
-}
 return
 NS_OK
 ;
