@@ -156,15 +156,6 @@ false
 file
 :
 "
-helper_fission_force_empty_hit_region
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_initial_displayport
 .
 html
