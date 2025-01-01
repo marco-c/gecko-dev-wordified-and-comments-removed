@@ -233,6 +233,11 @@ verifyMakeDefaultBrowser
 (
 )
 {
+mDevice
+.
+waitForIdle
+(
+)
 Log
 .
 i
