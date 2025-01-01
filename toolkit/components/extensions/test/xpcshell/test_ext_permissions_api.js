@@ -120,13 +120,13 @@ XPCShell
 let
 OptionalPermissions
 ;
-add_setup
+add_task
 (
 async
+function
+setup
 (
 )
-=
->
 {
 do_get_profile
 (
@@ -266,6 +266,9 @@ tabs
 "
 "
 trialML
+"
+"
+userScripts
 "
 "
 webRequestAuthProvider
