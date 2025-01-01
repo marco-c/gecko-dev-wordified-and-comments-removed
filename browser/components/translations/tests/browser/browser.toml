@@ -367,6 +367,13 @@ js
 ]
 [
 "
+browser_translations_full_page_panel_script_tags
+.
+js
+"
+]
+[
+"
 browser_translations_full_page_panel_settings_unsupported_lang
 .
 js
@@ -676,6 +683,13 @@ js
 [
 "
 browser_translations_select_panel_retranslate_on_change_language_from_dropdown_menu
+.
+js
+"
+]
+[
+"
+browser_translations_select_panel_script_tags
 .
 js
 "

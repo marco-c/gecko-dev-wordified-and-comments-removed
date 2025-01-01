@@ -6455,6 +6455,16 @@ innerText
 requestedTranslationPair
 .
 toLanguage
+.
+split
+(
+"
+-
+"
+)
+[
+0
+]
 ;
 }
 else
