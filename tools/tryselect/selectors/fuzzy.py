@@ -513,6 +513,13 @@ task
 -
 filter
 "
+"
+-
+-
+all
+-
+tasks
+"
 ]
             
 {
