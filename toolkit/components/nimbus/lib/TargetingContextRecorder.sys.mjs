@@ -1048,11 +1048,6 @@ isMSIX
 typeAssertions
 .
 boolean
-locale
-:
-typeAssertions
-.
-string
 memoryMB
 :
 typeAssertions
@@ -1083,11 +1078,6 @@ profileAgeCreated
 typeAssertions
 .
 quantity
-region
-:
-typeAssertions
-.
-string
 totalBookmarksCount
 :
 typeAssertions
