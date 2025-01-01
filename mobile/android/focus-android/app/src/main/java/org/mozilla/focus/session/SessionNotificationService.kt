@@ -702,6 +702,8 @@ VERSION_CODES
 UPSIDE_DOWN_CAKE
 )
 {
+applicationContext
+.
 getString
 (
 R
@@ -741,6 +743,8 @@ VERSION_CODES
 UPSIDE_DOWN_CAKE
 )
 {
+applicationContext
+.
 getString
 (
 R
@@ -752,6 +756,8 @@ notification_erase_text_android_14_1
 }
 else
 {
+applicationContext
+.
 getString
 (
 R
@@ -842,6 +848,8 @@ R
 drawable
 .
 ic_notification
+applicationContext
+.
 getString
 (
 R
@@ -867,6 +875,8 @@ R
 drawable
 .
 mozac_ic_delete_24
+applicationContext
+.
 getString
 (
 R
@@ -1114,6 +1124,8 @@ return
 val
 notificationChannelName
 =
+applicationContext
+.
 getString
 (
 R
@@ -1125,6 +1137,8 @@ notification_browsing_session_channel_name
 val
 notificationChannelDescription
 =
+applicationContext
+.
 getString
 (
 R

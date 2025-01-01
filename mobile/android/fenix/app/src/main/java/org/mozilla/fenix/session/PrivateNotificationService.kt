@@ -402,6 +402,8 @@ VERSION_CODES
 UPSIDE_DOWN_CAKE
 )
 {
+applicationContext
+.
 getString
 (
 R
@@ -413,6 +415,8 @@ notification_erase_text_android_14
 }
 else
 {
+applicationContext
+.
 getString
 (
 R
