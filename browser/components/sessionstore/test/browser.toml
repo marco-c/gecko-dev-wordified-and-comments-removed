@@ -1653,6 +1653,13 @@ js
 ]
 [
 "
+browser_tab_groups_save_on_window_close
+.
+js
+"
+]
+[
+"
 browser_tab_groups_saved
 .
 js
