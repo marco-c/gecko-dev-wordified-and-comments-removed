@@ -2101,6 +2101,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_telemetry
+.
+js
+"
+]
+[
+"
 browser_searchMode_alias_replacement
 .
 js
