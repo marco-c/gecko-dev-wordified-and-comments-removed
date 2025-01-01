@@ -8763,6 +8763,13 @@ start
 end
 )
 {
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 mozilla
 :
 :
@@ -8796,6 +8803,8 @@ aHistogram
 0
 )
 ;
+#
+endif
 return
 ;
 }
@@ -8842,6 +8851,13 @@ start
 end
 )
 {
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 mozilla
 :
 :
@@ -8876,6 +8892,8 @@ key
 0
 )
 ;
+#
+endif
 return
 ;
 }
