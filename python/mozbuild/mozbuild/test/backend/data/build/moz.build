@@ -26,9 +26,7 @@ EXTRA_JS_MODULES
 "
 foo
 .
-sys
-.
-mjs
+jsm
 "
 ]
 EXTRA_JS_MODULES
@@ -40,9 +38,7 @@ child
 "
 bar
 .
-sys
-.
-mjs
+jsm
 "
 ]
 EXTRA_PP_JS_MODULES
@@ -52,9 +48,7 @@ EXTRA_PP_JS_MODULES
 "
 baz
 .
-sys
-.
-mjs
+jsm
 "
 ]
 EXTRA_PP_JS_MODULES
@@ -66,9 +60,7 @@ child2
 "
 qux
 .
-sys
-.
-mjs
+jsm
 "
 ]
 FINAL_TARGET_FILES

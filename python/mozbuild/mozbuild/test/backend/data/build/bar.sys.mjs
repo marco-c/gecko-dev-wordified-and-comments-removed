@@ -1,5 +1,0 @@
-bar
-.
-sys
-.
-mjs
