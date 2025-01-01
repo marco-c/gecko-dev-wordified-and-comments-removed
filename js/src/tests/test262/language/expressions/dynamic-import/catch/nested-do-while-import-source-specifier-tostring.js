@@ -41,7 +41,7 @@ error
 .
 name
 '
-ReferenceError
+SyntaxError
 '
 )
 ;

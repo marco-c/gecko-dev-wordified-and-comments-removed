@@ -14,7 +14,6 @@ C
 class
 extends
 (
-async
 (
 )
 =

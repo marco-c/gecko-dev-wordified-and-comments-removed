@@ -30,7 +30,7 @@ error
 .
 name
 '
-ReferenceError
+SyntaxError
 '
 )
 ;

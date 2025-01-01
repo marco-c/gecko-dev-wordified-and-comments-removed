@@ -1,0 +1,17 @@
+assert
+.
+sameValue
+(
+typeof
+AsyncIterator
+'
+function
+'
+)
+;
+reportCompare
+(
+0
+0
+)
+;
