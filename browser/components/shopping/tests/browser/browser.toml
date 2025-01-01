@@ -343,6 +343,13 @@ js
 ]
 [
 "
+browser_empty_states
+.
+js
+"
+]
+[
+"
 browser_exposure_telemetry
 .
 js
