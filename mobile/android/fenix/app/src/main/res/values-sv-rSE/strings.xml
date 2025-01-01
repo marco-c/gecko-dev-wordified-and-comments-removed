@@ -11758,8 +11758,10 @@ name
 onboarding_customize_theme_system_option
 "
 >
-System
-auto
+Automatisk
+(
+system
+)
 <
 /
 string
@@ -11791,7 +11793,7 @@ onboarding_customize_theme_main_image_content_description
 "
 >
 Stor
-sidhuvud
+huvudbild
 av
 vyn
 f
@@ -11803,9 +11805,10 @@ som
 visar
 illustrerade
 konstn
-rer
+rs
+-
 och
-byggarverktyg
+byggverktyg
 .
 <
 /
