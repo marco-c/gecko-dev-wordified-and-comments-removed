@@ -2087,6 +2087,13 @@ html
 ]
 [
 "
+browser_searchModeSwitcher_emptyInput
+.
+js
+"
+]
+[
+"
 browser_searchModeSwitcher_keyNavigation
 .
 js
