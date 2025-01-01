@@ -9256,14 +9256,11 @@ option
 {
 0
 }
-in
-Date
-.
+for
 {
 1
 }
-(
-)
+formats
 "
 )
 MSG_DEF
