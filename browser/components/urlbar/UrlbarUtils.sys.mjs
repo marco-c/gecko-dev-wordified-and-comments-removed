@@ -10259,6 +10259,11 @@ case
 UrlbarProviderGlobalActions
 "
 :
+case
+"
+UrlbarProviderActionsSearchMode
+"
+:
 return
 "
 action
