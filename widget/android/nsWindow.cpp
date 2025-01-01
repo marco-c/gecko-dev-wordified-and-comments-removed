@@ -12967,7 +12967,7 @@ void
 nsWindow
 :
 :
-DidChangeParent
+DidClearParent
 (
 nsIWidget
 *

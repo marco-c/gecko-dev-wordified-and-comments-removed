@@ -4178,9 +4178,8 @@ i
 ]
 -
 >
-SetParent
+ClearParent
 (
-nullptr
 )
 ;
 }

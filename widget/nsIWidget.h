@@ -1624,11 +1624,8 @@ mOnDestroyCalled
 ;
 }
 void
-SetParent
+ClearParent
 (
-nsIWidget
-*
-aNewParent
 )
 ;
 nsIWidget
@@ -1644,7 +1641,7 @@ mParent
 }
 virtual
 void
-DidChangeParent
+DidClearParent
 (
 nsIWidget
 *

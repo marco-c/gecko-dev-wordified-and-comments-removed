@@ -1650,7 +1650,7 @@ GetAppWindowWidget
 const
 ;
 void
-DidChangeParent
+DidClearParent
 (
 nsIWidget
 *
