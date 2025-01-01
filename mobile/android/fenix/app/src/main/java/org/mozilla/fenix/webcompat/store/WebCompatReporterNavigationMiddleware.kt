@@ -105,7 +105,7 @@ Reporter
 *
 /
 class
-WebCompatNavigationMiddleware
+WebCompatReporterNavigationMiddleware
 :
 Middleware
 <

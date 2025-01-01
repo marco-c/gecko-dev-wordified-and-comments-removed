@@ -211,7 +211,7 @@ webcompat
 .
 store
 .
-WebCompatNavigationMiddleware
+WebCompatReporterAction
 import
 org
 .
@@ -223,7 +223,7 @@ webcompat
 .
 store
 .
-WebCompatReporterAction
+WebCompatReporterNavigationMiddleware
 import
 org
 .
@@ -327,7 +327,7 @@ requireComponents
 .
 appStore
 )
-WebCompatNavigationMiddleware
+WebCompatReporterNavigationMiddleware
 (
 )
 )
