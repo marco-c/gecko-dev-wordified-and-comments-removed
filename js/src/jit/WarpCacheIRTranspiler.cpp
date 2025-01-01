@@ -18542,7 +18542,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitCallStringConcatResult
+emitConcatStringsResult
 (
 StringOperandId
 lhsId

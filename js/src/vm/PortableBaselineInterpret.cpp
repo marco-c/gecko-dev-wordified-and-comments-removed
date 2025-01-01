@@ -3708,7 +3708,7 @@ LoadOperandResult
 ;
 DECLARE_CACHEOP_CASE
 (
-CallStringConcatResult
+ConcatStringsResult
 )
 ;
 DECLARE_CACHEOP_CASE
@@ -21085,7 +21085,7 @@ DISPATCH_CACHEOP
 }
 CACHEOP_CASE
 (
-CallStringConcatResult
+ConcatStringsResult
 )
 {
 StringOperandId
