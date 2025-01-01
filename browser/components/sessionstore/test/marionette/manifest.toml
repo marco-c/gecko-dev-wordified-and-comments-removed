@@ -36,6 +36,13 @@ py
 ]
 [
 "
+test_restore_manually_with_tab_groups
+.
+py
+"
+]
+[
+"
 test_restore_sidebar
 .
 py
