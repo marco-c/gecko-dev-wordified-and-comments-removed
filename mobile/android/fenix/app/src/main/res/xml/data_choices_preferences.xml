@@ -204,7 +204,7 @@ summary
 "
 string
 /
-preferences_automatically_submit_crashes_description
+preferences_automatically_send_crashes_description
 "
 android
 :
@@ -213,7 +213,7 @@ title
 "
 string
 /
-preferences_automatically_submit_crashes_title
+preferences_automatically_send_crashes_title
 "
 /
 >
