@@ -137,6 +137,9 @@ RLBoxLibrary
 "
 rlboxsoundtouch
 "
+use_segue
+=
+False
 )
 DEFINES
 [
