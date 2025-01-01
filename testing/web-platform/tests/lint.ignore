@@ -4020,13 +4020,15 @@ trusted
 -
 types
 /
+support
+/
 DOMWindowTimers
 -
 setTimeout
 -
 setInterval
 .
-html
+js
 SET
 TIMEOUT
 :
