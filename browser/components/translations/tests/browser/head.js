@@ -2589,6 +2589,16 @@ locale
 .
 innerText
 toLanguage
+.
+split
+(
+"
+-
+"
+)
+[
+0
+]
 The
 expected
 language
