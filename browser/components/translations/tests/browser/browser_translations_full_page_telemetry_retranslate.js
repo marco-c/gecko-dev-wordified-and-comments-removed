@@ -310,8 +310,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 request_target
 :

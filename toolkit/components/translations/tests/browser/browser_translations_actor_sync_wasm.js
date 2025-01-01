@@ -112,7 +112,7 @@ oldWasmRecord
 await
 TranslationsParent
 .
-getMaxSupportedVersionRecords
+getMaxVersionRecords
 (
 remoteClients
 .
@@ -131,12 +131,7 @@ bergamot
 translator
 "
 }
-minSupportedMajorVersion
-:
-TranslationsParent
-.
-BERGAMOT_MAJOR_VERSION
-maxSupportedMajorVersion
+majorVersion
 :
 TranslationsParent
 .
@@ -355,7 +350,7 @@ oldWasmRecord
 await
 TranslationsParent
 .
-getMaxSupportedVersionRecords
+getMaxVersionRecords
 (
 remoteClients
 .
@@ -374,12 +369,7 @@ bergamot
 translator
 "
 }
-minSupportedMajorVersion
-:
-TranslationsParent
-.
-BERGAMOT_MAJOR_VERSION
-maxSupportedMajorVersion
+majorVersion
 :
 TranslationsParent
 .

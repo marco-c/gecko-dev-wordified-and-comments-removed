@@ -2482,7 +2482,7 @@ lazy
 .
 TranslationsParent
 .
-getMaxSupportedVersionRecords
+getMaxVersionRecords
 (
 client
 {
@@ -2495,12 +2495,7 @@ MLEngineParent
 .
 WASM_FILENAME
 }
-minSupportedMajorVersion
-:
-MLEngineParent
-.
-WASM_MAJOR_VERSION
-maxSupportedMajorVersion
+majorVersion
 :
 MLEngineParent
 .
