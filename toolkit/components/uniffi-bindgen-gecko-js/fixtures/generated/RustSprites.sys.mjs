@@ -1911,7 +1911,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-195
+196
 /
 /
 sprites
@@ -2084,7 +2084,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-196
+197
 /
 /
 sprites
@@ -2190,7 +2190,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-192
+193
 /
 /
 sprites
@@ -2316,7 +2316,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-193
+194
 /
 /
 sprites
@@ -2448,7 +2448,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-194
+195
 /
 /
 sprites
@@ -3622,8 +3622,8 @@ export
 function
 translate
 (
-position
-direction
+p
+v
 )
 {
 const
@@ -3660,7 +3660,7 @@ FfiConverterTypePoint
 .
 checkType
 (
-position
+p
 )
 }
 catch
@@ -3680,7 +3680,7 @@ e
 addItemDescriptionPart
 (
 "
-position
+p
 "
 )
 ;
@@ -3695,7 +3695,7 @@ FfiConverterTypeVector
 .
 checkType
 (
-direction
+v
 )
 }
 catch
@@ -3715,7 +3715,7 @@ e
 addItemDescriptionPart
 (
 "
-direction
+v
 "
 )
 ;
@@ -3729,7 +3729,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-191
+192
 /
 /
 sprites
@@ -3739,13 +3739,13 @@ FfiConverterTypePoint
 .
 lower
 (
-position
+p
 )
 FfiConverterTypeVector
 .
 lower
 (
-direction
+v
 )
 )
 }
