@@ -9293,10 +9293,8 @@ cx
 )
 ;
 }
+static
 bool
-js
-:
-:
 date_now
 (
 JSContext
