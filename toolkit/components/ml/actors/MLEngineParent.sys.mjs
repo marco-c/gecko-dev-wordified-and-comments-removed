@@ -2482,7 +2482,7 @@ lazy
 .
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 client
 {

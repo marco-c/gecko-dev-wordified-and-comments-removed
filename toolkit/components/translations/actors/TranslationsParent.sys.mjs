@@ -9537,7 +9537,7 @@ WasmRecord
 /
 static
 async
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 remoteSettingsClient
 {
@@ -10213,7 +10213,7 @@ translationModelRecords
 await
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 client
 {
@@ -11405,7 +11405,7 @@ wasmRecords
 await
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 client
 {

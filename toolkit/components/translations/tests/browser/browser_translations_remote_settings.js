@@ -1082,7 +1082,7 @@ retrievedRecords
 await
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 client
 {
