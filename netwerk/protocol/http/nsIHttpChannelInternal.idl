@@ -344,14 +344,11 @@ aMessages
 must_use
 ]
 void
-setCookieHeaders
+setCookie
 (
 in
-Array
-<
 ACString
->
-aCookieHeaders
+aCookieHeader
 )
 ;
 [
