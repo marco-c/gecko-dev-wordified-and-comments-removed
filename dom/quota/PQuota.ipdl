@@ -782,6 +782,13 @@ ContentParentId
 contentParentId
 )
 ;
+async
+SetThumbnailPrivateIdentityId
+(
+uint32_t
+aThumbnailPrivateIdentityId
+)
+;
 }
 ;
 }
