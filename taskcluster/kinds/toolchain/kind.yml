@@ -276,6 +276,10 @@ sysroot
 .
 yml
 -
+uv
+.
+yml
+-
 dist
 -
 toolchains
