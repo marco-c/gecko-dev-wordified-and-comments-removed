@@ -54661,6 +54661,9 @@ sectionKey
 section_position
 :
 sectionPosition
+is_secton_followed
+:
+following
 }
 }
 )
@@ -54671,6 +54674,7 @@ sectionPosition
 dispatch
 sectionKey
 sectionPosition
+following
 ]
 )
 ;

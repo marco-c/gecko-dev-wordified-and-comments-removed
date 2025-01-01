@@ -7034,6 +7034,7 @@ const
 section
 section_position
 event_source
+is_secton_followed
 }
 =
 action
@@ -7095,6 +7096,7 @@ session
 session_id
 section
 section_position
+is_secton_followed
 }
 )
 ;
