@@ -2438,10 +2438,10 @@ void
 pc
 Trap
 *
-trapOut
-BytecodeOffset
+kindOut
+TrapSiteDesc
 *
-bytecodeOut
+trapOut
 )
 const
 ;
@@ -4598,10 +4598,10 @@ void
 pc
 Trap
 *
-trapOut
-BytecodeOffset
+kindOut
+TrapSiteDesc
 *
-bytecode
+trapOut
 )
 const
 {
@@ -4634,8 +4634,8 @@ block
 lookupTrap
 (
 pc
+kindOut
 trapOut
-bytecode
 )
 ;
 }
