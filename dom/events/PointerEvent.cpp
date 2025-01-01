@@ -1,7 +1,11 @@
 #
 include
 "
-PointerEvent
+mozilla
+/
+dom
+/
+MouseEventBinding
 .
 h
 "
@@ -12,7 +16,7 @@ mozilla
 /
 dom
 /
-MouseEventBinding
+PointerEvent
 .
 h
 "
@@ -1978,6 +1982,13 @@ domEvent
 DuplicatePrivateData
 (
 )
+;
+domEvent
+-
+>
+mPresContext
+=
+mPresContext
 ;
 mCoalescedEvents
 .
