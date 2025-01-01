@@ -4698,6 +4698,13 @@ components
 core
 .
 store
+appStore
+=
+context
+.
+components
+.
+appStore
 menuButton
 =
 menuButton
