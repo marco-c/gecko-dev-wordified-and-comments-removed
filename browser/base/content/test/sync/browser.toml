@@ -70,13 +70,6 @@ html
 ]
 [
 "
-browser_signed_out_avatar_variants
-.
-js
-"
-]
-[
-"
 browser_sync
 .
 js
