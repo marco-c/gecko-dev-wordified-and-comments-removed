@@ -1365,7 +1365,15 @@ crate
 TextureUses
 :
 :
-STORAGE_READ
+STORAGE_READ_ONLY
+|
+crate
+:
+:
+TextureUses
+:
+:
+STORAGE_WRITE_ONLY
 |
 crate
 :

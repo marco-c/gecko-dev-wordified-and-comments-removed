@@ -7852,5 +7852,16 @@ discard_encoding
 )
 ;
 }
+self
+.
+counters
+.
+command_encoders
+.
+sub
+(
+1
+)
+;
 }
 }

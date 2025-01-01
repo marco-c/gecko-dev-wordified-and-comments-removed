@@ -810,7 +810,7 @@ Windows
 using
 the
 [
-d3d12
+windows
 ]
 crate
 '
@@ -863,7 +863,7 @@ crates
 /
 metal
 [
-d3d12
+windows
 ]
 :
 https
@@ -876,7 +876,7 @@ io
 /
 crates
 /
-d3d12
+windows
 #
 #
 Secondary

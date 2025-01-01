@@ -979,6 +979,8 @@ self
 .
 encoder
 .
+raw
+.
 transition_buffers
 (
 transition
@@ -1108,6 +1110,8 @@ unsafe
 self
 .
 encoder
+.
+raw
 .
 clear_buffer
 (
@@ -1389,6 +1393,8 @@ range
 self
 .
 encoder
+.
+raw
 .
 as_mut
 (

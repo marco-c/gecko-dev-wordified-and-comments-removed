@@ -102,7 +102,7 @@ DEPTH_STENCIL_READ
 Tu
 :
 :
-STORAGE_READ
+STORAGE_READ_ONLY
 |
 Tu
 :
@@ -126,6 +126,11 @@ usage
 .
 intersects
 (
+Tu
+:
+:
+STORAGE_WRITE_ONLY
+|
 Tu
 :
 :

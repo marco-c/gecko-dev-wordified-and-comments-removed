@@ -304,6 +304,13 @@ version
 .
 6
 "
+features
+=
+[
+"
+serde
+"
+]
 [
 dependencies
 .
