@@ -6626,9 +6626,16 @@ lazy
 STRIP_ON_SHARE_ENABLED
 &
 &
+(
 this
 .
 onLink
+|
+|
+this
+.
+onPlainTextLink
+)
 &
 &
 !
