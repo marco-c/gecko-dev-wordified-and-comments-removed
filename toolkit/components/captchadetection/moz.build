@@ -42,3 +42,15 @@ sys
 mjs
 "
 ]
+EXTRA_JS_MODULES
++
+=
+[
+"
+CaptchaDetectionPingUtils
+.
+sys
+.
+mjs
+"
+]
