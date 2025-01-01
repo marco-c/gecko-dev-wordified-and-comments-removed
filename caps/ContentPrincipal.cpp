@@ -498,10 +498,10 @@ blank
 if
 (
 !
-nsScriptSecurityManager
+StaticPrefs
 :
 :
-GetStrictFileOriginPolicy
+security_fileuri_strict_origin_policy_AtStartup
 (
 )
 &
@@ -1623,10 +1623,10 @@ aURI
 if
 (
 !
-nsScriptSecurityManager
+StaticPrefs
 :
 :
-GetStrictFileOriginPolicy
+security_fileuri_strict_origin_policy_AtStartup
 (
 )
 )
