@@ -2687,11 +2687,9 @@ test
 let
 groupedTab
 =
-BrowserTestUtils
-.
+await
 addTab
 (
-gBrowser
 tabUri
 )
 ;
@@ -5770,9 +5768,8 @@ openNewBrowserWindow
 let
 otherTab
 =
-BrowserTestUtils
-.
-addTab
+await
+addTabTo
 (
 otherWindow
 .
@@ -5806,11 +5803,9 @@ otherTab
 let
 tab
 =
-BrowserTestUtils
-.
+await
 addTab
 (
-gBrowser
 "
 about
 :
