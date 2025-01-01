@@ -231,8 +231,6 @@ newContext
 =
 base
 .
-applicationContext
-.
 createConfigurationContext
 (
 overrideConfiguration
