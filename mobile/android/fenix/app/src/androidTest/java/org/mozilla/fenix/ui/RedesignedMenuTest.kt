@@ -467,7 +467,6 @@ composeTestRule
 verifyHomeRedesignedMainMenuItems
 (
 composeTestRule
-false
 )
 }
 }
@@ -535,7 +534,6 @@ composeTestRule
 verifyPageMainMenuItems
 (
 composeTestRule
-false
 )
 }
 }
@@ -1646,7 +1644,7 @@ composeTestRule
 )
 }
 .
-openNoExtensionsMenuFromRedesignedMainMenu
+openExtensionsMenuFromRedesignedMainMenu
 (
 composeTestRule
 )
@@ -1714,7 +1712,7 @@ openThreeDotMenuFromRedesignedToolbar
 {
 }
 .
-openNoExtensionsMenuFromRedesignedMainMenu
+openExtensionsMenuFromRedesignedMainMenu
 (
 composeTestRule
 )
@@ -1773,15 +1771,9 @@ composeTestRule
 )
 }
 .
-openPageViewExtensionsMenuFromRedesignedMainMenu
+openExtensionsMenuFromRedesignedMainMenu
 (
 composeTestRule
-"
-addonName
-(
-0
-)
-"
 )
 {
 clickManageExtensionsButtonFromRedesignedMainMenu
@@ -1890,7 +1882,7 @@ openThreeDotMenuFromRedesignedToolbar
 {
 }
 .
-openNoExtensionsMenuFromRedesignedMainMenu
+openExtensionsMenuFromRedesignedMainMenu
 (
 composeTestRule
 )
@@ -1949,15 +1941,9 @@ composeTestRule
 )
 }
 .
-openPageViewExtensionsMenuFromRedesignedMainMenu
+openExtensionsMenuFromRedesignedMainMenu
 (
 composeTestRule
-"
-addonName
-(
-0
-)
-"
 )
 {
 clickManageExtensionsButtonFromRedesignedMainMenu
