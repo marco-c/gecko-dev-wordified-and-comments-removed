@@ -148,12 +148,6 @@ cc
 exp
 "
 }
-]
-}
-{
-fields
-:
-[
 {
 fieldName
 :
@@ -161,11 +155,6 @@ fieldName
 cc
 -
 exp
-"
-reason
-:
-"
-autocomplete
 "
 }
 ]

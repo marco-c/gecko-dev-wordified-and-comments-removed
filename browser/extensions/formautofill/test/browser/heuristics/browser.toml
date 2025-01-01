@@ -152,6 +152,13 @@ js
 ]
 [
 "
+browser_duplicate_fields
+.
+js
+"
+]
+[
+"
 browser_formless
 .
 js

@@ -1270,12 +1270,6 @@ reason
 autocomplete
 "
 }
-]
-}
-{
-fields
-:
-[
 {
 fieldName
 :
