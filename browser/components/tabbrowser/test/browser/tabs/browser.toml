@@ -2870,13 +2870,6 @@ tabs
 "
 [
 "
-browser_tab_manager_groups
-.
-js
-"
-]
-[
-"
 browser_tab_manager_keyboard_access
 .
 js
