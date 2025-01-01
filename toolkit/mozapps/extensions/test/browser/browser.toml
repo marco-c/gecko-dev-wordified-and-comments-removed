@@ -746,6 +746,13 @@ js
 ]
 [
 "
+browser_permission_prompt_userScripts
+.
+js
+"
+]
+[
+"
 browser_reinstall
 .
 js
