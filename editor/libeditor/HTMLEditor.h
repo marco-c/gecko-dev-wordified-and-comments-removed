@@ -2643,7 +2643,7 @@ HandleInsertLinefeed
 const
 EditorDOMPoint
 &
-aInsertToBreak
+aPointToBreak
 const
 Element
 &
