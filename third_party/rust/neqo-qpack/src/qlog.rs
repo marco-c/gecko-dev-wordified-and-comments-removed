@@ -51,7 +51,7 @@ u8
 {
 qlog
 .
-add_event_data
+add_event_data_now
 (
 |
 |

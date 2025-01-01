@@ -43,7 +43,7 @@ usize
 {
 qlog
 .
-add_event_data
+add_event_data_now
 (
 |
 |
@@ -146,7 +146,7 @@ usize
 {
 qlog
 .
-add_event_data
+add_event_data_now
 (
 |
 |

@@ -3017,9 +3017,8 @@ get
 k
 )
 .
-map_or
+is_some_and
 (
-false
 |
 v_self
 |

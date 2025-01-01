@@ -1832,9 +1832,8 @@ get
 stream_id
 )
 .
-map_or
+is_some_and
 (
-false
 |
 hb_list
 |
@@ -1864,13 +1863,11 @@ max
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 max_ref
 |
-{
 *
 max_ref
 >
@@ -1882,7 +1879,6 @@ table
 get_acked_inserts_cnt
 (
 )
-}
 )
 }
 )

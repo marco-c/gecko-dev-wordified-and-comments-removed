@@ -1803,14 +1803,6 @@ remove_terminal
 )
 ;
 let
-send
-=
-&
-self
-.
-send
-;
-let
 (
 removed_bidi
 removed_uni
@@ -1822,6 +1814,9 @@ recv
 .
 clear_terminal
 (
+&
+self
+.
 send
 self
 .

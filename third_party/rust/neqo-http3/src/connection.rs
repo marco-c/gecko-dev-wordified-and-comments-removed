@@ -2971,13 +2971,11 @@ session_id
 )
 )
 .
-map_or
+is_some_and
 (
-false
 |
 s
 |
-{
 s
 .
 stream_type
@@ -2989,7 +2987,6 @@ Http3StreamType
 :
 :
 ExtendedConnect
-}
 )
 ;
 if
@@ -7190,9 +7187,8 @@ get
 stream_id
 )
 .
-map_or
+is_some_and
 (
-false
 |
 r
 |

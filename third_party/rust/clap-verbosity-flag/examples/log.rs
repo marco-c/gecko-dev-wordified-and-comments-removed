@@ -28,7 +28,7 @@ command
 flatten
 )
 ]
-verbose
+verbosity
 :
 Verbosity
 }
@@ -61,9 +61,9 @@ filter_level
 (
 cli
 .
-verbose
+verbosity
 .
-log_level_filter
+into
 (
 )
 )

@@ -924,9 +924,8 @@ last_entry
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 e
 |
@@ -1250,9 +1249,8 @@ next
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 &
 start
@@ -3855,9 +3853,8 @@ recv_buf
 (
 )
 .
-map_or
+is_some_and
 (
-false
 RxStreamOrderer
 :
 :

@@ -586,6 +586,7 @@ first_rtt_sample_time
 prev_largest_acked_sent
 pto
 lost_packets
+now
 )
 ;
 self
@@ -620,6 +621,9 @@ largest_acked_pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 -
 >
@@ -632,6 +636,7 @@ cc
 on_ecn_ce_received
 (
 largest_acked_pkt
+now
 )
 }
 pub
@@ -645,6 +650,9 @@ pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 {
 self
@@ -654,6 +662,7 @@ cc
 discard
 (
 pkt
+now
 )
 ;
 }
@@ -664,6 +673,9 @@ discard_in_flight
 &
 mut
 self
+now
+:
+Instant
 )
 {
 self
@@ -672,6 +684,7 @@ cc
 .
 discard_in_flight
 (
+now
 )
 ;
 }
@@ -689,6 +702,9 @@ SentPacket
 rtt
 :
 Duration
+now
+:
+Instant
 )
 {
 self
@@ -724,6 +740,7 @@ cc
 on_packet_sent
 (
 pkt
+now
 )
 ;
 }
