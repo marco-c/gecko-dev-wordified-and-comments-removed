@@ -3441,7 +3441,7 @@ shortcuts
 .
 actions
 "
-false
+true
 ]
 /
 /
@@ -12334,8 +12334,8 @@ scotchBonnet
 enableOverride
 "
 )
-|
-|
+&
+&
 this
 .
 _readPref
