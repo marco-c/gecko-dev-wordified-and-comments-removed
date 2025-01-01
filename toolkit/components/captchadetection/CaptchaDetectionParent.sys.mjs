@@ -843,14 +843,6 @@ add
 1
 )
 ;
-lazy
-.
-CaptchaDetectionPingUtils
-.
-maybeSubmitPing
-(
-)
-;
 this
 .
 #
