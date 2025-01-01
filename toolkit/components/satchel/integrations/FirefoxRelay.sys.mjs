@@ -1344,6 +1344,9 @@ true
 removeOnDismissal
 :
 true
+hideClose
+:
+true
 popupIconURL
 :
 "
@@ -2307,6 +2310,9 @@ autofocus
 :
 true
 removeOnDismissal
+:
+true
+hideClose
 :
 true
 eventCallback
@@ -4164,6 +4170,9 @@ true
 removeOnDismissal
 :
 true
+hideClose
+:
+true
 learnMoreURL
 eventCallback
 :
@@ -4643,6 +4652,9 @@ autofocus
 :
 true
 removeOnDismissal
+:
+true
+hideClose
 :
 true
 learnMoreURL
