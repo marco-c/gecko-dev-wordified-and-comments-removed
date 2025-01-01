@@ -260,6 +260,15 @@ aPresShell
 )
 ;
 static
+void
+InitializeRootDisplayport
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsPresContext
 *
 GetPresContextForContent

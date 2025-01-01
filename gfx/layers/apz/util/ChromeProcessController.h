@@ -440,6 +440,13 @@ DoubleTapToZoomMetrics
 aDoubleTapToZoomMetrics
 )
 ;
+nsIFrame
+*
+GetWidgetFrame
+(
+)
+const
+;
 }
 ;
 }

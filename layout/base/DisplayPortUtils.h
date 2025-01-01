@@ -649,6 +649,15 @@ aPresShell
 )
 ;
 static
+nsRect
+GetDisplayportBase
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 bool
 WillUseEmptyDisplayPortMargins
 (

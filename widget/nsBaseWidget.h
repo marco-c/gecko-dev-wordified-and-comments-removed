@@ -2634,6 +2634,13 @@ bool
 UseAPZ
 (
 )
+const
+;
+bool
+UseAPZForPopup
+(
+)
+const
 ;
 bool
 AllowWebRenderForThisWindow
