@@ -2724,6 +2724,11 @@ get_failures
 (
 self
 tasks
+:
+list
+[
+TestTask
+]
 )
 :
         
@@ -2921,6 +2926,19 @@ task
 in
 tasks
 :
+            
+if
+task
+.
+result
+=
+=
+"
+passed
+"
+:
+                
+continue
             
 try
 :
@@ -4140,6 +4158,19 @@ task
 in
 tasks
 :
+            
+if
+task
+.
+result
+=
+=
+"
+passed
+"
+:
+                
+continue
             
 try
 :
