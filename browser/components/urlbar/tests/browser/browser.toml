@@ -1472,6 +1472,13 @@ js
 ]
 [
 "
+browser_l10nCache
+.
+js
+"
+]
+[
+"
 browser_less_common_selection_manipulations
 .
 js
