@@ -131,6 +131,11 @@ CookieStorage
 .
 h
 "
+"
+ThirdPartyCookieBlockingExceptions
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -193,6 +198,11 @@ cpp
 "
 "
 CookieStorage
+.
+cpp
+"
+"
+ThirdPartyCookieBlockingExceptions
 .
 cpp
 "
