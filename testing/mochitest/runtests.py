@@ -14146,9 +14146,7 @@ self
 .
 profiler_tempdir
 "
-mochitest
--
-profile
+profile_mochitest
 .
 json
 "
@@ -14212,9 +14210,7 @@ MOZ_UPLOAD_DIR
 "
 ]
 "
-mochitest
--
-profile
+profile_mochitest
 .
 json
 "
