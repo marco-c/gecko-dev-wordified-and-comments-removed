@@ -248,12 +248,10 @@ define
 NS_EVENT_IID
 \
 {
-\
 0x71139716
 0x4d91
 0x4dee
 {
-\
 0xba
 0xf9
 0xe3
@@ -262,9 +260,7 @@ NS_EVENT_IID
 0xc1
 0x61
 0x61
-\
 }
-\
 }
 class
 Event
