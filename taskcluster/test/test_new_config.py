@@ -262,7 +262,6 @@ opt
                 
 and
 (
-                    
 "
 spi
 -
@@ -273,7 +272,6 @@ in
 t
 .
 label
-                    
 and
 "
 a11y
@@ -285,17 +283,6 @@ in
 t
 .
 label
-                    
-and
-"
-vt
-"
-not
-in
-t
-.
-label
-                
 )
             
 )
@@ -495,7 +482,6 @@ opt
                 
 and
 (
-                    
 "
 spi
 -
@@ -506,7 +492,6 @@ in
 t
 .
 label
-                    
 and
 "
 a11y
@@ -518,17 +503,6 @@ in
 t
 .
 label
-                    
-and
-"
-vt
-"
-not
-in
-t
-.
-label
-                
 )
             
 )
