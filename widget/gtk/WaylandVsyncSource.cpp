@@ -449,7 +449,7 @@ SetHiddenWindowVSync
 )
 ;
 }
-false
+true
 )
 ;
 }

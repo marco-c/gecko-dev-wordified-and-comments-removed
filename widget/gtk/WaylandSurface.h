@@ -195,10 +195,6 @@ uint32_t
 >
 &
 aFrameCallbackHandler
-bool
-aEmulateFrameCallback
-=
-false
 )
 ;
 void
@@ -863,6 +859,8 @@ const
 WaylandSurfaceLock
 &
 aProofOfLock
+bool
+aRequestEmulated
 )
 ;
 void
@@ -873,6 +871,12 @@ WaylandSurfaceLock
 &
 aProofOfLock
 )
+;
+bool
+IsEmulatedFrameCallbackPending
+(
+)
+const
 ;
 void
 ClearInitialDrawCallbacksLocked
@@ -983,11 +987,6 @@ mSubsurfacePosition
 1
 }
 ;
-bool
-mEmulateFrameCallback
-=
-true
-;
 static
 bool
 sForceEmulateFrameCallback
@@ -1001,6 +1000,11 @@ WaylandBuffer
 3
 >
 mAttachedBuffers
+;
+bool
+mBufferAttached
+=
+false
 ;
 bool
 mCommitToParentSurface
