@@ -467,13 +467,6 @@ js
 ]
 [
 "
-browser_ext_addon_debugging_netmonitor
-.
-js
-"
-]
-[
-"
 browser_ext_autocompletepopup
 .
 js
