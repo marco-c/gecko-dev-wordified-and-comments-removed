@@ -1115,6 +1115,11 @@ browserStore
 components
 .
 store
+crashReporter
+=
+components
+.
+crashReporter
 permissionRequestHandler
 =
 {
