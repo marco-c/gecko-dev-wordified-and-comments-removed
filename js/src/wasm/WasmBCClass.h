@@ -4571,6 +4571,13 @@ bytecodeOffset
 const
 ;
 inline
+TrapSiteDesc
+trapSiteDesc
+(
+)
+const
+;
+inline
 void
 trap
 (
