@@ -441,9 +441,6 @@ Private
 >
 mFetchParentPromise
 ;
-bool
-mIsOn3PCBExceptionList
-;
 }
 ;
 struct

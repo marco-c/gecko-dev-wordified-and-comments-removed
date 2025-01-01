@@ -333,10 +333,6 @@ aUsingStorageAccess
 const
 bool
 &
-aIsOn3PCBExceptionList
-const
-bool
-&
 aMatchName
 const
 nsString
@@ -379,7 +375,6 @@ aPartitionedOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aMatchName
 aName
 aPath
@@ -405,7 +400,6 @@ aPartitionedOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aMatchName
 aName
 aPath
@@ -520,10 +514,6 @@ bool
 &
 aUsingStorageAccess
 const
-bool
-&
-aIsOn3PCBExceptionList
-const
 nsString
 &
 aName
@@ -605,7 +595,6 @@ aOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aName
 aValue
 aSession
@@ -632,7 +621,6 @@ aOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aName
 aValue
 aSession
@@ -744,10 +732,6 @@ bool
 &
 aUsingStorageAccess
 const
-bool
-&
-aIsOn3PCBExceptionList
-const
 nsString
 &
 aName
@@ -813,7 +797,6 @@ aOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aName
 aPath
 aPartitioned
@@ -836,7 +819,6 @@ aOriginAttributes
 aThirdPartyContext
 aPartitionForeign
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 aName
 aPath
 aPartitioned
@@ -970,8 +952,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 bool
 aMatchName
 const
@@ -1134,7 +1114,6 @@ IsPrivateBrowsing
 (
 )
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 )
 )
 {
@@ -1288,8 +1267,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 const
 nsAString
 &
@@ -1374,7 +1351,6 @@ IsPrivateBrowsing
 (
 )
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 )
 )
 {
@@ -1550,8 +1526,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 const
 nsAString
 &
@@ -1883,7 +1857,6 @@ IsPrivateBrowsing
 (
 )
 aUsingStorageAccess
-aIsOn3PCBExceptionList
 )
 )
 {

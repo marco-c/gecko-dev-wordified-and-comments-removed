@@ -462,8 +462,6 @@ bool
 aInPrivateBrowsing
 bool
 aUsingStorageAccess
-bool
-aOn3pcbException
 )
 ;
 static
@@ -480,8 +478,6 @@ bool
 aInPrivateBrowsing
 bool
 aUsingStorageAccess
-bool
-aOn3pcbException
 )
 ;
 static
