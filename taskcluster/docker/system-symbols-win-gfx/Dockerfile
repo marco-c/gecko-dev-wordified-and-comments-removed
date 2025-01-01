@@ -102,11 +102,11 @@ recommends
 -
 y
 \
-7zip
 build
 -
 essential
 curl
+file
 jq
 python3
 -
@@ -176,9 +176,9 @@ crashstats
 tools
 =
 =
-1
+2
 .
-4
+1
 .
 0
 #

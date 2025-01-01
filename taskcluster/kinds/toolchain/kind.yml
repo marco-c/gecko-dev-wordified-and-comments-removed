@@ -144,6 +144,10 @@ tasks
 from
 :
 -
+7zz
+.
+yml
+-
 android
 .
 yml
