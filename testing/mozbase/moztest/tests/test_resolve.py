@@ -1222,6 +1222,23 @@ relpath
 )
 )
     
+def
+to_ancestor_manifest_path
+(
+relpath
+)
+:
+        
+return
+os
+.
+path
+.
+normpath
+(
+relpath
+)
+    
 return
 {
         
@@ -1263,7 +1280,7 @@ toml
         
 (
             
-to_abspath
+to_ancestor_manifest_path
 (
 "
 carrot
@@ -1307,7 +1324,7 @@ js
         
 (
             
-to_abspath
+to_ancestor_manifest_path
 (
 "
 carrot

@@ -5334,18 +5334,6 @@ if
 ancestor_manifest
 :
                     
-ancestor_manifest
-=
-os
-.
-path
-.
-join
-(
-topsrcdir
-ancestor_manifest
-)
-                    
 defaults_manifests
 [
 0
@@ -5365,7 +5353,17 @@ defaults_manifests
 .
 append
 (
+                        
+os
+.
+path
+.
+join
+(
+topsrcdir
 ancestor_manifest
+)
+                    
 )
                 
 for
