@@ -152,11 +152,8 @@ usage
 measurements
 on
 Android
-(
 and
-desktop
-?
-)
+Desktop
 .
 Locally
 Raptor

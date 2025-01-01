@@ -52,11 +52,10 @@ We
 want
 to
 give
-the
-ability
-to
 any
 developer
+the
+ability
 to
 write
 performance
@@ -86,7 +85,7 @@ Historically
 we
 have
 Talos
-that
+which
 provided
 a
 lot
@@ -169,7 +168,7 @@ was
 specific
 to
 the
-browsertime
+Browsertime
 framework
 .
 mozperftest
@@ -301,7 +300,7 @@ loads
 perf
 tests
 and
-read
+reads
 its
 metadata
 that
@@ -511,6 +510,8 @@ becomes
 the
 perf
 team
+'
+s
 problem
 .
 If
@@ -592,8 +593,9 @@ be
 a
 simple
 one
+-
 liner
-browsertime
+Browsertime
 script
 .
 For
@@ -610,7 +612,7 @@ micro
 -
 benchmarks
 into
-xpchsell
+xpcshell
 tests
 and
 if
@@ -636,7 +638,7 @@ jsshell
 runner
 is
 added
-into
+to
 perftest
 it
 will

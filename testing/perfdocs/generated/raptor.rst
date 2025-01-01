@@ -152,11 +152,8 @@ usage
 measurements
 on
 Android
-(
 and
-desktop
-?
-)
+Desktop
 .
 Locally
 Raptor
@@ -185898,11 +185895,11 @@ support
 for
 navigation
 .
-These
-form
+This
+type
 of
-tests
-allow
+test
+allows
 the
 specification
 of
@@ -244089,7 +244086,6 @@ raptor
 -
 tp6
 tests
-though
 )
 .
 .

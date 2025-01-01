@@ -91,7 +91,7 @@ run
 all
 tests
 which
-contains
+contain
 "
 console
 "
@@ -108,7 +108,7 @@ DAMP
 tests
 are
 split
-in
+into
 smaller
 tests
 suites
@@ -168,7 +168,7 @@ only
 run
 tests
 associated
-to
+with
 a
 given
 test
@@ -270,7 +270,7 @@ the
 number
 of
 Firefox
-restart
+restarts
 to
 only
 one
@@ -283,13 +283,13 @@ limit
 the
 number
 of
-test
+tests
 re
 -
 run
 in
 each
-firefox
+Firefox
 start
 to
 one
@@ -349,7 +349,7 @@ new
 tabs
 and
 their
-title
+titles
 includes
 the
 subtest
@@ -898,11 +898,10 @@ smaller
 tests
 focused
 on
-one
-particular
-feature
+specific
+features
 or
-possible
+potential
 slowness
 for
 each
@@ -1318,10 +1317,11 @@ between
 the
 two
 runs
+it
 tells
 if
 the
-results
+result
 is
 trustworthy
 .
@@ -2148,8 +2148,7 @@ identify
 the
 patch
 that
-relates
-to
+caused
 it
 by
 clicking
@@ -2307,7 +2306,7 @@ the
 regression
 on
 Dec
-31th
+31st
 ?
 Now
 click

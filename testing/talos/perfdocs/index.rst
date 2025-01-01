@@ -1772,7 +1772,7 @@ to
 see
 the
 perf
-impact
+impacts
 extension
 have
 -
@@ -1798,7 +1798,7 @@ installed
 and
 enabled
 .
-Some
+Different
 tests
 measure
 different
@@ -1912,7 +1912,7 @@ of
 cycles
 (
 default
-to
+is
 20
 )
 to

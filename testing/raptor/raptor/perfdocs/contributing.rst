@@ -297,7 +297,7 @@ definitions
 are
 expressed
 in
-Yaml
+YAML
 :
 *
 https
@@ -400,10 +400,8 @@ pull
 /
 files
 .
-Don
-'
-t
-forget
+Be
+sure
 to
 revert
 it
@@ -427,7 +425,7 @@ t
 currently
 available
 on
-treeherder
+Treeherder
 (
 bug
 1593252
@@ -465,7 +463,7 @@ Reference
 -
 Browser
 the
-raptor
+Raptor
 revision
 is
 tied

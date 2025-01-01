@@ -172,7 +172,7 @@ Layers
 are
 classes
 responsible
-of
+for
 one
 single
 aspect
@@ -358,7 +358,7 @@ that
 is
 completely
 independent
-from
+of
 other
 layers
 (
@@ -487,7 +487,7 @@ standard
 run
 (
 self
-medatata
+metadata
 )
 :
 called
@@ -540,6 +540,7 @@ email
 with
 the
 results
+.
 "
 "
 "
@@ -717,7 +718,7 @@ in
 each
 of
 those
-category
+categories
 .
 The
 get_layers
@@ -850,8 +851,8 @@ systems
 Browsertime
 uses
 the
-selenium
-webdriver
+Selenium
+Webdriver
 client
 to
 drive

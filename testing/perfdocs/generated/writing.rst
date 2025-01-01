@@ -138,7 +138,7 @@ flavors
 that
 are
 both
-Javascript
+JavaScript
 modules
 those
 are
@@ -287,6 +287,7 @@ Any
 tags
 *
 *
+:
 a
 list
 of
@@ -894,9 +895,9 @@ of
 scripts
 support
 both
-Mobile
+mobile
 and
-Desktop
+desktop
 testing
 within
 the
@@ -1564,6 +1565,8 @@ selenium
 client
 Full
 documentation
+is
+available
 here
 <
 https
@@ -1809,7 +1812,7 @@ supportedBrowsers
 "
 Any
 "
-supportePlatforms
+supportedPlatforms
 :
 "
 Any

@@ -183,10 +183,10 @@ PerfCompare
 Aside
 from
 the
-website
 perf
 .
 compare
+website
 <
 https
 :
@@ -702,6 +702,7 @@ repository
 time
 range
 or
+to
 delete
 or
 search
@@ -878,7 +879,7 @@ JSON
 button
 generates
 a
-json
+JSON
 output
 of
 the
@@ -909,6 +910,7 @@ Low
 Medium
 High
 )
+.
 .
 .
 image
@@ -958,7 +960,8 @@ the
 *
 *
 the
-carrot
+caret
+-
 down
 *
 *
@@ -1073,8 +1076,10 @@ new
 page
 containing
 the
-subtests
 information
+about
+the
+subtests
 for
 the
 selected
@@ -1197,7 +1202,7 @@ image
 :
 .
 /
-resultstablegraphveiwperfherder
+resultstablegraphviewperfherder
 .
 png
 :
@@ -1278,6 +1283,10 @@ in
 with
 valid
 taskcluster
+credentials
+is
+required
+.
 .
 .
 image

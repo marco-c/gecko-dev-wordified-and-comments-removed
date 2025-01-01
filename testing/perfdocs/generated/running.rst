@@ -162,10 +162,9 @@ you
 don
 '
 t
-have
+need
 to
-bother
-with
+adjust
 them
 .
 If
@@ -236,7 +235,8 @@ you
 might
 want
 to
-checkout
+check
+out
 :
 ref
 :
@@ -260,12 +260,12 @@ in
 the
 CI
 for
-android
+Android
 you
 should
 contact
 the
-android
+Android
 infra
 team
 to
@@ -379,7 +379,8 @@ starts
 it
 takes
 around
-15mn
+15
+min
 to
 start
 the

@@ -1620,7 +1620,7 @@ to
 non
 -
 heap
-allocations
+allocation
 functions
 (
 such
@@ -1664,7 +1664,7 @@ are
 easier
 to
 diagnose
-as
+because
 we
 can
 compare
@@ -1771,7 +1771,7 @@ causes
 *
 *
 A
-regressions
+regression
 in
 this
 can
@@ -1791,6 +1791,7 @@ the
 past
 this
 was
+a
 persistent
 problem
 .
@@ -2116,6 +2117,7 @@ or
 into
 blank
 pages
+.
 *
 *
 *
@@ -2294,7 +2296,6 @@ This
 is
 typically
 10
--
 -
 20
 %

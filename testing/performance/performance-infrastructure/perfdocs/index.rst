@@ -67,7 +67,7 @@ all
 run
 on
 bare
-matel
+metal
 or
 real
 hardware
@@ -719,8 +719,8 @@ on
 a
 different
 device
-to
 due
+to
 a
 lack
 of
@@ -937,7 +937,8 @@ there
 s
 time
 to
-setup
+set
+up
 the
 devices
 before
@@ -962,7 +963,7 @@ how
 long
 these
 devices
-would
+will
 be
 needed
 for

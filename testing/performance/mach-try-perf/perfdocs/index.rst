@@ -1291,7 +1291,7 @@ tool
 to
 enhance
 your
-developement
+development
 process
 see
 the
@@ -1849,7 +1849,7 @@ arguments
 to
 a
 try
-tun
+run
 there
 are
 several
@@ -2507,12 +2507,12 @@ only
 option
 to
 select
-awsy
+AWSY
 tests
 is
 to
 specify
-awsy
+AWSY
 as
 the
 test
@@ -5748,7 +5748,7 @@ Feel
 free
 to
 file
-improvments
+improvements
 and
 bugs
 against

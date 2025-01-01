@@ -429,7 +429,7 @@ plain
 *
 *
 Test
-webcodecs
+WebCodecs
 video
 encoding
 performance
@@ -1751,7 +1751,7 @@ live
 site
 test
 for
-cloudflare
+Cloudflare
 blog
 .
 *
@@ -3888,7 +3888,7 @@ win
 Testing
 model
 execution
-concurrenty
+concurrently
 *
 *
 If

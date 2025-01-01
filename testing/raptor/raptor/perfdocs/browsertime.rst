@@ -98,7 +98,7 @@ and
 GeckoView
 -
 based
-vehicles
+browsers
 .
 Source
 code
@@ -184,8 +184,8 @@ Prerequisites
 -
 A
 local
-mozilla
-repository
+Mozilla
+Repository
 clone
 with
 a
@@ -638,7 +638,7 @@ Android
 To
 run
 on
-android
+Android
 the
 device
 needs
@@ -1353,7 +1353,9 @@ installed
 the
 most
 up
+-
 to
+-
 date
 application
 version
@@ -1934,7 +1936,7 @@ jobs
 on
 new
 extension
-xpi
+XPI
 files
 not
 part
@@ -2001,7 +2003,7 @@ patches
 will
 require
 the
-xpi
+XPI
 file
 to
 be

@@ -874,7 +874,7 @@ the
 test_name
 ]
 section
-specity
+specify
 the
 test
 parameters
