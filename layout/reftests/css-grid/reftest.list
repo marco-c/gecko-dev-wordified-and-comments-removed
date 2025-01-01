@@ -1684,6 +1684,10 @@ size
 ref
 .
 html
+#
+Bug
+1938461
+fails
 =
 =
 grid
@@ -3629,6 +3633,10 @@ stretch
 ref
 .
 html
+#
+Bug
+1938461
+fails
 =
 =
 grid
