@@ -857,6 +857,13 @@ http2
 ]
 [
 "
+test_group_paint_skip
+.
+html
+"
+]
+[
+"
 test_group_pointerevents
 .
 html
