@@ -2170,7 +2170,7 @@ in
 ACString
 aOriginSuffix
 in
-ACString
+AString
 scope
 in
 AString
@@ -2205,7 +2205,7 @@ in
 ACString
 aOriginSuffix
 in
-ACString
+AString
 scope
 in
 AString

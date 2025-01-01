@@ -424,10 +424,7 @@ swm
 SendNotificationClickEvent
 (
 originSuffix
-NS_ConvertUTF16toUTF8
-(
 mScope
-)
 mId
 mOptions
 .
@@ -533,10 +530,7 @@ swm
 SendNotificationCloseEvent
 (
 originSuffix
-NS_ConvertUTF16toUTF8
-(
 mScope
-)
 mId
 mOptions
 .

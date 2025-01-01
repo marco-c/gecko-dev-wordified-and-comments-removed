@@ -5535,7 +5535,7 @@ nsACString
 &
 aOriginSuffix
 const
-nsACString
+nsAString
 &
 aScope
 const
@@ -5597,7 +5597,10 @@ info
 GetActiveWorkerInfoForScope
 (
 attrs
+NS_ConvertUTF16toUTF8
+(
 aScope
+)
 )
 ;
 if
@@ -5636,10 +5639,7 @@ aBody
 aTag
 aIcon
 aData
-NS_ConvertUTF8toUTF16
-(
 aScope
-)
 )
 ;
 }
@@ -5654,7 +5654,7 @@ nsACString
 &
 aOriginSuffix
 const
-nsACString
+nsAString
 &
 aScope
 const
@@ -5722,7 +5722,7 @@ nsACString
 &
 aOriginSuffix
 const
-nsACString
+nsAString
 &
 aScope
 const
