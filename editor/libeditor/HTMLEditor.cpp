@@ -40290,7 +40290,7 @@ No
 {
 Result
 <
-CreateElementResult
+CreateLineBreakResult
 nsresult
 >
 insertPaddingBRResultOrError
