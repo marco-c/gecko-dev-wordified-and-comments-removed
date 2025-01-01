@@ -396,6 +396,9 @@ class
 CanonicalQuotaObject
 ;
 class
+ClearDataOp
+;
+class
 ClearRequestBase
 ;
 class
@@ -452,6 +455,10 @@ BackgroundThreadObject
 friend
 class
 CanonicalQuotaObject
+;
+friend
+class
+ClearDataOp
 ;
 friend
 class
