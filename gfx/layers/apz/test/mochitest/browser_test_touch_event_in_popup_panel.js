@@ -170,6 +170,16 @@ enabled
 "
 true
 ]
+[
+"
+apz
+.
+popups_without_remote
+.
+enabled
+"
+true
+]
 ]
 }
 )
