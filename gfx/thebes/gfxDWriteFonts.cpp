@@ -659,10 +659,10 @@ ForceGlobalReflow
 gfxPlatform
 :
 :
-GlobalReflowFlags
+NeedsReframe
 :
 :
-None
+No
 )
 ;
 }
