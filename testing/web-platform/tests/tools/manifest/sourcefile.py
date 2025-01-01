@@ -7498,6 +7498,12 @@ url_base
 self
 .
 rel_url
+                    
+testdriver
+=
+self
+.
+has_testdriver
                 
 )
 ]
@@ -7597,6 +7603,12 @@ page_ranges
 self
 .
 page_ranges
+                    
+testdriver
+=
+self
+.
+has_testdriver
                 
 )
 ]
@@ -8136,6 +8148,12 @@ fuzzy
 self
 .
 fuzzy
+                    
+testdriver
+=
+self
+.
+has_testdriver
                 
 )
 )

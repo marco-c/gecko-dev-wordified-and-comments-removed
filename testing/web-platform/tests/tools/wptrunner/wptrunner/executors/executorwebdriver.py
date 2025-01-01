@@ -6543,12 +6543,17 @@ class
 WebDriverRefTestExecutor
 (
 RefTestExecutor
+TestDriverExecutorMixin
 )
 :
     
 protocol_cls
 =
 WebDriverProtocol
+    
+supports_testdriver
+=
+True
     
 def
 __init__
@@ -6698,8 +6703,6 @@ as
 f
 :
             
-self
-.
 wait_script
 =
 f
@@ -6719,6 +6722,14 @@ reftest
 wait
 "
 }
+        
+TestDriverExecutorMixin
+.
+__init__
+(
+self
+wait_script
+)
     
 def
 reset
@@ -7051,27 +7062,11 @@ timeout
         
 self
 .
-protocol
-.
-base
-.
-load
+run_testdriver
 (
+protocol
 url
-)
-        
-self
-.
-protocol
-.
-base
-.
-execute_script
-(
-self
-.
-wait_script
-True
+timeout
 )
         
 screenshot
@@ -7361,26 +7356,13 @@ timeout
 )
 :
         
-protocol
-.
-webdriver
-.
-url
-=
-url
-        
-protocol
-.
-base
-.
-execute_script
-(
 self
 .
-wait_script
-asynchronous
-=
-True
+run_testdriver
+(
+protocol
+url
+timeout
 )
         
 pdf
@@ -7461,12 +7443,17 @@ class
 WebDriverCrashtestExecutor
 (
 CrashtestExecutor
+TestDriverExecutorMixin
 )
 :
     
 protocol_cls
 =
 WebDriverProtocol
+    
+supports_testdriver
+=
+True
     
 def
 __init__
@@ -7576,8 +7563,6 @@ as
 f
 :
             
-self
-.
 wait_script
 =
 f
@@ -7597,6 +7582,14 @@ test
 wait
 "
 }
+        
+TestDriverExecutorMixin
+.
+__init__
+(
+self
+wait_script
+)
     
 def
 do_test
@@ -7698,27 +7691,13 @@ timeout
 )
 :
         
-protocol
-.
-base
-.
-load
-(
-url
-)
-        
-protocol
-.
-base
-.
-execute_script
-(
 self
 .
-wait_script
-asynchronous
-=
-True
+run_testdriver
+(
+protocol
+url
+timeout
 )
         
 result
