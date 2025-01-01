@@ -110,6 +110,7 @@ js
 import
 {
 GPUTest
+MaxLimitsTestMixin
 TextureTestMixin
 }
 from
@@ -157,7 +158,10 @@ DrawTest
 extends
 TextureTestMixin
 (
+MaxLimitsTestMixin
+(
 GPUTest
+)
 )
 {
 checkTriangleDraw

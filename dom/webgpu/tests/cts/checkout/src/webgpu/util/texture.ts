@@ -38,7 +38,7 @@ js
 ;
 import
 {
-GPUTest
+GPUTestBase
 }
 from
 '
@@ -1926,7 +1926,7 @@ copyBufferToTextureViaRender
 (
 t
 :
-GPUTest
+GPUTestBase
 encoder
 :
 GPUCommandEncoder
@@ -2697,7 +2697,7 @@ createTextureFromTexelViews
 (
 t
 :
-GPUTest
+GPUTestBase
 texelViews
 :
 TexelView
