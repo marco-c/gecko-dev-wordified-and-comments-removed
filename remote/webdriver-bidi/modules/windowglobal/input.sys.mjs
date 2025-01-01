@@ -1251,6 +1251,7 @@ e
 ;
 }
 }
+async
 _finalizeAction
 (
 )
@@ -1308,7 +1309,7 @@ content
 was
 updated
 .
-return
+await
 lazy
 .
 AnimationFramePromise
