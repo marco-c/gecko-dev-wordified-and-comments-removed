@@ -7,7 +7,7 @@ binary
 -
 reader
 -
-opcnt
+stats
 .
 h
 "
