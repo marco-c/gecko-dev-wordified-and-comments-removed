@@ -675,5 +675,12 @@ dst
 stride
 ;
 }
+mSurface
+-
+>
+Unlock
+(
+)
+;
 }
 }
