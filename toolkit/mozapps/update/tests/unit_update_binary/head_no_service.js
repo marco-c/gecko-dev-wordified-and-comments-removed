@@ -11,3 +11,13 @@ gIsServiceTest
 =
 false
 ;
+LOG_FUNCTION
+(
+gIsServiceTest
+=
+?
+{
+gIsServiceTest
+}
+)
+;

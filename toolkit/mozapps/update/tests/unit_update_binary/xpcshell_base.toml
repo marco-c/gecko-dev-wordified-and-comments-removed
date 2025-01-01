@@ -5,11 +5,12 @@ tags
 =
 "
 appupdate
+base
 "
 head
 =
 "
-head_update
+head_no_service
 .
 js
 "

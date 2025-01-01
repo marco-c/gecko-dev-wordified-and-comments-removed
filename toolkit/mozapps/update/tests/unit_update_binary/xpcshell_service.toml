@@ -78,15 +78,21 @@ for
 MSIX
 builds
 ]
+dupe
+-
+manifest
+=
+true
 tags
 =
 "
 appupdate
+service
 "
 head
 =
 "
-head_update
+head_service
 .
 js
 "
@@ -173,7 +179,7 @@ Service
 "
 [
 "
-invalidArgInstallDirPathTooLongFailureSvc
+invalidArgInstallDirPathTooLongFailure
 .
 js
 "
@@ -192,7 +198,7 @@ Service
 "
 [
 "
-invalidArgInstallDirPathTraversalFailureSvc
+invalidArgInstallDirPathTraversalFailure
 .
 js
 "
@@ -211,7 +217,7 @@ Service
 "
 [
 "
-invalidArgInstallWorkingDirPathNotSameFailureSvc_win
+invalidArgInstallWorkingDirPathNotSameFailure_win
 .
 js
 "
@@ -230,7 +236,7 @@ Service
 "
 [
 "
-invalidArgPatchDirPathSuffixFailureSvc
+invalidArgPatchDirPathSuffixFailure
 .
 js
 "
@@ -249,7 +255,7 @@ Service
 "
 [
 "
-invalidArgPatchDirPathTraversalFailureSvc
+invalidArgPatchDirPathTraversalFailure
 .
 js
 "
@@ -268,7 +274,7 @@ Service
 "
 [
 "
-invalidArgStageDirNotInInstallDirFailureSvc_win
+invalidArgStageDirNotInInstallDirFailure_win
 .
 js
 "
@@ -287,7 +293,7 @@ Service
 "
 [
 "
-invalidArgWorkingDirPathLocalUNCFailureSvc_win
+invalidArgWorkingDirPathLocalUNCFailure_win
 .
 js
 "
@@ -306,7 +312,7 @@ Service
 "
 [
 "
-invalidArgWorkingDirPathRelativeFailureSvc
+invalidArgWorkingDirPathRelativeFailure
 .
 js
 "
@@ -325,7 +331,7 @@ Service
 "
 [
 "
-marAppApplyDirLockedStageFailureSvc_win
+marAppApplyDirLockedStageFailure_win
 .
 js
 "
@@ -344,7 +350,7 @@ Service
 "
 [
 "
-marAppApplyUpdateAppBinInUseStageSuccessSvc_win
+marAppApplyUpdateAppBinInUseStageSuccess_win
 .
 js
 "
@@ -383,7 +389,7 @@ Bug
 1651090
 [
 "
-marAppApplyUpdateStageSuccessSvc
+marAppApplyUpdateStageSuccess
 .
 js
 "
@@ -402,7 +408,7 @@ Service
 "
 [
 "
-marAppApplyUpdateSuccessSvc
+marAppApplyUpdateSuccess
 .
 js
 "
@@ -421,7 +427,7 @@ Service
 "
 [
 "
-marAppInUseBackgroundTaskFailureSvc_win
+marAppInUseBackgroundTaskFailure_win
 .
 js
 "
@@ -440,7 +446,7 @@ Service
 "
 [
 "
-marAppInUseStageFailureCompleteSvc_win
+marAppInUseStageFailureComplete_win
 .
 js
 "
@@ -459,7 +465,7 @@ Service
 "
 [
 "
-marAppInUseSuccessCompleteSvc
+marAppInUseSuccessComplete
 .
 js
 "
@@ -478,7 +484,7 @@ Service
 "
 [
 "
-marCallbackAppStageSuccessCompleteSvc_win
+marCallbackAppStageSuccessComplete_win
 .
 js
 "
@@ -497,7 +503,7 @@ Service
 "
 [
 "
-marCallbackAppStageSuccessPartialSvc_win
+marCallbackAppStageSuccessPartial_win
 .
 js
 "
@@ -516,7 +522,7 @@ Service
 "
 [
 "
-marCallbackAppSuccessCompleteSvc_win
+marCallbackAppSuccessComplete_win
 .
 js
 "
@@ -535,7 +541,7 @@ Service
 "
 [
 "
-marCallbackAppSuccessPartialSvc_win
+marCallbackAppSuccessPartial_win
 .
 js
 "
@@ -554,7 +560,7 @@ Service
 "
 [
 "
-marFailurePartialSvc
+marFailurePartial
 .
 js
 "
@@ -573,7 +579,7 @@ Service
 "
 [
 "
-marFileInUseStageFailureCompleteSvc_win
+marFileInUseStageFailureComplete_win
 .
 js
 "
@@ -592,7 +598,7 @@ Service
 "
 [
 "
-marFileInUseStageFailurePartialSvc_win
+marFileInUseStageFailurePartial_win
 .
 js
 "
@@ -611,7 +617,7 @@ Service
 "
 [
 "
-marFileInUseSuccessCompleteSvc_win
+marFileInUseSuccessComplete_win
 .
 js
 "
@@ -630,7 +636,7 @@ Service
 "
 [
 "
-marFileInUseSuccessPartialSvc_win
+marFileInUseSuccessPartial_win
 .
 js
 "
@@ -649,7 +655,7 @@ Service
 "
 [
 "
-marFileLockedFailureCompleteSvc_win
+marFileLockedFailureComplete_win
 .
 js
 "
@@ -668,7 +674,7 @@ Service
 "
 [
 "
-marFileLockedFailurePartialSvc_win
+marFileLockedFailurePartial_win
 .
 js
 "
@@ -687,7 +693,7 @@ Service
 "
 [
 "
-marFileLockedStageFailureCompleteSvc_win
+marFileLockedStageFailureComplete_win
 .
 js
 "
@@ -706,7 +712,7 @@ Service
 "
 [
 "
-marFileLockedStageFailurePartialSvc_win
+marFileLockedStageFailurePartial_win
 .
 js
 "
@@ -725,7 +731,7 @@ Service
 "
 [
 "
-marRMRFDirFileInUseStageFailureCompleteSvc_win
+marRMRFDirFileInUseStageFailureComplete_win
 .
 js
 "
@@ -744,7 +750,7 @@ Service
 "
 [
 "
-marRMRFDirFileInUseStageFailurePartialSvc_win
+marRMRFDirFileInUseStageFailurePartial_win
 .
 js
 "
@@ -763,7 +769,7 @@ Service
 "
 [
 "
-marRMRFDirFileInUseSuccessCompleteSvc_win
+marRMRFDirFileInUseSuccessComplete_win
 .
 js
 "
@@ -782,7 +788,7 @@ Service
 "
 [
 "
-marRMRFDirFileInUseSuccessPartialSvc_win
+marRMRFDirFileInUseSuccessPartial_win
 .
 js
 "
@@ -801,7 +807,7 @@ Service
 "
 [
 "
-marStageFailurePartialSvc
+marStageFailurePartial
 .
 js
 "
@@ -820,7 +826,7 @@ Service
 "
 [
 "
-marStageSuccessCompleteSvc
+marStageSuccessComplete
 .
 js
 "
@@ -839,7 +845,7 @@ Service
 "
 [
 "
-marStageSuccessPartialSvc
+marStageSuccessPartial
 .
 js
 "
@@ -858,7 +864,7 @@ Service
 "
 [
 "
-marSuccessCompleteSvc
+marSuccessComplete
 .
 js
 "
@@ -877,7 +883,7 @@ Service
 "
 [
 "
-marSuccessPartialSvc
+marSuccessPartial
 .
 js
 "

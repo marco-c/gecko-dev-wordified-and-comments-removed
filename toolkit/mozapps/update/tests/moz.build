@@ -91,9 +91,9 @@ xpcshell
 toml
 "
 "
-unit_base_updater
+unit_update_binary
 /
-xpcshell
+xpcshell_base
 .
 toml
 "
@@ -111,9 +111,9 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 "
-unit_service_updater
+unit_update_binary
 /
-xpcshell
+xpcshell_service
 .
 toml
 "
