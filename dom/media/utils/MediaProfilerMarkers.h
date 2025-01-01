@@ -1448,7 +1448,7 @@ String
 }
 {
 "
-type
+contentType
 "
 MS
 :
@@ -1458,6 +1458,7 @@ InputType
 :
 String
 "
+Content
 Type
 "
 MS
