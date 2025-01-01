@@ -379,7 +379,7 @@ notification_emails
 &
 security_ui_protections_show_emails
 -
-pbz
+emz
 mozilla
 .
 com
@@ -726,7 +726,7 @@ la
 notification_emails
 :
 -
-pbz
+emz
 mozilla
 .
 com
@@ -1063,7 +1063,7 @@ notification_emails
 &
 security_ui_protections_click_emails
 -
-pbz
+emz
 mozilla
 .
 com

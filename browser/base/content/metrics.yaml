@@ -200,7 +200,7 @@ mozilla
 .
 com
 -
-pbz
+emz
 mozilla
 .
 com
@@ -313,7 +313,7 @@ mozilla
 .
 com
 -
-pbz
+emz
 mozilla
 .
 com
@@ -490,7 +490,7 @@ mozilla
 .
 com
 -
-pbz
+emz
 mozilla
 .
 com
@@ -602,7 +602,7 @@ mozilla
 .
 com
 -
-pbz
+emz
 mozilla
 .
 com
@@ -786,7 +786,7 @@ notification_emails
 &
 security_ui_protectionspopup_open_emails
 -
-pbz
+emz
 mozilla
 .
 com
@@ -1114,7 +1114,7 @@ notification_emails
 &
 security_ui_protectionspopup_click_emails
 -
-pbz
+emz
 mozilla
 .
 com
