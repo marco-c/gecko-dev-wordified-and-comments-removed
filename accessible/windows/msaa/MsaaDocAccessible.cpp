@@ -54,13 +54,6 @@ h
 #
 include
 "
-Statistics
-.
-h
-"
-#
-include
-"
 sdnDocAccessible
 .
 h
@@ -290,13 +283,6 @@ LocalAcc
 )
 )
 {
-statistics
-:
-:
-ISimpleDOMUsed
-(
-)
-;
 *
 aInstancePtr
 =

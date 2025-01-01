@@ -180,13 +180,6 @@ h
 #
 include
 "
-Statistics
-.
-h
-"
-#
-include
-"
 ARIAMap
 .
 h
@@ -2700,13 +2693,6 @@ IsTextLeaf
 )
 )
 {
-statistics
-:
-:
-ISimpleDOMUsed
-(
-)
-;
 *
 ppv
 =

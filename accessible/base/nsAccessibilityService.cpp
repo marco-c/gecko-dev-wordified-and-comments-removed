@@ -245,13 +245,6 @@ h
 #
 include
 "
-Statistics
-.
-h
-"
-#
-include
-"
 TextLeafAccessible
 .
 h
@@ -8669,13 +8662,6 @@ gCacheDomains
 GetCacheDomainsForKnownClients
 (
 aCacheDomains
-)
-;
-statistics
-:
-:
-A11yInitialized
-(
 )
 ;
 static
