@@ -8651,6 +8651,15 @@ HTMLBRElement
 >
 mPaddingBRElementForEmptyEditor
 ;
+RefPtr
+<
+dom
+:
+:
+Text
+>
+mLastCollapsibleWhiteSpaceAppendedTextNode
+;
 bool
 mCRInParagraphCreatesParagraph
 ;
