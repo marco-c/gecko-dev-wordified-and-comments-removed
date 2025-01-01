@@ -1579,11 +1579,6 @@ if
 FeatureFlags
 .
 webCompatReporter
-&
-&
-settings
-.
-isTelemetryEnabled
 )
 {
 navController
