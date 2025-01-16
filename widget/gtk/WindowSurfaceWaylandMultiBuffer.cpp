@@ -1042,7 +1042,7 @@ this
 waylandSurface
 -
 >
-AddInitialDrawCallbackLocked
+AddReadyToDrawCallbackLocked
 (
 lock
 [
