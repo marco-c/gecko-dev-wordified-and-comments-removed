@@ -1,6 +1,5 @@
 import
 {
-EventEmitter
 FakePrefs
 FakensIPrefService
 GlobalOverrider
@@ -9,9 +8,7 @@ FakeLogger
 }
 from
 "
-newtab
-/
-test
+tests
 /
 unit
 /
@@ -2274,7 +2271,6 @@ return
 ;
 }
 }
-EventEmitter
 ShellService
 :
 {

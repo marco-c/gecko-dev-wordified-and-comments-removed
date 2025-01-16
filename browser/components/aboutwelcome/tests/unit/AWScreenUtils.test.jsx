@@ -19,9 +19,9 @@ GlobalOverrider
 }
 from
 "
-newtab
+asrouter
 /
-test
+tests
 /
 unit
 /

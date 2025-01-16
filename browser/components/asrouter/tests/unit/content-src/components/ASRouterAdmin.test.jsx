@@ -37,7 +37,7 @@ GlobalOverrider
 }
 from
 "
-test
+tests
 /
 unit
 /

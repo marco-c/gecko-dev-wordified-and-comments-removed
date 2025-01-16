@@ -1,7 +1,5 @@
 import
 {
-EventEmitter
-FakePrefs
 FakensIPrefService
 GlobalOverrider
 FakeConsoleAPI
@@ -9,9 +7,9 @@ FakeLogger
 }
 from
 "
-newtab
+asrouter
 /
-test
+tests
 /
 unit
 /
@@ -742,9 +740,6 @@ isSuccessCode
 >
 true
 }
-ConsoleAPI
-:
-FakeConsoleAPI
 ContentSearchUIController
 :
 function
@@ -1580,9 +1575,6 @@ removeListener
 }
 }
 }
-Preferences
-:
-FakePrefs
 PrivateBrowsingUtils
 :
 {
@@ -2198,7 +2190,6 @@ return
 ;
 }
 }
-EventEmitter
 ShellService
 :
 {
