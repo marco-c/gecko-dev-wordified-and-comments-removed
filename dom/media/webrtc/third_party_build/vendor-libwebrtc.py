@@ -2875,6 +2875,7 @@ subprocess
 .
 run
 (
+        
 [
 "
 git
@@ -2892,6 +2893,10 @@ commit
 cwd
 =
 path
+check
+=
+False
+    
 )
     
 if

@@ -60,6 +60,10 @@ True
 env
 =
 env
+        
+check
+=
+False
     
 )
     
@@ -190,6 +194,10 @@ True
 cwd
 =
 working_dir
+        
+check
+=
+False
     
 )
     
@@ -312,6 +320,10 @@ capture_output
 text
 =
 True
+        
+check
+=
+False
     
 )
     
