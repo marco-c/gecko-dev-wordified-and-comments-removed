@@ -2277,6 +2277,14 @@ mShouldResistFingerprinting
 true
 ;
 }
+mPartitionKey
+=
+aData
+.
+partitionKey
+(
+)
+;
 PermissionComparator
 comparator
 ;
