@@ -3802,6 +3802,9 @@ disabled
 addonName
 "
 )
+waitUntilSnackbarGone
+(
+)
 }
 .
 goBack
