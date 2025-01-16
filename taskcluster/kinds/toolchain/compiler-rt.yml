@@ -1549,6 +1549,8 @@ build
 -
 clang
 /
+win64
+-
 compiler
 -
 rt
@@ -1577,6 +1579,8 @@ build
 -
 clang
 /
+win64
+-
 compiler
 -
 rt
