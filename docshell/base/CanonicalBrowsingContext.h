@@ -793,6 +793,7 @@ nsID
 aChangeID
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 Maybe
 <
 int32_t
@@ -929,6 +930,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GoBack
 (
@@ -945,6 +947,7 @@ bool
 aUserActivation
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GoForward
 (
@@ -961,6 +964,7 @@ bool
 aUserActivation
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GoToIndex
 (
@@ -977,6 +981,7 @@ bool
 aUserActivation
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Reload
 (
@@ -1036,6 +1041,7 @@ nsresult
 false
 >
 ;
+MOZ_CAN_RUN_SCRIPT
 RefPtr
 <
 RemotenessPromise
@@ -1506,6 +1512,7 @@ RemovePageAwakeRequest
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CloneDocumentTreeInto
 (
@@ -1617,6 +1624,11 @@ GetBounceTrackingState
 (
 )
 ;
+bool
+CanOpenModalPicker
+(
+)
+;
 protected
 :
 void
@@ -1724,16 +1736,19 @@ PendingRemotenessChange
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessLaunched
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessReady
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeFinish
 (
@@ -1744,6 +1759,7 @@ Clear
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FinishTopContent
 (
