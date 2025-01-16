@@ -1433,8 +1433,6 @@ By
 ID
 "
 columns
--
-inner
 "
 )
         
@@ -1445,17 +1443,19 @@ SelectionManager
 el
 )
         
-original_content
-=
-sel
-.
-content
-        
 content_to_add
 =
 "
 !
 "
+        
+target_content
+=
+sel
+.
+content
++
+content_to_add
         
 before_image_1
 =
@@ -1582,30 +1582,12 @@ perform
         
 self
 .
-assertIn
+assertEqual
 (
-            
+target_content
 sel
 .
 content
-            
-[
-                
-original_content
-+
-content_to_add
-                
-original_content
-+
-"
-\
-n
-"
-+
-content_to_add
-            
-]
-        
 )
     
 def
