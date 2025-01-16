@@ -997,6 +997,7 @@ PartialEq
 ToCss
 )
 ]
+pub
 enum
 Unpacked
 <
@@ -2160,6 +2161,7 @@ percentage
 [
 inline
 ]
+pub
 fn
 unpack
 <
