@@ -145,7 +145,7 @@ ui
 .
 SettingsSearchTest
 #
-verifyShowSearchSuggestionsToggleTest
+verifySearchSettingsMenuItemsTest
 -
 class
 org
