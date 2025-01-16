@@ -2065,7 +2065,7 @@ modelId
 )
 {
 const
-defaultModel
+defaultModelEntry
 =
 lazy
 .
@@ -2079,7 +2079,7 @@ taskName
 ;
 if
 (
-defaultModel
+defaultModelEntry
 )
 {
 lazy
@@ -2092,7 +2092,9 @@ Using
 default
 model
 {
-defaultModel
+defaultModelEntry
+.
+modelId
 }
 for
 task
@@ -2106,9 +2108,10 @@ taskName
 ;
 mergedOptions
 .
-modelId
-=
-defaultModel
+updateOptions
+(
+defaultModelEntry
+)
 ;
 }
 else
