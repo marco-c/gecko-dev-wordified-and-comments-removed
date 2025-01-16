@@ -435,12 +435,6 @@ _
 THENABLE_USE_STANDARD_PROTO
 ThenableUseStandardProto
 )
-\
-_
-(
-LEGACY_LANG_SUBTAG
-LegacyLangSubtag
-)
 #
 define
 ENUM_DEF
