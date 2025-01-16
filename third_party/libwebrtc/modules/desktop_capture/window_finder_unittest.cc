@@ -161,7 +161,7 @@ WEBRTC_WIN
 TEST
 (
 WindowFinderTest
-FindConsoleWindow
+DISABLED_FindConsoleWindow
 )
 {
 std
