@@ -12290,6 +12290,11 @@ channel_unittest
 cc
 "
 "
+dtls_srtp_transport_integrationtest
+.
+cc
+"
+"
 dtls_srtp_transport_unittest
 .
 cc
