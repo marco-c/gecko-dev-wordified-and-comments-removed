@@ -154,6 +154,15 @@ string_builder
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+time_utils
+.
+h
+"
 namespace
 cricket
 {
