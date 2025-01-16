@@ -1514,6 +1514,10 @@ numColumns
 =
 1
 ;
+aForceAuto
+=
+true
+;
 }
 }
 nscoord
