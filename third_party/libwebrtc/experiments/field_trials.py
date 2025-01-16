@@ -832,26 +832,6 @@ FieldTrial
 '
 WebRTC
 -
-SetCodecPreferences
--
-ReceiveOnlyFilterInsteadOfThrow
-'
-               
-40644399
-               
-date
-(
-2024
-12
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 SrtpRemoveReceiveStream
 '
                
