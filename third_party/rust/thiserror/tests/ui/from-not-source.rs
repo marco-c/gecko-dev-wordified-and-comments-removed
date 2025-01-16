@@ -8,8 +8,8 @@ Error
 [
 derive
 (
-Error
 Debug
+Error
 )
 ]
 pub

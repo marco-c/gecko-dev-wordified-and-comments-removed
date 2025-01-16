@@ -462,7 +462,6 @@ Iterator
 <
 Item
 =
-&
 T
 >
 +
@@ -532,6 +531,10 @@ as_ref
 )
 .
 unwrap
+(
+)
+.
+clone
 (
 )
 }

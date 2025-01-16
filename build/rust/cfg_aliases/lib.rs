@@ -1,6 +1,6 @@
 pub
 use
-thiserror
+cfg_aliases
 :
 :
 *

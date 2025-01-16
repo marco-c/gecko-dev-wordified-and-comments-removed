@@ -29,7 +29,6 @@ error
 :
 :
 {
-DiagnosticAttributeNotSupportedPosition
 Error
 ExpectedToken
 }
@@ -16602,7 +16601,7 @@ let
 ensure_no_diag_attrs
 =
 |
-on_what
+on_what_plural
 filters
 :
 DiagnosticFilterMap
@@ -16638,7 +16637,7 @@ Error
 :
 DiagnosticAttributeNotSupported
 {
-on_what
+on_what_plural
 spans
 :
 filters
@@ -17371,10 +17370,9 @@ _
 {
 ensure_no_diag_attrs
 (
-DiagnosticAttributeNotSupportedPosition
-:
-:
-SemicolonInModulePosition
+"
+semicolons
+"
 diagnostic_filters
 )
 ?
@@ -17440,10 +17438,6 @@ ensure_no_diag_attrs
 struct
 s
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?
@@ -17514,10 +17508,6 @@ ensure_no_diag_attrs
 alias
 es
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?
@@ -17620,10 +17610,6 @@ ensure_no_diag_attrs
 const
 s
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?
@@ -17770,10 +17756,6 @@ ensure_no_diag_attrs
 override
 s
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?
@@ -17928,10 +17910,6 @@ ensure_no_diag_attrs
 var
 s
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?
@@ -18137,10 +18115,6 @@ ensure_no_diag_attrs
 const_assert
 s
 "
-.
-into
-(
-)
 diagnostic_filters
 )
 ?

@@ -165,7 +165,6 @@ VendorId
 5140
 &
 &
-!
 Dxgi
 :
 :
@@ -784,6 +783,16 @@ Dxgi
 DXGI_CREATE_FACTORY_DEBUG
 ;
 }
+super
+:
+:
+exception
+:
+:
+register_exception_handler
+(
+)
+;
 }
 let
 factory4

@@ -1020,6 +1020,10 @@ encoder
 .
 open
 (
+&
+cmd_buf
+.
+device
 )
 ?
 ;
@@ -1486,6 +1490,10 @@ cmd_buf_data
 .
 open_encoder_and_tracker
 (
+&
+cmd_buf
+.
+device
 )
 ?
 ;
