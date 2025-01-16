@@ -6659,11 +6659,12 @@ ParseRecordEntry
 *
 newParseEntry
 =
-NewPlainObject
+NewPlainObjectWithProto
 (
 context
 (
 )
+nullptr
 )
 ;
 if
@@ -6952,11 +6953,12 @@ ParseRecordEntry
 *
 newParseEntry
 =
-NewPlainObject
+NewPlainObjectWithProto
 (
 context
 (
 )
+nullptr
 )
 ;
 if
