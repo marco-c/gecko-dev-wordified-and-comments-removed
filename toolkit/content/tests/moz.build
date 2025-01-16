@@ -30,6 +30,13 @@ browser
 .
 toml
 "
+"
+widgets
+/
+browser
+.
+toml
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
