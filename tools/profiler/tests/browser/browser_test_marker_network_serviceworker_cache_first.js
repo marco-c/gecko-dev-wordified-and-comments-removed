@@ -1591,6 +1591,9 @@ status
 "
 STATUS_STOP
 "
+responseStatus
+:
+200
 classOfService
 :
 "
@@ -1611,6 +1614,9 @@ data
 .
 .
 commonDataProperties
+responseStatus
+:
+200
 status
 :
 "
@@ -1708,6 +1714,9 @@ status
 "
 STATUS_STOP
 "
+responseStatus
+:
+200
 }
 )
 ;
@@ -1735,6 +1744,9 @@ status
 "
 STATUS_STOP
 "
+responseStatus
+:
+200
 }
 )
 ;

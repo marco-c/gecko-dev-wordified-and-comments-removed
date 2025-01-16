@@ -739,6 +739,9 @@ requestMethod
 "
 GET
 "
+responseStatus
+:
+200
 contentType
 :
 Expect
