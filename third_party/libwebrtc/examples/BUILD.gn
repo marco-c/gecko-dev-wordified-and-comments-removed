@@ -3620,6 +3620,16 @@ audio_processing
 /
 api
 /
+audio
+:
+builtin_audio_processing_factory
+"
+"
+.
+.
+/
+api
+/
 audio_codecs
 :
 builtin_audio_decoder_factory

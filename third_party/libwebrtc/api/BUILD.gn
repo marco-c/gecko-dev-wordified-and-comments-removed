@@ -584,6 +584,11 @@ audio
 audio_processing
 "
 "
+audio
+:
+builtin_audio_processing_factory
+"
+"
 audio_codecs
 :
 audio_codecs_api

@@ -3982,8 +3982,6 @@ rtc_api_unittests
 api
 /
 audio
-/
-test
 :
 audio_api_unittests
 "
