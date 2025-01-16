@@ -91,6 +91,11 @@ included_in_allocation
 =
 false
 ;
+bool
+is_media
+=
+false
+;
 PacketType
 packet_type
 =
