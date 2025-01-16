@@ -4561,6 +4561,9 @@ res
 returncode
 :
             
+try
+:
+                
 vet
 =
 json
@@ -4571,6 +4574,15 @@ res
 .
 stdout
 )
+            
+except
+Exception
+:
+                
+vet
+=
+{
+}
             
 logged_error
 =
