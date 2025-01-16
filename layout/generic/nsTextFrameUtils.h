@@ -203,6 +203,10 @@ nsTextFrameUtils
 Flags
 *
 aAnalysisFlags
+const
+nsAtom
+*
+aLanguage
 )
 ;
 template
