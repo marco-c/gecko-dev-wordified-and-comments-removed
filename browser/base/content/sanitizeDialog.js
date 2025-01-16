@@ -291,7 +291,7 @@ privacy
 .
 clearHistory
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 type
 :
@@ -355,7 +355,7 @@ privacy
 .
 clearSiteData
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 type
 :
@@ -419,7 +419,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 type
 :
@@ -2893,7 +2893,7 @@ selectedOptions
 includes
 (
 "
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 cookies_and_storage

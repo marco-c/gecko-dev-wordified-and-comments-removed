@@ -11443,7 +11443,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 param
 )
@@ -11848,7 +11848,7 @@ locked
 /
 We
 set
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 to
 follow
 lock
@@ -11861,8 +11861,6 @@ for
 history
 and
 deprecate
-formdata
-and
 downloads
 /
 /
@@ -11885,7 +11883,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 param
 .
@@ -11920,7 +11918,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 false
 lockDefaultPrefs

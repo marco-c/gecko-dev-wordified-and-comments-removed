@@ -504,7 +504,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 false
 )
