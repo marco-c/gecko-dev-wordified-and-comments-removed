@@ -13162,6 +13162,12 @@ break
 ;
 default
 :
+if
+(
+meta_type
+>
+31
+)
 dav1d_log
 (
 c

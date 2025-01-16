@@ -4195,6 +4195,15 @@ retval
 =
 0
 ;
+f
+-
+>
+task_thread
+.
+error
+=
+0
+;
 Dav1dThreadPicture
 *
 out_delayed
