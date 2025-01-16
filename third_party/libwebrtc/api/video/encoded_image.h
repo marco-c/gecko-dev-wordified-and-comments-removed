@@ -175,6 +175,11 @@ RefCountInterface
 {
 public
 :
+using
+value_type
+=
+uint8_t
+;
 virtual
 const
 uint8_t
