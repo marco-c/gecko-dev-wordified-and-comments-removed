@@ -2293,16 +2293,6 @@ return
 }
 return
 html
-<
-span
-class
-=
-"
-label
--
-content
-"
->
 {
 this
 .
@@ -2323,10 +2313,6 @@ this
 .
 label
 }
-<
-/
-span
->
 <
 /
 span
