@@ -20,15 +20,14 @@ md
 >
 Service
 >
-Contile
+MARS
 A
 library
 for
 communicating
 with
 the
-Contile
-services
+MARS
 API
 .
 #
@@ -103,7 +102,7 @@ components
 :
 service
 -
-contile
+mars
 :
 {
 latest
