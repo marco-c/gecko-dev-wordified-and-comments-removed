@@ -988,6 +988,16 @@ support
 rustlog
 '
 )
+implementation
+project
+(
+'
+:
+feature
+-
+screendetection
+'
+)
 geckoImplementation
 project
 (
