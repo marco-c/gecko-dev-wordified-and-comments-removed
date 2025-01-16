@@ -1647,7 +1647,7 @@ function
 }
 if
 (
-build_with_chromium
+absl_build_tests
 )
 {
 import
