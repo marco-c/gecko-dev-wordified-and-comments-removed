@@ -35192,6 +35192,11 @@ initialTabs
 i
 ]
 endPosition
+{
+forceStandaloneTab
+:
+true
+}
 )
 ;
 }
