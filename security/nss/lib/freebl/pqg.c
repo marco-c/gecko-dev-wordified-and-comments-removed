@@ -2623,10 +2623,9 @@ mp_clear
 two_length_minus_1
 )
 ;
-PORT_Memset
+PORT_SafeZero
 (
 x
-0
 sizeof
 (
 x
@@ -3228,10 +3227,9 @@ mp_clear
 one
 )
 ;
-PORT_Memset
+PORT_SafeZero
 (
 x
-0
 sizeof
 (
 x
@@ -4162,10 +4160,9 @@ P
 ;
 cleanup
 :
-PORT_Memset
+PORT_SafeZero
 (
 V_j
-0
 sizeof
 V_j
 )
@@ -4839,10 +4836,9 @@ SECFailure
 }
 cleanup
 :
-PORT_Memset
+PORT_SafeZero
 (
 data
-0
 sizeof
 (
 data
