@@ -34339,6 +34339,7 @@ ppi
 seq_params
 .
 has_nonzero_operating_point_idc
+false
 0
 &
 header_buf

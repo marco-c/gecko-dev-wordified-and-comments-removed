@@ -256,6 +256,8 @@ OBU_TYPE
 obu_type
 bool
 has_nonzero_operating_point_idc
+bool
+is_layer_specific_obu
 int
 obu_extension
 uint8_t

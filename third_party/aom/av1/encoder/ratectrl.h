@@ -362,7 +362,7 @@ int
 frames_since_scene_change
 ;
 int
-perc_flat_blocks_keyframe
+perc_spatial_flat_blocks
 ;
 int
 avg_frame_bandwidth

@@ -21526,11 +21526,6 @@ start_mv_stats
 (
 void
 )
-sse1
-;
-(
-void
-)
 distortion
 ;
 (
@@ -21590,6 +21585,11 @@ bestmv
 allow_hp
 0
 )
+;
+*
+sse1
+=
+besterr
 ;
 return
 besterr
@@ -21654,11 +21654,6 @@ start_mv_stats
 (
 void
 )
-sse1
-;
-(
-void
-)
 distortion
 ;
 (
@@ -21718,6 +21713,11 @@ bestmv
 allow_hp
 0
 )
+;
+*
+sse1
+=
+besterr
 ;
 return
 besterr
