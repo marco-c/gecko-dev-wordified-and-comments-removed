@@ -56,11 +56,16 @@ aTreeFrame
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
-NS_IMETHOD
+void
 ClearFrame
 (
 )
+{
+mTreeFrame
+=
+nullptr
 ;
+}
 friend
 class
 nsTreeBodyFrame
