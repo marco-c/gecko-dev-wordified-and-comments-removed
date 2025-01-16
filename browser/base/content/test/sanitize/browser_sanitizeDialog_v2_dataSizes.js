@@ -440,7 +440,7 @@ this
 checkPrefCheckbox
 (
 "
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 clearDownloads
 )
