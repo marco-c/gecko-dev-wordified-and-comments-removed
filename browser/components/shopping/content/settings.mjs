@@ -1188,6 +1188,15 @@ css
 shopping
 -
 card
+id
+=
+"
+shopping
+-
+settings
+-
+label
+"
 data
 -
 l10n

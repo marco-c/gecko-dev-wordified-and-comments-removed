@@ -991,6 +991,17 @@ css
 shopping
 -
 card
+id
+=
+"
+shopping
+-
+analysis
+-
+explainer
+-
+label
+"
 data
 -
 l10n
