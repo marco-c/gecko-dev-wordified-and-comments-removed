@@ -47,6 +47,13 @@ code
 for
 libxul
 "
+rust
+-
+version
+.
+workspace
+=
+true
 [
 dependencies
 ]
