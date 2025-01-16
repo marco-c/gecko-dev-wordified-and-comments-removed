@@ -692,6 +692,18 @@ int
 int
             
 "
+len
+"
+:
+len
+            
+"
+range
+"
+:
+range
+            
+"
 set
 "
 :
