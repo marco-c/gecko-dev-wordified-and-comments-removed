@@ -12271,6 +12271,11 @@ RecomputeResistFingerprinting
 )
 ;
 void
+MaybeRecomputePartitionKey
+(
+)
+;
+void
 RecordCanvasUsage
 (
 CanvasUsage
