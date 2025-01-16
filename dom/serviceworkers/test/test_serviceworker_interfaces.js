@@ -456,7 +456,7 @@ name
 "
 CookieChangeEvent
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -466,7 +466,7 @@ name
 "
 CookieStore
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -965,7 +965,7 @@ name
 "
 cookieStore
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
