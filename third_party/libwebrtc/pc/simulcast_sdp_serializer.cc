@@ -1091,7 +1091,7 @@ receive_layers
 return
 sb
 .
-str
+Release
 (
 )
 ;
@@ -1635,7 +1635,7 @@ kDelimiterSemicolon
 return
 builder
 .
-str
+Release
 (
 )
 ;
