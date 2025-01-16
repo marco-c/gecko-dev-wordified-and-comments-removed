@@ -986,9 +986,6 @@ UiSelector
 description
 (
 "
-Non
--
-private
 Tabs
 Open
 :

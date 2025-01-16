@@ -421,8 +421,6 @@ count
 Int
 )
 {
-counterRoot
-.
 contentDescription
 =
 context
@@ -433,7 +431,7 @@ R
 .
 string
 .
-mozac_open_tab_counter_tab_tray
+mozac_tab_counter_open_tab_tray
 count
 .
 toString
