@@ -4527,10 +4527,8 @@ if
 initialTarget
 )
 {
-nsCOMPtr
-<
 nsINode
->
+*
 relatedTargetAsNode
 =
 FindChromeAccessOnlySubtreeOwner

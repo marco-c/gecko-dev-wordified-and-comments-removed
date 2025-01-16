@@ -3077,10 +3077,8 @@ mFlags
 mComposed
 )
 {
-nsCOMPtr
-<
 nsIContent
->
+*
 originalTarget
 =
 nsIContent
@@ -3112,10 +3110,8 @@ GetContainingShadow
 this
 )
 {
-nsCOMPtr
-<
 nsPIDOMWindowOuter
->
+*
 win
 =
 OwnerDoc
@@ -3181,12 +3177,10 @@ shadowHost
 false
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 content
-(
+=
 nsIContent
 :
 :
@@ -3198,7 +3192,6 @@ mEvent
 -
 >
 mTarget
-)
 )
 ;
 if
