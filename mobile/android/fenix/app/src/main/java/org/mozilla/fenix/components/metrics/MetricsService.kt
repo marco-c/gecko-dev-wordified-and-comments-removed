@@ -72,6 +72,7 @@ MetricServiceType
 {
 Data
 Marketing
+UsageReporting
 }
 interface
 MetricsService
