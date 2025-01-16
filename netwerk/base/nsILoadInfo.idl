@@ -1102,13 +1102,6 @@ isThirdPartyContextToTopWindow
 [
 infallible
 ]
-attribute
-boolean
-isOn3PCBExceptionList
-;
-[
-infallible
-]
 readonly
 attribute
 unsigned
