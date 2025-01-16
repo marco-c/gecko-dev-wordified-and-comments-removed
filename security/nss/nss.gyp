@@ -2491,7 +2491,7 @@ fuzz
 .
 gyp
 :
-nssfuzz
+fuzz
 '
 ]
 }

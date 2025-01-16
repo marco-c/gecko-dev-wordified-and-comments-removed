@@ -2276,8 +2276,6 @@ j
 +
 )
 {
-nssToken_AddRef
-(
 cache
 -
 >
@@ -2294,7 +2292,8 @@ object
 -
 >
 token
-)
+=
+NULL
 ;
 nssArena_Destroy
 (

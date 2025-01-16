@@ -571,7 +571,7 @@ com
 benjaminp
 /
 six
-master
+main
 six
 pushd
 "
