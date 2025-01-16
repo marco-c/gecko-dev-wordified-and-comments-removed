@@ -5346,8 +5346,6 @@ prettifyShortcut
 sidebarToggleKey
 )
 ;
-this
-.
 toolbarButton
 .
 dataset
