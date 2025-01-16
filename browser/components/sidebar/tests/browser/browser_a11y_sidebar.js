@@ -604,10 +604,10 @@ tooltips
 await
 SidebarController
 .
-setUIState
+initializeUIState
 (
 {
-expanded
+launcherExpanded
 :
 false
 }
@@ -726,10 +726,10 @@ label
 await
 SidebarController
 .
-setUIState
+initializeUIState
 (
 {
-expanded
+launcherExpanded
 :
 true
 }
