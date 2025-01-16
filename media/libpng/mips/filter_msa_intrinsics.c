@@ -135,7 +135,7 @@ val_m
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -221,7 +221,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -302,7 +302,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -353,12 +353,10 @@ val_m
 }
 #
 if
-(
 __mips
 =
 =
 64
-)
 #
 define
 SD
@@ -391,7 +389,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -541,12 +539,10 @@ b
 )
 #
 if
-(
 __mips_isa_rev
 >
 =
 6
-)
 #
 define
 LW
@@ -575,7 +571,7 @@ val_m
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -661,7 +657,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -742,7 +738,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -793,12 +789,10 @@ val_m
 }
 #
 if
-(
 __mips
 =
 =
 64
-)
 #
 define
 SD
@@ -831,7 +825,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -994,7 +988,7 @@ val_m
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -1080,7 +1074,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -1161,7 +1155,7 @@ val
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
@@ -1313,7 +1307,7 @@ pdst
 ;
 \
 \
-asm
+__asm__
 volatile
 (
 \
