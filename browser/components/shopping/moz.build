@@ -48,6 +48,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+ReviewCheckerManager
+.
+sys
+.
+mjs
+"
+"
 ShoppingUtils
 .
 sys

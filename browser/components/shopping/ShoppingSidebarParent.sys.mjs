@@ -1651,6 +1651,12 @@ ownerGlobal
 if
 (
 isPBM
+|
+|
+!
+this
+.
+enabled
 )
 {
 return
