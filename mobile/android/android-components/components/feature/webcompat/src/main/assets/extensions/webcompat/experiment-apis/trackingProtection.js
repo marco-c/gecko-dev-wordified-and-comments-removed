@@ -948,7 +948,7 @@ linkedBrowser
 .
 currentURI
 .
-displayHost
+host
 ;
 let
 tabId
@@ -1060,7 +1060,7 @@ linkedBrowser
 .
 currentURI
 .
-displayHost
+host
 ;
 let
 tabId
