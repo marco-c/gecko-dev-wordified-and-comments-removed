@@ -11021,9 +11021,6 @@ Transaction
 id
 :
 u64
-present
-:
-bool
 reasons
 :
 RenderReasons
@@ -11034,7 +11031,6 @@ txn
 generate_frame
 (
 id
-present
 reasons
 )
 ;
