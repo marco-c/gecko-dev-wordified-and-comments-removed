@@ -6639,6 +6639,7 @@ actorParent
 this
 .
 manager
+console
 }
 )
 ;

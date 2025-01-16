@@ -2916,17 +2916,6 @@ files
 :
 [
 "
-dom
-/
-push
-/
-test
-/
-mockpushserviceparent
-.
-js
-"
-"
 browser
 /
 components
