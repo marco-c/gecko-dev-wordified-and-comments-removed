@@ -184,7 +184,7 @@ MetricServiceType
 =
 MetricServiceType
 .
-Data
+UsageReporting
 private
 val
 logger
