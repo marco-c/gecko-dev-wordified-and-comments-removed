@@ -4243,6 +4243,9 @@ with
 the
 specified
 value
+defaults
+to
+false
 *
 throws
 NS_ERROR_INVALID_ARG
@@ -4302,6 +4305,9 @@ name
 in
 string
 value
+[
+optional
+]
 in
 boolean
 merge
