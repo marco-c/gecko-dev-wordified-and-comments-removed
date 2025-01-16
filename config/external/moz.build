@@ -144,10 +144,11 @@ libvpx
 "
 ]
 if
+not
 CONFIG
 [
 "
-MOZ_AV1
+MOZ_SYSTEM_AV1
 "
 ]
 :
