@@ -1009,6 +1009,7 @@ i
 const
 value
 =
+(
 li
 .
 querySelector
@@ -1020,8 +1021,14 @@ initial
 value
 "
 )
+?
 .
 textContent
+?
+?
+"
+"
+)
 +
 li
 .
