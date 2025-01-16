@@ -1100,6 +1100,11 @@ EnvironmentObject
 >
 templateEnv_
 ;
+Offset
+endOffset_
+=
+0
+;
 mozilla
 :
 :
@@ -1108,11 +1113,6 @@ Maybe
 bool
 >
 usesEnvironmentChain_
-;
-Offset
-endOffset_
-=
-0
 ;
 struct
 Flags
