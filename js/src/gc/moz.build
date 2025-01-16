@@ -148,11 +148,6 @@ Marking
 cpp
 "
 "
-Memory
-.
-cpp
-"
-"
 Nursery
 .
 cpp
@@ -227,6 +222,11 @@ SOURCES
 +
 =
 [
+"
+Memory
+.
+cpp
+"
 "
 StoreBuffer
 .
