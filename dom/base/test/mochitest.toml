@@ -6157,6 +6157,13 @@ html
 ]
 [
 "
+test_parseHTMLUnsafe_from_expanded_principal
+.
+html
+"
+]
+[
+"
 test_pasting_svg_image
 .
 html
