@@ -570,6 +570,11 @@ recommendation
 =
 ContentRecommendation
 (
+corpusItemId
+=
+"
+0
+"
 scheduledCorpusItemId
 =
 "
@@ -609,6 +614,9 @@ tileId
 receivedRank
 =
 33
+recommendedAt
+=
+0
 impressions
 =
 0

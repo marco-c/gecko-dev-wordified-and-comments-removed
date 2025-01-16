@@ -4457,6 +4457,12 @@ add
 (
 ContentRecommendation
 (
+corpusItemId
+=
+"
+corpusItemId
+index
+"
 scheduledCorpusItemId
 =
 "
@@ -4526,6 +4532,13 @@ toLong
 receivedRank
 =
 index
+recommendedAt
+=
+index
+.
+toLong
+(
+)
 impressions
 =
 index

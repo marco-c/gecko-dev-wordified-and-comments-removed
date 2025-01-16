@@ -590,8 +590,6 @@ updateContentRecommendations
 response
 .
 data
-.
-data
 )
 return
 true
