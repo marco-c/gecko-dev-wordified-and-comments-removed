@@ -434,6 +434,10 @@ libwebrtc
 README
 .
 mozilla
+.
+last
+-
+vendor
 "
 \
 third_party
