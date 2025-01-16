@@ -801,10 +801,9 @@ PRBool
 freeit
 )
 {
-PORT_Memset
+PORT_SafeZero
 (
 gcm
-0
 sizeof
 (
 ppc_AES_GCMContext

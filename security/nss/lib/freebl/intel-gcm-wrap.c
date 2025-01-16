@@ -958,10 +958,9 @@ PRBool
 freeit
 )
 {
-PORT_Memset
+PORT_SafeZero
 (
 gcm
-0
 sizeof
 (
 intel_AES_GCMContext
