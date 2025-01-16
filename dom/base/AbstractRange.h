@@ -985,11 +985,10 @@ aNode
 void
 UnregisterClosestCommonInclusiveAncestor
 (
-nsINode
-*
-aNode
 bool
 aIsUnlinking
+=
+false
 )
 ;
 void
