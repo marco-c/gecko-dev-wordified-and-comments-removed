@@ -259,6 +259,11 @@ fast
 -
 forward
 /
+.
+moz
+-
+vendoring
+/
 old
 -
 configure
