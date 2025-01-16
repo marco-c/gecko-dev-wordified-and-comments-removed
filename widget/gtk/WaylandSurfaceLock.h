@@ -47,6 +47,10 @@ RefPtr
 WaylandSurface
 >
 aWaylandSurface
+bool
+aForceCommit
+=
+false
 )
 ;
 ~
@@ -76,6 +80,11 @@ wl_surface
 mSurface
 =
 nullptr
+;
+bool
+mForceCommit
+=
+false
 ;
 #
 endif

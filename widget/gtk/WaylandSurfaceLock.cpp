@@ -47,6 +47,8 @@ RefPtr
 WaylandSurface
 >
 aWaylandSurface
+bool
+aForceCommit
 )
 {
 #
@@ -61,6 +63,10 @@ move
 (
 aWaylandSurface
 )
+;
+mForceCommit
+=
+aForceCommit
 ;
 if
 (
@@ -112,7 +118,7 @@ mWaylandSurface
 Commit
 (
 this
-false
+mForceCommit
 false
 )
 ;
