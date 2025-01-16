@@ -1517,9 +1517,6 @@ browsers
 allFrames
 :
 true
-_reporting
-:
-false
 onAddActor
 (
 register
@@ -1543,6 +1540,17 @@ uploadEnabled
 "
 false
 )
+|
+|
+AppConstants
+.
+platform
+=
+=
+=
+"
+android
+"
 |
 |
 Cu
