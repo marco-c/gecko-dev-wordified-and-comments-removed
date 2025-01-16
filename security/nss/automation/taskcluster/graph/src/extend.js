@@ -1282,12 +1282,6 @@ clang
 +
 +
 "
-CFLAGS
-:
-"
--
-O2
-"
 }
 platform
 :

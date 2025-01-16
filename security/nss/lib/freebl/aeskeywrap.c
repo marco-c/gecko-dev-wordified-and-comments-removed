@@ -2327,9 +2327,10 @@ iv
 outLen
 )
 ;
-PORT_SafeZero
+PORT_Memset
 (
 iv
+0
 sizeof
 (
 iv
@@ -2385,9 +2386,10 @@ newBuf
 paddedInputLen
 )
 ;
-PORT_SafeZero
+PORT_Memset
 (
 iv
+0
 sizeof
 (
 iv
@@ -2789,9 +2791,10 @@ newBuf
 )
 )
 {
-PORT_SafeZero
+PORT_Memset
 (
 newBuf
+0
 paddedLen
 )
 ;
@@ -2808,9 +2811,10 @@ paddedLen
 )
 ;
 }
-PORT_SafeZero
+PORT_Memset
 (
 iv
+0
 sizeof
 (
 iv
