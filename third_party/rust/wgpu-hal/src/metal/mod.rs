@@ -3475,9 +3475,12 @@ crate
 :
 :
 NagaShader
-runtime_checks
+bounds_checks
 :
-bool
+wgt
+:
+:
+ShaderRuntimeChecks
 }
 impl
 crate

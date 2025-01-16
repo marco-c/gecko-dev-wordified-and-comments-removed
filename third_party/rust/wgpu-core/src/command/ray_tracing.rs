@@ -1565,17 +1565,11 @@ StateTransition
 {
 from
 :
-hal
-:
-:
 BufferUses
 :
 :
 ACCELERATION_STRUCTURE_SCRATCH
 to
-:
-hal
-:
 :
 BufferUses
 :
@@ -1728,7 +1722,6 @@ encoder
 .
 open
 (
-device
 )
 ?
 ;
@@ -3484,7 +3477,6 @@ encoder
 .
 open
 (
-device
 )
 ?
 ;
