@@ -3744,6 +3744,7 @@ storageAccess
 isThirdPartyContextToTopWindow
 shouldResistFingerprinting
 overriddenFingerprintingSettingsArg
+false
 OriginTrials
 (
 )

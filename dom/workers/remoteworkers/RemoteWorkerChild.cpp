@@ -1540,6 +1540,16 @@ cookieJarSettings
 ;
 info
 .
+mIsOn3PCBExceptionList
+=
+aData
+.
+isOn3PCBExceptionList
+(
+)
+;
+info
+.
 mEvalAllowed
 =
 true
