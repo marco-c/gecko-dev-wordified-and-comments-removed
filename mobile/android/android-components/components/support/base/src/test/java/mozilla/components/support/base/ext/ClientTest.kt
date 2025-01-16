@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-service
+support
 .
-pocket
+base
 .
 ext
 import
@@ -219,7 +219,7 @@ mozilla
 org
 "
 class
-ConceptFetchKtTest
+ClientTest
 {
 private
 lateinit

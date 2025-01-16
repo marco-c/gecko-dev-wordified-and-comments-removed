@@ -490,6 +490,16 @@ implementation
 ComponentsDependencies
 .
 androidx_lifecycle_viewmodel
+implementation
+project
+(
+'
+:
+concept
+-
+fetch
+'
+)
 api
 project
 (
