@@ -3230,6 +3230,17 @@ env
 await
 addTestTab
 (
+uri
+.
+startsWith
+(
+"
+http
+"
+)
+?
+uri
+:
 buildURL
 (
 uri
