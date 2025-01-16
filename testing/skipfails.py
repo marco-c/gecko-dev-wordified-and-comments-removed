@@ -3821,6 +3821,17 @@ else
                                 
 continue
                             
+result
+=
+task
+.
+result
+=
+=
+"
+passed
+"
+                            
 task_path
 [
 RUNS
@@ -3834,7 +3845,7 @@ id
 RR
 ]
 =
-False
+result
                             
 if
 query
@@ -3888,6 +3899,11 @@ TOTAL_RUNS
 =
 1
                             
+if
+not
+result
+:
+                                
 task_path
 [
 FAILED_RUNS
