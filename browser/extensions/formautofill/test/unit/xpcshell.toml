@@ -78,13 +78,6 @@ true
 ]
 [
 "
-test_activeStatus
-.
-js
-"
-]
-[
-"
 test_addressComponent_city
 .
 js

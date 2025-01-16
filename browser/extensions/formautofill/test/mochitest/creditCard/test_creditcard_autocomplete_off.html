@@ -471,6 +471,13 @@ setupFormHistory
 (
 )
 ;
+const
+promise
+=
+expectPopup
+(
+)
+;
 await
 setInput
 (
@@ -492,9 +499,7 @@ KEY_ArrowDown
 )
 ;
 await
-expectPopup
-(
-)
+promise
 ;
 checkMenuEntries
 (
