@@ -40711,6 +40711,17 @@ getStackPointer
 )
 )
 ;
+#
+if
+JS_CODEGEN_ARM64
+masm
+.
+syncStackPtr
+(
+)
+;
+#
+endif
 }
 void
 CodeGenerator
