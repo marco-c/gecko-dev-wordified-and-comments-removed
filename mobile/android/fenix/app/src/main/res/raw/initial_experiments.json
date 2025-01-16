@@ -616,7 +616,7 @@ v2
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
