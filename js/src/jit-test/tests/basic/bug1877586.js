@@ -1,3 +1,8 @@
+const
+THREAD_TYPE_PROMISE_TASK
+=
+8
+;
 try
 {
 for
@@ -53,6 +58,6 @@ e
 oomAtAllocation
 (
 7
-7
+THREAD_TYPE_PROMISE_TASK
 )
 ;
