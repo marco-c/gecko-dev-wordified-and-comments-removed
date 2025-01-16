@@ -2435,6 +2435,9 @@ if_operands_equal
 alias_set
 :
 none
+folds_to
+:
+custom
 clone
 :
 true
