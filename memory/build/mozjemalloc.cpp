@@ -1922,7 +1922,7 @@ allocated_small
 size_t
 allocated_large
 ;
-size_t
+uint64_t
 operations
 ;
 }
@@ -3355,7 +3355,7 @@ mStats
 allocated_large
 ;
 }
-size_t
+uint64_t
 Operations
 (
 )
@@ -4822,7 +4822,7 @@ GetThreadId
 )
 ;
 }
-size_t
+uint64_t
 OperationsDisposedArenas
 (
 )
@@ -4930,7 +4930,7 @@ ThreadId
 >
 mMainThreadId
 ;
-size_t
+uint64_t
 mNumOperationsDisposedArenas
 =
 0
@@ -5024,7 +5024,7 @@ huge_mtx
 )
 ;
 static
-size_t
+uint64_t
 huge_operations
 MOZ_GUARDED_BY
 (

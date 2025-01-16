@@ -244,7 +244,7 @@ struct
 size_t
 allocated_bytes
 ;
-size_t
+uint64_t
 num_operations
 ;
 }
