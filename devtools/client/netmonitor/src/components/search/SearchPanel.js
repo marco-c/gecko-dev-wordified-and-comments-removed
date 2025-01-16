@@ -879,10 +879,6 @@ substring
 (
 indexStart
 match
--
-query
-.
-length
 )
 )
 span
@@ -916,11 +912,11 @@ value
 substring
 (
 match
--
+match
++
 query
 .
 length
-match
 )
 )
 ]
@@ -928,6 +924,10 @@ match
 indexStart
 =
 match
++
+query
+.
+length
 ;
 return
 highlightedMatch
