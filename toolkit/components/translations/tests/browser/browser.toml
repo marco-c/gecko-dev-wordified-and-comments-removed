@@ -21,6 +21,15 @@ js
 "
 translations
 -
+bencher
+-
+es
+.
+html
+"
+"
+translations
+-
 test
 .
 mjs
