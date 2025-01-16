@@ -173,6 +173,10 @@ o
 ;
 gc
 (
+undefined
+'
+shrinking
+'
 )
 ;
 }
