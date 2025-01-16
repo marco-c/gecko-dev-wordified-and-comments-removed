@@ -177,6 +177,13 @@ py
 ]
 [
 "
+test_node_package_names
+.
+py
+"
+]
+[
+"
 test_perfdocs
 .
 py
