@@ -6493,7 +6493,7 @@ kqueue
 correctness
 test
 on
-x84_64
+x86_64
 (
 6123d12
 )
