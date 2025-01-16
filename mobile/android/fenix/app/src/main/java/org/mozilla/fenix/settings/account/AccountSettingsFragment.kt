@@ -133,14 +133,6 @@ AlertDialog
 import
 androidx
 .
-compose
-.
-material
-.
-SnackbarDuration
-import
-androidx
-.
 lifecycle
 .
 lifecycleScope
@@ -2581,7 +2573,11 @@ empty_device_name_error
 )
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Long
 )

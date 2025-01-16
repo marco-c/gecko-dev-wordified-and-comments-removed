@@ -75,14 +75,6 @@ Context
 import
 androidx
 .
-compose
-.
-material
-.
-SnackbarDuration
-import
-androidx
-.
 navigation
 .
 NavController
@@ -449,7 +441,11 @@ experiments_snackbar
 )
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Long
 action

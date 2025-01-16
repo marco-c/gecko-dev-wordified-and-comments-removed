@@ -139,14 +139,6 @@ androidx
 .
 compose
 .
-material
-.
-SnackbarDuration
-import
-androidx
-.
-compose
-.
 ui
 .
 platform
@@ -1595,7 +1587,11 @@ message
 text
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Long
 )

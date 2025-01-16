@@ -77,14 +77,6 @@ view
 .
 ViewGroup
 import
-androidx
-.
-compose
-.
-material
-.
-SnackbarDuration
-import
 kotlinx
 .
 coroutines
@@ -359,7 +351,11 @@ standardSnackbarError
 message
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Indefinite
 type

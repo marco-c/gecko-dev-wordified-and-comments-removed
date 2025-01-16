@@ -135,14 +135,6 @@ VisibleForTesting
 import
 androidx
 .
-compose
-.
-material
-.
-SnackbarDuration
-import
-androidx
-.
 core
 .
 view
@@ -847,7 +839,11 @@ browser_toolbar_url_copied_to_clipboard_snackbar
 )
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Long
 )

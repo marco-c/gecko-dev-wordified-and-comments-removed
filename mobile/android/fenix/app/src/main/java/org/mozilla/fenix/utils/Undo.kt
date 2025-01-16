@@ -77,14 +77,6 @@ view
 .
 View
 import
-androidx
-.
-compose
-.
-material
-.
-SnackbarDuration
-import
 kotlinx
 .
 coroutines
@@ -505,7 +497,11 @@ message
 message
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Indefinite
 action

@@ -97,14 +97,6 @@ ViewGroup
 import
 androidx
 .
-compose
-.
-material
-.
-SnackbarDuration
-import
-androidx
-.
 fragment
 .
 app
@@ -1786,7 +1778,11 @@ downloadState
 )
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Short
 )

@@ -77,14 +77,6 @@ androidx
 .
 compose
 .
-material
-.
-SnackbarDuration
-import
-androidx
-.
-compose
-.
 runtime
 .
 Composable
@@ -641,7 +633,11 @@ inactive_tabs_auto_close_message_snackbar
 )
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Long
 )

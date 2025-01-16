@@ -77,14 +77,6 @@ annotation
 .
 StringRes
 import
-androidx
-.
-compose
-.
-material
-.
-SnackbarDuration
-import
 mozilla
 .
 components
@@ -345,7 +337,11 @@ message
 text
 duration
 =
-SnackbarDuration
+SnackbarState
+.
+Duration
+.
+Preset
 .
 Short
 action

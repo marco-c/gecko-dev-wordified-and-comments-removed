@@ -266,7 +266,9 @@ duration
 =
 snackbarState
 .
-duration
+toSnackbarDuration
+(
+)
 )
 }
 Type
@@ -296,7 +298,9 @@ duration
 =
 snackbarState
 .
-duration
+toSnackbarDuration
+(
+)
 )
 }
 }
