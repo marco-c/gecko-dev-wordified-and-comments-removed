@@ -719,11 +719,11 @@ libwebrtc
 /
 README
 .
-moz
+mozilla
+.
+last
 -
-ff
--
-commit
+vendor
 echo
 "
 previous
