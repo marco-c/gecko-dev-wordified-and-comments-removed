@@ -2102,14 +2102,6 @@ showPrivacyPreferencesDialog
 {
 ManagePrivacyPreferencesDialogFragment
 (
-onCrashReportingLinkClick
-=
-{
-}
-onUsageDataLinkClick
-=
-{
-}
 )
 .
 show
