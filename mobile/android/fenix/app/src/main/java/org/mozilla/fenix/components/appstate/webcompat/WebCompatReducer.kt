@@ -242,6 +242,9 @@ snackbarState
 SnackbarState
 .
 WebCompatReportSent
+webCompatState
+=
+null
 )
 }
 }

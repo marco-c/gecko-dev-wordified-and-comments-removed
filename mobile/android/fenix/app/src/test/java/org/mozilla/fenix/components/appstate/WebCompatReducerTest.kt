@@ -345,9 +345,8 @@ web
 compat
 data
 should
-remain
-the
-same
+be
+reset
 (
 )
 {
@@ -412,9 +411,7 @@ WebCompatReportSent
 )
 assertEquals
 (
-appState
-.
-webCompatState
+null
 actual
 .
 webCompatState
