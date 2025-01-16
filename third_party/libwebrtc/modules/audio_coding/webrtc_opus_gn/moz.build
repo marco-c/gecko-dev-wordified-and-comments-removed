@@ -124,14 +124,6 @@ True
 DEFINES
 [
 "
-WEBRTC_CODEC_ILBC
-"
-]
-=
-True
-DEFINES
-[
-"
 WEBRTC_CODEC_OPUS
 "
 ]
