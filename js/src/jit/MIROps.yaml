@@ -12321,7 +12321,7 @@ false
 -
 name
 :
-WasmReinterpret
+ReinterpretCast
 gen_boilerplate
 :
 false

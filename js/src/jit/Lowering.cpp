@@ -29156,9 +29156,9 @@ void
 LIRGenerator
 :
 :
-visitWasmReinterpret
+visitReinterpretCast
 (
-MWasmReinterpret
+MReinterpretCast
 *
 ins
 )
@@ -29187,7 +29187,7 @@ alloc
 (
 )
 )
-LWasmReinterpretToI64
+LReinterpretCastToI64
 (
 useRegisterAtStart
 (
@@ -29233,7 +29233,7 @@ alloc
 (
 )
 )
-LWasmReinterpretFromI64
+LReinterpretCastFromI64
 (
 useInt64RegisterAtStart
 (
@@ -29259,7 +29259,7 @@ alloc
 (
 )
 )
-LWasmReinterpret
+LReinterpretCast
 (
 useRegisterAtStart
 (

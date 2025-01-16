@@ -34583,7 +34583,7 @@ auto
 *
 reinterp
 =
-MWasmReinterpret
+MReinterpretCast
 :
 :
 New
