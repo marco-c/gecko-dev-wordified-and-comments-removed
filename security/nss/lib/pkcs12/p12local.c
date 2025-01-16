@@ -389,7 +389,7 @@ NULL
 &
 utf8Pw
 pwitem
-PR_FALSE
+PR_TRUE
 PR_FALSE
 PR_FALSE
 )

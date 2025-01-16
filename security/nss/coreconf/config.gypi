@@ -1046,12 +1046,6 @@ fuzz_oss
 :
 0
 '
-gtests_corpus
-%
-'
-:
-0
-'
 sign_libs
 %
 '

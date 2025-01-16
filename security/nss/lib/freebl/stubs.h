@@ -56,10 +56,6 @@ PORT_NewArena
 PORT_NewArena_stub
 #
 define
-PORT_SaveZero
-PORT_SaveZero_stub
-#
-define
 PORT_SetError
 PORT_SetError_stub
 #

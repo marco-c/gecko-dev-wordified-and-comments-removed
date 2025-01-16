@@ -275,7 +275,7 @@ awk
 '
 {
 print
-1
+NF
 }
 '
 if

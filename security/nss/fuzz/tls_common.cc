@@ -1,7 +1,7 @@
 #
 include
 "
-common
+tls_common
 .
 h
 "
@@ -24,13 +24,6 @@ cstdint
 include
 "
 prio
-.
-h
-"
-#
-include
-"
-secport
 .
 h
 "
@@ -60,9 +53,6 @@ return
 1234
 ;
 }
-namespace
-TlsCommon
-{
 void
 FixTime
 (
@@ -354,9 +344,10 @@ len
 output
 )
 {
-PORT_SetError
+PR_SetError
 (
 SEC_ERROR_INVALID_ARGS
+0
 )
 ;
 return
@@ -424,9 +415,10 @@ outputLen
 0
 )
 {
-PORT_SetError
+PR_SetError
 (
 SEC_ERROR_INVALID_ARGS
+0
 )
 ;
 return
@@ -443,9 +435,10 @@ len
 outputLen
 )
 {
-PORT_SetError
+PR_SetError
 (
 SEC_ERROR_BAD_DATA
+0
 )
 ;
 return
@@ -476,5 +469,4 @@ len
 return
 SECSuccess
 ;
-}
 }

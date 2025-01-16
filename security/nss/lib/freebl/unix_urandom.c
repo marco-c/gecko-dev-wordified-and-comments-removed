@@ -80,9 +80,10 @@ bytes
 numBytes
 )
 ;
-PORT_SafeZero
+PORT_Memset
 (
 bytes
+0
 sizeof
 bytes
 )

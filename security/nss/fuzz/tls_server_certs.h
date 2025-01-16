@@ -1,9 +1,9 @@
 #
 ifndef
-TLS_SERVER_CERT_H_
+tls_server_certs_h__
 #
 define
-TLS_SERVER_CERT_H_
+tls_server_certs_h__
 #
 include
 "
@@ -11,9 +11,6 @@ prio
 .
 h
 "
-namespace
-TlsServer
-{
 void
 InstallServerCertificates
 (
@@ -22,6 +19,5 @@ PRFileDesc
 fd
 )
 ;
-}
 #
 endif

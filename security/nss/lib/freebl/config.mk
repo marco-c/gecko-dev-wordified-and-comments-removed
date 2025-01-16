@@ -536,12 +536,4 @@ libplds4
 .
 dylib
 endif
-ifdef
-NSS_FIPS_140_3
-DEFINES
-+
-=
--
-DNSS_FIPS_140_3
-endif
 endif
