@@ -403,7 +403,7 @@ name
 teaser
 "
 >
-Navigazzioni
+Navicazzioni
 privata
 \
 '
@@ -413,11 +413,12 @@ ticu
 .
 \
 nN
-viga
+vica
 .
 Scancella
 .
-Ripeti
+Fallu
+arr
 .
 <
 /
@@ -464,7 +465,7 @@ to
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 fu
 scancillata
 .
@@ -483,7 +484,7 @@ feedback_erase2
 Crunulugg
 a
 di
-navigazzioni
+navicazzioni
 scancillata
 <
 /
@@ -531,7 +532,7 @@ A
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 d
 schedi
 fu
@@ -1400,7 +1401,7 @@ a
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 ?
 <
 /
@@ -1461,7 +1462,7 @@ to
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 .
 <
 /
@@ -1479,7 +1480,7 @@ Scancella
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 <
 /
 string
@@ -1666,7 +1667,7 @@ Scancella
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 <
 /
 string
@@ -2180,7 +2181,7 @@ p
 >
 salu
 comu
-navigaturi
+navicaturi
 privatu
 :
 <
@@ -2192,7 +2193,7 @@ li
 Riscedi
 e
 n
-viga
+vica
 direttu
 di
 l
@@ -2237,7 +2238,7 @@ di
 risciduta
 e
 di
-navigazzioni
+navicazzioni
 <
 /
 li
@@ -2657,7 +2658,7 @@ name
 preference_general_summary2
 "
 >
-Navigaturi
+Navicaturi
 pridifinutu
 lingua
 <
@@ -4982,7 +4983,7 @@ Mposta
 1
 s
 comu
-navigaturi
+navicaturi
 pridifinutu
 <
 /
@@ -5981,7 +5982,7 @@ Scancella
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 <
 /
 string
@@ -6328,7 +6329,7 @@ content_description_forward
 "
 >
 N
-viga
+vica
 \
 '
 n
@@ -6974,7 +6975,7 @@ external_multiple_apps_matched_exit
 N
 sciri
 d
-navigazzioni
+navicazzioni
 privata
 ?
 <
@@ -7354,7 +7355,7 @@ l
 \
 '
 autri
-navigatura
+navicatura
 <
 /
 string
@@ -7465,7 +7466,7 @@ s
 comu
 u
 to
-navigaturi
+navicaturi
 pridifinutu
 pi
 prut
@@ -7512,7 +7513,7 @@ onboarding_second_screen_default_browser_button_text
 >
 Cunfijura
 comu
-navigaturi
+navicaturi
 pridifinutu
 <
 /
@@ -7606,7 +7607,7 @@ firstrun_defaultbrowser_text2
 >
 Porta
 a
-navigazzioni
+navicazzioni
 privata
 a
 n
@@ -7898,7 +7899,7 @@ Cunfijura
 1
 s
 comu
-navigaturi
+navicaturi
 pridifinutu
 e
 p
@@ -7907,7 +7908,7 @@ tutti
 i
 binifici
 d
-navigazzioni
+navicazzioni
 privata
 quannu
 grapi
@@ -8378,7 +8379,7 @@ notification_browsing_session_channel_name
 >
 Sissioni
 di
-navigazzioni
+navicazzioni
 privata
 <
 /
@@ -8568,7 +8569,7 @@ cc
 \
 '
 nn
-navigaturi
+navicaturi
 .
 <
 /
@@ -8618,7 +8619,7 @@ Scancella
 crunulugg
 a
 di
-navigazzioni
+navicazzioni
 <
 /
 string
@@ -13152,7 +13153,7 @@ Cunfijura
 1
 s
 comu
-navigaturi
+navicaturi
 pridifinutu
 <
 /
@@ -13904,7 +13905,7 @@ tab_crash_report_description
 "
 >
 Comu
-navigaturi
+navicaturi
 privatu
 nun
 sarbamu
@@ -15755,7 +15756,7 @@ promote_search_widget_dialog_title
 Crunulugg
 a
 di
-navigazzioni
+navicazzioni
 scancillata
 !
 <
@@ -15803,7 +15804,7 @@ a
 to
 sissioni
 di
-navigazzioni
+navicazzioni
 privata
 e
 firmamu
@@ -15816,7 +15817,7 @@ tinti
 mentri
 chi
 n
-vighi
+vichi
 .
 <
 /
@@ -15871,7 +15872,7 @@ promote_search_widget_dialog_subtitle
 Ti
 lassamu
 to
-navigazzioni
+navicazzioni
 privata
 ma
 a
