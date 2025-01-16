@@ -11057,7 +11057,8 @@ i
 0
 )
 {
-domain
+const
+superdomain
 =
 domain
 .
@@ -11108,14 +11109,14 @@ not
 .
 if
 (
-domain
+superdomain
 )
 {
 domains
 .
 push
 (
-domain
+superdomain
 )
 ;
 }
