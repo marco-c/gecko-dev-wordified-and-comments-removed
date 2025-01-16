@@ -751,10 +751,8 @@ AudioDecoder
 DecodePlc
 (
 size_t
-num_frames
 int16_t
 *
-decoded
 )
 {
 return
@@ -800,9 +798,7 @@ PacketDuration
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 )
 const
 {
@@ -819,9 +815,7 @@ PacketDurationRedundant
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 )
 const
 {
@@ -838,9 +832,7 @@ PacketHasFec
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 )
 const
 {

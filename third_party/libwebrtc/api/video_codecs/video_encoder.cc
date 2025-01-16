@@ -1871,7 +1871,6 @@ SetFecControllerOverride
 (
 FecControllerOverride
 *
-fec_controller_override
 )
 {
 }
@@ -1960,7 +1959,6 @@ VideoEncoder
 OnPacketLossRateUpdate
 (
 float
-packet_loss_rate
 )
 {
 }
@@ -1971,7 +1969,6 @@ VideoEncoder
 OnRttUpdate
 (
 int64_t
-rtt_ms
 )
 {
 }
@@ -1984,7 +1981,6 @@ OnLossNotification
 const
 LossNotification
 &
-loss_notification
 )
 {
 }

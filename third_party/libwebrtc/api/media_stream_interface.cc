@@ -92,7 +92,6 @@ GetSignalLevel
 (
 int
 *
-level
 )
 {
 return

@@ -382,7 +382,6 @@ AudioEncoder
 SetApplication
 (
 Application
-application
 )
 {
 return
@@ -396,7 +395,6 @@ AudioEncoder
 SetMaxPlaybackRate
 (
 int
-frequency_hz
 )
 {
 }
@@ -407,7 +405,6 @@ AudioEncoder
 SetTargetBitrate
 (
 int
-target_bps
 )
 {
 }
@@ -447,10 +444,8 @@ std
 :
 string
 &
-config_string
 RtcEventLog
 *
-event_log
 )
 {
 return
@@ -473,7 +468,6 @@ AudioEncoder
 OnReceivedUplinkPacketLossFraction
 (
 float
-uplink_packet_loss_fraction
 )
 {
 }
@@ -484,7 +478,6 @@ AudioEncoder
 OnReceivedUplinkRecoverablePacketLossFraction
 (
 float
-uplink_recoverable_packet_loss_fraction
 )
 {
 RTC_DCHECK_NOTREACHED
@@ -519,7 +512,6 @@ AudioEncoder
 OnReceivedUplinkBandwidth
 (
 int
-target_audio_bitrate_bps
 std
 :
 :
@@ -527,7 +519,6 @@ optional
 <
 int64_t
 >
-bwe_period_ms
 )
 {
 }
@@ -567,7 +558,6 @@ AudioEncoder
 OnReceivedRtt
 (
 int
-rtt_ms
 )
 {
 }
@@ -578,7 +568,6 @@ AudioEncoder
 OnReceivedOverhead
 (
 size_t
-overhead_bytes_per_packet
 )
 {
 }
@@ -589,9 +578,7 @@ AudioEncoder
 SetReceiverFrameLengthRange
 (
 int
-min_frame_length_ms
 int
-max_frame_length_ms
 )
 {
 }

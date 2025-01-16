@@ -218,7 +218,6 @@ VideoBitrateAllocator
 SetLegacyConferenceMode
 (
 bool
-enabled
 )
 {
 }
