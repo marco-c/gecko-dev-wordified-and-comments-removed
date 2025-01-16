@@ -1077,6 +1077,9 @@ pocketStories
 isNotEmpty
 (
 )
+&
+&
+firstFrameDrawn
 topSiteColors
 =
 TopSiteColors
