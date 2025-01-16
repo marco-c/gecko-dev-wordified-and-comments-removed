@@ -2136,6 +2136,11 @@ ReleaseWlBuffer
 (
 )
 {
+if
+(
+mWlBuffer
+)
+{
 LOGDMABUF
 (
 (
@@ -2167,6 +2172,7 @@ mWlBuffer
 wl_buffer_destroy
 )
 ;
+}
 }
 #
 endif
