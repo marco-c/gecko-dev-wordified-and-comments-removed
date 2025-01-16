@@ -772,6 +772,7 @@ addresses
 ]
 (
 )
+mutable
 {
 caller_task_queue
 -
@@ -794,6 +795,8 @@ move
 addresses
 )
 ]
+(
+)
 {
 RTC_DCHECK_RUN_ON
 (
