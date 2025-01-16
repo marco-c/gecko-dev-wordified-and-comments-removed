@@ -217,6 +217,13 @@ size_t
 )
 MALLOC_DECL
 (
+jemalloc_stats_lite
+void
+jemalloc_stats_lite_t
+*
+)
+MALLOC_DECL
+(
 jemalloc_set_main_thread
 void
 )
