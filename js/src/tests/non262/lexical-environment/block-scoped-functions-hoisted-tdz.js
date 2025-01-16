@@ -109,11 +109,14 @@ truetrue
 ;
 if
 (
-"
+typeof
 reportCompare
+=
+=
+=
 "
-in
-this
+function
+"
 )
 reportCompare
 (

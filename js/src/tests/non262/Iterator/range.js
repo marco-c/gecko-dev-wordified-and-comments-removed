@@ -585,11 +585,9 @@ reportCompare
 function
 '
 )
-{
 reportCompare
 (
 0
 0
 )
 ;
-}
