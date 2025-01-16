@@ -5335,6 +5335,13 @@ cc
 "
 end_to_end_tests
 /
+corruption_detection_tests
+.
+cc
+"
+"
+end_to_end_tests
+/
 extended_reports_tests
 .
 cc
