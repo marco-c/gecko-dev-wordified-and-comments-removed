@@ -4735,6 +4735,16 @@ audio_processing
 /
 api
 /
+audio
+:
+builtin_audio_processing_builder
+"
+"
+.
+.
+/
+api
+/
 audio_codecs
 :
 builtin_audio_encoder_factory

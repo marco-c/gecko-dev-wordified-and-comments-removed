@@ -102,7 +102,7 @@ api
 /
 audio
 /
-audio_processing
+builtin_audio_processing_builder
 .
 h
 "
@@ -1513,12 +1513,15 @@ send_audio_state_config
 .
 audio_processing
 =
-AudioProcessingBuilder
+BuiltinAudioProcessingBuilder
 (
 )
 .
-Create
+Build
 (
+env
+(
+)
 )
 ;
 send_audio_state_config
