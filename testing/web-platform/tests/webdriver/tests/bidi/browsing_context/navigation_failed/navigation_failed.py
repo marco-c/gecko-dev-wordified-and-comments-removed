@@ -28,6 +28,13 @@ pytest
 mark
 .
 asyncio
+NAVIGATION_ABORTED_EVENT
+=
+"
+browsingContext
+.
+navigationAborted
+"
 NAVIGATION_FAILED_EVENT
 =
 "
@@ -1238,9 +1245,11 @@ d10
 await
 subscribe_events
 (
+        
 events
 =
 [
+NAVIGATION_ABORTED_EVENT
 NAVIGATION_FAILED_EVENT
 ]
 )
@@ -1274,11 +1283,47 @@ none
     
 )
     
-on_navigation_failed
+events
 =
-wait_for_event
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+events
+.
+append
+(
+data
+)
+    
+remove_listener_1
+=
+bidi_session
+.
+add_event_listener
+(
+        
+NAVIGATION_ABORTED_EVENT
+on_event
+)
+    
+remove_listener_2
+=
+bidi_session
+.
+add_event_listener
 (
 NAVIGATION_FAILED_EVENT
+                                                        
+on_event
 )
     
 second_url
@@ -1324,18 +1369,48 @@ none
     
 )
     
-event
+wait
 =
-await
-wait_for_future_safe
+AsyncPoll
 (
-on_navigation_failed
+bidi_session
+timeout
+=
+1
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+0
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+1
     
 assert_navigation_info
 (
         
-event
+events
+[
+0
+]
         
 {
             
@@ -1369,6 +1444,14 @@ slow_page_url
         
 }
     
+)
+    
+remove_listener_1
+(
+)
+    
+remove_listener_2
+(
 )
 async
 def
@@ -1523,18 +1606,56 @@ html
 await
 subscribe_events
 (
+        
 events
 =
 [
+NAVIGATION_ABORTED_EVENT
 NAVIGATION_FAILED_EVENT
 ]
 )
     
-on_navigation_failed
+events
 =
-wait_for_event
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+events
+.
+append
+(
+data
+)
+    
+remove_listener_1
+=
+bidi_session
+.
+add_event_listener
+(
+        
+NAVIGATION_ABORTED_EVENT
+on_event
+)
+    
+remove_listener_2
+=
+bidi_session
+.
+add_event_listener
 (
 NAVIGATION_FAILED_EVENT
+                                                        
+on_event
 )
     
 result
@@ -1566,18 +1687,48 @@ none
     
 )
     
-event
+wait
 =
-await
-wait_for_future_safe
+AsyncPoll
 (
-on_navigation_failed
+bidi_session
+timeout
+=
+1
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+0
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+1
     
 assert_navigation_info
 (
         
-event
+events
+[
+0
+]
         
 {
             
@@ -1611,6 +1762,14 @@ slow_page_url
         
 }
     
+)
+    
+remove_listener_1
+(
+)
+    
+remove_listener_2
+(
 )
 pytest
 .
@@ -1697,9 +1856,11 @@ d10
 await
 subscribe_events
 (
+        
 events
 =
 [
+NAVIGATION_ABORTED_EVENT
 NAVIGATION_FAILED_EVENT
 ]
 )
@@ -1733,11 +1894,47 @@ none
     
 )
     
-on_navigation_failed
+events
 =
-wait_for_event
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+events
+.
+append
+(
+data
+)
+    
+remove_listener_1
+=
+bidi_session
+.
+add_event_listener
+(
+        
+NAVIGATION_ABORTED_EVENT
+on_event
+)
+    
+remove_listener_2
+=
+bidi_session
+.
+add_event_listener
 (
 NAVIGATION_FAILED_EVENT
+                                                        
+on_event
 )
     
 await
@@ -1757,18 +1954,48 @@ context
 ]
 )
     
-event
+wait
 =
-await
-wait_for_future_safe
+AsyncPoll
 (
-on_navigation_failed
+bidi_session
+timeout
+=
+1
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+0
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+1
     
 assert_navigation_info
 (
         
-event
+events
+[
+0
+]
         
 {
             
@@ -1802,6 +2029,14 @@ slow_page_url
         
 }
     
+)
+    
+remove_listener_1
+(
+)
+    
+remove_listener_2
+(
 )
 async
 def
@@ -1863,15 +2098,15 @@ iframe
 await
 subscribe_events
 (
+        
 events
 =
 [
+NAVIGATION_ABORTED_EVENT
 NAVIGATION_FAILED_EVENT
 ]
 )
     
-result
-=
 await
 bidi_session
 .
@@ -1993,11 +2228,47 @@ none
     
 )
     
-on_navigation_failed
+events
 =
-wait_for_event
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+events
+.
+append
+(
+data
+)
+    
+remove_listener_1
+=
+bidi_session
+.
+add_event_listener
+(
+        
+NAVIGATION_ABORTED_EVENT
+on_event
+)
+    
+remove_listener_2
+=
+bidi_session
+.
+add_event_listener
 (
 NAVIGATION_FAILED_EVENT
+                                                        
+on_event
 )
     
 await
@@ -2022,18 +2293,48 @@ none
 "
 )
     
-event
+wait
 =
-await
-wait_for_future_safe
+AsyncPoll
 (
-on_navigation_failed
+bidi_session
+timeout
+=
+1
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+0
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+1
     
 assert_navigation_info
 (
         
-event
+events
+[
+0
+]
         
 {
             
@@ -2062,6 +2363,14 @@ slow_page_url
         
 }
     
+)
+    
+remove_listener_1
+(
+)
+    
+remove_listener_2
+(
 )
 pytest
 .
