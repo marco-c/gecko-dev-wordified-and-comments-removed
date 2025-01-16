@@ -6335,14 +6335,6 @@ Services
 .
 fog
 .
-initializeFOG
-(
-)
-;
-Services
-.
-fog
-.
 testResetFOG
 (
 )
