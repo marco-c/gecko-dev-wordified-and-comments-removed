@@ -938,16 +938,6 @@ rtc_builtin_ssl_root_certificates
 =
 true
 #
-Include
-the
-iLBC
-audio
-codec
-?
-rtc_include_ilbc
-=
-true
-#
 Disable
 this
 to
