@@ -2424,6 +2424,17 @@ calleeObj
 )
 ;
 AttachDecision
+tryAttachBoundFunApply
+(
+Handle
+<
+BoundFunctionObject
+*
+>
+calleeObj
+)
+;
+AttachDecision
 tryAttachFunCallBound
 (
 Handle
