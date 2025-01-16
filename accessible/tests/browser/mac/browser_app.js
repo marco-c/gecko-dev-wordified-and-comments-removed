@@ -729,7 +729,7 @@ length
 let
 baseRootChildCount
 =
-6
+5
 ;
 is
 (
