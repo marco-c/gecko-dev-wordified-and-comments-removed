@@ -4701,7 +4701,7 @@ size
 aFrame
 -
 >
-GetSubdocumentSize
+GetInitialSubdocumentSize
 (
 )
 ;

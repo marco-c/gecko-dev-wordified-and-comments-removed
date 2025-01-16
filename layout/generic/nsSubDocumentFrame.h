@@ -439,6 +439,7 @@ nsRect
 GetDestRect
 (
 )
+const
 ;
 nsRect
 GetDestRect
@@ -448,6 +449,16 @@ nsRect
 &
 aConstraintRect
 )
+const
+;
+mozilla
+:
+:
+LayoutDeviceIntSize
+GetInitialSubdocumentSize
+(
+)
+const
 ;
 mozilla
 :
@@ -456,6 +467,7 @@ LayoutDeviceIntSize
 GetSubdocumentSize
 (
 )
+const
 ;
 bool
 ContentReactsToPointerEvents
