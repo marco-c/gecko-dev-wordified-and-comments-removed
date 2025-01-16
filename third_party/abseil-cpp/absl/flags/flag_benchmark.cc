@@ -1000,7 +1000,6 @@ T
 #
 _flag
 )
-;
 BENCHMARKED_TYPES
 (
 FLAG_DEF

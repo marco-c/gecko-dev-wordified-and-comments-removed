@@ -637,11 +637,8 @@ visibility
 =
 [
 "
-/
-/
-visibility
 :
-private
+__pkg__
 "
 ]
 deps
@@ -686,11 +683,8 @@ visibility
 =
 [
 "
-/
-/
-visibility
 :
-private
+__pkg__
 "
 ]
 deps

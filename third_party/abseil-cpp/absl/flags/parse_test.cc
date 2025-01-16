@@ -221,7 +221,6 @@ name
 "
 "
 )
-;
 #
 define
 F1
@@ -272,7 +271,6 @@ name
 #
 5
 )
-;
 #
 define
 F2
@@ -323,7 +321,6 @@ name
 #
 5
 )
-;
 #
 define
 F3
@@ -374,11 +371,11 @@ name
 #
 5
 )
-;
 FLAG_MULT
 (
 TEST_FLAG_HEADER
 )
+;
 namespace
 {
 using

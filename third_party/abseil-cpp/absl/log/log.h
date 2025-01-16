@@ -18,17 +18,6 @@ log_impl
 h
 "
 #
-include
-"
-absl
-/
-log
-/
-vlog_is_on
-.
-h
-"
-#
 define
 LOG
 (

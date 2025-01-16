@@ -1666,9 +1666,6 @@ case
 ENOPROTOOPT
 :
 case
-ENOSTR
-:
-case
 ENOTSOCK
 :
 case
@@ -1688,9 +1685,6 @@ kInvalidArgument
 ;
 case
 ETIMEDOUT
-:
-case
-ETIME
 :
 return
 StatusCode
@@ -1873,13 +1867,7 @@ case
 ENOBUFS
 :
 case
-ENODATA
-:
-case
 ENOMEM
-:
-case
-ENOSR
 :
 #
 ifdef

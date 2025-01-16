@@ -266,10 +266,11 @@ SupportsSteadyClock
 )
 )
 {
+thread_local
 absl
 :
 :
-SharedBitGen
+BitGen
 gen
 ;
 ts

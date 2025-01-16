@@ -162,10 +162,11 @@ SupportsSteadyClock
 )
 )
 {
+thread_local
 absl
 :
 :
-SharedBitGen
+BitGen
 gen
 ;
 ts
@@ -317,7 +318,7 @@ KernelTimeout
 TEST
 (
 KernelTimeout
-FiniteTimes
+DISABLED_FiniteTimes
 )
 {
 constexpr
@@ -1815,7 +1816,7 @@ nanoseconds
 TEST
 (
 KernelTimeout
-FiniteDurations
+DISABLED_FiniteDurations
 )
 {
 constexpr
@@ -2156,7 +2157,7 @@ kTimingBound
 TEST
 (
 KernelTimeout
-NegativeDurations
+DISABLED_NegativeDurations
 )
 {
 constexpr

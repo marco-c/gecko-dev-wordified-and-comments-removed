@@ -1,7 +1,7 @@
 #
 include
 <
-cstdint
+cstring
 >
 #
 include
@@ -40,6 +40,17 @@ crc
 internal
 /
 crc_memcpy
+.
+h
+"
+#
+include
+"
+absl
+/
+strings
+/
+string_view
 .
 h
 "

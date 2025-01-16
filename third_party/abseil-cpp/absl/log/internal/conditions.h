@@ -1144,7 +1144,11 @@ next_log_time_cycles_
 ;
 }
 ;
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 inline
 void
 AbortQuietly
@@ -1156,7 +1160,11 @@ abort
 )
 ;
 }
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 inline
 void
 ExitQuietly

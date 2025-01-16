@@ -123,7 +123,7 @@ base_internal
 :
 invoke
 (
-absl
+std
 :
 :
 forward
@@ -144,7 +144,7 @@ Idx
 .
 .
 .
-absl
+std
 :
 :
 forward
@@ -242,7 +242,7 @@ ts
 :
 bound_args_
 (
-absl
+std
 :
 :
 forward
@@ -316,7 +316,7 @@ bound_args_
 Idx
 (
 )
-absl
+std
 :
 :
 forward
@@ -393,7 +393,7 @@ bound_args_
 Idx
 (
 )
-absl
+std
 :
 :
 forward
@@ -466,7 +466,7 @@ Apply
 R
 >
 (
-absl
+std
 :
 :
 move
@@ -476,7 +476,7 @@ bound_args_
 Idx
 (
 )
-absl
+std
 :
 :
 forward
@@ -552,7 +552,7 @@ Apply
 R
 >
 (
-absl
+std
 :
 :
 move
@@ -562,7 +562,7 @@ bound_args_
 Idx
 (
 )
-absl
+std
 :
 :
 forward

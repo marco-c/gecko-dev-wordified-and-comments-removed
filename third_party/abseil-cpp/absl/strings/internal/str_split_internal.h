@@ -12,6 +12,11 @@ array
 #
 include
 <
+cstddef
+>
+#
+include
+<
 initializer_list
 >
 #
@@ -2022,7 +2027,13 @@ begin
 (
 )
 +
+static_cast
+<
+ptrdiff_t
+>
+(
 index
+)
 )
 ;
 }

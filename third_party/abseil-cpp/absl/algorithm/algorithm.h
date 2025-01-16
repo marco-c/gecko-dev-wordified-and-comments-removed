@@ -53,6 +53,7 @@ InputIterator
 typename
 EqualityComparable
 >
+ABSL_INTERNAL_CONSTEXPR_SINCE_CXX20
 bool
 linear_search
 (

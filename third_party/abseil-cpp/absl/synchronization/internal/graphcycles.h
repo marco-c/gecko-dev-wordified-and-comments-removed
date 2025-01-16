@@ -227,6 +227,13 @@ CheckInvariants
 )
 const
 ;
+void
+TestOnlyAddNodes
+(
+uint32_t
+n
+)
+;
 struct
 Rep
 ;

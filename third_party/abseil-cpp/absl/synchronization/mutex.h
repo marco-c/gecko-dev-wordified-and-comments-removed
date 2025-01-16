@@ -174,6 +174,7 @@ SynchWaitParams
 ;
 class
 ABSL_LOCKABLE
+ABSL_ATTRIBUTE_WARN_UNUSED
 Mutex
 {
 public
@@ -213,6 +214,7 @@ ABSL_UNLOCK_FUNCTION
 (
 )
 ;
+ABSL_MUST_USE_RESULT
 bool
 TryLock
 (
@@ -247,6 +249,7 @@ ABSL_UNLOCK_FUNCTION
 (
 )
 ;
+ABSL_MUST_USE_RESULT
 bool
 ReaderTryLock
 (
@@ -297,6 +300,7 @@ Unlock
 )
 ;
 }
+ABSL_MUST_USE_RESULT
 bool
 WriterTryLock
 (

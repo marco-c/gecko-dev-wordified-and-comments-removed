@@ -11,6 +11,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 nullability_impl
@@ -20,6 +31,7 @@ h
 namespace
 absl
 {
+ABSL_NAMESPACE_BEGIN
 template
 <
 typename
@@ -68,6 +80,7 @@ NullabilityUnknownImpl
 T
 >
 ;
+ABSL_NAMESPACE_END
 }
 #
 if

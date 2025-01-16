@@ -17,6 +17,11 @@ cstddef
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #

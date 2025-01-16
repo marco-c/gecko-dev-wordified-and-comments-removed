@@ -117,6 +117,9 @@ return
 __lsan_do_recoverable_leak_check
 (
 )
+!
+=
+0
 ;
 }
 void

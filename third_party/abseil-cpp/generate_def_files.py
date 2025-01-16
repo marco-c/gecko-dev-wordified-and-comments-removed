@@ -583,11 +583,22 @@ exit
 1
 )
   
+cwd
+=
+os
+.
+getcwd
+(
+)
+  
 with
 tempfile
 .
 TemporaryDirectory
 (
+dir
+=
+cwd
 )
 as
 out_dir
@@ -646,11 +657,7 @@ gn_args
                           
 cwd
 =
-os
-.
-getcwd
-(
-)
+cwd
 )
     
 logging

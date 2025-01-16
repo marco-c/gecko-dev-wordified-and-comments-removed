@@ -1879,7 +1879,6 @@ Engine
 ThreadPerCpu
 (
 )
-;
 #
 define
 BM_EXTENDED
@@ -2473,7 +2472,6 @@ double
 >
 199
 )
-;
 BM_BASIC
 (
 absl

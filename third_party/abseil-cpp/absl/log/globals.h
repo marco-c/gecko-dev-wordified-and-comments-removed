@@ -292,7 +292,7 @@ int
 SetGlobalVLogLevel
 (
 int
-log_level
+threshold
 )
 {
 return
@@ -304,7 +304,7 @@ log_internal
 :
 UpdateGlobalVLogLevel
 (
-log_level
+threshold
 )
 ;
 }
@@ -318,7 +318,7 @@ absl
 string_view
 module_pattern
 int
-log_level
+threshold
 )
 {
 return
@@ -331,7 +331,7 @@ log_internal
 PrependVModule
 (
 module_pattern
-log_level
+threshold
 )
 ;
 }

@@ -515,6 +515,10 @@ version
 PLATFORM_ID
 :
 Darwin
+iOS
+tvOS
+visionOS
+watchOS
 >
 :
 -

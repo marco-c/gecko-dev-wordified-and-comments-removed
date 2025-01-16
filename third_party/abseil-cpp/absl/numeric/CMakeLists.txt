@@ -219,6 +219,10 @@ DEPS
 absl
 :
 :
+compare
+absl
+:
+:
 config
 absl
 :
@@ -258,6 +262,10 @@ absl
 :
 :
 base
+absl
+:
+:
+compare
 absl
 :
 :

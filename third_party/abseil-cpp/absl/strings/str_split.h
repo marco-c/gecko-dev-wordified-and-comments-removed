@@ -945,7 +945,13 @@ value
 )
 DelimiterType
 (
+std
+:
+:
+move
+(
 d
+)
 )
 std
 :

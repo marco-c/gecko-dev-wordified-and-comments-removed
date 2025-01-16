@@ -81,7 +81,11 @@ ABSL_NAMESPACE_BEGIN
 namespace
 log_internal
 {
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 ABSL_ATTRIBUTE_NOINLINE
 void
 DieBecauseNull

@@ -415,7 +415,7 @@ cmake_minimum_required
 VERSION
 3
 .
-10
+16
 )
 project
 (
@@ -588,7 +588,7 @@ cmake_minimum_required
 VERSION
 3
 .
-10
+16
 )
 project
 (

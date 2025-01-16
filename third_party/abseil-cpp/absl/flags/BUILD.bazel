@@ -1712,6 +1712,10 @@ marshalling
 "
 "
 :
+parse
+"
+"
+:
 reflection
 "
 "
@@ -2168,6 +2172,9 @@ ABSL_DEFAULT_LINKOPTS
 tags
 =
 [
+"
+no_test_fuchsia_x64
+"
 "
 no_test_wasm
 "

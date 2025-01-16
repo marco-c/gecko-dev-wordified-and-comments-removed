@@ -344,14 +344,12 @@ testing
 :
 Matcher
 <
-const
 absl
 :
 :
-LogEntry
-&
+Time
 >
-TimestampInMatchWindow
+InMatchWindow
 (
 )
 ;

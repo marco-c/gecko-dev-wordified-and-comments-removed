@@ -54,6 +54,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 config
 .
 h
@@ -284,6 +295,7 @@ vec_regions
 size_t
 int_regions
 >
+ABSL_ATTRIBUTE_NO_SANITIZE_UNDEFINED
 inline
 void
 LargeTailCopy
@@ -605,11 +617,6 @@ region
 =
 crc32c_t
 {
-static_cast
-<
-uint32_t
->
-(
 CRC32_u64
 (
 static_cast
@@ -626,7 +633,6 @@ int_data
 [
 data_index
 ]
-)
 )
 }
 ;
@@ -742,6 +748,7 @@ vec_regions
 size_t
 int_regions
 >
+ABSL_ATTRIBUTE_NO_SANITIZE_UNDEFINED
 crc32c_t
 AcceleratedCrcMemcpyEngine
 <
@@ -1480,11 +1487,6 @@ region
 =
 crc32c_t
 {
-static_cast
-<
-uint32_t
->
-(
 CRC32_u64
 (
 static_cast
@@ -1501,7 +1503,6 @@ int_data
 [
 data_index
 ]
-)
 )
 }
 ;

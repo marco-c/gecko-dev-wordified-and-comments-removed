@@ -958,7 +958,6 @@ name
 )
 false
 )
-;
 MAKE_BENCHMARK
 (
 AbslHash
@@ -2278,7 +2277,6 @@ PodRand
 int32_t
 >
 )
-;
 MAKE_LATENCY_BENCHMARK
 (
 AbslHash
@@ -2288,7 +2286,6 @@ PodRand
 int64_t
 >
 )
-;
 MAKE_LATENCY_BENCHMARK
 (
 AbslHash
@@ -2298,7 +2295,6 @@ StringRand
 9
 >
 )
-;
 MAKE_LATENCY_BENCHMARK
 (
 AbslHash
@@ -2308,7 +2304,6 @@ StringRand
 33
 >
 )
-;
 MAKE_LATENCY_BENCHMARK
 (
 AbslHash
@@ -2318,7 +2313,6 @@ StringRand
 65
 >
 )
-;
 MAKE_LATENCY_BENCHMARK
 (
 AbslHash
@@ -2328,4 +2322,3 @@ StringRand
 257
 >
 )
-;

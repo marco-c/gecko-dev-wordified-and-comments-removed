@@ -41,6 +41,11 @@ type_traits
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 absl
 /
@@ -1225,7 +1230,7 @@ type
 )
 ;
 return
-absl
+std
 :
 :
 forward
@@ -1619,67 +1624,10 @@ Op
 &
 )
 {
-#
-if
-ABSL_HAVE_BUILTIN
-(
-__builtin_unreachable
-)
-|
-|
-\
-(
-defined
-(
-__GNUC__
-)
-&
-&
-!
-defined
-(
-__clang__
-)
-)
-__builtin_unreachable
+ABSL_UNREACHABLE
 (
 )
 ;
-#
-elif
-defined
-(
-_MSC_VER
-)
-__assume
-(
-false
-)
-;
-#
-else
-assert
-(
-false
-)
-;
-return
-Run
-(
-absl
-:
-:
-forward
-<
-Op
->
-(
-op
-)
-)
-;
-#
-endif
 }
 }
 ;
@@ -1722,7 +1670,7 @@ base_internal
 :
 invoke
 (
-absl
+std
 :
 :
 forward
@@ -2030,7 +1978,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2056,7 +2004,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2082,7 +2030,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2108,7 +2056,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2134,7 +2082,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2160,7 +2108,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2186,7 +2134,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2212,7 +2160,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2238,7 +2186,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2264,7 +2212,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2290,7 +2238,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2316,7 +2264,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2342,7 +2290,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2368,7 +2316,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2394,7 +2342,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2420,7 +2368,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2446,7 +2394,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2472,7 +2420,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2498,7 +2446,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2524,7 +2472,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2550,7 +2498,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2576,7 +2524,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2602,7 +2550,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2628,7 +2576,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2654,7 +2602,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2680,7 +2628,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2706,7 +2654,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2732,7 +2680,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2758,7 +2706,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2784,7 +2732,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2810,7 +2758,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2836,7 +2784,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2862,7 +2810,7 @@ EndIndex
 :
 Run
 (
-absl
+std
 :
 :
 forward
@@ -2893,7 +2841,7 @@ base_internal
 :
 invoke
 (
-absl
+std
 :
 :
 forward
@@ -3002,7 +2950,7 @@ indices
 .
 )
 (
-absl
+std
 :
 :
 forward
@@ -3337,7 +3285,7 @@ base_internal
 :
 invoke
 (
-absl
+std
 :
 :
 forward
@@ -3447,7 +3395,7 @@ FlattenedOp
 Op
 >
 {
-absl
+std
 :
 :
 forward
@@ -4032,7 +3980,7 @@ Access
 I
 >
 (
-absl
+std
 :
 :
 forward
@@ -4473,7 +4421,7 @@ value
 left
 )
 =
-absl
+std
 :
 :
 forward
@@ -4564,7 +4512,7 @@ NewIndex
 value
 >
 (
-absl
+std
 :
 :
 forward
@@ -4593,7 +4541,7 @@ value
 (
 New
 (
-absl
+std
 :
 :
 forward
@@ -4646,7 +4594,7 @@ qual
 return
 {
 left
-absl
+std
 :
 :
 forward
@@ -4748,7 +4696,7 @@ state_
 )
 New
 (
-absl
+std
 :
 :
 forward
@@ -6158,7 +6106,7 @@ base_internal
 :
 invoke
 (
-absl
+std
 :
 :
 forward
@@ -6176,7 +6124,7 @@ Access
 Is
 >
 (
-absl
+std
 :
 :
 forward
@@ -6423,7 +6371,7 @@ args
 :
 head
 (
-absl
+std
 :
 :
 forward
@@ -6479,7 +6427,7 @@ I
 >
 {
 }
-absl
+std
 :
 :
 forward
@@ -6618,7 +6566,7 @@ args
 :
 head
 (
-absl
+std
 :
 :
 forward
@@ -6674,7 +6622,7 @@ I
 >
 {
 }
-absl
+std
 :
 :
 forward
@@ -6873,7 +6821,7 @@ args
 state_
 (
 tag
-absl
+std
 :
 :
 forward
@@ -8474,7 +8422,7 @@ variant_internal
 :
 AccessUnion
 (
-absl
+std
 :
 :
 move

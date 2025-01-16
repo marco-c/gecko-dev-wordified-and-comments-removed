@@ -29,7 +29,11 @@ if
 (
 BUILD_SHARED_LIBS
 AND
+(
 MSVC
+OR
+ABSL_BUILD_MONOLITHIC_SHARED_LIBS
+)
 )
 set
 (
@@ -340,13 +344,13 @@ list
 APPEND
 ABSL_RANDOM_RANDEN_COPTS
 "
+SHELL
+:
 -
 Xarch_
 {
 _arch
 }
-"
-"
 {
 _flag
 }

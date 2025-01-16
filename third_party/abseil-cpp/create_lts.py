@@ -695,6 +695,7 @@ CMakeLists
 .
 txt
 '
+      
 {
           
 '
@@ -706,6 +707,7 @@ CXX
 )
 '
 :
+(
               
 '
 project
@@ -723,29 +725,16 @@ format
 (
 datestamp
 )
-      
-}
+          
 )
-  
-ReplaceStringsInFile
-(
-      
+          
 '
-CMake
-/
-AbseilHelpers
-.
-cmake
-'
-      
-{
-'
-SOVERSION
+ABSL_SOVERSION
 0
 '
 :
 '
-SOVERSION
+ABSL_SOVERSION
 "
 {
 }
@@ -765,7 +754,9 @@ datestamp
 6
 ]
 )
+      
 }
+  
 )
   
 StripContentBetweenTags
