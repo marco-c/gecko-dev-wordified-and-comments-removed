@@ -273,6 +273,9 @@ restoreLastClosedTabOrWindowOrSession
 undoCloseTab
 "
 "
+undoCloseTabGroup
+"
+"
 undoCloseWindow
 "
 "
