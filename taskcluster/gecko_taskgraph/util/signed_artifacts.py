@@ -438,9 +438,6 @@ macapp
 "
 autograph_widevine
 "
-"
-autograph_omnija
-"
 ]
                 
 }
@@ -599,10 +596,6 @@ autograph_authenticode_202404
 "
 autograph_widevine
 "
-                    
-"
-autograph_omnija
-"
                 
 ]
             
@@ -691,9 +684,6 @@ autograph_gpg
 "
 "
 autograph_widevine
-"
-"
-autograph_omnija
 "
 ]
             
@@ -928,33 +918,6 @@ remove
 (
 "
 autograph_widevine
-"
-)
-        
-if
-"
-autograph_omnija
-"
-in
-spec
-[
-"
-formats
-"
-]
-:
-            
-spec
-[
-"
-formats
-"
-]
-.
-remove
-(
-"
-autograph_omnija
 "
 )
     
