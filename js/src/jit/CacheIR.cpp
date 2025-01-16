@@ -33337,6 +33337,8 @@ InlinableNativeIRGenerator
 :
 emitNativeCalleeGuard
 (
+Int32OperandId
+argcId
 )
 {
 MOZ_ASSERT
@@ -33451,24 +33453,6 @@ FunCall
 {
 MOZ_ASSERT
 (
-generator_
-.
-writer
-.
-numOperandIds
-(
-)
->
-0
-"
-argcId
-is
-initialized
-"
-)
-;
-MOZ_ASSERT
-(
 !
 isCalleeBoundFunction
 (
@@ -33478,12 +33462,6 @@ unexpected
 bound
 function
 "
-)
-;
-Int32OperandId
-argcId
-(
-0
 )
 ;
 calleeObjId
@@ -33515,24 +33493,6 @@ FunApplyArray
 ;
 MOZ_ASSERT
 (
-generator_
-.
-writer
-.
-numOperandIds
-(
-)
->
-0
-"
-argcId
-is
-initialized
-"
-)
-;
-MOZ_ASSERT
-(
 !
 isCalleeBoundFunction
 (
@@ -33542,12 +33502,6 @@ unexpected
 bound
 function
 "
-)
-;
-Int32OperandId
-argcId
-(
-0
 )
 ;
 calleeObjId
@@ -34773,6 +34727,9 @@ elements
 "
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -34782,6 +34739,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -34967,6 +34925,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -34976,6 +34937,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -35153,6 +35115,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -35162,6 +35127,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -35526,6 +35492,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -35535,6 +35504,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -35869,6 +35839,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -35878,6 +35851,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -36170,6 +36144,9 @@ res
 INT32_MAX
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -36179,6 +36156,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -36569,6 +36547,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -36578,6 +36559,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -40862,6 +40844,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -40871,6 +40856,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -41011,6 +40997,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -41020,6 +41009,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -41119,6 +41109,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -41128,6 +41121,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -41516,6 +41510,9 @@ AttachStringChar
 :
 OutOfBounds
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -41525,6 +41522,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -41927,6 +41925,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -41936,6 +41937,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42089,6 +42091,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42098,6 +42103,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42204,6 +42210,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42213,6 +42222,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42338,6 +42348,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42347,6 +42360,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42472,6 +42486,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42481,6 +42498,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42606,6 +42624,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42615,6 +42636,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42740,6 +42762,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42749,6 +42774,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42863,6 +42889,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42872,6 +42901,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -42963,6 +42993,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -42972,6 +43005,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43063,6 +43097,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43072,6 +43109,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43163,6 +43201,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43172,6 +43213,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43263,6 +43305,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43272,6 +43317,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43381,12 +43427,16 @@ RNG
 "
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
 ;
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 mozilla
@@ -43486,6 +43536,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43495,6 +43548,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43630,6 +43684,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43639,6 +43696,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43777,6 +43835,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43786,6 +43847,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -43966,6 +44028,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43975,6 +44040,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44184,6 +44250,9 @@ res
 unused
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44193,6 +44262,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44367,6 +44437,9 @@ res
 unused
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44376,6 +44449,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44550,6 +44624,9 @@ res
 unused
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44559,6 +44636,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44733,6 +44811,9 @@ res
 unused
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44742,6 +44823,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44889,6 +44971,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44898,6 +44983,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44987,6 +45073,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44996,6 +45085,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45085,6 +45175,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45094,6 +45187,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45325,6 +45419,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45334,6 +45431,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45551,6 +45649,9 @@ NoAction
 ;
 }
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45560,6 +45661,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45815,6 +45917,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45824,6 +45929,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45999,6 +46105,9 @@ false
 ;
 }
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -46008,6 +46117,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -46319,12 +46429,16 @@ false
 ;
 }
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
 ;
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ObjOperandId
@@ -46514,6 +46628,9 @@ break
 ;
 }
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -46523,6 +46640,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -46649,6 +46767,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -46658,6 +46779,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -46939,6 +47061,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -46948,6 +47073,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 auto
@@ -47530,6 +47656,9 @@ base
 36
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -47539,6 +47668,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -47737,6 +47867,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -47746,6 +47879,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -48171,6 +48305,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -48180,6 +48317,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -48528,6 +48666,9 @@ TypedArrayObject
 (
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -48537,6 +48678,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -49412,6 +49554,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -49421,6 +49566,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -49741,6 +49887,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -49750,6 +49899,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -49948,6 +50098,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -49957,6 +50110,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -50035,12 +50189,16 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
 ;
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 writer
@@ -50095,6 +50253,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -50104,6 +50265,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -50195,12 +50357,16 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
 ;
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 writer
@@ -50274,6 +50440,9 @@ toBoolean
 (
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -50283,6 +50452,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -50364,6 +50534,9 @@ toBoolean
 (
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -50373,6 +50546,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -50442,6 +50616,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -50451,6 +50628,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51115,6 +51293,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51124,6 +51305,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51266,6 +51448,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51275,6 +51460,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51399,6 +51585,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51408,6 +51597,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51493,6 +51683,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51502,6 +51695,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51633,6 +51827,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51642,6 +51839,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51793,6 +51991,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51802,6 +52003,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -51942,6 +52144,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51951,6 +52156,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -52331,6 +52537,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52340,6 +52549,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -52474,6 +52684,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52483,6 +52696,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -52617,6 +52831,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52626,6 +52843,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -52743,6 +52961,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52752,6 +52973,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -53132,6 +53354,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53141,6 +53366,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -53521,6 +53747,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53530,6 +53759,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -53675,6 +53905,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53684,6 +53917,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -53870,6 +54104,9 @@ isInt32
 )
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53892,6 +54129,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 }
@@ -54078,6 +54316,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54087,6 +54328,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -54572,17 +54814,6 @@ AttachDecision
 NoAction
 ;
 }
-Int32OperandId
-argcId
-(
-writer
-.
-setInputOperandId
-(
-0
-)
-)
-;
 CallFlags
 targetFlags
 (
@@ -54718,6 +54949,17 @@ tryAttachStub
 )
 ;
 }
+Int32OperandId
+argcId
+(
+writer
+.
+setInputOperandId
+(
+0
+)
+)
+;
 ObjOperandId
 thisObjId
 =
@@ -56609,6 +56851,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56618,6 +56863,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -56850,6 +57096,9 @@ NoAction
 ;
 }
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56859,6 +57108,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -57204,6 +57454,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57213,6 +57466,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 Int32OperandId
@@ -57571,6 +57825,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57580,6 +57837,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -58033,6 +58291,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58042,6 +58303,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -58669,6 +58931,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58678,6 +58943,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -59117,6 +59383,9 @@ templateObj
 )
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -59126,6 +59395,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -59613,17 +59883,6 @@ AttachDecision
 NoAction
 ;
 }
-Int32OperandId
-argcId
-(
-writer
-.
-setInputOperandId
-(
-0
-)
-)
-;
 CallFlags
 targetFlags
 (
@@ -59881,6 +60140,17 @@ tryAttachStub
 )
 ;
 }
+Int32OperandId
+argcId
+(
+writer
+.
+setInputOperandId
+(
+0
+)
+)
+;
 ObjOperandId
 thisObjId
 =
@@ -61009,26 +61279,31 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
 ;
+ObjOperandId
+calleeId
+=
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
 argValId
 =
-writer
-.
-loadArgumentFixedSlot
+loadArgument
 (
+calleeId
 ArgumentKind
 :
 :
 Arg0
-argc_
 )
 ;
 writer
