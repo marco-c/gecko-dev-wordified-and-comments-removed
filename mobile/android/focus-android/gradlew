@@ -866,6 +866,8 @@ printf
 '
 %
 s
+\
+n
 '
 "
 PWD
