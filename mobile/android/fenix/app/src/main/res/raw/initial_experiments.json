@@ -126,7 +126,7 @@ toolbar
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
