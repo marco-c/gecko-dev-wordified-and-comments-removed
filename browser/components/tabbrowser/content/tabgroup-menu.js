@@ -504,7 +504,7 @@ toolbarbutton
 tabindex
 =
 "
-1
+0
 "
 id
 =
@@ -545,7 +545,7 @@ toolbarbutton
 tabindex
 =
 "
-1
+0
 "
 id
 =
@@ -586,7 +586,7 @@ toolbarbutton
 tabindex
 =
 "
-1
+0
 "
 id
 =
@@ -625,7 +625,7 @@ toolbarbutton
 tabindex
 =
 "
-1
+0
 "
 id
 =
@@ -710,6 +710,11 @@ delete
 >
 <
 toolbarbutton
+tabindex
+=
+"
+0
+"
 id
 =
 "
