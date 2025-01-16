@@ -3283,6 +3283,7 @@ tar
 .
 extractall
 (
+        
 path
 members
 =
@@ -3294,6 +3295,12 @@ path
 numeric_owner
 =
 numeric_owner
+filter
+=
+"
+tar
+"
+    
 )
 def
 unpack
