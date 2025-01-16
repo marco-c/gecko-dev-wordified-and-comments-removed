@@ -88,6 +88,13 @@ js
 ]
 [
 "
+browser_sidebar_collapsed_close_tab_button
+.
+js
+"
+]
+[
+"
 browser_sidebar_context_menu
 .
 js
