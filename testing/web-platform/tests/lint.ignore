@@ -3998,6 +3998,8 @@ trusted
 -
 types
 /
+support
+/
 block
 -
 string
@@ -4012,7 +4014,7 @@ setTimeout
 -
 setInterval
 .
-html
+js
 SET
 TIMEOUT
 :
