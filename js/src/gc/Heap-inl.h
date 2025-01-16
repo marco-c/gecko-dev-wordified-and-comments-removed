@@ -392,7 +392,7 @@ FirstThingOffset
 markIfUnmarked
 (
 const
-TenuredCell
+void
 *
 cell
 MarkColor
@@ -526,7 +526,7 @@ FirstThingOffset
 markIfUnmarkedAtomic
 (
 const
-TenuredCell
+void
 *
 cell
 MarkColor
@@ -646,7 +646,7 @@ FirstThingOffset
 markBlack
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -710,7 +710,7 @@ FirstThingOffset
 markBlackAtomic
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -885,7 +885,7 @@ FirstThingOffset
 unmark
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1049,19 +1049,7 @@ unused
 ;
 getMarkWordAndMask
 (
-reinterpret_cast
-<
-TenuredCell
-*
->
-(
 arena
--
->
-address
-(
-)
-)
 ColorBit
 :
 :

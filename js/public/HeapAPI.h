@@ -904,7 +904,7 @@ void
 getMarkWordAndMask
 (
 const
-TenuredCell
+void
 *
 cell
 ColorBit
@@ -1005,7 +1005,7 @@ bool
 markBit
 (
 const
-TenuredCell
+void
 *
 cell
 ColorBit
@@ -1041,7 +1041,7 @@ bool
 isMarkedAny
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1072,7 +1072,7 @@ bool
 isMarkedBlack
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1093,7 +1093,7 @@ bool
 isMarkedGray
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1125,7 +1125,7 @@ bool
 markIfUnmarked
 (
 const
-TenuredCell
+void
 *
 cell
 MarkColor
@@ -1137,7 +1137,7 @@ bool
 markIfUnmarkedAtomic
 (
 const
-TenuredCell
+void
 *
 cell
 MarkColor
@@ -1149,7 +1149,7 @@ void
 markBlack
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1159,7 +1159,7 @@ void
 markBlackAtomic
 (
 const
-TenuredCell
+void
 *
 cell
 )
@@ -1184,7 +1184,7 @@ void
 unmark
 (
 const
-TenuredCell
+void
 *
 cell
 )
