@@ -809,6 +809,9 @@ fromCache
 "
 fromServiceWorker
 "
+"
+securityFlags
+"
 ]
 ;
 const

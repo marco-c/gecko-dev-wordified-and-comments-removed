@@ -230,6 +230,7 @@ method
 headers
 body
 cause
+securityFlags
 }
 =
 request
@@ -275,6 +276,9 @@ loadingNode
 doc
 securityFlags
 :
+securityFlags
+|
+|
 Ci
 .
 nsILoadInfo
