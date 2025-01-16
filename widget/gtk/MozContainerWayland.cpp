@@ -412,6 +412,16 @@ widget
 )
 )
 ;
+if
+(
+surface
+-
+>
+IsMapped
+(
+)
+)
+{
 surface
 -
 >
@@ -419,6 +429,7 @@ RunUnmapCallback
 (
 )
 ;
+}
 WaylandSurfaceLock
 lock
 (
