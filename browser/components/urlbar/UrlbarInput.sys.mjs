@@ -3528,17 +3528,6 @@ selectedBrowser
 currentAuthPromptURI
 |
 |
-this
-.
-window
-.
-gBrowser
-.
-selectedBrowser
-.
-currentAboutBlankControllingURI
-|
-|
 uri
 |
 |
