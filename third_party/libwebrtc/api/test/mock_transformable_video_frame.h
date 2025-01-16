@@ -266,7 +266,7 @@ optional
 <
 Timestamp
 >
-GetCaptureTimeIdentifier
+GetPresentationTimestamp
 (
 )
 (

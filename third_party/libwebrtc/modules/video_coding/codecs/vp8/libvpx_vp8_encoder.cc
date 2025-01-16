@@ -7322,11 +7322,11 @@ encoded_images_
 encoder_idx
 ]
 .
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 input_image
 .
-capture_time_identifier
+presentation_timestamp
 (
 )
 )

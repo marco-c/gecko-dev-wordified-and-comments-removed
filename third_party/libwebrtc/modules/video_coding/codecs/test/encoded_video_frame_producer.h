@@ -158,7 +158,7 @@ value
 ;
 EncodedVideoFrameProducer
 &
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 Timestamp
 value
@@ -187,7 +187,7 @@ rtp_timestamp_
 1000
 ;
 Timestamp
-capture_time_identifier_
+presentation_timestamp_
 =
 Timestamp
 :
@@ -359,13 +359,13 @@ EncodedVideoFrameProducer
 EncodedVideoFrameProducer
 :
 :
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 Timestamp
 value
 )
 {
-capture_time_identifier_
+presentation_timestamp_
 =
 value
 ;

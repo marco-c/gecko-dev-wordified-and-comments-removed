@@ -4153,11 +4153,11 @@ rtp_timestamp
 ;
 encoded_image
 .
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 frame
 .
-capture_time_identifier
+presentation_timestamp
 (
 )
 )

@@ -185,7 +185,7 @@ webrtc
 :
 Timestamp
 >
-GetCaptureTimeIdentifier
+GetPresentationTimestamp
 (
 )
 (

@@ -8774,11 +8774,11 @@ ntp_time_ms
 ;
 incoming_frame
 .
-set_capture_time_identifier
+set_presentation_timestamp
 (
 video_frame
 .
-capture_time_identifier
+presentation_timestamp
 (
 )
 )
@@ -11027,11 +11027,11 @@ ntp_time_ms
 ;
 out_frame
 .
-set_capture_time_identifier
+set_presentation_timestamp
 (
 video_frame
 .
-capture_time_identifier
+presentation_timestamp
 (
 )
 )

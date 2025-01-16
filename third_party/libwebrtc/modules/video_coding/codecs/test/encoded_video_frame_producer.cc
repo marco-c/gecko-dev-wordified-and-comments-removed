@@ -355,9 +355,9 @@ set_rtp_timestamp
 rtp_timestamp_
 )
 .
-set_capture_time_identifier
+set_presentation_timestamp
 (
-capture_time_identifier_
+presentation_timestamp_
 )
 .
 build

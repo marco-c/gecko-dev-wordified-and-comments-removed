@@ -1554,7 +1554,7 @@ OnEncodedImageReportsInfo
 {
 constexpr
 Timestamp
-kCaptureTimeIdentifier
+kPresentationTimestamp
 =
 Timestamp
 :
@@ -1592,9 +1592,9 @@ kNumMicrosecsPerMillisec
 ;
 input_frame
 .
-set_capture_time_identifier
+set_presentation_timestamp
 (
-kCaptureTimeIdentifier
+kPresentationTimestamp
 )
 ;
 EncodedImage
@@ -1654,7 +1654,7 @@ ASSERT_TRUE
 (
 encoded_frame
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 .
@@ -1665,14 +1665,14 @@ has_value
 ;
 EXPECT_EQ
 (
-kCaptureTimeIdentifier
+kPresentationTimestamp
 .
 us
 (
 )
 encoded_frame
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 -
