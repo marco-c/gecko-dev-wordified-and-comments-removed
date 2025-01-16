@@ -5877,6 +5877,17 @@ child
 )
 ;
 }
+{
+contentDocBodyAttrs
+:
+{
+role
+:
+"
+application
+"
+}
+}
 )
 ;
 addAccessibleTask
