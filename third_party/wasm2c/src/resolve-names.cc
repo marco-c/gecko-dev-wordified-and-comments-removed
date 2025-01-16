@@ -2150,7 +2150,7 @@ ResolveMemoryVar
 expr
 -
 >
-srcmemidx
+destmemidx
 )
 ;
 ResolveMemoryVar
@@ -2159,7 +2159,7 @@ ResolveMemoryVar
 expr
 -
 >
-destmemidx
+srcmemidx
 )
 ;
 return
@@ -2886,7 +2886,8 @@ bindings
 FindDuplicates
 (
 [
-=
+func
+this
 ]
 (
 const

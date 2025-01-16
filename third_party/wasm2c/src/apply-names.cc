@@ -1590,7 +1590,7 @@ UseNameForMemoryVar
 expr
 -
 >
-srcmemidx
+destmemidx
 )
 )
 ;
@@ -1602,7 +1602,7 @@ UseNameForMemoryVar
 expr
 -
 >
-destmemidx
+srcmemidx
 )
 )
 ;
