@@ -426,7 +426,6 @@ int64_t
 GetRemainingStall
 (
 int64_t
-time_us
 )
 const
 {

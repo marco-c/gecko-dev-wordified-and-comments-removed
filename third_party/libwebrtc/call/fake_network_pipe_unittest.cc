@@ -268,11 +268,9 @@ void
 DeliverRtpPacket
 (
 MediaType
-media_type
 RtpPacketReceived
 packet
 OnUndemuxablePacketHandler
-undemuxable_packet_handler
 )
 override
 {

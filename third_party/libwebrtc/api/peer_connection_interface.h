@@ -3152,7 +3152,6 @@ scoped_refptr
 <
 MediaStreamInterface
 >
-stream
 )
 {
 }
@@ -3167,7 +3166,6 @@ scoped_refptr
 <
 MediaStreamInterface
 >
-stream
 )
 {
 }
@@ -3199,7 +3197,6 @@ void
 OnNegotiationNeededEvent
 (
 uint32_t
-event_id
 )
 {
 }
@@ -3211,7 +3208,6 @@ PeerConnectionInterface
 :
 :
 IceConnectionState
-new_state
 )
 {
 }
@@ -3223,7 +3219,6 @@ PeerConnectionInterface
 :
 :
 IceConnectionState
-new_state
 )
 {
 }
@@ -3235,7 +3230,6 @@ PeerConnectionInterface
 :
 :
 PeerConnectionState
-new_state
 )
 {
 }
@@ -3274,9 +3268,7 @@ std
 :
 string
 &
-address
 int
-port
 const
 std
 :

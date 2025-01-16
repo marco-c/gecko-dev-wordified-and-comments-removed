@@ -309,6 +309,7 @@ completionHandler
 NSURLResponse
 *
 response
+__unused
 NSData
 *
 data
@@ -543,6 +544,7 @@ completionHandler
 NSURLResponse
 *
 response
+__unused
 NSData
 *
 data
@@ -760,9 +762,11 @@ completionHandler
 NSURLResponse
 *
 response
+__unused
 NSData
 *
 data
+__unused
 NSError
 *
 e

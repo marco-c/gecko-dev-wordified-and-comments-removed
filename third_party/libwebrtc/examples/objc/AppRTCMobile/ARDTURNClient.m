@@ -150,6 +150,7 @@ completionHandler
 NSURLResponse
 *
 response
+__unused
 NSData
 *
 data
@@ -290,6 +291,7 @@ completionHandler
 NSURLResponse
 *
 response
+__unused
 NSData
 *
 data
@@ -348,9 +350,11 @@ NSDictionary
 obj
 NSUInteger
 idx
+__unused
 BOOL
 *
 stop
+__unused
 )
 {
 [

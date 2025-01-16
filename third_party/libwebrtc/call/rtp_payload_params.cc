@@ -3378,7 +3378,6 @@ Vp9ToGeneric
 const
 CodecSpecificInfoVP9
 &
-vp9_info
 int64_t
 frame_id
 RTPVideoHeader
@@ -4516,7 +4515,6 @@ frame_id
 bool
 is_keyframe
 bool
-layer_sync
 RTPVideoHeader
 :
 :

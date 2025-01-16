@@ -992,7 +992,6 @@ OnFrame
 const
 VideoFrame
 &
-video_frame
 )
 override
 {
@@ -2857,7 +2856,6 @@ VideoSinkInterface
 VideoFrame
 >
 *
-sink
 const
 rtc
 :
@@ -3295,7 +3293,6 @@ VideoSendStream
 :
 Config
 *
-send_config
 std
 :
 :
@@ -3307,10 +3304,8 @@ VideoReceiveStreamInterface
 Config
 >
 *
-receive_configs
 VideoEncoderConfig
 *
-encoder_config
 )
 override
 {
@@ -3525,7 +3520,6 @@ ArrayView
 const
 uint8_t
 >
-packet
 )
 override
 {
@@ -3668,7 +3662,6 @@ VideoReceiveStreamInterface
 *
 >
 &
-receive_streams
 )
 override
 {
@@ -3699,7 +3692,6 @@ VideoSendStream
 :
 Config
 *
-send_config
 std
 :
 :
@@ -3711,7 +3703,6 @@ VideoReceiveStreamInterface
 Config
 >
 *
-receive_configs
 VideoEncoderConfig
 *
 encoder_config
@@ -4388,7 +4379,6 @@ VideoReceiveStreamInterface
 Config
 >
 *
-receive_configs
 VideoEncoderConfig
 *
 encoder_config

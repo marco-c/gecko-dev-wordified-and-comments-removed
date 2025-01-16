@@ -762,7 +762,6 @@ VideoReceiveStreamInterface
 *
 >
 &
-receive_streams
 )
 {
 send_stream_
@@ -1694,7 +1693,6 @@ Call
 sender_call
 Call
 *
-receiver_call
 )
 {
 RTC_DCHECK
@@ -1749,10 +1747,8 @@ test
 :
 PacketTransport
 *
-to_sender
 SimulatedNetworkInterface
 *
-receiver_network
 )
 {
 RTC_DCHECK_RUN_ON

@@ -464,7 +464,6 @@ ValidParameters
 uint64_t
 delta_width_bits
 bool
-signed_deltas
 uint64_t
 value_width_bits
 )

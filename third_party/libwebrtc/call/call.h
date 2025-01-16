@@ -465,7 +465,6 @@ SetPayloadTypeSuggester
 (
 PayloadTypeSuggester
 *
-suggester
 )
 {
 RTC_CHECK_NOTREACHED
