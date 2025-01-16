@@ -4091,6 +4091,11 @@ unorm10
 -
 2
 "
+"
+unorm8x4
+-
+bgra
+"
 }
 ;
 enum
