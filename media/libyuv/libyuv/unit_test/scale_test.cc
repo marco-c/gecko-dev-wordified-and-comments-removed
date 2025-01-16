@@ -6665,6 +6665,12 @@ Scale
 TEST_SCALETO
 (
 Scale
+264
+216
+)
+TEST_SCALETO
+(
+Scale
 320
 240
 )
@@ -6679,6 +6685,12 @@ TEST_SCALETO
 Scale
 1920
 1080
+)
+TEST_SCALETO
+(
+Scale
+1080
+1920
 )
 #
 endif

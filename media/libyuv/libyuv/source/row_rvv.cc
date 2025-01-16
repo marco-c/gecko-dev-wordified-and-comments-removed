@@ -12419,6 +12419,7 @@ HAS_ARGBTOYMATRIXROW_RVV
 #
 ifdef
 LIBYUV_RVV_HAS_TUPLE_TYPE
+static
 void
 ARGBToYMatrixRow_RVV
 (
@@ -12657,6 +12658,7 @@ w
 }
 #
 else
+static
 void
 ARGBToYMatrixRow_RVV
 (
@@ -13001,6 +13003,7 @@ HAS_RGBATOYMATRIXROW_RVV
 #
 ifdef
 LIBYUV_RVV_HAS_TUPLE_TYPE
+static
 void
 RGBAToYMatrixRow_RVV
 (
@@ -13239,6 +13242,7 @@ w
 }
 #
 else
+static
 void
 RGBAToYMatrixRow_RVV
 (
@@ -13554,6 +13558,7 @@ HAS_RGBTOYMATRIXROW_RVV
 #
 ifdef
 LIBYUV_RVV_HAS_TUPLE_TYPE
+static
 void
 RGBToYMatrixRow_RVV
 (
@@ -13792,6 +13797,7 @@ w
 }
 #
 else
+static
 void
 RGBToYMatrixRow_RVV
 (

@@ -334,7 +334,6 @@ Unittests
 #
 #
 Windows
-call
 gn
 gen
 out
@@ -356,7 +355,6 @@ x64
 \
 "
 "
-call
 gn
 gen
 out
@@ -394,7 +392,6 @@ C
 out
 \
 Debug
-call
 gn
 gen
 out
@@ -416,7 +413,6 @@ x86
 \
 "
 "
-call
 gn
 gen
 out

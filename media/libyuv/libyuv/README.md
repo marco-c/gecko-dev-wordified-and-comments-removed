@@ -84,6 +84,10 @@ x64
 Optimized
 for
 Neon
+/
+SVE2
+/
+SME
 on
 Arm
 .

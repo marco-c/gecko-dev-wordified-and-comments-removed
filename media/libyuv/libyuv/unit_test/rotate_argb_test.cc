@@ -38,6 +38,7 @@ h
 namespace
 libyuv
 {
+static
 void
 TestRotateBpp
 (

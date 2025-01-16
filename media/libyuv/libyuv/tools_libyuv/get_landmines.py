@@ -36,11 +36,10 @@ print_landmines
 (
 )
 :
-  
+    
 "
 "
 "
-  
 ALL
 LANDMINES
 ARE
@@ -48,11 +47,10 @@ EMITTED
 FROM
 HERE
 .
-  
 "
 "
 "
-  
+    
 print
 (
 '
@@ -69,7 +67,7 @@ GN
 .
 '
 )
-  
+    
 print
 (
 '
@@ -92,11 +90,11 @@ main
 (
 )
 :
-  
+    
 print_landmines
 (
 )
-  
+    
 return
 0
 if
@@ -107,7 +105,7 @@ __name__
 __main__
 '
 :
-  
+    
 sys
 .
 exit
