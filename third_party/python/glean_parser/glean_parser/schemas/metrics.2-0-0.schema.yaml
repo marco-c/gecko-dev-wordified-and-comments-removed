@@ -2317,9 +2317,6 @@ number
 minimum
 :
 1
-maximum
-:
-100
 histogram_type
 :
 title
