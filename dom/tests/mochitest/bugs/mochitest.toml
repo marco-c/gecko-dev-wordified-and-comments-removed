@@ -1087,6 +1087,13 @@ http2
 ]
 [
 "
+test_bug1840932
+.
+html
+"
+]
+[
+"
 test_devicemotion_multiple_listeners
 .
 html

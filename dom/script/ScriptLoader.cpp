@@ -22463,12 +22463,11 @@ BeginDeferringScripts
 (
 )
 {
-mDeferEnabled
-=
-true
-;
 if
 (
+mDeferEnabled
+|
+|
 mDeferCheckpointReached
 )
 {
@@ -22478,7 +22477,6 @@ false
 ;
 }
 else
-{
 if
 (
 mDocument
@@ -22492,7 +22490,10 @@ BlockOnload
 )
 ;
 }
-}
+mDeferEnabled
+=
+true
+;
 }
 nsAutoScriptLoaderDisabler
 :
