@@ -2520,6 +2520,13 @@ html
 ]
 [
 "
+test_paste_clipboard_change
+.
+html
+"
+]
+[
+"
 test_paste_no_formatting
 .
 html
