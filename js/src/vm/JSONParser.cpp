@@ -7354,7 +7354,6 @@ return
 false
 ;
 }
-return
 parseRecord
 -
 >
@@ -7365,6 +7364,9 @@ context
 )
 parseEntry
 )
+;
+return
+true
 ;
 }
 template

@@ -218,7 +218,7 @@ isUndefined
 )
 ;
 }
-bool
+void
 getEntries
 (
 JSContext
@@ -232,7 +232,7 @@ EntryMap
 entries
 )
 ;
-bool
+void
 setEntries
 (
 JSContext
