@@ -620,7 +620,7 @@ detectedFields
 =
 FormAutofillHandler
 .
-collectFormFields
+collectFormFieldDetails
 (
 handler
 .

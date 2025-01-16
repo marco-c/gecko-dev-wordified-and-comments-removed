@@ -11086,7 +11086,7 @@ fieldDetails
 =
 FormAutofillHandler
 .
-collectFormFields
+collectFormFieldDetails
 (
 handler
 .
