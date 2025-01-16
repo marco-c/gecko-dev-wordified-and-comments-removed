@@ -918,7 +918,6 @@ os
 android
 '
 "
-]
 #
 no
 screenshare
@@ -926,6 +925,16 @@ or
 windowshare
 on
 android
+"
+win11_2009
+&
+&
+debug
+"
+#
+Bug
+1787039
+]
 [
 "
 test_getUserMedia_spinEventLoop
