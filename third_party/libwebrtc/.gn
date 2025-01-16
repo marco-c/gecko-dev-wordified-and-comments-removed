@@ -664,4 +664,17 @@ it
 enable_jni_multiplexing
 =
 false
+#
+This
+adds
+a
+dependency
+to
+/
+/
+base
+.
+use_fuzztest_wrapper
+=
+false
 }
