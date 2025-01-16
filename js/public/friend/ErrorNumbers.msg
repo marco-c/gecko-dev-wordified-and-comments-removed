@@ -4437,12 +4437,16 @@ name
 MSG_DEF
 (
 JSMSG_NO_VARIABLE_NAME
-0
+1
 JSEXN_SYNTAXERR
 "
 missing
 variable
 name
+got
+{
+0
+}
 "
 )
 MSG_DEF
