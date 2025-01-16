@@ -119,13 +119,6 @@ blobs
 "
 readwrite
 "
-{
-durability
-:
-"
-relaxed
-"
-}
 )
 ;
 let
@@ -172,13 +165,6 @@ blobs
 "
 readonly
 "
-{
-durability
-:
-"
-relaxed
-"
-}
 )
 ;
 store

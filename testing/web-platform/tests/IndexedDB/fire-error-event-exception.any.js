@@ -58,13 +58,6 @@ s
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 tx

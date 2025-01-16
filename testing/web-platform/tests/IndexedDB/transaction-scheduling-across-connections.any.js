@@ -124,13 +124,6 @@ store
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 transaction1
@@ -161,13 +154,6 @@ store
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 transaction2

@@ -154,13 +154,6 @@ test
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 let
@@ -368,13 +361,6 @@ test
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore

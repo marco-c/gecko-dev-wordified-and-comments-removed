@@ -174,13 +174,6 @@ test
 "
 readonly
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore

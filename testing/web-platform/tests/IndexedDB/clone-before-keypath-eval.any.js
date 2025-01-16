@@ -218,13 +218,6 @@ storeName
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 const

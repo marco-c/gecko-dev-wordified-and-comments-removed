@@ -49,13 +49,6 @@ store
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 const
@@ -140,13 +133,6 @@ store
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 const

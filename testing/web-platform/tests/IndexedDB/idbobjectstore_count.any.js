@@ -105,13 +105,6 @@ store
 "
 readonly
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore
@@ -274,13 +267,6 @@ store
 "
 readonly
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore

@@ -70,13 +70,6 @@ my_objectstore
 "
 readonly
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 let

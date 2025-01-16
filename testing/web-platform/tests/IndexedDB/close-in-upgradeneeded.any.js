@@ -171,13 +171,6 @@ os
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 }

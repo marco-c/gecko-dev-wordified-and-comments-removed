@@ -184,13 +184,6 @@ basic
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 const
