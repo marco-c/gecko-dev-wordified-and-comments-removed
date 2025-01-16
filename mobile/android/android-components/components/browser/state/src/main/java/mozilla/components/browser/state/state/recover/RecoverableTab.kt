@@ -525,6 +525,12 @@ hasFormData
 Boolean
 =
 false
+val
+desktopMode
+:
+Boolean
+=
+false
 )
 /
 *
@@ -684,6 +690,11 @@ hasFormData
 content
 .
 hasFormData
+desktopMode
+=
+content
+.
+desktopMode
 )
 )
 }
@@ -789,6 +800,11 @@ hasFormData
 state
 .
 hasFormData
+desktopMode
+=
+state
+.
+desktopMode
 )
 /
 *

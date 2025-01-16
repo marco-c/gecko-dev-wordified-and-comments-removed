@@ -221,6 +221,13 @@ SESSION_LAST_MEDIA_SESSION_ACTIVE
 "
 mediaSessionActive
 "
+const
+val
+SESSION_DESKTOP_MODE
+=
+"
+desktopMode
+"
 /
 /
 Deprecated
