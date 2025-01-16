@@ -122,6 +122,9 @@ isThirdPartyContext
 bool
 isWorkerRequest
 ;
+bool
+isOn3PCBExceptionList
+;
 }
 ;
 protocol

@@ -4262,6 +4262,12 @@ UsingStorageAccess
 )
 ;
 bool
+IsOn3PCBExceptionList
+(
+)
+const
+;
+bool
 HasStorageAccessPermissionGrantedByAllowList
 (
 )
