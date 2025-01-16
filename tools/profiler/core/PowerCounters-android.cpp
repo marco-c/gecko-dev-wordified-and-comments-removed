@@ -153,8 +153,6 @@ aSubsystemName
 BaseProfilerCount
 (
 aSubsystemName
-nullptr
-nullptr
 "
 power
 "

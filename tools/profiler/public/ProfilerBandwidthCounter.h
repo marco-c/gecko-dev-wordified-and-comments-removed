@@ -54,7 +54,7 @@ ProfilerBandwidthCounter
 final
 :
 public
-BaseProfilerCount
+AtomicProfilerCount
 {
 public
 :
@@ -62,7 +62,7 @@ ProfilerBandwidthCounter
 (
 )
 :
-BaseProfilerCount
+AtomicProfilerCount
 (
 "
 bandwidth
