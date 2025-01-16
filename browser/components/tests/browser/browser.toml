@@ -278,4 +278,7 @@ if
 "
 debug
 "
+"
+nightly_build
+"
 ]
