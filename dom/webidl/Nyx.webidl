@@ -174,7 +174,7 @@ fuzzing
 undefined
 log
 (
-DOMString
+UTF8String
 aMsg
 )
 ;
@@ -197,7 +197,7 @@ fuzzer
 boolean
 isEnabled
 (
-DOMString
+UTF8String
 aFuzzerName
 )
 ;
