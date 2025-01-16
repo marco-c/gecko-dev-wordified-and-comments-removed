@@ -606,11 +606,13 @@ numberOfTemporalLayers
 break
 ;
 case
+kVideoCodecAV1
+:
+case
 kVideoCodecH265
 :
-break
-;
-default
+case
+kVideoCodecGeneric
 :
 break
 ;

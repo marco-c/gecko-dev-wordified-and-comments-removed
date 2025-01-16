@@ -270,7 +270,11 @@ kVideoCodecH265
 return
 nullptr
 ;
-default
+case
+VideoCodecType
+:
+:
+kVideoCodecGeneric
 :
 return
 nullptr
