@@ -1776,14 +1776,14 @@ tabContainer
 verticalMode
 ?
 "
-view
--
-opentabs
+/
+tabs
 .
 svg
 "
 :
 "
+/
 arrow
 -
 down
