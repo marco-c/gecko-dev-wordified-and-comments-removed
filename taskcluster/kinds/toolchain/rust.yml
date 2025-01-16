@@ -2291,7 +2291,7 @@ target
 '
 wasm32
 -
-wasi
+wasip1
 '
 ]
 toolchain
