@@ -574,6 +574,7 @@ def
 fixup_paths
 (
 commit
+search_path
 )
 :
     
@@ -594,7 +595,7 @@ from
 to
 )
 {
-LIBWEBRTC_DIR
+search_path
 }
 /
 "
@@ -627,7 +628,7 @@ ab
 )
 /
 {
-LIBWEBRTC_DIR
+search_path
 }
 /
 "
@@ -894,6 +895,7 @@ add_argument
 -
 target
 "
+        
 choices
 =
 (
@@ -906,7 +908,13 @@ build
 "
 third_party
 "
+"
+abseil
+-
+cpp
+"
 )
+        
 default
 =
 "
@@ -942,6 +950,29 @@ third_party
 chromium
 /
 build
+"
+    
+elif
+args
+.
+target
+=
+=
+"
+abseil
+-
+cpp
+"
+:
+        
+LIBWEBRTC_DIR
+=
+"
+third_party
+/
+abseil
+-
+cpp
 "
     
 elif
@@ -1105,11 +1136,38 @@ filtered_commit
                 
 continue
             
+if
+args
+.
+target
+=
+=
+"
+abseil
+-
+cpp
+"
+:
+                
 fixedup_commit
 =
 fixup_paths
 (
 filtered_commit
+"
+third_party
+"
+)
+            
+else
+:
+                
+fixedup_commit
+=
+fixup_paths
+(
+filtered_commit
+LIBWEBRTC_DIR
 )
             
 write_as_mbox
