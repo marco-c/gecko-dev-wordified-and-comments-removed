@@ -433,7 +433,7 @@ R
 .
 string
 .
-mozac_tab_counter_open_tab_tray
+mozac_open_tab_counter_tab_tray
 count
 .
 toString
