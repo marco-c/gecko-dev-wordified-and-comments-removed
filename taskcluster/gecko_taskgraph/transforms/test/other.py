@@ -3283,17 +3283,21 @@ android
 "
 linux64
 -
-chromedriver
+cft
 -
-130
+cd
+-
+backup
 "
                 
 "
 linux64
 -
-chromedriver
+cft
 -
-131
+cd
+-
+stable
 "
             
 ]
@@ -3309,17 +3313,21 @@ linux
 "
 linux64
 -
-chromedriver
+cft
 -
-130
+cd
+-
+backup
 "
                 
 "
 linux64
 -
-chromedriver
+cft
 -
-131
+cd
+-
+stable
 "
             
 ]
@@ -3333,19 +3341,23 @@ macosx1470
 [
                 
 "
-mac64
+mac
 -
-chromedriver
+cft
 -
-130
+cd
+-
+backup
 "
                 
 "
-mac64
+mac
 -
-chromedriver
+cft
 -
-131
+cd
+-
+stable
 "
             
 ]
@@ -3361,21 +3373,25 @@ macosx1400
 "
 mac
 -
+cft
+-
+cd
+-
 arm
 -
-chromedriver
--
-130
+backup
 "
                 
 "
 mac
 -
+cft
+-
+cd
+-
 arm
 -
-chromedriver
--
-131
+stable
 "
             
 ]
@@ -3395,17 +3411,21 @@ windows
 "
 win64
 -
-chromedriver
+cft
 -
-130
+cd
+-
+backup
 "
                 
 "
 win64
 -
-chromedriver
+cft
 -
-131
+cd
+-
+stable
 "
             
 ]
@@ -3428,7 +3448,9 @@ linux64
 -
 cft
 -
-chromedriver
+cd
+-
+canary
 "
 ]
             
@@ -3444,9 +3466,29 @@ mac
 -
 cft
 -
-chromedriver
+cd
 -
 arm
+-
+canary
+"
+]
+            
+"
+macosx1470
+.
+*
+"
+:
+[
+"
+mac
+-
+cft
+-
+cd
+-
+canary
 "
 ]
             
@@ -3466,7 +3508,9 @@ win64
 -
 cft
 -
-chromedriver
+cd
+-
+canary
 "
 ]
             
@@ -3482,7 +3526,9 @@ linux64
 -
 cft
 -
-chromedriver
+cd
+-
+canary
 "
 ]
         
