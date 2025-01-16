@@ -12183,6 +12183,11 @@ DontReuse
 (
 )
 ;
+if
+(
+mTransaction
+)
+{
 mTransaction
 -
 >
@@ -12191,6 +12196,7 @@ Close
 NS_ERROR_NET_RESET
 )
 ;
+}
 return
 ;
 }
