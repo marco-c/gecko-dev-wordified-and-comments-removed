@@ -30,9 +30,9 @@ tenuredCount
 =
 is64bit
 ?
-400000
+300000
 :
-800000
+600000
 ;
 function
 setupPretenureTest
@@ -173,10 +173,6 @@ o
 ;
 gc
 (
-undefined
-'
-shrinking
-'
 )
 ;
 }

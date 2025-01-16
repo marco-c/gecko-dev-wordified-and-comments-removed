@@ -390,6 +390,16 @@ StringContents
 \
 _
 (
+ObjectElements
+)
+\
+_
+(
+ObjectSlots
+)
+\
+_
+(
 ScriptPrivateData
 )
 \
