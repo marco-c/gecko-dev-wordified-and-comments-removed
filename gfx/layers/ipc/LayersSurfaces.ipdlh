@@ -714,6 +714,9 @@ SurfaceDescriptorDMABuf
 uint32_t
 bufferType
 ;
+uint32_t
+fourccFormat
+;
 uint64_t
 [
 ]
