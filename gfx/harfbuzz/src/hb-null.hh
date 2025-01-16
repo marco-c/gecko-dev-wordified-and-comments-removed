@@ -951,7 +951,14 @@ _hb_CrapPool
 ;
 memcpy
 (
+reinterpret_cast
+<
+void
+*
+>
+(
 obj
+)
 std
 :
 :

@@ -120,12 +120,6 @@ define
 HB_NO_HINTING
 #
 define
-HB_NO_LANGUAGE_LONG
-#
-define
-HB_NO_LANGUAGE_PRIVATE_SUBTAG
-#
-define
 HB_NO_LAYOUT_FEATURE_PARAMS
 #
 define

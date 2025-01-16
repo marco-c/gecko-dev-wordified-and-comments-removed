@@ -3292,6 +3292,7 @@ if
 (
 is_bounded
 )
+{
 c
 .
 recurse
@@ -3299,6 +3300,7 @@ recurse
 paint
 )
 ;
+}
 c
 .
 funcs

@@ -586,6 +586,7 @@ compile_bytes
 axes_index_map
 axes_old_index_tag_map
 true
+true
 &
 shared_tuples_idx_map
 )

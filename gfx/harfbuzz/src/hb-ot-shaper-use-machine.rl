@@ -1012,6 +1012,17 @@ use_hieroglyph_cluster
 ;
 }
 ;
+FMPst
+=
+>
+{
+found_syllable
+(
+use_non_cluster
+)
+;
+}
+;
 broken_cluster
 ZWNJ
 ?

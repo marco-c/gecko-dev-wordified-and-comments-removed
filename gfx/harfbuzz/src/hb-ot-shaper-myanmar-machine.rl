@@ -416,6 +416,11 @@ CS
 18
 ;
 export
+SMPst
+=
+57
+;
+export
 VAbv
 =
 20
@@ -534,6 +539,12 @@ H
 ;
 #
 Kinzi
+sm
+=
+SM
+|
+SMPst
+;
 c
 =
 C
@@ -611,8 +622,10 @@ As
 )
 ?
 ;
-pwo_tone_group
+tone_group
 =
+sm
+|
 PT
 A
 *
@@ -629,9 +642,7 @@ medial_group
 main_vowel_group
 post_vowel_group
 *
-pwo_tone_group
-*
-SM
+tone_group
 *
 j
 ?
@@ -707,6 +718,8 @@ myanmar_consonant_syllable
 }
 ;
 j
+|
+SMPst
 =
 >
 {

@@ -623,6 +623,10 @@ Symbol
 '
 CS
 '
+    
+'
+SMPst
+'
   
 ]
   
@@ -2494,6 +2498,28 @@ category_map
 cat
 ]
   
+if
+cat
+=
+=
+'
+SM
+'
+and
+pos
+=
+=
+'
+Not_Applicable
+'
+:
+    
+cat
+=
+'
+SMPst
+'
+  
 pos
 =
 position_map
@@ -2652,6 +2678,9 @@ smvd_categories
 (
 '
 SM
+'
+'
+SMPst
 '
 '
 VD
@@ -3259,6 +3288,14 @@ DOTTEDCIRCLE
 :
 '
 DC
+'
+	
+"
+SMPst
+"
+:
+'
+SP
 '
 	
 "

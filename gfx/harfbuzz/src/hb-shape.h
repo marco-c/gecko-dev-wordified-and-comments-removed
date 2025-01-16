@@ -104,6 +104,9 @@ const
 shaper_list
 )
 ;
+#
+ifdef
+HB_EXPERIMENTAL_API
 HB_EXTERN
 hb_bool_t
 hb_shape_justify
@@ -142,6 +145,8 @@ float
 var_value
 )
 ;
+#
+endif
 HB_EXTERN
 const
 char

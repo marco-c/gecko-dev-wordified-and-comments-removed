@@ -3639,7 +3639,7 @@ hb
 -
 subset
 -
-repacker
+serialize
 .
 cc
 '
@@ -3746,7 +3746,7 @@ hb
 -
 subset
 -
-repacker
+serialize
 .
 h
 '
@@ -6936,6 +6936,19 @@ meson
 project_name
 (
 )
+)
+)
+cmake_config
+.
+set
+(
+'
+HARFBUZZ_VERSION
+'
+meson
+.
+project_version
+(
 )
 )
 cmake_config
