@@ -442,7 +442,6 @@ scoped_refptr
 <
 FrameTransformerInterface
 >
-frame_transformer
 )
 override
 {

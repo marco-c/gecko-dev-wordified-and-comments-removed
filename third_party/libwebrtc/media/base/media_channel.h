@@ -1261,7 +1261,6 @@ void
 SetEncoderSelector
 (
 uint32_t
-ssrc
 webrtc
 :
 :
@@ -1270,7 +1269,6 @@ VideoEncoderFactory
 :
 EncoderSelectorInterface
 *
-encoder_selector
 )
 {
 }

@@ -546,7 +546,6 @@ scoped_refptr
 TransformedFrameCallback
 >
 uint32_t
-ssrc
 )
 {
 }
@@ -562,7 +561,6 @@ void
 UnregisterTransformedFrameSinkCallback
 (
 uint32_t
-ssrc
 )
 {
 }

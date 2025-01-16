@@ -154,7 +154,6 @@ void
 OnTransportClosed
 (
 RTCError
-error
 )
 {
 }

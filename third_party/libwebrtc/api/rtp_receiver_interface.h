@@ -271,7 +271,6 @@ SetParameters
 const
 RtpParameters
 &
-parameters
 )
 {
 return

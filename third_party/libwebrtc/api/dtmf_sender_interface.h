@@ -36,14 +36,12 @@ std
 :
 string
 &
-tone
 const
 std
 :
 :
 string
 &
-tone_buffer
 )
 {
 }
@@ -57,7 +55,6 @@ std
 :
 string
 &
-tone
 )
 {
 }
@@ -161,7 +158,6 @@ duration
 int
 inter_tone_gap
 int
-comma_delay
 )
 {
 return

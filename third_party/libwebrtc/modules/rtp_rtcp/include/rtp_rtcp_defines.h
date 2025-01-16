@@ -559,14 +559,12 @@ void
 OnTransportFeedback
 (
 Timestamp
-receive_time
 const
 rtcp
 :
 :
 TransportFeedback
 &
-feedback
 )
 {
 }
@@ -575,14 +573,12 @@ void
 OnCongestionControlFeedback
 (
 Timestamp
-receive_time
 const
 rtcp
 :
 :
 CongestionControlFeedback
 &
-feedback
 )
 {
 }
@@ -591,9 +587,7 @@ void
 OnReceiverEstimatedMaxBitrate
 (
 Timestamp
-receive_time
 DataRate
-bitrate
 )
 {
 }
@@ -602,7 +596,6 @@ void
 OnReport
 (
 Timestamp
-receive_time
 rtc
 :
 :
@@ -611,7 +604,6 @@ ArrayView
 const
 ReportBlockData
 >
-report_blocks
 )
 {
 }
@@ -620,9 +612,7 @@ void
 OnRttUpdate
 (
 Timestamp
-receive_time
 TimeDelta
-rtt
 )
 {
 }

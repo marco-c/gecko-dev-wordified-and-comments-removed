@@ -105,7 +105,6 @@ T
 *
 data
 size_t
-size
 )
 :
 data_
@@ -187,9 +186,7 @@ ArrayViewBase
 (
 T
 *
-data
 size_t
-size
 )
 {
 }

@@ -267,7 +267,6 @@ void
 OnDroppedFrame
 (
 DropReason
-reason
 )
 {
 }

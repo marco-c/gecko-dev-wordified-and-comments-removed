@@ -198,7 +198,6 @@ unique_ptr
 <
 RtcEvent
 >
-event
 )
 override
 {

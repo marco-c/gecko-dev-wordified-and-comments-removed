@@ -110,9 +110,7 @@ Init
 const
 void
 *
-seed
 size_t
-len
 )
 override
 {
@@ -184,9 +182,7 @@ Init
 const
 void
 *
-seed
 size_t
-len
 )
 override
 {

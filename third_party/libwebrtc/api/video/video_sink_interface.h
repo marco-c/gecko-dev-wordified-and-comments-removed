@@ -63,7 +63,6 @@ webrtc
 :
 VideoTrackSourceConstraints
 &
-constraints
 )
 {
 }

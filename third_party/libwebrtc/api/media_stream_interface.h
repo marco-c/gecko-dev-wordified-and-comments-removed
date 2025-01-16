@@ -482,7 +482,6 @@ webrtc
 :
 VideoTrackSourceConstraints
 &
-constraints
 )
 {
 }
@@ -536,14 +535,12 @@ VideoSinkInterface
 VideoFrame
 >
 *
-sink
 const
 rtc
 :
 :
 VideoSinkWants
 &
-wants
 )
 override
 {
@@ -559,7 +556,6 @@ VideoSinkInterface
 VideoFrame
 >
 *
-sink
 )
 override
 {
@@ -586,7 +582,6 @@ void
 set_content_hint
 (
 ContentHint
-hint
 )
 {
 }
@@ -614,15 +609,10 @@ OnData
 const
 void
 *
-audio_data
 int
-bits_per_sample
 int
-sample_rate
 size_t
-number_of_channels
 size_t
-number_of_frames
 )
 {
 RTC_DCHECK_NOTREACHED
@@ -666,7 +656,6 @@ optional
 <
 int64_t
 >
-absolute_capture_timestamp_ms
 )
 {
 return
@@ -743,7 +732,6 @@ void
 SetVolume
 (
 double
-volume
 )
 {
 }
@@ -753,7 +741,6 @@ RegisterAudioObserver
 (
 AudioObserver
 *
-observer
 )
 {
 }
@@ -763,7 +750,6 @@ UnregisterAudioObserver
 (
 AudioObserver
 *
-observer
 )
 {
 }
@@ -773,7 +759,6 @@ AddSink
 (
 AudioTrackSinkInterface
 *
-sink
 )
 {
 }
@@ -783,7 +768,6 @@ RemoveSink
 (
 AudioTrackSinkInterface
 *
-sink
 )
 {
 }
@@ -1046,7 +1030,6 @@ scoped_refptr
 <
 AudioTrackInterface
 >
-track
 )
 {
 RTC_CHECK_NOTREACHED
@@ -1065,7 +1048,6 @@ scoped_refptr
 <
 VideoTrackInterface
 >
-track
 )
 {
 RTC_CHECK_NOTREACHED
@@ -1084,7 +1066,6 @@ scoped_refptr
 <
 AudioTrackInterface
 >
-track
 )
 {
 RTC_CHECK_NOTREACHED
@@ -1103,7 +1084,6 @@ scoped_refptr
 <
 VideoTrackInterface
 >
-track
 )
 {
 RTC_CHECK_NOTREACHED

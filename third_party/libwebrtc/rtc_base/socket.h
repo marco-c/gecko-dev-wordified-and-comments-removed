@@ -514,15 +514,11 @@ RecvFrom
 (
 void
 *
-pv
 size_t
-cb
 SocketAddress
 *
-paddr
 int64_t
 *
-timestamp
 )
 {
 RTC_CHECK_NOTREACHED

@@ -165,7 +165,6 @@ explicit
 SequenceCheckerDoNothing
 (
 bool
-attach_to_current_thread
 )
 {
 }
@@ -174,7 +173,6 @@ SequenceCheckerDoNothing
 (
 TaskQueueBase
 *
-attached_queue
 )
 {
 }
@@ -221,6 +219,11 @@ string
 >
 ExpectationToString
 (
+[
+[
+maybe_unused
+]
+]
 const
 ThreadLikeObject
 *

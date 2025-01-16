@@ -364,9 +364,7 @@ WriteFatalLog
 const
 char
 *
-file
 int
-line
 absl
 :
 :
