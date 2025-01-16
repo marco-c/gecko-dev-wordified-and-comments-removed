@@ -84,6 +84,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -1415,7 +1424,7 @@ WidgetEvent
 *
 mEvent
 ;
-RefPtr
+WeakPtr
 <
 nsPresContext
 >
