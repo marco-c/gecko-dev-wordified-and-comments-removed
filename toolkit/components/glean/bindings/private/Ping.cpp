@@ -320,7 +320,7 @@ aValue
 )
 const
 {
-fog_set_ping_enabled
+fog_set_ping_enabled_by_id
 (
 mId
 aValue

@@ -91,7 +91,7 @@ extern
 C
 "
 fn
-fog_set_ping_enabled
+fog_set_ping_enabled_by_id
 (
 id
 :
@@ -104,7 +104,7 @@ bool
 pings
 :
 :
-set_ping_enabled
+set_ping_enabled_by_id
 (
 id
 value

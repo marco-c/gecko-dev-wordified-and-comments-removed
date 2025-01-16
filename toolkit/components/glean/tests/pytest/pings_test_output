@@ -776,7 +776,7 @@ pub
 crate
 )
 fn
-set_ping_enabled
+set_ping_enabled_by_id
 (
 id
 :
