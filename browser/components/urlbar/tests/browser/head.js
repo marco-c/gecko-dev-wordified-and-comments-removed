@@ -1521,6 +1521,16 @@ searchString
 fireInputEvent
 :
 true
+selectionStart
+:
+0
+selectionEnd
+:
+searchString
+.
+length
+-
+1
 }
 )
 ;
