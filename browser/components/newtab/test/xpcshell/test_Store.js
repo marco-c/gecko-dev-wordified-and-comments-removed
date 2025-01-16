@@ -120,13 +120,13 @@ scriptloader
 loadSubScript
 (
 "
-resource
+chrome
 :
 /
 /
-activity
--
-stream
+global
+/
+content
 /
 vendor
 /

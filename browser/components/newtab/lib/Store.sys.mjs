@@ -154,13 +154,13 @@ redux
 }
 from
 "
-resource
+chrome
 :
 /
 /
-activity
--
-stream
+global
+/
+content
 /
 vendor
 /
