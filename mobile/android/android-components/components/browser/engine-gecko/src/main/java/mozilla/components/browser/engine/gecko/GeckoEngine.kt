@@ -8781,9 +8781,5 @@ ONBOARDING
 WebExtensionController
 .
 INSTALLATION_METHOD_ONBOARDING
-else
--
->
-null
 }
 }

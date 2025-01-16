@@ -2718,10 +2718,6 @@ ALLOWED
 -
 >
 VALUE_ALLOW
-else
--
->
-VALUE_ALLOW
 }
 }
 VisibleForTesting
