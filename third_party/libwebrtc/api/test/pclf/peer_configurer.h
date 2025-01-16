@@ -561,6 +561,14 @@ extra_flags
 ;
 PeerConfigurer
 *
+SetPortAllocatorFlags
+(
+uint32_t
+flags
+)
+;
+PeerConfigurer
+*
 AddVideoConfig
 (
 VideoConfig
