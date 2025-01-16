@@ -154,6 +154,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -371,6 +372,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -405,6 +407,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -439,6 +442,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -577,6 +581,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -643,6 +648,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -730,6 +736,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -920,6 +927,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1115,6 +1123,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1257,6 +1266,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1353,6 +1363,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1393,6 +1404,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1548,6 +1560,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -1606,6 +1619,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -2388,6 +2402,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -2591,6 +2606,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -2670,6 +2686,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -2875,6 +2892,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -2965,6 +2983,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3011,6 +3030,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3113,6 +3133,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3179,6 +3200,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3320,6 +3342,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3391,6 +3414,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -3636,6 +3660,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -4237,6 +4262,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -4282,6 +4308,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -4486,6 +4513,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -4593,6 +4621,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5004,6 +5033,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5043,6 +5073,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5172,6 +5203,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5277,6 +5309,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5350,6 +5383,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5477,6 +5511,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5537,6 +5572,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5570,6 +5606,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5609,6 +5646,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5648,6 +5686,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
@@ -5720,6 +5759,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 ]
 attribute
