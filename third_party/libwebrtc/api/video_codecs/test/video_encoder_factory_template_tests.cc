@@ -337,11 +337,9 @@ CreateEncoder
 const
 Environment
 &
-env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
@@ -423,7 +421,6 @@ CreateEncoder
 const
 Environment
 &
-env
 const
 SdpVideoFormat
 &

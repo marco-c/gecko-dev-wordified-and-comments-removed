@@ -842,7 +842,6 @@ EncodeComplete
 const
 EncodeResult
 &
-encode_result
 )
 override
 {

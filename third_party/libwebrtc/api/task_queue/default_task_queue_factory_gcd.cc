@@ -47,7 +47,6 @@ CreateDefaultTaskQueueFactory
 const
 FieldTrialsView
 *
-field_trials
 )
 {
 return

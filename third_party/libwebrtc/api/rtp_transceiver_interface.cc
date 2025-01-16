@@ -201,7 +201,6 @@ RtpTransceiverInterface
 SetDirectionWithError
 (
 RtpTransceiverDirection
-new_direction
 )
 {
 RTC_DCHECK_NOTREACHED

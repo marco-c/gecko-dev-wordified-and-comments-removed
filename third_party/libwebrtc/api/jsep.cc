@@ -65,7 +65,6 @@ cricket
 Candidate
 >
 &
-candidates
 )
 {
 return

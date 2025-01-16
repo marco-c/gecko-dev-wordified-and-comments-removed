@@ -460,7 +460,6 @@ WriteFrame
 const
 VideoFrame
 &
-frame
 )
 override
 {

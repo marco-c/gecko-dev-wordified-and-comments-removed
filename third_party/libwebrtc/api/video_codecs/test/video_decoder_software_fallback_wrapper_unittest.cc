@@ -249,7 +249,6 @@ Configure
 const
 Settings
 &
-settings
 )
 override
 {
@@ -267,9 +266,7 @@ Decode
 const
 EncodedImage
 &
-input_image
 int64_t
-render_time_ms
 )
 override
 {
@@ -963,7 +960,6 @@ Decoded
 (
 VideoFrame
 &
-decodedImage
 )
 override
 {
@@ -979,9 +975,7 @@ webrtc
 :
 VideoFrame
 &
-decodedImage
 int64_t
-decode_time_ms
 )
 override
 {
@@ -1002,7 +996,6 @@ webrtc
 :
 VideoFrame
 &
-decodedImage
 std
 :
 :
@@ -1010,7 +1003,6 @@ optional
 <
 int32_t
 >
-decode_time_ms
 std
 :
 :
@@ -1018,7 +1010,6 @@ optional
 <
 uint8_t
 >
-qp
 )
 override
 {

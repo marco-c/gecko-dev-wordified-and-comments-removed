@@ -1698,14 +1698,12 @@ webrtc
 :
 VideoFrameBuffer
 &
-frame_buffer
 const
 VideoEncoderInterface
 :
 :
 TemporalUnitSettings
 &
-tu_settings
 const
 std
 :

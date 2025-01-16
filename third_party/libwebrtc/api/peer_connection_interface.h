@@ -2201,7 +2201,6 @@ scoped_refptr
 <
 RtpSenderInterface
 >
-sender
 )
 {
 RTC_CHECK_NOTREACHED
@@ -2508,11 +2507,9 @@ std
 :
 string
 &
-label
 const
 DataChannelInit
 *
-config
 )
 {
 return

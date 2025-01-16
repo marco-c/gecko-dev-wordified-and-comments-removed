@@ -376,7 +376,6 @@ SetObserver
 (
 RtpSenderObserverInterface
 *
-observer
 )
 {
 }

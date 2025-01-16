@@ -214,7 +214,6 @@ GetStats
 (
 Stats
 *
-stats
 )
 override
 {
@@ -288,7 +287,6 @@ VideoSinkInterface
 RecordableEncodedFrame
 >
 *
-sink
 )
 override
 {
@@ -304,7 +302,6 @@ VideoSinkInterface
 RecordableEncodedFrame
 >
 *
-sink
 )
 override
 {
@@ -340,7 +337,6 @@ void
 SetEnableAdaptation
 (
 bool
-enable_adaptation
 )
 {
 }
@@ -371,9 +367,7 @@ void
 OnOutputFormatRequest
 (
 int
-width
 int
-height
 const
 std
 :
@@ -383,7 +377,6 @@ optional
 int
 >
 &
-max_fps
 )
 {
 }

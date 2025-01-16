@@ -525,7 +525,6 @@ uint8_t
 >
 payload
 Timestamp
-receive_time
 )
 {
 return
@@ -774,7 +773,6 @@ DecoderFormat
 GetDecoderFormat
 (
 int
-payload_type
 )
 const
 {

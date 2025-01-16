@@ -80,9 +80,7 @@ cricket
 :
 :
 MediaType
-media_type
 uint32_t
-ssrc
 rtc
 :
 :
@@ -91,7 +89,6 @@ ArrayView
 const
 uint8_t
 >
-additional_data
 rtc
 :
 :
@@ -224,7 +221,6 @@ cricket
 :
 :
 MediaType
-media_type
 size_t
 frame_size
 )

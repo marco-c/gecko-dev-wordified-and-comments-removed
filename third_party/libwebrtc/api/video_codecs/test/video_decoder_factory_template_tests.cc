@@ -278,7 +278,6 @@ CreateDecoder
 const
 SdpVideoFormat
 &
-format
 )
 {
 auto
@@ -348,11 +347,9 @@ CreateDecoder
 const
 Environment
 &
-env
 const
 SdpVideoFormat
 &
-format
 )
 {
 auto
