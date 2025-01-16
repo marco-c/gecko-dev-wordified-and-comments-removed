@@ -46,7 +46,7 @@ numBytes
 )
 {
 return
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 uint8_t
 >

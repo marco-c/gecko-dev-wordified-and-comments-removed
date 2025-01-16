@@ -5481,7 +5481,7 @@ nursery
 (
 )
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 header
@@ -5737,7 +5737,7 @@ nursery
 (
 )
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 unshiftedHeader
@@ -7400,7 +7400,7 @@ nursery
 (
 )
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 dst

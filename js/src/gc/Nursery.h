@@ -667,7 +667,7 @@ void
 *
 bool
 >
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 JS
 :
@@ -699,7 +699,7 @@ arenaId
 ;
 void
 *
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 JS
 :
@@ -760,7 +760,7 @@ arena
 ;
 void
 *
-reallocateBuffer
+reallocNurseryOrMallocBuffer
 (
 JS
 :
@@ -963,7 +963,7 @@ typename
 T
 >
 WasBufferMoved
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 T
 *
@@ -2256,20 +2256,6 @@ sweepMapAndSetObjects
 void
 sweepStringsWithBuffer
 (
-)
-;
-void
-*
-allocateBuffer
-(
-JS
-:
-:
-Zone
-*
-zone
-size_t
-nbytes
 )
 ;
 size_t
