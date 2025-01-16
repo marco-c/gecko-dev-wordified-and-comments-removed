@@ -358,6 +358,15 @@ define
 HAS_SOBELYROW_SSE2
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -381,6 +390,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 #
 define
@@ -567,6 +577,15 @@ define
 HAS_BLENDPLANEROW_AVX2
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -590,6 +609,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 #
 define
