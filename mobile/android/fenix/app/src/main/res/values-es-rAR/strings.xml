@@ -6457,7 +6457,6 @@ privada
 /
 string
 >
-dsa
 <
 !
 -
@@ -7871,10 +7870,7 @@ s
 :
 selector
 de
-motor
-de
-b
-squeda
+buscador
 <
 /
 string

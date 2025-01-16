@@ -6341,8 +6341,10 @@ name
 browser_menu_turn_on_reader_view
 "
 >
-Trowch
-y
+Troi
+\
+'
+r
 Golwg
 Darllen
 ymlaen
@@ -13657,8 +13659,10 @@ name
 reduce_cookie_banner_details_panel_title_on_for_site_1
 "
 >
-Trowch
-y
+Troi
+\
+'
+r
 Rhwystrydd
 Baner
 Cwci
@@ -13970,7 +13974,7 @@ name
 reduce_cookie_banner_details_panel_description_on_for_site_3
 "
 >
-Trowch
+Trowchhwn
 ymlaen
 a
 bydd

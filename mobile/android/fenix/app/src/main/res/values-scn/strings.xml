@@ -1075,7 +1075,7 @@ private_browsing_placeholder_description_2
 %
 1
 s
-cancella
+scancella
 i
 to
 risciduti
@@ -1281,7 +1281,7 @@ felt_privacy_info_card_subtitle_2
 %
 1
 s
-cancella
+scancella
 i
 to
 viscotta
@@ -1708,7 +1708,7 @@ nova
 sissioni
 privata
 .
-Cancella
+Scancella
 a
 crunulugg
 a
@@ -6384,7 +6384,6 @@ littura
 /
 string
 >
-dsa
 <
 !
 -
@@ -6897,7 +6896,7 @@ name
 browser_toolbar_erase
 "
 >
-Cancella
+Scancella
 crunulugg
 a
 di
@@ -13979,7 +13978,7 @@ astutatu
 %
 1
 s
-cancella
+scancella
 tutti
 i
 viscotta
@@ -17850,7 +17849,7 @@ ricugghiuta
 d
 dati
 o
-cancella
+scancella
 u
 to
 cuntu
@@ -22859,7 +22858,7 @@ name
 collection_delete
 "
 >
-Cancella
+Scancella
 ricota
 <
 /
@@ -23014,7 +23013,7 @@ name
 delete_from_history
 "
 >
-Cancella
+Scancella
 d
 crunulugg
 a
@@ -23123,7 +23122,7 @@ name
 history_delete_all
 "
 >
-Cancella
+Scancella
 a
 crunulugg
 a
@@ -23247,7 +23246,7 @@ name
 history_delete_item
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -23525,7 +23524,7 @@ download_delete_multiple_items_snackbar_1
 "
 >
 Scarricamenti
-cancillati
+scancillati
 <
 /
 string
@@ -24784,7 +24783,7 @@ bookmark_delete_multiple_folders_confirmation_dialog
 >
 %
 s
-cancella
+scancella
 l
 \
 '
@@ -25183,7 +25182,7 @@ name
 bookmark_menu_delete_button
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -25721,7 +25720,7 @@ bookmark_deletion_multiple_snackbar_message_3
 "
 >
 Staju
-cancillannu
+scancillannu
 i
 carpetti
 chi
@@ -25829,7 +25828,7 @@ bookmark_delete_multiple_items
 "
 >
 Elimenti
-cancillati
+scancillati
 :
 %
 s
@@ -25963,7 +25962,7 @@ name
 bookmark_delete_bookmark_content_description
 "
 >
-Cancella
+Scancella
 u
 nzingalibbru
 <
@@ -25997,7 +25996,7 @@ name
 bookmark_delete_folder_content_description
 "
 >
-Cancella
+Scancella
 a
 carpetta
 <
@@ -26495,7 +26494,7 @@ name
 clear_permissions
 "
 >
-Cancella
+Scancella
 i
 pirmisi
 <
@@ -26582,7 +26581,7 @@ name
 clear_permission
 "
 >
-Cancella
+Scancella
 u
 pirmisu
 <
@@ -26672,7 +26671,7 @@ name
 clear_permissions_on_all_sites
 "
 >
-Cancella
+Scancella
 pirmisi
 di
 tutti
@@ -30620,7 +30619,7 @@ snackbar_top_site_removed
 "
 >
 Situ
-cancillatu
+scancillatu
 <
 /
 string
@@ -30891,7 +30890,7 @@ name
 tab_collection_dialog_positive
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -31147,7 +31146,7 @@ name
 preferences_delete_browsing_data
 "
 >
-Cancella
+Scancella
 i
 dati
 di
@@ -31553,7 +31552,7 @@ name
 preferences_delete_browsing_data_button
 "
 >
-Cancella
+Scancella
 i
 dati
 di
@@ -31586,7 +31585,7 @@ name
 preferences_delete_browsing_data_on_quit
 "
 >
-Cancella
+Scancella
 i
 dati
 di
@@ -31631,7 +31630,7 @@ name
 preference_summary_delete_browsing_data_on_quit_2
 "
 >
-Cancella
+Scancella
 \
 '
 n
@@ -31711,7 +31710,7 @@ Piriudu
 di
 tempu
 di
-cancillari
+scancillari
 <
 /
 string
@@ -31740,7 +31739,7 @@ name
 delete_history_prompt_body_2
 "
 >
-Cancella
+Scancella
 a
 crunulugg
 a
@@ -31903,7 +31902,7 @@ delete_browsing_data_prompt_message_3
 >
 %
 s
-cancella
+scancella
 i
 dati
 di
@@ -31970,7 +31969,7 @@ name
 delete_browsing_data_prompt_allow
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -32042,7 +32041,7 @@ deleting_browsing_data_in_progress
 "
 >
 Staju
-cancillannu
+scancillannu
 i
 dati
 di
@@ -32092,7 +32091,7 @@ name
 delete_all_history_group_prompt_message
 "
 >
-Cancella
+Scancella
 tutti
 i
 siti
@@ -32159,7 +32158,7 @@ name
 delete_history_group_prompt_allow
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -32191,7 +32190,7 @@ delete_history_group_snackbar
 "
 >
 Gruppu
-cancillatu
+scancillatu
 <
 /
 string
@@ -32702,7 +32701,7 @@ to
 cuntu
 ma
 nun
-cancella
+scancella
 nu
 u
 d
@@ -34771,7 +34770,7 @@ name
 etp_redirect_trackers_description
 "
 >
-Cancella
+Scancella
 i
 viscotta
 mpustati
@@ -36413,7 +36412,7 @@ name
 preferences_passwords_exceptions_remove_all
 "
 >
-Cancella
+Scancella
 tutti
 l
 \
@@ -36683,7 +36682,7 @@ name
 saved_logins_clear_password
 "
 >
-Cancella
+Scancella
 a
 chiavi
 <
@@ -36764,7 +36763,7 @@ name
 saved_login_clear_username
 "
 >
-Cancella
+Scancella
 u
 nomu
 utenti
@@ -36807,7 +36806,7 @@ name
 saved_login_clear_hostname
 "
 >
-Cancella
+Scancella
 u
 nomu
 d
@@ -38108,7 +38107,7 @@ name
 credit_cards_menu_delete_card
 "
 >
-Cancella
+Scancella
 a
 carta
 <
@@ -38144,7 +38143,7 @@ name
 credit_cards_delete_card_button
 "
 >
-Cancella
+Scancella
 a
 carta
 <
@@ -38213,7 +38212,7 @@ name
 credit_cards_delete_dialog_button
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -39218,7 +39217,7 @@ name
 addressess_delete_address_button
 "
 >
-Cancella
+Scancella
 u
 nnirizzu
 <
@@ -39285,7 +39284,7 @@ name
 addressess_confirm_dialog_ok_button
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -39386,7 +39385,7 @@ name
 address_menu_delete_address
 "
 >
-Cancella
+Scancella
 nnirizzu
 <
 /
@@ -39556,7 +39555,7 @@ name
 search_engine_delete
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -40516,7 +40515,7 @@ name
 clear_site_data
 "
 >
-Cancella
+Scancella
 i
 viscotta
 e
@@ -40933,7 +40932,7 @@ name
 login_menu_delete_button
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -41016,7 +41015,7 @@ name
 dialog_delete_positive
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -50808,7 +50807,7 @@ name
 never_translate_site_item_list_content_description_preference
 "
 >
-Cancella
+Scancella
 %
 1
 s
@@ -50963,7 +50962,7 @@ name
 never_translate_site_dialog_confirm_delete_preference
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -51460,7 +51459,7 @@ name
 download_language_all_languages_item_preference_to_delete
 "
 >
-Cancella
+Scancella
 tutti
 i
 lingui
@@ -51510,7 +51509,7 @@ name
 download_languages_item_content_description_downloaded_state
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -51873,7 +51872,7 @@ CDATA
 [
 Nun
 potti
-cancillari
+scancillari
 <
 b
 >
@@ -52229,7 +52228,7 @@ name
 delete_language_file_dialog_positive_button_text
 "
 >
-Cancella
+Scancella
 <
 /
 string
@@ -55100,7 +55099,7 @@ name
 debug_drawer_logins_delete_login_button_content_description
 "
 >
-Cancella
+Scancella
 a
 cridinziali
 c

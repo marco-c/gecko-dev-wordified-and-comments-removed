@@ -5494,7 +5494,6 @@ browser_menu_edit_bookmark
 /
 string
 >
-dsa
 <
 !
 -
@@ -5592,7 +5591,6 @@ browser_menu_turn_off_reader_view
 /
 string
 >
-dsa
 <
 !
 -
@@ -5624,7 +5622,6 @@ browser_menu_open_in_normal_tab
 /
 string
 >
-dsa
 <
 !
 -
