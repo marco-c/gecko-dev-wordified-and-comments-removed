@@ -1911,8 +1911,7 @@ address_bar_swipe_cfr_title
 Stryg
 v
 rkt
-jslinje
-op
+jslinjen
 for
 at
 skifte
@@ -11216,6 +11215,13 @@ name
 "
 onboarding_customize_toolbar_skip_button
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Spring
 over
@@ -11618,6 +11624,13 @@ name
 =
 "
 onboarding_customize_theme_skip_button
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 Spring
