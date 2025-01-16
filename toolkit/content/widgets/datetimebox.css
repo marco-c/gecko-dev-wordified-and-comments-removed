@@ -69,6 +69,12 @@ height
 :
 normal
 ;
+white
+-
+space
+:
+nowrap
+;
 /
 *
 TODO
@@ -147,12 +153,6 @@ wrapper
 overflow
 :
 hidden
-;
-white
--
-space
-:
-nowrap
 ;
 flex
 -
