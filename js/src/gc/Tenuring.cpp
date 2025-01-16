@@ -5750,16 +5750,12 @@ nursery
 (
 )
 .
-maybeMoveNurseryOrMallocBufferOnPromotion
+maybeMoveBufferOnPromotion
 (
 &
 unshiftedHeader
 dst
 allocSize
-MemoryUse
-:
-:
-ObjectElements
 )
 ;
 if
