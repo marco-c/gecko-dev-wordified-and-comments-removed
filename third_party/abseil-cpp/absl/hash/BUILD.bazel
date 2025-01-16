@@ -349,7 +349,7 @@ hash_testing
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -706,7 +706,7 @@ hash_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -815,7 +815,7 @@ spy_hash_state
 "
 testonly
 =
-1
+True
 hdrs
 =
 [

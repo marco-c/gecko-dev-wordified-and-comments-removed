@@ -272,6 +272,15 @@ Wconversion
     
 "
 -
+Wdead
+-
+code
+-
+aggressive
+"
+    
+"
+-
 Wfloat
 -
 overflow

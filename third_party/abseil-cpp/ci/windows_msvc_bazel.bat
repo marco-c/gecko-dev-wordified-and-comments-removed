@@ -444,7 +444,7 @@ distdir
 -
 enable_bzlmod
 =
-false
+true
 ^
 -
 -

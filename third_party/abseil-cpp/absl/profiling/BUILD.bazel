@@ -635,7 +635,7 @@ periodic_sampler_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [

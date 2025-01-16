@@ -1250,7 +1250,7 @@ atomic_hook_test_helper
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1579,7 +1579,7 @@ exception_testing
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -1666,7 +1666,7 @@ exception_safety_testing
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1957,7 +1957,7 @@ spinlock_test_common
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -2096,7 +2096,7 @@ spinlock_benchmark_common
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -2174,7 +2174,7 @@ spinlock_benchmark
 "
 testonly
 =
-1
+True
 copts
 =
 ABSL_DEFAULT_COPTS
@@ -2480,7 +2480,7 @@ no_destructor_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -2896,7 +2896,7 @@ scoped_set_env
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -3204,7 +3204,7 @@ strerror_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [

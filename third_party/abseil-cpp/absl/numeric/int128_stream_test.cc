@@ -1127,7 +1127,9 @@ CheckUint128Case
 absl
 :
 :
-kuint128max
+Uint128Max
+(
+)
 kDec
 0
 "
@@ -1142,7 +1144,9 @@ CheckUint128Case
 absl
 :
 :
-kuint128max
+Uint128Max
+(
+)
 kOct
 0
 "
@@ -1157,7 +1161,9 @@ CheckUint128Case
 absl
 :
 :
-kuint128max
+Uint128Max
+(
+)
 kHex
 0
 "

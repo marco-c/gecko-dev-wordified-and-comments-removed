@@ -538,7 +538,7 @@ fixed_array_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -742,7 +742,7 @@ test_allocator
 "
 testonly
 =
-1
+True
 copts
 =
 ABSL_TEST_COPTS
@@ -893,7 +893,7 @@ inlined_vector_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1026,7 +1026,7 @@ test_instance_tracker
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1249,6 +1249,10 @@ hash_generator_testing
 "
 "
 :
+test_allocator
+"
+"
+:
 unordered_map_constructor_test
 "
 "
@@ -1420,6 +1424,10 @@ flat_hash_set
 "
 :
 hash_generator_testing
+"
+"
+:
+test_allocator
 "
 "
 :
@@ -1654,6 +1662,10 @@ ABSL_DEFAULT_LINKOPTS
 deps
 =
 [
+"
+:
+container_memory
+"
 "
 :
 hash_function_defaults
@@ -1951,6 +1963,10 @@ deps
 =
 [
 "
+:
+common
+"
+"
 /
 /
 absl
@@ -1965,6 +1981,15 @@ config
 absl
 /
 hash
+"
+"
+/
+/
+absl
+/
+meta
+:
+type_traits
 "
 "
 /
@@ -2020,6 +2045,14 @@ no_test_loonix
 deps
 =
 [
+"
+:
+flat_hash_map
+"
+"
+:
+flat_hash_set
+"
 "
 :
 hash_function_defaults
@@ -2088,7 +2121,7 @@ hash_generator_testing
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -2167,7 +2200,7 @@ hash_policy_testing
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -2320,6 +2353,10 @@ ABSL_DEFAULT_LINKOPTS
 deps
 =
 [
+"
+:
+container_memory
+"
 "
 :
 hash_policy_traits
@@ -2585,6 +2622,15 @@ absl
 base
 :
 core_headers
+"
+"
+/
+/
+absl
+/
+base
+:
+no_destructor
 "
 "
 /
@@ -3302,7 +3348,7 @@ raw_hash_set_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -3341,6 +3387,10 @@ private
 deps
 =
 [
+"
+:
+container_memory
+"
 "
 :
 hash_function_defaults
@@ -3385,7 +3435,7 @@ raw_hash_set_probe_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -3540,6 +3590,10 @@ ABSL_DEFAULT_LINKOPTS
 deps
 =
 [
+"
+:
+container_memory
+"
 "
 :
 raw_hash_set
@@ -3776,7 +3830,7 @@ layout_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -3855,7 +3909,7 @@ tracked
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -3896,7 +3950,7 @@ unordered_map_constructor_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -3943,7 +3997,7 @@ unordered_map_lookup_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -3990,7 +4044,7 @@ unordered_map_modifiers_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4037,7 +4091,7 @@ unordered_set_constructor_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4093,7 +4147,7 @@ unordered_set_members_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4141,7 +4195,7 @@ unordered_map_members_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4189,7 +4243,7 @@ unordered_set_lookup_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4236,7 +4290,7 @@ unordered_set_modifiers_test
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4646,7 +4700,7 @@ btree_test_common
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4895,7 +4949,7 @@ btree_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [

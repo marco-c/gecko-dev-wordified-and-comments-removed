@@ -986,7 +986,7 @@ absl
 -
 enable_bzlmod
 =
-false
+true
 \
 -
 -

@@ -1784,6 +1784,13 @@ absl
 /
 container
 :
+hash_function_defaults_test
+"
+"
+absl
+/
+container
+:
 inlined_vector_test
 "
 "

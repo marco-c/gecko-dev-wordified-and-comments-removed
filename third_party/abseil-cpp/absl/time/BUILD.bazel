@@ -357,7 +357,7 @@ test_util
 "
 testonly
 =
-1
+True
 srcs
 =
 [

@@ -130,6 +130,7 @@ base_internal
 {
 class
 ABSL_LOCKABLE
+ABSL_ATTRIBUTE_WARN_UNUSED
 SpinLock
 {
 public

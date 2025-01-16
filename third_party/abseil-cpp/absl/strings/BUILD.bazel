@@ -3065,6 +3065,8 @@ deps
 absl
 /
 base
+:
+config
 "
 "
 /
@@ -3073,7 +3075,7 @@ absl
 /
 base
 :
-config
+no_destructor
 "
 "
 /
@@ -4048,7 +4050,7 @@ cord_test_helpers
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4099,7 +4101,7 @@ cord_rep_test_util
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4157,7 +4159,7 @@ cordz_test_helpers
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -4453,6 +4455,15 @@ function_ref
 absl
 /
 hash
+"
+"
+/
+/
+absl
+/
+hash
+:
+hash_testing
 "
 "
 /
@@ -7053,7 +7064,7 @@ atod_manual_test
 "
 testonly
 =
-1
+True
 srcs
 =
 [

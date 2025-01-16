@@ -963,7 +963,7 @@ Werror
 -
 enable_bzlmod
 =
-false
+true
 \
 -
 -

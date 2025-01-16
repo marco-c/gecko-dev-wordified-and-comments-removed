@@ -2021,7 +2021,7 @@ vlog_config_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [

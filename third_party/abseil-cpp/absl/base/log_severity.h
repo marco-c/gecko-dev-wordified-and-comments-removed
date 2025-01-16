@@ -224,14 +224,12 @@ return
 FATAL
 "
 ;
-default
-:
+}
 return
 "
 UNKNOWN
 "
 ;
-}
 }
 constexpr
 absl

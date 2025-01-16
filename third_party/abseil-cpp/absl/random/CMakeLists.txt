@@ -686,6 +686,10 @@ inlined_vector
 absl
 :
 :
+nullability
+absl
+:
+:
 random_internal_pool_urbg
 absl
 :
@@ -703,6 +707,10 @@ absl
 :
 :
 span
+absl
+:
+:
+string_view
 )
 absl_cc_test
 (

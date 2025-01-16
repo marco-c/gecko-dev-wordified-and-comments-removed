@@ -509,7 +509,7 @@ c
 -
 enable_bzlmod
 =
-false
+true
 \
 -
 -

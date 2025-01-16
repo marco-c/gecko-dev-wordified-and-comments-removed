@@ -2418,6 +2418,10 @@ config
 absl
 :
 :
+no_destructor
+absl
+:
+:
 raw_logging_internal
 absl
 :
@@ -3239,6 +3243,10 @@ absl
 :
 :
 hash
+absl
+:
+:
+hash_testing
 absl
 :
 :

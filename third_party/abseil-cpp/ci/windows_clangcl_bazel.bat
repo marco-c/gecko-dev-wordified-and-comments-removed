@@ -507,7 +507,7 @@ distdir
 -
 enable_bzlmod
 =
-false
+true
 ^
 -
 -
@@ -515,7 +515,6 @@ extra_execution_platforms
 =
 /
 /
-absl
 :
 x64_windows
 -

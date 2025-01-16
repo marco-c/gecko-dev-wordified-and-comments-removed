@@ -717,6 +717,10 @@ CommonFields
 &
 common
 const
+void
+*
+hash_fn
+const
 PolicyFunctions
 &
 policy
@@ -882,7 +886,7 @@ hash
 hasher
 )
 (
-set
+hash_fn
 slot_ptr
 )
 ;

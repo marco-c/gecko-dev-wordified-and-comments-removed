@@ -385,6 +385,22 @@ absl
 time
 "
 ]
++
+select
+(
+{
+"
+/
+/
+conditions
+:
+default
+"
+:
+[
+]
+}
+)
 )
 cc_test
 (
@@ -978,7 +994,7 @@ blocking_counter_benchmark
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1179,7 +1195,7 @@ thread_pool
 "
 testonly
 =
-1
+True
 hdrs
 =
 [
@@ -1410,7 +1426,7 @@ mutex_benchmark_common
 "
 testonly
 =
-1
+True
 srcs
 =
 [
@@ -1487,7 +1503,7 @@ mutex_benchmark
 "
 testonly
 =
-1
+True
 copts
 =
 ABSL_DEFAULT_COPTS
@@ -1579,7 +1595,7 @@ per_thread_sem_test_common
 "
 testonly
 =
-1
+True
 srcs
 =
 [

@@ -257,6 +257,25 @@ tag
   
 s
 .
+resource_bundles
+=
+{
+    
+s
+.
+module_name
+=
+>
+'
+PrivacyInfo
+.
+xcprivacy
+'
+  
+}
+  
+s
+.
 module_name
 =
 '

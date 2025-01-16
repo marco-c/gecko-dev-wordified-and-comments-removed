@@ -569,6 +569,10 @@ absl
 :
 :
 strings
+absl
+:
+:
+no_destructor
 )
 absl_cc_test
 (

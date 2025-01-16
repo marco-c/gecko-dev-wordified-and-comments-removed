@@ -238,7 +238,7 @@ len
 )
 {
 return
-LowLevelHash
+LowLevelHashLenGt16
 (
 data
 len
