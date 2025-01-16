@@ -4653,16 +4653,6 @@ super
 recreate
 (
 )
-this
-HomeActivity
-.
-settings
-(
-)
-.
-promptToSetAsDefaultBrowserDisplayedInOnboarding
-=
-true
 }
 /
 *
