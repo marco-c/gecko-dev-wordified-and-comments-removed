@@ -853,8 +853,33 @@ self
 log
 appname
 branchname
+wmclass
+=
+None
 )
 :
+        
+if
+wmclass
+is
+None
+:
+            
+wmclass
+=
+"
+{
+}
+-
+{
+}
+"
+.
+format
+(
+appname
+branchname
+)
         
 build_variables
 =
@@ -889,19 +914,7 @@ png
 StartupWMClass
 "
 :
-"
-{
-}
--
-{
-}
-"
-.
-format
-(
-appname
-branchname
-)
+wmclass
         
 }
         

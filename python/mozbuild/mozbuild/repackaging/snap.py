@@ -127,6 +127,10 @@ branchname
 nightly
 "
     
+wmclass
+=
+None
+    
 arch
 =
 "
@@ -389,6 +393,7 @@ write
             
 SnapDesktopFile
 (
+                
 log
 appname
 =
@@ -396,6 +401,10 @@ appname
 branchname
 =
 branchname
+wmclass
+=
+wmclass
+            
 )
 .
 repack
