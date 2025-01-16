@@ -5114,6 +5114,19 @@ locale
 locale
 %
 "
+                
+last_linux_bz2_version
+=
+self
+.
+config
+.
+get
+(
+"
+last_linux_bz2_version
+"
+)
             
 )
             
@@ -5191,6 +5204,19 @@ locale
 locale
 %
 "
+                    
+last_linux_bz2_version
+=
+self
+.
+config
+.
+get
+(
+"
+last_linux_bz2_version
+"
+)
                 
 )
             
