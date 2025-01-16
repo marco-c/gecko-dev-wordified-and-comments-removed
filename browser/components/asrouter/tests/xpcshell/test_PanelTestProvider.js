@@ -105,7 +105,7 @@ spotlight
 6
 feature_callout
 :
-4
+3
 pb_newtab
 :
 2
