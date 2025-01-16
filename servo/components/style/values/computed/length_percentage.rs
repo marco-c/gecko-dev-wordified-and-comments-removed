@@ -997,7 +997,6 @@ PartialEq
 ToCss
 )
 ]
-pub
 enum
 Unpacked
 <
@@ -1021,7 +1020,6 @@ Percentage
 Percentage
 )
 }
-pub
 enum
 UnpackedMut
 <
@@ -2162,7 +2160,6 @@ percentage
 [
 inline
 ]
-pub
 fn
 unpack
 <
