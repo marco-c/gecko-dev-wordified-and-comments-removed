@@ -19,6 +19,9 @@ nsBidiUtils
 h
 "
 class
+nsAtom
+;
+class
 nsIContent
 ;
 struct
@@ -203,6 +206,10 @@ nsTextFrameUtils
 Flags
 *
 aAnalysisFlags
+const
+nsAtom
+*
+aLanguage
 )
 ;
 template
