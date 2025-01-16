@@ -1037,7 +1037,7 @@ e
 =
 errno
 ;
-CHROMIUM_LOG
+DLOG
 (
 ERROR
 )
@@ -1112,7 +1112,7 @@ len
 1
 )
 {
-CHROMIUM_LOG
+DLOG
 (
 ERROR
 )
