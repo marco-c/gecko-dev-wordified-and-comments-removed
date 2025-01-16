@@ -123,11 +123,6 @@ salt
 ]
 )
 {
-PrefetchToLocalCache
-(
-data
-)
-;
 const
 uint8_t
 *

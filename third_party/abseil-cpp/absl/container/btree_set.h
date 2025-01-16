@@ -99,7 +99,7 @@ Key
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 btree_set
 :
 public
@@ -421,7 +421,7 @@ Key
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 btree_multiset
 :
 public

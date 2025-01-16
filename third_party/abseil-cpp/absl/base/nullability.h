@@ -28,6 +28,9 @@ nullability_impl
 .
 h
 "
+#
+define
+ABSL_POINTERS_DEFAULT_NONNULL
 namespace
 absl
 {

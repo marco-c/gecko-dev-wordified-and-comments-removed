@@ -162,7 +162,7 @@ T
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 flat_hash_set
 :
 public

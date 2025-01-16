@@ -141,7 +141,7 @@ typename
 T
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_VIEW
+ABSL_ATTRIBUTE_VIEW
 Span
 {
 private

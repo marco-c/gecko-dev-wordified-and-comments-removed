@@ -844,8 +844,13 @@ kTruncated
 AsyncSignalSafeWriteError
 (
 buffer
-strlen
+static_cast
+<
+size_t
+>
 (
+buf
+-
 buffer
 )
 )

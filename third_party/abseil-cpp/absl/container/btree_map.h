@@ -103,7 +103,7 @@ Value
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 btree_map
 :
 public
@@ -470,7 +470,7 @@ Value
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 btree_multimap
 :
 public

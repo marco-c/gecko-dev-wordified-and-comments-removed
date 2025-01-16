@@ -2770,6 +2770,10 @@ container_memory
 "
 "
 :
+hash_function_defaults
+"
+"
+:
 hash_policy_traits
 "
 "

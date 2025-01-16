@@ -930,11 +930,17 @@ static
 uintptr_t
 PointerToRep
 (
+absl
+:
+:
+Nonnull
+<
 status_internal
 :
 :
 StatusRep
 *
+>
 r
 )
 ;

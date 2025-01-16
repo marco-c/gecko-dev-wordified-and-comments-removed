@@ -2156,6 +2156,10 @@ hash
 absl
 :
 :
+hash_function_defaults
+absl
+:
+:
 hash_policy_traits
 absl
 :
