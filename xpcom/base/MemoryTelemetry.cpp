@@ -688,8 +688,10 @@ if
 mLastRun
 &
 &
+now
+-
 mLastRun
-+
+<
 TimeDuration
 :
 :
@@ -697,8 +699,6 @@ FromSeconds
 (
 kTelemetryCooldownS
 )
-<
-now
 )
 {
 return
