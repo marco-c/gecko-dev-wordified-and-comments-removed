@@ -1188,7 +1188,7 @@ partial
 dictionary
 AuthenticationExtensionsClientInputs
 {
-USVString
+DOMString
 appid
 ;
 }
@@ -1206,7 +1206,7 @@ partial
 dictionary
 AuthenticationExtensionsClientInputs
 {
-USVString
+DOMString
 appidExclude
 ;
 }
@@ -1266,7 +1266,7 @@ eval
 ;
 record
 <
-USVString
+DOMString
 AuthenticationExtensionsPRFValues
 >
 evalByCredential

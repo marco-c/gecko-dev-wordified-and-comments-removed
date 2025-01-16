@@ -191,6 +191,9 @@ none
 long
 maxTrustedBiddingSignalsURLLength
 ;
+USVString
+trustedBiddingSignalsCoordinator
+;
 any
 userBiddingSignals
 ;
@@ -420,6 +423,9 @@ trustedScoringSignalsURL
 ;
 long
 maxTrustedScoringSignalsURLLength
+;
+USVString
+trustedScoringSignalsCoordinator
 ;
 sequence
 <
