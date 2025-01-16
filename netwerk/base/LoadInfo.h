@@ -788,6 +788,8 @@ bool
 &
 aIsThirdPartyContextToTopWindow
 bool
+aIsOn3PCBExceptionList
+bool
 aIsFormSubmission
 bool
 aIsGETRequest
@@ -1333,6 +1335,11 @@ Maybe
 bool
 >
 mIsThirdPartyContextToTopWindow
+;
+bool
+mIsOn3PCBExceptionList
+=
+false
 ;
 bool
 mIsFormSubmission
