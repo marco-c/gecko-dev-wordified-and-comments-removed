@@ -193,7 +193,7 @@ highlighters
 .
 TYPES
 .
-BOXMODEL
+SELECTOR
 )
 ;
 await
