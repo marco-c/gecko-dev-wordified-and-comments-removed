@@ -1,3 +1,5 @@
+import
+shutil
 from
 pathlib
 import
@@ -783,7 +785,7 @@ alive
 )
     
 def
-test_ensure_no_cleanup_when_disabled
+test_ensure_cleanup_when_disabled
 (
 self
 )
@@ -841,7 +843,7 @@ quit
         
 self
 .
-assertTrue
+assertFalse
 (
             
 self
@@ -860,14 +862,13 @@ be
 removed
 subdirectory
 must
-not
 disappear
 "
         
 )
     
 def
-test_ensure_no_cleanup_when_no_cookie
+test_ensure_cleanup_when_no_cookie
 (
 self
 )
@@ -915,7 +916,7 @@ quit
         
 self
 .
-assertTrue
+assertFalse
 (
             
 self
@@ -933,6 +934,86 @@ be
 -
 removed
 subdirectory
+must
+disappear
+"
+        
+)
+    
+def
+test_ensure_cleanup_empty_dir
+(
+self
+)
+:
+        
+shutil
+.
+rmtree
+(
+self
+.
+moved_origin_directory
+.
+resolve
+(
+)
+)
+        
+self
+.
+assertFalse
+(
+            
+self
+.
+moved_origin_directory
+.
+exists
+(
+)
+            
+"
+to
+-
+be
+-
+removed
+subdirectory
+must
+not
+exist
+"
+        
+)
+        
+self
+.
+marionette
+.
+quit
+(
+)
+        
+self
+.
+assertFalse
+(
+            
+self
+.
+to_be_removed_directory
+.
+exists
+(
+)
+            
+"
+to
+-
+be
+-
+removed
 must
 not
 disappear
