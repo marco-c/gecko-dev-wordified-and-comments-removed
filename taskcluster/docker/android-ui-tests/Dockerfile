@@ -186,9 +186,9 @@ install
 taskcluster
 =
 =
-65
+77
 .
-3
+0
 .
 0
 RUN
@@ -573,7 +573,7 @@ tar
 gz
 ENV
 GOOGLE_SDK_VERSION
-478
+504
 ENV
 TEST_TOOLS
 /
@@ -817,9 +817,9 @@ junitparser
 =
 3
 .
-1
-.
 2
+.
+0
 beautifultable
 =
 =
