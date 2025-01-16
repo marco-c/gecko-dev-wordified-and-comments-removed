@@ -1423,6 +1423,9 @@ scene
 &
 mut
 BuiltScene
+present
+:
+bool
 global_screen_world_rect
 :
 WorldRect
@@ -1515,6 +1518,11 @@ profile_scope
 build_layer_screen_rects_and_cull_layers
 "
 )
+;
+let
+render_picture_cache_slices
+=
+present
 ;
 let
 root_spatial_node_index
@@ -1997,6 +2005,13 @@ rev
 (
 )
 {
+if
+!
+render_picture_cache_slices
+{
+break
+;
+}
 let
 pic
 =
@@ -2563,6 +2578,13 @@ scene
 .
 tile_cache_pictures
 {
+if
+!
+render_picture_cache_slices
+{
+break
+;
+}
 prepare_picture
 (
 *
@@ -2679,6 +2701,9 @@ scene
 &
 mut
 BuiltScene
+present
+:
+bool
 resource_cache
 :
 &
@@ -3026,6 +3051,7 @@ self
 build_layer_screen_rects_and_cull_layers
 (
 scene
+present
 screen_world_rect
 resource_cache
 gpu_cache
@@ -3367,6 +3393,9 @@ pass
 )
 ;
 }
+if
+present
+{
 let
 mut
 ctx
@@ -3464,6 +3493,7 @@ mut
 composite_state
 )
 ;
+}
 }
 profile
 .
@@ -3587,6 +3617,7 @@ size
 (
 )
 )
+present
 passes
 transform_palette
 :
@@ -5520,6 +5551,10 @@ pub
 device_rect
 :
 DeviceIntRect
+pub
+present
+:
+bool
 pub
 passes
 :
