@@ -19665,10 +19665,6 @@ item
 .
 id
 =
-item
-.
-id
-=
 getUniqueId
 (
 "
