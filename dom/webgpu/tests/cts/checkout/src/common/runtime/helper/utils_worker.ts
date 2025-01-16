@@ -200,6 +200,11 @@ compatibility
 compatibilityMode
 :
 true
+featureLevel
+:
+'
+compatibility
+'
 }
 )
 }

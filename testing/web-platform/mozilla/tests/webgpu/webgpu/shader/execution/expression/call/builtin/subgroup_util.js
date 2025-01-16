@@ -978,10 +978,6 @@ f16
 enable
 f16
 ;
-\
-nenable
-subgroups_f16
-;
 :
 ;
 const
