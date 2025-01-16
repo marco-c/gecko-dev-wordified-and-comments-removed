@@ -1490,6 +1490,12 @@ absl_full_deps
 "
 )
 {
+if
+(
+!
+moz_webrtc_build
+)
+{
 public_deps
 =
 [
@@ -1734,6 +1740,7 @@ flags
 absl_flags_config
 "
 ]
+}
 }
 config
 (
