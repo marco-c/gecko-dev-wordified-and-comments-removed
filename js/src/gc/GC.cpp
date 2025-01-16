@@ -1899,6 +1899,13 @@ mutexid
 :
 GCDelayedMarkingLock
 )
+bufferAllocatorLock
+(
+mutexid
+:
+:
+BufferAllocator
+)
 allocTask
 (
 this

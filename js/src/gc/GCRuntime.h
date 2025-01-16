@@ -256,6 +256,9 @@ AutoHeapSession
 class
 AutoTraceSession
 ;
+class
+BufferAllocator
+;
 struct
 FinalizePhase
 ;
@@ -6651,6 +6654,14 @@ MOZ_UNANNOTATED
 Mutex
 delayedMarkingLock
 MOZ_UNANNOTATED
+;
+Mutex
+bufferAllocatorLock
+MOZ_UNANNOTATED
+;
+friend
+class
+BufferAllocator
 ;
 friend
 class
