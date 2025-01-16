@@ -86762,6 +86762,8 @@ network
 .
 http
 .
+http2
+.
 move_to_pending_list_after_network_change
 type
 :
