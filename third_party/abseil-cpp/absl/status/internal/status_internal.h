@@ -114,12 +114,14 @@ class
 nodiscard
 ]
 ]
+ABSL_ATTRIBUTE_TRIVIAL_ABI
 Status
 ;
 #
 else
 class
 ABSL_MUST_USE_RESULT
+ABSL_ATTRIBUTE_TRIVIAL_ABI
 Status
 ;
 #

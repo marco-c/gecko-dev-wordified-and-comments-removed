@@ -456,6 +456,13 @@ h
 "
 base
 /
+no_destructor
+.
+h
+"
+"
+base
+/
 nullability
 .
 h
@@ -2537,8 +2544,6 @@ cc
 "
 strings
 /
-internal
-/
 has_absl_stringify
 .
 h
@@ -2546,7 +2551,7 @@ h
 "
 strings
 /
-has_absl_stringify
+has_ostream_operator
 .
 h
 "

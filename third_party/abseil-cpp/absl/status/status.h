@@ -468,6 +468,7 @@ lhs
 ;
 }
 class
+ABSL_ATTRIBUTE_TRIVIAL_ABI
 Status
 final
 {

@@ -41,7 +41,10 @@ kIntelIvybridge
 kIntelSandybridge
 kIntelWestmere
 kArmNeoverseN1
+kArmNeoverseV1
 kAmpereSiryn
+kArmNeoverseN2
+kArmNeoverseV2
 }
 ;
 CpuType

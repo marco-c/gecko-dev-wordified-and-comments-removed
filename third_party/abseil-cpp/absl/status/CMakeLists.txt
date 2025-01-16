@@ -213,6 +213,10 @@ memory
 absl
 :
 :
+no_destructor
+absl
+:
+:
 optional
 absl
 :
