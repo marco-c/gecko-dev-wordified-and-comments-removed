@@ -385,6 +385,11 @@ SVGPathElement
 h
 "
 "
+SVGPathSegment
+.
+h
+"
+"
 SVGPathSegUtils
 .
 h
@@ -1066,6 +1071,11 @@ cpp
 "
 "
 SVGPathSegListSMILType
+.
+cpp
+"
+"
+SVGPathSegment
 .
 cpp
 "
