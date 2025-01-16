@@ -7155,6 +7155,10 @@ androidx_test_orchestrator
 androidTestImplementation
 ComponentsDependencies
 .
+testing_leakcanary
+androidTestImplementation
+ComponentsDependencies
+.
 androidx_benchmark_junit4
 androidTestImplementation
 ComponentsDependencies
