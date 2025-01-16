@@ -345,6 +345,7 @@ Invalid
 0
 TenuredArenas
 MediumBuffers
+LargeBuffer
 NurseryToSpace
 NurseryFromSpace
 }
@@ -574,6 +575,15 @@ ChunkKind
 :
 :
 MediumBuffers
+|
+|
+kind
+=
+=
+ChunkKind
+:
+:
+LargeBuffer
 ;
 }
 StoreBuffer
