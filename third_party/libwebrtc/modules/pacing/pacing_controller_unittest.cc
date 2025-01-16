@@ -570,7 +570,6 @@ packet
 const
 PacedPacketInfo
 &
-cluster_info
 )
 override
 {
@@ -1013,7 +1012,6 @@ packet
 const
 PacedPacketInfo
 &
-pacing_info
 )
 override
 {
@@ -10018,7 +10016,6 @@ unique_ptr
 <
 RtpPacketToSend
 >
-packet
 const
 PacedPacketInfo
 &
@@ -10453,7 +10450,6 @@ WillOnce
 ]
 (
 DataSize
-padding_size
 )
 {
 std
@@ -10538,7 +10534,6 @@ packet
 const
 PacedPacketInfo
 &
-cluster_info
 )
 {
 if
@@ -14061,7 +14056,6 @@ packet
 const
 PacedPacketInfo
 &
-cluster_info
 )
 {
 sent_size_in_burst

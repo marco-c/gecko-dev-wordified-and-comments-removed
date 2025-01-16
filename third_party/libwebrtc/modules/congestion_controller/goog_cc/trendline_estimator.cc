@@ -1244,11 +1244,9 @@ recv_delta_ms
 double
 send_delta_ms
 int64_t
-send_time_ms
 int64_t
 arrival_time_ms
 size_t
-packet_size
 )
 {
 const

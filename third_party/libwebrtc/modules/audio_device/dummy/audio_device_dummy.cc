@@ -517,7 +517,6 @@ AudioDeviceDummy
 SetMicrophoneVolume
 (
 uint32_t
-volume
 )
 {
 return
@@ -533,7 +532,6 @@ MicrophoneVolume
 (
 uint32_t
 &
-volume
 )
 const
 {
@@ -550,7 +548,6 @@ MaxMicrophoneVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 {
@@ -567,7 +564,6 @@ MinMicrophoneVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 {
@@ -584,7 +580,6 @@ SpeakerMuteIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -599,7 +594,6 @@ AudioDeviceDummy
 SetSpeakerMute
 (
 bool
-enable
 )
 {
 return
@@ -615,7 +609,6 @@ SpeakerMute
 (
 bool
 &
-enabled
 )
 const
 {
@@ -632,7 +625,6 @@ MicrophoneMuteIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -647,7 +639,6 @@ AudioDeviceDummy
 SetMicrophoneMute
 (
 bool
-enable
 )
 {
 return
@@ -663,7 +654,6 @@ MicrophoneMute
 (
 bool
 &
-enabled
 )
 const
 {
@@ -680,7 +670,6 @@ StereoPlayoutIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -695,7 +684,6 @@ AudioDeviceDummy
 SetStereoPlayout
 (
 bool
-enable
 )
 {
 return
@@ -711,7 +699,6 @@ StereoPlayout
 (
 bool
 &
-enabled
 )
 const
 {
@@ -728,7 +715,6 @@ StereoRecordingIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -743,7 +729,6 @@ AudioDeviceDummy
 SetStereoRecording
 (
 bool
-enable
 )
 {
 return
@@ -759,7 +744,6 @@ StereoRecording
 (
 bool
 &
-enabled
 )
 const
 {
@@ -776,7 +760,6 @@ PlayoutDelay
 (
 uint16_t
 &
-delayMS
 )
 const
 {
@@ -793,7 +776,6 @@ AttachAudioBuffer
 (
 AudioDeviceBuffer
 *
-audioBuffer
 )
 {
 }

@@ -254,7 +254,6 @@ num_channels
 size_t
 num_bands
 size_t
-frame_index
 const
 AudioBuffer
 &

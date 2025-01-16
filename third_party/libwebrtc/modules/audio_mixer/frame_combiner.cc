@@ -210,7 +210,6 @@ number_of_channels
 int
 sample_rate
 size_t
-number_of_streams
 AudioFrame
 *
 audio_frame_for_mixing

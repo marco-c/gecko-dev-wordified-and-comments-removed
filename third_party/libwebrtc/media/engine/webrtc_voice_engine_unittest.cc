@@ -1964,7 +1964,6 @@ OnData
 const
 Data
 &
-audio
 )
 override
 {
@@ -1985,7 +1984,6 @@ SetSink
 (
 Sink
 *
-sink
 )
 override
 {
@@ -4803,7 +4801,6 @@ VoiceSenderInfo
 &
 info
 bool
-is_sending
 )
 {
 const

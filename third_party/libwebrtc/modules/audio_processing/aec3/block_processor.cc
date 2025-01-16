@@ -440,9 +440,7 @@ config
 int
 sample_rate_hz
 size_t
-num_render_channels
 size_t
-num_capture_channels
 std
 :
 :

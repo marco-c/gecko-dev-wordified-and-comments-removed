@@ -142,19 +142,14 @@ void
 Update
 (
 int
-filter_delay_blocks
 bool
-any_filter_consistent
 bool
-any_filter_converged
 bool
 any_coarse_filter_converged
 bool
-all_filters_diverged
 bool
 active_render
 bool
-saturated_capture
 )
 override
 {
@@ -467,7 +462,6 @@ any_filter_consistent
 bool
 any_filter_converged
 bool
-any_coarse_filter_converged
 bool
 all_filters_diverged
 bool

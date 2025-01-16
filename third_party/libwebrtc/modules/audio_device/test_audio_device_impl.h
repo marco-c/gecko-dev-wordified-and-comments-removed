@@ -194,7 +194,6 @@ AudioDeviceModule
 :
 AudioLayer
 &
-audioLayer
 )
 const
 override
@@ -254,14 +253,11 @@ int32_t
 PlayoutDeviceName
 (
 uint16_t
-index
 char
-name
 [
 kAdmMaxDeviceNameSize
 ]
 char
-guid
 [
 kAdmMaxGuidSize
 ]
@@ -276,14 +272,11 @@ int32_t
 RecordingDeviceName
 (
 uint16_t
-index
 char
-name
 [
 kAdmMaxDeviceNameSize
 ]
 char
-guid
 [
 kAdmMaxGuidSize
 ]
@@ -298,7 +291,6 @@ int32_t
 SetPlayoutDevice
 (
 uint16_t
-index
 )
 override
 {
@@ -313,7 +305,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 override
 {
@@ -325,7 +316,6 @@ int32_t
 SetRecordingDevice
 (
 uint16_t
-index
 )
 override
 {
@@ -340,7 +330,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 override
 {
@@ -477,7 +466,6 @@ SpeakerVolumeIsAvailable
 (
 bool
 &
-available
 )
 override
 {
@@ -489,7 +477,6 @@ int32_t
 SetSpeakerVolume
 (
 uint32_t
-volume
 )
 override
 {
@@ -502,7 +489,6 @@ SpeakerVolume
 (
 uint32_t
 &
-volume
 )
 const
 override
@@ -516,7 +502,6 @@ MaxSpeakerVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 override
@@ -530,7 +515,6 @@ MinSpeakerVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 override
@@ -544,7 +528,6 @@ MicrophoneVolumeIsAvailable
 (
 bool
 &
-available
 )
 override
 {
@@ -556,7 +539,6 @@ int32_t
 SetMicrophoneVolume
 (
 uint32_t
-volume
 )
 override
 {
@@ -569,7 +551,6 @@ MicrophoneVolume
 (
 uint32_t
 &
-volume
 )
 const
 override
@@ -583,7 +564,6 @@ MaxMicrophoneVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 override
@@ -597,7 +577,6 @@ MinMicrophoneVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 override
@@ -611,7 +590,6 @@ SpeakerMuteIsAvailable
 (
 bool
 &
-available
 )
 override
 {
@@ -623,7 +601,6 @@ int32_t
 SetSpeakerMute
 (
 bool
-enable
 )
 override
 {
@@ -636,7 +613,6 @@ SpeakerMute
 (
 bool
 &
-enabled
 )
 const
 override
@@ -650,7 +626,6 @@ MicrophoneMuteIsAvailable
 (
 bool
 &
-available
 )
 override
 {
@@ -662,7 +637,6 @@ int32_t
 SetMicrophoneMute
 (
 bool
-enable
 )
 override
 {
@@ -675,7 +649,6 @@ MicrophoneMute
 (
 bool
 &
-enabled
 )
 const
 override
@@ -705,7 +678,6 @@ int32_t
 SetStereoPlayout
 (
 bool
-enable
 )
 override
 {
@@ -718,7 +690,6 @@ StereoPlayout
 (
 bool
 &
-enabled
 )
 const
 override
@@ -748,7 +719,6 @@ int32_t
 SetStereoRecording
 (
 bool
-enable
 )
 override
 {
@@ -761,7 +731,6 @@ StereoRecording
 (
 bool
 &
-enabled
 )
 const
 override
@@ -825,7 +794,6 @@ int32_t
 EnableBuiltInAEC
 (
 bool
-enable
 )
 override
 {
@@ -838,7 +806,6 @@ int32_t
 EnableBuiltInAGC
 (
 bool
-enable
 )
 override
 {
@@ -851,7 +818,6 @@ int32_t
 EnableBuiltInNS
 (
 bool
-enable
 )
 override
 {

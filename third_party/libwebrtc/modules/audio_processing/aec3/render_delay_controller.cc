@@ -577,7 +577,6 @@ DownsampledRenderBuffer
 &
 render_buffer
 size_t
-render_delay_buffer_delay
 const
 Block
 &

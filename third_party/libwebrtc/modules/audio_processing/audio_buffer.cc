@@ -130,7 +130,6 @@ buffer_num_channels
 size_t
 output_rate
 size_t
-output_num_channels
 )
 :
 input_num_frames_

@@ -1027,15 +1027,10 @@ OnData
 const
 void
 *
-audio_data
 int
-bits_per_sample
 int
-sample_rate
 size_t
-number_of_channels
 size_t
-number_of_frames
 std
 :
 :
@@ -1043,7 +1038,6 @@ optional
 <
 int64_t
 >
-absolute_capture_timestamp_ms
 )
 {
 }
@@ -1575,7 +1569,6 @@ GetStats
 (
 VoiceMediaSendInfo
 *
-info
 )
 {
 return
@@ -2142,7 +2135,6 @@ FillBitrateInfo
 (
 BandwidthEstimationInfo
 *
-bwe_info
 )
 {
 }
@@ -2154,7 +2146,6 @@ GetStats
 (
 VideoMediaSendInfo
 *
-info
 )
 {
 return
@@ -2243,7 +2234,6 @@ FakeVideoMediaSendChannel
 GenerateSendKeyFrame
 (
 uint32_t
-ssrc
 const
 std
 :
@@ -2256,7 +2246,6 @@ std
 string
 >
 &
-rids
 )
 {
 }
@@ -2513,7 +2502,6 @@ webrtc
 VideoFrame
 >
 *
-sink
 )
 {
 }
@@ -2709,7 +2697,6 @@ FakeVideoMediaReceiveChannel
 GetSources
 (
 uint32_t
-ssrc
 )
 const
 {
@@ -2901,7 +2888,6 @@ FakeVideoMediaReceiveChannel
 SetRecordableEncodedFrameCallback
 (
 uint32_t
-ssrc
 std
 :
 :
@@ -2917,7 +2903,6 @@ RecordableEncodedFrame
 &
 )
 >
-callback
 )
 {
 }
@@ -2928,7 +2913,6 @@ FakeVideoMediaReceiveChannel
 ClearRecordableEncodedFrameCallback
 (
 uint32_t
-ssrc
 )
 {
 }
@@ -2939,7 +2923,6 @@ FakeVideoMediaReceiveChannel
 RequestRecvKeyFrame
 (
 uint32_t
-ssrc
 )
 {
 }
@@ -2951,7 +2934,6 @@ GetStats
 (
 VideoMediaReceiveInfo
 *
-info
 )
 {
 return
@@ -3052,7 +3034,6 @@ call
 const
 MediaConfig
 &
-config
 const
 AudioOptions
 &
@@ -3063,12 +3044,10 @@ webrtc
 :
 CryptoOptions
 &
-crypto_options
 webrtc
 :
 :
 AudioCodecPairId
-codec_pair_id
 )
 {
 std
@@ -3122,7 +3101,6 @@ call
 const
 MediaConfig
 &
-config
 const
 AudioOptions
 &
@@ -3133,12 +3111,10 @@ webrtc
 :
 CryptoOptions
 &
-crypto_options
 webrtc
 :
 :
 AudioCodecPairId
-codec_pair_id
 )
 {
 std
@@ -3308,9 +3284,7 @@ webrtc
 :
 :
 FileWrapper
-file
 int64_t
-max_size_bytes
 )
 {
 return
@@ -3495,7 +3469,6 @@ call
 const
 MediaConfig
 &
-config
 const
 VideoOptions
 &
@@ -3506,13 +3479,11 @@ webrtc
 :
 CryptoOptions
 &
-crypto_options
 webrtc
 :
 :
 VideoBitrateAllocatorFactory
 *
-video_bitrate_allocator_factory
 )
 {
 if
@@ -3575,7 +3546,6 @@ call
 const
 MediaConfig
 &
-config
 const
 VideoOptions
 &
@@ -3586,7 +3556,6 @@ webrtc
 :
 CryptoOptions
 &
-crypto_options
 )
 {
 if
@@ -3641,7 +3610,6 @@ FakeVideoEngine
 send_codecs
 (
 bool
-use_rtx
 )
 const
 {
@@ -3662,7 +3630,6 @@ FakeVideoEngine
 recv_codecs
 (
 bool
-use_rtx
 )
 const
 {

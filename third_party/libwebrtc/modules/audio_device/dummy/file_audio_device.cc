@@ -1681,7 +1681,6 @@ FileAudioDevice
 SetStereoPlayout
 (
 bool
-enable
 )
 {
 return
@@ -1734,7 +1733,6 @@ FileAudioDevice
 SetStereoRecording
 (
 bool
-enable
 )
 {
 return
@@ -1769,7 +1767,6 @@ PlayoutDelay
 (
 uint16_t
 &
-delayMS
 )
 const
 {

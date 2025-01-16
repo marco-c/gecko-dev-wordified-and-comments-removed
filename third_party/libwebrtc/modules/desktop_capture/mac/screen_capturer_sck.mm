@@ -920,7 +920,6 @@ ScreenCapturerSck
 SetMaxFrameRate
 (
 uint32_t
-max_frame_rate
 )
 {
 }
@@ -3412,7 +3411,6 @@ SCShareableContent
 content
 NSError
 *
-error
 )
 {
 [

@@ -3682,10 +3682,8 @@ ReadFrameWithRewind
 (
 FILE
 *
-file
 Int16FrameData
 *
-frame
 ChannelBuffer
 <
 float
@@ -16862,7 +16860,6 @@ EchoControl
 Create
 (
 int
-sample_rate_hz
 )
 {
 auto
@@ -16973,9 +16970,7 @@ Create
 int
 sample_rate_hz
 int
-num_render_channels
 int
-num_capture_channels
 )
 {
 return

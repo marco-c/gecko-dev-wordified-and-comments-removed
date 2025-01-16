@@ -1923,7 +1923,6 @@ PccNetworkController
 OnNetworkAvailability
 (
 NetworkAvailability
-msg
 )
 {
 return
@@ -1939,7 +1938,6 @@ PccNetworkController
 OnNetworkRouteChange
 (
 NetworkRouteChange
-msg
 )
 {
 return
@@ -1974,7 +1972,6 @@ PccNetworkController
 OnTargetRateConstraints
 (
 TargetRateConstraints
-msg
 )
 {
 return
@@ -2035,7 +2032,6 @@ PccNetworkController
 OnStreamsConfig
 (
 StreamsConfig
-msg
 )
 {
 return
@@ -2051,7 +2047,6 @@ PccNetworkController
 OnReceivedPacket
 (
 ReceivedPacket
-msg
 )
 {
 return
@@ -2067,7 +2062,6 @@ PccNetworkController
 OnNetworkStateEstimate
 (
 NetworkStateEstimate
-msg
 )
 {
 return

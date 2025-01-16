@@ -1188,11 +1188,9 @@ optional
 <
 NetworkStateEstimate
 >
-state_estimate
 bool
 recovered_from_overuse
 bool
-in_alr
 Timestamp
 at_time
 )

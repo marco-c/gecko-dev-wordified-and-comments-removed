@@ -2304,7 +2304,6 @@ config
 Aec3Optimization
 optimization
 int
-sample_rate_hz
 size_t
 num_capture_channels
 )

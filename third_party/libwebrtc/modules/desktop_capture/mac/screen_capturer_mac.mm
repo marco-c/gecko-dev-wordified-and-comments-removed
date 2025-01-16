@@ -2407,7 +2407,6 @@ handler
 CGDisplayStreamFrameStatus
 status
 uint64_t
-display_time
 IOSurfaceRef
 frame_surface
 CGDisplayStreamUpdateRef

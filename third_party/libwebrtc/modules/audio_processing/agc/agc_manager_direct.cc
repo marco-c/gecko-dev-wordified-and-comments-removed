@@ -779,7 +779,6 @@ MonoAgc
 (
 ApmDataDumper
 *
-data_dumper
 int
 clipped_level_min
 bool

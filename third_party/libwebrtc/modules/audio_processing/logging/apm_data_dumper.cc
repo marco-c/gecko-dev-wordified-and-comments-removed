@@ -246,7 +246,6 @@ ApmDataDumper
 ApmDataDumper
 (
 int
-instance_index
 )
 {
 }

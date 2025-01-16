@@ -210,7 +210,6 @@ unique_ptr
 <
 SharedMemoryFactory
 >
-shared_memory_factory
 )
 {
 }
@@ -221,7 +220,6 @@ DesktopCapturer
 SetExcludedWindow
 (
 WindowId
-window
 )
 {
 }
@@ -233,7 +231,6 @@ GetSourceList
 (
 SourceList
 *
-sources
 )
 {
 return
@@ -247,7 +244,6 @@ DesktopCapturer
 SelectSource
 (
 SourceId
-id
 )
 {
 return
@@ -275,7 +271,6 @@ IsOccluded
 const
 DesktopVector
 &
-pos
 )
 {
 return
@@ -525,6 +520,11 @@ DesktopCapturer
 :
 CreateGenericCapturer
 (
+[
+[
+maybe_unused
+]
+]
 const
 DesktopCaptureOptions
 &

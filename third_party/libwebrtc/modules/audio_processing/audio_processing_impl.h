@@ -769,7 +769,6 @@ AudioProcessingStats
 GetStatistics
 (
 bool
-has_remote_tracks
 )
 override
 {

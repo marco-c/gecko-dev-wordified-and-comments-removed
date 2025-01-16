@@ -582,7 +582,6 @@ explicit
 CaptureTransportVerificationProcessor
 (
 size_t
-num_bands
 )
 {
 }
@@ -625,15 +624,11 @@ void
 ProcessCapture
 (
 bool
-level_change
 bool
-saturated_microphone_signal
 Block
 *
-linear_output
 Block
 *
-capture_block
 )
 override
 {
@@ -644,7 +639,6 @@ BufferRender
 const
 Block
 &
-block
 )
 override
 {
@@ -653,7 +647,6 @@ void
 UpdateEchoLeakageStatus
 (
 bool
-leakage_detected
 )
 override
 {
@@ -666,7 +659,6 @@ EchoControl
 :
 Metrics
 *
-metrics
 )
 const
 override
@@ -676,7 +668,6 @@ void
 SetAudioBufferDelay
 (
 int
-delay_ms
 )
 override
 {
@@ -685,7 +676,6 @@ void
 SetCaptureOutputUsage
 (
 bool
-capture_output_used
 )
 {
 }
@@ -703,7 +693,6 @@ explicit
 RenderTransportVerificationProcessor
 (
 size_t
-num_bands
 )
 {
 }
@@ -746,12 +735,9 @@ void
 ProcessCapture
 (
 bool
-level_change
 bool
-saturated_microphone_signal
 Block
 *
-linear_output
 Block
 *
 capture_block
@@ -804,7 +790,6 @@ void
 UpdateEchoLeakageStatus
 (
 bool
-leakage_detected
 )
 override
 {
@@ -817,7 +802,6 @@ EchoControl
 :
 Metrics
 *
-metrics
 )
 const
 override

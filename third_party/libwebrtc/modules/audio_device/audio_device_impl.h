@@ -704,7 +704,6 @@ int
 SetPlayoutSampleRate
 (
 uint32_t
-sample_rate
 )
 override
 {
@@ -717,7 +716,6 @@ int
 SetRecordingSampleRate
 (
 uint32_t
-sample_rate
 )
 override
 {

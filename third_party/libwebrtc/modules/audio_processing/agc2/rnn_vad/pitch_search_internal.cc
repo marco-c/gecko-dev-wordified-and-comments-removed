@@ -672,7 +672,6 @@ const
 float
 kBufSize24kHz
 >
-pitch_buffer
 rtc
 :
 :
@@ -705,7 +704,6 @@ y_energy
 const
 VectorMath
 &
-vector_math
 )
 {
 static_assert

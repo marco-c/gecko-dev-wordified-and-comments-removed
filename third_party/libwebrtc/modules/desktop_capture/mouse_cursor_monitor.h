@@ -94,11 +94,9 @@ void
 OnMouseCursorPosition
 (
 CursorState
-state
 const
 DesktopVector
 &
-position
 )
 {
 }
@@ -109,7 +107,6 @@ OnMouseCursorPosition
 const
 DesktopVector
 &
-position
 )
 {
 }

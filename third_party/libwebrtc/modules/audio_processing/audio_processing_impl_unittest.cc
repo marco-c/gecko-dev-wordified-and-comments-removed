@@ -323,11 +323,8 @@ EchoControl
 Create
 (
 int
-sample_rate_hz
 int
-num_render_channels
 int
-num_capture_channels
 )
 override
 {
@@ -447,7 +444,6 @@ ArrayView
 const
 float
 >
-capture_audio
 )
 override
 {
@@ -456,13 +452,9 @@ void
 Initialize
 (
 int
-capture_sample_rate_hz
 int
-num_capture_channels
 int
-render_sample_rate_hz
 int
-num_render_channels
 )
 override
 {
@@ -537,9 +529,7 @@ void
 Initialize
 (
 int
-sample_rate_hz
 int
-num_channels
 )
 override
 {
@@ -648,7 +638,6 @@ AudioProcessing
 :
 :
 RuntimeSetting
-setting
 )
 override
 {

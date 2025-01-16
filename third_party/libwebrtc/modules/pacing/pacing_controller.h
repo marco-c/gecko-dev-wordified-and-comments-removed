@@ -274,7 +274,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-ssrc
 rtc
 :
 :
@@ -283,7 +282,6 @@ ArrayView
 const
 uint16_t
 >
-sequence_numbers
 )
 {
 }
@@ -298,7 +296,6 @@ uint32_t
 GetRtxSsrcForMedia
 (
 uint32_t
-ssrc
 )
 const
 {

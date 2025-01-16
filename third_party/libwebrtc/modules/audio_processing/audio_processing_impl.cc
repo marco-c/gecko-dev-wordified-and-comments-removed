@@ -7875,11 +7875,9 @@ src
 const
 StreamConfig
 &
-input_config
 const
 StreamConfig
 &
-output_config
 )
 {
 if
