@@ -1644,6 +1644,10 @@ raw_logging_internal
 GTest
 :
 :
+gmock
+GTest
+:
+:
 gtest_main
 )
 absl_cc_test

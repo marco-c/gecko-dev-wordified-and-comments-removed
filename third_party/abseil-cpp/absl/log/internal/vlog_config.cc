@@ -1164,9 +1164,9 @@ info
 return
 FNMatch
 (
+module_pattern
 info
 .
-module_pattern
 module_pattern
 )
 ;

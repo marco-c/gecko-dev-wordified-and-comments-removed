@@ -2195,6 +2195,9 @@ ios
 no_test_android
 "
 "
+no_test_darwin_arm64
+"
+"
 no_test_darwin_x86_64
 "
 "

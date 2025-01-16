@@ -131,7 +131,7 @@ dst
 absl
 :
 :
-Nonnull
+Nullable
 <
 const
 char
@@ -157,7 +157,7 @@ dst
 absl
 :
 :
-Nonnull
+Nullable
 <
 const
 char

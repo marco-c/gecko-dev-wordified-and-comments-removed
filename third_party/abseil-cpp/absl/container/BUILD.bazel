@@ -1456,6 +1456,10 @@ flat_hash_set
 "
 "
 :
+hash_container_defaults
+"
+"
+:
 hash_generator_testing
 "
 "
@@ -1486,6 +1490,13 @@ absl
 base
 :
 config
+"
+"
+/
+/
+absl
+/
+hash
 "
 "
 /

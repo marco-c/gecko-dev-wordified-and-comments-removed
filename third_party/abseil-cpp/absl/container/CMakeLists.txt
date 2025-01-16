@@ -1038,6 +1038,14 @@ flat_hash_set
 absl
 :
 :
+hash
+absl
+:
+:
+hash_container_defaults
+absl
+:
+:
 hash_generator_testing
 absl
 :

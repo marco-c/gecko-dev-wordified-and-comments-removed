@@ -1875,6 +1875,9 @@ soo_tag_t
 :
 CommonFields
 {
+non_soo_tag_t
+{
+}
 }
 ;
 }
