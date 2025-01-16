@@ -4982,6 +4982,11 @@ header
 const
 {
 header
+queryParam
+=
+"
+q
+"
 }
 =
 this
@@ -5099,9 +5104,7 @@ searchParams
 .
 set
 (
-"
-q
-"
+queryParam
 prompt
 )
 ;
