@@ -343,10 +343,6 @@ patch
 .
 patch
 -
-04_add_missing_volatile
-.
-patch
--
-05_fix_loongarch64_link_failed
+04_fix_loongarch64_link_failed
 .
 patch
