@@ -5121,12 +5121,12 @@ thread
 h
 "
 "
-ThreadManagerTests
+threads
 .
 h
 "
 "
-Threads
+ThreadManagerTests
 .
 h
 "
