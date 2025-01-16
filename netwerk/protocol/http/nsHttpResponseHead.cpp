@@ -651,6 +651,7 @@ nsHttpResponseHead
 Version
 (
 )
+const
 {
 RecursiveMutexAutoLock
 monitor
