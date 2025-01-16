@@ -3373,12 +3373,6 @@ CacheKind
 :
 Lambda
 :
-case
-CacheKind
-:
-:
-GetImport
-:
 MOZ_CRASH
 (
 "
@@ -4038,12 +4032,6 @@ CacheKind
 :
 :
 Lambda
-:
-case
-CacheKind
-:
-:
-GetImport
 :
 MOZ_CRASH
 (

@@ -21015,12 +21015,6 @@ CacheKind
 :
 Lambda
 :
-case
-CacheKind
-:
-:
-GetImport
-:
 MOZ_CRASH
 (
 "
@@ -21137,12 +21131,6 @@ CacheKind
 :
 :
 GetElemSuper
-:
-case
-CacheKind
-:
-:
-GetImport
 :
 case
 CacheKind

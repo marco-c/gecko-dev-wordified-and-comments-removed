@@ -176,11 +176,6 @@ _
 (
 OptimizeGetIterator
 )
-\
-_
-(
-GetImport
-)
 }
 }
 #
