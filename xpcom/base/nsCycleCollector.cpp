@@ -7051,6 +7051,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+if
+(
+NS_SUCCEEDED
+(
 aLog
 -
 >
@@ -7062,7 +7066,9 @@ MoveTo
 nullptr
 logFileFinalDestinationName
 )
-;
+)
+)
+{
 aLog
 -
 >
@@ -7070,10 +7076,14 @@ mFile
 =
 logFileFinalDestination
 ;
+}
 nsAutoString
 logPath
 ;
-logFileFinalDestination
+aLog
+-
+>
+mFile
 -
 >
 GetPath
