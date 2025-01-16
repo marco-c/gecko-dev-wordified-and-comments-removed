@@ -2487,6 +2487,14 @@ ReadSize
 ;
 MOZ_RELEASE_ASSERT
 (
+offset
+<
+=
+end
+)
+;
+MOZ_RELEASE_ASSERT
+(
 extra_end
 >
 =
