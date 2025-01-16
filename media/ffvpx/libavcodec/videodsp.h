@@ -158,6 +158,16 @@ bpc
 )
 ;
 void
+ff_videodsp_init_riscv
+(
+VideoDSPContext
+*
+ctx
+int
+bpc
+)
+;
+void
 ff_videodsp_init_x86
 (
 VideoDSPContext

@@ -90,6 +90,11 @@ ff_dnxhd_parser
 extern
 const
 AVCodecParser
+ff_dnxuc_parser
+;
+extern
+const
+AVCodecParser
 ff_dolby_e_parser
 ;
 extern

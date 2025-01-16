@@ -465,12 +465,6 @@ i
 ]
 .
 f
--
->
-buf
-[
-0
-]
 )
 {
 fill_picture_entry
@@ -597,12 +591,6 @@ refidx
 ]
 .
 f
--
->
-buf
-[
-0
-]
 )
 fill_picture_entry
 (
@@ -1430,6 +1418,8 @@ hwaccel_picture_private
 void
 *
 dxva_data_ptr
+=
+NULL
 ;
 uint8_t
 *
@@ -1546,6 +1536,10 @@ dxva_data_ptr
 ;
 if
 (
+!
+dxva_data
+|
+|
 ctx_pic
 -
 >

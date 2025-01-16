@@ -221,7 +221,7 @@ unsigned
 long
 ret
 =
-getauxval
+ff_getauxval
 (
 AT_HWCAP
 )

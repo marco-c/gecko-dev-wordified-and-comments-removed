@@ -29,8 +29,6 @@ h
 #
 include
 "
-libavutil
-/
 avassert
 .
 h
@@ -38,8 +36,6 @@ h
 #
 include
 "
-libavutil
-/
 error
 .
 h
@@ -47,8 +43,6 @@ h
 #
 include
 "
-libavutil
-/
 macros
 .
 h
@@ -56,8 +50,6 @@ h
 #
 include
 "
-libavutil
-/
 mem
 .
 h
@@ -65,8 +57,6 @@ h
 #
 include
 "
-libavutil
-/
 mem_internal
 .
 h
@@ -74,8 +64,6 @@ h
 #
 include
 "
-libavutil
-/
 thread
 .
 h
@@ -266,7 +254,7 @@ RefCount
 atomic_uintptr_t
 refcount
 ;
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 ;
 void
@@ -275,7 +263,7 @@ void
 free_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -422,7 +410,7 @@ refcount_init
 RefCount
 *
 ref
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 (
@@ -430,7 +418,7 @@ void
 free_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -484,13 +472,13 @@ endif
 }
 void
 *
-ff_refstruct_alloc_ext_c
+av_refstruct_alloc_ext_c
 (
 size_t
 size
 unsigned
 flags
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 (
@@ -498,7 +486,7 @@ void
 free_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -560,7 +548,7 @@ if
 (
 flags
 &
-FF_REFSTRUCT_FLAG_NO_ZEROING
+AV_REFSTRUCT_FLAG_NO_ZEROING
 )
 )
 memset
@@ -575,7 +563,7 @@ obj
 ;
 }
 void
-ff_refstruct_unref
+av_refstruct_unref
 (
 void
 *
@@ -682,7 +670,7 @@ return
 }
 void
 *
-ff_refstruct_ref
+av_refstruct_ref
 (
 void
 *
@@ -716,7 +704,7 @@ obj
 const
 void
 *
-ff_refstruct_ref_c
+av_refstruct_ref_c
 (
 const
 void
@@ -753,7 +741,7 @@ obj
 ;
 }
 void
-ff_refstruct_replace
+av_refstruct_replace
 (
 void
 *
@@ -789,7 +777,7 @@ dst
 )
 return
 ;
-ff_refstruct_unref
+av_refstruct_unref
 (
 dstp
 )
@@ -801,7 +789,7 @@ src
 {
 dst
 =
-ff_refstruct_ref_c
+av_refstruct_ref_c
 (
 src
 )
@@ -820,7 +808,7 @@ dst
 }
 }
 int
-ff_refstruct_exclusive
+av_refstruct_exclusive
 (
 const
 void
@@ -858,12 +846,12 @@ memory_order_acquire
 ;
 }
 struct
-FFRefStructPool
+AVRefStructPool
 {
 size_t
 size
 ;
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 ;
 int
@@ -872,7 +860,7 @@ int
 init_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -885,7 +873,7 @@ void
 reset_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -898,7 +886,7 @@ void
 free_entry_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -911,7 +899,7 @@ void
 free_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 )
 ;
@@ -940,7 +928,7 @@ static
 void
 pool_free
 (
-FFRefStructPool
+AVRefStructPool
 *
 pool
 )
@@ -985,7 +973,7 @@ static
 void
 pool_free_entry
 (
-FFRefStructPool
+AVRefStructPool
 *
 pool
 RefCount
@@ -1036,7 +1024,7 @@ ref
 =
 ref_
 ;
-FFRefStructPool
+AVRefStructPool
 *
 pool
 =
@@ -1134,14 +1122,14 @@ static
 void
 pool_reset_entry
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
 entry
 )
 {
-FFRefStructPool
+AVRefStructPool
 *
 pool
 =
@@ -1169,7 +1157,7 @@ refstruct_pool_get_ext
 void
 *
 datap
-FFRefStructPool
+AVRefStructPool
 *
 pool
 )
@@ -1293,7 +1281,7 @@ ref
 ;
 ret
 =
-ff_refstruct_alloc_ext
+av_refstruct_alloc_ext
 (
 pool
 -
@@ -1376,7 +1364,7 @@ pool
 >
 pool_flags
 &
-FF_REFSTRUCT_POOL_FLAG_RESET_ON_INIT_ERROR
+AV_REFSTRUCT_POOL_FLAG_RESET_ON_INIT_ERROR
 )
 pool
 -
@@ -1397,7 +1385,7 @@ pool
 >
 pool_flags
 &
-FF_REFSTRUCT_POOL_FLAG_FREE_ON_INIT_ERROR
+AV_REFSTRUCT_POOL_FLAG_FREE_ON_INIT_ERROR
 )
 pool
 -
@@ -1440,7 +1428,7 @@ pool
 >
 pool_flags
 &
-FF_REFSTRUCT_POOL_FLAG_ZERO_EVERY_TIME
+AV_REFSTRUCT_POOL_FLAG_ZERO_EVERY_TIME
 )
 memset
 (
@@ -1469,9 +1457,9 @@ return
 }
 void
 *
-ff_refstruct_pool_get
+av_refstruct_pool_get
 (
-FFRefStructPool
+AVRefStructPool
 *
 pool
 )
@@ -1500,7 +1488,7 @@ void
 ref
 )
 {
-FFRefStructPool
+AVRefStructPool
 *
 pool
 =
@@ -1535,14 +1523,14 @@ static
 void
 refstruct_pool_uninit
 (
-FFRefStructOpaque
+AVRefStructOpaque
 unused
 void
 *
 obj
 )
 {
-FFRefStructPool
+AVRefStructPool
 *
 pool
 =
@@ -1628,9 +1616,9 @@ next
 ;
 }
 }
-FFRefStructPool
+AVRefStructPool
 *
-ff_refstruct_pool_alloc
+av_refstruct_pool_alloc
 (
 size_t
 size
@@ -1639,7 +1627,7 @@ flags
 )
 {
 return
-ff_refstruct_pool_alloc_ext
+av_refstruct_pool_alloc_ext
 (
 size
 flags
@@ -1651,15 +1639,15 @@ NULL
 )
 ;
 }
-FFRefStructPool
+AVRefStructPool
 *
-ff_refstruct_pool_alloc_ext_c
+av_refstruct_pool_alloc_ext_c
 (
 size_t
 size
 unsigned
 flags
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 int
 (
@@ -1667,7 +1655,7 @@ int
 init_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -1679,7 +1667,7 @@ void
 reset_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -1691,7 +1679,7 @@ void
 free_entry_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -1703,16 +1691,16 @@ void
 free_cb
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 )
 )
 {
-FFRefStructPool
+AVRefStructPool
 *
 pool
 =
-ff_refstruct_alloc_ext
+av_refstruct_alloc_ext
 (
 sizeof
 (
@@ -1790,7 +1778,7 @@ free_cb
 #
 define
 COMMON_FLAGS
-FF_REFSTRUCT_POOL_FLAG_NO_ZEROING
+AV_REFSTRUCT_POOL_FLAG_NO_ZEROING
 pool
 -
 >
@@ -1812,7 +1800,7 @@ flags
 &
 =
 ~
-FF_REFSTRUCT_POOL_FLAG_RESET_ON_INIT_ERROR
+AV_REFSTRUCT_POOL_FLAG_RESET_ON_INIT_ERROR
 ;
 if
 (
@@ -1826,7 +1814,7 @@ flags
 &
 =
 ~
-FF_REFSTRUCT_POOL_FLAG_FREE_ON_INIT_ERROR
+AV_REFSTRUCT_POOL_FLAG_FREE_ON_INIT_ERROR
 ;
 pool
 -
@@ -1839,7 +1827,7 @@ if
 (
 flags
 &
-FF_REFSTRUCT_POOL_FLAG_ZERO_EVERY_TIME
+AV_REFSTRUCT_POOL_FLAG_ZERO_EVERY_TIME
 )
 {
 pool
@@ -1848,7 +1836,7 @@ pool
 entry_flags
 |
 =
-FF_REFSTRUCT_FLAG_NO_ZEROING
+AV_REFSTRUCT_FLAG_NO_ZEROING
 ;
 }
 atomic_init

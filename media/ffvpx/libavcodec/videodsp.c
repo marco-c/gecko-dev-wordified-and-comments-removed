@@ -155,6 +155,15 @@ bpc
 ;
 #
 elif
+ARCH_RISCV
+ff_videodsp_init_riscv
+(
+ctx
+bpc
+)
+;
+#
+elif
 ARCH_X86
 ff_videodsp_init_x86
 (

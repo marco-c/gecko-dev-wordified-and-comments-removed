@@ -65,6 +65,14 @@ ctx
 )
 ;
 void
+ff_h263dsp_init_riscv
+(
+H263DSPContext
+*
+ctx
+)
+;
+void
 ff_h263dsp_init_x86
 (
 H263DSPContext

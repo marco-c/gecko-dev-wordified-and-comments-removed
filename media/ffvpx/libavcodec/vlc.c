@@ -3360,11 +3360,8 @@ multi
 >
 table
 )
-return
-AVERROR
-(
-ENOMEM
-)
+goto
+fail
 ;
 j
 =

@@ -1818,6 +1818,14 @@ log
 limit
 )
 {
+av_assert2
+(
+log
+>
+=
+k
+)
+;
 buf
 >
 >

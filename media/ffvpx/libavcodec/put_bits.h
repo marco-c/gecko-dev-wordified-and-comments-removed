@@ -1231,7 +1231,7 @@ put_bits
 (
 pb
 n
-av_mod_uintp2
+av_zero_extend
 (
 value
 n

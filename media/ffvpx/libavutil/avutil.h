@@ -255,6 +255,10 @@ x
 )
 ;
 }
+#
+if
+FF_API_OPT_INT_LIST
+attribute_deprecated
 unsigned
 av_int_list_length_for_size
 (
@@ -289,6 +293,8 @@ list
 list
 term
 )
+#
+endif
 AVRational
 av_get_time_base_q
 (

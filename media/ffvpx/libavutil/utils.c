@@ -159,6 +159,9 @@ return
 ;
 }
 }
+#
+if
+FF_API_OPT_INT_LIST
 unsigned
 av_int_list_length_for_size
 (
@@ -286,6 +289,8 @@ return
 i
 ;
 }
+#
+endif
 char
 *
 av_fourcc_make_string

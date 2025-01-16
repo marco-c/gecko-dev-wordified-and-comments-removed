@@ -39,7 +39,7 @@ include
 "
 libavutil
 /
-thread
+pixfmt
 .
 h
 "
@@ -48,7 +48,7 @@ include
 "
 libavutil
 /
-internal
+thread
 .
 h
 "
@@ -432,7 +432,7 @@ sb_rows
 rows
 cols
 ;
-ThreadFrame
+ProgressFrame
 next_refs
 [
 8
@@ -605,7 +605,7 @@ mvstep
 ]
 ;
 struct
-FFRefStructPool
+AVRefStructPool
 *
 frame_extradata_pool
 ;
@@ -1198,6 +1198,7 @@ bp
 void
 ff_vp9_loopfilter_sb
 (
+struct
 AVCodecContext
 *
 avctx

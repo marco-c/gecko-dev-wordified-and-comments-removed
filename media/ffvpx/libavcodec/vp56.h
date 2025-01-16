@@ -599,6 +599,11 @@ idct_selector
 6
 ]
 ;
+const
+uint8_t
+*
+def_coeff_reorder
+;
 VP56mv
 mv
 [
@@ -659,6 +664,15 @@ coeff_ctx_last
 ;
 int
 has_alpha
+;
+int
+interlaced
+;
+int
+il_prob
+;
+int
+il_block
 ;
 int
 flip

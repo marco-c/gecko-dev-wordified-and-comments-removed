@@ -111,6 +111,8 @@ AV_PKT_DATA_IAMF_MIX_GAIN_PARAM
 AV_PKT_DATA_IAMF_DEMIXING_INFO_PARAM
 AV_PKT_DATA_IAMF_RECON_GAIN_INFO_PARAM
 AV_PKT_DATA_AMBIENT_VIEWING_ENVIRONMENT
+AV_PKT_DATA_FRAME_CROPPING
+AV_PKT_DATA_LCEVC
 AV_PKT_DATA_NB
 }
 ;
@@ -609,6 +611,15 @@ AVRational
 tb_src
 AVRational
 tb_dst
+)
+;
+struct
+AVContainerFifo
+*
+av_container_fifo_alloc_avpacket
+(
+unsigned
+flags
 )
 ;
 #

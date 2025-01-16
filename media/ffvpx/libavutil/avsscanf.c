@@ -5088,9 +5088,6 @@ return
 NAN
 ;
 }
-return
-NAN
-;
 }
 if
 (

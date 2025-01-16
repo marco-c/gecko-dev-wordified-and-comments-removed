@@ -189,7 +189,7 @@ td
 col
 ;
 const
-ThreadFrame
+ProgressFrame
 *
 tref1
 =

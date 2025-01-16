@@ -44,6 +44,15 @@ include
 "
 libavutil
 /
+mem
+.
+h
+"
+#
+include
+"
+libavutil
+/
 fftime
 .
 h
@@ -567,6 +576,8 @@ score
 ;
 UINT
 ConfigBitstreamRaw
+=
+0
 ;
 GUID
 guidConfigBitstreamEncryption
@@ -1511,6 +1522,8 @@ i
 ;
 int
 validate
+=
+0
 ;
 if
 (
@@ -4580,6 +4593,8 @@ mb_count
 void
 *
 dxva_data
+=
+NULL
 ;
 unsigned
 dxva_size
@@ -4704,6 +4719,9 @@ return
 }
 if
 (
+dxva_data
+&
+&
 size
 <
 =
@@ -5134,6 +5152,9 @@ runs
 ;
 HRESULT
 hr
+=
+-
+1
 ;
 unsigned
 type

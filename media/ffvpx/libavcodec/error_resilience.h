@@ -94,6 +94,12 @@ ThreadFrame
 *
 tf
 ;
+const
+struct
+ThreadProgress
+*
+progress
+;
 int16_t
 (
 *

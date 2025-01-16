@@ -172,6 +172,16 @@ ff_fdct248_islow_8
 }
 #
 if
+ARCH_AARCH64
+ff_fdctdsp_init_aarch64
+(
+c
+avctx
+high_bit_depth
+)
+;
+#
+elif
 ARCH_PPC
 ff_fdctdsp_init_ppc
 (

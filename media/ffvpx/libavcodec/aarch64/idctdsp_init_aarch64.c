@@ -21,7 +21,7 @@ include
 "
 libavutil
 /
-arm
+aarch64
 /
 cpu
 .

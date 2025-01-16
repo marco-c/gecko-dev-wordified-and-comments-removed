@@ -62,10 +62,10 @@ void
 {
 static_assert
 (
-AV_CODEC_ID_LEAD
+AV_CODEC_ID_DNXUC
 =
 =
-269
+270
 &
 &
 AV_CODEC_ID_PCM_SGA

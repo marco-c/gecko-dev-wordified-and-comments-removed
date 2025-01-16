@@ -795,6 +795,16 @@ bpp
 ;
 #
 elif
+ARCH_RISCV
+ff_vp9dsp_init_riscv
+(
+dsp
+bpp
+bitexact
+)
+;
+#
+elif
 ARCH_X86
 ff_vp9dsp_init_x86
 (

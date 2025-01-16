@@ -757,12 +757,12 @@ DFT_C2R
 ?
 sizeof
 (
-float
+AVComplexFloat
 )
 :
 sizeof
 (
-AVComplexFloat
+float
 )
 ;
 s

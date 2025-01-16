@@ -12,6 +12,15 @@ include
 "
 libavutil
 /
+frame
+.
+h
+"
+#
+include
+"
+libavutil
+/
 mem_internal
 .
 h
@@ -19,7 +28,7 @@ h
 #
 include
 "
-threadframe
+progressframe
 .
 h
 "
@@ -2689,7 +2698,7 @@ ref
 ptrdiff_t
 ref_stride
 const
-ThreadFrame
+ProgressFrame
 *
 ref_frame
 ptrdiff_t
@@ -2793,7 +2802,7 @@ my
 >
 6
 ;
-ff_thread_await_progress
+ff_progress_frame_await
 (
 ref_frame
 FFMAX
@@ -2801,7 +2810,6 @@ FFMAX
 th
 0
 )
-0
 )
 ;
 if
@@ -2825,6 +2833,14 @@ my
 |
 |
 (
+(
+ARCH_AARCH64
+|
+|
+ARCH_ARM
+)
+&
+&
 (
 x
 +
@@ -3040,7 +3056,7 @@ ref_v
 ptrdiff_t
 src_stride_v
 const
-ThreadFrame
+ProgressFrame
 *
 ref_frame
 ptrdiff_t
@@ -3184,7 +3200,7 @@ s
 ss_v
 )
 ;
-ff_thread_await_progress
+ff_progress_frame_await
 (
 ref_frame
 FFMAX
@@ -3192,7 +3208,6 @@ FFMAX
 th
 0
 )
-0
 )
 ;
 if
@@ -3216,6 +3231,14 @@ my
 |
 |
 (
+(
+ARCH_AARCH64
+|
+|
+ARCH_ARM
+)
+&
+&
 (
 x
 +
@@ -3738,7 +3761,7 @@ ref
 ptrdiff_t
 ref_stride
 const
-ThreadFrame
+ProgressFrame
 *
 ref_frame
 ptrdiff_t
@@ -4114,7 +4137,7 @@ refbh_m1
 >
 6
 ;
-ff_thread_await_progress
+ff_progress_frame_await
 (
 ref_frame
 FFMAX
@@ -4122,7 +4145,6 @@ FFMAX
 th
 0
 )
-0
 )
 ;
 if
@@ -4276,7 +4298,7 @@ ref_v
 ptrdiff_t
 src_stride_v
 const
-ThreadFrame
+ProgressFrame
 *
 ref_frame
 ptrdiff_t
@@ -4825,7 +4847,7 @@ s
 ss_v
 )
 ;
-ff_thread_await_progress
+ff_progress_frame_await
 (
 ref_frame
 FFMAX
@@ -4833,7 +4855,6 @@ FFMAX
 th
 0
 )
-0
 )
 ;
 if

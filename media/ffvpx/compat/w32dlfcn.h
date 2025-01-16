@@ -42,6 +42,15 @@ include
 "
 libavutil
 /
+mem
+.
+h
+"
+#
+include
+"
+libavutil
+/
 wchar_filename
 .
 h

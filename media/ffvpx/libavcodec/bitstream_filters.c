@@ -73,6 +73,11 @@ ff_dca_core_bsf
 extern
 const
 FFBitStreamFilter
+ff_dovi_rpu_bsf
+;
+extern
+const
+FFBitStreamFilter
 ff_dts2pts_bsf
 ;
 extern
@@ -84,6 +89,11 @@ extern
 const
 FFBitStreamFilter
 ff_eac3_core_bsf
+;
+extern
+const
+FFBitStreamFilter
+ff_evc_frame_merge_bsf
 ;
 extern
 const
@@ -249,11 +259,6 @@ extern
 const
 FFBitStreamFilter
 ff_vvc_mp4toannexb_bsf
-;
-extern
-const
-FFBitStreamFilter
-ff_evc_frame_merge_bsf
 ;
 #
 include
