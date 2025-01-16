@@ -302,7 +302,6 @@ AudioProcessing
 :
 :
 RuntimeSetting
-setting
 )
 {
 }

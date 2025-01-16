@@ -608,7 +608,6 @@ vector
 NetworkMask
 >
 &
-vpn
 )
 {
 }

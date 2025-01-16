@@ -200,7 +200,6 @@ const
 struct
 ifaddrs
 *
-interface
 int
 *
 ip_attributes

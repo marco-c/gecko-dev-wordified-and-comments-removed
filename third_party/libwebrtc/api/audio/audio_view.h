@@ -862,7 +862,6 @@ MonoView
 T
 >
 &
-view
 )
 {
 return
@@ -934,7 +933,6 @@ MonoView
 T
 >
 &
-view
 )
 {
 return
@@ -956,7 +954,6 @@ MonoView
 T
 >
 &
-view
 )
 {
 return
@@ -978,7 +975,6 @@ InterleavedView
 T
 >
 &
-view
 )
 {
 return
@@ -1001,7 +997,6 @@ const
 T
 >
 &
-view
 )
 {
 return

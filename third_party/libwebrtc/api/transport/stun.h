@@ -1116,7 +1116,6 @@ SetOwner
 (
 StunMessage
 *
-owner
 )
 {
 }

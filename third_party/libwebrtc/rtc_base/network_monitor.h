@@ -201,16 +201,13 @@ NetworkBindingResult
 BindSocketToNetwork
 (
 int
-socket_fd
 const
 IPAddress
 &
-address
 absl
 :
 :
 string_view
-interface_name
 )
 {
 return

@@ -481,7 +481,6 @@ int64_t
 GetSocketRecvTimestamp
 (
 int
-socket
 )
 {
 return
@@ -5867,9 +5866,7 @@ void
 OnEvent
 (
 uint32_t
-ff
 int
-err
 )
 override
 {
@@ -6696,6 +6693,11 @@ PhysicalSocketServer
 :
 Update
 (
+[
+[
+maybe_unused
+]
+]
 Dispatcher
 *
 pdispatcher

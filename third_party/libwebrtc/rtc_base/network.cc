@@ -1394,10 +1394,8 @@ NetworkManager
 GetDefaultLocalAddress
 (
 int
-family
 IPAddress
 *
-addr
 )
 const
 {
