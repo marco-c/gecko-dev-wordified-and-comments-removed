@@ -3853,6 +3853,15 @@ std
 :
 unique_ptr
 <
+AudioProcessingFactory
+>
+audio_processing_factory
+;
+std
+:
+:
+unique_ptr
+<
 AudioFrameProcessor
 >
 audio_frame_processor

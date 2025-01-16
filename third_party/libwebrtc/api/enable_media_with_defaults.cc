@@ -181,6 +181,14 @@ audio_processing
 =
 =
 nullptr
+&
+&
+deps
+.
+audio_processing_factory
+=
+=
+nullptr
 )
 {
 deps
