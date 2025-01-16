@@ -23,6 +23,11 @@ files
 =
 [
 "
+GleanTest
+.
+js
+"
+"
 CaptchaTestingUtils
 .
 js
