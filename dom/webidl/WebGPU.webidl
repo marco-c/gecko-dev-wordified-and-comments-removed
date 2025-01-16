@@ -154,7 +154,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -372,7 +371,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -407,7 +405,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -442,7 +439,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -581,7 +577,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -648,7 +643,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -736,7 +730,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -927,7 +920,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1123,7 +1115,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1266,7 +1257,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1363,7 +1353,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1404,7 +1393,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1560,7 +1548,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -1619,7 +1606,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -2402,7 +2388,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -2606,7 +2591,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -2686,7 +2670,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -2892,7 +2875,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -2983,7 +2965,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3030,7 +3011,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3133,7 +3113,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3200,7 +3179,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3342,7 +3320,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3414,7 +3391,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -3660,7 +3636,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -4262,7 +4237,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -4308,7 +4282,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -4513,7 +4486,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -4621,7 +4593,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5033,7 +5004,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5073,7 +5043,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5203,7 +5172,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5309,7 +5277,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5383,7 +5350,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5511,7 +5477,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5572,7 +5537,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5606,7 +5570,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5646,7 +5609,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5686,7 +5648,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 SecureContext
 ]
@@ -5749,20 +5710,6 @@ popErrorScope
 ;
 }
 ;
-/
-/
-NOTE
-:
-GPUUncapturedErrorEvent
-{
-Init
-}
-is
-in
-GPUUncapturedErrorEvent
-.
-webidl
-.
 partial
 interface
 GPUDevice
@@ -5773,7 +5720,6 @@ Exposed
 (
 Window
 DedicatedWorker
-SharedWorker
 )
 ]
 attribute
