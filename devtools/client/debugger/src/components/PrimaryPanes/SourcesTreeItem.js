@@ -681,6 +681,7 @@ javascript
 ;
 }
 return
+(
 icon
 +
 (
@@ -691,11 +692,16 @@ props
 isSourceOverridden
 ?
 "
+has
+-
+network
+-
 override
 "
 :
 "
 "
+)
 )
 ;
 }
