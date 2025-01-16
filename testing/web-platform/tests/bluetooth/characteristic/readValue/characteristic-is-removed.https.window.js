@@ -36,7 +36,7 @@ InvalidStateError
 '
 )
 ;
-bluetooth_test_crbug1430625
+bluetooth_test
 (
 async
 (

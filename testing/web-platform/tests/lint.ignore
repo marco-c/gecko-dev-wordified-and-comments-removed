@@ -6697,17 +6697,6 @@ https
 window
 .
 js
-CONSOLE
-:
-bluetooth
-/
-resources
-/
-bluetooth
--
-test
-.
-js
 TRAILING
 WHITESPACE
 :
