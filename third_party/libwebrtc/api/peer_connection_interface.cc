@@ -537,7 +537,6 @@ cricket
 :
 :
 MediaType
-kind
 )
 const
 {

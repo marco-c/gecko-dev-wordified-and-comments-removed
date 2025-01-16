@@ -463,9 +463,7 @@ random_vector
 size_t
 channel
 int
-mute_slope
 bool
-too_many_expands
 size_t
 num_noise_samples
 int16_t

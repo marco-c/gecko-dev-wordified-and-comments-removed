@@ -434,7 +434,6 @@ rtc
 Buffer
 &
 &
-payload
 uint32_t
 timestamp
 )
@@ -529,9 +528,7 @@ PacketDuration
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 )
 const
 override
@@ -566,9 +563,7 @@ PacketHasFec
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 )
 const
 override
@@ -649,17 +644,12 @@ DecodeInternal
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 int
-sample_rate_hz
 int16_t
 *
-decoded
 SpeechType
 *
-speech_type
 )
 override
 {

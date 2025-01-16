@@ -216,7 +216,6 @@ const
 size_t
 payload_size
 int64_t
-absolute_capture_timestamp_ms
 )
 {
 RTPHeader

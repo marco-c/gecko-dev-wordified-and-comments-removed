@@ -1018,7 +1018,6 @@ SetMaxPlaybackRate
 (
 WebRtcOpusEncInst
 *
-encoder
 opus_int32
 expect
 int32_t

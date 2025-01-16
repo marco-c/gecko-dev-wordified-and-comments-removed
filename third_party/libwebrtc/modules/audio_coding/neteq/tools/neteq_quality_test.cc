@@ -1698,7 +1698,6 @@ NoLoss
 Lost
 (
 int
-now_ms
 )
 {
 return
@@ -1727,7 +1726,6 @@ UniformLoss
 Lost
 (
 int
-now_ms
 )
 {
 int

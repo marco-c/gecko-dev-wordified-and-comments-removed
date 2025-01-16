@@ -509,7 +509,6 @@ PacketData
 packet
 NetEq
 *
-neteq
 )
 {
 data_

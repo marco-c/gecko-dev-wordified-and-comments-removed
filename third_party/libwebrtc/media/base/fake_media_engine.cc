@@ -170,15 +170,10 @@ OnData
 const
 void
 *
-audio_data
 int
-bits_per_sample
 int
-sample_rate
 size_t
-number_of_channels
 size_t
-number_of_frames
 std
 :
 :
@@ -186,7 +181,6 @@ optional
 <
 int64_t
 >
-absolute_capture_timestamp_ms
 )
 {
 }
@@ -758,9 +752,7 @@ GetStats
 (
 VoiceMediaReceiveInfo
 *
-info
 bool
-get_and_clear_legacy_stats
 )
 {
 return
@@ -774,7 +766,6 @@ FakeVoiceMediaReceiveChannel
 SetRawAudioSink
 (
 uint32_t
-ssrc
 std
 :
 :
@@ -845,7 +836,6 @@ FakeVoiceMediaReceiveChannel
 GetSources
 (
 uint32_t
-ssrc
 )
 const
 {

@@ -2796,7 +2796,6 @@ webrtc
 :
 BitrateSettings
 &
-preferences
 )
 override
 {
@@ -3017,7 +3016,6 @@ rtc
 :
 :
 CopyOnWriteBuffer
-packet
 )
 override
 {

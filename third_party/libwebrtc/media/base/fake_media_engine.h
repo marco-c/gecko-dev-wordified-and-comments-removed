@@ -3462,7 +3462,6 @@ void
 (
 )
 >
-callback
 )
 override
 {
@@ -3899,7 +3898,6 @@ void
 SetReceive
 (
 bool
-receive
 )
 override
 {
@@ -4017,14 +4015,11 @@ void
 SetReceiverFeedbackParameters
 (
 bool
-lntf_enabled
 bool
-nack_enabled
 webrtc
 :
 :
 RtcpMode
-rtcp_mode
 std
 :
 :
@@ -4032,7 +4027,6 @@ optional
 <
 int
 >
-rtx_time
 )
 override
 {
@@ -4052,7 +4046,6 @@ AddDefaultRecvStreamForTesting
 const
 StreamParams
 &
-sp
 )
 override
 {
@@ -4441,7 +4434,6 @@ void
 (
 )
 >
-callback
 )
 override
 {
@@ -4467,7 +4459,6 @@ uint32_t
 &
 )
 >
-callback
 )
 override
 {

@@ -315,7 +315,6 @@ float
 *
 const
 *
-output
 )
 override
 {

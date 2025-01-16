@@ -659,7 +659,6 @@ NetEqStatus
 status
 bool
 *
-reset_decoder
 )
 {
 prev_time_scale_

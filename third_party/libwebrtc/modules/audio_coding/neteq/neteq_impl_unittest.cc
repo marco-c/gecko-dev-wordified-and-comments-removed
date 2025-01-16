@@ -3004,7 +3004,6 @@ DecodeInternal
 const
 uint8_t
 *
-encoded
 size_t
 encoded_len
 int
@@ -9900,7 +9899,6 @@ Invoke
 ]
 (
 uint8_t
-rtp_payload_type
 bool
 *
 new_decoder
@@ -10535,9 +10533,7 @@ DecodeInternal
 const
 uint8_t
 *
-encoded
 size_t
-encoded_len
 int
 sample_rate_hz
 int16_t

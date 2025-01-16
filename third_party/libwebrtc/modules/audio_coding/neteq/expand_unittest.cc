@@ -289,7 +289,6 @@ LogDelayedPacketOutageEvent
 int
 num_samples
 int
-fs_hz
 )
 override
 {

@@ -213,7 +213,6 @@ float
 *
 const
 *
-out_block
 )
 override
 {

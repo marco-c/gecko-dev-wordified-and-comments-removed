@@ -255,7 +255,6 @@ NetEq
 :
 :
 Operation
-operation
 )
 override
 {

@@ -159,7 +159,6 @@ NetEqInput
 :
 PacketData
 &
-packet
 )
 {
 }
