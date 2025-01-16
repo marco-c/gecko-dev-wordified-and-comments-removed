@@ -316,7 +316,6 @@ nsIInterfaceRequestor
 nsIStreamListener
 nsIRunnable
 nsITimerCallback
-nsINamed
 )
 TRR
 :
