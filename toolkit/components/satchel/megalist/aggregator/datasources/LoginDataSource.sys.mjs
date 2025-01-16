@@ -3106,13 +3106,6 @@ LoginHelper
 OS_AUTH_FOR_PASSWORDS_PREF
 )
 ;
-const
-reason
-=
-"
-export_cpm
-"
-;
 let
 {
 isAuthorized
@@ -3147,7 +3140,6 @@ this
 exportPasswordsStrings
 .
 OSAuthDialogCaption
-reason
 )
 ;
 let

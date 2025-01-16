@@ -2965,13 +2965,6 @@ edit
 mode
 already
 .
-const
-reason
-=
-"
-reveal_logins
-"
-;
 if
 (
 this
@@ -3012,7 +3005,6 @@ dialog
 -
 message
 "
-reason
 )
 ;
 if
@@ -3277,13 +3269,6 @@ currentTarget
 )
 {
 let
-reason
-=
-"
-copy_logins
-"
-;
-let
 primaryPasswordAuth
 =
 await
@@ -3306,7 +3291,6 @@ dialog
 -
 message
 "
-reason
 )
 ;
 if
@@ -3746,13 +3730,6 @@ handleEditEvent
 )
 {
 let
-reason
-=
-"
-edit_logins
-"
-;
-let
 primaryPasswordAuth
 =
 await
@@ -3775,7 +3752,6 @@ dialog
 -
 message2
 "
-reason
 )
 ;
 if
