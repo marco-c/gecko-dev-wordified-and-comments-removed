@@ -730,13 +730,6 @@ u
 )
 ;
 bool
-IsEastAsianPunctuation
-(
-uint32_t
-u
-)
-;
-bool
 IsPunctuationForWordSelect
 (
 char16_t
