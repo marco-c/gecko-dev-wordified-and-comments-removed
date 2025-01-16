@@ -121,7 +121,7 @@ state
 .
 selector
 .
-findTab
+findTabOrCustomTab
 import
 mozilla
 .
@@ -971,7 +971,7 @@ store
 state
 ?
 .
-findTab
+findTabOrCustomTab
 (
 engineSession
 )
