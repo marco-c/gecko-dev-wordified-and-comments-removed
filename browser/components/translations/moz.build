@@ -85,6 +85,15 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+perftest
+.
+toml
+"
 ]
 JAR_MANIFESTS
 +
