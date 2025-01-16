@@ -5276,6 +5276,17 @@ frame_transformer_factory
 /
 api
 :
+function_view
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 make_ref_counted
 "
 "

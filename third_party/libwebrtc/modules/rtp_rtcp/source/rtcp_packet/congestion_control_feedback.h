@@ -7,6 +7,11 @@ MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_CONGESTION_CONTROL_FEEDBACK_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -108,7 +113,7 @@ arrival_time_offset
 TimeDelta
 :
 :
-Zero
+MinusInfinity
 (
 )
 ;
