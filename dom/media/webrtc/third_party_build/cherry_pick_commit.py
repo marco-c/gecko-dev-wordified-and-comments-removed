@@ -1585,18 +1585,13 @@ target_path
 )
         
 if
-not
-(
 resume_state
-=
-=
+not
+in
+(
 "
 resume2
 "
-or
-resume_state
-=
-=
 "
 resume3
 "
