@@ -398,14 +398,6 @@ payload_type
 =
 config
 .
-ilbc
-|
-|
-payload_type
-=
-=
-config
-.
 pcm16b
 |
 |
