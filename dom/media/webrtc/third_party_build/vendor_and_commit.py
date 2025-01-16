@@ -17,9 +17,6 @@ get_last_line
 run_hg
 run_shell
 update_resume_state
-error_help
-=
-None
 script_name
 =
 os
@@ -29,6 +26,91 @@ path
 basename
 (
 __file__
+)
+class
+ErrorHelp
+:
+    
+def
+__init__
+(
+self
+help_string
+)
+:
+        
+self
+.
+help_string
+=
+help_string
+    
+def
+set_help
+(
+self
+help_string
+)
+:
+        
+self
+.
+help_string
+=
+help_string
+    
+def
+show_help
+(
+self
+)
+:
+        
+if
+self
+.
+help_string
+is
+not
+None
+:
+            
+print
+(
+self
+.
+help_string
+)
+            
+print
+(
+                
+"
+Please
+resolve
+the
+error
+and
+then
+continue
+running
+{
+}
+"
+.
+format
+(
+                    
+script_name
+                
+)
+            
+)
+error_help
+=
+ErrorHelp
+(
+None
 )
 def
 early_exit_handler
@@ -60,39 +142,10 @@ script_name
 )
 )
     
-if
 error_help
-is
-not
-None
-:
-        
-print
-(
-error_help
-)
-        
-print
-(
-            
-"
-Please
-resolve
-the
-error
-and
-then
-continue
-running
-{
-}
-"
 .
-format
+show_help
 (
-script_name
-)
-        
 )
 def
 log_output_lines
@@ -1372,9 +1425,6 @@ print
 "
 )
     
-global
-error_help
-    
 resume_state
 =
 "
@@ -1438,9 +1488,12 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
+(
+                
 "
 Running
 script
@@ -1459,7 +1512,7 @@ failed
 \
 n
 "
-            
+                
 "
 Please
 manually
@@ -1476,7 +1529,7 @@ git
 \
 n
 "
-            
+                
 "
 are
 reflected
@@ -1489,13 +1542,15 @@ hg
 diff
 '
 "
-        
+            
 )
 .
 format
 (
 script_dir
 github_path
+)
+        
 )
         
 vendor_current_stack
@@ -1506,8 +1561,11 @@ script_dir
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -1540,7 +1598,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -1584,8 +1643,11 @@ log_dir
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -1618,7 +1680,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -1678,8 +1741,11 @@ handle_noop_commit
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -1712,7 +1778,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -1772,8 +1839,11 @@ handle_noop_commit
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -1806,7 +1876,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -1869,8 +1940,11 @@ handle_noop_commit
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -1902,7 +1976,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -1931,8 +2006,11 @@ target_dir
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 atexit
 .
