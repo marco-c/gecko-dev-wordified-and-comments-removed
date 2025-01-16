@@ -1486,11 +1486,9 @@ VerifyLoggedRtpPacket
 const
 EventType
 &
-original_event
 const
 ParsedType
 &
-logged_event
 )
 {
 static_assert

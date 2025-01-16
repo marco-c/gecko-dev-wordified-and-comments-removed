@@ -496,9 +496,7 @@ PeerConnectionInterface
 :
 RTCConfiguration
 &
-configuration
 PeerConnectionDependencies
-dependencies
 )
 {
 return
@@ -521,7 +519,6 @@ cricket
 :
 :
 MediaType
-kind
 )
 const
 {

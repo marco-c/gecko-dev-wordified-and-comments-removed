@@ -444,7 +444,6 @@ FrameLengthIncreasingDecision
 const
 AudioEncoderRuntimeConfig
 &
-config
 )
 {
 auto
@@ -692,7 +691,6 @@ FrameLengthDecreasingDecision
 const
 AudioEncoderRuntimeConfig
 &
-config
 )
 {
 auto

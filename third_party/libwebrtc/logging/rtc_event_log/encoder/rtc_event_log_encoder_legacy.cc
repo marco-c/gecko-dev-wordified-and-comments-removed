@@ -1482,7 +1482,6 @@ EncodeLogStart
 int64_t
 timestamp_us
 int64_t
-utc_time_us
 )
 {
 rtclog

@@ -385,7 +385,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
@@ -438,7 +437,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
@@ -1184,7 +1182,6 @@ VideoEncoder
 :
 Settings
 &
-settings
 )
 override
 {
@@ -1832,7 +1829,6 @@ Create
 const
 Environment
 &
-env
 const
 SdpVideoFormat
 &
@@ -2390,7 +2386,6 @@ encoded_image
 const
 CodecSpecificInfo
 *
-codec_specific_info
 )
 override
 {
@@ -7262,7 +7257,6 @@ vector
 VideoFrameType
 >
 *
-frame_types
 )
 {
 EXPECT_EQ

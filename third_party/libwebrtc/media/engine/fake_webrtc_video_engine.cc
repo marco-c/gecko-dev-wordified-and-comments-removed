@@ -265,7 +265,6 @@ Configure
 const
 Settings
 &
-settings
 )
 {
 return
@@ -436,7 +435,6 @@ webrtc
 :
 Environment
 &
-env
 const
 webrtc
 :
@@ -674,7 +672,6 @@ webrtc
 :
 FecControllerOverride
 *
-fec_controller_override
 )
 {
 }
@@ -697,7 +694,6 @@ VideoEncoder
 :
 Settings
 &
-settings
 )
 {
 webrtc
@@ -737,7 +733,6 @@ webrtc
 :
 VideoFrame
 &
-inputImage
 const
 std
 :
@@ -750,7 +745,6 @@ webrtc
 VideoFrameType
 >
 *
-frame_types
 )
 {
 webrtc
@@ -788,7 +782,6 @@ webrtc
 :
 EncodedImageCallback
 *
-callback
 )
 {
 return
@@ -816,7 +809,6 @@ SetRates
 const
 RateControlParameters
 &
-parameters
 )
 {
 }

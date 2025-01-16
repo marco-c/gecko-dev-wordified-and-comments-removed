@@ -188,7 +188,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
@@ -292,11 +291,9 @@ Create
 const
 Environment
 &
-env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return

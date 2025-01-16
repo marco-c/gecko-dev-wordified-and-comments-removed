@@ -3373,7 +3373,6 @@ scoped_refptr
 <
 RtpTransceiverInterface
 >
-transceiver
 )
 {
 }
@@ -3388,7 +3387,6 @@ scoped_refptr
 <
 RtpReceiverInterface
 >
-receiver
 )
 {
 }
@@ -3397,7 +3395,6 @@ void
 OnInterestingUsage
 (
 int
-usage_pattern
 )
 {
 }
@@ -4221,9 +4218,7 @@ StartAecDump
 (
 FILE
 *
-file
 int64_t
-max_size_bytes
 )
 {
 return

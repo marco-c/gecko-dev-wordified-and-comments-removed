@@ -705,7 +705,6 @@ payload_data
 size_t
 payload_len_bytes
 int64_t
-absolute_capture_timestamp_ms
 )
 {
 frame_type_

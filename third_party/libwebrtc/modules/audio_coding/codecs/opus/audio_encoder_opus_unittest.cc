@@ -402,7 +402,6 @@ absl
 string_view
 RtcEventLog
 *
-event_log
 )
 {
 std

@@ -644,7 +644,6 @@ webrtc
 :
 AudioFrame
 >
-audio_frame
 )
 override
 {
@@ -1936,7 +1935,6 @@ webrtc
 :
 FrameDecryptorInterface
 >
-frame_decryptor
 )
 override
 {
@@ -1954,7 +1952,6 @@ webrtc
 :
 FrameTransformerInterface
 >
-frame_transformer
 )
 override
 {
@@ -1963,9 +1960,7 @@ RecordingState
 SetAndGetRecordingState
 (
 RecordingState
-state
 bool
-generate_key_frame
 )
 override
 {
@@ -2429,7 +2424,6 @@ std
 :
 string
 &
-mid
 cricket
 :
 :
@@ -2460,19 +2454,16 @@ std
 :
 string
 &
-mid
 webrtc
 :
 :
 PayloadType
-payload_type
 const
 cricket
 :
 :
 Codec
 &
-codec
 )
 override
 {

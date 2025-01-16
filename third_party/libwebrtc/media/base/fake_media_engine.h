@@ -650,7 +650,6 @@ set
 uint32_t
 >
 &
-choices
 )
 override
 {
@@ -662,7 +661,6 @@ SetLocalSsrc
 const
 StreamParams
 &
-sp
 )
 {
 return
@@ -953,7 +951,6 @@ CopyOnWriteBuffer
 *
 packet
 int64_t
-packet_time_us
 )
 {
 rtcp_packets_
@@ -988,7 +985,6 @@ void
 SetFrameDecryptor
 (
 uint32_t
-ssrc
 rtc
 :
 :
@@ -999,7 +995,6 @@ webrtc
 :
 FrameDecryptorInterface
 >
-frame_decryptor
 )
 override
 {
@@ -1008,7 +1003,6 @@ void
 SetDepacketizerToDecoderFrameTransformer
 (
 uint32_t
-ssrc
 rtc
 :
 :
@@ -1019,7 +1013,6 @@ webrtc
 :
 FrameTransformerInterface
 >
-frame_transformer
 )
 override
 {
@@ -2273,7 +2266,6 @@ CopyOnWriteBuffer
 *
 packet
 int64_t
-packet_time_us
 )
 {
 rtcp_packets_
@@ -2308,7 +2300,6 @@ void
 SetFrameEncryptor
 (
 uint32_t
-ssrc
 rtc
 :
 :
@@ -2319,7 +2310,6 @@ webrtc
 :
 FrameEncryptorInterface
 >
-frame_encryptor
 )
 override
 {
@@ -2328,7 +2318,6 @@ void
 SetEncoderToPacketizerFrameTransformer
 (
 uint32_t
-ssrc
 rtc
 :
 :
@@ -2339,7 +2328,6 @@ webrtc
 :
 FrameTransformerInterface
 >
-frame_transformer
 )
 override
 {
@@ -2498,7 +2486,6 @@ rtc
 :
 SentPacket
 &
-sent_packet
 )
 override
 {
@@ -2523,7 +2510,6 @@ absl
 :
 :
 string_view
-transport_name
 const
 rtc
 :
@@ -2996,7 +2982,6 @@ void
 SetReceiveNackEnabled
 (
 bool
-enabled
 )
 override
 {
@@ -3008,7 +2993,6 @@ webrtc
 :
 :
 RtcpMode
-mode
 )
 override
 {
@@ -3017,7 +3001,6 @@ void
 SetReceiveNonSenderRttEnabled
 (
 bool
-enabled
 )
 override
 {
@@ -3446,7 +3429,6 @@ void
 SetReceiveNackEnabled
 (
 bool
-enabled
 )
 {
 }
@@ -3454,7 +3436,6 @@ void
 SetReceiveNonSenderRttEnabled
 (
 bool
-enabled
 )
 {
 }
