@@ -405,6 +405,13 @@ js
 ]
 [
 "
+initialStateValidation
+.
+js
+"
+]
+[
+"
 languagePackUpdates
 .
 js
