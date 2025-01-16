@@ -9092,7 +9092,7 @@ tabs
 =
 this
 .
-visibleTabs
+allTabs
 ;
 for
 (
