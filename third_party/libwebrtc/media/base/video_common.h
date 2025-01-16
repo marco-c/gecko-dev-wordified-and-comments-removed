@@ -19,6 +19,17 @@ string
 #
 include
 "
+absl
+/
+base
+/
+macros
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 system
@@ -1427,6 +1438,9 @@ const
 ;
 }
 ;
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 int
 GreatestCommonDivisor
 (
@@ -1436,6 +1450,9 @@ int
 b
 )
 ;
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 int
 LeastCommonMultiple
 (
