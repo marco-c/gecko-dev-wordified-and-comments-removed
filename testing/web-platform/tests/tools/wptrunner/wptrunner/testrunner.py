@@ -6795,6 +6795,12 @@ close
             
 self
 .
+browser
+.
+command_queue
+=
+self
+.
 command_queue
 =
 mp

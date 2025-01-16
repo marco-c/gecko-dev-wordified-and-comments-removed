@@ -1446,6 +1446,12 @@ WebDriverBrowser
 )
 :
     
+init_timeout
+:
+float
+=
+65
+    
 def
 __init__
 (
