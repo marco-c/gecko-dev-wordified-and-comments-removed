@@ -1711,7 +1711,7 @@ init
 ;
 static
 bool
-prepareToCompile
+PrepareToCompile
 (
 JSContext
 *
