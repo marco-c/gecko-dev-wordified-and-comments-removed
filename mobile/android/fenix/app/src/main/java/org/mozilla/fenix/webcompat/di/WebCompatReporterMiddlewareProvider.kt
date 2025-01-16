@@ -279,6 +279,9 @@ appStore
 )
 provideSubmissionMiddleware
 (
+appStore
+=
+appStore
 browserStore
 =
 browserStore
@@ -314,6 +317,9 @@ private
 fun
 provideSubmissionMiddleware
 (
+appStore
+:
+AppStore
 browserStore
 :
 BrowserStore
@@ -327,6 +333,9 @@ CoroutineScope
 =
 WebCompatReporterSubmissionMiddleware
 (
+appStore
+=
+appStore
 webCompatReporterRetrievalService
 =
 DefaultWebCompatReporterRetrievalService
