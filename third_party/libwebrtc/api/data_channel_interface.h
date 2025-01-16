@@ -269,7 +269,6 @@ void
 OnBufferedAmountChange
 (
 uint64_t
-sent_data_size
 )
 {
 }

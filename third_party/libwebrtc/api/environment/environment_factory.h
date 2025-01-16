@@ -519,7 +519,6 @@ Set
 (
 EnvironmentFactory
 &
-factory
 )
 {
 }

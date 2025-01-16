@@ -467,7 +467,6 @@ AudioCodecPairId
 const
 FieldTrialsView
 *
-field_trials
 )
 {
 AudioEncoderPcm16B

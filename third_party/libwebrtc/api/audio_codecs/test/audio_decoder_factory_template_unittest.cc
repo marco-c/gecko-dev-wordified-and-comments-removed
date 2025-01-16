@@ -575,7 +575,6 @@ SdpToConfig
 const
 SdpAudioFormat
 &
-audio_format
 )
 {
 return
@@ -663,7 +662,6 @@ MakeAudioDecoder
 const
 Config
 &
-config
 std
 :
 :
@@ -671,7 +669,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 auto
@@ -722,11 +719,9 @@ MakeAudioDecoder
 const
 Environment
 &
-env
 const
 Config
 &
-config
 std
 :
 :
@@ -734,7 +729,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 auto
@@ -851,7 +845,6 @@ MakeAudioDecoder
 const
 Config
 &
-config
 std
 :
 :
@@ -859,7 +852,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 return

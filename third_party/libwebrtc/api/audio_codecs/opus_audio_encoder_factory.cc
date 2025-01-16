@@ -183,7 +183,6 @@ vector
 AudioCodecSpec
 >
 *
-specs
 )
 {
 }

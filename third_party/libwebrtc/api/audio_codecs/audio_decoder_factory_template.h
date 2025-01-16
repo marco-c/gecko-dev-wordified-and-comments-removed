@@ -134,7 +134,6 @@ vector
 AudioCodecSpec
 >
 *
-specs
 )
 {
 }
@@ -145,7 +144,6 @@ IsSupportedDecoder
 const
 SdpAudioFormat
 &
-format
 )
 {
 return
@@ -171,11 +169,9 @@ MakeAudioDecoder
 const
 Environment
 &
-env
 const
 SdpAudioFormat
 &
-format
 std
 :
 :
@@ -183,7 +179,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 return
@@ -408,7 +403,6 @@ Rank0
 const
 Environment
 &
-env
 const
 typename
 Trait

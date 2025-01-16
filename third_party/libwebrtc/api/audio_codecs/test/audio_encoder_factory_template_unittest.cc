@@ -452,7 +452,6 @@ const
 Config
 &
 int
-payload_type
 std
 :
 :
@@ -602,7 +601,6 @@ SdpToConfig
 const
 SdpAudioFormat
 &
-audio_format
 )
 {
 return
@@ -678,7 +676,6 @@ const
 Config
 &
 int
-payload_type
 std
 :
 :
@@ -686,7 +683,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 auto
@@ -744,18 +740,15 @@ MakeAudioEncoder
 const
 Environment
 &
-env
 const
 Config
 &
-config
 const
 AudioEncoderFactory
 :
 :
 Options
 &
-options
 )
 {
 auto
@@ -814,7 +807,6 @@ const
 Config
 &
 int
-payload_type
 std
 :
 :
@@ -822,7 +814,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 auto
@@ -873,18 +864,15 @@ MakeAudioEncoder
 const
 Environment
 &
-env
 const
 Config
 &
-config
 const
 AudioEncoderFactory
 :
 :
 Options
 &
-options
 )
 {
 auto

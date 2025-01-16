@@ -145,7 +145,6 @@ vector
 AudioCodecSpec
 >
 *
-specs
 )
 {
 }
@@ -162,7 +161,6 @@ QueryAudioEncoder
 const
 SdpAudioFormat
 &
-format
 )
 {
 return
@@ -191,18 +189,15 @@ CreateAudioEncoder
 const
 Environment
 &
-env
 const
 SdpAudioFormat
 &
-format
 const
 AudioEncoderFactory
 :
 :
 Options
 &
-options
 )
 {
 return
@@ -426,7 +421,6 @@ Rank0
 const
 Environment
 &
-env
 const
 typename
 Trait
