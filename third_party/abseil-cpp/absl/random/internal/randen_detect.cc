@@ -126,6 +126,14 @@ defined
 (
 ABSL_HAVE_GETAUXVAL
 )
+&
+&
+\
+!
+defined
+(
+ABSL_ARCH_AARCH64
+)
 #
 define
 ABSL_INTERNAL_USE_LINUX_GETAUXVAL
