@@ -466,7 +466,7 @@ const
 PixelFormat
 aSourcePixelFormat
 const
-uint8_t
+uint32_t
 aFramerate
 const
 size_t
@@ -739,7 +739,7 @@ mScalabilityMode
 {
 }
 ;
-uint8_t
+uint32_t
 mFramerate
 {
 }
