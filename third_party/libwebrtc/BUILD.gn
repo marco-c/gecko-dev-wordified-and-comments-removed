@@ -4356,6 +4356,13 @@ video_engine_tests_resources
 "
 resources
 /
+ConferenceMotion_1280_720_50
+.
+yuv
+"
+"
+resources
+/
 foreman_cif_short
 .
 yuv
