@@ -1601,6 +1601,13 @@ js
 ]
 [
 "
+browser_sidebar_button_reset
+.
+js
+"
+]
+[
+"
 browser_sidebar_toggle
 .
 js
