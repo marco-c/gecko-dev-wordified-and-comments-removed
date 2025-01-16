@@ -98,6 +98,9 @@ in_dtx_mode
 int
 sample_rate_hz
 ;
+int
+last_packet_num_channels
+;
 }
 ;
 #
