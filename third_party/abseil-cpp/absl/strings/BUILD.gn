@@ -672,11 +672,6 @@ escaping
 cc
 "
 "
-str_cat
-.
-cc
-"
-"
 str_replace
 .
 cc
