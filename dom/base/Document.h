@@ -1515,12 +1515,10 @@ define
 NS_IDOCUMENT_IID
 \
 {
-\
 0xce1f7627
 0x7109
 0x4977
 {
-\
 0xba
 0x77
 0x49
@@ -1529,9 +1527,7 @@ NS_IDOCUMENT_IID
 0xe0
 0x7a
 0xaa
-\
 }
-\
 }
 namespace
 mozilla
