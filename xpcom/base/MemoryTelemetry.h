@@ -67,6 +67,9 @@ functional
 class
 nsIEventTarget
 ;
+class
+TimeStampWindow
+;
 namespace
 mozilla
 {
@@ -202,6 +205,12 @@ TimeStamp
 mLastPoke
 {
 }
+;
+UniquePtr
+<
+TimeStampWindow
+>
+mPokeWindow
 ;
 nsCOMPtr
 <
