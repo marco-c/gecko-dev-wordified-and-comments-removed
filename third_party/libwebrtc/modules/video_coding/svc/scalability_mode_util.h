@@ -92,6 +92,7 @@ bool
 shift
 )
 ;
+RTC_EXPORT
 std
 :
 :
