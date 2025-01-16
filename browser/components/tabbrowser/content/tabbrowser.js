@@ -11805,6 +11805,11 @@ addTabGroup
 (
 newTabs
 {
+id
+:
+group
+.
+id
 label
 :
 group
