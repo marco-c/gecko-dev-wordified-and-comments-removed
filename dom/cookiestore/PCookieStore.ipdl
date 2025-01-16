@@ -165,6 +165,8 @@ partitionForeign
 bool
 usingStorageAccess
 bool
+isOn3PCBExceptionList
+bool
 matchName
 nsString
 name
@@ -194,6 +196,8 @@ bool
 partitionForeign
 bool
 usingStorageAccess
+bool
+isOn3PCBExceptionList
 nsString
 name
 nsString
@@ -230,6 +234,8 @@ bool
 partitionForeign
 bool
 usingStorageAccess
+bool
+isOn3PCBExceptionList
 nsString
 name
 nsString
