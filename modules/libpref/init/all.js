@@ -22901,6 +22901,9 @@ list
 emoji
 "
 "
+Noto
+Color
+Emoji
 Twemoji
 Mozilla
 "
