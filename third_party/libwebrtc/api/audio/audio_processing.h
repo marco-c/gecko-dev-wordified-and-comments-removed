@@ -2039,6 +2039,11 @@ CustomProcessing
 ;
 class
 RTC_EXPORT
+[
+[
+deprecated
+]
+]
 AudioProcessingBuilder
 {
 public
