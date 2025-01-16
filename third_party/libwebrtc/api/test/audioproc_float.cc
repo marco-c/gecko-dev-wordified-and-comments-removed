@@ -125,9 +125,6 @@ ap_builder
 )
 argc
 argv
-"
-"
-nullptr
 )
 ;
 }
