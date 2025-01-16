@@ -23801,6 +23801,11 @@ dependencies
 =
 [
 "
+allocator
+-
+api2
+"
+"
 arrayvec
 "
 "
@@ -23818,6 +23823,9 @@ bitflags
 6
 .
 0
+"
+"
+byteorder
 "
 "
 bytes
@@ -23864,6 +23872,9 @@ langneg
 "
 "
 fnv
+"
+"
+form_urlencoded
 "
 "
 futures
@@ -23917,6 +23928,9 @@ icu_locid
 icu_properties
 "
 "
+idna
+"
+"
 indexmap
 2
 .
@@ -23960,7 +23974,15 @@ num
 traits
 "
 "
+object
+"
+"
 once_cell
+"
+"
+percent
+-
+encoding
 "
 "
 phf
@@ -24067,6 +24089,9 @@ winapi
 "
 "
 windows
+"
+"
+windows
 -
 sys
 "
@@ -24077,6 +24102,9 @@ rs
 "
 "
 yoke
+"
+"
+zerocopy
 "
 "
 zerofrom
