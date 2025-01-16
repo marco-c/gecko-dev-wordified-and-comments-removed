@@ -4174,6 +4174,13 @@ h
 "
 mocks
 /
+mock_network_state_estimator_observer
+.
+h
+"
+"
+mocks
+/
 mock_recovered_packet_receiver
 .
 h
