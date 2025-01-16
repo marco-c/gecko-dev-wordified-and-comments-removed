@@ -308,13 +308,13 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 TRR
+Runnable
 nsIHttpPushListener
 nsIInterfaceRequestor
 nsIStreamListener
-nsIRunnable
 nsITimerCallback
 )
 TRR
