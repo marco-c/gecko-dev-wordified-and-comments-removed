@@ -27,12 +27,13 @@ Dict
 IO
 Iterator
 Iterable
+List
 Optional
 Set
 Text
+                    
 Tuple
 Type
-                    
 Union
 )
 from
@@ -2257,6 +2258,18 @@ bool
 =
 False
                     
+paths_to_update
+:
+Optional
+[
+List
+[
+Text
+]
+]
+=
+None
+                    
 metadata_path
 :
 Optional
@@ -2481,6 +2494,7 @@ manifest
 manifest_path
 cache_root
                                     
+paths_to_update
 working_copy
 rebuild
 )
