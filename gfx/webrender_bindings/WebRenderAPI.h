@@ -534,6 +534,8 @@ const
 VsyncId
 &
 aVsyncId
+bool
+aPresent
 wr
 :
 :

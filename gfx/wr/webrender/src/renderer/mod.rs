@@ -6417,6 +6417,7 @@ active_doc
 &
 mut
 RenderedDocument
+mut
 device_size
 :
 Option
@@ -6789,6 +6790,19 @@ update_native_surfaces
 frame_id
 }
 ;
+if
+!
+active_doc
+.
+frame
+.
+present
+{
+device_size
+=
+None
+;
+}
 if
 let
 Some
