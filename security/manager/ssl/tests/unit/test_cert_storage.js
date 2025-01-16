@@ -291,9 +291,7 @@ MBIxEDAOBgNVBAMMB1Rlc3QgQ0E
 serialNumber
 :
 "
-a0X7
-/
-7DlTaedpgrIJg25iBPOkIM
+AxPrsRjtbFinLUfRzhtR8EeYh4Y
 =
 "
 }
@@ -307,13 +305,9 @@ MBgxFjAUBgNVBAMMDU90aGVyIHRlc3QgQ0E
 serialNumber
 :
 "
-Rym6o
+VTTv5DQM
 +
-VN9xgZXT
-/
-QLrvN
-/
-nv1ZN4
+fh01nnfm3AoUJt4UIY
 =
 "
 }
