@@ -28,9 +28,7 @@ signature
 signature
 =
 :
-TUznBT2ikFq6VrtoZeC5znRtZugu1U8OHJWoBkOLDTJA2FglSR34QY9j
-+
-BwN79PT4H0p8aIosnv4rXSKfIZVDA
+eTKYITprfJYJmsOZlRTmu0szHbt0yLxHYBU0oXDdkx8najLl59IPO0zUofe5T23RGuquHLdZx177tBX45CUcAg
 =
 =
 :
@@ -47,12 +45,6 @@ digest
 ;
 sf
 )
-;
-alg
-=
-"
-ed25519
-"
 ;
 keyid
 =
@@ -121,12 +113,6 @@ digest
 ;
 sf
 )
-;
-alg
-=
-"
-ed25519
-"
 ;
 keyid
 =
