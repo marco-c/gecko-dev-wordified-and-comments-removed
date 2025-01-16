@@ -105,7 +105,7 @@ DEC_MAJ_VERSION
 #
 define
 DEC_MIN_VERSION
-4
+5
 #
 define
 DEC_REV_VERSION

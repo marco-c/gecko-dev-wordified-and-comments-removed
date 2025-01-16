@@ -305,15 +305,6 @@ dec
 )
 ;
 void
-VP8LClear
-(
-VP8LDecoder
-*
-const
-dec
-)
-;
-void
 VP8LDelete
 (
 VP8LDecoder

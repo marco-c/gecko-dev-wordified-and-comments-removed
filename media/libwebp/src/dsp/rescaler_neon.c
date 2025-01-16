@@ -293,11 +293,13 @@ Interpolate_NEON
 const
 rescaler_t
 *
+WEBP_RESTRICT
 const
 frow
 const
 rescaler_t
 *
+WEBP_RESTRICT
 const
 irow
 uint32_t

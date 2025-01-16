@@ -9,6 +9,7 @@ cost_enc
 .
 h
 "
+static
 const
 uint16_t
 VP8LevelCodes

@@ -286,6 +286,16 @@ define
 BITS
 24
 #
+elif
+defined
+(
+__wasm__
+)
+#
+define
+BITS
+56
+#
 else
 #
 define

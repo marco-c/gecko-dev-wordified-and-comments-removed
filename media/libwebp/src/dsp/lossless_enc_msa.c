@@ -322,10 +322,12 @@ TransformColor_MSA
 const
 VP8LMultipliers
 *
+WEBP_RESTRICT
 const
 m
 uint32_t
 *
+WEBP_RESTRICT
 data
 int
 num_pixels

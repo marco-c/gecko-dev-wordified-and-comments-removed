@@ -3521,6 +3521,7 @@ C8VE8
 C8HE8
 }
 ;
+static
 const
 uint16_t
 VP8I4ModeOffsets
@@ -3655,8 +3656,9 @@ top
 )
 ;
 }
+static
 void
-VP8MakeIntra4Preds
+MakeIntra4Preds
 (
 const
 VP8EncIterator
@@ -8122,7 +8124,7 @@ InitScore
 rd_i4
 )
 ;
-VP8MakeIntra4Preds
+MakeIntra4Preds
 (
 it
 )
@@ -9061,7 +9063,7 @@ it
 i4_
 ]
 ;
-VP8MakeIntra4Preds
+MakeIntra4Preds
 (
 it
 )
@@ -9498,7 +9500,7 @@ rd
 modes_i4
 )
 ;
-VP8MakeIntra4Preds
+MakeIntra4Preds
 (
 it
 )

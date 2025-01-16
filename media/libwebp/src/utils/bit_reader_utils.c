@@ -786,6 +786,13 @@ defined
 (
 _M_X64
 )
+|
+|
+\
+defined
+(
+__wasm__
+)
 #
 define
 VP8L_USE_FAST_LOAD

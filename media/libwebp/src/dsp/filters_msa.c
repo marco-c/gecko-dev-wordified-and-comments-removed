@@ -48,6 +48,7 @@ uint8_t
 pred
 uint8_t
 *
+WEBP_RESTRICT
 dst
 int
 length
@@ -245,7 +246,9 @@ do
 \
 assert
 (
+(
 in
+)
 !
 =
 NULL
@@ -254,10 +257,25 @@ NULL
 \
 assert
 (
+(
 out
+)
 !
 =
 NULL
+)
+;
+\
+assert
+(
+(
+in
+)
+!
+=
+(
+out
+)
 )
 ;
 \
@@ -298,6 +316,7 @@ HorizontalFilter_MSA
 const
 uint8_t
 *
+WEBP_RESTRICT
 data
 int
 width
@@ -307,6 +326,7 @@ int
 stride
 uint8_t
 *
+WEBP_RESTRICT
 filtered_data
 )
 {
@@ -447,6 +467,7 @@ uint8_t
 ppred
 uint8_t
 *
+WEBP_RESTRICT
 poutput
 int
 stride
@@ -706,6 +727,7 @@ GradientFilter_MSA
 const
 uint8_t
 *
+WEBP_RESTRICT
 data
 int
 width
@@ -715,6 +737,7 @@ int
 stride
 uint8_t
 *
+WEBP_RESTRICT
 filtered_data
 )
 {
@@ -856,6 +879,7 @@ VerticalFilter_MSA
 const
 uint8_t
 *
+WEBP_RESTRICT
 data
 int
 width
@@ -865,6 +889,7 @@ int
 stride
 uint8_t
 *
+WEBP_RESTRICT
 filtered_data
 )
 {

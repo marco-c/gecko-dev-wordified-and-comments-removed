@@ -71,10 +71,12 @@ SetResidualCoeffs_NEON
 const
 int16_t
 *
+WEBP_RESTRICT
 const
 coeffs
 VP8Residual
 *
+WEBP_RESTRICT
 const
 res
 )

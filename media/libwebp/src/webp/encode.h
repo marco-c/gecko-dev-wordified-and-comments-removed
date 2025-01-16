@@ -26,7 +26,7 @@ endif
 #
 define
 WEBP_ENCODER_ABI_VERSION
-0x020f
+0x0210
 /
 /
 MAJOR
@@ -518,10 +518,13 @@ lossless_hdr_size
 int
 lossless_data_size
 ;
+int
+cross_color_transform_bits
+;
 uint32_t
 pad
 [
-2
+1
 ]
 ;
 }

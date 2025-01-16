@@ -101,7 +101,7 @@ kb
 ;
 const
 float
-cr
+cb
 =
 0
 .
@@ -117,7 +117,7 @@ kb
 ;
 const
 float
-cb
+cr
 =
 0
 .
@@ -180,12 +180,12 @@ add_y
 float
 scale_u
 =
-cr
+cb
 ;
 float
 scale_v
 =
-cb
+cr
 ;
 float
 add_uv

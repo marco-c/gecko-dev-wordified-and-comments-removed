@@ -264,11 +264,13 @@ ExtraCostCombined_SSE41
 const
 uint32_t
 *
+WEBP_RESTRICT
 const
 a
 const
 uint32_t
 *
+WEBP_RESTRICT
 const
 b
 int
@@ -723,6 +725,7 @@ CollectColorBlueTransforms_SSE41
 const
 uint32_t
 *
+WEBP_RESTRICT
 argb
 int
 stride
@@ -734,7 +737,7 @@ int
 green_to_blue
 int
 red_to_blue
-int
+uint32_t
 histo
 [
 ]
@@ -1098,6 +1101,7 @@ CollectColorRedTransforms_SSE41
 const
 uint32_t
 *
+WEBP_RESTRICT
 argb
 int
 stride
@@ -1107,7 +1111,7 @@ int
 tile_height
 int
 green_to_red
-int
+uint32_t
 histo
 [
 ]

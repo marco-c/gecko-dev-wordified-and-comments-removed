@@ -869,10 +869,12 @@ TransformColor_MIPSdspR2
 const
 VP8LMultipliers
 *
+WEBP_RESTRICT
 const
 m
 uint32_t
 *
+WEBP_RESTRICT
 data
 int
 num_pixels
@@ -2134,6 +2136,7 @@ CollectColorBlueTransforms_MIPSdspR2
 const
 uint32_t
 *
+WEBP_RESTRICT
 argb
 int
 stride
@@ -2145,7 +2148,7 @@ int
 green_to_blue
 int
 red_to_blue
-int
+uint32_t
 histo
 [
 ]
@@ -2744,6 +2747,7 @@ CollectColorRedTransforms_MIPSdspR2
 const
 uint32_t
 *
+WEBP_RESTRICT
 argb
 int
 stride
@@ -2753,7 +2757,7 @@ int
 tile_height
 int
 green_to_red
-int
+uint32_t
 histo
 [
 ]
