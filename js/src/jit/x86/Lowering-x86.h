@@ -242,6 +242,14 @@ ins
 )
 ;
 void
+lowerWasmBuiltinTruncateToInt32
+(
+MWasmBuiltinTruncateToInt32
+*
+ins
+)
+;
+void
 lowerWasmBuiltinTruncateToInt64
 (
 MWasmBuiltinTruncateToInt64
