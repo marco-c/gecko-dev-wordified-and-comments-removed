@@ -7819,6 +7819,13 @@ disableIon
 ;
 inline
 bool
+isBaselineCompilingOffThread
+(
+)
+const
+;
+inline
+bool
 canBaselineCompile
 (
 )

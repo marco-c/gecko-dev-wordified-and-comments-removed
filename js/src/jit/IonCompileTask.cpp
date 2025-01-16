@@ -171,7 +171,7 @@ requestInterrupt
 InterruptReason
 :
 :
-AttachIonCompilations
+AttachOffThreadCompilations
 )
 ;
 }
@@ -695,6 +695,12 @@ while
 true
 )
 {
+AttachFinishedBaselineCompilations
+(
+cx
+lock
+)
+;
 MoveFinishedTasksToLazyLinkList
 (
 rt
