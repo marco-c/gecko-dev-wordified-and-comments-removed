@@ -2536,9 +2536,6 @@ name
 ;
 if
 (
-country
-&
-&
 !
 lazy
 .
