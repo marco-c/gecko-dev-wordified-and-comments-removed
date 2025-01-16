@@ -112,12 +112,10 @@ define
 NS_CSPCONTEXT_CID
 \
 {
-\
 0x09d9ed1a
 0xe5d4
 0x4004
 {
-\
 0xbf
 0xe0
 0x27
@@ -126,9 +124,7 @@ NS_CSPCONTEXT_CID
 0x23
 0xd9
 0xac
-\
 }
-\
 }
 class
 nsINetworkInterceptController
@@ -267,10 +263,8 @@ dom
 CSPViolationData
 &
 aCSPViolationData
-const
-nsAString
-&
-aScriptSample
+bool
+aReportSample
 mozilla
 :
 :
