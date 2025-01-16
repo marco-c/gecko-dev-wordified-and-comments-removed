@@ -21256,6 +21256,10 @@ the
 current
 private
 session
+used
+by
+a11y
+services
 The
 %
 1
@@ -21357,6 +21361,10 @@ in
 the
 synced
 tabs
+used
+by
+a11y
+services
 The
 %
 1
