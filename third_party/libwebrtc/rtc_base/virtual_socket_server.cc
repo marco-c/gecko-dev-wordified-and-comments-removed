@@ -298,11 +298,11 @@ NUM_SAMPLES
 1000
 ;
 class
-Packet
+VirtualSocketPacket
 {
 public
 :
-Packet
+VirtualSocketPacket
 (
 const
 char
@@ -354,7 +354,7 @@ size_
 ;
 }
 ~
-Packet
+VirtualSocketPacket
 (
 )
 {
@@ -1404,7 +1404,7 @@ return
 1
 ;
 }
-Packet
+VirtualSocketPacket
 &
 packet
 =
@@ -1974,7 +1974,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -2074,7 +2074,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -5801,7 +5801,7 @@ std
 :
 make_unique
 <
-Packet
+VirtualSocketPacket
 >
 (
 data
