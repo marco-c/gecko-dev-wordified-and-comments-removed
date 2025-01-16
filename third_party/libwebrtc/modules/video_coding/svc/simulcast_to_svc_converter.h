@@ -157,6 +157,16 @@ SimulcastToSvcConverter
 =
 default
 ;
+static
+bool
+IsConfigSupported
+(
+const
+VideoCodec
+&
+codec
+)
+;
 VideoCodec
 GetConfig
 (
