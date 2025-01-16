@@ -10512,6 +10512,17 @@ QuotaManager
 aClosure
 )
 ;
+quotaManager
+-
+>
+RecordQuotaManagerShutdownStep
+(
+"
+crashBrowserTimerCallback
+"
+_ns
+)
+;
 nsCString
 annotation
 ;
