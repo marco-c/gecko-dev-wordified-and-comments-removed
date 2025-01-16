@@ -1,10 +1,13 @@
 error
 :
 expected
+one
+of
+:
 string
 literal
-or
 transparent
+fmt
 -
 -
 >

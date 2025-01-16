@@ -79,6 +79,9 @@ mod
 expand
 ;
 mod
+fallback
+;
+mod
 fmt
 ;
 mod
@@ -91,7 +94,7 @@ mod
 scan_expr
 ;
 mod
-span
+unraw
 ;
 mod
 valid

@@ -358,9 +358,7 @@ dependencies
 thiserror
 =
 "
-1
-.
-0
+2
 "
 *
 Compiler
@@ -782,9 +780,12 @@ rdo_lookahead_frames
 expected
 <
 {
+max
 }
 )
 "
+max
+=
 i32
 :
 :
