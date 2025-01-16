@@ -28,6 +28,9 @@ namespace
 jit
 {
 class
+OutOfLineTruncate
+;
+class
 CodeGeneratorX64
 :
 public
@@ -147,6 +150,16 @@ emitWasmStore
 T
 *
 ins
+)
+;
+public
+:
+void
+visitOutOfLineTruncate
+(
+OutOfLineTruncate
+*
+ool
 )
 ;
 }

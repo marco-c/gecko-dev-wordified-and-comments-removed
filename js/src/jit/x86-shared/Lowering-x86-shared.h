@@ -314,14 +314,6 @@ ins
 )
 ;
 void
-lowerTruncateDToInt32
-(
-MTruncateToInt32
-*
-ins
-)
-;
-void
 lowerCompareExchangeTypedArrayElement
 (
 MCompareExchangeTypedArrayElement

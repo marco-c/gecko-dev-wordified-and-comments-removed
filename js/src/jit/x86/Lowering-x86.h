@@ -226,6 +226,14 @@ rhs
 )
 ;
 void
+lowerTruncateDToInt32
+(
+MTruncateToInt32
+*
+ins
+)
+;
+void
 lowerTruncateFToInt32
 (
 MTruncateToInt32
