@@ -490,6 +490,11 @@ testObjectSwap
 cpp
 "
 "
+testObjectWithStashedPointer
+.
+cpp
+"
+"
 testOOM
 .
 cpp
