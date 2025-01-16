@@ -239,18 +239,6 @@ libwebrtc
 /
 call
 /
-video_receive_stream
-.
-cc
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-call
-/
 video_send_stream
 .
 cc
@@ -1558,6 +1546,6 @@ True
 Library
 (
 "
-video_stream_api_gn
+video_send_stream_api_gn
 "
 )
