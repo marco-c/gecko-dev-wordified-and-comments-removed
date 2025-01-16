@@ -4941,7 +4941,7 @@ insecure_connection_text
 .
 enabled
 "
-false
+true
 ]
 [
 "
