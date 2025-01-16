@@ -2862,6 +2862,21 @@ state
 queryContext
 controller
 visibleResultsByProviderName
+state
+=
+=
+"
+engagement
+"
+&
+&
+details
+.
+result
+?
+details
+:
+null
 )
 ;
 }
@@ -2999,6 +3014,7 @@ state
 queryContext
 controller
 visibleResultsByProviderName
+details
 )
 {
 for
@@ -3043,6 +3059,7 @@ state
 queryContext
 controller
 providerVisibleResults
+details
 )
 ;
 }
