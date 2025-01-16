@@ -70,7 +70,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -909,7 +909,7 @@ obj
 ;
 config
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :
@@ -919,7 +919,7 @@ make_unique
 webrtc
 :
 :
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 >
 (
 )

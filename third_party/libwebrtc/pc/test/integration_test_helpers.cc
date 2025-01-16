@@ -16,7 +16,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -1275,14 +1275,14 @@ create_media_engine
 {
 pc_factory_dependencies
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :
 :
 make_unique
 <
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 >
 (
 )

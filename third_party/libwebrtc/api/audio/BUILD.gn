@@ -525,7 +525,7 @@ string_view
 rtc_library
 (
 "
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 "
 )
 {
@@ -558,12 +558,12 @@ sources
 =
 [
 "
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 cc
 "
 "
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -985,7 +985,7 @@ audio_processing_unittest
 cc
 "
 "
-builtin_audio_processing_factory_unittest
+builtin_audio_processing_builder_unittest
 .
 cc
 "
@@ -999,7 +999,7 @@ audio_processing
 "
 "
 :
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 "
 "
 .

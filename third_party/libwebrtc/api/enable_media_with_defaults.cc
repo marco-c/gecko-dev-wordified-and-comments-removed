@@ -185,7 +185,7 @@ nullptr
 &
 deps
 .
-audio_processing_factory
+audio_processing_builder
 =
 =
 nullptr

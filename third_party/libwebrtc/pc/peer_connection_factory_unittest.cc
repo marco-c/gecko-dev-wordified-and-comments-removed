@@ -582,7 +582,7 @@ webrtc
 test
 :
 :
-MockAudioProcessingFactory
+MockAudioProcessingBuilder
 ;
 static
 const
@@ -5003,7 +5003,7 @@ std
 :
 make_unique
 <
-MockAudioProcessingFactory
+MockAudioProcessingBuilder
 >
 (
 )
@@ -5045,7 +5045,7 @@ EXPECT_CALL
 (
 *
 ap_factory
-Create
+Build
 )
 .
 WillOnce
@@ -5072,7 +5072,7 @@ Create
 ;
 pcf_dependencies
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :

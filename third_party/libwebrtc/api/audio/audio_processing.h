@@ -1864,13 +1864,13 @@ sample_rate_hz
 }
 ;
 class
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 {
 public
 :
 virtual
 ~
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 (
 )
 =
@@ -1887,7 +1887,7 @@ scoped_refptr
 AudioProcessing
 >
 >
-Create
+Build
 (
 const
 Environment
@@ -1909,7 +1909,7 @@ std
 :
 unique_ptr
 <
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 >
 >
 CustomAudioProcessing

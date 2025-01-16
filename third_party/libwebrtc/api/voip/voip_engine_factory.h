@@ -170,9 +170,9 @@ std
 :
 unique_ptr
 <
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 >
-audio_processing_factory
+audio_processing_builder
 ;
 [
 [

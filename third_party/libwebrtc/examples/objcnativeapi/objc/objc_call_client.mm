@@ -95,7 +95,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -783,7 +783,7 @@ init
 ;
 dependencies
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :
@@ -793,7 +793,7 @@ make_unique
 webrtc
 :
 :
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 >
 (
 )

@@ -586,7 +586,7 @@ audio_processing
 "
 audio
 :
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 "
 "
 audio_codecs
