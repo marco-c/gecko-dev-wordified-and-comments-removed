@@ -1908,6 +1908,12 @@ toUri
 )
 )
 {
+waitForPageToLoad
+(
+pageLoadWaitingTime
+=
+waitingTimeLong
+)
 setPageObjectText
 (
 itemWithResId
@@ -1920,6 +1926,9 @@ username
 mozilla
 "
 )
+waitForAppWindowToBeUpdated
+(
+)
 setPageObjectText
 (
 itemWithResId
@@ -1931,6 +1940,9 @@ password
 "
 firefox
 "
+)
+waitForAppWindowToBeUpdated
+(
 )
 clickPageObject
 (
