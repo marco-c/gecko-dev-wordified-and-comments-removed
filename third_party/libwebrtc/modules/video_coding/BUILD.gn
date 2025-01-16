@@ -7258,17 +7258,6 @@ video_encoder_factory_template_open_h264_adapter
 .
 .
 /
-call
-:
-video_stream_api
-"
-"
-.
-.
-/
-.
-.
-/
 common_video
 "
 "

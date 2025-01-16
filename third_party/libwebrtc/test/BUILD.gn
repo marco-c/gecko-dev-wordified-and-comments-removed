@@ -4304,7 +4304,7 @@ video_codecs_api
 /
 call
 :
-video_stream_api
+video_receive_stream_api
 "
 "
 .
@@ -6044,7 +6044,15 @@ rtp_interfaces
 /
 call
 :
-video_stream_api
+video_receive_stream_api
+"
+"
+.
+.
+/
+call
+:
+video_send_stream_api
 "
 "
 .
@@ -7258,7 +7266,7 @@ simulated_packet_receiver
 /
 call
 :
-video_stream_api
+video_send_stream_api
 "
 "
 .
@@ -7583,7 +7591,7 @@ deps
 /
 call
 :
-video_stream_api
+video_receive_stream_api
 "
 "
 .

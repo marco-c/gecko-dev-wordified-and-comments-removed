@@ -1328,7 +1328,7 @@ simulated_packet_receiver
 /
 call
 :
-video_stream_api
+video_send_stream_api
 "
 "
 .
@@ -2618,14 +2618,6 @@ timestamp
 call
 :
 call_interfaces
-"
-"
-.
-.
-/
-call
-:
-video_stream_api
 "
 "
 .

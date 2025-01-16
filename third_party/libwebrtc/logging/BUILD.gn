@@ -3321,14 +3321,6 @@ video_frame
 .
 .
 /
-call
-:
-video_stream_api
-"
-"
-.
-.
-/
 modules
 :
 module_api_public

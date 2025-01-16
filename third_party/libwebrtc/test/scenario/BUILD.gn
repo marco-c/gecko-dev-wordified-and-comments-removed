@@ -905,17 +905,6 @@ rtp_sender
 .
 .
 /
-call
-:
-video_stream_api
-"
-"
-.
-.
-/
-.
-.
-/
 common_video
 "
 "
