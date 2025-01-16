@@ -73991,6 +73991,13 @@ createElement
 main
 "
 {
+className
+:
+"
+newtab
+-
+main
+"
 style
 :
 this

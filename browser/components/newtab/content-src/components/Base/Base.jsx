@@ -4602,6 +4602,13 @@ closeCustomizationMenu
 >
 <
 main
+className
+=
+"
+newtab
+-
+main
+"
 style
 =
 {
