@@ -4678,16 +4678,9 @@ Label
 fail
 )
 {
-branchTruncateFloat32ToPtr
+truncateFloat32ModUint32
 (
 src
-dest
-fail
-)
-;
-movl
-(
-dest
 dest
 )
 ;
