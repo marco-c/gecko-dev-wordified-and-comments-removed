@@ -80,7 +80,6 @@ tabstray
 Tabs
 Tray
 Banner
-private
 const
 val
 bannerTestTagRoot

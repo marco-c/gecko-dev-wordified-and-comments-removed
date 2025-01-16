@@ -209,7 +209,7 @@ fenix
 .
 tabstray
 .
-FloatingActionButtonBinding
+TabsTrayAction
 import
 org
 .
@@ -219,7 +219,7 @@ fenix
 .
 tabstray
 .
-TabsTrayAction
+TabsTrayFab
 import
 org
 .
@@ -612,7 +612,7 @@ is
 handled
 with
 [
-FloatingActionButtonBinding
+TabsTrayFab
 ]
 .
 *
