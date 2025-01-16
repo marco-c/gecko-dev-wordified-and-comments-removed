@@ -81,6 +81,16 @@ p2p
 +
 system_wrappers
 "
+"
++
+absl
+/
+strings
+/
+str_cat
+.
+h
+"
 ]
 specific_include_rules
 =

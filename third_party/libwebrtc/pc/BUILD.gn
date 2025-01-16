@@ -14062,6 +14062,11 @@ sources
 =
 [
 "
+congestion_control_integrationtest
+.
+cc
+"
+"
 data_channel_integrationtest
 .
 cc
