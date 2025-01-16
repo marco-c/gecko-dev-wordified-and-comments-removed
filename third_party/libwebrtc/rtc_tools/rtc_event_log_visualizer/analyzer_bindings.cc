@@ -168,12 +168,6 @@ h
 "
 #
 endif
-using
-webrtc
-:
-:
-PacketDirection
-;
 namespace
 {
 std
