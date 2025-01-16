@@ -47,6 +47,11 @@ EventUtils
 js
 "
 "
+GleanTest
+.
+js
+"
+"
 MockObjects
 .
 js

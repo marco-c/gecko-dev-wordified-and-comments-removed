@@ -85,6 +85,11 @@ ExtensionTestUtils
 js
 "
 "
+GleanTest
+.
+js
+"
+"
 iframe
 -
 between
