@@ -74,6 +74,17 @@ Exposed
 *
 ]
 interface
+CSSPositionTryDescriptors
+{
+}
+;
+[
+LegacyNoInterfaceObject
+Exposed
+=
+*
+]
+interface
 DOMApplication
 {
 }
