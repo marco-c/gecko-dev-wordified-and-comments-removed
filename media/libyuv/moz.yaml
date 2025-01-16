@@ -346,3 +346,7 @@ patch
 04_fix_loongarch64_link_failed
 .
 patch
+-
+05_disable_sme
+.
+patch
