@@ -732,6 +732,10 @@ afterWaitCallback
 (
 nullptr
 )
+offthreadBaselineCompilationEnabled_
+(
+false
+)
 offthreadIonCompilationEnabled_
 (
 true
