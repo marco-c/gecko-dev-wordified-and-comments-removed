@@ -714,6 +714,11 @@ UrlbarUtils
 RESULT_SOURCE
 .
 SEARCH
+|
+|
+queryContext
+.
+searchMode
 )
 {
 result
