@@ -7,6 +7,10 @@ common_video
 "
 "
 +
+json
+"
+"
++
 logging
 /
 rtc_event_log
