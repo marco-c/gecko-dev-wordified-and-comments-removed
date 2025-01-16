@@ -390,11 +390,6 @@ StringContents
 \
 _
 (
-ObjectElements
-)
-\
-_
-(
 ScriptPrivateData
 )
 \
