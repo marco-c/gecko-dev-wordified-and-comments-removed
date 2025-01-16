@@ -2079,6 +2079,11 @@ Addon
 scope
 .
 launch
+(
+Dispatchers
+.
+Main
+)
 {
 if
 (
