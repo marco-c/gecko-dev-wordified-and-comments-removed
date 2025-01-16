@@ -12951,9 +12951,15 @@ getSwipeRefreshLayout
 (
 )
 .
+apply
+{
 translationY
 =
 0f
+requestLayout
+(
+)
+}
 getEngineView
 (
 )
