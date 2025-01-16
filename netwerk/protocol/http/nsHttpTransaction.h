@@ -2263,6 +2263,9 @@ mHashKeyOfConnectionEntry
 nsCString
 mCname
 ;
+nsCString
+mServerHeader
+;
 nsCOMPtr
 <
 WebTransportSessionEventListener
