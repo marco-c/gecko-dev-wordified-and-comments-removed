@@ -159,7 +159,6 @@ HttpVersion
 Version
 (
 )
-const
 ;
 uint16_t
 Status
