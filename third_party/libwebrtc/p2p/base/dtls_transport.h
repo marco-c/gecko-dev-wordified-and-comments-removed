@@ -626,8 +626,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 &
 keying_material
