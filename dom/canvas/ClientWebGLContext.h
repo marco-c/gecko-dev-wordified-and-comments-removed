@@ -903,7 +903,10 @@ WebGLChild
 >
 outOfProcess
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 HostWebGLContext
 >

@@ -58,15 +58,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
@@ -5894,7 +5885,10 @@ this
 )
 ;
 {
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 gl
 :

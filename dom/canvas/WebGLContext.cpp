@@ -2780,7 +2780,10 @@ mResetLayer
 true
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 webgl
 :

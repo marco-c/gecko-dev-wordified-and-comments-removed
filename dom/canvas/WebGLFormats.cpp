@@ -6780,7 +6780,10 @@ format
 #
 endif
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 FormatUsageAuthority
 >
@@ -6797,7 +6800,10 @@ GLContext
 gl
 )
 {
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 FormatUsageAuthority
 >
@@ -7087,7 +7093,10 @@ return
 ret
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 FormatUsageAuthority
 >
@@ -7104,7 +7113,10 @@ GLContext
 gl
 )
 {
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 FormatUsageAuthority
 >

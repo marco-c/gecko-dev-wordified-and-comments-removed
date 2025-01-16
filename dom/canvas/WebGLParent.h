@@ -704,7 +704,10 @@ RemoteTextureTxnId
 aTxnId
 )
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 HostWebGLContext
 >
