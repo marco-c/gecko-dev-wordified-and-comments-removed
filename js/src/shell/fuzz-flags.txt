@@ -491,6 +491,15 @@ monomorphic
 inlining
 =
 never
+-
+-
+disable
+-
+main
+-
+thread
+-
+denormals
 #
 GC
 -
