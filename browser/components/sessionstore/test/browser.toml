@@ -1737,6 +1737,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_restore
+.
+js
+"
+]
+[
+"
 browser_sessionHistory
 .
 js
