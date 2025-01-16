@@ -344,7 +344,7 @@ if
 moz_webrtc_build
 )
 {
-public_deps
+deps
 -
 =
 [
