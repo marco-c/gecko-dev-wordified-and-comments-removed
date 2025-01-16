@@ -345,19 +345,11 @@ v
 -
 verbose
 "
-dest
-=
-"
-verbose
-"
 action
 =
 "
 store_true
 "
-default
-=
-False
         
 help
 =
@@ -446,9 +438,6 @@ action
 "
 store_true
 "
-default
-=
-False
         
 help
 =
@@ -475,11 +464,6 @@ add_argument
 url
 -
 base
-"
-action
-=
-"
-store
 "
 default
 =
@@ -529,9 +513,6 @@ action
 "
 store_false
 "
-default
-=
-True
         
 help
 =
@@ -557,11 +538,6 @@ add_argument
 cache
 -
 root
-"
-action
-=
-"
-store
 "
 default
 =
@@ -623,9 +599,6 @@ action
 "
 store_false
 "
-default
-=
-True
         
 help
 =

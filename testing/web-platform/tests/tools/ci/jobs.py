@@ -917,9 +917,12 @@ add_argument
 "
 revish
 "
-default
+nargs
 =
-None
+"
+?
+"
+                        
 help
 =
 "
@@ -936,11 +939,6 @@ the
 current
 branch
 "
-nargs
-=
-"
-?
-"
 )
     
 parser
@@ -952,6 +950,12 @@ add_argument
 -
 all
 "
+action
+=
+"
+store_true
+"
+                        
 help
 =
 "
@@ -960,11 +964,6 @@ all
 jobs
 unconditionally
 .
-"
-action
-=
-"
-store_true
 "
 )
     
@@ -977,9 +976,12 @@ add_argument
 -
 includes
 "
-default
+nargs
 =
-None
+"
+*
+"
+                        
 help
 =
 "
@@ -1000,11 +1002,6 @@ found
 otherwise
 1
 "
-nargs
-=
-"
-*
-"
 )
     
 parser
@@ -1021,6 +1018,7 @@ action
 "
 store_true
 "
+                        
 help
 =
 "

@@ -2529,9 +2529,12 @@ add_argument
 "
 revish
 "
-default
+nargs
 =
-None
+"
+?
+"
+                        
 help
 =
 "
@@ -2550,11 +2553,6 @@ on
 the
 current
 branch
-"
-nargs
-=
-"
-?
 "
 )
     
@@ -2823,12 +2821,6 @@ dest
 =
 "
 metadata_root
-"
-                        
-action
-=
-"
-store
 "
                         
 default

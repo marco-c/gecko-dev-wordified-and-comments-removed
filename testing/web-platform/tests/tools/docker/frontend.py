@@ -127,11 +127,6 @@ add_argument
 -
 tag
 "
-action
-=
-"
-store
-"
                         
 help
 =
@@ -803,11 +798,6 @@ add_argument
 -
 checkout
 "
-action
-=
-"
-store
-"
                         
 help
 =
@@ -893,11 +883,6 @@ add_argument
 -
 -
 tag
-"
-action
-=
-"
-store
 "
 default
 =

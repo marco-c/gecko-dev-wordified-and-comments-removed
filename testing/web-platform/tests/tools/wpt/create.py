@@ -228,11 +228,6 @@ e
 -
 editor
 "
-action
-=
-"
-store
-"
 help
 =
 "
@@ -444,11 +439,6 @@ tests
 -
 root
 "
-action
-=
-"
-store
-"
 default
 =
 os
@@ -488,11 +478,6 @@ add_argument
 (
 "
 path
-"
-action
-=
-"
-store
 "
 help
 =

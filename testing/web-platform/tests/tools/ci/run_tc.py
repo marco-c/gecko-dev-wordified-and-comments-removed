@@ -563,10 +563,6 @@ action
 store_true
 "
                    
-default
-=
-False
-                   
 help
 =
 "
@@ -698,10 +694,6 @@ add_argument
 -
 channel
 "
-                   
-default
-=
-None
                    
 choices
 =

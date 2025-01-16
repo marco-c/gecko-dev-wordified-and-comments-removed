@@ -365,14 +365,6 @@ dest
 "
 dest
 "
-action
-=
-"
-store
-"
-default
-=
-None
                         
 help
 =
@@ -401,9 +393,6 @@ action
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -499,14 +488,6 @@ device
 -
 serial
 "
-action
-=
-"
-store
-"
-default
-=
-None
                         
 help
 =

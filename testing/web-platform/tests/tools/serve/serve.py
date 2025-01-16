@@ -10530,11 +10530,6 @@ add_argument
 -
 config
 "
-action
-=
-"
-store
-"
 dest
 =
 "
@@ -10561,17 +10556,6 @@ add_argument
 -
 doc_root
 "
-action
-=
-"
-store
-"
-dest
-=
-"
-doc_root
-"
-                        
 help
 =
 "
@@ -10593,16 +10577,6 @@ add_argument
 "
 -
 -
-ws_doc_root
-"
-action
-=
-"
-store
-"
-dest
-=
-"
 ws_doc_root
 "
                         
@@ -10634,11 +10608,6 @@ action
 =
 "
 append
-"
-dest
-=
-"
-ws_extra
 "
 default
 =
@@ -10673,9 +10642,6 @@ inject
 -
 script
 "
-default
-=
-None
                         
 help
 =
@@ -10701,16 +10667,6 @@ add_argument
 "
 -
 -
-alias_file
-"
-action
-=
-"
-store
-"
-dest
-=
-"
 alias_file
 "
                         
@@ -10753,11 +10709,6 @@ action
 =
 "
 store_true
-"
-dest
-=
-"
-h2
 "
 default
 =
@@ -10857,6 +10808,7 @@ action
 "
 store_true
 "
+                        
 help
 =
 "

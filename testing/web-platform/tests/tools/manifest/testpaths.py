@@ -152,9 +152,6 @@ root
 type
 =
 abs_path
-default
-=
-None
 help
 =
 "
@@ -219,9 +216,6 @@ action
 "
 store_false
 "
-default
-=
-True
         
 help
 =
@@ -255,9 +249,6 @@ action
 "
 store_true
 "
-default
-=
-False
         
 help
 =
@@ -284,11 +275,6 @@ add_argument
 url
 -
 base
-"
-action
-=
-"
-store
 "
 default
 =
@@ -327,11 +313,6 @@ add_argument
 cache
 -
 root
-"
-action
-=
-"
-store
 "
 default
 =
@@ -386,9 +367,6 @@ action
 "
 store_true
 "
-default
-=
-False
         
 help
 =
@@ -406,11 +384,6 @@ add_argument
         
 "
 test_ids
-"
-action
-=
-"
-store
 "
 nargs
 =

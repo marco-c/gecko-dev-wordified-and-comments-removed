@@ -425,17 +425,9 @@ timeout
 -
 multiplier
 "
-action
-=
-"
-store
-"
 type
 =
 float
-default
-=
-None
                         
 help
 =
@@ -570,17 +562,9 @@ add_argument
 -
 processes
 "
-action
-=
-"
-store
-"
 type
 =
 int
-default
-=
-None
                         
 help
 =
@@ -604,11 +588,6 @@ add_argument
 max
 -
 restarts
-"
-action
-=
-"
-store
 "
 type
 =
@@ -647,9 +626,6 @@ action
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -686,10 +662,6 @@ action
 "
 store_false
 "
-                        
-default
-=
-True
                         
 dest
 =
@@ -736,10 +708,6 @@ action
 store_false
 "
                         
-default
-=
-True
-                        
 dest
 =
 "
@@ -785,10 +753,6 @@ action
 "
 store_false
 "
-                        
-default
-=
-True
                         
 dest
 =
@@ -844,10 +808,6 @@ action
 store_true
 "
                             
-default
-=
-False
-                            
 help
 =
 "
@@ -882,10 +842,6 @@ action
 store_true
 "
                             
-default
-=
-False
-                            
 help
 =
 "
@@ -918,10 +874,6 @@ action
 "
 store_true
 "
-                            
-default
-=
-False
                             
 help
 =
@@ -958,10 +910,6 @@ action
 store_true
 "
                                  
-default
-=
-False
-                                 
 help
 =
 "
@@ -991,10 +939,6 @@ action
 store_true
 "
                                  
-default
-=
-False
-                                 
 help
 =
 argparse
@@ -1020,10 +964,6 @@ action
 "
 store_true
 "
-                            
-default
-=
-False
                             
 help
 =
@@ -1053,12 +993,6 @@ repeat
 -
 loop
 "
-action
-=
-"
-store
-"
-                            
 default
 =
 10
@@ -1099,12 +1033,6 @@ repeat
 -
 restart
 "
-action
-=
-"
-store
-"
-                            
 default
 =
 5
@@ -1161,10 +1089,6 @@ action
 store_false
 "
                                   
-default
-=
-True
-                                  
 dest
 =
 "
@@ -1207,12 +1131,6 @@ default
 =
 True
                                   
-dest
-=
-"
-verify_chaos_mode
-"
-                                  
 help
 =
 "
@@ -1239,15 +1157,6 @@ max
 -
 time
 "
-action
-=
-"
-store
-"
-                            
-default
-=
-None
                             
 help
 =
@@ -1293,12 +1202,6 @@ max
 -
 time
 "
-action
-=
-"
-store
-"
-                            
 default
 =
 100
@@ -1361,10 +1264,6 @@ dest
 verify_output_results
 "
                                       
-default
-=
-True
-                                      
 help
 =
 "
@@ -1394,12 +1293,6 @@ action
 =
 "
 store_true
-"
-                                      
-dest
-=
-"
-verify_output_results
 "
                                       
 default
@@ -1442,12 +1335,6 @@ test
 -
 types
 "
-action
-=
-"
-store
-"
-                                      
 nargs
 =
 "
@@ -1485,11 +1372,6 @@ add_argument
 subsuite
 -
 file
-"
-action
-=
-"
-store
 "
                                       
 help
@@ -1634,11 +1516,6 @@ include
 -
 file
 "
-action
-=
-"
-store
-"
                                       
 help
 =
@@ -1688,11 +1565,6 @@ add_argument
 exclude
 -
 file
-"
-action
-=
-"
-store
 "
                                       
 help
@@ -1907,12 +1779,6 @@ action
 store_true
 "
                                       
-dest
-=
-"
-enable_webtransport_h3
-"
-                                      
 default
 =
 True
@@ -2106,10 +1972,6 @@ action
 store_true
 "
                                       
-default
-=
-False
-                                      
 help
 =
 "
@@ -2228,11 +2090,6 @@ add_argument
 -
 rerun
 "
-action
-=
-"
-store
-"
 type
 =
 int
@@ -2264,11 +2121,6 @@ add_argument
 -
 -
 repeat
-"
-action
-=
-"
-store
 "
 type
 =
@@ -2501,11 +2353,6 @@ debug
 -
 test
 '
-dest
-=
-"
-debug_test
-"
 action
 =
 "
@@ -2581,9 +2428,6 @@ dest
 restart_on_unexpected
 "
                                  
-default
-=
-True
 action
 =
 "
@@ -2614,11 +2458,6 @@ add_argument
 symbols
 -
 path
-"
-action
-=
-"
-store
 "
 type
 =
@@ -2652,11 +2491,6 @@ add_argument
 stackwalk
 -
 binary
-"
-action
-=
-"
-store
 "
 type
 =
@@ -2714,11 +2548,6 @@ add_argument
 leak
 -
 check
-"
-dest
-=
-"
-leak_check
 "
 action
 =
@@ -2824,12 +2653,6 @@ adb
 -
 binary
 "
-action
-=
-"
-store
-"
-                        
 help
 =
 "
@@ -2853,12 +2676,7 @@ package
 -
 name
 "
-action
-=
-"
-store
-"
-                        
+                               
 help
 =
 "
@@ -2965,15 +2783,10 @@ add_argument
 -
 binary
 "
-action
-=
-"
-store
-"
-                              
 type
 =
 abs_path
+                              
 help
 =
 "
@@ -3034,11 +2847,6 @@ add_argument
 webdriver
 -
 binary
-"
-action
-=
-"
-store
 "
 metavar
 =
@@ -3108,11 +2916,6 @@ add_argument
 -
 metadata
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -3144,11 +2947,6 @@ add_argument
 -
 tests
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -3179,11 +2977,6 @@ add_argument
 -
 -
 manifest
-"
-action
-=
-"
-store
 "
 type
 =
@@ -3226,11 +3019,6 @@ run
 -
 info
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -3262,18 +3050,10 @@ add_argument
 -
 product
 "
-action
-=
-"
-store
-"
 choices
 =
 product_choices
                               
-default
-=
-None
 help
 =
 "
@@ -3297,15 +3077,7 @@ browser
 -
 version
 "
-action
-=
-"
-store
-"
                               
-default
-=
-None
 help
 =
 "
@@ -3342,15 +3114,7 @@ browser
 -
 channel
 "
-action
-=
-"
-store
-"
                               
-default
-=
-None
 help
 =
 "
@@ -3385,20 +3149,9 @@ add_argument
 -
 config
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
-dest
-=
-"
-config
-"
-                              
 help
 =
 "
@@ -3493,19 +3246,9 @@ font
 -
 dir
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
-dest
-=
-"
-font_dir
-"
                               
 help
 =
@@ -3517,9 +3260,6 @@ font
 installation
 directory
 "
-default
-=
-None
 )
     
 config_group
@@ -3533,19 +3273,6 @@ inject
 -
 script
 "
-action
-=
-"
-store
-"
-dest
-=
-"
-inject_script
-"
-default
-=
-None
                               
 help
 =
@@ -3641,11 +3368,6 @@ instrument
 to
 -
 file
-"
-action
-=
-"
-store
 "
                               
 help
@@ -3755,15 +3477,6 @@ action
 =
 "
 append
-"
-default
-=
-None
-                              
-dest
-=
-"
-ws_extra
 "
                               
 help
@@ -3893,11 +3606,6 @@ total
 -
 chunks
 "
-action
-=
-"
-store
-"
 type
 =
 int
@@ -3928,11 +3636,6 @@ this
 -
 chunk
 "
-action
-=
-"
-store
-"
 type
 =
 int
@@ -3961,12 +3664,6 @@ chunk
 -
 type
 "
-action
-=
-"
-store
-"
-                                
 choices
 =
 [
@@ -3984,9 +3681,6 @@ dir_hash
 "
 ]
                                 
-default
-=
-None
 help
 =
 "
@@ -4021,15 +3715,6 @@ ssl
 -
 type
 "
-action
-=
-"
-store
-"
-default
-=
-None
-                           
 choices
 =
 [
@@ -4077,10 +3762,10 @@ openssl
 -
 binary
 "
-action
+default
 =
 "
-store
+openssl
 "
                            
 help
@@ -4090,11 +3775,6 @@ Path
 to
 openssl
 binary
-"
-default
-=
-"
-openssl
 "
 )
     
@@ -4108,11 +3788,6 @@ add_argument
 certutil
 -
 binary
-"
-action
-=
-"
-store
 "
                            
 help
@@ -4143,11 +3818,6 @@ ca
 cert
 -
 path
-"
-action
-=
-"
-store
 "
 type
 =
@@ -4181,11 +3851,6 @@ key
 -
 path
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -4218,11 +3883,6 @@ host
 cert
 -
 path
-"
-action
-=
-"
-store
 "
 type
 =
@@ -4267,16 +3927,6 @@ prefs
 -
 root
 "
-dest
-=
-"
-prefs_root
-"
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -4304,11 +3954,6 @@ add_argument
 preload
 -
 browser
-"
-dest
-=
-"
-preload_browser
 "
 action
 =
@@ -4396,9 +4041,6 @@ action
 "
 store_false
 "
-default
-=
-True
                              
 help
 =
@@ -4422,19 +4064,11 @@ disable
 -
 fission
 "
-dest
-=
-"
-disable_fission
-"
 action
 =
 "
 store_true
 "
-default
-=
-False
                              
 help
 =
@@ -4457,16 +4091,6 @@ add_argument
 stackfix
 -
 dir
-"
-dest
-=
-"
-stackfix_dir
-"
-action
-=
-"
-store
 "
                              
 help
@@ -4493,11 +4117,6 @@ add_argument
 specialpowers
 -
 path
-"
-action
-=
-"
-store
 "
                              
 help
@@ -4572,11 +4191,6 @@ reftest
 -
 internal
 "
-dest
-=
-"
-reftest_internal
-"
 action
 =
 "
@@ -4643,17 +4257,6 @@ reftest
 -
 screenshot
 "
-dest
-=
-"
-reftest_screenshot
-"
-action
-=
-"
-store
-"
-                             
 choices
 =
 [
@@ -4667,9 +4270,6 @@ fail
 unexpected
 "
 ]
-default
-=
-None
                              
 help
 =
@@ -4702,12 +4302,6 @@ dest
 "
 chaos_mode_flags
 "
-action
-=
-"
-store
-"
-                             
 nargs
 =
 "
@@ -4916,10 +4510,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                             
+                              
 help
 =
 "
@@ -5035,10 +4626,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                             
+                              
 help
 =
 "
@@ -5056,7 +4644,7 @@ can
 be
 used
 "
-                             
+                              
 "
 in
 environments
@@ -5084,11 +4672,6 @@ action
 =
 "
 store_true
-"
-dest
-=
-"
-enable_experimental
 "
                               
 help
@@ -5298,12 +4881,6 @@ sauce
 -
 browser
 "
-dest
-=
-"
-sauce_browser
-"
-                             
 help
 =
 "
@@ -5325,12 +4902,6 @@ sauce
 -
 platform
 "
-dest
-=
-"
-sauce_platform
-"
-                             
 help
 =
 "
@@ -5352,12 +4923,6 @@ sauce
 -
 version
 "
-dest
-=
-"
-sauce_version
-"
-                             
 help
 =
 "
@@ -5379,12 +4944,6 @@ sauce
 -
 build
 "
-dest
-=
-"
-sauce_build
-"
-                             
 help
 =
 "
@@ -5405,11 +4964,6 @@ add_argument
 sauce
 -
 tags
-"
-dest
-=
-"
-sauce_tags
 "
 nargs
 =
@@ -5444,11 +4998,6 @@ tunnel
 -
 id
 "
-dest
-=
-"
-sauce_tunnel_id
-"
                              
 help
 =
@@ -5471,12 +5020,6 @@ sauce
 -
 user
 "
-dest
-=
-"
-sauce_user
-"
-                             
 help
 =
 "
@@ -5498,12 +5041,6 @@ sauce
 -
 key
 "
-dest
-=
-"
-sauce_key
-"
-                             
 default
 =
 os
@@ -5541,12 +5078,6 @@ connect
 binary
 "
                              
-dest
-=
-"
-sauce_connect_binary
-"
-                             
 help
 =
 "
@@ -5571,12 +5102,6 @@ init
 -
 timeout
 "
-action
-=
-"
-store
-"
-                             
 type
 =
 int
@@ -5731,12 +5256,6 @@ webkit
 -
 port
 "
-dest
-=
-"
-webkit_port
-"
-                              
 help
 =
 "
@@ -5769,19 +5288,11 @@ kill
 -
 safari
 "
-dest
-=
-"
-kill_safari
-"
 action
 =
 "
 store_true
 "
-default
-=
-False
                               
 help
 =
@@ -8476,11 +7987,6 @@ add_argument
 -
 product
 "
-action
-=
-"
-store
-"
 choices
 =
 product_choices
@@ -8506,11 +8012,6 @@ add_argument
 -
 config
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -8532,11 +8033,6 @@ add_argument
 -
 -
 metadata
-"
-action
-=
-"
-store
 "
 type
 =
@@ -8569,11 +8065,6 @@ add_argument
 -
 tests
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -8604,11 +8095,6 @@ add_argument
 -
 -
 manifest
-"
-action
-=
-"
-store
 "
 type
 =
@@ -8654,9 +8140,6 @@ action
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -8693,20 +8176,12 @@ nargs
 "
 ?
 "
-action
-=
-"
-store
-"
 const
 =
 "
 unstable
 "
-default
-=
-None
-        
+                        
 help
 =
 (
@@ -8725,7 +8200,7 @@ tests
 that
 have
 "
-              
+                              
 "
 inconsistent
 results
@@ -8757,9 +8232,6 @@ action
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -8791,9 +8263,6 @@ action
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -8832,9 +8301,6 @@ dest
 "
 remove_obsolete
 "
-default
-=
-True
                         
 help
 =
@@ -9077,11 +8543,6 @@ sync
 -
 path
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -9114,11 +8575,6 @@ add_argument
 -
 remote_url
 "
-action
-=
-"
-store
-"
                         
 help
 =
@@ -9146,11 +8602,6 @@ add_argument
 -
 branch
 "
-action
-=
-"
-store
-"
 type
 =
 abs_path
@@ -9175,11 +8626,6 @@ add_argument
 -
 rev
 "
-action
-=
-"
-store
-"
 help
 =
 "
@@ -9203,11 +8649,6 @@ action
 =
 "
 store_true
-"
-dest
-=
-"
-patch
 "
 default
 =
@@ -9275,19 +8716,11 @@ add_argument
 -
 sync
 "
-dest
-=
-"
-sync
-"
 action
 =
 "
 store_true
 "
-default
-=
-False
                         
 help
 =
@@ -9420,11 +8853,6 @@ add_argument
 -
 exclude
 "
-action
-=
-"
-store
-"
 nargs
 =
 "
@@ -9456,11 +8884,6 @@ add_argument
 -
 -
 include
-"
-action
-=
-"
-store
 "
 nargs
 =
@@ -9514,11 +8937,6 @@ add_argument
 (
 "
 target
-"
-action
-=
-"
-store
 "
 help
 =
