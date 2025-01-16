@@ -15135,6 +15135,8 @@ WidgetQueryContentEvent
 aEvent
 bool
 aFlushLayout
+bool
+aPerformRetargeting
 Element
 *
 *
@@ -15307,6 +15309,7 @@ ViewportType
 :
 :
 Visual
+aPerformRetargeting
 )
 ;
 contentUnderMouse
@@ -15353,6 +15356,7 @@ rv
 QueryHittestImpl
 (
 aEvent
+true
 true
 getter_AddRefs
 (
@@ -15452,6 +15456,7 @@ QueryHittestImpl
 (
 aEvent
 true
+false
 getter_AddRefs
 (
 contentUnderMouse
