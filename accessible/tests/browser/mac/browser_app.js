@@ -729,7 +729,7 @@ length
 let
 baseRootChildCount
 =
-5
+6
 ;
 is
 (
@@ -737,15 +737,15 @@ rootChildCount
 (
 )
 baseRootChildCount
-"
 Root
 with
 no
 popups
 has
-5
+{
+baseRootChildCount
+}
 children
-"
 )
 ;
 const
