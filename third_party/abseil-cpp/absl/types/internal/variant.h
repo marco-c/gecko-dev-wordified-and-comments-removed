@@ -6943,7 +6943,7 @@ absl
 internal
 :
 :
-identity
+type_identity
 ;
 template
 <
@@ -6996,7 +6996,7 @@ Ts
 >
 ;
 static
-identity
+type_identity
 <
 T
 >

@@ -210,11 +210,11 @@ KOKORO_GFILE_BAZEL_BIN
 "
 bazel
 -
-5
+7
 .
-1
+0
 .
-1
+0
 -
 darwin
 -
@@ -504,6 +504,12 @@ c
 +
 14
 "
+\
+-
+-
+enable_bzlmod
+=
+false
 \
 -
 -

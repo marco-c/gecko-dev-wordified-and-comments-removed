@@ -2140,6 +2140,10 @@ base_internal
 "
 "
 :
+no_destructor
+"
+"
+:
 raw_logging_internal
 "
 "

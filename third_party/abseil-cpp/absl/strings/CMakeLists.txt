@@ -204,6 +204,13 @@ string_constant
 h
 "
 "
+internal
+/
+has_absl_stringify
+.
+h
+"
+"
 match
 .
 h

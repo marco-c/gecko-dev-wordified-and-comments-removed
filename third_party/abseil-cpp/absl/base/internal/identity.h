@@ -28,7 +28,7 @@ typename
 T
 >
 struct
-identity
+type_identity
 {
 typedef
 T
@@ -42,10 +42,10 @@ typename
 T
 >
 using
-identity_t
+type_identity_t
 =
 typename
-identity
+type_identity
 <
 T
 >

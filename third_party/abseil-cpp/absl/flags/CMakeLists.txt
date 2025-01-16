@@ -648,12 +648,6 @@ absl_cc_library
 (
 NAME
 flags
-SRCS
-"
-flag
-.
-cc
-"
 HDRS
 "
 declare
@@ -664,13 +658,6 @@ h
 flag
 .
 h
-"
-"
-internal
-/
-flag_msvc
-.
-inc
 "
 COPTS
 {

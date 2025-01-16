@@ -429,8 +429,6 @@ Asia
 /
 Dubai
 Crozet
-Scattered
-Is
 AF
 +
 3431
@@ -509,6 +507,15 @@ Antarctica
 /
 Troll
 Troll
+AQ
+-
+7824
++
+10654
+Antarctica
+/
+Vostok
+Vostok
 AR
 -
 3436
@@ -606,7 +613,6 @@ Catamarca
 (
 CT
 )
-;
 Chubut
 (
 CH
@@ -940,7 +946,6 @@ Par
 (
 east
 )
-;
 Amap
 BR
 -
@@ -1138,10 +1143,9 @@ America
 /
 St_Johns
 Newfoundland
-;
 Labrador
 (
-southeast
+SE
 )
 CA
 +
@@ -1158,7 +1162,6 @@ NS
 most
 areas
 )
-;
 PE
 CA
 +
@@ -1214,6 +1217,7 @@ Toronto
 Eastern
 -
 ON
+&
 QC
 (
 most
@@ -1248,7 +1252,6 @@ ON
 (
 west
 )
-;
 Manitoba
 CA
 +
@@ -1318,17 +1321,14 @@ Edmonton
 Mountain
 -
 AB
-;
 BC
 (
 E
 )
-;
 NT
 (
 E
 )
-;
 SK
 (
 W
@@ -1519,7 +1519,6 @@ Shanghai
 Beijing
 Time
 CN
-AQ
 +
 4348
 +
@@ -1529,7 +1528,6 @@ Asia
 Urumqi
 Xinjiang
 Time
-Vostok
 CO
 +
 0436
@@ -1956,14 +1954,12 @@ Borneo
 east
 south
 )
-;
 Sulawesi
 /
 Celebes
 Bali
 Nusa
 Tengarra
-;
 Timor
 (
 west
@@ -1985,7 +1981,6 @@ Papua
 Irian
 Jaya
 )
-;
 Malukus
 /
 Moluccas
@@ -2846,6 +2841,13 @@ America
 /
 Puerto_Rico
 AST
+-
+QC
+(
+Lower
+North
+Shore
+)
 PS
 +
 3130
@@ -3294,7 +3296,6 @@ Sakha
 (
 E
 )
-;
 N
 Kuril
 Is
@@ -3808,7 +3809,6 @@ ID
 (
 south
 )
-;
 OR
 (
 east

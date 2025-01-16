@@ -176,6 +176,10 @@ ZONETABLES
 zone1970
 .
 tab
+\
+zonenow
+.
+tab
 tar
 -
 -

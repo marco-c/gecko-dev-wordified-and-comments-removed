@@ -1299,6 +1299,10 @@ container_memory
 absl
 :
 :
+no_destructor
+absl
+:
+:
 strings
 absl
 :
@@ -1453,6 +1457,10 @@ absl
 :
 :
 meta
+absl
+:
+:
+no_destructor
 absl
 :
 :

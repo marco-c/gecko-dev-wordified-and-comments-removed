@@ -6,6 +6,11 @@ define
 ABSL_TIME_CLOCK_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /

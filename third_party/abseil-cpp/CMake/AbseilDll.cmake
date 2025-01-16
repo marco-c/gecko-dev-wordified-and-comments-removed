@@ -2576,6 +2576,15 @@ cc
 "
 strings
 /
+internal
+/
+has_absl_stringify
+.
+h
+"
+"
+strings
+/
 has_absl_stringify
 .
 h

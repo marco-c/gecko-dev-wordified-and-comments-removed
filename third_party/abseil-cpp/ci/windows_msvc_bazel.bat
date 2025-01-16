@@ -379,11 +379,11 @@ KOKORO_GFILE_DIR
 \
 bazel
 -
-5
+7
 .
-1
+0
 .
-1
+0
 -
 windows
 -
@@ -442,9 +442,9 @@ distdir
 ^
 -
 -
-features
+enable_bzlmod
 =
-external_include_paths
+false
 ^
 -
 -
