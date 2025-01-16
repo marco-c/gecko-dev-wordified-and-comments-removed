@@ -39,12 +39,22 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+from
+.
+.
+executors
+.
 executorservodriver
 import
 (
 ServoWebDriverTestharnessExecutor
                                              
 ServoWebDriverRefTestExecutor
+                                             
+ServoWebDriverCrashtestExecutor
 )
 here
 =
@@ -104,6 +114,22 @@ reftest
 :
 "
 ServoWebDriverRefTestExecutor
+"
+        
+"
+crashtest
+"
+:
+"
+ServoWebDriverCrashtestExecutor
+"
+        
+"
+wdspec
+"
+:
+"
+WdspecExecutor
 "
     
 }
