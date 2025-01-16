@@ -462,7 +462,7 @@ next
 MOZ_ASSERT
 (
 !
-CurrentThreadIsIonCompiling
+CurrentThreadIsOffThreadCompiling
 (
 )
 )

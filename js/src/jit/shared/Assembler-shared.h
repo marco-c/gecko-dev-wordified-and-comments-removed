@@ -1228,7 +1228,7 @@ isTenured
 (
 )
 !
-CurrentThreadIsIonCompiling
+CurrentThreadIsOffThreadCompiling
 (
 )
 )

@@ -26416,14 +26416,14 @@ assertNoGCThings
 }
 ;
 class
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 :
 public
 MacroAssembler
 {
 public
 :
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 (
 TempAllocator
 &
