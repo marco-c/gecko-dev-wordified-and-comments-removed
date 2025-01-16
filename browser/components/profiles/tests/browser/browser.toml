@@ -104,13 +104,6 @@ js
 ]
 [
 "
-browser_empty_name_beforeunload_test
-.
-js
-"
-]
-[
-"
 browser_menubar_profiles
 .
 js
