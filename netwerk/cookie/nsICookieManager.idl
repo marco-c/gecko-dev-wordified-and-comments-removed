@@ -460,5 +460,13 @@ nsIThirdPartyCookieExceptionEntry
 aExceptions
 )
 ;
+Array
+<
+ACString
+>
+testGet3PCBExceptions
+(
+)
+;
 }
 ;
