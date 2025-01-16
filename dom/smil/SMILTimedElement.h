@@ -158,6 +158,17 @@ dom
 :
 Element
 ;
+using
+DiscardArray
+=
+nsTObserverArray
+<
+RefPtr
+<
+Element
+>
+>
+;
 void
 SetAnimationElement
 (
@@ -277,6 +288,9 @@ SampleAt
 (
 SMILTime
 aContainerTime
+DiscardArray
+&
+aDiscards
 )
 ;
 void
@@ -284,6 +298,9 @@ SampleEndAt
 (
 SMILTime
 aContainerTime
+DiscardArray
+&
+aDiscards
 )
 ;
 void
@@ -693,6 +710,9 @@ DoSampleAt
 (
 SMILTime
 aContainerTime
+DiscardArray
+&
+aDiscards
 bool
 aEndOnly
 )

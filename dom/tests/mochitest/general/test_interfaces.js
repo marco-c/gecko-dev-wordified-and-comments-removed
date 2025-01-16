@@ -6228,6 +6228,16 @@ true
 name
 :
 "
+SVGDiscardElement
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 SVGElement
 "
 insecureContext
