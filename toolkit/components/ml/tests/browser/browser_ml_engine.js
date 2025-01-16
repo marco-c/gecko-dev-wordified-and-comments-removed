@@ -3378,6 +3378,9 @@ IDLING
 options
 :
 {
+useExternalDataFormat
+:
+false
 engineId
 :
 "
