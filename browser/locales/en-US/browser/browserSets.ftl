@@ -1051,6 +1051,14 @@ shortcut
 key
 =
 Q
+help
+-
+shortcut
+=
+.
+key
+=
+?
 preferences
 -
 shortcut
