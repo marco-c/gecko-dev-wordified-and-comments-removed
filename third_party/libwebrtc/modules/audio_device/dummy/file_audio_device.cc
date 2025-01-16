@@ -222,7 +222,6 @@ AudioDeviceModule
 :
 AudioLayer
 &
-audioLayer
 )
 const
 {
@@ -515,7 +514,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 {
 return
@@ -564,7 +562,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 {
 return
@@ -1422,7 +1419,6 @@ SpeakerVolumeIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -1437,7 +1433,6 @@ FileAudioDevice
 SetSpeakerVolume
 (
 uint32_t
-volume
 )
 {
 return
@@ -1453,7 +1448,6 @@ SpeakerVolume
 (
 uint32_t
 &
-volume
 )
 const
 {
@@ -1470,7 +1464,6 @@ MaxSpeakerVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 {
@@ -1487,7 +1480,6 @@ MinSpeakerVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 {
@@ -1504,7 +1496,6 @@ MicrophoneVolumeIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -1519,7 +1510,6 @@ FileAudioDevice
 SetMicrophoneVolume
 (
 uint32_t
-volume
 )
 {
 return
@@ -1535,7 +1525,6 @@ MicrophoneVolume
 (
 uint32_t
 &
-volume
 )
 const
 {
@@ -1552,7 +1541,6 @@ MaxMicrophoneVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 {
@@ -1569,7 +1557,6 @@ MinMicrophoneVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 {
@@ -1586,7 +1573,6 @@ SpeakerMuteIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -1601,7 +1587,6 @@ FileAudioDevice
 SetSpeakerMute
 (
 bool
-enable
 )
 {
 return
@@ -1617,7 +1602,6 @@ SpeakerMute
 (
 bool
 &
-enabled
 )
 const
 {
@@ -1634,7 +1618,6 @@ MicrophoneMuteIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -1649,7 +1632,6 @@ FileAudioDevice
 SetMicrophoneMute
 (
 bool
-enable
 )
 {
 return
@@ -1665,7 +1647,6 @@ MicrophoneMute
 (
 bool
 &
-enabled
 )
 const
 {

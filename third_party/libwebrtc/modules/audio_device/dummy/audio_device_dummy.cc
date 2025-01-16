@@ -25,7 +25,6 @@ AudioDeviceModule
 :
 AudioLayer
 &
-audioLayer
 )
 const
 {
@@ -110,14 +109,11 @@ AudioDeviceDummy
 PlayoutDeviceName
 (
 uint16_t
-index
 char
-name
 [
 kAdmMaxDeviceNameSize
 ]
 char
-guid
 [
 kAdmMaxGuidSize
 ]
@@ -135,14 +131,11 @@ AudioDeviceDummy
 RecordingDeviceName
 (
 uint16_t
-index
 char
-name
 [
 kAdmMaxDeviceNameSize
 ]
 char
-guid
 [
 kAdmMaxGuidSize
 ]
@@ -160,7 +153,6 @@ AudioDeviceDummy
 SetPlayoutDevice
 (
 uint16_t
-index
 )
 {
 return
@@ -178,7 +170,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 {
 return
@@ -193,7 +184,6 @@ AudioDeviceDummy
 SetRecordingDevice
 (
 uint16_t
-index
 )
 {
 return
@@ -211,7 +201,6 @@ AudioDeviceModule
 :
 :
 WindowsDeviceType
-device
 )
 {
 return
@@ -227,7 +216,6 @@ PlayoutIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -269,7 +257,6 @@ RecordingIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -439,7 +426,6 @@ SpeakerVolumeIsAvailable
 (
 bool
 &
-available
 )
 {
 return
@@ -454,7 +440,6 @@ AudioDeviceDummy
 SetSpeakerVolume
 (
 uint32_t
-volume
 )
 {
 return
@@ -470,7 +455,6 @@ SpeakerVolume
 (
 uint32_t
 &
-volume
 )
 const
 {
@@ -487,7 +471,6 @@ MaxSpeakerVolume
 (
 uint32_t
 &
-maxVolume
 )
 const
 {
@@ -504,7 +487,6 @@ MinSpeakerVolume
 (
 uint32_t
 &
-minVolume
 )
 const
 {
@@ -521,7 +503,6 @@ MicrophoneVolumeIsAvailable
 (
 bool
 &
-available
 )
 {
 return
