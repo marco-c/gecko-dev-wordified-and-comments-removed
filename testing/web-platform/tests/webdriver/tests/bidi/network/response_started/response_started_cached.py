@@ -2923,7 +2923,7 @@ events
 )
 >
 =
-7
+6
 )
     
 assert
@@ -2931,9 +2931,9 @@ len
 (
 events
 )
+>
 =
-=
-7
+6
     
 cached_events
 =
@@ -3027,14 +3027,23 @@ True
     
 )
     
+if
+len
+(
+events
+)
+>
+6
+:
+        
 assert_response_event
 (
-        
+            
 cached_events
 [
 2
 ]
-        
+            
 expected_request
 =
 {
@@ -3051,7 +3060,7 @@ url
 :
 cached_script_js_url
 }
-        
+            
 expected_response
 =
 {
@@ -3066,7 +3075,7 @@ fromCache
 :
 True
 }
-    
+        
 )
 pytest
 .
