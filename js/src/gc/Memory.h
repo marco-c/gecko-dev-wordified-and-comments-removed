@@ -88,6 +88,11 @@ DecommitEnabled
 (
 )
 ;
+void
+DisableDecommit
+(
+)
+;
 bool
 MarkPagesUnusedSoft
 (
