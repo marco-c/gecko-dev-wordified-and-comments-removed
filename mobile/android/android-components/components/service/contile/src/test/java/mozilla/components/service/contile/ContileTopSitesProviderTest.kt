@@ -743,8 +743,6 @@ readFromDiskCache
 .
 thenReturn
 (
-ContileTopSitesProvider
-.
 CachedData
 (
 60L
@@ -980,8 +978,6 @@ readFromDiskCache
 .
 thenReturn
 (
-ContileTopSitesProvider
-.
 CachedData
 (
 300000
@@ -1402,8 +1398,6 @@ provider
 .
 cacheState
 =
-ContileTopSitesProvider
-.
 CacheState
 (
 isCacheValid
@@ -1423,8 +1417,6 @@ provider
 .
 cacheState
 =
-ContileTopSitesProvider
-.
 CacheState
 (
 isCacheValid
@@ -1457,8 +1449,6 @@ provider
 .
 cacheState
 =
-ContileTopSitesProvider
-.
 CacheState
 (
 isCacheValid
@@ -1491,8 +1481,6 @@ provider
 .
 cacheState
 =
-ContileTopSitesProvider
-.
 CacheState
 (
 isCacheValid
@@ -1525,8 +1513,6 @@ provider
 .
 cacheState
 =
-ContileTopSitesProvider
-.
 CacheState
 (
 isCacheValid
