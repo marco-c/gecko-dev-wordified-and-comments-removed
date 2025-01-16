@@ -18477,7 +18477,7 @@ corruption_score_count
 ;
 expected_video
 .
-corruption_score_sum
+total_corruption_probability
 =
 0
 .
@@ -18485,7 +18485,7 @@ corruption_score_sum
 ;
 expected_video
 .
-corruption_score_squared_sum
+total_squared_corruption_probability
 =
 0
 .
@@ -18493,7 +18493,7 @@ corruption_score_squared_sum
 ;
 expected_video
 .
-corruption_score_count
+corruption_measurements
 =
 5
 ;

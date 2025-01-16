@@ -4157,7 +4157,7 @@ TestAttributeIsUndefined
 (
 inbound_stream
 .
-corruption_score_sum
+total_corruption_probability
 )
 ;
 verifier
@@ -4166,7 +4166,7 @@ TestAttributeIsUndefined
 (
 inbound_stream
 .
-corruption_score_squared_sum
+total_squared_corruption_probability
 )
 ;
 verifier
@@ -4175,7 +4175,7 @@ TestAttributeIsUndefined
 (
 inbound_stream
 .
-corruption_score_count
+corruption_measurements
 )
 ;
 verifier
