@@ -216,7 +216,7 @@ MOZ_FUZZING_NYX_PRINT
 "
 INFO
 :
-Performing
+Reverting
 snapshot
 .
 .
