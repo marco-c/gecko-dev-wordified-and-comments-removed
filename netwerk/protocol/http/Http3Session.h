@@ -1091,11 +1091,6 @@ mLastWriteTime
 =
 0
 ;
-PRIntervalTime
-mLastReadTime
-=
-0
-;
 nsCString
 mServer
 ;
