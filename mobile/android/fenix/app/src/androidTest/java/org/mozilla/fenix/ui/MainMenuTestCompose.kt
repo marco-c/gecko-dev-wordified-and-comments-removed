@@ -3129,7 +3129,6 @@ clickTranslateButton
 {
 verifyTranslationSheetIsDisplayed
 (
-composeTestRule
 isDisplayed
 =
 true
@@ -3137,9 +3136,6 @@ true
 }
 .
 clickTranslateButton
-(
-composeTestRule
-)
 {
 }
 .
@@ -3162,7 +3158,6 @@ English
 {
 verifyTranslationSheetIsDisplayed
 (
-composeTestRule
 isDisplayed
 =
 true
@@ -3170,9 +3165,6 @@ true
 }
 .
 clickShowOriginalButton
-(
-composeTestRule
-)
 {
 verifyPageContent
 (

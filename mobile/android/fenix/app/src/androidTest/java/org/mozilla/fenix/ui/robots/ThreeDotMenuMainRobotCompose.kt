@@ -4046,6 +4046,7 @@ design
 )
 TranslationsRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4056,6 +4057,7 @@ TranslationsRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4145,6 +4147,7 @@ design
 )
 TranslationsRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4155,6 +4158,7 @@ TranslationsRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
