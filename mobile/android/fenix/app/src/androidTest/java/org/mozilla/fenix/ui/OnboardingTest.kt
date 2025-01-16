@@ -272,7 +272,6 @@ cases
 view
 /
 2122334
-SmokeTest
 Test
 fun
 verifyFirstOnboardingCardItemsFunctionalityTest
@@ -639,6 +638,7 @@ minSdkVersion
 =
 29
 )
+SmokeTest
 Test
 fun
 verifySetAsDefaultBrowserDialogWhileFirefoxIsNotSetAsDefaultBrowserTest
