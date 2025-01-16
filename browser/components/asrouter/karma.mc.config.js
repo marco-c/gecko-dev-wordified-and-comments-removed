@@ -29,7 +29,8 @@ require
 .
 .
 /
-newtab
+.
+.
 /
 tools
 /
