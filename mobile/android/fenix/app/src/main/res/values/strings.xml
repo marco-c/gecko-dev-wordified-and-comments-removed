@@ -11196,6 +11196,13 @@ name
 "
 onboarding_customize_toolbar_skip_button
 "
+moz
+:
+removedIn
+=
+"
+135
+"
 tools
 :
 ignore
@@ -11632,6 +11639,13 @@ name
 =
 "
 onboarding_customize_theme_skip_button
+"
+moz
+:
+removedIn
+=
+"
+135
 "
 tools
 :
