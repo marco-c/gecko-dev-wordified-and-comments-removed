@@ -180,6 +180,8 @@ unwrapNodes
 blob
 type
 )
+.
+validNodes
 [
 ]
 "
