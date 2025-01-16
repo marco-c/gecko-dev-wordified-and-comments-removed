@@ -416,7 +416,7 @@ endif
 #
 define
 EXTRA_HW_FRAMES
-6
+9
 #
 if
 LIBAVCODEC_VERSION_MAJOR
