@@ -166,6 +166,7 @@ Exposed
 (
 Window
 DedicatedWorker
+SharedWorker
 )
 SecureContext
 ]
