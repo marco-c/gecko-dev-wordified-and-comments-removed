@@ -1248,10 +1248,8 @@ canIon
 {
 if
 (
-script_
--
->
-canIonCompile
+!
+ionDisabled
 (
 )
 )
@@ -1350,10 +1348,8 @@ undef
 DEF_CASE
 if
 (
-script_
--
->
-canIonCompile
+!
+ionDisabled
 (
 )
 )
