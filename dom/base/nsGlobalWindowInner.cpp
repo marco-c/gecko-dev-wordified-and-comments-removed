@@ -15509,11 +15509,10 @@ dom_caches_testing_enabled
 )
 |
 |
-StaticPrefs
-:
-:
-dom_serviceWorkers_testing_enabled
+ServiceWorkersEnabled
 (
+aCx
+aObj
 )
 ;
 }
