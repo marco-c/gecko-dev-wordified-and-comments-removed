@@ -743,6 +743,10 @@ log_sink
 absl
 :
 :
+no_destructor
+absl
+:
+:
 raw_logging_internal
 absl
 :

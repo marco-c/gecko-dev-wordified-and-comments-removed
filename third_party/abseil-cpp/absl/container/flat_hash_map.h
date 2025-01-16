@@ -607,7 +607,7 @@ class
 Allocator
 >
 static
-void
+auto
 transfer
 (
 Allocator
@@ -621,6 +621,7 @@ slot_type
 old_slot
 )
 {
+return
 slot_policy
 :
 :

@@ -554,6 +554,10 @@ absl
 :
 :
 flat_hash_map
+absl
+:
+:
+no_destructor
 )
 #
 Internal

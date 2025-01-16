@@ -912,6 +912,10 @@ hash_generator_testing
 absl
 :
 :
+type_traits
+absl
+:
+:
 unordered_map_constructor_test
 absl
 :
@@ -1296,6 +1300,10 @@ absl
 :
 :
 test_instance_tracker
+absl
+:
+:
+type_traits
 GTest
 :
 :

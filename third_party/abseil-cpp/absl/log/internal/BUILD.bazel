@@ -1111,6 +1111,15 @@ absl
 /
 base
 :
+no_destructor
+"
+"
+/
+/
+absl
+/
+base
+:
 raw_logging_internal
 "
 "
