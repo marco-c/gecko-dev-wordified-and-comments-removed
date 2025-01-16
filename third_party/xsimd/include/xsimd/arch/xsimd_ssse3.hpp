@@ -466,12 +466,6 @@ size
 ;
 assert
 (
-0
-<
-=
-i
-&
-&
 i
 <
 size
