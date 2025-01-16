@@ -2645,9 +2645,9 @@ int32_t
 ClientMarginHitTestPoint
 (
 int32_t
-mx
+aX
 int32_t
-my
+aY
 )
 ;
 void
