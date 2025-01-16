@@ -501,6 +501,15 @@ pdfjs
 *
 BINPATH
 /
+defaults
+/
+pref
+/
+PdfJsDefaultPrefs
+.
+js
+BINPATH
+/
 chrome
 /
 toolkit
