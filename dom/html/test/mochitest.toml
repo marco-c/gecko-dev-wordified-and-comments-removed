@@ -4185,6 +4185,15 @@ tags
 "
 openwindow
 "
+skip
+-
+if
+=
+[
+"
+http3
+"
+]
 [
 "
 test_iframe_sandbox_redirect
