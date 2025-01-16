@@ -1496,3 +1496,14 @@ the
 libaom
 encoder
 .
+-
+1881185
+.
+patch
+to
+fix
+an
+ARM
+VP9
+decoding
+crash
