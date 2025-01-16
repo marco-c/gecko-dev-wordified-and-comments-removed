@@ -4588,6 +4588,13 @@ Bit
 3
 )
 ;
+void
+check
+(
+)
+const
+{
+}
 bool
 isNurseryOwned
 (
