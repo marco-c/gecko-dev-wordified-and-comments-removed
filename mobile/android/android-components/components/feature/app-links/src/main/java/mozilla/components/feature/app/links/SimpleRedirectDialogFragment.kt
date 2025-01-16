@@ -193,6 +193,13 @@ app
 /
 class
 SimpleRedirectDialogFragment
+(
+maxSuccessiveDialogMillisLimit
+:
+Int
+=
+TIME_SHOWN_OFFSET_MILLIS
+)
 :
 RedirectDialogFragment
 (
@@ -206,8 +213,6 @@ promptAbuserDetector
 PromptAbuserDetector
 (
 maxSuccessiveDialogMillisLimit
-=
-TIME_SHOWN_OFFSET_MILLIS
 )
 VisibleForTesting
 internal
@@ -522,6 +527,11 @@ cancelable
 Boolean
 =
 false
+maxSuccessiveDialogMillisLimit
+:
+Int
+=
+TIME_SHOWN_OFFSET_MILLIS
 )
 :
 RedirectDialogFragment
@@ -531,6 +541,7 @@ fragment
 =
 SimpleRedirectDialogFragment
 (
+maxSuccessiveDialogMillisLimit
 )
 val
 arguments
