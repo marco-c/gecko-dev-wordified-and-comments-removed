@@ -3357,6 +3357,13 @@ js
 ]
 [
 "
+browser_net_throttling_menu
+.
+js
+"
+]
+[
+"
 browser_net_throttling_profiles
 .
 js

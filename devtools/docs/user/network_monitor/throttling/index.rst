@@ -201,6 +201,12 @@ latency
 widths
 :
 auto
+Offline
+0
+Mbps
+0
+Mbps
+5
 GPRS
 50
 Kbps
@@ -260,12 +266,6 @@ Mbps
 15
 Mbps
 2
-Offline
-0
-Mbps
-0
-Mbps
-5
 Network
 Monitor
 Features

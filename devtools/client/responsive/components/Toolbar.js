@@ -840,6 +840,11 @@ separator
 NetworkThrottlingMenu
 (
 {
+toolboxDoc
+:
+window
+.
+document
 networkThrottling
 onChangeNetworkThrottling
 }
