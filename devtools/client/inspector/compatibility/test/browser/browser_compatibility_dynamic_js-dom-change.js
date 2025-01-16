@@ -108,7 +108,7 @@ false
 }
 ;
 const
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 =
 {
 type
@@ -121,7 +121,7 @@ property
 "
 scrollbar
 -
-width
+color
 "
 url
 :
@@ -144,7 +144,7 @@ CSS
 /
 scrollbar
 -
-width
+color
 "
 deprecated
 :
@@ -294,7 +294,7 @@ allElementsPane
 ISSUE_OUTLINE_RADIUS
 ]
 [
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 ISSUE_OUTLINE_RADIUS
 ]
 async
@@ -340,12 +340,12 @@ style
 "
 scrollbar
 -
-width
+color
 "
 ]
 =
 "
-none
+auto
 "
 ;
 const
@@ -443,10 +443,10 @@ inspector
 selectedElementPane
 allElementsPane
 [
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 ]
 [
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 ]
 async
 function

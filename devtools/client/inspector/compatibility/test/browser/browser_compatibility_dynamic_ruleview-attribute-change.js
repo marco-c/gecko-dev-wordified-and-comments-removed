@@ -107,7 +107,7 @@ false
 }
 ;
 const
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 =
 {
 type
@@ -120,7 +120,7 @@ property
 "
 scrollbar
 -
-width
+color
 "
 url
 :
@@ -143,7 +143,7 @@ CSS
 /
 scrollbar
 -
-width
+color
 "
 deprecated
 :
@@ -322,17 +322,17 @@ addNewRule
 "
 scrollbar
 -
-width
+color
 "
 "
-none
+auto
 "
 inspector
 selectedElementPane
 allElementsPane
 [
 ISSUE_OUTLINE_RADIUS
-ISSUE_SCROLLBAR_WIDTH
+ISSUE_SCROLLBAR_COLOR
 ]
 )
 ;
