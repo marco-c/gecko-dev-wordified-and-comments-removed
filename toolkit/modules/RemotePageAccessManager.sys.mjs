@@ -1232,7 +1232,7 @@ UpdateProfileAvatar
 "
 Profiles
 :
-DeleteNewProfile
+DeleteProfile
 "
 "
 Profiles
