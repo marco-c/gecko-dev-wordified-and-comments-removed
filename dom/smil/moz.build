@@ -240,11 +240,6 @@ SMILRepeatCount
 cpp
 "
 "
-SMILSetAnimationFunction
-.
-cpp
-"
-"
 SMILStringType
 .
 cpp
