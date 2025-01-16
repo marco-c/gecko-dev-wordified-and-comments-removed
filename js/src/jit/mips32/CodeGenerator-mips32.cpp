@@ -544,7 +544,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -646,7 +646,7 @@ IntegerOverflow
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -743,7 +743,7 @@ callWithABI
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -765,7 +765,7 @@ callWithABI
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -893,7 +893,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -981,7 +981,7 @@ callWithABI
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -1003,7 +1003,7 @@ callWithABI
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2277,7 +2277,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2299,7 +2299,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2418,7 +2418,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2440,7 +2440,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2585,7 +2585,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2611,7 +2611,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2649,7 +2649,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -2675,7 +2675,7 @@ callWithABI
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm

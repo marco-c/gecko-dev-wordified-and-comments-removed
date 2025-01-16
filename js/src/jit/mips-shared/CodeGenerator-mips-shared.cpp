@@ -2797,7 +2797,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -2991,7 +2991,7 @@ IntegerOverflow
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -3774,7 +3774,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -7148,7 +7148,7 @@ rejoin
 ool
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -7209,7 +7209,7 @@ rejoin
 ool
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -12207,7 +12207,7 @@ IntegerDivideByZero
 ins
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -12807,7 +12807,7 @@ OutOfBounds
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -12908,7 +12908,7 @@ OutOfBounds
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
