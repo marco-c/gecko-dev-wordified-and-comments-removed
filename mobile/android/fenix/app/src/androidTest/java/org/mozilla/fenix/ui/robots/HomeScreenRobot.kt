@@ -10381,7 +10381,7 @@ composeTestRule
 HomeActivityComposeTestRule
 interact
 :
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 (
 )
@@ -10390,11 +10390,11 @@ ComposeTopSitesRobot
 Unit
 )
 :
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 Transition
 {
-ComposeTopSitesRobot
+TopSitesRobotCompose
 (
 composeTestRule
 )
@@ -10403,7 +10403,7 @@ interact
 (
 )
 return
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 Transition
 (

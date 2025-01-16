@@ -316,7 +316,7 @@ screen
 *
 /
 class
-ComposeTopSitesTest
+TopSitesTestCompose
 :
 TestSetup
 (

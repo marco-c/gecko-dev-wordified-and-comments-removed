@@ -349,7 +349,7 @@ Sites
 *
 /
 class
-ComposeTopSitesRobot
+TopSitesRobotCompose
 (
 private
 val
@@ -1214,7 +1214,7 @@ title
 String
 interact
 :
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 (
 )
@@ -1324,7 +1324,7 @@ title
 title
 "
 )
-ComposeTopSitesRobot
+TopSitesRobotCompose
 (
 composeTestRule
 )
@@ -1349,7 +1349,7 @@ url
 String
 interact
 :
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 (
 )
@@ -1692,7 +1692,7 @@ dialog
 button
 "
 )
-ComposeTopSitesRobot
+TopSitesRobotCompose
 (
 composeTestRule
 )
@@ -1718,7 +1718,7 @@ removeTopSite
 (
 interact
 :
-ComposeTopSitesRobot
+TopSitesRobotCompose
 .
 (
 )
@@ -1842,7 +1842,7 @@ not
 exist
 "
 )
-ComposeTopSitesRobot
+TopSitesRobotCompose
 (
 composeTestRule
 )
