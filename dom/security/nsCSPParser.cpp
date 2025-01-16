@@ -6217,7 +6217,7 @@ i
 )
 {
 bool
-isAscii
+isValid
 =
 true
 ;
@@ -6236,8 +6236,7 @@ i
 {
 if
 (
-!
-IsAscii
+CSP_IsInvalidDirectiveValue
 (
 token
 )
@@ -6268,12 +6267,12 @@ nsIScriptError
 :
 warningFlag
 "
-ignoringNonAsciiToken
+ignoringInvalidToken
 "
 params
 )
 ;
-isAscii
+isValid
 =
 false
 ;
@@ -6284,7 +6283,7 @@ break
 if
 (
 !
-isAscii
+isValid
 )
 {
 continue
