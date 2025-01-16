@@ -3321,6 +3321,14 @@ TraceKind
 Null
 )
 ;
+bool
+isPointerWithinBufferAlloc
+(
+void
+*
+ptr
+)
+;
 #
 ifdef
 DEBUG
@@ -6107,6 +6115,12 @@ Nursery
 StringBufferVector
 >
 stringBuffersToReleaseAfterMinorGC
+;
+MainThreadData
+<
+uint64_t
+>
+initialMinorGCNumber
 ;
 MainThreadData
 <
