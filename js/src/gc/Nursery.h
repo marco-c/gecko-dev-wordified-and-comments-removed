@@ -998,7 +998,9 @@ Cell
 *
 owner
 size_t
-nbytes
+bytesUsed
+size_t
+bytesCapacity
 MemoryUse
 use
 arena_id_t
@@ -1024,7 +1026,9 @@ Cell
 *
 owner
 size_t
-nbytes
+bytesUsed
+size_t
+bytesCapacity
 MemoryUse
 use
 arena_id_t
@@ -1044,7 +1048,8 @@ void
 bufferp
 )
 owner
-nbytes
+bytesUsed
+bytesCapacity
 use
 arena
 )
@@ -1079,6 +1084,7 @@ maybeMoveBufferOnPromotion
 (
 bufferp
 owner
+nbytes
 nbytes
 use
 MallocArena

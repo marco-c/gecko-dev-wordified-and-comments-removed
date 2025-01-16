@@ -1605,6 +1605,7 @@ maybeMoveBufferOnPromotion
 buf
 newObj
 nbytes
+nbytes
 MemoryUse
 :
 :
