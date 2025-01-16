@@ -4460,7 +4460,6 @@ VideoReceiveStreamInterface
 *
 >
 &
-receive_streams
 )
 override
 {
@@ -4857,7 +4856,6 @@ test
 :
 PacketTransport
 *
-to_receiver
 SimulatedNetworkInterface
 *
 sender_network
@@ -4866,7 +4864,6 @@ test
 :
 PacketTransport
 *
-to_sender
 SimulatedNetworkInterface
 *
 receiver_network
@@ -5178,7 +5175,6 @@ Call
 sender_call
 Call
 *
-receiver_call
 )
 override
 {
@@ -5530,14 +5526,12 @@ VideoSinkInterface
 VideoFrame
 >
 *
-sink
 const
 rtc
 :
 :
 VideoSinkWants
 &
-wants
 )
 override
 {
@@ -5581,7 +5575,6 @@ VideoReceiveStreamInterface
 *
 >
 &
-receive_streams
 )
 override
 {
@@ -5625,7 +5618,6 @@ VideoReceiveStreamInterface
 Config
 >
 *
-receive_configs
 VideoEncoderConfig
 *
 encoder_config
@@ -5938,7 +5930,6 @@ ArrayView
 const
 uint8_t
 >
-packet
 )
 override
 {
@@ -6156,7 +6147,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
@@ -6224,7 +6214,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return

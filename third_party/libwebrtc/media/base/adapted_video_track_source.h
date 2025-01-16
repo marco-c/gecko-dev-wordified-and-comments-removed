@@ -323,7 +323,6 @@ webrtc
 RecordableEncodedFrame
 >
 *
-sink
 )
 override
 {
@@ -342,7 +341,6 @@ webrtc
 RecordableEncodedFrame
 >
 *
-sink
 )
 override
 {

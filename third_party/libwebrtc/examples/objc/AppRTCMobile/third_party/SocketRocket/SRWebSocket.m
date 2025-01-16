@@ -2425,6 +2425,7 @@ obj
 BOOL
 *
 stop
+__unused
 )
 {
 CFHTTPMessageSetHeaderFieldValue
@@ -8315,6 +8316,13 @@ SR
 "
 formattedString
 )
+;
+#
+else
+(
+void
+)
+format
 ;
 #
 endif

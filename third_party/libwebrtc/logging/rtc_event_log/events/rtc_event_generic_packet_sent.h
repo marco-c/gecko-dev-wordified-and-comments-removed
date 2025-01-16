@@ -373,7 +373,6 @@ vector
 LoggedGenericPacketSent
 >
 &
-output
 )
 {
 return

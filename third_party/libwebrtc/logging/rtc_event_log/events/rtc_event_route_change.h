@@ -274,7 +274,6 @@ const
 RtcEvent
 *
 >
-batch
 )
 {
 return
@@ -290,9 +289,7 @@ absl
 :
 :
 string_view
-encoded_bytes
 bool
-batched
 std
 :
 :
@@ -301,7 +298,6 @@ vector
 LoggedRouteChangeEvent
 >
 &
-output
 )
 {
 return

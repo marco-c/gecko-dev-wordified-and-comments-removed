@@ -3275,16 +3275,13 @@ std
 :
 string
 &
-url
 int
-error_code
 const
 std
 :
 :
 string
 &
-error_text
 )
 {
 }
@@ -3304,7 +3301,6 @@ cricket
 Candidate
 >
 &
-candidates
 )
 {
 }
@@ -3313,7 +3309,6 @@ void
 OnIceConnectionReceivingChange
 (
 bool
-receiving
 )
 {
 }
@@ -3327,7 +3322,6 @@ cricket
 :
 CandidatePairChangeEvent
 &
-event
 )
 {
 }
@@ -3342,7 +3336,6 @@ scoped_refptr
 <
 RtpReceiverInterface
 >
-receiver
 const
 std
 :
@@ -3358,7 +3351,6 @@ MediaStreamInterface
 >
 >
 &
-streams
 )
 {
 }

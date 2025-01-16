@@ -245,7 +245,6 @@ const
 RtcEvent
 *
 >
-batch
 )
 {
 return
@@ -261,9 +260,7 @@ absl
 :
 :
 string_view
-encoded_bytes
 bool
-batched
 std
 :
 :
@@ -272,7 +269,6 @@ vector
 LoggedRemoteEstimateEvent
 >
 &
-output
 )
 {
 return

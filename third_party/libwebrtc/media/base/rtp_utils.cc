@@ -923,7 +923,6 @@ uint8_t
 *
 rtp
 size_t
-length
 int
 extension_id
 uint64_t
