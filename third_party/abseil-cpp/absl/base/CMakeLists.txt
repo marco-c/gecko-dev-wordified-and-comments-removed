@@ -855,6 +855,10 @@ log_severity
 absl
 :
 :
+nullability
+absl
+:
+:
 raw_logging_internal
 absl
 :
@@ -1478,6 +1482,10 @@ absl
 :
 :
 core_headers
+absl
+:
+:
+nullability
 PUBLIC
 )
 absl_cc_test

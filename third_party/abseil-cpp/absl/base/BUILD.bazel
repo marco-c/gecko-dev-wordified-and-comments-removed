@@ -695,10 +695,6 @@ name
 "
 core_headers
 "
-srcs
-=
-[
-]
 hdrs
 =
 [
@@ -1221,6 +1217,10 @@ dynamic_annotations
 "
 :
 log_severity
+"
+"
+:
+nullability
 "
 "
 :
@@ -2249,6 +2249,10 @@ config
 "
 :
 core_headers
+"
+"
+:
+nullability
 "
 ]
 )

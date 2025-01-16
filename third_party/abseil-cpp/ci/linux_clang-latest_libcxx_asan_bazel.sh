@@ -440,7 +440,7 @@ BAZEL_EXTRA_ARGS
 "
 -
 -
-remote_http_cache
+remote_cache
 =
 https
 :
@@ -961,14 +961,9 @@ Werror
 \
 -
 -
-distdir
+enable_bzlmod
 =
-"
-/
-bazel
--
-distdir
-"
+false
 \
 -
 -

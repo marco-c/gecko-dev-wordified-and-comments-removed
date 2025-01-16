@@ -377,6 +377,10 @@ core_headers
 absl
 :
 :
+nullability
+absl
+:
+:
 throw_delegate
 absl
 :
@@ -539,6 +543,10 @@ absl
 :
 :
 memory
+absl
+:
+:
+nullability
 absl
 :
 :
@@ -791,6 +799,10 @@ COPTS
 ABSL_DEFAULT_COPTS
 }
 DEPS
+absl
+:
+:
+config
 absl
 :
 :

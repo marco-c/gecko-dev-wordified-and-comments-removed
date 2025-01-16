@@ -436,7 +436,7 @@ BAZEL_EXTRA_ARGS
 "
 -
 -
-remote_http_cache
+remote_cache
 =
 https
 :
@@ -861,14 +861,9 @@ absl
 \
 -
 -
-distdir
+enable_bzlmod
 =
-"
-/
-bazel
--
-distdir
-"
+false
 \
 -
 -

@@ -1465,6 +1465,12 @@ defined
 (
 __asmjs__
 )
+|
+|
+defined
+(
+__hexagon__
+)
 return
 getpagesize
 (

@@ -967,6 +967,10 @@ log_severity
 "
 "
 :
+nullability
+"
+"
+:
 raw_logging_internal
 "
 "
@@ -1447,6 +1451,10 @@ config
 "
 :
 core_headers
+"
+"
+:
+nullability
 "
 ]
 }

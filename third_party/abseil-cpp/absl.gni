@@ -647,9 +647,11 @@ Chrome
 "
 /
 /
-third_party
+components
 /
-ml
+optimization_guide
+/
+internal
 /
 *
 "

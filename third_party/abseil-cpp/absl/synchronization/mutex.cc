@@ -3234,6 +3234,10 @@ char
 name
 )
 {
+ABSL_ANNOTATE_IGNORE_WRITES_BEGIN
+(
+)
+;
 SynchEvent
 *
 e
@@ -3272,6 +3276,10 @@ Mutex
 :
 :
 Dtor
+;
+ABSL_ANNOTATE_IGNORE_WRITES_END
+(
+)
 ;
 }
 void
@@ -3313,6 +3321,10 @@ void
 arg
 )
 {
+ABSL_ANNOTATE_IGNORE_WRITES_BEGIN
+(
+)
+;
 if
 (
 synch_check_invariants
@@ -3368,6 +3380,10 @@ e
 )
 ;
 }
+ABSL_ANNOTATE_IGNORE_WRITES_END
+(
+)
+;
 }
 void
 SetMutexDeadlockDetectionMode
