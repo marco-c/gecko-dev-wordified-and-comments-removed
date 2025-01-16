@@ -194,6 +194,7 @@ eSetPositionToStatic
 eDecreaseZIndex
 eIncreaseZIndex
 eCreatePaddingBRElementForEmptyEditor
+eMaintainWhiteSpaceVisibility
 }
 ;
 #
