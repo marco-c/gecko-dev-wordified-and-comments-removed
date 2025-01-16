@@ -1318,6 +1318,16 @@ pcm
 /
 resources
 /
+near48_mono
+.
+pcm
+"
+"
+.
+.
+/
+resources
+/
 near48_stereo
 .
 pcm
