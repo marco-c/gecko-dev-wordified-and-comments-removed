@@ -243,6 +243,9 @@ createEngine
 config
 )
 ;
+const
+options
+=
 await
 lazy
 .
@@ -257,6 +260,14 @@ config
 .
 taskName
 )
+;
+MLAutofill
+.
+modelRevision
+=
+options
+.
+modelRevision
 ;
 }
 catch
