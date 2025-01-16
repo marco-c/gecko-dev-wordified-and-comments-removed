@@ -412,7 +412,7 @@ STUB_DEBUG
 define
 StubURLVersion
 "
-v9
+v10
 "
 ;
 Successful

@@ -7184,9 +7184,7 @@ windows_ubr
 /
 value
 '
-"
 0
-"
 '
 {
 GetParameters
