@@ -1110,6 +1110,12 @@ TraceKind
 :
 PropMap
 :
+case
+TraceKind
+:
+:
+SmallBuffer
+:
 MOZ_CRASH
 (
 "

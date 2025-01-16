@@ -377,6 +377,9 @@ class
 MapObject
 ;
 class
+NurseryDecommitTask
+;
+class
 SetObject
 ;
 class

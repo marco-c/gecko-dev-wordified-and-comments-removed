@@ -103,6 +103,11 @@ Barrier
 cpp
 "
 "
+BufferAllocator
+.
+cpp
+"
+"
 Compacting
 .
 cpp
