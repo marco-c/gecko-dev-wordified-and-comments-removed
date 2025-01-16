@@ -718,7 +718,15 @@ label
 None
 runtime_checks
 :
-false
+wgt
+:
+:
+ShaderRuntimeChecks
+:
+:
+unchecked
+(
+)
 }
 ;
 let
@@ -1045,7 +1053,9 @@ hal
 PipelineLayoutFlags
 :
 :
-FIRST_VERTEX_INSTANCE
+empty
+(
+)
 bind_group_layouts
 :
 &
