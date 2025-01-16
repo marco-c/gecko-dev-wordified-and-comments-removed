@@ -10432,6 +10432,13 @@ test_unittest
 /
 testing
 /
+gmock
+"
+"
+/
+/
+testing
+/
 gtest
 "
 "
