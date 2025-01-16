@@ -104,7 +104,9 @@ text
 label
 tooltiptext
 =
-label
+data
+-
+tooltip
 "
 }
 ;
@@ -659,6 +661,14 @@ val
 u200b
 "
 )
+;
+this
+.
+dataset
+.
+tooltip
+=
+val
 ;
 this
 .
