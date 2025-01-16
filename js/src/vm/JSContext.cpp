@@ -1073,7 +1073,7 @@ checkNoGCRooters
 (
 )
 ;
-CancelOffThreadIonCompile
+CancelOffThreadCompile
 (
 cx
 -

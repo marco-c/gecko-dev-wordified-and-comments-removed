@@ -2249,7 +2249,7 @@ zone
 js
 :
 :
-CancelOffThreadIonCompile
+CancelOffThreadCompile
 (
 rt
 JS

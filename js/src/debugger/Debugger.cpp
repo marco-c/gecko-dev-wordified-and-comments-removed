@@ -17218,6 +17218,11 @@ suppressProfilerSampling
 cx
 )
 ;
+CancelOffThreadBaselineCompile
+(
+zone
+)
+;
 JS
 :
 :
