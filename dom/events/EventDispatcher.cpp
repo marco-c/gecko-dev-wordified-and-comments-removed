@@ -5317,6 +5317,7 @@ aEvent
 mOriginalTarget
 )
 ;
+const
 bool
 isInAnon
 =
@@ -5326,7 +5327,7 @@ content
 content
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccessForEvents
 (
 )
 ;
