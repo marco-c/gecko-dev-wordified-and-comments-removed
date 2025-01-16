@@ -1687,10 +1687,6 @@ state_path
 args
 .
 tar_name
-            
-"
-https
-"
         
 )
         
@@ -1871,10 +1867,6 @@ state_path
 args
 .
 tar_name
-                
-"
-https
-"
             
 )
         
