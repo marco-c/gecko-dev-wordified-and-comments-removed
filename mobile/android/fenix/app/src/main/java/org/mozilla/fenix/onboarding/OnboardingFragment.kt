@@ -980,9 +980,6 @@ Suppress
 "
 LongMethod
 "
-"
-ThrowsCount
-"
 )
 private
 fun
