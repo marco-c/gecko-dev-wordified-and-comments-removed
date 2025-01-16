@@ -205,9 +205,9 @@ promptAbuserDetector
 =
 PromptAbuserDetector
 (
-maxSuccessiveDialogSecondsLimit
+maxSuccessiveDialogMillisLimit
 =
-TIME_SHOWN_OFFSET_SECONDS
+TIME_SHOWN_OFFSET_MILLIS
 )
 VisibleForTesting
 internal
@@ -637,9 +637,9 @@ KEY_CANCELABLE
 private
 const
 val
-TIME_SHOWN_OFFSET_SECONDS
+TIME_SHOWN_OFFSET_MILLIS
 =
-1
+1000
 }
 private
 fun
