@@ -2944,24 +2944,6 @@ os
 pathsep
 )
     
-if
-"
-.
-"
-not
-in
-exts
-:
-        
-exts
-.
-append
-(
-"
-.
-"
-)
-    
 os
 .
 environ
