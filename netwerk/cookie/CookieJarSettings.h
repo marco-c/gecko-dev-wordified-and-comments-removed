@@ -51,12 +51,10 @@ define
 COOKIEJARSETTINGS_CID
 \
 {
-\
 0x4ce234f1
 0x52e8
 0x47a9
 {
-\
 0x8c
 0x8d
 0xb0
@@ -65,9 +63,7 @@ COOKIEJARSETTINGS_CID
 0x57
 0x33
 0xc7
-\
 }
-\
 }
 namespace
 mozilla
