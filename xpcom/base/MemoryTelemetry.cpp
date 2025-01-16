@@ -648,7 +648,7 @@ TimeDuration
 :
 FromSeconds
 (
-10
+kTelemetryCooldownS
 )
 <
 now
