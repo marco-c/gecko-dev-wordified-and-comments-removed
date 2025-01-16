@@ -49,6 +49,13 @@ d3d11
 .
 h
 "
+#
+include
+"
+D3D11TextureWrapper
+.
+h
+"
 namespace
 mozilla
 {
@@ -196,11 +203,9 @@ virtual
 HRESULT
 WrapTextureWithImage
 (
-ID3D11Texture2D
+D3D11TextureWrapper
 *
-aTexture
-UINT
-aSurfaceIndex
+aTextureWrapper
 const
 gfx
 :
