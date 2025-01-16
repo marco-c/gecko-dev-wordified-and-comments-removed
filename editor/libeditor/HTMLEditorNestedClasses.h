@@ -1214,7 +1214,7 @@ Run
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 HTMLEditor
@@ -1266,7 +1266,7 @@ SplitAtRangeEdgesAndCollectContentNodesToMoveIntoList
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 SelectAllOfCurrentList
@@ -1316,7 +1316,7 @@ HTMLEditor
 &
 aHTMLEditor
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -1349,7 +1349,7 @@ WrapContentNodesIntoNewListElements
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 AutoContentNodeArray
@@ -1663,7 +1663,7 @@ EnsureCollapsedRangeIsInListItemOrListElement
 Element
 &
 aListItemOrListToPutCaret
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 )

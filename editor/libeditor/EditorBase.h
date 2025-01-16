@@ -6732,7 +6732,7 @@ nsIEditor
 EStripWrappers
 aStripWrappers
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRangesToDelete
 )
@@ -6746,7 +6746,7 @@ CreateTransactionForDeleteSelection
 HowToHandleCollapsedRange
 aHowToHandleCollapsedRange
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRangesToDelete
 )
@@ -7523,7 +7523,11 @@ AlignStateAtSelection
 ;
 friend
 class
-AutoRangeArray
+AutoClonedRangeArray
+;
+friend
+class
+AutoClonedSelectionRangeArray
 ;
 friend
 class

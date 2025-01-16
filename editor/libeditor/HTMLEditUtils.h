@@ -12364,7 +12364,7 @@ explicit
 SelectedTableCellScanner
 (
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 )

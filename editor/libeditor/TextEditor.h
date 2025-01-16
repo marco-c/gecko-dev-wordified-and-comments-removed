@@ -1528,7 +1528,7 @@ mMaxTextLength
 ;
 friend
 class
-AutoRangeArray
+AutoClonedSelectionRangeArray
 ;
 friend
 class

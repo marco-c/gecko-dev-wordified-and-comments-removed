@@ -22,7 +22,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -20671,7 +20671,7 @@ CreateTransactionForDeleteSelection
 HowToHandleCollapsedRange
 aHowToHandleCollapsedRange
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRangesToDelete
 )
@@ -24959,7 +24959,7 @@ return
 NS_ERROR_EDITOR_DESTROYED
 ;
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 rangesToDelete
 (
 SelectionRef
@@ -25262,7 +25262,7 @@ StartRef
 )
 ;
 }
-AutoRangeArray
+AutoClonedRangeArray
 rangesToDelete
 (
 aRangeToDelete
@@ -25325,7 +25325,7 @@ nsIEditor
 EStripWrappers
 aStripWrappers
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRangesToDelete
 )
@@ -33598,7 +33598,7 @@ return
 NS_ERROR_EDITOR_DESTROYED
 ;
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 rangesToDelete
 (
 editorBase

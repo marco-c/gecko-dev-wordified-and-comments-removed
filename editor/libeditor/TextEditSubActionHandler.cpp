@@ -15,7 +15,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -3304,7 +3304,7 @@ CanceledResult
 ;
 }
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 rangesToDelete
 (
 SelectionRef
@@ -3343,7 +3343,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ExtendAnchorFocusRangeFor

@@ -241,9 +241,6 @@ class
 AutoSelectionSetterAfterTableEdit
 ;
 class
-AutoSetTemporaryAncestorLimiter
-;
-class
 EmptyEditableFunctor
 ;
 class
@@ -3213,7 +3210,7 @@ nsresult
 >
 FormatBlockContainerWithTransaction
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aSelectionRanges
 const
@@ -3344,7 +3341,7 @@ nsIEditor
 EStripWrappers
 aStripWrappers
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRangesToDelete
 )
@@ -4375,7 +4372,7 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRangesToDelete
 )
@@ -4524,7 +4521,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleCSSIndentAroundRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -4542,7 +4539,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleHTMLIndentAroundRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -4875,7 +4872,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 AlignContentsAtRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -6645,7 +6642,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertiesAroundRanges
 (
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -9037,7 +9034,11 @@ AlignStateAtSelection
 ;
 friend
 class
-AutoRangeArray
+AutoClonedRangeArray
+;
+friend
+class
+AutoClonedSelectionRangeArray
 ;
 friend
 class
@@ -9046,10 +9047,6 @@ AutoSelectionRestore
 friend
 class
 AutoSelectionSetterAfterTableEdit
-;
-friend
-class
-AutoSetTemporaryAncestorLimiter
 ;
 friend
 class

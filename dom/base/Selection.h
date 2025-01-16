@@ -92,6 +92,17 @@ h
 #
 include
 "
+mozilla
+/
+intl
+/
+BidiEmbeddingLevel
+.
+h
+"
+#
+include
+"
 nsDirection
 .
 h

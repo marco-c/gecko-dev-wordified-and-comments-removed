@@ -18,7 +18,7 @@ utility
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -329,7 +329,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 aHTMLEditor
@@ -368,7 +368,7 @@ EditSubAction
 :
 :
 eCreateOrChangeList
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -388,7 +388,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -744,7 +744,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 aHTMLEditor
@@ -783,7 +783,7 @@ EditSubAction
 :
 :
 eCreateOrChangeList
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -807,7 +807,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -1442,7 +1442,7 @@ return
 ;
 }
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 aHTMLEditor
@@ -1491,7 +1491,7 @@ EditSubAction
 :
 :
 eSetOrClearAlignment
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -1511,7 +1511,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -1550,7 +1550,7 @@ IsEmpty
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -3140,7 +3140,7 @@ aArrayOfContents
 )
 {
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 aHTMLEditor
@@ -3204,7 +3204,7 @@ EditSubAction
 :
 :
 eCreateOrRemoveBlock
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -3224,7 +3224,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes

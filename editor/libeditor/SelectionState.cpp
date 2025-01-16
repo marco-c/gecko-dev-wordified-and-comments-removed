@@ -8,7 +8,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -281,7 +281,7 @@ SelectionState
 SelectionState
 (
 const
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )
@@ -710,7 +710,7 @@ SelectionState
 :
 ApplyTo
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )

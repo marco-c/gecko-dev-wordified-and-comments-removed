@@ -259,7 +259,10 @@ class
 TextEditor
 ;
 class
-AutoRangeArray
+AutoClonedRangeArray
+;
+class
+AutoClonedSelectionRangeArray
 ;
 class
 AutoSelectionRestorer

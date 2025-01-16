@@ -8,7 +8,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -15957,7 +15957,7 @@ SelectedTableCellScanner
 SelectedTableCellScanner
 (
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 )

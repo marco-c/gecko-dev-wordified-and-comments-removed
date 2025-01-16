@@ -29,7 +29,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -474,7 +474,7 @@ HTMLEditor
 :
 SetInlinePropertiesAroundRanges
 (
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -498,7 +498,7 @@ HTMLEditor
 :
 SetInlinePropertiesAroundRanges
 (
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -1701,7 +1701,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -1786,7 +1786,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
@@ -1811,7 +1811,7 @@ HTMLEditor
 :
 SetInlinePropertiesAroundRanges
 (
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -18641,7 +18641,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -20253,7 +20253,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
@@ -21264,7 +21264,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -21956,7 +21956,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
