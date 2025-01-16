@@ -3560,6 +3560,8 @@ HandleValue
 thisValue
 HandleValueArray
 args
+uint32_t
+argc
 CallFlags
 flags
 )
@@ -3602,11 +3604,7 @@ args
 )
 argc_
 (
-args
-.
-length
-(
-)
+argc
 )
 flags_
 (
