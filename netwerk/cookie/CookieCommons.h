@@ -499,16 +499,6 @@ aOriginAttributes
 ;
 static
 bool
-ShouldEnforceSessionForOriginAttributes
-(
-const
-OriginAttributes
-&
-aOriginAttributes
-)
-;
-static
-bool
 IsSchemeSupported
 (
 nsIPrincipal
