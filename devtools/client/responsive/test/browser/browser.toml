@@ -610,6 +610,13 @@ js
 ]
 [
 "
+browser_offline_mode
+.
+js
+"
+]
+[
+"
 browser_orientationchange_event
 .
 js
