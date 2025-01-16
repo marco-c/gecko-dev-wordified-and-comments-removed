@@ -65,7 +65,7 @@ fenix
 .
 webcompat
 .
-retrievalservice
+middleware
 import
 androidx
 .

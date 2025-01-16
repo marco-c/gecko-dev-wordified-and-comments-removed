@@ -65,7 +65,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 import
 kotlinx
 .
@@ -219,9 +219,9 @@ fenix
 .
 webcompat
 .
-retrievalservice
+store
 .
-WebCompatInfoDto
+WebCompatReporterAction
 import
 org
 .
@@ -231,9 +231,9 @@ fenix
 .
 webcompat
 .
-retrievalservice
+store
 .
-WebCompatReporterRetrievalService
+WebCompatReporterState
 /
 *
 *

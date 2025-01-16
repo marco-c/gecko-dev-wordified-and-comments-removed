@@ -137,7 +137,7 @@ fenix
 .
 webcompat
 .
-retrievalservice
+middleware
 .
 DefaultWebCompatReporterRetrievalService
 import
@@ -149,7 +149,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 .
 WebCompatInfoDeserializer
 import
@@ -161,7 +161,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 .
 WebCompatReporterNavigationMiddleware
 import
@@ -173,7 +173,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 .
 WebCompatReporterStorageMiddleware
 import
@@ -185,7 +185,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 .
 WebCompatReporterSubmissionMiddleware
 import
@@ -197,7 +197,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 .
 WebCompatReporterTelemetryMiddleware
 /

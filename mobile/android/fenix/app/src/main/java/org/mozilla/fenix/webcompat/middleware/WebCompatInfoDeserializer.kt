@@ -65,7 +65,7 @@ fenix
 .
 webcompat
 .
-store
+middleware
 import
 kotlinx
 .
@@ -94,18 +94,6 @@ log
 logger
 .
 Logger
-import
-org
-.
-mozilla
-.
-fenix
-.
-webcompat
-.
-retrievalservice
-.
-WebCompatInfoDto
 /
 *
 *
