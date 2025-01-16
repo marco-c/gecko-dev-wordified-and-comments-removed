@@ -42,19 +42,16 @@ github_path
         
 print
 (
+f
 "
 Removing
 existing
 repo
 :
 {
+github_path
 }
 "
-.
-format
-(
-github_path
-)
 )
         
 shutil
@@ -101,9 +98,18 @@ repo
             
 cmd
 =
+f
 "
 cd
 {
+os
+.
+path
+.
+dirname
+(
+github_path
+)
 }
 ;
 tar
@@ -118,20 +124,6 @@ gunzip
 file
 =
 {
-}
-"
-.
-format
-(
-                
-os
-.
-path
-.
-dirname
-(
-github_path
-)
 os
 .
 path
@@ -140,8 +132,8 @@ basename
 (
 tar_path
 )
-            
-)
+}
+"
             
 run_shell
 (
@@ -229,23 +221,20 @@ exit
 run_shell
 (
                 
+f
 "
 git
 clone
 {
+url_prefix
 }
 mozilla
 /
 libwebrtc
 {
+github_path
 }
 "
-.
-format
-(
-url_prefix
-github_path
-)
                 
 capture_output
             
@@ -591,9 +580,18 @@ restore
         
 cmd
 =
+f
 "
 cd
 {
+os
+.
+path
+.
+dirname
+(
+github_path
+)
 }
 ;
 tar
@@ -608,23 +606,6 @@ gzip
 file
 =
 {
-}
-{
-}
-"
-.
-format
-(
-            
-os
-.
-path
-.
-dirname
-(
-github_path
-)
-            
 os
 .
 path
@@ -633,7 +614,8 @@ basename
 (
 tar_path
 )
-            
+}
+{
 os
 .
 path
@@ -642,8 +624,8 @@ basename
 (
 github_path
 )
-        
-)
+}
+"
         
 run_shell
 (
@@ -831,6 +813,7 @@ default_tar_name
         
 help
 =
+f
 "
 name
 of
@@ -840,14 +823,10 @@ file
 defaults
 to
 {
+default_tar_name
 }
 )
 "
-.
-format
-(
-default_tar_name
-)
     
 )
     
@@ -870,6 +849,7 @@ default_state_dir
         
 help
 =
+f
 "
 path
 to
@@ -879,14 +859,10 @@ directory
 defaults
 to
 {
+default_state_dir
 }
 )
 "
-.
-format
-(
-default_state_dir
-)
     
 )
     

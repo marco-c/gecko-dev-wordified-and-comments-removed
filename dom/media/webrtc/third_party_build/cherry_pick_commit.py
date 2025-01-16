@@ -154,6 +154,7 @@ bug_number
     
 cmd
 =
+f
 "
 git
 show
@@ -169,13 +170,9 @@ no
 -
 patch
 {
+github_sha
 }
 "
-.
-format
-(
-github_sha
-)
     
 stdout_lines
 =
@@ -206,6 +203,7 @@ github_long_sha
     
 cmd
 =
+f
 "
 git
 show
@@ -227,13 +225,9 @@ no
 -
 patch
 {
+github_sha
 }
 "
-.
-format
-(
-github_sha
-)
     
 github_commit_msg_lines
 =
@@ -260,9 +254,11 @@ ofile
 write
 (
             
+f
 "
 Bug
 {
+bug_number
 }
 -
 Cherry
@@ -272,21 +268,14 @@ upstream
 libwebrtc
 commit
 {
+github_sha
 }
 r
 ?
 {
+reviewers
 }
 "
-.
-format
-(
-                
-bug_number
-github_sha
-reviewers
-            
-)
         
 )
         
@@ -315,6 +304,7 @@ ofile
 write
 (
             
+f
 "
 Upstream
 commit
@@ -334,15 +324,9 @@ src
 +
 /
 {
+github_long_sha
 }
 "
-.
-format
-(
-                
-github_long_sha
-            
-)
         
 )
         
@@ -366,15 +350,12 @@ ofile
 .
 write
 (
+f
 "
 {
+line
 }
 "
-.
-format
-(
-line
-)
 )
             
 ofile
@@ -436,6 +417,7 @@ github_sha
     
 cmd
 =
+f
 "
 git
 cherry
@@ -447,13 +429,9 @@ no
 -
 commit
 {
+github_sha
 }
 "
-.
-format
-(
-github_sha
-)
     
 run_git
 (
@@ -463,6 +441,7 @@ github_path
     
 cmd
 =
+f
 "
 git
 commit
@@ -470,11 +449,6 @@ commit
 -
 file
 {
-}
-"
-.
-format
-(
 os
 .
 path
@@ -483,7 +457,8 @@ abspath
 (
 commit_message_filename
 )
-)
+}
+"
     
 run_git
 (
@@ -502,8 +477,10 @@ bug_number
     
 noop_basename
 =
+f
 "
 {
+github_sha
 }
 .
 no
@@ -516,11 +493,6 @@ pick
 -
 msg
 "
-.
-format
-(
-github_sha
-)
     
 noop_filename
 =
@@ -564,6 +536,7 @@ ofile
 .
 write
 (
+f
 "
 We
 cherry
@@ -573,13 +546,9 @@ this
 in
 bug
 {
+bug_number
 }
 "
-.
-format
-(
-bug_number
-)
 )
         
 ofile
@@ -604,15 +573,11 @@ patch_path
     
 cmd
 =
+f
 "
 hg
 add
 {
-}
-"
-.
-format
-(
 os
 .
 path
@@ -624,7 +589,8 @@ args
 patch_path
 noop_basename
 )
-)
+}
+"
     
 run_hg
 (
@@ -633,15 +599,11 @@ cmd
     
 cmd
 =
+f
 "
 hg
 amend
 {
-}
-"
-.
-format
-(
 os
 .
 path
@@ -653,7 +615,8 @@ args
 patch_path
 noop_basename
 )
-)
+}
+"
     
 run_hg
 (
@@ -805,6 +768,7 @@ default_target_dir
         
 help
 =
+f
 "
 target
 path
@@ -814,14 +778,10 @@ vendoring
 defaults
 to
 {
-}
-)
-"
-.
-format
-(
 default_target_dir
+}
 )
+"
     
 )
     
@@ -844,6 +804,7 @@ default_state_dir
         
 help
 =
+f
 "
 path
 to
@@ -853,14 +814,10 @@ directory
 defaults
 to
 {
-}
-)
-"
-.
-format
-(
 default_state_dir
+}
 )
+"
     
 )
     
@@ -883,6 +840,7 @@ default_log_dir
         
 help
 =
+f
 "
 path
 to
@@ -892,14 +850,10 @@ directory
 defaults
 to
 {
-}
-)
-"
-.
-format
-(
 default_log_dir
+}
 )
+"
     
 )
     
@@ -922,6 +876,7 @@ default_tmp_dir
         
 help
 =
+f
 "
 path
 to
@@ -931,14 +886,10 @@ directory
 defaults
 to
 {
+default_tmp_dir
 }
 )
 "
-.
-format
-(
-default_tmp_dir
-)
     
 )
     
@@ -961,6 +912,7 @@ default_script_dir
         
 help
 =
+f
 "
 path
 to
@@ -970,14 +922,10 @@ directory
 defaults
 to
 {
+default_script_dir
 }
 )
 "
-.
-format
-(
-default_script_dir
-)
     
 )
     
@@ -1000,6 +948,7 @@ default_repo_dir
         
 help
 =
+f
 "
 path
 to
@@ -1011,14 +960,10 @@ repo
 defaults
 to
 {
+default_repo_dir
 }
 )
 "
-.
-format
-(
-default_repo_dir
-)
     
 )
     
@@ -1041,6 +986,7 @@ default_tar_name
         
 help
 =
+f
 "
 name
 of
@@ -1050,14 +996,10 @@ file
 defaults
 to
 {
+default_tar_name
 }
 )
 "
-.
-format
-(
-default_tar_name
-)
     
 )
     
@@ -1180,6 +1122,7 @@ default_patch_dir
         
 help
 =
+f
 "
 path
 to
@@ -1189,14 +1132,10 @@ patches
 defaults
 to
 {
+default_patch_dir
 }
 )
 "
-.
-format
-(
-default_patch_dir
-)
     
 )
     
@@ -1569,19 +1508,16 @@ all
         
 run_hg
 (
+f
 "
 hg
 purge
 {
-}
-"
-.
-format
-(
 args
 .
 target_path
-)
+}
+"
 )
         
 if
@@ -1623,19 +1559,16 @@ r
             
 print
 (
+f
 "
 stdout_lines
 before
 filter
 :
 {
+stdout_lines
 }
 "
-.
-format
-(
-stdout_lines
-)
 )
             
 stdout_lines
@@ -1669,19 +1602,16 @@ line
             
 print
 (
+f
 "
 looking
 for
 commit
 :
 {
+stdout_lines
 }
 "
-.
-format
-(
-stdout_lines
-)
 )
             
 if
@@ -1703,18 +1633,15 @@ prune
                 
 print
 (
+f
 "
 calling
 '
 {
+cmd
 }
 '
 "
-.
-format
-(
-cmd
-)
 )
                 
 run_hg
@@ -3110,6 +3037,7 @@ cmd
         
 print
 (
+f
 "
 Mercurial
 changes
@@ -3117,13 +3045,9 @@ changes
 \
 n
 {
+stdout_lines
 }
 "
-.
-format
-(
-stdout_lines
-)
 )
         
 hg_file_change_cnt
@@ -3148,6 +3072,7 @@ None
         
 print
 (
+f
 "
 github
 changes
@@ -3155,13 +3080,9 @@ changes
 \
 n
 {
+git_paths_changed
 }
 "
-.
-format
-(
-git_paths_changed
-)
 )
         
 git_file_change_cnt
