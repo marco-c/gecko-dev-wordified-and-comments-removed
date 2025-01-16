@@ -138,6 +138,9 @@ struct
 VisitData
 ;
 class
+ConcurrentStatementsHolder
+;
+class
 VisitedQuery
 ;
 #
@@ -429,6 +432,12 @@ places
 Database
 >
 mDB
+;
+RefPtr
+<
+ConcurrentStatementsHolder
+>
+mConcurrentStatementsHolder
 ;
 void
 Shutdown
