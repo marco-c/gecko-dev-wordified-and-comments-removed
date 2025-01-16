@@ -207,8 +207,11 @@ packages
         
 platform
 =
+f
 "
-firefox
+{
+product
+}
 -
 release
 /
