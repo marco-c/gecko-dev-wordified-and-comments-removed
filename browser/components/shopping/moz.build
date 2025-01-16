@@ -68,6 +68,15 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+browser_reviewchecker
+.
+toml
+"
 ]
 with
 Files
