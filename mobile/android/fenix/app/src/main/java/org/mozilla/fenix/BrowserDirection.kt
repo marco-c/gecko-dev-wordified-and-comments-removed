@@ -315,14 +315,6 @@ id
 .
 recentlyClosedFragment
 )
-FromReviewQualityCheck
-(
-R
-.
-id
-.
-reviewQualityCheckFragment
-)
 FromAddonsManagementFragment
 (
 R

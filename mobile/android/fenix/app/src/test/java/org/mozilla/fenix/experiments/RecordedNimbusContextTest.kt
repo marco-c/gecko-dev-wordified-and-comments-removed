@@ -426,13 +426,6 @@ install_referrer_response_utm_content
 put
 (
 "
-is_review_checker_enabled
-"
-false
-)
-put
-(
-"
 android_sdk_version
 "
 Build
@@ -697,13 +690,6 @@ put
 (
 "
 isFirstRun
-"
-false
-)
-put
-(
-"
-isReviewCheckerEnabled
 "
 false
 )

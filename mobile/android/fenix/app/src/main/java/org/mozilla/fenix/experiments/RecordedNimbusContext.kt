@@ -401,10 +401,6 @@ utmContent
 :
 String
 val
-isReviewCheckerEnabled
-:
-Boolean
-val
 androidSdkVersion
 :
 String
@@ -636,9 +632,6 @@ utmTerm
 installReferrerResponseUtmContent
 =
 utmContent
-isReviewCheckerEnabled
-=
-isReviewCheckerEnabled
 androidSdkVersion
 =
 androidSdkVersion
@@ -875,11 +868,6 @@ install_referrer_response_utm_content
 to
 utmContent
 "
-is_review_checker_enabled
-"
-to
-isReviewCheckerEnabled
-"
 android_sdk_version
 "
 to
@@ -1068,11 +1056,6 @@ utmContent
 settings
 .
 utmContent
-isReviewCheckerEnabled
-=
-settings
-.
-isReviewQualityCheckEnabled
 appVersion
 =
 packageInfo
@@ -1188,9 +1171,6 @@ utmContent
 =
 "
 "
-isReviewCheckerEnabled
-=
-false
 appVersion
 =
 "

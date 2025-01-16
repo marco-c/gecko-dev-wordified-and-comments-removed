@@ -375,12 +375,6 @@ isFirstRun
 settings
 .
 isFirstNimbusRun
-val
-isReviewCheckerEnabled
-=
-settings
-.
-isReviewQualityCheckEnabled
 return
 JSONObject
 (
@@ -401,11 +395,6 @@ is_first_run
 "
 to
 isFirstRun
-"
-is_review_checker_enabled
-"
-to
-isReviewCheckerEnabled
 "
 install_referrer_response_utm_source
 "
