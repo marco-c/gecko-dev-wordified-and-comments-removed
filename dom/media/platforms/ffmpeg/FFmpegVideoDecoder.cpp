@@ -12043,16 +12043,6 @@ data
 [
 0
 ]
-|
-|
-!
-mFrame
--
->
-data
-[
-1
-]
 )
 {
 nsPrintfCString
@@ -12061,8 +12051,6 @@ msg
 "
 Frame
 data
-and
-index
 shouldn
 '
 t
