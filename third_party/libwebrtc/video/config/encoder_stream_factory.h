@@ -238,7 +238,7 @@ webrtc
 :
 :
 Resolution
-GetLayerResolutionFromRequestedResolution
+GetLayerResolutionFromScaleResolutionDownTo
 (
 int
 in_frame_width
@@ -248,7 +248,7 @@ webrtc
 :
 :
 Resolution
-requested_resolution
+scale_resolution_down_to
 )
 const
 ;

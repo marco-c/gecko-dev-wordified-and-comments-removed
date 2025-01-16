@@ -302,7 +302,7 @@ EXPECT_FALSE
 (
 controller
 .
-requested_resolution
+scale_resolution_down_to
 (
 )
 .
@@ -879,7 +879,7 @@ RequestRefreshFrame
 TEST
 (
 VideoSourceSinkControllerTest
-RequestedResolutionPropagatesToWants
+ScaleResolutionDownToPropagatesToWants
 )
 {
 MockVideoSinkWithVideoFrame
@@ -899,7 +899,7 @@ source
 ;
 controller
 .
-SetRequestedResolution
+SetScaleResolutionDownTo
 (
 FrameSize
 (
@@ -912,7 +912,7 @@ EXPECT_TRUE
 (
 controller
 .
-requested_resolution
+scale_resolution_down_to
 (
 )
 .

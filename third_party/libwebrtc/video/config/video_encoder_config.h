@@ -190,7 +190,7 @@ optional
 <
 Resolution
 >
-requested_resolution
+scale_resolution_down_to
 ;
 }
 ;
@@ -480,7 +480,7 @@ ToString
 const
 ;
 bool
-HasRequestedResolution
+HasScaleResolutionDownTo
 (
 )
 const

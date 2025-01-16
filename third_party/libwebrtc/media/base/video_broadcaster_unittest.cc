@@ -1975,7 +1975,7 @@ VideoTrackSourceConstraints
 TEST
 (
 VideoBroadcasterTest
-AppliesMaxOfSinkWantsRequestedResolution
+AppliesMaxOfSinkWantsScaleResolutionDownTo
 )
 {
 VideoBroadcaster
@@ -2202,7 +2202,7 @@ is_active
 TEST
 (
 VideoBroadcasterTest
-AnyActiveWithoutRequestedResolution
+AnyActiveWithoutScaleResolutionDownTo
 )
 {
 VideoBroadcaster

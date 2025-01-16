@@ -516,7 +516,7 @@ webrtc
 :
 Resolution
 >
-requested_resolution_
+scale_resolution_down_to_
 RTC_GUARDED_BY
 (
 mutex_

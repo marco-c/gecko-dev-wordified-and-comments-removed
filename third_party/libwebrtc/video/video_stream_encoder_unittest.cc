@@ -15037,7 +15037,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 .
 emplace
 (
@@ -15098,7 +15098,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 -
 >
 height
@@ -15112,7 +15112,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 -
 >
 width
@@ -15244,7 +15244,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -37718,8 +37718,8 @@ class
 FrameResolutionChangeMethod
 {
 MODIFY_SOURCE
-MODIFY_REQUESTED_RESOLUTION
-MODIFY_SCALE_RESOLUTION_BY
+MODIFY_SCALE_RESOLUTION_DOWN_TO
+MODIFY_SCALE_RESOLUTION_DOWN_BY
 }
 ;
 class
@@ -37785,7 +37785,7 @@ case
 FrameResolutionChangeMethod
 :
 :
-MODIFY_REQUESTED_RESOLUTION
+MODIFY_SCALE_RESOLUTION_DOWN_TO
 :
 video_encoder_config_
 .
@@ -37807,7 +37807,7 @@ case
 FrameResolutionChangeMethod
 :
 :
-MODIFY_SCALE_RESOLUTION_BY
+MODIFY_SCALE_RESOLUTION_DOWN_BY
 :
 captureWidth
 =
@@ -37855,7 +37855,7 @@ case
 FrameResolutionChangeMethod
 :
 :
-MODIFY_REQUESTED_RESOLUTION
+MODIFY_SCALE_RESOLUTION_DOWN_TO
 :
 ASSERT_THAT
 (
@@ -37875,7 +37875,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 .
 emplace
 (
@@ -37913,7 +37913,7 @@ case
 FrameResolutionChangeMethod
 :
 :
-MODIFY_SCALE_RESOLUTION_BY
+MODIFY_SCALE_RESOLUTION_DOWN_BY
 :
 ASSERT_THAT
 (
@@ -38047,11 +38047,11 @@ MODIFY_SOURCE
 FrameResolutionChangeMethod
 :
 :
-MODIFY_REQUESTED_RESOLUTION
+MODIFY_SCALE_RESOLUTION_DOWN_TO
 FrameResolutionChangeMethod
 :
 :
-MODIFY_SCALE_RESOLUTION_BY
+MODIFY_SCALE_RESOLUTION_DOWN_BY
 )
 )
 ;

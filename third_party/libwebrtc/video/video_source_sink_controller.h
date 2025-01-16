@@ -229,7 +229,7 @@ VideoSinkWants
 :
 FrameSize
 >
-requested_resolution
+scale_resolution_down_to
 (
 )
 const
@@ -308,7 +308,7 @@ active
 )
 ;
 void
-SetRequestedResolution
+SetScaleResolutionDownTo
 (
 std
 :
@@ -323,7 +323,7 @@ VideoSinkWants
 :
 FrameSize
 >
-requested_resolution
+scale_resolution_down_to
 )
 ;
 private
@@ -470,7 +470,7 @@ VideoSinkWants
 :
 FrameSize
 >
-requested_resolution_
+scale_resolution_down_to_
 RTC_GUARDED_BY
 (
 &
