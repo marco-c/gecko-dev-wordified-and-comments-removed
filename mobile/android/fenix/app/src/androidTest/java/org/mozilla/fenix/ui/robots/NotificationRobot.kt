@@ -1866,6 +1866,16 @@ assertUIObjectExists
 (
 itemContainingText
 (
+appName
+)
+exists
+=
+false
+)
+assertUIObjectExists
+(
+itemContainingText
+(
 notificationItem
 )
 )
