@@ -162,6 +162,13 @@ reflect
 :
 true
 }
+onOriginClick
+:
+{
+type
+:
+Function
+}
 }
 ;
 static
@@ -336,6 +343,13 @@ href
 this
 .
 value
+}
+click
+=
+{
+this
+.
+onOriginClick
 }
 >
 {
