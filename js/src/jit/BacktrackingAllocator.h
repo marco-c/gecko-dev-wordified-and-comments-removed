@@ -4092,7 +4092,9 @@ size_t
 findFirstNonCallSafepoint
 (
 CodePosition
-from
+pos
+size_t
+startFrom
 )
 ;
 void
@@ -4104,6 +4106,9 @@ reg
 LiveRange
 *
 range
+size_t
+*
+firstNonCallSafepoint
 )
 ;
 [
