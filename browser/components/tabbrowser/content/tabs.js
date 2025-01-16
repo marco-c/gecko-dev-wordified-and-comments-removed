@@ -13043,7 +13043,7 @@ middleTab
 =
 gBrowser
 .
-visibleTabs
+tabs
 [
 i
 ]
