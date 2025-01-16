@@ -49985,6 +49985,12 @@ source
 tabGroupId
 )
 ;
+group
+.
+select
+(
+)
+;
 return
 group
 ;
@@ -50237,6 +50243,12 @@ this
 forgetSavedTabGroup
 (
 tabGroupId
+)
+;
+group
+.
+select
+(
 )
 ;
 return
