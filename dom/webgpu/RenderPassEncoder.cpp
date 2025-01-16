@@ -254,8 +254,7 @@ ffi
 :
 WGPUColor
 color
-;
-color
+{
 .
 r
 =
@@ -268,8 +267,6 @@ SafeElementAt
 .
 0
 )
-;
-color
 .
 g
 =
@@ -282,8 +279,6 @@ SafeElementAt
 .
 0
 )
-;
-color
 .
 b
 =
@@ -296,8 +291,6 @@ SafeElementAt
 .
 0
 )
-;
-color
 .
 a
 =
@@ -310,6 +303,7 @@ SafeElementAt
 .
 0
 )
+}
 ;
 return
 color
