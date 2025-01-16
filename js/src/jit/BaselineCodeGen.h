@@ -1734,6 +1734,11 @@ JSContext
 cx
 )
 ;
+MethodStatus
+compileOffThread
+(
+)
+;
 bool
 finishCompile
 (
