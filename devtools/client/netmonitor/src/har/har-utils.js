@@ -262,6 +262,10 @@ defaultFileName
 jsonp
 compress
 hostname
+pathname
+=
+"
+"
 )
 {
 const
@@ -317,6 +321,8 @@ hostname
 /
 g
 hostname
++
+pathname
 )
 ;
 name
