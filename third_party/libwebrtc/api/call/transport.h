@@ -49,9 +49,9 @@ packet_id
 1
 ;
 bool
-is_retransmit
+is_media
 =
-false
+true
 ;
 bool
 included_in_feedback

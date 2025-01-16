@@ -887,8 +887,8 @@ now
 ;
 }
 }
-const
-bool
+options
+.
 is_media
 =
 packet
@@ -917,13 +917,6 @@ RtpPacketMediaType
 :
 :
 kVideo
-;
-options
-.
-is_retransmit
-=
-!
-is_media
 ;
 if
 (
@@ -1033,6 +1026,8 @@ pacing_info
 ;
 if
 (
+options
+.
 is_media
 &
 &
