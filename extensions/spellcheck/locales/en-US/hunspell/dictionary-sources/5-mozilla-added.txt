@@ -10605,6 +10605,9 @@ bioinformatic
 s
 bioinformatics
 biologies
+bioluminescence
+bioluminescences
+bioluminescent
 biomasses
 biomechanics
 biomedicine
@@ -10657,6 +10660,8 @@ bon
 bona
 bono
 bons
+bookmarklet
+bookmarklets
 bookselling
 boson
 bougie
@@ -10703,6 +10708,8 @@ cardiomegaly
 carnitas
 carte
 cartes
+catenaries
+catenary
 cerevisiae
 cerevisiae
 '
@@ -10816,6 +10823,7 @@ coproduct
 '
 s
 coproducts
+copular
 copyrightable
 corrigibility
 corrigibility
@@ -10862,6 +10870,7 @@ crimeware
 '
 s
 criminalization
+cromulent
 crore
 crore
 '
@@ -10973,6 +10982,8 @@ degenerations
 dehydrogenase
 '
 s
+demonization
+demonizations
 demonym
 demonyms
 dequeuing
@@ -11057,6 +11068,8 @@ donator
 '
 s
 donators
+doomer
+doomers
 doozie
 doozy
 dox
@@ -11316,6 +11329,12 @@ greyness
 '
 s
 greys
+grift
+grifted
+grifter
+grifters
+grifting
+grifts
 guac
 gunsmoke
 habanero
@@ -11366,6 +11385,8 @@ hypotheticals
 iPods
 iatrogenesis
 iatrogenic
+ideation
+ideations
 idolator
 idolator
 '
@@ -11495,6 +11516,8 @@ s
 kibibytes
 klansmen
 kleptocracies
+kleptocrat
+kleptocrats
 kludgy
 kombucha
 kryptonite
@@ -11704,6 +11727,10 @@ neato
 neoadjuvant
 neurocysticercoses
 neurocysticercosis
+neuropathic
+neuropathically
+neuropathies
+neuropathy
 neurophysiology
 '
 s
@@ -11753,6 +11780,7 @@ operationalizing
 opposable
 opposer
 oppositional
+ourself
 outlier
 '
 s
@@ -11762,6 +11790,10 @@ overinclusion
 overinclusive
 overrich
 overrichness
+oversaturate
+oversaturated
+oversaturates
+oversaturation
 oxymoronic
 oxymoronically
 oy
@@ -11840,6 +11872,8 @@ pixelate
 pixelated
 pixelates
 plaintext
+platformer
+platformers
 plusses
 polarizer
 polarizers
@@ -12043,6 +12077,7 @@ renderer
 s
 renderers
 renewables
+renewably
 renominations
 repartitions
 repaver
@@ -12116,6 +12151,12 @@ ribbies
 roadmap
 roadmaps
 rollout
+romanization
+romanizations
+romanize
+romanized
+romanizes
+romanizing
 rotatable
 rotatably
 rotator

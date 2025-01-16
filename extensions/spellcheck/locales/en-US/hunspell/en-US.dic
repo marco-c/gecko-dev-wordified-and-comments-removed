@@ -1,4 +1,4 @@
-53569
+53587
 0
 /
 nm
@@ -47843,6 +47843,10 @@ MS
 biology
 /
 SM
+bioluminescence
+/
+S
+bioluminescent
 biomarker
 /
 MS
@@ -49259,6 +49263,9 @@ M
 bookmark
 /
 SMDG
+bookmarklet
+/
+S
 bookmobile
 /
 SM
@@ -53089,6 +53096,9 @@ GDS
 category
 /
 SM
+catenary
+/
+S
 cater
 /
 ZGJDRS
@@ -59259,6 +59269,7 @@ SM
 copula
 /
 SM
+copular
 copulate
 /
 GNVDS
@@ -60871,6 +60882,7 @@ SRZG
 croissant
 /
 MS
+cromulent
 crone
 /
 SM
@@ -63400,6 +63412,9 @@ demoniacal
 Y
 demonic
 demonically
+demonization
+/
+S
 demonize
 /
 GDS
@@ -66201,7 +66216,7 @@ SM
 doolally
 doom
 /
-MDGS
+MDRZGS
 doomsayer
 /
 MS
@@ -79340,6 +79355,9 @@ SM
 griffon
 /
 SM
+grift
+/
+ZGSDR
 grill
 /
 SGMDJ
@@ -84350,6 +84368,9 @@ MS
 idealize
 /
 DSG
+ideation
+/
+S
 idem
 idempotent
 identical
@@ -89585,6 +89606,9 @@ klaxon
 /
 S
 kleptocracy
+/
+S
+kleptocrat
 /
 S
 kleptomania
@@ -99876,6 +99900,11 @@ neuron
 /
 MS
 neuronal
+neuropathic
+neuropathically
+neuropathy
+/
+S
 neurophysiology
 '
 s
@@ -103079,6 +103108,7 @@ MS
 our
 /
 S
+ourself
 ourselves
 oust
 /
@@ -103851,6 +103881,9 @@ overrun
 SM
 overrunning
 oversampling
+oversaturate
+/
+NDS
 oversaw
 oversea
 /
@@ -108277,7 +108310,7 @@ platen
 M
 platform
 /
-SGMD
+SZGMDR
 plating
 /
 M
@@ -115476,6 +115509,7 @@ DSBG
 renewable
 /
 S
+renewably
 renewal
 /
 MS
@@ -117196,6 +117230,12 @@ MZGDRS
 romancer
 /
 M
+romanization
+/
+S
+romanize
+/
+GDS
 romantic
 /
 MS
