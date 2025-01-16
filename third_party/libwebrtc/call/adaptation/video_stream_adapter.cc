@@ -3850,7 +3850,6 @@ BroadcastVideoRestrictionsUpdate
 const
 VideoStreamInputState
 &
-input_state
 const
 rtc
 :

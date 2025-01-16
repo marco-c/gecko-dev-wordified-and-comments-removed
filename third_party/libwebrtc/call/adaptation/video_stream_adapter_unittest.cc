@@ -638,11 +638,9 @@ void
 OnVideoSourceRestrictionsUpdated
 (
 VideoSourceRestrictions
-restrictions
 const
 VideoAdaptationCounters
 &
-adaptation_counters
 rtc
 :
 :
@@ -650,7 +648,6 @@ scoped_refptr
 <
 Resource
 >
-reason
 const
 VideoSourceRestrictions
 &

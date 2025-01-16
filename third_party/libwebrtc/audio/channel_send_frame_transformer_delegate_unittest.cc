@@ -1198,7 +1198,6 @@ unique_ptr
 <
 TransformableFrameInterface
 >
-frame
 )
 {
 callback

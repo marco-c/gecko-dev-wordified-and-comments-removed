@@ -2187,7 +2187,6 @@ ResourceAdaptationProcessor
 OnVideoSourceRestrictionsUpdated
 (
 VideoSourceRestrictions
-restrictions
 const
 VideoAdaptationCounters
 &

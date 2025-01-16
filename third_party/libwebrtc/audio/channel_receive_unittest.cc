@@ -776,7 +776,6 @@ HandleGeneratedRtcp
 (
 ChannelReceiveInterface
 &
-channel
 rtc
 :
 :

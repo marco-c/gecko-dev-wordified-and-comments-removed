@@ -647,7 +647,6 @@ AudioReceiveStreamImpl
 const
 Environment
 &
-env
 PacketRouter
 *
 packet_router

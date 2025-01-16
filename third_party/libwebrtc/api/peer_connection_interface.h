@@ -2706,7 +2706,6 @@ unique_ptr
 <
 SessionDescriptionInterface
 >
-desc
 rtc
 :
 :
@@ -2714,7 +2713,6 @@ scoped_refptr
 <
 SetLocalDescriptionObserverInterface
 >
-observer
 )
 {
 }
@@ -2729,7 +2727,6 @@ scoped_refptr
 <
 SetLocalDescriptionObserverInterface
 >
-observer
 )
 {
 }
@@ -2753,7 +2750,6 @@ SetLocalDescription
 (
 SetSessionDescriptionObserver
 *
-observer
 )
 {
 }
@@ -2787,10 +2783,8 @@ SetRemoteDescription
 (
 SetSessionDescriptionObserver
 *
-observer
 SessionDescriptionInterface
 *
-desc
 )
 {
 }
@@ -2853,7 +2847,6 @@ unique_ptr
 <
 IceCandidateInterface
 >
-candidate
 std
 :
 :
@@ -2864,7 +2857,6 @@ void
 RTCError
 )
 >
-callback
 )
 {
 }

@@ -341,7 +341,6 @@ string_view
 const
 VideoFrame
 &
-frame
 )
 {
 }
@@ -353,13 +352,10 @@ absl
 :
 :
 string_view
-peer_name
 const
 VideoFrame
 &
-frame
 int32_t
-error_code
 )
 {
 }
@@ -371,15 +367,11 @@ absl
 :
 :
 string_view
-peer_name
 uint16_t
-frame_id
 int32_t
-error_code
 const
 DecoderStats
 &
-stats
 )
 {
 }
@@ -390,7 +382,6 @@ absl
 :
 :
 string_view
-pc_label
 const
 rtc
 :
@@ -401,7 +392,6 @@ const
 RTCStatsReport
 >
 &
-report
 )
 override
 {
@@ -414,7 +404,6 @@ absl
 :
 :
 string_view
-peer_name
 )
 {
 }
@@ -426,7 +415,6 @@ absl
 :
 :
 string_view
-peer_name
 )
 {
 }
@@ -438,12 +426,10 @@ absl
 :
 :
 string_view
-sender_peer_name
 absl
 :
 :
 string_view
-receiver_peer_name
 )
 {
 }
@@ -455,12 +441,10 @@ absl
 :
 :
 string_view
-sender_peer_name
 absl
 :
 :
 string_view
-receiver_peer_name
 )
 {
 }
@@ -492,7 +476,6 @@ string
 GetSenderPeerName
 (
 uint16_t
-frame_id
 )
 const
 {

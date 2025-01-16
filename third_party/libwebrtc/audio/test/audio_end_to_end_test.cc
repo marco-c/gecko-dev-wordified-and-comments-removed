@@ -217,7 +217,6 @@ AudioDeviceModule
 send_audio_device
 AudioDeviceModule
 *
-recv_audio_device
 )
 {
 send_audio_device_
@@ -248,7 +247,6 @@ AudioReceiveStreamInterface
 Config
 >
 *
-receive_configs
 )
 {
 const

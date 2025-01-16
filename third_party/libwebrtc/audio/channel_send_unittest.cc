@@ -977,7 +977,6 @@ data
 const
 PacketOptions
 &
-options
 )
 {
 +

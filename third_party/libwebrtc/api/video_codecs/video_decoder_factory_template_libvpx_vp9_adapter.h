@@ -90,7 +90,6 @@ CreateDecoder
 const
 SdpVideoFormat
 &
-format
 )
 {
 return

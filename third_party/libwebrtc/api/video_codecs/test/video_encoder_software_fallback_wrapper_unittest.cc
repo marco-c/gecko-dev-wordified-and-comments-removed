@@ -495,11 +495,9 @@ OnEncodedImage
 const
 EncodedImage
 &
-encoded_image
 const
 CodecSpecificInfo
 *
-codec_specific_info
 )
 override
 {
@@ -610,7 +608,6 @@ SetFecControllerOverride
 (
 FecControllerOverride
 *
-fec_controller_override
 )
 override
 {
@@ -621,14 +618,12 @@ InitEncode
 const
 VideoCodec
 *
-codec_settings
 const
 VideoEncoder
 :
 :
 Settings
 &
-settings
 )
 override
 {
@@ -656,7 +651,6 @@ vector
 VideoFrameType
 >
 *
-frame_types
 )
 override
 {
@@ -732,7 +726,6 @@ SetRates
 const
 RateControlParameters
 &
-parameters
 )
 override
 {
@@ -5688,7 +5681,6 @@ void
 SetFecAllowed
 (
 bool
-fec_allowed
 )
 override
 {

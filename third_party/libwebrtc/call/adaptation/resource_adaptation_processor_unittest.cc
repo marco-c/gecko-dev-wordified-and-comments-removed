@@ -311,7 +311,6 @@ reason
 const
 VideoSourceRestrictions
 &
-unfiltered_restrictions
 )
 override
 {

@@ -163,7 +163,6 @@ env
 const
 SdpVideoFormat
 &
-format
 )
 {
 return

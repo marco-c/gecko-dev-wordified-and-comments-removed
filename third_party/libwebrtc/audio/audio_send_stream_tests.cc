@@ -325,7 +325,6 @@ AudioReceiveStreamInterface
 Config
 >
 *
-receive_configs
 )
 override
 {
@@ -469,7 +468,6 @@ AudioReceiveStreamInterface
 Config
 >
 *
-receive_configs
 )
 override
 {
@@ -676,7 +674,6 @@ AudioReceiveStreamInterface
 Config
 >
 *
-receive_configs
 )
 override
 {
@@ -888,7 +885,6 @@ AudioReceiveStreamInterface
 Config
 >
 *
-receive_configs
 )
 override
 {
@@ -1164,7 +1160,6 @@ AudioReceiveStreamInterface
 *
 >
 &
-receive_streams
 )
 override
 {

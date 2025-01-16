@@ -424,7 +424,6 @@ Environment
 const
 SdpVideoFormat
 &
-format
 )
 {
 return
