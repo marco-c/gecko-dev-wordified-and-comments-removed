@@ -16,12 +16,10 @@ define
 NS_LOCAL_FILE_CID
 \
 {
-\
 0x2e23e220
 0x60be
 0x11d3
 {
-\
 0x8c
 0x4a
 0x00
@@ -30,9 +28,7 @@ NS_LOCAL_FILE_CID
 0x65
 0x73
 0x74
-\
 }
-\
 }
 #
 define
