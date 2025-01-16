@@ -11961,6 +11961,17 @@ rtx
 .
 emplace
 (
+decltype
+(
+stream_config
+.
+rtx
+)
+:
+:
+value_type
+(
+)
 )
 ;
 rtx
