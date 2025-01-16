@@ -4516,7 +4516,7 @@ aCodecContext
 -
 >
 coded_height
-16
+32
 )
 ;
 if
