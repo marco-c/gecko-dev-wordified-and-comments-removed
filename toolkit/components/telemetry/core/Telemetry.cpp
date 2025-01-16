@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsLocalFile
-.
-h
-"
-#
-include
-"
 nsNativeCharsetUtils
 .
 h
@@ -5916,7 +5909,6 @@ TelemetryUserInteraction
 :
 InitializeGlobalState
 (
-useTelemetry
 useTelemetry
 )
 ;

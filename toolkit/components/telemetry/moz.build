@@ -331,7 +331,7 @@ Stopwatch
 h
 "
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -431,7 +431,7 @@ uikit
 "
 )
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -456,7 +456,7 @@ cpp
 ]
 else
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -492,7 +492,7 @@ OS_ARCH
 WINNT
 "
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
