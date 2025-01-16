@@ -238,5 +238,10 @@ onClick
 (
 invertedMode
 )
+browsingModeManager
+.
+mode
+=
+invertedMode
 }
 }

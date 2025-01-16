@@ -330,16 +330,6 @@ appbar
 CollapsingToolbarLayout
 android
 :
-id
-=
-"
-+
-id
-/
-homeAppBarContent
-"
-android
-:
 layout_width
 =
 "
