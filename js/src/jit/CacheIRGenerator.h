@@ -2609,6 +2609,15 @@ emitLoadArgsArray
 )
 ;
 ValOperandId
+loadBoundArgument
+(
+ObjOperandId
+calleeId
+size_t
+argIndex
+)
+;
+ValOperandId
 loadThis
 (
 ObjOperandId
