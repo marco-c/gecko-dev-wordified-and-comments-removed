@@ -131,6 +131,13 @@ int64_t
 ;
 }
 TimeDelta
+CompactNtpIntervalToTimeDelta
+(
+uint32_t
+compact_ntp_interval
+)
+;
+TimeDelta
 CompactNtpRttToTimeDelta
 (
 uint32_t
