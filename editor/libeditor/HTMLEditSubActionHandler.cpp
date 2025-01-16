@@ -57852,7 +57852,7 @@ Yes
 BRElementType
 :
 :
-Normal
+PaddingForEmptyLastLine
 pointToInsertPaddingBR
 )
 ;
@@ -57885,7 +57885,7 @@ Yes
 BRElementType
 :
 :
-Normal
+PaddingForEmptyLastLine
 )
 failed
 "
