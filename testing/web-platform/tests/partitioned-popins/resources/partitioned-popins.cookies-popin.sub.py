@@ -678,24 +678,10 @@ granted
 ;
   
 await
-test_driver
-.
-bless
-(
-"
-fake
-user
-interaction
-"
-(
-)
-=
->
 document
 .
 requestStorageAccess
 (
-)
 )
 ;
   
