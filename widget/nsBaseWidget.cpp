@@ -2378,10 +2378,14 @@ RemoveFromChildList
 this
 )
 ;
-}
 mParent
 =
 nullptr
+;
+}
+RemoveAllChildren
+(
+)
 ;
 }
 nsIWidget

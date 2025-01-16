@@ -12749,10 +12749,6 @@ kungFuDeathGrip
 this
 )
 ;
-RemoveAllChildren
-(
-)
-;
 nsBaseWidget
 :
 :

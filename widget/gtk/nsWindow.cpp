@@ -2893,10 +2893,6 @@ Destroy
 (
 )
 ;
-RemoveAllChildren
-(
-)
-;
 NotifyWindowDestroyed
 (
 )
