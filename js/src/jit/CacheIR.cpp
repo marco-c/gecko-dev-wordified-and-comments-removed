@@ -33597,7 +33597,9 @@ ArgumentKind
 :
 :
 Callee
-argc_
+stackArgc
+(
+)
 flags_
 )
 ;
@@ -33631,7 +33633,9 @@ ArgumentKind
 :
 :
 Callee
-argc_
+stackArgc
+(
+)
 )
 ;
 break
@@ -33882,7 +33886,9 @@ ArgumentKind
 :
 :
 This
-argc_
+stackArgc
+(
+)
 )
 ;
 }
@@ -34099,7 +34105,9 @@ ArgumentKind
 :
 :
 NewTarget
-argc_
+stackArgc
+(
+)
 flags_
 )
 ;
@@ -34232,7 +34240,9 @@ writer
 loadArgumentFixedSlot
 (
 argKind
-argc_
+stackArgc
+(
+)
 )
 ;
 }
@@ -34500,7 +34510,9 @@ ArgumentKind
 :
 :
 This
-argc_
+stackArgc
+(
+)
 flags_
 )
 ;
@@ -34562,7 +34574,9 @@ calleeId
 }
 if
 (
-argc_
+stackArgc
+(
+)
 =
 =
 0
@@ -34585,7 +34599,9 @@ ArgumentKind
 :
 :
 This
-argc_
+stackArgc
+(
+)
 -
 1
 )
@@ -34604,7 +34620,9 @@ FunApplyArgsObj
 :
 MOZ_ASSERT
 (
-argc_
+stackArgc
+(
+)
 >
 0
 )
@@ -34634,7 +34652,9 @@ ArgumentKind
 :
 :
 This
-argc_
+stackArgc
+(
+)
 -
 1
 )
@@ -34876,7 +34896,9 @@ writer
 loadArgumentFixedSlot
 (
 kind
-argc_
+stackArgc
+(
+)
 flags_
 )
 ;
@@ -34897,13 +34919,17 @@ writer
 loadArgumentFixedSlot
 (
 kind
-argc_
+stackArgc
+(
+)
 )
 ;
 }
 MOZ_ASSERT
 (
-argc_
+stackArgc
+(
+)
 >
 1
 )
@@ -34914,7 +34940,9 @@ writer
 loadArgumentFixedSlot
 (
 kind
-argc_
+stackArgc
+(
+)
 -
 1
 )
@@ -55941,7 +55969,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -60233,7 +60260,9 @@ NoAction
 }
 MOZ_ASSERT
 (
-argc_
+stackArgc
+(
+)
 =
 =
 args_
@@ -60242,7 +60271,7 @@ length
 (
 )
 "
-argc_
+argc
 matches
 number
 of
@@ -60964,7 +60993,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -61054,7 +61082,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -62164,7 +62191,6 @@ callee
 newTarget_
 thisval_
 args_
-argc_
 flags
 )
 ;
@@ -67558,7 +67584,6 @@ target
 newTarget_
 thisValue
 args
-argc_
 flags
 )
 ;
@@ -68129,7 +68154,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -68611,7 +68635,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -69076,7 +69099,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
@@ -69523,7 +69545,6 @@ target
 newTarget
 thisValue
 args
-argc_
 targetFlags
 )
 ;
