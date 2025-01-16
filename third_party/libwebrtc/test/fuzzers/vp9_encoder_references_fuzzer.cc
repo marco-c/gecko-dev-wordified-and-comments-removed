@@ -1298,6 +1298,16 @@ VP9
 -
 SvcForSimulcast
 "
+|
+|
+key
+=
+=
+"
+WebRTC
+-
+StableTargetRate
+"
 )
 {
 return
