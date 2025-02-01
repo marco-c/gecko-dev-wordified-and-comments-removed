@@ -11,6 +11,15 @@ loglevel
 =
 Debug
 "
+"
+captchadetection
+.
+actor
+.
+enabled
+=
+true
+"
 ]
 scheme
 =
