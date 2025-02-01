@@ -63,7 +63,14 @@ html
 "
 file_expandosharing
 .
-jsm
+sys
+.
+mjs
+"
+"
+file_expandosharing
+.
+js
 "
 "
 outoflinexulscript

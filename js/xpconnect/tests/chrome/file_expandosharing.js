@@ -1,14 +1,5 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-checkFromJSM
-"
-]
-;
 function
-checkFromJSM
+checkFromESM
 (
 target
 is_op
