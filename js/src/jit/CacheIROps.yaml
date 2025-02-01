@@ -1329,6 +1329,9 @@ RawInt32Field
 generationAddr
 :
 RawPointerField
+realmAddr
+:
+RawPointerField
 -
 name
 :

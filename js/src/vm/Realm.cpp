@@ -374,6 +374,10 @@ wasm
 (
 runtime_
 )
+generationCounterDependentScripts
+(
+runtime_
+)
 {
 runtime_
 -

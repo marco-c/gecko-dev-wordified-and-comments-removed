@@ -7028,6 +7028,15 @@ stubOffset
 (
 )
 ;
+(
+void
+)
+cacheIRReader
+.
+stubOffset
+(
+)
+;
 uint32_t
 expected
 =

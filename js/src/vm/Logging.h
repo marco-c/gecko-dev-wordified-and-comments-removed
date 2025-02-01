@@ -293,6 +293,17 @@ proto
 *
 /
 \
+_
+(
+compilationDependency
+)
+/
+*
+compilation
+dependency
+*
+/
+\
 JITSPEW_CHANNEL_LIST
 (
 _
