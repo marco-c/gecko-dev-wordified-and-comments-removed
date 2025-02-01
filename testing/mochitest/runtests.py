@@ -23452,6 +23452,26 @@ options
 useHttp2Server
                 
 "
+inc_origin_init
+"
+:
+os
+.
+environ
+.
+get
+(
+"
+MOZ_ENABLE_INC_ORIGIN_INIT
+"
+)
+=
+=
+"
+1
+"
+                
+"
 sessionHistoryInParent
 "
 :
