@@ -1892,7 +1892,7 @@ dispatch
 (
 MenuAction
 .
-ShowCFR
+OnCFRShown
 )
 }
 onDismiss
@@ -1904,7 +1904,7 @@ dispatch
 (
 MenuAction
 .
-DismissCFR
+OnCFRDismiss
 )
 }
 )

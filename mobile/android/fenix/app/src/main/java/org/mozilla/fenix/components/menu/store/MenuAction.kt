@@ -1227,7 +1227,7 @@ CFR
 /
 data
 object
-ShowCFR
+OnCFRShown
 :
 MenuAction
 (
@@ -1251,7 +1251,7 @@ dismissed
 /
 data
 object
-DismissCFR
+OnCFRDismiss
 :
 MenuAction
 (

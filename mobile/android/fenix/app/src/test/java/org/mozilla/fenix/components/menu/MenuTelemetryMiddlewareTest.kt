@@ -2934,7 +2934,7 @@ dispatch
 (
 MenuAction
 .
-ShowCFR
+OnCFRShown
 )
 .
 joinBlocking
@@ -2986,7 +2986,7 @@ dispatch
 (
 MenuAction
 .
-DismissCFR
+OnCFRDismiss
 )
 .
 joinBlocking

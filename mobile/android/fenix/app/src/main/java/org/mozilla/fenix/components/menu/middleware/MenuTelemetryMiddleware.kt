@@ -1250,7 +1250,7 @@ open_in_regular_tab
 }
 MenuAction
 .
-ShowCFR
+OnCFRShown
 -
 >
 Menu
@@ -1265,7 +1265,7 @@ NoExtras
 )
 MenuAction
 .
-DismissCFR
+OnCFRDismiss
 -
 >
 Menu

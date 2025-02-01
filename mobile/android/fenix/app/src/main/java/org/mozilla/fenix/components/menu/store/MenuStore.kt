@@ -251,7 +251,7 @@ ToolsMenuClicked
 is
 MenuAction
 .
-ShowCFR
+OnCFRShown
 is
 MenuAction
 .
@@ -259,7 +259,7 @@ OpenInRegularTab
 is
 MenuAction
 .
-DismissCFR
+OnCFRDismiss
 -
 >
 state

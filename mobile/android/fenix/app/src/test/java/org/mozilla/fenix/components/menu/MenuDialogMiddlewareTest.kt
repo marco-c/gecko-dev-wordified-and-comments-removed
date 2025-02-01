@@ -5656,10 +5656,11 @@ fun
 WHEN
 CFR
 is
-dismissed
+shown
 THEN
-dismiss
+on
 CFR
+shown
 action
 is
 dispatched
@@ -5669,7 +5670,7 @@ dispatched
 runTestOnMain
 {
 var
-dismissWasCalled
+shownWasCalled
 =
 false
 val
@@ -5700,7 +5701,7 @@ null
 onDismiss
 =
 {
-dismissWasCalled
+shownWasCalled
 =
 true
 }
@@ -5711,7 +5712,7 @@ dispatch
 (
 MenuAction
 .
-DismissCFR
+OnCFRShown
 )
 store
 .
@@ -5726,7 +5727,7 @@ shouldShowMenuCFR
 )
 assertFalse
 (
-dismissWasCalled
+shownWasCalled
 )
 }
 Test
