@@ -67,6 +67,12 @@ webcompat
 .
 store
 import
+android
+.
+webkit
+.
+URLUtil
+import
 androidx
 .
 annotation
@@ -372,10 +378,12 @@ get
 (
 )
 =
-enteredUrl
+!
+URLUtil
 .
-isEmpty
+isNetworkUrl
 (
+enteredUrl
 )
 /
 *
