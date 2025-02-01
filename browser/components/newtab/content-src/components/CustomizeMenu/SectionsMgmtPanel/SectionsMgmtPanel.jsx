@@ -1084,12 +1084,6 @@ receivedRank
 type
 =
 {
-following
-?
-"
-destructive
-"
-:
 "
 default
 "
