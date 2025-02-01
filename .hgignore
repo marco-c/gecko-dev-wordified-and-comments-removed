@@ -1564,6 +1564,16 @@ android
 .
 *
 /
+.
+kotlin
+^
+mobile
+/
+android
+/
+.
+*
+/
 bin
 ^
 mobile
