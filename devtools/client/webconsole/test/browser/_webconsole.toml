@@ -5579,7 +5579,7 @@ js
 ]
 [
 "
-browser_webconsole_webextension_promise_rejection
+browser_webconsole_webextension_content_script
 .
 js
 "
