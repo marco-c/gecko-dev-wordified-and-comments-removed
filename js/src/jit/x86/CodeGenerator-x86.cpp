@@ -349,7 +349,7 @@ ToRegister
 box
 -
 >
-spectreTemp
+temp1
 (
 )
 )
