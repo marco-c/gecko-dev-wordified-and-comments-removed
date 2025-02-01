@@ -52588,7 +52588,7 @@ _ns
 OpaqueResponseBlockedTelemetryReason
 :
 :
-MEDIA_NOT_INITIAL
+eMediaNotInitial
 )
 ;
 return
@@ -52638,7 +52638,7 @@ _ns
 OpaqueResponseBlockedTelemetryReason
 :
 :
-MEDIA_INCORRECT_RESP
+eMediaIncorrectResp
 )
 ;
 return
