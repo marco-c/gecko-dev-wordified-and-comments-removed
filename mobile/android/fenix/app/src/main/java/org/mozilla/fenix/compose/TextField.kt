@@ -1395,7 +1395,7 @@ R
 .
 drawable
 .
-mozac_ic_warning_24
+mozac_ic_warning_fill_24
 )
 contentDescription
 =
