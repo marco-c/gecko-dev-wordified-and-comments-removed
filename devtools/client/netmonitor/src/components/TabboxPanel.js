@@ -669,6 +669,16 @@ targetSearchResult
 PropTypes
 .
 object
+defaultRawResponse
+:
+PropTypes
+.
+bool
+setDefaultRawResponse
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -785,8 +795,10 @@ cloneSelectedRequest
 connector
 hideToggleButton
 openLink
+defaultRawResponse
 request
 selectTab
+setDefaultRawResponse
 sourceMapURLService
 toggleNetworkDetails
 targetSearchResult
@@ -1014,6 +1026,8 @@ openLink
 connector
 showMessagesView
 targetSearchResult
+defaultRawResponse
+setDefaultRawResponse
 }
 )
 )
