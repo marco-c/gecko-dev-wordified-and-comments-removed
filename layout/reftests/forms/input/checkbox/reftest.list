@@ -206,10 +206,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-winWidget
 0
 -
 1
@@ -242,10 +239,7 @@ anti
 -
 aliasing
 fuzzy
--
-if
 (
-winWidget
 0
 -
 1
