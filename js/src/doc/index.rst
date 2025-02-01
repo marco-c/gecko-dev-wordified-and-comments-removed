@@ -168,6 +168,7 @@ SavedFrame
 index
 feature_checklist
 bytecode_checklist
+use_counter
 Components
 of
 SpiderMonkey
