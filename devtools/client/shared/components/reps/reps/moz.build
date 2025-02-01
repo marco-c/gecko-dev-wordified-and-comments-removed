@@ -119,6 +119,13 @@ infinity
 js
 "
 "
+json
+-
+number
+.
+js
+"
+"
 nan
 .
 js
