@@ -2099,6 +2099,13 @@ settings
 )
 .
 isMarketingTelemetryEnabled
+&
+&
+settings
+(
+)
+.
+hasMadeMarketingTelemetrySelection
 isDailyUsagePingEnabled
 =
 settings

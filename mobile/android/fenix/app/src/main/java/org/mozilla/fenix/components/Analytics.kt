@@ -1004,6 +1004,15 @@ settings
 )
 .
 isMarketingTelemetryEnabled
+&
+&
+context
+.
+settings
+(
+)
+.
+hasMadeMarketingTelemetrySelection
 }
 isUsageTelemetryEnabled
 =
