@@ -291,16 +291,14 @@ pocket
 ;
 }
 get
-rustSuggestionTypes
+rustSuggestionType
 (
 )
 {
 return
-[
 "
 Pocket
 "
-]
 ;
 }
 get

@@ -290,16 +290,14 @@ mdn
 ;
 }
 get
-rustSuggestionTypes
+rustSuggestionType
 (
 )
 {
 return
-[
 "
 Mdn
 "
-]
 ;
 }
 async

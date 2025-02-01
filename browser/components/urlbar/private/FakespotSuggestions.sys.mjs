@@ -517,16 +517,14 @@ fakespot
 ;
 }
 get
-rustSuggestionTypes
+rustSuggestionType
 (
 )
 {
 return
-[
 "
 Fakespot
 "
-]
 ;
 }
 get

@@ -335,16 +335,14 @@ yelp
 ;
 }
 get
-rustSuggestionTypes
+rustSuggestionType
 (
 )
 {
 return
-[
 "
 Yelp
 "
-]
 ;
 }
 get

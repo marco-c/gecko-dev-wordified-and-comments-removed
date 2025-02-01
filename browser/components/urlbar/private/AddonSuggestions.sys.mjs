@@ -325,16 +325,14 @@ amo
 ;
 }
 get
-rustSuggestionTypes
+rustSuggestionType
 (
 )
 {
 return
-[
 "
 Amo
 "
-]
 ;
 }
 async
