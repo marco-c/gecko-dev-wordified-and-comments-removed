@@ -276,6 +276,11 @@ this
 controller
 .
 isSyncedTabsLoaded
+version
+:
+"
+new
+"
 }
 )
 )
@@ -330,6 +335,11 @@ this
 controller
 .
 isSyncedTabsLoaded
+version
+:
+"
+new
+"
 }
 )
 ;
