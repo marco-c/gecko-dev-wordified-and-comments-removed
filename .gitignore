@@ -402,6 +402,16 @@ ts
 /
 node_modules
 /
+testing
+/
+xpcshell
+/
+moz
+-
+http2
+/
+node_modules
+/
 #
 Ignore
 newtab
