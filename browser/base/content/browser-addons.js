@@ -1908,7 +1908,6 @@ createPrivateBrowsingCheckbox
 {
 const
 {
-onPrivateBrowsingAllowedChanged
 grantPrivateBrowsingAllowed
 }
 =
@@ -1957,6 +1956,19 @@ CheckboxStateChange
 =
 >
 {
+const
+{
+onPrivateBrowsingAllowedChanged
+}
+=
+this
+.
+notification
+.
+options
+.
+customElementOptions
+;
 onPrivateBrowsingAllowedChanged
 ?
 .
