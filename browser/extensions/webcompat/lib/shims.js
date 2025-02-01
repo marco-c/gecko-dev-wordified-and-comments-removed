@@ -2948,9 +2948,6 @@ unblock
 -
 embed
 "
-data
-:
-hostname
 }
 )
 ;
