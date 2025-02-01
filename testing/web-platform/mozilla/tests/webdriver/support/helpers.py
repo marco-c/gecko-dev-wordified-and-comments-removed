@@ -23,6 +23,10 @@ contextlib
 import
 suppress
 from
+copy
+import
+deepcopy
+from
 urllib
 .
 parse
@@ -822,6 +826,9 @@ None
 extra_args
 =
 None
+extra_env
+=
+None
 )
 :
         
@@ -884,6 +891,15 @@ browser
 env
 "
 ]
+        
+self
+.
+extra_env
+=
+extra_env
+or
+{
+}
         
 self
 .
@@ -1037,6 +1053,24 @@ command
 "
 )
         
+all_env
+=
+deepcopy
+(
+self
+.
+env
+)
+        
+all_env
+.
+update
+(
+self
+.
+extra_env
+)
+        
 self
 .
 proc
@@ -1050,9 +1084,7 @@ self
 command
 env
 =
-self
-.
-env
+all_env
 stdout
 =
 subprocess
