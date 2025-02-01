@@ -428,7 +428,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGAnimatedString
+SVGAnimatedScriptHrefString
 mStringAttributes
 [
 2

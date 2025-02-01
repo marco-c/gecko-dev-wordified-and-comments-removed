@@ -147,8 +147,15 @@ Window
 interface
 SVGAnimatedString
 {
+[
+SetterThrows
+]
 attribute
+(
+TrustedScriptURL
+or
 DOMString
+)
 baseVal
 ;
 readonly
