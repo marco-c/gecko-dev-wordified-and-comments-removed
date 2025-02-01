@@ -95,6 +95,9 @@ DIRS
 "
 mozbase
 "
+"
+mozharness
+"
 ]
 PERFTESTS_MANIFESTS
 +

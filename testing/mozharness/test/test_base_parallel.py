@@ -1,5 +1,7 @@
 import
 unittest
+import
+mozunit
 from
 mozharness
 .
@@ -245,4 +247,18 @@ thing
 2
 6
 ]
+)
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+mozunit
+.
+main
+(
 )

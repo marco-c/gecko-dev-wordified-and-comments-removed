@@ -1299,6 +1299,14 @@ mozbase
 /
 testing
 /
+mozharness
+/
+*
+*
++
+/
+testing
+/
 performance
 /
 *
