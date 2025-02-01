@@ -702,7 +702,7 @@ bug
 "
 1892175
 "
-file
+runFirst
 :
 "
 embed
@@ -710,6 +710,15 @@ embed
 test
 -
 shim
+.
+js
+"
+file
+:
+"
+empty
+-
+script
 .
 js
 "
