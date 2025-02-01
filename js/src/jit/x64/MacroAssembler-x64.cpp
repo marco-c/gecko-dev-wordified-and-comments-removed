@@ -2957,17 +2957,6 @@ src
 dest
 )
 ;
-JSValueShiftedTag
-tag
-=
-(
-JSValueShiftedTag
-)
-JSVAL_TYPE_TO_SHIFTED_TAG
-(
-type
-)
-;
 #
 ifdef
 DEBUG
@@ -3030,7 +3019,7 @@ mov
 (
 ImmShiftedTag
 (
-tag
+type
 )
 dest
 )
