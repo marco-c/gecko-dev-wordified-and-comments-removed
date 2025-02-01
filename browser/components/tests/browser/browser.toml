@@ -282,3 +282,10 @@ debug
 early_beta_or_earlier
 "
 ]
+[
+"
+browser_csp_violation_telemetry
+.
+js
+"
+]
