@@ -1349,11 +1349,7 @@ GetKeyboardHeight
 (
 )
 const
-{
-return
-mKeyboardHeight
 ;
-}
 bool
 IsKeyboardHiddenOrResizesContentMode
 (
@@ -3932,12 +3928,6 @@ mozilla
 :
 ScreenIntCoord
 mDynamicToolbarHeight
-;
-mozilla
-:
-:
-ScreenIntCoord
-mKeyboardHeight
 ;
 mozilla
 :
