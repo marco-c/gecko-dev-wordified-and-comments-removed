@@ -4805,7 +4805,6 @@ new
 nsFrameSelection
 (
 this
-nullptr
 accessibleCaretEnabled
 )
 ;
@@ -11877,8 +11876,9 @@ frameSelection
 =
 mSelection
 ;
-nsIContent
+Element
 *
+const
 limiter
 =
 frameSelection

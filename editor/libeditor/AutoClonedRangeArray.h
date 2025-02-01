@@ -2539,7 +2539,10 @@ mLimitersAndCaretData
 nodiscard
 ]
 ]
-nsIContent
+dom
+:
+:
+Element
 *
 GetLimiter
 (
@@ -2557,7 +2560,10 @@ mLimiter
 nodiscard
 ]
 ]
-nsIContent
+dom
+:
+:
+Element
 *
 GetAncestorLimiter
 (
@@ -2611,7 +2617,10 @@ void
 SetAncestorLimiter
 (
 const
-nsIContent
+dom
+:
+:
+Element
 *
 aSelectionAncestorLimiter
 )
@@ -2635,7 +2644,10 @@ mAncestorLimiter
 =
 const_cast
 <
-nsIContent
+dom
+:
+:
+Element
 *
 >
 (

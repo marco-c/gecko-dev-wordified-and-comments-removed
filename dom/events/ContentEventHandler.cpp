@@ -1693,16 +1693,10 @@ RangeCount
 {
 mRootElement
 =
-Element
-:
-:
-FromNodeOrNull
-(
 aNormalSelection
 .
 GetAncestorLimiter
 (
-)
 )
 ;
 if

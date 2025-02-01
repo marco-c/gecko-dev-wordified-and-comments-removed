@@ -2560,7 +2560,7 @@ TextRangeStyle
 aTextRangeStyle
 )
 ;
-nsIContent
+Element
 *
 GetAncestorLimiter
 (
@@ -2570,7 +2570,7 @@ const
 void
 SetAncestorLimiter
 (
-nsIContent
+Element
 *
 aLimiter
 )
