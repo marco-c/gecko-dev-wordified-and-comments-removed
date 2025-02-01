@@ -1,6 +1,6 @@
 export
 type
-ProviderType
+Protocol
 =
 "
 default
