@@ -7622,7 +7622,7 @@ bottomHalf
 {
 masm
 .
-movl
+move32
 (
 ToRegister
 (
@@ -7640,7 +7640,7 @@ else
 {
 masm
 .
-movl
+move32
 (
 ToRegister
 (
