@@ -67,16 +67,6 @@ MacroAssembler
 masm
 )
 ;
-ValueOperand
-ToValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 void
 emitBigIntPtrDiv
 (

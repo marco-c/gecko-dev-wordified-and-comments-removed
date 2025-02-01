@@ -385,16 +385,6 @@ JSOp
 op
 )
 ;
-ValueOperand
-ToValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 void
 generateInvalidateEpilogue
 (

@@ -29,6 +29,17 @@ Input
 =
 0
 ;
+LBoxAllocation
+input
+(
+)
+const
+{
+MOZ_CRASH
+(
+)
+;
+}
 MUnbox
 *
 mir

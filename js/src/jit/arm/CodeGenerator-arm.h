@@ -446,16 +446,6 @@ T
 ins
 )
 ;
-ValueOperand
-ToValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 Register64
 ToOperandOrRegister64
 (
