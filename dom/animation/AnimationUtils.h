@@ -297,6 +297,15 @@ aType
 )
 {
 return
+PseudoStyle
+:
+:
+IsViewTransitionPseudoElement
+(
+aType
+)
+|
+|
 aType
 =
 =

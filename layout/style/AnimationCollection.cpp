@@ -189,6 +189,12 @@ MOZ_ASSERT
 data
 )
 ;
+const
+PseudoStyleRequest
+request
+=
+mPseudo
+;
 if
 constexpr
 (
@@ -212,7 +218,7 @@ data
 >
 GetAnimationCollection
 (
-mPseudo
+request
 )
 =
 =
@@ -224,7 +230,7 @@ data
 >
 ClearAnimationCollectionFor
 (
-mPseudo
+request
 )
 ;
 }
@@ -237,7 +243,7 @@ data
 >
 GetTransitionCollection
 (
-mPseudo
+request
 )
 =
 =
@@ -249,7 +255,7 @@ data
 >
 ClearTransitionCollectionFor
 (
-mPseudo
+request
 )
 ;
 }

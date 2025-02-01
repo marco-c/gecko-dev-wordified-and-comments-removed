@@ -252,6 +252,8 @@ Activate
 void
 ClearActiveTransition
 (
+bool
+aIsDocumentHidden
 )
 ;
 void

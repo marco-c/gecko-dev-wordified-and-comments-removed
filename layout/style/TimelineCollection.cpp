@@ -118,6 +118,12 @@ MOZ_ASSERT
 data
 )
 ;
+const
+PseudoStyleRequest
+request
+=
+mPseudo
+;
 if
 constexpr
 (
@@ -141,7 +147,7 @@ data
 >
 GetScrollTimelineCollection
 (
-mPseudo
+request
 )
 =
 =
@@ -153,7 +159,7 @@ data
 >
 ClearScrollTimelineCollectionFor
 (
-mPseudo
+request
 )
 ;
 }
@@ -181,7 +187,7 @@ data
 >
 GetViewTimelineCollection
 (
-mPseudo
+request
 )
 =
 =
@@ -193,7 +199,7 @@ data
 >
 ClearViewTimelineCollectionFor
 (
-mPseudo
+request
 )
 ;
 }
