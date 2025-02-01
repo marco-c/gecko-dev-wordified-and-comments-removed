@@ -35,10 +35,7 @@ gecko
 url
 :
 :
-{
-SpecifiedImageUrl
 SpecifiedUrl
-}
 ;
 #
 [
@@ -62,10 +59,7 @@ servo
 url
 :
 :
-{
-SpecifiedImageUrl
 SpecifiedUrl
-}
 ;
 pub
 type

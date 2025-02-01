@@ -1034,9 +1034,6 @@ BorderImageWidth
 ComputedUrl
 "
 "
-ComputedImageUrl
-"
-"
 UrlOrNone
 "
 "
@@ -5070,7 +5067,7 @@ request
 URL
 .
 const
-StyleComputedImageUrl
+StyleComputedUrl
 *
 GetImageRequestURLValue
 (

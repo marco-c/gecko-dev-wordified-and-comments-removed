@@ -32543,7 +32543,7 @@ specified
 url
 :
 :
-SpecifiedImageUrl
+SpecifiedUrl
 ;
 let
 url_data
@@ -32607,7 +32607,7 @@ None
 let
 url
 =
-SpecifiedImageUrl
+SpecifiedUrl
 :
 :
 parse_from_string

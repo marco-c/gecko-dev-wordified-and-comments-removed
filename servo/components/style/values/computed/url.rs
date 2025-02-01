@@ -37,10 +37,7 @@ gecko
 url
 :
 :
-{
-ComputedImageUrl
 ComputedUrl
-}
 ;
 #
 [
@@ -64,10 +61,7 @@ servo
 url
 :
 :
-{
-ComputedImageUrl
 ComputedUrl
-}
 ;
 pub
 type

@@ -914,12 +914,6 @@ None
 }
 }
 }
-pub
-type
-SpecifiedImageUrl
-=
-CssUrl
-;
 #
 [
 derive
@@ -1110,9 +1104,3 @@ write_char
 )
 }
 }
-pub
-type
-ComputedImageUrl
-=
-ComputedUrl
-;

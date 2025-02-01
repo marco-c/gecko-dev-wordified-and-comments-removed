@@ -7894,7 +7894,7 @@ GetImageRequestURLValue
 ;
 const_cast
 <
-StyleComputedImageUrl
+StyleComputedUrl
 *
 >
 (
