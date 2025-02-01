@@ -725,18 +725,6 @@ str
 ]
 =
 None
-        
-user_contexts
-:
-Optional
-[
-List
-[
-str
-]
-]
-=
-None
     
 )
 -
@@ -813,22 +801,6 @@ sandbox
 ]
 =
 sandbox
-        
-if
-user_contexts
-is
-not
-None
-:
-            
-params
-[
-"
-userContexts
-"
-]
-=
-user_contexts
         
 return
 params

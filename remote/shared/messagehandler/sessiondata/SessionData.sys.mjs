@@ -1127,7 +1127,7 @@ and
 unknown
 items
 .
-const
+let
 updates
 =
 [

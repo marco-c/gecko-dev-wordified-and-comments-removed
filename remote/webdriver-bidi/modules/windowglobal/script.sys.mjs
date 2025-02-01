@@ -936,7 +936,6 @@ EvaluationStatus
 .
 Normal
 :
-{
 const
 dataSuccess
 =
@@ -977,13 +976,11 @@ seenNodeIds
 }
 }
 ;
-}
 case
 EvaluationStatus
 .
 Throw
 :
-{
 const
 dataThrow
 =
@@ -1017,7 +1014,6 @@ seenNodeIds
 }
 }
 ;
-}
 default
 :
 throw
