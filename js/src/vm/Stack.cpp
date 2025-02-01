@@ -3711,6 +3711,9 @@ wasm
 ProfilingFrameIterator
 :
 :
+Category
+:
+:
 Baseline
 :
 {
@@ -3731,6 +3734,9 @@ wasm
 :
 :
 ProfilingFrameIterator
+:
+:
+Category
 :
 :
 Ion
