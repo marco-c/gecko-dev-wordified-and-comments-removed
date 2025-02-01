@@ -3672,7 +3672,7 @@ value
 )
 )
 ;
-LWasmAtomicExchangeHeap
+auto
 *
 lir
 =
@@ -3690,13 +3690,6 @@ useRegister
 (
 memoryBase
 )
-)
-;
-lir
--
->
-setAddrTemp
-(
 temp
 (
 )
