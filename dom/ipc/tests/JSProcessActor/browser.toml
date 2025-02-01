@@ -61,3 +61,10 @@ browser_sendQuery
 js
 "
 ]
+[
+"
+browser_uri_combination
+.
+js
+"
+]

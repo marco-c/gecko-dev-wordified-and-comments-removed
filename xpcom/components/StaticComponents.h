@@ -860,6 +860,15 @@ already_AddRefed
 <
 nsIUTF8StringEnumerator
 >
+GetComponentJSMs
+(
+)
+;
+static
+already_AddRefed
+<
+nsIUTF8StringEnumerator
+>
 GetComponentESModules
 (
 )
