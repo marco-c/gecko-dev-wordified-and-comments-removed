@@ -2124,7 +2124,7 @@ lazy
 .
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 (
@@ -2137,7 +2137,7 @@ lazy
 .
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 ready
 (
@@ -2188,7 +2188,7 @@ lazy
 .
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 getVariable
 (
