@@ -1319,6 +1319,9 @@ launcherExpanded
 lazy
 .
 verticalTabsEnabled
+&
+&
+visible
 ;
 if
 (
