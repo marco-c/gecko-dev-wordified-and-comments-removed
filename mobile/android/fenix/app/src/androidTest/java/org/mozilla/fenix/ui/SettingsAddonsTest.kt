@@ -453,14 +453,10 @@ addonName
 acceptPermissionToInstallAddon
 (
 )
-verifyAddonInstallCompleted
-(
-addonName
-activityTestRule
-)
 verifyAddonInstallCompletedPrompt
 (
 addonName
+activityTestRule
 )
 closeAddonInstallCompletePrompt
 (
