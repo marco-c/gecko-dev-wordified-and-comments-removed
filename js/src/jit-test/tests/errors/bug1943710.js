@@ -1,3 +1,12 @@
+if
+(
+'
+captureStackTrace
+'
+in
+Error
+)
+{
 run
 (
 a16
@@ -24,4 +33,5 @@ evaluate
 (
 code
 )
+}
 }
