@@ -2096,15 +2096,9 @@ _run
 (
 *
 args
-)
-.
-encode
-(
-"
-utf
--
-8
-"
+encoding
+=
+None
 )
         
 patches
@@ -2127,6 +2121,9 @@ output
 .
 splitlines
 (
+keepends
+=
+True
 )
 )
 :
@@ -2138,6 +2135,10 @@ i
 0
 and
 line
+.
+rstrip
+(
+)
 =
 =
 b
@@ -2155,8 +2156,6 @@ append
 (
 b
 "
-\
-n
 "
 .
 join
@@ -2187,8 +2186,6 @@ append
 (
 b
 "
-\
-n
 "
 .
 join

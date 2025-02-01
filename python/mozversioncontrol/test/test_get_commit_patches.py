@@ -41,8 +41,16 @@ PATCH
 "
 "
         
-echo
+printf
+"
 baz
+\
+\
+r
+\
+\
+nqux
+"
 >
 baz
         
@@ -102,12 +110,27 @@ PATCH
 "
 "
         
-echo
+printf
+"
 baz
+\
+\
+r
+\
+\
+nqux
+"
 >
 baz
         
 git
+-
+c
+core
+.
+autocrlf
+=
+false
 add
 baz
         
@@ -212,6 +235,21 @@ b
 "
 SECOND
 PATCH
+"
+in
+patches
+[
+1
+]
+    
+assert
+b
+"
+baz
+\
+r
+\
+n
 "
 in
 patches
