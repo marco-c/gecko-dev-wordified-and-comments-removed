@@ -97,6 +97,13 @@ js
 ]
 [
 "
+browser_interactions_export
+.
+js
+"
+]
+[
+"
 browser_interactions_referrer
 .
 js
