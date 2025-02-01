@@ -657,7 +657,7 @@ LanguageState
 const
 {
 detectedLanguages
-requestedTranslationPair
+requestedLanguagePair
 hasVisibleChange
 error
 isEngineReady
@@ -676,7 +676,7 @@ data
 =
 {
 detectedLanguages
-requestedTranslationPair
+requestedLanguagePair
 hasVisibleChange
 error
 isEngineReady
