@@ -616,7 +616,7 @@ v2
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -1794,7 +1794,13 @@ startDate
 enrollmentEndDate
 "
 :
-null
+"
+2025
+-
+01
+-
+16
+"
 "
 endDate
 "
