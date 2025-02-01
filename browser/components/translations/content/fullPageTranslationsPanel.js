@@ -54,8 +54,6 @@ translations
 /
 TranslationsUtils
 .
-sys
-.
 mjs
 "
 TranslationsPanelShared

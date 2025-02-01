@@ -81,8 +81,6 @@ translations
 /
 TranslationsUtils
 .
-sys
-.
 mjs
 "
 )
