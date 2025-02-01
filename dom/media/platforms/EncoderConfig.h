@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Variant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ImageBitmapBinding
