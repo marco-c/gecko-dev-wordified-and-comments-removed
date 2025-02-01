@@ -263,7 +263,8 @@ Translations
 *
 /
 static
-normalizeLangTagForTranslations
+#
+normalizeLangTag
 (
 langTag
 )
@@ -600,7 +601,8 @@ return
 (
 TranslationsUtils
 .
-normalizeLangTagForTranslations
+#
+normalizeLangTag
 (
 lhsLangTag
 )
@@ -609,7 +611,8 @@ lhsLangTag
 =
 TranslationsUtils
 .
-normalizeLangTagForTranslations
+#
+normalizeLangTag
 (
 rhsLangTag
 )
