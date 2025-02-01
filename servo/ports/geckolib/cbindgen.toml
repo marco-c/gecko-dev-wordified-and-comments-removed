@@ -1240,6 +1240,9 @@ Margin
 "
 PositionProperty
 "
+"
+PhysicalSide
+"
 ]
 item_types
 =
