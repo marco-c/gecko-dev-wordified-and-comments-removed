@@ -256,8 +256,10 @@ platform
 }
 >
 <
+moz
+-
 button
-class
+type
 =
 "
 primary
@@ -280,9 +282,13 @@ ok
 >
 <
 /
+moz
+-
 button
 >
 <
+moz
+-
 button
 data
 -
@@ -302,6 +308,8 @@ cancel
 >
 <
 /
+moz
+-
 button
 >
 <
