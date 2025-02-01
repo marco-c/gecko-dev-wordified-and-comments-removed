@@ -46,9 +46,6 @@ extensions
 .
 js
 '
-'
-jsm
-'
 ]
 type
 :

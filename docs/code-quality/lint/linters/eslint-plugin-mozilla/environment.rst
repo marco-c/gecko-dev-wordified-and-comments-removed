@@ -209,7 +209,7 @@ mm
 .
 loadFrameScript
 .
-jsm
+sysmjs
 -
 -
 -
@@ -217,11 +217,14 @@ Defines
 the
 environment
 for
-jsm
+system
+module
 files
 (
-javascript
-modules
+.
+sys
+.
+mjs
 )
 .
 privileged

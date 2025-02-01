@@ -467,8 +467,7 @@ workerImportFilenameMatch
 )
 \
 .
-jsm
-?
+js
 )
 /
 ;

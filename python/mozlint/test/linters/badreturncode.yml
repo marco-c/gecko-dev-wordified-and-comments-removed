@@ -26,10 +26,6 @@ extensions
 .
 js
 '
-'
-.
-jsm
-'
 ]
 payload
 :

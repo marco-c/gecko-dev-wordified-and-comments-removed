@@ -39,10 +39,6 @@ extensions
 .
 js
 '
-'
-.
-jsm
-'
 ]
 payload
 :

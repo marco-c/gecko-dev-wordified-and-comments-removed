@@ -21,10 +21,6 @@ js
 !
 *
 .
-jsm
-!
-*
-.
 json
 !
 *
@@ -10752,7 +10748,9 @@ phonenumberutils
 /
 PhoneNumberMetaData
 .
-jsm
+sys
+.
+mjs
 #
 Ignore
 devtools
