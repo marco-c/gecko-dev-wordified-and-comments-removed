@@ -123,8 +123,10 @@ _spec
 aPrincipal
 )
 ;
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
@@ -384,8 +386,10 @@ nsIPrincipal
 aPrincipal
 )
 {
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager

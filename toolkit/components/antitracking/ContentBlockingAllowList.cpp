@@ -581,8 +581,10 @@ _spec
 aContentBlockingAllowListPrincipal
 )
 ;
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
@@ -1435,8 +1437,10 @@ mIsInitialized
 =
 true
 ;
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager

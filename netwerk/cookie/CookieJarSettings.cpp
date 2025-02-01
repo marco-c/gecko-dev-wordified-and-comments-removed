@@ -1401,8 +1401,10 @@ NS_OK
 ;
 }
 }
+RefPtr
+<
 PermissionManager
-*
+>
 pm
 =
 PermissionManager

@@ -1004,8 +1004,10 @@ nsIPrincipal
 aPrincipal
 )
 {
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
@@ -1343,8 +1345,10 @@ uint32_t
 aBlockedReason
 )
 {
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
