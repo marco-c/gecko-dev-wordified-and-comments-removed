@@ -2688,6 +2688,7 @@ replace
 if
 (
             
+(
 "
 android
 -
@@ -2697,7 +2698,6 @@ p6
 "
 in
 test_platform
-            
 or
 "
 android
@@ -2708,10 +2708,28 @@ s24
 "
 in
 test_platform
+)
             
+and
+"
+speedometer
+-
+"
+not
+in
+test
+[
+"
+test
+-
+name
+"
+]
+        
+)
 or
 (
-                
+            
 "
 android
 -
@@ -2721,7 +2739,7 @@ a55
 "
 in
 test_platform
-                
+            
 and
 any
 (
@@ -2746,8 +2764,6 @@ tp6
 speedometer3
 "
 )
-)
-            
 )
         
 )
