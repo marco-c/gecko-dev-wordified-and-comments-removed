@@ -167,9 +167,6 @@ removed
 comments
 .
 #
-set
--
-e
 TESTDIR
 =
 {
@@ -213,8 +210,6 @@ e
 '
 s
 ;
-\
-r
 ;
 ;
 g
@@ -318,8 +313,6 @@ e
 '
 s
 ;
-\
-r
 ;
 ;
 g

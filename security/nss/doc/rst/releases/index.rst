@@ -26,9 +26,6 @@ glob
 :
 hidden
 :
-nss_3_101_3
-.
-rst
 nss_3_107
 .
 rst
@@ -265,7 +262,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_107_release_notes
+mozilla_projects_nss_nss_3_106_release_notes
 *
 *
 NSS
@@ -273,7 +270,7 @@ NSS
 .
 101
 .
-3
+2
 (
 ESR
 )
@@ -297,7 +294,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_101_3_release_notes
+mozilla_projects_nss_nss_3_101_1_release_notes
 .
 .
 container
