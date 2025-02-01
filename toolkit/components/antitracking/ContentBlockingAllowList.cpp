@@ -541,7 +541,7 @@ aIsAllowListed
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+NS_IsMainThread
 (
 )
 )
