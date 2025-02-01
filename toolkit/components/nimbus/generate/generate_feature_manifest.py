@@ -108,10 +108,6 @@ pocketNewtab
 "
     
 "
-searchConfiguration
-"
-    
-"
 testFeature
 "
     

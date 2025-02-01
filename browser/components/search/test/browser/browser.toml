@@ -325,13 +325,6 @@ js
 ]
 [
 "
-browser_search_nimbus_reload
-.
-js
-"
-]
-[
-"
 browser_searchbar_addEngine
 .
 js
