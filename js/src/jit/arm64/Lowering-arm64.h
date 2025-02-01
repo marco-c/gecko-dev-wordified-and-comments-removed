@@ -682,9 +682,10 @@ LTableSwitchV
 *
 newLTableSwitchV
 (
-MTableSwitch
-*
-ins
+const
+LBoxAllocation
+&
+in
 )
 ;
 LTableSwitch
@@ -699,9 +700,6 @@ const
 LDefinition
 &
 inputCopy
-MTableSwitch
-*
-ins
 )
 ;
 void
