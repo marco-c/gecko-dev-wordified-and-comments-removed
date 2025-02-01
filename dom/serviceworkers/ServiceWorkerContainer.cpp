@@ -3410,7 +3410,7 @@ ReceivedMessage
 aMessage
 )
 {
-NS_DispatchToMainThread
+NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 <
