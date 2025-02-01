@@ -2180,15 +2180,6 @@ recentlyclosed
 .
 RecentlyClosedFragment
 "
-android
-:
-label
-=
-"
-string
-/
-library_recently_closed_tabs
-"
 /
 >
 <
