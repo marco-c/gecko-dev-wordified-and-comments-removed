@@ -456,16 +456,6 @@ size_t
 pos
 )
 ;
-ValueOperand
-ToTempValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 Register64
 ToOperandOrRegister64
 (
