@@ -626,6 +626,9 @@ bool
 mProcessingNetworkData
 ;
 bool
+mOnStopPending
+;
+bool
 mIsAboutBlank
 ;
 }
