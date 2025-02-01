@@ -18,11 +18,6 @@ JSMEnvironmentProxy
 cpp
 "
 "
-ModuleEnvironmentProxy
-.
-cpp
-"
-"
 mozJSLoaderUtils
 .
 cpp
