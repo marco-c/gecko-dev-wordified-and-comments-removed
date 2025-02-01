@@ -1409,6 +1409,11 @@ field
 origin
 -
 warning
+role
+=
+"
+alert
+"
 arrowdirection
 =
 "
@@ -1538,6 +1543,11 @@ field
 password
 -
 warning
+role
+=
+"
+alert
+"
 isNewLogin
 arrowdirection
 =
