@@ -2252,6 +2252,15 @@ aIsOpen
 ;
 this
 .
+mInputElement
+.
+setDateTimePickerState
+(
+aIsOpen
+)
+;
+this
+.
 updateCalendarButtonState
 (
 this
