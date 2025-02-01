@@ -1283,8 +1283,6 @@ debug
 test
 -
 verify
--
-*
 "
             
 "
