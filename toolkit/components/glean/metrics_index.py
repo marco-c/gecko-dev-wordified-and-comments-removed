@@ -105,6 +105,16 @@ yaml
 "
 dom
 /
+canvas
+/
+metrics
+.
+yaml
+"
+    
+"
+dom
+/
 crypto
 /
 metrics
