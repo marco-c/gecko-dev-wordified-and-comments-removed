@@ -5008,6 +5008,10 @@ TrustedTypes
 (
 )
 {
+AssertIsOnWorkerThread
+(
+)
+;
 if
 (
 !
