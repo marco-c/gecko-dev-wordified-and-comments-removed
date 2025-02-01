@@ -183,6 +183,7 @@ ready
 [
 NewObject
 NeedsCallerType
+Throws
 ]
 Promise
 <
@@ -190,7 +191,11 @@ ServiceWorkerRegistration
 >
 register
 (
+(
+TrustedScriptURL
+or
 USVString
+)
 scriptURL
 optional
 RegistrationOptions

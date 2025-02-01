@@ -61,6 +61,9 @@ class
 ServiceWorkerContainerChild
 ;
 class
+TrustedScriptURLOrUSVString
+;
+class
 ServiceWorkerContainer
 final
 :
@@ -179,6 +182,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -186,7 +190,7 @@ Promise
 Register
 (
 const
-nsAString
+TrustedScriptURLOrUSVString
 &
 aScriptURL
 const
