@@ -143,7 +143,7 @@ children
 {
 role
 :
-ROLE_ENTRY
+ROLE_SEARCHBOX
 children
 :
 [
@@ -229,7 +229,7 @@ children
 {
 role
 :
-ROLE_ENTRY
+ROLE_SEARCHBOX
 children
 :
 [

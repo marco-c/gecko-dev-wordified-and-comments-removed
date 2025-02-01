@@ -51,13 +51,6 @@ moxRole
 ;
 -
 (
-NSString
-*
-)
-moxSubrole
-;
--
-(
 NSNumber
 *
 )
