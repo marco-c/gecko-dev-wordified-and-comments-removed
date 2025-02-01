@@ -765,10 +765,6 @@ bodyOneLinkText
 :
 String
 val
-linkUrl
-:
-String
-val
 bodyTwoText
 :
 String

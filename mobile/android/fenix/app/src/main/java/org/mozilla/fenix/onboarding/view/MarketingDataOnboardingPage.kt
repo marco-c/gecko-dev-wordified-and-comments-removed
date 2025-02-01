@@ -644,9 +644,8 @@ marketingData
 bodyOneLinkText
 url
 =
-marketingData
-.
-linkUrl
+"
+"
 onClick
 =
 {
@@ -989,10 +988,6 @@ our
 marketing
 campaigns
 .
-"
-linkUrl
-=
-"
 "
 )
 )
