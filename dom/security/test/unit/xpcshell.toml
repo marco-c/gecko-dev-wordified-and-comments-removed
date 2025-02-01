@@ -47,3 +47,10 @@ test_isOriginPotentiallyTrustworthy
 js
 "
 ]
+[
+"
+test_get_trusted_types_compliant_string
+.
+js
+"
+]
