@@ -66,6 +66,13 @@ js
 ]
 [
 "
+browser_interventions
+.
+js
+"
+]
+[
+"
 browser_shims
 .
 js
