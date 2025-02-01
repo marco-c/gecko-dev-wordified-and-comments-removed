@@ -1424,7 +1424,7 @@ editor
 -
 color
 -
-selector
+selector2
 -
 {
 colorCode
