@@ -126,11 +126,6 @@ task
 -
 defaults
 :
-name
-:
-partner
--
-attribution
 description
 :
 Release
@@ -223,9 +218,7 @@ attribute_builds
 py
 tasks
 :
-partner
--
-attribution
+win
 :
 attributes
 :

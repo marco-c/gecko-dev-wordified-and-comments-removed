@@ -770,16 +770,5 @@ release_artifacts
 =
 release_artifacts
         
-task
-[
-"
-label
-"
-]
-=
-config
-.
-kind
-        
 yield
 task

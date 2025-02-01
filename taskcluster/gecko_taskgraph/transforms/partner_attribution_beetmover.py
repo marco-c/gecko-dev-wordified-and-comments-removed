@@ -605,12 +605,6 @@ platform
 "
 )
         
-label
-=
-config
-.
-kind
-        
 description
 =
 "
@@ -635,7 +629,26 @@ task
 label
 "
 :
-label
+"
+{
+}
+-
+{
+}
+"
+.
+format
+(
+config
+.
+kind
+job
+[
+"
+name
+"
+]
+)
             
 "
 description
