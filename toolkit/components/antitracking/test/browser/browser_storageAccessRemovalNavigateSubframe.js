@@ -106,16 +106,6 @@ resolve
 ;
 }
 [
-[
-"
-privacy
-.
-partition
-.
-always_partition_third_party_non_cookie_storage
-"
-false
-]
 ]
 false
 false
