@@ -1552,13 +1552,6 @@ CHANGE_REASON_ENGINE_UPDATE
 =
 0xD
 ;
-const
-unsigned
-short
-CHANGE_REASON_USER_PRIVATE_PREF_ENABLED
-=
-0xE
-;
 /
 *
 *

@@ -41,7 +41,7 @@ true
 ]
 [
 "
-browser_search_glean_serp_event_telemetry_categorization_enabled_by_pref
+browser_search_glean_serp_event_telemetry_categorization_enabled_by_nimbus_variable
 .
 js
 "
