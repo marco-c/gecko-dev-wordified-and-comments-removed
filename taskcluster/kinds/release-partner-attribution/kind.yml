@@ -221,6 +221,16 @@ tasks
 :
 win
 :
+platforms
+:
+-
+win64
+-
+shippable
+-
+win32
+-
+shippable
 run
 :
 using
