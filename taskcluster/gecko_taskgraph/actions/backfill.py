@@ -2405,6 +2405,27 @@ continue
         
 if
 "
+macosx1400
+"
+in
+entry
+.
+attributes
+.
+get
+(
+"
+test_platform
+"
+"
+"
+)
+:
+            
+continue
+        
+if
+"
 browsertime
 "
 not
