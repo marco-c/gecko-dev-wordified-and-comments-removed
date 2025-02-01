@@ -673,8 +673,6 @@ isWasm
 :
 isWasm
 (
-location
-.
 source
 .
 id
