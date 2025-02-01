@@ -2556,12 +2556,6 @@ EndsByBlockBoundary
 EndsByInlineEditingHostBoundary
 (
 )
-&
-&
-!
-EndsByInvisiblePreformattedLineBreak
-(
-)
 )
 {
 mTrailingWhiteSpaceRange
