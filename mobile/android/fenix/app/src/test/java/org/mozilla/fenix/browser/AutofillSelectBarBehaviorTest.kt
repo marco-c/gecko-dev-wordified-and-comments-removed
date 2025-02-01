@@ -186,7 +186,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-LoginSelectBarBehaviorTest
+AutofillSelectBarBehaviorTest
 {
 private
 val
@@ -311,7 +311,7 @@ it
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -369,7 +369,7 @@ toolbar
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -432,7 +432,7 @@ toolbar_navbar_container
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -490,7 +490,7 @@ toolbar
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -573,7 +573,7 @@ it
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -736,7 +736,7 @@ it
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -895,7 +895,7 @@ it
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -1024,7 +1024,7 @@ screen
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >
@@ -1072,7 +1072,7 @@ view
 val
 behavior
 =
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 ViewGroup
 >

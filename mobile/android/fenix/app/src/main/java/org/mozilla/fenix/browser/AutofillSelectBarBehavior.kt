@@ -138,7 +138,8 @@ Behavior
 ]
 for
 ensuring
-login
+autofill
+select
 bars
 are
 shown
@@ -152,7 +153,7 @@ toolbar
 *
 /
 class
-LoginSelectBarBehavior
+AutofillSelectBarBehavior
 <
 V
 :
@@ -187,7 +188,7 @@ possible
 anchors
 for
 the
-logins
+autofill
 bars
 .
 private
@@ -325,7 +326,7 @@ anchorId
 currentAnchorId
 )
 {
-positionLoginBar
+positionAutofillBar
 (
 child
 parent
@@ -348,9 +349,9 @@ false
 }
 private
 fun
-positionLoginBar
+positionAutofillBar
 (
-loginBar
+autofillBar
 :
 V
 dependency
@@ -370,7 +371,7 @@ id
 View
 .
 NO_ID
-loginBar
+autofillBar
 .
 post
 {
@@ -387,14 +388,14 @@ true
 >
 placeAtBottom
 (
-loginBar
+autofillBar
 )
 false
 -
 >
 placeAboveAnchor
 (
-loginBar
+autofillBar
 dependency
 )
 }
@@ -406,7 +407,7 @@ dependency
 *
 Place
 the
-login
+autofill
 bar
 at
 the
@@ -420,7 +421,7 @@ screen
 fun
 placeAtBottom
 (
-loginBar
+autofillBar
 :
 View
 )
@@ -428,7 +429,7 @@ View
 val
 params
 =
-loginBar
+autofillBar
 .
 layoutParams
 as
@@ -460,7 +461,7 @@ or
 Gravity
 .
 CENTER_HORIZONTAL
-loginBar
+autofillBar
 .
 layoutParams
 =
@@ -472,7 +473,7 @@ params
 *
 Place
 the
-login
+autofill
 bar
 above
 the
@@ -484,7 +485,7 @@ anchor
 fun
 placeAboveAnchor
 (
-loginBar
+autofillBar
 :
 View
 anchor
@@ -495,7 +496,7 @@ View
 val
 params
 =
-loginBar
+autofillBar
 .
 layoutParams
 as
@@ -531,7 +532,7 @@ or
 Gravity
 .
 CENTER_HORIZONTAL
-loginBar
+autofillBar
 .
 layoutParams
 =
