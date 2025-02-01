@@ -64,6 +64,15 @@ signature_cache_ffi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 namespace
 mozilla
 {

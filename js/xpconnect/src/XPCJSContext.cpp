@@ -198,6 +198,17 @@ h
 #
 include
 "
+mozilla
+/
+glean
+/
+JsXpconnectMetrics
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

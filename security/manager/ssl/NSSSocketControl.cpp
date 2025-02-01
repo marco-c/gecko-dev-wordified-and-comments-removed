@@ -56,6 +56,17 @@ h
 #
 include
 "
+mozilla
+/
+glean
+/
+SecurityManagerSslMetrics
+.
+h
+"
+#
+include
+"
 nsNSSCallbacks
 .
 h

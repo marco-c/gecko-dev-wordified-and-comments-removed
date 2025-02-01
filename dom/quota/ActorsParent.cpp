@@ -938,6 +938,17 @@ include
 "
 mozilla
 /
+glean
+/
+DomQuotaMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundChild

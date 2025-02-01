@@ -300,6 +300,17 @@ include
 "
 mozilla
 /
+glean
+/
+SecurityManagerSslMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 SocketProcessParent

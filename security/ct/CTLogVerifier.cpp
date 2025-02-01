@@ -60,6 +60,17 @@ pkixutil
 .
 h
 "
+#
+include
+"
+mozilla
+/
+glean
+/
+SecurityCtMetrics
+.
+h
+"
 using
 namespace
 mozilla

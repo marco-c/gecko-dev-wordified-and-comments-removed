@@ -758,6 +758,17 @@ include
 "
 mozilla
 /
+glean
+/
+DocshellMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 ProtocolUtils

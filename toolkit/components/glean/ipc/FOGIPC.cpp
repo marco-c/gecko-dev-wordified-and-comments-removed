@@ -136,6 +136,17 @@ include
 "
 mozilla
 /
+glean
+/
+GleanMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Hal
 .
 h
