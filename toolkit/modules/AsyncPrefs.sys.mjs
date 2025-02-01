@@ -337,15 +337,6 @@ enable
 deprecated
 "
 "
-security
-.
-xfocsp
-.
-errorReporting
-.
-automatic
-"
-"
 network
 .
 trr
