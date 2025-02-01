@@ -9275,16 +9275,7 @@ fill
 ;
 fill
 :
-var
-(
--
--
-text
--
-color
--
-deemphasized
-)
+currentColor
 ;
 list
 -
