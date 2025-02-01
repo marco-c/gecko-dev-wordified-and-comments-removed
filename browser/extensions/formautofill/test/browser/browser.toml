@@ -328,6 +328,13 @@ js
 ]
 [
 "
+browser_fillclear_events
+.
+js
+"
+]
+[
+"
 browser_form_changes
 .
 js

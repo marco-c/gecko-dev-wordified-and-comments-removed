@@ -2926,6 +2926,7 @@ ClearFilledFields
 const
 {
 ids
+focusedId
 }
 =
 message
@@ -2951,6 +2952,7 @@ handler
 .
 clearFilledFields
 (
+focusedId
 ids
 )
 ;
