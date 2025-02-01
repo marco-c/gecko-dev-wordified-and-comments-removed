@@ -2052,3 +2052,14 @@ FINAL_LIBRARY
 "
 xul
 "
+SPHINX_TREES
+[
+"
+/
+media
+"
+]
+=
+"
+docs
+"
