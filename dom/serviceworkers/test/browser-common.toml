@@ -125,6 +125,11 @@ redirect
 sjs
 "
 "
+service_worker_etp
+.
+js
+"
+"
 simple_fetch_worker
 .
 js
@@ -211,6 +216,13 @@ if
 [
 "
 verify
+"
+]
+[
+"
+browser_etp_permission
+.
+js
 "
 ]
 [
