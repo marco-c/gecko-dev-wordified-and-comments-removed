@@ -708,9 +708,6 @@ urlsOpened
 ]
 )
 {
-let
-searchesHistogram
-=
 Services
 .
 telemetry
@@ -721,17 +718,12 @@ getHistogramById
 PLACES_SEARCHBAR_CUMULATIVE_SEARCHES
 "
 )
-;
-searchesHistogram
 .
 add
 (
 gCumulativeSearches
 )
 ;
-let
-filterCountHistogram
-=
 Services
 .
 telemetry
@@ -742,8 +734,6 @@ getHistogramById
 PLACES_SEARCHBAR_CUMULATIVE_FILTER_COUNT
 "
 )
-;
-filterCountHistogram
 .
 add
 (

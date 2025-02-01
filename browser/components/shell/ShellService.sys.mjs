@@ -1721,9 +1721,6 @@ finally
 {
 try
 {
-const
-histogram
-=
 Services
 .
 telemetry
@@ -1734,8 +1731,6 @@ getHistogramById
 BROWSER_SET_DEFAULT_USER_CHOICE_RESULT
 "
 )
-;
-histogram
 .
 add
 (
@@ -1881,9 +1876,6 @@ finally
 {
 try
 {
-const
-histogram
-=
 Services
 .
 telemetry
@@ -1894,8 +1886,6 @@ getHistogramById
 BROWSER_SET_DEFAULT_PDF_HANDLER_USER_CHOICE_RESULT
 "
 )
-;
-histogram
 .
 add
 (

@@ -1981,9 +1981,6 @@ kMIXED_CONTENT_UNBLOCK_EVENT
 =
 2
 ;
-let
-histogram
-=
 Services
 .
 telemetry
@@ -1994,8 +1991,6 @@ getHistogramById
 MIXED_CONTENT_UNBLOCK_COUNTER
 "
 )
-;
-histogram
 .
 add
 (

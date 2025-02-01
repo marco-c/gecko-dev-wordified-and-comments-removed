@@ -3146,9 +3146,6 @@ this
 searchQuery
 )
 {
-const
-searchesHistogram
-=
 Services
 .
 telemetry
@@ -3159,8 +3156,6 @@ getKeyedHistogramById
 FIREFOX_VIEW_CUMULATIVE_SEARCHES
 "
 )
-;
-searchesHistogram
 .
 add
 (

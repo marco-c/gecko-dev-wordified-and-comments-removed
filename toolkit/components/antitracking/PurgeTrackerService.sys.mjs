@@ -981,9 +981,6 @@ now
 24
 )
 ;
-let
-permissionAgeHistogram
-=
 Services
 .
 telemetry
@@ -994,8 +991,6 @@ getHistogramById
 COOKIE_PURGING_TRACKERS_USER_INTERACTION_REMAINING_DAYS
 "
 )
-;
-permissionAgeHistogram
 .
 add
 (
@@ -1382,9 +1377,6 @@ toString
 )
 )
 ;
-let
-purgedHistogram
-=
 Services
 .
 telemetry
@@ -1395,8 +1387,6 @@ getHistogramById
 COOKIE_PURGING_ORIGINS_PURGED
 "
 )
-;
-purgedHistogram
 .
 add
 (
@@ -1405,9 +1395,6 @@ purged
 size
 )
 ;
-let
-notPurgedHistogram
-=
 Services
 .
 telemetry
@@ -1418,8 +1405,6 @@ getHistogramById
 COOKIE_PURGING_TRACKERS_WITH_USER_INTERACTION
 "
 )
-;
-notPurgedHistogram
 .
 add
 (
@@ -1462,9 +1447,6 @@ cur
 0
 )
 ;
-let
-durationHistogram
-=
 Services
 .
 telemetry
@@ -1475,8 +1457,6 @@ getHistogramById
 COOKIE_PURGING_DURATION_MS
 "
 )
-;
-durationHistogram
 .
 add
 (

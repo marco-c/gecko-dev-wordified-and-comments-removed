@@ -5033,9 +5033,6 @@ historyLinks
 length
 )
 {
-let
-searchesHistogram
-=
 Services
 .
 telemetry
@@ -5046,8 +5043,6 @@ getHistogramById
 PLACES_LIBRARY_CUMULATIVE_BOOKMARK_SEARCHES
 "
 )
-;
-searchesHistogram
 .
 add
 (
@@ -5080,9 +5075,6 @@ length
 return
 ;
 }
-let
-searchesHistogram
-=
 Services
 .
 telemetry
@@ -5093,8 +5085,6 @@ getHistogramById
 PLACES_LIBRARY_CUMULATIVE_HISTORY_SEARCHES
 "
 )
-;
-searchesHistogram
 .
 add
 (

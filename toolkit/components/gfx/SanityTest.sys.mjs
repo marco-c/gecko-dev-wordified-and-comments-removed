@@ -376,9 +376,6 @@ val
 {
 try
 {
-let
-histogram
-=
 Services
 .
 telemetry
@@ -389,8 +386,6 @@ getHistogramById
 GRAPHICS_SANITY_TEST
 "
 )
-;
-histogram
 .
 add
 (

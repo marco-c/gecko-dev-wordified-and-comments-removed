@@ -9437,9 +9437,6 @@ onNotify
 (
 )
 {
-let
-histogram
-=
 Services
 .
 telemetry
@@ -9450,8 +9447,6 @@ getHistogramById
 WEAVE_START_COUNT
 "
 )
-;
-histogram
 .
 add
 (
@@ -9481,8 +9476,6 @@ why
 Might
 throw
 !
-histogram
-=
 Services
 .
 telemetry
@@ -9493,8 +9486,6 @@ getHistogramById
 WEAVE_COMPLETE_SUCCESS_COUNT
 "
 )
-;
-histogram
 .
 add
 (

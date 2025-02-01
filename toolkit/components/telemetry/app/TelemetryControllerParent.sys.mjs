@@ -4184,9 +4184,6 @@ type
 aType
 )
 ;
-let
-histogram
-=
 Services
 .
 telemetry
@@ -4197,8 +4194,6 @@ getKeyedHistogramById
 TELEMETRY_INVALID_PING_TYPE_SUBMITTED
 "
 )
-;
-histogram
 .
 add
 (
@@ -4281,9 +4276,6 @@ typeof
 aPayload
 )
 ;
-let
-histogram
-=
 Services
 .
 telemetry
@@ -4294,8 +4286,6 @@ getHistogramById
 TELEMETRY_INVALID_PAYLOAD_SUBMITTED
 "
 )
-;
-histogram
 .
 add
 (
