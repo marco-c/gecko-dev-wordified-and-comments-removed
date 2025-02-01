@@ -6337,17 +6337,6 @@ metadata_memory_limit
 type
 :
 RelaxedAtomicUint32
-#
-ifdef
-NIGHTLY_BUILD
-value
-:
-1024
-#
-1
-MB
-#
-else
 value
 :
 250
