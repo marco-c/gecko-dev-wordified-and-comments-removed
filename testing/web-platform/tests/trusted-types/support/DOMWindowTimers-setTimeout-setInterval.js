@@ -174,7 +174,7 @@ Window
 "
 :
 "
-Worker
+WorkerGlobalScope
 "
 ;
 if

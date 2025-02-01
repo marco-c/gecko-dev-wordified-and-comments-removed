@@ -372,7 +372,7 @@ Window
 "
 :
 "
-Worker
+WorkerGlobalScope
 "
 ;
 if
