@@ -595,6 +595,14 @@ findNavController
 .
 popBackStack
 (
+R
+.
+id
+.
+accountSettingsFragment
+inclusive
+=
+true
 )
 /
 /
