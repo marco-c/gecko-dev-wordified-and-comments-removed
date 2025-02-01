@@ -1108,6 +1108,9 @@ Addon
 Incognito
 .
 NOT_ALLOWED
+|
+|
+forOptionalPermissions
 )
 {
 allowedInPrivateBrowsing
