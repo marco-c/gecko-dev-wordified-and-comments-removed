@@ -34486,6 +34486,12 @@ true
 }
 )
 ;
+gTabsPanel
+.
+hideAllTabsPanel
+(
+)
+;
 }
 moveTabsToGroup
 (
