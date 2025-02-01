@@ -3191,6 +3191,9 @@ e
         
 upstream_tasks
 [
+task_id
+]
+=
 task_def
 [
 "
@@ -3202,9 +3205,6 @@ metadata
 name
 "
 ]
-]
-=
-task_id
         
 upstream_tasks
 .
@@ -3271,10 +3271,10 @@ as
 a
 dictionary
 of
-label
+taskid
 -
 >
-taskid
+label
 .
     
 Args
@@ -3326,12 +3326,12 @@ whose
 keys
 are
 task
-labels
+ids
 and
 values
 are
 task
-ids
+labels
 .
     
 "
