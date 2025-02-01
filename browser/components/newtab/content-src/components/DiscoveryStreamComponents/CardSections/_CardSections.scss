@@ -283,14 +283,6 @@ meta
 {
 padding
 :
-var
-(
--
--
-space
--
-xsmall
-)
 0
 ;
 align
@@ -300,6 +292,12 @@ self
 flex
 -
 start
+;
+min
+-
+height
+:
+125px
 ;
 .
 info
@@ -344,7 +342,7 @@ line
 -
 clamp
 :
-3
+4
 ;
 }
 .
@@ -378,7 +376,7 @@ var
 -
 space
 -
-small
+xxsmall
 )
 ;
 }
