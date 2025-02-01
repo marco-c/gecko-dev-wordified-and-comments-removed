@@ -38,6 +38,15 @@ toml
 mochitest
 /
 mochitest
+-
+resistfingerprinting
+.
+toml
+"
+"
+mochitest
+/
+mochitest
 .
 toml
 "

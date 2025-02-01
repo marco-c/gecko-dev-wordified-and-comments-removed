@@ -315,6 +315,11 @@ WebVTT
 )
 ITEM_VALUE
 (
+WebGPULimits
+64
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
