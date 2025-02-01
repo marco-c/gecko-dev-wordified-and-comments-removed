@@ -47,6 +47,7 @@ GMPContentChild
 ;
 class
 ChromiumCDMChild
+final
 :
 public
 PChromiumCDMChild
@@ -55,6 +56,11 @@ cdm
 :
 :
 Host_10
+public
+cdm
+:
+:
+Host_11
 {
 public
 :
@@ -78,7 +84,7 @@ Init
 cdm
 :
 :
-ContentDecryptionModule_10
+ContentDecryptionModule_11
 *
 aCDM
 const
@@ -314,6 +320,19 @@ RequestStorageId
 (
 uint32_t
 aVersion
+)
+override
+;
+void
+ReportMetrics
+(
+cdm
+:
+:
+MetricName
+aMetricName
+uint64_t
+aValue
 )
 override
 ;
@@ -755,7 +774,7 @@ nullptr
 cdm
 :
 :
-ContentDecryptionModule_10
+ContentDecryptionModule_11
 *
 mCDM
 =
