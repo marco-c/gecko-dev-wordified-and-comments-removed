@@ -77933,7 +77933,7 @@ JS
 Prefs
 :
 :
-setAtStartup_experimental_error_iserror
+set_experimental_error_iserror
 (
 true
 )
