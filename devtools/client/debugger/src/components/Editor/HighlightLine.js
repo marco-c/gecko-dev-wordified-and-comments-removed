@@ -333,8 +333,6 @@ toEditorLine
 selectedLocation
 .
 source
-.
-id
 selectedLocation
 .
 line
@@ -527,7 +525,9 @@ editorLine
 =
 toEditorLine
 (
-sourceId
+selectedLocation
+.
+source
 selectedLocation
 .
 line
@@ -587,9 +587,7 @@ lines
 {
 line
 :
-selectedLocation
-.
-line
+editorLine
 }
 ]
 }
@@ -792,7 +790,9 @@ editorLine
 =
 toEditorLine
 (
-sourceId
+selectedLocation
+.
+source
 selectedLocation
 .
 line

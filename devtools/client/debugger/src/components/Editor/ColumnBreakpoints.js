@@ -567,8 +567,6 @@ lineNumber
 fromEditorLine
 (
 selectedSource
-.
-id
 line
 )
 ;
@@ -735,8 +733,6 @@ lineNumber
 fromEditorLine
 (
 selectedSource
-.
-id
 line
 )
 ;
