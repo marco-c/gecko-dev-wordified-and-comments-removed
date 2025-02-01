@@ -307,7 +307,7 @@ MOZ_TSAN
 !
 defined
 (
-LIBFUZZER
+MOZ_UBSAN
 )
 extern
 "
