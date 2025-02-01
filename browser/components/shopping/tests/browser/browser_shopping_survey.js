@@ -2291,7 +2291,7 @@ add_task
 (
 async
 function
-test_onboarding_resets_after_opt_out_sidebar_integrated
+test_onboarding_resets_after_opt_out_integrated_sidebar
 (
 )
 {
@@ -2398,6 +2398,18 @@ integratedSidebar
 "
 true
 ]
+[
+"
+browser
+.
+shopping
+.
+experience2023
+.
+shoppingSidebar
+"
+false
+]
 ]
 }
 )
@@ -2430,6 +2442,7 @@ spawn
 browser
 [
 MOCK_ANALYZED_PRODUCT_RESPONSE
+PRODUCT_TEST_URL
 ]
 async
 mockData
@@ -2726,7 +2739,7 @@ querySelector
 .
 screen
 .
-FS_OPT_IN_SIDEBAR_VARIANT
+FS_OPT_IN_SIDEBAR_VARIANT_UNSUPPORTED_NON_PDP
 "
 )
 )

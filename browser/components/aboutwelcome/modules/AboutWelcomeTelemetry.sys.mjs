@@ -1803,6 +1803,16 @@ startsWith
 FAKESPOT_OPTIN_SIDEBAR_VARIANT
 "
 )
+|
+|
+message_id
+.
+startsWith
+(
+"
+FAKESPOT_OPTIN_SIDEBAR_VARIANT_UNSUPPORTED_NON_PDP
+"
+)
 )
 {
 /
