@@ -171,7 +171,6 @@ SUBMISSION_INTERVAL_PREF
 /
 /
 See
-#
 i32SafeDate
 (
 )
@@ -345,7 +344,6 @@ name
 }
 }
 static
-#
 i32SafeDate
 (
 )
@@ -651,9 +649,8 @@ prefs
 setIntPref
 (
 LAST_SUBMISSION_PREF
-this
+CaptchaDetectionPingUtils
 .
-#
 i32SafeDate
 (
 )
@@ -752,9 +749,8 @@ prefs
 setIntPref
 (
 LAST_SUBMISSION_PREF
-this
+CaptchaDetectionPingUtils
 .
-#
 i32SafeDate
 (
 )
@@ -767,9 +763,8 @@ if
 (
 lastSubmission
 >
-this
+CaptchaDetectionPingUtils
 .
-#
 i32SafeDate
 (
 )
