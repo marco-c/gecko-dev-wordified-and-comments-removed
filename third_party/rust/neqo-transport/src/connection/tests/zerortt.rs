@@ -26,8 +26,6 @@ event
 :
 :
 Provider
-as
-_
 qdebug
 }
 ;

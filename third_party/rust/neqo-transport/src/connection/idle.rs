@@ -107,6 +107,10 @@ keep_alive_outstanding
 false
 }
 }
+}
+impl
+IdleTimeout
+{
 pub
 fn
 set_peer_timeout

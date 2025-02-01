@@ -691,6 +691,7 @@ Option
 AntiReplay
 >
 {
+if
 matches
 !
 (
@@ -700,11 +701,6 @@ Resumption
 :
 WithZeroRtt
 )
-.
-then
-(
-|
-|
 {
 client
 .
@@ -766,9 +762,15 @@ server
 "
 )
 ;
+Some
+(
 anti_replay
-}
 )
+}
+else
+{
+None
+}
 }
 #
 [

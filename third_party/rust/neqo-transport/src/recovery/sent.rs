@@ -1144,6 +1144,10 @@ cell
 :
 :
 OnceCell
+convert
+:
+:
+TryFrom
 time
 :
 :
@@ -1520,6 +1524,12 @@ is_none
 )
 )
 ;
+std
+:
+:
+mem
+:
+:
 drop
 (
 it

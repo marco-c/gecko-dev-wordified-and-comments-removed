@@ -2,12 +2,15 @@ use
 std
 :
 :
+{
+mem
 time
 :
 :
 {
 Duration
 Instant
+}
 }
 ;
 use
@@ -2344,6 +2347,9 @@ from_millis
 10
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -3126,6 +3132,9 @@ now
 (
 )
 ;
+mem
+:
+:
 drop
 (
 send_something
@@ -3216,6 +3225,9 @@ is_some
 )
 )
 ;
+mem
+:
+:
 drop
 (
 send_something
@@ -3273,6 +3285,9 @@ now
 (
 )
 ;
+mem
+:
+:
 drop
 (
 send_something
@@ -3341,6 +3356,9 @@ is_none
 )
 )
 ;
+mem
+:
+:
 drop
 (
 send_something
@@ -4332,9 +4350,9 @@ trickle
 remaining
 =
 {
-count
 }
 "
+count
 )
 ;
 assert_eq

@@ -68,8 +68,6 @@ fmt
 :
 :
 Write
-as
-_
 ;
 use
 enum_map

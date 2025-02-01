@@ -39,6 +39,7 @@ cell
 :
 :
 RefCell
+mem
 ops
 :
 :
@@ -1328,9 +1329,6 @@ c_uint
 :
 try_from
 (
-std
-:
-:
 mem
 :
 :

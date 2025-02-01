@@ -523,12 +523,10 @@ max_datagram_size
 qtrace
 !
 (
-"
 [
-{
 self
-}
 ]
+"
 New
 epoch
 "

@@ -7,6 +7,7 @@ cell
 :
 :
 RefCell
+mem
 rc
 :
 :
@@ -1832,6 +1833,9 @@ pto
 (
 )
 ;
+mem
+:
+:
 drop
 (
 client
@@ -1888,6 +1892,9 @@ pto
 (
 )
 ;
+mem
+:
+:
 drop
 (
 client
@@ -1944,6 +1951,9 @@ pto
 (
 )
 ;
+mem
+:
+:
 drop
 (
 client
@@ -2528,6 +2538,9 @@ default_client
 (
 )
 ;
+mem
+:
+:
 drop
 (
 client
