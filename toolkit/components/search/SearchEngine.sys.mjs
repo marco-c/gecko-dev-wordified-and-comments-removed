@@ -569,15 +569,10 @@ limitURILength
 (
 str
 len
+=
+140
 )
 {
-len
-=
-len
-|
-|
-140
-;
 if
 (
 str
@@ -5587,7 +5582,7 @@ list
 *
 param
 {
-string
+object
 }
 options
 *

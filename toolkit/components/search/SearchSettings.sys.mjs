@@ -1141,7 +1141,10 @@ data
 *
 returns
 {
+Promise
+<
 object
+>
 }
 *
 Returns

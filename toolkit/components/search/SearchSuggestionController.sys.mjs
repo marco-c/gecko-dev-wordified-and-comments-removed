@@ -1573,7 +1573,7 @@ suggestions
 *
 param
 {
-int
+number
 }
 userContextId
 -
@@ -3202,8 +3202,6 @@ response
 is
 received
 .
-*
-private
 *
 /
 #

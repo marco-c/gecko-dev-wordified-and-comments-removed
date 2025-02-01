@@ -1120,7 +1120,7 @@ values
 *
 param
 {
-string
+nsIURI
 }
 extensionBaseURI
 *
@@ -1310,7 +1310,7 @@ upgrades
 *
 param
 {
-string
+nsIURI
 }
 extensionBaseURI
 *
@@ -1426,7 +1426,10 @@ from
 *
 returns
 {
+Promise
+<
 object
+>
 }
 *
 The
@@ -1682,7 +1685,10 @@ id
 *
 returns
 {
+Promise
+<
 WebExtensionPolicy
+>
 }
 *
 /

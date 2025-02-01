@@ -4473,7 +4473,7 @@ values
 *
 param
 {
-Engine
+AppProvidedSearchEngine
 }
 currentEngine
 *

@@ -859,7 +859,10 @@ any
 *
 returns
 {
+Promise
+<
 OpenSearchProperties
+>
 }
 *
 The
