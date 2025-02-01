@@ -1652,6 +1652,14 @@ containerNode
 |
 opts
 .
+insertBefore
+?
+.
+parentNode
+|
+|
+opts
+.
 view
 .
 firstElementChild
