@@ -366,6 +366,11 @@ removeObserver
 (
 gleanUsageReportingLifecycleObserver
 )
+gleanUsageReporting
+.
+requestDataDeletion
+(
+)
 }
 override
 fun
