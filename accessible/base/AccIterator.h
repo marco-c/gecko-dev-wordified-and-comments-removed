@@ -584,7 +584,10 @@ NextID
 (
 )
 ;
-nsIContent
+dom
+:
+:
+Element
 *
 NextElem
 (
