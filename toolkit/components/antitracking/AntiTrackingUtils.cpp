@@ -5193,7 +5193,7 @@ aChannel
 ;
 Maybe
 <
-RFPTarget
+RFPTargetSet
 >
 overriddenFingerprintingSettings
 =

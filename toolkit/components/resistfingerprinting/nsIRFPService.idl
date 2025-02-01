@@ -70,6 +70,13 @@ nsIFingerprintingWebCompatService
 .
 idl
 "
+#
+include
+"
+nsIRFPTargetSetIDL
+.
+idl
+"
 interface
 nsIPrincipal
 ;
@@ -205,7 +212,7 @@ exist
 *
 *
 /
-uint64_t
+nsIRFPTargetSetIDL
 getFingerprintingOverrides
 (
 in
@@ -251,7 +258,7 @@ Targets
 /
 readonly
 attribute
-uint64_t
+nsIRFPTargetSetIDL
 enabledFingerprintingProtections
 ;
 /

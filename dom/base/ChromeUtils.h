@@ -78,6 +78,9 @@ nsIDOMProcessParent
 .
 h
 "
+class
+nsIRFPTargetSetIDL
+;
 namespace
 mozilla
 {
@@ -1693,12 +1696,8 @@ GlobalObject
 aGlobal
 JSRFPTarget
 aTarget
-const
-Nullable
-<
-uint64_t
->
-&
+nsIRFPTargetSetIDL
+*
 aOverriddenFingerprintingSettings
 const
 Optional
