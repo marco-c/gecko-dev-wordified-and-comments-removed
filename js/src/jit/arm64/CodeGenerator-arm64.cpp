@@ -25636,7 +25636,7 @@ ToRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -25677,7 +25677,7 @@ dest
 ;
 switch
 (
-ins
+mir
 -
 >
 laneSize
@@ -25726,7 +25726,7 @@ masm
 .
 replaceLaneInt8x16
 (
-ins
+mir
 -
 >
 laneIndex
@@ -25780,7 +25780,7 @@ masm
 .
 replaceLaneInt16x8
 (
-ins
+mir
 -
 >
 laneIndex
@@ -25834,7 +25834,7 @@ masm
 .
 replaceLaneInt32x4
 (
-ins
+mir
 -
 >
 laneIndex
@@ -25888,7 +25888,7 @@ masm
 .
 replaceLaneInt64x2
 (
-ins
+mir
 -
 >
 laneIndex
