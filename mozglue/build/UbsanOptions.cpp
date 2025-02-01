@@ -8,19 +8,12 @@ Attributes
 h
 "
 #
-include
-"
-mozilla
-/
-Types
-.
-h
-"
+ifndef
+_MSC_VER
 extern
 "
 C
 "
-MOZ_EXPORT
 const
 char
 *
@@ -52,7 +45,6 @@ extern
 "
 C
 "
-MOZ_EXPORT
 const
 char
 *
@@ -65,3 +57,5 @@ return
 "
 ;
 }
+#
+endif
