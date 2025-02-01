@@ -1577,9 +1577,12 @@ mLastSize
 ;
 Maybe
 <
-uint64_t
+webrtc
+:
+:
+Timestamp
 >
-mLastTimestampSendUs
+mLastTimestampSend
 ;
 Maybe
 <
