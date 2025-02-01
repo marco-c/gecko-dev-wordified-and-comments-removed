@@ -900,13 +900,6 @@ code
     
 code
 =
-_remove_extra_newlines
-(
-code
-)
-    
-code
-=
 re
 .
 sub
@@ -2152,7 +2145,7 @@ str
     
 code
 =
-_expand_test_code
+_remove_extra_newlines
 (
 code
 )
@@ -2169,6 +2162,13 @@ from_string
 code
 )
 params
+)
+    
+code
+=
+_expand_test_code
+(
+code
 )
     
 return
