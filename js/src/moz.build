@@ -1023,6 +1023,16 @@ h
 /
 public
 /
+NativeStackLimits
+.
+h
+"
+"
+.
+.
+/
+public
+/
 Object
 .
 h
