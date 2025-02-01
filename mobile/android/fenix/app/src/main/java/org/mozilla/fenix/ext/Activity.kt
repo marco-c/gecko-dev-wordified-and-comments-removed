@@ -83,6 +83,12 @@ android
 .
 content
 .
+Context
+import
+android
+.
+content
+.
 Intent
 import
 android
@@ -1131,7 +1137,7 @@ ROLE_BROWSER
 *
 /
 fun
-Activity
+Context
 .
 isDefaultBrowserPromptSupported
 (

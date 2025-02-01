@@ -315,7 +315,6 @@ actual
 )
 }
 }
-private
 val
 defaultBrowserPageUiData
 =
@@ -374,7 +373,6 @@ privacyCaption
 =
 null
 )
-private
 val
 syncPageUiData
 =
@@ -426,7 +424,6 @@ privacyCaption
 =
 null
 )
-private
 val
 notificationPageUiData
 =
