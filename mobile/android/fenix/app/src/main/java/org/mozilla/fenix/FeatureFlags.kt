@@ -492,7 +492,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 /
 *
 *
