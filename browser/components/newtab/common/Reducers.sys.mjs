@@ -89,11 +89,8 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-common
+modules
 /
 Dedupe
 .

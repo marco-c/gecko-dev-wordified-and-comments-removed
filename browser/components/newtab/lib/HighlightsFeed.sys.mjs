@@ -110,11 +110,8 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-common
+modules
 /
 Dedupe
 .
@@ -177,11 +174,8 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
 LinksCache
 .
