@@ -885,7 +885,11 @@ dialog
 .
 onConfirmRedirect
 =
+{
 doOpenApp
+(
+)
+}
 dialog
 .
 onCancelRedirect
