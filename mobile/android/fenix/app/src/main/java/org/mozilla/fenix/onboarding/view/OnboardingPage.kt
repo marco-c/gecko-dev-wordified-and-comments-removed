@@ -1066,7 +1066,6 @@ height
 .
 *
 /
-private
 fun
 imageHeight
 (
