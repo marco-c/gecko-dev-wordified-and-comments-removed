@@ -2645,7 +2645,7 @@ default
 =
 GleanMetricsService
 .
-wasTelemetryEnabled
+shouldTelemetryBeEnabledByDefault
 (
 context
 )
