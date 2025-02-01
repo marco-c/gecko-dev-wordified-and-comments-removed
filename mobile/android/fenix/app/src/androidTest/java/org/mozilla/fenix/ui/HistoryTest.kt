@@ -894,6 +894,7 @@ verifyMultiSelectionCheckmark
 )
 verifyMultiSelectionCounter
 (
+1
 )
 verifyShareHistoryButton
 (
