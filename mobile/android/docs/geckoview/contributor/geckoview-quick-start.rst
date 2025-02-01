@@ -2360,7 +2360,7 @@ mach
 gradle
 geckoview
 :
-apiLintWithGeckoBinariesDebug
+apiLintDebug
 Running
 the
 above
@@ -2414,7 +2414,7 @@ mach
 gradle
 geckoview
 :
-apiLintWithGeckoBinariesDebug
+apiLintDebug
 The
 build
 should
