@@ -59,6 +59,7 @@ bigFileRequests
 postDataRequests
 xhrRequests
 dataRequests
+bigDataRequests
 }
 )
 {
@@ -96,6 +97,8 @@ postDataRequests
 xhrRequests
 +
 dataRequests
++
+bigDataRequests
 )
 ;
 }
@@ -107,6 +110,7 @@ bigFileRequests
 postDataRequests
 xhrRequests
 dataRequests
+bigDataRequests
 }
 )
 {
@@ -150,6 +154,13 @@ dataRequests
 =
 {
 dataRequests
+}
++
+&
+bigDataRequests
+=
+{
+bigDataRequests
 }
 )
 ;
@@ -287,6 +298,9 @@ xhrRequests
 :
 50
 dataRequests
+:
+0
+bigDataRequests
 :
 0
 }
@@ -480,7 +494,17 @@ xhrRequests
 dataRequests
 :
 2000
+bigDataRequests
+:
+0
 }
+;
+expectedRequests
+=
+getExpectedRequests
+(
+requests
+)
 ;
 requestsDone
 =
