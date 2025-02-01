@@ -400,10 +400,9 @@ Breadcrumb
 >
 (
 )
-service
-.
-report
-(
+val
+crash
+=
 Crash
 .
 UncaughtExceptionCrash
@@ -412,6 +411,11 @@ UncaughtExceptionCrash
 exception
 breadcrumbs
 )
+service
+.
+report
+(
+crash
 )
 verify
 (
@@ -424,6 +428,7 @@ breadcrumbs
 SentryLevel
 .
 FATAL
+crash
 )
 verify
 (
@@ -550,6 +555,7 @@ breadcrumbs
 SentryLevel
 .
 FATAL
+nativeCrash
 )
 verify
 (
@@ -676,6 +682,7 @@ breadcrumbs
 SentryLevel
 .
 ERROR
+nativeCrash
 )
 verify
 (
@@ -802,6 +809,7 @@ breadcrumbs
 SentryLevel
 .
 ERROR
+nativeCrash
 )
 verify
 (
@@ -935,6 +943,7 @@ breadcrumbs
 SentryLevel
 .
 ERROR
+nativeCrash
 )
 verify
 (
@@ -1410,6 +1419,7 @@ breadcrumbs
 SentryLevel
 .
 INFO
+null
 )
 verify
 (
@@ -1425,6 +1435,7 @@ breadcrumbs
 SentryLevel
 .
 FATAL
+null
 )
 verify
 (
@@ -1538,6 +1549,7 @@ breadcrumbs
 SentryLevel
 .
 INFO
+null
 )
 verify
 (
