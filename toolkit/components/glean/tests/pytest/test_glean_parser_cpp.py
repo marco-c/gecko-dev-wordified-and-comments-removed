@@ -274,7 +274,15 @@ output_cpp
 (
 all_objs
 output_fd
-options
+{
+"
+header_name
+"
+:
+"
+Metrics
+"
+}
 )
     
 expect
