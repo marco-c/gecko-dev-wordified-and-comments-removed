@@ -7318,6 +7318,11 @@ toObject
 (
 )
 ;
+delete
+profileObj
+.
+avatarL10nId
+;
 await
 this
 .
