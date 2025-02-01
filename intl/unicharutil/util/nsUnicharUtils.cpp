@@ -2961,6 +2961,12 @@ uint32_t
 u
 )
 {
+constexpr
+uint32_t
+kFullwidthTilde
+=
+0xFF5E
+;
 return
 intl
 :
@@ -2974,6 +2980,7 @@ u
 )
 &
 &
+(
 intl
 :
 :
@@ -2983,6 +2990,13 @@ UnicodeProperties
 IsPunctuation
 (
 u
+)
+|
+|
+u
+=
+=
+kFullwidthTilde
 )
 ;
 }
