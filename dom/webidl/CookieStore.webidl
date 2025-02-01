@@ -186,6 +186,7 @@ EventTarget
 {
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -200,6 +201,7 @@ name
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -218,6 +220,7 @@ options
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -231,6 +234,7 @@ name
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -248,6 +252,7 @@ options
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -263,6 +268,7 @@ value
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -276,6 +282,7 @@ options
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
@@ -289,6 +296,7 @@ name
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
