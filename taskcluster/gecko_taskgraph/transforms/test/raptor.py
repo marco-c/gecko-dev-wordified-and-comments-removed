@@ -1212,6 +1212,14 @@ target
 "
 tier
 "
+        
+"
+mozharness
+.
+extra
+-
+options
+"
     
 ]
     
