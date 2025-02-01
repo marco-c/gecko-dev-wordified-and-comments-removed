@@ -12720,6 +12720,15 @@ mRemainingIters
 0
 )
 {
+#
+ifdef
+MOZ_MEMORY
+jemalloc_free_dirty_pages
+(
+)
+;
+#
+endif
 os
 -
 >
