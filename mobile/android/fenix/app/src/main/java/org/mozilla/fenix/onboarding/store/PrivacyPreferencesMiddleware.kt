@@ -324,14 +324,6 @@ ops
 is
 PrivacyPreferencesAction
 .
-CrashReportingChecked
-is
-PrivacyPreferencesAction
-.
-UsageDataUserChecked
-is
-PrivacyPreferencesAction
-.
 CrashReportingLearnMore
 is
 PrivacyPreferencesAction
