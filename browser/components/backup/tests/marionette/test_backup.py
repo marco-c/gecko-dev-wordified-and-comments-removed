@@ -152,7 +152,7 @@ add_test_form_history
         
 self
 .
-add_test_activity_stream_snippets_data
+add_test_asrouter_snippets_data
 (
 )
         
@@ -1379,7 +1379,7 @@ verify_recovered_form_history
         
 self
 .
-verify_recovered_activity_stream_snippets_data
+verify_recovered_asrouter_snippets_data
 (
 )
         
@@ -3706,7 +3706,7 @@ formHistoryResultsLength
 )
     
 def
-add_test_activity_stream_snippets_data
+add_test_asrouter_snippets_data
 (
 self
 )
@@ -3725,7 +3725,7 @@ execute_async_script
           
 const
 {
-ActivityStreamStorage
+ASRouterStorage
 }
 =
 ChromeUtils
@@ -3738,13 +3738,12 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
-ActivityStreamStorage
+asrouter
+/
+ASRouterStorage
 .
 sys
 .
@@ -3782,7 +3781,7 @@ let
 storage
 =
 new
-ActivityStreamStorage
+ASRouterStorage
 (
 {
               
@@ -3846,7 +3845,7 @@ outerResolve
 )
     
 def
-verify_recovered_activity_stream_snippets_data
+verify_recovered_asrouter_snippets_data
 (
 self
 )
@@ -3867,7 +3866,7 @@ execute_async_script
           
 const
 {
-ActivityStreamStorage
+ASRouterStorage
 }
 =
 ChromeUtils
@@ -3880,13 +3879,12 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
-ActivityStreamStorage
+asrouter
+/
+ASRouterStorage
 .
 sys
 .
@@ -3924,7 +3922,7 @@ let
 storage
 =
 new
-ActivityStreamStorage
+ASRouterStorage
 (
 {
               

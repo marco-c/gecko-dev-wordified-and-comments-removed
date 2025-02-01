@@ -90,7 +90,7 @@ mjs
 ;
 export
 class
-ActivityStreamStorage
+ASRouterStorage
 {
 /
 *

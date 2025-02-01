@@ -81,7 +81,7 @@ mjs
 ;
 import
 {
-ActivityStreamStorage
+ASRouterStorage
 }
 from
 "
@@ -89,13 +89,12 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
-ActivityStreamStorage
+asrouter
+/
+ASRouterStorage
 .
 sys
 .
@@ -1164,7 +1163,7 @@ this
 dbStorage
 =
 new
-ActivityStreamStorage
+ASRouterStorage
 (
 {
 storeNames

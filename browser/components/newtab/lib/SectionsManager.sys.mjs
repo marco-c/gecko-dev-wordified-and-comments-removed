@@ -200,13 +200,12 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
-ActivityStreamStorage
+asrouter
+/
+ASRouterStorage
 .
 sys
 .
