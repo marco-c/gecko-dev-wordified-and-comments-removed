@@ -674,6 +674,15 @@ sys
 mjs
 "
 "
+app
+/
+UsageReporting
+.
+sys
+.
+mjs
+"
+"
 dap
 /
 DAPTelemetrySender
