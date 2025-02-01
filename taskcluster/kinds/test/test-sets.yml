@@ -1515,6 +1515,12 @@ tests
 -
 mochitest
 -
+browser
+-
+chrome
+-
+mochitest
+-
 media
 -
 reftest
@@ -1560,12 +1566,6 @@ mochitest
 browser
 -
 a11y
--
-mochitest
--
-browser
--
-chrome
 -
 mochitest
 -
