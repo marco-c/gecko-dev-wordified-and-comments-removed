@@ -1102,6 +1102,7 @@ test_self_event_listener
 (
 cb
 invoker
+label
 )
 {
 test_loaf_script
@@ -1113,6 +1114,7 @@ event
 -
 listener
 "
+label
 )
 ;
 }
