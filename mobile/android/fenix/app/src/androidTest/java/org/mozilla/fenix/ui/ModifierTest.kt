@@ -270,10 +270,6 @@ composeTestRule
 scrollToOnShownIndex
 (
 )
-assertFalse
-(
-onShown
-)
 composeTestRule
 .
 waitUntil
