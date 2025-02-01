@@ -19,9 +19,7 @@ devtools
 /
 shared
 /
-inspector
-/
-utils
+string
 .
 js
 "
