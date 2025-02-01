@@ -19,6 +19,7 @@ super
 :
 {
 CommonMetricData
+MetricGetter
 MetricId
 }
 ;
@@ -46,7 +47,7 @@ Parent
 {
 id
 :
-MetricId
+MetricGetter
 inner
 :
 Arc
@@ -116,6 +117,12 @@ StringMetric
 Parent
 {
 id
+:
+id
+.
+into
+(
+)
 inner
 :
 Arc

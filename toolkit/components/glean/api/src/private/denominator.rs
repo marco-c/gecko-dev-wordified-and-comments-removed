@@ -402,6 +402,10 @@ amount
 c
 .
 0
+.
+into
+(
+)
 }
 }
 ;
@@ -460,6 +464,10 @@ IntLikeMetricMarker
 new
 (
 id
+.
+into
+(
+)
 None
 amount
 )

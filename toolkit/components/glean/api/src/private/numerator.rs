@@ -457,6 +457,10 @@ IntLikeMetricMarker
 new
 (
 id
+.
+into
+(
+)
 None
 amount
 )

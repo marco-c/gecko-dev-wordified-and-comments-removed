@@ -1842,6 +1842,8 @@ ctor
 }
 }
 (
+MetricId
+(
 {
 {
 obj
@@ -1849,9 +1851,6 @@ obj
 metric_id
 }
 }
-.
-into
-(
 )
 meta
 {
@@ -2142,6 +2141,8 @@ map
 .
 insert
 (
+MetricId
+(
 {
 {
 metric
@@ -2149,9 +2150,6 @@ metric
 0
 }
 }
-.
-into
-(
 )
 &
 super
@@ -3380,10 +3378,10 @@ RwLock
 HashMap
 <
 (
-u32
+MetricId
 String
 )
-u32
+SubMetricId
 >
 >
 >
@@ -3513,7 +3511,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+SubMetricId
 Arc
 <
 Labeled

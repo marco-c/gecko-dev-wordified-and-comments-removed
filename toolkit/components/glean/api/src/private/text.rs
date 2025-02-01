@@ -116,8 +116,6 @@ TextMetric
 Parent
 {
 id
-:
-id
 inner
 :
 Arc
@@ -323,8 +321,14 @@ StringLikeMetricMarker
 :
 new
 (
+(
 *
 id
+)
+.
+into
+(
+)
 &
 value
 )
