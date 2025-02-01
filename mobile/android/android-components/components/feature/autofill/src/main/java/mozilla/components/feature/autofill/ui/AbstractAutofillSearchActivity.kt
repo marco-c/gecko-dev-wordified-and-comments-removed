@@ -825,7 +825,7 @@ Main
 {
 adapter
 .
-update
+submitList
 (
 filteredLogins
 )
@@ -839,8 +839,11 @@ clearResults
 {
 adapter
 .
-clear
+submitList
 (
+emptyList
+(
+)
 )
 }
 private
