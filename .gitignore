@@ -905,6 +905,8 @@ puppeteer
 /
 *
 *
+/
+*
 .
 tsbuildinfo
 remote
@@ -1181,6 +1183,18 @@ puppeteer
 testserver
 /
 lib
+/
+remote
+/
+test
+/
+puppeteer
+/
+tools
+/
+doctest
+/
+bin
 /
 remote
 /
