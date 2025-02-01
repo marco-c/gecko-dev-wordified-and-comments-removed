@@ -108,6 +108,11 @@ maxdepth
 :
 3
 customizableui
+drag
+-
+position
+-
+manager
 overflowable
 -
 toolbar
