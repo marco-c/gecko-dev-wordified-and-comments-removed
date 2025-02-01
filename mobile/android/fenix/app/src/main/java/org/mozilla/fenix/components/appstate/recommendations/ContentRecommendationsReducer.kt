@@ -598,6 +598,11 @@ contentRecommendations
 emptyList
 (
 )
+sponsoredContents
+=
+emptyList
+(
+)
 )
 }
 is
