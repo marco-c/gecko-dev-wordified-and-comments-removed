@@ -6662,6 +6662,8 @@ CONSOLE
 :
 bluetooth
 /
+legacy
+/
 characteristic
 /
 readValue
