@@ -1202,6 +1202,18 @@ bool
 aClearInChildProcesses
 )
 ;
+const
+OverOutElementsWrapper
+*
+GetExtantMouseBoundaryEventTarget
+(
+)
+const
+{
+return
+mMouseEnterLeaveHelper
+;
+}
 protected
 :
 void
@@ -2050,6 +2062,7 @@ WidgetWheelEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoScrollHistory
 (
