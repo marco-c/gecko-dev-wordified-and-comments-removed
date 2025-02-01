@@ -87,9 +87,14 @@ oop_permutations
 Dict
 [
 str
-list
+Dict
 [
 str
+Dict
+[
+str
+int
+]
 ]
 ]
     
