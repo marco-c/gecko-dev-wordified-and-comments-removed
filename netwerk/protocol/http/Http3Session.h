@@ -482,6 +482,10 @@ Authenticated
 (
 int32_t
 aError
+bool
+aServCertHashesSucceeded
+=
+false
 )
 ;
 nsresult
