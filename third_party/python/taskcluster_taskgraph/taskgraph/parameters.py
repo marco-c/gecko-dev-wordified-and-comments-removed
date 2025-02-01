@@ -679,6 +679,8 @@ existing_tasks
 files_changed
 "
 :
+lambda
+:
 repo
 .
 get_changed_files
@@ -1347,6 +1349,15 @@ kwargs
 name
 ]
 =
+default
+(
+)
+if
+callable
+(
+default
+)
+else
 default
         
 return

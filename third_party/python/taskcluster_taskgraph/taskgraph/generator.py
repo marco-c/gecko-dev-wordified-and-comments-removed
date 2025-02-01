@@ -2019,22 +2019,13 @@ logger
 info
 (
             
+f
 "
 Full
 task
 graph
 contains
-%
-d
-tasks
-and
-%
-d
-dependencies
-"
-            
-%
-(
+{
 len
 (
 full_task_set
@@ -2043,11 +2034,17 @@ graph
 .
 nodes
 )
+}
+tasks
+and
+{
 len
 (
 edges
 )
-)
+}
+dependencies
+"
         
 )
         
@@ -2168,37 +2165,34 @@ logger
 info
 (
                 
+f
 "
 Filter
-%
-s
-pruned
-%
-d
-tasks
-(
-%
-d
-remain
-)
-"
-                
-%
-(
+{
 fltr
 .
 __name__
+}
+pruned
+{
 old_len
 -
 len
 (
 target_tasks
 )
+}
+tasks
+(
+{
 len
 (
 target_tasks
 )
+}
+remain
 )
+"
             
 )
         
@@ -2305,18 +2299,10 @@ logger
 info
 (
             
+f
 "
 Adding
-%
-d
-tasks
-with
-always_target
-attribute
-"
-            
-%
-(
+{
 len
 (
 always_target_tasks
@@ -2328,7 +2314,12 @@ always_target_tasks
 &
 target_tasks
 )
-)
+}
+tasks
+with
+always_target
+attribute
+"
         
 )
         

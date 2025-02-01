@@ -4,7 +4,7 @@ Version
 :
 2
 .
-3
+4
 Name
 :
 taskcluster
@@ -14,7 +14,7 @@ Version
 :
 12
 .
-1
+2
 .
 0
 Summary
@@ -71,6 +71,11 @@ mozilla
 .
 com
 >
+License
+-
+File
+:
+LICENSE
 Classifier
 :
 Development

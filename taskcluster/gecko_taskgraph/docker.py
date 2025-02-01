@@ -252,7 +252,6 @@ stream_context_tar
 GECKO
 image_dir
 buf
-name
 args
 )
     
