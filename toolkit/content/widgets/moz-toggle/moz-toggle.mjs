@@ -272,6 +272,16 @@ static
 properties
 =
 {
+ariaLabel
+:
+{
+type
+:
+String
+mapped
+:
+true
+}
 pressed
 :
 {
