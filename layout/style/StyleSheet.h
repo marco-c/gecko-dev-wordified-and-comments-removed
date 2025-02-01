@@ -1727,13 +1727,6 @@ aAdopter
 {
 MOZ_ASSERT
 (
-IsConstructed
-(
-)
-)
-;
-MOZ_ASSERT
-(
 !
 mAdopters
 .
