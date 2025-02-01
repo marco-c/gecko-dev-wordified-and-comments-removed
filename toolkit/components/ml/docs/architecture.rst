@@ -20,7 +20,7 @@ Architecture
 The
 Firefox
 AI
-Platform
+Runtime
 uses
 the
 ONNX
@@ -67,7 +67,7 @@ align
 center
 Firefox
 AI
-Platform
+Runtime
 Architecture
 (
 1

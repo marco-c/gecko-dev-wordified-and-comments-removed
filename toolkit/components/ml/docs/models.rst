@@ -531,7 +531,7 @@ to
 run
 the
 inference
-platform
+runtime
 .
 -
 ml
@@ -1143,7 +1143,7 @@ are
 the
 one
 our
-platform
+runtime
 uses
 *
 *

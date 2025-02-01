@@ -1,7 +1,6 @@
 Firefox
 AI
-Platform
-=
+Runtime
 =
 =
 =
@@ -29,7 +28,7 @@ machine
 learning
 local
 inference
-engine
+runtime
 based
 on
 Transformers
@@ -135,8 +134,7 @@ runtime
 .
 To
 enable
-the
-engine
+it
 flip
 the
 browser
