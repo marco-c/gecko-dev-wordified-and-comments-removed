@@ -1582,9 +1582,6 @@ name
 "
 CookieChangeEvent
 "
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -1592,9 +1589,6 @@ name
 "
 CookieStore
 "
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -8031,9 +8025,6 @@ name
 "
 cookieStore
 "
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
