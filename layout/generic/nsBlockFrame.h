@@ -822,7 +822,7 @@ nsIFrame
 &
 aLineChildFrame
 bool
-aConsiderMargins
+aConsiderPositiveMargins
 =
 true
 )
