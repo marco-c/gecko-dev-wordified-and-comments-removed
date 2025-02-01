@@ -466,15 +466,6 @@ aRequest
 #
 endif
 nsresult
-Unload
-(
-const
-nsACString
-&
-aResourceURI
-)
-;
-nsresult
 IsESModuleLoaded
 (
 const
