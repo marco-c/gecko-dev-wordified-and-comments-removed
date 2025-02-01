@@ -17,12 +17,19 @@ TsanOptions
 h
 "
 #
-ifndef
-_MSC_VER
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 extern
 "
 C
 "
+MOZ_EXPORT
 const
 char
 *
@@ -941,5 +948,3 @@ n
 "
 ;
 }
-#
-endif
