@@ -217,13 +217,6 @@ Option
 BindSamplerTarget
 >
 pub
-binding_array_size
-:
-Option
-<
-u32
->
-pub
 mutable
 :
 bool

@@ -65,6 +65,17 @@ toml
 [
 features
 ]
+default
+=
+[
+"
+std
+"
+]
+std
+=
+[
+]
 AbortController
 =
 [

@@ -1,3 +1,18 @@
+use
+alloc
+:
+:
+{
+string
+:
+:
+String
+vec
+:
+:
+Vec
+}
+;
 #
 [
 cfg
@@ -10,7 +25,7 @@ counters
 )
 ]
 use
-std
+core
 :
 :
 sync
@@ -25,7 +40,7 @@ Ordering
 }
 ;
 use
-std
+core
 :
 :
 {
@@ -435,7 +450,7 @@ new
 }
 }
 impl
-std
+core
 :
 :
 fmt
@@ -454,7 +469,7 @@ f
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -468,7 +483,7 @@ _
 )
 -
 >
-std
+core
 :
 :
 fmt
@@ -824,7 +839,7 @@ sort_by_key
 |
 alloc
 |
-std
+core
 :
 :
 cmp
@@ -877,7 +892,7 @@ field
 summary
 "
 &
-std
+core
 :
 :
 format_args

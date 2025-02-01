@@ -11573,9 +11573,6 @@ NSUInteger
 )
 -
 >
-accelerator_structure
-:
-:
 AccelerationStructure
 {
 unsafe

@@ -978,5 +978,12 @@ writer
 :
 :
 MODF_FUNCTION
+super
+:
+:
+writer
+:
+:
+ARGUMENT_BUFFER_WRAPPER_STRUCT
 ]
 ;

@@ -485,7 +485,15 @@ shader_compilation
 get_dynamic_dxc_container
 (
 dxc_path
+.
+into
+(
+)
 dxil_path
+.
+into
+(
+)
 )
 .
 map_err

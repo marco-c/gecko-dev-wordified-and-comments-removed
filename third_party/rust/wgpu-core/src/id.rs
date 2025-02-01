@@ -1225,11 +1225,6 @@ type
 TlasId
 Tlas
 ;
-pub
-type
-TlasInstanceId
-TlasInstance
-;
 }
 impl
 CommandEncoderId

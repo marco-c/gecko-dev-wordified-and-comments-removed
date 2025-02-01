@@ -43,3 +43,17 @@ lib
 .
 rs
 "
+[
+features
+]
+default
+=
+[
+"
+std
+"
+]
+std
+=
+[
+]

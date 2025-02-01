@@ -235,6 +235,15 @@ Atomic
 S
 :
 :
+ImageAtomic
+{
+.
+.
+}
+|
+S
+:
+:
 WorkGroupUniformLoad
 {
 .

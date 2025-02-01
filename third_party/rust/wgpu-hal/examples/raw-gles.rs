@@ -22,6 +22,11 @@ target_os
 "
 ios
 "
+target_os
+=
+"
+visionos
+"
 )
 )
 )
@@ -1465,6 +1470,11 @@ target_os
 "
 ios
 "
+target_os
+=
+"
+visionos
+"
 )
 )
 ]
@@ -1520,6 +1530,11 @@ target_os
 =
 "
 ios
+"
+target_os
+=
+"
+visionos
 "
 )
 )

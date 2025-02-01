@@ -5071,7 +5071,7 @@ PredeclaredType
 ModfResult
 {
 size
-width
+scalar
 }
 |
 &
@@ -5084,7 +5084,7 @@ PredeclaredType
 FrexpResult
 {
 size
-width
+scalar
 }
 =
 >
@@ -5116,6 +5116,8 @@ format
 }
 "
 if
+scalar
+.
 width
 =
 =
@@ -5141,6 +5143,8 @@ arg_type_name_owner
 }
 else
 if
+scalar
+.
 width
 =
 =
