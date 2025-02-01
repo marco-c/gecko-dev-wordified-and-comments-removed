@@ -404,6 +404,13 @@ setInitialInput
 (
 )
 {
+await
+super
+.
+focusInput
+(
+)
+;
 if
 (
 RPMGetBoolPref
@@ -429,7 +436,9 @@ return
 await
 this
 .
-updateComplete
+getUpdateComplete
+(
+)
 ;
 this
 .
