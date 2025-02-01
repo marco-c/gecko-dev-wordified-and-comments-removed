@@ -328,7 +328,7 @@ alt_text
 }
 ;
 const
-onLinkCLick
+onLinkClick
 =
 (
 )
@@ -599,7 +599,7 @@ title
 onLinkClick
 =
 {
-onLinkCLick
+onLinkClick
 }
 dispatch
 =
