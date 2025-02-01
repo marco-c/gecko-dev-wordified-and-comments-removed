@@ -2364,7 +2364,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 value
 (
@@ -2529,7 +2528,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 expected
 (
@@ -2542,7 +2540,6 @@ getInt64Operand
 )
 ;
 }
-const
 LInt64Allocation
 replacement
 (
@@ -2699,7 +2696,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 value
 (
@@ -2873,7 +2869,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 value
 (

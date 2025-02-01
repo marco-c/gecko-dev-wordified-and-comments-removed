@@ -3667,7 +3667,6 @@ offset32
 ;
 DebugOnly
 <
-const
 LInt64Allocation
 >
 value

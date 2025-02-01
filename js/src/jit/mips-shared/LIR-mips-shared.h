@@ -1580,7 +1580,6 @@ memoryBase
 )
 ;
 }
-const
 LInt64Allocation
 value
 (
@@ -1706,7 +1705,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 oldValue
 (
@@ -1719,7 +1717,6 @@ getInt64Operand
 )
 ;
 }
-const
 LInt64Allocation
 newValue
 (
@@ -1847,7 +1844,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 value
 (
@@ -1971,7 +1967,6 @@ getOperand
 )
 ;
 }
-const
 LInt64Allocation
 value
 (

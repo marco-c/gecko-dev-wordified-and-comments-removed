@@ -1342,7 +1342,6 @@ condExpr
 )
 )
 ;
-const
 LInt64Allocation
 trueExpr
 =
@@ -1353,7 +1352,6 @@ trueExpr
 (
 )
 ;
-const
 LInt64Allocation
 falseExpr
 =

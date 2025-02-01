@@ -12310,7 +12310,6 @@ JSOp
 op
 )
 {
-const
 ARMRegister
 dest
 =
@@ -12325,7 +12324,6 @@ reg
 64
 )
 ;
-const
 ARMRegister
 lhs
 =
@@ -12346,7 +12344,6 @@ reg
 64
 )
 ;
-const
 LInt64Allocation
 rhsAlloc
 =

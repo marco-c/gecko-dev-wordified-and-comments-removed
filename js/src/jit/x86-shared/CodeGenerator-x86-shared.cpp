@@ -204,6 +204,7 @@ ToOperandOrRegister64
 (
 const
 LInt64Allocation
+&
 input
 )
 {
@@ -228,6 +229,7 @@ ToOperandOrRegister64
 (
 const
 LInt64Allocation
+&
 input
 )
 {
