@@ -2149,7 +2149,7 @@ aResult
 #
 ifdef
 MOZ_GECKOVIEW
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
