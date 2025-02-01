@@ -2566,13 +2566,13 @@ useRegister
 (
 base
 )
-tempFixed
+tempInt64Fixed
+(
+Register64
 (
 ecx
-)
-tempFixed
-(
 ebx
+)
 )
 )
 ;
