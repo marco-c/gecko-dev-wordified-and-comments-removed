@@ -6,13 +6,11 @@ bugzilla
 product
 :
 "
-Firefox
+Toolkit
 "
 component
 :
 "
-Toolkit
-:
 Gecko
 Trace
 "
