@@ -8761,7 +8761,7 @@ ToRegister
 ins
 -
 >
-remainder
+output
 (
 )
 )
@@ -8827,9 +8827,8 @@ ToRegister
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 =
