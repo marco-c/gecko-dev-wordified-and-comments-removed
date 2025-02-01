@@ -15932,7 +15932,7 @@ Services
 .
 search
 .
-isInitialized
+hasSuccessfullyInitialized
 )
 {
 menuItem
