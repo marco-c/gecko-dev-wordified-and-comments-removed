@@ -1489,7 +1489,7 @@ the
 page
 store
 the
-translation
+language
 pair
 that
 needs
@@ -7630,7 +7630,7 @@ RequestPort
 {
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 }
 =
 this
@@ -7640,7 +7640,7 @@ languageState
 if
 (
 !
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 lazy
@@ -7656,7 +7656,7 @@ was
 requested
 but
 no
-translation
+language
 pair
 was
 previously
@@ -7720,7 +7720,7 @@ fromLanguage
 toLanguage
 }
 =
-requestedTranslationPair
+requestedLanguagePair
 ;
 const
 port
@@ -8391,7 +8391,7 @@ Get
 the
 list
 of
-translation
+language
 pairs
 supported
 by
@@ -14354,7 +14354,7 @@ toLang
 "
 that
 indicates
-translation
+language
 pairs
 that
 were
@@ -17377,7 +17377,7 @@ this
 .
 languageState
 .
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 /
@@ -17545,7 +17545,7 @@ this
 .
 languageState
 .
-requestedTranslationPair
+requestedLanguagePair
 =
 {
 fromLanguage
@@ -17735,7 +17735,7 @@ this
 .
 languageState
 .
-requestedTranslationPair
+requestedLanguagePair
 =
 null
 ;
@@ -19680,7 +19680,7 @@ message
 =
 No
 matching
-translation
+language
 pairs
 were
 found
@@ -21931,7 +21931,7 @@ this
 .
 languageState
 .
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 actor
@@ -22320,7 +22320,7 @@ null
 *
 /
 #
-requestedTranslationPair
+requestedLanguagePair
 =
 null
 ;
@@ -22482,7 +22482,7 @@ requested
 this
 contains
 the
-translation
+language
 pair
 .
 This
@@ -22518,7 +22518,7 @@ null
 *
 /
 get
-requestedTranslationPair
+requestedLanguagePair
 (
 )
 {
@@ -22526,13 +22526,13 @@ return
 this
 .
 #
-requestedTranslationPair
+requestedLanguagePair
 ;
 }
 set
-requestedTranslationPair
+requestedLanguagePair
 (
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 if
@@ -22540,11 +22540,11 @@ if
 this
 .
 #
-requestedTranslationPair
+requestedLanguagePair
 =
 =
 =
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 return
@@ -22567,9 +22567,9 @@ false
 this
 .
 #
-requestedTranslationPair
+requestedLanguagePair
 =
-requestedTranslationPair
+requestedLanguagePair
 ;
 this
 .
@@ -22579,7 +22579,7 @@ dispatch
 reason
 :
 "
-requestedTranslationPair
+requestedLanguagePair
 "
 }
 )
@@ -23092,13 +23092,13 @@ error
 invalidates
 the
 requested
-translation
+language
 pair
 .
 this
 .
 #
-requestedTranslationPair
+requestedLanguagePair
 =
 null
 ;

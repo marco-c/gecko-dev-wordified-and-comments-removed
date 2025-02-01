@@ -127,7 +127,7 @@ for
 translations
 when
 a
-translation
+language
 pair
 is
 available

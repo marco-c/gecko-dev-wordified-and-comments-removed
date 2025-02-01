@@ -1681,7 +1681,7 @@ try
 {
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 }
 =
 TranslationsParent
@@ -1696,7 +1696,7 @@ selectedBrowser
 languageState
 ;
 return
-requestedTranslationPair
+requestedLanguagePair
 ?
 .
 toLanguage
