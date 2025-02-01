@@ -183,6 +183,14 @@ dom
 HTMLBRElement
 ;
 using
+IgnoreNonEditableNodes
+=
+WSRunScanner
+:
+:
+IgnoreNonEditableNodes
+;
+using
 InsertTextTo
 =
 EditorBase
