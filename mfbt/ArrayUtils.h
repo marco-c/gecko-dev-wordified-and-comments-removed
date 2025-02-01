@@ -229,7 +229,7 @@ uintptr_t
 aPtr
 )
 %
-MOZ_ALIGNOF
+alignof
 (
 AlignType
 )

@@ -323,7 +323,7 @@ sPadding
 N
 <
 =
-MOZ_ALIGNOF
+alignof
 (
 E
 )
@@ -332,7 +332,7 @@ E
 :
 N
 -
-MOZ_ALIGNOF
+alignof
 (
 E
 )
@@ -699,7 +699,7 @@ sPadding
 N
 <
 =
-MOZ_ALIGNOF
+alignof
 (
 E
 )
@@ -708,7 +708,7 @@ E
 :
 N
 -
-MOZ_ALIGNOF
+alignof
 (
 E
 )

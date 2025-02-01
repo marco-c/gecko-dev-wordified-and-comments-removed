@@ -378,7 +378,7 @@ type
 \
 static_assert
 (
-MOZ_ALIGNOF
+alignof
 (
 nsXPTCVariant
 :
@@ -387,7 +387,7 @@ ExtendedVal
 )
 >
 =
-MOZ_ALIGNOF
+alignof
 (
 type
 )

@@ -208,7 +208,7 @@ void
 |
 |
 (
-MOZ_ALIGNOF
+alignof
 (
 mozilla
 :

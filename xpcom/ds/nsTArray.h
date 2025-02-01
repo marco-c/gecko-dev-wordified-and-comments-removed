@@ -3870,7 +3870,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -4038,7 +4038,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -4263,7 +4263,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -5765,7 +5765,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -7658,7 +7658,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -7882,7 +7882,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -7944,7 +7944,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -7999,7 +7999,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -9461,7 +9461,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -9634,7 +9634,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -10370,7 +10370,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -10541,7 +10541,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -10667,7 +10667,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -10916,7 +10916,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -11084,7 +11084,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -11225,7 +11225,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -11451,7 +11451,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -11467,7 +11467,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -11571,7 +11571,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -13899,7 +13899,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -13933,7 +13933,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -13972,7 +13972,7 @@ sizeof
 (
 value_type
 )
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -14130,7 +14130,7 @@ Init
 {
 static_assert
 (
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -14220,7 +14220,7 @@ base_type
 :
 GetAutoArrayBuffer
 (
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
@@ -14270,23 +14270,23 @@ mozilla
 AlignedElem
 <
 (
-MOZ_ALIGNOF
+alignof
 (
 Header
 )
 >
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
 )
 ?
-MOZ_ALIGNOF
+alignof
 (
 Header
 )
 :
-MOZ_ALIGNOF
+alignof
 (
 value_type
 )
