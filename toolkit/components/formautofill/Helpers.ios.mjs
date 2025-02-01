@@ -1118,8 +1118,9 @@ defaultValue
 Explicitly
 check
 for
-null
+undefined
 since
+null
 false
 "
 "
@@ -1134,7 +1135,7 @@ value
 =
 =
 =
-null
+undefined
 )
 {
 throw
