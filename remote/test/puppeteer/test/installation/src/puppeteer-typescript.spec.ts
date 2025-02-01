@@ -118,11 +118,11 @@ typescript
 types
 /
 node
-16
+18
 .
-3
+17
 .
-3
+15
 '
 ]
 env

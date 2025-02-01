@@ -4785,6 +4785,11 @@ toBe
 server
 .
 EMPTY_PAGE
++
+'
+#
+hash
+'
 )
 ;
 expect
@@ -4815,6 +4820,11 @@ toBe
 server
 .
 EMPTY_PAGE
++
+'
+#
+hash
+'
 )
 ;
 }
@@ -4958,11 +4968,6 @@ setRoute
 '
 /
 malformed
-?
-rnd
-=
-%
-911
 '
 (
 _req

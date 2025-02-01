@@ -1675,6 +1675,9 @@ deuteranopia
 protanopia
 '
 '
+reducedContrast
+'
+'
 tritanopia
 '
 ]

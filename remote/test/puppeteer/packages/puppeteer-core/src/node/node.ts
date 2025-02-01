@@ -21,6 +21,7 @@ js
 '
 ;
 export
+type
 *
 from
 '

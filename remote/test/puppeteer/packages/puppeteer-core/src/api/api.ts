@@ -54,6 +54,7 @@ js
 '
 ;
 export
+type
 *
 from
 '

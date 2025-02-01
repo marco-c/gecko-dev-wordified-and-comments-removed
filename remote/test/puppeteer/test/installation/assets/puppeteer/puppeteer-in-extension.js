@@ -208,6 +208,8 @@ result
 =
 '
 Playground
+|
+Iframe
 '
 )
 {
@@ -220,8 +222,12 @@ Unexpected
 playground
 .
 html
++
+iframe
+.
+html
 page
-title
+titles
 :
 '
 +

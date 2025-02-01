@@ -33,7 +33,7 @@ expect
 import
 type
 {
-PuppeteerLaunchOptions
+LaunchOptions
 }
 from
 '
@@ -45,7 +45,7 @@ internal
 /
 node
 /
-PuppeteerNode
+LaunchOptions
 .
 js
 '
@@ -125,7 +125,7 @@ timeout
 let
 headfulOptions
 :
-PuppeteerLaunchOptions
+LaunchOptions
 &
 {
 headless
@@ -136,7 +136,7 @@ false
 let
 headlessOptions
 :
-PuppeteerLaunchOptions
+LaunchOptions
 &
 {
 headless
@@ -243,11 +243,6 @@ await
 launch
 (
 options
-{
-createContext
-:
-false
-}
 )
 ;
 browsers

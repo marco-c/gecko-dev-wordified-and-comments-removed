@@ -258,9 +258,6 @@ path
 ;
 }
 catch
-(
-error
-)
 {
 throw
 new

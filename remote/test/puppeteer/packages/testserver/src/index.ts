@@ -1464,10 +1464,6 @@ path
 url
 .
 pathname
-+
-url
-.
-search
 ;
 const
 auth
@@ -1686,6 +1682,13 @@ string
 :
 void
 {
+pathName
+=
+decodeURIComponent
+(
+pathName
+)
+;
 if
 (
 pathName

@@ -1039,6 +1039,10 @@ dev
 /
 guides
 /
+page
+-
+interactions
+#
 locators
 )
 |

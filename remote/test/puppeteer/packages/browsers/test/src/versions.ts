@@ -25,9 +25,9 @@ const
 testFirefoxBuildId
 =
 '
-130
+stable_129
 .
-0a1
+0
 '
 ;
 export

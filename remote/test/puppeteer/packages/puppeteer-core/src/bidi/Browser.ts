@@ -522,6 +522,13 @@ Ignore
 webSocketUrl
 :
 true
+'
+goog
+:
+prerenderingDisabled
+'
+:
+true
 }
 }
 )

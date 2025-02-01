@@ -815,6 +815,7 @@ disposeSymbol
 )
 ;
 }
+override
 [
 disposeSymbol
 ]

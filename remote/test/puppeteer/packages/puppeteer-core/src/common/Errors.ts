@@ -62,6 +62,13 @@ PuppeteerError
 }
 export
 class
+TouchError
+extends
+PuppeteerError
+{
+}
+export
+class
 ProtocolError
 extends
 PuppeteerError

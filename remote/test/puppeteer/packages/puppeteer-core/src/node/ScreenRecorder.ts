@@ -1327,6 +1327,7 @@ resolve
 )
 ;
 }
+override
 async
 [
 asyncDisposeSymbol

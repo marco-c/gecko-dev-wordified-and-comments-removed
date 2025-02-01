@@ -25,16 +25,6 @@ Apache
 /
 /
 *
-eslint
--
-disable
-no
--
-console
-*
-/
-/
-*
 *
 *
 fileoverview

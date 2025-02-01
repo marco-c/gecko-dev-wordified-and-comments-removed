@@ -320,6 +320,15 @@ this
 #
 request
 .
+_fromMemoryCache
+=
+true
+;
+this
+.
+#
+request
+.
 frame
 (
 )

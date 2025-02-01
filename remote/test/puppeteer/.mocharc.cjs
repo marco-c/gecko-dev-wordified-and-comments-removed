@@ -61,11 +61,6 @@ module
 exports
 =
 {
-reporter
-:
-'
-dot
-'
 logLevel
 :
 '

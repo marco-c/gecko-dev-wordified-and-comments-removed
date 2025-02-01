@@ -118,11 +118,6 @@ firefox
 headful
 "
 "
-firefox
--
-cdp
-"
-"
 chrome
 -
 bidi
