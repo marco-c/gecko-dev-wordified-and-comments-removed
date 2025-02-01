@@ -86,9 +86,6 @@ dictionary
 ProcessActorSidedOptions
 {
 ByteString
-moduleURI
-;
-ByteString
 esModuleURI
 ;
 }

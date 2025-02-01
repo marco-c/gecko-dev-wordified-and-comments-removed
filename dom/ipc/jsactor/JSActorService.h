@@ -305,12 +305,6 @@ Maybe
 <
 nsCString
 >
-mModuleURI
-;
-Maybe
-<
-nsCString
->
 mESModuleURI
 ;
 }
