@@ -89,7 +89,9 @@ mozilla
 /
 glean
 /
-GleanMetrics
+bindings
+/
+MetricTypes
 .
 h
 "

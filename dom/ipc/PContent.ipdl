@@ -466,7 +466,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMetrics
 .
 h
 "
@@ -1208,7 +1208,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMetrics
 .
 h
 "
