@@ -7379,13 +7379,13 @@ value
 FetchOpVal64
 )
 memoryBase
-tempFixed
+tempInt64Fixed
 (
-FetchOpTmpLo
-)
-tempFixed
+Register64
 (
 FetchOpTmpHi
+FetchOpTmpLo
+)
 )
 ins
 -
