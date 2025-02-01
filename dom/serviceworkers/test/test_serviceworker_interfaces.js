@@ -454,16 +454,6 @@ CountQueuingStrategy
 name
 :
 "
-CookieChangeEvent
-"
-earlyBetaOrEarlier
-:
-true
-}
-{
-name
-:
-"
 CookieStore
 "
 earlyBetaOrEarlier

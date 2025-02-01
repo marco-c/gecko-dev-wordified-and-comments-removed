@@ -121,10 +121,7 @@ CookieChangeEvent
 [
 Exposed
 =
-(
-ServiceWorker
 Window
-)
 SecureContext
 Pref
 =
