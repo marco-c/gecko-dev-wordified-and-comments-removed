@@ -74730,6 +74730,13 @@ sectionsEnabled
 &
 &
 sectionsCustomizeMenuPanelEnabled
+&
+&
+DiscoveryStream
+.
+feeds
+.
+loaded
 ;
 const
 featureClassName
