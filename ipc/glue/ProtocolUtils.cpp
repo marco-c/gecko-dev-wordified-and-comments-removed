@@ -142,6 +142,13 @@ nsReadableUtils
 h
 "
 #
+include
+"
+prtime
+.
+h
+"
+#
 if
 defined
 (
