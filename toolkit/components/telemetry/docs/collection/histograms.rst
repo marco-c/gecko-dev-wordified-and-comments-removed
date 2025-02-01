@@ -3401,7 +3401,7 @@ TelemetryStopwatch
 start
 (
 "
-SEARCH_SERVICE_INIT2_MS
+FX_TAB_SWITCH_TOTAL_E10S_MS
 "
 )
 ;
@@ -3410,7 +3410,7 @@ TelemetryStopwatch
 finish
 (
 "
-SEARCH_SERVICE_INIT2_MS
+FX_TAB_SWITCH_TOTAL_E10S_MS
 "
 )
 ;
