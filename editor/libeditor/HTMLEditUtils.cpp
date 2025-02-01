@@ -11069,6 +11069,13 @@ GetAfterLastVisiblePoint
 EditorDOMPointType
 >
 (
+WSRunScanner
+:
+:
+Scan
+:
+:
+EditableNodes
 *
 textNode
 )
@@ -11604,6 +11611,13 @@ GetFirstVisiblePoint
 EditorDOMPointType
 >
 (
+WSRunScanner
+:
+:
+Scan
+:
+:
+EditableNodes
 *
 textNode
 )
