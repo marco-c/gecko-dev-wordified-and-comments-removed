@@ -709,14 +709,6 @@ return
 }
 ;
 }
-import
-(
-)
-{
-return
-global
-;
-}
 importESModule
 (
 )
