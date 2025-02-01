@@ -38,12 +38,12 @@ browsingContext
 .
 navigationStarted
 "
-FRAGMENT_NAVIGATED_EVENT
+HISTORY_UPDATED_EVENT
 =
 "
 browsingContext
 .
-fragmentNavigated
+historyUpdated
 "
 BEFORE_REQUEST_SENT_EVENT
 =
@@ -186,14 +186,14 @@ on_event
     
 )
     
-remove_fragment_navigated_listener
+remove_history_updated_listener
 =
 bidi_session
 .
 add_event_listener
 (
         
-FRAGMENT_NAVIGATED_EVENT
+HISTORY_UPDATED_EVENT
 on_event
     
 )
@@ -215,7 +215,7 @@ subscribe_events
 (
 [
 NAVIGATION_STARTED_EVENT
-FRAGMENT_NAVIGATED_EVENT
+HISTORY_UPDATED_EVENT
 BEFORE_REQUEST_SENT_EVENT
 ]
 )
@@ -257,7 +257,7 @@ events
         
 NAVIGATION_STARTED_EVENT
         
-FRAGMENT_NAVIGATED_EVENT
+HISTORY_UPDATED_EVENT
         
 BEFORE_REQUEST_SENT_EVENT
     
@@ -267,7 +267,7 @@ remove_navigation_started_listener
 (
 )
     
-remove_fragment_navigated_listener
+remove_history_updated_listener
 (
 )
     
