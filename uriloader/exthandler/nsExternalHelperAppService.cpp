@@ -2054,12 +2054,6 @@ ogv
 "
 }
 {
-VIDEO_OGG
-"
-ogg
-"
-}
-{
 APPLICATION_OGG
 "
 ogg
