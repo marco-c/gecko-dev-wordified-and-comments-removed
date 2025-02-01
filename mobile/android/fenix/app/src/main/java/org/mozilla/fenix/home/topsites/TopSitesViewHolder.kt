@@ -345,6 +345,12 @@ interactor
 :
 :
 onTopSiteLongClicked
+onTopSiteImpression
+=
+interactor
+:
+:
+onTopSiteImpression
 onOpenInPrivateTabClicked
 =
 interactor
