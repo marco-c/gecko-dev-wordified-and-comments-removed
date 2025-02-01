@@ -636,12 +636,6 @@ aOnUpdate
 {
 Services
 .
-prefs
-.
-notifyObservers
-;
-Services
-.
 obs
 .
 notifyObservers
