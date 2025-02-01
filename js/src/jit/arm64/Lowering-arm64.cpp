@@ -3008,8 +3008,6 @@ useRegisterAtStart
 lhs
 )
 rhsAlloc
-compTy
-jsop
 useRegisterAtStart
 (
 ins
@@ -3028,6 +3026,8 @@ falseExpr
 (
 )
 )
+compTy
+jsop
 )
 ;
 define

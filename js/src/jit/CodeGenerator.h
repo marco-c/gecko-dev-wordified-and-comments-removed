@@ -1810,14 +1810,6 @@ maybeCreateScriptCounts
 (
 )
 ;
-void
-emitWasmCompareAndSelect
-(
-LWasmCompareAndSelect
-*
-ins
-)
-;
 template
 <
 typename
