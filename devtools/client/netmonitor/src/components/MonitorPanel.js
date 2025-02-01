@@ -665,6 +665,7 @@ const
 {
 selectedRequestVisible
 openNetworkDetails
+networkDetailsOpen
 }
 =
 this
@@ -675,6 +676,9 @@ if
 (
 !
 selectedRequestVisible
+&
+&
+networkDetailsOpen
 )
 {
 openNetworkDetails
