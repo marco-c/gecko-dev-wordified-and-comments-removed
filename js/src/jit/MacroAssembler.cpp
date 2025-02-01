@@ -1525,6 +1525,10 @@ const
 BaseIndex
 &
 src
+const
+ValueOperand
+&
+dest
 Register
 bigInt
 Register64
@@ -1553,6 +1557,13 @@ initializeBigInt64
 arrayType
 bigInt
 temp
+)
+;
+tagValue
+(
+JSVAL_TYPE_BIGINT
+bigInt
+dest
 )
 ;
 }
