@@ -863,12 +863,6 @@ noSideEffectDebugger
 {
 noSideEffectDebugger
 .
-removeAllDebuggees
-(
-)
-;
-noSideEffectDebugger
-.
 onNativeCall
 =
 undefined
@@ -878,6 +872,12 @@ noSideEffectDebugger
 shouldAvoidSideEffects
 =
 false
+;
+noSideEffectDebugger
+.
+removeAllDebuggees
+(
+)
 ;
 }
 }
