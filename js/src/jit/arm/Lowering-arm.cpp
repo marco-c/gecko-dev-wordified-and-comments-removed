@@ -7548,7 +7548,7 @@ hasUses
 )
 )
 {
-LWasmAtomicBinopHeapForEffect
+auto
 *
 lir
 =
@@ -7573,10 +7573,10 @@ value
 (
 )
 )
+memoryBase
 temp
 (
 )
-memoryBase
 )
 ;
 add

@@ -2599,7 +2599,7 @@ value
 )
 )
 ;
-LWasmAtomicBinopHeapForEffect
+auto
 *
 lir
 =
@@ -2616,12 +2616,6 @@ useRegister
 base
 )
 value
-LDefinition
-:
-:
-BogusTemp
-(
-)
 memoryBase
 )
 ;
