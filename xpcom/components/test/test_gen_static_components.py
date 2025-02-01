@@ -95,7 +95,7 @@ class
 ]
             
 "
-jsm
+esModule
 "
 :
 "
@@ -108,7 +108,9 @@ modules
 /
 DummyClass
 .
-jsm
+sys
+.
+mjs
 "
             
 "
@@ -467,7 +469,7 @@ class
 ]
             
 "
-jsm
+esModule
 "
 :
 "
@@ -480,7 +482,9 @@ modules
 /
 DummyClass
 .
-jsm
+sys
+.
+mjs
 "
             
 "
@@ -847,7 +851,7 @@ class
 ]
             
 "
-jsm
+esModule
 "
 :
 "
@@ -860,7 +864,9 @@ modules
 /
 DummyClass
 .
-jsm
+sys
+.
+mjs
 "
             
 "
