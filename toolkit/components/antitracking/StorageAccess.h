@@ -202,6 +202,8 @@ a3rdPartyTrackingWindow
 nsIURI
 *
 aURI
+bool
+aCookies
 uint32_t
 *
 aRejectedReason

@@ -550,6 +550,7 @@ ShouldAllowAccessFor
 (
 aWindow
 documentURI
+true
 &
 aRejectedReason
 )
@@ -1924,6 +1925,8 @@ aWindow
 nsIURI
 *
 aURI
+bool
+aCookies
 uint32_t
 *
 aRejectedReason
@@ -2669,6 +2672,9 @@ false
 bool
 allowed
 =
+aCookies
+&
+&
 document
 -
 >

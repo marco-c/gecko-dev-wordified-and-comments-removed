@@ -67,7 +67,7 @@ blockedPromise
 =
 waitForContentBlockingEvent
 (
-4
+3
 win
 )
 ;
@@ -192,7 +192,7 @@ blockedPromise
 =
 waitForContentBlockingEvent
 (
-4
+3
 win
 )
 ;
