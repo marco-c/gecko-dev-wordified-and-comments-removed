@@ -124,11 +124,14 @@ cwd
 checkout
 }
 '
-cache
+use
 -
-dotcache
+caches
 :
-true
+[
+checkout
+npm
+]
 newtab
 -
 unit
