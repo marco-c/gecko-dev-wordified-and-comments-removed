@@ -101,6 +101,8 @@ base
 .
 theme
 .
+layout
+.
 AcornWindowSize
 /
 *

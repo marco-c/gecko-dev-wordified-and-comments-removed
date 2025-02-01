@@ -109,6 +109,8 @@ base
 .
 theme
 .
+layout
+.
 AcornWindowSize
 private
 const

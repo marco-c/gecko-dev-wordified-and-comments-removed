@@ -235,6 +235,8 @@ base
 .
 theme
 .
+layout
+.
 AcornWindowSize
 import
 mozilla

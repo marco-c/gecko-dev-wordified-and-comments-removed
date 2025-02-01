@@ -161,7 +161,7 @@ base
 .
 theme
 .
-AcornWindowSize
+darkColorPalette
 import
 mozilla
 .
@@ -173,7 +173,9 @@ base
 .
 theme
 .
-darkColorPalette
+layout
+.
+AcornWindowSize
 import
 mozilla
 .
