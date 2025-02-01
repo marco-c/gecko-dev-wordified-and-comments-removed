@@ -49,6 +49,12 @@ DateTimeValue
 from
 marionette_driver
 .
+keys
+import
+Keys
+from
+marionette_driver
+.
 wait
 import
 Wait
