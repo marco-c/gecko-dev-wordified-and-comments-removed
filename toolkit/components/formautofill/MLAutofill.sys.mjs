@@ -400,7 +400,7 @@ static
 async
 runInference
 (
-fieldDetails
+section
 )
 {
 if
@@ -438,6 +438,8 @@ Promise
 .
 all
 (
+section
+.
 fieldDetails
 .
 map
@@ -466,6 +468,8 @@ mlHeaderInput
 fieldDetail
 .
 mlinput
+section
+.
 fieldDetails
 [
 index
@@ -479,6 +483,8 @@ mlinput
 ?
 "
 "
+section
+.
 fieldDetails
 [
 index
@@ -524,6 +530,15 @@ request
 )
 )
 ;
+const
+isValidSection
+=
+section
+.
+isValidSection
+(
+)
+;
 for
 (
 let
@@ -545,6 +560,8 @@ idx
 const
 fieldDetail
 =
+section
+.
 fieldDetails
 [
 idx
@@ -575,6 +592,9 @@ infer_reason
 fieldDetail
 .
 reason
+is_valid_section
+:
+isValidSection
 fathom_infer_label
 :
 fieldDetail

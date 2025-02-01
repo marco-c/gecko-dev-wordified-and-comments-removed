@@ -456,6 +456,11 @@ infer_reason
 "
 autocomplete
 "
+is_valid_section
+:
+"
+true
+"
 fathom_infer_label
 :
 fathom_label
