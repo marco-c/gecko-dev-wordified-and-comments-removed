@@ -7083,7 +7083,7 @@ lazy
 .
 QuickSuggest
 .
-isURLEquivalentToResultURL
+isUrlEquivalentToResultUrl
 (
 result
 .
