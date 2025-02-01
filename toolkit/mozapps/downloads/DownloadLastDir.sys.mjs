@@ -416,9 +416,6 @@ generateQI
 "
 nsIObserver
 "
-"
-nsISupportsWeakReference
-"
 ]
 )
 observe
@@ -598,7 +595,6 @@ context
 -
 exited
 "
-true
 )
 ;
 Services
@@ -617,7 +613,6 @@ session
 -
 history
 "
-true
 )
 ;
 function
