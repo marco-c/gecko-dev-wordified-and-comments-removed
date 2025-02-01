@@ -1,8 +1,0 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-{
-}
-]
-;
