@@ -717,10 +717,9 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-_class
+hidden
 u
 "
-hidden
 "
 _ns
 true
@@ -745,8 +744,10 @@ SetAttr
 nsGkAtoms
 :
 :
-_class
 hidden
+.
+.
+.
 )
 failed
 "
@@ -779,7 +780,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-_moz_anonclass
+_class
 aAnonClass
 true
 )

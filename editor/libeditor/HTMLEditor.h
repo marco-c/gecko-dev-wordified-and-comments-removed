@@ -8551,7 +8551,7 @@ aParentContent
 const
 nsAString
 &
-aAnonClass
+aClass
 bool
 aIsCreatedHidden
 )

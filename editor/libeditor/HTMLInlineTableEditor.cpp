@@ -1055,7 +1055,7 @@ aElement
 )
 {
 nsAutoString
-anonclass
+classList
 ;
 aElement
 .
@@ -1064,8 +1064,8 @@ GetAttr
 nsGkAtoms
 :
 :
-_moz_anonclass
-anonclass
+_class
+classList
 )
 ;
 if
@@ -1073,7 +1073,7 @@ if
 !
 StringBeginsWith
 (
-anonclass
+classList
 u
 "
 mozTable
@@ -1260,7 +1260,7 @@ tableElement
 ;
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
@@ -1367,7 +1367,7 @@ ignored
 else
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
@@ -1545,7 +1545,7 @@ ignored
 else
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
@@ -1664,7 +1664,7 @@ ignored
 else
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
@@ -1783,7 +1783,7 @@ ignored
 else
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
@@ -1891,7 +1891,7 @@ colCount
 else
 if
 (
-anonclass
+classList
 .
 EqualsLiteral
 (
