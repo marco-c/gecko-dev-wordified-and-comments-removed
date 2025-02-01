@@ -151,7 +151,7 @@ GCRuntime
 struct
 MediumBuffer
 ;
-class
+struct
 LargeBuffer
 ;
 class
