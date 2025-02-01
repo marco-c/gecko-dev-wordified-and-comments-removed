@@ -68,6 +68,7 @@ ThumbsUpToast
 (
 {
 onDismissClick
+onAnimationEnd
 }
 )
 {
@@ -87,6 +88,11 @@ is
 -
 success
 "
+onAnimationEnd
+=
+{
+onAnimationEnd
+}
 >
 <
 div
