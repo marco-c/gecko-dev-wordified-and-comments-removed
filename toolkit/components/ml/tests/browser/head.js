@@ -2226,13 +2226,15 @@ r
 >
 mgr
 .
-getReports
+getReportsExtended
 (
 handleReport
 null
 r
 null
 false
+true
+null
 )
 )
 ;

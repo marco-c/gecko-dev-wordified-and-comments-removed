@@ -341,9 +341,6 @@ boolean
 anonymize
 )
 ;
-[
-noscript
-]
 void
 getReportsExtended
 (
