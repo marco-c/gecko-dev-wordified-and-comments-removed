@@ -1301,13 +1301,6 @@ android
 ]
 [
 "
-test_import_shim
-.
-js
-"
-]
-[
-"
 test_import_stack
 .
 js

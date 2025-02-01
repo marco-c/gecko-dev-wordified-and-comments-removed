@@ -65,13 +65,6 @@ js
 ]
 [
 "
-browser_import_mapped_jsm
-.
-js
-"
-]
-[
-"
 browser_parent_process_hang_telemetry
 .
 js
