@@ -97,8 +97,8 @@ nsIFile
 *
 aZip
 const
-char
-*
+nsACString
+&
 aPath
 )
 ;
@@ -108,8 +108,8 @@ nsZipArchive
 *
 aZip
 const
-char
-*
+nsACString
+&
 aPath
 )
 ;
@@ -120,8 +120,8 @@ FileLocation
 &
 aFile
 const
-char
-*
+nsACString
+&
 aPath
 )
 ;
@@ -140,8 +140,8 @@ nsIFile
 *
 aZip
 const
-char
-*
+nsACString
+&
 aPath
 )
 ;
@@ -152,8 +152,8 @@ nsZipArchive
 *
 aZip
 const
-char
-*
+nsACString
+&
 aPath
 )
 ;

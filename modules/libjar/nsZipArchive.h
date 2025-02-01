@@ -285,8 +285,8 @@ nsresult
 Test
 (
 const
-char
-*
+nsACString
+&
 aEntryName
 )
 ;
@@ -295,8 +295,8 @@ nsZipItem
 GetItem
 (
 const
-char
-*
+nsACString
+&
 aEntryName
 )
 ;
@@ -706,8 +706,8 @@ nsZipArchive
 *
 aZip
 const
-char
-*
+nsACString
+&
 aEntryName
 bool
 doCRC
@@ -806,8 +806,8 @@ nsZipArchive
 *
 aZip
 const
-char
-*
+nsACString
+&
 aEntryName
 bool
 doCRC
@@ -1029,8 +1029,8 @@ nsZipArchive
 *
 zip
 const
-char
-*
+nsACString
+&
 entry
 nsZipHandle
 *
