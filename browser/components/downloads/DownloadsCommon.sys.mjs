@@ -631,9 +631,6 @@ generateQI
 "
 nsIObserver
 "
-"
-nsISupportsWeakReference
-"
 ]
 )
 getPref
@@ -741,7 +738,6 @@ addObserver
 "
 "
 this
-true
 )
 ;
 for
