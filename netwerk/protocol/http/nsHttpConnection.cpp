@@ -75,6 +75,17 @@ include
 "
 mozilla
 /
+glean
+/
+NetwerkProtocolHttpMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_network
 .
 h
