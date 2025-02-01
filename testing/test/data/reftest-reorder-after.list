@@ -37,6 +37,15 @@ fuzzy
 if
 (
 gtkWidget
+&
+&
+(
+fission
+|
+|
+!
+fission
+)
 0
 -
 70
