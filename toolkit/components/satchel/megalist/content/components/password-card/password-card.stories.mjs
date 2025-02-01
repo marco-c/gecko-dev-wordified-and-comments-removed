@@ -87,7 +87,9 @@ import
 "
 .
 /
-PasswordCard
+password
+-
+card
 .
 mjs
 "

@@ -823,7 +823,11 @@ content
 /
 megalist
 /
-LoginFormComponent
+components
+/
+login
+-
+form
 /
 login
 -
@@ -1167,7 +1171,11 @@ content
 /
 megalist
 /
-LoginFormComponent
+components
+/
+login
+-
+form
 /
 login
 -
