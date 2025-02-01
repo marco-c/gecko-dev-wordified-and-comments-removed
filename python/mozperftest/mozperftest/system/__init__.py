@@ -17,14 +17,6 @@ mozperftest
 .
 system
 .
-android_startup
-import
-AndroidStartUp
-from
-mozperftest
-.
-system
-.
 binarysetup
 import
 BinarySetup
@@ -80,7 +72,6 @@ Profile
 ProxyRunner
 AndroidDevice
 MacosDevice
-AndroidStartUp
 def
 pick_system
 (
@@ -121,8 +112,6 @@ BinarySetup
 AndroidDevice
         
 VersionProducer
-        
-AndroidStartUp
     
 ]
     
@@ -220,8 +209,6 @@ BinarySetup
 AndroidDevice
             
 MacosDevice
-            
-AndroidStartUp
             
 VersionProducer
         

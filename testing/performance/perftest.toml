@@ -17,13 +17,6 @@ js
 ]
 [
 "
-perftest_android_startup
-.
-js
-"
-]
-[
-"
 perftest_bbc_link
 .
 js
