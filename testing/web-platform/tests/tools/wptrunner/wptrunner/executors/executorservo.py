@@ -1451,11 +1451,6 @@ disable
 text
 -
 aa
-load
--
-webfonts
--
-synchronously
 replace
 -
 surrogates
