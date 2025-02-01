@@ -369,6 +369,11 @@ WSRunScanner
 .
 cpp
 "
+"
+WSRunScannerNestedClasses
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
