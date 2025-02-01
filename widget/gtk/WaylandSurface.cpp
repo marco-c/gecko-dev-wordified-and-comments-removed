@@ -4126,7 +4126,7 @@ mScaleType
 ScaleType
 :
 :
-Disabled
+Ceiled
 ;
 LOGWAYLAND
 (
