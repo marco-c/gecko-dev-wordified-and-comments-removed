@@ -158,7 +158,7 @@ copy
 '
 ;
 var
-offscreenCanvas2
+canvas2
 =
 new
 OffscreenCanvas
@@ -171,7 +171,7 @@ ctx
 .
 drawImage
 (
-offscreenCanvas2
+canvas2
 0
 0
 )
