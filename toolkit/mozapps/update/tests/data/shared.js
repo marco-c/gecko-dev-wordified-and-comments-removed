@@ -896,7 +896,6 @@ n
 const
 DIR_APP_INFO_PLIST_FILE_CONTENTS
 =
-'
 <
 ?
 xml
@@ -1016,7 +1015,11 @@ key
 <
 string
 >
-firefox
+{
+AppConstants
+.
+MOZ_APP_NAME
+}
 <
 /
 string
@@ -1032,11 +1035,11 @@ key
 <
 string
 >
-org
+{
+AppConstants
 .
-mozilla
-.
-firefox
+MOZ_MACBUNDLE_ID
+}
 <
 /
 string
@@ -1136,7 +1139,6 @@ dict
 /
 plist
 >
-'
 ;
 const
 PR_RDWR
