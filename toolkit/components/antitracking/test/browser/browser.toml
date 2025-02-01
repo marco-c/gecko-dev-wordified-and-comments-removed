@@ -716,6 +716,13 @@ js
 ]
 [
 "
+browser_noStorageAccessAutoGrant_thirdPartyTracker
+.
+js
+"
+]
+[
+"
 browser_onBeforeRequestNotificationForTrackingResources
 .
 js
