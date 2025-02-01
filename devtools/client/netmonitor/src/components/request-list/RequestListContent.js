@@ -1196,6 +1196,18 @@ requestAnimationFrame
 =
 >
 {
+if
+(
+document
+.
+visibilityState
+=
+=
+"
+visible
+"
+)
+{
 const
 parent
 =
@@ -1243,6 +1255,7 @@ offsetHeight
 px
 "
 ;
+}
 }
 )
 ;
