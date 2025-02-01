@@ -849,13 +849,6 @@ bool
 aFullScreen
 )
 ;
-LayersId
-GetLayersId
-(
-)
-const
-override
-;
 WindowRenderer
 *
 GetWindowRenderer
