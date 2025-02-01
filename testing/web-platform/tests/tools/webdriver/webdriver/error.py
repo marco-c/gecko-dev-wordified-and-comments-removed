@@ -34,19 +34,29 @@ str
 def
 __init__
 (
+        
 self
+        
 http_status
 =
 None
+        
 status_code
 =
 None
+        
 message
 =
 None
+        
 stacktrace
 =
 None
+        
+data
+=
+None
+    
 )
 :
         
@@ -95,6 +105,12 @@ self
 stacktrace
 =
 stacktrace
+        
+self
+.
+data
+=
+data
     
 def
 __repr__
@@ -927,6 +943,19 @@ stacktrace
 or
 None
     
+data
+=
+value
+.
+get
+(
+"
+data
+"
+)
+or
+None
+    
 cls
 =
 get
@@ -945,6 +974,9 @@ message
 stacktrace
 =
 stack
+data
+=
+data
 )
 def
 get
