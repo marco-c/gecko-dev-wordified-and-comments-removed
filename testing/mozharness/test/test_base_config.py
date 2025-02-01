@@ -6,8 +6,6 @@ from
 copy
 import
 deepcopy
-import
-mozunit
 JSON_TYPE
 =
 None
@@ -2767,7 +2765,7 @@ __main__
 "
 :
     
-mozunit
+unittest
 .
 main
 (

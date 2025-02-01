@@ -6,8 +6,6 @@ import
 random
 import
 unittest
-import
-mozunit
 from
 mozharness
 .
@@ -779,18 +777,4 @@ tree_size
 tree
 .
 n
-)
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-    
-mozunit
-.
-main
-(
 )

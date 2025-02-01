@@ -26,8 +26,6 @@ l10n
 locales
 as
 locales
-import
-mozunit
 ALL_LOCALES
 =
 [
@@ -96,9 +94,6 @@ rmtree
 "
 test_logs
 "
-ignore_errors
-=
-True
 )
 class
 LocalesTest
@@ -781,7 +776,7 @@ __main__
 "
 :
     
-mozunit
+unittest
 .
 main
 (

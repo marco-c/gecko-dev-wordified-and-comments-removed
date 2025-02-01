@@ -10,8 +10,6 @@ base
 python
 as
 python
-import
-mozunit
 here
 =
 os
@@ -293,7 +291,7 @@ __main__
 "
 :
     
-mozunit
+unittest
 .
 main
 (

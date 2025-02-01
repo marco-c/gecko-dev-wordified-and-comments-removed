@@ -1,7 +1,5 @@
 import
 unittest
-import
-mozunit
 from
 mozharness
 .
@@ -537,18 +535,4 @@ assertEqual
 (
 joined_summary
 failure_summary
-)
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-    
-mozunit
-.
-main
-(
 )
