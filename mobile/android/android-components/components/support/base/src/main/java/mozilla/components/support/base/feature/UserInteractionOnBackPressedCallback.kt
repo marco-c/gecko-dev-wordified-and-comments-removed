@@ -238,6 +238,7 @@ lifecycle
 .
 *
 /
+open
 class
 UserInteractionOnBackPressedCallback
 (
