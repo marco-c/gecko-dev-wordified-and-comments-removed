@@ -80,6 +80,7 @@ public
 explicit
 UiaTextRange
 (
+const
 TextLeafRange
 &
 aRange
