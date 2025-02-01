@@ -22732,6 +22732,11 @@ laneIndex
 ins
 -
 >
+mir
+(
+)
+-
+>
 laneIndex
 (
 )
@@ -22739,6 +22744,11 @@ laneIndex
 switch
 (
 ins
+-
+>
+mir
+(
+)
 -
 >
 simdOp
