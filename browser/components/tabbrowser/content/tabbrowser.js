@@ -34493,12 +34493,6 @@ true
 }
 )
 ;
-gTabsPanel
-.
-hideAllTabsPanel
-(
-)
-;
 }
 moveTabsToGroup
 (
