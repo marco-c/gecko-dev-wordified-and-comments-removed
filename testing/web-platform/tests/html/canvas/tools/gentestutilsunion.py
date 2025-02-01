@@ -3672,6 +3672,24 @@ params
 "
 "
         
+if
+_CanvasType
+.
+HTML_CANVAS
+not
+in
+self
+.
+params
+[
+'
+canvas_types
+'
+]
+:
+            
+return
+        
 expected
 =
 self
@@ -3829,14 +3847,14 @@ sub_path
 img_filename
 )
                             
-self
+frozenset
+(
+{
+_CanvasType
 .
-params
-[
-'
-canvas_types
-'
-]
+HTML_CANVAS
+}
+)
 )
         
 self
