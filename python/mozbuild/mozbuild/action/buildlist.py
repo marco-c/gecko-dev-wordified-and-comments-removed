@@ -41,9 +41,9 @@ entry
 "
 "
 import
-io
-import
 os
+.
+path
 import
 sys
 from
@@ -129,19 +129,18 @@ listFile
 )
 :
             
-f
-=
-io
-.
+with
 open
 (
 listFile
 )
-            
+as
+f
+:
+                
 existing
 =
-set
-(
+{
 x
 .
 strip
@@ -155,13 +154,7 @@ f
 readlines
 (
 )
-)
-            
-f
-.
-close
-(
-)
+}
         
 else
 :
@@ -172,29 +165,14 @@ set
 (
 )
         
-for
-e
-in
-entries
-:
-            
-if
-e
-not
-in
-existing
-:
-                
 existing
 .
-add
+update
 (
-e
+entries
 )
         
 with
-io
-.
 open
 (
 listFile
