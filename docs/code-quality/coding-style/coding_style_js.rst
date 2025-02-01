@@ -664,8 +664,7 @@ interfaces
 nsIWebBrowserNavigation
 ;
 Other
-advices
-~
+advice
 ~
 ~
 ~

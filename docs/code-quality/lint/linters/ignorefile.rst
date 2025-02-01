@@ -41,7 +41,7 @@ is
 roughly
 compared
 ignoring
-punctuations
+punctuation
 to
 absorb
 the

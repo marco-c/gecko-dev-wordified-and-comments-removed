@@ -327,7 +327,7 @@ Use
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 {
@@ -361,8 +361,7 @@ bug
 )
 .
 Other
-advices
-~
+advice
 ~
 ~
 ~

@@ -2869,9 +2869,7 @@ will
 allow
 us
 to
-pre
--
-emptively
+preemptively
 render
 and
 cache

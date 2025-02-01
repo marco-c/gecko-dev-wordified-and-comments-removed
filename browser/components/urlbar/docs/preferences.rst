@@ -1647,9 +1647,7 @@ allow
 to
 resolve
 domains
-pre
--
-emptively
+preemptively
 when
 the
 user
