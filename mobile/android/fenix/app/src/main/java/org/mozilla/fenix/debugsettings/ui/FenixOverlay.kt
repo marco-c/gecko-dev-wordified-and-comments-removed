@@ -239,6 +239,14 @@ mozilla
 .
 fenix
 .
+R
+import
+org
+.
+mozilla
+.
+fenix
+.
 debugsettings
 .
 addresses
@@ -693,7 +701,7 @@ intent
 showToast
 =
 {
-resId
+pingType
 -
 >
 val
@@ -708,7 +716,12 @@ context
 .
 getString
 (
-resId
+R
+.
+string
+.
+glean_debug_tools_send_ping_toast_message
+pingType
 )
 Toast
 .
