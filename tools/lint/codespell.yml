@@ -627,11 +627,6 @@ spell
 type
 :
 external
-setup
-:
-spell
-:
-setup
 payload
 :
 spell

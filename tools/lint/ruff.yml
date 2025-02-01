@@ -121,10 +121,3 @@ python
 ruff
 :
 lint
-setup
-:
-python
-.
-ruff
-:
-setup

@@ -107,10 +107,3 @@ python
 black
 :
 lint
-setup
-:
-python
-.
-black
-:
-setup
