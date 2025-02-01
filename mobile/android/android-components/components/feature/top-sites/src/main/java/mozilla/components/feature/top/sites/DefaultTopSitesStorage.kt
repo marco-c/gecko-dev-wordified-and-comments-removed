@@ -740,11 +740,7 @@ take
 (
 providerConfig
 .
-maxThreshold
--
-pinnedSites
-.
-size
+limit
 )
 topSites
 .
