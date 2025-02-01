@@ -1937,7 +1937,7 @@ embed
 \
 FIELD
 (
-SyntheticDocumentContainer
+IsSyntheticDocumentContainer
 bool
 )
 \
@@ -4512,6 +4512,7 @@ GetTriggeringAndInheritPrincipalsForCurrentLoad
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HistoryGo
 (
@@ -6346,7 +6347,7 @@ DidSet
 (
 FieldIndex
 <
-IDX_SyntheticDocumentContainer
+IDX_IsSyntheticDocumentContainer
 >
 )
 ;

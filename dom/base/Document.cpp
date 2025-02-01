@@ -85682,7 +85682,7 @@ if
 bc
 -
 >
-GetSyntheticDocumentContainer
+GetIsSyntheticDocumentContainer
 (
 )
 )
@@ -85693,7 +85693,7 @@ Unused
 bc
 -
 >
-SetSyntheticDocumentContainer
+SetIsSyntheticDocumentContainer
 (
 false
 )
