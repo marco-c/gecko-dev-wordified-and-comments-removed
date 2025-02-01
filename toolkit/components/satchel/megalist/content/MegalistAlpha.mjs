@@ -1469,12 +1469,10 @@ shadowRoot
 querySelector
 (
 "
-#
-more
+.
+passwords
 -
-options
--
-menubutton
+list
 "
 )
 .
