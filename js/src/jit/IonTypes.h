@@ -1692,16 +1692,6 @@ rhs
 ;
 enum
 class
-IntConversionBehavior
-{
-Normal
-NegativeZeroCheck
-Truncate
-ClampToUint8
-}
-;
-enum
-class
 IntConversionInputKind
 {
 NumbersOnly
