@@ -581,6 +581,13 @@ page
 :
 PageSize
 ;
+pub
+use
+text
+:
+:
+NumberOrAuto
+;
 #
 [
 allow
