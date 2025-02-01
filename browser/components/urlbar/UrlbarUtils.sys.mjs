@@ -1523,6 +1523,16 @@ PROTOCOLS_WITH_ICONS
 :
 [
 "
+chrome
+:
+"
+"
+moz
+-
+extension
+:
+"
+"
 about
 :
 "
@@ -1535,7 +1545,7 @@ https
 :
 "
 "
-file
+ftp
 :
 "
 ]
