@@ -242,10 +242,9 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
 "
 {
-shiftKey
+ctrlKey
 :
 true
 }
@@ -430,10 +429,9 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
 "
 {
-shiftKey
+ctrlKey
 :
 true
 }
@@ -592,10 +590,9 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
 "
 {
-shiftKey
+ctrlKey
 :
 true
 }
@@ -759,10 +756,9 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
 "
 {
-shiftKey
+ctrlKey
 :
 true
 }
