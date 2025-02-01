@@ -5893,13 +5893,6 @@ MOZ_APP_SYSTEM_HEADERS
 "
 app_system_headers
 )
-set_define
-(
-"
-MOZ_APP_SYSTEM_HEADERS
-"
-app_system_headers
-)
 depends
 (
 target
