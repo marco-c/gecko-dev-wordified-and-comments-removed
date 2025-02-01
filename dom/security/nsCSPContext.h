@@ -684,10 +684,13 @@ mWarnedAboutTooManyReports
 =
 false
 ;
-bool
-mHasPolicyWithRequireTrustedTypesForDirective
+RequireTrustedTypesForDirectiveState
+mRequireTrustedTypesForDirectiveState
 =
-false
+RequireTrustedTypesForDirectiveState
+:
+:
+NONE
 ;
 }
 ;
