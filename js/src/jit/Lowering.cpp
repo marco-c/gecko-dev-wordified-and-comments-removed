@@ -12914,7 +12914,12 @@ second
 ins
 )
 ;
-LMinMaxBase
+LInstructionHelper
+<
+1
+2
+0
+>
 *
 lir
 ;
