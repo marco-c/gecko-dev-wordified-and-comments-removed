@@ -143,7 +143,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ModulesLibjarMetrics
 .
 h
 "

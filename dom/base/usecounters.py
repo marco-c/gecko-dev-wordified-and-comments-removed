@@ -4722,7 +4722,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomUseCounterMetrics
 .
 h
 "

@@ -36,7 +36,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ResistfingerprintingMetrics
 .
 h
 "

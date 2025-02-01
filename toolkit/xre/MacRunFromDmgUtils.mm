@@ -110,17 +110,6 @@ include
 "
 mozilla
 /
-glean
-/
-GleanMetrics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 Localization

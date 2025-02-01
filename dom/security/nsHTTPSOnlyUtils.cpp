@@ -32,7 +32,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomSecurityMetrics
 .
 h
 "

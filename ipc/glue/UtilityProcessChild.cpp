@@ -307,7 +307,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+GleanTestsTestMetrics
 .
 h
 "

@@ -245,7 +245,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+JsXpconnectMetrics
 .
 h
 "

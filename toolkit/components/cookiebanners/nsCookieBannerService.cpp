@@ -75,7 +75,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+CookiebannersMetrics
 .
 h
 "

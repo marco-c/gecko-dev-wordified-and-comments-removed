@@ -81,7 +81,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomWebauthnMetrics
 .
 h
 "

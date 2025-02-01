@@ -139,7 +139,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+SecurityManagerSslMetrics
 .
 h
 "

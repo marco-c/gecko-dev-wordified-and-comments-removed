@@ -114,7 +114,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+NetwerkProtocolHttpMetrics
 .
 h
 "

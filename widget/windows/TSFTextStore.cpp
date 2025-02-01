@@ -82,7 +82,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+WidgetWindowsMetrics
 .
 h
 "

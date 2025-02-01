@@ -496,7 +496,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMediaWebrtcMetrics
 .
 h
 "

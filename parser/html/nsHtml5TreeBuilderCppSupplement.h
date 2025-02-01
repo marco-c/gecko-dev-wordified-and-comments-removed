@@ -80,7 +80,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ParserHtmlMetrics
 .
 h
 "

@@ -136,7 +136,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+WidgetMetrics
 .
 h
 "

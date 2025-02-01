@@ -150,7 +150,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+TelemetryMetrics
 .
 h
 "

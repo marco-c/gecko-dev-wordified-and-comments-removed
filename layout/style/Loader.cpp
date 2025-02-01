@@ -112,7 +112,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+LayoutMetrics
 .
 h
 "

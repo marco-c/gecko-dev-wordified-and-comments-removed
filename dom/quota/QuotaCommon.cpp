@@ -108,7 +108,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomQuotaMetrics
 .
 h
 "

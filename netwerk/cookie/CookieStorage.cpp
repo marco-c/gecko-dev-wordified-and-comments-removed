@@ -90,7 +90,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+NetwerkMetrics
 .
 h
 "

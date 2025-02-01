@@ -63,7 +63,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomPerformanceMetrics
 .
 h
 "
