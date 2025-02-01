@@ -531,10 +531,6 @@ metadata
 include_info_sections
 :
 false
-ping_schedule
-:
--
-baseline
 reasons
 :
 dirty_startup
