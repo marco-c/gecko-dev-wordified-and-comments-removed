@@ -279,6 +279,6 @@ if
 debug
 "
 "
-nightly_build
+early_beta_or_earlier
 "
 ]
