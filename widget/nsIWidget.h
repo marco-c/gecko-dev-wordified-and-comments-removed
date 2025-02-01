@@ -4037,6 +4037,15 @@ nullptr
 ;
 }
 virtual
+LayersId
+GetLayersId
+(
+)
+const
+=
+0
+;
+virtual
 CompositorBridgeChild
 *
 GetRemoteRenderer
