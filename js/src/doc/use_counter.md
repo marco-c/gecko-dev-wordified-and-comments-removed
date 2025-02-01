@@ -156,7 +156,7 @@ page
 once
 but
 you
-dwere
+were
 the
 only
 person
