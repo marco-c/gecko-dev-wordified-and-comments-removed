@@ -43,17 +43,6 @@ NavigationReloadOptions
 struct
 NavigationResult
 ;
-enum
-class
-UserNavigationInvolvement
-:
-uint8_t
-{
-BrowserUI
-Activation
-None
-}
-;
 class
 Navigation
 final

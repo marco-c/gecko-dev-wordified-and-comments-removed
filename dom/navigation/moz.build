@@ -52,6 +52,11 @@ NavigationTransition
 .
 h
 "
+"
+UserNavigationInvolvement
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
