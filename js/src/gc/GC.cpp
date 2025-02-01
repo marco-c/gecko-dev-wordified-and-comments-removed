@@ -13652,7 +13652,7 @@ resetPretenuredSites
 zone
 -
 >
-discardJitCode
+forceDiscardJitCode
 (
 rt
 -
