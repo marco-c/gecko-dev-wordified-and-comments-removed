@@ -152,6 +152,15 @@ GetPasswordCharacterImpl
 )
 override
 ;
+nsresult
+GetKeyboardLayoutImpl
+(
+nsACString
+&
+aLayout
+)
+override
+;
 protected
 :
 bool
