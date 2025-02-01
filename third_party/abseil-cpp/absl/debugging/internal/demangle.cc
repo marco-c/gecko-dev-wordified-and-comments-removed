@@ -13658,6 +13658,9 @@ size_t
 out_size
 )
 {
+#
+if
+0
 if
 (
 mangled
@@ -13691,6 +13694,8 @@ out_size
 )
 ;
 }
+#
+endif
 State
 state
 ;
