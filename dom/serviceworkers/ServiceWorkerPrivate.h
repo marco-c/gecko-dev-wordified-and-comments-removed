@@ -539,6 +539,13 @@ ServiceWorkerState
 aState
 )
 ;
+void
+UpdateIsOnContentBlockingAllowList
+(
+bool
+aOnContentBlockingAllowList
+)
+;
 nsresult
 GetDebugger
 (

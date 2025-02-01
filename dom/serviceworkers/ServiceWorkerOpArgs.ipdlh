@@ -465,6 +465,14 @@ preloadResponseEndArgs
 ;
 }
 ;
+struct
+ServiceWorkerUpdateIsOnContentBlockingAllowListOpArgs
+{
+bool
+onContentBlockingAllowList
+;
+}
+;
 union
 ServiceWorkerOpArgs
 {
@@ -487,6 +495,8 @@ ServiceWorkerMessageEventOpArgs
 ServiceWorkerExtensionAPIEventOpArgs
 ;
 ParentToChildServiceWorkerFetchEventOpArgs
+;
+ServiceWorkerUpdateIsOnContentBlockingAllowListOpArgs
 ;
 }
 ;
