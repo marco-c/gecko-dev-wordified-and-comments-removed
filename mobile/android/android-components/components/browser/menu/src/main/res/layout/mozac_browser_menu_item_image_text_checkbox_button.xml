@@ -197,6 +197,13 @@ orientation
 "
 horizontal
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 tools
 :
 ignore
