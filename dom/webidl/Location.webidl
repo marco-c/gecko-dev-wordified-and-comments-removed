@@ -180,7 +180,7 @@ NeedsSubjectPrincipal
 ]
 stringifier
 attribute
-USVString
+UTF8String
 href
 ;
 [
@@ -189,7 +189,7 @@ NeedsSubjectPrincipal
 ]
 readonly
 attribute
-USVString
+UTF8String
 origin
 ;
 [
@@ -197,7 +197,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 protocol
 ;
 [
@@ -205,7 +205,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 host
 ;
 [
@@ -213,7 +213,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 hostname
 ;
 [
@@ -221,7 +221,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 port
 ;
 [
@@ -229,7 +229,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 pathname
 ;
 [
@@ -237,7 +237,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 search
 ;
 [
@@ -245,7 +245,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 attribute
-USVString
+UTF8String
 hash
 ;
 [
@@ -255,7 +255,7 @@ NeedsSubjectPrincipal
 undefined
 assign
 (
-USVString
+UTF8String
 url
 )
 ;
@@ -267,7 +267,7 @@ NeedsSubjectPrincipal
 undefined
 replace
 (
-USVString
+UTF8String
 url
 )
 ;
