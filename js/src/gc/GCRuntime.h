@@ -4359,7 +4359,7 @@ isActiveCompartment
 )
 ;
 void
-discardJITCodeForGC
+maybeDiscardJitCodeForGC
 (
 )
 ;

@@ -13518,7 +13518,7 @@ void
 GCRuntime
 :
 :
-discardJITCodeForGC
+maybeDiscardJitCodeForGC
 (
 )
 {
@@ -14931,7 +14931,7 @@ unlock
 helperLock
 )
 ;
-discardJITCodeForGC
+maybeDiscardJitCodeForGC
 (
 )
 ;
