@@ -1189,7 +1189,6 @@ you
 agree
 to
 the
-Firefox
 %
 1
 \
@@ -1200,9 +1199,10 @@ val
 lineOneLinkText
 =
 "
+Firefox
 Terms
 of
-Service
+Use
 "
 val
 lineOneLinkUrl
@@ -1220,7 +1220,7 @@ about
 your
 privacy
 .
-Read
+Learn
 more
 in
 our
@@ -1339,7 +1339,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one
+onboarding_term_of_service_line_one_2
 "
 "
 )
@@ -1351,7 +1351,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one_link_text
+onboarding_term_of_service_line_one_link_text_2
 "
 "
 )
@@ -1370,7 +1370,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_two
+onboarding_term_of_service_line_two_2
 "
 "
 )

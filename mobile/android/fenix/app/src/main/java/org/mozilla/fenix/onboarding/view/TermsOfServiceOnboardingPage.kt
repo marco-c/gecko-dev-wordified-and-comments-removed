@@ -1031,7 +1031,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one
+onboarding_term_of_service_line_one_2
 )
 lineOneLinkText
 =
@@ -1043,7 +1043,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one_link_text
+onboarding_term_of_service_line_one_link_text_2
 )
 lineOneLinkUrl
 =
@@ -1060,7 +1060,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_two
+onboarding_term_of_service_line_two_2
 )
 lineTwoLinkText
 =

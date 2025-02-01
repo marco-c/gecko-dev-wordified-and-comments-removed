@@ -700,7 +700,7 @@ R
 .
 string
 .
-onboarding_preferences_dialog_crash_reporting_learn_more
+onboarding_preferences_dialog_crash_reporting_learn_more_2
 )
 linkTextStates
 =
@@ -718,7 +718,7 @@ R
 .
 string
 .
-onboarding_preferences_dialog_crash_reporting_learn_more
+onboarding_preferences_dialog_crash_reporting_learn_more_2
 )
 url
 =
@@ -834,7 +834,7 @@ R
 .
 string
 .
-onboarding_preferences_dialog_usage_data_description
+onboarding_preferences_dialog_usage_data_description_2
 )
 color
 =
@@ -874,7 +874,7 @@ R
 .
 string
 .
-onboarding_preferences_dialog_usage_data_learn_more
+onboarding_preferences_dialog_usage_data_learn_more_2
 )
 linkTextStates
 =
@@ -892,7 +892,7 @@ R
 .
 string
 .
-onboarding_preferences_dialog_usage_data_learn_more
+onboarding_preferences_dialog_usage_data_learn_more_2
 )
 url
 =
