@@ -846,6 +846,11 @@ lock
 )
 ;
 void
+clearMarkStateAfterBarrierVerification
+(
+)
+;
+void
 maybeMergeSweptData
 (
 )
