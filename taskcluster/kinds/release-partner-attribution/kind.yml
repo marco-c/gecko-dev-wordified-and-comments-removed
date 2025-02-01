@@ -259,13 +259,13 @@ win
 platforms
 :
 -
-win64
--
-shippable
--
 win32
 -
 shippable
+#
+Stub
+installer
+only
 run
 :
 using
