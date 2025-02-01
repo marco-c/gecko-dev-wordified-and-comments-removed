@@ -481,6 +481,13 @@ mMapCount
 0
 )
 {
+if
+(
+mConsumers
+>
+0
+)
+{
 SharedSurfacesParent
 :
 :
@@ -489,6 +496,7 @@ RemoveTracking
 this
 )
 ;
+}
 if
 (
 !
@@ -593,6 +601,11 @@ if
 mMapCount
 =
 =
+0
+&
+&
+mConsumers
+>
 0
 )
 {
