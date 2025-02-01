@@ -218,6 +218,16 @@ aMetadata
 )
 ;
 void
+GetNameString
+(
+uint16_t
+aNameId
+nsAString
+&
+aResult
+)
+;
+void
 GetVariationAxes
 (
 nsTArray

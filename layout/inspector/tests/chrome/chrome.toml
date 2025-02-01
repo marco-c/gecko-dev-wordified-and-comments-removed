@@ -134,6 +134,13 @@ css
 ]
 [
 "
+test_fontFaceVersion
+.
+xhtml
+"
+]
+[
+"
 test_fontFeaturesAPI
 .
 xhtml
