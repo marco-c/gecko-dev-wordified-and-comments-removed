@@ -3542,6 +3542,12 @@ requireComponents
 core
 .
 store
+isCustomTabSession
+=
+customTabSessionId
+!
+=
+null
 )
 if
 (
@@ -10377,6 +10383,9 @@ observeTabSelection
 store
 :
 BrowserStore
+isCustomTabSession
+:
+Boolean
 )
 {
 consumeFlow
@@ -10414,6 +10423,7 @@ dismiss
 handleTabSelected
 (
 it
+isCustomTabSession
 )
 }
 }
@@ -10521,6 +10531,9 @@ handleTabSelected
 selectedTab
 :
 TabSessionState
+isCustomTabSession
+:
+Boolean
 )
 {
 if
@@ -10529,6 +10542,10 @@ if
 this
 .
 isRemoving
+&
+&
+!
+isCustomTabSession
 )
 {
 updateThemeForSession
