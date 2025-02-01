@@ -200,7 +200,7 @@ item
 firstRequestStartedMs
 "
 "
-waterfallScale
+scale
 "
 "
 isVisible

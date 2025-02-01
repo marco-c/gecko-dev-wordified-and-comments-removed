@@ -1072,9 +1072,6 @@ isVisible
 "
 requestFilterTypes
 "
-"
-waterfallScale
-"
 ]
 ;
 const
