@@ -890,6 +890,10 @@ RFPTarget
 >
 &
 aOverriddenFingerprintingSettings
+bool
+aSkipChromePrincipalCheck
+=
+false
 )
 ;
 static

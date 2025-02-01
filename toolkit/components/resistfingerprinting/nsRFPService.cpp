@@ -1540,6 +1540,8 @@ RFPTarget
 >
 &
 aOverriddenFingerprintingSettings
+bool
+aSkipChromePrincipalCheck
 )
 {
 MOZ_ASSERT
@@ -1577,6 +1579,10 @@ false
 endif
 if
 (
+!
+aSkipChromePrincipalCheck
+&
+&
 IsJSContextCurrentlyChromePrivileged
 (
 )
