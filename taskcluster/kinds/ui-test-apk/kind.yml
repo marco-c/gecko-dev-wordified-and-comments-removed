@@ -1962,6 +1962,15 @@ backstop
 :
 null
 run
+-
+on
+-
+projects
+:
+[
+trunk
+]
+run
 :
 secrets
 :
