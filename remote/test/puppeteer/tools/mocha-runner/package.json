@@ -121,14 +121,7 @@ tsc
 b
 &
 &
-node
--
--
-experimental
--
-strip
--
-types
+tsx
 .
 .
 /
