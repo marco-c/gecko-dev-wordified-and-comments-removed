@@ -223,13 +223,6 @@ pyyaml
 1
 .
 2
-;
-sys_platform
-!
-=
-'
-darwin
-'
 structlog
 =
 =
