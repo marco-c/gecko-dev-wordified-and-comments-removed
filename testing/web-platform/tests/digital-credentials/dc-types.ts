@@ -33,13 +33,13 @@ silent
 ;
 export
 interface
-IdentityRequestProvider
+DigitalCredentialRequest
 {
 protocol
 :
 string
 ;
-request
+data
 :
 object
 ;
@@ -48,9 +48,9 @@ export
 interface
 DigitalCredentialRequestOptions
 {
-providers
+requests
 :
-IdentityRequestProvider
+DigitalCredentialRequest
 [
 ]
 |
