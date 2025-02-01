@@ -716,6 +716,14 @@ height
 returns
 10
 }
+every
+{
+downloadDialog
+.
+height
+}
+returns
+20
 val
 animator
 :
