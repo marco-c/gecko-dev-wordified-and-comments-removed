@@ -24187,7 +24187,7 @@ ePointerOver
 "
 :
 "
-eMoustOver
+eMouseOver
 "
 aContent
 ?
