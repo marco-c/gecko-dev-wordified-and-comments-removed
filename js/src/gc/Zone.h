@@ -2374,12 +2374,6 @@ resetPretenuredAllocSites
 =
 false
 ;
-JSTracer
-*
-traceWeakJitScripts
-=
-nullptr
-;
 }
 ;
 void

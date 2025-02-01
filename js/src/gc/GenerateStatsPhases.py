@@ -660,12 +660,11 @@ Compartments
 addPhaseKind
 (
 "
-SWEEP_DISCARD_CODE
+SWEEP_JIT_SCRIPTS
 "
 "
 Sweep
-Discard
-Code
+JitScripts
 "
 21
 )

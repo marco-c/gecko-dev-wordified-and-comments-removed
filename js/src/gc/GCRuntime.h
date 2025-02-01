@@ -6072,12 +6072,6 @@ bool
 >
 useBackgroundThreads
 ;
-MainThreadData
-<
-bool
->
-haveDiscardedJITCodeThisSlice
-;
 #
 ifdef
 DEBUG

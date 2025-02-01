@@ -14971,10 +14971,6 @@ discardJITCodeForGC
 (
 )
 ;
-haveDiscardedJITCodeThisSlice
-=
-true
-;
 purgeRuntime
 (
 )
@@ -19392,10 +19388,6 @@ ShouldUseBackgroundThreads
 isIncremental
 reason
 )
-;
-haveDiscardedJITCodeThisSlice
-=
-false
 ;
 #
 ifdef

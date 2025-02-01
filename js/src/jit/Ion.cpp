@@ -3342,15 +3342,6 @@ jitZone
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-HasOffThreadIonCompile
-(
-zone
-)
-)
-;
 for
 (
 WeakHeapPtr
