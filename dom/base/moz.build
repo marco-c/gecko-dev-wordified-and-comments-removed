@@ -2345,11 +2345,6 @@ Text
 cpp
 "
 "
-TextDirectiveCreator
-.
-cpp
-"
-"
 TextDirectiveFinder
 .
 cpp

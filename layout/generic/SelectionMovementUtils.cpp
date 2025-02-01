@@ -361,12 +361,6 @@ aAmount
 =
 =
 eSelectEndLine
-|
-|
-aAmount
-=
-=
-eSelectParagraph
 )
 ;
 if

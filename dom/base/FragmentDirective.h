@@ -84,9 +84,6 @@ class
 Document
 ;
 class
-Promise
-;
-class
 Text
 ;
 class
@@ -292,17 +289,6 @@ RemoveAllTextDirectives
 ErrorResult
 &
 aRv
-)
-;
-already_AddRefed
-<
-Promise
->
-CreateTextDirective
-(
-nsRange
-&
-aRange
 )
 ;
 private
