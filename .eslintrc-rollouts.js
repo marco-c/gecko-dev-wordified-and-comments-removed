@@ -3055,16 +3055,6 @@ browser
 /
 components
 /
-customizableui
-/
-*
-*
-"
-"
-browser
-/
-components
-/
 downloads
 /
 *
