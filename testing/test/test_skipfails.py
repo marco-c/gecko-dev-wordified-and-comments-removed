@@ -5384,6 +5384,10 @@ is64Bit
 &
 !
 swgl
+&
+&
+!
+nogpu
 "
 def
 test_task_to_skip_if_reftest4
@@ -5569,6 +5573,10 @@ fission
 &
 !
 swgl
+&
+&
+!
+nogpu
 "
 def
 test_wpt_add_skip_if
