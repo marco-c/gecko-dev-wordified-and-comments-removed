@@ -3797,10 +3797,7 @@ context
 ;
 #
 if
-defined
-(
 HAVE___LIBC_STACK_END
-)
 &
 &
 defined
