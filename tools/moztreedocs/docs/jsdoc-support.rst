@@ -65,12 +65,16 @@ searchfox
 :
 .
 eslintrc
+-
+rollouts
 .
 js
 file
 <
 .
 eslintrc
+-
+rollouts
 .
 js
 >
