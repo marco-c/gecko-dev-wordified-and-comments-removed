@@ -10759,11 +10759,6 @@ this
 getBrowsingContextInfo
 (
 browsingContext
-{
-maxDepth
-:
-0
-}
 )
 ;
 this
