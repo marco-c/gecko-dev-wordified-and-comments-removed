@@ -171,13 +171,6 @@ volatile
 (
 "
 .
-fpu
-neon
-\
-n
-"
-"
-.
 arch
 armv7
 -
@@ -189,6 +182,13 @@ n
 .
 object_arch
 armv4t
+\
+n
+"
+"
+.
+fpu
+neon
 \
 n
 "

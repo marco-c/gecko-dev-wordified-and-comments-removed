@@ -337,14 +337,14 @@ endif
 .
 text
 .
-fpu
-neon
-.
 arch
 armv7a
 .
 object_arch
 armv4
+.
+fpu
+neon
 .
 eabi_attribute
 10
