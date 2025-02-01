@@ -269,7 +269,7 @@ js
 ]
 [
 "
-browser_telemetry_ingestTime
+browser_telemetry_environment
 .
 js
 "
@@ -283,7 +283,7 @@ telemetry
 "
 [
 "
-browser_telemetry_other
+browser_telemetry_ingestTime
 .
 js
 "
