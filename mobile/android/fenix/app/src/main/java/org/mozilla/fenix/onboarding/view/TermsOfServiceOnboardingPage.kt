@@ -523,7 +523,7 @@ Modifier
 .
 height
 (
-25
+8
 .
 dp
 )
@@ -539,7 +539,7 @@ FirefoxTheme
 .
 colors
 .
-textPrimary
+textSecondary
 textAlign
 =
 TextAlign
