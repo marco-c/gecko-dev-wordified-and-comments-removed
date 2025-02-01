@@ -8659,6 +8659,9 @@ MOZ_ASSERT
 aSinkGroup
 =
 =
+dom
+:
+:
 kTrustedTypesOnlySinkGroup
 )
 ;
