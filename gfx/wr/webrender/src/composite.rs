@@ -5093,7 +5093,11 @@ struct
 CompositorInputLayer
 {
 pub
-rect
+offset
+:
+DeviceIntPoint
+pub
+clip_rect
 :
 DeviceIntRect
 pub

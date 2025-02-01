@@ -7548,7 +7548,7 @@ size
 =
 request
 .
-rect
+clip_rect
 .
 size
 (
