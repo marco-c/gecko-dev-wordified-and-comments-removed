@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-service
+support
 .
-pocket
+test
 .
 helpers
 import
