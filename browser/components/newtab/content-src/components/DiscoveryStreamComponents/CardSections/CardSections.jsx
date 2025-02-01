@@ -1078,17 +1078,9 @@ onFollowClick
 }
 type
 =
-{
-following
-?
-"
-destructive
-"
-:
 "
 default
 "
-}
 index
 =
 {
