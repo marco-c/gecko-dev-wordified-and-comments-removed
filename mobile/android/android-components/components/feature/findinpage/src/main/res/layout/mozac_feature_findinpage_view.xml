@@ -412,6 +412,13 @@ dimen
 /
 mozac_feature_findinpage_result_count_text_size
 "
+android
+:
+accessibilityLiveRegion
+=
+"
+polite
+"
 app
 :
 layout_constraintBottom_toBottomOf

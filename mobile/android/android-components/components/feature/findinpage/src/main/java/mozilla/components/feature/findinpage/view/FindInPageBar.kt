@@ -630,10 +630,6 @@ resultsCountTextView
 contentDescription
 =
 accessibilityLabel
-announceForAccessibility
-(
-accessibilityLabel
-)
 }
 }
 private

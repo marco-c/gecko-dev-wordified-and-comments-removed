@@ -407,6 +407,13 @@ visibility
 "
 gone
 "
+android
+:
+accessibilityLiveRegion
+=
+"
+polite
+"
 app
 :
 layout_constraintBottom_toBottomOf
