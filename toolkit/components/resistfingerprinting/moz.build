@@ -49,11 +49,6 @@ nsRFPService
 cpp
 "
 "
-nsRFPTargetSetIDL
-.
-cpp
-"
-"
 RelativeTimeline
 .
 cpp
@@ -118,11 +113,6 @@ nsRFPService
 h
 "
 "
-nsRFPTargetSetIDL
-.
-h
-"
-"
 nsUserCharacteristics
 .
 h
@@ -141,6 +131,11 @@ mozilla
 [
 "
 RelativeTimeline
+.
+h
+"
+"
+RFPTargetIPCUtils
 .
 h
 "
@@ -219,11 +214,6 @@ idl
 "
 "
 nsIRFPService
-.
-idl
-"
-"
-nsIRFPTargetSetIDL
 .
 idl
 "

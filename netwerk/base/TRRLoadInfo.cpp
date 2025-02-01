@@ -717,7 +717,7 @@ NS_ERROR_NOT_IMPLEMENTED
 const
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 &
 TRRLoadInfo
@@ -737,7 +737,7 @@ TRRLoadInfo
 :
 SetOverriddenFingerprintingSettings
 (
-RFPTargetSet
+RFPTarget
 aTargets
 )
 {

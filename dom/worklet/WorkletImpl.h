@@ -470,7 +470,7 @@ mIsPrivateBrowsing
 ;
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 mOverriddenFingerprintingSettings
 ;

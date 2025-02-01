@@ -562,7 +562,7 @@ MOZ_RELEASE_ASSERT
 !
 bitset
 .
-test
+Test
 (
 3
 )
@@ -582,7 +582,7 @@ MOZ_RELEASE_ASSERT
 !
 bitset
 .
-test
+Test
 (
 kBitsPerWord
 +
@@ -612,7 +612,7 @@ MOZ_RELEASE_ASSERT
 (
 bitset
 .
-test
+Test
 (
 3
 )
@@ -639,7 +639,7 @@ MOZ_RELEASE_ASSERT
 (
 bitset
 .
-test
+Test
 (
 3
 )
@@ -657,7 +657,7 @@ MOZ_RELEASE_ASSERT
 (
 bitset
 .
-test
+Test
 (
 kBitsPerWord
 +
@@ -696,7 +696,7 @@ bitset
 )
 :
 :
-size
+Size
 (
 )
 ;
@@ -736,7 +736,7 @@ bitset
 )
 :
 :
-size
+Size
 (
 )
 ;
@@ -790,7 +790,7 @@ bitset
 )
 :
 :
-size
+Size
 (
 )
 ;
@@ -830,7 +830,7 @@ size
 =
 bitset
 .
-size
+Size
 (
 )
 ;

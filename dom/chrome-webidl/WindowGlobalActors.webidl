@@ -106,9 +106,6 @@ RemoteTab
 interface
 nsIDOMProcessParent
 ;
-interface
-nsIRFPTargetSetIDL
-;
 [
 Exposed
 =
@@ -308,7 +305,9 @@ OverriddenFingerprintingSettingsWebIDL
 ]
 readonly
 attribute
-nsIRFPTargetSetIDL
+unsigned
+long
+long
 ?
 overriddenFingerprintingSettings
 ;

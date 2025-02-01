@@ -275,13 +275,6 @@ html
 ]
 [
 "
-test_rfp_clamp_limits_off
-.
-html
-"
-]
-[
-"
 test_set_bind_group_null
 .
 html

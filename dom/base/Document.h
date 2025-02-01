@@ -12258,7 +12258,7 @@ const
 const
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 &
 GetOverriddenFingerprintingSettings
@@ -14156,7 +14156,7 @@ mMutationEventsEnabled
 ;
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 mOverriddenFingerprintingSettings
 ;

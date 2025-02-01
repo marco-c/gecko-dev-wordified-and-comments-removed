@@ -497,7 +497,7 @@ mShouldResistFingerprinting
 ;
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 mOverriddenFingerprintingSettings
 ;

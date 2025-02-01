@@ -3645,7 +3645,7 @@ aStoragePermission
 const
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 &
 aOverriddenFingerprintingSettings
@@ -5770,7 +5770,7 @@ NS_OK
 const
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 &
 LoadInfo
@@ -5829,7 +5829,7 @@ LoadInfo
 :
 SetOverriddenFingerprintingSettings
 (
-RFPTargetSet
+RFPTarget
 aTargets
 )
 {
