@@ -283,7 +283,7 @@ expect
 "
 Cannot
 perform
-IPC
+GIFFT
 calls
 without
 a
@@ -647,7 +647,7 @@ expect
 "
 Cannot
 perform
-IPC
+GIFFT
 calls
 without
 a
@@ -828,7 +828,7 @@ expect
 "
 Cannot
 perform
-IPC
+GIFFT
 calls
 without
 a
@@ -1580,7 +1580,7 @@ expect
 "
 Cannot
 perform
-IPC
+GIFFT
 calls
 without
 a
