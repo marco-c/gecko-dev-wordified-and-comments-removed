@@ -68,7 +68,13 @@ mod
 symmetric_difference
 ;
 mod
+truncate
+;
+mod
 union
+;
+mod
+unknown
 ;
 bitflags
 !
