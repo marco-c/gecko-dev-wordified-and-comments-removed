@@ -112,3 +112,8 @@ overflowable
 -
 toolbar
 panelmultiview
+search
+-
+widget
+-
+tracker
