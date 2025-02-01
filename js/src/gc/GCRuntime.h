@@ -5913,12 +5913,6 @@ ReleaseAcquire
 >
 numActiveZoneIters
 ;
-MainThreadData
-<
-bool
->
-cleanUpEverything
-;
 UnprotectedData
 <
 bool
