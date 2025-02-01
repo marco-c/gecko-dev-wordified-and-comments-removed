@@ -449,7 +449,13 @@ root
 {
 path
 :
+{
+selectedTraceIndex
+}
+-
+{
 expression
+}
 contents
 :
 {
