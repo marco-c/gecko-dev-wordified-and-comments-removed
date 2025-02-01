@@ -723,6 +723,12 @@ null
 null
 null
 )
+isChecked
+=
+!
+isInPrimaryState
+(
+)
 setOnCheckedChangeListener
 {
 _
