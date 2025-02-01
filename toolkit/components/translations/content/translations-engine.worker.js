@@ -1569,6 +1569,11 @@ model
 )
 }
 ;
+if
+(
+lex
+)
+{
 memoryLog
 +
 =
@@ -1583,6 +1588,7 @@ lex
 )
 }
 ;
+}
 const
 vocabList
 =
@@ -1889,6 +1895,9 @@ targetLanguage
 config
 model
 lex
+?
+?
+null
 vocabList
 qualityModel
 ?
