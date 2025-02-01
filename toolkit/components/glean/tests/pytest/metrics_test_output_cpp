@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Metrics_h
+mozilla_GleanMetrics_h
 #
 define
-mozilla_Metrics_h
+mozilla_GleanMetrics_h
 #
 include
 "
