@@ -40,17 +40,6 @@ Tab
 "
 )
 ;
-await
-fetch
-(
-TEST_URL
-+
-"
-?
-setup
-"
-)
-;
 const
 tab
 =
