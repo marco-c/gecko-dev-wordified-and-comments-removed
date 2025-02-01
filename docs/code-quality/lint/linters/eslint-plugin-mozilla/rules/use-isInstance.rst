@@ -61,10 +61,6 @@ mjs
 -
 *
 .
-jsm
--
-*
-.
 xhtml
 with
 there
