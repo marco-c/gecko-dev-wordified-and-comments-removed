@@ -13381,6 +13381,11 @@ notMagic
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 MacroAssembler
 :
@@ -13390,7 +13395,7 @@ branchTestValue
 Condition
 cond
 const
-BaseIndex
+T
 &
 lhs
 const

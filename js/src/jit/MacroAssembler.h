@@ -8566,6 +8566,11 @@ label
 )
 PER_ARCH
 ;
+template
+<
+typename
+T
+>
 inline
 void
 branchTestValue
@@ -8573,7 +8578,7 @@ branchTestValue
 Condition
 cond
 const
-BaseIndex
+T
 &
 lhs
 const
