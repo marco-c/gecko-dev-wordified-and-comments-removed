@@ -501,12 +501,10 @@ define
 NS_PRESSHELL_IID
 \
 {
-\
 0x039d8ffc
 0xfa55
 0x42d7
 {
-\
 0xa5
 0x3a
 0x38
@@ -515,9 +513,7 @@ NS_PRESSHELL_IID
 0x29
 0xb0
 0x52
-\
 }
-\
 }
 #
 undef
