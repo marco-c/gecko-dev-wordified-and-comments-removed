@@ -319,6 +319,15 @@ script
 task
 -
 >
+compiler_
+.
+reset
+(
+)
+;
+task
+-
+>
 masm_
 .
 reset
