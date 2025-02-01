@@ -11,6 +11,14 @@ test_translations_settings_download_languages
 (
 )
 {
+await
+testWithAndWithoutLexicalShortlist
+(
+async
+lexicalShortlistPrefs
+=
+>
+{
 const
 {
 cleanup
@@ -42,6 +50,10 @@ enable
 "
 true
 ]
+.
+.
+.
+lexicalShortlistPrefs
 ]
 }
 )
@@ -534,6 +546,9 @@ button
 await
 cleanup
 (
+)
+;
+}
 )
 ;
 }
