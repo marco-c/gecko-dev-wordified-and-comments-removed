@@ -1833,12 +1833,6 @@ mActiveWheelBlock
 =
 block
 ;
-CancelAnimationsForNewBlock
-(
-block
-ExcludeWheel
-)
-;
 MaybeRequestContentResponse
 (
 aTarget
