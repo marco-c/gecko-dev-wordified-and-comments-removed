@@ -2137,7 +2137,7 @@ GCContext
 *
 gcx
 const
-DiscardOptions
+JitDiscardOptions
 &
 options
 )
@@ -2171,7 +2171,7 @@ GCContext
 *
 gcx
 const
-DiscardOptions
+JitDiscardOptions
 &
 options
 )
