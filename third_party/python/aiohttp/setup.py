@@ -16,7 +16,7 @@ version_info
 <
 (
 3
-6
+8
 )
 :
     
@@ -32,7 +32,7 @@ requires
 Python
 3
 .
-6
+8
 +
 "
 )

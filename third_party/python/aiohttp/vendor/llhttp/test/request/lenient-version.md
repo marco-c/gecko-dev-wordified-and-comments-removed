@@ -36,8 +36,9 @@ parsing
 Invalid
 HTTP
 version
-with
+(
 lenient
+)
 <
 !
 -

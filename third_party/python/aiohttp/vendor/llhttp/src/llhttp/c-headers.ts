@@ -12,7 +12,6 @@ constants
 import
 {
 enumToMap
-IEnumMap
 }
 from
 '
@@ -546,7 +545,9 @@ prefix
 string
 map
 :
-IEnumMap
+constants
+.
+IntDict
 encoding
 :
 Encoding
@@ -744,7 +745,9 @@ name
 string
 map
 :
-IEnumMap
+constants
+.
+IntDict
 )
 :
 string

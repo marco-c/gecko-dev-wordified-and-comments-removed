@@ -2,6 +2,8 @@ import
 asyncio
 import
 socket
+import
+sys
 from
 typing
 import
@@ -9,6 +11,7 @@ Any
 Dict
 List
 Optional
+Tuple
 Type
 Union
 from
@@ -16,11 +19,7 @@ from
 abc
 import
 AbstractResolver
-from
-.
-helpers
-import
-get_running_loop
+ResolveResult
 __all__
 =
 (
@@ -39,6 +38,18 @@ try
     
 import
 aiodns
+    
+aiodns_default
+=
+hasattr
+(
+aiodns
+.
+DNSResolver
+"
+getaddrinfo
+"
+)
 except
 ImportError
 :
@@ -46,9 +57,40 @@ ImportError
 aiodns
 =
 None
+    
 aiodns_default
 =
 False
+_NUMERIC_SOCKET_FLAGS
+=
+socket
+.
+AI_NUMERICHOST
+|
+socket
+.
+AI_NUMERICSERV
+_NAME_SOCKET_FLAGS
+=
+socket
+.
+NI_NUMERICHOST
+|
+socket
+.
+NI_NUMERICSERV
+_SUPPORTS_SCOPE_ID
+=
+sys
+.
+version_info
+>
+=
+(
+3
+9
+0
+)
 class
 ThreadedResolver
 (
@@ -113,9 +155,12 @@ self
 .
 _loop
 =
+loop
+or
+asyncio
+.
 get_running_loop
 (
-loop
 )
     
 async
@@ -124,7 +169,7 @@ resolve
 (
         
 self
-hostname
+host
 :
 str
 port
@@ -134,7 +179,9 @@ int
 0
 family
 :
-int
+socket
+.
+AddressFamily
 =
 socket
 .
@@ -145,11 +192,7 @@ AF_INET
 >
 List
 [
-Dict
-[
-str
-Any
-]
+ResolveResult
 ]
 :
         
@@ -163,7 +206,7 @@ _loop
 getaddrinfo
 (
             
-hostname
+host
             
 port
             
@@ -186,6 +229,11 @@ AI_ADDRCONFIG
 )
         
 hosts
+:
+List
+[
+ResolveResult
+]
 =
 [
 ]
@@ -225,24 +273,23 @@ address
 [
 3
 ]
+and
+_SUPPORTS_SCOPE_ID
 :
                     
-host
+resolved_host
 _port
 =
-socket
+await
+self
+.
+_loop
 .
 getnameinfo
 (
                         
 address
-socket
-.
-NI_NUMERICHOST
-|
-socket
-.
-NI_NUMERICSERV
+_NAME_SOCKET_FLAGS
                     
 )
                     
@@ -256,7 +303,7 @@ _port
 else
 :
                     
-host
+resolved_host
 port
 =
 address
@@ -276,7 +323,7 @@ socket
 .
 AF_INET
                 
-host
+resolved_host
 port
 =
 address
@@ -286,51 +333,34 @@ hosts
 append
 (
                 
-{
+ResolveResult
+(
                     
-"
 hostname
-"
-:
-hostname
-                    
-"
-host
-"
-:
+=
 host
                     
-"
+host
+=
+resolved_host
+                    
 port
-"
-:
+=
 port
                     
-"
 family
-"
-:
+=
 family
                     
-"
 proto
-"
-:
+=
 proto
                     
-"
 flags
-"
-:
-socket
-.
-AI_NUMERICHOST
-|
-socket
-.
-AI_NUMERICSERV
+=
+_NUMERIC_SOCKET_FLAGS
                 
-}
+)
             
 )
         
@@ -425,15 +455,6 @@ library
         
 self
 .
-_loop
-=
-get_running_loop
-(
-loop
-)
-        
-self
-.
 _resolver
 =
 aiodns
@@ -442,9 +463,6 @@ DNSResolver
 (
 *
 args
-loop
-=
-loop
 *
 *
 kwargs
@@ -487,7 +505,9 @@ int
 0
 family
 :
-int
+socket
+.
+AddressFamily
 =
 socket
 .
@@ -498,11 +518,7 @@ AF_INET
 >
 List
 [
-Dict
-[
-str
-Any
-]
+ResolveResult
 ]
 :
         
@@ -516,10 +532,31 @@ self
 .
 _resolver
 .
-gethostbyname
+getaddrinfo
 (
+                
 host
+                
+port
+=
+port
+                
+type
+=
+socket
+.
+SOCK_STREAM
+                
 family
+=
+family
+                
+flags
+=
+socket
+.
+AI_ADDRCONFIG
+            
 )
         
 except
@@ -560,74 +597,212 @@ failed
 raise
 OSError
 (
+None
 msg
 )
 from
 exc
         
 hosts
+:
+List
+[
+ResolveResult
+]
 =
 [
 ]
         
 for
-address
+node
 in
 resp
 .
-addresses
+nodes
 :
+            
+address
+:
+Union
+[
+Tuple
+[
+bytes
+int
+]
+Tuple
+[
+bytes
+int
+int
+int
+]
+]
+=
+node
+.
+addr
+            
+family
+=
+node
+.
+family
+            
+if
+family
+=
+=
+socket
+.
+AF_INET6
+:
+                
+if
+len
+(
+address
+)
+>
+3
+and
+address
+[
+3
+]
+and
+_SUPPORTS_SCOPE_ID
+:
+                    
+result
+=
+await
+self
+.
+_resolver
+.
+getnameinfo
+(
+                        
+(
+address
+[
+0
+]
+.
+decode
+(
+"
+ascii
+"
+)
+*
+address
+[
+1
+:
+]
+)
+                        
+_NAME_SOCKET_FLAGS
+                    
+)
+                    
+resolved_host
+=
+result
+.
+node
+                
+else
+:
+                    
+resolved_host
+=
+address
+[
+0
+]
+.
+decode
+(
+"
+ascii
+"
+)
+                    
+port
+=
+address
+[
+1
+]
+            
+else
+:
+                
+assert
+family
+=
+=
+socket
+.
+AF_INET
+                
+resolved_host
+=
+address
+[
+0
+]
+.
+decode
+(
+"
+ascii
+"
+)
+                
+port
+=
+address
+[
+1
+]
             
 hosts
 .
 append
 (
                 
-{
+ResolveResult
+(
                     
-"
 hostname
-"
-:
+=
 host
                     
-"
 host
-"
-:
-address
+=
+resolved_host
                     
-"
 port
-"
-:
+=
 port
                     
-"
 family
-"
-:
+=
 family
                     
-"
 proto
-"
-:
+=
 0
                     
-"
 flags
-"
-:
-socket
-.
-AI_NUMERICHOST
-|
-socket
-.
-AI_NUMERICSERV
+=
+_NUMERIC_SOCKET_FLAGS
                 
-}
+)
             
 )
         
@@ -639,6 +814,7 @@ hosts
 raise
 OSError
 (
+None
 "
 DNS
 lookup
@@ -762,6 +938,7 @@ failed
 raise
 OSError
 (
+None
 msg
 )
 from
@@ -837,6 +1014,7 @@ hosts
 raise
 OSError
 (
+None
 "
 DNS
 lookup

@@ -3,9 +3,13 @@ asyncio
 import
 logging
 import
+os
+import
 socket
 import
 sys
+import
+warnings
 from
 argparse
 import
@@ -16,6 +20,10 @@ collections
 abc
 import
 Iterable
+from
+contextlib
+import
+suppress
 from
 importlib
 import
@@ -56,12 +64,19 @@ from
 .
 helpers
 import
-all_tasks
+AppKey
+as
+AppKey
 from
 .
 log
 import
 access_logger
+from
+.
+typedefs
+import
+PathLike
 from
 .
 web_app
@@ -154,6 +169,10 @@ HTTPMisdirectedRequest
 as
 HTTPMisdirectedRequest
     
+HTTPMove
+as
+HTTPMove
+    
 HTTPMovedPermanently
 as
 HTTPMovedPermanently
@@ -305,6 +324,10 @@ HTTPVariantAlsoNegotiates
 HTTPVersionNotSupported
 as
 HTTPVersionNotSupported
+    
+NotAppKeyWarning
+as
+NotAppKeyWarning
 )
 from
 .
@@ -574,11 +597,19 @@ __all__
 (
     
 "
+AppKey
+"
+    
+"
 Application
 "
     
 "
 CleanupError
+"
+    
+"
+NotAppKeyWarning
 "
     
 "
@@ -655,6 +686,10 @@ HTTPMethodNotAllowed
     
 "
 HTTPMisdirectedRequest
+"
+    
+"
+HTTPMove
 "
     
 "
@@ -1031,6 +1066,20 @@ ImportError
 SSLContext
 =
 Any
+warnings
+.
+filterwarnings
+(
+"
+ignore
+"
+category
+=
+NotAppKeyWarning
+append
+=
+True
+)
 HostSequence
 =
 TypingIterable
@@ -1079,9 +1128,14 @@ None
     
 path
 :
-Optional
+Union
 [
-str
+PathLike
+TypingIterable
+[
+PathLike
+]
+None
 ]
 =
 None
@@ -1133,12 +1187,15 @@ None
     
 print
 :
+Optional
+[
 Callable
 [
 .
 .
 .
 None
+]
 ]
 =
 print
@@ -1200,6 +1257,12 @@ bool
 ]
 =
 None
+    
+handler_cancellation
+:
+bool
+=
+False
 )
 -
 >
@@ -1254,6 +1317,14 @@ access_log
 keepalive_timeout
 =
 keepalive_timeout
+        
+shutdown_timeout
+=
+shutdown_timeout
+        
+handler_cancellation
+=
+handler_cancellation
     
 )
     
@@ -1311,10 +1382,6 @@ host
                         
 port
                         
-shutdown_timeout
-=
-shutdown_timeout
-                        
 ssl_context
 =
 ssl_context
@@ -1357,10 +1424,6 @@ runner
 h
                             
 port
-                            
-shutdown_timeout
-=
-shutdown_timeout
                             
 ssl_context
 =
@@ -1411,10 +1474,6 @@ port
 =
 port
                     
-shutdown_timeout
-=
-shutdown_timeout
-                    
 ssl_context
 =
 ssl_context
@@ -1448,9 +1507,9 @@ isinstance
 path
 (
 str
-bytes
-bytearray
-memoryview
+os
+.
+PathLike
 )
 )
 :
@@ -1466,10 +1525,6 @@ UnixSite
 runner
                         
 path
-                        
-shutdown_timeout
-=
-shutdown_timeout
                         
 ssl_context
 =
@@ -1503,10 +1558,6 @@ UnixSite
 runner
                             
 p
-                            
-shutdown_timeout
-=
-shutdown_timeout
                             
 ssl_context
 =
@@ -1548,10 +1599,6 @@ runner
                         
 sock
                         
-shutdown_timeout
-=
-shutdown_timeout
-                        
 ssl_context
 =
 ssl_context
@@ -1584,10 +1631,6 @@ SockSite
 runner
                             
 s
-                            
-shutdown_timeout
-=
-shutdown_timeout
                             
 ssl_context
 =
@@ -1688,37 +1731,6 @@ names
             
 )
         
-if
-sys
-.
-platform
-=
-=
-"
-win32
-"
-and
-sys
-.
-version_info
-<
-(
-3
-8
-)
-:
-            
-delay
-=
-1
-        
-else
-:
-            
-delay
-=
-3600
-        
 while
 True
 :
@@ -1728,7 +1740,7 @@ asyncio
 .
 sleep
 (
-delay
+3600
 )
     
 finally
@@ -1913,9 +1925,14 @@ None
     
 path
 :
-Optional
+Union
 [
-str
+PathLike
+TypingIterable
+[
+PathLike
+]
+None
 ]
 =
 None
@@ -1967,12 +1984,15 @@ None
     
 print
 :
+Optional
+[
 Callable
 [
 .
 .
 .
 None
+]
 ]
 =
 print
@@ -2034,6 +2054,12 @@ bool
 ]
 =
 None
+    
+handler_cancellation
+:
+bool
+=
+False
     
 loop
 :
@@ -2208,6 +2234,10 @@ reuse_address
 reuse_port
 =
 reuse_port
+            
+handler_cancellation
+=
+handler_cancellation
         
 )
     
@@ -2242,23 +2272,45 @@ pass
 finally
 :
         
-_cancel_tasks
-(
-{
+try
+:
+            
 main_task
-}
+.
+cancel
+(
+)
+            
+with
+suppress
+(
+asyncio
+.
+CancelledError
+)
+:
+                
 loop
+.
+run_until_complete
+(
+main_task
 )
         
+finally
+:
+            
 _cancel_tasks
 (
+asyncio
+.
 all_tasks
 (
 loop
 )
 loop
 )
-        
+            
 loop
 .
 run_until_complete
@@ -2269,7 +2321,7 @@ shutdown_asyncgens
 (
 )
 )
-        
+            
 loop
 .
 close

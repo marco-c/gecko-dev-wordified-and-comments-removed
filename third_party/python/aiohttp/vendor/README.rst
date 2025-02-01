@@ -56,13 +56,6 @@ add
 -
 -
 remote
-and
-check
-the
-branch
-in
-.
-gitmodules
 )
 :
 :
@@ -86,7 +79,7 @@ vendor
 llhttp
 /
 npm
-install
+ci
 make
 Then
 build

@@ -1,7 +1,3 @@
-from
-typing
-import
-Optional
 class
 _Quoter
 :

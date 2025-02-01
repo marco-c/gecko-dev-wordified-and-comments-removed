@@ -39,6 +39,16 @@ import
 BaseProtocol
 from
 .
+client_exceptions
+import
+ClientConnectionResetError
+from
+.
+compression_utils
+import
+ZLibCompressor
+from
+.
 helpers
 import
 NO_EXTENSIONS
@@ -208,7 +218,10 @@ self
 .
 _compress
 :
-Any
+Optional
+[
+ZLibCompressor
+]
 =
 None
         
@@ -317,36 +330,15 @@ Z_DEFAULT_STRATEGY
 None
 :
         
-zlib_mode
-=
-16
-+
-zlib
-.
-MAX_WBITS
-if
-encoding
-=
-=
-"
-gzip
-"
-else
-zlib
-.
-MAX_WBITS
-        
 self
 .
 _compress
 =
-zlib
-.
-compressobj
+ZLibCompressor
 (
-wbits
+encoding
 =
-zlib_mode
+encoding
 strategy
 =
 strategy
@@ -390,16 +382,11 @@ transport
 =
 self
 .
+_protocol
+.
 transport
         
 if
-not
-self
-.
-_protocol
-.
-connected
-or
 transport
 is
 None
@@ -412,7 +399,7 @@ is_closing
 :
             
 raise
-ConnectionResetError
+ClientConnectionResetError
 (
 "
 Cannot
@@ -564,6 +551,7 @@ None
             
 chunk
 =
+await
 self
 .
 _compress
@@ -848,6 +836,7 @@ chunk
                 
 chunk
 =
+await
 self
 .
 _compress
@@ -858,9 +847,8 @@ chunk
 )
             
 chunk
-=
-chunk
 +
+=
 self
 .
 _compress

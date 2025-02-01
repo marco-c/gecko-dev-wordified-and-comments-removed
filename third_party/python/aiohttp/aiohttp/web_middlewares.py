@@ -4,8 +4,6 @@ from
 typing
 import
 TYPE_CHECKING
-Awaitable
-Callable
 Tuple
 Type
 TypeVar
@@ -14,12 +12,13 @@ from
 typedefs
 import
 Handler
+Middleware
 from
 .
 web_exceptions
 import
+HTTPMove
 HTTPPermanentRedirect
-_HTTPMove
 from
 .
 web_request
@@ -150,19 +149,6 @@ __middleware_version__
     
 return
 f
-_Middleware
-=
-Callable
-[
-[
-Request
-Handler
-]
-Awaitable
-[
-StreamResponse
-]
-]
 def
 normalize_path_middleware
 (
@@ -191,14 +177,14 @@ redirect_class
 :
 Type
 [
-_HTTPMove
+HTTPMove
 ]
 =
 HTTPPermanentRedirect
 )
 -
 >
-_Middleware
+Middleware
 :
     
 "
@@ -735,7 +721,7 @@ Application
 )
 -
 >
-_Middleware
+Middleware
 :
     
 middleware
@@ -756,15 +742,25 @@ Handler
 StreamResponse
 :
         
-with
+match_info
+=
 request
 .
 match_info
+        
+prev
+=
+match_info
 .
-set_current_app
-(
+current_app
+        
+match_info
+.
+current_app
+=
 app
-)
+        
+try
 :
             
 return
@@ -773,6 +769,15 @@ handler
 (
 request
 )
+        
+finally
+:
+            
+match_info
+.
+current_app
+=
+prev
     
 return
 impl

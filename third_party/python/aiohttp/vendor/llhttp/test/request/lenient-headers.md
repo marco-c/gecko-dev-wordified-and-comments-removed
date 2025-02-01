@@ -42,8 +42,9 @@ off
 #
 Header
 value
-with
+(
 lenient
+)
 <
 !
 -
@@ -214,8 +215,9 @@ Second
 request
 header
 value
-with
+(
 lenient
+)
 <
 !
 -
@@ -526,8 +528,6 @@ complete
 #
 Header
 value
-without
-lenient
 <
 !
 -
@@ -681,7 +681,7 @@ separated
 by
 CR
 (
-Lenient
+lenient
 )
 <
 !

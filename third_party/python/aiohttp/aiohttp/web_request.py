@@ -37,6 +37,8 @@ Any
     
 Dict
     
+Final
+    
 Iterator
     
 Mapping
@@ -64,10 +66,18 @@ attr
 from
 multidict
 import
+(
+    
 CIMultiDict
+    
 CIMultiDictProxy
+    
 MultiDict
+    
 MultiDictProxy
+    
+MultiMapping
+)
 from
 yarl
 import
@@ -87,6 +97,8 @@ helpers
 import
 (
     
+_SENTINEL
+    
 DEBUG
     
 ETAG_ANY
@@ -104,6 +116,8 @@ parse_http_date
 reify
     
 sentinel
+    
+set_exception
 )
 from
 .
@@ -134,8 +148,6 @@ import
 (
     
 DEFAULT_JSON_DECODER
-    
-Final
     
 JSONDecoder
     
@@ -227,12 +239,10 @@ str
     
 headers
 :
-"
 CIMultiDictProxy
 [
 str
 ]
-"
 _TCHAR
 :
 Final
@@ -385,10 +395,11 @@ _FORWARDED_PAIR
 :
 Final
 [
-    
 str
 ]
 =
+(
+    
 r
 "
 (
@@ -422,13 +433,15 @@ d
 .
 format
 (
-    
+        
 token
 =
 _TOKEN
 quoted_string
 =
 _QUOTED_STRING
+    
+)
 )
 _QUOTED_PAIR_REPLACE_RE
 :
@@ -732,6 +745,11 @@ payload
 self
 .
 _headers
+:
+CIMultiDictProxy
+[
+str
+]
 =
 message
 .
@@ -775,10 +793,40 @@ url
 if
 url
 .
-is_absolute
-(
-)
+absolute
 :
+            
+if
+scheme
+is
+not
+None
+:
+                
+url
+=
+url
+.
+with_scheme
+(
+scheme
+)
+            
+if
+host
+is
+not
+None
+:
+                
+url
+=
+url
+.
+with_host
+(
+host
+)
             
 self
 .
@@ -837,6 +885,42 @@ _rel_url
 message
 .
 url
+            
+if
+scheme
+is
+not
+None
+:
+                
+self
+.
+_cache
+[
+"
+scheme
+"
+]
+=
+scheme
+            
+if
+host
+is
+not
+None
+:
+                
+self
+.
+_cache
+[
+"
+host
+"
+]
+=
+host
         
 self
 .
@@ -933,42 +1017,6 @@ peername
 )
         
 if
-scheme
-is
-not
-None
-:
-            
-self
-.
-_cache
-[
-"
-scheme
-"
-]
-=
-scheme
-        
-if
-host
-is
-not
-None
-:
-            
-self
-.
-_cache
-[
-"
-host
-"
-]
-=
-host
-        
-if
 remote
 is
 not
@@ -996,37 +1044,71 @@ self
         
 method
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 rel_url
 :
+Union
+[
 StrOrURL
+_SENTINEL
+]
 =
 sentinel
         
 headers
 :
+Union
+[
 LooseHeaders
+_SENTINEL
+]
 =
 sentinel
         
 scheme
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 host
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 remote
 :
+Union
+[
 str
+_SENTINEL
+]
+=
+sentinel
+        
+client_max_size
+:
+Union
+[
+int
+_SENTINEL
+]
 =
 sentinel
     
@@ -1151,6 +1233,8 @@ sentinel
 :
             
 new_url
+:
+URL
 =
 URL
 (
@@ -1232,11 +1316,17 @@ utf
 "
 )
 )
+                
 for
 k
 v
 in
+dct
+[
+"
 headers
+"
+]
 .
 items
 (
@@ -1310,6 +1400,18 @@ remote
 =
 remote
         
+if
+client_max_size
+is
+sentinel
+:
+            
+client_max_size
+=
+self
+.
+_client_max_size
+        
 return
 self
 .
@@ -1340,9 +1442,7 @@ _loop
             
 client_max_size
 =
-self
-.
-_client_max_size
+client_max_size
             
 state
 =
@@ -1454,6 +1554,23 @@ return
 self
 .
 _payload_writer
+    
+property
+    
+def
+client_max_size
+(
+self
+)
+-
+>
+int
+:
+        
+return
+self
+.
+_client_max_size
     
 reify
     
@@ -2434,6 +2551,32 @@ getfqdn
 )
 value
         
+For
+example
+'
+example
+.
+com
+'
+or
+'
+localhost
+:
+8080
+'
+.
+        
+For
+historical
+reasons
+the
+port
+number
+may
+be
+included
+.
+        
 "
 "
 "
@@ -2585,8 +2728,21 @@ self
 URL
 :
         
-url
-=
+"
+"
+"
+The
+full
+URL
+of
+the
+request
+.
+"
+"
+"
+        
+return
 URL
 .
 build
@@ -2596,15 +2752,12 @@ scheme
 self
 .
 scheme
-host
+authority
 =
 self
 .
 host
 )
-        
-return
-url
 .
 join
 (
@@ -2792,7 +2945,7 @@ self
 -
 >
 "
-MultiDictProxy
+MultiMapping
 [
 str
 ]
@@ -2818,14 +2971,11 @@ string
 "
         
 return
-MultiDictProxy
-(
 self
 .
 _rel_url
 .
 query
-)
     
 reify
     
@@ -2878,12 +3028,10 @@ self
 )
 -
 >
-"
 CIMultiDictProxy
 [
 str
 ]
-"
 :
         
 "
@@ -3506,11 +3654,6 @@ COOKIE
 )
         
 parsed
-:
-SimpleCookie
-[
-str
-]
 =
 SimpleCookie
 (
@@ -4480,10 +4623,19 @@ filename
                         
 tmp
 =
+await
+self
+.
+_loop
+.
+run_in_executor
+(
+                            
+None
 tempfile
 .
 TemporaryFile
-(
+                        
 )
                         
 chunk
@@ -4514,10 +4666,17 @@ decode
 chunk
 )
                             
+await
+self
+.
+_loop
+.
+run_in_executor
+(
+None
 tmp
 .
 write
-(
 chunk
 )
                             
@@ -4537,10 +4696,17 @@ max_size
 size
 :
                                 
+await
+self
+.
+_loop
+.
+run_in_executor
+(
+None
 tmp
 .
 close
-(
 )
                                 
 raise
@@ -4571,10 +4737,17 @@ size
 16
 )
                         
+await
+self
+.
+_loop
+.
+run_in_executor
+(
+None
 tmp
 .
 seek
-(
 0
 )
                         
@@ -5040,13 +5213,74 @@ BaseException
 None
 :
         
+set_exception
+(
 self
 .
 _payload
-.
-set_exception
-(
 exc
+)
+    
+def
+_finish
+(
+self
+)
+-
+>
+None
+:
+        
+if
+self
+.
+_post
+is
+None
+or
+self
+.
+content_type
+!
+=
+"
+multipart
+/
+form
+-
+data
+"
+:
+            
+return
+        
+for
+file_name
+file_field_object
+in
+self
+.
+_post
+.
+items
+(
+)
+:
+            
+if
+isinstance
+(
+file_field_object
+FileField
+)
+:
+                
+file_field_object
+.
+file
+.
+close
+(
 )
 class
 Request
@@ -5201,37 +5435,71 @@ self
         
 method
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 rel_url
 :
+Union
+[
 StrOrURL
+_SENTINEL
+]
 =
 sentinel
         
 headers
 :
+Union
+[
 LooseHeaders
+_SENTINEL
+]
 =
 sentinel
         
 scheme
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 host
 :
+Union
+[
 str
+_SENTINEL
+]
 =
 sentinel
         
 remote
 :
+Union
+[
 str
+_SENTINEL
+]
+=
+sentinel
+        
+client_max_size
+:
+Union
+[
+int
+_SENTINEL
+]
 =
 sentinel
     
@@ -5275,6 +5543,10 @@ host
 remote
 =
 remote
+            
+client_max_size
+=
+client_max_size
         
 )
         
@@ -5482,9 +5754,16 @@ match_info
 _apps
 :
             
-await
+if
+on_response_prepare
+:
+=
 app
 .
+on_response_prepare
+:
+                
+await
 on_response_prepare
 .
 send

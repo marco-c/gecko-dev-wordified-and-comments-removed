@@ -5,6 +5,8 @@ asyncio
 .
 streams
 import
+sys
+import
 traceback
 import
 warnings
@@ -115,6 +117,7 @@ from
 web_exceptions
 import
 HTTPException
+HTTPInternalServerError
 from
 .
 web_log
@@ -271,6 +274,11 @@ sent
 "
 "
 "
+_PAYLOAD_ACCESS_ERROR
+=
+PayloadAccessError
+(
+)
 attr
 .
 s
@@ -484,13 +492,26 @@ maximum
 header
 size
     
-"
-"
-"
+timeout_ceil_threshold
+-
+-
+Optional
+value
+to
+specify
+                              
+threshold
+to
+ceil
+(
+)
+timeout
+                              
+values
     
-KEEPALIVE_RESCHEDULE_DELAY
-=
-1
+"
+"
+"
     
 __slots__
 =
@@ -521,7 +542,7 @@ _tcp_keepalive
 "
         
 "
-_keepalive_time
+_next_keepalive_close_time
 "
         
 "
@@ -542,6 +563,10 @@ _messages
         
 "
 _message_tail
+"
+        
+"
+_handler_waiter
 "
         
 "
@@ -594,6 +619,14 @@ _force_close
         
 "
 _current_request
+"
+        
+"
+_timeout_ceil_threshold
+"
+        
+"
+_request_in_progress
 "
     
 )
@@ -707,6 +740,12 @@ auto_decompress
 bool
 =
 True
+        
+timeout_ceil_threshold
+:
+float
+=
+5
     
 )
 :
@@ -788,7 +827,7 @@ tcp_keepalive
         
 self
 .
-_keepalive_time
+_next_keepalive_close_time
 =
 0
 .
@@ -846,6 +885,22 @@ b
 self
 .
 _waiter
+:
+Optional
+[
+asyncio
+.
+Future
+[
+None
+]
+]
+=
+None
+        
+self
+.
+_handler_waiter
 :
 Optional
 [
@@ -931,6 +986,35 @@ auto_decompress
         
 self
 .
+_timeout_ceil_threshold
+:
+float
+=
+5
+        
+try
+:
+            
+self
+.
+_timeout_ceil_threshold
+=
+float
+(
+timeout_ceil_threshold
+)
+        
+except
+(
+TypeError
+ValueError
+)
+:
+            
+pass
+        
+self
+.
 logger
 =
 logger
@@ -986,6 +1070,12 @@ False
 self
 .
 _force_close
+=
+False
+        
+self
+.
+_request_in_progress
 =
 False
     
@@ -1136,19 +1226,38 @@ cancel
 if
 self
 .
-_waiter
+_request_in_progress
 :
             
 self
 .
-_waiter
+_handler_waiter
+=
+self
 .
-cancel
+_loop
+.
+create_future
 (
 )
-        
+            
+try
+:
+                
+async
 with
-suppress
+ceil_timeout
+(
+timeout
+)
+:
+                    
+await
+self
+.
+_handler_waiter
+            
+except
 (
 asyncio
 .
@@ -1157,6 +1266,52 @@ asyncio
 .
 TimeoutError
 )
+:
+                
+self
+.
+_handler_waiter
+=
+None
+                
+if
+(
+                    
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+                    
+and
+(
+task
+:
+=
+asyncio
+.
+current_task
+(
+)
+)
+                    
+and
+task
+.
+cancelling
+(
+)
+                
+)
+:
+                    
+raise
+        
+try
 :
             
 async
@@ -1208,9 +1363,62 @@ done
 :
                     
 await
+asyncio
+.
+shield
+(
 self
 .
 _task_handler
+)
+        
+except
+(
+asyncio
+.
+CancelledError
+asyncio
+.
+TimeoutError
+)
+:
+            
+if
+(
+                
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+                
+and
+(
+task
+:
+=
+asyncio
+.
+current_task
+(
+)
+)
+                
+and
+task
+.
+cancelling
+(
+)
+            
+)
+:
+                
+raise
         
 if
 self
@@ -1229,28 +1437,11 @@ cancel
 (
 )
         
-if
 self
 .
-transport
-is
-not
-None
-:
-            
-self
-.
-transport
-.
-close
+force_close
 (
 )
-            
-self
-.
-transport
-=
-None
     
 def
 connection_made
@@ -1297,23 +1488,6 @@ tcp_keepalive
 real_transport
 )
         
-self
-.
-_task_handler
-=
-self
-.
-_loop
-.
-create_task
-(
-self
-.
-start
-(
-)
-)
-        
 assert
 self
 .
@@ -1331,6 +1505,65 @@ connection_made
 self
 real_transport
 )
+        
+loop
+=
+self
+.
+_loop
+        
+if
+sys
+.
+version_info
+>
+=
+(
+3
+12
+)
+:
+            
+task
+=
+asyncio
+.
+Task
+(
+self
+.
+start
+(
+)
+loop
+=
+loop
+eager_start
+=
+True
+)
+        
+else
+:
+            
+task
+=
+loop
+.
+create_task
+(
+self
+.
+start
+(
+)
+)
+        
+self
+.
+_task_handler
+=
+task
     
 def
 connection_lost
@@ -1368,6 +1601,20 @@ self
 exc
 )
         
+handler_cancellation
+=
+self
+.
+_manager
+.
+handler_cancellation
+        
+self
+.
+force_close
+(
+)
+        
 super
 (
 )
@@ -1382,12 +1629,6 @@ self
 _manager
 =
 None
-        
-self
-.
-_force_close
-=
-True
         
 self
 .
@@ -1459,9 +1700,11 @@ exc
 )
         
 if
+handler_cancellation
+and
 self
 .
-_waiter
+_task_handler
 is
 not
 None
@@ -1469,7 +1712,7 @@ None
             
 self
 .
-_waiter
+_task_handler
 .
 cancel
 (
@@ -2112,6 +2355,12 @@ self
 None
 :
         
+self
+.
+_keepalive_handle
+=
+None
+        
 if
 self
 .
@@ -2125,60 +2374,68 @@ _keepalive
             
 return
         
-next
+loop
 =
 self
 .
-_keepalive_time
-+
+_loop
+        
+now
+=
+loop
+.
+time
+(
+)
+        
+close_time
+=
 self
 .
-_keepalive_timeout
+_next_keepalive_close_time
+        
+if
+now
+<
+=
+close_time
+:
+            
+self
+.
+_keepalive_handle
+=
+loop
+.
+call_at
+(
+close_time
+self
+.
+_process_keepalive
+)
+            
+return
         
 if
 self
 .
 _waiter
-:
-            
-if
+and
+not
 self
 .
-_loop
+_waiter
 .
-time
+done
 (
 )
->
-next
 :
-                
+            
 self
 .
 force_close
 (
-)
-                
-return
-        
-self
-.
-_keepalive_handle
-=
-self
-.
-_loop
-.
-call_later
-(
-            
-self
-.
-KEEPALIVE_RESCHEDULE_DELAY
-self
-.
-_process_keepalive
-        
 )
     
 async
@@ -2219,13 +2476,11 @@ bool
 ]
 :
         
-assert
 self
 .
-_request_handler
-is
-not
-None
+_request_in_progress
+=
+True
         
 try
 :
@@ -2266,6 +2521,7 @@ resp
 =
 exc
             
+resp
 reset
 =
 await
@@ -2320,6 +2576,7 @@ request
 504
 )
             
+resp
 reset
 =
 await
@@ -2349,6 +2606,7 @@ request
 exc
 )
             
+resp
 reset
 =
 await
@@ -2411,6 +2669,7 @@ DeprecationWarning
                 
 )
             
+resp
 reset
 =
 await
@@ -2421,6 +2680,33 @@ finish_response
 request
 resp
 start_time
+)
+        
+finally
+:
+            
+self
+.
+_request_in_progress
+=
+False
+            
+if
+self
+.
+_handler_waiter
+is
+not
+None
+:
+                
+self
+.
+_handler_waiter
+.
+set_result
+(
+None
 )
         
 return
@@ -2511,9 +2797,12 @@ _loop
         
 handler
 =
-self
+asyncio
 .
-_task_handler
+current_task
+(
+loop
+)
         
 assert
 handler
@@ -2590,14 +2879,6 @@ await
 self
 .
 _waiter
-                
-except
-asyncio
-.
-CancelledError
-:
-                    
-break
                 
 finally
 :
@@ -2688,15 +2969,8 @@ handler
 try
 :
                 
-task
+coro
 =
-self
-.
-_loop
-.
-create_task
-(
-                    
 self
 .
 _handle_request
@@ -2706,6 +2980,43 @@ start
 request_handler
 )
                 
+if
+sys
+.
+version_info
+>
+=
+(
+3
+12
+)
+:
+                    
+task
+=
+asyncio
+.
+Task
+(
+coro
+loop
+=
+loop
+eager_start
+=
+True
+)
+                
+else
+:
+                    
+task
+=
+loop
+.
+create_task
+(
+coro
 )
                 
 try
@@ -2718,12 +3029,7 @@ await
 task
                 
 except
-(
-asyncio
-.
-CancelledError
 ConnectionError
-)
 :
                     
 self
@@ -2831,16 +3137,7 @@ now
 +
 lingering_time
                         
-with
-suppress
-(
-asyncio
-.
-TimeoutError
-asyncio
-.
-CancelledError
-)
+try
 :
                             
 while
@@ -2880,6 +3177,54 @@ loop
 time
 (
 )
+                        
+except
+(
+asyncio
+.
+CancelledError
+asyncio
+.
+TimeoutError
+)
+:
+                            
+if
+(
+                                
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+                                
+and
+(
+t
+:
+=
+asyncio
+.
+current_task
+(
+)
+)
+                                
+and
+t
+.
+cancelling
+(
+)
+                            
+)
+:
+                                
+raise
                     
 if
 not
@@ -2916,9 +3261,7 @@ payload
 .
 set_exception
 (
-PayloadAccessError
-(
-)
+_PAYLOAD_ACCESS_ERROR
 )
             
 except
@@ -2939,39 +3282,7 @@ disconnection
 "
 )
                 
-break
-            
-except
-RuntimeError
-as
-exc
-:
-                
-if
-self
-.
-debug
-:
-                    
-self
-.
-log_exception
-(
-"
-Unhandled
-runtime
-exception
-"
-exc_info
-=
-exc
-)
-                
-self
-.
-force_close
-(
-)
+raise
             
 except
 Exception
@@ -3054,19 +3365,23 @@ None
                             
 now
 =
-self
-.
-_loop
+loop
 .
 time
 (
 )
                             
-self
-.
-_keepalive_time
+close_time
 =
 now
++
+keepalive_timeout
+                            
+self
+.
+_next_keepalive_close_time
+=
+close_time
                             
 if
 self
@@ -3085,9 +3400,7 @@ loop
 call_at
 (
                                     
-now
-+
-keepalive_timeout
+close_time
 self
 .
 _process_keepalive
@@ -3148,7 +3461,11 @@ float
 )
 -
 >
+Tuple
+[
+StreamResponse
 bool
+]
 :
         
 "
@@ -3199,6 +3516,12 @@ prematurely
 "
 "
 "
+        
+request
+.
+_finish
+(
+)
         
 if
 self
@@ -3268,14 +3591,13 @@ is
 None
 :
                 
-raise
-RuntimeError
+self
+.
+log_exception
 (
 "
 Missing
 return
-"
-"
 statement
 on
 request
@@ -3286,8 +3608,9 @@ handler
 else
 :
                 
-raise
-RuntimeError
+self
+.
+log_exception
 (
                     
 "
@@ -3296,9 +3619,6 @@ Web
 handler
 should
 return
-"
-                    
-"
 a
 response
 instance
@@ -3318,6 +3638,46 @@ resp
 )
                 
 )
+            
+exc
+=
+HTTPInternalServerError
+(
+)
+            
+resp
+=
+Response
+(
+                
+status
+=
+exc
+.
+status
+reason
+=
+exc
+.
+reason
+text
+=
+exc
+.
+text
+headers
+=
+exc
+.
+headers
+            
+)
+            
+prepare_meth
+=
+resp
+.
+prepare
         
 try
 :
@@ -3349,11 +3709,9 @@ start_time
 )
             
 return
+resp
 True
         
-else
-:
-            
 self
 .
 log_access
@@ -3362,8 +3720,9 @@ request
 resp
 start_time
 )
-            
+        
 return
+resp
 False
     
 def

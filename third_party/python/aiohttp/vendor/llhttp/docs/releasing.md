@@ -133,6 +133,9 @@ As
 a
 preliminary
 check
+lint
+the
+code
 run
 the
 build
@@ -146,8 +149,12 @@ locally
 :
 npm
 run
+lint
+npm
+run
 build
 npm
+run
 test
 If
 all

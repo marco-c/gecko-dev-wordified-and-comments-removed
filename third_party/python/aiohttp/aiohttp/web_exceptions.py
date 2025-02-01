@@ -73,6 +73,10 @@ HTTPPartialContent
 "
     
 "
+HTTPMove
+"
+    
+"
 HTTPMultipleChoices
 "
     
@@ -256,6 +260,27 @@ HTTPNotExtended
 HTTPNetworkAuthenticationRequired
 "
 )
+class
+NotAppKeyWarning
+(
+UserWarning
+)
+:
+    
+"
+"
+"
+Warning
+when
+not
+using
+AppKey
+in
+Application
+.
+"
+"
+"
 class
 HTTPException
 (
@@ -602,7 +627,7 @@ status_code
 =
 206
 class
-_HTTPMove
+HTTPMove
 (
 HTTPRedirection
 )
@@ -743,7 +768,7 @@ location
 class
 HTTPMultipleChoices
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -753,7 +778,7 @@ status_code
 class
 HTTPMovedPermanently
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -763,7 +788,7 @@ status_code
 class
 HTTPFound
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -773,7 +798,7 @@ status_code
 class
 HTTPSeeOther
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -797,7 +822,7 @@ True
 class
 HTTPUseProxy
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -807,7 +832,7 @@ status_code
 class
 HTTPTemporaryRedirect
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -817,7 +842,7 @@ status_code
 class
 HTTPPermanentRedirect
 (
-_HTTPMove
+HTTPMove
 )
 :
     
@@ -1312,7 +1337,10 @@ self
         
 link
 :
-str
+Optional
+[
+StrOrURL
+]
         
 *
         
@@ -1395,6 +1423,25 @@ content_type
         
 self
 .
+_link
+=
+None
+        
+if
+link
+:
+            
+self
+.
+_link
+=
+URL
+(
+link
+)
+            
+self
+.
 headers
 [
 "
@@ -1402,10 +1449,17 @@ Link
 "
 ]
 =
+f
 '
 <
-%
-s
+{
+str
+(
+self
+.
+_link
+)
+}
 >
 ;
 rel
@@ -1416,14 +1470,26 @@ blocked
 by
 "
 '
-%
+    
+property
+    
+def
 link
+(
+self
+)
+-
+>
+Optional
+[
+URL
+]
+:
         
+return
 self
 .
-link
-=
-link
+_link
 class
 HTTPServerError
 (

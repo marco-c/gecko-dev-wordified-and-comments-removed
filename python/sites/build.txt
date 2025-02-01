@@ -159,6 +159,13 @@ third_party
 /
 python
 /
+aiohappyeyeballs
+vendored
+:
+third_party
+/
+python
+/
 aiohttp
 vendored
 :
@@ -392,6 +399,13 @@ third_party
 python
 /
 polib
+vendored
+:
+third_party
+/
+python
+/
+propcache
 vendored
 :
 third_party

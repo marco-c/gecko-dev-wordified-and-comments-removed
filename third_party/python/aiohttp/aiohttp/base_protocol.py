@@ -7,6 +7,16 @@ Optional
 cast
 from
 .
+client_exceptions
+import
+ClientConnectionResetError
+from
+.
+helpers
+import
+set_exception
+from
+.
 tcp_helpers
 import
 tcp_nodelay
@@ -443,11 +453,21 @@ None
 else
 :
             
-waiter
-.
 set_exception
 (
+                
+waiter
+                
+ConnectionError
+(
+"
+Connection
+lost
+"
+)
+                
 exc
+            
 )
     
 async
@@ -469,7 +489,7 @@ connected
 :
             
 raise
-ConnectionResetError
+ClientConnectionResetError
 (
 "
 Connection

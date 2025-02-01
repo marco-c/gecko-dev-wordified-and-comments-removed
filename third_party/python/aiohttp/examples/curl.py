@@ -3,6 +3,8 @@ argparse
 import
 asyncio
 import
+sys
+import
 aiohttp
 async
 def
@@ -163,6 +165,15 @@ if
 options
 .
 iocp
+and
+sys
+.
+platform
+=
+=
+"
+win32
+"
 :
         
 from

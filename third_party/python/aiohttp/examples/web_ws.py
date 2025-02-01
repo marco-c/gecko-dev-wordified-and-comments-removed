@@ -15,6 +15,10 @@ server
 import
 os
 from
+typing
+import
+List
+from
 aiohttp
 import
 web
@@ -40,12 +44,37 @@ websocket
 html
 "
 )
+sockets
+=
+web
+.
+AppKey
+(
+"
+sockets
+"
+List
+[
+web
+.
+WebSocketResponse
+]
+)
 async
 def
 wshandler
 (
 request
+:
+web
+.
+Request
 )
+-
+>
+web
+.
+StreamResponse
 :
     
 resp
@@ -143,9 +172,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
             
@@ -164,9 +191,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 .
 append
@@ -201,9 +226,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
                     
@@ -240,9 +263,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 .
 remove
@@ -266,9 +287,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
             
@@ -288,7 +307,14 @@ def
 on_shutdown
 (
 app
+:
+web
+.
+Application
 )
+-
+>
+None
 :
     
 for
@@ -296,9 +322,7 @@ ws
 in
 app
 [
-"
 sockets
-"
 ]
 :
         
@@ -312,6 +336,11 @@ def
 init
 (
 )
+-
+>
+web
+.
+Application
 :
     
 app
@@ -322,15 +351,24 @@ Application
 (
 )
     
-app
+l
+:
+List
 [
-"
-sockets
-"
+web
+.
+WebSocketResponse
 ]
 =
 [
 ]
+    
+app
+[
+sockets
+]
+=
+l
     
 app
 .
