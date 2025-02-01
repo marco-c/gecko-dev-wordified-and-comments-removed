@@ -1700,13 +1700,6 @@ uint64_t
 >
 &
 aOverriddenFingerprintingSettings
-const
-Optional
-<
-bool
->
-&
-aIsPBM
 )
 ;
 static

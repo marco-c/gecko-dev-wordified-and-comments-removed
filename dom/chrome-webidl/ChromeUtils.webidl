@@ -4886,9 +4886,6 @@ long
 long
 ?
 overriddenFingerprintingSettings
-optional
-boolean
-isPBM
 )
 ;
 FileNameTypeDetails
