@@ -2037,6 +2037,10 @@ ifdef
 DEBUG
 memset
 (
+(
+void
+*
+)
 mStartBuffer
 0
 (
