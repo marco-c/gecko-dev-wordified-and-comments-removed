@@ -371,6 +371,16 @@ UpdateStatus
 >
 {
 }
+is
+OnboardingAction
+.
+OnboardingAddOnsAction
+.
+UpdateAddons
+-
+>
+{
+}
 }
 }
 private

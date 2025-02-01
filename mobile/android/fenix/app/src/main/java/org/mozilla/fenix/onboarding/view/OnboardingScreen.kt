@@ -1987,7 +1987,9 @@ dispatch
 (
 OnboardingAction
 .
-Init
+OnboardingAddOnsAction
+.
+UpdateAddons
 (
 addOns
 )

@@ -129,9 +129,6 @@ dispatch
 OnboardingAction
 .
 Init
-(
-addOns
-)
 )
 .
 joinBlocking
@@ -165,8 +162,9 @@ state
 Test
 fun
 WHEN
-installation
-process
+the
+update
+addons
 action
 is
 dispatched
@@ -324,7 +322,9 @@ dispatch
 (
 OnboardingAction
 .
-Init
+OnboardingAddOnsAction
+.
+UpdateAddons
 (
 addOns
 )

@@ -339,8 +339,6 @@ action
 OnboardingAction
 .
 Init
-(
-)
 )
 verify
 (
