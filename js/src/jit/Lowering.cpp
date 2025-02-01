@@ -37050,7 +37050,7 @@ isBigIntWrite
 LInt64Allocation
 value
 =
-useInt64Register
+useInt64RegisterOrConstant
 (
 ins
 -
@@ -38049,7 +38049,7 @@ isBigIntWrite
 LInt64Allocation
 value
 =
-useInt64Register
+useInt64RegisterOrConstant
 (
 ins
 -
