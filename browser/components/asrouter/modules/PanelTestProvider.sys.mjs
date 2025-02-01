@@ -299,7 +299,7 @@ padding
 width
 :
 "
-412px
+330px
 "
 title_logo
 :
@@ -342,6 +342,11 @@ marginInline
 "
 0
 16px
+"
+alignment
+:
+"
+top
 "
 }
 title

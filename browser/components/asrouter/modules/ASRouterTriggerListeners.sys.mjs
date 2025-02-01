@@ -4683,13 +4683,13 @@ _tabGroupsCreated
 ]
 [
 "
-tabGroupClosed
+tabGroupSaved
 "
 {
 id
 :
 "
-tabGroupClosed
+tabGroupSaved
 "
 _initialized
 :
@@ -4841,7 +4841,7 @@ id
 context
 :
 {
-tabGroupsClosedCount
+tabGroupsSavedCount
 :
 this
 .
