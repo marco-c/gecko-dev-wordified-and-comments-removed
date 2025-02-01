@@ -2607,6 +2607,15 @@ GetJSContext
 )
 ;
 }
+#
+if
+!
+(
+defined
+(
+MOZ_ASAN
+)
+)
 TEST_F
 (
 AvailableMemoryWatcherFixture
@@ -2748,6 +2757,8 @@ GetJSContext
 )
 ;
 }
+#
+endif
 TEST_F
 (
 AvailableMemoryWatcherFixture
