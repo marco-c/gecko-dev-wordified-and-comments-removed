@@ -207,7 +207,11 @@ Throws
 undefined
 importScripts
 (
+(
+TrustedScriptURL
+or
 DOMString
+)
 .
 .
 .
