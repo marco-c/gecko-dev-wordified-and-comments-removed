@@ -2689,5 +2689,10 @@ affects
 =
 "
 "
+enabled_in
+=
+"
+ua
+"
 )
 }
