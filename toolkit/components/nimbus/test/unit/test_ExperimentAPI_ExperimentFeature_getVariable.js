@@ -93,7 +93,7 @@ stub
 (
 ExperimentAPI
 "
-_manager
+_store
 "
 )
 .
@@ -104,6 +104,8 @@ get
 =
 >
 manager
+.
+store
 )
 ;
 return
