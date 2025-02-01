@@ -469,7 +469,7 @@ mjs
 "
 private
 /
-AdmWikipedia
+AmpSuggestions
 .
 sys
 .
@@ -533,6 +533,15 @@ mjs
 private
 /
 MLSuggest
+.
+sys
+.
+mjs
+"
+"
+private
+/
+OfflineWikipediaSuggestions
 .
 sys
 .

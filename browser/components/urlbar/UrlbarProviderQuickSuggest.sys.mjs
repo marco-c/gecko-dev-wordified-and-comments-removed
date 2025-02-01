@@ -1170,6 +1170,19 @@ getFeature
 suggestion
 )
 ;
+if
+(
+!
+suggestion
+.
+hasOwnProperty
+(
+"
+is_sponsored
+"
+)
+)
+{
 suggestion
 .
 is_sponsored
@@ -1184,6 +1197,7 @@ isSuggestionSponsored
 suggestion
 )
 ;
+}
 /
 /
 Ensure

@@ -803,7 +803,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -867,7 +867,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+OfflineWikipediaSuggestions
 "
 expectedScore
 :
@@ -936,7 +936,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1005,7 +1005,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+OfflineWikipediaSuggestions
 "
 expectedScore
 :
@@ -1069,7 +1069,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1133,7 +1133,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+OfflineWikipediaSuggestions
 "
 expectedScore
 :
@@ -1202,7 +1202,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1271,7 +1271,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+OfflineWikipediaSuggestions
 "
 expectedScore
 :
@@ -1335,7 +1335,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1404,7 +1404,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1468,7 +1468,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1600,7 +1600,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1748,7 +1748,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -1969,7 +1969,7 @@ score
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
@@ -2152,7 +2152,7 @@ adm_sponsored
 expectedFeatureName
 :
 "
-AdmWikipedia
+AmpSuggestions
 "
 expectedScore
 :
