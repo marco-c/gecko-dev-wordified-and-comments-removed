@@ -121,6 +121,13 @@ js
 ]
 [
 "
+browser_bouncetracking_nimbus
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_oa_isolation
 .
 js
