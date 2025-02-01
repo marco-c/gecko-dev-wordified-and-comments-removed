@@ -373,8 +373,7 @@ undefined
 }
 const
 {
-fromLanguage
-toLanguage
+languagePair
 port
 translationsStart
 }
@@ -398,8 +397,7 @@ translationsCache
 .
 matches
 (
-fromLanguage
-toLanguage
+languagePair
 )
 )
 {
@@ -413,8 +411,7 @@ lazy
 .
 LRUCache
 (
-fromLanguage
-toLanguage
+languagePair
 )
 ;
 }
@@ -431,8 +428,12 @@ TranslationsDocument
 this
 .
 document
-fromLanguage
-toLanguage
+languagePair
+.
+sourceLanguage
+languagePair
+.
+targetLanguage
 this
 .
 contentWindow

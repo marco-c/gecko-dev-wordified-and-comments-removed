@@ -366,8 +366,7 @@ undefined
 }
 const
 {
-fromLanguage
-toLanguage
+languagePair
 }
 =
 data
@@ -384,8 +383,7 @@ TranslationsParent
 .
 requestTranslationsPort
 (
-fromLanguage
-toLanguage
+languagePair
 )
 ;
 /
@@ -454,8 +452,7 @@ AboutTranslations
 SendTranslationsPort
 "
 {
-fromLanguage
-toLanguage
+languagePair
 port
 }
 [

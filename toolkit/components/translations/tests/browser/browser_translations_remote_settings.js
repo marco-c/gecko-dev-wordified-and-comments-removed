@@ -452,7 +452,7 @@ name
 {
 TranslationsParent
 .
-languagePairKey
+nonPivotKey
 (
 record
 .
@@ -460,6 +460,9 @@ fromLang
 record
 .
 toLang
+record
+.
+variant
 )
 }
 ;

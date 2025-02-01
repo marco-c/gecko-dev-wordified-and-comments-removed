@@ -650,10 +650,10 @@ type
 Promise
 <
 {
-fromLanguage
+sourceLanguage
 :
 string
-toLanguage
+targetLanguage
 :
 string
 }
@@ -15264,7 +15264,7 @@ translateSelectionItem
 {
 const
 {
-toLanguage
+targetLanguage
 }
 =
 await
@@ -15275,7 +15275,7 @@ translationsLangPairPromise
 ;
 if
 (
-toLanguage
+targetLanguage
 )
 {
 /
@@ -15316,7 +15316,7 @@ languageDisplayNames
 .
 of
 (
-toLanguage
+targetLanguage
 )
 ;
 }
@@ -15346,7 +15346,7 @@ target
 -
 language
 "
-toLanguage
+targetLanguage
 )
 ;
 this
