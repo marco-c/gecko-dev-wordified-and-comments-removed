@@ -2775,12 +2775,7 @@ getRootNode
 host
 ?
 .
-tagName
-?
-.
-toLowerCase
-(
-)
+localName
 =
 =
 =
