@@ -2061,6 +2061,13 @@ f
 isWasm
 (
 )
+|
+|
+codeMeta
+(
+)
+.
+funcImportsAreJS
 )
 {
 continue

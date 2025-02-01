@@ -111,6 +111,9 @@ numFuncImports
 BuiltinModuleFuncIdVector
 knownFuncImports
 ;
+bool
+funcImportsAreJS
+;
 uint32_t
 numGlobalImports
 ;
@@ -381,6 +384,10 @@ compileArgs
 numFuncImports
 (
 0
+)
+funcImportsAreJS
+(
+false
 )
 numGlobalImports
 (
