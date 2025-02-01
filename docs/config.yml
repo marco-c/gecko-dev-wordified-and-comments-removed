@@ -107,6 +107,8 @@ remote
 -
 services
 -
+permissions
+-
 uriloader
 -
 widget
