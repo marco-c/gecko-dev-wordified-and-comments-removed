@@ -116,12 +116,10 @@ define
 NS_ITHEME_IID
 \
 {
-\
 0x7329f760
 0x08cb
 0x450f
 {
-\
 0x82
 0x25
 0xda
@@ -130,9 +128,7 @@ NS_ITHEME_IID
 0x09
 0x6d
 0xec
-\
 }
-\
 }
 class
 nsITheme
