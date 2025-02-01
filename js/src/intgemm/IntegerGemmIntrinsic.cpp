@@ -125,6 +125,10 @@ avx512bw
 xsimd
 :
 :
+avxvnni
+xsimd
+:
+:
 avx2
 xsimd
 :
