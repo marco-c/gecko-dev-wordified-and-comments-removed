@@ -104,6 +104,16 @@ iframe_test
 html
 ;
 const
+TEST_PAGE_WITH_SMARTBLOCK_COMPATIBLE_EMBED
+=
+{
+TEST_ROOT
+}
+smartblock_embed_test
+.
+html
+;
+const
 BLOCKED_TRACKER_URL
 =
 "

@@ -773,6 +773,17 @@ js
 "
 shims
 /
+embed
+-
+test
+-
+shim
+.
+js
+"
+"
+shims
+/
 empty
 -
 script
