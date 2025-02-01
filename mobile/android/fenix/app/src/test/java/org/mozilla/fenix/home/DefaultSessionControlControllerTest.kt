@@ -3562,7 +3562,7 @@ verify
 {
 controller
 .
-submitTopSitesImpressionPing
+recordTopSitesClickTelemetry
 (
 topSite
 position
@@ -5983,7 +5983,7 @@ verify
 {
 controller
 .
-submitTopSitesImpressionPing
+recordTopSitesClickTelemetry
 (
 topSite
 position
@@ -6202,7 +6202,7 @@ true
 }
 controller
 .
-submitTopSitesImpressionPing
+recordTopSitesClickTelemetry
 (
 topSite
 position

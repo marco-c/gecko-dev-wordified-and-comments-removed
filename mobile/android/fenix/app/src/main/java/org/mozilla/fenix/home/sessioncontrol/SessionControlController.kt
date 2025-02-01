@@ -2303,7 +2303,7 @@ NoExtras
 .
 also
 {
-submitTopSitesImpressionPing
+recordTopSitesClickTelemetry
 (
 topSite
 position
@@ -2579,7 +2579,7 @@ browserFragment
 VisibleForTesting
 internal
 fun
-submitTopSitesImpressionPing
+recordTopSitesClickTelemetry
 (
 topSite
 :
