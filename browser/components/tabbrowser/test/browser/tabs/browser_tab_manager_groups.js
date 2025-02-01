@@ -542,6 +542,12 @@ triggerNode
 .
 ownerGlobal
 ;
+triggerNode
+.
+scrollIntoView
+(
+)
+;
 const
 contextMenu
 =
