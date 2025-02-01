@@ -722,9 +722,11 @@ JSFunction
 ;
 if
 (
-IsWasmExportedFunction
-(
 f
+-
+>
+isWasm
+(
 )
 )
 {
