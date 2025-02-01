@@ -2286,6 +2286,11 @@ link
 .
 sponsored_tile_id
 }
+title
+=
+{
+title
+}
 >
 <
 div
@@ -2479,6 +2484,13 @@ sponsored
 >
 <
 span
+className
+=
+"
+title
+-
+label
+"
 dir
 =
 "
@@ -3559,6 +3571,11 @@ title
 link
 .
 label
+|
+|
+link
+.
+title
 |
 |
 link
