@@ -8670,7 +8670,7 @@ default
 =
 FeatureFlags
 .
-merinoContentRecommendations
+MERINO_CONTENT_RECOMMENDATIONS
 )
 /
 *
@@ -9598,7 +9598,7 @@ default
 =
 FeatureFlags
 .
-composeTopSites
+COMPOSE_TOP_SITES
 )
 /
 *
@@ -9635,7 +9635,7 @@ default
 =
 FeatureFlags
 .
-composeHomepage
+COMPOSE_HOMEPAGE
 )
 /
 *
@@ -9725,7 +9725,7 @@ default
 =
 FeatureFlags
 .
-homepageAsNewTab
+HOMEPAGE_AS_NEW_TAB
 )
 /
 *
@@ -9763,7 +9763,7 @@ default
 =
 FeatureFlags
 .
-unifiedTrustPanel
+UNIFIED_TRUST_PANEL
 )
 /
 *
@@ -9954,7 +9954,7 @@ showUnifiedSearchFeature
 &
 FeatureFlags
 .
-unifiedSearchSettings
+UNIFIED_SEARCH_SETTINGS
 /
 *
 *
@@ -10081,7 +10081,7 @@ featureFlag
 =
 FeatureFlags
 .
-fxSuggest
+FX_SUGGEST
 )
 /
 *
@@ -10214,7 +10214,7 @@ featureFlag
 =
 FeatureFlags
 .
-fxSuggest
+FX_SUGGEST
 )
 /
 *
@@ -10282,7 +10282,7 @@ featureFlag
 =
 FeatureFlags
 .
-fxSuggest
+FX_SUGGEST
 )
 /
 *

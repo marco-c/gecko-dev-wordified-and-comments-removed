@@ -898,7 +898,7 @@ isVisible
 =
 FeatureFlags
 .
-pullToRefreshEnabled
+PULL_TO_REFRESH_ENABLED
 isChecked
 =
 context

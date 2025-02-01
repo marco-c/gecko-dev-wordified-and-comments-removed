@@ -757,7 +757,7 @@ isVisible
 =
 FeatureFlags
 .
-fxSuggest
+FX_SUGGEST
 isChecked
 =
 context

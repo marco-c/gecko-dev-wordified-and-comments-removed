@@ -200,7 +200,7 @@ reload
 /
 const
 val
-pullToRefreshEnabled
+PULL_TO_REFRESH_ENABLED
 =
 true
 /
@@ -217,7 +217,7 @@ feature
 /
 const
 val
-syncAddressesFeature
+SYNC_ADDRESSES_FEATURE
 =
 false
 /
@@ -335,7 +335,7 @@ sites
 /
 const
 val
-composeTopSites
+COMPOSE_TOP_SITES
 =
 false
 /
@@ -371,7 +371,7 @@ menu
 /
 const
 val
-unifiedSearchSettings
+UNIFIED_SEARCH_SETTINGS
 =
 true
 /
@@ -389,7 +389,7 @@ Suggest
 /
 const
 val
-fxSuggest
+FX_SUGGEST
 =
 true
 /
@@ -404,7 +404,7 @@ attribution
 /
 const
 val
-metaAttributionEnabled
+META_ATTRIBUTION_ENABLED
 =
 true
 /
@@ -420,7 +420,7 @@ Homepage
 /
 const
 val
-composeHomepage
+COMPOSE_HOMEPAGE
 =
 false
 /
@@ -438,7 +438,7 @@ Tab
 /
 const
 val
-homepageAsNewTab
+HOMEPAGE_AS_NEW_TAB
 =
 false
 /
@@ -454,7 +454,7 @@ recommendations
 /
 const
 val
-merinoContentRecommendations
+MERINO_CONTENT_RECOMMENDATIONS
 =
 false
 /
@@ -471,7 +471,7 @@ Panel
 /
 const
 val
-unifiedTrustPanel
+UNIFIED_TRUST_PANEL
 =
 false
 /

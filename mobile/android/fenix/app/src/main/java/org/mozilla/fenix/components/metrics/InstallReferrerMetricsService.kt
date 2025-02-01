@@ -161,16 +161,6 @@ fenix
 .
 ext
 .
-components
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 settings
 import
 org
@@ -470,7 +460,7 @@ if
 (
 FeatureFlags
 .
-metaAttributionEnabled
+META_ATTRIBUTION_ENABLED
 )
 {
 MetaParams

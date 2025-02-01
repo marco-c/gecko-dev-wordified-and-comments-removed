@@ -972,7 +972,7 @@ if
 (
 FeatureFlags
 .
-syncAddressesFeature
+SYNC_ADDRESSES_FEATURE
 )
 SyncEngine
 .
@@ -1126,7 +1126,7 @@ if
 (
 FeatureFlags
 .
-syncAddressesFeature
+SYNC_ADDRESSES_FEATURE
 )
 {
 GlobalSyncableStoreProvider

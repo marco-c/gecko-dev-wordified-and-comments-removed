@@ -7696,7 +7696,7 @@ Boolean
 return
 FeatureFlags
 .
-pullToRefreshEnabled
+PULL_TO_REFRESH_ENABLED
 &
 &
 requireContext
