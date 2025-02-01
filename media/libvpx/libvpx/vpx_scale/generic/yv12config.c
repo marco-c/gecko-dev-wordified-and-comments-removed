@@ -14,6 +14,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 vpx_scale
 /
@@ -949,6 +956,11 @@ return
 ;
 #
 endif
+#
+if
+UINT64_MAX
+>
+SIZE_MAX
 if
 (
 frame_size
@@ -961,6 +973,8 @@ return
 1
 ;
 }
+#
+endif
 if
 (
 cb

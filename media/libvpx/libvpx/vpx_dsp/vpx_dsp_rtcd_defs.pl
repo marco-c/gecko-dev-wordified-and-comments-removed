@@ -10502,6 +10502,7 @@ qw
 vpx_sad_skip_64x64x4d
 neon
 neon_dotprod
+avx512
 avx2
 sse2
 /
@@ -10542,6 +10543,7 @@ qw
 vpx_sad_skip_64x32x4d
 neon
 neon_dotprod
+avx512
 avx2
 sse2
 /

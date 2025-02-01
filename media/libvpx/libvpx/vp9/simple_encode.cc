@@ -6659,7 +6659,7 @@ sizeof
 buf_end
 )
 -
-1
+2
 ;
 std
 :
