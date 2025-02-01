@@ -3237,6 +3237,13 @@ showTab
 aTab
 )
 ;
+this
+.
+ungroupTab
+(
+aTab
+)
+;
 if
 (
 this
