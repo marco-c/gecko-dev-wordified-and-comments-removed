@@ -559,9 +559,9 @@ public
 :
 RefPtr
 <
-nsGlobalWindowInner
+nsIGlobalObject
 >
-mWindow
+mGlobal
 ;
 RefPtr
 <

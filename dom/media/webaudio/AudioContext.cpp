@@ -1016,7 +1016,13 @@ false
 )
 mSuspendedByChrome
 (
+nsGlobalWindowInner
+:
+:
+Cast
+(
 aWindow
+)
 -
 >
 IsSuspended

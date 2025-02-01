@@ -5670,7 +5670,7 @@ mDatabase
 ;
 if
 (
-nsPIDOMWindowInner
+nsGlobalWindowInner
 *
 owner
 =
