@@ -457,7 +457,7 @@ run
 -
 time
 :
-1800
+2400
 env
 :
 LC_ALL
