@@ -58,7 +58,7 @@ dom
 {
 extern
 LazyLogModule
-sFragmentDirectiveLog
+gFragmentDirectiveLog
 ;
 #
 define
@@ -73,7 +73,7 @@ func
 \
 MOZ_LOG_FMT
 (
-sFragmentDirectiveLog
+gFragmentDirectiveLog
 LogLevel
 :
 :
@@ -139,7 +139,7 @@ ShouldLog
 return
 MOZ_LOG_TEST
 (
-sFragmentDirectiveLog
+gFragmentDirectiveLog
 LogLevel
 :
 :
