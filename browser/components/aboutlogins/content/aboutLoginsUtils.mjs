@@ -343,6 +343,7 @@ function
 promptForPrimaryPassword
 (
 messageId
+reason
 )
 {
 return
@@ -361,6 +362,7 @@ promptForPrimaryPassword
 (
 resolve
 messageId
+reason
 )
 ;
 }

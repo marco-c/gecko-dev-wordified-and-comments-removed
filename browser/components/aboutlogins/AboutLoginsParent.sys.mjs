@@ -967,6 +967,13 @@ primaryPasswordRequest
 message
 .
 data
+.
+messageId
+message
+.
+data
+.
+reason
 )
 ;
 break
@@ -1588,6 +1595,7 @@ async
 primaryPasswordRequest
 (
 messageId
+reason
 )
 {
 if
@@ -1774,6 +1782,7 @@ value
 captionText
 .
 value
+reason
 )
 ;
 this
@@ -2414,6 +2423,13 @@ caption
 ;
 }
 let
+reason
+=
+"
+export_logins
+"
+;
+let
 {
 isAuthorized
 telemetryEvent
@@ -2447,6 +2463,7 @@ value
 captionText
 .
 value
+reason
 )
 ;
 let

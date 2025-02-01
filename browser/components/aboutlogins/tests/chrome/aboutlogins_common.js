@@ -362,6 +362,7 @@ promptForPrimaryPassword
 (
 resolve
 _messageId
+_reason
 )
 {
 resolve
