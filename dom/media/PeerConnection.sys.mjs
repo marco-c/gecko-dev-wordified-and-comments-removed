@@ -558,7 +558,6 @@ window
 -
 destroyed
 "
-true
 )
 ;
 Services
@@ -577,7 +576,6 @@ net
 -
 teardown
 "
-true
 )
 ;
 Services
@@ -600,7 +598,6 @@ go
 -
 offline
 "
-true
 )
 ;
 Services
@@ -619,7 +616,6 @@ status
 -
 changed
 "
-true
 )
 ;
 Services
@@ -636,7 +632,6 @@ plugin
 -
 crash
 "
-true
 )
 ;
 Services
@@ -653,7 +648,6 @@ response
 :
 allow
 "
-true
 )
 ;
 Services
@@ -670,7 +664,6 @@ response
 :
 deny
 "
-true
 )
 ;
 if
@@ -1597,9 +1590,6 @@ generateQI
 [
 "
 nsIObserver
-"
-"
-nsISupportsWeakReference
 "
 ]
 )
