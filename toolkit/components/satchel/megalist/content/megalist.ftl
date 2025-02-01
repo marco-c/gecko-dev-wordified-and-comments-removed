@@ -205,7 +205,7 @@ command
 create
 =
 Add
-Password
+password
 passwords
 -
 command
@@ -218,8 +218,8 @@ browser
 =
 Import
 from
-Another
-Browser
+another
+browser
 passwords
 -
 command
@@ -229,7 +229,7 @@ import
 Import
 from
 a
-File
+file
 passwords
 -
 command
@@ -237,7 +237,7 @@ command
 export
 =
 Export
-Passwords
+passwords
 passwords
 -
 command
@@ -247,8 +247,8 @@ remove
 all
 =
 Remove
-All
-Passwords
+all
+passwords
 passwords
 -
 command
@@ -272,8 +272,8 @@ sort
 name
 =
 Sort
-By
-Name
+by
+name
 (
 A
 -
@@ -303,8 +303,8 @@ sort
 alerts
 =
 Sort
-By
-Alerts
+by
+alerts
 passwords
 -
 os
@@ -1977,7 +1977,7 @@ button
 =
 Go
 to
-Password
+password
 passwords
 -
 update
