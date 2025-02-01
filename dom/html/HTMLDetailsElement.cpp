@@ -392,6 +392,15 @@ CloseOtherElementsIfNeeded
 )
 ;
 }
+SetStates
+(
+ElementState
+:
+:
+OPEN
+isOpen
+)
+;
 }
 }
 else
