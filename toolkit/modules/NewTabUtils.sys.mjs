@@ -2002,7 +2002,6 @@ addObserver
 (
 PREF_NEWTAB_ENABLED
 this
-true
 )
 ;
 Services
@@ -2019,7 +2018,6 @@ thumbnail
 :
 create
 "
-true
 )
 ;
 this
@@ -2042,9 +2040,6 @@ generateQI
 [
 "
 nsIObserver
-"
-"
-nsISupportsWeakReference
 "
 ]
 )
@@ -12885,7 +12880,6 @@ session
 -
 history
 "
-true
 )
 ;
 this
@@ -12908,9 +12902,6 @@ generateQI
 [
 "
 nsIObserver
-"
-"
-nsISupportsWeakReference
 "
 ]
 )
