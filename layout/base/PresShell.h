@@ -1200,10 +1200,8 @@ UsesMobileViewportSizing
 )
 const
 ;
-RefPtr
-<
 MobileViewportManager
->
+*
 GetMobileViewportManager
 (
 )
@@ -2621,7 +2619,7 @@ FireResizeEventSync
 )
 ;
 void
-NativeAnonymousContentRemoved
+NativeAnonymousContentWillBeRemoved
 (
 nsIContent
 *
