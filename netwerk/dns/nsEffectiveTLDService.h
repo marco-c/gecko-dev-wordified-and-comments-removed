@@ -129,9 +129,11 @@ Init
 )
 ;
 static
-nsEffectiveTLDService
-*
-GetInstance
+already_AddRefed
+<
+nsIEffectiveTLDService
+>
+GetXPCOMSingleton
 (
 )
 ;

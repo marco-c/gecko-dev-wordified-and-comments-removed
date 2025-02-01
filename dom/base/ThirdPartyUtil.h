@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIEffectiveTLDService
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -164,7 +171,7 @@ aResult
 ;
 RefPtr
 <
-nsEffectiveTLDService
+nsIEffectiveTLDService
 >
 mTLDService
 ;
