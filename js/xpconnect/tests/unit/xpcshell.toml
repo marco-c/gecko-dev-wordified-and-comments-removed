@@ -1700,13 +1700,6 @@ js
 ]
 [
 "
-test_unload
-.
-js
-"
-]
-[
-"
 test_url
 .
 js
