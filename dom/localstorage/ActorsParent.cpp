@@ -22574,6 +22574,16 @@ set
 )
 ;
 }
+if
+(
+mRequestedAllowToClose
+)
+{
+MOZ_ASSERT
+(
+mRequestAllowToCloseTimerId
+)
+;
 glean
 :
 :
@@ -22593,6 +22603,7 @@ mRequestAllowToCloseTimerId
 )
 )
 ;
+}
 AllowToClose
 (
 )
