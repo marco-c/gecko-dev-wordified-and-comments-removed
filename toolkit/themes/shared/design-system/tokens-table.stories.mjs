@@ -297,11 +297,6 @@ color
 "
 link
 "
-"
-table
--
-row
-"
 ]
 ;
 /
@@ -2195,13 +2190,6 @@ dot
 case
 "
 color
-"
-:
-case
-"
-table
--
-row
 "
 :
 return
