@@ -177,6 +177,18 @@ OriginTrialsIPCUtils
 h
 "
 ;
+using
+mozilla
+:
+:
+RFPTargetSet
+from
+"
+nsRFPService
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -505,7 +517,7 @@ isThirdPartyContext
 bool
 shouldResistFingerprinting
 ;
-uint64_t
+RFPTargetSet
 ?
 overriddenFingerprintingSettings
 ;

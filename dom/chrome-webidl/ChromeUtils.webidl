@@ -100,6 +100,9 @@ nsIDOMProcessParent
 interface
 Principal
 ;
+interface
+nsIRFPTargetSetIDL
+;
 /
 *
 *
@@ -4881,9 +4884,7 @@ shouldResistFingerprinting
 (
 JSRFPTarget
 target
-unsigned
-long
-long
+nsIRFPTargetSetIDL
 ?
 overriddenFingerprintingSettings
 optional
