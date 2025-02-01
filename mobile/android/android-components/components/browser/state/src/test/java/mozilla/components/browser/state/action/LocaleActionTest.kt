@@ -164,6 +164,8 @@ val
 locale1
 =
 Locale
+.
+forLanguageTag
 (
 "
 es

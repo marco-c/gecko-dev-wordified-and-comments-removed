@@ -187,6 +187,8 @@ val
 locale
 =
 Locale
+.
+forLanguageTag
 (
 "
 MyFavoriteLanguage

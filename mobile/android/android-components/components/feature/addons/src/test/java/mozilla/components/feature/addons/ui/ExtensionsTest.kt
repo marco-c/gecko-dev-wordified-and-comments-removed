@@ -391,6 +391,8 @@ Locale
 setDefault
 (
 Locale
+.
+forLanguageTag
 (
 "
 es
@@ -497,6 +499,8 @@ Locale
 setDefault
 (
 Locale
+.
+forLanguageTag
 (
 "
 es
@@ -849,6 +853,8 @@ Locale
 setDefault
 (
 Locale
+.
+forLanguageTag
 (
 "
 es
