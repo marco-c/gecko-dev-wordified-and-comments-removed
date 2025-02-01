@@ -19265,15 +19265,6 @@ ID
 ;
 }
 }
-if
-(
-viewportCache
-.
-Length
-(
-)
-)
-{
 fields
 -
 >
@@ -19292,7 +19283,6 @@ viewportCache
 )
 )
 ;
-}
 }
 }
 if
