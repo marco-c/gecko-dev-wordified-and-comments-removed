@@ -10548,7 +10548,8 @@ hardware
 y
 c
 mo
-usas
+se
+usa
 Firefox
 ayudan
 a
@@ -10561,7 +10562,9 @@ y
 la
 estabilidad
 para
-todos
+todo
+el
+mundo
 .
 <
 /
@@ -10932,7 +10935,7 @@ Al
 continuar
 acept
 s
-las
+los
 %
 1
 s
@@ -11119,10 +11122,11 @@ por
 tu
 privacidad
 .
-Descubre
+Conoc
 m
 s
 en
+nuestra
 %
 1
 s
@@ -24328,7 +24332,7 @@ name
 webcompat_reporter_choose_reason_error
 "
 >
-Seleccione
+Seleccion
 un
 motivo
 <
