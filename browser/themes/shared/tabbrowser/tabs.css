@@ -8921,6 +8921,14 @@ margin
 ;
 }
 }
+media
+not
+(
+prefers
+-
+contrast
+)
+{
 #
 tabGroupEditor_deleteGroup
 {
@@ -8937,6 +8945,7 @@ color
 error
 )
 ;
+}
 }
 /
 *
