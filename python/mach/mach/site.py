@@ -8462,26 +8462,36 @@ if
 populate_with_pip
 :
         
-for
-requirement
-in
+if
 requirements
 .
 pypi_requirements
 :
             
+requirements_list
+=
+[
+                
+str
+(
+req
+.
+requirement
+)
+for
+req
+in
+requirements
+.
+pypi_requirements
+            
+]
+            
 target_venv
 .
 pip_install
 (
-[
-str
-(
-requirement
-.
-requirement
-)
-]
+requirements_list
 )
         
 target_venv
