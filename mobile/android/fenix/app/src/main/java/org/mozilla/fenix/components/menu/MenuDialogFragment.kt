@@ -187,6 +187,14 @@ androidx
 .
 compose
 .
+foundation
+.
+rememberScrollState
+import
+androidx
+.
+compose
+.
 runtime
 .
 getValue
@@ -1440,6 +1448,12 @@ rememberCoroutineScope
 (
 )
 val
+scrollState
+=
+rememberScrollState
+(
+)
+val
 store
 =
 remember
@@ -2667,6 +2681,9 @@ browserWebExtensionMenuItems
 =
 browserWebExtensionMenuItem
 )
+scrollState
+=
+scrollState
 onMozillaAccountButtonClick
 =
 {
