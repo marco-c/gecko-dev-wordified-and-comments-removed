@@ -92,7 +92,7 @@ h
 #
 include
 "
-WSRunScanner
+WSRunObject
 .
 h
 "
