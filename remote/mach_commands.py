@@ -441,6 +441,18 @@ js
     
 )
     
+print
+(
+"
+Removing
+folders
+for
+current
+Puppeteer
+version
+"
+)
+    
 shutil
 .
 rmtree
@@ -466,6 +478,24 @@ as
 tmpdir
 :
         
+print
+(
+f
+'
+Fetching
+commitish
+"
+{
+commitish
+}
+"
+from
+{
+repository
+}
+'
+)
+        
 git
 (
 "
@@ -473,20 +503,19 @@ clone
 "
 "
 -
-q
+-
+depth
 "
-repository
-tmpdir
-)
-        
-git
-(
 "
-checkout
+1
+"
+"
+-
+-
+branch
 "
 commitish
-worktree
-=
+repository
 tmpdir
 )
         
@@ -829,6 +858,20 @@ PUPPETEER_SKIP_DOWNLOAD
 "
         
 }
+        
+print
+(
+"
+Cleaning
+up
+and
+installing
+new
+version
+of
+Puppeteer
+"
+)
         
 run_npm
 (
