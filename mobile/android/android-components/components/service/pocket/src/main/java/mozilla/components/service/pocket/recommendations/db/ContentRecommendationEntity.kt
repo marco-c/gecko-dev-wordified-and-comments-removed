@@ -86,7 +86,7 @@ PrimaryKey
 *
 Internal
 entity
-represent
+representing
 a
 content
 recommendation

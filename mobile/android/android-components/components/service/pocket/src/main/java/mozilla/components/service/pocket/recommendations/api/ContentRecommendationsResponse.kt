@@ -136,6 +136,7 @@ of
 [
 ContentRecommendationResponseItem
 ]
+s
 from
 the
 response
