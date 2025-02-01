@@ -320,6 +320,11 @@ WebGPULimits
 )
 ITEM_VALUE
 (
+WebGPUIsFallbackAdapter
+65
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
