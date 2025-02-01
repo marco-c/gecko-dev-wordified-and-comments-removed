@@ -3845,3 +3845,14 @@ replace
 tier
 :
 3
+merge
+:
+worker
+:
+env
+:
+MOZ_ENABLE_INC_ORIGIN_INIT
+:
+"
+1
+"

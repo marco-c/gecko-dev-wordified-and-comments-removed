@@ -8,6 +8,15 @@ head
 .
 js
 "
+tags
+=
+"
+inc
+-
+origin
+-
+init
+"
 [
 "
 test_basics

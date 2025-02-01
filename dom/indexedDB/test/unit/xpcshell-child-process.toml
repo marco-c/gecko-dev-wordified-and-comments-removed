@@ -20,6 +20,15 @@ process
 .
 js
 "
+tags
+=
+"
+inc
+-
+origin
+-
+init
+"
 tail
 =
 "
