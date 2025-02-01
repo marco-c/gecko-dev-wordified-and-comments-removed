@@ -2247,6 +2247,9 @@ ABSL_HAVE_MEMORY_SANITIZER
 #
 endif
 #
+if
+0
+#
 ifdef
 ABSL_HAVE_THREAD_SANITIZER
 #
@@ -2279,6 +2282,8 @@ thread_sanitizer
 define
 ABSL_HAVE_THREAD_SANITIZER
 1
+#
+endif
 #
 endif
 #
