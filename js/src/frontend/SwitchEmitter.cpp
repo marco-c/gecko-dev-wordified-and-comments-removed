@@ -2036,12 +2036,6 @@ return
 false
 ;
 }
-emitterScope_
-.
-reset
-(
-)
-;
 tdzCacheLexical_
 .
 reset
@@ -2049,6 +2043,12 @@ reset
 )
 ;
 controlInfo_
+.
+reset
+(
+)
+;
+emitterScope_
 .
 reset
 (
