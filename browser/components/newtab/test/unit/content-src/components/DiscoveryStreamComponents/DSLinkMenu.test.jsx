@@ -571,9 +571,6 @@ CheckBookmark
 CheckArchiveFromPocket
 "
 "
-CheckSavedToPocket
-"
-"
 Separator
 "
 "
@@ -691,9 +688,6 @@ CheckBookmark
 "
 "
 CheckArchiveFromPocket
-"
-"
-CheckSavedToPocket
 "
 "
 Separator
@@ -816,7 +810,7 @@ CheckBookmark
 CheckArchiveFromPocket
 "
 "
-CheckDeleteFromPocket
+CheckSavedToPocket
 "
 "
 Separator
