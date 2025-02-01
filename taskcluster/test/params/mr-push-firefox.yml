@@ -197775,13 +197775,13 @@ macosx64
 -
 shippable
 -
-win64
--
-shippable
--
 win32
 -
 shippable
+#
+Stub
+installers
+only
 upload_to_candidates
 :
 true
