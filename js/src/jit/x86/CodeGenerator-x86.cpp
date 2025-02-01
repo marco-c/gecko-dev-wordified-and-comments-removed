@@ -730,7 +730,7 @@ ToRegister64
 lir
 -
 >
-temp64
+temp0
 (
 )
 )
@@ -925,7 +925,7 @@ ToRegister64
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -1712,7 +1712,7 @@ ToRegister64
 lir
 -
 >
-temp
+temp0
 (
 )
 )
