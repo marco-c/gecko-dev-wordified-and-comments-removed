@@ -802,11 +802,9 @@ openLearnMoreUrlInSandboxedTab
 (
 )
 {
-startActivity
-(
 SupportUtils
 .
-createSandboxCustomTabIntent
+launchSandboxCustomTab
 (
 context
 =
@@ -824,7 +822,6 @@ SupportUtils
 SumoTopic
 .
 HELP
-)
 )
 )
 }

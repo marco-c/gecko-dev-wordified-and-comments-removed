@@ -918,12 +918,9 @@ url
 onClick
 =
 {
-val
-intent
-=
 SupportUtils
 .
-createSandboxCustomTabIntent
+launchSandboxCustomTab
 (
 context
 =
@@ -931,12 +928,6 @@ context
 url
 =
 url
-)
-context
-.
-startActivity
-(
-intent
 )
 }
 )

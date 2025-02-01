@@ -1965,11 +1965,9 @@ PRIVATE_NOTICE
 onClick
 =
 {
-startActivity
-(
 SupportUtils
 .
-createSandboxCustomTabIntent
+launchSandboxCustomTab
 (
 context
 =
@@ -1979,7 +1977,6 @@ requireContext
 url
 =
 it
-)
 )
 telemetryRecorder
 .

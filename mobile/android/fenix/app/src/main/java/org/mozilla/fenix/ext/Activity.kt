@@ -1321,11 +1321,9 @@ if
 useCustomTab
 )
 {
-startActivity
-(
 SupportUtils
 .
-createSandboxCustomTabIntent
+launchSandboxCustomTab
 (
 context
 =
@@ -1333,7 +1331,6 @@ this
 url
 =
 sumoDefaultBrowserUrl
-)
 )
 }
 else

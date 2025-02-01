@@ -1313,11 +1313,8 @@ tab
 only
 .
 *
-*
-see
-launchSandboxCustomTab
-*
 /
+private
 fun
 createSandboxCustomTabIntent
 (
