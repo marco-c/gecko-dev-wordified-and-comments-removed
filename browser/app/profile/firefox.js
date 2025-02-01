@@ -6792,16 +6792,6 @@ false
 pref
 (
 "
-layout
-.
-spellcheckDefault
-"
-1
-)
-;
-pref
-(
-"
 browser
 .
 send_pings
