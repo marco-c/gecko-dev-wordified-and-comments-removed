@@ -33919,6 +33919,14 @@ mFocusSequenceNumber
 if
 (
 aFrameForPresShell
+&
+&
+StaticPrefs
+:
+:
+apz_keyboard_focus_optimization
+(
+)
 )
 {
 aFrameForPresShell
