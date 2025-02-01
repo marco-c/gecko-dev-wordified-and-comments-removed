@@ -1195,13 +1195,6 @@ debug
 ]
 [
 "
-test_isModuleLoaded
-.
-js
-"
-]
-[
-"
 test_isProxy
 .
 js
