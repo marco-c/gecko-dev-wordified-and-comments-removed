@@ -208,12 +208,7 @@ virtualenv_manager
 .
 install_pip_requirements
 (
-            
 rstcheck_requirements_file
-quiet
-=
-True
-        
 )
     
 except

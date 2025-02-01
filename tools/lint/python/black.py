@@ -951,9 +951,6 @@ virtualenv_manager
 install_pip_requirements
 (
 BLACK_REQUIREMENTS_PATH
-quiet
-=
-True
 )
     
 except

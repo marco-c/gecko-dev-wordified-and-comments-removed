@@ -518,9 +518,6 @@ virtualenv_manager
 install_pip_requirements
 (
 RUFF_REQUIREMENTS_PATH
-quiet
-=
-True
 )
     
 except
