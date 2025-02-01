@@ -2323,12 +2323,11 @@ TYPED
 ]
 icon
 :
-await
-engine
+UrlbarUtils
 .
-getIconURL
-(
-)
+ICON
+.
+SEARCH_GLASS
 query
 :
 [
