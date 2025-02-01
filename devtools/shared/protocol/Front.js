@@ -1498,6 +1498,14 @@ Error
 message
 )
 ;
+packetError
+.
+serverStack
+=
+packet
+.
+stack
+;
 deferred
 .
 reject

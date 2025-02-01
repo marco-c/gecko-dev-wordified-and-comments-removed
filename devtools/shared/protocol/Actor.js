@@ -493,6 +493,11 @@ columnNumber
 error
 .
 columnNumber
+stack
+:
+error
+.
+stack
 }
 )
 ;
