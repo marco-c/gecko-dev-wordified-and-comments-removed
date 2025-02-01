@@ -24736,7 +24736,7 @@ offset
 ;
 switch
 (
-ins
+mir
 -
 >
 laneSize
@@ -24774,7 +24774,7 @@ masm
 .
 vpextrb
 (
-ins
+mir
 -
 >
 laneIndex
@@ -24820,7 +24820,7 @@ masm
 .
 vpextrw
 (
-ins
+mir
 -
 >
 laneIndex
@@ -24865,7 +24865,7 @@ currentOffset
 unsigned
 lane
 =
-ins
+mir
 -
 >
 laneIndex
@@ -24938,7 +24938,7 @@ currentOffset
 ;
 if
 (
-ins
+mir
 -
 >
 laneIndex
