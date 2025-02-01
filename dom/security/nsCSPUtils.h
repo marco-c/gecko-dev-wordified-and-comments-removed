@@ -3045,6 +3045,17 @@ mDeliveredViaMetaTag
 ;
 }
 inline
+bool
+hasRequireTrustedTypesForDirective
+(
+)
+const
+{
+return
+mHasRequireTrustedTypesForDirective
+;
+}
+inline
 void
 setReportOnlyFlag
 (
