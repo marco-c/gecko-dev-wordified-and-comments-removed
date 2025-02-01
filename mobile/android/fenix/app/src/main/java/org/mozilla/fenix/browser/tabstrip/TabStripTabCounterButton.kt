@@ -623,9 +623,11 @@ padding
 (
 FirefoxTheme
 .
+layout
+.
 space
 .
-baseContentEqualPadding
+dynamic400
 )
 verticalArrangement
 =
@@ -635,9 +637,11 @@ spacedBy
 (
 FirefoxTheme
 .
+layout
+.
 space
 .
-baseContentEqualPadding
+dynamic400
 )
 )
 {

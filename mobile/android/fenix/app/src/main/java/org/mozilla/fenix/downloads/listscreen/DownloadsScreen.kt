@@ -655,6 +655,8 @@ max
 =
 FirefoxTheme
 .
+layout
+.
 size
 .
 containerMaxWidth

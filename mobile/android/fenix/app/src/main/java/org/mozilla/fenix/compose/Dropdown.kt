@@ -1367,9 +1367,11 @@ height
 (
 FirefoxTheme
 .
+layout
+.
 space
 .
-xSmall
+dynamic150
 )
 )
 Dropdown
