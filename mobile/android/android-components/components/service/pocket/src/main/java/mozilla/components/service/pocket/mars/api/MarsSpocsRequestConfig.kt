@@ -137,11 +137,16 @@ val
 contextId
 :
 String
+=
+"
+"
 val
 userAgent
 :
 String
 ?
+=
+null
 val
 placements
 :
@@ -149,6 +154,10 @@ List
 <
 Placement
 >
+=
+emptyList
+(
+)
 )
 /
 *
