@@ -7299,7 +7299,7 @@ IPC_OK
 if
 (
 it
-!
+=
 =
 mExternalTextures
 .
