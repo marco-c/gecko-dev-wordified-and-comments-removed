@@ -2234,9 +2234,6 @@ XPCOMUtils
 defineLazyGlobalGetters
 :
 updateGlobalOrObject
-defineLazyModuleGetters
-:
-updateGlobalOrObject
 defineLazyServiceGetter
 :
 updateGlobalOrObject
