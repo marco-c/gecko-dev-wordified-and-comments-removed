@@ -139,9 +139,7 @@ browser
 /
 components
 /
-newtab
-/
-data
+topsites
 /
 content
 /
@@ -151,9 +149,7 @@ browser
 /
 components
 /
-newtab
-/
-data
+topsites
 /
 content
 /
@@ -330,9 +326,7 @@ browser
 /
 components
 /
-newtab
-/
-data
+topsites
 /
 content
 /

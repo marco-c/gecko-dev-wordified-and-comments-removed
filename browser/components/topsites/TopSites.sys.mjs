@@ -66,11 +66,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+topsites
 /
 TippyTopProvider
 .

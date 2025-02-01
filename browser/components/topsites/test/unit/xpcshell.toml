@@ -10,6 +10,13 @@ browser
 "
 [
 "
+test_TippyTopProvider
+.
+js
+"
+]
+[
+"
 test_top_sites
 .
 js
