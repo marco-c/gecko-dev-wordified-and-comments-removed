@@ -971,7 +971,6 @@ addObserver
 "
 "
 this
-true
 )
 ;
 this
@@ -1371,9 +1370,6 @@ generateQI
 [
 "
 nsIObserver
-"
-"
-nsISupportsWeakReference
 "
 ]
 )
