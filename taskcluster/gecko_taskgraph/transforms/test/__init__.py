@@ -893,14 +893,19 @@ options
 :
 optionally_keyed_by
 (
+                
 "
 test
 -
 platform
 "
+"
+variant
+"
 [
 str
 ]
+            
 )
             
 Optional
@@ -1581,14 +1586,6 @@ chunked
 mozharness
 .
 config
-"
-        
-"
-mozharness
-.
-extra
--
-options
 "
         
 "

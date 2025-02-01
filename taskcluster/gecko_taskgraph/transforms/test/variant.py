@@ -26,6 +26,7 @@ util
 schema
 import
 Schema
+resolve_keyed_by
 validate_schema
 from
 taskgraph
@@ -550,6 +551,7 @@ apply_variant
 (
 variant
 task
+name
 )
 :
         
@@ -681,6 +683,40 @@ replace
 {
 }
 )
+)
+        
+resolve_keyed_by
+(
+            
+task
+            
+"
+mozharness
+.
+extra
+-
+options
+"
+            
+item_name
+=
+task
+[
+"
+test
+-
+name
+"
+]
+            
+enforce_single_match
+=
+False
+            
+variant
+=
+name
+        
 )
         
 return
@@ -833,6 +869,7 @@ apply_variant
 (
 variant
 taskv
+name
 )
             
 else
