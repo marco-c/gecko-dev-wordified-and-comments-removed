@@ -386,6 +386,16 @@ clearPackageData
 '
 true
 '
+testInstrumentationRunnerArguments
+"
+detect
+-
+leaks
+"
+:
+'
+true
+'
 resValue
 "
 bool
