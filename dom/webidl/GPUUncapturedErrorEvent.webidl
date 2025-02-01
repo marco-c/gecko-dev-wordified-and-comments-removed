@@ -165,8 +165,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]

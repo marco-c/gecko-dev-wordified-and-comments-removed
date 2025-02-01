@@ -153,8 +153,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -371,8 +370,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -406,8 +404,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -441,8 +438,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -576,13 +572,6 @@ Instance
 :
 PrefEnabled
 "
-Exposed
-=
-(
-Window
-DedicatedWorker
-SharedWorker
-)
 SecureContext
 ]
 readonly
@@ -647,8 +636,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -735,8 +723,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -926,8 +913,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1122,8 +1108,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1265,8 +1250,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1362,8 +1346,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1403,8 +1386,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1559,8 +1541,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -1618,8 +1599,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -2401,8 +2381,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -2605,8 +2584,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -2685,8 +2663,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -2891,8 +2868,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -2982,8 +2958,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3029,8 +3004,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3132,8 +3106,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3199,8 +3172,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3341,8 +3313,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3413,8 +3384,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -3659,8 +3629,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -4293,8 +4262,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -4339,8 +4307,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -4544,8 +4511,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -4652,8 +4618,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5064,8 +5029,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5104,8 +5068,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5234,8 +5197,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5340,8 +5302,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5414,8 +5375,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5542,8 +5502,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5603,8 +5562,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5637,8 +5595,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5677,8 +5634,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5717,8 +5673,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 SecureContext
 ]
@@ -5804,8 +5759,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
-SharedWorker
+Worker
 )
 ]
 attribute
