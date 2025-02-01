@@ -366,6 +366,10 @@ MarkupSafe
 /
 src
 vendored
+-
+fallback
+:
+pyyaml
 :
 third_party
 /
@@ -375,6 +379,12 @@ PyYAML
 /
 lib
 /
+:
+faster
+native
+loading
+is
+disabled
 vendored
 :
 third_party
