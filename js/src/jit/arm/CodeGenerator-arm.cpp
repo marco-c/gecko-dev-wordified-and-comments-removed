@@ -11249,7 +11249,7 @@ ToRegister
 lir
 -
 >
-ptrCopy
+temp0
 (
 )
 )
@@ -11262,7 +11262,7 @@ MOZ_ASSERT
 lir
 -
 >
-ptrCopy
+temp0
 (
 )
 -
