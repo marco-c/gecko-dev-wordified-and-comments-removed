@@ -3464,9 +3464,8 @@ ToRegister64
 lir
 -
 >
-getInt64Operand
+num
 (
-0
 )
 )
 ;
@@ -3481,6 +3480,11 @@ lir
 switch
 (
 lir
+-
+>
+mir
+(
+)
 -
 >
 mode
@@ -9110,7 +9114,7 @@ ToRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
