@@ -411,9 +411,6 @@ storeNames
 :
 [
 "
-sectionPrefs
-"
-"
 snippets
 "
 ]
