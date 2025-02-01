@@ -117,3 +117,8 @@ search
 widget
 -
 tracker
+toolbar
+-
+context
+-
+menu
