@@ -111,3 +111,4 @@ customizableui
 overflowable
 -
 toolbar
+panelmultiview
