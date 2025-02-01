@@ -115,6 +115,7 @@ BooleanMetric
 CounterMetric
 CustomDistributionMetric
 MemoryDistributionMetric
+TimeUnit
 TimingDistributionMetric
 }
 ;
@@ -1352,6 +1353,10 @@ TimingDistributionMetric
 new_child
 (
 id
+TimeUnit
+:
+:
+Millisecond
 )
 )
 id
@@ -1399,6 +1404,12 @@ submetric_id
 into
 (
 )
+gifft_time_unit
+:
+TimeUnit
+:
+:
+Millisecond
 inner
 :
 metric

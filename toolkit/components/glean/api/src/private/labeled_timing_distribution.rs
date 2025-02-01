@@ -1034,7 +1034,7 @@ self
 .
 inner
 .
-accumulate_samples
+inner_accumulate_samples
 (
 samples
 )
@@ -1236,7 +1236,7 @@ self
 .
 inner
 .
-accumulate_single_sample
+inner_accumulate_single_sample
 (
 sample
 )
