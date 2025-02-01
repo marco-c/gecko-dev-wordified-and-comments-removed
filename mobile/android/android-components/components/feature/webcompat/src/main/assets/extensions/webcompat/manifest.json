@@ -35,7 +35,7 @@ version
 "
 136
 .
-3
+4
 .
 0
 "
@@ -767,6 +767,17 @@ js
 shims
 /
 eluminate
+.
+js
+"
+"
+shims
+/
+embed
+-
+test
+-
+shim
 .
 js
 "
