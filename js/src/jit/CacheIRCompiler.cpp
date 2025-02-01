@@ -41286,7 +41286,6 @@ masm
 .
 storeToTypedBigIntArray
 (
-elementType
 temp
 dest
 )
