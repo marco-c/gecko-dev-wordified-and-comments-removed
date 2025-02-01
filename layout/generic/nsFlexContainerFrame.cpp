@@ -18382,9 +18382,7 @@ IsLengthPercentage
 stylePos
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 LogicalSide
 :
@@ -18393,7 +18391,7 @@ BStart
 wm
 )
 .
-MaybeAuto
+IsAuto
 (
 )
 &
@@ -18402,9 +18400,7 @@ MaybeAuto
 stylePos
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 LogicalSide
 :
@@ -18413,7 +18409,7 @@ BEnd
 wm
 )
 .
-MaybeAuto
+IsAuto
 (
 )
 )
