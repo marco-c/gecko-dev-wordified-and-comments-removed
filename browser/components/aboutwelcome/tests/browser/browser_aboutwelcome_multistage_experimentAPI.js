@@ -170,9 +170,7 @@ test_screen_content
 (
 browser
 "
-Opens
-new
-tab
+home
 "
 [
 "
