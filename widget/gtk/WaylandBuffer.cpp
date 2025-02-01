@@ -769,6 +769,10 @@ aWaylandSurface
 =
 =
 mSurface
+|
+|
+!
+mSurface
 )
 ;
 if
@@ -791,6 +795,15 @@ DeleteWlBuffer
 (
 )
 ;
+if
+(
+!
+mSurface
+)
+{
+return
+;
+}
 mBufferDeleteSyncCallback
 =
 wl_display_sync
