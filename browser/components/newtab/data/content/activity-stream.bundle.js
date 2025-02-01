@@ -62309,7 +62309,13 @@ getComputedStyle
 (
 drawerRef
 )
+?
+.
+height
 )
+|
+|
+0
 ;
 if
 (
