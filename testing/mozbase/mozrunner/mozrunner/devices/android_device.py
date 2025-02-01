@@ -1960,9 +1960,7 @@ mozilla
 .
 fenix
 .
-debug
-.
-App
+IntentReceiverActivity
 "
         
 subcommand
@@ -2004,7 +2002,7 @@ focus
 .
 activity
 .
-MainActivity
+IntentReceiverActivity
 "
         
 subcommand
