@@ -13409,10 +13409,12 @@ return
 (
 this
 .
-get
+getScotchBonnetPref
 (
 "
-showSearchTermsFeatureGate
+showSearchTerms
+.
+featureGate
 "
 )
 &

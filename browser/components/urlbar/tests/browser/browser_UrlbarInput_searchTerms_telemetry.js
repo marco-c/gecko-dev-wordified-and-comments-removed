@@ -55,9 +55,9 @@ browser
 .
 urlbar
 .
-showSearchTerms
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 true
 ]
@@ -199,9 +199,9 @@ browser
 .
 urlbar
 .
-showSearchTerms
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 false
 ]
@@ -1404,9 +1404,9 @@ browser
 .
 urlbar
 .
-showSearchTerms
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 false
 ]

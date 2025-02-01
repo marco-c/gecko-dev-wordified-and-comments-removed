@@ -52,7 +52,7 @@ chocolate
 "
 ;
 const
-PREF_FEATUREGATE
+PREF_SEARCHTERMS
 =
 "
 browser
@@ -61,7 +61,7 @@ urlbar
 .
 showSearchTerms
 .
-featureGate
+enabled
 "
 ;
 add_setup
@@ -81,7 +81,15 @@ set
 :
 [
 [
-PREF_FEATUREGATE
+"
+browser
+.
+urlbar
+.
+scotchBonnet
+.
+enableOverride
+"
 true
 ]
 ]
@@ -233,7 +241,7 @@ set
 :
 [
 [
-PREF_FEATUREGATE
+PREF_SEARCHTERMS
 false
 ]
 ]
