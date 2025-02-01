@@ -100,9 +100,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-addon
+Addon
 .
 sys
 .
