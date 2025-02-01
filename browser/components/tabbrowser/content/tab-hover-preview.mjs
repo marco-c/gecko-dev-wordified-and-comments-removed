@@ -332,6 +332,16 @@ TabPreviewPanelTimedFunction
 =
 >
 {
+if
+(
+!
+this
+.
+_isDisabled
+(
+)
+)
+{
 this
 .
 _panel
@@ -347,6 +357,7 @@ this
 popupOptions
 )
 ;
+}
 }
 this
 .
