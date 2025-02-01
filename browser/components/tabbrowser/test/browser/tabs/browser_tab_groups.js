@@ -10457,6 +10457,15 @@ waitForEvent
 (
 group
 "
+TabGroupSaved
+"
+)
+BrowserTestUtils
+.
+waitForEvent
+(
+group
+"
 TabGroupRemoved
 "
 )

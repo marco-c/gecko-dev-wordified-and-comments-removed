@@ -4705,10 +4705,12 @@ tab
 groups
 the
 user
+saved
+and
 closed
 this
 session
-_tabGroupsClosed
+_tabGroupsSaved
 :
 0
 init
@@ -4748,7 +4750,7 @@ win
 addEventListener
 (
 "
-TabGroupRemoved
+TabGroupSaved
 "
 this
 )
@@ -4763,7 +4765,7 @@ win
 removeEventListener
 (
 "
-TabGroupRemoved
+TabGroupSaved
 "
 this
 )
@@ -4819,7 +4821,7 @@ ownerGlobal
 ;
 this
 .
-_tabGroupsClosed
+_tabGroupsSaved
 +
 +
 ;
@@ -4843,7 +4845,7 @@ tabGroupsClosedCount
 :
 this
 .
-_tabGroupsClosed
+_tabGroupsSaved
 }
 }
 )
@@ -4886,7 +4888,7 @@ null
 ;
 this
 .
-_tabGroupsClosed
+_tabGroupsSaved
 =
 0
 ;
