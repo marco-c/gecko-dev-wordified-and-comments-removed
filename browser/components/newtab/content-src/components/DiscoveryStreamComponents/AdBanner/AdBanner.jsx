@@ -486,13 +486,13 @@ return
 aside
 className
 =
-{
+"
 ad
 -
 banner
 -
 wrapper
-}
+"
 style
 =
 {
