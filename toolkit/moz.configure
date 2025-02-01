@@ -6442,13 +6442,6 @@ tree_freetype
 set_define
 (
 "
-HAVE_FT_BITMAP_SIZE_Y_PPEM
-"
-tree_freetype
-)
-set_define
-(
-"
 HAVE_FT_GLYPHSLOT_EMBOLDEN
 "
 tree_freetype
