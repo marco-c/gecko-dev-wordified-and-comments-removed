@@ -17053,14 +17053,6 @@ UseComputedDisplayStyle
 )
 )
 {
-Element
-*
-editingHost
-=
-ComputeEditingHost
-(
-)
-;
 nsIContent
 *
 previousContent
@@ -17071,8 +17063,6 @@ HTMLEditUtils
 GetPreviousLeafContentOrPreviousBlockElement
 (
 newCaretPosition
-*
-editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
@@ -17083,7 +17073,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-editingHost
+editableBlockElementOrInlineEditingHost
 )
 ;
 if
@@ -17157,8 +17147,6 @@ HTMLEditUtils
 GetNextLeafContentOrNextBlockElement
 (
 newCaretPosition
-*
-editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
@@ -17169,7 +17157,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-editingHost
+editableBlockElementOrInlineEditingHost
 )
 )
 {

@@ -6192,8 +6192,6 @@ GetNextLeafContentOrNextBlockElement
 (
 *
 leafElement
-*
-editingHost
 {
 LeafNodeType
 :
@@ -6323,8 +6321,6 @@ GetNextLeafContentOrNextBlockElement
 (
 *
 leafContent
-*
-editingHost
 {
 LeafNodeType
 :
@@ -6568,8 +6564,6 @@ GetNextLeafContentOrNextBlockElement
 (
 *
 leafContent
-*
-editingHost
 {
 LeafNodeType
 :
