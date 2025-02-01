@@ -449,6 +449,17 @@ nsAString
 aFoldedStr2
 )
 ;
+static
+RangeBoundary
+CreateRangeBoundaryByMovingOffsetFromRangeStart
+(
+nsRange
+*
+aRange
+uint32_t
+aLogicalOffset
+)
+;
 }
 ;
 }
