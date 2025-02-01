@@ -35207,6 +35207,9 @@ shippable
 upload_to_candidates
 :
 true
+publish_to_releases
+:
+true
 -
 campaign
 :
