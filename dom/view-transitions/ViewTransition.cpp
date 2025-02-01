@@ -2932,6 +2932,7 @@ ps
 ContentWillBeRemoved
 (
 mViewTransitionRoot
+nullptr
 )
 ;
 }

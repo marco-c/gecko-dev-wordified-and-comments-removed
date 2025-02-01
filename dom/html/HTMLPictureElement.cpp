@@ -179,6 +179,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 MOZ_ASSERT
@@ -306,6 +310,7 @@ RemoveChildNode
 (
 aKid
 aNotify
+aState
 )
 ;
 }

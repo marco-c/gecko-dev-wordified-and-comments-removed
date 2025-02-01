@@ -329,6 +329,9 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
 )
 {
 SafeOptionListMutation

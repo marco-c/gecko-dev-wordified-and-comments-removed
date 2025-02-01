@@ -40,6 +40,9 @@ nsAtom
 class
 nsAttrValue
 ;
+struct
+BatchRemovalState
+;
 namespace
 mozilla
 :
@@ -175,7 +178,7 @@ aChild
 ;
 static
 void
-NotifyContentRemoved
+NotifyContentWillBeRemoved
 (
 nsINode
 *
@@ -183,9 +186,9 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
+const
+BatchRemovalState
 *
-aPreviousSibling
 )
 ;
 static

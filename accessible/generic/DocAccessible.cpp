@@ -5116,6 +5116,9 @@ ContentWillBeRemoved
 nsIContent
 *
 aChildNode
+const
+BatchRemovalState
+*
 )
 {
 #

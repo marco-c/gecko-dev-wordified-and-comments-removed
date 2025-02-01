@@ -168,7 +168,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 SVGSwitchElement
 SVGSwitchElementBase
 )
-virtual
 void
 InsertChildBefore
 (
@@ -194,6 +193,9 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
 )
 override
 ;

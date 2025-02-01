@@ -628,6 +628,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 bool
@@ -710,6 +714,7 @@ RemoveChildNode
 (
 aKid
 aNotify
+aState
 )
 ;
 if

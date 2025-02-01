@@ -5228,6 +5228,9 @@ ContentWillBeRemoved
 nsIContent
 *
 aChild
+const
+BatchRemovalState
+*
 )
 {
 mStylesheet

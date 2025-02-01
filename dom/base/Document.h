@@ -2629,6 +2629,11 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+=
+nullptr
 )
 final
 ;

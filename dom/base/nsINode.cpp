@@ -12228,6 +12228,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 MOZ_ASSERT
@@ -12286,6 +12290,7 @@ NotifyContentWillBeRemoved
 (
 this
 aKid
+aState
 )
 ;
 }
@@ -14045,15 +14050,13 @@ GetNextSibling
 {
 NS_ASSERTION
 (
+!
 child
 -
 >
 GetUncomposedDoc
 (
 )
-=
-=
-nullptr
 "
 How
 did
