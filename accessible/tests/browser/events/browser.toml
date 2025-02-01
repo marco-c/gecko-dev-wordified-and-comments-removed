@@ -68,6 +68,13 @@ js
 ]
 [
 "
+browser_menu_and_alerts
+.
+js
+"
+]
+[
+"
 browser_test_A11yUtils_announce
 .
 js
