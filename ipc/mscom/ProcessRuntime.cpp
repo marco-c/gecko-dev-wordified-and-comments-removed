@@ -990,7 +990,7 @@ InitializeSecurity
 mProcessCategory
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 SUCCEEDED
 (
