@@ -15727,7 +15727,7 @@ skipRemoves
 {
 tab
 .
-_closedInGroup
+_closedInMultiselection
 =
 true
 ;
@@ -16424,7 +16424,7 @@ closing
 {
 tab
 .
-_closedInGroup
+_closedInMultiselection
 =
 false
 ;

@@ -1984,6 +1984,13 @@ js
 ]
 [
 "
+browser_tab_groups_undo
+.
+js
+"
+]
+[
+"
 browser_tab_label_during_restore
 .
 js
