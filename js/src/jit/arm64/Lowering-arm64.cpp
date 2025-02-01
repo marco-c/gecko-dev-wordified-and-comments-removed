@@ -411,7 +411,12 @@ MIRType
 Value
 )
 ;
-LUnboxBase
+LInstructionHelper
+<
+1
+BOX_PIECES
+0
+>
 *
 lir
 ;
@@ -454,7 +459,7 @@ alloc
 )
 LUnboxFloatingPoint
 (
-useRegisterAtStart
+useBoxAtStart
 (
 box
 )
