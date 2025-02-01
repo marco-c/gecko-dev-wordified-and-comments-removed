@@ -1108,10 +1108,6 @@ string
 .
 onboarding_marketing_opt_in_checkbox
 )
-bodyThreeText
-=
-"
-"
 )
 )
 onMarketingDataLearnMoreClick

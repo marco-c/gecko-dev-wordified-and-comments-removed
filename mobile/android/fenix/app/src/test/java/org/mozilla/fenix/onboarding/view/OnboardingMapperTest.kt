@@ -1491,14 +1491,6 @@ data
 body
 two
 "
-bodyThreeText
-=
-"
-marketing
-data
-body
-three
-"
 )
 val
 expected
