@@ -1702,7 +1702,6 @@ ObjectSlots
 ;
 }
 constexpr
-explicit
 ObjectSlots
 (
 uint32_t
