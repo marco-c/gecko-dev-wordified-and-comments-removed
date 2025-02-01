@@ -355,4 +355,12 @@ id
 .
 webCompatReporterFragment
 )
+FromGleanDebugToolsFragment
+(
+R
+.
+id
+.
+gleanDebugToolsFragment
+)
 }
