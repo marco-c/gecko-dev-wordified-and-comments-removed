@@ -27,6 +27,15 @@ taskgraph
 .
 util
 .
+docker
+import
+create_context_tar
+generate_context_hash
+from
+taskgraph
+.
+util
+.
 schema
 import
 Schema
@@ -43,10 +52,6 @@ util
 docker
 import
 (
-    
-create_context_tar
-    
-generate_context_hash
     
 image_path
 )
@@ -513,7 +518,6 @@ create_context_tar
 GECKO
 context_path
 context_file
-image_name
 args
                 
 )
@@ -525,12 +529,9 @@ context_hash
 =
 generate_context_hash
 (
-                    
 GECKO
 context_path
-image_name
 args
-                
 )
         
 else
