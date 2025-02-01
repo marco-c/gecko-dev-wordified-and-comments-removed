@@ -619,14 +619,7 @@ modules
 :
 Cu
 .
-loadedJSModules
-.
-concat
-(
-Cu
-.
 loadedESModules
-)
 services
 :
 Object
