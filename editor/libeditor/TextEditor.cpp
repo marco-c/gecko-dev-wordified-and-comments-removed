@@ -4376,14 +4376,16 @@ unmaskLength
 =
 0
 ;
+const
 TextEditor
 *
+const
 textEditor
 =
 nsContentUtils
 :
 :
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 &
 aTextNode

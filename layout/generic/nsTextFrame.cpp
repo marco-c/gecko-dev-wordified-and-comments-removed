@@ -12766,14 +12766,16 @@ unmaskEnd
 =
 UINT32_MAX
 ;
+const
 TextEditor
 *
+const
 passwordEditor
 =
 nsContentUtils
 :
 :
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 firstFrame
 -

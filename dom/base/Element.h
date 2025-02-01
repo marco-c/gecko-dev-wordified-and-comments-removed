@@ -862,12 +862,10 @@ define
 NS_ELEMENT_IID
 \
 {
-\
 0xc67ed254
 0xfd3b
 0x4b10
 {
-\
 0x96
 0xa2
 0xc5
@@ -876,9 +874,7 @@ NS_ELEMENT_IID
 0x64
 0x97
 0xd1
-\
 }
-\
 }
 #
 define
@@ -4704,7 +4700,7 @@ HasVisibleScrollbars
 ;
 EditorBase
 *
-GetEditorWithoutCreation
+GetExtantEditor
 (
 )
 const

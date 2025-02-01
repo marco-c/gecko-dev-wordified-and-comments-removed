@@ -365,7 +365,7 @@ override
 ;
 TextEditor
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const
@@ -1537,7 +1537,7 @@ aError
 ;
 nsIControllers
 *
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 const
@@ -1579,7 +1579,7 @@ return
 mState
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;

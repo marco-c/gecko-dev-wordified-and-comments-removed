@@ -4658,6 +4658,7 @@ ControlElement
 (
 )
 ;
+const
 RefPtr
 <
 TextEditor
@@ -4667,7 +4668,7 @@ editor
 el
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -4682,6 +4683,7 @@ return
 }
 nsISelectionController
 *
+const
 selCon
 =
 el
@@ -5680,8 +5682,10 @@ sourceNode
 {
 if
 (
+const
 TextEditor
 *
+const
 textEditor
 =
 mFrame
@@ -5692,7 +5696,7 @@ ControlElement
 )
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 )
@@ -5797,14 +5801,16 @@ eForComposedDoc
 {
 if
 (
+const
 TextEditor
 *
+const
 textEditor
 =
 textControlElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 )

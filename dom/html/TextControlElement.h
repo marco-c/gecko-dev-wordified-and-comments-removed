@@ -269,7 +269,7 @@ GetTextEditor
 virtual
 TextEditor
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const

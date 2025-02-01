@@ -12170,14 +12170,16 @@ NS_MAYBE_MASKED
 )
 )
 {
+const
 TextEditor
 *
+const
 textEditor
 =
 nsContentUtils
 :
 :
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 eventContent
 )

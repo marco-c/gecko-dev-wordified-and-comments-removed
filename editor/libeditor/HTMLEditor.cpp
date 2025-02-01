@@ -4682,6 +4682,7 @@ IsSingleLineTextControlOrTextArea
 {
 if
 (
+const
 RefPtr
 <
 TextEditor
@@ -4691,7 +4692,7 @@ textEditor
 focusedTextControlElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 )

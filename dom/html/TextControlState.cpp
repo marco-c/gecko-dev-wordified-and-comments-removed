@@ -6272,7 +6272,7 @@ TextEditor
 TextControlState
 :
 :
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const
@@ -9953,7 +9953,7 @@ return
 inputElement
 -
 >
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 ;
@@ -9979,7 +9979,7 @@ return
 textAreaElement
 -
 >
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 ;

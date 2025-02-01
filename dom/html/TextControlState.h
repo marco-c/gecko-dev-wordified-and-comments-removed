@@ -439,7 +439,7 @@ GetTextEditor
 ;
 TextEditor
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const

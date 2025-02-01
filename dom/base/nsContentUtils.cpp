@@ -24520,8 +24520,10 @@ true
 else
 if
 (
+const
 HTMLTextAreaElement
 *
+const
 textAreaElement
 =
 HTMLTextAreaElement
@@ -24538,7 +24540,7 @@ aEditorBase
 textAreaElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -24550,8 +24552,10 @@ true
 else
 if
 (
+const
 HTMLInputElement
 *
+const
 inputElement
 =
 HTMLInputElement
@@ -24578,7 +24582,7 @@ aEditorBase
 inputElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -38234,7 +38238,7 @@ TextEditor
 nsContentUtils
 :
 :
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 const
 nsIContent
@@ -38281,8 +38285,10 @@ nullptr
 }
 if
 (
+const
 HTMLInputElement
 *
+const
 inputElement
 =
 HTMLInputElement
@@ -38298,15 +38304,17 @@ return
 inputElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
 }
 if
 (
+const
 HTMLTextAreaElement
 *
+const
 textareaElement
 =
 HTMLTextAreaElement
@@ -38322,7 +38330,7 @@ return
 textareaElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
