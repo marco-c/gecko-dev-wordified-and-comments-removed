@@ -78,7 +78,7 @@ screenshot
 cpp
 "
 ]
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 =
 True
 if

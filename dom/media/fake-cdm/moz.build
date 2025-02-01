@@ -91,7 +91,7 @@ ole32
 user32
 "
 ]
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 =
 True
 NoVisibilityFlags

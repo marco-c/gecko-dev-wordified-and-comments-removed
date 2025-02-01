@@ -11948,7 +11948,7 @@ library
 )
     
 "
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 "
 :
 (
@@ -20201,6 +20201,20 @@ foo
     
 "
 "
+"
+    
+"
+USE_STATIC_LIBS
+"
+:
+"
+Please
+use
+the
+USE_STATIC_MSVCRT
+variable
+instead
+.
 "
 }
 for
