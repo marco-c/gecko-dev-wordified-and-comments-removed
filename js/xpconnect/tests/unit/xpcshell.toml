@@ -963,13 +963,6 @@ android
 ]
 [
 "
-test_defineModuleGetter
-.
-js
-"
-]
-[
-"
 test_envChain_frameScript
 .
 js
