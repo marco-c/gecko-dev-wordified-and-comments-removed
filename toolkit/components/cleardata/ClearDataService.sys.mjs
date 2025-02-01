@@ -6165,7 +6165,7 @@ if
 await
 IOUtils
 .
-getChildren
+hasChildren
 (
 toBeRemovedDir
 {
@@ -6175,8 +6175,6 @@ true
 }
 )
 )
-.
-length
 )
 {
 return
