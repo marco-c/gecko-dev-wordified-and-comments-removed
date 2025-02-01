@@ -16,11 +16,9 @@ resource
 :
 /
 /
-activity
--
-stream
+gre
 /
-lib
+modules
 /
 SearchShortcuts
 .
@@ -52,11 +50,9 @@ resource
 :
 /
 /
-activity
--
-stream
+gre
 /
-lib
+modules
 /
 SearchShortcuts
 .
