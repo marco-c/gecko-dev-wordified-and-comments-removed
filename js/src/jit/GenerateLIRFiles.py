@@ -464,6 +464,7 @@ def
 gen_operands
 (
 operands
+defer_init
 )
 :
     
@@ -588,7 +589,7 @@ params
 [
 ]
     
-setters
+initializers
 =
 [
 ]
@@ -598,6 +599,16 @@ getters
 [
 ]
     
+setters
+=
+[
+]
+    
+if
+not
+defer_init
+:
+        
 for
 operand
 op_type
@@ -608,7 +619,7 @@ items
 (
 )
 :
-        
+            
 params
 .
 append
@@ -639,10 +650,25 @@ reg_operands
 )
 :
         
-setters
+cap_operand
+=
+operand
+[
+0
+]
 .
-append
+upper
 (
+)
++
+operand
+[
+1
+:
+]
+        
+init_expr
+=
 f
 "
 setOperand
@@ -656,6 +682,51 @@ operand
 )
 ;
 "
+        
+if
+not
+defer_init
+:
+            
+initializers
+.
+append
+(
+init_expr
+)
+        
+else
+:
+            
+setters
+.
+append
+(
+                
+f
+"
+void
+set
+{
+cap_operand
+}
+(
+const
+LAllocation
+&
+{
+operand
+}
+)
+{
+{
+{
+init_expr
+}
+}
+}
+"
+            
 )
         
 getters
@@ -700,7 +771,7 @@ value_operands
 )
 :
         
-index_value
+cap_operand
 =
 operand
 [
@@ -716,6 +787,10 @@ operand
 1
 :
 ]
+        
+index_value
+=
+cap_operand
 +
 "
 Index
@@ -747,10 +822,8 @@ reg_operands
         
 )
         
-setters
-.
-append
-(
+init_expr
+=
 f
 "
 setBoxOperand
@@ -764,6 +837,50 @@ operand
 )
 ;
 "
+        
+if
+not
+defer_init
+:
+            
+initializers
+.
+append
+(
+init_expr
+)
+        
+else
+:
+            
+setters
+.
+append
+(
+                
+f
+"
+void
+{
+cap_operand
+}
+(
+const
+LBoxAllocation
+&
+{
+operand
+}
+)
+{
+{
+{
+init_expr
+}
+}
+}
+"
+            
 )
         
 getters
@@ -806,7 +923,7 @@ int64_operands
 )
 :
         
-index_value
+cap_operand
 =
 operand
 [
@@ -822,6 +939,10 @@ operand
 1
 :
 ]
+        
+index_value
+=
+cap_operand
 +
 "
 Index
@@ -854,10 +975,8 @@ value_operands
         
 )
         
-setters
-.
-append
-(
+init_expr
+=
 f
 "
 setInt64Operand
@@ -871,6 +990,51 @@ operand
 )
 ;
 "
+        
+if
+not
+defer_init
+:
+            
+initializers
+.
+append
+(
+init_expr
+)
+        
+else
+:
+            
+setters
+.
+append
+(
+                
+f
+"
+void
+set
+{
+cap_operand
+}
+(
+const
+LInt64Allocation
+&
+{
+operand
+}
+)
+{
+{
+{
+init_expr
+}
+}
+}
+"
+            
 )
         
 getters
@@ -964,9 +1128,11 @@ indices
         
 params
         
-setters
+initializers
         
 getters
+        
+setters
     
 )
 def
@@ -1099,6 +1265,7 @@ gen_temps
 (
 num_temps
 num_temps64
+defer_init
 )
 :
     
@@ -1107,12 +1274,17 @@ params
 [
 ]
     
-setters
+initializers
 =
 [
 ]
     
 getters
+=
+[
+]
+    
+setters
 =
 [
 ]
@@ -1126,10 +1298,8 @@ num_temps
 )
 :
         
-params
-.
-append
-(
+param_decl
+=
 f
 "
 const
@@ -1140,12 +1310,9 @@ temp
 temp
 }
 "
-)
         
-setters
-.
-append
-(
+init_expr
+=
 f
 "
 setTemp
@@ -1159,6 +1326,75 @@ temp
 }
 )
 ;
+"
+        
+if
+not
+defer_init
+:
+            
+params
+.
+append
+(
+param_decl
+)
+            
+initializers
+.
+append
+(
+init_expr
+)
+        
+else
+:
+            
+initializers
+.
+append
+(
+f
+"
+setTemp
+(
+{
+temp
+}
+LDefinition
+:
+:
+BogusTemp
+(
+)
+)
+;
+"
+)
+            
+setters
+.
+append
+(
+f
+"
+void
+setTemp
+{
+temp
+}
+(
+{
+param_decl
+}
+)
+{
+{
+{
+init_expr
+}
+}
+}
 "
 )
         
@@ -1222,10 +1458,8 @@ int64_temp
 INT64_PIECES
 "
         
-params
-.
-append
-(
+param_decl
+=
 f
 "
 const
@@ -1236,12 +1470,9 @@ temp
 temp
 }
 "
-)
         
-setters
-.
-append
-(
+init_expr
+=
 f
 "
 setInt64Temp
@@ -1255,6 +1486,75 @@ temp
 }
 )
 ;
+"
+        
+if
+not
+defer_init
+:
+            
+params
+.
+append
+(
+param_decl
+)
+            
+initializers
+.
+append
+(
+init_expr
+)
+        
+else
+:
+            
+initializers
+.
+append
+(
+f
+"
+setTemp
+(
+{
+temp
+}
+LInt64Definition
+:
+:
+BogusTemp
+(
+)
+)
+;
+"
+)
+            
+setters
+.
+append
+(
+f
+"
+void
+setTemp
+{
+temp
+}
+(
+{
+param_decl
+}
+)
+{
+{
+{
+init_expr
+}
+}
+}
 "
 )
         
@@ -1318,8 +1618,9 @@ return
 (
 num_temps_total
 params
-setters
+initializers
 getters
+setters
 )
 def
 gen_successors
@@ -1333,7 +1634,7 @@ params
 [
 ]
     
-setters
+initializers
 =
 [
 ]
@@ -1367,7 +1668,7 @@ successor
 "
 )
         
-setters
+initializers
 .
 append
 (
@@ -1420,7 +1721,7 @@ index
 return
 (
 params
-setters
+initializers
 getters
 )
 def
@@ -1446,6 +1747,8 @@ call_instruction
 mir_op
     
 extra_name
+    
+defer_init
 )
 :
     
@@ -1473,17 +1776,26 @@ L
 +
 name
     
+(
+        
 num_operands
+        
 oper_indices
+        
 oper_params
-oper_setters
+        
+oper_initializers
+        
 oper_getters
+        
+oper_setters
+    
+)
 =
 gen_operands
 (
-        
 operands
-    
+defer_init
 )
     
 args_members
@@ -1500,19 +1812,23 @@ arguments
     
 num_temps_total
 temp_params
-temp_setters
+temp_initializers
 temp_getters
+temp_setters
 =
-gen_temps
 (
         
+gen_temps
+(
 num_temps
 num_temps64
+defer_init
+)
     
 )
     
 succ_params
-succ_setters
+succ_initializers
 succ_getters
 =
 gen_successors
@@ -1811,7 +2127,7 @@ nl
 .
 join
 (
-succ_setters
+succ_initializers
 )
 }
     
@@ -1824,7 +2140,7 @@ nl
 .
 join
 (
-oper_setters
+oper_initializers
 )
 }
     
@@ -1837,7 +2153,7 @@ nl
 .
 join
 (
-temp_setters
+temp_initializers
 )
 }
   
@@ -1879,7 +2195,33 @@ nl
 .
 join
 (
+oper_setters
+)
+}
+  
+{
+nl
+(
+"
+"
+)
+.
+join
+(
 temp_getters
+)
+}
+  
+{
+nl
+(
+"
+"
+)
+.
+join
+(
+temp_setters
 )
 }
   
@@ -2235,6 +2577,25 @@ extra_name
 bool
 )
             
+defer_init
+=
+op
+.
+get
+(
+"
+defer_init
+"
+False
+)
+            
+assert
+isinstance
+(
+defer_init
+bool
+)
+            
 lir_op_classes
 .
 append
@@ -2262,6 +2623,8 @@ call_instruction
 mir_op
                     
 extra_name
+                    
+defer_init
                 
 )
             
@@ -2492,6 +2855,10 @@ extra_name
 =
 False
             
+defer_init
+=
+False
+            
 lir_op_classes
 .
 append
@@ -2519,6 +2886,8 @@ call_instruction
 mir_op
                     
 extra_name
+                    
+defer_init
                 
 )
             
