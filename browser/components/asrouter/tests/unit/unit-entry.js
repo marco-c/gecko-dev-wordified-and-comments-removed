@@ -697,9 +697,6 @@ f
 )
 ;
 }
-defineModuleGetter
-:
-updateGlobalOrObject
 defineESModuleGetters
 :
 updateGlobalOrObject
