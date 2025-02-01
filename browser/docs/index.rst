@@ -66,6 +66,13 @@ FrontendCodeReviewBestPractices
 CommandLineParameters
 components
 /
+customizableui
+/
+docs
+/
+index
+components
+/
 enterprisepolicies
 /
 docs

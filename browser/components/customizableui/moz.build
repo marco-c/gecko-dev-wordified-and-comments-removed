@@ -121,6 +121,16 @@ sys
 mjs
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 with
 Files
 (
