@@ -35587,6 +35587,15 @@ if
 Hidden
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+layout_testing_top_level_always_active
+(
+)
 )
 {
 return
