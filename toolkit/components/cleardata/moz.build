@@ -15,6 +15,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIClearBySiteEntry
+.
+idl
+"
+"
 nsIClearDataService
 .
 idl
@@ -29,6 +34,13 @@ EXTRA_JS_MODULES
 +
 =
 [
+"
+ClearBySiteEntry
+.
+sys
+.
+mjs
+"
 "
 ClearDataService
 .
