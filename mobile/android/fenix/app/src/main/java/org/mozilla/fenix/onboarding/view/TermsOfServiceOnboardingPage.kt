@@ -1015,7 +1015,7 @@ R
 .
 string
 .
-onboarding_terms_of_service_sub_header
+onboarding_terms_of_service_sub_header_2
 )
 termsOfService
 =
