@@ -9578,7 +9578,7 @@ ins
 LWasmPermuteSimd128
 :
 :
-Src
+SrcIndex
 )
 ;
 }
