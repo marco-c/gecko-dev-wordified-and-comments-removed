@@ -2052,6 +2052,13 @@ this
 listenForWorkers
 &
 &
+this
+.
+descriptorFront
+.
+isBrowserProcessDescriptor
+&
+&
 !
 types
 .
