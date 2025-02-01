@@ -1252,7 +1252,7 @@ getFakeSponsoredStories
 val
 result
 =
-combineRecommendedAndSponsoredStories
+combineRecommendationsAndSponsoredContents
 (
 recommendedStories
 sponsoredStories
@@ -1395,10 +1395,13 @@ getFakeSponsoredStories
 val
 result
 =
-combineRecommendationsAndSponsoredStories
+combineRecommendationsAndSponsoredContents
 (
 recommendations
 sponsoredStories
+totalLimit
+=
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 )
 assertEquals
 (
