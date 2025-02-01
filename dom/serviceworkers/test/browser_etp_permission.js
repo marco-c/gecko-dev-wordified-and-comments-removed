@@ -898,7 +898,7 @@ Services
 .
 perms
 .
-BLOCK_ACTION
+DENY_ACTION
 )
 ;
 await
