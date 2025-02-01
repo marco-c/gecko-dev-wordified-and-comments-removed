@@ -3864,12 +3864,8 @@ value
 ins
 -
 >
-getOperand
+value
 (
-ins
--
->
-ValueIndex
 )
 ;
 const

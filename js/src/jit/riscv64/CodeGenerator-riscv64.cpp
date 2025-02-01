@@ -1255,7 +1255,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-ptrCopy
+temp0
 (
 )
 )
@@ -3038,7 +3038,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-ptrCopy
+temp0
 (
 )
 )
