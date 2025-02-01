@@ -23,6 +23,9 @@ lesser
 lesserOrEqual
 '
 '
+notEqual
+'
+'
 logicalAnd
 '
 '
