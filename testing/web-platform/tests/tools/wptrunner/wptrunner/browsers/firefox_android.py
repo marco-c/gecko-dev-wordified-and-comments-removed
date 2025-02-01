@@ -957,6 +957,19 @@ update
 env_extras
 )
     
+if
+os
+.
+environ
+.
+get
+(
+"
+MINIDUMP_SAVE_PATH
+"
+)
+:
+        
 env
 [
 "
