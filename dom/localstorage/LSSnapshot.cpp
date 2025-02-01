@@ -1870,7 +1870,7 @@ bool
 result
 =
 0u
-!
+=
 =
 (
 counter
