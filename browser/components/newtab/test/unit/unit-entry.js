@@ -2428,6 +2428,16 @@ removeExpirationFilter
 Logger
 :
 FakeLogger
+LinksCache
+:
+class
+{
+}
+FaviconFeed
+:
+class
+{
+}
 getFxAccountsSingleton
 (
 )

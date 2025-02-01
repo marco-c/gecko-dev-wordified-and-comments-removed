@@ -5,6 +5,11 @@ topsites
 =
 [
 "
+constants
+.
+mjs
+"
+"
 TippyTopProvider
 .
 sys
