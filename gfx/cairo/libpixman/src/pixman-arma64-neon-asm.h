@@ -1,3 +1,14 @@
+#
+include
+"
+pixman
+-
+arm
+-
+asm
+.
+h
+"
 .
 set
 FLAG_DST_WRITEONLY
@@ -5316,6 +5327,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 800
 :
@@ -5594,6 +5606,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 purgem
@@ -6245,6 +6258,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 else
@@ -6300,6 +6314,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 endif
@@ -6393,6 +6408,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 unreq
@@ -6481,6 +6497,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 unreq

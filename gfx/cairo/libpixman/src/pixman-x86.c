@@ -222,10 +222,11 @@ cpuid
 h
 >
 #
-endif
-#
-ifdef
+elif
+defined
+(
 _MSC_VER
+)
 #
 include
 <

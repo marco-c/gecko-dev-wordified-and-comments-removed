@@ -1589,6 +1589,13 @@ imp
 ;
 imp
 =
+_pixman_riscv_get_implementations
+(
+imp
+)
+;
+imp
+=
 _pixman_implementation_create_noop
 (
 imp

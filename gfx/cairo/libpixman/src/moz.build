@@ -208,6 +208,13 @@ c
 '
 pixman
 -
+riscv
+.
+c
+'
+'
+pixman
+-
 solid
 -
 fill

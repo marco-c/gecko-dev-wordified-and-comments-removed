@@ -26654,6 +26654,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 .
 unreq

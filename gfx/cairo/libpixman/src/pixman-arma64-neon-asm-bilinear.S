@@ -6441,6 +6441,7 @@ sp
 16
 .
 endif
+VERIFY_LR
 ret
 .
 unreq
