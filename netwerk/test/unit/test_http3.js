@@ -640,8 +640,6 @@ hval
 =
 "
 h3
--
-29
 =
 "
 +
@@ -1139,8 +1137,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -1172,8 +1168,6 @@ Http3
 )
 "
 h3
--
-29
 "
 )
 ;
@@ -1340,8 +1334,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -1619,8 +1611,6 @@ example
 com
 ;
 h3
--
-29
 =
 :
 {
@@ -1920,8 +1910,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -3045,8 +3033,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;

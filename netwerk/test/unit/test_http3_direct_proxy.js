@@ -61,8 +61,6 @@ http3_setup_tests
 (
 "
 h3
--
-29
 "
 )
 ;
@@ -292,8 +290,6 @@ req
 protocolVersion
 "
 h3
--
-29
 "
 )
 ;

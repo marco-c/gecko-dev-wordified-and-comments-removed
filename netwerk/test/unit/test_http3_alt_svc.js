@@ -768,8 +768,6 @@ h3Route
 h3AltSvc
 "
 h3
--
-29
 "
 )
 ;

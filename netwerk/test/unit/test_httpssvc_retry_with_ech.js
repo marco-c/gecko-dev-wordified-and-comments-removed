@@ -2026,8 +2026,6 @@ value
 :
 "
 h3
--
-29
 "
 }
 {
@@ -2246,8 +2244,6 @@ req
 protocolVersion
 "
 h3
--
-29
 "
 )
 ;
