@@ -4625,6 +4625,9 @@ prepareForSwap
 JSContext
 *
 cx
+JSObject
+*
+other
 MutableHandleValueVector
 slotValuesOut
 )
