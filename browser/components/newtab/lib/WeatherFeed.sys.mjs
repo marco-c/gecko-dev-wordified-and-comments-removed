@@ -667,7 +667,6 @@ suggestions
 async
 fetch
 (
-isStartup
 )
 {
 /
@@ -908,7 +907,6 @@ this
 .
 update
 (
-isStartup
 )
 ;
 }
@@ -1070,14 +1068,12 @@ this
 .
 update
 (
-isStartup
 )
 ;
 }
 }
 update
 (
-isStartup
 )
 {
 this
@@ -1114,11 +1110,6 @@ locationData
 this
 .
 locationData
-}
-meta
-:
-{
-isStartup
 }
 }
 )

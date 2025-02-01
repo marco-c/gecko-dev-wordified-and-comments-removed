@@ -645,13 +645,6 @@ lastUpdated
 dateNowTestValue
 locationData
 }
-meta
-:
-{
-isStartup
-:
-true
-}
 }
 )
 )
