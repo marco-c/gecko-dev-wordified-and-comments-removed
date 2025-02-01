@@ -11435,6 +11435,11 @@ PerformPendingViewTransitionOperations
 (
 )
 ;
+void
+EnsureViewTransitionOperationsHappen
+(
+)
+;
 PermissionDelegateHandler
 *
 GetPermissionDelegateHandler
