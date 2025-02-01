@@ -9881,7 +9881,7 @@ ins
 LWasmShuffleSimd128
 :
 :
-LhsDest
+LhsIndex
 )
 ;
 }

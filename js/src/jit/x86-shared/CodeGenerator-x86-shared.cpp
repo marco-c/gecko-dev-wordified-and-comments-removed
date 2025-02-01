@@ -19196,7 +19196,7 @@ ToFloatRegister
 ins
 -
 >
-lhsDest
+lhs
 (
 )
 )
@@ -19279,7 +19279,7 @@ ToFloatRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -19300,7 +19300,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19347,7 +19347,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19411,7 +19411,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19445,7 +19445,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19479,7 +19479,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19513,7 +19513,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19547,7 +19547,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19581,7 +19581,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19615,7 +19615,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -
@@ -19649,7 +19649,7 @@ MOZ_ASSERT
 ins
 -
 >
-temp
+temp0
 (
 )
 -

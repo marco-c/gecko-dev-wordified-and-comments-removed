@@ -8528,16 +8528,6 @@ Operand
 BOTH_SWAPPED
 :
 {
-LDefinition
-temp
-=
-LDefinition
-:
-:
-BogusTemp
-(
-)
-;
 LAllocation
 lhs
 ;
@@ -8626,7 +8616,6 @@ LWasmShuffleSimd128
 (
 lhs
 rhs
-temp
 *
 s
 .
