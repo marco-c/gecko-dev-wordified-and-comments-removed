@@ -491,6 +491,7 @@ if
 (
 fs
 >
+=
 resAndLimits
 .
 resolution_in_mb
@@ -851,6 +852,16 @@ height
 0
 )
 {
+aVideoStream
+.
+width
+=
+aVideoStream
+.
+height
+=
+0
+;
 return
 ;
 }
@@ -1334,8 +1345,6 @@ c_str
 )
 )
 ;
-continue
-;
 }
 CSFLogInfo
 (
@@ -1771,7 +1780,7 @@ const
 int
 minSize
 =
-1
+0
 ;
 if
 (

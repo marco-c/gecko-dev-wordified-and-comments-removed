@@ -4377,7 +4377,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-200000
+1200000
 )
 ;
 EXPECT_EQ
@@ -4388,7 +4388,7 @@ videoStreams
 ]
 .
 target_bitrate_bps
-800000
+1500000
 )
 ;
 EXPECT_EQ
@@ -4399,7 +4399,7 @@ videoStreams
 ]
 .
 max_bitrate_bps
-2500000
+5000000
 )
 ;
 }
@@ -4453,7 +4453,7 @@ codecConfigTias
 .
 mTias
 =
-1000000
+2000000
 ;
 aControl
 .
@@ -4496,7 +4496,7 @@ mVideoSendEncoderConfig
 -
 >
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 {
@@ -4559,7 +4559,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-200000
+1200000
 )
 ;
 ASSERT_EQ
@@ -4570,7 +4570,7 @@ videoStreams
 ]
 .
 target_bitrate_bps
-800000
+1500000
 )
 ;
 ASSERT_EQ
@@ -4581,7 +4581,7 @@ videoStreams
 ]
 .
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 }
@@ -9959,7 +9959,7 @@ Call
 mVideoSendConfig
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -9977,7 +9977,7 @@ VP8
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -9993,7 +9993,7 @@ payload_type
 120
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10015,7 +10015,7 @@ RtcpMode
 kCompound
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10031,7 +10031,7 @@ max_packet_size
 kVideoMtu
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10072,7 +10072,7 @@ ContentType
 kScreen
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10086,7 +10086,7 @@ min_transmit_bitrate_bps
 0
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10103,7 +10103,7 @@ KBPS
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10234,7 +10234,7 @@ Call
 mVideoSendConfig
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10252,7 +10252,7 @@ ulpfec_payload_type
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10270,7 +10270,7 @@ red_payload_type
 2
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10371,7 +10371,7 @@ Call
 mVideoSendConfig
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10389,7 +10389,7 @@ H264
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10470,7 +10470,7 @@ codecConfigTias
 .
 mTias
 =
-1000000
+2000000
 ;
 aControl
 .
@@ -10494,7 +10494,7 @@ Call
 mVideoSendEncoderConfig
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -10505,7 +10505,7 @@ mVideoSendEncoderConfig
 -
 >
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 SendVideoFrame
@@ -10550,7 +10550,7 @@ size
 1U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10558,10 +10558,10 @@ videoStreams
 ]
 .
 min_bitrate_bps
-200000
+1200000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10569,10 +10569,10 @@ videoStreams
 ]
 .
 target_bitrate_bps
-800000
+1500000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10580,7 +10580,7 @@ videoStreams
 ]
 .
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 }
@@ -10729,7 +10729,7 @@ size
 1U
 )
 ;
-ASSERT_LE
+EXPECT_LE
 (
 videoStreams
 [
@@ -10740,7 +10740,7 @@ min_bitrate_bps
 50000
 )
 ;
-ASSERT_LE
+EXPECT_LE
 (
 videoStreams
 [
@@ -10751,7 +10751,7 @@ target_bitrate_bps
 50000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10915,7 +10915,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10926,7 +10926,7 @@ width
 1280U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -10937,7 +10937,7 @@ height
 720U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -10950,7 +10950,7 @@ timestamp_us
 3000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11006,7 +11006,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11017,7 +11017,7 @@ width
 640U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11028,7 +11028,7 @@ height
 360U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11041,7 +11041,7 @@ timestamp_us
 4000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11097,7 +11097,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11108,7 +11108,7 @@ width
 1174U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11119,7 +11119,7 @@ height
 783U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11132,7 +11132,7 @@ timestamp_us
 5000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11262,7 +11262,7 @@ Call
 mVideoSendConfig
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11280,7 +11280,7 @@ VP8
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11296,7 +11296,7 @@ payload_type
 120
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11318,7 +11318,7 @@ RtcpMode
 kCompound
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11334,7 +11334,7 @@ max_packet_size
 kVideoMtu
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11375,7 +11375,7 @@ ContentType
 kScreen
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11389,7 +11389,7 @@ min_transmit_bitrate_bps
 0
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11406,7 +11406,7 @@ KBPS
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 Call
 (
@@ -11457,7 +11457,7 @@ codecConfigTias
 .
 mTias
 =
-1000000
+2000000
 ;
 aControl
 .
@@ -11492,7 +11492,7 @@ mVideoSendEncoderConfig
 -
 >
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 SendVideoFrame
@@ -11537,7 +11537,7 @@ size
 1U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11545,10 +11545,10 @@ videoStreams
 ]
 .
 min_bitrate_bps
-200000
+1200000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11556,10 +11556,10 @@ videoStreams
 ]
 .
 target_bitrate_bps
-800000
+1500000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11567,7 +11567,7 @@ videoStreams
 ]
 .
 max_bitrate_bps
-1000000
+2000000
 )
 ;
 }
@@ -11682,7 +11682,7 @@ size
 1U
 )
 ;
-ASSERT_LE
+EXPECT_LE
 (
 videoStreams
 [
@@ -11693,7 +11693,7 @@ min_bitrate_bps
 50000
 )
 ;
-ASSERT_LE
+EXPECT_LE
 (
 videoStreams
 [
@@ -11704,7 +11704,7 @@ target_bitrate_bps
 50000
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11839,7 +11839,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11850,7 +11850,7 @@ width
 1280U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11861,7 +11861,7 @@ height
 720U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11874,7 +11874,7 @@ timestamp_us
 3000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11930,7 +11930,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11941,7 +11941,7 @@ width
 641U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -11952,7 +11952,7 @@ height
 360U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -11965,7 +11965,7 @@ timestamp_us
 4000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12021,7 +12021,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12032,7 +12032,7 @@ width
 1174U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12043,7 +12043,7 @@ height
 783U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12056,7 +12056,7 @@ timestamp_us
 5000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12191,7 +12191,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12202,7 +12202,7 @@ width
 345U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12213,7 +12213,7 @@ height
 194U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12226,7 +12226,7 @@ timestamp_us
 6000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12344,7 +12344,7 @@ height
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12355,7 +12355,7 @@ width
 493U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 videoStreams
 [
@@ -12366,7 +12366,7 @@ height
 276U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -12379,7 +12379,7 @@ timestamp_us
 7000U
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 mVideoSink
 -
@@ -16083,7 +16083,7 @@ j
 ]
 .
 width
-1U
+0U
 )
 <
 <
@@ -16118,7 +16118,7 @@ j
 ]
 .
 height
-1U
+0U
 )
 <
 <
@@ -16237,7 +16237,7 @@ j
 ]
 .
 width
-1U
+0U
 )
 <
 <
@@ -16272,7 +16272,7 @@ j
 ]
 .
 height
-1U
+0U
 )
 <
 <
@@ -16391,7 +16391,7 @@ j
 ]
 .
 width
-1U
+0U
 )
 <
 <
@@ -16426,7 +16426,7 @@ j
 ]
 .
 height
-1U
+0U
 )
 <
 <
@@ -16545,7 +16545,17 @@ j
 ]
 .
 width
+scales
+[
+j
+]
+<
+=
+200U
+?
 1U
+:
+0U
 )
 <
 <
@@ -16580,7 +16590,17 @@ j
 ]
 .
 height
+scales
+[
+j
+]
+<
+=
+200U
+?
 1U
+:
+0U
 )
 <
 <
@@ -16821,7 +16841,7 @@ EXPECT_EQ
 stream
 .
 width
-1U
+0U
 )
 ;
 EXPECT_EQ
@@ -16829,7 +16849,7 @@ EXPECT_EQ
 stream
 .
 height
-1U
+0U
 )
 ;
 }
@@ -16888,7 +16908,7 @@ EXPECT_EQ
 stream
 .
 width
-1U
+0U
 )
 ;
 EXPECT_EQ
@@ -16896,7 +16916,7 @@ EXPECT_EQ
 stream
 .
 height
-1U
+0U
 )
 ;
 }
@@ -16955,7 +16975,7 @@ EXPECT_EQ
 stream
 .
 width
-1U
+0U
 )
 ;
 EXPECT_EQ
@@ -16963,7 +16983,7 @@ EXPECT_EQ
 stream
 .
 height
-1U
+0U
 )
 ;
 }
@@ -17009,20 +17029,56 @@ size
 ;
 for
 (
+size_t
+i
+=
+0
+;
+i
+<
+scales
+.
+size
+(
+)
+;
++
++
+i
+)
+{
 const
 auto
 &
 stream
-:
+=
 videoStreams
-)
-{
+[
+i
+]
+;
+const
+auto
+scale
+=
+scales
+[
+i
+]
+;
 EXPECT_EQ
 (
 stream
 .
 width
+scale
+<
+=
+200U
+?
 1U
+:
+0U
 )
 ;
 EXPECT_EQ
@@ -17030,7 +17086,14 @@ EXPECT_EQ
 stream
 .
 height
+scale
+<
+=
+200U
+?
 1U
+:
+0U
 )
 ;
 }
@@ -17089,7 +17152,7 @@ EXPECT_EQ
 stream
 .
 width
-1U
+0U
 )
 ;
 EXPECT_EQ
@@ -17097,7 +17160,7 @@ EXPECT_EQ
 stream
 .
 height
-1U
+0U
 )
 ;
 }
@@ -17496,25 +17559,6 @@ scales
 i
 ]
 ;
-uint32_t
-expectation
-=
-480
-/
-scale
-<
-static_cast
-<
-uint32_t
->
-(
-alignment
-)
-?
-1
-:
-0
-;
 EXPECT_EQ
 (
 stream
@@ -17522,7 +17566,7 @@ stream
 width
 %
 alignment
-expectation
+0U
 )
 <
 <
@@ -17550,7 +17594,7 @@ stream
 height
 %
 alignment
-expectation
+0U
 )
 ;
 }
