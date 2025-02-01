@@ -2760,6 +2760,14 @@ errorNumber
 )
 ;
 void
+MarkPendingExceptionAsTrap
+(
+JSContext
+*
+cx
+)
+;
+void
 TraceInstanceEdge
 (
 JSTracer
