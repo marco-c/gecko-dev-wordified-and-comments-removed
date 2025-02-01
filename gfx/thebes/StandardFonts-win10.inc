@@ -8,10 +8,6 @@ kBaseFonts
 =
 {
 "
-AlternateGothic2
-BT
-"
-"
 Arial
 "
 "
