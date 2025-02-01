@@ -845,7 +845,7 @@ textColor
 =
 "
 ?
-accent
+textAccent
 "
 android
 :
@@ -1246,7 +1246,7 @@ textColor
 =
 "
 ?
-accent
+textAccent
 "
 android
 :
