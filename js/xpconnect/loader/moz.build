@@ -143,11 +143,6 @@ ScriptCacheActors
 h
 "
 "
-SkipCheckForBrokenURLOrZeroSized
-.
-h
-"
-"
 SyncModuleLoader
 .
 h

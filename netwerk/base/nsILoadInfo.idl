@@ -2594,14 +2594,6 @@ attribute
 boolean
 isFromObjectOrEmbed
 ;
-[
-infallible
-]
-readonly
-attribute
-boolean
-shouldSkipCheckForBrokenURLOrZeroSized
-;
 attribute
 nsIURI
 unstrippedURI

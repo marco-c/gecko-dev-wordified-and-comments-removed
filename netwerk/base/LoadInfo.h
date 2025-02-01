@@ -398,10 +398,6 @@ uint32_t
 aSandboxFlags
 =
 0
-bool
-aSkipCheckForBrokenURLOrZeroSized
-=
-0
 )
 ;
 LoadInfo
@@ -1550,11 +1546,6 @@ false
 ;
 bool
 mIsFromObjectOrEmbed
-=
-false
-;
-bool
-mSkipCheckForBrokenURLOrZeroSized
 =
 false
 ;
