@@ -4721,6 +4721,15 @@ pollChanges
 expectedTimestamp
 :
 version
+.
+replace
+(
+'
+"
+'
+"
+"
+)
 trigger
 :
 isStartup
