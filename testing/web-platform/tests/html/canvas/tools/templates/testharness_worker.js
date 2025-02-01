@@ -4,6 +4,11 @@ if
 timeout
 %
 }
+{
+%
+endif
+%
+}
 importScripts
 (
 "
