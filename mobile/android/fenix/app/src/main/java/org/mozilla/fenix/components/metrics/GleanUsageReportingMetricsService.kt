@@ -355,9 +355,6 @@ setEnabled
 (
 false
 )
-unsetUsageProfileId
-(
-)
 lifecycleOwner
 .
 lifecycle
@@ -369,6 +366,9 @@ gleanUsageReportingLifecycleObserver
 gleanUsageReporting
 .
 requestDataDeletion
+(
+)
+unsetUsageProfileId
 (
 )
 }
