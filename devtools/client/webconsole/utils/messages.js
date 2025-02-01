@@ -1249,6 +1249,8 @@ MESSAGE_LEVEL
 LOG
 messageText
 :
+url
+?
 l10n
 .
 getFormatStr
@@ -1261,6 +1263,17 @@ navigated
 [
 url
 ]
+)
+:
+l10n
+.
+getStr
+(
+"
+webconsole
+.
+reloaded
+"
 )
 timeStamp
 :
