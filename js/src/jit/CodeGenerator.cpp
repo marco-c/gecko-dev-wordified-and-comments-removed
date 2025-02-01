@@ -118528,7 +118528,7 @@ ToRegister
 ins
 -
 >
-getJSContextReg
+temp0
 (
 )
 )
@@ -118542,7 +118542,7 @@ ToRegister
 ins
 -
 >
-getObjectReg
+object
 (
 )
 )
@@ -118556,7 +118556,7 @@ ToRegister
 ins
 -
 >
-getPrivReg
+temp1
 (
 )
 )
@@ -118570,7 +118570,7 @@ ToRegister
 ins
 -
 >
-getValueReg
+temp2
 (
 )
 )
@@ -119293,7 +119293,7 @@ ToRegister
 ins
 -
 >
-getJSContextReg
+temp0
 (
 )
 )
@@ -119307,7 +119307,7 @@ ToRegister
 ins
 -
 >
-getObjectReg
+object
 (
 )
 )
@@ -119321,7 +119321,7 @@ ToRegister
 ins
 -
 >
-getPrivReg
+temp1
 (
 )
 )
@@ -119335,7 +119335,7 @@ ToRegister
 ins
 -
 >
-getValueReg
+temp2
 (
 )
 )
@@ -119367,7 +119367,7 @@ ins
 LSetDOMProperty
 :
 :
-Value
+ValueIndex
 )
 ;
 masm

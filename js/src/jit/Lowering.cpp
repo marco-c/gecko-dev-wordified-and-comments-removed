@@ -52588,7 +52588,7 @@ registers
 "
 )
 ;
-LSetDOMProperty
+auto
 *
 lir
 =
@@ -52600,10 +52600,6 @@ alloc
 )
 LSetDOMProperty
 (
-tempFixed
-(
-cxReg
-)
 useFixedAtStart
 (
 ins
@@ -52619,6 +52615,10 @@ useBoxFixedAtStart
 val
 tempReg1
 tempReg2
+)
+tempFixed
+(
+cxReg
 )
 tempFixed
 (
@@ -52717,7 +52717,7 @@ registers
 "
 )
 ;
-LGetDOMProperty
+auto
 *
 lir
 =
@@ -52729,10 +52729,6 @@ alloc
 )
 LGetDOMProperty
 (
-tempFixed
-(
-cxReg
-)
 useFixedAtStart
 (
 ins
@@ -52742,6 +52738,10 @@ object
 (
 )
 objReg
+)
+tempFixed
+(
+cxReg
 )
 tempFixed
 (
