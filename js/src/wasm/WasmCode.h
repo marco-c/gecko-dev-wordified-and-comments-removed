@@ -3286,6 +3286,9 @@ i
 numFuncs_
 )
 ;
+__atomic_store_n
+(
+&
 jit_
 .
 get
@@ -3294,8 +3297,9 @@ get
 [
 i
 ]
-=
 target
+__ATOMIC_RELAXED
+)
 ;
 }
 void
