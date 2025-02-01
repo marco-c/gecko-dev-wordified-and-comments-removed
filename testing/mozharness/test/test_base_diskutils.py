@@ -4,6 +4,8 @@ from
 unittest
 import
 mock
+import
+mozunit
 from
 mozharness
 .
@@ -765,4 +767,18 @@ GB
 "
 )
         
+)
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+mozunit
+.
+main
+(
 )
