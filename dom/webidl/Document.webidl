@@ -1255,7 +1255,7 @@ WindowProxy
 ?
 open
 (
-USVString
+UTF8String
 url
 DOMString
 name
