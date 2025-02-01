@@ -56465,6 +56465,12 @@ inliningBudget
 JS_LOG
 (
 wasmPerf
+mozilla
+:
+:
+LogLevel
+:
+:
 Info
 "
 CM
@@ -56644,6 +56650,12 @@ inliningBudget_
 JS_LOG
 (
 wasmPerf
+mozilla
+:
+:
+LogLevel
+:
+:
 Info
 "
 CM

@@ -1236,10 +1236,21 @@ get
 )
 ;
 }
+auto
+level
+=
+mozilla
+:
+:
+LogLevel
+:
+:
+Info
+;
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 CM
 =
@@ -1274,7 +1285,7 @@ this
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 -
 -
@@ -1296,7 +1307,7 @@ Settings
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 w_lazy_tiering_level
 (
@@ -1320,7 +1331,7 @@ rawLevel
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 w_inlining_level
 (
@@ -1344,7 +1355,7 @@ rawLevel
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 w_direct_inlining
 =
@@ -1370,7 +1381,7 @@ false
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 w_call_ref_inlining
 =
@@ -1396,7 +1407,7 @@ false
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 w_call_ref_inlining_percent
 (
@@ -1420,7 +1431,7 @@ rawCallRefPercent
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 -
 -
@@ -1442,7 +1453,7 @@ Tier
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1458,7 +1469,7 @@ completeNumFuncs
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1487,7 +1498,7 @@ numCallRefMetrics
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7u
@@ -1515,7 +1526,7 @@ CallRefMetrics
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 -
 -
@@ -1537,7 +1548,7 @@ Tier
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1553,7 +1564,7 @@ partialNumFuncs
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1570,7 +1581,7 @@ partialBCSize
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1587,7 +1598,7 @@ partialNumFuncsInlinedDirect
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1604,7 +1615,7 @@ partialNumFuncsInlinedCallRef
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1622,7 +1633,7 @@ partialBCInlinedSizeDirect
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1640,7 +1651,7 @@ partialBCInlinedSizeCallRef
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1657,7 +1668,7 @@ partialInlineBudgetOverruns
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1680,7 +1691,7 @@ partialCodeBytesMapped
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 7zu
@@ -1740,7 +1751,7 @@ partialCodeBytesMapped
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 -
 -
@@ -1762,7 +1773,7 @@ Values
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 5
@@ -1789,7 +1800,7 @@ inliningExpansion
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 %
 4
@@ -1815,7 +1826,7 @@ codeSpaceUseRatio
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 -
 -
@@ -1829,7 +1840,7 @@ Info
 JS_LOG
 (
 wasmPerf
-Info
+level
 "
 >
 >

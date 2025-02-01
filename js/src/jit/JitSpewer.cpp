@@ -3551,7 +3551,7 @@ Module
 .
 shouldLog
 (
-js
+mozilla
 :
 :
 LogLevel
@@ -3577,14 +3577,14 @@ x
 Module
 .
 logger
-js
+\
+mozilla
 :
 :
 LogLevel
 :
 :
 Debug
-\
 fmt
 ap
 )

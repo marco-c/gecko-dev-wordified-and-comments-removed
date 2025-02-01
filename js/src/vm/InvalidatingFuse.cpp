@@ -206,6 +206,12 @@ cx
 JS_LOG
 (
 fuseInvalidation
+mozilla
+:
+:
+LogLevel
+:
+:
 Verbose
 "
 Invalidating
@@ -431,6 +437,12 @@ reason
 JS_LOG
 (
 fuseInvalidation
+mozilla
+:
+:
+LogLevel
+:
+:
 Debug
 "
 Invalidating
