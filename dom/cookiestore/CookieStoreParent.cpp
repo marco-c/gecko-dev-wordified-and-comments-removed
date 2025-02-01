@@ -1483,9 +1483,7 @@ false
 aSession
 aSession
 ?
-PR_Now
-(
-)
+INT64_MAX
 :
 aExpires
 &
