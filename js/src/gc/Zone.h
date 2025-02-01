@@ -2385,14 +2385,6 @@ JS
 GCContext
 *
 gcx
-const
-JitDiscardOptions
-&
-options
-=
-JitDiscardOptions
-(
-)
 )
 ;
 void
