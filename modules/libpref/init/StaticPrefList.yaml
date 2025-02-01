@@ -73881,12 +73881,7 @@ MOZ_AV1
 )
 value
 :
-IS_NIGHTLY_BUILD
-#
-else
-value
-:
-false
+true
 #
 endif
 mirror
