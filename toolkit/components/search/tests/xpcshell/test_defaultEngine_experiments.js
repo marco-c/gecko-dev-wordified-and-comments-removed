@@ -182,7 +182,7 @@ name
 =
 =
 "
-seperatePrivateDefaultUIEnabled
+separatePrivateDefaultUIEnabled
 "
 )
 {
@@ -196,7 +196,7 @@ name
 =
 =
 "
-seperatePrivateDefaultUrlbarResultEnabled
+separatePrivateDefaultUrlbarResultEnabled
 "
 )
 {

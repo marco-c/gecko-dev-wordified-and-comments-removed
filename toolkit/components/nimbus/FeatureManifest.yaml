@@ -938,7 +938,7 @@ update
 the
 configuration
 .
-seperatePrivateDefaultUIEnabled
+separatePrivateDefaultUIEnabled
 :
 type
 :
@@ -973,7 +973,7 @@ feature
 is
 enabled
 .
-seperatePrivateDefaultUrlbarResultEnabled
+separatePrivateDefaultUrlbarResultEnabled
 :
 type
 :

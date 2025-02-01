@@ -391,10 +391,10 @@ searchConfiguration
 value
 :
 {
-seperatePrivateDefaultUIEnabled
+separatePrivateDefaultUIEnabled
 :
 true
-seperatePrivateDefaultUrlbarResultEnabled
+separatePrivateDefaultUrlbarResultEnabled
 :
 false
 experiment
@@ -562,10 +562,10 @@ searchConfiguration
 value
 :
 {
-seperatePrivateDefaultUIEnabled
+separatePrivateDefaultUIEnabled
 :
 true
-seperatePrivateDefaultUrlbarResultEnabled
+separatePrivateDefaultUrlbarResultEnabled
 :
 true
 experiment
@@ -755,7 +755,7 @@ privatesearch
 value
 :
 {
-seperatePrivateDefaultUIEnabled
+separatePrivateDefaultUIEnabled
 :
 true
 }
