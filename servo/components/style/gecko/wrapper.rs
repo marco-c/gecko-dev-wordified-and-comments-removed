@@ -11884,11 +11884,6 @@ MozTopmostModal
 NonTSPseudoClass
 :
 :
-Open
-|
-NonTSPseudoClass
-:
-:
 Active
 |
 NonTSPseudoClass

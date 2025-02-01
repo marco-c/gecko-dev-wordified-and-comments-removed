@@ -1273,15 +1273,6 @@ mIsOpenInParentProcess
 =
 aVal
 ;
-SetStates
-(
-ElementState
-:
-:
-OPEN
-aVal
-)
-;
 }
 void
 GetPreviewValue
