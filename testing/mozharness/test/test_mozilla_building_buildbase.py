@@ -2,6 +2,8 @@ import
 os
 import
 unittest
+import
+mozunit
 from
 mozharness
 .
@@ -822,4 +824,18 @@ dirs
 =
 {
 }
+)
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+mozunit
+.
+main
+(
 )

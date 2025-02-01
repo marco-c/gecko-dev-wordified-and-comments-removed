@@ -70,6 +70,15 @@ PYTHON_UNITTEST_MANIFESTS
 =
 [
 "
+mozharness
+/
+test
+/
+python
+.
+toml
+"
+"
 test
 /
 python

@@ -12,6 +12,8 @@ base
 log
 as
 log
+import
+mozunit
 tmp_dir
 =
 "
@@ -230,7 +232,7 @@ __main__
 "
 :
     
-unittest
+mozunit
 .
 main
 (
