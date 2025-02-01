@@ -1322,17 +1322,6 @@ IsElement
 )
 ;
 }
-[
-[
-nodiscard
-]
-]
-bool
-IsContainerEditableRoot
-(
-)
-const
-;
 bool
 IsContainerHTMLElement
 (

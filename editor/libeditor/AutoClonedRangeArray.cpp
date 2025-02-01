@@ -1564,13 +1564,7 @@ WSRunScanner
 :
 ShrinkRangeIfStartsFromOrEndsAfterAtomicContent
 (
-WSRunScanner
-:
-:
-Scan
-:
-:
-EditableNodes
+aHTMLEditor
 range
 )
 ;

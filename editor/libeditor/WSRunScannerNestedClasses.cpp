@@ -647,7 +647,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceStartFrom
 (
-aScanMode
 mScanStartPoint
 &
 mNBSPData
@@ -704,7 +703,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceEndFrom
 (
-aScanMode
 mScanStartPoint
 &
 mNBSPData
@@ -1127,8 +1125,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceStartFrom
 (
-Scan
-aScanMode
 const
 EditorDOMPointType
 &
@@ -1155,15 +1151,8 @@ IsSetAndValid
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-aScanMode
-=
-=
-Scan
-:
-:
-EditableNodes
 HTMLEditUtils
 :
 :
@@ -1243,7 +1232,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceStartFrom
 (
-aScanMode
 EditorDOMPoint
 (
 aPoint
@@ -1465,7 +1453,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceStartFrom
 (
-aScanMode
 EditorDOMPointInText
 (
 previousLeafContentOrBlock
@@ -1534,7 +1521,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceStartFrom
 (
-aScanMode
 EditorDOMPointInText
 (
 previousLeafContentOrBlock
@@ -1913,8 +1899,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceEndFrom
 (
-Scan
-aScanMode
 const
 EditorDOMPointType
 &
@@ -1941,15 +1925,8 @@ IsSetAndValid
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-aScanMode
-=
-=
-Scan
-:
-:
-EditableNodes
 HTMLEditUtils
 :
 :
@@ -2029,7 +2006,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceEndFrom
 (
-aScanMode
 EditorDOMPointInText
 :
 :
@@ -2266,7 +2242,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceEndFrom
 (
-aScanMode
 EditorDOMPointInText
 (
 nextLeafContentOrBlock
@@ -2332,7 +2307,6 @@ BoundaryData
 :
 ScanCollapsibleWhiteSpaceEndFrom
 (
-aScanMode
 EditorDOMPointInText
 :
 :

@@ -2701,6 +2701,10 @@ const
 EditorDOMPoint
 &
 aPointToSplit
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -3361,6 +3365,10 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -6637,6 +6645,10 @@ const
 EditorDOMPoint
 &
 aNextOrAfterModifiedPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -6753,6 +6765,10 @@ N
 >
 &
 aStylesToSet
+const
+Element
+&
+aEditingHost
 )
 ;
 [
