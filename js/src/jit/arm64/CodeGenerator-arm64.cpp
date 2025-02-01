@@ -17102,9 +17102,8 @@ ToRegister64
 lir
 -
 >
-getInt64Operand
+input
 (
-0
 )
 )
 ;
