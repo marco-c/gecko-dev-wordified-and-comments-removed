@@ -125,6 +125,12 @@ RequiresApi
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 appcompat
 .
 app
@@ -223,7 +229,8 @@ Boolean
 false
 private
 set
-private
+VisibleForTesting
+internal
 var
 permissionRequestsCount
 :
@@ -246,7 +253,8 @@ OnPermissionRejected
 =
 {
 }
-private
+VisibleForTesting
+internal
 val
 notificationPermissionHandler
 :
@@ -388,7 +396,8 @@ granted
 .
 *
 /
-private
+VisibleForTesting
+internal
 fun
 hasPostNotificationsPermission
 (
@@ -557,11 +566,6 @@ showPermissionRationale
 Boolean
 =
 false
-isCrashReportNotification
-:
-Boolean
-=
-false
 )
 {
 if
@@ -601,10 +605,6 @@ Build
 VERSION_CODES
 .
 TIRAMISU
-&
-&
-!
-isCrashReportNotification
 )
 {
 requestNotificationPermission

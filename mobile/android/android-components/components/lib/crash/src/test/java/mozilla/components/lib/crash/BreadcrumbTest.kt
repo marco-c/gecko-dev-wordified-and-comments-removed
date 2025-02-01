@@ -307,11 +307,6 @@ CrashReporter
 Prompt
 .
 NEVER
-notificationsDelegate
-=
-mock
-(
-)
 )
 .
 install
@@ -472,11 +467,6 @@ CrashReporter
 Prompt
 .
 NEVER
-notificationsDelegate
-=
-mock
-(
-)
 )
 .
 install
@@ -639,11 +629,6 @@ CrashReporter
 Prompt
 .
 NEVER
-notificationsDelegate
-=
-mock
-(
-)
 )
 .
 install

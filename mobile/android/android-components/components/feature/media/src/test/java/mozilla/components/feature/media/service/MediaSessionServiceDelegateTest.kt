@@ -1515,10 +1515,6 @@ eq
 (
 false
 )
-eq
-(
-false
-)
 )
 }
 Test
@@ -1738,10 +1734,6 @@ any
 )
 any
 (
-)
-eq
-(
-false
 )
 eq
 (
@@ -2520,10 +2512,6 @@ any
 )
 any
 (
-)
-eq
-(
-false
 )
 eq
 (

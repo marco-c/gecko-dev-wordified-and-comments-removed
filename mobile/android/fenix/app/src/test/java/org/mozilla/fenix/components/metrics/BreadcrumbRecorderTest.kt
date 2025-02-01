@@ -424,11 +424,6 @@ CrashReporter
 Prompt
 .
 NEVER
-notificationsDelegate
-=
-mockk
-(
-)
 )
 )
 val
