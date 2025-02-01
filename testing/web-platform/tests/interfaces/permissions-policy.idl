@@ -175,5 +175,11 @@ attribute
 DOMString
 disposition
 ;
+readonly
+attribute
+DOMString
+?
+allowAttribute
+;
 }
 ;

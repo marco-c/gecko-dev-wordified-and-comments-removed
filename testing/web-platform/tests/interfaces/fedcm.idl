@@ -204,6 +204,12 @@ loginHint
 DOMString
 domainHint
 ;
+sequence
+<
+USVString
+>
+fields
+;
 any
 params
 ;
