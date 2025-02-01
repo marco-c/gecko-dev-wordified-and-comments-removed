@@ -6122,8 +6122,6 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
-*
-editingHost
 )
 ;
 if
@@ -7139,8 +7137,6 @@ GetInsertTextTo
 inclusiveNextLinefeedOffset
 lineStartOffset
 )
-*
-editingHost
 )
 ;
 }
@@ -7181,8 +7177,6 @@ GetInsertTextTo
 inclusiveNextLinefeedOffset
 lineStartOffset
 )
-*
-editingHost
 )
 ;
 }
@@ -7295,8 +7289,6 @@ lineBreakType
 *
 this
 currentPoint
-*
-editingHost
 )
 ;
 if
@@ -8470,8 +8462,6 @@ BRElement
 *
 this
 pointToPutCaret
-*
-editingHost
 )
 ;
 if
@@ -12217,7 +12207,6 @@ BRElement
 *
 this
 pointToBreak
-aEditingHost
 )
 ;
 if
@@ -12371,7 +12360,6 @@ BRElement
 *
 this
 afterBRElement
-aEditingHost
 )
 ;
 NS_WARNING_ASSERTION
