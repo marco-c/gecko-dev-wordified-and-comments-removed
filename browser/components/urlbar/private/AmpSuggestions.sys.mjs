@@ -1179,13 +1179,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 result
-.
-payload
-.
-originalUrl
 )
 ;
 controller

@@ -1611,13 +1611,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-has
+isResultBlocked
 (
 resuilt
-.
-payload
-.
-url
 )
 "
 The

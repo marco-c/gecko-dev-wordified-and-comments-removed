@@ -943,13 +943,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 result
-.
-payload
-.
-originalUrl
 )
 ;
 result

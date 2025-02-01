@@ -283,11 +283,6 @@ url
 suggestion
 .
 url
-originalUrl
-:
-suggestion
-.
-url
 title
 :
 suggestion
@@ -415,13 +410,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 result
-.
-payload
-.
-originalUrl
 )
 ;
 controller

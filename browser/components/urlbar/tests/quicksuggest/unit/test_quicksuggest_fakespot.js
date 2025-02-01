@@ -1364,13 +1364,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-has
+isResultBlocked
 (
 result
-.
-payload
-.
-originalUrl
 )
 "
 The

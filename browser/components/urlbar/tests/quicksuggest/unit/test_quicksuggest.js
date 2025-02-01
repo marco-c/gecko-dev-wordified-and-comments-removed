@@ -6755,7 +6755,7 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 context
 .
@@ -6763,10 +6763,6 @@ results
 [
 0
 ]
-.
-payload
-.
-url
 )
 ;
 await
@@ -6997,13 +6993,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 result
-.
-payload
-.
-originalUrl
 )
 ;
 await

@@ -3511,9 +3511,6 @@ com
 /
 wikipedia
 "
-originalUrl
-=
-url
 iconBlob
 =
 null
@@ -3560,7 +3557,6 @@ payload
 {
 title
 url
-originalUrl
 iconBlob
 source
 provider
