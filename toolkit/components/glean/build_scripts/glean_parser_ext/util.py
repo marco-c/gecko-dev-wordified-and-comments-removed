@@ -696,6 +696,27 @@ args
 args
 }
     
+metric_type_ids
+=
+dict
+(
+sorted
+(
+metric_type_ids
+.
+items
+(
+)
+)
+)
+    
+categories
+=
+sorted
+(
+categories
+)
+    
 return
 (
 metric_type_ids
