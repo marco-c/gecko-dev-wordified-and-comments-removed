@@ -32,6 +32,14 @@ base
 import
 TransformSequence
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
 gecko_taskgraph
 .
 util
@@ -332,9 +340,15 @@ output_artifact
 =
 _get_output_path
 (
+                        
+get_artifact_prefix
+(
+task
+)
 partner_config
 platform
 locale
+                    
 )
                     
 attributions
@@ -618,6 +632,7 @@ platform
 def
 _get_output_path
 (
+artifact_prefix
 partner_config
 platform
 locale
@@ -626,9 +641,9 @@ locale
     
 return
 "
-releng
-/
-partner
+{
+artifact_prefix
+}
 /
 {
 partner
@@ -653,6 +668,10 @@ artifact_file_name
 .
 format
 (
+        
+artifact_prefix
+=
+artifact_prefix
         
 partner
 =
