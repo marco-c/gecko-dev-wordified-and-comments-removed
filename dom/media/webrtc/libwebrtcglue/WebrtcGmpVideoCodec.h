@@ -1111,8 +1111,6 @@ timestamp_us
 ;
 }
 ;
-DataMutex
-<
 std
 :
 :
@@ -1120,7 +1118,6 @@ map
 <
 uint64_t
 InputImageData
->
 >
 mInputImageMap
 ;
