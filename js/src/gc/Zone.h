@@ -2377,7 +2377,7 @@ false
 }
 ;
 void
-discardJitCode
+maybeDiscardJitCode
 (
 JS
 :

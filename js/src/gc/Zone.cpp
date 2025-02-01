@@ -2128,7 +2128,7 @@ void
 Zone
 :
 :
-discardJitCode
+maybeDiscardJitCode
 (
 JS
 :
