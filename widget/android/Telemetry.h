@@ -45,7 +45,7 @@ mozilla
 /
 glean
 /
-MobileSharedModulesGeckoviewMetrics
+GeckoviewMetrics
 .
 h
 "
