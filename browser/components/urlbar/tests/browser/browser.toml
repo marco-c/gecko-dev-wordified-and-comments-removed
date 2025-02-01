@@ -3004,6 +3004,13 @@ js
 ]
 [
 "
+browser_switchTab_notFoundPage
+.
+js
+"
+]
+[
+"
 browser_switchTab_override
 .
 js
