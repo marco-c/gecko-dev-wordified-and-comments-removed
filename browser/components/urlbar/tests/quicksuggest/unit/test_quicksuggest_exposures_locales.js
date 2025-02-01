@@ -980,6 +980,9 @@ telemetryType
 "
 exposure
 "
+isSponsored
+:
+false
 }
 }
 ;

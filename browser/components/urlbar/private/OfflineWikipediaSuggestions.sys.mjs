@@ -307,11 +307,6 @@ HIGHLIGHT
 .
 SUGGESTED
 ]
-isSponsored
-:
-suggestion
-.
-is_sponsored
 sponsoredAdvertiser
 :
 "

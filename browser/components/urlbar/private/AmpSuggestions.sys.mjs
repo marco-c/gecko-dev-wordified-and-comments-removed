@@ -717,11 +717,6 @@ url
 suggestion
 .
 url
-is_sponsored
-:
-suggestion
-.
-is_sponsored
 fullKeyword
 :
 suggestion
@@ -775,11 +770,6 @@ title
 suggestion
 .
 title
-isSponsored
-:
-suggestion
-.
-is_sponsored
 requestId
 :
 suggestion

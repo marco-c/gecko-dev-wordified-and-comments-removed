@@ -5178,6 +5178,9 @@ https
 "
 "
 )
+isSponsored
+:
+false
 shouldShowUrl
 :
 true
@@ -5408,6 +5411,9 @@ https
 "
 "
 )
+isSponsored
+:
+false
 description
 icon
 :
@@ -5713,6 +5719,9 @@ true
 }
 source
 provider
+isSponsored
+:
+true
 telemetryType
 :
 "

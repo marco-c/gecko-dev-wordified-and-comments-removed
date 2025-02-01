@@ -3265,6 +3265,9 @@ rating
 totalReviews
 fakespotGrade
 fakespotProvider
+isSponsored
+:
+true
 dynamicType
 :
 "
