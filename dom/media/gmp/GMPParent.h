@@ -507,11 +507,6 @@ forget
 ;
 }
 void
-AbortAsyncShutdown
-(
-)
-;
-void
 ChildTerminated
 (
 )
