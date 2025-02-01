@@ -303,6 +303,11 @@ NativeThreadId
 h
 "
 "
+NavigationAPIIPCUtils
+.
+h
+"
+"
 PageLoadEventUtils
 .
 h
