@@ -225,6 +225,13 @@ aEmulateFrameCallback
 false
 )
 ;
+void
+SetFrameCallbackState
+(
+bool
+aEnabled
+)
+;
 wl_egl_window
 *
 GetEGLWindow
@@ -1292,6 +1299,11 @@ mEmulated
 false
 ;
 }
+;
+bool
+mFrameCallbackEnabled
+=
+true
 ;
 std
 :
