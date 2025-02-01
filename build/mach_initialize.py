@@ -452,6 +452,7 @@ _activate_python_environment
 (
 topsrcdir
 get_state_dir
+quiet
 )
 :
     
@@ -470,8 +471,10 @@ from_environment
 (
         
 topsrcdir
-        
 get_state_dir
+quiet
+=
+quiet
     
 )
     
@@ -1033,10 +1036,36 @@ check_for_spaces
 topsrcdir
 )
     
+if
+args
+and
+args
+[
+0
+]
+=
+=
+"
+environment
+"
+:
+        
+quiet
+=
+True
+    
+else
+:
+        
+quiet
+=
+False
+    
 _activate_python_environment
 (
         
 topsrcdir
+        
 lambda
 :
 os
@@ -1053,6 +1082,10 @@ topsrcdir
 topsrcdir
 )
 )
+        
+quiet
+=
+quiet
     
 )
     
@@ -1793,6 +1826,10 @@ get_virtualenv_base_dir
 (
 topsrcdir
 )
+            
+quiet
+=
+quiet
         
 )
         
