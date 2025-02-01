@@ -1580,13 +1580,6 @@ mips64
 riscv64
 )
 ;
-void
-freeStack
-(
-Register
-amount
-)
-;
 private
 :
 #
