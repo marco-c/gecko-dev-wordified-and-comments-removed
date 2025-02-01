@@ -134,4 +134,7 @@ debug
 "
 asan
 "
+"
+verify
+"
 ]
