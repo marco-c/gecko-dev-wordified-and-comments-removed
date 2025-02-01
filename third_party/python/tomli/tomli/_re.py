@@ -21,13 +21,18 @@ from
 typing
 import
 Any
+Final
 from
 .
 _types
 import
 ParseFloat
 _TIME_RE_STR
+:
+Final
 =
+(
+    
 r
 "
 (
@@ -98,7 +103,10 @@ r
 )
 ?
 "
+)
 RE_NUMBER
+:
+Final
 =
 re
 .
@@ -300,6 +308,8 @@ re
 VERBOSE
 )
 RE_LOCALTIME
+:
+Final
 =
 re
 .
@@ -308,6 +318,8 @@ compile
 _TIME_RE_STR
 )
 RE_DATETIME
+:
+Final
 =
 re
 .

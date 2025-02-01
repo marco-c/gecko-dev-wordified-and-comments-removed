@@ -34,6 +34,8 @@ NamedTuple
     
 Optional
     
+Pattern
+    
 Tuple
     
 Union
@@ -1162,6 +1164,13 @@ r
 self
 .
 _spans
+!
+r
+}
+{
+self
+.
+style
 !
 r
 }
@@ -4497,7 +4506,14 @@ self
         
 re_highlight
 :
+Union
+[
+Pattern
+[
 str
+]
+str
+]
         
 style
 :
@@ -4551,12 +4567,21 @@ Args
             
 re_highlight
 (
+Union
+[
+re
+.
+Pattern
 str
+]
 )
 :
 A
 regular
 expression
+object
+or
+string
 .
             
 style
@@ -4646,14 +4671,30 @@ self
 .
 plain
         
+if
+isinstance
+(
+re_highlight
+str
+)
+:
+            
+re_highlight
+=
+re
+.
+compile
+(
+re_highlight
+)
+        
 for
 match
 in
-re
+re_highlight
 .
 finditer
 (
-re_highlight
 plain
 )
 :

@@ -267,7 +267,8 @@ str
 ]
 :
         
-pass
+return
+self
     
 def
 __exit__

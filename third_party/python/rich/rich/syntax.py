@@ -1547,6 +1547,12 @@ SyntaxPosition
 end
 :
 SyntaxPosition
+    
+style_before
+:
+bool
+=
+False
 class
 Syntax
 (
@@ -3889,15 +3895,24 @@ stylize_range
 (
         
 self
+        
 style
 :
 StyleType
+        
 start
 :
 SyntaxPosition
+        
 end
 :
 SyntaxPosition
+        
+style_before
+:
+bool
+=
+False
     
 )
 -
@@ -4012,6 +4027,20 @@ column
 index
 ]
 .
+            
+style_before
+(
+bool
+)
+:
+Apply
+the
+style
+before
+any
+existing
+styles
+.
         
 "
 "
@@ -4023,12 +4052,15 @@ _stylized_ranges
 .
 append
 (
+            
 _SyntaxHighlightRange
 (
 style
 start
 end
+style_before
 )
+        
 )
     
 def
@@ -5568,6 +5600,26 @@ not
 None
 :
                 
+if
+stylized_range
+.
+style_before
+:
+                    
+text
+.
+stylize_before
+(
+stylized_range
+.
+style
+start
+end
+)
+                
+else
+:
+                    
 text
 .
 stylize

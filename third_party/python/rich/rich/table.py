@@ -4146,6 +4146,11 @@ Column
 _index
 =
 index
+highlight
+=
+self
+.
+highlight
 )
                 
 for

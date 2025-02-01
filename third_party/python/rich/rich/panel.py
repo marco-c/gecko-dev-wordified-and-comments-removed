@@ -1305,6 +1305,26 @@ plain
 )
             
 if
+text
+.
+style
+:
+                
+text
+.
+stylize
+(
+console
+.
+get_style
+(
+text
+.
+style
+)
+)
+            
+if
 excess_space
 :
                 

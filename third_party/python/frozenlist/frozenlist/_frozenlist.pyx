@@ -38,6 +38,7 @@ def
 __class_getitem__
 (
 cls
+cls_item
 )
 :
 return
