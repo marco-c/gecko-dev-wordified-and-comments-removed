@@ -470,9 +470,6 @@ Unit
 onMarketingDataLearnMoreClick
 :
 (
-url
-:
-String
 )
 -
 >
@@ -653,12 +650,8 @@ linkUrl
 onClick
 =
 {
-url
--
->
 onMarketingDataLearnMoreClick
 (
-url
 )
 }
 )

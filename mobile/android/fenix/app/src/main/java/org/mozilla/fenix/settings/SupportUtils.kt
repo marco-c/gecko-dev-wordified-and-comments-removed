@@ -891,6 +891,16 @@ settings
 mobile
 "
 )
+MARKETING_DATA
+(
+"
+mobile
+-
+marketing
+-
+data
+"
+)
 }
 enum
 class
