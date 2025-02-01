@@ -1332,7 +1332,10 @@ HTMLEditUtils
 IsBlockElement
 (
 aAncestorLimiter
+RespectParentBlockBoundary
+(
 aBlockInlineCheck
+)
 )
 ?
 WSType
@@ -2129,7 +2132,10 @@ HTMLEditUtils
 IsBlockElement
 (
 aAncestorLimiter
+RespectParentBlockBoundary
+(
 aBlockInlineCheck
+)
 )
 ?
 WSType
