@@ -221,6 +221,12 @@ aTimestampMaker
 :
 VideoFrameConverterImpl
 (
+do_AddRef
+(
+GetMainThreadSerialEventTarget
+(
+)
+)
 aTimestampMaker
 )
 {
@@ -4410,7 +4416,7 @@ InvokeAsync
 mConverter
 -
 >
-mTaskQueue
+mTarget
 __func__
 [
 &
