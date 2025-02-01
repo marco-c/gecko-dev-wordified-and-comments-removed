@@ -1177,6 +1177,13 @@ replaceWith
 placeholderDiv
 )
 ;
+sendMessageToAddon
+(
+"
+smartblockEmbedReplaced
+"
+)
+;
 }
 )
 ;
