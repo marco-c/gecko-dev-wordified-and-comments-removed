@@ -130381,6 +130381,7 @@ mir
 (
 )
 ;
+const
 LAllocation
 *
 count
@@ -130421,7 +130422,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )

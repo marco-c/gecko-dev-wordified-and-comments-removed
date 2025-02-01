@@ -350,9 +350,8 @@ rhs
 ins
 -
 >
-setInt64Operand
+setLhs
 (
-0
 useInt64RegisterAtStart
 (
 lhs
@@ -362,9 +361,8 @@ lhs
 ins
 -
 >
-setInt64Operand
+setRhs
 (
-INT64_PIECES
 willHaveDifferentLIRNodes
 (
 lhs
