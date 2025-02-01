@@ -711,7 +711,7 @@ count
 )
 ;
 static
-size_t
+void
 moveWork
 (
 MarkStack
@@ -1612,7 +1612,7 @@ budget
 )
 ;
 static
-size_t
+void
 moveWork
 (
 GCMarker
