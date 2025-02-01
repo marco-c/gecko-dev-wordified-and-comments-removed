@@ -2104,8 +2104,9 @@ storyShown
 PocketStory
 storyPosition
 :
-Pair
+Triple
 <
+Int
 Int
 Int
 >
@@ -2163,8 +2164,9 @@ storyClicked
 PocketStory
 storyPosition
 :
-Pair
+Triple
 <
+Int
 Int
 Int
 >

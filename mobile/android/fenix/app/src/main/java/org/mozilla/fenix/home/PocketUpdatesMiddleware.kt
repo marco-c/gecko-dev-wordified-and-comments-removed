@@ -546,7 +546,14 @@ updatedStories
 =
 action
 .
-storiesShown
+impressions
+.
+map
+{
+it
+.
+story
+}
 )
 }
 is
