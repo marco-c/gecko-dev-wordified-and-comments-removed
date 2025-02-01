@@ -252,9 +252,6 @@ true
 clickStudiesToggle
 (
 )
-clickStudiesDialogOkButton
-(
-)
 }
 }
 Test
