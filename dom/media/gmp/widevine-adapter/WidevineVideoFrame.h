@@ -233,9 +233,6 @@ mPlaneOffsets
 cdm
 :
 :
-VideoPlane
-:
-:
 kMaxPlanes
 ]
 ;
@@ -243,9 +240,6 @@ uint32_t
 mPlaneStrides
 [
 cdm
-:
-:
-VideoPlane
 :
 :
 kMaxPlanes

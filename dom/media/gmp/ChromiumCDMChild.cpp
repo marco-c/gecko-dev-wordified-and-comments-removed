@@ -5198,9 +5198,6 @@ PlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kYPlane
 )
 aFrame
@@ -5208,9 +5205,6 @@ aFrame
 Stride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kYPlane
@@ -5231,9 +5225,6 @@ PlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kUPlane
 )
 aFrame
@@ -5241,9 +5232,6 @@ aFrame
 Stride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kUPlane
@@ -5264,9 +5252,6 @@ PlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kVPlane
 )
 aFrame
@@ -5274,9 +5259,6 @@ aFrame
 Stride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kVPlane

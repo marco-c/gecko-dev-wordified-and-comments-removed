@@ -1200,9 +1200,6 @@ SetStride
 cdm
 :
 :
-VideoPlane
-:
-:
 kYPlane
 stride
 )
@@ -1215,9 +1212,6 @@ SetStride
 cdm
 :
 :
-VideoPlane
-:
-:
 kUPlane
 halfStride
 )
@@ -1228,9 +1222,6 @@ aVideoFrame
 SetStride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kVPlane
@@ -1380,9 +1371,6 @@ SetPlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kYPlane
 0
 )
@@ -1400,9 +1388,6 @@ aVideoFrame
 SetPlaneOffset
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kUPlane
@@ -1430,9 +1415,6 @@ aVideoFrame
 SetPlaneOffset
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kVPlane

@@ -859,9 +859,6 @@ SetPlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kYPlane
 0
 )
@@ -869,9 +866,6 @@ kYPlane
 SetStride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kYPlane
@@ -883,9 +877,6 @@ SetPlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kUPlane
 ySize
 )
@@ -893,9 +884,6 @@ ySize
 SetStride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kUPlane
@@ -907,9 +895,6 @@ SetPlaneOffset
 cdm
 :
 :
-VideoPlane
-:
-:
 kVPlane
 ySize
 )
@@ -917,9 +902,6 @@ ySize
 SetStride
 (
 cdm
-:
-:
-VideoPlane
 :
 :
 kVPlane
