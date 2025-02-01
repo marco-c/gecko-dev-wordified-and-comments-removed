@@ -24916,7 +24916,6 @@ floatReg
 )
 ;
 Label
-done
 truncateABICall
 ;
 masm
@@ -24928,6 +24927,18 @@ res
 &
 truncateABICall
 )
+;
+if
+(
+truncateABICall
+.
+used
+(
+)
+)
+{
+Label
+done
 ;
 masm
 .
@@ -25064,6 +25075,7 @@ bind
 done
 )
 ;
+}
 return
 true
 ;
