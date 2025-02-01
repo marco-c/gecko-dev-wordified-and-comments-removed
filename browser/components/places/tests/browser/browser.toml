@@ -463,6 +463,13 @@ js
 ]
 [
 "
+browser_bookmarks_close_panel
+.
+js
+"
+]
+[
+"
 browser_bookmarks_sidebar_search
 .
 js

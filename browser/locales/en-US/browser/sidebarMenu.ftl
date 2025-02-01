@@ -67,6 +67,15 @@ sidebar
 -
 menu
 -
+bookmarks
+-
+2
+=
+Bookmarks
+sidebar
+-
+menu
+-
 history
 =
 .
