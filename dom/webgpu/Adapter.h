@@ -505,6 +505,12 @@ SupportExternalTextureInSwapChain
 )
 const
 ;
+uint64_t
+MissingFeatures
+(
+)
+const
+;
 nsCString
 LabelOrId
 (
