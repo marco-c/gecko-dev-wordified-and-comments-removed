@@ -30,6 +30,12 @@ TriggerOriginInitializationInBackgroundEnabled
 (
 )
 ;
+static
+bool
+IncrementalOriginInitializationEnabled
+(
+)
+;
 }
 ;
 }
