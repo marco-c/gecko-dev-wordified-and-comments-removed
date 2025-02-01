@@ -370,6 +370,13 @@ js
 ]
 [
 "
+browser_reviewchecker_messages
+.
+js
+"
+]
+[
+"
 browser_reviewchecker_onboarding
 .
 js
@@ -385,6 +392,13 @@ js
 [
 "
 browser_reviewchecker_sidebar
+.
+js
+"
+]
+[
+"
+browser_reviewchecker_telemetry
 .
 js
 "
