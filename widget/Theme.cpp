@@ -660,7 +660,7 @@ constexpr
 CSSCoord
 kCheckboxRadioBorderWidth
 =
-2
+1
 .
 0f
 ;
@@ -4274,6 +4274,14 @@ CHECKED
 )
 )
 {
+const
+CSSCoord
+kInnerBorderWidth
+=
+2
+.
+0f
+;
 LayoutDeviceRect
 rect
 (
@@ -4290,7 +4298,7 @@ ThemeDrawing
 :
 SnapBorderWidth
 (
-kCheckboxRadioBorderWidth
+kInnerBorderWidth
 aDpiRatio
 )
 )
@@ -4308,7 +4316,7 @@ aPaintData
 rect
 backgroundColor
 checkColor
-kCheckboxRadioBorderWidth
+kInnerBorderWidth
 aDpiRatio
 )
 ;
