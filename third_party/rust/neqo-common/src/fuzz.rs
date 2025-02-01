@@ -19,7 +19,11 @@ hash
 :
 {
 Hash
+as
+_
 Hasher
+as
+_
 }
 io
 :

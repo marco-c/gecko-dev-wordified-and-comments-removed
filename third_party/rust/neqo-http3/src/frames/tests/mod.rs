@@ -1,10 +1,4 @@
 use
-std
-:
-:
-mem
-;
-use
 neqo_common
 :
 :
@@ -180,9 +174,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_s
@@ -225,9 +216,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_s
@@ -265,8 +253,6 @@ unwrap
 let
 mut
 fr
-:
-FrameReader
 =
 FrameReader
 :
@@ -314,9 +300,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_c

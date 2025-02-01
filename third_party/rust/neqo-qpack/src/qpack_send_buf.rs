@@ -545,7 +545,6 @@ remain
 in
 the
 buffer
-.
 "
 )
 ;

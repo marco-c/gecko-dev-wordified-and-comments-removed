@@ -21,6 +21,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 static_assertions

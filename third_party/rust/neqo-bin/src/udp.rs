@@ -20,7 +20,10 @@ use
 neqo_udp
 :
 :
+{
 DatagramIter
+RecvBuf
+}
 ;
 pub
 struct
@@ -305,9 +308,7 @@ recv_buf
 '
 a
 mut
-[
-u8
-]
+RecvBuf
 )
 -
 >

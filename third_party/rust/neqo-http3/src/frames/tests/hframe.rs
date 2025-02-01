@@ -43,6 +43,7 @@ HSettingType
 HSettings
 }
 Priority
+PushId
 }
 ;
 #
@@ -136,7 +137,13 @@ CancelPush
 {
 push_id
 :
+PushId
+:
+:
+new
+(
 5
+)
 }
 ;
 enc_dec_hframe
@@ -221,7 +228,13 @@ PushPromise
 {
 push_id
 :
+PushId
+:
+:
+new
+(
 4
+)
 header_block
 :
 vec

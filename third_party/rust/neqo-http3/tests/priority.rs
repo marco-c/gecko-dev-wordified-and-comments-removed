@@ -15,6 +15,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 neqo_crypto
@@ -620,11 +622,10 @@ Http3ServerEvent
 :
 Headers
 {
-stream
-:
-_
 headers
 fin
+.
+.
 }
 =
 >

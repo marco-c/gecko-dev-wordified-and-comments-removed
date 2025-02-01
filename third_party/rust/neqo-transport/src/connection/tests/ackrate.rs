@@ -2,13 +2,10 @@ use
 std
 :
 :
-{
-mem
 time
 :
 :
 Duration
-}
 ;
 use
 test_fixture
@@ -576,9 +573,6 @@ RTT
 /
 2
 ;
-mem
-:
-:
 drop
 (
 ack_bytes

@@ -2204,7 +2204,7 @@ TLS_GRP_KEM_MLKEM768X25519
 ]
 )
 .
-ok
+unwrap
 (
 )
 ;
@@ -2215,7 +2215,7 @@ send_additional_key_shares
 0
 )
 .
-ok
+unwrap
 (
 )
 ;

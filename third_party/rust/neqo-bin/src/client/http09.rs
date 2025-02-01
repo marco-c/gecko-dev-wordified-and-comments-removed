@@ -24,6 +24,8 @@ io
 {
 BufWriter
 Write
+as
+_
 }
 net
 :
@@ -323,9 +325,6 @@ client
 }
 Err
 (
-neqo_transport
-:
-:
 Error
 :
 :
@@ -1271,12 +1270,6 @@ self
 >
 bool
 {
-neqo_common
-:
-:
-event
-:
-:
 Provider
 :
 :
@@ -1821,13 +1814,13 @@ qdebug
 READ
 [
 {
+stream_id
 }
 ]
 :
 {
 }
 "
-stream_id
 std
 :
 :
