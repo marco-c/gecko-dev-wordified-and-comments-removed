@@ -330,6 +330,7 @@ GetMainThreadSerialEventTarget
 )
 )
 aTimestampMaker
+false
 )
 {
 }

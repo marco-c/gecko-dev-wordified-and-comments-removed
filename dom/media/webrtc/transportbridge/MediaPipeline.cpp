@@ -4143,6 +4143,12 @@ forget
 GetTimestampMaker
 (
 )
+videoConduit
+-
+>
+LockScaling
+(
+)
 )
 ;
 mConverter

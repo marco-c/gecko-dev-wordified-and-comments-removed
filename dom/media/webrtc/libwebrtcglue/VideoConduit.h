@@ -517,6 +517,17 @@ aSource
 override
 ;
 bool
+LockScaling
+(
+)
+const
+override
+{
+return
+mLockScaling
+;
+}
+bool
 SendRtp
 (
 const
