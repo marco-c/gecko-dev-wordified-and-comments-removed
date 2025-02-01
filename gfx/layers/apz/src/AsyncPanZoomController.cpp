@@ -28142,10 +28142,6 @@ GetZoom
 ;
 RequestContentRepaint
 (
-RepaintUpdateType
-:
-:
-eUserAction
 )
 ;
 }
