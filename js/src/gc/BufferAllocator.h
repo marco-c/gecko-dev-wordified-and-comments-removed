@@ -1692,6 +1692,16 @@ const
 ;
 }
 ;
+static
+constexpr
+size_t
+LargeBufferHeaderSize
+=
+sizeof
+(
+LargeBuffer
+)
+;
 }
 }
 #
