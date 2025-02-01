@@ -5046,13 +5046,13 @@ IntArgReg0
 )
 )
 memoryBase
-tempFixed
+tempInt64Fixed
 (
-IntArgReg2
-)
-tempFixed
+Register64
 (
 IntArgReg3
+IntArgReg2
+)
 )
 )
 ;

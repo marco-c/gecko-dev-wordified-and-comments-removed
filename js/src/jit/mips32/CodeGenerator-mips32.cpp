@@ -2566,7 +2566,7 @@ ToRegister
 lir
 -
 >
-tmp
+temp0
 (
 )
 )
