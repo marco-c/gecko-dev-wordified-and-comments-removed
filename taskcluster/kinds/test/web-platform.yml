@@ -1559,8 +1559,6 @@ windows
 64
 .
 *
--
-qr
 /
 .
 *
@@ -1646,11 +1644,8 @@ windows
 |
 64
 )
-(
--
-qr
-)
-?
+.
+*
 /
 debug
 :
@@ -1728,8 +1723,6 @@ projects
 windows
 .
 *
--
-qr
 /
 debug
 :
@@ -4554,8 +4547,6 @@ projects
 windows
 .
 *
--
-qr
 /
 debug
 :
@@ -4983,8 +4974,6 @@ projects
 windows
 .
 *
--
-qr
 /
 debug
 :

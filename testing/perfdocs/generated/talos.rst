@@ -56539,9 +56539,9 @@ windows11
 -
 64
 -
-2009
+24h2
 -
-qr
+shippable
 /
 opt
 *
@@ -56625,11 +56625,7 @@ windows11
 -
 64
 -
-2009
--
-shippable
--
-qr
+24h2
 /
 opt
 *

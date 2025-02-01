@@ -7815,6 +7815,7 @@ pop
 if
 parts
 and
+(
 parts
 [
 0
@@ -7822,6 +7823,18 @@ parts
 .
 isdigit
 (
+)
+or
+parts
+[
+0
+]
+in
+[
+"
+24h2
+"
+]
 )
 :
                 
