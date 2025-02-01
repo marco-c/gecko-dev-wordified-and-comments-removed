@@ -10442,10 +10442,6 @@ const
 EditorDOMPointTypeInput
 &
 aPointToInsert
-const
-Element
-&
-aEditingHost
 )
 ;
 template
