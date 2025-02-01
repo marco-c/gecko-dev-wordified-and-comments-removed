@@ -28,9 +28,9 @@ changes
 #
 (
 default
-24H
+6H
 max
-72H
+24H
 )
 #
 see
@@ -89,5 +89,5 @@ services
 settings
 .
 poll_interval
+21600
 86400
-259200
