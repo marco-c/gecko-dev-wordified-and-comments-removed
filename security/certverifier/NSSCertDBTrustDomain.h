@@ -196,10 +196,6 @@ dir
 bool
 LoadOSClientCertsModule
 (
-const
-nsCString
-&
-dir
 )
 ;
 bool

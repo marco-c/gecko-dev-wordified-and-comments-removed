@@ -13685,6 +13685,9 @@ trials
 ffi
 "
 "
+osclientcerts
+"
+"
 oxilangtag
 "
 "
@@ -26564,8 +26567,6 @@ name
 =
 "
 osclientcerts
--
-static
 "
 version
 =
@@ -26600,15 +26601,6 @@ libloading
 log
 "
 "
-mozilla
--
-central
--
-workspace
--
-hack
-"
-"
 pkcs11
 -
 bindings
@@ -26618,6 +26610,9 @@ rsclientcerts
 "
 "
 sha2
+"
+"
+static_prefs
 "
 "
 winapi
