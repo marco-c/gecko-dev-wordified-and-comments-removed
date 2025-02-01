@@ -1233,6 +1233,23 @@ input
 "
 )
     
+files
+=
+create_files
+(
+[
+"
+path
+/
+to
+/
+noop
+.
+txt
+"
+]
+)
+    
 await
 bidi_session
 .
@@ -1256,20 +1273,7 @@ element
         
 files
 =
-create_files
-(
-[
-"
-path
-/
-to
-/
-noop
-.
-txt
-"
-]
-)
+files
     
 )
     
@@ -1296,20 +1300,7 @@ element
         
 files
 =
-create_files
-(
-[
-"
-path
-/
-to
-/
-noop
-.
-txt
-"
-]
-)
+files
     
 )
     
