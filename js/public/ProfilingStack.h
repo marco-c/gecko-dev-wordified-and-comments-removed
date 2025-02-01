@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+BaseProfilerMarkersPrerequisites
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -1083,6 +1092,10 @@ void
 fn
 )
 (
+mozilla
+:
+:
+MarkerCategory
 const
 char
 *
