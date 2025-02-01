@@ -95,7 +95,7 @@ defineESModuleGetters
 (
 lazy
 {
-action
+actions
 :
 "
 chrome
@@ -1872,7 +1872,7 @@ actionState
 new
 lazy
 .
-action
+actions
 .
 State
 (
@@ -1894,7 +1894,7 @@ actionChain
 await
 lazy
 .
-action
+actions
 .
 Chain
 .

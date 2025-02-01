@@ -418,7 +418,7 @@ const
 state
 =
 new
-action
+actions
 .
 State
 (
@@ -429,7 +429,7 @@ const
 chain
 =
 await
-action
+actions
 .
 Chain
 .
@@ -456,7 +456,7 @@ namespace
 /
 export
 const
-action
+actions
 =
 {
 }
@@ -707,7 +707,7 @@ object
 .
 *
 /
-action
+actions
 .
 State
 =
@@ -10959,7 +10959,7 @@ not
 already
 depressed
 const
-actions
+filteredActions
 =
 Array
 .
@@ -10997,7 +10997,7 @@ button
 ;
 if
 (
-actions
+filteredActions
 .
 length
 )
@@ -11021,7 +11021,7 @@ actionInputSource
 action
 ]
 of
-actions
+filteredActions
 )
 {
 eventData
@@ -11151,7 +11151,7 @@ const
 action
 ]
 of
-actions
+filteredActions
 )
 {
 /
@@ -11407,7 +11407,7 @@ not
 already
 depressed
 const
-actions
+filteredActions
 =
 Array
 .
@@ -11444,7 +11444,7 @@ button
 ;
 if
 (
-actions
+filteredActions
 .
 length
 )
@@ -11468,7 +11468,7 @@ actionInputSource
 action
 ]
 of
-actions
+filteredActions
 )
 {
 eventData
@@ -14199,7 +14199,7 @@ tick
 .
 *
 /
-action
+actions
 .
 Chain
 =
@@ -14390,6 +14390,25 @@ chainEvents
 ;
 }
 /
+*
+eslint
+-
+disable
+no
+-
+shadow
+*
+/
+/
+/
+Shadowing
+is
+intentional
+for
+actions
+.
+/
+*
 *
 *
 *
@@ -14681,6 +14700,16 @@ return
 actionsByTick
 ;
 }
+/
+*
+eslint
+-
+enable
+no
+-
+shadow
+*
+/
 }
 ;
 /
@@ -15127,7 +15156,7 @@ Map
 )
 ;
 const
-actions
+groupedActions
 =
 [
 ]
@@ -15244,7 +15273,7 @@ subtype
 group
 )
 ;
-actions
+groupedActions
 .
 push
 (
@@ -15266,7 +15295,7 @@ action
 }
 else
 {
-actions
+groupedActions
 .
 push
 (
@@ -15279,7 +15308,7 @@ action
 }
 }
 return
-actions
+groupedActions
 ;
 }
 }
@@ -15529,6 +15558,8 @@ below
 const
 {
 actions
+:
+actionsFromSequence
 id
 type
 }
@@ -15552,7 +15583,7 @@ assert
 .
 array
 (
-actions
+actionsFromSequence
 '
 Expected
 "
@@ -15616,7 +15647,7 @@ for
 const
 actionItem
 of
-actions
+actionsFromSequence
 )
 {
 sequence
