@@ -451,6 +451,9 @@ import
 "
 json
 "
+"
+promise
+"
 ]
 overrides
 :

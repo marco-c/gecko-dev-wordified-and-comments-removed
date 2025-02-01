@@ -516,10 +516,6 @@ delete
 imageUrl
 )
 )
-.
-catch
-(
-)
 ;
 }
 /

@@ -32939,10 +32939,6 @@ delete
 imageUrl
 )
 )
-.
-catch
-(
-)
 ;
 }
 try

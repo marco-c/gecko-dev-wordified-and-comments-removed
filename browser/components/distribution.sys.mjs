@@ -786,6 +786,9 @@ bookmark
 .
 catch
 (
+console
+.
+error
 )
 )
 ;
@@ -822,6 +825,9 @@ folder
 .
 catch
 (
+console
+.
+error
 )
 ;
 }

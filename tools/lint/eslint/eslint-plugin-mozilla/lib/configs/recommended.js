@@ -1028,6 +1028,17 @@ callback
 "
 off
 "
+"
+promise
+/
+valid
+-
+params
+"
+:
+"
+error
+"
 }
 }
 ;
