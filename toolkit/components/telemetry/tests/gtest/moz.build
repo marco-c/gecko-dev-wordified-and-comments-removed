@@ -53,11 +53,6 @@ TestCombinedStacks
 cpp
 "
 "
-TestCounters
-.
-cpp
-"
-"
 TestEvents
 .
 cpp
