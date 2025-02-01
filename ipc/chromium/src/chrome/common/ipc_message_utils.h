@@ -147,6 +147,14 @@ aActor
 namespace
 IPC
 {
+constexpr
+uint32_t
+kMessageBufferShmemThreshold
+=
+64
+*
+1024
+;
 class
 MOZ_STACK_CLASS
 MessageWriter
