@@ -29,16 +29,12 @@ AsyncPoll
 from
 .
 .
-.
-import
-number_interval
-from
-.
-.
 import
 (
     
 assert_response_event
+    
+get_network_event_timerange
     
 AUTH_REQUIRED_EVENT
     
@@ -512,14 +508,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
