@@ -976,6 +976,17 @@ settings
 .
 isMarketingTelemetryEnabled
 }
+isUsageTelemetryEnabled
+=
+{
+context
+.
+settings
+(
+)
+.
+isDailyUsagePingEnabled
+}
 context
 .
 settings

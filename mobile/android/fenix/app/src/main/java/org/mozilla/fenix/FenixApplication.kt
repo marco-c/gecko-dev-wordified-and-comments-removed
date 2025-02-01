@@ -2099,6 +2099,13 @@ settings
 )
 .
 isMarketingTelemetryEnabled
+isDailyUsagePingEnabled
+=
+settings
+(
+)
+.
+isDailyUsagePingEnabled
 )
 }
 setupPush

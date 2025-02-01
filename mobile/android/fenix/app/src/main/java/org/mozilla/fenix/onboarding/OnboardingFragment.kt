@@ -1774,6 +1774,11 @@ isMarketingTelemetryEnabled
 settings
 .
 isMarketingTelemetryEnabled
+isDailyUsagePingEnabled
+=
+settings
+.
+isDailyUsagePingEnabled
 )
 findNavController
 (
