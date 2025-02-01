@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+AppShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MessagePort

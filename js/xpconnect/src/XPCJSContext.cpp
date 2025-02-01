@@ -112,6 +112,15 @@ include
 "
 mozilla
 /
+AppShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

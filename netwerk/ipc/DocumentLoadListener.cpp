@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+AppShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
