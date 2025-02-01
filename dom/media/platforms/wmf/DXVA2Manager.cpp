@@ -6676,6 +6676,8 @@ aFailureReason
 ID3D11Device
 *
 aDevice
+DXVA2Usage
+aUsage
 )
 {
 uint32_t
@@ -6694,6 +6696,15 @@ sDXVAVideosCount
 =
 =
 dxvaLimit
+&
+&
+aUsage
+=
+=
+DXVA2Usage
+:
+:
+Playback
 )
 {
 aFailureReason
