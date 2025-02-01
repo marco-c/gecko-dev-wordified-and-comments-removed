@@ -696,6 +696,9 @@ score
 0
 .
 3
+ftsMatchInfo
+=
+null
 )
 )
 )
@@ -1332,6 +1335,9 @@ score
 0
 .
 3
+ftsMatchInfo
+=
+null
 )
 )
 )
@@ -1839,6 +1845,9 @@ score
 0
 .
 3
+ftsMatchInfo
+=
+null
 )
 )
 )
