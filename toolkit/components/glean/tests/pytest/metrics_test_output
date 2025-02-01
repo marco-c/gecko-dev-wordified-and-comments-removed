@@ -151,7 +151,7 @@ BooleanMetric
 :
 new
 (
-1
+22495729
 .
 into
 (
@@ -245,7 +245,7 @@ CounterMetric
 :
 new
 (
-2
+30349935
 .
 into
 (
@@ -339,7 +339,7 @@ CustomDistributionMetric
 :
 new
 (
-3
+28021745
 .
 into
 (
@@ -455,7 +455,7 @@ LabeledMetric
 :
 new
 (
-4
+21875658
 .
 into
 (
@@ -835,7 +835,7 @@ LabeledMetric
 :
 new
 (
-5
+7966417
 .
 into
 (
@@ -1121,7 +1121,7 @@ LabeledMetric
 :
 new
 (
-6
+139440
 .
 into
 (
@@ -1349,7 +1349,7 @@ LabeledMetric
 :
 new
 (
-7
+6593356
 .
 into
 (
@@ -1499,7 +1499,7 @@ LabeledMetric
 :
 new
 (
-8
+22655931
 .
 into
 (
@@ -1727,7 +1727,7 @@ LabeledMetric
 :
 new
 (
-9
+10006522
 .
 into
 (
@@ -1862,7 +1862,7 @@ MemoryDistributionMetric
 :
 new
 (
-10
+6804861
 .
 into
 (
@@ -1960,7 +1960,7 @@ StringListMetric
 :
 new
 (
-11
+18320715
 .
 into
 (
@@ -2054,7 +2054,7 @@ StringMetric
 :
 new
 (
-12
+25252540
 .
 into
 (
@@ -2148,7 +2148,7 @@ TextMetric
 :
 new
 (
-13
+23203570
 .
 into
 (
@@ -2242,7 +2242,7 @@ TimespanMetric
 :
 new
 (
-14
+11887791
 .
 into
 (
@@ -2340,7 +2340,7 @@ TimingDistributionMetric
 :
 new
 (
-15
+25552771
 .
 into
 (
@@ -2438,7 +2438,7 @@ BooleanMetric
 :
 with_unordered_ipc
 (
-16
+23138752
 .
 into
 (
@@ -2547,7 +2547,7 @@ LabeledMetric
 :
 with_unordered_ipc
 (
-17
+11455568
 .
 into
 (
@@ -2838,7 +2838,7 @@ ObjectMetric
 :
 new
 (
-18
+25398426
 .
 into
 (
@@ -2934,7 +2934,7 @@ DatetimeMetric
 :
 new
 (
-19
+32461197
 .
 into
 (
@@ -3037,7 +3037,7 @@ EventMetric
 :
 new
 (
-20
+110940
 .
 into
 (
@@ -3309,7 +3309,7 @@ EventMetric
 :
 new
 (
-21
+20015710
 .
 into
 (
@@ -3405,7 +3405,7 @@ DenominatorMetric
 :
 new
 (
-22
+21877185
 .
 into
 (
@@ -3554,7 +3554,7 @@ CounterMetric
 :
 codegen_new
 (
-23
+14212265
 "
 test
 .
@@ -3599,7 +3599,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-24
+7676830
 "
 test
 .
@@ -3701,7 +3701,7 @@ QuantityMetric
 :
 new
 (
-25
+8082779
 .
 into
 (
@@ -3797,7 +3797,7 @@ RateMetric
 :
 new
 (
-26
+30750772
 .
 into
 (
@@ -3893,7 +3893,7 @@ NumeratorMetric
 :
 new
 (
-27
+1413969
 .
 into
 (
@@ -3989,7 +3989,7 @@ UuidMetric
 :
 new
 (
-28
+32794253
 .
 into
 (
@@ -4148,7 +4148,7 @@ BooleanMetric
 :
 new
 (
-29
+5536416
 .
 into
 (
@@ -4242,7 +4242,7 @@ CounterMetric
 :
 new
 (
-30
+27435907
 .
 into
 (
@@ -4336,7 +4336,7 @@ CustomDistributionMetric
 :
 new
 (
-31
+27313004
 .
 into
 (
@@ -4452,7 +4452,7 @@ LabeledMetric
 :
 new
 (
-32
+9102331
 .
 into
 (
@@ -4832,7 +4832,7 @@ LabeledMetric
 :
 new
 (
-33
+27310108
 .
 into
 (
@@ -5118,7 +5118,7 @@ LabeledMetric
 :
 new
 (
-34
+4435991
 .
 into
 (
@@ -5346,7 +5346,7 @@ LabeledMetric
 :
 new
 (
-35
+27714779
 .
 into
 (
@@ -5496,7 +5496,7 @@ LabeledMetric
 :
 new
 (
-36
+13299578
 .
 into
 (
@@ -5724,7 +5724,7 @@ LabeledMetric
 :
 new
 (
-37
+21201865
 .
 into
 (
@@ -5859,7 +5859,7 @@ MemoryDistributionMetric
 :
 new
 (
-38
+29118730
 .
 into
 (
@@ -5957,7 +5957,7 @@ StringListMetric
 :
 new
 (
-39
+27603867
 .
 into
 (
@@ -6051,7 +6051,7 @@ StringMetric
 :
 new
 (
-40
+31008897
 .
 into
 (
@@ -6145,7 +6145,7 @@ TextMetric
 :
 new
 (
-41
+3163718
 .
 into
 (
@@ -6239,7 +6239,7 @@ TimespanMetric
 :
 new
 (
-42
+18482215
 .
 into
 (
@@ -6337,7 +6337,7 @@ TimingDistributionMetric
 :
 new
 (
-43
+14261116
 .
 into
 (
@@ -6435,7 +6435,7 @@ BooleanMetric
 :
 with_unordered_ipc
 (
-44
+17090832
 .
 into
 (
@@ -6544,7 +6544,7 @@ LabeledMetric
 :
 with_unordered_ipc
 (
-45
+13310781
 .
 into
 (
@@ -6835,7 +6835,7 @@ ObjectMetric
 :
 new
 (
-46
+21851592
 .
 into
 (
@@ -6931,7 +6931,7 @@ DatetimeMetric
 :
 new
 (
-47
+9930003
 .
 into
 (
@@ -7034,7 +7034,7 @@ EventMetric
 :
 new
 (
-48
+1091783
 .
 into
 (
@@ -7306,7 +7306,7 @@ EventMetric
 :
 new
 (
-49
+20312052
 .
 into
 (
@@ -7345,7 +7345,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-50
+2838206
 "
 test2
 .
@@ -7390,7 +7390,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-51
+8514908
 "
 test2
 .
@@ -7435,7 +7435,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-52
+17063655
 "
 test2
 .
@@ -7537,7 +7537,7 @@ QuantityMetric
 :
 new
 (
-53
+20268999
 .
 into
 (
@@ -7633,7 +7633,7 @@ RateMetric
 :
 new
 (
-54
+15523628
 .
 into
 (
@@ -7729,7 +7729,7 @@ NumeratorMetric
 :
 new
 (
-55
+25857163
 .
 into
 (
@@ -7825,7 +7825,7 @@ UuidMetric
 :
 new
 (
-56
+23885948
 .
 into
 (
@@ -7936,7 +7936,7 @@ map
 .
 insert
 (
-1
+22495729
 .
 into
 (
@@ -7955,7 +7955,7 @@ map
 .
 insert
 (
-16
+23138752
 .
 into
 (
@@ -7974,7 +7974,7 @@ map
 .
 insert
 (
-29
+5536416
 .
 into
 (
@@ -7993,7 +7993,7 @@ map
 .
 insert
 (
-44
+17090832
 .
 into
 (
@@ -8053,7 +8053,7 @@ map
 .
 insert
 (
-2
+30349935
 .
 into
 (
@@ -8072,7 +8072,7 @@ map
 .
 insert
 (
-23
+14212265
 .
 into
 (
@@ -8091,7 +8091,7 @@ map
 .
 insert
 (
-24
+7676830
 .
 into
 (
@@ -8110,7 +8110,7 @@ map
 .
 insert
 (
-30
+27435907
 .
 into
 (
@@ -8129,7 +8129,7 @@ map
 .
 insert
 (
-50
+2838206
 .
 into
 (
@@ -8148,7 +8148,7 @@ map
 .
 insert
 (
-51
+8514908
 .
 into
 (
@@ -8167,7 +8167,7 @@ map
 .
 insert
 (
-52
+17063655
 .
 into
 (
@@ -8227,7 +8227,7 @@ map
 .
 insert
 (
-3
+28021745
 .
 into
 (
@@ -8246,7 +8246,7 @@ map
 .
 insert
 (
-31
+27313004
 .
 into
 (
@@ -8306,7 +8306,7 @@ map
 .
 insert
 (
-10
+6804861
 .
 into
 (
@@ -8325,7 +8325,7 @@ map
 .
 insert
 (
-38
+29118730
 .
 into
 (
@@ -8385,7 +8385,7 @@ map
 .
 insert
 (
-11
+18320715
 .
 into
 (
@@ -8404,7 +8404,7 @@ map
 .
 insert
 (
-39
+27603867
 .
 into
 (
@@ -8464,7 +8464,7 @@ map
 .
 insert
 (
-12
+25252540
 .
 into
 (
@@ -8483,7 +8483,7 @@ map
 .
 insert
 (
-40
+31008897
 .
 into
 (
@@ -8543,7 +8543,7 @@ map
 .
 insert
 (
-13
+23203570
 .
 into
 (
@@ -8562,7 +8562,7 @@ map
 .
 insert
 (
-41
+3163718
 .
 into
 (
@@ -8622,7 +8622,7 @@ map
 .
 insert
 (
-14
+11887791
 .
 into
 (
@@ -8641,7 +8641,7 @@ map
 .
 insert
 (
-42
+18482215
 .
 into
 (
@@ -8701,7 +8701,7 @@ map
 .
 insert
 (
-15
+25552771
 .
 into
 (
@@ -8720,7 +8720,7 @@ map
 .
 insert
 (
-43
+14261116
 .
 into
 (
@@ -8780,7 +8780,7 @@ map
 .
 insert
 (
-19
+32461197
 .
 into
 (
@@ -8799,7 +8799,7 @@ map
 .
 insert
 (
-47
+9930003
 .
 into
 (
@@ -8859,7 +8859,7 @@ map
 .
 insert
 (
-22
+21877185
 .
 into
 (
@@ -8919,7 +8919,7 @@ map
 .
 insert
 (
-25
+8082779
 .
 into
 (
@@ -8938,7 +8938,7 @@ map
 .
 insert
 (
-53
+20268999
 .
 into
 (
@@ -8998,7 +8998,7 @@ map
 .
 insert
 (
-26
+30750772
 .
 into
 (
@@ -9017,7 +9017,7 @@ map
 .
 insert
 (
-54
+15523628
 .
 into
 (
@@ -9077,7 +9077,7 @@ map
 .
 insert
 (
-27
+1413969
 .
 into
 (
@@ -9096,7 +9096,7 @@ map
 .
 insert
 (
-55
+25857163
 .
 into
 (
@@ -9156,7 +9156,7 @@ map
 .
 insert
 (
-28
+32794253
 .
 into
 (
@@ -9175,7 +9175,7 @@ map
 .
 insert
 (
-56
+23885948
 .
 into
 (
@@ -9221,7 +9221,7 @@ Result
 match
 metric_id
 {
-18
+25398426
 =
 >
 {
@@ -9244,7 +9244,7 @@ Ok
 )
 )
 }
-46
+21851592
 =
 >
 {
@@ -9304,7 +9304,7 @@ String
 match
 metric_id
 {
-18
+25398426
 =
 >
 super
@@ -9323,7 +9323,7 @@ as_deref
 (
 )
 )
-46
+21851592
 =
 >
 super
@@ -9400,7 +9400,7 @@ with_gecko
 match
 metric_id
 {
-18
+25398426
 =
 >
 test_get_errors
@@ -9414,7 +9414,7 @@ test_nested
 :
 an_object
 )
-46
+21851592
 =
 >
 test_get_errors
@@ -9496,7 +9496,7 @@ EventRecordingError
 match
 metric_id
 {
-20
+110940
 =
 >
 {
@@ -9519,7 +9519,7 @@ Ok
 )
 )
 }
-21
+20015710
 =
 >
 {
@@ -9542,7 +9542,7 @@ Ok
 )
 )
 }
-48
+1091783
 =
 >
 {
@@ -9565,7 +9565,7 @@ Ok
 )
 )
 }
-49
+20312052
 =
 >
 {
@@ -9635,7 +9635,7 @@ metric_id
 {
 MetricId
 (
-20
+110940
 )
 =
 >
@@ -9696,7 +9696,7 @@ Ok
 }
 MetricId
 (
-21
+20015710
 )
 =
 >
@@ -9757,7 +9757,7 @@ Ok
 }
 MetricId
 (
-48
+1091783
 )
 =
 >
@@ -9818,7 +9818,7 @@ Ok
 }
 MetricId
 (
-49
+20312052
 )
 =
 >
@@ -9919,7 +9919,7 @@ RecordedEvent
 match
 metric_id
 {
-20
+110940
 =
 >
 super
@@ -9938,7 +9938,7 @@ as_deref
 (
 )
 )
-21
+20015710
 =
 >
 super
@@ -9957,7 +9957,7 @@ as_deref
 (
 )
 )
-48
+1091783
 =
 >
 super
@@ -9976,7 +9976,7 @@ as_deref
 (
 )
 )
-49
+20312052
 =
 >
 super
@@ -10053,7 +10053,7 @@ with_gecko
 match
 metric_id
 {
-20
+110940
 =
 >
 test_get_errors
@@ -10067,7 +10067,7 @@ test_nested
 :
 event_metric
 )
-21
+20015710
 =
 >
 test_get_errors
@@ -10081,7 +10081,7 @@ test_nested
 :
 event_metric_with_extra
 )
-48
+1091783
 =
 >
 test_get_errors
@@ -10095,7 +10095,7 @@ test2_nested
 :
 event_metric
 )
-49
+20312052
 =
 >
 test_get_errors
@@ -10179,7 +10179,7 @@ LabeledBooleanMetric
 match
 metric_id
 {
-4
+21875658
 =
 >
 super
@@ -10194,7 +10194,7 @@ get
 (
 label
 )
-5
+7966417
 =
 >
 super
@@ -10209,7 +10209,7 @@ get
 (
 label
 )
-17
+11455568
 =
 >
 super
@@ -10224,7 +10224,7 @@ get
 (
 label
 )
-32
+9102331
 =
 >
 super
@@ -10239,7 +10239,7 @@ get
 (
 label
 )
-33
+27310108
 =
 >
 super
@@ -10254,7 +10254,7 @@ get
 (
 label
 )
-45
+13310781
 =
 >
 super
@@ -10320,7 +10320,7 @@ LabeledCounterMetric
 match
 metric_id
 {
-6
+139440
 =
 >
 super
@@ -10335,7 +10335,7 @@ get
 (
 label
 )
-7
+6593356
 =
 >
 super
@@ -10350,7 +10350,7 @@ get
 (
 label
 )
-34
+4435991
 =
 >
 super
@@ -10365,7 +10365,7 @@ get
 (
 label
 )
-35
+27714779
 =
 >
 super
@@ -10431,7 +10431,7 @@ LabeledStringMetric
 match
 metric_id
 {
-8
+22655931
 =
 >
 super
@@ -10446,7 +10446,7 @@ get
 (
 label
 )
-9
+10006522
 =
 >
 super
@@ -10461,7 +10461,7 @@ get
 (
 label
 )
-36
+13299578
 =
 >
 super
@@ -10476,7 +10476,7 @@ get
 (
 label
 )
-37
+21201865
 =
 >
 super
@@ -10534,7 +10534,7 @@ str
 match
 metric_id
 {
-5
+7966417
 =
 >
 super
@@ -10554,7 +10554,7 @@ label
 into
 (
 )
-7
+6593356
 =
 >
 super
@@ -10574,7 +10574,7 @@ label
 into
 (
 )
-9
+10006522
 =
 >
 super
@@ -10594,7 +10594,7 @@ label
 into
 (
 )
-33
+27310108
 =
 >
 super
@@ -10614,7 +10614,7 @@ label
 into
 (
 )
-35
+27714779
 =
 >
 super
@@ -10634,7 +10634,7 @@ label
 into
 (
 )
-37
+21201865
 =
 >
 super
@@ -10710,7 +10710,7 @@ u32
 match
 metric_id
 {
-4
+21875658
 =
 >
 super
@@ -10725,7 +10725,7 @@ get_submetric_id
 (
 label
 )
-5
+7966417
 =
 >
 super
@@ -10740,7 +10740,7 @@ get_submetric_id
 (
 label
 )
-6
+139440
 =
 >
 super
@@ -10755,7 +10755,7 @@ get_submetric_id
 (
 label
 )
-7
+6593356
 =
 >
 super
@@ -10770,7 +10770,7 @@ get_submetric_id
 (
 label
 )
-8
+22655931
 =
 >
 super
@@ -10785,7 +10785,7 @@ get_submetric_id
 (
 label
 )
-9
+10006522
 =
 >
 super
@@ -10800,7 +10800,7 @@ get_submetric_id
 (
 label
 )
-17
+11455568
 =
 >
 super
@@ -10815,7 +10815,7 @@ get_submetric_id
 (
 label
 )
-32
+9102331
 =
 >
 super
@@ -10830,7 +10830,7 @@ get_submetric_id
 (
 label
 )
-33
+27310108
 =
 >
 super
@@ -10845,7 +10845,7 @@ get_submetric_id
 (
 label
 )
-34
+4435991
 =
 >
 super
@@ -10860,7 +10860,7 @@ get_submetric_id
 (
 label
 )
-35
+27714779
 =
 >
 super
@@ -10875,7 +10875,7 @@ get_submetric_id
 (
 label
 )
-36
+13299578
 =
 >
 super
@@ -10890,7 +10890,7 @@ get_submetric_id
 (
 label
 )
-37
+21201865
 =
 >
 super
@@ -10905,7 +10905,7 @@ get_submetric_id
 (
 label
 )
-45
+13310781
 =
 >
 super

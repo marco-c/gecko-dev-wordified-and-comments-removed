@@ -164,7 +164,7 @@ aId
 )
 {
 case
-1
+22495729
 :
 {
 return
@@ -178,7 +178,7 @@ SOME_BOOL_SCALAR
 ;
 }
 case
-2
+30349935
 :
 {
 return
@@ -192,7 +192,7 @@ SOME_UINT_SCALAR
 ;
 }
 case
-4
+21875658
 :
 {
 return
@@ -206,7 +206,7 @@ SOME_KEYED_BOOL_SCALAR
 ;
 }
 case
-5
+7966417
 :
 {
 return
@@ -220,7 +220,7 @@ SOME_OTHER_KEYED_BOOL_SCALAR
 ;
 }
 case
-6
+139440
 :
 {
 return
@@ -234,7 +234,7 @@ SOME_KEYED_UINT_SCALAR
 ;
 }
 case
-7
+6593356
 :
 {
 return
@@ -248,7 +248,7 @@ SOME_OTHER_KEYED_UINT_SCALAR
 ;
 }
 case
-11
+18320715
 :
 {
 return
@@ -262,7 +262,7 @@ YET_ANOTHER_KEYED_BOOL_SCALAR
 ;
 }
 case
-12
+25252540
 :
 {
 return
@@ -276,7 +276,7 @@ SOME_STRING_SCALAR
 ;
 }
 case
-14
+11887791
 :
 {
 return
@@ -290,7 +290,7 @@ SOME_OTHER_UINT_SCALAR
 ;
 }
 case
-19
+32461197
 :
 {
 return
@@ -304,7 +304,7 @@ SOME_STILL_OTHER_STRING_SCALAR
 ;
 }
 case
-25
+8082779
 :
 {
 return
@@ -318,7 +318,7 @@ TELEMETRY_TEST_MIRROR_FOR_QUANTITY
 ;
 }
 case
-28
+32794253
 :
 {
 return

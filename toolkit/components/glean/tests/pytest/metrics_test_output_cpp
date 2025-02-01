@@ -72,7 +72,7 @@ impl
 BooleanMetric
 boolean_metric
 (
-1
+22495729
 )
 ;
 constexpr
@@ -82,7 +82,7 @@ impl
 CounterMetric
 counter_metric
 (
-2
+30349935
 )
 ;
 constexpr
@@ -92,7 +92,7 @@ impl
 CustomDistributionMetric
 custom_distribution_metric
 (
-3
+28021745
 )
 ;
 constexpr
@@ -109,7 +109,7 @@ DynamicLabel
 >
 labeled_boolean_metric
 (
-4
+21875658
 )
 ;
 enum
@@ -165,7 +165,7 @@ LabeledBooleanMetricLabelsLabel
 >
 labeled_boolean_metric_labels
 (
-5
+7966417
 )
 ;
 constexpr
@@ -182,7 +182,7 @@ DynamicLabel
 >
 labeled_counter_metric
 (
-6
+139440
 )
 ;
 enum
@@ -214,7 +214,7 @@ LabeledCounterMetricLabelsLabel
 >
 labeled_counter_metric_labels
 (
-7
+6593356
 )
 ;
 constexpr
@@ -231,7 +231,7 @@ DynamicLabel
 >
 labeled_string_metric
 (
-8
+22655931
 )
 ;
 enum
@@ -263,7 +263,7 @@ LabeledStringMetricLabelsLabel
 >
 labeled_string_metric_labels
 (
-9
+10006522
 )
 ;
 constexpr
@@ -273,7 +273,7 @@ impl
 MemoryDistributionMetric
 memory_distribution_metric
 (
-10
+6804861
 )
 ;
 constexpr
@@ -283,7 +283,7 @@ impl
 StringListMetric
 string_list_metric
 (
-11
+18320715
 )
 ;
 constexpr
@@ -293,7 +293,7 @@ impl
 StringMetric
 string_metric
 (
-12
+25252540
 )
 ;
 constexpr
@@ -303,7 +303,7 @@ impl
 TextMetric
 text_metric
 (
-13
+23203570
 )
 ;
 constexpr
@@ -313,7 +313,7 @@ impl
 TimespanMetric
 timespan_metric
 (
-14
+11887791
 )
 ;
 constexpr
@@ -323,7 +323,7 @@ impl
 TimingDistributionMetric
 timing_distribution_metric
 (
-15
+25552771
 )
 ;
 constexpr
@@ -333,7 +333,7 @@ impl
 BooleanMetric
 unordered_boolean_metric
 (
-16
+23138752
 )
 ;
 constexpr
@@ -350,7 +350,7 @@ DynamicLabel
 >
 unordered_labeled_boolean_metric
 (
-17
+11455568
 )
 ;
 }
@@ -364,7 +364,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-19
+32461197
 )
 ;
 constexpr
@@ -377,7 +377,7 @@ NoExtraKeys
 >
 event_metric
 (
-20
+110940
 )
 ;
 struct
@@ -529,7 +529,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-21
+20015710
 )
 ;
 constexpr
@@ -539,7 +539,7 @@ impl
 DenominatorMetric
 external_denominator
 (
-22
+21877185
 )
 ;
 constexpr
@@ -549,7 +549,7 @@ impl
 CounterMetric
 optimizable_counter_metric
 (
-23
+14212265
 )
 ;
 constexpr
@@ -559,7 +559,7 @@ impl
 CounterMetric
 optimizable_disabled_counter_metric
 (
-24
+7676830
 )
 ;
 constexpr
@@ -569,7 +569,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-25
+8082779
 )
 ;
 constexpr
@@ -579,7 +579,7 @@ impl
 RateMetric
 rate_metric
 (
-26
+30750772
 )
 ;
 constexpr
@@ -589,7 +589,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-27
+1413969
 )
 ;
 constexpr
@@ -599,7 +599,7 @@ impl
 UuidMetric
 uuid_metric
 (
-28
+32794253
 )
 ;
 }
@@ -613,7 +613,7 @@ impl
 BooleanMetric
 boolean_metric
 (
-29
+5536416
 )
 ;
 constexpr
@@ -623,7 +623,7 @@ impl
 CounterMetric
 counter_metric
 (
-30
+27435907
 )
 ;
 constexpr
@@ -633,7 +633,7 @@ impl
 CustomDistributionMetric
 custom_distribution_metric
 (
-31
+27313004
 )
 ;
 constexpr
@@ -650,7 +650,7 @@ DynamicLabel
 >
 labeled_boolean_metric
 (
-32
+9102331
 )
 ;
 enum
@@ -706,7 +706,7 @@ LabeledBooleanMetricLabelsLabel
 >
 labeled_boolean_metric_labels
 (
-33
+27310108
 )
 ;
 constexpr
@@ -723,7 +723,7 @@ DynamicLabel
 >
 labeled_counter_metric
 (
-34
+4435991
 )
 ;
 enum
@@ -755,7 +755,7 @@ LabeledCounterMetricLabelsLabel
 >
 labeled_counter_metric_labels
 (
-35
+27714779
 )
 ;
 constexpr
@@ -772,7 +772,7 @@ DynamicLabel
 >
 labeled_string_metric
 (
-36
+13299578
 )
 ;
 enum
@@ -804,7 +804,7 @@ LabeledStringMetricLabelsLabel
 >
 labeled_string_metric_labels
 (
-37
+21201865
 )
 ;
 constexpr
@@ -814,7 +814,7 @@ impl
 MemoryDistributionMetric
 memory_distribution_metric
 (
-38
+29118730
 )
 ;
 constexpr
@@ -824,7 +824,7 @@ impl
 StringListMetric
 string_list_metric
 (
-39
+27603867
 )
 ;
 constexpr
@@ -834,7 +834,7 @@ impl
 StringMetric
 string_metric
 (
-40
+31008897
 )
 ;
 constexpr
@@ -844,7 +844,7 @@ impl
 TextMetric
 text_metric
 (
-41
+3163718
 )
 ;
 constexpr
@@ -854,7 +854,7 @@ impl
 TimespanMetric
 timespan_metric
 (
-42
+18482215
 )
 ;
 constexpr
@@ -864,7 +864,7 @@ impl
 TimingDistributionMetric
 timing_distribution_metric
 (
-43
+14261116
 )
 ;
 constexpr
@@ -874,7 +874,7 @@ impl
 BooleanMetric
 unordered_boolean_metric
 (
-44
+17090832
 )
 ;
 constexpr
@@ -891,7 +891,7 @@ DynamicLabel
 >
 unordered_labeled_boolean_metric
 (
-45
+13310781
 )
 ;
 }
@@ -905,7 +905,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-47
+9930003
 )
 ;
 constexpr
@@ -918,7 +918,7 @@ NoExtraKeys
 >
 event_metric
 (
-48
+1091783
 )
 ;
 struct
@@ -1070,7 +1070,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-49
+20312052
 )
 ;
 constexpr
@@ -1080,7 +1080,7 @@ impl
 CounterMetric
 external_denominator
 (
-50
+2838206
 )
 ;
 constexpr
@@ -1090,7 +1090,7 @@ impl
 CounterMetric
 optimizable_counter_metric
 (
-51
+8514908
 )
 ;
 constexpr
@@ -1100,7 +1100,7 @@ impl
 CounterMetric
 optimizable_disabled_counter_metric
 (
-52
+17063655
 )
 ;
 constexpr
@@ -1110,7 +1110,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-53
+20268999
 )
 ;
 constexpr
@@ -1120,7 +1120,7 @@ impl
 RateMetric
 rate_metric
 (
-54
+15523628
 )
 ;
 constexpr
@@ -1130,7 +1130,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-55
+25857163
 )
 ;
 constexpr
@@ -1140,7 +1140,7 @@ impl
 UuidMetric
 uuid_metric
 (
-56
+23885948
 )
 ;
 }
