@@ -7805,7 +7805,7 @@ generateQI
 (
 [
 "
-nsISupportsWeakReference
+nsIObserver
 "
 ]
 )
@@ -7848,7 +7848,6 @@ Preferences
 .
 FhrUploadEnabled
 this
-true
 )
 ;
 }
@@ -7905,7 +7904,6 @@ usage
 uploadEnabled
 "
 this
-true
 )
 ;
 }
