@@ -984,13 +984,6 @@ MOZ_GECKO_PROFILER_PARSE_ELF
 "
 gecko_profiler_parse_elf
 )
-set_define
-(
-"
-MOZ_GECKO_PROFILER_PARSE_ELF
-"
-gecko_profiler_parse_elf
-)
 set_config
 (
 "
