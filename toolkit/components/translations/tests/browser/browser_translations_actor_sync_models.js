@@ -200,7 +200,9 @@ client
 recordsToCreate
 expectedUpdatedRecordsCount
 :
-3
+downloadedFilesPerLanguagePair
+(
+)
 }
 )
 ;
@@ -703,7 +705,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-3
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
@@ -1067,7 +1069,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-3
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
@@ -1436,7 +1438,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-3
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
@@ -1724,7 +1726,7 @@ recordsToCreate
 newRecords
 expectedCreatedRecordsCount
 :
-3
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
@@ -1826,7 +1828,7 @@ recordsToDelete
 newRecords
 expectedDeletedRecordsCount
 :
-3
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
@@ -2105,7 +2107,9 @@ es
 is
 (
 directSize
-3
+downloadedFilesPerLanguagePair
+(
+)
 *
 123
 "
@@ -2143,7 +2147,9 @@ is
 pivotSize
 2
 *
-3
+downloadedFilesPerLanguagePair
+(
+)
 *
 123
 "

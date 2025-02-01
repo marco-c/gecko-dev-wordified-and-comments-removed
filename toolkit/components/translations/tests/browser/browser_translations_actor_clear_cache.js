@@ -286,7 +286,9 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-15
+5
+*
+RECORDS_PER_LANGUAGE_PAIR
 }
 )
 ;
