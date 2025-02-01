@@ -78,7 +78,7 @@ js
 '
 ;
 const
-defaultMojoFromFloor
+defaultMojoFromStage
 =
 {
 matrix
@@ -110,9 +110,9 @@ const
 default_stage_parameters
 =
 {
-mojoFromFloor
+mojoFromStage
 :
-defaultMojoFromFloor
+defaultMojoFromStage
 bounds
 :
 null
@@ -2642,7 +2642,7 @@ this
 .
 stageParameters_
 .
-mojoFromFloor
+mojoFromStage
 =
 {
 matrix
@@ -8112,7 +8112,7 @@ this
 .
 stageParameters_
 .
-mojoFromFloor
+mojoFromStage
 =
 =
 null
@@ -8140,7 +8140,7 @@ this
 .
 stageParameters_
 .
-mojoFromFloor
+mojoFromStage
 .
 matrix
 ;
