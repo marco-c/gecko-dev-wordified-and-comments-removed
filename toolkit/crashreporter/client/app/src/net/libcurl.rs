@@ -572,6 +572,9 @@ Symbol
 static
 unsafe
 extern
+"
+C
+"
 fn
 args
 (
@@ -603,6 +606,9 @@ get
 <
 unsafe
 extern
+"
+C
+"
 fn
 args
 (

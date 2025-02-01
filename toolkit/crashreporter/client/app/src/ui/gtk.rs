@@ -4658,6 +4658,9 @@ GtkProgressBar
 {
 unsafe
 extern
+"
+C
+"
 fn
 pulse
 (
@@ -4733,6 +4736,9 @@ pulse
 as
 unsafe
 extern
+"
+C
+"
 fn
 (
 *
