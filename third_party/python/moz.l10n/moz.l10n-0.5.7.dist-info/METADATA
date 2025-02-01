@@ -4,7 +4,7 @@ Version
 :
 2
 .
-1
+2
 Name
 :
 moz
@@ -16,7 +16,7 @@ Version
 .
 5
 .
-6
+7
 Summary
 :
 Mozilla
@@ -237,11 +237,6 @@ Type
 text
 /
 markdown
-License
--
-File
-:
-LICENSE
 Requires
 -
 Dist
