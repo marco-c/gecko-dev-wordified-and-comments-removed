@@ -5325,6 +5325,9 @@ function
 collectSampledScrollOffsets
 (
 aElement
+aPopupElement
+=
+null
 )
 {
 let
@@ -5336,6 +5339,7 @@ DOMWindowUtils
 .
 getCompositorAPZTestData
 (
+aPopupElement
 )
 ;
 let
@@ -5354,6 +5358,7 @@ DOMWindowUtils
 .
 getLayersId
 (
+aPopupElement
 )
 ;
 const
