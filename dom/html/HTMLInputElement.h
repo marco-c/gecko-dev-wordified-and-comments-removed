@@ -3367,6 +3367,17 @@ ErrorResult
 aRv
 )
 ;
+nsIControllers
+*
+GetControllersWithoutCreation
+(
+)
+const
+{
+return
+mControllers
+;
+}
 nsresult
 GetControllers
 (

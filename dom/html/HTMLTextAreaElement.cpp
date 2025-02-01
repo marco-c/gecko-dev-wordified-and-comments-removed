@@ -2405,7 +2405,9 @@ commandController
 ;
 }
 return
-mControllers
+GetControllersWithoutCreation
+(
+)
 ;
 }
 nsresult
