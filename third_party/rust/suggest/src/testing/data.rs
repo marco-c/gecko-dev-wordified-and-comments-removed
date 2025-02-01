@@ -3,6 +3,10 @@ crate
 :
 :
 {
+suggestion
+:
+:
+FtsMatchInfo
 testing
 :
 :
@@ -219,6 +223,12 @@ full_keyword
 :
 &
 str
+fts_match_info
+:
+Option
+<
+FtsMatchInfo
+>
 )
 -
 >
@@ -406,6 +416,7 @@ full_keyword
 to_string
 (
 )
+fts_match_info
 }
 }
 pub
@@ -593,6 +604,12 @@ full_keyword
 :
 &
 str
+fts_match_info
+:
+Option
+<
+FtsMatchInfo
+>
 )
 -
 >
@@ -777,6 +794,7 @@ score
 0
 .
 2
+fts_match_info
 }
 }
 pub
@@ -1339,6 +1357,12 @@ full_keyword
 :
 &
 str
+fts_match_info
+:
+Option
+<
+FtsMatchInfo
+>
 )
 -
 >
@@ -1492,6 +1516,7 @@ full_keyword
 to_string
 (
 )
+fts_match_info
 }
 }
 pub
@@ -3921,6 +3946,12 @@ pub
 fn
 snowglobe_suggestion
 (
+match_info
+:
+Option
+<
+FtsMatchInfo
+>
 )
 -
 >
@@ -4037,6 +4068,7 @@ into
 (
 )
 )
+match_info
 }
 }
 pub
@@ -4177,6 +4209,12 @@ pub
 fn
 simpsons_suggestion
 (
+match_info
+:
+Option
+<
+FtsMatchInfo
+>
 )
 -
 >
@@ -4269,6 +4307,7 @@ None
 icon_mimetype
 :
 None
+match_info
 }
 }
 pub
