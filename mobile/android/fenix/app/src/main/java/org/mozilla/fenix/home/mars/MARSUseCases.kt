@@ -232,8 +232,8 @@ top
 sites
 or
 *
+sponsored
 content
-recommendation
 to
 record
 the
