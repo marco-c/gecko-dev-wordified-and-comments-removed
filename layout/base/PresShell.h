@@ -1200,10 +1200,8 @@ UsesMobileViewportSizing
 )
 const
 ;
-RefPtr
-<
 MobileViewportManager
->
+*
 GetMobileViewportManager
 (
 )
