@@ -203,6 +203,16 @@ TextDirectiveString
 )
 const
 ;
+void
+LogCurrentState
+(
+const
+char
+*
+aCallerFunc
+)
+const
+;
 private
 :
 TextDirectiveCandidate
