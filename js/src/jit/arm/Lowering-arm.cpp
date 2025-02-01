@@ -7588,7 +7588,7 @@ ins
 return
 ;
 }
-LWasmAtomicBinopHeap
+auto
 *
 lir
 =
@@ -7613,16 +7613,10 @@ value
 (
 )
 )
-LDefinition
-:
-:
-BogusTemp
-(
-)
+memoryBase
 temp
 (
 )
-memoryBase
 )
 ;
 define
