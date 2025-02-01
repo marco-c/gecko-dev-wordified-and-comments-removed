@@ -8522,10 +8522,15 @@ build_matrix_cache
 )
         
 if
+target_manifest
+in
+runcount
+and
 self
 .
 find_non_test_path_loader
 (
+            
 runcount
 [
 target_manifest
@@ -8536,6 +8541,7 @@ target_manifest
 [
 0
 ]
+        
 )
 :
             
