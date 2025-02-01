@@ -234,9 +234,9 @@ window
 )
 invalidCode
 (
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 globalThis
 {
