@@ -80,7 +80,7 @@ include
 "
 js
 /
-TypeDecls
+RootingAPI
 .
 h
 "
@@ -380,6 +380,10 @@ AllFrames
 (
 )
 )
+HandleObject
+startAfter
+=
+nullptr
 )
 ;
 extern

@@ -147,6 +147,16 @@ JSErrorReport
 report
 )
 ;
+static
+const
+size_t
+MAX_REPORTED_STACK_DEPTH
+=
+1u
+<
+<
+7
+;
 bool
 CaptureStack
 (

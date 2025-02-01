@@ -26515,6 +26515,11 @@ StackCapture
 &
 &
 capture
+JS
+:
+:
+HandleObject
+startAt
 )
 {
 AssertHeapIsIdle
@@ -26579,6 +26584,7 @@ move
 (
 capture
 )
+startAt
 )
 )
 {

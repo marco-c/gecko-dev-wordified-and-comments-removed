@@ -527,6 +527,14 @@ callFunction
 \
 MACRO_
 (
+captureStackTrace
+"
+captureStackTrace
+"
+)
+\
+MACRO_
+(
 cancel
 "
 cancel
