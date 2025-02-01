@@ -2259,6 +2259,9 @@ b
 '
 pub
 extern
+"
+C
+"
 fn
 hello
 (
