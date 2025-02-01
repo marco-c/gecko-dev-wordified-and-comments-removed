@@ -4648,7 +4648,6 @@ mHTMLEditor
 EnsureNoFollowingUnnecessaryLineBreak
 (
 afterLastInsertedContent
-mEditingHost
 )
 ;
 if

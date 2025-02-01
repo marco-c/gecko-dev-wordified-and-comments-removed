@@ -485,10 +485,6 @@ EditorInlineStyleAndValue
 >
 &
 aStylesToSet
-const
-Element
-&
-aEditingHost
 )
 ;
 template
@@ -509,10 +505,6 @@ EditorInlineStyleAndValue
 >
 &
 aStylesToSet
-const
-Element
-&
-aEditingHost
 )
 ;
 nsresult
@@ -1716,7 +1708,6 @@ SetInlinePropertiesAroundRanges
 (
 selectionRanges
 aStylesToSet
-aEditingHost
 )
 ;
 if
@@ -1822,10 +1813,6 @@ N
 >
 &
 aStylesToSet
-const
-Element
-&
-aEditingHost
 )
 {
 MOZ_ASSERT
@@ -2018,7 +2005,6 @@ ExtendOrShrinkRangeToApplyTheStyle
 *
 this
 range
-aEditingHost
 )
 ;
 if
@@ -2144,7 +2130,6 @@ range
 StartRef
 (
 )
-aEditingHost
 )
 ;
 if
@@ -3185,10 +3170,6 @@ const
 EditorDOMPoint
 &
 aCandidatePointToInsert
-const
-Element
-&
-aEditingHost
 )
 {
 auto
@@ -3203,7 +3184,6 @@ EditorDOMPoint
 >
 (
 aCandidatePointToInsert
-aEditingHost
 )
 ;
 if
@@ -10985,10 +10965,6 @@ const
 EditorDOMRange
 &
 aRange
-const
-Element
-&
-aEditingHost
 )
 const
 {
@@ -11066,8 +11042,13 @@ WSRunScanner
 :
 ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
-&
-aEditingHost
+WSRunScanner
+:
+:
+Scan
+:
+:
+EditableNodes
 range
 .
 EndRef

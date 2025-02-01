@@ -258,10 +258,6 @@ const
 EditorDOMRange
 &
 aRange
-const
-Element
-&
-aEditingHost
 )
 const
 ;
@@ -333,10 +329,6 @@ const
 EditorDOMPoint
 &
 aCandidatePointToInsert
-const
-Element
-&
-aEditingHost
 )
 ;
 private
