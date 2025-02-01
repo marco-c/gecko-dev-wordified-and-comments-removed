@@ -416,6 +416,14 @@ aSTG
 ;
 private
 :
+enum
+class
+DibType
+{
+Bmp
+Png
+}
+;
 HRESULT
 GetDib
 (
@@ -428,6 +436,8 @@ FORMATETC
 STGMEDIUM
 &
 aSTG
+DibType
+aDibType
 )
 ;
 HRESULT
