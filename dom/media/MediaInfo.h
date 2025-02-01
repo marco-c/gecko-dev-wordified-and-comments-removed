@@ -1976,7 +1976,7 @@ kDegree_0
 ;
 }
 }
-nsString
+nsCString
 ToString
 (
 )
@@ -2099,14 +2099,13 @@ BT2020
 "
 }
 ;
-nsString
+nsAutoCString
 rv
 ;
 rv
 .
 AppendLiteral
 (
-u
 "
 VideoInfo
 :
