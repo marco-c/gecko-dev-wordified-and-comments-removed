@@ -14555,6 +14555,15 @@ aMouseInput
 {
 if
 (
+!
+StaticPrefs
+:
+:
+apz_mousemove_hittest_optimization_enabled
+(
+)
+|
+|
 aMouseInput
 .
 mType
