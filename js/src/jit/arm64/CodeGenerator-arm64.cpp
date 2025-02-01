@@ -1952,9 +1952,8 @@ toWRegister
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 ;
