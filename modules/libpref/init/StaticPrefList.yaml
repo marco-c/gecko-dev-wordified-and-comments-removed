@@ -86359,7 +86359,7 @@ for
 a
 URL
 -
-32MB
+512MB
 default
 .
 #
@@ -86385,7 +86385,7 @@ type
 RelaxedAtomicUint32
 value
 :
-32
+512
 *
 1024
 *
