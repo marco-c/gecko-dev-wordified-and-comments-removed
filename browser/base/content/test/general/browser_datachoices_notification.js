@@ -178,6 +178,7 @@ clearShowInfobarTimeout
 clear
 ;
 }
+async
 function
 sendSessionRestoredNotification
 (
@@ -209,6 +210,7 @@ mjs
 .
 Policy
 ;
+await
 reportingPolicy
 .
 fakeSessionRestoreNotification
@@ -312,6 +314,7 @@ deferred
 promise
 ;
 }
+async
 function
 triggerInfoBar
 (
@@ -354,6 +357,7 @@ timeout
 }
 )
 ;
+await
 sendSessionRestoredNotification
 (
 )
@@ -749,6 +753,7 @@ upload
 "
 )
 ;
+await
 triggerInfoBar
 (
 10
