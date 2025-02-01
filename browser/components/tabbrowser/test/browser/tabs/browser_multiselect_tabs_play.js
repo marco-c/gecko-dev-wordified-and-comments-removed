@@ -856,7 +856,7 @@ pressIcon
 (
 tab2
 .
-audioButton
+overlayIcon
 )
 ;
 info
