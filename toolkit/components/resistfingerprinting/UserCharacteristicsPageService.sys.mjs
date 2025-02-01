@@ -3292,6 +3292,7 @@ window
 navigator
 .
 gpu
+?
 .
 requestAdapter
 (
