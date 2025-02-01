@@ -43,6 +43,13 @@ js
 ]
 [
 "
+test_FilterAdult
+.
+js
+"
+]
+[
+"
 test_FirefoxBridgeExtensionUtils
 .
 js

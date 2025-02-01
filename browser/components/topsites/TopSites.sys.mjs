@@ -213,11 +213,8 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
 FilterAdult
 .
