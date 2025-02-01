@@ -47,17 +47,15 @@ path
 import
 sys
 from
+filelock
+import
+SoftFileLock
+from
 mozbuild
 .
 dirutils
 import
 ensureParentDir
-from
-mozbuild
-.
-lock
-import
-lock_file
 def
 addEntriesToListFile
 (
@@ -103,9 +101,8 @@ ensureParentDir
 listFile
 )
     
-lock
-=
-lock_file
+with
+SoftFileLock
 (
 listFile
 +
@@ -113,9 +110,11 @@ listFile
 .
 lck
 "
+timeout
+=
+-
+1
 )
-    
-try
 :
         
 if
@@ -212,12 +211,6 @@ existing
 n
 "
 )
-    
-finally
-:
-        
-del
-lock
 def
 main
 (
