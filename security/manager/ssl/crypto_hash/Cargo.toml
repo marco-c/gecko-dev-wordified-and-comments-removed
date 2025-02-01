@@ -118,6 +118,9 @@ sha1
 "
 sha2
 =
+{
+version
+=
 "
 0
 .
@@ -125,6 +128,14 @@ sha2
 .
 2
 "
+features
+=
+[
+"
+asm
+"
+]
+}
 xpcom
 =
 {
