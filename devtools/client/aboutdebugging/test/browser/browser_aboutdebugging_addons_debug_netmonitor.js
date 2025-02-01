@@ -451,7 +451,7 @@ firstRequest
 )
 ;
 await
-selectContextMenuItem
+selectNetmonitorContextMenuItem
 (
 monitor
 "

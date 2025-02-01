@@ -9150,7 +9150,7 @@ Console
 }
 }
 function
-getContextMenuItem
+getNetmonitorContextMenuItem
 (
 monitor
 id
@@ -9194,7 +9194,7 @@ document
 }
 async
 function
-selectContextMenuItem
+selectNetmonitorContextMenuItem
 (
 monitor
 id
@@ -9203,7 +9203,7 @@ id
 const
 contextMenuItem
 =
-getContextMenuItem
+getNetmonitorContextMenuItem
 (
 monitor
 id
@@ -9217,7 +9217,7 @@ contextMenuItem
 parentNode
 ;
 await
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 contextMenuItem
 )
@@ -9248,7 +9248,7 @@ hidden
 }
 async
 function
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 menuItem
 )
@@ -9268,7 +9268,7 @@ state
 =
 =
 "
-shown
+open
 "
 )
 {
@@ -9314,7 +9314,7 @@ parentPopup
 parentNode
 ;
 await
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 parentMenu
 )
