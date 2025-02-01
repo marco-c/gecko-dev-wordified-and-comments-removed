@@ -485,14 +485,11 @@ Reporter
 .
 *
 /
+const
 val
 webCompatReporter
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 /
 *
 *
