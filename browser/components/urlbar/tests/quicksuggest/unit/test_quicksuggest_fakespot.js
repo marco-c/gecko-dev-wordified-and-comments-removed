@@ -1338,6 +1338,13 @@ getFeature
 FakespotSuggestions
 "
 )
+expectedCountsByCall
+:
+{
+removeResult
+:
+1
+}
 }
 )
 ;
@@ -1585,6 +1592,13 @@ getFeature
 FakespotSuggestions
 "
 )
+expectedCountsByCall
+:
+{
+removeResult
+:
+1
+}
 }
 )
 ;

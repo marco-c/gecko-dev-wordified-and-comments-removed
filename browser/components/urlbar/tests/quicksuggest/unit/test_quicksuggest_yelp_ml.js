@@ -2232,6 +2232,13 @@ getFeature
 YelpSuggestions
 "
 )
+expectedCountsByCall
+:
+{
+removeResult
+:
+1
+}
 }
 )
 ;
