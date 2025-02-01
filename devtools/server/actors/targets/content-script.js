@@ -364,7 +364,7 @@ shouldAddNewGlobalAsDebuggee
 )
 =
 >
-true
+false
 }
 )
 ;
