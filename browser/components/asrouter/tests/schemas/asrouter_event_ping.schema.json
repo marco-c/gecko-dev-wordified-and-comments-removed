@@ -30,9 +30,9 @@ browser
 /
 components
 /
-newtab
+asrouter
 /
-test
+tests
 /
 schemas
 /
