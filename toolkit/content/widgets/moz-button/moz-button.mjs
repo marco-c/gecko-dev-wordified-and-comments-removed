@@ -713,6 +713,9 @@ String
 mapped
 :
 true
+fluent
+:
+true
 }
 }
 ;
