@@ -244,6 +244,13 @@ RemoteTextureOwnerId
 >
 &
 aOwnerId
+const
+Maybe
+<
+RawId
+>
+&
+aCommandEncoderId
 webgl
 :
 :
