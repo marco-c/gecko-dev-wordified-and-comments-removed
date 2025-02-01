@@ -170,6 +170,15 @@ resume
 await
 onReloaded
 ;
+await
+dbg
+.
+toolbox
+.
+closeToolbox
+(
+)
+;
 }
 )
 ;
