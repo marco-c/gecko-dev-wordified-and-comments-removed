@@ -8318,9 +8318,8 @@ ToRegister
 ins
 -
 >
-getOperand
+input
 (
-0
 )
 )
 ;
@@ -9352,9 +9351,8 @@ input
 ins
 -
 >
-getOperand
+input
 (
-0
 )
 ;
 MOZ_ASSERT
@@ -9398,9 +9396,8 @@ lhs
 ins
 -
 >
-getOperand
+lhs
 (
-0
 )
 ;
 const
@@ -9411,9 +9408,8 @@ rhs
 ins
 -
 >
-getOperand
+rhs
 (
-1
 )
 ;
 switch
@@ -13712,9 +13708,8 @@ out
 ins
 -
 >
-getDef
+output
 (
-0
 )
 ;
 masm

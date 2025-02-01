@@ -270,9 +270,8 @@ in
 box
 -
 >
-getOperand
+payload
 (
-0
 )
 ;
 ValueOperand
@@ -5889,9 +5888,8 @@ input
 lir
 -
 >
-getOperand
+input
 (
-0
 )
 ;
 Register
