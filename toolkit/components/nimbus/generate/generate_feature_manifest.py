@@ -100,6 +100,10 @@ aboutwelcome
 "
     
 "
+bounceTrackingProtection
+"
+    
+"
 newtab
 "
     
