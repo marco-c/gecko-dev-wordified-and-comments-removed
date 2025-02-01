@@ -19248,10 +19248,6 @@ cert_san_and_generic_extensions
 {
 EXTDUMP
 =
-{
-CERT_EXTENSIONS_DIR
-}
-/
 sanext
 .
 der

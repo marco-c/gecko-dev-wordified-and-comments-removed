@@ -120,7 +120,7 @@ popd
 #
 Build
 .
-make
+mozmake
 -
 C
 nss

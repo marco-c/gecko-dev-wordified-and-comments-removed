@@ -1128,6 +1128,9 @@ ifneq
 (
 (
 filter
+MSYS_NT
+-
+%
 MINGW32_NT
 -
 %
@@ -1144,6 +1147,12 @@ OS_RELEASE
 =
 (
 patsubst
+MSYS_NT
+-
+%
+%
+(
+patsubst
 MINGW64_NT
 -
 %
@@ -1156,6 +1165,7 @@ MINGW32_NT
 %
 (
 OS_ARCH
+)
 )
 )
 )
