@@ -1642,7 +1642,7 @@ onTermsOfServiceLinkClick
 {
 Onboarding
 .
-termsOfServiceCard
+termsOfServiceLinkClicked
 .
 record
 (
