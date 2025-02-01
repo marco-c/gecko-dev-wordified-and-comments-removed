@@ -746,7 +746,7 @@ name
 :
 '
 [
-dequantizeLinear
+quantizeLinear
 ]
 Throw
 if
