@@ -89,11 +89,9 @@ org
 .
 mozilla
 .
-geckoview
+fenix
 .
 BuildConfig
-.
-MOZ_APP_VERSION
 /
 *
 *
@@ -139,7 +137,9 @@ CrashReporter
 .
 RELEASE_RUNTIME_TAG
 to
-MOZ_APP_VERSION
+BuildConfig
+.
+VERSION_NAME
 )
 }
 }
