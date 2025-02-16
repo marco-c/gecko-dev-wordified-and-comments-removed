@@ -322,7 +322,7 @@ resolves
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -413,7 +413,7 @@ false
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -450,7 +450,7 @@ true
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -615,7 +615,7 @@ onFinalize
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -845,7 +845,7 @@ onFinalize
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -1089,7 +1089,7 @@ true
 await
 loader
 .
-init
+enable
 (
 {
 isFirstStartup
@@ -1228,7 +1228,7 @@ false
 await
 loader
 .
-init
+enable
 (
 {
 isFirstStartup
@@ -2051,7 +2051,7 @@ onFinalize
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -2122,7 +2122,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;

@@ -1985,7 +1985,7 @@ lazy
 .
 RemoteSettingsExperimentLoader
 .
-init
+enable
 (
 {
 forceSync

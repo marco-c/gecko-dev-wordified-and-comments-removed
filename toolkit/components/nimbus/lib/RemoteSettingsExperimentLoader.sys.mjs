@@ -698,7 +698,7 @@ set
 ?
 this
 .
-_initialized
+_enabled
 =
 false
 ;
@@ -954,7 +954,7 @@ updated
 *
 /
 async
-init
+enable
 (
 options
 =
@@ -975,7 +975,7 @@ if
 (
 this
 .
-_initialized
+_enabled
 |
 |
 !
@@ -1005,14 +1005,14 @@ addCleanupHandler
 >
 this
 .
-uninit
+disable
 (
 )
 )
 ;
 this
 .
-_initialized
+_enabled
 =
 true
 ;
@@ -1021,14 +1021,16 @@ this
 .
 updateRecipes
 (
-undefined
+"
+enabled
+"
 {
 forceSync
 }
 )
 ;
 }
-uninit
+disable
 (
 )
 {
@@ -1037,7 +1039,7 @@ if
 !
 this
 .
-_initialized
+_enabled
 )
 {
 return
@@ -1054,7 +1056,7 @@ TIMER_NAME
 ;
 this
 .
-_initialized
+_enabled
 =
 false
 ;
@@ -1153,7 +1155,7 @@ _updating
 !
 this
 .
-_initialized
+_enabled
 )
 {
 return
@@ -2793,7 +2795,7 @@ if
 (
 this
 .
-_initialized
+_enabled
 &
 &
 !
@@ -2804,7 +2806,7 @@ studiesEnabled
 {
 this
 .
-uninit
+disable
 (
 )
 ;
@@ -2815,7 +2817,7 @@ if
 !
 this
 .
-_initialized
+_enabled
 &
 &
 this
@@ -2866,7 +2868,7 @@ enabled
 .
 this
 .
-init
+enable
 (
 )
 ;

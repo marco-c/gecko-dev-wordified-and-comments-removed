@@ -4634,7 +4634,7 @@ onStartup
 await
 loader
 .
-init
+enable
 (
 )
 ;

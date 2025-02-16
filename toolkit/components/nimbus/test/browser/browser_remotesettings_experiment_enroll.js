@@ -505,7 +505,7 @@ ok
 !
 RemoteSettingsExperimentLoader
 .
-_initialized
+_enabled
 "
 Should
 be
@@ -544,7 +544,7 @@ ok
 (
 RemoteSettingsExperimentLoader
 .
-_initialized
+_enabled
 "
 Should
 be

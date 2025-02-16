@@ -337,7 +337,7 @@ recipe
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -513,7 +513,7 @@ IN_PROGRESS
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -741,7 +741,7 @@ returns
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -963,7 +963,7 @@ returns
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -1128,7 +1128,7 @@ returns
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -1312,7 +1312,7 @@ updateRecipes
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -1945,7 +1945,7 @@ updateRecipes
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -2581,7 +2581,7 @@ resolves
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -3422,7 +3422,7 @@ sendValidationFailedTelemetry
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -3935,7 +3935,7 @@ sendValidationFailedTelemetry
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -4212,7 +4212,7 @@ ID
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -4633,7 +4633,7 @@ onFinalize
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -4855,7 +4855,7 @@ resolves
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -5260,7 +5260,7 @@ returns
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -5643,7 +5643,7 @@ checkRecipe
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -5965,7 +5965,7 @@ total
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -6322,7 +6322,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -6656,7 +6656,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -6878,7 +6878,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -7079,7 +7079,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -8238,7 +8238,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -9269,7 +9269,7 @@ resolves
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -9443,7 +9443,7 @@ manager
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -9665,7 +9665,7 @@ count
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -10139,7 +10139,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -10545,7 +10545,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -10819,7 +10819,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -11178,7 +11178,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -11500,7 +11500,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -11827,7 +11827,7 @@ setTimer
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -12014,9 +12014,7 @@ enrolled
 ;
 manager
 .
-store
-.
-_deleteForTests
+unenroll
 (
 "
 opt
