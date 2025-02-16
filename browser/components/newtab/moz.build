@@ -97,13 +97,3 @@ components
 conf
 "
 ]
-JAR_MANIFESTS
-+
-=
-[
-"
-jar
-.
-mn
-"
-]
