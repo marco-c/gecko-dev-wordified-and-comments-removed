@@ -470,6 +470,7 @@ className
 tile
 -
 header
+secondary
 "
 onClick
 =
@@ -1105,6 +1106,7 @@ content
 tiles
 -
 header
+secondary
 "
 onClick
 =
