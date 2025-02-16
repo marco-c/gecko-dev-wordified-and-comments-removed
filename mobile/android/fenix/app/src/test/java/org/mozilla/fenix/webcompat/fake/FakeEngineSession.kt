@@ -246,6 +246,10 @@ String
 String
 >
 ?
+originalInput
+:
+String
+?
 )
 {
 }
