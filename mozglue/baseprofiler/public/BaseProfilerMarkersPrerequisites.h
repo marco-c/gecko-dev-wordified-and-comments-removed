@@ -4220,6 +4220,15 @@ constexpr
 const
 char
 *
+Description
+=
+nullptr
+;
+static
+constexpr
+const
+char
+*
 AllLabels
 =
 nullptr

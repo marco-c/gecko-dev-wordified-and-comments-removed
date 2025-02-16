@@ -4352,16 +4352,6 @@ Name
 IPCFlowMarker
 "
 ;
-static
-constexpr
-const
-char
-*
-Description
-=
-"
-"
-;
 using
 MS
 =
