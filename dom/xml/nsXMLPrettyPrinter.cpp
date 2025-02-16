@@ -462,6 +462,7 @@ TransformToFragment
 (
 *
 aDocument
+false
 *
 aDocument
 err
