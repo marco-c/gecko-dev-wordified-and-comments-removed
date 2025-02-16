@@ -269,6 +269,11 @@ SharedMemory
 h
 "
 "
+SharedMemoryCursor
+.
+h
+"
+"
 SharedMemoryHandle
 .
 h
@@ -1080,6 +1085,11 @@ cpp
 "
 "
 BackgroundParentImpl
+.
+cpp
+"
+"
+SharedMemoryCursor
 .
 cpp
 "
