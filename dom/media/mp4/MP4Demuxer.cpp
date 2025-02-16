@@ -2287,6 +2287,13 @@ spsdata
 ;
 if
 (
+!
+videoInfo
+-
+>
+mPixelAspectRatio
+&
+&
 H264
 :
 :
@@ -2436,6 +2443,15 @@ kHEVC
 ;
 if
 (
+!
+videoInfo
+-
+>
+mPixelAspectRatio
+)
+{
+if
+(
 auto
 rv
 =
@@ -2535,6 +2551,7 @@ Height
 (
 )
 ;
+}
 }
 }
 }
