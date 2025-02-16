@@ -64,6 +64,17 @@ kDefaultScalabilityModeStr
 L1T2
 "
 ;
+static
+constexpr
+char
+kNoLayeringScalabilityModeStr
+[
+]
+=
+"
+L1T1
+"
+;
 RTC_EXPORT
 std
 :
