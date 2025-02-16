@@ -2314,6 +2314,11 @@ focus
 |
 checkbox
 -
+|
+table
+-
+row
+-
 )
 /
 ;
