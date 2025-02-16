@@ -17,6 +17,13 @@ files
 =
 [
 "
+devtools
+-
+mono
+.
+otf
+"
+"
 doc_browser_fontinspector
 .
 html

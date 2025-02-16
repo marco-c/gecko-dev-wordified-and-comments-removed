@@ -81,7 +81,7 @@ getAllFontsEls
 viewDoc
 )
 [
-0
+1
 ]
 ;
 const
