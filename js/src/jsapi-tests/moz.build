@@ -550,11 +550,6 @@ testPropertyKey
 cpp
 "
 "
-testRecordTupleToSource
-.
-cpp
-"
-"
 testRegExp
 .
 cpp
