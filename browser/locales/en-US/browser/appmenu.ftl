@@ -2300,6 +2300,11 @@ panel
 appmenu
 -
 profiles
+-
+2
+=
+.
+label
 =
 Profiles
 appmenu
