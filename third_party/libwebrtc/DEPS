@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-5ee666959129b63ac67d71fb0201310112dae6b6
+d258c3a16cdfd5dafe2206566c133df6fafa247c
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-afcbcca95fc7ffab328c0d3afd0189b31e9035ff
+eccae6634955b5ae5b07cd0ffa8c1de64e51f535
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-63ad9737d7f81009ebcec8d0fda83b3079342b54
+43a1bdc7c42d9d0460ba86140276d018bf7b18b6
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-cdd3c07df71e092c7c8fbb9532b0a6835e5e6a8f
+9d2b80e8cddc0ae23557baa14a93b8136b1d007b
 '
 '
 condition
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-bc71681368be7c242d91f8ac2890ae95b13c07aa
+4d627150b03baca73ca1b162bf76402f17ef2ae3
 '
 '
 src
@@ -2138,7 +2138,7 @@ com
 boringssl
 .
 git
-cf6dc5d38385e4ff6faf9bf0883a67c2f511076b
+822902749a5956bba09c7e9e451104e8a74f02c5
 '
 '
 src
@@ -3409,7 +3409,7 @@ external
 perfetto
 .
 git
-7bf1bcbc57dff90be8ff68c017832c47a1d03a24
+146a77bab9680922a17d665a206e51891f644eae
 '
 '
 src
@@ -3479,7 +3479,7 @@ webm
 libvpx
 .
 git
-62df56d12b1ebf1db154c3f82761747397ea2731
+8ae5601c5f8288968a158a6fa1746a7021db505a
 '
 '
 src
@@ -3956,7 +3956,7 @@ chromium
 src
 /
 tools
-6307f8da28d9eaeae17ad9088adb2242cd5d3913
+e6869404f4c87f7c9d7bf747c2d3d1438c47d0a6
 '
 '
 src
