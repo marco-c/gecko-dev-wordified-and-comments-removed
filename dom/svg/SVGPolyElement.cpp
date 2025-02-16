@@ -180,6 +180,15 @@ nsGkAtoms
 :
 :
 points
+|
+|
+aName
+=
+=
+nsGkAtoms
+:
+:
+pathLength
 ;
 }
 void
