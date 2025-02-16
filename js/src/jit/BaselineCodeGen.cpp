@@ -30,6 +30,15 @@ include
 "
 jit
 /
+BaselineCompileQueue
+.
+h
+"
+#
+include
+"
+jit
+/
 BaselineCompileTask
 .
 h
@@ -8426,7 +8435,7 @@ NonZero
 scriptReg
 Imm32
 (
-CompilingOrDisabledBit
+SpecialScriptBit
 )
 &
 done
@@ -8955,7 +8964,7 @@ offsetOfBaselineScript
 )
 Imm32
 (
-CompilingOrDisabledBit
+SpecialScriptBit
 )
 &
 done
@@ -30624,7 +30633,7 @@ static_assert
 CompilingScript
 =
 =
-0x3
+0x5
 "
 Comparison
 below
