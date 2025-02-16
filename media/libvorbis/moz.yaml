@@ -102,9 +102,6 @@ source
 hosting
 :
 gitlab
-tracking
-:
-tag
 exclude
 :
 -
