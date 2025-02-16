@@ -315,6 +315,16 @@ name
 "
 importGlobalProperties
 "
+&
+&
+node
+.
+arguments
+.
+length
+>
+=
+1
 )
 {
 if

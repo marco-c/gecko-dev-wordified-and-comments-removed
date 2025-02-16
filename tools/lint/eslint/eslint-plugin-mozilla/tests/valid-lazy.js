@@ -214,6 +214,13 @@ lazy
 =
 createLazyLoaders
 (
+)
+;
+const
+lazy
+=
+createLazyLoaders
+(
 {
 foo
 :

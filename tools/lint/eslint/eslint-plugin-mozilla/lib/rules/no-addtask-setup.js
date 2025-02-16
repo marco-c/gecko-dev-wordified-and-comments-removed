@@ -179,6 +179,10 @@ arguments
 ;
 if
 (
+!
+arg
+|
+|
 arg
 .
 type
