@@ -1932,6 +1932,12 @@ disconnect
 (
 )
 ;
+this
+.
+_mainResizeObserverAdded
+=
+false
+;
 }
 this
 .
