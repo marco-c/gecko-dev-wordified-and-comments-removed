@@ -1862,10 +1862,6 @@ relay_port_factory_interface
 "
 "
 :
-rtc_p2p
-"
-"
-:
 stun_port
 "
 "
@@ -5901,10 +5897,6 @@ p2p_constants
 "
 "
 :
-rtc_p2p
-"
-"
-:
 transport_description
 "
 "
@@ -6225,10 +6217,6 @@ port_allocator
 "
 :
 relay_port_factory_interface
-"
-"
-:
-rtc_p2p
 "
 "
 :
@@ -7460,10 +7448,6 @@ regathering_controller
 "
 :
 relay_port_factory_interface
-"
-"
-:
-rtc_p2p
 "
 "
 :

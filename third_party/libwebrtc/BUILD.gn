@@ -3360,11 +3360,6 @@ video_capture
 video_capture_internal_impl
 "
 "
-p2p
-:
-rtc_p2p
-"
-"
 pc
 :
 libjingle_peerconnection
