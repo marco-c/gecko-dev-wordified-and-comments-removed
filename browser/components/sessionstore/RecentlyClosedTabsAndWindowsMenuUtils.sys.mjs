@@ -538,13 +538,11 @@ index
 >
 {
 let
-{
 groupId
-}
 =
 tab
 .
-state
+closedInTabGroupId
 ;
 if
 (
