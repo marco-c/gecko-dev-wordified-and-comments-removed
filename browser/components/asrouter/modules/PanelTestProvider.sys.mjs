@@ -689,7 +689,7 @@ checkbox
 "
 defaultValue
 :
-false
+true
 label
 :
 {
