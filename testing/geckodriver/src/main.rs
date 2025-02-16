@@ -74,10 +74,6 @@ serde_json
 ;
 extern
 crate
-serde_yaml
-;
-extern
-crate
 tempfile
 ;
 extern
@@ -91,6 +87,10 @@ uuid
 extern
 crate
 webdriver
+;
+extern
+crate
+yaml_rust
 ;
 extern
 crate
