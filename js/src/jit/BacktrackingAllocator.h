@@ -3653,12 +3653,7 @@ CodePosition
 to
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 tryMergeBundles
 (
 LiveBundle
