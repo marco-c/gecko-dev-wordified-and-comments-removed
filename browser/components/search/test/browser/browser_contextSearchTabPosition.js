@@ -192,10 +192,11 @@ blank
 "
 )
 ;
-BrowserSearch
+SearchUIUtils
 .
 loadSearchFromContext
 (
+window
 "
 mozilla
 "
@@ -225,10 +226,11 @@ click
 )
 )
 ;
-BrowserSearch
+SearchUIUtils
 .
 loadSearchFromContext
 (
+window
 "
 firefox
 "
