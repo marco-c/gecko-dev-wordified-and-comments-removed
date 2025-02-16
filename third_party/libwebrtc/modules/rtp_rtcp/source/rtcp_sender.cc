@@ -1413,6 +1413,7 @@ SetSendingStatus
 const
 FeedbackState
 &
+feedback_state
 bool
 sending
 )
