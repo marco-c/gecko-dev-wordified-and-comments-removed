@@ -366,6 +366,13 @@ js
 ]
 [
 "
+test_maximal_structured_clone_size
+.
+js
+"
+]
+[
+"
 test_metadata2Restore
 .
 js

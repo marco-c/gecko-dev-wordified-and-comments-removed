@@ -473,6 +473,13 @@ js
 "
 unit
 /
+test_maximal_structured_clone_size
+.
+js
+"
+"
+unit
+/
 test_multientry
 .
 js
@@ -1690,6 +1697,13 @@ html
 [
 "
 test_maximal_serialized_object_size
+.
+html
+"
+]
+[
+"
+test_maximal_structured_clone_size
 .
 html
 "

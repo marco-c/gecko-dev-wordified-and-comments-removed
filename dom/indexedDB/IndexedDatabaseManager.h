@@ -272,6 +272,12 @@ DataThreshold
 ;
 static
 uint32_t
+MaxStructuredCloneSize
+(
+)
+;
+static
+uint32_t
 MaxSerializedMsgSize
 (
 )
