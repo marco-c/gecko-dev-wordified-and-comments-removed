@@ -32801,6 +32801,11 @@ getUIState
 (
 )
 ;
+if
+(
+sidebarUIState
+)
+{
 winData
 .
 sidebar
@@ -32810,6 +32815,7 @@ structuredClone
 sidebarUIState
 )
 ;
+}
 let
 workspaceID
 =
