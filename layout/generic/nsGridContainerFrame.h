@@ -1455,7 +1455,7 @@ ReflowChildren
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -1735,7 +1735,7 @@ GetNearestFragmentainer
 const
 GridReflowInput
 &
-aState
+aGridRI
 )
 const
 ;
@@ -1744,7 +1744,7 @@ ReflowInFragmentainer
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -1769,7 +1769,7 @@ ReflowRowsInFragmentainer
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -1835,7 +1835,7 @@ aFragmentainer
 const
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -1853,7 +1853,7 @@ MasonryLayout
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
