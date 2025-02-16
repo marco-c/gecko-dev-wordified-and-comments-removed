@@ -1088,7 +1088,7 @@ environ
 get
 (
 "
-ANDROID_SERIAL
+DEVICE_SERIAL
 "
 "
 emulator
