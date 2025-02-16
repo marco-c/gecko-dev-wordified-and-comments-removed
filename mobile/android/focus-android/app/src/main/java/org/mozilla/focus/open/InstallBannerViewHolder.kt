@@ -101,9 +101,7 @@ focus
 .
 activity
 .
-InstallFirefoxActivity
-.
-Companion
+FirefoxInstallationHelper
 .
 open
 /

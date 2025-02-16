@@ -743,7 +743,7 @@ focus
 .
 activity
 .
-InstallFirefoxActivity
+FirefoxInstallationHelper
 import
 org
 .
@@ -5098,7 +5098,7 @@ null
 }
 else
 {
-InstallFirefoxActivity
+FirefoxInstallationHelper
 .
 resolveAppStore
 (
