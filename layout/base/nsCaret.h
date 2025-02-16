@@ -591,11 +591,6 @@ mBlinkCount
 -
 1
 ;
-int32_t
-mBlinkRate
-=
-0
-;
 uint32_t
 mHideCount
 =
