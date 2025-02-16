@@ -2638,6 +2638,10 @@ i
 ogg_uint32_t
 word
 =
+(
+(
+ogg_uint32_t
+)
 i
 <
 <
@@ -2648,6 +2652,7 @@ c
 -
 >
 dec_firsttablen
+)
 )
 ;
 if
@@ -3510,7 +3515,7 @@ exit
 ;
 }
 }
-free
+_ogg_free
 (
 out
 )
