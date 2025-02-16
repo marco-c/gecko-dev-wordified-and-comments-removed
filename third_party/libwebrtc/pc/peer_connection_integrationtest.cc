@@ -25224,15 +25224,6 @@ caller
 )
 -
 >
-AddCorruptionDetectionHeader
-(
-)
-;
-caller
-(
-)
--
->
 AddAudioVideoTracks
 (
 )
@@ -25243,6 +25234,15 @@ callee
 -
 >
 AddAudioVideoTracks
+(
+)
+;
+caller
+(
+)
+-
+>
+NegotiateCorruptionDetectionHeader
 (
 )
 ;
@@ -25536,7 +25536,7 @@ caller
 )
 -
 >
-AddCorruptionDetectionHeader
+AddAudioVideoTracks
 (
 )
 ;
@@ -25545,7 +25545,7 @@ callee
 )
 -
 >
-AddCorruptionDetectionHeader
+AddAudioVideoTracks
 (
 )
 ;
@@ -25554,7 +25554,7 @@ caller
 )
 -
 >
-AddAudioVideoTracks
+NegotiateCorruptionDetectionHeader
 (
 )
 ;
@@ -25563,7 +25563,7 @@ callee
 )
 -
 >
-AddAudioVideoTracks
+NegotiateCorruptionDetectionHeader
 (
 )
 ;
@@ -25810,7 +25810,7 @@ caller
 )
 -
 >
-AddCorruptionDetectionHeader
+NegotiateCorruptionDetectionHeader
 (
 )
 ;
@@ -25819,7 +25819,7 @@ callee
 )
 -
 >
-AddCorruptionDetectionHeader
+NegotiateCorruptionDetectionHeader
 (
 )
 ;
