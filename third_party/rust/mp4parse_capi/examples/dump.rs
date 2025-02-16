@@ -5,12 +5,6 @@ log
 info
 ;
 use
-mp4parse
-:
-:
-ParseStrictness
-;
-use
 mp4parse_capi
 :
 :
