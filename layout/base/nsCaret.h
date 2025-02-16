@@ -579,6 +579,12 @@ nsITimer
 >
 mBlinkTimer
 ;
+mozilla
+:
+:
+TimeStamp
+mLastBlinkTimerReset
+;
 CaretPosition
 mCaretPosition
 ;
@@ -587,6 +593,12 @@ mLastPaintedFrame
 ;
 int32_t
 mBlinkCount
+=
+-
+1
+;
+int32_t
+mBlinkTime
 =
 -
 1
