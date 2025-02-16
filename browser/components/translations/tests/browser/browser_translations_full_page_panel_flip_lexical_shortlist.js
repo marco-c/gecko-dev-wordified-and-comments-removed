@@ -110,7 +110,7 @@ runInPage
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -205,7 +205,7 @@ runInPage
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -414,7 +414,7 @@ runInPage
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -509,7 +509,7 @@ runInPage
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )

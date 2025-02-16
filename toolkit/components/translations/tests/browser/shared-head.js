@@ -7154,7 +7154,7 @@ prefs
 }
 async
 function
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 callback
 )
@@ -7186,7 +7186,9 @@ onChange
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "
@@ -7207,7 +7209,9 @@ onChange
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "

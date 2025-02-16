@@ -397,7 +397,7 @@ true
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -636,7 +636,7 @@ false
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
