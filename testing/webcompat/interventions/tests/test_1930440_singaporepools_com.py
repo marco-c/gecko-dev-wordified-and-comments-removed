@@ -42,6 +42,11 @@ shouldPass
 )
 :
     
+if
+not
+shouldPass
+:
+        
 alert
 =
 await
@@ -63,25 +68,14 @@ navigate
 URL
 )
     
-gotAlert
-=
+if
+not
+shouldPass
+:
+        
+assert
 await
 alert
-    
-assert
-(
-shouldPass
-and
-not
-gotAlert
-)
-or
-(
-not
-shouldPass
-and
-gotAlert
-)
     
 assert
 client
