@@ -444,6 +444,14 @@ attribute
 WindowGlobalParent
 windowGlobalParent
 ;
+attribute
+ACString
+userActionId
+;
+attribute
+int64_t
+userActionRequestsCount
+;
 }
 ;
 [
