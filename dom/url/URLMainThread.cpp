@@ -458,9 +458,12 @@ aResult
 BlobURLProtocolHandler
 :
 :
-RemoveDataEntry
+RemoveDataEntries
 (
+nsTArray
+{
 result
+}
 )
 ;
 }
