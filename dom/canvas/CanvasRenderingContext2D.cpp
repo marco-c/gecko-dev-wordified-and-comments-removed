@@ -21355,6 +21355,17 @@ FlushUserFontSet
 )
 ;
 }
+StyleComputedFontStyleDescriptor
+style
+(
+StyleComputedFontStyleDescriptor
+:
+:
+Normal
+(
+)
+)
+;
 StyleFontFamilyList
 list
 ;
