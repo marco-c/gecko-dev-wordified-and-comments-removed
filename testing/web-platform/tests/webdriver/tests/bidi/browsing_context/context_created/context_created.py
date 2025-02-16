@@ -1765,8 +1765,6 @@ None
         
 user_context
 =
-"
-default
-"
+user_context
     
 )
