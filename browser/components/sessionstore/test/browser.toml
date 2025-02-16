@@ -2132,6 +2132,13 @@ js
 ]
 [
 "
+browser_tab_groups_restore_to_group
+.
+js
+"
+]
+[
+"
 browser_tab_groups_save_on_removeAllTabsBut
 .
 js
