@@ -396,6 +396,14 @@ mouseUpTimeout
 )
 ;
 }
+const
+{
+screenX
+screenY
+}
+=
+event
+;
 this
 .
 mouseUpTimeout
@@ -494,8 +502,6 @@ selectionInfo
 delay
 screenXDevPx
 :
-event
-.
 screenX
 *
 this
@@ -505,8 +511,6 @@ contentWindow
 devicePixelRatio
 screenYDevPx
 :
-event
-.
 screenY
 *
 this
