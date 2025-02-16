@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_about_translations_language_swap
+test_about_translations_flip_lexical_shortlist_pref
 (
 )
 {
