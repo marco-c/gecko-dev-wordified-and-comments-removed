@@ -51666,13 +51666,6 @@ takeUnchecked
 scratch1
 )
 ;
-volatileRegs
-.
-takeUnchecked
-(
-index
-)
-;
 masm
 .
 PushRegsInMask
