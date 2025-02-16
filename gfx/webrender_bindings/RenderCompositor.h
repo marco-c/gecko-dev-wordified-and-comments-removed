@@ -796,6 +796,15 @@ aVisibility
 )
 ;
 virtual
+void
+GetWindowProperties
+(
+WindowProperties
+*
+aProperties
+)
+;
+virtual
 bool
 UsePartialPresent
 (

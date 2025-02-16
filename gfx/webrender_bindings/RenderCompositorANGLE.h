@@ -583,6 +583,15 @@ aCaps
 )
 override
 ;
+void
+GetWindowProperties
+(
+WindowProperties
+*
+aProperties
+)
+override
+;
 bool
 UsePartialPresent
 (
