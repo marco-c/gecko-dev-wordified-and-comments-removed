@@ -933,6 +933,12 @@ chromium_tests_root
 ;
 }
 }
+SuppressWarnings
+(
+"
+UnusedMethod
+"
+)
 private
 void
 nativeTestFailed
