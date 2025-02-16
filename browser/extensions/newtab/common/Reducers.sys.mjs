@@ -68,9 +68,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 common
 /

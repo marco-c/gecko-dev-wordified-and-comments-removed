@@ -402,9 +402,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 lib
 /

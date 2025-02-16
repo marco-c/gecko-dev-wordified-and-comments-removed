@@ -427,9 +427,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 lib
 /
@@ -2631,9 +2629,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
@@ -2650,9 +2646,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
@@ -2671,9 +2665,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
@@ -2692,9 +2684,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
