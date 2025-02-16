@@ -5,13 +5,13 @@ pprint
 import
 re
 import
+shutil
+import
 sys
 import
 tempfile
 import
 unittest
-import
-mozfile
 import
 mozinfo
 import
@@ -2666,9 +2666,9 @@ self
 )
 :
         
-mozfile
+shutil
 .
-remove
+rmtree
 (
 self
 .

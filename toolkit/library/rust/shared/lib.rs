@@ -493,7 +493,7 @@ crashreporter
 ]
 extern
 crate
-crash_helper_client
+mozannotation_server
 ;
 #
 [
