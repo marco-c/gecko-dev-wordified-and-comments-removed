@@ -2782,9 +2782,9 @@ EncodeSnapshot
 name
 :
 UnreachableResultV
-gen_boilerplate
+result_type
 :
-false
+BoxedValue
 -
 name
 :
