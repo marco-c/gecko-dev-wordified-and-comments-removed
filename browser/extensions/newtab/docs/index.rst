@@ -74,7 +74,7 @@ in
 the
 browser
 /
-components
+extensions
 /
 newtab
 directory
@@ -370,7 +370,7 @@ shell
 cd
 browser
 /
-components
+extensions
 /
 newtab
 &
@@ -409,7 +409,7 @@ files
 in
 browser
 /
-components
+extensions
 /
 newtab
 /
@@ -417,7 +417,7 @@ css
 or
 browser
 /
-components
+extensions
 /
 newtab
 /
@@ -441,7 +441,7 @@ files
 in
 browser
 /
-components
+extensions
 /
 newtab
 /
@@ -543,7 +543,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 &
@@ -609,7 +609,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 will
@@ -804,7 +804,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 These
@@ -922,7 +922,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 .
@@ -939,7 +939,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 .
@@ -956,7 +956,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 Mochitests
@@ -1050,7 +1050,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 &
@@ -1067,7 +1067,7 @@ prefix
 =
 browser
 /
-components
+extensions
 /
 newtab
 Discovery

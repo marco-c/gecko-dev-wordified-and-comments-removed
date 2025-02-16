@@ -1526,7 +1526,7 @@ browser
 /
 components
 /
-newtab
+pocket
 /
 *
 *
@@ -1534,9 +1534,9 @@ newtab
 "
 browser
 /
-components
+extensions
 /
-pocket
+newtab
 /
 *
 *
