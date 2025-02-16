@@ -5955,6 +5955,16 @@ aFontList
 AppendElement
 (
 "
+Segoe
+UI
+"
+)
+;
+aFontList
+.
+AppendElement
+(
+"
 Arial
 Unicode
 MS
