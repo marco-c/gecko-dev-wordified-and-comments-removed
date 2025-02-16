@@ -290,6 +290,11 @@ done
 ;
 }
 }
+{
+ignoreVisibility
+:
+true
+}
 )
 ;
 }
