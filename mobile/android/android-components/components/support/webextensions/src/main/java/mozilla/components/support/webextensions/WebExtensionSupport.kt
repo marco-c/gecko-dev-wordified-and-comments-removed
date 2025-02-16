@@ -2208,6 +2208,12 @@ List
 <
 String
 >
+origins
+:
+List
+<
+String
+>
 onConfirm
 :
 (
@@ -2236,6 +2242,7 @@ Required
 (
 extension
 permissions
+origins
 onConfirm
 )
 )
