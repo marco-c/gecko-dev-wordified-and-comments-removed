@@ -5,6 +5,17 @@ mozilla
 /
 dom
 /
+WebAuthnManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebAuthnTransactionChild
 .
 h
@@ -21,7 +32,7 @@ WebAuthnTransactionChild
 :
 SetManager
 (
-WebAuthnManagerBase
+WebAuthnManager
 *
 aManager
 )
