@@ -2011,13 +2011,12 @@ clickOn
 invokerbutton
 )
 ;
-assert_false
+assert_true
 (
 called
 "
 event
 was
-not
 called
 "
 )
@@ -2026,7 +2025,6 @@ called
 "
 event
 does
-NOT
 dispatch
 if
 button
