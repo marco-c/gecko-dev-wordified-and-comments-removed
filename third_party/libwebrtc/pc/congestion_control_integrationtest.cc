@@ -202,6 +202,10 @@ n
 )
 )
 ;
+ClosePeerConnections
+(
+)
+;
 }
 TEST_F
 (
@@ -426,6 +430,10 @@ cc
 )
 )
 ;
+ClosePeerConnections
+(
+)
+;
 }
 TEST_F
 (
@@ -548,6 +556,10 @@ Eq
 )
 )
 ;
+ClosePeerConnections
+(
+)
+;
 }
 TEST_F
 (
@@ -668,6 +680,10 @@ Eq
 (
 0
 )
+)
+;
+ClosePeerConnections
+(
 )
 ;
 }
