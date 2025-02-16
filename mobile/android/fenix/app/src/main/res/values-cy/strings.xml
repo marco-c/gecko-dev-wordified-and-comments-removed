@@ -10990,9 +10990,6 @@ rydych
 yn
 cytuno
 i
-\
-'
-r
 %
 1
 s
@@ -11076,7 +11073,7 @@ ignore
 BrandUsage
 "
 >
-Telerau
+Amodau
 Defnyddio
 Firefox
 <
@@ -11230,7 +11227,7 @@ BrandUsage
 Mae
 Firefox
 yn
-poeni
+pryderu
 am
 eich
 preifatrwydd
@@ -19455,7 +19452,7 @@ data
 am
 eich
 dyfais
-cyfluniad
+ffurfweddiad
 caledwedd
 a
 defnydd
@@ -19833,9 +19830,9 @@ name
 preferences_daily_usage_ping_title
 "
 >
-Defnydd
+Ping
+defnydd
 dyddiol
-ping
 <
 /
 string
@@ -19853,6 +19850,7 @@ hyn
 yn
 helpu
 Mozilla
+i
 amcangyfrif
 defnyddwyr
 gweithredol
@@ -58566,8 +58564,8 @@ name
 text_field_cross_trailing_icon_default_content_description
 "
 >
-Testun
-clir
+Clirio
+testun
 <
 /
 string
