@@ -305,12 +305,12 @@ true
 false
 )
 /
-UnknownError
+InvalidWebExtensionError
 :
 Could
 not
 install
-add
+Add
 -
 on
 :
