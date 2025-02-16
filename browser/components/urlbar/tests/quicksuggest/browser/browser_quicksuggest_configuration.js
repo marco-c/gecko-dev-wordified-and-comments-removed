@@ -2414,11 +2414,10 @@ pref
 )
 ;
 await
-QuickSuggestTestUtils
+QuickSuggest
 .
-setScenario
+_test_reinit
 (
-null
 )
 ;
 Assert

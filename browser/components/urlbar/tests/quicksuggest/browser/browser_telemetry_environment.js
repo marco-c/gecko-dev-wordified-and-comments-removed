@@ -240,11 +240,10 @@ telemetryEnvironmentOnStartup
 )
 {
 await
-QuickSuggestTestUtils
+QuickSuggest
 .
-setScenario
+_test_reinit
 (
-null
 )
 ;
 await
@@ -452,7 +451,7 @@ onInitialized
 await
 QuickSuggest
 .
-updateFirefoxSuggestScenario
+_test_reinit
 (
 {
 scenario
@@ -573,7 +572,7 @@ onInitialized
 await
 QuickSuggest
 .
-updateFirefoxSuggestScenario
+_test_reinit
 (
 )
 ;

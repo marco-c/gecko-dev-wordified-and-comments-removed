@@ -507,8 +507,8 @@ i
 {
 info
 (
-Calling
-updateFirefoxSuggestScenario
+Reinitializing
+Suggest
 i
 =
 {
@@ -519,7 +519,7 @@ i
 await
 QuickSuggest
 .
-updateFirefoxSuggestScenario
+_test_reinit
 (
 {
 .
