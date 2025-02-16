@@ -93,6 +93,18 @@ x86_64
 "
     
 "
+linux64
+-
+aarch64
+"
+:
+"
+linux
+-
+aarch64
+"
+    
+"
 osx
 "
 :
@@ -343,6 +355,26 @@ xz
             
 "
 linux64
+"
+:
+"
+{
+product
+}
+-
+{
+version
+}
+.
+tar
+.
+xz
+"
+            
+"
+linux64
+-
+aarch64
 "
 :
 "
