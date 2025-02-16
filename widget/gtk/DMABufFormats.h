@@ -327,9 +327,6 @@ mModifiers
 ;
 }
 ;
-#
-ifdef
-MOZ_WAYLAND
 class
 DMABufFormats
 ;
@@ -358,6 +355,9 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 DMABufFormats
 )
+#
+ifdef
+MOZ_WAYLAND
 void
 InitFeedback
 (
@@ -388,6 +388,8 @@ InitV3Done
 (
 )
 ;
+#
+endif
 DMABufFeedback
 *
 GetDMABufFeedback
@@ -444,12 +446,17 @@ DMABufFormats
 DMABufFormatsCallback
 mFormatRefreshCallback
 ;
+#
+ifdef
+MOZ_WAYLAND
 zwp_linux_dmabuf_feedback_v1
 *
 mWaylandFeedback
 =
 nullptr
 ;
+#
+endif
 UniquePtr
 <
 DMABufFeedback
@@ -464,6 +471,9 @@ mPendingDMABufFeedback
 ;
 }
 ;
+#
+ifdef
+MOZ_WAYLAND
 RefPtr
 <
 DMABufFormats
