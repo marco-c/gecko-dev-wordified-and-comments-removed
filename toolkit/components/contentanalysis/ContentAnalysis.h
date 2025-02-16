@@ -316,6 +316,14 @@ WindowGlobalParent
 aSourceWindowGlobal
 =
 nullptr
+nsCString
+&
+&
+aUserActionId
+=
+nsCString
+(
+)
 )
 ;
 ContentAnalysisRequest
@@ -1314,7 +1322,7 @@ final
 {
 RefPtr
 <
-MultipartRequestCallback
+nsIContentAnalysisCallback
 >
 mCallback
 ;
