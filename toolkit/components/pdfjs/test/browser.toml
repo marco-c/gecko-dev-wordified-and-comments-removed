@@ -444,6 +444,13 @@ js
 ]
 [
 "
+browser_pdfjs_signature_storage
+.
+js
+"
+]
+[
+"
 browser_pdfjs_stamp_telemetry
 .
 js
