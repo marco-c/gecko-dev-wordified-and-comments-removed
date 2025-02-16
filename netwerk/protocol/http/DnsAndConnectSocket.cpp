@@ -112,6 +112,15 @@ h
 #
 include
 "
+mozilla
+/
+Telemetry
+.
+h
+"
+#
+include
+"
 nsHttpHandler
 .
 h

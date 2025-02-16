@@ -82,6 +82,15 @@ nsSocketTransportService2
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
 namespace
 mozilla
 :
