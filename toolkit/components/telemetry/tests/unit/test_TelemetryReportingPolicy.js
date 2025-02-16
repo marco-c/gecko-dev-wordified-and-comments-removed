@@ -138,7 +138,7 @@ mjs
 )
 ;
 const
-skipOnAndroid
+skipIfNotBrowser
 =
 (
 )
@@ -154,12 +154,11 @@ skip_if
 >
 AppConstants
 .
-platform
-=
-=
+MOZ_BUILD_APP
+!
 =
 "
-android
+browser
 "
 }
 )
@@ -486,7 +485,7 @@ setup
 ;
 add_setup
 (
-skipOnAndroid
+skipIfNotBrowser
 (
 )
 async
@@ -514,7 +513,7 @@ ready
 ;
 add_task
 (
-skipOnAndroid
+skipIfNotBrowser
 (
 )
 async
@@ -2043,7 +2042,7 @@ stop
 ;
 add_task
 (
-skipOnAndroid
+skipIfNotBrowser
 (
 )
 async
@@ -2718,7 +2717,7 @@ restore
 }
 add_task
 (
-skipOnAndroid
+skipIfNotBrowser
 (
 )
 async
@@ -2774,7 +2773,7 @@ AcceptedPolicyVersion
 ;
 add_task
 (
-skipOnAndroid
+skipIfNotBrowser
 (
 )
 async
