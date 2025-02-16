@@ -961,7 +961,7 @@ SampleFormat
 kFloat
 )
 {
-float
+int16_t
 truncated_samples
 [
 kNumSamples
