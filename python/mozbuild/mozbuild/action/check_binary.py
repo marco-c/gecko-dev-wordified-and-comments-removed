@@ -1299,18 +1299,6 @@ set
 [
             
 "
-connect
-"
-            
-"
-accept
-"
-            
-"
-listen
-"
-            
-"
 recv
 "
             
@@ -1397,6 +1385,43 @@ endprotoent
 ]
     
 )
+    
+socket_functions
+=
+set
+(
+        
+[
+            
+"
+connect
+"
+            
+"
+accept
+"
+            
+"
+listen
+"
+        
+]
+    
+)
+    
+if
+PLATFORM
+=
+=
+"
+WINNT
+"
+:
+        
+networking_functions
+|
+=
+socket_functions
     
 bad_occurences_names
 =
