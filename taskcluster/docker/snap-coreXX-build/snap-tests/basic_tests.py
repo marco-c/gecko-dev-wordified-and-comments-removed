@@ -479,26 +479,6 @@ options
         
 self
 .
-_driver
-.
-set_window_position
-(
-0
-0
-)
-        
-self
-.
-_driver
-.
-set_window_size
-(
-1280
-1024
-)
-        
-self
-.
 _logger
 =
 structuredlog
@@ -667,6 +647,14 @@ a
 OPT
 build
 "
+)
+        
+self
+.
+_driver
+.
+maximize_window
+(
 )
         
 self
