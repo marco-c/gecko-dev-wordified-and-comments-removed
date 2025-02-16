@@ -1679,6 +1679,9 @@ in
 enumerate
 (
 successors
+or
+[
+]
 )
 :
         
@@ -1866,6 +1869,9 @@ successors
     
 if
 successors
+is
+not
+None
 :
         
 if
@@ -2425,11 +2431,14 @@ get
 "
 successors
 "
-[
-]
+None
 )
             
 assert
+successors
+is
+None
+or
 isinstance
 (
 successors
@@ -2764,8 +2773,7 @@ result_types
             
 successors
 =
-[
-]
+None
             
 operands_raw
 =
