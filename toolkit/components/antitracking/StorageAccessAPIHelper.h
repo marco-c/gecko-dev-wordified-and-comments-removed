@@ -691,6 +691,7 @@ GetClassifierFeaturesForTrackers
 uint16_t
 mType
 ;
+explicit
 StorageAccessGrantTelemetryClassification
 (
 uint16_t
