@@ -349,7 +349,7 @@ Sanitizer
 PREF_SHUTDOWN_BRANCH
 +
 "
-formData
+formdata
 "
 true
 )
