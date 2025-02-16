@@ -747,6 +747,7 @@ busy
 crashed
 sharing
 pictureinpicture
+pending
 "
 "
 .
