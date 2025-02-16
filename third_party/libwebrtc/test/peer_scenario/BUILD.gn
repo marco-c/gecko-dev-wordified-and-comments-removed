@@ -645,6 +645,17 @@ basic_port_allocator
 /
 p2p
 :
+dtls_transport_internal
+"
+"
+.
+.
+/
+.
+.
+/
+p2p
+:
 rtc_p2p
 "
 "
