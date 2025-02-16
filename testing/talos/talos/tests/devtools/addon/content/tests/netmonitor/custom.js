@@ -564,7 +564,7 @@ toolbox
 selectTool
 (
 "
-webconsole
+options
 "
 )
 ;
