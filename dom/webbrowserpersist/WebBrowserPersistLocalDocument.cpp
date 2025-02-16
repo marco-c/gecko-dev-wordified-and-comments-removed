@@ -3800,7 +3800,7 @@ rv
 attr
 -
 >
-SetValue
+SetValueInternal
 (
 uri
 IgnoreErrors
@@ -4079,7 +4079,7 @@ rv
 attr
 -
 >
-SetValue
+SetValueInternal
 (
 NS_ConvertUTF8toUTF16
 (

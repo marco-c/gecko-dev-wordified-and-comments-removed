@@ -449,6 +449,11 @@ GetterCanOOM
 SetterNeedsSubjectPrincipal
 =
 NonSystem
+BinaryName
+=
+"
+trustedScriptOrStringTextContent
+"
 ]
 attribute
 (

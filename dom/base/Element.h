@@ -4831,6 +4831,7 @@ nsAString
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Attr
@@ -4873,6 +4874,7 @@ nsAString
 aLocalName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Attr

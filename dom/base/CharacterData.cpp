@@ -607,7 +607,7 @@ nullptr
 )
 ;
 return
-SetNodeValue
+SetNodeValueInternal
 (
 aTextContent
 aError
