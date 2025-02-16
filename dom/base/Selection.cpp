@@ -21982,6 +21982,7 @@ Selection
 :
 SetHighlightSelectionData
 (
+struct
 HighlightSelectionData
 aHighlightSelectionData
 )
