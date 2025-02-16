@@ -48,3 +48,11 @@ ubuntu
 SHA256SUMS
 .
 zip
+0bd6cb4f9d63934033ae9a956e1d75054b5ec1f45f812bd2196518f31282556c
+thunderbird
+-
+snap
+/
+SHA256SUMS
+.
+zip
