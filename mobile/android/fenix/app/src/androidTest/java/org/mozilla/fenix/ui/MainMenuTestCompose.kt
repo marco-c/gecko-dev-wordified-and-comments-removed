@@ -3233,6 +3233,12 @@ testPage
 url
 )
 {
+verifyPageContent
+(
+testPage
+.
+content
+)
 }
 .
 openThreeDotMenuFromRedesignedToolbar
