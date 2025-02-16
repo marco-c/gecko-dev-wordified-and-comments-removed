@@ -566,6 +566,11 @@ about
 :
 blank
 "
+{
+allowInheritPrincipal
+:
+true
+}
 )
 ;
 openPreferences
