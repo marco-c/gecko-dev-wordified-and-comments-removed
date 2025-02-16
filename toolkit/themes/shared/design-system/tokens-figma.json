@@ -966,7 +966,8 @@ forcedColors
 "
 :
 "
-ButtonFace
+#
+00000000
 "
 }
 "
@@ -1058,7 +1059,8 @@ forcedColors
 "
 :
 "
-ButtonFace
+#
+00000000
 "
 }
 "

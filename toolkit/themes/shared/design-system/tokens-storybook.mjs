@@ -1406,6 +1406,9 @@ default
 "
 transparent
 "
+brand
+:
+{
 prefersContrast
 :
 "
@@ -1434,6 +1437,7 @@ background
 color
 )
 "
+}
 }
 name
 :
@@ -1502,6 +1506,9 @@ color
 ghost
 )
 "
+brand
+:
+{
 forcedColors
 :
 "
@@ -1518,6 +1525,7 @@ color
 disabled
 )
 "
+}
 }
 name
 :
@@ -8559,6 +8567,9 @@ default
 "
 transparent
 "
+brand
+:
+{
 prefersContrast
 :
 "
@@ -8587,6 +8598,7 @@ background
 color
 )
 "
+}
 }
 "
 button
@@ -8643,6 +8655,9 @@ color
 ghost
 )
 "
+brand
+:
+{
 forcedColors
 :
 "
@@ -8659,6 +8674,7 @@ color
 disabled
 )
 "
+}
 }
 "
 button
