@@ -212,6 +212,11 @@ DiscoveryStream
 INITIAL_STATE
 .
 DiscoveryStream
+Prefs
+:
+INITIAL_STATE
+.
+Prefs
 fetchTimestamp
 :
 new
@@ -1170,6 +1175,13 @@ DiscoveryStream
 =
 {
 discoveryStream
+}
+Prefs
+=
+{
+INITIAL_STATE
+.
+Prefs
 }
 /
 >
@@ -3023,6 +3035,11 @@ DiscoveryStream
 INITIAL_STATE
 .
 DiscoveryStream
+Prefs
+:
+INITIAL_STATE
+.
+Prefs
 }
 ;
 wrapper
