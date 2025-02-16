@@ -390,6 +390,15 @@ assign
 (
 serviceContainer
 {
+getToolboxStore
+:
+(
+)
+=
+>
+toolbox
+.
+store
 sourceMapURLService
 :
 toolbox
