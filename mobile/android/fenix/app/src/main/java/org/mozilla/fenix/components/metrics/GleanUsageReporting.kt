@@ -153,6 +153,14 @@ setEnabled
 (
 enabled
 )
+Pings
+.
+usageDeletionRequest
+.
+setEnabled
+(
+true
+)
 }
 override
 fun
