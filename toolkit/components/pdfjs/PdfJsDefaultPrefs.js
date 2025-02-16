@@ -166,6 +166,16 @@ pref
 "
 pdfjs
 .
+enableAutoLinking
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableGuessAltText
 "
 true
