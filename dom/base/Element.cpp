@@ -11312,6 +11312,17 @@ elem
 )
 ;
 }
+}
+if
+(
+elem
+-
+>
+HasServoData
+(
+)
+)
+{
 cur
 =
 cur
