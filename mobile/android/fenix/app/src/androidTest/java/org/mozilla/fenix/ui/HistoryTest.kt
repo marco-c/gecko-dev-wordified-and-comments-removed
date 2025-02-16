@@ -1776,7 +1776,7 @@ firstWebPage
 .
 title
 )
-verifySearchEngineSuggestionResults
+verifySearchSuggestionsAreDisplayed
 (
 activityTestRule
 firstWebPage
@@ -1786,11 +1786,6 @@ url
 toString
 (
 )
-searchTerm
-=
-firstWebPage
-.
-title
 )
 verifySuggestionsAreNotDisplayed
 (
@@ -2032,7 +2027,7 @@ toString
 (
 )
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 activityTestRule
 thirdWebPage

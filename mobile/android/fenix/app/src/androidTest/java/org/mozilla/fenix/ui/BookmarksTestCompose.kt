@@ -1284,7 +1284,7 @@ firstWebPage
 .
 title
 )
-verifySearchEngineSuggestionResults
+verifySearchSuggestionsAreDisplayed
 (
 composeTestRule
 firstWebPage
@@ -1294,11 +1294,6 @@ url
 toString
 (
 )
-searchTerm
-=
-firstWebPage
-.
-title
 )
 verifySuggestionsAreNotDisplayed
 (

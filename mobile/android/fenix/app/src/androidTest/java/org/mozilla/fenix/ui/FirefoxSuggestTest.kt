@@ -824,7 +824,7 @@ searchTerm
 =
 sponsoredKeyWord
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -971,7 +971,7 @@ dropLast
 1
 )
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -1118,7 +1118,7 @@ searchTerm
 =
 sponsoredKeyWord
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -1299,7 +1299,7 @@ numberOfDeletionSteps
 =
 1
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -1448,7 +1448,7 @@ searchTerm
 =
 nonSponsoredKeyWord
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -1606,7 +1606,7 @@ dropLast
 1
 )
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
@@ -1750,7 +1750,7 @@ searchTerm
 =
 nonSponsoredKeyWord
 )
-verifySearchEngineSuggestionResults
+verifySponsoredSuggestionsResults
 (
 rule
 =
