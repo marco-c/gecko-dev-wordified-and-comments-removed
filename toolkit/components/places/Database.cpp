@@ -251,26 +251,6 @@ PR_USEC_PER_SEC
 24H
 #
 define
-DATABASE_FILENAME
-u
-"
-places
-.
-sqlite
-"
-_ns
-#
-define
-DATABASE_FAVICONS_FILENAME
-u
-"
-favicons
-.
-sqlite
-"
-_ns
-#
-define
 PREF_FORCE_DATABASE_REPLACEMENT
 \
 "
@@ -3374,10 +3354,7 @@ NS_ConvertUTF16toUTF8
 (
 iconsPath
 )
-"
-favicons
-"
-_ns
+DATABASE_FAVICONS_SCHEMANAME
 )
 ;
 }
@@ -3652,10 +3629,7 @@ NS_ConvertUTF16toUTF8
 (
 iconsPath
 )
-"
-favicons
-"
-_ns
+DATABASE_FAVICONS_SCHEMANAME
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5423,6 +5397,7 @@ rv
 =
 InitFunctions
 (
+mMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7731,6 +7706,9 @@ Database
 :
 InitFunctions
 (
+mozIStorageConnection
+*
+aMainConn
 )
 {
 MOZ_ASSERT
@@ -7748,7 +7726,7 @@ GetUnreversedHostFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7764,7 +7742,7 @@ MatchAutoCompleteFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7780,7 +7758,7 @@ CalculateFrecencyFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7796,7 +7774,7 @@ GenerateGUIDFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7812,7 +7790,7 @@ IsValidGUIDFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7828,7 +7806,7 @@ FixupURLFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7844,7 +7822,7 @@ StoreLastInsertedIdFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7860,7 +7838,7 @@ HashFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7876,7 +7854,7 @@ GetQueryParamFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7892,7 +7870,7 @@ GetPrefixFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7908,7 +7886,7 @@ GetHostAndPortFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7924,7 +7902,7 @@ StripPrefixAndUserinfoFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7940,7 +7918,7 @@ IsFrecencyDecayingFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7956,7 +7934,7 @@ NoteSyncChangeFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7972,7 +7950,7 @@ InvalidateDaysOfHistoryFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7988,7 +7966,7 @@ SHA256HexFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8004,7 +7982,7 @@ SetShouldStartFrecencyRecalculationFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8020,7 +7998,7 @@ TargetFolderGuidFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8046,7 +8024,7 @@ CalculateAltFrecencyFunction
 :
 create
 (
-mMainConn
+aMainConn
 )
 ;
 NS_ENSURE_SUCCESS
