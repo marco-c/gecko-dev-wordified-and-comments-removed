@@ -565,7 +565,7 @@ PopulatePromiseBase
 :
 Private
 ;
-RefPtr
+already_AddRefed
 <
 PopulatePromise
 >
@@ -699,6 +699,10 @@ __func__
 ;
 return
 populatePromise
+.
+forget
+(
+)
 ;
 }
 MOZ_LOG
@@ -911,6 +915,10 @@ __func__
 }
 return
 populatePromise
+.
+forget
+(
+)
 ;
 }
 void
@@ -2769,7 +2777,7 @@ output
 )
 ;
 }
-RefPtr
+already_AddRefed
 <
 PopulatePromise
 >
@@ -3145,6 +3153,10 @@ __func__
 ;
 return
 populatePromise
+.
+forget
+(
+)
 ;
 }
 void
@@ -4135,7 +4147,7 @@ locale
 ;
 }
 }
-RefPtr
+already_AddRefed
 <
 PopulatePromise
 >
@@ -4256,6 +4268,10 @@ __func__
 }
 return
 populatePromise
+.
+forget
+(
+)
 ;
 }
 const
