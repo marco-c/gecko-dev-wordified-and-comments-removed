@@ -196,7 +196,7 @@ GetCurrentMessagePos
 )
 ;
 bool
-ProcessMessageDirectly
+ProcessMouseMessage
 (
 UINT
 msg
