@@ -4390,7 +4390,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -4405,7 +4405,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -4420,7 +4420,7 @@ result_type
 Int64
 operands
 :
-num
+input
 :
 Int64
 mir_op
@@ -4590,7 +4590,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -4607,7 +4607,7 @@ result_type
 Int64
 operands
 :
-num
+input
 :
 Int64
 #
@@ -4623,7 +4623,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -4639,7 +4639,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -4658,7 +4658,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -4680,7 +4680,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -4699,7 +4699,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -4771,7 +4771,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -4794,7 +4794,7 @@ result_type
 Int64
 operands
 :
-num
+input
 :
 Int64
 mir_op
@@ -4817,7 +4817,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -4840,7 +4840,7 @@ result_type
 Int64
 operands
 :
-num
+input
 :
 Int64
 mir_op
@@ -4862,7 +4862,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 num_temps
@@ -4887,7 +4887,7 @@ result_type
 Int64
 operands
 :
-num
+input
 :
 Int64
 num_temps
@@ -4905,7 +4905,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 -
@@ -4917,7 +4917,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 -
@@ -5072,7 +5072,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -5091,7 +5091,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -7287,7 +7287,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 mir_op
@@ -7337,7 +7337,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 mir_op
@@ -7375,7 +7375,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 num_temps
@@ -7415,7 +7415,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 instance
@@ -7459,7 +7459,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 num_temps
@@ -7499,7 +7499,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 instance
@@ -8877,7 +8877,7 @@ result_type
 WordSized
 operands
 :
-object
+input
 :
 WordSized
 mir_op
@@ -10316,7 +10316,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 num_temps
@@ -10854,7 +10854,7 @@ result_type
 BoxedValue
 operands
 :
-in
+input
 :
 WordSized
 mir_op
@@ -10900,7 +10900,7 @@ result_type
 BoxedValue
 operands
 :
-in
+input
 :
 WordSized
 num_temps
@@ -11080,7 +11080,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -11116,7 +11116,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -11152,7 +11152,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -11188,7 +11188,7 @@ result_type
 WordSized
 operands
 :
-string
+input
 :
 WordSized
 #
@@ -11221,7 +11221,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 num_temps
@@ -11260,7 +11260,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 num_temps
@@ -11299,7 +11299,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -11332,7 +11332,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 #
@@ -11367,7 +11367,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -11405,7 +11405,7 @@ result_type
 WordSized
 operands
 :
-num
+input
 :
 WordSized
 mir_op
@@ -12726,7 +12726,7 @@ result_type
 WordSized
 operands
 :
-in
+input
 :
 WordSized
 num_temps
@@ -13200,7 +13200,7 @@ name
 GuardNoDenseElements
 operands
 :
-in
+input
 :
 WordSized
 num_temps

@@ -27114,7 +27114,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -27189,7 +27189,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -27340,7 +27340,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -27404,7 +27404,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -30015,7 +30015,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -30160,7 +30160,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -30230,7 +30230,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -30300,7 +30300,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -30370,7 +30370,7 @@ ToRegister
 guard
 -
 >
-input
+object
 (
 )
 )
@@ -68394,7 +68394,7 @@ ToRegister64
 ins
 -
 >
-num
+input
 (
 )
 )
@@ -68435,7 +68435,7 @@ ToRegister64
 ins
 -
 >
-num
+input
 (
 )
 )
@@ -68476,7 +68476,7 @@ ToRegister64
 ins
 -
 >
-num
+input
 (
 )
 )
@@ -131572,7 +131572,7 @@ ToRegister
 lir
 -
 >
-input
+object
 (
 )
 )

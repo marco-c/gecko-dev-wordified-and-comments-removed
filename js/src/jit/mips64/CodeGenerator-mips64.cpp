@@ -2009,7 +2009,7 @@ ToRegister64
 lir
 -
 >
-num
+input
 (
 )
 )
