@@ -2120,13 +2120,6 @@ loader
 manager
 ;
 await
-loader
-.
-enable
-(
-)
-;
-await
 manager
 .
 onStartup
@@ -2139,6 +2132,13 @@ manager
 store
 .
 ready
+(
+)
+;
+await
+loader
+.
+enable
 (
 )
 ;
