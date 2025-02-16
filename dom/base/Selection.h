@@ -2116,18 +2116,6 @@ HighlightSelectionData
 aHighlightSelectionData
 )
 ;
-const
-HighlightSelectionData
-&
-HighlightSelectionData
-(
-)
-const
-{
-return
-mHighlightData
-;
-}
 void
 GetRangesForInterval
 (
@@ -3367,7 +3355,6 @@ const
 SelectionType
 mSelectionType
 ;
-struct
 HighlightSelectionData
 mHighlightData
 ;

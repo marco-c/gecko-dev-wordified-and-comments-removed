@@ -239,14 +239,6 @@ false
 struct
 TextOffsetAttribute
 {
-static
-const
-int32_t
-kOutsideLeaf
-=
--
-1
-;
 int32_t
 mStartOffset
 ;
