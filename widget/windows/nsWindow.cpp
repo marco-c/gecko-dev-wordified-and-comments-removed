@@ -29850,6 +29850,11 @@ aRegion
 =
 =
 mOpaqueRegion
+|
+|
+IsPopup
+(
+)
 )
 {
 return
