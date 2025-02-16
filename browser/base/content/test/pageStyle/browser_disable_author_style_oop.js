@@ -414,7 +414,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
+{
+includeSubFrames
+:
 true
+}
 )
 ;
 let

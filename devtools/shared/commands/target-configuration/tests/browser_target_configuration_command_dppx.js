@@ -181,7 +181,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
+{
+includeSubFrames
+:
 true
+}
 )
 ;
 is

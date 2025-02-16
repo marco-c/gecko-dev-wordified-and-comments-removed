@@ -234,7 +234,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
+{
+includeSubFrames
+:
 true
+}
 )
 ;
 is
@@ -867,7 +871,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
+{
+includeSubFrames
+:
 true
+}
 )
 ;
 is

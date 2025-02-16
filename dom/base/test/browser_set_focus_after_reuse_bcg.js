@@ -299,7 +299,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
+{
+includeSubFrames
+:
 true
+}
 )
 ;
 await
