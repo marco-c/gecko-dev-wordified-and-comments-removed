@@ -3809,9 +3809,11 @@ AudioMixer
 >
 audio_mixer
 ;
-rtc
-:
-:
+[
+[
+deprecated
+]
+]
 scoped_refptr
 <
 AudioProcessing
