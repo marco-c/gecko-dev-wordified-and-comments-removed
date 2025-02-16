@@ -3016,7 +3016,7 @@ Implementation
 )
 ;
 }
-Handle
+DirectHandle
 <
 HeapObject
 >
@@ -3025,7 +3025,7 @@ RegExpMacroAssemblerTracer
 :
 GetCode
 (
-Handle
+DirectHandle
 <
 String
 >

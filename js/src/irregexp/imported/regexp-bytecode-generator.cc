@@ -1952,7 +1952,7 @@ on_eq
 )
 ;
 }
-Handle
+DirectHandle
 <
 HeapObject
 >
@@ -1961,7 +1961,7 @@ RegExpBytecodeGenerator
 :
 GetCode
 (
-Handle
+DirectHandle
 <
 String
 >

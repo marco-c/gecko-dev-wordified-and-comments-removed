@@ -2188,7 +2188,7 @@ err
 }
 CompilationResult
 (
-Handle
+DirectHandle
 <
 Object
 >
@@ -2248,7 +2248,7 @@ RegExpError
 :
 kNone
 ;
-Handle
+DirectHandle
 <
 Object
 >
@@ -2275,7 +2275,7 @@ RegExpNode
 start
 int
 capture_count
-Handle
+DirectHandle
 <
 String
 >
