@@ -587,12 +587,14 @@ if
 =
 [
 "
-nightly_build
+early_beta_or_earlier
 "
 ]
 #
 Bug
 1936557
+Bug
+1945698
 [
 "
 browser_tabclose
