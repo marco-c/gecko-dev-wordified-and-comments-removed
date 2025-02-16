@@ -281,7 +281,7 @@ sys
 .
 mjs
 "
-UrlbarPrefs
+QuickSuggest
 :
 "
 resource
@@ -291,7 +291,7 @@ resource
 /
 modules
 /
-UrlbarPrefs
+QuickSuggest
 .
 sys
 .
@@ -7864,9 +7864,9 @@ async
 await
 lazy
 .
-UrlbarPrefs
+QuickSuggest
 .
-firefoxSuggestScenarioStartupPromise
+initPromise
 ;
 if
 (
