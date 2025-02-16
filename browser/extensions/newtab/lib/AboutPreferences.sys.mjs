@@ -71,7 +71,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 common
 /
@@ -1326,7 +1328,9 @@ chrome
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 content
 /

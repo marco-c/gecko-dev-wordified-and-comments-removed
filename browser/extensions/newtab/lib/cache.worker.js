@@ -6,7 +6,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 data
 /
@@ -29,7 +31,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 data
 /
@@ -226,7 +230,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 data
 /

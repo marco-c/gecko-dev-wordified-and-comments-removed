@@ -121,7 +121,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 common
 /

@@ -4619,7 +4619,9 @@ browser
 /
 res
 /
-newtab
+activity
+-
+stream
 /
 "
 "

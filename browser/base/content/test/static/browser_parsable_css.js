@@ -3662,7 +3662,9 @@ if
 !
 [
 "
-newtab
+activity
+-
+stream
 "
 "
 browser

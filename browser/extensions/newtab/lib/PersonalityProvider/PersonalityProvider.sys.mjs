@@ -266,7 +266,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 lib
 /
