@@ -154,7 +154,7 @@ extensions
 /
 category
 -
-discover
+extensions
 .
 svg
 "
@@ -215,7 +215,7 @@ extensions
 /
 category
 -
-discover
+extensions
 .
 svg
 "
@@ -269,7 +269,7 @@ extensions
 /
 category
 -
-discover
+extensions
 .
 svg
 "
