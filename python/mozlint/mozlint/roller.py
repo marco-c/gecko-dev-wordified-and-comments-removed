@@ -1681,6 +1681,22 @@ fix
 return
 False
         
+if
+self
+.
+lintargs
+.
+get
+(
+"
+stdin_filename
+"
+)
+:
+            
+return
+False
+        
 return
 any
 (

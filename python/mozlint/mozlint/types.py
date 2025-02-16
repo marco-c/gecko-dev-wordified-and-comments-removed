@@ -168,6 +168,10 @@ objects
 "
 "
         
+orig_paths
+=
+None
+        
 log
 =
 lintargs
@@ -188,6 +192,35 @@ use_filters
 True
 )
 :
+            
+if
+lintargs
+.
+get
+(
+"
+stdin_filename
+"
+)
+:
+                
+orig_paths
+=
+paths
+[
+:
+]
+                
+paths
+=
+[
+lintargs
+[
+"
+stdin_filename
+"
+]
+]
             
 paths
 exclude
@@ -293,6 +326,14 @@ fixed
 :
 0
 }
+        
+if
+orig_paths
+:
+            
+paths
+=
+orig_paths
         
 log
 .
