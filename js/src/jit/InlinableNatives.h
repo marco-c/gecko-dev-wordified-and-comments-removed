@@ -978,13 +978,9 @@ IntrinsicGuardToIteratorHelper
 \
 _
 (
-IntrinsicGuardToIteratorRange
-)
-\
-_
-(
 IntrinsicGuardToAsyncIteratorHelper
 )
+\
 \
 _
 (
