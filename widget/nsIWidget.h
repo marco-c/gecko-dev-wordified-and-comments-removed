@@ -2138,6 +2138,17 @@ aRect
 0
 ;
 virtual
+bool
+PersistClientBounds
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 LayoutDeviceIntRect
 GetClientBounds
 (
@@ -2879,7 +2890,7 @@ LayoutDevicePoint
 }
 virtual
 LayoutDeviceIntMargin
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 {
@@ -2889,7 +2900,7 @@ return
 ;
 }
 LayoutDeviceIntSize
-ClientToWindowSizeDifference
+NormalSizeModeClientToWindowSizeDifference
 (
 )
 ;

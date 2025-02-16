@@ -988,12 +988,14 @@ widgetOverflowListener
 ;
 win
 .
-resizeTo
+resizeBy
 (
 OVERFLOW_WINDOW_WIDTH_PX
+-
 win
 .
-outerHeight
+innerWidth
+0
 )
 ;
 await

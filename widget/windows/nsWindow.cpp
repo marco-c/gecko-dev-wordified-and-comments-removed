@@ -14644,7 +14644,7 @@ LayoutDeviceIntMargin
 nsWindow
 :
 :
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 {

@@ -148,6 +148,9 @@ win
 sizemode
 width
 height
+checkSizes
+=
+true
 )
 {
 is
@@ -173,6 +176,9 @@ sizemode
 win
 .
 STATE_NORMAL
+&
+&
+checkSizes
 )
 {
 is
@@ -669,6 +675,12 @@ close
 (
 )
 ;
+let
+checkSize
+=
+!
+isLinux
+;
 win
 =
 openWindow
@@ -708,6 +720,7 @@ win
 STATE_NORMAL
 500
 500
+checkSize
 )
 ;
 await

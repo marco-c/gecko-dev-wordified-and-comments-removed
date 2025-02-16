@@ -8536,7 +8536,7 @@ LayoutDeviceIntMargin
 nsCocoaWindow
 :
 :
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 {

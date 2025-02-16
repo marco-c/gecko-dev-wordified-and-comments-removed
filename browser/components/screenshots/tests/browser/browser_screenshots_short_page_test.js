@@ -203,14 +203,14 @@ originalWindowWidth
 =
 window
 .
-outerWidth
+innerWidth
 ;
 const
 originalWindowHeight
 =
 window
 .
-outerHeight
+innerHeight
 ;
 const
 BIG_WINDOW_SIZE

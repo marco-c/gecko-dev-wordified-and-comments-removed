@@ -64,7 +64,7 @@ resizeContentWindow
 windowWidth
 window
 .
-outerHeight
+innerHeight
 )
 ;
 const
@@ -311,7 +311,7 @@ resizeContentWindow
 windowWidth
 window
 .
-outerHeight
+innerHeight
 )
 ;
 const
