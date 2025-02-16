@@ -4481,7 +4481,13 @@ IsNormal
 aFontStyle
 -
 >
-allowSyntheticStyle
+synthesisStyle
+!
+=
+StyleFontSynthesisStyle
+:
+:
+None
 )
 {
 FcPatternDel

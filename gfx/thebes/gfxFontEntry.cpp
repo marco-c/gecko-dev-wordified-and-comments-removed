@@ -8279,6 +8279,15 @@ SlantStyle
 aTargetStyle
 .
 style
+aTargetStyle
+.
+synthesisStyle
+!
+=
+StyleFontSynthesisStyle
+:
+:
+ObliqueOnly
 )
 ;
 double

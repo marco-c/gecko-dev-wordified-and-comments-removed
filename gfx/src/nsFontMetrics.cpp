@@ -848,12 +848,6 @@ Auto
 aFont
 .
 synthesisStyle
-=
-=
-StyleFontSynthesisStyle
-:
-:
-Auto
 aFont
 .
 synthesisSmallCaps
