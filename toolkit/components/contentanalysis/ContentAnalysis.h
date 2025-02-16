@@ -532,12 +532,10 @@ define
 CONTENTANALYSIS_IID
 \
 {
-\
 0xa37bed74
 0x4b50
 0x443a
 {
-\
 0xbf
 0x58
 0xf4
@@ -546,9 +544,7 @@ CONTENTANALYSIS_IID
 0x30
 0x67
 0xb4
-\
 }
-\
 }
 class
 ContentAnalysisResponse
