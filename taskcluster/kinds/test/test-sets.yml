@@ -1285,14 +1285,6 @@ xpcshell
 Windows
 windows32
 -
-2009
--
-tests
-:
--
-reftest
-windows32
--
 tests
 :
 -
@@ -1345,6 +1337,8 @@ chrome
 mochitest
 -
 media
+-
+reftest
 -
 test
 -
@@ -1527,8 +1521,6 @@ mochitest
 -
 media
 -
-reftest
--
 telemetry
 -
 tests
@@ -1637,6 +1629,8 @@ webgl2
 -
 ext
 -
+reftest
+-
 test
 -
 verify
@@ -1654,14 +1648,6 @@ verify
 wpt
 -
 xpcshell
-mingwclang
--
-win2009
--
-tests
-:
--
-reftest
 mingwclang
 -
 tests
@@ -1722,6 +1708,8 @@ telemetry
 tests
 -
 client
+-
+reftest
 #
 The
 following
