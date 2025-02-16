@@ -3623,6 +3623,10 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
++
++
+feedback_count_
+;
 std
 :
 :
