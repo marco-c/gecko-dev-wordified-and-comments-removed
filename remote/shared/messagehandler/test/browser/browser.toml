@@ -170,6 +170,13 @@ js
 ]
 [
 "
+browser_session_data_update_user_contexts
+.
+js
+"
+]
+[
+"
 browser_test_has_promise_resolved
 .
 js
