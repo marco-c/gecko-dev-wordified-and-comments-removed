@@ -157,6 +157,15 @@ aEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+bool
+WillHandleMouseButtonEvent
+(
+WidgetMouseEvent
+&
+aMouseEvent
+)
+;
 protected
 :
 virtual
@@ -380,7 +389,7 @@ bool
 NotifyIMEOfMouseButtonEvent
 (
 WidgetMouseEvent
-*
+&
 aMouseEvent
 )
 ;

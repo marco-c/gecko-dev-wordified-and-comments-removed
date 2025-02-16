@@ -1250,6 +1250,15 @@ IsCopyToClipboardAllowedInternal
 ;
 }
 MOZ_CAN_RUN_SCRIPT
+bool
+WillHandleMouseButtonEvent
+(
+WidgetMouseEvent
+&
+aMouseEvent
+)
+;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleDropEvent
 (
