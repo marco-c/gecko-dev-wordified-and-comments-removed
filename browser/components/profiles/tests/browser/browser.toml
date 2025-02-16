@@ -333,6 +333,13 @@ themselves
 .
 [
 "
+browser_preferences
+.
+js
+"
+]
+[
+"
 browser_test_db_lazily_created
 .
 js
