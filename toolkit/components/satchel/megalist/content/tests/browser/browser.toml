@@ -11,6 +11,17 @@ if
 release_or_beta
 "
 ]
+prefs
+=
+[
+"
+sidebar
+.
+revamp
+=
+true
+"
+]
 support
 -
 files
