@@ -1794,12 +1794,7 @@ if
 StaticPrefs
 :
 :
-dom_workers_timeoutmanager
-(
-)
-&
-&
-XRE_IsContentProcess
+dom_workers_timeoutmanager_AtStartup
 (
 )
 )
