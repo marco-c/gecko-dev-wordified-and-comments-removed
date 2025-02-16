@@ -34,6 +34,16 @@ nsIBinaryHttp
 idl
 "
 "
+nsICORSPreflightCache
+.
+idl
+"
+"
+nsICORSPreflightCacheEntry
+.
+idl
+"
+"
 nsIEarlyHintObserver
 .
 idl
