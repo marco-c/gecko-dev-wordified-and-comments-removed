@@ -19202,13 +19202,12 @@ indent
 ol
 >
 <
+ol
+>
+<
 li
 >
 foo
-<
-/
-li
->
 <
 ol
 >
@@ -19221,7 +19220,8 @@ bar
 li
 >
 <
-li
+/
+ol
 >
 [
 baz
