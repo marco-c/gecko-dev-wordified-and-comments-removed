@@ -869,9 +869,11 @@ event
 ;
 contentAnalysis
 .
-analyzeContentRequest
+analyzeContentRequests
 (
+[
 request
+]
 true
 )
 .
