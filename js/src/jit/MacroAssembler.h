@@ -25032,6 +25032,9 @@ cacheHit
 Label
 *
 cacheMiss
+Label
+*
+cacheHitGetter
 )
 ;
 template
@@ -25078,6 +25081,11 @@ output
 Label
 *
 cacheHit
+Label
+*
+cacheHitGetter
+=
+nullptr
 )
 ;
 template
@@ -25103,6 +25111,11 @@ output
 Label
 *
 cacheHit
+Label
+*
+cacheHitGetter
+=
+nullptr
 )
 ;
 void
