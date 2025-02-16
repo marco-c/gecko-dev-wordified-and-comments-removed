@@ -2660,6 +2660,7 @@ SectionBlock
 blockedSections
 sectionKey
 sectionPosition
+title
 }
 )
 =
@@ -2864,7 +2865,7 @@ confirm
 -
 block
 -
-section
+topic
 -
 p1
 "
@@ -2877,7 +2878,7 @@ confirm
 -
 block
 -
-section
+topic
 -
 p2
 "
@@ -2891,10 +2892,17 @@ section
 -
 block
 -
-section
+topic
 -
 button
 "
+confirm_button_string_args
+:
+{
+topic
+:
+title
+}
 cancel_button_string_id
 :
 "

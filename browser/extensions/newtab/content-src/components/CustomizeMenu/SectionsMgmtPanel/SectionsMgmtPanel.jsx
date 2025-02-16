@@ -1486,11 +1486,13 @@ newtab
 -
 section
 -
-mangage
+manage
 -
 topics
 -
 button
+-
+v2
 "
 >
 <
@@ -1603,8 +1605,6 @@ topics
 followed
 -
 topics
--
-subtitle
 "
 >
 <
@@ -1700,8 +1700,6 @@ topics
 blocked
 -
 topics
--
-subtitle
 "
 >
 <

@@ -325,6 +325,7 @@ followedSections
 blockedSections
 sectionKey
 sectionPosition
+title
 }
 }
 /
