@@ -1597,7 +1597,7 @@ isGCThing
 )
 value
 .
-hasObjectPayload
+isObject
 (
 )
 |
