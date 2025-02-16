@@ -1921,11 +1921,6 @@ test
 /
 conversational_speech
 "
-"
-test
-/
-py_quality_assessment
-"
 ]
 }
 }
