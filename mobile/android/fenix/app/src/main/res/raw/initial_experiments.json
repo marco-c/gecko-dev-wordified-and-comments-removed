@@ -488,6 +488,11 @@ firefoxLabsDescription
 :
 null
 "
+firefoxLabsDescriptionLinks
+"
+:
+null
+"
 firefoxLabsGroup
 "
 :
@@ -2548,6 +2553,11 @@ firefoxLabsDescription
 :
 null
 "
+firefoxLabsDescriptionLinks
+"
+:
+null
+"
 firefoxLabsGroup
 "
 :
@@ -3927,6 +3937,11 @@ firefoxLabsTitle
 null
 "
 firefoxLabsDescription
+"
+:
+null
+"
+firefoxLabsDescriptionLinks
 "
 :
 null
