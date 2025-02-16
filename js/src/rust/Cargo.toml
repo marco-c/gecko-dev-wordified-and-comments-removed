@@ -89,15 +89,6 @@ simd
 accel
 '
 ]
-smoosh
-=
-[
-'
-jsrust_shared
-/
-smoosh
-'
-]
 gluesmith
 =
 [
