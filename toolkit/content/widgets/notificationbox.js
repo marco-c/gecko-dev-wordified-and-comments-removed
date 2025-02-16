@@ -2658,8 +2658,7 @@ this
 .
 _focusHandler
 =
-(
-)
+event
 =
 >
 {
@@ -2668,6 +2667,15 @@ if
 this
 .
 isConnected
+&
+&
+event
+.
+target
+=
+=
+=
+window
 )
 {
 this
