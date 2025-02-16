@@ -475,6 +475,14 @@ absl
 :
 string_view
 filename
+std
+:
+:
+optional
+<
+int
+>
+fps_hint
 )
 {
 return
@@ -488,6 +496,7 @@ IvfVideoFrameGenerator
 (
 env
 filename
+fps_hint
 )
 ;
 }
