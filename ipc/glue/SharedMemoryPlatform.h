@@ -116,10 +116,6 @@ const
 HandleBase
 &
 aHandle
-uint64_t
-aOffset
-size_t
-aSize
 void
 *
 aFixedAddress
@@ -163,12 +159,6 @@ aSize
 static
 size_t
 PageSize
-(
-)
-;
-static
-size_t
-AllocationGranularity
 (
 )
 ;
