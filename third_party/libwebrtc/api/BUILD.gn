@@ -7973,13 +7973,6 @@ cc
 "
 test
 /
-create_time_controller_unittest
-.
-cc
-"
-"
-test
-/
 peerconnection_quality_test_fixture_unittest
 .
 cc
