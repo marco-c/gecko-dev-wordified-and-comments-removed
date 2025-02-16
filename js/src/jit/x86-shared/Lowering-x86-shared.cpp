@@ -9005,10 +9005,10 @@ defineReuseInput
 (
 lir
 ins
-LWasmConstantShiftSimd128
+LWasmSignReplicationSimd128
 :
 :
-Src
+SrcIndex
 )
 ;
 }
