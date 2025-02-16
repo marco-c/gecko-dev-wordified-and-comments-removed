@@ -4850,10 +4850,11 @@ _splitter
 ;
 if
 (
+!
 this
 .
 sidebarRevampVisibility
-!
+=
 =
 =
 "
