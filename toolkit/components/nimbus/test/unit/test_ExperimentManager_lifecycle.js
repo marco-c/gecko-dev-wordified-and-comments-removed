@@ -1998,6 +1998,9 @@ firefoxLabsDescription
 "
 description
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -2042,6 +2045,9 @@ firefoxLabsTitle
 :
 null
 firefoxLabsDescription
+:
+null
+firefoxLabsDescriptionLinks
 :
 null
 firefoxLabsGroup

@@ -3902,6 +3902,9 @@ localizations
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsDescriptionLinks
+=
+null
 firefoxLabsGroup
 requiresRestart
 =
@@ -4167,6 +4170,7 @@ experiment
 isFirefoxLabsOptIn
 firefoxLabsTitle
 firefoxLabsDescription
+firefoxLabsDescriptionLinks
 firefoxLabsGroup
 requiresRestart
 }
