@@ -2412,14 +2412,7 @@ view
 title
 =
 {
-!
-this
-.
-expanded
-?
 tooltip
-:
-nothing
 }
 .
 iconSrc
