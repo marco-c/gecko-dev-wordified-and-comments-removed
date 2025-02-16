@@ -2209,6 +2209,13 @@ content
 [
 selected
 ]
+:
+not
+(
+[
+pinned
+]
+)
 "
 panel_position
 :
