@@ -140,3 +140,13 @@ ThinVec
 "
 nsTArray
 "
+[
+export
+]
+exclude
+=
+[
+"
+nsCString
+"
+]
