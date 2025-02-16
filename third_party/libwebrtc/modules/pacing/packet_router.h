@@ -235,6 +235,11 @@ callback
 )
 ;
 void
+EnableCongestionControlFeedbackAccordingToRfc8888
+(
+)
+;
+void
 AddSendRtpModule
 (
 RtpRtcpInterface
@@ -552,6 +557,15 @@ RTC_GUARDED_BY
 (
 thread_checker_
 )
+;
+bool
+use_cc_feedback_according_to_rfc8888_
+RTC_GUARDED_BY
+(
+thread_checker_
+)
+=
+false
 ;
 absl
 :
