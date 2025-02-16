@@ -470,9 +470,6 @@ AString
 icon
 in
 AString
-alertName
-in
-AString
 data
 in
 AString

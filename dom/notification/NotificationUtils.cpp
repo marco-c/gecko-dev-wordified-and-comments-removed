@@ -858,10 +858,6 @@ nsString
 &
 aId
 const
-nsString
-&
-aAlertName
-const
 IPCNotificationOptions
 &
 aOptions
@@ -969,7 +965,6 @@ aOptions
 icon
 (
 )
-aAlertName
 aOptions
 .
 dataSerialized

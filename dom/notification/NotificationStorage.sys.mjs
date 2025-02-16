@@ -388,7 +388,6 @@ lang
 body
 tag
 icon
-alertName
 data
 serviceWorkerRegistrationScope
 )
@@ -424,7 +423,6 @@ lang
 body
 tag
 icon
-alertName
 timestamp
 :
 new
