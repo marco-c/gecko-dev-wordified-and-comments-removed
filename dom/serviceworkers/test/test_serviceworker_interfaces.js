@@ -335,6 +335,16 @@ Symbol
 "
 SyntaxError
 "
+{
+name
+:
+"
+Temporal
+"
+nightly
+:
+true
+}
 "
 TypeError
 "
