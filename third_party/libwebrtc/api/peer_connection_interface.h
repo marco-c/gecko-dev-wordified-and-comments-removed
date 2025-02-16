@@ -4052,6 +4052,8 @@ MediaType
 kind
 )
 const
+=
+0
 ;
 virtual
 RtpCapabilities
@@ -4064,6 +4066,8 @@ MediaType
 kind
 )
 const
+=
+0
 ;
 virtual
 rtc
