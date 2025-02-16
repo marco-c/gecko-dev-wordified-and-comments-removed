@@ -2201,6 +2201,16 @@ curapi
 ;
 if
 (
+!
+api
+.
+egl_handle
+)
+return
+EGL_NONE
+;
+if
+(
 eglQueryContext
 (
 eglGetCurrentDisplay
