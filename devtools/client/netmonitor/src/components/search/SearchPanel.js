@@ -165,13 +165,11 @@ client
 /
 shared
 /
-redux
+vendor
 /
-visibility
+react
 -
-handler
--
-connect
+redux
 .
 js
 "

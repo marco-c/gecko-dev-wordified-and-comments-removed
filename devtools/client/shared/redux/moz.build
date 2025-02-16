@@ -29,4 +29,9 @@ connect
 .
 js
 "
+"
+visibilityHandlerStore
+.
+js
+"
 )
