@@ -11612,6 +11612,7 @@ document
 )
 {
 return
+group
 ;
 }
 let
@@ -11644,6 +11645,7 @@ index
 )
 ;
 }
+return
 this
 .
 addTabGroup
