@@ -134,14 +134,6 @@ h
 "
         
 "
-frontend
-/
-smoosh_generated
-.
-h
-"
-        
-"
 gc
 /
 StatsPhasesGenerated
