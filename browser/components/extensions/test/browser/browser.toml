@@ -799,6 +799,13 @@ js
 ]
 [
 "
+browser_ext_commands_openShortcutSettings
+.
+js
+"
+]
+[
+"
 browser_ext_commands_update
 .
 js
