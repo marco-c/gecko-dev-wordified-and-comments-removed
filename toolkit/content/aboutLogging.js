@@ -1743,8 +1743,6 @@ if
 (
 !
 options
-.
-size
 )
 {
 return

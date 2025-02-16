@@ -7977,11 +7977,12 @@ template
 let
 url2
 =
+new
 URL
-.
-fromURI
 (
 uri
+.
+spec
 )
 ;
 if

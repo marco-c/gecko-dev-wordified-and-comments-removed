@@ -1549,6 +1549,7 @@ policy
 for
 the
 extension
+extension
 URI
 or
 *

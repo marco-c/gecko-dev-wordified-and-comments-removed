@@ -2664,11 +2664,12 @@ installOrigins
 .
 includes
 (
+new
 URL
-.
-fromURI
 (
 uri
+.
+spec
 )
 .
 origin
