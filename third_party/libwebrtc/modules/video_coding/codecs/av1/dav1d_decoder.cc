@@ -408,14 +408,15 @@ n_threads
 std
 :
 :
-max
+clamp
 (
-2
 settings
 .
 number_of_cores
 (
 )
+1
+DAV1D_MAX_THREADS
 )
 ;
 s
