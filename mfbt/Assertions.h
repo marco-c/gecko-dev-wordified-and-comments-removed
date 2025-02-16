@@ -1267,6 +1267,12 @@ DEBUG
 |
 defined
 (
+MOZ_ASAN
+)
+|
+|
+defined
+(
 FUZZING
 )
 )
@@ -1456,6 +1462,12 @@ if
 defined
 (
 DEBUG
+)
+|
+|
+defined
+(
+MOZ_ASAN
 )
 |
 |
