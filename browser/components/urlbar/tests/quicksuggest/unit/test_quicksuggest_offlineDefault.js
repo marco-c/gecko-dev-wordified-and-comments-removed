@@ -29,10 +29,10 @@ set
 "
 setBoolPref
 "
-expectedOfflineValue
+expectedWhenSuggestEnabled
 :
 true
-expectedOtherValue
+expectedWhenSuggestDisabled
 :
 false
 }
@@ -60,10 +60,10 @@ set
 "
 setBoolPref
 "
-expectedOfflineValue
+expectedWhenSuggestEnabled
 :
 false
-expectedOtherValue
+expectedWhenSuggestDisabled
 :
 false
 }
@@ -91,10 +91,10 @@ set
 "
 setBoolPref
 "
-expectedOfflineValue
+expectedWhenSuggestEnabled
 :
 true
-expectedOtherValue
+expectedWhenSuggestDisabled
 :
 false
 }
@@ -122,10 +122,10 @@ set
 "
 setBoolPref
 "
-expectedOfflineValue
+expectedWhenSuggestEnabled
 :
 true
-expectedOtherValue
+expectedWhenSuggestDisabled
 :
 false
 }
@@ -174,7 +174,7 @@ home
 "
 US
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 true
 }
@@ -191,7 +191,7 @@ home
 "
 CA
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 false
 }
@@ -208,7 +208,7 @@ home
 "
 US
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 true
 }
@@ -225,7 +225,7 @@ home
 "
 CA
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 false
 }
@@ -242,7 +242,7 @@ home
 "
 US
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 true
 }
@@ -259,7 +259,7 @@ home
 "
 GB
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 false
 }
@@ -274,7 +274,7 @@ home
 "
 US
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 false
 }
@@ -289,7 +289,7 @@ home
 "
 DE
 "
-expectedOfflineDefault
+expectSuggestToBeEnabled
 :
 false
 }
@@ -301,7 +301,7 @@ let
 {
 locale
 home
-expectedOfflineDefault
+expectSuggestToBeEnabled
 }
 of
 tests
@@ -313,7 +313,7 @@ doTest
 {
 locale
 home
-expectedOfflineDefault
+expectSuggestToBeEnabled
 }
 )
 ;
@@ -328,7 +328,7 @@ doTest
 {
 locale
 home
-expectedOfflineDefault
+expectSuggestToBeEnabled
 }
 )
 {
@@ -411,8 +411,8 @@ let
 {
 name
 get
-expectedOfflineValue
-expectedOtherValue
+expectedWhenSuggestEnabled
+expectedWhenSuggestDisabled
 }
 of
 PREFS
@@ -421,11 +421,11 @@ PREFS
 let
 expectedValue
 =
-expectedOfflineDefault
+expectSuggestToBeEnabled
 ?
-expectedOfflineValue
+expectedWhenSuggestEnabled
 :
-expectedOtherValue
+expectedWhenSuggestDisabled
 ;
 Assert
 .

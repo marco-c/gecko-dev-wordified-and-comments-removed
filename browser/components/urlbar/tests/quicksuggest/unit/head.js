@@ -128,8 +128,10 @@ doMigrateTest
 (
 {
 testOverrides
-scenario
 expectedPrefs
+shouldEnable
+=
+true
 initialUserBranch
 =
 {
@@ -152,7 +154,7 @@ stringify
 {
 testOverrides
 initialUserBranch
-scenario
+shouldEnable
 expectedPrefs
 }
 )
@@ -526,7 +528,7 @@ _test_reinit
 .
 .
 testOverrides
-scenario
+shouldEnable
 }
 )
 ;
@@ -623,8 +625,8 @@ branchType
 }
 branch
 after
-updating
-scenario
+Suggest
+init
 )
 ;
 for
