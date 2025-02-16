@@ -186,7 +186,7 @@ set
 (
 b
 '
-identity
+unencoded
 -
 digest
 '

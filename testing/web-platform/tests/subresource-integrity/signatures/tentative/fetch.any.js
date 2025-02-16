@@ -28,7 +28,9 @@ signature
 signature
 =
 :
-eTKYITprfJYJmsOZlRTmu0szHbt0yLxHYBU0oXDdkx8najLl59IPO0zUofe5T23RGuquHLdZx177tBX45CUcAg
+gHim9e5Pk2H7c9BStOmxSmkyc8
++
+ioZgoxynu3d4INAT4dwfj5LhvaV9DFnEQ9p7C0hzW4o4Qpkm5aApd6WLLCw
 =
 =
 :
@@ -38,7 +40,7 @@ signature
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -106,7 +108,7 @@ signature
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
