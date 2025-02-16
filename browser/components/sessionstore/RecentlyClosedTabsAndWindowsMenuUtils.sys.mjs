@@ -2331,8 +2331,6 @@ tab
 group
 -
 icon
--
-closed
 "
 )
 ;
