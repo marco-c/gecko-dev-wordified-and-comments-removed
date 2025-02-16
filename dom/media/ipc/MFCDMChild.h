@@ -612,6 +612,15 @@ RemoveSessionPromise
 >
 mRemoveSessionRequest
 ;
+mutable
+Mutex
+mMutex
+{
+"
+MFCDMChild
+"
+}
+;
 std
 :
 :
@@ -624,6 +633,10 @@ SessionPromise
 >
 >
 mPendingSessionPromises
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 std
 :
@@ -637,6 +650,10 @@ GenericPromise
 >
 >
 mPendingGenericPromises
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 RefPtr
 <
