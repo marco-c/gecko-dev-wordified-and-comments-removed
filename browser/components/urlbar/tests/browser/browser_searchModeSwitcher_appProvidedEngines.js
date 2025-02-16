@@ -137,7 +137,7 @@ popup
 querySelector
 (
 "
-menuitem
+toolbarbutton
 [
 label
 =

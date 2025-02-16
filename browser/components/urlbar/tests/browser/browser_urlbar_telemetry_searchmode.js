@@ -3185,14 +3185,7 @@ popup
 querySelector
 (
 "
-menuitem
-:
-not
-(
-[
-disabled
-]
-)
+toolbarbutton
 "
 )
 .
