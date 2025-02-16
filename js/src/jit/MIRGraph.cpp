@@ -109,13 +109,6 @@ const
 OptimizationInfo
 *
 optimizationInfo
-const
-wasm
-:
-:
-TypeContext
-*
-wasmTypes
 )
 :
 realm
@@ -228,7 +221,6 @@ options
 gs_
 (
 alloc
-wasmTypes
 )
 {
 }

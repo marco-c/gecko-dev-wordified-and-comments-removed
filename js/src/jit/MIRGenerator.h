@@ -186,15 +186,6 @@ const
 OptimizationInfo
 *
 optimizationInfo
-const
-wasm
-:
-:
-TypeContext
-*
-wasmTypes
-=
-nullptr
 )
 ;
 void
