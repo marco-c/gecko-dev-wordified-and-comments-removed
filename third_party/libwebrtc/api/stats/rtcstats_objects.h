@@ -33,17 +33,23 @@ string
 >
 #
 include
-<
-vector
->
-#
-include
 "
 api
 /
 stats
 /
 rtc_stats
+.
+h
+"
+#
+include
+"
+api
+/
+units
+/
+timestamp
 .
 h
 "
@@ -73,6 +79,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCCertificateStats
 )
 ;
 RTCCertificateStats
@@ -154,6 +161,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCCodecStats
 )
 ;
 RTCCodecStats
@@ -250,6 +258,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCDataChannelStats
 )
 ;
 RTCDataChannelStats
@@ -364,6 +373,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCIceCandidatePairStats
 )
 ;
 RTCIceCandidatePairStats
@@ -624,6 +634,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCIceCandidateStats
 )
 ;
 ~
@@ -966,6 +977,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCPeerConnectionStats
 )
 ;
 RTCPeerConnectionStats
@@ -1016,6 +1028,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCRtpStreamStats
 )
 ;
 ~
@@ -1095,6 +1108,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCReceivedRtpStreamStats
 )
 ;
 ~
@@ -1147,6 +1161,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCSentRtpStreamStats
 )
 ;
 ~
@@ -1200,6 +1215,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCInboundRtpStreamStats
 )
 ;
 RTCInboundRtpStreamStats
@@ -1830,6 +1846,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCOutboundRtpStreamStats
 )
 ;
 RTCOutboundRtpStreamStats
@@ -2176,6 +2193,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCRemoteInboundRtpStreamStats
 )
 ;
 RTCRemoteInboundRtpStreamStats
@@ -2257,6 +2275,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCRemoteOutboundRtpStreamStats
 )
 ;
 RTCRemoteOutboundRtpStreamStats
@@ -2346,6 +2365,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCMediaSourceStats
 )
 ;
 ~
@@ -2405,6 +2425,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCAudioSourceStats
 )
 ;
 RTCAudioSourceStats
@@ -2483,6 +2504,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCVideoSourceStats
 )
 ;
 RTCVideoSourceStats
@@ -2552,6 +2574,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCTransportStats
 )
 ;
 RTCTransportStats
@@ -2774,6 +2797,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCAudioPlayoutStats
 )
 ;
 RTCAudioPlayoutStats
