@@ -855,10 +855,6 @@ aData
 =
 =
 "
-dom
-.
-push
-.
 userAgentID
 "
 )
