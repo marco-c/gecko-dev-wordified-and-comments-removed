@@ -5830,11 +5830,7 @@ done
 {
 cmp32
 (
-val
-.
-typeReg
-(
-)
+temp
 Imm32
 (
 expected
@@ -5869,11 +5865,7 @@ label
 ;
 cmp32
 (
-val
-.
-typeReg
-(
-)
+temp
 Imm32
 (
 expected
