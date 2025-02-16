@@ -6049,6 +6049,7 @@ cdef_find_dir
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6073,6 +6074,7 @@ cdef_filter_8_0
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6085,6 +6087,7 @@ cdef_filter_8_1
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6097,6 +6100,7 @@ cdef_filter_8_2
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6109,6 +6113,7 @@ cdef_filter_8_3
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6121,6 +6126,7 @@ cdef_filter_16_0
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6133,6 +6139,7 @@ cdef_filter_16_1
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6145,6 +6152,7 @@ cdef_filter_16_2
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6157,6 +6165,7 @@ cdef_filter_16_3
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6169,6 +6178,7 @@ cdef_copy_rect8_8bit_to_16bit
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86
@@ -6195,6 +6205,7 @@ cdef_copy_rect8_16bit_to_16bit
 sse4_1
 avx2
 neon
+rvv
 /
 "
 ssse3_x86

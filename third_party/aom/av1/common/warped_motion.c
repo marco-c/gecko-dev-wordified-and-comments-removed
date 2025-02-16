@@ -76,7 +76,7 @@ scale
 h
 "
 const
-int16_t
+WarpedFilterCoeff
 av1_warped_filter
 [
 WARPEDPIXEL_PREC_SHIFTS
@@ -4148,7 +4148,7 @@ WARPEDPIXEL_PREC_SHIFTS
 )
 ;
 const
-int16_t
+WarpedFilterCoeff
 *
 coeffs
 =
@@ -4362,7 +4362,7 @@ WARPEDPIXEL_PREC_SHIFTS
 )
 ;
 const
-int16_t
+WarpedFilterCoeff
 *
 coeffs
 =
@@ -5401,7 +5401,7 @@ WARPEDPIXEL_PREC_SHIFTS
 )
 ;
 const
-int16_t
+WarpedFilterCoeff
 *
 coeffs
 =
@@ -5615,7 +5615,7 @@ WARPEDPIXEL_PREC_SHIFTS
 )
 ;
 const
-int16_t
+WarpedFilterCoeff
 *
 coeffs
 =

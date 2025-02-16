@@ -26,6 +26,17 @@ h
 #
 include
 "
+aom_dsp
+/
+arm
+/
+mem_neon
+.
+h
+"
+#
+include
+"
 av1
 /
 common
@@ -2953,7 +2964,7 @@ const
 int16x8x2_t
 ac_q3
 =
-vld2q_s16
+vld1q_s16_x2
 (
 pred_buf_q3
 )
@@ -3086,7 +3097,7 @@ const
 int16x8x4_t
 ac_q3
 =
-vld4q_s16
+vld1q_s16_x4
 (
 pred_buf_q3
 )
@@ -3512,7 +3523,7 @@ val
 }
 }
 ;
-vst2_u8
+vst1_u8_x2
 (
 dst
 predun
@@ -3578,7 +3589,7 @@ val
 }
 }
 ;
-vst4_u8
+vst1_u8_x4
 (
 dst
 predun
@@ -4099,7 +4110,7 @@ abs_alpha_q12
 dc
 )
 ;
-vst2q_u16
+vst1q_u16_x2
 (
 dst
 clamp2q_s16
@@ -4124,7 +4135,7 @@ abs_alpha_q12
 dc
 )
 ;
-vst4q_u16
+vst1q_u16_x4
 (
 dst
 clamp4q_s16

@@ -126,6 +126,9 @@ equ
 AOM_ARCH_PPC
 equ
 0
+AOM_ARCH_RISCV
+equ
+0
 AOM_ARCH_X86
 equ
 0
@@ -334,6 +337,9 @@ HAVE_NEON_DOTPROD
 equ
 0
 HAVE_NEON_I8MM
+equ
+0
+HAVE_RVV
 equ
 0
 HAVE_SSE
