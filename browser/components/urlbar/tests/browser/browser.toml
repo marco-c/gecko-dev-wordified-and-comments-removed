@@ -1542,6 +1542,13 @@ html
 ]
 [
 "
+browser_lossless_encode
+.
+js
+"
+]
+[
+"
 browser_middleClick
 .
 js
