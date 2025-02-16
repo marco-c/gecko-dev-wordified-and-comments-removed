@@ -462,8 +462,8 @@ name
 mozac_feature_contextmenu_snackbar_new_tab_opened
 "
 >
-Nova
-scheda
+Scheda
+nova
 graputa
 <
 /
@@ -501,9 +501,9 @@ name
 mozac_feature_contextmenu_snackbar_new_private_tab_opened
 "
 >
-Nova
-scheda
+Scheda
 privata
+nova
 graputa
 <
 /
