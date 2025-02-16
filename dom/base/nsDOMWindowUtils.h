@@ -248,6 +248,11 @@ dom
 Element
 *
 aElement
+nsPoint
+*
+aOffset
+=
+nullptr
 )
 ;
 nsIDocShell
