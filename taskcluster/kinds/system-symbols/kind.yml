@@ -1436,6 +1436,10 @@ toolchain
 -
 linux64
 -
+cabextract
+-
+linux64
+-
 7zz
 alpine
 :

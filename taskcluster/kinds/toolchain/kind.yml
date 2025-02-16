@@ -158,6 +158,10 @@ vet
 .
 yml
 -
+cabextract
+.
+yml
+-
 cbindgen
 .
 yml

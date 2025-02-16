@@ -314,6 +314,13 @@ MOZ_FETCHES_DIR
 /
 :
 {
+MOZ_FETCHES_DIR
+}
+/
+cabextract
+/
+:
+{
 PATH
 }
 "
