@@ -164,6 +164,11 @@ allow_reserved
 "
 :
 False
+"
+is_local_build
+"
+:
+False
 }
     
 input_files

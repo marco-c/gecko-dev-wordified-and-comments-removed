@@ -95,7 +95,7 @@ aId
 )
 {
 case
-28021745
+3
 :
 {
 return
@@ -109,7 +109,7 @@ SOME_LINEAR_HISTOGRAM
 ;
 }
 case
-6804861
+10
 :
 {
 return
@@ -123,7 +123,7 @@ SOME_MEM_HISTOGRAM_KB
 ;
 }
 case
-25552771
+15
 :
 {
 return

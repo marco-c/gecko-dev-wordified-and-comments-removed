@@ -933,28 +933,36 @@ get_metrics
 (
 objs
 )
+            
 output_fd_cpp
+            
 "
 js
 .
 jinja2
 "
+            
 output_fd_h
+            
 "
 js_h
 .
 jinja2
 "
+            
+options
         
 )
 def
 write_metrics
 (
+    
 objs
 output_fd
 template_filename
 output_fd_h
 template_filename_h
+options
 )
 :
     
@@ -1033,6 +1041,7 @@ get_metric_id
 generate_metric_ids
 (
 objs
+options
 )
     
 metric_id_mapping

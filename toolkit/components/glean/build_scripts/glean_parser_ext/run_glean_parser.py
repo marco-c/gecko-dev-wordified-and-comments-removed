@@ -240,6 +240,7 @@ def
 get_parser_options
 (
 moz_app_version
+is_local_build
 )
 :
     
@@ -275,6 +276,12 @@ int
 (
 app_version_major
 )
+        
+"
+is_local_build
+"
+:
+is_local_build
     
 }
 def
@@ -356,6 +363,45 @@ built
 "
 "
     
+fast_rebuild
+=
+args
+[
+-
+1
+]
+=
+=
+"
+-
+-
+fast
+-
+rebuild
+"
+    
+if
+fast_rebuild
+:
+        
+args
+=
+args
+[
+:
+-
+1
+]
+    
+yaml_array
+=
+args
+[
+:
+-
+1
+]
+    
 if
 all
 (
@@ -371,12 +417,7 @@ cached
 for
 arg
 in
-args
-[
-:
--
-1
-]
+yaml_array
 )
 :
         
@@ -393,12 +434,7 @@ None
 for
 cache_file
 in
-args
-[
-:
--
-1
-]
+yaml_array
 :
             
 with
@@ -458,15 +494,6 @@ return
 objects
 options
     
-yaml_array
-=
-args
-[
-:
--
-1
-]
-    
 moz_app_version
 =
 args
@@ -493,6 +520,7 @@ options
 get_parser_options
 (
 moz_app_version
+fast_rebuild
 )
     
 if
@@ -899,6 +927,7 @@ get_metric_id
 generate_metric_ids
 (
 all_objs
+options
 )
         
 for
@@ -1196,6 +1225,7 @@ output_fd
 probe_type
 all_objs
 cpp_fd
+options
 )
     
 else
@@ -1207,6 +1237,7 @@ output_fd
 probe_type
 all_objs
 None
+options
 )
     
 return
@@ -1220,6 +1251,7 @@ output_fd
 probe_type
 all_objs
 cpp_fd
+options
 )
 :
     
@@ -1228,6 +1260,7 @@ get_metric_id
 generate_metric_ids
 (
 all_objs
+options
 )
     
 ids_to_probes

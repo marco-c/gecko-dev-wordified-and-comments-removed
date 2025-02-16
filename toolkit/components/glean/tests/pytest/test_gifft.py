@@ -153,6 +153,11 @@ allow_reserved
 "
 :
 False
+"
+is_local_build
+"
+:
+False
 }
     
 here_path
@@ -226,10 +231,13 @@ run_glean_parser
 .
 output_gifft_map
 (
+            
 output_fd
 probe_type
 all_objs
 cpp_fd
+options
+        
 )
         
 expect

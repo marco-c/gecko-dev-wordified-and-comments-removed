@@ -153,7 +153,7 @@ new
 (
 MetricId
 (
-22495729
+1
 )
 meta
 )
@@ -246,7 +246,7 @@ new
 (
 MetricId
 (
-30349935
+2
 )
 meta
 )
@@ -339,7 +339,7 @@ new
 (
 MetricId
 (
-28021745
+3
 )
 meta
 0
@@ -454,7 +454,7 @@ new
 (
 MetricId
 (
-21875658
+4
 )
 meta
 None
@@ -833,7 +833,7 @@ new
 (
 MetricId
 (
-7966417
+5
 )
 meta
 Some
@@ -1118,7 +1118,7 @@ new
 (
 MetricId
 (
-139440
+6
 )
 meta
 None
@@ -1345,7 +1345,7 @@ new
 (
 MetricId
 (
-6593356
+7
 )
 meta
 Some
@@ -1494,7 +1494,7 @@ new
 (
 MetricId
 (
-22655931
+8
 )
 meta
 None
@@ -1721,7 +1721,7 @@ new
 (
 MetricId
 (
-10006522
+9
 )
 meta
 Some
@@ -1855,7 +1855,7 @@ new
 (
 MetricId
 (
-6804861
+10
 )
 meta
 MemoryUnit
@@ -1952,7 +1952,7 @@ new
 (
 MetricId
 (
-18320715
+11
 )
 meta
 )
@@ -2045,7 +2045,7 @@ new
 (
 MetricId
 (
-25252540
+12
 )
 meta
 )
@@ -2138,7 +2138,7 @@ new
 (
 MetricId
 (
-23203570
+13
 )
 meta
 )
@@ -2231,7 +2231,7 @@ new
 (
 MetricId
 (
-11887791
+14
 )
 meta
 TimeUnit
@@ -2328,7 +2328,7 @@ new
 (
 MetricId
 (
-25552771
+15
 )
 meta
 TimeUnit
@@ -2425,7 +2425,7 @@ with_unordered_ipc
 (
 MetricId
 (
-23138752
+16
 )
 meta
 )
@@ -2533,7 +2533,7 @@ with_unordered_ipc
 (
 MetricId
 (
-11455568
+17
 )
 meta
 None
@@ -2823,7 +2823,7 @@ new
 (
 MetricId
 (
-25398426
+18
 )
 meta
 )
@@ -2918,7 +2918,7 @@ new
 (
 MetricId
 (
-32461197
+19
 )
 meta
 TimeUnit
@@ -3020,7 +3020,7 @@ new
 (
 MetricId
 (
-110940
+20
 )
 meta
 )
@@ -3291,7 +3291,7 @@ new
 (
 MetricId
 (
-20015710
+21
 )
 meta
 )
@@ -3386,7 +3386,7 @@ new
 (
 MetricId
 (
-21877185
+22
 )
 meta
 vec
@@ -3532,7 +3532,7 @@ CounterMetric
 :
 codegen_new
 (
-14212265
+23
 "
 test
 .
@@ -3577,7 +3577,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-7676830
+24
 "
 test
 .
@@ -3681,7 +3681,7 @@ new
 (
 MetricId
 (
-8082779
+25
 )
 meta
 )
@@ -3776,7 +3776,7 @@ new
 (
 MetricId
 (
-30750772
+26
 )
 meta
 )
@@ -3871,7 +3871,7 @@ new
 (
 MetricId
 (
-1413969
+27
 )
 meta
 )
@@ -3966,7 +3966,7 @@ new
 (
 MetricId
 (
-32794253
+28
 )
 meta
 )
@@ -4124,7 +4124,7 @@ new
 (
 MetricId
 (
-5536416
+29
 )
 meta
 )
@@ -4217,7 +4217,7 @@ new
 (
 MetricId
 (
-27435907
+30
 )
 meta
 )
@@ -4310,7 +4310,7 @@ new
 (
 MetricId
 (
-27313004
+31
 )
 meta
 0
@@ -4425,7 +4425,7 @@ new
 (
 MetricId
 (
-9102331
+32
 )
 meta
 None
@@ -4804,7 +4804,7 @@ new
 (
 MetricId
 (
-27310108
+33
 )
 meta
 Some
@@ -5089,7 +5089,7 @@ new
 (
 MetricId
 (
-4435991
+34
 )
 meta
 None
@@ -5316,7 +5316,7 @@ new
 (
 MetricId
 (
-27714779
+35
 )
 meta
 Some
@@ -5465,7 +5465,7 @@ new
 (
 MetricId
 (
-13299578
+36
 )
 meta
 None
@@ -5692,7 +5692,7 @@ new
 (
 MetricId
 (
-21201865
+37
 )
 meta
 Some
@@ -5826,7 +5826,7 @@ new
 (
 MetricId
 (
-29118730
+38
 )
 meta
 MemoryUnit
@@ -5923,7 +5923,7 @@ new
 (
 MetricId
 (
-27603867
+39
 )
 meta
 )
@@ -6016,7 +6016,7 @@ new
 (
 MetricId
 (
-31008897
+40
 )
 meta
 )
@@ -6109,7 +6109,7 @@ new
 (
 MetricId
 (
-3163718
+41
 )
 meta
 )
@@ -6202,7 +6202,7 @@ new
 (
 MetricId
 (
-18482215
+42
 )
 meta
 TimeUnit
@@ -6299,7 +6299,7 @@ new
 (
 MetricId
 (
-14261116
+43
 )
 meta
 TimeUnit
@@ -6396,7 +6396,7 @@ with_unordered_ipc
 (
 MetricId
 (
-17090832
+44
 )
 meta
 )
@@ -6504,7 +6504,7 @@ with_unordered_ipc
 (
 MetricId
 (
-13310781
+45
 )
 meta
 None
@@ -6794,7 +6794,7 @@ new
 (
 MetricId
 (
-21851592
+46
 )
 meta
 )
@@ -6889,7 +6889,7 @@ new
 (
 MetricId
 (
-9930003
+47
 )
 meta
 TimeUnit
@@ -6991,7 +6991,7 @@ new
 (
 MetricId
 (
-1091783
+48
 )
 meta
 )
@@ -7262,7 +7262,7 @@ new
 (
 MetricId
 (
-20312052
+49
 )
 meta
 )
@@ -7298,7 +7298,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-2838206
+50
 "
 test2
 .
@@ -7343,7 +7343,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-8514908
+51
 "
 test2
 .
@@ -7388,7 +7388,7 @@ CounterMetric
 :
 codegen_disabled_new
 (
-17063655
+52
 "
 test2
 .
@@ -7492,7 +7492,7 @@ new
 (
 MetricId
 (
-20268999
+53
 )
 meta
 )
@@ -7587,7 +7587,7 @@ new
 (
 MetricId
 (
-15523628
+54
 )
 meta
 )
@@ -7682,7 +7682,7 @@ new
 (
 MetricId
 (
-25857163
+55
 )
 meta
 )
@@ -7777,7 +7777,7 @@ new
 (
 MetricId
 (
-23885948
+56
 )
 meta
 )
@@ -7887,7 +7887,7 @@ insert
 (
 MetricId
 (
-22495729
+1
 )
 &
 super
@@ -7905,7 +7905,7 @@ insert
 (
 MetricId
 (
-23138752
+16
 )
 &
 super
@@ -7923,7 +7923,7 @@ insert
 (
 MetricId
 (
-5536416
+29
 )
 &
 super
@@ -7941,7 +7941,7 @@ insert
 (
 MetricId
 (
-17090832
+44
 )
 &
 super
@@ -8000,7 +8000,7 @@ insert
 (
 MetricId
 (
-30349935
+2
 )
 &
 super
@@ -8018,7 +8018,7 @@ insert
 (
 MetricId
 (
-14212265
+23
 )
 &
 super
@@ -8036,7 +8036,7 @@ insert
 (
 MetricId
 (
-7676830
+24
 )
 &
 super
@@ -8054,7 +8054,7 @@ insert
 (
 MetricId
 (
-27435907
+30
 )
 &
 super
@@ -8072,7 +8072,7 @@ insert
 (
 MetricId
 (
-2838206
+50
 )
 &
 super
@@ -8090,7 +8090,7 @@ insert
 (
 MetricId
 (
-8514908
+51
 )
 &
 super
@@ -8108,7 +8108,7 @@ insert
 (
 MetricId
 (
-17063655
+52
 )
 &
 super
@@ -8167,7 +8167,7 @@ insert
 (
 MetricId
 (
-28021745
+3
 )
 &
 super
@@ -8185,7 +8185,7 @@ insert
 (
 MetricId
 (
-27313004
+31
 )
 &
 super
@@ -8244,7 +8244,7 @@ insert
 (
 MetricId
 (
-6804861
+10
 )
 &
 super
@@ -8262,7 +8262,7 @@ insert
 (
 MetricId
 (
-29118730
+38
 )
 &
 super
@@ -8321,7 +8321,7 @@ insert
 (
 MetricId
 (
-18320715
+11
 )
 &
 super
@@ -8339,7 +8339,7 @@ insert
 (
 MetricId
 (
-27603867
+39
 )
 &
 super
@@ -8398,7 +8398,7 @@ insert
 (
 MetricId
 (
-25252540
+12
 )
 &
 super
@@ -8416,7 +8416,7 @@ insert
 (
 MetricId
 (
-31008897
+40
 )
 &
 super
@@ -8475,7 +8475,7 @@ insert
 (
 MetricId
 (
-23203570
+13
 )
 &
 super
@@ -8493,7 +8493,7 @@ insert
 (
 MetricId
 (
-3163718
+41
 )
 &
 super
@@ -8552,7 +8552,7 @@ insert
 (
 MetricId
 (
-11887791
+14
 )
 &
 super
@@ -8570,7 +8570,7 @@ insert
 (
 MetricId
 (
-18482215
+42
 )
 &
 super
@@ -8629,7 +8629,7 @@ insert
 (
 MetricId
 (
-25552771
+15
 )
 &
 super
@@ -8647,7 +8647,7 @@ insert
 (
 MetricId
 (
-14261116
+43
 )
 &
 super
@@ -8706,7 +8706,7 @@ insert
 (
 MetricId
 (
-32461197
+19
 )
 &
 super
@@ -8724,7 +8724,7 @@ insert
 (
 MetricId
 (
-9930003
+47
 )
 &
 super
@@ -8783,7 +8783,7 @@ insert
 (
 MetricId
 (
-21877185
+22
 )
 &
 super
@@ -8842,7 +8842,7 @@ insert
 (
 MetricId
 (
-8082779
+25
 )
 &
 super
@@ -8860,7 +8860,7 @@ insert
 (
 MetricId
 (
-20268999
+53
 )
 &
 super
@@ -8919,7 +8919,7 @@ insert
 (
 MetricId
 (
-30750772
+26
 )
 &
 super
@@ -8937,7 +8937,7 @@ insert
 (
 MetricId
 (
-15523628
+54
 )
 &
 super
@@ -8996,7 +8996,7 @@ insert
 (
 MetricId
 (
-1413969
+27
 )
 &
 super
@@ -9014,7 +9014,7 @@ insert
 (
 MetricId
 (
-25857163
+55
 )
 &
 super
@@ -9073,7 +9073,7 @@ insert
 (
 MetricId
 (
-32794253
+28
 )
 &
 super
@@ -9091,7 +9091,7 @@ insert
 (
 MetricId
 (
-23885948
+56
 )
 &
 super
@@ -9134,7 +9134,7 @@ Result
 match
 metric_id
 {
-25398426
+18
 =
 >
 {
@@ -9157,7 +9157,7 @@ Ok
 )
 )
 }
-21851592
+46
 =
 >
 {
@@ -9217,7 +9217,7 @@ String
 match
 metric_id
 {
-25398426
+18
 =
 >
 super
@@ -9236,7 +9236,7 @@ as_deref
 (
 )
 )
-21851592
+46
 =
 >
 super
@@ -9313,7 +9313,7 @@ with_gecko
 match
 metric_id
 {
-25398426
+18
 =
 >
 test_get_errors
@@ -9327,7 +9327,7 @@ test_nested
 :
 an_object
 )
-21851592
+46
 =
 >
 test_get_errors
@@ -9409,7 +9409,7 @@ EventRecordingError
 match
 metric_id
 {
-110940
+20
 =
 >
 {
@@ -9432,7 +9432,7 @@ Ok
 )
 )
 }
-20015710
+21
 =
 >
 {
@@ -9455,7 +9455,7 @@ Ok
 )
 )
 }
-1091783
+48
 =
 >
 {
@@ -9478,7 +9478,7 @@ Ok
 )
 )
 }
-20312052
+49
 =
 >
 {
@@ -9548,7 +9548,7 @@ metric_id
 {
 MetricId
 (
-110940
+20
 )
 =
 >
@@ -9609,7 +9609,7 @@ Ok
 }
 MetricId
 (
-20015710
+21
 )
 =
 >
@@ -9670,7 +9670,7 @@ Ok
 }
 MetricId
 (
-1091783
+48
 )
 =
 >
@@ -9731,7 +9731,7 @@ Ok
 }
 MetricId
 (
-20312052
+49
 )
 =
 >
@@ -9832,7 +9832,7 @@ RecordedEvent
 match
 metric_id
 {
-110940
+20
 =
 >
 super
@@ -9851,7 +9851,7 @@ as_deref
 (
 )
 )
-20015710
+21
 =
 >
 super
@@ -9870,7 +9870,7 @@ as_deref
 (
 )
 )
-1091783
+48
 =
 >
 super
@@ -9889,7 +9889,7 @@ as_deref
 (
 )
 )
-20312052
+49
 =
 >
 super
@@ -9966,7 +9966,7 @@ with_gecko
 match
 metric_id
 {
-110940
+20
 =
 >
 test_get_errors
@@ -9980,7 +9980,7 @@ test_nested
 :
 event_metric
 )
-20015710
+21
 =
 >
 test_get_errors
@@ -9994,7 +9994,7 @@ test_nested
 :
 event_metric_with_extra
 )
-1091783
+48
 =
 >
 test_get_errors
@@ -10008,7 +10008,7 @@ test2_nested
 :
 event_metric
 )
-20312052
+49
 =
 >
 test_get_errors
@@ -10092,7 +10092,7 @@ LabeledBooleanMetric
 match
 metric_id
 {
-21875658
+4
 =
 >
 super
@@ -10107,7 +10107,7 @@ get
 (
 label
 )
-7966417
+5
 =
 >
 super
@@ -10122,7 +10122,7 @@ get
 (
 label
 )
-11455568
+17
 =
 >
 super
@@ -10137,7 +10137,7 @@ get
 (
 label
 )
-9102331
+32
 =
 >
 super
@@ -10152,7 +10152,7 @@ get
 (
 label
 )
-27310108
+33
 =
 >
 super
@@ -10167,7 +10167,7 @@ get
 (
 label
 )
-13310781
+45
 =
 >
 super
@@ -10233,7 +10233,7 @@ LabeledCounterMetric
 match
 metric_id
 {
-139440
+6
 =
 >
 super
@@ -10248,7 +10248,7 @@ get
 (
 label
 )
-6593356
+7
 =
 >
 super
@@ -10263,7 +10263,7 @@ get
 (
 label
 )
-4435991
+34
 =
 >
 super
@@ -10278,7 +10278,7 @@ get
 (
 label
 )
-27714779
+35
 =
 >
 super
@@ -10344,7 +10344,7 @@ LabeledStringMetric
 match
 metric_id
 {
-22655931
+8
 =
 >
 super
@@ -10359,7 +10359,7 @@ get
 (
 label
 )
-10006522
+9
 =
 >
 super
@@ -10374,7 +10374,7 @@ get
 (
 label
 )
-13299578
+36
 =
 >
 super
@@ -10389,7 +10389,7 @@ get
 (
 label
 )
-21201865
+37
 =
 >
 super
@@ -10447,7 +10447,7 @@ str
 match
 metric_id
 {
-7966417
+5
 =
 >
 super
@@ -10467,7 +10467,7 @@ label
 into
 (
 )
-6593356
+7
 =
 >
 super
@@ -10487,7 +10487,7 @@ label
 into
 (
 )
-10006522
+9
 =
 >
 super
@@ -10507,7 +10507,7 @@ label
 into
 (
 )
-27310108
+33
 =
 >
 super
@@ -10527,7 +10527,7 @@ label
 into
 (
 )
-27714779
+35
 =
 >
 super
@@ -10547,7 +10547,7 @@ label
 into
 (
 )
-21201865
+37
 =
 >
 super
@@ -10623,7 +10623,7 @@ u32
 match
 metric_id
 {
-21875658
+4
 =
 >
 super
@@ -10638,7 +10638,7 @@ get_submetric_id
 (
 label
 )
-7966417
+5
 =
 >
 super
@@ -10653,7 +10653,7 @@ get_submetric_id
 (
 label
 )
-139440
+6
 =
 >
 super
@@ -10668,7 +10668,7 @@ get_submetric_id
 (
 label
 )
-6593356
+7
 =
 >
 super
@@ -10683,7 +10683,7 @@ get_submetric_id
 (
 label
 )
-22655931
+8
 =
 >
 super
@@ -10698,7 +10698,7 @@ get_submetric_id
 (
 label
 )
-10006522
+9
 =
 >
 super
@@ -10713,7 +10713,7 @@ get_submetric_id
 (
 label
 )
-11455568
+17
 =
 >
 super
@@ -10728,7 +10728,7 @@ get_submetric_id
 (
 label
 )
-9102331
+32
 =
 >
 super
@@ -10743,7 +10743,7 @@ get_submetric_id
 (
 label
 )
-27310108
+33
 =
 >
 super
@@ -10758,7 +10758,7 @@ get_submetric_id
 (
 label
 )
-4435991
+34
 =
 >
 super
@@ -10773,7 +10773,7 @@ get_submetric_id
 (
 label
 )
-27714779
+35
 =
 >
 super
@@ -10788,7 +10788,7 @@ get_submetric_id
 (
 label
 )
-13299578
+36
 =
 >
 super
@@ -10803,7 +10803,7 @@ get_submetric_id
 (
 label
 )
-21201865
+37
 =
 >
 super
@@ -10818,7 +10818,7 @@ get_submetric_id
 (
 label
 )
-13310781
+45
 =
 >
 super

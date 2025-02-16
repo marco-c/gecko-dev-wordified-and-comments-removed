@@ -1547,6 +1547,7 @@ get_metric_id
 generate_metric_ids
 (
 objs
+options
 )
     
 get_ping_id
