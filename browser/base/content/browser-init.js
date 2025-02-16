@@ -1839,6 +1839,9 @@ BrowserUtils
 .
 callModulesFromCategory
 (
+{
+categoryName
+:
 "
 browser
 -
@@ -1848,6 +1851,16 @@ delayed
 -
 startup
 "
+profilerMarker
+:
+"
+delayed
+-
+startup
+-
+task
+"
+}
 window
 )
 ;
