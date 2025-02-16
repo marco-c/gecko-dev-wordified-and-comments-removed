@@ -14702,6 +14702,15 @@ Failed
 if
 (
 createCache
+&
+&
+JS
+:
+:
+IsStencilCacheable
+(
+stencil
+)
 )
 {
 MOZ_ASSERT
