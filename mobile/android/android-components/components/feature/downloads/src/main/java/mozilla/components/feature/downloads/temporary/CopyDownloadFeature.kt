@@ -153,7 +153,7 @@ state
 .
 action
 .
-ShareInternetResourceAction
+ShareResourceAction
 import
 mozilla
 .
@@ -179,7 +179,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -268,7 +268,7 @@ will
 intercept
 only
 [
-ShareInternetResourceAction
+ShareResourceAction
 ]
 [
 BrowserAction
@@ -627,7 +627,9 @@ startCopy
 (
 internetResource
 :
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 )
 {
 val

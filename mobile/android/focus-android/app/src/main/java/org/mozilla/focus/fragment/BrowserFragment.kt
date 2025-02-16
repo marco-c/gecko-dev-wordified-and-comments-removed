@@ -431,7 +431,7 @@ downloads
 .
 temporary
 .
-ShareDownloadFeature
+ShareResourceFeature
 import
 mozilla
 .
@@ -1265,11 +1265,11 @@ DownloadsFeature
 )
 private
 val
-shareDownloadFeature
+shareResourceFeature
 =
 ViewBoundFeatureWrapper
 <
-ShareDownloadFeature
+ShareResourceFeature
 >
 (
 )
@@ -2339,11 +2339,11 @@ status
 this
 view
 )
-shareDownloadFeature
+shareResourceFeature
 .
 set
 (
-ShareDownloadFeature
+ShareResourceFeature
 (
 context
 =

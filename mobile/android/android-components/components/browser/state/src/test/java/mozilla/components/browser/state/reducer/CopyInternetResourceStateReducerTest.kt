@@ -127,7 +127,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -249,7 +249,9 @@ AddCopyAction
 "
 tabId
 "
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 internetResourceUrl
@@ -351,7 +353,9 @@ CopyInternetResourceStateReducer
 val
 shareState
 :
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 =
 mock
 (

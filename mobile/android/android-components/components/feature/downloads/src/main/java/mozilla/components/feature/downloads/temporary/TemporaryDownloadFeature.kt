@@ -141,7 +141,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -509,7 +509,9 @@ download
 (
 internetResource
 :
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 )
 :
 File

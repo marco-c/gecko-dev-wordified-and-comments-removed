@@ -77,7 +77,7 @@ state
 .
 action
 .
-ShareInternetResourceAction
+ShareResourceAction
 import
 mozilla
 .
@@ -92,7 +92,7 @@ state
 BrowserState
 internal
 object
-ShareInternetResourceStateReducer
+ShareResourceStateReducer
 {
 fun
 reduce
@@ -102,7 +102,7 @@ state
 BrowserState
 action
 :
-ShareInternetResourceAction
+ShareResourceAction
 )
 :
 BrowserState
@@ -114,7 +114,7 @@ action
 )
 {
 is
-ShareInternetResourceAction
+ShareResourceAction
 .
 AddShareAction
 -
@@ -135,11 +135,11 @@ share
 =
 action
 .
-internetResource
+resource
 )
 }
 is
-ShareInternetResourceAction
+ShareResourceAction
 .
 ConsumeShareAction
 -

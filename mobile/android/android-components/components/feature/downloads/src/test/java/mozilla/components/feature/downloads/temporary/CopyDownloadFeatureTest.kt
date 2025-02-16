@@ -159,7 +159,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -791,7 +791,9 @@ any
 val
 download
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 url
 =
@@ -1037,7 +1039,9 @@ dispatcher
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 url
 =
@@ -1187,7 +1191,9 @@ body
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 randomUrl
@@ -1376,7 +1382,9 @@ body
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 randomUrl
@@ -1499,7 +1507,9 @@ dispatcher
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 randomUrl
@@ -1675,7 +1685,9 @@ dispatcher
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 randomUrl
@@ -1802,7 +1814,9 @@ dispatcher
 val
 shareState
 =
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 "
 randomUrl

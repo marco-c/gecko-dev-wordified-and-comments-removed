@@ -353,7 +353,7 @@ state
 .
 action
 .
-ShareInternetResourceAction
+ShareResourceAction
 import
 mozilla
 .
@@ -816,10 +816,10 @@ state
 action
 )
 is
-ShareInternetResourceAction
+ShareResourceAction
 -
 >
-ShareInternetResourceStateReducer
+ShareResourceStateReducer
 .
 reduce
 (

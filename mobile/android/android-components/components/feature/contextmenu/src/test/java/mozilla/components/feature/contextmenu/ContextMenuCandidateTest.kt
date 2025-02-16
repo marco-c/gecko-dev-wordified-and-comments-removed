@@ -211,7 +211,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -7426,7 +7426,9 @@ shareStateCaptor
 =
 argumentCaptor
 <
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 >
 (
 )
@@ -7914,7 +7916,9 @@ shareStateCaptor
 =
 argumentCaptor
 <
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 >
 (
 )

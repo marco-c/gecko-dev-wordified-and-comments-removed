@@ -353,7 +353,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -10731,6 +10731,8 @@ session
 state
 of
 internet
+or
+local
 resources
 to
 be
@@ -10740,7 +10742,7 @@ shared
 /
 sealed
 class
-ShareInternetResourceAction
+ShareResourceAction
 :
 BrowserAction
 (
@@ -10757,6 +10759,8 @@ process
 of
 an
 Internet
+or
+local
 resource
 .
 *
@@ -10770,12 +10774,12 @@ tabId
 :
 String
 val
-internetResource
+resource
 :
-ShareInternetResourceState
+ShareResourceState
 )
 :
-ShareInternetResourceAction
+ShareResourceAction
 (
 )
 /
@@ -10835,7 +10839,7 @@ tabId
 String
 )
 :
-ShareInternetResourceAction
+ShareResourceAction
 (
 )
 }
@@ -10896,7 +10900,9 @@ String
 val
 internetResource
 :
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 )
 :
 CopyInternetResourceAction

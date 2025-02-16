@@ -141,7 +141,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -911,14 +911,16 @@ null
 val
 share
 :
-ShareInternetResourceState
+ShareResourceState
 ?
 =
 null
 val
 copy
 :
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 ?
 =
 null

@@ -163,7 +163,7 @@ state
 .
 content
 .
-ShareInternetResourceState
+ShareResourceState
 import
 mozilla
 .
@@ -2597,7 +2597,9 @@ injectCopyFromInternet
 tab
 .
 id
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 url
 =
@@ -3443,7 +3445,9 @@ injectShareFromInternet
 tab
 .
 id
-ShareInternetResourceState
+ShareResourceState
+.
+InternetResource
 (
 url
 =
