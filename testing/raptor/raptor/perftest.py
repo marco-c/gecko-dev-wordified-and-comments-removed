@@ -116,6 +116,8 @@ import
     
 CHROME_ANDROID_APPS
     
+DESKTOP_APPS
+    
 FIREFOX_ANDROID_APPS
     
 FIREFOX_APPS
@@ -3520,6 +3522,57 @@ playback
 "
 )
         
+if
+"
+linux
+"
+in
+self
+.
+config
+[
+"
+platform
+"
+]
+and
+self
+.
+config
+[
+"
+app
+"
+]
+in
+DESKTOP_APPS
+:
+            
+playback_manifest
+=
+test
+.
+get
+(
+                
+"
+playback_pageset_manifest_backup
+"
+                
+test
+.
+get
+(
+"
+playback_pageset_manifest
+"
+)
+            
+)
+        
+else
+:
+            
 playback_manifest
 =
 test
