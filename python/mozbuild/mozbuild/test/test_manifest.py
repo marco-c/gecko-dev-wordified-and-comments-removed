@@ -6252,10 +6252,10 @@ list
 :
 [
 "
-foo
-"
-"
 bar
+"
+"
+foo
 "
 ]
                             
@@ -6417,10 +6417,10 @@ list
 :
     
 -
-foo
+bar
     
 -
-bar
+foo
   
 update
 -
@@ -6896,10 +6896,10 @@ list
 :
     
 -
-foo
+bar
     
 -
-bar
+foo
   
 update
 -
