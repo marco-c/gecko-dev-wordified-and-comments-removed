@@ -548,6 +548,11 @@ this
 .
 roots
 oldRoots
+this
+.
+props
+.
+autoReleaseObjectActors
 )
 ;
 }

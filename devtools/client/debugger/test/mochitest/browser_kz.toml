@@ -1475,6 +1475,17 @@ browser_dbg
 -
 preview
 -
+switch
+.
+js
+"
+]
+[
+"
+browser_dbg
+-
+preview
+-
 wrapped
 -
 lines
