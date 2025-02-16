@@ -7490,14 +7490,6 @@ d
 mWaitingForDragDataRequests
 )
 ;
-PR_Sleep
-(
-PR_MillisecondsToInterval
-(
-10
-)
-)
-;
 if
 (
 PR_Now
