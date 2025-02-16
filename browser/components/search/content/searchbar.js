@@ -787,10 +787,11 @@ updateDisplay
 (
 )
 ;
-BrowserSearch
+OpenSearchManager
 .
 updateOpenSearchBadge
 (
+window
 )
 ;
 }

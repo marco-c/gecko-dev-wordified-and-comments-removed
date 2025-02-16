@@ -150,6 +150,9 @@ newWindowButtonObserver
 BrowserSearch
 "
 "
+OpenSearchManager
+"
+"
 CreateContainerTabMenu
 "
 "
