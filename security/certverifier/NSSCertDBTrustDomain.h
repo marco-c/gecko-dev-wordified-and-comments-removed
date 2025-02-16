@@ -201,10 +201,6 @@ LoadOSClientCertsModule
 bool
 LoadIPCClientCertsModule
 (
-const
-nsCString
-&
-dir
 )
 ;
 void

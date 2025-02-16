@@ -2130,11 +2130,6 @@ chrome
 pippki
 .
 manifest
-BINPATH
-/
-DLL_PREFIX
-ipcclientcerts
-DLL_SUFFIX
 ;
 For
 process

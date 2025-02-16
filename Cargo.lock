@@ -13582,6 +13582,9 @@ http_sfv
 idna_glue
 "
 "
+ipcclientcerts
+"
+"
 ipdl_utils
 "
 "
@@ -17895,8 +17898,6 @@ name
 =
 "
 ipcclientcerts
--
-static
 "
 version
 =
@@ -17912,15 +17913,6 @@ dependencies
 [
 "
 byteorder
-"
-"
-mozilla
--
-central
--
-workspace
--
-hack
 "
 "
 pkcs11

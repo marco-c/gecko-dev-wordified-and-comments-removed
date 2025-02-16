@@ -3,14 +3,6 @@ DIRS
 =
 [
 "
-ipcclientcerts
-"
-]
-DIRS
-+
-=
-[
-"
 builtins
 "
 ]
@@ -816,6 +808,9 @@ OS_LIBS
 [
 "
 advapi32
+"
+"
+bcrypt
 "
 "
 credui
