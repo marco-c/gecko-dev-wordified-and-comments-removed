@@ -674,6 +674,9 @@ will
 be
 visible
 on
+normal
+tabs
+within
 [
 SimpleRedirectDialogFragment
 ]
@@ -2089,6 +2092,12 @@ dialogMessageString
 dialogMessage
 showCheckbox
 =
+if
+(
+isPrivate
+)
+false
+else
 showCheckbox
 maxSuccessiveDialogMillisLimit
 =
