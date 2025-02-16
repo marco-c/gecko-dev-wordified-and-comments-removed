@@ -118,6 +118,14 @@ Packet
 packet
 )
 ;
+ABSL_MUST_USE_RESULT
+InsertResult
+InsertPadding
+(
+uint16_t
+unwrapped_seq_num
+)
+;
 void
 SetSpropParameterSets
 (
