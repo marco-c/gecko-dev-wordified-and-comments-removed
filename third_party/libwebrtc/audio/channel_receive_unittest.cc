@@ -910,7 +910,7 @@ GetRTCPStatistics
 return
 stats
 .
-capture_start_ntp_time_ms_
+capture_start_ntp_time_ms
 ;
 }
 protected
