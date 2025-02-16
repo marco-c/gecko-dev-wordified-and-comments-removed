@@ -217,6 +217,14 @@ isFallbackExtensionDocument
 ;
 this
 .
+addonId
+=
+json
+.
+addonId
+;
+this
+.
 targetForm
 =
 json

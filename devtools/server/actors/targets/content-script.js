@@ -580,6 +580,11 @@ actor
 this
 .
 actorID
+addonId
+:
+this
+.
+addonId
 title
 :
 policy
