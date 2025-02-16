@@ -66,12 +66,6 @@ list
 const
 count
 =
-ExtensionsUI
-.
-POSTINSTALL_PRIVATEBROWSING_CHECKBOX
-?
-grantedPermissionsCount
-:
 grantedPermissionsCount
 +
 1
