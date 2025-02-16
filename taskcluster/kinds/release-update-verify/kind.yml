@@ -97,6 +97,8 @@ update
 verify
 -
 config
+-
+toolchain
 transforms
 :
 -
@@ -394,6 +396,14 @@ extra
 chunks
 :
 30
+fetches
+:
+toolchain
+:
+-
+linux64
+-
+libdmg
 devedition
 -
 linux64
@@ -531,3 +541,11 @@ extra
 chunks
 :
 30
+fetches
+:
+toolchain
+:
+-
+linux64
+-
+libdmg
