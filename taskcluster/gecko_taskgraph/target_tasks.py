@@ -4801,6 +4801,35 @@ platform
 return
 False
                 
+if
+(
+                    
+"
+ebay
+-
+kleinanzeigen
+"
+in
+try_name
+                    
+and
+"
+ebay
+-
+kleinanzeigen
+-
+search
+"
+not
+in
+try_name
+                
+)
+:
+                    
+return
+False
+                
 return
 True
         
