@@ -174,6 +174,8 @@ void
 dataStart
 size_t
 mappedSize
+size_t
+committedSize
 )
 ;
 uint64_t
