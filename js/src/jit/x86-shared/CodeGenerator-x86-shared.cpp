@@ -14008,7 +14008,7 @@ ToFloatRegister
 ins
 -
 >
-lhsDest
+lhs
 (
 )
 )
@@ -14034,9 +14034,8 @@ ToTempFloatRegisterOrInvalid
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 ;
@@ -14048,9 +14047,8 @@ ToTempFloatRegisterOrInvalid
 ins
 -
 >
-getTemp
+temp1
 (
-1
 )
 )
 ;

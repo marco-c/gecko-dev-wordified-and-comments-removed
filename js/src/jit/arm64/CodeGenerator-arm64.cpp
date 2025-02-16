@@ -18678,9 +18678,8 @@ ToFloatRegister
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 ;
@@ -18692,9 +18691,8 @@ ToFloatRegister
 ins
 -
 >
-getTemp
+temp1
 (
-1
 )
 )
 ;
