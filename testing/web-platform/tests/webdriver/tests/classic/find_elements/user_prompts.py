@@ -129,7 +129,9 @@ create_dialog
 dialog_type
 text
 =
-dialog_type
+"
+cheese
+"
 )
         
 response
@@ -235,7 +237,9 @@ create_dialog
 dialog_type
 text
 =
-dialog_type
+"
+cheese
+"
 )
         
 response
@@ -260,6 +264,18 @@ unexpected
 alert
 open
 "
+                     
+data
+=
+{
+"
+text
+"
+:
+"
+cheese
+"
+}
 )
         
 assert_dialog_handled
@@ -317,7 +333,9 @@ create_dialog
 dialog_type
 text
 =
-dialog_type
+"
+cheese
+"
 )
         
 response
@@ -342,6 +360,18 @@ unexpected
 alert
 open
 "
+                     
+data
+=
+{
+"
+text
+"
+:
+"
+cheese
+"
+}
 )
         
 assert
@@ -352,7 +382,9 @@ alert
 text
 =
 =
-dialog_type
+"
+cheese
+"
         
 session
 .

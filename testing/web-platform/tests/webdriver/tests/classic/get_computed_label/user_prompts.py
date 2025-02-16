@@ -7,23 +7,14 @@ support
 .
 asserts
 import
-(
-    
 assert_error
-    
-assert_same_element
-    
 assert_success
-    
 assert_dialog_handled
-)
 def
-find_element
+get_computed_label
 (
 session
-shadow_id
-using
-value
+element_id
 )
 :
     
@@ -36,7 +27,7 @@ send
 (
         
 "
-POST
+GET
 "
 "
 session
@@ -45,13 +36,13 @@ session
 session_id
 }
 /
-shadow
+element
 /
 {
-shadow_id
+element_id
 }
 /
-element
+computedlabel
 "
 .
 format
@@ -63,23 +54,10 @@ session
 .
 session_id
             
-shadow_id
+element_id
 =
-shadow_id
+element_id
 )
-        
-{
-"
-using
-"
-:
-using
-"
-value
-"
-:
-value
-}
 )
 pytest
 .
@@ -89,7 +67,7 @@ check_user_prompt_closed_without_exception
 (
 session
 create_dialog
-get_test_page
+inline
 )
 :
     
@@ -105,11 +83,21 @@ session
 .
 url
 =
-get_test_page
+inline
 (
+"
+<
+button
+>
+ok
+<
+/
+button
+>
+"
 )
         
-host
+element
 =
 session
 .
@@ -118,54 +106,11 @@ find
 css
 (
 "
-custom
--
-element
+button
 "
 all
 =
 False
-)
-        
-shadow_root
-=
-host
-.
-shadow_root
-        
-inner_element
-=
-session
-.
-execute_script
-(
-"
-"
-"
-            
-return
-arguments
-[
-0
-]
-.
-shadowRoot
-.
-querySelector
-(
-'
-input
-'
-)
-            
-"
-"
-"
-args
-=
-(
-host
-)
 )
         
 create_dialog
@@ -180,30 +125,25 @@ cheese
         
 response
 =
-find_element
+get_computed_label
 (
 session
-shadow_root
+element
 .
 id
-"
-css
-selector
-"
-"
-input
-"
 )
         
-value
-=
 assert_success
 (
 response
+"
+ok
+"
 )
         
 assert_dialog_handled
 (
+            
 session
 expected_text
 =
@@ -212,13 +152,6 @@ expected_retval
 =
 retval
 )
-        
-assert_same_element
-(
-session
-value
-inner_element
-)
     
 return
 check_user_prompt_closed_without_exception
@@ -230,7 +163,7 @@ check_user_prompt_closed_with_exception
 (
 session
 create_dialog
-get_test_page
+inline
 )
 :
     
@@ -246,11 +179,21 @@ session
 .
 url
 =
-get_test_page
+inline
 (
+"
+<
+button
+>
+ok
+<
+/
+button
+>
+"
 )
         
-host
+element
 =
 session
 .
@@ -259,20 +202,12 @@ find
 css
 (
 "
-custom
--
-element
+button
 "
 all
 =
 False
 )
-        
-shadow_root
-=
-host
-.
-shadow_root
         
 create_dialog
 (
@@ -286,19 +221,12 @@ cheese
         
 response
 =
-find_element
+get_computed_label
 (
 session
-shadow_root
+element
 .
 id
-"
-css
-selector
-"
-"
-input
-"
 )
         
 assert_error
@@ -325,6 +253,7 @@ cheese
         
 assert_dialog_handled
 (
+            
 session
 expected_text
 =
@@ -344,7 +273,7 @@ check_user_prompt_not_closed_but_exception
 (
 session
 create_dialog
-get_test_page
+inline
 )
 :
     
@@ -359,11 +288,21 @@ session
 .
 url
 =
-get_test_page
+inline
 (
+"
+<
+button
+>
+ok
+<
+/
+button
+>
+"
 )
         
-host
+element
 =
 session
 .
@@ -372,20 +311,12 @@ find
 css
 (
 "
-custom
--
-element
+button
 "
 all
 =
 False
 )
-        
-shadow_root
-=
-host
-.
-shadow_root
         
 create_dialog
 (
@@ -399,19 +330,12 @@ cheese
         
 response
 =
-find_element
+get_computed_label
 (
 session
-shadow_root
+element
 .
 id
-"
-css
-selector
-"
-"
-input
-"
 )
         
 assert_error

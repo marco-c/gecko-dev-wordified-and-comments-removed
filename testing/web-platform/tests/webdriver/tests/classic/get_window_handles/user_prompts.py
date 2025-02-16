@@ -77,7 +77,9 @@ create_dialog
 dialog_type
 text
 =
-dialog_type
+"
+cheese
+"
 )
         
 response
@@ -101,7 +103,9 @@ alert
 text
 =
 =
-dialog_type
+"
+cheese
+"
         
 session
 .
