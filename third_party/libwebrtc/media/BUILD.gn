@@ -7195,6 +7195,14 @@ call_interfaces
 /
 call
 :
+payload_type_picker
+"
+"
+.
+.
+/
+call
+:
 video_receive_stream_api
 "
 "

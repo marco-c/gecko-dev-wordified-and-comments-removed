@@ -1254,15 +1254,6 @@ Codec
 codec
 )
 ;
-bool
-HasTransportCc
-(
-const
-Codec
-&
-codec
-)
-;
 const
 Codec
 *
