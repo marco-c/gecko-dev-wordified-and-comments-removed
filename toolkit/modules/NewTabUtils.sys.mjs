@@ -1724,6 +1724,7 @@ prefs
 getBoolPref
 (
 PREF_NEWTAB_ENABLED
+false
 )
 ;
 }
@@ -7403,6 +7404,7 @@ stream
 {
 SEARCH_SHORTCUTS_EXPERIMENT
 }
+false
 )
 )
 {
