@@ -40,11 +40,6 @@ scoped_refptr
 public
 :
 using
-absl_nullability_compatible
-=
-void
-;
-using
 element_type
 =
 T
