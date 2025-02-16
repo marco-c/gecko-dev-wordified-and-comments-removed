@@ -100,7 +100,8 @@ abi
 '
 a
 str
-unversioned_llvm_target
+pub
+llvm_target
 :
 &
 '

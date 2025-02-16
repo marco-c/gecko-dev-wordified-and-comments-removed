@@ -76,7 +76,7 @@ Box
 <
 str
 >
-unversioned_llvm_target
+llvm_target
 :
 Box
 <
@@ -476,7 +476,7 @@ into_boxed_str
 )
 ;
 let
-unversioned_llvm_target
+llvm_target
 =
 match
 fallback_target
@@ -489,7 +489,7 @@ ft
 >
 ft
 .
-unversioned_llvm_target
+llvm_target
 .
 to_string
 (
@@ -534,9 +534,9 @@ vendor
 os
 env
 abi
-unversioned_llvm_target
+llvm_target
 :
-unversioned_llvm_target
+llvm_target
 .
 into_boxed_str
 (
@@ -615,7 +615,7 @@ vendor
 os
 env
 abi
-unversioned_llvm_target
+llvm_target
 }
 )
 =
@@ -630,7 +630,7 @@ vendor
 os
 env
 abi
-unversioned_llvm_target
+llvm_target
 }
 )
 Err
