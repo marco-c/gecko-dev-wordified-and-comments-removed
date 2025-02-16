@@ -238,6 +238,12 @@ network_state_probe_duration
 ;
 FieldTrialParameter
 <
+TimeDelta
+>
+network_state_min_probe_delta
+;
+FieldTrialParameter
+<
 bool
 >
 probe_on_max_allocated_bitrate_change
