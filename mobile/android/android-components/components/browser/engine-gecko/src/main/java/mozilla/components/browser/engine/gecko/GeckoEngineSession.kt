@@ -8696,6 +8696,9 @@ file
 "
 resource
 "
+"
+fido
+"
 JS_SCHEME
 )
 /
