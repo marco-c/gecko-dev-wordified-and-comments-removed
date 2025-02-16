@@ -1287,6 +1287,12 @@ timer
 ;
 RemoteSettingsExperimentLoader
 .
+_enabled
+=
+true
+;
+RemoteSettingsExperimentLoader
+.
 setTimer
 (
 )
@@ -1353,12 +1359,6 @@ sandbox
 restore
 (
 )
-;
-RemoteSettingsExperimentLoader
-.
-_enabled
-=
-true
 ;
 RemoteSettingsExperimentLoader
 .
