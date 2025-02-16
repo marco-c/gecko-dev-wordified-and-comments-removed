@@ -604,9 +604,13 @@ interest
 )
 )
 ;
+const
+token1
+=
 await
 mouseOverAndRecord
 (
+t
 button
 )
 ;
@@ -629,6 +633,7 @@ if
 (
 msSinceMouseOver
 (
+token1
 )
 <
 invokerDelayMs
@@ -686,9 +691,13 @@ delay
 '
 )
 ;
+const
+token2
+=
 await
 mouseOverAndRecord
 (
+t
 unrelated
 )
 ;
@@ -711,6 +720,7 @@ if
 (
 msSinceMouseOver
 (
+token2
 )
 <
 invokerDelayMs
