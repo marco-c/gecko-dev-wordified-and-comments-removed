@@ -80887,7 +80887,7 @@ Canonical
 )
 -
 >
-CallOnAllTopDescendants
+CallOnTopDescendants
 (
 [
 &
@@ -80912,7 +80912,13 @@ CallState
 Continue
 ;
 }
-false
+CanonicalBrowsingContext
+:
+:
+TopDescendantKind
+:
+:
+NonNested
 )
 ;
 }

@@ -7418,7 +7418,7 @@ aActive
 chromeTop
 -
 >
-CallOnAllTopDescendants
+CallOnTopDescendants
 (
 [
 aActive
@@ -7444,7 +7444,13 @@ CallState
 Continue
 ;
 }
-true
+CanonicalBrowsingContext
+:
+:
+TopDescendantKind
+:
+:
+All
 )
 ;
 }
