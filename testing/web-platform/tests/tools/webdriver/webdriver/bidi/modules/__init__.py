@@ -43,3 +43,8 @@ from
 storage
 import
 Storage
+from
+.
+web_extension
+import
+WebExtension
