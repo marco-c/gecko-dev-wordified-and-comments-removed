@@ -1,67 +1,3 @@
-#
-!
-/
-usr
-/
-bin
-/
-env
-python3
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-#
-file
-You
-can
-obtain
-one
-at
-https
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 import
 os
 import
@@ -463,19 +399,6 @@ duration
 null
 "
         
-#
-For
-HE
--
-AAC
-page
-Google
-Drive
-does
-not
-like
-SPACE
-        
 if
 not
 click_to_play
@@ -512,35 +435,6 @@ Keys
 .
 SPACE
 )
-        
-#
-Mostly
-for
-Google
-Drive
-video
-click
-(
-)
-/
-play
-(
-)
-seems
-not
-to
-really
-        
-#
-work
-to
-trigger
-but
-'
-k
-'
-is
-required
         
 if
 not
@@ -626,15 +520,6 @@ readyState
 =
 4
 )
-        
-#
-Some
-videos
-sometimes
-self
--
-pause
-?
         
 self
 .
@@ -755,14 +640,6 @@ sleep
 "
 )
         
-#
-let
-it
-play
-at
-least
-500ms
-        
 time
 .
 sleep
@@ -837,11 +714,6 @@ currentTime
 not
 moved
 "
-        
-#
-this
-should
-pause
         
 self
 .
@@ -981,12 +853,6 @@ unpause
 "
 )
         
-#
-unpause
-and
-verify
-playback
-        
 self
 .
 _driver
@@ -1075,46 +941,6 @@ datum_after_sleep
 )
         
 )
-        
-#
-we
-wait
-for
-2s
-but
-it
-'
-s
-not
-super
-accurate
-on
-CI
-(
-vbox
-VMs
-?
-)
-        
-#
-observed
-values
-+
-/
--
-15
-%
-so
-check
-for
-more
-that
-should
-avoid
-        
-#
-intermittent
-failures
         
 assert
 (
@@ -1365,10 +1191,6 @@ True
         
 )
         
-#
-switch
-back
-        
 self
 .
 _driver
@@ -1527,14 +1349,6 @@ sleep
 5
 )
         
-#
-we
-are
-again
-in
-the
-iframe
-        
 self
 .
 _logger
@@ -1638,9 +1452,6 @@ in
 (
 "
 release
-"
-"
-beta
 "
 )
             
@@ -2476,34 +2287,6 @@ visible
             
 )
             
-#
-PDF
-.
-js
-can
-take
-time
-to
-settle
-and
-we
-don
-'
-t
-have
-a
-nice
-way
-to
-wait
-            
-#
-for
-an
-event
-on
-it
-            
 time
 .
 sleep
@@ -2532,62 +2315,12 @@ much
 "
 )
             
-#
-Big
-but
-let
-'
-s
-be
-safe
-this
-is
-only
-for
-ESR
-because
-its
-PDF
-.
-js
-            
-#
-does
-not
-have
-"
-<
-span
-class
-=
-'
-loadingInput
-start
-'
->
-"
-            
 time
 .
 sleep
 (
 10
 )
-        
-#
-Rendering
-can
-be
-slower
-on
-debug
-build
-so
-give
-more
-time
-to
-settle
         
 if
 self
@@ -2705,11 +2438,6 @@ pdf
 "
 )
         
-#
-Test
-basic
-rendering
-        
 self
 .
 pdf_wait_div
@@ -2747,20 +2475,6 @@ self
 _driver
 )
         
-#
-Navigating
-to
-page
-X
-we
-know
-the
-PDF
-has
-5
-pages
-.
-        
 rand_page
 =
 random
@@ -2778,15 +2492,6 @@ pdf_go_to_page
 rand_page
 )
         
-#
-the
-click
-step
-ensures
-we
-change
-page
-        
 self
 .
 pdf_wait_div
@@ -2797,53 +2502,12 @@ click
 (
 )
         
-#
-getting
-page
-X
-will
-wait
-on
-is_displayed
-(
-)
-so
-if
-page
-X
-is
-not
-visible
-        
-#
-this
-will
-timeout
-        
 self
 .
 pdf_get_page
 (
 rand_page
 )
-        
-#
-press
-down
-/
-up
-/
-right
-/
-left
-/
-PageDown
-/
-PageUp
-/
-End
-/
-Home
         
 key_presses
 =
@@ -2930,12 +2594,6 @@ in
 key_presses
 :
             
-#
-reset
-to
-page
-2
-            
 self
 .
 pdf_go_to_page
@@ -2982,15 +2640,6 @@ pdf_get_page
 2
 )
             
-#
-give
-some
-time
-for
-rendering
-to
-update
-            
 time
 .
 sleep
@@ -3030,13 +2679,6 @@ self
 .
 _driver
 )
-        
-#
-click
-Next
-/
-Previous
-page
         
 self
 .
@@ -3201,30 +2843,6 @@ secondaryToolbarToggle
         
 )
         
-#
-Use
-tools
-button
-        
-#
--
-first
-/
-lage
-page
-        
-#
--
-rotate
-left
-/
-right
-        
-#
--
-doc
-properties
-        
 menu_buttons
 =
 [
@@ -3333,10 +2951,6 @@ menu_id
 )
 )
             
-#
-open
-menu
-            
 secondary_menu
 .
 click
@@ -3412,16 +3026,6 @@ click
 (
 )
             
-#
-rotation
-does
-not
-close
-the
-menu
-?
-:
-            
 if
 self
 .
@@ -3488,19 +3092,6 @@ menu_id
 documentProperties
 "
 :
-                
-#
-on
-ESR
-pdf
-.
-js
-misreports
-in
-mm
-instead
-of
-inches
                 
 title
 =
@@ -3782,11 +3373,6 @@ pdf_go_to_page
 1
 )
         
-#
--
-select
-text
-        
 secondary_menu
 .
 click
@@ -3983,11 +3569,6 @@ self
 _driver
 )
         
-#
-release
-select
-selection
-        
 action
 .
 move_by_offset
@@ -4006,27 +3587,12 @@ click
 (
 )
         
-#
-make
-sure
-we
-go
-back
-to
-page
-1
-        
 self
 .
 pdf_go_to_page
 (
 1
 )
-        
-#
--
-hand
-tool
         
 secondary_menu
 .
@@ -4553,18 +4119,6 @@ button
         
 )
         
-#
-clicking
-seems
-to
-break
-on
-CI
-because
-we
-nuke
-ads
-        
 self
 .
 _driver
@@ -4618,13 +4172,6 @@ self
 .
 _driver
 )
-        
-#
-Open
-context
-menu
-and
-copy
         
 action
 .
@@ -4751,13 +4298,6 @@ Keys
 .
 ESCAPE
 )
-        
-#
-go
-back
-to
-content
-context
         
 self
 .
@@ -5566,12 +5106,6 @@ self
 )
 :
         
-#
-check
-the
-Firefox
-UI
-        
 self
 .
 _driver
@@ -5709,11 +5243,6 @@ click
 (
 )
         
-#
-back
-to
-page
-        
 self
 .
 _driver
@@ -5734,12 +5263,6 @@ wait_for_download
 self
 )
 :
-        
-#
-check
-the
-Firefox
-UI
         
 self
 .
@@ -5888,11 +5411,6 @@ value
 =
 100
 )
-        
-#
-back
-to
-page
         
 self
 .
@@ -6886,25 +6404,6 @@ marked
 as
 completed
 "
-        
-#
-TemporaryDirectory
-out
-of
-focus
-so
-folder
-removed
-        
-#
-Close
-panel
-we
-will
-re
--
-open
-it
         
 self
 .
