@@ -51,6 +51,12 @@ type
 =
 month
 ]
+input
+[
+type
+=
+search
+]
 select
 button
 "
