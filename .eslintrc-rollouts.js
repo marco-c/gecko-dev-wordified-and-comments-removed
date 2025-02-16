@@ -686,6 +686,16 @@ components
 "
 browser
 /
+extensions
+/
+newtab
+/
+*
+*
+"
+"
+browser
+/
 modules
 /
 BrowserUsageTelemetry
