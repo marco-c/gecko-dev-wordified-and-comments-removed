@@ -1200,7 +1200,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 txMozillaXSLTProcessor
 mOwner
-mStylesheetDocument
 mEmbeddedStylesheetRoot
 mSource
 mVariables
