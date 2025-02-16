@@ -169,11 +169,6 @@ main
 "
 )
 ;
-await
-sidebar
-.
-updateComplete
-;
 let
 reviewCheckerButton
 =
