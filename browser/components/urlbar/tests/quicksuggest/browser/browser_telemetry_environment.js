@@ -276,9 +276,9 @@ Object
 .
 values
 (
-UrlbarPrefs
+QuickSuggest
 .
-FIREFOX_SUGGEST_UI_PREFS_BY_VARIABLE
+UI_PREFS_BY_VARIABLE
 )
 .
 .
@@ -287,9 +287,9 @@ Object
 .
 values
 (
-UrlbarPrefs
+QuickSuggest
 .
-FIREFOX_SUGGEST_DEFAULT_PREFS
+DEFAULT_PREFS
 )
 .
 map
@@ -450,7 +450,7 @@ onInitialized
 )
 ;
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
@@ -574,7 +574,7 @@ onInitialized
 )
 ;
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (

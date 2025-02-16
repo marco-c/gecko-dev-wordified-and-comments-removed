@@ -8412,7 +8412,7 @@ feature
 If
 you
 call
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (

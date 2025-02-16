@@ -397,7 +397,7 @@ async
 >
 {
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (

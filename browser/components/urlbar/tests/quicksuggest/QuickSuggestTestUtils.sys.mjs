@@ -5910,7 +5910,7 @@ waitForScenarioUpdated
 await
 lazy
 .
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
@@ -5954,13 +5954,13 @@ waitForCondition
 !
 lazy
 .
-UrlbarPrefs
+QuickSuggest
 .
-updatingFirefoxSuggestScenario
+_updatingFirefoxSuggestScenario
 "
 Waiting
 for
-updatingFirefoxSuggestScenario
+_updatingFirefoxSuggestScenario
 to
 be
 false

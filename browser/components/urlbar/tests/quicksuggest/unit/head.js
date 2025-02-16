@@ -113,7 +113,7 @@ setUpQuickSuggestXpcshellTest
 (
 )
 {
-UrlbarPrefs
+QuickSuggest
 .
 _testSkipTelemetryEnvironmentInit
 =
@@ -529,7 +529,7 @@ i
 )
 ;
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
@@ -840,9 +840,9 @@ migrationVersion
 =
 undefined
 ?
-UrlbarPrefs
+QuickSuggest
 .
-FIREFOX_SUGGEST_MIGRATION_VERSION
+MIGRATION_VERSION
 :
 testOverrides
 .
