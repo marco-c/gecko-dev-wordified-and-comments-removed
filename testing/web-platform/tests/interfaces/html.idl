@@ -10664,6 +10664,12 @@ hasUAVisualTransition
 =
 false
 ;
+Element
+?
+sourceElement
+=
+null
+;
 }
 ;
 dictionary
