@@ -2069,5 +2069,16 @@ import_circular_1
 .
 mjs
 "
+"
+netwerk
+/
+test
+/
+mochitests
+/
+test_import_json_module
+.
+mjs
+"
 ]
 ;
