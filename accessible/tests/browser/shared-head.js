@@ -2085,6 +2085,9 @@ about
 blank
 "
 {
+allowInheritPrincipal
+:
+true
 forceNotRemote
 :
 true
