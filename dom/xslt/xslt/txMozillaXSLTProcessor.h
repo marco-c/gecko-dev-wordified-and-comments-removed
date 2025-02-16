@@ -672,6 +672,8 @@ txStylesheet
 >
 mStylesheet
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -679,7 +681,7 @@ dom
 :
 :
 Document
-*
+>
 mStylesheetDocument
 ;
 nsCOMPtr
