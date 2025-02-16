@@ -4581,6 +4581,14 @@ align
 ;
 }
 }
+mUntransformedPopupAnchor
+=
+mPopupAnchor
+;
+mUntransformedPopupAlignment
+=
+mPopupAlignment
+;
 if
 (
 aAttributesOverride
