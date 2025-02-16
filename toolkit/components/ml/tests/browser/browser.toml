@@ -135,3 +135,10 @@ browser_ml_utils
 js
 "
 ]
+[
+"
+browser_ml_nlp_utils
+.
+js
+"
+]
