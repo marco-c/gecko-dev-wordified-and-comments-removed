@@ -3837,24 +3837,6 @@ FieldTrial
 '
 WebRTC
 -
-LegacyTlsProtocols
-'
-               
-40644300
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 LowresSimulcastBitrateInterpolation
 '
                
@@ -4971,7 +4953,7 @@ str
 \
     
 '
-e750429cb042c02921a227fa18291f2cea23ea3b
+32ec47da125c13ceb01a908627c7c10aada3d4dd
 '
 REGISTERED_FIELD_TRIALS
 :
