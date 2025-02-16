@@ -3282,6 +3282,12 @@ pseudoClassLocks
 ;
 this
 .
+_onClearSearch
+(
+)
+;
+this
+.
 _focusNextUserAddedRule
 =
 true
