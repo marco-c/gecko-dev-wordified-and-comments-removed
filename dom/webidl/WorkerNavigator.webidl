@@ -60,11 +60,6 @@ MPL
 Exposed
 =
 Worker
-InstrumentedProps
-=
-(
-permissions
-)
 ]
 interface
 WorkerNavigator

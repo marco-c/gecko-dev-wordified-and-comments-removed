@@ -145,11 +145,6 @@ index
 *
 /
 [
-InstrumentedProps
-=
-(
-webkitGetAsEntry
-)
 Exposed
 =
 Window

@@ -234,14 +234,6 @@ metadata
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-onenterpictureinpicture
-onleavepictureinpicture
-playsInline
-requestPictureInPicture
-)
 ]
 interface
 HTMLVideoElement

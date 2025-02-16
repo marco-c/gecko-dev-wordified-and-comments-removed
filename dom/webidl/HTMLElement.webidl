@@ -178,11 +178,6 @@ document
 Exposed
 =
 Window
-InstrumentedProps
-=
-(
-attributeStyleMap
-)
 ]
 interface
 HTMLElement
