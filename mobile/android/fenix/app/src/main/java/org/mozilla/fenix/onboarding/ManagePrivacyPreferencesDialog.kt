@@ -622,6 +622,13 @@ Modifier
 wrapContentWidth
 (
 )
+labelStyle
+=
+FirefoxTheme
+.
+typography
+.
+body2
 )
 Spacer
 (
@@ -671,7 +678,7 @@ Modifier
 .
 height
 (
-8
+16
 .
 dp
 )
@@ -796,6 +803,13 @@ Modifier
 wrapContentWidth
 (
 )
+labelStyle
+=
+FirefoxTheme
+.
+typography
+.
+body2
 )
 Spacer
 (
@@ -845,7 +859,7 @@ Modifier
 .
 height
 (
-8
+16
 .
 dp
 )
