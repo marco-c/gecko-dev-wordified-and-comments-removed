@@ -219,7 +219,7 @@ _MSC_VER
 #
 include
 <
-Intsafe
+intsafe
 .
 h
 >
