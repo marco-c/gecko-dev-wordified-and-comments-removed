@@ -458,6 +458,12 @@ SHOPPING_OPTED_IN_PREF
 2
 )
 ;
+this
+.
+closeSidebarPanel
+(
+)
+;
 break
 ;
 case
