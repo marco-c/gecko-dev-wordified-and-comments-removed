@@ -790,6 +790,13 @@ nsIAccessibleRole
 ROLE_SCROLLBAR
 ;
 const
+ROLE_SEARCHBOX
+=
+nsIAccessibleRole
+.
+ROLE_SEARCHBOX
+;
+const
 ROLE_SECTION
 =
 nsIAccessibleRole
