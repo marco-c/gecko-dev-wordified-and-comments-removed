@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-9b6b1c6173c530186292b00a3f88b63a2b3013e7
+17db06ef3c97c2b0e8544774ad8fd499cc4dd7a6
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-12f769d5f025b63b1c16df046ec2401880e1f825
+fe7fa415c0edcf3fc082e7ed1ec4f7277343fc78
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-feefea2f7addb6143a2f656c9a5174926f9bdbc6
+336a4b5795fe8b19391b57cf88da436361d4b431
 '
 '
 src
@@ -570,7 +570,7 @@ chromium
 src
 /
 buildtools
-b8ff6f5a95e9144c6f55c2ec4ca97849d97ed0aa
+c1b2946e54cd596882f29a9dc1f98cbc7ccff301
 '
 #
 Gradle
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-b2e637d6e4060c96c19c7b41fd3db1bb7c69de30
+96b721b3b38a62f9cdc160b738b89e510e06e61f
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-0305a85a20b28da1ad923de7987b218fd3ed2ecb
+322759cc3cfcd26ef765827712d18fdd8c6dcdca
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-93bded4cd0f86c9dd26536b2a23fc7bfb3998d60
+e74a2dcad58895c41400af22f3073155e28f528f
 '
 '
 src
@@ -1378,7 +1378,7 @@ project
 libcxx
 .
 git
-d0ddad5b79581e19d8e1aec627bb2ad86e1554cd
+175bf00303d0747baa158072cf7a2755ab1fbe88
 '
 '
 src
@@ -1419,7 +1419,7 @@ project
 libcxxabi
 .
 git
-02cb51229253c5fc0a061bdd0ebd572d7e127452
+83dfa1f5bfce32d5f75695542468e37ead8163b8
 '
 '
 src
@@ -1459,7 +1459,7 @@ project
 libc
 .
 git
-05bd4c24a29bdb2411b6b72f6498f202d7f7ef96
+ca233e8056f91e3f1b2cb3d17efa88b3ae6fb15d
 '
 '
 src
@@ -2138,7 +2138,7 @@ com
 boringssl
 .
 git
-c361e279402ec359834b7eaa7d737462d02675e1
+be21ef7012f0812bb1c0c8fc226979fa6c301e8d
 '
 '
 src
@@ -2190,7 +2190,7 @@ com
 catapult
 .
 git
-e7c18388ace53c641823655858654c5ac9c8e64b
+22ebef9201521893be9ee126a36362b928da8c46
 '
 '
 src
@@ -2367,7 +2367,7 @@ tools
 depot_tools
 .
 git
-fcb617891482ccf704e6d9442e4b7eed886fdb57
+5327157a5fce9ab180a9f4935012329ae4118b08
 '
 '
 src
@@ -3409,7 +3409,7 @@ external
 perfetto
 .
 git
-84ccf617bde63ae31f128b9626b8775427ec3442
+aa9d7f1eb1622c52d36710a3d45088e119ecd151
 '
 '
 src
@@ -3479,7 +3479,7 @@ webm
 libvpx
 .
 git
-a68a58b9c901a4fed408e3524bdd18c480bd5b6f
+62df56d12b1ebf1db154c3f82761747397ea2731
 '
 '
 src
@@ -3956,7 +3956,7 @@ chromium
 src
 /
 tools
-7df877344e82970586fcf62b35cdc4ceea535616
+692a5c9e6a87b9a251d9eb0fca300aa9ab86af56
 '
 '
 src
