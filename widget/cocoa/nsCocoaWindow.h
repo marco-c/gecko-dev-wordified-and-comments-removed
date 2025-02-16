@@ -1628,6 +1628,13 @@ GetWorkspaceID
 )
 ;
 void
+MoveVisibleWindowToWorkspace
+(
+int32_t
+workspaceID
+)
+;
+void
 DoResize
 (
 double
@@ -1869,6 +1876,11 @@ false
 ;
 int32_t
 mNumModalDescendants
+=
+0
+;
+int32_t
+mDeferredWorkspaceID
 =
 0
 ;
