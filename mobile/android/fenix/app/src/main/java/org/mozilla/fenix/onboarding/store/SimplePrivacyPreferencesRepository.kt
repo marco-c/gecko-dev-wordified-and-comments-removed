@@ -132,7 +132,7 @@ enabled
 *
 /
 fun
-getPrivacyPreference
+getPreference
 (
 type
 :
@@ -173,7 +173,7 @@ preference
 *
 /
 fun
-setPrivacyPreference
+setPreference
 (
 type
 :
@@ -251,7 +251,7 @@ SimplePrivacyPreferencesRepository
 {
 override
 fun
-getPrivacyPreference
+getPreference
 (
 type
 :
@@ -286,7 +286,7 @@ isTelemetryEnabled
 }
 override
 fun
-setPrivacyPreference
+setPreference
 (
 type
 :
