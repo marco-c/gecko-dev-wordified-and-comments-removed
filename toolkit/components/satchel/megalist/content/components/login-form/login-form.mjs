@@ -764,6 +764,10 @@ usernameField
 input
 .
 value
+.
+trim
+(
+)
 password
 :
 this
