@@ -2877,9 +2877,15 @@ aId
 )
 ;
 bool
-Gecko_ComputeBoolPrefMediaQuery
+Gecko_EvalMozPrefFeature
 (
 nsAtom
+*
+const
+mozilla
+:
+:
+StyleComputedMozPrefFeatureValue
 *
 )
 ;
