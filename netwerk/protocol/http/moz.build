@@ -523,11 +523,6 @@ Http2StreamTunnel
 cpp
 "
 "
-Http2WebTransportSession
-.
-cpp
-"
-"
 Http3Session
 .
 cpp

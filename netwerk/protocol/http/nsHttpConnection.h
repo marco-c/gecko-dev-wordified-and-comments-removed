@@ -167,10 +167,12 @@ define
 NS_HTTPCONNECTION_IID
 \
 {
+\
 0x1dcc863e
 0xdb90
 0x4652
 {
+\
 0xa1
 0xfe
 0x13
@@ -179,7 +181,9 @@ NS_HTTPCONNECTION_IID
 0xb5
 0x4e
 0x46
+\
 }
+\
 }
 class
 nsHttpConnection
@@ -519,8 +523,8 @@ NoClientCertAuth
 const
 override
 ;
-ExtendedCONNECTSupport
-GetExtendedCONNECTSupport
+WebSocketSupport
+GetWebSocketSupport
 (
 )
 override
@@ -657,7 +661,7 @@ nsHttpConnection
 *
 aHttpConnection
 bool
-aIsExtendedCONNECT
+aIsWebSocket
 =
 false
 )
@@ -766,10 +770,6 @@ nsAHttpTransaction
 &
 &
 trans
-bool
-aForH2Proxy
-=
-false
 )
 ;
 enum
@@ -1171,7 +1171,7 @@ RefPtr
 <
 ASpdySession
 >
-mExtendedCONNECTHttp2Session
+mWebSocketHttp2Session
 ;
 int32_t
 mPriority

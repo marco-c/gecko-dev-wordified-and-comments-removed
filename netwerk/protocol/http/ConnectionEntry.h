@@ -154,7 +154,7 @@ maxToClose
 )
 ;
 void
-CloseExtendedCONNECTConnections
+CloseH2WebsocketConnections
 (
 )
 ;
@@ -291,7 +291,7 @@ aCloseCode
 )
 ;
 bool
-IsInExtendedCONNECTConns
+IsInH2WebsocketConns
 (
 HttpConnectionBase
 *
@@ -299,7 +299,7 @@ conn
 )
 ;
 void
-InsertIntoExtendedCONNECTConns
+InsertIntoH2WebsocketConns
 (
 HttpConnectionBase
 *
@@ -307,7 +307,7 @@ conn
 )
 ;
 void
-RemoveExtendedCONNECTConns
+RemoveH2WebsocketConns
 (
 HttpConnectionBase
 *
@@ -780,7 +780,7 @@ RefPtr
 HttpConnectionBase
 >
 >
-mExtendedCONNECTConns
+mH2WebsocketConns
 ;
 nsTArray
 <

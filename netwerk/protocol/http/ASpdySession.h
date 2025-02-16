@@ -361,8 +361,8 @@ bool
 0
 ;
 virtual
-ExtendedCONNECTSupport
-GetExtendedCONNECTSupport
+WebSocketSupport
+GetWebSocketSupport
 (
 )
 =
@@ -390,7 +390,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsExtendedCONNECT
+aIsWebSocket
 =
 false
 )

@@ -42,10 +42,12 @@ define
 NS_HTTP2STREAMTUNNEL_IID
 \
 {
+\
 0xc881f764
 0xa183
 0x45cb
 {
+\
 0x9d
 0xec
 0xd9
@@ -54,7 +56,9 @@ NS_HTTP2STREAMTUNNEL_IID
 0x2f
 0x47
 0xb2
+\
 }
+\
 }
 class
 Http2StreamTunnel
@@ -114,7 +118,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsExtendedCONNECT
+aIsWebSocket
 )
 ;
 nsHttpConnectionInfo
@@ -307,10 +311,12 @@ define
 NS_OUTPUTSTREAMTUNNEL_IID
 \
 {
+\
 0xf9d10060
 0xf5d4
 0x443e
 {
+\
 0xba
 0x59
 0xf8
@@ -319,7 +325,9 @@ NS_OUTPUTSTREAMTUNNEL_IID
 0x75
 0xc5
 0xf0
+\
 }
+\
 }
 class
 OutputStreamTunnel
