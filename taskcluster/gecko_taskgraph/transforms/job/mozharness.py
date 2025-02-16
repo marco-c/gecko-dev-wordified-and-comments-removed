@@ -1901,9 +1901,9 @@ python3
 gecko_path
 =
 "
-%
-GECKO_PATH
-%
+build
+/
+src
 "
     
 else
