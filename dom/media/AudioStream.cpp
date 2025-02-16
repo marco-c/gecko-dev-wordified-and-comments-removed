@@ -104,15 +104,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 CubebUtils
 .
 h

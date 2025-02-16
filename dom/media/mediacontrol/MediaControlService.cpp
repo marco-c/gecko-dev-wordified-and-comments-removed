@@ -78,15 +78,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

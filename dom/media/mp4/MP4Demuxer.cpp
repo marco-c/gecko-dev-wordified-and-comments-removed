@@ -113,15 +113,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
