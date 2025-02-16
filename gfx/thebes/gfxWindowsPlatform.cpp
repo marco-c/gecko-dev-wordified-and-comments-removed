@@ -5935,6 +5935,16 @@ AppendElement
 "
 Segoe
 UI
+"
+)
+;
+aFontList
+.
+AppendElement
+(
+"
+Segoe
+UI
 Symbol
 "
 )
