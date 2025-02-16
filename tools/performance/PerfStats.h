@@ -236,6 +236,11 @@ MACRO
 (
 A11Y_ShutdownChildrenInSubtree
 )
+\
+MACRO
+(
+A11Y_ShowEvent
+)
 namespace
 mozilla
 {
