@@ -8616,7 +8616,7 @@ negotiated_codec
 )
 {
 return
-IsSameRtpCodec
+IsSameRtpCodecIgnoringLevel
 (
 negotiated_codec
 .
