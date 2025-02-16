@@ -720,12 +720,6 @@ in
 int32_t
 aSequenceNumber
 in
-Array
-<
-ACString
->
-aFlavors
-in
 nsIContentAnalysisResponse_Action
 aAction
 )
@@ -739,12 +733,6 @@ aURI
 in
 int32_t
 aSequenceNumber
-in
-Array
-<
-ACString
->
-aFlavors
 out
 nsIContentAnalysisResponse_Action
 aAction
