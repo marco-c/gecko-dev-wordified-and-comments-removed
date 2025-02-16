@@ -222,13 +222,6 @@ html
 ]
 [
 "
-test_moz_color_input
-.
-html
-"
-]
-[
-"
 test_moz_fieldset
 .
 html
@@ -237,6 +230,13 @@ html
 [
 "
 test_moz_five_star
+.
+html
+"
+]
+[
+"
+test_moz_input_color
 .
 html
 "
