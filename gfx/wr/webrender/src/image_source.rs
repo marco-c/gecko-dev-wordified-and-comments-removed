@@ -369,4 +369,8 @@ rt_cache_entry
 .
 handle
 )
+.
+unwrap
+(
+)
 }
