@@ -963,15 +963,10 @@ bytes_count
 =
 0
 ;
-memset
-(
-&
 msg_
-0
-sizeof
+.
+reset
 (
-msg_
-)
 )
 ;
 bool
