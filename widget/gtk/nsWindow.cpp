@@ -16476,6 +16476,12 @@ IsTopLevelWidget
 GdkIsX11Display
 (
 )
+&
+&
+aWin
+=
+=
+toplevel
 )
 {
 gdk_window_get_geometry
