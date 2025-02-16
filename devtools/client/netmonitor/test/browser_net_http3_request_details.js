@@ -439,8 +439,7 @@ id
 =
 '
 /
-Response
-Headers
+responseHeaders
 '
 ]
 "
@@ -644,7 +643,7 @@ querySelector
 #
 raw
 -
-request
+requestHeaders
 -
 checkbox
 "
@@ -662,7 +661,7 @@ querySelector
 #
 raw
 -
-response
+responseHeaders
 -
 checkbox
 "

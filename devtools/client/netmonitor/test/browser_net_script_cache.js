@@ -368,8 +368,7 @@ id
 =
 '
 /
-Response
-Headers
+responseHeaders
 '
 ]
 "

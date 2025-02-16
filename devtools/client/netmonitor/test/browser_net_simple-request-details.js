@@ -801,8 +801,7 @@ id
 =
 '
 /
-Response
-Headers
+responseHeaders
 '
 ]
 "
@@ -823,8 +822,7 @@ id
 =
 '
 /
-Request
-Headers
+requestHeaders
 '
 ]
 "
