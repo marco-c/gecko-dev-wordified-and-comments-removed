@@ -296,7 +296,7 @@ page
 -
 nav
 -
-header
+heading
 "
 primaryNavGroupSlot
 :
@@ -779,7 +779,7 @@ page
 -
 nav
 -
-header
+heading
 -
 wrapper
 "
@@ -805,7 +805,7 @@ page
 -
 nav
 -
-header
+heading
 "
 id
 =
@@ -814,7 +814,7 @@ page
 -
 nav
 -
-header
+heading
 "
 >
 {
@@ -874,7 +874,7 @@ page
 -
 nav
 -
-header
+heading
 "
 >
 <
