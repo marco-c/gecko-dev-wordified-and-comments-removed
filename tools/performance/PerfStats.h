@@ -256,6 +256,11 @@ MACRO
 (
 A11Y_CoalesceEvents
 )
+\
+MACRO
+(
+A11Y_CoalesceMutationEvents
+)
 namespace
 mozilla
 {
