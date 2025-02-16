@@ -255,7 +255,7 @@ android_gradle_plugin
 .
 8
 .
-0
+1
 "
 /
 /
@@ -316,9 +316,7 @@ lint
 .
 8
 .
-0
--
-rc02
+1
 "
 const
 val
