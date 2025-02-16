@@ -368,17 +368,6 @@ JS
 Prefs
 :
 :
-setAtStartup_weakrefs
-(
-true
-)
-;
-JS
-:
-:
-Prefs
-:
-:
 setAtStartup_experimental_weakrefs_expose_cleanupSome
 (
 true

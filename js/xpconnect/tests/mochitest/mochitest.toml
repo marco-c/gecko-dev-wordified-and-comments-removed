@@ -227,15 +227,6 @@ javascript
 .
 options
 .
-weakrefs
-=
-true
-"
-"
-javascript
-.
-options
-.
 spectre
 .
 disable_for_isolated_content
