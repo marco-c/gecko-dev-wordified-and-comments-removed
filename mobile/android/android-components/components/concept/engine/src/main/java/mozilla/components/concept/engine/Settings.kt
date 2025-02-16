@@ -1584,6 +1584,7 @@ var
 fingerprintingProtection
 :
 Boolean
+?
 by
 UnsupportedSetting
 (
@@ -1611,6 +1612,7 @@ var
 fingerprintingProtectionPrivateBrowsing
 :
 Boolean
+?
 by
 UnsupportedSetting
 (
@@ -2171,15 +2173,17 @@ var
 fingerprintingProtection
 :
 Boolean
+?
 =
-false
+null
 override
 var
 fingerprintingProtectionPrivateBrowsing
 :
 Boolean
+?
 =
-true
+null
 override
 var
 fingerprintingProtectionOverrides
