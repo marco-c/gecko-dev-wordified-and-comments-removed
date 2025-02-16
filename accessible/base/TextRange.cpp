@@ -440,6 +440,7 @@ EndOffset
 (
 )
 <
+=
 static_cast
 <
 uint32_t
@@ -494,6 +495,7 @@ uint32_t
 mOffset
 )
 <
+=
 child
 -
 >
