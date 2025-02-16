@@ -259,15 +259,6 @@ run
 using
 :
 mach
-use
--
-caches
-:
-[
-checkout
-pip
-uv
-]
 when
 :
 files
