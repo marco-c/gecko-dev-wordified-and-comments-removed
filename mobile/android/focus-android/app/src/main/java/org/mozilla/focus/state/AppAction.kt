@@ -381,6 +381,8 @@ tabId
 :
 String
 ?
+=
+null
 )
 :
 AppAction
