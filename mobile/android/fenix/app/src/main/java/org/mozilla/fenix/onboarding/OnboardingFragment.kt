@@ -1827,6 +1827,14 @@ Pings
 .
 onboardingOptOut
 .
+setEnabled
+(
+true
+)
+Pings
+.
+onboardingOptOut
+.
 submit
 (
 )
