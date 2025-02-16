@@ -13195,10 +13195,6 @@ include_dirs
 =
 [
 ]
-configs
-=
-[
-]
 if
 (
 rtc_build_libsrtp
