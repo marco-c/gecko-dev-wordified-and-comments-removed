@@ -1392,6 +1392,15 @@ toolkit
 /
 components
 /
+pdfjs
+/
+PdfJsOverridePrefs
+.
+js
+toolkit
+/
+components
+/
 uniffi
 -
 js

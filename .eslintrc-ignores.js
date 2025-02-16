@@ -1926,17 +1926,6 @@ toolkit
 /
 components
 /
-pdfjs
-/
-PdfJsOverridePrefs
-.
-js
-"
-"
-toolkit
-/
-components
-/
 reader
 /
 Readerable
