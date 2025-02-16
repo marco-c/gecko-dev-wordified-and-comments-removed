@@ -1362,10 +1362,10 @@ lhs
 (
 )
 )
-shift
 temp
 (
 )
+shift
 )
 ;
 if
