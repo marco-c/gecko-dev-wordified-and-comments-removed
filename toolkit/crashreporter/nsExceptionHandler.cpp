@@ -16012,11 +16012,13 @@ Annotation
 DumperError
 ]
 =
-*
+nsDependentCString
+(
 aClientInfo
 .
 error_msg
 (
+)
 )
 ;
 }
