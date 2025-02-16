@@ -2621,8 +2621,11 @@ actor
 void
 CreateGetFilesRequest
 (
-const
-nsAString
+nsTArray
+<
+nsString
+>
+&
 &
 aDirectoryPath
 bool

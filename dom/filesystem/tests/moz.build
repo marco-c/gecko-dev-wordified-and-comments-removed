@@ -8,3 +8,11 @@ mochitest
 toml
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]

@@ -9500,7 +9500,9 @@ GetFilesRequest
 nsID
 aID
 nsString
-aDirectory
+[
+]
+aDirectories
 bool
 aRecursiveFlag
 )
