@@ -29,3 +29,13 @@ docs
 "
 docs
 "
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
