@@ -67,6 +67,25 @@ execute_script
 "
 "
         
+document
+.
+body
+.
+style
+.
+overflow
+=
+"
+hidden
+"
+;
+/
+/
+hide
+scrollbars
+for
+consistency
+        
 const
 b
 =

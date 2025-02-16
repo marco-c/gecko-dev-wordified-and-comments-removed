@@ -119,7 +119,6 @@ def
 test_enabled
 (
 client
-in_headless_mode
 )
 :
     
@@ -144,7 +143,6 @@ def
 test_disabled
 (
 client
-in_headless_mode
 )
 :
     

@@ -24,10 +24,14 @@ card
 SITE_CSS
 =
 "
-#
+[
+id
+*
+=
 quick
 -
 links
+]
 :
 not
 (

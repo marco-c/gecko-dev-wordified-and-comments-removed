@@ -46,6 +46,7 @@ def
 is_iframe_visible
 (
 client
+in_headless_mode
 )
 :
     
@@ -72,6 +73,30 @@ timeout
 =
 5
 )
+        
+if
+in_headless_mode
+:
+            
+pytest
+.
+xfail
+(
+"
+Skipping
+as
+cannot
+do
+reCAPTCHA
+in
+headless
+mode
+.
+"
+)
+            
+return
+False
         
 try
 :
@@ -197,6 +222,7 @@ def
 test_enabled
 (
 client
+in_headless_mode
 )
 :
     
@@ -205,6 +231,7 @@ await
 is_iframe_visible
 (
 client
+in_headless_mode
 )
 pytest
 .
@@ -221,6 +248,7 @@ def
 test_disabled
 (
 client
+in_headless_mode
 )
 :
     
@@ -230,4 +258,5 @@ await
 is_iframe_visible
 (
 client
+in_headless_mode
 )
