@@ -682,8 +682,6 @@ testid
 ;
 is
 (
-!
-!
 textPropEditor
 .
 expander
@@ -691,12 +689,17 @@ expander
 getAttribute
 (
 "
-open
+aria
+-
+expanded
 "
 )
 data
 .
 isExpanderOpen
++
+"
+"
 "
 Got
 correct
