@@ -747,9 +747,11 @@ doc
 querySelector
 (
 "
-color
+moz
 -
 input
+-
+color
 "
 )
 ;
@@ -793,6 +795,9 @@ input
 "
 {
 bubbles
+:
+true
+composed
 :
 true
 }
