@@ -1658,7 +1658,7 @@ node
 =
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 ;
@@ -1841,7 +1841,7 @@ node
 =
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2671,7 +2671,7 @@ node1
 =
 aRangeBoundary1
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2682,7 +2682,7 @@ node2
 =
 aRangeBoundary2
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2921,7 +2921,7 @@ node
 firstBoundary
 -
 >
-Container
+GetContainer
 (
 )
 )
@@ -3004,7 +3004,7 @@ node
 secondBoundary
 -
 >
-Container
+GetContainer
 (
 )
 )

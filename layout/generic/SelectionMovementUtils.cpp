@@ -391,7 +391,7 @@ if
 !
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -419,7 +419,7 @@ PeekOffsetForCaretMove
 (
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 -

@@ -1369,7 +1369,7 @@ Create
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -1583,7 +1583,7 @@ ComputeRootNode
 (
 otherSideExistingBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -1953,7 +1953,7 @@ parentNode
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -1999,7 +1999,7 @@ parentNode
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2088,7 +2088,7 @@ removed
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2149,7 +2149,7 @@ ComputeRootNode
 (
 newStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2163,7 +2163,7 @@ removed
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -2225,7 +2225,7 @@ ComputeRootNode
 (
 newEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -2251,7 +2251,7 @@ parentNode
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 &
@@ -2322,7 +2322,7 @@ parentNode
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 &
@@ -2482,7 +2482,7 @@ aContent
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 &
@@ -2634,7 +2634,7 @@ ComputeRootNode
 (
 newStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2650,14 +2650,14 @@ IsInAnySelection
 &
 mStart
 .
-Container
+GetContainer
 (
 )
 =
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2670,7 +2670,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 =
@@ -2686,7 +2686,7 @@ RegisterClosestCommonInclusiveAncestor
 (
 newStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2696,7 +2696,7 @@ if
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2708,7 +2708,7 @@ IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 {
 newStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2742,7 +2742,7 @@ aContent
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 &
@@ -2784,7 +2784,7 @@ GetParentNode
 |
 newStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2902,14 +2902,14 @@ IsInAnySelection
 &
 mStart
 .
-Container
+GetContainer
 (
 )
 =
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2921,7 +2921,7 @@ isCommonAncestor
 !
 newStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2930,7 +2930,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 =
@@ -2946,7 +2946,7 @@ RegisterClosestCommonInclusiveAncestor
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2958,7 +2958,7 @@ GetParentNode
 ;
 newEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -2973,7 +2973,7 @@ if
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -2985,7 +2985,7 @@ IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 {
 newEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3160,7 +3160,7 @@ get
 !
 newEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3173,7 +3173,7 @@ GetParentNode
 !
 newStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -3205,7 +3205,7 @@ IsSet
 !
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -3227,7 +3227,7 @@ IsSet
 !
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3352,7 +3352,7 @@ mStart
 {
 mStart
 .
-Container
+GetContainer
 (
 )
 mNextStartRef
@@ -3381,7 +3381,7 @@ mEnd
 {
 mEnd
 .
-Container
+GetContainer
 (
 )
 mNextEndRef
@@ -3500,7 +3500,7 @@ container
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -3523,7 +3523,7 @@ container
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -3590,7 +3590,7 @@ newStart
 {
 mStart
 .
-Container
+GetContainer
 (
 )
 mNextStartRef
@@ -3619,7 +3619,7 @@ newEnd
 {
 mEnd
 .
-Container
+GetContainer
 (
 )
 mNextEndRef
@@ -3711,7 +3711,7 @@ startContainer
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -3721,7 +3721,7 @@ endContainer
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -4105,7 +4105,7 @@ ComputeRootNode
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -4136,7 +4136,7 @@ ComputeRootNode
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -4146,7 +4146,7 @@ NS_ASSERTION
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -4310,7 +4310,7 @@ chromeOnlyAccess
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -4326,7 +4326,7 @@ chromeOnlyAccess
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -4886,22 +4886,9 @@ docForSelf
 =
 mStart
 .
-Container
-(
-)
-?
-mStart
-.
-Container
-(
-)
--
->
 GetComposedDoc
 (
 )
-:
-nullptr
 ;
 const
 nsFrameSelection
@@ -5315,7 +5302,7 @@ ComputeRootNode
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -5332,7 +5319,7 @@ ComputeRootNode
 (
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -5342,7 +5329,7 @@ MOZ_ASSERT
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -5357,7 +5344,7 @@ MOZ_ASSERT
 (
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -5582,28 +5569,28 @@ checkCommonAncestor
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 !
 =
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 |
 |
 mEnd
 .
-Container
+GetContainer
 (
 )
 !
 =
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -5952,7 +5939,7 @@ ComputeRootNode
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -6480,7 +6467,7 @@ ComputeRootNode
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -8603,7 +8590,7 @@ doc
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -10739,7 +10726,7 @@ doc
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -10921,7 +10908,7 @@ node
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 &
@@ -10952,7 +10939,7 @@ node
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 &
@@ -11035,7 +11022,7 @@ node
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -11127,7 +11114,7 @@ node
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -12026,14 +12013,14 @@ if
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 !
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -12043,7 +12030,7 @@ startIsText
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -12057,7 +12044,7 @@ endIsText
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -12072,7 +12059,7 @@ startGrandParent
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -12087,7 +12074,7 @@ endGrandParent
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -12129,7 +12116,7 @@ startGrandParent
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -12147,7 +12134,7 @@ endGrandParent
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -12467,14 +12454,14 @@ if
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 =
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -12485,13 +12472,13 @@ textNode
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 ?
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -12708,7 +12695,7 @@ n
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -12776,7 +12763,7 @@ n
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -12924,7 +12911,7 @@ CreateContextualFragment
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 aFragment
@@ -12973,7 +12960,7 @@ MOZ_ASSERT
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -13003,7 +12990,7 @@ node
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -13047,7 +13034,7 @@ CreateContextualFragment
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 *
@@ -14432,7 +14419,7 @@ nullptr
 this
 mStart
 .
-Container
+GetContainer
 (
 )
 *
@@ -14450,7 +14437,7 @@ kValidOffsets
 )
 mEnd
 .
-Container
+GetContainer
 (
 )
 *
@@ -14656,7 +14643,7 @@ nullptr
 this
 startRef
 .
-Container
+GetContainer
 (
 )
 *
@@ -14674,7 +14661,7 @@ kValidOffsets
 )
 endRef
 .
-Container
+GetContainer
 (
 )
 *
@@ -14766,7 +14753,7 @@ mTextList
 this
 mStart
 .
-Container
+GetContainer
 (
 )
 *
@@ -14784,7 +14771,7 @@ kValidOffsets
 )
 mEnd
 .
-Container
+GetContainer
 (
 )
 *
@@ -14837,7 +14824,7 @@ startContainer
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -14849,7 +14836,7 @@ endContainer
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -14859,7 +14846,7 @@ doc
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -14889,12 +14876,7 @@ NS_ENSURE_TRUE
 (
 mStart
 .
-Container
-(
-)
--
->
-IsInComposedDoc
+IsSetAndInComposedDoc
 (
 )
 NS_ERROR_UNEXPECTED
@@ -15385,7 +15367,7 @@ MOZ_ASSERT
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -15394,7 +15376,7 @@ MOZ_ASSERT
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -15703,7 +15685,7 @@ range
 >
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -17074,7 +17056,7 @@ startNode
 =
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 ;
@@ -17084,7 +17066,7 @@ endNode
 =
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 ;
@@ -17354,7 +17336,7 @@ return
 {
 aBoundary
 .
-Container
+GetContainer
 (
 )
 newOffset

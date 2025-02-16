@@ -2315,7 +2315,7 @@ nullptr
 :
 startRef
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2334,7 +2334,7 @@ nullptr
 :
 endRef
 .
-Container
+GetContainer
 (
 )
 ;
@@ -13546,7 +13546,7 @@ if
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -13608,7 +13608,7 @@ HasSameRootOrSameComposedDoc
 *
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -13651,7 +13651,7 @@ NodeIsInLimiters
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -13696,7 +13696,7 @@ Document
 =
 aPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -13764,7 +13764,7 @@ Create
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -13810,7 +13810,7 @@ do_QueryInterface
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -13825,7 +13825,7 @@ do_QueryInterface
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -20650,7 +20650,7 @@ HasSameRootOrSameComposedDoc
 *
 aAnchorRef
 .
-Container
+GetContainer
 (
 )
 )
@@ -20662,7 +20662,7 @@ HasSameRootOrSameComposedDoc
 *
 aFocusRef
 .
-Container
+GetContainer
 (
 )
 )
@@ -21077,7 +21077,7 @@ NodeIsInLimiters
 (
 aStartRef
 .
-Container
+GetContainer
 (
 )
 )
@@ -21097,14 +21097,14 @@ if
 (
 aStartRef
 .
-Container
+GetContainer
 (
 )
 !
 =
 aEndRef
 .
-Container
+GetContainer
 (
 )
 &
@@ -21117,7 +21117,7 @@ NodeIsInLimiters
 (
 aEndRef
 .
-Container
+GetContainer
 (
 )
 )

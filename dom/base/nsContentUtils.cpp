@@ -18825,7 +18825,7 @@ ComparePointsWithIndices
 (
 aBoundary1
 .
-Container
+GetContainer
 (
 )
 *
@@ -18837,7 +18837,7 @@ kValidOrInvalidOffsets1
 )
 aBoundary2
 .
-Container
+GetContainer
 (
 )
 *
@@ -18855,14 +18855,14 @@ if
 (
 aBoundary1
 .
-Container
+GetContainer
 (
 )
 =
 =
 aBoundary2
 .
-Container
+GetContainer
 (
 )
 )
@@ -18897,7 +18897,7 @@ CompareClosestCommonAncestorChildren
 *
 aBoundary1
 .
-Container
+GetContainer
 (
 )
 child1
@@ -18913,13 +18913,13 @@ commonAncestors
 *
 aBoundary1
 .
-Container
+GetContainer
 (
 )
 *
 aBoundary2
 .
-Container
+GetContainer
 (
 )
 GetParentOrShadowHostNode
@@ -19029,7 +19029,7 @@ GetParentOrShadowHostNode
 =
 aBoundary1
 .
-Container
+GetContainer
 (
 )
 )
@@ -19239,7 +19239,7 @@ GetParentOrShadowHostNode
 =
 aBoundary2
 .
-Container
+GetContainer
 (
 )
 )

@@ -1542,7 +1542,7 @@ ComputeRootNode
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -1575,14 +1575,14 @@ if
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 =
 =
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -1679,7 +1679,7 @@ ComputeRootNode
 (
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -2585,7 +2585,7 @@ GetMayCrossShadowBoundaryStartContainer
 :
 mStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2616,7 +2616,7 @@ GetMayCrossShadowBoundaryEndContainer
 :
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;

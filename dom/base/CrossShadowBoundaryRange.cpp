@@ -463,7 +463,7 @@ CrossShadowBoundaryRange
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 aOwner
@@ -493,7 +493,7 @@ Init
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -579,7 +579,7 @@ ComputeRootNode
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -595,7 +595,7 @@ ComputeRootNode
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -650,12 +650,12 @@ GetClosestCommonShadowIncludingInclusiveAncestor
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -767,7 +767,7 @@ startContainer
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -778,7 +778,7 @@ endContainer
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -850,7 +850,7 @@ if
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -863,7 +863,7 @@ aChild
 |
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -1120,7 +1120,7 @@ aContent
 =
 aBoundary
 .
-Container
+GetContainer
 (
 )
 &

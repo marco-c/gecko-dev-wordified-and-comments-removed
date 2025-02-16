@@ -149,7 +149,7 @@ Before
 !
 aCaretPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -172,7 +172,7 @@ pos
 {
 aCaretPoint
 .
-Container
+GetContainer
 (
 )
 static_cast
@@ -251,7 +251,7 @@ caretPointIsAtEndOfFrame
 =
 aCaretPoint
 .
-Container
+GetContainer
 (
 )
 =
@@ -302,7 +302,7 @@ caretPointIsImmediatelyAfterFrameContent
 =
 aCaretPoint
 .
-Container
+GetContainer
 (
 )
 =
