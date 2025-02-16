@@ -657,6 +657,8 @@ force
 add_to_exports
         
 patch_mode
+        
+new_files_only
     
 )
 :
@@ -703,6 +705,12 @@ self
 patch_mode
 =
 patch_mode
+        
+self
+.
+new_files_only
+=
+new_files_only
         
 if
 "
@@ -975,8 +983,15 @@ timestamp
 )
         
 if
+(
+            
 not
 force
+            
+and
+not
+new_files_only
+            
 and
 self
 .
@@ -994,6 +1009,8 @@ revision
 =
 =
 new_revision
+        
+)
 :
             
 self
@@ -1044,6 +1061,69 @@ timestamp
 )
             
 return
+        
+if
+new_files_only
+:
+            
+self
+.
+manifest
+[
+"
+vendoring
+"
+]
+.
+setdefault
+(
+"
+skip
+-
+vendoring
+-
+steps
+"
+[
+]
+)
+            
+self
+.
+manifest
+[
+"
+vendoring
+"
+]
+[
+"
+skip
+-
+vendoring
+-
+steps
+"
+]
++
+=
+[
+                
+"
+spurious
+-
+check
+"
+                
+"
+update
+-
+moz
+-
+yaml
+"
+            
+]
         
 if
 flavor
@@ -1254,6 +1334,23 @@ revision
 destination
 )
 :
+            
+if
+self
+.
+new_files_only
+and
+os
+.
+path
+.
+isfile
+(
+destination
+)
+:
+                
+return
             
 url
 =
@@ -1614,6 +1711,11 @@ manifest
 vendoring
 "
 ]
+and
+not
+self
+.
+new_files_only
 :
             
 self
