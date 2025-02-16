@@ -6332,8 +6332,6 @@ enabled
 "
 media
 .
-wmf
-.
 hevc
 .
 enabled
