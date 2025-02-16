@@ -246,10 +246,6 @@ String
 String
 >
 ?
-originalInput
-:
-String
-?
 )
 {
 }
