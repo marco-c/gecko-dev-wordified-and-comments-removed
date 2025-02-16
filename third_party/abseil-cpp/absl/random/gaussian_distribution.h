@@ -27,6 +27,11 @@ limits
 #
 include
 <
+ostream
+>
+#
+include
+<
 type_traits
 >
 #

@@ -352,6 +352,7 @@ c
 ;
 }
 inline
+constexpr
 bool
 ascii_isdigit
 (
@@ -378,6 +379,7 @@ c
 ;
 }
 inline
+constexpr
 bool
 ascii_isprint
 (
@@ -399,6 +401,7 @@ c
 ;
 }
 inline
+constexpr
 bool
 ascii_isgraph
 (
@@ -419,6 +422,7 @@ c
 ;
 }
 inline
+constexpr
 bool
 ascii_isupper
 (
@@ -445,6 +449,7 @@ Z
 ;
 }
 inline
+constexpr
 bool
 ascii_islower
 (
@@ -471,6 +476,7 @@ z
 ;
 }
 inline
+constexpr
 bool
 ascii_isascii
 (

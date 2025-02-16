@@ -966,6 +966,12 @@ defined
 (
 __hexagon__
 )
+|
+|
+defined
+(
+__XTENSA__
+)
 #
 define
 ABSL_HAVE_MMAP

@@ -7,6 +7,11 @@ ABSL_RANDOM_BIT_GEN_REF_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #
@@ -37,9 +42,7 @@ absl
 /
 base
 /
-internal
-/
-fast_type_id
+config
 .
 h
 "
@@ -50,7 +53,9 @@ absl
 /
 base
 /
-macros
+internal
+/
+fast_type_id
 .
 h
 "

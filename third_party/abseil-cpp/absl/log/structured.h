@@ -16,6 +16,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 config
 .
 h
@@ -60,6 +71,7 @@ absl
 :
 string_view
 s
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 {
 return

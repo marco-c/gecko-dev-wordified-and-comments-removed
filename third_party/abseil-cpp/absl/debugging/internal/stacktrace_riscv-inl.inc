@@ -108,8 +108,8 @@ stacktrace
 h
 "
 static
-const
-uintptr_t
+constexpr
+ptrdiff_t
 kUnknownFrameSize
 =
 0
@@ -121,7 +121,7 @@ T
 >
 static
 inline
-uintptr_t
+ptrdiff_t
 ComputeStackFrameSize
 (
 const
@@ -290,7 +290,7 @@ return
 new_frame_pointer
 ;
 const
-uintptr_t
+ptrdiff_t
 max_size
 =
 STRICT_UNWINDING
@@ -300,7 +300,7 @@ STRICT_UNWINDING
 1000000
 ;
 const
-uintptr_t
+ptrdiff_t
 frame_size
 =
 ComputeStackFrameSize
@@ -558,10 +558,16 @@ sizes
 n
 ]
 =
+static_cast
+<
+int
+>
+(
 ComputeStackFrameSize
 (
 frame_pointer
 next_frame_pointer
+)
 )
 ;
 }

@@ -191,6 +191,10 @@ DEPS
 absl
 :
 :
+config
+absl
+:
+:
 core_headers
 absl
 :
@@ -1549,6 +1553,10 @@ absl
 :
 :
 fast_type_id
+absl
+:
+:
+type_traits
 )
 #
 Internal

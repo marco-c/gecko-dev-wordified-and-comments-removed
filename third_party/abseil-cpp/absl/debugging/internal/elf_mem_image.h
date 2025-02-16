@@ -109,6 +109,13 @@ defined
 (
 __hexagon__
 )
+&
+&
+!
+defined
+(
+__XTENSA__
+)
 #
 define
 ABSL_HAVE_ELF_MEM_IMAGE

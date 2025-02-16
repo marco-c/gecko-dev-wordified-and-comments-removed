@@ -1611,6 +1611,15 @@ fuzztest
 :
 *
 "
+"
+/
+/
+third_party
+/
+webrtc
+/
+*
+"
 #
 GoogleTest
 doesn

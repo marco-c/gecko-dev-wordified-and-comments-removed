@@ -42,6 +42,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 throw_delegate
@@ -356,6 +367,7 @@ SpanT
 typename
 T
 >
+ABSL_INTERNAL_CONSTEXPR_SINCE_CXX20
 bool
 EqualImpl
 (
@@ -427,6 +439,7 @@ SpanT
 typename
 T
 >
+ABSL_INTERNAL_CONSTEXPR_SINCE_CXX20
 bool
 LessThanImpl
 (

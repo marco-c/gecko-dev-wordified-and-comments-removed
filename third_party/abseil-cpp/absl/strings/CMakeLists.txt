@@ -456,7 +456,7 @@ DEPS
 absl
 :
 :
-core_headers
+config
 absl
 :
 :

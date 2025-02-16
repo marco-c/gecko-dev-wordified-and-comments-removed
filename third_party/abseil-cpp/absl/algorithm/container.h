@@ -1088,6 +1088,7 @@ c_find_first_of
 C1
 &
 container
+const
 C2
 &
 options
@@ -1152,6 +1153,7 @@ c_find_first_of
 C1
 &
 container
+const
 C2
 &
 options
