@@ -124,6 +124,9 @@ interface
 nsIPrincipal
 ;
 interface
+nsIPushSubscription
+;
+interface
 nsIRunnable
 ;
 interface
@@ -2265,6 +2268,12 @@ aOriginAttributes
 in
 ACString
 scope
+[
+optional
+]
+in
+nsIPushSubscription
+aOldSubscription
 )
 ;
 void
