@@ -375,6 +375,11 @@ result
 ;
 }
 }
+{
+ignoreVisibility
+:
+true
+}
 )
 ;
 }
