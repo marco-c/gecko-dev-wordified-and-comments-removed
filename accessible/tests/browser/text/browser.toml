@@ -51,6 +51,15 @@ prefs
 "
 dom
 .
+customHighlightAPI
+.
+enabled
+=
+true
+"
+"
+dom
+.
 text_fragments
 .
 enabled
