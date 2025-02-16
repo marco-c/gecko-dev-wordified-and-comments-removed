@@ -715,6 +715,10 @@ browsertime
 network
 -
 bench
+-
+browsertime
+-
+webcodecs
 browsertime
 -
 clang
