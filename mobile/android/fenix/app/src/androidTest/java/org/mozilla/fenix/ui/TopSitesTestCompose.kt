@@ -507,6 +507,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -516,6 +518,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
@@ -654,6 +657,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -663,6 +668,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
@@ -768,6 +774,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -777,6 +785,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
@@ -875,6 +884,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -884,6 +895,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
@@ -975,6 +987,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -984,6 +998,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
@@ -1101,6 +1116,8 @@ MockBrowserDataHelper
 .
 addPinnedSite
 (
+Pair
+(
 defaultWebPage
 .
 title
@@ -1110,6 +1127,7 @@ url
 .
 toString
 (
+)
 )
 activityTestRule
 =
