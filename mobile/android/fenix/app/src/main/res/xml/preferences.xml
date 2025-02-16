@@ -755,6 +755,15 @@ preferences_category_privacy_security
 "
 android
 :
+key
+=
+"
+string
+/
+pref_key_privacy_security_category
+"
+android
+:
 layout
 =
 "

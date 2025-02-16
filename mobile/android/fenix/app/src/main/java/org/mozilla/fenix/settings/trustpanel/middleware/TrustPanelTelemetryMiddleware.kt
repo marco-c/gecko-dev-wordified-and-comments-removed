@@ -291,6 +291,11 @@ TrustPanelAction
 Navigate
 .
 ConnectionSecurityPanel
+TrustPanelAction
+.
+Navigate
+.
+PrivacySecuritySettings
 -
 >
 Unit
