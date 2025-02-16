@@ -380,6 +380,7 @@ right
 bottom
 left
 ;
+constexpr
 BaseMargin
 (
 )
@@ -402,6 +403,7 @@ left
 )
 {
 }
+constexpr
 BaseMargin
 (
 Coord

@@ -18368,12 +18368,6 @@ intrinsicSize
 mImageSize
 )
 ;
-nsMargin
-slice
-;
-nsMargin
-border
-;
 for
 (
 const

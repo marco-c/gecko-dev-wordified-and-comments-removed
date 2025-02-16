@@ -179,6 +179,7 @@ otherwise
 )
 ;
 }
+constexpr
 IntMarginTyped
 (
 Coord
