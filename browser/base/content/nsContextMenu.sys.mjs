@@ -2669,6 +2669,11 @@ inPDFViewer
 this
 .
 inFrame
+|
+|
+this
+.
+onEditable
 )
 &
 &
