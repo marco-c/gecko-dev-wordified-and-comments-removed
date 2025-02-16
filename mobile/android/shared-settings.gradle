@@ -952,6 +952,7 @@ def
 versionPath
 =
 '
+.
 /
 mobile
 /
@@ -965,6 +966,7 @@ def
 configPath
 =
 '
+.
 /
 mobile
 /
@@ -1056,10 +1058,12 @@ yml
 def
 componentsVersion
 =
-new
-File
+gradle
+.
+rootProject
+.
+file
 (
-rootDir
 versionPath
 )
 .
@@ -1075,10 +1079,12 @@ yaml
 .
 load
 (
-new
-File
+gradle
+.
+rootProject
+.
+file
 (
-rootDir
 configPath
 )
 .

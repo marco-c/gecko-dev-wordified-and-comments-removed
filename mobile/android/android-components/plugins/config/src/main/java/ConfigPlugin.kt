@@ -471,7 +471,11 @@ txt
 "
 }
 return
-File
+project
+.
+rootProject
+.
+file
 (
 versionPath
 )
