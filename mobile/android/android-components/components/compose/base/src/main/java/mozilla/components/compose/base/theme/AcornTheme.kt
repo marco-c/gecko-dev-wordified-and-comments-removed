@@ -871,7 +871,7 @@ actionPrimaryDisabled
 =
 PhotonColors
 .
-Ink20A50
+Ink20A20
 actionSecondary
 =
 PhotonColors
@@ -1001,7 +1001,7 @@ textActionPrimaryDisabled
 =
 PhotonColors
 .
-LightGrey05A60
+DarkGrey90A50
 textActionSecondary
 =
 PhotonColors
