@@ -384,7 +384,7 @@ view
 :
 this
 .
-allTabsView
+groupsSubView
 containerNode
 :
 this
