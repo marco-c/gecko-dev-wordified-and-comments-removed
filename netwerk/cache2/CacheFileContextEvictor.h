@@ -178,6 +178,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aBaseDomain
 )
 ;
 nsresult
@@ -192,6 +196,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aBaseDomain
 )
 ;
 nsresult
@@ -211,6 +219,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aBaseDomain
 nsIFile
 *
 *
