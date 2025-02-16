@@ -1956,8 +1956,13 @@ start
 entryIndex
 ;
 }
-static
 bool
+js
+:
+:
+jit
+:
+:
 RecompileBaselineScriptForDebugMode
 (
 JSContext
