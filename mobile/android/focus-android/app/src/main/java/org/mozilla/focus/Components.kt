@@ -751,6 +751,16 @@ focus
 .
 state
 .
+AppReducer
+import
+org
+.
+mozilla
+.
+focus
+.
+state
+.
 AppState
 import
 org
@@ -922,6 +932,8 @@ lazy
 {
 AppStore
 (
+initialState
+=
 AppState
 (
 screen
@@ -950,6 +962,9 @@ isPinningSupported
 =
 null
 )
+reducer
+=
+AppReducer
 )
 }
 private
