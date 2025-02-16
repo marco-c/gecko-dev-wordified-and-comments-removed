@@ -6822,6 +6822,11 @@ PromiseRejectionEvent
 webidl
 "
 "
+PushSubscriptionChangeEvent
+.
+webidl
+"
+"
 ScrollViewChangeEvent
 .
 webidl
