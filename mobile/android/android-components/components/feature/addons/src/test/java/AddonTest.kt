@@ -346,9 +346,6 @@ topSites
 trialML
 "
 "
-unlimitedStorage
-"
-"
 userScripts
 "
 "
@@ -496,11 +493,6 @@ R
 string
 .
 mozac_feature_addons_permissions_trial_ml_description
-R
-.
-string
-.
-mozac_feature_addons_permissions_unlimited_storage_description
 R
 .
 string

@@ -2212,15 +2212,6 @@ string
 .
 mozac_feature_addons_permissions_tabs_description
 "
-unlimitedStorage
-"
-to
-R
-.
-string
-.
-mozac_feature_addons_permissions_unlimited_storage_description
-"
 webNavigation
 "
 to
