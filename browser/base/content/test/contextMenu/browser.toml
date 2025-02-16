@@ -606,13 +606,6 @@ socketprocess_networking
 ]
 [
 "
-browser_copy_link_to_highlight
-.
-js
-"
-]
-[
-"
 browser_strip_on_share_link
 .
 js
