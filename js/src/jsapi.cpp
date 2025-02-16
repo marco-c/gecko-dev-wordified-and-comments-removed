@@ -13218,6 +13218,12 @@ rhs
 .
 usePinnedBytecode
 ;
+deoptimizeModuleGlobalVars
+=
+rhs
+.
+deoptimizeModuleGlobalVars
+;
 prefableOptions_
 =
 rhs
