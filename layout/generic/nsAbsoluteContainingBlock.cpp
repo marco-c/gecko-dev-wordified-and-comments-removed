@@ -4320,7 +4320,8 @@ IStart
 outerWM
 positionProperty
 )
-.
+-
+>
 IsAuto
 (
 )
@@ -4338,7 +4339,8 @@ IEnd
 outerWM
 positionProperty
 )
-.
+-
+>
 IsAuto
 (
 )
@@ -4359,7 +4361,8 @@ BStart
 outerWM
 positionProperty
 )
-.
+-
+>
 IsAuto
 (
 )
@@ -4377,7 +4380,8 @@ BEnd
 outerWM
 positionProperty
 )
-.
+-
+>
 IsAuto
 (
 )
