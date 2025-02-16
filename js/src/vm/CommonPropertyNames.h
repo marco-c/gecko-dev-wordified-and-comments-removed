@@ -3427,6 +3427,14 @@ numeric
 \
 MACRO_
 (
+NumericRangeIterator
+"
+NumericRangeIterator
+"
+)
+\
+MACRO_
+(
 object_Arguments_
 "
 [

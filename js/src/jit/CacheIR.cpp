@@ -63492,6 +63492,17 @@ InlinableNative
 :
 IntrinsicGuardToIteratorHelper
 :
+#
+ifdef
+NIGHTLY_BUILD
+case
+InlinableNative
+:
+:
+IntrinsicGuardToIteratorRange
+:
+#
+endif
 case
 InlinableNative
 :
