@@ -15246,9 +15246,14 @@ true
 name
 :
 MemoryBarrier
-gen_boilerplate
+arguments
 :
-false
+barrier
+:
+jit
+:
+:
+MemoryBarrier
 -
 name
 :
