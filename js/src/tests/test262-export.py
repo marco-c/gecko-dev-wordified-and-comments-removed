@@ -3802,11 +3802,18 @@ b
         
 elif
 key
-=
-=
+in
+[
+"
+flags
+"
 "
 includes
 "
+"
+features
+"
+]
 :
             
 lines
@@ -3816,9 +3823,19 @@ append
                 
 b
 "
-includes
+%
+s
 :
 "
+%
+key
+.
+encode
+(
+"
+ascii
+"
+)
                 
 +
 yaml
