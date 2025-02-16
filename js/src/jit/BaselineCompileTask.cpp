@@ -544,6 +544,7 @@ finishOnMainThread
 cx
 )
 ;
+}
 BaselineCompileTask
 :
 :
@@ -552,7 +553,6 @@ FinishOffThreadTask
 task
 )
 ;
-}
 }
 }
 if
