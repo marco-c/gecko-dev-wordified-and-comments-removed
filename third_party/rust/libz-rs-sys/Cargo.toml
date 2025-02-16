@@ -244,14 +244,14 @@ version
 "
 path
 =
-"
+'
 .
 .
-/
+\
 zlib
 -
 rs
-"
+'
 default
 -
 features
