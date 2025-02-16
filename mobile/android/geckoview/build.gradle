@@ -4134,6 +4134,15 @@ annotations
 .
 jar
 }
+preBuild
+.
+dependsOn
+(
+"
+:
+verifyGleanVersion
+"
+)
 apply
 plugin
 :
