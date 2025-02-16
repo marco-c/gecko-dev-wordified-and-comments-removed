@@ -84,6 +84,16 @@ llvm
 symbolizer
 #
 endif
+#
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
+/
+crashhelper
+#
+endif
 /
 nmhproxy
 /
