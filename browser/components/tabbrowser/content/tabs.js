@@ -11233,6 +11233,12 @@ screen
 dragData
 .
 animLastScreenPos
+!
+=
+this
+.
+#
+rtlMode
 ;
 dragData
 .
