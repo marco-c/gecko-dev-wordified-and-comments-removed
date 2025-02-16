@@ -23,6 +23,15 @@ mjs
 "
 generated
 /
+RustSearch
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustSuggest
 .
 sys
