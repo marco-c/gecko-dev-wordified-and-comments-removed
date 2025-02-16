@@ -12129,6 +12129,16 @@ rt
 )
 )
 ;
+realm
+(
+)
+-
+>
+removeFromCompileQueue
+(
+this
+)
+;
 destroyScriptCounts
 (
 )
