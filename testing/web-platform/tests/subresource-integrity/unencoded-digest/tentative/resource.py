@@ -1,7 +1,7 @@
 '
 '
 '
-Integrity
+Unencoded
 -
 Digest
 helper
@@ -14,7 +14,7 @@ Include
 or
 exclude
 an
-Integrity
+Unencoded
 -
 Digest
 header
@@ -116,7 +116,7 @@ set
 (
 b
 '
-identity
+unencoded
 -
 digest
 '
