@@ -1,9 +1,7 @@
-DISABLE_SCREEN_SAVER
-=
-False
-ADJUST_MOUSE_AND_SCREEN
-=
-False
+import
+os
+import
+sys
 config
 =
 {
@@ -38,7 +36,9 @@ name
 "
 :
 "
-disable_screen_saver
+verify
+refresh
+rate
 "
             
 "
@@ -46,21 +46,50 @@ cmd
 "
 :
 [
+                
+sys
+.
+executable
+                
+os
+.
+path
+.
+join
+(
+                    
+os
+.
+getcwd
+(
+)
+                    
 "
-xset
+mozharness
 "
+                    
 "
-s
+external_tools
 "
+                    
 "
-off
+macosx_resolution_refreshrate
+.
+py
 "
+                
+)
+                
 "
-s
+-
+-
+check
+=
+refresh
+-
+rate
 "
-"
-reset
-"
+            
 ]
             
 "
@@ -68,9 +97,6 @@ architectures
 "
 :
 [
-"
-32bit
-"
 "
 64bit
 "
@@ -86,7 +112,7 @@ False
 enabled
 "
 :
-DISABLE_SCREEN_SAVER
+True
         
 }
         
@@ -97,12 +123,9 @@ name
 "
 :
 "
-run
-mouse
-&
+verify
 screen
-adjustment
-script
+resolution
 "
             
 "
@@ -111,44 +134,45 @@ cmd
 :
 [
                 
-"
-python
-"
+sys
+.
+executable
                 
+os
+.
+path
+.
+join
+(
+                    
+os
+.
+getcwd
+(
+)
+                    
 "
-.
-.
-/
-scripts
-/
+mozharness
+"
+                    
+"
 external_tools
-/
-mouse_and_screen_resolution
+"
+                    
+"
+macosx_resolution_refreshrate
 .
 py
 "
                 
-"
--
--
-configuration
--
-file
-"
+)
                 
 "
-.
-.
-/
-scripts
-/
-external_tools
-/
-machine
 -
-configuration
-.
-json
+-
+check
+=
+resolution
 "
             
 ]
@@ -159,7 +183,7 @@ architectures
 :
 [
 "
-32bit
+64bit
 "
 ]
             
@@ -167,13 +191,13 @@ architectures
 halt_on_failure
 "
 :
-True
+False
             
 "
 enabled
 "
 :
-ADJUST_MOUSE_AND_SCREEN
+True
         
 }
     
