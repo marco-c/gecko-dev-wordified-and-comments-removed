@@ -38,7 +38,6 @@ return
 2
 ]
 =
-Array
 [
 "
 (
@@ -174,7 +173,6 @@ Arrays
 2
 ]
 =
-Array
 [
 "
 (
@@ -351,7 +349,6 @@ operator
 2
 ]
 =
-Array
 [
 "
 (
@@ -627,7 +624,6 @@ operators
 2
 ]
 =
-Array
 [
 "
 (
@@ -943,7 +939,6 @@ line
 2
 ]
 =
-Array
 [
 "
 (
@@ -1634,7 +1629,6 @@ notation
 2
 ]
 =
-Array
 [
 "
 (
@@ -2058,7 +2052,6 @@ of
 2
 ]
 =
-Array
 [
 "
 (
@@ -2215,7 +2208,6 @@ statement
 2
 ]
 =
-Array
 [
 "
 (
@@ -2458,11 +2450,7 @@ x
 '
 \
 \
-\
-\
 u2029
-\
-\
 \
 \
 u2028
@@ -2487,7 +2475,6 @@ separators
 2
 ]
 =
-Array
 [
 "
 (
@@ -2562,8 +2549,6 @@ x
 '
 \
 \
-\
-\
 x001
 '
 ;
@@ -2586,7 +2571,6 @@ digit
 2
 ]
 =
-Array
 [
 "
 (
@@ -2689,7 +2673,6 @@ exception
 2
 ]
 =
-Array
 [
 "
 (
@@ -2801,7 +2784,6 @@ line
 2
 ]
 =
-Array
 [
 "
 (
@@ -2944,7 +2926,6 @@ space
 2
 ]
 =
-Array
 [
 "
 (
@@ -3154,7 +3135,6 @@ line
 2
 ]
 =
-Array
 [
 "
 (
@@ -3357,7 +3337,6 @@ file
 2
 ]
 =
-Array
 [
 "
 (
@@ -3428,7 +3407,6 @@ function
 2
 ]
 =
-Array
 [
 "
 (
@@ -3698,7 +3676,6 @@ handling
 2
 ]
 =
-Array
 [
 "
 (
@@ -3853,7 +3830,6 @@ ASI
 2
 ]
 =
-Array
 [
 "
 (
@@ -4121,7 +4097,6 @@ handling
 2
 ]
 =
-Array
 [
 "
 (
@@ -4234,7 +4209,6 @@ statements
 2
 ]
 =
-Array
 [
 "
 (
@@ -4594,7 +4568,6 @@ Delete
 2
 ]
 =
-Array
 [
 "
 (
@@ -4687,7 +4660,6 @@ loop
 2
 ]
 =
-Array
 [
 "
 (
@@ -4838,7 +4810,6 @@ name
 2
 ]
 =
-Array
 [
 "
 (
@@ -5121,7 +5092,6 @@ name
 2
 ]
 =
-Array
 [
 "
 (
@@ -5289,7 +5259,6 @@ literals
 2
 ]
 =
-Array
 [
 "
 (
@@ -5848,7 +5817,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -5903,10 +5871,6 @@ strings
 \
 \
 \
-\
-\
-\
-\
 '
 "
 ;
@@ -5919,7 +5883,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -5952,10 +5915,6 @@ strings
 \
 \
 \
-\
-\
-\
-\
 "
 ;
 exports
@@ -5968,7 +5927,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6025,8 +5983,6 @@ strings
 \
 \
 \
-\
-\
 "
 ;
 exports
@@ -6040,7 +5996,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6092,8 +6047,6 @@ strings
 =
 "
 '
-\
-\
 \
 \
 r
@@ -6110,7 +6063,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6138,8 +6090,6 @@ strings
 ]
 =
 "
-\
-\
 \
 \
 \
@@ -6158,7 +6108,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6210,8 +6159,6 @@ strings
 =
 "
 '
-\
-\
 \
 \
 f
@@ -6228,7 +6175,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6256,8 +6202,6 @@ strings
 ]
 =
 "
-\
-\
 \
 \
 \
@@ -6276,7 +6220,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6330,8 +6273,6 @@ strings
 '
 \
 \
-\
-\
 x00
 '
 "
@@ -6346,7 +6287,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6377,8 +6317,6 @@ strings
 \
 \
 \
-\
-\
 x00
 \
 "
@@ -6394,7 +6332,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6449,8 +6386,6 @@ strings
 '
 \
 \
-\
-\
 '
 '
 "
@@ -6466,7 +6401,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6495,8 +6429,6 @@ strings
 '
 \
 \
-\
-\
 t
 '
 "
@@ -6510,7 +6442,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6540,8 +6471,6 @@ strings
 \
 \
 \
-\
-\
 t
 \
 "
@@ -6556,7 +6485,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6610,8 +6538,6 @@ strings
 '
 \
 \
-\
-\
 v
 '
 "
@@ -6626,7 +6552,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6657,8 +6582,6 @@ strings
 \
 \
 \
-\
-\
 v
 \
 "
@@ -6674,7 +6597,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -6736,7 +6658,6 @@ assignment
 2
 ]
 =
-Array
 [
 "
 (
@@ -6853,7 +6774,6 @@ function
 2
 ]
 =
-Array
 [
 "
 (
@@ -7270,7 +7190,6 @@ loop
 2
 ]
 =
-Array
 [
 "
 (
@@ -7578,7 +7497,6 @@ calls
 2
 ]
 =
-Array
 [
 "
 (
@@ -7798,7 +7716,6 @@ literals
 2
 ]
 =
-Array
 [
 "
 (
@@ -8174,7 +8091,6 @@ statement
 2
 ]
 =
-Array
 [
 "
 (
@@ -8388,7 +8304,6 @@ curlies
 2
 ]
 =
-Array
 [
 "
 (
@@ -8509,7 +8424,6 @@ expression
 2
 ]
 =
-Array
 [
 "
 (
@@ -8685,7 +8599,6 @@ operator
 2
 ]
 =
-Array
 [
 "
 (
@@ -8863,7 +8776,6 @@ comment
 2
 ]
 =
-Array
 [
 "
 (
@@ -9009,7 +8921,6 @@ Instanceof
 2
 ]
 =
-Array
 [
 "
 (
@@ -9125,7 +9036,6 @@ value
 2
 ]
 =
-Array
 [
 "
 (
@@ -9213,7 +9123,6 @@ value
 2
 ]
 =
-Array
 [
 "
 (
@@ -9355,7 +9264,6 @@ parenthesis
 2
 ]
 =
-Array
 [
 "
 (
@@ -10163,7 +10071,6 @@ comment
 2
 ]
 =
-Array
 [
 "
 (
@@ -10323,7 +10230,6 @@ comments
 2
 ]
 =
-Array
 [
 "
 (
@@ -10430,7 +10336,6 @@ handling
 2
 ]
 =
-Array
 [
 "
 (
@@ -10613,7 +10518,6 @@ function
 2
 ]
 =
-Array
 [
 "
 (
@@ -10858,7 +10762,6 @@ expression
 2
 ]
 =
-Array
 [
 "
 (
@@ -10984,7 +10887,6 @@ call
 2
 ]
 =
-Array
 [
 "
 (
@@ -11050,7 +10952,6 @@ in
 2
 ]
 =
-Array
 [
 "
 (
@@ -11115,7 +11016,6 @@ new
 2
 ]
 =
-Array
 [
 "
 (
@@ -11198,7 +11098,6 @@ access
 2
 ]
 =
-Array
 [
 "
 (
@@ -11344,7 +11243,6 @@ assignment
 2
 ]
 =
-Array
 [
 "
 (
@@ -11435,7 +11333,6 @@ Objects
 2
 ]
 =
-Array
 [
 "
 (
@@ -11636,7 +11533,6 @@ support
 2
 ]
 =
-Array
 [
 "
 (
@@ -11910,7 +11806,6 @@ support
 2
 ]
 =
-Array
 [
 "
 (
@@ -12745,7 +12640,6 @@ strings
 2
 ]
 =
-Array
 [
 "
 (
@@ -12808,7 +12702,6 @@ Regexp
 2
 ]
 =
-Array
 [
 "
 (
@@ -12899,7 +12792,6 @@ function
 2
 ]
 =
-Array
 [
 "
 (
@@ -13055,7 +12947,6 @@ comment
 2
 ]
 =
-Array
 [
 "
 (
@@ -13232,7 +13123,6 @@ access
 2
 ]
 =
-Array
 [
 "
 (
@@ -13539,8 +13429,6 @@ foo
 '
 \
 \
-\
-\
 '
 '
 ;
@@ -13554,7 +13442,6 @@ quote
 2
 ]
 =
-Array
 [
 "
 (
@@ -13644,7 +13531,6 @@ semicolon
 2
 ]
 =
-Array
 [
 "
 (
@@ -13736,7 +13622,6 @@ handling
 2
 ]
 =
-Array
 [
 "
 (
@@ -13909,7 +13794,6 @@ statements
 2
 ]
 =
-Array
 [
 "
 (
@@ -14196,7 +14080,6 @@ literals
 2
 ]
 =
-Array
 [
 "
 (
@@ -14499,7 +14382,6 @@ operator
 2
 ]
 =
-Array
 [
 "
 (
@@ -14601,7 +14483,6 @@ access
 2
 ]
 =
-Array
 [
 "
 (
@@ -14711,7 +14592,6 @@ assignment
 2
 ]
 =
-Array
 [
 "
 (
@@ -14822,7 +14702,6 @@ statement
 2
 ]
 =
-Array
 [
 "
 (
@@ -15112,7 +14991,6 @@ assignment
 2
 ]
 =
-Array
 [
 "
 (
@@ -15206,7 +15084,6 @@ handling
 2
 ]
 =
-Array
 [
 "
 (
@@ -15367,7 +15244,6 @@ assignment
 2
 ]
 =
-Array
 [
 "
 (
@@ -15469,7 +15345,6 @@ statement
 2
 ]
 =
-Array
 [
 "
 (
@@ -15623,7 +15498,6 @@ loop
 2
 ]
 =
-Array
 [
 "
 (
