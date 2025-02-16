@@ -104,7 +104,7 @@ linux
 xlarge
 -
 source
-macosx1015
+macosx1470
 -
 64
 .
@@ -114,7 +114,7 @@ t
 -
 osx
 -
-1015
+1400
 -
 r8
 windows11
@@ -400,7 +400,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -468,7 +468,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -1012,7 +1012,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -1122,7 +1122,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -1181,7 +1181,7 @@ linux64
 clang
 -
 tidy
-macosx1015
+macosx1470
 -
 64
 /
@@ -1229,7 +1229,7 @@ node
 linux64
 -
 rust
-macosx1015
+macosx1470
 -
 64
 /
@@ -1424,7 +1424,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -1490,7 +1490,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -2108,7 +2108,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -2159,7 +2159,7 @@ opt
 linux64
 -
 node
-macosx1015
+macosx1470
 -
 64
 /
@@ -2331,7 +2331,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -2374,7 +2374,7 @@ linux64
 node
 -
 browsertime
-macosx1015
+macosx1470
 -
 64
 /
@@ -3071,7 +3071,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -3594,7 +3594,7 @@ linux1804
 /
 opt
 -
-macosx1015
+macosx1470
 -
 64
 /
@@ -3647,7 +3647,7 @@ opt
 linux64
 -
 node
-macosx1015
+macosx1470
 -
 64
 /
