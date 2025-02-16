@@ -6709,10 +6709,10 @@ if
 AppConstants
 .
 platform
-!
+=
 =
 "
-win
+macosx
 "
 )
 {
