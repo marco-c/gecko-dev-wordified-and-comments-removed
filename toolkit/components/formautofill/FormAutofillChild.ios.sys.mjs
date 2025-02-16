@@ -886,6 +886,7 @@ if
 this
 .
 activeSection
+?
 .
 isValidSection
 (
