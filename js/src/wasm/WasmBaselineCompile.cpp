@@ -32595,7 +32595,12 @@ masm
 .
 memoryBarrier
 (
-MembarFull
+MemoryBarrier
+:
+:
+Full
+(
+)
 )
 ;
 return
