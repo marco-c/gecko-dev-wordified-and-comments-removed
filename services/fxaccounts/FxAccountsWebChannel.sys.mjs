@@ -482,16 +482,6 @@ profiles
 enabled
 "
 false
-null
-(
-)
-=
->
-lazy
-.
-SelectableProfileService
-.
-isEnabled
 )
 ;
 XPCOMUtils
