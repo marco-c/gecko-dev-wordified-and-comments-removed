@@ -1182,6 +1182,15 @@ autobanh_java
 "
 /
 /
+build
+/
+android
+:
+build_java
+"
+"
+/
+/
 third_party
 /
 androidx
