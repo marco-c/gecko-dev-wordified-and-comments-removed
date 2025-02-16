@@ -10807,6 +10807,13 @@ topLeft
 y
 }
 ;
+mBounds
+.
+MoveTo
+(
+mLastMoveRequest
+)
+;
 if
 (
 mIsDragPopup
@@ -11689,6 +11696,13 @@ topLeft
 .
 y
 }
+;
+mBounds
+.
+MoveTo
+(
+mLastMoveRequest
+)
 ;
 UpdateWaylandPopupHierarchy
 (
