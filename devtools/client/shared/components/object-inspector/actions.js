@@ -268,6 +268,14 @@ error
 e
 )
 ;
+dispatch
+(
+nodeCollapse
+(
+node
+)
+)
+;
 }
 }
 ;
@@ -606,6 +614,7 @@ rootsChanged
 (
 roots
 oldRoots
+autoReleaseObjectActors
 )
 {
 return
@@ -618,6 +627,11 @@ client
 =
 >
 {
+if
+(
+autoReleaseObjectActors
+)
+{
 releaseActors
 (
 client
@@ -625,6 +639,7 @@ oldRoots
 roots
 )
 ;
+}
 dispatch
 (
 {
