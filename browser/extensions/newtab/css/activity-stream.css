@@ -8596,6 +8596,11 @@ opacity
 :
 1
 ;
+transition
+:
+opacity
+200ms
+;
 }
 .
 lightWallpaper
@@ -8801,11 +8806,6 @@ top
 :
 -
 20px
-;
-transition
-:
-opacity
-200ms
 ;
 }
 .
