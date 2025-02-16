@@ -997,6 +997,13 @@ jog_test_clear_registered_metrics_and_pings
 (
 )
 {
+factory
+:
+:
+id_and_map_reset
+(
+)
+;
 }
 #
 [

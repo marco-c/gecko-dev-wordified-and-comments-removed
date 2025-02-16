@@ -59,12 +59,6 @@ false
 )
 ;
 static
-void
-TestReset
-(
-)
-;
-static
 bool
 AreRuntimeMetricsComprehensive
 (

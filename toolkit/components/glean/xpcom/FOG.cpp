@@ -2069,16 +2069,6 @@ XRE_IsParentProcess
 )
 )
 ;
-glean
-:
-:
-JOG
-:
-:
-TestReset
-(
-)
-;
 return
 glean
 :
