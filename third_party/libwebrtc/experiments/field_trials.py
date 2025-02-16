@@ -194,6 +194,26 @@ WebRTC
 -
 Audio
 -
+OpusDecodeStereoByDefault
+'
+               
+379996136
+               
+date
+(
+2025
+11
+15
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
+Audio
+-
 OpusGeneratePlc
 '
                

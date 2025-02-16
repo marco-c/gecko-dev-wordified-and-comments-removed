@@ -8130,6 +8130,13 @@ test
 test_support
 "
 "
+audio_codecs
+/
+opus
+:
+unittests
+"
+"
 environment
 :
 environment_unittests

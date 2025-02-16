@@ -95,10 +95,14 @@ sample_rate_hz
 =
 48000
 ;
+std
+:
+:
+optional
+<
 int
+>
 num_channels
-=
-1
 ;
 }
 ;
