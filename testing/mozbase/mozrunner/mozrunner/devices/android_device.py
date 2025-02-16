@@ -3594,6 +3594,12 @@ substs
 device_serial
 )
     
+device
+.
+run_as_package
+=
+app
+    
 pkg_dir
 =
 device
