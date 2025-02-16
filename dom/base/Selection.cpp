@@ -21982,6 +21982,9 @@ Selection
 :
 SetHighlightSelectionData
 (
+dom
+:
+:
 HighlightSelectionData
 aHighlightSelectionData
 )
