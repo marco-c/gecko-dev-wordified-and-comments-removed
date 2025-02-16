@@ -98,6 +98,17 @@ h
 #
 include
 "
+google_breakpad
+/
+common
+/
+minidump_format
+.
+h
+"
+#
+include
+"
 third_party
 /
 lss
