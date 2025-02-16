@@ -72693,6 +72693,10 @@ type
 checkbox
 ]
 {
+outline
+:
+none
+;
 appearance
 :
 none
