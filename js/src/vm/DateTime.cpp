@@ -901,6 +901,8 @@ MinTimeT
 {
 seconds
 =
+MinTimeT
++
 SecondsPerDay
 ;
 }

@@ -633,6 +633,14 @@ d
 {
 2
 }
+-
+?
+\
+d
+{
+4
+6
+}
 ;
 const
 timePart
@@ -640,12 +648,6 @@ timePart
 String
 .
 raw
-\
-d
-{
-4
-6
-}
 \
 d
 {
