@@ -12474,7 +12474,7 @@ parserDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 <
 div
@@ -14810,7 +14810,7 @@ parserDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 <
 div
@@ -15092,7 +15092,7 @@ parserDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 <
 div
@@ -16039,7 +16039,7 @@ parserDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 <
 div
