@@ -83,7 +83,7 @@ ini
 "
         
 "
-update
+default
 .
 locale
 "

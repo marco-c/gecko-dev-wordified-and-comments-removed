@@ -2506,7 +2506,7 @@ localization
 "
             
 "
-update
+default
 .
 locale
 "

@@ -158,7 +158,7 @@ files
 :
 js
 :
-update
+default
 .
 locale
 and
@@ -427,7 +427,7 @@ from
 :
 js
 :
-update
+default
 .
 locale
 file

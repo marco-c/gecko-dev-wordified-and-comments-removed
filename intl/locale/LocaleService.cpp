@@ -2005,7 +2005,7 @@ locale
 GetGREFileContents
 (
 "
-update
+default
 .
 locale
 "

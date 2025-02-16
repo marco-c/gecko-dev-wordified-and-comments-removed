@@ -3477,7 +3477,7 @@ is_resource
 (
 base
 "
-update
+default
 .
 locale
 "

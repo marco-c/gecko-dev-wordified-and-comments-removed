@@ -594,15 +594,6 @@ py
 "
 toolkit
 /
-locales
-/
-generate_update_locale
-.
-py
-"
-"
-toolkit
-/
 mozapps
 "
 "
