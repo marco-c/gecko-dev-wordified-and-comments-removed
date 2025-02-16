@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+test_color_input
+.
+html
+"
+]
+[
+"
 test_moz_slider
 .
 html

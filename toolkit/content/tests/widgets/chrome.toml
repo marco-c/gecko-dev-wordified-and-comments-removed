@@ -236,13 +236,6 @@ html
 ]
 [
 "
-test_moz_input_color
-.
-html
-"
-]
-[
-"
 test_moz_input_search
 .
 html
