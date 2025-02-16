@@ -681,6 +681,15 @@ linux
 -
 x86_64
 '
+linux64
+-
+aarch64
+:
+'
+linux
+-
+aarch64
+'
 macosx64
 :
 '

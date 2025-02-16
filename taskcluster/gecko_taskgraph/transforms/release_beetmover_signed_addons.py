@@ -855,6 +855,11 @@ platforms
 linux
 "
 "
+linux64
+-
+aarch64
+"
+"
 macosx64
 "
 "
@@ -1324,6 +1329,18 @@ i686
 "
         
 "
+linux64
+-
+aarch64
+"
+:
+"
+linux
+-
+aarch64
+"
+        
+"
 macosx64
 "
 :
@@ -1357,6 +1374,20 @@ devedition
 linux
 -
 x86_64
+"
+        
+"
+linux64
+-
+aarch64
+-
+devedition
+"
+:
+"
+linux
+-
+aarch64
 "
         
 "
