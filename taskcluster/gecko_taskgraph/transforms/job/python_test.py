@@ -29,6 +29,7 @@ Schema
 from
 voluptuous
 import
+Any
 Optional
 Required
 from
@@ -88,6 +89,23 @@ workdir
 )
 :
 str
+        
+Optional
+(
+"
+use
+-
+caches
+"
+)
+:
+Any
+(
+bool
+[
+str
+]
+)
     
 }
 )
