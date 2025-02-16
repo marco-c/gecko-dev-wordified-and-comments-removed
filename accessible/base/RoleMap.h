@@ -1422,7 +1422,7 @@ text
 nullptr
 ATK_ROLE_PASSWORD_TEXT
 NSAccessibilityTextFieldRole
-NSAccessibilityUnknownSubrole
+NSAccessibilitySecureTextFieldSubrole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
 java

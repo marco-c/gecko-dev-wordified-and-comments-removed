@@ -1992,7 +1992,7 @@ searchbox
 roles
 :
 :
-ENTRY
+SEARCHBOX
 kUseMapRole
 eNoValue
 eActivateAction

@@ -101,6 +101,11 @@ Ci
 .
 nsIAccessibleRole
 .
+ROLE_SEARCHBOX
+Ci
+.
+nsIAccessibleRole
+.
 ROLE_SLIDER
 Ci
 .
