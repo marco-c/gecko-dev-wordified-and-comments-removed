@@ -12,8 +12,6 @@ import
 sys
 import
 time
-import
-traceback
 from
 concurrent
 .
@@ -126,7 +124,7 @@ logging
 getLogger
 (
 "
-mozlint
+lint
 "
 )
 handler
@@ -142,47 +140,18 @@ logging
 .
 Formatter
 (
-    
 "
 %
 (
-asctime
+levelname
 )
 s
-.
-%
-(
-msecs
-)
-d
-%
-(
-lintname
-)
-s
-(
-%
-(
-pid
-)
-s
-)
-|
+:
 %
 (
 message
 )
 s
-"
-"
-%
-H
-:
-%
-M
-:
-%
-S
 "
 )
 handler
@@ -196,6 +165,32 @@ logger
 addHandler
 (
 handler
+)
+log
+=
+logging
+.
+LoggerAdapter
+(
+logger
+{
+"
+lintname
+"
+:
+"
+mozlint
+"
+"
+pid
+"
+:
+os
+.
+getpid
+(
+)
+}
 )
 def
 _run_worker
@@ -414,7 +409,9 @@ or
 else
 :
             
-print
+log
+.
+error
 (
 "
 Unexpected
@@ -430,10 +427,22 @@ except
 Exception
 :
         
-traceback
+log
 .
-print_exc
+exception
 (
+f
+"
+{
+config
+[
+'
+name
+'
+]
+}
+failed
+"
 )
         
 res
@@ -1028,6 +1037,69 @@ show_verbose
 )
 :
             
+formatter
+=
+logging
+.
+Formatter
+(
+                
+"
+%
+(
+asctime
+)
+s
+.
+%
+(
+msecs
+)
+d
+%
+(
+lintname
+)
+s
+(
+%
+(
+pid
+)
+s
+)
+|
+%
+(
+message
+)
+s
+"
+"
+%
+H
+:
+%
+M
+:
+%
+S
+"
+            
+)
+            
+logger
+.
+handlers
+[
+0
+]
+.
+setFormatter
+(
+formatter
+)
+            
 logger
 .
 setLevel
@@ -1047,37 +1119,6 @@ setLevel
 logging
 .
 WARNING
-)
-        
-self
-.
-log
-=
-logging
-.
-LoggerAdapter
-(
-            
-logger
-{
-"
-lintname
-"
-:
-"
-mozlint
-"
-"
-pid
-"
-:
-os
-.
-getpid
-(
-)
-}
-        
 )
     
 def
@@ -1306,9 +1347,7 @@ logging
 LoggerAdapter
 (
                     
-self
-.
-log
+logger
 {
 "
 lintname
@@ -1374,8 +1413,6 @@ or
                 
 )
                 
-self
-.
 log
 .
 debug
@@ -1421,10 +1458,23 @@ except
 Exception
 :
                 
-traceback
+log
 .
-print_exc
+exception
 (
+f
+"
+{
+linter
+[
+'
+name
+'
+]
+}
+setup
+failed
+"
 )
                 
 res
@@ -1527,12 +1577,12 @@ result
 failed_setup
 :
             
-print
+log
+.
+error
 (
                 
 "
-error
-:
 problem
 with
 lint
@@ -2153,12 +2203,12 @@ outgoing
 )
 :
             
-print
+log
+.
+error
 (
                 
 "
-error
-:
 '
 {
 }
@@ -2172,9 +2222,6 @@ can
 '
 t
 use
-"
-                
-"
 -
 -
 workdir
@@ -2186,6 +2233,7 @@ outgoing
 .
 format
 (
+                    
 self
 .
 lintargs
@@ -2194,6 +2242,7 @@ lintargs
 root
 "
 ]
+                
 )
             
 )
@@ -2297,12 +2346,12 @@ except
 MissingUpstreamRepo
 :
                     
-print
+log
+.
+warning
 (
                         
 "
-warning
-:
 could
 not
 find
@@ -2325,20 +2374,16 @@ as
 e
 :
             
-print
-(
+msg
+=
+f
 "
-error
-running
+command
+failed
 :
 {
-}
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
@@ -2346,8 +2391,8 @@ e
 .
 cmd
 )
-)
-)
+}
+"
             
 if
 e
@@ -2355,11 +2400,27 @@ e
 output
 :
                 
-print
-(
+msg
+=
+f
+"
+{
+msg
+}
+\
+n
+{
 e
 .
 output
+}
+"
+            
+log
+.
+error
+(
+msg
 )
         
 if
@@ -2434,11 +2495,11 @@ paths
                 
 )
             
-print
+log
+.
+warning
 (
 "
-warning
-:
 no
 files
 linted
@@ -2724,13 +2785,13 @@ wait
 True
 )
             
-print
+log
+.
+warning
 (
 "
 \
-nwarning
-:
-not
+nnot
 all
 files
 were

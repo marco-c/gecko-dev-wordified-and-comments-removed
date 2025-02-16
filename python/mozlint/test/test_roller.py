@@ -820,14 +820,14 @@ readouterr
     
 assert
 "
-warning
+WARNING
 :
 no
 files
 linted
 "
 in
-out
+err
 def
 test_roll_with_invalid_extension
 (
@@ -2180,9 +2180,10 @@ out
     
 assert
 "
-warning
+WARNING
 :
-not
+\
+nnot
 all
 files
 were
@@ -2822,31 +2823,17 @@ readouterr
     
 assert
 "
-setup
-passed
-"
-in
-out
-    
-assert
-"
+oh
+no
 setup
 failed
 "
 in
-out
+err
     
 assert
 "
-setup
-raised
-"
-in
-out
-    
-assert
-"
-error
+ERROR
 :
 problem
 with
@@ -2855,7 +2842,7 @@ setup
 skipping
 "
 in
-out
+err
     
 assert
 lint
