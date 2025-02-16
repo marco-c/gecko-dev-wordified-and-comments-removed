@@ -279,6 +279,17 @@ nsIException
 ;
 }
 interface
+nsIXPCComponents_ID
+{
+(
+uuid
+:
+string
+)
+:
+nsID
+}
+interface
 nsIXPCComponents_utils_Sandbox
 {
 (
