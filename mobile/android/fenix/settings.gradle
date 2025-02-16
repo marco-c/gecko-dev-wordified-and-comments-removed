@@ -299,6 +299,15 @@ rules
 include
 '
 :
+mozilla
+-
+lint
+-
+rules
+'
+include
+'
+:
 benchmark
 '
 gradle

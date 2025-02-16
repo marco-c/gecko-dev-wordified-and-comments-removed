@@ -57,13 +57,15 @@ MPL
 *
 /
 package
+org
+.
 mozilla
 .
-components
+fenix
 .
-tooling
+lintrules
 .
-lint
+perf
 import
 com
 .
@@ -823,7 +825,6 @@ n
 n
 "
 private
-const
 val
 CUSTOM_VIEW_ISSUE_DESCRIPTION
 =
@@ -836,7 +837,6 @@ extending
 ConstraintLayout
 "
 private
-const
 val
 CUSTOM_VIEW_ISSUE_MESSAGE
 =
@@ -1375,12 +1375,6 @@ ResourceXmlDetector
 (
 )
 {
-Suppress
-(
-"
-UndocumentedPublicClass
-"
-)
 companion
 object
 {

@@ -361,6 +361,15 @@ gradlew
 '
 lintDebug
 '
+'
+mozilla
+-
+lint
+-
+rules
+:
+test
+'
 ]
 treeherder
 :
