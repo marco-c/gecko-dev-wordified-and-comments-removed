@@ -640,6 +640,16 @@ updated
 )
 ;
 await
+closePreviewForToken
+(
+dbg
+privateStaticTokenEl
+"
+popup
+"
+)
+;
+await
 resume
 (
 dbg
