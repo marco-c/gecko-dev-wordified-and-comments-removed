@@ -999,7 +999,7 @@ readPointerSuggestStore
 const
 pointerId
 =
-4
+5
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-4
+5
 ;
 /
 /
@@ -1159,7 +1159,7 @@ readPointerSuggestStoreBuilder
 const
 pointerId
 =
-5
+6
 ;
 /
 /
@@ -1242,7 +1242,7 @@ value
 const
 pointerId
 =
-5
+6
 ;
 /
 /
@@ -3043,7 +3043,7 @@ UniFFIScaffolding
 .
 callSync
 (
-36
+40
 /
 /
 suggest
@@ -3129,7 +3129,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-26
+30
 /
 /
 suggest
@@ -3231,7 +3231,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-27
+31
 /
 /
 suggest
@@ -3393,7 +3393,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-28
+32
 /
 /
 suggest
@@ -3894,7 +3894,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-29
+33
 /
 /
 suggest
@@ -4033,7 +4033,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-30
+34
 /
 /
 suggest
@@ -4187,7 +4187,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-31
+35
 /
 /
 suggest
@@ -4345,7 +4345,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-32
+36
 /
 /
 suggest
@@ -4521,7 +4521,7 @@ UniFFIScaffolding
 .
 callSync
 (
-33
+37
 /
 /
 suggest
@@ -4656,7 +4656,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-34
+38
 /
 /
 suggest
@@ -4813,7 +4813,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-35
+39
 /
 /
 suggest
@@ -5219,7 +5219,7 @@ UniFFIScaffolding
 .
 callSync
 (
-43
+47
 /
 /
 suggest
@@ -5297,7 +5297,7 @@ UniFFIScaffolding
 .
 callSync
 (
-37
+41
 /
 /
 suggest
@@ -5418,7 +5418,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-38
+42
 /
 /
 suggest
@@ -5560,7 +5560,7 @@ UniFFIScaffolding
 .
 callSync
 (
-39
+43
 /
 /
 suggest
@@ -5774,7 +5774,7 @@ UniFFIScaffolding
 .
 callSync
 (
-40
+44
 /
 /
 suggest
@@ -5896,7 +5896,7 @@ UniFFIScaffolding
 .
 callSync
 (
-41
+45
 /
 /
 suggest
@@ -6012,7 +6012,7 @@ UniFFIScaffolding
 .
 callSync
 (
-42
+46
 /
 /
 suggest
@@ -21316,7 +21316,7 @@ UniFFIScaffolding
 .
 callSync
 (
-25
+29
 /
 /
 suggest

@@ -999,7 +999,7 @@ readPointerWebExtStorageBridgedEngine
 const
 pointerId
 =
-9
+10
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-9
+10
 ;
 /
 /
@@ -1159,7 +1159,7 @@ readPointerWebExtStorageStore
 const
 pointerId
 =
-10
+11
 ;
 /
 /
@@ -1242,7 +1242,7 @@ value
 const
 pointerId
 =
-10
+11
 ;
 /
 /
@@ -2224,7 +2224,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-69
+73
 /
 /
 webextstorage
@@ -2370,7 +2370,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-70
+74
 /
 /
 webextstorage
@@ -2486,7 +2486,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-71
+75
 /
 /
 webextstorage
@@ -2622,7 +2622,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-72
+76
 /
 /
 webextstorage
@@ -2728,7 +2728,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+77
 /
 /
 webextstorage
@@ -2838,7 +2838,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+78
 /
 /
 webextstorage
@@ -2974,7 +2974,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+79
 /
 /
 webextstorage
@@ -3152,7 +3152,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+80
 /
 /
 webextstorage
@@ -3300,7 +3300,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+81
 /
 /
 webextstorage
@@ -3406,7 +3406,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+82
 /
 /
 webextstorage
@@ -3517,7 +3517,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+83
 /
 /
 webextstorage
@@ -3617,7 +3617,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+84
 /
 /
 webextstorage
@@ -3717,7 +3717,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+85
 /
 /
 webextstorage
@@ -4133,7 +4133,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-90
+94
 /
 /
 webextstorage
@@ -4233,7 +4233,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+86
 /
 /
 webextstorage
@@ -4379,7 +4379,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-83
+87
 /
 /
 webextstorage
@@ -4485,7 +4485,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+88
 /
 /
 webextstorage
@@ -4667,7 +4667,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+89
 /
 /
 webextstorage
@@ -4861,7 +4861,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+90
 /
 /
 webextstorage
@@ -4987,7 +4987,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+91
 /
 /
 webextstorage
@@ -5169,7 +5169,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+92
 /
 /
 webextstorage
@@ -5363,7 +5363,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-89
+93
 /
 /
 webextstorage
