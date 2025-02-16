@@ -71,12 +71,6 @@ search
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 view
 .
 LayoutInflater
@@ -136,12 +130,6 @@ logins
 .
 *
 /
-SuppressLint
-(
-"
-NotifyDataSetChanged
-"
-)
 internal
 class
 LoginsAdapter
