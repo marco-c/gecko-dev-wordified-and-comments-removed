@@ -148,9 +148,7 @@ components
 /
 telemetry
 /
-telemetry
-/
-data
+obsolete
 /
 core
 -

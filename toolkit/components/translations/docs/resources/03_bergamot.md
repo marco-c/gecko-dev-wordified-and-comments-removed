@@ -1109,7 +1109,7 @@ resources
 .
 html
 #
-release
+releasing
 Thank
 you
 [
@@ -1213,7 +1213,7 @@ resources
 .
 html
 #
-release
+releasing
 Thank
 you
 [

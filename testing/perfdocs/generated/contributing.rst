@@ -545,9 +545,9 @@ mozilla
 .
 org
 /
-tools
-/
-lint
+code
+-
+quality
 /
 coding
 -

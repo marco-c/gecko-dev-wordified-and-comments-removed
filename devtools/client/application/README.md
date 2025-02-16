@@ -343,13 +343,11 @@ mozilla
 .
 org
 /
-intl
-/
 l10n
 /
-l10n
+fluent
 /
-fluent_review
+review
 .
 html
 )

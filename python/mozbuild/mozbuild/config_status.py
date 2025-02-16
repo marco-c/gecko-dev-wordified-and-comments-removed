@@ -149,15 +149,7 @@ mobile
 /
 android
 /
-geckoview
-/
-contributor
-/
-geckoview
--
-quick
--
-start
+index
 .
 html
 #
