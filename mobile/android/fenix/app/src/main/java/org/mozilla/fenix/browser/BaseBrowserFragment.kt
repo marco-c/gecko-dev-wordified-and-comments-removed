@@ -7971,6 +7971,9 @@ getSwipeRefreshLayout
 topToolbarHeight
 =
 topToolbarHeight
+bottomToolbarHeight
+=
+bottomToolbarHeight
 )
 }
 else
