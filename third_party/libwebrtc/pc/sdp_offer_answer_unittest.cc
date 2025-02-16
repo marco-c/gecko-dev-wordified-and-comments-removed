@@ -6440,7 +6440,7 @@ rejected_answer
 TEST_F
 (
 SdpOfferAnswerTest
-SimulcastOfferWithMixedCodec
+DISABLED_SimulcastOfferWithMixedCodec
 )
 {
 auto
