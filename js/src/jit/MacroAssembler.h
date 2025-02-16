@@ -347,7 +347,6 @@ h
 #
 define
 ALL_ARCH
-mips32
 mips64
 arm
 arm64
@@ -382,9 +381,6 @@ DEFINED_ON_arm
 #
 define
 DEFINED_ON_arm64
-#
-define
-DEFINED_ON_mips32
 #
 define
 DEFINED_ON_mips64
@@ -1160,7 +1156,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -1178,7 +1173,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -1207,7 +1201,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -1241,7 +1234,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -3877,7 +3869,6 @@ DEFINED_ON
 x86
 x64
 arm
-mips32
 mips64
 loong64
 riscv64
@@ -5414,7 +5405,6 @@ DEFINED_ON
 x86_shared
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -7761,7 +7751,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -7959,7 +7948,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8017,7 +8005,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8075,7 +8062,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8101,7 +8087,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8159,7 +8144,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8217,7 +8201,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8275,7 +8258,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8333,7 +8315,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8391,7 +8372,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8449,7 +8429,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8523,7 +8502,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8581,7 +8559,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8703,7 +8680,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8759,7 +8735,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -8785,7 +8760,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -10105,7 +10079,6 @@ DEFINED_ON
 x86_shared
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -10128,7 +10101,6 @@ DEFINED_ON
 x86_shared
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -10207,7 +10179,6 @@ DEFINED_ON
 x86_shared
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -10230,7 +10201,6 @@ DEFINED_ON
 x86_shared
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -16494,7 +16464,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 x86_shared
 loong64
@@ -16519,7 +16488,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 x86_shared
 loong64
@@ -16709,7 +16677,6 @@ output
 DEFINED_ON
 (
 arm
-mips32
 mips64
 loong64
 riscv64
@@ -16764,7 +16731,6 @@ ptrScratch
 DEFINED_ON
 (
 arm
-mips32
 mips64
 loong64
 riscv64
@@ -16881,7 +16847,6 @@ tmp
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -16908,7 +16873,6 @@ tmp1
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -16935,7 +16899,6 @@ tmp
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -16962,7 +16925,6 @@ tmp
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -16989,7 +16951,6 @@ tmp
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -17016,7 +16977,6 @@ tmp
 )
 DEFINED_ON
 (
-mips32
 mips64
 )
 ;
@@ -19711,7 +19671,6 @@ output
 DEFINED_ON
 (
 arm
-mips32
 x86
 wasm32
 )
@@ -19738,7 +19697,6 @@ output
 DEFINED_ON
 (
 arm
-mips32
 x86
 wasm32
 )
@@ -19858,7 +19816,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -19892,7 +19849,6 @@ DEFINED_ON
 (
 arm
 arm64
-mips32
 mips64
 loong64
 riscv64
@@ -25537,7 +25493,6 @@ imm32
 )
 DEFINED_ON
 (
-mips32
 mips64
 loong64
 riscv64

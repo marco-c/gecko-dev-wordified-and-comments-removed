@@ -1832,6 +1832,27 @@ filename
                 
 continue
             
+if
+os
+.
+path
+.
+split
+(
+dirpath
+)
+[
+1
+]
+=
+=
+"
+mips32
+"
+:
+                
+continue
+            
 filepath
 =
 os
