@@ -66,6 +66,9 @@ false
 nsString
 mOrigin
 ;
+nsString
+mBaseDomain
+;
 PRTime
 mTimeStamp
 =
@@ -132,6 +135,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aBaseDomain
 )
 ;
 void

@@ -16847,6 +16847,7 @@ AddContext
 aLoadContextInfo
 aPinned
 aOrigin
+aBaseDomain
 )
 ;
 return
