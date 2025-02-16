@@ -129,9 +129,6 @@ getMeOutOfHere
 getDefaultHomePage
 "
 "
-getPEMString
-"
-"
 browserDragAndDrop
 "
 "
