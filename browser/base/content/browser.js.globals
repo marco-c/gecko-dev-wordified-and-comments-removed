@@ -147,9 +147,6 @@ newTabButtonObserver
 newWindowButtonObserver
 "
 "
-BrowserSearch
-"
-"
 OpenSearchManager
 "
 "
@@ -340,9 +337,6 @@ AboutReaderParent
 "
 "
 AddonManager
-"
-"
-BrowserSearchTelemetry
 "
 "
 BrowserTelemetryUtils
@@ -808,9 +802,6 @@ gFindBarInitialized
 "
 "
 gFindBarPromise
-"
-"
-BrowserSearch
 "
 "
 SelectableProfileService
