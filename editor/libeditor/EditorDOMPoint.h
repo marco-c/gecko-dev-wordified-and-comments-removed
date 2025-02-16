@@ -5884,6 +5884,10 @@ mOffset
 value
 (
 )
+RangeBoundaryIsMutationObserved
+:
+:
+No
 )
 ;
 }
@@ -5970,6 +5974,10 @@ mOffset
 value
 (
 )
+RangeBoundaryIsMutationObserved
+:
+:
+No
 )
 ;
 }
@@ -5991,6 +5999,10 @@ mOffset
 value
 (
 )
+RangeBoundaryIsMutationObserved
+:
+:
+No
 )
 ;
 }
