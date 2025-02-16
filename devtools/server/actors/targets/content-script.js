@@ -585,6 +585,11 @@ addonId
 this
 .
 addonId
+targetType
+:
+this
+.
+targetType
 title
 :
 policy

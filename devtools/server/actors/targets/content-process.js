@@ -875,6 +875,11 @@ actor
 this
 .
 actorID
+targetType
+:
+this
+.
+targetType
 isXpcShellTarget
 :
 this

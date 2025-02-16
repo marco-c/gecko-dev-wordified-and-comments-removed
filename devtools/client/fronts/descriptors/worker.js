@@ -496,6 +496,16 @@ workerTargetForm
 .
 tracerActor
 ;
+this
+.
+targetForm
+.
+targetType
+=
+workerTargetForm
+.
+targetType
+;
 if
 (
 this
