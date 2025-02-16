@@ -17989,7 +17989,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 const
 nsINode
@@ -18821,7 +18821,7 @@ HasOffset
 )
 {
 return
-ComparePoints
+ComparePointsWithIndices
 (
 aBoundary1
 .

@@ -8815,7 +8815,7 @@ doctype
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 startContainer
 startOffset
@@ -8830,7 +8830,7 @@ doctype
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 doctype
 0

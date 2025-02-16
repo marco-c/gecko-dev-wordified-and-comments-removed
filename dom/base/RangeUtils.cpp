@@ -911,7 +911,7 @@ order
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 aEndBoundary
 .

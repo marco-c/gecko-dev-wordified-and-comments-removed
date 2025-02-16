@@ -8055,7 +8055,7 @@ e1s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eStart
 -
@@ -8076,7 +8076,7 @@ e2s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eEnd
 -
@@ -8921,7 +8921,7 @@ e1s2
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eStart
 -
@@ -8950,7 +8950,7 @@ e2s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eEnd
 -
@@ -9043,7 +9043,7 @@ e1s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eStart
 -
@@ -9077,7 +9077,7 @@ e2s2
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 eEnd
 -
