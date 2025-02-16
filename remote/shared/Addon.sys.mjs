@@ -581,12 +581,12 @@ lazy
 .
 error
 .
-UnknownError
+InvalidWebExtensionError
 (
 Could
 not
 install
-add
+Add
 -
 on
 :
@@ -595,7 +595,6 @@ e
 .
 message
 }
-e
 )
 ;
 }
