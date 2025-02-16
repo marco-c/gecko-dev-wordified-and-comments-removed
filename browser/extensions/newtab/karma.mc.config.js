@@ -1214,6 +1214,11 @@ __dirname
 .
 .
 /
+.
+.
+/
+components
+/
 asrouter
 /
 modules
@@ -1246,6 +1251,11 @@ __dirname
 "
 .
 .
+/
+.
+.
+/
+components
 /
 topsites
 /

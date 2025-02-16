@@ -2931,7 +2931,7 @@ browser
 /
 browser
 /
-components
+extensions
 /
 newtab
 /
