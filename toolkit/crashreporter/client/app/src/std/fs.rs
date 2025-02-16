@@ -2178,13 +2178,15 @@ move
 d
 |
 {
+if
+!
 d
 .
-remove
+contains_key
 (
 name
 )
-;
+{
 d
 .
 insert
@@ -2232,6 +2234,7 @@ now
 }
 )
 ;
+}
 }
 )
 }
