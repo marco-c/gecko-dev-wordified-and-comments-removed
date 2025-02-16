@@ -441,15 +441,6 @@ this
 )
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-aWebTransport
-|
-|
-aIsHttp3
-)
-;
 mUsername
 =
 username
