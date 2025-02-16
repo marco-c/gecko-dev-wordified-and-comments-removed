@@ -815,13 +815,6 @@ enabled
 :
 false
 "
-quicksuggest
-.
-shouldShowOnboardingDialog
-"
-:
-false
-"
 suggest
 .
 quicksuggest
@@ -856,13 +849,6 @@ quicksuggest
 dataCollection
 .
 enabled
-"
-:
-false
-"
-quicksuggest
-.
-shouldShowOnboardingDialog
 "
 :
 false
