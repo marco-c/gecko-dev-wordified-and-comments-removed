@@ -118,7 +118,7 @@ mozilla
 /
 dom
 /
-WebAuthnManager
+WebAuthnHandler
 .
 h
 "
@@ -587,9 +587,9 @@ nullptr
 }
 RefPtr
 <
-WebAuthnManager
+WebAuthnHandler
 >
-manager
+handler
 =
 window
 -
@@ -604,12 +604,12 @@ Credentials
 )
 -
 >
-GetWebAuthnManager
+GetWebAuthnHandler
 (
 )
 ;
 return
-manager
+handler
 -
 >
 IsUVPAA

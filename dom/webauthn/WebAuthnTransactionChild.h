@@ -22,7 +22,7 @@ mozilla
 dom
 {
 class
-WebAuthnManager
+WebAuthnHandler
 ;
 class
 WebAuthnTransactionChild
@@ -54,9 +54,9 @@ why
 override
 ;
 void
-SetManager
+SetHandler
 (
-WebAuthnManager
+WebAuthnHandler
 *
 aMananger
 )
@@ -70,9 +70,9 @@ WebAuthnTransactionChild
 =
 default
 ;
-WebAuthnManager
+WebAuthnHandler
 *
-mManager
+mHandler
 ;
 }
 ;

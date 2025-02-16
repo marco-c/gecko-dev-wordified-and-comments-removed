@@ -22,7 +22,7 @@ mozilla
 dom
 {
 class
-WebAuthnManager
+WebAuthnHandler
 ;
 class
 CredentialsContainer
@@ -61,9 +61,9 @@ mParent
 }
 already_AddRefed
 <
-WebAuthnManager
+WebAuthnHandler
 >
-GetWebAuthnManager
+GetWebAuthnHandler
 (
 )
 ;
@@ -151,7 +151,7 @@ CredentialsContainer
 )
 ;
 void
-EnsureWebAuthnManager
+EnsureWebAuthnHandler
 (
 )
 ;
@@ -163,9 +163,9 @@ mParent
 ;
 RefPtr
 <
-WebAuthnManager
+WebAuthnHandler
 >
-mManager
+mWebAuthnHandler
 ;
 bool
 mActiveIdentityRequest

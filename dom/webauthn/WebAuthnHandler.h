@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_WebAuthnManager_h
+mozilla_dom_WebAuthnHandler_h
 #
 define
-mozilla_dom_WebAuthnManager_h
+mozilla_dom_WebAuthnHandler_h
 #
 include
 "
@@ -171,7 +171,7 @@ mSignHolder
 }
 ;
 class
-WebAuthnManager
+WebAuthnHandler
 final
 :
 public
@@ -182,10 +182,10 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-WebAuthnManager
+WebAuthnHandler
 )
 explicit
-WebAuthnManager
+WebAuthnHandler
 (
 nsPIDOMWindowInner
 *
@@ -307,7 +307,7 @@ private
 :
 virtual
 ~
-WebAuthnManager
+WebAuthnHandler
 (
 )
 ;
