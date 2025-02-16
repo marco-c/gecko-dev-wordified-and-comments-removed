@@ -1136,7 +1136,7 @@ prettySource
 export
 async
 function
-prettyPrintSource
+doPrettyPrintSource
 (
 source
 thunkArgs
@@ -1249,13 +1249,14 @@ return
 newPrettySource
 ;
 }
+export
 const
-memoizedPrettyPrintSource
+prettyPrintSource
 =
 memoizeableAction
 (
 "
-setSymbols
+prettyPrintSource
 "
 {
 getValue
@@ -1338,7 +1339,7 @@ thunkArgs
 )
 =
 >
-prettyPrintSource
+doPrettyPrintSource
 (
 source
 thunkArgs
@@ -1369,7 +1370,7 @@ prettySource
 await
 dispatch
 (
-memoizedPrettyPrintSource
+prettyPrintSource
 (
 source
 )
