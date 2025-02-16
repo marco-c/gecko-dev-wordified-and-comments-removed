@@ -550,6 +550,12 @@ true
 ;
 SET_DEFAULT
 (
+baselineBatching
+false
+)
+;
+SET_DEFAULT
+(
 forceInlineCaches
 false
 )
@@ -650,6 +656,12 @@ SET_DEFAULT
 (
 baselineJitWarmUpThreshold
 100
+)
+;
+SET_DEFAULT
+(
+baselineQueueCapacity
+8
 )
 ;
 SET_DEFAULT
