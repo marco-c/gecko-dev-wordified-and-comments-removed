@@ -539,6 +539,9 @@ assert_eq
 !
 (
 expected_loop_count
+std
+:
+:
 i64
 :
 :
@@ -731,6 +734,9 @@ loop_forever
 .
 avif
 "
+std
+:
+:
 i64
 :
 :
