@@ -853,7 +853,6 @@ mArgsType
 Atomic
 <
 bool
-Relaxed
 >
 mActorDying
 {
