@@ -35,6 +35,15 @@ config_disable_fxscreenshots
 json
 '
 "
+"
+extensions
+.
+screenshots
+.
+disabled
+=
+false
+"
 ]
 support
 -

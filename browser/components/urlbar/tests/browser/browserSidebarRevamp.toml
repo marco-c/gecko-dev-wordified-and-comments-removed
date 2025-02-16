@@ -121,6 +121,15 @@ featureGate
 false
 "
 "
+extensions
+.
+screenshots
+.
+disabled
+=
+false
+"
+"
 screenshots
 .
 browser

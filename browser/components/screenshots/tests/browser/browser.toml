@@ -100,6 +100,15 @@ prefs
 =
 [
 "
+extensions
+.
+screenshots
+.
+disabled
+=
+false
+"
+"
 screenshots
 .
 browser
