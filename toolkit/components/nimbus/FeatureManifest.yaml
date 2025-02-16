@@ -3193,8 +3193,6 @@ enum
 history
 -
 offline
--
-online
 quickSuggestScoreMap
 :
 type
