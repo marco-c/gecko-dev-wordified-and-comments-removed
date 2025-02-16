@@ -321,6 +321,13 @@ SSLHandshakeError
 )
 >
 handshake_error
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 {
 return
@@ -346,6 +353,7 @@ move
 (
 handshake_error
 )
+field_trials
 )
 ;
 }
