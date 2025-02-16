@@ -64,6 +64,7 @@ index
 BrowserUsageTelemetry
 FrontendCodeReviewBestPractices
 CommandLineParameters
+BrowserStartup
 components
 /
 customizableui
