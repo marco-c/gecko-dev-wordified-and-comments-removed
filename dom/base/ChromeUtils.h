@@ -1483,6 +1483,9 @@ const
 nsACString
 &
 aName
+ErrorResult
+&
+aRv
 )
 ;
 static
@@ -1518,6 +1521,9 @@ const
 nsACString
 &
 aName
+ErrorResult
+&
+aRv
 )
 ;
 static

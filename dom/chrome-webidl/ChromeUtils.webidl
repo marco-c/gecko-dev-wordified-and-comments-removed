@@ -4120,6 +4120,7 @@ aOptions
 ;
 [
 ChromeOnly
+Throws
 ]
 undefined
 unregisterWindowActor
@@ -4192,6 +4193,7 @@ aOptions
 ;
 [
 ChromeOnly
+Throws
 ]
 undefined
 unregisterProcessActor
