@@ -7314,7 +7314,6 @@ getFetchPriorityEnabled
 )
 ;
 method
-Nullable
 public
 boolean
 getFingerprintingProtection
@@ -7330,7 +7329,6 @@ getFingerprintingProtectionOverrides
 )
 ;
 method
-Nullable
 public
 boolean
 getFingerprintingProtectionPrivateBrowsing
