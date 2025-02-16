@@ -3587,6 +3587,13 @@ deps
 "
 api
 /
+audio
+:
+builtin_audio_processing_builder
+"
+"
+api
+/
 environment
 :
 environment_factory
