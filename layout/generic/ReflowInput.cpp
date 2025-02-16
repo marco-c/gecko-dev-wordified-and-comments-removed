@@ -3994,7 +3994,8 @@ bool
 inlineStartIsAuto
 =
 inlineStart
-.
+-
+>
 IsAuto
 (
 )
@@ -4003,7 +4004,8 @@ bool
 inlineEndIsAuto
 =
 inlineEnd
-.
+-
+>
 IsAuto
 (
 )
@@ -4060,7 +4062,8 @@ aWM
 )
 =
 inlineEnd
-.
+-
+>
 IsAuto
 (
 )
@@ -4079,7 +4082,8 @@ ISize
 aWM
 )
 inlineEnd
-.
+-
+>
 AsLengthPercentage
 (
 )
@@ -4133,7 +4137,8 @@ ISize
 aWM
 )
 inlineStart
-.
+-
+>
 AsLengthPercentage
 (
 )
@@ -4195,7 +4200,8 @@ bool
 blockStartIsAuto
 =
 blockStart
-.
+-
+>
 IsAuto
 (
 )
@@ -4204,7 +4210,8 @@ bool
 blockEndIsAuto
 =
 blockEnd
-.
+-
+>
 IsAuto
 (
 )
@@ -4225,7 +4232,8 @@ aWM
 if
 (
 blockStart
-.
+-
+>
 HasPercent
 (
 )
@@ -4239,7 +4247,8 @@ true
 if
 (
 blockEnd
-.
+-
+>
 HasPercent
 (
 )
@@ -4303,7 +4312,8 @@ aWM
 )
 =
 blockEnd
-.
+-
+>
 IsAuto
 (
 )
@@ -4322,7 +4332,8 @@ BSize
 aWM
 )
 blockEnd
-.
+-
+>
 AsLengthPercentage
 (
 )
@@ -4376,7 +4387,8 @@ BSize
 aWM
 )
 blockStart
-.
+-
+>
 AsLengthPercentage
 (
 )
@@ -7296,7 +7308,8 @@ bool
 iStartIsAuto
 =
 iStartOffset
-.
+-
+>
 IsAuto
 (
 )
@@ -7305,7 +7318,8 @@ bool
 iEndIsAuto
 =
 iEndOffset
-.
+-
+>
 IsAuto
 (
 )
@@ -7314,7 +7328,8 @@ bool
 bStartIsAuto
 =
 bStartOffset
-.
+-
+>
 IsAuto
 (
 )
@@ -7323,7 +7338,8 @@ bool
 bEndIsAuto
 =
 bEndOffset
-.
+-
+>
 IsAuto
 (
 )
