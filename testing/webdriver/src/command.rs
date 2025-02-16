@@ -5050,9 +5050,7 @@ from
 i32
 :
 :
-min_value
-(
-)
+MIN
 )
 |
 |
@@ -5066,9 +5064,7 @@ from
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 {
 return
@@ -5206,9 +5202,7 @@ from
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 {
 return

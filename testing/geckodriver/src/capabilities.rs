@@ -773,16 +773,12 @@ binary
 }
 }
 impl
-<
-'
-a
->
 BrowserCapabilities
 for
 FirefoxCapabilities
 <
 '
-a
+_
 >
 {
 fn

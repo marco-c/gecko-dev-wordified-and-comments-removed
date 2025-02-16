@@ -3167,7 +3167,6 @@ buf
 .
 push
 (
-&
 package
 )
 ;
@@ -3268,7 +3267,6 @@ buf
 .
 push
 (
-&
 package
 )
 ;
