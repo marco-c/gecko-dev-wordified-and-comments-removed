@@ -822,9 +822,12 @@ config
 (
 )
 const
-=
-0
+{
+RTC_CHECK_NOTREACHED
+(
+)
 ;
+}
 virtual
 void
 MaybeStartGathering
