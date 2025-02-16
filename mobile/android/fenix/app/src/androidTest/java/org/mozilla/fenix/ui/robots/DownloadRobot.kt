@@ -151,6 +151,18 @@ ui
 .
 test
 .
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
+compose
+.
+ui
+.
+test
+.
 longClick
 import
 androidx
@@ -1406,7 +1418,7 @@ clickDownloadedItem
 (
 testRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 fileName
 :
 String

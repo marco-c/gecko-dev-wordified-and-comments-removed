@@ -205,7 +205,7 @@ helpers
 .
 MatcherHelper
 .
-itemWithResIdAndText
+itemWithResIdContainingText
 import
 org
 .
@@ -1193,7 +1193,7 @@ title
 String
 )
 =
-itemWithResIdAndText
+itemWithResIdContainingText
 (
 "
 packageName
