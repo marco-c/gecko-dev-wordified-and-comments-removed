@@ -6833,10 +6833,7 @@ defined
 (
 MOZ_SANDBOX
 )
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 SandboxBroker
 >
