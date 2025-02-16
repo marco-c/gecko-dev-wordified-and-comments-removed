@@ -66,9 +66,6 @@ false
 nsString
 mOrigin
 ;
-nsString
-mBaseDomain
-;
 PRTime
 mTimeStamp
 =
@@ -135,10 +132,6 @@ const
 nsAString
 &
 aOrigin
-const
-nsAString
-&
-aBaseDomain
 )
 ;
 void
@@ -178,10 +171,6 @@ const
 nsAString
 &
 aOrigin
-const
-nsAString
-&
-aBaseDomain
 )
 ;
 nsresult
@@ -196,10 +185,6 @@ const
 nsAString
 &
 aOrigin
-const
-nsAString
-&
-aBaseDomain
 )
 ;
 nsresult
@@ -219,10 +204,6 @@ const
 nsAString
 &
 aOrigin
-const
-nsAString
-&
-aBaseDomain
 nsIFile
 *
 *
