@@ -162,17 +162,6 @@ MediaDevices
 :
 EventTarget
 {
-[
-Pref
-=
-"
-media
-.
-ondevicechange
-.
-enabled
-"
-]
 attribute
 EventHandler
 ondevicechange
