@@ -450,6 +450,12 @@ aListType
 in
 nsIUrlClassifierFeatureCallback
 aCallback
+[
+optional
+]
+in
+boolean
+aIdlePriority
 )
 ;
 /

@@ -813,6 +813,7 @@ nsIUrlClassifierFeature
 :
 blocklist
 this
+false
 )
 ;
 NS_ENSURE_SUCCESS_VOID
