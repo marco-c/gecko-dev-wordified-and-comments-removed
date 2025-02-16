@@ -18323,7 +18323,7 @@ ToFloatRegister
 ins
 -
 >
-lhsDest
+lhs
 (
 )
 )
@@ -18349,9 +18349,8 @@ ToTempFloatRegisterOrInvalid
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 ;
@@ -18374,6 +18373,11 @@ lhsDest
 switch
 (
 ins
+-
+>
+mir
+(
+)
 -
 >
 simdOp
