@@ -4896,9 +4896,6 @@ Codec
 >
 send_codecs_
 ;
-bool
-fail_create_channel_
-;
 std
 :
 :
@@ -5191,9 +5188,6 @@ capture_
 VideoOptions
 options_
 ;
-bool
-fail_create_channel_
-;
 std
 :
 :
@@ -5288,13 +5282,6 @@ Codec
 >
 &
 codecs
-)
-;
-void
-set_fail_create_channel
-(
-bool
-fail
 )
 ;
 FakeVoiceEngine

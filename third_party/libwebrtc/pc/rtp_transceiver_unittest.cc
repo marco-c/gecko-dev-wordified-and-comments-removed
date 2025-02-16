@@ -614,6 +614,17 @@ ClearChannel
 (
 )
 ;
+ASSERT_EQ
+(
+nullptr
+transceiver
+-
+>
+channel
+(
+)
+)
+;
 transceiver
 -
 >
