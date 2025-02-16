@@ -109,12 +109,6 @@ continues
 to
 support
 theme
-and
-/
-/
-wallpaper
-pickers
-.
 export
 const
 SingleSelect
