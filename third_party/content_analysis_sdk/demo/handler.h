@@ -931,7 +931,7 @@ delay
 <
 <
 "
-s
+ms
 "
 <
 <
@@ -966,7 +966,7 @@ std
 chrono
 :
 :
-seconds
+milliseconds
 (
 delay
 )
@@ -3814,7 +3814,7 @@ size
 <
 <
 "
-s
+ms
 "
 <
 <
