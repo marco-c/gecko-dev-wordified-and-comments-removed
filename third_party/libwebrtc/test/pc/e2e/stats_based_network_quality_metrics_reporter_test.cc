@@ -321,6 +321,9 @@ fixture
 AudioConfig
 audio
 {
+.
+stream_label
+=
 std
 :
 :
@@ -328,9 +331,6 @@ string
 (
 audio_stream_label
 )
-}
-;
-audio
 .
 sync_group
 =
@@ -341,6 +341,7 @@ string
 (
 peer_name
 )
+}
 ;
 VideoConfig
 video
