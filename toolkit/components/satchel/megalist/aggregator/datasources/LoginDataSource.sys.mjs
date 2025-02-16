@@ -2951,6 +2951,11 @@ l10nArgs
 {
 total
 }
+viewMode
+:
+VIEW_MODES
+.
+LIST
 }
 )
 ;
