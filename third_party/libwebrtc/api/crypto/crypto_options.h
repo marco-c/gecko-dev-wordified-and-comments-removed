@@ -107,7 +107,7 @@ true
 bool
 enable_encrypted_rtp_header_extensions
 =
-false
+true
 ;
 }
 srtp
