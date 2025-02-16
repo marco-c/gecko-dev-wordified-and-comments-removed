@@ -1161,6 +1161,15 @@ const
 "
     
 "
+MOZ_CrashSequence
+(
+void
+*
+long
+)
+"
+    
+"
 <
 alloc
 :
