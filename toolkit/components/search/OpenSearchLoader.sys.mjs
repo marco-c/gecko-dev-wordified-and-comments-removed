@@ -895,7 +895,6 @@ Components
 .
 Exception
 (
-sourceURI
 "
 Must
 have

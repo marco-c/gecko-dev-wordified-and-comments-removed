@@ -2805,9 +2805,6 @@ app
 config
 .
 identifier
-isAppProvided
-:
-true
 id
 :
 config
@@ -4699,11 +4696,6 @@ submissionURL
 {
 newValue
 =
-this
-.
-submissionURL
-?
-?
 this
 .
 getSubmission

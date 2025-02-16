@@ -811,6 +811,8 @@ getSubmission
 "
 "
 this
+.
+queryCharset
 )
 .
 uri
@@ -1107,14 +1109,6 @@ trim
 ;
 if
 (
-!
-this
-.
-_engineToUpdate
-)
-{
-if
-(
 Services
 .
 search
@@ -1143,7 +1137,6 @@ nsISearchService
 ERROR_DUPLICATE_ENGINE
 )
 ;
-}
 }
 this
 .
