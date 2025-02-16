@@ -4554,14 +4554,9 @@ scriptSecurityManager
 .
 createContentPrincipal
 (
-Services
-.
-io
-.
-newURI
-(
 url
-)
+.
+URI
 {
 }
 )
