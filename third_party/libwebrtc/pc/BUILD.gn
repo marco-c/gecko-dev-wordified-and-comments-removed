@@ -12622,6 +12622,14 @@ mock_recordable_encoded_frame
 /
 call
 :
+fake_payload_type_suggester
+"
+"
+.
+.
+/
+call
+:
 payload_type_picker
 "
 "
