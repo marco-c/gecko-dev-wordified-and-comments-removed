@@ -56,6 +56,17 @@ runtimeobject
 "
 )
 ]
+#
+[
+link
+(
+name
+=
+"
+propsys
+"
+)
+]
 extern
 "
 C
