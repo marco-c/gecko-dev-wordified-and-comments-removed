@@ -347,6 +347,13 @@ BindgenContext
 bool
 ;
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 (
 crate
