@@ -2061,6 +2061,13 @@ js
 ]
 [
 "
+browser_markup_search_html
+.
+js
+"
+]
+[
+"
 browser_markup_shadowdom
 .
 js
