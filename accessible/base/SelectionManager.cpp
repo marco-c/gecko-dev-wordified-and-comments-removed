@@ -1115,6 +1115,15 @@ SelectionType
 :
 :
 eTargetText
+&
+&
+aType
+!
+=
+SelectionType
+:
+:
+eHighlight
 )
 {
 return
