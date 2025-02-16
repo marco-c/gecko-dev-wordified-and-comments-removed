@@ -29,10 +29,10 @@ pngwutil
 .
 c
 -
-336
+353
 8
 +
-336
+353
 10
 png_deflate_claim
 (
@@ -87,10 +87,10 @@ strategy
 PNG_Z_DEFAULT_NOFILTER_STRATEGY
 ;
 -
-823
+840
 12
 +
-825
+842
 16
 png_write_IHDR
 (
