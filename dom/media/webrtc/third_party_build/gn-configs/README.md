@@ -83,11 +83,7 @@ tree
 /
 mach
 python
-python
-/
-mozbuild
-/
-mozbuild
+build
 /
 gn_processor
 .
@@ -134,11 +130,7 @@ main
 function
 in
 the
-python
-/
-mozbuild
-/
-mozbuild
+build
 /
 gn_processor
 .

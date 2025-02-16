@@ -2142,11 +2142,7 @@ files
 /
 mach
 python
-python
-/
-mozbuild
-/
-mozbuild
+build
 /
 gn_processor
 .
