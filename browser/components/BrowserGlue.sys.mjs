@@ -11875,14 +11875,6 @@ init
 (
 )
 ;
-lazy
-.
-UrlbarPrefs
-.
-updateFirefoxSuggestScenario
-(
-)
-;
 /
 /
 A
