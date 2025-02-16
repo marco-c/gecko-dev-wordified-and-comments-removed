@@ -417,7 +417,7 @@ style
 '
 position
 :
-relative
+fixed
 ;
 top
 :
@@ -460,9 +460,13 @@ setAttribute
 style
 '
 '
+inset
+:
+auto
+;
 top
 :
-200px
+100px
 ;
 '
 )
@@ -537,11 +541,11 @@ ms
 ;
 position
 :
-relative
+fixed
 ;
 top
 :
-100px
+200px
 ;
 width
 :
