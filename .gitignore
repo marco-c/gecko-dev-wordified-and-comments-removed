@@ -384,15 +384,15 @@ browser
 /
 components
 /
-aboutwelcome
+newtab
 /
 node_modules
 /
 browser
 /
-extensions
+components
 /
-newtab
+aboutwelcome
 /
 node_modules
 /
@@ -420,7 +420,7 @@ build
 assets
 browser
 /
-extensions
+components
 /
 newtab
 /

@@ -86,7 +86,7 @@ formautofill
 docs
 /
 index
-extensions
+components
 /
 newtab
 /

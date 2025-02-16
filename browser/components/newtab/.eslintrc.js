@@ -775,14 +775,6 @@ var
 "
 error
 "
-complexity
-:
-[
-"
-error
-"
-61
-]
 "
 consistent
 -

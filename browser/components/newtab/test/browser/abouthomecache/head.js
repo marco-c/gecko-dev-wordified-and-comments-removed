@@ -219,7 +219,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /

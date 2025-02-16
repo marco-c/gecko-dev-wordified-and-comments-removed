@@ -520,7 +520,7 @@ asrouter
 "
 browser
 /
-extensions
+components
 /
 newtab
 /

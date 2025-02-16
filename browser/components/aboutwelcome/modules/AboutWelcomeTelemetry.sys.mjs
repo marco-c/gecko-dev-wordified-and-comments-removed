@@ -599,7 +599,7 @@ org
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
