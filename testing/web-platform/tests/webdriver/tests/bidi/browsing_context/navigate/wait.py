@@ -180,15 +180,6 @@ url
 =
 url
     
-if
-value
-!
-=
-"
-none
-"
-:
-        
 contexts
 =
 await
@@ -198,7 +189,7 @@ browsing_context
 .
 get_tree
 (
-            
+        
 root
 =
 new_tab
@@ -210,9 +201,8 @@ context
 max_depth
 =
 0
-        
 )
-        
+    
 assert
 contexts
 [
@@ -337,10 +327,10 @@ expect_timeout
     
 if
 wait
-=
+!
 =
 "
-interactive
+complete
 "
 :
         
