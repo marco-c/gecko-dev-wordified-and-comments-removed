@@ -13,11 +13,6 @@ arm64
 simulator
 "
 "
-mips32
--
-simulator
-"
-"
 mips64
 -
 simulator

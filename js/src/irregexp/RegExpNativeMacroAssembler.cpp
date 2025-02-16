@@ -7470,12 +7470,6 @@ HasAlignmentFault
 elif
 defined
 (
-JS_CODEGEN_MIPS32
-)
-|
-|
-defined
-(
 JS_CODEGEN_MIPS64
 )
 return

@@ -764,15 +764,6 @@ return
 elif
 defined
 (
-JS_CODEGEN_MIPS32
-)
-return
-8
-;
-#
-elif
-defined
-(
 JS_CODEGEN_MIPS64
 )
 return

@@ -32,16 +32,6 @@ simulator
 getBuildConfiguration
 (
 "
-mips32
--
-simulator
-"
-)
-|
-|
-getBuildConfiguration
-(
-"
 mips64
 -
 simulator
