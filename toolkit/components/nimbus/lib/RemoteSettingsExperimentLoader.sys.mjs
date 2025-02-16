@@ -1426,6 +1426,7 @@ trigger
 "
 "
 }
+"
 )
 ;
 const
@@ -3465,7 +3466,7 @@ recipe
 {
 recipe
 .
-id
+slug
 }
 :
 {
@@ -3627,7 +3628,7 @@ debug
 {
 recipe
 .
-id
+slug
 }
 uses
 feature
@@ -3725,7 +3726,7 @@ type
 {
 recipe
 .
-id
+slug
 }
 matched
 targeting
@@ -3743,7 +3744,7 @@ debug
 {
 recipe
 .
-id
+slug
 }
 did
 not
@@ -3853,7 +3854,7 @@ debug
 {
 recipe
 .
-id
+slug
 }
 is
 localized
@@ -3975,7 +3976,7 @@ debug
 {
 recipe
 .
-id
+slug
 }
 did
 not
@@ -4245,16 +4246,19 @@ log
 .
 debug
 (
-"
 No
 targeting
 for
 recipe
+{
+recipe
+.
+slug
+}
 so
 it
 matches
 automatically
-"
 )
 ;
 return

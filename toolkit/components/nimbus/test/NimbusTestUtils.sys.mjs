@@ -2234,13 +2234,7 @@ remote
 settings
 id
 :
-lazy
-.
-NormandyUtils
-.
-generateUuid
-(
-)
+slug
 schemaVersion
 :
 "
@@ -2353,6 +2347,11 @@ featureId
 testFeature
 "
 ]
+targeting
+:
+"
+true
+"
 .
 .
 .
