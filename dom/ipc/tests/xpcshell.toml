@@ -119,13 +119,6 @@ x86_64
 ]
 [
 "
-test_headless_content_process
-.
-js
-"
-]
-[
-"
 test_sharedMap
 .
 js
