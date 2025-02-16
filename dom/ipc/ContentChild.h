@@ -2701,12 +2701,9 @@ IPCResult
 RecvBlobURLUnregistration
 (
 const
-nsTArray
-<
 nsCString
->
 &
-aURIs
+aURI
 )
 ;
 mozilla
