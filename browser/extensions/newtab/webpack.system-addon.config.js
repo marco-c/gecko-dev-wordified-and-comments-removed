@@ -152,9 +152,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 "
 )

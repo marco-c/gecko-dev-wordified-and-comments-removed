@@ -1939,9 +1939,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 "
 :
@@ -1960,9 +1958,7 @@ browser
 /
 res
 /
-activity
--
-stream
+newtab
 "
                 
 ]
@@ -2129,9 +2125,7 @@ browser
 /
 res
 /
-activity
--
-stream
+newtab
 /
 lib
 /
@@ -2623,9 +2617,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 lib
 /
@@ -2863,9 +2855,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 lib
 /

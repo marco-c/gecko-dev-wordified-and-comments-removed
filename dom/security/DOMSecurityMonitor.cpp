@@ -249,9 +249,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 data
 /

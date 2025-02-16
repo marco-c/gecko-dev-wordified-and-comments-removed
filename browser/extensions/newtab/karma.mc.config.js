@@ -1201,9 +1201,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 "
 )

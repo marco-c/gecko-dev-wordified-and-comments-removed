@@ -1608,9 +1608,7 @@ chrome
 :
 /
 /
-activity
--
-stream
+newtab
 /
 content
 /
@@ -1687,9 +1685,7 @@ chrome
 :
 /
 /
-activity
--
-stream
+newtab
 /
 content
 /

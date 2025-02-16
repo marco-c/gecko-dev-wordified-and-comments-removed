@@ -4619,9 +4619,7 @@ browser
 /
 res
 /
-activity
--
-stream
+newtab
 /
 "
 "
