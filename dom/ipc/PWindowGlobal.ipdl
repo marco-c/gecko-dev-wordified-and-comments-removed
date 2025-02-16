@@ -77,6 +77,10 @@ protocol
 PBrowserBridge
 ;
 include
+protocol
+PWebAuthnTransaction
+;
+include
 DOMTypes
 ;
 include
@@ -416,6 +420,9 @@ manager
 PBrowser
 or
 PInProcess
+;
+manages
+PWebAuthnTransaction
 ;
 child
 :
@@ -867,6 +874,11 @@ OnInitialStorageAccess
 ;
 async
 RecordUserActivationForBTP
+(
+)
+;
+async
+PWebAuthnTransaction
 (
 )
 ;

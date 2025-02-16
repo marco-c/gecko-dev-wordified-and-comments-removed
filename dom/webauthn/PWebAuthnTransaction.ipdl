@@ -180,7 +180,7 @@ tab
 /
 include
 protocol
-PBackground
+PWindowGlobal
 ;
 using
 mozilla
@@ -574,15 +574,12 @@ AuthenticatorAttachment
 ;
 }
 ;
-[
-ManualDealloc
-]
 async
 protocol
 PWebAuthnTransaction
 {
 manager
-PBackground
+PWindowGlobal
 ;
 parent
 :
@@ -622,11 +619,6 @@ RequestCancel
 (
 uint64_t
 aTransactionId
-)
-;
-async
-DestroyMe
-(
 )
 ;
 child
