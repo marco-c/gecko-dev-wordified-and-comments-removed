@@ -2088,6 +2088,9 @@ Length
 )
 }
 ;
+AutoSearchingForClientAuthCertificates
+_
+;
 UniqueCERTCertificate
 cert
 (
