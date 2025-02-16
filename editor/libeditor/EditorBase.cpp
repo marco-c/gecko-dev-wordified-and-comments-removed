@@ -16267,9 +16267,6 @@ EditorBase
 :
 InsertTextWithTransaction
 (
-Document
-&
-aDocument
 const
 nsAString
 &
