@@ -5048,6 +5048,9 @@ width
 =
 MULT16_16_Q15
 (
+MIN16
+(
+Q15ONE
 celt_sqrt
 (
 QCONST32
@@ -5062,6 +5065,7 @@ MULT16_16
 (
 corr
 corr
+)
 )
 )
 ldiff

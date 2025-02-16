@@ -943,11 +943,13 @@ a
 )
 _mm256_set1_epi32
 (
-silk_LSHIFT
 (
-b
-16
+opus_uint32
 )
+b
+<
+<
+16
 )
 )
 )

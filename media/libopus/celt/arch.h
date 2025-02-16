@@ -821,7 +821,7 @@ SIG_SHIFT
 define
 SIG_SAT
 (
-300000000
+536870911
 )
 #
 define
