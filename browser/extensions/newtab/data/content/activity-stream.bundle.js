@@ -13260,6 +13260,7 @@ props
 pocket_button_enabled
 &
 &
+(
 this
 .
 props
@@ -13272,6 +13273,7 @@ this
 props
 .
 isSectionsCard
+)
 )
 {
 pocketMenuOptions

@@ -186,7 +186,6 @@ cards
 .
 if
 (
-(
 this
 .
 props
@@ -194,12 +193,12 @@ props
 pocket_button_enabled
 &
 &
+(
 this
 .
 props
 .
 saveToPocketCard
-)
 |
 |
 this
@@ -207,6 +206,7 @@ this
 props
 .
 isSectionsCard
+)
 )
 {
 pocketMenuOptions
