@@ -390,7 +390,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsWebSocket
+aIsExtendedCONNECT
 =
 false
 )

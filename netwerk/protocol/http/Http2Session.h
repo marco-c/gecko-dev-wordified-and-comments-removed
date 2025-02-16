@@ -134,6 +134,17 @@ Tunnel
 ServerPush
 }
 ;
+enum
+class
+ExtendedCONNECTType
+:
+uint8_t
+{
+Proxy
+WebSocket
+WebTransport
+}
+;
 #
 define
 NS_HTTP2SESSION_IID
@@ -1136,7 +1147,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsWebSocket
+aIsExtendedCONNECT
 =
 false
 )
@@ -1177,8 +1188,8 @@ bcId
 nsHttpConnectionInfo
 *
 connInfo
-bool
-isWebSocket
+ExtendedCONNECTType
+aType
 )
 ;
 enum
