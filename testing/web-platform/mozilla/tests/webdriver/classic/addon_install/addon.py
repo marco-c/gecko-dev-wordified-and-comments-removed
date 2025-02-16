@@ -7,8 +7,6 @@ addons
 import
 (
     
-get_base64_for_addon_file
-    
 get_ids_for_installed_addons
     
 is_addon_private_browsing_allowed
@@ -25,8 +23,17 @@ import
 assert_error
 assert_success
 from
+tests
+.
+support
+.
+helpers
+import
+get_base64_for_addon_file
+from
 .
 import
+ADDON_ID
 install_addon
 uninstall_addon
 def
@@ -116,8 +123,8 @@ addon
 get_base64_for_addon_file
 (
 "
-webextension
--
+firefox
+/
 unsigned
 .
 xpi
@@ -171,19 +178,7 @@ assert
 addon_id
 =
 =
-"
-{
-d3e7c1f1
--
-2e35
--
-4a49
--
-89fe
--
-9f46eb8abf0a
-}
-"
+ADDON_ID
             
 assert
 is_addon_temporary_installed
@@ -221,8 +216,8 @@ addon
 get_base64_for_addon_file
 (
 "
-webextension
--
+firefox
+/
 unsigned
 .
 xpi
@@ -258,19 +253,7 @@ assert
 addon_id
 =
 =
-"
-{
-d3e7c1f1
--
-2e35
--
-4a49
--
-89fe
--
-9f46eb8abf0a
-}
-"
+ADDON_ID
         
 assert
 is_addon_temporary_installed
@@ -323,7 +306,9 @@ addon
 get_base64_for_addon_file
 (
 "
-amosigned
+firefox
+/
+signed
 .
 xpi
 "
@@ -358,16 +343,7 @@ assert
 addon_id
 =
 =
-"
-amosigned
--
-xpi
-tests
-.
-mozilla
-.
-org
-"
+ADDON_ID
         
 assert
 is_addon_temporary_installed
@@ -422,7 +398,9 @@ addon
 get_base64_for_addon_file
 (
 "
-amosigned
+firefox
+/
+signed
 .
 xpi
 "
@@ -460,16 +438,7 @@ assert
 addon_id
 =
 =
-"
-amosigned
--
-xpi
-tests
-.
-mozilla
-.
-org
-"
+ADDON_ID
         
 assert
 (
