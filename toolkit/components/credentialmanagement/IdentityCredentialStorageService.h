@@ -252,6 +252,8 @@ aDatabase
 nsIFile
 *
 aFile
+bool
+aRetry
 )
 ;
 static
