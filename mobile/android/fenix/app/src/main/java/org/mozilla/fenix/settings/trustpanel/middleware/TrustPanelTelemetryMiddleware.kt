@@ -286,6 +286,11 @@ TrustPanelAction
 Navigate
 .
 TrackersPanel
+TrustPanelAction
+.
+Navigate
+.
+ConnectionSecurityPanel
 -
 >
 Unit
