@@ -479,14 +479,6 @@ notFunction
 ;
 masm
 .
-movePtr
-(
-callee
-scratch
-)
-;
-masm
-.
 andPtr
 (
 Imm32
@@ -496,6 +488,7 @@ uint32_t
 CalleeTokenMask
 )
 )
+callee
 scratch
 )
 ;
