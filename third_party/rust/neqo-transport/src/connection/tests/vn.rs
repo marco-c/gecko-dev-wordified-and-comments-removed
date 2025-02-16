@@ -2,13 +2,10 @@ use
 std
 :
 :
-{
-mem
 time
 :
 :
 Duration
-}
 ;
 use
 neqo_common
@@ -19,6 +16,8 @@ event
 :
 :
 Provider
+as
+_
 Decoder
 Encoder
 }
@@ -110,9 +109,6 @@ default_client
 (
 )
 ;
-mem
-:
-:
 drop
 (
 client
@@ -151,9 +147,6 @@ MIN_INITIAL_PACKET_SIZE
 0x0
 )
 ;
-mem
-:
-:
 drop
 (
 client
@@ -1621,7 +1614,10 @@ dropped_rx
 1
 )
 ;
-assert_eq
+assert
+!
+(
+matches
 !
 (
 server
@@ -1632,6 +1628,9 @@ stats
 .
 dropped_rx
 1
+|
+2
+)
 )
 ;
 }

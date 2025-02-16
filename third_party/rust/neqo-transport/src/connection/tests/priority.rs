@@ -7,7 +7,6 @@ cell
 :
 :
 RefCell
-mem
 rc
 :
 :
@@ -22,6 +21,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 test_fixture
@@ -1361,9 +1362,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -1711,9 +1709,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -2087,9 +2082,6 @@ unwrap
 (
 )
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -2334,9 +2326,6 @@ unwrap
 (
 )
 ;
-mem
-:
-:
 drop
 (
 server
@@ -2393,9 +2382,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 server

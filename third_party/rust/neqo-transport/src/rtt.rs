@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+module_name_repetitions
+)
+]
 use
 std
 :
@@ -298,11 +309,11 @@ initial
 RTT
 =
 {
+rtt
 :
 ?
 }
 "
-rtt
 )
 ;
 if

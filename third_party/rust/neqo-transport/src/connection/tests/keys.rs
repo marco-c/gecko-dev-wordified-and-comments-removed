@@ -1,10 +1,4 @@
 use
-std
-:
-:
-mem
-;
-use
 neqo_common
 :
 :
@@ -93,9 +87,6 @@ dups
 usize
 )
 {
-mem
-:
-:
 drop
 (
 peer
@@ -880,9 +871,6 @@ Some
 )
 )
 ;
-mem
-:
-:
 drop
 (
 server
@@ -1042,9 +1030,6 @@ now
 =
 AT_LEAST_PTO
 ;
-mem
-:
-:
 drop
 (
 client
@@ -1152,9 +1137,6 @@ Some
 )
 )
 ;
-mem
-:
-:
 drop
 (
 send_something
@@ -1248,9 +1230,6 @@ Some
 )
 )
 ;
-mem
-:
-:
 drop
 (
 server
@@ -1950,9 +1929,6 @@ overwrite_invocations
 UPDATE_WRITE_KEYS_AT
 )
 ;
-mem
-:
-:
 drop
 (
 send_something
@@ -2029,9 +2005,6 @@ UPDATE_WRITE_KEYS_AT
 2
 )
 ;
-mem
-:
-:
 drop
 (
 send_something
@@ -2065,9 +2038,6 @@ Some
 )
 )
 ;
-mem
-:
-:
 drop
 (
 send_something

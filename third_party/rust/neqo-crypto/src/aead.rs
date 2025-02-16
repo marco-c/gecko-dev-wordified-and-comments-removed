@@ -56,7 +56,6 @@ ssl
 :
 :
 {
-self
 PRUint16
 PRUint64
 PRUint8
@@ -331,9 +330,6 @@ ctx
 :
 *
 mut
-ssl
-:
-:
 SSLAeadContext
 =
 null_mut

@@ -846,7 +846,6 @@ cannot
 larger
 than
 7
-.
 "
 )
 ;
@@ -1570,7 +1569,6 @@ read
 in
 this
 state
-.
 "
 )
 ;
@@ -1872,6 +1870,8 @@ Error
 IntReader
 LiteralReader
 ReadByte
+as
+_
 ReceiverBufferWrapper
 Res
 }

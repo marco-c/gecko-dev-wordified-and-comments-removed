@@ -35,6 +35,8 @@ event
 :
 :
 Provider
+as
+_
 hex_with_len
 qtrace
 Datagram
@@ -753,9 +755,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 server
