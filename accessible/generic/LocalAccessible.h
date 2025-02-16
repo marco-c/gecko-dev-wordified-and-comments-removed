@@ -1906,17 +1906,6 @@ already_AddRefed
 <
 nsAtom
 >
-InputType
-(
-)
-const
-override
-;
-virtual
-already_AddRefed
-<
-nsAtom
->
 DisplayStyle
 (
 )
