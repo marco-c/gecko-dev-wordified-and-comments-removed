@@ -244,6 +244,13 @@ case
 unload
 "
 :
+if
+(
+this
+.
+panelMultiView
+)
+{
 this
 .
 #
@@ -251,6 +258,7 @@ removeObservers
 (
 )
 ;
+}
 break
 ;
 case

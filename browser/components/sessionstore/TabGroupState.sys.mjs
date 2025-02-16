@@ -551,6 +551,11 @@ collapsed
 tabGroup
 .
 collapsed
+saveOnWindowClose
+:
+tabGroup
+.
+saveOnWindowClose
 }
 ;
 }

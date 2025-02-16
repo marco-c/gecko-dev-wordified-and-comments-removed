@@ -11615,6 +11615,12 @@ return
 group
 ;
 }
+group
+.
+saveOnWindowClose
+=
+false
+;
 let
 newTabs
 =

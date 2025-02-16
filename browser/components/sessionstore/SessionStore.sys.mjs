@@ -16097,6 +16097,17 @@ closedWinData
 groups
 )
 {
+if
+(
+!
+tabGroupState
+.
+saveOnWindowClose
+)
+{
+continue
+;
+}
 newlySavedTabGroups
 .
 set
