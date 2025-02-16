@@ -10585,6 +10585,12 @@ attribute
 boolean
 hasUAVisualTransition
 ;
+readonly
+attribute
+Element
+?
+sourceElement
+;
 undefined
 intercept
 (

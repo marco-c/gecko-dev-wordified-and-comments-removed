@@ -597,6 +597,14 @@ long
 long
 filteringIdMaxBytes
 ;
+[
+EnforceRange
+]
+unsigned
+long
+long
+maxContributions
+;
 }
 ;
 dictionary
