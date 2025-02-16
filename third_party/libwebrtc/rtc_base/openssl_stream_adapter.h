@@ -517,6 +517,12 @@ EnableTimeCallbackForTesting
 (
 )
 ;
+static
+SSLProtocolVersion
+GetMaxSupportedDTLSProtocolVersion
+(
+)
+;
 private
 :
 enum

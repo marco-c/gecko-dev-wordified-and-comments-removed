@@ -7877,6 +7877,14 @@ metrics
 /
 test
 :
+field_trial
+"
+"
+.
+.
+/
+test
+:
 rtc_expect_death
 "
 "
