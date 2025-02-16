@@ -660,6 +660,14 @@ GetNetworkController
 0
 ;
 virtual
+void
+EnableCongestionControlFeedbackAccordingToRfc8888
+(
+)
+=
+0
+;
+virtual
 int
 ReceivedCongestionControlFeedbackCount
 (

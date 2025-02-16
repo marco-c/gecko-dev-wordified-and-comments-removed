@@ -235,8 +235,10 @@ callback
 )
 ;
 void
-EnableCongestionControlFeedbackAccordingToRfc8888
+ConfigureForRfc8888Feedback
 (
+bool
+send_rtp_packets_as_ect1
 )
 ;
 void
@@ -560,6 +562,15 @@ thread_checker_
 ;
 bool
 use_cc_feedback_according_to_rfc8888_
+RTC_GUARDED_BY
+(
+thread_checker_
+)
+=
+false
+;
+bool
+send_rtp_packets_as_ect1_
 RTC_GUARDED_BY
 (
 thread_checker_
