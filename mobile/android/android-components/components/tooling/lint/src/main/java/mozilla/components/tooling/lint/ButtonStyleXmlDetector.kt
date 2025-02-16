@@ -218,6 +218,12 @@ ResourceXmlDetector
 (
 )
 {
+Suppress
+(
+"
+UndocumentedPublicClass
+"
+)
 companion
 object
 {
