@@ -6707,7 +6707,6 @@ HandleData
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -6766,7 +6765,6 @@ HandleIData
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -7260,7 +7258,6 @@ HandleInit
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -7877,7 +7874,6 @@ HandleInitAck
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9022,7 +9018,6 @@ HandleCookieAck
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9198,7 +9193,6 @@ HandleSack
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9348,7 +9342,6 @@ HandleHeartbeatRequest
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9420,7 +9413,6 @@ HandleHeartbeatAck
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9492,7 +9484,6 @@ HandleAbort
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9638,7 +9629,6 @@ HandleError
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :
@@ -9784,7 +9774,6 @@ HandleReconfig
 const
 CommonHeader
 &
-header
 const
 SctpPacket
 :

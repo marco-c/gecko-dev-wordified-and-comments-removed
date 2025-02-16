@@ -989,7 +989,6 @@ cricket
 :
 PortInterface
 *
-port
 )
 {
 port_
@@ -1198,7 +1197,6 @@ void
 SetNetworkIgnoreMask
 (
 int
-network_ignore_mask
 )
 override
 {

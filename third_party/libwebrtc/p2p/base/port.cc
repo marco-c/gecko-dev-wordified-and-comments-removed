@@ -3948,14 +3948,12 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :
 :
 ReceivedPacket
 &
-packet
 )
 {
 RTC_DCHECK_NOTREACHED

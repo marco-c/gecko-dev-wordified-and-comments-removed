@@ -682,7 +682,6 @@ ArrayView
 const
 uint8_t
 >
-data
 )
 {
 }
@@ -730,7 +729,6 @@ TaskQueueBase
 :
 :
 DelayPrecision
-precision
 )
 {
 return
@@ -957,7 +955,6 @@ void
 OnBufferedAmountLow
 (
 StreamID
-stream_id
 )
 {
 }
@@ -973,7 +970,6 @@ void
 OnLifecycleMessageFullySent
 (
 LifecycleId
-lifecycle_id
 )
 {
 }
@@ -982,9 +978,7 @@ void
 OnLifecycleMessageExpired
 (
 LifecycleId
-lifecycle_id
 bool
-maybe_delivered
 )
 {
 }
@@ -993,7 +987,6 @@ void
 OnLifecycleMessageDelivered
 (
 LifecycleId
-lifecycle_id
 )
 {
 }
@@ -1002,7 +995,6 @@ void
 OnLifecycleEnd
 (
 LifecycleId
-lifecycle_id
 )
 {
 }

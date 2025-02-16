@@ -64,10 +64,8 @@ Socket
 :
 :
 Option
-opt
 int
 *
-value
 )
 {
 return

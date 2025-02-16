@@ -1990,7 +1990,6 @@ BasicIceController
 HandleInitialSelectDampening
 (
 IceSwitchReason
-reason
 const
 Connection
 *
@@ -3532,7 +3531,6 @@ rtc
 :
 AdapterType
 >
-network_preference
 )
 const
 {

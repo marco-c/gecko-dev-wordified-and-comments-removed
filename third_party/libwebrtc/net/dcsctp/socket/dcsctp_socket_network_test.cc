@@ -1280,12 +1280,10 @@ ArrayView
 const
 StreamID
 >
-outgoing_streams
 absl
 :
 :
 string_view
-reason
 )
 override
 {
@@ -1301,7 +1299,6 @@ ArrayView
 const
 StreamID
 >
-outgoing_streams
 )
 override
 {
@@ -1317,7 +1314,6 @@ ArrayView
 const
 StreamID
 >
-incoming_streams
 )
 override
 {
@@ -1333,7 +1329,6 @@ void
 OnBufferedAmountLow
 (
 StreamID
-stream_id
 )
 override
 {

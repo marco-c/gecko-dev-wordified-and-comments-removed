@@ -907,7 +907,6 @@ RetransmissionQueue
 HandlePacketLoss
 (
 UnwrappedTSN
-highest_tsn_acked
 )
 {
 if

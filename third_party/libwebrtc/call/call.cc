@@ -911,7 +911,6 @@ cricket
 :
 Codec
 &
-codec
 )
 override
 {
@@ -2888,9 +2887,7 @@ VideoSendStream
 :
 :
 Config
-config
 VideoEncoderConfig
-encoder_config
 std
 :
 :
@@ -2898,7 +2895,6 @@ unique_ptr
 <
 FecController
 >
-fec_controller
 )
 {
 return

@@ -4854,7 +4854,6 @@ OnPortReady
 (
 PortAllocatorSession
 *
-session
 PortInterface
 *
 port
@@ -5136,7 +5135,6 @@ OnCandidatesReady
 (
 PortAllocatorSession
 *
-session
 const
 std
 :
@@ -5193,7 +5191,6 @@ OnCandidateError
 (
 PortAllocatorSession
 *
-session
 const
 IceCandidateErrorEvent
 &
@@ -5237,7 +5234,6 @@ OnCandidatesAllocationDone
 (
 PortAllocatorSession
 *
-session
 )
 {
 RTC_DCHECK_RUN_ON
@@ -5919,7 +5915,6 @@ OnRoleConflict
 (
 PortInterface
 *
-port
 )
 {
 SignalRoleConflict
@@ -10990,7 +10985,6 @@ OnPortsPruned
 (
 PortAllocatorSession
 *
-session
 const
 std
 :

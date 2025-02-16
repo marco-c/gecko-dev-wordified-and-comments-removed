@@ -1179,7 +1179,6 @@ absl
 :
 :
 string_view
-protocol
 )
 const
 {
@@ -1299,7 +1298,6 @@ Candidate
 &
 remote_candidate
 CandidateOrigin
-origin
 )
 {
 Connection
@@ -1349,14 +1347,12 @@ rtc
 :
 SocketAddress
 &
-addr
 const
 rtc
 :
 :
 PacketOptions
 &
-options
 bool
 payload
 )
@@ -1476,9 +1472,7 @@ Socket
 :
 :
 Option
-opt
 int
-value
 )
 {
 return

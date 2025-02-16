@@ -1691,7 +1691,6 @@ optional
 StunStats
 >
 *
-stats
 )
 override
 {
@@ -1951,7 +1950,6 @@ HandleConnectionDestroyed
 (
 Connection
 *
-conn
 )
 {
 }

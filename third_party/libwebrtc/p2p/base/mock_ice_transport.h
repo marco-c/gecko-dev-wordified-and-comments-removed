@@ -245,7 +245,6 @@ void
 SetIceRole
 (
 IceRole
-role
 )
 override
 {
@@ -256,7 +255,6 @@ SetIceParameters
 const
 IceParameters
 &
-ice_params
 )
 override
 {
@@ -267,7 +265,6 @@ SetRemoteIceParameters
 const
 IceParameters
 &
-ice_params
 )
 override
 {
@@ -276,7 +273,6 @@ void
 SetRemoteIceMode
 (
 IceMode
-mode
 )
 override
 {
@@ -287,7 +283,6 @@ SetIceConfig
 const
 IceConfig
 &
-config
 )
 override
 {
@@ -358,7 +353,6 @@ AddRemoteCandidate
 const
 Candidate
 &
-candidate
 )
 override
 {
@@ -369,7 +363,6 @@ RemoveRemoteCandidate
 const
 Candidate
 &
-candidate
 )
 override
 {

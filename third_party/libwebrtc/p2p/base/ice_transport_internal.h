@@ -673,7 +673,6 @@ void
 SetIceTiebreaker
 (
 uint64_t
-tiebreaker
 )
 {
 RTC_CHECK_NOTREACHED

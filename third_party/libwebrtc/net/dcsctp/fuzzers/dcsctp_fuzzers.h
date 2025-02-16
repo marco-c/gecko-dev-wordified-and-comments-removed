@@ -95,7 +95,6 @@ void
 Start
 (
 DurationMs
-duration_ms
 TimeoutID
 timeout_id
 )
@@ -276,7 +275,6 @@ TaskQueueBase
 :
 :
 DelayPrecision
-precision
 )
 override
 {
@@ -319,9 +317,7 @@ uint32_t
 GetRandomInt
 (
 uint32_t
-low
 uint32_t
-high
 )
 override
 {
@@ -333,7 +329,6 @@ void
 OnMessageReceived
 (
 DcSctpMessage
-message
 )
 override
 {
@@ -342,12 +337,10 @@ void
 OnError
 (
 ErrorKind
-error
 absl
 :
 :
 string_view
-message
 )
 override
 {
@@ -356,12 +349,10 @@ void
 OnAborted
 (
 ErrorKind
-error
 absl
 :
 :
 string_view
-message
 )
 override
 {
@@ -398,12 +389,10 @@ ArrayView
 const
 StreamID
 >
-outgoing_streams
 absl
 :
 :
 string_view
-reason
 )
 override
 {

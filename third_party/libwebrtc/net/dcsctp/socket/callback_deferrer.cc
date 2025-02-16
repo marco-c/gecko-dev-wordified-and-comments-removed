@@ -479,7 +479,6 @@ emplace_back
 ]
 (
 CallbackData
-data
 DcSctpSocketCallbacks
 &
 cb
@@ -524,7 +523,6 @@ emplace_back
 ]
 (
 CallbackData
-data
 DcSctpSocketCallbacks
 &
 cb
@@ -569,7 +567,6 @@ emplace_back
 ]
 (
 CallbackData
-data
 DcSctpSocketCallbacks
 &
 cb
@@ -945,7 +942,6 @@ emplace_back
 ]
 (
 CallbackData
-data
 DcSctpSocketCallbacks
 &
 cb

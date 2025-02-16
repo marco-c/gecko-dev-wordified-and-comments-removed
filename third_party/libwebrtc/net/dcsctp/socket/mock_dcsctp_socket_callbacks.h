@@ -511,7 +511,6 @@ TaskQueueBase
 :
 :
 DelayPrecision
-precision
 )
 override
 {

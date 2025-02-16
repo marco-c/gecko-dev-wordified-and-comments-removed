@@ -858,7 +858,6 @@ producer_
 ]
 (
 TimeDelta
-rtt
 )
 {
 }
@@ -1437,7 +1436,6 @@ producer_
 ]
 (
 TimeDelta
-rtt
 )
 {
 }

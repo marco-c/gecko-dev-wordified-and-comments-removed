@@ -638,7 +638,6 @@ absl
 :
 monostate
 &
-ref_finder
 )
 {
 }
@@ -649,7 +648,6 @@ operator
 (
 RtpGenericFrameRefFinder
 &
-ref_finder
 )
 {
 }
@@ -660,7 +658,6 @@ operator
 (
 RtpFrameIdOnlyRefFinder
 &
-ref_finder
 )
 {
 }

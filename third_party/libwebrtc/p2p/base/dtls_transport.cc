@@ -489,7 +489,6 @@ size_t
 read
 int
 &
-error
 )
 {
 RTC_DCHECK_RUN_ON
@@ -589,7 +588,6 @@ size_t
 written
 int
 &
-error
 )
 {
 RTC_DCHECK_RUN_ON
@@ -3680,7 +3678,6 @@ rtc
 :
 PacketTransportInternal
 *
-transport
 const
 rtc
 :
@@ -3714,7 +3711,6 @@ rtc
 :
 PacketTransportInternal
 *
-transport
 )
 {
 RTC_DCHECK_RUN_ON

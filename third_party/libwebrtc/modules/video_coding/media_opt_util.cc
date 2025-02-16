@@ -1848,7 +1848,6 @@ EffectivePacketLoss
 const
 VCMProtectionParameters
 *
-parameters
 )
 {
 _effectivePacketLoss

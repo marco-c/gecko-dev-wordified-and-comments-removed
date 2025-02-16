@@ -808,7 +808,6 @@ webrtc
 :
 FieldTrialsView
 &
-field_trials
 )
 {
 if
@@ -1503,7 +1502,6 @@ Candidate
 &
 address
 CandidateOrigin
-origin
 )
 {
 if
@@ -1640,7 +1638,6 @@ PacketOptions
 &
 options
 bool
-payload
 )
 {
 rtc
@@ -2023,7 +2020,6 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :
@@ -2088,7 +2084,6 @@ UDPPort
 PostAddAddress
 (
 bool
-is_final
 )
 {
 MaybeSetPortCompleteOrError
@@ -2244,7 +2239,6 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :
@@ -2274,7 +2268,6 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 )
 {
 Port

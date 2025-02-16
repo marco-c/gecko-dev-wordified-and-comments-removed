@@ -68,7 +68,6 @@ cricket
 :
 IceControllerFactoryArgs
 &
-args
 )
 {
 }

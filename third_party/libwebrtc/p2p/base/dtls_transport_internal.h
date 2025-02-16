@@ -469,7 +469,6 @@ rtc
 :
 :
 SSLProtocolVersion
-version
 )
 {
 return

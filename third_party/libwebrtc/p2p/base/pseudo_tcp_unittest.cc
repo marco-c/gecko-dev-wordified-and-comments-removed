@@ -2684,7 +2684,6 @@ OnTcpReadable
 (
 PseudoTcp
 *
-tcp
 )
 {
 }
@@ -2694,7 +2693,6 @@ OnTcpWriteable
 (
 PseudoTcp
 *
-tcp
 )
 {
 }

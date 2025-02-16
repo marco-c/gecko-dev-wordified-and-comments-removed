@@ -731,7 +731,6 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :
@@ -788,14 +787,12 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :
 :
 SentPacket
 &
-packet
 )
 {
 +
@@ -1185,7 +1182,6 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
 const
 rtc
 :

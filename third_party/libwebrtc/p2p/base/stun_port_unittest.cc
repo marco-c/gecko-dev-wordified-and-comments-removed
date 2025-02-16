@@ -1454,7 +1454,6 @@ cricket
 :
 Port
 *
-port
 )
 {
 ASSERT_FALSE
@@ -1479,7 +1478,6 @@ cricket
 :
 Port
 *
-port
 )
 {
 done_
@@ -1499,7 +1497,6 @@ cricket
 :
 Port
 *
-port
 const
 cricket
 :
@@ -2226,9 +2223,7 @@ rtc
 :
 SocketAddress
 &
-addr
 int
-family
 absl
 :
 :
@@ -2469,9 +2464,7 @@ rtc
 :
 SocketAddress
 &
-addr
 int
-family
 absl
 :
 :
