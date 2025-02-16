@@ -5130,9 +5130,6 @@ windows
 ccov
 .
 *
-/
-.
-*
 :
 7200
 linux
@@ -5443,8 +5440,6 @@ windows
 asan
 .
 *
-/
-opt
 :
 [
 '

@@ -1517,10 +1517,6 @@ browser
 -
 chrome
 -
-mochitest
--
-media
--
 telemetry
 -
 tests
@@ -1590,6 +1586,10 @@ mochitest
 devtools
 -
 chrome
+-
+mochitest
+-
+media
 -
 mochitest
 -
