@@ -536,16 +536,6 @@ aBounds
 )
 ;
 static
-bool
-EstablishesViewport
-(
-const
-nsIContent
-*
-aContent
-)
-;
-static
 dom
 :
 :
