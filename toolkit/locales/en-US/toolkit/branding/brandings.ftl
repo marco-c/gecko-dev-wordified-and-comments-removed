@@ -271,6 +271,16 @@ brand
 name
 =
 Fakespot
+-
+solo
+-
+ai
+-
+brand
+-
+name
+=
+Solo
 #
 Note
 the
