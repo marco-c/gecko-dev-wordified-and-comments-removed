@@ -807,7 +807,7 @@ Glean
 .
 contextualManager
 .
-interactionType
+recordsInteraction
 .
 record
 (
