@@ -265,6 +265,10 @@ UpdateBaseDomain
 is
 TrustPanelAction
 .
+UpdateDetailedTrackerCategory
+is
+TrustPanelAction
+.
 UpdateNumberOfTrackersBlocked
 is
 TrustPanelAction
@@ -281,6 +285,12 @@ TrustPanelAction
 Navigate
 .
 ClearSiteDataDialog
+is
+TrustPanelAction
+.
+Navigate
+.
+TrackerCategoryDetailsPanel
 TrustPanelAction
 .
 Navigate
