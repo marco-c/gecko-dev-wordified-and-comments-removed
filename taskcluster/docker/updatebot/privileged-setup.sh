@@ -130,6 +130,8 @@ libc6
 -
 dev
 \
+meson
+\
 python3
 -
 minimal
