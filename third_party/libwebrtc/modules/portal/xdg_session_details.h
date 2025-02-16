@@ -16,6 +16,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 namespace

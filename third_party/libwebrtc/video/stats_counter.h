@@ -7,6 +7,13 @@ VIDEO_STATS_COUNTER_H_
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 memory
 >
 #
