@@ -2276,6 +2276,15 @@ js
 "
 browser_net_json
 -
+numbers
+.
+js
+"
+]
+[
+"
+browser_net_json
+-
 xssi
 -
 protection
