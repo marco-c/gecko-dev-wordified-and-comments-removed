@@ -392,6 +392,13 @@ runTest
 (
 )
 {
+const
+epsilon
+=
+1e
+-
+5
+;
 function
 assert_progress_equals
 (
@@ -412,9 +419,7 @@ getComputedTiming
 .
 progress
 expected
-1e
--
-6
+epsilon
 errorMessage
 )
 ;
@@ -438,9 +443,7 @@ target
 opacity
 )
 expected
-1e
--
-6
+epsilon
 errorMessage
 )
 ;
@@ -529,9 +532,7 @@ assert_approx_equals
 (
 translateX
 expected
-1e
--
-6
+epsilon
 errorMessage
 )
 ;
@@ -562,9 +563,7 @@ assert_approx_equals
 (
 value
 expected
-1e
--
-6
+epsilon
 errorMessage
 )
 ;
