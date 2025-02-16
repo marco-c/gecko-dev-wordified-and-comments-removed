@@ -16,14 +16,14 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
-initial
+start
+/
+scroll
 -
-target
+start
 -
 with
 -
@@ -42,9 +42,7 @@ data
 .
 scroll
 -
-initial
--
-target
+start
 -
 with
 -
@@ -65,9 +63,7 @@ window
 to
 scroll
 -
-initial
--
-target
+start
 -
 with
 -
@@ -162,15 +158,10 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
-initial
--
-target
-/
+start
 '
 )
         
@@ -204,15 +195,10 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
-initial
--
-target
-/
+start
 '
 )
         
