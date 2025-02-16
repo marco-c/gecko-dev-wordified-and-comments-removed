@@ -250,6 +250,7 @@ font
 {
 FontPalette
 FontSynthesis
+FontSynthesisStyle
 }
 ;
 pub

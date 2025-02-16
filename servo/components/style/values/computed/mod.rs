@@ -570,6 +570,7 @@ FontSize
 FontSizeAdjust
 FontStretch
 FontSynthesis
+FontSynthesisStyle
 LineHeight
 }
 ;

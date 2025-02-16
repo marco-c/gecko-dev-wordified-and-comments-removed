@@ -850,7 +850,7 @@ aFont
 synthesisStyle
 =
 =
-StyleFontSynthesis
+StyleFontSynthesisStyle
 :
 :
 Auto

@@ -3276,6 +3276,10 @@ FontSynthesis
 "
                 
 "
+FontSynthesisStyle
+"
+                
+"
 FontVariantEastAsian
 "
                 
