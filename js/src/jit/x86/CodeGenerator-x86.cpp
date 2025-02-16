@@ -5640,6 +5640,10 @@ masm
 Push
 (
 input
+.
+asDouble
+(
+)
 )
 ;
 if
@@ -5790,6 +5794,10 @@ masm
 Pop
 (
 input
+.
+asDouble
+(
+)
 )
 ;
 restoreVolatile
