@@ -92,9 +92,6 @@ addon
 "
 }
 }
-is_top_pick
-:
-true
 }
 {
 provider
@@ -173,12 +170,6 @@ addon
 "
 }
 }
-is_sponsored
-:
-true
-is_top_pick
-:
-false
 }
 {
 provider
@@ -255,9 +246,6 @@ addon
 "
 }
 }
-is_top_pick
-:
-false
 }
 {
 provider

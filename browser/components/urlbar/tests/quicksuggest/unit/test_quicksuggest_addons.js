@@ -134,9 +134,6 @@ description
 "
 description
 "
-is_top_pick
-:
-true
 custom_details
 :
 {
