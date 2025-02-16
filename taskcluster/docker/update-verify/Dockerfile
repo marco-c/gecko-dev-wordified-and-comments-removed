@@ -154,6 +154,7 @@ i386
 python3
 -
 cairo
+zip
 VOLUME
 /
 builds
