@@ -75,6 +75,15 @@ include
 "
 rtc_base
 /
+logging
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 synchronization
 /
 mutex
@@ -351,7 +360,7 @@ first_extension_time_
 receive_time
 ;
 }
-uint64_t
+int64_t
 ntp_delta
 =
 uint64_t
@@ -378,7 +387,7 @@ TimeDelta
 :
 Micros
 (
-UQ32x32ToInt64Us
+Q32x32ToInt64Us
 (
 ntp_delta
 )
@@ -491,7 +500,7 @@ TimeDelta
 :
 Micros
 (
-UQ32x32ToInt64Us
+Q32x32ToInt64Us
 (
 *
 received_extension
