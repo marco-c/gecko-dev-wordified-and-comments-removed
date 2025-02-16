@@ -359,8 +359,10 @@ IS_SUPPORTED_PLATFORM
 )
 {
 return
+null
 ;
 }
+return
 Services
 .
 profiler
