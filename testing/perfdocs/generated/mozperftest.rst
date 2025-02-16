@@ -3120,7 +3120,7 @@ memory
 usage
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True
@@ -3232,7 +3232,7 @@ name
 memory
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True
@@ -3345,7 +3345,7 @@ name
 memory
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True
@@ -3611,7 +3611,7 @@ name
 memory
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True
@@ -3718,7 +3718,7 @@ name
 memory
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True
@@ -3832,7 +3832,7 @@ name
 memory
 unit
 :
-MB
+MiB
 shouldAlert
 :
 True

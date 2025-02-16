@@ -440,7 +440,7 @@ memory
 unit
 :
 "
-MB
+MiB
 "
 shouldAlert
 :
@@ -519,7 +519,7 @@ ms
 "
 :
 "
-MB
+MiB
 "
 shouldAlert
 :

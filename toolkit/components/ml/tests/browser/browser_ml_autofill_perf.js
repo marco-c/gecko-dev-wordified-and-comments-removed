@@ -120,7 +120,7 @@ usage
 unit
 :
 "
-MB
+MiB
 "
 shouldAlert
 :
@@ -286,11 +286,15 @@ true
 await
 perfTest
 (
+{
+name
+:
 "
 autofill
 "
 options
 request
+}
 )
 ;
 }
