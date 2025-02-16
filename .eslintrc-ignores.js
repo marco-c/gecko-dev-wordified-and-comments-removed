@@ -345,16 +345,6 @@ extensions
 /
 newtab
 /
-data
-/
-"
-"
-browser
-/
-extensions
-/
-newtab
-/
 logs
 /
 "
