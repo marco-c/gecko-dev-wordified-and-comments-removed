@@ -574,6 +574,14 @@ clearSharedStyleSheetCache
 (
 )
 ;
+content
+.
+windowUtils
+.
+clearSharedScriptCache
+(
+)
+;
 let
 videoURL
 =

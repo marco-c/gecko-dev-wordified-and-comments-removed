@@ -739,6 +739,7 @@ spawn
 )
 =
 >
+{
 content
 .
 windowUtils
@@ -746,6 +747,16 @@ windowUtils
 clearSharedStyleSheetCache
 (
 )
+;
+content
+.
+windowUtils
+.
+clearSharedScriptCache
+(
+)
+;
+}
 )
 ;
 await
