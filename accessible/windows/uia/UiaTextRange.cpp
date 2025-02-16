@@ -6032,6 +6032,17 @@ aPoint
 .
 mAcc
 ;
+if
+(
+!
+acc
+-
+>
+IsHyperText
+(
+)
+)
+{
 Accessible
 *
 parent
@@ -6069,6 +6080,7 @@ Some
 true
 )
 ;
+}
 }
 const
 uint64_t
