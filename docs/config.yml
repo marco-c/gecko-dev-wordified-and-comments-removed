@@ -310,6 +310,12 @@ release_doc
 update
 -
 infrastructure
+-
+tools
+/
+update
+-
+verify
 l10n_doc
 :
 -
