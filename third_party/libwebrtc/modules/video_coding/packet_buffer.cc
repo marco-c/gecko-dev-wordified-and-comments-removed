@@ -646,9 +646,6 @@ seq_num
 {
 if
 (
-is_cleared_to_first_seq_num_
-&
-&
 AheadOf
 <
 uint16_t
