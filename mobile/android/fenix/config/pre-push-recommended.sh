@@ -224,12 +224,4 @@ rules
 :
 test
 \
-mozilla
--
-lint
--
-rules
-:
-test
-\
 testDebug

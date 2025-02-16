@@ -57,13 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
+components
 .
-lintrules
+tooling
+.
+lint
 import
 com
 .
