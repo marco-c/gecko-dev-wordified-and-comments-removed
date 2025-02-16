@@ -648,6 +648,7 @@ lastMatchIn
 (
 string
 regexp
+endMargin
 )
 {
 var
@@ -845,15 +846,6 @@ regexp
 start
 )
 {
-regexp
-=
-ensureFlags
-(
-regexp
-"
-gm
-"
-)
 var
 string
 chunk
