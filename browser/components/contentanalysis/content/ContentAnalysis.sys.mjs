@@ -1650,6 +1650,7 @@ gContentAnalysis
 .
 cancelAllRequests
 (
+true
 )
 ;
 }
@@ -3584,10 +3585,9 @@ lazy
 .
 gContentAnalysis
 .
-cancelContentAnalysisRequest
+cancelRequestsByRequestToken
 (
 aRequestToken
-false
 )
 ;
 let
