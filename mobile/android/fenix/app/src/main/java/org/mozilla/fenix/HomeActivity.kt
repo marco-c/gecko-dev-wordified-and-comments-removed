@@ -7877,9 +7877,6 @@ private
 historyMetadata
 =
 historyMetadata
-originalInput
-=
-searchTermOrURL
 )
 }
 else
@@ -7902,9 +7899,6 @@ toNormalizedUrl
 flags
 =
 flags
-originalInput
-=
-searchTermOrURL
 )
 }
 }

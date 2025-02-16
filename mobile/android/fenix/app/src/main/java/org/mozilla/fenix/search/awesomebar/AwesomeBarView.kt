@@ -654,10 +654,6 @@ String
 String
 >
 ?
-originalInput
-:
-String
-?
 )
 {
 interactor
