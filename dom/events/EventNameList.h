@@ -1108,7 +1108,7 @@ WINDOW_EVENT
 (
 message
 eMessage
-EventNameType_None
+EventNameType_HTMLBodyOrFramesetOnly
 eBasicEventClass
 )
 WINDOW_EVENT
