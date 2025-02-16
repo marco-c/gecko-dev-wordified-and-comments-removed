@@ -21208,6 +21208,15 @@ has
 been
 cancelled
 .
+cancel_reason
+:
+Reason
+why
+this
+load
+was
+cancelled
+.
 avif
 :
 dav1d_get_picture

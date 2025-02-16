@@ -582,6 +582,10 @@ cancelled
 "
 false
 "
+cancel_reason
+:
+"
+"
 }
 }
 ]
@@ -701,6 +705,10 @@ cancelled
 :
 "
 false
+"
+cancel_reason
+:
+"
 "
 }
 }
