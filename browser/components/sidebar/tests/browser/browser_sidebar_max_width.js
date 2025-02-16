@@ -285,6 +285,11 @@ width
 .
 )
 ;
+await
+flushTaskQueue
+(
+)
+;
 const
 newMaxWidth
 =
