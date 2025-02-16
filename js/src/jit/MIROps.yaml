@@ -5343,9 +5343,6 @@ Value
 possibly_calls
 :
 true
-can_recover
-:
-true
 #
 Note
 :
@@ -5384,9 +5381,6 @@ Int32
 possibly_calls
 :
 true
-can_recover
-:
-false
 #
 This
 instruction
@@ -5452,9 +5446,6 @@ Value
 possibly_calls
 :
 true
-can_recover
-:
-false
 -
 name
 :
@@ -5473,9 +5464,6 @@ Boolean
 possibly_calls
 :
 true
-can_recover
-:
-false
 -
 name
 :
