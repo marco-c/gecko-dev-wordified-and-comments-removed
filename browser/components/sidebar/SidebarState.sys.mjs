@@ -1568,6 +1568,16 @@ false
 return
 ;
 }
+const
+previousExpanded
+=
+this
+.
+#
+props
+.
+launcherExpanded
+;
 this
 .
 #
@@ -1589,6 +1599,10 @@ expanded
 if
 (
 expanded
+&
+&
+!
+previousExpanded
 )
 {
 Glean
