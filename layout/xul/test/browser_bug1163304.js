@@ -33,6 +33,9 @@ CustomizableUITestUtils
 window
 )
 ;
+let
+searchBar
+;
 add_task
 (
 async
@@ -41,6 +44,8 @@ test_setup
 (
 )
 {
+searchBar
+=
 await
 gCUITestUtils
 .
@@ -81,8 +86,6 @@ BrowserTestUtils
 .
 waitForEvent
 (
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -91,8 +94,6 @@ focus
 "
 )
 ;
-BrowserSearch
-.
 searchBar
 .
 focus
@@ -159,8 +160,6 @@ tryToOpen
 {
 try
 {
-BrowserSearch
-.
 searchBar
 .
 focus

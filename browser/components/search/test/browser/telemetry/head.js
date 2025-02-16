@@ -862,9 +862,14 @@ sb
 =
 win
 .
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 sb
 .

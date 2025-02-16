@@ -1488,9 +1488,14 @@ gBrowser
 let
 sb
 =
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 sb
 .

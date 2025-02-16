@@ -599,9 +599,14 @@ foo
 let
 sb
 =
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 let
 engineTests

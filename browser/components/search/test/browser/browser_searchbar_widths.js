@@ -11,6 +11,9 @@ test_searchbar_width_persistence
 (
 )
 {
+let
+searchBar
+=
 await
 gCUITestUtils
 .
@@ -37,8 +40,6 @@ removeSearchBar
 let
 container
 =
-BrowserSearch
-.
 searchBar
 .
 parentNode
@@ -94,9 +95,14 @@ otherBar
 =
 win
 .
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 ok
 (
