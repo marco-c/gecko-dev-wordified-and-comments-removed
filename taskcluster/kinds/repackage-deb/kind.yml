@@ -154,6 +154,14 @@ shippable
 /
 opt
 -
+linux64
+-
+aarch64
+-
+devedition
+/
+opt
+-
 linux
 /
 opt

@@ -211,6 +211,14 @@ linux64
 devedition
 /
 opt
+-
+linux64
+-
+aarch64
+-
+devedition
+/
+opt
 tasks
 :
 zucchini
