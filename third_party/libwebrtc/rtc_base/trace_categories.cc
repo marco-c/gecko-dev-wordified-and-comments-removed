@@ -7,9 +7,17 @@ trace_categories
 .
 h
 "
+#
+if
+defined
+(
+RTC_USE_PERFETTO
+)
 PERFETTO_TRACK_EVENT_STATIC_STORAGE_IN_NAMESPACE_WITH_ATTRS
 (
 webrtc
 RTC_EXPORT
 )
 ;
+#
+endif
