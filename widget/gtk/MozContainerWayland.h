@@ -177,16 +177,6 @@ MozContainer
 container
 )
 ;
-bool
-moz_container_wayland_egl_window_set_size
-(
-MozContainer
-*
-container
-nsIntSize
-aScaledSize
-)
-;
 void
 moz_container_wayland_add_or_fire_initial_draw_callback
 (

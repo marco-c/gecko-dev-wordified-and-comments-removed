@@ -655,6 +655,11 @@ MOZ_WAYLAND
 )
 if
 (
+GdkIsWaylandDisplay
+(
+)
+&
+&
 mWidget
 )
 {
