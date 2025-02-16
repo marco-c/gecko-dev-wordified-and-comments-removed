@@ -1280,6 +1280,18 @@ use_remoteexec
 '
 :
 use_remoteexec
+        
+'
+enable_rust
+'
+:
+True
+        
+'
+enable_rust_cxx
+'
+:
+True
     
 }
     
