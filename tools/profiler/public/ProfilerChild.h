@@ -385,6 +385,11 @@ Update
 aUpdate
 )
 ;
+void
+JoinGatherProfileThread
+(
+)
+;
 static
 void
 ClearPendingUpdate
@@ -463,6 +468,12 @@ ProgressLogger
 SharedProgress
 >
 mGatherProfileProgress
+;
+PRThread
+*
+mGatherProfileThread
+=
+nullptr
 ;
 }
 ;
