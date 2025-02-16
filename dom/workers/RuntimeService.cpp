@@ -1703,7 +1703,6 @@ key_
 )
 \
 {
-\
 nsLiteralCString
 (
 suffix_
@@ -1713,7 +1712,6 @@ PREF_JS_OPTIONS_PREFIX
 PREF_MEM_OPTIONS_PREFIX
 suffix_
 key_
-\
 }
 constexpr
 WorkerGCPref
