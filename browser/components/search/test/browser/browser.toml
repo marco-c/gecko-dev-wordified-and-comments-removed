@@ -223,6 +223,13 @@ js
 ]
 [
 "
+browser_displayNotification
+.
+js
+"
+]
+[
+"
 browser_google_behavior
 .
 js
