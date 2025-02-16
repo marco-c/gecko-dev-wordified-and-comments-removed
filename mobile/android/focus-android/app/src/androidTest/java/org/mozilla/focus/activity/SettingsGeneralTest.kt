@@ -407,7 +407,7 @@ TestSetup
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityIntentsTestRule

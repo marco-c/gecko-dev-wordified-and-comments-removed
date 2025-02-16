@@ -227,7 +227,7 @@ FeatureSettingsHelper
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityFirstrunTestRule

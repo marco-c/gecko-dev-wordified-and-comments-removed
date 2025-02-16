@@ -213,7 +213,7 @@ file
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityIntentsTestRule

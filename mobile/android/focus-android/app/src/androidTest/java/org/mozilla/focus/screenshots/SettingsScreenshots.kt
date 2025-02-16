@@ -203,8 +203,8 @@ ScreenshotTest
 {
 Rule
 JvmField
-var
-mActivityTestRule
+val
+mScreenshotTestRule
 :
 ActivityTestRule
 <
@@ -226,7 +226,7 @@ setUp
 (
 )
 {
-mActivityTestRule
+mScreenshotTestRule
 .
 runOnUiThread
 {

@@ -242,7 +242,7 @@ com
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityFirstrunTestRule

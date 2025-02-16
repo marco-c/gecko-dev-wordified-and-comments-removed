@@ -169,7 +169,7 @@ TestSetup
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityFirstrunTestRule

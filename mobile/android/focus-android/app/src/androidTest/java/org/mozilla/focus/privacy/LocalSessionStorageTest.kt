@@ -272,7 +272,7 @@ empty
 get
 :
 Rule
-var
+val
 mActivityTestRule
 =
 MainActivityFirstrunTestRule
