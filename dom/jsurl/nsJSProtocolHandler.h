@@ -285,6 +285,8 @@ mBaseURI
 }
 NS_DECL_ISUPPORTS_INHERITED
 virtual
+already_AddRefed
+<
 mozilla
 :
 :
@@ -292,15 +294,9 @@ net
 :
 :
 nsSimpleURI
-*
+>
 StartClone
 (
-RefHandlingEnum
-refHandlingMode
-const
-nsACString
-&
-newRef
 )
 override
 ;
