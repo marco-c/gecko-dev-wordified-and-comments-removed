@@ -124,6 +124,14 @@ set
         
 self
 .
+skipped
+=
+set
+(
+)
+        
+self
+.
 suppressed_warnings
 =
 defaultdict
@@ -404,6 +412,15 @@ failed_setup
 other
 .
 failed_setup
+        
+self
+.
+skipped
+|
+=
+other
+.
+skipped
         
 self
 .
