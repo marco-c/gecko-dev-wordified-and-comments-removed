@@ -567,6 +567,10 @@ String
 String
 >
 ?
+originalInput
+:
+String
+?
 )
 {
 notifyObservers

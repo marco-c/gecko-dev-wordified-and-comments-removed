@@ -1410,6 +1410,10 @@ String
 String
 >
 ?
+originalInput
+:
+String
+?
 )
 {
 notifyObservers
@@ -1504,6 +1508,11 @@ flags
 getGeckoFlags
 (
 )
+)
+.
+originalInput
+(
+originalInput
 )
 if
 (

@@ -738,6 +738,11 @@ tab
 engineState
 .
 initialAdditionalHeaders
+originalInput
+=
+tab
+.
+originalInput
 )
 }
 return
@@ -780,6 +785,12 @@ String
 ?
 =
 null
+originalInput
+:
+String
+?
+=
+null
 )
 =
 scope
@@ -802,6 +813,9 @@ loadFlags
 additionalHeaders
 =
 additionalHeaders
+originalInput
+=
+originalInput
 )
 }
 private
