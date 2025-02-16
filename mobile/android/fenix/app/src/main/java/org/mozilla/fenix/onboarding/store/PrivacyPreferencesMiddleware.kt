@@ -130,7 +130,7 @@ private
 val
 repository
 :
-SimplePrivacyPreferencesRepository
+PrivacyPreferencesRepository
 )
 :
 Middleware

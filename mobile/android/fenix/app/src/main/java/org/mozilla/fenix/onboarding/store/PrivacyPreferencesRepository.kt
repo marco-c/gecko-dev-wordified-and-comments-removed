@@ -94,7 +94,7 @@ onboarding
 *
 /
 interface
-SimplePrivacyPreferencesRepository
+PrivacyPreferencesRepository
 {
 /
 *
@@ -214,7 +214,7 @@ default
 implementation
 of
 [
-SimplePrivacyPreferencesRepository
+PrivacyPreferencesRepository
 ]
 .
 *
@@ -238,7 +238,7 @@ settings
 *
 /
 class
-DefaultSimplePrivacyPreferencesRepository
+DefaultPrivacyPreferencesRepository
 (
 private
 val
@@ -247,7 +247,7 @@ settings
 Settings
 )
 :
-SimplePrivacyPreferencesRepository
+PrivacyPreferencesRepository
 {
 override
 fun

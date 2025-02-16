@@ -149,7 +149,7 @@ onboarding
 .
 store
 .
-DefaultSimplePrivacyPreferencesRepository
+DefaultPrivacyPreferencesRepository
 import
 org
 .
@@ -283,7 +283,7 @@ lazyStore
 val
 repository
 =
-DefaultSimplePrivacyPreferencesRepository
+DefaultPrivacyPreferencesRepository
 (
 settings
 =
