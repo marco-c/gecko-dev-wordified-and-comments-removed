@@ -203,6 +203,11 @@ next_ssn
 =
 0
 ;
+uint32_t
+next_mid
+=
+0
+;
 }
 ;
 struct
@@ -210,6 +215,11 @@ UnorderedStream
 {
 uint32_t
 id
+=
+0
+;
+uint32_t
+next_mid
 =
 0
 ;
