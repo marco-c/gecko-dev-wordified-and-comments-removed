@@ -106,6 +106,7 @@ Build
 const
 Environment
 &
+env
 )
 {
 return
@@ -114,6 +115,7 @@ make_ref_counted
 AudioProcessingImpl
 >
 (
+env
 config_
 std
 :

@@ -226,6 +226,9 @@ MockInitialize
 :
 AudioProcessingImpl
 (
+CreateEnvironment
+(
+)
 )
 {
 }
