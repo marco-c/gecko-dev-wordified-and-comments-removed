@@ -3441,6 +3441,9 @@ webrtc
 CodecSpecificInfo
 info
 ;
+#
+ifdef
+__LP64__
 static_assert
 (
 sizeof
@@ -3531,6 +3534,8 @@ changes
 "
 )
 ;
+#
+endif
 info
 .
 codecType
