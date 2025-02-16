@@ -273,6 +273,13 @@ id
 "
 input
 "
+class
+=
+"
+with
+-
+icon
+"
 type
 =
 "
