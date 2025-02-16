@@ -668,6 +668,15 @@ const
 =
 0
 ;
+virtual
+int
+ReceivedTransportCcFeedbackCount
+(
+)
+const
+=
+0
+;
 }
 ;
 }

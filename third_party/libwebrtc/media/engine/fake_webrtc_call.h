@@ -2836,6 +2836,15 @@ return
 0
 ;
 }
+int
+FeedbackAccordingToTransportCcCount
+(
+)
+{
+return
+0
+;
+}
 private
 :
 webrtc

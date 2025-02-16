@@ -2622,6 +2622,12 @@ FeedbackAccordingToRfc8888CountForTesting
 )
 const
 ;
+int
+FeedbackAccordingToTransportCcCountForTesting
+(
+)
+const
+;
 NetworkControllerInterface
 *
 GetNetworkController
