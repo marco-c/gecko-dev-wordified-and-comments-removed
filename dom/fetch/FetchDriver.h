@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -566,6 +575,9 @@ nsCOMPtr
 nsIOutputStream
 >
 mPipeOutputStream
+;
+Mutex
+mODAMutex
 ;
 RefPtr
 <
