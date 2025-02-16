@@ -695,11 +695,6 @@ return
 mDmabufIsFeedback
 ;
 }
-void
-EnsureDMABufFormats
-(
-)
-;
 ~
 nsWaylandDisplay
 (
