@@ -310,11 +310,11 @@ buttons
 supportPage
 :
 "
-install
--
-firefox
--
 linux
+-
+security
+-
+warning
 "
 "
 l10n
