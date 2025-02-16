@@ -147,6 +147,9 @@ modified
 interface
 nsIPrincipal
 ;
+interface
+nsIPushSubscription
+;
 /
 *
 *
@@ -359,6 +362,9 @@ scope
 in
 nsIPrincipal
 principal
+in
+nsIPushSubscription
+oldSubscription
 )
 ;
 /
