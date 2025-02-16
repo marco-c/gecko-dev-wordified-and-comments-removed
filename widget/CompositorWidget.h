@@ -374,16 +374,6 @@ EndRemoteDrawing
 ;
 }
 virtual
-bool
-NeedsToDeferEndRemoteDrawing
-(
-)
-{
-return
-false
-;
-}
-virtual
 LayoutDeviceIntRegion
 GetTransparentRegion
 (

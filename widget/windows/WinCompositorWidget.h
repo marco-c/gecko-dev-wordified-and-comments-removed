@@ -152,14 +152,6 @@ aMode
 ;
 virtual
 void
-ClearTransparentWindow
-(
-)
-=
-0
-;
-virtual
-void
 NotifyVisibilityUpdated
 (
 bool
