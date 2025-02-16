@@ -127,6 +127,13 @@ js
 ]
 [
 "
+browser_quicksuggest_contextual_optin
+.
+js
+"
+]
+[
+"
 browser_quicksuggest_fakespot
 .
 js
