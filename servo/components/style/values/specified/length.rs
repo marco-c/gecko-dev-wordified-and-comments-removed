@@ -11765,6 +11765,9 @@ new
 CalcLengthPercentage
 {
 clamping_mode
+has_anchor_function
+:
+false
 node
 :
 CalcNode
@@ -12619,7 +12622,10 @@ self
 )
 -
 >
+(
 CalcNode
+bool
+)
 {
 match
 self
@@ -12633,6 +12639,7 @@ l
 )
 =
 >
+(
 CalcNode
 :
 :
@@ -12649,6 +12656,8 @@ Length
 l
 )
 )
+false
+)
 LengthPercentage
 :
 :
@@ -12658,6 +12667,7 @@ p
 )
 =
 >
+(
 CalcNode
 :
 :
@@ -12676,6 +12686,8 @@ p
 0
 )
 )
+false
+)
 LengthPercentage
 :
 :
@@ -12685,9 +12697,14 @@ p
 )
 =
 >
+(
 p
 .
 node
+p
+.
+has_anchor_function
+)
 }
 }
 pub
@@ -12751,8 +12768,11 @@ Percentage
 )
 ;
 let
+(
 mut
 node
+has_anchor_function
+)
 =
 self
 .
@@ -12807,6 +12827,7 @@ calc
 into_length_or_percentage
 (
 clamping_mode
+has_anchor_function
 )
 .
 unwrap

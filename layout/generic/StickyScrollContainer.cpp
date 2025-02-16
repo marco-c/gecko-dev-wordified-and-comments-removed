@@ -254,8 +254,7 @@ Sticky
 if
 (
 side
--
->
+.
 IsAuto
 (
 )
@@ -273,8 +272,7 @@ ComputeCBDependentValue
 (
 aPercentBasis
 side
--
->
+.
 AsLengthPercentage
 (
 )
