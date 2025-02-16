@@ -1,7 +1,6 @@
 export
 var
 AddonWrapper
-AppConstants
 GeckoViewConnection
 GeckoViewWebExtension
 IndexedDB
