@@ -209,6 +209,11 @@ attribute
 AString
 attestationConveyancePreference
 ;
+readonly
+attribute
+boolean
+privateBrowsing
+;
 }
 ;
 [
@@ -397,6 +402,11 @@ readonly
 attribute
 boolean
 conditionallyMediated
+;
+readonly
+attribute
+boolean
+privateBrowsing
 ;
 }
 ;

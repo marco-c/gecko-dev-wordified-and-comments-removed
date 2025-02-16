@@ -62,6 +62,9 @@ nsCString
 &
 aClientDataJSON
 const
+bool
+aPrivateBrowsing
+const
 WebAuthnMakeCredentialInfo
 &
 aInfo
@@ -74,6 +77,10 @@ aOrigin
 mClientDataJSON
 (
 aClientDataJSON
+)
+mPrivateBrowsing
+(
+aPrivateBrowsing
 )
 mInfo
 (
@@ -228,6 +235,10 @@ nsCString
 mClientDataJSON
 ;
 const
+bool
+mPrivateBrowsing
+;
+const
 WebAuthnMakeCredentialInfo
 mInfo
 ;
@@ -268,6 +279,9 @@ nsCString
 &
 aClientDataJSON
 const
+bool
+aPrivateBrowsing
+const
 WebAuthnGetAssertionInfo
 &
 aInfo
@@ -280,6 +294,10 @@ aOrigin
 mClientDataJSON
 (
 aClientDataJSON
+)
+mPrivateBrowsing
+(
+aPrivateBrowsing
 )
 mInfo
 (
@@ -422,6 +440,10 @@ mOrigin
 const
 nsCString
 mClientDataJSON
+;
+const
+bool
+mPrivateBrowsing
 ;
 const
 WebAuthnGetAssertionInfo
