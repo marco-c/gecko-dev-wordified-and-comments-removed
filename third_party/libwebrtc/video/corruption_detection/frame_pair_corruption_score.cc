@@ -435,7 +435,7 @@ ToI420
 )
 )
 ;
-FilterSettings
+CorruptionDetectionFilterSettings
 filter_settings
 =
 GetCorruptionFilterSettings

@@ -351,7 +351,7 @@ supported
 }
 }
 }
-FilterSettings
+CorruptionDetectionFilterSettings
 GetCorruptionFilterSettings
 (
 int
@@ -361,7 +361,7 @@ codec_type
 )
 {
 return
-FilterSettings
+CorruptionDetectionFilterSettings
 {
 .
 std_dev
