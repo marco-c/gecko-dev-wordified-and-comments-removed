@@ -1509,16 +1509,6 @@ set
 "
 sidebar
 .
-animation
-.
-enabled
-"
-false
-]
-[
-"
-sidebar
-.
 verticalTabs
 "
 true
