@@ -2346,8 +2346,6 @@ topSite
 clickUrl
 )
 }
-else
-{
 TopSites
 .
 openContileTopSite
@@ -2366,7 +2364,6 @@ recordTopSitesClickTelemetry
 topSite
 position
 )
-}
 }
 }
 }
@@ -2709,6 +2706,14 @@ lowercase
 )
 )
 }
+if
+(
+!
+settings
+.
+marsAPIEnabled
+)
+{
 TopSites
 .
 contileReportingUrl
@@ -2719,6 +2724,7 @@ topSite
 .
 clickUrl
 )
+}
 Pings
 .
 topsitesImpression
@@ -2754,7 +2760,6 @@ topSite
 .
 impressionUrl
 )
-return
 }
 TopSites
 .
@@ -2814,6 +2819,14 @@ lowercase
 )
 )
 }
+if
+(
+!
+settings
+.
+marsAPIEnabled
+)
+{
 TopSites
 .
 contileReportingUrl
@@ -2824,6 +2837,7 @@ topSite
 .
 impressionUrl
 )
+}
 Pings
 .
 topsitesImpression
