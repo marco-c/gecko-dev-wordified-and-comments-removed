@@ -173,7 +173,7 @@ nsMaybeWeakPtr
 T
 >
 &
-other
+aOther
 )
 const
 {
@@ -181,7 +181,7 @@ return
 mPtr
 =
 =
-other
+aOther
 .
 mPtr
 ;
@@ -211,7 +211,6 @@ return
 mWeak
 ;
 }
-const
 nsCOMPtr
 <
 T
@@ -231,6 +230,8 @@ mPtr
 ;
 bool
 mWeak
+=
+false
 ;
 }
 ;
@@ -251,7 +252,9 @@ T
 >
 >
 {
-typedef
+using
+MaybeWeakArray
+=
 nsTArray
 <
 nsMaybeWeakPtr
@@ -259,7 +262,6 @@ nsMaybeWeakPtr
 T
 >
 >
-MaybeWeakArray
 ;
 nsresult
 SetMaybeWeakPtr
@@ -497,7 +499,6 @@ template
 class
 T
 >
-const
 nsCOMPtr
 <
 T
@@ -744,7 +745,9 @@ array_idx
 ;
 array_idx
 <
+(
 array
+)
 .
 Length
 (
@@ -764,7 +767,9 @@ type
 &
 e
 =
+(
 array
+)
 .
 ElementAt
 (
