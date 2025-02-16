@@ -53,6 +53,11 @@ Timestamp
 start
 )
 ;
+~
+TimestampExtrapolator
+(
+)
+;
 void
 Update
 (
@@ -141,7 +146,7 @@ int64_t
 >
 prev_unwrapped_timestamp_
 ;
-uint32_t
+int
 packet_count_
 ;
 double
