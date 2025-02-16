@@ -3727,7 +3727,6 @@ resultCoalesceDirs
 =
 net_CoalesceDirs
 (
-NET_COALESCE_NORMAL
 buf
 .
 BeginWriting
