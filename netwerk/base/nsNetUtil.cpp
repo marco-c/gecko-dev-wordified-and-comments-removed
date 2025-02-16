@@ -19115,6 +19115,16 @@ LowerCaseEqualsASCII
 xslt
 "
 )
+|
+|
+aAs
+.
+LowerCaseEqualsASCII
+(
+"
+json
+"
+)
 )
 ;
 }
