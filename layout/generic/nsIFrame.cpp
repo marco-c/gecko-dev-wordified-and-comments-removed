@@ -16883,6 +16883,12 @@ IsPaintingToWindow
 )
 &
 &
+!
+IsMenuPopupFrame
+(
+)
+&
+&
 (
 DisplayPortUtils
 :
