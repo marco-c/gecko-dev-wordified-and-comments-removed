@@ -4614,16 +4614,6 @@ rollout2
 ]
 )
 ;
-sinon
-.
-stub
-(
-loader
-"
-setTimer
-"
-)
-;
 await
 manager
 .
