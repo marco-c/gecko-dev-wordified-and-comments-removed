@@ -448,6 +448,11 @@ ENV
 SNAPCRAFT_PLATFORM
 =
 amd64
+RUN
+snapcraft
+-
+-
+version
 #
 Snapcraft
 pull
