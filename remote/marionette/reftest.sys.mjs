@@ -2490,7 +2490,7 @@ let
 [
 lhsUrl
 rhsUrl
-references
+stackframeReferences
 relation
 extras
 =
@@ -2725,7 +2725,7 @@ passed
 {
 if
 (
-references
+stackframeReferences
 .
 length
 )
@@ -2735,7 +2735,7 @@ for
 let
 i
 =
-references
+stackframeReferences
 .
 length
 -
@@ -2754,7 +2754,7 @@ i
 let
 item
 =
-references
+stackframeReferences
 [
 i
 ]
