@@ -406,7 +406,7 @@ button
 Wait
 for
 the
-Pocket
+topsite
 card
 and
 button
@@ -485,6 +485,7 @@ active
 Wait
 for
 the
+topsite
 menu
 to
 be
@@ -567,7 +568,7 @@ button
 Wait
 for
 the
-Pocket
+story
 card
 and
 button
@@ -644,6 +645,7 @@ active
 Wait
 for
 the
+story
 menu
 to
 be
