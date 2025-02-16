@@ -1498,6 +1498,10 @@ get
 MOZ_FETCHES_DIR
 "
 "
+{
+task_workdir
+}
+/
 fetches
 "
 )
@@ -2818,6 +2822,10 @@ setdefault
 MOZ_FETCHES_DIR
 "
 "
+{
+task_workdir
+}
+/
 fetches
 "
 )

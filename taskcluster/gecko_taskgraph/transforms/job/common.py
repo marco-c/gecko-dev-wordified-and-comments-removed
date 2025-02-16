@@ -32,6 +32,12 @@ consistency
 "
 "
 "
+import
+mozpack
+.
+path
+as
+mozpath
 from
 taskgraph
 .
@@ -272,7 +278,18 @@ UPLOAD_DIR
 "
 ]
 =
+f
+"
+{
+{
+task_workdir
+}
+}
+/
+{
 path
+}
+"
     
 add_artifacts
 (
@@ -493,8 +510,6 @@ is_win
 checkoutdir
 =
 "
-.
-/
 build
 "
         
@@ -620,8 +635,6 @@ else
 checkoutdir
 =
 "
-.
-/
 checkouts
 "
         
@@ -663,6 +676,8 @@ cache_name
 =
 get_cache_name
     
+env
+=
 taskdesc
 [
 "
@@ -678,6 +693,8 @@ env
 {
 }
 )
+    
+env
 .
 update
 (
@@ -733,22 +750,45 @@ hgstore
     
 )
     
-taskdesc
-[
-"
-worker
-"
-]
-[
-"
-env
-"
-]
-.
-setdefault
-(
+if
 "
 GECKO_PATH
+"
+in
+env
+:
+        
+gecko_path
+=
+env
+[
+"
+GECKO_PATH
+"
+]
+    
+else
+:
+        
+gecko_path
+=
+geckodir
+        
+env
+[
+"
+GECKO_PATH
+"
+]
+=
+mozpath
+.
+join
+(
+"
+{
+task_workdir
+}
 "
 geckodir
 )
@@ -951,6 +991,9 @@ proxy
 ]
 =
 True
+    
+return
+gecko_path
 def
 setup_secrets
 (
