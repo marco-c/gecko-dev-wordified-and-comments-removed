@@ -955,16 +955,6 @@ resistFingerprinting
 "
 false
 ]
-[
-"
-privacy
-.
-resistFingerprinting
-.
-principalCheckEnabled
-"
-false
-]
 ]
 }
 )

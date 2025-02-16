@@ -120,18 +120,9 @@ function
 input
 )
 {
-let
-windowWaived
-=
-content
-.
-wrappedJSObject
-.
-window
-;
 is
 (
-windowWaived
+content
 .
 screen
 .
@@ -154,7 +145,7 @@ value
 ;
 is
 (
-windowWaived
+content
 .
 screen
 .
@@ -177,7 +168,7 @@ value
 ;
 is
 (
-windowWaived
+content
 .
 innerWidth
 input
@@ -198,7 +189,7 @@ value
 ;
 is
 (
-windowWaived
+content
 .
 innerHeight
 input

@@ -7265,16 +7265,6 @@ resistFingerprinting
 "
 true
 ]
-[
-"
-privacy
-.
-resistFingerprinting
-.
-principalCheckEnabled
-"
-false
-]
 ]
 }
 )
