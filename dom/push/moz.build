@@ -98,13 +98,6 @@ EXTRA_JS_MODULES
 =
 [
 "
-ChromePushSubscription
-.
-sys
-.
-mjs
-"
-"
 Push
 .
 sys
