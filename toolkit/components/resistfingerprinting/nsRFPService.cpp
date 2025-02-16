@@ -1599,15 +1599,6 @@ if
 aSkipChromePrincipalCheck
 &
 &
-aTarget
-!
-=
-RFPTarget
-:
-:
-IsAlwaysEnabledForPrecompute
-&
-&
 IsJSContextCurrentlyChromePrivileged
 (
 )
