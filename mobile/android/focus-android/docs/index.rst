@@ -86,15 +86,6 @@ toctree
 maxdepth
 :
 1
-Adjust
-Usage
-<
-Adjust
--
-Usage
-.
-md
->
 Architecture
 Decisions
 <
