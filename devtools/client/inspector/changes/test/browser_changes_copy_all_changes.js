@@ -45,8 +45,6 @@ EXPECTED_CLIPBOARD
 /
 *
 Inline
-#
-0
 |
 data
 :
