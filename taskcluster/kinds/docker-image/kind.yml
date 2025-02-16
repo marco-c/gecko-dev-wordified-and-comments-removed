@@ -1504,7 +1504,7 @@ uv
 )
 parent
 :
-ubuntu2004
+debian12
 -
 base
 diffoscope
