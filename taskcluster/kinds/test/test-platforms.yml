@@ -812,8 +812,6 @@ test
 sets
 :
 -
-awsy
--
 desktop
 -
 screenshot
@@ -855,8 +853,6 @@ test
 -
 sets
 :
--
-awsy
 -
 desktop
 -
@@ -1583,8 +1579,6 @@ test
 sets
 :
 -
-awsy
--
 webgpu
 -
 windows11
@@ -1655,8 +1649,6 @@ test
 -
 sets
 :
--
-awsy
 -
 windows11
 -
