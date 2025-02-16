@@ -164,6 +164,16 @@ Infinity
 ;
 static_assert
 (
+DataRate
+(
+)
+=
+=
+kDataRateZero
+)
+;
+static_assert
+(
 kDataRateZero
 .
 IsZero

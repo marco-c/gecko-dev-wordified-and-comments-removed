@@ -208,11 +208,12 @@ value
 )
 ;
 }
+constexpr
 Frequency
 (
 )
 =
-delete
+default
 ;
 template
 <

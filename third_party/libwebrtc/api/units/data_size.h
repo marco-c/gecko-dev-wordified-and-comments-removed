@@ -109,11 +109,12 @@ PlusInfinity
 )
 ;
 }
+constexpr
 DataSize
 (
 )
 =
-delete
+default
 ;
 template
 <

@@ -70,6 +70,16 @@ Infinity
 ;
 static_assert
 (
+DataSize
+(
+)
+=
+=
+kDataSizeZero
+)
+;
+static_assert
+(
 kDataSizeZero
 .
 IsZero
