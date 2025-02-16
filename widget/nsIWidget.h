@@ -2028,6 +2028,14 @@ aSuppress
 {
 }
 virtual
+void
+SetMicaBackdrop
+(
+bool
+)
+{
+}
+virtual
 nsSizeMode
 SizeMode
 (

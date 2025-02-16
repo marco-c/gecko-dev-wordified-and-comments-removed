@@ -3002,6 +3002,13 @@ ColorScheme
 )
 override
 ;
+void
+SetMicaBackdrop
+(
+bool
+)
+override
+;
 bool
 DispatchTouchEventFromWMPointer
 (
