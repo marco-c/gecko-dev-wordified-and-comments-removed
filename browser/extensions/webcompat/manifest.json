@@ -570,6 +570,9 @@ permissions
 :
 [
 "
+cookies
+"
+"
 mozillaAddons
 "
 "
@@ -1034,6 +1037,13 @@ shims
 maxmind
 -
 geoip
+.
+js
+"
+"
+shims
+/
+messengerLogin
 .
 js
 "
