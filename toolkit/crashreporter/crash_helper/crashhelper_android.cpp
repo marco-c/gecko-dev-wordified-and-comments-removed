@@ -49,6 +49,7 @@ client_pid
 crash_generator_logic
 (
 client_pid
+nullptr
 )
 ;
 }
