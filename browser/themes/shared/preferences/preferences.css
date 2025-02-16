@@ -1578,11 +1578,14 @@ invalid
 /
 media
 not
+(
 -
 moz
 -
+bool
+-
 pref
-(
+:
 "
 browser
 .

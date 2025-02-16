@@ -3247,11 +3247,14 @@ invalid
 *
 /
 media
+(
 -
 moz
 -
+bool
+-
 pref
-(
+:
 "
 mathml
 .
