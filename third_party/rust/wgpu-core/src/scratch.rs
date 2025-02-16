@@ -17,12 +17,6 @@ crate
 resource_log
 ;
 use
-hal
-:
-:
-BufferUses
-;
-use
 std
 :
 :
@@ -39,6 +33,12 @@ sync
 :
 :
 Arc
+;
+use
+wgt
+:
+:
+BufferUses
 ;
 #
 [

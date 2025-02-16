@@ -304,7 +304,7 @@ BufferUsages
 )
 -
 >
-hal
+wgt
 :
 :
 BufferUses
@@ -313,7 +313,7 @@ let
 mut
 u
 =
-hal
+wgt
 :
 :
 BufferUses
@@ -327,7 +327,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -352,7 +352,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -377,7 +377,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -402,7 +402,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -427,7 +427,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -452,7 +452,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -477,7 +477,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -502,7 +502,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -510,7 +510,7 @@ BufferUses
 :
 STORAGE_READ_ONLY
 |
-hal
+wgt
 :
 :
 BufferUses
@@ -535,7 +535,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -560,7 +560,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -585,7 +585,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -610,7 +610,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 BufferUses
@@ -658,7 +658,7 @@ TextureFormatFeatureFlags
 )
 -
 >
-hal
+wgt
 :
 :
 TextureUses
@@ -667,7 +667,7 @@ let
 mut
 u
 =
-hal
+wgt
 :
 :
 TextureUses
@@ -681,7 +681,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -706,7 +706,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -731,7 +731,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -770,7 +770,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -795,7 +795,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -820,7 +820,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -862,7 +862,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -890,7 +890,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -898,7 +898,7 @@ TextureUses
 :
 DEPTH_STENCIL_READ
 |
-hal
+wgt
 :
 :
 TextureUses
@@ -927,7 +927,7 @@ u
 .
 set
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -965,7 +965,7 @@ TextureFormatFeatures
 )
 -
 >
-hal
+wgt
 :
 :
 TextureUses
@@ -996,7 +996,7 @@ is_depth_stencil_format
 (
 )
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -1021,7 +1021,7 @@ TextureUsages
 COPY_DST
 )
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -1061,7 +1061,7 @@ TextureDimension
 :
 D2
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -1071,7 +1071,7 @@ COLOR_TARGET
 }
 else
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -1087,7 +1087,7 @@ map_texture_usage_from_hal
 (
 uses
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -1128,7 +1128,7 @@ uses
 .
 contains
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -1153,7 +1153,7 @@ uses
 .
 contains
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -1178,7 +1178,7 @@ uses
 .
 contains
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -1203,7 +1203,7 @@ uses
 .
 intersects
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -1211,7 +1211,7 @@ TextureUses
 :
 STORAGE_READ_ONLY
 |
-hal
+wgt
 :
 :
 TextureUses
@@ -1219,7 +1219,7 @@ TextureUses
 :
 STORAGE_WRITE_ONLY
 |
-hal
+wgt
 :
 :
 TextureUses
@@ -1244,7 +1244,7 @@ uses
 .
 contains
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -1269,7 +1269,7 @@ uses
 .
 contains
 (
-hal
+wgt
 :
 :
 TextureUses

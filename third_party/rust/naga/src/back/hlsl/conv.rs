@@ -973,6 +973,15 @@ int
 Self
 :
 :
+R64Uint
+=
+>
+"
+uint64_t
+"
+Self
+:
+:
 Rg16Float
 |
 Self
@@ -982,7 +991,7 @@ Rg32Float
 =
 >
 "
-float2
+float4
 "
 Self
 :
@@ -997,7 +1006,7 @@ Rg16Unorm
 >
 "
 unorm
-float2
+float4
 "
 Self
 :
@@ -1012,7 +1021,7 @@ Rg16Snorm
 >
 "
 snorm
-float2
+float4
 "
 Self
 :
@@ -1031,7 +1040,7 @@ Rg32Uint
 =
 >
 "
-int2
+int4
 "
 Self
 :
@@ -1050,7 +1059,7 @@ Rg32Sint
 =
 >
 "
-uint2
+uint4
 "
 Self
 :
@@ -1059,7 +1068,7 @@ Rg11b10Ufloat
 =
 >
 "
-float3
+float4
 "
 Self
 :

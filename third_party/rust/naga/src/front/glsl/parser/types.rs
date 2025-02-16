@@ -2593,6 +2593,15 @@ Sf
 :
 Rgba8Uint
 "
+r64ui
+"
+=
+>
+Sf
+:
+:
+R64Uint
+"
 rg32ui
 "
 =

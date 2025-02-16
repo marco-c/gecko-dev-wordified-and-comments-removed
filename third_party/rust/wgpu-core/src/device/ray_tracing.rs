@@ -819,7 +819,7 @@ as
 u64
 usage
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -827,7 +827,7 @@ BufferUses
 :
 COPY_DST
 |
-hal
+wgt
 :
 :
 BufferUses

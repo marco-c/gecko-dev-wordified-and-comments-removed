@@ -6461,6 +6461,16 @@ R11fG11fB10f
 Sf
 :
 :
+R64Uint
+=
+>
+Self
+:
+:
+R64ui
+Sf
+:
+:
 Rg32Uint
 =
 >

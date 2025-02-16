@@ -2356,16 +2356,11 @@ binding
 {
 Some
 (
-ref
 br
 )
 =
 >
 br
-.
-clone
-(
-)
 None
 =
 >
@@ -2856,7 +2851,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -2874,7 +2869,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses

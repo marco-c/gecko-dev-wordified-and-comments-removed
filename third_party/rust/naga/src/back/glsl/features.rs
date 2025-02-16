@@ -2443,6 +2443,11 @@ Rg11b10Ufloat
 StorageFormat
 :
 :
+R64Uint
+|
+StorageFormat
+:
+:
 Rg32Uint
 |
 StorageFormat

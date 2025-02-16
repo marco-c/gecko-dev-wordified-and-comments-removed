@@ -1075,11 +1075,11 @@ vertex_stride
 :
 BufferAddress
 pub
-index_buffer_offset
+first_index
 :
 Option
 <
-BufferAddress
+u32
 >
 pub
 transform_buffer_offset
@@ -1217,7 +1217,7 @@ f32
 12
 ]
 pub
-custom_index
+custom_data
 :
 u32
 pub
@@ -1441,11 +1441,11 @@ vertex_stride
 :
 BufferAddress
 pub
-index_buffer_offset
+first_index
 :
 Option
 <
-BufferAddress
+u32
 >
 pub
 transform_buffer_offset
@@ -1587,7 +1587,7 @@ f32
 12
 ]
 pub
-custom_index
+custom_data
 :
 u32
 pub

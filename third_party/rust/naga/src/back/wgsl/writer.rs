@@ -13650,6 +13650,15 @@ rg11b10float
 Sf
 :
 :
+R64Uint
+=
+>
+"
+r64uint
+"
+Sf
+:
+:
 Rg32Uint
 =
 >

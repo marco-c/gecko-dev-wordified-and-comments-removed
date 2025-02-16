@@ -1885,7 +1885,7 @@ from
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -1990,7 +1990,7 @@ let
 mut
 combined_usage
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2015,7 +2015,7 @@ from
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2359,7 +2359,7 @@ super
 Texture
 _src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -2590,7 +2590,7 @@ super
 Texture
 _src_usage
 :
-crate
+wgt
 :
 :
 TextureUses

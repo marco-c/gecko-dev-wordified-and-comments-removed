@@ -583,6 +583,10 @@ texture_memory
 :
 InternalCounter
 pub
+acceleration_structure_memory
+:
+InternalCounter
+pub
 memory_allocations
 :
 InternalCounter

@@ -2806,6 +2806,12 @@ Vec
 <
 Word
 >
+ray_get_intersection_function
+:
+Option
+<
+Word
+>
 }
 bitflags
 :

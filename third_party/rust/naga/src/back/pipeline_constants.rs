@@ -49,6 +49,12 @@ WithSpan
 }
 ;
 use
+hashbrown
+:
+:
+HashSet
+;
+use
 std
 :
 :
@@ -57,10 +63,6 @@ borrow
 :
 :
 Cow
-collections
-:
-:
-HashSet
 mem
 }
 ;

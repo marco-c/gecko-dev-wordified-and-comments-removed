@@ -453,7 +453,11 @@ dxc_container
 match
 desc
 .
-dx12_shader_compiler
+backend_options
+.
+dx12
+.
+shader_compiler
 .
 clone
 (

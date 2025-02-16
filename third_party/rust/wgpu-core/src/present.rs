@@ -638,13 +638,13 @@ UnsupportedUsage
 {
 requested
 :
-hal
+wgt
 :
 :
 TextureUses
 available
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -1132,7 +1132,7 @@ TextureViewDimension
 D2
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -1297,7 +1297,7 @@ insert_single
 (
 &
 texture
-hal
+wgt
 :
 :
 TextureUses

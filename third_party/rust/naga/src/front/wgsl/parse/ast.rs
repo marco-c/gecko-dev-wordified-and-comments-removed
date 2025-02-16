@@ -521,6 +521,10 @@ Binding
 a
 >
 >
+pub
+must_use
+:
+bool
 }
 #
 [

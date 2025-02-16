@@ -1625,7 +1625,7 @@ super
 Texture
 src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -1939,7 +1939,7 @@ super
 Texture
 src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -6345,7 +6345,7 @@ conv
 :
 derive_image_layout
 (
-crate
+wgt
 :
 :
 TextureUses

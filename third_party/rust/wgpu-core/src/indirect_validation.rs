@@ -1323,7 +1323,7 @@ get
 )
 usage
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -1331,7 +1331,7 @@ BufferUses
 :
 INDIRECT
 |
-hal
+wgt
 :
 :
 BufferUses

@@ -92,10 +92,7 @@ SnatchGuard
 track
 :
 :
-{
-TextureSelector
 TextureTrackerSetSingle
-}
 }
 ;
 use
@@ -117,6 +114,7 @@ BufferAddress
 BufferUsages
 ImageSubresourceRange
 TextureAspect
+TextureSelector
 }
 ;
 #
@@ -761,7 +759,7 @@ set_single
 (
 &
 dst_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -1642,7 +1640,7 @@ TextureClearMode
 BufferCopy
 =
 >
-hal
+wgt
 :
 :
 TextureUses
@@ -1662,7 +1660,7 @@ false
 }
 =
 >
-hal
+wgt
 :
 :
 TextureUses
@@ -1692,7 +1690,7 @@ true
 =
 >
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -2511,7 +2509,7 @@ depth_or_layer
 )
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -2598,7 +2596,7 @@ depth_or_layer
 )
 usage
 :
-hal
+wgt
 :
 :
 TextureUses

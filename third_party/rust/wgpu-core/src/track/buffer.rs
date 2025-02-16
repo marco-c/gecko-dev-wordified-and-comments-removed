@@ -52,10 +52,7 @@ use
 hal
 :
 :
-{
 BufferBarrier
-BufferUses
-}
 ;
 use
 wgt
@@ -64,6 +61,7 @@ wgt
 {
 strict_assert
 strict_assert_eq
+BufferUses
 }
 ;
 impl

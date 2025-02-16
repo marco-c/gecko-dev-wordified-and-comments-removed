@@ -32,7 +32,6 @@ Rect
 RenderPassDescriptor
 TextureBarrier
 TextureCopy
-TextureUses
 }
 ;
 use
@@ -236,6 +235,9 @@ dyn
 DynTexture
 src_usage
 :
+wgt
+:
+:
 TextureUses
 dst
 :
@@ -288,6 +290,9 @@ src
 dyn
 DynTexture
 src_usage
+:
+wgt
+:
 :
 TextureUses
 dst
@@ -1400,6 +1405,9 @@ dyn
 DynTexture
 src_usage
 :
+wgt
+:
+:
 TextureUses
 dst
 :
@@ -1535,6 +1543,9 @@ src
 dyn
 DynTexture
 src_usage
+:
+wgt
+:
 :
 TextureUses
 dst

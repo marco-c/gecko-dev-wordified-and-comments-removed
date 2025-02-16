@@ -10,7 +10,7 @@ wgt
 TextureFormat
 usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -23,7 +23,7 @@ metal
 MTLTextureUsage
 {
 use
-crate
+wgt
 :
 :
 TextureUses

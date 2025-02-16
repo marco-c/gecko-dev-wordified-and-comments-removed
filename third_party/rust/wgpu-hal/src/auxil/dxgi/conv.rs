@@ -373,6 +373,13 @@ DXGI_FORMAT_R11G11B10_FLOAT
 Tf
 :
 :
+R64Uint
+=
+>
+DXGI_FORMAT_R32G32_UINT
+Tf
+:
+:
 Rg32Uint
 =
 >
@@ -1204,7 +1211,7 @@ wgt
 TextureFormat
 usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -1351,7 +1358,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -1359,7 +1366,7 @@ TextureUses
 :
 RESOURCE
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -1367,7 +1374,7 @@ TextureUses
 :
 STORAGE_READ_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -1375,7 +1382,7 @@ TextureUses
 :
 STORAGE_WRITE_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses

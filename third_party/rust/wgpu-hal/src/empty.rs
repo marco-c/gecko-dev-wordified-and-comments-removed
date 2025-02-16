@@ -2053,7 +2053,7 @@ src
 Resource
 src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -2107,7 +2107,7 @@ src
 Resource
 src_usage
 :
-crate
+wgt
 :
 :
 TextureUses

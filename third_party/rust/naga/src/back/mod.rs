@@ -242,10 +242,7 @@ pub
 type
 PipelineConstants
 =
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap

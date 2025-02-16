@@ -121,7 +121,7 @@ types
 version
 =
 "
-23
+24
 .
 0
 .
@@ -328,6 +328,18 @@ serde
 [
 dependencies
 .
+log
+]
+version
+=
+"
+0
+.
+4
+"
+[
+dependencies
+.
 serde
 ]
 version
@@ -391,7 +403,7 @@ version
 .
 0
 .
-134
+138
 "
 [
 features

@@ -6,10 +6,7 @@ K
 V
 >
 =
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap
@@ -38,10 +35,7 @@ FastHashSet
 K
 >
 =
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashSet
