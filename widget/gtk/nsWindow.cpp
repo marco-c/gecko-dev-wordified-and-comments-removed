@@ -4493,11 +4493,8 @@ false
 GtkBorder
 decorationSize
 =
-GetCSDDecorationSize
+GetTopLevelCSDDecorationSize
 (
-IsPopup
-(
-)
 )
 ;
 *
@@ -16573,11 +16570,8 @@ nsSizeMode_Normal
 {
 decorationRect
 =
-GetCSDDecorationSize
+GetTopLevelCSDDecorationSize
 (
-IsPopup
-(
-)
 )
 ;
 }

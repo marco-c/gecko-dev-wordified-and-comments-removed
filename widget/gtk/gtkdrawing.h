@@ -661,10 +661,8 @@ aReversedButtonsPlacement
 )
 ;
 GtkBorder
-GetCSDDecorationSize
+GetTopLevelCSDDecorationSize
 (
-bool
-aIsPopup
 )
 ;
 #
