@@ -1729,11 +1729,6 @@ CompleteMigrations
 (
 )
 ;
-void
-InitRemotePermissionService
-(
-)
-;
 bool
 mMemoryOnlyDB
 ;
