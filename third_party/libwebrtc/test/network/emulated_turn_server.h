@@ -98,6 +98,10 @@ public
 :
 EmulatedTURNServer
 (
+const
+EmulatedTURNServerConfig
+&
+config
 std
 :
 :
