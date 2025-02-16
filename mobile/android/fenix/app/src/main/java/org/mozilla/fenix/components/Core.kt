@@ -3733,7 +3733,7 @@ count
 )
 maxCacheAgeInSeconds
 =
-CONTILE_MAX_CACHE_AGE
+MARS_TOP_SITES_MAX_CACHE_AGE
 )
 }
 Suppress
@@ -4373,6 +4373,16 @@ CONTILE_MAX_CACHE_AGE
 /
 /
 60
+minutes
+private
+const
+val
+MARS_TOP_SITES_MAX_CACHE_AGE
+=
+1800L
+/
+/
+30
 minutes
 const
 val
