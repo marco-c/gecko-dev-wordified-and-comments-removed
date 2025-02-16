@@ -1276,6 +1276,12 @@ client
 total
 )
 {
+ChromeUtils
+.
+clearScriptCache
+(
+)
+;
 const
 RESPONSE
 =

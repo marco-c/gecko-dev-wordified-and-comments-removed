@@ -1379,6 +1379,12 @@ client
 total
 )
 {
+ChromeUtils
+.
+clearScriptCache
+(
+)
+;
 const
 REQUEST
 =
