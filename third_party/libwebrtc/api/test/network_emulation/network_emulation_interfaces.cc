@@ -114,6 +114,8 @@ Timestamp
 arrival_time
 uint16_t
 application_overhead
+EcnMarking
+ecn
 )
 :
 from
@@ -150,6 +152,10 @@ kUdpHeaderSize
 arrival_time
 (
 arrival_time
+)
+ecn
+(
+ecn
 )
 {
 RTC_DCHECK
