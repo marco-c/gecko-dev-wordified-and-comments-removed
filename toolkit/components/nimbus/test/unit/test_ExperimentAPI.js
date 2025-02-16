@@ -3778,7 +3778,7 @@ stub
 (
 RemoteSettingsExperimentLoader
 "
-updatingRecipes
+finishedUpdating
 "
 )
 .
@@ -3981,7 +3981,7 @@ stub
 (
 RemoteSettingsExperimentLoader
 "
-updatingRecipes
+finishedUpdating
 "
 )
 .

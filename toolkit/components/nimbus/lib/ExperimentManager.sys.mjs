@@ -3002,7 +3002,7 @@ lazy
 .
 RemoteSettingsExperimentLoader
 .
-updatingRecipes
+finishedUpdating
 (
 )
 ;
@@ -3188,7 +3188,7 @@ lazy
 .
 RemoteSettingsExperimentLoader
 .
-updatingRecipes
+finishedUpdating
 (
 )
 ;
