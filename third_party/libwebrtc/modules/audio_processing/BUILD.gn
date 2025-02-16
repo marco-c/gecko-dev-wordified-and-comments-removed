@@ -742,11 +742,6 @@ sources
 =
 [
 "
-audio_processing_builder_impl
-.
-cc
-"
-"
 audio_processing_impl
 .
 cc
