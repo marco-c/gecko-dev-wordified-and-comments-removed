@@ -4612,6 +4612,8 @@ opcode
 )
 ;
 }
+#
+endif
 const
 char
 *
@@ -12338,8 +12340,6 @@ unknown
 ;
 }
 }
-#
-endif
 bool
 UnsetLocalsState
 :

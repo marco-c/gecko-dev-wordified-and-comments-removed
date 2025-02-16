@@ -313,6 +313,9 @@ callRefMetricsPatches
 FuncIonPerfSpewerVector
 funcIonSpewers
 ;
+FuncBaselinePerfSpewerVector
+funcBaselineSpewers
+;
 FeatureUsage
 featureUsage
 ;
@@ -410,6 +413,12 @@ clear
 )
 ;
 funcIonSpewers
+.
+clear
+(
+)
+;
+funcBaselineSpewers
 .
 clear
 (
@@ -521,6 +530,13 @@ empty
 &
 &
 funcIonSpewers
+.
+empty
+(
+)
+&
+&
+funcBaselineSpewers
 .
 empty
 (
@@ -977,6 +993,9 @@ callSiteTargets_
 ;
 FuncIonPerfSpewerVector
 funcIonSpewers_
+;
+FuncBaselinePerfSpewerVector
+funcBaselineSpewers_
 ;
 uint32_t
 lastPatchedCallSite_

@@ -7,6 +7,15 @@ wasm_wasm_baseline_object_h
 #
 include
 "
+jit
+/
+PerfSpewer
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBCDefs
@@ -557,6 +566,9 @@ alloc_
 MacroAssembler
 &
 masm
+;
+WasmBaselinePerfSpewer
+perfSpewer_
 ;
 Decoder
 &
