@@ -508,13 +508,6 @@ android
 ]
 [
 "
-test_TelemetryAndroidEnvironment
-.
-js
-"
-]
-[
-"
 test_TelemetryClientID_reset
 .
 js
