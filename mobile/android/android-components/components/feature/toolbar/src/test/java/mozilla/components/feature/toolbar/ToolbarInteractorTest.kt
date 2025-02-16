@@ -617,6 +617,10 @@ String
 String
 >
 ?
+originalInput
+:
+String
+?
 )
 {
 useCaseInvokedWithUrl
