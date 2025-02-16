@@ -1884,7 +1884,7 @@ connection
 /
 p2p
 :
-port_allocator
+port
 "
 "
 .
@@ -1892,7 +1892,7 @@ port_allocator
 /
 p2p
 :
-rtc_p2p
+port_allocator
 "
 "
 .
@@ -5251,14 +5251,6 @@ port_allocator
 .
 .
 /
-p2p
-:
-rtc_p2p
-"
-"
-.
-.
-/
 rtc_base
 :
 macromagic
@@ -6925,7 +6917,7 @@ scoped_refptr
 /
 p2p
 :
-rtc_p2p
+port_allocator
 "
 "
 .
@@ -8070,7 +8062,7 @@ time_controller
 /
 p2p
 :
-rtc_p2p
+p2p_constants
 "
 "
 .
