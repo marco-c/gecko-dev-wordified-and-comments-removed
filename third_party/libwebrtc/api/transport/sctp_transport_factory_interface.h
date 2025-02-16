@@ -26,12 +26,8 @@ cricket
 class
 SctpTransportInternal
 ;
-}
-namespace
-rtc
-{
 class
-PacketTransportInternal
+DtlsTransportInternal
 ;
 }
 namespace
@@ -67,10 +63,10 @@ const
 Environment
 &
 env
-rtc
+cricket
 :
 :
-PacketTransportInternal
+DtlsTransportInternal
 *
 channel
 )

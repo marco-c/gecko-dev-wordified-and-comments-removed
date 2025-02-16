@@ -92,10 +92,7 @@ webrtc
 Environment
 &
 env
-rtc
-:
-:
-PacketTransportInternal
+DtlsTransportInternal
 *
 transport
 )
