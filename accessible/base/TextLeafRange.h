@@ -861,6 +861,7 @@ FunctionRef
 <
 void
 (
+TextLeafRange
 LayoutDeviceIntRect
 )
 >
