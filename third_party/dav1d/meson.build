@@ -252,7 +252,7 @@ version
 .
 5
 .
-0
+1
 '
 default_options
 :
@@ -1252,7 +1252,7 @@ COPYRIGHT_YEARS
 '
 2018
 -
-2024
+2025
 '
 )
 else
