@@ -1188,6 +1188,17 @@ macromagic
 /
 rtc_base
 :
+safe_compare
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 safe_conversions
 "
 "

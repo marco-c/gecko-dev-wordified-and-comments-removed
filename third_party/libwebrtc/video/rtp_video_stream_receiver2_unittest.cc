@@ -7703,7 +7703,7 @@ frame_number
 DependencyDescriptor
 deltaframe2_descriptor
 ;
-deltaframe1_descriptor
+deltaframe2_descriptor
 .
 frame_dependencies
 =
