@@ -159,6 +159,19 @@ ref
     
 r
 "
+windows11
+-
+64
+-
+24h2
+-
+hw
+-
+ref
+"
+    
+r
+"
 windows10
 -
 aarch64
