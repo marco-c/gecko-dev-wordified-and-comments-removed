@@ -1042,9 +1042,11 @@ setAttributes
 (
 button
 "
-tabbrowser
+all
 -
-manager
+tabs
+-
+menu
 -
 tab
 -
@@ -1052,7 +1054,7 @@ groups
 -
 show
 -
-more
+all
 "
 )
 ;
