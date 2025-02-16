@@ -1272,6 +1272,7 @@ className
 :
 tabClassName
 title
+tooltip
 badge
 showBadge
 }
@@ -1398,6 +1399,11 @@ isTabSelected
 :
 -
 1
+title
+:
+tooltip
+|
+|
 title
 "
 aria
