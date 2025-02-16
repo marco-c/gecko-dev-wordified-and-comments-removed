@@ -90,7 +90,6 @@ size_delta
 BandwidthUsage
 current_hypothesis
 int64_t
-now_ms
 )
 {
 const

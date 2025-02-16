@@ -2138,9 +2138,7 @@ ScreenshareLayers
 OnFrameDropped
 (
 size_t
-stream_index
 uint32_t
-rtp_timestamp
 )
 {
 layers_
@@ -2172,7 +2170,6 @@ ScreenshareLayers
 OnPacketLossRateUpdate
 (
 float
-packet_loss_rate
 )
 {
 }
@@ -2183,7 +2180,6 @@ ScreenshareLayers
 OnRttUpdate
 (
 int64_t
-rtt_ms
 )
 {
 }
@@ -2199,7 +2195,6 @@ VideoEncoder
 :
 LossNotification
 &
-loss_notification
 )
 {
 }

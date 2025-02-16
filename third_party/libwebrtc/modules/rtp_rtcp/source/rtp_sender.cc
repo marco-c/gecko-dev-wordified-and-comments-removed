@@ -1642,7 +1642,6 @@ RTPSender
 OnReceivedAckOnSsrc
 (
 int64_t
-extended_highest_sequence_number
 )
 {
 MutexLock
@@ -1680,7 +1679,6 @@ RTPSender
 OnReceivedAckOnRtxSsrc
 (
 int64_t
-extended_highest_sequence_number
 )
 {
 MutexLock

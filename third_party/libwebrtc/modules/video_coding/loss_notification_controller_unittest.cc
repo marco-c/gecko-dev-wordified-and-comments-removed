@@ -92,7 +92,6 @@ CreatePacket
 bool
 first_in_frame
 bool
-last_in_frame
 uint16_t
 seq_num
 uint16_t

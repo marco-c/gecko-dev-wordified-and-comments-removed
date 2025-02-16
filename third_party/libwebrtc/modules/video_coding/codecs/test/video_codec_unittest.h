@@ -269,7 +269,6 @@ Decoded
 (
 VideoFrame
 &
-frame
 )
 override
 {
@@ -287,9 +286,7 @@ Decoded
 (
 VideoFrame
 &
-frame
 int64_t
-decode_time_ms
 )
 override
 {

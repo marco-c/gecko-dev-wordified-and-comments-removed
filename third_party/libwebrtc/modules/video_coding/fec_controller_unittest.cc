@@ -116,11 +116,9 @@ ProtectionRequest
 const
 FecProtectionParams
 *
-delta_params
 const
 FecProtectionParams
 *
-key_params
 uint32_t
 *
 sent_video_rate_bps
@@ -156,7 +154,6 @@ void
 SetRetransmissionMode
 (
 int
-retransmission_mode
 )
 {
 }

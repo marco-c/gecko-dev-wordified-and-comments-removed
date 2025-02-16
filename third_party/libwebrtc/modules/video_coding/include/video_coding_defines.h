@@ -200,7 +200,6 @@ FrameToRender
 (
 VideoFrame
 &
-videoFrame
 std
 :
 :
@@ -208,13 +207,9 @@ optional
 <
 uint8_t
 >
-qp
 TimeDelta
-decode_time
 VideoContentType
-content_type
 VideoFrameType
-frame_type
 )
 {
 RTC_CHECK_NOTREACHED

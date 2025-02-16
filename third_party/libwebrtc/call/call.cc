@@ -877,7 +877,6 @@ std
 :
 string
 &
-mid
 cricket
 :
 :
@@ -905,9 +904,7 @@ std
 :
 string
 &
-mid
 PayloadType
-payload_type
 const
 cricket
 :

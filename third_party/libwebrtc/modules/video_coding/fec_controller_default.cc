@@ -362,7 +362,6 @@ vector
 <
 bool
 >
-loss_mask_vector
 int64_t
 round_trip_time_ms
 )

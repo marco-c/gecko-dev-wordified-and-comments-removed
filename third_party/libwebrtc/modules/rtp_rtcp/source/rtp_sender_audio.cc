@@ -276,10 +276,8 @@ uint32_t
 frequency
 const
 size_t
-channels
 const
 uint32_t
-rate
 )
 {
 if

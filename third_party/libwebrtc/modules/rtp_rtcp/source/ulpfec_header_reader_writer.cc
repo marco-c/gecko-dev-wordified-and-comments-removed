@@ -386,7 +386,6 @@ MinPacketMaskSize
 const
 uint8_t
 *
-packet_mask
 size_t
 packet_mask_size
 )

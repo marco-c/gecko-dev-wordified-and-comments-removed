@@ -1190,9 +1190,7 @@ SetQpLimits
 size_t
 stream_index
 int
-min_qp
 int
-max_qp
 )
 {
 RTC_DCHECK_LT
@@ -1259,7 +1257,6 @@ uint32_t
 &
 bitrates_bps
 int
-framerate_fps
 )
 {
 RTC_DCHECK_LT
@@ -2246,7 +2243,6 @@ size_bytes
 bool
 is_keyframe
 int
-qp
 CodecSpecificInfo
 *
 info
@@ -2790,7 +2786,6 @@ DefaultTemporalLayers
 OnFrameDropped
 (
 size_t
-stream_index
 uint32_t
 rtp_timestamp
 )
@@ -2836,7 +2831,6 @@ DefaultTemporalLayers
 OnPacketLossRateUpdate
 (
 float
-packet_loss_rate
 )
 {
 }
@@ -2847,7 +2841,6 @@ DefaultTemporalLayers
 OnRttUpdate
 (
 int64_t
-rtt_ms
 )
 {
 }
@@ -2863,7 +2856,6 @@ VideoEncoder
 :
 LossNotification
 &
-loss_notification
 )
 {
 }

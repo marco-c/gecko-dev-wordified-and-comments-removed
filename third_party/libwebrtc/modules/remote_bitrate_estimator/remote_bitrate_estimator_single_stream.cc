@@ -962,7 +962,6 @@ OnRttUpdate
 int64_t
 avg_rtt_ms
 int64_t
-max_rtt_ms
 )
 {
 remote_rate_

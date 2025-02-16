@@ -1413,7 +1413,6 @@ SetSendingStatus
 const
 FeedbackState
 &
-feedback_state
 bool
 sending
 )
@@ -2391,7 +2390,6 @@ BuildSDES
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -2515,7 +2513,6 @@ BuildPLI
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -2564,7 +2561,6 @@ BuildFIR
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -2618,7 +2614,6 @@ BuildREMB
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -2920,7 +2915,6 @@ BuildTMMBN
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -2989,7 +2983,6 @@ BuildAPP
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -3025,7 +3018,6 @@ BuildLossNotification
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender
@@ -3174,7 +3166,6 @@ BuildBYE
 const
 RtcpContext
 &
-ctx
 PacketSender
 &
 sender

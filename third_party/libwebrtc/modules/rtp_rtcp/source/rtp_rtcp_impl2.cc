@@ -979,7 +979,6 @@ DeRegisterSendPayload
 (
 const
 int8_t
-payload_type
 )
 {
 return

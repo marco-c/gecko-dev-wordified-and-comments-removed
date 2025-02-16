@@ -210,7 +210,6 @@ OnRecoveredPacket
 const
 RtpPacketReceived
 &
-packet
 )
 override
 {

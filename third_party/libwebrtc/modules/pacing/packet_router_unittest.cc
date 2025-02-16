@@ -1796,7 +1796,6 @@ WillOnce
 ]
 (
 size_t
-target_size_bytes
 )
 {
 last_send_module
@@ -1856,7 +1855,6 @@ WillOnce
 ]
 (
 size_t
-target_size_bytes
 )
 {
 last_send_module
@@ -2268,7 +2266,6 @@ packet
 const
 PacedPacketInfo
 &
-pacing_info
 )
 {
 EXPECT_EQ
@@ -2767,7 +2764,6 @@ WillOnce
 const
 RtpPacketToSend
 &
-packet
 )
 {
 return
@@ -2849,7 +2845,6 @@ packet
 const
 PacedPacketInfo
 &
-pacing_info
 )
 {
 EXPECT_EQ

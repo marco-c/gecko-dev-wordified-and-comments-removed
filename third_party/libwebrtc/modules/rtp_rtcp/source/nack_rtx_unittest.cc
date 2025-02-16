@@ -414,7 +414,6 @@ data
 const
 PacketOptions
 &
-options
 )
 override
 {

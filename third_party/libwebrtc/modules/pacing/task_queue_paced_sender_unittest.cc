@@ -809,11 +809,9 @@ unique_ptr
 <
 RtpPacketToSend
 >
-packet
 const
 PacedPacketInfo
 &
-cluster_info
 )
 {
 +
@@ -1067,11 +1065,9 @@ unique_ptr
 <
 RtpPacketToSend
 >
-packet
 const
 PacedPacketInfo
 &
-cluster_info
 )
 {
 +
@@ -1356,7 +1352,6 @@ unique_ptr
 <
 RtpPacketToSend
 >
-packet
 const
 PacedPacketInfo
 &

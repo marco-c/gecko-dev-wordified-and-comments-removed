@@ -9171,7 +9171,6 @@ UpdateReferenceBuffers
 const
 vpx_codec_cx_pkt
 &
-pkt
 const
 size_t
 pic_num

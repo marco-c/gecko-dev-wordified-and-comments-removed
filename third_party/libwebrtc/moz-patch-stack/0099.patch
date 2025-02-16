@@ -130,10 +130,10 @@ video_capture_factory
 .
 cc
 index
-e085ac2df8
+127bb06a2e
 .
 .
-2790fbbe1c
+0d12966c2e
 100644
 -
 -
@@ -177,6 +177,11 @@ VideoCaptureFactory
 :
 Create
 (
+[
+[
+maybe_unused
+]
+]
 const
 char
 *
@@ -270,6 +275,11 @@ VideoCaptureFactory
 :
 CreateDeviceInfo
 (
+[
+[
+maybe_unused
+]
+]
 VideoCaptureOptions
 *
 options

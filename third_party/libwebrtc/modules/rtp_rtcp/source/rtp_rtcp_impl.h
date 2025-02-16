@@ -579,7 +579,6 @@ void
 SetNonSenderRttMeasurement
 (
 bool
-enabled
 )
 override
 {
@@ -752,7 +751,6 @@ CanSendPacket
 const
 RtpPacketToSend
 &
-packet
 )
 const
 override
@@ -776,7 +774,6 @@ AssignSequenceNumber
 (
 RtpPacketToSend
 &
-packet
 )
 override
 {
@@ -801,11 +798,9 @@ unique_ptr
 <
 RtpPacketToSend
 >
-packet
 const
 PacedPacketInfo
 &
-pacing_info
 )
 override
 {

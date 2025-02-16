@@ -353,10 +353,8 @@ NullFreeCallback
 const
 uint8_t
 *
-buffer
 void
 *
-opaque
 )
 {
 }

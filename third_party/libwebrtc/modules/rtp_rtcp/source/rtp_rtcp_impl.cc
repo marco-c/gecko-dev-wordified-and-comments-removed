@@ -1185,7 +1185,6 @@ DeRegisterSendPayload
 (
 const
 int8_t
-payload_type
 )
 {
 return
@@ -2178,7 +2177,6 @@ ArrayView
 const
 uint16_t
 >
-sequence_numbers
 )
 {
 RTC_DCHECK_NOTREACHED

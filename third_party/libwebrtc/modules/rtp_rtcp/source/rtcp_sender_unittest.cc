@@ -543,7 +543,6 @@ uint8_t
 const
 PacketOptions
 &
-options
 )
 override
 {

@@ -418,7 +418,6 @@ int
 ConfigureFrame
 (
 bool
-key_frame
 )
 {
 tl_config_

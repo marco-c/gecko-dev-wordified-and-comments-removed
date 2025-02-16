@@ -5716,7 +5716,6 @@ ValueSize
 const
 UncopyableValue
 &
-value
 )
 {
 return
@@ -5734,11 +5733,9 @@ ArrayView
 <
 uint8_t
 >
-data
 const
 UncopyableValue
 &
-value
 )
 {
 return
@@ -5757,10 +5754,8 @@ ArrayView
 const
 uint8_t
 >
-data
 UncopyableValue
 *
-value
 )
 {
 return
@@ -5906,9 +5901,7 @@ size_t
 ValueSize
 (
 uint8_t
-value1
 uint8_t
-value2
 )
 {
 return

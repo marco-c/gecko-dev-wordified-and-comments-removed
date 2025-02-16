@@ -217,7 +217,6 @@ size_t
 ValueSize
 (
 uint32_t
-time_24bits
 )
 {
 return
@@ -555,7 +554,6 @@ ValueSize
 const
 AudioLevel
 &
-extension
 )
 {
 return
@@ -755,7 +753,6 @@ size_t
 ValueSize
 (
 int32_t
-rtp_time
 )
 {
 return
@@ -1112,7 +1109,6 @@ size_t
 ValueSize
 (
 uint8_t
-value
 )
 {
 return
@@ -1483,9 +1479,7 @@ size_t
 ValueSize
 (
 uint16_t
-time_delta_ms
 uint8_t
-idx
 )
 {
 return
@@ -2162,7 +2156,6 @@ optional
 <
 uint8_t
 >
-level
 )
 {
 return

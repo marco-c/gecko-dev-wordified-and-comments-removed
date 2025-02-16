@@ -143,11 +143,8 @@ void
 OnSenderReport
 (
 uint32_t
-sender_ssrc
 NtpTime
-ntp_time
 uint32_t
-rtp_time
 )
 {
 }
@@ -156,7 +153,6 @@ void
 OnBye
 (
 uint32_t
-sender_ssrc
 )
 {
 }
@@ -165,11 +161,9 @@ void
 OnBitrateAllocation
 (
 uint32_t
-sender_ssrc
 const
 VideoBitrateAllocation
 &
-allocation
 )
 {
 }
@@ -386,7 +380,6 @@ void
 OnNack
 (
 uint32_t
-sender_ssrc
 rtc
 :
 :
@@ -395,7 +388,6 @@ ArrayView
 const
 uint16_t
 >
-sequence_numbers
 )
 {
 }
@@ -404,7 +396,6 @@ void
 OnFir
 (
 uint32_t
-sender_ssrc
 )
 {
 }
@@ -413,7 +404,6 @@ void
 OnPli
 (
 uint32_t
-sender_ssrc
 )
 {
 }
@@ -424,7 +414,6 @@ OnReport
 const
 ReportBlockData
 &
-report_block
 )
 {
 }

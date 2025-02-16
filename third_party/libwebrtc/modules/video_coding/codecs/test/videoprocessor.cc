@@ -3990,9 +3990,7 @@ EncodedImage
 encoded_image
 const
 VideoCodecType
-codec
 size_t
-frame_number
 size_t
 spatial_idx
 bool
