@@ -1629,17 +1629,6 @@ RecvRecordUserActivationForBTP
 (
 )
 ;
-already_AddRefed
-<
-dom
-:
-:
-PWebAuthnTransactionParent
->
-AllocPWebAuthnTransactionParent
-(
-)
-;
 private
 :
 WindowGlobalParent

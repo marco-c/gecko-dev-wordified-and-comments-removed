@@ -222,6 +222,10 @@ PServiceWorkerRegistration
 ;
 include
 protocol
+PWebAuthnTransaction
+;
+include
+protocol
 PUDPSocket
 ;
 include
@@ -531,6 +535,9 @@ PServiceWorkerManager
 ;
 manages
 PServiceWorkerRegistration
+;
+manages
+PWebAuthnTransaction
 ;
 manages
 PUDPSocket
@@ -1052,6 +1059,11 @@ PHttpBackgroundChannel
 (
 uint64_t
 channelId
+)
+;
+async
+PWebAuthnTransaction
+(
 )
 ;
 async

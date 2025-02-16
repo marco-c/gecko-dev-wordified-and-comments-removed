@@ -1190,7 +1190,7 @@ dom
 /
 webauthn
 /
-WebAuthnTransactionParent
+WebAuthnManager
 .
 cpp
 .
@@ -1218,16 +1218,6 @@ challenge
 required
 DOMString
 origin
-;
-/
-/
-boolean
-crossOrigin
-;
-/
-/
-DOMString
-topOrigin
 ;
 /
 /
