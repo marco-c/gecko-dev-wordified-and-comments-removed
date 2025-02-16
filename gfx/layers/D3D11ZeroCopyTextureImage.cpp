@@ -386,6 +386,8 @@ CreateBGRA8DataSourceSurfaceForD3D11Texture
 (
 src
 mArrayIndex
+mColorSpace
+mColorRange
 )
 ;
 if
