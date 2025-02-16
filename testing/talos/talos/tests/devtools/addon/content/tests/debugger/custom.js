@@ -313,7 +313,6 @@ pauseDebuggerAndLog
 dbg
 tab
 EXPECTED_FUNCTION
-isCm6Enabled
 )
 ;
 await
@@ -322,7 +321,6 @@ stepDebuggerAndLog
 dbg
 tab
 EXPECTED_FUNCTION
-isCm6Enabled
 )
 ;
 await
@@ -381,7 +379,6 @@ pauseDebuggerAndLog
 dbg
 tab
 testFunction
-isCm6Enabled
 )
 {
 const
@@ -433,7 +430,6 @@ dbg
 tab
 testFunction
 pauseLocation
-isCm6Enabled
 )
 ;
 test
@@ -467,7 +463,6 @@ stepDebuggerAndLog
 dbg
 tab
 testFunction
-isCm6Enabled
 )
 {
 const
@@ -621,7 +616,6 @@ testFunction
 stepTest
 .
 location
-isCm6Enabled
 )
 ;
 const
@@ -667,7 +661,6 @@ dbg
 stepTest
 .
 stepType
-isCm6Enabled
 )
 ;
 }
@@ -1104,7 +1097,6 @@ dbg
 tab
 testFunction
 pauseLocation
-isCm6Enabled
 )
 ;
 await
@@ -1530,9 +1522,6 @@ onPaused
 waitForPaused
 (
 dbg
-{
-isCm6Enabled
-}
 )
 ;
 const
