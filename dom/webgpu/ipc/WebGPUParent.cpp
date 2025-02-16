@@ -7138,6 +7138,9 @@ gfx
 IntSize
 &
 aSize
+uint32_t
+&
+aByteStride
 )
 {
 const
@@ -7236,6 +7239,10 @@ aSize
 .
 width
 )
+;
+aByteStride
+=
+stride
 ;
 uint32_t
 len

@@ -1298,14 +1298,9 @@ stride
 =
 CheckedInt32
 (
-size
+res
 .
-width
-)
-*
-sizeof
-(
-uint32_t
+byteStride
 )
 ;
 if
