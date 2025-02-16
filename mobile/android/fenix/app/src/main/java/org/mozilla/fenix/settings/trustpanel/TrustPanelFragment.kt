@@ -851,6 +851,11 @@ listOf
 (
 TrustPanelMiddleware
 (
+appStore
+=
+components
+.
+appStore
 engine
 =
 components
