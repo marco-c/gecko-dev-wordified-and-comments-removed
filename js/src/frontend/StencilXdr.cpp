@@ -4889,7 +4889,9 @@ MOZ_ASSERT
 !
 stencil
 .
-asmJS
+hasAsmJS
+(
+)
 )
 ;
 if
@@ -9925,7 +9927,9 @@ if
 (
 stencil
 .
-asmJS
+hasAsmJS
+(
+)
 )
 {
 return
@@ -9966,7 +9970,9 @@ if
 (
 stencil
 .
-asmJS
+hasAsmJS
+(
+)
 )
 {
 return
