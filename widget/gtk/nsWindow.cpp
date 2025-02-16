@@ -4409,7 +4409,11 @@ sGdkWaylandDisplayPrefersSsd
 !
 sGdkWaylandDisplayPrefersSsd
 (
-GDK_WAYLAND_DISPLAY
+static_cast
+<
+GdkWaylandDisplay
+*
+>
 (
 gdk_display_get_default
 (
