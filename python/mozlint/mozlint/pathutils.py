@@ -1357,6 +1357,15 @@ if
 inc
 .
 isfile
+and
+path
+.
+path
+=
+=
+inc
+.
+path
 :
                 
 keep
@@ -1365,6 +1374,8 @@ add
 (
 inc
 )
+                
+continue
             
 excs
 =
