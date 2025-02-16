@@ -946,6 +946,9 @@ topSites
 emptyList
 (
 )
+isPinningSupported
+=
+null
 )
 )
 }

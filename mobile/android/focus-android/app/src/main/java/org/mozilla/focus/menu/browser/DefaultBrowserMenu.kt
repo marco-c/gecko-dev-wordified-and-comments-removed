@@ -305,11 +305,6 @@ store
 BrowserStore
 private
 val
-isPinningSupported
-:
-Boolean
-private
-val
 onItemTapped
 :
 (
@@ -1086,7 +1081,14 @@ selectedSession
 null
 &
 &
+appStore
+.
+state
+.
 isPinningSupported
+=
+=
+true
 val
 addToHomescreen
 =
