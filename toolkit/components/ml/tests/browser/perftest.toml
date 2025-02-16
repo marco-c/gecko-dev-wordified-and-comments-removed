@@ -11,6 +11,13 @@ head
 .
 js
 "
+"
+shared
+-
+head
+.
+js
+"
 ]
 [
 "

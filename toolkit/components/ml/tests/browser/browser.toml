@@ -47,6 +47,13 @@ head
 js
 "
 "
+shared
+-
+head
+.
+js
+"
+"
 data
 /
 *
