@@ -736,6 +736,17 @@ small
 Description
 *
 /
+:
+host
+(
+:
+state
+(
+has
+-
+description
+)
+)
 .
 description
 {
