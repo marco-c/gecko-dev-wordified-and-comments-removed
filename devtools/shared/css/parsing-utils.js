@@ -1130,6 +1130,11 @@ currentBlocks
 length
 )
 {
+if
+(
+inComment
+)
+{
 isInNested
 =
 true
@@ -1139,6 +1144,15 @@ nestingLevel
 1
 ;
 continue
+;
+}
+declarations
+.
+pop
+(
+)
+;
+break
 ;
 }
 else
