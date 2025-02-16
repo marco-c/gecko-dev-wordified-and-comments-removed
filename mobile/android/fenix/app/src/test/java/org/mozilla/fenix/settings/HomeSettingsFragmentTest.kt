@@ -1053,7 +1053,7 @@ false
 )
 pocketService
 .
-deleteProfile
+deleteUser
 (
 )
 appStore
