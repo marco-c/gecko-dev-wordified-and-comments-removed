@@ -244,7 +244,7 @@ enum
 class
 Metric
 :
-uint32_t
+uint64_t
 {
 #
 define
@@ -643,7 +643,7 @@ mRecordedStarts
 [
 static_cast
 <
-size_t
+uint64_t
 >
 (
 Metric
@@ -658,7 +658,7 @@ mRecordedTimes
 [
 static_cast
 <
-size_t
+uint64_t
 >
 (
 Metric
@@ -673,7 +673,7 @@ mRecordedCounts
 [
 static_cast
 <
-size_t
+uint64_t
 >
 (
 Metric
@@ -693,7 +693,13 @@ mStoredPerfStats
 ;
 static_assert
 (
+static_cast
+<
+uint64_t
+>
+(
 1
+)
 <
 <
 (
