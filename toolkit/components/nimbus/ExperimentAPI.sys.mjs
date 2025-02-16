@@ -655,7 +655,7 @@ lazy
 .
 RemoteSettingsExperimentLoader
 .
-enable
+init
 (
 )
 ;
@@ -722,7 +722,7 @@ of
 tests
 due
 to
-enabling
+initializing
 the
 *
 RemoteSettingsExperimentLoader
