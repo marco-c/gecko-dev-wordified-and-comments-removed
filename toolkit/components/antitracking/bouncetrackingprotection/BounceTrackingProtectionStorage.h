@@ -422,6 +422,10 @@ nodiscard
 nsresult
 CreateDatabaseConnection
 (
+bool
+aShouldRetry
+=
+true
 )
 ;
 [
