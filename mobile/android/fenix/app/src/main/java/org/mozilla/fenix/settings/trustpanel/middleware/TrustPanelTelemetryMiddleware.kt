@@ -250,6 +250,14 @@ NoExtras
 )
 )
 }
+is
+TrustPanelAction
+.
+UpdateNumberOfTrackersBlocked
+is
+TrustPanelAction
+.
+UpdateTrackersBlocked
 TrustPanelAction
 .
 Navigate
