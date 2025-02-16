@@ -19,6 +19,13 @@ h
 #
 include
 "
+TextDirectiveUtil
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -656,6 +663,9 @@ mTextDirective
 ;
 RangeContentCache
 mRangeContentCache
+;
+TimeoutWatchdog
+mWatchdog
 ;
 }
 ;
