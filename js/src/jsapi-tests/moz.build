@@ -810,13 +810,6 @@ cpp
 "
 "
 testJitMoveEmitterCycles
--
-mips32
-.
-cpp
-"
-"
-testJitMoveEmitterCycles
 .
 cpp
 "
