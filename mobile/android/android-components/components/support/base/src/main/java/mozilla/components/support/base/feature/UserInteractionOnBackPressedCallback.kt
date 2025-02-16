@@ -265,10 +265,6 @@ handleOnBackPressed
 (
 )
 {
-var
-onBackPressedHandled
-=
-false
 fragmentManager
 .
 primaryNavigationFragment
@@ -296,17 +292,9 @@ onBackPressed
 )
 )
 {
-onBackPressedHandled
-=
-true
+return
 }
 }
-if
-(
-!
-onBackPressedHandled
-)
-{
 val
 backStackCount
 =
@@ -376,7 +364,6 @@ fragmentManager
 popBackStack
 (
 )
-}
 }
 }
 }
