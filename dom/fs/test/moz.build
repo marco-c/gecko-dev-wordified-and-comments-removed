@@ -20,6 +20,15 @@ MOCHITEST_MANIFESTS
 mochitest
 /
 mochitest
+-
+private
+.
+toml
+"
+"
+mochitest
+/
+mochitest
 .
 toml
 "
