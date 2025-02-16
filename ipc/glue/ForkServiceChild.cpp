@@ -212,7 +212,7 @@ fds
 ;
 #
 ifdef
-SOCK_CLOXEC
+SOCK_CLOEXEC
 constexpr
 int
 type
