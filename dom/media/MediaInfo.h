@@ -1558,12 +1558,6 @@ aOther
 .
 mFrameRate
 ;
-mPixelAspectRatio
-=
-aOther
-.
-mPixelAspectRatio
-;
 }
 ;
 bool
@@ -2103,12 +2097,6 @@ aRate
 )
 ;
 }
-Maybe
-<
-float
->
-mPixelAspectRatio
-;
 private
 :
 friend
