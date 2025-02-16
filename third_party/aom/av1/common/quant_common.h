@@ -128,11 +128,11 @@ DEFAULT_QM_LAST_ALLINTRA
 10
 #
 define
-QM_FIRST_SSIMULACRA2
+QM_FIRST_IQ
 2
 #
 define
-QM_LAST_SSIMULACRA2
+QM_LAST_IQ
 10
 #
 define
@@ -363,7 +363,7 @@ last
 static
 inline
 int
-aom_get_qmlevel_luma_ssimulacra2
+aom_get_qmlevel_luma_iq
 (
 int
 qindex
@@ -508,7 +508,7 @@ last
 static
 inline
 int
-aom_get_qmlevel_444_chroma_ssimulacra2
+aom_get_qmlevel_444_chroma_iq
 (
 int
 qindex

@@ -260,7 +260,7 @@ tune_cfg
 tuning
 =
 =
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 )
 ;
 for
