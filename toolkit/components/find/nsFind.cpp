@@ -2679,6 +2679,8 @@ IsSpace
 (
 c
 )
+\
+(
 (
 nsCRT
 :
@@ -2695,6 +2697,16 @@ c
 =
 =
 NBSP_CHARCODE
+)
+&
+&
+(
+(
+c
+)
+<
+0x10000
+)
 )
 #
 define
