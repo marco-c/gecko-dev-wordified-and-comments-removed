@@ -275,6 +275,9 @@ events
 contexts
 =
 None
+user_contexts
+=
+None
 )
 :
         
@@ -293,16 +296,21 @@ events
 contexts
 =
 contexts
+user_contexts
+=
+user_contexts
 )
         
 subscriptions
 .
 append
 (
-(
-events
-contexts
-)
+result
+[
+"
+subscription
+"
+]
 )
         
 return
@@ -312,8 +320,7 @@ yield
 subscribe_events
     
 for
-events
-contexts
+subscription
 in
 reversed
 (
@@ -331,20 +338,15 @@ session
 .
 unsubscribe
 (
-events
+subscriptions
 =
-events
-                                                   
-contexts
-=
-contexts
+[
+subscription
+]
 )
         
 except
-(
 InvalidArgumentException
-NoSuchFrameException
-)
 :
             
 pass
