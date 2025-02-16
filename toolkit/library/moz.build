@@ -1092,7 +1092,7 @@ IOKit
 "
 "
 -
-framework
+weak_framework
 ScreenCaptureKit
 "
 "
