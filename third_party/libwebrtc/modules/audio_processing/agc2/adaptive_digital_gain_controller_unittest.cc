@@ -19,6 +19,11 @@ algorithm
 #
 include
 <
+cmath
+>
+#
+include
+<
 memory
 >
 #
