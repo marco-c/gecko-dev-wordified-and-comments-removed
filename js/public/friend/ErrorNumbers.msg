@@ -5337,12 +5337,12 @@ chain
 )
 MSG_DEF
 (
-JSMSG_IMPORT_ASSERTIONS_NOT_SUPPORTED
+JSMSG_IMPORT_ATTRIBUTES_NOT_SUPPORTED
 0
 JSEXN_SYNTAXERR
 "
 import
-assertions
+attributes
 are
 not
 currently
