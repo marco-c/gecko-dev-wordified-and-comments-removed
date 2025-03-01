@@ -311,6 +311,16 @@ yaml
 "
     
 "
+editor
+/
+libeditor
+/
+metrics
+.
+yaml
+"
+    
+"
 gfx
 /
 metrics
