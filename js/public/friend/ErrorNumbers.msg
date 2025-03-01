@@ -12700,12 +12700,13 @@ JSMSG_TEMPORAL_UNEXPECTED_PROPERTY
 1
 JSEXN_TYPEERR
 "
+expected
+property
 {
 0
 }
-property
-is
-not
+to
+be
 undefined
 "
 )
