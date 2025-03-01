@@ -1844,7 +1844,7 @@ test_pings
 yaml
 "
 ]
-pings_by_app_or_lib_id
+pings_by_app_id
 =
 {
     
@@ -1875,14 +1875,6 @@ gecko_pings
 +
 background_update_pings
     
-+
-test_pings
-    
-"
-gecko
-"
-:
-gecko_pings
 +
 test_pings
 }

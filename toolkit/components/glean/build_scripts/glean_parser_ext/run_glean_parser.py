@@ -1217,13 +1217,13 @@ pardir
 from
 metrics_index
 import
-pings_by_app_or_lib_id
+pings_by_app_id
     
 for
 app_id
 ping_yamls
 in
-pings_by_app_or_lib_id
+pings_by_app_id
 .
 items
 (
