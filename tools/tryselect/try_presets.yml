@@ -940,6 +940,12 @@ to
 the
 Firefox
 Devtools
+env
+:
+-
+MOZ_DEVTOOLS_TEST_SCOPES
+=
+1
 query
 :
 -
@@ -1103,6 +1109,12 @@ on
 Linux
 only
 .
+env
+:
+-
+MOZ_DEVTOOLS_TEST_SCOPES
+=
+1
 query
 :
 -
