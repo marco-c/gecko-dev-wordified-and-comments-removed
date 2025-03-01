@@ -353,6 +353,13 @@ py
 ]
 [
 "
+test_confvars
+.
+py
+"
+]
+[
+"
 test_containers
 .
 py
