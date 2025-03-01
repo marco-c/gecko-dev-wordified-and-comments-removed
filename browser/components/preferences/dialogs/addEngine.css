@@ -76,6 +76,8 @@ engineNameLabel
 #
 engineUrlLabel
 #
+suggestUrlLabel
+#
 engineAliasLabel
 {
 /
@@ -99,6 +101,8 @@ start
 }
 #
 engineUrl
+#
+suggestUrl
 {
 /
 *
