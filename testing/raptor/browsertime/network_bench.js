@@ -373,7 +373,7 @@ status
 "
 ;
 let
-bandwidth
+goodput
 =
 0
 ;
@@ -427,7 +427,7 @@ success
 )
 )
 {
-bandwidth
+goodput
 =
 parseFloat
 (
@@ -498,7 +498,7 @@ end
 :
 endtime
 status
-bandwidth
+goodput
 }
 ;
 }
@@ -815,7 +815,7 @@ results
 start
 ;
 let
-downloadBandwidth
+downloadGoodput
 =
 (
 file_size
@@ -858,11 +858,11 @@ downloadTime
 +
 "
 ms
-downloadBandwidth
+downloadGoodput
 :
 "
 +
-downloadBandwidth
+downloadGoodput
 +
 "
 Mbit
@@ -875,7 +875,7 @@ accumulatedResults
 .
 push
 (
-downloadBandwidth
+downloadGoodput
 )
 ;
 }
@@ -1163,7 +1163,7 @@ results
 start
 ;
 let
-uploadBandwidth
+uploadGoodput
 =
 Number
 .
@@ -1171,7 +1171,7 @@ isNaN
 (
 results
 .
-bandwidth
+goodput
 )
 ?
 (
@@ -1192,7 +1192,7 @@ uploadTime
 :
 results
 .
-bandwidth
+goodput
 ;
 context
 .
@@ -1219,11 +1219,11 @@ uploadTime
 +
 "
 ms
-uploadBandwidth
+uploadGoodput
 :
 "
 +
-uploadBandwidth
+uploadGoodput
 +
 "
 Mbit
@@ -1249,7 +1249,7 @@ accumulatedResults
 .
 push
 (
-uploadBandwidth
+uploadGoodput
 )
 ;
 }
@@ -1426,7 +1426,7 @@ custom_data
 "
 download
 -
-bandwidth
+goodput
 "
 :
 accumulatedResults
@@ -1460,7 +1460,7 @@ custom_data
 "
 upload
 -
-bandwidth
+goodput
 "
 :
 accumulatedResults

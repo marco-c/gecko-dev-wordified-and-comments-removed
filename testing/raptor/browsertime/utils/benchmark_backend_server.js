@@ -573,11 +573,11 @@ startTime
 /
 /
 Calculate
-throughput
+goodput
 in
 Mbps
 const
-throughputMbps
+goodputMbps
 =
 (
 totalBytesUploaded
@@ -598,11 +598,11 @@ upload_status
 "
 "
 success
-bandwidth
+goodput
 :
 "
 +
-throughputMbps
+goodputMbps
 )
 ;
 }
