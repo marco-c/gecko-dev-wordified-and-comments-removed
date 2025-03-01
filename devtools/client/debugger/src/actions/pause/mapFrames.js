@@ -265,6 +265,16 @@ frame
 const
 originalDisplayName
 =
+location
+.
+source
+.
+isPrettyPrinted
+?
+frame
+.
+displayName
+:
 await
 thunkArgs
 .
