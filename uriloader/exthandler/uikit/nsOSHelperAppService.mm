@@ -196,12 +196,7 @@ nsIHandlerInfo
 _retval
 )
 {
-*
-found
-=
-false
-;
 return
-NS_OK
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
