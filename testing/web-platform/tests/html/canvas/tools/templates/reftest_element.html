@@ -70,8 +70,7 @@ endif
 {
 %
 if
-not
-is_test_reference
+reference_file_link
 %
 }
 <
@@ -86,7 +85,7 @@ href
 "
 {
 {
-reference_file
+reference_file_link
 }
 }
 "
@@ -351,7 +350,8 @@ indent
 2
 )
 if
-is_test_reference
+not
+reference_file_link
 else
 code
 |
