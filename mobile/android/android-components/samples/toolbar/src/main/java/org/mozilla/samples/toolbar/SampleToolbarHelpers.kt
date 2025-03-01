@@ -252,6 +252,13 @@ Tab
 )
 "
 )
+COMPOSE_TOOLBAR
+(
+"
+Compose
+Toolbar
+"
+)
 }
 class
 ConfigurationAdapter
