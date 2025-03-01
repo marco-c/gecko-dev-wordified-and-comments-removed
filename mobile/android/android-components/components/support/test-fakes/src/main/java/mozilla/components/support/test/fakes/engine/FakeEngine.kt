@@ -264,6 +264,15 @@ expectToRestoreRealEngineSessionState
 Boolean
 =
 false
+private
+val
+expectedSettings
+:
+Settings
+=
+DefaultSettings
+(
+)
 )
 :
 Engine
@@ -472,7 +481,5 @@ settings
 :
 Settings
 =
-DefaultSettings
-(
-)
+expectedSettings
 }
