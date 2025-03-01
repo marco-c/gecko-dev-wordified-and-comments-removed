@@ -356,10 +356,6 @@ extern
 crate
 ipcclientcerts
 ;
-extern
-crate
-trust_anchors
-;
 #
 [
 cfg
@@ -497,7 +493,7 @@ crashreporter
 ]
 extern
 crate
-crash_helper_client
+mozannotation_server
 ;
 #
 [

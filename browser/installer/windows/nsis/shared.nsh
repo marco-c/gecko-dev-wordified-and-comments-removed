@@ -13494,6 +13494,12 @@ dll
 "
 Push
 "
+nssckbi
+.
+dll
+"
+Push
+"
 nspr4
 .
 dll
@@ -13515,12 +13521,6 @@ Push
 xpcom
 .
 dll
-"
-Push
-"
-crashhelper
-.
-exe
 "
 Push
 "
