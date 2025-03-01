@@ -7919,7 +7919,9 @@ QRCode
 url
 if
 (
-AppConstants
+lazy
+.
+BrowserUtils
 .
 isChinaRepack
 (

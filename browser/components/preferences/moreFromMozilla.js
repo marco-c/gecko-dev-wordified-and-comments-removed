@@ -396,7 +396,7 @@ link
 "
 actionURL
 :
-AppConstants
+BrowserUtils
 .
 isChinaRepack
 (
@@ -532,7 +532,7 @@ button
 }
 actionURL
 :
-AppConstants
+BrowserUtils
 .
 isChinaRepack
 (
@@ -1403,7 +1403,7 @@ getTemplateName
 )
 +
 {
-AppConstants
+BrowserUtils
 .
 isChinaRepack
 (

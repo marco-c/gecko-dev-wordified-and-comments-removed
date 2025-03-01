@@ -4403,7 +4403,7 @@ stub
 (
 global
 .
-AppConstants
+BrowserUtils
 "
 isChinaRepack
 "
@@ -4483,7 +4483,7 @@ stub
 (
 global
 .
-AppConstants
+BrowserUtils
 "
 isChinaRepack
 "
