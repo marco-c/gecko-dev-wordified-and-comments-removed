@@ -195,6 +195,12 @@ thumb
 "
 _ns
 "
+moz
+-
+src
+"
+_ns
+"
 x
 -
 moz
