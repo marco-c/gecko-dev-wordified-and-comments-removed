@@ -27,7 +27,7 @@ An
 immutable
 set
 of
-Unicde
+Unicode
 characters
 .
 CFCharacterSet

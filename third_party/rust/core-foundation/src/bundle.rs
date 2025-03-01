@@ -921,7 +921,7 @@ Frameworks
 test
 ]
 fn
-non_existant_bundle
+non_existent_bundle
 (
 )
 {
