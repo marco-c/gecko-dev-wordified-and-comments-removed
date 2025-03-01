@@ -154,6 +154,11 @@ x86_64
 Bug
 1929424
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 browser_content_sandbox_fs
