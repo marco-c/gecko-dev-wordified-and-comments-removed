@@ -720,8 +720,9 @@ aProtoPI
 nsINode
 *
 aParent
-bool
-aInProlog
+nsINode
+*
+aBeforeThis
 )
 ;
 nsresult
@@ -734,6 +735,9 @@ aProtoPI
 nsINode
 *
 aParent
+nsINode
+*
+aBeforeThis
 XMLStylesheetProcessingInstruction
 *
 aPINode
