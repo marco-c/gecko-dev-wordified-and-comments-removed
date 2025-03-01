@@ -208,7 +208,6 @@ DynamicInfoBannerBehavior
 context
 :
 Context
-?
 attrs
 :
 AttributeSet
