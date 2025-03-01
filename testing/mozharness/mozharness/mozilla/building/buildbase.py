@@ -1845,6 +1845,23 @@ py
 "
         
 "
+arm
+-
+profile
+-
+generate
+"
+:
+path_base
++
+"
+%
+s_arm_profile_generate
+.
+py
+"
+        
+"
 rusttests
 "
 :
