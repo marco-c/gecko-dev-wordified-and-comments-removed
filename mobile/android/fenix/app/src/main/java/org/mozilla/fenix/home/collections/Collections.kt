@@ -137,6 +137,14 @@ compose
 .
 runtime
 .
+key
+import
+androidx
+.
+compose
+.
+runtime
+.
 mutableStateOf
 import
 androidx
@@ -491,6 +499,13 @@ collection
 tabs
 )
 {
+key
+(
+tab
+.
+id
+)
+{
 CollectionItem
 (
 tab
@@ -530,6 +545,7 @@ tab
 )
 }
 )
+}
 }
 }
 }
