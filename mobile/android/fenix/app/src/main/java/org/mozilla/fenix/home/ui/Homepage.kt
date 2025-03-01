@@ -123,6 +123,16 @@ foundation
 .
 layout
 .
+fillMaxWidth
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 height
 import
 androidx
@@ -1743,6 +1753,10 @@ dimen
 .
 home_item_horizontal_margin
 )
+)
+.
+fillMaxWidth
+(
 )
 backgroundColor
 =
