@@ -1563,6 +1563,15 @@ new
 )
 )
 ;
+let
+visibility_node
+=
+spatial_tree
+.
+root_reference_frame_index
+(
+)
+;
 for
 mut
 primary_slice
@@ -1626,6 +1635,7 @@ slice_flags
 descriptor
 .
 scroll_root
+visibility_node
 primary_slice
 .
 iframe_clip
@@ -1679,6 +1689,7 @@ slice_flags
 descriptor
 .
 scroll_root
+visibility_node
 primary_slice
 .
 iframe_clip
@@ -1926,6 +1937,9 @@ SliceFlags
 scroll_root
 :
 SpatialNodeIndex
+visibility_node
+:
+SpatialNodeIndex
 iframe_clip
 :
 Option
@@ -2069,6 +2083,9 @@ slice_flags
 spatial_node_index
 :
 scroll_root
+visibility_node_index
+:
+visibility_node
 background_color
 shared_clip_node_id
 shared_clip_leaf_id

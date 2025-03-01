@@ -5929,6 +5929,10 @@ spatial_node_index
 :
 SpatialNodeIndex
 pub
+visibility_node_index
+:
+SpatialNodeIndex
+pub
 background_color
 :
 Option
@@ -6439,6 +6443,10 @@ pub
 spatial_node_index
 :
 SpatialNodeIndex
+pub
+visibility_node_index
+:
+SpatialNodeIndex
 opacity_bindings
 :
 FastHashMap
@@ -6941,6 +6949,11 @@ spatial_node_index
 params
 .
 spatial_node_index
+visibility_node_index
+:
+params
+.
+visibility_node_index
 sub_slices
 opacity_bindings
 :
