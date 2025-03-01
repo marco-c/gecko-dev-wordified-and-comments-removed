@@ -107884,6 +107884,15 @@ Promise
 any
 >
 ;
+yield
+(
+)
+:
+Promise
+<
+void
+>
+;
 }
 declare
 var
