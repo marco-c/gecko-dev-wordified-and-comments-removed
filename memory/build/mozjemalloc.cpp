@@ -4618,7 +4618,7 @@ MOZ_EXCLUDES
 mLock
 )
 {
-RemoveObsoletePurgeFromList
+RemoveFromOutstandingPurges
 (
 aArena
 )
@@ -5178,7 +5178,7 @@ mPurgeListLock
 )
 ;
 void
-RemoveObsoletePurgeFromList
+RemoveFromOutstandingPurges
 (
 arena_t
 *
@@ -24434,7 +24434,7 @@ void
 ArenaCollection
 :
 :
-RemoveObsoletePurgeFromList
+RemoveFromOutstandingPurges
 (
 arena_t
 *
@@ -24597,9 +24597,13 @@ NeedsMore
 ;
 }
 }
+RemoveFromOutstandingPurges
+(
+found
+)
+;
 if
 (
-!
 found
 -
 >
@@ -24617,6 +24621,7 @@ mPurgeListLock
 ;
 if
 (
+!
 mOutstandingPurges
 .
 ElementProbablyInList
@@ -24627,7 +24632,7 @@ found
 {
 mOutstandingPurges
 .
-remove
+pushFront
 (
 found
 )
@@ -24684,6 +24689,11 @@ IsOnMainThreadWeak
 )
 )
 {
+RemoveFromOutstandingPurges
+(
+arena
+)
+;
 while
 (
 arena
@@ -24693,11 +24703,6 @@ Purge
 (
 aForce
 )
-)
-;
-RemoveObsoletePurgeFromList
-(
-arena
 )
 ;
 }
