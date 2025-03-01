@@ -168,7 +168,7 @@ klar
 *
 )
 :
-autograph_focus
+gcp_prod_autograph_focus
 fenix
 -
 (
@@ -179,10 +179,10 @@ release
 -
 mozillaonline
 :
-autograph_apk_mozillaonline
+gcp_prod_autograph_apk_mozillaonline
 default
 :
-autograph_apk
+gcp_prod_autograph_apk
 index
 :
 by

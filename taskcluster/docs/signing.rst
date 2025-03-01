@@ -246,7 +246,7 @@ formats
 :
 [
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 ]
 "
@@ -342,7 +342,7 @@ tar
 gz
 with
 the
-autograph_gpg
+gcp_prod_autograph_gpg
 format
 .
 Each
@@ -814,7 +814,7 @@ of
 -
 dicts
 .
-autograph_gpg
+gcp_prod_autograph_gpg
 signing
 results
 in
@@ -978,9 +978,9 @@ input
 This
 format
 includes
-autograph_authenticode
+gcp_prod_autograph_authenticode_202412
 and
-autograph_authenticode_stub
+gcp_prod_autograph_authenticode_202412_stub
 .
 mar
 signing
@@ -1004,7 +1004,7 @@ different
 hashing
 algorithm
 .
-autograph_widevine
+gcp_prod_autograph_widevine
 is
 also
 video

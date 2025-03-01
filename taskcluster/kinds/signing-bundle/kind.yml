@@ -168,10 +168,10 @@ klar
 *
 )
 :
-autograph_focus
+gcp_prod_autograph_focus
 default
 :
-autograph_apk
+gcp_prod_autograph_apk
 run
 -
 on

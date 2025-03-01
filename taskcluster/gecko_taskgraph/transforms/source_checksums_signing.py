@@ -473,7 +473,7 @@ formats
 :
 [
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 ]
             

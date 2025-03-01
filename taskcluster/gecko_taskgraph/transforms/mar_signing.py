@@ -119,7 +119,7 @@ mar
 :
 [
 "
-autograph_stage_mar384
+gcp_prod_autograph_stage_mar384
 "
 ]
     
@@ -141,7 +141,7 @@ mar
 :
 [
 "
-autograph_hash_only_mar384
+gcp_prod_autograph_hash_only_mar384
 "
 ]
     
@@ -268,7 +268,7 @@ formats
 :
 [
 "
-autograph_hash_only_mar384
+gcp_prod_autograph_hash_only_mar384
 "
 ]
         
