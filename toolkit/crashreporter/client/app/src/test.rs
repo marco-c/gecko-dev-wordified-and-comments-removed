@@ -5658,6 +5658,13 @@ assert_eq
 (
 details_text
 "
+AsyncShutdownTimeout
+:
+{
+}
+\
+n
+\
 BuildID
 :
 1234
