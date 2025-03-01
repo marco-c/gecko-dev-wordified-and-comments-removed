@@ -415,17 +415,6 @@ decoding
 \
 _
 (
-HEVC_HW_DECODE
-Feature
-"
-HEVC
-hardware
-decoding
-"
-)
-\
-_
-(
 REMOTE_CANVAS
 Feature
 "

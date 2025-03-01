@@ -646,13 +646,6 @@ false
 \
 _
 (
-UseHEVCHwDecode
-bool
-false
-)
-\
-_
-(
 HwDecodedVideoZeroCopy
 bool
 false
