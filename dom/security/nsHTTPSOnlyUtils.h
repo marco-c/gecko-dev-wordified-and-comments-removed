@@ -461,12 +461,6 @@ nsITimer
 >
 mTimer
 ;
-bool
-mHasHTTPSRR
-{
-false
-}
-;
 }
 ;
 struct
