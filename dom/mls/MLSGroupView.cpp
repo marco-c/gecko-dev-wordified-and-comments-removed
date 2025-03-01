@@ -3957,16 +3957,16 @@ this
 (
 Maybe
 <
-GkGroupMembers
+GkGroupDetails
 >
 &
 &
-groupMembers
+groupDetails
 )
 {
 if
 (
-groupMembers
+groupDetails
 .
 isNothing
 (
@@ -4050,7 +4050,7 @@ Uint8Array
 Create
 (
 cx
-groupMembers
+groupDetails
 -
 >
 group_id
@@ -4107,7 +4107,7 @@ Uint8Array
 Create
 (
 cx
-groupMembers
+groupDetails
 -
 >
 group_epoch
@@ -4192,7 +4192,7 @@ mMembers
 .
 SetCapacity
 (
-groupMembers
+groupDetails
 -
 >
 group_members
@@ -4222,7 +4222,7 @@ auto
 &
 member
 :
-groupMembers
+groupDetails
 -
 >
 group_members

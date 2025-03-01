@@ -117,7 +117,7 @@ security
 mls
 :
 :
-GkGroupMembers
+GkGroupDetails
 from
 "
 mozilla
@@ -458,7 +458,7 @@ identifier
 )
 returns
 (
-GkGroupMembers
+GkGroupDetails
 ?
 result
 )
