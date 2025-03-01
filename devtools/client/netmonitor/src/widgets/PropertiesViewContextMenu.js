@@ -282,6 +282,11 @@ copyAll
 accesskey
 "
 )
+visible
+:
+!
+!
+object
 click
 :
 (
