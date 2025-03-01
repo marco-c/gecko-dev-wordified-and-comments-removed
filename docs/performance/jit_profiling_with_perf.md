@@ -21,7 +21,7 @@ easier
 and
 should
 be
-prefered
+preferred
 if
 running
 macOS
