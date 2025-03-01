@@ -801,13 +801,14 @@ if
 (
 unlikely
 (
+!
+HB_DIRECTION_IS_VALID
+(
 props
 -
 >
 direction
-=
-=
-HB_DIRECTION_INVALID
+)
 )
 )
 return

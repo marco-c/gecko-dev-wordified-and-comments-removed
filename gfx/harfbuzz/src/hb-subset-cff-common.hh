@@ -5288,14 +5288,13 @@ if
 !
 buff
 .
-alloc
+alloc_exact
 (
 buff
 .
 length
 +
 size
-true
 )
 )
 return

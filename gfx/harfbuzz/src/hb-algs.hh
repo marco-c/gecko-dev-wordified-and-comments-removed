@@ -1630,7 +1630,7 @@ hb_bool
 ;
 #
 define
-mix
+fasthash_mix
 (
 h
 )
@@ -1821,7 +1821,7 @@ pop
 h
 ^
 =
-mix
+fasthash_mix
 (
 v
 )
@@ -1857,7 +1857,7 @@ v
 h
 ^
 =
-mix
+fasthash_mix
 (
 v
 )
@@ -2021,7 +2021,7 @@ pos2
 h
 ^
 =
-mix
+fasthash_mix
 (
 v
 )
@@ -2033,7 +2033,7 @@ m
 ;
 }
 return
-mix
+fasthash_mix
 (
 h
 )

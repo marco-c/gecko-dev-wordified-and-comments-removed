@@ -3291,10 +3291,9 @@ n
 {
 values
 .
-alloc
+alloc_exact
 (
 n
-true
 )
 ;
 }

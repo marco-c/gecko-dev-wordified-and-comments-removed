@@ -122,10 +122,9 @@ size
 ;
 vector
 .
-alloc
+alloc_exact
 (
 size
-true
 )
 ;
 }

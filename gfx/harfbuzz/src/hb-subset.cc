@@ -1572,10 +1572,9 @@ length
 buf
 -
 >
-alloc
+alloc_exact
 (
 buf_size
-true
 )
 )
 )

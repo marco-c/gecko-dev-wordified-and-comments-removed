@@ -2578,12 +2578,11 @@ this
 >
 names
 .
-alloc
+alloc_exact
 (
 all_names
 .
 length
-true
 )
 ;
 for

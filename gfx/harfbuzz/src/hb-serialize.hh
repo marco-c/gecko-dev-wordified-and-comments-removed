@@ -145,12 +145,11 @@ nullptr
 ;
 real_links
 .
-alloc
+alloc_exact
 (
 o
 .
 num_real_links
-true
 )
 ;
 for
@@ -184,12 +183,11 @@ i
 ;
 virtual_links
 .
-alloc
+alloc_exact
 (
 o
 .
 num_virtual_links
-true
 )
 ;
 for
