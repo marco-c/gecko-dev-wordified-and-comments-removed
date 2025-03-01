@@ -2129,6 +2129,14 @@ StaticCreateEventWindow
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+IsWin32kLockedDown
+(
+)
+)
+;
 auto
 _initialErr
 [
