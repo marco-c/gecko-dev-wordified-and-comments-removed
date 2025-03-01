@@ -17191,6 +17191,9 @@ item
 }
 }
 if
+window_is_opaque
+&
+&
 input_layers
 .
 is_empty
