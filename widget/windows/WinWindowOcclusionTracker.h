@@ -386,6 +386,10 @@ DWORD
 aEventMin
 DWORD
 aEventMax
+DWORD
+aSkipFlags
+=
+0
 )
 ;
 void
