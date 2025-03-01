@@ -140,14 +140,6 @@ CFTypeRefPtr
 <
 CFURLRef
 >
-GetTemporaryFolder
-(
-)
-;
-CFTypeRefPtr
-<
-CFURLRef
->
 GetProductDirectory
 (
 bool
