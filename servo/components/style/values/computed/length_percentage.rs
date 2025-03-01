@@ -40,7 +40,7 @@ crate
 logical_geometry
 :
 :
-PhysicalSide
+PhysicalAxis
 ;
 use
 crate
@@ -5567,7 +5567,7 @@ resolve
 (
 info
 .
-side
+axis
 info
 .
 position_property
@@ -5910,9 +5910,9 @@ struct
 CalcAnchorFunctionResolutionInfo
 {
 pub
-side
+axis
 :
-PhysicalSide
+PhysicalAxis
 pub
 position_property
 :
@@ -5937,12 +5937,12 @@ PositionProperty
 :
 :
 Static
-side
+axis
 :
-PhysicalSide
+PhysicalAxis
 :
 :
-Left
+Vertical
 }
 }
 }

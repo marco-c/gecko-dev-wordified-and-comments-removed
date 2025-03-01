@@ -1253,7 +1253,7 @@ Margin
 PositionProperty
 "
 "
-PhysicalSide
+PhysicalAxis
 "
 ]
 item_types
@@ -1805,8 +1805,8 @@ aBasis
 mozilla
 :
 :
-StylePhysicalSide
-aSide
+StylePhysicalAxis
+aAxis
 mozilla
 :
 :
@@ -2251,8 +2251,8 @@ aPercentageBasis
 mozilla
 :
 :
-StylePhysicalSide
-aSide
+StylePhysicalAxis
+aAxis
 mozilla
 :
 :
