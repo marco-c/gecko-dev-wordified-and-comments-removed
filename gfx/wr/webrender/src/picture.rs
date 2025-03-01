@@ -5543,6 +5543,7 @@ pub
 combined
 :
 VisRect
+pub
 visibility_spatial_node
 :
 SpatialNodeIndex
@@ -27398,6 +27399,9 @@ SpatialTree
 prim_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 original_local_rect
 :
 LayoutRect
@@ -27405,9 +27409,9 @@ combined_local_clip_rect
 :
 &
 LayoutRect
-world_rect
+dirty_rect
 :
-WorldRect
+VisRect
 plane_split_anchor
 :
 PlaneSplitAnchor
@@ -27421,9 +27425,10 @@ transform
 =
 spatial_tree
 .
-get_world_transform
+get_relative_transform
 (
 prim_spatial_node_index
+visibility_spatial_node_index
 )
 ;
 let
@@ -27477,9 +27482,9 @@ false
 }
 ;
 let
-world_rect
+dirty_rect
 =
-world_rect
+dirty_rect
 .
 cast
 (
@@ -27666,7 +27671,7 @@ plane_split_anchor
 matrix
 Some
 (
-world_rect
+dirty_rect
 .
 to_rect
 (
