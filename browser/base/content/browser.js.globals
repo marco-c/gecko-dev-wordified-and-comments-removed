@@ -327,9 +327,6 @@ AboutReaderParent
 AddonManager
 "
 "
-BlockedSiteParent
-"
-"
 BrowserTelemetryUtils
 "
 "
