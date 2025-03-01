@@ -2306,3 +2306,11 @@ test
 /
 target
 /
+#
+Ignore
+mozperftest
+artifacts
+folder
+/
+artifacts
+/

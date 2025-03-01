@@ -3,6 +3,8 @@ json
 import
 os
 import
+pathlib
+import
 sys
 from
 functools
@@ -456,6 +458,32 @@ perftest
 )
         
 return
+    
+default_artifact_location
+=
+pathlib
+.
+Path
+(
+command_context
+.
+topsrcdir
+"
+artifacts
+"
+)
+    
+default_artifact_location
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
     
 sel
 =
