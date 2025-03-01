@@ -1308,7 +1308,7 @@ param
 {
 boolean
 }
-onToolbarButtonClick
+onUserToggle
 *
 param
 {
@@ -1326,7 +1326,7 @@ forceExpandValue
 updateVisibility
 (
 visible
-onToolbarButtonClick
+onUserToggle
 =
 false
 onToolbarButtonRemoval
@@ -1455,7 +1455,7 @@ panelOpen
 {
 if
 (
-onToolbarButtonClick
+onUserToggle
 )
 {
 /
@@ -1467,6 +1467,9 @@ with
 the
 toolbar
 button
+or
+context
+menu
 should
 also
 close
