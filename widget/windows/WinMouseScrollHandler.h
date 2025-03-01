@@ -132,12 +132,6 @@ aResult
 )
 ;
 static
-bool
-SkipScrollWheelHack
-(
-)
-;
-static
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
