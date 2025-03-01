@@ -1163,6 +1163,9 @@ stringify
 o
 )
 )
+isInAutomation
+:
+true
 }
 console
 :
@@ -1724,6 +1727,13 @@ appPath
 env
 :
 {
+get
+:
+(
+)
+=
+>
+undefined
 set
 :
 (
@@ -1731,6 +1741,13 @@ set
 =
 >
 undefined
+exists
+:
+(
+)
+=
+>
+false
 }
 locale
 :
