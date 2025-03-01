@@ -216,10 +216,6 @@ vet
 linux64
 -
 rust
--
-1
-.
-84
 when
 :
 files

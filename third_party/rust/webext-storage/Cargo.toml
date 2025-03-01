@@ -177,6 +177,13 @@ MPL
 0
 "
 [
+features
+]
+default
+=
+[
+]
+[
 lib
 ]
 name
@@ -519,13 +526,6 @@ features
 "
 build
 "
-]
-[
-features
-]
-default
-=
-[
 ]
 [
 lints

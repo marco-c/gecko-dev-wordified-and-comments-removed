@@ -170,6 +170,13 @@ license
 ISC
 "
 [
+features
+]
+dlopen
+=
+[
+]
+[
 lib
 ]
 name
@@ -199,10 +206,3 @@ libc
 .
 20
 "
-[
-features
-]
-dlopen
-=
-[
-]
