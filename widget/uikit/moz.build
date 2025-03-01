@@ -134,6 +134,11 @@ nsWindow
 mm
 "
 "
+ScreenHelperUIKit
+.
+mm
+"
+"
 TextInputHandler
 .
 mm
