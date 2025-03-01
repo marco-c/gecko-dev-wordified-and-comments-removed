@@ -13724,11 +13724,6 @@ isFloat32Comparison
 )
 ;
 }
-MIRType
-inputType
-(
-)
-;
 JSOp
 jsop
 (
