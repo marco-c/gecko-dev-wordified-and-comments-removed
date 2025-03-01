@@ -531,7 +531,6 @@ work
 ;
 }
 }
-true
 )
 ;
 test
