@@ -1007,9 +1007,6 @@ ENABLE_WASM_JSPI
 case
 JSProto_WasmSuspending
 :
-case
-JSProto_SuspendError
-:
 #
 endif
 case
