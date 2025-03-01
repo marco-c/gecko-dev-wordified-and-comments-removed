@@ -4500,6 +4500,8 @@ element
 scope
 .
 matches
+?
+.
 (
 selector
 )

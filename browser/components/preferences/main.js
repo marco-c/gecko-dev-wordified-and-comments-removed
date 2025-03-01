@@ -6200,16 +6200,6 @@ appendChild
 listFragment
 )
 ;
-this
-.
-elements
-.
-installList
-.
-hidden
-=
-false
-;
 }
 updateDownloadPhase
 (
