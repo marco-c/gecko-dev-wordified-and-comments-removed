@@ -12568,7 +12568,11 @@ get
 ;
 mFocusedWindow
 =
-nullptr
+GetCurrentWindow
+(
+&
+aElement
+)
 ;
 mFocusedElement
 =
