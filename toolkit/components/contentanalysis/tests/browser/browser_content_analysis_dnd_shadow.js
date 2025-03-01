@@ -244,6 +244,9 @@ eBlock
 aRequest
 .
 requestToken
+aRequest
+.
+userActionId
 )
 )
 ;
