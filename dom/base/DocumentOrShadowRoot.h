@@ -252,6 +252,15 @@ mAdoptedStyleSheets
 ;
 }
 size_t
+FindSheetInsertionPointInTree
+(
+const
+StyleSheet
+&
+)
+const
+;
+size_t
 StyleOrderIndexOfSheet
 (
 const
