@@ -392,9 +392,6 @@ const
 defaultOutput
 =
 '
-(
-3
-)
 [
 1
 "
@@ -473,9 +470,6 @@ text
 toBe
 (
 "
-(
-3
-)
 [
 ]
 "
@@ -628,9 +622,6 @@ props
 const
 defaultShortOutput
 =
-(
-4
-)
 [
 {
 Array
@@ -704,9 +695,6 @@ text
 toBe
 (
 "
-(
-4
-)
 [
 ]
 "
@@ -755,9 +743,6 @@ text
 .
 toBe
 (
-(
-4
-)
 [
 {
 Array
@@ -865,9 +850,6 @@ props
 const
 defaultShortOutput
 =
-(
-11
-)
 [
 {
 Array
@@ -941,9 +923,6 @@ text
 toBe
 (
 "
-(
-11
-)
 [
 ]
 "
@@ -992,9 +971,6 @@ text
 .
 toBe
 (
-(
-11
-)
 [
 {
 Array
@@ -1087,9 +1063,6 @@ defaultOutput
 "
 [
 1
-(
-2
-)
 [
 ]
 ]
@@ -1163,9 +1136,6 @@ text
 toBe
 (
 "
-(
-2
-)
 [
 ]
 "
@@ -1401,9 +1371,6 @@ text
 toBe
 (
 "
-(
-1
-)
 [
 ]
 "
