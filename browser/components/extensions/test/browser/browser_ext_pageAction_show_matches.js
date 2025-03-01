@@ -290,11 +290,6 @@ test
 8888
 /
 "
-"
-about
-:
-rights
-"
 ]
 ;
 function

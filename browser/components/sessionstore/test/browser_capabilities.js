@@ -488,7 +488,7 @@ gBrowser
 "
 about
 :
-rights
+robots
 "
 )
 ;

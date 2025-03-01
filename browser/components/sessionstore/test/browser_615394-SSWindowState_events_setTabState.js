@@ -35,7 +35,7 @@ url
 "
 about
 :
-rights
+policies
 "
 triggeringPrincipal_base64
 }

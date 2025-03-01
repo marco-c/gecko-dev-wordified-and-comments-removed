@@ -18,7 +18,7 @@ gBrowser
 "
 about
 :
-rights
+robots
 "
 )
 ;
@@ -69,7 +69,7 @@ url
 "
 about
 :
-rights
+robots
 "
 }
 ]

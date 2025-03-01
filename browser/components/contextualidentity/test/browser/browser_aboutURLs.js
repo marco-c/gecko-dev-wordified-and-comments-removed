@@ -35,6 +35,9 @@ credits
 logins
 "
 "
+rights
+"
+"
 telemetry
 "
 "

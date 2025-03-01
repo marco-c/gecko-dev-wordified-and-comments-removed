@@ -425,7 +425,7 @@ loadPage
 "
 about
 :
-rights
+policies
 "
 )
 ;

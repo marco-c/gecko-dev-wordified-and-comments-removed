@@ -439,13 +439,6 @@ test
 .
 [
 "
-browser_bug594509
-.
-js
-"
-]
-[
-"
 browser_bug982298
 .
 js

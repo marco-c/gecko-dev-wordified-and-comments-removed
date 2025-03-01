@@ -40,7 +40,7 @@ url
 "
 about
 :
-rights
+robots
 "
 triggeringPrincipal_base64
 }
@@ -315,7 +315,7 @@ spec
 "
 about
 :
-rights
+robots
 "
 )
 ;
