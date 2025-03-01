@@ -252,6 +252,16 @@ Private
 >
 mPreloadResponseEndPromise
 ;
+bool
+mPreloadResponseAvailablePromiseResolved
+=
+false
+;
+bool
+mPreloadResponseEndPromiseResolved
+=
+false
+;
 Maybe
 <
 ServiceWorkerOpResult

@@ -1616,17 +1616,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-mCaClientPromise
--
->
-IsResolved
-(
-)
-)
-;
 std
 :
 :

@@ -4328,17 +4328,6 @@ timeout
 auto
 )
 {
-if
-(
-!
-promise
--
->
-IsResolved
-(
-)
-)
-{
 promise
 -
 >
@@ -4362,7 +4351,6 @@ AsString
 __func__
 )
 ;
-}
 }
 delay
 nsITimer
