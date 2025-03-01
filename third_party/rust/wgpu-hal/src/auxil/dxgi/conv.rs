@@ -17,6 +17,10 @@ ffi
 :
 :
 OsStringExt
+string
+:
+:
+String
 }
 ;
 use

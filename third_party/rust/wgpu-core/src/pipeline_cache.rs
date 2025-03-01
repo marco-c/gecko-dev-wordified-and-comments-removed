@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 mem
@@ -1497,7 +1497,7 @@ None
 let
 data
 =
-std
+core
 :
 :
 mem
@@ -1615,6 +1615,21 @@ test
 mod
 tests
 {
+use
+alloc
+:
+:
+{
+string
+:
+:
+String
+vec
+:
+:
+Vec
+}
+;
 use
 wgt
 :
@@ -3093,7 +3108,7 @@ flatten
 .
 chain
 (
-std
+core
 :
 :
 iter
@@ -3262,7 +3277,7 @@ flatten
 .
 chain
 (
-std
+core
 :
 :
 iter

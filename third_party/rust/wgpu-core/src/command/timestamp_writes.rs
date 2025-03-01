@@ -1,5 +1,5 @@
 use
-std
+alloc
 :
 :
 sync

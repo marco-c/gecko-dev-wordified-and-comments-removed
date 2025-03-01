@@ -8,7 +8,7 @@ emscripten_webgl_enable_extension
 (
 context
 :
-std
+core
 :
 :
 ffi
@@ -19,7 +19,7 @@ extension
 :
 *
 const
-std
+core
 :
 :
 ffi
@@ -29,7 +29,7 @@ c_char
 )
 -
 >
-std
+core
 :
 :
 ffi
@@ -43,7 +43,7 @@ emscripten_webgl_get_current_context
 )
 -
 >
-std
+core
 :
 :
 ffi

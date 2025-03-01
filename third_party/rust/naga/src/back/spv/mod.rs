@@ -602,6 +602,12 @@ LocalVariable
 >
 LocalVariable
 >
+force_loop_bounding_vars
+:
+Vec
+<
+LocalVariable
+>
 spilled_composites
 :
 crate
@@ -2630,6 +2636,9 @@ Word
 expression_constness
 :
 ExpressionConstnessTracker
+force_loop_bounding
+:
+bool
 }
 impl
 BlockContext
@@ -2876,6 +2885,9 @@ BoundsCheckPolicies
 zero_initialize_workgroup_memory
 :
 ZeroInitializeWorkgroupMemoryMode
+force_loop_bounding
+:
+bool
 void_type
 :
 Word
@@ -3371,6 +3383,10 @@ zero_initialize_workgroup_memory
 :
 ZeroInitializeWorkgroupMemoryMode
 pub
+force_loop_bounding
+:
+bool
+pub
 debug_info
 :
 Option
@@ -3468,6 +3484,9 @@ ZeroInitializeWorkgroupMemoryMode
 :
 :
 Polyfill
+force_loop_bounding
+:
+true
 debug_info
 :
 None

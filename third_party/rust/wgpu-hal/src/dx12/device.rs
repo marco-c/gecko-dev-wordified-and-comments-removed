@@ -22,6 +22,15 @@ num
 NonZeroU32
 ptr
 slice
+string
+:
+:
+{
+String
+ToString
+as
+_
+}
 sync
 :
 :
@@ -33,6 +42,10 @@ time
 Duration
 Instant
 }
+vec
+:
+:
+Vec
 }
 ;
 use
@@ -3726,6 +3739,7 @@ Direct3D12
 :
 D3D12_FILTER
 (
+(
 conv
 :
 :
@@ -3743,7 +3757,9 @@ Direct3D12
 :
 :
 D3D12_MIN_FILTER_SHIFT
+)
 |
+(
 conv
 :
 :
@@ -3761,7 +3777,9 @@ Direct3D12
 :
 :
 D3D12_MAG_FILTER_SHIFT
+)
 |
+(
 conv
 :
 :
@@ -3779,7 +3797,9 @@ Direct3D12
 :
 :
 D3D12_MIP_FILTER_SHIFT
+)
 |
+(
 reduction
 .
 0
@@ -3789,6 +3809,7 @@ Direct3D12
 :
 :
 D3D12_FILTER_REDUCTION_TYPE_SHIFT
+)
 )
 ;
 if

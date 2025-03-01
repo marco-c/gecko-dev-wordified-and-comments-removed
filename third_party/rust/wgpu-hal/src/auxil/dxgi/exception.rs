@@ -8,6 +8,15 @@ borrow
 :
 Cow
 slice
+string
+:
+:
+{
+String
+ToString
+as
+_
+}
 }
 ;
 use

@@ -5,7 +5,7 @@ smallvec
 SmallVec
 ;
 use
-std
+core
 :
 :
 {
@@ -1030,6 +1030,12 @@ T
 )
 -
 >
+alloc
+:
+:
+vec
+:
+:
 Vec
 <
 (

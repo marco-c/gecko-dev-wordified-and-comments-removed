@@ -2437,7 +2437,7 @@ array_element_ty_handle
 >
 {
 let
-ub_st
+sto
 =
 super
 :
@@ -2445,7 +2445,18 @@ super
 Capabilities
 :
 :
-UNIFORM_BUFFER_AND_STORAGE_TEXTURE_ARRAY_NON_UNIFORM_INDEXING
+STORAGE_TEXTURE_ARRAY_NON_UNIFORM_INDEXING
+;
+let
+uni
+=
+super
+:
+:
+Capabilities
+:
+:
+UNIFORM_BUFFER_ARRAY_NON_UNIFORM_INDEXING
 ;
 let
 st_sb
@@ -2519,7 +2530,7 @@ Storage
 }
 =
 >
-ub_st
+sto
 _
 =
 >
@@ -2583,7 +2594,7 @@ AddressSpace
 Uniform
 =
 >
-ub_st
+uni
 crate
 :
 :

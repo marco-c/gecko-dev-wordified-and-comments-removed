@@ -2766,7 +2766,7 @@ err
 =
 global
 .
-command_encoder_create_render_pass
+command_encoder_begin_render_pass
 (
 id
 &
@@ -3674,7 +3674,7 @@ err
 =
 global
 .
-command_encoder_create_compute_pass
+command_encoder_begin_compute_pass
 (
 id
 &

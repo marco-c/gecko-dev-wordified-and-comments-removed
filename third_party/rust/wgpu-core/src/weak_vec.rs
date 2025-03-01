@@ -1,11 +1,17 @@
 use
-std
+alloc
 :
 :
+{
 sync
 :
 :
 Weak
+vec
+:
+:
+Vec
+}
 ;
 #
 [
@@ -220,7 +226,7 @@ T
 {
 inner
 :
-std
+alloc
 :
 :
 vec

@@ -210,5 +210,14 @@ aarch64
 )
 )
 }
+supports_64bit_atomics
+:
+{
+target_has_atomic
+=
+"
+64
+"
+}
 }
 }

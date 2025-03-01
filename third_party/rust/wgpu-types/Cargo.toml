@@ -325,6 +325,11 @@ dep
 :
 serde
 "
+"
+bitflags
+/
+serde
+"
 ]
 std
 =
@@ -485,7 +490,7 @@ version
 .
 0
 .
-138
+139
 "
 [
 target

@@ -1,5 +1,14 @@
 use
-std
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
+use
+core
 :
 :
 sync

@@ -35,7 +35,7 @@ version
 .
 0
 .
-92
+93
 "
 source
 =
@@ -71,7 +71,7 @@ ident
 .
 0
 .
-14
+17
 (
 registry
 +
@@ -148,7 +148,7 @@ macro2
 .
 0
 .
-92
+93
 (
 registry
 +
@@ -189,7 +189,7 @@ version
 .
 0
 .
-217
+218
 "
 dependencies
 =
@@ -200,7 +200,7 @@ serde_derive
 .
 0
 .
-217
+218
 (
 registry
 +
@@ -241,7 +241,7 @@ version
 .
 0
 .
-217
+218
 "
 source
 =
@@ -277,7 +277,7 @@ macro2
 .
 0
 .
-92
+93
 (
 registry
 +
@@ -335,7 +335,7 @@ syn
 .
 0
 .
-92
+98
 (
 registry
 +
@@ -376,7 +376,7 @@ version
 .
 0
 .
-92
+98
 "
 source
 =
@@ -412,7 +412,7 @@ macro2
 .
 0
 .
-92
+93
 (
 registry
 +
@@ -472,7 +472,7 @@ ident
 .
 0
 .
-14
+17
 (
 registry
 +
@@ -515,7 +515,7 @@ version
 .
 0
 .
-14
+17
 "
 source
 =
@@ -552,7 +552,7 @@ macro2
 .
 0
 .
-92
+93
 (
 registry
 +
@@ -577,7 +577,7 @@ index
 "
 =
 "
-37d3544b3f2748c54e147655edb5025752e2303145b5aefb3c3ea2c78b973bb0
+60946a68e5f9d28b0dc1c21bb8a97ee7d018a8b322fa57838ba31cc878e22d99
 "
 "
 checksum
@@ -620,7 +620,7 @@ serde_derive
 .
 0
 .
-217
+218
 (
 registry
 +
@@ -645,7 +645,7 @@ index
 "
 =
 "
-5a9bf7cf98d04a2b28aead066b7496853d4779c9cc183c440dbac457641e19a0
+f09503e191f4e797cb8aac08e9a4a4695c5edf6a2e70e376d961ddd5c969f82b
 "
 "
 checksum
@@ -654,7 +654,7 @@ syn
 .
 0
 .
-92
+98
 (
 registry
 +
@@ -679,7 +679,7 @@ index
 "
 =
 "
-70ae51629bf965c5c098cc9e87908a3df5301051a9e087d6f9bef5c9771ed126
+36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1
 "
 "
 checksum
@@ -690,7 +690,7 @@ ident
 .
 0
 .
-14
+17
 (
 registry
 +
@@ -715,5 +715,5 @@ index
 "
 =
 "
-adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83
+00e2473a93778eb0bad35909dff6a10d28e63f792f16ed15e404fca9d5eeedbe
 "

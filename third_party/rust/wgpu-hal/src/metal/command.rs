@@ -24,7 +24,12 @@ std
 borrow
 :
 :
+{
 Cow
+ToOwned
+as
+_
+}
 mem
 :
 :
@@ -33,6 +38,10 @@ ops
 :
 :
 Range
+vec
+:
+:
+Vec
 }
 ;
 const
