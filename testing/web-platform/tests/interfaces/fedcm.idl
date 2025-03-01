@@ -84,12 +84,8 @@ undefined
 >
 disconnect
 (
-optional
 IdentityCredentialDisconnectOptions
 options
-=
-{
-}
 )
 ;
 readonly

@@ -68,10 +68,11 @@ getSupportedZoomLevels
 (
 )
 ;
+readonly
+attribute
 long
-getZoomLevel
-(
-)
+?
+zoomLevel
 ;
 Promise
 <

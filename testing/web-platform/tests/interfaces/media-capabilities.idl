@@ -315,6 +315,7 @@ MediaCapabilitiesInfo
 {
 required
 MediaKeySystemAccess
+?
 keySystemAccess
 ;
 MediaDecodingConfiguration
