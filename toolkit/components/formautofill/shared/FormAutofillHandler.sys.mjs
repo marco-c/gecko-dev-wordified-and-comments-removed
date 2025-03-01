@@ -6921,6 +6921,16 @@ element
 value
 )
 ;
+this
+.
+changeFieldState
+(
+fieldDetail
+FIELD_STATES
+.
+NORMAL
+)
+;
 }
 }
 this
