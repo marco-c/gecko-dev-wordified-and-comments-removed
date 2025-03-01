@@ -1078,6 +1078,12 @@ closeAllOpenPanelsAndMenus
 info
 (
 message
++
+"
+-
+"
++
+url
 )
 ;
 BrowserTestUtils
