@@ -820,5 +820,13 @@ ACString
 aToken
 )
 ;
+void
+sendCancelToAgent
+(
+in
+ACString
+aUserActionId
+)
+;
 }
 ;
