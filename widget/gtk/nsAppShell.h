@@ -102,11 +102,6 @@ StopDBusListening
 (
 )
 ;
-void
-RegisterHostApp
-(
-)
-;
 static
 void
 DBusSessionSleepCallback
@@ -222,11 +217,6 @@ mTag
 #
 ifdef
 MOZ_ENABLE_DBUS
-uint32_t
-mDBusID
-=
-0
-;
 RefPtr
 <
 GDBusProxy
