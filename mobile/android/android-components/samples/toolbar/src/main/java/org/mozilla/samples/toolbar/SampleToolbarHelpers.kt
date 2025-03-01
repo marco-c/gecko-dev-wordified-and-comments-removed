@@ -259,6 +259,14 @@ Compose
 Toolbar
 "
 )
+COMPOSE_CUSTOMTAB
+(
+"
+Compose
+Custom
+Tab
+"
+)
 }
 class
 ConfigurationAdapter

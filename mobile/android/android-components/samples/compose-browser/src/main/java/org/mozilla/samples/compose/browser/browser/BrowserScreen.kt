@@ -763,7 +763,9 @@ enabled
 =
 toolbarState
 .
-editMode
+isEditMode
+(
+)
 )
 {
 toolbarStore
@@ -883,7 +885,9 @@ if
 (
 toolbarState
 .
-editMode
+isEditMode
+(
+)
 &
 &
 url
