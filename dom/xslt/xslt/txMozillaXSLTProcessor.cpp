@@ -1441,8 +1441,8 @@ txXSLTParamContext
 txNamespaceMap
 *
 aResolver
-const
 txXPathNode
+&
 &
 aContext
 txResultRecycler
@@ -1456,7 +1456,13 @@ aResolver
 )
 mContext
 (
+std
+:
+:
+move
+(
 aContext
+)
 )
 mRecycler
 (
@@ -1720,7 +1726,7 @@ IsVoid
 )
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -1758,8 +1764,11 @@ paramContext
 (
 &
 mParamNamespaceMap
-*
 contextNode
+.
+extract
+(
+)
 mRecycler
 )
 ;
@@ -2993,7 +3002,7 @@ bool
 aCreateDataDocument
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -3501,7 +3510,7 @@ source
 aSource
 ;
 }
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -3573,8 +3582,11 @@ es
 .
 init
 (
-*
 sourceNode
+.
+extract
+(
+)
 &
 mVariables
 )
@@ -5794,7 +5806,7 @@ GetAsNode
 (
 )
 ;
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -5887,7 +5899,7 @@ node
 values
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -5921,8 +5933,11 @@ nodeSet
 >
 append
 (
-*
 xpathNode
+.
+extract
+(
+)
 )
 ;
 }
