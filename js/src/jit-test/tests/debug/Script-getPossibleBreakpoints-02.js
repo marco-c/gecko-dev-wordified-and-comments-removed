@@ -423,6 +423,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
@@ -444,6 +447,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
@@ -466,6 +472,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
@@ -568,6 +577,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
@@ -589,6 +601,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
@@ -611,6 +626,9 @@ not
 a
 positive
 integer
+in
+valid
+range
 "
 )
 ;
