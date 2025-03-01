@@ -454,7 +454,7 @@ content
 .
 windowUtils
 .
-clearSharedStyleSheetCache
+clearStyleSheetCache
 (
 )
 )

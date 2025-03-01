@@ -570,7 +570,7 @@ content
 .
 windowUtils
 .
-clearSharedStyleSheetCache
+clearStyleSheetCache
 (
 )
 ;
@@ -578,7 +578,7 @@ content
 .
 windowUtils
 .
-clearSharedScriptCache
+clearScriptCache
 (
 )
 ;

@@ -5881,7 +5881,7 @@ SharedStyleSheetCache
 *
 /
 void
-clearSharedStyleSheetCache
+clearStyleSheetCache
 (
 )
 ;
@@ -5896,7 +5896,7 @@ SharedScriptCache
 *
 /
 void
-clearSharedScriptCache
+clearScriptCache
 (
 )
 ;

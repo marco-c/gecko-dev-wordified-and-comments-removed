@@ -31506,13 +31506,13 @@ nsIObserver
 :
 void
 ;
-clearSharedStyleSheetCache
+clearStyleSheetCache
 (
 )
 :
 void
 ;
-clearSharedScriptCache
+clearScriptCache
 (
 )
 :
