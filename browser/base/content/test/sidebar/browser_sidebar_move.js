@@ -37,7 +37,8 @@ sidebar
 -
 wrapper
 "
-1
+"
+"
 ]
 [
 "
@@ -45,7 +46,7 @@ tabbrowser
 -
 tabbox
 "
-2
+6
 ]
 ]
 ;
@@ -107,7 +108,8 @@ sidebar
 -
 wrapper
 "
-2
+"
+"
 ]
 [
 "
@@ -129,7 +131,7 @@ sidebar
 -
 main
 "
-7
+6
 ]
 [
 "
@@ -139,7 +141,7 @@ launcher
 -
 splitter
 "
-6
+5
 ]
 [
 "
@@ -147,7 +149,7 @@ sidebar
 -
 box
 "
-5
+4
 ]
 [
 "
@@ -155,7 +157,7 @@ sidebar
 -
 splitter
 "
-4
+3
 ]
 [
 "
@@ -163,7 +165,7 @@ after
 -
 splitter
 "
-3
+2
 ]
 ]
 ;
