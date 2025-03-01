@@ -154,6 +154,11 @@ errorCodeString
 "
 "
 ;
+boolean
+errorIsOverridable
+=
+false
+;
 unsigned
 long
 channelStatus

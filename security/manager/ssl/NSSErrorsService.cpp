@@ -581,6 +581,12 @@ ErrorIsOverridable
 (
 aNSPRCode
 )
+|
+|
+aNSPRCode
+=
+=
+SEC_ERROR_REVOKED_CERTIFICATE
 )
 {
 *

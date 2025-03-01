@@ -5389,6 +5389,18 @@ certBytes
 mSocketControl
 -
 >
+SetServerCert
+(
+cert
+EVStatus
+:
+:
+NotEV
+)
+;
+mSocketControl
+-
+>
 SetFailedCertChain
 (
 std
@@ -5419,7 +5431,6 @@ mSocketControl
 >
 SetStatusErrorBits
 (
-cert
 mOverridableErrorCategory
 )
 ;
