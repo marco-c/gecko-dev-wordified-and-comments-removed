@@ -118,6 +118,10 @@ patch
 add_delayms
 .
 patch
+-
+larger_read_buffer
+.
+patch
 updatebot
 :
 maintainer
