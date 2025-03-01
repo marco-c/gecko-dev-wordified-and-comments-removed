@@ -351,6 +351,14 @@ type
 SESSION_TYPES
 .
 BROWSER_ELEMENT
+|
+|
+type
+=
+=
+SESSION_TYPES
+.
+ALL
 }
 ;
 }
