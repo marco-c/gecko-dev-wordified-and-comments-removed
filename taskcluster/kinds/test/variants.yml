@@ -3881,6 +3881,16 @@ worker
 :
 env
 :
+MOZHARNESS_TEST_TAG
+:
+-
+"
+inc
+-
+origin
+-
+init
+"
 MOZ_ENABLE_INC_ORIGIN_INIT
 :
 "
