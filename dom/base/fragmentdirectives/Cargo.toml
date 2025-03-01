@@ -46,6 +46,11 @@ MPL
 [
 dependencies
 ]
+rayon
+=
+"
+1
+"
 nsstring
 =
 {
