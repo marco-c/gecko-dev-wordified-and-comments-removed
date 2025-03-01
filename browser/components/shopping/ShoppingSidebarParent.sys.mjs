@@ -707,8 +707,6 @@ false
 )
 ;
 }
-else
-{
 Services
 .
 prefs
@@ -723,7 +721,6 @@ sidebarClosedCount
 1
 )
 ;
-}
 }
 this
 .
