@@ -32,7 +32,7 @@ LE
 Device
 '
 ;
-bluetooth_test
+bluetooth_bidi_test
 (
 async
 (
