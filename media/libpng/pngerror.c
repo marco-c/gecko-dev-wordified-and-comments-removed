@@ -3430,6 +3430,7 @@ png_voidp
 arg
 )
 {
+const
 png_voidp
 saved_error_buf
 =
@@ -3444,9 +3445,6 @@ error_buf
 jmp_buf
 safe_jmpbuf
 ;
-int
-result
-;
 if
 (
 setjmp
@@ -3458,6 +3456,9 @@ safe_jmpbuf
 0
 )
 {
+int
+result
+;
 image
 -
 >
@@ -3485,8 +3486,12 @@ error_buf
 =
 saved_error_buf
 ;
-return
+if
+(
 result
+)
+return
+1
 ;
 }
 image
@@ -3499,6 +3504,13 @@ error_buf
 =
 saved_error_buf
 ;
+if
+(
+saved_error_buf
+=
+=
+NULL
+)
 png_image_free
 (
 image
