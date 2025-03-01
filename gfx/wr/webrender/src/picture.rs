@@ -8205,6 +8205,9 @@ spatial_node_index
 map_local_to_picture
 .
 ref_spatial_node_index
+surface
+.
+visibility_spatial_node_index
 shared_clip_leaf_id
 frame_context
 .
@@ -27149,6 +27152,11 @@ surface_index
 ]
 .
 raster_spatial_node_index
+visibility_spatial_node_index
+:
+frame_context
+.
+root_spatial_node_index
 surface_spatial_node_index
 surface_index
 dirty_region_count

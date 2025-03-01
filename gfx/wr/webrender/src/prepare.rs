@@ -1410,6 +1410,9 @@ pic_context
 .
 raster_spatial_node_index
 pic_context
+.
+visibility_spatial_node_index
+pic_context
 pic_state
 frame_context
 frame_state
@@ -5562,6 +5565,9 @@ SpatialNodeIndex
 root_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 pic_context
 :
 &
@@ -6205,6 +6211,7 @@ vis
 .
 clip_chain
 prim_spatial_node_index
+visibility_spatial_node_index
 &
 frame_context
 .
@@ -6327,6 +6334,9 @@ SpatialNodeIndex
 root_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 pic_context
 :
 &
@@ -6418,6 +6428,7 @@ instance
 prim_origin
 prim_spatial_node_index
 root_spatial_node_index
+visibility_spatial_node_index
 pic_context
 pic_state
 frame_context

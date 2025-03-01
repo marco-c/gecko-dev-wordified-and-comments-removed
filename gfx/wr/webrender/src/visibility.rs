@@ -970,6 +970,13 @@ frame_context
 spatial_tree
 )
 ;
+let
+visibility_spatial_node_index
+=
+surface
+.
+visibility_spatial_node_index
+;
 for
 cluster
 in
@@ -1270,6 +1277,7 @@ spatial_node_index
 map_local_to_picture
 .
 ref_spatial_node_index
+visibility_spatial_node_index
 prim_instance
 .
 clip_leaf_id
