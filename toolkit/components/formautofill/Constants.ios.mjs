@@ -408,6 +408,17 @@ extensions
 .
 formautofill
 .
+heuristics
+.
+fillOnDynamicFormChanges
+"
+:
+false
+"
+extensions
+.
+formautofill
+.
 focusOnAutofill
 "
 :
