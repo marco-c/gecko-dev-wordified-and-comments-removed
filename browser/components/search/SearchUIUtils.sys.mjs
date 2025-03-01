@@ -734,7 +734,6 @@ gURLBar
 .
 _updatePlaceholderFromDefaultEngine
 (
-false
 )
 .
 catch
