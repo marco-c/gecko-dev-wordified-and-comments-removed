@@ -363,9 +363,25 @@ signature
   
 response
 .
-status_code
+status
 =
+int
+(
+request
+.
+GET
+.
+first
+(
+b
+'
+status
+'
+"
 200
+"
+)
+)
   
 response
 .

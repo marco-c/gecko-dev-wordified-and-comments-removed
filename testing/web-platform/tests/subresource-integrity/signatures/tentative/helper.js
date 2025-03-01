@@ -250,7 +250,14 @@ cors
 ?
 0
 :
+(
+request_data
+.
+status
+?
+?
 200
+)
 ;
 assert_equals
 (
