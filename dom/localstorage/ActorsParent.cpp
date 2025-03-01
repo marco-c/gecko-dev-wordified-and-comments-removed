@@ -26988,10 +26988,10 @@ Log
 glean
 :
 :
-ls_request
+localstorage_request
 :
 :
-recv_cancellation
+recv_cancel_counter
 .
 Add
 (
