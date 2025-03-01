@@ -3916,16 +3916,12 @@ ClearImageCache
 bool
 privateLoader
 bool
-?
 chrome
 )
 ;
 async
 ClearStyleSheetCache
 (
-bool
-?
-aChrome
 nullable
 nsIPrincipal
 ?
@@ -3941,9 +3937,6 @@ aPattern
 async
 ClearScriptCache
 (
-bool
-?
-aChrome
 nullable
 nsIPrincipal
 ?

@@ -638,6 +638,14 @@ imageCache
 .
 clearCache
 (
+false
+)
+;
+imageCache
+.
+clearCache
+(
+true
 )
 ;
 }

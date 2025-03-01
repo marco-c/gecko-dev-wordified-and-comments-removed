@@ -405,6 +405,14 @@ imageCache
 .
 clearCache
 (
+true
+)
+;
+imageCache
+.
+clearCache
+(
+false
 )
 ;
 Services

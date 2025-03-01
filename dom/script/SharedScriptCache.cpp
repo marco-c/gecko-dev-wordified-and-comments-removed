@@ -715,13 +715,6 @@ Clear
 const
 Maybe
 <
-bool
->
-&
-aChrome
-const
-Maybe
-<
 nsCOMPtr
 <
 nsIPrincipal
@@ -786,7 +779,6 @@ cp
 >
 SendClearScriptCache
 (
-aChrome
 aPrincipal
 aSchemelessSite
 aPattern
@@ -804,7 +796,6 @@ sSingleton
 >
 ClearInProcess
 (
-aChrome
 aPrincipal
 aSchemelessSite
 aPattern

@@ -193,17 +193,6 @@ Clear
 const
 Maybe
 <
-bool
->
-&
-aChrome
-=
-Nothing
-(
-)
-const
-Maybe
-<
 nsCOMPtr
 <
 nsIPrincipal
