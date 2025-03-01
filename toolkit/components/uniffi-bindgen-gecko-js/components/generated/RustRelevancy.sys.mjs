@@ -2316,12 +2316,14 @@ constructor
 if
 (
 !
+(
 opts
 [
 constructUniffiObject
 ]
 instanceof
 UniFFIPointer
+)
 )
 {
 throw
