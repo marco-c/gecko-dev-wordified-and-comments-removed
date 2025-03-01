@@ -711,6 +711,12 @@ bench
 browsertime
 -
 webcodecs
+-
+browsertime
+-
+trr
+-
+performance
 browsertime
 -
 clang
