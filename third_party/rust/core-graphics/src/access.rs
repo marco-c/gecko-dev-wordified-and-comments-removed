@@ -1,5 +1,8 @@
 pub
 use
+crate
+:
+:
 base
 :
 :
@@ -72,6 +75,13 @@ CGPreflightScreenCaptureAccess
 }
 #
 [
+cfg_attr
+(
+feature
+=
+"
+link
+"
 link
 (
 name
@@ -84,6 +94,7 @@ kind
 "
 framework
 "
+)
 )
 ]
 extern
