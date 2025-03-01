@@ -710,7 +710,7 @@ aHost
 )
 ;
 static
-nsresult
+void
 GetLookupFragments
 (
 const
