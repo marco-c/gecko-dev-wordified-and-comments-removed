@@ -70,8 +70,11 @@ nsISupports
 void
 clearCache
 (
+[
+optional
+]
 in
-boolean
+jsval
 chrome
 )
 ;

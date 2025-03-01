@@ -3916,6 +3916,7 @@ ClearImageCache
 bool
 privateLoader
 bool
+?
 chrome
 )
 ;
