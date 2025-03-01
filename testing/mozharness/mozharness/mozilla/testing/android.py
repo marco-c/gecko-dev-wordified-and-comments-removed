@@ -4680,7 +4680,7 @@ is_emulator
             
 max_restarts
 =
-5
+2
             
 emulator_ok
 =
