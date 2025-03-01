@@ -922,7 +922,6 @@ mForm
 >
 OnSubmitClickBegin
 (
-this
 )
 ;
 }

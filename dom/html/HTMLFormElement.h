@@ -445,9 +445,6 @@ const
 void
 OnSubmitClickBegin
 (
-Element
-*
-aOriginatingElement
 )
 ;
 void
@@ -1156,16 +1153,11 @@ aFormSubmission
 )
 ;
 nsresult
-NotifySubmitObservers
+DispatchBeforeSubmitChromeOnlyEvent
 (
-nsIURI
-*
-aActionURL
 bool
 *
 aCancelSubmit
-bool
-aEarlyNotify
 )
 ;
 nsresult
