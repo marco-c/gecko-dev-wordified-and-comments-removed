@@ -2022,6 +2022,11 @@ baselineOffset
 .
 0f
 ;
+bool
+allowInkSkipping
+=
+true
+;
 }
 ;
 static
