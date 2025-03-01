@@ -5141,6 +5141,13 @@ t
 bool
 cap
 )
+nimbusEnrollments
+:
+t
+(
+comma_list
+cap
+)
 uptime
 :
 t
