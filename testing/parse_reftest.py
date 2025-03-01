@@ -3433,15 +3433,13 @@ first
 else
 :
                 
-if
-i
-<
-first
-:
-                    
 first
 =
+min
+(
 i
+first
+)
                 
 condition
 =
