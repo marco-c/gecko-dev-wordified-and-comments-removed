@@ -58,7 +58,7 @@ const
 DWORD
 kBufferSize
 =
-4096
+65536
 ;
 constexpr
 LONGLONG
