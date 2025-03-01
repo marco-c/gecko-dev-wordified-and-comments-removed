@@ -173,8 +173,10 @@ f
 )
 /
 ;
-function
+class
 RuleRewriter
+{
+constructor
 (
 isCssPropertyKnown
 rule
@@ -227,11 +229,6 @@ inputString
 )
 ;
 }
-RuleRewriter
-.
-prototype
-=
-{
 startInitialization
 (
 inputString
@@ -2587,7 +2584,6 @@ result
 ;
 }
 }
-;
 function
 cssTrimRight
 (
