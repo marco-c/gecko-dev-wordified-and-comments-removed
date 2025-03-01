@@ -5402,9 +5402,14 @@ current_dirty_region
 (
 )
 .
-combined_as_world_space
+combined
+frame_state
+.
+current_dirty_region
 (
 )
+.
+visibility_spatial_node
 prim_spatial_node_index
 spatial_tree
 )
