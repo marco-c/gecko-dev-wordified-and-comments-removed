@@ -32,6 +32,14 @@ util
 schema
 import
 resolve_keyed_by
+from
+gecko_taskgraph
+.
+util
+.
+attributes
+import
+release_level
 transforms
 =
 TransformSequence
@@ -166,7 +174,7 @@ kind
 "
 build
 -
-type
+platform
 "
 :
 primary_dep
@@ -174,23 +182,26 @@ primary_dep
 attributes
 [
 "
-build_type
+build_platform
 "
 ]
                 
 "
-project
+release
+-
+level
 "
 :
+release_level
+(
 config
 .
 params
-.
-get
-(
+[
 "
 project
 "
+]
 )
             
 }
