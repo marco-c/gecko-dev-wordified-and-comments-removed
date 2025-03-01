@@ -3253,7 +3253,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 )
 {
 if
@@ -3335,10 +3335,10 @@ Some
 (
 CSSDoublePoint
 (
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 .
 x
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 .
 y
 )
@@ -3366,7 +3366,7 @@ WidgetToTopLevelWidgetTransform
 .
 TransformPoint
 (
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 )
 )
 ;
@@ -3456,7 +3456,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
@@ -3474,7 +3474,7 @@ GetClientCoords
 (
 aPresContext
 aEvent
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 aDefaultClientPoint
 )
 ;
@@ -3576,7 +3576,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
@@ -3724,7 +3724,7 @@ LayoutDeviceIntPoint
 :
 Round
 (
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 )
 RelativeTo
 {
@@ -3878,7 +3878,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
@@ -3899,7 +3899,7 @@ GetPageCoords
 (
 aPresContext
 aEvent
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 aDefaultClientPoint
 )
 ;
@@ -3981,7 +3981,7 @@ GetClientCoords
 (
 aPresContext
 aEvent
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 aDefaultClientPoint
 )
 ;

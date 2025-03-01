@@ -636,7 +636,7 @@ aModifiersList
 )
 ;
 LayoutDeviceDoublePoint
-mWidgetRelativePoint
+mWidgetOrScreenRelativePoint
 ;
 CSSDoublePoint
 mDefaultClientPoint

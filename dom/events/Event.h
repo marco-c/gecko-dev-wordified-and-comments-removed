@@ -762,7 +762,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
@@ -782,7 +782,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
@@ -805,7 +805,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -822,7 +822,7 @@ aEvent
 const
 LayoutDeviceDoublePoint
 &
-aWidgetRelativePoint
+aWidgetOrScreenRelativePoint
 const
 CSSDoublePoint
 &
