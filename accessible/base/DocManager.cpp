@@ -413,8 +413,6 @@ RemoveFromXPCDocumentCache
 DocAccessible
 *
 aDocument
-bool
-aAllowServiceShutdown
 )
 {
 xpcAccessibleDocument
@@ -430,9 +428,13 @@ aDocument
 ;
 if
 (
+!
 xpcDoc
 )
 {
+return
+;
+}
 xpcDoc
 -
 >
@@ -449,9 +451,6 @@ aDocument
 ;
 if
 (
-aAllowServiceShutdown
-&
-&
 !
 HasXPCDocuments
 (
@@ -464,9 +463,9 @@ nsAccessibilityService
 :
 :
 eXPCOM
+true
 )
 ;
-}
 }
 }
 void
@@ -481,8 +480,6 @@ aDocument
 Document
 *
 aDOMDocument
-bool
-aAllowServiceShutdown
 )
 {
 RemoveListeners
@@ -506,7 +503,6 @@ return
 RemoveFromXPCDocumentCache
 (
 aDocument
-aAllowServiceShutdown
 )
 ;
 mDocAccessibleCache
@@ -539,9 +535,13 @@ aDoc
 ;
 if
 (
+!
 doc
 )
 {
+return
+;
+}
 doc
 -
 >
@@ -557,7 +557,6 @@ Remove
 aDoc
 )
 ;
-}
 if
 (
 sRemoteXPCDocumentCache
@@ -580,6 +579,7 @@ nsAccessibilityService
 :
 :
 eXPCOM
+true
 )
 ;
 }

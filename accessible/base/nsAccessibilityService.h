@@ -1405,6 +1405,7 @@ void
 MaybeShutdownAccService
 (
 uint32_t
+bool
 )
 ;
 friend
@@ -1547,6 +1548,10 @@ MaybeShutdownAccService
 (
 uint32_t
 aFormerConsumer
+bool
+aAsync
+=
+false
 )
 ;
 inline
