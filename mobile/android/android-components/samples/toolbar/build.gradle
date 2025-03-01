@@ -250,6 +250,16 @@ project
 :
 compose
 -
+base
+'
+)
+implementation
+project
+(
+'
+:
+compose
+-
 browser
 -
 toolbar

@@ -357,6 +357,18 @@ components
 .
 compose
 .
+base
+.
+theme
+.
+AcornTheme
+import
+mozilla
+.
+components
+.
+compose
+.
 browser
 .
 toolbar
@@ -5263,6 +5275,8 @@ composeToolbar
 .
 setContent
 {
+AcornTheme
+{
 val
 store
 =
@@ -5391,6 +5405,7 @@ editState
 .
 editText
 )
+}
 }
 }
 private
