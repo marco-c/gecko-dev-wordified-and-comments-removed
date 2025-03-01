@@ -383,6 +383,11 @@ aData
 )
 ;
 async
+RequestAckMutationEvents
+(
+)
+;
+async
 SelectionEvent
 (
 uint64_t
@@ -725,6 +730,11 @@ aCacheDomain
 nullable
 AccAttributes
 aFields
+)
+;
+async
+AckMutationEvents
+(
 )
 ;
 }
