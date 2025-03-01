@@ -1180,7 +1180,7 @@ aString
 )
 {
 return
-Servo_IntersectionObserverRootMargin_Parse
+Servo_IntersectionObserverMargin_Parse
 (
 &
 aString
@@ -1214,7 +1214,7 @@ nsACString
 aRetVal
 )
 {
-Servo_IntersectionObserverRootMargin_ToString
+Servo_IntersectionObserverMargin_ToString
 (
 &
 mRootMargin

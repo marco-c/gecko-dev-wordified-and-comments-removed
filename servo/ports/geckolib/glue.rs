@@ -1557,10 +1557,10 @@ values
 specified
 :
 :
-gecko
+intersection_observer
 :
 :
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 ;
 use
 style
@@ -44506,7 +44506,7 @@ extern
 C
 "
 fn
-Servo_IntersectionObserverRootMargin_Parse
+Servo_IntersectionObserverMargin_Parse
 (
 value
 :
@@ -44516,7 +44516,7 @@ result
 :
 *
 mut
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 )
 -
 >
@@ -44626,7 +44626,7 @@ parse_entirely
 |
 p
 |
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 :
 :
 parse
@@ -44674,12 +44674,12 @@ extern
 C
 "
 fn
-Servo_IntersectionObserverRootMargin_ToString
+Servo_IntersectionObserverMargin_ToString
 (
 root_margin
 :
 &
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 result
 :
 &

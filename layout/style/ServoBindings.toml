@@ -4217,7 +4217,7 @@ Rect
 gecko
 =
 "
-StyleIntersectionObserverRootMargin
+StyleIntersectionObserverMargin
 "
 servo
 =
@@ -4231,10 +4231,10 @@ values
 specified
 :
 :
-gecko
+intersection_observer
 :
 :
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 "
 }
 {

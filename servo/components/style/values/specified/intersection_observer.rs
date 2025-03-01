@@ -253,7 +253,7 @@ transparent
 ]
 pub
 struct
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 (
 pub
 Rect
@@ -265,7 +265,7 @@ LengthPercentage
 impl
 Parse
 for
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 {
 fn
 parse
@@ -320,7 +320,7 @@ is_exhausted
 return
 Ok
 (
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 (
 Rect
 :
@@ -354,7 +354,7 @@ parse_pixel_or_percent
 ;
 Ok
 (
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 (
 rect
 )
@@ -364,7 +364,7 @@ rect
 impl
 ToCss
 for
-IntersectionObserverRootMargin
+IntersectionObserverMargin
 {
 fn
 to_css
