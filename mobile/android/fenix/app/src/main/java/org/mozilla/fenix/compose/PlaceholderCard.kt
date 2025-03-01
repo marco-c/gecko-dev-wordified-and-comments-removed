@@ -522,8 +522,6 @@ horizontalArrangement
 =
 Arrangement
 .
-Absolute
-.
 SpaceBetween
 verticalAlignment
 =
