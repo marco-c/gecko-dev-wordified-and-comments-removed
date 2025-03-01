@@ -271,6 +271,13 @@ macOS
 ]
 [
 "
+browser_interactions_switch_tabs_idleness
+.
+js
+"
+]
+[
+"
 browser_interactions_typing
 .
 js
