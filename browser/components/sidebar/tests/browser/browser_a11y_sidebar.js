@@ -1064,6 +1064,14 @@ true
 }
 )
 ;
+await
+waitForTabstripOrientation
+(
+"
+vertical
+"
+)
+;
 const
 sidebar
 =

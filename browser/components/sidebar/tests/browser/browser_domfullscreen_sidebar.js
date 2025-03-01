@@ -79,6 +79,14 @@ waitForBrowserWindowActive
 win
 )
 ;
+await
+waitForTabstripOrientation
+(
+"
+vertical
+"
+)
+;
 }
 )
 ;
