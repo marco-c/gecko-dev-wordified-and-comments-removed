@@ -120,9 +120,6 @@ UpdatePopupNotificationsVisibility
 PageProxyClickHandler
 "
 "
-BrowserOnClick
-"
-"
 getMeOutOfHere
 "
 "
@@ -306,9 +303,6 @@ ToolbarIconColor
 PanicButtonNotifier
 "
 "
-SafeBrowsingNotificationBox
-"
-"
 TabDialogBox
 "
 "
@@ -331,6 +325,9 @@ AboutReaderParent
 "
 "
 AddonManager
+"
+"
+BlockedSiteParent
 "
 "
 BrowserTelemetryUtils
