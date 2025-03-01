@@ -198,12 +198,6 @@ devedition
 /
 opt
 -
-linux64
--
-aarch64
-/
-opt
--
 macosx64
 -
 shippable
