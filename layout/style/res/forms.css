@@ -2073,6 +2073,16 @@ inline
 4px
 ;
 }
+select
+:
+-
+moz
+-
+select
+-
+list
+-
+box
 option
 :
 checked
