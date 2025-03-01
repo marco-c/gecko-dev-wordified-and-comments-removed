@@ -2752,13 +2752,6 @@ cpp
 "
 vm
 /
-PIC
-.
-cpp
-"
-"
-vm
-/
 PlainObject
 .
 cpp

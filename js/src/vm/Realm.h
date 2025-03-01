@@ -3008,13 +3008,6 @@ localAllocSite
 )
 ;
 }
-private
-:
-void
-purgeForOfPicChain
-(
-)
-;
 }
 ;
 inline

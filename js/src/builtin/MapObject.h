@@ -40,15 +40,6 @@ NativeObject
 .
 h
 "
-#
-include
-"
-vm
-/
-PIC
-.
-h
-"
 namespace
 js
 {
