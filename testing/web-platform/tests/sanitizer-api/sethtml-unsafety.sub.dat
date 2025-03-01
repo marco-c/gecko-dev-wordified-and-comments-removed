@@ -279,6 +279,15 @@ two
 config
 {
 "
+elements
+"
+:
+[
+"
+img
+"
+]
+"
 attributes
 "
 :
