@@ -38,9 +38,6 @@ WebTaskWorkerRunnable
 :
 WebTaskWorkerRunnable
 (
-WorkerPrivate
-*
-aWorkerPrivate
 WebTaskSchedulerWorker
 *
 aSchedulerWorker
@@ -256,6 +253,8 @@ WebTask
 aTask
 uint64_t
 aDelay
+EventQueuePriority
+aPriority
 )
 {
 if
@@ -333,6 +332,7 @@ DelayedWebTaskHandler
 cx
 this
 aTask
+aPriority
 )
 ;
 ErrorResult
@@ -385,6 +385,8 @@ WebTaskSchedulerWorker
 :
 DispatchEventLoopRunnable
 (
+EventQueuePriority
+aPriority
 )
 {
 if
@@ -437,12 +439,6 @@ runnable
 new
 WebTaskWorkerRunnable
 (
-mWorkerRef
--
->
-Private
-(
-)
 this
 )
 ;
