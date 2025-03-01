@@ -657,7 +657,7 @@ nsHttpConnection
 *
 aHttpConnection
 bool
-aIsWebSocket
+aIsExtendedCONNECT
 =
 false
 )
@@ -766,6 +766,10 @@ nsAHttpTransaction
 &
 &
 trans
+bool
+aForH2Proxy
+=
+false
 )
 ;
 enum
@@ -1167,7 +1171,7 @@ RefPtr
 <
 ASpdySession
 >
-mWebSocketHttp2Session
+mExtendedCONNECTHttp2Session
 ;
 int32_t
 mPriority
