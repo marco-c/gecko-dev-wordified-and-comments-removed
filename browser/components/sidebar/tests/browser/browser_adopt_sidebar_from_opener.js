@@ -368,7 +368,7 @@ promiseInitialized
 ;
 Assert
 .
-notEqual
+equal
 (
 privateSidebar
 .
@@ -381,7 +381,6 @@ currentID
 "
 Category
 was
-not
 adopted
 from
 opener
@@ -393,7 +392,7 @@ sidebar
 ;
 Assert
 .
-notEqual
+equal
 (
 privateSidebar
 .
@@ -414,7 +413,6 @@ width
 "
 Width
 was
-not
 adopted
 from
 opener
