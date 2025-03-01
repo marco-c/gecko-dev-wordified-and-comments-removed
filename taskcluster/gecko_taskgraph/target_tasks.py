@@ -4721,6 +4721,25 @@ in
 try_name
 :
                     
+if
+"
+m
+-
+car
+"
+in
+try_name
+and
+"
+1400
+"
+in
+platform
+:
+                        
+return
+False
+                    
 return
 True
                 
