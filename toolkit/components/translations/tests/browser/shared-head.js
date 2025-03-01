@@ -88,6 +88,8 @@ mjs
 const
 {
 getInferenceProcessInfo
+:
+fetchInferenceProcessInfo
 }
 =
 ChromeUtils
