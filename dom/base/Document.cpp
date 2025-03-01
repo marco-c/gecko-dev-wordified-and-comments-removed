@@ -16933,6 +16933,17 @@ Contains
 (
 sheet
 )
+|
+|
+mAdditionalSheets
+[
+eAuthorSheet
+]
+.
+Contains
+(
+sheet
+)
 )
 ;
 continue
