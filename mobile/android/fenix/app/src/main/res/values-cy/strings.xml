@@ -15534,7 +15534,11 @@ preferences_show_trending_search_suggestions
 >
 Dangos
 awgrymiadau
-tueddiadau
+sy
+\
+'
+n
+tueddu
 <
 /
 string
@@ -36214,7 +36218,7 @@ name
 preference_doh_info_description
 "
 >
-Gwybodaeth
+Manylion
 <
 /
 string
@@ -36244,7 +36248,7 @@ preference_doh_add_site_description
 "
 >
 Ychwanegu
-Safle
+Gwefan
 <
 /
 string
@@ -36343,7 +36347,7 @@ ddefnyddio
 DNS
 diogel
 i
-amddiffyn
+ddiogelu
 eich
 preifatrwydd
 .
@@ -36382,8 +36386,10 @@ name
 preference_doh_default_protection_info_1
 "
 >
-Defnyddiwch
-y
+Defnyddio
+\
+'
+r
 darparwr
 rydych
 chi
@@ -36499,8 +36505,8 @@ name
 preference_doh_default_protection_info_3
 "
 >
-Defnyddiwch
-ddarparwr
+Defnyddio
+darparwr
 lleol
 os
 yn
@@ -36628,7 +36634,7 @@ name
 preference_doh_default_protection_info_5
 "
 >
-Diffoddwch
+Diffodd
 pan
 fydd
 rhwydwaith
@@ -36680,9 +36686,8 @@ name
 preference_doh_increased_protection
 "
 >
-Rhagor
-o
-Ddiogelwch
+Diogelwch
+Ychwanegol
 <
 /
 string
@@ -36767,8 +36772,10 @@ name
 preference_doh_increased_protection_info_1
 "
 >
-Defnyddiwch
-y
+Defnyddio
+\
+'
+r
 darparwr
 rydych
 chi
@@ -37293,7 +37300,7 @@ preference_doh_provider_custom_dialog_title
 "
 >
 Darparwr
-personol
+cyfaddas
 <
 /
 string
@@ -37628,7 +37635,7 @@ preference_doh_exceptions_add
 "
 >
 Ychwanegu
-safle
+gwefan
 <
 /
 string
@@ -37701,7 +37708,7 @@ name
 preference_doh_exceptions_add_placeholder
 "
 >
-enghraifft
+example
 .
 com
 <
