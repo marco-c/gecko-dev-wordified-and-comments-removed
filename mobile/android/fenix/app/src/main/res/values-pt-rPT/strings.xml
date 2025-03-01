@@ -10438,9 +10438,12 @@ Firefox
 ajudam
 a
 melhorar
+as
 funcionalidades
+o
 desempenho
 e
+a
 estabilidade
 para
 todos
@@ -10968,7 +10971,7 @@ BrandUsage
 >
 Termos
 de
-utiliza
+Utiliza
 o
 do
 Firefox
@@ -11327,12 +11330,10 @@ UnusedResources
 "
 >
 Ajude
--
-nos
-a
-crescer
 o
 Firefox
+a
+crescer
 <
 /
 string
@@ -11465,7 +11466,7 @@ ou
 utilizados
 para
 lhe
-mostrar
+apresentar
 an
 ncios
 .
@@ -19485,7 +19486,7 @@ Dados
 de
 medi
 o
-da
+de
 campanha
 <
 /
@@ -36330,7 +36331,7 @@ UnusedResources
 >
 Termos
 de
-utiliza
+Utiliza
 o
 <
 /
@@ -57541,7 +57542,7 @@ name
 debug_drawer_delete_all_addresses
 "
 >
-Apagar
+Eliminar
 todos
 os
 endere
@@ -58817,8 +58818,8 @@ name
 text_field_cross_trailing_icon_default_content_description
 "
 >
-Texto
-simples
+Limpar
+texto
 <
 /
 string
