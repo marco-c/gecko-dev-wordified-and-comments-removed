@@ -347,6 +347,13 @@ js
 ]
 [
 "
+browser_test_last_tab
+.
+js
+"
+]
+[
+"
 browser_test_profile_selector
 .
 js

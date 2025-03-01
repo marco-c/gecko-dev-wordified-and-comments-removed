@@ -265,6 +265,14 @@ header
 -
 avatar
 "
+cancelButton
+:
+"
+#
+cancel
+-
+delete
+"
 }
 ;
 connectedCallback
