@@ -13,6 +13,11 @@ TestMimeType
 cpp
 "
 "
+TestNsTextFragment
+.
+cpp
+"
+"
 TestParser
 .
 cpp
