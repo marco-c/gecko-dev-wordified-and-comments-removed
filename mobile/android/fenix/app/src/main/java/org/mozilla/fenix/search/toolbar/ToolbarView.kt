@@ -807,6 +807,9 @@ context
 isTabStripEnabled
 (
 )
+&
+&
+fromHomeFragment
 )
 {
 (
