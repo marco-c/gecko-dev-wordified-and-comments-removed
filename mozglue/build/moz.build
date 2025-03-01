@@ -353,14 +353,6 @@ USE_LIBS
 zlib
 "
 ]
-USE_LIBS
-+
-=
-[
-"
-mfbt
-"
-]
 LIBRARY_DEFINES
 [
 "

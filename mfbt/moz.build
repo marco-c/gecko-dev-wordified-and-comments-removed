@@ -1053,3 +1053,8 @@ build
 pure_virtual
 "
 ]
+FINAL_LIBRARY
+=
+"
+mozglue
+"
