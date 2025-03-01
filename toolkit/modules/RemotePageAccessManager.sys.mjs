@@ -1773,6 +1773,17 @@ autoOpen
 .
 userEnabled
 "
+"
+browser
+.
+shopping
+.
+experience2023
+.
+autoClose
+.
+userEnabled
+"
 ]
 RPMGetFormatURLPref
 :
