@@ -91,6 +91,13 @@ async
 >
 {
 await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
+await
 UpdateUtils
 .
 setAppUpdateAutoEnabled
