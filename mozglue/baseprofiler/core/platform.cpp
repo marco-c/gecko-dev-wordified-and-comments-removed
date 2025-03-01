@@ -4398,6 +4398,7 @@ lock
 ;
 }
 }
+MFBT_DATA
 Atomic
 <
 uint32_t

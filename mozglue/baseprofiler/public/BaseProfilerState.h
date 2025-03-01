@@ -1672,6 +1672,7 @@ NO_OVERLAP
 #
 undef
 NO_OVERLAP
+MFBT_DATA
 static
 Atomic
 <
