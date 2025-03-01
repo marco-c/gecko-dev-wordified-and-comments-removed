@@ -17,6 +17,7 @@ unused
 )
 ]
 pub
+unsafe
 fn
 crc32_acle_aarch64
 (
@@ -137,6 +138,7 @@ unused
 )
 ]
 pub
+unsafe
 fn
 crc32_acle_arm
 (
@@ -427,6 +429,8 @@ u8
 >
 u32
 {
+unsafe
+{
 core
 :
 :
@@ -471,6 +475,7 @@ data
 )
 ;
 crc
+}
 }
 #
 [
@@ -518,6 +523,8 @@ u16
 >
 u32
 {
+unsafe
+{
 core
 :
 :
@@ -562,6 +569,7 @@ data
 )
 ;
 crc
+}
 }
 #
 [
@@ -610,6 +618,8 @@ u32
 >
 u32
 {
+unsafe
+{
 core
 :
 :
@@ -655,6 +665,7 @@ data
 ;
 crc
 }
+}
 #
 [
 cfg
@@ -692,6 +703,8 @@ u64
 -
 >
 u32
+{
+unsafe
 {
 core
 :
@@ -737,6 +750,7 @@ data
 )
 ;
 crc
+}
 }
 #
 [
@@ -785,6 +799,8 @@ u32
 >
 u32
 {
+unsafe
+{
 core
 :
 :
@@ -829,6 +845,7 @@ data
 )
 ;
 crc
+}
 }
 #
 [
@@ -906,12 +923,15 @@ v
 let
 a
 =
+unsafe
+{
 crc32_acle_aarch64
 (
 start
 &
 v
 )
+}
 ;
 let
 b
@@ -970,12 +990,15 @@ v
 let
 a
 =
+unsafe
+{
 crc32_acle_arm
 (
 start
 &
 v
 )
+}
 ;
 let
 b

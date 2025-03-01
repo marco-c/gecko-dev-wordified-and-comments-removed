@@ -125,7 +125,7 @@ version
 "
 0
 .
-2
+4
 .
 1
 "
@@ -174,7 +174,7 @@ github
 .
 com
 /
-memorysafety
+trifectatechfoundation
 /
 zlib
 -
@@ -203,7 +203,7 @@ github
 .
 com
 /
-memorysafety
+trifectatechfoundation
 /
 zlib
 -
@@ -238,19 +238,9 @@ version
 "
 0
 .
-2
+4
 .
 1
-"
-path
-=
-"
-.
-.
-/
-zlib
--
-rs
 "
 default
 -

@@ -514,6 +514,13 @@ pair
 }
 #
 [
+allow
+(
+unsafe_op_in_unsafe_fn
+)
+]
+#
+[
 target_feature
 (
 enable
@@ -1605,7 +1612,6 @@ neon
 adler32_neon
 (
 42
-&
 DEFAULT
 )
 ;
@@ -1624,7 +1630,6 @@ generic
 adler32_rust
 (
 42
-&
 DEFAULT
 )
 ;

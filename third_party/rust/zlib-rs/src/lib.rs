@@ -98,6 +98,9 @@ pub
 mod
 read_buf
 ;
+mod
+weak_slice
+;
 pub
 use
 adler32

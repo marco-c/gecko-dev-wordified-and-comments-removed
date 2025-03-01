@@ -14,7 +14,6 @@ use
 core
 :
 :
-{
 arch
 :
 :
@@ -34,23 +33,12 @@ _mm_srli_si128
 _mm_storeu_si128
 _mm_xor_si128
 }
-mem
-:
-:
-MaybeUninit
-}
 ;
 use
 crate
 :
 :
-{
-crc32
-:
-:
-slice_to_uninit
 CRC32_INITIAL_VALUE
-}
 ;
 #
 [
@@ -233,6 +221,7 @@ xmm_zero
 }
 }
 pub
+unsafe
 fn
 fold
 (
@@ -271,6 +260,7 @@ start
 }
 }
 pub
+unsafe
 fn
 fold_copy
 (
@@ -282,10 +272,7 @@ dst
 &
 mut
 [
-MaybeUninit
-<
 u8
->
 ]
 src
 :
@@ -443,6 +430,8 @@ crc_fold
 =
 RK1_RK2
 ;
+unsafe
+{
 let
 x_tmp0
 =
@@ -695,6 +684,8 @@ as
 u32
 )
 }
+}
+unsafe
 fn
 fold_step
 <
@@ -791,6 +782,8 @@ __m128i
 >
 __m128i
 {
+unsafe
+{
 _mm_xor_si128
 (
 _mm_clmulepi64_si128
@@ -812,6 +805,7 @@ XMM_FOLD4
 0x10
 )
 )
+}
 }
 unsafe
 fn
@@ -975,6 +969,8 @@ reg
 )
 ]
 ;
+unsafe
+{
 let
 xmm_shl
 =
@@ -1234,6 +1230,7 @@ fold
 xmm_a0
 )
 }
+}
 #
 [
 allow
@@ -1244,6 +1241,7 @@ clippy
 needless_range_loop
 )
 ]
+unsafe
 fn
 progress
 <
@@ -1265,10 +1263,7 @@ dst
 &
 mut
 [
-MaybeUninit
-<
 u8
->
 ]
 src
 :
@@ -1453,6 +1448,8 @@ init_crc
 CRC32_INITIAL_VALUE
 ;
 }
+unsafe
+{
 self
 .
 fold_step
@@ -1463,6 +1460,7 @@ N
 >
 (
 )
+}
 ;
 for
 i
@@ -1563,10 +1561,7 @@ dst
 &
 mut
 [
-MaybeUninit
-<
 u8
->
 ]
 mut
 src
@@ -1696,6 +1691,8 @@ src
 ;
 xmm_crc_part
 =
+unsafe
+{
 _mm_load_si128
 (
 partial_buf
@@ -1710,6 +1707,7 @@ as
 mut
 __m128i
 )
+}
 ;
 dst
 [
@@ -1724,8 +1722,6 @@ len
 .
 copy_from_slice
 (
-slice_to_uninit
-(
 &
 partial_buf
 .
@@ -1739,7 +1735,6 @@ len
 (
 )
 ]
-)
 )
 ;
 }
@@ -1777,6 +1772,8 @@ is_empty
 {
 xmm_crc_part
 =
+unsafe
+{
 _mm_loadu_si128
 (
 src
@@ -1789,9 +1786,12 @@ as
 const
 __m128i
 )
+}
 ;
 if
 COPY
+{
+unsafe
 {
 _mm_storeu_si128
 (
@@ -1806,6 +1806,7 @@ mut
 __m128i
 xmm_crc_part
 )
+}
 ;
 dst
 =
@@ -1852,11 +1853,14 @@ init_crc
 ;
 xmm_crc_part
 =
+unsafe
+{
 _mm_xor_si128
 (
 xmm_crc_part
 xmm_initial
 )
+}
 ;
 init_crc
 =
@@ -1883,6 +1887,8 @@ xmm_crc_part
 ;
 xmm_crc_part
 =
+unsafe
+{
 _mm_loadu_si128
 (
 (
@@ -1902,7 +1908,10 @@ add
 1
 )
 )
+}
 ;
+unsafe
+{
 self
 .
 fold_step
@@ -1913,6 +1922,7 @@ fold_step
 >
 (
 )
+}
 ;
 self
 .
@@ -1921,6 +1931,8 @@ fold
 3
 ]
 =
+unsafe
+{
 _mm_xor_si128
 (
 self
@@ -1931,6 +1943,7 @@ fold
 ]
 xmm_t0
 )
+}
 ;
 src
 =
@@ -1944,6 +1957,8 @@ src
 ;
 }
 }
+unsafe
+{
 self
 .
 partial_fold
@@ -1955,6 +1970,7 @@ len
 (
 )
 )
+}
 ;
 src
 =
@@ -1984,6 +2000,8 @@ len
 let
 n
 =
+unsafe
+{
 self
 .
 progress
@@ -2002,6 +2020,7 @@ src
 mut
 init_crc
 )
+}
 ;
 dst
 =
@@ -2028,6 +2047,8 @@ len
 let
 n
 =
+unsafe
+{
 self
 .
 progress
@@ -2046,6 +2067,7 @@ src
 mut
 init_crc
 )
+}
 ;
 dst
 =
@@ -2073,6 +2095,8 @@ len
 let
 n
 =
+unsafe
+{
 self
 .
 progress
@@ -2091,6 +2115,7 @@ src
 mut
 init_crc
 )
+}
 ;
 dst
 =
@@ -2118,6 +2143,8 @@ len
 let
 n
 =
+unsafe
+{
 self
 .
 progress
@@ -2136,6 +2163,7 @@ src
 mut
 init_crc
 )
+}
 ;
 dst
 =
@@ -2157,6 +2185,21 @@ src
 is_empty
 (
 )
+{
+debug_assert
+!
+(
+src
+.
+len
+(
+)
+<
+=
+16
+)
+;
+unsafe
 {
 core
 :
@@ -2223,13 +2266,6 @@ partial_buf
 as_ptr
 (
 )
-as
-*
-const
-MaybeUninit
-<
-u8
->
 dst
 .
 as_mut_ptr
@@ -2255,6 +2291,7 @@ len
 )
 )
 ;
+}
 }
 }
 }
