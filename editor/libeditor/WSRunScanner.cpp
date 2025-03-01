@@ -2282,6 +2282,7 @@ IsContainerEmpty
 )
 &
 &
+!
 atStartOfTextNode
 .
 IsCharCollapsibleASCIISpace
