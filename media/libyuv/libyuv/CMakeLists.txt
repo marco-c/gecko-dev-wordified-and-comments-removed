@@ -20,7 +20,7 @@ windows
 Run
 with
 -
-DTEST
+DUNIT_TEST
 =
 ON
 to
