@@ -1755,7 +1755,10 @@ options
 =
 {
 checkFn
-:
+(
+)
+{
+return
 geometryMatches
 (
 /
@@ -1766,6 +1769,8 @@ retry
 /
 true
 )
+;
+}
 timeout
 :
 500
