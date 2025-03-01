@@ -227,6 +227,14 @@ id
 .
 httpsOnlyFragment
 )
+FromDnsOverHttps
+(
+R
+.
+id
+.
+dohSettingsFragment
+)
 FromTrackingProtectionDialog
 (
 R
