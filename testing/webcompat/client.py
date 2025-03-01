@@ -8118,6 +8118,10 @@ self
 css
 (
 "
+.
+MuiDialog
+-
+container
 button
 .
 MuiButton
