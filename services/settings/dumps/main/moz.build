@@ -231,6 +231,17 @@ blocklists
 json
 "
 "
+moz
+-
+essential
+-
+domain
+-
+fallbacks
+.
+json
+"
+"
 password
 -
 rules
