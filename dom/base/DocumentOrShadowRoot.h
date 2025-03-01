@@ -251,7 +251,7 @@ return
 mAdoptedStyleSheets
 ;
 }
-int32_t
+size_t
 StyleOrderIndexOfSheet
 (
 const

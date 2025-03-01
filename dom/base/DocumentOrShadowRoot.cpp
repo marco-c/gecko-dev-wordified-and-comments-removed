@@ -3416,7 +3416,7 @@ Animation
 )
 ;
 }
-int32_t
+size_t
 DocumentOrShadowRoot
 :
 :
@@ -3438,7 +3438,7 @@ IsConstructed
 )
 )
 {
-int32_t
+size_t
 index
 =
 mAdoptedStyleSheets
@@ -3450,11 +3450,12 @@ aSheet
 )
 ;
 return
-(
 index
-<
-0
-)
+=
+=
+mAdoptedStyleSheets
+.
+NoIndex
 ?
 index
 :
