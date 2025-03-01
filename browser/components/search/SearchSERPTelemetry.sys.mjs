@@ -10125,7 +10125,7 @@ browser
 =
 wrappedChannel
 .
-browser
+browserElement
 ;
 if
 (
