@@ -7697,14 +7697,6 @@ StaticPrefs
 media_hardware_video_decoding_force_enabled_AtStartup
 (
 )
-|
-|
-StaticPrefs
-:
-:
-media_ffmpeg_vaapi_enabled_AtStartup
-(
-)
 )
 ;
 if
