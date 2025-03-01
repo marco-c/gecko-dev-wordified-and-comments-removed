@@ -318,6 +318,11 @@ this
 .
 _inspector
 .
+panelWin
+this
+.
+_inspector
+.
 cssProperties
 )
 ;
@@ -477,6 +482,11 @@ _rules
 .
 startModifyingProperties
 (
+this
+.
+_inspector
+.
+panelWin
 this
 .
 _inspector

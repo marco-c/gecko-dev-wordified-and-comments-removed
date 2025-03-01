@@ -180,6 +180,7 @@ column
 }
 startModifyingProperties
 (
+win
 cssProperties
 )
 {
@@ -194,6 +195,7 @@ return
 new
 RuleRewriter
 (
+win
 cssProperties
 .
 isKnown
