@@ -9722,6 +9722,11 @@ true
 every
 {
 shouldShowTrendingSearchSuggestions
+(
+any
+(
+)
+)
 }
 returns
 true
@@ -9825,6 +9830,11 @@ true
 every
 {
 shouldShowTrendingSearchSuggestions
+(
+any
+(
+)
+)
 }
 returns
 false

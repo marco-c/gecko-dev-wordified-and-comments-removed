@@ -1612,6 +1612,16 @@ SuggestionProvider
 >
 (
 )
+val
+isPrivate
+=
+activity
+.
+browsingModeManager
+.
+mode
+.
+isPrivate
 when
 (
 state
@@ -1676,6 +1686,9 @@ settings
 )
 .
 shouldShowTrendingSearchSuggestions
+(
+isPrivate
+)
 )
 ?
 .
@@ -2069,6 +2082,9 @@ settings
 )
 .
 shouldShowTrendingSearchSuggestions
+(
+isPrivate
+)
 )
 {
 providersToAdd
