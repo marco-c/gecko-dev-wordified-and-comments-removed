@@ -8419,6 +8419,9 @@ merge_params
 (
 name
 params
+or
+{
+}
 )
                 
 for
