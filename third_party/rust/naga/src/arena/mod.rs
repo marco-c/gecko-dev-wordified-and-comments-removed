@@ -399,6 +399,8 @@ T
 T
 )
 >
++
+ExactSizeIterator
 {
 self
 .

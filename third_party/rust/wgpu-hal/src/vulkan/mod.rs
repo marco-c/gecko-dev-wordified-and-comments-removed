@@ -2668,6 +2668,15 @@ vk
 DeviceMemory
 >
 >
+compacted_size_query
+:
+Option
+<
+vk
+:
+:
+QueryPool
+>
 }
 impl
 crate

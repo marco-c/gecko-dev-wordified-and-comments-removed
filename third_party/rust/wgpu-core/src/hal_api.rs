@@ -36,7 +36,7 @@ hal
 api
 :
 :
-Empty
+Noop
 {
 const
 VARIANT
@@ -46,7 +46,7 @@ Backend
 Backend
 :
 :
-Empty
+Noop
 ;
 }
 #

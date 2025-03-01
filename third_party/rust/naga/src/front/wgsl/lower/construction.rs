@@ -2301,7 +2301,7 @@ unwrap
 stride
 :
 {
-self
+ctx
 .
 layouter
 .
@@ -2320,7 +2320,7 @@ unwrap
 (
 )
 ;
-self
+ctx
 .
 layouter
 [
@@ -3182,7 +3182,7 @@ as_global
 )
 ?
 ;
-self
+ctx
 .
 layouter
 .
@@ -3204,7 +3204,7 @@ unwrap
 let
 stride
 =
-self
+ctx
 .
 layouter
 [

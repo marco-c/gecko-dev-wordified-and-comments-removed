@@ -512,7 +512,7 @@ version
 .
 20
 .
-2
+3
 "
 features
 =
@@ -854,6 +854,10 @@ hal
 /
 metal
 "
+]
+noop
+=
+[
 ]
 observe_locks
 =

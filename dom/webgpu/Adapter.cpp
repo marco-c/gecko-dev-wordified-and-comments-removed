@@ -350,14 +350,16 @@ case
 ffi
 :
 :
-WGPUBackend_Empty
+WGPUBackend_Noop
 :
 s
 .
 AssignLiteral
 (
 "
-Empty
+No
+-
+op
 "
 )
 ;
@@ -497,7 +499,7 @@ struct
 ffi
 :
 :
-WGPUFeatures
+WGPUFeaturesWebGPU
 wgpuBit
 ;
 }
@@ -578,7 +580,7 @@ const
 ffi
 :
 :
-WGPUFeatures
+WGPUFeaturesWebGPU
 aBit
 )
 {
@@ -665,7 +667,7 @@ Depth_clip_control
 return
 implemented
 (
-WGPUFeatures_DEPTH_CLIP_CONTROL
+WGPUWEBGPU_FEATURE_DEPTH_CLIP_CONTROL
 )
 ;
 case
@@ -680,7 +682,7 @@ Depth32float_stencil8
 return
 implemented
 (
-WGPUFeatures_DEPTH32FLOAT_STENCIL8
+WGPUWEBGPU_FEATURE_DEPTH32FLOAT_STENCIL8
 )
 ;
 case
@@ -695,7 +697,7 @@ Texture_compression_bc
 return
 implemented
 (
-WGPUFeatures_TEXTURE_COMPRESSION_BC
+WGPUWEBGPU_FEATURE_TEXTURE_COMPRESSION_BC
 )
 ;
 case
@@ -710,7 +712,7 @@ Texture_compression_etc2
 return
 implemented
 (
-WGPUFeatures_TEXTURE_COMPRESSION_ETC2
+WGPUWEBGPU_FEATURE_TEXTURE_COMPRESSION_ETC2
 )
 ;
 case
@@ -725,7 +727,7 @@ Texture_compression_astc
 return
 implemented
 (
-WGPUFeatures_TEXTURE_COMPRESSION_ASTC
+WGPUWEBGPU_FEATURE_TEXTURE_COMPRESSION_ASTC
 )
 ;
 case
@@ -740,7 +742,7 @@ Timestamp_query
 return
 implemented
 (
-WGPUFeatures_TIMESTAMP_QUERY
+WGPUWEBGPU_FEATURE_TIMESTAMP_QUERY
 )
 ;
 case
@@ -755,7 +757,7 @@ Indirect_first_instance
 return
 implemented
 (
-WGPUFeatures_INDIRECT_FIRST_INSTANCE
+WGPUWEBGPU_FEATURE_INDIRECT_FIRST_INSTANCE
 )
 ;
 case
@@ -803,7 +805,7 @@ Rg11b10ufloat_renderable
 return
 implemented
 (
-WGPUFeatures_RG11B10UFLOAT_RENDERABLE
+WGPUWEBGPU_FEATURE_RG11B10UFLOAT_RENDERABLE
 )
 ;
 case
@@ -818,7 +820,7 @@ Bgra8unorm_storage
 return
 implemented
 (
-WGPUFeatures_BGRA8UNORM_STORAGE
+WGPUWEBGPU_FEATURE_BGRA8UNORM_STORAGE
 )
 ;
 case
@@ -833,7 +835,7 @@ Float32_filterable
 return
 implemented
 (
-WGPUFeatures_FLOAT32_FILTERABLE
+WGPUWEBGPU_FEATURE_FLOAT32_FILTERABLE
 )
 ;
 case
@@ -1350,7 +1352,7 @@ unordered_map
 ffi
 :
 :
-WGPUFeatures
+WGPUFeaturesWebGPU
 dom
 :
 :
@@ -2432,7 +2434,7 @@ return
 ffi
 :
 :
-WGPUFeatures
+WGPUFeaturesWebGPU
 featureBits
 =
 0

@@ -4694,7 +4694,9 @@ constants
 for
 (
 handle
-override_
+r
+#
+override
 )
 in
 module
@@ -4733,7 +4735,9 @@ Override
 handle
 name
 :
-override_
+r
+#
+override
 .
 name
 .

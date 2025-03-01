@@ -67,7 +67,7 @@ Vec
 <
 GLFence
 >
-fence_mode
+fence_behavior
 :
 wgt
 :
@@ -149,11 +149,11 @@ Vec
 new
 (
 )
-fence_mode
+fence_behavior
 :
 options
 .
-short_circuit_fences
+fence_behavior
 }
 }
 pub
@@ -192,7 +192,7 @@ DeviceError
 if
 self
 .
-fence_mode
+fence_behavior
 .
 is_auto_finish
 (
@@ -340,7 +340,7 @@ Acquire
 if
 self
 .
-fence_mode
+fence_behavior
 .
 is_auto_finish
 (
@@ -443,7 +443,7 @@ Context
 if
 self
 .
-fence_mode
+fence_behavior
 .
 is_auto_finish
 (
@@ -566,7 +566,7 @@ Acquire
 if
 self
 .
-fence_mode
+fence_behavior
 .
 is_auto_finish
 (
@@ -787,7 +787,7 @@ Context
 if
 self
 .
-fence_mode
+fence_behavior
 .
 is_auto_finish
 (

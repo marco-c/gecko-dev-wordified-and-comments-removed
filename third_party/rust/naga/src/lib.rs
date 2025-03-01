@@ -4634,6 +4634,16 @@ Handle
 Expression
 >
 }
+GenerateIntersection
+{
+hit_t
+:
+Handle
+<
+Expression
+>
+}
+ConfirmIntersection
 Terminate
 }
 #

@@ -850,7 +850,7 @@ Gles3MinorVersion
 :
 :
 Automatic
-short_circuit_fences
+fence_behavior
 :
 wgt
 :
@@ -870,6 +870,17 @@ Dx12BackendOptions
 shader_compiler
 :
 dx12_shader_compiler
+}
+noop
+:
+wgt
+:
+:
+NoopBackendOptions
+{
+enable
+:
+false
 }
 }
 }
@@ -1012,7 +1023,7 @@ force_wait
 wgt
 :
 :
-Maintain
+PollType
 :
 :
 Wait
@@ -1022,7 +1033,7 @@ else
 wgt
 :
 :
-Maintain
+PollType
 :
 :
 Poll
@@ -2026,6 +2037,8 @@ adapter_features
 (
 id
 )
+.
+features_webgpu
 name
 vendor
 device

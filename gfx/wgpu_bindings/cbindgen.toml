@@ -323,6 +323,11 @@ WGPUDeviceId
 uint64_t
 ;
 using
+WGPUFeaturesWebGPU
+=
+uint64_t
+;
+using
 WGPUPipelineLayoutId
 =
 uint64_t
@@ -560,6 +565,13 @@ QuerySetDescriptor______nsACString
 =
 "
 WGPUQuerySetDescriptor
+"
+"
+RenderPassColorAttachment_TextureViewId
+"
+=
+"
+WGPURenderPassColorAttachment
 "
 [
 parse

@@ -5580,10 +5580,13 @@ in
 0
 .
 .
-crate
-:
-:
-MAX_COLOR_ATTACHMENTS
+self
+.
+shared
+.
+limits
+.
+max_color_attachments
 {
 let
 target
@@ -5594,8 +5597,6 @@ glow
 COLOR_ATTACHMENT0
 +
 i
-as
-u32
 ;
 unsafe
 {

@@ -183,10 +183,6 @@ ResourceType
 :
 :
 AccelerationStructure
-{
-.
-.
-}
 =
 >
 BindingTypeName
@@ -280,10 +276,6 @@ BindingType
 :
 :
 AccelerationStructure
-{
-.
-.
-}
 =
 >
 BindingTypeName
