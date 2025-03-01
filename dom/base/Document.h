@@ -11440,6 +11440,11 @@ EnsureViewTransitionOperationsHappen
 (
 )
 ;
+void
+MaybeSkipTransitionAfterVisibilityChange
+(
+)
+;
 PermissionDelegateHandler
 *
 GetPermissionDelegateHandler
