@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsNSSComponent
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h
@@ -2087,6 +2094,9 @@ Length
 )
 )
 }
+;
+AutoSearchingForClientAuthCertificates
+_
 ;
 UniqueCERTCertificate
 cert
