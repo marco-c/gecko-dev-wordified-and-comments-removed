@@ -6132,7 +6132,6 @@ true
 return
 false
 }
-final
 override
 fun
 dispatchTouchEvent
