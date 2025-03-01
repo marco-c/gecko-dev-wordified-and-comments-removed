@@ -106,6 +106,14 @@ IMPL_MFBT
 ]
 =
 True
+DEFINES
+[
+"
+NS_NO_XPCOM
+"
+]
+=
+True
 OS_LIBS
 +
 =
