@@ -4632,7 +4632,7 @@ zone_
 ;
 }
 }
-Handle
+DirectHandle
 <
 TrustedByteArray
 >
@@ -4687,7 +4687,7 @@ bytecode
 length
 )
 ;
-Handle
+DirectHandle
 <
 TrustedByteArray
 >

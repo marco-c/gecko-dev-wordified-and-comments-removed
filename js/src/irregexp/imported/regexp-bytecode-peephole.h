@@ -31,7 +31,7 @@ AllStatic
 public
 :
 static
-Handle
+DirectHandle
 <
 TrustedByteArray
 >
