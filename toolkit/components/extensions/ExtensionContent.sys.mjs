@@ -5754,6 +5754,7 @@ mjs
 .
 *
 /
+export
 class
 ContentScriptContextChild
 extends

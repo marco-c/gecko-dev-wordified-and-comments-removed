@@ -20013,7 +20013,7 @@ redefineGetter
 (
 this
 "
-BOOTSTRAP_REASON_TO_STRING_MAP
+BOOTSTRAP_REASON_MAP
 "
 value
 )
@@ -21988,6 +21988,9 @@ set
 locale
 result
 )
+;
+return
+result
 ;
 }
 )
