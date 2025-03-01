@@ -115,11 +115,17 @@ DOMString
 localName
 )
 ;
+[
+Throws
+]
 undefined
 clearParameters
 (
 )
 ;
+[
+Throws
+]
 undefined
 reset
 (
