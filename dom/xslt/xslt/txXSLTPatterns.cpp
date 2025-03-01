@@ -1454,7 +1454,10 @@ getPrivateContext
 (
 )
 ;
+UniquePtr
+<
 txXPathNode
+>
 contextDoc
 (
 txXPathNodeUtils
@@ -1464,6 +1467,12 @@ getOwnerDocument
 (
 aNode
 )
+)
+;
+NS_ENSURE_TRUE
+(
+contextDoc
+NS_ERROR_FAILURE
 )
 ;
 RefPtr
@@ -1481,6 +1490,7 @@ es
 getKeyNodes
 (
 mName
+*
 contextDoc
 mValue
 true

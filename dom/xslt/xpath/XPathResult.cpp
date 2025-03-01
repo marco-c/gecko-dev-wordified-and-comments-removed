@@ -1120,7 +1120,7 @@ count
 i
 )
 {
-Maybe
+UniquePtr
 <
 txXPathNode
 >
@@ -1153,11 +1153,8 @@ nodeSet
 >
 append
 (
+*
 node
-.
-extract
-(
-)
 )
 ;
 }
