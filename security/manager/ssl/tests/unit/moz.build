@@ -6,7 +6,7 @@ DIRS
 tlsserver
 "
 "
-test_trust_anchors
+test_builtins
 "
 "
 test_signed_apps

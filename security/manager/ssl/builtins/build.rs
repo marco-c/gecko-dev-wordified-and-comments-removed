@@ -2735,7 +2735,7 @@ tests
 /
 unit
 /
-test_trust_anchors
+test_builtins
 /
 certdata
 .

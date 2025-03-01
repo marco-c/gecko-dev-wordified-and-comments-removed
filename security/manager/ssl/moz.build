@@ -1,3 +1,11 @@
+DIRS
++
+=
+[
+"
+builtins
+"
+]
 TEST_DIRS
 +
 =

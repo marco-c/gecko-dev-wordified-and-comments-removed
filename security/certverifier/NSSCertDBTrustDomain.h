@@ -184,9 +184,6 @@ DisableMD5
 (
 )
 ;
-#
-ifdef
-MOZ_SYSTEM_NSS
 bool
 LoadLoadableRoots
 (
@@ -194,13 +191,6 @@ const
 nsCString
 &
 dir
-)
-;
-#
-endif
-bool
-LoadLoadableRootsFromXul
-(
 )
 ;
 bool
