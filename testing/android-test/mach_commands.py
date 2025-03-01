@@ -475,7 +475,8 @@ AC
 if
 not
 test_objects
-or
+and
+not
 test
 :
             
