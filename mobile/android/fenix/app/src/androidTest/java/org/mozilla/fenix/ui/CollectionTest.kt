@@ -484,13 +484,10 @@ saved
 !
 "
 )
-clickSnackbarButton
-(
-composeTestRule
-"
-VIEW
-"
-)
+}
+.
+closeTabDrawer
+{
 }
 homeScreen
 {
