@@ -4763,6 +4763,8 @@ set
 (
 getDistributionId
 (
+this
+FenixApplication
 browserStore
 )
 )
