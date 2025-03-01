@@ -132,6 +132,8 @@ LocalizedFiles
     
 LocalizedPreprocessedFiles
     
+MozSrcFiles
+    
 ObjdirFiles
     
 ObjdirPreprocessedFiles
@@ -9280,6 +9282,13 @@ LocalizedFiles
 LOCALIZED_PP_FILES
 "
 LocalizedPreprocessedFiles
+)
+            
+(
+"
+MOZ_SRC_FILES
+"
+MozSrcFiles
 )
             
 (
