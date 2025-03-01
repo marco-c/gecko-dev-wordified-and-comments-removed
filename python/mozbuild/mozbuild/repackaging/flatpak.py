@@ -29,7 +29,7 @@ Template
 FREEDESKTOP_VERSION
 =
 "
-23
+24
 .
 08
 "
@@ -46,11 +46,7 @@ BaseApp
 "
 FIREFOX_BASEAPP_CHANNEL
 =
-"
-23
-.
-08
-"
+FREEDESKTOP_VERSION
 def
 run_command
 (
