@@ -1647,6 +1647,13 @@ getSearchTermSuggestionsProvider
 state
 .
 searchEngineSource
+activity
+.
+settings
+(
+)
+.
+shouldShowTrendingSearchSuggestions
 )
 ?
 .
@@ -2367,6 +2374,11 @@ getSearchTermSuggestionsProvider
 searchEngineSource
 :
 SearchEngineSource
+showSuggestionsWhenEmpty
+:
+Boolean
+=
+false
 )
 :
 AwesomeBar
@@ -2427,6 +2439,9 @@ searchEngineSource
 .
 searchEngine
 )
+showSuggestionsWhenEmpty
+=
+showSuggestionsWhenEmpty
 )
 }
 private
