@@ -295,16 +295,6 @@ base
 '
 )
 implementation
-project
-(
-'
-:
-feature
--
-screendetection
-'
-)
-implementation
 ComponentsDependencies
 .
 kotlin_coroutines
