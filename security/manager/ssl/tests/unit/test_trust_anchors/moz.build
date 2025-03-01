@@ -22,7 +22,9 @@ RustLibrary
 "
 test
 -
-builtins
+trust
+-
+anchors
 -
 static
 "

@@ -6,7 +6,9 @@ name
 "
 test
 -
-builtins
+trust
+-
+anchors
 -
 static
 "
@@ -59,7 +61,7 @@ build
 .
 .
 /
-builtins
+trust_anchors
 /
 build
 .
@@ -135,7 +137,9 @@ features
 "
 test
 -
-builtins
+trust
+-
+anchors
 -
 static
 "
@@ -212,7 +216,7 @@ path
 .
 .
 /
-builtins
+trust_anchors
 /
 src
 /

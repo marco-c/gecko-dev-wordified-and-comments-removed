@@ -15,7 +15,7 @@ tests
 /
 unit
 /
-test_builtins
+test_trust_anchors
 "
 USE_LIBS
 +
@@ -24,7 +24,9 @@ USE_LIBS
 "
 test
 -
-builtins
+trust
+-
+anchors
 -
 static
 "
@@ -170,7 +172,7 @@ synchronization
 SharedLibrary
 (
 "
-test_builtins
+test_trust_anchors
 "
 )
 NoVisibilityFlags
@@ -179,7 +181,9 @@ NoVisibilityFlags
 SYMBOLS_FILE
 =
 "
-builtins
+trust
+-
+anchors
 .
 symbols
 "
