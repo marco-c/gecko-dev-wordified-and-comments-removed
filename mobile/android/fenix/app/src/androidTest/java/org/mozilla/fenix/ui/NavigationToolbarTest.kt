@@ -687,11 +687,12 @@ toUri
 )
 )
 {
-waitForPageToLoad
+verifyPageContent
 (
-pageLoadWaitingTime
-=
-waitingTimeLong
+"
+Login
+Form
+"
 )
 }
 .
