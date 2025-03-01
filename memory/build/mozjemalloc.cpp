@@ -12877,6 +12877,10 @@ if
 chunk
 )
 {
+mIsDeferredPurgePending
+=
+false
+;
 return
 false
 ;
