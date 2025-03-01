@@ -498,17 +498,6 @@ content
 process
 .
 *
-This
-is
-content
-process
-only
-and
-will
-ASSERT
-otherwise
-.
-*
 /
 void
 asyncClassifyLocalWithFeatureNames
