@@ -5119,7 +5119,7 @@ groups
 .
 dragOverDelayMS
 "
-120
+240
 )
 ;
 pref
