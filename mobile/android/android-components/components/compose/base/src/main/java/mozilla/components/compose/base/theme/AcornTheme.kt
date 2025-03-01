@@ -594,7 +594,7 @@ textActionPrimaryDisabled
 =
 PhotonColors
 .
-LightGrey05A40
+LightGrey05A50
 textActionSecondary
 =
 PhotonColors
