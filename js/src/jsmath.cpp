@@ -5016,9 +5016,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 enum
 class
 SumPreciseState
@@ -5531,8 +5528,6 @@ return
 true
 ;
 }
-#
-endif
 UnaryMathFunctionType
 js
 :
@@ -6538,9 +6533,6 @@ math_cbrt
 0
 MathCbrt
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -6550,8 +6542,6 @@ math_sumPrecise
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
