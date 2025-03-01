@@ -396,6 +396,9 @@ OnboardingCardType
 TOOLBAR_PLACEMENT
 -
 >
+enabled
+&
+&
 extraData
 ?
 .
@@ -413,6 +416,9 @@ OnboardingCardType
 THEME_SELECTION
 -
 >
+enabled
+&
+&
 extraData
 ?
 .
