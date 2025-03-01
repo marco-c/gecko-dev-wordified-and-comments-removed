@@ -115,6 +115,15 @@ Stop
 (
 )
 ;
+void
+SetPath
+(
+const
+char
+*
+dump_path
+)
+;
 static
 bool
 CreateReportChannel
@@ -195,6 +204,9 @@ exit_context_
 ;
 bool
 generate_dumps_
+;
+pthread_mutex_t
+dump_dir_mutex_
 ;
 string
 dump_dir_
