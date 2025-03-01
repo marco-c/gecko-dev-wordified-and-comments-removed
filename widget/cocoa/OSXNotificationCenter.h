@@ -93,6 +93,9 @@ unsigned
 long
 long
 aAdditionalActionIndex
+NSUserNotificationAction
+*
+aAdditionalActivationAction
 )
 ;
 void
