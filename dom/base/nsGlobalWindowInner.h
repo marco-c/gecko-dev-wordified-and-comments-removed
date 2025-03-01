@@ -2329,13 +2329,6 @@ DisableVRUpdates
 )
 ;
 void
-ResetVRTelemetry
-(
-bool
-aUpdate
-)
-;
-void
 StartVRActivity
 (
 )
