@@ -238,6 +238,7 @@ new
 nsAlertsIconListener
 (
 this
+aAlert
 alertName
 )
 ;
