@@ -56,6 +56,16 @@ target_os
 "
 tvos
 "
+target_os
+=
+"
+watchos
+"
+target_os
+=
+"
+visionos
+"
 )
 feature
 =

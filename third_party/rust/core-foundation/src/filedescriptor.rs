@@ -417,10 +417,6 @@ test
 mod
 test
 {
-extern
-crate
-libc
-;
 use
 super
 :
