@@ -19,6 +19,7 @@ txNodeSet
 h
 "
 class
+MOZ_STACK_CLASS
 txForwardContext
 :
 public

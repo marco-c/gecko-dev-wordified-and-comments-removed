@@ -1427,6 +1427,7 @@ aNamespace
 ;
 }
 class
+MOZ_STACK_CLASS
 txXSLTParamContext
 :
 public
@@ -1720,7 +1721,7 @@ IsVoid
 )
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -2993,7 +2994,7 @@ bool
 aCreateDataDocument
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -3501,7 +3502,7 @@ source
 aSource
 ;
 }
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -5794,7 +5795,7 @@ GetAsNode
 (
 )
 ;
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -5887,7 +5888,7 @@ node
 values
 )
 {
-UniquePtr
+Maybe
 <
 txXPathNode
 >
@@ -5921,8 +5922,11 @@ nodeSet
 >
 append
 (
-*
 xpathNode
+.
+extract
+(
+)
 )
 ;
 }

@@ -20,6 +20,13 @@ txIXPathContext
 .
 h
 "
+#
+include
+"
+txXPathNode
+.
+h
+"
 class
 txSingleNodeContext
 :
@@ -299,9 +306,7 @@ return
 }
 private
 :
-const
 txXPathNode
-&
 mNode
 ;
 txIMatchContext
