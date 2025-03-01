@@ -21567,6 +21567,9 @@ nsDOMWindowUtils
 :
 GetContentAPZTestData
 (
+Element
+*
+aElement
 JSContext
 *
 aContext
@@ -21589,8 +21592,9 @@ nsIWidget
 *
 widget
 =
-GetWidget
+GetWidgetForElement
 (
+aElement
 )
 )
 {
