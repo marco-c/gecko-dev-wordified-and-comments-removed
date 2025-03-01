@@ -3621,8 +3621,9 @@ PlacesUtils
 TOPIC_INIT_COMPLETE
 )
 {
-const
-placesObserver
+this
+.
+_placesObserver
 =
 new
 PlacesWeakCallbackWrapper
@@ -3665,7 +3666,9 @@ history
 cleared
 "
 ]
-placesObserver
+this
+.
+_placesObserver
 )
 ;
 }

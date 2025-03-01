@@ -7576,8 +7576,9 @@ _list
 =
 aList
 ;
-const
-placesObserver
+this
+.
+_placesObserver
 =
 new
 PlacesWeakCallbackWrapper
@@ -7608,7 +7609,9 @@ page
 removed
 "
 ]
-placesObserver
+this
+.
+_placesObserver
 )
 ;
 }
