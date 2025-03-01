@@ -6508,6 +6508,8 @@ POWERSAVE_LATENCY_FRAMES_THRESHOLD
 {
 output_buffer_size_frames
 =
+2
+*
 output_burst_frames
 ;
 }
