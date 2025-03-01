@@ -2030,7 +2030,6 @@ width
 const
 {
 document
-requestAnimationFrame
 }
 =
 this
@@ -2052,13 +2051,6 @@ inDOMFullscreen
 "
 )
 )
-{
-requestAnimationFrame
-(
-(
-)
-=
->
 {
 this
 .
@@ -2118,9 +2110,6 @@ launcherExpanded
 false
 ;
 }
-}
-)
-;
 }
 }
 get
