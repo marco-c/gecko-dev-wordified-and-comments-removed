@@ -7,11 +7,7 @@ sys
 from
 datetime
 import
-timedelta
-from
-time
-import
-strptime
+datetime
 MEM_MATCHER
 =
 re
@@ -276,7 +272,7 @@ unit
 "
 :
 "
-s
+ms
 "
                 
 "
@@ -340,7 +336,7 @@ unit
 "
 :
 "
-s
+ms
 "
             
 "
@@ -1066,46 +1062,49 @@ items
         
 dt
 =
+datetime
+.
 strptime
 (
 time
 "
 %
-H
-:
-%
 M
 :
 %
 S
+.
+%
+f
 "
 )
         
-seconds
+milliseconds
 =
-timedelta
 (
-            
-hours
-=
+(
+(
 dt
 .
-tm_hour
-minutes
-=
-dt
-.
-tm_min
-seconds
-=
-dt
-.
-tm_sec
-        
+minute
+*
+60
 )
++
+dt
 .
-total_seconds
+second
+)
+*
+1000
+)
++
 (
+dt
+.
+microsecond
+/
+1000
 )
         
 final_name
@@ -1152,7 +1151,7 @@ final_name
 ]
 +
 =
-seconds
+milliseconds
     
 return
 cpu_times
@@ -1348,7 +1347,7 @@ unit
 "
 :
 "
-s
+ms
 "
                     
 "
@@ -1402,7 +1401,7 @@ unit
 "
 :
 "
-s
+ms
 "
                 
 "
