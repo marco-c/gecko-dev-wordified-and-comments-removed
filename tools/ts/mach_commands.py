@@ -798,10 +798,26 @@ types
 "
 )
     
+platforms
+=
+[
+"
+darwin
+"
+"
+linux
+"
+"
+win32
+"
+]
+    
 for
 lib
 in
 targets
++
+platforms
 :
         
 file
@@ -847,6 +863,14 @@ exists
 path
 )
 :
+            
+if
+lib
+in
+platforms
+:
+                
+continue
             
 print
 (
