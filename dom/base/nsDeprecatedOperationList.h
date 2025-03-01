@@ -218,3 +218,11 @@ DEPRECATED_OPERATION
 (
 IDBObjectStoreCreateIndexLocale
 )
+DEPRECATED_OPERATION
+(
+BeforeScriptExecuteEvent
+)
+DEPRECATED_OPERATION
+(
+AfterScriptExecuteEvent
+)
