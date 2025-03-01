@@ -157,7 +157,7 @@ awesomebar
 .
 facts
 .
-emitSearchSuggestionClickedFact
+emitTrendingSearchSuggestionClickedFact
 import
 mozilla
 .
@@ -965,7 +965,7 @@ invoke
 (
 item
 )
-emitSearchSuggestionClickedFact
+emitTrendingSearchSuggestionClickedFact
 (
 )
 }
