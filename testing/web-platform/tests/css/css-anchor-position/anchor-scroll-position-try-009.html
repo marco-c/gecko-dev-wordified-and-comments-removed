@@ -425,6 +425,13 @@ div
 <
 script
 >
+let
+vw
+=
+window
+.
+innerWidth
+;
 promise_test
 (
 async
@@ -653,7 +660,9 @@ documentElement
 .
 scrollLeft
 =
-250
+vw
+-
+99
 ;
 document
 .
