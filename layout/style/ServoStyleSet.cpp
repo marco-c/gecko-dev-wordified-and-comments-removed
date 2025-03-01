@@ -3698,10 +3698,6 @@ aSheet
 beforeSheet
 )
 ;
-SetStylistStyleSheetsDirty
-(
-)
-;
 }
 else
 {
@@ -3716,11 +3712,11 @@ get
 aSheet
 )
 ;
+}
 SetStylistStyleSheetsDirty
 (
 )
 ;
-}
 if
 (
 mStyleRuleMap

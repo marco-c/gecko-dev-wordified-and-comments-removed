@@ -1678,6 +1678,17 @@ mConstructorDocument
 ;
 }
 bool
+IsDirectlyAssociatedTo
+(
+dom
+:
+:
+DocumentOrShadowRoot
+&
+)
+const
+;
+bool
 SelfOrAncestorIsConstructed
 (
 )
