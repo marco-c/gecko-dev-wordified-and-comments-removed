@@ -232,6 +232,10 @@ nsIPrefBranch
 const
 PREF_TYPES
 =
+Object
+.
+freeze
+(
 {
 [
 PREF_STRING
@@ -267,6 +271,7 @@ nsIPrefBranch
 PREF_BOOL
 "
 }
+)
 ;
 /
 *
@@ -1081,6 +1086,17 @@ windowsBuildNumber
 "
 "
 windowsVersion
+"
+)
+primaryResolution
+:
+pick
+(
+"
+height
+"
+"
+width
 "
 )
 profileAgeCreated
