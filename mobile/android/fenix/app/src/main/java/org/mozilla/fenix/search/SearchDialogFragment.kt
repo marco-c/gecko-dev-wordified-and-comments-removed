@@ -3020,7 +3020,7 @@ settings
 (
 )
 .
-enableTrendingSearches
+shouldShowTrendingSearchSuggestions
 &
 &
 store
