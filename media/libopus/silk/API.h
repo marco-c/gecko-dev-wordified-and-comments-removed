@@ -114,7 +114,7 @@ silk_EncControlStruct
 *
 encControl
 const
-opus_int16
+opus_res
 *
 samplesIn
 opus_int
@@ -187,7 +187,7 @@ newPacketFlag
 ec_dec
 *
 psRangeDec
-opus_int16
+opus_res
 *
 samplesOut
 opus_int32

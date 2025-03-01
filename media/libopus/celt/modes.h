@@ -126,7 +126,7 @@ opus_int16
 logN
 ;
 const
-opus_val16
+celt_coef
 *
 window
 ;

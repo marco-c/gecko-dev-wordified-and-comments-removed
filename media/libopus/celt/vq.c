@@ -600,7 +600,7 @@ int
 N
 opus_val32
 Ryy
-opus_val16
+opus_val32
 gain
 )
 {
@@ -652,7 +652,7 @@ k
 ;
 g
 =
-MULT16_16_P15
+MULT32_32_Q31
 (
 celt_rsqrt_norm
 (
@@ -1594,7 +1594,7 @@ B
 ec_enc
 *
 enc
-opus_val16
+opus_val32
 gain
 int
 resynth
@@ -1746,7 +1746,7 @@ B
 ec_dec
 *
 dec
-opus_val16
+opus_val32
 gain
 )
 {
@@ -1861,7 +1861,7 @@ celt_norm
 X
 int
 N
-opus_val16
+opus_val32
 gain
 int
 arch
@@ -1934,7 +1934,7 @@ k
 ;
 g
 =
-MULT16_16_P15
+MULT32_32_Q31
 (
 celt_rsqrt_norm
 (

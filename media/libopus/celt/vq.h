@@ -133,7 +133,7 @@ B
 ec_enc
 *
 enc
-opus_val16
+opus_val32
 gain
 int
 resynth
@@ -158,7 +158,7 @@ B
 ec_dec
 *
 dec
-opus_val16
+opus_val32
 gain
 )
 ;
@@ -170,7 +170,7 @@ celt_norm
 X
 int
 N
-opus_val16
+opus_val32
 gain
 int
 arch

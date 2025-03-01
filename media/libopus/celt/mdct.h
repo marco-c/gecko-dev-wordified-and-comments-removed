@@ -68,6 +68,10 @@ h
 "
 #
 endif
+#
+define
+IMDCT_HEADROOM
+2
 int
 clt_mdct_init
 (
@@ -107,7 +111,7 @@ kiss_fft_scalar
 OPUS_RESTRICT
 out
 const
-opus_val16
+celt_coef
 *
 window
 int
@@ -135,7 +139,7 @@ kiss_fft_scalar
 OPUS_RESTRICT
 out
 const
-opus_val16
+celt_coef
 *
 OPUS_RESTRICT
 window
@@ -193,7 +197,7 @@ kiss_fft_scalar
 OPUS_RESTRICT
 out
 const
-opus_val16
+celt_coef
 *
 window
 int
@@ -270,7 +274,7 @@ kiss_fft_scalar
 OPUS_RESTRICT
 out
 const
-opus_val16
+celt_coef
 *
 window
 int
