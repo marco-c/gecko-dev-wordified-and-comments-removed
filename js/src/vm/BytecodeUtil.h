@@ -164,6 +164,7 @@ MOZ_ALWAYS_INLINE
 uint8_t
 GET_UINT8
 (
+const
 jsbytecode
 *
 pc
