@@ -982,6 +982,13 @@ Clear
 const
 Maybe
 <
+bool
+>
+&
+aChrome
+const
+Maybe
+<
 nsCOMPtr
 <
 nsIPrincipal
@@ -1046,6 +1053,7 @@ cp
 >
 SendClearStyleSheetCache
 (
+aChrome
 aPrincipal
 aSchemelessSite
 aPattern
@@ -1063,6 +1071,7 @@ sSingleton
 >
 ClearInProcess
 (
+aChrome
 aPrincipal
 aSchemelessSite
 aPattern
