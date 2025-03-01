@@ -2605,6 +2605,9 @@ cx
 GetErrorMessage
 nullptr
 JSMSG_WASM_BAD_IMP_ADDRESS
+"
+memory
+"
 ToString
 (
 memory
@@ -3126,6 +3129,9 @@ cx
 GetErrorMessage
 nullptr
 JSMSG_WASM_BAD_IMP_ADDRESS
+"
+table
+"
 ToString
 (
 tableObj
