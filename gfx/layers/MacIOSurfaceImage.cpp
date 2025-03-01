@@ -1879,7 +1879,7 @@ continue
 }
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 Maybe
 <
 OSType
@@ -1896,7 +1896,7 @@ aColorRange
 aColorDepth
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 pixelFormat
 .
@@ -1905,7 +1905,7 @@ isSome
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 :
 :
@@ -1923,7 +1923,7 @@ get
 pixelFormat
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 :
 :
@@ -1946,7 +1946,7 @@ aYSize
 width
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 :
 :
@@ -1985,7 +1985,7 @@ pixelFormat
 kCVPixelFormatType_422YpCbCr8FullRange
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 :
 :
@@ -2008,7 +2008,7 @@ aCbCrSize
 width
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 :
 :

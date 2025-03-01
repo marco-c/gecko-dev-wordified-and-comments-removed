@@ -785,6 +785,9 @@ GetMaxHeight
 (
 )
 ;
+#
+ifdef
+DEBUG
 static
 mozilla
 :
@@ -821,6 +824,8 @@ ColorDepth
 aColorDepth
 )
 ;
+#
+endif
 CFTypeRefPtr
 <
 IOSurfaceRef

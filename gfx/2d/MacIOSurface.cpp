@@ -2769,6 +2769,9 @@ COLOR_8
 ;
 }
 }
+#
+ifdef
+DEBUG
 Maybe
 <
 OSType
@@ -3044,6 +3047,8 @@ Nothing
 )
 ;
 }
+#
+endif
 bool
 MacIOSurface
 :
