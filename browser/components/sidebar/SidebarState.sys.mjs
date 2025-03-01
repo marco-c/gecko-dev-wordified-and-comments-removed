@@ -2086,9 +2086,9 @@ enough
 .
 if
 (
-lazy
+this
 .
-verticalTabsEnabled
+launcherDragActive
 )
 {
 this
@@ -2099,15 +2099,6 @@ width
 >
 =
 LAUNCHER_MINIMUM_WIDTH
-;
-}
-else
-{
-this
-.
-launcherExpanded
-=
-false
 ;
 }
 }
