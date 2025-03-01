@@ -5179,7 +5179,7 @@ window
 .
 gBrowser
 .
-getNotificationBox
+readNotificationBox
 (
 )
 ?
