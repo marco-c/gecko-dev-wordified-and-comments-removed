@@ -1687,6 +1687,15 @@ SetBigIconNoData
 (
 )
 ;
+void
+UpdateMicaBackdrop
+(
+bool
+aForce
+=
+false
+)
+;
 static
 void
 SetIsRestoringSession
@@ -3796,6 +3805,11 @@ mIsChildWindow
 ;
 bool
 mPIPWindow
+:
+1
+;
+bool
+mMicaBackdrop
 :
 1
 ;

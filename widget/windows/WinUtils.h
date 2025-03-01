@@ -1544,6 +1544,12 @@ aName
 ;
 static
 bool
+MicaAvailable
+(
+)
+;
+static
+bool
 MicaEnabled
 (
 )
