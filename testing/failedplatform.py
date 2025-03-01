@@ -19,6 +19,7 @@ from
 typing
 import
 Dict
+List
 Set
 class
 FailedPlatform
@@ -133,7 +134,7 @@ self
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -161,7 +162,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]

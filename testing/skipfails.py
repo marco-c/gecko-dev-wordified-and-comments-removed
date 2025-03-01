@@ -41,7 +41,9 @@ typing
 import
 Any
 Dict
+List
 Literal
+Tuple
 from
 xmlrpc
 .
@@ -2994,7 +2996,7 @@ get_failures
 self
 tasks
 :
-list
+List
 [
 TestTask
 ]
@@ -3108,7 +3110,7 @@ str
 Dict
 [
 str
-list
+List
 [
 str
 ]
@@ -7169,14 +7171,14 @@ bool
         
 differences
 :
-list
+List
 [
 int
 ]
         
 pixels
 :
-list
+List
 [
 int
 ]
@@ -8807,7 +8809,7 @@ None
                 
 artifact_list
 :
-list
+List
 [
 Dict
 [
@@ -12219,7 +12221,7 @@ str
 )
 -
 >
-tuple
+Tuple
 [
 Optional
 [

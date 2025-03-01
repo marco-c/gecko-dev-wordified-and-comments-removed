@@ -14,6 +14,7 @@ timedelta
 from
 typing
 import
+List
 Optional
 import
 requests
@@ -8671,7 +8672,7 @@ command_context
     
 manifest_search_path
 :
-list
+List
 [
 str
 ]
