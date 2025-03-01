@@ -10797,10 +10797,6 @@ suffix
 =
 patchType
 +
-"
-_
-"
-+
 (
 aStartup
 ?
