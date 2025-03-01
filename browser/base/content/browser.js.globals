@@ -803,4 +803,7 @@ gFindBarPromise
 "
 SelectableProfileService
 "
+"
+ActionsProviderContextualSearch
+"
 ]
