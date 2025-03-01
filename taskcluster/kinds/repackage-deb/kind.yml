@@ -169,6 +169,12 @@ opt
 linux64
 /
 opt
+-
+linux64
+-
+aarch64
+/
+opt
 tasks
 :
 repackage
