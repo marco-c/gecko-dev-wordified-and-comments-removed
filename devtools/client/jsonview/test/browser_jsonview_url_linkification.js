@@ -173,7 +173,7 @@ a
 .
 repeat
 (
-100
+250
 )
 ;
 const
@@ -250,7 +250,7 @@ url
 slice
 (
 0
-24
+124
 )
 +
 ELLIPSIS
@@ -260,7 +260,7 @@ url
 slice
 (
 -
-24
+124
 )
 clickLabel
 :

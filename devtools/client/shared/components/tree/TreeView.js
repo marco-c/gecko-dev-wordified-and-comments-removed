@@ -298,6 +298,9 @@ null
 expandableStrings
 :
 true
+maxStringLength
+:
+50
 columns
 :
 [
@@ -497,6 +500,11 @@ expandableStrings
 PropTypes
 .
 bool
+maxStringLength
+:
+PropTypes
+.
+number
 columns
 :
 PropTypes
@@ -2566,6 +2574,7 @@ const
 {
 expandableStrings
 provider
+maxStringLength
 }
 =
 this
@@ -2682,6 +2691,7 @@ expandableStrings
 isLongString
 (
 value
+maxStringLength
 )
 )
 {
@@ -3451,6 +3461,7 @@ function
 isLongString
 (
 value
+maxStringLength
 )
 {
 return
@@ -3467,7 +3478,7 @@ value
 .
 length
 >
-50
+maxStringLength
 ;
 }
 module
