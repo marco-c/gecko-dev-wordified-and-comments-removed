@@ -64,7 +64,7 @@ id
 ;
 static
 bool
-watchPropertyChangeSlow
+watchPropertyFlagsChangeSlow
 (
 JSContext
 *
@@ -239,7 +239,7 @@ HasFuseProperty
 }
 static
 bool
-watchesPropertyChange
+watchesPropertyFlagsChange
 (
 NativeObject
 *
@@ -261,10 +261,6 @@ ObjectFlag
 :
 :
 GenerationCountedGlobal
-ObjectFlag
-:
-:
-HasFuseProperty
 ObjectFlag
 :
 :
@@ -499,7 +495,7 @@ id
 }
 static
 bool
-watchPropertyChange
+watchPropertyFlagsChange
 (
 JSContext
 *
@@ -523,7 +519,7 @@ if
 MOZ_LIKELY
 (
 !
-watchesPropertyChange
+watchesPropertyFlagsChange
 (
 obj
 )
@@ -535,7 +531,7 @@ true
 ;
 }
 return
-watchPropertyChangeSlow
+watchPropertyFlagsChangeSlow
 (
 cx
 obj
