@@ -1858,6 +1858,9 @@ userActionId
 responseResult
 response
 .
+isAgentResponse
+response
+.
 cancelError
 )
 ;
@@ -3378,6 +3381,7 @@ aBrowsingContext
 aRequestToken
 aUserActionId
 aCAResult
+aIsAgentResponse
 aRequestCancelError
 )
 {
@@ -3685,6 +3689,9 @@ eBlock
 {
 if
 (
+aIsAgentResponse
+&
+&
 !
 lazy
 .

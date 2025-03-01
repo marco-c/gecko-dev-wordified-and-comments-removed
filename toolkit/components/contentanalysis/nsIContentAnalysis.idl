@@ -232,6 +232,14 @@ attribute
 boolean
 isCachedResponse
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isAgentResponse
+;
 void
 acknowledge
 (

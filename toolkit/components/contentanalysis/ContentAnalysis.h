@@ -1817,6 +1817,11 @@ mIsCachedResponse
 =
 false
 ;
+bool
+mIsAgentResponse
+=
+false
+;
 friend
 class
 ContentAnalysis
