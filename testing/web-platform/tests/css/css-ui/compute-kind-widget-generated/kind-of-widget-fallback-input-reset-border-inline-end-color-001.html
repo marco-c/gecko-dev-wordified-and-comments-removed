@@ -70,6 +70,7 @@ inline
 end
 -
 color
+maybe
 disables
 native
 appearance
@@ -298,7 +299,7 @@ container
 )
 ;
 const
-prop
+props
 =
 "
 border
@@ -309,6 +310,12 @@ end
 -
 color
 "
+.
+split
+(
+"
+"
+)
 ;
 for
 (
@@ -316,6 +323,14 @@ const
 el
 of
 elements
+)
+{
+for
+(
+const
+prop
+of
+props
 )
 {
 el
@@ -336,6 +351,7 @@ prop
 )
 )
 ;
+}
 }
 <
 /

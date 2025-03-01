@@ -70,6 +70,7 @@ inline
 end
 -
 style
+maybe
 disables
 native
 appearance
@@ -306,7 +307,7 @@ container
 )
 ;
 const
-prop
+props
 =
 "
 border
@@ -317,6 +318,12 @@ end
 -
 style
 "
+.
+split
+(
+"
+"
+)
 ;
 for
 (
@@ -324,6 +331,14 @@ const
 el
 of
 elements
+)
+{
+for
+(
+const
+prop
+of
+props
 )
 {
 el
@@ -344,6 +359,7 @@ prop
 )
 )
 ;
+}
 }
 <
 /

@@ -68,6 +68,7 @@ border
 image
 -
 outset
+maybe
 disables
 native
 appearance
@@ -285,7 +286,7 @@ container
 )
 ;
 const
-prop
+props
 =
 "
 border
@@ -294,6 +295,12 @@ image
 -
 outset
 "
+.
+split
+(
+"
+"
+)
 ;
 for
 (
@@ -301,6 +308,14 @@ const
 el
 of
 elements
+)
+{
+for
+(
+const
+prop
+of
+props
 )
 {
 el
@@ -321,6 +336,7 @@ prop
 )
 )
 ;
+}
 }
 <
 /
