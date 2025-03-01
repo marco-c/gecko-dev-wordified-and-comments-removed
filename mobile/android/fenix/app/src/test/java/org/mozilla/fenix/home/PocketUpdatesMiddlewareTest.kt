@@ -435,7 +435,10 @@ pocketMiddleware
 =
 PocketUpdatesMiddleware
 (
+lazy
+{
 pocketService
+}
 mockk
 (
 )

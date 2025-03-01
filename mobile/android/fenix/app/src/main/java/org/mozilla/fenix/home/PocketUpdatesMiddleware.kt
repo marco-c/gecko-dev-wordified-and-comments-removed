@@ -388,7 +388,10 @@ private
 val
 pocketStoriesService
 :
+Lazy
+<
 PocketStoriesService
+>
 private
 val
 selectedPocketCategoriesDataStore
@@ -554,6 +557,8 @@ coroutineScope
 pocketStoriesService
 =
 pocketStoriesService
+.
+value
 updatedStories
 =
 action
