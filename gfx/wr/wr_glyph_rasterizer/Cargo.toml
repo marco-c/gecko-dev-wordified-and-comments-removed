@@ -466,9 +466,9 @@ foundation
 "
 0
 .
-10
+9
 .
-0
+2
 "
 core
 -
@@ -477,7 +477,7 @@ graphics
 "
 0
 .
-24
+23
 "
 core
 -
@@ -487,7 +487,9 @@ text
 version
 =
 "
-21
+20
+.
+1
 "
 default
 -

@@ -87,16 +87,6 @@ CFURL
 }
 ;
 use
-core_foundation
-:
-:
-{
-declare_TCFType
-impl_CFTypeDescription
-impl_TCFType
-}
-;
-use
 core_graphics
 :
 :
