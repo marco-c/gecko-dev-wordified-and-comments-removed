@@ -2360,6 +2360,13 @@ InitForWebRender
 (
 )
 ;
+gfxPlatform
+:
+:
+InitMemoryReportersForGPUProcess
+(
+)
+;
 VRManager
 :
 :
