@@ -454,6 +454,9 @@ json
 "
 promise
 "
+"
+lit
+"
 ]
 overrides
 :
