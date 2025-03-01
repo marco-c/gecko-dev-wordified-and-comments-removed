@@ -3322,12 +3322,6 @@ return
 resultType_
 ;
 }
-bool
-mightBeMagicType
-(
-)
-const
-;
 using
 MIRTypeEnumSet
 =
