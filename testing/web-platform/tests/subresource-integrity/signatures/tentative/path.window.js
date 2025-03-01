@@ -174,8 +174,8 @@ kRequestsWithValidSignature
 generate_fetch_test
 (
 request
-"
-"
+{
+}
 EXPECT_LOADED
 Valid
 signature
@@ -197,6 +197,9 @@ loads
 generate_fetch_test
 (
 request
+{
+integrity
+:
 ed25519
 -
 {
@@ -206,6 +209,7 @@ kValidKeys
 rfc
 '
 ]
+}
 }
 EXPECT_LOADED
 Valid
@@ -228,10 +232,14 @@ loads
 generate_fetch_test
 (
 request
+{
+integrity
+:
 ed25519
 -
 {
 kInvalidKey
+}
 }
 EXPECT_BLOCKED
 Valid
