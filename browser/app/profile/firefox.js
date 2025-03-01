@@ -2515,7 +2515,7 @@ suggest
 .
 calculator
 "
-false
+true
 )
 ;
 pref
