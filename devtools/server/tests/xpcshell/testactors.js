@@ -1219,6 +1219,11 @@ this
 threadActor
 .
 actorID
+targetType
+:
+this
+.
+targetType
 }
 ;
 const
