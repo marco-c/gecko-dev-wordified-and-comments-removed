@@ -1224,14 +1224,6 @@ aLParam
 ;
 }
 static
-UINT
-GetNativeMessage
-(
-UINT
-aInternalMessage
-)
-;
-static
 uint16_t
 GetMouseInputSource
 (
