@@ -103,3 +103,11 @@ installer
 "
 docs
 "
+DIRS
++
+=
+[
+"
+nsis
+"
+]
