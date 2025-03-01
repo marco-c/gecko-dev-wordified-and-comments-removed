@@ -6332,6 +6332,9 @@ dependencies
 =
 [
 "
+android_logger
+"
+"
 anyhow
 "
 "
@@ -10110,6 +10113,9 @@ dependencies
 [
 "
 log
+"
+"
+regex
 "
 "
 termcolor
