@@ -472,7 +472,7 @@ doc
 performance
 analysis
 <
-peformance_analysis
+performance_analysis
 /
 index
 >
@@ -541,7 +541,7 @@ of
 using
 the
 network
-monitor
+monitdor
 :
 -
 :
@@ -550,6 +550,17 @@ doc
 Toolbar
 <
 toolbar
+/
+index
+>
+-
+:
+doc
+:
+Network
+overrides
+<
+network_overrides
 /
 index
 >
