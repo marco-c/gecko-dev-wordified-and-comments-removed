@@ -917,18 +917,6 @@ browser
 /
 components
 /
-asrouter
-/
-metrics
-.
-yaml
-"
-    
-"
-browser
-/
-components
-/
 backup
 /
 metrics
@@ -1631,18 +1619,6 @@ yaml
 firefox_desktop_pings
 =
 [
-    
-"
-browser
-/
-components
-/
-asrouter
-/
-pings
-.
-yaml
-"
     
 "
 browser
