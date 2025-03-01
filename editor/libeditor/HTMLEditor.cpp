@@ -40175,6 +40175,14 @@ editor_white_space_normalization_blink_compatible
 )
 )
 {
+AutoHideSelectionChanges
+hideSelectionChangesCausedByTheHacks
+(
+SelectionRef
+(
+)
+)
+;
 IgnoredErrorResult
 error
 ;
