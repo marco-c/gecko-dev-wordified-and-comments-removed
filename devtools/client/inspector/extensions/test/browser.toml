@@ -27,6 +27,11 @@ head_devtools_inspector_sidebar
 js
 "
 "
+extension_page
+.
+html
+"
+"
 !
 /
 devtools
