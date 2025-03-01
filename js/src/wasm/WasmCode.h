@@ -2081,6 +2081,7 @@ kind
 SharedCodeSegment
 segment
 ;
+const
 uint8_t
 *
 codeBase
@@ -2322,6 +2323,14 @@ CodeBlockKind
 OptimizedTier
 ;
 }
+void
+offsetMetadataBy
+(
+uint32_t
+delta
+)
+;
+const
 uint8_t
 *
 base
@@ -4512,6 +4521,9 @@ codeBase
 =
 codeBlock
 .
+segment
+-
+>
 base
 (
 )
