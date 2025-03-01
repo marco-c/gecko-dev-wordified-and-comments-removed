@@ -916,9 +916,16 @@ record
 (
 getShareToAppSafeExtra
 (
+appPackage
+=
 app
 .
 packageName
+sentFromFirefoxEnabled
+=
+sentFromFirefoxManager
+.
+featureEnabled
 )
 )
 if
