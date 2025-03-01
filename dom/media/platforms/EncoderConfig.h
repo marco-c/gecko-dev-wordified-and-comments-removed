@@ -40,6 +40,7 @@ CodecType
 {
 _BeginVideo_
 H264
+H265
 VP8
 VP9
 AV1
