@@ -2130,19 +2130,6 @@ maxByteLength
 ;
 if
 (
-JS
-:
-:
-Prefs
-:
-:
-experimental_sharedarraybuffer_growable
-(
-)
-)
-{
-if
-(
 args
 .
 get
@@ -2266,7 +2253,6 @@ Some
 maxByteLengthInt
 )
 ;
-}
 }
 }
 RootedObject

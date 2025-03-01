@@ -3306,19 +3306,6 @@ maxByteLength
 ;
 if
 (
-JS
-:
-:
-Prefs
-:
-:
-experimental_arraybuffer_resizable
-(
-)
-)
-{
-if
-(
 args
 .
 get
@@ -3442,7 +3429,6 @@ Some
 maxByteLengthInt
 )
 ;
-}
 }
 }
 RootedObject

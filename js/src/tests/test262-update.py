@@ -257,21 +257,6 @@ DurationFormat
 "
     
 "
-resizable
--
-arraybuffer
-"
-:
-"
-!
-ArrayBuffer
-.
-prototype
-.
-resize
-"
-    
-"
 uint8array
 -
 base64
@@ -542,22 +527,6 @@ as
 weakmap
 -
 keys
-"
-    
-"
-resizable
--
-arraybuffer
-"
-:
-"
--
--
-enable
--
-arraybuffer
--
-resizable
 "
     
 "
