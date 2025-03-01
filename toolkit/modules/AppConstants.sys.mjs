@@ -932,6 +932,9 @@ else
 false
 #
 endif
+USE_LIBZ_RS
+:
+USE_LIBZ_RS_BOOL
 /
 /
 Returns
