@@ -2188,9 +2188,6 @@ line
 }
 "
 )
-    
-return
-None
 def
 download_from_config
 (
