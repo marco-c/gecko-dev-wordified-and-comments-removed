@@ -156,6 +156,10 @@ ssltunnel
 "
     
 "
+test_stub_installer
+"
+    
+"
 xpcshell
 "
     
