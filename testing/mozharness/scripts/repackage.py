@@ -504,6 +504,23 @@ templates
 ]
             
 "
+flatpak
+-
+templates
+"
+:
+config
+.
+get
+(
+"
+flatpak
+-
+templates
+"
+)
+            
+"
 wsx
 -
 stub

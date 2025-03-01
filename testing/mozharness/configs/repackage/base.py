@@ -91,6 +91,24 @@ debian
 "
     
 "
+flatpak
+-
+templates
+"
+:
+"
+browser
+/
+installer
+/
+linux
+/
+app
+/
+flatpak
+"
+    
+"
 wsx
 -
 stub
