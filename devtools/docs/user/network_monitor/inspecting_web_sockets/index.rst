@@ -173,7 +173,7 @@ image
 :
 wsi
 -
-filiter
+filter
 .
 png
 :
