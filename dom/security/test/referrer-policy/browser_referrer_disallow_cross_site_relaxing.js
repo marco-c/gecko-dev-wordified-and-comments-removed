@@ -886,6 +886,16 @@ https_first
 "
 false
 ]
+[
+"
+browser
+.
+safebrowsing
+.
+only_top_level
+"
+false
+]
 ]
 }
 )

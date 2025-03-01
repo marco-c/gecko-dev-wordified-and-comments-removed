@@ -1250,6 +1250,10 @@ if
 NS_ShouldClassifyChannel
 (
 this
+ClassifyType
+:
+:
+SafeBrowsing
 )
 )
 {
