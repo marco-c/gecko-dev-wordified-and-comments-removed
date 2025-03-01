@@ -4517,12 +4517,8 @@ if
 AppShutdown
 :
 :
-IsInOrBeyond
+IsShutdownImpending
 (
-ShutdownPhase
-:
-:
-AppShutdownConfirmed
 )
 )
 {
