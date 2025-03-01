@@ -11310,6 +11310,13 @@ RecvClearStyleSheetCache
 const
 Maybe
 <
+bool
+>
+&
+aChrome
+const
+Maybe
+<
 RefPtr
 <
 nsIPrincipal
@@ -11338,6 +11345,7 @@ SharedStyleSheetCache
 :
 Clear
 (
+aChrome
 aPrincipal
 aSchemelessSite
 aPattern
@@ -11361,6 +11369,13 @@ ContentChild
 :
 RecvClearScriptCache
 (
+const
+Maybe
+<
+bool
+>
+&
+aChrome
 const
 Maybe
 <
@@ -11392,6 +11407,7 @@ SharedScriptCache
 :
 Clear
 (
+aChrome
 aPrincipal
 aSchemelessSite
 aPattern

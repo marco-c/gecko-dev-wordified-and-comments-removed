@@ -1217,6 +1217,13 @@ RecvClearStyleSheetCache
 const
 Maybe
 <
+bool
+>
+&
+aChrome
+const
+Maybe
+<
 RefPtr
 <
 nsIPrincipal
@@ -1249,6 +1256,13 @@ ipc
 IPCResult
 RecvClearScriptCache
 (
+const
+Maybe
+<
+bool
+>
+&
+aChrome
 const
 Maybe
 <
