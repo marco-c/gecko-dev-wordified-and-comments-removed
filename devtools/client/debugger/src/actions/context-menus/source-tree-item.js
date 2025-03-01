@@ -525,6 +525,11 @@ overrideStr
 .
 accesskey
 )
+disabled
+:
+source
+.
+isOriginal
 visible
 :
 panel
