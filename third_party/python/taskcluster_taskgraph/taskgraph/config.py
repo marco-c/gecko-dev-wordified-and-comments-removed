@@ -845,9 +845,6 @@ to
 vcs
 root
 .
-"
-                
-"
 Graph
 config
 in

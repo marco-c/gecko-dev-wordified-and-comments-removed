@@ -20,14 +20,12 @@ func
 :
         
 assert
-(
-            
 name
 not
 in
 SET_NAME_MAP
-        
-)
+(
+            
 f
 "
 duplicate
@@ -50,6 +48,8 @@ name
 }
 )
 "
+        
+)
         
 SET_NAME_MAP
 [

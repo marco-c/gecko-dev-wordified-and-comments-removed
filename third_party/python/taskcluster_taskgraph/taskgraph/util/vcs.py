@@ -1840,15 +1840,11 @@ else
 f
 "
 {
-base_rev
-}
-~
--
-1
-:
-:
-{
 rev
+}
+%
+{
+base_rev
 }
 "
             
