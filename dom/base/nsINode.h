@@ -5122,6 +5122,8 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+virtual
 void
 SetTextContent
 (
@@ -7133,6 +7135,8 @@ aNodeValue
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+virtual
 void
 SetNodeValue
 (

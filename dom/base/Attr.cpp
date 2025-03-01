@@ -935,7 +935,7 @@ void
 Attr
 :
 :
-SetNodeValueWithTrustedTypeCheck
+SetNodeValue
 (
 const
 nsAString
@@ -1108,7 +1108,7 @@ void
 Attr
 :
 :
-SetTextContentWithTrustedTypeCheck
+SetTextContent
 (
 const
 nsAString
