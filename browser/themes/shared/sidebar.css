@@ -1713,9 +1713,9 @@ sidebar
 -
 wrapper
 {
-position
+display
 :
-relative
+contents
 ;
 &
 .
@@ -1724,6 +1724,10 @@ expandOnHover
 position
 :
 absolute
+;
+display
+:
+flex
 ;
 inset
 :
