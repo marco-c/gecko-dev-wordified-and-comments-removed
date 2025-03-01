@@ -4148,9 +4148,6 @@ InstallTrigger
 insecureContext
 :
 true
-disabled
-:
-isEarlyBetaOrEarlier
 }
 {
 name
