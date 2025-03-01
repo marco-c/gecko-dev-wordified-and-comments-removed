@@ -58,6 +58,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TaskSignal
+.
+cpp
+"
+"
 WebTaskController
 .
 cpp
