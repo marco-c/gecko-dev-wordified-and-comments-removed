@@ -1284,6 +1284,14 @@ mips64el
 "
 mips64
 "
+        
+"
+loong64
+"
+:
+"
+loongarch64
+"
     
 }
     
@@ -5386,6 +5394,9 @@ target_cpus
 extend
 (
 [
+"
+loong64
+"
 "
 ppc64
 "
