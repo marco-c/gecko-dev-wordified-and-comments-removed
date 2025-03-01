@@ -196,7 +196,7 @@ alice_id
 mls_platform_api
 :
 :
-mls_generate_signature_keypair
+mls_generate_identity
 (
 &
 state_global
@@ -212,7 +212,7 @@ bob_id
 mls_platform_api
 :
 :
-mls_generate_signature_keypair
+mls_generate_identity
 (
 &
 state_global
@@ -228,7 +228,7 @@ diana_id
 mls_platform_api
 :
 :
-mls_generate_signature_keypair
+mls_generate_identity
 (
 &
 state_global
@@ -381,7 +381,7 @@ members
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -510,7 +510,7 @@ members
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -579,7 +579,7 @@ members
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -709,7 +709,7 @@ members_alice
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -778,7 +778,7 @@ members_bob
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -891,7 +891,7 @@ members_diana
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -970,7 +970,7 @@ members_alice
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global
@@ -1053,7 +1053,7 @@ members_bob
 mls_platform_api
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 state_global

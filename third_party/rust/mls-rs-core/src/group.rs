@@ -1,4 +1,7 @@
 mod
+context
+;
+mod
 group_state
 ;
 mod
@@ -6,6 +9,13 @@ proposal_type
 ;
 mod
 roster
+;
+pub
+use
+context
+:
+:
+*
 ;
 pub
 use

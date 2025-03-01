@@ -29,8 +29,6 @@ MlsSize
 ;
 impl
 <
-'
-a
 T
 >
 MlsSize
@@ -38,7 +36,7 @@ for
 Cow
 <
 '
-a
+_
 T
 >
 where
@@ -71,8 +69,6 @@ mls_encoded_len
 }
 impl
 <
-'
-a
 T
 >
 MlsEncode
@@ -80,7 +76,7 @@ for
 Cow
 <
 '
-a
+_
 T
 >
 where
@@ -131,8 +127,6 @@ writer
 }
 impl
 <
-'
-a
 T
 >
 MlsDecode
@@ -140,7 +134,7 @@ for
 Cow
 <
 '
-a
+_
 T
 >
 where

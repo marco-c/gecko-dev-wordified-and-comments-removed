@@ -352,14 +352,10 @@ signer
 LeafIndex
 }
 impl
-<
-'
-a
->
 Signable
 <
 '
-a
+_
 >
 for
 GroupInfo

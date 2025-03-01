@@ -58,6 +58,10 @@ pub
 mod
 kdf
 ;
+pub
+mod
+kem_combiner
+;
 #
 [
 cfg

@@ -1589,10 +1589,7 @@ cs_provider
 =
 test_cipher_suite_provider
 (
-CipherSuite
-:
-:
-P256_AES128
+TEST_CIPHER_SUITE
 )
 ;
 let

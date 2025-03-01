@@ -16,9 +16,6 @@ MlsError
 group
 :
 :
-transcript_hash
-:
-:
 ConfirmedTranscriptHash
 }
 ;
@@ -77,6 +74,7 @@ PartialEq
 MlsSize
 MlsEncode
 MlsDecode
+Default
 )
 ]
 #

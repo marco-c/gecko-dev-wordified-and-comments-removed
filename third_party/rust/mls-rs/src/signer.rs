@@ -891,14 +891,10 @@ u8
 >
 }
 impl
-<
-'
-a
->
 Signable
 <
 '
-a
+_
 >
 for
 TestSignable

@@ -118,7 +118,7 @@ version
 "
 0
 .
-11
+15
 .
 0
 "
@@ -295,7 +295,7 @@ version
 "
 0
 .
-18
+21
 .
 0
 "
@@ -426,11 +426,6 @@ sqlcipher
 sqlite
 =
 [
-"
-rusqlite
-/
-modern_sqlite
-"
 ]
 sqlite
 -

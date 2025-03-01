@@ -1446,8 +1446,6 @@ new_signed
 provider
 group
 .
-group
-.
 context
 (
 )
@@ -1479,8 +1477,6 @@ to_vec
 )
 )
 &
-group
-.
 group
 .
 signer
@@ -1607,8 +1603,6 @@ unwrap
 )
 ;
 receiver_group
-.
-group
 .
 private_tree
 .
@@ -2093,8 +2087,6 @@ len
 )
 ;
 receiver_group
-.
-group
 .
 private_tree
 .
