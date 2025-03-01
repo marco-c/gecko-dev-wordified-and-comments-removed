@@ -147,8 +147,7 @@ code
 send_keys
 (
 "
-W1A
-1AV
+W
 "
 )
     

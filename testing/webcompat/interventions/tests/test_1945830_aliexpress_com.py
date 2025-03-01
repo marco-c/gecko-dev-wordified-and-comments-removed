@@ -14,6 +14,12 @@ aliexpress
 com
 /
 "
+HERO_MSG
+=
+"
+load
+succ
+"
 SHIP_TO_CSS
 =
 "
@@ -71,6 +77,9 @@ client
 navigate
 (
 URL
+await_console_message
+=
+HERO_MSG
 )
     
 client
