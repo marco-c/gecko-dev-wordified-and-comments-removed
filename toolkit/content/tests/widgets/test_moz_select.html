@@ -140,7 +140,7 @@ script
 src
 =
 "
-lit
+input
 -
 test
 -
@@ -294,9 +294,10 @@ moz
 select
 >
 ;
+await
 testHelpers
 .
-setupTests
+setupInputTests
 (
 {
 templateFn
@@ -355,7 +356,7 @@ target
 await
 testHelpers
 .
-renderTemplate
+renderInputElements
 (
 )
 ;
@@ -768,7 +769,7 @@ target
 await
 testHelpers
 .
-renderTemplate
+renderInputElements
 (
 )
 ;

@@ -56,7 +56,7 @@ mjs
 )
 ;
 class
-LitTestHelpers
+InputTestHelpers
 {
 async
 setupLit
@@ -95,6 +95,11 @@ html
 this
 .
 html
+staticHtml
+:
+this
+.
+staticHtml
 render
 :
 this
@@ -185,7 +190,8 @@ return
 lit
 ;
 }
-setupTests
+async
+setupInputTests
 (
 {
 templateFn
@@ -242,7 +248,7 @@ renderTarget
 ;
 }
 async
-renderTemplate
+renderInputElements
 (
 template
 =
@@ -290,12 +296,6 @@ this
 renderTarget
 ;
 }
-}
-class
-InputTestHelpers
-extends
-LitTestHelpers
-{
 getInputEventHelpers
 (
 )
@@ -682,7 +682,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 labelTemplate
 )
@@ -781,7 +781,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 )
 ;
@@ -899,7 +899,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 valueTemplate
 )
@@ -1018,7 +1018,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 iconTemplate
 )
@@ -1127,7 +1127,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 )
 ;
@@ -1344,7 +1344,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 templatesArgs
 .
@@ -1654,7 +1654,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 templatesArgs
 .
@@ -2240,7 +2240,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 accesskeyTemplate
 )
@@ -2585,7 +2585,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 )
 ;
@@ -2835,7 +2835,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 whitespaceTemplate
 )
@@ -3086,7 +3086,7 @@ target
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 )
 ;
@@ -3287,7 +3287,7 @@ renderTarget
 await
 this
 .
-renderTemplate
+renderInputElements
 (
 ariaLabelTemplate
 )

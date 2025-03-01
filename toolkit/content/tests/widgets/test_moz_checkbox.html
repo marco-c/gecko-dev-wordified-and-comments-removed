@@ -173,7 +173,7 @@ script
 src
 =
 "
-lit
+input
 -
 test
 -
@@ -233,9 +233,10 @@ setupLit
 )
 )
 ;
+await
 testHelpers
 .
-setupTests
+setupInputTests
 (
 {
 templateFn
@@ -413,7 +414,7 @@ renderTarget
 await
 testHelpers
 .
-renderTemplate
+renderInputElements
 (
 eventsTemplate
 )
