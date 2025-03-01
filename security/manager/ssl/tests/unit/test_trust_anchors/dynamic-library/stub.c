@@ -6,7 +6,7 @@ pkcs11
 h
 "
 CK_RV
-BUILTINSC_GetFunctionList
+TRUST_ANCHORS_GetFunctionList
 (
 CK_FUNCTION_LIST_PTR_PTR
 ppFunctionList
@@ -20,7 +20,7 @@ ppFunctionList
 )
 {
 return
-BUILTINSC_GetFunctionList
+TRUST_ANCHORS_GetFunctionList
 (
 ppFunctionList
 )
