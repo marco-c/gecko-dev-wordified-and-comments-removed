@@ -70,11 +70,8 @@ ptr
 "
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-NS_IsMainThread
-(
-)
 !
 HasRules
 (

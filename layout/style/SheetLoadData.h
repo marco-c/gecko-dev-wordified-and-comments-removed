@@ -426,6 +426,13 @@ nsIChannel
 )
 const
 ;
+void
+OnStartRequest
+(
+nsIRequest
+*
+)
+;
 nsresult
 VerifySheetReadyToParse
 (
@@ -441,13 +448,6 @@ nsACString
 aBytes2
 nsIChannel
 *
-aChannel
-nsIURI
-*
-aFinalChannelURI
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 NS_DECL_ISUPPORTS
