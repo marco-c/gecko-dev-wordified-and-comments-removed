@@ -2979,6 +2979,11 @@ SpillSlot
 (
 uint32_t
 slot
+LStackSlot
+:
+:
+Width
+width
 LifoAlloc
 *
 alloc
@@ -2987,6 +2992,7 @@ alloc
 alloc
 (
 slot
+width
 )
 allocated
 (
