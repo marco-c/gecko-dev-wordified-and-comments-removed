@@ -297,6 +297,13 @@ js
 ]
 [
 "
+browser_editor_find
+.
+js
+"
+]
+[
+"
 browser_editor_goto_line
 .
 js
