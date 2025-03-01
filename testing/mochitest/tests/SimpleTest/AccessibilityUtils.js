@@ -379,6 +379,11 @@ gEnv
 DEFAULT_ENV
 }
 ;
+let
+SimpleTest
+=
+null
+;
 function
 getAriaRoles
 (
@@ -2855,8 +2860,6 @@ DOMNode
 }
 )
 {
-SpecialPowers
-.
 SimpleTest
 .
 ok
@@ -2879,8 +2882,6 @@ DOMNode
 }
 )
 {
-SpecialPowers
-.
 SimpleTest
 .
 todo
@@ -4414,6 +4415,7 @@ resetEnv
 }
 init
 (
+simpleTest
 )
 {
 this
@@ -4455,6 +4457,10 @@ true
 true
 )
 ;
+SimpleTest
+=
+simpleTest
+;
 }
 uninit
 (
@@ -4477,6 +4483,10 @@ true
 this
 .
 _handler
+=
+null
+;
+SimpleTest
 =
 null
 ;
