@@ -67,6 +67,15 @@ getWatcher
 request
 :
 {
+enableWindowGlobalThreadActors
+:
+Option
+(
+0
+"
+boolean
+"
+)
 }
 response
 :

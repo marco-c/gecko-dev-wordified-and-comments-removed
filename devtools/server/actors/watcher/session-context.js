@@ -89,6 +89,14 @@ worker
 function
 createBrowserSessionContext
 (
+{
+enableWindowGlobalThreadActors
+=
+false
+}
+=
+{
+}
 )
 {
 const
@@ -116,6 +124,7 @@ getWatcherSupportedResources
 (
 type
 )
+enableWindowGlobalThreadActors
 }
 ;
 }

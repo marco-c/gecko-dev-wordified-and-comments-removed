@@ -1754,6 +1754,13 @@ js
 ]
 [
 "
+browser_toolbox_window_global_debugging
+.
+js
+"
+]
+[
+"
 browser_toolbox_window_reload_target
 .
 js

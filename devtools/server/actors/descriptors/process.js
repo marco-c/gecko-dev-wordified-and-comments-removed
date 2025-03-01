@@ -695,6 +695,14 @@ _childProcessConnect
 }
 getWatcher
 (
+{
+enableWindowGlobalThreadActors
+=
+false
+}
+=
+{
+}
 )
 {
 if
@@ -717,6 +725,9 @@ this
 conn
 createBrowserSessionContext
 (
+{
+enableWindowGlobalThreadActors
+}
 )
 )
 ;

@@ -217,6 +217,9 @@ forMainProcess
 (
 {
 client
+enableWindowGlobalThreadActors
+=
+false
 }
 =
 {
@@ -256,6 +259,7 @@ await
 createCommandsDictionary
 (
 descriptor
+enableWindowGlobalThreadActors
 )
 ;
 return

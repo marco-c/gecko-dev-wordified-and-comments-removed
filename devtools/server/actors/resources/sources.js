@@ -97,6 +97,14 @@ all
 "
 &
 &
+!
+targetActor
+.
+sessionContext
+.
+enableWindowGlobalThreadActors
+&
+&
 targetActor
 .
 targetType

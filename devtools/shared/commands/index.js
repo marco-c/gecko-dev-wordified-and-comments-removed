@@ -195,6 +195,7 @@ function
 createCommandsDictionary
 (
 descriptorFront
+enableWindowGlobalThreadActors
 )
 {
 let
@@ -222,6 +223,9 @@ descriptorFront
 .
 getWatcher
 (
+{
+enableWindowGlobalThreadActors
+}
 )
 ;
 }
