@@ -104,11 +104,9 @@ kind
 dependencies
 :
 -
-release
+repackage
 -
 flatpak
--
-repackage
 task
 -
 defaults
