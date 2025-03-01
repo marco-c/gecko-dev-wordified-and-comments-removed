@@ -47,15 +47,4 @@ api
 /
 index
 >
-Developing
-Rust
-Components
-<
-developing
--
-rust
--
-components
-/
-index
->
+uniffi
