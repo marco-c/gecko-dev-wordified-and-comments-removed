@@ -236,14 +236,6 @@ transports
 }
 ;
 struct
-WebAuthnExtensionAppId
-{
-nsString
-appIdentifier
-;
-}
-;
-struct
 WebAuthnExtensionCredProps
 {
 bool
@@ -318,8 +310,6 @@ eval
 union
 WebAuthnExtension
 {
-WebAuthnExtensionAppId
-;
 WebAuthnExtensionCredProps
 ;
 WebAuthnExtensionHmacSecret
@@ -501,6 +491,10 @@ WebAuthnGetAssertionInfo
 {
 nsCString
 RpId
+;
+nsCString
+?
+AppId
 ;
 uint8_t
 [
