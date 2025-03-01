@@ -115,6 +115,13 @@ sys
 .
 mjs
 "
+"
+RemoteSettingsCrashPull
+.
+sys
+.
+mjs
+"
 ]
 XPCOM_MANIFESTS
 +
