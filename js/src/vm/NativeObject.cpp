@@ -12093,6 +12093,8 @@ CanGC
 cx
 obj
 id
+v
+prop
 )
 )
 {
