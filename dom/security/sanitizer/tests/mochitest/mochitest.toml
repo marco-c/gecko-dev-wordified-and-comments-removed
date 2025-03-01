@@ -15,17 +15,6 @@ enabled
 =
 true
 "
-"
-dom
-.
-security
-.
-setHTML
-.
-enabled
-=
-true
-"
 ]
 scheme
 =
