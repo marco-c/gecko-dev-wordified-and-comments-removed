@@ -488,12 +488,9 @@ rewrite
 .
 *
 /
+const
 val
 swipeToDismiss2
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }
