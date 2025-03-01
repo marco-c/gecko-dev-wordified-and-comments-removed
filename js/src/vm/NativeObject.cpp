@@ -6219,7 +6219,7 @@ if
 Watchtower
 :
 :
-watchPropertyModification
+watchPropertyValueChange
 <
 AllowGC
 :
@@ -6884,7 +6884,7 @@ if
 Watchtower
 :
 :
-watchPropertyModification
+watchPropertyValueChange
 <
 AllowGC
 :
@@ -12171,7 +12171,7 @@ if
 Watchtower
 :
 :
-watchPropertyModification
+watchPropertyValueChange
 <
 AllowGC
 :

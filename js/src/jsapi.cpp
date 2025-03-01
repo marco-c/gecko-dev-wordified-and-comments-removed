@@ -11377,7 +11377,7 @@ MOZ_RELEASE_ASSERT
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 &
 nobj
@@ -11499,7 +11499,7 @@ MOZ_ASSERT
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 &
 nobj

@@ -90,7 +90,7 @@ allowGC
 >
 static
 bool
-watchPropertyModificationSlow
+watchPropertyValueChangeSlow
 (
 JSContext
 *
@@ -271,7 +271,7 @@ UseWatchtowerTestingLog
 }
 static
 bool
-watchesPropertyModification
+watchesPropertyValueChange
 (
 NativeObject
 *
@@ -548,7 +548,7 @@ allowGC
 >
 static
 bool
-watchPropertyModification
+watchPropertyValueChange
 (
 JSContext
 *
@@ -593,7 +593,7 @@ if
 MOZ_LIKELY
 (
 !
-watchesPropertyModification
+watchesPropertyValueChange
 (
 obj
 )
@@ -605,7 +605,7 @@ true
 ;
 }
 return
-watchPropertyModificationSlow
+watchPropertyValueChangeSlow
 <
 allowGC
 >

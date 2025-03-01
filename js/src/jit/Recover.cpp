@@ -13103,7 +13103,7 @@ MOZ_ASSERT
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 nativeObject
 )
