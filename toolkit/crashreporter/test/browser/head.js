@@ -730,6 +730,10 @@ writeMinidumpFile
 dir
 uuid
 date
+payload
+=
+"
+"
 )
 {
 writeCrashReportFile
@@ -741,9 +745,10 @@ uuid
 dmp
 "
 date
-"
 MDMP
-"
+{
+payload
+}
 )
 ;
 }
@@ -820,6 +825,10 @@ addPendingCrashreport
 crD
 date
 extra
+payload
+=
+"
+"
 )
 {
 let
@@ -852,6 +861,7 @@ writeMinidumpFile
 pendingdir
 uuid
 date
+payload
 )
 ;
 writeExtraFile
