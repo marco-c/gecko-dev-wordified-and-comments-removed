@@ -1701,6 +1701,10 @@ ContentAnalysisResponse
 &
 &
 aResponse
+const
+nsCString
+&
+aUserActionId
 )
 ;
 ContentAnalysisResponse
@@ -1711,6 +1715,10 @@ const
 nsACString
 &
 aRequestToken
+const
+nsACString
+&
+aUserActionId
 )
 ;
 template
@@ -1758,6 +1766,10 @@ ContentAnalysisResponse
 &
 &
 aResponse
+const
+nsCString
+&
+aUserActionId
 )
 ;
 void
@@ -1772,6 +1784,9 @@ mAction
 ;
 nsCString
 mRequestToken
+;
+nsCString
+mUserActionId
 ;
 CancelError
 mCancelError

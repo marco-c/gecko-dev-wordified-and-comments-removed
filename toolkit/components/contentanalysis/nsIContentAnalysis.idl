@@ -219,6 +219,11 @@ attribute
 ACString
 requestToken
 ;
+readonly
+attribute
+ACString
+userActionId
+;
 [
 infallible
 ]
@@ -818,6 +823,9 @@ aAction
 in
 ACString
 aToken
+in
+ACString
+aUserActionId
 )
 ;
 void
