@@ -2473,14 +2473,6 @@ InterpretGeneratorResume
 \
 MACRO_
 (
-Intl_DurationFormat_format
-"
-Intl_DurationFormat_format
-"
-)
-\
-MACRO_
-(
 Invalid_Date_
 "
 Invalid
