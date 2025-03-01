@@ -51,9 +51,6 @@ constructor_field_list
 )
 }
 }
-=
-{
-}
 )
 {
 {

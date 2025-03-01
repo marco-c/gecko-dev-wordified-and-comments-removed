@@ -3474,9 +3474,6 @@ constructor
 {
 text
 }
-=
-{
-}
 )
 {
 try

@@ -6370,9 +6370,6 @@ constructor
 prefix
 stemming
 }
-=
-{
-}
 )
 {
 try
@@ -6853,9 +6850,6 @@ longitude
 countryCode
 admin1Code
 population
-}
-=
-{
 }
 )
 {
@@ -8047,9 +8041,6 @@ geoname
 matchType
 prefix
 }
-=
-{
-}
 )
 {
 try
@@ -8598,9 +8589,6 @@ constructor
 label
 value
 }
-=
-{
-}
 )
 {
 try
@@ -8990,9 +8978,6 @@ constructor
 {
 suggestions
 queryTimes
-}
-=
-{
 }
 )
 {
@@ -9399,9 +9384,6 @@ constructor
 {
 showLessFrequentlyCap
 }
-=
-{
-}
 )
 {
 try
@@ -9673,9 +9655,6 @@ null
 emptyOnly
 =
 false
-}
-=
-{
 }
 )
 {
@@ -10234,9 +10213,6 @@ constructor
 ingestionTimes
 downloadTimes
 }
-=
-{
-}
 )
 {
 try
@@ -10673,9 +10649,6 @@ null
 ampAlternativeMatching
 =
 null
-}
-=
-{
 }
 )
 {
@@ -11133,9 +11106,6 @@ null
 limit
 =
 null
-}
-=
-{
 }
 )
 {

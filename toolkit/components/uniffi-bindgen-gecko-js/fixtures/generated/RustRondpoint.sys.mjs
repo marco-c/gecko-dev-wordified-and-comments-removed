@@ -12017,9 +12017,6 @@ deux
 petitNombre
 grosNombre
 }
-=
-{
-}
 )
 {
 try
@@ -12668,9 +12665,6 @@ courtNombre
 nombreSimple
 grosNombre
 }
-=
-{
-}
 )
 {
 try
@@ -13318,9 +13312,6 @@ petitNombre
 courtNombre
 nombreSimple
 grosNombre
-}
-=
-{
 }
 )
 {
@@ -14023,9 +14014,6 @@ DEUX
 dictionnaireVar
 =
 null
-}
-=
-{
 }
 )
 {
@@ -16106,9 +16094,6 @@ constructor
 (
 {
 minusculeMajusculeField
-}
-=
-{
 }
 )
 {

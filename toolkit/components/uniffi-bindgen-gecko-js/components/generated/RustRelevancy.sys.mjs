@@ -4465,9 +4465,6 @@ clicks
 alpha
 beta
 }
-=
-{
-}
 )
 {
 try
@@ -5497,9 +5494,6 @@ topSingleInterestSimilarity
 top2interestSimilarity
 top3interestSimilarity
 }
-=
-{
-}
 )
 {
 try
@@ -6195,9 +6189,6 @@ society
 sports
 tech
 travel
-}
-=
-{
 }
 )
 {

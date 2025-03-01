@@ -1747,9 +1747,6 @@ constructor
 url
 handle
 }
-=
-{
-}
 )
 {
 try

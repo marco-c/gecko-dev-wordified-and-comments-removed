@@ -2846,9 +2846,6 @@ method
 params
 searchTermParamName
 }
-=
-{
-}
 )
 {
 try
@@ -3628,9 +3625,6 @@ search
 suggestions
 trending
 }
-=
-{
-}
 )
 {
 try
@@ -4196,9 +4190,6 @@ constructor
 engines
 appDefaultEngineId
 appPrivateDefaultEngineId
-}
-=
-{
 }
 )
 {
@@ -4922,9 +4913,6 @@ partnerCode
 telemetrySuffix
 urls
 orderHint
-}
-=
-{
 }
 )
 {
@@ -6672,9 +6660,6 @@ method
 params
 searchTermParamName
 }
-=
-{
-}
 )
 {
 try
@@ -7450,9 +7435,6 @@ search
 suggestions
 trending
 }
-=
-{
-}
 )
 {
 try
@@ -8020,9 +8002,6 @@ constructor
 name
 value
 experimentConfig
-}
-=
-{
 }
 )
 {
@@ -8633,9 +8612,6 @@ experiment
 appName
 version
 deviceType
-}
-=
-{
 }
 )
 {

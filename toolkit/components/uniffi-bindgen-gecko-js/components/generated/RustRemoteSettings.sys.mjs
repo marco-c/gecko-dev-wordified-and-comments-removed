@@ -5670,9 +5670,6 @@ location
 hash
 size
 }
-=
-{
-}
 )
 {
 try
@@ -6554,9 +6551,6 @@ server
 =
 null
 }
-=
-{
-}
 )
 {
 try
@@ -7254,9 +7248,6 @@ bucketName
 =
 null
 }
-=
-{
-}
 )
 {
 try
@@ -7768,9 +7759,6 @@ debugTag
 installationDate
 homeDirectory
 customTargetingAttributes
-}
-=
-{
 }
 )
 {
@@ -10267,9 +10255,6 @@ deleted
 attachment
 fields
 }
-=
-{
-}
 )
 {
 try
@@ -11104,9 +11089,6 @@ constructor
 {
 records
 lastModified
-}
-=
-{
 }
 )
 {

@@ -2818,9 +2818,6 @@ constructor
 x
 y
 }
-=
-{
-}
 )
 {
 try
@@ -3206,9 +3203,6 @@ constructor
 {
 dx
 dy
-}
-=
-{
 }
 )
 {

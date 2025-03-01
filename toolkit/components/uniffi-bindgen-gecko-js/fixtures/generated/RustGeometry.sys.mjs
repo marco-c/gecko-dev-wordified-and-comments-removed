@@ -1707,9 +1707,6 @@ constructor
 start
 end
 }
-=
-{
-}
 )
 {
 try
@@ -2099,9 +2096,6 @@ constructor
 {
 coordX
 coordY
-}
-=
-{
 }
 )
 {

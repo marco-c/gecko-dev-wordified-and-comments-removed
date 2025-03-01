@@ -6536,9 +6536,6 @@ deviceType
 lastModified
 remoteTabs
 }
-=
-{
-}
 )
 {
 try
@@ -7345,9 +7342,6 @@ command
 timeRequested
 timeSent
 }
-=
-{
-}
 )
 {
 try
@@ -7999,9 +7993,6 @@ lastUsed
 inactive
 =
 false
-}
-=
-{
 }
 )
 {
