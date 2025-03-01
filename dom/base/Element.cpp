@@ -4705,6 +4705,11 @@ ScrollFlags
 :
 :
 TriggeredByScript
+|
+ScrollFlags
+:
+:
+AxesAreLogical
 ;
 if
 (
