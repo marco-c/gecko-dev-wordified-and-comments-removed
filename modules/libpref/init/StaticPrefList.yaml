@@ -113302,7 +113302,7 @@ value
 false
 mirror
 :
-once
+always
 #
 Whether
 we
@@ -113319,18 +113319,6 @@ default
 for
 now
 .
-#
-TODO
-(
-emilio
-)
-:
-Make
-these
-toggleable
-at
-runtime
-?
 -
 name
 :
@@ -113349,7 +113337,7 @@ value
 false
 mirror
 :
-once
+always
 #
 endif
 #
