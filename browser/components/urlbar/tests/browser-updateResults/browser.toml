@@ -91,6 +91,13 @@ js
 ]
 [
 "
+browser_hiddenExposure
+.
+js
+"
+]
+[
+"
 browser_noUpdateResultsFromOtherProviders
 .
 js

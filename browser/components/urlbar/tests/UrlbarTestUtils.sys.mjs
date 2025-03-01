@@ -10198,9 +10198,11 @@ param
 {
 Array
 }
+[
 options
 .
 results
+]
 *
 An
 array
@@ -10526,6 +10528,9 @@ constructor
 (
 {
 results
+=
+[
+]
 name
 =
 "
