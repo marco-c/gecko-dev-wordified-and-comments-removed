@@ -110,6 +110,17 @@ test
 /
 browser
 /
+browser_timeout
+.
+toml
+"
+"
+messagehandler
+/
+test
+/
+browser
+/
 webdriver
 /
 browser
