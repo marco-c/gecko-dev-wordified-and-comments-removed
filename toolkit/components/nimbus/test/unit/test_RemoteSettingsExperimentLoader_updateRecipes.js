@@ -10759,7 +10759,7 @@ rs
 loader
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 "
 branch
@@ -11108,7 +11108,7 @@ rs
 loader
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 "
 branch
@@ -11420,7 +11420,7 @@ rs
 loader
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 "
 branch
@@ -11736,7 +11736,7 @@ rs
 loader
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 "
 branch

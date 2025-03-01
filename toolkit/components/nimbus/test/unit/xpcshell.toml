@@ -177,6 +177,13 @@ js
 ]
 [
 "
+test_FirefoxLabs
+.
+js
+"
+]
+[
+"
 test_NimbusTestUtils
 .
 js

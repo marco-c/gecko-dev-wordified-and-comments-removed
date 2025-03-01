@@ -851,7 +851,7 @@ optInRecipe
 test
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 "
 invalid
@@ -906,7 +906,7 @@ optInRecipe
 test
 "
 {
-optInRecipeBranchSlug
+branchSlug
 :
 optInRecipe
 .
