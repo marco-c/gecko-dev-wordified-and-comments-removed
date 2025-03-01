@@ -1323,6 +1323,15 @@ locale
 locale
 )
                 
+if
+reference
+=
+=
+"
+updater_package
+"
+:
+                    
 uri
 =
 uri
