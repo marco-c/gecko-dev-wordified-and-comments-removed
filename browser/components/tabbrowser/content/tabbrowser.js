@@ -3327,7 +3327,8 @@ verticalMode
 {
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 aTab
 (
@@ -3416,7 +3417,8 @@ verticalMode
 {
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 aTab
 (
@@ -11704,7 +11706,8 @@ return
 }
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 tab
 (
@@ -21753,7 +21756,8 @@ return
 }
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 aTab
 (
@@ -21905,7 +21909,8 @@ false
 {
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 tab
 (
@@ -22066,7 +22071,8 @@ false
 ;
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 aTab
 (
@@ -22098,7 +22104,8 @@ aTab
 )
 ;
 }
-_handleTabMove
+#
+handleTabMove
 (
 aTab
 moveActionCallback
@@ -22520,7 +22527,8 @@ nextTab
 {
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 selectedTab
 (
@@ -22684,7 +22692,8 @@ previousTab
 {
 this
 .
-_handleTabMove
+#
+handleTabMove
 (
 selectedTab
 (
