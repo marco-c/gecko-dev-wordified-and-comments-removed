@@ -1523,6 +1523,12 @@ _invalidateCachedVisibleTabs
 (
 )
 ;
+this
+.
+_unlockTabSizing
+(
+)
+;
 const
 group
 =
