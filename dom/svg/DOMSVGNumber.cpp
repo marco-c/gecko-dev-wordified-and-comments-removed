@@ -361,9 +361,15 @@ mIsAnimValItem
 {
 aRv
 .
-Throw
+ThrowNoModificationAllowedError
 (
-NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
+"
+Animated
+values
+cannot
+be
+set
+"
 )
 ;
 return

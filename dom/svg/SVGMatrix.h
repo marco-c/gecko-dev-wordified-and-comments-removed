@@ -153,7 +153,7 @@ float
 aA
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -183,7 +183,7 @@ float
 aB
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -213,7 +213,7 @@ float
 aC
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -243,7 +243,7 @@ float
 aD
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -273,7 +273,7 @@ float
 aE
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -303,7 +303,7 @@ float
 aF
 ErrorResult
 &
-rv
+aRv
 )
 ;
 already_AddRefed
@@ -413,7 +413,7 @@ float
 angle
 ErrorResult
 &
-rv
+aRv
 )
 ;
 already_AddRefed
@@ -426,7 +426,7 @@ float
 angle
 ErrorResult
 &
-rv
+aRv
 )
 ;
 private

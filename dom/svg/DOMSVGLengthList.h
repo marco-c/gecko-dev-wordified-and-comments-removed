@@ -69,12 +69,10 @@ define
 MOZILLA_DOMSVGLENGTHLIST_IID
 \
 {
-\
 0xcbecb7a4
 0xd6f3
 0xd6f3
 {
-\
 0xb5
 0xa3
 0x3e
@@ -83,9 +81,7 @@ MOZILLA_DOMSVGLENGTHLIST_IID
 0xf5
 0xb2
 0xf9
-\
 }
-\
 }
 namespace
 mozilla
@@ -514,7 +510,7 @@ DOMSVGLength
 newItem
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -527,7 +523,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -543,7 +539,7 @@ bool
 found
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -559,7 +555,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -575,7 +571,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -588,7 +584,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -602,7 +598,7 @@ DOMSVGLength
 newItem
 ErrorResult
 &
-error
+aRv
 )
 {
 return
@@ -612,7 +608,7 @@ newItem
 LengthNoFlush
 (
 )
-error
+aRv
 )
 ;
 }
@@ -626,7 +622,7 @@ DOMSVGLength
 newValue
 ErrorResult
 &
-error
+aRv
 )
 ;
 uint32_t

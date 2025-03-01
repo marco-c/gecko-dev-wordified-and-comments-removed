@@ -156,7 +156,7 @@ DOMMatrix2DInit
 aMatrix
 ErrorResult
 &
-rv
+aRv
 )
 ;
 explicit
@@ -353,7 +353,7 @@ DOMMatrix2DInit
 matrix
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -365,7 +365,7 @@ float
 ty
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -377,7 +377,7 @@ float
 sy
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -391,7 +391,7 @@ float
 cy
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -401,7 +401,7 @@ float
 angle
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -411,7 +411,7 @@ float
 angle
 ErrorResult
 &
-rv
+aRv
 )
 ;
 protected

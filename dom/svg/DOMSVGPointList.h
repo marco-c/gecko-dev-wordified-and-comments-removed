@@ -62,12 +62,10 @@ define
 MOZILLA_DOMSVGPOINTLIST_IID
 \
 {
-\
 0x61812ad1
 0xc078
 0x4cd1
 {
-\
 0x87
 0xe6
 0xbc
@@ -76,9 +74,7 @@ MOZILLA_DOMSVGPOINTLIST_IID
 0x8d
 0x72
 0x84
-\
 }
-\
 }
 namespace
 mozilla
@@ -478,7 +474,7 @@ Clear
 (
 ErrorResult
 &
-aError
+aRv
 )
 ;
 already_AddRefed
@@ -492,7 +488,7 @@ DOMSVGPoint
 aNewItem
 ErrorResult
 &
-aError
+aRv
 )
 ;
 already_AddRefed
@@ -537,7 +533,7 @@ uint32_t
 aIndex
 ErrorResult
 &
-aError
+aRv
 )
 ;
 already_AddRefed
@@ -553,7 +549,7 @@ uint32_t
 aIndex
 ErrorResult
 &
-aError
+aRv
 )
 ;
 already_AddRefed
@@ -566,7 +562,7 @@ uint32_t
 aIndex
 ErrorResult
 &
-aError
+aRv
 )
 ;
 already_AddRefed
@@ -580,7 +576,7 @@ DOMSVGPoint
 aNewItem
 ErrorResult
 &
-aError
+aRv
 )
 {
 return
@@ -590,7 +586,7 @@ aNewItem
 LengthNoFlush
 (
 )
-aError
+aRv
 )
 ;
 }

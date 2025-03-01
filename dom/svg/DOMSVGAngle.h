@@ -157,7 +157,7 @@ float
 aValue
 ErrorResult
 &
-rv
+aRv
 )
 ;
 float
@@ -173,7 +173,7 @@ float
 aValue
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -185,7 +185,7 @@ nsAString
 aValue
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -197,7 +197,7 @@ float
 value
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -207,7 +207,7 @@ uint16_t
 unitType
 ErrorResult
 &
-rv
+aRv
 )
 ;
 protected
