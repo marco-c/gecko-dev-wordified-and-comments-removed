@@ -2974,7 +2974,7 @@ Clipboard
 mAcc
 -
 >
-IsDoc
+IsRoot
 (
 )
 )
