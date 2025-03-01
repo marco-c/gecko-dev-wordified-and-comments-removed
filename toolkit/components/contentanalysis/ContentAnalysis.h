@@ -1014,8 +1014,6 @@ nsCString
 &
 &
 aUserActionId
-bool
-aAutoAcknowledge
 content_analysis
 :
 :
