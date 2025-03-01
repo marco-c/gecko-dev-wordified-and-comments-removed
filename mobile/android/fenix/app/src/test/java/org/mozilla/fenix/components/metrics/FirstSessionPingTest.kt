@@ -362,7 +362,6 @@ spyk
 FirstSessionPing
 (
 mockedContext
-mockedStore
 )
 recordPrivateCalls
 =
@@ -477,9 +476,6 @@ spyk
 (
 FirstSessionPing
 (
-mockk
-(
-)
 mockk
 (
 )
@@ -602,9 +598,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
@@ -716,9 +709,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
@@ -824,9 +814,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
@@ -945,9 +932,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
@@ -1058,9 +1042,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
@@ -1181,9 +1162,6 @@ result
 FirstSessionPing
 (
 mockedContext
-mockk
-(
-)
 )
 .
 installSourcePackage
