@@ -224,6 +224,13 @@ html
 ]
 [
 "
+test_console_messages
+.
+html
+"
+]
+[
+"
 test_script_crossdomain
 .
 html
