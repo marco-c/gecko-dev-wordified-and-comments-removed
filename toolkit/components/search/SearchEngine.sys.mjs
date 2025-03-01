@@ -2034,7 +2034,7 @@ this
 template
 escapedSearchTerms
 .
-replace
+replaceAll
 (
 "
 +
