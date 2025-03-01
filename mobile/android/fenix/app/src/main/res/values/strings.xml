@@ -53671,10 +53671,11 @@ name
 protection_panel_num_trackers_blocked
 "
 >
-%
-d
 Trackers
 blocked
+:
+%
+d
 <
 /
 string
