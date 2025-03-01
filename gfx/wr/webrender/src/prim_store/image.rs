@@ -1341,7 +1341,9 @@ current_dirty_region
 (
 )
 .
-combined
+combined_as_world_space
+(
+)
 prim_spatial_node_index
 frame_context
 .

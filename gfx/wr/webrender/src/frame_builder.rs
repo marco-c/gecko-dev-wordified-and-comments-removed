@@ -2417,6 +2417,7 @@ DirtyRegion
 new
 (
 root_spatial_node_index
+root_spatial_node_index
 )
 ;
 default_dirty_region
@@ -2544,6 +2545,7 @@ DirtyRegion
 :
 new
 (
+root_spatial_node_index
 root_spatial_node_index
 )
 ;

@@ -4917,7 +4917,9 @@ current_dirty_region
 (
 )
 .
-combined
+combined_as_world_space
+(
+)
 ;
 let
 splitter
@@ -5390,7 +5392,9 @@ current_dirty_region
 (
 )
 .
-combined
+combined_as_world_space
+(
+)
 prim_spatial_node_index
 spatial_tree
 )
@@ -6164,7 +6168,9 @@ current_dirty_region
 (
 )
 .
-combined
+combined_as_world_space
+(
+)
 ;
 for
 segment
