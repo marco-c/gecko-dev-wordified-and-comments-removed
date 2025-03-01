@@ -168,7 +168,6 @@ uE004
 '
 ;
 await
-new
 test_driver
 .
 send_keys
@@ -267,7 +266,6 @@ waitForRender
 )
 ;
 await
-new
 test_driver
 .
 send_keys
@@ -304,7 +302,6 @@ waitForRender
 )
 ;
 await
-new
 test_driver
 .
 send_keys
