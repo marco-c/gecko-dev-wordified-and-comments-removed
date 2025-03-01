@@ -78,7 +78,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_Utility
+UtilityProcessParent
 >
 {
 typedef
@@ -93,6 +93,13 @@ MemoryReportRequestHost
 ;
 public
 :
+static
+constexpr
+GeckoProcessType
+PROCESS_TYPE
+=
+GeckoProcessType_Utility
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 UtilityProcessParent

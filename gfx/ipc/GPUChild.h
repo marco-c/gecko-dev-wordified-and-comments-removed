@@ -81,7 +81,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_GPU
+GPUChild
 >
 public
 PGPUChild
@@ -100,6 +100,13 @@ MemoryReportRequestHost
 ;
 public
 :
+static
+constexpr
+GeckoProcessType
+PROCESS_TYPE
+=
+GeckoProcessType_GPU
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 GPUChild

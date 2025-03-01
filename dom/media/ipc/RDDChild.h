@@ -97,7 +97,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_RDD
+RDDChild
 >
 public
 gfx
@@ -122,6 +122,13 @@ MemoryReportRequestHost
 ;
 public
 :
+static
+constexpr
+GeckoProcessType
+PROCESS_TYPE
+=
+GeckoProcessType_RDD
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 RDDChild

@@ -10675,9 +10675,6 @@ mCrashReporter
 >
 GenerateCrashReport
 (
-OtherPid
-(
-)
 )
 ;
 }
@@ -22606,6 +22603,9 @@ CrashReporterHost
 >
 (
 GeckoProcessType_Content
+OtherPid
+(
+)
 aThreadId
 )
 ;

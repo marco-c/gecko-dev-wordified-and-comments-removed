@@ -1225,9 +1225,6 @@ AbnormalShutdown
 {
 GenerateCrashReport
 (
-OtherPid
-(
-)
 )
 ;
 }

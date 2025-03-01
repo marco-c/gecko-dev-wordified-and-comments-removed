@@ -84,6 +84,11 @@ CrashReporterHost
 (
 GeckoProcessType
 aProcessType
+base
+:
+:
+ProcessId
+aPid
 CrashReporter
 :
 :
@@ -94,6 +99,10 @@ aThreadId
 mProcessType
 (
 aProcessType
+)
+mPid
+(
+aPid
 )
 mThreadId
 (
@@ -120,11 +129,6 @@ CrashReporterHost
 :
 GenerateCrashReport
 (
-base
-:
-:
-ProcessId
-aPid
 )
 {
 if
@@ -132,7 +136,6 @@ if
 !
 TakeCrashedChildMinidump
 (
-aPid
 )
 )
 {
@@ -167,11 +170,6 @@ CrashReporterHost
 :
 TakeCrashedChildMinidump
 (
-base
-:
-:
-ProcessId
-aPid
 )
 {
 CrashReporter
@@ -202,7 +200,7 @@ CrashReporter
 :
 TakeMinidumpForChild
 (
-aPid
+mPid
 getter_AddRefs
 (
 crashDump

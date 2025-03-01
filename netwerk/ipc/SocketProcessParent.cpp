@@ -518,9 +518,6 @@ AbnormalShutdown
 {
 GenerateCrashReport
 (
-OtherPid
-(
-)
 )
 ;
 MaybeTerminateProcess
