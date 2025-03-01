@@ -9289,7 +9289,7 @@ equal
 (
 workerManager
 .
-_idleTimeout
+idleTimeoutId
 null
 "
 Should
@@ -9333,7 +9333,7 @@ notEqual
 (
 workerManager
 .
-_idleTimeout
+idleTimeoutId
 null
 "
 Should
@@ -9350,7 +9350,7 @@ notEqual
 (
 workerManager
 .
-_worker
+worker
 null
 "
 Should
@@ -9367,7 +9367,7 @@ notEqual
 (
 workerManager
 .
-_workerReadyPromise
+workerPromise
 null
 "
 Should
@@ -9398,7 +9398,7 @@ equal
 (
 workerManager
 .
-_idleTimeout
+idleTimeoutId
 null
 "
 Should
@@ -9417,7 +9417,7 @@ equal
 (
 workerManager
 .
-_worker
+worker
 null
 "
 Should
@@ -9435,7 +9435,7 @@ equal
 (
 workerManager
 .
-_workerReadyPromise
+workerPromise
 null
 "
 Should
