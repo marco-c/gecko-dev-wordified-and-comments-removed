@@ -353,6 +353,16 @@ hasSlottedSupportLink
 >
 html
 <
+div
+style
+=
+"
+width
+:
+300px
+"
+>
+<
 moz
 -
 select
@@ -521,6 +531,10 @@ option
 moz
 -
 select
+>
+<
+/
+div
 >
 ;
 export
