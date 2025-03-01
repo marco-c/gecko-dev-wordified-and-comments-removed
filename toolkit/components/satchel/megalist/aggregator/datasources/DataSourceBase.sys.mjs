@@ -468,7 +468,9 @@ createFormatMessages
 "
 preview
 /
-megalist
+contextual
+-
+manager
 .
 ftl
 "
@@ -491,7 +493,9 @@ ftl
 "
 preview
 /
-megalist
+contextual
+-
+manager
 .
 ftl
 "

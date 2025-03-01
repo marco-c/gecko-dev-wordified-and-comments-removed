@@ -130,7 +130,9 @@ insertFTLIfNeeded
 "
 preview
 /
-megalist
+contextual
+-
+manager
 .
 ftl
 "
