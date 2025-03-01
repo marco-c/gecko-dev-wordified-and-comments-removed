@@ -100,10 +100,7 @@ sanitizer
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 Sanitizer

@@ -142,10 +142,11 @@ unsigned
 long
 histogramIndex
 ;
-required
 unsigned
 long
 filterData
+=
+0
 ;
 required
 DOMString
