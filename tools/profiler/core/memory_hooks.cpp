@@ -2100,11 +2100,13 @@ aEnable
 ;
 }
 static
-bool
+purge_result_t
 replace_moz_may_purge_one_now
 (
 bool
 aPeekOnly
+uint32_t
+aReuseGraceMS
 )
 {
 return
@@ -2113,6 +2115,7 @@ gMallocTable
 moz_may_purge_one_now
 (
 aPeekOnly
+aReuseGraceMS
 )
 ;
 }

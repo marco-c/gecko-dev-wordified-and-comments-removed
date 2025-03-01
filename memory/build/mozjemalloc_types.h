@@ -402,6 +402,14 @@ tag
 TagFreedPage
 ;
 }
+enum
+purge_result_t
+{
+Done
+NeedsMore
+WantsLater
+}
+;
 #
 ifdef
 __cplusplus

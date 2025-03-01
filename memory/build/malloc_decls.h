@@ -299,8 +299,9 @@ bool
 MALLOC_DECL
 (
 moz_may_purge_one_now
+purge_result_t
 bool
-bool
+uint32_t
 )
 #
 endif
