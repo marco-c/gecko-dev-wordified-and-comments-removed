@@ -647,6 +647,11 @@ metaState
 public
 final
 int
+toolType
+;
+public
+final
+int
 pointerId
 [
 ]
@@ -802,6 +807,15 @@ event
 .
 getMetaState
 (
+)
+;
+toolType
+=
+event
+.
+getToolType
+(
+0
 )
 ;
 historySize
