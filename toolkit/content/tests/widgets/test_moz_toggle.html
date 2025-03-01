@@ -206,7 +206,7 @@ script
 src
 =
 "
-input
+lit
 -
 test
 -
@@ -297,10 +297,9 @@ moz
 toggle
 >
 ;
-await
 testHelpers
 .
-setupInputTests
+setupTests
 (
 {
 templateFn
@@ -397,7 +396,7 @@ renderTarget
 await
 testHelpers
 .
-renderInputElements
+renderTemplate
 (
 interactionTemplate
 )
