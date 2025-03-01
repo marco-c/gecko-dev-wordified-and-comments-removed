@@ -90,6 +90,15 @@ worker
 js
 "
 "
+test
+-
+parent
+-
+worker
+.
+js
+"
+"
 !
 /
 devtools
