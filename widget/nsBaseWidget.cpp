@@ -5678,8 +5678,6 @@ DispatchTouchInput
 MultiTouchInput
 &
 aInput
-uint16_t
-aInputSource
 )
 {
 MOZ_ASSERT
@@ -5691,7 +5689,9 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-aInputSource
+aInput
+.
+mInputSource
 =
 =
 mozilla
@@ -5706,7 +5706,9 @@ MouseEvent_Binding
 MOZ_SOURCE_TOUCH
 |
 |
-aInputSource
+aInput
+.
+mInputSource
 =
 =
 mozilla
@@ -5775,7 +5777,6 @@ aInput
 ToWidgetEvent
 (
 this
-aInputSource
 )
 ;
 ProcessUntransformedAPZEvent
@@ -5796,7 +5797,6 @@ aInput
 ToWidgetEvent
 (
 this
-aInputSource
 )
 ;
 nsEventStatus

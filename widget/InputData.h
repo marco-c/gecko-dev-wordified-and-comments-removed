@@ -587,10 +587,6 @@ ToWidgetEvent
 nsIWidget
 *
 aWidget
-uint16_t
-aInputSource
-=
-5
 )
 const
 ;
@@ -634,6 +630,11 @@ int16_t
 mButtons
 =
 0
+;
+uint16_t
+mInputSource
+=
+5
 ;
 }
 ;
