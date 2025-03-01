@@ -35,10 +35,9 @@ mjs
 "
 )
 ;
-const
-{
-require
-}
+globalThis
+.
+browserLoader
 =
 BrowserLoader
 (
@@ -64,6 +63,10 @@ globalThis
 .
 Debugger
 =
+globalThis
+.
+browserLoader
+.
 require
 (
 "
