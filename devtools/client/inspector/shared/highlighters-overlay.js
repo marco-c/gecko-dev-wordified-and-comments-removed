@@ -464,7 +464,7 @@ hidden
 }
 ;
 const
-TELEMETRY_TOOL_IDS
+GLEAN_TOOL_IDS
 =
 {
 [
@@ -474,7 +474,7 @@ FLEXBOX
 ]
 :
 "
-FLEXBOX_HIGHLIGHTER
+flexbox_highlighter
 "
 [
 TYPES
@@ -483,7 +483,7 @@ GRID
 ]
 :
 "
-GRID_HIGHLIGHTER
+grid_highlighter
 "
 }
 ;
@@ -1214,7 +1214,7 @@ GRID
 const
 toolID
 =
-TELEMETRY_TOOL_IDS
+GLEAN_TOOL_IDS
 [
 type
 ]
@@ -1482,7 +1482,7 @@ GRID
 const
 toolID
 =
-TELEMETRY_TOOL_IDS
+GLEAN_TOOL_IDS
 [
 type
 ]
