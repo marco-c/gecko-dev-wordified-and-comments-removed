@@ -6228,7 +6228,7 @@ n
             
 {
 "
-full
+show_all
 "
 :
 True
@@ -6398,7 +6398,7 @@ n
             
 {
 "
-full
+show_all
 "
 :
 True
@@ -7188,7 +7188,7 @@ amazon
 "
 ]
 "
-full
+show_all
 "
 :
 True
@@ -9985,7 +9985,7 @@ MAX_PERF_TASKS
             
 {
 "
-full
+show_all
 "
 :
 True
@@ -10059,7 +10059,7 @@ MAX_PERF_TASKS
 {
                 
 "
-full
+show_all
 "
 :
 True
@@ -11091,7 +11091,7 @@ call_count
 (
 {
 "
-full
+show_all
 "
 :
 True
