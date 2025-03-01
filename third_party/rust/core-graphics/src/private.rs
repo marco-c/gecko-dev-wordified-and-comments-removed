@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 geometry
 :
 :
@@ -114,6 +111,8 @@ region
 CGSRegion
 {
 region
+:
+region
 }
 }
 }
@@ -181,6 +180,8 @@ region
 CGSRegion
 {
 region
+:
+region
 }
 }
 }
@@ -227,7 +228,13 @@ CGSSurface
 CGSSurface
 {
 context_id
+:
+context_id
 window_number
+:
+window_number
+surface_id
+:
 surface_id
 }
 }
@@ -300,9 +307,6 @@ mod
 ffi
 {
 use
-crate
-:
-:
 geometry
 :
 :
@@ -344,13 +348,6 @@ i32
 ;
 #
 [
-cfg_attr
-(
-feature
-=
-"
-link
-"
 link
 (
 name
@@ -364,12 +361,8 @@ kind
 framework
 "
 )
-)
 ]
 extern
-"
-C
-"
 {
 pub
 fn

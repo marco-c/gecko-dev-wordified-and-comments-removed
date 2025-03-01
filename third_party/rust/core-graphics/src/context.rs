@@ -1,74 +1,14 @@
 use
-crate
-:
-:
 base
 :
 :
 CGFloat
 ;
 use
-crate
-:
-:
-color
-:
-:
-CGColor
-;
-use
-crate
-:
-:
 color_space
 :
 :
 CGColorSpace
-;
-use
-crate
-:
-:
-font
-:
-:
-{
-CGFont
-CGGlyph
-}
-;
-use
-crate
-:
-:
-geometry
-:
-:
-{
-CGPoint
-CGSize
-}
-;
-use
-crate
-:
-:
-gradient
-:
-:
-{
-CGGradient
-CGGradientDrawingOptions
-}
-;
-use
-crate
-:
-:
-path
-:
-:
-CGPathRef
 ;
 use
 core_foundation
@@ -81,6 +21,45 @@ base
 CFTypeID
 TCFType
 }
+;
+use
+font
+:
+:
+{
+CGFont
+CGGlyph
+}
+;
+use
+geometry
+:
+:
+{
+CGPoint
+CGSize
+}
+;
+use
+gradient
+:
+:
+{
+CGGradient
+CGGradientDrawingOptions
+}
+;
+use
+color
+:
+:
+CGColor
+;
+use
+path
+:
+:
+CGPathRef
 ;
 use
 libc
@@ -104,37 +83,6 @@ raw
 c_void
 ;
 use
-crate
-:
-:
-geometry
-:
-:
-{
-CGAffineTransform
-CGRect
-}
-;
-use
-crate
-:
-:
-image
-:
-:
-CGImage
-;
-use
-foreign_types
-:
-:
-{
-foreign_type
-ForeignType
-ForeignTypeRef
-}
-;
-use
 std
 :
 :
@@ -151,6 +99,30 @@ std
 :
 :
 slice
+;
+use
+geometry
+:
+:
+{
+CGAffineTransform
+CGRect
+}
+;
+use
+image
+:
+:
+CGImage
+;
+use
+foreign_types
+:
+:
+{
+ForeignType
+ForeignTypeRef
+}
 ;
 #
 [
@@ -341,7 +313,6 @@ CGContext
 type
 CType
 =
-crate
 :
 :
 sys
@@ -401,7 +372,6 @@ ctx
 :
 *
 mut
-crate
 :
 :
 sys
@@ -547,6 +517,7 @@ as
 *
 mut
 u8
+(
 self
 .
 height
@@ -558,6 +529,9 @@ self
 bytes_per_row
 (
 )
+)
+as
+usize
 )
 }
 }
@@ -2581,9 +2555,6 @@ create_bitmap_context_test
 )
 {
 use
-crate
-:
-:
 geometry
 :
 :
@@ -2614,7 +2585,6 @@ None
 0
 &
 cs
-crate
 :
 :
 base
@@ -2804,13 +2774,6 @@ bytes
 }
 #
 [
-cfg_attr
-(
-feature
-=
-"
-link
-"
 link
 (
 name
@@ -2824,19 +2787,14 @@ kind
 framework
 "
 )
-)
 ]
 extern
-"
-C
-"
 {
 fn
 CGContextRetain
 (
 c
 :
-crate
 :
 :
 sys
@@ -2846,7 +2804,6 @@ CGContextRef
 )
 -
 >
-crate
 :
 :
 sys
@@ -2859,7 +2816,6 @@ CGContextRelease
 (
 c
 :
-crate
 :
 :
 sys
@@ -2890,7 +2846,6 @@ bytesPerRow
 size_t
 space
 :
-crate
 :
 :
 sys
@@ -2903,7 +2858,6 @@ u32
 )
 -
 >
-crate
 :
 :
 sys
@@ -2916,7 +2870,6 @@ CGBitmapContextGetData
 (
 context
 :
-crate
 :
 :
 sys
@@ -2935,7 +2888,6 @@ CGBitmapContextGetWidth
 (
 context
 :
-crate
 :
 :
 sys
@@ -2952,7 +2904,6 @@ CGBitmapContextGetHeight
 (
 context
 :
-crate
 :
 :
 sys
@@ -2969,7 +2920,6 @@ CGBitmapContextGetBytesPerRow
 (
 context
 :
-crate
 :
 :
 sys
@@ -2986,7 +2936,6 @@ CGBitmapContextCreateImage
 (
 context
 :
-crate
 :
 :
 sys
@@ -2996,7 +2945,6 @@ CGContextRef
 )
 -
 >
-crate
 :
 :
 sys
@@ -3017,7 +2965,6 @@ CGContextGetClipBoundingBox
 (
 c
 :
-crate
 :
 :
 sys
@@ -3034,7 +2981,6 @@ CGContextFlush
 (
 c
 :
-crate
 :
 :
 sys
@@ -3048,7 +2994,6 @@ CGContextSetBlendMode
 (
 c
 :
-crate
 :
 :
 sys
@@ -3065,7 +3010,6 @@ CGContextSetAllowsFontSmoothing
 (
 c
 :
-crate
 :
 :
 sys
@@ -3082,7 +3026,6 @@ CGContextSetShouldSmoothFonts
 (
 c
 :
-crate
 :
 :
 sys
@@ -3099,7 +3042,6 @@ CGContextSetFontSmoothingStyle
 (
 c
 :
-crate
 :
 :
 sys
@@ -3116,7 +3058,6 @@ CGContextSetAllowsAntialiasing
 (
 c
 :
-crate
 :
 :
 sys
@@ -3133,7 +3074,6 @@ CGContextSetShouldAntialias
 (
 c
 :
-crate
 :
 :
 sys
@@ -3150,7 +3090,6 @@ CGContextSetAllowsFontSubpixelQuantization
 (
 c
 :
-crate
 :
 :
 sys
@@ -3167,7 +3106,6 @@ CGContextSetShouldSubpixelQuantizeFonts
 (
 c
 :
-crate
 :
 :
 sys
@@ -3184,7 +3122,6 @@ CGContextSetAllowsFontSubpixelPositioning
 (
 c
 :
-crate
 :
 :
 sys
@@ -3201,7 +3138,6 @@ CGContextSetShouldSubpixelPositionFonts
 (
 c
 :
-crate
 :
 :
 sys
@@ -3218,7 +3154,6 @@ CGContextSetTextDrawingMode
 (
 c
 :
-crate
 :
 :
 sys
@@ -3235,7 +3170,6 @@ CGContextSetFillColorWithColor
 (
 c
 :
-crate
 :
 :
 sys
@@ -3244,7 +3178,6 @@ sys
 CGContextRef
 color
 :
-crate
 :
 :
 sys
@@ -3258,7 +3191,6 @@ CGContextSetLineCap
 (
 c
 :
-crate
 :
 :
 sys
@@ -3275,7 +3207,6 @@ CGContextSetLineDash
 (
 c
 :
-crate
 :
 :
 sys
@@ -3300,7 +3231,6 @@ CGContextSetLineJoin
 (
 c
 :
-crate
 :
 :
 sys
@@ -3317,7 +3247,6 @@ CGContextSetLineWidth
 (
 c
 :
-crate
 :
 :
 sys
@@ -3334,7 +3263,6 @@ CGContextSetMiterLimit
 (
 c
 :
-crate
 :
 :
 sys
@@ -3351,7 +3279,6 @@ CGContextAddPath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3360,7 +3287,6 @@ sys
 CGContextRef
 path
 :
-crate
 :
 :
 sys
@@ -3374,7 +3300,6 @@ CGContextAddCurveToPoint
 (
 c
 :
-crate
 :
 :
 sys
@@ -3406,7 +3331,6 @@ CGContextAddQuadCurveToPoint
 (
 c
 :
-crate
 :
 :
 sys
@@ -3432,7 +3356,6 @@ CGContextAddLineToPoint
 (
 c
 :
-crate
 :
 :
 sys
@@ -3452,7 +3375,6 @@ CGContextBeginPath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3466,7 +3388,6 @@ CGContextClosePath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3480,7 +3401,6 @@ CGContextMoveToPoint
 (
 c
 :
-crate
 :
 :
 sys
@@ -3500,7 +3420,6 @@ CGContextDrawPath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3517,7 +3436,6 @@ CGContextFillPath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3531,7 +3449,6 @@ CGContextEOFillPath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3545,7 +3462,6 @@ CGContextClip
 (
 c
 :
-crate
 :
 :
 sys
@@ -3559,7 +3475,6 @@ CGContextEOClip
 (
 c
 :
-crate
 :
 :
 sys
@@ -3573,7 +3488,6 @@ CGContextResetClip
 (
 c
 :
-crate
 :
 :
 sys
@@ -3587,7 +3501,6 @@ CGContextStrokePath
 (
 c
 :
-crate
 :
 :
 sys
@@ -3601,7 +3514,6 @@ CGContextSetRGBFillColor
 (
 context
 :
-crate
 :
 :
 sys
@@ -3627,7 +3539,6 @@ CGContextSetRGBStrokeColor
 (
 context
 :
-crate
 :
 :
 sys
@@ -3653,7 +3564,6 @@ CGContextSetGrayFillColor
 (
 context
 :
-crate
 :
 :
 sys
@@ -3673,7 +3583,6 @@ CGContextClearRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3690,7 +3599,6 @@ CGContextFillRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3707,7 +3615,6 @@ CGContextFillRects
 (
 context
 :
-crate
 :
 :
 sys
@@ -3729,7 +3636,6 @@ CGContextStrokeRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3746,7 +3652,6 @@ CGContextStrokeRectWithWidth
 (
 context
 :
-crate
 :
 :
 sys
@@ -3766,7 +3671,6 @@ CGContextClipToRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3783,7 +3687,6 @@ CGContextClipToRects
 (
 context
 :
-crate
 :
 :
 sys
@@ -3805,7 +3708,6 @@ CGContextClipToMask
 (
 ctx
 :
-crate
 :
 :
 sys
@@ -3817,7 +3719,6 @@ rect
 CGRect
 mask
 :
-crate
 :
 :
 sys
@@ -3831,7 +3732,6 @@ CGContextReplacePathWithStrokedPath
 (
 context
 :
-crate
 :
 :
 sys
@@ -3845,7 +3745,6 @@ CGContextFillEllipseInRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3862,7 +3761,6 @@ CGContextStrokeEllipseInRect
 (
 context
 :
-crate
 :
 :
 sys
@@ -3879,7 +3777,6 @@ CGContextStrokeLineSegments
 (
 context
 :
-crate
 :
 :
 sys
@@ -3901,7 +3798,6 @@ CGContextDrawImage
 (
 c
 :
-crate
 :
 :
 sys
@@ -3913,7 +3809,6 @@ rect
 CGRect
 image
 :
-crate
 :
 :
 sys
@@ -3927,7 +3822,6 @@ CGContextSetInterpolationQuality
 (
 c
 :
-crate
 :
 :
 sys
@@ -3944,7 +3838,6 @@ CGContextGetInterpolationQuality
 (
 c
 :
-crate
 :
 :
 sys
@@ -3961,7 +3854,6 @@ CGContextSetFont
 (
 c
 :
-crate
 :
 :
 sys
@@ -3970,7 +3862,6 @@ sys
 CGContextRef
 font
 :
-crate
 :
 :
 sys
@@ -3984,7 +3875,6 @@ CGContextSetFontSize
 (
 c
 :
-crate
 :
 :
 sys
@@ -4001,7 +3891,6 @@ CGContextSetTextMatrix
 (
 c
 :
-crate
 :
 :
 sys
@@ -4018,7 +3907,6 @@ CGContextSetTextPosition
 (
 c
 :
-crate
 :
 :
 sys
@@ -4038,7 +3926,6 @@ CGContextShowGlyphsAtPositions
 (
 c
 :
-crate
 :
 :
 sys
@@ -4065,7 +3952,6 @@ CGContextSaveGState
 (
 c
 :
-crate
 :
 :
 sys
@@ -4079,7 +3965,6 @@ CGContextRestoreGState
 (
 c
 :
-crate
 :
 :
 sys
@@ -4093,7 +3978,6 @@ CGContextTranslateCTM
 (
 c
 :
-crate
 :
 :
 sys
@@ -4113,7 +3997,6 @@ CGContextScaleCTM
 (
 c
 :
-crate
 :
 :
 sys
@@ -4133,7 +4016,6 @@ CGContextRotateCTM
 (
 c
 :
-crate
 :
 :
 sys
@@ -4150,7 +4032,6 @@ CGContextGetCTM
 (
 c
 :
-crate
 :
 :
 sys
@@ -4167,7 +4048,6 @@ CGContextConcatCTM
 (
 c
 :
-crate
 :
 :
 sys
@@ -4184,7 +4064,6 @@ CGContextDrawLinearGradient
 (
 c
 :
-crate
 :
 :
 sys
@@ -4193,7 +4072,6 @@ sys
 CGContextRef
 gradient
 :
-crate
 :
 :
 sys
@@ -4216,7 +4094,6 @@ CGContextDrawRadialGradient
 (
 c
 :
-crate
 :
 :
 sys
@@ -4225,7 +4102,6 @@ sys
 CGContextRef
 gradient
 :
-crate
 :
 :
 sys
@@ -4254,7 +4130,6 @@ CGContextSetShadow
 (
 c
 :
-crate
 :
 :
 sys
@@ -4274,7 +4149,6 @@ CGContextSetShadowWithColor
 (
 c
 :
-crate
 :
 :
 sys
@@ -4289,7 +4163,6 @@ blur
 CGFloat
 color
 :
-crate
 :
 :
 sys
@@ -4303,7 +4176,6 @@ CGContextSetAlpha
 (
 c
 :
-crate
 :
 :
 sys
