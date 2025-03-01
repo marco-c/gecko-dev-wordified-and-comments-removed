@@ -3809,6 +3809,12 @@ tsan
 *
 :
 8
+.
+*
+/
+debug
+:
+6
 default
 :
 5
