@@ -6410,6 +6410,16 @@ GetParentPresShellForEventHandling
 )
 ;
 }
+bool
+UpdateFocusSequenceNumber
+(
+nsIFrame
+*
+aFrameForPresShell
+uint64_t
+aEventFocusSequenceNumber
+)
+;
 OwningNonNull
 <
 PresShell
@@ -6896,9 +6906,6 @@ mMouseEventTargetGuid
 ;
 nsSize
 mVisualViewportSize
-;
-FocusTarget
-mAPZFocusTarget
 ;
 using
 Arena
