@@ -28208,6 +28208,7 @@ mClassOfService
 Flags
 (
 )
+mStatus
 &
 timings
 std
@@ -30886,6 +30887,7 @@ mClassOfService
 Flags
 (
 )
+mStatus
 &
 mTransactionTimings
 std
@@ -32592,6 +32594,7 @@ mClassOfService
 Flags
 (
 )
+mStatus
 )
 ;
 }
@@ -43979,6 +43982,7 @@ mClassOfService
 Flags
 (
 )
+mStatus
 &
 mTransactionTimings
 std

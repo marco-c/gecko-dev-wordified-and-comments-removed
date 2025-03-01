@@ -339,6 +339,11 @@ classOfService
 "
 UrgentStart
 "
+requestStatus
+:
+"
+NS_OK
+"
 requestMethod
 :
 "
@@ -530,6 +535,11 @@ classOfService
 :
 "
 UrgentStart
+"
+requestStatus
+:
+"
+NS_OK
 "
 requestMethod
 :
@@ -1090,6 +1100,11 @@ classOfService
 :
 "
 Unset
+"
+requestStatus
+:
+"
+NS_OK
 "
 requestMethod
 :

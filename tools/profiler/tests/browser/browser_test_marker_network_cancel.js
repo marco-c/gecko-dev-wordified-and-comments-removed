@@ -287,6 +287,11 @@ classOfService
 "
 UrgentStart
 "
+requestStatus
+:
+"
+NS_BINDING_ABORTED
+"
 requestMethod
 :
 "

@@ -94,6 +94,8 @@ aIsPrivateBrowsing
 unsigned
 long
 aClassOfServiceFlag
+nsresult
+aRequestStatus
 const
 mozilla
 :
