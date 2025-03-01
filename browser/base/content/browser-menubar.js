@@ -406,7 +406,9 @@ case
 menu_HelpPopup_reportPhishingErrortoolmenu
 "
 :
-ReportFalseDeceptiveSite
+gSafeBrowsing
+.
+reportFalseDeceptiveSite
 (
 )
 ;

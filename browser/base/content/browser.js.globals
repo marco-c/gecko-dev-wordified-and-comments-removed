@@ -267,9 +267,6 @@ undoCloseTab
 undoCloseWindow
 "
 "
-ReportFalseDeceptiveSite
-"
-"
 ReportSiteIssue
 "
 "
