@@ -166,10 +166,13 @@ aRpId
 {
 aRpId
 =
+NS_ConvertUTF8toUTF16
+(
 mInfo
 .
 RpId
 (
+)
 )
 ;
 return
@@ -976,10 +979,13 @@ aRpId
 {
 aRpId
 =
+NS_ConvertUTF8toUTF16
+(
 mInfo
 .
 RpId
 (
+)
 )
 ;
 return

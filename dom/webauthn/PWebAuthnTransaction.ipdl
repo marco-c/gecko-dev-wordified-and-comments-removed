@@ -415,7 +415,7 @@ alg
 struct
 WebAuthnMakeCredentialInfo
 {
-nsString
+nsCString
 RpId
 ;
 uint8_t
@@ -499,7 +499,7 @@ WebAuthnMakeCredentialResult
 struct
 WebAuthnGetAssertionInfo
 {
-nsString
+nsCString
 RpId
 ;
 uint8_t
