@@ -220,11 +220,15 @@ webdriver
     
 if
 product
-=
-=
+in
+[
 "
 webkitgtk_minibrowser
 "
+"
+wpewebkit_minibrowser
+"
+]
 :
         
 return
@@ -637,14 +641,6 @@ fonts
 "
 -
 -
-no
--
-headless
-"
-        
-"
--
--
 verify
 -
 log
@@ -653,6 +649,32 @@ full
 "
     
 ]
+    
+wpt_args
+.
+append
+(
+"
+-
+-
+headless
+"
+if
+product
+=
+=
+"
+wpewebkit_minibrowser
+"
+else
+"
+-
+-
+no
+-
+headless
+"
+)
     
 wpt_args
 +
