@@ -47,6 +47,15 @@ aWnd
 ;
 static
 void
+OnWindowMaximized
+(
+nsWindow
+*
+aWin
+)
+;
+static
+void
 OnFullscreenChanged
 (
 nsWindow
