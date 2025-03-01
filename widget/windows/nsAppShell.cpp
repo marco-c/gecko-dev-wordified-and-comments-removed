@@ -2890,6 +2890,19 @@ rv
 }
 }
 else
+{
+:
+:
+LoadLibraryW
+(
+L
+"
+winmm
+.
+dll
+"
+)
+;
 if
 (
 XRE_IsContentProcess
@@ -2932,6 +2945,7 @@ SingleNativeEventPump
 )
 )
 ;
+}
 }
 }
 if
