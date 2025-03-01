@@ -19,12 +19,11 @@ tanh
 xxx
 '
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 tanh
 '
-floatingPointTypes
 label
 )
 ;
