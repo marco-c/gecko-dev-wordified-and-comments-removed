@@ -8401,7 +8401,7 @@ places_frecency_pages_alternative_featureGate_AtStartup
 )
 {
 int32_t
-viewTimeSeconds
+viewTimeMs
 =
 StaticPrefs
 :
@@ -8409,9 +8409,11 @@ StaticPrefs
 places_frecency_pages_alternative_interactions_viewTimeSeconds_AtStartup
 (
 )
+*
+1000
 ;
 int32_t
-viewTimeIfManyKeypressesSeconds
+viewTimeIfManyKeypressesMs
 =
 StaticPrefs
 :
@@ -8419,6 +8421,8 @@ StaticPrefs
 places_frecency_pages_alternative_interactions_viewTimeIfManyKeypressesSeconds_AtStartup
 (
 )
+*
+1000
 ;
 int32_t
 manyKeypresses
@@ -8439,8 +8443,8 @@ ExecuteSimpleSQL
 (
 CREATE_PLACES_METADATA_AFTERINSERT_TRIGGER
 (
-viewTimeSeconds
-viewTimeIfManyKeypressesSeconds
+viewTimeMs
+viewTimeIfManyKeypressesMs
 manyKeypresses
 )
 )
@@ -8460,8 +8464,8 @@ ExecuteSimpleSQL
 (
 CREATE_PLACES_METADATA_AFTERUPDATE_TRIGGER
 (
-viewTimeSeconds
-viewTimeIfManyKeypressesSeconds
+viewTimeMs
+viewTimeIfManyKeypressesMs
 manyKeypresses
 )
 )
