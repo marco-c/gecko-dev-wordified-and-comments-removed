@@ -288,11 +288,7 @@ GetIsOpaque
 (
 )
 override
-{
-return
-true
 ;
-}
 void
 ResetBitmap
 (
