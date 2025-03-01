@@ -6181,7 +6181,7 @@ clip_mask_kind
 else
 {
 let
-dirty_world_rect
+dirty_rect
 =
 frame_state
 .
@@ -6189,9 +6189,7 @@ current_dirty_region
 (
 )
 .
-combined_as_world_space
-(
-)
+combined
 ;
 for
 segment
@@ -6250,7 +6248,7 @@ map_local_to_pic
 &
 pic_state
 .
-map_pic_to_world
+map_pic_to_vis
 &
 frame_context
 .
@@ -6263,7 +6261,7 @@ frame_state
 resource_cache
 device_pixel_scale
 &
-dirty_world_rect
+dirty_rect
 &
 mut
 data_stores

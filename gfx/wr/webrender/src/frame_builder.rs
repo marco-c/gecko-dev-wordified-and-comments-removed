@@ -1359,12 +1359,12 @@ LayoutPixel
 PicturePixel
 >
 pub
-map_pic_to_world
+map_pic_to_vis
 :
 SpaceMapper
 <
 PicturePixel
-WorldPixel
+VisPixel
 >
 }
 impl
