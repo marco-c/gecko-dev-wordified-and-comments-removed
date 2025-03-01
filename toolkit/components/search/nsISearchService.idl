@@ -1828,7 +1828,7 @@ value
 .
 *
 /
-Promise
+void
 resetToAppDefaultEngine
 (
 )

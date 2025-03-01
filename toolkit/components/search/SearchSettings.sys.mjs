@@ -4137,7 +4137,7 @@ engine
 *
 returns
 {
-SearchEngine
+nsISearchEngine
 }
 *
 The

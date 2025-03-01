@@ -3188,7 +3188,7 @@ context
 *
 param
 {
-Promise
+PromiseWithResolvers
 }
 deferredResponse
 *

@@ -3552,9 +3552,6 @@ matchesUserEnvironment
 (
 config
 user
-=
-{
-}
 )
 {
 if

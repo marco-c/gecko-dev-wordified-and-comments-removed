@@ -124,6 +124,12 @@ on
 FormHistoryAutoCompleteResult
 .
 *
+*
+implements
+{
+nsIAutoCompleteResult
+}
+*
 /
 class
 SearchHistoryResult
@@ -1587,7 +1593,10 @@ identical
 .
 *
 *
-class
+implements
+{
+nsIAutoCompleteSearch
+}
 *
 /
 class
@@ -1638,7 +1647,7 @@ results
 *
 param
 {
-FormHistoryAutoCompleteResult
+nsIAutoCompleteResult
 }
 result
 *
@@ -1794,7 +1803,7 @@ searching
 *
 param
 {
-object
+nsIAutoCompleteObserver
 }
 listener
 *
@@ -2189,7 +2198,7 @@ results
 *
 type
 {
-object
+nsIAutoCompleteObserver
 |
 null
 }
@@ -2235,7 +2244,7 @@ unused
 *
 param
 {
-object
+nsIAutoCompleteObserver
 }
 listener
 *

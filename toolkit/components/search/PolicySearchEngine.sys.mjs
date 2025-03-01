@@ -198,9 +198,6 @@ json
 constructor
 (
 options
-=
-{
-}
 )
 {
 let
