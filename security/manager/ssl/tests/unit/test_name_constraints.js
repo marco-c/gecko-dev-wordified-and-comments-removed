@@ -84,7 +84,11 @@ checkCertErrorGeneric
 certdb
 cert
 SEC_ERROR_CERT_NOT_IN_NAME_SPACE
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }
@@ -100,7 +104,11 @@ checkCertErrorGeneric
 certdb
 cert
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }

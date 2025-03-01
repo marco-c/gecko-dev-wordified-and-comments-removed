@@ -115,7 +115,11 @@ checkCertErrorGeneric
 certdb
 cert
 expected_error
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }

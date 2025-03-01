@@ -99,7 +99,11 @@ checkCertErrorGenericAtTime
 certDB
 ee
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 threeWeeksFromNowInSeconds
 false
 "

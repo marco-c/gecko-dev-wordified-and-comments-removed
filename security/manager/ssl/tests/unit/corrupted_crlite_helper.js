@@ -202,7 +202,11 @@ checkCertErrorGenericAtTime
 certdb
 revokedCert
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 new
 Date
 (

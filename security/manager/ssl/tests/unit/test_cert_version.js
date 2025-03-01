@@ -93,7 +93,11 @@ checkCertErrorGeneric
 certdb
 cert
 expectedResult
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }
@@ -110,7 +114,11 @@ checkCertErrorGeneric
 certdb
 cert
 expectedResult
-certificateUsageSSLCA
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServerCA
 )
 ;
 }

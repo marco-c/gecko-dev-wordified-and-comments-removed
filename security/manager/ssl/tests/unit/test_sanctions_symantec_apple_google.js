@@ -288,7 +288,11 @@ checkCertErrorGenericAtTime
 certDB
 allowlistedCert
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 VALIDATION_TIME
 )
 ;
