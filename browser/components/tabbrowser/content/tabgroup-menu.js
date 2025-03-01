@@ -5385,6 +5385,7 @@ true
 ;
 this
 .
+#
 showDefaultTabGroupActions
 (
 false
