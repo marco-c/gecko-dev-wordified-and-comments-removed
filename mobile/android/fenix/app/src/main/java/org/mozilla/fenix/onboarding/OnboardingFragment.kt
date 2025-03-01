@@ -699,6 +699,10 @@ canShowAddSearchWidgetPrompt
 (
 )
 )
+.
+toMutableList
+(
+)
 }
 }
 private
