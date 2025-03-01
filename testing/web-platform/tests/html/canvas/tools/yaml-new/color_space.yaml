@@ -130,11 +130,6 @@ display
 -
 p3
 "
-storageFormat
-:
-"
-uint8
-"
 }
 )
 .
@@ -305,11 +300,6 @@ colorSpace
 :
 "
 srgb
-"
-storageFormat
-:
-"
-uint8
 "
 }
 )

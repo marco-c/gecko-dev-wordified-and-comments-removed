@@ -181,11 +181,6 @@ display
 -
 p3
 "
-storageFormat
-:
-"
-uint8
-"
 }
 )
 .
