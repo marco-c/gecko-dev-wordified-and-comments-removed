@@ -15,6 +15,14 @@ builds
 /
 worker
 /
+.
+cache
+VOLUME
+/
+builds
+/
+worker
+/
 checkouts
 VOLUME
 /
