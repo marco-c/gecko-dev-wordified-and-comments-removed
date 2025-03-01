@@ -16238,12 +16238,6 @@ case
 MIRType
 :
 :
-Simd128
-:
-case
-MIRType
-:
-:
 Int64
 :
 case
@@ -16255,6 +16249,12 @@ IntPtr
 return
 true
 ;
+case
+MIRType
+:
+:
+Simd128
+:
 case
 MIRType
 :
