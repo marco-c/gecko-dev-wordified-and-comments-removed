@@ -851,14 +851,14 @@ bytes
 }
 writeBytes
 (
-uint8Array
+value
 )
 {
 this
 .
 writeUint32
 (
-uint8Array
+value
 .
 length
 )
@@ -873,7 +873,7 @@ elt
 =
 >
 {
-dataStream
+this
 .
 writeUint8
 (
