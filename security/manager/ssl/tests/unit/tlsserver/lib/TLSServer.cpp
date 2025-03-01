@@ -2865,6 +2865,12 @@ return
 1
 ;
 }
+NSS_OptionSet
+(
+NSS_KEY_SIZE_POLICY_FLAGS
+0
+)
+;
 if
 (
 SSL_ConfigServerSessionIDCache
