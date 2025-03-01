@@ -575,7 +575,7 @@ from
 the
 perftest
 .
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 must
 be
 used
@@ -606,7 +606,7 @@ block
 :
 :
 cpp
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 interesting
@@ -617,12 +617,8 @@ thing
 DOM
 {
 }
-"
-"
-_ns
-)
 ;
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 interesting
@@ -633,9 +629,6 @@ thing
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 can

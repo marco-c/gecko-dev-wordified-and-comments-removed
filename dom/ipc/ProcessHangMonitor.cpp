@@ -1720,7 +1720,7 @@ value
 )
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 InterruptCallback
@@ -1730,9 +1730,6 @@ PaintWhileInterruptingJS
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 browserChild
@@ -1745,7 +1742,7 @@ PaintWhileInterruptingJS
 }
 else
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 InterruptCallback
@@ -1755,9 +1752,6 @@ UnloadLayersWhileInterruptingJS
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 browserChild
@@ -2469,7 +2463,7 @@ TabId
 aTabId
 )
 {
-PROFILER_MARKER_TEXT
+PROFILER_MARKER_UNTYPED
 (
 "
 PaintWhileInterruptingJS
@@ -2477,9 +2471,6 @@ PaintWhileInterruptingJS
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 MOZ_RELEASE_ASSERT

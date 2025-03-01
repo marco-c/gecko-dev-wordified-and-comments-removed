@@ -1034,7 +1034,7 @@ ErrorResult
 aRv
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ServiceWorkerRegistration
@@ -1045,9 +1045,6 @@ Update
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 nsIGlobalObject
@@ -1267,7 +1264,7 @@ IPCServiceWorkerRegistrationDescriptorOrCopyableErrorResult
 aResult
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ServiceWorkerRegistration
@@ -1281,9 +1278,6 @@ inner
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 if

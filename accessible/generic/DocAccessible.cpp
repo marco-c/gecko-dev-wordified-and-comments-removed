@@ -7546,7 +7546,7 @@ uint64_t
 aInitialDomains
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 DocAccessible
@@ -7557,9 +7557,6 @@ ProcessQueuedCacheUpdates
 A11Y
 {
 }
-"
-"
-_ns
 )
 ;
 PerfStats
@@ -8096,7 +8093,7 @@ DoInitialUpdate
 (
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 DocAccessible
@@ -8107,9 +8104,6 @@ DoInitialUpdate
 A11Y
 {
 }
-"
-"
-_ns
 )
 ;
 PerfStats

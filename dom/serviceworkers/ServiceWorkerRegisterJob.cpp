@@ -94,7 +94,7 @@ NS_IsMainThread
 )
 )
 ;
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 SWRJ
@@ -103,9 +103,6 @@ AsyncExecute
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 RefPtr

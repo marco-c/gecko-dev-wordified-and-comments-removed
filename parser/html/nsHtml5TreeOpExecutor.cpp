@@ -2894,7 +2894,7 @@ autoFlush
 this
 )
 ;
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 HTMLParserTreeOps
@@ -2907,9 +2907,6 @@ MarkerInnerWindowIdFromDocShell
 mDocShell
 )
 )
-"
-"
-_ns
 )
 ;
 nsHtml5TreeOperation
