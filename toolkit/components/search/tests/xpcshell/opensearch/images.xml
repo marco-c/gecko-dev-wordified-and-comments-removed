@@ -135,7 +135,8 @@ x
 icon
 ;
 base64
-ico16
+aWNvMTY
+=
 <
 /
 Image
@@ -162,7 +163,8 @@ x
 icon
 ;
 base64
-ico32
+aWNvMzI
+=
 <
 /
 Image
@@ -187,7 +189,7 @@ image
 png
 ;
 base64
-ico256
+aWNvMjU2
 <
 /
 Image
