@@ -4537,6 +4537,11 @@ env
 "
 USE_LIBZ_RS
 "
+default
+=
+milestone
+.
+is_nightly
 help
 =
 "
