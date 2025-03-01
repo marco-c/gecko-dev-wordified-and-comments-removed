@@ -121,15 +121,6 @@ stream
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-compression_streams
-.
-enabled
-"
 ]
 interface
 DecompressionStream

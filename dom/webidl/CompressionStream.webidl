@@ -137,15 +137,6 @@ gzip
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-compression_streams
-.
-enabled
-"
 ]
 interface
 CompressionStream
