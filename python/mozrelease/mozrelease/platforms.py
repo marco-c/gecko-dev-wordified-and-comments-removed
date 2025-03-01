@@ -105,6 +105,20 @@ gcc3
 ]
     
 "
+linux
+-
+aarch64
+"
+:
+[
+"
+Linux_aarch64
+-
+gcc3
+"
+]
+    
+"
 mac
 "
 :
@@ -240,6 +254,16 @@ linux
 "
     
 "
+linux
+-
+aarch64
+"
+:
+"
+linux
+"
+    
+"
 mac
 "
 :
@@ -285,6 +309,18 @@ x86_64
 :
 "
 linux64
+"
+    
+"
+linux
+-
+aarch64
+"
+:
+"
+linux64
+-
+aarch64
 "
     
 "
