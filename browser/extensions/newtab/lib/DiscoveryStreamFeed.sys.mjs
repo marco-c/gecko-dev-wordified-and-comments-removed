@@ -10100,6 +10100,11 @@ recommended_at
 feedResponse
 .
 recommendedAt
+icon_src
+:
+item
+.
+iconUrl
 }
 )
 )
@@ -10261,6 +10266,11 @@ category
 item
 .
 category
+icon_src
+:
+item
+.
+iconUrl
 }
 )
 )
@@ -10432,6 +10442,11 @@ not
 section
 :
 sectionKey
+icon_src
+:
+item
+.
+iconUrl
 }
 )
 ;

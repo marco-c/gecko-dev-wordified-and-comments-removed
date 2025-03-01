@@ -1628,6 +1628,13 @@ rec
 .
 raw_image_src
 }
+icon_src
+=
+{
+rec
+.
+icon_src
+}
 word_count
 =
 {
