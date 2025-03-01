@@ -11167,12 +11167,6 @@ aSize
 )
 const
 ;
-bool
-ForcesStackingContextForViewTransition
-(
-)
-const
-;
 [
 [
 nodiscard
