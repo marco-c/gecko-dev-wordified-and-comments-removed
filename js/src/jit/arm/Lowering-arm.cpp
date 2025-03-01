@@ -1882,7 +1882,7 @@ isConstant
 {
 rhsAlloc
 =
-useOrConstantAtStart
+useOrConstant
 (
 rhs
 )
@@ -1892,7 +1892,7 @@ else
 {
 rhsAlloc
 =
-useLowWordRegisterAtStart
+useLowWordRegister
 (
 rhs
 )
