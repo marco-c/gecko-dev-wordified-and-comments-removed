@@ -192,9 +192,9 @@ void
 NewValueSpecifiedUnits
 (
 uint16_t
-unitType
+aUnitType
 float
-value
+aValue
 ErrorResult
 &
 aRv
@@ -204,7 +204,7 @@ void
 ConvertToSpecifiedUnits
 (
 uint16_t
-unitType
+aUnitType
 ErrorResult
 &
 aRv
