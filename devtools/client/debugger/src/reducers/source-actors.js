@@ -217,6 +217,11 @@ sourceActor
 id
 action
 .
+promise
+|
+|
+action
+.
 breakableLines
 )
 ;

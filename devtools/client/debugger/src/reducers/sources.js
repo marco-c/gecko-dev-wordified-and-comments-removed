@@ -436,6 +436,11 @@ source
 id
 action
 .
+promise
+|
+|
+action
+.
 breakableLines
 )
 ;
