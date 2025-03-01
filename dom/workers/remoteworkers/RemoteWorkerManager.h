@@ -171,16 +171,6 @@ aWorkerKind
 ;
 static
 bool
-IsRemoteTypeAllowed
-(
-const
-RemoteWorkerData
-&
-aData
-)
-;
-static
-bool
 HasExtensionPrincipal
 (
 const
