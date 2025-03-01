@@ -1135,6 +1135,14 @@ fourcc
 !
 =
 VA_FOURCC_P010
+&
+&
+aVaDesc
+.
+fourcc
+!
+=
+VA_FOURCC_P016
 )
 {
 DMABUF_LOG

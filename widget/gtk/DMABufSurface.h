@@ -133,6 +133,15 @@ VA_FOURCC_P010
 0x30313050
 #
 endif
+#
+ifndef
+VA_FOURCC_P016
+#
+define
+VA_FOURCC_P016
+0x36313050
+#
+endif
 namespace
 mozilla
 {
