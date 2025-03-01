@@ -1,6 +1,15 @@
 DevToolsModules
 (
 "
+dump
+-
+scope
+.
+sys
+.
+mjs
+"
+"
 test
 -
 line
