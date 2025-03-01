@@ -10869,6 +10869,13 @@ newIndex
 >
 =
 oldIndex
+&
+&
+newIndex
+<
+tabs
+.
+length
 )
 {
 newIndex
@@ -10902,9 +10909,7 @@ dragData
 .
 dropElement
 =
-this
-.
-allTabs
+tabs
 [
 newIndex
 ]
@@ -10913,7 +10918,11 @@ dragData
 .
 dropBefore
 =
-true
+newIndex
+<
+tabs
+.
+length
 ;
 for
 (
