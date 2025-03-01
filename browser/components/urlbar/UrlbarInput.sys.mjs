@@ -25435,9 +25435,6 @@ this
 .
 _updatePlaceholderFromDefaultEngine
 (
-this
-.
-isPrivate
 true
 )
 .
@@ -25968,6 +25965,14 @@ listener
 here
 anyway
 .
+this
+.
+searchModeSwitcher
+.
+updateSearchIcon
+(
+)
+;
 this
 .
 _updatePlaceholderFromDefaultEngine
