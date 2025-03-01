@@ -638,11 +638,11 @@ tab
 .
 *
 param
-sentFromFirefoxFeature
+sentFromFirefoxManager
 Instance
 of
 [
-SentFromFirefoxFeature
+SentFromFirefoxManager
 ]
 to
 facilitate
@@ -793,9 +793,9 @@ SessionUseCases
 PrintContentUseCase
 private
 val
-sentFromFirefoxFeature
+sentFromFirefoxManager
 :
-SentFromFirefoxFeature
+SentFromFirefoxManager
 private
 val
 navController
@@ -973,7 +973,7 @@ apply
 val
 sharedText
 =
-sentFromFirefoxFeature
+sentFromFirefoxManager
 .
 maybeAppendShareText
 (
