@@ -83,6 +83,18 @@ yaml
 "
     
 "
+devtools
+/
+shared
+/
+heapsnapshot
+/
+metrics
+.
+yaml
+"
+    
+"
 docshell
 /
 base
