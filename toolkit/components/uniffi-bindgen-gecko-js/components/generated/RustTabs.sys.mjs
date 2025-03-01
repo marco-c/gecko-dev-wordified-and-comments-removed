@@ -9472,6 +9472,7 @@ dataStream
 default
 :
 throw
+new
 UniFFIError
 (
 Unexpected
@@ -9656,6 +9657,7 @@ dataStream
 default
 :
 throw
+new
 UniFFIError
 (
 Unexpected
