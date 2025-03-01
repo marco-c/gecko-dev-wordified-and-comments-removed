@@ -181,5 +181,11 @@ DOMString
 ?
 allowAttribute
 ;
+readonly
+attribute
+DOMString
+?
+srcAttribute
+;
 }
 ;
