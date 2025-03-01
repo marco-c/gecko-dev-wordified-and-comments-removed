@@ -462,7 +462,6 @@ notification
 get
 (
 origin
-scope
 tag
 callback
 )
@@ -489,7 +488,6 @@ this
 fetchFromDB
 (
 origin
-scope
 tag
 callback
 )
@@ -771,7 +769,6 @@ requestCount
 fetchFromDB
 (
 origin
-scope
 tag
 callback
 )
@@ -781,7 +778,6 @@ request
 =
 {
 origin
-scope
 tag
 callback
 }
@@ -822,7 +818,6 @@ GetAll
 )
 {
 origin
-scope
 tag
 requestID
 }
@@ -880,14 +875,13 @@ tm
 .
 dispatchToMainThread
 (
-(
-)
-=
->
 callback
 .
 handle
+.
+bind
 (
+callback
 notification
 .
 id
