@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-ipc
-/
-FileDescriptor
+UniquePtrExtensions
 .
 h
 "
@@ -234,10 +232,7 @@ WaitForGPU
 (
 )
 ;
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 GetAndResetReleaseFence
 (
 )

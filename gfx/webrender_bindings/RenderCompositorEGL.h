@@ -210,10 +210,7 @@ aNumRects
 )
 override
 ;
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 GetAndResetReleaseFence
 (
 )
@@ -248,10 +245,7 @@ mHandlingNewSurfaceError
 =
 false
 ;
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 mReleaseFenceFd
 ;
 }

@@ -208,10 +208,6 @@ GetAndResetAcquireFence
 if
 (
 fenceFd
-.
-IsValid
-(
-)
 )
 {
 const
@@ -240,15 +236,6 @@ gle
 >
 mEgl
 ;
-auto
-rawFD
-=
-fenceFd
-.
-TakePlatformHandle
-(
-)
-;
 const
 EGLint
 attribs
@@ -257,7 +244,7 @@ attribs
 =
 {
 LOCAL_EGL_SYNC_NATIVE_FENCE_FD_ANDROID
-rawFD
+fenceFd
 .
 get
 (
@@ -285,7 +272,7 @@ sync
 Unused
 <
 <
-rawFD
+fenceFd
 .
 release
 (

@@ -4652,10 +4652,7 @@ aStats
 )
 )
 ;
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 fenceFd
 ;
 if

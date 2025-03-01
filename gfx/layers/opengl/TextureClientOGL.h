@@ -603,13 +603,7 @@ GetBufferId
 const
 override
 ;
-mozilla
-:
-:
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 GetAcquireFence
 (
 )
