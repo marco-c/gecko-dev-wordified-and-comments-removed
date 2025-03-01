@@ -158,12 +158,6 @@ parallel_downloads
 ;
 #
 if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
-&
-&
 !
 defined
 (
