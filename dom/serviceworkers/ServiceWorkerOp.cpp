@@ -4435,13 +4435,10 @@ mTimer
 uint32_t
 delay
 =
-mArgs
-.
-get_ServiceWorkerNotificationEventOpArgs
-(
-)
-.
-disableOpenClickDelay
+StaticPrefs
+:
+:
+dom_webnotifications_disable_open_click_delay
 (
 )
 ;

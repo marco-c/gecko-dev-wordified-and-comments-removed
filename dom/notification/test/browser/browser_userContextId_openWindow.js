@@ -318,7 +318,7 @@ true
 "
 dom
 .
-serviceWorkers
+webnotifications
 .
 disable_open_click_delay
 "

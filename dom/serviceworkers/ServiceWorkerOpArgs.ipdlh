@@ -254,9 +254,6 @@ data
 nsString
 scope
 ;
-uint32_t
-disableOpenClickDelay
-;
 }
 ;
 struct
