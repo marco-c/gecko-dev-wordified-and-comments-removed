@@ -335,6 +335,13 @@ true
 }
 }
 ;
+static
+activatedProperty
+=
+"
+checked
+"
+;
 constructor
 (
 )

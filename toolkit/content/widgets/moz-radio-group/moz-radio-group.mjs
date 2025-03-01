@@ -1819,6 +1819,13 @@ true
 }
 }
 ;
+static
+activatedProperty
+=
+"
+checked
+"
+;
 get
 controller
 (

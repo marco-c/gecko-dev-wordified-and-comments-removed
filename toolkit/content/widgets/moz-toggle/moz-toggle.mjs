@@ -294,6 +294,13 @@ true
 }
 }
 ;
+static
+activatedProperty
+=
+"
+pressed
+"
+;
 get
 buttonEl
 (
