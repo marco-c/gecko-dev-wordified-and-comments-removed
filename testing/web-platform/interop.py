@@ -15,6 +15,10 @@ sys
 import
 tempfile
 from
+datetime
+import
+datetime
+from
 typing
 import
 Callable
@@ -126,6 +130,8 @@ tsan
 |
 -
 ccov
+|
+wayland
 "
     
 ]
@@ -325,6 +331,44 @@ include
 return
 parser
 def
+get_default_year
+(
+)
+-
+>
+int
+:
+    
+now
+=
+datetime
+.
+now
+(
+)
+    
+year
+=
+now
+.
+year
+    
+if
+now
+.
+month
+<
+2
+:
+        
+year
+-
+=
+1
+    
+return
+year
+def
 get_parser_interop_score
 (
 )
@@ -360,7 +404,9 @@ store
         
 default
 =
-2023
+get_default_year
+(
+)
         
 type
 =
