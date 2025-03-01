@@ -361,8 +361,8 @@ bool
 0
 ;
 virtual
-WebSocketSupport
-GetWebSocketSupport
+ExtendedCONNECTSupport
+GetExtendedCONNECTSupport
 (
 )
 =
