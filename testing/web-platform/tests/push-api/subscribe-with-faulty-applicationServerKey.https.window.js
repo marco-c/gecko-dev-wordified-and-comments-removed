@@ -17,7 +17,7 @@ granted
 registration
 =
 await
-prepareActiveServiceWorker
+getActiveServiceWorker
 (
 "
 noop

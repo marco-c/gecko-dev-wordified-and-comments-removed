@@ -339,7 +339,7 @@ granted
 registration
 =
 await
-prepareActiveServiceWorker
+getActiveServiceWorker
 (
 "
 push
