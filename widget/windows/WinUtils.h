@@ -1225,14 +1225,6 @@ aLParam
 }
 static
 UINT
-GetInternalMessage
-(
-UINT
-aNativeMessage
-)
-;
-static
-UINT
 GetNativeMessage
 (
 UINT
