@@ -168,3 +168,10 @@ head
 js
 "
 ]
+[
+"
+test_remote_settings_crash_pull_nightly
+.
+js
+"
+]
