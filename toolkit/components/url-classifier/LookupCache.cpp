@@ -2243,14 +2243,12 @@ iter_end
 )
 )
 {
+return
 GetLookupFragments
 (
 aSpec
 aFragments
 )
-;
-return
-NS_OK
 ;
 }
 const
@@ -2557,7 +2555,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 LookupCache
 :
 :
@@ -2622,6 +2620,7 @@ end
 )
 {
 return
+NS_OK
 ;
 }
 const
@@ -2988,6 +2987,9 @@ key
 ;
 }
 }
+return
+NS_OK
+;
 }
 nsresult
 LookupCache
