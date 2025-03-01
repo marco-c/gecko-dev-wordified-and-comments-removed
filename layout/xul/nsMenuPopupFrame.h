@@ -548,6 +548,7 @@ InputRegion
 Opacity
 Shadow
 Transform
+MicaBackdrop
 }
 ;
 using
@@ -590,6 +591,10 @@ WidgetStyle
 :
 :
 Transform
+WidgetStyle
+:
+:
+MicaBackdrop
 }
 ;
 }

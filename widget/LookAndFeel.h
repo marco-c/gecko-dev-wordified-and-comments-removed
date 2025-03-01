@@ -177,6 +177,7 @@ TreeScrollLinesMax
 ChosenMenuItemsShouldBlink
 WindowsAccentColorInTitlebar
 WindowsMica
+WindowsMicaPopups
 MacBigSurTheme
 MacRTL
 MacTitlebarHeight

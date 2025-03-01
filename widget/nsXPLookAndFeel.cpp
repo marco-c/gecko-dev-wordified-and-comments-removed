@@ -853,6 +853,11 @@ windowsMica
 "
 ui
 .
+windowsMicaPopups
+"
+"
+ui
+.
 macBigSurTheme
 "
 "
