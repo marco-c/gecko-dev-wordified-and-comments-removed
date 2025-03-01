@@ -558,6 +558,12 @@ return
 nullptr
 ;
 }
+nsContentUtils
+:
+:
+NodeIndexCache
+nodeIndexCache
+;
 while
 (
 !
@@ -615,6 +621,8 @@ aTextDirective
 prefix
 true
 false
+&
+nodeIndexCache
 )
 ;
 if
@@ -1101,6 +1109,8 @@ aTextDirective
 start
 true
 mustEndAtWordBoundary
+&
+nodeIndexCache
 )
 ;
 if
@@ -1329,6 +1339,8 @@ aTextDirective
 end
 true
 mustEndAtWordBoundary
+&
+nodeIndexCache
 )
 ;
 if

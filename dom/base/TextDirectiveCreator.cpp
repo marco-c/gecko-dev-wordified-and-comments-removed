@@ -4787,6 +4787,12 @@ IsEmpty
 ErrorResult
 rv
 ;
+nsContentUtils
+:
+:
+NodeIndexCache
+nodeIndexCache
+;
 RangeBoundary
 documentStart
 {
@@ -4923,6 +4929,8 @@ searchEnd
 aSearchQuery
 true
 true
+&
+nodeIndexCache
 )
 ;
 if
@@ -4948,6 +4956,8 @@ EndRef
 (
 )
 searchEnd
+&
+nodeIndexCache
 )
 )
 {
