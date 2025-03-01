@@ -1164,6 +1164,13 @@ addTab
 .
 invoke
 (
+url
+=
+"
+about
+:
+home
+"
 startLoading
 =
 false
@@ -1366,6 +1373,13 @@ addTab
 .
 invoke
 (
+url
+=
+"
+about
+:
+home
+"
 startLoading
 =
 false

@@ -1908,6 +1908,13 @@ addTab
 .
 invoke
 (
+url
+=
+"
+about
+:
+home
+"
 startLoading
 =
 false
