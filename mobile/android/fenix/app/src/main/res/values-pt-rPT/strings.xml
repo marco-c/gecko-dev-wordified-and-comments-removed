@@ -15600,9 +15600,7 @@ preferences_show_trending_search_suggestions
 Mostrar
 sugest
 es
-em
-tend
-ncia
+populares
 <
 /
 string
@@ -44397,9 +44395,7 @@ trending_searches_header
 "
 >
 Pesquisas
-em
-tend
-ncia
+populares
 <
 /
 string
@@ -55508,6 +55504,7 @@ es
 de
 privacidade
 e
+de
 seguran
 a
 <
@@ -55902,7 +55899,9 @@ connection_security_panel_not_secure
 >
 Liga
 o
-insegura
+n
+o
+segura
 <
 /
 string
