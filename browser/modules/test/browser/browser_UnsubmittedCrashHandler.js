@@ -120,7 +120,6 @@ pending
 )
 ;
 }
-async
 function
 clearPendingCrashReports
 (
@@ -165,7 +164,6 @@ isFile
 )
 )
 {
-await
 entry
 .
 remove
@@ -800,7 +798,6 @@ notification
 "
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -845,12 +842,10 @@ init
 ;
 registerCleanupFunction
 (
-async
 function
 (
 )
 {
-await
 clearPendingCrashReports
 (
 )
@@ -881,7 +876,6 @@ test_no_pending_no_notification
 (
 )
 {
-await
 clearPendingCrashReports
 (
 )
@@ -971,7 +965,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -1104,7 +1097,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -1158,7 +1150,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -1272,7 +1263,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -1536,7 +1526,6 @@ testGetValue
 )
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -1704,7 +1693,6 @@ testGetValue
 )
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2043,7 +2031,6 @@ clearUserPref
 pref
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2181,7 +2168,6 @@ testGetValue
 )
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2283,7 +2269,6 @@ notification
 "
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2392,7 +2377,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2507,7 +2491,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2630,7 +2613,6 @@ init
 (
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -2874,7 +2856,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -3119,7 +3100,6 @@ notification
 true
 )
 ;
-await
 clearPendingCrashReports
 (
 )
@@ -3312,7 +3292,6 @@ lastShownDate
 "
 )
 ;
-await
 clearPendingCrashReports
 (
 )
