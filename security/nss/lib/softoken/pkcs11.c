@@ -16076,7 +16076,7 @@ crv
 }
 rv
 =
-RNG_RNGInit
+BL_Init
 (
 )
 ;
@@ -16098,7 +16098,7 @@ crv
 }
 rv
 =
-BL_Init
+RNG_RNGInit
 (
 )
 ;

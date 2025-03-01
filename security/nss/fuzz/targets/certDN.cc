@@ -96,6 +96,10 @@ out
 ;
 TEST_FUNCTION
 (
+CERT_FormatName
+)
+TEST_FUNCTION
+(
 CERT_NameToAscii
 )
 TEST_FUNCTION
@@ -171,6 +175,15 @@ CERT_N2A_INVERTIBLE
 free
 (
 out
+)
+;
+(
+void
+)
+CERT_CompareName
+(
+certName
+certName
 )
 ;
 }

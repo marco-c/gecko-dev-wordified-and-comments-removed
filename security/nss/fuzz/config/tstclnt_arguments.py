@@ -70,7 +70,7 @@ string
 hexdigits
 k
 =
-25
+16
 )
 )
 }

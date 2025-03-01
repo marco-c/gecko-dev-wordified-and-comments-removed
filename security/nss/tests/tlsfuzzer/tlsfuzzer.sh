@@ -837,7 +837,7 @@ TLSFUZZER
 PYTHONPATH
 =
 .
-python
+python3
 tests
 /
 scripts_retention

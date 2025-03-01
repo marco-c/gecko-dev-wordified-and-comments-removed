@@ -2489,6 +2489,9 @@ keyType
 case
 rsaKey
 :
+case
+rsaPssKey
+:
 val
 =
 PK11_GetPrivateModulusLen
