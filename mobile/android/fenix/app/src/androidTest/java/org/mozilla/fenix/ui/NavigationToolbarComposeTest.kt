@@ -1122,6 +1122,12 @@ refreshWebPage
 url
 )
 {
+verifyPageContent
+(
+"
+DEFAULT
+"
+)
 refreshPageFromRedesignedToolbar
 (
 )
