@@ -153,6 +153,9 @@ CFRunLoopSourceRef
 mCFRunLoopSource
 ;
 bool
+mRunningEventLoop
+;
+bool
 mTerminated
 ;
 bool
