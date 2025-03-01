@@ -629,11 +629,6 @@ SendFinished
 (
 )
 ;
-nsresult
-InitWindowsTag
-(
-)
-;
 bool
 CreateWindowsNotificationFromXml
 (

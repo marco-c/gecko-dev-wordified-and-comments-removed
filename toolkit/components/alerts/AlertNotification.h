@@ -206,6 +206,14 @@ AlertNotification
 ;
 private
 :
+nsresult
+InitId
+(
+)
+;
+nsString
+mId
+;
 nsString
 mName
 ;
