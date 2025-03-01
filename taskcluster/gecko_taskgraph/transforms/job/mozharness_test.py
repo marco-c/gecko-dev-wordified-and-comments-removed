@@ -2196,13 +2196,22 @@ worker
 os
 "
 ]
-=
-=
+in
+[
+        
 "
 linux
 -
 bitbar
 "
+        
+"
+linux
+-
+lambda
+"
+    
+]
     
 is_bitbar
 =
@@ -2218,6 +2227,22 @@ os
 linux
 -
 bitbar
+"
+    
+is_lambda
+=
+worker
+[
+"
+os
+"
+]
+=
+=
+"
+linux
+-
+lambda
 "
     
 assert
@@ -2348,6 +2373,8 @@ default
     
 if
 is_bitbar
+or
+is_lambda
 :
         
 artifacts
@@ -2873,6 +2900,8 @@ bash
     
 elif
 is_bitbar
+or
+is_lambda
 :
         
 env
@@ -3224,6 +3253,8 @@ script
     
 elif
 is_bitbar
+or
+is_lambda
 :
         
 py_binary
@@ -3829,6 +3860,8 @@ zip
     
 if
 is_bitbar
+or
+is_lambda
 :
         
 a_url
@@ -3977,6 +4010,8 @@ task
     
 if
 is_bitbar
+or
+is_lambda
 :
         
 job

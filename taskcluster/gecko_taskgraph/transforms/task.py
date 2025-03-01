@@ -4016,6 +4016,7 @@ os
 :
 Any
 (
+            
 "
 windows
 "
@@ -4030,6 +4031,12 @@ linux
 -
 bitbar
 "
+"
+linux
+-
+lambda
+"
+        
 )
         
 Required
@@ -4487,13 +4494,19 @@ worker
 os
 "
 ]
-=
-=
+in
+[
 "
 linux
 -
 bitbar
 "
+"
+linux
+-
+lambda
+"
+]
 :
         
 task_def

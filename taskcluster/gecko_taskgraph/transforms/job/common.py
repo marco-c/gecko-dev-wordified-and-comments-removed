@@ -462,6 +462,12 @@ linux
 -
 bitbar
 "
+or
+"
+linux
+-
+lambda
+"
     
 is_docker
 =
