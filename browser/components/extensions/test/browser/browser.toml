@@ -665,6 +665,13 @@ js
 ]
 [
 "
+browser_ext_canOpenModalPicker
+.
+js
+"
+]
+[
+"
 browser_ext_chrome_settings_overrides_home
 .
 js
