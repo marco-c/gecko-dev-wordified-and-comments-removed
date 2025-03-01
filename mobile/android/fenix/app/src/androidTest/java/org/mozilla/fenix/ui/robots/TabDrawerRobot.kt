@@ -651,7 +651,7 @@ private
 val
 composeTestRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 )
 {
 fun
@@ -3917,7 +3917,7 @@ private
 val
 composeTestRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 )
 {
 fun
@@ -5539,7 +5539,7 @@ clickCollectionsButton
 (
 composeTestRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 interact
 :
 CollectionRobot
