@@ -687,6 +687,16 @@ engine
 .
 name
 ;
+result
+.
+dataset
+=
+{
+providesSearchMode
+:
+true
+}
+;
 }
 return
 new
