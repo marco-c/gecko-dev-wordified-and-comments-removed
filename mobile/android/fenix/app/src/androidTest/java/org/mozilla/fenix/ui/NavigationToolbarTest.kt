@@ -768,8 +768,11 @@ defaultWebPage
 url
 )
 {
-waitForPageToLoad
+verifyPageContent
 (
+defaultWebPage
+.
+content
 )
 }
 .
