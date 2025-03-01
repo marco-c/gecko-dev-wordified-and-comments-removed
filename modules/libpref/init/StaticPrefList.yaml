@@ -32473,6 +32473,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+XP_LINUX
+)
 value
 :
 true
