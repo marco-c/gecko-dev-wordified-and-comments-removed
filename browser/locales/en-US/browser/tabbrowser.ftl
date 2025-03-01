@@ -1790,16 +1790,6 @@ tab
 -
 group
 -
-menu
--
-header
-=
-Tab
-groups
-tab
--
-group
--
 name
 -
 default
