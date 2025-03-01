@@ -1743,7 +1743,7 @@ recovery
 }
 telemetry
 .
-FX_SESSION_RESTORE_WRITE_FILE_MS
+writeFileMs
 =
 Date
 .
@@ -1755,7 +1755,7 @@ startWriteMs
 ;
 telemetry
 .
-FX_SESSION_RESTORE_FILE_SIZE_BYTES
+fileSizeBytes
 =
 fileStat
 .
