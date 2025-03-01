@@ -69,6 +69,8 @@ uint32_t
 caps
 OriginAttributes
 originAttributes
+HttpConnectionInfoCloneArgs
+connInfoArgs
 )
 ;
 child

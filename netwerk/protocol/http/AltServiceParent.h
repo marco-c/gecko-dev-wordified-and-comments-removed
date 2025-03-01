@@ -112,6 +112,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
+const
+HttpConnectionInfoCloneArgs
+&
+aArgs
 )
 ;
 void

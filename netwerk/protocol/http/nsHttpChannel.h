@@ -1597,6 +1597,11 @@ nsresult
 void
 ProcessAltService
 (
+nsHttpConnectionInfo
+*
+aTransConnInfo
+=
+nullptr
 )
 ;
 bool

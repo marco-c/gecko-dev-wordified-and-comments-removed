@@ -95,6 +95,9 @@ const
 OriginAttributes
 &
 aOriginAttributes
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 ;
 private

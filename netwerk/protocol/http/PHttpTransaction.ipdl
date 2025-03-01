@@ -243,6 +243,8 @@ uint32_t
 caps
 TimeStamp
 onStartRequestStart
+HttpConnectionInfoCloneArgs
+connInfoArgs
 )
 ;
 async
@@ -291,8 +293,6 @@ TransactionObserverResult
 transactionObserverResult
 TimeStamp
 lastActiveTabOptimization
-HttpConnectionInfoCloneArgs
-connInfoArgs
 TimeStamp
 onStopRequestStart
 )

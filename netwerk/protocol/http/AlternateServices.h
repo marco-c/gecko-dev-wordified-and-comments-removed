@@ -198,6 +198,9 @@ const
 OriginAttributes
 &
 originAttributes
+nsHttpConnectionInfo
+*
+aTransConnInfo
 bool
 aDontValidate
 =

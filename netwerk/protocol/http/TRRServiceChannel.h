@@ -75,12 +75,10 @@ define
 NS_TRRSERVICECHANNEL_IID
 \
 {
-\
 0x361c4bb1
 0xd6b2
 0x493b
 {
-\
 0x86
 0xbc
 0x88
@@ -89,9 +87,7 @@ NS_TRRSERVICECHANNEL_IID
 0x16
 0x38
 0xfa
-\
 }
-\
 }
 class
 TRRServiceChannel
@@ -659,6 +655,9 @@ false
 void
 ProcessAltService
 (
+nsHttpConnectionInfo
+*
+aTransConnInfo
 )
 ;
 nsresult
