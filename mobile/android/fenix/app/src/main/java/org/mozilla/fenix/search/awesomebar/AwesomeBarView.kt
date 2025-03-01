@@ -1997,7 +1997,7 @@ settings
 (
 )
 .
-shouldShowTrendingSearchSuggestions
+enableTrendingSearches
 )
 {
 providersToAdd

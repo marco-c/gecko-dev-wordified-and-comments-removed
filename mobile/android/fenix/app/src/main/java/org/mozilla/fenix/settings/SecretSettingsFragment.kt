@@ -836,7 +836,7 @@ settings
 (
 )
 .
-isTrendingSearchesVisible
+enableTrendingSearches
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater
