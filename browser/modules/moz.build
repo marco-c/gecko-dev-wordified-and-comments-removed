@@ -862,13 +862,6 @@ sys
 mjs
 "
 "
-BrowserDOMWindow
-.
-sys
-.
-mjs
-"
-"
 BrowserUIUtils
 .
 sys

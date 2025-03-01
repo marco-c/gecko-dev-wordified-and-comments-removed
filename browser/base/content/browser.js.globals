@@ -183,6 +183,9 @@ CombinedStopReload
 TabsProgressListener
 "
 "
+nsBrowserAccess
+"
+"
 showFullScreenViewContextMenuItems
 "
 "
@@ -733,6 +736,9 @@ gNavToolbox
 "
 "
 gURLBar
+"
+"
+ReferrerInfo
 "
 "
 gNotificationBox

@@ -377,7 +377,7 @@ components
 conf
 "
 ]
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 +
 =
 [
