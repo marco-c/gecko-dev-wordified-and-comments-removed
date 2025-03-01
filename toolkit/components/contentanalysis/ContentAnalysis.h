@@ -840,13 +840,6 @@ nsCString
 &
 &
 aUserActionId
-Maybe
-<
-nsCString
->
-&
-&
-aRequestToken
 nsresult
 aResult
 )
