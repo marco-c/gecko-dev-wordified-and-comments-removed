@@ -3063,7 +3063,7 @@ SimdPrefix
 .
 varU32
 (
-I16x8DotI8x16I7x16SCode
+I16x8RelaxedDotI8x16I7x16SCode
 )
 ]
 )
@@ -3414,7 +3414,7 @@ SimdPrefix
 .
 varU32
 (
-I32x4DotI8x16I7x16AddSCode
+I32x4RelaxedDotI8x16I7x16AddSCode
 )
 ]
 )

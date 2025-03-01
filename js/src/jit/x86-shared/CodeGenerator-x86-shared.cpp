@@ -13926,7 +13926,7 @@ wasm
 SimdOp
 :
 :
-I32x4DotI8x16I7x16AddS
+I32x4RelaxedDotI8x16I7x16AddS
 :
 masm
 .
@@ -16715,7 +16715,7 @@ wasm
 SimdOp
 :
 :
-I16x8DotI8x16I7x16S
+I16x8RelaxedDotI8x16I7x16S
 :
 masm
 .

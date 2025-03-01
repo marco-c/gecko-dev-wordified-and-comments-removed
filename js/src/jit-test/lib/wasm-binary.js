@@ -692,12 +692,12 @@ I16x8RelaxedQ15MulrSCode
 0x111
 ;
 const
-I16x8DotI8x16I7x16SCode
+I16x8RelaxedDotI8x16I7x16SCode
 =
 0x112
 ;
 const
-I32x4DotI8x16I7x16AddSCode
+I32x4RelaxedDotI8x16I7x16AddSCode
 =
 0x113
 ;
