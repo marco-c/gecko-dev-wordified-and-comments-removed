@@ -81,9 +81,6 @@ featuregates
 featuregates
 /
 index
-internal
--
-urls
 search
 /
 index

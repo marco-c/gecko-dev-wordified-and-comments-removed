@@ -3996,17 +3996,6 @@ aScheme
 resource
 "
 _ns
-|
-|
-aScheme
-=
-=
-"
-moz
--
-src
-"
-_ns
 )
 {
 return

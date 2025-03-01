@@ -1079,13 +1079,6 @@ modules
 *
 RESPATH
 /
-moz
--
-src
-/
-*
-RESPATH
-/
 browser
 /
 actors
