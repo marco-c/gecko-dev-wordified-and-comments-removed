@@ -1647,6 +1647,17 @@ url
 )
 ;
 const
+isLocalTab
+=
+toolbox
+.
+commands
+.
+descriptorFront
+.
+isLocalTab
+;
+const
 copySubMenu
 =
 this
@@ -2335,6 +2346,9 @@ accesskey
 )
 visible
 :
+isLocalTab
+&
+&
 !
 isOverridden
 &
@@ -2430,6 +2444,9 @@ accesskey
 )
 visible
 :
+isLocalTab
+&
+&
 isOverridden
 click
 :
