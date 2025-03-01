@@ -154,7 +154,7 @@ AllLimitsAndFeaturesGPUTestSubcaseBatchState
 extends
 GPUTestSubcaseBatchState
 {
-selectDeviceOrSkipTestCase
+requestDeviceWithRequiredParametersOrSkip
 (
 descriptor
 descriptorModifier
@@ -212,7 +212,7 @@ AllLimitsAndFeaturesTest
 ;
 super
 .
-selectDeviceOrSkipTestCase
+requestDeviceWithRequiredParametersOrSkip
 (
 initUncanonicalizedDeviceDescriptor
 (

@@ -153,6 +153,14 @@ compatibility
 ;
 globalTestConfig
 .
+enforceDefaultLimits
+=
+ctsOptions
+.
+enforceDefaultLimits
+;
+globalTestConfig
+.
 logToWebSocket
 =
 ctsOptions

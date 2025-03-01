@@ -32,6 +32,9 @@ false
 forceFallbackAdapter
 :
 false
+enforceDefaultLimits
+:
+false
 logToWebSocket
 :
 false

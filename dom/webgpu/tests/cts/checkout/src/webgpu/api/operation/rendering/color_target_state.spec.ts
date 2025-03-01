@@ -1193,6 +1193,13 @@ k
 ;
 }
 }
+const
+kBlendingGPUBlendComponentFormat
+=
+'
+rgba16float
+'
+;
 g
 .
 test
@@ -1693,9 +1700,7 @@ textureFormat
 :
 GPUTextureFormat
 =
-'
-rgba16float
-'
+kBlendingGPUBlendComponentFormat
 ;
 const
 srcColor

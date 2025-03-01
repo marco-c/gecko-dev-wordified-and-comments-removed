@@ -51,6 +51,10 @@ forceFallbackAdapter
 :
 boolean
 ;
+enforceDefaultLimits
+:
+boolean
+;
 logToWebSocket
 :
 boolean
@@ -91,6 +95,9 @@ compatibility
 :
 false
 forceFallbackAdapter
+:
+false
+enforceDefaultLimits
 :
 false
 logToWebSocket

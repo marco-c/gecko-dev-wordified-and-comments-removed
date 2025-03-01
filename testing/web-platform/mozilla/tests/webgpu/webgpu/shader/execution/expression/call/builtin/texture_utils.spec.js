@@ -776,6 +776,7 @@ isMultisampledTextureFormat
 t
 .
 srcFormat
+false
 )
 |
 |
@@ -809,6 +810,17 @@ t
 params
 .
 viewDimension
+)
+;
+t
+.
+skipIfMultisampleNotSupportedForFormat
+(
+t
+.
+params
+.
+srcFormat
 )
 ;
 }

@@ -102,8 +102,7 @@ js
 ;
 import
 {
-GPUTest
-MaxLimitsTestMixin
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -150,10 +149,7 @@ g
 =
 makeTestGroup
 (
-MaxLimitsTestMixin
-(
-GPUTest
-)
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g

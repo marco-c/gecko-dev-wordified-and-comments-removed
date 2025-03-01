@@ -2890,14 +2890,14 @@ binding
 )
 var
 <
-storage
-read_write
+uniform
 >
 inputs
 :
 array
 <
-u32
+vec4u
+1
 >
 ;
 /

@@ -235,7 +235,7 @@ extends
 GPUTestSubcaseBatchState
 {
 override
-selectDeviceOrSkipTestCase
+requestDeviceWithRequiredParametersOrSkip
 (
 descriptor
 :
@@ -310,7 +310,7 @@ AllLimitsAndFeaturesTest
 ;
 super
 .
-selectDeviceOrSkipTestCase
+requestDeviceWithRequiredParametersOrSkip
 (
 initUncanonicalizedDeviceDescriptor
 (

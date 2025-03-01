@@ -320,6 +320,13 @@ destroy
 }
 )
 ;
+const
+kColorTextureFormat
+=
+'
+rgba8unorm
+'
+;
 g
 .
 test
@@ -457,13 +464,6 @@ valid
 '
 ;
 const
-colorTextureFormat
-=
-'
-rgba32float
-'
-;
-const
 depthStencilTextureFormat
 =
 depthStencilTextureAspect
@@ -517,7 +517,7 @@ depthOrArrayLayers
 }
 format
 :
-colorTextureFormat
+kColorTextureFormat
 usage
 :
 GPUTextureUsage

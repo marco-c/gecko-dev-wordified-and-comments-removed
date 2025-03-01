@@ -2067,7 +2067,7 @@ const
 format
 =
 '
-r16float
+r16uint
 '
 ;
 const
