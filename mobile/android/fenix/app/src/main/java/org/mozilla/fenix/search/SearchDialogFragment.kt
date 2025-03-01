@@ -3028,13 +3028,13 @@ FxNimbus
 .
 features
 .
-trendingSearches
+searchSuggestionsOnHomepage
 .
 value
 (
 )
 .
-showTrendingSearchesOnHomepage
+enabled
 )
 )
 {
