@@ -265,7 +265,7 @@ change
 -
 prop
 -
-value
+flags
 :
 a
 |
@@ -273,7 +273,7 @@ change
 -
 prop
 -
-flags
+value
 :
 a
 "
@@ -314,7 +314,7 @@ change
 -
 prop
 -
-value
+flags
 :
 a
 |
@@ -322,7 +322,7 @@ change
 -
 prop
 -
-flags
+value
 :
 a
 "
@@ -461,7 +461,7 @@ change
 -
 prop
 -
-value
+flags
 :
 a
 |
@@ -469,7 +469,7 @@ change
 -
 prop
 -
-flags
+value
 :
 a
 "
@@ -501,7 +501,7 @@ change
 -
 prop
 -
-value
+flags
 :
 a
 |
@@ -509,7 +509,7 @@ change
 -
 prop
 -
-flags
+value
 :
 a
 "

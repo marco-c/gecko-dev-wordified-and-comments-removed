@@ -89,7 +89,7 @@ AllowGC
 allowGC
 >
 static
-bool
+void
 watchPropertyValueChangeSlow
 (
 JSContext
@@ -547,7 +547,7 @@ AllowGC
 allowGC
 >
 static
-bool
+void
 watchPropertyValueChange
 (
 JSContext
@@ -601,10 +601,8 @@ obj
 )
 {
 return
-true
 ;
 }
-return
 watchPropertyValueChangeSlow
 <
 allowGC

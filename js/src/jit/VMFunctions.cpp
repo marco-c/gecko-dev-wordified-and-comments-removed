@@ -12728,9 +12728,6 @@ watchesPropValue
 )
 )
 {
-if
-(
-!
 Watchtower
 :
 :
@@ -12748,12 +12745,7 @@ key
 value
 prop
 )
-)
-{
-return
-false
 ;
-}
 }
 obj
 -
