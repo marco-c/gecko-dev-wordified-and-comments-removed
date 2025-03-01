@@ -712,6 +712,13 @@ PopClip
 override
 ;
 virtual
+bool
+RemoveAllClips
+(
+)
+override
+;
+virtual
 void
 PushLayer
 (
@@ -1180,6 +1187,11 @@ mSize
 ;
 bool
 mTransformSingular
+;
+size_t
+mClipDepth
+=
+0
 ;
 uint8_t
 *
