@@ -8591,7 +8591,7 @@ jinja2
 PackageLoader
 (
 '
-gentestutilsunion
+gentest
 '
 )
             
@@ -9044,4 +9044,21 @@ sub_dir
     
 print
 (
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+generate_test_files
+(
+'
+name2dir
+.
+yaml
+'
 )
