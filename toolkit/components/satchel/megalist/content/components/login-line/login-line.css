@@ -1234,6 +1234,11 @@ line
 -
 container
 {
+width
+:
+100
+%
+;
 height
 :
 var
@@ -1455,5 +1460,10 @@ field
 -
 color
 )
+;
+width
+:
+100
+%
 ;
 }
