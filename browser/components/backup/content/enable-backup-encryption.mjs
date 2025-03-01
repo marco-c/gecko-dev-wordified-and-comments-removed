@@ -1236,11 +1236,9 @@ error
 .
 messageL10nId
 =
-"
 {
 messageId
 }
-"
 >
 <
 /

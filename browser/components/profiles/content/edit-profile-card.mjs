@@ -2076,13 +2076,11 @@ group
 item
 l10nId
 =
-"
 {
 t
 .
 dataL10nId
 }
-"
 value
 =
 {

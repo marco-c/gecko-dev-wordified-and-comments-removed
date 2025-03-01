@@ -1761,7 +1761,6 @@ l10n
 -
 id
 =
-"
 {
 ifDefined
 (
@@ -1770,7 +1769,6 @@ historyItem
 l10nId
 )
 }
-"
 >
 {
 historyItem
@@ -2224,7 +2222,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -2243,7 +2240,6 @@ length
 }
 )
 }
-"
 >
 <
 /

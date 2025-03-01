@@ -442,7 +442,6 @@ color
 "
 name
 =
-"
 {
 ifDefined
 (
@@ -451,17 +450,14 @@ this
 name
 )
 }
-"
 .
 value
 =
-"
 {
 this
 .
 value
 }
-"
 class
 =
 "

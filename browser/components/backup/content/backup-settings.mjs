@@ -1756,11 +1756,9 @@ l10n
 -
 id
 =
-"
 {
 restoreButtonL10nID
 }
-"
 >
 <
 /
@@ -1785,11 +1783,9 @@ l10n
 -
 id
 =
-"
 {
 descriptionL10nID
 }
-"
 >
 <
 /
@@ -2115,7 +2111,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -2124,7 +2119,6 @@ stringify
 backupDateArgs
 )
 }
-"
 >
 <
 /
@@ -2166,7 +2160,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -2175,7 +2168,6 @@ stringify
 backupFileNameArgs
 )
 }
-"
 >
 <
 /
@@ -2289,11 +2281,9 @@ text
 readonly
 value
 =
-"
 {
 backupDirPath
 }
-"
 style
 =
 {
@@ -2995,11 +2985,9 @@ l10n
 -
 id
 =
-"
 {
 scheduledBackupsEnabledL10nID
 }
-"
 class
 =
 "

@@ -1835,7 +1835,6 @@ inner
 -
 id
 =
-"
 {
 this
 .
@@ -1845,7 +1844,6 @@ windowGlobalChild
 .
 innerWindowId
 }
-"
 data
 -
 l10n
@@ -1869,7 +1867,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -1882,7 +1879,6 @@ currentWindowIndex
 }
 )
 }
-"
 .
 searchQuery
 =
@@ -1955,7 +1951,6 @@ inner
 -
 id
 =
-"
 {
 win
 .
@@ -1963,7 +1958,6 @@ windowGlobalChild
 .
 innerWindowId
 }
-"
 data
 -
 l10n
@@ -1985,7 +1979,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -1996,7 +1989,6 @@ winID
 }
 )
 }
-"
 .
 searchQuery
 =
@@ -3695,7 +3687,6 @@ l10n
 -
 id
 =
-"
 {
 this
 .
@@ -3717,7 +3708,6 @@ show
 more
 "
 }
-"
 ?
 hidden
 =

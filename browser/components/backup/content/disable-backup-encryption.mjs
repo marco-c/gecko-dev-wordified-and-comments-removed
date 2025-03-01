@@ -358,11 +358,9 @@ error
 .
 messageL10nId
 =
-"
 {
 ERROR_L10N_ID
 }
-"
 >
 <
 /

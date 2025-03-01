@@ -560,7 +560,6 @@ five
 star
 rating
 =
-"
 {
 this
 .
@@ -578,7 +577,6 @@ this
 .
 rating
 }
-"
 <
 /
 moz

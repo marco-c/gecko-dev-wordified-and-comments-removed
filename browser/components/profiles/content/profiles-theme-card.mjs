@@ -385,7 +385,6 @@ name
 "
 id
 =
-"
 {
 this
 .
@@ -393,14 +392,12 @@ theme
 .
 dataL10nId
 }
-"
 data
 -
 l10n
 -
 id
 =
-"
 {
 this
 .
@@ -408,7 +405,6 @@ theme
 .
 dataL10nId
 }
-"
 >
 <
 /

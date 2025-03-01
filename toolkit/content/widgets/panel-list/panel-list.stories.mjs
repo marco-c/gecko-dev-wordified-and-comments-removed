@@ -546,11 +546,9 @@ openMenu
 ?
 wide
 =
-"
 {
 wideAnchor
 }
-"
 >
 <
 /
@@ -586,11 +584,9 @@ openMenu
 ?
 wide
 =
-"
 {
 wideAnchor
 }
-"
 >
 <
 /
@@ -626,11 +622,9 @@ openMenu
 ?
 wide
 =
-"
 {
 wideAnchor
 }
-"
 >
 <
 /
@@ -667,11 +661,9 @@ openMenu
 ?
 wide
 =
-"
 {
 wideAnchor
 }
-"
 >
 <
 /

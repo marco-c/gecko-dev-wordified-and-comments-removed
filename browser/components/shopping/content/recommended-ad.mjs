@@ -921,7 +921,6 @@ _blank
 "
 title
 =
-"
 {
 this
 .
@@ -929,7 +928,6 @@ product
 .
 name
 }
-"
 click
 =
 {
@@ -1022,7 +1020,6 @@ letter
 grade
 letter
 =
-"
 {
 this
 .
@@ -1030,7 +1027,6 @@ product
 .
 grade
 }
-"
 >
 <
 /

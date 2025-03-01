@@ -2693,11 +2693,9 @@ aria
 -
 pressed
 =
-"
 {
 isActiveView
 }
-"
 view
 =
 {

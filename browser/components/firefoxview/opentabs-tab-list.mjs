@@ -2784,7 +2784,6 @@ html
 span
 class
 =
-"
 {
 classMap
 (
@@ -2857,7 +2856,6 @@ bookmark
 }
 )
 }
-"
 >
 <
 span
@@ -3558,7 +3556,6 @@ muteOrUnmuteTab
 }
 tabindex
 =
-"
 {
 this
 .
@@ -3592,7 +3589,6 @@ button
 1
 "
 }
-"
 >
 <
 /

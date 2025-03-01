@@ -610,13 +610,11 @@ details
 "
 toggle
 =
-"
 {
 this
 .
 onToggle
 }
-"
 ?
 open
 =

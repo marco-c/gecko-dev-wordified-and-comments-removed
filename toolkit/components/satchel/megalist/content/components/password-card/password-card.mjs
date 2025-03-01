@@ -1023,7 +1023,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -1040,7 +1039,6 @@ value
 }
 )
 }
-"
 inputType
 =
 "
@@ -1200,7 +1198,6 @@ l10n
 -
 args
 =
-"
 {
 JSON
 .
@@ -1217,7 +1214,6 @@ value
 }
 )
 }
-"
 inputType
 =
 "

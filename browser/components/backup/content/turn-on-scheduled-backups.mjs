@@ -1356,7 +1356,6 @@ error
 .
 messageL10nId
 =
-"
 {
 getEnableErrorL10nId
 (
@@ -1365,7 +1364,6 @@ this
 enableBackupErrorCode
 )
 }
-"
 >
 <
 /

@@ -1001,7 +1001,6 @@ secondaryActionHandler
 }
 tabindex
 =
-"
 {
 this
 .
@@ -1035,7 +1034,6 @@ button
 1
 "
 }
-"
 >
 <
 /

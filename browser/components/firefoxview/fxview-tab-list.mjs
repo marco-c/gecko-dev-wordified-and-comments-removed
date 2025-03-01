@@ -4857,7 +4857,6 @@ secondaryActionHandler
 }
 tabindex
 =
-"
 {
 this
 .
@@ -4891,7 +4890,6 @@ button
 1
 "
 }
-"
 iconSrc
 =
 {
@@ -5035,7 +5033,6 @@ tertiaryActionHandler
 }
 tabindex
 =
-"
 {
 this
 .
@@ -5069,7 +5066,6 @@ button
 1
 "
 }
-"
 iconSrc
 =
 {

@@ -1659,11 +1659,9 @@ l10n
 -
 id
 =
-"
 {
 buttonL10nId
 }
-"
 ?
 disabled
 =
@@ -1898,7 +1896,6 @@ l10n
 -
 id
 =
-"
 {
 getRecoveryErrorL10nId
 (
@@ -1907,7 +1904,6 @@ this
 recoveryErrorCode
 )
 }
-"
 >
 <
 /
