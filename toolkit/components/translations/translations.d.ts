@@ -181,6 +181,8 @@ item
 :
 T
 )
+:
+void
 ;
 }
 export
@@ -230,6 +232,8 @@ BlockingService
 translate
 (
 translationModel
+:
+TranslationModel
 vectorSourceText
 :
 VectorString
@@ -369,7 +373,6 @@ languageModelFiles
 :
 LanguageTranslationModelFiles
 }
-;
 interface
 LanguageTranslationModelFiles
 {
@@ -397,7 +400,6 @@ trgvocab
 :
 LanguageTranslationModelFile
 }
-;
 type
 LanguageTranslationModelFilesAligned
 =
@@ -409,6 +411,8 @@ keyof
 LanguageTranslationModelFiles
 ]
 :
+Bergamot
+.
 AlignedMemory
 }
 ;
@@ -486,7 +490,6 @@ targetVariant
 :
 string
 }
-;
 export
 interface
 NonPivotLanguagePair
@@ -741,3 +744,25 @@ Promise
 <
 MessagePort
 >
+export
+type
+TranslationsPortMessages
+=
+{
+type
+:
+"
+TranslationsPort
+:
+TranslationRequest
+"
+translationId
+:
+string
+sourceText
+:
+string
+isHTML
+:
+boolean
+}
