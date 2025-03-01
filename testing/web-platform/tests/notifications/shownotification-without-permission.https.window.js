@@ -25,7 +25,7 @@ prompt
 registration
 =
 await
-getActiveServiceWorker
+prepareActiveServiceWorker
 (
 "
 noop

@@ -44,7 +44,7 @@ unregister
 }
 async
 function
-getActiveServiceWorker
+prepareActiveServiceWorker
 (
 script
 )
