@@ -172,6 +172,12 @@ LOCAL_INCLUDES
 /
 widget
 "
+"
+/
+widget
+/
+headless
+"
 ]
 XPCOM_MANIFESTS
 +
