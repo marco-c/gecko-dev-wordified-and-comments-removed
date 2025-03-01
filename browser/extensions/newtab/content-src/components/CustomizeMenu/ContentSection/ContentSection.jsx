@@ -692,6 +692,11 @@ activeWallpaper
 {
 activeWallpaper
 }
+exitEventFired
+=
+{
+exitEventFired
+}
 /
 >
 <
