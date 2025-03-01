@@ -22281,6 +22281,15 @@ mBrowsingContext
 IsTop
 (
 )
+&
+&
+!
+mBrowsingContext
+-
+>
+Windowless
+(
+)
 )
 {
 auto

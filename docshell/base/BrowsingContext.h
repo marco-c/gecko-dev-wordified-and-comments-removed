@@ -2225,6 +2225,8 @@ CreateIndependent
 (
 Type
 aType
+bool
+aWindowless
 )
 ;
 struct
@@ -2247,6 +2249,11 @@ false
 ;
 bool
 isForPrinting
+=
+false
+;
+bool
+windowless
 =
 false
 ;

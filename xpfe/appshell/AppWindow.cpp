@@ -1102,6 +1102,7 @@ Type
 :
 :
 Chrome
+false
 )
 ;
 mDocShell
