@@ -147,6 +147,16 @@ toolbar
 }
 dependencies
 {
+api
+project
+(
+"
+:
+ui
+-
+autocomplete
+"
+)
 implementation
 project
 (
