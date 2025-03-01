@@ -335,6 +335,12 @@ TriggeredByScript
 <
 <
 5
+AxesAreLogical
+=
+1
+<
+<
+6
 AnchorScrollFlags
 =
 ScrollOverflowHidden
@@ -348,7 +354,7 @@ ALL_BITS
 1
 <
 <
-6
+7
 )
 -
 1
