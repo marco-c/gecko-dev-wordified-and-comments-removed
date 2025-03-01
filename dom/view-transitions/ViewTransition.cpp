@@ -4072,15 +4072,6 @@ CaptureOldState
 (
 )
 {
-MOZ_ASSERT
-(
-mNamedElements
-.
-IsEmpty
-(
-)
-)
-;
 nsTHashSet
 <
 nsAtom
