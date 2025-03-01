@@ -1192,7 +1192,7 @@ gBrowser
 id
 :
 "
-showRCSidebarClosedCallout
+reviewCheckerSidebarClosedCallout
 "
 context
 :
@@ -1206,6 +1206,16 @@ SidebarController
 ?
 .
 isOpen
+isSidebarVisible
+:
+this
+.
+SidebarController
+.
+_state
+?
+.
+launcherVisible
 }
 }
 )
