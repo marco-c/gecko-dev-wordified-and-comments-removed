@@ -47,6 +47,13 @@ h
 #
 include
 "
+malloc_decls
+.
+h
+"
+#
+include
+"
 stdbool
 .
 h

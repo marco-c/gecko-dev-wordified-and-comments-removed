@@ -32,6 +32,13 @@ platform_handle_t
 ;
 #
 endif
+#
+include
+"
+malloc_decls
+.
+h
+"
 MOZ_BEGIN_EXTERN_C
 #
 ifndef
