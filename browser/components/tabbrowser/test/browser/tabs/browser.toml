@@ -3176,6 +3176,13 @@ tabs
 "
 [
 "
+browser_tab_groups_telemetry
+.
+js
+"
+]
+[
+"
 browser_tab_label_during_reload
 .
 js
