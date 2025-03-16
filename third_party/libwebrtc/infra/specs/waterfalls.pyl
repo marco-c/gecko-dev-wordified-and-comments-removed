@@ -147,7 +147,7 @@ gtest_tests
 android_tests
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -202,7 +202,7 @@ gtest_tests
 android_tests
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -330,7 +330,7 @@ gtest_tests
 android_tests
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -385,7 +385,7 @@ gtest_tests
 android_tests
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -2434,7 +2434,7 @@ gtest_tests
 android_tests_tryserver
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -2486,7 +2486,7 @@ gtest_tests
 android_tests_tryserver
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -2538,7 +2538,7 @@ gtest_tests
 android_tests_tryserver
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '
@@ -2635,7 +2635,7 @@ gtest_tests
 android_tests_tryserver
 '
 '
-junit_tests
+isolated_scripts
 '
 :
 '

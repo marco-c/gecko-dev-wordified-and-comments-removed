@@ -213,6 +213,11 @@ account
 :
 {
 '
+fail_if_unused
+'
+:
+False
+'
 swarming
 '
 :
@@ -700,6 +705,11 @@ jammy
 '
 :
 {
+'
+fail_if_unused
+'
+:
+False
 '
 swarming
 '
@@ -1604,6 +1614,11 @@ x86
 '
 :
 {
+'
+fail_if_unused
+'
+:
+False
 '
 swarming
 '

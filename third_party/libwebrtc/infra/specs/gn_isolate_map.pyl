@@ -235,7 +235,7 @@ type
 "
 :
 "
-junit_test
+raw
 "
 }
 "
@@ -259,7 +259,7 @@ type
 "
 :
 "
-junit_test
+raw
 "
 }
 "
@@ -285,7 +285,7 @@ type
 "
 :
 "
-junit_test
+raw
 "
 }
 "
