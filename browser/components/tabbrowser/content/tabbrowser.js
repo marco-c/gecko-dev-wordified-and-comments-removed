@@ -22300,6 +22300,13 @@ focus
 )
 ;
 }
+if
+(
+aTab
+.
+selected
+)
+{
 this
 .
 tabContainer
@@ -22309,6 +22316,7 @@ _handleTabSelect
 true
 )
 ;
+}
 if
 (
 aTab

@@ -13278,12 +13278,6 @@ clearDragOverCreateGroupTimer
 (
 )
 ;
-this
-.
-_handleTabSelect
-(
-)
-;
 }
 #
 moveTogetherSelectedTabs
