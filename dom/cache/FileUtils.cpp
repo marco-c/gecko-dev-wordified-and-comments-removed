@@ -2025,14 +2025,12 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 (
 MOZ_TO_RESULT
 (
-BodyTraverseFiles
+BodyTraverseFilesForCleanup
 (
 dirMetaData
 *
 subdir
 removeOrphanedFiles
-true
-true
 )
 )
 IsSpecificError
