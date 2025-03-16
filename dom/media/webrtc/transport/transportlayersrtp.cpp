@@ -666,7 +666,7 @@ unsigned
 char
 srtp_block
 [
-SRTP_MAX_KEY_LENGTH
+master_key_size
 *
 2
 ]
@@ -728,14 +728,14 @@ unsigned
 char
 client_write_key
 [
-SRTP_MAX_KEY_LENGTH
+master_key_size
 ]
 ;
 unsigned
 char
 server_write_key
 [
-SRTP_MAX_KEY_LENGTH
+master_key_size
 ]
 ;
 unsigned
