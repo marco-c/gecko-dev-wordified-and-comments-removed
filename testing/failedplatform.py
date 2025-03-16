@@ -20,6 +20,7 @@ typing
 import
 Dict
 List
+Optional
 Set
 class
 FailedPlatform
@@ -85,9 +86,14 @@ self
         
 oop_permutations
 :
+Optional
+[
+            
 Dict
 [
+                
 str
+                
 Dict
 [
 str
@@ -97,6 +103,9 @@ str
 int
 ]
 ]
+            
+]
+        
 ]
     
 )
