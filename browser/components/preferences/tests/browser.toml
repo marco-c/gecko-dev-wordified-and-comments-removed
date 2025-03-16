@@ -855,6 +855,13 @@ js
 ]
 [
 "
+browser_pip_settings
+.
+js
+"
+]
+[
+"
 browser_primaryPassword
 .
 js
