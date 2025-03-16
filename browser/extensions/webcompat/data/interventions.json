@@ -17317,8 +17317,6 @@ label
 "
 :
 "
-livelesson
-.
 class
 .
 com
@@ -17329,7 +17327,7 @@ bugs
 :
 {
 "
-1912923
+1951358
 "
 :
 {
@@ -17354,13 +17352,11 @@ matches
 :
 /
 /
-livelesson
+*
 .
 class
 .
 com
-/
-class
 /
 *
 "
