@@ -76282,9 +76282,15 @@ selectedWallpaper
 ;
 let
 lightWallpaper
+=
+{
+}
 ;
 let
 darkWallpaper
+=
+{
+}
 ;
 if
 (
