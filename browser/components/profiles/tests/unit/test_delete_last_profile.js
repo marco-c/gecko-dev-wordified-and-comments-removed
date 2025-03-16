@@ -141,6 +141,13 @@ enabled
 "
 )
 ;
+let
+updated
+=
+updateNotified
+(
+)
+;
 await
 SelectableProfileService
 .
@@ -149,9 +156,7 @@ deleteCurrentProfile
 )
 ;
 await
-updateNotified
-(
-)
+updated
 ;
 profiles
 =
