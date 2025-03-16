@@ -114,10 +114,6 @@ get
 }
 }
 }
-NS_IMPL_ISUPPORTS0
-(
-ConnectionHandle
-)
 nsresult
 ConnectionHandle
 :

@@ -32,7 +32,11 @@ nsAHttpConnection
 {
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+ConnectionHandle
+nsAHttpConnection
+)
 NS_DECL_NSAHTTPCONNECTION
 (
 mConn

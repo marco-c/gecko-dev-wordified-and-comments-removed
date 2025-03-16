@@ -289,13 +289,15 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ADDREF
+NS_IMPL_ADDREF_INHERITED
 (
 Http2Session
+nsAHttpConnection
 )
-NS_IMPL_RELEASE
+NS_IMPL_RELEASE_INHERITED
 (
 Http2Session
+nsAHttpConnection
 )
 NS_INTERFACE_MAP_BEGIN
 (
