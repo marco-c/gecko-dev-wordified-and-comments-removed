@@ -246,6 +246,8 @@ TabboxPanel
 js
 "
 )
+.
+ConnectedTabboxPanel
 )
 ;
 }

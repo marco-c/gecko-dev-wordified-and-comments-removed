@@ -742,8 +742,6 @@ isOverridden
 PropTypes
 .
 bool
-.
-isRequired
 overriddenUrl
 :
 PropTypes
@@ -1283,6 +1281,9 @@ module
 .
 exports
 =
+{
+ConnectedTabboxPanel
+:
 connect
 (
 (
@@ -1335,4 +1336,6 @@ store
 (
 TabboxPanel
 )
+TabboxPanel
+}
 ;
