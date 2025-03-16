@@ -1725,6 +1725,15 @@ RustCallStatus
 )
 ;
 void
+uniffi_remote_settings_fn_method_remotesettingsclient_sync
+(
+void
+*
+RustCallStatus
+*
+)
+;
+void
 *
 uniffi_remote_settings_fn_clone_remotesettingsservice
 (
@@ -2213,6 +2222,11 @@ uniffi_remote_settings_checksum_method_remotesettingsclient_get_records
 ;
 uint16_t
 uniffi_remote_settings_checksum_method_remotesettingsclient_get_records_map
+(
+)
+;
+uint16_t
+uniffi_remote_settings_checksum_method_remotesettingsclient_sync
 (
 )
 ;
@@ -2781,7 +2795,8 @@ void
 uniffi_suggest_fn_constructor_suggeststore_new
 (
 RustBuffer
-RustBuffer
+void
+*
 RustCallStatus
 *
 )
@@ -18746,6 +18761,140 @@ aError
 }
 ;
 class
+ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsclientSync
+:
+public
+UniffiSyncCallHandler
+{
+private
+:
+typename
+ScaffoldingObjectConverter
+<
+&
+kRemoteSettingsRemoteSettingsClientPointerType
+>
+:
+:
+IntermediateType
+mPtr
+;
+public
+:
+void
+PrepareRustArgs
+(
+const
+dom
+:
+:
+Sequence
+<
+dom
+:
+:
+UniFFIScaffoldingValue
+>
+&
+aArgs
+ErrorResult
+&
+aError
+)
+override
+{
+ScaffoldingObjectConverter
+<
+&
+kRemoteSettingsRemoteSettingsClientPointerType
+>
+:
+:
+FromJs
+(
+aArgs
+[
+0
+]
+&
+mPtr
+aError
+)
+;
+if
+(
+aError
+.
+Failed
+(
+)
+)
+{
+return
+;
+}
+}
+void
+MakeRustCall
+(
+RustCallStatus
+*
+aOutStatus
+)
+override
+{
+uniffi_remote_settings_fn_method_remotesettingsclient_sync
+(
+ScaffoldingObjectConverter
+<
+&
+kRemoteSettingsRemoteSettingsClientPointerType
+>
+:
+:
+IntoRust
+(
+std
+:
+:
+move
+(
+mPtr
+)
+)
+aOutStatus
+)
+;
+}
+virtual
+void
+ExtractSuccessfulCallResult
+(
+JSContext
+*
+aCx
+dom
+:
+:
+Optional
+<
+dom
+:
+:
+UniFFIScaffoldingValue
+>
+&
+aDest
+ErrorResult
+&
+aError
+)
+override
+{
+}
+}
+;
+class
 ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceMakeClient
 :
 public
@@ -23123,14 +23272,15 @@ IntermediateType
 mPath
 ;
 typename
-ScaffoldingConverter
+ScaffoldingObjectConverter
 <
-RustBuffer
+&
+kRemoteSettingsRemoteSettingsServicePointerType
 >
 :
 :
 IntermediateType
-mSettingsConfig
+mRemoteSettingsService
 ;
 typename
 ScaffoldingObjectConverter
@@ -23196,9 +23346,10 @@ Failed
 return
 ;
 }
-ScaffoldingConverter
+ScaffoldingObjectConverter
 <
-RustBuffer
+&
+kRemoteSettingsRemoteSettingsServicePointerType
 >
 :
 :
@@ -23209,7 +23360,7 @@ aArgs
 1
 ]
 &
-mSettingsConfig
+mRemoteSettingsService
 aError
 )
 ;
@@ -23264,9 +23415,10 @@ move
 mPath
 )
 )
-ScaffoldingConverter
+ScaffoldingObjectConverter
 <
-RustBuffer
+&
+kRemoteSettingsRemoteSettingsServicePointerType
 >
 :
 :
@@ -23277,7 +23429,7 @@ std
 :
 move
 (
-mSettingsConfig
+mRemoteSettingsService
 )
 )
 aOutStatus
@@ -60012,7 +60164,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceMakeClient
+ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsclientSync
 >
 (
 )
@@ -60025,7 +60177,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceSync
+ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceMakeClient
 >
 (
 )
@@ -60038,7 +60190,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceUpdateConfig
+ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceSync
 >
 (
 )
@@ -60051,7 +60203,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiRemoteSettingsFnConstructorRemotesettingsserviceNew
+ScaffoldingCallHandlerUniffiRemoteSettingsFnMethodRemotesettingsserviceUpdateConfig
 >
 (
 )
@@ -60064,7 +60216,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorClearSearchConfig
+ScaffoldingCallHandlerUniffiRemoteSettingsFnConstructorRemotesettingsserviceNew
 >
 (
 )
@@ -60077,7 +60229,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorFilterEngineConfiguration
+ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorClearSearchConfig
 >
 (
 )
@@ -60090,7 +60242,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorSetConfigOverrides
+ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorFilterEngineConfiguration
 >
 (
 )
@@ -60103,7 +60255,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorSetSearchConfig
+ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorSetConfigOverrides
 >
 (
 )
@@ -60116,7 +60268,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorUseRemoteSettingsServer
+ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorSetSearchConfig
 >
 (
 )
@@ -60129,7 +60281,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSearchFnConstructorSearchengineselectorNew
+ScaffoldingCallHandlerUniffiSearchFnMethodSearchengineselectorUseRemoteSettingsServer
 >
 (
 )
@@ -60142,7 +60294,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnFuncRawSuggestionUrlMatches
+ScaffoldingCallHandlerUniffiSearchFnConstructorSearchengineselectorNew
 >
 (
 )
@@ -60155,7 +60307,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClear
+ScaffoldingCallHandlerUniffiSuggestFnFuncRawSuggestionUrlMatches
 >
 (
 )
@@ -60168,7 +60320,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClearDismissedSuggestions
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClear
 >
 (
 )
@@ -60181,7 +60333,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreDismissSuggestion
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreClearDismissedSuggestions
 >
 (
 )
@@ -60194,7 +60346,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchGeonames
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreDismissSuggestion
 >
 (
 )
@@ -60207,7 +60359,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchGlobalConfig
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchGeonames
 >
 (
 )
@@ -60220,7 +60372,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchProviderConfig
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchGlobalConfig
 >
 (
 )
@@ -60233,7 +60385,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreIngest
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreFetchProviderConfig
 >
 (
 )
@@ -60246,7 +60398,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreInterrupt
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreIngest
 >
 (
 )
@@ -60259,7 +60411,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQuery
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreInterrupt
 >
 (
 )
@@ -60272,7 +60424,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQueryWithMetrics
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQuery
 >
 (
 )
@@ -60285,7 +60437,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststoreNew
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststoreQueryWithMetrics
 >
 (
 )
@@ -60298,7 +60450,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderBuild
+ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststoreNew
 >
 (
 )
@@ -60311,7 +60463,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderCachePath
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderBuild
 >
 (
 )
@@ -60324,7 +60476,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderDataPath
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderCachePath
 >
 (
 )
@@ -60337,7 +60489,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderLoadExtension
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderDataPath
 >
 (
 )
@@ -60350,7 +60502,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsBucketName
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderLoadExtension
 >
 (
 )
@@ -60363,7 +60515,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsServer
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsBucketName
 >
 (
 )
@@ -60376,7 +60528,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsService
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsServer
 >
 (
 )
@@ -60389,7 +60541,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststorebuilderNew
+ScaffoldingCallHandlerUniffiSuggestFnMethodSuggeststorebuilderRemoteSettingsService
 >
 (
 )
@@ -60402,7 +60554,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommand
+ScaffoldingCallHandlerUniffiSuggestFnConstructorSuggeststorebuilderNew
 >
 (
 )
@@ -60415,7 +60567,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommandAt
+ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommand
 >
 (
 )
@@ -60428,7 +60580,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreGetUnsentCommands
+ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreAddRemoteCommandAt
 >
 (
 )
@@ -60441,7 +60593,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreRemoveRemoteCommand
+ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreGetUnsentCommands
 >
 (
 )
@@ -60454,7 +60606,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreSetPendingCommandSent
+ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreRemoveRemoteCommand
 >
 (
 )
@@ -60467,7 +60619,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineApply
+ScaffoldingCallHandlerUniffiTabsFnMethodRemotecommandstoreSetPendingCommandSent
 >
 (
 )
@@ -60480,7 +60632,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineEnsureCurrentSyncId
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineApply
 >
 (
 )
@@ -60493,7 +60645,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineLastSync
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineEnsureCurrentSyncId
 >
 (
 )
@@ -60506,7 +60658,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedenginePrepareForSync
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineLastSync
 >
 (
 )
@@ -60519,7 +60671,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineReset
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedenginePrepareForSync
 >
 (
 )
@@ -60532,7 +60684,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineResetSyncId
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineReset
 >
 (
 )
@@ -60545,7 +60697,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetLastSync
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineResetSyncId
 >
 (
 )
@@ -60558,7 +60710,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetUploaded
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetLastSync
 >
 (
 )
@@ -60571,7 +60723,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineStoreIncoming
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSetUploaded
 >
 (
 )
@@ -60584,7 +60736,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncFinished
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineStoreIncoming
 >
 (
 )
@@ -60597,7 +60749,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncId
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncFinished
 >
 (
 )
@@ -60610,7 +60762,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncStarted
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncId
 >
 (
 )
@@ -60623,7 +60775,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineWipe
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineSyncStarted
 >
 (
 )
@@ -60636,7 +60788,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreBridgedEngine
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsbridgedengineWipe
 >
 (
 )
@@ -60649,7 +60801,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreCloseConnection
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreBridgedEngine
 >
 (
 )
@@ -60662,7 +60814,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreGetAll
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreCloseConnection
 >
 (
 )
@@ -60675,7 +60827,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreNewRemoteCommandStore
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreGetAll
 >
 (
 )
@@ -60688,7 +60840,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreRegisterWithSyncManager
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreNewRemoteCommandStore
 >
 (
 )
@@ -60701,7 +60853,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreSetLocalTabs
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreRegisterWithSyncManager
 >
 (
 )
@@ -60714,7 +60866,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiTabsFnConstructorTabsstoreNew
+ScaffoldingCallHandlerUniffiTabsFnMethodTabsstoreSetLocalTabs
 >
 (
 )
@@ -60727,7 +60879,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineApply
+ScaffoldingCallHandlerUniffiTabsFnConstructorTabsstoreNew
 >
 (
 )
@@ -60740,7 +60892,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineEnsureCurrentSyncId
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineApply
 >
 (
 )
@@ -60753,7 +60905,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineLastSync
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineEnsureCurrentSyncId
 >
 (
 )
@@ -60766,7 +60918,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedenginePrepareForSync
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineLastSync
 >
 (
 )
@@ -60779,7 +60931,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineReset
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedenginePrepareForSync
 >
 (
 )
@@ -60792,7 +60944,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineResetSyncId
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineReset
 >
 (
 )
@@ -60805,7 +60957,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSetLastSync
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineResetSyncId
 >
 (
 )
@@ -60818,7 +60970,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSetUploaded
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSetLastSync
 >
 (
 )
@@ -60831,7 +60983,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineStoreIncoming
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSetUploaded
 >
 (
 )
@@ -60844,7 +60996,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncFinished
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineStoreIncoming
 >
 (
 )
@@ -60857,7 +61009,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncId
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncFinished
 >
 (
 )
@@ -60870,7 +61022,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncStarted
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncId
 >
 (
 )
@@ -60883,7 +61035,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineWipe
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineSyncStarted
 >
 (
 )
@@ -60896,7 +61048,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreBridgedEngine
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragebridgedengineWipe
 >
 (
 )
@@ -60909,7 +61061,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreClear
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreBridgedEngine
 >
 (
 )
@@ -60922,7 +61074,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreClose
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreClear
 >
 (
 )
@@ -60935,7 +61087,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGet
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreClose
 >
 (
 )
@@ -60948,7 +61100,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGetBytesInUse
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGet
 >
 (
 )
@@ -60961,7 +61113,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGetSyncedChanges
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGetBytesInUse
 >
 (
 )
@@ -60974,7 +61126,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreRemove
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreGetSyncedChanges
 >
 (
 )
@@ -60987,7 +61139,7 @@ case
 return
 MakeUnique
 <
-ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreSet
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreRemove
 >
 (
 )
@@ -60995,6 +61147,19 @@ ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreSet
 }
 case
 97
+:
+{
+return
+MakeUnique
+<
+ScaffoldingCallHandlerUniffiWebextStorageFnMethodWebextstoragestoreSet
+>
+(
+)
+;
+}
+case
+98
 :
 {
 return
@@ -61010,7 +61175,7 @@ ScaffoldingCallHandlerUniffiWebextStorageFnConstructorWebextstoragestoreNew
 ifdef
 MOZ_UNIFFI_FIXTURES
 case
-98
+99
 :
 {
 return
@@ -61023,7 +61188,7 @@ ScaffoldingCallHandlerUniffiArithmeticalFnFuncAdd
 ;
 }
 case
-99
+100
 :
 {
 return
@@ -61036,7 +61201,7 @@ ScaffoldingCallHandlerUniffiArithmeticalFnFuncDiv
 ;
 }
 case
-100
+101
 :
 {
 return
@@ -61049,7 +61214,7 @@ ScaffoldingCallHandlerUniffiArithmeticalFnFuncEqual
 ;
 }
 case
-101
+102
 :
 {
 return
@@ -61062,7 +61227,7 @@ ScaffoldingCallHandlerUniffiArithmeticalFnFuncSub
 ;
 }
 case
-102
+103
 :
 {
 return
@@ -61075,7 +61240,7 @@ ScaffoldingCallHandlerUniffiUniffiCustomTypesFnFuncGetCustomTypesDemo
 ;
 }
 case
-103
+104
 :
 {
 return
@@ -61088,7 +61253,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureExternalTypesFnFuncGradient
 ;
 }
 case
-104
+105
 :
 {
 return
@@ -61101,7 +61266,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureExternalTypesFnFuncIntersection
 ;
 }
 case
-105
+106
 :
 {
 return
@@ -61114,7 +61279,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureExternalTypesFnFuncMoveSpriteToOrigin
 ;
 }
 case
-106
+107
 :
 {
 return
@@ -61127,7 +61292,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureCallbacksFnFuncCallLogRepeat
 ;
 }
 case
-107
+108
 :
 {
 return
@@ -61140,7 +61305,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureCallbacksFnFuncLogEvenNumbers
 ;
 }
 case
-108
+109
 :
 {
 return
@@ -61153,7 +61318,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureCallbacksFnFuncLogEvenNumbersMainThread
 ;
 }
 case
-110
+111
 :
 {
 return
@@ -61166,7 +61331,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncInitializeGeckoGlobalWorke
 ;
 }
 case
-111
+112
 :
 {
 return
@@ -61179,7 +61344,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncInitializeGlobalWorkerQueu
 ;
 }
 case
-126
+127
 :
 {
 return
@@ -61192,7 +61357,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnMethodFuturetesterCompleteFutu
 ;
 }
 case
-128
+129
 :
 {
 return
@@ -61205,7 +61370,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnMethodFuturetesterWakeFutures
 ;
 }
 case
-129
+130
 :
 {
 return
@@ -61218,7 +61383,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnConstructorFuturetesterInit
 ;
 }
 case
-130
+131
 :
 {
 return
@@ -61231,7 +61396,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnMethodRusttaskRun
 ;
 }
 case
-131
+132
 :
 {
 return
@@ -61244,7 +61409,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnMethodTravellerName
 ;
 }
 case
-132
+133
 :
 {
 return
@@ -61257,7 +61422,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnConstructorTravellerNew
 ;
 }
 case
-133
+134
 :
 {
 return
@@ -61270,7 +61435,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnMethodWorkerqueueAddTask
 ;
 }
 case
-134
+135
 :
 {
 return
@@ -61283,7 +61448,7 @@ ScaffoldingCallHandlerUniffiUniffiGeometryFnFuncGradient
 ;
 }
 case
-135
+136
 :
 {
 return
@@ -61296,7 +61461,7 @@ ScaffoldingCallHandlerUniffiUniffiGeometryFnFuncIntersection
 ;
 }
 case
-136
+137
 :
 {
 return
@@ -61309,7 +61474,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnFuncGetJsRefcount
 ;
 }
 case
-137
+138
 :
 {
 return
@@ -61322,7 +61487,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnFuncGetSingleton
 ;
 }
 case
-138
+139
 :
 {
 return
@@ -61335,7 +61500,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureRefcountsFnMethodSingletonobjectMethod
 ;
 }
 case
-139
+140
 :
 {
 return
@@ -61348,7 +61513,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieCarte
 ;
 }
 case
-140
+141
 :
 {
 return
@@ -61361,7 +61526,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieDictionnaire
 ;
 }
 case
-141
+142
 :
 {
 return
@@ -61374,7 +61539,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieEnumeration
 ;
 }
 case
-142
+143
 :
 {
 return
@@ -61387,7 +61552,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncCopieEnumerations
 ;
 }
 case
-143
+144
 :
 {
 return
@@ -61400,7 +61565,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnFuncSwitcheroo
 ;
 }
 case
-144
+145
 :
 {
 return
@@ -61413,7 +61578,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonBoolean
 ;
 }
 case
-145
+146
 :
 {
 return
@@ -61426,7 +61591,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonEnum
 ;
 }
 case
-146
+147
 :
 {
 return
@@ -61439,7 +61604,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonF32
 ;
 }
 case
-147
+148
 :
 {
 return
@@ -61452,7 +61617,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonF64
 ;
 }
 case
-148
+149
 :
 {
 return
@@ -61465,7 +61630,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI16Dec
 ;
 }
 case
-149
+150
 :
 {
 return
@@ -61478,7 +61643,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI16Hex
 ;
 }
 case
-150
+151
 :
 {
 return
@@ -61491,7 +61656,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI32Dec
 ;
 }
 case
-151
+152
 :
 {
 return
@@ -61504,7 +61669,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI32Hex
 ;
 }
 case
-152
+153
 :
 {
 return
@@ -61517,7 +61682,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI64Dec
 ;
 }
 case
-153
+154
 :
 {
 return
@@ -61530,7 +61695,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI64Hex
 ;
 }
 case
-154
+155
 :
 {
 return
@@ -61543,7 +61708,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI8Dec
 ;
 }
 case
-155
+156
 :
 {
 return
@@ -61556,7 +61721,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonI8Hex
 ;
 }
 case
-156
+157
 :
 {
 return
@@ -61569,7 +61734,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonNull
 ;
 }
 case
-157
+158
 :
 {
 return
@@ -61582,7 +61747,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonSequence
 ;
 }
 case
-158
+159
 :
 {
 return
@@ -61595,7 +61760,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonString
 ;
 }
 case
-159
+160
 :
 {
 return
@@ -61608,7 +61773,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU16Dec
 ;
 }
 case
-160
+161
 :
 {
 return
@@ -61621,7 +61786,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU16Hex
 ;
 }
 case
-161
+162
 :
 {
 return
@@ -61634,7 +61799,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Dec
 ;
 }
 case
-162
+163
 :
 {
 return
@@ -61647,7 +61812,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Hex
 ;
 }
 case
-163
+164
 :
 {
 return
@@ -61660,7 +61825,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU32Oct
 ;
 }
 case
-164
+165
 :
 {
 return
@@ -61673,7 +61838,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU64Dec
 ;
 }
 case
-165
+166
 :
 {
 return
@@ -61686,7 +61851,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU64Hex
 ;
 }
 case
-166
+167
 :
 {
 return
@@ -61699,7 +61864,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU8Dec
 ;
 }
 case
-167
+168
 :
 {
 return
@@ -61712,7 +61877,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonU8Hex
 ;
 }
 case
-168
+169
 :
 {
 return
@@ -61725,7 +61890,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodOptionneurSinonZero
 ;
 }
 case
-169
+170
 :
 {
 return
@@ -61738,7 +61903,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorOptionneurNew
 ;
 }
 case
-170
+171
 :
 {
 return
@@ -61751,7 +61916,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueBoolean
 ;
 }
 case
-171
+172
 :
 {
 return
@@ -61764,7 +61929,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueDouble
 ;
 }
 case
-172
+173
 :
 {
 return
@@ -61777,7 +61942,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueFloat
 ;
 }
 case
-173
+174
 :
 {
 return
@@ -61790,7 +61955,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI16
 ;
 }
 case
-174
+175
 :
 {
 return
@@ -61803,7 +61968,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI32
 ;
 }
 case
-175
+176
 :
 {
 return
@@ -61816,7 +61981,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI64
 ;
 }
 case
-176
+177
 :
 {
 return
@@ -61829,7 +61994,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueI8
 ;
 }
 case
-177
+178
 :
 {
 return
@@ -61842,7 +62007,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueNombres
 ;
 }
 case
-178
+179
 :
 {
 return
@@ -61855,7 +62020,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueNombresSig
 ;
 }
 case
-179
+180
 :
 {
 return
@@ -61868,7 +62033,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueOptionneur
 ;
 }
 case
-180
+181
 :
 {
 return
@@ -61881,7 +62046,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueString
 ;
 }
 case
-181
+182
 :
 {
 return
@@ -61894,7 +62059,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU16
 ;
 }
 case
-182
+183
 :
 {
 return
@@ -61907,7 +62072,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU32
 ;
 }
 case
-183
+184
 :
 {
 return
@@ -61920,7 +62085,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU64
 ;
 }
 case
-184
+185
 :
 {
 return
@@ -61933,7 +62098,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodRetourneurIdentiqueU8
 ;
 }
 case
-185
+186
 :
 {
 return
@@ -61946,7 +62111,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorRetourneurNew
 ;
 }
 case
-186
+187
 :
 {
 return
@@ -61959,7 +62124,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringBoolean
 ;
 }
 case
-187
+188
 :
 {
 return
@@ -61972,7 +62137,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringDouble
 ;
 }
 case
-188
+189
 :
 {
 return
@@ -61985,7 +62150,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringFloat
 ;
 }
 case
-189
+190
 :
 {
 return
@@ -61998,7 +62163,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI16
 ;
 }
 case
-190
+191
 :
 {
 return
@@ -62011,7 +62176,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI32
 ;
 }
 case
-191
+192
 :
 {
 return
@@ -62024,7 +62189,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI64
 ;
 }
 case
-192
+193
 :
 {
 return
@@ -62037,7 +62202,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringI8
 ;
 }
 case
-193
+194
 :
 {
 return
@@ -62050,7 +62215,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU16
 ;
 }
 case
-194
+195
 :
 {
 return
@@ -62063,7 +62228,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU32
 ;
 }
 case
-195
+196
 :
 {
 return
@@ -62076,7 +62241,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU64
 ;
 }
 case
-196
+197
 :
 {
 return
@@ -62089,7 +62254,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierToStringU8
 ;
 }
 case
-197
+198
 :
 {
 return
@@ -62102,7 +62267,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnMethodStringifierWellKnownString
 ;
 }
 case
-198
+199
 :
 {
 return
@@ -62115,7 +62280,7 @@ ScaffoldingCallHandlerUniffiUniffiRondpointFnConstructorStringifierNew
 ;
 }
 case
-199
+200
 :
 {
 return
@@ -62128,7 +62293,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnFuncTranslate
 ;
 }
 case
-200
+201
 :
 {
 return
@@ -62141,7 +62306,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteGetPosition
 ;
 }
 case
-201
+202
 :
 {
 return
@@ -62154,7 +62319,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteMoveBy
 ;
 }
 case
-202
+203
 :
 {
 return
@@ -62167,7 +62332,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnMethodSpriteMoveTo
 ;
 }
 case
-203
+204
 :
 {
 return
@@ -62180,7 +62345,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnConstructorSpriteNew
 ;
 }
 case
-204
+205
 :
 {
 return
@@ -62193,7 +62358,7 @@ ScaffoldingCallHandlerUniffiUniffiSpritesFnConstructorSpriteNewRelativeTo
 ;
 }
 case
-205
+206
 :
 {
 return
@@ -62206,7 +62371,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncCreateEntryWith
 ;
 }
 case
-206
+207
 :
 {
 return
@@ -62219,7 +62384,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncGetDefaultList
 ;
 }
 case
-207
+208
 :
 {
 return
@@ -62232,7 +62397,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnFuncSetDefaultList
 ;
 }
 case
-208
+209
 :
 {
 return
@@ -62245,7 +62410,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddEntries
 ;
 }
 case
-209
+210
 :
 {
 return
@@ -62258,7 +62423,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddEntry
 ;
 }
 case
-210
+211
 :
 {
 return
@@ -62271,7 +62436,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddItem
 ;
 }
 case
-211
+212
 :
 {
 return
@@ -62284,7 +62449,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistAddItems
 ;
 }
 case
-212
+213
 :
 {
 return
@@ -62297,7 +62462,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistClearItem
 ;
 }
 case
-213
+214
 :
 {
 return
@@ -62310,7 +62475,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetEntries
 ;
 }
 case
-214
+215
 :
 {
 return
@@ -62323,7 +62488,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetFirst
 ;
 }
 case
-215
+216
 :
 {
 return
@@ -62336,7 +62501,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetItems
 ;
 }
 case
-216
+217
 :
 {
 return
@@ -62349,7 +62514,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetLast
 ;
 }
 case
-217
+218
 :
 {
 return
@@ -62362,7 +62527,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistGetLastEntry
 ;
 }
 case
-218
+219
 :
 {
 return
@@ -62375,7 +62540,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnMethodTodolistMakeDefault
 ;
 }
 case
-219
+220
 :
 {
 return
@@ -62388,7 +62553,7 @@ ScaffoldingCallHandlerUniffiUniffiTodolistFnConstructorTodolistNew
 ;
 }
 case
-220
+221
 :
 {
 return
@@ -62401,7 +62566,7 @@ ScaffoldingCallHandlerUniffiUniffiTraitInterfacesFnFuncMakeBuggyCalculator
 ;
 }
 case
-221
+222
 :
 {
 return
@@ -62414,7 +62579,7 @@ ScaffoldingCallHandlerUniffiUniffiTraitInterfacesFnFuncMakeCalculator
 ;
 }
 case
-222
+223
 :
 {
 return
@@ -62454,7 +62619,7 @@ aId
 ifdef
 MOZ_UNIFFI_FIXTURES
 case
-109
+110
 :
 {
 return
@@ -62467,7 +62632,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncExpensiveComputation
 ;
 }
 case
-112
+113
 :
 {
 return
@@ -62480,7 +62645,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripF32
 ;
 }
 case
-113
+114
 :
 {
 return
@@ -62493,7 +62658,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripF64
 ;
 }
 case
-114
+115
 :
 {
 return
@@ -62506,7 +62671,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripI16
 ;
 }
 case
-115
+116
 :
 {
 return
@@ -62519,7 +62684,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripI32
 ;
 }
 case
-116
+117
 :
 {
 return
@@ -62532,7 +62697,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripI64
 ;
 }
 case
-117
+118
 :
 {
 return
@@ -62545,7 +62710,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripI8
 ;
 }
 case
-118
+119
 :
 {
 return
@@ -62558,7 +62723,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripMap
 ;
 }
 case
-119
+120
 :
 {
 return
@@ -62571,7 +62736,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripObj
 ;
 }
 case
-120
+121
 :
 {
 return
@@ -62584,7 +62749,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripString
 ;
 }
 case
-121
+122
 :
 {
 return
@@ -62597,7 +62762,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripU16
 ;
 }
 case
-122
+123
 :
 {
 return
@@ -62610,7 +62775,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripU32
 ;
 }
 case
-123
+124
 :
 {
 return
@@ -62623,7 +62788,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripU64
 ;
 }
 case
-124
+125
 :
 {
 return
@@ -62636,7 +62801,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripU8
 ;
 }
 case
-125
+126
 :
 {
 return
@@ -62649,7 +62814,7 @@ ScaffoldingCallHandlerUniffiUniffiFixtureFuturesFnFuncRoundtripVec
 ;
 }
 case
-127
+128
 :
 {
 return

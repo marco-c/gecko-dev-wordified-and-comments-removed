@@ -5165,7 +5165,9 @@ labels
 -
 icon
 -
-data
+amp
+-
+wikipedia
 -
 amo
 -
@@ -5186,12 +5188,6 @@ suggestions
 weather
 -
 configuration
--
-amp
--
-mobile
--
-suggestions
 -
 fakespot
 -
@@ -5282,7 +5278,9 @@ labels
 -
 icon
 -
-data
+amp
+-
+wikipedia
 -
 amo
 -
@@ -5303,12 +5301,6 @@ suggestions
 weather
 -
 configuration
--
-amp
--
-mobile
--
-suggestions
 -
 fakespot
 -
@@ -5397,8 +5389,6 @@ labels
 :
 -
 amp
--
-ampmobile
 -
 wikipedia
 -

@@ -225,6 +225,11 @@ remote_settings_server
 "
 SuggestStoreBuilder
 .
+remote_settings_service
+"
+"
+SuggestStoreBuilder
+.
 build
 "
 ]
@@ -341,6 +346,11 @@ main_thread
 [
 "
 RemoteSettings
+.
+new
+"
+"
+RemoteSettingsService
 .
 new
 "

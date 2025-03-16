@@ -2219,7 +2219,7 @@ UniFFIScaffolding
 .
 callSync
 (
-30
+31
 /
 /
 search
@@ -2316,7 +2316,7 @@ UniFFIScaffolding
 .
 callSync
 (
-25
+26
 /
 /
 search
@@ -2464,7 +2464,7 @@ UniFFIScaffolding
 .
 callSync
 (
-26
+27
 /
 /
 search
@@ -2580,7 +2580,7 @@ UniFFIScaffolding
 .
 callSync
 (
-27
+28
 /
 /
 search
@@ -2745,7 +2745,7 @@ UniFFIScaffolding
 .
 callSync
 (
-28
+29
 /
 /
 search
@@ -2993,7 +2993,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-29
+30
 /
 /
 search

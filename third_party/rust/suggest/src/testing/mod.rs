@@ -10,7 +10,9 @@ client
 :
 :
 {
+MockAttachment
 MockIcon
+MockRecord
 MockRemoteSettingsClient
 }
 ;

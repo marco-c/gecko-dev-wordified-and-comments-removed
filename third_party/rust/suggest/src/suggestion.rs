@@ -32,16 +32,6 @@ usize
 =
 10
 ;
-pub
-(
-crate
-)
-enum
-AmpSuggestionType
-{
-Mobile
-Desktop
-}
 #
 [
 derive
