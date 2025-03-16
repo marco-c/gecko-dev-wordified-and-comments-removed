@@ -163,11 +163,11 @@ f
 3a
 0e
 c1
-c3
+3c
 pblendw
 \
 \
-0xC3
+0x3C
 %
 xmm1
 %
