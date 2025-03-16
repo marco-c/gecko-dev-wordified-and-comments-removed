@@ -1,10 +1,4 @@
 use
-spirv
-:
-:
-Word
-;
-use
 super
 :
 :
@@ -34,6 +28,12 @@ arena
 :
 :
 Handle
+;
+use
+spirv
+:
+:
+Word
 ;
 struct
 ImageCoordinates

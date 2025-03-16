@@ -1,12 +1,3 @@
-use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
 pub
 trait
 Recyclable
@@ -173,7 +164,7 @@ V
 >
 Recyclable
 for
-alloc
+std
 :
 :
 collections

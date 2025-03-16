@@ -1,10 +1,4 @@
 use
-alloc
-:
-:
-format
-;
-use
 super
 :
 :
