@@ -202,12 +202,6 @@ attribute
 boolean
 hasUAVisualTransition
 ;
-readonly
-attribute
-Element
-?
-sourceElement
-;
 [
 Throws
 ]
@@ -286,12 +280,6 @@ boolean
 hasUAVisualTransition
 =
 false
-;
-Element
-?
-sourceElement
-=
-null
 ;
 }
 ;

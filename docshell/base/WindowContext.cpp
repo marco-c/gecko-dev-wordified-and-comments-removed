@@ -3198,7 +3198,7 @@ mHistoryActivation
 mUserGestureStart
 ;
 }
-void
+bool
 WindowContext
 :
 :
@@ -3222,6 +3222,7 @@ HasValidHistoryActivation
 )
 {
 return
+false
 ;
 }
 mHistoryActivation
@@ -3229,6 +3230,7 @@ mHistoryActivation
 mUserGestureStart
 ;
 return
+true
 ;
 }
 bool
