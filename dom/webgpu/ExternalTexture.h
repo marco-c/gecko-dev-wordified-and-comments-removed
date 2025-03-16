@@ -294,6 +294,15 @@ return
 mOwnerId
 ;
 }
+virtual
+void
+onBeforeQueueSubmit
+(
+RawId
+aQueueId
+)
+{
+}
 const
 uint32_t
 mWidth
