@@ -132,6 +132,11 @@ SearchEngineSelector
 .
 set_search_config
 "
+"
+SearchEngineSelector
+.
+set_config_overrides
+"
 ]
 [
 suggest

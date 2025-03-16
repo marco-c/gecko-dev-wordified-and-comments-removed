@@ -212,17 +212,6 @@ default
 =
 [
 ]
-jexl
-=
-[
-"
-dep
-:
-jexl
--
-eval
-"
-]
 signatures
 =
 [
@@ -384,9 +373,6 @@ version
 .
 0
 "
-optional
-=
-true
 [
 dependencies
 .

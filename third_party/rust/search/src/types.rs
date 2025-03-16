@@ -567,6 +567,13 @@ Option
 <
 u32
 >
+pub
+click_url
+:
+Option
+<
+String
+>
 }
 #
 [
