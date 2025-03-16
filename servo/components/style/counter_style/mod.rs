@@ -89,6 +89,7 @@ cssparser
 {
 CowRcStr
 Parser
+ParserState
 SourceLocation
 Token
 }
@@ -2227,6 +2228,10 @@ i
 '
 t
 >
+_declaration_start
+:
+&
+ParserState
 )
 -
 >

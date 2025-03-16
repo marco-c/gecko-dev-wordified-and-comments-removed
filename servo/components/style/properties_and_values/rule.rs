@@ -108,6 +108,7 @@ DeclarationParser
 ParseErrorKind
 Parser
 ParserInput
+ParserState
 QualifiedRuleParser
 RuleBodyItemParser
 RuleBodyParser
@@ -1081,6 +1082,10 @@ i
 '
 t
 >
+_declaration_start
+:
+&
+ParserState
 )
 -
 >

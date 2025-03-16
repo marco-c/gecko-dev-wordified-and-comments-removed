@@ -1304,6 +1304,10 @@ i
 '
 t
 >
+_declaration_start
+:
+&
+ParserState
 )
 -
 >
