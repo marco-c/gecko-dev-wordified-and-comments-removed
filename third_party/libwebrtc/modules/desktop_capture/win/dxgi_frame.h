@@ -146,6 +146,14 @@ DesktopCapturer
 :
 SourceId
 source_id
+std
+:
+:
+optional
+<
+int32_t
+>
+device_scale_factor
 )
 ;
 Context

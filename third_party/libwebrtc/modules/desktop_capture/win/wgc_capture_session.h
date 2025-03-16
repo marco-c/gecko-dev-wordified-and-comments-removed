@@ -14,6 +14,13 @@ h
 #
 include
 <
+shellscalingapi
+.
+h
+>
+#
+include
+<
 windows
 .
 graphics
@@ -120,6 +127,8 @@ public
 :
 WgcCaptureSession
 (
+intptr_t
+source_id
 Microsoft
 :
 :
@@ -487,6 +496,11 @@ false
 ;
 DesktopRegion
 damage_region_
+;
+DEVICE_SCALE_FACTOR
+device_scale_factor_
+=
+DEVICE_SCALE_FACTOR_INVALID
 ;
 SequenceChecker
 sequence_checker_
