@@ -159,8 +159,14 @@ aTestFun
 let
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 form_restoration
