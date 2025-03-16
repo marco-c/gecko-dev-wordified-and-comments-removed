@@ -7,9 +7,7 @@ __MOZ_DMABUF_LIB_WRAPPER_H__
 #
 include
 "
-mozilla
-/
-widget
+gbm
 /
 gbm
 .
