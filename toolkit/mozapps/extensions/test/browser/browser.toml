@@ -570,6 +570,13 @@ footer
 button
 [
 "
+browser_html_mlmodel_addons
+.
+js
+"
+]
+[
+"
 browser_html_options_ui
 .
 js
