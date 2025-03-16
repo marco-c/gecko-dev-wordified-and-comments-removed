@@ -5444,7 +5444,7 @@ GetWidget
 widget
 -
 >
-ClearWebrenderAnimationResources
+ClearCachedWebrenderResources
 (
 )
 ;
