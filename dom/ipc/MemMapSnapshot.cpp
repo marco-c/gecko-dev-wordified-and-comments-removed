@@ -150,10 +150,7 @@ mMem
 )
 ;
 auto
-[
-_
 readOnlyHandle
-]
 =
 std
 :
