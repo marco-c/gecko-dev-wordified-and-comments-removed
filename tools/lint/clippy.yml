@@ -115,6 +115,13 @@ base
 mozurl
 /
 -
+netwerk
+/
+socket
+/
+neqo_glue
+/
+-
 security
 /
 manager
@@ -598,13 +605,6 @@ xpcom
 rust
 /
 gkrust_utils
-/
--
-netwerk
-/
-socket
-/
-neqo_glue
 /
 -
 dom
