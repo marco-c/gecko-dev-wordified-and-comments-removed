@@ -46,13 +46,6 @@ get_bridge
 #
 endif
 #
-include
-"
-malloc_decls
-.
-h
-"
-#
 define
 MALLOC_DECL
 (
