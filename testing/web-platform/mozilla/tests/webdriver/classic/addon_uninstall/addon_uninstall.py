@@ -22,7 +22,7 @@ support
 .
 helpers
 import
-get_base64_for_addon_file
+get_base64_for_extension_file
 from
 .
 import
@@ -118,7 +118,7 @@ session
 "
 addon
 "
-get_base64_for_addon_file
+get_base64_for_extension_file
 (
 filename
 )

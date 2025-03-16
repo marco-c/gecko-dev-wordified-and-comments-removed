@@ -29,7 +29,7 @@ support
 .
 helpers
 import
-get_addon_path
+get_extension_path
 from
 .
 import
@@ -51,7 +51,7 @@ session
 "
 path
 "
-get_addon_path
+get_extension_path
 (
 "
 firefox
@@ -86,7 +86,7 @@ session
 "
 path
 "
-get_addon_path
+get_extension_path
 (
 "
 does
@@ -163,7 +163,7 @@ session
 "
 path
 "
-get_addon_path
+get_extension_path
 (
 "
 firefox
@@ -256,7 +256,7 @@ session
 "
 path
 "
-get_addon_path
+get_extension_path
 (
 "
 firefox
@@ -346,7 +346,7 @@ session
 "
 path
 "
-get_addon_path
+get_extension_path
 (
 "
 firefox
@@ -434,7 +434,7 @@ windows
         
 addon_path
 =
-get_addon_path
+get_extension_path
 (
 "
 firefox
@@ -552,7 +552,7 @@ session
 path
 "
         
-get_addon_path
+get_extension_path
 (
 "
 firefox
