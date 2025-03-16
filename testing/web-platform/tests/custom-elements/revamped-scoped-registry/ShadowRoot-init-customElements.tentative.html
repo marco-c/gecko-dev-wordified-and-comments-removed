@@ -402,13 +402,6 @@ div
 )
 )
 ;
-assert_throws_js
-(
-TypeError
-(
-)
-=
->
 host
 .
 attachShadow
@@ -424,7 +417,6 @@ customElements
 null
 }
 )
-)
 ;
 }
 '
@@ -432,6 +424,7 @@ attachShadow
 (
 )
 should
+not
 throw
 for
 a
