@@ -601,10 +601,6 @@ on
 projects
 :
 [
-autoland
-mozilla
--
-central
 ]
 run
 :
