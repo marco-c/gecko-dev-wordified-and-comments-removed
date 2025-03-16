@@ -7857,6 +7857,54 @@ add_argument
 -
 no
 -
+uninstall
+"
+        
+action
+=
+"
+store_true
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Do
+not
+try
+to
+uninstall
+application
+on
+device
+before
+reinstalling
+"
+        
+"
+(
+default
+:
+False
+)
+"
+    
+)
+    
+group
+.
+add_argument
+(
+        
+"
+-
+-
+no
+-
 wait
 "
         
@@ -9597,6 +9645,10 @@ no_install
 =
 None
     
+no_uninstall
+=
+None
+    
 no_wait
 =
 None
@@ -9645,6 +9697,8 @@ import
 (
         
 InstallIntent
+        
+UninstallIntent
         
 _get_device
         
@@ -9731,6 +9785,18 @@ if
 no_install
 else
 InstallIntent
+.
+YES
+        
+uninstall
+=
+UninstallIntent
+.
+NO
+if
+no_uninstall
+else
+UninstallIntent
 .
 YES
     
