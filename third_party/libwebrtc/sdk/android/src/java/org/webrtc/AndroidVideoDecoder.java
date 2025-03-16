@@ -1401,12 +1401,6 @@ callback
 =
 null
 ;
-frameInfos
-.
-clear
-(
-)
-;
 return
 status
 ;
@@ -1532,6 +1526,12 @@ null
 outputThread
 =
 null
+;
+frameInfos
+.
+clear
+(
+)
 ;
 }
 return
