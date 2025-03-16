@@ -114,7 +114,8 @@ import
 {
 expireCookie
 waitForCookie
-addCookieAndServerCleanup
+addCookieAndSessionCleanup
+setupShardedServerState
 }
 from
 "
@@ -132,6 +133,11 @@ t
 =
 >
 {
+await
+setupShardedServerState
+(
+)
+;
 const
 expectedCookieAndValue
 =
@@ -169,7 +175,7 @@ session
 -
 credentials
 ;
-addCookieAndServerCleanup
+addCookieAndSessionCleanup
 (
 t
 expectedCookieAndAttributes
