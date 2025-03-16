@@ -110,6 +110,13 @@ sys
 .
 mjs
 "
+"
+LinkPreviewModel
+.
+sys
+.
+mjs
+"
 ]
 FINAL_TARGET_FILES
 .
