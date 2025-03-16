@@ -1566,6 +1566,14 @@ command
 if
 handler
 .
+hidden
+:
+                    
+continue
+                
+if
+handler
+.
 conditions
 :
                     
