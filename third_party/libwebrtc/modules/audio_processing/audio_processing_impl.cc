@@ -9481,6 +9481,7 @@ make_unique
 EchoCanceller3
 >
 (
+env_
 config
 multichannel_config
 proc_sample_rate_hz

@@ -17,6 +17,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing
@@ -312,6 +323,9 @@ kMaxNumChannels
 EchoCanceller3
 aec3
 (
+CreateEnvironment
+(
+)
 EchoCanceller3Config
 (
 )
