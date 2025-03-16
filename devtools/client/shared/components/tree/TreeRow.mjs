@@ -244,7 +244,7 @@ shared
 /
 focus
 .
-js
+mjs
 "
 ;
 const
