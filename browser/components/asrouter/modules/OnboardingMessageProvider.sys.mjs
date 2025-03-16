@@ -7186,6 +7186,9 @@ button
 skip_in_tests
 :
 "
+it
+'
+s
 covered
 by
 browser_asrouter_toolbarbadge
