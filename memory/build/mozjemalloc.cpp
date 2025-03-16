@@ -24680,9 +24680,6 @@ WantsLater
 if
 (
 aPeekOnly
-&
-&
-found
 )
 {
 return
