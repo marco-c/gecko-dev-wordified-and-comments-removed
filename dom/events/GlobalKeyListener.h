@@ -162,11 +162,6 @@ mDisabledHandlerFound
 =
 false
 ;
-bool
-mRelevantHandlerFound
-=
-false
-;
 }
 ;
 MOZ_CAN_RUN_SCRIPT
