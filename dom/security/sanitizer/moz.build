@@ -46,6 +46,11 @@ Sanitizer
 .
 h
 "
+"
+SanitizerTypes
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -53,6 +58,11 @@ UNIFIED_SOURCES
 [
 "
 Sanitizer
+.
+cpp
+"
+"
+SanitizerTypes
 .
 cpp
 "
