@@ -2363,7 +2363,8 @@ MOZ_ASSERT
 mSTSThread
 )
 ;
-mTransportHandler
+RefPtr
+transportHandler
 =
 MediaTransportHandler
 :
@@ -2378,7 +2379,7 @@ if
 mPrivateWindow
 )
 {
-mTransportHandler
+transportHandler
 -
 >
 EnterPrivateMode
@@ -2588,6 +2589,16 @@ NS_ENSURE_SUCCESS
 (
 res
 res
+)
+;
+mTransportHandler
+=
+std
+:
+:
+move
+(
+transportHandler
 )
 ;
 mTransportHandler
