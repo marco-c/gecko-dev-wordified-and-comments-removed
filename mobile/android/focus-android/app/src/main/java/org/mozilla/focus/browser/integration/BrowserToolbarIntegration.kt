@@ -628,6 +628,11 @@ String
 ?
 =
 null
+isOnboardingTab
+:
+Boolean
+=
+false
 inTesting
 :
 Boolean
@@ -1051,6 +1056,9 @@ store
 currentTabId
 =
 customTabId
+isOnboardingTab
+=
+isOnboardingTab
 onItemTapped
 =
 {
