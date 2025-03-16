@@ -40785,14 +40785,6 @@ rv
 }
 if
 (
-StaticPrefs
-:
-:
-dom_events_mouse_pointer_boundary_keep_enter_targets_after_over_target_removed
-(
-)
-&
-&
 eventContent
 &
 &
