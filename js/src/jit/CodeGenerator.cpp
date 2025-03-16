@@ -100843,10 +100843,13 @@ operator
 =
 =
 (
+const
 CompilationDependency
 &
 dep
 )
+const
+override
 {
 return
 dep
@@ -100865,6 +100868,7 @@ JSContext
 *
 cx
 )
+override
 {
 return
 cx
@@ -100896,6 +100900,7 @@ cx
 HandleScript
 script
 )
+override
 {
 MOZ_ASSERT
 (
@@ -100935,6 +100940,8 @@ CompilationDependency
 clone
 (
 )
+const
+override
 {
 return
 MakeUnique
