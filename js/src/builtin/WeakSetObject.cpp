@@ -754,6 +754,7 @@ WeakSetObject
 :
 :
 properties
+GenericFinishInitWithPrototypeFuseProperty
 }
 ;
 const

@@ -2129,6 +2129,7 @@ WeakMapObject
 :
 :
 properties
+GenericFinishInitWithPrototypeFuseProperty
 }
 ;
 const
