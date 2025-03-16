@@ -193,7 +193,6 @@ TabGroupRemoved
 "
 )
 ;
-await
 gBrowser
 .
 removeTabGroup
@@ -539,7 +538,6 @@ TabGroupRemoved
 "
 )
 ;
-await
 gBrowser
 .
 removeTabGroup

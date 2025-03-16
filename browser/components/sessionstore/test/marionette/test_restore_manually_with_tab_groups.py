@@ -307,7 +307,6 @@ closed
 )
 ;
             
-await
 gBrowser
 .
 removeTabGroup

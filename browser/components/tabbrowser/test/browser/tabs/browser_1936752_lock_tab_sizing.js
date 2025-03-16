@@ -243,7 +243,6 @@ unlocked
 "
 )
 ;
-await
 gBrowser
 .
 removeTabGroup

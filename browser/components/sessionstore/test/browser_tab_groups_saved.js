@@ -319,7 +319,6 @@ group1
 id
 )
 ;
-await
 win
 .
 gBrowser
@@ -411,7 +410,6 @@ group2
 id
 )
 ;
-await
 win
 .
 gBrowser
@@ -563,7 +561,6 @@ empty
 "
 )
 ;
-await
 win
 .
 gBrowser
