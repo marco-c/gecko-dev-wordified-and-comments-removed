@@ -53,6 +53,15 @@ errno
 h
 >
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
