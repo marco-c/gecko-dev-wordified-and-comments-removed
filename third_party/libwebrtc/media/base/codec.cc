@@ -191,9 +191,6 @@ h
 namespace
 cricket
 {
-namespace
-{
-}
 FeedbackParams
 :
 :
