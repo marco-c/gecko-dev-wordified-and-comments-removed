@@ -545,7 +545,7 @@ aboutprofiling
 /
 index
 .
-html
+xhtml
 "
 nsIAboutModule
 :

@@ -9272,7 +9272,7 @@ aboutprofiling
 /
 index
 .
-html
+xhtml
 (
 performance
 -
@@ -9282,5 +9282,5 @@ aboutprofiling
 /
 index
 .
-html
+xhtml
 )
