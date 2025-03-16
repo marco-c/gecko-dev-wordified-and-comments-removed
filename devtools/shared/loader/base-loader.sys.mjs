@@ -1068,6 +1068,15 @@ TextDecoder
 TextEncoder
 "
 "
+TrustedHTML
+"
+"
+TrustedScript
+"
+"
+TrustedScriptURL
+"
+"
 URL
 "
 "
