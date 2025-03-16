@@ -59,3 +59,16 @@ PYTHON_PATH_SHELL_SCRIPT
 SCRIPT_PATH
 APP
 mobile_restore
+https
+:
+/
+/
+theme
+-
+crave
+-
+demo
+.
+myshopify
+.
+com
