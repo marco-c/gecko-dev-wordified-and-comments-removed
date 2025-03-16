@@ -151,13 +151,6 @@ js
 ]
 [
 "
-browser_ml_telemetry
-.
-js
-"
-]
-[
-"
 browser_ml_utils
 .
 js
