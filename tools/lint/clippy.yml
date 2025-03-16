@@ -115,13 +115,6 @@ base
 mozurl
 /
 -
-netwerk
-/
-test
-/
-http3server
-/
--
 security
 /
 manager
