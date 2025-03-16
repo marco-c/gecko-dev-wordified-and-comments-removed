@@ -133,10 +133,10 @@ webrtc
 .
 gni
 index
-60cb81271c
+bc1211ee16
 .
 .
-2efd99096f
+3c2f70fb9f
 100644
 -
 -
@@ -172,7 +172,7 @@ min_sdk_version
 21
 target_sdk_version
 =
-23
+24
 deps
 +
 =
