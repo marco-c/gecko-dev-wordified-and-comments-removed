@@ -4699,6 +4699,9 @@ MutationEvent
 insecureContext
 :
 true
+nightly
+:
+false
 }
 {
 name

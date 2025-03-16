@@ -158,6 +158,15 @@ apply
 Exposed
 =
 Window
+Pref
+=
+"
+dom
+.
+mutation_events
+.
+enabled
+"
 ]
 interface
 MutationEvent
