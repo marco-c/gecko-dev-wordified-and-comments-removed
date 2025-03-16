@@ -12666,11 +12666,13 @@ JSMSG_TEMPORAL_MISSING_OPTION
 1
 JSEXN_RANGEERR
 "
-undefined
+required
+option
 {
 0
 }
-option
+is
+undefined
 "
 )
 MSG_DEF
