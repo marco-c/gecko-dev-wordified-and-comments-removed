@@ -319,7 +319,7 @@ bindSecurityInfo
 (
 state
 .
-websiteSecurityUiValues
+websiteInfoUiValues
 )
 }
 private
@@ -349,7 +349,7 @@ bindSecurityInfo
 (
 uiValues
 :
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 )
 {
 binding
@@ -360,7 +360,7 @@ setText
 (
 uiValues
 .
-securityInfoRes
+siteInfoRes
 )
 bindConnectionDetailsListener
 (

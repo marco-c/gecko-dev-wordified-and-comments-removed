@@ -2424,7 +2424,7 @@ packageName
 :
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 )
 )

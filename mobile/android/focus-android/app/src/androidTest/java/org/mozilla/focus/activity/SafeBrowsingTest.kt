@@ -726,7 +726,7 @@ verifyPageURL
 (
 insecurePageUrl
 )
-verifySiteSecurityIndicatorShown
+verifySiteInfoIndicatorShown
 (
 )
 }

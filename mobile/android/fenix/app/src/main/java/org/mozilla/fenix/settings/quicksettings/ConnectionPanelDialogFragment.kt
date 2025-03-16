@@ -419,6 +419,9 @@ args
 title
 args
 .
+isLocalPdf
+args
+.
 isSecured
 args
 .

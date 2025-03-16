@@ -332,9 +332,9 @@ websiteTitle
 "
 Mozilla
 "
-websiteSecurityUiValues
+websiteInfoUiValues
 =
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 SECURE
 certificateName
@@ -421,9 +421,9 @@ websiteTitle
 "
 Mozilla
 "
-websiteSecurityUiValues
+websiteInfoUiValues
 =
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 INSECURE
 certificateName
@@ -486,9 +486,9 @@ websiteTitle
 "
 Mozilla
 "
-websiteSecurityUiValues
+websiteInfoUiValues
 =
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 INSECURE
 certificateName

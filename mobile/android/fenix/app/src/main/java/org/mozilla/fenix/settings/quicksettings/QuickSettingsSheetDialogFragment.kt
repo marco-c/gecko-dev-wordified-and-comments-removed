@@ -609,6 +609,11 @@ websiteTitle
 args
 .
 title
+isLocalPdf
+=
+args
+.
+isLocalPdf
 isSecured
 =
 args

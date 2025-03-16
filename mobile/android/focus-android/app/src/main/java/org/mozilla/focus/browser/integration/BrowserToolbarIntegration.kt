@@ -867,7 +867,7 @@ color
 .
 urlBarHintText
 )
-securityIconInsecure
+siteInfoIconInsecure
 =
 Color
 .
@@ -909,7 +909,7 @@ addTrackingProtectionIndicator
 displayIndicatorSeparator
 =
 false
-setOnSiteSecurityClickedListener
+setOnSiteInfoClickedListener
 {
 TrackingProtection
 .

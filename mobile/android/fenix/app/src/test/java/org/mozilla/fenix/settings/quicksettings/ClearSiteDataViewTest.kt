@@ -288,9 +288,9 @@ websiteTitle
 "
 Mozilla
 "
-websiteSecurityUiValues
+websiteInfoUiValues
 =
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 SECURE
 certificateName

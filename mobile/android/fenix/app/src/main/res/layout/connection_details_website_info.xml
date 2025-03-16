@@ -605,6 +605,16 @@ drawable
 /
 mozac_ic_lock_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+textPrimary
+"
 /
 >
 <

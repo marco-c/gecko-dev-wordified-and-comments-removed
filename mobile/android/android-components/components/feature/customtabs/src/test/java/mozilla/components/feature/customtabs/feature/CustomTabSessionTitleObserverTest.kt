@@ -630,11 +630,11 @@ ThrowProperty
 )
 override
 var
-siteSecure
+siteInfo
 :
 Toolbar
 .
-SiteSecurity
+SiteInfo
 by
 ThrowProperty
 (

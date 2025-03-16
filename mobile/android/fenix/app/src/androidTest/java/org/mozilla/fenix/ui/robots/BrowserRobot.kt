@@ -12227,7 +12227,7 @@ to
 exist
 "
 )
-siteSecurityToolbarButton
+siteInfoToolbarButton
 (
 )
 .
@@ -12283,7 +12283,7 @@ new
 window
 "
 )
-siteSecurityToolbarButton
+siteInfoToolbarButton
 (
 )
 .
@@ -13102,7 +13102,7 @@ select_credit_card_header
 )
 private
 fun
-siteSecurityToolbarButton
+siteInfoToolbarButton
 (
 )
 =
@@ -13113,7 +13113,7 @@ packageName
 :
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 )
 fun

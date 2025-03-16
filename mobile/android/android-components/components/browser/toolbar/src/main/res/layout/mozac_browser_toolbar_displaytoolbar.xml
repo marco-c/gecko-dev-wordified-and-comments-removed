@@ -656,7 +656,7 @@ toolbar
 .
 display
 .
-SiteSecurityIconView
+SiteInfoIconView
 android
 :
 id
@@ -665,7 +665,7 @@ id
 +
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 android
 :
@@ -728,7 +728,7 @@ srcCompat
 "
 drawable
 /
-mozac_ic_site_security
+mozac_ic_site_info
 "
 /
 >
@@ -783,7 +783,7 @@ layout_constraintBottom_toBottomOf
 +
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 app
 :
@@ -793,7 +793,7 @@ layout_constraintEnd_toEndOf
 +
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 android
 :
@@ -916,7 +916,7 @@ layout_constraintStart_toEndOf
 +
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 app
 :

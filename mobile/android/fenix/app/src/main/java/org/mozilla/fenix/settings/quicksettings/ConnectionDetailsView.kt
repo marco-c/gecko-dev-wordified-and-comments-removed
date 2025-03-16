@@ -299,7 +299,7 @@ bindSecurityInfo
 (
 state
 .
-websiteSecurityUiValues
+websiteInfoUiValues
 )
 bindCertificateName
 (
@@ -340,7 +340,7 @@ bindSecurityInfo
 (
 uiValues
 :
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 )
 {
 binding
@@ -351,7 +351,7 @@ setText
 (
 uiValues
 .
-securityInfoRes
+siteInfoRes
 )
 binding
 .

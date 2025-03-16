@@ -1232,13 +1232,13 @@ waitingTime
 )
 )
 fun
-verifySiteSecurityIndicatorShown
+verifySiteInfoIndicatorShown
 (
 )
 =
 assertTrue
 (
-site_security_indicator
+site_info_indicator
 .
 waitForExists
 (
@@ -2972,7 +2972,7 @@ click
 }
 else
 {
-site_security_indicator
+site_info_indicator
 .
 click
 (
@@ -3464,7 +3464,7 @@ mozac_browser_toolbar_tracking_protection_indicator
 )
 private
 val
-site_security_indicator
+site_info_indicator
 =
 mDevice
 .
@@ -3481,7 +3481,7 @@ packageName
 :
 id
 /
-mozac_browser_toolbar_security_indicator
+mozac_browser_toolbar_site_info_indicator
 "
 )
 )

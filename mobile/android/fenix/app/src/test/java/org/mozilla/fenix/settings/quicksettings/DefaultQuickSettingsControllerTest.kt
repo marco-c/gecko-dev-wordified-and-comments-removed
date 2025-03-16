@@ -2165,6 +2165,9 @@ tab
 content
 .
 title
+isLocalPdf
+=
+false
 isSecured
 =
 true

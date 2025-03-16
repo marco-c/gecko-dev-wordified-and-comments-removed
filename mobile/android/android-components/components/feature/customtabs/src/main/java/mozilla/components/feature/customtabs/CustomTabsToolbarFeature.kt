@@ -1435,10 +1435,10 @@ readableColor
 title
 =
 readableColor
-securityIconSecure
+siteInfoIconSecure
 =
 readableColor
-securityIconInsecure
+siteInfoIconInsecure
 =
 readableColor
 trackingProtection

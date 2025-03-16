@@ -228,7 +228,7 @@ WebsiteInfoState
 "
 "
 "
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 SECURE
 "
@@ -394,7 +394,7 @@ WebsiteInfoState
 "
 "
 "
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 SECURE
 "
@@ -518,7 +518,7 @@ WebsiteInfoState
 "
 "
 "
-WebsiteSecurityUiValues
+WebsiteInfoUiValues
 .
 SECURE
 "

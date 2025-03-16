@@ -4566,7 +4566,7 @@ view
 .
 display
 .
-setOnSiteSecurityClickedListener
+setOnSiteInfoClickedListener
 {
 showQuickSettingsDialog
 (
