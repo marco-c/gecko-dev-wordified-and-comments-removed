@@ -2051,10 +2051,7 @@ mInProfile
 qcms_profile_create_cicp
 (
 primaries
-ChooseTransferCharacteristics
-(
 tc
-)
 )
 ;
 if
