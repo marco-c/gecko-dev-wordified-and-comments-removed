@@ -336,17 +336,6 @@ LinkStatus_FAILED
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
-sFFVPXLib
-.
-LinkVAAPILibs
-(
-)
-;
-#
-endif
-#
-ifdef
 XP_WIN
 PathString
 path
