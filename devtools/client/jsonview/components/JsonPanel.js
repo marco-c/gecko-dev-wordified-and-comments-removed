@@ -183,7 +183,9 @@ const
 MODE
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -204,7 +206,7 @@ reps
 /
 constants
 .
-js
+mjs
 "
 )
 ;
@@ -213,7 +215,9 @@ const
 Rep
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -234,7 +238,7 @@ reps
 /
 rep
 .
-js
+mjs
 "
 )
 ;

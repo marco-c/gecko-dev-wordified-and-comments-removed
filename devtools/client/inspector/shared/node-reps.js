@@ -16,7 +16,9 @@ function
 )
 {
 return
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -35,7 +37,7 @@ reps
 /
 index
 .
-js
+mjs
 "
 )
 .
@@ -57,7 +59,9 @@ function
 )
 {
 return
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -80,7 +84,7 @@ element
 -
 node
 .
-js
+mjs
 "
 )
 ;
@@ -100,7 +104,9 @@ function
 )
 {
 return
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -123,7 +129,7 @@ text
 -
 node
 .
-js
+mjs
 "
 )
 ;

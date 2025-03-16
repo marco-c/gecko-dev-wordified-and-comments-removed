@@ -380,7 +380,7 @@ reps
 /
 rep
 .
-js
+mjs
 "
 ]
 -
