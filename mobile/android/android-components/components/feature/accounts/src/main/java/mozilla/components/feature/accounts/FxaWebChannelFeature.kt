@@ -339,7 +339,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -650,7 +650,7 @@ internal
 var
 extensionController
 =
-WebExtensionController
+BuiltInWebExtensionController
 (
 WEB_CHANNEL_EXTENSION_ID
 WEB_CHANNEL_EXTENSION_URL

@@ -125,7 +125,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -171,9 +171,9 @@ setup
 (
 )
 {
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 .
 clear
 (

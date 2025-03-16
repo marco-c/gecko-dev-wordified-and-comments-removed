@@ -173,7 +173,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -248,9 +248,9 @@ setup
 (
 )
 {
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 .
 clear
 (
@@ -275,7 +275,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -308,7 +308,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -356,7 +356,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -503,7 +503,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -637,7 +637,7 @@ engine
 Engine
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 productName
 :
 String

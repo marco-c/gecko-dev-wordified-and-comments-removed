@@ -161,6 +161,11 @@ with
 a
 web
 extension
+*
+that
+these
+modules
+provide
 .
 *
 *
@@ -240,6 +245,7 @@ can
 open
 multiple
 ports
+.
 *
 so
 [
@@ -261,7 +267,7 @@ needed
 *
 /
 class
-WebExtensionController
+BuiltInWebExtensionController
 (
 private
 val
@@ -457,7 +463,7 @@ _
 val
 installedExtension
 =
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -496,7 +502,7 @@ id
 synchronized
 (
 this
-WebExtensionController
+BuiltInWebExtensionController
 )
 {
 registerContentMessageHandler
@@ -507,7 +513,7 @@ registerBackgroundMessageHandler
 (
 it
 )
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -673,7 +679,7 @@ name
 messageHandler
 )
 }
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -778,7 +784,7 @@ name
 messageHandler
 )
 }
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -873,7 +879,7 @@ let
 session
 -
 >
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -984,7 +990,7 @@ String
 defaultPort
 )
 {
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -1112,7 +1118,7 @@ defaultPort
 Boolean
 {
 return
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -1207,7 +1213,7 @@ String
 defaultPort
 )
 {
-installedExtensions
+installedBuiltInExtensions
 [
 extensionId
 ]
@@ -1219,12 +1225,25 @@ name
 engineSession
 )
 }
+/
+*
+*
+*
+Companion
+object
+for
+[
+BuiltInWebExtensionController
+]
+.
+*
+/
 companion
 object
 {
 VisibleForTesting
 val
-installedExtensions
+installedBuiltInExtensions
 =
 ConcurrentHashMap
 <

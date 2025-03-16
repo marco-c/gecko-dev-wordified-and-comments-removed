@@ -237,7 +237,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 /
 *
 *
@@ -296,7 +296,7 @@ internal
 var
 extensionController
 =
-WebExtensionController
+BuiltInWebExtensionController
 (
 READER_VIEW_EXTENSION_ID
 READER_VIEW_EXTENSION_URL

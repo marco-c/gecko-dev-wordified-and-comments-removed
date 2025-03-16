@@ -321,7 +321,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -601,7 +601,7 @@ internal
 var
 extensionController
 =
-WebExtensionController
+BuiltInWebExtensionController
 (
 READER_VIEW_EXTENSION_ID
 READER_VIEW_EXTENSION_URL
@@ -1806,7 +1806,7 @@ activeUrl
 }
 private
 fun
-WebExtensionController
+BuiltInWebExtensionController
 .
 createReaderUrl
 (

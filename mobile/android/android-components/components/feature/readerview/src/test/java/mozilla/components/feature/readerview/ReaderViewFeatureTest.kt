@@ -441,7 +441,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 mozilla
 .
@@ -591,9 +591,9 @@ setup
 (
 )
 {
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 .
 clear
 (
@@ -803,7 +803,7 @@ controller
 =
 spy
 (
-WebExtensionController
+BuiltInWebExtensionController
 (
 READER_VIEW_EXTENSION_ID
 READER_VIEW_EXTENSION_URL
@@ -3646,7 +3646,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -3705,9 +3705,9 @@ id
 )
 )
 )
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 [
 ReaderViewFeature
 .
@@ -4061,7 +4061,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
@@ -4120,9 +4120,9 @@ id
 )
 )
 )
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 [
 READER_VIEW_EXTENSION_ID
 ]
@@ -4431,7 +4431,7 @@ mock
 )
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 ?
 =
 null
@@ -4569,9 +4569,9 @@ thenReturn
 readerActivePort
 )
 }
-WebExtensionController
+BuiltInWebExtensionController
 .
-installedExtensions
+installedBuiltInExtensions
 [
 ReaderViewFeature
 .

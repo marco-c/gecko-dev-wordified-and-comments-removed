@@ -131,7 +131,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -244,7 +244,7 @@ internal
 var
 extensionController
 =
-WebExtensionController
+BuiltInWebExtensionController
 (
 WEBCOMPAT_REPORTER_EXTENSION_ID
 WEBCOMPAT_REPORTER_EXTENSION_URL

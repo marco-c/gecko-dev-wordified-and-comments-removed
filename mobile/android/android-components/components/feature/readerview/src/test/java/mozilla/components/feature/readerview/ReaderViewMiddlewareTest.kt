@@ -239,7 +239,7 @@ support
 .
 webextensions
 .
-WebExtensionController
+BuiltInWebExtensionController
 import
 org
 .
@@ -495,7 +495,7 @@ mock
 val
 controller
 :
-WebExtensionController
+BuiltInWebExtensionController
 =
 mock
 (
