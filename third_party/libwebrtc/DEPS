@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-34323c220973684ac5fe187cc4de063cb24d8a9a
+1fab80dad9a80b75211023046cb8d045515e945c
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-943f4ded260e495e250b97b42de80dfaa5ddc832
+d55837781bd4ef1d5e3e9d04b5e6cf5833c7aca5
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-bbdae0b4093c2fa8cd6a4d323d0a118789a6aeb8
+e8485b291a4c2c0f61704234f31f394d2af9fc82
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-83adde3dada39c51afd1ec6fe1d94cc8af46745f
+20f470554fd7cb320ee863de7ecec323df33ae88
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-86d0372526ede7e0119b92708cdd13a4100ed536
+1b90331d4cd97293f517887e3d6befc8e982db9c
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-792a7735440e5e3bd7c850fe34396906fbd101dc
+69213d06bbc5278f0bf7aba114616c19ed13cc89
 '
 '
 src
@@ -2134,7 +2134,7 @@ com
 boringssl
 .
 git
-574fd72ebc0a15c4e54066e368c7834e6f86205d
+7db3433bd4466b20ade77494cd3bb03396441aef
 '
 '
 src
@@ -2186,7 +2186,7 @@ com
 catapult
 .
 git
-c4c972c5f0bebc45d077172aa42d7ba98f3abbbb
+580dbb72d8984e972a02874d06ace7b13295798a
 '
 '
 src
@@ -2363,7 +2363,7 @@ tools
 depot_tools
 .
 git
-a912cd245b093ea57a187ca66665ca98090a82fd
+b576ab3b78a9d19c33060c821d4f11643397fa30
 '
 '
 src
@@ -2552,7 +2552,7 @@ third_party
 freetype2
 .
 git
-f219996754c4df75b758983e18cabb401e5b93a1
+ee1310ab5ca2897b760258b94f3d9230335cc2c0
 '
 '
 src
@@ -3216,7 +3216,7 @@ google
 fuzztest
 .
 git
-87fffb7eaf974e55ec736f0100dcd9bdf3f91469
+ae6208fc45a09da94d9c0925e26cd9bbca92154b
 '
 '
 src
@@ -3405,7 +3405,7 @@ external
 perfetto
 .
 git
-0b3d3cc75b911d55cb138252231d2c929e312dba
+38f6220c882b08ed8bd8cbb47cff50cfa790e41b
 '
 '
 src
@@ -3954,7 +3954,7 @@ chromium
 src
 /
 tools
-e49b13a9e2ba5107224c87d4e45f94293aed2aad
+6149bffa50979f1347ea340b1a27e031a062cb7b
 '
 '
 src
@@ -4149,11 +4149,9 @@ version
 '
 :
 '
-SgrqBlWCI5LkTzOF
+fo4
 -
-U0o3PpLs27z1EHeYf15q
--
-exbVEC
+wfWpq9bmst8F64v9PNRzBj6NBcDIlW9IT490PPkC
 '
 }
 ]
@@ -5316,9 +5314,9 @@ version
 2
 4
 .
-0
+1
 .
-0
+1
 .
 cr1
 '
@@ -5813,7 +5811,7 @@ version
 2
 18
 .
-4
+5
 .
 0
 .
@@ -6385,7 +6383,7 @@ version
 .
 0
 -
-alpha02
+alpha04
 .
 cr1
 '
