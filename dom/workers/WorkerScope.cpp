@@ -1973,14 +1973,14 @@ nestingLevel
 mTimeoutManager
 -
 >
-GetNestingLevel
+GetNestingLevelForWorker
 (
 )
 ;
 mTimeoutManager
 -
 >
-SetNestingLevel
+SetNestingLevelForWorker
 (
 timeout
 -
@@ -2065,7 +2065,7 @@ false
 mTimeoutManager
 -
 >
-SetNestingLevel
+SetNestingLevelForWorker
 (
 nestingLevel
 )
