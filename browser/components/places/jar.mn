@@ -361,9 +361,6 @@ placesContextMenu
 .
 js
 )
-#
-ifdef
-NIGHTLY_BUILD
 content
 /
 browser
@@ -412,5 +409,3 @@ interactionsViewer
 .
 js
 )
-#
-endif
