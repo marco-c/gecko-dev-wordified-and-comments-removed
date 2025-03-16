@@ -158,6 +158,12 @@ TakeData
 (
 )
 ;
+nsCString
+ToString
+(
+)
+const
+;
 protected
 :
 RefPtr
