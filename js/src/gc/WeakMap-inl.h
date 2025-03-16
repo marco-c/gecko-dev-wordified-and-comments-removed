@@ -557,13 +557,13 @@ JSObject
 memOf
 )
 :
-Base
-(
-zone
-)
 WeakMapBase
 (
 memOf
+zone
+)
+map_
+(
 zone
 )
 {
@@ -1385,9 +1385,6 @@ for
 Range
 r
 =
-Base
-:
-:
 all
 (
 )
@@ -1723,9 +1720,6 @@ for
 Range
 r
 =
-Base
-:
-:
 all
 (
 )
@@ -2227,9 +2221,6 @@ for
 Range
 r
 =
-Base
-:
-:
 all
 (
 )
@@ -2374,9 +2365,6 @@ for
 Range
 r
 =
-Base
-:
-:
 all
 (
 )
