@@ -2111,3 +2111,10 @@ test_x509
 js
 "
 ]
+[
+"
+test_nss_errors_service
+.
+js
+"
+]
