@@ -3009,6 +3009,17 @@ settings
 shouldShowTrendingSearchSuggestions
 (
 isPrivate
+requireComponents
+.
+core
+.
+store
+.
+state
+.
+search
+.
+selectedOrDefaultSearchEngine
 )
 &
 &

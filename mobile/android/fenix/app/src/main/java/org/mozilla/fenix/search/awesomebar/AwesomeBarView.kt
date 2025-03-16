@@ -1688,6 +1688,11 @@ settings
 shouldShowTrendingSearchSuggestions
 (
 isPrivate
+state
+.
+searchEngineSource
+.
+searchEngine
 )
 )
 ?
@@ -2084,6 +2089,11 @@ settings
 shouldShowTrendingSearchSuggestions
 (
 isPrivate
+state
+.
+searchEngineSource
+.
+searchEngine
 )
 )
 {

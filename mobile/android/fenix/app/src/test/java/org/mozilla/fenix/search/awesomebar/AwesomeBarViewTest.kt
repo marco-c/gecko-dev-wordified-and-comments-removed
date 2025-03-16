@@ -9726,6 +9726,9 @@ shouldShowTrendingSearchSuggestions
 any
 (
 )
+any
+(
+)
 )
 }
 returns
@@ -9831,6 +9834,9 @@ every
 {
 shouldShowTrendingSearchSuggestions
 (
+any
+(
+)
 any
 (
 )
