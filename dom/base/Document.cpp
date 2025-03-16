@@ -80415,6 +80415,12 @@ mIntersectionObservers
 IsEmpty
 (
 )
+&
+&
+!
+RenderingSuppressedForViewTransitions
+(
+)
 )
 {
 DOMHighResTimeStamp
@@ -85498,6 +85504,10 @@ aValue
 return
 ;
 }
+MaybeScheduleFrameRequestCallbacks
+(
+)
+;
 EnsureViewTransitionOperationsHappen
 (
 )
