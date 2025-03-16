@@ -31,6 +31,10 @@ HAVE_MEMMOVE
 1
 #
 define
+XML_POOR_ENTROPY
+1
+#
+define
 XMLCALL
 #
 define
@@ -111,6 +115,14 @@ define
 XML_DTD
 #
 define
+XML_GE
+1
+#
+define
 XML_NS
+#
+define
+XML_CONTEXT_BYTES
+0
 #
 endif

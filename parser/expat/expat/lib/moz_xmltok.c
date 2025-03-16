@@ -45,7 +45,6 @@ p
 )
 LITTLE2_IS_NAME_CHAR_MINBPC
 (
-0
 p
 )
 #
@@ -56,7 +55,6 @@ p
 )
 LITTLE2_IS_NMSTRT_CHAR_MINBPC
 (
-0
 p
 )
 #
@@ -92,7 +90,6 @@ p
 )
 BIG2_IS_NAME_CHAR_MINBPC
 (
-0
 p
 )
 #
@@ -103,7 +100,6 @@ p
 )
 BIG2_IS_NMSTRT_CHAR_MINBPC
 (
-0
 p
 )
 #
