@@ -454,6 +454,8 @@ mutex_
 int64_t
 GetNumFramesCaptured
 (
+int
+monitor_id
 )
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
@@ -533,6 +535,8 @@ EnsureFrameCaptured
 Context
 *
 context
+int
+monitor_id
 SharedDesktopFrame
 *
 target
