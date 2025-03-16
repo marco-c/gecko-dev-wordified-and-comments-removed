@@ -76,6 +76,13 @@ js
 ]
 [
 "
+browser_experimentapi_child
+.
+js
+"
+]
+[
+"
 browser_experimentstore_load
 .
 js
