@@ -277,6 +277,14 @@ annotationEditorMode
 "
 0
 ]
+[
+"
+pdfjs
+.
+enableUpdatedAddImage
+"
+false
+]
 ]
 }
 )
