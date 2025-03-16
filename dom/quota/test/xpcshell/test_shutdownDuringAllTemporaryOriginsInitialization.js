@@ -652,7 +652,9 @@ exists
 )
 )
 ;
-todo
+Assert
+.
+ok
 (
 metadata1
 .
