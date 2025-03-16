@@ -131,13 +131,13 @@ manifest
 true
 [
 "
-test_verify_sw_mode
+test__verify_sw_mode
 .
 html
 "
 ]
 #
-test_verify_sw_mode
+test__verify_sw_mode
 .
 html
 should
