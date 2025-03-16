@@ -803,6 +803,16 @@ evt
 .
 target
 ;
+if
+(
+element
+.
+shouldIgnoreAutofill
+)
+{
+return
+;
+}
 this
 .
 identifyFieldsWhenFocused
