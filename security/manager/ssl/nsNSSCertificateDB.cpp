@@ -848,6 +848,9 @@ EndReading
 )
 )
 ;
+AutoSearchingForClientAuthCertificates
+_
+;
 cert
 .
 reset
@@ -5816,9 +5819,6 @@ nsIX509Cert
 _retval
 )
 {
-AutoSearchingForClientAuthCertificates
-_
-;
 nsresult
 rv
 =
@@ -5866,6 +5866,9 @@ new
 PipUIContext
 (
 )
+;
+AutoSearchingForClientAuthCertificates
+_
 ;
 UniqueCERTCertList
 certList
