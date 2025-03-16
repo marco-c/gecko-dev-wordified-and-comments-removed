@@ -286,6 +286,15 @@ bind
 this
 )
 ;
+this
+.
+expandedNodes
+=
+new
+Set
+(
+)
+;
 }
 onFilter
 (
@@ -546,6 +555,11 @@ grips
 dispatch
 )
 renderValue
+expandedNodes
+:
+this
+.
+expandedNodes
 }
 )
 ;
