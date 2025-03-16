@@ -20,5 +20,5 @@ NotificationsRequireUserGestureDeprecation
 )
 DOCUMENT_WARNING
 (
-DocumentSetDomainNotAllowed
+DocumentSetDomainIgnored
 )
