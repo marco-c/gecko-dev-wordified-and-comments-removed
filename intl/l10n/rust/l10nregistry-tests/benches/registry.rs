@@ -209,7 +209,7 @@ ftl
 "
 toolkit
 /
-featuregates
+firefoxlabs
 /
 features
 .
