@@ -43,6 +43,15 @@ Performance
 performance
 '
 ]
+EventCounts
+:
+[
+'
+performance
+.
+eventCounts
+'
+]
 }
 )
 ;
