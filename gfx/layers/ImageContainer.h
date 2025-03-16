@@ -1135,6 +1135,14 @@ mLock
 ;
 }
 ;
+enum
+class
+ClearImagesType
+{
+All
+CacheOnly
+}
+;
 class
 ImageContainer
 final
@@ -1428,8 +1436,10 @@ aImages
 )
 ;
 void
-ClearAllImages
+ClearImagesInHost
 (
+ClearImagesType
+aType
 )
 MOZ_EXCLUDES
 (

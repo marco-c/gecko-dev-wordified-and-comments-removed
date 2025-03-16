@@ -181,8 +181,10 @@ aContainer
 ;
 virtual
 void
-FlushAllImages
+ClearImagesInHost
 (
+ClearImagesType
+aType
 )
 {
 }
@@ -323,8 +325,10 @@ const
 override
 ;
 void
-FlushAllImages
+ClearImagesInHost
 (
+ClearImagesType
+aType
 )
 override
 ;

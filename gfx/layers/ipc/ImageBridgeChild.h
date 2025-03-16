@@ -26,6 +26,13 @@ unordered_map
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -561,7 +568,7 @@ aTracker
 )
 ;
 void
-FlushAllImages
+ClearImagesInHost
 (
 ImageClient
 *
@@ -569,6 +576,8 @@ aClient
 ImageContainer
 *
 aContainer
+ClearImagesType
+aType
 )
 ;
 bool
@@ -610,7 +619,7 @@ aImageContainer
 )
 ;
 void
-FlushAllImagesSync
+ClearImagesInHostSync
 (
 SynchronousTask
 *
@@ -621,6 +630,8 @@ aClient
 ImageContainer
 *
 aContainer
+ClearImagesType
+aType
 )
 ;
 void
@@ -819,6 +830,17 @@ aCompositable
 TextureClient
 *
 aTexture
+)
+override
+;
+void
+ClearImagesFromCompositable
+(
+CompositableClient
+*
+aCompositable
+ClearImagesType
+aType
 )
 override
 ;

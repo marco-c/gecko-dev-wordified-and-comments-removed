@@ -118,6 +118,14 @@ aTexture
 override
 ;
 void
+ClearImages
+(
+ClearImagesType
+aType
+)
+override
+;
+void
 Dump
 (
 std

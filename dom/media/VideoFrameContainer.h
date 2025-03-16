@@ -233,6 +233,16 @@ ClearCachedResources
 (
 )
 ;
+void
+ClearImagesInHost
+(
+layers
+:
+:
+ClearImagesType
+aType
+)
+;
 ImageContainer
 :
 :
