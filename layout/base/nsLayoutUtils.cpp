@@ -25035,6 +25035,14 @@ aFrame
 BSize
 (
 )
+-
+offsetInRequestedAxis
+.
+border
+-
+offsetInRequestedAxis
+.
+padding
 ;
 }
 }
