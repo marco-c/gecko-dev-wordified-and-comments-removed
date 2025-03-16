@@ -5039,7 +5039,7 @@ codec_preferences
 transceiver
 -
 >
-codec_preferences
+filtered_codec_preferences
 (
 )
 ;
