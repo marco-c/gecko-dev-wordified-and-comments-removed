@@ -1756,6 +1756,15 @@ ref
 html
 pref
 (
+browser
+.
+display
+.
+document_color_use
+2
+)
+pref
+(
 ui
 .
 use_standins_for_native_colors
