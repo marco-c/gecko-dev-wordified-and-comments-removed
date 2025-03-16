@@ -563,6 +563,9 @@ return
 false
 ;
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 bool
 isTopLevelContent
 =
@@ -620,6 +623,8 @@ return
 true
 ;
 }
+#
+endif
 if
 (
 StaticPrefs
