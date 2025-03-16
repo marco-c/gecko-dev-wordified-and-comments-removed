@@ -337,6 +337,9 @@ map
 false
 entry
 :
+{
+main
+:
 [
 require
 .
@@ -352,6 +355,16 @@ paths
 .
 appIndexJs
 ]
+"
+big
+-
+bundle
+"
+:
+paths
+.
+appBigBundleJs
+}
 output
 :
 {
