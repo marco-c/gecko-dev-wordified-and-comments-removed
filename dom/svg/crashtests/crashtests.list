@@ -670,3 +670,16 @@ no
 target
 .
 svg
+pref
+(
+svg
+.
+discard
+.
+enabled
+true
+)
+load
+1953645
+.
+html
