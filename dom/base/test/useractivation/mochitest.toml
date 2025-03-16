@@ -145,6 +145,13 @@ html
 ]
 [
 "
+test_useractivation_key_events
+.
+html
+"
+]
+[
+"
 test_useractivation_open_new_window
 .
 html
