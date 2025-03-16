@@ -378,7 +378,7 @@ target
 .
 tar
 .
-bz2
+xz
 >
 __
 -
