@@ -608,6 +608,15 @@ props
 .
 mayHaveSponsoredStories
 }
+mayHaveInferredPersonalization
+=
+{
+this
+.
+props
+.
+mayHaveInferredPersonalization
+}
 mayHaveRecentSaves
 =
 {
