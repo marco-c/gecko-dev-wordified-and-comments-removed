@@ -365,10 +365,6 @@ bash
 /
 mach
 addtest
--
--
-suite
-xpcshell
 path
 /
 to
