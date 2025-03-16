@@ -4570,10 +4570,6 @@ string
 .
 preference_doh_max_protection
 )
-else
--
->
-null
 }
 }
 }
