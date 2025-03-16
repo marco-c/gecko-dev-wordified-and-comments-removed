@@ -20280,6 +20280,17 @@ return
 XML_ERROR_PARTIAL_CHAR
 ;
 case
+-
+XML_TOK_PROLOG_S
+:
+tok
+=
+-
+tok
+;
+break
+;
+case
 XML_TOK_NONE
 :
 #
