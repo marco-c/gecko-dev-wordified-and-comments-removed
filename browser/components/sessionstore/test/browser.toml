@@ -2157,6 +2157,13 @@ js
 ]
 [
 "
+browser_tab_groups_restore_closed_many_tabs
+.
+js
+"
+]
+[
+"
 browser_tab_groups_restore_multiple
 .
 js
