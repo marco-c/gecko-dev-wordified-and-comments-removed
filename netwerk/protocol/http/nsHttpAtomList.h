@@ -470,6 +470,17 @@ Origin
 )
 HTTP_ATOM
 (
+OriginAgentCluster
+"
+Origin
+-
+Agent
+-
+Cluster
+"
+)
+HTTP_ATOM
+(
 OriginTrial
 "
 Origin

@@ -864,6 +864,14 @@ aIsOriginTrialCoepCredentiallessEnabled
 ;
 [
 noscript
+]
+boolean
+getOriginAgentClusterHeader
+(
+)
+;
+[
+noscript
 notxpcom
 nostdcall
 ]
