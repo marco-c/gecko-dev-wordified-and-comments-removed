@@ -28085,6 +28085,7 @@ sanitizer
 SanitizeFragment
 (
 fragment
+true
 aError
 )
 ;
