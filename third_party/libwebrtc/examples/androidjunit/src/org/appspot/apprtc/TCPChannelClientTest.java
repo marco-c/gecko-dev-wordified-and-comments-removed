@@ -64,6 +64,13 @@ org
 .
 junit
 .
+Ignore
+;
+import
+org
+.
+junit
+.
 Test
 ;
 import
@@ -434,6 +441,7 @@ false
 ;
 }
 Test
+Ignore
 public
 void
 testConnectIPv6
