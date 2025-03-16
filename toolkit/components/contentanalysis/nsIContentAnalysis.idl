@@ -524,6 +524,10 @@ attribute
 WindowGlobalParent
 sourceWindowGlobal
 ;
+attribute
+uint32_t
+timeoutMultiplier
+;
 }
 ;
 [
