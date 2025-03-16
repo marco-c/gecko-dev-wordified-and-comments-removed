@@ -1207,7 +1207,8 @@ if
 !
 this
 .
-_shouldDisplayContextualOptIn
+#
+shouldDisplayContextualOptIn
 (
 )
 )
