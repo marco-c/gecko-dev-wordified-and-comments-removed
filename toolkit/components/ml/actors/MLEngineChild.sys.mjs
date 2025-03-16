@@ -1408,6 +1408,7 @@ getInferenceOptions
 (
 featureId
 taskName
+modelId
 )
 {
 return
@@ -1423,6 +1424,7 @@ GetInferenceOptions
 {
 featureId
 taskName
+modelId
 }
 )
 ;
@@ -2223,6 +2225,12 @@ this
 .
 #
 taskName
+pipelineOptions
+.
+modelId
+?
+?
+null
 )
 ;
 /
