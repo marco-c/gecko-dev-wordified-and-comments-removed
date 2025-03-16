@@ -133,7 +133,16 @@ unpacked
 archivePath
 "
 :
-None
+get_extension_path
+(
+"
+chrome
+/
+packed
+.
+crx
+"
+)
         
 "
 archivePathInvalid
@@ -152,7 +161,16 @@ invalid
 base64
 "
 :
-None
+get_base64_for_extension_file
+(
+"
+chrome
+/
+packed
+.
+crx
+"
+)
     
 }
 }

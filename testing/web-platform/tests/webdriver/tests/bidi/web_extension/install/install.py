@@ -133,6 +133,27 @@ path
 try
 :
         
+if
+extension_data
+[
+"
+id
+"
+]
+is
+None
+:
+          
+assert
+isinstance
+(
+web_extension
+str
+)
+        
+else
+:
+          
 assert
 web_extension
 =
