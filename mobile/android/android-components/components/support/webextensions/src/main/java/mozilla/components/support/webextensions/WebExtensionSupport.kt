@@ -2303,6 +2303,12 @@ List
 <
 String
 >
+origins
+:
+List
+<
+String
+>
 onPermissionsGranted
 :
 (
@@ -2333,6 +2339,7 @@ Optional
 (
 extension
 permissions
+origins
 onPermissionsGranted
 )
 )

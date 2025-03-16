@@ -835,6 +835,15 @@ context
 isEmpty
 (
 )
+&
+&
+promptRequest
+.
+origins
+.
+isEmpty
+(
+)
 /
 /
 If
@@ -882,6 +891,11 @@ permissions
 promptRequest
 .
 permissions
+origins
+=
+promptRequest
+.
+origins
 )
 }
 VisibleForTesting

@@ -1789,6 +1789,17 @@ extension
 .
 *
 param
+origins
+The
+host
+permissions
+requested
+by
+the
+extension
+.
+*
+param
 promptsStyling
 Styling
 properties

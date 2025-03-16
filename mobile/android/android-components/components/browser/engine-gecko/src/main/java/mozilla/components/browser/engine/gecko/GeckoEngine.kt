@@ -2609,7 +2609,6 @@ permissions
 toList
 (
 )
-+
 origins
 .
 toList
