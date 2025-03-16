@@ -811,6 +811,11 @@ youTubeSchemaLink
 )
 verifyOpenLinkInAnotherAppPrompt
 (
+appName
+=
+"
+YouTube
+"
 )
 clickPageObject
 (
@@ -975,6 +980,11 @@ youTubeSchemaLink
 )
 verifyOpenLinkInAnotherAppPrompt
 (
+appName
+=
+"
+YouTube
+"
 )
 waitForAppWindowToBeUpdated
 (
@@ -1157,6 +1167,11 @@ youTubeSchemaLink
 )
 verifyPrivateBrowsingOpenLinkInAnotherAppPrompt
 (
+appName
+=
+"
+YouTube
+"
 url
 =
 "
@@ -1335,6 +1350,11 @@ youTubeSchemaLink
 )
 verifyPrivateBrowsingOpenLinkInAnotherAppPrompt
 (
+appName
+=
+"
+YouTube
+"
 url
 =
 "

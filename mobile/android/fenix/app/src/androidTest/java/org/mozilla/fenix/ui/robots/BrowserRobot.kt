@@ -6778,6 +6778,9 @@ waitingTimeLong
 fun
 verifyOpenLinkInAnotherAppPrompt
 (
+appName
+:
+String
 )
 {
 assertUIObjectExists
@@ -6800,7 +6803,8 @@ R
 .
 string
 .
-mozac_feature_applinks_normal_confirm_dialog_title
+mozac_feature_applinks_normal_confirm_dialog_title_with_app_name
+appName
 )
 )
 itemContainingText
@@ -6819,6 +6823,9 @@ mozac_feature_applinks_normal_confirm_dialog_message
 fun
 verifyPrivateBrowsingOpenLinkInAnotherAppPrompt
 (
+appName
+:
+String
 url
 :
 String
@@ -6863,7 +6870,8 @@ R
 .
 string
 .
-mozac_feature_applinks_confirm_dialog_title
+mozac_feature_applinks_confirm_dialog_title_with_app_name
+appName
 )
 )
 itemContainingText
