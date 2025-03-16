@@ -309,7 +309,7 @@ mActivityTestRule
 verifyFirstOnboardingScreenItems
 (
 )
-clickGetStartedButton
+clickAgreeAndContinueButton
 (
 )
 verifySecondOnboardingScreenItems
