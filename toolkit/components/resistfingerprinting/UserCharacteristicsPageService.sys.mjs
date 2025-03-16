@@ -4666,8 +4666,9 @@ appBuildID
 const
 buildDate
 =
-new
 Date
+.
+UTC
 (
 buildID
 .
@@ -4713,10 +4714,6 @@ slice
 12
 14
 )
-)
-.
-getTime
-(
 )
 /
 1000
