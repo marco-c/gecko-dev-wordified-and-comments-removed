@@ -116,7 +116,7 @@ h
 #
 include
 "
-ZLibHelper
+CompressionStreamHelper
 .
 h
 "
@@ -126,6 +126,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+compression
+;
 class
 CompressionStreamAlgorithms
 :
@@ -314,7 +318,7 @@ CompressAndEnqueue
 (
 cx
 aData
-ZLibFlush
+Flush
 :
 :
 No
@@ -390,7 +394,7 @@ uint8_t
 >
 (
 )
-ZLibFlush
+Flush
 :
 :
 Yes
@@ -414,7 +418,7 @@ const
 uint8_t
 >
 aInput
-ZLibFlush
+Flush
 aFlush
 TransformStreamDefaultController
 &
@@ -429,7 +433,7 @@ MOZ_ASSERT_IF
 aFlush
 =
 =
-ZLibFlush
+Flush
 :
 :
 Yes
@@ -558,7 +562,10 @@ deflate
 (
 &
 mZStream
+intoZLibFlush
+(
 aFlush
+)
 )
 ;
 switch
@@ -615,7 +622,7 @@ Z_STREAM_END
 aFlush
 =
 =
-ZLibFlush
+Flush
 :
 :
 Yes
