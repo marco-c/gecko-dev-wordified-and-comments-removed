@@ -1006,6 +1006,13 @@ props
 .
 handleAction
 }
+layout
+=
+{
+content
+.
+position
+}
 /
 >
 )
