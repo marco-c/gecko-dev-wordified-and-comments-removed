@@ -3958,7 +3958,6 @@ packet_router
 (
 )
 )
-nullptr
 )
 receive_time_calculator_
 (
