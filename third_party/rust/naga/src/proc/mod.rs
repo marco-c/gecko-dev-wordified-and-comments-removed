@@ -3711,7 +3711,7 @@ subcomponents
 ;
 }
 }
-core
+std
 :
 :
 slice
@@ -3829,7 +3829,7 @@ usize
 ;
 }
 }
-core
+std
 :
 :
 iter

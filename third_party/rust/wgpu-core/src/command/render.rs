@@ -23,6 +23,10 @@ core
 :
 {
 fmt
+mem
+:
+:
+size_of
 num
 :
 :

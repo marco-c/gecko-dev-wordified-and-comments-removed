@@ -2,13 +2,7 @@ mod
 all
 ;
 mod
-bitflags_match
-;
-mod
 bits
-;
-mod
-clear
 ;
 mod
 complement

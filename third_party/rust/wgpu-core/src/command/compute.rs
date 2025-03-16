@@ -42,6 +42,10 @@ core
 :
 {
 fmt
+mem
+:
+:
+size_of
 str
 }
 ;

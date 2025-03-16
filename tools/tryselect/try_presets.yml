@@ -3352,14 +3352,6 @@ query
 "
 '
 webgpu
-!
-cf
-!
-devedition
-!
-shippable
-!
-nofis
 "
 -
 "
@@ -3381,9 +3373,6 @@ vendor
 -
 rust
 "
-full
-:
-true
 webrender
 :
 selector

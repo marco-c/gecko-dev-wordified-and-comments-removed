@@ -1,16 +1,4 @@
 use
-alloc
-:
-:
-{
-vec
-vec
-:
-:
-Vec
-}
-;
-use
 super
 :
 :
