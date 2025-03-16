@@ -930,8 +930,6 @@ const
 nsString
 &
 aId
-CloseMode
-aCloseMode
 )
 {
 UnpersistNotification
@@ -965,13 +963,7 @@ alertService
 CloseAlert
 (
 aId
-aCloseMode
-=
-=
-CloseMode
-:
-:
-InactiveGlobal
+false
 )
 ;
 }
