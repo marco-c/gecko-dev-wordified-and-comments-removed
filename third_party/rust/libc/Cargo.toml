@@ -109,7 +109,7 @@ version
 .
 2
 .
-158
+161
 "
 authors
 =
@@ -867,6 +867,13 @@ none
 elf
 "
 "
+riscv32
+-
+wrs
+-
+vxworks
+"
+"
 riscv64gc
 -
 unknown
@@ -915,6 +922,13 @@ unknown
 none
 -
 elf
+"
+"
+riscv64
+-
+wrs
+-
+vxworks
 "
 "
 s390x

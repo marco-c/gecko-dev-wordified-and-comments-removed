@@ -132,7 +132,7 @@ ino_t
 =
 :
 :
-c_ulong
+c_ulonglong
 ;
 pub
 type

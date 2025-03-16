@@ -4737,6 +4737,16 @@ c_int
 =
 18
 ;
+pub
+const
+AT_SYSINFO_EHDR
+:
+:
+:
+c_ulong
+=
+33
+;
 f
 !
 {

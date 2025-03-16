@@ -7461,6 +7461,16 @@ c_long
 ;
 pub
 const
+SYS_mseal
+:
+:
+:
+c_long
+=
+462
+;
+pub
+const
 PROT_BTI
 :
 :
