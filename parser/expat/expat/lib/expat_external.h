@@ -318,6 +318,9 @@ endif
 #
 endif
 #
+if
+0
+#
 ifdef
 XML_UNICODE
 #
@@ -354,6 +357,8 @@ typedef
 char
 XML_LChar
 ;
+#
+endif
 #
 endif
 #
