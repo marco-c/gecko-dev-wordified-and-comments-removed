@@ -205,7 +205,7 @@ objects
 .
 *
 /
-Event
+EventRep
 .
 propTypes
 =
@@ -248,7 +248,7 @@ func
 }
 ;
 function
-Event
+EventRep
 (
 props
 )
@@ -674,7 +674,7 @@ rep
 =
 wrapRender
 (
-Event
+EventRep
 )
 ;
 /

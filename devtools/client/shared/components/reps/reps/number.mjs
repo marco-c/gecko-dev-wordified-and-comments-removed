@@ -149,7 +149,7 @@ a
 number
 *
 /
-Number
+NumberRep
 .
 propTypes
 =
@@ -182,7 +182,7 @@ bool
 }
 ;
 function
-Number
+NumberRep
 (
 props
 )
@@ -340,7 +340,7 @@ rep
 =
 wrapRender
 (
-Number
+NumberRep
 )
 ;
 /

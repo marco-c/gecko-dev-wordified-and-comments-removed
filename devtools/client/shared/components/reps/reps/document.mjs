@@ -180,7 +180,7 @@ object
 .
 *
 /
-Document
+DocumentRep
 .
 propTypes
 =
@@ -200,7 +200,7 @@ bool
 }
 ;
 function
-Document
+DocumentRep
 (
 props
 )
@@ -425,7 +425,7 @@ rep
 =
 wrapRender
 (
-Document
+DocumentRep
 )
 ;
 /

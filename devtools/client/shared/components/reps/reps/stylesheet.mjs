@@ -177,7 +177,7 @@ representing
 CSSStyleSheet
 *
 /
-StyleSheet
+StyleSheetRep
 .
 propTypes
 =
@@ -197,7 +197,7 @@ bool
 }
 ;
 function
-StyleSheet
+StyleSheetRep
 (
 props
 )
@@ -419,7 +419,7 @@ rep
 =
 wrapRender
 (
-StyleSheet
+StyleSheetRep
 )
 ;
 /

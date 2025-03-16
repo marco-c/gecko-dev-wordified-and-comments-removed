@@ -150,7 +150,7 @@ BigInt
 Number
 *
 /
-BigInt
+BigIntRep
 .
 propTypes
 =
@@ -183,7 +183,7 @@ bool
 }
 ;
 function
-BigInt
+BigIntRep
 (
 props
 )
@@ -290,7 +290,7 @@ rep
 =
 wrapRender
 (
-BigInt
+BigIntRep
 )
 ;
 /

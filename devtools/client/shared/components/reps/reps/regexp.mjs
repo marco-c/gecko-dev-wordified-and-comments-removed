@@ -155,7 +155,7 @@ expression
 .
 *
 /
-RegExp
+RegExpRep
 .
 propTypes
 =
@@ -175,7 +175,7 @@ bool
 }
 ;
 function
-RegExp
+RegExpRep
 (
 props
 )
@@ -334,7 +334,7 @@ rep
 =
 wrapRender
 (
-RegExp
+RegExpRep
 )
 ;
 /

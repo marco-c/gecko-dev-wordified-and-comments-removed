@@ -179,7 +179,7 @@ object
 .
 *
 /
-DocumentType
+DocumentTypeRep
 .
 propTypes
 =
@@ -199,7 +199,7 @@ bool
 }
 ;
 function
-DocumentType
+DocumentTypeRep
 (
 props
 )
@@ -357,7 +357,7 @@ rep
 =
 wrapRender
 (
-DocumentType
+DocumentTypeRep
 )
 ;
 /
