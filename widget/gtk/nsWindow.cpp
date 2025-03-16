@@ -3531,6 +3531,9 @@ if
 IsSmallPopup
 (
 )
+|
+|
+mIsDragPopup
 )
 {
 return
@@ -29048,6 +29051,16 @@ aInitData
 >
 mIsAlert
 ;
+mIsDragPopup
+=
+aInitData
+&
+&
+aInitData
+-
+>
+mIsDragPopup
+;
 GtkWindowType
 type
 =
@@ -29665,9 +29678,6 @@ endif
 }
 if
 (
-aInitData
--
->
 mIsDragPopup
 )
 {
@@ -29679,10 +29689,6 @@ mShell
 )
 GDK_WINDOW_TYPE_HINT_DND
 )
-;
-mIsDragPopup
-=
-true
 ;
 LOG
 (
