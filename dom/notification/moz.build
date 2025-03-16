@@ -54,11 +54,6 @@ Notification
 .
 h
 "
-"
-NotificationEvent
-.
-h
-"
 ]
 EXPORTS
 .
@@ -102,11 +97,6 @@ cpp
 "
 "
 NotificationChild
-.
-cpp
-"
-"
-NotificationEvent
 .
 cpp
 "
