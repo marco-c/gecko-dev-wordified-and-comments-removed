@@ -649,10 +649,6 @@ generateComponentEnum
 "
 )
 {
-def
-buildConfigCache
-=
-buildConfig
 doLast
 {
 generatedSrcDir
@@ -754,7 +750,7 @@ n
 file
 <
 <
-buildConfigCache
+buildConfig
 .
 projects
 .

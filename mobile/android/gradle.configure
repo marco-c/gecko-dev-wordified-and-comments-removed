@@ -1097,15 +1097,6 @@ build_config
 .
 geckoview
 )
-"
--
--
-no
--
-configuration
--
-cache
-"
 ]
 set_config
 (
