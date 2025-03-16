@@ -429,6 +429,16 @@ viewOnLoad
 0
 )
 ;
+pref
+(
+"
+pdfjs
+.
+viewerCssTheme
+"
+0
+)
+;
 #
 include
 PdfJsOverridePrefs
