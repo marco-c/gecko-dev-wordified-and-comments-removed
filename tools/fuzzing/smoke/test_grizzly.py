@@ -43,6 +43,16 @@ MOZ_AUTOMATION
 1
 "
 )
+pytest
+.
+mark
+.
+skip_mozinfo
+(
+"
+tsan
+"
+)
 def
 test_grizzly_smoke
 (
