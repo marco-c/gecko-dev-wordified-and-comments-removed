@@ -2725,6 +2725,8 @@ encoder
 malfunction
 error
 .
+"
+"
 Resetting
 compression
 session
@@ -3205,6 +3207,8 @@ to
 non
 -
 matching
+"
+"
 pixel
 format
 .
