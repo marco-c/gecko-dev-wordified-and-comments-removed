@@ -24,14 +24,6 @@ name
 empty
 "
     
-common_groups
-=
-[
-"
-push
-"
-]
-    
 task_configs
 =
 [
@@ -72,6 +64,14 @@ pernosco
         
 "
 routes
+"
+        
+"
+target
+-
+tasks
+-
+method
 "
         
 "
@@ -137,6 +137,42 @@ select
 tasks
 .
 '
+    
+if
+try_config_params
+and
+(
+method
+:
+=
+try_config_params
+.
+get
+(
+"
+target_tasks_method
+"
+)
+)
+:
+        
+msg
+=
+f
+"
+Selecting
+tasks
+with
+the
+'
+{
+method
+}
+'
+target
+method
+.
+"
     
 return
 push_to_try
