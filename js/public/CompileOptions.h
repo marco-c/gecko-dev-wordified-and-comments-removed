@@ -859,11 +859,6 @@ usePinnedBytecode
 =
 false
 ;
-bool
-deoptimizeModuleGlobalVars
-=
-false
-;
 PrefableCompileOptions
 prefableOptions_
 ;
@@ -1382,11 +1377,6 @@ borrowBuffer
 PrintFields_
 (
 usePinnedBytecode
-)
-;
-PrintFields_
-(
-deoptimizeModuleGlobalVars
 )
 ;
 PrintFields_
