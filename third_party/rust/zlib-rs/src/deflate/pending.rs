@@ -532,10 +532,6 @@ WeakSliceMut
 from_raw_parts_mut
 (
 ptr
-.
-as_ptr
-(
-)
 len
 )
 }
