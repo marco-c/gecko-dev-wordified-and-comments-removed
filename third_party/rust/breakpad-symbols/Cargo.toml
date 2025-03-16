@@ -114,9 +114,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 authors
 =
@@ -144,6 +144,9 @@ testdata
 *
 "
 ]
+autolib
+=
+false
 autobins
 =
 false
@@ -273,7 +276,7 @@ version
 "
 0
 .
-5
+6
 .
 0
 "
@@ -348,9 +351,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 [
 dependencies
@@ -386,9 +389,7 @@ version
 "
 0
 .
-11
-.
-6
+12
 "
 features
 =

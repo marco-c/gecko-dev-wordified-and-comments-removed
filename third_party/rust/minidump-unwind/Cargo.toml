@@ -114,9 +114,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 authors
 =
@@ -133,6 +133,9 @@ com
 "
 ]
 build
+=
+false
+autolib
 =
 false
 autobins
@@ -275,9 +278,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 [
 dependencies
@@ -306,7 +309,7 @@ version
 "
 0
 .
-12
+13
 "
 optional
 =
@@ -355,9 +358,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 [
 dependencies
@@ -371,9 +374,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 [
 dependencies

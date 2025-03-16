@@ -433,6 +433,9 @@ MozMacosBootargsStream
 MozLinuxLimits
 =
 0x4d7a0003
+MozSoftErrors
+=
+0x4d7a0004
 }
 impl
 From
@@ -746,10 +749,6 @@ u8
 >
 }
 impl
-<
-'
-a
->
 scroll
 :
 :
@@ -759,7 +758,7 @@ ctx
 TryFromCtx
 <
 '
-a
+_
 Endian
 >
 for
@@ -928,10 +927,6 @@ u8
 >
 }
 impl
-<
-'
-a
->
 scroll
 :
 :
@@ -941,7 +936,7 @@ ctx
 TryFromCtx
 <
 '
-a
+_
 Endian
 >
 for
@@ -6294,16 +6289,12 @@ idx
 usize
 }
 impl
-<
-'
-a
->
 Iterator
 for
 XstateFeatureIter
 <
 '
-a
+_
 >
 {
 type
@@ -7340,10 +7331,6 @@ u8
 >
 }
 impl
-<
-'
-a
->
 scroll
 :
 :
@@ -7353,7 +7340,7 @@ ctx
 TryFromCtx
 <
 '
-a
+_
 Endian
 >
 for

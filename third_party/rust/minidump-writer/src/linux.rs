@@ -75,6 +75,9 @@ crate
 mod
 sections
 ;
+mod
+serializers
+;
 pub
 mod
 thread_info

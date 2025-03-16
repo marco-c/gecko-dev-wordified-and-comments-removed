@@ -254,6 +254,15 @@ virtual_size
 read_size
 }
 else
+if
+read_size
+=
+=
+0
+{
+virtual_size
+}
+else
 {
 cmp
 :

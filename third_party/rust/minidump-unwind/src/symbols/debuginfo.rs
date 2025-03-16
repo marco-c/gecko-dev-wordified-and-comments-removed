@@ -1884,8 +1884,6 @@ O
 ;
 impl
 <
-'
-a
 O
 >
 std
@@ -1899,7 +1897,7 @@ for
 ObjectSectionInfo
 <
 '
-a
+_
 O
 >
 {

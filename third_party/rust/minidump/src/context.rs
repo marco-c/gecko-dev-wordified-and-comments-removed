@@ -714,8 +714,6 @@ T
 }
 impl
 <
-'
-a
 T
 >
 Iterator
@@ -723,7 +721,7 @@ for
 CpuRegisters
 <
 '
-a
+_
 T
 >
 where

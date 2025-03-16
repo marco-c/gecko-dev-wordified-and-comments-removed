@@ -114,9 +114,9 @@ version
 "
 0
 .
-22
+24
 .
-1
+0
 "
 authors
 =
@@ -133,6 +133,9 @@ org
 "
 ]
 build
+=
+false
+autolib
 =
 false
 autobins

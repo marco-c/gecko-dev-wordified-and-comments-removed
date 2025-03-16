@@ -1785,15 +1785,6 @@ BigEndian
 LittleEndian
 }
 ;
-use
-std
-:
-:
-{
-i64
-u64
-}
-;
 #
 [
 test

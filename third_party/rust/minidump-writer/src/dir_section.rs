@@ -1,4 +1,5 @@
 use
+{
 crate
 :
 :
@@ -15,9 +16,11 @@ minidump_format
 :
 :
 MDRawDirectory
+serializers
+:
+:
+*
 }
-;
-use
 std
 :
 :
@@ -28,6 +31,7 @@ io
 Error
 Seek
 Write
+}
 }
 ;
 pub
@@ -45,6 +49,10 @@ thiserror
 :
 :
 Error
+serde
+:
+:
+Serialize
 )
 ]
 pub
@@ -66,6 +74,17 @@ IOError
 #
 [
 from
+]
+#
+[
+serde
+(
+serialize_with
+=
+"
+serialize_io_error
+"
+)
 ]
 Error
 )

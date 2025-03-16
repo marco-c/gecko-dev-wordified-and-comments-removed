@@ -21,15 +21,6 @@ RangeTo
 }
 ;
 use
-core
-:
-:
-{
-u16
-u8
-}
-;
-use
 crate
 :
 :
@@ -2752,7 +2743,7 @@ address_size
 =
 rest
 .
-read_u8
+read_address_size
 (
 )
 ?
@@ -2812,7 +2803,7 @@ address_size
 =
 rest
 .
-read_u8
+read_address_size
 (
 )
 ?
@@ -7235,9 +7226,7 @@ data
 i64
 :
 :
-max_value
-(
-)
+MAX
 as
 u64
 {
@@ -19095,9 +19084,6 @@ AttributeValue
 :
 Data1
 (
-core
-:
-:
 u8
 :
 :
@@ -19110,9 +19096,6 @@ u64
 :
 from
 (
-std
-:
-:
 u8
 :
 :
@@ -19148,9 +19131,6 @@ AttributeValue
 :
 Data2
 (
-core
-:
-:
 u16
 :
 :
@@ -19163,9 +19143,6 @@ u64
 :
 from
 (
-std
-:
-:
 u16
 :
 :
@@ -19201,9 +19178,6 @@ AttributeValue
 :
 Data4
 (
-core
-:
-:
 u32
 :
 :
@@ -19216,9 +19190,6 @@ u64
 :
 from
 (
-std
-:
-:
 u32
 :
 :
@@ -19254,9 +19225,6 @@ AttributeValue
 :
 Data8
 (
-core
-:
-:
 u64
 :
 :
@@ -19264,9 +19232,6 @@ MAX
 )
 Some
 (
-core
-:
-:
 u64
 :
 :

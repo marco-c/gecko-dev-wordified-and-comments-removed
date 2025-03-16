@@ -23,10 +23,7 @@ use
 std
 :
 :
-{
 slice
-usize
-}
 ;
 use
 crate

@@ -9211,12 +9211,6 @@ test_util
 GimliSectionMethods
 ;
 use
-core
-:
-:
-usize
-;
-use
 test_assembler
 :
 :

@@ -3588,13 +3588,13 @@ clone
 self
 .
 sup
-=
+.
+clone_from
+(
+&
 parent
 .
 sup
-.
-clone
-(
 )
 ;
 }
