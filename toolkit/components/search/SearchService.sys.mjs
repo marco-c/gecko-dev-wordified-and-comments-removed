@@ -4033,6 +4033,9 @@ addEngineToStore
 newEngine
 )
 ;
+return
+newEngine
+;
 }
 async
 addSearchEngine
