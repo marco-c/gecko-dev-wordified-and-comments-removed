@@ -249,9 +249,6 @@ warnAboutClosingWindow
 MailIntegration
 "
 "
-AddKeywordForSearchField
-"
-"
 restoreLastClosedTabOrWindowOrSession
 "
 "
