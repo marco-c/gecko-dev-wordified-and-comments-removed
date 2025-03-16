@@ -1490,7 +1490,9 @@ challenge
 -
 platform
 /
-*
+h
+/
+b
 /
 turnstile
 /
