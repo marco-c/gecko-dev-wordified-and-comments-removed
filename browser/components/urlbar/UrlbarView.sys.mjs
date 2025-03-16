@@ -13044,9 +13044,14 @@ for
 const
 attribute
 of
+[
+.
+.
+.
 item
 .
 attributes
+]
 )
 {
 if
