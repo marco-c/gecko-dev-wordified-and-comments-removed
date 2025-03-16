@@ -877,6 +877,8 @@ if
 matches
 )
 {
+task
+.
 logger
 .
 quiet
@@ -989,6 +991,8 @@ go
 through
 stderr
 again
+.
+task
 .
 logger
 .
