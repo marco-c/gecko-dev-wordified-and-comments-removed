@@ -132,8 +132,11 @@ getIsTopLevelScript
 (
 context
 .
+sourceCode
+.
 getAncestors
 (
+node
 )
 )
 )

@@ -307,9 +307,7 @@ sourceCode
 =
 context
 .
-getSourceCode
-(
-)
+sourceCode
 ;
 let
 rangeToRemove

@@ -178,9 +178,7 @@ MemberExpression
 !
 context
 .
-getFilename
-(
-)
+filename
 .
 endsWith
 (
@@ -198,11 +196,12 @@ helpers
 .
 isTopLevel
 (
-helpers
+context
+.
+sourceCode
 .
 getAncestors
 (
-context
 node
 )
 )
@@ -261,9 +260,7 @@ sourceCode
 =
 context
 .
-getSourceCode
-(
-)
+sourceCode
 ;
 let
 importItemSource

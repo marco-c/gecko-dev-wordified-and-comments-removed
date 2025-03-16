@@ -117,6 +117,7 @@ return
 {
 Program
 (
+node
 )
 {
 let
@@ -198,8 +199,11 @@ addVarToScope
 global
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 browserWindowEnv
 .

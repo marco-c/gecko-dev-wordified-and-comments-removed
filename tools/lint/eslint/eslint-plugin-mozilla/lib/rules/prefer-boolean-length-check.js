@@ -22,9 +22,7 @@ sourceCode
 =
 context
 .
-getSourceCode
-(
-)
+sourceCode
 ;
 switch
 (

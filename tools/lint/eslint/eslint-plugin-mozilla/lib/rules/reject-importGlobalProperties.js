@@ -50,9 +50,7 @@ extname
 (
 context
 .
-getFilename
-(
-)
+filename
 )
 =
 =
