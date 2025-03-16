@@ -11151,31 +11151,15 @@ is
 None
 :
         
-if
-hasattr
-(
-multiprocessing
-"
-get_context
-"
-)
-:
-            
 mp_context
 =
 multiprocessing
 .
 get_context
 (
-)
-        
-else
-:
-            
-mp_context
-=
-MpContext
-(
+"
+spawn
+"
 )
     
 with

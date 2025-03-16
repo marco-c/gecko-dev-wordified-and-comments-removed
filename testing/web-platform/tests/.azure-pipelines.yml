@@ -517,7 +517,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -681,7 +681,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -820,7 +820,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -1143,7 +1143,7 @@ py38
 -
 job
 :
-tools_unittest_mac_py311
+tools_unittest_mac_py313
 displayName
 :
 '
@@ -1156,7 +1156,7 @@ macOS
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -1198,7 +1198,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -1232,7 +1232,7 @@ tools
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -1333,7 +1333,7 @@ py38
 -
 job
 :
-wptrunner_unittest_mac_py311
+wptrunner_unittest_mac_py313
 displayName
 :
 '
@@ -1348,7 +1348,7 @@ macOS
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -1390,7 +1390,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -1426,7 +1426,7 @@ wptrunner
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -1567,7 +1567,7 @@ py38
 -
 job
 :
-wpt_integration_mac_py311
+wpt_integration_mac_py313
 displayName
 :
 '
@@ -1582,7 +1582,7 @@ macOS
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -1628,7 +1628,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -1700,7 +1700,7 @@ wpt
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -1805,7 +1805,7 @@ py38
 -
 job
 :
-tools_unittest_win_py311
+tools_unittest_win_py313
 displayName
 :
 '
@@ -1818,7 +1818,7 @@ Windows
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -1860,7 +1860,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 addToPath
 :
@@ -1897,7 +1897,7 @@ tools
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -2001,7 +2001,7 @@ py38
 -
 job
 :
-wptrunner_unittest_win_py311
+wptrunner_unittest_win_py313
 displayName
 :
 '
@@ -2016,7 +2016,7 @@ Windows
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -2058,7 +2058,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 addToPath
 :
@@ -2097,7 +2097,7 @@ wptrunner
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -2265,7 +2265,7 @@ py38
 -
 job
 :
-wpt_integration_win_py311
+wpt_integration_win_py313
 displayName
 :
 '
@@ -2280,7 +2280,7 @@ Windows
 Python
 3
 .
-12
+13
 '
 dependsOn
 :
@@ -2326,7 +2326,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 #
 currently
@@ -2425,7 +2425,7 @@ wpt
 /
 toxenv
 :
-py311
+py313
 -
 job
 :
@@ -2546,7 +2546,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -2949,7 +2949,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -3352,7 +3352,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
@@ -3722,7 +3722,7 @@ versionSpec
 '
 3
 .
-12
+13
 '
 -
 template
