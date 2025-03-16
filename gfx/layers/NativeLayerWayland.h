@@ -457,7 +457,7 @@ false
 }
 ;
 uint32_t
-aLastFrameCallbackTime
+mLastFrameCallbackTime
 =
 0
 ;
