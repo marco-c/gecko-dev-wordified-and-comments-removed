@@ -609,6 +609,17 @@ add
 1
 )
 ;
+Glean
+.
+glamExperiment
+.
+panelShown
+.
+add
+(
+1
+)
+;
 DownloadsCommon
 .
 log
