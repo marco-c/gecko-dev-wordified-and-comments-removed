@@ -1686,9 +1686,6 @@ android
 asan
 '
 '
-chromium_base_dependency
-'
-'
 clang
 '
 '
@@ -1705,9 +1702,6 @@ android_debug_static_bot_arm
 [
 '
 android
-'
-'
-chromium_base_dependency
 '
 '
 debug_static_bot
@@ -1728,9 +1722,6 @@ android_debug_static_bot_arm64
 android
 '
 '
-chromium_base_dependency
-'
-'
 debug_static_bot
 '
 '
@@ -1747,9 +1738,6 @@ android_debug_static_bot_x64
 [
 '
 android
-'
-'
-chromium_base_dependency
 '
 '
 debug_static_bot
@@ -1770,9 +1758,6 @@ android_debug_static_bot_x86
 android
 '
 '
-chromium_base_dependency
-'
-'
 debug_static_bot
 '
 '
@@ -1791,9 +1776,6 @@ android_pure_release_bot_arm
 android
 '
 '
-chromium_base_dependency
-'
-'
 pure_release_bot
 '
 '
@@ -1809,9 +1791,6 @@ android_pure_release_bot_arm64
 android
 '
 '
-chromium_base_dependency
-'
-'
 pure_release_bot
 '
 '
@@ -1825,9 +1804,6 @@ android_release_bot_arm
 [
 '
 android
-'
-'
-chromium_base_dependency
 '
 '
 release_bot
@@ -1848,9 +1824,6 @@ android_release_bot_arm64
 android
 '
 '
-chromium_base_dependency
-'
-'
 release_bot
 '
 '
@@ -1869,9 +1842,6 @@ android_release_bot_x64
 android
 '
 '
-chromium_base_dependency
-'
-'
 release_bot
 '
 '
@@ -1888,9 +1858,6 @@ android_release_bot_x86
 [
 '
 android
-'
-'
-chromium_base_dependency
 '
 '
 release_bot
@@ -2055,9 +2022,6 @@ android
 arm
 '
 '
-chromium_base_dependency
-'
-'
 disable_trace_events
 '
 '
@@ -2104,9 +2068,6 @@ android
 '
 '
 arm
-'
-'
-chromium_base_dependency
 '
 '
 debug_static_bot
@@ -2430,9 +2391,6 @@ android
 arm
 '
 '
-chromium_base_dependency
-'
-'
 perfetto
 '
 '
@@ -2608,9 +2566,6 @@ android
 '
 '
 arm
-'
-'
-chromium_base_dependency
 '
 '
 debug_static_bot

@@ -13696,8 +13696,6 @@ condition
 '
 :
 '
-checkout_android
-or
 checkout_fuzzer
 '
 '
