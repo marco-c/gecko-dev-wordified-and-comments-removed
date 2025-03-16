@@ -560,16 +560,6 @@ CapturedElement
 NamedElements
 mNamedElements
 ;
-AutoTArray
-<
-RefPtr
-<
-nsAtom
->
-8
->
-mNames
-;
 nsSize
 mInitialSnapshotContainingBlockSize
 ;
