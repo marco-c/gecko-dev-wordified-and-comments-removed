@@ -182,9 +182,21 @@ environ
 get
 (
 "
+ANDROID_SERIAL
+"
+)
+or
+os
+.
+environ
+.
+get
+(
+            
+"
 DEVICE_SERIAL
 "
-None
+        
 )
         
 self
