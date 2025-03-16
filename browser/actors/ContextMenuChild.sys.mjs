@@ -4489,6 +4489,7 @@ document
 ?
 .
 fragmentDirective
+?
 .
 getTextDirectiveRanges
 (
