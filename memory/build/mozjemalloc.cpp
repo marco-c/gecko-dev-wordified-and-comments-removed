@@ -5314,7 +5314,6 @@ mPurgeListLock
 Atomic
 <
 bool
-Relaxed
 >
 mIsDeferredPurgeEnabled
 ;
