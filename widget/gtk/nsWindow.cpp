@@ -16779,13 +16779,8 @@ mSizeMode
 nsSizeMode_Fullscreen
 &
 &
-gtk_window_get_decorated
-(
-GTK_WINDOW
-(
-mShell
-)
-)
+!
+mUndecorated
 ;
 const
 auto
