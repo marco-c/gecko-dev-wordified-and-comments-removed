@@ -843,7 +843,7 @@ aLoadData
 .
 mURI
 )
-mPrincipal
+mTriggeringPrincipal
 (
 aLoadData
 .
@@ -926,7 +926,7 @@ mURI
 ;
 MOZ_ASSERT
 (
-mPrincipal
+mTriggeringPrincipal
 )
 ;
 MOZ_ASSERT
@@ -1051,14 +1051,14 @@ true
 if
 (
 !
-mPrincipal
+mTriggeringPrincipal
 -
 >
 Equals
 (
 aKey
 .
-mPrincipal
+mTriggeringPrincipal
 )
 )
 {
@@ -1067,7 +1067,8 @@ LOG
 (
 "
 >
-Principal
+Triggering
+principal
 mismatch
 \
 n
@@ -1081,7 +1082,7 @@ false
 }
 if
 (
-mPrincipal
+mTriggeringPrincipal
 -
 >
 Equals
@@ -1092,7 +1093,7 @@ mLoaderPrincipal
 |
 aKey
 .
-mPrincipal
+mTriggeringPrincipal
 -
 >
 Equals

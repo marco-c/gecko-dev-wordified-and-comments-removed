@@ -126,7 +126,7 @@ aRequest
 >
 mURI
 )
-mPrincipal
+mTriggeringPrincipal
 (
 aRequest
 -
@@ -335,14 +335,14 @@ false
 if
 (
 !
-mPrincipal
+mTriggeringPrincipal
 -
 >
 Equals
 (
 aKey
 .
-mPrincipal
+mTriggeringPrincipal
 )
 )
 {

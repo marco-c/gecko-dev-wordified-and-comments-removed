@@ -198,11 +198,11 @@ aKey
 .
 mURI
 )
-mPrincipal
+mTriggeringPrincipal
 (
 aKey
 .
-mPrincipal
+mTriggeringPrincipal
 )
 mLoaderPrincipal
 (
@@ -298,7 +298,7 @@ aKey
 mURI
 )
 )
-mPrincipal
+mTriggeringPrincipal
 (
 std
 :
@@ -307,7 +307,7 @@ move
 (
 aKey
 .
-mPrincipal
+mTriggeringPrincipal
 )
 )
 mLoaderPrincipal
@@ -537,13 +537,13 @@ mURI
 }
 nsIPrincipal
 *
-Principal
+TriggeringPrincipal
 (
 )
 const
 {
 return
-mPrincipal
+mTriggeringPrincipal
 ;
 }
 nsIPrincipal
@@ -600,7 +600,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mPrincipal
+mTriggeringPrincipal
 ;
 const
 nsCOMPtr
