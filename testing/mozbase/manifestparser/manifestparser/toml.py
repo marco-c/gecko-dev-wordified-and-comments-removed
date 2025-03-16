@@ -1731,7 +1731,55 @@ rstrip
 (
 )
 def
-_should_keep_condition
+_should_keep_existing_condition
+(
+existing_condition
+:
+str
+new_condition
+:
+str
+)
+:
+    
+"
+"
+"
+    
+Checks
+the
+new
+condition
+is
+equal
+or
+not
+simpler
+than
+the
+existing
+one
+    
+"
+"
+"
+    
+return
+(
+        
+existing_condition
+=
+=
+new_condition
+or
+not
+new_condition
+in
+existing_condition
+    
+)
+def
+_should_ignore_new_condition
 (
 existing_condition
 :
@@ -1748,52 +1796,18 @@ str
     
 Checks
 if
-there
-is
-any
-overlap
-between
 the
-existing
+new
 condition
-and
-the
-new
-one
-.
-    
-Existing
-conditions
-too
-simple
-or
-too
-complex
-should
-be
-replaced
-by
-the
-new
-one
-.
-    
-If
-both
-are
+is
 equal
-then
-we
-keep
-the
+or
+more
+complex
+than
+an
 existing
-to
-prevent
-changing
-the
-order
-of
-conditions
+one
     
 "
 "
@@ -1805,29 +1819,9 @@ existing_condition
 =
 new_condition
 or
-not
-(
-        
-(
 existing_condition
-+
-"
-"
-)
 in
 new_condition
-        
-or
-(
-new_condition
-+
-"
-"
-)
-in
-existing_condition
-    
-)
 def
 add_skip_if
 (
@@ -1974,7 +1968,7 @@ skip_if
 =
 None
     
-existing
+ignore_condition
 =
 False
     
@@ -2168,13 +2162,14 @@ None
 :
             
 if
+_should_ignore_new_condition
+(
 first
-=
-=
 condition
+)
 :
                 
-existing
+ignore_condition
 =
 True
             
@@ -2184,10 +2179,12 @@ is
 not
 None
 and
-_should_keep_condition
+_should_keep_existing_condition
 (
+                
 first
 condition
+            
 )
 :
                 
@@ -2247,7 +2244,7 @@ None
 :
                         
 if
-_should_keep_condition
+_should_keep_existing_condition
 (
 e_condition
 condition
@@ -2297,13 +2294,14 @@ strip
 )
                         
 if
+_should_ignore_new_condition
+(
 e_condition
-=
-=
 condition
+)
 :
                             
-existing
+ignore_condition
 =
 True
                 
@@ -2332,7 +2330,7 @@ is
 not
 None
 and
-_should_keep_condition
+_should_keep_existing_condition
 (
                 
 e_condition
@@ -2353,7 +2351,7 @@ e_comment
         
 if
 not
-existing
+ignore_condition
 :
             
 conditions_array

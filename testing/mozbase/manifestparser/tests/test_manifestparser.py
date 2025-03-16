@@ -4352,7 +4352,7 @@ filename
 in
 manifest
         
-condition1a
+condition
 =
 "
 os
@@ -4378,11 +4378,11 @@ add_skip_if
 (
 manifest
 filename
-condition1a
+condition
 bug
 )
         
-condition1b
+condition
 =
 "
 os
@@ -4401,11 +4401,11 @@ add_skip_if
 (
 manifest
 filename
-condition1b
+condition
 bug
 )
         
-filename2
+filename
 =
 "
 test_foo
@@ -4414,11 +4414,11 @@ html
 "
         
 assert
-filename2
+filename
 in
 manifest
         
-condition2
+condition
 =
 "
 os
@@ -4439,11 +4439,11 @@ toml
 add_skip_if
 (
 manifest
-filename2
-condition2
+filename
+condition
 )
         
-filename3
+filename
 =
 "
 test_bar
@@ -4452,17 +4452,17 @@ html
 "
         
 assert
-filename3
+filename
 in
 manifest
         
-condition3a
+condition
 =
 "
 tsan
 "
         
-bug3a
+bug
 =
 "
 Bug
@@ -4476,12 +4476,12 @@ toml
 add_skip_if
 (
 manifest
-filename3
-condition3a
-bug3a
+filename
+condition
+bug
 )
         
-condition3b
+condition
 =
 "
 os
@@ -4492,7 +4492,7 @@ linux
 '
 "
         
-bug3b
+bug
 =
 "
 Bug
@@ -4506,12 +4506,12 @@ toml
 add_skip_if
 (
 manifest
-filename3
-condition3b
-bug3b
+filename
+condition
+bug
 )
         
-filename4
+filename
 =
 "
 bug_100
@@ -4520,17 +4520,17 @@ js
 "
         
 assert
-filename4
+filename
 in
 manifest
         
-condition4
+condition
 =
 "
 apple_catalina
 "
         
-bug4
+bug
 =
 "
 Bug
@@ -4544,12 +4544,12 @@ toml
 add_skip_if
 (
 manifest
-filename4
-condition4
-bug4
+filename
+condition
+bug
 )
         
-filename5
+filename
 =
 "
 bug_3
@@ -4558,17 +4558,17 @@ js
 "
         
 assert
-filename5
+filename
 in
 manifest
         
-condition5
+condition
 =
 "
 verify
 "
         
-bug5
+bug
 =
 "
 Bug
@@ -4582,9 +4582,89 @@ toml
 add_skip_if
 (
 manifest
-filename5
-condition5
-bug5
+filename
+condition
+bug
+)
+        
+filename
+=
+"
+test_extend_linux
+.
+js
+"
+        
+assert
+filename
+in
+manifest
+        
+condition
+=
+"
+os
+=
+=
+'
+linux
+'
+&
+&
+version
+=
+=
+'
+18
+.
+04
+'
+"
+        
+manifestparser
+.
+toml
+.
+add_skip_if
+(
+manifest
+filename
+condition
+)
+        
+filename
+=
+"
+test_simplify_linux
+.
+js
+"
+        
+assert
+filename
+in
+manifest
+        
+condition
+=
+"
+os
+=
+=
+'
+linux
+'
+"
+        
+manifestparser
+.
+toml
+.
+add_skip_if
+(
+manifest
+filename
+condition
 )
         
 manifest_str
