@@ -9972,12 +9972,11 @@ device_serial
 print
 (
 "
-Unable
-to
-find
-ready
-Android
-device
+No
+ADB
+devices
+connected
+.
 "
 )
         

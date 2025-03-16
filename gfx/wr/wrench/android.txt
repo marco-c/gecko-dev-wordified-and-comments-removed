@@ -1145,7 +1145,7 @@ do
 this
 :
 export
-ANDROID_SERIAL
+DEVICE_SERIAL
 =
 <
 your
