@@ -3,6 +3,7 @@ DEFAULT
 ]
 prefs
 =
+[
 "
 browser
 .
@@ -12,6 +13,18 @@ crashPull
 =
 true
 "
+"
+browser
+.
+crashReports
+.
+unsubmittedCheck
+.
+enabled
+=
+true
+"
+]
 [
 "
 browser_RemoteSettingsCrashPull_notification
