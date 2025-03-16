@@ -88,6 +88,13 @@ js
 ]
 [
 "
+browser_pdfjs_check_alttext_en
+.
+js
+"
+]
+[
+"
 browser_pdfjs_chrome_events
 .
 js

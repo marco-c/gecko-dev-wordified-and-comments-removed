@@ -77,5 +77,15 @@ false
 ;
 #
 endif
+pref
+(
+"
+pdfjs
+.
+enableAltTextForEnglish
+"
+false
+)
+;
 #
 endif
