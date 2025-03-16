@@ -335,6 +335,8 @@ components
 tree
 /
 TreeView
+.
+mjs
 "
 :
 {

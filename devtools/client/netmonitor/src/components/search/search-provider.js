@@ -8,7 +8,9 @@ const
 ObjectProvider
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -27,8 +29,15 @@ tree
 /
 ObjectProvider
 .
-js
+mjs
 "
+{
+global
+:
+"
+current
+"
+}
 )
 ;
 const
