@@ -1583,7 +1583,10 @@ h
 undef
 STYLE_SHEET
 auto
+[
+_
 readOnlyHandle
+]
 =
 std
 :

@@ -4334,8 +4334,8 @@ false
 }
 auto
 [
-readOnly
 newShm
+readOnly
 ]
 =
 std
@@ -4350,7 +4350,7 @@ Map
 (
 )
 .
-FreezeWithMutableMapping
+Freeze
 (
 )
 ;
