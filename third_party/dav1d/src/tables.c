@@ -2995,6 +2995,7 @@ dav1d_sgr_params
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 uint8_t
 ALIGN
@@ -3265,6 +3266,7 @@ dav1d_sgr_x_by_x
 0
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -4347,6 +4349,7 @@ DAV1D_FILTER_8TAP_SMOOTH
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -6777,6 +6780,7 @@ dav1d_mc_warp_filter
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -7825,6 +7829,7 @@ dav1d_sm_weights
 4
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 uint16_t
 dav1d_dr_intra_derivative
@@ -8046,6 +8051,7 @@ idx
 f6
 #
 endif
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -8630,6 +8636,7 @@ dav1d_obmc_masks
 0
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int16_t
 dav1d_gaussian_sequence
