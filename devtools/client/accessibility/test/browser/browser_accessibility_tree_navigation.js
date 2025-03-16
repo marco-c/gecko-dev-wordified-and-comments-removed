@@ -160,6 +160,10 @@ readonly
 focusable
 "
 "
+selectable
+text
+"
+"
 opaque
 "
 "
@@ -560,6 +564,10 @@ readonly
 "
 "
 focusable
+"
+"
+selectable
+text
 "
 "
 opaque
