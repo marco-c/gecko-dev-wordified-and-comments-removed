@@ -11077,6 +11077,7 @@ scrollEditorIntoView
 dbg
 line
 column
+yAlign
 )
 {
 const
@@ -11106,6 +11107,7 @@ scrollTo
 (
 line
 column
+yAlign
 )
 ;
 return

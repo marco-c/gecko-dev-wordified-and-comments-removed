@@ -14730,6 +14730,7 @@ scrollTo
 (
 line
 column
+yAlign
 )
 {
 if
@@ -14835,6 +14836,9 @@ nearest
 "
 y
 :
+yAlign
+|
+|
 "
 center
 "
