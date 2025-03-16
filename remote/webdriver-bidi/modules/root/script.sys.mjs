@@ -1521,7 +1521,7 @@ script
 moduleName
 :
 "
-script
+_configuration
 "
 values
 :
@@ -3919,7 +3919,7 @@ script
 moduleName
 :
 "
-script
+_configuration
 "
 values
 :
