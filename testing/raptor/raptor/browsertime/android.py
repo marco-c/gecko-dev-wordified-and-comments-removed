@@ -838,38 +838,13 @@ debug
 GleanDebugActivity
 "
             
-if
-int
-(
-self
-.
-device
-.
-shell_output
-(
-"
-getprop
-ro
-.
-build
-.
-version
-.
-release
-"
-)
-)
->
-11
-:
-                
 args_list
 .
 extend
 (
-                    
+                
 [
-                        
+                    
 '
 -
 -
@@ -885,7 +860,7 @@ android
 storage
 "
 '
-                        
+                    
 '
 -
 -
@@ -897,9 +872,9 @@ geckodriverArgs
 app
 "
 '
-                    
-]
                 
+]
+            
 )
             
 args_list
