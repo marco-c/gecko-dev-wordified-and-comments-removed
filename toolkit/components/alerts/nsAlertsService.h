@@ -18,13 +18,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsXULAlerts
-.
-h
-"
 class
 nsAlertsService
 :
