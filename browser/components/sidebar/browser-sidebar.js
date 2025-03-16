@@ -1010,6 +1010,13 @@ Glean
 shopping
 .
 sidebarToggle
+gleanClickEvent
+:
+Glean
+.
+sidebar
+.
+shoppingReviewCheckerIconClick
 recordSidebarVersion
 :
 true
