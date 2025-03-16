@@ -108,8 +108,6 @@ mjs
 "
 ;
 import
-*
-as
 PropTypes
 from
 "
