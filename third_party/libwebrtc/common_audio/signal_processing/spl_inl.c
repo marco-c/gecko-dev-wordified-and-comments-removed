@@ -1,12 +1,5 @@
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 common_audio
 /
@@ -18,6 +11,13 @@ spl_inl
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 const
 int8_t
 kWebRtcSpl_CountLeadingZeros32_Table
