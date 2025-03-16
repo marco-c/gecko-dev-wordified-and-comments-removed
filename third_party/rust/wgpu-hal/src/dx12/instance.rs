@@ -3,10 +3,6 @@ std
 :
 :
 {
-mem
-:
-:
-size_of_val
 string
 :
 :

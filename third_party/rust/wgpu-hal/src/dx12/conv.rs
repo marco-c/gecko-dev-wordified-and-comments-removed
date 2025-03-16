@@ -820,6 +820,10 @@ Bt
 :
 :
 AccelerationStructure
+{
+.
+.
+}
 =
 >
 Direct3D12

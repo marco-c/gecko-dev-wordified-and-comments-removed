@@ -1291,7 +1291,7 @@ max_index
 let
 restricted
 =
-std
+core
 :
 :
 cmp

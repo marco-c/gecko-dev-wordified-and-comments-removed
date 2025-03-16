@@ -745,12 +745,14 @@ lib
 .
 get
 (
-b
+c
 "
 DxcCreateInstance
-\
-0
 "
+.
+to_bytes
+(
+)
 )
 ?
 ;
