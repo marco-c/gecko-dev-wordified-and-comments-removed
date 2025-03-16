@@ -1037,7 +1037,7 @@ isBlob
 !
 URL
 .
-isValidObjectURL
+isBoundToBlob
 (
 elementSrc
 )

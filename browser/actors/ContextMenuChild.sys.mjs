@@ -2522,7 +2522,7 @@ blob
 return
 URL
 .
-isValidObjectURL
+isBoundToBlob
 (
 aURL
 )

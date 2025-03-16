@@ -62,7 +62,7 @@ aRv
 ;
 static
 bool
-IsValidObjectURL
+IsBoundToBlob
 (
 const
 GlobalObject

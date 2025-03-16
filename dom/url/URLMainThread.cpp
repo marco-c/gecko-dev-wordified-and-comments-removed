@@ -475,7 +475,7 @@ bool
 URLMainThread
 :
 :
-IsValidObjectURL
+IsBoundToBlob
 (
 const
 GlobalObject
@@ -501,7 +501,7 @@ return
 BlobURLProtocolHandler
 :
 :
-HasDataEntry
+HasDataEntryTypeBlob
 (
 aURL
 )

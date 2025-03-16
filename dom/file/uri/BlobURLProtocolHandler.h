@@ -228,7 +228,7 @@ RemoveDataEntries
 ;
 static
 bool
-HasDataEntry
+HasDataEntryTypeBlob
 (
 const
 nsACString
