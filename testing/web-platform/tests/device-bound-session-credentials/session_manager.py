@@ -138,6 +138,12 @@ self
 cookie_has_no_attributes
 =
 False
+        
+self
+.
+scope_origin
+=
+None
     
 def
 create_new_session
@@ -343,6 +349,30 @@ self
 cookie_has_no_attributes
 =
 cookie_has_no_attributes
+        
+scope_origin
+=
+configuration
+.
+get
+(
+"
+scopeOrigin
+"
+)
+        
+if
+scope_origin
+is
+not
+None
+:
+            
+self
+.
+scope_origin
+=
+scope_origin
     
 def
 get_should_refresh_end_session
@@ -456,6 +486,26 @@ join
 cookie_parts
 )
         
+scope_origin
+=
+"
+"
+        
+if
+self
+.
+scope_origin
+is
+not
+None
+:
+            
+scope_origin
+=
+self
+.
+scope_origin
+        
 response_body
 =
 {
@@ -490,6 +540,12 @@ scope
 "
 :
 {
+                
+"
+origin
+"
+:
+scope_origin
                 
 "
 include_site
