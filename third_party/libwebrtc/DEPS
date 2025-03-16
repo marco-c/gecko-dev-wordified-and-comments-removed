@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-18e51f86e82f26f6e8530dc3f9a4474d8056e6cc
+fedc00ae7796d1ca3ca350f669be9c024127bbc7
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-ae1f3dd505d67e31cefc524717f916360ef6cfe1
+f929f8df7203077364b89fa083d3b619e0ec4a55
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-f1eca0eef3945e47f7ff5b25730d62c4d89c8fa7
+826afad130507541a1b1cfcdf13a2c85f88935ce
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-e212dc9e538b573d0d60e4ebab7c40cbc6cf0c64
+555ebb1ed0a81eb21d13e4b9f59184f73f985d7c
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-cee2aaad616bef53a9aefbfd6997e16a572b4b63
+6157451a6af3785ef916db5691b98618e420b1e5
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-1ab59ebcf07a10218a8a7a523c7d465e0a5e2c47
+4b3b2479cb2cccdcba12d2dee93e77da95041fc7
 '
 '
 src
@@ -1459,7 +1459,7 @@ project
 libc
 .
 git
-823412c5308b47b24c91e3adfb6a84494c46946e
+96cdfc15f0f8fc44cf40bd264278c09a5c243819
 '
 '
 src
@@ -2134,7 +2134,7 @@ com
 boringssl
 .
 git
-bf4cf6938a77f1aca83ef529dce96681efd1e6c5
+305e5c570be4b142e8590d37dd9136b60f12b9bc
 '
 '
 src
@@ -2363,7 +2363,7 @@ tools
 depot_tools
 .
 git
-b576ab3b78a9d19c33060c821d4f11643397fa30
+4c54361841933e29ec19a3104e4f11f0e898674a
 '
 '
 src
@@ -3216,7 +3216,7 @@ google
 fuzztest
 .
 git
-b86e98ff1149313e43333d1017c3a87baa6721c5
+be49f904cc1419e27305282e6d9a60cbc1231350
 '
 '
 src
@@ -3405,7 +3405,7 @@ external
 perfetto
 .
 git
-4596ae745605e4166c4d0919d4208a9426cdc3a4
+efc96bb32403e5bd6200905cfb2b855d6e33959a
 '
 '
 src
@@ -3954,7 +3954,7 @@ chromium
 src
 /
 tools
-bdbb5e679f53e229c77db8835c9ca2602d6a63d8
+4233a3bd57875439c80c1d4bc9539671948e9c0d
 '
 '
 src
