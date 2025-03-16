@@ -2632,6 +2632,7 @@ TabGroupRemoved
 "
 )
 ;
+await
 group
 .
 ownerGlobal

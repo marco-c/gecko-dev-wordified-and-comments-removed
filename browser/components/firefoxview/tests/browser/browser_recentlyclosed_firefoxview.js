@@ -1936,6 +1936,7 @@ grouped
 "
 )
 ;
+await
 gBrowser
 .
 removeTabGroup
