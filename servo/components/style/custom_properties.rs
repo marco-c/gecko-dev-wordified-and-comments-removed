@@ -461,10 +461,10 @@ use
 crate
 :
 :
-gecko
+queries
 :
 :
-media_features
+values
 :
 :
 PrefersColorScheme
