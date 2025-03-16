@@ -1640,6 +1640,13 @@ js
 ]
 [
 "
+browser_storageAccessHeuristicsExcludeTrackers
+.
+js
+"
+]
+[
+"
 browser_storageAccessPrivilegeAPI
 .
 js
