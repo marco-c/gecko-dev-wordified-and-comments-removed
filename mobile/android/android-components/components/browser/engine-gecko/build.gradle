@@ -215,7 +215,7 @@ pro
 '
 }
 }
-packagingOptions
+packaging
 {
 resources
 {

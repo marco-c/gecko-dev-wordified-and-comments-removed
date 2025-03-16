@@ -132,7 +132,7 @@ xml
 "
 )
 }
-packagingOptions
+packaging
 {
 resources
 {
