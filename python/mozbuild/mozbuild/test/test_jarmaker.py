@@ -1360,16 +1360,6 @@ attr
 ]
 )
         
-jm
-.
-makeJar
-(
-infile
-self
-.
-builddir
-)
-        
 cwd
 =
 os
@@ -1389,6 +1379,16 @@ builddir
         
 try
 :
+            
+jm
+.
+makeJar
+(
+infile
+self
+.
+builddir
+)
             
 for
 path

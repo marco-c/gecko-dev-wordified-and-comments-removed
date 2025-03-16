@@ -228,6 +228,13 @@ pyproject
 .
 toml
 "
+"
+srcdir
+-
+resolver
+.
+js
+"
 )
 :
 BUG_COMPONENT
