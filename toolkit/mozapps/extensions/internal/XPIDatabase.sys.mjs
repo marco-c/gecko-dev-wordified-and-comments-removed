@@ -1072,9 +1072,9 @@ KEY_APP_SYSTEM_BUILTINS
 "
 app
 -
-system
+builtin
 -
-builtins
+addons
 "
 ;
 const
