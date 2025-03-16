@@ -41,6 +41,10 @@ ErleEstimator
 :
 ErleEstimator
 (
+const
+Environment
+&
+env
 size_t
 startup_phase_length_blocks
 const
@@ -64,6 +68,7 @@ num_capture_channels
 )
 subband_erle_estimator_
 (
+env
 config
 num_capture_channels
 )

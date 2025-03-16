@@ -28,6 +28,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing
@@ -1514,6 +1525,9 @@ filter_frequency_response
 ErleEstimator
 estimator
 (
+CreateEnvironment
+(
+)
 0
 config
 num_capture_channels
@@ -2012,6 +2026,9 @@ filter_frequency_response
 ErleEstimator
 estimator
 (
+CreateEnvironment
+(
+)
 0
 config
 num_capture_channels

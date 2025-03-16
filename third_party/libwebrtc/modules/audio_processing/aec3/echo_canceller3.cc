@@ -4639,6 +4639,10 @@ size_t
 num_capture_channels
 )
 :
+env_
+(
+env
+)
 data_dumper_
 (
 new
@@ -5159,14 +5163,13 @@ num_render_channels_to_aec_
 )
 ;
 block_processor_
-.
-reset
-(
+=
 BlockProcessor
 :
 :
 Create
 (
+env_
 config_selector_
 .
 active_config
@@ -5175,7 +5178,6 @@ active_config
 sample_rate_hz_
 num_render_channels_to_aec_
 num_capture_channels_
-)
 )
 ;
 render_sub_frame_view_

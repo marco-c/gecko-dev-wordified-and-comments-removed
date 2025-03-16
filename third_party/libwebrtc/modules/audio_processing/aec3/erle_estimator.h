@@ -139,6 +139,10 @@ public
 :
 ErleEstimator
 (
+const
+Environment
+&
+env
 size_t
 startup_phase_length_blocks
 const
