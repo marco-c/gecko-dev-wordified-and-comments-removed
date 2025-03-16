@@ -233,7 +233,11 @@ observerService
 AddObserver
 (
 this
-NS_XPCOM_SHUTDOWN_OBSERVER_ID
+"
+quit
+-
+application
+"
 false
 )
 ;
@@ -251,7 +255,11 @@ nsCRT
 strcmp
 (
 aTopic
-NS_XPCOM_SHUTDOWN_OBSERVER_ID
+"
+quit
+-
+application
+"
 )
 )
 {
