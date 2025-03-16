@@ -16303,9 +16303,7 @@ capitalize
 PropertyId
 :
 :
-{
-kind
-}
+NonCustom
 (
 {
 kind
@@ -16318,6 +16316,10 @@ property
 .
 camel_case
 }
+.
+into
+(
+)
 )
 ]
 %
@@ -16337,9 +16339,7 @@ camel_case
 PropertyId
 :
 :
-{
-kind
-}
+NonCustom
 (
 {
 kind
@@ -16352,6 +16352,10 @@ property
 .
 camel_case
 }
+.
+into
+(
+)
 )
 ]
 %
