@@ -5795,6 +5795,9 @@ isTrendingSearchesVisible
 isTrendingSuggestionSupported
 &
 &
+shouldShowSearchSuggestions
+&
+&
 (
 !
 browsingMode

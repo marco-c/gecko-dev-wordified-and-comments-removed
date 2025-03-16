@@ -199,10 +199,9 @@ desktop
 .
 *
 /
-private
 const
 val
-DEFAULT_SUGGESTION_LIMIT
+DEFAULT_SEARCH_TERMS_SUGGESTION_LIMIT
 =
 2
 /
@@ -540,7 +539,7 @@ maxNumberOfSuggestions
 :
 Int
 =
-DEFAULT_SUGGESTION_LIMIT
+DEFAULT_SEARCH_TERMS_SUGGESTION_LIMIT
 private
 val
 icon
