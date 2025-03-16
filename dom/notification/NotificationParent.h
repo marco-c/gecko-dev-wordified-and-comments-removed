@@ -195,6 +195,9 @@ Show
 nsresult
 FireClickEvent
 (
+nsISupports
+*
+aSubject
 )
 ;
 nsresult

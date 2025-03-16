@@ -2200,6 +2200,9 @@ scope
 in
 const_IPCNotificationRef
 aNotification
+in
+AString
+aAction
 )
 ;
 [
