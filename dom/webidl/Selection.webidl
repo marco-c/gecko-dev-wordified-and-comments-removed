@@ -568,6 +568,9 @@ allowPartialContainment
 false
 )
 ;
+[
+NeedsCallerType
+]
 stringifier
 DOMString
 (
