@@ -2438,16 +2438,7 @@ kClosed
 .
 timeout
 =
-webrtc
-:
-:
-TimeDelta
-:
-:
-Millis
-(
 kLongTimeout
-)
 }
 )
 IsRtcOk
