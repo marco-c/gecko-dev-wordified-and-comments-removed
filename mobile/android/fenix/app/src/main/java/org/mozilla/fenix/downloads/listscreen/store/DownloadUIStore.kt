@@ -264,7 +264,7 @@ Editing
 (
 state
 .
-itemsToDisplay
+itemsNotPendingDeletion
 .
 toSet
 (

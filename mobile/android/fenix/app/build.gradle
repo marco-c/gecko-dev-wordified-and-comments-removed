@@ -2056,6 +2056,11 @@ buildFeatures
 compose
 true
 }
+compileOptions
+{
+coreLibraryDesugaringEnabled
+true
+}
 namespace
 '
 org
@@ -6110,6 +6115,14 @@ ExperimentalCoroutinesApi
 }
 dependencies
 {
+coreLibraryDesugaring
+libs
+.
+desugar
+.
+jdk
+.
+libs
 implementation
 libs
 .
