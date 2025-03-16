@@ -1755,9 +1755,6 @@ loadPath
 "
 submissionUrl
 "
-"
-verified
-"
 ]
 )
 {

@@ -1325,11 +1325,6 @@ name
 Simple
 Engine
 "
-origin
-:
-"
-default
-"
 submissionURL
 :
 test

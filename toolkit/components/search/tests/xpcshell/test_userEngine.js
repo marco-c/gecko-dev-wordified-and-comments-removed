@@ -339,11 +339,6 @@ submissionUrl
 blank
 :
 "
-verified
-:
-"
-verified
-"
 }
 }
 )

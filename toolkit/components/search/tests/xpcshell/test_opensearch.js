@@ -725,11 +725,6 @@ submissionUrl
 blank
 :
 "
-verified
-:
-"
-verified
-"
 }
 }
 )

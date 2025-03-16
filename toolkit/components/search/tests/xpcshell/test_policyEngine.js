@@ -424,11 +424,6 @@ submissionUrl
 blank
 :
 "
-verified
-:
-"
-verified
-"
 }
 }
 )
