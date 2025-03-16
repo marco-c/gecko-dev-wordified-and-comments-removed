@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-4d3c369651aa476aa5047dbb7ccc233fceaf6b47
+6608388b3eb97c2f78319b74798cb53fe21c3574
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-a303d5de1bf60b67b58cf8c152dc3cbbea82fdeb
+5963d43536c4d06978782f2d1149a0fd41de6e25
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-39929a48e73c2ff2c1c38554703f1c46a19f7692
+b2b443d269837bf40801b15b7ad899e46d899387
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-d14e6b52090fe5e70cc1da7e08ae16969c9c8a33
+eb5f476611095c7aeeab9eb8fd29795f85579f0d
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-6a133457c75c2b6419b4727584d3da00357ac44e
+197772266b034a0b65a2821eba48f47170341643
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-fb3f95d4c94bb90afcfc91a7d22fa3ab5093fd43
+dd636a536dd4d0cba04c557e7e39acd3a657b7fd
 '
 '
 src
@@ -1459,7 +1459,7 @@ project
 libc
 .
 git
-7ff5af194f96f764ef7178d49da0c304c9f8bfb2
+44258fc58f1db70b223625a1dbc9c1ceea184ecf
 '
 '
 src
@@ -2134,7 +2134,7 @@ com
 boringssl
 .
 git
-626749c0db8f0f42d5799158d9658a122d5fea38
+e4b6d4f754ba9ec2f1b40a4a091d3f6ad01ea084
 '
 '
 src
@@ -2757,7 +2757,7 @@ google
 googletest
 .
 git
-4bbf80823cbf667488b41ab45bf6d1b15580e977
+504ea69cf7e9947be54f808a09b7b08988e84b5f
 '
 '
 src
@@ -3304,7 +3304,7 @@ videolan
 dav1d
 .
 git
-b129d9f2cb897cedba77a60bd5e3621c14ee5484
+edb16889d16f5e13161b6e8f7a839cd82d7d655d
 '
 '
 src
@@ -3403,7 +3403,7 @@ external
 perfetto
 .
 git
-a0e3ba55d82f3371343a696aa08e8d2d840eef9e
+3cb4734421a917fd662ba881bc94a620726ea603
 '
 '
 src
@@ -3473,7 +3473,7 @@ webm
 libvpx
 .
 git
-8058a0b54991257a0e1a2fcf08d993a8b70c1d3a
+7a65480684b1b28bb9defae164bf0dc78b32653e
 '
 '
 src
@@ -3950,7 +3950,7 @@ chromium
 src
 /
 tools
-3c717cb0264292423c10007ba47f0cbb81d348ac
+7d62064da533806af87877eb0c0c88a2c0d211cd
 '
 '
 src
