@@ -145,6 +145,15 @@ test_ext_native_messaging_portal
 js
 "
 ]
+environment
+=
+[
+"
+XPCSHELL_TEST
+=
+1
+"
+]
 run
 -
 if
