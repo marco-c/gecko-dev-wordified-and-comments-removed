@@ -52,6 +52,7 @@ mozbuild
 .
 util
 import
+HierarchicalStringList
 memoize
 from
 .
@@ -131,6 +132,8 @@ LocalInclude
 LocalizedFiles
     
 LocalizedPreprocessedFiles
+    
+MozSrcFiles
     
 ObjdirFiles
     
@@ -9236,6 +9239,70 @@ keys
         
 )
         
+processed_moz_src_files
+=
+None
+        
+if
+"
+MOZ_SRC_FILES
+"
+in
+context
+:
+            
+processed_moz_src_files
+=
+HierarchicalStringList
+(
+)
+            
+for
+file
+in
+context
+.
+get
+(
+"
+MOZ_SRC_FILES
+"
+)
+:
+                
+if
+"
+/
+"
+in
+file
+:
+                    
+processed_moz_src_files
+[
+mozpath
+.
+dirname
+(
+file
+)
+]
++
+=
+[
+file
+]
+                
+else
+:
+                    
+processed_moz_src_files
++
+=
+[
+file
+]
+        
 components
 =
 [
@@ -9284,6 +9351,13 @@ LocalizedPreprocessedFiles
             
 (
 "
+MOZ_SRC_FILES
+"
+MozSrcFiles
+)
+            
+(
+"
 OBJDIR_FILES
 "
 ObjdirFiles
@@ -9306,6 +9380,22 @@ TestHarnessFiles
 )
 :
             
+if
+var
+=
+=
+"
+MOZ_SRC_FILES
+"
+:
+                
+all_files
+=
+processed_moz_src_files
+            
+else
+:
+                
 all_files
 =
 context
