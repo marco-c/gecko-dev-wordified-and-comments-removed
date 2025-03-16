@@ -63,7 +63,9 @@ mozilla
 .
 fenix
 .
-ext
+downloads
+.
+listscreen
 import
 mozilla
 .
@@ -111,9 +113,11 @@ downloads
 .
 listscreen
 .
-DownloadItem
+store
+.
+FileItem
 class
-DownloadItemKtTest
+FileItemToIconMapperTest
 {
 Test
 fun
@@ -122,9 +126,9 @@ getIcon
 )
 {
 val
-downloadItem
+fileItem
 =
-DownloadItem
+FileItem
 (
 id
 =
@@ -171,7 +175,7 @@ R
 drawable
 .
 ic_file_type_image
-downloadItem
+fileItem
 .
 getIcon
 (
@@ -184,7 +188,7 @@ R
 drawable
 .
 ic_file_type_audio_note
-downloadItem
+fileItem
 .
 copy
 (
@@ -208,7 +212,7 @@ R
 drawable
 .
 ic_file_type_video
-downloadItem
+fileItem
 .
 copy
 (
@@ -232,7 +236,7 @@ R
 drawable
 .
 ic_file_type_document
-downloadItem
+fileItem
 .
 copy
 (
@@ -256,7 +260,7 @@ R
 drawable
 .
 ic_file_type_zip
-downloadItem
+fileItem
 .
 copy
 (
@@ -280,7 +284,7 @@ R
 drawable
 .
 ic_file_type_apk
-downloadItem
+fileItem
 .
 copy
 (
@@ -307,7 +311,7 @@ R
 drawable
 .
 ic_file_type_zip
-downloadItem
+fileItem
 .
 copy
 (
@@ -334,7 +338,7 @@ R
 drawable
 .
 ic_file_type_document
-downloadItem
+fileItem
 .
 copy
 (
@@ -361,7 +365,7 @@ R
 drawable
 .
 ic_file_type_default
-downloadItem
+fileItem
 .
 copy
 (
