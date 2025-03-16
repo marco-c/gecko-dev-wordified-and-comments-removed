@@ -4141,10 +4141,6 @@ selection
 Stringify
 (
 str
-CallerType
-:
-:
-System
 mLayoutFlusher
 .
 mAllowFlushing
