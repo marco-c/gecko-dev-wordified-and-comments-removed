@@ -1731,6 +1731,11 @@ nsDirection
 eDirNext
 ;
 }
+void
+RemoveCollapsedRanges
+(
+)
+;
 static
 void
 UpdatePointsToSelectAllChildrenIfCollapsedInEmptyBlockElement
