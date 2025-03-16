@@ -8063,6 +8063,7 @@ qw
 vpx_sad64x64
 neon
 neon_dotprod
+avx512
 avx2
 msa
 sse2
@@ -8099,6 +8100,7 @@ qw
 vpx_sad64x32
 neon
 neon_dotprod
+avx512
 avx2
 msa
 sse2
@@ -8507,6 +8509,7 @@ qw
 vpx_sad_skip_64x64
 neon
 neon_dotprod
+avx512
 avx2
 sse2
 /
@@ -8539,6 +8542,7 @@ qw
 vpx_sad_skip_64x32
 neon
 neon_dotprod
+avx512
 avx2
 sse2
 /
@@ -9448,6 +9452,7 @@ qw
 vpx_sad64x64_avg
 neon
 neon_dotprod
+avx512
 avx2
 msa
 sse2
@@ -9488,6 +9493,7 @@ qw
 vpx_sad64x32_avg
 neon
 neon_dotprod
+avx512
 avx2
 msa
 sse2
