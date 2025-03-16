@@ -3945,7 +3945,7 @@ fsrc
 Cmp
 (
 dest32
-xzr
+wzr
 )
 ;
 B
@@ -3960,7 +3960,7 @@ Signed
 Mov
 (
 dest32
-xzr
+wzr
 )
 ;
 bind
