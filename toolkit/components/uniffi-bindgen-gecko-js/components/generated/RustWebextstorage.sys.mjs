@@ -2382,7 +2382,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+75
 /
 /
 webextstorage
@@ -2528,7 +2528,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+76
 /
 /
 webextstorage
@@ -2644,7 +2644,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+77
 /
 /
 webextstorage
@@ -2780,7 +2780,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+78
 /
 /
 webextstorage
@@ -2886,7 +2886,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+79
 /
 /
 webextstorage
@@ -2996,7 +2996,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+80
 /
 /
 webextstorage
@@ -3132,7 +3132,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+81
 /
 /
 webextstorage
@@ -3310,7 +3310,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+82
 /
 /
 webextstorage
@@ -3458,7 +3458,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+83
 /
 /
 webextstorage
@@ -3564,7 +3564,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+84
 /
 /
 webextstorage
@@ -3675,7 +3675,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-83
+85
 /
 /
 webextstorage
@@ -3775,7 +3775,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+86
 /
 /
 webextstorage
@@ -3875,7 +3875,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+87
 /
 /
 webextstorage
@@ -4293,7 +4293,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-94
+96
 /
 /
 webextstorage
@@ -4393,7 +4393,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+88
 /
 /
 webextstorage
@@ -4539,7 +4539,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+89
 /
 /
 webextstorage
@@ -4645,7 +4645,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+90
 /
 /
 webextstorage
@@ -4827,7 +4827,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-89
+91
 /
 /
 webextstorage
@@ -5021,7 +5021,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-90
+92
 /
 /
 webextstorage
@@ -5147,7 +5147,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+93
 /
 /
 webextstorage
@@ -5329,7 +5329,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+94
 /
 /
 webextstorage
@@ -5523,7 +5523,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+95
 /
 /
 webextstorage

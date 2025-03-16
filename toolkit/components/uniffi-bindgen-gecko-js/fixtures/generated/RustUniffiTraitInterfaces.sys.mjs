@@ -2168,7 +2168,7 @@ UniFFIScaffolding
 .
 callSync
 (
-219
+221
 /
 /
 uniffi_trait_interfaces
@@ -2395,7 +2395,7 @@ UniFFIScaffolding
 .
 callSync
 (
-217
+219
 /
 /
 uniffi_trait_interfaces
@@ -2465,7 +2465,7 @@ UniFFIScaffolding
 .
 callSync
 (
-218
+220
 /
 /
 uniffi_trait_interfaces

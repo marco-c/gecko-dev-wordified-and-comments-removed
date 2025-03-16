@@ -4012,7 +4012,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+105
 /
 /
 fixture_callbacks
@@ -4194,7 +4194,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+106
 /
 /
 fixture_callbacks
@@ -4364,7 +4364,7 @@ UniFFIScaffolding
 .
 callSync
 (
-105
+107
 /
 /
 fixture_callbacks

@@ -3690,7 +3690,7 @@ UniFFIScaffolding
 .
 callSync
 (
-126
+128
 /
 /
 futures
@@ -3837,7 +3837,7 @@ UniFFIScaffolding
 .
 callSync
 (
-123
+125
 /
 /
 futures
@@ -3933,7 +3933,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-124
+126
 /
 /
 futures
@@ -4055,7 +4055,7 @@ UniFFIScaffolding
 .
 callSync
 (
-125
+127
 /
 /
 futures
@@ -4390,7 +4390,7 @@ UniFFIScaffolding
 .
 callSync
 (
-127
+129
 /
 /
 futures
@@ -4772,7 +4772,7 @@ UniFFIScaffolding
 .
 callSync
 (
-129
+131
 /
 /
 futures
@@ -4846,7 +4846,7 @@ UniFFIScaffolding
 .
 callSync
 (
-128
+130
 /
 /
 futures
@@ -5297,7 +5297,7 @@ UniFFIScaffolding
 .
 callSync
 (
-130
+132
 /
 /
 futures
@@ -6066,7 +6066,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-106
+108
 /
 /
 futures
@@ -6189,7 +6189,7 @@ UniFFIScaffolding
 .
 callSync
 (
-107
+109
 /
 /
 futures
@@ -6311,7 +6311,7 @@ UniFFIScaffolding
 .
 callSync
 (
-108
+110
 /
 /
 futures
@@ -6427,7 +6427,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-109
+111
 /
 /
 futures
@@ -6569,7 +6569,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-110
+112
 /
 /
 futures
@@ -6711,7 +6711,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-111
+113
 /
 /
 futures
@@ -6853,7 +6853,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-112
+114
 /
 /
 futures
@@ -6995,7 +6995,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-113
+115
 /
 /
 futures
@@ -7137,7 +7137,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-114
+116
 /
 /
 futures
@@ -7279,7 +7279,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-115
+117
 /
 /
 futures
@@ -7421,7 +7421,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-116
+118
 /
 /
 futures
@@ -7563,7 +7563,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-117
+119
 /
 /
 futures
@@ -7705,7 +7705,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-118
+120
 /
 /
 futures
@@ -7847,7 +7847,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-119
+121
 /
 /
 futures
@@ -7989,7 +7989,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-120
+122
 /
 /
 futures
@@ -8131,7 +8131,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-121
+123
 /
 /
 futures
@@ -8277,7 +8277,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-122
+124
 /
 /
 futures

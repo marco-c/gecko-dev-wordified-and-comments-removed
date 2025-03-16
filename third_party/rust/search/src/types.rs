@@ -320,6 +320,13 @@ Option
 String
 >
 pub
+enterprise_value
+:
+Option
+<
+String
+>
+pub
 experiment_config
 :
 Option
@@ -401,6 +408,13 @@ SearchEngineUrl
 >
 pub
 trending
+:
+Option
+<
+SearchEngineUrl
+>
+pub
+search_form
 :
 Option
 <
@@ -541,10 +555,7 @@ String
 pub
 telemetry_suffix
 :
-Option
-<
 String
->
 pub
 urls
 :
@@ -554,7 +565,7 @@ order_hint
 :
 Option
 <
-u8
+u32
 >
 }
 #
