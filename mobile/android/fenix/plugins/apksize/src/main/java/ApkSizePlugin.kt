@@ -240,6 +240,13 @@ String
 ?
 =
 null
+private
+val
+projectDir
+=
+project
+.
+projectDir
 TaskAction
 fun
 logApkSize
@@ -330,11 +337,7 @@ basePath
 listOf
 (
 "
-{
-project
-.
 projectDir
-}
 "
 "
 build
