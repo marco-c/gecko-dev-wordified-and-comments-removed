@@ -1778,6 +1778,13 @@ openToBrowser
 :
 :
 openToBrowser
+tabsUseCases
+=
+components
+.
+useCases
+.
+tabsUseCases
 webAppUseCases
 =
 webAppUseCases
