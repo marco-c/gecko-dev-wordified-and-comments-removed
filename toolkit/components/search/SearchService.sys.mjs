@@ -18511,7 +18511,9 @@ select
 *
 param
 {
-REASON_CHANGE_MAP
+nsISearchService
+.
+DefaultEngineChangeReason
 }
 changeSource
 *
