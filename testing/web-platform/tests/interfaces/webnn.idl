@@ -112,7 +112,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface
@@ -166,7 +166,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface
@@ -303,7 +303,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface
@@ -382,7 +382,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface
@@ -447,7 +447,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface
@@ -498,7 +498,7 @@ Exposed
 =
 (
 Window
-DedicatedWorker
+Worker
 )
 ]
 interface

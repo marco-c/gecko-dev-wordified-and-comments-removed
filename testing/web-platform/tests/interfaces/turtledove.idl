@@ -108,6 +108,9 @@ allowedReportingOrigins
 DOMString
 adRenderId
 ;
+USVString
+creativeScanningMetadata
+;
 }
 ;
 dictionary
@@ -426,6 +429,9 @@ maxTrustedScoringSignalsURLLength
 ;
 USVString
 trustedScoringSignalsCoordinator
+;
+boolean
+sendCreativeScanningMetadata
 ;
 sequence
 <
@@ -1393,6 +1399,16 @@ boolean
 forDebuggingOnlyInCooldownOrLockout
 =
 false
+;
+USVString
+creativeScanningMetadata
+;
+sequence
+<
+USVString
+?
+>
+adComponentsCreativeScanningMetadata
 ;
 }
 ;
