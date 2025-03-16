@@ -1542,6 +1542,8 @@ try
 i
 "
 )
+try
+{
 if
 (
 SDK_INT
@@ -1569,8 +1571,6 @@ waitingTime
 waitingTimeShort
 )
 }
-try
-{
 var
 retries
 =
