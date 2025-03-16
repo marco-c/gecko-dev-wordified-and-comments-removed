@@ -616,11 +616,6 @@ mBlockDelta
 0
 ;
 nscoord
-mOrthogonalLimit
-=
-NS_UNCONSTRAINEDSIZE
-;
-nscoord
 AvailableWidth
 (
 )
