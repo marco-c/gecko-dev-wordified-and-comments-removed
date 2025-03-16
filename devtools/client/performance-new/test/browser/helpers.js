@@ -2552,6 +2552,10 @@ while
 button
 .
 tagName
+.
+toLowerCase
+(
+)
 !
 =
 =
