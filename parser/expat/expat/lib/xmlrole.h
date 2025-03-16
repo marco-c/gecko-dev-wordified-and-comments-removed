@@ -166,6 +166,7 @@ XmlPrologStateInit
 (
 PROLOG_STATE
 *
+state
 )
 ;
 #
@@ -176,6 +177,7 @@ XmlPrologStateInitExternalEntity
 (
 PROLOG_STATE
 *
+state
 )
 ;
 #
