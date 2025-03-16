@@ -1563,7 +1563,12 @@ self
                      
 context
 :
+Optional
+[
 str
+]
+=
+None
                      
 viewport
 :
@@ -1594,6 +1599,18 @@ Undefined
 ]
 =
 UNDEFINED
+                     
+user_contexts
+:
+Optional
+[
+List
+[
+str
+]
+]
+=
+None
 )
 -
 >
@@ -1613,14 +1630,23 @@ Any
 ]
 =
 {
-            
-"
-context
-"
-:
-context
-        
 }
+        
+if
+context
+is
+not
+None
+:
+            
+params
+[
+"
+context
+"
+]
+=
+context
         
 if
 viewport
@@ -1653,6 +1679,22 @@ devicePixelRatio
 ]
 =
 device_pixel_ratio
+        
+if
+user_contexts
+is
+not
+None
+:
+            
+params
+[
+"
+userContexts
+"
+]
+=
+user_contexts
         
 return
 params
