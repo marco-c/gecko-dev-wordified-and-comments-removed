@@ -86,6 +86,13 @@ build
 mach
 gradle
 downloadDependencies
+-
+-
+no
+-
+configuration
+-
+cache
 .
 /
 mach
@@ -93,6 +100,13 @@ android
 gradle
 -
 dependencies
+-
+-
+no
+-
+configuration
+-
+cache
 pushd
 mobile
 /
