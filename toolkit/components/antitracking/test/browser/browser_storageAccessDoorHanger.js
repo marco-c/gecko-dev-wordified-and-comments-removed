@@ -316,11 +316,11 @@ false
 ]
 [
 "
-privacy
+dom
 .
-restrict3rdpartystorage
+storage_access
 .
-heuristic
+auto_grants
 .
 exclude_third_party_trackers
 "
