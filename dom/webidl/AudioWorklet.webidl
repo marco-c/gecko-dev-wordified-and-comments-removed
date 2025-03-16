@@ -152,10 +152,5 @@ AudioWorklet
 :
 Worklet
 {
-readonly
-attribute
-MessagePort
-port
-;
 }
 ;

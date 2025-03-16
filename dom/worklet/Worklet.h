@@ -69,6 +69,7 @@ uint32_t
 ;
 class
 Worklet
+final
 :
 public
 nsISupports
@@ -180,16 +181,13 @@ return
 mLocalizedStrings
 ;
 }
-protected
+private
 :
-virtual
 ~
 Worklet
 (
 )
 ;
-private
-:
 WorkletFetchHandler
 *
 GetImportFetchHandler

@@ -174,10 +174,5 @@ attribute
 float
 sampleRate
 ;
-readonly
-attribute
-MessagePort
-port
-;
 }
 ;

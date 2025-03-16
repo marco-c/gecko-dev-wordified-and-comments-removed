@@ -524,7 +524,6 @@ mGlobalScope
 =
 ConstructGlobalScope
 (
-cx
 )
 ;
 JS

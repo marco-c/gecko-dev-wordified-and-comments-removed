@@ -399,9 +399,6 @@ WorkletGlobalScope
 >
 ConstructGlobalScope
 (
-JSContext
-*
-aCx
 )
 =
 0

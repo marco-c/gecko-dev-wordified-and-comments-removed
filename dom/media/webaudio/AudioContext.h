@@ -219,9 +219,6 @@ class
 AudioNode
 ;
 class
-AudioWorklet
-;
-class
 BiquadFilterNode
 ;
 class
@@ -286,6 +283,9 @@ StereoPannerNode
 ;
 class
 WaveShaperNode
+;
+class
+Worklet
 ;
 class
 PeriodicWave
@@ -731,7 +731,7 @@ AudioTimestamp
 aTimeStamp
 )
 ;
-AudioWorklet
+Worklet
 *
 GetAudioWorklet
 (
@@ -1475,7 +1475,7 @@ mListener
 ;
 RefPtr
 <
-AudioWorklet
+Worklet
 >
 mWorklet
 ;

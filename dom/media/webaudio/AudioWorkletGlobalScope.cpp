@@ -158,7 +158,6 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 AudioWorkletGlobalScope
 WorkletGlobalScope
 mNameToProcessorMap
-mPort
 )
 ;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
