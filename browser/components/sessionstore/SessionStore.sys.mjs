@@ -35626,7 +35626,7 @@ i
 ]
 endPosition
 {
-forceUngrouped
+forceStandaloneTab
 :
 true
 }
