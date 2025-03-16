@@ -446,6 +446,16 @@ project
 :
 support
 -
+remotesettings
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
 rusthttp
 '
 )

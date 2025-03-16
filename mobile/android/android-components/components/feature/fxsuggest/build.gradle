@@ -286,6 +286,16 @@ project
 :
 support
 -
+remotesettings
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
 ktx
 '
 )
