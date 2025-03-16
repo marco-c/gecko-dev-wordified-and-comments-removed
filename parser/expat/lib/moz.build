@@ -20,6 +20,11 @@ expat_external
 .
 h
 '
+'
+moz_expat
+.
+h
+'
 ]
 if
 CONFIG
@@ -34,7 +39,7 @@ SOURCES
 =
 [
 '
-xmltok
+moz_xmltok
 .
 c
 '
