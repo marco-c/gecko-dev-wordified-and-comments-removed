@@ -553,15 +553,6 @@ aPriority
 #
 endif
 async
-SetCaretOffset
-(
-uint64_t
-aID
-int32_t
-aOffset
-)
-;
-async
 SetTextSelection
 (
 uint64_t

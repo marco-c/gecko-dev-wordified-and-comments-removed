@@ -1226,15 +1226,6 @@ aHow
 const
 override
 ;
-virtual
-void
-SetCaretOffset
-(
-int32_t
-aOffset
-)
-override
-;
 uintptr_t
 GetWrapper
 (

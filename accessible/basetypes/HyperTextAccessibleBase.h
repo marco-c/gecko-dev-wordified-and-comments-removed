@@ -190,6 +190,7 @@ CaretOffset
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 SetCaretOffset
@@ -197,8 +198,6 @@ SetCaretOffset
 int32_t
 aOffset
 )
-=
-0
 ;
 virtual
 int32_t
