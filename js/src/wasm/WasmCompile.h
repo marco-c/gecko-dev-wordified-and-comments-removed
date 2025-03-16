@@ -60,7 +60,7 @@ CompileArgs
 &
 args
 const
-ShareableBytes
+BytecodeBufferOrSource
 &
 bytecode
 UniqueChars
@@ -83,9 +83,9 @@ bool
 CompileCompleteTier2
 (
 const
-Bytes
-&
-bytecode
+ShareableBytes
+*
+codeSection
 const
 Module
 &
@@ -150,7 +150,7 @@ bool
 reached
 ;
 const
-Bytes
+ShareableBytes
 *
 tailBytes
 ;
@@ -164,6 +164,10 @@ StreamEndData
 reached
 (
 false
+)
+tailBytes
+(
+nullptr
 )
 {
 }
@@ -185,11 +189,11 @@ CompileArgs
 &
 args
 const
-Bytes
+ShareableBytes
 &
 envBytes
 const
-Bytes
+ShareableBytes
 &
 codeBytes
 const
