@@ -47,6 +47,11 @@ Sanitizer
 h
 "
 "
+SanitizerDefaultConfig
+.
+h
+"
+"
 SanitizerTypes
 .
 h

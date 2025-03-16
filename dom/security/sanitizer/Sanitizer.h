@@ -343,6 +343,11 @@ Sanitizer
 default
 ;
 void
+SetDefaultConfig
+(
+)
+;
+void
 SetConfig
 (
 const

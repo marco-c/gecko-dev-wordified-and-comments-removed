@@ -232,6 +232,15 @@ use_counter_metrics
 yaml
 dom
 /
+security
+/
+sanitizer
+/
+SanitizerDefaultConfig
+.
+h
+dom
+/
 tests
 /
 ajax
