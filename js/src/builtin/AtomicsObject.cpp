@@ -4267,9 +4267,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 atomics_pause
@@ -4367,8 +4364,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 js
 :
@@ -5441,9 +5436,6 @@ atomics_notify
 3
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_INLINABLE_FN
 (
 "
@@ -5454,8 +5446,6 @@ atomics_pause
 0
 AtomicsPause
 )
-#
-endif
 JS_FS_END
 }
 ;
