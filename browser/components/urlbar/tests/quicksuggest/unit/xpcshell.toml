@@ -176,6 +176,13 @@ js
 ]
 [
 "
+test_quicksuggest_remoteSettingsFilter
+.
+js
+"
+]
+[
+"
 test_quicksuggest_scoreMap
 .
 js
