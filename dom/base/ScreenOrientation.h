@@ -206,6 +206,15 @@ BrowsingContext
 aBrowsingContext
 )
 ;
+static
+void
+DispatchChangeEventToChildren
+(
+BrowsingContext
+*
+aBrowsingContext
+)
+;
 private
 :
 virtual
