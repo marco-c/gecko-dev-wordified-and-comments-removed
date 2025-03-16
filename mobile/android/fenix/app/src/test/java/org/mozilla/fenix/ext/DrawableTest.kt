@@ -210,6 +210,12 @@ boundsChanged
 Boolean
 =
 false
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 getOpacity

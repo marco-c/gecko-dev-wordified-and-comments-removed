@@ -1573,6 +1573,12 @@ CustomTabSessionState
 )
 )
 }
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 final
 override
 fun

@@ -409,6 +409,12 @@ Configuration
 )
 {
 }
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onLowMemory

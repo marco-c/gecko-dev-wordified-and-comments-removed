@@ -653,6 +653,12 @@ VIBRATE_LENGTH
 =
 200L
 }
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onRequestPermissionsResult
