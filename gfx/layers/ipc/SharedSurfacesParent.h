@@ -52,17 +52,6 @@ include
 "
 mozilla
 /
-ipc
-/
-SharedMemory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D

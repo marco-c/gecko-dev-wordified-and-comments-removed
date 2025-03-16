@@ -379,7 +379,7 @@ ipc
 shared_memory
 :
 :
-Handle
+MutableHandle
 handle
 ;
 if
