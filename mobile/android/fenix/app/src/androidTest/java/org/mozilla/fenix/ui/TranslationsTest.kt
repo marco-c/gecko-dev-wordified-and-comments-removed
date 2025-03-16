@@ -77,6 +77,14 @@ junit4
 .
 AndroidComposeTestRule
 import
+androidx
+.
+core
+.
+net
+.
+toUri
+import
 org
 .
 junit
