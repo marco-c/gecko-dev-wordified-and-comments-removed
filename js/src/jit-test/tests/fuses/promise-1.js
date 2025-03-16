@@ -273,3 +273,13 @@ false
 ;
 )
 ;
+assertEq
+(
+getUseCounterResults
+(
+)
+.
+OptimizePromiseLookupFuse
+4
+)
+;
