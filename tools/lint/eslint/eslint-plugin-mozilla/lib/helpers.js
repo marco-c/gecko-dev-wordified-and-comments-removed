@@ -2612,8 +2612,10 @@ content
 "
 "
 browser
+-
+main
 .
-xhtml
+js
 "
 )
 path
@@ -2637,7 +2639,7 @@ global
 -
 scripts
 .
-inc
+js
 "
 )
 ]
