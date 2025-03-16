@@ -728,6 +728,8 @@ TaggedParserAtomIndex
 nameForAnonymousClass
 bool
 hasNameOnStack
+uint8_t
+membersCount
 )
 ;
 [
