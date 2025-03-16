@@ -115,14 +115,14 @@ mozilla
 ipc
 :
 :
-MutableSharedMemoryHandle
+SharedMemoryHandle
 from
 "
 mozilla
 /
 ipc
 /
-SharedMemoryHandle
+SharedMemory
 .
 h
 "
@@ -425,7 +425,7 @@ InitForIdleUse
 )
 returns
 (
-MutableSharedMemoryHandle
+SharedMemoryHandle
 ?
 state
 uint32_t

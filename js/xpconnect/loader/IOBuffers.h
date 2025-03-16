@@ -330,7 +330,6 @@ InputBuffer
 const
 Range
 <
-const
 uint8_t
 >
 &
@@ -343,19 +342,6 @@ buffer
 )
 {
 }
-template
-<
-typename
-T
->
-explicit
-InputBuffer
-(
-T
-)
-=
-delete
-;
 const
 uint8_t
 *
@@ -373,9 +359,7 @@ size
 )
 )
 ;
-const
 auto
-*
 buf
 =
 &
@@ -701,7 +685,6 @@ public
 const
 Range
 <
-const
 uint8_t
 >
 &

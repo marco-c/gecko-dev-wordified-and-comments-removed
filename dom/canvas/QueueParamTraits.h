@@ -59,6 +59,17 @@ include
 "
 mozilla
 /
+ipc
+/
+SharedMemory
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h

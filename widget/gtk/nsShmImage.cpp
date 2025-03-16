@@ -35,7 +35,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryMapping
+SharedMemory
 .
 h
 "
@@ -269,7 +269,7 @@ CreateShmSegment
 size_t
 size
 =
-shared_memory
+SharedMemory
 :
 :
 PageAlignedSize

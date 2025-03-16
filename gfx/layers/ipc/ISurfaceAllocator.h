@@ -54,6 +54,17 @@ include
 "
 mozilla
 /
+ipc
+/
+SharedMemory
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

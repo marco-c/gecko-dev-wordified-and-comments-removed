@@ -12,7 +12,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryMapping
+SharedMemory
 .
 h
 "
@@ -251,7 +251,7 @@ alignedSize
 ipc
 :
 :
-shared_memory
+SharedMemory
 :
 :
 PageAlignedSize

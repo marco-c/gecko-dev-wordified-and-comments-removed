@@ -68,7 +68,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryHandle
+SharedMemory
 .
 h
 "
@@ -1849,7 +1849,6 @@ static
 void
 DeserializePreferences
 (
-const
 char
 *
 aStr
@@ -1857,6 +1856,9 @@ size_t
 aPrefsLen
 )
 ;
+#
+ifndef
+RUST_BINDGEN
 static
 mozilla
 :
@@ -1864,9 +1866,12 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemoryHandle
 EnsureSnapshot
 (
+size_t
+*
+aSize
 )
 ;
 static
@@ -1880,10 +1885,14 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemoryHandle
 &
+size_t
+aSize
 )
 ;
+#
+endif
 static
 void
 GetPreference

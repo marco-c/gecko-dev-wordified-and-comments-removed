@@ -33,6 +33,11 @@ TestSharedMemory
 .
 cpp
 "
+"
+TestUnsafeSharedMemoryHandle
+.
+cpp
+"
 ]
 include
 (

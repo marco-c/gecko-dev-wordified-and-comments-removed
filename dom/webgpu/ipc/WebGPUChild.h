@@ -50,6 +50,13 @@ namespace
 mozilla
 {
 namespace
+ipc
+{
+class
+UnsafeSharedMemoryHandle
+;
+}
+namespace
 dom
 {
 struct

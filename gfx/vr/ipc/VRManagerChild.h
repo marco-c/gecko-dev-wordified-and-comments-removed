@@ -69,6 +69,17 @@ include
 "
 mozilla
 /
+ipc
+/
+SharedMemory
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 ISurfaceAllocator

@@ -363,8 +363,6 @@ BigBuffer
 kShmemThreshold
 *
 2
-+
-41
 ;
 nsTArray
 <
@@ -442,10 +440,7 @@ GetSharedMemory
 )
 -
 >
-DataAs
-<
-uint8_t
->
+Memory
 (
 )
 in
@@ -523,10 +518,7 @@ GetSharedMemory
 )
 -
 >
-DataAs
-<
-uint8_t
->
+Memory
 (
 )
 out

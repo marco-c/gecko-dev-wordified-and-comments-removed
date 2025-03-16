@@ -67,7 +67,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryMapping
+SharedMemory
 .
 h
 "
@@ -332,6 +332,13 @@ return
 mRequestedIdleBudget
 ;
 }
+static
+RefPtr
+<
+SharedMemory
+>
+sActiveChildCounter
+;
 static
 std
 :

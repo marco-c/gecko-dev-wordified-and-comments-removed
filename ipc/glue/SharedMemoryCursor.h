@@ -49,7 +49,7 @@ default
 explicit
 Cursor
 (
-MutableHandle
+Handle
 &
 &
 aHandle
@@ -149,7 +149,7 @@ uint64_t
 aOffset
 )
 ;
-MutableHandle
+Handle
 TakeHandle
 (
 )
@@ -285,10 +285,10 @@ EnsureMapping
 (
 )
 ;
-MutableHandle
+Handle
 mHandle
 ;
-MutableMapping
+Mapping
 mMapping
 ;
 uint64_t
