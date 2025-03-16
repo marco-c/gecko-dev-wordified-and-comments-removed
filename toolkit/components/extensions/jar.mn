@@ -237,6 +237,9 @@ contentScripts
 .
 js
 )
+#
+ifndef
+ANDROID
 content
 /
 extensions
@@ -257,6 +260,8 @@ contextualIdentities
 .
 js
 )
+#
+endif
 content
 /
 extensions

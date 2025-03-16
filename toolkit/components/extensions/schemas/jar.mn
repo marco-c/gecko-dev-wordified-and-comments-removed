@@ -142,6 +142,9 @@ schemas
 content_scripts
 .
 json
+#
+ifndef
+ANDROID
 content
 /
 extensions
@@ -151,6 +154,8 @@ schemas
 contextual_identities
 .
 json
+#
+endif
 content
 /
 extensions
