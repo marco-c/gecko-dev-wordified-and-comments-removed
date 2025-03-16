@@ -2357,6 +2357,15 @@ uint32_t
 aTime
 )
 {
+{
+WaylandSurfaceLock
+lock
+(
+mSurface
+true
+)
+;
+}
 if
 (
 aTime

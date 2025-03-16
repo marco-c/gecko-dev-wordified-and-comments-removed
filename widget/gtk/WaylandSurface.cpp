@@ -2812,7 +2812,7 @@ aProofOfLock
 nullptr
 aParentWaylandSurfaceLock
 aSubsurfacePosition
-true
+false
 false
 )
 ;
