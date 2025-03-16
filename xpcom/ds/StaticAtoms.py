@@ -26554,19 +26554,6 @@ fill
 "
 )
     
-PseudoElementAtom
-(
-"
-PseudoElement_detailsContent
-"
-"
-:
-details
--
-content
-"
-)
-    
 NonInheritingAnonBoxAtom
 (
 "
