@@ -5517,6 +5517,13 @@ http2
 ]
 [
 "
+browser_webconsole_trusted_types
+.
+js
+"
+]
+[
+"
 browser_webconsole_uncaught_exception
 .
 js
