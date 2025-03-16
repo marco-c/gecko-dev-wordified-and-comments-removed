@@ -32,3 +32,10 @@ test_AboutNewTab
 js
 "
 ]
+[
+"
+test_AboutNewTabRedirector
+.
+js
+"
+]

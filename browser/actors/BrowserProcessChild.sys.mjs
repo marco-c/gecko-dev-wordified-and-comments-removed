@@ -78,7 +78,7 @@ resource
 /
 modules
 /
-AboutNewTabService
+AboutNewTabRedirector
 .
 sys
 .
