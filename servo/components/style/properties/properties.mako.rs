@@ -10896,6 +10896,7 @@ resolve_color
 self
 color
 :
+&
 computed
 :
 :
