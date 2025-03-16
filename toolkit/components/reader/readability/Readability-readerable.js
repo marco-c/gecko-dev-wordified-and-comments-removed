@@ -104,6 +104,7 @@ node
 {
 return
 (
+(
 !
 node
 .
@@ -175,14 +176,14 @@ node
 .
 className
 .
-indexOf
+includes
 &
 &
 node
 .
 className
 .
-indexOf
+includes
 (
 "
 fallback
@@ -190,11 +191,7 @@ fallback
 image
 "
 )
-!
-=
-=
--
-1
+)
 )
 )
 ;
