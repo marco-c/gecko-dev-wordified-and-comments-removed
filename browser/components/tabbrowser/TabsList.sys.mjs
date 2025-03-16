@@ -2391,6 +2391,14 @@ appendChild
 muteButton
 )
 ;
+if
+(
+!
+tab
+.
+pinned
+)
+{
 let
 closeButton
 =
@@ -2475,6 +2483,7 @@ appendChild
 closeButton
 )
 ;
+}
 this
 .
 _setRowAttributes
