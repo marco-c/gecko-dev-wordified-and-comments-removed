@@ -1686,7 +1686,6 @@ static
 Atomic
 <
 size_t
-ReleaseAcquire
 >
 gRecycledSize
 ;
