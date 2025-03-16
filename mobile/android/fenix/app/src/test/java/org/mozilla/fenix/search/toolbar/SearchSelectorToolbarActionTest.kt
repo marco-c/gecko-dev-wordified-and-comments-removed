@@ -1681,6 +1681,15 @@ true
 showNonSponsoredSuggestions
 =
 true
+showTrendingSearches
+=
+false
+showRecentSearches
+=
+false
+showShortcutsSuggestions
+=
+false
 tabId
 =
 "

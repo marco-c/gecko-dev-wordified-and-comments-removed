@@ -671,6 +671,15 @@ false
 showNonSponsoredSuggestions
 =
 false
+showTrendingSearches
+=
+false
+showRecentSearches
+=
+false
+showShortcutsSuggestions
+=
+false
 searchAccessPoint
 =
 MetricsUtils
