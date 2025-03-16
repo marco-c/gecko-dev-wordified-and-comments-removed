@@ -712,6 +712,7 @@ nsGkAtoms
 :
 abbr
 nullptr
+nullptr
 }
 ;
 constexpr
@@ -856,6 +857,7 @@ nsGkAtoms
 :
 :
 accentunder
+nullptr
 nullptr
 }
 ;
