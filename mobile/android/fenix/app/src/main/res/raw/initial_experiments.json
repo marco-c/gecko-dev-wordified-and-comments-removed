@@ -1582,7 +1582,7 @@ use
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -2190,7 +2190,13 @@ startDate
 enrollmentEndDate
 "
 :
-null
+"
+2025
+-
+03
+-
+13
+"
 "
 endDate
 "
