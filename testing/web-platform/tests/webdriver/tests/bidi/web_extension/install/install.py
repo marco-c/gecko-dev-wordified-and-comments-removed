@@ -1,5 +1,10 @@
 import
 pytest
+from
+.
+.
+import
+assert_extension_id
 pytest
 .
 mark
@@ -54,16 +59,11 @@ base64
 try
 :
         
-assert
+assert_extension_id
+(
 web_extension
-=
-=
 extension_data
-[
-"
-id
-"
-]
+)
     
 finally
 :
@@ -133,37 +133,11 @@ path
 try
 :
         
-if
-extension_data
-[
-"
-id
-"
-]
-is
-None
-:
-          
-assert
-isinstance
+assert_extension_id
 (
 web_extension
-str
-)
-        
-else
-:
-          
-assert
-web_extension
-=
-=
 extension_data
-[
-"
-id
-"
-]
+)
     
 finally
 :
@@ -233,16 +207,11 @@ archivePath
 try
 :
         
-assert
+assert_extension_id
+(
 web_extension
-=
-=
 extension_data
-[
-"
-id
-"
-]
+)
     
 finally
 :
