@@ -296,6 +296,8 @@ firefox
 /
 current
 /
+usr
+/
 lib
 /
 firefox
