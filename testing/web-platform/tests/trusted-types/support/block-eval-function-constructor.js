@@ -43,12 +43,12 @@ compilationSink
 sink
 ;
 return
-modified
-'
 {
 s
 }
-'
+/
+/
+modified
 ;
 }
 }
