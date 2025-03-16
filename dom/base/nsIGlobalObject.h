@@ -806,13 +806,6 @@ GetAsInnerWindow
 (
 )
 ;
-virtual
-void
-TriggerUpdateCCFlag
-(
-)
-{
-}
 void
 QueueMicrotask
 (
