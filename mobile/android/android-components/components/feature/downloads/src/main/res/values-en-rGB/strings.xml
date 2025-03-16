@@ -373,6 +373,7 @@ could
 not
 be
 opened
+.
 -
 -
 >
@@ -407,6 +408,11 @@ is
 a
 specific
 type
+(
+%
+1
+s
+)
 that
 Android
 doesn
@@ -414,6 +420,7 @@ doesn
 t
 support
 opening
+.
 -
 -
 >
@@ -449,6 +456,7 @@ the
 download
 when
 pressed
+.
 -
 -
 >
@@ -476,6 +484,7 @@ the
 download
 when
 pressed
+.
 -
 -
 >
@@ -503,6 +512,7 @@ the
 download
 when
 pressed
+.
 -
 -
 >
@@ -531,6 +541,7 @@ downloaded
 file
 when
 pressed
+.
 -
 -
 >
@@ -560,6 +571,7 @@ after
 a
 failed
 attempt
+.
 -
 -
 >

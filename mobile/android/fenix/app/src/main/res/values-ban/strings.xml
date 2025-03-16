@@ -33,9 +33,9 @@ in
 app
 bar
 .
-The
-first
-parameter
+%
+1
+d
 is
 the
 number
@@ -243,9 +243,8 @@ suggestion
 title
 text
 .
-The
-first
-parameter
+%
+s
 is
 the
 name
@@ -253,6 +252,7 @@ of
 the
 suggested
 engine
+.
 -
 -
 >
