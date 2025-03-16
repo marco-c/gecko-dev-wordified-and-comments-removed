@@ -360,17 +360,6 @@ large_arraybuffers
 =
 true
 "
-"
-javascript
-.
-options
-.
-experimental
-.
-import_attributes
-=
-true
-"
 ]
 [
 "

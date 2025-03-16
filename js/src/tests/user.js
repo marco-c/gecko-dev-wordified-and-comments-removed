@@ -389,17 +389,3 @@ iterator_helpers
 true
 )
 ;
-user_pref
-(
-"
-javascript
-.
-options
-.
-experimental
-.
-import_attributes
-"
-true
-)
-;
