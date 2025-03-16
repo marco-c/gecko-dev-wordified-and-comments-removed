@@ -5,8 +5,6 @@ idl_test
 sanitizer
 -
 api
-.
-tentative
 '
 ]
 [
