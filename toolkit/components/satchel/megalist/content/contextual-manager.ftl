@@ -3281,11 +3281,11 @@ discard
 -
 changes
 -
-confirm
+close
 -
 button
 =
-Confirm
+Close
 passwords
 -
 discard
