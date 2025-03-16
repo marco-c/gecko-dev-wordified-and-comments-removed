@@ -553,14 +553,6 @@ msg
 args
 )
 ;
-printf
-(
-"
-\
-n
-"
-)
-;
 va_end
 (
 args
