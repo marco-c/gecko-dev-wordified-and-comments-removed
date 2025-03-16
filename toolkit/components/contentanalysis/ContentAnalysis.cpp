@@ -8611,10 +8611,10 @@ response
 }
 }
 }
-MOZ_ASSERT
+if
 (
 action
-!
+=
 =
 nsIContentAnalysisResponse
 :
@@ -8624,7 +8624,10 @@ Action
 :
 eWarn
 )
+{
+return
 ;
+}
 RemoveFromUserActionMap
 (
 nsCString
