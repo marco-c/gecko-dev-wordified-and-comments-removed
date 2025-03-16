@@ -253,6 +253,10 @@ URI
 create
 (
 url
+.
+trim
+(
+)
 )
 when
 {
