@@ -508,6 +508,11 @@ nsIStreamTransportService
 idl
 "
 "
+nsISuspendableChannelWrapper
+.
+idl
+"
+"
 nsISyncStreamListener
 .
 idl
@@ -1175,6 +1180,11 @@ cpp
 "
 "
 SSLTokensCache
+.
+cpp
+"
+"
+SuspendableChannelWrapper
 .
 cpp
 "

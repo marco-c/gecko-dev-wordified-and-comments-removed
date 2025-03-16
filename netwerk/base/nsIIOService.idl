@@ -33,6 +33,9 @@ nsILoadInfo
 interface
 nsIWebTransport
 ;
+interface
+nsISuspendableChannelWrapper
+;
 webidl
 Node
 ;
@@ -306,6 +309,14 @@ aSecurityFlags
 in
 nsContentPolicyType
 aContentPolicyType
+)
+;
+nsISuspendableChannelWrapper
+newSuspendableChannelWrapper
+(
+in
+nsIChannel
+innerChannel
 )
 ;
 nsIWebTransport

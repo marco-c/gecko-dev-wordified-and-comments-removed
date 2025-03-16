@@ -7010,6 +7010,13 @@ js
 ]
 [
 "
+test_suspendable_channel_wrapper
+.
+js
+"
+]
+[
+"
 test_synthesized_response
 .
 js
