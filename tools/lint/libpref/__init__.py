@@ -79,7 +79,7 @@ enabled
 "
 extensions
 .
-backgroundServiceWorkerEnabled
+backgroundServiceWorker
 .
 enabled
 "
