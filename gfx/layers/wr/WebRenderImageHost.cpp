@@ -269,6 +269,13 @@ OnReleased
 (
 )
 {
+ImageComposite
+:
+:
+ClearImages
+(
+)
+;
 if
 (
 !
@@ -286,6 +293,11 @@ clear
 )
 ;
 }
+SetCurrentTextureHost
+(
+nullptr
+)
+;
 }
 void
 WebRenderImageHost
