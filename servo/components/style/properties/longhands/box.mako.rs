@@ -3409,13 +3409,6 @@ engines
 gecko
 servo
 "
-servo_pref
-=
-"
-layout
-.
-unimplemented
-"
 animation_type
 =
 "
