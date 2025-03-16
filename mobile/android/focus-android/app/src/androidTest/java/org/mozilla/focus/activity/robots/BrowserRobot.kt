@@ -886,7 +886,7 @@ camera
 fun
 verifyCameraPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -905,7 +905,7 @@ text
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -924,7 +924,7 @@ waitingTime
 fun
 verifyLocationPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -943,7 +943,7 @@ text
 (
 "
 Allow
-url
+host
 to
 use
 your

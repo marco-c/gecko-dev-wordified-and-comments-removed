@@ -296,13 +296,9 @@ permissions
 "
 private
 val
-testPageSubstring
+testPageHost
 =
 "
-https
-:
-/
-/
 mozilla
 -
 mobile
@@ -310,8 +306,6 @@ mobile
 github
 .
 io
-:
-443
 "
 private
 val
@@ -512,7 +506,7 @@ clickStartAudioVideoButton
 {
 verifyAudioVideoPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -629,7 +623,7 @@ clickStartAudioVideoButton
 {
 verifyAudioVideoPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -760,7 +754,7 @@ clickStartAudioVideoButton
 {
 verifyAudioVideoPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -879,7 +873,7 @@ clickStartMicrophoneButton
 {
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -982,7 +976,7 @@ clickStartMicrophoneButton
 {
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -1099,7 +1093,7 @@ clickStartMicrophoneButton
 {
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -1214,7 +1208,7 @@ clickStartCameraButton
 {
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -1317,7 +1311,7 @@ clickStartCameraButton
 {
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -1434,7 +1428,7 @@ clickStartCameraButton
 {
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -1534,7 +1528,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -1571,7 +1565,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+testPageHost
 true
 )
 }
@@ -1626,7 +1620,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -1700,7 +1694,7 @@ clickGetLocationButton
 {
 verifyLocationPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .
@@ -1781,7 +1775,7 @@ clickGetLocationButton
 {
 verifyLocationPermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 .

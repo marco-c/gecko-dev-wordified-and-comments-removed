@@ -256,7 +256,7 @@ SitePermissionsRobot
 fun
 verifyMicrophonePermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -269,7 +269,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -345,7 +345,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -384,7 +384,7 @@ Allow
 fun
 verifyCameraPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -397,7 +397,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -473,7 +473,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -512,7 +512,7 @@ Allow
 fun
 verifyAudioVideoPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -523,7 +523,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -562,7 +562,7 @@ Allow
 fun
 verifyLocationPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -575,7 +575,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -651,7 +651,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 use
 your
@@ -690,7 +690,7 @@ Allow
 fun
 verifyNotificationsPermissionPrompt
 (
-url
+host
 :
 String
 blocked
@@ -714,7 +714,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 send
 notifications
@@ -787,7 +787,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 send
 notifications
@@ -859,7 +859,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 send
 notifications
@@ -875,7 +875,7 @@ false
 fun
 verifyPersistentStoragePermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -888,7 +888,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 store
 data
@@ -966,7 +966,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 store
 data
@@ -1007,7 +1007,7 @@ Allow
 fun
 verifyDRMContentPermissionPrompt
 (
-url
+host
 :
 String
 )
@@ -1020,7 +1020,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 play
 DRM
@@ -1098,7 +1098,7 @@ itemWithText
 (
 "
 Allow
-url
+host
 to
 play
 DRM
@@ -1139,10 +1139,10 @@ Allow
 fun
 verifyCrossOriginCookiesPermissionPrompt
 (
-originSite
+originHost
 :
 String
-currentSite
+currentHost
 :
 String
 )
@@ -1163,13 +1163,13 @@ for
 \
 "
 Allow
-originSite
+originHost
 to
 use
 its
 cookies
 on
-currentSite
+currentHost
 ?
 \
 "
@@ -1190,13 +1190,13 @@ text
 (
 "
 Allow
-originSite
+originHost
 to
 use
 its
 cookies
 on
-currentSite
+currentHost
 ?
 "
 )
@@ -1222,13 +1222,13 @@ for
 \
 "
 Allow
-originSite
+originHost
 to
 use
 its
 cookies
 on
-currentSite
+currentHost
 ?
 \
 "
@@ -1268,13 +1268,13 @@ withText
 (
 "
 Allow
-originSite
+originHost
 to
 use
 its
 cookies
 on
-currentSite
+currentHost
 ?
 "
 )
@@ -1345,7 +1345,7 @@ R
 string
 .
 mozac_feature_sitepermissions_storage_access_message
-originSite
+originHost
 )
 )
 )

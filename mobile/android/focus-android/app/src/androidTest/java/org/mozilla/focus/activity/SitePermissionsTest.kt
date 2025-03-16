@@ -390,13 +390,9 @@ permissions
 "
 private
 val
-testPageSubstring
+permissionsPageHost
 =
 "
-https
-:
-/
-/
 mozilla
 -
 mobile
@@ -404,8 +400,6 @@ mobile
 github
 .
 io
-:
-443
 "
 private
 val
@@ -1122,7 +1116,7 @@ clickGetLocationButton
 )
 verifyLocationPermissionPrompt
 (
-testPageSubstring
+permissionsPageHost
 )
 denySitePermissionRequest
 (
@@ -1192,7 +1186,7 @@ clickGetLocationButton
 )
 verifyLocationPermissionPrompt
 (
-testPageSubstring
+permissionsPageHost
 )
 allowSitePermissionRequest
 (
@@ -1255,7 +1249,7 @@ grantAppPermission
 )
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+permissionsPageHost
 )
 allowSitePermissionRequest
 (
@@ -1305,7 +1299,7 @@ grantAppPermission
 )
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+permissionsPageHost
 )
 denySitePermissionRequest
 (

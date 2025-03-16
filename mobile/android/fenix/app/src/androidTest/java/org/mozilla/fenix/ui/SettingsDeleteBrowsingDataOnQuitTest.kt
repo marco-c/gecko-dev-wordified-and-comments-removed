@@ -1102,13 +1102,9 @@ testapp
 permissions
 "
 val
-testPageSubstring
+testPageHost
 =
 "
-https
-:
-/
-/
 mozilla
 -
 mobile
@@ -1116,8 +1112,6 @@ mobile
 github
 .
 io
-:
-443
 "
 homeScreen
 {
@@ -1166,7 +1160,7 @@ clickStartMicrophoneButton
 {
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 selectRememberPermissionDecision
 (
@@ -1235,7 +1229,7 @@ clickStartMicrophoneButton
 {
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+testPageHost
 )
 }
 }

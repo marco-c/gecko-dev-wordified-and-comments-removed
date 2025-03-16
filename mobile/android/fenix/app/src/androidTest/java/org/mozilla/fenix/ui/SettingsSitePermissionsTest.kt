@@ -354,7 +354,7 @@ permissions
 "
 private
 val
-permissionsTestPageHost
+permissionsTestPageOrigin
 =
 "
 https
@@ -371,13 +371,9 @@ io
 "
 private
 val
-testPageSubstring
+permissionsTestPageHost
 =
 "
-https
-:
-/
-/
 mozilla
 -
 mobile
@@ -385,8 +381,6 @@ mobile
 github
 .
 io
-:
-443
 "
 get
 :
@@ -1728,7 +1722,7 @@ grantSystemPermission
 )
 verifyCameraPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -1837,7 +1831,7 @@ grantSystemPermission
 )
 verifyMicrophonePermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -1943,7 +1937,7 @@ clickGetLocationButton
 {
 verifyLocationPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -2050,7 +2044,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -2156,7 +2150,7 @@ clickRequestPersistentStorageAccessButton
 {
 verifyPersistentStoragePermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -2263,7 +2257,7 @@ clickRequestDRMControlledContentAccessButton
 {
 verifyDRMContentPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 pressBack
 (
@@ -2426,7 +2420,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 }
 .
@@ -2453,7 +2447,7 @@ openExceptions
 {
 verifyExceptionCreated
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 true
 )
 clickClearPermissionsOnAllSites
@@ -2526,7 +2520,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 }
 .
@@ -2553,12 +2547,12 @@ openExceptions
 {
 verifyExceptionCreated
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 true
 )
 openSiteExceptionsDetails
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 )
 clickClearPermissionsForOneSite
 (
@@ -2630,7 +2624,7 @@ clickOpenNotificationButton
 {
 verifyNotificationsPermissionPrompt
 (
-testPageSubstring
+permissionsTestPageHost
 )
 }
 .
@@ -2657,12 +2651,12 @@ openExceptions
 {
 verifyExceptionCreated
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 true
 )
 openSiteExceptionsDetails
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 )
 verifyPermissionSettingSummary
 (
@@ -2735,7 +2729,7 @@ is
 fixed
 verifyExceptionCreated
 (
-permissionsTestPageHost
+permissionsTestPageOrigin
 true
 )
 }
