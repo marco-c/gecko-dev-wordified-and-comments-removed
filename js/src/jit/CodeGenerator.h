@@ -637,14 +637,6 @@ ool
 )
 ;
 void
-emitStoreElementHoleOOL
-(
-LInstruction
-*
-lir
-)
-;
-void
 emitIsCallableOOL
 (
 Register
