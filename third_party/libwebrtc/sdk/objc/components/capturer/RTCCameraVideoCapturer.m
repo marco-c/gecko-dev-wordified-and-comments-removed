@@ -515,6 +515,8 @@ was
 still
 running
 in
+"
+"
 RTC_OBJC_TYPE
 (
 RTCCameraVideoCapturer
