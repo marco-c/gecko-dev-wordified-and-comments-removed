@@ -859,7 +859,7 @@ GetPipelineId
 ref
 (
 )
-false
+true
 )
 ;
 LayoutDeviceRect
