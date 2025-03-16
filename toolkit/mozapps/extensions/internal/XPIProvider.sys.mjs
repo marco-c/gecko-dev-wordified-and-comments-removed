@@ -15502,6 +15502,18 @@ theme
 )
 ;
 }
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+android
+"
+)
+{
 /
 /
 Keep
@@ -15553,6 +15565,7 @@ theme
 "
 )
 ;
+}
 resolveProviderReady
 (
 Promise
