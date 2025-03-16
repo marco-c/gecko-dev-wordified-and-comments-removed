@@ -468,7 +468,10 @@ mozilla
 :
 MozPromise
 <
-bool
+nsCOMArray
+<
+nsIFile
+>
 nsresult
 true
 >
