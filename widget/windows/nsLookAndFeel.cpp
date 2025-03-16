@@ -1972,7 +1972,7 @@ case
 ColorID
 :
 :
-MozNativehyperlinktext
+Visitedtext
 :
 idx
 =
@@ -1980,6 +1980,12 @@ COLOR_HOTLIGHT
 ;
 break
 ;
+case
+ColorID
+:
+:
+Activetext
+:
 case
 ColorID
 :

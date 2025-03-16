@@ -6300,7 +6300,7 @@ nsXPLookAndFeel
 :
 GenericDarkColor
 for
-MozNativehyperlinktext
+Linktext
 .
 -
 name
@@ -12403,7 +12403,7 @@ nsXPLookAndFeel
 :
 GenericDarkColor
 for
-MozNativevisitedhyperlinktext
+Visitedtext
 .
 -
 name
