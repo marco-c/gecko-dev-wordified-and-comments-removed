@@ -5519,6 +5519,13 @@ PREF_SCREEN_PROPS
 activeMultiSelect
 =
 {
+{
+"
+tile
+-
+0
+"
+:
 [
 "
 checkbox
@@ -5526,6 +5533,7 @@ checkbox
 1
 "
 ]
+}
 }
 /
 >
@@ -5674,6 +5682,13 @@ PREF_SCREEN_PROPS
 activeMultiSelect
 =
 {
+{
+"
+tile
+-
+0
+"
+:
 [
 "
 checkbox
@@ -5681,6 +5696,7 @@ checkbox
 2
 "
 ]
+}
 }
 /
 >
@@ -5868,6 +5884,13 @@ PREF_SCREEN_PROPS
 activeMultiSelect
 =
 {
+{
+"
+tile
+-
+0
+"
+:
 [
 "
 checkbox
@@ -5880,6 +5903,7 @@ checkbox
 2
 "
 ]
+}
 }
 /
 >

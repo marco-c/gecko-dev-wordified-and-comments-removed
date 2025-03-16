@@ -282,6 +282,7 @@ screenMultiSelects
 setScreenMultiSelects
 activeMultiSelect
 setActiveMultiSelect
+multiSelectId
 }
 )
 =
@@ -363,11 +364,13 @@ key
 setActiveMultiSelect
 (
 newActiveMultiSelect
+multiSelectId
 )
 ;
 }
 [
 setActiveMultiSelect
+multiSelectId
 ]
 )
 ;
@@ -461,6 +464,7 @@ id
 setScreenMultiSelects
 (
 orderedIds
+multiSelectId
 )
 ;
 return
@@ -616,6 +620,7 @@ id
 setActiveMultiSelect
 (
 newActiveMultiSelect
+multiSelectId
 )
 ;
 }
