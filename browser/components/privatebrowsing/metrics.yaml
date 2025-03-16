@@ -442,6 +442,16 @@ bugzil
 la
 /
 1922609
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+1952111
 data_reviews
 :
 &
@@ -536,7 +546,7 @@ mozilla
 com
 expires
 :
-139
+145
 no_lint
 :
 -
@@ -598,7 +608,7 @@ notification_emails
 aboutprivatebrowsing_click_emails
 expires
 :
-139
+145
 no_lint
 :
 -
@@ -660,7 +670,7 @@ notification_emails
 aboutprivatebrowsing_click_emails
 expires
 :
-139
+145
 no_lint
 :
 -
