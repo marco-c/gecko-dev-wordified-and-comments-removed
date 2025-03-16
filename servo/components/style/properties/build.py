@@ -423,7 +423,7 @@ path
 .
 join
 (
-BASE
+OUT_DIR
 "
 .
 .
@@ -437,13 +437,14 @@ BASE
 .
 "
 "
-target
+.
+.
 "
 "
 doc
 "
 "
-servo
+stylo
 "
 )
             
