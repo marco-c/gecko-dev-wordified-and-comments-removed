@@ -152,6 +152,7 @@ format
 .
 .
 )
+\
 RTCLogFormat
 (
 RTCLoggingSeverityVerbose
@@ -169,6 +170,7 @@ format
 .
 .
 )
+\
 RTCLogFormat
 (
 RTCLoggingSeverityInfo
@@ -186,6 +188,7 @@ format
 .
 .
 )
+\
 RTCLogFormat
 (
 RTCLoggingSeverityWarning
@@ -203,6 +206,7 @@ format
 .
 .
 )
+\
 RTCLogFormat
 (
 RTCLoggingSeverityError
