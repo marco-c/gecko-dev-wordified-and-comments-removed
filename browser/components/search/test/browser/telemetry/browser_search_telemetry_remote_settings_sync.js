@@ -75,7 +75,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SearchSERPCategorization
 .
 sys
 .

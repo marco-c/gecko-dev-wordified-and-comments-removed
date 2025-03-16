@@ -19,13 +19,13 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
 mjs
 "
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -35,7 +35,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -1054,7 +1054,7 @@ Assert
 .
 ok
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 empty
 "
@@ -1353,7 +1353,7 @@ Assert
 .
 ok
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 empty
 "

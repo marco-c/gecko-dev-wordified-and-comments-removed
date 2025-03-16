@@ -45,7 +45,7 @@ sys
 .
 mjs
 "
-SearchSERPCategorization
+SERPCategorization
 :
 "
 resource
@@ -55,13 +55,13 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
 mjs
 "
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -71,7 +71,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -87,7 +87,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -1037,7 +1037,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1051,7 +1051,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1093,7 +1093,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1138,7 +1138,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -1268,7 +1268,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1384,7 +1384,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1425,7 +1425,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1473,7 +1473,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 2
@@ -1494,7 +1494,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -1595,7 +1595,7 @@ records
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1608,7 +1608,7 @@ Assert
 .
 ok
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 empty
 "
@@ -1713,7 +1713,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1755,7 +1755,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -1796,7 +1796,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 1
@@ -1817,7 +1817,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -1947,7 +1947,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1961,7 +1961,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2057,7 +2057,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2098,7 +2098,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2130,7 +2130,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 2
@@ -2151,7 +2151,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -2281,7 +2281,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -2295,7 +2295,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2333,7 +2333,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2384,7 +2384,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 2
@@ -2406,7 +2406,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -2503,7 +2503,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -2517,7 +2517,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2554,7 +2554,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 1
@@ -2708,7 +2708,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2735,7 +2735,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 null
@@ -2756,7 +2756,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -2886,7 +2886,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPCategorization
+SERPCategorization
 .
 init
 (
@@ -2900,7 +2900,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -2933,7 +2933,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 2
@@ -2964,7 +2964,7 @@ map
 )
 ;
 await
-SearchSERPCategorization
+SERPCategorization
 .
 uninit
 (
@@ -2977,7 +2977,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPCategorization
+SERPCategorization
 .
 init
 (
@@ -2991,7 +2991,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3024,7 +3024,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 2
@@ -3046,7 +3046,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -3143,7 +3143,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -3157,7 +3157,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3338,7 +3338,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3379,7 +3379,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3409,7 +3409,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 1
@@ -3432,7 +3432,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -3529,7 +3529,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -3543,7 +3543,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3724,7 +3724,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3765,7 +3765,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3795,7 +3795,7 @@ Assert
 .
 equal
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 version
 1
@@ -3818,7 +3818,7 @@ clear
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -3915,7 +3915,7 @@ waitForDomainToCategoriesUpdate
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -3929,7 +3929,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -3965,7 +3965,7 @@ exist
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -4069,7 +4069,7 @@ region
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -4083,7 +4083,7 @@ Assert
 deepEqual
 (
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 get
 (
@@ -4126,7 +4126,7 @@ originalHomeRegion
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (

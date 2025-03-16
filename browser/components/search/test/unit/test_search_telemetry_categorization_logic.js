@@ -9,7 +9,7 @@ defineESModuleGetters
 (
 this
 {
-SearchSERPCategorization
+SERPCategorization
 :
 "
 resource
@@ -19,13 +19,13 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
 mjs
 "
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -35,13 +35,13 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
 mjs
 "
-SearchSERPTelemetryUtils
+CATEGORIZATION_SETTINGS
 :
 "
 resource
@@ -51,7 +51,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -847,7 +847,7 @@ true
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -865,7 +865,7 @@ test_categorization_simple
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -936,7 +936,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -990,7 +990,7 @@ test_categorization_inconclusive
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1061,7 +1061,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1076,9 +1076,7 @@ resultsToReport
 {
 category
 :
-SearchSERPTelemetryUtils
-.
-CATEGORIZATION
+CATEGORIZATION_SETTINGS
 .
 INCONCLUSIVE
 num_domains
@@ -1117,7 +1115,7 @@ test_categorization_unknown
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1188,7 +1186,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1203,9 +1201,7 @@ resultsToReport
 {
 category
 :
-SearchSERPTelemetryUtils
-.
-CATEGORIZATION
+CATEGORIZATION_SETTINGS
 .
 INCONCLUSIVE
 num_domains
@@ -1244,7 +1240,7 @@ test_categorization_unknown_and_inconclusive
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1315,7 +1311,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1330,9 +1326,7 @@ resultsToReport
 {
 category
 :
-SearchSERPTelemetryUtils
-.
-CATEGORIZATION
+CATEGORIZATION_SETTINGS
 .
 INCONCLUSIVE
 num_domains
@@ -1371,7 +1365,7 @@ test_categorization_all_types
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1442,7 +1436,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1496,7 +1490,7 @@ test_categorization_tie
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1567,7 +1561,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1655,7 +1649,7 @@ test_rank_penalization_equal_scores
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1726,7 +1720,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (
@@ -1780,7 +1774,7 @@ test_rank_penalization_highest_score_lower_on_page
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -1811,7 +1805,7 @@ let
 resultsToReport
 =
 await
-SearchSERPCategorization
+SERPCategorization
 .
 applyCategorizationLogic
 (

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 ChromeUtils
 .
 defineESModuleGetters
@@ -19,7 +24,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -35,7 +40,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -86,7 +91,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -102,7 +107,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -1487,7 +1492,7 @@ resetTelemetry
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -1535,7 +1540,7 @@ waitForDomainToCategoriesUninit
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1657,7 +1662,7 @@ restore
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (

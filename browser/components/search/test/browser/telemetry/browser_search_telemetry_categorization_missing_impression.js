@@ -463,7 +463,7 @@ resetTelemetry
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -562,7 +562,7 @@ file
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -775,7 +775,7 @@ sandbox
 .
 stub
 (
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 "
 get
 "

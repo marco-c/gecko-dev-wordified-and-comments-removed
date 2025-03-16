@@ -23,7 +23,7 @@ defineESModuleGetters
 (
 lazy
 {
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -33,7 +33,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -693,7 +693,7 @@ ok
 (
 lazy
 .
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 empty
 "

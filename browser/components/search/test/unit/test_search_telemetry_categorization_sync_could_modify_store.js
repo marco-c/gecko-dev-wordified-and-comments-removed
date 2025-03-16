@@ -26,7 +26,7 @@ sys
 .
 mjs
 "
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -36,7 +36,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -113,7 +113,7 @@ true
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -888,7 +888,7 @@ emptyMap
 )
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -902,7 +902,7 @@ false
 else
 {
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 overrideMapForTests
 (
@@ -922,7 +922,7 @@ Categories
 Map
 :
 {
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 empty
 ?
@@ -953,7 +953,7 @@ let
 result
 =
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 syncMayModifyStore
 (

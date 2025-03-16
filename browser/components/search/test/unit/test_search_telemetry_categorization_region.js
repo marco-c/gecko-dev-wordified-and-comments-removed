@@ -9,7 +9,7 @@ defineESModuleGetters
 (
 this
 {
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 :
 "
 resource
@@ -19,7 +19,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -400,7 +400,7 @@ title
 let
 result
 =
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 recordMatchesRegion
 (
@@ -893,7 +893,7 @@ title
 let
 result
 =
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 findRecordsForRegion
 (
