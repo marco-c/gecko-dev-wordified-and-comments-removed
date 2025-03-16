@@ -127,3 +127,6 @@ toolbar
 context
 -
 menu
+customize
+-
+mode
