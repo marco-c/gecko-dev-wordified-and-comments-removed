@@ -6646,7 +6646,7 @@ wasm
 :
 :
 CodeMetadata
-1136
+1200
 )
 ;
 MOZ_RELEASE_ASSERT

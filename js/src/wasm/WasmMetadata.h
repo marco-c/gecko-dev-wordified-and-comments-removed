@@ -207,7 +207,7 @@ funcDefFeatureUsages
 CallRefMetricsRangeVector
 funcDefCallRefs
 ;
-SharedBytes
+BytecodeBuffer
 debugBytecode
 ;
 MutableCallRefHints
