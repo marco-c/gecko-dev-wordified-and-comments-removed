@@ -48,6 +48,9 @@ fs
 :
 Permissions
 >
+keep
+:
+bool
 )
 -
 >
@@ -161,6 +164,7 @@ path
 into_boxed_path
 (
 )
+keep
 }
 )
 }

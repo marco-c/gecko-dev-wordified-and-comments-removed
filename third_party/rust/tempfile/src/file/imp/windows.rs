@@ -360,10 +360,8 @@ crate
 :
 :
 NUM_RAND_CHARS
-None
 |
 path
-_permissions
 |
 {
 OpenOptions

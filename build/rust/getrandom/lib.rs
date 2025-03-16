@@ -1,0 +1,15 @@
+pub
+use
+{
+getrandom
+:
+:
+fill
+as
+getrandom
+getrandom
+:
+:
+Error
+}
+;
