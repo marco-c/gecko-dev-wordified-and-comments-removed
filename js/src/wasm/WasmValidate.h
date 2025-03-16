@@ -619,7 +619,7 @@ JSContext
 *
 cx
 const
-BytecodeSource
+ShareableBytes
 &
 bytecode
 const

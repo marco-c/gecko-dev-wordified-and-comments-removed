@@ -1224,16 +1224,9 @@ type
 bool
 IsBufferSource
 (
-JSContext
-*
-cx
 JSObject
 *
 object
-bool
-allowShared
-bool
-allowResizable
 SharedMem
 <
 uint8_t
