@@ -176,11 +176,6 @@ DEFAULT_INPUT_SENTENCES
 6
 ;
 const
-DEFAULT_OUTPUT_SENTENCES
-=
-3
-;
-const
 MIN_SENTENCE_LENGTH
 =
 14
@@ -284,7 +279,6 @@ linkPreview
 .
 outputSentences
 "
-DEFAULT_OUTPUT_SENTENCES
 )
 ;
 XPCOMUtils
