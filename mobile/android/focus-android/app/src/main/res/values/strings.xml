@@ -7195,7 +7195,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Firefox
@@ -7266,7 +7265,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Firefox
@@ -7309,13 +7307,6 @@ name
 =
 "
 onboarding_first_screen_privacy_notice_link
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Privacy
@@ -7387,13 +7378,6 @@ name
 =
 "
 onboarding_first_screen_button_agree_and_continue
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Agree
