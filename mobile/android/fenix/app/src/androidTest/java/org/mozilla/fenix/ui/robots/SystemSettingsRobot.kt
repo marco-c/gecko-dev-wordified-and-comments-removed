@@ -248,9 +248,7 @@ verifyMakeDefaultBrowser
 (
 )
 {
-mDevice
-.
-waitForIdle
+waitForAppWindowToBeUpdated
 (
 )
 Log
