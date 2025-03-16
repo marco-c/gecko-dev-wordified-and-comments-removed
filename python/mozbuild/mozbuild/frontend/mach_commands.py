@@ -22,6 +22,12 @@ import
 Command
 CommandArgument
 SubCommand
+from
+mozpack
+.
+files
+import
+FileFinder
 TOPSRCDIR
 =
 os
@@ -1842,12 +1848,33 @@ relpaths
 [
 ]
     
+finder
+=
+FileFinder
+(
+command_context
+.
+topsrcdir
+)
+    
 for
-p
+path
 in
 paths
 :
         
+for
+p
+_
+in
+finder
+.
+find
+(
+path
+)
+:
+            
 a
 =
 mozpath
@@ -1856,7 +1883,7 @@ abspath
 (
 p
 )
-        
+            
 if
 not
 mozpath
@@ -1871,7 +1898,7 @@ topsrcdir
 ]
 )
 :
-            
+                
 raise
 InvalidPathException
 (
@@ -1887,7 +1914,7 @@ s
 %
 p
 )
-        
+            
 relpaths
 .
 append
