@@ -1,7 +1,7 @@
 <
 !
-DOCTYPE
-HTML
+doctype
+html
 >
 <
 html
@@ -18,6 +18,7 @@ utf
 -
 8
 "
+/
 >
 <
 title
@@ -297,6 +298,7 @@ to
 value
 "
 )
+;
 if
 (
 mozFiveStar
@@ -604,6 +606,7 @@ rating
 ratingRounded
 expectation
 )
+;
 is
 (
 mozFiveStar
@@ -993,9 +996,7 @@ addEventListener
 "
 select
 "
-(
 e
-)
 =
 >
 selectedEvents
@@ -1005,6 +1006,7 @@ push
 e
 )
 )
+;
 await
 selectableMozFiveStar
 .
@@ -1026,6 +1028,7 @@ empty
 empty
 "
 )
+;
 const
 fifthStar
 =
@@ -1042,6 +1045,7 @@ at
 (
 4
 )
+;
 fifthStar
 .
 click
@@ -1060,6 +1064,7 @@ one
 event
 "
 )
+;
 const
 selectedEvent
 =
@@ -1084,6 +1089,7 @@ select
 event
 "
 )
+;
 is
 (
 selectedEvent
@@ -1099,6 +1105,7 @@ rating
 number
 "
 )
+;
 await
 selectableMozFiveStar
 .
@@ -1120,6 +1127,7 @@ full
 full
 "
 )
+;
 }
 )
 ;
@@ -1234,6 +1242,7 @@ fifthStar
 selectableMozFiveStar
 .
 starEls
+;
 assertFilledBg
 (
 firstStar
