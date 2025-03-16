@@ -143,6 +143,17 @@ s
 [
 inline
 ]
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 fn
 to_css_nscstring
 (
