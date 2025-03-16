@@ -5629,6 +5629,12 @@ CrossOriginIsolated
 const
 override
 ;
+bool
+OriginAgentCluster
+(
+)
+const
+;
 mozilla
 :
 :
