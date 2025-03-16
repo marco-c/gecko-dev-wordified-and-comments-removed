@@ -32,7 +32,7 @@ unpoison
 -
 thread
 -
-stacks_clang_10
+stacks_clang_21
 .
 patch
 "
