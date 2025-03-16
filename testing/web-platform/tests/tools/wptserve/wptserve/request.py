@@ -31,8 +31,9 @@ import
 stash
 from
 .
-import
 cgi
+import
+FieldStorage
 from
 .
 utils
@@ -1975,8 +1976,6 @@ iso
             
 fs
 =
-cgi
-.
 FieldStorage
 (
 *
@@ -3647,8 +3646,6 @@ a
 MultiDict
 from
 a
-cgi
-.
 FieldStorage
         
 Note
@@ -3740,8 +3737,6 @@ assert
 isinstance
 (
 value
-cgi
-.
 FieldStorage
 )
                 
