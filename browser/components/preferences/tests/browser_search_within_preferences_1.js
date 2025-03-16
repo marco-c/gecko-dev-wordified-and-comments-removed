@@ -691,7 +691,7 @@ languagesGroup
 webAppearanceGroup
 "
 "
-contrastControlGroup
+colorsGroup
 "
 "
 fontsGroup

@@ -93,6 +93,11 @@ chrome_content_integration_window
 xhtml
 "
 "
+default_background_window
+.
+xhtml
+"
+"
 dialog_with_positioning_window
 .
 xhtml
@@ -675,6 +680,13 @@ html
 frame_css_visibility_propagation
 .
 html
+"
+]
+[
+"
+test_default_background
+.
+xhtml
 "
 ]
 [
