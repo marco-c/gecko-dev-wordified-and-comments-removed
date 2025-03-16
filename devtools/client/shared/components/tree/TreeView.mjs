@@ -271,7 +271,7 @@ shared
 /
 scroll
 .
-js
+mjs
 "
 ;
 const

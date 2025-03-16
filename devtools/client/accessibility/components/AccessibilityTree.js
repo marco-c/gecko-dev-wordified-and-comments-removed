@@ -310,7 +310,9 @@ const
 scrollIntoView
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -325,7 +327,7 @@ shared
 /
 scroll
 .
-js
+mjs
 "
 )
 ;
