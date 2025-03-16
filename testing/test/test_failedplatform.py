@@ -367,6 +367,7 @@ FailedPlatform
 )
     
 assert
+not
 fp
 .
 is_full_test_variants_fail
@@ -390,6 +391,7 @@ build_type1
 )
     
 assert
+not
 fp
 .
 is_full_test_variants_fail
@@ -650,6 +652,7 @@ FailedPlatform
 )
     
 assert
+not
 fp
 .
 is_full_fail
@@ -734,6 +737,7 @@ set
 )
     
 assert
+not
 fp
 .
 is_full_fail

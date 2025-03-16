@@ -9754,13 +9754,6 @@ None
                 
 )
                 
-if
-permutations
-is
-not
-None
-:
-                    
 self
 .
 failed_platforms
@@ -9770,23 +9763,9 @@ failure_key
 =
 FailedPlatform
 (
-                        
-self
-.
-platform_permutations
-[
-manifest
-]
-[
-os
-]
-[
-os_version
-]
-[
-processor
-]
                     
+permutations
+                
 )
             
 build_types
@@ -9795,39 +9774,25 @@ extra
 .
 build_type
             
-failed_platform
+skip_if
++
 =
 self
 .
 failed_platforms
-.
-get
-(
+[
 failure_key
-None
-)
-            
-if
-failed_platform
-is
-not
-None
-:
-                
-skip_if
-+
-=
-failed_platform
+]
 .
 get_skip_string
 (
-                    
+                
 aa
 build_types
 extra
 .
 test_variant
-                
+            
 )
         
 return
