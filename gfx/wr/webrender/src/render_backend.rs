@@ -6820,6 +6820,7 @@ mut
 render_frame
 :
 bool
+mut
 present
 :
 bool
@@ -7116,6 +7117,15 @@ unwrap
 if
 build_frame
 {
+if
+!
+requested_frame
+{
+present
+=
+true
+;
+}
 if
 start_time
 .
