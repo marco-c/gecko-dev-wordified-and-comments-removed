@@ -96,16 +96,6 @@ pytest
 .
 mark
 .
-only_platforms
-(
-"
-android
-"
-)
-pytest
-.
-mark
-.
 asyncio
 pytest
 .
@@ -139,16 +129,6 @@ pytest
 .
 mark
 .
-only_platforms
-(
-"
-android
-"
-)
-pytest
-.
-mark
-.
 asyncio
 pytest
 .
@@ -162,6 +142,13 @@ test_disabled
 client
 )
 :
+    
+await
+client
+.
+ensure_InstallTrigger_undefined
+(
+)
     
 await
 client
