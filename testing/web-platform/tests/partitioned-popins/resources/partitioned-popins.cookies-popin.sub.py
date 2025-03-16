@@ -268,16 +268,6 @@ id
 )
 ;
   
-test_driver
-.
-set_test_context
-(
-window
-.
-top
-)
-;
-  
 let
 cookie_string_on_load
 =
@@ -677,13 +667,38 @@ granted
 )
 ;
   
+try
+{
+    
 await
+test_driver
+.
+bless
+(
+"
+fake
+user
+interaction
+"
+(
+)
+=
+>
 document
 .
 requestStorageAccess
 (
 )
+)
 ;
+  
+}
+catch
+(
+_
+)
+{
+}
   
 document
 .
