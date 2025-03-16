@@ -397,9 +397,6 @@ buf
 [
 ENCODING_MAX
 ]
-=
-"
-"
 ;
 char
 *
