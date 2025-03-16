@@ -5625,6 +5625,17 @@ CopySurfaceInternal
 (
 surf
 aSource
+-
+aSurface
+-
+>
+GetRect
+(
+)
+.
+TopLeft
+(
+)
 aDest
 )
 ;
