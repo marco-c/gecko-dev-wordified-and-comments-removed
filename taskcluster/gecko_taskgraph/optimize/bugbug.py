@@ -1930,13 +1930,19 @@ key
 test_platform
         
 if
-"
-unittest_variant
-"
-in
+variant
+:
+=
 task
 .
 attributes
+.
+get
+(
+"
+unittest_variant
+"
+)
 :
             
 key
@@ -1946,14 +1952,7 @@ key
 -
 "
 +
-task
-.
-attributes
-[
-"
-unittest_variant
-"
-]
+variant
         
 important_manifests
 =

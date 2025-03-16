@@ -784,11 +784,29 @@ variant
 )
 :
             
-yield
+taskv
+=
 deepcopy
 (
 task
 )
+            
+taskv
+[
+"
+attributes
+"
+]
+[
+"
+unittest_variant
+"
+]
+=
+None
+            
+yield
+taskv
         
 for
 name
