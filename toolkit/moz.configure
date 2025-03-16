@@ -128,7 +128,7 @@ Agent
 string
 "
 )
-confvar
+project_flag
 (
 "
 MOZ_APP_PROFILE
