@@ -3655,6 +3655,12 @@ topLevelAwait
 =
 false
 ;
+aOptions
+.
+deoptimizeModuleGlobalVars
+=
+true
+;
 }
 nsresult
 mozJSModuleLoader
