@@ -620,7 +620,10 @@ VCS_HASH
 {
 Config
 .
-vcsHash
+getVcsHash
+(
+project
+)
 }
 \
 "
