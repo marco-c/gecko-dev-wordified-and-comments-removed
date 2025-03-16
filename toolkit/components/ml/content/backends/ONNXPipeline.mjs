@@ -68,6 +68,9 @@ import
 .
 .
 /
+.
+.
+/
 content
 /
 Utils
@@ -1747,7 +1750,7 @@ tasks
 /
 export
 class
-Pipeline
+ONNXPipeline
 {
 #
 mlEngineWorker
@@ -3177,7 +3180,7 @@ const
 pipeline
 =
 new
-Pipeline
+ONNXPipeline
 (
 mlEngineWorker
 config
