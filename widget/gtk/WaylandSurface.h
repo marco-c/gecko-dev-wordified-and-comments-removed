@@ -260,16 +260,6 @@ mEGLWindow
 ;
 }
 bool
-DoesCommitToParentSurface
-(
-)
-const
-{
-return
-mCommitToParentSurface
-;
-}
-bool
 IsReadyToDraw
 (
 )
@@ -334,8 +324,6 @@ gfx
 :
 IntPoint
 aSubsurfacePosition
-bool
-aCommitToParent
 )
 ;
 bool
@@ -992,8 +980,6 @@ gfx
 IntPoint
 aSubsurfacePosition
 bool
-aCommitToParent
-bool
 aSubsurfaceDesync
 bool
 aUseReadyToDrawCallback
@@ -1266,11 +1252,6 @@ mBufferAttached
 {
 false
 }
-;
-bool
-mCommitToParentSurface
-=
-false
 ;
 mozilla
 :
