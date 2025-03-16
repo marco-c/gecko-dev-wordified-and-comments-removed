@@ -15,7 +15,7 @@ support
 .
 helpers
 import
-get_addon_path
+get_extension_path
 pytestmark
 =
 pytest
@@ -449,7 +449,7 @@ def
 test_params_extension_data_archive_path_invalid_webextension
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -487,7 +487,7 @@ archivePath
 path
 "
 :
-addon_data
+extension_data
 [
 "
 archivePathInvalid
@@ -501,7 +501,7 @@ def
 test_params_extension_data_path_invalid_webextension
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -538,7 +538,7 @@ path
 path
 "
 :
-addon_data
+extension_data
 [
 "
 unsigned

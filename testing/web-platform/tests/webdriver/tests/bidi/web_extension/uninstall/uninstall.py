@@ -18,7 +18,7 @@ def
 test_uninstall
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -48,7 +48,7 @@ base64
 value
 "
 :
-addon_data
+extension_data
 [
 "
 base64

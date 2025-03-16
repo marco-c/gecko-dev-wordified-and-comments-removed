@@ -17,7 +17,7 @@ mark
 asyncio
 async
 def
-test_uninstall_missing_addon
+test_uninstall_missing_extension
 (
 bidi_session
 )
