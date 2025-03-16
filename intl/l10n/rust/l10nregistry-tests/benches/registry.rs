@@ -130,6 +130,15 @@ browser
 /
 preferences
 /
+addEngine
+.
+ftl
+"
+"
+browser
+/
+preferences
+/
 siteDataSettings
 .
 ftl
