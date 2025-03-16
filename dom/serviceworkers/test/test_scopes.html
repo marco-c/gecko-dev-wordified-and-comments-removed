@@ -751,7 +751,7 @@ chromeScriptSource
 )
 ;
 let
-docOrigin
+docPrincipal
 =
 SpecialPowers
 .
@@ -762,7 +762,7 @@ document
 .
 nodePrincipal
 .
-origin
+spec
 ;
 getScope
 =
@@ -787,7 +787,7 @@ getScope
 {
 principal
 :
-docOrigin
+docPrincipal
 path
 }
 )
