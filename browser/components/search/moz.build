@@ -37,6 +37,13 @@ sys
 .
 mjs
 "
+"
+SERPCategorization
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
