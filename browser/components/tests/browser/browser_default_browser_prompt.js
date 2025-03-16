@@ -1156,13 +1156,11 @@ now
 )
 ;
 const
-oneHourInMs
+oneHourInS
 =
 60
 *
 60
-*
-1000
 ;
 Assert
 .
@@ -1180,7 +1178,7 @@ impressionTimestamp
 )
 <
 =
-oneHourInMs
+oneHourInS
 "
 Prompt
 impression
@@ -1206,7 +1204,7 @@ disabledTimestamp
 )
 <
 =
-oneHourInMs
+oneHourInS
 "
 Selecting
 checkbox
