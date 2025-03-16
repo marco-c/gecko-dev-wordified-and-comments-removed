@@ -152,6 +152,16 @@ concept
 engine
 .
 Engine
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
+Engine
 .
 HttpsOnlyMode
 import
