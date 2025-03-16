@@ -1279,7 +1279,9 @@ resolve
 >
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 .
 once
 (
