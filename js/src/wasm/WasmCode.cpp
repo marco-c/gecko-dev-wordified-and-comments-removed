@@ -2333,13 +2333,10 @@ funcExports
 ;
 uint8_t
 *
-segmentBase
+codeBase
 =
 tierCodeBlock
 .
-segment
--
->
 base
 (
 )
@@ -2409,7 +2406,7 @@ void
 *
 calleePtr
 =
-segmentBase
+codeBase
 +
 tierCodeBlock
 .
