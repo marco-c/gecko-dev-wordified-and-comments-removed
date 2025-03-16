@@ -1412,10 +1412,6 @@ d
 routed
 %
 d
-force
-commit
-%
-d
 "
 mOneTimeFrameCallbackHandlers
 .
@@ -1429,7 +1425,6 @@ size
 )
 emulatedCallback
 aRoutedFromChildSurface
-mFrameCallbackForceCommit
 )
 ;
 if
@@ -1621,7 +1616,6 @@ WaylandSurfaceLock
 lock
 (
 this
-mFrameCallbackForceCommit
 )
 ;
 bool
@@ -1642,20 +1636,6 @@ IsEmulatedFrameCallbackPendingLocked
 (
 lock
 )
-)
-;
-}
-else
-if
-(
-mFrameCallbackForceCommit
-)
-{
-WaylandSurfaceLock
-lock
-(
-this
-true
 )
 ;
 }
