@@ -56,7 +56,7 @@ min
 .
 js
 "
-2
+3
 )
 ;
 invokeInTab
@@ -95,7 +95,7 @@ js
 )
 .
 id
-2
+3
 )
 ;
 clickElement
