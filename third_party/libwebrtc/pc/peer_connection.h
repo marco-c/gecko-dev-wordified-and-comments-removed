@@ -2403,6 +2403,17 @@ signaling_thread
 )
 )
 ;
+void
+ReportCloseUsageMetrics
+(
+)
+RTC_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
 bool
 IsUnifiedPlan
 (
