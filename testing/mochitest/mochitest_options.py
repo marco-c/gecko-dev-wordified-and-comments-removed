@@ -6345,23 +6345,9 @@ https
 webSocketPort
 "
 :
-DEFAULT_PORTS
-[
 "
-ws
+9988
 "
-]
-        
-"
-webSocketSSLPort
-"
-:
-DEFAULT_PORTS
-[
-"
-wss
-"
-]
     
 }
     
