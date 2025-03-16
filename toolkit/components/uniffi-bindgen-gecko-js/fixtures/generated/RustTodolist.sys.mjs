@@ -3474,6 +3474,12 @@ constructor
 {
 text
 }
+=
+{
+text
+:
+undefined
+}
 )
 {
 try
