@@ -31,13 +31,6 @@ true
 ]
 [
 "
-test_definitions
-.
-py
-"
-]
-[
-"
 test_config
 .
 py
