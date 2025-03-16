@@ -3180,6 +3180,10 @@ txExecutionState
 es
 (
 mStylesheet
+!
+mObserver
+|
+|
 IsLoadDisabled
 (
 )
@@ -3751,9 +3755,7 @@ txExecutionState
 es
 (
 mStylesheet
-IsLoadDisabled
-(
-)
+true
 )
 ;
 RefPtr
