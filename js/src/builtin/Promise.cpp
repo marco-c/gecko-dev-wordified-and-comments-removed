@@ -26647,6 +26647,13 @@ promise_static_methods
 promise_static_properties
 promise_methods
 promise_properties
+GenericFinishInit
+<
+WhichHasFuseProperty
+:
+:
+ProtoAndCtor
+>
 }
 ;
 const
