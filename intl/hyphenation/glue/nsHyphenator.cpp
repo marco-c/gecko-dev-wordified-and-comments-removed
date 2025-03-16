@@ -1564,14 +1564,12 @@ span
 )
 {
 return
+!
 span
 .
-data
+IsEmpty
 (
 )
-!
-=
-nullptr
 ;
 }
 [
