@@ -73,8 +73,6 @@ navigation
 .
 NavController
 import
-dohSettingsReducer
-import
 mozilla
 .
 components

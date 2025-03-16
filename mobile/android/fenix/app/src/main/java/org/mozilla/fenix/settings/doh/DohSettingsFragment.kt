@@ -67,8 +67,6 @@ settings
 .
 doh
 import
-DohSettingsMiddleware
-import
 android
 .
 os
