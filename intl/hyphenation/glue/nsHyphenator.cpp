@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsEscape
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -1372,6 +1379,11 @@ Cut
 }
 #
 endif
+NS_UnescapeURL
+(
+path
+)
+;
 if
 (
 precompiled
