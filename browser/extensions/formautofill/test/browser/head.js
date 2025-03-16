@@ -613,7 +613,7 @@ org
 HTTP_TEST_PATH
 +
 "
-dynamic_form_changes
+dynamic_forms
 .
 html
 "
@@ -634,7 +634,7 @@ org
 HTTP_TEST_PATH
 +
 "
-form_change_on_user_interaction
+dynamic_form_changing_on_user_interaction
 .
 html
 "
@@ -655,7 +655,7 @@ org
 HTTP_TEST_PATH
 +
 "
-dynamic_formless_changes_node_mutations
+dynamic_formless_fields_updated_due_to_node_mutations
 .
 html
 "
@@ -676,7 +676,7 @@ org
 HTTP_TEST_PATH
 +
 "
-dynamic_formless_changes_element_visiblity_state
+dynamic_formless_fields_updated_due_to_visiblity_state_change
 .
 html
 "
