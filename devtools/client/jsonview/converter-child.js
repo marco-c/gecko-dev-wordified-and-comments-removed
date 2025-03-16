@@ -1552,6 +1552,11 @@ type
 "
 module
 "
+async
+:
+"
+true
+"
 }
 )
 ]
