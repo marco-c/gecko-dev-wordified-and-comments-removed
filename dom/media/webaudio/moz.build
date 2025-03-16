@@ -264,6 +264,11 @@ AudioScheduledSourceNode
 h
 "
 "
+AudioWorklet
+.
+h
+"
+"
 AudioWorkletGlobalScope
 .
 h
@@ -455,6 +460,11 @@ cpp
 "
 "
 AudioScheduledSourceNode
+.
+cpp
+"
+"
+AudioWorklet
 .
 cpp
 "
