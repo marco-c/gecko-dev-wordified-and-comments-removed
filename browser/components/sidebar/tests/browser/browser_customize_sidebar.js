@@ -1309,7 +1309,7 @@ style
 .
 order
 "
-4
+3
 "
 "
 Sidebar
@@ -1319,7 +1319,7 @@ have
 an
 order
 of
-4
+3
 when
 on
 the
