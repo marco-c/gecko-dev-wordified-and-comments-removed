@@ -1236,6 +1236,16 @@ nsIContentAnalysisCallback
 aCallback
 )
 ;
+bool
+HasResponded
+(
+)
+const
+{
+return
+mResponded
+;
+}
 private
 :
 MultipartRequestCallback
