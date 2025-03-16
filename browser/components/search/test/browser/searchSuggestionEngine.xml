@@ -119,13 +119,13 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+search
 /
 test
 /
-about
+browser
 /
 searchSuggestionEngine
 .

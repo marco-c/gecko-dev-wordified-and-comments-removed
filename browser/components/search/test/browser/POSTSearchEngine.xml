@@ -63,13 +63,13 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+search
 /
 test
 /
-about
+browser
 /
 print_postdata
 .
