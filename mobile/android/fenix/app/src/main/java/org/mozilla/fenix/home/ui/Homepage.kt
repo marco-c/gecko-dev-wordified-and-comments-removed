@@ -1082,7 +1082,7 @@ CustomizeHomeButton
 (
 buttonBackgroundColor
 =
-buttonBackgroundColor
+customizeHomeButtonBackgroundColor
 interactor
 =
 interactor
@@ -2003,6 +2003,13 @@ WallpaperState
 default
 .
 buttonBackgroundColor
+customizeHomeButtonBackgroundColor
+=
+FirefoxTheme
+.
+colors
+.
+actionTertiary
 bottomSpacerHeight
 =
 188
@@ -2135,6 +2142,13 @@ WallpaperState
 default
 .
 buttonBackgroundColor
+customizeHomeButtonBackgroundColor
+=
+FirefoxTheme
+.
+colors
+.
+actionTertiary
 bottomSpacerHeight
 =
 188
