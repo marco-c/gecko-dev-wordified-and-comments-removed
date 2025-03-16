@@ -88,4 +88,14 @@ DOWNLOADS_LIST
 .
 item
 "
+internal
+const
+val
+DOWNLOADS_LIST_ITEM_MENU
+=
+"
+DOWNLOADS_LIST_ITEM
+.
+menu
+"
 }
