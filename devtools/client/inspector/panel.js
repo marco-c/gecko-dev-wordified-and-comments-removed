@@ -32,6 +32,10 @@ prototype
 {
 open
 (
+options
+=
+{
+}
 )
 {
 return
@@ -41,6 +45,7 @@ _inspector
 .
 init
 (
+options
 )
 ;
 }

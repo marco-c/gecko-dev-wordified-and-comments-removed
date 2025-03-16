@@ -16195,8 +16195,7 @@ const
 _getInspector
 =
 async
-(
-)
+options
 =
 >
 {
@@ -16229,6 +16228,7 @@ loadTool
 "
 inspector
 "
+options
 )
 ;
 }
@@ -16392,6 +16392,11 @@ inspector
 await
 _getInspector
 (
+{
+defaultStartupNode
+:
+nodeFront
+}
 )
 ;
 return
