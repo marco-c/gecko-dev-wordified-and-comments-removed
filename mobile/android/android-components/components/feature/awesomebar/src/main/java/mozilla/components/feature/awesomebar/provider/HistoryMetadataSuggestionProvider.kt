@@ -530,12 +530,6 @@ AwesomeBar
 Suggestion
 >
 {
-historyStorage
-.
-cancelReads
-(
-text
-)
 if
 (
 text
@@ -550,6 +544,12 @@ emptyList
 (
 )
 }
+historyStorage
+.
+cancelReads
+(
+text
+)
 val
 suggestions
 =
