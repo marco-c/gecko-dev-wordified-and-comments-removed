@@ -281,6 +281,11 @@ MACRO
 (
 A11Y_AccessibilityServiceInit
 )
+\
+MACRO
+(
+A11Y_PlatformShowHideEvent
+)
 namespace
 mozilla
 {
