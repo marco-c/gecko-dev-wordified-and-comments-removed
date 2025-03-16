@@ -145,17 +145,6 @@ jsdoc
 require
 -
 returns
-"
-:
-"
-error
-"
-"
-jsdoc
-/
-require
--
-returns
 -
 check
 "
