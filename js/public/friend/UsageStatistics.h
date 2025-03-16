@@ -438,6 +438,12 @@ ThenableUseStandardProto
 \
 _
 (
+THENABLE_USE_OBJECT_PROTO
+ThenableUseObjectProto
+)
+\
+_
+(
 LEGACY_LANG_SUBTAG
 LegacyLangSubtag
 )

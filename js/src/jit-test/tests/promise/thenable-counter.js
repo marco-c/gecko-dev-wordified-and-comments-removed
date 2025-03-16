@@ -241,6 +241,9 @@ ThenableUseProto
 "
 ThenableUseStandardProto
 "
+"
+ThenableUseObjectProto
+"
 ]
 )
 ;
