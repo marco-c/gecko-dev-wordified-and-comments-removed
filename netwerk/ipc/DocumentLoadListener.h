@@ -1160,6 +1160,12 @@ NotifyDocumentChannelFailed
 void
 TriggerRedirectToRealChannel
 (
+dom
+:
+:
+CanonicalBrowsingContext
+*
+aDestinationBrowsingContext
 const
 Maybe
 <
@@ -1192,6 +1198,15 @@ nsresult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+nsresult
+DoOnStartRequest
+(
+nsIRequest
+*
+)
+;
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeTriggerProcessSwitch
 (
@@ -1200,6 +1215,7 @@ bool
 aWillSwitchToRemote
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TriggerProcessSwitch
 (
