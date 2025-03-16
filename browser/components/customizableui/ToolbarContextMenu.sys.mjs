@@ -1828,6 +1828,9 @@ hidden
 =
 !
 showSidebarActions
+|
+|
+isVerticalTabStripMenu
 ;
 document
 .
