@@ -2885,7 +2885,7 @@ bool
             
 mir_op
 =
-None
+True
             
 extra_name
 =

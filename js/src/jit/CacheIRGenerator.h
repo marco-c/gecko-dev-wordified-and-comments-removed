@@ -3007,6 +3007,11 @@ tryAttachIsCrossRealmArrayConstructor
 )
 ;
 AttachDecision
+tryAttachCanOptimizeArraySpecies
+(
+)
+;
+AttachDecision
 tryAttachGuardToClass
 (
 InlinableNative

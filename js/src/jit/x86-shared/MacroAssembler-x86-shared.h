@@ -5293,6 +5293,16 @@ std
 :
 is_base_of_v
 <
+ImmGCPtr
+T
+>
+|
+|
+std
+:
+:
+is_base_of_v
+<
 ImmWord
 T
 >

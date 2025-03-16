@@ -930,6 +930,11 @@ IntrinsicIsCrossRealmArrayConstructor
 \
 _
 (
+IntrinsicCanOptimizeArraySpecies
+)
+\
+_
+(
 IntrinsicToInteger
 )
 \

@@ -19963,6 +19963,16 @@ Register
 dest
 )
 ;
+inline
+void
+loadObjShapeUnsafe
+(
+Register
+obj
+Register
+dest
+)
+;
 template
 <
 typename
