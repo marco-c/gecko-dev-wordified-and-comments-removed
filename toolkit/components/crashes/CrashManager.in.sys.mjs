@@ -5127,13 +5127,6 @@ User32BeforeBlocklist
 environment
 :
 {
-experimentalFeatures
-:
-t
-(
-comma_list
-cap
-)
 headlessMode
 :
 t

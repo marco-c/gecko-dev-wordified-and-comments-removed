@@ -563,13 +563,6 @@ py
 "
 toolkit
 /
-components
-/
-featuregates
-"
-"
-toolkit
-/
 content
 /
 tests

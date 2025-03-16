@@ -74,13 +74,6 @@ crashreporter
 crashreporter
 /
 index
-components
-/
-featuregates
-/
-featuregates
-/
-index
 internal
 -
 urls
