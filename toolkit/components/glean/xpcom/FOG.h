@@ -74,6 +74,12 @@ FOG
 =
 default
 ;
+static
+bool
+ApplyInterestingServerKnobs
+(
+)
+;
 void
 Shutdown
 (
