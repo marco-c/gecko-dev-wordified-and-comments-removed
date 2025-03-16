@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 {
@@ -105,7 +105,7 @@ Self
 {
 kind
 :
-std
+core
 :
 :
 any

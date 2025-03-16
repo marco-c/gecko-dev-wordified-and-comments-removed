@@ -61,10 +61,6 @@ Borrow
 Cow
 }
 iter
-mem
-:
-:
-size_of
 ptr
 time
 :
@@ -2063,6 +2059,11 @@ BindingType
 :
 :
 AccelerationStructure
+{
+vertex_return
+:
+false
+}
 count
 :
 None

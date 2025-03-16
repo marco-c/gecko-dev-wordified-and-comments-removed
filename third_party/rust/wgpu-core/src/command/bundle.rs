@@ -42,10 +42,6 @@ core
 :
 :
 {
-mem
-:
-:
-size_of
 num
 :
 :
