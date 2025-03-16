@@ -1,11 +1,3 @@
-#
-!
-[
-deny
-(
-warnings
-)
-]
 use
 base64
 :
@@ -280,12 +272,6 @@ hash
 Hash
 Hasher
 }
-;
-use
-std
-:
-:
-mem
 ;
 use
 std
@@ -878,9 +864,6 @@ iter_mut
 (
 )
 {
-mem
-:
-:
 drop
 (
 s
@@ -5208,9 +5191,6 @@ fetch_url
 (
 request
 :
-hyper
-:
-:
 Request
 <
 Body
@@ -5455,9 +5435,6 @@ u8
 let
 mut
 request
-:
-hyper
-:
 :
 Request
 <
@@ -7491,9 +7468,6 @@ Http3TestServer
 :
 new
 (
-neqo_http3
-:
-:
 Http3Server
 :
 :
@@ -7683,9 +7657,6 @@ Http3TestServer
 :
 new
 (
-neqo_http3
-:
-:
 Http3Server
 :
 :
@@ -7873,9 +7844,6 @@ Http3ProxyServer
 :
 new
 (
-neqo_http3
-:
-:
 Http3Server
 :
 :
