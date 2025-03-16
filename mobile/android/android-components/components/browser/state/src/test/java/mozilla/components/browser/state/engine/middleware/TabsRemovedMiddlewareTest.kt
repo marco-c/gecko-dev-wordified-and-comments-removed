@@ -529,6 +529,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 size
 )
 }
@@ -774,6 +776,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 size
 )
 }
@@ -1008,6 +1012,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 size
 )
 }
@@ -1241,6 +1247,8 @@ assertEquals
 middleware
 .
 sessionsPendingDeletion
+.
+sessions
 .
 size
 )
@@ -1478,6 +1486,8 @@ assertEquals
 middleware
 .
 sessionsPendingDeletion
+.
+sessions
 .
 size
 )
@@ -2022,6 +2032,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 size
 )
 observerCaptor
@@ -2059,6 +2071,8 @@ assertTrue
 middleware
 .
 sessionsPendingDeletion
+.
+sessions
 .
 isEmpty
 (
@@ -2307,6 +2321,8 @@ assertEquals
 middleware
 .
 sessionsPendingDeletion
+.
+sessions
 .
 size
 )
@@ -2372,6 +2388,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 isEmpty
 (
 )
@@ -2620,6 +2638,8 @@ middleware
 .
 sessionsPendingDeletion
 .
+sessions
+.
 size
 )
 store
@@ -2678,6 +2698,8 @@ assertTrue
 middleware
 .
 sessionsPendingDeletion
+.
+sessions
 .
 isEmpty
 (
