@@ -617,4 +617,16 @@ GleanCounter
 >
 ;
 }
+searchbar
+:
+{
+selectedResultMethod
+:
+Record
+<
+string
+GleanCounter
+>
+;
+}
 }
