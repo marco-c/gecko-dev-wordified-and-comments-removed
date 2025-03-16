@@ -281,6 +281,13 @@ corruption_detection_message
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
