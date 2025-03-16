@@ -1896,7 +1896,7 @@ bool
 MemoryOrdering
 :
 :
-ReleaseAcquire
+Relaxed
 >
 malloc_initialized
 ;
