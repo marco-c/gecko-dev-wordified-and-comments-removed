@@ -995,6 +995,16 @@ uint32_t
 aNumElements
 )
 {
+MOZ_ASSERT
+(
+aNumElements
+<
+=
+Length
+(
+)
+)
+;
 Segment
 *
 last

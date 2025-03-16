@@ -587,14 +587,6 @@ bool
 aShouldDelete
 )
 ;
-XPCOM_API
-(
-void
-)
-NS_CycleCollectableHasRefCntZero
-(
-)
-;
 #
 endif
 #

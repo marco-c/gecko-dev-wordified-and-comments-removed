@@ -174,7 +174,6 @@ Window
 Worker
 )
 Serializable
-ProbablyShortLivingWrapper
 ]
 interface
 ImageData
