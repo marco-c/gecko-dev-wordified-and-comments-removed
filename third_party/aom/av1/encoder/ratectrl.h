@@ -365,6 +365,12 @@ int
 perc_spatial_flat_blocks
 ;
 int
+num_col_blscroll_last_tl0
+;
+int
+num_row_blscroll_last_tl0
+;
+int
 avg_frame_bandwidth
 ;
 int

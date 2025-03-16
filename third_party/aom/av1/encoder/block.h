@@ -2080,6 +2080,12 @@ sb_me_partition
 int
 sb_me_block
 ;
+int
+sb_col_scroll
+;
+int
+sb_row_scroll
+;
 int_mv
 sb_me_mv
 ;

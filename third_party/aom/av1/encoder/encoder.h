@@ -1644,6 +1644,10 @@ max_threads
 int
 speed
 ;
+unsigned
+int
+enable_low_complexity_decode
+;
 AV1_LEVEL
 target_seq_level_idx
 [
