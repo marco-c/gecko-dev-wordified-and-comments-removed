@@ -6102,9 +6102,7 @@ browser
 /
 content
 /
-preferences
-/
-dialogs
+search
 /
 addEngine
 .
