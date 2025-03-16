@@ -236,9 +236,14 @@ search
 .
 addUserEngine
 (
+{
+name
+:
 "
 user
 "
+url
+:
 "
 https
 :
@@ -256,9 +261,12 @@ q
 searchTerms
 }
 "
+alias
+:
 "
 u
 "
+}
 )
 ;
 await
