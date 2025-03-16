@@ -3359,6 +3359,13 @@ count
 )
 ;
 }
+enum
+PurgeCondition
+{
+PurgeIfThreshold
+PurgeUnconditional
+}
+;
 struct
 arena_t
 {
@@ -4098,10 +4105,8 @@ endif
 bool
 Purge
 (
-bool
-aForce
-=
-false
+PurgeCondition
+aCond
 )
 MOZ_EXCLUDES
 (
@@ -4310,10 +4315,8 @@ mLock
 bool
 ShouldContinuePurge
 (
-bool
-aForce
-=
-false
+PurgeCondition
+aCond
 )
 MOZ_REQUIRES
 (
@@ -4326,7 +4329,10 @@ mNumDirty
 >
 (
 (
-aForce
+aCond
+=
+=
+PurgeUnconditional
 )
 ?
 0
@@ -5147,7 +5153,7 @@ aEnable
 {
 MayPurgeAll
 (
-false
+PurgeIfThreshold
 )
 ;
 }
@@ -5191,8 +5197,8 @@ mPurgeListLock
 void
 MayPurgeAll
 (
-bool
-aForce
+PurgeCondition
+aCond
 )
 ;
 purge_result_t
@@ -12800,8 +12806,8 @@ arena_t
 :
 Purge
 (
-bool
-aForce
+PurgeCondition
+aCond
 )
 {
 arena_chunk_t
@@ -12860,7 +12866,7 @@ if
 !
 ShouldContinuePurge
 (
-aForce
+aCond
 )
 )
 {
@@ -12995,7 +13001,7 @@ mArena
 .
 ShouldContinuePurge
 (
-aForce
+aCond
 )
 ;
 if
@@ -13159,7 +13165,7 @@ mArena
 .
 ShouldContinuePurge
 (
-aForce
+aCond
 )
 ;
 if
@@ -18819,6 +18825,7 @@ while
 (
 Purge
 (
+PurgeIfThreshold
 )
 )
 {
@@ -24105,7 +24112,7 @@ gArenas
 .
 MayPurgeAll
 (
-true
+PurgeUnconditional
 )
 ;
 }
@@ -24129,7 +24136,7 @@ gArenas
 .
 MayPurgeAll
 (
-false
+PurgeIfThreshold
 )
 ;
 }
@@ -24755,7 +24762,7 @@ found
 >
 Purge
 (
-false
+PurgeIfThreshold
 )
 ;
 }
@@ -24819,8 +24826,8 @@ ArenaCollection
 :
 MayPurgeAll
 (
-bool
-aForce
+PurgeCondition
+aCond
 )
 {
 MutexAutoLock
@@ -24868,7 +24875,7 @@ arena
 >
 Purge
 (
-aForce
+aCond
 )
 )
 ;
