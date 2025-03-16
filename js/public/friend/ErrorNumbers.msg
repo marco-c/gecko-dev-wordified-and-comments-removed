@@ -14274,7 +14274,7 @@ parse
 :
 missing
 '
-]
+[
 '
 before
 annotation
