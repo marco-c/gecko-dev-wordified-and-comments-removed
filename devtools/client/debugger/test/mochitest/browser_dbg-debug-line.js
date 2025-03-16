@@ -181,7 +181,7 @@ findAllElements
 (
 dbg
 "
-debugLine
+pausedLine
 "
 )
 .

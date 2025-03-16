@@ -144,7 +144,7 @@ return
 ;
 }
 const
-debugLine
+pausedLine
 =
 selectedFrame
 .
@@ -158,7 +158,7 @@ if
 column
 &
 &
-debugLine
+pausedLine
 =
 =
 line
