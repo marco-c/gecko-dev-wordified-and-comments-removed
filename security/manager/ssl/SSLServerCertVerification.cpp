@@ -5444,6 +5444,10 @@ SetCertVerificationResult
 mFinalError
 )
 ;
+mSocketControl
+=
+nullptr
+;
 return
 NS_OK
 ;
