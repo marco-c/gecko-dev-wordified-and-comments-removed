@@ -510,6 +510,13 @@ to
 settings
 .
 utmContent
+"
+number_of_app_launches
+"
+to
+settings
+.
+numberOfAppLaunches
 /
 /
 This
