@@ -1302,6 +1302,7 @@ AudioDeviceIOS
 (
 false
 nullptr
+nullptr
 )
 )
 ;

@@ -205,6 +205,7 @@ AudioDeviceIOS
 (
 false
 nullptr
+nullptr
 )
 )
 ;
@@ -660,6 +661,7 @@ AudioDeviceIOS
 (
 false
 muted_speech_event_handler
+nullptr
 )
 )
 ;
@@ -761,6 +763,7 @@ AudioDeviceIOS
 (
 false
 muted_speech_event_handler
+nullptr
 )
 )
 ;
