@@ -202,6 +202,14 @@ Prepare
 )
 ;
 nsresult
+CheckContentLengthDiscrepancy
+(
+nsIRequest
+*
+request
+)
+;
+nsresult
 DispatchContent
 (
 nsIRequest
