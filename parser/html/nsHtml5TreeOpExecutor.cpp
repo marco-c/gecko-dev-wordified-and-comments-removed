@@ -2677,6 +2677,13 @@ mFlushState
 eNotFlushing
 )
 {
+nsHtml5TreeOpExecutor
+:
+:
+ContinueInterruptedParsingAsync
+(
+)
+;
 return
 ;
 }
@@ -2687,6 +2694,10 @@ IsScriptExecuting
 )
 )
 {
+ContinueParsingDocumentAfterCurrentScript
+(
+)
+;
 return
 ;
 }

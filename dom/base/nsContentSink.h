@@ -346,6 +346,11 @@ IsScriptExecutingImpl
 )
 ;
 void
+ContinueParsingDocumentAfterCurrentScriptImpl
+(
+)
+;
+void
 NotifyAppend
 (
 nsIContent

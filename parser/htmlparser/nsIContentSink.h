@@ -58,12 +58,10 @@ define
 NS_ICONTENT_SINK_IID
 \
 {
-\
 0xcf9a7cbb
 0xfcbc
 0x4e13
 {
-\
 0x8e
 0xf5
 0x18
@@ -72,9 +70,7 @@ NS_ICONTENT_SINK_IID
 0x3d
 0x58
 0x29
-\
 }
-\
 }
 class
 nsIContentSink
@@ -228,6 +224,14 @@ return
 false
 ;
 }
+virtual
+void
+ContinueParsingDocumentAfterCurrentScript
+(
+)
+{
+}
+;
 virtual
 void
 ContinueInterruptedParsingAsync

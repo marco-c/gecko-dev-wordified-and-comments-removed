@@ -446,6 +446,17 @@ IsScriptExecutingImpl
 ;
 }
 void
+ContinueParsingDocumentAfterCurrentScript
+(
+)
+override
+{
+ContinueParsingDocumentAfterCurrentScriptImpl
+(
+)
+;
+}
+void
 SetStreamParser
 (
 nsHtml5StreamParser
