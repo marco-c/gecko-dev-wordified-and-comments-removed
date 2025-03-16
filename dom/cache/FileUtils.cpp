@@ -1829,6 +1829,17 @@ nsID
 aKnownBodyIds
 )
 {
+Maybe
+<
+CacheDirectoryMetadata
+>
+dirMetaData
+=
+Some
+(
+aDirectoryMetadata
+)
+;
 QM_TRY_INSPECT
 (
 const
@@ -1853,7 +1864,7 @@ CollectEachFile
 dir
 [
 &
-aDirectoryMetadata
+dirMetaData
 &
 aKnownBodyIds
 ]
@@ -1905,7 +1916,7 @@ removeOrphanedFiles
 =
 [
 &
-aDirectoryMetadata
+dirMetaData
 &
 aKnownBodyIds
 ]
@@ -1933,7 +1944,7 @@ MakeScopeExit
 (
 [
 &
-aDirectoryMetadata
+dirMetaData
 &
 bodyFile
 ]
@@ -1946,7 +1957,7 @@ result
 =
 RemoveNsIFile
 (
-aDirectoryMetadata
+dirMetaData
 bodyFile
 )
 ;
@@ -2016,7 +2027,7 @@ MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
-aDirectoryMetadata
+dirMetaData
 *
 subdir
 removeOrphanedFiles
@@ -2052,7 +2063,7 @@ result
 =
 RemoveNsIFile
 (
-aDirectoryMetadata
+dirMetaData
 *
 subdir
 false
