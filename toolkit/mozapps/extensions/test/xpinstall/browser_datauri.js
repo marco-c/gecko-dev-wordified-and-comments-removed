@@ -159,6 +159,16 @@ required
 "
 false
 ]
+[
+"
+network
+.
+xhr
+.
+block_sync_system_requests
+"
+false
+]
 ]
 }
 runTest
