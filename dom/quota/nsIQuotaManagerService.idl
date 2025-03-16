@@ -137,6 +137,14 @@ initTemporaryStorage
 must_use
 ]
 nsIQuotaRequest
+initializeAllTemporaryOrigins
+(
+)
+;
+[
+must_use
+]
+nsIQuotaRequest
 initializeTemporaryGroup
 (
 in

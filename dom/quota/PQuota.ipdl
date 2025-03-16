@@ -483,6 +483,16 @@ response
 )
 ;
 async
+InitializeAllTemporaryOrigins
+(
+)
+returns
+(
+BoolResponse
+response
+)
+;
+async
 InitializeTemporaryGroup
 (
 PrincipalInfo
