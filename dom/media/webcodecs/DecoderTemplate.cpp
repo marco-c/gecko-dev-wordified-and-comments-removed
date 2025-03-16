@@ -1078,6 +1078,8 @@ s
 %
 p
 Decode
+%
+s
 "
 DecoderType
 :
@@ -1088,6 +1090,15 @@ get
 (
 )
 this
+aInput
+.
+ToString
+(
+)
+.
+get
+(
+)
 )
 ;
 if
