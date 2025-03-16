@@ -991,6 +991,8 @@ appState
 {
 if
 (
+browsingModeManager
+.
 mode
 .
 isPrivate

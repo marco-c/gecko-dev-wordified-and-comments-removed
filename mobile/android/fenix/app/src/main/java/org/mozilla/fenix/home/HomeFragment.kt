@@ -3612,11 +3612,6 @@ DefaultPrivateBrowsingController
 activity
 =
 activity
-appStore
-=
-components
-.
-appStore
 navController
 =
 findNavController
