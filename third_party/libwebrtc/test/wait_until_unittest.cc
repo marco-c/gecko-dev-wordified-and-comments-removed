@@ -283,7 +283,7 @@ counter
 EXPECT_THAT
 (
 result
-IsRtcErrorWithMessage
+IsRtcErrorOrWithMessage
 (
 _
 MatchesRegex
@@ -388,7 +388,7 @@ counter
 EXPECT_THAT
 (
 result
-IsRtcErrorWithMessage
+IsRtcErrorOrWithMessage
 (
 _
 MatchesRegex
