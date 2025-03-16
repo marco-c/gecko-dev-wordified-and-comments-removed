@@ -11581,6 +11581,17 @@ case
 TabGroupRemoveRequested
 "
 :
+if
+(
+!
+aEvent
+.
+detail
+?
+.
+skipSessionStore
+)
+{
 this
 .
 onTabGroupRemoveRequested
@@ -11595,6 +11606,7 @@ _notifyOfClosedObjectsChange
 (
 )
 ;
+}
 break
 ;
 case
