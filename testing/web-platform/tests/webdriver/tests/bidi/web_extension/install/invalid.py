@@ -541,9 +541,7 @@ path
 extension_data
 [
 "
-unsigned
-.
-xpi
+archivePath
 "
 ]
 }
