@@ -613,7 +613,7 @@ mode
 :
 MODE
 .
-TINY
+LONG
 onFilter
 :
 this
