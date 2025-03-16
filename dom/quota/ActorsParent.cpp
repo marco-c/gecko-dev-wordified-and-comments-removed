@@ -18046,6 +18046,12 @@ return
 NS_OK
 ;
 }
+NotifyOriginInitializationStarted
+(
+*
+this
+)
+;
 ClientUsageArray
 clientUsages
 ;

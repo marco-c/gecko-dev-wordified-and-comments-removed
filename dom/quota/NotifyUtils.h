@@ -47,6 +47,14 @@ QuotaManager
 aQuotaManager
 )
 ;
+void
+NotifyOriginInitializationStarted
+(
+QuotaManager
+&
+aQuotaManager
+)
+;
 }
 #
 endif
