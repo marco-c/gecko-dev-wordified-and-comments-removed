@@ -7,6 +7,12 @@ c
 "
 #
 ifdef
+MOZILLA_CLIENT
+#
+ifndef
+MOZ_IN_WASM_SANDBOX
+#
+ifdef
 IS_LITTLE_ENDIAN
 #
 define
@@ -624,3 +630,7 @@ IS_NAME_CHAR_MINBPC
 #
 undef
 IS_NMSTRT_CHAR_MINBPC
+#
+endif
+#
+endif
