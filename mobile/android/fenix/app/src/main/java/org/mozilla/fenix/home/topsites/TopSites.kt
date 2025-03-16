@@ -2006,6 +2006,8 @@ horizontalArrangement
 =
 Arrangement
 .
+Absolute
+.
 Center
 verticalAlignment
 =
