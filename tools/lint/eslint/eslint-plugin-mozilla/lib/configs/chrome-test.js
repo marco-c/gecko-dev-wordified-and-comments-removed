@@ -46,6 +46,15 @@ getRootDirectory
 :
 false
 }
+name
+:
+"
+mozilla
+/
+chrome
+-
+test
+"
 plugins
 :
 [

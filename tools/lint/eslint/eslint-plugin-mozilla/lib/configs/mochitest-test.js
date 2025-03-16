@@ -22,6 +22,15 @@ SpecialPowers
 :
 false
 }
+name
+:
+"
+mozilla
+/
+mochitest
+-
+test
+"
 plugins
 :
 [
