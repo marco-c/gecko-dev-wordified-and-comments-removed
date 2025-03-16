@@ -48,6 +48,11 @@ types
 gecko
 "
 ]
+"
+incremental
+"
+:
+true
 /
 /
 prettier
