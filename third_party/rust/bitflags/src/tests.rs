@@ -8,6 +8,9 @@ mod
 bits
 ;
 mod
+clear
+;
+mod
 complement
 ;
 mod
