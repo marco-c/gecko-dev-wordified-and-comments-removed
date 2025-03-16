@@ -1344,6 +1344,11 @@ Boolean
 settings
 .
 shouldUseBottomToolbar
+onboardingFeatureEnabled
+:
+Boolean
+=
+true
 )
 :
 this
@@ -1454,6 +1459,11 @@ this
 shouldUseBottomToolbar
 =
 shouldUseBottomToolbar
+this
+.
+onboardingFeatureEnabled
+=
+onboardingFeatureEnabled
 }
 private
 val
