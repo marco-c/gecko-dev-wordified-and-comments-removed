@@ -334,7 +334,7 @@ aViolationEventInit
 )
 ;
 void
-RecordInternalViolationTelemetry
+HandleInternalPageViolation
 (
 const
 mozilla
@@ -356,6 +356,10 @@ dom
 SecurityPolicyViolationEventInit
 &
 aViolationEventInit
+const
+nsAString
+&
+aViolatedDirectiveNameAndValue
 )
 ;
 nsresult
