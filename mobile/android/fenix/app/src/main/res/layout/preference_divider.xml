@@ -178,13 +178,6 @@ layout_marginTop
 "
 android
 :
-layout_marginBottom
-=
-"
-6dp
-"
-android
-:
 background
 =
 "
