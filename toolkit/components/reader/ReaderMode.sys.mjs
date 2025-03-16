@@ -3220,7 +3220,7 @@ variance
 ]
 [
 "
-jw
+ja
 "
 {
 cpm
@@ -3285,7 +3285,7 @@ variance
 ]
 [
 "
-sk
+sl
 "
 {
 cpm
