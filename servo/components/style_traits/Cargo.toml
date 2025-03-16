@@ -49,6 +49,11 @@ servo
 /
 stylo
 "
+edition
+=
+"
+2021
+"
 publish
 =
 false
@@ -125,11 +130,6 @@ euclid
 0
 .
 22
-"
-lazy_static
-=
-"
-1
 "
 malloc_size_of
 =

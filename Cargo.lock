@@ -34097,9 +34097,6 @@ cssparser
 euclid
 "
 "
-lazy_static
-"
-"
 malloc_size_of
 "
 "
