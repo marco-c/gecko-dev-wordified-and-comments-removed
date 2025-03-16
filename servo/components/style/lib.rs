@@ -209,7 +209,7 @@ macro_use
 ]
 extern
 crate
-servo_atoms
+stylo_atoms
 ;
 #
 [
@@ -665,7 +665,7 @@ servo
 ]
 pub
 use
-servo_atoms
+stylo_atoms
 :
 :
 Atom
@@ -1021,7 +1021,7 @@ servo
 )
 ]
 use
-servo_atoms
+stylo_atoms
 :
 :
 Atom

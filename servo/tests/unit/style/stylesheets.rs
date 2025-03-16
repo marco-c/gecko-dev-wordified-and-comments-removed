@@ -46,7 +46,7 @@ servo_arc
 Arc
 ;
 use
-servo_atoms
+stylo_atoms
 :
 :
 Atom

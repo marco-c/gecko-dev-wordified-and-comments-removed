@@ -1120,7 +1120,7 @@ AtomIdent
 =
 GenericAtomIdent
 <
-servo_atoms
+stylo_atoms
 :
 :
 AtomStaticSet

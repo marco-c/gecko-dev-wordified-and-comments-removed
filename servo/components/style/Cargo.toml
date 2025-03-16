@@ -183,7 +183,7 @@ servo_arc
 servo
 "
 "
-servo_atoms
+stylo_atoms
 "
 "
 servo_config
@@ -617,7 +617,7 @@ path
 servo_arc
 "
 }
-servo_atoms
+stylo_atoms
 =
 {
 path
