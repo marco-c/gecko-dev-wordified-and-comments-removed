@@ -14777,7 +14777,7 @@ enumerationVar
 type
 {
 ?
-minusculeMAJUSCULEEnum
+MinusculeMajusculeEnum
 }
 *
 /

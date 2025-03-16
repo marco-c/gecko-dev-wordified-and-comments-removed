@@ -1743,7 +1743,7 @@ name
 >
 name
 .
-clone
+to_upper_camel_case
 (
 )
 Type

@@ -3364,7 +3364,7 @@ GET
 type
 {
 ?
-JSONEngineMethod
+JsonEngineMethod
 }
 *
 /
@@ -4063,7 +4063,7 @@ searches
 type
 {
 ?
-JSONEngineUrl
+JsonEngineUrl
 }
 *
 /
@@ -4088,7 +4088,7 @@ suggestions
 type
 {
 ?
-JSONEngineUrl
+JsonEngineUrl
 }
 *
 /
@@ -4114,7 +4114,7 @@ suggestions
 type
 {
 ?
-JSONEngineUrl
+JsonEngineUrl
 }
 *
 /
@@ -4140,7 +4140,7 @@ homepage
 type
 {
 ?
-JSONEngineUrl
+JsonEngineUrl
 }
 *
 /
