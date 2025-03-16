@@ -122,7 +122,9 @@ servo_pref
 "
 layout
 .
-legacy_layout
+layout
+.
+unimplemented
 "
 initial_value
 =
@@ -199,7 +201,9 @@ servo_pref
 "
 layout
 .
-legacy_layout
+layout
+.
+unimplemented
 "
 initial_value
 =
