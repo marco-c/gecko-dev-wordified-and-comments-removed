@@ -12612,6 +12612,11 @@ channel_unittest
 cc
 "
 "
+codec_vendor_unittest
+.
+cc
+"
+"
 dtls_srtp_transport_integrationtest
 .
 cc
@@ -12726,6 +12731,10 @@ audio_rtp_receiver
 "
 :
 channel
+"
+"
+:
+codec_vendor
 "
 "
 :
