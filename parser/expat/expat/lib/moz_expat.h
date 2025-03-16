@@ -274,6 +274,15 @@ XML_Parser
 parser
 )
 ;
+XML_Bool
+MOZ_XML_SetReparseDeferralEnabled
+(
+XML_Parser
+parser
+int
+enabled
+)
+;
 const
 XML_Char
 *
