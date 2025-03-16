@@ -1388,6 +1388,10 @@ the
 main
 thread
 .
+ThreadUtils
+.
+postToMainThread
+{
 Suppress
 (
 "
@@ -1441,6 +1445,7 @@ submitCaughtException
 (
 sessionNotificationServiceException
 )
+}
 }
 }
 internal
