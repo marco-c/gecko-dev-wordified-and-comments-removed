@@ -2069,9 +2069,9 @@ time
 and
 located
 at
-mozglue
-/
 build
+/
+sanitizers
 /
 TsanOptions
 .
@@ -2091,9 +2091,9 @@ central
 /
 source
 /
-mozglue
-/
 build
+/
+sanitizers
 /
 TsanOptions
 .
