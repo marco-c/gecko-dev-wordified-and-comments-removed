@@ -4467,12 +4467,8 @@ xperf
 -
 contact
 :
-fx
--
-perf
-mozilla
-.
-com
+perftest
+team
 -
 source
 :
