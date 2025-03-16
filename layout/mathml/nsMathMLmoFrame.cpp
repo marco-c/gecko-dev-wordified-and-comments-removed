@@ -972,7 +972,7 @@ GetAttr
 nsGkAtoms
 :
 :
-accent_
+accent
 value
 )
 ;
@@ -1031,7 +1031,7 @@ GetAttr
 nsGkAtoms
 :
 :
-movablelimits_
+movablelimits
 value
 )
 ;
@@ -1564,7 +1564,7 @@ GetAttr
 nsGkAtoms
 :
 :
-lspace_
+lspace
 value
 )
 ;
@@ -1678,7 +1678,7 @@ GetAttr
 nsGkAtoms
 :
 :
-rspace_
+rspace
 value
 )
 ;
@@ -1847,7 +1847,7 @@ GetAttr
 nsGkAtoms
 :
 :
-stretchy_
+stretchy
 value
 )
 ;
@@ -1910,7 +1910,7 @@ GetAttr
 nsGkAtoms
 :
 :
-fence_
+fence
 value
 )
 ;
@@ -1957,7 +1957,7 @@ GetAttr
 nsGkAtoms
 :
 :
-largeop_
+largeop
 value
 )
 ;
@@ -2020,7 +2020,7 @@ GetAttr
 nsGkAtoms
 :
 :
-separator_
+separator
 value
 )
 ;
@@ -2067,7 +2067,7 @@ GetAttr
 nsGkAtoms
 :
 :
-symmetric_
+symmetric
 value
 )
 ;
@@ -2126,7 +2126,7 @@ GetAttr
 nsGkAtoms
 :
 :
-minsize_
+minsize
 value
 )
 ;
@@ -2256,7 +2256,7 @@ GetAttr
 nsGkAtoms
 :
 :
-maxsize_
+maxsize
 value
 )
 ;
@@ -4697,7 +4697,7 @@ aAttribute
 nsGkAtoms
 :
 :
-accent_
+accent
 |
 |
 aAttribute
@@ -4715,7 +4715,7 @@ aAttribute
 nsGkAtoms
 :
 :
-largeop_
+largeop
 |
 |
 aAttribute
@@ -4724,7 +4724,7 @@ aAttribute
 nsGkAtoms
 :
 :
-maxsize_
+maxsize
 |
 |
 aAttribute
@@ -4733,7 +4733,7 @@ aAttribute
 nsGkAtoms
 :
 :
-minsize_
+minsize
 |
 |
 aAttribute
@@ -4742,7 +4742,7 @@ aAttribute
 nsGkAtoms
 :
 :
-movablelimits_
+movablelimits
 |
 |
 aAttribute
@@ -4751,7 +4751,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rspace_
+rspace
 |
 |
 aAttribute
@@ -4760,7 +4760,7 @@ aAttribute
 nsGkAtoms
 :
 :
-stretchy_
+stretchy
 |
 |
 aAttribute
@@ -4769,7 +4769,7 @@ aAttribute
 nsGkAtoms
 :
 :
-symmetric_
+symmetric
 |
 |
 aAttribute
@@ -4778,7 +4778,7 @@ aAttribute
 nsGkAtoms
 :
 :
-lspace_
+lspace
 )
 {
 nsIFrame

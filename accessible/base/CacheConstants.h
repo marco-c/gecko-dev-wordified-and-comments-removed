@@ -567,7 +567,7 @@ VisualViewportOffset
 nsGkAtoms
 :
 :
-voffset_
+voffset
 ;
 static
 constexpr

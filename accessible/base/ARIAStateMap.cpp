@@ -243,7 +243,7 @@ inlinevalue
 nsGkAtoms
 :
 :
-list_
+list
 nsGkAtoms
 :
 :

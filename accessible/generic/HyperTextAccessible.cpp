@@ -1588,7 +1588,7 @@ xmlroles
 nsGkAtoms
 :
 :
-separator_
+separator
 )
 ;
 }
@@ -2070,7 +2070,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mprescripts_
+mprescripts
 )
 )
 {
@@ -5108,7 +5108,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 )
 {
@@ -5145,7 +5145,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 )
 {

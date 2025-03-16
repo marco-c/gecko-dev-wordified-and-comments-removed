@@ -1479,7 +1479,7 @@ LINKED
 nsGkAtoms
 :
 :
-list_
+list
 roles
 :
 :
@@ -1542,7 +1542,7 @@ READONLY
 nsGkAtoms
 :
 :
-log_
+log
 roles
 :
 :
@@ -1764,7 +1764,7 @@ kNoReqStates
 nsGkAtoms
 :
 :
-note_
+note
 roles
 :
 :
@@ -2007,7 +2007,7 @@ eARIAReadonlyOrEditable
 nsGkAtoms
 :
 :
-separator_
+separator
 roles
 :
 :

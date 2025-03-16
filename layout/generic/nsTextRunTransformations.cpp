@@ -1579,7 +1579,7 @@ aLang
 nsGkAtoms
 :
 :
-lt_
+lt
 )
 {
 return

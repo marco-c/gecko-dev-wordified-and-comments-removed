@@ -384,7 +384,7 @@ separator
 nsGkAtoms
 :
 :
-separator_
+separator
 ATK_ROLE_SEPARATOR
 NSAccessibilitySplitterRole
 "
@@ -649,7 +649,7 @@ list
 nsGkAtoms
 :
 :
-list_
+list
 ATK_ROLE_LIST
 NSAccessibilityListRole
 NSAccessibilityContentListSubrole
@@ -2076,7 +2076,7 @@ note
 nsGkAtoms
 :
 :
-note_
+note
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
 "

@@ -24992,7 +24992,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-root_
+root
 u
 "
 true
@@ -25806,7 +25806,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-root_
+root
 u
 "
 true

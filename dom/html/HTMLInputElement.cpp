@@ -8803,7 +8803,7 @@ GetAttr
 nsGkAtoms
 :
 :
-list_
+list
 dataListId
 )
 ;

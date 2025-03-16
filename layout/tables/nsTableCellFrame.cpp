@@ -784,7 +784,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-columnspan_
+columnspan
 :
 nsGkAtoms
 :
@@ -3061,7 +3061,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-columnspan_
+columnspan
 :
 nsGkAtoms
 :

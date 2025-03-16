@@ -4801,7 +4801,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-msqrt_
+msqrt
 )
 )
 {
@@ -5515,7 +5515,7 @@ math
 nsGkAtoms
 :
 :
-mtd_
+mtd
 )
 )
 {

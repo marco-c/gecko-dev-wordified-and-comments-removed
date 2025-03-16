@@ -11788,7 +11788,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mtext_
+mtext
 )
 )
 )

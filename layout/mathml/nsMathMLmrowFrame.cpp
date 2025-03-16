@@ -127,7 +127,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mtable_
+mtable
 )
 )
 {

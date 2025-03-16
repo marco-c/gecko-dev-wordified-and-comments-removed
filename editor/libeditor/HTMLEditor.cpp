@@ -17866,7 +17866,7 @@ aTagName
 nsGkAtoms
 :
 :
-list_
+list
 )
 {
 if

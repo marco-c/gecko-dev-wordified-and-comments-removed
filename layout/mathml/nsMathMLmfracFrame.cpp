@@ -489,7 +489,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-linethickness_
+linethickness
 =
 =
 aAttribute
@@ -893,7 +893,7 @@ GetAttr
 nsGkAtoms
 :
 :
-linethickness_
+linethickness
 value
 )
 ;

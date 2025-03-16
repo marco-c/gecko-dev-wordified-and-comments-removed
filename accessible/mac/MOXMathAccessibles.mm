@@ -124,7 +124,7 @@ self
 nsGkAtoms
 :
 :
-linethickness_
+linethickness
 )
 )
 {

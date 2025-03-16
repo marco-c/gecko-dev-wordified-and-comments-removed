@@ -314,7 +314,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mtd_
+mtd
 )
 )
 {
@@ -1806,7 +1806,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mtable_
+mtable
 )
 )
 {
@@ -2089,9 +2089,11 @@ heuristic
 )
 \
 {
+\
 return
 isLayout
 ;
+\
 }
 #
 endif
@@ -2178,7 +2180,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mtable_
+mtable
 )
 )
 {

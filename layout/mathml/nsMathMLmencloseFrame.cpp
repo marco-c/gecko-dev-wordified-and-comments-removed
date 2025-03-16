@@ -743,7 +743,7 @@ GetAttr
 nsGkAtoms
 :
 :
-notation_
+notation
 value
 )
 )
@@ -2914,7 +2914,7 @@ aAttribute
 nsGkAtoms
 :
 :
-notation_
+notation
 )
 {
 InitNotations

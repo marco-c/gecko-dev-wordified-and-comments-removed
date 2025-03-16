@@ -366,7 +366,7 @@ HasAttr
 nsGkAtoms
 :
 :
-list_
+list
 )
 &
 &
@@ -1731,7 +1731,7 @@ HasAttr
 nsGkAtoms
 :
 :
-list_
+list
 )
 )
 {
@@ -2212,7 +2212,7 @@ aAttribute
 nsGkAtoms
 :
 :
-list_
+list
 |
 |
 aAttribute
@@ -2459,7 +2459,7 @@ HasAttr
 nsGkAtoms
 :
 :
-list_
+list
 )
 )
 {

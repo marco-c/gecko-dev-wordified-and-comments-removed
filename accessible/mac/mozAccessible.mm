@@ -1818,7 +1818,7 @@ roleAtom
 nsGkAtoms
 :
 :
-log_
+log
 )
 {
 return
