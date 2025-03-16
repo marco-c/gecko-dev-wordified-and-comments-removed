@@ -366,6 +366,8 @@ android
 /
 fenix
 /
+app
+/
 outputs
 /
 apk
@@ -378,7 +380,9 @@ fenix
 -
 fenix
 -
-x86
+arm64
+-
+v8a
 -
 debug
 .
