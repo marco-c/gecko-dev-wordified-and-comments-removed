@@ -900,6 +900,12 @@ kDefaultVideoMaxQpVpx
 ;
 const
 int
+kDefaultVideoMaxQpAv1
+=
+52
+;
+const
+int
 kDefaultVideoMaxQpH26x
 =
 51

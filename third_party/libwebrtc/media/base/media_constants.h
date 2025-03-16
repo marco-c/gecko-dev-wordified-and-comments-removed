@@ -622,6 +622,11 @@ kDefaultVideoMaxQpVpx
 extern
 const
 int
+kDefaultVideoMaxQpAv1
+;
+extern
+const
+int
 kDefaultVideoMaxQpH26x
 ;
 extern
