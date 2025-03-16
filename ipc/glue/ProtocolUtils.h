@@ -178,17 +178,6 @@ mozilla
 /
 ipc
 /
-SharedMemory
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 Shmem
 .
 h

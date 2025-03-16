@@ -55,17 +55,6 @@ include
 "
 mozilla
 /
-ipc
-/
-SharedMemory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 CompositableForwarder

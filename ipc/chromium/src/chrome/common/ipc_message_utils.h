@@ -80,6 +80,17 @@ CheckedInt
 h
 "
 #
+include
+"
+mozilla
+/
+ipc
+/
+SharedMemoryMapping
+.
+h
+"
+#
 if
 defined
 (
@@ -126,9 +137,6 @@ P
 >
 struct
 IPDLParamTraits
-;
-class
-SharedMemory
 ;
 namespace
 shared_memory
