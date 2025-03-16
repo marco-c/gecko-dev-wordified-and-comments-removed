@@ -418,11 +418,13 @@ this
 .
 arrowScrollbox
 =
-this
+document
 .
-querySelector
+getElementById
 (
 "
+tabbrowser
+-
 arrowscrollbox
 "
 )
