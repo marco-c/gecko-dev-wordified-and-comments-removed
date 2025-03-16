@@ -364,6 +364,7 @@ inputTemplate
 (
 classes
 styles
+inputValue
 )
 {
 return
@@ -406,6 +407,9 @@ name
 value
 =
 {
+inputValue
+|
+|
 this
 .
 value
