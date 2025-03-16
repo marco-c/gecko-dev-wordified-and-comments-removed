@@ -1936,12 +1936,6 @@ const
 nsAString
 &
 aGranularity
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
