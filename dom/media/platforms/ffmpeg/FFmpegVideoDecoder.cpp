@@ -11648,13 +11648,6 @@ sw_format
 AV_PIX_FMT_NV12
 ;
 }
-framesContext
--
->
-initial_pool_size
-=
-9
-;
 if
 (
 mCodecID
