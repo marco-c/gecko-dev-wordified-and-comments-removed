@@ -39,7 +39,7 @@ main
 /
 source
 /
-pitch_estimator
+isac_vad
 .
 h
 "
@@ -58,7 +58,7 @@ main
 /
 source
 /
-isac_vad
+pitch_estimator
 .
 h
 "
