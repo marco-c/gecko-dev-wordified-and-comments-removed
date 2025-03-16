@@ -4759,7 +4759,7 @@ Transition
 )
 }
 fun
-openReportSiteIssue
+openReportBrokenSite
 (
 interact
 :
@@ -4782,7 +4782,7 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Trying
 to
@@ -4813,7 +4813,7 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Performed
 swipe
@@ -4832,7 +4832,7 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Trying
 to
@@ -4863,7 +4863,7 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Performed
 swipe
@@ -4882,7 +4882,7 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Trying
 to
@@ -4891,8 +4891,8 @@ the
 \
 "
 Report
-Site
-Issue
+broke
+site
 \
 "
 button
@@ -4911,15 +4911,15 @@ i
 (
 TAG
 "
-openReportSiteIssue
+openReportBrokenSite
 :
 Clicked
 the
 \
 "
 Report
-Site
-Issue
+broke
+site
 \
 "
 button
