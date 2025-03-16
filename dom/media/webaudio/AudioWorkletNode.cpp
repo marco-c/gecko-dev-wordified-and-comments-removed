@@ -22,6 +22,13 @@ h
 #
 include
 "
+AudioWorklet
+.
+h
+"
+#
+include
+"
 AudioWorkletImpl
 .
 h

@@ -70,6 +70,9 @@ WorkletGlobalScope
 >
 ConstructGlobalScope
 (
+JSContext
+*
+aCx
 )
 override
 ;
