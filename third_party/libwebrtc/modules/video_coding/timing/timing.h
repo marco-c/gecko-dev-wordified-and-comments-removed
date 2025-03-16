@@ -233,10 +233,12 @@ min_playout_delay
 )
 ;
 void
-set_max_playout_delay
+set_playout_delay
 (
-TimeDelta
-max_playout_delay
+const
+VideoPlayoutDelay
+&
+playout_delay
 )
 ;
 void
