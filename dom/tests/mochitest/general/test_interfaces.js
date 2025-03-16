@@ -1595,6 +1595,9 @@ name
 "
 CookieChangeEvent
 "
+nightly
+:
+true
 }
 {
 name
@@ -1602,6 +1605,9 @@ name
 "
 CookieStore
 "
+nightly
+:
+true
 }
 {
 name
@@ -8051,6 +8057,9 @@ name
 "
 cookieStore
 "
+nightly
+:
+true
 }
 {
 name
