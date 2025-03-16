@@ -369,6 +369,9 @@ launcher
 bookmark
 "
 "
+page_action
+"
+"
 tab
 "
 "
@@ -391,9 +394,6 @@ enum
 [
 "
 browser_action
-"
-"
-page_action
 "
 ]
 "
