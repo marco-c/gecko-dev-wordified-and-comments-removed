@@ -8845,6 +8845,12 @@ StyleAppearance
 :
 Toolbarbutton
 :
+case
+StyleAppearance
+:
+:
+ProgressBar
+:
 return
 LayoutDeviceIntMargin
 :
