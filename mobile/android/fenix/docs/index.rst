@@ -371,14 +371,6 @@ experiments
 .
 md
 >
-l10n
-Screenshots
-Tests
-<
-l10nScreenshotsTests
-.
-md
->
 Manual
 Testing
 <

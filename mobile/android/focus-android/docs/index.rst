@@ -263,15 +263,3 @@ Test
 .
 md
 >
-l10n
-Screenshot
-Generation
-<
-l10n
--
-Screenshot
--
-Generation
-.
-md
->
