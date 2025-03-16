@@ -6334,7 +6334,7 @@ parserBytesBefore
 =
 RLBOX_EXPAT_SAFE_MCALL
 (
-XML_GetCurrentByteIndex
+MOZ_XML_GetCurrentByteIndex
 parserBytesBefore_verifier
 )
 ;
@@ -6546,7 +6546,7 @@ parserBytesConsumed
 =
 RLBOX_EXPAT_SAFE_MCALL
 (
-XML_GetCurrentByteIndex
+MOZ_XML_GetCurrentByteIndex
 parserBytesConsumed_verifier
 )
 ;
