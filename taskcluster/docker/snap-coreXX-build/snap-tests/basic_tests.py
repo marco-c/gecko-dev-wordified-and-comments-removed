@@ -883,6 +883,18 @@ m
 expectations
 )
                 
+assert
+rv
+is
+not
+None
+"
+test
+returned
+no
+value
+"
+                
 tabs_after
 =
 set
@@ -2790,6 +2802,9 @@ be
 or
 24
 "
+        
+return
+True
     
 def
 test_about_support
