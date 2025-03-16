@@ -198,6 +198,9 @@ vendor
 const
 REACT_ESM_MODULES
 =
+new
+Set
+(
 [
 VENDOR_URI
 +
@@ -319,6 +322,7 @@ shallow
 js
 "
 ]
+)
 ;
 /
 /
@@ -2524,7 +2528,7 @@ if
 (
 REACT_ESM_MODULES
 .
-includes
+has
 (
 uri
 )
