@@ -102,6 +102,15 @@ mjs
 "
 content
 /
+MockPromptCollection
+.
+sys
+.
+mjs
+"
+"
+content
+/
 MockSound
 .
 sys
