@@ -133,7 +133,6 @@ A16
 R8G8
 R16G16
 YUV420
-YUV420P10
 YUV422P10
 NV12
 P016
@@ -371,12 +370,6 @@ SurfaceFormat
 :
 :
 YUV420
-:
-case
-SurfaceFormat
-:
-:
-YUV420P10
 :
 case
 SurfaceFormat
@@ -620,12 +613,6 @@ SurfaceFormat
 :
 :
 YUV420
-:
-case
-SurfaceFormat
-:
-:
-YUV420P10
 :
 case
 SurfaceFormat
