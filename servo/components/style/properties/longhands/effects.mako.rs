@@ -299,6 +299,7 @@ engines
 =
 "
 gecko
+servo
 "
 vector
 =
@@ -333,6 +334,13 @@ backdrop
 filter
 .
 enabled
+"
+servo_pref
+=
+"
+layout
+.
+unimplemented
 "
 spec
 =

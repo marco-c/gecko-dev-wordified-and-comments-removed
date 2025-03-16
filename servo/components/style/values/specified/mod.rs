@@ -373,6 +373,7 @@ ScrollbarGutter
 TouchAction
 VerticalAlign
 WillChange
+WillChangeBits
 Zoom
 }
 ;
