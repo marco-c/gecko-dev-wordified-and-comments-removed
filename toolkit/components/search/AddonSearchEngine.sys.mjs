@@ -1280,11 +1280,6 @@ _initWithDetails
 .
 searchProvider
 iconURL
-description
-:
-manifest
-.
-description
 }
 )
 ;

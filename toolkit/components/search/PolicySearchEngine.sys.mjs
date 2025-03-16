@@ -252,13 +252,6 @@ let
 details
 =
 {
-description
-:
-options
-.
-details
-.
-Description
 iconURL
 :
 options

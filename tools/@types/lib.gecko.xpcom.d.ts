@@ -61188,11 +61188,6 @@ string
 [
 ]
 ;
-readonly
-description
-:
-string
-;
 hidden
 :
 boolean

@@ -735,12 +735,6 @@ formInfo
 .
 alias
 ;
-this
-.
-_description
-=
-null
-;
 }
 /
 *
