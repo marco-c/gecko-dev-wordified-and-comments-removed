@@ -23250,6 +23250,12 @@ aContent
 ;
 }
 ;
+const
+bool
+canNormalizeWhiteSpaces
+=
+mInitSucceeded
+;
 if
 (
 !
@@ -23289,6 +23295,10 @@ NS_ERROR_FAILURE
 }
 if
 (
+!
+canNormalizeWhiteSpaces
+|
+|
 !
 StaticPrefs
 :
@@ -23405,6 +23415,9 @@ nsresult
 >
 pointToInsertOrError
 =
+canNormalizeWhiteSpaces
+&
+&
 StaticPrefs
 :
 :
