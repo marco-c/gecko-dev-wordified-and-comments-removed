@@ -4579,6 +4579,11 @@ aType
 )
 const
 ;
+void
+MaybeMarkSHEntryAsUserInteracted
+(
+)
+;
 #
 ifdef
 MOZ_WMF_CDM

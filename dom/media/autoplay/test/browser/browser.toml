@@ -146,6 +146,13 @@ js
 ]
 [
 "
+browser_autoplay_userinteraction
+.
+js
+"
+]
+[
+"
 browser_autoplay_videoDocument
 .
 js
