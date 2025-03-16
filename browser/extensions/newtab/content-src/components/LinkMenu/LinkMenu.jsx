@@ -179,6 +179,9 @@ source
 isPrivateBrowsingEnabled
 siteInfo
 platform
+dispatch
+options
+shouldSendImpressionStats
 userEvent
 =
 ac
@@ -217,12 +220,10 @@ sponsored_position
 ?
 DEFAULT_SITE_MENU_OPTIONS
 :
-props
-.
 options
 ;
 const
-options
+linkMenuOptions
 =
 propOptions
 .
@@ -355,8 +356,6 @@ data
 )
 ;
 }
-props
-.
 dispatch
 (
 action
@@ -403,8 +402,6 @@ organic
 siteInfo
 )
 ;
-props
-.
 dispatch
 (
 userEvent
@@ -419,13 +416,9 @@ if
 impression
 &
 &
-props
-.
 shouldSendImpressionStats
 )
 {
-props
-.
 dispatch
 (
 impression
@@ -482,7 +475,7 @@ context
 menu
 accordingly
 .
-options
+linkMenuOptions
 [
 0
 ]
@@ -491,9 +484,9 @@ first
 =
 true
 ;
-options
+linkMenuOptions
 [
-options
+linkMenuOptions
 .
 length
 -
@@ -505,7 +498,7 @@ last
 true
 ;
 return
-options
+linkMenuOptions
 ;
 }
 render
