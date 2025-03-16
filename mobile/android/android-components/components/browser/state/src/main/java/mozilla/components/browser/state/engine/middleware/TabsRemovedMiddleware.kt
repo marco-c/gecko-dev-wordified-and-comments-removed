@@ -877,6 +877,17 @@ SessionState
 {
 sessionState
 .
+mediaSessionState
+?
+.
+controller
+?
+.
+pause
+(
+)
+sessionState
+.
 engineState
 .
 engineSession
