@@ -2522,6 +2522,12 @@ catch_exceptions_
 }
 private
 :
+bool
+ShouldWarnIfNoTestsMatchFilter
+(
+)
+const
+;
 struct
 CompareTestSuitesByPointer
 {

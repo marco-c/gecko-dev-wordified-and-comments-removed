@@ -22,7 +22,7 @@ cmake_minimum_required
 VERSION
 3
 .
-13
+16
 )
 project
 (
@@ -35,9 +35,9 @@ set
 GOOGLETEST_VERSION
 1
 .
-15
+16
 .
-2
+0
 )
 if
 (

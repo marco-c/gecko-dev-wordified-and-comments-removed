@@ -335,9 +335,9 @@ cpp
 version
 =
 "
-20240116
+20250127
 .
-2
+0
 "
 )
 bazel_dep
@@ -384,9 +384,9 @@ rules_python
 version
 =
 "
-0
+1
 .
-34
+1
 .
 0
 "

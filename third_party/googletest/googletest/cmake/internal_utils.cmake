@@ -1780,7 +1780,7 @@ target_compile_features
 name
 }
 PUBLIC
-cxx_std_14
+cxx_std_17
 )
 endfunction
 (
