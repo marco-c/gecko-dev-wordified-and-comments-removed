@@ -1260,8 +1260,6 @@ RFPTargetSet
 >
 &
 aOverriddenFingerprintingSettings
-bool
-aSkipChromePrincipalCheck
 )
 {
 MOZ_ASSERT
