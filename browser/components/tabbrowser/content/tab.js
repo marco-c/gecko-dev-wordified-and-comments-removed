@@ -748,6 +748,7 @@ crashed
 sharing
 pictureinpicture
 pending
+discarded
 "
 "
 .
