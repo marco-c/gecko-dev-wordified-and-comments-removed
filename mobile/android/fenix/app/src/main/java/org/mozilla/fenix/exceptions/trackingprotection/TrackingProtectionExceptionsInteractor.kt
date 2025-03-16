@@ -217,11 +217,11 @@ onDeleteAll
 trackingProtectionUseCases
 .
 removeAllExceptions
-(
-)
+{
 reloadExceptions
 (
 )
+}
 }
 override
 fun
