@@ -78,7 +78,7 @@ resource
 /
 modules
 /
-BrowserGlue
+AboutHomeStartupCache
 .
 sys
 .

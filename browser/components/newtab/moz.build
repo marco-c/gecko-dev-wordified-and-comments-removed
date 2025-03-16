@@ -41,6 +41,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+AboutHomeStartupCache
+.
+sys
+.
+mjs
+"
+"
 AboutNewTabService
 .
 sys
