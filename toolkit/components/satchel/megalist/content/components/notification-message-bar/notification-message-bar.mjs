@@ -1489,7 +1489,7 @@ discard
 -
 changes
 -
-close
+confirm
 -
 button
 "
