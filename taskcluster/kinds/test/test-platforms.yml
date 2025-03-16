@@ -1157,6 +1157,12 @@ sets
 windows
 -
 talos
+-
+windows
+-
+talos
+-
+webgl
 windows11
 -
 64
@@ -1188,6 +1194,12 @@ profiling
 windows
 -
 talos
+-
+windows
+-
+talos
+-
+webgl
 #
 win10
 -
@@ -1722,7 +1734,6 @@ tests
 talos
 -
 xperf
-#
 -
 windows
 -
@@ -1822,12 +1833,10 @@ tests
 talos
 -
 xperf
-#
 -
 talos
 -
 profiling
-#
 -
 windows
 -
