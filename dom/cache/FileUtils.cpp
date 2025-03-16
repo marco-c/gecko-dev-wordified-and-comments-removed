@@ -1821,13 +1821,12 @@ aDirectoryMetadata
 nsIFile
 &
 aBaseDir
-const
-nsTArray
+nsTHashSet
 <
 nsID
 >
 &
-aKnownBodyIdList
+aKnownBodyIds
 )
 {
 QM_TRY_INSPECT
@@ -1856,7 +1855,7 @@ dir
 &
 aDirectoryMetadata
 &
-aKnownBodyIdList
+aKnownBodyIds
 ]
 (
 const
@@ -1908,7 +1907,7 @@ removeOrphanedFiles
 &
 aDirectoryMetadata
 &
-aKnownBodyIdList
+aKnownBodyIds
 ]
 (
 nsIFile
@@ -1986,7 +1985,7 @@ true
 if
 (
 !
-aKnownBodyIdList
+aKnownBodyIds
 .
 Contains
 (

@@ -167,7 +167,7 @@ aConn
 ;
 Result
 <
-nsTArray
+nsTHashSet
 <
 nsID
 >

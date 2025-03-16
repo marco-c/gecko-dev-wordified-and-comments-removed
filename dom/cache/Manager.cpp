@@ -817,12 +817,10 @@ mDeletedPaddingSize
 )
 )
 ;
-QM_TRY_INSPECT
+QM_TRY_UNWRAP
 (
-const
 auto
-&
-knownBodyIdList
+knownBodyIds
 db
 :
 :
@@ -842,7 +840,7 @@ BodyDeleteOrphanedFiles
 aDirectoryMetadata
 *
 aDBDir
-knownBodyIdList
+knownBodyIds
 )
 )
 )

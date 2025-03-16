@@ -279,13 +279,12 @@ aDirectoryMetadata
 nsIFile
 &
 aBaseDir
-const
-nsTArray
+nsTHashSet
 <
 nsID
 >
 &
-aKnownBodyIdList
+aKnownBodyIds
 )
 ;
 template
