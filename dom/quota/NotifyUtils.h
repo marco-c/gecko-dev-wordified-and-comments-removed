@@ -48,6 +48,14 @@ aQuotaManager
 )
 ;
 void
+NotifyGroupInitializationStarted
+(
+QuotaManager
+&
+aQuotaManager
+)
+;
+void
 NotifyOriginInitializationStarted
 (
 QuotaManager

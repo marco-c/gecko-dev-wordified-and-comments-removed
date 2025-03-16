@@ -25488,6 +25488,12 @@ Ok
 nsresult
 >
 {
+NotifyGroupInitializationStarted
+(
+*
+this
+)
+;
 const
 auto
 &

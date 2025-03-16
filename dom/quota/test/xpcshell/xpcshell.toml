@@ -352,6 +352,13 @@ js
 ]
 [
 "
+test_groupInitializationStarted
+.
+js
+"
+]
+[
+"
 test_groupMismatch
 .
 js
