@@ -697,7 +697,7 @@ function
 getSystemBuiltin
 (
 num
-version
+addon_version
 res_url
 )
 {
@@ -713,6 +713,18 @@ tests
 mozilla
 .
 org
+;
+const
+version
+=
+addon_version
+?
+?
+"
+1
+.
+0
+"
 ;
 const
 addon_res_url_path
