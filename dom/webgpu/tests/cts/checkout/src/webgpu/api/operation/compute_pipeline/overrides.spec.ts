@@ -66,7 +66,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -87,7 +87,7 @@ js
 class
 F
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 async
 ExpectShaderOutputWithConstants

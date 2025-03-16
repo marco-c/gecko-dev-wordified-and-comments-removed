@@ -96,7 +96,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -150,7 +150,7 @@ VertexAndIndexStateTrackingTest
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 GetRenderPipelineForTest

@@ -124,10 +124,10 @@ kUncompressedTextureFormats
 kRegularTextureFormats
 kFeaturesForFormats
 filterFormatsByFeature
-viewCompatible
+viewCompatibleDeprecated
 textureDimensionAndFormatCompatible
-isTextureFormatUsableAsStorageFormat
-isMultisampledTextureFormat
+isTextureFormatUsableAsStorageFormatDeprecated
+isMultisampledTextureFormatDeprecated
 }
 from
 '
@@ -627,7 +627,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -895,7 +895,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -1818,7 +1818,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -1923,7 +1923,7 @@ sampleCount
 4
 &
 &
-isMultisampledTextureFormat
+isMultisampledTextureFormatDeprecated
 (
 format
 t
@@ -2342,7 +2342,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -2478,7 +2478,7 @@ STORAGE_BINDING
 0
 |
 |
-isTextureFormatUsableAsStorageFormat
+isTextureFormatUsableAsStorageFormatDeprecated
 (
 format
 t
@@ -2506,7 +2506,7 @@ sampleCount
 4
 &
 &
-isMultisampledTextureFormat
+isMultisampledTextureFormatDeprecated
 (
 format
 t
@@ -2956,7 +2956,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -3424,7 +3424,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -3880,7 +3880,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -5447,7 +5447,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -6775,7 +6775,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )
@@ -6877,7 +6877,7 @@ STORAGE_BINDING
 if
 (
 !
-isTextureFormatUsableAsStorageFormat
+isTextureFormatUsableAsStorageFormatDeprecated
 (
 format
 t
@@ -7124,7 +7124,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 viewFormat
@@ -7133,7 +7133,7 @@ viewFormat
 const
 compatible
 =
-viewCompatible
+viewCompatibleDeprecated
 (
 t
 .

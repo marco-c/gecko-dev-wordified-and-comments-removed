@@ -3747,7 +3747,7 @@ params
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 format
 )

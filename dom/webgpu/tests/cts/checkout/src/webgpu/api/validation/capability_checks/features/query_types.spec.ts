@@ -46,7 +46,7 @@ js
 ;
 import
 {
-ValidationTest
+UniqueFeaturesAndLimitsValidationTest
 }
 from
 '
@@ -67,7 +67,7 @@ g
 =
 makeTestGroup
 (
-ValidationTest
+UniqueFeaturesAndLimitsValidationTest
 )
 ;
 g
@@ -504,6 +504,15 @@ querySet
 0
 )
 ;
+}
+{
+message
+:
+'
+writeTimestamp
+should
+throw
+'
 }
 )
 ;

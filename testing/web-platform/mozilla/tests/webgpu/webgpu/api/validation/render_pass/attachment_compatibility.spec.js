@@ -845,7 +845,7 @@ params
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 passFormat
 bundleFormat
@@ -2256,7 +2256,7 @@ params
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 encoderFormat
 pipelineFormat

@@ -74,7 +74,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -232,7 +232,7 @@ COPY_SRC
 class
 F
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 GetBufferUsageFromMapMode
 (

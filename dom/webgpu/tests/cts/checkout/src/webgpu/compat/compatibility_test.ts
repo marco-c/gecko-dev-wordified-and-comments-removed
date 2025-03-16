@@ -1,6 +1,6 @@
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -20,7 +20,7 @@ export
 class
 CompatibilityTest
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 override
 async

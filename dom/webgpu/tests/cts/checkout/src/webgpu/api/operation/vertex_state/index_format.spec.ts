@@ -40,7 +40,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -383,7 +383,7 @@ kHeight
 class
 IndexFormatTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 MakeRenderPipeline
 (

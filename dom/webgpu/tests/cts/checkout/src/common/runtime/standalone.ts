@@ -601,9 +601,6 @@ compatibility
 &
 &
 {
-compatibilityMode
-:
-true
 featureLevel
 :
 '

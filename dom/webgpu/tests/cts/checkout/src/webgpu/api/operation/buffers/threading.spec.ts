@@ -88,7 +88,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -112,7 +112,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g

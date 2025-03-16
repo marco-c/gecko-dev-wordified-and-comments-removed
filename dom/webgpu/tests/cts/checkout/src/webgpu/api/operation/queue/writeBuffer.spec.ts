@@ -70,7 +70,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -186,7 +186,7 @@ number
 class
 F
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 calculateRequiredBufferSize
 (

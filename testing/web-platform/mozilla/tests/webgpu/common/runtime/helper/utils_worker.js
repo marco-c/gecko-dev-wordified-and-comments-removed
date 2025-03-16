@@ -148,9 +148,6 @@ compatibility
 &
 &
 {
-compatibilityMode
-:
-true
 featureLevel
 :
 '

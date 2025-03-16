@@ -83,6 +83,7 @@ js
 ;
 import
 {
+AllFeaturesMaxLimitsGPUTest
 GPUTest
 }
 from
@@ -124,7 +125,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 const

@@ -132,7 +132,7 @@ import
 kDepthStencilFormats
 kDepthStencilFormatResolvedAspect
 kTextureFormatInfo
-isMultisampledTextureFormat
+isMultisampledTextureFormatDeprecated
 }
 from
 '
@@ -6395,7 +6395,7 @@ _sampleCount
 &
 &
 !
-isMultisampledTextureFormat
+isMultisampledTextureFormatDeprecated
 (
 '
 r32float

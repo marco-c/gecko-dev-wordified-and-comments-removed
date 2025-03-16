@@ -65,7 +65,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -122,7 +122,7 @@ rgba8unorm
 class
 F
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 MakeIndexBuffer
 (

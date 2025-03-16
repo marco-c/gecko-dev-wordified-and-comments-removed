@@ -27,7 +27,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -49,7 +49,7 @@ export
 class
 MappingTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 checkMapWrite
 (

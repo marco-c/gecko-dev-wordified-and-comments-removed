@@ -39,7 +39,7 @@ js
 ;
 import
 {
-TexelFormats
+kPossibleStorageTextureFormats
 }
 from
 '
@@ -49,7 +49,10 @@ from
 .
 .
 /
-types
+.
+.
+/
+format_info
 .
 js
 '
@@ -148,7 +151,7 @@ combine
 '
 format
 '
-TexelFormats
+kPossibleStorageTextureFormats
 )
 .
 combine
@@ -189,15 +192,6 @@ t
 .
 params
 ;
-t
-.
-skipIfTextureFormatNotUsableAsStorageTexture
-(
-format
-.
-format
-)
-;
 const
 source
 =
@@ -217,8 +211,6 @@ type
 }
 <
 {
-format
-.
 format
 }
 {

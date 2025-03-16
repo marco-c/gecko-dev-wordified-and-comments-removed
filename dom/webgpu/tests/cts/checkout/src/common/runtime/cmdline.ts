@@ -1183,11 +1183,6 @@ forceFallbackAdapter
 setDefaultRequestAdapterOptions
 (
 {
-compatibilityMode
-:
-globalTestConfig
-.
-compatibility
 featureLevel
 :
 globalTestConfig

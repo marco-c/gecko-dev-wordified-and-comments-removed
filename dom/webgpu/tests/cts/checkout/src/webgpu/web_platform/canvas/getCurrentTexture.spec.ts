@@ -108,7 +108,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -154,7 +154,7 @@ bgra8unorm
 class
 GPUContextTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 initCanvasContext
 (

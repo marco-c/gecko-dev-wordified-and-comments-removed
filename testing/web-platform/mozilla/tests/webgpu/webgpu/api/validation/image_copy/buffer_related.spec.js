@@ -1186,7 +1186,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .

@@ -43,7 +43,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -67,7 +67,7 @@ VertexBuiltinTest
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 }
@@ -295,7 +295,7 @@ const
 )
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -303,7 +303,7 @@ t
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 clip
@@ -312,15 +312,6 @@ distances
 '
 )
 ;
-}
-)
-.
-fn
-(
-t
-=
->
-{
 const
 {
 clipDistances

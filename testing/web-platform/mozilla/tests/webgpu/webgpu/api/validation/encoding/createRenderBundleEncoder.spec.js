@@ -430,7 +430,7 @@ t
 {
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .

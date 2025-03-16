@@ -782,7 +782,7 @@ kTypeCases
 )
 )
 .
-beforeAllSubcases
+fn
 (
 (
 t
@@ -807,7 +807,7 @@ f16
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -817,17 +817,6 @@ f16
 )
 ;
 }
-}
-)
-.
-fn
-(
-(
-t
-)
-=
->
-{
 const
 testcase
 =

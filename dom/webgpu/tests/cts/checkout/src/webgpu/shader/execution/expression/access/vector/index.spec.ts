@@ -44,7 +44,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -141,7 +141,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g
@@ -261,8 +261,9 @@ const
 )
 )
 .
-beforeAllSubcases
+fn
 (
+async
 t
 =
 >
@@ -284,7 +285,7 @@ f16
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -294,16 +295,6 @@ f16
 )
 ;
 }
-}
-)
-.
-fn
-(
-async
-t
-=
->
-{
 const
 elementType
 =

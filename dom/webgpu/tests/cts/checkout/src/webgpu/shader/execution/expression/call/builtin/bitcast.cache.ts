@@ -2277,7 +2277,7 @@ expectedIntervalsCombination
 ;
 }
 interface
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 {
 possibleExpectations
 :
@@ -2365,7 +2365,7 @@ f32
 '
 )
 :
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 {
 assert
 (

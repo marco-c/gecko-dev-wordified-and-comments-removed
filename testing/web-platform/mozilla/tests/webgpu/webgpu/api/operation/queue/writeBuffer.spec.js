@@ -70,7 +70,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -143,7 +143,7 @@ Float64Array
 class
 F
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 calculateRequiredBufferSize
 (

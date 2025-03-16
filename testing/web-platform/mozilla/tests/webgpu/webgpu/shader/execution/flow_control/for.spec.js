@@ -40,7 +40,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -77,7 +77,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g
@@ -526,7 +526,7 @@ g
 test
 (
 '
-for_initalizer
+for_initializer
 '
 )
 .
@@ -679,7 +679,7 @@ g
 test
 (
 '
-for_complex_initalizer
+for_complex_initializer
 '
 )
 .

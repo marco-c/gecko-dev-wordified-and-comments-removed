@@ -753,7 +753,7 @@ maxStorageTexturesInFragmentStage
 }
 t
 .
-skipIfTextureViewDimensionNotSupported
+skipIfTextureViewDimensionNotSupportedDeprecated
 (
 wgslResource
 .

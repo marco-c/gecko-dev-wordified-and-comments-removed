@@ -65,6 +65,7 @@ js
 ;
 import
 {
+AllFeaturesMaxLimitsGPUTest
 GPUTest
 }
 from
@@ -86,7 +87,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 function
@@ -1213,7 +1214,7 @@ preserved
 .
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -1221,7 +1222,7 @@ t
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -1230,15 +1231,6 @@ f16
 '
 )
 ;
-}
-)
-.
-fn
-(
-t
-=
->
-{
 const
 wgsl
 =
@@ -1401,7 +1393,7 @@ preserved
 .
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -1409,7 +1401,7 @@ t
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -1418,15 +1410,6 @@ f16
 '
 )
 ;
-}
-)
-.
-fn
-(
-t
-=
->
-{
 const
 wgsl
 =

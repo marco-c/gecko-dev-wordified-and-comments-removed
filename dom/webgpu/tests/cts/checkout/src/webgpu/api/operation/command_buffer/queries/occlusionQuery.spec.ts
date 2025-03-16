@@ -240,7 +240,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -1323,7 +1323,7 @@ count
 class
 OcclusionQueryTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 createVertexBuffer
 (

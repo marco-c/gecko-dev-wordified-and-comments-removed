@@ -31,7 +31,6 @@ js
 ;
 import
 {
-kTextureFormatInfo
 EncodableTextureFormat
 }
 from
@@ -138,15 +137,6 @@ subresourceRange
 =
 >
 {
-assert
-(
-params
-.
-format
-in
-kTextureFormatInfo
-)
-;
 const
 format
 =

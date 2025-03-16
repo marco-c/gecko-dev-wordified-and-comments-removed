@@ -54,7 +54,7 @@ js
 ;
 import
 {
-kTextureFormatInfo
+isStencilTextureFormat
 SizedTextureFormat
 }
 from
@@ -75,7 +75,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -245,7 +245,7 @@ CullingTest
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 checkCornerPixels
@@ -946,12 +946,10 @@ haveStencil
 depthStencilFormat
 &
 &
-kTextureFormatInfo
-[
+isStencilTextureFormat
+(
 depthStencilFormat
-]
-.
-stencil
+)
 ;
 let
 depthTexture

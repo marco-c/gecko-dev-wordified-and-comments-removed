@@ -962,7 +962,7 @@ t
 {
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .
@@ -1451,7 +1451,7 @@ t
 {
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .
@@ -6564,7 +6564,7 @@ t
 {
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .

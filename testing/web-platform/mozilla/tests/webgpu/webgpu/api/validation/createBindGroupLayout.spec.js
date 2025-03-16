@@ -2848,7 +2848,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableAsStorageTextureDeprecated
 (
 t
 .
