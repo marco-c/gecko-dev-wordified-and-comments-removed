@@ -58,7 +58,7 @@ color
 "
 cyan
 "
-showCreateUI
+isUserCreated
 :
 true
 }
