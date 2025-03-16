@@ -1390,6 +1390,12 @@ env_map
 ;
 if
 (
+aType
+!
+=
+GeckoProcessType_ForkServer
+&
+&
 !
 AttachSandboxReporter
 (
