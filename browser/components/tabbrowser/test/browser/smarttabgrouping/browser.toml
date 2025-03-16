@@ -90,3 +90,10 @@ browser_tab_grouping_telemetry
 js
 "
 ]
+[
+"
+browser_tab_grouping_utils
+.
+js
+"
+]
