@@ -671,6 +671,14 @@ nsHttpTransaction
 aTrans
 )
 ;
+void
+MaybeUpdateEchConfig
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
 bool
 AllowToRetryDifferentIPFamilyForHttp3
 (
