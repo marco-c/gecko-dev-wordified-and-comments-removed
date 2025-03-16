@@ -327,11 +327,6 @@ navigating_window_with_download
 html
 "
 "
-print_postdata
-.
-sjs
-"
-"
 test_bug462673
 .
 html
