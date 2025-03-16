@@ -103,7 +103,9 @@ TabPanel
 =
 createFactories
 (
-require
+ChromeUtils
+.
+importESModule
 (
 "
 devtools
@@ -117,6 +119,8 @@ components
 tabs
 /
 Tabs
+.
+mjs
 "
 )
 )

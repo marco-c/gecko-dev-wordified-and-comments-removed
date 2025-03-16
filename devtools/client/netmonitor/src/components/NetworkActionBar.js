@@ -230,7 +230,9 @@ TabPanel
 =
 createFactory
 (
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -249,7 +251,7 @@ tabs
 /
 Tabs
 .
-js
+mjs
 "
 )
 .
