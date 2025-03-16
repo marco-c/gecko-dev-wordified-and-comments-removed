@@ -84,6 +84,13 @@ js
 ]
 [
 "
+browser_canvas_randomization_permission_background_load
+.
+js
+"
+]
+[
+"
 browser_canvas_randomization_worker
 .
 js
