@@ -28899,16 +28899,6 @@ count
 3
 )
 ;
-pref
-(
-"
-alerts
-.
-showFavicons
-"
-false
-)
-;
 #
 ifdef
 XP_MACOSX
