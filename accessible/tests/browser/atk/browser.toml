@@ -84,6 +84,13 @@ js
 ]
 [
 "
+browser_prune_children
+.
+js
+"
+]
+[
+"
 browser_role
 .
 js

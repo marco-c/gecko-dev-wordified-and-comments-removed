@@ -2395,6 +2395,15 @@ roles
 :
 :
 PROGRESSBAR
+|
+|
+role
+=
+=
+roles
+:
+:
+METER
 )
 {
 return
