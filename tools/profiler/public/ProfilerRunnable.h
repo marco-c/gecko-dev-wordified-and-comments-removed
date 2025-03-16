@@ -526,6 +526,16 @@ mName
 )
 ;
 }
+else
+{
+mName
+=
+"
+Unnamed
+runnable
+"
+;
+}
 }
 explicit
 AutoProfileRunnable
