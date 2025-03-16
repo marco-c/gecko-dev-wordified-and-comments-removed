@@ -6108,7 +6108,6 @@ text
 .
 toEqual
 (
-Object
 {
 test
 :

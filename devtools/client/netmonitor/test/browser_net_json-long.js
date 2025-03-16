@@ -591,7 +591,6 @@ values
 .
 textContent
 '
-Object
 {
 greeting
 :

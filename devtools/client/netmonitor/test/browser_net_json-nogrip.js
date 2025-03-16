@@ -242,7 +242,6 @@ values
 .
 textContent
 '
-Object
 {
 type
 :
