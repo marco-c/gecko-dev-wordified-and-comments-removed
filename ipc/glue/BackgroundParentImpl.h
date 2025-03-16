@@ -580,15 +580,11 @@ aIsSecureContext
 const
 nsAString
 &
-aId
-const
-nsAString
-&
 aScope
 const
-IPCNotificationOptions
+IPCNotification
 &
-aOptions
+aNotification
 CreateNotificationParentResolver
 &
 &
