@@ -85,9 +85,7 @@ fenix
 .
 components
 .
-Core
-.
-Companion
+search
 .
 BOOKMARKS_SEARCH_ENGINE_ID
 import
@@ -99,9 +97,7 @@ fenix
 .
 components
 .
-Core
-.
-Companion
+search
 .
 HISTORY_SEARCH_ENGINE_ID
 import
@@ -113,9 +109,7 @@ fenix
 .
 components
 .
-Core
-.
-Companion
+search
 .
 TABS_SEARCH_ENGINE_ID
 /
