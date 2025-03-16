@@ -240,6 +240,10 @@ label
 noteL10nId
 :
 "
+contextual
+-
+manager
+-
 passwords
 -
 username

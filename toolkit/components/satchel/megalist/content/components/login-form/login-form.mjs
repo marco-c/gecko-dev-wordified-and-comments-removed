@@ -1050,6 +1050,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove
@@ -1092,6 +1096,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove
@@ -1116,6 +1124,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove
@@ -1153,6 +1165,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove
@@ -1196,6 +1212,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove
@@ -1272,6 +1292,10 @@ edit
 "
 ?
 "
+contextual
+-
+manager
+-
 passwords
 -
 create
@@ -1280,6 +1304,10 @@ label
 "
 :
 "
+contextual
+-
+manager
+-
 passwords
 -
 edit
@@ -1379,6 +1407,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 passwords
 -
 remove

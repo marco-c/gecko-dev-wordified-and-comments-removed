@@ -608,6 +608,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 alert
 -
 icon
@@ -678,6 +682,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 website
 -
 icon
@@ -778,6 +786,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 copy
 -
 icon
@@ -819,6 +831,10 @@ l10n
 id
 =
 "
+contextual
+-
+manager
+-
 check
 -
 icon
@@ -1010,6 +1026,10 @@ this
 visible
 ?
 "
+contextual
+-
+manager
+-
 show
 -
 password
@@ -1018,6 +1038,10 @@ button
 "
 :
 "
+contextual
+-
+manager
+-
 hide
 -
 password
@@ -1176,6 +1200,10 @@ this
 alert
 ?
 "
+contextual
+-
+manager
+-
 password
 -
 login
@@ -1188,6 +1216,10 @@ alert
 "
 :
 "
+contextual
+-
+manager
+-
 password
 -
 login
