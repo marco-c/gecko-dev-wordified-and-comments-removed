@@ -17,6 +17,9 @@ synstructure
 BindStyle
 ;
 use
+crate
+:
+:
 to_computed_value
 ;
 pub

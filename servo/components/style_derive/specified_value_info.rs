@@ -888,6 +888,7 @@ _f
 :
 &
 mut
+dyn
 FnMut
 (
 &
