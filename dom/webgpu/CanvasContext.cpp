@@ -686,7 +686,14 @@ false
 elif
 defined
 (
-MOZ_WIDGET_GTK
+XP_LINUX
+)
+&
+&
+!
+defined
+(
+MOZ_WIDGET_ANDROID
 )
 const
 auto

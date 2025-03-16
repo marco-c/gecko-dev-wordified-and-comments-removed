@@ -1377,10 +1377,16 @@ mDeviceFenceHandles
 ;
 #
 if
+defined
+(
+XP_LINUX
+)
+&
+&
 !
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_ANDROID
 )
 class
 VkImageHandle
