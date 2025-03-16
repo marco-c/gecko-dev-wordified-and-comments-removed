@@ -4675,6 +4675,11 @@ RPMGetBoolPref
 HAS_SEEN_POSITION_NOTIFICATION_CARD_PREF
 true
 )
+&
+&
+this
+.
+isProductPage
 ;
 let
 canShowKeepClosedMessage
