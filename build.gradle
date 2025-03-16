@@ -272,6 +272,16 @@ version
 }
 plugins
 {
+id
+'
+ApkSizePlugin
+'
+id
+"
+mozac
+.
+ConfigPlugin
+"
 alias
 (
 libs

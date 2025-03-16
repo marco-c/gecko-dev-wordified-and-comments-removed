@@ -264,6 +264,12 @@ get
 }
 plugins
 {
+id
+"
+mozac
+.
+ConfigPlugin
+"
 alias
 (
 libs

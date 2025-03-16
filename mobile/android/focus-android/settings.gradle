@@ -190,12 +190,6 @@ config
 plugins
 {
 id
-"
-mozac
-.
-ConfigPlugin
-"
-id
 '
 mozac
 .
