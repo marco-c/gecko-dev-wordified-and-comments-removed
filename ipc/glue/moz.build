@@ -244,11 +244,6 @@ RandomAccessStreamUtils
 h
 "
 "
-RawShmem
-.
-h
-"
-"
 RustMessageUtils
 .
 h
@@ -985,11 +980,6 @@ cpp
 "
 "
 RandomAccessStreamUtils
-.
-cpp
-"
-"
-RawShmem
 .
 cpp
 "
