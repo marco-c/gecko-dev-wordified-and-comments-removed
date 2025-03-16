@@ -10496,6 +10496,10 @@ OutputWrap
 ;
 }
 }
+if
+(
+mEditorInitialized
+)
 {
 AutoNoJSAPI
 nojsapi
