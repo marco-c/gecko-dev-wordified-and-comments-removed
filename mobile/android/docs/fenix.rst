@@ -251,6 +251,8 @@ android
 /
 fenix
 /
+app
+/
 outputs
 /
 apk

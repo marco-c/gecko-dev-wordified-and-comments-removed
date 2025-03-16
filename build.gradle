@@ -1207,16 +1207,6 @@ details
 }
 }
 }
-buildDir
-"
-{
-topobjdir
-}
-/
-gradle
-/
-build
-"
 import
 org
 .
