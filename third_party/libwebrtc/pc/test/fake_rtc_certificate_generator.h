@@ -92,7 +92,10 @@ RTCCertificatePEM
 -
 BEGIN
 RSA
-PRIVATE
+PRI
+"
+"
+VATE
 KEY
 -
 -
@@ -356,7 +359,10 @@ RTCCertificatePEM
 -
 BEGIN
 RSA
-PRIVATE
+PRI
+"
+"
+VATE
 KEY
 -
 -
@@ -638,7 +644,10 @@ RTCCertificatePEM
 -
 -
 BEGIN
-PRIVATE
+PRI
+"
+"
+VATE
 KEY
 -
 -
@@ -782,7 +791,10 @@ RTCCertificatePEM
 -
 -
 BEGIN
-PRIVATE
+PRI
+"
+"
+VATE
 KEY
 -
 -
