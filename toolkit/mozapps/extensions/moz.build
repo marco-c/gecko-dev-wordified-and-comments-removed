@@ -138,6 +138,11 @@ gen_built_in_addons
 .
 py
 "
+manifest
+.
+force
+=
+True
 if
 CONFIG
 [
