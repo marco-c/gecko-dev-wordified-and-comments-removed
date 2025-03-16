@@ -5733,7 +5733,9 @@ GetTransportInfoByName
 (
 content
 .
-name
+mid
+(
+)
 )
 content
 .
@@ -9231,7 +9233,9 @@ kSdpDelimiterColon
 content_info
 -
 >
-name
+mid
+(
+)
 ;
 AddLine
 (

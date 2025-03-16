@@ -24605,10 +24605,7 @@ offer
 rtc_options
 )
 ;
-std
-:
-:
-string
+auto
 mid
 =
 cricket
@@ -24625,7 +24622,9 @@ description
 )
 -
 >
-name
+mid
+(
+)
 ;
 auto
 ufrag1

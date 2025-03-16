@@ -26787,7 +26787,9 @@ audio_modified
 audio_content
 -
 >
-name
+mid
+(
+)
 )
 ;
 EXPECT_EQ
@@ -26798,7 +26800,9 @@ video_modified
 video_content
 -
 >
-name
+mid
+(
+)
 )
 ;
 EXPECT_EQ
@@ -26809,7 +26813,9 @@ data_modified
 data_content
 -
 >
-name
+mid
+(
+)
 )
 ;
 }
@@ -28461,7 +28467,9 @@ contents
 0
 ]
 .
-name
+mid
+(
+)
 )
 ;
 EXPECT_EQ
@@ -28479,7 +28487,9 @@ contents
 1
 ]
 .
-name
+mid
+(
+)
 )
 ;
 }

@@ -1050,7 +1050,9 @@ GetTransportInfoByName
 content
 -
 >
-name
+mid
+(
+)
 )
 ;
 RTC_DCHECK
@@ -3152,7 +3154,9 @@ GetTransportInfoByName
 audio_content
 -
 >
-name
+mid
+(
+)
 )
 ;
 ASSERT_TRUE
