@@ -1341,6 +1341,12 @@ return
 mEchConfig
 ;
 }
+static
+uint64_t
+GenerateNewWebTransportId
+(
+)
+;
 private
 :
 void
