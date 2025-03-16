@@ -681,6 +681,15 @@ headers
 ^
 "
 "
+avc
+-
+2bytes
+-
+nalu
+.
+mp4
+"
+"
 background_video
 .
 js
