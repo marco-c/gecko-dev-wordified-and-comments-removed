@@ -385,7 +385,7 @@ AtomicRefcnt
 last_output_time
 :
 Instant
-max_accumlated_time
+max_accumulated_time
 :
 Duration
 socket
@@ -915,7 +915,7 @@ nsACString
 webtransport_datagram_size
 :
 u32
-max_accumlated_time_ms
+max_accumulated_time_ms
 :
 u32
 provider_flags
@@ -1994,14 +1994,14 @@ Instant
 now
 (
 )
-max_accumlated_time
+max_accumulated_time
 :
 Duration
 :
 :
 from_millis
 (
-max_accumlated_time_ms
+max_accumulated_time_ms
 .
 into
 (
@@ -2991,7 +2991,7 @@ nsACString
 webtransport_datagram_size
 :
 u32
-max_accumlated_time_ms
+max_accumulated_time_ms
 :
 u32
 provider_flags
@@ -3043,7 +3043,7 @@ version_negotiation
 webtransport
 qlog_dir
 webtransport_datagram_size
-max_accumlated_time_ms
+max_accumulated_time_ms
 provider_flags
 idle_timeout
 Some
@@ -3132,7 +3132,7 @@ nsACString
 webtransport_datagram_size
 :
 u32
-max_accumlated_time_ms
+max_accumulated_time_ms
 :
 u32
 provider_flags
@@ -3181,7 +3181,7 @@ version_negotiation
 webtransport
 qlog_dir
 webtransport_datagram_size
-max_accumlated_time_ms
+max_accumulated_time_ms
 provider_flags
 idle_timeout
 None
@@ -3765,7 +3765,7 @@ now
 +
 conn
 .
-max_accumlated_time
+max_accumulated_time
 )
 .
 as_millis
@@ -4051,7 +4051,7 @@ accumulated_time
 =
 conn
 .
-max_accumlated_time
+max_accumulated_time
 {
 let
 mut
@@ -4196,7 +4196,7 @@ now
 +
 conn
 .
-max_accumlated_time
+max_accumulated_time
 )
 .
 as_millis
@@ -4593,7 +4593,7 @@ accumulated_time
 =
 conn
 .
-max_accumlated_time
+max_accumulated_time
 {
 let
 mut

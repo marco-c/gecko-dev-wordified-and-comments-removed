@@ -700,13 +700,13 @@ is
 called
 and
 the
-lisener
+listener
 uses
 *
 recvWithAddr
 to
 actually
-retrive
+retrieve
 data
 from
 the
@@ -2114,7 +2114,7 @@ when
 a
 client
 sends
-an
+a
 UDP
 packet
 .
