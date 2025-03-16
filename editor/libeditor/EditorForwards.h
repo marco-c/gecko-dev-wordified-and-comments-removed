@@ -280,6 +280,9 @@ class
 ChangeStyleTransaction
 ;
 class
+CompositionInTextNodeTransaction
+;
+class
 CompositionTransaction
 ;
 class
@@ -304,6 +307,9 @@ class
 DeleteRangeTransaction
 ;
 class
+DeleteTextFromTextNodeTransaction
+;
+class
 DeleteTextTransaction
 ;
 class
@@ -323,6 +329,9 @@ HTMLEditorEventListener
 ;
 class
 InsertNodeTransaction
+;
+class
+InsertTextIntoTextNodeTransaction
 ;
 class
 InsertTextResult
@@ -347,6 +356,9 @@ MoveNodeTransaction
 ;
 class
 PlaceholderTransaction
+;
+class
+ReplaceTextInTextNodeTransaction
 ;
 class
 ReplaceTextTransaction
