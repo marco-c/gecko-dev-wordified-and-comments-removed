@@ -28,13 +28,6 @@ xpi
 const
 expectedPermsCount
 =
-!
-ExtensionsUI
-.
-SHOW_FULL_DOMAINS_LIST
-?
-5
-:
 4
 ;
 function
