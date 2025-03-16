@@ -581,7 +581,7 @@ Platform
 :
 Create
 (
-Handle
+MutableHandle
 &
 aHandle
 size_t
