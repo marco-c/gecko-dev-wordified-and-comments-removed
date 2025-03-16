@@ -6315,7 +6315,7 @@ this
 #
 keepTabSizeLocked
 =
-true
+false
 ;
 this
 .
