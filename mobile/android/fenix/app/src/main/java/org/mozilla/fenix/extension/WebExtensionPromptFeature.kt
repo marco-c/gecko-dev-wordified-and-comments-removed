@@ -1468,7 +1468,7 @@ R
 .
 attr
 .
-accent
+actionPrimary
 context
 )
 confirmButtonTextColor
@@ -1481,7 +1481,7 @@ R
 .
 attr
 .
-textOnColorPrimary
+textActionPrimary
 context
 )
 confirmButtonRadius
@@ -1999,7 +1999,7 @@ R
 .
 attr
 .
-accent
+actionPrimary
 context
 )
 confirmButtonTextColor
@@ -2012,7 +2012,7 @@ R
 .
 attr
 .
-textOnColorPrimary
+textActionPrimary
 context
 )
 confirmButtonRadius

@@ -549,13 +549,6 @@ name
 "
 fx_mobile_action_color_primary_disabled
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 color
 /
@@ -1339,13 +1332,6 @@ name
 =
 "
 fx_mobile_text_color_action_primary_disabled
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 color
