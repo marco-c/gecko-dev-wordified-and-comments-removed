@@ -1085,9 +1085,11 @@ super
 .
 inputTemplate
 (
+{
 classes
 styles
 inputValue
+}
 )
 }
 <
