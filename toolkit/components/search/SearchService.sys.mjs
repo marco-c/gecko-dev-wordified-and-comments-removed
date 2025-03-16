@@ -6861,7 +6861,7 @@ submissionMapEntry
 *
 property
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -7893,11 +7893,7 @@ experiment
 =
 >
 {
-Services
-.
-search
-.
-wrappedJSObject
+this
 .
 _maybeReloadEngines
 (
@@ -18499,7 +18495,7 @@ caller
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 newEngine
 *
@@ -19825,7 +19821,7 @@ engine
 *
 param
 {
-SearchEngine
+nsISearchEngine
 }
 [
 previousEngine
@@ -19840,7 +19836,7 @@ engine
 *
 param
 {
-SearchEngine
+nsISearchEngine
 }
 [
 newEngine

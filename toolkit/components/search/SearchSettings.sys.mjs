@@ -5001,9 +5001,6 @@ oldIconMap
 {
 let
 sizeObj
-=
-{
-}
 ;
 try
 {
