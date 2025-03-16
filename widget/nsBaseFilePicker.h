@@ -289,6 +289,16 @@ aValue
 )
 override
 ;
+NS_IMETHOD
+GetDomFilesInWebKitDirectory
+(
+nsISimpleEnumerator
+*
+*
+aValue
+)
+override
+;
 protected
 :
 virtual

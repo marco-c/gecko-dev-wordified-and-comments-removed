@@ -79,6 +79,11 @@ InputDirectory
 nsString
 directoryPath
 ;
+IPCBlob
+[
+]
+blobsInWebKitDirectory
+;
 }
 ;
 union

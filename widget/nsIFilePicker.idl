@@ -285,6 +285,11 @@ attribute
 nsIFilePicker_CaptureTarget
 capture
 ;
+readonly
+attribute
+nsISimpleEnumerator
+domFilesInWebKitDirectory
+;
 }
 ;
 [
