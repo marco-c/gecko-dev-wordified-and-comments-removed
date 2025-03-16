@@ -2578,8 +2578,6 @@ clang
 1
 .
 0
--
-rc2
 source
 code
 fetch
@@ -2604,7 +2602,7 @@ llvm
 project
 revision
 :
-20621e2609ac49dcf01c4353dbfd69626cea3015
+24a30daaa559829ad079f2ff7f73eb4e18095f88
 clang
 -
 trunk
