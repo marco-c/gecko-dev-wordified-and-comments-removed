@@ -629,6 +629,15 @@ bool
 aAbort
 )
 ;
+void
+DeprecateSharedLocks
+(
+const
+EntryId
+&
+aEntryId
+)
+;
 bool
 IsLockedWithDeprecatedSharedLock
 (
