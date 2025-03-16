@@ -1445,6 +1445,9 @@ isChecked
 =
 false
 )
+clickGoBackTranslationSheetButton
+(
+)
 }
 .
 swipeCloseTranslationsSheet
