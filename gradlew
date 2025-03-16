@@ -1706,7 +1706,6 @@ command
 *
 DEFAULT_JVM_OPTS
 JAVA_OPTS
-JAVA_OPTS
 and
 optsEnvironmentVar
 are

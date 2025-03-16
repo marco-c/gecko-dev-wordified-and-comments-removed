@@ -458,6 +458,17 @@ dependencies
 .
 path
 :
+gradle
+/
+wrapper
+/
+gradle
+-
+wrapper
+.
+properties
+path
+:
 mobile
 /
 android
