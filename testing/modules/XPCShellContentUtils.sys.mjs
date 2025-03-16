@@ -718,6 +718,7 @@ NOTIFY_STATE_WINDOW
 )
 ;
 }
+export
 class
 ContentPage
 {
