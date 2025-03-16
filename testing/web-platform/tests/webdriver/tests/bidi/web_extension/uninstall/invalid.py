@@ -116,7 +116,7 @@ raises
 (
 error
 .
-UnknownErrorException
+NoSuchWebExtensionException
 )
 :
         
