@@ -905,6 +905,13 @@ layout
 /
 preference_divider
 "
+android
+:
+selectable
+=
+"
+false
+"
 /
 >
 <
