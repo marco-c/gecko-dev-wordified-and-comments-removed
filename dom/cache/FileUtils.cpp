@@ -712,6 +712,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aCallback
 )
 ;
+{
 QM_TRY_INSPECT
 (
 const
@@ -723,10 +724,10 @@ BodyIdToFile
 aBaseDir
 aBodyId
 BODY_FILE_FINAL
+false
 )
 )
 ;
-{
 QM_TRY_INSPECT
 (
 const
@@ -766,6 +767,7 @@ BodyIdToFile
 aBaseDir
 aBodyId
 BODY_FILE_TMP
+true
 )
 )
 ;
