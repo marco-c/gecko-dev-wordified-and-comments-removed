@@ -441,13 +441,9 @@ nsAString
 &
 aScope
 const
-nsAString
+IPCNotification
 &
-aId
-const
-IPCNotificationOptions
-&
-aOptions
+aNotification
 )
 ;
 nsresult
