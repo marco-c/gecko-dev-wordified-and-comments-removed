@@ -12701,10 +12701,11 @@ JSMSG_TEMPORAL_MISSING_PROPERTY
 1
 JSEXN_TYPEERR
 "
+required
+property
 {
 0
 }
-property
 is
 undefined
 "
