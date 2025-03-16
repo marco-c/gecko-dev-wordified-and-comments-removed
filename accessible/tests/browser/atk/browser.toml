@@ -77,6 +77,13 @@ force_disabled
 ]
 [
 "
+browser_atspi_interfaces
+.
+js
+"
+]
+[
+"
 browser_groupPosition
 .
 js
