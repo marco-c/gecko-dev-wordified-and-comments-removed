@@ -1734,9 +1734,10 @@ SymbolicAddress
 StructNewIL_true
 _RoN
 _FailOnNullPtr
-2
+3
 {
 _PTR
+_I32
 _PTR
 _END
 }
@@ -1753,9 +1754,10 @@ SymbolicAddress
 StructNewIL_false
 _RoN
 _FailOnNullPtr
-2
+3
 {
 _PTR
+_I32
 _PTR
 _END
 }
@@ -1772,9 +1774,10 @@ SymbolicAddress
 StructNewOOL_true
 _RoN
 _FailOnNullPtr
-2
+3
 {
 _PTR
+_I32
 _PTR
 _END
 }
@@ -1791,9 +1794,10 @@ SymbolicAddress
 StructNewOOL_false
 _RoN
 _FailOnNullPtr
-2
+3
 {
 _PTR
+_I32
 _PTR
 _END
 }
@@ -1810,9 +1814,10 @@ SymbolicAddress
 ArrayNew_true
 _RoN
 _FailOnNullPtr
-3
+4
 {
 _PTR
+_I32
 _I32
 _PTR
 _END
@@ -1830,9 +1835,10 @@ SymbolicAddress
 ArrayNew_false
 _RoN
 _FailOnNullPtr
-3
+4
 {
 _PTR
+_I32
 _I32
 _PTR
 _END
@@ -1850,9 +1856,10 @@ SymbolicAddress
 ArrayNewData
 _RoN
 _FailOnNullPtr
-5
+6
 {
 _PTR
+_I32
 _I32
 _I32
 _PTR
@@ -1872,9 +1879,10 @@ SymbolicAddress
 ArrayNewElem
 _RoN
 _FailOnNullPtr
-5
+6
 {
 _PTR
+_I32
 _I32
 _I32
 _PTR
@@ -1924,7 +1932,7 @@ _RoN
 _I32
 _I32
 _I32
-_PTR
+_I32
 _I32
 _END
 }
@@ -8890,7 +8898,7 @@ StructNewIL_true
 *
 abiType
 =
-Args_General2
+Args_General_GeneralInt32General
 ;
 MOZ_ASSERT
 (
@@ -8927,7 +8935,7 @@ StructNewIL_false
 *
 abiType
 =
-Args_General2
+Args_General_GeneralInt32General
 ;
 MOZ_ASSERT
 (
@@ -8964,7 +8972,7 @@ StructNewOOL_true
 *
 abiType
 =
-Args_General2
+Args_General_GeneralInt32General
 ;
 MOZ_ASSERT
 (
@@ -9001,7 +9009,7 @@ StructNewOOL_false
 *
 abiType
 =
-Args_General2
+Args_General_GeneralInt32General
 ;
 MOZ_ASSERT
 (
@@ -9038,7 +9046,7 @@ ArrayNew_true
 *
 abiType
 =
-Args_General_GeneralInt32General
+Args_General_GeneralInt32Int32General
 ;
 MOZ_ASSERT
 (
@@ -9075,7 +9083,7 @@ ArrayNew_false
 *
 abiType
 =
-Args_General_GeneralInt32General
+Args_General_GeneralInt32Int32General
 ;
 MOZ_ASSERT
 (
@@ -9112,7 +9120,7 @@ ArrayNewData
 *
 abiType
 =
-Args_General_GeneralInt32Int32GeneralInt32
+Args_General_GeneralInt32Int32Int32GeneralInt32
 ;
 MOZ_ASSERT
 (
@@ -9146,7 +9154,7 @@ ArrayNewElem
 *
 abiType
 =
-Args_General_GeneralInt32Int32GeneralInt32
+Args_General_GeneralInt32Int32Int32GeneralInt32
 ;
 MOZ_ASSERT
 (
@@ -9214,7 +9222,7 @@ ArrayInitElem
 *
 abiType
 =
-Args_Int32_GeneralGeneralInt32Int32Int32GeneralInt32
+Args_Int32_GeneralGeneralInt32Int32Int32Int32Int32
 ;
 MOZ_ASSERT
 (

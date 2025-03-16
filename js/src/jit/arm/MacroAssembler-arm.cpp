@@ -1763,6 +1763,13 @@ HasMOVWT
 )
 )
 {
+AutoForbidPoolsAndNops
+afp
+(
+this
+2
+)
+;
 BufferOffset
 offset
 =

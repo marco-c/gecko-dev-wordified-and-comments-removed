@@ -7096,10 +7096,15 @@ tmi
 }
 ;
 RegPtr
-loadTypeDefInstanceData
+loadAllocSiteInstanceData
 (
 uint32_t
-typeIndex
+allocSiteIndex
+)
+;
+uint32_t
+readAllocSiteIndex
+(
 )
 ;
 RegPtr
@@ -7128,6 +7133,8 @@ isOutlineStruct
 RegPtr
 *
 outlineBase
+uint32_t
+allocSiteIndex
 )
 ;
 template
@@ -7146,6 +7153,8 @@ RegI32
 numElements
 uint32_t
 elemSize
+uint32_t
+allocSiteIndex
 )
 ;
 template
@@ -7164,6 +7173,8 @@ uint32_t
 numElements
 uint32_t
 elemSize
+uint32_t
+allocSiteIndex
 )
 ;
 template

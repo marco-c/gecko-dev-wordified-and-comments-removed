@@ -713,6 +713,8 @@ fun
 Register
 typeDefData
 Register
+allocSite
+Register
 output
 const
 wasm
@@ -738,6 +740,8 @@ Register
 numElements
 Register
 typeDefData
+Register
+allocSite
 Register
 output
 const
