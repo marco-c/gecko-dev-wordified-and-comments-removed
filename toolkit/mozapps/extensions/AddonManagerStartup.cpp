@@ -4754,17 +4754,6 @@ yes
 )
 )
 {
-NS_ENSURE_TRUE
-(
-xpc
-:
-:
-IsInAutomation
-(
-)
-NS_ERROR_INVALID_ARG
-)
-;
 vals
 .
 RemoveElementAt
