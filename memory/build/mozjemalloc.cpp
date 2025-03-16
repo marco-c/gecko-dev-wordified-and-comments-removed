@@ -24689,12 +24689,14 @@ purge_result_t
 NeedsMore
 ;
 }
-}
-RemoveFromOutstandingPurges
+mOutstandingPurges
+.
+remove
 (
 found
 )
 ;
+}
 if
 (
 found
