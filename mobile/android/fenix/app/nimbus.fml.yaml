@@ -3569,7 +3569,7 @@ type
 Boolean
 default
 :
-true
+false
 trending
 -
 searches
