@@ -592,16 +592,6 @@ nsRange
 aRanges
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-nsresult
-SetSelectionRange
-(
-int32_t
-aStartPos
-int32_t
-aEndPos
-)
-;
 void
 SetMathMLXMLRoles
 (
