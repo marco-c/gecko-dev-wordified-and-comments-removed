@@ -460,6 +460,13 @@ js
 ]
 [
 "
+browser_sidebar_expand_on_hover
+.
+js
+"
+]
+[
+"
 browser_sidebar_macmenu
 .
 js
