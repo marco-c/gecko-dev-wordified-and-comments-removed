@@ -1,0 +1,12 @@
+EXTRA_JS_MODULES
++
+=
+[
+"
+TaskbarTabUI
+.
+sys
+.
+mjs
+"
+]
