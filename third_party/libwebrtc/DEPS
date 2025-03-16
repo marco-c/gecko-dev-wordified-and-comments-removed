@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-5f5ccf3e40e3ab7411520308a923c0fc5dc52ebd
+8a71e14fc9497e46078a31c0acf52d1bbd36445f
 '
 #
 Fetch
@@ -238,7 +238,7 @@ version
 :
 26
 .
-20250103
+20250110
 .
 4
 .
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-b0066ed737530bebebf2f6cb01f01b92339e4e4a
+431f88e3cc22e4a01b4358555f21244e373b4360
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-1b85e1595ca5ee10ee2dbfef16858dcc30c852be
+a630e8e40bf1bd8ae9724c4c502e3091aaa1b5b5
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-e0e495e90d322ed6bbe3cd3036d224e735b5324f
+0aaf1eb06368fa41e95d153b3ddc1a6949c9c421
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-0e1bee7ec1ba66a66cde0e0bf3c48b3a31ffb08a
+b3f346c2b25e80dff8d91d501b2d3e5c57681d93
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-a1ff8a57c0b78049d8adba03bdc8ecadb7390779
+dd14da6064e9ff3a588e131897b21a86a365cb2a
 '
 '
 src
@@ -1459,7 +1459,7 @@ project
 libc
 .
 git
-44258fc58f1db70b223625a1dbc9c1ceea184ecf
+9ee890194fe9d4f39b1d5114c6e291b72e6062dd
 '
 '
 src
@@ -3214,7 +3214,7 @@ google
 fuzztest
 .
 git
-70e24aa9499f5563bb13ec9d0b8490ec2bf09510
+032f0bdd8c0a3800eb49131d212142a61df81b0c
 '
 '
 src
@@ -3367,7 +3367,7 @@ third_party
 libunwindstack
 .
 git
-c8ff202d9233cc0781715cb87f354045bb0dbee9
+e5061bbda4c2ba6438020669ed06b122032433dd
 '
 '
 condition
@@ -3403,7 +3403,7 @@ external
 perfetto
 .
 git
-a49395d104cee4a11408de2a0b8cde127ba67b5f
+0893e2af69caf8592f6e38f34ccdd4ad6615de9d
 '
 '
 src
@@ -3950,7 +3950,7 @@ chromium
 src
 /
 tools
-3eb49318285863dcecb7712f4bcdb86bd9a239b9
+9f3e456d18fa3f2a2336b63a4e57dbac6353bc53
 '
 '
 src
