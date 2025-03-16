@@ -938,7 +938,15 @@ Enums
 enums
 >
 =
+Partial
+<
+Pick
+<
 enums
+keyof
+enums
+>
+>
 ;
 type
 Callable
