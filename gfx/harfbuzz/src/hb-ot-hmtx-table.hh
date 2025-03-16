@@ -887,9 +887,9 @@ hb_serialize_context_t
 c
 Iterator
 it
-const
-hb_vector_t
+hb_array_t
 <
+const
 hb_codepoint_pair_t
 >
 new_to_old_gid_list
