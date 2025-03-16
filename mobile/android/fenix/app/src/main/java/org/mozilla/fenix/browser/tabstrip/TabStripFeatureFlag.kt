@@ -109,6 +109,16 @@ mozilla
 .
 fenix
 .
+ext
+.
+settings
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 isLargeScreenSize
@@ -136,6 +146,7 @@ isTabStripEnabled
 :
 Boolean
 =
+(
 Config
 .
 channel
@@ -148,6 +159,14 @@ isTabStripChannel
 isTabStripEligible
 (
 )
+)
+|
+|
+settings
+(
+)
+.
+tabStripEnabled
 /
 *
 *
@@ -200,7 +219,6 @@ strip
 .
 *
 /
-private
 fun
 Context
 .
