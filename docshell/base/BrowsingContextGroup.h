@@ -753,6 +753,14 @@ aPrincipal
 )
 ;
 void
+EnsureUsesOriginAgentClusterInitialized
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+void
 ChildDestroy
 (
 )
