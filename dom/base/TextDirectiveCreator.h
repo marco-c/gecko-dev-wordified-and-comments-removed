@@ -670,6 +670,10 @@ const
 nsString
 &
 aSearchQuery
+const
+RangeBoundary
+&
+aSearchEnd
 )
 ;
 nsTArray
