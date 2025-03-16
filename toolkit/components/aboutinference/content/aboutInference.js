@@ -3684,6 +3684,13 @@ const
 initData
 =
 {
+featureId
+:
+"
+about
+-
+inference
+"
 modelId
 modelRevision
 tokenizerRevision
@@ -3699,13 +3706,6 @@ processorId
 :
 modelId
 taskName
-engineId
-:
-"
-about
--
-inference
-"
 modelHub
 device
 dtype
