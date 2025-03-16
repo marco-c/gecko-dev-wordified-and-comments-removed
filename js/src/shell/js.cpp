@@ -38900,6 +38900,7 @@ isObject
 !
 IsBufferSource
 (
+cx
 &
 args
 [
@@ -38909,6 +38910,8 @@ args
 toObject
 (
 )
+false
+false
 &
 bytecode
 &
@@ -45731,6 +45734,7 @@ isObject
 !
 IsBufferSource
 (
+cx
 &
 args
 [
@@ -45740,6 +45744,8 @@ args
 toObject
 (
 )
+true
+true
 &
 ptr
 &
@@ -46789,7 +46795,10 @@ if
 (
 IsBufferSource
 (
+cx
 obj
+true
+true
 &
 dataPointer
 &
