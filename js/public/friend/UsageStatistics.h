@@ -495,6 +495,12 @@ _
 DATEPARSE_IMPL_DEF
 DateParseImplDef
 )
+\
+_
+(
+OPTIMIZE_ARRAY_SPECIES_FUSE
+OptimizeArraySpeciesFuse
+)
 #
 define
 ENUM_DEF
