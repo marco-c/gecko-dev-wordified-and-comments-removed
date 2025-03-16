@@ -336,6 +336,15 @@ IsWARP
 )
 ;
 bool
+IsWARPLocked
+(
+)
+MOZ_REQUIRES
+(
+mDeviceLock
+)
+;
+bool
 CanUseNV12
 (
 )
