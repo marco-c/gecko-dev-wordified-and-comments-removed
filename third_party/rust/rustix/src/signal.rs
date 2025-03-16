@@ -203,6 +203,11 @@ haiku
 target_os
 =
 "
+hurd
+"
+target_os
+=
+"
 nto
 "
 target_os
@@ -571,6 +576,11 @@ target_os
 =
 "
 haiku
+"
+target_os
+=
+"
+hurd
 "
 target_os
 =
@@ -1008,6 +1018,11 @@ haiku
 target_os
 =
 "
+hurd
+"
+target_os
+=
+"
 nto
 "
 target_os
@@ -1441,6 +1456,11 @@ target_os
 =
 "
 haiku
+"
+target_os
+=
+"
+hurd
 "
 target_os
 =

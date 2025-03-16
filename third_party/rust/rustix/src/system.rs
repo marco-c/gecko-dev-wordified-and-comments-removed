@@ -471,7 +471,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -505,7 +505,7 @@ linux_kernel
 write
 !
 (
-fmt
+f
 "
 {
 :
@@ -566,7 +566,7 @@ linux_kernel
 write
 !
 (
-fmt
+f
 "
 {
 :

@@ -575,7 +575,7 @@ pipe
 syscalls
 :
 :
-fcntl_getpipe_sz
+fcntl_getpipe_size
 (
 fd
 .
@@ -631,7 +631,7 @@ pipe
 syscalls
 :
 :
-fcntl_setpipe_sz
+fcntl_setpipe_size
 (
 fd
 .

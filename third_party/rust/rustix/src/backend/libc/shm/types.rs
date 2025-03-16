@@ -26,7 +26,10 @@ for
 use
 with
 [
-shm_open
+shm
+:
+:
+open
 ]
 .
 /
@@ -36,7 +39,10 @@ shm_open
 /
 /
 [
-shm_open
+shm
+:
+:
+open
 ]
 :
 crate
@@ -44,7 +50,7 @@ crate
 shm
 :
 :
-shm_open
+open
 #
 [
 repr

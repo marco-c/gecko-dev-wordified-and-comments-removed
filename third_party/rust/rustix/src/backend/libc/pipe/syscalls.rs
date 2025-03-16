@@ -403,6 +403,9 @@ linux_kernel
 inline
 ]
 pub
+(
+crate
+)
 fn
 splice
 (
@@ -518,6 +521,9 @@ linux_kernel
 inline
 ]
 pub
+(
+crate
+)
 unsafe
 fn
 vmsplice
@@ -610,6 +616,9 @@ linux_kernel
 inline
 ]
 pub
+(
+crate
+)
 fn
 tee
 (
@@ -687,7 +696,7 @@ pub
 crate
 )
 fn
-fcntl_getpipe_sz
+fcntl_getpipe_size
 (
 fd
 :
@@ -754,7 +763,7 @@ pub
 crate
 )
 fn
-fcntl_setpipe_sz
+fcntl_setpipe_size
 (
 fd
 :
@@ -809,7 +818,10 @@ PERM
 ;
 unsafe
 {
-ret
+let
+_
+=
+ret_c_int
 (
 c
 :
@@ -827,5 +839,12 @@ F_SETPIPE_SZ
 size
 )
 )
+?
+;
 }
+Ok
+(
+(
+)
+)
 }

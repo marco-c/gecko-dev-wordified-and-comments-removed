@@ -1134,6 +1134,17 @@ RANGE
 }
 )
 }
+#
+[
+cfg
+(
+feature
+=
+"
+alloc
+"
+)
+]
 const
 PROC_REAP_GETPIDS
 :

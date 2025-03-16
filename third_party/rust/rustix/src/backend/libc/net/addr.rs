@@ -533,6 +533,7 @@ len
 }
 )
 }
+const
 fn
 init
 (
@@ -570,6 +571,11 @@ target_os
 =
 "
 nto
+"
+target_os
+=
+"
+hurd
 "
 )
 )
@@ -1329,7 +1335,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -1366,7 +1372,7 @@ path
 .
 fmt
 (
-fmt
+f
 )
 }
 else
@@ -1396,7 +1402,7 @@ name
 .
 fmt
 (
-fmt
+f
 )
 ;
 }
@@ -1408,7 +1414,7 @@ unnamed
 .
 fmt
 (
-fmt
+f
 )
 }
 }
@@ -1476,6 +1482,11 @@ haiku
 target_os
 =
 "
+hurd
+"
+target_os
+=
+"
 nto
 "
 )
@@ -1523,6 +1534,11 @@ haiku
 target_os
 =
 "
+hurd
+"
+target_os
+=
+"
 nto
 "
 target_os
@@ -1559,6 +1575,11 @@ target_os
 =
 "
 haiku
+"
+target_os
+=
+"
+hurd
 "
 target_os
 =

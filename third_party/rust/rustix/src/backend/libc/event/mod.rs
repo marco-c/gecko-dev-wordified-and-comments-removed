@@ -50,6 +50,7 @@ cfg
 any
 (
 linux_kernel
+solarish
 target_os
 =
 "

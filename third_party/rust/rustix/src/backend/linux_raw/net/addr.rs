@@ -1043,7 +1043,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -1080,7 +1080,7 @@ path
 .
 fmt
 (
-fmt
+f
 )
 }
 else
@@ -1101,7 +1101,7 @@ name
 .
 fmt
 (
-fmt
+f
 )
 }
 else
@@ -1114,7 +1114,7 @@ unnamed
 .
 fmt
 (
-fmt
+f
 )
 }
 }

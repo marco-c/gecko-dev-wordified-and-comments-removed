@@ -982,6 +982,10 @@ SyscallNumber
 a
 >
 {
+pub
+(
+super
+)
 nr
 :
 usize

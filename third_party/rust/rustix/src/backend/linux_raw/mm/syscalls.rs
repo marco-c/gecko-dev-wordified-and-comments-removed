@@ -112,7 +112,10 @@ linux_raw_sys
 general
 :
 :
+{
 MAP_ANONYMOUS
+MREMAP_FIXED
+}
 ;
 #
 [
@@ -745,7 +748,16 @@ pass_usize
 (
 new_size
 )
+c_uint
+(
 flags
+.
+bits
+(
+)
+|
+MREMAP_FIXED
+)
 new_address
 )
 )

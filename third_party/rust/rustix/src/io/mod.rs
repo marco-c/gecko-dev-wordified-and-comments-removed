@@ -91,7 +91,7 @@ use
 close
 :
 :
-close
+*
 ;
 #
 [

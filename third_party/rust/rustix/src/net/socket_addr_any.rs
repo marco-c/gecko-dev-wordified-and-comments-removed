@@ -518,7 +518,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -554,7 +554,7 @@ v4
 .
 fmt
 (
-fmt
+f
 )
 Self
 :
@@ -569,7 +569,7 @@ v6
 .
 fmt
 (
-fmt
+f
 )
 #
 [
@@ -591,7 +591,7 @@ unix
 .
 fmt
 (
-fmt
+f
 )
 #
 [
@@ -617,7 +617,7 @@ xdp
 .
 fmt
 (
-fmt
+f
 )
 }
 }

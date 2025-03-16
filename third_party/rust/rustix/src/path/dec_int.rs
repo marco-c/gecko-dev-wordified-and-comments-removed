@@ -623,7 +623,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -651,7 +651,7 @@ as_str
 .
 fmt
 (
-fmt
+f
 )
 }
 }

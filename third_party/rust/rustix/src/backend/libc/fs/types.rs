@@ -270,19 +270,11 @@ cfg
 (
 not
 (
-any
-(
-target_os
-=
-"
-emscripten
-"
 target_os
 =
 "
 android
 "
-)
 )
 )
 ]
@@ -1268,6 +1260,14 @@ Self
 from_bits_truncate
 (
 st_mode
+&
+!
+c
+:
+:
+S_IFMT
+as
+RawMode
 )
 }
 #
@@ -1920,6 +1920,7 @@ any
 (
 linux_kernel
 netbsdlike
+solarish
 target_os
 =
 "
@@ -3590,7 +3591,11 @@ any
 (
 apple
 netbsdlike
-solarish
+target_os
+=
+"
+solaris
+"
 target_os
 =
 "
@@ -4871,7 +4876,6 @@ not
 any
 (
 netbsdlike
-solarish
 target_os
 =
 "
@@ -4967,6 +4971,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5016,6 +5021,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5065,6 +5071,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5134,6 +5141,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5188,6 +5196,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5242,6 +5251,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "
@@ -5296,6 +5306,7 @@ not
 any
 (
 bsd
+solarish
 target_os
 =
 "

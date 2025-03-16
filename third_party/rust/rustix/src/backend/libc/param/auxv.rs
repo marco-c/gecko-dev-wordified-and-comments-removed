@@ -321,16 +321,6 @@ linux_minsigstksz
 >
 usize
 {
-const
-AT_MINSIGSTKSZ
-:
-c
-:
-:
-c_ulong
-=
-51
-;
 if
 let
 Some
@@ -348,6 +338,9 @@ unsafe
 {
 libc_getauxval
 (
+c
+:
+:
 AT_MINSIGSTKSZ
 )
 as

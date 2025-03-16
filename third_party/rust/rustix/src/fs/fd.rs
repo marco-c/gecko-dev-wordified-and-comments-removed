@@ -90,7 +90,6 @@ not
 any
 (
 netbsdlike
-solarish
 target_os
 =
 "
@@ -352,7 +351,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -372,7 +371,7 @@ fmt
 :
 Result
 {
-fmt
+f
 .
 debug_struct
 (
@@ -1038,7 +1037,6 @@ not
 any
 (
 netbsdlike
-solarish
 target_os
 =
 "
