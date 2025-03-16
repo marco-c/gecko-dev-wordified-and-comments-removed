@@ -353,6 +353,11 @@ st
 kiss_fft_cpx
 *
 fout
+ARG_FIXED
+(
+int
+downshift
+)
 )
 ;
 void

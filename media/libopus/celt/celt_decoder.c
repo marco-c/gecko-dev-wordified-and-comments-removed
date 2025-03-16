@@ -7565,6 +7565,9 @@ len
 BITRES
 )
 -
+(
+opus_int32
+)
 ec_tell_frac
 (
 dec

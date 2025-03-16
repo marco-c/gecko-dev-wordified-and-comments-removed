@@ -8758,9 +8758,9 @@ MULT32_32_Q31
 (
 QCONST32
 (
-4
+3
 .
-f
+999999
 29
 )
 lpc
@@ -15594,6 +15594,9 @@ nbCompressedBytes
 BITRES
 )
 -
+(
+opus_int32
+)
 ec_tell_frac
 (
 enc
