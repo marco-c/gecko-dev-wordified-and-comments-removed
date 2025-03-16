@@ -1439,6 +1439,15 @@ currentTimeMillis
 )
 currentDownloadJobState
 .
+createdTime
+=
+System
+.
+currentTimeMillis
+(
+)
+currentDownloadJobState
+.
 currentBytesCopied
 =
 0
