@@ -1041,8 +1041,6 @@ const
 WaylandSurfaceLock
 &
 aProofOfLock
-bool
-aRequestEmulated
 )
 ;
 void
@@ -1055,7 +1053,7 @@ aProofOfLock
 )
 ;
 bool
-IsEmulatedFrameCallbackPendingLocked
+HasEmulatedFrameCallbackLocked
 (
 const
 WaylandSurfaceLock
