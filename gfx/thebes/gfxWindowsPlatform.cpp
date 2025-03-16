@@ -9431,14 +9431,7 @@ E_FAIL
 }
 }
 }
-if
-(
-!
-SUCCEEDED
-(
-hr
-)
-)
+else
 {
 hr
 =
