@@ -436,6 +436,7 @@ contentWindow
 )
 ;
 }
+async
 function
 createBlankIframe
 (
@@ -485,8 +486,11 @@ append
 iframe
 )
 ;
-return
+await
 promise
+;
+return
+iframe
 ;
 }
 <
