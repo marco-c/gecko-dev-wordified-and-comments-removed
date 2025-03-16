@@ -86,7 +86,7 @@ await
 scrollEditorIntoView
 (
 dbg
-0
+1
 0
 )
 ;
@@ -95,7 +95,7 @@ ok
 isScrolledPositionVisible
 (
 dbg
-0
+1
 0
 )
 "
@@ -179,7 +179,7 @@ ok
 isScrolledPositionVisible
 (
 dbg
-66
+67
 )
 "
 editor
@@ -209,7 +209,7 @@ await
 scrollEditorIntoView
 (
 dbg
-0
+1
 0
 )
 ;
@@ -218,7 +218,7 @@ ok
 isScrolledPositionVisible
 (
 dbg
-0
+1
 0
 )
 "
@@ -301,7 +301,7 @@ ok
 isScrolledPositionVisible
 (
 dbg
-66
+67
 )
 "
 editor
