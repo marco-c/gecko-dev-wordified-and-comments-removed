@@ -654,7 +654,7 @@ this
 .
 selectableProfileService
 .
-setShowProfileSelectorWindow
+showProfileSelectorWindow
 (
 false
 )
@@ -756,7 +756,7 @@ this
 .
 selectableProfileService
 .
-setShowProfileSelectorWindow
+showProfileSelectorWindow
 (
 this
 .
