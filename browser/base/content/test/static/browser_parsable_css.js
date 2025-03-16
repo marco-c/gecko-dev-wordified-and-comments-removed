@@ -3662,6 +3662,11 @@ if
 !
 [
 "
+builtin
+-
+addons
+"
+"
 newtab
 "
 "
