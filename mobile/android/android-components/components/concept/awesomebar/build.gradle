@@ -141,9 +141,11 @@ base
 '
 )
 implementation
-ComponentsDependencies
+libs
 .
-kotlin_coroutines
+kotlin
+.
+coroutines
 }
 apply
 from

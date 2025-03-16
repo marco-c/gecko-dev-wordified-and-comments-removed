@@ -152,9 +152,11 @@ ComponentsDependencies
 .
 mozilla_appservices_errorsupport
 implementation
-ComponentsDependencies
+libs
 .
-kotlin_coroutines
+kotlin
+.
+coroutines
 implementation
 project
 (

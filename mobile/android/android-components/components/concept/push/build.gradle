@@ -209,9 +209,11 @@ test
 '
 )
 testImplementation
-ComponentsDependencies
+libs
 .
-junit_vintage
+junit
+.
+vintage
 }
 apply
 from
