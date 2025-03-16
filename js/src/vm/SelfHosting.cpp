@@ -13001,6 +13001,15 @@ WrapForValidIteratorObject
 JS_FN
 (
 "
+CanOptimizeArraySpecies
+"
+intrinsic_CanOptimizeArraySpecies
+1
+0
+)
+JS_FN
+(
+"
 ConstructFunction
 "
 intrinsic_ConstructFunction
