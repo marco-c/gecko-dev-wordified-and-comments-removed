@@ -127,6 +127,15 @@ javascript
 "
 js
 "
+"
+event
+-
+stream
+"
+:
+"
+eventsource
+"
 }
 ;
 async
