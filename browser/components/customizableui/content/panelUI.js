@@ -3622,6 +3622,17 @@ break
 ;
 case
 "
+appMenu_help_reportSiteIssue
+"
+:
+ReportSiteIssue
+(
+)
+;
+break
+;
+case
+"
 appMenu_menu_HelpPopup_reportPhishingtoolmenu
 "
 :
