@@ -790,6 +790,13 @@ osk
 .
 exe
 "
+"
+corplink
+-
+uc
+.
+exe
+"
 }
 ;
 bool
