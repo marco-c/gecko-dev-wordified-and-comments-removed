@@ -69,6 +69,12 @@ base
 -
 compose
 -
+browser
+-
+toolbar
+-
+compose
+-
 cfr
 -
 concept
@@ -760,8 +766,6 @@ arm64
 v8a
 -
 benchmark
--
-unsigned
 .
 apk
 -
@@ -781,8 +785,6 @@ armeabi
 v7a
 -
 benchmark
--
-unsigned
 .
 apk
 -
@@ -798,8 +800,6 @@ fenix
 x86
 -
 benchmark
--
-unsigned
 .
 apk
 -
@@ -815,8 +815,6 @@ fenix
 x86_64
 -
 benchmark
--
-unsigned
 .
 apk
 build_type
