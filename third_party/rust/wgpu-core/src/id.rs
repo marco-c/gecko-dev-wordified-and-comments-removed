@@ -31,10 +31,6 @@ marker
 :
 :
 PhantomData
-mem
-:
-:
-size_of
 num
 :
 :

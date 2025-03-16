@@ -616,7 +616,7 @@ name
 )
 ;
 }
-std
+core
 :
 :
 mem

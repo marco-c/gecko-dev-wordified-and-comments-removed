@@ -1,4 +1,13 @@
 use
+core
+:
+:
+fmt
+:
+:
+Write
+;
+use
 super
 :
 :
@@ -40,15 +49,6 @@ StorageFormat
 Type
 TypeInner
 }
-;
-use
-std
-:
-:
-fmt
-:
-:
-Write
 ;
 bitflags
 :
@@ -2681,7 +2681,7 @@ h
 .
 chain
 (
-std
+core
 :
 :
 iter
@@ -3238,7 +3238,7 @@ body
 .
 chain
 (
-std
+core
 :
 :
 iter
