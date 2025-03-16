@@ -1020,11 +1020,6 @@ DestroyInProcessCompositorSessions
 (
 )
 ;
-void
-OnBlockingProcessUnexpectedShutdown
-(
-)
-;
 bool
 OnDeviceReset
 (
