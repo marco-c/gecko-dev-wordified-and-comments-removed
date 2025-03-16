@@ -117,6 +117,15 @@ mozurl
 -
 netwerk
 /
+base
+/
+rust
+-
+helper
+/
+-
+netwerk
+/
 test
 /
 http3server
