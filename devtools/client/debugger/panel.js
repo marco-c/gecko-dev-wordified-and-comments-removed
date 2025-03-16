@@ -131,6 +131,17 @@ client
 /
 locales
 /
+sourceeditor
+.
+properties
+"
+"
+devtools
+/
+client
+/
+locales
+/
 startup
 .
 properties
