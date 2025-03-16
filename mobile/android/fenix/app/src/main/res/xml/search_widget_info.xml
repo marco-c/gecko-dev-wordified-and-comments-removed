@@ -105,6 +105,15 @@ android
 "
 android
 :
+description
+=
+"
+string
+/
+widget_picket_description
+"
+android
+:
 minWidth
 =
 "
