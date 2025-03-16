@@ -255,6 +255,17 @@ sets
 -
 regex
 "
+"
+babel
+/
+plugin
+-
+syntax
+-
+import
+-
+attributes
+"
 [
 "
 module
