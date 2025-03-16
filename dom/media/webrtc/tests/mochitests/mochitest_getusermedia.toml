@@ -796,13 +796,6 @@ html
 ]
 [
 "
-test_getUserMedia_callbacks
-.
-html
-"
-]
-[
-"
 test_getUserMedia_constraints
 .
 html

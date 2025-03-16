@@ -33,7 +33,9 @@ javascript
 >
 navigator
 .
-mozGetUserMedia
+mediaDevices
+.
+getUserMedia
 (
 {
 audio
@@ -43,6 +45,10 @@ fake
 :
 true
 }
+)
+.
+then
+(
 function
 (
 stream

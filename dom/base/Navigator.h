@@ -1080,6 +1080,16 @@ JSObject
 ;
 static
 bool
+MozGetUserMediaSupport
+(
+JSContext
+*
+JSObject
+*
+)
+;
+static
+bool
 HasShareSupport
 (
 JSContext
