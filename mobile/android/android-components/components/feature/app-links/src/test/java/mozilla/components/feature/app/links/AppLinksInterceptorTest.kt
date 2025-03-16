@@ -5502,6 +5502,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -5513,6 +5516,8 @@ mockAppIntent
 mock
 (
 )
+"
+"
 )
 verify
 (
@@ -5664,6 +5669,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -5673,6 +5681,8 @@ tab
 intentUrl
 null
 mockMarketIntent
+"
+"
 )
 verify
 (
@@ -5788,6 +5798,8 @@ mock
 mock
 (
 )
+"
+"
 )
 verify
 (
@@ -5958,6 +5970,8 @@ tab
 intentUrl
 appIntent
 null
+"
+"
 )
 verify
 (
@@ -6130,6 +6144,8 @@ tab
 intentUrl
 appIntent
 null
+"
+"
 )
 verify
 (
@@ -6311,6 +6327,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -6320,6 +6339,8 @@ tab
 intentUrl
 appIntent
 null
+"
+"
 )
 verify
 (
@@ -6518,6 +6539,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -6527,6 +6551,8 @@ tab
 intentUrl
 appIntent
 null
+"
+"
 )
 verify
 (
@@ -6714,6 +6740,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -6725,6 +6754,8 @@ mockAppIntent
 mock
 (
 )
+"
+"
 )
 verify
 (
@@ -6913,6 +6944,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -6924,6 +6958,8 @@ mockAppIntent
 mock
 (
 )
+"
+"
 )
 verify
 (
@@ -7103,6 +7139,9 @@ anyBoolean
 any
 (
 )
+any
+(
+)
 )
 appLinksInterceptor
 .
@@ -7112,6 +7151,8 @@ tabSessionState
 intentUrl
 appIntent
 null
+"
+"
 )
 verify
 (
@@ -7143,6 +7184,8 @@ getOrCreateDialog
 false
 "
 "
+"
+"
 )
 doReturn
 (
@@ -7172,6 +7215,8 @@ mock
 mock
 (
 )
+"
+"
 )
 verify
 (
