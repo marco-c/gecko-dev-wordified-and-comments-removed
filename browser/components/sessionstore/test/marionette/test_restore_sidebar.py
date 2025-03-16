@@ -209,21 +209,12 @@ self
 .
 marionette
 .
-execute_async_script
+execute_script
 (
             
 "
 "
 "
-            
-const
-resolve
-=
-arguments
-[
-0
-]
-;
             
 let
 window
@@ -244,15 +235,8 @@ show
 viewHistorySidebar
 "
 )
-.
-then
-(
-(
-)
-=
->
-{
-              
+;
+            
 let
 sidebarBox
 =
@@ -268,7 +252,7 @@ sidebar
 box
 "
 )
-              
+            
 sidebarBox
 .
 style
@@ -278,15 +262,6 @@ width
 "
 100px
 "
-;
-            
-}
-)
-.
-then
-(
-resolve
-)
 ;
             
 "
@@ -643,21 +618,12 @@ self
 .
 marionette
 .
-execute_async_script
+execute_script
 (
             
 "
 "
 "
-            
-const
-resolve
-=
-arguments
-[
-0
-]
-;
             
 let
 window
@@ -678,15 +644,8 @@ show
 viewHistorySidebar
 "
 )
-.
-then
-(
-(
-)
-=
->
-{
-             
+;
+            
 let
 sidebarBox
 =
@@ -702,7 +661,7 @@ sidebar
 box
 "
 )
-             
+            
 sidebarBox
 .
 style
@@ -713,22 +672,13 @@ width
 100px
 "
 ;
-             
+            
 window
 .
 SidebarController
 .
 toggle
 (
-)
-;
-            
-}
-)
-.
-then
-(
-resolve
 )
 ;
             
