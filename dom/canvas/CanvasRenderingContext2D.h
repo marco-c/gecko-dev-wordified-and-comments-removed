@@ -3836,6 +3836,10 @@ HasErrorState
 ErrorResult
 &
 aError
+bool
+aInitProvider
+=
+true
 )
 ;
 bool
