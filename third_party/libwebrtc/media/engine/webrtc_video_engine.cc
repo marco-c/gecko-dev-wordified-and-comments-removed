@@ -8884,7 +8884,7 @@ send_codec_
 &
 &
 !
-IsSameRtpCodec
+IsSameRtpCodecIgnoringLevel
 (
 send_codec_
 -

@@ -599,7 +599,7 @@ send_codecs
 {
 if
 (
-IsSameRtpCodec
+IsSameRtpCodecIgnoringLevel
 (
 codec
 *
