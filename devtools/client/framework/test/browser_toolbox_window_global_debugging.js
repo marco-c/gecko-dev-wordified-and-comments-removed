@@ -1,7 +1,6 @@
 const
 TEST_URL
 =
-"
 data
 :
 text
@@ -13,6 +12,13 @@ script
 window
 .
 someInlineSource
+{
+Date
+.
+now
+(
+)
+}
 =
 (
 )
@@ -24,7 +30,6 @@ someInlineSource
 /
 script
 >
-"
 ;
 add_task
 (
