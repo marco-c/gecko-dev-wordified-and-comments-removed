@@ -1887,13 +1887,6 @@ Stringify
 nsAString
 &
 aResult
-CallerType
-aCallerType
-=
-CallerType
-:
-:
-System
 FlushFrames
 =
 FlushFrames
