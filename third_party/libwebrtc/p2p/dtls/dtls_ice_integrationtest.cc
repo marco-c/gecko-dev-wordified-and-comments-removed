@@ -1158,9 +1158,8 @@ IsRtcOk
 ;
 EXPECT_EQ
 (
-client_ice_
--
->
+client_dtls_
+.
 IsDtlsPiggybackSupportedByPeer
 (
 )
@@ -1172,9 +1171,8 @@ server_dtls_stun_piggyback_
 ;
 EXPECT_EQ
 (
-server_ice_
--
->
+server_dtls_
+.
 IsDtlsPiggybackSupportedByPeer
 (
 )
