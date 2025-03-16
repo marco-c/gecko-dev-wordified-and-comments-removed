@@ -401,6 +401,13 @@ win
 ]
 [
 "
+browser_connection_telemetry
+.
+js
+"
+]
+[
+"
 browser_connection_valid_hostname
 .
 js
@@ -527,6 +534,13 @@ js
 [
 "
 browser_experimental_features_resetall
+.
+js
+"
+]
+[
+"
+browser_experimental_features_studies_disabled
 .
 js
 "
