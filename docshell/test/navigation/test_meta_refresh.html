@@ -86,8 +86,14 @@ false
 let
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 test_meta_refresh

@@ -96,8 +96,14 @@ pageshowCount
 let
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 test_reload

@@ -83,8 +83,14 @@ waitForExplicitFinish
 let
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 navigation_type

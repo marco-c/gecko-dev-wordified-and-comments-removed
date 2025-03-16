@@ -326,8 +326,14 @@ testBfcache
 let
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 new_shentry_during_history_navigation
