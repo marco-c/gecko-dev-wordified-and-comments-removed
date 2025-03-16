@@ -100,16 +100,6 @@ https_first_disabled
 true
 [
 "
-browser_test_selection
-.
-js
-"
-]
-https_first_disabled
-=
-true
-[
-"
 browser_test_visibility
 .
 js
