@@ -61246,6 +61246,11 @@ searchForm
 :
 string
 ;
+readonly
+partnerCode
+:
+string
+;
 }
 interface
 nsISearchParseSubmissionResult
