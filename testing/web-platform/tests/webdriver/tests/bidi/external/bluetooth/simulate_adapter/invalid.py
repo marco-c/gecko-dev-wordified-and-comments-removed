@@ -74,6 +74,11 @@ context
 state
 =
 state
+type_
+=
+"
+create
+"
 )
 pytest
 .
@@ -132,6 +137,11 @@ context
 state
 =
 state
+type_
+=
+"
+create
+"
 )
 pytest
 .
@@ -190,6 +200,11 @@ powered
 -
 on
 "
+type_
+=
+"
+create
+"
 )
 async
 def
@@ -229,5 +244,10 @@ state
 powered
 -
 on
+"
+type_
+=
+"
+create
 "
 )

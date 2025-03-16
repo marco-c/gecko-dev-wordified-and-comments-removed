@@ -330,7 +330,14 @@ bidi_bluetooth
 simulate_adapter
 (
 context
+                                                                   
 state
+                                                                   
+type_
+=
+"
+create
+"
 )
 class
 BidiBluetoothSimulatePreconnectedPeripheralAction
