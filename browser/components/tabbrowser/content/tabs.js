@@ -5710,7 +5710,7 @@ tabsInGroup
 insertBefore
 :
 dropElement
-showCreateUI
+isUserCreated
 :
 true
 color
@@ -5720,6 +5720,11 @@ draggedTab
 _dragData
 .
 tabGroupCreationColor
+telemetryUserCreateSource
+:
+"
+drag
+"
 }
 )
 ;
