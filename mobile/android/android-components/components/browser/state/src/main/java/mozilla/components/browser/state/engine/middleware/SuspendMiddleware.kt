@@ -327,6 +327,11 @@ EngineAction
 KillEngineSessionAction
 -
 >
+{
+next
+(
+action
+)
 suspend
 (
 context
@@ -334,6 +339,7 @@ action
 .
 tabId
 )
+}
 else
 -
 >
