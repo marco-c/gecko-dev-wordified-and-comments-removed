@@ -1083,6 +1083,16 @@ Client
 aClient
 )
 ;
+DataMutex
+<
+nsTHashMap
+<
+nsCString
+nsCString
+>
+>
+mRequestTokenToUserActionIdMap
+;
 void
 IssueResponse
 (
