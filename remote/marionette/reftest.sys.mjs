@@ -3937,7 +3937,6 @@ allowedDiff
 ]
 &
 &
-(
 pixelsDifferent
 >
 =
@@ -3945,8 +3944,8 @@ allowedPixels
 [
 0
 ]
-|
-|
+&
+&
 pixelsDifferent
 <
 =
@@ -3954,7 +3953,6 @@ allowedPixels
 [
 1
 ]
-)
 )
 )
 ;
