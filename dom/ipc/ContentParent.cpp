@@ -15881,7 +15881,10 @@ nsCString
 aURI
 )
 ipcBlob
+WrapNotNull
+(
 aPrincipal
+)
 nsCString
 (
 aPartitionKey
@@ -32393,7 +32396,10 @@ nsCString
 aURI
 )
 ipcBlob
+WrapNotNull
+(
 aPrincipal
+)
 nsCString
 (
 aPartitionKey
