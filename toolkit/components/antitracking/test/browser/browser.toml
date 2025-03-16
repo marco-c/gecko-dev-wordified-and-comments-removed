@@ -612,6 +612,13 @@ js
 ]
 [
 "
+browser_initial_aboutblank_mixed_context
+.
+js
+"
+]
+[
+"
 browser_localStorageEvents
 .
 js
