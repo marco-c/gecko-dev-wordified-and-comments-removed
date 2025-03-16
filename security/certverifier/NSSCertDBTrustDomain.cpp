@@ -8631,6 +8631,13 @@ defined
 __aarch64__
 )
 )
+|
+|
+\
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 return
 LoadUserModuleFromXul
 (

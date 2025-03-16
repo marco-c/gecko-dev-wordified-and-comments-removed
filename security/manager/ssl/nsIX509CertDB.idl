@@ -703,5 +703,16 @@ countTrustObjects
 (
 )
 ;
+[
+must_use
+]
+nsIX509Cert
+getAndroidCertificateFromAlias
+(
+in
+AString
+alias
+)
+;
 }
 ;

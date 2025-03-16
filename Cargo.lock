@@ -26528,6 +26528,9 @@ dependencies
 =
 [
 "
+android_logger
+"
+"
 byteorder
 "
 "
@@ -26539,6 +26542,9 @@ foundation
 9
 .
 999
+"
+"
+digest
 "
 "
 env_logger
@@ -26556,6 +26562,9 @@ log
 pkcs11
 -
 bindings
+"
+"
+rand
 "
 "
 rsclientcerts
