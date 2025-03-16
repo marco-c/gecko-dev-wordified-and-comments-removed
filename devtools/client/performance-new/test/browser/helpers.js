@@ -577,6 +577,7 @@ ProfilerMenuButton
 .
 addToNavbar
 (
+document
 )
 ;
 await
