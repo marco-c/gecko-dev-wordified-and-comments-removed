@@ -7246,7 +7246,7 @@ prompt
 /
 given
 val
-host
+origin
 =
 "
 https
@@ -7308,7 +7308,7 @@ handlingSingleContentPermissions
 (
 permissionRequest
 permission
-host
+origin
 )
 /
 /
@@ -7323,7 +7323,7 @@ createContentCrossOriginStorageAccessPermissionPrompt
 context
 =
 testContext
-host
+origin
 permissionRequest
 false
 true
@@ -7351,7 +7351,7 @@ SitePermissionsDialogFragment
 /
 given
 val
-host
+origin
 =
 "
 https
@@ -7361,6 +7361,8 @@ https
 mozilla
 .
 org
+:
+443
 "
 val
 permission
@@ -7415,7 +7417,7 @@ sitePermissionFeature
 createContentCrossOriginStorageAccessPermissionPrompt
 (
 testContext
-host
+origin
 permissionRequest
 false
 true
@@ -7441,7 +7443,7 @@ R
 string
 .
 mozac_feature_sitepermissions_storage_access_title
-host
+origin
 .
 stripDefaultPort
 (
@@ -7519,7 +7521,7 @@ R
 string
 .
 mozac_feature_sitepermissions_storage_access_message
-host
+origin
 .
 stripDefaultPort
 (

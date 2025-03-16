@@ -3029,7 +3029,7 @@ SitePermissions
 permissionRequest
 :
 PermissionRequest
-host
+origin
 :
 String
 )
@@ -3050,7 +3050,7 @@ permissionFromStorage
 createPrompt
 (
 permissionRequest
-host
+origin
 )
 }
 else
@@ -3887,7 +3887,7 @@ PermissionRequest
 .
 toSitePermissions
 (
-host
+origin
 :
 String
 status
@@ -3901,7 +3901,7 @@ SitePermissions
 =
 getInitialSitePermissions
 (
-host
+origin
 )
 permissions
 :
@@ -3945,7 +3945,7 @@ internal
 fun
 getInitialSitePermissions
 (
-host
+origin
 :
 String
 )
@@ -3962,7 +3962,7 @@ rules
 .
 toSitePermissions
 (
-host
+origin
 savedAt
 =
 System
@@ -3975,7 +3975,7 @@ currentTimeMillis
 :
 SitePermissions
 (
-host
+origin
 savedAt
 =
 System
@@ -4380,7 +4380,7 @@ createPrompt
 permissionRequest
 :
 PermissionRequest
-host
+origin
 :
 String
 )
@@ -4412,7 +4412,7 @@ handlingSingleContentPermissions
 (
 permissionRequest
 permission
-host
+origin
 )
 .
 also
@@ -4428,7 +4428,7 @@ else
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4484,7 +4484,7 @@ PermissionRequest
 permission
 :
 Permission
-host
+origin
 :
 String
 )
@@ -4505,7 +4505,7 @@ ContentGeoLocation
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4541,7 +4541,7 @@ ContentNotification
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4574,7 +4574,7 @@ ContentAudioMicrophone
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4612,7 +4612,7 @@ ContentVideoCapture
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4648,7 +4648,7 @@ ContentPersistentStorage
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4676,7 +4676,7 @@ ContentMediaKeySystemAccess
 createSinglePermissionPrompt
 (
 context
-host
+origin
 permissionRequest
 R
 .
@@ -4706,9 +4706,9 @@ createContentCrossOriginStorageAccessPermissionPrompt
 context
 =
 context
-host
+origin
 =
-host
+origin
 permissionRequest
 =
 permissionRequest
@@ -4746,7 +4746,7 @@ createSinglePermissionPrompt
 context
 :
 Context
-host
+origin
 :
 String
 permissionRequest
@@ -4783,7 +4783,7 @@ context
 getString
 (
 titleId
-host
+origin
 )
 val
 currentSessionId
@@ -4847,7 +4847,7 @@ createContentCrossOriginStorageAccessPermissionPrompt
 context
 :
 Context
-host
+origin
 :
 String
 permissionRequest
@@ -4903,7 +4903,7 @@ R
 string
 .
 mozac_feature_sitepermissions_storage_access_title
-host
+origin
 .
 stripDefaultPort
 (
@@ -4930,7 +4930,7 @@ R
 string
 .
 mozac_feature_sitepermissions_storage_access_message
-host
+origin
 .
 stripDefaultPort
 (
