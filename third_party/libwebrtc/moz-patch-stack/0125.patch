@@ -182,13 +182,12 @@ mm
 331
 18
 void
-ScreenCapturerSck
-:
-:
-EnsureVisible
+StartWithFilter
 (
+SCContentFilter
+*
+filter
 )
-{
 SCContentSharingPickerConfiguration
 *
 config
