@@ -2975,7 +2975,7 @@ observeSuggestionProvidersState
 (
 )
 val
-isPrivate
+browsingMode
 =
 (
 requireActivity
@@ -2988,8 +2988,6 @@ HomeActivity
 browsingModeManager
 .
 mode
-.
-isPrivate
 if
 (
 view
@@ -3000,9 +2998,13 @@ settings
 (
 )
 .
-shouldShowTrendingSearchSuggestions
+shouldShowTrendingOrRecentSearchSuggestions
 (
-isPrivate
+browsingMode
+=
+browsingMode
+isTrendingSuggestionSupported
+=
 requireComponents
 .
 core
@@ -3014,6 +3016,12 @@ state
 search
 .
 selectedOrDefaultSearchEngine
+?
+.
+trendingUrl
+!
+=
+null
 )
 &
 &
