@@ -49,6 +49,11 @@ servo
 /
 stylo
 "
+edition
+=
+"
+2021
+"
 publish
 =
 false
@@ -58,11 +63,6 @@ build
 build
 .
 rs
-"
-edition
-=
-"
-2018
 "
 #
 https
