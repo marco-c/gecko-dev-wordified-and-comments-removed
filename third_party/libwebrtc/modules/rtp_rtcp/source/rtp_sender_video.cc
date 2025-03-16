@@ -1270,12 +1270,13 @@ nullptr
 )
 enable_av1_even_split_
 (
+!
 config
 .
 field_trials
 -
 >
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
