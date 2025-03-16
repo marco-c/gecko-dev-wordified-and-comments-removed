@@ -14,7 +14,7 @@ h
 #
 include
 "
-moz_expat
+expat
 .
 h
 "

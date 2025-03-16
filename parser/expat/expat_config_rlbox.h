@@ -44,4 +44,10 @@ size
 #
 endif
 #
+define
+getpid
+(
+)
+0
+#
 endif

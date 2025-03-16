@@ -1,17 +1,4 @@
 #
-include
-"
-xmltok
-.
-c
-"
-#
-ifdef
-MOZILLA_CLIENT
-#
-ifndef
-MOZ_IN_WASM_SANDBOX
-#
 ifdef
 IS_LITTLE_ENDIAN
 #
@@ -45,6 +32,7 @@ p
 )
 LITTLE2_IS_NAME_CHAR_MINBPC
 (
+0
 p
 )
 #
@@ -55,6 +43,7 @@ p
 )
 LITTLE2_IS_NMSTRT_CHAR_MINBPC
 (
+0
 p
 )
 #
@@ -90,6 +79,7 @@ p
 )
 BIG2_IS_NAME_CHAR_MINBPC
 (
+0
 p
 )
 #
@@ -100,6 +90,7 @@ p
 )
 BIG2_IS_NMSTRT_CHAR_MINBPC
 (
+0
 p
 )
 #
@@ -626,7 +617,3 @@ IS_NAME_CHAR_MINBPC
 #
 undef
 IS_NMSTRT_CHAR_MINBPC
-#
-endif
-#
-endif
