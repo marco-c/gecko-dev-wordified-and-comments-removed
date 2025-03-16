@@ -675,11 +675,6 @@ app
 -
 -
 >
--
--
-&
-gt
-;
 <
 string
 name
@@ -756,13 +751,9 @@ odaberi
 dozvole
 i
 odaberi
-&
-quot
-;
+"
 Dopusti
-&
-quot
-;
+"
 .
 <
 /
