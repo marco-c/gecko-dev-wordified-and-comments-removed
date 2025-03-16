@@ -3024,7 +3024,7 @@ assert_throws
 (
 WebAssembly
 .
-RuntimeError
+SuspendError
 (
 )
 =
@@ -3985,7 +3985,7 @@ t
 new
 WebAssembly
 .
-RuntimeError
+SuspendError
 (
 )
 wrapper
