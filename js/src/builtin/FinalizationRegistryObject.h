@@ -16,15 +16,6 @@ h
 #
 include
 "
-gc
-/
-WeakMap
-.
-h
-"
-#
-include
-"
 js
 /
 GCVector
@@ -51,6 +42,9 @@ FinalizationRecordObject
 ;
 class
 FinalizationQueueObject
+;
+class
+ObjectWeakMap
 ;
 using
 HandleFinalizationRegistryObject
