@@ -3555,11 +3555,6 @@ ForceReflowForFontInfoUpdateFromStyle
 (
 )
 ;
-bool
-MayHavePaintEventListener
-(
-)
-;
 void
 InvalidatePaintedLayers
 (
