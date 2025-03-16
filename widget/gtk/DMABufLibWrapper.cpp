@@ -1115,6 +1115,10 @@ Configure
 )
 )
 ;
+LoadFormatModifiers
+(
+)
+;
 if
 (
 !
@@ -1385,10 +1389,6 @@ FEATURE_FAILURE_NO_DRM_DEVICE
 return
 ;
 }
-LoadFormatModifiers
-(
-)
-;
 LOGDMABUF
 (
 (
