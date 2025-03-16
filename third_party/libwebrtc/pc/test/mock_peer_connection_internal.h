@@ -1503,12 +1503,10 @@ MOCK_METHOD
 void
 AddRemoteCandidate
 (
-const
-std
+absl
 :
 :
-string
-&
+string_view
 const
 cricket
 :
