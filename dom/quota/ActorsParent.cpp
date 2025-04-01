@@ -11429,6 +11429,9 @@ bool
 (
 gNormalOriginOps
 )
+|
+|
+mInitializingAllTemporaryOrigins
 ;
 if
 (
@@ -11451,6 +11454,7 @@ Shutdown
 "
 _ns
 [
+this
 isAllClientsShutdownComplete
 ]
 (
@@ -11464,6 +11468,10 @@ gNormalOriginOps
 isAllClientsShutdownComplete
 (
 )
+&
+&
+!
+mInitializingAllTemporaryOrigins
 ;
 }
 )
