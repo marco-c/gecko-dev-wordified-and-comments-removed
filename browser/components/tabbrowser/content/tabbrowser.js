@@ -8853,6 +8853,12 @@ appendChild
 browserContainer
 )
 ;
+if
+(
+!
+isPreloadBrowser
+)
+{
 let
 visibility
 =
@@ -8916,6 +8922,7 @@ toggleExpandOnHover
 true
 )
 ;
+}
 }
 if
 (
