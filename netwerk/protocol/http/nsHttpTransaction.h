@@ -1210,6 +1210,11 @@ uint32_t
 aStreamId
 )
 ;
+void
+FinalizeConnInfo
+(
+)
+;
 enum
 HTTPSSVC_CONNECTION_FAILED_REASON
 :
@@ -2229,6 +2234,12 @@ RefPtr
 nsHttpConnectionInfo
 >
 mBackupConnInfo
+;
+RefPtr
+<
+nsHttpConnectionInfo
+>
+mFinalizedConnInfo
 ;
 RefPtr
 <

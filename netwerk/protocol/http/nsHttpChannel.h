@@ -1507,11 +1507,17 @@ nodiscard
 nsresult
 ProcessResponse
 (
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 ;
 void
 AsyncContinueProcessResponse
 (
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 ;
 [
@@ -1522,6 +1528,9 @@ nodiscard
 nsresult
 ContinueProcessResponse1
 (
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 ;
 [
