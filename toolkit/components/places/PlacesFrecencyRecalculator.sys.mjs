@@ -850,7 +850,7 @@ lazy
 .
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 addBlocker
 (
