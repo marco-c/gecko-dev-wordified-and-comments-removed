@@ -4835,6 +4835,17 @@ True
                 
 if
 "
+jetstream3
+"
+in
+try_name
+:
+                    
+return
+False
+                
+if
+"
 tp6m
 "
 in
@@ -5182,6 +5193,26 @@ in
 try_name
 :
                     
+if
+"
+jetstream3
+"
+in
+try_name
+and
+"
+safari
+-
+tp
+"
+not
+in
+try_name
+:
+                        
+return
+False
+                    
 return
 True
         
@@ -5403,6 +5434,17 @@ try_name
                     
 return
 True
+                
+if
+"
+jetstream3
+"
+in
+try_name
+:
+                    
+return
+False
                 
 if
 "
