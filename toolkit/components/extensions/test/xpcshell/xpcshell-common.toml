@@ -309,6 +309,13 @@ Bug
 ]
 [
 "
+test_ext_background_empty
+.
+js
+"
+]
+[
+"
 test_ext_background_generated_load_events
 .
 js
