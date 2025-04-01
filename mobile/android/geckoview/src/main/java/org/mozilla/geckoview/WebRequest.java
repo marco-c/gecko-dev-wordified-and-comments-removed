@@ -292,6 +292,7 @@ null
 ;
 }
 }
+WrapForJNI
 AnyThread
 public
 static
