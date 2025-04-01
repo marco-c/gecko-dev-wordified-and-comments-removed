@@ -605,6 +605,17 @@ subclass
 float
 mPressure
 ;
+[
+[
+nodiscard
+]
+]
+float
+ComputeMouseButtonPressure
+(
+)
+const
+;
 int16_t
 mButton
 ;
