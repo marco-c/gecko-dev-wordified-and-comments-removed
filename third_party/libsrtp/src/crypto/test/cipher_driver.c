@@ -1502,9 +1502,14 @@ end
 )
 len
 =
+(
+unsigned
+)
+(
 end
 -
 current
+)
 ;
 status
 =
@@ -1674,6 +1679,8 @@ status
 uint8_t
 *
 key
+=
+NULL
 ;
 srtp_cipher_t
 *
@@ -1730,6 +1737,13 @@ ca
 =
 cipher_array
 ;
+if
+(
+klen_pad
+>
+0
+)
+{
 key
 =
 srtp_crypto_alloc
@@ -1753,6 +1767,7 @@ cipher_array
 return
 srtp_err_status_alloc_fail
 ;
+}
 }
 for
 (

@@ -408,7 +408,7 @@ First
 we
 run
 "
-killall
+pkill
 "
 to
 get
@@ -467,7 +467,9 @@ rid
 of
 them
 .
-killall
+pkill
+-
+x
 rtpw
 2
 >

@@ -721,7 +721,7 @@ byte_order
 void
 )
 {
-int
+size_t
 i
 ;
 v128_t
@@ -767,6 +767,9 @@ v8
 i
 ]
 =
+(
+uint8_t
+)
 i
 ;
 printf
@@ -826,6 +829,9 @@ hex_string_to_octet_string
 (
 raw
 hex1
+(
+int
+)
 strlen
 (
 hex1
@@ -890,6 +896,9 @@ hex_string_to_octet_string
 (
 raw
 hex2
+(
+int
+)
 strlen
 (
 hex2
