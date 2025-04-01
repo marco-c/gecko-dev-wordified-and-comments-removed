@@ -215,16 +215,6 @@ DispatchPendingEventTimingEntries
 )
 override
 ;
-void
-SetEventTimingDuration
-(
-PerformanceEventTiming
-*
-aEntry
-DOMHighResTimeStamp
-aRenderingTime
-)
-;
 PerformanceInteractionMetrics
 &
 GetPerformanceInteractionMetrics
