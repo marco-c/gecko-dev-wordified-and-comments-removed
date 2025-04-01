@@ -156,9 +156,6 @@ updateEditUIVisibility
 gFileMenu
 "
 "
-gShareUtils
-"
-"
 openNewUserContextTab
 "
 "
@@ -448,6 +445,9 @@ SessionStartup
 "
 "
 SessionStore
+"
+"
+SharingUtils
 "
 "
 ShoppingSidebarParent
