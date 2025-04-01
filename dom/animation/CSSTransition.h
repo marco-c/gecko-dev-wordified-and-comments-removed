@@ -273,8 +273,8 @@ ToValue
 )
 const
 ;
-bool
-HasLowerCompositeOrderThan
+int32_t
+CompareCompositeOrder
 (
 const
 Maybe

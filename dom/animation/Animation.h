@@ -1176,8 +1176,8 @@ mIndex
 ;
 }
 ;
-bool
-HasLowerCompositeOrderThan
+int32_t
+CompareCompositeOrder
 (
 const
 Maybe
@@ -1205,8 +1205,8 @@ NodeIndexCache
 )
 const
 ;
-bool
-HasLowerCompositeOrderThan
+int32_t
+CompareCompositeOrder
 (
 const
 Animation
@@ -1222,7 +1222,7 @@ aCache
 const
 {
 return
-HasLowerCompositeOrderThan
+CompareCompositeOrder
 (
 Nothing
 (

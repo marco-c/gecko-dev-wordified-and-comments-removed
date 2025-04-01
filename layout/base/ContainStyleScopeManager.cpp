@@ -81,13 +81,7 @@ aList
 nsContentUtils
 :
 :
-ResizableNodeIndexCache
-<
-TreeKind
-:
-:
-Flat
->
+NodeIndexCache
 cache
 ;
 auto
