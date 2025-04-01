@@ -747,6 +747,7 @@ dev
 python
 /
 pip
+curl
 archlinux
 :
 image
