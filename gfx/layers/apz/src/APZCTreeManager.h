@@ -1756,9 +1756,9 @@ ScreenPoint
 ComputeFixedMarginsOffset
 (
 const
-ScreenMargin
+MutexAutoLock
 &
-aCompositorFixedLayerMargins
+aProofOfMapLock
 SideBits
 aFixedSides
 const
