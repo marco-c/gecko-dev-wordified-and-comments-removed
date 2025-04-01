@@ -14086,6 +14086,7 @@ if
 !
 IsBufferSource
 (
+cx
 args
 .
 get
@@ -14096,6 +14097,8 @@ get
 toObjectOrNull
 (
 )
+false
+false
 &
 dataPointer
 &
