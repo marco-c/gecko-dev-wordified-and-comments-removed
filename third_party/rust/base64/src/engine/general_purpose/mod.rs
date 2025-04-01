@@ -16,7 +16,7 @@ Config
 DecodeMetadata
 DecodePaddingMode
 }
-DecodeError
+DecodeSliceError
 }
 ;
 use
@@ -28,6 +28,10 @@ convert
 :
 TryInto
 ;
+pub
+(
+crate
+)
 mod
 decode
 ;
@@ -56,6 +60,14 @@ u8
 =
 255
 ;
+#
+[
+derive
+(
+Debug
+Clone
+)
+]
 pub
 struct
 GeneralPurpose
@@ -1473,7 +1485,7 @@ DecodeEstimate
 Result
 <
 DecodeMetadata
-DecodeError
+DecodeSliceError
 >
 {
 decode
