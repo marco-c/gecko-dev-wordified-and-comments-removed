@@ -69,6 +69,12 @@ pytest_plugins
 [
     
 "
+support
+.
+fixtures
+"
+    
+"
 tests
 .
 support
@@ -90,11 +96,5 @@ tests
 support
 .
 fixtures_http
-"
-    
-"
-support
-.
-fixtures
 "
 ]

@@ -1,16 +1,9 @@
-import
-pytest
 from
 support
 .
 fixtures
 import
 get_pref
-pytest
-.
-mark
-.
-allow_system_access
 def
 test_recommended_preferences
 (
