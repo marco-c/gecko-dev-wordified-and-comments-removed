@@ -3525,10 +3525,10 @@ SystemScaleFactor
 (
 )
 /
-WindowsUIUtils
+LookAndFeel
 :
 :
-ComputeTextScaleFactor
+GetTextScaleFactor
 (
 )
 ;
