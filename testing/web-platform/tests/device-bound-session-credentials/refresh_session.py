@@ -272,19 +272,25 @@ utf
 session_key
 )
     
-if
+early_challenge
+=
 test_session_manager
 .
-get_send_challenge_early
+get_early_challenge
 (
+session_id
 )
+    
+if
+early_challenge
+is
+not
+None
 :
         
 challenge
 =
-"
 early_challenge
-"
     
 if
 not
