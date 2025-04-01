@@ -14346,6 +14346,12 @@ aProofOfMapLock
 )
 const
 {
+mMapLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 ScrollableLayerGuid
 guid
 (
