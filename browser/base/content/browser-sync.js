@@ -6579,6 +6579,15 @@ hidden
 "
 )
 ;
+cadButtonEl
+.
+removeAttribute
+(
+"
+hidden
+"
+)
+;
 oldSyncSetupEl
 .
 setAttribute
