@@ -673,16 +673,6 @@ idealUnpack
 =
 nullptr
 ;
-mutable
-std
-:
-:
-optional
-<
-PackingInfo
->
-implReadPiCache
-;
 const
 GLint
 *
