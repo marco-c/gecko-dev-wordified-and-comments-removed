@@ -2110,6 +2110,13 @@ PRemoteWorkerServiceChild
 &
 &
 aEndpoint
+Endpoint
+<
+PRemoteWorkerDebuggerManagerChild
+>
+&
+&
+aDebuggerChildEp
 )
 ;
 mozilla

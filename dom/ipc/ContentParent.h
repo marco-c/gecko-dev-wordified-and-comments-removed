@@ -541,6 +541,9 @@ class
 MemoryReportRequestHost
 ;
 class
+RemoteWorkerDebuggerManagerParent
+;
+class
 RemoteWorkerManager
 ;
 class
@@ -6896,6 +6899,12 @@ RefPtr
 RemoteWorkerServiceParent
 >
 mRemoteWorkerServiceActor
+;
+RefPtr
+<
+RemoteWorkerDebuggerManagerParent
+>
+mRemoteWorkerDebuggerManagerActor
 ;
 UniquePtr
 <
