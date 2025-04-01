@@ -2695,7 +2695,7 @@ int
 i
 c
 ;
-opus_val32
+opus_val64
 prev
 [
 2
@@ -2991,6 +2991,14 @@ ifdef
 FIXED_POINT
 tmp
 =
+MIN32
+(
+GCONST
+(
+28
+.
+f
+)
 MAX32
 (
 -
@@ -3001,6 +3009,7 @@ GCONST
 f
 )
 tmp
+)
 )
 ;
 #
