@@ -422,15 +422,6 @@ openTermsOfUsePage
 verifyPageURL
 (
 "
-www
-.
-mozilla
-.
-org
-/
-en
--
-us
 /
 about
 /
@@ -441,6 +432,7 @@ terms
 firefox
 -
 focus
+/
 "
 )
 }
