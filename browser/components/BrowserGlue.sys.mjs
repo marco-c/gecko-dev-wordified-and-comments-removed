@@ -5957,6 +5957,15 @@ true
 }
 }
 }
+enablePreference
+:
+"
+browser
+.
+uitour
+.
+enabled
+"
 messageManagerGroups
 :
 [
