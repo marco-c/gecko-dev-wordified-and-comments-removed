@@ -837,6 +837,11 @@ OS_LIBS
 "
 -
 framework
+Accessibility
+"
+"
+-
+framework
 IOSurface
 "
 "
