@@ -1010,6 +1010,13 @@ js
 ]
 [
 "
+browser_toolbox_fullscreen
+.
+js
+"
+]
+[
+"
 browser_toolbox_getpanelwhenready
 .
 js
