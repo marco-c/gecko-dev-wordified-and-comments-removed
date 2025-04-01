@@ -165,9 +165,9 @@ getElementFromDocumentByText
 (
 document
 "
-To
-be
-continued
+with
+startup
+profiling
 "
 )
 ;
@@ -177,6 +177,11 @@ item
 "
 The
 item
+to
+restart
+with
+startup
+profiling
 has
 been
 displayed
