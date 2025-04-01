@@ -407,11 +407,6 @@ PaintAsync
 )
 ;
 void
-PaintAsyncIfNeeded
-(
-)
-;
-void
 ForceUpdateNativeMenuAt
 (
 const

@@ -1948,7 +1948,7 @@ mainWindow
 hiddenWindowMenuBar
 -
 >
-PaintAsyncIfNeeded
+PaintAsync
 (
 )
 ;
