@@ -382,7 +382,10 @@ workers
 )
 ;
 }
+Maybe
+<
 uint64_t
+>
 ComputeInteractionId
 (
 const

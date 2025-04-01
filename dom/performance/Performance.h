@@ -676,7 +676,10 @@ GetPerformanceInteractionMetrics
 0
 ;
 virtual
+Maybe
+<
 uint64_t
+>
 ComputeInteractionId
 (
 const
