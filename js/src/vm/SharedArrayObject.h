@@ -698,16 +698,6 @@ return
 mappedSize_
 ;
 }
-void
-tryGrowMaxPagesInPlace
-(
-wasm
-:
-:
-Pages
-deltaMaxPages
-)
-;
 bool
 wasmGrowToPagesInPlace
 (
