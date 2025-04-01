@@ -388,7 +388,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -593,7 +592,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -877,7 +875,6 @@ arguments
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1238,7 +1235,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1786,7 +1782,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -2078,7 +2073,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -2446,7 +2440,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -2755,7 +2748,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -3031,7 +3023,6 @@ manager
 }
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -3366,7 +3357,6 @@ total
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -3639,7 +3629,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -3958,7 +3947,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -4148,7 +4136,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -4531,7 +4518,6 @@ slug
 ;
 }
 }
-await
 assertEmptyStore
 (
 manager
@@ -4704,7 +4690,6 @@ doExperimentCleanup
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -4934,7 +4919,6 @@ false
 )
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -5300,7 +5284,6 @@ rollout
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -5857,7 +5840,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager1
@@ -5879,7 +5861,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager2
@@ -6088,7 +6069,6 @@ restore
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -6464,7 +6444,6 @@ restore
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
