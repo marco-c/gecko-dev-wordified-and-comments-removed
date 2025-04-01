@@ -33,6 +33,9 @@ u8
 ]
 }
 extern
+"
+C
+"
 {
 fn
 com_dc_create_window
