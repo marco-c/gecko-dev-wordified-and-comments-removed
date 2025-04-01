@@ -1216,7 +1216,7 @@ replace
 chunks
 :
 8
-cm6
+cm5
 :
 description
 :
@@ -1226,7 +1226,7 @@ description
 }
 with
 codemirror
-6
+5
 enabled
 "
 component
@@ -1249,12 +1249,12 @@ expiration
 suffix
 :
 "
-cm6
+cm5
 "
 mozinfo
 :
 "
-cm6
+cm5
 "
 replace
 :
@@ -1308,7 +1308,7 @@ codemirror
 -
 next
 =
-true
+false
 "
 socketprocess
 :
