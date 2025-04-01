@@ -679,6 +679,11 @@ MaybeUpdateEmbedderColorScheme
 )
 ;
 void
+MaybeUpdateEmbedderZoom
+(
+)
+;
+void
 MaybeUpdateRemoteStyle
 (
 ComputedStyle
