@@ -1127,6 +1127,13 @@ Bug
 1857059
 [
 "
+test_group_scrollIntoView
+.
+html
+"
+]
+[
+"
 test_group_touchevents
 -
 2
