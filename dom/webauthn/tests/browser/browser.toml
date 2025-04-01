@@ -157,13 +157,6 @@ on
 +
 [
 "
-browser_webauthn_cert_override
-.
-js
-"
-]
-[
-"
 browser_webauthn_conditional_mediation
 .
 js
