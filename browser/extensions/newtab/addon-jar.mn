@@ -131,9 +131,9 @@ webext
 -
 glue
 /
-resource
+builtin
 -
-mapping
+newtab
 .
 js
 (
@@ -143,9 +143,9 @@ webext
 -
 glue
 /
-resource
+builtin
 -
-mapping
+newtab
 .
 js
 )
