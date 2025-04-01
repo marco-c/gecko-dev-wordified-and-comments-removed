@@ -1519,16 +1519,6 @@ true
 name
 :
 "
-GPUExternalTexture
-"
-nightly
-:
-true
-}
-{
-name
-:
-"
 GPUInternalError
 "
 nightly
