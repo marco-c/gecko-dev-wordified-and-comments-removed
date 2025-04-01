@@ -42,14 +42,6 @@ Medium
 url
 (
 /
-css
-/
-css
--
-fonts
-/
-support
-/
 fonts
 /
 Lato
