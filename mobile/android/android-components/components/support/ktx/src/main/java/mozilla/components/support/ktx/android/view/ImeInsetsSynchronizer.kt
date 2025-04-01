@@ -1169,7 +1169,7 @@ works
 only
 on
 Android
-10
+13
 +
 otherwise
 the
@@ -1371,7 +1371,7 @@ Build
 .
 VERSION_CODES
 .
-Q
+TIRAMISU
 )
 {
 true

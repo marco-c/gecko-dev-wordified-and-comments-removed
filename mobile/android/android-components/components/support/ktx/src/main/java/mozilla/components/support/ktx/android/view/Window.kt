@@ -708,7 +708,7 @@ only
 works
 on
 Android
-Q
+13
 and
 above
 .
@@ -740,7 +740,7 @@ SDK_INT
 =
 VERSION_CODES
 .
-Q
+TIRAMISU
 )
 {
 WindowCompat
