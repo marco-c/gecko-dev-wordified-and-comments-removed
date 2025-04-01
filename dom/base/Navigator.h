@@ -175,9 +175,6 @@ class
 LockManager
 ;
 class
-NavigatorLogin
-;
-class
 PrivateAttribution
 ;
 class
@@ -1000,12 +997,6 @@ Locks
 (
 )
 ;
-NavigatorLogin
-*
-Login
-(
-)
-;
 dom
 :
 :
@@ -1483,12 +1474,6 @@ RefPtr
 LockManager
 >
 mLocks
-;
-RefPtr
-<
-NavigatorLogin
->
-mLogin
 ;
 RefPtr
 <

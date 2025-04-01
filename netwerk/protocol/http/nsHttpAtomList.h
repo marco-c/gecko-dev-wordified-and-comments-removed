@@ -639,15 +639,6 @@ Cookie
 )
 HTTP_ATOM
 (
-Set_Login
-"
-Set
--
-Login
-"
-)
-HTTP_ATOM
-(
 Status_URI
 "
 Status
