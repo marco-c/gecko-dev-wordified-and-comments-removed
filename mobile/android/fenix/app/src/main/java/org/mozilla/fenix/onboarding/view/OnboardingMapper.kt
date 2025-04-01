@@ -1074,9 +1074,6 @@ bodyLineOneLinkText
 bodyTwoText
 =
 bodyLineTwoText
-newLayout
-=
-newLayout
 )
 private
 fun
