@@ -16340,6 +16340,13 @@ fixtures
 generated
 tools
 /
+types
+/
+tspaths
+.
+json
+tools
+/
 browsertime
 /
 package
