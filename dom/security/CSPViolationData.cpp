@@ -239,6 +239,7 @@ aElement
 }
 mSample
 {
+(
 BlockedContentSourceOrUnknown
 (
 )
@@ -248,6 +249,18 @@ BlockedContentSource
 :
 :
 TrustedTypesSink
+|
+|
+BlockedContentSourceOrUnknown
+(
+)
+=
+=
+BlockedContentSource
+:
+:
+TrustedTypesPolicy
+)
 ?
 nsString
 (
