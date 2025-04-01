@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ar
 {
 collations
@@ -104,7 +97,7 @@ Arab
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -2351,7 +2344,7 @@ u0652
 Version
 {
 "
-46
+47
 "
 }
 }

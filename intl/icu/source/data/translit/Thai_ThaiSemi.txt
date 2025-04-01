@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -90,7 +83,7 @@ thai
 [
 [
 :
-thai
+Thai
 :
 ]
 -

@@ -75,17 +75,6 @@ BuddhistCalendar
 source
 )
 ;
-BuddhistCalendar
-&
-operator
-=
-(
-const
-BuddhistCalendar
-&
-right
-)
-;
 virtual
 BuddhistCalendar
 *

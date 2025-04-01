@@ -904,6 +904,11 @@ toUSet
 )
 ;
 }
+#
+endif
+#
+ifndef
+U_HIDE_DRAFT_API
 inline
 U_HEADER_NESTED_NAMESPACE
 :

@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 or
 {
 collations
@@ -100,7 +93,7 @@ Sinh
 Version
 {
 "
-46
+47
 "
 }
 }

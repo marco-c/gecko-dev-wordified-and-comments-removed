@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 eo
 {
 collations
@@ -112,7 +105,7 @@ U
 Version
 {
 "
-46
+47
 "
 }
 }

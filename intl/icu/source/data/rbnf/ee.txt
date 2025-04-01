@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ee
 {
 RBNFRules

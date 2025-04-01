@@ -1621,13 +1621,13 @@ dstOffset
 )
 ;
 }
-int
+int32_t
 year
+mid
+;
+int8_t
 month0
 dom
-dow
-doy
-mid
 ;
 Grego
 :
@@ -1638,8 +1638,6 @@ localMillis
 year
 month0
 dom
-dow
-doy
 mid
 ec
 )

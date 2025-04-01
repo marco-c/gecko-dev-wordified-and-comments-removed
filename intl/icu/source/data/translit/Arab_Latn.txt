@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -209,9 +202,9 @@ Arabic
 ]
 [
 :
-block
+Block
 =
-ARABIC
+Arabic
 :
 ]
 [

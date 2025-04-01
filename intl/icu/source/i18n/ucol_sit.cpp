@@ -2498,7 +2498,7 @@ s
 .
 locale
 .
-data
+toStringPiece
 (
 )
 *
@@ -2840,7 +2840,7 @@ s
 .
 locale
 .
-data
+toStringPiece
 (
 )
 *

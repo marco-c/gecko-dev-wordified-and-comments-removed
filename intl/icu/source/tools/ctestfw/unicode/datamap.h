@@ -58,7 +58,6 @@ const
 public
 :
 virtual
-const
 UnicodeString
 getString
 (
@@ -302,7 +301,6 @@ status
 const
 ;
 virtual
-const
 UnicodeString
 getString
 (

@@ -706,6 +706,11 @@ singleUnits
 CharString
 identifier
 ;
+uint64_t
+constantDenominator
+=
+0
+;
 friend
 class
 number

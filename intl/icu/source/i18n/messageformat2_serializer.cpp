@@ -10,6 +10,10 @@ h
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -1167,7 +1171,7 @@ hasPattern
 )
 ;
 const
-Expression
+VariableName
 *
 selectors
 =
@@ -1202,6 +1206,15 @@ i
 +
 )
 {
+whitespace
+(
+)
+;
+emit
+(
+DOLLAR
+)
+;
 emit
 (
 selectors
@@ -1238,6 +1251,10 @@ variants
 dataModel
 .
 getVariantsInternal
+(
+)
+;
+whitespace
 (
 )
 ;
@@ -1336,6 +1353,8 @@ serializeVariants
 }
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

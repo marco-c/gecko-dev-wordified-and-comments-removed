@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ko_CN
 {
 calendar
@@ -171,10 +164,10 @@ HHmmss
 HHmm
 "
 "
-yMEEEEd
+yMMMMEEEEd
 "
 "
-yMd
+yMMMMd
 "
 "
 yMd

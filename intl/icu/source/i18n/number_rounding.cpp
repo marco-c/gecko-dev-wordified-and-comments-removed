@@ -1446,6 +1446,8 @@ maxFrac
 {
 FractionSignificantSettings
 settings
+{
+}
 ;
 settings
 .
@@ -1487,6 +1489,8 @@ fMaxSig
 ;
 PrecisionUnion
 union_
+{
+}
 ;
 union_
 .
@@ -1515,6 +1519,8 @@ maxSig
 {
 FractionSignificantSettings
 settings
+{
+}
 ;
 settings
 .
@@ -1556,6 +1562,8 @@ maxSig
 ;
 PrecisionUnion
 union_
+{
+}
 ;
 union_
 .
@@ -1637,6 +1645,8 @@ retain
 ;
 PrecisionUnion
 union_
+{
+}
 ;
 union_
 .
@@ -1665,6 +1675,8 @@ magnitude
 {
 IncrementSettings
 settings
+{
+}
 ;
 settings
 .
@@ -1693,6 +1705,8 @@ magnitude
 ;
 PrecisionUnion
 union_
+{
+}
 ;
 union_
 .
@@ -1753,6 +1767,8 @@ usage
 {
 PrecisionUnion
 union_
+{
+}
 ;
 union_
 .

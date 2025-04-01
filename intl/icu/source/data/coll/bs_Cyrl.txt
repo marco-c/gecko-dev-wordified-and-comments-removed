@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 bs_Cyrl
 {
 collations
@@ -70,7 +63,7 @@ sr
 Version
 {
 "
-46
+47
 "
 }
 }

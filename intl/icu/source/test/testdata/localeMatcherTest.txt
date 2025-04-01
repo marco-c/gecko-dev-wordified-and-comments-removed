@@ -2815,12 +2815,12 @@ nl
 af
 >
 >
-nl
+mul
 #
 af
 =
 >
-nl
+mul
 supported
 =
 mul
@@ -2846,7 +2846,7 @@ nl
 af
 >
 >
-nl
+mul
 supported
 =
 mul

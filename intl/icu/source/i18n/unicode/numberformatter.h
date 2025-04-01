@@ -3701,9 +3701,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnlocalizedNumberFormatter
 withoutLocale
 (
@@ -3718,8 +3715,6 @@ withoutLocale
 &
 &
 ;
-#
-endif
 LocalizedNumberFormatter
 (
 )

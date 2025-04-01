@@ -109,9 +109,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 void
 setMaximumIntegerDigits
 (
@@ -122,8 +119,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 void
 setMinimumIntegerDigits
 (

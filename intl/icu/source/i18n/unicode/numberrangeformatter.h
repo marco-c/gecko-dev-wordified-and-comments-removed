@@ -700,9 +700,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnlocalizedNumberRangeFormatter
 withoutLocale
 (
@@ -717,8 +714,6 @@ withoutLocale
 &
 &
 ;
-#
-endif
 LocalizedNumberRangeFormatter
 (
 )

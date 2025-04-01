@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 my
 {
 collations
@@ -3039,7 +3032,7 @@ Mymr
 Version
 {
 "
-46
+47
 "
 }
 }

@@ -496,12 +496,9 @@ if
 (
 description
 .
-length
+isEmpty
 (
 )
-=
-=
-0
 )
 {
 status
@@ -617,12 +614,9 @@ if
 (
 description
 .
-length
+isEmpty
 (
 )
-=
-=
-0
 )
 {
 status

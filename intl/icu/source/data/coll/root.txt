@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 root
 {
 UCARules
@@ -75,7 +68,7 @@ txt
 Version
 {
 "
-46
+47
 "
 }
 collations
@@ -3509,7 +3502,7 @@ before
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -5782,7 +5775,7 @@ ignorable
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -7080,7 +7073,7 @@ uFDD0
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -7551,7 +7544,7 @@ ignorable
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -7565,7 +7558,7 @@ Sequence
 Version
 {
 "
-46
+47
 "
 }
 }

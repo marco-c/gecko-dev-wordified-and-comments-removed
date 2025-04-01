@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 yi
 {
 collations
@@ -132,7 +125,7 @@ before
 Version
 {
 "
-46
+47
 "
 }
 }

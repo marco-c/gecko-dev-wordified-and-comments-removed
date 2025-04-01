@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 de_AT
 {
 collations
@@ -96,7 +89,7 @@ ss
 Version
 {
 "
-46
+47
 "
 }
 }

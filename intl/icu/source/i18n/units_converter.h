@@ -241,6 +241,14 @@ rhs
 )
 ;
 void
+divideBy
+(
+const
+uint64_t
+constant
+)
+;
+void
 power
 (
 int32_t

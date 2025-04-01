@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 mn
 {
 collations
@@ -71,7 +64,7 @@ Mong
 Version
 {
 "
-46
+47
 "
 }
 }

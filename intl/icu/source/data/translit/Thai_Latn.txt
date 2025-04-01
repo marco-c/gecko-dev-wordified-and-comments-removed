@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -66,7 +59,7 @@ CLDR
 [
 [
 :
-thai
+Thai
 :
 ]
 -

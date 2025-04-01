@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 bo
 {
 collations
@@ -778,7 +771,7 @@ before
 Version
 {
 "
-46
+47
 "
 }
 }

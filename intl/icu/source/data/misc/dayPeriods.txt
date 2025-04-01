@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 dayPeriods
 :
 table
@@ -8347,7 +8340,7 @@ before
 from
 {
 "
-06
+00
 :
 00
 "
@@ -8358,7 +8351,7 @@ night1
 before
 {
 "
-06
+24
 :
 00
 "
@@ -16200,7 +16193,7 @@ before
 from
 {
 "
-06
+00
 :
 00
 "
@@ -16211,7 +16204,7 @@ night1
 before
 {
 "
-06
+24
 :
 00
 "

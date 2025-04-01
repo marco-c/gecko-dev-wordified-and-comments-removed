@@ -1,4 +1,17 @@
 #
+DO
+NOT
+EDIT
+THIS
+FILE
+instead
+regenerate
+it
+using
+GenerateLocaleIDTestData
+.
+java
+#
 Test
 data
 for
@@ -9,7 +22,7 @@ canonicalization
 Copyright
 1991
 -
-2024
+2025
 Unicode
 Inc
 .
@@ -438,6 +451,9 @@ cmr
 cld
 ;
 syr
+cls
+;
+sa
 cmk
 ;
 xch
@@ -1034,7 +1050,7 @@ nbl
 nr
 nbx
 ;
-ekc
+gll
 ncp
 ;
 kdz
@@ -4123,6 +4139,9 @@ cmr_Adlm_AC_fonipa
 cld_Adlm_AC_fonipa
 ;
 syr_Adlm_AC_fonipa
+cls_Adlm_AC_fonipa
+;
+sa_Adlm_AC_fonipa
 cmk_Adlm_AC_fonipa
 ;
 xch_Adlm_AC_fonipa
@@ -4812,7 +4831,7 @@ nbl_Adlm_AC_fonipa
 nr_Adlm_AC_fonipa
 nbx_Adlm_AC_fonipa
 ;
-ekc_Adlm_AC_fonipa
+gll_Adlm_AC_fonipa
 ncp_Adlm_AC_fonipa
 ;
 kdz_Adlm_AC_fonipa

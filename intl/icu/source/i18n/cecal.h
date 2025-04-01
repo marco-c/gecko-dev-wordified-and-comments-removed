@@ -90,17 +90,6 @@ CECalendar
 (
 )
 ;
-CECalendar
-&
-operator
-=
-(
-const
-CECalendar
-&
-right
-)
-;
 protected
 :
 virtual

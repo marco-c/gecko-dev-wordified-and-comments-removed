@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -193,7 +186,7 @@ uFDD1
 [
 :
 ^
-script
+Script
 =
 Han
 :
@@ -202,7 +195,7 @@ Han
 (
 [
 :
-script
+Script
 =
 Han
 :

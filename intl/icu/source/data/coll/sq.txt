@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 sq
 {
 collations
@@ -249,7 +242,7 @@ ZH
 Version
 {
 "
-46
+47
 "
 }
 }

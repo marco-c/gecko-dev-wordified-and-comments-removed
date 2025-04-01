@@ -357,7 +357,6 @@ const
 ;
 #
 endif
-const
 Locale
 getLocale
 (

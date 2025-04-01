@@ -10,6 +10,10 @@ h
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -3869,7 +3873,7 @@ adoptInstead
 (
 copyArray
 <
-Expression
+VariableName
 >
 (
 other
@@ -3924,7 +3928,7 @@ Matcher
 :
 Matcher
 (
-Expression
+VariableName
 *
 ss
 int32_t
@@ -4050,7 +4054,7 @@ getAlias
 ;
 }
 const
-Expression
+VariableName
 *
 MFDataModel
 :
@@ -4422,7 +4426,7 @@ Builder
 :
 addSelector
 (
-Expression
+VariableName
 &
 &
 selector
@@ -4430,7 +4434,6 @@ UErrorCode
 &
 status
 )
-noexcept
 {
 THIS_ON_ERROR
 (
@@ -4457,7 +4460,7 @@ adoptElement
 (
 create
 <
-Expression
+VariableName
 >
 (
 std
@@ -4680,7 +4683,7 @@ body
 else
 {
 const
-Expression
+VariableName
 *
 otherSelectors
 =
@@ -4719,7 +4722,7 @@ numVariants
 (
 )
 ;
-Expression
+VariableName
 *
 copiedSelectors
 =
@@ -4931,13 +4934,13 @@ errorCode
 ;
 LocalArray
 <
-Expression
+VariableName
 >
 selectors
 (
 copyVectorToArray
 <
-Expression
+VariableName
 >
 (
 *
@@ -5209,6 +5212,8 @@ bindings
 }
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

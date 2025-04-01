@@ -549,6 +549,7 @@ name1
 name2
 )
 &
+&
 uhash_compareChars
 (
 path1

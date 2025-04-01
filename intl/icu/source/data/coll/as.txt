@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 as
 {
 collations
@@ -106,7 +99,7 @@ u200D
 Version
 {
 "
-46
+47
 "
 }
 }

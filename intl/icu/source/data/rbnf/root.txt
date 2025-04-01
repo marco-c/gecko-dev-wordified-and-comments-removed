@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 root
 {
 RBNFRules
@@ -7270,6 +7263,9 @@ default
 #
 #
 0
+.
+#
+#
 =
 ;
 "
@@ -7443,7 +7439,7 @@ u2212
 Version
 {
 "
-46
+47
 "
 }
 }

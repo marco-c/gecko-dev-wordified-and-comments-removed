@@ -9,7 +9,7 @@ preferences
 Copyright
 1991
 -
-2024
+2025
 Unicode
 Inc
 .

@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 wo
 {
 collations
@@ -110,7 +103,7 @@ O
 Version
 {
 "
-46
+47
 "
 }
 }

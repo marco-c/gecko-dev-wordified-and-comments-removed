@@ -10,6 +10,10 @@ h
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -1817,6 +1821,8 @@ status
 }
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

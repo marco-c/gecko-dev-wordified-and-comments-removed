@@ -384,7 +384,7 @@ int32_t
 length
 UChar32
 c
-UBool
+int8_t
 strict
 )
 {
@@ -1285,7 +1285,7 @@ int32_t
 pi
 UChar32
 c
-UBool
+int8_t
 strict
 )
 {

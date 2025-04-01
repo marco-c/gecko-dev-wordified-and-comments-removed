@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 mk
 {
 collations
@@ -91,7 +84,7 @@ suppressContractions
 Version
 {
 "
-46
+47
 "
 }
 }

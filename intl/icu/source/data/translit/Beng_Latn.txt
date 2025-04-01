@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -66,9 +59,9 @@ CLDR
 [
 [
 :
-script
+Script
 =
-bengali
+Bengali
 :
 ]
 [

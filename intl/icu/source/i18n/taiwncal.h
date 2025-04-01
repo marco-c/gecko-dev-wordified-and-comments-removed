@@ -80,17 +80,6 @@ TaiwanCalendar
 source
 )
 ;
-TaiwanCalendar
-&
-operator
-=
-(
-const
-TaiwanCalendar
-&
-right
-)
-;
 virtual
 TaiwanCalendar
 *

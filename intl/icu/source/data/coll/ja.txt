@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ja
 {
 collations
@@ -3754,7 +3747,7 @@ z
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -3794,7 +3787,7 @@ regular
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -3834,7 +3827,7 @@ kana
 Version
 {
 "
-46
+47
 "
 }
 }

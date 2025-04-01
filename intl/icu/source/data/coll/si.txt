@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 si
 {
 collations
@@ -95,7 +88,7 @@ Mlym
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -137,7 +130,7 @@ Mlym
 Version
 {
 "
-46
+47
 "
 }
 }

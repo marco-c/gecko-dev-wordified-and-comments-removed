@@ -297,15 +297,6 @@ Word_Break
 =
 MidLetter
 }
--
-[
-\
-:
-\
-uFE55
-\
-uFF1A
-]
 ]
 ;
 MidNum

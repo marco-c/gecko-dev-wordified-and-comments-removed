@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -461,7 +454,7 @@ Pinyin
 )
 [
 :
-letter
+Letter
 :
 ]
 {

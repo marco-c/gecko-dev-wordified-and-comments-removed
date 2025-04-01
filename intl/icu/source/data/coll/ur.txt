@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ur
 {
 collations
@@ -235,7 +228,7 @@ u0614
 Version
 {
 "
-46
+47
 "
 }
 }

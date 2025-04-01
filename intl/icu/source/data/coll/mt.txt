@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 mt
 {
 collations
@@ -144,7 +137,7 @@ Z
 Version
 {
 "
-46
+47
 "
 }
 }

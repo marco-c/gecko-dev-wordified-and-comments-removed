@@ -10922,7 +10922,7 @@ ulocimp_getSubtags
 (
 loc
 .
-data
+toStringPiece
 (
 )
 nullptr

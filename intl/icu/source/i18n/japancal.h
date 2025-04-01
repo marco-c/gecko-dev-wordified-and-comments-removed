@@ -85,17 +85,6 @@ JapaneseCalendar
 source
 )
 ;
-JapaneseCalendar
-&
-operator
-=
-(
-const
-JapaneseCalendar
-&
-right
-)
-;
 virtual
 JapaneseCalendar
 *

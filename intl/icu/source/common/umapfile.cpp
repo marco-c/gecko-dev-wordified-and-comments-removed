@@ -878,6 +878,15 @@ U_PLATFORM
 =
 =
 U_PF_IPHONE
+|
+|
+U_PLATFORM
+=
+=
+U_PF_ANDROID
+#
+ifdef
+POSIX_MADV_RANDOM
 posix_madvise
 (
 data
@@ -885,6 +894,8 @@ length
 POSIX_MADV_RANDOM
 )
 ;
+#
+endif
 #
 endif
 return

@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 en_CA
 {
 zoneStrings
@@ -921,6 +914,7 @@ Time
 lg
 {
 "
+American
 Samoa
 Time
 "
@@ -928,6 +922,7 @@ Time
 ls
 {
 "
+American
 Samoa
 Standard
 Time

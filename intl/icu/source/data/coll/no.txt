@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 no
 {
 collations
@@ -88,7 +81,7 @@ standard
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -207,7 +200,7 @@ AA
 Version
 {
 "
-46
+47
 "
 }
 }

@@ -5849,6 +5849,7 @@ precision
 +
 numDigits
 >
+=
 16
 )
 {

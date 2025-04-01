@@ -1541,7 +1541,7 @@ s2
 ;
 }
 U_CAPI
-int8_t
+int32_t
 U_EXPORT2
 uhash_compareScriptSet
 (
@@ -1618,13 +1618,7 @@ diff
 0
 )
 return
-static_cast
-<
-UBool
->
-(
 diff
-)
 ;
 int32_t
 i0
@@ -1693,9 +1687,6 @@ i1
 ;
 }
 return
-(
-int8_t
-)
 diff
 ;
 }

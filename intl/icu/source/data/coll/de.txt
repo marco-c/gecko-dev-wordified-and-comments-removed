@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 de
 {
 collations
@@ -91,7 +84,7 @@ UE
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -127,7 +120,7 @@ phonebk
 Version
 {
 "
-46
+47
 "
 }
 }

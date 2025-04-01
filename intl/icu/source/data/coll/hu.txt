@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 hu
 {
 collations
@@ -486,7 +479,7 @@ ZS
 Version
 {
 "
-46
+47
 "
 }
 }

@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ln
 {
 collations
@@ -345,7 +338,7 @@ TS
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -374,7 +367,7 @@ O
 Version
 {
 "
-46
+47
 "
 }
 }

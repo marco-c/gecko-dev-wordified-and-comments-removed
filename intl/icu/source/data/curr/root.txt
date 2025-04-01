@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 root
 {
 Currencies
@@ -834,7 +827,7 @@ other
 Version
 {
 "
-46
+47
 "
 }
 currencySpacing

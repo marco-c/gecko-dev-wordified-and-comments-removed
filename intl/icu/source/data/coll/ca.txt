@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ca
 {
 collations
@@ -88,7 +81,7 @@ L
 Version
 {
 "
-46
+47
 "
 }
 }

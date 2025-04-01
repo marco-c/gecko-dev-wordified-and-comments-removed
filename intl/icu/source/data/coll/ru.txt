@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ru
 {
 collations
@@ -70,7 +63,7 @@ Cyrl
 Version
 {
 "
-46
+47
 "
 }
 }

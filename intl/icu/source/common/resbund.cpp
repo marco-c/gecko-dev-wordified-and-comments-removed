@@ -1160,7 +1160,6 @@ getDefault
 )
 ;
 }
-const
 Locale
 ResourceBundle
 :

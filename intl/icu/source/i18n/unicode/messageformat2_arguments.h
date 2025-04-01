@@ -19,6 +19,10 @@ U_SHOW_CPLUSPLUS_API
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -116,7 +120,7 @@ namespace
 message2
 {
 class
-MessageContext
+MessageFormatter
 ;
 class
 U_I18N_API
@@ -312,6 +316,9 @@ Formattable
 getArgument
 (
 const
+MessageFormatter
+&
+const
 data_model
 :
 :
@@ -343,6 +350,8 @@ argsLen
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

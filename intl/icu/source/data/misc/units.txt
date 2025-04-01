@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 units
 :
 table
@@ -62,7 +55,7 @@ nofallback
 cldrVersion
 {
 "
-46
+47
 "
 }
 convertUnits

@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 hy
 {
 collations
@@ -76,7 +69,7 @@ Armn
 Version
 {
 "
-46
+47
 "
 }
 }

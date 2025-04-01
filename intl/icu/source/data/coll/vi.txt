@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 vi
 {
 collations
@@ -129,7 +122,7 @@ u
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -348,7 +341,7 @@ u
 Version
 {
 "
-46
+47
 "
 }
 }

@@ -112,10 +112,6 @@ into
 word_POSIX
 .
 txt
-and
-word_fi_sv
-.
-txt
 also
 .
 #
@@ -474,15 +470,6 @@ Word_Break
 =
 MidLetter
 }
--
-[
-\
-:
-\
-uFE55
-\
-uFF1A
-]
 ]
 ;
 MidNum

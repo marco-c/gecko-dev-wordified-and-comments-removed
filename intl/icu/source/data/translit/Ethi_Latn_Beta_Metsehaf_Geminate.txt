@@ -42,13 +42,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 #
 #
 File
@@ -327,7 +320,7 @@ Ethiopic
 -
 Latin
 /
-BetaMetsehaf
+Beta_Metsehaf
 ;
 #
 #

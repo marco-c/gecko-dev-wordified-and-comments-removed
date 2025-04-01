@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 hi
 {
 AuxExemplarCharacters
@@ -3869,6 +3862,7 @@ M
 y
 M
 /
+y
 "
 }
 y

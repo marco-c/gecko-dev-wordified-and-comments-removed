@@ -19,6 +19,10 @@ U_SHOW_CPLUSPLUS_API
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -4376,7 +4380,7 @@ MFDataModel
 ;
 Matcher
 (
-Expression
+VariableName
 *
 ss
 int32_t
@@ -4400,7 +4404,7 @@ false
 ;
 LocalArray
 <
-Expression
+VariableName
 >
 selectors
 ;
@@ -4569,13 +4573,12 @@ return
 }
 ;
 }
-const
 std
 :
 :
 vector
 <
-Expression
+VariableName
 >
 getSelectors
 (
@@ -4621,7 +4624,7 @@ body
 return
 toStdVector
 <
-Expression
+VariableName
 >
 (
 match
@@ -4915,7 +4918,7 @@ Builder
 &
 addSelector
 (
-Expression
+VariableName
 &
 &
 selector
@@ -4923,7 +4926,6 @@ UErrorCode
 &
 errorCode
 )
-noexcept
 ;
 Builder
 &
@@ -5091,7 +5093,7 @@ getLocalVariablesInternal
 const
 ;
 const
-Expression
+VariableName
 *
 getSelectorsInternal
 (
@@ -5207,6 +5209,8 @@ noexcept
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

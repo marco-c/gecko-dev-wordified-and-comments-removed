@@ -509,7 +509,7 @@ ext
 UCMTable
 *
 moveTarget
-UBool
+int8_t
 intersectBase
 )
 ;

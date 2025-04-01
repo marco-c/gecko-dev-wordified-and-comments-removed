@@ -45,13 +45,6 @@ to
 -
 icu
 /
-build
--
-icu
--
-data
-.
-xml
 ko
 {
 collations
@@ -924,7 +917,7 @@ search
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -1459,7 +1452,7 @@ u3149
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -4862,7 +4855,7 @@ optimize
 Version
 {
 "
-46
+47
 "
 }
 }
@@ -4895,7 +4888,7 @@ Hani
 Version
 {
 "
-46
+47
 "
 }
 }
