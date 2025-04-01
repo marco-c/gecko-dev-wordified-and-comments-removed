@@ -1178,8 +1178,8 @@ AI
 generated
 and
 may
-be
-wrong
+have
+mistakes
 .
 <
 a
