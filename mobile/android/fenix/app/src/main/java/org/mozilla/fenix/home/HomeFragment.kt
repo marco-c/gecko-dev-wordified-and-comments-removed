@@ -3090,6 +3090,14 @@ components
 core
 .
 store
+browsingModeManager
+=
+browsingModeManager
+navController
+=
+findNavController
+(
+)
 tabsUseCases
 =
 components
@@ -3107,11 +3115,6 @@ snackBarParentView
 binding
 .
 dynamicSnackbarContainer
-showUndoSnackbar
-=
-:
-:
-showUndoSnackbar
 viewLifecycleScope
 =
 viewLifecycleOwner
