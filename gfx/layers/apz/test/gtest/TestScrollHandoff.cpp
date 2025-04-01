@@ -2783,7 +2783,7 @@ endif
 TEST_F
 (
 APZScrollHandoffTesterMock
-PartialFlingHandoff
+DiagonalFlingNoHandoff
 )
 {
 SCOPED_GFX_PREF_FLOAT
@@ -2880,6 +2880,13 @@ child
 -
 >
 AssertStateIsFling
+(
+)
+;
+parent
+-
+>
+AssertStateIsReset
 (
 )
 ;
