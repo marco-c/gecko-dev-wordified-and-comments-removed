@@ -329,6 +329,12 @@ type
 icon
 ghost
 "
+tabindex
+=
+"
+-
+1
+"
 >
 <
 /
