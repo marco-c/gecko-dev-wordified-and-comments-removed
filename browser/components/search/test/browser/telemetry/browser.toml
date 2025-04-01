@@ -234,6 +234,13 @@ js
 ]
 [
 "
+browser_search_telemetry_app_provided_and_overridden
+.
+js
+"
+]
+[
+"
 browser_search_telemetry_categorization_experiment_info
 .
 js
