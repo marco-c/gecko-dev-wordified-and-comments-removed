@@ -2965,6 +2965,8 @@ spocs
 data
 .
 newtab_spocs
+.
+items
 )
 {
 /
@@ -3294,6 +3296,11 @@ row
 =
 {
 row
+}
+prefs
+=
+{
+prefs
 }
 /
 >
