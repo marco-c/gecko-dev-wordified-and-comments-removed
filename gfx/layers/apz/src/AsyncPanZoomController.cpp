@@ -28379,10 +28379,17 @@ HasStateBeenReset
 return
 ;
 }
+if
+(
+!
+mAnimation
+)
+{
 CancelAnimationAndGestureState
 (
 )
 ;
+}
 if
 (
 block
