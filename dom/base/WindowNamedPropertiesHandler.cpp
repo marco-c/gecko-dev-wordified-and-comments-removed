@@ -688,7 +688,7 @@ found
 document
 -
 >
-ResolveName
+ResolveNameForWindow
 (
 aCx
 str
@@ -1071,7 +1071,7 @@ AsHTMLDocument
 document
 -
 >
-GetSupportedNames
+GetSupportedNamesForWindow
 (
 names
 )
