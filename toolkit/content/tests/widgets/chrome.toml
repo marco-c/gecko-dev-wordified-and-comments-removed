@@ -201,6 +201,13 @@ html
 ]
 [
 "
+test_moz_box_link
+.
+html
+"
+]
+[
+"
 test_moz_button
 .
 html

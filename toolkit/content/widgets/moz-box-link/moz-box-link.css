@@ -56,11 +56,12 @@ MPL
 .
 *
 /
-button
+a
 {
-width
+text
+-
+decoration
 :
-100
-%
+initial
 ;
 }
