@@ -744,12 +744,6 @@ bar
 .
 *
 /
-Suppress
-(
-"
-MagicNumber
-"
-)
 Composable
 private
 fun
