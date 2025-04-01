@@ -92,10 +92,6 @@ dictionary
 PrivateAttributionAggregationService
 {
 required
-USVString
-url
-;
-required
 DOMString
 protocol
 ;
@@ -111,8 +107,9 @@ interface
 PrivateAttributionAggregationServices
 {
 readonly
-setlike
+maplike
 <
+USVString
 PrivateAttributionAggregationService
 >
 ;
