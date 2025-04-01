@@ -880,6 +880,10 @@ position
 -
 notification
 -
+move
+-
+right
+-
 subtitle
 "
 click
