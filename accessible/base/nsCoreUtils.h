@@ -750,6 +750,15 @@ Element
 aElement
 )
 ;
+static
+bool
+IsTrimmedWhitespaceBeforeHardLineBreak
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
 #
