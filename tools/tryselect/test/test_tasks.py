@@ -1251,6 +1251,7 @@ parametrize
 attr
 params
 disable_target_task_filter
+target_tasks_method
 expected
 "
     
@@ -1262,6 +1263,7 @@ target_task_set
 "
 None
 False
+None
 "
 target_task_set
 "
@@ -1281,15 +1283,18 @@ autoland
 "
 }
 False
+None
 "
 target_task_set
 "
 )
         
 (
+            
 "
 target_task_set
 "
+            
 {
 "
 project
@@ -1301,10 +1306,15 @@ mozilla
 central
 "
 }
+            
 False
+            
+None
+            
 "
 target_task_set
 "
+        
 )
         
 (
@@ -1313,10 +1323,27 @@ target_task_set
 "
 None
 True
+None
 "
 target_task_set
 -
 uncommon
+"
+)
+        
+(
+"
+target_task_set
+"
+None
+False
+"
+foo
+"
+"
+target_task_set
+-
+target_foo
 "
 )
         
@@ -1334,6 +1361,7 @@ pine
 "
 }
 False
+None
 "
 full_task_set
 -
@@ -1347,8 +1375,25 @@ full_task_set
 "
 None
 True
+None
 "
 full_task_set
+"
+)
+        
+(
+"
+full_task_set
+"
+None
+True
+"
+foo
+"
+"
+full_task_set
+-
+target_foo
 "
 )
     
@@ -1357,23 +1402,31 @@ full_task_set
 def
 test_cache_key
 (
+    
 attr
 params
 disable_target_task_filter
+target_tasks_method
 expected
 )
 :
     
 assert
+(
+        
 cache_key
 (
 attr
 params
 disable_target_task_filter
+target_tasks_method
 )
+        
 =
 =
 expected
+    
+)
 if
 __name__
 =
