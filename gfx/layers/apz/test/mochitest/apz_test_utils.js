@@ -2139,6 +2139,9 @@ dp_suppression
 "
 onload
 "
+"
+windowFeatures
+"
 ]
 ;
 for
@@ -2321,6 +2324,16 @@ open
 "
 "
 _blank
+"
+test
+.
+windowFeatures
+?
+test
+.
+windowFeatures
+:
+"
 "
 )
 ;
