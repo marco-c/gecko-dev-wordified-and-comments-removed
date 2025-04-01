@@ -199,6 +199,13 @@ js
 ]
 [
 "
+browser_autofill_address_level
+.
+js
+"
+]
+[
+"
 browser_autofill_address_select
 .
 js
