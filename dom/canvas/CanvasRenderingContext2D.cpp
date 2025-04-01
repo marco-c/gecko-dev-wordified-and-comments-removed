@@ -32506,8 +32506,11 @@ aSw
 {
 w
 =
+uint32_t
+(
 -
 aSw
+)
 ;
 aSx
 -
@@ -32531,8 +32534,11 @@ aSh
 {
 h
 =
+uint32_t
+(
 -
 aSh
+)
 ;
 aSy
 -
