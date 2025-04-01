@@ -50,7 +50,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;

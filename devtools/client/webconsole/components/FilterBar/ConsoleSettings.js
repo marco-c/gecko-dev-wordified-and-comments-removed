@@ -25,7 +25,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;
@@ -51,7 +51,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;

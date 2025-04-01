@@ -20157,4 +20157,7 @@ createElementExport
 as
 createElement
 Component
+PureComponent
+createRef
+cloneElement
 }
