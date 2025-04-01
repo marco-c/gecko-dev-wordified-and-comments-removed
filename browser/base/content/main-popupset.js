@@ -903,11 +903,6 @@ SidebarController
 .
 hide
 (
-{
-dismissPanel
-:
-false
-}
 )
 ;
 break

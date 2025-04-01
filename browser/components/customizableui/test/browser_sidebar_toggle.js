@@ -273,15 +273,6 @@ revamp
 false
 )
 ;
-info
-(
-sidebarRevampEnabled
-:
-{
-sidebarRevampEnabled
-}
-)
-;
 if
 (
 !
@@ -412,7 +403,7 @@ entries
 await
 SidebarController
 .
-toggle
+show
 (
 toolButton
 .
