@@ -50,18 +50,13 @@ mjs
 )
 ;
 const
-defaultTools
+toolsNameMap
 =
 {
 viewGenaiChatSidebar
 :
 "
 aichat
-"
-viewReviewCheckerSidebar
-:
-"
-reviewchecker
 "
 viewTabsSidebar
 :
@@ -77,6 +72,11 @@ viewBookmarksSidebar
 :
 "
 bookmarks
+"
+viewReviewCheckerSidebar
+:
+"
+reviewchecker
 "
 viewCPMSidebar
 :
@@ -1227,6 +1227,9 @@ Glean
 sidebarCustomize
 .
 panelToggle
+visible
+:
+false
 }
 )
 ;
@@ -6429,7 +6432,7 @@ commandID
 const
 toolID
 =
-defaultTools
+toolsNameMap
 [
 commandID
 ]
@@ -6587,7 +6590,7 @@ tools
 .
 has
 (
-defaultTools
+toolsNameMap
 [
 commandID
 ]
@@ -6613,7 +6616,7 @@ tool
 tool
 !
 =
-defaultTools
+toolsNameMap
 [
 commandID
 ]
@@ -6639,7 +6642,7 @@ tool
 !
 tool
 )
-defaultTools
+toolsNameMap
 [
 commandID
 ]
@@ -7469,7 +7472,7 @@ Object
 .
 keys
 (
-defaultTools
+toolsNameMap
 )
 .
 filter
@@ -7521,7 +7524,7 @@ split
 .
 includes
 (
-defaultTools
+toolsNameMap
 [
 commandID
 ]
@@ -10171,9 +10174,6 @@ main
 tools
 "
 "
-aichat
-syncedtabs
-history
 "
 (
 )

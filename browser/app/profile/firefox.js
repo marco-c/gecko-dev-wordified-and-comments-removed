@@ -14401,9 +14401,6 @@ main
 tools
 "
 "
-aichat
-syncedtabs
-history
 "
 )
 ;
