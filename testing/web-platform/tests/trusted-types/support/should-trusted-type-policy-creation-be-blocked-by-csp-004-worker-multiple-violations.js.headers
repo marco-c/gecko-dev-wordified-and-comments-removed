@@ -107,7 +107,9 @@ Policy
 trusted
 -
 types
+'
 none
+'
 Content
 -
 Security
@@ -121,4 +123,6 @@ Only
 trusted
 -
 types
+'
 none
+'
