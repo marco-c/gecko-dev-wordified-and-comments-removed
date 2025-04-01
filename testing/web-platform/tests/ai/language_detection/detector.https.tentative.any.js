@@ -10,9 +10,6 @@ t
 =
 >
 {
-const
-detector
-=
 await
 ai
 .
@@ -26,7 +23,9 @@ const
 availability
 =
 await
-detector
+ai
+.
+languageDetector
 .
 availability
 (
