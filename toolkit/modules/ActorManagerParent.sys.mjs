@@ -3423,6 +3423,13 @@ about
 translations
 "
 ]
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 enablePreference
 :
 "
