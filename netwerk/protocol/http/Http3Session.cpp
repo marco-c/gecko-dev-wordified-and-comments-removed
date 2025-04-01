@@ -1369,9 +1369,9 @@ kGREASE
 else
 if
 (
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 true

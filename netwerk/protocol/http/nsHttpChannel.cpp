@@ -7519,9 +7519,9 @@ NS_HTTP_DISALLOW_HTTP3
 |
 NS_HTTP_REFRESH_DNS
 )
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 )

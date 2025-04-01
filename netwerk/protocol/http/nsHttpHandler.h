@@ -1792,6 +1792,7 @@ OriginAttributes
 aOriginAttributes
 )
 ;
+static
 bool
 EchConfigEnabled
 (
@@ -1800,7 +1801,6 @@ aIsHttp3
 =
 false
 )
-const
 ;
 bool
 FallbackToOriginIfConfigsAreECHAndAllFailed

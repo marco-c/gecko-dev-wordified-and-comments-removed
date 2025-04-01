@@ -9942,9 +9942,9 @@ ent
 ;
 if
 (
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 ci
@@ -18508,9 +18508,9 @@ if
 aFetchHTTPSRR
 &
 &
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 aTrans
