@@ -12002,6 +12002,13 @@ false
 -
 name
 :
+CanonicalizeNaN
+gen_boilerplate
+:
+false
+-
+name
+:
 WasmNeg
 gen_boilerplate
 :
