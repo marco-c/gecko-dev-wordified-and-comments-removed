@@ -174,6 +174,15 @@ const
 wchar_t
 *
 aToBlock
+const
+wchar_t
+*
+aToWarn
+=
+L
+"
+warn
+"
 )
 ;
 MozAgentInfo
@@ -183,6 +192,10 @@ const
 wchar_t
 *
 aToBlock
+const
+wchar_t
+*
+aToWarn
 const
 nsString
 &
