@@ -2505,15 +2505,6 @@ type
 DisplayItemType
 :
 :
-TYPE_CANVAS_BACKGROUND_COLOR
-|
-|
-type
-=
-=
-DisplayItemType
-:
-:
 TYPE_SOLID_COLOR
 )
 {
