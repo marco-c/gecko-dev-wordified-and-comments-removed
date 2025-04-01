@@ -548,7 +548,9 @@ support
 page
 =
 "
-profiles
+profile
+-
+management
 "
 data
 -
