@@ -233,7 +233,7 @@ awesomebar
 .
 provider
 .
-DEFAULT_RECENT_SEARCH_SUGGESTION_LIMIT
+DEFAULT_SEARCH_TERMS_SUGGESTION_LIMIT
 import
 mozilla
 .
@@ -246,18 +246,6 @@ awesomebar
 provider
 .
 HistoryStorageSuggestionProvider
-import
-mozilla
-.
-components
-.
-feature
-.
-awesomebar
-.
-provider
-.
-RecentSearchSuggestionsProvider
 import
 mozilla
 .
@@ -2566,7 +2554,7 @@ maxNumberOfSuggestions
 :
 Int
 =
-DEFAULT_RECENT_SEARCH_SUGGESTION_LIMIT
+DEFAULT_SEARCH_TERMS_SUGGESTION_LIMIT
 )
 :
 AwesomeBar
@@ -2585,7 +2573,7 @@ searchEngine
 return
 null
 return
-RecentSearchSuggestionsProvider
+SearchTermSuggestionsProvider
 (
 historyStorage
 =
@@ -2634,6 +2622,9 @@ string
 .
 recent_searches_header
 )
+showSuggestionsOnlyWhenEmpty
+=
+true
 )
 }
 private
