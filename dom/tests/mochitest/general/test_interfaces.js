@@ -4853,9 +4853,6 @@ insecureContext
 :
 true
 }
-"
-NavigatorLogin
-"
 {
 name
 :
