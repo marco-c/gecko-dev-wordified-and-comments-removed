@@ -95,6 +95,13 @@ uint8_t
 aDestV
 int
 aDestStrideV
+const
+gfx
+:
+:
+IntSize
+&
+aDestSize
 )
 ;
 nsresult

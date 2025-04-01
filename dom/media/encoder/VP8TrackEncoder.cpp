@@ -3454,6 +3454,7 @@ stride
 [
 VPX_PLANE_V
 ]
+imgSize
 )
 ;
 if

@@ -1885,6 +1885,9 @@ buffer
 StrideV
 (
 )
+aFrame
+.
+mSize
 )
 ;
 if

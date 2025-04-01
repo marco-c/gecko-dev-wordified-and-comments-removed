@@ -232,6 +232,11 @@ TestGroupId
 cpp
 "
 "
+TestImageConversion
+.
+cpp
+"
+"
 TestIntervalSet
 .
 cpp

@@ -167,11 +167,6 @@ override
 ;
 #
 endif
-bool
-ScaleInputFrame
-(
-)
-;
 virtual
 RefPtr
 <
