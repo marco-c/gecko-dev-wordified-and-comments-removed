@@ -6010,7 +6010,7 @@ try
                     
 is_alive
 =
-self
+protocol
 .
 is_alive
 (
@@ -6297,22 +6297,6 @@ self
 cleanup_after_test
 =
 cleanup_after_test
-    
-def
-is_alive
-(
-self
-)
-:
-        
-return
-self
-.
-protocol
-.
-is_alive
-(
-)
     
 def
 on_environment_change
@@ -6898,22 +6882,6 @@ self
 implementation
 .
 reset
-(
-)
-    
-def
-is_alive
-(
-self
-)
-:
-        
-return
-self
-.
-protocol
-.
-is_alive
 (
 )
     
