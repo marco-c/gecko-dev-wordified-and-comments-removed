@@ -342,6 +342,7 @@ waitForLoadedScopes
 waitForPaused
 waitForResumed
 waitForSelectedSource
+waitForInlinePreviews
 waitForState
 waitUntil
 createLocation
