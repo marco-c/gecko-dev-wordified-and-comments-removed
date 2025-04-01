@@ -80,6 +80,8 @@ aa
 \
 0co
 \
+0cop
+\
 0csw
 \
 0cu
@@ -143,6 +145,8 @@ aa
 0hi
 \
 0hnj
+\
+0ht
 \
 0id
 \
