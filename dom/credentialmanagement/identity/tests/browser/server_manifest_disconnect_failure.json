@@ -12,7 +12,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
@@ -22,7 +22,7 @@ identity
 /
 tests
 /
-browser
+mochitest
 /
 server_accounts
 .
@@ -41,7 +41,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
@@ -51,7 +51,7 @@ identity
 /
 tests
 /
-browser
+mochitest
 /
 server_metadata
 .
@@ -70,7 +70,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
@@ -80,7 +80,7 @@ identity
 /
 tests
 /
-browser
+mochitest
 /
 server_idtoken
 .
@@ -99,7 +99,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
@@ -109,9 +109,9 @@ identity
 /
 tests
 /
-browser
+mochitest
 /
-server_disconnect
+server_disconnect_intentionally_missing
 .
 json
 "
