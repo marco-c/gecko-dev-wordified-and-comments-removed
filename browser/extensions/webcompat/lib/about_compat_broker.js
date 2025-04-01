@@ -615,9 +615,3 @@ undefined
 ;
 }
 }
-module
-.
-exports
-=
-AboutCompatBroker
-;

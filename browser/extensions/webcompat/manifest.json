@@ -609,13 +609,6 @@ scripts
 "
 lib
 /
-module_shim
-.
-js
-"
-"
-lib
-/
 messaging_helper
 .
 js

@@ -1973,9 +1973,3 @@ registration
 ;
 }
 }
-module
-.
-exports
-=
-Interventions
-;

@@ -180,7 +180,7 @@ close
 ;
 }
 ;
-const
+var
 CUSTOM_FUNCTIONS
 =
 {
@@ -546,10 +546,4 @@ listener
 }
 }
 }
-;
-module
-.
-exports
-=
-CUSTOM_FUNCTIONS
 ;

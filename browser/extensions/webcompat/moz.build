@@ -2756,13 +2756,6 @@ js
 "
 lib
 /
-module_shim
-.
-js
-"
-"
-lib
-/
 requestStorageAccess_helper
 .
 js
