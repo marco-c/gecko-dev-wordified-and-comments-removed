@@ -2109,7 +2109,11 @@ VMFunctionDataHelper
 decltype
 (
 &
+(
+:
+:
 fp
+)
 )
 >
 (
@@ -2154,6 +2158,8 @@ void
 *
 )
 (
+:
+:
 fp
 )
 static
