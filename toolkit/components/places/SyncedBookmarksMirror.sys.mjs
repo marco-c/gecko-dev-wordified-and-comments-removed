@@ -989,7 +989,7 @@ state
 *
 param
 {
-String
+string
 }
 name
 A
@@ -1022,7 +1022,7 @@ recorded
 *
 param
 {
-Number
+number
 }
 [
 took
@@ -1141,7 +1141,7 @@ telemetry
 *
 param
 {
-String
+string
 }
 name
 The
@@ -1151,7 +1151,7 @@ name
 *
 param
 {
-Number
+number
 }
 took
 The
@@ -1236,7 +1236,7 @@ count
 *
 param
 {
-String
+string
 }
 name
 The
@@ -1246,7 +1246,7 @@ name
 *
 param
 {
-Number
+number
 }
 took
 The
@@ -1258,7 +1258,7 @@ milliseconds
 *
 param
 {
-Number
+number
 }
 count
 The
@@ -1357,9 +1357,9 @@ more
 details
 .
 *
-return
+returns
 {
-Object
+object
 }
 A
 stringifiable
@@ -2022,7 +2022,7 @@ failure
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2211,7 +2211,7 @@ for
 testing
 .
 *
-return
+returns
 {
 SyncedBookmarksMirror
 }
@@ -2472,9 +2472,9 @@ time
 .
 *
 *
-return
+returns
 {
-Number
+number
 }
 *
 The
@@ -2679,9 +2679,9 @@ record
 *
 param
 {
-Number
+number
 |
-String
+string
 }
 lastModifiedSeconds
 *
@@ -2808,9 +2808,9 @@ getSyncId
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 *
 The
@@ -2985,7 +2985,7 @@ mismatches
 *
 param
 {
-String
+string
 }
 newSyncId
 *
@@ -3216,7 +3216,7 @@ mirror
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -3742,7 +3742,7 @@ details
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -3760,7 +3760,7 @@ seconds
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -3778,7 +3778,7 @@ seconds
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -3874,12 +3874,12 @@ is
 finalized
 .
 *
-return
+returns
 {
 Object
 .
 <
-String
+string
 BookmarkChangeRecord
 >
 }
@@ -5023,9 +5023,9 @@ tree
 .
 *
 *
-return
+returns
 {
-String
+string
 [
 ]
 }
@@ -7098,9 +7098,9 @@ is
 aborted
 .
 *
-return
+returns
 {
-Object
+object
 }
 *
 A
@@ -8456,7 +8456,7 @@ needed
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -9043,7 +9043,7 @@ connection
 *
 param
 {
-String
+string
 }
 path
 *
@@ -9251,7 +9251,7 @@ connection
 *
 param
 {
-Number
+number
 }
 currentSchemaVersion
 *
@@ -10258,7 +10258,6 @@ just
 not
 applied
 .
-*
 *
 *
 param
@@ -12731,7 +12730,7 @@ clock
 *
 param
 {
-String
+string
 }
 name
 *
@@ -12785,7 +12784,7 @@ measured
 time
 .
 *
-return
+returns
 The
 return
 value
@@ -16007,7 +16006,7 @@ AbortSignal
 }
 signal
 *
-return
+returns
 {
 AbortSignal
 }

@@ -478,6 +478,7 @@ changed
 notification
 .
 *
+*
 see
 PlacesObservers
 *
@@ -993,7 +994,7 @@ root
 *
 param
 {
-String
+string
 }
 guid
 The
@@ -1008,7 +1009,7 @@ for
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -1150,7 +1151,7 @@ user
 *
 param
 {
-Object
+object
 }
 info
 An
@@ -1164,7 +1165,7 @@ item
 *
 returns
 {
-String
+string
 }
 The
 correct
@@ -1470,7 +1471,7 @@ item
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -2355,7 +2356,7 @@ overwritten
 *
 param
 {
-Object
+object
 }
 tree
 *
@@ -2372,7 +2373,7 @@ insert
 *
 param
 {
-Object
+object
 }
 options
 [
@@ -2456,7 +2457,7 @@ code
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -4554,7 +4555,7 @@ above
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -6440,7 +6441,7 @@ move
 *
 param
 {
-String
+string
 }
 parentGuid
 *
@@ -6510,7 +6511,7 @@ change
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -8070,7 +8071,7 @@ removed
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -8141,7 +8142,7 @@ SOURCE_DEFAULT
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -8763,7 +8764,7 @@ removed
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -8804,7 +8805,7 @@ SOURCE_DEFAULT
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -9065,7 +9066,7 @@ return
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -9654,7 +9655,7 @@ notifications
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -11091,7 +11092,7 @@ complete
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -11201,7 +11202,8 @@ sorted
 alphabetically
 .
 *
-return
+*
+returns
 {
 Promise
 }
@@ -11507,7 +11509,7 @@ eachother
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -11571,7 +11573,7 @@ SOURCE_DEFAULT
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -12172,7 +12174,7 @@ nsIURI
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -12523,7 +12525,7 @@ transaction
 *
 param
 {
-Object
+object
 }
 db
 The
@@ -12536,7 +12538,7 @@ connection
 *
 param
 {
-Object
+object
 }
 info
 A
@@ -12551,7 +12553,7 @@ properties
 *
 param
 {
-Object
+object
 }
 item
 A
@@ -12583,7 +12585,7 @@ parent
 *
 param
 {
-Object
+object
 }
 newParent
 The
@@ -14750,7 +14752,7 @@ database
 *
 param
 {
-Object
+object
 }
 item
 The
@@ -15451,6 +15453,7 @@ fetch
 implementation
 .
 *
+*
 param
 {
 object
@@ -15539,7 +15542,6 @@ throw
 an
 exception
 .
-*
 *
 /
 async
@@ -18758,7 +18760,7 @@ to
 merge
 .
 *
-return
+returns
 a
 new
 object
@@ -18863,7 +18865,7 @@ bookmark
 object
 .
 *
-return
+returns
 a
 cleaned
 up
@@ -19051,7 +19053,7 @@ objects
 *
 param
 {
-Boolean
+boolean
 }
 ignoreInvalidURLs
 *
@@ -19072,7 +19074,7 @@ or
 throw
 .
 *
-return
+returns
 an
 array
 of
@@ -19709,7 +19711,7 @@ folders
 *
 param
 {
-Object
+object
 }
 db
 *
@@ -19735,7 +19737,7 @@ folder
 guids
 .
 *
-return
+returns
 {
 Array
 }
@@ -20878,7 +20880,7 @@ be
 used
 .
 *
-return
+returns
 {
 Promise
 }
@@ -21171,7 +21173,7 @@ item
 GUIDs
 .
 *
-return
+returns
 {
 Promise
 }

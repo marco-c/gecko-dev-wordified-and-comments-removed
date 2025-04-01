@@ -1558,6 +1558,7 @@ previews
 folder
 .
 *
+*
 returns
 {
 string
@@ -1625,6 +1626,7 @@ the
 file
 exists
 .
+*
 *
 param
 {
@@ -1707,6 +1709,7 @@ given
 hash
 .
 *
+*
 param
 {
 string
@@ -1780,6 +1783,7 @@ the
 given
 url
 .
+*
 *
 param
 {
@@ -1959,6 +1963,7 @@ encoded
 using
 WebP
 .
+*
 *
 param
 {
@@ -2506,6 +2511,7 @@ periodic
 maintenance
 .
 *
+*
 returns
 {
 boolean
@@ -2761,6 +2767,7 @@ is
 removed
 .
 *
+*
 param
 {
 string
@@ -2820,6 +2827,7 @@ timeout
 between
 chunks
 .
+*
 *
 param
 {

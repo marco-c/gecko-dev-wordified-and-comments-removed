@@ -1104,7 +1104,7 @@ validate
 function
 .
 *
-return
+returns
 the
 input
 value
@@ -3203,7 +3203,7 @@ root
 *
 param
 {
-String
+string
 }
 guid
 The
@@ -3218,7 +3218,7 @@ for
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -3313,7 +3313,7 @@ guid
 String
 )
 *
-return
+returns
 (
 Boolean
 )
@@ -3383,7 +3383,7 @@ guidPrefix
 String
 )
 *
-return
+returns
 (
 Boolean
 )
@@ -3479,7 +3479,7 @@ prefix
 String
 )
 *
-return
+returns
 (
 String
 )
@@ -3542,7 +3542,7 @@ to
 convert
 .
 *
-return
+returns
 nsIURI
 for
 the
@@ -3623,7 +3623,7 @@ to
 convert
 .
 *
-return
+returns
 microseconds
 from
 the
@@ -3710,7 +3710,7 @@ the
 epoch
 .
 *
-return
+returns
 a
 Date
 object
@@ -3778,6 +3778,7 @@ a
 nsISupportsString
 wrapper
 .
+*
 *
 param
 aString
@@ -4577,6 +4578,7 @@ s
 ancestors
 .
 *
+*
 param
 aNode
 *
@@ -4822,7 +4824,7 @@ property
 .
 *
 *
-return
+returns
 a
 validated
 and
@@ -5542,6 +5544,7 @@ host
 container
 .
 *
+*
 param
 aNode
 *
@@ -5624,6 +5627,7 @@ a
 day
 container
 .
+*
 *
 param
 node
@@ -5727,6 +5731,7 @@ a
 tag
 container
 .
+*
 *
 param
 aNode
@@ -5921,6 +5926,7 @@ a
 container
 .
 *
+*
 param
 aNode
 *
@@ -5997,6 +6003,7 @@ history
 related
 container
 .
+*
 *
 param
 node
@@ -6157,7 +6164,7 @@ result
 node
 .
 *
-return
+returns
 the
 concrete
 item
@@ -6258,7 +6265,7 @@ host
 for
 .
 *
-return
+returns
 the
 reversed
 host
@@ -6547,7 +6554,7 @@ to
 serialize
 as
 *
-return
+returns
 A
 string
 serialization
@@ -7401,6 +7408,7 @@ Drag
 Session
 .
 *
+*
 param
 blob
 *
@@ -8046,7 +8054,7 @@ pageInfo
 PageInfo
 )
 *
-return
+returns
 (
 PageInfo
 )
@@ -8288,6 +8296,7 @@ of
 a
 folder
 .
+*
 *
 param
 aFolderGuid
@@ -8564,7 +8573,7 @@ root
 *
 param
 {
-String
+string
 }
 guid
 The
@@ -8579,7 +8588,7 @@ for
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -8674,6 +8683,7 @@ and
 *
 expandQueries
 .
+*
 *
 param
 aNode
@@ -9032,6 +9042,7 @@ length
 )
 .
 *
+*
 param
 aNode
 *
@@ -9265,6 +9276,7 @@ uris
 use
 hasChildURIs
 .
+*
 *
 param
 aNode
@@ -9638,6 +9650,7 @@ like
 the
 urlbar
 .
+*
 *
 see
 promiseDBConnection
@@ -10259,7 +10272,7 @@ target
 image
 size
 *
-return
+returns
 The
 URL
 with
@@ -10590,7 +10603,7 @@ complete
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -12678,6 +12691,7 @@ IN
 clause
 .
 *
+*
 param
 {
 Array
@@ -12800,6 +12814,7 @@ return
 the
 hash
 .
+*
 *
 param
 {
@@ -13022,6 +13037,7 @@ return
 the
 hash
 .
+*
 *
 param
 {
@@ -13448,7 +13464,7 @@ URL
 object
 .
 *
-return
+returns
 {
 Promise
 }
@@ -13680,7 +13696,7 @@ to
 insert
 .
 *
-return
+returns
 {
 Promise
 }
@@ -15377,7 +15393,7 @@ key
 *
 param
 {
-String
+string
 }
 key
 *
@@ -15391,9 +15407,9 @@ up
 *
 param
 {
-String
+string
 |
-Object
+object
 |
 Array
 }
@@ -15510,7 +15526,7 @@ key
 *
 param
 {
-String
+string
 }
 key
 *
@@ -16711,7 +16727,7 @@ found
 entry
 .
 *
-return
+returns
 {
 Promise
 }
@@ -18052,7 +18068,7 @@ to
 remove
 .
 *
-return
+returns
 {
 Promise
 }
@@ -18388,7 +18404,7 @@ bookmark
 observers
 .
 *
-return
+returns
 {
 Promise
 }
@@ -18946,7 +18962,7 @@ orphaned
 keywords
 .
 *
-return
+returns
 {
 Promise
 }
@@ -19388,7 +19404,7 @@ URLs
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -19497,7 +19513,7 @@ call
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -19605,9 +19621,9 @@ function
 .
 *
 *
-return
+returns
 {
-Boolean
+boolean
 }
 Whether
 the

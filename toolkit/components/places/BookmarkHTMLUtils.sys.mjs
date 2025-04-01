@@ -1618,7 +1618,7 @@ created
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5411,7 +5411,7 @@ url
 *
 param
 {
-String
+string
 }
 href
 The
@@ -7118,7 +7118,7 @@ database
 *
 param
 {
-Object
+object
 }
 node
 The
@@ -7347,7 +7347,7 @@ database
 *
 param
 {
-Object
+object
 }
 nodeTree
 The
@@ -7413,7 +7413,7 @@ URL
 *
 param
 {
-String
+string
 }
 href
 The
@@ -7424,7 +7424,7 @@ data
 from
 .
 *
-return
+returns
 {
 Promise
 }

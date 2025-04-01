@@ -727,7 +727,7 @@ reassignment
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -858,7 +858,7 @@ sync
 ID
 .
 *
-return
+returns
 {
 Promise
 }
@@ -1205,7 +1205,7 @@ data
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1276,7 +1276,7 @@ visits
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1345,7 +1345,7 @@ visit
 date
 .
 *
-return
+returns
 {
 Date
 }
@@ -1421,7 +1421,7 @@ url
 *
 returns
 {
-Number
+number
 }
 The
 frecency
@@ -2148,7 +2148,7 @@ uri
 *
 returns
 {
-String
+string
 }
 The
 guid
@@ -2272,7 +2272,7 @@ guid
 *
 returns
 {
-Object
+object
 }
 Object
 with
@@ -3393,7 +3393,7 @@ restore
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -3614,7 +3614,7 @@ sync
 ID
 .
 *
-return
+returns
 {
 Promise
 }
@@ -5492,7 +5492,7 @@ records
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5816,7 +5816,7 @@ sync
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5935,7 +5935,7 @@ by
 pullChanges
 .
 *
-return
+returns
 {
 Promise
 }
@@ -6031,7 +6031,7 @@ by
 pullChanges
 .
 *
-return
+returns
 {
 Promise
 }
@@ -7029,7 +7029,7 @@ data
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -7100,7 +7100,7 @@ info
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -8087,7 +8087,7 @@ counter
 increment
 .
 *
-return
+returns
 {
 Promise
 }
@@ -8615,7 +8615,7 @@ bookmark
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -11443,7 +11443,7 @@ requested
 GUIDs
 .
 *
-return
+returns
 {
 Promise
 }
@@ -12607,7 +12607,7 @@ items
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -12705,7 +12705,7 @@ tables
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -13041,6 +13041,7 @@ experience
 data
 loss
 *
+*
 param
 record
 :
@@ -13086,7 +13087,7 @@ ignore
 *
 returns
 {
-String
+string
 }
 json
 object

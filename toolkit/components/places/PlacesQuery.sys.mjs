@@ -2540,7 +2540,7 @@ The
 event
 .
 *
-return
+returns
 {
 HistoryVisit
 }

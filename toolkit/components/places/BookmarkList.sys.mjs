@@ -203,7 +203,7 @@ made
 *
 type
 {
-function
+Function
 }
 *
 /
@@ -326,7 +326,7 @@ track
 *
 param
 {
-function
+Function
 }
 [
 observer

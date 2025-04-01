@@ -811,7 +811,7 @@ using
 lz4
 compression
 *
-return
+returns
 {
 Promise
 }
@@ -1394,7 +1394,7 @@ string
 *
 param
 {
-String
+string
 }
 aString
 JSON
@@ -2003,7 +2003,7 @@ guid
 *
 param
 {
-Object
+object
 }
 aNode
 The
@@ -2119,7 +2119,7 @@ URI
 *
 param
 {
-String
+string
 }
 aQueryURL
 *
@@ -2134,7 +2134,7 @@ ids
 *
 param
 {
-Object
+object
 }
 aFolderIdMap
 *
@@ -2151,9 +2151,9 @@ folder
 GUIDs
 .
 *
-return
+returns
 {
-String
+string
 }
 the
 fixed
@@ -2454,7 +2454,7 @@ unchanged
 *
 param
 {
-Object
+object
 }
 A
 bookmark
@@ -2548,7 +2548,7 @@ lastModified
 *
 param
 {
-Object
+object
 }
 node
 A
@@ -2570,7 +2570,7 @@ as
 well
 .
 *
-return
+returns
 {
 Array
 }
@@ -3253,7 +3253,7 @@ database
 *
 param
 {
-Object
+object
 }
 node
 The
@@ -3482,7 +3482,7 @@ database
 *
 param
 {
-Object
+object
 }
 nodeTree
 The

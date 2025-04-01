@@ -101,6 +101,7 @@ following
 properties
 :
 *
+*
 -
 guid
 :
@@ -122,15 +123,9 @@ url
 :
 (
 URL
-)
-*
-or
-(
+|
 nsIURI
-)
-*
-or
-(
+|
 string
 )
 *
@@ -211,15 +206,9 @@ previewImageURL
 :
 (
 URL
-)
-*
-or
-(
+|
 nsIURI
-)
-*
-or
-(
+|
 string
 )
 *
@@ -452,15 +441,9 @@ referrer
 :
 (
 URL
-)
-*
-or
-(
+|
 nsIURI
-)
-*
-or
-(
+|
 string
 )
 *
@@ -502,6 +485,7 @@ URL
 values
 .
 *
+*
 See
 the
 documentation
@@ -525,8 +509,6 @@ for
 VisitInfo
 results
 .
-*
-*
 *
 *
 Each
@@ -554,6 +536,7 @@ and
 removeListener
 methods
 .
+*
 *
 see
 PlacesObservers
@@ -886,7 +869,7 @@ page
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -1259,7 +1242,7 @@ to
 find
 .
 *
-return
+returns
 (
 Promise
 )
@@ -1785,7 +1768,7 @@ TRANSITION_LINK
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -2172,7 +2155,7 @@ attempted
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -2532,7 +2515,6 @@ PlacesObservers
 .
 *
 *
-*
 param
 page
 :
@@ -2612,7 +2594,7 @@ found
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -3239,7 +3221,7 @@ populated
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -3688,7 +3670,6 @@ through
 PlacesObservers
 *
 *
-*
 param
 filter
 :
@@ -3848,7 +3829,7 @@ the
 page
 .
 *
-return
+returns
 (
 Promise
 )
@@ -4465,7 +4446,7 @@ the
 page
 .
 *
-return
+returns
 (
 Promise
 )
@@ -4701,7 +4682,7 @@ history
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -4762,7 +4743,7 @@ transition
 String
 )
 *
-return
+returns
 (
 Boolean
 )
@@ -5257,7 +5238,7 @@ values
 .
 *
 *
-return
+returns
 (
 Promise
 )
@@ -5813,7 +5794,7 @@ pageInfo
 PageInfo
 )
 *
-return
+returns
 (
 info
 )
@@ -6351,7 +6332,7 @@ frecency
 updated
 .
 *
-return
+returns
 (
 Promise
 )
@@ -6653,6 +6634,7 @@ unless
 referenced
 .
 *
+*
 param
 db
 :
@@ -6916,7 +6898,7 @@ value
 )
 .
 *
-return
+returns
 (
 Promise
 )
@@ -10594,7 +10576,7 @@ object
 .
 *
 *
-return
+returns
 (
 PageInfo
 )

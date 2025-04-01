@@ -5842,7 +5842,7 @@ intervalSeconds
 .
 *
 *
-return
+returns
 a
 REPEATING_SLACK
 nsITimer

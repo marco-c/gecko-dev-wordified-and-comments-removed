@@ -709,7 +709,7 @@ to
 check
 .
 *
-return
+returns
 {
 boolean
 }
@@ -742,7 +742,7 @@ keyword
 *
 *
 *
-return
+returns
 {
 boolean
 }
@@ -784,7 +784,7 @@ look
 up
 .
 *
-return
+returns
 {
 string
 }
@@ -1022,7 +1022,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 suggestions
@@ -1303,7 +1303,7 @@ search
 suggestions
 .
 *
-return
+returns
 {
 Promise
 }

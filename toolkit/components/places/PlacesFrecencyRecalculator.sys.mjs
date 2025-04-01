@@ -1380,6 +1380,7 @@ eventually
 accelerates
 .
 *
+*
 returns
 {
 boolean
@@ -1592,9 +1593,10 @@ the
 task
 .
 *
+*
 param
 {
-Number
+number
 }
 chunkSize
 maximum
@@ -2475,6 +2477,7 @@ and
 adaptive
 history
 .
+*
 *
 resolves
 once
@@ -4312,9 +4315,10 @@ frecency
 values
 .
 *
+*
 param
 {
-Number
+number
 }
 chunkSize
 maximum
@@ -4339,7 +4343,7 @@ entry
 *
 resolves
 {
-Number
+number
 }
 Number
 of

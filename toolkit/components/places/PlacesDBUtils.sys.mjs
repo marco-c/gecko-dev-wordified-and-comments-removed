@@ -243,7 +243,7 @@ tasks
 .
 *
 *
-return
+returns
 a
 Map
 [
@@ -442,7 +442,7 @@ object
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -630,7 +630,7 @@ reindex
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -845,7 +845,7 @@ errors
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1036,7 +1036,7 @@ it
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1283,7 +1283,7 @@ anymore
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5360,7 +5360,7 @@ object
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5606,7 +5606,7 @@ object
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -5774,7 +5774,7 @@ database
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -7554,7 +7554,6 @@ this
 task
 .
 *
-*
 /
 async
 removeOldCorruptDBs
@@ -7794,6 +7793,7 @@ tables
 and
 indices
 .
+*
 *
 returns
 {
@@ -8205,6 +8205,7 @@ row
 counts
 .
 *
+*
 returns
 {
 Array
@@ -8441,7 +8442,7 @@ this
 module
 .
 *
-return
+returns
 {
 Promise
 }
