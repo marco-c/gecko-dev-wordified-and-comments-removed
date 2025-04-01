@@ -258,6 +258,9 @@ undoCloseTab
 undoCloseWindow
 "
 "
+ReportSiteIssue
+"
+"
 gRemoteControl
 "
 "
