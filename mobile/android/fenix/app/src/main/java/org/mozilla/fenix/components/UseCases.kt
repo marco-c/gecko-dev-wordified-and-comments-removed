@@ -913,6 +913,13 @@ loadUrl
 searchUseCases
 =
 searchUseCases
+profiler
+=
+engine
+.
+value
+.
+profiler
 )
 }
 }
