@@ -1438,6 +1438,6 @@ const
 val
 TIME_SHOWN_OFFSET_MILLIS
 =
-1000
+500
 }
 }
