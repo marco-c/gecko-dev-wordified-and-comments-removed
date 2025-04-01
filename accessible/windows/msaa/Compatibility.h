@@ -267,6 +267,12 @@ A11ySuppressionReasons
 (
 )
 ;
+static
+bool
+IsUiaEnabled
+(
+)
+;
 private
 :
 Compatibility
