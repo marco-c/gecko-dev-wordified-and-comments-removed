@@ -283,9 +283,6 @@ handleMessage
 name
 data
 {
-id
-:
-tabId
 browser
 }
 =
@@ -466,7 +463,6 @@ data
 .
 trigger
 )
-tabId
 browser
 }
 )
@@ -490,7 +486,6 @@ sendPBNewTabMessage
 .
 .
 data
-tabId
 browser
 }
 )

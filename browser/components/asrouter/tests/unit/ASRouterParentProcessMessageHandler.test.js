@@ -1199,9 +1199,6 @@ stuff
 :
 {
 }
-tabId
-:
-100
 browser
 :
 {
