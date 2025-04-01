@@ -237,8 +237,8 @@ DataPipeReceiverStreamParams
 struct
 EncryptedFileInputStreamParams
 {
-FileInputStreamParams
-fileInputStreamParams
+InputStreamParams
+inputStreamParams
 ;
 uint8_t
 [
