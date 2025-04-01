@@ -3063,6 +3063,15 @@ android_sdk_root
 env
 [
 "
+ANDROID_HOME
+"
+]
+=
+android_sdk_root
+        
+env
+[
+"
 ANDROID_SDK_ROOT
 "
 ]
