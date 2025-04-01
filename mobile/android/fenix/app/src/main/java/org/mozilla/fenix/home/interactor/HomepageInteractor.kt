@@ -197,6 +197,18 @@ home
 .
 sessioncontrol
 .
+SetupChecklistInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+sessioncontrol
+.
 TabSessionInteractor
 import
 org
@@ -278,3 +290,4 @@ PocketStoriesInteractor
 PrivateBrowsingInteractor
 SearchSelectorInteractor
 WallpaperInteractor
+SetupChecklistInteractor
