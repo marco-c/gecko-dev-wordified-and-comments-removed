@@ -1302,6 +1302,9 @@ aReason
 {
 if
 (
+mConn
+&
+&
 aReason
 =
 =
