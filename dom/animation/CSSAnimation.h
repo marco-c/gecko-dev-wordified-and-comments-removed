@@ -423,6 +423,11 @@ const
 CSSAnimation
 &
 aOther
+nsContentUtils
+:
+:
+NodeIndexCache
+&
 )
 const
 ;

@@ -294,6 +294,11 @@ EventContext
 >
 &
 aOtherContext
+nsContentUtils
+:
+:
+NodeIndexCache
+&
 )
 const
 ;
