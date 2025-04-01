@@ -202,6 +202,14 @@ Prepare
 )
 ;
 nsresult
+CheckContentLengthDiscrepancy
+(
+nsIRequest
+*
+request
+)
+;
+nsresult
 DispatchContent
 (
 nsIRequest
@@ -341,6 +349,11 @@ bool
 mAllowListenerConversions
 =
 true
+;
+bool
+mReceivedData
+=
+false
 ;
 }
 ;
