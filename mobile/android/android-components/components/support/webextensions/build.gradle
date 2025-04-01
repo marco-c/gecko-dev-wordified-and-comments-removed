@@ -126,15 +126,6 @@ txt
 )
 }
 }
-lint
-{
-warningsAsErrors
-=
-true
-abortOnError
-=
-true
-}
 namespace
 =
 '
