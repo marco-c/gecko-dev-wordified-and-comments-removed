@@ -1409,6 +1409,7 @@ const
 title
 byline
 content
+language
 length
 siteName
 excerpt
@@ -1525,6 +1526,7 @@ return
 title
 byline
 textContent
+language
 length
 siteName
 excerpt
