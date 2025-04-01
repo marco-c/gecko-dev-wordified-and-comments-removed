@@ -1,5 +1,3 @@
-import
-six
 from
 mod_pywebsocket
 import
@@ -46,11 +44,15 @@ expected_messages
         
 expected_message
 =
-six
-.
-b
-(
 expected_message
+.
+encode
+(
+"
+latin
+-
+1
+"
 )
         
 message
