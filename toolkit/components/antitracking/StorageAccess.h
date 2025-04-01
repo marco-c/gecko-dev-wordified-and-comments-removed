@@ -210,17 +210,6 @@ aRejectedReason
 )
 ;
 bool
-ApproximateAllowAccessForWithoutChannel
-(
-nsPIDOMWindowInner
-*
-aFirstPartyWindow
-nsIURI
-*
-aURI
-)
-;
-bool
 ShouldAllowAccessFor
 (
 nsIChannel
