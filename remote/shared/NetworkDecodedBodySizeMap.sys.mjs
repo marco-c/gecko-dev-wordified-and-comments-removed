@@ -136,9 +136,6 @@ resolve
 }
 )
 ;
-await
-promise
-;
 }
 const
 mapEntry
@@ -152,6 +149,11 @@ get
 (
 channelId
 )
+;
+await
+mapEntry
+.
+promise
 ;
 return
 mapEntry

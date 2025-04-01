@@ -17,6 +17,13 @@ js
 ]
 [
 "
+test_AsyncQueue
+.
+js
+"
+]
+[
+"
 test_ChallengeHeaderParser
 .
 js
@@ -39,6 +46,13 @@ js
 [
 "
 test_Navigate
+.
+js
+"
+]
+[
+"
+test_NetworkDecodedBodySizeMap
 .
 js
 "
