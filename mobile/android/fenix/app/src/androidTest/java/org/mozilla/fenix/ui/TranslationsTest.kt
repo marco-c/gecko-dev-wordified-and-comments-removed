@@ -234,9 +234,6 @@ false
 isNavigationBarCFREnabled
 =
 false
-isSetAsDefaultBrowserPromptEnabled
-=
-false
 isMenuRedesignEnabled
 =
 false

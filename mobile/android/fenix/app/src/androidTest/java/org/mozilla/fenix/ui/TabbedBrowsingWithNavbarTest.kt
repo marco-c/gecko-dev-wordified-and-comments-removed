@@ -193,9 +193,6 @@ true
 isNavigationBarCFREnabled
 =
 false
-isSetAsDefaultBrowserPromptEnabled
-=
-false
 )
 )
 {
