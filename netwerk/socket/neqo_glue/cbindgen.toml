@@ -93,6 +93,12 @@ namespace
 net
 {
 class
+NeqoDecoder
+;
+class
+NeqoEncoder
+;
+class
 NeqoHttp3Conn
 ;
 union
@@ -162,6 +168,12 @@ export
 exclude
 =
 [
+"
+NeqoDecoder
+"
+"
+NeqoEncoder
+"
 "
 NeqoHttp3Conn
 "
