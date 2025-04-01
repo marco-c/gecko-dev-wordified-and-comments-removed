@@ -69,6 +69,11 @@ pytest
 .
 mark
 .
+allow_system_access
+pytest
+.
+mark
+.
 parametrize
 (
 "
@@ -197,6 +202,11 @@ uninstall_addon
 session
 addon_id
 )
+pytest
+.
+mark
+.
+allow_system_access
 def
 test_install_unsigned_addon_temporarily
 (
@@ -272,6 +282,11 @@ uninstall_addon
 session
 addon_id
 )
+pytest
+.
+mark
+.
+allow_system_access
 pytest
 .
 mark
@@ -362,6 +377,11 @@ uninstall_addon
 session
 addon_id
 )
+pytest
+.
+mark
+.
+allow_system_access
 pytest
 .
 mark
