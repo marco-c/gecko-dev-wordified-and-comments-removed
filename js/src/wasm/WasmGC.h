@@ -1324,7 +1324,7 @@ ptr
 =
 mapping_
 .
-lookup
+readonlyThreadsafeLookup
 (
 codeOffset
 )

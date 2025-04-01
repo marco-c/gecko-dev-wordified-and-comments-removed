@@ -4260,7 +4260,7 @@ entry
 =
 inlinedCallerOffsets_
 .
-lookup
+readonlyThreadsafeLookup
 (
 index
 )
