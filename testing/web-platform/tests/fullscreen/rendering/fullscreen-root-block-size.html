@@ -218,6 +218,11 @@ trusted_click
 )
 ;
 await
+Promise
+.
+all
+(
+[
 document
 .
 documentElement
@@ -225,10 +230,10 @@ documentElement
 requestFullscreen
 (
 )
-;
-await
 fullScreenChange
 (
+)
+]
 )
 ;
 assert_equals
