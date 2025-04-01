@@ -953,6 +953,17 @@ modutil
 '
 cmd
 /
+nssdefaults
+/
+nssdefaults
+.
+gyp
+:
+nssdefaults
+'
+'
+cmd
+/
 pwdecrypt
 /
 pwdecrypt

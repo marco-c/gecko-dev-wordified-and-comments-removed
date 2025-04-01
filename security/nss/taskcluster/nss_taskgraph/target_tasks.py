@@ -198,6 +198,18 @@ attributes
 return
 False
     
+if
+platform
+=
+=
+"
+all
+"
+:
+        
+return
+True
+    
 task_platform
 =
 task

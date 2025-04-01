@@ -2971,6 +2971,15 @@ digestedData
 ;
 if
 (
+digd
+=
+=
+NULL
+)
+break
+;
+if
+(
 before
 &
 &

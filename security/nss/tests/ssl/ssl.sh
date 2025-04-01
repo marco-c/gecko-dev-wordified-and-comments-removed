@@ -9945,6 +9945,7 @@ self
 serve
 for
 them
+#
 if
 [
 "
@@ -9960,6 +9961,7 @@ WINNT
 ]
 ;
 then
+#
 SERVER_OPTIONS
 =
 "
@@ -9970,6 +9972,7 @@ M
 SERVER_OPTIONS
 }
 "
+#
 fi
 start_selfserv
 CIPHER_SUITES
@@ -15457,17 +15460,7 @@ policy
 "
 )
 if
-[
-"
-{
-TEST_MODE
-}
-"
-=
-"
-SHARED_DB
-"
-]
+using_sql
 ;
 then
 ssl_policy_listsuites

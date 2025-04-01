@@ -6625,10 +6625,7 @@ sqlite3
 *
 sqlDB
 =
-sdb_p
--
->
-sqlXactDB
+NULL
 ;
 sqlite3_stmt
 *

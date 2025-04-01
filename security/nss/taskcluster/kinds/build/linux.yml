@@ -236,6 +236,15 @@ attributes
 make
 :
 true
+worker
+:
+env
+:
+BUILD_OPT
+:
+"
+1
+"
 linux64
 /
 opt

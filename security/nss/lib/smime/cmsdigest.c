@@ -1058,6 +1058,12 @@ SECSuccess
 &
 &
 dp
+&
+&
+dp
+[
+0
+]
 )
 {
 rv

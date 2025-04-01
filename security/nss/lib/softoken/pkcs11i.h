@@ -3904,6 +3904,9 @@ sftk_VerifyDH_Prime
 SECItem
 *
 dhPrime
+SECItem
+*
+generator
 PRBool
 isFIPS
 )

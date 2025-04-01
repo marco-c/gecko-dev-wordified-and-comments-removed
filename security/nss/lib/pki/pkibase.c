@@ -1529,6 +1529,11 @@ NULL
 PRUint32
 i
 ;
+nssPKIObject_Lock
+(
+object
+)
+;
 if
 (
 object
@@ -1540,6 +1545,11 @@ numInstances
 0
 )
 {
+nssPKIObject_Unlock
+(
+object
+)
+;
 return
 (
 nssCryptokiObject
@@ -1549,11 +1559,6 @@ nssCryptokiObject
 NULL
 ;
 }
-nssPKIObject_Lock
-(
-object
-)
-;
 instances
 =
 nss_ZNEWARRAY
