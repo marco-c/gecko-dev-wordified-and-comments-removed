@@ -128,9 +128,10 @@ create
 label
 =
 Suggest
+more
+of
+my
 tabs
-to
-group
 tab
 -
 group
