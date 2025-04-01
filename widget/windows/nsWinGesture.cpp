@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsUXThemeData
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
@@ -81,6 +74,13 @@ h
 include
 <
 cmath
+>
+#
+include
+<
+uxtheme
+.
+h
 >
 using
 namespace
