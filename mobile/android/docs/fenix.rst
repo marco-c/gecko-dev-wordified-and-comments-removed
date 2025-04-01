@@ -226,7 +226,6 @@ shell
 /
 mach
 gradle
-clean
 fenix
 :
 assembleDebug
