@@ -649,7 +649,7 @@ fenix
 .
 home
 .
-HomeFragment
+HomeScreenViewModel
 import
 org
 .
@@ -660,6 +660,10 @@ fenix
 home
 .
 HomeScreenViewModel
+.
+Companion
+.
+ALL_PRIVATE_TABS
 import
 org
 .
@@ -2215,8 +2219,6 @@ homeViewModel
 .
 sessionToDelete
 =
-HomeFragment
-.
 ALL_PRIVATE_TABS
 navController
 .
