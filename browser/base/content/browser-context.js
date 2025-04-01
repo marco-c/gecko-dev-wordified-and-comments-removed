@@ -1328,6 +1328,13 @@ gContextMenu
 addSearchFieldAsEngine
 (
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 break
 ;
