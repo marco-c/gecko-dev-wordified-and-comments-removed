@@ -3361,6 +3361,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 android
 "
 ]
@@ -3379,6 +3382,13 @@ js
 "
 :
 [
+"
+lib
+/
+ua_helpers
+.
+js
+"
 "
 bug1724868
 -
