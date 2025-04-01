@@ -434,16 +434,10 @@ DebugScriptMap
 public
 WeakMap
 <
-HeapPtr
-<
 JSScript
 *
->
-HeapPtr
-<
 DebugScriptObject
 *
->
 >
 {
 public
