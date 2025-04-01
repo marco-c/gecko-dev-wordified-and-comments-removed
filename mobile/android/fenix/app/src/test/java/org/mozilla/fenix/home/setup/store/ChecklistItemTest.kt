@@ -89,6 +89,12 @@ mozilla
 .
 fenix
 .
+components
+.
+appstate
+.
+setup
+.
 checklist
 .
 ChecklistItem
@@ -98,6 +104,12 @@ org
 mozilla
 .
 fenix
+.
+components
+.
+appstate
+.
+setup
 .
 checklist
 .

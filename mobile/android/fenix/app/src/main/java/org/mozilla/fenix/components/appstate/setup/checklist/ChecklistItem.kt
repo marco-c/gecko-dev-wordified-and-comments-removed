@@ -63,6 +63,12 @@ mozilla
 .
 fenix
 .
+components
+.
+appstate
+.
+setup
+.
 checklist
 import
 androidx
