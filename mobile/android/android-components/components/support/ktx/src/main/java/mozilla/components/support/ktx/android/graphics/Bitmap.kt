@@ -121,6 +121,14 @@ annotation
 .
 CheckResult
 import
+androidx
+.
+core
+.
+graphics
+.
+createBitmap
+import
 java
 .
 io
@@ -313,8 +321,6 @@ Bitmap
 val
 roundedBitmap
 =
-Bitmap
-.
 createBitmap
 (
 width

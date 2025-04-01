@@ -373,6 +373,14 @@ unit
 .
 dp
 import
+androidx
+.
+core
+.
+graphics
+.
+createBitmap
+import
 mozilla
 .
 components
@@ -1632,8 +1640,6 @@ SearchEngine
 val
 dummyBitmap
 =
-Bitmap
-.
 createBitmap
 (
 1
@@ -1779,8 +1785,6 @@ name
 name
 icon
 =
-Bitmap
-.
 createBitmap
 (
 1

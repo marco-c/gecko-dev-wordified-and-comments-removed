@@ -345,6 +345,14 @@ androidx
 .
 core
 .
+graphics
+.
+createBitmap
+import
+androidx
+.
+core
+.
 net
 .
 toUri
@@ -4271,8 +4279,6 @@ Unit
 val
 outBitmap
 =
-Bitmap
-.
 createBitmap
 (
 view
@@ -4334,8 +4340,6 @@ Unit
 val
 out
 =
-Bitmap
-.
 createBitmap
 (
 view

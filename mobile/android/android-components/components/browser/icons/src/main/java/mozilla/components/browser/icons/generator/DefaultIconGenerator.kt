@@ -86,12 +86,6 @@ android
 graphics
 .
 Bitmap
-import
-android
-.
-graphics
-.
-Bitmap
 .
 Config
 .
@@ -152,6 +146,14 @@ core
 content
 .
 ContextCompat
+import
+androidx
+.
+core
+.
+graphics
+.
+createBitmap
 import
 mozilla
 .
@@ -325,8 +327,6 @@ toInt
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 sizePx

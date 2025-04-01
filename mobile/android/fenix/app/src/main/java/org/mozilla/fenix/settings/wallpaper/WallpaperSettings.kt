@@ -449,6 +449,14 @@ style
 .
 TextDecoration
 import
+androidx
+.
+core
+.
+graphics
+.
+createBitmap
+import
 mozilla
 .
 components
@@ -2101,8 +2109,6 @@ null
 }
 else
 {
-Bitmap
-.
 createBitmap
 (
 100
