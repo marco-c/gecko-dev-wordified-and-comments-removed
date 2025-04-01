@@ -175,6 +175,8 @@ profiles
 marigold
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -255,6 +257,8 @@ profiles
 lichen
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -335,6 +339,8 @@ profiles
 magnolia
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -415,6 +421,8 @@ profiles
 lavender
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -546,6 +554,8 @@ profiles
 ocean
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -626,6 +636,8 @@ profiles
 terracotta
 -
 theme
+-
+2
 "
 downloadURL
 :
@@ -706,6 +718,8 @@ profiles
 moss
 -
 theme
+-
+2
 "
 downloadURL
 :
