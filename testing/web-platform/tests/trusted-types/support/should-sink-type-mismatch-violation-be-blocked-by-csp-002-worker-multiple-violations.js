@@ -74,7 +74,11 @@ _
 setTimeout
 (
 "
-unsafe
+;
+;
+;
+;
+;
 "
 )
 )
@@ -362,7 +366,11 @@ for
 setTimeout
 (
 '
-unsafe
+;
+;
+;
+;
+;
 '
 )
 from
