@@ -30550,11 +30550,6 @@ dependencies
 byteorder
 "
 "
-gecko
--
-profiler
-"
-"
 pkcs11
 -
 bindings
