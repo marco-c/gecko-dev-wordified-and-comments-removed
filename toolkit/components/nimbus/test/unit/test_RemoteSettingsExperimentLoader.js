@@ -1983,17 +1983,11 @@ clearUserPref
 DEBUG_PREF
 )
 ;
-await
 assertEmptyStore
 (
 manager
 .
 store
-{
-cleanup
-:
-true
-}
 )
 ;
 }

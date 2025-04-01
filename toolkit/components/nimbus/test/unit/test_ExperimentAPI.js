@@ -619,7 +619,6 @@ expected
 slug
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -2164,7 +2163,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -2429,7 +2427,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -2622,7 +2619,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -2783,7 +2779,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -3073,7 +3068,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
@@ -3249,7 +3243,6 @@ experiment
 slug
 )
 ;
-await
 assertEmptyStore
 (
 store
