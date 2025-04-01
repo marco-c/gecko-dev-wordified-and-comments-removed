@@ -26092,7 +26092,12 @@ enabled
 type
 :
 boolean
-fallbackPref
+setPref
+:
+branch
+:
+user
+pref
 :
 browser
 .
