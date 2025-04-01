@@ -650,6 +650,17 @@ in
 bug
 1806765
 .
+Changelog
+Firefox
+138
+Removed
+completely
+.
+(
+See
+bug
+1938938
+)
 PLACES_FRECENCY_RECALC_CHUNK_TIME_MS
 ~
 ~
