@@ -183,6 +183,8 @@ Web
 /
 HTTP
 /
+Reference
+/
 Headers
 /
 Accept
@@ -241,6 +243,8 @@ Web
 /
 HTTP
 /
+Reference
+/
 Status
 /
 200
@@ -277,6 +281,8 @@ MDN_URL
 Web
 /
 HTTP
+/
+Reference
 /
 Status
 {
