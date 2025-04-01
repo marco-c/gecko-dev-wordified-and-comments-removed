@@ -2884,7 +2884,7 @@ function
 (
 source_type
 sample
-estimate
+own_contribution_estimate
 context
 =
 null
@@ -2900,7 +2900,7 @@ context
 {
 source_type
 sample
-estimate
+own_contribution_estimate
 }
 )
 ;

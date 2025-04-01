@@ -3093,12 +3093,12 @@ sample
 "
 ]
         
-estimate
+own_contribution_estimate
 =
 payload
 [
 "
-estimate
+own_contribution_estimate
 "
 ]
         
@@ -3113,7 +3113,7 @@ update_virtual_pressure_source
 (
 source_type
 sample
-estimate
+own_contribution_estimate
 )
 class
 RemoveVirtualPressureSourceAction
