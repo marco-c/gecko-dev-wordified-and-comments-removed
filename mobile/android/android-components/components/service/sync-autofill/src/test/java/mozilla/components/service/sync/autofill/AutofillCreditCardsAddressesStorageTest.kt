@@ -238,6 +238,16 @@ mockito
 Mockito
 .
 verify
+import
+mozilla
+.
+appservices
+.
+init_rust_components
+.
+initialize
+as
+InitializeRustComponents
 ExperimentalCoroutinesApi
 /
 /
@@ -292,6 +302,9 @@ the
 test
 environment
 .
+InitializeRustComponents
+(
+)
 securePrefs
 =
 SecureAbove22Preferences
