@@ -12,6 +12,9 @@ interface
 mozIDOMWindowProxy
 ;
 webidl
+BrowsingContext
+;
+webidl
 Document
 ;
 [
@@ -84,6 +87,11 @@ unsigned
 long
 index
 )
+;
+readonly
+attribute
+BrowsingContext
+browsingContext
 ;
 }
 ;
