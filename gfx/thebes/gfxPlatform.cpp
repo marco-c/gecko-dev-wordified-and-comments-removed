@@ -16357,6 +16357,9 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 StaticPrefs
@@ -16382,6 +16385,8 @@ pref
 ;
 }
 else
+#
+endif
 {
 feature
 .
