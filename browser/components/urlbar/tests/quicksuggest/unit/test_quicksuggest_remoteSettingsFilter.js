@@ -173,7 +173,7 @@ opts
 .
 filterExpression
 .
-form_factor
+formFactor
 =
 formFactor
 ;

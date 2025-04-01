@@ -3282,7 +3282,7 @@ let
 customTargetingAttributes
 =
 {
-form_factor
+formFactor
 :
 "
 desktop
