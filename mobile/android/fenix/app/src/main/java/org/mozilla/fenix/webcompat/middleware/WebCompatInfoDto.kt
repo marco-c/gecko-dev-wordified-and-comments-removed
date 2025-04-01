@@ -420,7 +420,7 @@ AppDto
 ?
 =
 null
-val
+var
 experiments
 :
 List
@@ -575,6 +575,7 @@ val
 branch
 :
 String
+?
 val
 slug
 :

@@ -341,6 +341,13 @@ appStore
 scope
 =
 viewModelScope
+nimbusApi
+=
+requireComponents
+.
+nimbus
+.
+sdk
 )
 )
 }
