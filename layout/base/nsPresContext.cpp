@@ -2080,6 +2080,13 @@ GetPresShell
 return
 ;
 }
+PreferenceSheet
+:
+:
+EnsureInitialized
+(
+)
+;
 Document
 (
 )

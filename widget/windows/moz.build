@@ -464,6 +464,11 @@ nsUserIdleServiceWin
 cpp
 "
 "
+nsUXThemeData
+.
+cpp
+"
+"
 nsWindow
 .
 cpp

@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsUXThemeData
+.
+h
+"
+#
+include
+"
 TaskbarPreviewButton
 .
 h

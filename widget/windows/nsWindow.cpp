@@ -2810,6 +2810,13 @@ Initialize
 (
 )
 ;
+nsUXThemeData
+:
+:
+UpdateNativeThemeInfo
+(
+)
+;
 RedirectedKeyDownMessageManager
 :
 :
@@ -19662,6 +19669,13 @@ WM_THEMECHANGED
 :
 {
 UpdateNonClientMargins
+(
+)
+;
+nsUXThemeData
+:
+:
+UpdateNativeThemeInfo
 (
 )
 ;
