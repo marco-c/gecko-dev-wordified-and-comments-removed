@@ -19001,6 +19001,17 @@ marionette
 "
 )
             
+env
+[
+"
+MOZ_REMOTE_ALLOW_SYSTEM_ACCESS
+"
+]
+=
+"
+1
+"
+            
 args
 .
 append
