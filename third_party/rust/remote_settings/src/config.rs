@@ -20,7 +20,6 @@ Result
 derive
 (
 Debug
-Default
 Clone
 uniffi
 :

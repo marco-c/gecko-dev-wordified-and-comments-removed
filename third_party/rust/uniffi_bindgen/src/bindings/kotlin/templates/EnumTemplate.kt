@@ -174,6 +174,7 @@ object
 %
 when
 Some
+with
 (
 variant_discr_type
 )

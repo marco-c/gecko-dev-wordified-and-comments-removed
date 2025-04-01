@@ -1,4 +1,3 @@
-{
 class
 {
 {
@@ -6,11 +5,9 @@ protocol_name
 }
 }
 (
-{
-{
-protocol_base_class
-}
-}
+typing
+.
+Protocol
 )
 :
     

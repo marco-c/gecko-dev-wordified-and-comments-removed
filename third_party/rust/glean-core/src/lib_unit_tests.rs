@@ -177,10 +177,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 glean
@@ -216,10 +212,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 glean
@@ -1912,7 +1904,8 @@ false
 assert_eq
 !
 (
-None
+*
+KNOWN_CLIENT_ID
 glean
 .
 core_metrics
@@ -1926,6 +1919,10 @@ glean
 "
 glean_client_info
 "
+)
+.
+unwrap
+(
 )
 )
 ;
@@ -1989,7 +1986,7 @@ current_client_id
 test
 ]
 fn
-client_id_is_not_set_when_uploading_disabled_at_start
+client_id_is_set_to_known_value_when_uploading_disabled_at_start
 (
 )
 {
@@ -2042,7 +2039,8 @@ true
 assert_eq
 !
 (
-None
+*
+KNOWN_CLIENT_ID
 glean
 .
 core_metrics
@@ -2056,6 +2054,10 @@ glean
 "
 glean_client_info
 "
+)
+.
+unwrap
+(
 )
 )
 ;
@@ -6972,10 +6974,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 glean
@@ -7307,10 +7305,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 glean
@@ -7348,10 +7342,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 glean

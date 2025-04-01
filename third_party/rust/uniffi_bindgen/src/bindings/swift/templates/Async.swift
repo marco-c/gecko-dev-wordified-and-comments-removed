@@ -110,10 +110,9 @@ Make
 sure
 to
 call
-the
-ensure
-init
-function
+uniffiEnsureInitialized
+(
+)
 since
 future
 creation
@@ -134,11 +133,7 @@ use
 makeRustCall
 (
 )
-{
-{
-ensure_init_fn_name
-}
-}
+uniffiEnsureInitialized
 (
 )
 let
@@ -589,7 +584,7 @@ pull
 1823
 )
 fileprivate
-let
+var
 UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 =
 UniffiHandleMap
@@ -645,7 +640,6 @@ has
 generic
 parameters
 .
-fileprivate
 protocol
 UniffiForeignFutureTask
 {

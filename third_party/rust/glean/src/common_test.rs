@@ -253,10 +253,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 ;
 crate
