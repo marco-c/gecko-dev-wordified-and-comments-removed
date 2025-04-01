@@ -5726,6 +5726,11 @@ DefProfRt
 path
 profileDir
 )
+{
+permissions
+:
+0o700
+}
 )
 IOUtils
 .
@@ -5747,6 +5752,11 @@ DefProfLRt
 path
 profileDir
 )
+{
+permissions
+:
+0o700
+}
 )
 ]
 )
