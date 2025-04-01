@@ -4937,8 +4937,6 @@ offset
 optional
 GPUSize64
 size
-=
-0
 )
 ;
 undefined
@@ -4956,8 +4954,6 @@ offset
 optional
 GPUSize64
 size
-=
-0
 )
 ;
 undefined
