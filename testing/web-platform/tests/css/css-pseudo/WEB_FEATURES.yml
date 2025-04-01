@@ -14,8 +14,6 @@ target
 text
 -
 *
-features
-:
 -
 name
 :
@@ -40,8 +38,6 @@ spelling
 errors
 -
 *
-features
-:
 -
 name
 :
@@ -52,8 +48,6 @@ files
 marker
 -
 *
-features
-:
 -
 name
 :

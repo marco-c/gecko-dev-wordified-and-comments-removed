@@ -26,8 +26,6 @@ color
 scheme
 -
 *
-features
-:
 -
 name
 :
@@ -42,8 +40,6 @@ forced
 colors
 .
 html
-features
-:
 -
 name
 :
@@ -58,8 +54,6 @@ prefers
 contrast
 .
 html
-features
-:
 -
 name
 :
@@ -78,8 +72,6 @@ reduced
 transparency
 .
 html
-features
-:
 -
 name
 :
@@ -94,8 +86,6 @@ media
 features
 .
 html
-features
-:
 -
 name
 :
@@ -110,8 +100,6 @@ dynamic
 range
 .
 html
-features
-:
 -
 name
 :
