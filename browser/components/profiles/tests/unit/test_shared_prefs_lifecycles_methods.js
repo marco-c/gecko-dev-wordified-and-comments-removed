@@ -71,7 +71,7 @@ SelectableProfileService
 .
 constructor
 .
-initialSharedPrefs
+permanentSharedPrefs
 .
 splice
 (
@@ -80,7 +80,7 @@ SelectableProfileService
 .
 constructor
 .
-initialSharedPrefs
+permanentSharedPrefs
 .
 length
 "
