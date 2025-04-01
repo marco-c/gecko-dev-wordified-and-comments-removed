@@ -141,6 +141,11 @@ formattedSize
 =
 "
 "
+displayedShortUrl
+=
+"
+url
+"
 contentType
 =
 "
@@ -160,10 +165,6 @@ createdTime
 CreatedTime
 .
 TODAY
-displayedShortUrl
-=
-"
-"
 )
 assertEquals
 (

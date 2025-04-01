@@ -200,6 +200,11 @@ formattedSize
 "
 77
 "
+displayedShortUrl
+=
+"
+url
+"
 contentType
 =
 "
@@ -217,10 +222,6 @@ createdTime
 CreatedTime
 .
 OLDER
-displayedShortUrl
-=
-"
-"
 )
 private
 val
@@ -253,6 +254,11 @@ formattedSize
 "
 77
 "
+displayedShortUrl
+=
+"
+url
+"
 contentType
 =
 "
@@ -270,10 +276,6 @@ createdTime
 CreatedTime
 .
 OLDER
-displayedShortUrl
-=
-"
-"
 )
 Test
 fun

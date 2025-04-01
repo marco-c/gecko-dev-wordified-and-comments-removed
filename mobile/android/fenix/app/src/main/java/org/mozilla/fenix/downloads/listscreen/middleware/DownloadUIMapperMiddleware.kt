@@ -593,9 +593,6 @@ contentLength
 :
 0
 )
-contentType
-=
-contentType
 displayedShortUrl
 =
 url
@@ -603,6 +600,9 @@ url
 getBaseDomainUrl
 (
 )
+contentType
+=
+contentType
 status
 =
 status
