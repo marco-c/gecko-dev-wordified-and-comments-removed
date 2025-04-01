@@ -4498,6 +4498,11 @@ get
 aUserActionId
 )
 ;
+if
+(
+busyDialogInfo
+)
+{
 busyDialogInfo
 .
 requestTokenSet
@@ -4528,6 +4533,7 @@ requestToken
 }
 )
 ;
+}
 message
 =
 await
