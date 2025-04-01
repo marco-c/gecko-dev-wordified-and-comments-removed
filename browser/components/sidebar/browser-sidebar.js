@@ -9401,14 +9401,6 @@ handleMouseOver
 e
 )
 {
-if
-(
-!
-SidebarController
-.
-mouseOverTask
-)
-{
 SidebarController
 .
 mouseOverTask
@@ -9488,7 +9480,6 @@ EXPAND_ON_HOVER_DEBOUNCE_RATE_MS
 EXPAND_ON_HOVER_DEBOUNCE_TIMEOUT_MS
 )
 ;
-}
 SidebarController
 .
 mouseOverTask

@@ -578,6 +578,16 @@ vertical
 -
 tabs
 "
+expandOnHoverInput
+:
+"
+#
+expand
+-
+on
+-
+hover
+"
 }
 ;
 connectedCallback
