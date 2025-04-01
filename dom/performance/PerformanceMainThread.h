@@ -478,6 +478,12 @@ EventCounts
 )
 override
 ;
+uint64_t
+InteractionCount
+(
+)
+override
+;
 bool
 IsGlobalObjectWindow
 (
