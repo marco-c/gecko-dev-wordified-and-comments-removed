@@ -2143,16 +2143,6 @@ scrollbarFadeDuration
 user_pref
 (
 "
-webextensions
-.
-tests
-"
-true
-)
-;
-user_pref
-(
-"
 toolkit
 .
 telemetry

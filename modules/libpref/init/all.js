@@ -32977,16 +32977,6 @@ pref
 "
 webextensions
 .
-tests
-"
-false
-)
-;
-pref
-(
-"
-webextensions
-.
 webRequest
 .
 requestBodyMaxRawBytes
