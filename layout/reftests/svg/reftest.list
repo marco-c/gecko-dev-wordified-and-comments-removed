@@ -10250,7 +10250,7 @@ fuzzy
 -
 if
 (
-winwidget
+winWidget
 |
 |
 cocoaWidget
