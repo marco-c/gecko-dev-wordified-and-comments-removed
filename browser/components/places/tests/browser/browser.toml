@@ -741,6 +741,13 @@ js
 ]
 [
 "
+browser_library_bookmark_move
+.
+js
+"
+]
+[
+"
 browser_library_bookmark_pages
 .
 js
