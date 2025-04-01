@@ -3051,8 +3051,11 @@ quickactions
 -
 cmd
 -
-screenshot
+screenshot2
 =
+screenshot
+take
+a
 screenshot
 #
 Opens

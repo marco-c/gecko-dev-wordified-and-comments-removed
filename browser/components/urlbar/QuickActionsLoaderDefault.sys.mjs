@@ -1443,7 +1443,7 @@ quickactions
 -
 cmd
 -
-screenshot
+screenshot2
 "
 ]
 label
