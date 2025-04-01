@@ -39,6 +39,9 @@ include
 mutex
 >
 #
+undef
+LOGDMABUF
+#
 ifdef
 MOZ_LOGGING
 #

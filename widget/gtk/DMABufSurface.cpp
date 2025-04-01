@@ -355,6 +355,12 @@ mozilla
 gfx
 ;
 #
+undef
+LOGDMABUF
+#
+undef
+LOGDMABUFREF
+#
 ifdef
 MOZ_LOGGING
 #
@@ -380,6 +386,80 @@ Units
 .
 h
 "
+extern
+mozilla
+:
+:
+LazyLogModule
+gDmabufLog
+;
+#
+define
+LOGDMABUF
+(
+str
+.
+.
+.
+)
+\
+MOZ_LOG
+(
+gDmabufLog
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
+\
+(
+"
+%
+s
+:
+"
+str
+GetDebugTag
+(
+)
+.
+get
+(
+)
+#
+#
+__VA_ARGS__
+)
+)
+#
+define
+LOGDMABUFS
+(
+str
+.
+.
+.
+)
+\
+MOZ_LOG
+(
+gDmabufLog
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
+(
+str
+#
+#
+__VA_ARGS__
+)
+)
 static
 LazyLogModule
 gDmabufRefLog
@@ -393,7 +473,10 @@ DmabufRef
 define
 LOGDMABUFREF
 (
-args
+str
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -406,15 +489,45 @@ LogLevel
 :
 :
 Debug
-args
+\
+(
+"
+%
+s
+:
+"
+str
+GetDebugTag
+(
+)
+.
+get
+(
+)
+#
+#
+__VA_ARGS__
+)
 )
 #
 else
 #
 define
+LOGDMABUF
+(
+str
+.
+.
+.
+)
+#
+define
 LOGDMABUFREF
 (
-args
+str
+.
+.
+.
 )
 #
 endif
@@ -481,8 +594,7 @@ if
 sSnapshotContext
 )
 {
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
 ClaimSnapshotGLContext
@@ -494,7 +606,6 @@ snapshot
 GLContext
 .
 "
-)
 )
 ;
 return
@@ -522,8 +633,7 @@ MakeCurrent
 )
 )
 {
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
 ClaimSnapshotGLContext
@@ -535,7 +645,6 @@ GLContext
 current
 .
 "
-)
 )
 ;
 return
@@ -576,8 +685,7 @@ IsCurrent
 )
 )
 {
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
 ReturnSnapshotGLContext
@@ -589,7 +697,6 @@ not
 current
 !
 "
-)
 )
 ;
 return
@@ -630,6 +737,35 @@ EGL_NO_SURFACE
 EGL_NO_SURFACE
 EGL_NO_CONTEXT
 )
+;
+}
+nsAutoCString
+DMABufSurface
+:
+:
+GetDebugTag
+(
+)
+const
+{
+nsAutoCString
+tag
+;
+tag
+.
+AppendPrintf
+(
+"
+[
+%
+p
+]
+"
+this
+)
+;
+return
+tag
 ;
 }
 bool
@@ -702,7 +838,6 @@ return
 }
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -713,7 +848,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 uint64_t
@@ -749,7 +883,6 @@ EAGAIN
 {
 LOGDMABUFREF
 (
-(
 "
 GlobalRefRelease
 failed
@@ -763,7 +896,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 }
@@ -820,7 +952,6 @@ ifdef
 HAVE_EVENTFD
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -831,7 +962,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -908,7 +1038,6 @@ ifdef
 HAVE_EVENTFD
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -919,7 +1048,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -1008,7 +1136,6 @@ mGlobalRefCountFd
 {
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -1019,7 +1146,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 GlobalRefAdd
@@ -1048,7 +1174,6 @@ mGlobalRefCountFd
 {
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -1059,7 +1184,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 }
@@ -1084,7 +1208,6 @@ mGlobalRefCountFd
 {
 LOGDMABUFREF
 (
-(
 "
 DMABufSurface
 :
@@ -1095,7 +1218,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 close
@@ -1119,7 +1241,6 @@ ReleaseDMABuf
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurface
 :
@@ -1132,7 +1253,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 for
@@ -2140,7 +2260,6 @@ aFormat
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurface
 :
@@ -2151,7 +2270,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 if
@@ -2267,7 +2385,6 @@ i
 {
 LOGDMABUF
 (
-(
 "
 ReadIntoBuffer
 :
@@ -2278,7 +2395,6 @@ DMABuf
 textures
 .
 "
-)
 )
 ;
 return
@@ -2346,7 +2462,6 @@ IsComplete
 {
 LOGDMABUF
 (
-(
 "
 ReadIntoBuffer
 :
@@ -2354,7 +2469,6 @@ ScopedFramebufferForTexture
 failed
 .
 "
-)
 )
 ;
 return
@@ -2410,7 +2524,6 @@ destOrigin
 {
 LOGDMABUF
 (
-(
 "
 ReadIntoBuffer
 :
@@ -2418,7 +2531,6 @@ Blit
 failed
 .
 "
-)
 )
 ;
 return
@@ -2466,7 +2578,6 @@ GetAsSourceSurface
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurface
 :
@@ -2477,7 +2588,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 gfx
@@ -2538,7 +2648,6 @@ source
 {
 LOGDMABUF
 (
-(
 "
 GetAsSourceSurface
 :
@@ -2546,7 +2655,6 @@ CreateDataSourceSurface
 failed
 .
 "
-)
 )
 ;
 return
@@ -2587,7 +2695,6 @@ IsMapped
 {
 LOGDMABUF
 (
-(
 "
 GetAsSourceSurface
 :
@@ -2596,7 +2703,6 @@ surface
 failed
 .
 "
-)
 )
 ;
 return
@@ -2630,7 +2736,6 @@ format
 {
 LOGDMABUF
 (
-(
 "
 GetAsSourceSurface
 :
@@ -2640,7 +2745,6 @@ buffer
 failed
 .
 "
-)
 )
 ;
 return
@@ -2751,7 +2855,6 @@ bo
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -2765,7 +2868,6 @@ mGbmBufferObject
 object
 !
 "
-)
 )
 ;
 return
@@ -2850,7 +2952,6 @@ failed
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -2867,7 +2968,6 @@ GetFd
 "
 failed
 "
-)
 )
 ;
 }
@@ -2939,7 +3039,6 @@ failed
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -2956,7 +3055,6 @@ GetDmabufFD
 )
 failed
 "
-)
 )
 ;
 }
@@ -3077,7 +3175,6 @@ format
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -3095,7 +3192,6 @@ x
 !
 "
 mFOURCCFormat
-)
 )
 ;
 return
@@ -3162,7 +3258,6 @@ GetGbmDevice
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -3175,7 +3270,6 @@ Missing
 GbmDevice
 !
 "
-)
 )
 ;
 return
@@ -3200,7 +3294,6 @@ GetFormat
 )
 ;
 LOGDMABUF
-(
 (
 "
 DMABufSurfaceRGBA
@@ -3239,7 +3332,6 @@ aFormat
 >
 UseModifiers
 (
-)
 )
 )
 ;
@@ -3294,7 +3386,6 @@ useModifiers
 {
 LOGDMABUF
 (
-(
 "
 Creating
 with
@@ -3302,7 +3393,6 @@ modifiers
 \
 n
 "
-)
 )
 ;
 uint32_t
@@ -3383,7 +3473,6 @@ mGbmBufferObject
 {
 LOGDMABUF
 (
-(
 "
 Creating
 without
@@ -3391,7 +3480,6 @@ modifiers
 \
 n
 "
-)
 )
 ;
 mGbmBufferFlags
@@ -3440,7 +3528,6 @@ mGbmBufferObject
 {
 LOGDMABUF
 (
-(
 "
 Failed
 to
@@ -3449,7 +3536,6 @@ GbmBufferObject
 \
 n
 "
-)
 )
 ;
 return
@@ -3479,7 +3565,6 @@ mGbmBufferObject
 ;
 LOGDMABUF
 (
-(
 "
 Planes
 count
@@ -3487,7 +3572,6 @@ count
 d
 "
 mBufferPlaneCount
-)
 )
 ;
 if
@@ -3498,7 +3582,6 @@ DMABUF_BUFFER_PLANES
 )
 {
 LOGDMABUF
-(
 (
 "
 There
@@ -3515,7 +3598,6 @@ d
 )
 "
 mBufferPlaneCount
-)
 )
 ;
 mBufferPlaneCount
@@ -3603,13 +3685,11 @@ mGbmBufferObject
 }
 LOGDMABUF
 (
-(
 "
 Success
 \
 n
 "
-)
 )
 ;
 return
@@ -3642,7 +3722,6 @@ aHeight
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -3660,7 +3739,6 @@ d
 n
 "
 mUID
-)
 )
 ;
 if
@@ -3734,7 +3812,6 @@ mBufferModifier
 {
 LOGDMABUF
 (
-(
 "
 ExportDMABUFImageQueryMESA
 failed
@@ -3742,7 +3819,6 @@ quit
 \
 n
 "
-)
 )
 ;
 return
@@ -3758,7 +3834,6 @@ DMABUF_BUFFER_PLANES
 {
 LOGDMABUF
 (
-(
 "
 wrong
 plane
@@ -3770,7 +3845,6 @@ quit
 n
 "
 mBufferPlaneCount
-)
 )
 ;
 mBufferPlaneCount
@@ -3809,7 +3883,6 @@ mOffsets
 {
 LOGDMABUF
 (
-(
 "
 ExportDMABUFImageMESA
 failed
@@ -3817,7 +3890,6 @@ quit
 \
 n
 "
-)
 )
 ;
 return
@@ -3899,7 +3971,6 @@ i
 {
 LOGDMABUF
 (
-(
 "
 ExportDMABUFImageMESA
 failed
@@ -3914,7 +3985,6 @@ quit
 "
 i
 )
-)
 ;
 return
 false
@@ -3922,7 +3992,6 @@ false
 }
 }
 LOGDMABUF
-(
 (
 "
 imported
@@ -3947,7 +4016,6 @@ mHeight
 mFOURCCFormat
 mBufferPlaneCount
 mBufferModifier
-)
 )
 ;
 return
@@ -3994,7 +4062,6 @@ aHeight
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -4017,7 +4084,6 @@ n
 mUID
 mWidth
 mHeight
-)
 )
 ;
 mWidth
@@ -4139,7 +4205,6 @@ i
 }
 LOGDMABUF
 (
-(
 "
 imported
 size
@@ -4163,7 +4228,6 @@ mHeight
 mFOURCCFormat
 mBufferPlaneCount
 mBufferModifier
-)
 )
 ;
 return
@@ -4272,7 +4336,6 @@ uid
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -4295,7 +4358,6 @@ n
 mUID
 mWidth
 mHeight
-)
 )
 ;
 for
@@ -4454,7 +4516,6 @@ release
 }
 LOGDMABUF
 (
-(
 "
 imported
 size
@@ -4474,7 +4535,6 @@ mWidth
 mHeight
 mFOURCCFormat
 mBufferPlaneCount
-)
 )
 ;
 return
@@ -4610,7 +4670,6 @@ refCountFDs
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -4625,7 +4684,6 @@ d
 n
 "
 mUID
-)
 )
 ;
 MutexAutoLock
@@ -4838,7 +4896,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -4853,7 +4910,6 @@ d
 n
 "
 mUID
-)
 )
 ;
 MOZ_ASSERT
@@ -5167,7 +5223,6 @@ MakeCurrent
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -5185,7 +5240,6 @@ context
 "
 current
 "
-)
 )
 ;
 return
@@ -5212,7 +5266,6 @@ OES_EGL_image
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -5225,7 +5278,6 @@ no
 OES_EGL_image
 .
 "
-)
 )
 ;
 return
@@ -5290,13 +5342,11 @@ LOCAL_EGL_NO_IMAGE
 {
 LOGDMABUF
 (
-(
 "
 EGLImageKHR
 creation
 failed
 "
-)
 )
 ;
 return
@@ -5388,7 +5438,6 @@ ReleaseTextures
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -5403,7 +5452,6 @@ d
 n
 "
 mUID
-)
 )
 ;
 FenceDelete
@@ -5659,7 +5707,6 @@ mSurfaceLock
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceRGBA
 :
@@ -5693,7 +5740,6 @@ GetHeight
 (
 )
 )
-)
 ;
 if
 (
@@ -5706,7 +5752,6 @@ lockFD
 {
 LOGDMABUF
 (
-(
 "
 failed
 to
@@ -5714,7 +5759,6 @@ open
 dmabuf
 fd
 "
-)
 )
 ;
 return
@@ -5733,7 +5777,6 @@ dmabuf
 ;
 LOGDMABUF
 (
-(
 "
 layer
 [
@@ -5744,7 +5787,6 @@ modifier
 "
 PRIx64
 mBufferModifier
-)
 )
 ;
 for
@@ -5796,7 +5838,6 @@ mBufferModifier
 }
 LOGDMABUF
 (
-(
 "
 zwp_linux_buffer_params_v1_create_immed
 (
@@ -5822,7 +5863,6 @@ GetHeight
 )
 GetFOURCCFormat
 (
-)
 )
 )
 ;
@@ -5853,7 +5893,6 @@ buffer
 {
 LOGDMABUF
 (
-(
 "
 zwp_linux_buffer_params_v1_create_immed
 (
@@ -5868,13 +5907,11 @@ wl_buffer
 !
 "
 )
-)
 ;
 }
 else
 {
 LOGDMABUF
-(
 (
 "
 created
@@ -5885,7 +5922,6 @@ p
 ]
 "
 buffer
-)
 )
 ;
 }
@@ -6039,8 +6075,7 @@ ret
 1
 )
 {
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
 Failed
@@ -6060,7 +6095,6 @@ strerror
 errno
 )
 aFd
-)
 )
 ;
 break
@@ -6140,7 +6174,6 @@ nullptr
 }
 LOGDMABUF
 (
-(
 "
 DMABufSurface
 :
@@ -6165,8 +6198,6 @@ d
 %
 d
 x
-"
-"
 %
 d
 \
@@ -6178,7 +6209,6 @@ aX
 aY
 aWidth
 aHeight
-)
 )
 ;
 mMappedRegionStride
@@ -6237,7 +6267,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 Surface
 mapping
@@ -6249,7 +6278,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -6446,7 +6474,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurface
 :
@@ -6465,7 +6492,6 @@ n
 "
 mUID
 aPlane
-)
 )
 ;
 MutexAutoLock
@@ -7176,10 +7202,13 @@ DMABufSurfaceYUV
 (
 )
 ;
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
+[
+%
+p
+]
 DMABufSurfaceYUV
 :
 :
@@ -7195,11 +7224,15 @@ desc
 n
 "
 surf
+.
+get
+(
+)
+surf
 -
 >
 GetUID
 (
-)
 )
 )
 ;
@@ -7260,10 +7293,13 @@ DMABufSurfaceYUV
 (
 )
 ;
-LOGDMABUF
-(
+LOGDMABUFS
 (
 "
+[
+%
+p
+]
 DMABufSurfaceYUV
 :
 :
@@ -7279,11 +7315,15 @@ desc
 n
 "
 surf
+.
+get
+(
+)
+surf
 -
 >
 GetUID
 (
-)
 )
 )
 ;
@@ -7425,7 +7465,6 @@ nullptr
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -7439,7 +7478,6 @@ mGbmBufferObject
 object
 !
 "
-)
 )
 ;
 return
@@ -7561,7 +7599,6 @@ aHeight
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -7580,7 +7617,6 @@ mUID
 aDesc
 .
 fourcc
-)
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -7610,7 +7646,6 @@ DMABUF_BUFFER_PLANES
 {
 LOGDMABUF
 (
-(
 "
 Can
 '
@@ -7634,7 +7669,6 @@ num_layers
 aDesc
 .
 num_objects
-)
 )
 ;
 return
@@ -7813,7 +7847,6 @@ subsample
 ;
 LOGDMABUF
 (
-(
 "
 plane
 %
@@ -7841,7 +7874,6 @@ mDrmFormats
 [
 i
 ]
-)
 )
 ;
 }
@@ -8053,7 +8085,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -8081,7 +8112,6 @@ mHeight
 aPlane
 ]
 )
-)
 ;
 if
 (
@@ -8098,13 +8128,11 @@ GetGbmDevice
 {
 LOGDMABUF
 (
-(
 "
 Missing
 GbmDevice
 !
 "
-)
 )
 ;
 return
@@ -8142,13 +8170,11 @@ useModifiers
 {
 LOGDMABUF
 (
-(
 "
 Creating
 with
 modifiers
 "
-)
 )
 ;
 mGbmBufferObject
@@ -8200,13 +8226,11 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 Creating
 without
 modifiers
 "
-)
 )
 ;
 mGbmBufferObject
@@ -8261,7 +8285,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 Failed
 to
@@ -8274,7 +8297,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -8559,7 +8581,6 @@ aCopy
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -8576,7 +8597,6 @@ d
 "
 mUID
 aCopy
-)
 )
 ;
 return
@@ -8615,7 +8635,6 @@ aDrmFormat
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -8637,7 +8656,6 @@ mUID
 aWidth
 aHeight
 )
-)
 ;
 if
 (
@@ -8654,13 +8672,11 @@ GetGbmDevice
 {
 LOGDMABUF
 (
-(
 "
 Missing
 GbmDevice
 !
 "
-)
 )
 ;
 return
@@ -8723,7 +8739,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 Failed
 to
@@ -8736,7 +8751,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -8821,7 +8835,6 @@ UNKNOWN
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -8833,7 +8846,6 @@ wrong
 format
 !
 "
-)
 )
 ;
 return
@@ -9191,7 +9203,6 @@ uid
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -9204,7 +9215,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -9359,7 +9369,6 @@ i
 ;
 LOGDMABUF
 (
-(
 "
 plane
 %
@@ -9399,7 +9408,6 @@ mDrmFormats
 [
 i
 ]
-)
 )
 ;
 }
@@ -9587,7 +9595,6 @@ refCountFDs
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -9600,7 +9607,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 MutexAutoLock
@@ -9824,7 +9830,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -9841,7 +9846,6 @@ d
 "
 mUID
 aPlane
-)
 )
 ;
 MOZ_ASSERT
@@ -9892,7 +9896,6 @@ OES_EGL_image
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -9905,7 +9908,6 @@ no
 OES_EGL_image
 .
 "
-)
 )
 ;
 return
@@ -9930,7 +9932,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 failed
 to
@@ -9939,7 +9940,6 @@ dmabuf
 file
 descriptors
 "
-)
 )
 ;
 return
@@ -10246,13 +10246,11 @@ LOCAL_EGL_NO_IMAGE
 {
 LOGDMABUF
 (
-(
 "
 EGLImageKHR
 creation
 failed
 "
-)
 )
 ;
 return
@@ -10261,12 +10259,10 @@ false
 }
 LOGDMABUF
 (
-(
 "
 Success
 .
 "
-)
 )
 ;
 return
@@ -10286,7 +10282,6 @@ aGLContext
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -10299,7 +10294,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 MOZ_ASSERT
@@ -10401,7 +10395,6 @@ aPlane
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -10418,7 +10411,6 @@ d
 "
 mUID
 aPlane
-)
 )
 ;
 MOZ_ASSERT
@@ -10460,7 +10452,6 @@ MakeCurrent
 {
 LOGDMABUF
 (
-(
 "
 Failed
 to
@@ -10470,7 +10461,6 @@ context
 current
 .
 "
-)
 )
 ;
 return
@@ -10585,7 +10575,6 @@ ReleaseTextures
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -10598,7 +10587,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 FenceDelete
@@ -10800,7 +10788,6 @@ VerifyTextureCreation
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -10813,7 +10800,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 StaticMutexAutoLock
@@ -10882,7 +10868,6 @@ i
 {
 LOGDMABUF
 (
-(
 "
 failed
 to
@@ -10892,7 +10877,6 @@ image
 !
 "
 )
-)
 ;
 return
 false
@@ -10901,11 +10885,9 @@ false
 }
 LOGDMABUF
 (
-(
 "
 success
 "
-)
 )
 ;
 return
@@ -11116,7 +11098,6 @@ ReleaseSurface
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -11129,7 +11110,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 ReleaseTextures
@@ -11172,7 +11152,6 @@ aAllocate
 {
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -11183,7 +11162,6 @@ UID
 d
 "
 mUID
-)
 )
 ;
 gfx
@@ -11252,14 +11230,12 @@ rv
 {
 LOGDMABUF
 (
-(
 "
 BuildSurfaceDescriptorBuffer
 allocate
 descriptor
 failed
 "
-)
 )
 ;
 return
@@ -11597,7 +11573,6 @@ mSurfaceLock
 ;
 LOGDMABUF
 (
-(
 "
 DMABufSurfaceYUV
 :
@@ -11631,7 +11606,6 @@ GetHeight
 (
 )
 )
-)
 ;
 if
 (
@@ -11644,7 +11618,6 @@ lockFD
 {
 LOGDMABUF
 (
-(
 "
 failed
 to
@@ -11652,7 +11625,6 @@ open
 dmabuf
 fd
 "
-)
 )
 ;
 return
@@ -11689,7 +11661,6 @@ i
 {
 LOGDMABUF
 (
-(
 "
 layer
 [
@@ -11705,7 +11676,6 @@ mBufferModifiers
 [
 i
 ]
-)
 )
 ;
 zwp_linux_buffer_params_v1_add
@@ -11747,7 +11717,6 @@ i
 }
 LOGDMABUF
 (
-(
 "
 zwp_linux_buffer_params_v1_create_immed
 (
@@ -11773,7 +11742,6 @@ GetHeight
 )
 GetFOURCCFormat
 (
-)
 )
 )
 ;
@@ -11804,7 +11772,6 @@ buffer
 {
 LOGDMABUF
 (
-(
 "
 zwp_linux_buffer_params_v1_create_immed
 (
@@ -11819,13 +11786,11 @@ wl_buffer
 !
 "
 )
-)
 ;
 }
 else
 {
 LOGDMABUF
-(
 (
 "
 created
@@ -11836,7 +11801,6 @@ p
 ]
 "
 buffer
-)
 )
 ;
 }

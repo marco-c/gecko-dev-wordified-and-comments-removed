@@ -282,6 +282,12 @@ YUV
 ;
 #
 endif
+nsAutoCString
+GetDebugTag
+(
+)
+const
+;
 static
 already_AddRefed
 <
