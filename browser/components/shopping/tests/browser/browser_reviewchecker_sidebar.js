@@ -96,7 +96,7 @@ shopping
 .
 experience2023
 .
-shoppingSidebar
+enabled
 "
 false
 ]
