@@ -903,7 +903,7 @@ ok
 (
 BrowserTestUtils
 .
-isHidden
+isVisible
 (
 sidebar
 )
@@ -911,7 +911,9 @@ sidebar
 Unloading
 the
 extension
-causes
+does
+not
+cause
 the
 sidebar
 launcher
