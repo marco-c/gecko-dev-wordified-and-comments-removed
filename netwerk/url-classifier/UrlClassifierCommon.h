@@ -259,6 +259,17 @@ aLoadingState
 )
 ;
 static
+void
+AnnotateChannelWithoutNotifying
+(
+nsIChannel
+*
+aChannel
+uint32_t
+aClassificationFlags
+)
+;
+static
 bool
 IsAllowListed
 (

@@ -118,6 +118,11 @@ UrlClassifierFeatureBase
 cpp
 "
 "
+UrlClassifierFeatureConsentManagerAnnotation
+.
+cpp
+"
+"
 UrlClassifierFeatureCryptominingAnnotation
 .
 cpp
