@@ -1102,14 +1102,6 @@ ScrollbarAnimations
 "
 )
     
-blink_features
-=
-[
-'
-DisableAhemAntialias
-'
-]
-    
 if
 kwargs
 [
@@ -1120,23 +1112,16 @@ enable_mojojs
 :
         
 blink_features
-.
-append
-(
+=
+[
 '
 MojoJS
 '
-)
-        
-blink_features
-.
-append
-(
 '
 MojoJSTest
 '
-)
-    
+]
+        
 chrome_options
 [
 "
