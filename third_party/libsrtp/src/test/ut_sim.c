@@ -40,16 +40,6 @@ b
 uint8_t
 r
 ;
-(
-void
-)
-a
-;
-(
-void
-)
-b
-;
 srtp_cipher_rand_for_tests
 (
 &

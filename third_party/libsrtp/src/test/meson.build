@@ -453,8 +453,6 @@ if
 use_openssl
 or
 use_nss
-or
-use_mbedtls
 )
 and
 rtpw_test_gcm_sh

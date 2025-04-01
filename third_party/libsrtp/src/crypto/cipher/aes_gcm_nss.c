@@ -646,9 +646,6 @@ unsigned
 char
 *
 )
-(
-uintptr_t
-)
 key
 c
 -

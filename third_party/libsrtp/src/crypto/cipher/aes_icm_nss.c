@@ -86,11 +86,6 @@ NSSInitContext
 *
 nss
 ;
-(
-void
-)
-tlen
-;
 debug_print
 (
 srtp_mod_aes_icm
@@ -732,9 +727,6 @@ unsigned
 char
 *
 )
-(
-uintptr_t
-)
 key
 c
 -
@@ -808,11 +800,6 @@ cv
 ;
 v128_t
 nonce
-;
-(
-void
-)
-dir
 ;
 v128_copy_octet_string
 (
