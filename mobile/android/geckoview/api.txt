@@ -11072,6 +11072,17 @@ public
 GeckoSession
 .
 Loader
+textDirectiveUserActivation
+(
+boolean
+)
+;
+method
+NonNull
+public
+GeckoSession
+.
+Loader
 uri
 (
 NonNull

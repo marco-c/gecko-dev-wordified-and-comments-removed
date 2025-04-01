@@ -1118,6 +1118,7 @@ flags
 headers
 headerFilter
 originalInput
+textDirectiveUserActivation
 }
 =
 aData
@@ -1814,6 +1815,7 @@ headers
 :
 additionalHeaders
 csp
+textDirectiveUserActivation
 schemelessInput
 }
 )
