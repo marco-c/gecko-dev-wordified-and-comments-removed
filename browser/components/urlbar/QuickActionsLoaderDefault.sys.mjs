@@ -1737,7 +1737,7 @@ quickactions
 -
 cmd
 -
-viewsource
+viewsource2
 "
 ]
 icon
