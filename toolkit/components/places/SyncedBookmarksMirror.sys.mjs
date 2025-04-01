@@ -7725,7 +7725,7 @@ if
 (
 signal
 .
-interrupted
+aborted
 )
 {
 cancel
