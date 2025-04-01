@@ -1383,6 +1383,13 @@ js
 ]
 [
 "
+browser_net_column_path
+.
+js
+"
+]
+[
+"
 browser_net_column_slow
 -
 request

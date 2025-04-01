@@ -96,6 +96,11 @@ RequestListColumnOverride
 js
 "
 "
+RequestListColumnPath
+.
+js
+"
+"
 RequestListColumnPriority
 .
 js
