@@ -1039,9 +1039,6 @@ view
 -
 popup
 "
-preventDescriptorModifiers
-:
-true
 }
 )
 ;
