@@ -2688,6 +2688,9 @@ String
 return
 try
 {
+val
+fileName
+=
 parseContentDispositionWithFileName
 (
 contentDisposition
@@ -2697,6 +2700,12 @@ contentDisposition
 parseContentDispositionWithFileNameAsterisk
 (
 contentDisposition
+)
+Uri
+.
+decode
+(
+fileName
 )
 }
 catch
