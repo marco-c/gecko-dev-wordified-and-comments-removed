@@ -1,3 +1,5 @@
+import
+pytest
 from
 support
 .
@@ -51,6 +53,11 @@ session
 )
     
 )
+pytest
+.
+mark
+.
+allow_system_access
 def
 test_basic
 (
@@ -82,6 +89,11 @@ session
 .
 window_handle
 )
+pytest
+.
+mark
+.
+allow_system_access
 def
 test_different_handle_than_content_scope
 (
