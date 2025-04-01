@@ -419,12 +419,6 @@ LogHistory
 )
 const
 ;
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
-mWindow
-;
 nsTArray
 <
 RefPtr
