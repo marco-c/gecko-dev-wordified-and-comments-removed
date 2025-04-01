@@ -2008,6 +2008,16 @@ return
 false
 ;
 }
+void
+ExtendRangeToContainSurroundingInvisibleWhiteSpaces
+(
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
+)
+;
 protected
 :
 AutoClonedRangeArray
