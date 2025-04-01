@@ -184,6 +184,13 @@ js
 ]
 [
 "
+browser_vendored
+.
+js
+"
+]
+[
+"
 browser_windowglobal_to_root
 .
 js
