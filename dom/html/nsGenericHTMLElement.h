@@ -3865,6 +3865,7 @@ const
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeEditableState
 (

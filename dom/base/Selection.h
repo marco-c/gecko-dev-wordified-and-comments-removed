@@ -407,6 +407,7 @@ char
 aDetails
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 EndBatchChanges
 (
@@ -2572,6 +2573,11 @@ TextRangeStyle
 aTextRangeStyle
 )
 ;
+[
+[
+nodiscard
+]
+]
 Element
 *
 GetAncestorLimiter
@@ -2579,6 +2585,7 @@ GetAncestorLimiter
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetAncestorLimiter
 (
@@ -3436,6 +3443,7 @@ mRequesterFuncName
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 explicit
 SelectionBatcher
 (
@@ -3464,6 +3472,7 @@ aReasons
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 explicit
 SelectionBatcher
 (
@@ -3511,6 +3520,7 @@ mRequesterFuncName
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 SelectionBatcher
 (
@@ -3521,7 +3531,10 @@ if
 mSelection
 )
 {
+MOZ_KnownLive
+(
 mSelection
+)
 -
 >
 EndBatchChanges

@@ -3718,6 +3718,7 @@ RangeUpdaterRef
 mRangeUpdater
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateSelectionCache
 (
@@ -6644,6 +6645,7 @@ ShouldSkipSpellCheck
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 InitializeSelectionAncestorLimit

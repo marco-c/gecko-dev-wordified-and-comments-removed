@@ -921,6 +921,9 @@ flags
 .
 *
 /
+[
+can_run_script
+]
 void
 scrollSelectionIntoView
 (
@@ -1321,6 +1324,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 characterMove
 (
@@ -1424,6 +1430,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 physicalMove
 (
@@ -1571,6 +1580,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 wordMove
 (
@@ -1665,6 +1677,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 lineMove
 (
@@ -1766,6 +1781,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 intraLineMove
 (

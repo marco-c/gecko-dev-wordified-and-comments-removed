@@ -13212,8 +13212,11 @@ eContentEditable
 {
 if
 (
+const
+RefPtr
+<
 HTMLEditor
-*
+>
 htmlEditor
 =
 nsContentUtils

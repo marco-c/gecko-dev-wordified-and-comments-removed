@@ -1441,6 +1441,7 @@ aRawSelectionType
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 ScrollSelectionIntoView
 (
@@ -1513,6 +1514,7 @@ aVisibility
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PhysicalMove
 (
@@ -1525,6 +1527,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 CharacterMove
 (
@@ -1535,6 +1538,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 WordMove
 (
@@ -1545,7 +1549,7 @@ aExtend
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 LineMove
 (
@@ -1556,6 +1560,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 IntraLineMove
 (
@@ -9426,7 +9431,10 @@ nullptr
 SelectionBatcher
 selectionBatcher
 (
+MOZ_KnownLive
+(
 selection
+)
 __FUNCTION__
 nsISelectionListener
 :
@@ -11522,7 +11530,10 @@ eNormal
 SelectionBatcher
 selectionBatcher
 (
+MOZ_KnownLive
+(
 selection
+)
 __FUNCTION__
 )
 ;
