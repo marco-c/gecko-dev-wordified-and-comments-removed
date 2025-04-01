@@ -8370,7 +8370,7 @@ isMainWindow
 mMenuBar
 -
 >
-PaintAsync
+PaintAsyncIfNeeded
 (
 )
 ;
@@ -10124,7 +10124,7 @@ GetMenuBar
 geckoMenuBar
 -
 >
-PaintAsync
+PaintAsyncIfNeeded
 (
 )
 ;
@@ -10966,7 +10966,7 @@ hiddenWindowMenuBar
 hiddenWindowMenuBar
 -
 >
-PaintAsync
+PaintAsyncIfNeeded
 (
 )
 ;
