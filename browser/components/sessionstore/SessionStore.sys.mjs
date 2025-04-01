@@ -8175,6 +8175,15 @@ _updateSessionStartTime
 state
 )
 ;
+if
+(
+state
+.
+windows
+.
+length
+)
+{
 /
 /
 Make
@@ -8275,6 +8284,7 @@ sizemode
 normal
 "
 ;
+}
 }
 /
 /
