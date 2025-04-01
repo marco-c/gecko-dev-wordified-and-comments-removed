@@ -179,7 +179,7 @@ focus
 .
 ext
 .
-settings
+isAccessibilityEnabled
 class
 FocusSnackbar
 private
@@ -445,8 +445,6 @@ if
 parent
 .
 context
-.
-settings
 .
 isAccessibilityEnabled
 (
