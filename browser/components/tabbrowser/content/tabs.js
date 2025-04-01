@@ -6156,7 +6156,7 @@ tabsInGroup
 insertBefore
 :
 dropElement
-isUserCreated
+isUserTriggered
 :
 true
 color

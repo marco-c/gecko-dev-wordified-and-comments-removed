@@ -2684,6 +2684,11 @@ activeGroup
 .
 saveAndClose
 (
+{
+isUserTriggered
+:
+true
+}
 )
 ;
 }

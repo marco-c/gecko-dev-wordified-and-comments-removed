@@ -8997,7 +8997,7 @@ label
 "
 Food
 "
-isUserCreated
+isUserTriggered
 :
 true
 }
