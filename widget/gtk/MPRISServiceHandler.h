@@ -277,6 +277,12 @@ GetPositionSeconds
 )
 const
 ;
+double
+GetPlaybackRate
+(
+)
+const
+;
 bool
 IsMediaKeySupported
 (
