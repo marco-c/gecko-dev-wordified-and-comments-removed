@@ -330,7 +330,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

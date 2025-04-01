@@ -80,7 +80,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

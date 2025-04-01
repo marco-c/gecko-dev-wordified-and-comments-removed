@@ -49,7 +49,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

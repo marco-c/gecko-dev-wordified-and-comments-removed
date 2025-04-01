@@ -55,7 +55,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;
