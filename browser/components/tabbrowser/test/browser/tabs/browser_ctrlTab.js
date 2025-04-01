@@ -780,7 +780,6 @@ checkTabs
 1
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
@@ -788,7 +787,6 @@ addTab
 gBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
@@ -796,7 +794,6 @@ addTab
 gBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
@@ -804,7 +801,6 @@ addTab
 gBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
@@ -816,7 +812,6 @@ FirefoxViewHandler
 .
 tab
 =
-await
 BrowserTestUtils
 .
 addTab
@@ -1202,7 +1197,6 @@ false
 }
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
@@ -1210,7 +1204,6 @@ addTab
 gBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 addTab
