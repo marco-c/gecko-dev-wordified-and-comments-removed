@@ -14467,6 +14467,9 @@ revamp
 preferenceValue
 &
 &
+isSidebarVisible
+&
+&
 '
 sidebar
 .
@@ -14879,9 +14882,6 @@ integratedSidebar
 '
 |
 preferenceValue
-=
-=
-true
 &
 &
 '
@@ -14891,9 +14891,6 @@ revamp
 '
 |
 preferenceValue
-=
-=
-true
 &
 &
 !
@@ -14933,7 +14930,7 @@ trigger
 id
 :
 "
-sidebarButtonClicked
+reviewCheckerSidebarClosedCallout
 "
 }
 frequency
@@ -16500,6 +16497,9 @@ preferenceValue
 isReviewCheckerInSidebarClosed
 &
 &
+isSidebarVisible
+&
+&
 !
 '
 sidebar
@@ -17174,6 +17174,9 @@ preferenceValue
 =
 =
 1
+&
+&
+isSidebarVisible
 &
 &
 isReviewCheckerInSidebarClosed
