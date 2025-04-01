@@ -11480,6 +11480,9 @@ protected
 bool
 ReadPixels_SharedPrecheck
 (
+GLenum
+*
+inout_readType
 dom
 :
 :
