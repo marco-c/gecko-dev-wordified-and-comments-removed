@@ -239,16 +239,6 @@ command
 addListener
 (
 "
-LanguagesDialog
-"
-"
-dialoghelp
-"
-)
-;
-addListener
-(
-"
 activeLanguages
 "
 "
