@@ -726,7 +726,7 @@ R
 .
 string
 .
-bookmark_undo_deletion
+download_undo_delete_snackbar_action
 )
 onCancel
 =
@@ -1123,7 +1123,10 @@ R
 .
 string
 .
-download_delete_multiple_items_snackbar_1
+download_delete_multiple_items_snackbar_2
+fileItems
+.
+size
 )
 }
 else
@@ -1142,7 +1145,7 @@ R
 .
 string
 .
-download_delete_single_item_snackbar
+download_delete_single_item_snackbar_2
 )
 fileItems
 .

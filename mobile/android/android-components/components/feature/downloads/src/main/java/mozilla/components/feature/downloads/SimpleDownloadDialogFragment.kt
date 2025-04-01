@@ -641,7 +641,7 @@ R
 .
 string
 .
-mozac_feature_downloads_dialog_title2
+mozac_feature_downloads_dialog_title_3
 )
 contentSize
 )
@@ -989,7 +989,7 @@ R
 .
 string
 .
-mozac_feature_downloads_dialog_title2
+mozac_feature_downloads_dialog_title_3
 StringRes
 downloadButtonText
 :

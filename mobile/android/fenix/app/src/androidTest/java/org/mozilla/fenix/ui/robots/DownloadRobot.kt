@@ -1231,8 +1231,8 @@ the
 \
 "
 No
-downloaded
-files
+downloads
+yet
 \
 "
 list
@@ -1256,7 +1256,7 @@ R
 .
 string
 .
-download_empty_message_1
+download_empty_message_2
 )
 )
 waitingTime
@@ -1277,8 +1277,8 @@ the
 \
 "
 No
-downloaded
-files
+downloads
+yet
 \
 "
 list
@@ -1302,8 +1302,8 @@ the
 \
 "
 No
-downloaded
-files
+downloads
+yet
 \
 "
 list
@@ -1328,7 +1328,7 @@ R
 .
 string
 .
-download_empty_message_1
+download_empty_message_2
 )
 )
 .
@@ -1349,8 +1349,8 @@ the
 \
 "
 No
-downloaded
-files
+downloads
+yet
 \
 "
 list

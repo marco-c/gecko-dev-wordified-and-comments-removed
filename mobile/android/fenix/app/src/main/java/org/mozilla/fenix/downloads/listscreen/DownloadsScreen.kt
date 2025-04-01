@@ -2223,7 +2223,7 @@ R
 .
 string
 .
-download_empty_message_1
+download_empty_message_2
 )
 color
 =
