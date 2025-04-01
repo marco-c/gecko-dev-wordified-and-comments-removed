@@ -1,3 +1,5 @@
+import
+six
 from
 mod_pywebsocket
 import
@@ -41,15 +43,11 @@ messages_to_send
         
 message
 =
-message
+six
 .
-encode
+b
 (
-"
-latin
--
-1
-"
+message
 )
         
 header
