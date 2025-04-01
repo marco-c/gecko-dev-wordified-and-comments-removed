@@ -116,7 +116,7 @@ BrowserToolbarStore
 *
 /
 sealed
-class
+interface
 BrowserToolbarAction
 :
 Action
@@ -169,8 +169,6 @@ Boolean
 )
 :
 BrowserToolbarAction
-(
-)
 }
 /
 *
@@ -195,8 +193,6 @@ class
 BrowserDisplayToolbarAction
 :
 BrowserToolbarAction
-(
-)
 {
 /
 *
@@ -396,8 +392,6 @@ class
 BrowserEditToolbarAction
 :
 BrowserToolbarAction
-(
-)
 {
 /
 *
