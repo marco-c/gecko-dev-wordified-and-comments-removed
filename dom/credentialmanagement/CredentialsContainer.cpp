@@ -508,8 +508,10 @@ ConsumeTransientUserGestureActivation
 )
 ;
 }
-static
 bool
+CredentialsContainer
+:
+:
 IsSameOriginWithAncestors
 (
 nsPIDOMWindowInner
