@@ -37,9 +37,24 @@ test_null
 bidi_session
 top_context
 test_page
+wait_for_event
+wait_for_future_safe
+subscribe_events
 type_hint
 )
 :
+    
+await
+subscribe_events
+(
+[
+"
+browsingContext
+.
+contextCreated
+"
+]
+)
     
 await
 bidi_session
@@ -77,6 +92,17 @@ context
 "
 ]
     
+on_context_created
+=
+wait_for_event
+(
+"
+browsingContext
+.
+contextCreated
+"
+)
+    
 other_top_level_context
 =
 await
@@ -89,6 +115,14 @@ create
 type_hint
 =
 type_hint
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_context_created
 )
     
 other_top_level_context_id
@@ -187,6 +221,15 @@ None
 url
 =
 test_page
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -212,6 +255,15 @@ about
 :
 blank
 "
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
 pytest
@@ -239,9 +291,24 @@ test_top_level_context
 bidi_session
 top_context
 test_page
+wait_for_event
+wait_for_future_safe
+subscribe_events
 type_hint
 )
 :
+    
+await
+subscribe_events
+(
+[
+"
+browsingContext
+.
+contextCreated
+"
+]
+)
     
 await
 bidi_session
@@ -270,6 +337,17 @@ complete
     
 )
     
+on_context_created
+=
+wait_for_event
+(
+"
+browsingContext
+.
+contextCreated
+"
+)
+    
 other_top_level_context
 =
 await
@@ -282,6 +360,14 @@ create
 type_hint
 =
 type_hint
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_context_created
 )
     
 other_top_level_context_id
@@ -341,6 +427,15 @@ about
 :
 blank
 "
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
 async
@@ -442,6 +537,15 @@ None
 url
 =
 test_page_nested_frames
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -481,6 +585,15 @@ None
 url
 =
 test_page_same_origin_frame
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -551,6 +664,15 @@ context
 url
 =
 test_page_same_origin_frame
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
