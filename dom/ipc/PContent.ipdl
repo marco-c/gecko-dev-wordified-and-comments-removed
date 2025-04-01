@@ -253,6 +253,10 @@ PRemoteDecoderManager
 ;
 include
 protocol
+PRemoteWorkerDebuggerManager
+;
+include
+protocol
 PRemoteWorkerService
 ;
 include
@@ -4582,6 +4586,11 @@ Endpoint
 PRemoteWorkerServiceChild
 >
 aEndpoint
+Endpoint
+<
+PRemoteWorkerDebuggerManagerChild
+>
+aDebuggerChildEp
 )
 ;
 /
