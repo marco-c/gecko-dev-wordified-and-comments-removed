@@ -495,8 +495,7 @@ close_after_done
 True
 capabilities
 =
-{
-}
+None
 debug_info
 =
 None
@@ -604,8 +603,7 @@ screenshot_cache
 None
 capabilities
 =
-{
-}
+None
 debug_info
 =
 None
@@ -708,8 +706,7 @@ screenshot_cache
 None
 capabilities
 =
-{
-}
+None
 debug_info
 =
 None
