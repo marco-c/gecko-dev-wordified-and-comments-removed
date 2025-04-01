@@ -3232,11 +3232,11 @@ terms_of_use
 terms
 of
 use
-.
 <
 /
 a
 >
+.
 shopping
 -
 onboarding
@@ -4076,11 +4076,11 @@ terms_of_use
 terms
 of
 use
-.
 <
 /
 a
 >
+.
 shopping
 -
 opt
