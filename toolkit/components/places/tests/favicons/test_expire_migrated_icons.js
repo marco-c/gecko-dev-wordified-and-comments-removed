@@ -73,9 +73,7 @@ PAGE_URL
 )
 ;
 await
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
 (
@@ -195,9 +193,7 @@ favicon
 )
 ;
 await
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
 (

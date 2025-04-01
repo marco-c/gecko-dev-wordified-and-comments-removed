@@ -11976,9 +11976,7 @@ testtag
 )
 ;
 await
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
 (
