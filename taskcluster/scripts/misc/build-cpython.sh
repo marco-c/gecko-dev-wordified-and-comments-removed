@@ -227,6 +227,11 @@ macosx_version_min
 ;
 ;
 esac
+macosx_sdk
+=
+14
+.
+4
 #
 NOTE
 :
@@ -254,9 +259,10 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX15
-.
-0
+MacOSX
+{
+macosx_sdk
+}
 .
 sdk
 -

@@ -835,9 +835,7 @@ macosx64
 -
 sdk
 -
-13
-.
-3
+toolchain
 linux64
 -
 clang

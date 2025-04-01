@@ -256,9 +256,9 @@ arg
 =
 MOZ_FETCHES_DIR
 /
-MacOSX15
+MacOSX14
 .
-0
+4
 .
 sdk
 -
