@@ -46,6 +46,22 @@ response
 )
 :
     
+test_session_manager
+=
+session_manager
+.
+find_for_request
+(
+request
+)
+    
+test_session_manager
+.
+set_has_called_refresh
+(
+True
+)
+    
 session_id_header
 =
 request
@@ -91,15 +107,6 @@ utf
 -
 8
 '
-)
-    
-test_session_manager
-=
-session_manager
-.
-find_for_request
-(
-request
 )
     
 if
