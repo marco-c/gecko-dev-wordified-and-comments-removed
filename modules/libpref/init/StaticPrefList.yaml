@@ -68138,6 +68138,15 @@ value
 :
 true
 #
+elif
+defined
+(
+XP_WIN
+)
+value
+:
+IS_NIGHTLY_BUILD
+#
 else
 value
 :
