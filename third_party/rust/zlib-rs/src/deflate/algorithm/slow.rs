@@ -194,8 +194,6 @@ prev_match
 state
 .
 match_start
-as
-u16
 ;
 match_len
 =
@@ -313,6 +311,8 @@ if
 state
 .
 prev_length
+as
+usize
 >
 =
 STD_MIN_MATCH
@@ -324,6 +324,8 @@ match_len
 state
 .
 prev_length
+as
+usize
 {
 let
 max_insert
@@ -358,6 +360,8 @@ usize
 state
 .
 prev_length
+as
+usize
 -
 STD_MIN_MATCH
 )
@@ -377,6 +381,8 @@ lookahead
 state
 .
 prev_length
+as
+usize
 ;
 let
 mov_fwd
@@ -384,6 +390,8 @@ mov_fwd
 state
 .
 prev_length
+as
+usize
 -
 1
 ;
@@ -508,6 +516,8 @@ state
 prev_length
 =
 match_len
+as
+u16
 ;
 stream
 .
@@ -550,6 +560,8 @@ state
 prev_length
 =
 match_len
+as
+u16
 ;
 state
 .
