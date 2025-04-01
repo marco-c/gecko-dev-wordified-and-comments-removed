@@ -71,12 +71,6 @@ shadow
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 graphics
 .
 Bitmap
@@ -110,6 +104,12 @@ android
 view
 .
 Window
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 org
 .
@@ -153,7 +153,7 @@ VERSION_CODES
 .
 N
 )
-TargetApi
+RequiresApi
 (
 Build
 .
