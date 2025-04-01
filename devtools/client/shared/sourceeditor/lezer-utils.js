@@ -230,9 +230,7 @@ Set
 .
 .
 .
-nodeTypeSets
-.
-functions
+functionsSet
 nodeTypes
 .
 VariableDeclaration
