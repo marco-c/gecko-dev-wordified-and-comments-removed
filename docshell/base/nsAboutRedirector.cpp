@@ -584,6 +584,11 @@ nsIAboutModule
 :
 :
 IS_SECURE_CHROME_UI
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 #
 endif
