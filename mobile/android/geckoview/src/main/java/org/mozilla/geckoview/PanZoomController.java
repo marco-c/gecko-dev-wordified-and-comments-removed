@@ -2629,6 +2629,16 @@ false
 if
 (
 !
+mAttached
+)
+{
+return
+false
+;
+}
+if
+(
+!
 GeckoDragAndDrop
 .
 onDragEvent
