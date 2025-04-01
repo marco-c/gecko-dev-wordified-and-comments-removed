@@ -72,11 +72,14 @@ extra
 for
 (
 const
+[
+key
 val
+]
 of
 Object
 .
-values
+entries
 (
 extra
 )
@@ -94,9 +97,11 @@ throw
 new
 Error
 (
-"
 Extra
-parameters
+parameter
+{
+key
+}
 in
 telemetry
 events
@@ -104,7 +109,6 @@ must
 not
 be
 null
-"
 )
 ;
 }
