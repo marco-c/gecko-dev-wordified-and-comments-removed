@@ -59,6 +59,17 @@ plugin
 '
 jacoco
 '
+if
+(
+gradle
+.
+mozconfig
+.
+substs
+.
+MOZILLA_OFFICIAL
+)
+{
 apply
 plugin
 :
@@ -77,6 +88,7 @@ licenses
 -
 plugin
 '
+}
 def
 versionCodeGradle
 =
