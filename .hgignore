@@ -356,6 +356,15 @@ obj
 *
 /
 #
+Gradle
+build
+errors
+^
+build
+/
+reports
+/
+#
 gecko
 .
 log
