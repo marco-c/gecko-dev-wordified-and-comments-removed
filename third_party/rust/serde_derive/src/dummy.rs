@@ -97,6 +97,10 @@ allow
 non_upper_case_globals
 unused_attributes
 unused_qualifications
+clippy
+:
+:
+absolute_paths
 )
 ]
 const

@@ -35,7 +35,7 @@ version
 .
 0
 .
-93
+94
 "
 source
 =
@@ -71,7 +71,7 @@ ident
 .
 0
 .
-17
+18
 (
 registry
 +
@@ -112,7 +112,7 @@ version
 .
 0
 .
-38
+39
 "
 source
 =
@@ -148,7 +148,7 @@ macro2
 .
 0
 .
-93
+94
 (
 registry
 +
@@ -189,7 +189,7 @@ version
 .
 0
 .
-218
+219
 "
 dependencies
 =
@@ -200,7 +200,7 @@ serde_derive
 .
 0
 .
-218
+219
 (
 registry
 +
@@ -241,7 +241,7 @@ version
 .
 0
 .
-218
+219
 "
 source
 =
@@ -277,7 +277,7 @@ macro2
 .
 0
 .
-93
+94
 (
 registry
 +
@@ -306,7 +306,7 @@ quote
 .
 0
 .
-38
+39
 (
 registry
 +
@@ -335,7 +335,7 @@ syn
 .
 0
 .
-98
+99
 (
 registry
 +
@@ -376,7 +376,7 @@ version
 .
 0
 .
-98
+99
 "
 source
 =
@@ -412,7 +412,7 @@ macro2
 .
 0
 .
-93
+94
 (
 registry
 +
@@ -441,7 +441,7 @@ quote
 .
 0
 .
-38
+39
 (
 registry
 +
@@ -472,7 +472,7 @@ ident
 .
 0
 .
-17
+18
 (
 registry
 +
@@ -515,7 +515,7 @@ version
 .
 0
 .
-17
+18
 "
 source
 =
@@ -552,7 +552,7 @@ macro2
 .
 0
 .
-93
+94
 (
 registry
 +
@@ -577,7 +577,7 @@ index
 "
 =
 "
-60946a68e5f9d28b0dc1c21bb8a97ee7d018a8b322fa57838ba31cc878e22d99
+a31971752e70b8b2686d7e46ec17fb38dad4051d94024c88df49b667caea9c84
 "
 "
 checksum
@@ -586,7 +586,7 @@ quote
 .
 0
 .
-38
+39
 (
 registry
 +
@@ -611,7 +611,7 @@ index
 "
 =
 "
-0e4dccaaaf89514f546c693ddc140f729f958c247918a13380cccc6078391acc
+c1f1914ce909e1658d9907913b4b91947430c7d9be598b15a1912935b8c04801
 "
 "
 checksum
@@ -620,7 +620,7 @@ serde_derive
 .
 0
 .
-218
+219
 (
 registry
 +
@@ -645,7 +645,7 @@ index
 "
 =
 "
-f09503e191f4e797cb8aac08e9a4a4695c5edf6a2e70e376d961ddd5c969f82b
+5b0276cf7f2c73365f7157c8123c21cd9a50fbbd844757af28ca1f5925fc2a00
 "
 "
 checksum
@@ -654,7 +654,7 @@ syn
 .
 0
 .
-98
+99
 (
 registry
 +
@@ -679,7 +679,7 @@ index
 "
 =
 "
-36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1
+e02e925281e18ffd9d640e234264753c43edc62d64b2d4cf898f1bc5e75f3fc2
 "
 "
 checksum
@@ -690,7 +690,7 @@ ident
 .
 0
 .
-17
+18
 (
 registry
 +
@@ -715,5 +715,5 @@ index
 "
 =
 "
-00e2473a93778eb0bad35909dff6a10d28e63f792f16ed15e404fca9d5eeedbe
+5a5f39404a5da50712a4c1eecf25e90dd62b613502b7e925fd4e4d19b5c96512
 "
