@@ -2478,7 +2478,7 @@ isMemory
 payload
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -3693,7 +3693,7 @@ if
 type
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -3703,7 +3703,7 @@ if
 payload
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -3754,7 +3754,7 @@ if
 payload
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -3806,7 +3806,7 @@ if
 payload
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )

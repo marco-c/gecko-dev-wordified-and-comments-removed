@@ -945,7 +945,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -2281,7 +2281,7 @@ isCall
 &
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -2293,7 +2293,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )

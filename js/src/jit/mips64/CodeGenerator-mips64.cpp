@@ -394,7 +394,7 @@ if
 input
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -1727,7 +1727,7 @@ value
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )

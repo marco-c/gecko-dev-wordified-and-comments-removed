@@ -328,7 +328,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 ;

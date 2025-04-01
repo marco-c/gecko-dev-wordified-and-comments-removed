@@ -1009,7 +1009,7 @@ if
 rhs
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -1266,7 +1266,7 @@ if
 rhs
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -17414,7 +17414,7 @@ low
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )

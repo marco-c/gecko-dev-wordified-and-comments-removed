@@ -932,7 +932,7 @@ ARGUMENT_SLOT
 ;
 }
 bool
-isRegister
+isAnyRegister
 (
 )
 const
@@ -8521,7 +8521,7 @@ MOZ_ASSERT
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -8560,7 +8560,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -8691,7 +8691,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -8731,7 +8731,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -8948,7 +8948,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -8988,7 +8988,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -9754,7 +9754,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -9845,7 +9845,7 @@ if
 (
 alloc
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -10922,7 +10922,7 @@ const
 {
 MOZ_ASSERT
 (
-isRegister
+isAnyRegister
 (
 )
 )

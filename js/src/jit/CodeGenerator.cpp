@@ -7491,7 +7491,7 @@ if
 input
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -9618,7 +9618,7 @@ if
 right
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -9712,7 +9712,7 @@ if
 right
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -9989,7 +9989,7 @@ if
 right
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -10083,7 +10083,7 @@ if
 right
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -23898,7 +23898,7 @@ if
 arg
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -45259,7 +45259,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -90147,7 +90147,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -90223,7 +90223,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -90552,7 +90552,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -90897,7 +90897,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -91069,7 +91069,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -91131,7 +91131,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -114771,7 +114771,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -114947,7 +114947,7 @@ if
 length
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
