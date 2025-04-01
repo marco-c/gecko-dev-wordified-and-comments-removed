@@ -990,7 +990,6 @@ nextElementInOrder
 (
 element
 reverse
-originalParent
 )
 {
 let
@@ -1049,6 +1048,10 @@ parentNode
 ;
 if
 (
+!
+element
+|
+|
 element
 .
 localName
@@ -1067,12 +1070,6 @@ localName
 "
 fieldset
 "
-|
-|
-element
-=
-=
-originalParent
 )
 {
 break
