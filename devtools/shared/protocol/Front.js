@@ -1041,6 +1041,7 @@ this
 .
 actorID
 type
+packet
 stack
 :
 getStack
@@ -1372,6 +1373,9 @@ err
 const
 {
 deferred
+packet
+:
+clientPacket
 stack
 }
 =
@@ -1500,11 +1504,15 @@ message
 ;
 packetError
 .
-serverStack
+serverPacket
 =
 packet
+;
+packetError
 .
-stack
+clientPacket
+=
+clientPacket
 ;
 deferred
 .
