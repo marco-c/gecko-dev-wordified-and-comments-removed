@@ -2311,7 +2311,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 )

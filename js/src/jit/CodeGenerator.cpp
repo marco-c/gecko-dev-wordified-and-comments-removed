@@ -58150,7 +58150,7 @@ suspender
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -58170,7 +58170,7 @@ fn
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -58190,7 +58190,7 @@ data
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -58928,7 +58928,7 @@ suspender
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -58948,7 +58948,7 @@ fn
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -58968,7 +58968,7 @@ data
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -59938,7 +59938,7 @@ suspender
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
@@ -59958,7 +59958,7 @@ result
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 .
