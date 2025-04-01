@@ -427,12 +427,5 @@ Init
 -
 >
 state
-is
-DownloadUIAction
-.
-ShareUrlClicked
--
->
-state
 }
 }
