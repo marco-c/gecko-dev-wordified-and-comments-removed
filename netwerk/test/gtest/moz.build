@@ -23,11 +23,6 @@ TestCacheControlParser
 cpp
 "
 "
-TestCapsule
-.
-cpp
-"
-"
 TestCommon
 .
 cpp
