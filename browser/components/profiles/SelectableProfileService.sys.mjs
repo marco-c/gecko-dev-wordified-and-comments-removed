@@ -771,13 +771,6 @@ enabled
 "
 datareporting
 .
-healthreport
-.
-uploadEnabled
-"
-"
-datareporting
-.
 policy
 .
 currentPolicyVersion
