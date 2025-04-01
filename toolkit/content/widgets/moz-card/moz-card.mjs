@@ -392,6 +392,9 @@ heading
 type
 :
 String
+fluent
+:
+true
 }
 icon
 :
