@@ -149,7 +149,7 @@ awesomebar
 .
 facts
 .
-emitSearchTermSuggestionClickedFact
+emitRecentSearchSuggestionClickedFact
 import
 mozilla
 .
@@ -876,7 +876,7 @@ invoke
 (
 safeSearchTerm
 )
-emitSearchTermSuggestionClickedFact
+emitRecentSearchSuggestionClickedFact
 (
 )
 }
