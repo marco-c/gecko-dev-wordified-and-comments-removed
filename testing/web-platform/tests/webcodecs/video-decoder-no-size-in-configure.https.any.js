@@ -404,7 +404,9 @@ assert_equals
 (
 decodedResult
 .
-codedWidth
+visibleRect
+.
+width
 encoderConfig
 .
 width
@@ -419,7 +421,9 @@ assert_equals
 (
 decodedResult
 .
-codedHeight
+visibleRect
+.
+height
 encoderConfig
 .
 height
