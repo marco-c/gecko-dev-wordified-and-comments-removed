@@ -233,6 +233,10 @@ body1
 onUrlClicked
 =
 onClick
+onInteraction
+=
+{
+}
 )
 }
 Composable

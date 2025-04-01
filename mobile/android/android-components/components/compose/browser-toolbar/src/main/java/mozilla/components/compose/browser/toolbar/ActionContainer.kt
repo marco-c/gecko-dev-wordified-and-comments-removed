@@ -421,6 +421,11 @@ icon
 action
 .
 icon
+iconResource
+=
+action
+.
+iconResource
 contentDescription
 =
 stringResource

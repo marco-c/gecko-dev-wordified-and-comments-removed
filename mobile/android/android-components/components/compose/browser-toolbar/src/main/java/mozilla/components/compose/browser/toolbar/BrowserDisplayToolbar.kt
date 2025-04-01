@@ -592,9 +592,6 @@ BrowserToolbarEvent
 -
 >
 Unit
-=
-{
-}
 )
 {
 Row
@@ -959,6 +956,10 @@ onClick
 }
 )
 )
+onInteraction
+=
+{
+}
 )
 }
 }
