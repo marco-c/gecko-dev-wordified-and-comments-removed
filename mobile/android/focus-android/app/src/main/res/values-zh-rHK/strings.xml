@@ -936,6 +936,13 @@ name
 "
 menu_rights
 "
+moz
+:
+removedIn
+=
+"
+137
+"
 >
 <
 /
@@ -6634,6 +6641,13 @@ name
 =
 "
 your_rights_content1
+"
+moz
+:
+removedIn
+=
+"
+137
 "
 >
 %
