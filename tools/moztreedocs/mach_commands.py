@@ -1943,6 +1943,16 @@ with
 open
 (
 warn_path
+"
+r
+"
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 warn_file
