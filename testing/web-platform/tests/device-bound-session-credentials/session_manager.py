@@ -82,6 +82,7 @@ None
 raise
 Exception
 (
+f
 "
 Could
 not
@@ -90,9 +91,10 @@ manager
 for
 test_id
 :
-"
-+
+{
 test_id
+}
+"
 )
     
 return
@@ -170,18 +172,17 @@ None
 :
             
 return
+f
 "
 Domain
 =
-"
-+
+{
 request
 .
 url_parts
 .
 hostname
-+
-"
+}
 ;
 Path
 =

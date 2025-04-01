@@ -179,16 +179,15 @@ None
         
 authorization_header
 =
+f
 '
 ;
 authorization
 =
 "
-'
-+
+{
 authorization_value
-+
-'
+}
 "
 '
     
@@ -218,6 +217,7 @@ Session
 -
 Registration
 '
+f
 '
 (
 RS256
@@ -232,15 +232,14 @@ login_challenge_value
 path
 =
 "
-'
-+
+{
 registration_url
-+
-'
+}
 "
-'
-+
+{
 authorization_header
+}
+'
 )
 )
     

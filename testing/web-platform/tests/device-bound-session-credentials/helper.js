@@ -143,9 +143,9 @@ document
 .
 cookie
 =
+{
 cookieAndAttributes
-+
-'
+}
 ;
 expires
 =
@@ -160,7 +160,6 @@ Jan
 00
 UTC
 ;
-'
 ;
 }
 export
