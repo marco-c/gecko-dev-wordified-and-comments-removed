@@ -21,6 +21,7 @@ import
 {
 mapFrames
 fetchFrames
+updateAllFrameDisplayNames
 }
 from
 "
@@ -214,6 +215,15 @@ getState
 (
 )
 selectedFrame
+)
+;
+await
+dispatch
+(
+updateAllFrameDisplayNames
+(
+thread
+)
 )
 ;
 await
