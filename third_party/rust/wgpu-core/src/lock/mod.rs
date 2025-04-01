@@ -4,6 +4,17 @@ rank
 ;
 #
 [
+cfg
+(
+feature
+=
+"
+std
+"
+)
+]
+#
+[
 cfg_attr
 (
 not

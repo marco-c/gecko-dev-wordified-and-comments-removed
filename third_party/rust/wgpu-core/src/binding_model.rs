@@ -48,15 +48,6 @@ Range
 }
 ;
 use
-std
-:
-:
-sync
-:
-:
-OnceLock
-;
-use
 arrayvec
 :
 :
@@ -3826,7 +3817,10 @@ crate
 )
 exclusive_pipeline
 :
-OnceLock
+crate
+:
+:
+OnceCellOrLock
 <
 ExclusivePipeline
 >

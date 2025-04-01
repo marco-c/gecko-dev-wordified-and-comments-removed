@@ -10935,16 +10935,6 @@ back
 :
 INDENT
 ;
-const
-RETURN_VARIABLE_NAME
-:
-&
-str
-=
-"
-ret
-"
-;
 if
 let
 crate

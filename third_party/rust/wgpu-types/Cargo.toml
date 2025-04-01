@@ -360,6 +360,13 @@ strict_asserts
 =
 [
 ]
+trace
+=
+[
+"
+std
+"
+]
 [
 lib
 ]
@@ -492,7 +499,7 @@ version
 .
 0
 .
-139
+140
 "
 [
 target

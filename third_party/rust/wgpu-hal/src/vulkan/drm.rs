@@ -116,10 +116,10 @@ extensions
 contains
 (
 &
-khr
+ext
 :
 :
-display
+acquire_drm_display
 :
 :
 NAME
@@ -142,7 +142,7 @@ driver
 does
 not
 support
-VK_KHR_display
+VK_EXT_acquire_drm_display
 "
 .
 to_string

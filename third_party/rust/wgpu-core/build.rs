@@ -30,6 +30,13 @@ android
 send_sync
 :
 {
+all
+(
+feature
+=
+"
+std
+"
 any
 (
 not
@@ -64,6 +71,7 @@ target_feature
 "
 atomics
 "
+)
 )
 )
 )

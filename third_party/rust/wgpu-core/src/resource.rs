@@ -6130,7 +6130,7 @@ pub
 (
 crate
 )
-hal_usage
+_hal_usage
 :
 wgt
 :
@@ -6288,6 +6288,8 @@ _
 (
 )
 )
+_hal_usage
+:
 hal_usage
 format_features
 initialization_status
