@@ -89,6 +89,16 @@ feature
 .
 LifecycleAwareFeature
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+RunWhenReadyQueue
+import
 org
 .
 mozilla
@@ -148,6 +158,11 @@ val
 surface
 :
 MessageSurfaceId
+private
+val
+runWhenReadyQueue
+:
+RunWhenReadyQueue
 )
 :
 LifecycleAwareFeature
@@ -157,6 +172,10 @@ fun
 start
 (
 )
+{
+runWhenReadyQueue
+.
+runIfReadyOrQueue
 {
 appStore
 .
@@ -169,6 +188,7 @@ Evaluate
 surface
 )
 )
+}
 }
 override
 fun

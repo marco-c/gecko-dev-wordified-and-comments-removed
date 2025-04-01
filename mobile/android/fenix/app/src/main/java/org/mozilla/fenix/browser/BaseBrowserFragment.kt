@@ -9735,6 +9735,15 @@ surface
 FenixMessageSurfaceId
 .
 MICROSURVEY
+runWhenReadyQueue
+=
+requireComponents
+.
+performance
+.
+visualCompletenessQueue
+.
+queue
 )
 owner
 =
