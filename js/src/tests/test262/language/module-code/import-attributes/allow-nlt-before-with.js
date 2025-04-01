@@ -14,9 +14,6 @@ evaluated
 import
 "
 .
-.
-/
-resources
 /
 ensure
 -

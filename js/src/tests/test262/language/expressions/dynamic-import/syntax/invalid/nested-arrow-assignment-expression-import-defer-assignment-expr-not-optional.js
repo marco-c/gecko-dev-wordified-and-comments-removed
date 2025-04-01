@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+let
+f
+=
+(
+)
+=
+>
+import
+.
+defer
+(
+)
+;

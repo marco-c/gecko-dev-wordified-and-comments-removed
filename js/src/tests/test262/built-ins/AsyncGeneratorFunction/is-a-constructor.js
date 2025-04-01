@@ -1,3 +1,15 @@
+var
+AsyncGeneratorFunction
+=
+getWellKnownIntrinsicObject
+(
+'
+%
+AsyncGeneratorFunction
+%
+'
+)
+;
 assert
 .
 sameValue

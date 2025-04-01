@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+{
+import
+.
+defer
+(
+)
+;
+}
+;

@@ -1,3 +1,15 @@
+var
+AsyncFunction
+=
+getWellKnownIntrinsicObject
+(
+'
+%
+AsyncFunction
+%
+'
+)
+;
 assert
 .
 sameValue

@@ -126,6 +126,8 @@ for
 throwlhs
 (
 )
+.
+x
 )
 of
 iterable

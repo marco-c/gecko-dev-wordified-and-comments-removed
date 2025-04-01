@@ -1,3 +1,15 @@
+var
+GeneratorFunction
+=
+getWellKnownIntrinsicObject
+(
+'
+%
+GeneratorFunction
+%
+'
+)
+;
 assert
 .
 sameValue

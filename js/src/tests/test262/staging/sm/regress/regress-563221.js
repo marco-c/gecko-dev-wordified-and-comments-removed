@@ -48,14 +48,6 @@ e
 "
 )
 ;
-if
-(
-this
-.
-assert
-.
-sameValue
-)
 reportCompare
 (
 0

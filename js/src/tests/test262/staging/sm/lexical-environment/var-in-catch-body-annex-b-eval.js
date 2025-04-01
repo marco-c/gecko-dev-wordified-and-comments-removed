@@ -84,16 +84,6 @@ log
 "
 )
 ;
-if
-(
-"
-assert
-.
-sameValue
-"
-in
-this
-)
 reportCompare
 (
 0

@@ -191,7 +191,7 @@ calculation
 correctly
 for
 largestUnit
-milliseconds
+microseconds
 "
 )
 ;

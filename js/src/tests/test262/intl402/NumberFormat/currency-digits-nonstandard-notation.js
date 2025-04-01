@@ -116,7 +116,17 @@ assert
 sameValue
 (
 maximumFractionDigits
+notation
+!
+=
+=
+"
+compact
+"
+?
 3
+:
+0
 "
 Didn
 '

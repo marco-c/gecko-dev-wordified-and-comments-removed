@@ -125,6 +125,8 @@ detachArrayBuffer
 ab
 )
 ;
+262
+.
 gc
 (
 )

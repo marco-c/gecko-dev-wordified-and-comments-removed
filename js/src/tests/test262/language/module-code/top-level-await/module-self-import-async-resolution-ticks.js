@@ -112,7 +112,6 @@ sameValue
 (
 self
 42
-)
 '
 self
 is
@@ -120,6 +119,7 @@ initialized
 after
 export
 '
+)
 ;
 DONE
 (

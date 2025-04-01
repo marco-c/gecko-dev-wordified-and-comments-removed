@@ -10,8 +10,8 @@ TestUsingWithNull
 (
 )
 {
-let
 using
+x
 =
 null
 ;
@@ -49,8 +49,8 @@ TestUsingWithUndefined
 (
 )
 {
-let
 using
+x
 =
 undefined
 ;

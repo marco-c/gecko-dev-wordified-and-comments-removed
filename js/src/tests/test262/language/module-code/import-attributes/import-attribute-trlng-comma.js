@@ -5,9 +5,6 @@ DONOTEVALUATE
 import
 "
 .
-.
-/
-resources
 /
 ensure
 -

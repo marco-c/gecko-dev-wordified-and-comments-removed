@@ -264,6 +264,8 @@ length
 -
 1
 ;
+try
+{
 gToSpliced
 .
 call
@@ -274,12 +276,16 @@ arrayLike
 1
 )
 ;
+}
+finally
+{
 arrayLike
 .
 length
 =
 oldLen
 ;
+}
 }
 ]
 ]

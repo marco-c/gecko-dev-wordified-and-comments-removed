@@ -3064,7 +3064,7 @@ deMonthYearSeparator
 {
 deDateRangeSeparator
 }
-02
+2
 {
 deMonthYearSeparator
 }
@@ -6295,7 +6295,7 @@ month
 value
 :
 "
-02
+2
 "
 source
 :

@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+true
+)
+{
+import
+.
+defer
+(
+)
+;
+}

@@ -118,6 +118,8 @@ PlainDate
 26
 "
 islamic
+-
+tbla
 "
 )
 ;
@@ -135,6 +137,8 @@ u
 ca
 -
 islamic
+-
+tbla
 "
 {
 dateStyle
@@ -180,6 +184,8 @@ u
 ca
 -
 islamic
+-
+tbla
 "
 {
 dateStyle

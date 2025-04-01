@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+function
+fn
+(
+)
+{
+return
+import
+.
+defer
+(
+)
+;
+}
