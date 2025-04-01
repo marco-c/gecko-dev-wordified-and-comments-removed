@@ -109,6 +109,11 @@ headers
 ^
 "
 "
+server_loginStatus
+.
+sjs
+"
+"
 server_manifest_disconnect_failure
 .
 json
@@ -158,6 +163,13 @@ js
 [
 "
 browser_disconnect
+.
+js
+"
+]
+[
+"
+browser_loginStatus
 .
 js
 "
