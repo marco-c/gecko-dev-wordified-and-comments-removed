@@ -78,6 +78,13 @@ html
 ]
 [
 "
+test_pending
+.
+html
+"
+]
+[
+"
 test_scenario
 .
 html
@@ -86,6 +93,13 @@ html
 [
 "
 test_send_receive
+.
+html
+"
+]
+[
+"
+test_utils
 .
 html
 "
