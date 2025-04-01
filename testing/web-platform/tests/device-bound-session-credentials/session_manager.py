@@ -183,6 +183,21 @@ scope_specification_items
 ]
     
 def
+next_session_id_value
+(
+self
+)
+:
+        
+return
+len
+(
+self
+.
+session_to_key_map
+)
+    
+def
 next_session_id
 (
 self
@@ -192,11 +207,10 @@ self
 return
 str
 (
-len
-(
 self
 .
-session_to_key_map
+next_session_id_value
+(
 )
 )
     
@@ -449,36 +463,54 @@ cookie_name_and_value
 =
 cookie_name_and_value
         
-next_session_cookie_name_and_value
+next_sessions_cookie_names_and_values
 =
 configuration
 .
 get
 (
 "
-cookieNameAndValueForNextRegisteredSession
+cookieNamesAndValuesForNextRegisteredSessions
 "
 )
         
 if
-next_session_cookie_name_and_value
+next_sessions_cookie_names_and_values
 is
 not
 None
 :
             
+next_session_id_value
+=
+self
+.
+next_session_id_value
+(
+)
+            
+for
+cookie_name_and_value
+in
+next_sessions_cookie_names_and_values
+:
+                
 self
 .
 session_to_cookie_name_and_value_map
 [
-self
-.
-next_session_id
+str
 (
+next_session_id_value
 )
 ]
 =
-next_session_cookie_name_and_value
+cookie_name_and_value
+                
+next_session_id_value
++
+=
+1
         
 next_session_early_challenge
 =
