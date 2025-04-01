@@ -111,10 +111,9 @@ runs
 -
 on
 :
--
 ubuntu
 -
-22
+24
 .
 04
 permissions
@@ -329,10 +328,9 @@ runs
 -
 on
 :
--
 ubuntu
 -
-22
+24
 .
 04
 steps

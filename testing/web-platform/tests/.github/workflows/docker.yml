@@ -59,7 +59,9 @@ on
 :
 ubuntu
 -
-latest
+24
+.
+04
 permissions
 :
 contents
