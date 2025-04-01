@@ -402,6 +402,16 @@ mValid
 =
 false
 ;
+buffer
+-
+>
+SetLabel
+(
+aDesc
+.
+mLabel
+)
+;
 return
 buffer
 .

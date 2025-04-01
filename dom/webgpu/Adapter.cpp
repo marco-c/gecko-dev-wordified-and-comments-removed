@@ -3374,6 +3374,16 @@ ffiDesc
 required_limits
 )
 ;
+device
+-
+>
+SetLabel
+(
+aDesc
+.
+mLabel
+)
+;
 for
 (
 const
