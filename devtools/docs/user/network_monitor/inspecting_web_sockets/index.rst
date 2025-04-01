@@ -229,8 +229,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Status
 /
 101

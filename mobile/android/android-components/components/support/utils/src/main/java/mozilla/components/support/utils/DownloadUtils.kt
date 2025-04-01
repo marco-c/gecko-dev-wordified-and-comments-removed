@@ -567,8 +567,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 Content

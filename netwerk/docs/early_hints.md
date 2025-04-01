@@ -82,8 +82,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 Link
