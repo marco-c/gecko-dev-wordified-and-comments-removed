@@ -718,6 +718,11 @@ monitorCalled
 =
 false
 ;
+let
+createdTranslator
+=
+false
+;
 const
 progressEvents
 =
@@ -745,6 +750,11 @@ e
 =
 >
 {
+assert_false
+(
+createdTranslator
+)
+;
 progressEvents
 .
 push
@@ -773,6 +783,10 @@ ja
 monitor
 }
 )
+;
+createdTranslator
+=
+true
 ;
 assert_true
 (
