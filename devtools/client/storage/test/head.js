@@ -3840,7 +3840,7 @@ gUI
 .
 view
 .
-_currHierarchy
+_testOnlyHierarchy
 .
 size
 2
@@ -3865,7 +3865,7 @@ gUI
 .
 view
 .
-_currHierarchy
+_testOnlyHierarchy
 .
 size
 2
