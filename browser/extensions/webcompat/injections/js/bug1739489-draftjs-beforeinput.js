@@ -135,6 +135,9 @@ defineProperty
 prototype
 name
 {
+configurable
+:
+true
 value
 :
 exportFunction
