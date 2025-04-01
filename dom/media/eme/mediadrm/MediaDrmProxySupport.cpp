@@ -1419,11 +1419,11 @@ int8_t
 *
 >
 (
-&
 aInitData
-[
-0
-]
+.
+Elements
+(
+)
 )
 aInitData
 .
