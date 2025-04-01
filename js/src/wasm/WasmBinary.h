@@ -3662,7 +3662,12 @@ range
 )
 ;
 }
-void
+[
+[
+nodiscard
+]
+]
+bool
 finishCustomSection
 (
 const

@@ -905,7 +905,7 @@ section
 )
 ;
 }
-void
+bool
 Decoder
 :
 :
@@ -976,6 +976,7 @@ range
 )
 ;
 return
+false
 ;
 }
 uint32_t
@@ -1081,8 +1082,12 @@ range
 )
 ;
 return
+false
 ;
 }
+return
+true
+;
 }
 void
 Decoder
