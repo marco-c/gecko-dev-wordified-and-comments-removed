@@ -42542,7 +42542,7 @@ src
 fpscratch
 )
 ;
-storeUncanonicalizedFloat16
+storeFloat16
 (
 fpscratch
 dest
@@ -42590,7 +42590,7 @@ src
 fpscratch
 )
 ;
-storeUncanonicalizedFloat16
+storeFloat16
 (
 fpscratch
 dest
