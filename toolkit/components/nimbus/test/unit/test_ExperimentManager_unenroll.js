@@ -3129,7 +3129,7 @@ error_string
 "
 invalid
 -
-branch
+feature
 "
 )
 ;
