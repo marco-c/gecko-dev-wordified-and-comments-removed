@@ -937,7 +937,12 @@ else
 const
 l10nId
 =
+Math
+.
+abs
+(
 value
+)
 <
 1
 ?
