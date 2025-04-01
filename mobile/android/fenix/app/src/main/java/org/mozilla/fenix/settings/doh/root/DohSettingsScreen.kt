@@ -2892,6 +2892,10 @@ BuiltIn
 url
 =
 "
+https
+:
+/
+/
 mozilla
 .
 cloudflare
@@ -2899,6 +2903,10 @@ cloudflare
 dns
 .
 com
+/
+dns
+-
+query
 "
 name
 =

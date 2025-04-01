@@ -1379,6 +1379,10 @@ val
 CLOUDFLARE_URI
 =
 "
+https
+:
+/
+/
 mozilla
 .
 cloudflare
@@ -1386,6 +1390,10 @@ cloudflare
 dns
 .
 com
+/
+dns
+-
+query
 "
 }
 VisibleForTesting
@@ -12669,6 +12677,10 @@ hardcoded
 "
 to
 "
+https
+:
+/
+/
 mozilla
 .
 cloudflare
@@ -12676,6 +12688,10 @@ cloudflare
 dns
 .
 com
+/
+dns
+-
+query
 "
 *
 /
