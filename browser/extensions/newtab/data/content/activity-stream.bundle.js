@@ -64055,16 +64055,6 @@ this
 .
 props
 .
-setPref
-(
-PREF_WALLPAPER_UPLOADED_PREVIOUSLY
-false
-)
-;
-this
-.
-props
-.
 dispatch
 (
 actionCreators
