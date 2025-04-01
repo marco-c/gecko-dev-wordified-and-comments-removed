@@ -404,13 +404,6 @@ setInitialInput
 (
 )
 {
-await
-super
-.
-focusInput
-(
-)
-;
 if
 (
 RPMGetBoolPref
