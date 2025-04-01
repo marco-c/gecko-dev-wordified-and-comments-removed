@@ -243,9 +243,11 @@ ScriptLoadRequest
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mFetchOptions
+mOriginPrincipal
+mBaseURL
+mLoadedScript
 mCacheInfo
 mLoadContext
-mLoadedScript
 )
 tmp
 -

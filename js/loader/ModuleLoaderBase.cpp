@@ -405,6 +405,7 @@ mFetchingModules
 mFetchedModules
 mDynamicImportRequests
 mGlobalObject
+mOverriddenBy
 mLoader
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
