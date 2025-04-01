@@ -120,6 +120,13 @@ sys
 .
 mjs
 "
+"
+ToolbarDropHandler
+.
+sys
+.
+mjs
+"
 ]
 SPHINX_TREES
 [
