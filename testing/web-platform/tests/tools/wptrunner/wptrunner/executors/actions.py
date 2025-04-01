@@ -3093,6 +3093,15 @@ sample
 "
 ]
         
+estimate
+=
+payload
+[
+"
+estimate
+"
+]
+        
 return
 self
 .
@@ -3104,6 +3113,7 @@ update_virtual_pressure_source
 (
 source_type
 sample
+estimate
 )
 class
 RemoveVirtualPressureSourceAction
