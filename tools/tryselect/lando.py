@@ -2710,8 +2710,6 @@ return
     
 duration
 =
-round
-(
 time
 .
 perf_counter
@@ -2719,10 +2717,6 @@ perf_counter
 )
 -
 push_start_time
-ndigits
-=
-2
-)
     
 job_id
 =
@@ -2746,6 +2740,9 @@ success
 took
 {
 duration
+:
+.
+1f
 }
 seconds
 .
@@ -2770,6 +2767,12 @@ print
 success_msg
 )
     
+if
+duration
+>
+30
+:
+        
 build
 .
 notify
