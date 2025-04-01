@@ -6963,12 +6963,6 @@ mActiveSecondaryPermissionKeys
 ;
 nsTArray
 <
-nsCString
->
-mBlobURLs
-;
-nsTArray
-<
 nsCOMPtr
 <
 nsIPrincipal
