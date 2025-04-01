@@ -503,7 +503,9 @@ legal
 /
 terms
 /
-services
+firefox
+-
+focus
 /
 "
 SupportUtils
@@ -523,7 +525,7 @@ setDefault
 (
 Locale
 .
-KOREA
+GERMAN
 )
 assertEquals
 (
@@ -538,9 +540,7 @@ mozilla
 .
 org
 /
-ko
--
-KR
+de
 /
 about
 /
@@ -548,7 +548,9 @@ legal
 /
 terms
 /
-services
+firefox
+-
+focus
 /
 "
 SupportUtils
@@ -605,6 +607,8 @@ GB
 privacy
 /
 firefox
+-
+focus
 /
 "
 SupportUtils
@@ -624,7 +628,7 @@ setDefault
 (
 Locale
 .
-KOREA
+GERMAN
 )
 assertEquals
 (
@@ -639,13 +643,13 @@ mozilla
 .
 org
 /
-ko
--
-KR
+de
 /
 privacy
 /
 firefox
+-
+focus
 /
 "
 SupportUtils

@@ -482,6 +482,8 @@ PRIVATE_NOTICE
 privacy
 /
 firefox
+-
+focus
 /
 "
 )
@@ -494,7 +496,9 @@ legal
 /
 terms
 /
-services
+firefox
+-
+focus
 /
 "
 )
