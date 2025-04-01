@@ -1357,6 +1357,18 @@ tls
 {
                     
 "
+session_tickets
+"
+:
+{
+"
+disabled
+"
+:
+True
+}
+                    
+"
 certificates
 "
 :
