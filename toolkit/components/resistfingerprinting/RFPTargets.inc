@@ -325,6 +325,11 @@ WebGPUIsFallbackAdapter
 )
 ITEM_VALUE
 (
+WebGPUSubgroupSizes
+66
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
