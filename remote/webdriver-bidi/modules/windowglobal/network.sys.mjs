@@ -212,6 +212,11 @@ lazy
 .
 BeforeStopRequestListener
 (
+this
+.
+messageHandler
+.
+context
 )
 ;
 this
