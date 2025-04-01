@@ -443,7 +443,6 @@ sandbox_list_lock
 ;
 static
 inline
-MOZ_RUNINIT
 std
 :
 :

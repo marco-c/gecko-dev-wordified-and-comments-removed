@@ -4524,6 +4524,11 @@ BinaryOpWrappedRhs
 >
 )
 ;
+#
+if
+__cplusplus
+<
+202002L
 BinaryOpWrappedRhs
 (
 =
@@ -4558,6 +4563,8 @@ BinaryOpWrappedRhs
 =
 )
 ;
+#
+endif
 #
 undef
 BinaryOpWrappedRhs
