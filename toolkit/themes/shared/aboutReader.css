@@ -5501,6 +5501,11 @@ currentColor
 &
 :
 hover
+&
+:
+focus
+-
+visible
 {
 background
 -
