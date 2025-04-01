@@ -542,11 +542,15 @@ user
 never
 uses
 geolocation
+or
+geolocation
+is
+disabled
 schedule
 a
+/
+/
 periodic
-/
-/
 update
 to
 check
