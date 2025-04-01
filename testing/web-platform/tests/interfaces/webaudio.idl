@@ -71,6 +71,9 @@ running
 "
 closed
 "
+"
+interrupted
+"
 }
 ;
 enum

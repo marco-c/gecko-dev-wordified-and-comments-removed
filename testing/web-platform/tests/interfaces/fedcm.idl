@@ -99,6 +99,11 @@ attribute
 boolean
 isAutoSelected
 ;
+readonly
+attribute
+USVString
+configURL
+;
 }
 ;
 dictionary
@@ -286,6 +291,9 @@ disconnect_endpoint
 IdentityProviderBranding
 branding
 ;
+USVString
+account_label
+;
 }
 ;
 dictionary
@@ -326,6 +334,12 @@ sequence
 DOMString
 >
 domain_hints
+;
+sequence
+<
+DOMString
+>
+label_hints
 ;
 }
 ;

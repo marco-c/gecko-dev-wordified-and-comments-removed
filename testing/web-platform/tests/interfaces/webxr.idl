@@ -355,6 +355,9 @@ depthNear
 double
 depthFar
 ;
+boolean
+passthroughFullyObscured
+;
 double
 inlineVerticalFieldOfView
 ;
@@ -389,6 +392,12 @@ readonly
 attribute
 double
 depthFar
+;
+readonly
+attribute
+boolean
+?
+passthroughFullyObscured
 ;
 readonly
 attribute
