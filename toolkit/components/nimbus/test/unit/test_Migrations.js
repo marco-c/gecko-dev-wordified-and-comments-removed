@@ -479,10 +479,20 @@ manager
 loader
 .
 manager
+async
 cleanup
 (
+{
+removeStore
+=
+false
+}
+=
+{
+}
 )
 {
+await
 assertEmptyStore
 (
 loader
@@ -490,6 +500,11 @@ loader
 manager
 .
 store
+{
+cleanup
+:
+removeStore
+}
 )
 ;
 ExperimentAPI
@@ -761,6 +776,7 @@ name
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -906,6 +922,7 @@ name
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1149,6 +1166,7 @@ UNKNOWN
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1383,6 +1401,7 @@ bogus
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1746,6 +1765,7 @@ enrollments
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2026,6 +2046,7 @@ enrollments
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2263,8 +2284,14 @@ slug
 )
 ;
 }
+await
 cleanup
 (
+{
+removeStore
+:
+true
+}
 )
 ;
 for
