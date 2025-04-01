@@ -112,8 +112,10 @@ value
 "
 }
 ;
-function
+class
 CSSCompleter
+{
+constructor
 (
 options
 =
@@ -172,11 +174,6 @@ nullStates
 ]
 ;
 }
-CSSCompleter
-.
-prototype
-=
-{
 complete
 (
 source
@@ -5870,7 +5867,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
