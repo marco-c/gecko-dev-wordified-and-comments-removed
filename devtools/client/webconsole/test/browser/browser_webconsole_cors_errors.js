@@ -61,6 +61,8 @@ Web
 /
 HTTP
 /
+Guides
+/
 CORS
 /
 Errors
