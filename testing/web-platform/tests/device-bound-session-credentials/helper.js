@@ -153,7 +153,6 @@ function
 addCookieAndSessionCleanup
 (
 test
-cookieAndAttributes
 )
 {
 test
@@ -185,11 +184,6 @@ response
 .
 status
 200
-)
-;
-expireCookie
-(
-cookieAndAttributes
 )
 ;
 }
