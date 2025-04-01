@@ -408,6 +408,7 @@ return_type
 -
 when
 Some
+with
 (
 type_
 )

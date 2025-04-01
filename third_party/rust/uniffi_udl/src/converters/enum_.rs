@@ -141,13 +141,6 @@ to_string
 (
 )
 shape
-remote
-:
-attributes
-.
-contains_remote
-(
-)
 discr_type
 :
 None
@@ -408,13 +401,6 @@ to_string
 (
 )
 shape
-remote
-:
-attributes
-.
-contains_remote
-(
-)
 variants
 :
 self

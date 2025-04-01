@@ -35,7 +35,7 @@ sync15
 "
 ]
 typedef
-enum
+extern
 DeviceType
 ;
 namespace

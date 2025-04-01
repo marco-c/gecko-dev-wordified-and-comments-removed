@@ -1697,8 +1697,6 @@ true
 [
 ]
 true
-[
-]
 )
 ;
 Assert
@@ -3700,8 +3698,6 @@ true
 kReason
 ]
 true
-[
-]
 )
 ;
 let
@@ -3803,8 +3799,6 @@ true
 kReason
 ]
 true
-[
-]
 )
 ;
 let

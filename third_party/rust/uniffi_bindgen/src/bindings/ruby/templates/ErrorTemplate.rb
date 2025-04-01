@@ -519,9 +519,6 @@ unwrap
 let
 canonical_type_name
 =
-self
-:
-:
 canonical_name
 (
 typ

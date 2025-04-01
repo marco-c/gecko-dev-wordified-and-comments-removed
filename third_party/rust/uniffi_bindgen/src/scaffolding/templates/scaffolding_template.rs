@@ -48,7 +48,7 @@ ty
 in
 ci
 .
-iter_local_types
+iter_types
 (
 )
 %
@@ -323,6 +323,16 @@ rs
 {
 %
 endfor
+%
+}
+{
+%
+include
+"
+ExternalTypesTemplate
+.
+rs
+"
 %
 }
 {
