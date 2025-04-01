@@ -180,8 +180,6 @@ Fun
 decltype
 (
 &
-:
-:
 Fun
 )
 )
@@ -236,8 +234,6 @@ Fun
 decltype
 (
 &
-:
-:
 Fun
 )
 )
