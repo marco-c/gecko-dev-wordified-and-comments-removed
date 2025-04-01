@@ -8226,16 +8226,6 @@ nsFrameSelection
 aFrameSelection
 )
 {
-MOZ_ASSERT
-(
-StaticPrefs
-:
-:
-dom_selection_mimic_chrome_tostring_enabled
-(
-)
-)
-;
 if
 (
 mLastSelectionForToString

@@ -14359,10 +14359,7 @@ presshell
 GetLastSelectionForToString
 (
 )
-)
-{
-if
-(
+;
 sel
 =
 =
@@ -14377,7 +14374,6 @@ UpdateLastSelectionForToString
 nullptr
 )
 ;
-}
 }
 mPresShell
 =
