@@ -272,6 +272,13 @@ js
 ]
 [
 "
+browser_clearCacheAndUninit
+.
+js
+"
+]
+[
+"
 browser_disabled
 .
 js
