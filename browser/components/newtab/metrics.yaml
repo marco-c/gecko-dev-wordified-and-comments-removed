@@ -4213,7 +4213,7 @@ newtab_visit_id
 :
 *
 newtab_visit_id
-position
+section_position
 :
 description
 :
@@ -4354,7 +4354,7 @@ unfollowed
 type
 :
 boolean
-position
+section_position
 :
 description
 :
@@ -7992,7 +7992,7 @@ in
 a
 section
 the
-numberic
+numeric
 position
 of
 the
@@ -8412,7 +8412,7 @@ in
 a
 section
 the
-numberic
+numeric
 position
 of
 the
@@ -8626,7 +8626,7 @@ in
 a
 section
 the
-numberic
+numeric
 position
 of
 the
@@ -9044,7 +9044,7 @@ in
 a
 section
 the
-numberic
+numeric
 position
 of
 the
@@ -9937,7 +9937,7 @@ in
 a
 section
 the
-numberic
+numeric
 position
 of
 the

@@ -672,6 +672,9 @@ technology
 position_in_card
 :
 0
+section_position
+:
+2
 }
 }
 )
@@ -921,6 +924,9 @@ reads
 position_in_card
 :
 8
+section_position
+:
+2
 }
 }
 )
@@ -1166,6 +1172,9 @@ more
 -
 topics
 "
+section_position
+:
+2
 }
 }
 )

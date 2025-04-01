@@ -5692,7 +5692,7 @@ INLINE_SELECTION_CLICK
 const
 {
 topic
-topic_position
+section_position
 position
 is_followed
 }
@@ -5716,7 +5716,7 @@ session
 .
 session_id
 topic
-topic_position
+section_position
 position
 is_followed
 }
@@ -5744,13 +5744,13 @@ newtab_visit_id
 session
 .
 session_id
-position
+section_position
 :
 action
 .
 data
 .
-position
+section_position
 }
 )
 ;

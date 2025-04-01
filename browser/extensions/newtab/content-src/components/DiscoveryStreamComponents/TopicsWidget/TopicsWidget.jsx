@@ -379,6 +379,9 @@ positionInCard
 {
 }
 )
+section_position
+:
+position
 }
 }
 )

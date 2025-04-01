@@ -23168,6 +23168,9 @@ positionInCard
 {
 }
 )
+section_position
+:
+position
 }
 }
 )
@@ -56631,7 +56634,7 @@ INLINE_SELECTION_IMPRESSION
 data
 :
 {
-position
+section_position
 :
 receivedFeedRank
 }
@@ -57011,7 +57014,7 @@ checked
 topic_position
 :
 index
-position
+section_position
 :
 receivedFeedRank
 }
