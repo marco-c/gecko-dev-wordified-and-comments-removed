@@ -235,8 +235,10 @@ enum_definitions
 {
 {
 e
-|
-type_name
+.
+name
+(
+)
 }
 }
 "
@@ -266,8 +268,10 @@ record_definitions
 {
 {
 record
-|
-type_name
+.
+name
+(
+)
 }
 }
 "
@@ -330,8 +334,10 @@ object_definitions
 {
 {
 obj
-|
-type_name
+.
+name
+(
+)
 }
 }
 "
@@ -365,8 +371,6 @@ c
 name
 (
 )
-|
-class_name
 }
 }
 "

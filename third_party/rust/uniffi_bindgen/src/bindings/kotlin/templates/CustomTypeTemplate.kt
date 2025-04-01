@@ -129,7 +129,6 @@ ffi_converter_name
 -
 when
 Some
-with
 (
 config
 )
@@ -145,7 +144,12 @@ builtin
 |
 ffi_type
 |
+ref
+|
 ffi_type_name_by_value
+(
+ci
+)
 %
 }
 {
