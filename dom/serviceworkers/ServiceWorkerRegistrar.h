@@ -76,9 +76,7 @@ txt
 #
 define
 SERVICEWORKERREGISTRAR_VERSION
-"
 9
-"
 #
 define
 SERVICEWORKERREGISTRAR_TERMINATOR
@@ -330,9 +328,7 @@ const
 bool
 IsSupportedVersion
 (
-const
-nsACString
-&
+uint32_t
 aVersion
 )
 const
