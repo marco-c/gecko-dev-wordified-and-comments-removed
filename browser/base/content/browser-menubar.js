@@ -359,17 +359,6 @@ break
 ;
 case
 "
-help_reportSiteIssue
-"
-:
-ReportSiteIssue
-(
-)
-;
-break
-;
-case
-"
 menu_HelpPopup_reportPhishingtoolmenu
 "
 :
