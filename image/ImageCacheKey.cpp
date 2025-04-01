@@ -203,10 +203,6 @@ nsIURI
 aURI
 CORSMode
 aCORSMode
-const
-OriginAttributes
-&
-aAttrs
 Document
 *
 aDocument
