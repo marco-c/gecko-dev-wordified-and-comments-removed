@@ -209,6 +209,9 @@ ISSUE_STRAIGHT_DOUBLE_QUOTE_USAGE
 StringLintXmlDetector
 .
 ISSUE_BRAND_USAGE
+StringLintXmlDetector
+.
+ISSUE_PLACEHOLDER_COMMENT
 )
 override
 val
