@@ -1179,6 +1179,16 @@ MILLISECONDS
 private
 =
 privateMode
+cookiePolicy
+=
+Request
+.
+CookiePolicy
+.
+OMIT
+useCaches
+=
+false
 )
 val
 response
