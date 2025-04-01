@@ -258,11 +258,9 @@ property
 icon
 Optional
 icon
-to
-show
-in
+for
 the
-popup
+menu
 item
 .
 *
@@ -270,11 +268,9 @@ property
 text
 Optional
 text
-to
-show
-in
+for
 the
-popup
+menu
 item
 .
 *
