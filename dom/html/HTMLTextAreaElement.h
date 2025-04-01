@@ -787,6 +787,14 @@ aRv
 )
 ;
 }
+void
+GetAutocompleteInfo
+(
+AutocompleteInfo
+&
+aInfo
+)
+;
 uint32_t
 Cols
 (
@@ -1705,6 +1713,12 @@ nsContentUtils
 :
 AutocompleteAttrState
 mAutocompleteAttrState
+;
+nsContentUtils
+:
+:
+AutocompleteAttrState
+mAutocompleteInfoState
 ;
 void
 FireChangeEventIfNeeded
