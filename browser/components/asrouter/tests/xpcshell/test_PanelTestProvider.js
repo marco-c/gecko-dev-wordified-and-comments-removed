@@ -118,9 +118,6 @@ bookmarks_bar_button
 menu_message
 :
 1
-newtab_message
-:
-1
 }
 ;
 const
