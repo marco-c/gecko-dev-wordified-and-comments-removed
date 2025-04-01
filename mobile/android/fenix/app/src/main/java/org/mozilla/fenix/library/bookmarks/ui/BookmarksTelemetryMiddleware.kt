@@ -786,6 +786,10 @@ is
 InitEditLoaded
 is
 ReceivedSyncSignInUpdate
+is
+BookmarksListMenuAction
+.
+SortMenu
 FirstSyncCompleted
 ViewDisposed
 -

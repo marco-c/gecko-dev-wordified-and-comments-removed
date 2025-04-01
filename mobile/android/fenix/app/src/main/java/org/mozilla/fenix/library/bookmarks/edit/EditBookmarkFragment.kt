@@ -1187,6 +1187,10 @@ settings
 )
 .
 lastSavedFolderCache
+saveBookmarkSortOrder
+=
+{
+}
 )
 )
 lifecycleHolder
