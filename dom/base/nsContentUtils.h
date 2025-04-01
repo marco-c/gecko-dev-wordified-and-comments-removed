@@ -6298,9 +6298,9 @@ mozilla
 dom
 :
 :
-HTMLInputElement
+Element
 *
-aInput
+aElement
 )
 ;
 enum
