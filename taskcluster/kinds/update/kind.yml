@@ -105,12 +105,6 @@ tier
 2
 worker
 :
-#
-taskcluster
--
-proxy
-:
-true
 max
 -
 run
@@ -134,9 +128,13 @@ worker
 -
 type
 :
-b
+win11
 -
-win2022
+64
+-
+24h2
+-
+source
 description
 :
 Test
@@ -159,7 +157,7 @@ update
 -
 test
 (
-firefox
+standard
 )
 platform
 :
@@ -262,7 +260,7 @@ update
 -
 test
 (
-firefox
+standard
 )
 platform
 :
