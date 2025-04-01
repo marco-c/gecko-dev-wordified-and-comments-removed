@@ -75,7 +75,7 @@ prop
 -
 types
 .
-js
+mjs
 "
 )
 ;
