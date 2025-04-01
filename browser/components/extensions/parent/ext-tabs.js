@@ -5850,7 +5850,11 @@ gBrowser
 moveTabTo
 (
 nativeTab
+{
+tabIndex
+:
 insertionPoint
+}
 )
 ;
 }
@@ -5863,8 +5867,11 @@ gBrowser
 adoptTab
 (
 nativeTab
+{
+tabIndex
+:
 insertionPoint
-false
+}
 )
 ;
 }

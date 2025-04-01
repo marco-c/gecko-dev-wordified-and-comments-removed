@@ -1641,7 +1641,11 @@ gBrowser
 moveTabTo
 (
 tab
+{
+tabIndex
+:
 1
+}
 )
 ;
 await

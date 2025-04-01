@@ -305,7 +305,11 @@ moveTabTo
 gBrowser
 .
 selectedTab
+{
+tabIndex
+:
 1
+}
 )
 ;
 await

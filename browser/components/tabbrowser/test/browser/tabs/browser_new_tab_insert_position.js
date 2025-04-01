@@ -780,7 +780,11 @@ gBrowser
 moveTabTo
 (
 openerTab
+{
+tabIndex
+:
 openerTabIndex
+}
 )
 ;
 let

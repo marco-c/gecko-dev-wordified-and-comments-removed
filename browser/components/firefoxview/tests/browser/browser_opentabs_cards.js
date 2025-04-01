@@ -737,10 +737,9 @@ front
 ;
 gBrowser
 .
-moveTabTo
+moveTabToStart
 (
 newTab
-0
 )
 ;
 info

@@ -173,12 +173,11 @@ openTab
 ;
 gBrowser
 .
-moveTabTo
+moveTabToStart
 (
 gBrowser
 .
 selectedTab
-0
 )
 ;
 gBrowser

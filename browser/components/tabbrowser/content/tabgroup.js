@@ -1095,6 +1095,9 @@ gBrowser
 adoptTab
 (
 tab
+{
+tabIndex
+:
 gBrowser
 .
 tabs
@@ -1108,9 +1111,12 @@ at
 _tPos
 +
 1
+selectTab
+:
 tab
 .
 selected
+}
 )
 ;
 gBrowser

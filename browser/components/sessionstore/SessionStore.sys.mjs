@@ -35744,8 +35744,10 @@ initialTabs
 [
 i
 ]
-endPosition
 {
+tabIndex
+:
+endPosition
 forceUngrouped
 :
 true

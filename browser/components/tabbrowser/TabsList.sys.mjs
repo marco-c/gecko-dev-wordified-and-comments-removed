@@ -3565,7 +3565,11 @@ gBrowser
 moveTabTo
 (
 draggedTab
+{
+tabIndex
+:
 pos
+}
 )
 ;
 this
