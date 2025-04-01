@@ -5,10 +5,14 @@ let
 rec
 =
 ci
-|
+.
 get_record_definition
 (
 name
+)
+.
+unwrap
+(
 )
 %
 }
@@ -258,7 +262,6 @@ field_name
 -
 when
 Some
-with
 (
 literal
 )

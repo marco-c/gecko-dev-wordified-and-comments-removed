@@ -105,10 +105,7 @@ old_data
 =
 >
 {
-log
-:
-:
-error
+trace
 !
 (
 "

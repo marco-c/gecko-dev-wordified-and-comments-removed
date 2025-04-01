@@ -313,6 +313,7 @@ is_async
 quote
 !
 {
+pub
 #
 ident
 :
@@ -358,6 +359,7 @@ else
 quote
 !
 {
+pub
 #
 ident
 :
@@ -499,6 +501,7 @@ Ok
 quote
 !
 {
+pub
 struct
 #
 vtable_type
@@ -509,6 +512,7 @@ vtable_type
 vtable_fields
 )
 *
+pub
 uniffi_free
 :
 extern
@@ -561,6 +565,7 @@ new
 [
 no_mangle
 ]
+pub
 extern
 "
 C
@@ -772,14 +777,16 @@ trait_impl_ident
 :
 &
 Ident
-udl_mode
-:
-bool
 )
 -
 >
 TokenStream
 {
+let
+remote
+=
+false
+;
 let
 trait_name
 =
@@ -830,7 +837,7 @@ Lift
 "
 &
 box_dyn_trait
-udl_mode
+remote
 )
 ;
 let
@@ -843,7 +850,7 @@ TypeId
 "
 &
 box_dyn_trait
-udl_mode
+remote
 )
 ;
 let
@@ -853,7 +860,7 @@ derive_ffi_traits
 (
 &
 box_dyn_trait
-udl_mode
+remote
 &
 [
 "

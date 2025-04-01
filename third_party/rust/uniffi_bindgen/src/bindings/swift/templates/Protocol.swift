@@ -81,7 +81,7 @@ call
 swift
 :
 :
-async
+is_async
 (
 meth
 )
