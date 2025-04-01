@@ -611,12 +611,12 @@ quickactions
 -
 cmd
 -
-clearhistory
+clearrecenthistory
 "
 "
 quickactions
 -
-clearhistory
+clearrecenthistory
 "
 ]
 label
@@ -624,7 +624,7 @@ label
 "
 quickactions
 -
-clearhistory
+clearrecenthistory
 "
 onPick
 :

@@ -1829,7 +1829,7 @@ quickactions
 -
 cmd
 -
-clearhistory
+clearrecenthistory
 #
 When
 localizing
