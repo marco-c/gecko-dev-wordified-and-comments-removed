@@ -33,6 +33,7 @@ return
 new
 Promise
 (
+async
 (
 resolve
 reject
@@ -149,6 +150,7 @@ handler
 ;
 try
 {
+await
 fn
 (
 )
