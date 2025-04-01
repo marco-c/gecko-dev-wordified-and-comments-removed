@@ -2788,9 +2788,10 @@ parsed_cs_str_vec_t
 parsed_local_subrs
 ;
 mutable
-hb_atomic_ptr_t
+hb_atomic_t
 <
 glyph_to_sid_map_t
+*
 >
 glyph_to_sid_map
 ;

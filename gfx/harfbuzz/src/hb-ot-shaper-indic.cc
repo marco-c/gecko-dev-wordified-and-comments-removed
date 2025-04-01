@@ -1279,7 +1279,10 @@ false
 #
 endif
 mutable
-hb_atomic_int_t
+hb_atomic_t
+<
+hb_codepoint_t
+>
 virama_glyph
 ;
 hb_indic_would_substitute_feature_t

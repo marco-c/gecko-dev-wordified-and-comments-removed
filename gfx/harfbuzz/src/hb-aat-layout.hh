@@ -130,15 +130,6 @@ num_features
 ;
 HB_INTERNAL
 void
-hb_aat_layout_zero_width_deleted_glyphs
-(
-hb_buffer_t
-*
-buffer
-)
-;
-HB_INTERNAL
-void
 hb_aat_layout_remove_deleted_glyphs
 (
 hb_buffer_t

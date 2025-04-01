@@ -249,9 +249,10 @@ wasm_module_t
 wasm_module
 ;
 mutable
-hb_atomic_ptr_t
+hb_atomic_t
 <
 hb_wasm_shape_plan_t
+*
 >
 plan
 ;

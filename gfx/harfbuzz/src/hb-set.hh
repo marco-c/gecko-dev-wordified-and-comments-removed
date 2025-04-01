@@ -24,6 +24,17 @@ invertible
 .
 hh
 "
+#
+include
+"
+hb
+-
+bit
+-
+vector
+.
+hh
+"
 template
 <
 typename

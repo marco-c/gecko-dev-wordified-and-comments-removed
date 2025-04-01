@@ -262,6 +262,9 @@ table
 COLR
 -
 >
+colr
+-
+>
 has_v0_data
 (
 )
@@ -282,6 +285,9 @@ face
 table
 .
 COLR
+-
+>
+colr
 -
 >
 has_v1_data
@@ -306,6 +312,9 @@ face
 table
 .
 COLR
+-
+>
+colr
 -
 >
 has_paint_for_glyph
@@ -342,6 +351,9 @@ face
 table
 .
 COLR
+-
+>
+colr
 -
 >
 get_glyph_layers

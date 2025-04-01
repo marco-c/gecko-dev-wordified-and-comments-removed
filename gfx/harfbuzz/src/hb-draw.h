@@ -59,6 +59,9 @@ current_x
 float
 current_y
 ;
+float
+slant_xy
+;
 hb_var_num_t
 reserved1
 ;
@@ -76,9 +79,6 @@ reserved5
 ;
 hb_var_num_t
 reserved6
-;
-hb_var_num_t
-reserved7
 ;
 }
 hb_draw_state_t
@@ -100,10 +100,9 @@ f
 0
 .
 f
-{
 0
 .
-}
+f
 {
 0
 .

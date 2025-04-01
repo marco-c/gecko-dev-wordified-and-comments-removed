@@ -3985,6 +3985,14 @@ angles
 0
 ]
 ;
+if
+(
+!
+span
+)
+goto
+done
+;
 k
 =
 0

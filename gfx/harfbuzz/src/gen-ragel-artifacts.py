@@ -133,6 +133,8 @@ rl
 hh
 '
 )
+ret
+=
 subprocess
 .
 Popen
@@ -166,6 +168,16 @@ outdir
 .
 wait
 (
+)
+if
+ret
+:
+    
+sys
+.
+exit
+(
+ret
 )
 shutil
 .

@@ -1533,7 +1533,7 @@ p
 }
 private
 :
-hb_atomic_ptr_t
+hb_atomic_t
 <
 Stored
 *

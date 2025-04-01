@@ -1363,7 +1363,7 @@ pool
 =
 nullptr
 ;
-hb_atomic_ptr_t
+hb_atomic_t
 <
 uint16_t
 *

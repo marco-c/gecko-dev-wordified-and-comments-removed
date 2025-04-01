@@ -26248,9 +26248,10 @@ this
 accels
 =
 (
-hb_atomic_ptr_t
+hb_atomic_t
 <
 hb_ot_layout_lookup_accelerator_t
+*
 >
 *
 )
@@ -26519,9 +26520,10 @@ unsigned
 int
 lookup_count
 ;
-hb_atomic_ptr_t
+hb_atomic_t
 <
 hb_ot_layout_lookup_accelerator_t
+*
 >
 *
 accels

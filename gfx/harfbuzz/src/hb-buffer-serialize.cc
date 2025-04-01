@@ -675,6 +675,8 @@ HB_BUFFER_SERIALIZE_FLAG_GLYPH_EXTENTS
 hb_glyph_extents_t
 extents
 ;
+if
+(
 hb_font_get_glyph_extents
 (
 font
@@ -687,7 +689,8 @@ codepoint
 &
 extents
 )
-;
+)
+{
 p
 +
 =
@@ -780,6 +783,7 @@ height
 )
 )
 ;
+}
 }
 *
 p
@@ -1650,6 +1654,8 @@ HB_BUFFER_SERIALIZE_FLAG_GLYPH_EXTENTS
 hb_glyph_extents_t
 extents
 ;
+if
+(
 hb_font_get_glyph_extents
 (
 font
@@ -1662,7 +1668,7 @@ codepoint
 &
 extents
 )
-;
+)
 p
 +
 =
