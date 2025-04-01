@@ -221,7 +221,7 @@ element
 *
 param
 {
-HTMLInputElement
+HTMLElement
 }
 element
 *
@@ -410,7 +410,7 @@ one
 *
 param
 {
-HTMLInputElement
+HTMLElement
 }
 element
 *
