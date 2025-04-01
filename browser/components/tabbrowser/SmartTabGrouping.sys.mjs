@@ -4009,6 +4009,10 @@ const
 START_THRESHOLD_BYTES
 =
 ONE_MB
+*
+0
+.
+2
 ;
 const
 mutliProgressAggregator
