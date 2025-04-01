@@ -401,6 +401,16 @@ Emailtracking_content
 CF
 :
 :
+CLASSIFIED_CONSENTMANAGER
+MUC
+:
+:
+Consentmanager
+}
+{
+CF
+:
+:
 CLASSIFIED_TRACKING
 MUC
 :

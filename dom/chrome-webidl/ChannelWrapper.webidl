@@ -208,6 +208,9 @@ emailtracking
 emailtracking_content
 "
 "
+consentmanager
+"
+"
 tracking
 "
 "
