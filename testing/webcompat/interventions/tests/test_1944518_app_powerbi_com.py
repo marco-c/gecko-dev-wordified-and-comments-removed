@@ -23,6 +23,13 @@ r
 =
 eyJrIjoiYmVjMjViZjgtYTI2NS00NzcxLWFiMDQtYjM5OGI2YWQzMDUwIiwidCI6IjA0MmQ3NzA5LWMwNWItNGRlZC1hYjg4LTc0NDMwYzU0YmZlNyJ9
 "
+HERO_CSS
+=
+"
+visual
+-
+modern
+"
 SCROLLBAR_CSS
 =
 "
@@ -45,6 +52,16 @@ client
 navigate
 (
 URL
+)
+    
+client
+.
+await_css
+(
+HERO_CSS
+is_displayed
+=
+True
 )
     
 try

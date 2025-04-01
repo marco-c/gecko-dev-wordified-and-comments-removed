@@ -29,8 +29,9 @@ GER
 SUPPORTED_CSS
 =
 "
-.
-modal_bg2
+#
+timingTable
+td
 "
 UNSUPPORTED_CSS
 =
@@ -42,6 +43,13 @@ href
 =
 browserchoice
 ]
+"
+NO_RACES_TEXT
+=
+"
+Keine
+laufenden
+Rennen
 "
 pytest
 .
@@ -69,15 +77,38 @@ navigate
 URL
 )
     
+races
+no_races
+=
 client
 .
-await_css
+await_first_element_of
+(
+        
+[
+client
+.
+css
 (
 SUPPORTED_CSS
+)
+client
+.
+text
+(
+NO_RACES_TEXT
+)
+]
 is_displayed
 =
 True
+    
 )
+    
+assert
+races
+or
+no_races
     
 assert
 not
@@ -116,6 +147,7 @@ navigate
 URL
 )
     
+assert
 client
 .
 await_css
