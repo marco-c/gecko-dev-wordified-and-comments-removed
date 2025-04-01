@@ -6368,6 +6368,7 @@ if
 (
 typeof
 sidebar
+?
 .
 onload
 =
