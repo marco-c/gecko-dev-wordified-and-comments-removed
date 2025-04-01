@@ -7416,7 +7416,7 @@ Kind
 Ok
 (
 match
-i16
+u8
 :
 :
 try_from
@@ -7532,7 +7532,7 @@ Validity
 Ok
 (
 match
-i16
+u8
 :
 :
 try_from
