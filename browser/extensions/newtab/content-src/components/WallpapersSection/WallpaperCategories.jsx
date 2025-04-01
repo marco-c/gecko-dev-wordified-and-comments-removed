@@ -3566,6 +3566,13 @@ el
 }
 }
 }
+name
+=
+"
+wallpaper
+-
+category
+"
 id
 =
 {
