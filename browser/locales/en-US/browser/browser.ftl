@@ -2893,10 +2893,12 @@ quickactions
 -
 cmd
 -
-inspector
+inspector2
 =
 inspector
 devtools
+dev
+tools
 #
 Opens
 about

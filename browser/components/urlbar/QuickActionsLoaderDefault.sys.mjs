@@ -901,7 +901,7 @@ quickactions
 -
 cmd
 -
-inspector
+inspector2
 "
 ]
 icon
