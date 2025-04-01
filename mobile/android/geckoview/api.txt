@@ -17913,15 +17913,6 @@ public
 static
 final
 int
-FETCH_FLAGS_OHTTP
-=
-2048
-;
-field
-public
-static
-final
-int
 FETCH_FLAGS_PRIVATE
 =
 8
