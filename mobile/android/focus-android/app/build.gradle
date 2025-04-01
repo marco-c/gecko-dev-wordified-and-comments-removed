@@ -703,6 +703,15 @@ localProperties
 debuggable
 "
 )
+|
+|
+gradle
+.
+mozconfig
+.
+substs
+.
+MOZ_ANDROID_DEBUGGABLE
 )
 {
 println
