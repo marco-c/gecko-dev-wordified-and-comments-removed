@@ -1401,7 +1401,10 @@ textContent
 {
 onDownload
 :
+(
 state
+progressPercentage
+)
 =
 >
 {
@@ -1416,6 +1419,12 @@ this
 downloadingModel
 =
 state
+;
+ogCard
+.
+progressPercentage
+=
+progressPercentage
 ;
 }
 onError
