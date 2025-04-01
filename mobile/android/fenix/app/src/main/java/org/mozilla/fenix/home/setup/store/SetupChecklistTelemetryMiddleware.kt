@@ -251,6 +251,14 @@ ViewState
 >
 {
 }
+is
+SetupChecklistAction
+.
+ChecklistItemClicked
+-
+>
+{
+}
 }
 }
 }
