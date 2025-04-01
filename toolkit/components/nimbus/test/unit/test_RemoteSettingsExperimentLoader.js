@@ -59,6 +59,7 @@ const
 {
 RemoteSettingsExperimentLoader
 EnrollmentsContext
+MatchStatus
 }
 =
 ChromeUtils
@@ -512,7 +513,7 @@ ExperimentFakes
 recipe
 (
 "
-foo
+pass
 "
 {
 targeting
@@ -531,7 +532,7 @@ ExperimentFakes
 recipe
 (
 "
-foo
+fail
 "
 {
 targeting
@@ -662,7 +663,9 @@ rs
 -
 loader
 "
-true
+MatchStatus
+.
+TARGETING_ONLY
 )
 "
 should
@@ -691,7 +694,9 @@ rs
 -
 loader
 "
-false
+MatchStatus
+.
+NO_MATCH
 )
 "
 should
@@ -732,7 +737,7 @@ ExperimentFakes
 recipe
 (
 "
-foo
+pass
 "
 {
 targeting
@@ -751,7 +756,7 @@ ExperimentFakes
 recipe
 (
 "
-foo
+fail
 "
 {
 targeting
