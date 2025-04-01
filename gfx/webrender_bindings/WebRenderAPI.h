@@ -4359,6 +4359,13 @@ aClipMode
 )
 ;
 void
+PushDebug
+(
+uint32_t
+aVal
+)
+;
+void
 StartGroup
 (
 nsPaintedDisplayItem

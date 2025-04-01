@@ -12389,6 +12389,13 @@ UsedImageRendering
 ;
 aBuilder
 .
+PushDebug
+(
+1
+)
+;
+aBuilder
+.
 PushImage
 (
 destRect
