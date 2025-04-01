@@ -17,6 +17,11 @@ head
 js
 "
 "
+doc_language
+.
+html
+"
+"
 doc_treeupdate_ariadialog
 .
 html
