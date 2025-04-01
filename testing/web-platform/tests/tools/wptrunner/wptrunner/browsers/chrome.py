@@ -1082,6 +1082,26 @@ overrides
 address_space_overrides_arg
 )
     
+chrome_options
+[
+"
+args
+"
+]
+.
+append
+(
+"
+-
+-
+disable
+-
+features
+=
+ScrollbarAnimations
+"
+)
+    
 blink_features
 =
 [
