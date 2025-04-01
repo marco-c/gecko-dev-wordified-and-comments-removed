@@ -1283,9 +1283,7 @@ gpuProcessTextureId
 (
 )
 ;
-const
 auto
-&
 arrayIndex
 =
 desc
@@ -1490,6 +1488,10 @@ ref
 (
 )
 )
+;
+arrayIndex
+=
+0
 ;
 }
 }
