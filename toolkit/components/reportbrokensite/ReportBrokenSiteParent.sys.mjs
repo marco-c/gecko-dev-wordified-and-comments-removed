@@ -1932,6 +1932,13 @@ devicePixelRatio
 1
 ;
 const
+devicePixelRatio
+=
+scale
+*
+zoom
+;
+const
 wgp
 =
 browsingContext
@@ -1950,9 +1957,7 @@ undefined
 /
 /
 rect
-scale
-*
-zoom
+devicePixelRatio
 "
 white
 "
@@ -2087,7 +2092,12 @@ blob
 )
 ;
 return
+{
+devicePixelRatio
+screenshot
+:
 dataURL
+}
 ;
 }
 async
@@ -2120,7 +2130,10 @@ msg
 data
 ;
 const
+{
+devicePixelRatio
 screenshot
+}
 =
 await
 this
@@ -2195,6 +2208,7 @@ this
 getBrowserInfo
 (
 )
+devicePixelRatio
 screenshot
 }
 ;
