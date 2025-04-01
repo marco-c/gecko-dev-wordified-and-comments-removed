@@ -139,7 +139,7 @@ feature
 .
 downloads
 .
-toMegabyteOrKilobyteString
+FileSizeFormatter
 import
 org
 .
@@ -245,6 +245,11 @@ val
 context
 :
 Context
+private
+val
+fileSizeFormatter
+:
+FileSizeFormatter
 private
 val
 downloadState
@@ -417,9 +422,15 @@ downloadState
 contentLength
 ?
 .
-toMegabyteOrKilobyteString
+let
+{
+fileSizeFormatter
+.
+formatSizeInBytes
 (
+it
 )
+}
 }
 )
 "

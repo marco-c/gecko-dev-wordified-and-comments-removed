@@ -5058,6 +5058,13 @@ contentSize
 contentSize
 .
 value
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 positiveButtonAction
 =
 positiveAction
@@ -7758,6 +7765,13 @@ DynamicDownloadDialog
 context
 =
 context
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 downloadState
 =
 savedDownloadState

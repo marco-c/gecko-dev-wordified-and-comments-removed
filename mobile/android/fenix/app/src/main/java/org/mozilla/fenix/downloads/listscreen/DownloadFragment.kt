@@ -552,6 +552,13 @@ requireComponents
 core
 .
 store
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 scope
 =
 viewModelScope
