@@ -113,6 +113,15 @@ mNode
 nsINode
 *
 mCommonAncestor
+=
+nullptr
+;
+mutable
+nsContentUtils
+:
+:
+NodeIndexCache
+mCache
 ;
 int
 operator
@@ -174,6 +183,8 @@ DOM
 mNode
 curNode
 mCommonAncestor
+&
+mCache
 )
 ;
 }

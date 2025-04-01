@@ -836,6 +836,12 @@ notInElementsIdx
 =
 0
 ;
+nsContentUtils
+:
+:
+NodeIndexCache
+indexCache
+;
 while
 (
 elementsIdx
@@ -994,6 +1000,8 @@ ElementAt
 notInElementsIdx
 )
 mForm
+&
+indexCache
 )
 <
 0

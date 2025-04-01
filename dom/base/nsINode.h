@@ -2148,6 +2148,12 @@ return
 mChildCount
 ;
 }
+uint32_t
+GetFlatTreeChildCount
+(
+)
+const
+;
 nsIContent
 *
 GetChildAt_Deprecated
