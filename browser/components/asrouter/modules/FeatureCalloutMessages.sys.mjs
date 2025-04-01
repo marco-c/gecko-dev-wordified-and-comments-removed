@@ -9783,9 +9783,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -9809,7 +9806,6 @@ not
 -
 show
 "
-}
 }
 action
 :
@@ -9888,9 +9884,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -9912,7 +9905,6 @@ show
 -
 fewer
 "
-}
 }
 action
 :
@@ -10051,9 +10043,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -10075,7 +10064,6 @@ manage
 -
 settings
 "
-}
 }
 action
 :
@@ -11216,9 +11204,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -11242,7 +11227,6 @@ not
 -
 show
 "
-}
 }
 action
 :
@@ -11321,9 +11305,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -11345,7 +11326,6 @@ show
 -
 fewer
 "
-}
 }
 action
 :
@@ -11484,9 +11464,6 @@ action
 label
 :
 {
-raw
-:
-{
 string_id
 :
 "
@@ -11508,7 +11485,6 @@ manage
 -
 settings
 "
-}
 }
 action
 :
