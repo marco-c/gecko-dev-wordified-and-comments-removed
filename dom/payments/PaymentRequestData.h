@@ -784,8 +784,10 @@ mPaymentOptions
 nsString
 mShippingOption
 ;
+WeakPtr
+<
 PaymentRequestParent
-*
+>
 mIPC
 ;
 eState
