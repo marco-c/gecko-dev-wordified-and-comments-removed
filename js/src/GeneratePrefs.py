@@ -1,7 +1,7 @@
 import
-buildconfig
+io
 import
-six
+buildconfig
 import
 yaml
 from
@@ -191,7 +191,7 @@ pp
 .
 out
 =
-six
+io
 .
 StringIO
 (
