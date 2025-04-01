@@ -220,13 +220,6 @@ js
 ]
 [
 "
-browser_autofill_address_textarea
-.
-js
-"
-]
-[
-"
 browser_autofill_creditCard_name
 .
 js

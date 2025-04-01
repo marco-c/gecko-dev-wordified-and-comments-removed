@@ -207,14 +207,14 @@ savedFieldNames
 ;
 }
 get
-focusedElement
+focusedInput
 (
 )
 {
 return
 formFillController
 .
-focusedElement
+focusedInput
 ;
 }
 /
