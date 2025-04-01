@@ -133,6 +133,10 @@ vec
 [
 ]
 true
+vec
+!
+[
+]
 )
 ;
 let
