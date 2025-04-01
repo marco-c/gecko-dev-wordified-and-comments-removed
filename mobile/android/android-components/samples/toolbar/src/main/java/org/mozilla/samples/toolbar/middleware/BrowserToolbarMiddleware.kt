@@ -312,6 +312,7 @@ icons
 R
 as
 iconsR
+private
 sealed
 class
 SearchSelectorInteractions
