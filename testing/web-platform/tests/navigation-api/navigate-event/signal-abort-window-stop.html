@@ -113,6 +113,9 @@ true
 }
 )
 ;
+let
+committed_promise
+=
 navigation
 .
 navigate
@@ -122,6 +125,8 @@ navigate
 1
 "
 )
+.
+committed
 ;
 window
 .
@@ -139,6 +144,15 @@ aborted
 assert_true
 (
 onabort_called
+)
+;
+promise_rejects_dom
+(
+t
+"
+AbortError
+"
+committed_promise
 )
 ;
 /

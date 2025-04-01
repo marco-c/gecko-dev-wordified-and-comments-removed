@@ -73,6 +73,9 @@ navigateEvent
 =
 e
 ;
+let
+committed_promise
+=
 navigation
 .
 navigate
@@ -82,6 +85,8 @@ navigate
 1
 "
 )
+.
+committed
 ;
 assert_false
 (
@@ -101,6 +106,15 @@ assert_false
 navigateEvent
 .
 defaultPrevented
+)
+;
+promise_rejects_dom
+(
+t
+"
+AbortError
+"
+committed_promise
 )
 ;
 }
