@@ -85,12 +85,14 @@ annotation
 android
 {
 buildToolsVersion
+=
 project
 .
 ext
 .
 buildToolsVersion
 compileSdkVersion
+=
 project
 .
 ext
@@ -99,12 +101,14 @@ compileSdkVersion
 defaultConfig
 {
 targetSdkVersion
+=
 project
 .
 ext
 .
 targetSdkVersion
 minSdkVersion
+=
 project
 .
 ext
@@ -160,6 +164,7 @@ debug
 )
 }
 namespace
+=
 '
 org
 .

@@ -3,8 +3,10 @@ android
 lint
 {
 warningsAsErrors
+=
 true
 abortOnError
+=
 (
 project
 .

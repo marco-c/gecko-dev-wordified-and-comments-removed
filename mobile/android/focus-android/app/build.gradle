@@ -290,14 +290,17 @@ org
 mozilla
 "
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -438,6 +441,7 @@ false
 lint
 {
 lintConfig
+=
 file
 (
 "
@@ -447,6 +451,7 @@ xml
 "
 )
 baseline
+=
 file
 (
 "
@@ -539,6 +544,7 @@ debug
 builds
 .
 shrinkResources
+=
 !
 project
 .
@@ -549,6 +555,7 @@ disableOptimization
 "
 )
 minifyEnabled
+=
 !
 project
 .
@@ -838,6 +845,7 @@ text_selection_search_action_focus_nightly
 testOptions
 {
 execution
+=
 '
 ANDROIDX_TEST_ORCHESTRATOR
 '
@@ -854,10 +862,13 @@ true
 buildFeatures
 {
 compose
+=
 true
 viewBinding
+=
 true
 buildConfig
+=
 true
 }
 flavorDimensions
@@ -1181,6 +1192,7 @@ true
 }
 }
 namespace
+=
 '
 org
 .

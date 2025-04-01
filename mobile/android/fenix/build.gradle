@@ -117,6 +117,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (
@@ -389,6 +390,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (
@@ -410,6 +412,7 @@ true
 maven
 {
 url
+=
 "
 {
 gradle

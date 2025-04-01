@@ -24,12 +24,14 @@ application
 android
 {
 buildToolsVersion
+=
 project
 .
 ext
 .
 buildToolsVersion
 compileSdkVersion
+=
 project
 .
 ext
@@ -38,12 +40,14 @@ compileSdkVersion
 defaultConfig
 {
 targetSdkVersion
+=
 project
 .
 ext
 .
 targetSdkVersion
 minSdkVersion
+=
 project
 .
 ext
@@ -84,6 +88,7 @@ buildTypes
 release
 {
 minifyEnabled
+=
 false
 proguardFiles
 getDefaultProguardFile
@@ -186,6 +191,7 @@ in
 aaptOptions
 {
 ignoreAssetsPattern
+=
 '
 !
 .
@@ -230,6 +236,7 @@ ja
 '
 }
 namespace
+=
 '
 org
 .

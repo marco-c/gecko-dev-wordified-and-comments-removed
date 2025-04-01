@@ -42,6 +42,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (
@@ -339,14 +340,17 @@ org
 mozilla
 "
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -860,6 +864,7 @@ debug
 builds
 .
 shrinkResources
+=
 !
 project
 .
@@ -870,6 +875,7 @@ disableOptimization
 "
 )
 minifyEnabled
+=
 !
 project
 .
@@ -880,6 +886,8 @@ disableOptimization
 "
 )
 proguardFiles
+=
+[
 getDefaultProguardFile
 (
 '
@@ -899,6 +907,7 @@ rules
 .
 pro
 '
+]
 matchingFallbacks
 =
 [
@@ -1056,8 +1065,10 @@ buildTypes
 debug
 {
 shrinkResources
+=
 false
 minifyEnabled
+=
 false
 applicationIdSuffix
 "
@@ -1077,6 +1088,7 @@ IS_DEBUG
 true
 "
 pseudoLocalesEnabled
+=
 true
 }
 nightly
@@ -1503,6 +1515,7 @@ applicationIdSuffix
 fenix
 "
 signingConfig
+=
 signingConfigs
 .
 debug
@@ -1513,8 +1526,10 @@ false
 buildFeatures
 {
 viewBinding
+=
 true
 buildConfig
+=
 true
 }
 androidResources
@@ -1604,6 +1619,7 @@ the
 APK
 .
 ignoreAssetsPattern
+=
 "
 manifest
 .
@@ -1615,6 +1631,7 @@ json
 testOptions
 {
 execution
+=
 '
 ANDROIDX_TEST_ORCHESTRATOR
 '
@@ -1884,6 +1901,7 @@ false
 lint
 {
 lintConfig
+=
 file
 (
 "
@@ -1893,6 +1911,7 @@ xml
 "
 )
 baseline
+=
 file
 (
 "
@@ -2053,14 +2072,17 @@ minHeapSize
 buildFeatures
 {
 compose
+=
 true
 }
 compileOptions
 {
 coreLibraryDesugaringEnabled
+=
 true
 }
 namespace
+=
 '
 org
 .

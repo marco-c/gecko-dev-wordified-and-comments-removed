@@ -76,6 +76,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (
@@ -187,14 +188,17 @@ android
 defaultConfig
 {
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -237,6 +241,7 @@ pro
 release
 {
 minifyEnabled
+=
 false
 proguardFiles
 getDefaultProguardFile
@@ -271,9 +276,11 @@ pro
 buildFeatures
 {
 buildConfig
+=
 true
 }
 namespace
+=
 '
 mozilla
 .

@@ -91,14 +91,17 @@ android
 defaultConfig
 {
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -134,6 +137,7 @@ buildTypes
 release
 {
 minifyEnabled
+=
 false
 proguardFiles
 getDefaultProguardFile
@@ -156,6 +160,7 @@ pro
 }
 }
 namespace
+=
 '
 mozilla
 .

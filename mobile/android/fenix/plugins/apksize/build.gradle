@@ -70,6 +70,7 @@ dsl
 )
 }
 buildDir
+=
 "
 {
 gradle
@@ -111,6 +112,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (

@@ -79,14 +79,17 @@ android
 defaultConfig
 {
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -104,8 +107,10 @@ AndroidJUnitRunner
 lint
 {
 warningsAsErrors
+=
 true
 abortOnError
+=
 true
 }
 buildTypes
@@ -113,6 +118,7 @@ buildTypes
 release
 {
 minifyEnabled
+=
 false
 proguardFiles
 getDefaultProguardFile
@@ -135,6 +141,7 @@ pro
 }
 }
 namespace
+=
 '
 mozilla
 .

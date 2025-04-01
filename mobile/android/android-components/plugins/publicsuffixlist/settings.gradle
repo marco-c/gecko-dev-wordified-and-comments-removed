@@ -141,6 +141,7 @@ repository
 maven
 {
 url
+=
 repository
 if
 (

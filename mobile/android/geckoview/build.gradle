@@ -64,12 +64,14 @@ annotations
 android
 {
 buildToolsVersion
+=
 project
 .
 ext
 .
 buildToolsVersion
 compileSdkVersion
+=
 project
 .
 ext
@@ -102,12 +104,14 @@ mock
 defaultConfig
 {
 targetSdkVersion
+=
 project
 .
 ext
 .
 targetSdkVersion
 minSdkVersion
+=
 project
 .
 ext
@@ -944,6 +948,7 @@ false
 lintOptions
 {
 abortOnError
+=
 false
 }
 sourceSets
@@ -1324,6 +1329,7 @@ xml
 buildFeatures
 {
 buildConfig
+=
 true
 aidl
 =
@@ -1339,6 +1345,7 @@ debug
 )
 }
 namespace
+=
 '
 org
 .

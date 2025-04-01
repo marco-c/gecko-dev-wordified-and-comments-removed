@@ -91,14 +91,17 @@ sync
 logins
 "
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -126,6 +129,7 @@ buildTypes
 release
 {
 minifyEnabled
+=
 false
 proguardFiles
 getDefaultProguardFile
@@ -152,6 +156,7 @@ splits
 abi
 {
 enable
+=
 true
 reset
 (
@@ -173,6 +178,7 @@ v7a
 }
 }
 namespace
+=
 '
 org
 .
