@@ -379,7 +379,7 @@ AndroidJUnit4
 class
 )
 class
-SearchTermSuggestionsProviderTest
+RecentSearchSuggestionsProviderTest
 {
 private
 val
@@ -547,7 +547,7 @@ exception
 (
 )
 {
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -572,7 +572,9 @@ SEARCH_TERMS_MAXIMUM_ALLOWED_SUGGESTIONS_LIMIT
 Test
 fun
 GIVEN
-an
+a
+non
+-
 empty
 input
 WHEN
@@ -591,7 +593,7 @@ runTest
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 mock
 (
@@ -609,6 +611,7 @@ provider
 onInputChanged
 (
 "
+fir
 "
 )
 assertTrue
@@ -624,6 +627,8 @@ Test
 fun
 GIVEN
 an
+non
+-
 empty
 input
 WHEN
@@ -647,7 +652,7 @@ runTest
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 storage
 mock
@@ -660,6 +665,7 @@ provider
 onInputChanged
 (
 "
+fir
 "
 )
 verify
@@ -684,6 +690,7 @@ never
 cancelReads
 (
 "
+fir
 "
 )
 }
@@ -713,7 +720,7 @@ runTest
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 storage
 mock
@@ -733,7 +740,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 orderVerifier
@@ -759,7 +765,6 @@ storage
 cancelReads
 (
 "
-fir
 "
 )
 orderVerifier
@@ -808,7 +813,7 @@ mock
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -836,7 +841,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1016,7 +1020,7 @@ icon
 var
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1041,7 +1045,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1071,7 +1074,7 @@ icon
 .
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1095,7 +1098,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1149,7 +1151,7 @@ runTest
 var
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1174,7 +1176,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1200,7 +1201,7 @@ editSuggestion
 )
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1224,7 +1225,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1300,7 +1300,7 @@ MIN_VALUE
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1320,7 +1320,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1414,7 +1413,7 @@ MIN_VALUE
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1434,7 +1433,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1614,7 +1612,7 @@ MIN_VALUE
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 storage
 mock
@@ -1630,7 +1628,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1833,7 +1830,7 @@ suggestions
 var
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1858,7 +1855,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -1930,7 +1926,7 @@ suggestions
 .
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -1954,7 +1950,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -2040,7 +2035,7 @@ MIN_VALUE
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 storage
 mock
@@ -2056,7 +2051,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals
@@ -2153,7 +2147,7 @@ resultUrls
 val
 provider
 =
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 (
 historyStorage
 =
@@ -2178,6 +2172,7 @@ provider
 onInputChanged
 (
 "
+fir
 "
 )
 assertTrue
@@ -2228,7 +2223,6 @@ provider
 onInputChanged
 (
 "
-fir
 "
 )
 assertEquals

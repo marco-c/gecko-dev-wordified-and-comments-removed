@@ -205,6 +205,18 @@ awesomebar
 .
 provider
 .
+RecentSearchSuggestionsProvider
+import
+mozilla
+.
+components
+.
+feature
+.
+awesomebar
+.
+provider
+.
 SearchActionProvider
 import
 mozilla
@@ -10072,7 +10084,7 @@ result
 .
 filterIsInstance
 <
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 >
 (
 )
@@ -10166,7 +10178,7 @@ result
 .
 filterIsInstance
 <
-SearchTermSuggestionsProvider
+RecentSearchSuggestionsProvider
 >
 (
 )
