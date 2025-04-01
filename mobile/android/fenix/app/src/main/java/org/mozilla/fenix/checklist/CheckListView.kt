@@ -588,7 +588,7 @@ FirefoxTheme
 .
 typography
 .
-headline7
+subtitle1
 color
 =
 FirefoxTheme
@@ -788,7 +788,7 @@ FirefoxTheme
 .
 typography
 .
-headline7
+subtitle1
 color
 =
 FirefoxTheme
