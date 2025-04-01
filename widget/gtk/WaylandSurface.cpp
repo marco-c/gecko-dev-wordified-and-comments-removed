@@ -6499,12 +6499,7 @@ scale
 ;
 }
 return
-ScreenHelperGTK
-:
-:
-GetGTKMonitorScaleFactor
-(
-)
+1
 ;
 }
 void
