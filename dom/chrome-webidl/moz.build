@@ -492,11 +492,6 @@ StyleSheetRemovedEvent
 webidl
 "
 "
-TelemetryStopwatch
-.
-webidl
-"
-"
 TreeColumn
 .
 webidl

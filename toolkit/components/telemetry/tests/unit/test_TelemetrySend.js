@@ -664,13 +664,6 @@ HealthPingEnabled
 true
 )
 ;
-TelemetryStopwatch
-.
-setTestModeEnabled
-(
-true
-)
-;
 }
 )
 ;

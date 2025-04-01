@@ -222,13 +222,6 @@ body
 html
 >
 ;
-SimpleTest
-.
-ignoreAllUncaughtExceptions
-(
-true
-)
-;
 function
 setupMailHandler
 (

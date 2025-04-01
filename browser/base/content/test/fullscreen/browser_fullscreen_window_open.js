@@ -5,13 +5,6 @@ strict
 ;
 SimpleTest
 .
-ignoreAllUncaughtExceptions
-(
-true
-)
-;
-SimpleTest
-.
 requestLongerTimeout
 (
 2

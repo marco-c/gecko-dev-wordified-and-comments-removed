@@ -969,13 +969,6 @@ js
 ]
 [
 "
-test_TelemetryStopwatch
-.
-js
-"
-]
-[
-"
 test_TelemetryTimestamps
 .
 js

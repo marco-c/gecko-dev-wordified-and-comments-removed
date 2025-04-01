@@ -228,7 +228,6 @@ modules
 {
 HeapSnapshot
 Promise
-TelemetryStopwatch
 }
 ;
 defineLazyGetter

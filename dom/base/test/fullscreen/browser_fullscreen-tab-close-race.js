@@ -40,13 +40,6 @@ js
 this
 )
 ;
-SimpleTest
-.
-ignoreAllUncaughtExceptions
-(
-true
-)
-;
 add_setup
 (
 async

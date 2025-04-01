@@ -1017,7 +1017,6 @@ NodeFilter
 PathUtils
 Services
 StructuredCloneHolder
-TelemetryStopwatch
 WebExtensionPolicy
 WebSocket
 WindowGlobalChild

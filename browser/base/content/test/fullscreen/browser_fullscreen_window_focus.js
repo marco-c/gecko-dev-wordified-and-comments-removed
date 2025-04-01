@@ -24,13 +24,6 @@ resolve
 )
 ;
 }
-SimpleTest
-.
-ignoreAllUncaughtExceptions
-(
-true
-)
-;
 const
 IFRAME_ID
 =

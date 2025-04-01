@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-SimpleTest
-.
-ignoreAllUncaughtExceptions
-(
-true
-)
-;
 const
 {
 PromiseTestUtils

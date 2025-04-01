@@ -1955,9 +1955,6 @@ false
 TCPSocketEvent
 :
 false
-TelemetryStopwatch
-:
-false
 TestingDeprecatedInterface
 :
 false
