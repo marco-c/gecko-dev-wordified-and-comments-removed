@@ -456,6 +456,10 @@ sandbox
 create_sandbox
 (
 false
+nullptr
+"
+rlbox_wasm2c_ogg
+"
 )
 ;
 #

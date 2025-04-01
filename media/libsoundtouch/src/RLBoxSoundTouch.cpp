@@ -54,6 +54,10 @@ mSandbox
 create_sandbox
 (
 false
+nullptr
+"
+rlbox_wasm2c_soundtouch
+"
 )
 ;
 #

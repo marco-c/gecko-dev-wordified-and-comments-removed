@@ -278,6 +278,9 @@ create_sandbox
 false
 &
 capacity
+"
+rlbox_wasm2c_woff2
+"
 )
 ;
 #
