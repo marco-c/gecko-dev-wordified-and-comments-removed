@@ -83,10 +83,6 @@ signing
 apk
 -
 fetch
--
-upload
--
-symbols
 transforms
 :
 -

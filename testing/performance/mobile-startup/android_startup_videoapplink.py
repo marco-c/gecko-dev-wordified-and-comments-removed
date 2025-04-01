@@ -36,12 +36,6 @@ from
 mozdevice
 import
 ADBDevice
-from
-mozperftest
-.
-profiler
-import
-ProfilingMediator
 PROD_FENIX
 =
 "
@@ -226,14 +220,6 @@ self
 device
 =
 ADBDevice
-(
-)
-        
-self
-.
-profiler
-=
-ProfilingMediator
 (
 )
         
@@ -853,14 +839,6 @@ video_location
         
 )
         
-self
-.
-profiler
-.
-start
-(
-)
-        
 if
 self
 .
@@ -897,23 +875,6 @@ self
 .
 open_browser_with_view_intent
 (
-)
-        
-self
-.
-profiler
-.
-stop
-(
-os
-.
-environ
-[
-"
-TESTING_DIR
-"
-]
-run
 )
         
 self
@@ -1873,8 +1834,7 @@ sys
 .
 argv
 )
-!
-=
+<
 4
 :
         
