@@ -115,13 +115,6 @@ js
 ]
 [
 "
-test_NewTabMessaging
-.
-js
-"
-]
-[
-"
 test_PlacesFeed
 .
 js
