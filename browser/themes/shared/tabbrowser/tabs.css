@@ -1707,6 +1707,13 @@ touch
 tabbrowser
 -
 tab
+:
+not
+(
+[
+pinned
+]
+)
 {
 /
 *
