@@ -809,9 +809,6 @@ testcase
 0
 ]
 )
-{
-line
-:
 testcase
 [
 0
@@ -819,8 +816,6 @@ testcase
 [
 0
 ]
-ch
-:
 testcase
 [
 0
@@ -828,7 +823,6 @@ testcase
 [
 1
 ]
-}
 )
 ;
 if
