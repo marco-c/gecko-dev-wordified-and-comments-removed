@@ -945,6 +945,10 @@ false
 use_ohttp
 :
 true
+uploader_capabilities
+:
+-
+ohttp
 send_if_empty
 :
 true
