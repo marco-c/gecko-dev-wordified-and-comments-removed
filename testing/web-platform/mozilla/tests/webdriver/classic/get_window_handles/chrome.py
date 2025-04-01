@@ -1,5 +1,3 @@
-import
-pytest
 from
 support
 .
@@ -55,11 +53,6 @@ session
 )
     
 )
-pytest
-.
-mark
-.
-allow_system_access
 def
 test_basic
 (
@@ -91,11 +84,6 @@ session
 .
 handles
 )
-pytest
-.
-mark
-.
-allow_system_access
 def
 test_different_handles_than_content_scope
 (
@@ -164,11 +152,6 @@ content_handles
 =
 =
 1
-pytest
-.
-mark
-.
-allow_system_access
 def
 test_multiple_windows_and_tabs
 (
