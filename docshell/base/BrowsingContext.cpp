@@ -11838,14 +11838,6 @@ IsPopupAllowed
 |
 |
 (
-StaticPrefs
-:
-:
-dom_popup_experimental
-(
-)
-&
-&
 doc
 &
 &

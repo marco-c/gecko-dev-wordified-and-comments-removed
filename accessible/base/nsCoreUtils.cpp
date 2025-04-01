@@ -719,16 +719,6 @@ offset
 y
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_popup_experimental
-(
-)
-)
-{
 tcElm
 -
 >
@@ -741,7 +731,6 @@ NotifyUserGestureActivation
 (
 )
 ;
-}
 DispatchMouseEvent
 (
 eMouseDown
