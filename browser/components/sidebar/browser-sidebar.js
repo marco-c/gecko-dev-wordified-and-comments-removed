@@ -5766,6 +5766,7 @@ hover
 "
 )
 {
+await
 this
 .
 toggleExpandOnHover
@@ -5855,6 +5856,7 @@ hover
 "
 )
 {
+await
 this
 .
 toggleExpandOnHover
@@ -9323,6 +9325,23 @@ browser
 let
 collapsedWidth
 =
+await
+new
+Promise
+(
+resolve
+=
+>
+{
+requestAnimationFrame
+(
+(
+)
+=
+>
+{
+resolve
+(
 this
 .
 _getRects
@@ -9341,6 +9360,13 @@ sidebarMain
 ]
 .
 width
+)
+;
+}
+)
+;
+}
+)
 ;
 browserEl
 .
@@ -9607,6 +9633,7 @@ launcherExpanded
 =
 false
 ;
+}
 await
 this
 .
@@ -9614,7 +9641,6 @@ waitUntilStable
 (
 )
 ;
-}
 MousePosTracker
 .
 addListener
@@ -10096,6 +10122,7 @@ always
 -
 show
 "
+async
 (
 _aPreference
 _previousValue
@@ -10118,6 +10145,7 @@ SidebarController
 uninitializing
 )
 {
+await
 SidebarController
 .
 toggleExpandOnHover
