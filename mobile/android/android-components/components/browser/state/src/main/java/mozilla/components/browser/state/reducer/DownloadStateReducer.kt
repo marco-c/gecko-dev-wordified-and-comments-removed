@@ -268,13 +268,6 @@ state
 is
 DownloadAction
 .
-RemoveDeletedDownloads
--
->
-state
-is
-DownloadAction
-.
 RestoreDownloadStateAction
 -
 >
