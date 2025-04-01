@@ -2634,6 +2634,8 @@ False
 help
 "
 :
+(
+                    
 "
 Create
 and
@@ -2648,6 +2650,28 @@ raptor
 tasks
 .
 "
+                    
+"
+Copy
+paste
+the
+parameters
+used
+in
+this
+profiling
+run
+directly
+from
+about
+:
+profiling
+in
+Nightly
+.
+"
+                
+)
             
 }
         
