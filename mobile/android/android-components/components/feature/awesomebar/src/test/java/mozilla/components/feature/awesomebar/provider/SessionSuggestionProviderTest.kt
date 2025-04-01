@@ -75,12 +75,6 @@ res
 .
 Resources
 import
-android
-.
-net
-.
-Uri
-import
 androidx
 .
 core
@@ -3060,10 +3054,6 @@ tab
 val
 uriFilter
 =
-Uri
-.
-parse
-(
 "
 https
 :
@@ -3073,6 +3063,9 @@ mozilla
 .
 org
 "
+.
+toUri
+(
 )
 val
 provider

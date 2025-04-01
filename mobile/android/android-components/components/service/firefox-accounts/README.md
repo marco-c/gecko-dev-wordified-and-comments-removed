@@ -2047,11 +2047,10 @@ redirectUrl
 val
 uri
 =
-Uri
-.
-parse
-(
 url
+.
+toUri
+(
 )
 val
 mCode

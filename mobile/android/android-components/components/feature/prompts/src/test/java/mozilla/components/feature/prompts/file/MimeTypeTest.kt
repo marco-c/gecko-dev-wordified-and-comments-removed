@@ -205,6 +205,14 @@ MimeTypeMap
 import
 androidx
 .
+core
+.
+net
+.
+toUri
+import
+androidx
+.
 test
 .
 ext
@@ -1681,10 +1689,6 @@ request
 val
 uri
 =
-Uri
-.
-parse
-(
 "
 context
 :
@@ -1692,6 +1696,9 @@ context
 /
 abcd
 "
+.
+toUri
+(
 )
 val
 image

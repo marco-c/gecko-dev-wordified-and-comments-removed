@@ -123,6 +123,14 @@ net
 .
 Uri
 import
+androidx
+.
+core
+.
+net
+.
+toUri
+import
 mozilla
 .
 components
@@ -736,10 +744,6 @@ get
 val
 uri
 =
-Uri
-.
-parse
-(
 "
 content
 :
@@ -749,6 +753,9 @@ packageName
 /
 trackers
 "
+.
+toUri
+(
 )
 val
 values
