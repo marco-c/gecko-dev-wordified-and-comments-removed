@@ -299,6 +299,14 @@ requireActivity
 localeUseCase
 =
 localeUseCases
+storage
+=
+LanguageStorage
+(
+requireContext
+(
+)
+)
 )
 )
 )
