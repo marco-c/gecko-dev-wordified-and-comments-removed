@@ -300,8 +300,13 @@ SRIMetadata
 )
 referrer
 loadContext
-false
-false
+ModuleLoadRequest
+:
+:
+Kind
+:
+:
+StaticImport
 this
 aParent
 -

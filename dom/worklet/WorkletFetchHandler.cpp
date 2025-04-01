@@ -648,8 +648,13 @@ SRIMetadata
 )
 mReferrer
 loadContext
-true
-false
+ModuleLoadRequest
+:
+:
+Kind
+:
+:
+TopLevel
 moduleLoader
 visitedSet
 nullptr

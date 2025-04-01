@@ -5162,8 +5162,13 @@ SRIMetadata
 )
 nullptr
 context
-true
-false
+ModuleLoadRequest
+:
+:
+Kind
+:
+:
+TopLevel
 mModuleLoader
 visitedSet
 nullptr
