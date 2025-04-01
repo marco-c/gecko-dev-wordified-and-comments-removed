@@ -88,6 +88,16 @@ jar
 mn
 "
 ]
+DIRS
++
+=
+[
+"
+webext
+-
+glue
+"
+]
 else
 :
 JAR_MANIFESTS
