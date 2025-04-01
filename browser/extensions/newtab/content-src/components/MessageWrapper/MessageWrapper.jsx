@@ -431,9 +431,11 @@ MESSAGE_DISMISS
 data
 :
 {
-messageId
+message
 :
-id
+message
+.
+messageData
 }
 }
 )
@@ -480,9 +482,11 @@ MESSAGE_CLICK
 data
 :
 {
-messageId
+message
 :
-id
+message
+.
+messageData
 source
 :
 elementId
