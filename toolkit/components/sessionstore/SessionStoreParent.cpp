@@ -1073,7 +1073,7 @@ if
 !
 aBrowsingContext
 .
-IsNull
+IsNullOrDiscarded
 (
 )
 )
@@ -1161,7 +1161,7 @@ if
 !
 aBrowsingContext
 .
-IsNull
+IsNullOrDiscarded
 (
 )
 )
