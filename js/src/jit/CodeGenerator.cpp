@@ -7491,7 +7491,7 @@ if
 input
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -9618,7 +9618,7 @@ if
 right
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -9712,7 +9712,7 @@ if
 right
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -9989,7 +9989,7 @@ if
 right
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -10083,7 +10083,7 @@ if
 right
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -23898,7 +23898,7 @@ if
 arg
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -45259,7 +45259,7 @@ output
 )
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -90147,7 +90147,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -90223,7 +90223,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -90552,7 +90552,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -90897,7 +90897,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -91069,7 +91069,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -91131,7 +91131,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -114771,7 +114771,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -114947,7 +114947,7 @@ if
 length
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )

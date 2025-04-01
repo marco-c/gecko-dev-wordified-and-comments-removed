@@ -823,7 +823,7 @@ low
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 =
@@ -834,7 +834,7 @@ high
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -846,7 +846,7 @@ low
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 ;
@@ -859,7 +859,7 @@ value
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 ;

@@ -10771,7 +10771,7 @@ if
 falseExpr
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
