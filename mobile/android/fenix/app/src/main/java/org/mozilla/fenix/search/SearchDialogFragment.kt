@@ -1869,13 +1869,6 @@ requireComponents
 useCases
 .
 tabsUseCases
-fenixBrowserUseCases
-=
-requireComponents
-.
-useCases
-.
-fenixBrowserUseCases
 fragmentStore
 =
 store
