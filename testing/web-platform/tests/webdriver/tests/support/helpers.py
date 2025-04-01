@@ -707,7 +707,10 @@ and
 value
 :
             
-returned
+source
+[
+key
+]
 =
 deep_update
 (
@@ -721,13 +724,47 @@ key
 )
 value
 )
+        
+elif
+isinstance
+(
+value
+list
+)
+and
+isinstance
+(
+source
+.
+get
+(
+key
+)
+list
+)
+and
+value
+:
             
 source
 [
 key
 ]
 =
-returned
+list
+(
+dict
+.
+fromkeys
+(
+source
+[
+key
+]
++
+value
+)
+)
         
 else
 :
@@ -737,10 +774,7 @@ source
 key
 ]
 =
-overrides
-[
-key
-]
+value
     
 return
 source
