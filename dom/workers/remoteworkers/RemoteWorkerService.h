@@ -67,6 +67,9 @@ class
 RemoteWorkerDebuggerManagerChild
 ;
 class
+RemoteWorkerDebuggerManagerParent
+;
+class
 RemoteWorkerService
 ;
 class
@@ -290,7 +293,13 @@ RefPtr
 <
 RemoteWorkerDebuggerManagerChild
 >
-mDebuggerManagerActor
+mDebuggerManagerChild
+;
+RefPtr
+<
+RemoteWorkerDebuggerManagerParent
+>
+mDebuggerManagerParent
 ;
 DataMutex
 <
