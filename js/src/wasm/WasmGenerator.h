@@ -1430,7 +1430,7 @@ SharedModule
 finishModule
 (
 const
-BytecodeBufferOrSource
+ShareableBytes
 &
 bytecode
 MutableModuleMetadata

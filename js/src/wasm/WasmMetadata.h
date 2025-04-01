@@ -210,7 +210,7 @@ funcDefCallRefs
 AllocSitesRangeVector
 funcDefAllocSites
 ;
-BytecodeBuffer
+SharedBytes
 debugBytecode
 ;
 MutableCallRefHints
