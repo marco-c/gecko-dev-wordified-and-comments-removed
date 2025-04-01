@@ -181,6 +181,12 @@ scope_specification_items
 =
 [
 ]
+        
+self
+.
+refresh_sends_challenge
+=
+True
     
 def
 next_session_id_value
@@ -566,6 +572,30 @@ self
 scope_specification_items
 =
 scope_specification_items
+        
+refresh_sends_challenge
+=
+configuration
+.
+get
+(
+"
+refreshSendsChallenge
+"
+)
+        
+if
+refresh_sends_challenge
+is
+not
+None
+:
+            
+self
+.
+refresh_sends_challenge
+=
+refresh_sends_challenge
     
 def
 get_should_refresh_end_session
@@ -615,6 +645,18 @@ self
 registration_sends_challenge
 =
 False
+    
+def
+get_refresh_sends_challenge
+(
+self
+)
+:
+        
+return
+self
+.
+refresh_sends_challenge
     
 def
 set_has_called_refresh
