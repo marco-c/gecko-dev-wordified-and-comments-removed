@@ -991,7 +991,7 @@ legal
 /
 terms
 /
-services
+firefox
 /
 "
 )
