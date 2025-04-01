@@ -4857,6 +4857,13 @@ http2
 ]
 [
 "
+browser_webconsole_previewers
+.
+js
+"
+]
+[
+"
 browser_webconsole_promise_rejected_object
 .
 js
@@ -5513,13 +5520,6 @@ Bug
 1829298
 "
 http2
-"
-]
-[
-"
-browser_webconsole_trusted_types
-.
-js
 "
 ]
 [
