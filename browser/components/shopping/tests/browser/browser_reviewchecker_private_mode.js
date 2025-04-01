@@ -35,6 +35,14 @@ document
 =
 win
 ;
+win
+.
+SidebarController
+.
+show
+(
+)
+;
 let
 sidebar
 ;
