@@ -4516,6 +4516,11 @@ LockManager
 webidl
 "
 "
+LoginStatus
+.
+webidl
+"
+"
 MathMLElement
 .
 webidl
