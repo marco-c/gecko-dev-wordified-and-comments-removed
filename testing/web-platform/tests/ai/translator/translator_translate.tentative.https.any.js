@@ -28,9 +28,7 @@ async
 {
 return
 await
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -67,9 +65,7 @@ ja
 const
 createPromise
 =
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -96,9 +92,7 @@ const
 availability
 =
 await
-ai
-.
-translator
+Translator
 .
 availability
 (
@@ -114,9 +108,7 @@ available
 )
 ;
 await
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -367,7 +359,7 @@ option
 passed
 in
 to
-AITranslatorFactory
+Translator
 .
 create
 .
@@ -496,7 +488,7 @@ createPromise
 ;
 }
 '
-AITranslatorFactory
+Translator
 .
 create
 (
@@ -549,7 +541,7 @@ ja
 }
 '
 Aborting
-AITranslatorFactory
+Translator
 .
 create
 (
@@ -848,7 +840,7 @@ total
 }
 }
 '
-AITranslatorFactory
+Translator
 .
 create
 (
@@ -873,11 +865,7 @@ const
 translator
 =
 await
-ai
-.
-translator
-.
-create
+createTranslator
 (
 {
 sourceLanguage
