@@ -133,14 +133,13 @@ e
 intercept
 (
 {
-handler
+precommitHandler
 :
 t
 .
 step_func
 (
-(
-)
+controller
 =
 >
 {
@@ -171,7 +170,7 @@ replace
 "
 )
 ;
-e
+controller
 .
 redirect
 (
@@ -208,7 +207,7 @@ redirect1
 "
 )
 ;
-e
+controller
 .
 redirect
 (
@@ -247,13 +246,6 @@ redirect2
 ;
 }
 )
-commit
-:
-"
-after
--
-transition
-"
 }
 )
 ;
@@ -305,6 +297,7 @@ start_length
 ;
 }
 "
+precommitHandler
 redirect
 (
 )
