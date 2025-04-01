@@ -434,5 +434,12 @@ ShareUrlClicked
 -
 >
 state
+is
+DownloadUIAction
+.
+ShareFileClicked
+-
+>
+state
 }
 }
