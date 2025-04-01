@@ -663,7 +663,7 @@ shopping
 .
 experience2023
 .
-autoOpen
+autoClose
 .
 userEnabled
 "
