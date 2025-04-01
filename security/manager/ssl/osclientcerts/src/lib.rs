@@ -689,6 +689,9 @@ ManagerProxy
 :
 new
 (
+"
+osclientcerts
+"
 Backend
 {
 }
