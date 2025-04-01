@@ -1158,10 +1158,6 @@ windows
 -
 talos
 -
-windows
--
-talos
--
 webgl
 windows11
 -
@@ -1186,14 +1182,6 @@ test
 -
 sets
 :
--
-talos
--
-profiling
--
-windows
--
-talos
 -
 windows
 -
