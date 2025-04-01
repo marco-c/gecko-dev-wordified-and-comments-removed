@@ -1685,6 +1685,7 @@ move
 (
 aFilter
 )
+false
 )
 ;
 }
@@ -2168,6 +2169,7 @@ UpdateTransport_m
 (
 aTransportId
 nullptr
+true
 )
 ;
 audio_pipeline_
@@ -2386,6 +2388,7 @@ move
 (
 bundle_filter_
 )
+true
 )
 ;
 audio_pipeline_
@@ -2448,6 +2451,7 @@ move
 (
 filter
 )
+false
 )
 ;
 }
@@ -3905,6 +3909,7 @@ filter
 Update
 (
 filter2
+true
 )
 ;
 EXPECT_TRUE
@@ -3943,6 +3948,7 @@ filter
 Update
 (
 filter3
+true
 )
 ;
 ASSERT_FALSE

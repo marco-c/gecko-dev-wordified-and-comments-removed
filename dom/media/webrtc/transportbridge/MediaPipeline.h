@@ -324,6 +324,8 @@ MediaPipelineFilter
 &
 &
 aFilter
+bool
+aSignalingStable
 )
 ;
 void
@@ -343,6 +345,8 @@ MediaPipelineFilter
 &
 &
 aFilter
+bool
+aSignalingStable
 )
 ;
 virtual

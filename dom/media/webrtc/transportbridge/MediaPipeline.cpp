@@ -1674,6 +1674,8 @@ MediaPipelineFilter
 &
 &
 aFilter
+bool
+aSignalingStable
 )
 {
 mStsThread
@@ -1704,6 +1706,7 @@ MediaPipeline
 (
 this
 )
+aSignalingStable
 ]
 (
 )
@@ -1722,6 +1725,7 @@ move
 (
 filter
 )
+aSignalingStable
 )
 ;
 }
@@ -1749,6 +1753,8 @@ MediaPipelineFilter
 &
 &
 aFilter
+bool
+aSignalingStable
 )
 {
 ASSERT_ON_THREAD
@@ -1928,6 +1934,7 @@ Update
 (
 *
 aFilter
+aSignalingStable
 )
 ;
 }
