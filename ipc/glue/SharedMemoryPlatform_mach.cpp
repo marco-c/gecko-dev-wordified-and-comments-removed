@@ -37,13 +37,6 @@ XP_IOS
 #
 include
 <
-prtypes
-.
-h
->
-#
-include
-<
 mach
 /
 vm_map
@@ -127,6 +120,13 @@ h
 "
 #
 endif
+#
+include
+<
+prtypes
+.
+h
+>
 #
 include
 "
