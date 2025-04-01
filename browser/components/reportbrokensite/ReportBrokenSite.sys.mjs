@@ -3563,6 +3563,12 @@ error
 err
 )
 ;
+state
+.
+currentTabWebcompatDetailsPromise
+=
+undefined
+;
 }
 )
 ;
