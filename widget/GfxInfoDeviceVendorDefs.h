@@ -48,6 +48,13 @@ MicrosoftHyperV
 )
 GFXINFO_DEVICE_VENDOR
 (
+MicrosoftRemoteDisplayAdapter
+"
+0x000d
+"
+)
+GFXINFO_DEVICE_VENDOR
+(
 Parallels
 "
 0x1ab8
