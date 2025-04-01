@@ -1191,6 +1191,16 @@ GetClosestCommonInclusiveAncestor
 (
 )
 ;
+if
+(
+!
+node
+)
+{
+return
+false
+;
+}
 HyperTextAccessible
 *
 acc
