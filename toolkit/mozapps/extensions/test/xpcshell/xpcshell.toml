@@ -1544,6 +1544,13 @@ js
 ]
 [
 "
+test_signed_verify_timer
+.
+js
+"
+]
+[
+"
 test_sitePermsAddonProvider
 .
 js
