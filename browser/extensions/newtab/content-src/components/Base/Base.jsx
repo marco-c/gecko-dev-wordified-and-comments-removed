@@ -5049,6 +5049,11 @@ DiscoveryStream
 state
 .
 DiscoveryStream
+Messages
+:
+state
+.
+Messages
 Notifications
 :
 state
