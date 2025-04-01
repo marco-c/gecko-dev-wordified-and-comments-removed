@@ -200,15 +200,3 @@ more
 /
 a
 >
-addon
--
-detail
--
-file
--
-size
--
-label
-=
-File
-size
