@@ -17833,6 +17833,12 @@ return
 false
 ;
 }
+const
+uint8_t
+estimatedRestSize
+=
+4
+;
 bool
 needsRestPropertyExcludedSet
 =
@@ -17873,6 +17879,7 @@ if
 emitDestructuringObjRestExclusionSet
 (
 pattern
+estimatedRestSize
 )
 )
 {
@@ -18234,7 +18241,7 @@ JSOp
 :
 :
 NewInit
-0
+estimatedRestSize
 )
 )
 {
@@ -18929,6 +18936,8 @@ emitDestructuringObjRestExclusionSet
 ListNode
 *
 pattern
+uint8_t
+estimatedRestSize
 )
 {
 MOZ_ASSERT
@@ -18997,7 +19006,7 @@ JSOp
 :
 :
 NewInit
-0
+estimatedRestSize
 )
 )
 {

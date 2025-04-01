@@ -3325,6 +3325,8 @@ emitDestructuringObjRestExclusionSet
 ListNode
 *
 pattern
+uint8_t
+setSize
 )
 ;
 [
