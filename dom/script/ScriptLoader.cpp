@@ -5522,7 +5522,7 @@ aReferrerPolicy
 ParserMetadata
 aParserMetadata
 RequestType
-requestType
+aRequestType
 )
 {
 nsIURI
@@ -5588,7 +5588,7 @@ RefPtr
 <
 ScriptLoadRequest
 >
-aRequest
+request
 =
 new
 ScriptLoadRequest
@@ -5605,7 +5605,7 @@ context
 if
 (
 (
-requestType
+aRequestType
 =
 =
 RequestType
@@ -5614,7 +5614,7 @@ RequestType
 External
 |
 |
-requestType
+aRequestType
 =
 =
 RequestType
@@ -5631,7 +5631,7 @@ ScriptHashKey
 key
 (
 this
-aRequest
+request
 )
 ;
 auto
@@ -5663,7 +5663,7 @@ Complete
 {
 if
 (
-requestType
+aRequestType
 =
 =
 RequestType
@@ -5681,12 +5681,12 @@ CheckContentPolicy
 mDocument
 aElement
 aNonce
-aRequest
+request
 )
 )
 )
 {
-aRequest
+request
 -
 >
 NoCacheEntryFound
@@ -5694,7 +5694,7 @@ NoCacheEntryFound
 )
 ;
 return
-aRequest
+request
 .
 forget
 (
@@ -5785,7 +5785,7 @@ AddPerformanceEntryForCache
 entryName
 GetInitiatorType
 (
-aRequest
+request
 )
 cacheResult
 .
@@ -5796,7 +5796,7 @@ mDocument
 )
 ;
 }
-aRequest
+request
 -
 >
 CacheEntryFound
@@ -5807,14 +5807,14 @@ mCompleteValue
 )
 ;
 return
-aRequest
+request
 .
 forget
 (
 )
 ;
 }
-aRequest
+request
 -
 >
 NoCacheEntryFound
@@ -5822,14 +5822,14 @@ NoCacheEntryFound
 )
 ;
 return
-aRequest
+request
 .
 forget
 (
 )
 ;
 }
-aRequest
+request
 -
 >
 NoCacheEntryFound
@@ -5837,7 +5837,7 @@ NoCacheEntryFound
 )
 ;
 return
-aRequest
+request
 .
 forget
 (
@@ -5859,7 +5859,7 @@ RefPtr
 <
 ModuleLoadRequest
 >
-aRequest
+request
 =
 mModuleLoader
 -
@@ -5875,7 +5875,7 @@ context
 )
 ;
 return
-aRequest
+request
 .
 forget
 (
