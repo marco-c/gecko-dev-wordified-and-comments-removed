@@ -11654,6 +11654,19 @@ catch
 ex
 )
 {
+if
+(
+ex
+.
+name
+!
+=
+=
+"
+NS_ERROR_NOT_IMPLEMENTED
+"
+)
+{
 console
 .
 error
@@ -11661,6 +11674,7 @@ error
 ex
 )
 ;
+}
 }
 }
 /
