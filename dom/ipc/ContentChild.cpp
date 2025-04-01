@@ -11356,6 +11356,13 @@ OriginAttributesPattern
 >
 &
 aPattern
+const
+Maybe
+<
+nsCString
+>
+&
+aURL
 )
 {
 SharedStyleSheetCache
@@ -11367,6 +11374,7 @@ aChrome
 aPrincipal
 aSchemelessSite
 aPattern
+aURL
 )
 ;
 return
@@ -11418,6 +11426,13 @@ OriginAttributesPattern
 >
 &
 aPattern
+const
+Maybe
+<
+nsCString
+>
+&
+aURL
 )
 {
 SharedScriptCache
@@ -11429,6 +11444,7 @@ aChrome
 aPrincipal
 aSchemelessSite
 aPattern
+aURL
 )
 ;
 return
@@ -11487,6 +11503,13 @@ OriginAttributesPattern
 >
 &
 aPattern
+const
+Maybe
+<
+nsCString
+>
+&
+aURL
 )
 {
 imgLoader
@@ -11499,6 +11522,7 @@ aChrome
 aPrincipal
 aSchemelessSite
 aPattern
+aURL
 )
 ;
 return

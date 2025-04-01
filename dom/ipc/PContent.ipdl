@@ -3919,6 +3919,9 @@ aSchemelessSite
 OriginAttributesPattern
 ?
 aPattern
+nsCString
+?
+aURL
 )
 ;
 async
@@ -3937,6 +3940,9 @@ aSchemelessSite
 OriginAttributesPattern
 ?
 aPattern
+nsCString
+?
+aURL
 )
 ;
 async
@@ -3955,6 +3961,9 @@ aSchemelessSite
 OriginAttributesPattern
 ?
 aPattern
+nsCString
+?
+aURL
 )
 ;
 async
