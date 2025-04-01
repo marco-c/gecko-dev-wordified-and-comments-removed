@@ -288,9 +288,10 @@ GetSelectionController
 virtual
 nsFrameSelection
 *
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 =
 0
 ;

@@ -910,9 +910,10 @@ nsFrameSelection
 HTMLTextAreaElement
 :
 :
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -923,7 +924,7 @@ return
 mState
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 ;

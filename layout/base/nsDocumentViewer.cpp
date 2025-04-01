@@ -11159,7 +11159,7 @@ selectionMatchesFocus
 selection
 -
 >
-GetLimiter
+IsIndependentSelection
 (
 )
 &
@@ -11167,12 +11167,7 @@ GetLimiter
 selection
 -
 >
-GetLimiter
-(
-)
--
->
-GetChromeOnlyAccessSubtreeRootParent
+GetIndependentSelectionRootParentElement
 (
 )
 =

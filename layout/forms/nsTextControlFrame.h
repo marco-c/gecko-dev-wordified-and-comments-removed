@@ -485,7 +485,7 @@ ControlElement
 )
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 ;
