@@ -646,7 +646,7 @@ closePath
 ;
 ctx
 .
-clip
+fill
 (
 "
 nonzero
