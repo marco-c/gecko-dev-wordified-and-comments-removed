@@ -233,7 +233,7 @@ registration
 completes
 .
 const
-login_response
+loginResponse
 =
 await
 fetch
@@ -247,7 +247,7 @@ py
 ;
 assert_equals
 (
-login_response
+loginResponse
 .
 status
 200
@@ -278,7 +278,7 @@ cookie
 set
 .
 const
-auth_response
+authResponse
 =
 await
 fetch
@@ -292,7 +292,7 @@ py
 ;
 assert_equals
 (
-auth_response
+authResponse
 .
 status
 200
@@ -312,7 +312,7 @@ cookie
 set
 .
 const
-alternate_auth_response
+alternateAuthResponse
 =
 await
 fetch
@@ -336,7 +336,7 @@ expectedCookieAndValue2
 ;
 assert_equals
 (
-alternate_auth_response
+alternateAuthResponse
 .
 status
 401
@@ -407,7 +407,7 @@ expectedCookieAndValue1
 )
 ;
 const
-auth_response_after_expiry1
+authResponseAfterExpiry1
 =
 await
 fetch
@@ -421,7 +421,7 @@ py
 ;
 assert_equals
 (
-auth_response_after_expiry1
+authResponseAfterExpiry1
 .
 status
 401
@@ -457,7 +457,7 @@ expectedCookieAndValue2
 )
 ;
 const
-alternate_auth_response_after_expiry1
+alternateAuthResponseAfterExpiry1
 =
 await
 fetch
@@ -481,7 +481,7 @@ expectedCookieAndValue2
 ;
 assert_equals
 (
-alternate_auth_response_after_expiry1
+alternateAuthResponseAfterExpiry1
 .
 status
 200
@@ -519,7 +519,7 @@ expectedCookieAndValue2
 )
 ;
 const
-alternate_auth_response_after_expiry2
+alternateAuthResponseAfterExpiry2
 =
 await
 fetch
@@ -543,7 +543,7 @@ expectedCookieAndValue2
 ;
 assert_equals
 (
-alternate_auth_response_after_expiry2
+alternateAuthResponseAfterExpiry2
 .
 status
 200
