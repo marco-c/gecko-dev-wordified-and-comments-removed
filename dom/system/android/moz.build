@@ -7,11 +7,6 @@ AndroidLocationProvider
 .
 cpp
 "
-"
-nsHapticFeedback
-.
-cpp
-"
 ]
 include
 (

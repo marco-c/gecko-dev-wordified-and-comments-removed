@@ -17,16 +17,6 @@ WindowsUtilsParent
 h
 "
 ]
-UNIFIED_SOURCES
-+
-=
-[
-"
-nsHapticFeedback
-.
-cpp
-"
-]
 IPDL_SOURCES
 +
 =
