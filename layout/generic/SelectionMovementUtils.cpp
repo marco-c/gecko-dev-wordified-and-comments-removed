@@ -687,6 +687,10 @@ CaretAssociationHint
 aHint
 bool
 aJumpLines
+const
+Element
+*
+aAncestorLimiter
 )
 {
 nsIFrame
@@ -889,6 +893,7 @@ GetFrameFromDirection
 (
 direction
 peekOffsetOptions
+aAncestorLimiter
 )
 .
 mFrame
@@ -2724,6 +2729,16 @@ result
 .
 mHint
 false
+aFrameSelection
+?
+aFrameSelection
+-
+>
+GetAncestorLimiterOrLimiter
+(
+)
+:
+nullptr
 )
 ;
 if

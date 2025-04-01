@@ -225,6 +225,13 @@ CaretAssociationHint
 aHint
 bool
 aJumpLines
+const
+dom
+:
+:
+Element
+*
+aAncestorLimiter
 )
 ;
 static

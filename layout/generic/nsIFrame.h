@@ -6716,7 +6716,7 @@ aSelectFlags
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-PeekBackwardAndForward
+PeekBackwardAndForwardForSelection
 (
 nsSelectionAmount
 aAmountBack
@@ -10281,6 +10281,16 @@ PeekOffsetOption
 >
 &
 aOptions
+const
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aAncestorLimiter
 )
 ;
 SelectablePeekReport

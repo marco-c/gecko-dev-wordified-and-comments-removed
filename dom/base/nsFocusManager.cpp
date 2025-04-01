@@ -15954,8 +15954,10 @@ GetPrimaryFrame
 (
 )
 ;
-nsIFrame
+const
+Element
 *
+const
 limiter
 =
 domSelection
@@ -15972,11 +15974,6 @@ domSelection
 -
 >
 GetAncestorLimiter
-(
-)
--
->
-GetPrimaryFrame
 (
 )
 :

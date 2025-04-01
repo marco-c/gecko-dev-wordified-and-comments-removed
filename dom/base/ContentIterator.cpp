@@ -3101,7 +3101,7 @@ parent
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 aNode
@@ -3227,7 +3227,7 @@ parent
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 aNode
@@ -4426,7 +4426,7 @@ parent
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 endNode
@@ -5499,7 +5499,7 @@ aNode
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 aNode
@@ -5601,7 +5601,7 @@ parent
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 content
@@ -5620,7 +5620,7 @@ parent
 ShadowDOMSelectionHelpers
 :
 :
-GetParentNode
+GetParentNodeInSameSelection
 (
 *
 parent
