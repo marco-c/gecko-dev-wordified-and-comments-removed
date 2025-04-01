@@ -61,6 +61,17 @@ title
 =
 Enterprise
 Policies
+aboutpolicies
+-
+page
+-
+heading
+=
+.
+heading
+=
+About
+Policies
 #
 '
 Active
