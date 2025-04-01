@@ -660,6 +660,15 @@ localProperties
 autosignReleaseWithDebugKey
 "
 )
+|
+|
+gradle
+.
+mozconfig
+.
+substs
+.
+DEVELOPER_OPTIONS
 )
 {
 println
