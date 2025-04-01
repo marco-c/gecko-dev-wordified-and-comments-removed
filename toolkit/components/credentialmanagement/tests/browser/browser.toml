@@ -113,13 +113,6 @@ js
 ]
 [
 "
-browser_policy_dialog
-.
-js
-"
-]
-[
-"
 browser_provider_dialog
 .
 js
