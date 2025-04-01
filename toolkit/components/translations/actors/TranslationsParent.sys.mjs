@@ -16593,7 +16593,7 @@ LanguageTranslationModelFiles
 *
 /
 const
-results
+languageModelFiles
 =
 {
 }
@@ -16768,7 +16768,7 @@ download
 record
 )
 ;
-results
+languageModelFiles
 [
 record
 .
@@ -16850,7 +16850,7 @@ downloaded
 if
 (
 !
-results
+languageModelFiles
 .
 model
 )
@@ -16883,7 +16883,7 @@ targetLanguage
 if
 (
 !
-results
+languageModelFiles
 .
 lex
 &
@@ -16920,14 +16920,14 @@ targetLanguage
 }
 if
 (
-results
+languageModelFiles
 .
 vocab
 )
 {
 if
 (
-results
+languageModelFiles
 .
 srcvocab
 )
@@ -16967,7 +16967,7 @@ needed
 }
 if
 (
-results
+languageModelFiles
 .
 trgvocab
 )
@@ -17010,13 +17010,13 @@ else
 if
 (
 !
-results
+languageModelFiles
 .
 srcvocab
 |
 |
 !
-results
+languageModelFiles
 .
 trgvocab
 )
@@ -17061,8 +17061,6 @@ sourceLanguage
 targetLanguage
 variant
 languageModelFiles
-:
-results
 }
 ;
 }

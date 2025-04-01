@@ -744,7 +744,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -1121,7 +1121,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -1501,7 +1501,7 @@ client
 recordsToCreate
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -1800,7 +1800,7 @@ recordsToCreate
 newRecords
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -1902,7 +1902,7 @@ recordsToDelete
 newRecords
 expectedDeletedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
