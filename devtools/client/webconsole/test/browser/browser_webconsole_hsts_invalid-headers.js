@@ -88,8 +88,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 "

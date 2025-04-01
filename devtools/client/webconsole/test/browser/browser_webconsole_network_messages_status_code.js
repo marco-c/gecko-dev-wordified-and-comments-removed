@@ -124,8 +124,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Status
 /
 200
