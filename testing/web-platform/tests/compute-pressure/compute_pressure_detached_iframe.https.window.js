@@ -3,8 +3,9 @@ use
 strict
 '
 ;
-test
+promise_test
 (
+async
 (
 )
 =
