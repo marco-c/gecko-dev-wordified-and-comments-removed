@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 function
 createSuccessURL
 (

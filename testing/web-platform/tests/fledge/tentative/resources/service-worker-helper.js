@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 self
 .
 addEventListener

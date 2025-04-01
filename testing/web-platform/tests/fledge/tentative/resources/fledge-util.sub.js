@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 BASE_URL
 =
@@ -40,6 +40,7 @@ BASE_URL
 .
 pathname
 ;
+let
 RESOURCE_PATH
 =
 {
@@ -4342,6 +4343,7 @@ seller
 additionalBids
 )
 {
+let
 additionalBidHeaderValues
 =
 await

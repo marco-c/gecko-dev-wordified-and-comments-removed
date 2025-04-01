@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 async
 function
 runAuctionsUntilWinner
@@ -12,6 +12,7 @@ uuid
 auctionConfigOverrides
 )
 {
+let
 fencedFrameConfig
 =
 null

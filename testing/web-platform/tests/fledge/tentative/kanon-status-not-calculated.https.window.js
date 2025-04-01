@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 subsetTest
 (
 promise_test

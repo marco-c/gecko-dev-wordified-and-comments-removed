@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 async
 function
 runReportArgumentValidationTest

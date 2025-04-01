@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 SINGLE_SELLER_AUCTION_SELLER
 =

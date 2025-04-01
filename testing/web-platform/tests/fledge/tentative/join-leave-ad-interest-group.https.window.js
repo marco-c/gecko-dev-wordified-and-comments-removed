@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 BASE_INTEREST_GROUP
 =
@@ -1949,6 +1949,7 @@ dictionary
 ;
 for
 (
+let
 testCase
 of
 SIMPLE_JOIN_LEAVE_TEST_CASES

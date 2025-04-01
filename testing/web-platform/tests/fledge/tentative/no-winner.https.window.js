@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 COMMON_NETWORK_ERRORS
 =
@@ -367,6 +367,7 @@ wasm
 ;
 for
 (
+let
 error
 of
 BIDDING_LOGIC_SCRIPT_ERRORS
@@ -439,6 +440,7 @@ error
 }
 for
 (
+let
 error
 of
 DECISION_LOGIC_SCRIPT_ERRORS
@@ -511,6 +513,7 @@ error
 }
 for
 (
+let
 error
 of
 BIDDING_WASM_HELPER_ERRORS

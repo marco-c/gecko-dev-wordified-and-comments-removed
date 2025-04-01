@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 makeTestForUpdate
 =
@@ -43,6 +43,7 @@ generateUuid
 test
 )
 ;
+let
 extraBiddingLogic
 =
 ;
