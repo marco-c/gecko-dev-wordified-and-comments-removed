@@ -13,7 +13,7 @@ clippy
 all
 )
 ]
-windows_link
+windows_targets
 :
 :
 link
@@ -73,7 +73,7 @@ c_void
 HRESULT
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -110,7 +110,7 @@ u32
 HRESULT
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -136,7 +136,7 @@ HMODULE
 BOOL
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -167,7 +167,7 @@ MACHINE_ATTRIBUTES
 HRESULT
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -196,7 +196,7 @@ PCSTR
 FARPROC
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -222,7 +222,7 @@ PCSTR
 HMODULE
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -254,7 +254,7 @@ PCSTR
 HANDLE
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -309,7 +309,7 @@ u32
 BOOL
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -335,7 +335,7 @@ HKEY
 WIN32_ERROR
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -390,7 +390,7 @@ FILETIME
 WIN32_ERROR
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -430,7 +430,7 @@ HKEY
 WIN32_ERROR
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -479,7 +479,7 @@ u32
 WIN32_ERROR
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -513,7 +513,7 @@ i32
 BOOL
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -536,7 +536,7 @@ BSTR
 )
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -562,7 +562,7 @@ BSTR
 u32
 )
 ;
-windows_link
+windows_targets
 :
 :
 link
@@ -1329,5 +1329,5 @@ use
 super
 :
 :
-windows_link
+windows_targets
 ;

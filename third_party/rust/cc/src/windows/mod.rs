@@ -9,8 +9,12 @@ cfg
 windows
 )
 ]
+pub
+(
+crate
+)
 mod
-windows_link
+windows_sys
 ;
 #
 [
@@ -19,12 +23,8 @@ cfg
 windows
 )
 ]
-pub
-(
-crate
-)
 mod
-windows_sys
+windows_targets
 ;
 #
 [

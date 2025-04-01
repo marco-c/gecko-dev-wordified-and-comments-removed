@@ -432,6 +432,7 @@ arg
 version
 "
 )
+path
 cargo_output
 )
 .
@@ -572,6 +573,7 @@ null
 (
 )
 )
+path
 &
 {
 let
@@ -1132,6 +1134,7 @@ path
 (
 )
 )
+path
 &
 compiler_detect_output
 )
@@ -1201,6 +1204,7 @@ path
 (
 )
 )
+path
 &
 compiler_detect_output
 )
