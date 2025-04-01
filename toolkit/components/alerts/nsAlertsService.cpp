@@ -1115,14 +1115,8 @@ if
 backend
 )
 {
-backend
-=
-nsXULAlerts
-:
-:
-GetInstance
-(
-)
+return
+NS_OK
 ;
 }
 return
