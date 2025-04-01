@@ -42,7 +42,7 @@ available
 }
 '
 Simple
-AILanguageDetector
+LanguageDetector
 .
 availability
 (
@@ -142,7 +142,7 @@ confidence
 }
 '
 Simple
-AILanguageDetector
+LanguageDetector
 .
 detect
 (
@@ -326,7 +326,7 @@ detectPromise
 ;
 }
 '
-AILanguageDetector
+LanguageDetector
 .
 detect
 (
@@ -390,7 +390,7 @@ signal
 }
 '
 Aborting
-AILanguageDetector
+LanguageDetector
 .
 detect
 (
@@ -505,7 +505,7 @@ detectPromise
 }
 }
 '
-AILanguageDetector
+LanguageDetector
 .
 measureInputUsage
 (
@@ -582,7 +582,7 @@ measureInputUsagePromise
 ;
 }
 '
-AITranslator
+Translator
 .
 measureInputUsage
 (
