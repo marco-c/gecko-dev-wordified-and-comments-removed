@@ -112,6 +112,9 @@ widget
 class
 FullLookAndFeel
 ;
+class
+LookAndFeelFont
+;
 }
 enum
 class
@@ -736,6 +739,18 @@ aStyle
 )
 ;
 static
+void
+GetFont
+(
+FontID
+widget
+:
+:
+LookAndFeelFont
+&
+)
+;
+static
 char16_t
 GetPasswordCharacter
 (
@@ -838,7 +853,7 @@ Refresh
 ;
 static
 void
-NativeInit
+EnsureInit
 (
 )
 ;

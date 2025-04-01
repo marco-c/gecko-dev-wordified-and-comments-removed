@@ -6448,6 +6448,13 @@ ShutdownPhase
 AppShutdownConfirmed
 )
 ;
+LookAndFeel
+:
+:
+EnsureInit
+(
+)
+;
 }
 RefPtr
 <

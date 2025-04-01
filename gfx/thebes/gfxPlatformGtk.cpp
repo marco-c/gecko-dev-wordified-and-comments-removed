@@ -2686,6 +2686,13 @@ return
 sDPI
 ;
 }
+int32_t
+dpi
+=
+0
+;
+if
+(
 GdkScreen
 *
 screen
@@ -2693,13 +2700,13 @@ screen
 gdk_screen_get_default
 (
 )
-;
+)
+{
 gtk_settings_get_for_screen
 (
 screen
 )
 ;
-int32_t
 dpi
 =
 int32_t
@@ -2713,6 +2720,7 @@ screen
 )
 )
 ;
+}
 if
 (
 dpi
