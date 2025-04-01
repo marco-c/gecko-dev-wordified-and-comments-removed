@@ -224,10 +224,5 @@ search
 tags
 =
 Tags
-search
--
-titles
-=
-Titles
 #
 #

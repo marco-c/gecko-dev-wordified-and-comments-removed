@@ -667,16 +667,3 @@ resolving
 DNS
 over
 HTTPS
-connection
--
-dns
--
-over
--
-https
--
-custom
--
-label
-=
-Custom
