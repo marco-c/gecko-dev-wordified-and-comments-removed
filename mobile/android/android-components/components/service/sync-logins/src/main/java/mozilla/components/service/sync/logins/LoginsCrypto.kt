@@ -79,6 +79,14 @@ content
 .
 SharedPreferences
 import
+androidx
+.
+core
+.
+content
+.
+edit
+import
 mozilla
 .
 appservices
@@ -489,9 +497,7 @@ below
 plaintextPrefs
 .
 edit
-(
-)
-.
+{
 putString
 (
 CANARY_PHRASE_CIPHERTEXT_KEY
@@ -501,10 +507,7 @@ CANARY_PHRASE_PLAINTEXT
 key
 )
 )
-.
-apply
-(
-)
+}
 }
 override
 fun

@@ -79,6 +79,14 @@ content
 .
 SharedPreferences
 import
+androidx
+.
+core
+.
+content
+.
+edit
+import
 mozilla
 .
 appservices
@@ -684,9 +692,7 @@ below
 plaintextPrefs
 .
 edit
-(
-)
-.
+{
 putString
 (
 CANARY_PHRASE_CIPHERTEXT_KEY
@@ -696,10 +702,7 @@ key
 CANARY_PHRASE_PLAINTEXT
 )
 )
-.
-apply
-(
-)
+}
 }
 override
 suspend

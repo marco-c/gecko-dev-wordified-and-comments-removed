@@ -125,6 +125,14 @@ Companion
 .
 PRIVATE
 import
+androidx
+.
+core
+.
+content
+.
+edit
+import
 org
 .
 mozilla
@@ -755,9 +763,7 @@ context
 )
 .
 edit
-(
-)
-.
+{
 putLong
 (
 context
@@ -772,10 +778,7 @@ pref_key_application_exit_info_last_handled_time
 )
 mostRecentProcessExitTimestamp
 )
-.
-apply
-(
-)
+}
 }
 private
 fun

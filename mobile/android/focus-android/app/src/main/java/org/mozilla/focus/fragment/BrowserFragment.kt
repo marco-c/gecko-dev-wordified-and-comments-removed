@@ -181,6 +181,14 @@ androidx
 .
 core
 .
+content
+.
+edit
+import
+androidx
+.
+core
+.
 net
 .
 toUri
@@ -5269,9 +5277,7 @@ requireContext
 )
 .
 edit
-(
-)
-.
+{
 putBoolean
 (
 requireContext
@@ -5288,10 +5294,7 @@ has_requested_desktop
 )
 true
 )
-.
-apply
-(
-)
+}
 }
 requireComponents
 .

@@ -86,6 +86,14 @@ android
 content
 .
 SharedPreferences
+import
+androidx
+.
+core
+.
+content
+.
+edit
 private
 const
 val
@@ -381,9 +389,7 @@ Boolean
 prefs
 .
 edit
-(
-)
-.
+{
 putBoolean
 (
 locale
@@ -391,10 +397,7 @@ locale
 name
 enabled
 )
-.
-apply
-(
-)
+}
 }
 /
 *

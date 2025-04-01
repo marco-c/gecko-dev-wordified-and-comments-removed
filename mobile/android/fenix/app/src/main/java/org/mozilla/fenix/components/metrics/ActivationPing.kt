@@ -85,6 +85,14 @@ annotation
 .
 VisibleForTesting
 import
+androidx
+.
+core
+.
+content
+.
+edit
+import
 kotlinx
 .
 coroutines
@@ -336,9 +344,7 @@ markAsTriggered
 prefs
 .
 edit
-(
-)
-.
+{
 putBoolean
 (
 "
@@ -346,10 +352,7 @@ ping_sent
 "
 true
 )
-.
-apply
-(
-)
+}
 }
 /
 *

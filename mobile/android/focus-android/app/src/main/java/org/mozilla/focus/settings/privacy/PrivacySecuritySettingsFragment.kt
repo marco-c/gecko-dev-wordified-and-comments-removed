@@ -1029,10 +1029,7 @@ sharedPreferences
 ?
 .
 edit
-(
-)
-?
-.
+{
 putBoolean
 (
 resources
@@ -1047,11 +1044,7 @@ pref_key_biometric
 )
 false
 )
-?
-.
-apply
-(
-)
+}
 }
 else
 {

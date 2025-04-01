@@ -76,6 +76,14 @@ android
 content
 .
 SharedPreferences
+import
+androidx
+.
+core
+.
+content
+.
+edit
 /
 *
 *
@@ -239,9 +247,7 @@ context
 )
 .
 edit
-(
-)
-.
+{
 putString
 (
 KEY_DOMAINS
@@ -254,10 +260,7 @@ separator
 SEPARATOR
 )
 )
-.
-apply
-(
-)
+}
 }
 /
 *

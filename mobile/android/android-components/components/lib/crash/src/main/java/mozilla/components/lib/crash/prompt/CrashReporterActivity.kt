@@ -137,6 +137,14 @@ app
 .
 NotificationManagerCompat
 import
+androidx
+.
+core
+.
+content
+.
+edit
+import
 mozilla
 .
 components
@@ -807,9 +815,7 @@ Unit
 sharedPreferences
 .
 edit
-(
-)
-.
+{
 putBoolean
 (
 PREFERENCE_KEY_SEND_REPORT
@@ -819,10 +825,7 @@ sendCheckbox
 .
 isChecked
 )
-.
-apply
-(
-)
+}
 if
 (
 !
