@@ -18,6 +18,14 @@ sys
 mjs
 "
 ]
+DIRS
++
+=
+[
+"
+tests
+"
+]
 with
 Files
 (
