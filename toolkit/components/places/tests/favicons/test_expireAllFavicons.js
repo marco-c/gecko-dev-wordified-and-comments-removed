@@ -66,9 +66,12 @@ TRANSITION_TYPED
 )
 ;
 await
+PlacesTestUtils
+.
 setFaviconForPage
 (
 TEST_PAGE_URI
+SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )
 ;
@@ -100,9 +103,12 @@ bookmark
 )
 ;
 await
+PlacesTestUtils
+.
 setFaviconForPage
 (
 BOOKMARKED_PAGE_URI
+SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )
 ;
