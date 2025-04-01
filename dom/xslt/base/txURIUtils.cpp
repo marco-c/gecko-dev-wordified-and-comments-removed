@@ -449,17 +449,4 @@ GetDocumentCharacterSet
 )
 )
 ;
-aNewDoc
--
->
-SetCookieJarSettings
-(
-sourceDoc
--
->
-CookieJarSettings
-(
-)
-)
-;
 }
