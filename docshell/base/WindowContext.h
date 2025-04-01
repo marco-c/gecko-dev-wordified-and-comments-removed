@@ -1099,7 +1099,7 @@ HasValidHistoryActivation
 )
 const
 ;
-bool
+void
 ConsumeHistoryActivation
 (
 )

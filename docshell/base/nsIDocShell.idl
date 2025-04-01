@@ -702,6 +702,7 @@ aReplace
 /
 [
 implicit_jscontext
+can_run_script
 ]
 void
 addState
