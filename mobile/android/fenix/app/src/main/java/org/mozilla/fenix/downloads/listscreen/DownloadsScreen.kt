@@ -1382,9 +1382,7 @@ icon
 =
 fileItem
 .
-getIcon
-(
-)
+icon
 afterListAction
 =
 {
