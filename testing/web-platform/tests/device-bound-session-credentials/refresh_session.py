@@ -98,6 +98,8 @@ headers
     
 session_id
 =
+int
+(
 session_id_header
 .
 decode
@@ -107,6 +109,7 @@ utf
 -
 8
 '
+)
 )
     
 if
@@ -235,7 +238,10 @@ id
 "
 '
 +
+str
+(
 session_id
+)
 +
 '
 "

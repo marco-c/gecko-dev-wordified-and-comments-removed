@@ -306,7 +306,7 @@ include_site
 True
     
 def
-next_session_id_value
+next_session_id
 (
 self
 )
@@ -318,23 +318,6 @@ len
 self
 .
 session_to_key_map
-)
-    
-def
-next_session_id
-(
-self
-)
-:
-        
-return
-str
-(
-self
-.
-next_session_id_value
-(
-)
 )
     
 def
@@ -614,11 +597,11 @@ not
 None
 :
             
-next_session_id_value
+next_session_id
 =
 self
 .
-next_session_id_value
+next_session_id
 (
 )
             
@@ -632,10 +615,7 @@ self
 .
 session_to_cookie_details_map
 [
-str
-(
-next_session_id_value
-)
+next_session_id
 ]
 =
 [
@@ -651,10 +631,7 @@ self
 .
 session_to_cookie_details_map
 [
-str
-(
-next_session_id_value
-)
+next_session_id
 ]
 .
 append
@@ -680,7 +657,7 @@ attributes
 )
 )
                 
-next_session_id_value
+next_session_id
 +
 =
 1
@@ -1146,7 +1123,10 @@ response_body
 session_identifier
 "
 :
+str
+(
 session_id
+)
             
 "
 refresh_url
