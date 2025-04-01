@@ -735,6 +735,9 @@ monitor
 request
 overrideFileName
 overrideContent
+isEmpty
+=
+false
 )
 {
 const
@@ -861,6 +864,7 @@ writeTextContentToPath
 (
 overrideContent
 overridePath
+isEmpty
 )
 ;
 return
@@ -1026,6 +1030,9 @@ writeTextContentToPath
 (
 textContent
 path
+isEmpty
+=
+false
 )
 {
 await
@@ -1069,6 +1076,19 @@ stat
 path
 )
 ;
+if
+(
+isEmpty
+)
+{
+return
+size
+=
+=
+=
+0
+;
+}
 return
 size
 >
