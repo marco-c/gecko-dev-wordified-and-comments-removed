@@ -759,7 +759,7 @@ override
 void
 GetAutocomplete
 (
-DOMString
+nsAString
 &
 aValue
 )

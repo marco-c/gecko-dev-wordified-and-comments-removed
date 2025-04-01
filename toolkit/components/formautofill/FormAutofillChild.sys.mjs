@@ -1112,7 +1112,7 @@ lazy
 .
 FormAutofillContent
 .
-focusedInput
+focusedElement
 &
 &
 !
@@ -3158,7 +3158,7 @@ lazy
 .
 FormAutofillContent
 .
-focusedInput
+focusedElement
 )
 {
 once
