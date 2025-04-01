@@ -2361,10 +2361,15 @@ leaderboardEnabled
 &
 &
 spocs
+?
 .
 data
+?
 .
 newtab_spocs
+?
+.
+items
 )
 {
 const
