@@ -1317,7 +1317,9 @@ blockList
 ;
 const
 {
+addons
 app
+experiments
 graphics
 locales
 prefs
@@ -1355,10 +1357,12 @@ const
 additionalData
 =
 {
+addons
 applicationName
 blockList
 buildId
 devicePixelRatio
+experiments
 finalUserAgent
 :
 userAgent
