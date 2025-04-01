@@ -1067,6 +1067,10 @@ pref
 )
 ;
 }
+LookAndFeelChanged
+(
+)
+;
 }
 void
 Theme
