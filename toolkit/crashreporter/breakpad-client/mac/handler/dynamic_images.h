@@ -471,11 +471,11 @@ reinterpret_cast
 mach_vm_address_t
 >
 (
-&
 crash_info_
-[
-0
-]
+.
+data
+(
+)
 )
 ;
 }
