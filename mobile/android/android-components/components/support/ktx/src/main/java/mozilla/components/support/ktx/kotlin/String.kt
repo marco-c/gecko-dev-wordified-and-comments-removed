@@ -3254,11 +3254,10 @@ String
 val
 uri
 =
-Uri
-.
-parse
-(
 this
+.
+toUri
+(
 )
 val
 host

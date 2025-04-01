@@ -111,6 +111,14 @@ annotation
 .
 VisibleForTesting
 import
+androidx
+.
+core
+.
+net
+.
+toUri
+import
 mozilla
 .
 components
@@ -1256,10 +1264,6 @@ e
 )
 }
 return
-Uri
-.
-parse
-(
 "
 file
 :
@@ -1277,6 +1281,9 @@ absolutePath
 )
 }
 "
+.
+toUri
+(
 )
 }
 VisibleForTesting
