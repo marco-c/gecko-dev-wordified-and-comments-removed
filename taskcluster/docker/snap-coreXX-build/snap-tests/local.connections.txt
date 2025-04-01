@@ -1,0 +1,12 @@
+home
+;
+SNAP_FIREFOX_INSTANCE
+:
+home
+-
+read
+-
+all
+;
+:
+home
