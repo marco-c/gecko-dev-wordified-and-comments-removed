@@ -914,7 +914,7 @@ void
 *
 aData
 struct
-xx_image_description_v4
+wp_image_description_v1
 *
 aImageDescription
 uint32_t
@@ -933,7 +933,7 @@ void
 *
 aData
 struct
-xx_image_description_v4
+wp_image_description_v1
 *
 aImageDescription
 uint32_t
@@ -1560,13 +1560,13 @@ mHDRSet
 =
 false
 ;
-xx_color_management_surface_v4
+wp_color_management_surface_v1
 *
 mColorSurface
 =
 nullptr
 ;
-xx_image_description_v4
+wp_image_description_v1
 *
 mImageDescription
 =

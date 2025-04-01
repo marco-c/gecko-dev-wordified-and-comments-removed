@@ -1875,7 +1875,7 @@ aFeature
 )
 {
 case
-XX_COLOR_MANAGER_V4_FEATURE_ICC_V2_V4
+WP_COLOR_MANAGER_V1_FEATURE_ICC_V2_V4
 :
 mColorManagerSupportedFeature
 .
@@ -1886,7 +1886,7 @@ true
 break
 ;
 case
-XX_COLOR_MANAGER_V4_FEATURE_PARAMETRIC
+WP_COLOR_MANAGER_V1_FEATURE_PARAMETRIC
 :
 mColorManagerSupportedFeature
 .
@@ -1897,7 +1897,7 @@ true
 break
 ;
 case
-XX_COLOR_MANAGER_V4_FEATURE_SET_PRIMARIES
+WP_COLOR_MANAGER_V1_FEATURE_SET_PRIMARIES
 :
 mColorManagerSupportedFeature
 .
@@ -1908,7 +1908,7 @@ true
 break
 ;
 case
-XX_COLOR_MANAGER_V4_FEATURE_SET_TF_POWER
+WP_COLOR_MANAGER_V1_FEATURE_SET_TF_POWER
 :
 mColorManagerSupportedFeature
 .
@@ -1919,7 +1919,7 @@ true
 break
 ;
 case
-XX_COLOR_MANAGER_V4_FEATURE_SET_LUMINANCES
+WP_COLOR_MANAGER_V1_FEATURE_SET_LUMINANCES
 :
 mColorManagerSupportedFeature
 .
@@ -1930,7 +1930,7 @@ true
 break
 ;
 case
-XX_COLOR_MANAGER_V4_FEATURE_SET_MASTERING_DISPLAY_PRIMARIES
+WP_COLOR_MANAGER_V1_FEATURE_SET_MASTERING_DISPLAY_PRIMARIES
 :
 mColorManagerSupportedFeature
 .
@@ -2029,7 +2029,7 @@ void
 *
 data
 struct
-xx_color_manager_v4
+wp_color_manager_v1
 *
 color_manager
 uint32_t
@@ -2045,7 +2045,7 @@ void
 *
 data
 struct
-xx_color_manager_v4
+wp_color_manager_v1
 *
 color_manager
 uint32_t
@@ -2082,7 +2082,7 @@ void
 *
 data
 struct
-xx_color_manager_v4
+wp_color_manager_v1
 *
 color_manager
 uint32_t
@@ -2119,7 +2119,7 @@ void
 *
 data
 struct
-xx_color_manager_v4
+wp_color_manager_v1
 *
 color_manager
 uint32_t
@@ -2149,9 +2149,23 @@ primaries
 ;
 }
 static
+void
+supported_done
+(
+void
+*
+data
+struct
+wp_color_manager_v1
+*
+wp_color_manager_v1
+)
+{
+}
+static
 const
 struct
-xx_color_manager_v4_listener
+wp_color_manager_v1_listener
 color_manager_listener
 =
 {
@@ -2159,6 +2173,7 @@ supported_intent
 supported_feature
 supported_tf_named
 supported_primaries_named
+supported_done
 }
 ;
 void
@@ -2167,7 +2182,7 @@ nsWaylandDisplay
 :
 SetColorManager
 (
-xx_color_manager_v4
+wp_color_manager_v1
 *
 aColorManager
 )
@@ -2181,7 +2196,7 @@ if
 mColorManager
 )
 {
-xx_color_manager_v4_add_listener
+wp_color_manager_v1_add_listener
 (
 mColorManager
 &
@@ -2814,7 +2829,7 @@ iface
 EqualsLiteral
 (
 "
-xx_color_manager_v4
+wp_color_manager_v1
 "
 )
 )
@@ -2825,13 +2840,13 @@ colorManager
 =
 WaylandRegistryBind
 <
-xx_color_manager_v4
+wp_color_manager_v1
 >
 (
 registry
 id
 &
-xx_color_manager_v4_interface
+wp_color_manager_v1_interface
 version
 )
 ;
