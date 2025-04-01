@@ -13367,6 +13367,12 @@ reg
 )
 const
 ;
+bool
+HasAvailableRegister
+(
+)
+const
+;
 Register
 AcquireW
 (
