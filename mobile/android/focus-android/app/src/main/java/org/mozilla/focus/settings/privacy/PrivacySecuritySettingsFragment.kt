@@ -87,6 +87,14 @@ Bundle
 import
 androidx
 .
+core
+.
+content
+.
+edit
+import
+androidx
+.
 preference
 .
 Preference
@@ -1558,7 +1566,7 @@ sharedPreferences
 edit
 (
 )
-.
+{
 putBoolean
 (
 resources
@@ -1573,10 +1581,7 @@ pref_key_secure
 )
 true
 )
-.
-apply
-(
-)
+}
 /
 /
 Disable

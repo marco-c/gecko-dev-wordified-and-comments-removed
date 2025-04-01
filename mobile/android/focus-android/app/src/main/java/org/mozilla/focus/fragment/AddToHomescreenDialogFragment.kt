@@ -139,6 +139,14 @@ androidx
 .
 core
 .
+content
+.
+edit
+import
+androidx
+.
+core
+.
 view
 .
 isVisible
@@ -679,7 +687,7 @@ requireContext
 edit
 (
 )
-.
+{
 putBoolean
 (
 requireContext
@@ -696,10 +704,7 @@ has_added_to_home_screen
 )
 true
 )
-.
-apply
-(
-)
+}
 dismiss
 (
 )

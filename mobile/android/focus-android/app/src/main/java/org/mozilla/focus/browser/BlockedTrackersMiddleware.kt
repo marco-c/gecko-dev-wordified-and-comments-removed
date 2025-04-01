@@ -73,6 +73,14 @@ Context
 import
 androidx
 .
+core
+.
+content
+.
+edit
+import
+androidx
+.
 preference
 .
 PreferenceManager
@@ -289,7 +297,7 @@ preferences
 edit
 (
 )
-.
+{
 putInt
 (
 context
@@ -306,9 +314,6 @@ blockedTrackersCount
 +
 1
 )
-.
-apply
-(
-)
+}
 }
 }
