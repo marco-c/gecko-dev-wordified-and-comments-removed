@@ -5160,6 +5160,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 static
 bool
 exn_isError
@@ -5362,6 +5365,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 exn_captureStackTrace
