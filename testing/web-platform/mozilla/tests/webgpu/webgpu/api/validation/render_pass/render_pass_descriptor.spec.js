@@ -128,7 +128,7 @@ import
 {
 computeBytesPerSampleFromFormats
 kDepthStencilFormats
-kPossiblyRenderableColorTextureFormats
+kPossibleColorRenderableTextureFormats
 isTextureFormatColorRenderable
 isDepthTextureFormat
 isStencilTextureFormat
@@ -1061,7 +1061,7 @@ combine
 '
 format
 '
-kPossiblyRenderableColorTextureFormats
+kPossibleColorRenderableTextureFormats
 )
 .
 beginSubcases
@@ -6025,7 +6025,7 @@ combine
 '
 format
 '
-kPossiblyRenderableColorTextureFormats
+kPossibleColorRenderableTextureFormats
 )
 )
 .

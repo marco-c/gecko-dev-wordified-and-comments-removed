@@ -3482,9 +3482,8 @@ t
 {
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
 ;
 }

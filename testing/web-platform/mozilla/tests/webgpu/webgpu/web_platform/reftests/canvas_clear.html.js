@@ -89,6 +89,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+runRefTest
+'
+}
 )
 ;
 const

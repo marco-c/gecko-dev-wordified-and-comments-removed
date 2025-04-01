@@ -343,7 +343,7 @@ worker
 null
 debug
 :
-true
+false
 compatibility
 :
 false

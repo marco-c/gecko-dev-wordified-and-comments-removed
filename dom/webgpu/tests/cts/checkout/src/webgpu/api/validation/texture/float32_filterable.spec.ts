@@ -62,7 +62,7 @@ js
 ;
 import
 {
-ValidationTest
+UniqueFeaturesAndLimitsValidationTest
 }
 from
 '
@@ -80,7 +80,7 @@ g
 =
 makeTestGroup
 (
-ValidationTest
+UniqueFeaturesAndLimitsValidationTest
 )
 ;
 const

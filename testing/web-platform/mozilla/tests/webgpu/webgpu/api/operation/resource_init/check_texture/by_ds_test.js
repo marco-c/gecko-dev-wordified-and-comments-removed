@@ -691,6 +691,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+checkContents
+'
+}
 )
 ;
 commandEncoder

@@ -103,7 +103,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -155,7 +155,7 @@ const
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 makeIndexBuffer
 (
@@ -396,15 +396,11 @@ beforeAllSubcases
 t
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

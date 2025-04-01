@@ -82,7 +82,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -96,7 +96,7 @@ js
 class
 GPUExternalTextureExpireTest
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 submitCommandBuffer
 (

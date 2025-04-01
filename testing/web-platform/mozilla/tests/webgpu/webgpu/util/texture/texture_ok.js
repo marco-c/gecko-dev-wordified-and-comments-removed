@@ -1009,6 +1009,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+createTextureCopyForMapRead
+'
+}
 )
 ;
 cmd

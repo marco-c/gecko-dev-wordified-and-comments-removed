@@ -621,6 +621,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+runStorageVariableTest
+'
+}
 )
 ;
 const
@@ -1152,6 +1159,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+runWorkgroupVariableTest
+'
+}
 )
 ;
 const

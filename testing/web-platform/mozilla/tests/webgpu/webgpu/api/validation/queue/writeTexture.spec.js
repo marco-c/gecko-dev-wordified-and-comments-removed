@@ -76,7 +76,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -94,7 +94,7 @@ g
 =
 makeTestGroup
 (
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 )
 ;
 g
@@ -664,15 +664,11 @@ t
 )
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

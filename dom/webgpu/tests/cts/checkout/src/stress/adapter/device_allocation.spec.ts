@@ -139,7 +139,7 @@ js
 ;
 import
 {
-getDefaultLimitsForAdapter
+getDefaultLimitsForCTS
 }
 from
 '
@@ -258,9 +258,8 @@ GPUAdapter
 const
 limitInfo
 =
-getDefaultLimitsForAdapter
+getDefaultLimitsForCTS
 (
-adapter
 )
 ;
 const
