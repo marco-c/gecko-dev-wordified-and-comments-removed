@@ -41,7 +41,7 @@ GRefPtr
 h
 "
 struct
-xdg_dbus_annotation_v1
+org_kde_kwin_appmenu
 ;
 namespace
 mozilla
@@ -345,9 +345,9 @@ mProxy
 #
 ifdef
 MOZ_WAYLAND
-xdg_dbus_annotation_v1
+org_kde_kwin_appmenu
 *
-mAnnotation
+mAppMenu
 =
 nullptr
 ;
