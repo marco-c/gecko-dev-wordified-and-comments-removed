@@ -8249,14 +8249,14 @@ mURL
 }
 ;
 class
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 public
 DisallowingVisitor
 {
 public
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 CSPDirective
 aDirective
@@ -8302,6 +8302,17 @@ u
 chrome
 "
 _ns
+|
+|
+scheme
+=
+=
+u
+"
+moz
+-
+src
+"
 |
 |
 scheme
@@ -8467,7 +8478,7 @@ class
 StyleSrcVisitor
 :
 public
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 {
 public
 :
@@ -8480,7 +8491,7 @@ nsACString
 aURL
 )
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 aDirective
 aURL
@@ -8547,7 +8558,7 @@ true
 }
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitSchemeSrc
@@ -8596,7 +8607,7 @@ true
 }
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitKeywordSrc
@@ -8611,7 +8622,7 @@ class
 ImgSrcVisitor
 :
 public
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 {
 public
 :
@@ -8624,7 +8635,7 @@ nsACString
 aURL
 )
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 aDirective
 aURL
@@ -8809,7 +8820,7 @@ true
 }
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitSchemeSrc
@@ -8843,7 +8854,7 @@ class
 MediaSrcVisitor
 :
 public
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 {
 public
 :
@@ -8856,7 +8867,7 @@ nsACString
 aURL
 )
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 aDirective
 aURL
@@ -8929,7 +8940,7 @@ true
 }
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitSchemeSrc
@@ -8963,7 +8974,7 @@ class
 ConnectSrcVisitor
 :
 public
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 {
 public
 :
@@ -8976,7 +8987,7 @@ nsACString
 aURL
 )
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 aDirective
 aURL
@@ -9080,7 +9091,7 @@ true
 }
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitSchemeSrc
@@ -9095,7 +9106,7 @@ class
 AddonSrcVisitor
 :
 public
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 {
 public
 :
@@ -9108,7 +9119,7 @@ nsACString
 aURL
 )
 :
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 (
 aDirective
 aURL
@@ -9174,7 +9185,7 @@ true
 ;
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitHostSrc
@@ -9209,7 +9220,7 @@ true
 ;
 }
 return
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 :
 :
 visitHashSrc
@@ -9785,7 +9796,7 @@ GetPolicy
 )
 ;
 {
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 visitor
 (
 CSPDirective
@@ -9874,7 +9885,7 @@ directive
 CHECK_DIR
 (
 SCRIPT_SRC_DIRECTIVE
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 )
 ;
 CHECK_DIR
@@ -10285,7 +10296,7 @@ GetPolicy
 )
 ;
 {
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 visitor
 (
 CSPDirective
@@ -10336,13 +10347,13 @@ get
 CHECK_DIR
 (
 SCRIPT_SRC_DIRECTIVE
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 )
 ;
 CHECK_DIR
 (
 SCRIPT_SRC_ATTR_DIRECTIVE
-AllowChromeResourceSrcVisitor
+AllowBuiltinSrcVisitor
 )
 ;
 CHECK_DIR
