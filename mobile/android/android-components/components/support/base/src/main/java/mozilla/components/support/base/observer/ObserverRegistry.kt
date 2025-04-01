@@ -804,6 +804,10 @@ Unit
 {
 observers
 .
+toList
+(
+)
+.
 forEach
 {
 if
