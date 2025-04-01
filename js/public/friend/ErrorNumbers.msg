@@ -12942,6 +12942,10 @@ value
 \
 "
 is
+non
+-
+finite
+:
 {
 1
 }
