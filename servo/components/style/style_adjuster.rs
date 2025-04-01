@@ -149,6 +149,15 @@ ComputedValues
 StyleBuilder
 }
 ;
+use
+selectors
+:
+:
+parser
+:
+:
+PseudoElement
+;
 pub
 struct
 StyleAdjuster
@@ -2592,7 +2601,7 @@ p
 !
 p
 .
-is_part_like
+is_element_backed
 (
 )
 )
