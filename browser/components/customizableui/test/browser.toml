@@ -1641,6 +1641,13 @@ js
 ]
 [
 "
+browser_sidebar_position_start
+.
+js
+"
+]
+[
+"
 browser_sidebar_toggle
 .
 js
