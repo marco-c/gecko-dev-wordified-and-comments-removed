@@ -321,6 +321,16 @@ compose
 .
 base
 .
+Divider
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
 annotation
 .
 FlexibleWindowLightDarkPreview
@@ -703,6 +713,9 @@ if
 allTasksCompleted
 )
 {
+Divider
+(
+)
 RemoveChecklistButton
 (
 labelRemoveChecklistButton
