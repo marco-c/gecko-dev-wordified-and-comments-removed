@@ -189,21 +189,6 @@ refresh_sends_challenge
 True
     
 def
-next_session_id_value
-(
-self
-)
-:
-        
-return
-len
-(
-self
-.
-session_to_key_map
-)
-    
-def
 next_session_id
 (
 self
@@ -213,10 +198,11 @@ self
 return
 str
 (
+len
+(
 self
 .
-next_session_id_value
-(
+session_to_key_map
 )
 )
     
@@ -469,54 +455,36 @@ cookie_name_and_value
 =
 cookie_name_and_value
         
-next_sessions_cookie_names_and_values
+next_session_cookie_name_and_value
 =
 configuration
 .
 get
 (
 "
-cookieNamesAndValuesForNextRegisteredSessions
+cookieNameAndValueForNextRegisteredSession
 "
 )
         
 if
-next_sessions_cookie_names_and_values
+next_session_cookie_name_and_value
 is
 not
 None
 :
             
-next_session_id_value
-=
-self
-.
-next_session_id_value
-(
-)
-            
-for
-cookie_name_and_value
-in
-next_sessions_cookie_names_and_values
-:
-                
 self
 .
 session_to_cookie_name_and_value_map
 [
-str
+self
+.
+next_session_id
 (
-next_session_id_value
 )
 ]
 =
-cookie_name_and_value
-                
-next_session_id_value
-+
-=
-1
+next_session_cookie_name_and_value
         
 next_session_early_challenge
 =
