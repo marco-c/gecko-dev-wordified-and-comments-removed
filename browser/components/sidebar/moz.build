@@ -69,13 +69,3 @@ xpcshell
 toml
 "
 ]
-SPHINX_TREES
-[
-"
-docs
-"
-]
-=
-"
-docs
-"
