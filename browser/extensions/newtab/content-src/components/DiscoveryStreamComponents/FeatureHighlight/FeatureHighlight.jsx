@@ -440,6 +440,13 @@ div
 >
 <
 p
+className
+=
+"
+content
+-
+wrapper
+"
 >
 {
 message
