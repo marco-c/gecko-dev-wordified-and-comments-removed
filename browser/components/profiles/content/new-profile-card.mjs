@@ -484,7 +484,7 @@ html
 div
 >
 <
-h2
+h1
 data
 -
 l10n
@@ -503,7 +503,7 @@ header
 >
 <
 /
-h2
+h1
 >
 <
 p
