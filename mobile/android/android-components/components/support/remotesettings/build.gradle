@@ -198,6 +198,16 @@ project
 :
 support
 -
+base
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
 ktx
 '
 )
@@ -208,7 +218,7 @@ project
 :
 support
 -
-base
+utils
 '
 )
 implementation
