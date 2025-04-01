@@ -1346,7 +1346,7 @@ UiSelector
 (
 )
 .
-textContains
+descriptionContains
 (
 "
 By
@@ -1375,7 +1375,7 @@ UiSelector
 (
 )
 .
-textContains
+descriptionContains
 (
 "
 Firefox
