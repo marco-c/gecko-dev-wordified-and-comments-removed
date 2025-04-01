@@ -101,9 +101,6 @@ minidump_format
 .
 h
 "
-struct
-DirectAuxvDumpInfo
-;
 #
 ifdef
 MOZ_PHC
@@ -304,10 +301,6 @@ pid_t
 child
 pid_t
 child_blamed_thread
-const
-DirectAuxvDumpInfo
-*
-auxv_info
 const
 string
 &
