@@ -431,6 +431,11 @@ Boolean
 true
 private
 var
+keyboardAnimationInProgress
+=
+false
+private
+var
 keyboardHeight
 =
 0
@@ -612,6 +617,9 @@ ime
 0
 )
 {
+keyboardAnimationInProgress
+=
+true
 /
 /
 Workaround
@@ -740,6 +748,13 @@ WindowInsetsAnimationCompat
 :
 WindowInsetsCompat
 {
+if
+(
+!
+keyboardAnimationInProgress
+)
+return
+insets
 runningAnimations
 .
 firstOrNull
@@ -839,6 +854,9 @@ animation
 WindowInsetsAnimationCompat
 )
 {
+keyboardAnimationInProgress
+=
+false
 val
 currentInsets
 =
