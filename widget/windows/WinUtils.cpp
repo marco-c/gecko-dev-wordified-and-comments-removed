@@ -200,6 +200,15 @@ include
 "
 mozilla
 /
+WindowsVersion
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WinHeaderOnlyUtils
 .
 h
