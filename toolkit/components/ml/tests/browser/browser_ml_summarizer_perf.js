@@ -287,9 +287,9 @@ Team
 name
 :
 "
-browser_ml_summarizer_perf
-.
-js
+ML
+Summarizer
+Model
 "
 description
 :

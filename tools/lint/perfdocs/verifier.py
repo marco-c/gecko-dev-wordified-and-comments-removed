@@ -665,24 +665,6 @@ r
 tb
 )
         
-test_name
-=
-re
-.
-sub
-(
-r
-"
-\
-.
-.
-*
-"
-"
-"
-test_name
-)
-        
 if
 test_name
 =

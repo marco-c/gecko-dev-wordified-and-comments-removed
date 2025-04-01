@@ -16,9 +16,9 @@ Team
 name
 :
 "
-browser_ml_autofill_perf
-.
-js
+ML
+Autofill
+Model
 "
 description
 :

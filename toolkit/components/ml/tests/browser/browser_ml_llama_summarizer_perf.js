@@ -279,9 +279,10 @@ Team
 name
 :
 "
-browser_ml_llama_summarizer_perf
-.
-js
+ML
+Llama
+Summarizer
+Model
 "
 description
 :
