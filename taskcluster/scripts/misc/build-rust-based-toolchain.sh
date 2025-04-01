@@ -437,9 +437,9 @@ MACOS_SYSROOT
 =
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX15
 .
-4
+0
 .
 sdk
 export
