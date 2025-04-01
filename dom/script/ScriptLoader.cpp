@@ -5521,7 +5521,7 @@ ReferrerPolicy
 aReferrerPolicy
 ParserMetadata
 aParserMetadata
-RequestType
+ScriptLoadRequestType
 aRequestType
 )
 {
@@ -5608,7 +5608,7 @@ if
 aRequestType
 =
 =
-RequestType
+ScriptLoadRequestType
 :
 :
 External
@@ -5617,7 +5617,7 @@ External
 aRequestType
 =
 =
-RequestType
+ScriptLoadRequestType
 :
 :
 Preload
@@ -5666,7 +5666,7 @@ if
 aRequestType
 =
 =
-RequestType
+ScriptLoadRequestType
 :
 :
 External
@@ -6606,7 +6606,7 @@ fetchPriority
 sriMetadata
 referrerPolicy
 parserMetadata
-RequestType
+ScriptLoadRequestType
 :
 :
 External
@@ -7469,7 +7469,7 @@ SRIMetadata
 )
 referrerPolicy
 parserMetadata
-RequestType
+ScriptLoadRequestType
 :
 :
 Inline
@@ -22080,7 +22080,7 @@ ParserMetadata
 :
 :
 ParserInserted
-RequestType
+ScriptLoadRequestType
 :
 :
 Preload

@@ -85,6 +85,11 @@ ScriptLoadHandler
 h
 "
 "
+ScriptLoadRequestType
+.
+h
+"
+"
 ScriptSettings
 .
 h
