@@ -3306,6 +3306,11 @@ CookieStore
 webidl
 "
 "
+CookieStoreManager
+.
+webidl
+"
+"
 CreateOfferRequest
 .
 webidl
@@ -3677,6 +3682,11 @@ webidl
 "
 "
 EventTarget
+.
+webidl
+"
+"
+ExtendableCookieChangeEvent
 .
 webidl
 "
