@@ -186,6 +186,10 @@ createdTime
 CreatedTime
 .
 TODAY
+displayedShortUrl
+=
+"
+"
 )
 assertEquals
 (

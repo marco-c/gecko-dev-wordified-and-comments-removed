@@ -141,6 +141,15 @@ image
 /
 png
 "
+displayedShortUrl
+:
+String
+=
+"
+mozilla
+.
+org
+"
 status
 :
 DownloadState
@@ -181,6 +190,9 @@ formattedSize
 contentType
 =
 contentType
+displayedShortUrl
+=
+displayedShortUrl
 status
 =
 status

@@ -209,6 +209,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 private
 val
@@ -258,6 +262,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 Test
 fun

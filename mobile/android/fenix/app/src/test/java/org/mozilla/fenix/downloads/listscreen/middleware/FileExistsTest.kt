@@ -280,6 +280,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 val
 item2
@@ -330,6 +334,10 @@ DownloadState
 Status
 .
 COMPLETED
+displayedShortUrl
+=
+"
+"
 createdTime
 =
 CreatedTime
@@ -386,6 +394,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 val
 testList
@@ -571,6 +583,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 val
 item2
@@ -617,6 +633,10 @@ DownloadState
 Status
 .
 COMPLETED
+displayedShortUrl
+=
+"
+"
 createdTime
 =
 CreatedTime
@@ -673,6 +693,10 @@ createdTime
 CreatedTime
 .
 OLDER
+displayedShortUrl
+=
+"
+"
 )
 val
 testList
