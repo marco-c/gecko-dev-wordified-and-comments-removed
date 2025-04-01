@@ -1976,7 +1976,7 @@ exported_promise
 42
 )
 ;
-assert_true
+assert_false
 (
 AbeforeB
 .
@@ -1987,9 +1987,7 @@ isAbeforeB
 ;
 }
 "
-Do
-not
-suspend
+Suspend
 if
 the
 import
