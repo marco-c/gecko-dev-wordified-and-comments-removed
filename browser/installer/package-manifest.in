@@ -1246,6 +1246,13 @@ default128
 png
 #
 endif
+RESPATH
+/
+browser
+/
+features
+/
+*
 ;
 [
 DevTools
