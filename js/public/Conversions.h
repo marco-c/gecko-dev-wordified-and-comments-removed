@@ -1460,8 +1460,11 @@ double
 kSignBit
 )
 ?
+UnsignedInteger
+(
 ~
 result
+)
 +
 1
 :
