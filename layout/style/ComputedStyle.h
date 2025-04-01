@@ -504,7 +504,7 @@ DEPENDS_ON_INHERITED_FONT_METRICS
 ;
 }
 bool
-HasPseudoElementData
+IsInFirstLineSubtree
 (
 )
 const
@@ -519,7 +519,7 @@ Flags
 Flag
 :
 :
-IS_IN_PSEUDO_ELEMENT_SUBTREE
+IS_IN_FIRST_LINE_SUBTREE
 )
 ;
 }
