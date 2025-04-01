@@ -1017,7 +1017,13 @@ ChromeUtils
 .
 clearResourceCache
 (
-false
+{
+target
+:
+"
+content
+"
+}
 )
 ;
 }
