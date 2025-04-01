@@ -293,7 +293,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 PushState
 (
@@ -335,7 +334,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ReplaceState
 (
@@ -385,7 +383,6 @@ nsHistory
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 PushOrReplaceState
 (
