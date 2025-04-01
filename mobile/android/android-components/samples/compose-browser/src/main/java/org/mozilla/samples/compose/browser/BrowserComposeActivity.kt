@@ -350,7 +350,6 @@ ROUTE_BROWSER
 {
 BrowserScreen
 (
-navController
 )
 }
 composable
