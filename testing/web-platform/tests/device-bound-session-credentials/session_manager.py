@@ -166,6 +166,13 @@ self
 has_called_refresh
 =
 False
+        
+self
+.
+scope_specification_items
+=
+[
+]
     
 def
 create_new_session
@@ -443,6 +450,30 @@ self
 cookie_name_and_value
 =
 cookie_name_and_value
+        
+scope_specification_items
+=
+configuration
+.
+get
+(
+"
+scopeSpecificationItems
+"
+)
+        
+if
+scope_specification_items
+is
+not
+None
+:
+            
+self
+.
+scope_specification_items
+=
+scope_specification_items
     
 def
 get_should_refresh_end_session
@@ -684,6 +715,10 @@ True
 scope_specification
 "
 :
+self
+.
+scope_specification_items
++
 [
                     
 {
