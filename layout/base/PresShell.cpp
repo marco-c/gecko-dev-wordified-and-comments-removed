@@ -17730,7 +17730,7 @@ GetContent
 )
 -
 >
-GetChromeOnlyAccessSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )
