@@ -11,9 +11,7 @@ t
 >
 {
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -23,9 +21,7 @@ const
 availability
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 availability
 (
@@ -62,9 +58,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -175,9 +169,7 @@ abort
 const
 createPromise
 =
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -202,7 +194,7 @@ createPromise
 ;
 }
 '
-AILanguageDetectorFactory
+LanguageDetector
 .
 create
 (
@@ -232,9 +224,7 @@ signal
 >
 {
 return
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -249,7 +239,7 @@ signal
 }
 '
 Aborting
-AILanguageDetectorFactory
+LanguageDetector
 .
 create
 (
@@ -283,9 +273,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -351,9 +339,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -410,9 +396,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -543,9 +527,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
@@ -607,9 +589,7 @@ const
 detector
 =
 await
-ai
-.
-languageDetector
+LanguageDetector
 .
 create
 (
