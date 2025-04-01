@@ -1009,6 +1009,12 @@ GetFlattenedTreeParent
 )
 const
 ;
+bool
+CanStartSelectionAsWebCompatHack
+(
+)
+const
+;
 protected
 :
 inline
