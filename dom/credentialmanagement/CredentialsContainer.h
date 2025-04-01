@@ -143,6 +143,15 @@ ErrorResult
 aRv
 )
 ;
+static
+bool
+IsSameOriginWithAncestors
+(
+nsPIDOMWindowInner
+*
+aParent
+)
+;
 private
 :
 ~
