@@ -472,7 +472,7 @@ add
 (
 SuggestionProvider
 .
-AMP_MOBILE
+AMP
 )
 }
 if

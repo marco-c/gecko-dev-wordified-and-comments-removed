@@ -1919,7 +1919,7 @@ listOf
 (
 SuggestionProvider
 .
-AMP_MOBILE
+AMP
 )
 limit
 =
