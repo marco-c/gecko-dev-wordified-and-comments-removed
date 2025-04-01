@@ -1157,6 +1157,15 @@ aDoc
 ;
 if
 (
+!
+aDoc
+-
+>
+IsTopLevelContentDocument
+(
+)
+&
+&
 StaticPrefs
 :
 :
