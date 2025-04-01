@@ -36815,7 +36815,7 @@ testingPoint
 &
 &
 !
-mChildBounds
+mBounds
 .
 Contains
 (
