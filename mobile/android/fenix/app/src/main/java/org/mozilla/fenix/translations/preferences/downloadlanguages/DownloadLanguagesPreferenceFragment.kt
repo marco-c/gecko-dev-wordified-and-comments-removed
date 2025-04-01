@@ -506,6 +506,13 @@ downloadLanguageItemsPreference
 learnMoreUrl
 =
 learnMoreUrl
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 downloadLanguagesError
 =
 engineError

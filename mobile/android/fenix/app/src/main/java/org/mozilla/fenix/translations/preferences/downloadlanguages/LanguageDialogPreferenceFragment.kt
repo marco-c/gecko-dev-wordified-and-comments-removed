@@ -471,6 +471,13 @@ itemType
 DownloadLanguageItemTypePreference
 .
 AllLanguages
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 fileSize
 =
 args
@@ -620,6 +627,13 @@ DownloadLanguageFileDialogType
 .
 Default
 }
+fileSizeFormatter
+=
+requireComponents
+.
+core
+.
+fileSizeFormatter
 fileSize
 =
 args
