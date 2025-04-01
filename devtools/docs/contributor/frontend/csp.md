@@ -44,8 +44,6 @@ Web
 /
 HTTP
 /
-Guides
-/
 CSP
 )
 (
@@ -195,8 +193,6 @@ docs
 Web
 /
 HTTP
-/
-Reference
 /
 Headers
 /

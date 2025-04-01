@@ -535,8 +535,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 Referrer
@@ -871,8 +869,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Status
 >
 _
@@ -944,8 +940,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 Referer
@@ -983,8 +977,6 @@ docs
 Web
 /
 HTTP
-/
-Reference
 /
 Headers
 /
@@ -1091,8 +1083,6 @@ docs
 Web
 /
 HTTP
-/
-Reference
 /
 Status
 /
@@ -3829,7 +3819,11 @@ Timing
 ~
 ~
 ~
-The
+New
+in
+Firefox
+71
+the
 *
 Server
 Timing
@@ -3864,8 +3858,6 @@ docs
 Web
 /
 HTTP
-/
-Reference
 /
 Headers
 /
