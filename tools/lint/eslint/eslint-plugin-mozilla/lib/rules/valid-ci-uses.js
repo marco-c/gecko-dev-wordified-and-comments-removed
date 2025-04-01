@@ -147,6 +147,14 @@ windows
 ]
 [
 "
+nsIWindowsUIUtils
+"
+"
+windows
+"
+]
+[
+"
 nsIAccessibleMacEvent
 "
 "
