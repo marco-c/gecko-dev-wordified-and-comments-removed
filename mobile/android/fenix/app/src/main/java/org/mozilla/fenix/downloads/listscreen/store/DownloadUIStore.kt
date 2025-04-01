@@ -421,6 +421,13 @@ action
 .
 contentTypeFilter
 )
+is
+DownloadUIAction
+.
+FileItemDeletedSuccessfully
+-
+>
+state
 DownloadUIAction
 .
 Init
