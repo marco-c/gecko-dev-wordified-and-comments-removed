@@ -342,6 +342,13 @@ UnlockScreenOrientation
 (
 )
 ;
+async
+PerformHapticFeedback
+(
+int32_t
+aType
+)
+;
 child
 :
 async
