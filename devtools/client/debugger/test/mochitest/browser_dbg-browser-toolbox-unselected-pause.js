@@ -106,7 +106,6 @@ isPaused
 waitForState
 waitForSelectedSource
 waitForLoadedScopes
-waitForInlinePreviews
 waitForElement
 findElement
 getSelector

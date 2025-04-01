@@ -962,6 +962,7 @@ return
 getSelectedScope
 (
 state
+thread
 )
 &
 &

@@ -164,7 +164,6 @@ dispatch
 (
 generateInlinePreview
 (
-selectedFrame
 )
 )
 ;
