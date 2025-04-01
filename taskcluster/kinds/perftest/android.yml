@@ -4713,9 +4713,9 @@ on
 projects
 :
 [
-mozilla
+trunk
 -
-central
+only
 ]
 description
 :
@@ -5105,9 +5105,9 @@ on
 projects
 :
 [
-mozilla
+trunk
 -
-central
+only
 ]
 description
 :
