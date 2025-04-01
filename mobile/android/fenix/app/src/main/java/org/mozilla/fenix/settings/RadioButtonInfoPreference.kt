@@ -79,12 +79,6 @@ AttributeSet
 import
 android
 .
-view
-.
-View
-import
-android
-.
 widget
 .
 ImageView
@@ -230,7 +224,6 @@ onBindViewHolder
 (
 holder
 )
-val
 infoView
 =
 holder
@@ -241,11 +234,12 @@ R
 .
 id
 .
-info_button_container
+info_button
 )
 as
-View
+ImageView
 infoView
+?
 .
 setOnClickListener
 {
@@ -257,6 +251,7 @@ invoke
 )
 }
 infoView
+?
 .
 alpha
 =
@@ -273,6 +268,7 @@ contentDescription
 let
 {
 infoView
+?
 .
 contentDescription
 =
