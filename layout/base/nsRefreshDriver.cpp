@@ -10087,17 +10087,12 @@ Transitions
 LAYOUT
 )
 ;
-RefPtr
-doc
-=
 mPresContext
 -
 >
 Document
 (
 )
-;
-doc
 -
 >
 PerformPendingViewTransitionOperations
