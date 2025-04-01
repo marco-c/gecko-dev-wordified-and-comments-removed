@@ -2561,6 +2561,9 @@ UseHighQualityScaling
 ResetViewportScrolling
 =
 0x400
+CompositeOffscreen
+=
+0x800
 }
 ;
 static

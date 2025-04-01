@@ -481,6 +481,12 @@ PaintSyncDecodeImages
 <
 <
 1
+PaintCompositeOffscreen
+=
+1
+<
+<
+2
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -506,6 +512,12 @@ PaintComposite
 <
 <
 2
+PaintCompositeOffscreen
+=
+1
+<
+<
+3
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
