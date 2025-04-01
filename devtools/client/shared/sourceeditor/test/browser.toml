@@ -124,11 +124,6 @@ css_statemachine_testcases
 css
 "
 "
-css_statemachine_tests
-.
-json
-"
-"
 css_autocompletion_tests
 .
 json
