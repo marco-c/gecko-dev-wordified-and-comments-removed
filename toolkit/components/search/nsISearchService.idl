@@ -1964,6 +1964,13 @@ more
 details
 .
 *
+returns
+The
+generated
+nsISearchEngine
+object
+.
+*
 /
 Promise
 addUserEngine
