@@ -6973,9 +6973,6 @@ eventTimingEntry
 FinalizeEventTiming
 (
 aEvent
--
->
-mTarget
 )
 ;
 }

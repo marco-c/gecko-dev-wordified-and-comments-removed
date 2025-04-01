@@ -28,6 +28,11 @@ dom
 =
 [
 "
+CacheablePerformanceTimingData
+.
+h
+"
+"
 EventCounts
 .
 h
@@ -49,6 +54,11 @@ h
 "
 "
 PerformanceEventTiming
+.
+h
+"
+"
+PerformanceInteractionMetrics
 .
 h
 "
@@ -159,6 +169,11 @@ cpp
 "
 "
 PerformanceEventTiming
+.
+cpp
+"
+"
+PerformanceInteractionMetrics
 .
 cpp
 "
