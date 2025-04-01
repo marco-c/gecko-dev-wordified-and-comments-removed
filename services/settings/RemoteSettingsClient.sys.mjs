@@ -3787,11 +3787,6 @@ data
 }
 if
 (
-this
-.
-verifySignature
-&
-&
 verifySignature
 )
 {
