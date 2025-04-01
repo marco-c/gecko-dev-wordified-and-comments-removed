@@ -68,6 +68,9 @@ h
 "
 ;
 include
+CrashReporterInitArgs
+;
+include
 GraphicsMessages
 ;
 include
@@ -207,8 +210,8 @@ aPath
 async
 InitCrashReporter
 (
-NativeThreadId
-threadId
+CrashReporterInitArgs
+aInitArgs
 )
 ;
 async

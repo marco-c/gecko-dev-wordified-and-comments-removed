@@ -1,4 +1,7 @@
 include
+CrashReporterInitArgs
+;
+include
 GraphicsMessages
 ;
 include
@@ -817,8 +820,8 @@ aError
 async
 InitCrashReporter
 (
-NativeThreadId
-threadId
+CrashReporterInitArgs
+aInitArgs
 )
 ;
 async

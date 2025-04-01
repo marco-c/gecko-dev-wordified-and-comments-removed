@@ -272,6 +272,9 @@ protocol
 PBenchmarkStorage
 ;
 include
+CrashReporterInitArgs
+;
+include
 DOMTypes
 ;
 include
@@ -6376,8 +6379,8 @@ PRemoteSpellcheckEngine
 async
 InitCrashReporter
 (
-NativeThreadId
-tid
+CrashReporterInitArgs
+aInitArgs
 )
 ;
 sync

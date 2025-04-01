@@ -22564,9 +22564,12 @@ ContentParent
 RecvInitCrashReporter
 (
 const
-NativeThreadId
+CrashReporter
+:
+:
+CrashReporterInitArgs
 &
-aThreadId
+aInitArgs
 )
 {
 mCrashReporter
@@ -22580,7 +22583,7 @@ GeckoProcessType_Content
 OtherPid
 (
 )
-aThreadId
+aInitArgs
 )
 ;
 return
