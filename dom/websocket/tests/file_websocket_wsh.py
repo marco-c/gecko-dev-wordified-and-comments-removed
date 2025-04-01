@@ -1,7 +1,5 @@
 import
 time
-import
-six
 from
 mod_pywebsocket
 import
@@ -391,12 +389,7 @@ msgutil
 send_message
 (
 request
-six
-.
-ensure_text
-(
 resp
-)
 )
         
 resp
@@ -431,12 +424,7 @@ msgutil
 send_message
 (
 request
-six
-.
-ensure_text
-(
 resp
-)
 )
         
 resp
@@ -516,12 +504,7 @@ msgutil
 send_message
 (
 request
-six
-.
-ensure_text
-(
 resp
-)
 )
         
 msgutil
@@ -624,12 +607,7 @@ msgutil
 send_message
 (
 request
-six
-.
-ensure_text
-(
 resp
-)
 )
     
 elif
@@ -884,12 +862,7 @@ msgutil
 send_message
 (
 request
-six
-.
-ensure_text
-(
 resp
-)
 )
         
 time
@@ -1169,19 +1142,35 @@ test
         
 rcv
 =
-six
-.
-ensure_text
-(
 msgutil
 .
 receive_message
 (
 request
 )
+        
+if
+isinstance
+(
+rcv
+bytes
+)
+:
+            
+rcv
+=
+rcv
+.
+decode
+(
 )
         
 if
+(
+            
+rcv
+            
+and
 len
 (
 rcv
@@ -1189,6 +1178,7 @@ rcv
 =
 =
 3
+            
 and
 ord
 (
@@ -1200,6 +1190,7 @@ rcv
 =
 =
 5
+            
 and
 ord
 (
@@ -1211,6 +1202,7 @@ rcv
 =
 =
 0
+            
 and
 ord
 (
@@ -1222,6 +1214,8 @@ rcv
 =
 =
 7
+        
+)
 :
             
 msgutil
@@ -1279,13 +1273,28 @@ receive_message
 request
 )
         
-if
-six
-.
-ensure_text
-(
+rcv_str
+=
 rcv
+        
+if
+isinstance
+(
+rcv_str
+bytes
 )
+:
+            
+rcv_str
+=
+rcv_str
+.
+decode
+(
+)
+        
+if
+rcv_str
 =
 =
 "
