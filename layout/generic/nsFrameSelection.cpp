@@ -612,7 +612,7 @@ mPresShell
 mLimiters
 =
 {
-mLimiter
+mIndependentSelectionRootElement
 =
 "
 <
@@ -621,7 +621,7 @@ aFrameSelection
 .
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 <
 <
 "
@@ -1062,7 +1062,7 @@ return
 NodeIsInLimiters
 (
 aContainerNode
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 GetAncestorLimiter
@@ -1084,7 +1084,7 @@ aContainerNode
 const
 Element
 *
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 const
 Element
 *
@@ -1103,12 +1103,12 @@ false
 }
 if
 (
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 )
 {
 MOZ_ASSERT
 (
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 -
 >
 GetPseudoElementType
@@ -1124,7 +1124,7 @@ mozTextControlEditingRoot
 ;
 MOZ_ASSERT
 (
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 -
 >
 IsHTMLElement
@@ -1138,7 +1138,7 @@ div
 ;
 if
 (
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 =
 =
 aContainerNode
@@ -1150,7 +1150,7 @@ true
 }
 if
 (
-aSelectionLimiter
+aIndependentSelectionLimiterElement
 =
 =
 aContainerNode
@@ -1991,7 +1991,7 @@ div
 ;
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 =
 aEditorRootAnonymousDiv
 ;
@@ -2150,7 +2150,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -2315,7 +2315,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -4987,7 +4987,7 @@ mCaret
 .
 mHint
 aJumpLines
-GetAncestorLimiterOrLimiter
+GetAncestorLimiterOrIndependentSelectionRootElement
 (
 )
 )
@@ -5083,7 +5083,7 @@ aNode
 aContentOffset
 aHint
 false
-GetAncestorLimiterOrLimiter
+GetAncestorLimiterOrIndependentSelectionRootElement
 (
 )
 )
@@ -6158,7 +6158,7 @@ AdjustContentOffsets
 offsets
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 ?
 MaintainedRange
 :
@@ -8176,14 +8176,14 @@ if
 (
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 )
 {
 rootFrameToSelect
 =
 mLimiters
 .
-mLimiter
+mIndependentSelectionRootElement
 -
 >
 GetPrimaryFrame
@@ -9760,7 +9760,7 @@ CreatePeekOffsetOptionsForCaretMove
 (
 aLimitersAndCaretData
 .
-mLimiter
+mIndependentSelectionRootElement
 forceEditableRegion
 ExtendSelection
 :

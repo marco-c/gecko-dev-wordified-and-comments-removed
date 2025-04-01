@@ -2549,7 +2549,7 @@ dom
 :
 Element
 *
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 const
@@ -2557,7 +2557,7 @@ const
 return
 mLimitersAndCaretData
 .
-mLimiter
+mIndependentSelectionRootElement
 ;
 }
 [

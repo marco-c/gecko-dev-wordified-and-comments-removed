@@ -3691,7 +3691,7 @@ content
 fs
 -
 >
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 ;
@@ -3747,9 +3747,11 @@ if
 !
 content
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 NS_ENSURE_TRUE
@@ -3922,7 +3924,7 @@ anonymousDiv
 independentFrameSelection
 -
 >
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 ;
