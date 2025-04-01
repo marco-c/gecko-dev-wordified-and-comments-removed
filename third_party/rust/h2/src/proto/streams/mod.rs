@@ -270,4 +270,11 @@ Option
 <
 usize
 >
+pub
+local_max_error_reset_streams
+:
+Option
+<
+usize
+>
 }

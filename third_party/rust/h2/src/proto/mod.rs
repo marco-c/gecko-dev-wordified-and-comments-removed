@@ -218,6 +218,14 @@ usize
 ;
 pub
 const
+DEFAULT_LOCAL_RESET_COUNT_MAX
+:
+usize
+=
+1024
+;
+pub
+const
 DEFAULT_RESET_STREAM_MAX
 :
 usize

@@ -21,7 +21,6 @@ frame
 :
 :
 {
-self
 PushPromiseHeaderError
 Reason
 DEFAULT_INITIAL_WINDOW_SIZE
@@ -32,12 +31,6 @@ crate
 :
 :
 proto
-:
-:
-{
-self
-Error
-}
 ;
 use
 http
@@ -84,10 +77,7 @@ std
 time
 :
 :
-{
-Duration
 Instant
-}
 ;
 #
 [

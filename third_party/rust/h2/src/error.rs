@@ -82,6 +82,13 @@ Debug
 enum
 Kind
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 Reset
 (
 StreamId
