@@ -289,3 +289,10 @@ backup
 docs
 /
 index
+components
+/
+sidebar
+/
+docs
+/
+index
