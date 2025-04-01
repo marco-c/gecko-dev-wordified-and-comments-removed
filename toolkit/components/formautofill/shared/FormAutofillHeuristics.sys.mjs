@@ -6412,6 +6412,13 @@ cc
 -
 type
 "
+"
+tel
+-
+country
+-
+code
+"
 ]
 ;
 fieldNames
