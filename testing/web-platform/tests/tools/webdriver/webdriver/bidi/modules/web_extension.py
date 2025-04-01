@@ -4,6 +4,7 @@ import
 Any
 Mapping
 MutableMapping
+Optional
 from
 .
 _module
@@ -23,7 +24,7 @@ def
 install
 (
 self
-extensionData
+extension_data
 :
 Mapping
 [
@@ -53,7 +54,7 @@ Any
 extensionData
 "
 :
-extensionData
+extension_data
 }
         
 return
@@ -77,7 +78,10 @@ Any
 )
 -
 >
+Optional
+[
 str
+]
 :
         
 return
@@ -100,6 +104,13 @@ extension
 :
 str
 )
+-
+>
+Mapping
+[
+str
+Any
+]
 :
         
 params

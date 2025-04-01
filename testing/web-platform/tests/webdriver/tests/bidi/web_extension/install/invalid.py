@@ -8,14 +8,6 @@ bidi
 error
 as
 error
-from
-tests
-.
-support
-.
-helpers
-import
-get_extension_path
 pytestmark
 =
 pytest
@@ -70,7 +62,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 value
         
@@ -102,7 +94,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 }
@@ -155,7 +147,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -213,7 +205,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -270,7 +262,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -347,7 +339,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -428,7 +420,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -472,7 +464,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -524,7 +516,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -574,7 +566,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -634,7 +626,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -679,7 +671,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "
@@ -748,7 +740,7 @@ web_extension
 install
 (
             
-extensionData
+extension_data
 =
 {
 "

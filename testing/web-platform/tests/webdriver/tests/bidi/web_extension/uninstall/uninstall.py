@@ -32,7 +32,7 @@ web_extension
 install
 (
         
-extensionData
+extension_data
 =
 {
             
