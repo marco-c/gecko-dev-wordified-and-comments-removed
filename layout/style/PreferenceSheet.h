@@ -163,12 +163,6 @@ ColorScheme
 :
 Light
 ;
-bool
-NonNativeThemeShouldBeHighContrast
-(
-)
-const
-;
 void
 Load
 (
