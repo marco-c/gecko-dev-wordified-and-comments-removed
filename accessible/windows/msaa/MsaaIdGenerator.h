@@ -41,9 +41,6 @@ class
 MsaaAccessible
 ;
 class
-sdnAccessible
-;
-class
 MsaaIdGenerator
 {
 public
@@ -62,17 +59,6 @@ MsaaAccessible
 *
 >
 aMsaaAcc
-)
-;
-void
-ReleaseID
-(
-NotNull
-<
-sdnAccessible
-*
->
-aSdnAcc
 )
 ;
 private
