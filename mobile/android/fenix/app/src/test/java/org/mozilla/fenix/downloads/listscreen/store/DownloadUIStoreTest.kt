@@ -402,9 +402,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 )
 val
 store
@@ -452,9 +449,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 )
 assertEquals
 (
@@ -548,9 +542,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 )
 private
 fun
@@ -585,9 +576,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 )
 private
 fun
@@ -623,8 +611,5 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 )
 }

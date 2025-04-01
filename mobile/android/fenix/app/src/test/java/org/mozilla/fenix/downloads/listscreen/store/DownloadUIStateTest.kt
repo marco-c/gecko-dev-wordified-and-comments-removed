@@ -180,9 +180,6 @@ setOf
 4
 "
 )
-isDeletingItems
-=
-false
 userSelectedContentTypeFilter
 =
 FileItem
@@ -373,9 +370,6 @@ setOf
 7
 "
 )
-isDeletingItems
-=
-false
 userSelectedContentTypeFilter
 =
 FileItem
@@ -712,9 +706,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 userSelectedContentTypeFilter
 =
 FileItem
@@ -961,9 +952,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 filtersFeatureFlag
 =
 true
@@ -1098,9 +1086,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 filtersFeatureFlag
 =
 true
@@ -1233,9 +1218,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 filtersFeatureFlag
 =
 false
@@ -1373,9 +1355,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 filtersFeatureFlag
 =
 false

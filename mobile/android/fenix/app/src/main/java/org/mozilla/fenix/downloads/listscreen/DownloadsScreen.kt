@@ -2266,9 +2266,6 @@ pendingDeletionIds
 emptySet
 (
 )
-isDeletingItems
-=
-false
 userSelectedContentTypeFilter
 =
 FileItem
