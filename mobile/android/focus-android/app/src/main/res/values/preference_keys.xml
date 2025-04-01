@@ -1113,7 +1113,7 @@ string
 name
 =
 "
-pref_key_rights
+pref_key_terms_of_use
 "
 translatable
 =
@@ -1131,7 +1131,7 @@ id
 preference_key
 "
 >
-pref_rights
+pref_terms_of_use
 <
 /
 xliff

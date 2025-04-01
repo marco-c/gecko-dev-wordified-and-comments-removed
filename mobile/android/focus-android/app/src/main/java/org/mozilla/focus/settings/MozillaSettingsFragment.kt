@@ -103,16 +103,6 @@ mozilla
 .
 focus
 .
-browser
-.
-LocalizedContent
-import
-org
-.
-mozilla
-.
-focus
-.
 ext
 .
 components
@@ -407,7 +397,7 @@ R
 .
 string
 .
-pref_key_rights
+pref_key_terms_of_use
 )
 -
 >
@@ -424,9 +414,9 @@ tabsUseCases
 .
 addTab
 (
-LocalizedContent
+SupportUtils
 .
-URL_RIGHTS
+TERMS_OF_USE_URL
 source
 =
 SessionState
