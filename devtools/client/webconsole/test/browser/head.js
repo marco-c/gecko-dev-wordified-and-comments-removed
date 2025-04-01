@@ -5710,12 +5710,6 @@ pauseDebugger
 (
 dbg
 options
-=
-{
-shouldWaitForLoadScopes
-:
-true
-}
 )
 {
 info

@@ -156,6 +156,11 @@ await
 pauseDebugger
 (
 dbg
+{
+shouldWaitForInlinePreviews
+:
+false
+}
 )
 ;
 info
