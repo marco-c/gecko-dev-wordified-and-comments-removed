@@ -1565,12 +1565,11 @@ MOZ_ASSERT
 device
 )
 ;
-ResolveLostForDeviceId
-(
 device
 -
 >
-mId
+ResolveLost
+(
 Nothing
 (
 )
