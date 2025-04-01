@@ -6198,7 +6198,7 @@ aOldComputedStyle
 )
 {
 bool
-needAnchorSuppression
+needScrollAnchorSuppression
 =
 false
 ;
@@ -6229,7 +6229,7 @@ StyleMargin
 )
 )
 {
-needAnchorSuppression
+needScrollAnchorSuppression
 =
 true
 ;
@@ -6267,7 +6267,7 @@ SetHasPaddingChange
 true
 )
 ;
-needAnchorSuppression
+needScrollAnchorSuppression
 =
 true
 ;
@@ -6376,7 +6376,7 @@ StylePosition
 if
 (
 !
-needAnchorSuppression
+needScrollAnchorSuppression
 &
 &
 (
@@ -6513,14 +6513,14 @@ mTransform
 )
 )
 {
-needAnchorSuppression
+needScrollAnchorSuppression
 =
 true
 ;
 }
 if
 (
-needAnchorSuppression
+needScrollAnchorSuppression
 &
 &
 StaticPrefs
