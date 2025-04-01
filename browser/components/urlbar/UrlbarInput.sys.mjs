@@ -19716,7 +19716,6 @@ if
 (
 totalSearches
 <
-=
 totalSearchesCap
 )
 {
