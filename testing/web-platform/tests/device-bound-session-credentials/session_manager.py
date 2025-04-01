@@ -298,6 +298,12 @@ refresh_session
 .
 py
 "
+        
+self
+.
+include_site
+=
+True
     
 def
 next_session_id_value
@@ -781,6 +787,30 @@ self
 refresh_url
 =
 refresh_url
+        
+include_site
+=
+configuration
+.
+get
+(
+"
+includeSite
+"
+)
+        
+if
+include_site
+is
+not
+None
+:
+            
+self
+.
+include_site
+=
+include_site
     
 def
 get_should_refresh_end_session
@@ -1142,7 +1172,9 @@ scope_origin
 include_site
 "
 :
-True
+self
+.
+include_site
                 
 "
 scope_specification
