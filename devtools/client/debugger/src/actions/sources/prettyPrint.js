@@ -53,6 +53,7 @@ telemetry
 ;
 import
 {
+updateBreakpointPositionsForNewPrettyPrintedSource
 updateBreakpointsForNewPrettyPrintedSource
 }
 from
@@ -1227,6 +1228,15 @@ mapFrames
 sourceActor
 .
 thread
+)
+)
+;
+await
+dispatch
+(
+updateBreakpointPositionsForNewPrettyPrintedSource
+(
+source
 )
 )
 ;
