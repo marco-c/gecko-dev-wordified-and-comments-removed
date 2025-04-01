@@ -1045,6 +1045,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 notifyObservers
@@ -1586,6 +1589,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 if
@@ -2038,6 +2044,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 }

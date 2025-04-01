@@ -863,6 +863,9 @@ false
 startLoading
 =
 true
+textDirectiveUserActivation
+=
+true
 parentId
 =
 parent
@@ -1132,6 +1135,9 @@ selectTab
 =
 false
 startLoading
+=
+true
+textDirectiveUserActivation
 =
 true
 parentId

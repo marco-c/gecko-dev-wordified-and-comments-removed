@@ -261,6 +261,14 @@ org
 .
 mockito
 .
+ArgumentMatchers
+.
+anyBoolean
+import
+org
+.
+mockito
+.
 Mockito
 .
 anyString
@@ -493,6 +501,9 @@ loadFlags
 initialAdditionalHeaders
 =
 additionalHeaders
+initialTextDirectiveUserActivation
+=
+true
 )
 val
 store
@@ -570,6 +581,9 @@ loadFlags
 additionalHeaders
 =
 additionalHeaders
+textDirectiveUserActivation
+=
+true
 )
 }
 Test
@@ -1114,6 +1128,9 @@ any
 (
 )
 any
+(
+)
+anyBoolean
 (
 )
 )

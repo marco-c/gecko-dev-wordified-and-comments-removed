@@ -250,6 +250,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 }

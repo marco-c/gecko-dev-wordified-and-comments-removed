@@ -571,6 +571,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 notifyObservers

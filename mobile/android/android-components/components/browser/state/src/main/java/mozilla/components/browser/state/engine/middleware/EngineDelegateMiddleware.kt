@@ -733,6 +733,11 @@ additionalHeaders
 action
 .
 additionalHeaders
+textDirectiveUserActivation
+=
+action
+.
+textDirectiveUserActivation
 )
 }
 private

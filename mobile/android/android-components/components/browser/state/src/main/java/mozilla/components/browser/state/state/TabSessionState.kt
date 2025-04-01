@@ -857,6 +857,11 @@ String
 ?
 =
 null
+initialTextDirectiveUserActivation
+:
+Boolean
+=
+false
 )
 :
 TabSessionState
@@ -947,6 +952,9 @@ initialLoadFlags
 initialAdditionalHeaders
 =
 initialAdditionalHeaders
+initialTextDirectiveUserActivation
+=
+initialTextDirectiveUserActivation
 )
 mediaSessionState
 =

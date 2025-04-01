@@ -1349,6 +1349,9 @@ any
 any
 (
 )
+anyBoolean
+(
+)
 )
 }
 Test
@@ -1522,6 +1525,9 @@ external
 startLoading
 =
 true
+textDirectiveUserActivation
+=
+true
 )
 /
 /
@@ -1627,6 +1633,8 @@ external
 (
 )
 null
+null
+true
 )
 }
 Test

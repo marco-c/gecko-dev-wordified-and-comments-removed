@@ -1416,6 +1416,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 notifyObservers
@@ -1514,6 +1517,11 @@ getGeckoFlags
 originalInput
 (
 originalInput
+)
+.
+textDirectiveUserActivation
+(
+textDirectiveUserActivation
 )
 if
 (

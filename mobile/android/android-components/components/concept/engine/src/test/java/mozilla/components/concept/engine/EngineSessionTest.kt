@@ -8936,6 +8936,9 @@ originalInput
 :
 String
 ?
+textDirectiveUserActivation
+:
+Boolean
 )
 {
 }

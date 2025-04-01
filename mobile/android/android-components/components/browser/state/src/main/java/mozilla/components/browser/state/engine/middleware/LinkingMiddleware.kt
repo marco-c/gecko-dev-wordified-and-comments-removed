@@ -743,6 +743,13 @@ originalInput
 tab
 .
 originalInput
+textDirectiveUserActivation
+=
+tab
+.
+engineState
+.
+initialTextDirectiveUserActivation
 )
 }
 return
@@ -791,6 +798,11 @@ String
 ?
 =
 null
+textDirectiveUserActivation
+:
+Boolean
+=
+false
 )
 =
 scope
@@ -816,6 +828,9 @@ additionalHeaders
 originalInput
 =
 originalInput
+textDirectiveUserActivation
+=
+textDirectiveUserActivation
 )
 }
 private

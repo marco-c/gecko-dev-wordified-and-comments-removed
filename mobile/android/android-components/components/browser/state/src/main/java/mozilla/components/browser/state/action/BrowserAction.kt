@@ -8685,6 +8685,12 @@ includeParent
 Boolean
 =
 false
+val
+textDirectiveUserActivation
+:
+Boolean
+=
+false
 )
 :
 EngineAction
