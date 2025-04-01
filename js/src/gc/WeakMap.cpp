@@ -681,7 +681,13 @@ JS
 :
 Zone
 *
-zone
+atomsZone
+JS
+:
+:
+Zone
+*
+mapZone
 )
 {
 for
@@ -690,7 +696,7 @@ WeakMapBase
 *
 m
 :
-zone
+mapZone
 -
 >
 gcWeakMapList
@@ -706,6 +712,7 @@ m
 >
 findSweepGroupEdges
 (
+atomsZone
 )
 )
 {
