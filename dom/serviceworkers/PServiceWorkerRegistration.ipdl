@@ -104,11 +104,6 @@ PBackground
 parent
 :
 async
-Teardown
-(
-)
-;
-async
 Unregister
 (
 )
@@ -187,11 +182,6 @@ aState
 child
 :
 async
-__delete__
-(
-)
-;
-async
 UpdateState
 (
 IPCServiceWorkerRegistrationDescriptor
@@ -200,6 +190,13 @@ aDescriptor
 ;
 async
 FireUpdateFound
+(
+)
+;
+both
+:
+async
+__delete__
 (
 )
 ;

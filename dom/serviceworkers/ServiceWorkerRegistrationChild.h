@@ -55,9 +55,6 @@ ServiceWorkerRegistration
 *
 mOwner
 ;
-bool
-mTeardownStarted
-;
 ServiceWorkerRegistrationChild
 (
 )
@@ -139,7 +136,7 @@ aOwner
 )
 ;
 void
-MaybeStartTeardown
+Shutdown
 (
 )
 ;
