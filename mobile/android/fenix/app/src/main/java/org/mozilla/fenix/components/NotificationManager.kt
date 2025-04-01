@@ -67,12 +67,6 @@ components
 import
 android
 .
-annotation
-.
-TargetApi
-import
-android
-.
 app
 .
 Notification
@@ -128,6 +122,12 @@ Build
 VERSION
 .
 SDK_INT
+import
+androidx
+.
+annotation
+.
+RequiresApi
 import
 androidx
 .
@@ -1284,7 +1284,7 @@ notification
 }
 }
 }
-TargetApi
+RequiresApi
 (
 Build
 .
