@@ -3766,18 +3766,6 @@ svg
 #
 arrowhead
 {
-/
-*
-!
-important
-is
-needed
-to
-override
-inline
-style
-*
-/
 fill
 :
 var
@@ -3788,8 +3776,6 @@ arrow
 -
 color
 )
-!
-important
 ;
 }
 .
