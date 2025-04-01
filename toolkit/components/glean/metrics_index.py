@@ -349,6 +349,14 @@ yaml
 "
     
 "
+ipc
+/
+metrics
+.
+yaml
+"
+    
+"
 js
 /
 xpconnect

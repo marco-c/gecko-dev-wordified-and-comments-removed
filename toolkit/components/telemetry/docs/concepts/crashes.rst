@@ -228,6 +228,13 @@ s
 SUBPROCESS_ABNORMAL_ABORT
 keyed
 histogram
+(
+glean
+subprocess
+:
+abnormal_abort
+metric
+)
 .
 If
 we
@@ -243,6 +250,13 @@ the
 SUBPROCESS_CRASHES_WITH_DUMP
 keyed
 histogram
+(
+glean
+subprocess
+:
+crashes_with_dump
+metric
+)
 is
 incremented
 .
