@@ -221,7 +221,8 @@ virtual
 WeakMapBase
 (
 )
-;
+{
+}
 JS
 :
 :
@@ -870,6 +871,12 @@ memOf
 =
 nullptr
 )
+;
+~
+WeakMap
+(
+)
+override
 ;
 UnbarrieredValue
 get
