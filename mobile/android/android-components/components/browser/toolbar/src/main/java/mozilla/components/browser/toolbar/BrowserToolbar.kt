@@ -793,10 +793,6 @@ get
 display
 .
 url
-.
-toString
-(
-)
 set
 (
 value
@@ -855,11 +851,7 @@ display
 .
 url
 =
-(
 value
-as
-String
-)
 .
 trimmed
 (
