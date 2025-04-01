@@ -814,9 +814,14 @@ aURI
 {
 if
 (
-SchemeIsJavascript
-(
 aURI
+-
+>
+SchemeIs
+(
+"
+javascript
+"
 )
 )
 {

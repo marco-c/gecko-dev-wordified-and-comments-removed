@@ -796,12 +796,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-bool
-alreadyViewSource
-;
 if
-(
-NS_SUCCEEDED
 (
 channelResultPrincipalURI
 -
@@ -813,13 +808,7 @@ view
 -
 source
 "
-&
-alreadyViewSource
 )
-)
-&
-&
-alreadyViewSource
 )
 {
 return

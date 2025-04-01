@@ -646,14 +646,6 @@ mURI
 ;
 }
 ;
-bool
-IsChromeURI
-(
-nsIURI
-*
-aURI
-)
-;
 }
 }
 #
