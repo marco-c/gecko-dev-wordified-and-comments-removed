@@ -927,6 +927,11 @@ Loader
 )
 ;
 void
+PrepareForShutdown
+(
+)
+;
+void
 ClearInProcess
 (
 const
