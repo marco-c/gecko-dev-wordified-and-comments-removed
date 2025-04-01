@@ -24,6 +24,9 @@ use_openssl
 and
 not
 use_nss
+and
+not
+use_mbedtls
 test_apps
 +
 =
@@ -116,6 +119,9 @@ use_openssl
 and
 not
 use_nss
+and
+not
+use_mbedtls
 test_exe
 =
 executable

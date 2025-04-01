@@ -250,7 +250,7 @@ set_aad
 srtp_cipher_encrypt_func_t
 encrypt
 ;
-srtp_cipher_encrypt_func_t
+srtp_cipher_decrypt_func_t
 decrypt
 ;
 srtp_cipher_set_iv_func_t

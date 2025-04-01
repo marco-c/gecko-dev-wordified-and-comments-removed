@@ -43,11 +43,3 @@ copy
 true
 )
 endforeach
-public_incs
-=
-include_directories
-(
-'
-.
-'
-)
