@@ -133,7 +133,7 @@ CustomizableUIInternal
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -403,7 +403,7 @@ kVersion
 }
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -699,13 +699,13 @@ version
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
 CustomizableUIInternal
 .
-_updateForNewProtonVersion
+updateForNewProtonVersion
 (
 )
 ;
@@ -951,7 +951,7 @@ button
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -1070,7 +1070,7 @@ oldNavbarPlacements
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -1189,7 +1189,7 @@ oldNavbarPlacements
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;

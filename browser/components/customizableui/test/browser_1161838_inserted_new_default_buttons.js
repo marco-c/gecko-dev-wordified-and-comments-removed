@@ -82,7 +82,7 @@ loadSavedState
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -280,7 +280,7 @@ AREA_NAVBAR
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -354,7 +354,7 @@ placements
 }
 CustomizableUIInternal
 .
-_placeNewDefaultWidgetsInArea
+placeNewDefaultWidgetsInArea
 (
 CustomizableUI
 .
