@@ -150,6 +150,16 @@ self
 registration_sends_challenge
 =
 False
+        
+self
+.
+cookie_name_and_value
+=
+"
+auth_cookie
+=
+abcdef0123
+"
     
 def
 create_new_session
@@ -403,6 +413,30 @@ self
 registration_sends_challenge
 =
 registration_sends_challenge
+        
+cookie_name_and_value
+=
+configuration
+.
+get
+(
+"
+cookieNameAndValue
+"
+)
+        
+if
+cookie_name_and_value
+is
+not
+None
+:
+            
+self
+.
+cookie_name_and_value
+=
+cookie_name_and_value
     
 def
 get_should_refresh_end_session
@@ -477,11 +511,9 @@ request
 cookie_parts
 =
 [
-"
-auth_cookie
-=
-abcdef0123
-"
+self
+.
+cookie_name_and_value
 ]
         
 cookie_attributes
@@ -711,9 +743,19 @@ cookie
 name
 "
 :
+self
+.
+cookie_name_and_value
+.
+split
+(
 "
-auth_cookie
+=
 "
+)
+[
+0
+]
                 
 "
 attributes
