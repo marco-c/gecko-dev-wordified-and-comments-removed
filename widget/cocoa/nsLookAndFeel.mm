@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsAppShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FontPropertyTypes
@@ -224,6 +231,11 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 mInitialized
 =
 true
+;
+[
+GeckoNSApplication
+sharedApplication
+]
 ;
 NSWindow
 *
