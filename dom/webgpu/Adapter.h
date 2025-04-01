@@ -283,6 +283,12 @@ nsString
 )
 ;
 }
+bool
+IsFallbackAdapter
+(
+)
+const
+;
 void
 GetWgpuName
 (

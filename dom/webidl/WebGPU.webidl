@@ -465,6 +465,11 @@ attribute
 DOMString
 description
 ;
+readonly
+attribute
+boolean
+isFallbackAdapter
+;
 /
 /
 Non
