@@ -377,7 +377,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX15
 .
-0
+2
 .
 sdk
 "

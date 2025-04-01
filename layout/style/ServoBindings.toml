@@ -1797,6 +1797,16 @@ atomic
 std
 :
 :
+.
+*
+:
+:
+atomic
+"
+"
+std
+:
+:
 atomic___base
 "
 "

@@ -269,9 +269,9 @@ TARGET
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX15
 .
-4
+2
 .
 sdk
 "
@@ -315,9 +315,9 @@ TARGET
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX15
 .
-4
+2
 .
 sdk
 "

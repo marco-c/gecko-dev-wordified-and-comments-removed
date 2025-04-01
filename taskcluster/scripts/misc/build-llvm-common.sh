@@ -181,9 +181,9 @@ DCMAKE_OSX_SYSROOT
 =
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX15
 .
-4
+2
 .
 sdk
 -
@@ -213,9 +213,9 @@ DDARWIN_osx_SYSROOT
 =
 MOZ_FETCHES_DIR
 /
-MacOSX14
+MacOSX15
 .
-4
+2
 .
 sdk
 -
