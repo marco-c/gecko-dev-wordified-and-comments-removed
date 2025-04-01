@@ -816,6 +816,7 @@ querySelectorAll
 "
 input
 select
+textarea
 "
 )
 )
@@ -1139,6 +1140,15 @@ aField
 &
 !
 HTMLSelectElement
+.
+isInstance
+(
+aField
+)
+&
+&
+!
+HTMLTextAreaElement
 .
 isInstance
 (
