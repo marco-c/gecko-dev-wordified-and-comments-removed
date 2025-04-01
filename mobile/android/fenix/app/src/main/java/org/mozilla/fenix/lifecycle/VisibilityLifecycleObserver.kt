@@ -89,6 +89,8 @@ mozilla
 .
 fenix
 .
+biometricauthentication
+.
 AuthenticationStatus
 import
 org
@@ -96,6 +98,8 @@ org
 mozilla
 .
 fenix
+.
+biometricauthentication
 .
 BiometricAuthenticationManager
 /
