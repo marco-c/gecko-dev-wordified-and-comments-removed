@@ -547,9 +547,6 @@ kMaxVp9Qp
 )
 ;
 case
-kVideoCodecH265
-:
-case
 kVideoCodecH264
 :
 return
