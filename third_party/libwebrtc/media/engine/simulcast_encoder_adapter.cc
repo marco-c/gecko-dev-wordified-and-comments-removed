@@ -5383,9 +5383,6 @@ empty
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 implementation_name_builder
 (

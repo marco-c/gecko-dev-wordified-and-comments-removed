@@ -264,9 +264,6 @@ FrameDependencyTemplate
 t
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

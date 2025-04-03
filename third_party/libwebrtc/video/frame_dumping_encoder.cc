@@ -489,9 +489,6 @@ filename_buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (

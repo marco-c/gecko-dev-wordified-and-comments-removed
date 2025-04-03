@@ -2329,9 +2329,6 @@ Candidate
 b
 )
 {
-rtc
-:
-:
 StringBuilder
 failure_info
 ;
@@ -5008,9 +5005,6 @@ IceCandidateInterface
 candidates
 )
 {
-rtc
-:
-:
 StringBuilder
 candidate_hosts
 ;

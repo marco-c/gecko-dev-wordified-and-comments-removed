@@ -975,9 +975,6 @@ instance_count
 =
 0
 ;
-rtc
-:
-:
 StringBuilder
 sb
 ;

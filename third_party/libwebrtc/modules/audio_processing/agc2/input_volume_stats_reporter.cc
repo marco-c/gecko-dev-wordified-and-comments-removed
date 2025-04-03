@@ -250,9 +250,6 @@ buffer
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (
@@ -311,9 +308,6 @@ buffer
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (
@@ -370,9 +364,6 @@ buffer
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (

@@ -5076,9 +5076,6 @@ kChannelCount
 i
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -5829,9 +5826,6 @@ kChannelCount
 i
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

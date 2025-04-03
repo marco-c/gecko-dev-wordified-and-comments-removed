@@ -2712,9 +2712,6 @@ network_label
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 builder
 ;
@@ -2857,9 +2854,6 @@ test_case_name_
 }
 }
 ;
-rtc
-:
-:
 StringBuilder
 log
 ;

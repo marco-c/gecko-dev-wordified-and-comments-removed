@@ -1316,9 +1316,6 @@ ParameterizationType
 info
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

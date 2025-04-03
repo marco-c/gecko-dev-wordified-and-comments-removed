@@ -826,9 +826,6 @@ return
 "
 ;
 }
-rtc
-:
-:
 StringBuilder
 sb
 ;

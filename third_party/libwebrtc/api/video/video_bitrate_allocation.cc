@@ -785,9 +785,6 @@ string_buf
 512
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ssb
 (

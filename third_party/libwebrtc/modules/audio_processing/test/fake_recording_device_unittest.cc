@@ -728,9 +728,6 @@ int
 fake_rec_device_kind
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -765,9 +762,6 @@ int
 level
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

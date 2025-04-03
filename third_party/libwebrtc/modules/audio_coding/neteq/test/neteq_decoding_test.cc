@@ -940,9 +940,6 @@ while
 packet_
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

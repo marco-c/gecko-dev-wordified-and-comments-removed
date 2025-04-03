@@ -1770,9 +1770,6 @@ int
 filter_length_blocks
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -1807,9 +1804,6 @@ int
 filter_length_blocks
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

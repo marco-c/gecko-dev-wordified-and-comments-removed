@@ -4381,9 +4381,6 @@ delimiter
 ;
 "
 ;
-rtc
-:
-:
 StringBuilder
 header
 ;
@@ -4481,9 +4478,6 @@ f
 frames
 )
 {
-rtc
-:
-:
 StringBuilder
 row
 ;

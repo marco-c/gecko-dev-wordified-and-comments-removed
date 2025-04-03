@@ -65,9 +65,6 @@ buf
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (

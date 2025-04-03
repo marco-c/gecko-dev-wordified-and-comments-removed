@@ -49,7 +49,7 @@ sb_buf
 1024
 ]
 ;
-rtc
+webrtc
 :
 :
 SimpleStringBuilder
@@ -190,7 +190,7 @@ sb_buf
 1024
 ]
 ;
-rtc
+webrtc
 :
 :
 SimpleStringBuilder
@@ -327,7 +327,7 @@ sb_buf
 1024
 ]
 ;
-rtc
+webrtc
 :
 :
 SimpleStringBuilder

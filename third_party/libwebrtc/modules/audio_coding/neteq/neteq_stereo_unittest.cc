@@ -1064,9 +1064,6 @@ output_multi_channel_
 samples_per_channel_
 )
 ;
-rtc
-:
-:
 StringBuilder
 ss
 ;

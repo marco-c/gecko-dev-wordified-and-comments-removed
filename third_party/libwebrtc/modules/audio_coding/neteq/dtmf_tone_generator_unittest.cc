@@ -154,9 +154,6 @@ event
 event
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -485,9 +482,6 @@ attenuation
 5
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

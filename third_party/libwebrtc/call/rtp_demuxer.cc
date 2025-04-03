@@ -416,9 +416,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -555,9 +552,6 @@ RtpPacketReceived
 packet
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

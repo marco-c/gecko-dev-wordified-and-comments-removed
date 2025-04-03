@@ -2159,7 +2159,7 @@ char
 tag
 )
 ;
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -2746,7 +2746,7 @@ FinishPrintStream
 }
 #
 endif
-rtc
+webrtc
 :
 :
 StringBuilder

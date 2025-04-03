@@ -87,9 +87,6 @@ SuppressionLevel
 level
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

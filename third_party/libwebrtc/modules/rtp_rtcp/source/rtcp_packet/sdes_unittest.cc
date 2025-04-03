@@ -478,9 +478,6 @@ kSenderSsrc
 +
 i
 ;
-rtc
-:
-:
 StringBuilder
 oss
 ;

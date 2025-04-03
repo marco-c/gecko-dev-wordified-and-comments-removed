@@ -980,9 +980,6 @@ CHANNEL_LAYOUT_STEREO_DOWNMIX
 continue
 ;
 }
-rtc
-:
-:
 StringBuilder
 ss
 ;

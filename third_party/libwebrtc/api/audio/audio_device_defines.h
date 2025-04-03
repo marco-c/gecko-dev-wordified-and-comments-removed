@@ -600,9 +600,6 @@ ss_buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ss
 (

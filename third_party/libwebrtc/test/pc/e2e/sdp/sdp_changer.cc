@@ -126,9 +126,6 @@ string
 codec_required_params
 )
 {
-rtc
-:
-:
 StringBuilder
 out
 ;
@@ -190,9 +187,6 @@ RtpCodecCapability
 supported_codecs
 )
 {
-rtc
-:
-:
 StringBuilder
 out
 ;

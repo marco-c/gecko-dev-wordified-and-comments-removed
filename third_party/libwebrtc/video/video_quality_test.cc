@@ -2071,9 +2071,6 @@ empty
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 str
 ;
@@ -2249,9 +2246,6 @@ ss_buf
 100
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -2913,9 +2907,6 @@ GenerateGraphTitle
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

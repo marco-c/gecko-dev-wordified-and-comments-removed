@@ -1359,9 +1359,6 @@ Status
 kValid
 )
 {
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1489,9 +1486,6 @@ end
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1566,9 +1560,6 @@ counters
 )
 )
 ;
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1628,9 +1619,6 @@ adaptation
 reason_resource
 )
 ;
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1778,9 +1766,6 @@ Status
 kValid
 )
 {
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1848,9 +1833,6 @@ adaptation
 reason_resource
 )
 ;
-rtc
-:
-:
 StringBuilder
 message
 ;

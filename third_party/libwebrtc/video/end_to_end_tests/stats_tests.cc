@@ -1452,9 +1452,6 @@ uint32_t
 ssrc
 )
 {
-rtc
-:
-:
 StringBuilder
 oss
 ;

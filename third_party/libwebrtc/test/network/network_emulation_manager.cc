@@ -2579,9 +2579,6 @@ buf
 128
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 str
 (

@@ -291,7 +291,7 @@ ParseAndPrint
 (
 ParameterDescriptor
 descriptor
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -393,7 +393,7 @@ Parameters
 parameters
 )
 {
-rtc
+webrtc
 :
 :
 StringBuilder

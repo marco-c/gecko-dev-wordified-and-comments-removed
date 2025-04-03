@@ -828,9 +828,6 @@ buf
 2048
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (

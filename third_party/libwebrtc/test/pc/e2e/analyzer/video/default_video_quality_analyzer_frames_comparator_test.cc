@@ -824,9 +824,6 @@ SamplesStatsCounter
 counter
 )
 {
-rtc
-:
-:
 StringBuilder
 out
 ;

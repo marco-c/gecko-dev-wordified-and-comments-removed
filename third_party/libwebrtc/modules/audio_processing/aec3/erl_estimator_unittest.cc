@@ -48,9 +48,6 @@ size_t
 num_capture_channels
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

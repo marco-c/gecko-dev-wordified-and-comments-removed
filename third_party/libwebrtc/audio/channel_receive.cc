@@ -3894,9 +3894,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 mime_type
 (

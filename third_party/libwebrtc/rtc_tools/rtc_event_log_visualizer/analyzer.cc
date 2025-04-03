@@ -715,9 +715,6 @@ uint32_t
 ssrc
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -2237,9 +2234,6 @@ LoggedIceCandidatePairConfig
 config
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

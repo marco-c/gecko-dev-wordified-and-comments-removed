@@ -955,9 +955,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ss
 (
@@ -2132,9 +2129,6 @@ codec_settings
 codecType
 )
 ;
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -3994,9 +3988,6 @@ modifier_buf
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 modifier
 (

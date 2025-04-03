@@ -7660,9 +7660,6 @@ last_packet_log_ms_
 kPacketLogIntervalMs
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

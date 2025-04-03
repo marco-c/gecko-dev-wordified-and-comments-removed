@@ -184,9 +184,6 @@ burst_lost_counter_
 =
 burst_length_
 ;
-rtc
-:
-:
 StringBuilder
 ss
 ;

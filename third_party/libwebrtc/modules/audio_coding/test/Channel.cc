@@ -1043,9 +1043,6 @@ _saveBitStream
 =
 true
 ;
-rtc
-:
-:
 StringBuilder
 ss
 ;

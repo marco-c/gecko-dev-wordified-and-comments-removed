@@ -58,7 +58,7 @@ safe_minmax
 h
 "
 namespace
-rtc
+webrtc
 {
 SimpleStringBuilder
 :

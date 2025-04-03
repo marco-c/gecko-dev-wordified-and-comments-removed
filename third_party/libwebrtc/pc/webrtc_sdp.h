@@ -97,13 +97,6 @@ Candidate
 ;
 }
 namespace
-rtc
-{
-class
-StringBuilder
-;
-}
-namespace
 webrtc
 {
 class
@@ -248,9 +241,6 @@ webrtc
 CodecParameterMap
 &
 parameters
-rtc
-:
-:
 StringBuilder
 *
 os

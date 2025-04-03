@@ -141,9 +141,6 @@ histogram_name_prefix
 region_logger_
 (
 (
-rtc
-:
-:
 StringBuilder
 (
 "
@@ -170,9 +167,6 @@ str
 (
 )
 (
-rtc
-:
-:
 StringBuilder
 (
 "
@@ -199,9 +193,6 @@ str
 (
 )
 (
-rtc
-:
-:
 StringBuilder
 (
 "
@@ -228,9 +219,6 @@ str
 (
 )
 (
-rtc
-:
-:
 StringBuilder
 (
 "

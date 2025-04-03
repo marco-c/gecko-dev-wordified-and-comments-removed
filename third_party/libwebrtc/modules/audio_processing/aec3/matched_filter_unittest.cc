@@ -181,9 +181,6 @@ size_t
 down_sampling_factor
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

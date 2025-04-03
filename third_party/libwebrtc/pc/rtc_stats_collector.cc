@@ -564,9 +564,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -596,9 +593,6 @@ codec_params
 .
 payload_type
 ;
-rtc
-:
-:
 StringBuilder
 fmtp
 ;
@@ -658,9 +652,6 @@ buf
 4096
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -728,9 +719,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -786,9 +774,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -863,9 +848,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -933,9 +915,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1000,9 +979,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1067,9 +1043,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -2127,9 +2100,6 @@ codec_params
 num_channels
 ;
 }
-rtc
-:
-:
 StringBuilder
 fmtp
 ;

@@ -5913,7 +5913,7 @@ if
 report_as_error
 )
 {
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -6660,7 +6660,7 @@ int
 chunk_type
 )
 {
-rtc
+webrtc
 :
 :
 StringBuilder

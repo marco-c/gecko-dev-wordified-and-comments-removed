@@ -153,9 +153,6 @@ int
 sample_rate_hz
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -195,9 +192,6 @@ size_t
 num_capture_channels
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
