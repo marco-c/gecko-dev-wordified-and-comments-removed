@@ -166,6 +166,15 @@ Stop
 (
 )
 ;
+void
+SetPath
+(
+const
+char
+*
+dump_path
+)
+;
 private
 :
 bool
@@ -217,6 +226,9 @@ exit_context_
 ;
 bool
 generate_dumps_
+;
+pthread_mutex_t
+dump_dir_mutex_
 ;
 std
 :

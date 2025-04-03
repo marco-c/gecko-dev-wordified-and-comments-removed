@@ -9,6 +9,9 @@ OS_LIBS
 =
 [
 "
+advapi32
+"
+"
 dbghelp
 "
 "
@@ -19,9 +22,6 @@ ntdll
 "
 "
 ole32
-"
-"
-psapi
 "
 "
 shell32
