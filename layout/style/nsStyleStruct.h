@@ -1731,7 +1731,7 @@ MOZ_UNLIKELY
 (
 result
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4030,7 +4030,7 @@ MOZ_UNLIKELY
 (
 mWidth
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4058,7 +4058,7 @@ MOZ_UNLIKELY
 (
 mHeight
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4086,7 +4086,7 @@ MOZ_UNLIKELY
 (
 mMinWidth
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4114,7 +4114,7 @@ MOZ_UNLIKELY
 (
 mMinHeight
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4142,7 +4142,7 @@ MOZ_UNLIKELY
 (
 mMaxWidth
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )
@@ -4170,7 +4170,7 @@ MOZ_UNLIKELY
 (
 mMaxHeight
 .
-IsAnchorSizeFunction
+HasAnchorPositioningFunction
 (
 )
 )

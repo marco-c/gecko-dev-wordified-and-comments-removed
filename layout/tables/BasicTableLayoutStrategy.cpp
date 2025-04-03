@@ -749,6 +749,15 @@ Tag
 :
 AnchorSizeFunction
 :
+case
+StyleSize
+:
+:
+Tag
+:
+:
+AnchorContainingCalcFunction
+:
 break
 ;
 }
