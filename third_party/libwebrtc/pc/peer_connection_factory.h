@@ -268,16 +268,6 @@ thread_annotations
 h
 "
 namespace
-rtc
-{
-class
-BasicNetworkManager
-;
-class
-BasicPacketSocketFactory
-;
-}
-namespace
 webrtc
 {
 class
