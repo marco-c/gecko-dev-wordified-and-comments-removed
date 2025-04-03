@@ -420,7 +420,7 @@ Angle
 NonNegativeFactor
 ZeroToOneFactor
 NonNegativeLength
-Impossible
+SimpleShadow
 Impossible
 >
 ;
