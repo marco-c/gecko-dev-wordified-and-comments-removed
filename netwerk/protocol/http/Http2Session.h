@@ -1578,9 +1578,6 @@ uint32_t
 mNextStreamID
 ;
 uint32_t
-mLastPushedID
-;
-uint32_t
 mConcurrentHighWater
 ;
 uint32_t
@@ -1653,13 +1650,6 @@ Http2StreamBase
 >
 mSlowConsumersReadyForRead
 ;
-nsTArray
-<
-Http2PushedStream
-*
->
-mPushedStreams
-;
 Http2Compressor
 mCompressor
 ;
@@ -1720,9 +1710,6 @@ mExpectedHeaderID
 ;
 uint32_t
 mExpectedPushPromiseID
-;
-uint32_t
-mContinuedPromiseStream
 ;
 nsCString
 mFlatHTTPResponseHeaders

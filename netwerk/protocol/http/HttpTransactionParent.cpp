@@ -119,6 +119,13 @@ nsStringStream
 .
 h
 "
+#
+include
+"
+nsIRequestContext
+.
+h
+"
 namespace
 mozilla
 :
