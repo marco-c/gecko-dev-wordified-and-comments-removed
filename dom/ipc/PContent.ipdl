@@ -2695,9 +2695,6 @@ nsCString
 ]
 tables
 ;
-nsCString
-exceptionHostList
-;
 }
 ;
 struct
