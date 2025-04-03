@@ -278,6 +278,21 @@ if
 =
 [
 "
+headless
+"
+#
+Clipboard
+call
+to
+get
+PNG
+data
+fails
+(
+bug
+1878643
+)
+"
 os
 =
 =
@@ -285,7 +300,6 @@ os
 android
 '
 "
-]
 #
 Android
 cannot
@@ -296,6 +310,7 @@ contents
 bug
 1299578
 )
+]
 support
 -
 files
