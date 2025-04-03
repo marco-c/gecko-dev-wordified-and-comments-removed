@@ -2215,8 +2215,7 @@ params
 .
 find
 (
-"
-"
+kCodecParamNotInNameValueFormat
 )
 ;
 if
