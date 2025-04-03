@@ -6413,6 +6413,9 @@ dependencies
 =
 [
 "
+android_logger
+"
+"
 anyhow
 "
 "
@@ -6430,11 +6433,17 @@ crash_helper_common
 dirs
 "
 "
+env_logger
+"
+"
 linked
 -
 hash
 -
 map
+"
+"
+log
 "
 "
 mozannotation_server
@@ -10232,6 +10241,9 @@ dependencies
 [
 "
 log
+"
+"
+regex
 "
 "
 termcolor
