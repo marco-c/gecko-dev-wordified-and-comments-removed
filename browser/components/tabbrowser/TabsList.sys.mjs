@@ -764,11 +764,13 @@ _cleanupDOM
 {
 this
 .
-doc
+containerNode
 .
 querySelectorAll
 (
 "
+:
+scope
 .
 all
 -
@@ -776,7 +778,7 @@ tabs
 -
 group
 -
-button
+item
 "
 )
 .
