@@ -183,9 +183,6 @@ num_channels
 return
 Config
 {
-rtc
-:
-:
 dchecked_cast
 <
 int

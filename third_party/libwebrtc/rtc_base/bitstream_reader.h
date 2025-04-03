@@ -382,9 +382,6 @@ data
 )
 remaining_bits_
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -432,9 +429,6 @@ data
 )
 remaining_bits_
 (
-rtc
-:
-:
 checked_cast
 <
 int

@@ -100,9 +100,6 @@ filtered_current_level_
 level_factor_
 )
 *
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -113,9 +110,6 @@ buffer_size_samples
 ;
 filtered_current_level_
 =
-rtc
-:
-:
 saturated_cast
 <
 int
@@ -159,9 +153,6 @@ buffer_size_samples
 {
 filtered_current_level_
 =
-rtc
-:
-:
 saturated_cast
 <
 int

@@ -231,9 +231,6 @@ v
 stride_v
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int

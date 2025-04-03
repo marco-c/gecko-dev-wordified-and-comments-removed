@@ -357,9 +357,6 @@ encoded_bytes
 )
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int

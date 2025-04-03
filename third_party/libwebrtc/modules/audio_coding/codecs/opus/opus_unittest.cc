@@ -2282,9 +2282,6 @@ diff
 }
 prev_pkt_size
 =
-rtc
-:
-:
 checked_cast
 <
 int32_t
@@ -4374,9 +4371,6 @@ opus_repacketizer_cat
 (
 rp
 bitstream_
-rtc
-:
-:
 checked_cast
 <
 opus_int32

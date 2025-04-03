@@ -159,9 +159,6 @@ config
 .
 num_channels
 =
-rtc
-:
-:
 checked_cast
 <
 int

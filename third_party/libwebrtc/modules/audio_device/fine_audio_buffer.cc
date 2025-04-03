@@ -87,9 +87,6 @@ audio_device_buffer
 )
 playout_samples_per_channel_10ms_
 (
-rtc
-:
-:
 dchecked_cast
 <
 size_t
@@ -109,9 +106,6 @@ PlayoutSampleRate
 )
 record_samples_per_channel_10ms_
 (
-rtc
-:
-:
 dchecked_cast
 <
 size_t

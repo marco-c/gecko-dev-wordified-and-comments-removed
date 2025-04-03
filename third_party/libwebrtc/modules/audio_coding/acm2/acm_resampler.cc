@@ -527,9 +527,6 @@ audio_frame
 -
 >
 sample_rate_hz_
-rtc
-:
-:
 dchecked_cast
 <
 int

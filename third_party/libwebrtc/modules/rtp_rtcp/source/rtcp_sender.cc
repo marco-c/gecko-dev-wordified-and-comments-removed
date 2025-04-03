@@ -3933,9 +3933,6 @@ report_interval_
 int
 min_interval_int
 =
-rtc
-:
-:
 dchecked_cast
 <
 int

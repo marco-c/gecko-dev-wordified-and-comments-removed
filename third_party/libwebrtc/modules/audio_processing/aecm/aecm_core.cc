@@ -4920,9 +4920,6 @@ zerosFar
 ;
 tmpU32no1
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t

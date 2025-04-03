@@ -661,9 +661,6 @@ i
 expected_timestamp
 +
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t

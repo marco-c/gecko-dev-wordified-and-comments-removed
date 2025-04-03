@@ -2822,9 +2822,6 @@ i
 ]
 +
 =
-rtc
-:
-:
 dchecked_cast
 <
 int32_t

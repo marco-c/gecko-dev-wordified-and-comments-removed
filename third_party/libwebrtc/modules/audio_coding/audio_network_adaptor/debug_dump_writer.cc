@@ -174,9 +174,6 @@ dump_data
 int32_t
 size
 =
-rtc
-:
-:
 checked_cast
 <
 int32_t

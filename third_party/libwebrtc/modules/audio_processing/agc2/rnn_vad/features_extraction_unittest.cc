@@ -390,9 +390,6 @@ kFeatureVectorSize
 ASSERT_EQ
 (
 kFeatureVectorSize
-rtc
-:
-:
 dchecked_cast
 <
 int

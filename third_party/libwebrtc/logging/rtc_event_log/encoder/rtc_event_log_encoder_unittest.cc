@@ -2488,9 +2488,6 @@ const
 int
 bitrate_bps
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -3294,9 +3291,6 @@ runtime_config
 >
 bitrate_bps
 =
-rtc
-:
-:
 checked_cast
 <
 int

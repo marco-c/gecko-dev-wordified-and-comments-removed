@@ -125,9 +125,6 @@ positive
 ;
 }
 return
-rtc
-:
-:
 saturated_cast
 <
 uint16_t
@@ -189,9 +186,6 @@ positive
 ;
 }
 return
-rtc
-:
-:
 saturated_cast
 <
 uint16_t

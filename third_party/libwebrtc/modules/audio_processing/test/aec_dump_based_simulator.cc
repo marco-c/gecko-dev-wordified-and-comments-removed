@@ -929,9 +929,6 @@ fwd_frame_data
 k
 ]
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t

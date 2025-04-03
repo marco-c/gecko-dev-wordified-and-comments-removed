@@ -232,9 +232,6 @@ header
 >
 numCSRCs
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t

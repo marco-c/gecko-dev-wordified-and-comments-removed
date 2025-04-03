@@ -223,9 +223,6 @@ seconds
 const
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t
@@ -244,9 +241,6 @@ fractions
 const
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t
@@ -437,9 +431,6 @@ max
 ;
 }
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -560,9 +551,6 @@ max
 ;
 }
 return
-rtc
-:
-:
 dchecked_cast
 <
 uint64_t
@@ -581,9 +569,6 @@ q32x32
 )
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -619,9 +604,6 @@ q32x32
 )
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -657,9 +639,6 @@ q32x32
 )
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -699,9 +678,6 @@ q32x32
 )
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t

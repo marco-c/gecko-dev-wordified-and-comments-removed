@@ -130,9 +130,6 @@ fs_hz_
 )
 default_win_slope_Q14_
 (
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t

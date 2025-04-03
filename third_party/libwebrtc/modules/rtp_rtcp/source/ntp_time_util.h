@@ -97,9 +97,6 @@ delta
 {
 return
 (
-rtc
-:
-:
 saturated_cast
 <
 int32_t

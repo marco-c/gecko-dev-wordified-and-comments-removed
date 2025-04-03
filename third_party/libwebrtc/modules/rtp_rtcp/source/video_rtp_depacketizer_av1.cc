@@ -1562,9 +1562,6 @@ prefix_size
 =
 WriteLeb128
 (
-rtc
-:
-:
 dchecked_cast
 <
 uint64_t

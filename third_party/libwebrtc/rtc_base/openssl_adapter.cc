@@ -809,7 +809,7 @@ socket_write
 (
 b
 str
-rtc
+webrtc
 :
 :
 checked_cast
@@ -1777,7 +1777,7 @@ data
 (
 )
 )
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -2319,6 +2319,9 @@ SSL_write
 (
 ssl_
 pv
+webrtc
+:
+:
 checked_cast
 <
 int
@@ -2669,7 +2672,7 @@ cb
 )
 ;
 return
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -2837,6 +2840,9 @@ SSL_read
 (
 ssl_
 pv
+webrtc
+:
+:
 checked_cast
 <
 int

@@ -180,9 +180,6 @@ j
 *
 ptr
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t

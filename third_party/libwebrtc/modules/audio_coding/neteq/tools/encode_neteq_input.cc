@@ -393,9 +393,6 @@ payload
 rtp_timestamp_
 +
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t

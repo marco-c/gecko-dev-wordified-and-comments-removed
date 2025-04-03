@@ -1121,9 +1121,6 @@ size_t
 (
 64
 *
-rtc
-:
-:
 dchecked_cast
 <
 size_t

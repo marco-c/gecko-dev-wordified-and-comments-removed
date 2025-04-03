@@ -373,9 +373,6 @@ data
 i
 ]
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t
@@ -655,9 +652,6 @@ data
 i
 ]
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t

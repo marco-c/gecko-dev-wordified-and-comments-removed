@@ -232,9 +232,6 @@ bytes_remaining
 const
 {
 return
-rtc
-:
-:
 saturated_cast
 <
 size_t

@@ -1217,6 +1217,9 @@ d2i_X509
 nullptr
 &
 cert_buffer
+webrtc
+:
+:
 checked_cast
 <
 long

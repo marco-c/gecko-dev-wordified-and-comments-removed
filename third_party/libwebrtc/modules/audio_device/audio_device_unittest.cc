@@ -570,9 +570,6 @@ frames_per_10ms_buffer
 )
 {
 return
-rtc
-:
-:
 checked_cast
 <
 int

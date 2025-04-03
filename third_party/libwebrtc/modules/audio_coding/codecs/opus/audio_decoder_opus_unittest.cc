@@ -383,9 +383,6 @@ amplitude_dbfs
 :
 amplitude_
 (
-rtc
-:
-:
 saturated_cast
 <
 int16_t
@@ -460,9 +457,6 @@ frame
 i
 ]
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t

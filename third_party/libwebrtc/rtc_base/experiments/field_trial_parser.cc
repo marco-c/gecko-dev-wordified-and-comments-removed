@@ -1010,9 +1010,6 @@ value
 {
 if
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 int
@@ -1095,9 +1092,6 @@ value
 {
 if
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 unsigned

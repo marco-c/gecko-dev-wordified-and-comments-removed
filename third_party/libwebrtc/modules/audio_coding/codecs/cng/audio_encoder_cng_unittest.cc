@@ -1631,9 +1631,6 @@ encoded_timestamp
 expected_timestamp
 +
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t

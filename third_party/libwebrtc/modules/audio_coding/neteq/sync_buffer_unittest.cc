@@ -321,9 +321,6 @@ channel
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t
@@ -575,9 +572,6 @@ channel
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t
@@ -801,9 +795,6 @@ channel
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t

@@ -5465,7 +5465,7 @@ header_and_padding_bytes_received
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -5515,7 +5515,7 @@ codec_payload_type
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -5535,7 +5535,7 @@ jitter_ms
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -5555,7 +5555,7 @@ jitter_buffer_ms
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -5575,7 +5575,7 @@ jitter_buffer_preferred_ms
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -27078,7 +27078,7 @@ num_channels
 )
 {
 return
-rtc
+webrtc
 :
 :
 checked_cast
@@ -27884,7 +27884,7 @@ num_channels
 )
 {
 return
-rtc
+webrtc
 :
 :
 checked_cast

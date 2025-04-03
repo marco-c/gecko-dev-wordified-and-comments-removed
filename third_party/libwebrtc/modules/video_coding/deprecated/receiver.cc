@@ -767,9 +767,6 @@ available_wait_time
 uint32_t
 wait_time_ms
 =
-rtc
-:
-:
 saturated_cast
 <
 uint32_t

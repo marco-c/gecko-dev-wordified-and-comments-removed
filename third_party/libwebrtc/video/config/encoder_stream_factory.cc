@@ -1792,7 +1792,7 @@ min_bitrate_bps
 =
 experimental_min_bitrate
 ?
-rtc
+webrtc
 :
 :
 saturated_cast
@@ -2753,7 +2753,7 @@ wants
 .
 max_pixel_count
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -3042,7 +3042,7 @@ has_value
 int
 max_pixels
 =
-rtc
+webrtc
 :
 :
 dchecked_cast

@@ -417,9 +417,6 @@ buffer
 uint16_t
 block_length_words
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t

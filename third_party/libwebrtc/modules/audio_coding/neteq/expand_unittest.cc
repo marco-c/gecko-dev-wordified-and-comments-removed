@@ -634,9 +634,6 @@ SetParametersForNormalAfterExpand
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -832,9 +829,6 @@ SetParametersForNormalAfterExpand
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 checked_cast
 <
 int

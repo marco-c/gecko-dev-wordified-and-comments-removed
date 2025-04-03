@@ -406,9 +406,6 @@ send_audio_mutex_
 ;
 encoder_rtp_timestamp_frequency_
 =
-rtc
-:
-:
 dchecked_cast
 <
 int

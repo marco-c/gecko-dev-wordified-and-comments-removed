@@ -670,9 +670,6 @@ ReflBetaCompStd
 }
 dec_used_scale_factor_
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t

@@ -753,9 +753,6 @@ const
 int32_t
 left_side
 =
-rtc
-:
-:
 saturated_cast
 <
 int32_t
@@ -835,9 +832,6 @@ right_scale
 ;
 right_side
 =
-rtc
-:
-:
 dchecked_cast
 <
 int32_t

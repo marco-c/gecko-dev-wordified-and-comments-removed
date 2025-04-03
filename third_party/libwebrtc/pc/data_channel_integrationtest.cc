@@ -4772,9 +4772,6 @@ received_message_count
 }
 Eq
 (
-rtc
-:
-:
 checked_cast
 <
 size_t
@@ -4815,9 +4812,6 @@ received_message_count
 }
 Eq
 (
-rtc
-:
-:
 checked_cast
 <
 size_t

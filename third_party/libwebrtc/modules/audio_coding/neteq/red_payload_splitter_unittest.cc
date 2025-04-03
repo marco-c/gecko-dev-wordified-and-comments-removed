@@ -346,9 +346,6 @@ payload_ptr
 int
 this_offset
 =
-rtc
-:
-:
 checked_cast
 <
 int

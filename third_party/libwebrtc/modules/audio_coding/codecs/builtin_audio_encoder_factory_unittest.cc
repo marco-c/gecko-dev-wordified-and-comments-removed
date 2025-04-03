@@ -437,9 +437,6 @@ const
 int
 num_samples
 =
-rtc
-:
-:
 checked_cast
 <
 int

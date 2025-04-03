@@ -162,9 +162,6 @@ low
 }
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 int32_t
@@ -172,9 +169,6 @@ int32_t
 (
 Rand
 (
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t

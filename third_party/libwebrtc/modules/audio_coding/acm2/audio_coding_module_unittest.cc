@@ -857,9 +857,6 @@ mutex_
 )
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int
@@ -3529,9 +3526,6 @@ payload_type
 ;
 frame_size_rtp_timestamps_
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -5581,9 +5575,6 @@ NextPacket
 nr_bytes
 +
 =
-rtc
-:
-:
 checked_cast
 <
 int

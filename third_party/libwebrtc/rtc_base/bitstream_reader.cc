@@ -539,9 +539,6 @@ uint32_t
 zero_bit_count
 )
 +
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t

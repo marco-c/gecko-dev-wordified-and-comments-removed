@@ -427,9 +427,6 @@ dec_len
 concealed_samples_
 +
 =
-rtc
-:
-:
 checked_cast
 <
 size_t

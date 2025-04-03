@@ -171,9 +171,6 @@ uv
 stride_uv
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int

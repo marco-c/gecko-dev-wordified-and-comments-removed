@@ -669,9 +669,6 @@ length
 =
 htons
 (
-rtc
-:
-:
 checked_cast
 <
 uint16_t
@@ -691,9 +688,6 @@ plen
 =
 htons
 (
-rtc
-:
-:
 checked_cast
 <
 uint16_t

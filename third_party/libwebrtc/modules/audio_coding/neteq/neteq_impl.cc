@@ -1506,9 +1506,6 @@ audio_frame
 -
 >
 sample_rate_hz_
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -2545,9 +2542,6 @@ di
 SampleRateHz
 (
 )
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -2822,9 +2816,6 @@ mutex_
 )
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -5926,9 +5917,6 @@ AddSampleMemory
 (
 samples_left
 +
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -6293,9 +6281,6 @@ if
 samples_left
 >
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -7740,9 +7725,6 @@ while
 *
 decoded_length
 <
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -8117,9 +8099,6 @@ num_decoded_samples
 decoded_length
 +
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -8185,9 +8164,6 @@ if
 *
 decoded_length
 >
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -8438,9 +8414,6 @@ get
 int
 expand_length_correction
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -8449,9 +8422,6 @@ int
 new_length
 )
 -
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -10481,9 +10451,6 @@ stats_
 >
 SecondaryDecodedSamples
 (
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -10740,9 +10707,6 @@ timestamp_
 ;
 }
 return
-rtc
-:
-:
 dchecked_cast
 <
 int

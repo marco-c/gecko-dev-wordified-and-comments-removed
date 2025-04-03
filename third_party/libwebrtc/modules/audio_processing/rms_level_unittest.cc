@@ -286,9 +286,6 @@ x
 n
 ]
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t

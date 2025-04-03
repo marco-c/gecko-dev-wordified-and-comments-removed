@@ -680,9 +680,6 @@ offset
 return
 NtpTime
 (
-rtc
-:
-:
 saturated_cast
 <
 uint64_t
