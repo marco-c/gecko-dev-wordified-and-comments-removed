@@ -343,6 +343,11 @@ disabled
 this
 .
 disabled
+|
+|
+this
+.
+parentDisabled
 }
 accesskey
 =

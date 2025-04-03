@@ -436,6 +436,11 @@ disabled
 this
 .
 disabled
+|
+|
+this
+.
+parentDisabled
 }
 ?
 readonly
