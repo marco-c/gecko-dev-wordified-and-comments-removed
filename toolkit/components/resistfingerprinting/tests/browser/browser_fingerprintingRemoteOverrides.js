@@ -1112,10 +1112,6 @@ getFingerprintingOverrides
 expect
 .
 domain
-+
-"
-0
-"
 )
 .
 low
@@ -1332,10 +1328,6 @@ getFingerprintingOverrides
 expect
 .
 domain
-+
-"
-0
-"
 )
 .
 low
@@ -1516,10 +1508,6 @@ getFingerprintingOverrides
 expect
 .
 domain
-+
-"
-0
-"
 )
 .
 low
@@ -1762,7 +1750,6 @@ getFingerprintingOverrides
 example
 .
 org
-0
 "
 )
 .

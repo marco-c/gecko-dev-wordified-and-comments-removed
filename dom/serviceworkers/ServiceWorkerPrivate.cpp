@@ -3050,16 +3050,6 @@ isOn3PCBExceptionList
 =
 false
 ;
-bool
-isPBM
-=
-principal
--
->
-GetIsInPrivateBrowsing
-(
-)
-;
 if
 (
 !
@@ -3177,7 +3167,6 @@ GetOverriddenFingerprintingSettingsForURI
 (
 firstPartyURI
 uri
-isPBM
 )
 ;
 if
@@ -3323,7 +3312,6 @@ GetOverriddenFingerprintingSettingsForURI
 (
 firstPartyURI
 uri
-isPBM
 )
 :
 nsRFPService
@@ -3333,7 +3321,6 @@ GetOverriddenFingerprintingSettingsForURI
 (
 uri
 nullptr
-isPBM
 )
 ;
 RefPtr
@@ -3430,7 +3417,6 @@ GetOverriddenFingerprintingSettingsForURI
 (
 uri
 nullptr
-isPBM
 )
 ;
 if
@@ -3455,6 +3441,16 @@ ref
 ;
 }
 }
+bool
+isPBM
+=
+principal
+-
+>
+GetIsInPrivateBrowsing
+(
+)
+;
 if
 (
 ContentBlockingAllowList
