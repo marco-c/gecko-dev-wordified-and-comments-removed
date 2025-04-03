@@ -15317,6 +15317,13 @@ if
 target
 )
 {
+target
+-
+>
+RevealAncestorClosedDetails
+(
+)
+;
 ErrorResult
 rv
 ;

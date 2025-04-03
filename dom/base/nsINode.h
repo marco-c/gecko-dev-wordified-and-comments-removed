@@ -7935,6 +7935,11 @@ ErrorResult
 aRv
 )
 ;
+void
+RevealAncestorClosedDetails
+(
+)
+;
 protected
 :
 virtual

@@ -8970,7 +8970,7 @@ IncludeAllContentVisibility
 const
 ;
 bool
-IsHiddenUntilFound
+IsHiddenUntilFoundOrClosedDetails
 (
 )
 const
