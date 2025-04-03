@@ -1007,6 +1007,11 @@ common_inherited_config
 defines
 =
 [
+"
+PROTOBUF_ENABLE_DEBUG_LOGGING_MAY_LEAK_PII
+=
+0
+"
 ]
 cflags
 =
