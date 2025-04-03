@@ -513,7 +513,7 @@ rtx_bytes_count_
 ;
 }
 size_t
-unacked_bytes
+unacked_packet_bytes
 (
 )
 const
@@ -521,7 +521,7 @@ const
 return
 outstanding_data_
 .
-unacked_bytes
+unacked_packet_bytes
 (
 )
 ;
@@ -715,7 +715,7 @@ void
 HandleIncreasedCumulativeTsnAck
 (
 size_t
-unacked_bytes
+unacked_packet_bytes
 size_t
 total_bytes_acked
 )
