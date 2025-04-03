@@ -2958,6 +2958,10 @@ strip
 .
 split
 (
+"
+\
+n
+"
 )
             
 name
