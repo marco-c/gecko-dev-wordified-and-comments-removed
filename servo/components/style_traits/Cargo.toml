@@ -54,6 +54,17 @@ edition
 "
 2021
 "
+description
+=
+"
+Types
+used
+by
+the
+Stylo
+CSS
+engine
+"
 publish
 =
 false

@@ -54,6 +54,16 @@ edition
 "
 2021
 "
+description
+=
+"
+Derive
+crate
+for
+Stylo
+CSS
+engine
+"
 publish
 =
 false
