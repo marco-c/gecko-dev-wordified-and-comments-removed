@@ -289,7 +289,7 @@ name
 action_cancel
 "
 >
-Renun
+Anuleaz
 <
 /
 string
@@ -6553,7 +6553,7 @@ name
 dialog_addtohomescreen_action_cancel
 "
 >
-Renun
+Anuleaz
 <
 /
 string
