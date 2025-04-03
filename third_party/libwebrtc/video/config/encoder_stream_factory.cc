@@ -169,7 +169,7 @@ simulcast
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -266,9 +266,6 @@ bool
 IsScaleFactorsPowerOfTwo
 (
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 config
@@ -335,9 +332,6 @@ true
 bool
 IsTemporalLayersSupported
 (
-webrtc
-:
-:
 VideoCodecType
 codec_type
 )
@@ -395,9 +389,6 @@ size_t
 FindRequiredActiveLayers
 (
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -541,9 +532,6 @@ max_bitrate
 int
 GetDefaultMaxQp
 (
-webrtc
-:
-:
 VideoCodecType
 codec_type
 )
@@ -566,6 +554,9 @@ webrtc
 kVideoCodecH265
 :
 return
+cricket
+:
+:
 kDefaultVideoMaxQpH26x
 ;
 case
@@ -587,6 +578,9 @@ webrtc
 kVideoCodecGeneric
 :
 return
+cricket
+:
+:
 kDefaultVideoMaxQpVpx
 ;
 case
@@ -596,6 +590,9 @@ webrtc
 kVideoCodecAV1
 :
 return
+cricket
+:
+:
 kDefaultVideoMaxQpAv1
 ;
 }
@@ -689,9 +686,6 @@ void
 OverrideStreamSettings
 (
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -701,9 +695,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 DataRate
 >
 &
@@ -713,9 +704,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 &
@@ -803,9 +791,6 @@ i
 )
 {
 const
-webrtc
-:
-:
 VideoStream
 &
 overrides
@@ -817,9 +802,6 @@ simulcast_layers
 i
 ]
 ;
-webrtc
-:
-:
 VideoStream
 &
 layer
@@ -1427,9 +1409,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 VideoSourceRestrictions
 >
 restrictions
@@ -1452,9 +1431,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 EncoderStreamFactory
@@ -1471,9 +1447,6 @@ frame_width
 int
 frame_height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -1507,9 +1480,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 DataRate
 >
 experimental_min_bitrate
@@ -1604,9 +1574,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 streams
@@ -1683,9 +1650,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 EncoderStreamFactory
@@ -1698,9 +1662,6 @@ width
 int
 height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -1710,9 +1671,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 DataRate
 >
 &
@@ -1926,11 +1884,11 @@ simulcast_layers
 .
 max_framerate
 :
+cricket
+:
+:
 kDefaultVideoMaxFramerate
 ;
-webrtc
-:
-:
 VideoStream
 layer
 ;
@@ -2121,9 +2079,6 @@ encoder_config
 encoder_specific_settings
 )
 ;
-webrtc
-:
-:
 VideoCodecVP9
 vp9_settings
 ;
@@ -2488,9 +2443,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 EncoderStreamFactory
@@ -2507,9 +2459,6 @@ width
 int
 height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -2519,9 +2468,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 DataRate
 >
 &
@@ -2534,9 +2480,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Resolution
 >
 resolutions
@@ -2554,9 +2497,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 VideoStream
 >
 layers
@@ -2600,9 +2540,6 @@ return
 layers
 ;
 }
-webrtc
-:
-:
 Resolution
 EncoderStreamFactory
 :
@@ -2613,9 +2550,6 @@ int
 frame_width
 int
 frame_height
-webrtc
-:
-:
 Resolution
 scale_resolution_down_to
 )
@@ -2744,9 +2678,6 @@ scale_factor
 )
 ;
 }
-webrtc
-:
-:
 Resolution
 frame
 =
@@ -2761,6 +2692,9 @@ height
 frame_height
 }
 ;
+cricket
+:
+:
 VideoAdapter
 adapter
 (
@@ -2947,9 +2881,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Resolution
 >
 EncoderStreamFactory
@@ -2958,9 +2889,6 @@ EncoderStreamFactory
 GetStreamResolutions
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 &
 trials
@@ -2969,9 +2897,6 @@ width
 int
 height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -2983,9 +2908,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Resolution
 >
 resolutions
@@ -3154,9 +3076,6 @@ scale_resolution_down_to
 .
 value_or
 (
-webrtc
-:
-:
 Resolution
 (
 )
@@ -3205,9 +3124,6 @@ scale_resolution_down_to
 .
 value_or
 (
-webrtc
-:
-:
 Resolution
 (
 )

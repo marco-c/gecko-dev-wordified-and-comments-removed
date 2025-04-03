@@ -1284,7 +1284,7 @@ rtc
 :
 make_ref_counted
 <
-cricket
+webrtc
 :
 :
 EncoderStreamFactory
@@ -1493,7 +1493,7 @@ rtc
 :
 make_ref_counted
 <
-cricket
+webrtc
 :
 :
 EncoderStreamFactory

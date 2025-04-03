@@ -67948,6 +67948,9 @@ rtc
 :
 make_ref_counted
 <
+webrtc
+:
+:
 EncoderStreamFactory
 >
 (
