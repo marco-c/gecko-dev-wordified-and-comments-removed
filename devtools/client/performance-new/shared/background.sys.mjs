@@ -1141,7 +1141,9 @@ RecordingUtils
 )
 =
 >
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -1160,7 +1162,9 @@ recording
 -
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 CustomizableUI
