@@ -3166,10 +3166,6 @@ const
 nsACString
 &
 aErrorDetails
-=
-nsCString
-(
-)
 )
 ;
 void
