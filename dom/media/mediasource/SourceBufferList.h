@@ -222,8 +222,15 @@ aEnd
 )
 ;
 void
-Ended
+SetEnded
 (
+const
+Optional
+<
+MediaSourceEndOfStreamError
+>
+&
+aError
 )
 ;
 media

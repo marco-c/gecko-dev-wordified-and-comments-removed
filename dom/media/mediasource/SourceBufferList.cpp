@@ -657,8 +657,15 @@ void
 SourceBufferList
 :
 :
-Ended
+SetEnded
 (
+const
+Optional
+<
+MediaSourceEndOfStreamError
+>
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -694,8 +701,9 @@ i
 ]
 -
 >
-Ended
+SetEnded
 (
+aError
 )
 ;
 }

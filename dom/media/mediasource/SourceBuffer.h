@@ -531,8 +531,15 @@ nullptr
 ;
 }
 void
-Ended
+SetEnded
 (
+const
+Optional
+<
+MediaSourceEndOfStreamError
+>
+&
+aError
 )
 ;
 media

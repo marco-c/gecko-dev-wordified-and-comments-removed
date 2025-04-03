@@ -2255,7 +2255,7 @@ if
 mManager
 -
 >
-IsEnded
+HaveAllData
 (
 )
 &
@@ -2663,7 +2663,7 @@ IsEmpty
 mManager
 -
 >
-IsEnded
+HaveAllData
 (
 )
 )
@@ -2805,7 +2805,7 @@ NS_ERROR_DOM_MEDIA_END_OF_STREAM
 mManager
 -
 >
-IsEnded
+HaveAllData
 (
 )
 )
@@ -3086,7 +3086,7 @@ holder
 mManager
 -
 >
-IsEnded
+HaveAllData
 (
 )
 ?
