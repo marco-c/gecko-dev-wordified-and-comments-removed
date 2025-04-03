@@ -13,7 +13,9 @@ com
 /
 games
 /
-3
+new
+-
+games
 "
 FIRST_GAME_CSS
 =
