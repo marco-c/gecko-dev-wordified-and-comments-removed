@@ -2958,10 +2958,6 @@ strip
 .
 split
 (
-"
-\
-n
-"
 )
             
 name
