@@ -751,11 +751,11 @@ type
 type
 title
 =
-"
-A
-cool
-task
-"
+R
+.
+string
+.
+setup_checklist_task_default_browser
 icon
 =
 R
