@@ -99,16 +99,6 @@ sidebar
 -
 menu
 -
-megalist
-=
-.
-label
-=
-Passwords
-sidebar
--
-menu
--
 close
 =
 .
