@@ -2088,9 +2088,6 @@ audio_configured_
 {
 padding_bytes_in_packet
 =
-rtc
-:
-:
 SafeClamp
 <
 size_t
@@ -2098,9 +2095,6 @@ size_t
 (
 bytes_left
 kMinAudioPaddingLength
-rtc
-:
-:
 SafeMin
 (
 max_payload_size
@@ -2113,9 +2107,6 @@ else
 {
 padding_bytes_in_packet
 =
-rtc
-:
-:
 SafeMin
 (
 max_payload_size

@@ -1167,9 +1167,6 @@ ch
 k
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 average_erle
@@ -1204,9 +1201,6 @@ ch
 k
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 average_erle_onset_compensated
@@ -1929,9 +1923,6 @@ idx
 subband
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 erle_estimators_
@@ -2037,9 +2028,6 @@ ch
 subband
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 erle_ref_

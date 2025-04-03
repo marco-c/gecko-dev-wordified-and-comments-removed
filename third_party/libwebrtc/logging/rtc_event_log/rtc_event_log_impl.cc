@@ -1378,9 +1378,6 @@ const
 int32_t
 delay
 =
-rtc
-:
-:
 SafeClamp
 (
 output_period_ms_

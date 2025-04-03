@@ -914,9 +914,6 @@ v
 float
 {
 return
-rtc
-:
-:
 SafeClamp
 (
 static_cast

@@ -1204,9 +1204,6 @@ a
 {
 a
 =
-rtc
-:
-:
 SafeClamp
 (
 a
@@ -1365,9 +1362,6 @@ a
 {
 a
 =
-rtc
-:
-:
 SafeClamp
 (
 a

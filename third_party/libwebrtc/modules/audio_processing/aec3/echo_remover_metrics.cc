@@ -926,9 +926,6 @@ static_cast
 int
 >
 (
-rtc
-:
-:
 SafeClamp
 (
 new_value

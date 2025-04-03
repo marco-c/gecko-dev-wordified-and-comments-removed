@@ -316,9 +316,6 @@ kMaxAnalogMicGainLevel
 int
 clamped_level
 =
-rtc
-:
-:
 SafeClamp
 (
 level

@@ -751,9 +751,6 @@ const
 float
 speech_level
 =
-rtc
-:
-:
 SafeClamp
 <
 float
@@ -1685,9 +1682,6 @@ kMinCompressionGain
 int
 raw_compression
 =
-rtc
-:
-:
 SafeClamp
 (
 rms_error
@@ -1753,9 +1747,6 @@ const
 int
 residual_gain
 =
-rtc
-:
-:
 SafeClamp
 (
 rms_error

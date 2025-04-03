@@ -2368,9 +2368,6 @@ dchecked_cast
 uint8_t
 >
 (
-rtc
-:
-:
 SafeClamp
 (
 loss_ratio_255

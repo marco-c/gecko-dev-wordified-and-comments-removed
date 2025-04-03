@@ -910,9 +910,6 @@ ch
 k
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 erle_during_onsets_
@@ -1009,9 +1006,6 @@ f
 }
 erle
 =
-rtc
-:
-:
 SafeClamp
 (
 erle

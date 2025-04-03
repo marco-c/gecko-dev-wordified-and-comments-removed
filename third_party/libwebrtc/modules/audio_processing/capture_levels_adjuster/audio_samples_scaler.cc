@@ -475,9 +475,6 @@ f
 ;
 sample
 =
-rtc
-:
-:
 SafeClamp
 (
 sample

@@ -473,9 +473,6 @@ channel
 j
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 channel

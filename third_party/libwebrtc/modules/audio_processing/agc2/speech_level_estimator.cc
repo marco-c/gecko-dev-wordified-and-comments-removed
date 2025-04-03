@@ -79,9 +79,6 @@ level_estimate_dbfs
 )
 {
 return
-rtc
-:
-:
 SafeClamp
 <
 float

@@ -5417,9 +5417,6 @@ worker_thread_checker_
 ;
 delay_ms
 =
-rtc
-:
-:
 SafeClamp
 (
 delay_ms

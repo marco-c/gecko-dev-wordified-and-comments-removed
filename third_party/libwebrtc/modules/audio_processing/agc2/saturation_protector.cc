@@ -397,9 +397,6 @@ state
 .
 headroom_db
 =
-rtc
-:
-:
 SafeClamp
 <
 float

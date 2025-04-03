@@ -1308,9 +1308,6 @@ e_band
 i
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 e_band

@@ -4028,9 +4028,6 @@ const
 size_t
 samples_per_ms
 =
-rtc
-:
-:
 SafeMin
 <
 size_t
@@ -4050,9 +4047,6 @@ const
 int
 expected_median
 =
-rtc
-:
-:
 SafeClamp
 <
 int
@@ -4069,9 +4063,6 @@ const
 int
 expected_median_high
 =
-rtc
-:
-:
 SafeClamp
 <
 int
@@ -4099,9 +4090,6 @@ const
 int
 expected_median_low
 =
-rtc
-:
-:
 SafeClamp
 <
 int

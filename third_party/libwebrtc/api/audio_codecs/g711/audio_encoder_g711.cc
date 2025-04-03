@@ -346,9 +346,6 @@ config
 .
 frame_size_ms
 =
-rtc
-:
-:
 SafeClamp
 (
 10

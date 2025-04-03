@@ -752,9 +752,6 @@ weight
 }
 }
 return
-rtc
-:
-:
 SafeClamp
 (
 element_sum
