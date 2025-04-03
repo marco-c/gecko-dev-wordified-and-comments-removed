@@ -1,16 +1,7 @@
 EXTRA_JS_MODULES
-.
-taskbartabs
 +
 =
 [
-"
-TaskbarTabs
-.
-sys
-.
-mjs
-"
 "
 TaskbarTabUI
 .
