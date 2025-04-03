@@ -158,7 +158,7 @@ std
 :
 optional
 <
-int32_t
+float
 >
 GetDeviceScaleFactor
 (

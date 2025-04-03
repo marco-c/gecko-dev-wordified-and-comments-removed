@@ -497,10 +497,14 @@ false
 DesktopRegion
 damage_region_
 ;
-DEVICE_SCALE_FACTOR
+std
+:
+:
+optional
+<
+float
+>
 device_scale_factor_
-=
-DEVICE_SCALE_FACTOR_INVALID
 ;
 SequenceChecker
 sequence_checker_

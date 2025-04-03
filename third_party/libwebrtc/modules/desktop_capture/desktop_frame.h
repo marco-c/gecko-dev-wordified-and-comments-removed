@@ -257,7 +257,7 @@ std
 :
 optional
 <
-int32_t
+float
 >
 device_scale_factor
 (
@@ -276,7 +276,7 @@ std
 :
 optional
 <
-int32_t
+float
 >
 device_scale_factor
 )
@@ -544,7 +544,7 @@ std
 :
 optional
 <
-int32_t
+float
 >
 device_scale_factor_
 ;
