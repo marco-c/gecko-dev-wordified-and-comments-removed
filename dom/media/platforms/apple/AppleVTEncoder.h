@@ -424,12 +424,6 @@ bool
 >
 mIsHardwareAccelerated
 ;
-Atomic
-<
-bool
->
-mInited
-;
 nsCOMPtr
 <
 nsITimer
