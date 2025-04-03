@@ -1477,7 +1477,7 @@ rv
 svc
 -
 >
-GetQuitApplicationGranted
+GetAppShutdownConfirmed
 (
 getter_AddRefs
 (
