@@ -65,6 +65,7 @@ BrowserUsageTelemetry
 FrontendCodeReviewBestPractices
 CommandLineParameters
 BrowserStartup
+CategoryManagerIndirection
 components
 /
 customizableui

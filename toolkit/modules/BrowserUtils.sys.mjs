@@ -971,7 +971,7 @@ observer
 =
 (
 subject
-topic
+_topic
 data
 )
 =
