@@ -557,7 +557,7 @@ dictEnd
 size_t
 expected
 ;
-ZSTD_frameHeader
+ZSTD_FrameHeader
 fParams
 ;
 U64
@@ -616,9 +616,6 @@ isFrameDecompression
 #
 if
 DYNAMIC_BMI2
-!
-=
-0
 int
 bmi2
 ;
@@ -793,9 +790,6 @@ dctx
 #
 if
 DYNAMIC_BMI2
-!
-=
-0
 return
 dctx
 -

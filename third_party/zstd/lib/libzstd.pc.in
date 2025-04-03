@@ -87,6 +87,7 @@ libdir
 }
 -
 lzstd
+LIBS_MT
 Libs
 .
 private
@@ -99,3 +100,4 @@ I
 {
 includedir
 }
+LIBS_MT
