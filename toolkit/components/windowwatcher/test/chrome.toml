@@ -13,14 +13,14 @@ test_alwaysOnTop_windows
 html
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-!
+=
 =
 '
 win
