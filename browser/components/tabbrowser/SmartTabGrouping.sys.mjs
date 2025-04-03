@@ -650,6 +650,11 @@ blanktab
 .
 html
 "
+"
+about
+:
+firefoxview
+"
 ]
 ;
 /
