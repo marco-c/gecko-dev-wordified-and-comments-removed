@@ -3323,7 +3323,7 @@ binding
 .
 browserToolbar
 .
-enableDynamicBehavior
+showAsFixed
 (
 requireContext
 (
@@ -3339,7 +3339,7 @@ binding
 .
 browserToolbar
 .
-showAsFixed
+enableDynamicBehavior
 (
 requireContext
 (
