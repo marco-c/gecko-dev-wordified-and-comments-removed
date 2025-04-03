@@ -1,19 +1,15 @@
 import
+asyncio
+import
 pytest
-from
+import
 webdriver
 .
+bidi
+.
 error
-import
-TimeoutException
-from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
+as
+error
 pytestmark
 =
 pytest
@@ -118,24 +114,22 @@ wait_for_event
 USER_PROMPT_OPENED_EVENT
 )
     
-await
-bidi_session
+navigated_future
+=
+asyncio
 .
-send_command
+create_task
 (
         
-"
-browsingContext
+bidi_session
+.
+browsing_context
 .
 navigate
-"
-        
-{
+(
             
-"
 context
-"
-:
+=
 new_tab
 [
 "
@@ -143,10 +137,8 @@ context
 "
 ]
             
-"
 url
-"
-:
+=
 url
 (
 "
@@ -164,8 +156,14 @@ default
 html
 "
 )
+            
+wait
+=
+"
+none
+"
         
-}
+)
     
 )
     
@@ -244,3 +242,30 @@ beforeunload
 "
     
 }
+    
+if
+accept
+:
+        
+await
+navigated_future
+    
+else
+:
+        
+with
+pytest
+.
+raises
+(
+error
+.
+UnknownErrorException
+)
+:
+            
+await
+wait_for_future_safe
+(
+navigated_future
+)

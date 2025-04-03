@@ -1,4 +1,6 @@
 import
+asyncio
+import
 pytest
 from
 .
@@ -68,24 +70,22 @@ setup_beforeunload_page
 new_tab
 )
     
-await
-bidi_session
+navigation_future
+=
+asyncio
 .
-send_command
+create_task
 (
         
-"
-browsingContext
+bidi_session
+.
+browsing_context
 .
 navigate
-"
-        
-{
+(
             
-"
 context
-"
-:
+=
 new_tab
 [
 "
@@ -93,10 +93,8 @@ context
 "
 ]
             
-"
 url
-"
-:
+=
 url
 (
 "
@@ -114,8 +112,14 @@ default
 html
 "
 )
+            
+wait
+=
+"
+none
+"
         
-}
+)
     
 )
     
@@ -161,4 +165,10 @@ any_string
         
 event
     
+)
+    
+navigation_future
+.
+cancel
+(
 )
