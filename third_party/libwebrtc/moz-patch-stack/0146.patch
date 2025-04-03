@@ -436,10 +436,10 @@ simulcast
 .
 cc
 index
-35be2f700a
+5803f3fbb3
 .
 .
-caaeb9f037
+a1000dbee0
 100644
 -
 -
@@ -654,7 +654,7 @@ video_encoder_config
 h
 "
 namespace
-cricket
+webrtc
 {
 -
 197
@@ -665,9 +665,6 @@ cricket
 int
 GetDefaultSimulcastTemporalLayers
 (
-webrtc
-:
-:
 VideoCodecType
 codec
 )

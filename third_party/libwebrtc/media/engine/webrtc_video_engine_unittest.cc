@@ -35543,6 +35543,9 @@ sense
 int
 initial_max_bitrate_bps
 =
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 streams
@@ -35600,6 +35603,9 @@ GetVideoStreams
 int
 increased_max_bitrate_bps
 =
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 streams
@@ -62907,6 +62913,9 @@ send_parameters_
 .
 max_bandwidth_bps
 =
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 stream
@@ -62979,6 +62988,9 @@ send_parameters_
 .
 max_bandwidth_bps
 =
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 stream
@@ -63033,6 +63045,9 @@ EXPECT_EQ
 send_parameters_
 .
 max_bandwidth_bps
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 stream
@@ -63236,6 +63251,9 @@ send_parameters_
 .
 max_bandwidth_bps
 =
+webrtc
+:
+:
 GetTotalMaxBitrate
 (
 stream
