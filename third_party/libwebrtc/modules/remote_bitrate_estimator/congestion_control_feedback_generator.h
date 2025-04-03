@@ -177,7 +177,8 @@ DataRate
 estimate
 )
 override
-;
+{
+}
 TimeDelta
 Process
 (
@@ -250,17 +251,6 @@ FieldTrialParameter
 TimeDelta
 >
 max_time_between_feedback_
-;
-DataRate
-max_feedback_rate_
-=
-DataRate
-:
-:
-KilobitsPerSec
-(
-1000
-)
 ;
 DataSize
 packet_overhead_
