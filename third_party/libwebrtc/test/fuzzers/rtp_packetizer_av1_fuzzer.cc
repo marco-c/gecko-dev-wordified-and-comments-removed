@@ -17,6 +17,15 @@ include
 "
 api
 /
+array_view
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_frame_type
