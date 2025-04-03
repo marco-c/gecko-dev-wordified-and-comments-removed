@@ -49,6 +49,7 @@ Type
 GetIterator
 ArraySpecies
 RegExpPrototype
+StringPrototypeSymbols
 EmulatesUndefined
 Limit
 }

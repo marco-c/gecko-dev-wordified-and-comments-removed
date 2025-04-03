@@ -633,7 +633,7 @@ OptimizeStringPrototypeSymbolsFuse
 final
 :
 public
-RealmFuse
+InvalidatingRealmFuse
 {
 virtual
 const
