@@ -4348,7 +4348,15 @@ accesskey
 disabled
 :
 !
-isElement
+this
+.
+inspector
+.
+selection
+.
+supportsScrollIntoView
+(
+)
 click
 :
 (
