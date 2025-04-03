@@ -552,7 +552,7 @@ OptimizePromiseLookupFuse
 final
 :
 public
-InvalidatingRealmFuse
+RealmFuse
 {
 virtual
 const

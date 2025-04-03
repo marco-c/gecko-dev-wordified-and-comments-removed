@@ -1889,7 +1889,7 @@ RealmFuses
 realmFuses
 )
 {
-InvalidatingRealmFuse
+RealmFuse
 :
 :
 popFuse
