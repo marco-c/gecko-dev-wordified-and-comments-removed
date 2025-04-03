@@ -96,6 +96,9 @@ dom
 class
 Document
 ;
+class
+WebTaskSchedulingState
+;
 void
 InitScriptSettings
 (
@@ -127,6 +130,12 @@ GetIncumbentGlobal
 nsIGlobalObject
 *
 GetCurrentGlobal
+(
+)
+;
+WebTaskSchedulingState
+*
+GetWebTaskSchedulingState
 (
 )
 ;
