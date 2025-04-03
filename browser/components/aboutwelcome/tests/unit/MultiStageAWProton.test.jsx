@@ -4709,9 +4709,6 @@ prepConfig
 "
 AW_WELCOME_BACK
 "
-"
-RETURN_TO_AMO
-"
 ]
 )
 ;
