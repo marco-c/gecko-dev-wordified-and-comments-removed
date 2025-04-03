@@ -6745,6 +6745,10 @@ codec
 "
 "
 :
+codec_list
+"
+"
+:
 media_channel
 "
 "
@@ -7858,6 +7862,13 @@ sources
 base
 /
 codec_comparators_unittest
+.
+cc
+"
+"
+base
+/
+codec_list_unittest
 .
 cc
 "
