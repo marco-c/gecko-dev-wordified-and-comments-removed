@@ -2739,6 +2739,14 @@ outputBuffer
 )
 ;
 }
+codec
+.
+releaseOutputBuffer
+(
+index
+false
+)
+;
 return
 ;
 }
