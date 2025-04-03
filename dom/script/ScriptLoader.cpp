@@ -5615,11 +5615,13 @@ mModuleLoader
 CreateTopLevel
 (
 aURI
+aElement
 aReferrerPolicy
 fetchOptions
 aIntegrity
 referrer
 context
+aRequestType
 )
 ;
 return
