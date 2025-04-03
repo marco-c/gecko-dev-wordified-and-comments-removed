@@ -263,7 +263,7 @@ fractions
 }
 }
 namespace
-rtc
+webrtc
 {
 int64_t
 SystemTimeNanos
