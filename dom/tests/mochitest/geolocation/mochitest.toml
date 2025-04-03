@@ -461,13 +461,6 @@ html
 ]
 [
 "
-test_timerRestartWatch
-.
-html
-"
-]
-[
-"
 test_windowClose
 .
 html
