@@ -23399,18 +23399,6 @@ mActionIdForFocusedBrowsingContextInContent
 )
 )
 ;
-const
-bool
-shouldSendSetFocusedBrowsingContext
-=
-aContext
-&
-&
-mFocusedBrowsingContextInContent
-!
-=
-aContext
-;
 mFocusedBrowsingContextInContent
 =
 aContext
@@ -23421,7 +23409,7 @@ aActionId
 ;
 if
 (
-shouldSendSetFocusedBrowsingContext
+aContext
 )
 {
 MOZ_ASSERT
