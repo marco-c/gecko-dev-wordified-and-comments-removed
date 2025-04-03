@@ -206,6 +206,13 @@ js
 ]
 [
 "
+browser_autofill_address_name
+.
+js
+"
+]
+[
+"
 browser_autofill_address_select
 .
 js
