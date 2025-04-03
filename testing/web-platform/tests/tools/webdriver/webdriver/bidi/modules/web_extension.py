@@ -23,7 +23,9 @@ command
 def
 install
 (
+        
 self
+        
 extension_data
 :
 Mapping
@@ -31,6 +33,17 @@ Mapping
 str
 Any
 ]
+        
+*
+*
+kwargs
+:
+Mapping
+[
+str
+Any
+]
+    
 )
 -
 >
@@ -56,6 +69,15 @@ extensionData
 :
 extension_data
 }
+        
+params
+.
+update
+(
+*
+*
+kwargs
+)
         
 return
 params
