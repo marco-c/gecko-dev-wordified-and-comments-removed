@@ -140,6 +140,11 @@ use
 python
 :
 default
+attributes
+:
+retrigger
+:
+true
 treeherder
 :
 symbol
