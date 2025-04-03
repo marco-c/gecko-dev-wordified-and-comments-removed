@@ -2781,6 +2781,14 @@ media_constants
 .
 .
 /
+api
+:
+rtc_error
+"
+"
+.
+.
+/
 rtc_base
 :
 checks
