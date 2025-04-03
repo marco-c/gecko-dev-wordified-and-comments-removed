@@ -2439,11 +2439,6 @@ ResetLayout
 (
 )
 ;
-LayoutDeviceIntRegion
-ComputeNonClientRegion
-(
-)
-;
 HWND
 GetOwnerWnd
 (
@@ -3984,11 +3979,6 @@ DataMutex
 Desktop
 >
 mDesktopId
-;
-bool
-mNeedsNCAreaClear
-=
-false
 ;
 friend
 class
