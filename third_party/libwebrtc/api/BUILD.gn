@@ -7397,6 +7397,11 @@ test_support
 "
 units
 :
+time_delta
+"
+"
+units
+:
 timestamp
 "
 "
