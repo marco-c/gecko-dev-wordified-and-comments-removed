@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-3f3c4461a0178837b74196df4bb8d4c5aca7418b
+c50f9710da99968a7817f069dafba47c5155cdcd
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-af6791f5dd6bc9b6eeca026bbb244380c690258c
+9e81d0aac944aea8355604ddd28065af1d8a24e3
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-de88ea082e3a7e74c5c010cf34615dbc1251ed06
+e42ba23e14b15bbfc89a809dee1c8f700d80c736
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-fe579d883ae54fe7bcde4afd3c7c7c58106d750c
+f497e652b6cd0bfd75094548dd9bfe872cba7c30
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-79273a8f5ce02a7d456787f9c41ab4e5c5925adf
+75065cfcbb2b3db725f614f0d97bafcaaad3bb4b
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-e5bdfb30e91a9eee5f1a3f1440ee35ad1f353816
+f004cc0a39eb7c5125a84f931ebfe1fadf8a4458
 '
 '
 src
@@ -1497,7 +1497,7 @@ project
 libunwind
 .
 git
-b05ea6f335254c55d6f967b5881cc6b38045d824
+62e217a12ee1133833d9890b2f7adde900e4efbd
 '
 '
 src
@@ -2128,7 +2128,7 @@ com
 boringssl
 .
 git
-2b619cc49cbe54279ae2aaa3c3a32c9cf2a23e0b
+294ab9730c570213b496cfc2fc14b3c0bfcd4bcc
 '
 '
 src
@@ -2180,7 +2180,7 @@ com
 catapult
 .
 git
-cfa9c31cbefb033f14b4281483ab9abcf43e4dc6
+30345af7ee8bf6e5ac59d4fc9a2fa3edbb707a4a
 '
 '
 src
@@ -2357,7 +2357,7 @@ tools
 depot_tools
 .
 git
-ee429f3694c51421c8b2f2af52049102ef43bca9
+ab387d1ddc530d405f662904f2df292f700e4b0f
 '
 '
 src
@@ -3125,9 +3125,7 @@ version
 '
 :
 '
-NstbMU2T3FwNigAPukklSBBmCKyUGheEgy8WZNY
--
-5WIC
+Byyh0dwgQgBY_Jzh2Kk2tN7n_bJl2YJXe6JQKdySO4kC
 '
 }
 ]
@@ -3411,7 +3409,7 @@ external
 perfetto
 .
 git
-503da067462f94898544f65e0fd751b4613ca9b8
+1e97ffd1534d3cff6b33ba2c01ba30eff2f249cb
 '
 '
 src
@@ -3956,7 +3954,7 @@ chromium
 src
 /
 tools
-4ed2fa87dbdaacfa4b0021fc96f2fd4f5b5d09c4
+367e3830749cae49cfaf9646b5e8c99270679b1d
 '
 '
 src
@@ -4151,7 +4149,9 @@ version
 '
 :
 '
-X3RUiAVlYpSEgtqmKdDbZFDp3xSdR1NJYbEKBuoy458C
+R1wNTeO5kH2bzp1NW4g87DLWtiDXaImAQJplHSR
+-
+108C
 '
 }
 ]
