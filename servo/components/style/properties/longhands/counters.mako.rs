@@ -122,8 +122,6 @@ servo_pref
 "
 layout
 .
-layout
-.
 unimplemented
 "
 initial_value
@@ -199,8 +197,6 @@ servo
 servo_pref
 =
 "
-layout
-.
 layout
 .
 unimplemented
