@@ -95,11 +95,6 @@ Database
 h
 "
 "
-FaviconHelpers
-.
-h
-"
-"
 History
 .
 h
@@ -111,11 +106,6 @@ h
 "
 "
 NotifyRankingChanged
-.
-h
-"
-"
-nsFaviconService
 .
 h
 "
