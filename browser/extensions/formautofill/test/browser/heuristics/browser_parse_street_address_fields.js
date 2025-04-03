@@ -1140,13 +1140,10 @@ for
 a1
 "
 >
-Saisir
-une
-adresse
-numero
-de
-maison
-inclus
+Stra
+e
+/
+nummer
 <
 /
 label
