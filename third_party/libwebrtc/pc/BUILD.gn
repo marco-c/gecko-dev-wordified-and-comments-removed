@@ -6292,6 +6292,14 @@ libjingle_peerconnection_api
 .
 .
 /
+api
+:
+rtp_parameters
+"
+"
+.
+.
+/
 media
 :
 codec

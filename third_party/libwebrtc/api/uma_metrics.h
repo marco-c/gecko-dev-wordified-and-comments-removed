@@ -304,6 +304,9 @@ kDtlsSetup
 kMid
 =
 25
+kPayloadTypes
+=
+26
 kSsrcs
 =
 27
@@ -334,6 +337,12 @@ kAudioCodecsAddedL16
 kAudioCodecsFmtpOpusStereo
 =
 68
+kAudioCodecsFmtp
+=
+70
+kAudioCodecsRtcpFb
+=
+71
 kVideoCodecsRemoved
 =
 80
@@ -349,6 +358,12 @@ kVideoCodecsLegacySimulcast
 kVideoCodecsFmtpH264SpsPpsIdrInKeyframe
 =
 84
+kVideoCodecsFmtp
+=
+85
+kVideoCodecsRtcpFb
+=
+86
 kMaxValue
 }
 ;
