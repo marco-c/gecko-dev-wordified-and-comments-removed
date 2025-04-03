@@ -20457,9 +20457,6 @@ configure_send_side_
 has_send_side
 )
 {
-rtc
-:
-:
 UniqueNumberGenerator
 <
 int

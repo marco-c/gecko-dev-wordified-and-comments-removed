@@ -2846,9 +2846,6 @@ std
 string
 rtcp_cname_
 ;
-rtc
-:
-:
 UniqueStringGenerator
 mid_generator_
 RTC_GUARDED_BY

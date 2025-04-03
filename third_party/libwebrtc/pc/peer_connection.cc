@@ -7290,9 +7290,6 @@ num_rids
 0
 )
 {
-rtc
-:
-:
 UniqueStringGenerator
 rid_generator
 ;

@@ -114,7 +114,7 @@ testing
 Test
 ;
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -122,9 +122,6 @@ class
 FakeTaskQueue
 :
 public
-webrtc
-:
-:
 TaskQueueBase
 {
 public
@@ -166,9 +163,6 @@ PostTaskTraits
 &
 traits
 const
-webrtc
-:
-:
 Location
 &
 location
@@ -191,9 +185,6 @@ void
 &
 >
 task
-webrtc
-:
-:
 TimeDelta
 delay
 const
@@ -201,9 +192,6 @@ PostDelayedTaskTraits
 &
 traits
 const
-webrtc
-:
-:
 Location
 &
 location

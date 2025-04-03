@@ -853,6 +853,9 @@ webrtc
 :
 CryptoOptions
 crypto_options
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -4607,6 +4610,9 @@ webrtc
 :
 CryptoOptions
 crypto_options
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -5339,6 +5345,9 @@ webrtc
 :
 CryptoOptions
 crypto_options
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator

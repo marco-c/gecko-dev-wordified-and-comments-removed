@@ -10247,7 +10247,7 @@ CandidatePairInterface
 *
 last_selected_candidate_pair_
 ;
-rtc
+webrtc
 :
 :
 UniqueRandomIdGenerator

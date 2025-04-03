@@ -1768,7 +1768,7 @@ StreamParams
 TestGenerateSsrcs_SingleStreamWithRtxAndFlex
 )
 {
-rtc
+webrtc
 :
 :
 UniqueRandomIdGenerator
@@ -1910,7 +1910,7 @@ StreamParams
 TestGenerateSsrcs_SingleStreamWithRtx
 )
 {
-rtc
+webrtc
 :
 :
 UniqueRandomIdGenerator
@@ -2039,7 +2039,7 @@ StreamParams
 TestGenerateSsrcs_SingleStreamWithFlex
 )
 {
-rtc
+webrtc
 :
 :
 UniqueRandomIdGenerator
@@ -2174,7 +2174,7 @@ kNumStreams
 =
 3
 ;
-rtc
+webrtc
 :
 :
 UniqueRandomIdGenerator
