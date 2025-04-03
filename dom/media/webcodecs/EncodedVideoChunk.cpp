@@ -1213,7 +1213,7 @@ EncodedVideoChunk
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 ErrorResult

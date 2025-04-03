@@ -72,6 +72,12 @@ namespace
 dom
 {
 class
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+;
+class
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+;
+class
 StructuredCloneHolder
 ;
 enum
@@ -324,7 +330,7 @@ void
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 ErrorResult

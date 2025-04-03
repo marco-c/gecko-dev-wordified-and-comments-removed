@@ -105,6 +105,12 @@ mozilla
 dom
 {
 class
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+;
+class
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+;
+class
 Promise
 ;
 struct
@@ -331,7 +337,7 @@ void
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 const
@@ -622,7 +628,7 @@ nsresult
 Construct
 (
 const
-OwningAllowSharedBufferSource
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aInit
 )

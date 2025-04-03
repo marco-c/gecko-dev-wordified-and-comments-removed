@@ -11935,7 +11935,7 @@ VideoFrame
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 const

@@ -164,7 +164,13 @@ class
 ImageBitmap
 ;
 class
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+;
+class
 OffscreenCanvas
+;
+class
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 ;
 class
 Promise
@@ -784,7 +790,7 @@ Promise
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 const

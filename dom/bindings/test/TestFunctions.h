@@ -676,7 +676,7 @@ aDict
 )
 ;
 void
-TestUnionOfBufferSource
+TestUnionOfBuffferSource
 (
 const
 ArrayBufferOrArrayBufferViewOrString
@@ -685,10 +685,10 @@ aUnion
 )
 ;
 void
-TestUnionOfAllowSharedBufferSource
+TestUnionOfAllowSharedBuffferSource
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
 aUnion
 )
