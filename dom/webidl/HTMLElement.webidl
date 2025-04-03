@@ -262,7 +262,15 @@ SetterThrows
 Pure
 ]
 attribute
+(
 boolean
+or
+unrestricted
+double
+or
+DOMString
+)
+?
 hidden
 ;
 [
