@@ -2348,6 +2348,11 @@ rtc_export
 "
 units
 :
+time_delta
+"
+"
+units
+:
 timestamp
 "
 "
