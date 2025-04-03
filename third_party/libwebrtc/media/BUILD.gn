@@ -3138,6 +3138,10 @@ h
 deps
 =
 [
+"
+:
+codec
+"
 ]
 }
 rtc_library

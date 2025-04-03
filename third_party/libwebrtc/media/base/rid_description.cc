@@ -118,12 +118,12 @@ other
 direction
 &
 &
-payload_types
+codecs
 =
 =
 other
 .
-payload_types
+codecs
 &
 &
 restrictions

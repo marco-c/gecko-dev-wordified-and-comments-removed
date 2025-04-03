@@ -109,6 +109,13 @@ const
 cricket
 :
 :
+MediaContentDescription
+&
+media_desc
+const
+cricket
+:
+:
 RidDescription
 &
 rid_description
@@ -124,6 +131,13 @@ RidDescription
 >
 DeserializeRidDescription
 (
+const
+cricket
+:
+:
+MediaContentDescription
+&
+media_desc
 absl
 :
 :
