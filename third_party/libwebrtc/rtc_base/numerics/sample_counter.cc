@@ -45,7 +45,7 @@ safe_conversions
 h
 "
 namespace
-rtc
+webrtc
 {
 SampleCounter
 :

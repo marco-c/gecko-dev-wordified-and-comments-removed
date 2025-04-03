@@ -46,7 +46,7 @@ testing
 Eq
 ;
 namespace
-rtc
+webrtc
 {
 TEST
 (
