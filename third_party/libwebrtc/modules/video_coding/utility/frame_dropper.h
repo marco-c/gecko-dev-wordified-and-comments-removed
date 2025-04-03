@@ -100,15 +100,9 @@ CapAccumulator
 (
 )
 ;
-rtc
-:
-:
 ExpFilter
 key_frame_ratio_
 ;
-rtc
-:
-:
 ExpFilter
 delta_frame_size_avg_kbits_
 ;
@@ -133,9 +127,6 @@ target_bitrate_
 bool
 drop_next_
 ;
-rtc
-:
-:
 ExpFilter
 drop_ratio_
 ;

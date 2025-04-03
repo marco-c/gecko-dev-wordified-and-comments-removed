@@ -1282,9 +1282,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 ExpFilter
 encode_time_
 RTC_GUARDED_BY

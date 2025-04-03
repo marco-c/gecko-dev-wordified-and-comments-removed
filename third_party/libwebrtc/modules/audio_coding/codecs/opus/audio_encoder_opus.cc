@@ -1934,9 +1934,6 @@ return
 value
 =
 =
-rtc
-:
-:
 ExpFilter
 :
 :
@@ -1993,9 +1990,6 @@ private
 int64_t
 last_sample_time_ms_
 ;
-rtc
-:
-:
 ExpFilter
 smoother_
 ;

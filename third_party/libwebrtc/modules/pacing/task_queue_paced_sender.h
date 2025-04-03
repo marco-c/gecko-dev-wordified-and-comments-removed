@@ -536,9 +536,6 @@ RTC_GUARDED_BY
 task_queue_
 )
 ;
-rtc
-:
-:
 ExpFilter
 packet_size_
 RTC_GUARDED_BY
