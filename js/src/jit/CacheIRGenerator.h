@@ -3073,12 +3073,12 @@ tryAttachRegExpHasCaptureGroups
 )
 ;
 AttachDecision
-tryAttachRegExpPrototypeOptimizable
+tryAttachIsRegExpPrototypeOptimizable
 (
 )
 ;
 AttachDecision
-tryAttachRegExpInstanceOptimizable
+tryAttachIsOptimizableRegExpObject
 (
 )
 ;
