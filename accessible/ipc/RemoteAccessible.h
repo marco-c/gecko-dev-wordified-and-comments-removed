@@ -1488,11 +1488,9 @@ GetCachedTextAttributes
 (
 )
 ;
-RefPtr
-<
 const
 AccAttributes
->
+*
 GetCachedARIAAttributes
 (
 )
