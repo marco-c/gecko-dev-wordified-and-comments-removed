@@ -292,6 +292,13 @@ AsDXGITextureHostD3D11
 )
 override
 ;
+DXGIYCbCrTextureHostD3D11
+*
+AsDXGIYCbCrTextureHostD3D11
+(
+)
+override
+;
 bool
 IsWrappingSurfaceTextureHost
 (

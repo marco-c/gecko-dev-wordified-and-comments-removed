@@ -204,6 +204,9 @@ class
 CompositorBridgeParent
 ;
 class
+Fence
+;
+class
 ShaderProgramOGLsHolder
 ;
 class
