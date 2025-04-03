@@ -26,7 +26,7 @@ array_view
 h
 "
 namespace
-rtc
+webrtc
 {
 void
 ExplicitZeroMemory
@@ -107,6 +107,18 @@ size
 )
 ;
 }
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+ExplicitZeroMemory
+;
 }
 #
 endif

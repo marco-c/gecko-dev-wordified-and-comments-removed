@@ -41,7 +41,7 @@ zero_memory
 h
 "
 namespace
-rtc
+webrtc
 {
 void
 ExplicitZeroMemory

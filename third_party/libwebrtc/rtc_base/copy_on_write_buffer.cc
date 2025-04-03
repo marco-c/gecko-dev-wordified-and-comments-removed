@@ -26,7 +26,7 @@ string_view
 h
 "
 namespace
-rtc
+webrtc
 {
 CopyOnWriteBuffer
 :

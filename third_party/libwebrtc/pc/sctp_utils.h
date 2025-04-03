@@ -92,15 +92,11 @@ ssl_stream_adapter
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 CopyOnWriteBuffer
 ;
-}
-namespace
-webrtc
-{
 struct
 DataChannelInit
 ;

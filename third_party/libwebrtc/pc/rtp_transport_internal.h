@@ -73,9 +73,6 @@ h
 namespace
 rtc
 {
-class
-CopyOnWriteBuffer
-;
 struct
 PacketOptions
 ;
@@ -83,6 +80,9 @@ PacketOptions
 namespace
 webrtc
 {
+class
+CopyOnWriteBuffer
+;
 class
 RtpTransportInternal
 :

@@ -104,7 +104,7 @@ type_traits
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 RTC_EXPORT
@@ -1715,6 +1715,18 @@ size_t
 size_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+CopyOnWriteBuffer
 ;
 }
 #

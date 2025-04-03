@@ -76,7 +76,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -2153,9 +2153,6 @@ arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -2194,9 +2191,6 @@ size
 "
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -2256,9 +2250,6 @@ constexpr_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2315,9 +2306,6 @@ const_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2373,9 +2361,6 @@ non_const_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
