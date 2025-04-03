@@ -76,7 +76,7 @@ POPUP_URL_COLOR_DARK
 =
 "
 #
-0061e0
+0060df
 "
 ;
 const
