@@ -1768,6 +1768,14 @@ engines
 =
 "
 gecko
+servo
+"
+servo_pref
+=
+"
+layout
+.
+unimplemented
 "
 gecko_pref
 =
