@@ -32,7 +32,7 @@ StandardStream
 }
 ;
 use
-std
+core
 :
 :
 ops
@@ -247,7 +247,7 @@ codespan_reporting
 files
 ;
 use
-std
+core
 :
 :
 ops
@@ -303,7 +303,7 @@ Error
 >
 {
 use
-std
+core
 :
 :
 cmp
@@ -334,6 +334,7 @@ Less
 >
 Ok
 (
+*
 self
 .
 line_starts
@@ -351,10 +352,6 @@ despite
 previous
 check
 "
-)
-.
-clone
-(
 )
 )
 Ordering
@@ -498,7 +495,7 @@ FileId
 >
 {
 use
-std
+core
 :
 :
 convert

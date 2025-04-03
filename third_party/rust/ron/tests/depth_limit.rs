@@ -311,10 +311,6 @@ new_line
 \
 n
 "
-.
-to_string
-(
-)
 )
 ;
 let
