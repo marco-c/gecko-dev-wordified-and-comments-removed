@@ -1281,12 +1281,6 @@ case
 InlinableNative
 :
 :
-IntrinsicObjectHasPrototype
-:
-case
-InlinableNative
-:
-:
 IntrinsicIsPackedArray
 :
 case
