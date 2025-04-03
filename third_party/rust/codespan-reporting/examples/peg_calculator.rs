@@ -55,16 +55,6 @@ rustyline
 :
 Editor
 ;
-#
-[
-allow
-(
-clippy
-:
-:
-redundant_closure_call
-)
-]
 peg
 :
 :

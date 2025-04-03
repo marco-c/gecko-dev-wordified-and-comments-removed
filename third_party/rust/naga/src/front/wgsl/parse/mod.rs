@@ -21191,7 +21191,7 @@ BRACE_NESTING_MAXIMUM
 :
 u8
 =
-127
+64
 ;
 if
 brace_nesting_level

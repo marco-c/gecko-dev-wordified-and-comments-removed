@@ -56,6 +56,10 @@ new_line
 \
 n
 "
+.
+to_string
+(
+)
 )
 )
 .
@@ -94,6 +98,10 @@ new_line
 \
 n
 "
+.
+to_string
+(
+)
 )
 .
 compact_arrays
@@ -137,6 +145,10 @@ new_line
 \
 n
 "
+.
+to_string
+(
+)
 )
 .
 compact_arrays
@@ -148,6 +160,10 @@ separator
 (
 "
 "
+.
+to_string
+(
+)
 )
 )
 .
@@ -197,6 +213,10 @@ new_line
 \
 n
 "
+.
+to_string
+(
+)
 )
 .
 separate_tuple_members

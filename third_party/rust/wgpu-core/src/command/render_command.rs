@@ -1181,12 +1181,6 @@ into
 offset
 count
 indexed
-vertex_or_index_limit
-:
-0
-instance_limit
-:
-0
 }
 RenderCommand
 :
@@ -1592,12 +1586,6 @@ u32
 indexed
 :
 bool
-vertex_or_index_limit
-:
-u64
-instance_limit
-:
-u64
 }
 MultiDrawIndirectCount
 {

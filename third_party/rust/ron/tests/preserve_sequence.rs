@@ -177,6 +177,10 @@ new_line
 \
 n
 "
+.
+into
+(
+)
 )
 ;
 to_string_pretty

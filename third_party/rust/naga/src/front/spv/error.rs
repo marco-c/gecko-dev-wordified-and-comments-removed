@@ -42,12 +42,6 @@ codespan_reporting
 term
 ;
 use
-codespan_reporting
-:
-:
-term
-:
-:
 termcolor
 :
 :

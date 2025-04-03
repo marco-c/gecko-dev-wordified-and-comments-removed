@@ -1757,9 +1757,13 @@ components
 iter
 :
 :
-repeat_n
+repeat
 (
 value
+)
+.
+take
+(
 columns
 as
 usize

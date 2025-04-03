@@ -138,6 +138,7 @@ clippy
 :
 :
 too_many_arguments
+unused_braces
 clippy
 :
 :
@@ -267,6 +268,19 @@ pub
 mod
 identity
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+indirect
+-
+validation
+"
+)
+]
 mod
 indirect_validation
 ;
