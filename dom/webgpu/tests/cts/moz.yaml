@@ -102,7 +102,7 @@ type
 vendoring
 enabled
 :
-false
+true
 frequency
 :
 1
