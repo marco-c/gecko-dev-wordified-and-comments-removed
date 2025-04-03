@@ -1476,6 +1476,7 @@ computed
 :
 {
 self
+ContentVisibility
 Context
 PositionProperty
 ToComputedValue
@@ -29223,6 +29224,18 @@ writing_mode
 :
 :
 SpecifiedValue
+>
+(
+value
+)
+ContentVisibility
+=
+>
+get_from_computed
+:
+:
+<
+ContentVisibility
 >
 (
 value
