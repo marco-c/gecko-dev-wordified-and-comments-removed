@@ -23,6 +23,11 @@ TestPrincipalAttributes
 cpp
 "
 "
+TestPrincipalHash
+.
+cpp
+"
+"
 TestPrincipalSerialization
 .
 cpp
