@@ -434,6 +434,11 @@ MAX_NN_GROUPED_TABS
 4
 ;
 const
+MAX_SUGGESTED_TABS
+=
+10
+;
+const
 DISSIMILAR_TAB_LABEL
 =
 "
@@ -1321,6 +1326,12 @@ label
 }
 return
 suggestedTabs
+.
+slice
+(
+0
+MAX_SUGGESTED_TABS
+)
 ;
 }
 /
