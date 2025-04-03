@@ -181,8 +181,9 @@ IsCancelled
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
-DispatchEvent
+FireEvent
 (
 const
 nsAString
@@ -250,6 +251,7 @@ aEventName
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -368,6 +370,7 @@ aPendingPlayPromises
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -491,6 +494,7 @@ aIsMandatory
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (

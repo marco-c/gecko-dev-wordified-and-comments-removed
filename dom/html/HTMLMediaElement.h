@@ -3497,8 +3497,9 @@ nsGenericHTMLElement
 :
 DispatchEvent
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
-DispatchEvent
+FireEvent
 (
 const
 nsAString
