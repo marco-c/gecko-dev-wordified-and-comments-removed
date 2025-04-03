@@ -63,7 +63,11 @@ mozilla
 .
 fenix
 .
-checklist
+home
+.
+setup
+.
+ui
 import
 androidx
 .

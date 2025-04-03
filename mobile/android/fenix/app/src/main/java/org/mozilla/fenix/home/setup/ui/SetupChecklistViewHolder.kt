@@ -117,16 +117,6 @@ mozilla
 .
 fenix
 .
-checklist
-.
-SetupChecklist
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 components
