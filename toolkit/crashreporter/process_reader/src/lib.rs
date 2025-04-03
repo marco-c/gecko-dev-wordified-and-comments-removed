@@ -84,14 +84,11 @@ pid_t
 [
 cfg
 (
-any
-(
 target_os
 =
 "
 macos
 "
-)
 )
 ]
 pub
@@ -344,10 +341,6 @@ string
 extend
 (
 array
-.
-into_iter
-(
-)
 )
 ;
 if
