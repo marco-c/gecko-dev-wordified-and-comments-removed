@@ -1234,6 +1234,8 @@ aFirstPartyURI
 nsIURI
 *
 aThirdPartyURI
+bool
+aIsPrivate
 )
 ;
 static
