@@ -2154,6 +2154,12 @@ rate_factor
 }
 }
 else
+if
+(
+num_temporal_layers
+>
+3
+)
 {
 rate_factor
 =
