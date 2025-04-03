@@ -1467,7 +1467,7 @@ assertOneDomainPermission
 (
 popupContentEl
 .
-permsSingleEl
+permsListEl
 )
 ;
 }
@@ -1579,7 +1579,7 @@ domainsListEl
 =
 popupContentEl
 .
-permsSingleEl
+permsListEl
 .
 querySelector
 (
