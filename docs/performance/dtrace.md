@@ -30,12 +30,9 @@ it
 :
 :
 :
-*
-*
-Note
-*
-*
-:
+{
+note
+}
 The
 [
 power

@@ -772,7 +772,6 @@ allocated
 :
 :
 {
-.
 note
 }
 This
@@ -1013,8 +1012,7 @@ panel
 :
 :
 {
-.
-geckoVersionNote
+note
 }
 The
 Retaining
