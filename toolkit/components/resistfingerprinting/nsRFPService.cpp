@@ -2009,6 +2009,14 @@ MaybeSubmitPing
 (
 )
 ;
+bitsetForUserCharacteristics
+|
+=
+1
+<
+<
+3
+;
 }
 if
 (
