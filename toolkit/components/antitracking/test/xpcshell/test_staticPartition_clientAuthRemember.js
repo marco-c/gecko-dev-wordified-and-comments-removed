@@ -161,6 +161,11 @@ rememberDecisionScriptable
 host
 attrs
 clientCert
+Ci
+.
+nsIClientAuthRememberService
+.
+Permanent
 )
 ;
 }

@@ -63,6 +63,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIClientAuthRememberService
+.
+idl
+"
 interface
 nsILoadContext
 ;
@@ -97,8 +104,8 @@ in
 nsIX509Cert
 cert
 in
-boolean
-rememberDecision
+nsIClientAuthRememberService_Duration
+rememberDuration
 )
 ;
 }

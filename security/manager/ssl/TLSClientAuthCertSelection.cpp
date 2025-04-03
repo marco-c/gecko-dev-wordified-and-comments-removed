@@ -3537,8 +3537,11 @@ CertificateChosen
 nsIX509Cert
 *
 cert
-bool
-rememberDecision
+nsIClientAuthRememberService
+:
+:
+Duration
+rememberDuration
 )
 {
 MOZ_ASSERT
@@ -3592,9 +3595,6 @@ ProviderTlsFlags
 0
 &
 &
-rememberDecision
-&
-&
 clientAuthRememberService
 )
 {
@@ -3617,6 +3617,7 @@ OriginAttributesRef
 (
 )
 cert
+rememberDuration
 )
 ;
 }
