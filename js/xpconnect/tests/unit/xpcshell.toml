@@ -967,6 +967,13 @@ js
 ]
 [
 "
+test_import_data
+.
+js
+"
+]
+[
+"
 test_import_devtools_loader
 .
 js
