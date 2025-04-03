@@ -539,6 +539,11 @@ TaskbarWindowPreview
 cpp
 "
 "
+TSFEmptyTextStore
+.
+cpp
+"
+"
 TSFInputScope
 .
 cpp
