@@ -186,13 +186,6 @@ h
 "
 d3d11
 /
-GpuProcessD3D11QueryMap
-.
-h
-"
-"
-d3d11
-/
 GpuProcessD3D11TextureMap
 .
 h
@@ -241,13 +234,6 @@ UNIFIED_SOURCES
 d3d11
 /
 FenceD3D11
-.
-cpp
-"
-"
-d3d11
-/
-GpuProcessD3D11QueryMap
 .
 cpp
 "
