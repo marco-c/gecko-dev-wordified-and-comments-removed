@@ -8,7 +8,7 @@ weak_ptr
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 internal

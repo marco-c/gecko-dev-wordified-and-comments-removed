@@ -1483,9 +1483,6 @@ SctpDataChannel
 :
 Create
 (
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface
@@ -1653,9 +1650,6 @@ const
 InternalDataChannelInit
 &
 config
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface

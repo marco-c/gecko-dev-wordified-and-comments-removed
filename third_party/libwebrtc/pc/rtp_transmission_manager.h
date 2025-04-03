@@ -1346,9 +1346,6 @@ void
 >
 on_negotiation_needed_
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 RtpTransmissionManager

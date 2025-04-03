@@ -438,9 +438,6 @@ SctpDataChannel
 >
 Create
 (
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface
@@ -822,9 +819,6 @@ const
 InternalDataChannelInit
 &
 config
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface
@@ -1139,9 +1133,6 @@ network_thread_
 =
 0
 ;
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface

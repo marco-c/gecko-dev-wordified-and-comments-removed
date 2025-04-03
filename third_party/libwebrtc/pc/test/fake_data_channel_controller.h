@@ -141,7 +141,7 @@ InvalidateWeakPtrs
 )
 ;
 }
-rtc
+webrtc
 :
 :
 WeakPtr
@@ -217,7 +217,7 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
+webrtc
 :
 :
 WeakPtr
@@ -1256,7 +1256,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-rtc
+webrtc
 :
 :
 WeakPtrFactory

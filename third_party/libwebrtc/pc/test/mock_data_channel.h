@@ -45,9 +45,6 @@ public
 :
 MockSctpDataChannel
 (
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface
@@ -85,9 +82,6 @@ someProtocol
 }
 MockSctpDataChannel
 (
-rtc
-:
-:
 WeakPtr
 <
 SctpDataChannelControllerInterface

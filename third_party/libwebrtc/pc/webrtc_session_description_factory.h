@@ -640,9 +640,6 @@ RTCCertificate
 >
 on_certificate_ready_
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 WebRtcSessionDescriptionFactory

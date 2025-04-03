@@ -675,9 +675,6 @@ PeerConnectionInternal
 const
 pc_
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 DataChannelController

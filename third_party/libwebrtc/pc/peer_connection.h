@@ -3819,9 +3819,6 @@ false
 PayloadTypePicker
 payload_type_picker_
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 PeerConnection
