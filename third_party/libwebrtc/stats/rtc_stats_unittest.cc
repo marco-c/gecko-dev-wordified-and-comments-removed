@@ -2148,9 +2148,6 @@ nullptr
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetStringFromJsonObject
 (
 json_output
@@ -2164,9 +2161,6 @@ id
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json_output
@@ -2180,9 +2174,6 @@ timestamp
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetBoolFromJsonObject
 (
 json_output
@@ -2196,9 +2187,6 @@ m_bool
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json_output
@@ -2212,9 +2200,6 @@ m_int32
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetDoubleFromJsonObject
 (
 json_output
@@ -2228,9 +2213,6 @@ m_double
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetStringFromJsonObject
 (
 json_output
@@ -2250,9 +2232,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2266,9 +2245,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 JsonArrayToBoolVector
 (
 json_array
@@ -2279,9 +2255,6 @@ sequence_bool
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2295,9 +2268,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 JsonArrayToIntVector
 (
 json_array
@@ -2308,9 +2278,6 @@ sequence_int32
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2324,9 +2291,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 JsonArrayToDoubleVector
 (
 json_array
@@ -2337,9 +2301,6 @@ sequence_double
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2353,9 +2314,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 JsonArrayToStringVector
 (
 json_array
@@ -2372,9 +2330,6 @@ json_map
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2405,9 +2360,6 @@ double_output
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetDoubleFromJsonObject
 (
 json_map
@@ -2695,9 +2647,6 @@ sequence_int64_as_double
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetDoubleFromJsonObject
 (
 json_output
@@ -2711,9 +2660,6 @@ m_int64_as_double
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2727,9 +2673,6 @@ json_array
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 JsonArrayToDoubleVector
 (
 json_array
@@ -2838,9 +2781,6 @@ stats_value_as_double
 }
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json_output
@@ -2893,9 +2833,6 @@ double_output
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 GetDoubleFromJsonObject
 (
 json_map
@@ -2948,9 +2885,6 @@ has_value
 ;
 EXPECT_FALSE
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json_output
@@ -2964,9 +2898,6 @@ m_uint32
 ;
 EXPECT_FALSE
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json_output
