@@ -75,6 +75,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemAccessHandleChild
 .
 h
@@ -1556,7 +1567,7 @@ FileSystemSyncAccessHandle
 Read
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aBuffer
 const
@@ -1585,7 +1596,7 @@ FileSystemSyncAccessHandle
 Write
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aBuffer
 const
@@ -2746,7 +2757,7 @@ FileSystemSyncAccessHandle
 ReadOrWrite
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aBuffer
 const
