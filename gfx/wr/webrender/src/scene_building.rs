@@ -2454,10 +2454,6 @@ mut
 builder
 .
 clip_tree_builder
-&
-builder
-.
-interners
 )
 ;
 for
