@@ -935,6 +935,11 @@ IntrinsicCanOptimizeArraySpecies
 \
 _
 (
+IntrinsicCanOptimizeStringProtoSymbolLookup
+)
+\
+_
+(
 IntrinsicToInteger
 )
 \
