@@ -789,6 +789,11 @@ page_scriptCache_container
 html
 "
 "
+page_scriptCache_container_module
+.
+html
+"
+"
 counter_server
 .
 sjs
