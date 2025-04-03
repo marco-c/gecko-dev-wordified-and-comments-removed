@@ -205,6 +205,16 @@ directory_name
 )
 ;
 bool
+RemoveNonEmptyDir
+(
+absl
+:
+:
+string_view
+directory_name
+)
+;
+bool
 RemoveFile
 (
 absl
