@@ -15501,9 +15501,7 @@ static_cast
 uint32_t
 >
 (
-kEncoderLimits270p
-.
-max_bitrate_bps
+kMaxBitrateBps
 )
 fake_encoder_
 .
