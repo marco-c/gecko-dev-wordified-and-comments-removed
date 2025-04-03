@@ -485,9 +485,6 @@ false
 }
 }
 return
-rtc
-:
-:
 StringToNumber
 <
 int

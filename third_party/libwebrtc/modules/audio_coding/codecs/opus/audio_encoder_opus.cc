@@ -479,9 +479,6 @@ const
 auto
 bitrate
 =
-rtc
-:
-:
 StringToNumber
 <
 int

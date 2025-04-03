@@ -390,9 +390,6 @@ int
 >
 i
 =
-rtc
-:
-:
 StringToNumber
 <
 int

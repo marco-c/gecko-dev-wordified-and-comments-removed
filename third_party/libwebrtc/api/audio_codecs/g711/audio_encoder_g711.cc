@@ -320,9 +320,6 @@ const
 auto
 ptime
 =
-rtc
-:
-:
 StringToNumber
 <
 int

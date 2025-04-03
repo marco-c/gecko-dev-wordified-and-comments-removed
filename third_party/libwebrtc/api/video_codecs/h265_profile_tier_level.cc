@@ -281,9 +281,6 @@ int
 >
 i
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -454,9 +451,6 @@ int
 >
 i
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -547,9 +541,6 @@ int
 >
 i
 =
-rtc
-:
-:
 StringToNumber
 <
 int

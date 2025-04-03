@@ -36,7 +36,7 @@ string_view
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 string_to_number_internal
@@ -595,6 +595,18 @@ str
 )
 ;
 }
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+StringToNumber
+;
 }
 #
 endif

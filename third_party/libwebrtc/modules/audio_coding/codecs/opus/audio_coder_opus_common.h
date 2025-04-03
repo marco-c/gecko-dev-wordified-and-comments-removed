@@ -118,9 +118,6 @@ param
 )
 {
 return
-rtc
-:
-:
 StringToNumber
 <
 T
