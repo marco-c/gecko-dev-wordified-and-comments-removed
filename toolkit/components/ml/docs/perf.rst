@@ -820,7 +820,7 @@ by
 specifying
 the
 local
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 directory
 via
 the
@@ -1045,7 +1045,7 @@ block
 :
 :
 bash
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 =
 ~
 /
@@ -1080,7 +1080,7 @@ args
 headless
 Notice
 that
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 is
 an
 absolute
