@@ -1246,6 +1246,17 @@ false
 ;
 }
 virtual
+bool
+HasScheduledNormalOrHighPriorityWebTasks
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 ReportToConsole
 (

@@ -1384,6 +1384,14 @@ HasOpenWebSockets
 const
 override
 ;
+virtual
+bool
+HasScheduledNormalOrHighPriorityWebTasks
+(
+)
+const
+override
+;
 void
 SyncStateFromParentWindow
 (

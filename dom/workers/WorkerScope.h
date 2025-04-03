@@ -1655,6 +1655,13 @@ aState
 )
 override
 ;
+bool
+HasScheduledNormalOrHighPriorityWebTasks
+(
+)
+const
+override
+;
 WebTaskSchedulingState
 *
 GetWebTaskSchedulingState
