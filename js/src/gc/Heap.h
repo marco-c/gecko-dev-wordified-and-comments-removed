@@ -670,13 +670,9 @@ JS
 :
 Zone
 *
-zoneArg
+zone
 AllocKind
 kind
-const
-AutoLockGC
-&
-lock
 )
 ;
 JS
