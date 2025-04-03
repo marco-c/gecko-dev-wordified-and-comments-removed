@@ -78,6 +78,7 @@ DataType
 {
 Persistent
 Private
+Temporary
 }
 ;
 ACString
