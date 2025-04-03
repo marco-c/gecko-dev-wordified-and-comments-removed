@@ -4959,24 +4959,6 @@ FieldTrial
 '
 WebRTC
 -
-Vp9ExternalRefCtrl
-'
-               
-42234783
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 Vp9InterLayerPred
 '
                
@@ -5029,7 +5011,7 @@ str
 \
     
 '
-32ec47da125c13ceb01a908627c7c10aada3d4dd
+936929707bc1d3db75b6702394ca3b69ef328410
 '
 REGISTERED_FIELD_TRIALS
 :
