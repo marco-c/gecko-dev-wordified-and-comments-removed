@@ -631,11 +631,6 @@ numArenasFree
 uint32_t
 numArenasFreeCommitted
 ;
-bool
-isCurrentChunk
-=
-false
-;
 }
 ;
 const
@@ -1346,9 +1341,6 @@ markBits
 ;
 ChunkArenaBitmap
 freeCommittedArenas
-;
-ChunkArenaBitmap
-pendingFreeCommittedArenas
 ;
 ChunkPageBitmap
 decommittedPages
