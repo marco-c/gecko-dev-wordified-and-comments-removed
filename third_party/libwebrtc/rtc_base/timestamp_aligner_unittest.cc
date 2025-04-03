@@ -52,7 +52,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -209,9 +209,6 @@ TimeMicros
 (
 )
 ;
-webrtc
-:
-:
 Random
 random
 (

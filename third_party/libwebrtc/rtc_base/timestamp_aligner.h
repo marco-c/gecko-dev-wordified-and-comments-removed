@@ -32,7 +32,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 RTC_EXPORT
@@ -137,6 +137,18 @@ int64_t
 prev_time_offset_us_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+TimestampAligner
 ;
 }
 #

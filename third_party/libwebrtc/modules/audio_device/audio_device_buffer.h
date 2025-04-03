@@ -605,9 +605,6 @@ RTC_GUARDED_BY
 task_queue_
 )
 ;
-rtc
-:
-:
 TimestampAligner
 timestamp_aligner_
 ;
