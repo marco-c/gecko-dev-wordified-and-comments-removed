@@ -62,9 +62,6 @@ Stylo
 CSS
 engine
 "
-publish
-=
-false
 build
 =
 "
