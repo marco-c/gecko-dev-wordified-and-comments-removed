@@ -209,11 +209,7 @@ components
 .
 appstate
 .
-setup
-.
-checklist
-.
-ChecklistItem
+AppState
 import
 org
 .
@@ -229,7 +225,7 @@ setup
 .
 checklist
 .
-SetupChecklistState
+ChecklistItem
 import
 org
 .
@@ -974,10 +970,8 @@ mock
 <
 MiddlewareContext
 <
-SetupChecklistState
+AppState
 AppAction
-.
-SetupChecklistAction
 >
 >
 (
