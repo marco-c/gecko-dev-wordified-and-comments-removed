@@ -7,6 +7,13 @@ mozilla_EncoderConfig_h_
 #
 include
 "
+H264
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Variant
@@ -21,13 +28,6 @@ mozilla
 dom
 /
 ImageBitmapBinding
-.
-h
-"
-#
-include
-"
-H264
 .
 h
 "
