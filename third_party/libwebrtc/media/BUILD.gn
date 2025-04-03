@@ -5895,6 +5895,14 @@ frame_transformer_interface
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+api
+:
 rtc_error
 "
 "
