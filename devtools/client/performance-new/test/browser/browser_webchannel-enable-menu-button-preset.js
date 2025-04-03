@@ -46,7 +46,7 @@ GetFeatures
 (
 )
 ;
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

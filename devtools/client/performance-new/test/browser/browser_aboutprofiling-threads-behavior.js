@@ -31,7 +31,7 @@ expected
 "
 )
 ;
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

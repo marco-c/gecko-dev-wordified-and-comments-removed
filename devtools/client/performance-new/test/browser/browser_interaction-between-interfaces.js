@@ -11,7 +11,7 @@ test_change_in_popup
 (
 )
 {
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -661,7 +661,7 @@ test_change_in_about_profiling
 (
 )
 {
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -1572,7 +1572,7 @@ test_change_in_devtools_panel
 (
 )
 {
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

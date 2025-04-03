@@ -130,7 +130,7 @@ string
 "
 )
 ;
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -284,7 +284,7 @@ window
 "
 )
 ;
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

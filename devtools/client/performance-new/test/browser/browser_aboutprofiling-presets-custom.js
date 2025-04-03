@@ -74,7 +74,7 @@ test
 return
 ;
 }
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
