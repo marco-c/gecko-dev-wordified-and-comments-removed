@@ -139,7 +139,17 @@ __cplusplus
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
+>
+#
+include
+<
+type_traits
 >
 #
 include
@@ -236,8 +246,12 @@ type_traits
 .
 h
 "
+#
+define
+RTC_CHECKS_IN_WEBRTC_NAMESPACE
+1
 namespace
-rtc
+webrtc
 {
 namespace
 webrtc_checks_impl
@@ -728,7 +742,7 @@ void
 MakeVal
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1856,7 +1870,7 @@ void
 :
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1877,7 +1891,7 @@ false
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1905,7 +1919,7 @@ void
 )
 :
 :
-rtc
+webrtc
 :
 :
 Safe
@@ -1943,7 +1957,7 @@ void
 :
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1964,7 +1978,7 @@ condition
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1987,7 +2001,7 @@ val2
 \
 :
 :
-rtc
+webrtc
 :
 :
 Safe
@@ -2015,7 +2029,7 @@ void
 :
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2044,7 +2058,7 @@ val2
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2091,7 +2105,7 @@ true
 ?
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2103,8 +2117,8 @@ false
 >
 (
 __FILE__
-__LINE__
 \
+__LINE__
 "
 "
 )
@@ -2112,7 +2126,7 @@ __LINE__
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2127,7 +2141,7 @@ LogStreamer
 :
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2148,7 +2162,7 @@ false
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2171,7 +2185,7 @@ val2
 \
 :
 :
-rtc
+webrtc
 :
 :
 Safe
@@ -2200,7 +2214,7 @@ true
 ?
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2212,8 +2226,8 @@ true
 >
 (
 __FILE__
-__LINE__
 \
+__LINE__
 "
 "
 )
@@ -2221,7 +2235,7 @@ __LINE__
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2236,7 +2250,7 @@ LogStreamer
 :
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2257,7 +2271,7 @@ false
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2559,7 +2573,7 @@ do
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2585,7 +2599,7 @@ RTC_FATAL
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2609,7 +2623,7 @@ FATAL
 \
 :
 :
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -2664,6 +2678,18 @@ a
 b
 ;
 }
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+CheckedDivExact
+;
 }
 #
 else
