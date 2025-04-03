@@ -64,7 +64,7 @@ override
 MOCK_METHOD
 (
 void
-DispatchAsyncEvent
+QueueEvent
 (
 const
 nsAString

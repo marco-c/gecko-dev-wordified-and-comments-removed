@@ -8923,7 +8923,7 @@ nsCString
 mOwner
 -
 >
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -8954,7 +8954,7 @@ MEDIA_ERR_ABORTED
 mOwner
 -
 >
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -8974,7 +8974,7 @@ NETWORK_EMPTY
 mOwner
 -
 >
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -11067,7 +11067,7 @@ mNetworkState
 NETWORK_IDLE
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -11211,7 +11211,7 @@ already
 "
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -12273,7 +12273,7 @@ ChangeNetworkState
 NETWORK_LOADING
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -15412,7 +15412,7 @@ IgnoreErrors
 )
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -16738,7 +16738,7 @@ TimeupdateType
 eMandatory
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -16834,7 +16834,7 @@ SetVolumeInternal
 (
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -17249,7 +17249,7 @@ MUTED_BY_CONTENT
 )
 ;
 }
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -22168,7 +22168,7 @@ media_autoplay_block_event_enabled
 )
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -22498,7 +22498,7 @@ TimeMarchesOn
 ;
 }
 }
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -22515,7 +22515,7 @@ mReadyState
 case
 HAVE_NOTHING
 :
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -22532,7 +22532,7 @@ HAVE_METADATA
 case
 HAVE_CURRENT_DATA
 :
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -26823,7 +26823,7 @@ UpdateOutputTrackSources
 (
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -26844,7 +26844,7 @@ HasVideo
 )
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -26917,7 +26917,7 @@ loadedmetadata
 "
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -27589,7 +27589,7 @@ mSrcStreamPlaybackEnded
 =
 true
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -27668,7 +27668,7 @@ StopIfNeeded
 )
 ;
 }
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -27699,7 +27699,7 @@ SeekStarted
 (
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -27747,7 +27747,7 @@ TimeupdateType
 eMandatory
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -27930,7 +27930,7 @@ mNetworkState
 NETWORK_LOADING
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -28070,7 +28070,7 @@ mProgressTime
 )
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -28173,7 +28173,7 @@ if
 mMediaSource
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -28895,7 +28895,7 @@ mWaitingForKey
 =
 WAITING_FOR_KEY_DISPATCHED
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29452,7 +29452,7 @@ mReadyState
 HAVE_FUTURE_DATA
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29503,7 +29503,7 @@ TimeupdateType
 eMandatory
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29530,7 +29530,7 @@ HAVE_CURRENT_DATA
 mLoadedDataFired
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29557,7 +29557,7 @@ mReadyState
 HAVE_FUTURE_DATA
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29619,7 +29619,7 @@ mReadyState
 HAVE_ENOUGH_DATA
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -29766,7 +29766,7 @@ mErrorSink
 mError
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -30108,7 +30108,7 @@ TimeMarchesOn
 ;
 }
 }
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -30117,7 +30117,7 @@ play
 _ns
 )
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -30748,7 +30748,7 @@ void
 HTMLMediaElement
 :
 :
-DispatchAsyncEvent
+QueueEvent
 (
 const
 nsAString
@@ -30767,7 +30767,7 @@ GetEventRunner
 aName
 )
 ;
-DispatchAsyncEvent
+QueueTask
 (
 std
 :
@@ -30783,7 +30783,7 @@ void
 HTMLMediaElement
 :
 :
-DispatchAsyncEvent
+QueueTask
 (
 RefPtr
 <
@@ -31431,7 +31431,7 @@ mDisplay
 aSize
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -33016,7 +33016,7 @@ EventFlag
 eNone
 )
 ;
-DispatchAsyncEvent
+QueueTask
 (
 std
 :
@@ -33270,7 +33270,7 @@ mDefaultPlaybackRate
 =
 defaultPlaybackRate
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -33404,7 +33404,7 @@ mPlaybackRate
 )
 ;
 }
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -33611,7 +33611,7 @@ media_test_video_suspend
 )
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -35654,7 +35654,7 @@ media_testing_only_events
 return
 ;
 }
-DispatchAsyncEvent
+QueueEvent
 (
 aName
 )
@@ -36092,7 +36092,7 @@ NotifyAboutPlaying
 (
 )
 {
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "
@@ -36326,7 +36326,7 @@ mPaused
 =
 true
 ;
-DispatchAsyncEvent
+QueueEvent
 (
 u
 "

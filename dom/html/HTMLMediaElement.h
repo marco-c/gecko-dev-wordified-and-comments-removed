@@ -934,7 +934,7 @@ aNewPrincipalHandle
 override
 ;
 void
-DispatchAsyncEvent
+QueueEvent
 (
 const
 nsAString
@@ -944,7 +944,7 @@ aName
 final
 ;
 void
-DispatchAsyncEvent
+QueueTask
 (
 RefPtr
 <

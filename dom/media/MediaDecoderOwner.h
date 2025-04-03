@@ -101,7 +101,7 @@ DownloadProgressed
 ;
 virtual
 void
-DispatchAsyncEvent
+QueueEvent
 (
 const
 nsAString
