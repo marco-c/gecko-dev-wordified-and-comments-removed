@@ -1961,11 +1961,6 @@ recipe
 .
 slug
 }
-"
-test
--
-cleanup
-"
 )
 ;
 sandbox
