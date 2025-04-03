@@ -1360,7 +1360,12 @@ sequence_checker_
 )
 ;
 bool
-transport_is_ecn_capable_
+transport_maybe_support_ecn_
+=
+false
+;
+bool
+sending_packets_as_ect1_
 =
 false
 ;
