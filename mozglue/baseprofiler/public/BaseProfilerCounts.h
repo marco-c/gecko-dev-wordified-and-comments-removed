@@ -335,7 +335,6 @@ this
 )
 ;
 }
-virtual
 ~
 ProfilerCounter
 (
@@ -425,7 +424,6 @@ this
 )
 ;
 }
-virtual
 ~
 ProfilerCounterTotal
 (
