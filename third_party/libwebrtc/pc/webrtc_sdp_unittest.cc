@@ -38317,7 +38317,7 @@ rids
 TEST_F
 (
 WebRtcSdpTest
-TestDeserializeRemovesRidsWithInvalidCodec
+TestDeserializeIgnoresInvalidPayloadTypesInRid
 )
 {
 std
