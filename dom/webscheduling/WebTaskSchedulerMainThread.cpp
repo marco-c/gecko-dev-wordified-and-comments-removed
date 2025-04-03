@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-TaskController
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TimeoutManager
@@ -93,6 +84,8 @@ WebTask
 aTask
 uint64_t
 aDelay
+EventQueuePriority
+aPriority
 )
 {
 JSContext
@@ -141,6 +134,7 @@ DelayedWebTaskHandler
 cx
 this
 aTask
+aPriority
 )
 ;
 int32_t
@@ -203,6 +197,8 @@ WebTaskSchedulerMainThread
 :
 DispatchEventLoopRunnable
 (
+EventQueuePriority
+aPriority
 )
 {
 RefPtr
@@ -226,10 +222,7 @@ runnable
 forget
 (
 )
-EventQueuePriority
-:
-:
-Normal
+aPriority
 )
 )
 ;
