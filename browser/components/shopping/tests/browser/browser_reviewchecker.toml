@@ -365,7 +365,14 @@ js
 ]
 [
 "
-browser_reviewchecker_manager
+browser_reviewchecker_manager_auto_close
+.
+js
+"
+]
+[
+"
+browser_reviewchecker_manager_auto_open
 .
 js
 "
