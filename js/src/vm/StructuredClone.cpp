@@ -20396,6 +20396,9 @@ false
 }
 #
 endif
+#
+ifndef
+MOZ_WIDGET_ANDROID
 JSRuntime
 *
 rt
@@ -20463,6 +20466,15 @@ DESERIALIZE_US
 elapsed
 )
 ;
+#
+else
+(
+void
+)
+startTime
+;
+#
+endif
 return
 true
 ;
