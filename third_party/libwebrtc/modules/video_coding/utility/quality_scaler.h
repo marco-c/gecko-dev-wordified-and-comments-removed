@@ -281,9 +281,6 @@ RTC_GUARDED_BY
 task_checker_
 )
 ;
-rtc
-:
-:
 MovingAverage
 average_qp_
 RTC_GUARDED_BY
@@ -292,9 +289,6 @@ RTC_GUARDED_BY
 task_checker_
 )
 ;
-rtc
-:
-:
 MovingAverage
 framedrop_percent_media_opt_
 RTC_GUARDED_BY
@@ -303,9 +297,6 @@ RTC_GUARDED_BY
 task_checker_
 )
 ;
-rtc
-:
-:
 MovingAverage
 framedrop_percent_all_
 RTC_GUARDED_BY

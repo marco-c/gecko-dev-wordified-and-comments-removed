@@ -39,7 +39,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 MovingAverage
 :

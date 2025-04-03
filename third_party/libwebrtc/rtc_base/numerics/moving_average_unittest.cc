@@ -32,7 +32,7 @@ MovingAverageTest
 EmptyAverage
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -71,7 +71,7 @@ MovingAverageTest
 OneElement
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -115,7 +115,7 @@ MovingAverageTest
 GetAverage
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -181,7 +181,7 @@ MovingAverageTest
 GetAverageRoundedDownRounds
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -236,7 +236,7 @@ MovingAverageTest
 GetAverageRoundedToClosestRounds
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -291,7 +291,7 @@ MovingAverageTest
 Reset
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage
@@ -380,7 +380,7 @@ MovingAverageTest
 ManySamples
 )
 {
-rtc
+webrtc
 :
 :
 MovingAverage

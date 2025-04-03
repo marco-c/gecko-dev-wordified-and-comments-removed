@@ -218,9 +218,6 @@ is_last_frame_blocky_
 int64_t
 last_unfreeze_time_ms_
 ;
-rtc
-:
-:
 MovingAverage
 render_interframe_delays_
 ;

@@ -29,7 +29,7 @@ include
 vector
 >
 namespace
-rtc
+webrtc
 {
 class
 MovingAverage
@@ -145,6 +145,18 @@ int
 history_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+MovingAverage
 ;
 }
 #
