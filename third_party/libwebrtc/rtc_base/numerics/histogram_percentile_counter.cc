@@ -44,7 +44,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 HistogramPercentileCounter
 :

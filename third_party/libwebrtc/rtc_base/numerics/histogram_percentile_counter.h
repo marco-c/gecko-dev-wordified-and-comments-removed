@@ -34,7 +34,7 @@ include
 vector
 >
 namespace
-rtc
+webrtc
 {
 class
 HistogramPercentileCounter
@@ -123,6 +123,18 @@ size_t
 total_elements_low_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+HistogramPercentileCounter
 ;
 }
 #
