@@ -201,6 +201,10 @@ eBeforeToggle
 )
 NS_EVENT_MESSAGE
 (
+eBeforematch
+)
+NS_EVENT_MESSAGE
+(
 eLoad
 )
 NS_EVENT_MESSAGE

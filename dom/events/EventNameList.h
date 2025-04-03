@@ -337,6 +337,13 @@ eBasicEventClass
 )
 EVENT
 (
+beforematch
+eBeforematch
+EventNameType_All
+eBasicEventClass
+)
+EVENT
+(
 cancel
 eCancel
 EventNameType_HTMLXUL

@@ -7158,6 +7158,15 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+FireBeforematchEvent
+(
+ErrorResult
+&
+aRv
+)
+;
 protected
 :
 enum
