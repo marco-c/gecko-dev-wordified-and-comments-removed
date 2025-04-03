@@ -29,11 +29,13 @@ false
 "
 browser
 .
-preferences
+ml
 .
-experimental
+linkPreview
+.
+prefetchOnEnable
 =
-true
+false
 "
 ]
 [
