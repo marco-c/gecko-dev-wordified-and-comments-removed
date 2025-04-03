@@ -909,13 +909,6 @@ aResult
 ;
 static
 constexpr
-uint32_t
-kDefaultCachedDataTimeoutInMs
-=
-5000
-;
-static
-constexpr
 const
 char
 *
