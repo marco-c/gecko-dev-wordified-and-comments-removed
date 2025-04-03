@@ -398,10 +398,6 @@ aInPrivateBrowsing
 ;
 static
 bool
-sIsInTSFMode
-;
-static
-bool
 sIsIMMEnabled
 ;
 static
@@ -409,11 +405,7 @@ bool
 IsTSFAvailable
 (
 )
-{
-return
-sIsInTSFMode
 ;
-}
 static
 bool
 IsIMMActive
