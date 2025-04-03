@@ -448,11 +448,6 @@ CacheControlParser
 cpp
 "
 "
-CachePushChecker
-.
-cpp
-"
-"
 Capsule
 .
 cpp
