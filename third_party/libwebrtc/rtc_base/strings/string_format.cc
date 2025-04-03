@@ -24,7 +24,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {

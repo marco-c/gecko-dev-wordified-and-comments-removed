@@ -10,7 +10,7 @@ include
 string
 >
 namespace
-rtc
+webrtc
 {
 #
 if
@@ -67,6 +67,18 @@ RTC_PRINTF_FORMAT
 1
 2
 )
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+StringFormat
 ;
 }
 #

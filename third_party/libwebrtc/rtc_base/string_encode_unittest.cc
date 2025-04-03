@@ -2037,6 +2037,9 @@ i
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 StringFormat
 (
 "
