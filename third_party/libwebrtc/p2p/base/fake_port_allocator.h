@@ -1134,6 +1134,7 @@ rtc
 PacketSocketFactory
 *
 factory
+const
 webrtc
 :
 :
@@ -1170,6 +1171,7 @@ rtc
 PacketSocketFactory
 >
 factory
+const
 webrtc
 :
 :
@@ -1325,6 +1327,7 @@ rtc
 PacketSocketFactory
 >
 owned_factory
+const
 webrtc
 :
 :
