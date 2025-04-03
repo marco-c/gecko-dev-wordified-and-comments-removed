@@ -19,11 +19,6 @@ initializer_list
 #
 include
 <
-utility
->
-#
-include
-<
 vector
 >
 namespace

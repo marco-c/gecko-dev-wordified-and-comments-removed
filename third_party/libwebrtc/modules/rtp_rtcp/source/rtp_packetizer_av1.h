@@ -84,10 +84,6 @@ VideoFrameType
 frame_type
 bool
 is_last_frame_in_picture
-bool
-even_distribution
-=
-true
 )
 ;
 ~
@@ -228,7 +224,7 @@ vector
 <
 Packet
 >
-PacketizeAboutEqually
+PacketizeInternal
 (
 rtc
 :
