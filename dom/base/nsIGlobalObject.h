@@ -1258,6 +1258,16 @@ false
 }
 virtual
 void
+UpdateWebSocketCount
+(
+int32_t
+aDelta
+)
+{
+}
+;
+virtual
+void
 ReportToConsole
 (
 uint32_t

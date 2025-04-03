@@ -881,13 +881,6 @@ int32_t
 aDelta
 )
 ;
-void
-UpdateWebSocketCount
-(
-int32_t
-aDelta
-)
-;
 mozilla
 :
 :
