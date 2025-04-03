@@ -8970,6 +8970,12 @@ IncludeAllContentVisibility
 const
 ;
 bool
+IsHiddenUntilFound
+(
+)
+const
+;
+bool
 IsHiddenByContentVisibilityOfInFlowParentForLayout
 (
 )
