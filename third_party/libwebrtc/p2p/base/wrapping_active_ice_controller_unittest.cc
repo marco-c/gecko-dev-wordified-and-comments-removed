@@ -40,7 +40,7 @@ include
 "
 p2p
 /
-base
+test
 /
 mock_ice_agent
 .
@@ -51,7 +51,7 @@ include
 "
 p2p
 /
-base
+test
 /
 mock_ice_controller
 .

@@ -546,7 +546,7 @@ cc
 +
 p2p
 /
-base
+test
 /
 turn_server
 .

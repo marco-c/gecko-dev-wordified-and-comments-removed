@@ -49,7 +49,7 @@ include
 "
 p2p
 /
-base
+test
 /
 fake_ice_transport
 .
@@ -60,7 +60,7 @@ include
 "
 p2p
 /
-base
+test
 /
 fake_port_allocator
 .

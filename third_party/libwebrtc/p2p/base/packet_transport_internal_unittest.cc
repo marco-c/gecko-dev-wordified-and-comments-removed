@@ -14,7 +14,7 @@ include
 "
 p2p
 /
-base
+test
 /
 fake_packet_transport
 .

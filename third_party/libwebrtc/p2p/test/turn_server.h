@@ -1,9 +1,9 @@
 #
 ifndef
-P2P_BASE_TURN_SERVER_H_
+P2P_TEST_TURN_SERVER_H_
 #
 define
-P2P_BASE_TURN_SERVER_H_
+P2P_TEST_TURN_SERVER_H_
 #
 include
 <

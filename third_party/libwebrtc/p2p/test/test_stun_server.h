@@ -1,9 +1,9 @@
 #
 ifndef
-P2P_BASE_TEST_STUN_SERVER_H_
+P2P_TEST_TEST_STUN_SERVER_H_
 #
 define
-P2P_BASE_TEST_STUN_SERVER_H_
+P2P_TEST_TEST_STUN_SERVER_H_
 #
 include
 <
@@ -25,7 +25,7 @@ include
 "
 p2p
 /
-base
+test
 /
 stun_server
 .
