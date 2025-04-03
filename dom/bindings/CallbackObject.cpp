@@ -437,7 +437,7 @@ get
 mozilla
 :
 :
-HoldJSObjects
+HoldJSObjectsWithKey
 (
 this
 )
