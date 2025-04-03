@@ -599,7 +599,7 @@ OptimizeRegExpPrototypeFuse
 final
 :
 public
-RealmFuse
+InvalidatingRealmFuse
 {
 virtual
 const
