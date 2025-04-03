@@ -4153,6 +4153,9 @@ hashes
 "
 )
         
+try
+:
+            
 install_result
 =
 self
@@ -4164,10 +4167,10 @@ pip_install
 args
 )
         
-if
-install_result
+except
+subprocess
 .
-returncode
+CalledProcessError
 :
             
 raise
@@ -6183,9 +6186,6 @@ pip_install_args
 kwargs
             
 )
-            
-return
-install_result
         
 except
 subprocess
@@ -6233,12 +6233,11 @@ sys
 stderr
 )
             
-sys
-.
-exit
-(
-1
-)
+raise
+cpe
+        
+return
+install_result
     
 def
 install_optional_packages
@@ -6275,45 +6274,18 @@ except
 subprocess
 .
 CalledProcessError
-as
-error
 :
                 
+if
+not
+self
+.
+_quiet
+:
+                    
 print
 (
-                    
-f
-"
-{
-error
-.
-output
-if
-error
-.
-output
-else
-'
-'
-}
-"
-                    
-f
-"
-{
-error
-.
-stderr
-if
-error
-.
-stderr
-else
-'
-'
-}
-"
-                    
+                        
 f
 "
 Could
@@ -6328,7 +6300,7 @@ name
 }
 so
 "
-                    
+                        
 f
 "
 {
@@ -6340,7 +6312,7 @@ repercussion
 Continuing
 .
 "
-                
+                    
 )
     
 def
