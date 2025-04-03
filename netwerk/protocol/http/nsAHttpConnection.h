@@ -39,7 +39,7 @@ h
 #
 include
 "
-Http3WebTransportSession
+WebTransportSessionBase
 .
 h
 "
@@ -263,7 +263,7 @@ nodiscard
 ]
 ]
 virtual
-Http3WebTransportSession
+WebTransportSessionBase
 *
 GetWebTransportSession
 (
@@ -600,7 +600,7 @@ override
 nodiscard
 ]
 ]
-Http3WebTransportSession
+WebTransportSessionBase
 *
 GetWebTransportSession
 (

@@ -955,6 +955,17 @@ MarkAsDontReuse
 (
 )
 ;
+virtual
+WebTransportSessionBase
+*
+GetWebTransportSession
+(
+nsAHttpTransaction
+*
+aTransaction
+)
+override
+;
 private
 :
 RefPtr

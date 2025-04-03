@@ -1340,7 +1340,7 @@ AssertCurrentThreadOwns
 ;
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 wt
 ;
@@ -2043,7 +2043,7 @@ DoCreateStream
 WebTransportStreamCallbackWrapper
 *
 aCallback
-Http3WebTransportSession
+WebTransportSessionBase
 *
 aSession
 bool
@@ -2160,7 +2160,7 @@ aBidi
 ;
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 session
 =
@@ -2323,7 +2323,7 @@ Result
 <
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 nsresult
 >
@@ -2358,7 +2358,7 @@ return
 }
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 stream
 =
@@ -2511,7 +2511,7 @@ SendDatagramInternal
 const
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 &
 aSession
@@ -2568,7 +2568,7 @@ aTrackingId
 {
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 session
 ;
@@ -2721,7 +2721,7 @@ GetMaxDatagramSizeInternal
 const
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 &
 aSession
@@ -2752,7 +2752,7 @@ GetMaxDatagramSize
 {
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 session
 ;
@@ -3916,7 +3916,7 @@ WebTransportSessionProxy
 :
 OnSessionReadyInternal
 (
-Http3WebTransportSession
+WebTransportSessionBase
 *
 aSession
 )
@@ -4053,7 +4053,7 @@ WebTransportSessionProxy
 :
 OnIncomingStreamAvailableInternal
 (
-Http3WebTransportStream
+WebTransportStreamBase
 *
 aStream
 )
@@ -4164,7 +4164,7 @@ this
 ;
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 stream
 =

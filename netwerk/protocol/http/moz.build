@@ -827,6 +827,16 @@ WebTransportCertificateVerifier
 .
 cpp
 "
+"
+WebTransportSessionBase
+.
+cpp
+"
+"
+WebTransportStreamBase
+.
+cpp
+"
 ]
 if
 CONFIG

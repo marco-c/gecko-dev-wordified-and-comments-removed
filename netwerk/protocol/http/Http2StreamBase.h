@@ -104,6 +104,9 @@ class
 Http2Decompressor
 ;
 class
+Http2WebTransportSession
+;
+class
 Http2StreamBase
 :
 public
@@ -797,6 +800,17 @@ virtual
 Http2PushedStream
 *
 GetHttp2PushedStream
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+Http2WebTransportSession
+*
+GetHttp2WebTransportSession
 (
 )
 {

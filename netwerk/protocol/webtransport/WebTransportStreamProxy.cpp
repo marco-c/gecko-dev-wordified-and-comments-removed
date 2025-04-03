@@ -15,13 +15,6 @@ h
 #
 include
 "
-Http3WebTransportStream
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h
@@ -74,7 +67,7 @@ WebTransportStreamProxy
 :
 WebTransportStreamProxy
 (
-Http3WebTransportStream
+WebTransportStreamBase
 *
 aStream
 )
@@ -1196,7 +1189,7 @@ AsyncInputStreamWrapper
 nsIAsyncInputStream
 *
 aStream
-Http3WebTransportStream
+WebTransportStreamBase
 *
 aWebTransportStream
 )

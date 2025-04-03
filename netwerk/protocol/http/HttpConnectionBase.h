@@ -134,7 +134,7 @@ class
 ASpdySession
 ;
 class
-Http3WebTransportSession
+WebTransportSessionBase
 ;
 enum
 class
@@ -362,7 +362,8 @@ nsIAsyncOutputStream
 =
 0
 ;
-Http3WebTransportSession
+virtual
+WebTransportSessionBase
 *
 GetWebTransportSession
 (

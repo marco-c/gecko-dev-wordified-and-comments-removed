@@ -239,10 +239,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
 )
-NS_INTERFACE_MAP_END_INHERITING
-(
-Http2StreamTunnel
-)
+NS_INTERFACE_MAP_END
 Http2StreamTunnel
 :
 :
@@ -350,10 +347,8 @@ ProcessPendingQ
 failed
 :
 %
-08x
-\
-n
 "
+PRIX32
 this
 static_cast
 <
