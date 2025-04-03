@@ -347,6 +347,14 @@ any
 ]
 [
 "
+nsIOhttpClientTest
+"
+"
+any
+"
+]
+[
+"
 nsICodeCoverage
 "
 "
