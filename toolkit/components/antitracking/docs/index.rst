@@ -135,6 +135,17 @@ index
 .
 md
 >
+SmartBlock
+Embeds
+<
+smartblock
+-
+embeds
+/
+index
+.
+md
+>
 Tracking
 Lists
 <
