@@ -764,12 +764,6 @@ CongestionAlgorithmPhase
 kCongestionAvoidance
 ;
 }
-size_t
-max_bytes_to_send
-(
-)
-const
-;
 DcSctpSocketCallbacks
 &
 callbacks_
