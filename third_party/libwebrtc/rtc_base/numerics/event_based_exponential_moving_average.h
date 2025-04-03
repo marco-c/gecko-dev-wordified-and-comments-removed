@@ -25,7 +25,7 @@ include
 optional
 >
 namespace
-rtc
+webrtc
 {
 class
 EventBasedExponentialMovingAverage
@@ -135,6 +135,18 @@ int64_t
 last_observation_timestamp_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+EventBasedExponentialMovingAverage
 ;
 }
 #

@@ -45,7 +45,7 @@ ninetyfive_percent_confidence
 ;
 }
 namespace
-rtc
+webrtc
 {
 EventBasedExponentialMovingAverage
 :

@@ -51,7 +51,7 @@ kError
 ;
 }
 namespace
-rtc
+webrtc
 {
 TEST
 (
