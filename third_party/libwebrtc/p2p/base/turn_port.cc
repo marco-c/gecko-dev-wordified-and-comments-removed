@@ -10220,7 +10220,16 @@ size
 ;
 buf
 .
-WriteBytes
+Write
+(
+webrtc
+:
+:
+ArrayView
+<
+const
+uint8_t
+>
 (
 reinterpret_cast
 <
@@ -10232,6 +10241,7 @@ uint8_t
 data
 )
 size
+)
 )
 ;
 }
