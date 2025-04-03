@@ -66,6 +66,13 @@ js
 ]
 [
 "
+browser_console_messages
+.
+js
+"
+]
+[
+"
 browser_interventions
 .
 js
