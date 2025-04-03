@@ -2874,6 +2874,7 @@ mReferencedElementTracker
 .
 ResetToURIWithFragmentID
 (
+*
 treeToWatch
 targetURI
 referrer
