@@ -471,9 +471,6 @@ Usage
 aUsage
 const
 PixelFormat
-aPixelFormat
-const
-PixelFormat
 aSourcePixelFormat
 const
 uint32_t
@@ -539,10 +536,6 @@ aUsage
 mHardwarePreference
 (
 aHardwarePreference
-)
-mPixelFormat
-(
-aPixelFormat
 )
 mSourcePixelFormat
 (
@@ -731,11 +724,6 @@ mUsage
 ;
 HardwarePreference
 mHardwarePreference
-{
-}
-;
-PixelFormat
-mPixelFormat
 {
 }
 ;
