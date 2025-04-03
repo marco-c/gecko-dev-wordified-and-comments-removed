@@ -341,6 +341,13 @@ js
 ]
 [
 "
+browser_creditCard_decryption_failure
+.
+js
+"
+]
+[
+"
 browser_creditCard_doorhanger_action
 .
 js
