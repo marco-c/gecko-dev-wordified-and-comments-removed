@@ -3831,6 +3831,7 @@ newTarget
 )
 ;
 }
+async
 selectTarget
 (
 targetFront
@@ -3848,7 +3849,7 @@ isDestroyedOrBeingDestroyed
 return
 ;
 }
-return
+await
 this
 .
 _onTargetSelected

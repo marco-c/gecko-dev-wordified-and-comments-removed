@@ -392,7 +392,7 @@ startListening
 (
 )
 ;
-let
+const
 reloadedTargets
 =
 [
