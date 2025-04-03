@@ -79,7 +79,7 @@ private
 {
 DistributionData
 ErrorType
-MetricGetter
+MetricId
 TimerId
 TimingDistributionMetric
 }
@@ -143,7 +143,7 @@ crate
 )
 id
 :
-MetricGetter
+MetricId
 pub
 (
 crate
@@ -195,7 +195,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 self
 .
@@ -274,7 +274,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -287,7 +287,7 @@ GIFFT
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -458,7 +458,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -471,7 +471,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -638,7 +638,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -651,7 +651,7 @@ GIFFT
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -819,7 +819,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -832,7 +832,7 @@ GIFFT
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -1598,7 +1598,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1611,7 +1611,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -1820,7 +1820,7 @@ self
 .
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1833,7 +1833,7 @@ GIFFT
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;
@@ -2345,7 +2345,7 @@ metric_id
 (
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -2358,7 +2358,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 )

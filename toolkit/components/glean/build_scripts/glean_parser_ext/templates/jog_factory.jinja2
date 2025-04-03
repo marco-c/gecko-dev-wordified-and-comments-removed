@@ -136,7 +136,7 @@ endif
 %
 }
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -254,7 +254,7 @@ MemoryUnit
 TimeUnit
 Ping
 LabeledMetric
-MetricId
+BaseMetricId
 {
 %
 for
@@ -541,7 +541,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 use
 crate
@@ -669,7 +669,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 {
 {
 metric_type_name
@@ -783,7 +783,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 LabeledMetric
 <
 {
@@ -907,7 +907,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 EventMetric
 <
 NoExtraKeys
@@ -960,6 +960,13 @@ K
 >
 #
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 static
 OBJECT_MAP
@@ -972,7 +979,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 ObjectMetric
 <
 RuntimeObject
@@ -1777,7 +1784,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )

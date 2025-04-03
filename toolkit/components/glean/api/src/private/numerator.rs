@@ -44,7 +44,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 #
 [
@@ -61,7 +61,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -89,7 +89,7 @@ pub
 struct
 NumeratorMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -101,7 +101,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -174,7 +174,7 @@ self
 )
 -
 >
-MetricId
+BaseMetricId
 {
 match
 self

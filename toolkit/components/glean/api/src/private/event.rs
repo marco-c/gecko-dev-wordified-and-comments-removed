@@ -18,8 +18,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 RecordedEvent
 }
 ;
@@ -109,7 +109,7 @@ EventMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 extra
 :
 HashMap
@@ -422,7 +422,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -452,7 +452,7 @@ pub
 struct
 EventMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -481,7 +481,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -541,7 +541,7 @@ with_runtime_extra_keys
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -1360,7 +1360,7 @@ NoExtraKeys
 :
 new
 (
-MetricId
+BaseMetricId
 (
 0
 )

@@ -27,8 +27,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricGetter
 MetricId
 }
 ;
@@ -59,7 +59,7 @@ Parent
 {
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -90,7 +90,7 @@ pub
 struct
 CounterMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -102,7 +102,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -204,7 +204,7 @@ Child
 (
 CounterMetricIpc
 (
-MetricId
+BaseMetricId
 (
 id
 )
@@ -278,7 +278,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 (
 id
 )
@@ -326,7 +326,7 @@ Child
 (
 CounterMetricIpc
 (
-MetricId
+BaseMetricId
 (
 id
 )
@@ -403,7 +403,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 (
 id
 )
@@ -434,7 +434,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self
@@ -518,7 +518,7 @@ CounterMetricIpc
 id
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -674,7 +674,7 @@ amount
 }
 )
 ;
-MetricGetter
+MetricId
 :
 :
 Id
@@ -1079,7 +1079,7 @@ metric_id
 (
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1092,7 +1092,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;

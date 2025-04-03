@@ -18,8 +18,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -46,7 +46,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 Arc
@@ -86,7 +86,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

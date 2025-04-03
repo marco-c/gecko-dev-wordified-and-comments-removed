@@ -37,7 +37,7 @@ MemoryUnit
 TimeUnit
 Ping
 LabeledMetric
-MetricId
+BaseMetricId
 BooleanMetric
 CounterMetric
 CustomDistributionMetric
@@ -558,7 +558,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 use
 crate
@@ -636,7 +636,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 BooleanMetric
 >
 >
@@ -682,7 +682,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 CounterMetric
 >
 >
@@ -728,7 +728,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 CustomDistributionMetric
 >
 >
@@ -774,7 +774,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 DatetimeMetric
 >
 >
@@ -820,7 +820,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 DenominatorMetric
 >
 >
@@ -866,7 +866,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 MemoryDistributionMetric
 >
 >
@@ -912,7 +912,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 NumeratorMetric
 >
 >
@@ -958,7 +958,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 QuantityMetric
 >
 >
@@ -1004,7 +1004,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 RateMetric
 >
 >
@@ -1050,7 +1050,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 StringMetric
 >
 >
@@ -1096,7 +1096,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 StringListMetric
 >
 >
@@ -1142,7 +1142,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 TextMetric
 >
 >
@@ -1188,7 +1188,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 TimespanMetric
 >
 >
@@ -1234,7 +1234,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 TimingDistributionMetric
 >
 >
@@ -1280,7 +1280,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 UuidMetric
 >
 >
@@ -1326,7 +1326,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 LabeledMetric
 <
 LabeledBooleanMetric
@@ -1376,7 +1376,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 LabeledMetric
 <
 LabeledCounterMetric
@@ -1426,7 +1426,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 LabeledMetric
 <
 LabeledStringMetric
@@ -1522,7 +1522,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 EventMetric
 <
 NoExtraKeys
@@ -1559,6 +1559,13 @@ new
 )
 )
 ;
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 static
 OBJECT_MAP
@@ -1571,7 +1578,7 @@ RwLock
 <
 HashMap
 <
-MetricId
+BaseMetricId
 ObjectMetric
 <
 RuntimeObject
@@ -1874,7 +1881,7 @@ BooleanMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -1888,7 +1895,7 @@ BooleanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -1925,7 +1932,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -1989,7 +1996,7 @@ CounterMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2025,7 +2032,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2089,7 +2096,7 @@ CustomDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2145,7 +2152,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2209,7 +2216,7 @@ DatetimeMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2250,7 +2257,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2314,7 +2321,7 @@ DenominatorMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2355,7 +2362,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2419,7 +2426,7 @@ EventMetric
 :
 with_runtime_extra_keys
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2460,7 +2467,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2540,7 +2547,7 @@ LabeledMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2555,7 +2562,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2593,7 +2600,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2665,7 +2672,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2702,7 +2709,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2774,7 +2781,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2811,7 +2818,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2875,7 +2882,7 @@ MemoryDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2916,7 +2923,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -2980,7 +2987,7 @@ NumeratorMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3016,7 +3023,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3080,7 +3087,7 @@ ObjectMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3116,7 +3123,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3180,7 +3187,7 @@ QuantityMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3216,7 +3223,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3280,7 +3287,7 @@ RateMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3316,7 +3323,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3380,7 +3387,7 @@ StringMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3416,7 +3423,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3480,7 +3487,7 @@ StringListMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3516,7 +3523,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3580,7 +3587,7 @@ TextMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3616,7 +3623,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3680,7 +3687,7 @@ TimespanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3721,7 +3728,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3785,7 +3792,7 @@ TimingDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3826,7 +3833,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3890,7 +3897,7 @@ UuidMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )
@@ -3926,7 +3933,7 @@ write
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 metric_id
 )

@@ -248,7 +248,7 @@ metric_getter
 :
 :
 {
-MetricGetter
+BaseMetricId
 MetricId
 SubMetricId
 }
@@ -834,7 +834,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 val
 :
 String
@@ -851,7 +851,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 val
 :
 &
@@ -887,7 +887,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 val
 :
 String
@@ -1211,7 +1211,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -1247,7 +1247,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -1655,7 +1655,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -1687,7 +1687,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -2199,7 +2199,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -2222,7 +2222,7 @@ id
 super
 :
 :
-MetricGetter
+MetricId
 label
 :
 Option

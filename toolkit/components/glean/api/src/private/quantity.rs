@@ -33,7 +33,7 @@ super
 :
 :
 {
-MetricGetter
+BaseMetricId
 MetricId
 }
 ;
@@ -61,7 +61,7 @@ Parent
 {
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -101,7 +101,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

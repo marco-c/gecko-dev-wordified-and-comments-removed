@@ -9,8 +9,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -76,7 +76,7 @@ UrlMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 val
 :
 String
@@ -320,7 +320,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -357,7 +357,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

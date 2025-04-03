@@ -151,7 +151,7 @@ BooleanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 1
 )
@@ -244,7 +244,7 @@ CounterMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 2
 )
@@ -337,7 +337,7 @@ CustomDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 3
 )
@@ -452,7 +452,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 4
 )
@@ -831,7 +831,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 5
 )
@@ -1116,7 +1116,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 6
 )
@@ -1343,7 +1343,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 7
 )
@@ -1492,7 +1492,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 8
 )
@@ -1719,7 +1719,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 9
 )
@@ -1853,7 +1853,7 @@ MemoryDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 10
 )
@@ -1950,7 +1950,7 @@ StringListMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 11
 )
@@ -2043,7 +2043,7 @@ StringMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 12
 )
@@ -2136,7 +2136,7 @@ TextMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 13
 )
@@ -2229,7 +2229,7 @@ TimespanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 14
 )
@@ -2326,7 +2326,7 @@ TimingDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 15
 )
@@ -2423,7 +2423,7 @@ BooleanMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 16
 )
@@ -2531,7 +2531,7 @@ LabeledMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 17
 )
@@ -2821,7 +2821,7 @@ ObjectMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 18
 )
@@ -2916,7 +2916,7 @@ DatetimeMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 19
 )
@@ -3018,7 +3018,7 @@ EventMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 20
 )
@@ -3289,7 +3289,7 @@ EventMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 21
 )
@@ -3384,7 +3384,7 @@ DenominatorMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 22
 )
@@ -3679,7 +3679,7 @@ QuantityMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 25
 )
@@ -3774,7 +3774,7 @@ RateMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 26
 )
@@ -3869,7 +3869,7 @@ NumeratorMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 27
 )
@@ -3964,7 +3964,7 @@ UuidMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 28
 )
@@ -4122,7 +4122,7 @@ BooleanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 29
 )
@@ -4215,7 +4215,7 @@ CounterMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 30
 )
@@ -4308,7 +4308,7 @@ CustomDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 31
 )
@@ -4423,7 +4423,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 32
 )
@@ -4802,7 +4802,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 33
 )
@@ -5087,7 +5087,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 34
 )
@@ -5314,7 +5314,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 35
 )
@@ -5463,7 +5463,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 36
 )
@@ -5690,7 +5690,7 @@ LabeledMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 37
 )
@@ -5824,7 +5824,7 @@ MemoryDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 38
 )
@@ -5921,7 +5921,7 @@ StringListMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 39
 )
@@ -6014,7 +6014,7 @@ StringMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 40
 )
@@ -6107,7 +6107,7 @@ TextMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 41
 )
@@ -6200,7 +6200,7 @@ TimespanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 42
 )
@@ -6297,7 +6297,7 @@ TimingDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 43
 )
@@ -6394,7 +6394,7 @@ BooleanMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 44
 )
@@ -6502,7 +6502,7 @@ LabeledMetric
 :
 with_unordered_ipc
 (
-MetricId
+BaseMetricId
 (
 45
 )
@@ -6792,7 +6792,7 @@ ObjectMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 46
 )
@@ -6887,7 +6887,7 @@ DatetimeMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 47
 )
@@ -6989,7 +6989,7 @@ EventMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 48
 )
@@ -7260,7 +7260,7 @@ EventMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 49
 )
@@ -7490,7 +7490,7 @@ QuantityMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 53
 )
@@ -7585,7 +7585,7 @@ RateMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 54
 )
@@ -7680,7 +7680,7 @@ NumeratorMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 55
 )
@@ -7775,7 +7775,7 @@ UuidMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 56
 )
@@ -7852,7 +7852,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -7885,7 +7885,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 1
 )
@@ -7903,7 +7903,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 16
 )
@@ -7921,7 +7921,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 29
 )
@@ -7939,7 +7939,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 44
 )
@@ -7965,7 +7965,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -7998,7 +7998,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 2
 )
@@ -8016,7 +8016,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 23
 )
@@ -8034,7 +8034,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 24
 )
@@ -8052,7 +8052,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 30
 )
@@ -8070,7 +8070,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 50
 )
@@ -8088,7 +8088,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 51
 )
@@ -8106,7 +8106,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 52
 )
@@ -8132,7 +8132,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8165,7 +8165,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 3
 )
@@ -8183,7 +8183,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 31
 )
@@ -8209,7 +8209,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8242,7 +8242,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 10
 )
@@ -8260,7 +8260,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 38
 )
@@ -8286,7 +8286,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8319,7 +8319,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 11
 )
@@ -8337,7 +8337,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 39
 )
@@ -8363,7 +8363,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8396,7 +8396,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 12
 )
@@ -8414,7 +8414,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 40
 )
@@ -8440,7 +8440,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8473,7 +8473,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 13
 )
@@ -8491,7 +8491,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 41
 )
@@ -8517,7 +8517,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8550,7 +8550,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 14
 )
@@ -8568,7 +8568,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 42
 )
@@ -8594,7 +8594,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8627,7 +8627,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 15
 )
@@ -8645,7 +8645,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 43
 )
@@ -8671,7 +8671,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8704,7 +8704,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 19
 )
@@ -8722,7 +8722,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 47
 )
@@ -8748,7 +8748,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8781,7 +8781,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 22
 )
@@ -8807,7 +8807,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8840,7 +8840,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 25
 )
@@ -8858,7 +8858,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 53
 )
@@ -8884,7 +8884,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8917,7 +8917,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 26
 )
@@ -8935,7 +8935,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 54
 )
@@ -8961,7 +8961,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -8994,7 +8994,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 27
 )
@@ -9012,7 +9012,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 55
 )
@@ -9038,7 +9038,7 @@ Lazy
 <
 HashMap
 <
-MetricId
+BaseMetricId
 &
 Lazy
 <
@@ -9071,7 +9071,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 28
 )
@@ -9089,7 +9089,7 @@ map
 .
 insert
 (
-MetricId
+BaseMetricId
 (
 56
 )
@@ -9522,7 +9522,7 @@ record_event_by_id_with_time
 (
 metric_id
 :
-MetricId
+BaseMetricId
 timestamp
 :
 u64
@@ -9546,7 +9546,7 @@ EventRecordingError
 match
 metric_id
 {
-MetricId
+BaseMetricId
 (
 20
 )
@@ -9607,7 +9607,7 @@ Ok
 )
 )
 }
-MetricId
+BaseMetricId
 (
 21
 )
@@ -9668,7 +9668,7 @@ Ok
 )
 )
 }
-MetricId
+BaseMetricId
 (
 48
 )
@@ -9729,7 +9729,7 @@ Ok
 )
 )
 }
-MetricId
+BaseMetricId
 (
 49
 )
@@ -10930,7 +10930,7 @@ RwLock
 HashMap
 <
 (
-MetricId
+BaseMetricId
 String
 )
 SubMetricId

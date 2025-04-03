@@ -9,8 +9,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 TimeUnit
 }
 ;
@@ -101,7 +101,7 @@ TimespanMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 value
 :
 Option
@@ -437,7 +437,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -462,7 +462,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -1637,7 +1637,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 use
 crate
@@ -1676,7 +1676,7 @@ TimespanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 0
 )

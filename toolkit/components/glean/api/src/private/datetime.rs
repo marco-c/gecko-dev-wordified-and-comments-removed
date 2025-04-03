@@ -9,8 +9,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -101,7 +101,7 @@ DatetimeMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 time
 :
 chrono
@@ -394,7 +394,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -431,7 +431,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

@@ -9,8 +9,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -49,7 +49,7 @@ Parent
 {
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -77,7 +77,7 @@ pub
 struct
 StringListMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -89,7 +89,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
