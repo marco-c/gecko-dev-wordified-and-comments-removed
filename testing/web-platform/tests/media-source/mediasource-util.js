@@ -1424,8 +1424,6 @@ supported
 var
 mediaURL
 =
-baseURL
-+
 manifest
 .
 url
