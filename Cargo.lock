@@ -25443,6 +25443,9 @@ nsstring
 qlog
 "
 "
+static_assertions
+"
+"
 static_prefs
 "
 "
