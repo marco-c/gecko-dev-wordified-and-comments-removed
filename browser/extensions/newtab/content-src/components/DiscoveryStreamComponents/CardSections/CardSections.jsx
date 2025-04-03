@@ -965,7 +965,7 @@ sectionKey
 section_position
 :
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 following
 }

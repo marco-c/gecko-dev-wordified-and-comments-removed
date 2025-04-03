@@ -3473,7 +3473,7 @@ is_list_card
 format
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 =
 action
@@ -3627,7 +3627,7 @@ section
 {
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 :
 {
@@ -3832,7 +3832,7 @@ thumbs_down
 topic
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 =
 action
@@ -3926,7 +3926,7 @@ section
 {
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 :
 {
@@ -3963,7 +3963,7 @@ is_list_card
 format
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 =
 action
@@ -4021,7 +4021,7 @@ section
 {
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 :
 {
@@ -5493,7 +5493,7 @@ const
 section
 section_position
 event_source
-is_secton_followed
+is_section_followed
 }
 =
 action
@@ -5582,7 +5582,7 @@ session
 session_id
 section
 section_position
-is_secton_followed
+is_section_followed
 }
 )
 ;
@@ -6501,11 +6501,11 @@ section_position
 datum
 .
 section_position
-is_secton_followed
+is_section_followed
 :
 datum
 .
-is_secton_followed
+is_section_followed
 }
 :
 {
@@ -6924,11 +6924,11 @@ section_position
 tile
 .
 section_position
-is_secton_followed
+is_section_followed
 :
 tile
 .
-is_secton_followed
+is_section_followed
 }
 :
 {

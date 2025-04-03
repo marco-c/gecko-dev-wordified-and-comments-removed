@@ -2057,7 +2057,7 @@ this
 props
 .
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 this
 .
@@ -2260,7 +2260,7 @@ this
 props
 .
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 this
 .
@@ -2463,7 +2463,7 @@ this
 props
 .
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 this
 .
@@ -2897,7 +2897,7 @@ this
 props
 .
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 this
 .
@@ -4497,7 +4497,7 @@ this
 props
 .
 sectionPosition
-is_secton_followed
+is_section_followed
 :
 this
 .
@@ -5123,7 +5123,7 @@ props
 .
 sectionPosition
 }
-is_secton_followed
+is_section_followed
 =
 {
 this

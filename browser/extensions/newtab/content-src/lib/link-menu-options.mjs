@@ -543,11 +543,11 @@ section_position
 site
 .
 section_position
-is_secton_followed
+is_section_followed
 :
 site
 .
-is_secton_followed
+is_section_followed
 }
 :
 {
@@ -981,11 +981,11 @@ section_position
 site
 .
 section_position
-is_secton_followed
+is_section_followed
 :
 site
 .
-is_secton_followed
+is_section_followed
 }
 :
 {
