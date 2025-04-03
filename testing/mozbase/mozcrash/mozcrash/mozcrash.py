@@ -5332,7 +5332,7 @@ Library
 Application
 Support
 /
-Firefox
+firefox
 /
 Crash
 Reports

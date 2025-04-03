@@ -130,11 +130,13 @@ h
 ]
 [
 export
+.
+rename
 ]
-exclude
+"
+ThinVec
+"
 =
-[
 "
-nsCString
+nsTArray
 "
-]
