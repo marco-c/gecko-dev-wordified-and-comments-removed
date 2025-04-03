@@ -3435,6 +3435,9 @@ exp
 )
 :
         
+return
+True
+        
 self
 .
 open_tab
