@@ -1187,6 +1187,8 @@ resource
 /
 modules
 /
+taskbartabs
+/
 TaskbarTabUI
 .
 sys
