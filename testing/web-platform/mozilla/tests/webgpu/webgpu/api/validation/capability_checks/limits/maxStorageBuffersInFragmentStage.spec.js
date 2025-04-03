@@ -38,7 +38,7 @@ makeLimitTestGroup
 kBindGroupTests
 getPipelineTypeForBindingCombination
 getPerStageWGSLForBindingCombination
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 testMaxStorageXXXInYYYStageDeviceCreationWithDependentLimit
 }
 from
@@ -783,7 +783,7 @@ maxBindingsPerBindGroup
 const
 visibility
 =
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 bindingCombination
 )

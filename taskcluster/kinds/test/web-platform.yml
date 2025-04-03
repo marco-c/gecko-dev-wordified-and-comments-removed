@@ -3272,6 +3272,11 @@ test
 -
 platform
 :
+macosx
+.
+*
+:
+5
 windows
 .
 *
@@ -3280,7 +3285,7 @@ windows
 .
 *
 :
-5
+6
 default
 :
 4

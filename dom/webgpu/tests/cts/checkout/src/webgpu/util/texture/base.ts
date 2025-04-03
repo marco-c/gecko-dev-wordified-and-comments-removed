@@ -1073,6 +1073,8 @@ GPUTextureDescriptor
 >
 )
 :
+GPUTextureDescriptor
+&
 Required
 <
 Omit
@@ -1084,6 +1086,10 @@ label
 |
 '
 viewFormats
+'
+|
+'
+textureBindingViewDimension
 '
 >
 >

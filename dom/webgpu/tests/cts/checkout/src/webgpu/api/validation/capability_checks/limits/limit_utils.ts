@@ -411,7 +411,7 @@ createComputePipeline
 }
 export
 function
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 bindingCombination
 :

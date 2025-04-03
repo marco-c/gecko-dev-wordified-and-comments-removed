@@ -117,7 +117,7 @@ kBindGroupTests
 getPerStageWGSLForBindingCombinationStorageTextures
 getPipelineTypeForBindingCombination
 kBindingCombinations
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 addMaximumLimitUpToDependentLimit
 }
 from
@@ -1096,7 +1096,7 @@ t
 >
 filterWriteAccessInVertexStage
 (
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 t
 .
@@ -1231,7 +1231,7 @@ maxBindingsPerBindGroup
 const
 visibility
 =
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 bindingCombination
 )

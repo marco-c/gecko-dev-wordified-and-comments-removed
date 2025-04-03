@@ -120,7 +120,7 @@ getPipelineTypeForBindingCombination
 LimitsRequest
 LimitTestsImpl
 kBindingCombinations
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 MaximumLimitValueTest
 addMaximumLimitUpToDependentLimit
 }
@@ -1126,7 +1126,7 @@ t
 >
 filterWriteAccessInVertexStage
 (
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 t
 .
@@ -1259,7 +1259,7 @@ maxBindingsPerBindGroup
 const
 visibility
 =
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 bindingCombination
 )

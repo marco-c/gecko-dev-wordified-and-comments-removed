@@ -1448,6 +1448,13 @@ skipIfTextureFormatNotSupported
 format
 )
 ;
+t
+.
+skipIfTextureFormatNotUsableAsRenderAttachment
+(
+format
+)
+;
 const
 descriptor
 =
@@ -2230,6 +2237,13 @@ params
 t
 .
 skipIfTextureFormatNotSupported
+(
+format
+)
+;
+t
+.
+skipIfTextureFormatNotUsableAsRenderAttachment
 (
 format
 )
