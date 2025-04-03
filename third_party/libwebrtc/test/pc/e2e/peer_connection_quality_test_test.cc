@@ -714,12 +714,8 @@ test_directory_
 PeerConfigurer
 alice
 (
+*
 alice_network
--
->
-network_dependencies
-(
-)
 )
 ;
 alice
@@ -769,12 +765,8 @@ alice
 PeerConfigurer
 bob
 (
+*
 bob_network
--
->
-network_dependencies
-(
-)
 )
 ;
 bob
