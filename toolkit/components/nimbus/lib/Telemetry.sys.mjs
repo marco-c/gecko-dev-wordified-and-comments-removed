@@ -235,6 +235,11 @@ FEATURE_CONFLICT
 "
 FeatureConflict
 "
+NAME_CONFLICT
+:
+"
+NameConflict
+"
 ERROR
 :
 "
