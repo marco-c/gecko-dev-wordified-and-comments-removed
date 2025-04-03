@@ -23657,13 +23657,6 @@ version
 .
 0
 "
-dependencies
-=
-[
-"
-nsstring
-"
-]
 [
 [
 package
