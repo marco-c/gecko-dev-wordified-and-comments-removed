@@ -130,7 +130,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 int64_t
 SystemTimeNanos
@@ -292,6 +292,9 @@ ts
 ;
 ticks
 =
+rtc
+:
+:
 kNumNanosecsPerSec
 *
 static_cast
@@ -426,6 +429,9 @@ ticks
 =
 ticks
 *
+rtc
+:
+:
 kNumNanosecsPerMillisec
 ;
 #
