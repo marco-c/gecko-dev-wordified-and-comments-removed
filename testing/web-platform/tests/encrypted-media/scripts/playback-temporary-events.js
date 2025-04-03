@@ -726,6 +726,8 @@ step_func
 (
 onAllClosed
 )
+(
+)
 ;
 }
 )
