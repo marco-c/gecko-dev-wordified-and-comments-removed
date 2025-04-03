@@ -151,6 +151,13 @@ html
 ]
 [
 "
+test_moz_box_group
+.
+html
+"
+]
+[
+"
 test_moz_box_item
 .
 html
