@@ -95,6 +95,14 @@ eNo
 eDefault
 }
 ;
+enum
+class
+SystemGroupOnly
+{
+eYes
+eNo
+}
+;
 typedef
 uint16_t
 EventMessageType
