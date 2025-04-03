@@ -3119,7 +3119,7 @@ uint32_t
 aCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 nsTArray
 <

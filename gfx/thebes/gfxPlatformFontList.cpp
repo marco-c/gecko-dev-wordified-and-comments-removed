@@ -6155,7 +6155,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
@@ -6406,7 +6406,7 @@ if
 aPresentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -6498,7 +6498,7 @@ font
 aPresentation
 !
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -6835,7 +6835,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
@@ -6945,7 +6945,7 @@ if
 (
 aPresentation
 <
-eFontPresentation
+FontPresentation
 :
 :
 EmojiDefault
@@ -7230,7 +7230,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
@@ -7348,7 +7348,7 @@ if
 aPresentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -7434,7 +7434,7 @@ if
 aPresentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any

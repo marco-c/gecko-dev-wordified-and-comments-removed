@@ -1145,7 +1145,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
@@ -3107,7 +3107,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
@@ -3137,7 +3137,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 const
 gfxFontStyle
