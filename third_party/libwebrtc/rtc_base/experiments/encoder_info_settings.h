@@ -194,6 +194,8 @@ ResolutionBitrateLimits
 >
 GetDefaultSinglecastBitrateLimitsWhenQpIsUntrusted
 (
+VideoCodecType
+codec_type
 )
 ;
 static

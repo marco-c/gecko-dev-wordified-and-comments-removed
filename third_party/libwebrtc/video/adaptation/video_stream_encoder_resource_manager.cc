@@ -2716,6 +2716,8 @@ ResolutionBitrateLimits
 >
 &
 resolution_bitrate_limits
+VideoCodecType
+codec_type
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2784,6 +2786,7 @@ bandwidth_quality_scaler_resource_
 StartCheckForOveruse
 (
 resolution_bitrate_limits
+codec_type
 )
 ;
 }
@@ -3072,6 +3075,10 @@ bandwidth_quality_scaling_allowed
 encoder_info
 .
 resolution_bitrate_limits
+GetVideoCodecTypeOrGeneric
+(
+encoder_settings_
+)
 )
 ;
 UpdateStatsAdaptationSettings

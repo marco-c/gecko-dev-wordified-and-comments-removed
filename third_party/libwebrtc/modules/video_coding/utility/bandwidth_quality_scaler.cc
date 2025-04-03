@@ -394,6 +394,8 @@ ResolutionBitrateLimits
 >
 &
 resolution_bitrate_limits
+VideoCodecType
+codec_type
 )
 {
 if
@@ -412,6 +414,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsWhenQpIsUntrusted
 (
+codec_type
 )
 ;
 }

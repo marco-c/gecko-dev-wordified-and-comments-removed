@@ -224,6 +224,8 @@ ResolutionBitrateLimits
 >
 &
 resolution_bitrate_limits
+VideoCodecType
+codec_type
 )
 ;
 private
