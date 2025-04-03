@@ -436,6 +436,13 @@ js
 ]
 [
 "
+test_getFaviconForPage
+.
+js
+"
+]
+[
+"
 test_getFaviconLinkForIcon
 .
 js
