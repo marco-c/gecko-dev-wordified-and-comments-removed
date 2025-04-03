@@ -874,11 +874,6 @@ GetDevicePixelRatioAtZoom
 pc
 -
 >
-DeviceContext
-(
-)
--
->
 GetFullZoom
 (
 )
