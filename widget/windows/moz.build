@@ -554,6 +554,11 @@ TSFTextStore
 cpp
 "
 "
+TSFTextStoreBase
+.
+cpp
+"
+"
 WinCompositorWindowThread
 .
 cpp
