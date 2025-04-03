@@ -98,7 +98,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 #
 TODO
@@ -149,11 +149,6 @@ wgsl
 "
 "
 api_log_info
-"
-"
-indirect
--
-validation
 "
 ]
 #
@@ -238,7 +233,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 features
 =
@@ -300,7 +295,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 features
 =
@@ -387,7 +382,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 features
 =
@@ -428,7 +423,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 [
 dependencies
@@ -462,7 +457,7 @@ wgpu
 rev
 =
 "
-c6286791febc64cf8ef054b5356c2669327ef51c
+c7c79a0dc9356081a884b5518d1c08ce7a09c7c5
 "
 features
 =

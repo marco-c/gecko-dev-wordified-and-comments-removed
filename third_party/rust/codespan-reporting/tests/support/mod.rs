@@ -144,7 +144,6 @@ config
 self
 .
 files
-&
 diagnostic
 )
 .
@@ -182,7 +181,6 @@ ColorBuffer
 new
 (
 )
-&
 config
 )
 .
@@ -220,7 +218,6 @@ Buffer
 no_color
 (
 )
-&
 config
 )
 ;

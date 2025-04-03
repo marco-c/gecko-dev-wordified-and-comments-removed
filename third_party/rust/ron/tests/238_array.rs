@@ -140,7 +140,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 1
 )
@@ -153,7 +153,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 2
 )
@@ -166,7 +166,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 3
 )
@@ -321,7 +321,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 1
 )
@@ -334,7 +334,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 2
 )
@@ -347,7 +347,7 @@ Number
 Number
 :
 :
-from
+U8
 (
 3
 )

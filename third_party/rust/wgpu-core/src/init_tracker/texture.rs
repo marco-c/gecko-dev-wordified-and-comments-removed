@@ -334,7 +334,7 @@ core
 iter
 :
 :
-repeat
+repeat_n
 (
 TextureLayerInitTracker
 :
@@ -343,10 +343,6 @@ new
 (
 depth_or_array_layers
 )
-)
-.
-take
-(
 mip_level_count
 as
 usize

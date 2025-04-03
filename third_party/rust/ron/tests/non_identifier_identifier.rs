@@ -553,16 +553,6 @@ deserialize_char
 test_non_identifier
 !
 {
-test_string
-=
->
-deserialize_string
-(
-)
-}
-test_non_identifier
-!
-{
 test_bytes
 =
 >
