@@ -4431,6 +4431,15 @@ EncoderConfigurationChangeList
 aConfigurationChanges
 )
 {
+AssertOnTaskQueue
+(
+)
+;
+MOZ_ASSERT
+(
+mSession
+)
+;
 bool
 ok
 =
