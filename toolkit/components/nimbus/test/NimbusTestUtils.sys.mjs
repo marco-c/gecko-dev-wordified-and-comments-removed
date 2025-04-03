@@ -1588,9 +1588,6 @@ unenroll
 enrollment
 .
 slug
-"
-cleanup
-"
 )
 ;
 manager
@@ -1638,9 +1635,6 @@ manager
 unenroll
 (
 slug
-"
-cleanup
-"
 )
 ;
 }
