@@ -617,6 +617,13 @@ js
 ]
 [
 "
+browser_focus_switch_nested_event_loop
+.
+js
+"
+]
+[
+"
 browser_force_process_selector
 .
 js
