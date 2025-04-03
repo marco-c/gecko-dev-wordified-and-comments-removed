@@ -376,15 +376,10 @@ uint8_t
 Any
 =
 0
-Text
-=
-1
+TextDefault
+TextExplicit
 EmojiDefault
-=
-2
 EmojiExplicit
-=
-3
 }
 ;
 inline
