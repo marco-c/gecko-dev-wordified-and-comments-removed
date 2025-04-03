@@ -161,9 +161,12 @@ modify
 .
 *
 param
-enabled
+hasCompleted
 The
 new
+'
+completed
+'
 state
 of
 the
@@ -177,7 +180,7 @@ setPreference
 type
 :
 PreferenceType
-enabled
+hasCompleted
 :
 Boolean
 )
@@ -298,7 +301,7 @@ setPreference
 type
 :
 PreferenceType
-enabled
+hasCompleted
 :
 Boolean
 )
@@ -317,7 +320,7 @@ settings
 .
 hasCompletedSetupStepToolbar
 =
-enabled
+hasCompleted
 PreferenceType
 .
 ThemeComplete
@@ -327,7 +330,7 @@ settings
 .
 hasCompletedSetupStepTheme
 =
-enabled
+hasCompleted
 PreferenceType
 .
 ExtensionsComplete
@@ -337,7 +340,7 @@ settings
 .
 hasCompletedSetupStepExtensions
 =
-enabled
+hasCompleted
 }
 }
 }
