@@ -9427,6 +9427,10 @@ deps
 [
 "
 :
+ice_server_parsing
+"
+"
+:
 local_audio_source
 "
 "
