@@ -247,13 +247,6 @@ builds
 worker
 /
 updatebot
-/
-usr
-/
-local
-/
-bin
-/
 poetry
 install
 -
