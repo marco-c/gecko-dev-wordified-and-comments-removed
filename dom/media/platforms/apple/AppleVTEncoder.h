@@ -338,6 +338,11 @@ InvalidateSessionIfNeeded
 (
 )
 ;
+MediaResult
+InitSession
+(
+)
+;
 CFDictionaryRef
 BuildSourceImageBufferAttributes
 (
