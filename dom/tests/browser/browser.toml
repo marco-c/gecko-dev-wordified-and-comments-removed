@@ -883,6 +883,16 @@ page_scriptCache_partition_frame
 html
 "
 "
+page_scriptCache_partition_module
+.
+html
+"
+"
+page_scriptCache_partition_module_frame
+.
+html
+"
+"
 counter_server
 .
 sjs
