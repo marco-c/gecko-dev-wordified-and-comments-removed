@@ -1067,16 +1067,6 @@ const
 RtpConfig
 rtp_config_
 ;
-const
-std
-:
-:
-optional
-<
-VideoCodecType
->
-codec_type_
-;
 RtpTransportControllerSendInterface
 *
 const

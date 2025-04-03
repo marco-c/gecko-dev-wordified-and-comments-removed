@@ -555,6 +555,14 @@ ssrc
 )
 const
 ;
+RtpStreamConfig
+GetStreamConfig
+(
+size_t
+index
+)
+const
+;
 }
 ;
 }
