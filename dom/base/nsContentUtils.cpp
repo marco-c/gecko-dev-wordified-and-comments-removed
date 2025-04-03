@@ -6070,16 +6070,14 @@ doc
 allDocuments
 )
 {
-if
-(
 doc
 -
 >
 RecomputeResistFingerprinting
 (
+true
 )
-)
-{
+;
 if
 (
 auto
@@ -6111,7 +6109,6 @@ MediaFeatureChangePropagation
 JustThisDocument
 )
 ;
-}
 }
 }
 }
