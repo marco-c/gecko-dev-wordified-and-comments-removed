@@ -63,7 +63,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 {
