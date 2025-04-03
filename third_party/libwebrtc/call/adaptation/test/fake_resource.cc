@@ -19,6 +19,11 @@ algorithm
 #
 include
 <
+string
+>
+#
+include
+<
 utility
 >
 #
