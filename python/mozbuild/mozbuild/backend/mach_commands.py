@@ -64,7 +64,7 @@ IDE
 virtualenv_name
 =
 "
-ide
+build
 "
 )
 CommandArgument
@@ -953,40 +953,8 @@ True
 import
 difflib
     
-try
-:
-        
-import
-json5
-as
-json
-        
-dump_extra
-=
-{
-"
-quote_keys
-"
-:
-True
-"
-trailing_commas
-"
-:
-False
-}
-    
-except
-ImportError
-:
-        
 import
 json
-        
-dump_extra
-=
-{
-}
     
 try
 :
@@ -1069,9 +1037,6 @@ fh
 indent
 =
 4
-*
-*
-dump_extra
 )
     
 else
@@ -1243,9 +1208,6 @@ settings
 indent
 =
 4
-*
-*
-dump_extra
 )
             
 if
