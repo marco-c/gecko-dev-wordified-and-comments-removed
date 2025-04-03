@@ -9062,9 +9062,9 @@ protocolEventName
 {
 contextId
 :
-request
+browsingContext
 .
-contextId
+id
 }
 )
 ;
@@ -9390,9 +9390,9 @@ protocolEventName
 {
 contextId
 :
-request
+browsingContext
 .
-contextId
+id
 }
 )
 ;
@@ -9647,9 +9647,9 @@ protocolEventName
 {
 contextId
 :
-request
+browsingContext
 .
-contextId
+id
 }
 )
 ;
@@ -9819,9 +9819,9 @@ protocolEventName
 {
 contextId
 :
-request
+browsingContext
 .
-contextId
+id
 }
 )
 ;

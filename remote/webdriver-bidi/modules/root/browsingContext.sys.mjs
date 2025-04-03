@@ -11335,7 +11335,7 @@ detail
 data
 ;
 const
-contextId
+navigableId
 =
 lazy
 .
@@ -11348,7 +11348,7 @@ contentBrowser
 ;
 if
 (
-contextId
+navigableId
 =
 =
 =
@@ -11364,7 +11364,7 @@ params
 {
 context
 :
-contextId
+navigableId
 accepted
 :
 detail
@@ -11386,7 +11386,11 @@ this
 .
 _emitEventForBrowsingContext
 (
-contextId
+contentBrowser
+.
+browsingContext
+.
+id
 "
 browsingContext
 .
@@ -11484,7 +11488,7 @@ return
 ;
 }
 const
-contextId
+navigableId
 =
 lazy
 .
@@ -11527,7 +11531,7 @@ eventPayload
 {
 context
 :
-contextId
+navigableId
 handler
 :
 handlerConfig
@@ -11571,7 +11575,11 @@ this
 .
 _emitEventForBrowsingContext
 (
-contextId
+contentBrowser
+.
+browsingContext
+.
+id
 "
 browsingContext
 .
