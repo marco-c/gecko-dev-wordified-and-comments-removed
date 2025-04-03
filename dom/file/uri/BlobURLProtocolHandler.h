@@ -412,15 +412,6 @@ nsIURI
 aUri
 )
 ;
-bool
-BlobURLSchemeIsHTTPOrHTTPS
-(
-const
-nsACString
-&
-aUri
-)
-;
 }
 }
 extern
