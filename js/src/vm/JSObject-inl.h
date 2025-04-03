@@ -2854,7 +2854,7 @@ nullptr
 ;
 }
 static
-inline
+constexpr
 gc
 :
 :

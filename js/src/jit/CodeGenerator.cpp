@@ -97480,7 +97480,7 @@ arrayCapacity
 =
 6
 ;
-MOZ_ASSERT
+static_assert
 (
 GuessArrayGCKind
 (
