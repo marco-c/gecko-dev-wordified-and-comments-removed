@@ -383,6 +383,13 @@ it
 skipped_lkgr_bots
 =
 [
+"
+iOS
+Debug
+(
+simulator
+)
+"
 ]
 #
 Use
