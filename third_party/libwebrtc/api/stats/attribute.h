@@ -7,12 +7,12 @@ API_STATS_ATTRIBUTE_H_
 #
 include
 <
-map
+cstdint
 >
 #
 include
 <
-memory
+map
 >
 #
 include
