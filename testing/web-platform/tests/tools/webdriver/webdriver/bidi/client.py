@@ -1479,6 +1479,17 @@ stacktrace
 )
 )
                 
+if
+future
+.
+cancelled
+(
+)
+is
+not
+True
+:
+                    
 future
 .
 set_exception
