@@ -532,6 +532,7 @@ mercurial
 python3
 -
 pip
+awk
 rockylinux8
 :
 image
