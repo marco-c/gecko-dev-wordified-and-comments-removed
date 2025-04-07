@@ -516,6 +516,7 @@ style
 &
 isFixedPitch
 nullptr
+nullptr
 )
 )
 {

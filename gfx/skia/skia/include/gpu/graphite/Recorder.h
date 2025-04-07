@@ -500,6 +500,13 @@ maxBudgetedBytes
 const
 ;
 void
+setMaxBudgetedBytes
+(
+size_t
+bytes
+)
+;
+void
 dumpMemoryStatistics
 (
 SkTraceMemoryDump

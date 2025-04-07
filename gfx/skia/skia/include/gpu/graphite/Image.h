@@ -64,6 +64,11 @@ include
 <
 string_view
 >
+#
+include
+<
+tuple
+>
 class
 SkYUVAInfo
 ;

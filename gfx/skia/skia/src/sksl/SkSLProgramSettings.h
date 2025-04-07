@@ -157,7 +157,7 @@ fValidateSPIRV
 true
 ;
 bool
-fUsePushConstants
+fUseVulkanPushConstantsForGaneshRTAdjust
 =
 false
 ;

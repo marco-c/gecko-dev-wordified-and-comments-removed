@@ -171,10 +171,8 @@ public
 :
 SkScalerContextProxy
 (
-sk_sp
-<
 SkTypeface
->
+&
 tf
 const
 SkScalerContextEffects
@@ -764,8 +762,7 @@ make_unique
 SkScalerContextProxy
 >
 (
-sk_ref_sp
-(
+*
 const_cast
 <
 SkTypefaceProxy
@@ -773,7 +770,6 @@ SkTypefaceProxy
 >
 (
 this
-)
 )
 effects
 desc

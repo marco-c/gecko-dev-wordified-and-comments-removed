@@ -1036,6 +1036,7 @@ Iter
 &
 that
 )
+const
 {
 return
 fCurr

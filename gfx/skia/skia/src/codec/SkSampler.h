@@ -117,7 +117,10 @@ return
 (
 row
 -
-get_start_coord
+SkCodecPriv
+:
+:
+GetStartCoord
 (
 fSampleY
 )

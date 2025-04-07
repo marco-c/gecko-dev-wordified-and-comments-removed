@@ -173,10 +173,8 @@ public
 :
 SkScalerContext_Mac
 (
-sk_sp
-<
 SkTypeface_Mac
->
+&
 const
 SkScalerContextEffects
 &

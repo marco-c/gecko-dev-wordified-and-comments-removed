@@ -217,6 +217,7 @@ SkBitSet
 &
 that
 )
+const
 {
 if
 (
@@ -278,6 +279,7 @@ SkBitSet
 &
 that
 )
+const
 {
 return
 !

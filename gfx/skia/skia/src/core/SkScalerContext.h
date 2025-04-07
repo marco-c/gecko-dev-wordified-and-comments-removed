@@ -1058,10 +1058,8 @@ kHintingBit2_Flag
 ;
 SkScalerContext
 (
-sk_sp
-<
 SkTypeface
->
+&
 const
 SkScalerContextEffects
 &
@@ -1084,11 +1082,8 @@ getTypeface
 const
 {
 return
+&
 fTypeface
-.
-get
-(
-)
 ;
 }
 SkMask
@@ -1303,10 +1298,8 @@ SkScalerContext
 >
 MakeEmpty
 (
-sk_sp
-<
 SkTypeface
->
+&
 typeface
 const
 SkScalerContextEffects
@@ -1718,7 +1711,7 @@ RandomScalerContext
 ;
 friend
 class
-SkScalerContext_fontconfig
+SkScalerContext_proxy
 ;
 static
 SkScalerContextRec
@@ -1735,10 +1728,8 @@ SkDescriptor
 &
 )
 ;
-sk_sp
-<
 SkTypeface
->
+&
 fTypeface
 ;
 sk_sp

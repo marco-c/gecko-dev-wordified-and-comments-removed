@@ -185,7 +185,10 @@ unpremul
 )
 ;
 }
-SkRasterPipeline_TablesCtx
+SkRasterPipelineContexts
+:
+:
+TablesCtx
 *
 tables
 =
@@ -196,7 +199,10 @@ fAlloc
 >
 make
 <
-SkRasterPipeline_TablesCtx
+SkRasterPipelineContexts
+:
+:
+TablesCtx
 >
 (
 )

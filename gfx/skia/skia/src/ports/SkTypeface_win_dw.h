@@ -846,6 +846,15 @@ SkString
 const
 override
 ;
+int
+onGetResourceName
+(
+SkString
+*
+)
+const
+override
+;
 SkTypeface
 :
 :

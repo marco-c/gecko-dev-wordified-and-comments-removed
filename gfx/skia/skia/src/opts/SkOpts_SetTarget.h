@@ -225,6 +225,9 @@ defined
 _MSC_VER
 )
 #
+define
+__RTMINTRIN_H
+#
 include
 <
 immintrin

@@ -202,7 +202,7 @@ return
 this
 -
 >
-flags
+fFlags
 .
 unpremul
 =
@@ -214,7 +214,7 @@ kPremul_SkAlphaType
 this
 -
 >
-flags
+fFlags
 .
 linearize
 =
@@ -229,7 +229,7 @@ gammaIsLinear
 this
 -
 >
-flags
+fFlags
 .
 gamut_transform
 =
@@ -251,7 +251,7 @@ toXYZD50Hash
 this
 -
 >
-flags
+fFlags
 .
 encode
 =
@@ -266,7 +266,7 @@ gammaIsLinear
 this
 -
 >
-flags
+fFlags
 .
 premul
 =
@@ -286,7 +286,7 @@ if
 this
 -
 >
-flags
+fFlags
 .
 gamut_transform
 )
@@ -307,7 +307,7 @@ src_to_dst
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 0
 ]
@@ -325,7 +325,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 1
 ]
@@ -343,7 +343,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 2
 ]
@@ -361,7 +361,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 3
 ]
@@ -379,7 +379,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 4
 ]
@@ -397,7 +397,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 5
 ]
@@ -415,7 +415,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 6
 ]
@@ -433,7 +433,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 7
 ]
@@ -451,7 +451,7 @@ vals
 this
 -
 >
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 8
 ]
@@ -532,7 +532,7 @@ transferFn
 this
 -
 >
-srcTF
+fSrcTF
 )
 ;
 dst
@@ -544,7 +544,7 @@ invTransferFn
 this
 -
 >
-dstTFInv
+fDstTFInv
 )
 ;
 if
@@ -552,7 +552,7 @@ if
 this
 -
 >
-flags
+fFlags
 .
 linearize
 &
@@ -561,7 +561,7 @@ linearize
 this
 -
 >
-flags
+fFlags
 .
 gamut_transform
 &
@@ -569,7 +569,7 @@ gamut_transform
 this
 -
 >
-flags
+fFlags
 .
 encode
 &
@@ -625,7 +625,7 @@ SkASSERT
 (
 (
 &
-srcTF
+fSrcTF
 .
 g
 )
@@ -657,7 +657,7 @@ endif
 this
 -
 >
-flags
+fFlags
 .
 linearize
 =
@@ -666,7 +666,7 @@ false
 this
 -
 >
-flags
+fFlags
 .
 encode
 =
@@ -678,7 +678,7 @@ if
 this
 -
 >
-flags
+fFlags
 .
 unpremul
 &
@@ -687,7 +687,7 @@ unpremul
 this
 -
 >
-flags
+fFlags
 .
 linearize
 &
@@ -696,7 +696,7 @@ linearize
 this
 -
 >
-flags
+fFlags
 .
 encode
 &
@@ -704,7 +704,7 @@ encode
 this
 -
 >
-flags
+fFlags
 .
 premul
 )
@@ -712,7 +712,7 @@ premul
 this
 -
 >
-flags
+fFlags
 .
 unpremul
 =
@@ -721,7 +721,7 @@ false
 this
 -
 >
-flags
+fFlags
 .
 premul
 =
@@ -743,7 +743,10 @@ const
 {
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 unpremul
 )
@@ -820,7 +823,10 @@ invA
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 linearize
 )
@@ -833,7 +839,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-srcTF
+fSrcTF
 rgba
 [
 0
@@ -848,7 +854,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-srcTF
+fSrcTF
 rgba
 [
 1
@@ -863,7 +869,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-srcTF
+fSrcTF
 rgba
 [
 2
@@ -873,7 +879,10 @@ rgba
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 gamut_transform
 )
@@ -920,7 +929,7 @@ rgba
 i
 ]
 =
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 i
 ]
@@ -930,7 +939,7 @@ temp
 0
 ]
 +
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 3
 +
@@ -942,7 +951,7 @@ temp
 1
 ]
 +
-src_to_dst_matrix
+fSrcToDstMatrix
 [
 6
 +
@@ -958,7 +967,10 @@ temp
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 encode
 )
@@ -971,7 +983,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-dstTFInv
+fDstTFInv
 rgba
 [
 0
@@ -986,7 +998,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-dstTFInv
+fDstTFInv
 rgba
 [
 1
@@ -1001,7 +1013,7 @@ rgba
 skcms_TransferFunction_eval
 (
 &
-dstTFInv
+fDstTFInv
 rgba
 [
 2
@@ -1011,7 +1023,10 @@ rgba
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 premul
 )
@@ -1065,7 +1080,10 @@ const
 {
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 unpremul
 )
@@ -1084,7 +1102,10 @@ unpremul
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 linearize
 )
@@ -1094,13 +1115,16 @@ p
 >
 appendTransferFunction
 (
-srcTF
+fSrcTF
 )
 ;
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 gamut_transform
 )
@@ -1115,13 +1139,16 @@ SkRasterPipelineOp
 :
 matrix_3x3
 &
-src_to_dst_matrix
+fSrcToDstMatrix
 )
 ;
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 encode
 )
@@ -1131,13 +1158,16 @@ p
 >
 appendTransferFunction
 (
-dstTFInv
+fDstTFInv
 )
 ;
 }
 if
 (
-flags
+this
+-
+>
+fFlags
 .
 premul
 )

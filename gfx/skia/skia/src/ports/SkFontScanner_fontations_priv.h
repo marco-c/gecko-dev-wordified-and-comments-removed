@@ -125,6 +125,9 @@ isFixedPitch
 AxisDefinitions
 *
 axes
+VariationPosition
+*
+position
 )
 const
 override

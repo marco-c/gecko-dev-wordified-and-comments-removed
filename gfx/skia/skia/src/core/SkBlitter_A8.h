@@ -74,6 +74,12 @@ SkIRect
 struct
 SkMask
 ;
+enum
+class
+SkDrawCoverage
+:
+bool
+;
 class
 SkA8_Coverage_Blitter
 :
@@ -192,8 +198,7 @@ SkPaint
 paint
 SkArenaAlloc
 *
-bool
-drawCoverage
+SkDrawCoverage
 sk_sp
 <
 SkShader

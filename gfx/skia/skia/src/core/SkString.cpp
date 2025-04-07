@@ -418,7 +418,6 @@ char
 string
 [
 ]
-const
 char
 suffixChar
 )

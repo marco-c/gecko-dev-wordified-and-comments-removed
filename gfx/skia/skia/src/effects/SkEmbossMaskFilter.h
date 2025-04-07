@@ -33,17 +33,6 @@ include
 /
 core
 /
-SkRect
-.
-h
-"
-#
-include
-"
-include
-/
-core
-/
 SkRefCnt
 .
 h

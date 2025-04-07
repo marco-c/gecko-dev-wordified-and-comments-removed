@@ -3342,15 +3342,6 @@ return
 validCount
 ;
 }
-static
-const
-double
-PI
-=
-3
-.
-141592653589793
-;
 int
 SkDCubic
 :
@@ -4080,7 +4071,7 @@ theta
 +
 2
 *
-PI
+SK_DoublePI
 )
 /
 3
@@ -4120,7 +4111,7 @@ theta
 -
 2
 *
-PI
+SK_DoublePI
 )
 /
 3

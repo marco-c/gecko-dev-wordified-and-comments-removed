@@ -462,11 +462,6 @@ Color
 \
 M
 (
-Color4
-)
-\
-M
-(
 ColorFilter
 )
 \
@@ -1301,11 +1296,6 @@ get
 }
 void
 SkRegisterBlendShaderFlattenable
-(
-)
-;
-void
-SkRegisterColor4ShaderFlattenable
 (
 )
 ;

@@ -580,6 +580,14 @@ SkIRect
 bounds
 )
 ;
+sk_sp
+<
+SkImage
+>
+makeTemporaryImage
+(
+)
+;
 void
 draw
 (

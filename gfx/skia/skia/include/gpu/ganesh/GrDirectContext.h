@@ -465,6 +465,15 @@ GrPurgeResourceOptions
 opts
 )
 ;
+skgpu
+:
+:
+GpuStatsFlags
+supportedGpuStats
+(
+)
+const
+;
 using
 GrRecordingContext
 :

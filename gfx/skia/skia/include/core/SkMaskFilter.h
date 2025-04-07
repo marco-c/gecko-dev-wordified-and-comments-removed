@@ -61,9 +61,6 @@ int
 struct
 SkDeserialProcs
 ;
-struct
-SkRect
-;
 class
 SK_API
 SkMaskFilter
@@ -89,16 +86,6 @@ respectCTM
 =
 true
 )
-;
-SkRect
-approximateFilteredBounds
-(
-const
-SkRect
-&
-src
-)
-const
 ;
 static
 sk_sp

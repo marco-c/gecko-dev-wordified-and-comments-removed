@@ -427,6 +427,12 @@ forceUnoptimized
 =
 false
 ;
+std
+:
+:
+string_view
+fName
+;
 private
 :
 friend
@@ -1339,6 +1345,11 @@ fHash
 ;
 uint32_t
 fStableKey
+=
+0
+;
+SkString
+fName
 ;
 std
 :

@@ -1899,7 +1899,7 @@ if
 (
 steps
 .
-flags
+fFlags
 .
 mask
 (
@@ -2706,7 +2706,7 @@ if
 (
 xform
 .
-flags
+fFlags
 .
 mask
 (
@@ -2761,7 +2761,7 @@ if
 (
 xform
 .
-flags
+fFlags
 .
 mask
 (
@@ -5420,6 +5420,12 @@ options
 .
 fStableKey
 )
+fName
+(
+options
+.
+fName
+)
 fBaseProgram
 (
 std
@@ -5495,6 +5501,14 @@ KnownOptions
 {
 bool
 forceUnoptimized
+;
+std
+:
+:
+string_view
+fName
+;
+bool
 allowPrivateAccess
 ;
 uint32_t

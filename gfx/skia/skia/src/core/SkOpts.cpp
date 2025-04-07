@@ -154,7 +154,10 @@ SkRasterPipelineStage
 *
 SkSpan
 <
-SkRasterPipeline_MemoryCtxPatch
+SkRasterPipelineContexts
+:
+:
+MemoryCtxPatch
 >
 uint8_t
 *
@@ -224,7 +227,10 @@ SkRasterPipelineStage
 *
 SkSpan
 <
-SkRasterPipeline_MemoryCtxPatch
+SkRasterPipelineContexts
+:
+:
+MemoryCtxPatch
 >
 uint8_t
 *

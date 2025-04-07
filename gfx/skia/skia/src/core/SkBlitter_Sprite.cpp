@@ -497,7 +497,7 @@ src
 dst
 )
 .
-flags
+fFlags
 .
 mask
 (
@@ -1147,7 +1147,10 @@ SkBlitter
 *
 fBlitter
 ;
-SkRasterPipeline_MemoryCtx
+SkRasterPipelineContexts
+:
+:
+MemoryCtx
 fSrcPtr
 ;
 SkColor4f
@@ -1247,7 +1250,7 @@ source
 dst
 )
 .
-flags
+fFlags
 .
 mask
 (

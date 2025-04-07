@@ -111,6 +111,8 @@ kUltraExpanded_Width
 ;
 enum
 Slant
+:
+uint8_t
 {
 kUpright_Slant
 kItalic_Slant

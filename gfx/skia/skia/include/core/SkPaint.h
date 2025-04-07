@@ -557,7 +557,7 @@ void
 setStrokeMiter
 (
 SkScalar
-miter
+miterLimit
 )
 ;
 enum

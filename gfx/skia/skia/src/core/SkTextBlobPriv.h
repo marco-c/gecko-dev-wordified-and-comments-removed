@@ -312,7 +312,7 @@ kPositioning_Mask
 )
 ;
 }
-uint16_t
+SkGlyphID
 *
 glyphBuffer
 (
@@ -335,7 +335,7 @@ RunRecord
 return
 reinterpret_cast
 <
-uint16_t
+SkGlyphID
 *
 >
 (
@@ -386,7 +386,7 @@ fCount
 *
 sizeof
 (
-uint16_t
+SkGlyphID
 )
 )
 )
@@ -784,7 +784,7 @@ glyphCount
 ;
 }
 const
-uint16_t
+SkGlyphID
 *
 glyphs
 (

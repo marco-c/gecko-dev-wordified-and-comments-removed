@@ -47,6 +47,9 @@ SkOpSpanBase
 class
 SkPath
 ;
+struct
+SkRect
+;
 template
 <
 typename
@@ -168,6 +171,16 @@ char
 *
 testName
 )
+)
+;
+bool
+ComputeTightBounds
+(
+const
+SkPath
+&
+SkRect
+*
 )
 ;
 #

@@ -1472,7 +1472,10 @@ tmpVerbs
 SkPathVerbAnalysis
 analysis
 =
-sk_path_analyze_verbs
+SkPathPriv
+:
+:
+AnalyzeVerbs
 (
 verbs
 counts

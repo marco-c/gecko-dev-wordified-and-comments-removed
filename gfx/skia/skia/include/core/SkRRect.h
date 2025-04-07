@@ -61,6 +61,19 @@ h
 "
 #
 include
+"
+include
+/
+private
+/
+base
+/
+SkMacros
+.
+h
+"
+#
+include
 <
 cstdint
 >
@@ -75,6 +88,7 @@ SkMatrix
 class
 SkString
 ;
+SK_BEGIN_REQUIRE_DENSE
 class
 SK_API
 SkRRect
@@ -1070,5 +1084,6 @@ SkRRectPriv
 ;
 }
 ;
+SK_END_REQUIRE_DENSE
 #
 endif

@@ -294,6 +294,7 @@ ForwardVerbIterator
 &
 other
 )
+const
 {
 SkASSERT
 (
@@ -356,6 +357,7 @@ ForwardVerbIterator
 &
 other
 )
+const
 {
 return
 !

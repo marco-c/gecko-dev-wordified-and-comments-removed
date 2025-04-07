@@ -21263,7 +21263,10 @@ p4
 ;
 }
 SkPathVerbAnalysis
-sk_path_analyze_verbs
+SkPathPriv
+:
+:
+AnalyzeVerbs
 (
 const
 uint8_t
@@ -21565,7 +21568,10 @@ const
 auto
 info
 =
-sk_path_analyze_verbs
+SkPathPriv
+:
+:
+AnalyzeVerbs
 (
 vbs
 verbCount

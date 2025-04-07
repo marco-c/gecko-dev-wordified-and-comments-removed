@@ -111,6 +111,10 @@ InitEffects
 (
 )
 {
+SkRegisterConicalGradientShaderFlattenable
+(
+)
+;
 SkRegisterLinearGradientShaderFlattenable
 (
 )
@@ -120,10 +124,6 @@ SkRegisterRadialGradientShaderFlattenable
 )
 ;
 SkRegisterSweepGradientShaderFlattenable
-(
-)
-;
-SkRegisterConicalGradientShaderFlattenable
 (
 )
 ;

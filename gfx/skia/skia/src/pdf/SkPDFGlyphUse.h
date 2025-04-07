@@ -203,7 +203,7 @@ f
 )
 ;
 }
-uint16_t
+size_t
 offset
 =
 fFirstNonZero
@@ -220,7 +220,7 @@ f
 offset
 ]
 (
-unsigned
+size_t
 v
 )
 {
@@ -257,7 +257,7 @@ fLastGlyph
 =
 0
 ;
-uint16_t
+size_t
 toCode
 (
 SkGlyphID

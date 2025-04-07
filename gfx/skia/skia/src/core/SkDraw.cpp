@@ -1,6 +1,17 @@
 #
 include
 "
+src
+/
+core
+/
+SkDraw
+.
+h
+"
+#
+include
+"
 include
 /
 core
@@ -237,7 +248,7 @@ src
 /
 core
 /
-SkDraw
+SkDrawTypes
 .
 h
 "

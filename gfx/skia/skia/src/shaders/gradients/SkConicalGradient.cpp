@@ -1296,7 +1296,10 @@ alloc
 >
 make
 <
-SkRasterPipeline_2PtConicalCtx
+SkRasterPipelineContexts
+:
+:
+Conical2PtCtx
 >
 (
 )
@@ -1374,7 +1377,10 @@ alloc
 >
 make
 <
-SkRasterPipeline_2PtConicalCtx
+SkRasterPipelineContexts
+:
+:
+Conical2PtCtx
 >
 (
 )
