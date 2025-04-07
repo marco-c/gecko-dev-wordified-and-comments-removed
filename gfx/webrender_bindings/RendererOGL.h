@@ -103,6 +103,9 @@ class
 CompositorBridgeParent
 ;
 class
+Fence
+;
+class
 SyncObjectHost
 ;
 }
@@ -232,7 +235,13 @@ WaitForGPU
 (
 )
 ;
-UniqueFileHandle
+RefPtr
+<
+layers
+:
+:
+Fence
+>
 GetAndResetReleaseFence
 (
 )
