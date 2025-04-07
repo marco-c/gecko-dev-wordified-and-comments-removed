@@ -1782,6 +1782,7 @@ arm64
 x86_shared
 loong64
 mips64
+riscv64
 )
 ;
 CodeOffset
@@ -1857,6 +1858,7 @@ arm
 arm64
 loong64
 mips64
+riscv64
 )
 ;
 void
@@ -1874,6 +1876,7 @@ arm
 arm64
 loong64
 mips64
+riscv64
 )
 ;
 public
