@@ -27856,15 +27856,6 @@ CurrentActiveScrolledRoot
 )
 aFlags
 )
-mScrollParentId
-(
-aBuilder
--
->
-GetCurrentScrollParentId
-(
-)
-)
 mShouldFlatten
 (
 false
