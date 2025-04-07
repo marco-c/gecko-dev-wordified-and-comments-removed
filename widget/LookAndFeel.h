@@ -225,6 +225,7 @@ HideCursorWhileTyping
 GTKThemeFamily
 FullKeyboardAccess
 PointingDeviceKinds
+NativeMenubar
 End
 }
 ;

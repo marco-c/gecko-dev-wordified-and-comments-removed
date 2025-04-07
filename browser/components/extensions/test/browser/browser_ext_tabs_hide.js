@@ -719,9 +719,11 @@ test_doorhanger_alltabs_button_in_menubar
 if
 (
 !
-AppConstants
+Services
 .
-MENUBAR_CAN_AUTOHIDE
+appinfo
+.
+nativeMenubar
 )
 {
 info

@@ -912,6 +912,11 @@ ui
 .
 pointingDeviceKinds
 "
+"
+ui
+.
+nativeMenubar
+"
 }
 ;
 static_assert

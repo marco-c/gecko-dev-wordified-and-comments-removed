@@ -2259,9 +2259,12 @@ true
 ;
 if
 (
-AppConstants
+!
+Services
 .
-MENUBAR_CAN_AUTOHIDE
+appinfo
+.
+nativeMenubar
 )
 {
 this

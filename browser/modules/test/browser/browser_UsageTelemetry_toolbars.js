@@ -567,9 +567,12 @@ toolbar_widgets
 ;
 if
 (
-AppConstants
+!
+Services
 .
-MENUBAR_CAN_AUTOHIDE
+appinfo
+.
+nativeMenubar
 )
 {
 expected
