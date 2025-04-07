@@ -3706,11 +3706,6 @@ FailedCertSecurityInfo
 webidl
 "
 "
-FakePluginTagInit
-.
-webidl
-"
-"
 FeaturePolicy
 .
 webidl
