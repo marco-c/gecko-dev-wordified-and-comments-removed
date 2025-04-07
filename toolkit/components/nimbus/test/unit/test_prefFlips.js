@@ -8817,9 +8817,6 @@ manager
 unenroll
 (
 computedSlug
-"
-cleanup
-"
 )
 ;
 }
@@ -11242,11 +11239,6 @@ enrollmentOrder
 [
 1
 ]
-"
-test
--
-cleanup
-"
 )
 ;
 info
@@ -11622,9 +11614,6 @@ unenroll
 recipe
 .
 slug
-"
-test
-"
 )
 ;
 Assert
@@ -12049,9 +12038,6 @@ unenroll
 recipe
 .
 slug
-"
-test
-"
 )
 ;
 Assert
@@ -13554,11 +13540,6 @@ manager
 unenroll
 (
 ROLLOUT
-"
-test
--
-cleanup
-"
 )
 ;
 }
@@ -13577,11 +13558,6 @@ manager
 unenroll
 (
 EXPERIMENT
-"
-test
--
-cleanup
-"
 )
 ;
 }
