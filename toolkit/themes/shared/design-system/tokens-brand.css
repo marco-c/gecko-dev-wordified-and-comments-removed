@@ -406,9 +406,7 @@ var
 -
 color
 -
-gray
--
-05
+white
 )
 var
 (
@@ -449,7 +447,7 @@ color
 -
 blue
 -
-50
+60
 )
 var
 (
@@ -459,7 +457,7 @@ color
 -
 cyan
 -
-50
+30
 )
 )
 ;
@@ -485,7 +483,7 @@ color
 -
 blue
 -
-60
+70
 )
 var
 (
@@ -495,7 +493,7 @@ color
 -
 cyan
 -
-30
+20
 )
 )
 ;
@@ -521,7 +519,7 @@ color
 -
 blue
 -
-70
+80
 )
 var
 (
@@ -531,7 +529,7 @@ color
 -
 cyan
 -
-20
+10
 )
 )
 ;
