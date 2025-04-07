@@ -6837,11 +6837,6 @@ PushSubscriptionChangeEvent
 webidl
 "
 "
-ScrollViewChangeEvent
-.
-webidl
-"
-"
 SecurityPolicyViolationEvent
 .
 webidl
