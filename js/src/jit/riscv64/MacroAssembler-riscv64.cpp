@@ -14966,7 +14966,7 @@ valueReg
 1
 )
 ;
-slri
+srli
 (
 temp
 temp
