@@ -127,7 +127,10 @@ Worker
 Func
 =
 "
-nsGlobalWindowInner
+cache
+:
+:
+Cache
 :
 :
 CachesEnabled

@@ -202,6 +202,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+CachesEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 already_AddRefed
 <
 Promise

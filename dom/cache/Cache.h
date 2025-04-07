@@ -141,6 +141,17 @@ Namespace
 aNamespace
 )
 ;
+static
+bool
+CachesEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 already_AddRefed
 <
 Promise

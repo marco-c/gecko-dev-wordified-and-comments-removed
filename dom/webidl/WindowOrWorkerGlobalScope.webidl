@@ -577,7 +577,10 @@ Throws
 Func
 =
 "
-nsGlobalWindowInner
+cache
+:
+:
+CacheStorage
 :
 :
 CachesEnabled

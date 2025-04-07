@@ -1804,17 +1804,6 @@ JSObject
 ;
 static
 bool
-CachesEnabled
-(
-JSContext
-*
-aCx
-JSObject
-*
-)
-;
-static
-bool
 IsGleanNeeded
 (
 JSContext
