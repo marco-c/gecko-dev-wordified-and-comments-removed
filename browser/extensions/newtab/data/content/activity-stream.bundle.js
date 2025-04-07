@@ -12845,6 +12845,11 @@ actionTypes
 SETTINGS_OPEN
 }
 )
+userEvent
+:
+"
+OPEN_NEWTAB_PREFS
+"
 }
 )
 OurSponsorsAndYourPrivacy
@@ -12915,6 +12920,11 @@ tabs
 }
 }
 )
+userEvent
+:
+"
+CLICK_PRIVACY_INFO
+"
 }
 )
 ReportAd
