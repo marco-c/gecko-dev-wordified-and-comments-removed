@@ -2235,9 +2235,6 @@ as
 "
 /
 >
-#
-ifdef
-CONTEXT_COPY_IMAGE_CONTENTS
 <
 menuitem
 id
@@ -2268,8 +2265,6 @@ copy
 "
 /
 >
-#
-endif
 <
 menuitem
 id
