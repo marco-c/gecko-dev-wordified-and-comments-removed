@@ -94,6 +94,9 @@ chrome
 "
 build
 "
+"
+ioutils
+"
 ]
 if
 CONFIG
