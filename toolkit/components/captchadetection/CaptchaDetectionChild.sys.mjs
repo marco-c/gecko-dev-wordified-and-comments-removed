@@ -2451,7 +2451,7 @@ this
 .
 actor
 .
-sendAsyncMessage
+sendQuery
 (
 "
 CaptchaDetection
