@@ -1810,6 +1810,9 @@ auto
 *
 cc
 =
+mozilla
+:
+:
 dom
 :
 :
@@ -1829,6 +1832,9 @@ type
 .
 Assign
 (
+mozilla
+:
+:
 dom
 :
 :
@@ -3394,6 +3400,9 @@ aProcessType
 const
 RefPtr
 <
+mozilla
+:
+:
 dom
 :
 :
