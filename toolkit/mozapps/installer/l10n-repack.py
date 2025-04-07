@@ -77,12 +77,6 @@ js
 "
         
 "
-locale
-.
-ini
-"
-        
-"
 default
 .
 locale
