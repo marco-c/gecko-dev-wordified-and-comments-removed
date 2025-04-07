@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -178,7 +187,7 @@ VADisplayHolder
 (
 VADisplay
 aDisplay
-int
+UniqueFileHandle
 aDRMFd
 )
 :
@@ -188,7 +197,13 @@ aDisplay
 )
 mDRMFd
 (
+std
+:
+:
+move
+(
 aDRMFd
+)
 )
 {
 }
@@ -204,7 +219,7 @@ MaybeDestroy
 )
 ;
 const
-int
+UniqueFileHandle
 mDRMFd
 ;
 }

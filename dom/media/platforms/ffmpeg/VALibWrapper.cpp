@@ -559,9 +559,9 @@ sDisplayHolder
 }
 ;
 }
-int
+UniqueFileHandle
 drmFd
-=
+{
 widget
 :
 :
@@ -573,6 +573,7 @@ GetDMABufDevice
 OpenDRMFd
 (
 )
+}
 ;
 VADisplay
 display
@@ -580,6 +581,10 @@ display
 vaGetDisplayDRM
 (
 drmFd
+.
+get
+(
+)
 )
 ;
 if
@@ -615,7 +620,13 @@ new
 VADisplayHolder
 (
 display
+std
+:
+:
+move
+(
 drmFd
+)
 )
 ;
 int
@@ -720,11 +731,6 @@ VADisplayHolder
 vaTerminate
 (
 mDisplay
-)
-;
-close
-(
-mDRMFd
 )
 ;
 }
