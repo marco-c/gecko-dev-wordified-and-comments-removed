@@ -3255,7 +3255,7 @@ true
 "
 discoverystream
 .
-reportContent
+reportAds
 .
 enabled
 "
@@ -3268,8 +3268,6 @@ flag
 to
 enable
 reporting
-content
-and
 ads
 from
 the

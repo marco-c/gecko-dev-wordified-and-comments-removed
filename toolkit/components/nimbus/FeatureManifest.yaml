@@ -7707,7 +7707,7 @@ inferred
 personalization
 for
 topics
-reportContentEnabled
+reportAdsEnabled
 :
 type
 :
@@ -7729,7 +7729,7 @@ stream
 .
 discoverystream
 .
-reportContent
+reportAds
 .
 enabled
 description
@@ -7740,8 +7740,6 @@ Enable
 reporting
 for
 ads
-and
-content
 localeSectionstConfig
 :
 type
