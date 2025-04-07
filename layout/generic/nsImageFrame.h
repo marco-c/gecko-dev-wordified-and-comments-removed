@@ -432,6 +432,12 @@ Nothing
 final
 ;
 void
+MarkIntrinsicISizesDirty
+(
+)
+override
+;
+void
 ResponsiveContentDensityChanged
 (
 )
@@ -992,6 +998,10 @@ override
 void
 EnsureIntrinsicSizeAndRatio
 (
+bool
+aConsiderIntrinsicsDirty
+=
+false
 )
 ;
 bool
@@ -1154,12 +1164,6 @@ void
 MaybeDecodeForPredictedSize
 (
 )
-;
-bool
-IsForMarkerPseudo
-(
-)
-const
 ;
 protected
 :
