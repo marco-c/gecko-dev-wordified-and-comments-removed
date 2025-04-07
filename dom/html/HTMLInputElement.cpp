@@ -15871,6 +15871,15 @@ NS_ORIGINAL_CHECKED_VALUE
 if
 (
 mForm
+&
+&
+mType
+!
+=
+FormControlType
+:
+:
+InputRadio
 )
 {
 aVisitor
