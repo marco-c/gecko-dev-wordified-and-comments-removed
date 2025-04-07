@@ -1362,6 +1362,15 @@ float
 aZoom
 )
 ;
+static
+void
+GetExemptedDomainsLowercase
+(
+nsCString
+&
+aExemptedDomains
+)
+;
 private
 :
 nsresult
@@ -1635,6 +1644,11 @@ RFPTargetSet
 (
 )
 )
+;
+static
+nsCString
+*
+sExemptedDomainsLowercase
 ;
 }
 ;
