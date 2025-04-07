@@ -1506,6 +1506,7 @@ topic
 case
 kPrefChangedTopic
 :
+{
 let
 allowedPrefs
 =
@@ -1572,6 +1573,7 @@ notifyNewConfig
 (
 )
 ;
+}
 break
 ;
 case
