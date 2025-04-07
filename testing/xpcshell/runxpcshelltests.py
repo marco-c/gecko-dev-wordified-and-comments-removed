@@ -2955,9 +2955,21 @@ prefs
 strip
 (
 )
+            
+if
+prefs
+:
+                
+prefs
+=
+prefs
 .
 split
 (
+"
+\
+n
+"
 )
             
 name
