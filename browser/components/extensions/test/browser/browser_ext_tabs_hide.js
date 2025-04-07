@@ -718,7 +718,6 @@ test_doorhanger_alltabs_button_in_menubar
 {
 if
 (
-!
 Services
 .
 appinfo
