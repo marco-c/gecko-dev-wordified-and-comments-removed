@@ -12412,6 +12412,10 @@ mOverriddenFingerprintingSettings
 bool
 RecomputeResistFingerprinting
 (
+bool
+aForceRefreshRTPCallerType
+=
+false
 )
 ;
 void
