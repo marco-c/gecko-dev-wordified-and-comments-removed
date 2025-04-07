@@ -605,6 +605,11 @@ reason
 enrollment
 .
 force
+|
+|
+enrollment
+.
+isFirefoxLabsOptIn
 ?
 EnrollmentStatusReason
 .
