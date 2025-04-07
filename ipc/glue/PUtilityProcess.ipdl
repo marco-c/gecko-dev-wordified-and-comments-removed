@@ -1,4 +1,7 @@
 include
+CrashReporterInitArgs
+;
+include
 MemoryReportTypes
 ;
 include
@@ -270,8 +273,8 @@ parent
 async
 InitCrashReporter
 (
-NativeThreadId
-threadId
+CrashReporterInitArgs
+aInitArgs
 )
 ;
 async
