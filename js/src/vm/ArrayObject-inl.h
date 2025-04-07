@@ -159,6 +159,15 @@ hasFinalize
 ;
 MOZ_ASSERT
 (
+!
+IsFinalizedKind
+(
+kind
+)
+)
+;
+MOZ_ASSERT
+(
 shape
 -
 >

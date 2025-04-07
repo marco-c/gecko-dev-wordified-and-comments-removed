@@ -207,7 +207,7 @@ gc
 AllocKind
 :
 :
-OBJECT4_BACKGROUND
+OBJECT4
 ;
 static
 const
