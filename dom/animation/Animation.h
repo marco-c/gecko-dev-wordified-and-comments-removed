@@ -1276,6 +1276,13 @@ const
 InvertibleAnimatedPropertyIDSet
 &
 aPropertiesToSkip
+EndpointBehavior
+aEndpointBehavior
+=
+EndpointBehavior
+:
+:
+Exclusive
 )
 ;
 void

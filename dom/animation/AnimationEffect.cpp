@@ -495,6 +495,8 @@ Animation
 :
 ProgressTimelinePosition
 aProgressTimelinePosition
+EndpointBehavior
+aEndpointBehavior
 )
 {
 static
@@ -760,6 +762,15 @@ activeAfterBoundary
 |
 |
 (
+aEndpointBehavior
+=
+=
+EndpointBehavior
+:
+:
+Exclusive
+&
+&
 aPlaybackRate
 >
 =
@@ -844,6 +855,15 @@ beforeActiveBoundary
 |
 |
 (
+aEndpointBehavior
+=
+=
+EndpointBehavior
+:
+:
+Exclusive
+&
+&
 aPlaybackRate
 <
 0
@@ -1415,6 +1435,8 @@ const
 TimingParams
 *
 aTiming
+EndpointBehavior
+aEndpointBehavior
 )
 const
 {
@@ -1470,6 +1492,7 @@ NormalizedTiming
 )
 playbackRate
 progressTimelinePosition
+aEndpointBehavior
 )
 ;
 }

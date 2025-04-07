@@ -313,6 +313,13 @@ Animation
 :
 ProgressTimelinePosition
 aProgressTimelinePosition
+EndpointBehavior
+aEndpointBehavior
+=
+EndpointBehavior
+:
+:
+Exclusive
 )
 ;
 ComputedTiming
@@ -324,6 +331,13 @@ TimingParams
 aTiming
 =
 nullptr
+EndpointBehavior
+aEndpointBehavior
+=
+EndpointBehavior
+:
+:
+Exclusive
 )
 const
 ;
