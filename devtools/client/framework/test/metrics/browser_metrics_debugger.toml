@@ -108,6 +108,9 @@ os
 '
 linux
 '
+&
+&
+opt
 "
 ]
 #
@@ -128,12 +131,6 @@ skip
 if
 =
 [
-"
-debug
-"
-"
-asan
-"
 "
 verify
 "
