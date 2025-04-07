@@ -73,7 +73,7 @@ ReadableStreamBYOBRequest
 h
 "
 "
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "

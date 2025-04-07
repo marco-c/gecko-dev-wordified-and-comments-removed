@@ -89,7 +89,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "

@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "
@@ -110,7 +110,7 @@ StartCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 JS
@@ -147,7 +147,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult

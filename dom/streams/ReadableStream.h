@@ -80,7 +80,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "
@@ -298,7 +298,7 @@ aRv
 )
 ;
 MOZ_KNOWN_LIVE
-ReadableStreamController
+ReadableStreamControllerBase
 *
 Controller
 (
@@ -339,7 +339,7 @@ AsDefault
 void
 SetController
 (
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 )
@@ -1052,7 +1052,7 @@ private
 :
 RefPtr
 <
-ReadableStreamController
+ReadableStreamControllerBase
 >
 mController
 ;

@@ -999,7 +999,7 @@ Readable
 {
 RefPtr
 <
-ReadableStreamController
+ReadableStreamControllerBase
 >
 controller
 (
