@@ -811,7 +811,7 @@ by
 clicking
 the
 "
-Hg
+Git
 Log
 "
 link
@@ -840,7 +840,7 @@ __
 or
 by
 running
-hg
+git
 log
 browser
 /
