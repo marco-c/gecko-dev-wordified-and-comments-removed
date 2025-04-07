@@ -151,9 +151,15 @@ builds
 /
 worker
 /
-checkouts
+workspace
 /
-gecko
+obj
+-
+build
+/
+gradle
+/
+build
 /
 mobile
 /
@@ -164,8 +170,6 @@ source_project_name
 }
 /
 app
-/
-build
 /
 outputs
 /
