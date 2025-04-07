@@ -171,7 +171,7 @@ using
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 ;
 using
 dom
@@ -12694,7 +12694,7 @@ nsTArray
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 uniffiArgs
 ;
@@ -12806,7 +12806,7 @@ NullableRootedUnion
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 returnValue
 (
@@ -13033,7 +13033,7 @@ nsTArray
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 uniffiArgs
 ;
@@ -13223,7 +13223,7 @@ NullableRootedUnion
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 returnValue
 (
@@ -13436,7 +13436,7 @@ nsTArray
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 uniffiArgs
 ;
@@ -13509,7 +13509,7 @@ NullableRootedUnion
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 returnValue
 (
@@ -13708,7 +13708,7 @@ nsTArray
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 uniffiArgs
 ;
@@ -13859,7 +13859,7 @@ NullableRootedUnion
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 returnValue
 (
@@ -13989,7 +13989,7 @@ nsTArray
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 uniffiArgs
 ;
@@ -13998,7 +13998,7 @@ NullableRootedUnion
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 returnValue
 (
@@ -14408,7 +14408,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -14494,7 +14494,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -14529,7 +14529,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -14570,7 +14570,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -14635,7 +14635,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -14777,7 +14777,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -14868,7 +14868,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -15046,7 +15046,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -15122,7 +15122,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -15311,7 +15311,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -15412,7 +15412,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -15635,7 +15635,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -15691,7 +15691,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -15790,7 +15790,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -15861,7 +15861,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -15949,7 +15949,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -16025,7 +16025,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -16214,7 +16214,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -16305,7 +16305,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -16449,7 +16449,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -16520,7 +16520,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -16608,7 +16608,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -16664,7 +16664,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -16763,7 +16763,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -16854,7 +16854,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -16997,7 +16997,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -17089,7 +17089,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -17267,7 +17267,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -17323,7 +17323,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -17422,7 +17422,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -17513,7 +17513,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -17657,7 +17657,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -17738,7 +17738,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -17836,7 +17836,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -17918,7 +17918,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -18017,7 +18017,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -18108,7 +18108,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -18252,7 +18252,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -18343,7 +18343,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -18487,7 +18487,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -18578,7 +18578,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -18722,7 +18722,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -18793,7 +18793,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -18881,7 +18881,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -18948,7 +18948,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -19093,7 +19093,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -19175,7 +19175,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -19274,7 +19274,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -19355,7 +19355,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -19488,7 +19488,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -19554,7 +19554,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -19697,7 +19697,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -19769,7 +19769,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -19857,7 +19857,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -19923,7 +19923,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -20067,7 +20067,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -20148,7 +20148,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -20281,7 +20281,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -20337,7 +20337,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -20470,7 +20470,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -20537,7 +20537,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -20717,7 +20717,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -20763,7 +20763,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -20816,7 +20816,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -20907,7 +20907,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -21049,7 +21049,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -21120,7 +21120,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -21208,7 +21208,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -21254,7 +21254,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -21342,7 +21342,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -21398,7 +21398,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -21531,7 +21531,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -21627,7 +21627,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -21906,7 +21906,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -21987,7 +21987,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -22086,7 +22086,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -22177,7 +22177,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -22321,7 +22321,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -22412,7 +22412,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -22556,7 +22556,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -22637,7 +22637,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -22770,7 +22770,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -22836,7 +22836,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -22980,7 +22980,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -23071,7 +23071,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -23215,7 +23215,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -23307,7 +23307,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -23452,7 +23452,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -23535,7 +23535,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -23635,7 +23635,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -23728,7 +23728,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -23873,7 +23873,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -23966,7 +23966,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -24111,7 +24111,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -24214,7 +24214,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -24404,7 +24404,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -24497,7 +24497,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -24642,7 +24642,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -24735,7 +24735,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -24880,7 +24880,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -24974,7 +24974,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -25121,7 +25121,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -25193,7 +25193,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -25246,7 +25246,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -25348,7 +25348,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -25537,7 +25537,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -25648,7 +25648,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -25882,7 +25882,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -25963,7 +25963,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -26062,7 +26062,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -26163,7 +26163,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -26352,7 +26352,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -26443,7 +26443,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -26587,7 +26587,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -26668,7 +26668,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -26767,7 +26767,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -26858,7 +26858,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27002,7 +27002,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27083,7 +27083,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27182,7 +27182,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27263,7 +27263,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27396,7 +27396,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27442,7 +27442,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27530,7 +27530,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27586,7 +27586,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27685,7 +27685,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27766,7 +27766,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -27899,7 +27899,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -27965,7 +27965,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28143,7 +28143,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28199,7 +28199,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28332,7 +28332,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28378,7 +28378,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28466,7 +28466,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28522,7 +28522,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28621,7 +28621,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28692,7 +28692,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28780,7 +28780,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28826,7 +28826,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -28914,7 +28914,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -28971,7 +28971,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29071,7 +29071,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29143,7 +29143,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29231,7 +29231,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29287,7 +29287,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29386,7 +29386,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29468,7 +29468,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29568,7 +29568,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29640,7 +29640,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29728,7 +29728,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29784,7 +29784,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -29917,7 +29917,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -29973,7 +29973,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -30071,7 +30071,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -30153,7 +30153,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -30252,7 +30252,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -30343,7 +30343,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -30487,7 +30487,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -30568,7 +30568,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -30667,7 +30667,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -30748,7 +30748,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -30881,7 +30881,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -30927,7 +30927,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31015,7 +31015,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -31071,7 +31071,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31170,7 +31170,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -31251,7 +31251,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31384,7 +31384,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -31450,7 +31450,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31628,7 +31628,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -31684,7 +31684,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31817,7 +31817,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -31863,7 +31863,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -31951,7 +31951,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32007,7 +32007,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32106,7 +32106,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32177,7 +32177,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32265,7 +32265,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32311,7 +32311,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32399,7 +32399,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32456,7 +32456,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32556,7 +32556,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32648,7 +32648,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32792,7 +32792,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -32863,7 +32863,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -32951,7 +32951,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -33027,7 +33027,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -33216,7 +33216,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -33317,7 +33317,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -33506,7 +33506,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -33587,7 +33587,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -33686,7 +33686,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -33787,7 +33787,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -33976,7 +33976,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -34077,7 +34077,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -34266,7 +34266,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -34347,7 +34347,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -34445,7 +34445,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -34539,7 +34539,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -34681,7 +34681,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -34771,7 +34771,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -34913,7 +34913,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -35003,7 +35003,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -35145,7 +35145,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -35235,7 +35235,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -35377,7 +35377,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -35457,7 +35457,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -35554,7 +35554,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -35634,7 +35634,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -35731,7 +35731,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -35821,7 +35821,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -35963,7 +35963,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36034,7 +36034,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -36122,7 +36122,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36197,7 +36197,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -36418,7 +36418,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36473,7 +36473,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -36604,7 +36604,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36659,7 +36659,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -36790,7 +36790,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36848,7 +36848,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -36908,7 +36908,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -36968,7 +36968,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37009,7 +37009,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37055,7 +37055,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37143,7 +37143,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37201,7 +37201,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37316,7 +37316,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37399,7 +37399,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37514,7 +37514,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37597,7 +37597,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37712,7 +37712,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37795,7 +37795,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -37910,7 +37910,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -37993,7 +37993,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -38108,7 +38108,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -38191,7 +38191,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -38306,7 +38306,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -38389,7 +38389,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -38504,7 +38504,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -38588,7 +38588,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -38707,7 +38707,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -38791,7 +38791,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -38906,7 +38906,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -38989,7 +38989,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -39104,7 +39104,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -39187,7 +39187,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -39302,7 +39302,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -39385,7 +39385,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -39500,7 +39500,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -39583,7 +39583,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -39698,7 +39698,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -39781,7 +39781,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -39896,7 +39896,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -39987,7 +39987,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40131,7 +40131,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40214,7 +40214,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40332,7 +40332,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40403,7 +40403,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40491,7 +40491,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40537,7 +40537,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40590,7 +40590,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40662,7 +40662,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40750,7 +40750,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40806,7 +40806,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -40905,7 +40905,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -40986,7 +40986,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41084,7 +41084,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -41167,7 +41167,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41302,7 +41302,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -41357,7 +41357,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41454,7 +41454,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -41544,7 +41544,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41686,7 +41686,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -41756,7 +41756,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41808,7 +41808,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -41879,7 +41879,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -41932,7 +41932,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42004,7 +42004,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42092,7 +42092,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42147,7 +42147,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42244,7 +42244,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42324,7 +42324,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42421,7 +42421,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42501,7 +42501,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42598,7 +42598,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42678,7 +42678,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42775,7 +42775,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -42855,7 +42855,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -42952,7 +42952,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -43043,7 +43043,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -43187,7 +43187,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -43278,7 +43278,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -43422,7 +43422,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -43513,7 +43513,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -43657,7 +43657,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -43748,7 +43748,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -43892,7 +43892,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -43983,7 +43983,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -44127,7 +44127,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -44218,7 +44218,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -44362,7 +44362,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -44453,7 +44453,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -44597,7 +44597,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -44688,7 +44688,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -44832,7 +44832,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -44923,7 +44923,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -45067,7 +45067,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -45158,7 +45158,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -45302,7 +45302,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -45393,7 +45393,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -45537,7 +45537,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -45628,7 +45628,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -45772,7 +45772,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -45863,7 +45863,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -46007,7 +46007,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -46098,7 +46098,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -46242,7 +46242,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -46333,7 +46333,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -46477,7 +46477,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -46568,7 +46568,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -46712,7 +46712,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -46803,7 +46803,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -46947,7 +46947,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -47038,7 +47038,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -47182,7 +47182,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -47273,7 +47273,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -47417,7 +47417,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -47508,7 +47508,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -47652,7 +47652,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -47743,7 +47743,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -47887,7 +47887,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -47978,7 +47978,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -48122,7 +48122,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -48213,7 +48213,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -48357,7 +48357,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -48448,7 +48448,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -48592,7 +48592,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -48683,7 +48683,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -48827,7 +48827,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -48898,7 +48898,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -48951,7 +48951,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -49043,7 +49043,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -49187,7 +49187,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -49278,7 +49278,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -49422,7 +49422,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -49513,7 +49513,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -49657,7 +49657,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -49748,7 +49748,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -49892,7 +49892,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -49983,7 +49983,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -50127,7 +50127,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -50218,7 +50218,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -50362,7 +50362,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -50453,7 +50453,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -50597,7 +50597,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -50688,7 +50688,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -50832,7 +50832,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -50923,7 +50923,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -51067,7 +51067,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -51158,7 +51158,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -51302,7 +51302,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -51393,7 +51393,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -51537,7 +51537,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -51628,7 +51628,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -51772,7 +51772,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -51863,7 +51863,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -52007,7 +52007,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -52098,7 +52098,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -52242,7 +52242,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -52333,7 +52333,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -52477,7 +52477,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -52548,7 +52548,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -52601,7 +52601,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -52693,7 +52693,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -52837,7 +52837,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -52928,7 +52928,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -53072,7 +53072,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -53163,7 +53163,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -53307,7 +53307,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -53398,7 +53398,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -53542,7 +53542,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -53633,7 +53633,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -53777,7 +53777,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -53868,7 +53868,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -54012,7 +54012,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -54103,7 +54103,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -54247,7 +54247,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -54338,7 +54338,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -54482,7 +54482,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -54573,7 +54573,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -54717,7 +54717,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -54808,7 +54808,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -54952,7 +54952,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -55043,7 +55043,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -55187,7 +55187,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -55278,7 +55278,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -55422,7 +55422,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -55493,7 +55493,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -55546,7 +55546,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -55637,7 +55637,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -55779,7 +55779,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -55860,7 +55860,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -55959,7 +55959,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56040,7 +56040,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -56173,7 +56173,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56229,7 +56229,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -56362,7 +56362,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56418,7 +56418,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -56516,7 +56516,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56608,7 +56608,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -56751,7 +56751,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56832,7 +56832,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -56929,7 +56929,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -56999,7 +56999,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57051,7 +57051,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -57122,7 +57122,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57210,7 +57210,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -57266,7 +57266,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57399,7 +57399,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -57455,7 +57455,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57588,7 +57588,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -57644,7 +57644,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57777,7 +57777,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -57833,7 +57833,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -57966,7 +57966,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58022,7 +58022,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -58155,7 +58155,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58211,7 +58211,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -58310,7 +58310,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58391,7 +58391,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -58490,7 +58490,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58571,7 +58571,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -58670,7 +58670,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58751,7 +58751,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -58850,7 +58850,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -58931,7 +58931,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59030,7 +59030,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -59101,7 +59101,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59189,7 +59189,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -59235,7 +59235,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59288,7 +59288,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -59360,7 +59360,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59413,7 +59413,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -59485,7 +59485,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59538,7 +59538,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -59640,7 +59640,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -59829,7 +59829,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest

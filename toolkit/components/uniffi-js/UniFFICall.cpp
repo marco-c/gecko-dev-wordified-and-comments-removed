@@ -61,6 +61,12 @@ using
 dom
 :
 :
+OwningUniFFIScaffoldingValue
+;
+using
+dom
+:
+:
 RootedDictionary
 ;
 using
@@ -74,12 +80,6 @@ dom
 :
 :
 UniFFIScaffoldingCallResult
-;
-using
-dom
-:
-:
-UniFFIScaffoldingValue
 ;
 void
 UniffiSyncCallHandler
@@ -99,7 +99,7 @@ aGlobal
 const
 Sequence
 <
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -235,7 +235,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -865,7 +865,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs

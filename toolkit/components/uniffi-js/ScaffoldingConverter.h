@@ -152,7 +152,7 @@ const
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 &
 aValue
 IntermediateType
@@ -388,7 +388,7 @@ aValue
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 *
 aDest
 ErrorResult
@@ -564,7 +564,7 @@ const
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 &
 aValue
 OwnedRustBuffer
@@ -663,7 +663,7 @@ aValue
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 *
 aDest
 ErrorResult
@@ -753,7 +753,7 @@ const
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 &
 aValue
 void
@@ -882,7 +882,7 @@ aValue
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 *
 aDest
 ErrorResult
