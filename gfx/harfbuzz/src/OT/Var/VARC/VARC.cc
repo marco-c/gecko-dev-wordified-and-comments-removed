@@ -2228,7 +2228,10 @@ glyphRecords
 idx
 ]
 ;
-float
+VarRegionList
+:
+:
+cache_t
 static_cache
 [
 sizeof

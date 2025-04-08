@@ -373,6 +373,11 @@ data
 IDWriteFontFace
 *
 )
+(
+const
+void
+*
+)
 data
 )
 -

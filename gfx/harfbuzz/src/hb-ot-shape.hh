@@ -331,6 +331,11 @@ apply_morx
 :
 1
 ;
+bool
+apply_trak
+:
+1
+;
 #
 else
 static
@@ -344,6 +349,13 @@ static
 constexpr
 bool
 apply_morx
+=
+false
+;
+static
+constexpr
+bool
+apply_trak
 =
 false
 ;

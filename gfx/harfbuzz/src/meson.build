@@ -4418,6 +4418,10 @@ hb_headers
 +
 =
 hb_directwrite_headers
+harfbuzz_deps
++
+=
+directwrite_dep
 #
 hb
 -

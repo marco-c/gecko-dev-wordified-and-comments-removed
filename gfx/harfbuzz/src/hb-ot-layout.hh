@@ -1580,6 +1580,16 @@ unicode_props
 =
 UPROPS_MASK_Cf_AAT_DELETED
 ;
+info
+-
+>
+unicode_props
+(
+)
+|
+=
+UPROPS_MASK_HIDDEN
+;
 }
 static
 inline

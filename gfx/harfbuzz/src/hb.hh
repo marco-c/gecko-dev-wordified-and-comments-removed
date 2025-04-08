@@ -442,6 +442,15 @@ diagnostic
 error
 "
 -
+Wuninitialized
+"
+#
+pragma
+GCC
+diagnostic
+error
+"
+-
 Wunneeded
 -
 internal

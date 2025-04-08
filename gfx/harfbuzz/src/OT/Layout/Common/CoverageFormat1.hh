@@ -198,8 +198,6 @@ glyphArray
 .
 len
 )
-/
-2
 )
 {
 for
