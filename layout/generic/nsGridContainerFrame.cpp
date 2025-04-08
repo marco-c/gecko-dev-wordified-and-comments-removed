@@ -56476,6 +56476,15 @@ HasAuto
 (
 aAxis
 wm
+aChild
+-
+>
+StyleDisplay
+(
+)
+-
+>
+mPosition
 )
 )
 {
