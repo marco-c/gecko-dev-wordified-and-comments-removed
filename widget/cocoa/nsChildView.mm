@@ -5606,10 +5606,6 @@ setupLayerManager
 this
 &
 targetContext
-BufferMode
-:
-:
-BUFFER_NONE
 )
 ;
 return

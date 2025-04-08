@@ -703,16 +703,6 @@ Last
 ;
 enum
 class
-BufferMode
-:
-int8_t
-{
-BUFFER_NONE
-BUFFERED
-}
-;
-enum
-class
 DrawRegionClip
 :
 int8_t

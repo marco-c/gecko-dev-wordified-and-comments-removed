@@ -687,12 +687,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-layers
-:
-:
-BufferMode
-*
-aBufferMode
 )
 {
 if
@@ -770,14 +764,6 @@ nullptr
 ;
 }
 }
-*
-aBufferMode
-=
-BufferMode
-:
-:
-BUFFER_NONE
-;
 RefPtr
 <
 gfx

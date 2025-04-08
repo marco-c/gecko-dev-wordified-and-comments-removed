@@ -247,12 +247,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-layers
-:
-:
-BufferMode
-*
-aBufferMode
 )
 {
 CheckWidgetSanity
@@ -266,7 +260,6 @@ mWidget
 StartRemoteDrawingInRegion
 (
 aInvalidRegion
-aBufferMode
 )
 ;
 }

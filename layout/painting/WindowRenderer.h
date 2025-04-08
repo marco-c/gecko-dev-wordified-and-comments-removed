@@ -549,11 +549,6 @@ SetTarget
 gfxContext
 *
 aContext
-layers
-:
-:
-BufferMode
-aDoubleBuffering
 )
 ;
 bool
@@ -603,7 +598,6 @@ LayersBackend
 LAYERS_NONE
 ;
 }
-virtual
 void
 GetBackendName
 (
@@ -657,12 +651,8 @@ aFlags
 gfxContext
 *
 mTarget
-;
-layers
-:
-:
-BufferMode
-mBufferMode
+=
+nullptr
 ;
 }
 ;
