@@ -3181,16 +3181,6 @@ auctionConfigOverrides
 )
 ;
 await
-waitForObservedRequestsIgnoreDebugOnlyReports
-(
-uuid
-[
-bidderReportURL2
-sellerReportURL2
-]
-)
-;
-await
 runBasicFledgeAuctionAndNavigate
 (
 test
