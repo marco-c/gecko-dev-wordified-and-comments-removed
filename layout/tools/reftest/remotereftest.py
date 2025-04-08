@@ -22,6 +22,12 @@ from
 contextlib
 import
 closing
+from
+urllib
+.
+request
+import
+urlopen
 import
 mozcrash
 import
@@ -41,14 +47,6 @@ import
 RefTest
 ReftestResolver
 build_obj
-from
-six
-.
-moves
-.
-urllib_request
-import
-urlopen
 SCRIPT_DIRECTORY
 =
 os
