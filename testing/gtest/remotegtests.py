@@ -653,18 +653,26 @@ join
 test_dir
 "
 *
+*
 "
 )
+recursive
+=
+True
 )
 :
             
 if
 not
+"
+gtest_bin
+"
+in
 os
 .
 path
 .
-isdir
+abspath
 (
 f
 )
