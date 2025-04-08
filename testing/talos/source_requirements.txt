@@ -141,3 +141,11 @@ manifestparser
 1
 .
 0
+xdg
+>
+=
+5
+.
+1
+.
+1
