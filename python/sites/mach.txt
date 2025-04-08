@@ -729,11 +729,11 @@ glean
 sdk
 =
 =
-63
-.
-1
+64
 .
 0
+.
+1
 :
 telemetry
 will
