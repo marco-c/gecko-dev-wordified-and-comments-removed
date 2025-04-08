@@ -19,7 +19,7 @@ round
 squircle
 :
 4
-straight
+square
 :
 1000
 }
