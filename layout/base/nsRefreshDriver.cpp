@@ -8398,7 +8398,7 @@ reasons
 TickReasons
 :
 :
-eNone
+None
 ;
 if
 (
@@ -8413,7 +8413,7 @@ reasons
 TickReasons
 :
 :
-eHasObservers
+HasObservers
 ;
 }
 if
@@ -8433,7 +8433,7 @@ reasons
 TickReasons
 :
 :
-eHasImageRequests
+HasImageRequests
 ;
 }
 if
@@ -8447,7 +8447,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToNotifyResizeObservers
+NeedsToNotifyResizeObservers
 ;
 }
 if
@@ -8461,7 +8461,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToUpdateViewTransitions
+NeedsToUpdateViewTransitions
 ;
 }
 if
@@ -8475,7 +8475,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToUpdateAnimations
+NeedsToUpdateAnimations
 ;
 }
 if
@@ -8489,7 +8489,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToUpdateIntersectionObservations
+NeedsToUpdateIntersectionObservations
 ;
 }
 if
@@ -8503,7 +8503,7 @@ reasons
 TickReasons
 :
 :
-eHasPendingMediaQueryListeners
+HasPendingMediaQueryListeners
 ;
 }
 if
@@ -8517,7 +8517,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToUpdateContentRelevancy
+NeedsToUpdateContentRelevancy
 ;
 }
 if
@@ -8531,7 +8531,7 @@ reasons
 TickReasons
 :
 :
-eNeedsToRunFrameRequestCallbacks
+NeedsToRunFrameRequestCallbacks
 ;
 }
 if
@@ -8550,7 +8550,7 @@ reasons
 TickReasons
 :
 :
-eHasVisualViewportResizeEvents
+HasVisualViewportResizeEvents
 ;
 }
 if
@@ -8569,7 +8569,7 @@ reasons
 TickReasons
 :
 :
-eHasScrollEvents
+HasScrollEvents
 ;
 }
 if
@@ -8599,7 +8599,7 @@ reasons
 TickReasons
 :
 :
-eRootNeedsMoreTicksForUserInput
+RootNeedsMoreTicksForUserInput
 ;
 }
 return
@@ -8628,7 +8628,7 @@ aReasons
 TickReasons
 :
 :
-eNone
+None
 )
 {
 aStr
@@ -8652,7 +8652,7 @@ aReasons
 TickReasons
 :
 :
-eHasObservers
+HasObservers
 )
 {
 aStr
@@ -8687,7 +8687,7 @@ aReasons
 TickReasons
 :
 :
-eHasImageRequests
+HasImageRequests
 )
 {
 aStr
@@ -8707,7 +8707,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToNotifyResizeObservers
+NeedsToNotifyResizeObservers
 )
 {
 aStr
@@ -8727,7 +8727,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToUpdateViewTransitions
+NeedsToUpdateViewTransitions
 )
 {
 aStr
@@ -8747,7 +8747,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToUpdateAnimations
+NeedsToUpdateAnimations
 )
 {
 aStr
@@ -8767,7 +8767,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToUpdateIntersectionObservations
+NeedsToUpdateIntersectionObservations
 )
 {
 aStr
@@ -8787,7 +8787,7 @@ aReasons
 TickReasons
 :
 :
-eHasPendingMediaQueryListeners
+HasPendingMediaQueryListeners
 )
 {
 aStr
@@ -8807,7 +8807,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToUpdateContentRelevancy
+NeedsToUpdateContentRelevancy
 )
 {
 aStr
@@ -8827,7 +8827,7 @@ aReasons
 TickReasons
 :
 :
-eNeedsToRunFrameRequestCallbacks
+NeedsToRunFrameRequestCallbacks
 )
 {
 aStr
@@ -8847,7 +8847,7 @@ aReasons
 TickReasons
 :
 :
-eHasVisualViewportResizeEvents
+HasVisualViewportResizeEvents
 )
 {
 aStr
@@ -8867,7 +8867,7 @@ aReasons
 TickReasons
 :
 :
-eHasScrollEvents
+HasScrollEvents
 )
 {
 aStr
@@ -8887,7 +8887,7 @@ aReasons
 TickReasons
 :
 :
-eRootNeedsMoreTicksForUserInput
+RootNeedsMoreTicksForUserInput
 )
 {
 aStr
@@ -11536,7 +11536,7 @@ tickReasons
 TickReasons
 :
 :
-eNone
+None
 )
 {
 mCompositionPayloads
@@ -13927,7 +13927,7 @@ GetReasonsToTick
 TickReasons
 :
 :
-eNone
+None
 )
 {
 EnsureTimerStarted
