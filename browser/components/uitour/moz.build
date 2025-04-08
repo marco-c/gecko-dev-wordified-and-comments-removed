@@ -78,6 +78,13 @@ sys
 .
 mjs
 "
+"
+UITourUtils
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

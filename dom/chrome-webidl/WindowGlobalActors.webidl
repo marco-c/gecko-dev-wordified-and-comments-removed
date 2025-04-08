@@ -1226,6 +1226,12 @@ windowContext
 ;
 readonly
 attribute
+WindowProxy
+?
+contentWindow
+;
+readonly
+attribute
 boolean
 isCurrentGlobal
 ;
