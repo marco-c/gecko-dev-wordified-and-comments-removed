@@ -269,8 +269,14 @@ ok
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 test_iframe_sandbox_navigation

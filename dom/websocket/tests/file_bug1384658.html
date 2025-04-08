@@ -24,8 +24,14 @@ success
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 test_channel
