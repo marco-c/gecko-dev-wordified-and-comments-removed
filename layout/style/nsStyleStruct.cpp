@@ -7275,6 +7275,7 @@ Servo_ResolveAnchorFunctionsInCalcPercentage
 (
 &
 c
+&
 aAxis
 aPosition
 &

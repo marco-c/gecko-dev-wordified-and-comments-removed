@@ -44724,7 +44724,11 @@ length_percentage
 CalcLengthPercentage
 axis
 :
+Option
+<
+&
 PhysicalAxis
+>
 position_property
 :
 PositionProperty
@@ -44747,6 +44751,10 @@ CalcAnchorFunctionResolutionInfo
 axis
 :
 axis
+.
+copied
+(
+)
 position_property
 }
 )
