@@ -12,10 +12,6 @@ from
 uuid
 import
 UUID
-from
-six
-import
-iteritems
 H_HEADER
 =
 "
@@ -924,9 +920,10 @@ for
 blocklist
 flagspec
 in
-iteritems
-(
 flagspecs
+.
+items
+(
 )
 :
             
@@ -1418,11 +1415,12 @@ for
 blocklist
 listflags
 in
-iteritems
-(
 self
 .
 _inspec
+.
+items
+(
 )
 :
             
@@ -4144,11 +4142,12 @@ for
 guid
 names
 in
-iteritems
-(
 LspBlocklistEntry
 .
 Guids
+.
+items
+(
 )
                 
 ]
