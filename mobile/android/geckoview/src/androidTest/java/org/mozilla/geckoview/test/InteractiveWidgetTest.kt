@@ -35,6 +35,14 @@ InputMethodManager
 import
 androidx
 .
+core
+.
+graphics
+.
+createBitmap
+import
+androidx
+.
 test
 .
 ext
@@ -578,8 +586,6 @@ rect
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 rect
@@ -927,8 +933,6 @@ rect
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 rect

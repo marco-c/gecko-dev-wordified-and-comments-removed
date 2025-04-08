@@ -163,6 +163,14 @@ androidx
 .
 core
 .
+graphics
+.
+createBitmap
+import
+androidx
+.
+core
+.
 net
 .
 toUri
@@ -475,8 +483,6 @@ bitmap
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 100

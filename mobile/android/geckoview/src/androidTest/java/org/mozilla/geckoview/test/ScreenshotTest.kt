@@ -33,6 +33,14 @@ Surface
 import
 androidx
 .
+core
+.
+graphics
+.
+createBitmap
+import
+androidx
+.
 test
 .
 ext
@@ -278,8 +286,6 @@ Bitmap
 val
 screenshotFile
 =
-Bitmap
-.
 createBitmap
 (
 width

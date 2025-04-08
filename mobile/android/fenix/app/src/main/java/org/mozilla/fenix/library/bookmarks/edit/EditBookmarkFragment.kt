@@ -243,7 +243,7 @@ androidx
 .
 navigation
 .
-Navigation
+findNavController
 import
 androidx
 .
@@ -2134,13 +2134,12 @@ launch
 Main
 )
 {
-Navigation
-.
-findNavController
-(
 requireActivity
 (
 )
+.
+findNavController
+(
 R
 .
 id

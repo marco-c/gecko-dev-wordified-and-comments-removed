@@ -87,6 +87,14 @@ core
 .
 graphics
 .
+createBitmap
+import
+androidx
+.
+core
+.
+graphics
+.
 get
 import
 androidx
@@ -182,8 +190,6 @@ setUp
 {
 subject
 =
-Bitmap
-.
 createBitmap
 (
 10
@@ -260,8 +266,6 @@ ARGB_8888
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 dimen

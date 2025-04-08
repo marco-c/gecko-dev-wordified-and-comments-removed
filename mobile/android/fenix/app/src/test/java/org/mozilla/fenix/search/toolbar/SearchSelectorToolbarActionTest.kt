@@ -72,12 +72,6 @@ android
 graphics
 .
 Bitmap
-import
-android
-.
-graphics
-.
-Bitmap
 .
 Config
 .
@@ -116,6 +110,14 @@ core
 graphics
 .
 applyCanvas
+import
+androidx
+.
+core
+.
+graphics
+.
+createBitmap
 import
 com
 .
@@ -1486,8 +1488,6 @@ size
 val
 originalIcon
 =
-Bitmap
-.
 createBitmap
 (
 100
@@ -1507,8 +1507,6 @@ RED
 val
 expectedScaledIcon
 =
-Bitmap
-.
 createBitmap
 (
 testContext

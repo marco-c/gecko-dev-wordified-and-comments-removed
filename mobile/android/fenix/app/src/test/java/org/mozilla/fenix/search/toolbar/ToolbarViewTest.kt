@@ -93,6 +93,14 @@ core
 .
 graphics
 .
+createBitmap
+import
+androidx
+.
+core
+.
+graphics
+.
 drawable
 .
 toBitmap
@@ -5644,8 +5652,6 @@ fakeName
 "
 icon
 =
-Bitmap
-.
 createBitmap
 (
 1

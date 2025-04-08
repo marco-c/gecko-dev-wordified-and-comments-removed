@@ -107,6 +107,14 @@ TextClassifier
 import
 androidx
 .
+core
+.
+graphics
+.
+createBitmap
+import
+androidx
+.
 test
 .
 ext
@@ -890,8 +898,6 @@ org
 val
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 2

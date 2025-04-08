@@ -47,6 +47,14 @@ core
 .
 graphics
 .
+createBitmap
+import
+androidx
+.
+core
+.
+graphics
+.
 get
 import
 androidx
@@ -471,8 +479,6 @@ pageNo
 var
 bitmap
 =
-Bitmap
-.
 createBitmap
 (
 deviceWidth
