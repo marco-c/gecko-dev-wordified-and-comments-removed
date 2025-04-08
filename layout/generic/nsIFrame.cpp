@@ -2320,6 +2320,11 @@ false
 }
 if
 (
+XRE_IsParentProcess
+(
+)
+&
+&
 frame
 -
 >
@@ -19683,6 +19688,11 @@ true
 ;
 }
 return
+XRE_IsParentProcess
+(
+)
+&
+&
 aFrame
 -
 >
