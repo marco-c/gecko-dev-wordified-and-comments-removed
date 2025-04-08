@@ -152,7 +152,9 @@ gCurrentCallbackID
 0
 ;
 /
-/
+*
+*
+*
 Handles
 keeping
 track
@@ -164,6 +166,8 @@ the
 registered
 keyword
 .
+*
+/
 class
 KeywordInfo
 {
@@ -223,7 +227,9 @@ _extension
 }
 }
 /
-/
+*
+*
+*
 Responsible
 for
 handling
@@ -235,6 +241,8 @@ and
 the
 urlbar
 .
+*
+/
 class
 InputSession
 {
@@ -888,9 +896,18 @@ keyword
 *
 param
 {
+object
+}
+options
+*
+param
+{
 string
 }
+options
+.
 description
+*
 The
 description
 to
@@ -1007,7 +1024,7 @@ keyword
 *
 param
 {
-integer
+number
 }
 id
 The
