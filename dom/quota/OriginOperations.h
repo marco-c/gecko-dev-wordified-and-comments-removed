@@ -154,7 +154,10 @@ aLocks
 ;
 RefPtr
 <
-NormalOriginOperationBase
+ResolvableNormalOriginOp
+<
+bool
+>
 >
 CreateSaveOriginAccessTimeOp
 (
