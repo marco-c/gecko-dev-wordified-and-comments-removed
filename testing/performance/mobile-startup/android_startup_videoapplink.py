@@ -10,6 +10,12 @@ import
 sys
 import
 time
+from
+mozperftest
+.
+utils
+import
+ON_TRY
 sys
 .
 path
@@ -481,6 +487,10 @@ self
 )
 :
         
+if
+ON_TRY
+:
+            
 self
 .
 device
