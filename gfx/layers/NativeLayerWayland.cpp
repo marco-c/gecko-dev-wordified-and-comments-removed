@@ -1135,9 +1135,15 @@ nsWindow
 p
 ]
 "
+"
+opaque
+%
+d
+"
 GetLoggingWidget
 (
 )
+aIsOpaque
 )
 ;
 return
@@ -5243,6 +5249,9 @@ d
 HDR
 %
 d
+Opaque
+%
+d
 "
 mTextureHost
 .
@@ -5277,6 +5286,7 @@ mSize
 .
 height
 mIsHDR
+mIsOpaque
 )
 ;
 }
