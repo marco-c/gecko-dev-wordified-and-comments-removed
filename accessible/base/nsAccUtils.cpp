@@ -535,13 +535,6 @@ IsEmpty
 )
 )
 {
-MOZ_ASSERT
-(
-GetAccService
-(
-)
-)
-;
 if
 (
 roleMap
@@ -2633,10 +2626,6 @@ value
 GetAccService
 (
 )
-?
-GetAccService
-(
-)
 -
 >
 MarkupAttribute
@@ -2647,8 +2636,6 @@ nsGkAtoms
 :
 aria_live
 )
-:
-nullptr
 )
 {
 value
