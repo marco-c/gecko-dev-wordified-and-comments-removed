@@ -271,7 +271,7 @@ readonly
 type
 :
 Boolean
-mapped
+reflect
 :
 true
 }
