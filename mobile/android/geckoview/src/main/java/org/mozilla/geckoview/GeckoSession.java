@@ -1885,6 +1885,9 @@ scrollY
 final
 float
 zoom
+final
+int
+source
 )
 {
 GeckoSession
@@ -1896,6 +1899,7 @@ onCompositorScrollUpdate
 scrollX
 scrollY
 zoom
+source
 )
 ;
 }
@@ -24915,6 +24919,7 @@ public
 class
 ScrollPositionUpdate
 {
+WrapForJNI
 public
 static
 final
@@ -24923,6 +24928,7 @@ SOURCE_USER_INTERACTION
 =
 0
 ;
+WrapForJNI
 public
 static
 final
@@ -27901,6 +27907,9 @@ scrollY
 final
 float
 zoom
+final
+int
+source
 )
 {
 if
@@ -27962,9 +27971,7 @@ update
 .
 source
 =
-ScrollPositionUpdate
-.
-SOURCE_USER_INTERACTION
+source
 ;
 if
 (
