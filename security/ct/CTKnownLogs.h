@@ -32,7 +32,7 @@ kCTExpirationTime
 =
 INT64_C
 (
-1749122532000000
+1750072636000000
 )
 ;
 namespace
@@ -2417,8 +2417,8 @@ Log
 CTLogState
 :
 :
-Admissible
-1667328840000
+Retired
+1744758000000
 2
 "
 \
@@ -2627,8 +2627,8 @@ Log
 CTLogState
 :
 :
-Admissible
-1724900983000
+Retired
+1744670000000
 2
 "
 \
@@ -3465,8 +3465,8 @@ Log
 CTLogState
 :
 :
-Admissible
-1724900983000
+Retired
+1744670000000
 2
 "
 \
