@@ -156,14 +156,10 @@ IntSize
 size
 )
 ;
-bool
-mOwnsDC
-;
 HDC
 mDC
-;
-HWND
-mWnd
+=
+nullptr
 ;
 }
 ;
