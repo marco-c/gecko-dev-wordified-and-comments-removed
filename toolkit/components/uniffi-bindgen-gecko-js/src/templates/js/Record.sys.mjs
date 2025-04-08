@@ -259,6 +259,8 @@ as_type
 .
 equals
 (
+&
+(
 "
 this
 .
@@ -274,6 +276,9 @@ js_name
 (
 )
 )
+)
+&
+(
 "
 other
 .
@@ -287,6 +292,7 @@ field
 .
 js_name
 (
+)
 )
 )
 )
