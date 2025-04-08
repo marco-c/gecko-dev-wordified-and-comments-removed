@@ -645,17 +645,6 @@ Scrolling
 PullToRefresh
 }
 ;
-struct
-GeckoViewMetrics
-{
-CSSPoint
-mVisualScrollOffset
-;
-CSSToParentLayerScale
-mZoom
-;
-}
-;
 namespace
 apz
 {

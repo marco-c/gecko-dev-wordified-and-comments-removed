@@ -18,6 +18,17 @@ mozilla
 /
 layers
 /
+CompositorScrollUpdate
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 GeckoContentController
 .
 h
@@ -1286,8 +1297,8 @@ Metrics
 (
 )
 ;
-GeckoViewMetrics
-GetGeckoViewMetrics
+CompositorScrollUpdate
+GetCompositorScrollUpdate
 (
 )
 const
@@ -1304,7 +1315,7 @@ const
 bool
 UpdateRootFrameMetricsIfChanged
 (
-GeckoViewMetrics
+CompositorScrollUpdate
 &
 aMetrics
 )

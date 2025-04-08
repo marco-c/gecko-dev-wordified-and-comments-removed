@@ -457,6 +457,15 @@ apz
 /
 public
 /
+CompositorScrollUpdate
+.
+h
+"
+"
+apz
+/
+public
+/
 GeckoContentController
 .
 h

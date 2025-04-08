@@ -1000,12 +1000,12 @@ void
 UiCompositorControllerParent
 :
 :
-NotifyUpdateScreenMetrics
+NotifyCompositorScrollUpdate
 (
 const
-GeckoViewMetrics
+CompositorScrollUpdate
 &
-aMetrics
+aUpdate
 )
 {
 #
@@ -1022,7 +1022,7 @@ ViewTargetAs
 ScreenPixel
 >
 (
-aMetrics
+aUpdate
 .
 mZoom
 PixelCastJustification
@@ -1034,7 +1034,7 @@ ScreenIsParentLayerForRoot
 ScreenPoint
 scrollOffset
 =
-aMetrics
+aUpdate
 .
 mVisualScrollOffset
 *
