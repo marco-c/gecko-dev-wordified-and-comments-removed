@@ -106,6 +106,16 @@ allowedFile
 txt
 "
 "
+allowedFile1
+.
+txt
+"
+"
+allowedFile2
+.
+txt
+"
+"
 blockedFile
 .
 txt

@@ -536,6 +536,11 @@ mTimeoutMultiplier
 =
 1
 ;
+bool
+mTestOnlyAlwaysSubmitToAgent
+=
+false
+;
 friend
 class
 :
@@ -1087,6 +1092,10 @@ Client
 >
 &
 aClient
+bool
+aTestOnlyIgnoreCanceled
+=
+false
 )
 ;
 static

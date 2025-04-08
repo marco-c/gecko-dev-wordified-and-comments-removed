@@ -528,6 +528,10 @@ attribute
 uint32_t
 timeoutMultiplier
 ;
+attribute
+boolean
+testOnlyIgnoreCanceledAndAlwaysSubmitToAgent
+;
 }
 ;
 [
