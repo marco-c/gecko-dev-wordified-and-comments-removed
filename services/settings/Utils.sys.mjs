@@ -3213,9 +3213,9 @@ filter
 )
 )
 {
-console
+log
 .
-error
+debug
 (
 The
 property
