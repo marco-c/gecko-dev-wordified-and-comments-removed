@@ -229,6 +229,12 @@ aReasonCodes
 in
 boolean
 aFollowsCollectionEnabled
+in
+Array
+<
+ACString
+>
+aUploaderCapabilities
 )
 ;
 }

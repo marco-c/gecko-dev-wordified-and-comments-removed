@@ -316,6 +316,10 @@ true
 send_if_empty
 :
 true
+uploader_capabilities
+:
+-
+ohttp
 bugs
 :
 -
