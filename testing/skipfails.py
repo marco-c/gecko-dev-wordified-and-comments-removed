@@ -5532,6 +5532,9 @@ blocks
             
 ]
             
+try
+:
+                
 bugs
 =
 self
@@ -5542,6 +5545,23 @@ query
 (
 query
 )
+            
+except
+requests
+.
+exceptions
+.
+HTTPError
+:
+                
+if
+not
+self
+.
+dry_run
+:
+                    
+raise
         
 return
 bugs
@@ -7305,6 +7325,21 @@ manifest
 "
 "
         
+path
+=
+path
+.
+split
+(
+"
+:
+"
+)
+[
+-
+1
+]
+        
 self
 .
 vinfo
@@ -7460,21 +7495,6 @@ additional_comment
 =
 "
 "
-        
-path
-=
-path
-.
-split
-(
-"
-:
-"
-)
-[
--
-1
-]
         
 comment
 bug_reference
@@ -9615,23 +9635,6 @@ extra
             
 elif
 os_version
-=
-=
-"
-11
-.
-2009
-"
-:
-                
-skip_if
-=
-"
-win11_2009
-"
-            
-elif
-os_version
 is
 not
 None
@@ -9651,6 +9654,35 @@ os
 +
 qq
                 
+if
+os
+=
+=
+"
+android
+"
+:
+                    
+skip_if
++
+=
+aa
++
+"
+android_version
+"
++
+eq
++
+qq
++
+os_version
++
+qq
+                
+else
+:
+                    
 skip_if
 +
 =
@@ -9860,8 +9892,7 @@ extra
 .
 build_type
             
-skip_if
-+
+skip_cond
 =
 self
 .
@@ -9880,6 +9911,34 @@ extra
 test_variant
             
 )
+            
+if
+kind
+=
+=
+Kind
+.
+WPT
+:
+                
+skip_cond
+=
+skip_cond
+.
+replace
+(
+"
+!
+"
+"
+not
+"
+)
+            
+skip_if
++
+=
+skip_cond
         
 return
 skip_if
@@ -11682,11 +11741,30 @@ id
 else
 :
                 
+try
+:
+                    
 failure_types
 =
 task
 .
 failure_types
+                
+except
+requests
+.
+exceptions
+.
+HTTPError
+:
+                    
+continue
+                
+except
+TaskclusterRestFailure
+:
+                    
+continue
             
 for
 k
