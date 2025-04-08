@@ -107,13 +107,13 @@ base
 .
 Divider
 import
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 text
 .

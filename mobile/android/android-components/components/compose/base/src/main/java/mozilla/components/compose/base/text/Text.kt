@@ -57,13 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 text
 import
