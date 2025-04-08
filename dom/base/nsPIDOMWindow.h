@@ -874,13 +874,6 @@ TryToCacheTopInnerWindow
 (
 )
 ;
-void
-UpdateActiveIndexedDBDatabaseCount
-(
-int32_t
-aDelta
-)
-;
 mozilla
 :
 :

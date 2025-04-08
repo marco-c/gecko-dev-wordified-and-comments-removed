@@ -1367,6 +1367,7 @@ bool
 HasActiveIndexedDBDatabases
 (
 )
+const
 override
 ;
 virtual
@@ -1400,6 +1401,15 @@ SyncStateFromParentWindow
 virtual
 void
 UpdateWebSocketCount
+(
+int32_t
+aDelta
+)
+override
+;
+virtual
+void
+UpdateActiveIndexedDBDatabaseCount
 (
 int32_t
 aDelta

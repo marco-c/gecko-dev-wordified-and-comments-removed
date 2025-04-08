@@ -13428,7 +13428,7 @@ GetCurrentInnerWindow
 }
 }
 void
-nsPIDOMWindowInner
+nsGlobalWindowInner
 :
 :
 UpdateActiveIndexedDBDatabaseCount
@@ -13481,6 +13481,7 @@ nsGlobalWindowInner
 HasActiveIndexedDBDatabases
 (
 )
+const
 {
 MOZ_ASSERT
 (

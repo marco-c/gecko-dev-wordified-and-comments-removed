@@ -1209,6 +1209,7 @@ bool
 HasActiveIndexedDBDatabases
 (
 )
+const
 {
 return
 false
@@ -1266,6 +1267,15 @@ aDelta
 {
 }
 ;
+virtual
+void
+UpdateActiveIndexedDBDatabaseCount
+(
+int32_t
+aDelta
+)
+{
+}
 virtual
 void
 ReportToConsole
