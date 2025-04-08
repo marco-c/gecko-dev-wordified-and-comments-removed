@@ -18382,6 +18382,17 @@ aPositionFixedRect
 return
 ;
 }
+const
+nsPoint
+layoutOffset
+=
+rootScrollContainer
+-
+>
+GetScrollPosition
+(
+)
+;
 aDestination
 =
 Some
@@ -18391,6 +18402,8 @@ aPositionFixedRect
 TopLeft
 (
 )
++
+layoutOffset
 )
 ;
 }
