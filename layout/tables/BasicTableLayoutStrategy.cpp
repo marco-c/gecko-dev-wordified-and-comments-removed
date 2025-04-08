@@ -827,7 +827,7 @@ BehavesLikeStretchOnInlineAxis
 {
 maxISize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 None
@@ -856,7 +856,7 @@ IsFitContentFunction
 {
 maxISize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 MaxContent
@@ -1023,7 +1023,7 @@ BehavesLikeStretchOnInlineAxis
 {
 minISize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Zero
@@ -1052,7 +1052,7 @@ IsFitContentFunction
 {
 minISize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 MinContent

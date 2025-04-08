@@ -1886,7 +1886,7 @@ LogicalAxis
 :
 Inline
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Auto

@@ -8892,7 +8892,7 @@ Vertical
 {
 minHeight
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Zero
@@ -8975,7 +8975,7 @@ Horizontal
 {
 minWidth
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Zero

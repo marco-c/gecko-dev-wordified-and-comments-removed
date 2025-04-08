@@ -30913,7 +30913,7 @@ aSizeOverrides
 .
 mStyleISize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -30950,7 +30950,7 @@ aSizeOverrides
 mStyleBSize
 )
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -31024,7 +31024,7 @@ mBoxSizing
 )
 ;
 return
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 LengthPercentage
@@ -33257,7 +33257,7 @@ aSizeOverrides
 .
 mStyleISize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -33329,7 +33329,7 @@ aSizeOverrides
 .
 mStyleBSize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -33627,7 +33627,7 @@ aSizeOverrides
 .
 mStyleISize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -33656,7 +33656,7 @@ aSizeOverrides
 .
 mStyleBSize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden

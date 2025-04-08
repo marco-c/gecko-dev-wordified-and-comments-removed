@@ -24525,7 +24525,7 @@ MIN_INTRINSIC_ISIZE
 )
 {
 return
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -24556,7 +24556,7 @@ mStyleBSize
 return
 styleISizeOverride
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -24677,7 +24677,7 @@ IsLengthPercentage
 {
 aSize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Auto
@@ -24698,7 +24698,7 @@ IsLengthPercentage
 {
 aMinSize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Auto
@@ -24719,7 +24719,7 @@ IsLengthPercentage
 {
 aMaxSize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 None
@@ -24818,7 +24818,7 @@ styleBSize
 =
 styleBSizeOverride
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -26312,7 +26312,7 @@ BehavesLikeInitialValueOnBlockAxis
 {
 size
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Auto
@@ -26332,7 +26332,7 @@ BehavesLikeInitialValueOnBlockAxis
 {
 maxSize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 None
@@ -26426,7 +26426,7 @@ BehavesLikeInitialValueOnBlockAxis
 {
 size
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Auto
