@@ -4339,12 +4339,6 @@ dep
 zerovec
 "
 ]
-pkcs11testmodule
--
-static
-=
-[
-]
 test
 -
 trust
