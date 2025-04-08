@@ -129,7 +129,6 @@ ffi_converter_name
 -
 when
 Some
-with
 (
 config
 )
@@ -145,7 +144,12 @@ builtin
 |
 ffi_type
 |
+ref
+|
 ffi_type_name_by_value
+(
+ci
+)
 %
 }
 {
@@ -386,9 +390,7 @@ return
 {
 config
 .
-into_custom
-.
-render
+lift
 (
 "
 builtinValue
@@ -423,9 +425,7 @@ builtinValue
 {
 config
 .
-from_custom
-.
-render
+lower
 (
 "
 value
@@ -478,9 +478,7 @@ return
 {
 config
 .
-into_custom
-.
-render
+lift
 (
 "
 builtinValue
@@ -511,9 +509,7 @@ builtinValue
 {
 config
 .
-from_custom
-.
-render
+lower
 (
 "
 value
@@ -556,9 +552,7 @@ builtinValue
 {
 config
 .
-from_custom
-.
-render
+lower
 (
 "
 value

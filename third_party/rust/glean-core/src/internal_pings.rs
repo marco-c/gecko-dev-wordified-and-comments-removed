@@ -98,6 +98,10 @@ to_string
 )
 ]
 true
+vec
+!
+[
+]
 )
 metrics
 :
@@ -158,6 +162,10 @@ to_string
 )
 ]
 true
+vec
+!
+[
+]
 )
 events
 :
@@ -204,6 +212,10 @@ to_string
 )
 ]
 true
+vec
+!
+[
+]
 )
 deletion_request
 :
@@ -245,6 +257,10 @@ to_string
 )
 ]
 true
+vec
+!
+[
+]
 )
 }
 }

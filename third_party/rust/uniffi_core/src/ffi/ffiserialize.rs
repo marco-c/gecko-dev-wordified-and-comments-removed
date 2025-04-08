@@ -954,9 +954,6 @@ u8
 ;
 unsafe
 {
-crate
-:
-:
 RustBuffer
 :
 :

@@ -441,7 +441,11 @@ throws
 >
 T
 {
-uniffiEnsureInitialized
+{
+{
+ensure_init_fn_name
+}
+}
 (
 )
 var

@@ -5,10 +5,14 @@ let
 rec
 =
 ci
-|
+.
 get_record_definition
 (
 name
+)
+.
+unwrap
+(
 )
 %
 }
@@ -133,7 +137,6 @@ default_value
 -
 when
 Some
-with
 (
 literal
 )

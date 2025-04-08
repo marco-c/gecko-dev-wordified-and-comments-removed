@@ -16,7 +16,10 @@ iter_checksums
 }
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 #
 [

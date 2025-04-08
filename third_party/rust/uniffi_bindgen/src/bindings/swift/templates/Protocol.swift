@@ -21,6 +21,7 @@ protocol_name
 }
 :
 AnyObject
+Sendable
 {
 {
 %
@@ -81,7 +82,7 @@ call
 swift
 :
 :
-async
+is_async
 (
 meth
 )

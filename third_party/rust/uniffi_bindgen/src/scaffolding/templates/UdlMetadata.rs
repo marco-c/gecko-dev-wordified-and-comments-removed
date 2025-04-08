@@ -140,7 +140,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 static

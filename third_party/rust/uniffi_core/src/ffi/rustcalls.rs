@@ -621,10 +621,7 @@ to_string
 )
 }
 ;
-log
-:
-:
-error
+trace
 !
 (
 "

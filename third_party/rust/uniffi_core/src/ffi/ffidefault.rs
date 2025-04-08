@@ -1,9 +1,3 @@
-use
-paste
-:
-:
-paste
-;
 pub
 trait
 FfiDefault
@@ -55,9 +49,6 @@ ty
 >
 {
 (
-paste
-!
-{
 impl
 FfiDefault
 for
@@ -71,13 +62,14 @@ ffi_default
 >
 Self
 {
+<
 T
+>
 :
 :
 default
 (
 )
-}
 }
 }
 )

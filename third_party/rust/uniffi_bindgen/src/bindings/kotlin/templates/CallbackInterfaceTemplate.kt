@@ -5,10 +5,14 @@ let
 cbi
 =
 ci
-|
+.
 get_callback_interface_definition
 (
 name
+)
+.
+unwrap
+(
 )
 %
 }

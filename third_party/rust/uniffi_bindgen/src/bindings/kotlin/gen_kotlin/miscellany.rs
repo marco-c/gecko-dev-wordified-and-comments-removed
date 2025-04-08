@@ -10,12 +10,6 @@ crate
 :
 ComponentInterface
 ;
-use
-paste
-:
-:
-paste
-;
 macro_rules
 !
 impl_code_type_for_miscellany
@@ -23,7 +17,7 @@ impl_code_type_for_miscellany
 (
 T
 :
-ty
+ident
 class_name
 :
 literal
@@ -33,9 +27,6 @@ literal
 )
 =
 >
-{
-paste
-!
 {
 #
 [
@@ -88,7 +79,6 @@ canonical_name
 into
 (
 )
-}
 }
 }
 }

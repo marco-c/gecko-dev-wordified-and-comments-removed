@@ -43,12 +43,6 @@ BufMut
 }
 ;
 use
-paste
-:
-:
-paste
-;
-use
 std
 :
 :
@@ -92,12 +86,15 @@ ty
 type_code
 :
 expr
+get
+:
+ident
+put
+:
+ident
 )
 =
 >
-{
-paste
-!
 {
 unsafe
 impl
@@ -172,12 +169,7 @@ u8
 {
 buf
 .
-[
-<
-put_
-T
->
-]
+put
 (
 obj
 )
@@ -226,12 +218,7 @@ Ok
 (
 buf
 .
-[
-<
-get_
-T
->
-]
+get
 (
 )
 )
@@ -251,7 +238,6 @@ type_code
 ;
 }
 }
-}
 ;
 }
 impl_ffi_converter_for_num_primitive
@@ -265,6 +251,8 @@ codes
 :
 :
 TYPE_U8
+get_u8
+put_u8
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -278,6 +266,8 @@ codes
 :
 :
 TYPE_I8
+get_i8
+put_i8
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -291,6 +281,8 @@ codes
 :
 :
 TYPE_U16
+get_u16
+put_u16
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -304,6 +296,8 @@ codes
 :
 :
 TYPE_I16
+get_i16
+put_i16
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -317,6 +311,8 @@ codes
 :
 :
 TYPE_U32
+get_u32
+put_u32
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -330,6 +326,8 @@ codes
 :
 :
 TYPE_I32
+get_i32
+put_i32
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -343,6 +341,8 @@ codes
 :
 :
 TYPE_U64
+get_u64
+put_u64
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -356,6 +356,8 @@ codes
 :
 :
 TYPE_I64
+get_i64
+put_i64
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -369,6 +371,8 @@ codes
 :
 :
 TYPE_F32
+get_f32
+put_f32
 )
 ;
 impl_ffi_converter_for_num_primitive
@@ -382,6 +386,8 @@ codes
 :
 :
 TYPE_F64
+get_f64
+put_f64
 )
 ;
 unsafe
