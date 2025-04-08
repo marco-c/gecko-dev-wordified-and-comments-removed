@@ -2266,6 +2266,7 @@ postfix
 in
 [
 (
+&
 stats
 .
 frame_tx
@@ -2274,6 +2275,7 @@ _tx
 "
 )
 (
+&
 stats
 .
 frame_rx
@@ -2576,7 +2578,9 @@ ecn
 &
 stats
 .
-packets_rx
+frame_rx
+.
+handshake_done
 !
 =
 0
