@@ -721,6 +721,12 @@ mHasScheduleFlush
 false
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+bool
+FlushViewManagerIfNeeded
+(
+)
+;
 void
 ScheduleFullscreenEvent
 (
