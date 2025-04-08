@@ -128,9 +128,6 @@ gfx
 class
 FileHandleWrapper
 ;
-struct
-FenceInfo
-;
 }
 namespace
 gl
@@ -1813,11 +1810,14 @@ bool
 mHasKeyedMutex
 ;
 const
-gfx
+Maybe
+<
+layers
 :
 :
-FenceInfo
-mAcquireFenceInfo
+GpuProcessFencesHolderId
+>
+mFencesHolderId
 ;
 const
 gfx

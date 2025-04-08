@@ -181,6 +181,8 @@ ExternalTextureD3D11
 :
 Create
 (
+aParent
+aDeviceId
 aWidth
 aHeight
 aFormat

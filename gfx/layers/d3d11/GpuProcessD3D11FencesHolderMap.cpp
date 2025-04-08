@@ -44,6 +44,11 @@ MOZ_ASSERT
 XRE_IsGPUProcess
 (
 )
+|
+|
+XRE_IsParentProcess
+(
+)
 )
 ;
 sInstance
@@ -65,6 +70,11 @@ Shutdown
 MOZ_ASSERT
 (
 XRE_IsGPUProcess
+(
+)
+|
+|
+XRE_IsParentProcess
 (
 )
 )

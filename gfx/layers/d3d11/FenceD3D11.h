@@ -139,15 +139,6 @@ return
 mFenceValue
 ;
 }
-gfx
-:
-:
-FenceInfo
-GetFenceInfo
-(
-)
-const
-;
 const
 RefPtr
 <
