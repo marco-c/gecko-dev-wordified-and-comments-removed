@@ -6237,7 +6237,7 @@ _getAllProfiles
 )
 ;
 let
-currentProfileName
+currentProfile
 =
 await
 this
@@ -6262,7 +6262,9 @@ name
 =
 =
 =
-currentProfileName
+currentProfile
+.
+name
 )
 {
 continue
