@@ -843,6 +843,8 @@ span
 }
 }
 ;
+try
+{
 Services
 .
 uriFixup
@@ -862,6 +864,18 @@ nodePrincipal
 originAttributes
 )
 ;
+}
+catch
+(
+ex
+)
+{
+/
+/
+Ignore
+errors
+.
+}
 }
 /
 /

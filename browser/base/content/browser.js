@@ -6665,6 +6665,8 @@ persistence
 }
 }
 ;
+try
+{
 Services
 .
 uriFixup
@@ -6678,6 +6680,13 @@ contentPrincipal
 originAttributes
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 observe
 (
