@@ -693,15 +693,6 @@ AllowSharedBufferSource
 aUnion
 )
 ;
-void
-TestUnionWithAllowShared
-(
-const
-MaybeSharedInt8ArrayOrMaybeSharedInt16Array
-&
-aUnion
-)
-;
 bool
 StaticAndNonStaticOverload
 (
