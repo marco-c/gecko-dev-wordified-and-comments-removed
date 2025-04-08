@@ -1333,6 +1333,7 @@ editor_white_space_normalization_blink_compatible
 )
 )
 {
+{
 AutoTrackDOMRange
 firstRangeTracker
 (
@@ -1561,6 +1562,7 @@ Err
 rv
 )
 ;
+}
 }
 }
 }
@@ -21503,6 +21505,7 @@ editor_white_space_normalization_blink_compatible
 )
 )
 ;
+{
 AutoTrackDOMRange
 firstRangeTracker
 (
@@ -21731,6 +21734,7 @@ Err
 rv
 )
 ;
+}
 }
 }
 }
@@ -21982,6 +21986,12 @@ propagateErr
 )
 ;
 }
+firstRangeTracker
+.
+FlushAndStopTracking
+(
+)
+;
 nsresult
 rv
 =
@@ -26675,6 +26685,12 @@ propagateErr
 )
 ;
 }
+trackRange
+.
+FlushAndStopTracking
+(
+)
+;
 const
 EditorDOMPoint
 atRemovedText
@@ -26956,6 +26972,12 @@ propagateErr
 )
 ;
 }
+trackRange
+.
+FlushAndStopTracking
+(
+)
+;
 const
 EditorDOMPoint
 atRemovedText
@@ -29042,6 +29064,12 @@ FlushAndStopTracking
 (
 )
 ;
+trackRangeToDelete
+.
+FlushAndStopTracking
+(
+)
+;
 DeleteRangeResult
 deleteSurroundingTextResult
 =
@@ -29445,6 +29473,12 @@ propagateErr
 ;
 }
 trackDeleteContentResult
+.
+FlushAndStopTracking
+(
+)
+;
+trackRangeToDelete
 .
 FlushAndStopTracking
 (
