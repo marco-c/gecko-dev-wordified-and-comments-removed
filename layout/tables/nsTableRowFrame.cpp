@@ -1936,9 +1936,8 @@ false
 cellFrame
 -
 >
-BlockDirAlignChild
+AlignChildWithinCell
 (
-wm
 mMaxCellAscent
 aForceAlignTop
 )
@@ -5274,9 +5273,8 @@ isCompleteAndNotTruncated
 aCellFrame
 -
 >
-BlockDirAlignChild
+AlignChildWithinCell
 (
-wm
 mMaxCellAscent
 ForceAlignTopForTableCell
 :

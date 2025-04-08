@@ -475,13 +475,8 @@ override
 #
 endif
 void
-BlockDirAlignChild
+AlignChildWithinCell
 (
-mozilla
-:
-:
-WritingMode
-aWM
 nscoord
 aMaxAscent
 mozilla
