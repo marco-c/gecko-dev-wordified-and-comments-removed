@@ -13778,7 +13778,7 @@ down
 /
 (
 see
-quitApplicationGranted
+appShutdownConfirmed
 blocker
 at
 the
@@ -16044,7 +16044,7 @@ lazy
 .
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 addBlocker
 (
