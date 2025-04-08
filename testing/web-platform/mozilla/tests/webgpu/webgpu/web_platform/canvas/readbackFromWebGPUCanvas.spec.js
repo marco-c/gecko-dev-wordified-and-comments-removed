@@ -365,6 +365,11 @@ kPixelValue
 )
 }
 ;
+const
+kMaxDiffULPsForNormFormatWithDifferentColorSpaceCanvas
+=
+3
+;
 function
 convertRGBA8UnormBytesToColorSpace
 (
@@ -889,7 +894,7 @@ readPixelsFrom2DCanvasAndCompare
 t
 fromWebGPUCtx
 expect
-2
+kMaxDiffULPsForNormFormatWithDifferentColorSpaceCanvas
 )
 ;
 }

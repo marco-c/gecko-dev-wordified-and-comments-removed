@@ -71,6 +71,10 @@ enforceDefaultLimits
 :
 boolean
 ;
+blockAllFeatures
+:
+boolean
+;
 logToWebSocket
 :
 boolean
@@ -114,6 +118,9 @@ forceFallbackAdapter
 :
 false
 enforceDefaultLimits
+:
+false
+blockAllFeatures
 :
 false
 logToWebSocket

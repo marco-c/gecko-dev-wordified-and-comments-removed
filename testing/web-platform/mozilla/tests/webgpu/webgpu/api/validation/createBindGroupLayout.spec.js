@@ -2833,13 +2833,6 @@ skipIfTextureFormatNotSupported
 format
 )
 ;
-t
-.
-skipIfTextureFormatNotUsableAsStorageTexture
-(
-format
-)
-;
 const
 success
 =
