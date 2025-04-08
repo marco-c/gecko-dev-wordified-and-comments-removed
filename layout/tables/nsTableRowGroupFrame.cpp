@@ -2036,8 +2036,15 @@ stylePos
 BSize
 (
 wm
+StyleDisplay
+(
 )
-.
+-
+>
+mPosition
+)
+-
+>
 ConvertsToLength
 (
 )
