@@ -278,6 +278,9 @@ restrictOwnAudio
 boolean
 suppressLocalAudioPlayback
 ;
+double
+screenPixelRatio
+;
 }
 ;
 partial
