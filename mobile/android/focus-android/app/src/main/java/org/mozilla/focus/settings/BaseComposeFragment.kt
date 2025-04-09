@@ -133,7 +133,7 @@ foundation
 .
 layout
 .
-statusBarsPadding
+systemBarsPadding
 import
 androidx
 .
@@ -597,7 +597,7 @@ modifier
 =
 Modifier
 .
-statusBarsPadding
+systemBarsPadding
 (
 )
 )
