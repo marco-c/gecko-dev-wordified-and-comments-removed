@@ -6651,7 +6651,7 @@ push
 addons
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -6700,7 +6700,7 @@ implementation
 balrog
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -6770,7 +6770,7 @@ implementation
 bouncer
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -6819,7 +6819,7 @@ implementation
 beetmover
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -6872,7 +6872,7 @@ scriptworker
 beetmover
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -6921,7 +6921,7 @@ implementation
 shipit
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -7130,7 +7130,7 @@ scriptworker
 pushapk
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -7162,7 +7162,7 @@ push
 flatpak
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -7213,7 +7213,7 @@ push
 msix
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -7262,7 +7262,7 @@ implementation
 treescript
 os
 :
-scriptworker
+linux
 worker
 -
 type
@@ -7332,7 +7332,7 @@ implementation
 treescript
 os
 :
-scriptworker
+linux
 worker
 -
 type

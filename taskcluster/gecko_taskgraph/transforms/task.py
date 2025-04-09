@@ -10868,10 +10868,6 @@ implementation
 =
 worker_implementation
             
-if
-tag_worker_implementation
-:
-                
 tags
 [
 "
@@ -10899,10 +10895,6 @@ if
 os
 :
             
-if
-tag_worker_implementation
-:
-                
 tags
 [
 "
@@ -10970,7 +10962,9 @@ v1
 :
         
 return
-None
+"
+scriptworker
+"
     
 return
 worker_implementation
