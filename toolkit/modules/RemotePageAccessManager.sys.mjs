@@ -450,13 +450,6 @@ RPMIsWindowPrivate
 *
 "
 ]
-RPMAddToHistogram
-:
-[
-"
-*
-"
-]
 }
 "
 about
@@ -677,13 +670,6 @@ felt
 privacy
 -
 v1
-"
-]
-RPMAddToHistogram
-:
-[
-"
-*
 "
 ]
 RPMGetInnerMostURI

@@ -65,9 +65,6 @@ false
 RPMCheckAlternateHostAvailable
 :
 false
-RPMAddToHistogram
-:
-false
 RPMRemoveMessageListener
 :
 false
