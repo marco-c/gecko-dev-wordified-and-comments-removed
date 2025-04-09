@@ -16,6 +16,9 @@ UNIX_BUT_NOT_MAC
 endif
 #
 endif
+#
+ifdef
+XP_MACOSX
 pref
 (
 "
@@ -38,6 +41,8 @@ xhtml
 "
 )
 ;
+#
+endif
 pref
 (
 "
