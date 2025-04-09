@@ -3058,16 +3058,6 @@ GetIsSecure
 (
 )
 ;
-bool
-allowMixedContent
-=
-topWC
--
->
-GetAllowMixedContent
-(
-)
-;
 if
 (
 contentType
@@ -3327,9 +3317,6 @@ StaticPrefs
 security_mixed_content_block_display_content
 (
 )
-|
-|
-allowMixedContent
 )
 {
 *
@@ -3432,9 +3419,6 @@ StaticPrefs
 security_mixed_content_block_active_content
 (
 )
-|
-|
-allowMixedContent
 )
 {
 *

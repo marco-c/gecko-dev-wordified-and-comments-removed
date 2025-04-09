@@ -68,7 +68,7 @@ uri
 kBaseURI
 +
 "
-file_bug1045809_1
+file_mixedActiveContent_1
 .
 html
 "
