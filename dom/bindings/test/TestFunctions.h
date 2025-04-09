@@ -60,6 +60,9 @@ namespace
 dom
 {
 class
+MaybeSharedInt8ArrayOrMaybeSharedInt16Array
+;
+class
 Promise
 ;
 class
@@ -689,6 +692,15 @@ TestUnionOfAllowSharedBufferSource
 (
 const
 AllowSharedBufferSource
+&
+aUnion
+)
+;
+void
+TestUnionWithAllowShared
+(
+const
+MaybeSharedInt8ArrayOrMaybeSharedInt16Array
 &
 aUnion
 )

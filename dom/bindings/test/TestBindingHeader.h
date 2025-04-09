@@ -8208,6 +8208,14 @@ foo
 )
 ;
 void
+passAllowSharedInt8ArrayOrInt16Array
+(
+const
+MaybeSharedInt8ArrayOrMaybeSharedInt16Array
+&
+)
+;
+void
 GetReflectedHTMLAttributeReturningFrozenArray
 (
 bool
