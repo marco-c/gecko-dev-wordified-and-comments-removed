@@ -546,10 +546,6 @@ AddActionViewHolder
 )
 {
 return
-ItemTouchHelper
-.
-Callback
-.
 makeMovementFlags
 (
 0

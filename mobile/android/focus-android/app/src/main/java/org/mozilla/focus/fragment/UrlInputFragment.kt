@@ -1076,14 +1076,6 @@ widgetWasAdded
 .
 record
 (
-mozilla
-.
-telemetry
-.
-glean
-.
-private
-.
 NoExtras
 (
 )

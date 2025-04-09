@@ -391,8 +391,6 @@ applicationContext
 .
 getSystemService
 (
-Context
-.
 NOTIFICATION_SERVICE
 )
 as
