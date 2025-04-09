@@ -97,7 +97,7 @@ return
 c
 [
 "
-whitelist
+allowlist
 "
 ]
 def
@@ -107,7 +107,7 @@ verify_mozconfigs
 mozconfig_pair
 nightly_mozconfig_pair
 platform
-mozconfigWhitelist
+mozconfigAllowlist
 )
 :
     
@@ -124,7 +124,7 @@ to
 an
 optional
     
-whitelist
+allowlist
 of
 known
 differences
@@ -320,7 +320,7 @@ continue
 if
 platform
 in
-mozconfigWhitelist
+mozconfigAllowlist
 .
 get
 (
@@ -335,7 +335,7 @@ release
 if
 clean_line
 in
-mozconfigWhitelist
+mozconfigAllowlist
 [
 "
 release
@@ -379,7 +379,7 @@ continue
 if
 platform
 in
-mozconfigWhitelist
+mozconfigAllowlist
 .
 get
 (
@@ -394,7 +394,7 @@ nightly
 if
 clean_line
 in
-mozconfigWhitelist
+mozconfigAllowlist
 [
 "
 nightly
@@ -434,7 +434,7 @@ clean_line
                                 
 platform
                                 
-mozconfigWhitelist
+mozconfigAllowlist
 [
 "
 nightly
@@ -600,7 +600,7 @@ browser
 "
 )
     
-whitelist
+allowlist
 =
 readConfig
 (
@@ -618,7 +618,7 @@ config
 mozconfigs
 "
 "
-whitelist
+allowlist
 "
 )
 )
@@ -748,11 +748,11 @@ get_mozconfig
 release_path
 )
         
-whitelist_normalized
+allowlist_normalized
 =
 normalize_lines
 (
-whitelist
+allowlist
 [
 "
 nightly
@@ -779,7 +779,7 @@ line
 in
 sorted
 (
-whitelist_normalized
+allowlist_normalized
 -
 nightly_normalized
 )
@@ -794,7 +794,7 @@ extra
 line
 in
 nightly
-whitelist
+allowlist
 :
 %
 s
@@ -834,7 +834,7 @@ nightly_path
 nightly_lines
 )
 platform
-whitelist
+allowlist
         
 )
         
@@ -877,7 +877,7 @@ nightly_lines
             
 platform
             
-whitelist
+allowlist
         
 )
         

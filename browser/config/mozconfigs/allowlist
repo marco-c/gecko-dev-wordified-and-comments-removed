@@ -22,7 +22,7 @@ builds
 Other
 keys
 in
-whitelist
+allowlist
 contain
 things
 are
@@ -39,7 +39,7 @@ from
 nightly
 builds
 .
-whitelist
+allowlist
 =
 {
 '
@@ -84,7 +84,7 @@ platform
 in
 all_platforms
 :
-whitelist
+allowlist
 [
 '
 nightly
@@ -110,7 +110,7 @@ branding
 nightly
 '
 ]
-whitelist
+allowlist
 [
 '
 nightly
@@ -156,7 +156,7 @@ then
 fi
 '
 ]
-whitelist
+allowlist
 [
 '
 nightly
@@ -194,7 +194,7 @@ platform
 in
 all_platforms
 :
-whitelist
+allowlist
 [
 '
 release
@@ -228,7 +228,7 @@ official
 branding
 '
 ]
-whitelist
+allowlist
 [
 '
 release
@@ -249,7 +249,7 @@ MOZILLA_OFFICIAL
 1
 '
 ]
-whitelist
+allowlist
 [
 '
 release
@@ -284,5 +284,5 @@ pprint
 .
 pprint
 (
-whitelist
+allowlist
 )
