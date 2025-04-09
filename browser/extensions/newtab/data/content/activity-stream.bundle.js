@@ -33486,8 +33486,7 @@ radio
 value
 :
 "
-Unsafe
-content
+unsafe_content
 "
 "
 data
@@ -33544,8 +33543,7 @@ inappropriate
 value
 :
 "
-Inappropriate
-content
+inappropriate_content
 "
 }
 )
@@ -33591,10 +33589,7 @@ times
 value
 :
 "
-Seen
-too
-many
-times
+seen_too_many_times
 "
 }
 )
