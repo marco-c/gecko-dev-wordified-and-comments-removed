@@ -590,15 +590,10 @@ view
 parent
 view
 =
-if
-(
 parent
-is
+as
+?
 View
-)
-parent
-else
-null
 }
 }
 while
