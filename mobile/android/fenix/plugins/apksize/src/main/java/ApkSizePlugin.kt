@@ -242,11 +242,11 @@ String
 null
 private
 val
-projectDir
+buildDir
 =
 project
 .
-projectDir
+buildDir
 TaskAction
 fun
 logApkSize
@@ -337,10 +337,7 @@ basePath
 listOf
 (
 "
-projectDir
-"
-"
-build
+buildDir
 "
 "
 outputs
