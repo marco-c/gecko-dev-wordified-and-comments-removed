@@ -3758,6 +3758,14 @@ context
 requireContext
 (
 )
+lifecycleOwner
+=
+this
+navController
+=
+findNavController
+(
+)
 homeBinding
 =
 binding
