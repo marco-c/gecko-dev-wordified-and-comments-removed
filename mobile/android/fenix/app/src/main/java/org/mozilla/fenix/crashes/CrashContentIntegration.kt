@@ -213,6 +213,16 @@ mozilla
 .
 components
 .
+concept
+.
+toolbar
+.
+ScrollableToolbar
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -606,7 +616,7 @@ private
 val
 toolbar
 :
-BrowserToolbar
+ScrollableToolbar
 private
 val
 components
