@@ -345,8 +345,6 @@ markAsTriggered
 prefs
 .
 edit
-(
-)
 {
 putBoolean
 (

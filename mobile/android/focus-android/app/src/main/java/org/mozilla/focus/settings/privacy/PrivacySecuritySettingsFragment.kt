@@ -1557,8 +1557,6 @@ true
 sharedPreferences
 .
 edit
-(
-)
 {
 putBoolean
 (

@@ -295,8 +295,6 @@ getTotalBlockedTrackersCount
 preferences
 .
 edit
-(
-)
 {
 putInt
 (

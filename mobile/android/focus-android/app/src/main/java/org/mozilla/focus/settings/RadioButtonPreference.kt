@@ -703,8 +703,6 @@ isChecked
 preferences
 .
 edit
-(
-)
 {
 putBoolean
 (

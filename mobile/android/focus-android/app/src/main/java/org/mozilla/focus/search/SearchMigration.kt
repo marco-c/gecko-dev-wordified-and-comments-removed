@@ -287,8 +287,6 @@ defaultSearchEngineName
 preferences
 .
 edit
-(
-)
 {
 putBoolean
 (
