@@ -284,10 +284,7 @@ time
 "
 )
 ;
-mozilla
-:
-:
-Telemetry
+TelemetryHistogram
 :
 :
 AccumulateCategorical
