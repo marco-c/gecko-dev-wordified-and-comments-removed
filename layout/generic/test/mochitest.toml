@@ -1014,6 +1014,13 @@ os_version
 ]
 [
 "
+test_overflow_event
+.
+html
+"
+]
+[
+"
 test_overlay_scrollbar_position
 .
 html
