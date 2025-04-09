@@ -502,7 +502,7 @@ shouldAddNavigationBar
 )
 assertFalse
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -510,7 +510,7 @@ isVisible
 )
 assertFalse
 (
-binding
+toolbarView
 .
 tabButton
 .
@@ -595,7 +595,7 @@ shouldAddNavigationBar
 )
 assertTrue
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -603,7 +603,7 @@ isVisible
 )
 assertTrue
 (
-binding
+toolbarView
 .
 tabButton
 .
@@ -687,7 +687,7 @@ false
 )
 assertTrue
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -695,7 +695,7 @@ isVisible
 )
 assertTrue
 (
-binding
+toolbarView
 .
 tabButton
 .
@@ -744,7 +744,7 @@ false
 )
 assertTrue
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -752,7 +752,7 @@ isVisible
 )
 assertTrue
 (
-binding
+toolbarView
 .
 tabButton
 .
@@ -846,7 +846,7 @@ false
 )
 assertTrue
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -854,7 +854,7 @@ isVisible
 )
 assertTrue
 (
-binding
+toolbarView
 .
 tabButton
 .
@@ -903,7 +903,7 @@ false
 )
 assertTrue
 (
-binding
+toolbarView
 .
 menuButton
 .
@@ -911,7 +911,7 @@ isVisible
 )
 assertTrue
 (
-binding
+toolbarView
 .
 tabButton
 .
