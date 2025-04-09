@@ -1387,6 +1387,20 @@ in
 js_object
 :
         
+if
+value
+[
+"
+type
+"
+]
+!
+=
+"
+null
+"
+:
+            
 obj
 [
 key
