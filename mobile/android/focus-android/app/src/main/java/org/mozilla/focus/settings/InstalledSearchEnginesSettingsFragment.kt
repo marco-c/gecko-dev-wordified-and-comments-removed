@@ -265,14 +265,6 @@ String
 companion
 object
 {
-fun
-newInstance
-(
-)
-=
-InstalledSearchEnginesSettingsFragment
-(
-)
 var
 languageChanged
 :

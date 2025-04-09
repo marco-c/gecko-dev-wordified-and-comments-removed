@@ -739,13 +739,6 @@ null
 companion
 object
 {
-const
-val
-FRAGMENT_TAG
-=
-"
-firstrun
-"
 fun
 create
 (

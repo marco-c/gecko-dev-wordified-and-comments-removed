@@ -115,9 +115,9 @@ mozilla
 .
 focus
 .
-locale
+generated
 .
-LocaleManager
+LocalesList
 class
 LanguageStorage
 (
@@ -410,9 +410,9 @@ LocaleDescriptor
 >
 {
 return
-LocaleManager
+LocalesList
 .
-packagedLocaleTags
+BUNDLED_LOCALES
 .
 map
 {
