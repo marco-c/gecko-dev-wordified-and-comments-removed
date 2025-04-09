@@ -473,7 +473,7 @@ a
 description
 use
 the
-discription
+description
 attribute
 .
 In
