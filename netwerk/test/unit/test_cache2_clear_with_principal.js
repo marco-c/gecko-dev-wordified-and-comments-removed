@@ -399,7 +399,7 @@ Services
 .
 cache2
 .
-clearOrigin
+clearOriginsByPrincipal
 (
 clearPrincipal
 )

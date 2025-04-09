@@ -282,7 +282,7 @@ Services
 .
 cache2
 .
-clearOriginAttributes
+clearOriginsByOriginAttributes
 (
 JSON
 .

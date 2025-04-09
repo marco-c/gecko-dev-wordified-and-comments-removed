@@ -2678,7 +2678,7 @@ Services
 .
 cache2
 .
-clearOrigin
+clearOriginsByPrincipal
 (
 httpPrincipal
 )
@@ -2687,7 +2687,7 @@ Services
 .
 cache2
 .
-clearOrigin
+clearOriginsByPrincipal
 (
 httpsPrincipal
 )
@@ -2732,7 +2732,7 @@ Services
 .
 cache2
 .
-clearOrigin
+clearOriginsByPrincipal
 (
 aPrincipal
 )
@@ -2762,7 +2762,7 @@ Services
 .
 cache2
 .
-clearOriginAttributes
+clearOriginsByOriginAttributes
 (
 aOriginAttributesString
 )

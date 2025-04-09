@@ -322,10 +322,10 @@ entry
 having
 the
 same
+principal
 origin
-of
-aPrincipal
-.
+and
+OriginAttributes
 *
 *
 param
@@ -342,7 +342,7 @@ with
 *
 /
 void
-clearOrigin
+clearOriginsByPrincipal
 (
 in
 nsIPrincipal
@@ -442,7 +442,7 @@ with
 *
 /
 void
-clearOriginAttributes
+clearOriginsByOriginAttributes
 (
 in
 AString
