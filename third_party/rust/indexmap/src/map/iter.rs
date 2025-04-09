@@ -1406,6 +1406,13 @@ iter_mut
 }
 }
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 IntoIter
@@ -2399,8 +2406,6 @@ iter
 }
 impl
 <
-'
-a
 K
 V
 >
@@ -2412,7 +2417,7 @@ for
 Keys
 <
 '
-a
+_
 K
 V
 >
@@ -3774,6 +3779,10 @@ S
 :
 BuildHasher
 {
+#
+[
+track_caller
+]
 pub
 (
 super
@@ -4277,8 +4286,6 @@ BuildHasher
 }
 impl
 <
-'
-a
 I
 K
 V
@@ -4292,7 +4299,7 @@ for
 Splice
 <
 '
-a
+_
 I
 K
 V

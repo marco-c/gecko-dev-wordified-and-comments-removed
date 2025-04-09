@@ -35,7 +35,7 @@ svg
 ?
 branch
 =
-master
+main
 )
 ]
 (
@@ -673,7 +673,7 @@ indexmap
 /
 blob
 /
-master
+main
 /
 RELEASES
 .

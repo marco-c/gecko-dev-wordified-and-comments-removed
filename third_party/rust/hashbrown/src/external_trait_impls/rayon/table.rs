@@ -1225,14 +1225,12 @@ crate
 hash_map
 :
 :
-{
 make_hash
-DefaultHashBuilder
-}
 hash_table
 :
 :
 HashTable
+DefaultHashBuilder
 }
 ;
 #

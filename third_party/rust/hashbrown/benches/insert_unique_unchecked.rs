@@ -188,6 +188,8 @@ in
 &
 keys
 {
+unsafe
+{
 m
 .
 insert_unique_unchecked
@@ -196,6 +198,7 @@ k
 k
 )
 ;
+}
 }
 m
 }

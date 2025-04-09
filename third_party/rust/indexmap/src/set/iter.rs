@@ -516,6 +516,13 @@ iter
 }
 }
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 IntoIter
@@ -3024,6 +3031,10 @@ S
 :
 BuildHasher
 {
+#
+[
+track_caller
+]
 pub
 (
 super
@@ -3405,8 +3416,6 @@ x
 }
 impl
 <
-'
-a
 I
 T
 S
@@ -3419,7 +3428,7 @@ for
 Splice
 <
 '
-a
+_
 I
 T
 S
