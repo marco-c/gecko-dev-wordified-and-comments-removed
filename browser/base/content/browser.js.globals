@@ -687,6 +687,9 @@ RemoteAgent
 RTL_UI
 "
 "
+gLocaleChangeObserver
+"
+"
 gBrandBundle
 "
 "
