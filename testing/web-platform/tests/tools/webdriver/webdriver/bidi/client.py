@@ -659,6 +659,17 @@ self
         
 self
 .
+emulation
+=
+modules
+.
+Emulation
+(
+self
+)
+        
+self
+.
 input
 =
 modules
