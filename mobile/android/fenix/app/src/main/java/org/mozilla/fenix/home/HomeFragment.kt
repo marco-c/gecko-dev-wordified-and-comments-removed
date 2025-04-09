@@ -3154,13 +3154,6 @@ components
 useCases
 .
 tabsUseCases
-fenixBrowserUseCases
-=
-components
-.
-useCases
-.
-fenixBrowserUseCases
 settings
 =
 components

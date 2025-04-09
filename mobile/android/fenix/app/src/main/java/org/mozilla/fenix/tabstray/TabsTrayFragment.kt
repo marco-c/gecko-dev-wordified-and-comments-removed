@@ -1166,13 +1166,6 @@ requireComponents
 useCases
 .
 tabsUseCases
-fenixBrowserUseCases
-=
-requireComponents
-.
-useCases
-.
-fenixBrowserUseCases
 closeSyncedTabsUseCases
 =
 requireComponents
