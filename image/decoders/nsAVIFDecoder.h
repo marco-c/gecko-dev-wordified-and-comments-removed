@@ -68,15 +68,6 @@ dav1d
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 namespace
 mozilla
 {

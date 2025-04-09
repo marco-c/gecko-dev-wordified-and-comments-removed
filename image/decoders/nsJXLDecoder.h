@@ -43,15 +43,6 @@ thread_parallel_runner_cxx
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 namespace
 mozilla
 :

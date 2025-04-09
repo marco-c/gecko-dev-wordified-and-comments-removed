@@ -18,15 +18,6 @@ Logging
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 extern
 mozilla
 :
