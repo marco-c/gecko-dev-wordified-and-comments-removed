@@ -180,6 +180,13 @@ html
 ]
 [
 "
+test_core_features_and_limits
+.
+html
+"
+]
+[
+"
 test_device_creation
 .
 html
