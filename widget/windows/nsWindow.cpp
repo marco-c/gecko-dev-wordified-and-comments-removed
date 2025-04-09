@@ -1138,15 +1138,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 WebRenderAPI

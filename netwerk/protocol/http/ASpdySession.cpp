@@ -42,15 +42,6 @@ StaticPrefs_network
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 namespace
 mozilla
 {

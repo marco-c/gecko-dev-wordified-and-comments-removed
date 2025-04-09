@@ -71,15 +71,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 HttpConnectionUDP
 .
 h

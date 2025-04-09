@@ -382,15 +382,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h

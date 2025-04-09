@@ -181,15 +181,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsAttrValue
 .
 h

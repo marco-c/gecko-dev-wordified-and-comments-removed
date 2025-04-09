@@ -130,15 +130,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryTelemetry
 .
 h

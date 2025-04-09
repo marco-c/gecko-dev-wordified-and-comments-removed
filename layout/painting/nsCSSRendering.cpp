@@ -410,15 +410,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h

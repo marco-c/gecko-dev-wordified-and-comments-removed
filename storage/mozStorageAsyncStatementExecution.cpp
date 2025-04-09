@@ -85,15 +85,6 @@ DebugOnly
 h
 "
 #
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
-#
 ifndef
 MOZ_STORAGE_SORTWARNING_SQL_DUMP
 #

@@ -71,15 +71,6 @@ nsUrlClassifierDBService
 h
 "
 #
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
-#
 define
 STORE_SUFFIX
 "

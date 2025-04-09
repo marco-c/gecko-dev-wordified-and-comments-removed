@@ -118,15 +118,6 @@ StaticPrefs_layout
 h
 "
 #
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
-#
 ifndef
 DWM_SIT_DISPLAYFRAME
 #

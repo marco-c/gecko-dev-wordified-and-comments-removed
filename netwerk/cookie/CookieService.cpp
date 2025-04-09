@@ -224,15 +224,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 mozIThirdPartyUtil
 .
 h

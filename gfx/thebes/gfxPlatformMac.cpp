@@ -166,15 +166,6 @@ MOZ_BUNDLED_FONTS
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h

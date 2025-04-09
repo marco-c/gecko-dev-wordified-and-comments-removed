@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StoragePrincipalHelper
 .
 h
