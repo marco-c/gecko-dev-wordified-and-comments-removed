@@ -4069,7 +4069,7 @@ sendAsyncMessage
 "
 FormAutofill
 :
-FillFieldsOnFormChange
+FieldsUpdatedDuringAutofill
 "
 {
 elementId

@@ -1906,7 +1906,7 @@ case
 "
 FormAutofill
 :
-FillFieldsOnFormChange
+FieldsUpdatedDuringAutofill
 "
 :
 {
@@ -1950,7 +1950,7 @@ data
 ;
 this
 .
-onFillOnFormChange
+onFieldsUpdatedDuringAutofill
 (
 elementId
 profile
@@ -3503,7 +3503,7 @@ change
 *
 /
 async
-onFillOnFormChange
+onFieldsUpdatedDuringAutofill
 (
 elementId
 profile
