@@ -146,9 +146,6 @@ val
 iconView
 :
 ImageView
-init
-{
-iconView
 =
 itemView
 .
@@ -160,6 +157,8 @@ id
 .
 icon
 )
+init
+{
 itemView
 .
 setOnClickListener
