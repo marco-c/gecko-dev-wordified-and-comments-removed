@@ -753,9 +753,7 @@ AboutPageContent
 (
 aboutVersion
 =
-getAboutHeader
-(
-)
+aboutHeader
 content
 =
 content
