@@ -1361,6 +1361,13 @@ MOZ_ASSERT
 sample
 )
 ;
+mInputSampleDuration
+=
+aSample
+-
+>
+mDuration
+;
 jni
 :
 :
@@ -2307,6 +2314,13 @@ FromMicroseconds
 (
 presentationTimeUs
 )
+;
+output
+-
+>
+mDuration
+=
+mInputSampleDuration
 ;
 mEncodedData
 .
