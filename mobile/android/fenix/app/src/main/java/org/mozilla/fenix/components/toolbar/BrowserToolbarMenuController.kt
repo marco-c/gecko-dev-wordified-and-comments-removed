@@ -337,14 +337,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 AppMenu
@@ -2534,11 +2526,6 @@ tabUrl
 >
 if
 (
-FeatureFlags
-.
-webCompatReporter
-&
-&
 settings
 .
 isTelemetryEnabled

@@ -245,14 +245,6 @@ mozilla
 .
 fenix
 .
-FeatureFlags
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -1603,11 +1595,6 @@ tabUrl
 >
 if
 (
-FeatureFlags
-.
-webCompatReporter
-&
-&
 settings
 .
 isTelemetryEnabled
