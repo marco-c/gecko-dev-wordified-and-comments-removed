@@ -262,4 +262,10 @@ enrollments
 "
 )
 ;
+ExperimentFakes
+.
+cleanupStorePrefCache
+(
+)
+;
 }
