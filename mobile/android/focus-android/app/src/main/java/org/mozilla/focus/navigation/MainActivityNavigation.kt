@@ -623,9 +623,9 @@ browserFragment
 crashReporterIsVisible
 (
 )
-?
-:
-false
+=
+=
+true
 if
 (
 isShowingBrowser

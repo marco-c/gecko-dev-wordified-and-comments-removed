@@ -700,9 +700,9 @@ validateEngineNameAndShowError
 engineName
 existingEngines
 )
-?
-:
-false
+=
+=
+true
 val
 searchValid
 =
@@ -713,9 +713,9 @@ validateSearchQueryAndShowError
 (
 searchQuery
 )
-?
-:
-false
+=
+=
+true
 val
 isPartialSuccess
 =

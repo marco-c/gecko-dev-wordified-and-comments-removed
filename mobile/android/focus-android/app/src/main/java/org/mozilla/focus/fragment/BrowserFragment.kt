@@ -3746,9 +3746,9 @@ FRAGMENT_TAG
 ?
 .
 isVisible
-?
-:
-false
+=
+=
+true
 }
 private
 fun
