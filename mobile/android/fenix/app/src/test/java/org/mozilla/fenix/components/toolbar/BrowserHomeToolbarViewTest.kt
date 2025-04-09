@@ -298,7 +298,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-BrowserToolbarViewTest
+BrowserHomeToolbarViewTest
 {
 private
 lateinit

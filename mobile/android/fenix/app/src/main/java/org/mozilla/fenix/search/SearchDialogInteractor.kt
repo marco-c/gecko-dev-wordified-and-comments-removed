@@ -140,7 +140,8 @@ for
 the
 AwesomeBarView
 and
-ToolbarView
+HomeToolbarView
+.
 *
 /
 Suppress

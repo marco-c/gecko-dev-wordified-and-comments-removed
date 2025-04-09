@@ -64,6 +64,8 @@ mozilla
 fenix
 .
 home
+.
+toolbar
 import
 android
 .
@@ -315,9 +317,17 @@ fenix
 .
 home
 .
-toolbar
+HomeFragment
+import
+org
 .
-ToolbarInteractor
+mozilla
+.
+fenix
+.
+home
+.
+HomeMenuView
 import
 org
 .
@@ -366,7 +376,7 @@ toolbar
 /
 internal
 class
-ToolbarView
+HomeToolbarView
 (
 private
 val

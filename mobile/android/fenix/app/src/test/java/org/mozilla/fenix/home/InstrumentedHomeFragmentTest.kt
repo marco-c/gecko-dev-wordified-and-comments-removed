@@ -257,6 +257,18 @@ mozilla
 .
 fenix
 .
+home
+.
+toolbar
+.
+HomeToolbarView
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -367,7 +379,7 @@ testContext
 val
 toolbarView
 =
-ToolbarView
+HomeToolbarView
 (
 homeBinding
 mockk

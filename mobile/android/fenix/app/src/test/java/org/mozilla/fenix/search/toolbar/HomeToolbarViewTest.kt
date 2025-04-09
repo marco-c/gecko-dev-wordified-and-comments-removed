@@ -520,7 +520,7 @@ FenixRobolectricTestRunner
 class
 )
 class
-ToolbarViewTest
+HomeToolbarViewTest
 {
 MockK
 (

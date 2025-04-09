@@ -245,16 +245,6 @@ mozilla
 .
 fenix
 .
-home
-.
-ToolbarView
-import
-org
-.
-mozilla
-.
-fenix
-.
 search
 .
 toolbar
@@ -292,7 +282,7 @@ private
 val
 toolbarView
 :
-ToolbarView
+HomeToolbarView
 private
 val
 searchSelectorMenu
