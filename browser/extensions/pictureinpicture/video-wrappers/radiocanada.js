@@ -38,6 +38,7 @@ paused
 )
 {
 playPauseButton
+?
 .
 click
 (
@@ -78,6 +79,7 @@ paused
 )
 {
 playPauseButton
+?
 .
 click
 (
@@ -110,8 +112,10 @@ panel
 -
 -
 volume
->
-button
+.
+rcplayer
+-
+btn
 "
 )
 ;
@@ -124,12 +128,10 @@ muted
 =
 =
 shouldMute
-&
-&
-muteButton
 )
 {
 muteButton
+?
 .
 click
 (
