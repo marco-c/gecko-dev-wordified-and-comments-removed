@@ -2747,9 +2747,7 @@ l10n
 id
 :
 "
-firefox
--
-suggest
+urlbar
 -
 feedback
 -

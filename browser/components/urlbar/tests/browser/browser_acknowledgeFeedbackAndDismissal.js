@@ -1353,13 +1353,13 @@ l10n
 id
 :
 "
-firefox
+urlbar
 -
-suggest
+result
 -
-weather
+menu
 -
-command
+report
 -
 inaccurate
 -

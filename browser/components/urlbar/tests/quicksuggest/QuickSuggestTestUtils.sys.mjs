@@ -5747,6 +5747,13 @@ telemetryType
 "
 weather
 "
+helpUrl
+:
+lazy
+.
+QuickSuggest
+.
+HELP_URL
 }
 }
 ;
