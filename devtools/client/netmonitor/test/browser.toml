@@ -1624,6 +1624,13 @@ js
 ]
 [
 "
+browser_net_duration
+.
+js
+"
+]
+[
+"
 browser_net_earlyhints
 .
 js
