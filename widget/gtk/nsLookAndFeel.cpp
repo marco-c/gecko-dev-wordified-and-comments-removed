@@ -681,7 +681,7 @@ GetInstance
 auto
 changeKind
 =
-isTheme
+isThemeDependent
 ?
 NativeChangeKind
 :
