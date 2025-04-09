@@ -382,14 +382,13 @@ quantity
 }
 extraValues
 .
-EmplaceBack
+AppendElement
 (
-nsPrintfCString
+)
+-
+>
+AppendInt
 (
-"
-%
-d
-"
 {
 {
 item
@@ -400,7 +399,6 @@ camelize
 .
 value
 (
-)
 )
 )
 ;

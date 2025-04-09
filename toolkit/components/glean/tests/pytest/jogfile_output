@@ -559,6 +559,12 @@ an_extra_key
 "
 another_extra_key
 "
+"
+bool_extra
+"
+"
+quantity_extra
+"
 ]
 }
 ]
