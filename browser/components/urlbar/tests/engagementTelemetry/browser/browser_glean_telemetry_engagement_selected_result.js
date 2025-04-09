@@ -4187,6 +4187,7 @@ actions
 :
 "
 none
+settings
 "
 }
 ]
