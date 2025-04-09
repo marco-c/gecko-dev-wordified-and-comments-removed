@@ -1259,6 +1259,9 @@ aUnit
 case
 0
 :
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1280,6 +1283,9 @@ break
 case
 1
 :
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1298,6 +1304,9 @@ break
 ;
 case
 2
+:
+TelemetryHistogram
+:
 :
 Accumulate
 (
@@ -1318,6 +1327,9 @@ break
 case
 3
 :
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1336,6 +1348,9 @@ break
 ;
 case
 4
+:
+TelemetryHistogram
+:
 :
 Accumulate
 (
@@ -1357,6 +1372,9 @@ break
 ;
 case
 5
+:
+TelemetryHistogram
+:
 :
 Accumulate
 (
@@ -1380,6 +1398,9 @@ break
 ;
 case
 6
+:
+TelemetryHistogram
+:
 :
 Accumulate
 (
@@ -1458,6 +1479,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1508,6 +1532,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1821,6 +1848,9 @@ optStart
 )
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1904,6 +1934,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId

@@ -123,6 +123,13 @@ PropertyAndElement
 .
 h
 "
+#
+include
+"
+GIFFTFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -156,7 +163,7 @@ if
 hgramId
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -215,7 +222,7 @@ if
 tuple
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate

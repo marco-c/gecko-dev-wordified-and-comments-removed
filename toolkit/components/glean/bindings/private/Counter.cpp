@@ -150,10 +150,7 @@ true
 )
 )
 {
-mozilla
-:
-:
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -176,10 +173,7 @@ false
 )
 )
 {
-mozilla
-:
-:
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -230,10 +224,7 @@ int32_t
 aAmount
 )
 {
-mozilla
-:
-:
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -651,7 +642,7 @@ if
 hgramId
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
