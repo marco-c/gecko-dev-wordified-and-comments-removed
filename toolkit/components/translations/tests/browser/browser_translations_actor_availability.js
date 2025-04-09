@@ -456,7 +456,6 @@ Assert
 .
 ok
 (
-!
 hasTranslationActor
 (
 tab
@@ -474,9 +473,7 @@ extension
 page
 in
 tab
-does
-not
-have
+has
 actor
 "
 )

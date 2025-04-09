@@ -5734,6 +5734,13 @@ case
 file
 "
 :
+case
+"
+moz
+-
+extension
+"
+:
 return
 false
 ;
