@@ -3180,6 +3180,9 @@ rust
 full
 :
 true
+rebuild
+:
+3
 webrender
 :
 selector
