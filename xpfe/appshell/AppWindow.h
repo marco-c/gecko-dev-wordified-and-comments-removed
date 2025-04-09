@@ -767,6 +767,11 @@ EnsureAuthPrompter
 )
 ;
 NS_IMETHOD
+ForceRoundedDimensions
+(
+)
+;
+NS_IMETHOD
 GetAvailScreenSize
 (
 int32_t
