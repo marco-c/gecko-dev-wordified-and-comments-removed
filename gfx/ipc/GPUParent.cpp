@@ -608,7 +608,7 @@ mozilla
 /
 layers
 /
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 .
 h
 "
@@ -1297,7 +1297,7 @@ Init
 (
 )
 ;
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Init
@@ -4637,7 +4637,7 @@ Shutdown
 (
 )
 ;
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Shutdown

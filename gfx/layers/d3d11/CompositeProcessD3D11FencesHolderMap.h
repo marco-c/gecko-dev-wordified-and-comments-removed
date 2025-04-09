@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_GFX_GpuProcessD3D11FencesHolderMap_H
+MOZILLA_GFX_CompositeProcessD3D11FencesHolderMap_H
 #
 define
-MOZILLA_GFX_GpuProcessD3D11FencesHolderMap_H
+MOZILLA_GFX_CompositeProcessD3D11FencesHolderMap_H
 #
 include
 <
@@ -64,7 +64,7 @@ class
 FenceD3D11
 ;
 class
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 {
 public
 :
@@ -81,7 +81,7 @@ Shutdown
 )
 ;
 static
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 *
 Get
 (
@@ -91,12 +91,12 @@ return
 sInstance
 ;
 }
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 (
 )
 ;
 ~
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 (
 )
 ;
@@ -214,7 +214,7 @@ mFencesHolderById
 static
 StaticAutoPtr
 <
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 >
 sInstance
 ;

@@ -100,7 +100,7 @@ mozilla
 /
 layers
 /
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 .
 h
 "
@@ -448,7 +448,7 @@ auto
 *
 fenceHolderMap
 =
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Get
@@ -530,7 +530,7 @@ auto
 *
 fenceHolderMap
 =
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Get

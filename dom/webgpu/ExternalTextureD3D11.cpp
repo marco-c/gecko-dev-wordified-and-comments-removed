@@ -52,7 +52,7 @@ mozilla
 /
 layers
 /
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 .
 h
 "
@@ -130,7 +130,7 @@ fencesHolderMap
 layers
 :
 :
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Get
@@ -714,7 +714,7 @@ fencesHolderMap
 layers
 :
 :
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Get
@@ -780,7 +780,7 @@ fencesHolderMap
 layers
 :
 :
-GpuProcessD3D11FencesHolderMap
+CompositeProcessD3D11FencesHolderMap
 :
 :
 Get
