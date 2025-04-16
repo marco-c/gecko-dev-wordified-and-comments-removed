@@ -538,9 +538,6 @@ tabCounterListener
 =
 {
 }
-inTesting
-=
-true
 )
 )
 }
