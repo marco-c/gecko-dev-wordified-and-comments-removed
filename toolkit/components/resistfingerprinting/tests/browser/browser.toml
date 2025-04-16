@@ -149,13 +149,6 @@ js
 ]
 [
 "
-browser_js_locale
-.
-js
-"
-]
-[
-"
 browser_fpp_protections_matrix_1
 .
 js
@@ -178,6 +171,13 @@ js
 [
 "
 browser_fpp_protections_matrix_4
+.
+js
+"
+]
+[
+"
+browser_js_locale
 .
 js
 "

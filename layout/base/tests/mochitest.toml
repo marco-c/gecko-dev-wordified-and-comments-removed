@@ -1222,6 +1222,13 @@ html
 ]
 [
 "
+test_caretPositionFromPoint_insertAnonymousContent
+.
+html
+"
+]
+[
+"
 test_caret_browsing_around_form_controls
 .
 html
@@ -1239,13 +1246,6 @@ os
 '
 android
 '
-"
-]
-[
-"
-test_caretPositionFromPoint_insertAnonymousContent
-.
-html
 "
 ]
 [

@@ -19,6 +19,13 @@ manifest
 true
 [
 "
+browser_sw_lifetime_extension
+.
+js
+"
+]
+[
+"
 include
 :
 browser
@@ -38,10 +45,3 @@ the
 common
 thing
 .
-[
-"
-browser_sw_lifetime_extension
-.
-js
-"
-]

@@ -100,6 +100,13 @@ html
 ]
 [
 "
+test_bug1885101_screenwindow_sizes
+.
+html
+"
+]
+[
+"
 test_device_sensor_event
 .
 html
@@ -202,12 +209,5 @@ if
 [
 "
 verify
-"
-]
-[
-"
-test_bug1885101_screenwindow_sizes
-.
-html
 "
 ]

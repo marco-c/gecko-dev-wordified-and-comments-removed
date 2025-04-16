@@ -278,6 +278,13 @@ js
 ]
 [
 "
+test_PlacesObservers_counts
+.
+js
+"
+]
+[
+"
 test_PlacesQuery_history
 .
 js
@@ -774,13 +781,6 @@ js
 [
 "
 test_pageGuid_bookmarkGuid
-.
-js
-"
-]
-[
-"
-test_PlacesObservers_counts
 .
 js
 "

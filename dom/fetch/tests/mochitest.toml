@@ -14,6 +14,13 @@ sjs
 ]
 [
 "
+test_bug1752761
+.
+html
+"
+]
+[
+"
 test_ext_response_constructor
 .
 html
@@ -22,13 +29,6 @@ html
 [
 "
 test_invalid_header_exception
-.
-html
-"
-]
-[
-"
-test_bug1752761
 .
 html
 "

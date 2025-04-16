@@ -31,13 +31,6 @@ true
 ]
 [
 "
-test_definitions
-.
-py
-"
-]
-[
-"
 test_config
 .
 py
@@ -46,6 +39,13 @@ py
 [
 "
 test_decorators
+.
+py
+"
+]
+[
+"
+test_definitions
 .
 py
 "

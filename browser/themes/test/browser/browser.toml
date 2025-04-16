@@ -3,14 +3,14 @@ DEFAULT
 ]
 [
 "
-browser_expireThemes
+browser_BuiltInThemes_installs
 .
 js
 "
 ]
 [
 "
-browser_BuiltInThemes_installs
+browser_expireThemes
 .
 js
 "

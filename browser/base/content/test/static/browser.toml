@@ -108,6 +108,13 @@ run
 repeatedly
 [
 "
+browser_glean_metrics_exist
+.
+js
+"
+]
+[
+"
 browser_misused_characters_in_strings
 .
 js
@@ -250,13 +257,6 @@ cgi
 id
 =
 1608081
-[
-"
-browser_glean_metrics_exist
-.
-js
-"
-]
 [
 "
 browser_sentence_case_strings

@@ -276,6 +276,13 @@ html
 ]
 [
 "
+test_SVG_switch_language_spoof
+.
+html
+"
+]
+[
+"
 test_SVGxxxList
 .
 xhtml
@@ -862,13 +869,6 @@ html
 [
 "
 test_viewport
-.
-html
-"
-]
-[
-"
-test_SVG_switch_language_spoof
 .
 html
 "

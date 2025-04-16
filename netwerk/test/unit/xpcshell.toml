@@ -7567,6 +7567,13 @@ well
 "
 [
 "
+test_trr_flags
+.
+js
+"
+]
+[
+"
 test_trr_https_fallback
 .
 js
@@ -8256,10 +8263,3 @@ false
 #
 Bug
 721336
-[
-"
-test_trr_flags
-.
-js
-"
-]

@@ -168,13 +168,6 @@ js
 ]
 [
 "
-browser_text_offset_attributes_domain
-.
-js
-"
-]
-[
-"
 browser_state_domain
 .
 js
@@ -204,6 +197,13 @@ js
 [
 "
 browser_text_domain
+.
+js
+"
+]
+[
+"
+browser_text_offset_attributes_domain
 .
 js
 "

@@ -49,6 +49,13 @@ sjs
 ]
 [
 "
+browser_bfcache_activebc
+.
+js
+"
+]
+[
+"
 browser_bug343515
 .
 js
@@ -134,10 +141,3 @@ the
 new
 session
 history
-[
-"
-browser_bfcache_activebc
-.
-js
-"
-]

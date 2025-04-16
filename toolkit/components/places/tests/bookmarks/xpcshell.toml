@@ -325,14 +325,14 @@ js
 ]
 [
 "
-test_insert_thousands_bookmarks
+test_insertTree_fixupOrSkipInvalidEntries
 .
 js
 "
 ]
 [
 "
-test_insertTree_fixupOrSkipInvalidEntries
+test_insert_thousands_bookmarks
 .
 js
 "

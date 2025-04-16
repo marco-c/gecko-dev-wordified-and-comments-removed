@@ -375,6 +375,13 @@ js
 ]
 [
 "
+browser_color_scheme
+.
+js
+"
+]
+[
+"
 browser_cross_origin_isolated_animation_api
 .
 js
@@ -728,13 +735,6 @@ js
 [
 "
 browser_timezone
-.
-js
-"
-]
-[
-"
-browser_color_scheme
 .
 js
 "

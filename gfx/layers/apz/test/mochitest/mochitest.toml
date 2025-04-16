@@ -954,6 +954,13 @@ html
 ]
 [
 "
+test_group_scrollIntoView
+.
+html
+"
+]
+[
+"
 test_group_scroll_anchor
 .
 html
@@ -1125,13 +1132,6 @@ os_version
 #
 Bug
 1857059
-[
-"
-test_group_scrollIntoView
-.
-html
-"
-]
 [
 "
 test_group_touchevents

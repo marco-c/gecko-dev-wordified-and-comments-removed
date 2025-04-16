@@ -226,6 +226,13 @@ js
 ]
 [
 "
+browser_prompt_close_event
+.
+js
+"
+]
+[
+"
 browser_prompt_close_groups
 .
 js
@@ -261,13 +268,6 @@ testing
 multiple
 tab
 prompts
-[
-"
-browser_prompt_close_event
-.
-js
-"
-]
 [
 "
 browser_prompt_closed_window
