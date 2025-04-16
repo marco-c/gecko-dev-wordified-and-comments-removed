@@ -337,7 +337,6 @@ app
 :
 srcCompat
 "
-VisibleForTesting
 val
 ISSUE_XML_SRC_USAGE
 =
