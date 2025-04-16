@@ -142,13 +142,10 @@ GetLanguageGroup
 nsAtom
 *
 aLanguage
-bool
-*
-aNeedsToCache
-=
-nullptr
 )
 ;
+private
+:
 nsStaticAtom
 *
 GetUncachedLanguageGroup
@@ -159,8 +156,6 @@ aLanguage
 )
 const
 ;
-private
-:
 static
 mozilla
 :

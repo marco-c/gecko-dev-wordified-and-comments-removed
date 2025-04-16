@@ -1305,10 +1305,6 @@ aLanguage
 nsACString
 &
 aLangStr
-bool
-aForFontEnumerationThread
-=
-false
 )
 ;
 protected
@@ -1514,8 +1510,6 @@ aLangGroup
 nsACString
 &
 aLang
-bool
-aForFontEnumerationThread
 )
 ;
 #
