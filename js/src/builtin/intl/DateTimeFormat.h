@@ -14,9 +14,6 @@ SelfHostingDefines
 h
 "
 #
-ifdef
-JS_HAS_TEMPORAL_API
-#
 include
 "
 builtin
@@ -38,8 +35,6 @@ TimeZone
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -424,9 +419,6 @@ kind
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPORAL_API
 temporal
 :
 :
@@ -567,8 +559,6 @@ toSlotValue
 )
 ;
 }
-#
-endif
 void
 maybeClearCache
 (

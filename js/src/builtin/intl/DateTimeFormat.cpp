@@ -163,9 +163,6 @@ SharedIntlData
 h
 "
 #
-ifdef
-JS_HAS_TEMPORAL_API
-#
 include
 "
 builtin
@@ -286,8 +283,6 @@ ZonedDateTime
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -455,9 +450,6 @@ using
 namespace
 js
 ;
-#
-ifdef
-JS_HAS_TEMPORAL_API
 using
 namespace
 js
@@ -465,8 +457,6 @@ js
 :
 temporal
 ;
-#
-endif
 using
 JS
 :
@@ -10563,9 +10553,6 @@ Value
 value
 )
 {
-#
-ifdef
-JS_HAS_TEMPORAL_API
 if
 (
 value
@@ -10742,8 +10729,6 @@ Number
 ;
 }
 }
-#
-endif
 return
 DateTimeValueKind
 :
@@ -10751,9 +10736,6 @@ DateTimeValueKind
 Number
 ;
 }
-#
-ifdef
-JS_HAS_TEMPORAL_API
 static
 bool
 ResolveCalendarAndTimeZone
@@ -12356,8 +12338,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 HandleDateTimeOthers
@@ -12465,9 +12445,6 @@ isNumber
 )
 )
 ;
-#
-ifdef
-JS_HAS_TEMPORAL_API
 if
 (
 x
@@ -12728,8 +12705,6 @@ return
 false
 ;
 }
-#
-endif
 return
 HandleDateTimeOthers
 (
@@ -15950,9 +15925,6 @@ DateTimeValueKind
 TemporalZonedDateTime
 )
 {
-#
-ifdef
-JS_HAS_TEMPORAL_API
 Rooted
 <
 ZonedDateTimeObject
@@ -15997,18 +15969,6 @@ return
 false
 ;
 }
-#
-else
-MOZ_CRASH
-(
-"
-Temporal
-disabled
-"
-)
-;
-#
-endif
 }
 else
 {

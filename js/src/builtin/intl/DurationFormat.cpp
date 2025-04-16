@@ -75,9 +75,6 @@ FormatBuffer
 h
 "
 #
-ifdef
-JS_HAS_TEMPORAL_API
-#
 include
 "
 builtin
@@ -88,8 +85,6 @@ Duration
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -858,9 +853,6 @@ return
 true
 ;
 }
-#
-ifdef
-JS_HAS_TEMPORAL_API
 bool
 js
 :
@@ -1038,5 +1030,3 @@ rval
 )
 ;
 }
-#
-endif
