@@ -296,10 +296,9 @@ MOZ_ASSERT_IF
 (
 !
 aInternal
-!
 aClientStorageScope
 .
-IsNull
+IsClient
 (
 )
 )
