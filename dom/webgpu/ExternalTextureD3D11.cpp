@@ -222,6 +222,7 @@ FenceD3D11
 CreateFromHandle
 (
 fenceHandle
+nullptr
 )
 ;
 if
