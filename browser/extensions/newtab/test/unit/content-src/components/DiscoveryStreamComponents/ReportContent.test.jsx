@@ -960,7 +960,7 @@ test
 to
 make
 sure
-content
+ad
 options
 aren
 '
@@ -968,7 +968,7 @@ t
 displayed
 when
 report
-ads
+content
 is
 open
 assert
