@@ -293,6 +293,13 @@ js
 ]
 [
 "
+browser_about_translations_message_bar
+.
+js
+"
+]
+[
+"
 browser_about_translations_telemetry_open
 .
 js
