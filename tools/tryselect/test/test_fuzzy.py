@@ -1101,8 +1101,6 @@ headless
 !
 xorig
 !
-async
-!
 ioi
 "
     
