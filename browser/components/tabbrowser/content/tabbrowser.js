@@ -15039,6 +15039,7 @@ tabGroup
 else
 if
 (
+(
 this
 .
 isTab
@@ -15048,7 +15049,6 @@ itemAfter
 &
 &
 itemAfter
-?
 .
 group
 ?
@@ -15060,6 +15060,15 @@ tabs
 =
 =
 itemAfter
+)
+|
+|
+this
+.
+isTabGroupLabel
+(
+itemAfter
+)
 )
 {
 this
