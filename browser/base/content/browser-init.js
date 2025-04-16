@@ -614,6 +614,7 @@ ToolbarIconColor
 .
 init
 (
+window
 )
 ;
 }
@@ -4394,6 +4395,7 @@ ToolbarIconColor
 .
 uninit
 (
+window
 )
 ;
 if
