@@ -620,6 +620,9 @@ composeTestRule
 }
 .
 goBack
+(
+composeTestRule
+)
 {
 }
 .

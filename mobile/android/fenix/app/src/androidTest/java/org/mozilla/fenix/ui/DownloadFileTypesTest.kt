@@ -447,6 +447,9 @@ downloadFile
 }
 .
 exitDownloadsManagerToBrowser
+(
+activityTestRule
+)
 {
 }
 }
