@@ -125,6 +125,16 @@ VTuneMutex
 return
 false
 ;
+if
+(
+getenv
+(
+"
+JS_LOAD_VTUNE_LIB
+"
+)
+)
+{
 int
 loaded
 =
@@ -143,6 +153,7 @@ VTuneLoaded
 =
 true
 ;
+}
 return
 true
 ;
