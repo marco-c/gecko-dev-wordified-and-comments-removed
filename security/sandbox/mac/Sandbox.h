@@ -11,6 +11,11 @@ string
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 mozilla
 /
