@@ -1932,8 +1932,13 @@ gfx_wayland_hdr_AtStartup
 {
 feature
 .
-EnableByDefault
+UserForceEnable
 (
+"
+Requested
+for
+HDR
+"
 )
 ;
 }
