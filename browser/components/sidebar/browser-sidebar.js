@@ -8321,7 +8321,9 @@ hide
 triggerNode
 dismissPanel
 =
-true
+this
+.
+sidebarRevampEnabled
 }
 =
 {
