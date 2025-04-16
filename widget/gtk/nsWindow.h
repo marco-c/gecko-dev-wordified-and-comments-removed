@@ -3255,11 +3255,6 @@ mTitlebarBackdropState
 1
 ;
 bool
-mIsChildWindow
-:
-1
-;
-bool
 mAlwaysOnTop
 :
 1
