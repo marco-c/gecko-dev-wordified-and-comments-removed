@@ -4723,9 +4723,11 @@ pub
 struct
 QuadTileInfo
 {
+pub
 rect
 :
 LayoutRect
+pub
 kind
 :
 QuadTileKind

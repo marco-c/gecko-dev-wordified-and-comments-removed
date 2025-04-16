@@ -36,6 +36,12 @@ reftest
 list
 include
 compositor
+/
+reftest
+.
+list
+include
+compositor
 -
 surface
 /
