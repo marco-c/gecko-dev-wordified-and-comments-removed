@@ -239,7 +239,7 @@ lazy
 .
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 addBlocker
 (
@@ -442,7 +442,7 @@ lazy
 .
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 removeBlocker
 (
@@ -1069,7 +1069,7 @@ lazy
 .
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 removeBlocker
 (
