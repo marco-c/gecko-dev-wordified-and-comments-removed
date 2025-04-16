@@ -553,7 +553,7 @@ params
 inner_rect
 params
 .
-inner_shape
+shape
 )
 ;
 }
