@@ -207,7 +207,6 @@ doc
 >
 EvaluateMediaQueriesAndReportChanges
 (
-false
 )
 ;
 }
