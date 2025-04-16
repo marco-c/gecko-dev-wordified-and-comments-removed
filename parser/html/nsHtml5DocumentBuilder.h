@@ -432,13 +432,12 @@ nsHtml5DocumentBuilder
 ;
 protected
 :
-AutoTArray
+nsTArray
 <
 nsCOMPtr
 <
 nsIContent
 >
-32
 >
 mOwnedElements
 ;
