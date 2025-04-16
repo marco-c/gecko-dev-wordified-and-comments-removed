@@ -4348,6 +4348,13 @@ presContext
 ;
 if
 (
+(
+aOptions
+&
+WHEEL_EVENT_ASYNC_ENABLED
+)
+|
+|
 StaticPrefs
 :
 :
