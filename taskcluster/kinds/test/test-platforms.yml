@@ -1609,6 +1609,12 @@ windows
 talos
 -
 browsertime
+-
+windows
+-
+talos
+-
+webgl
 windows11
 -
 64
@@ -1712,6 +1718,12 @@ windows
 talos
 -
 browsertime
+-
+windows
+-
+talos
+-
+webgl
 windows11
 -
 64
