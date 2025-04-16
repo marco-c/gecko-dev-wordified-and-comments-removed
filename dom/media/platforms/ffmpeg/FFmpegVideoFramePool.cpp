@@ -618,7 +618,7 @@ mSurfaceLock
 VideoFramePoolSurfaceLock
 "
 )
-mFFMPEGPoolSize
+mMaxFFMPEGPoolSize
 (
 aFFMPEGPoolSize
 )
@@ -637,7 +637,7 @@ size
 %
 d
 "
-mFFMPEGPoolSize
+mMaxFFMPEGPoolSize
 )
 ;
 }
@@ -1010,6 +1010,8 @@ surfacesUsedFFmpeg
 float
 freeRatio
 =
+mMaxFFMPEGPoolSize
+?
 1
 .
 0f
@@ -1020,8 +1022,12 @@ surfacesUsedFFmpeg
 (
 float
 )
-mFFMPEGPoolSize
+mMaxFFMPEGPoolSize
 )
+:
+1
+.
+0
 ;
 DMABUF_LOG
 (
@@ -1063,7 +1069,7 @@ surfacesUsed
 -
 surfacesUsedFFmpeg
 surfacesUsedFFmpeg
-mFFMPEGPoolSize
+mMaxFFMPEGPoolSize
 freeRatio
 )
 ;

@@ -548,7 +548,7 @@ LIBAV_VER
 mDMABufSurfaces
 ;
 int
-mFFMPEGPoolSize
+mMaxFFMPEGPoolSize
 ;
 Maybe
 <
