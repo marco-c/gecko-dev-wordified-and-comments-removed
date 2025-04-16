@@ -5834,13 +5834,6 @@ js
 ]
 [
 "
-browser_webconsole_warning_group_content_blocking
-.
-js
-"
-]
-[
-"
 browser_webconsole_warning_group_cookies
 .
 js
@@ -5849,6 +5842,13 @@ js
 [
 "
 browser_webconsole_warning_group_csp
+.
+js
+"
+]
+[
+"
+browser_webconsole_warning_group_enhanced_tracking_protection
 .
 js
 "

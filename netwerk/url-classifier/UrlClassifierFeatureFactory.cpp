@@ -1324,7 +1324,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_TRACKING_CONTENT
 "
-TrackerUriBlocked
+TrackerUriBlockedByETP
 "
 "
 Tracking
@@ -1339,7 +1339,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_FINGERPRINTING_CONTENT
 "
-TrackerUriBlocked
+TrackerUriBlockedByETP
 "
 "
 Tracking
@@ -1354,7 +1354,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_CRYPTOMINING_CONTENT
 "
-TrackerUriBlocked
+TrackerUriBlockedByETP
 "
 "
 Tracking
@@ -1369,7 +1369,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_SOCIALTRACKING_CONTENT
 "
-TrackerUriBlocked
+TrackerUriBlockedByETP
 "
 "
 Tracking
@@ -1384,7 +1384,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_EMAILTRACKING_CONTENT
 "
-TrackerUriBlocked
+TrackerUriBlockedByETP
 "
 "
 Tracking

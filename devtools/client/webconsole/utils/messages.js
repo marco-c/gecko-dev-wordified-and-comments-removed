@@ -3456,7 +3456,7 @@ firstMessage
 {
 if
 (
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 firstMessage
 )
@@ -3760,7 +3760,7 @@ null
 }
 if
 (
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 message
 )
@@ -3944,7 +3944,7 @@ CSP_GROUP
 ;
 }
 function
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 message
 )
@@ -4390,7 +4390,7 @@ getDescriptorValue
 getNaturalOrder
 getParentWarningGroupMessageId
 getWarningGroupType
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 isGroupType
 isMessageNetworkError
 isPacketPrivate

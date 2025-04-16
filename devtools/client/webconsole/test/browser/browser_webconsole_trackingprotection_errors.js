@@ -276,7 +276,7 @@ add_task
 (
 async
 function
-testContentBlockingMessage
+testEnhancedTrackingProtectionMessage
 (
 )
 {
@@ -315,8 +315,8 @@ info
 (
 "
 Test
-content
-blocking
+tracking
+protection
 message
 "
 )
@@ -354,8 +354,9 @@ was
 blocked
 because
 +
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 )
@@ -473,8 +474,9 @@ storage
 access
 requests
 and
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 )
@@ -596,8 +598,9 @@ storage
 access
 requests
 and
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 )
@@ -861,8 +864,9 @@ from
 a
 tracker
 and
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 )
