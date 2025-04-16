@@ -1207,7 +1207,6 @@ args_list
 .
 extend
 (
-                    
 [
 "
 -
@@ -1218,16 +1217,12 @@ android
 .
 intentArgument
 "
-str
-(
 "
 about
 :
 blank
 "
-)
 ]
-                
 )
         
 return

@@ -82,7 +82,7 @@ path
 :
         
 raise
-IOError
+OSError
 (
 "
 %

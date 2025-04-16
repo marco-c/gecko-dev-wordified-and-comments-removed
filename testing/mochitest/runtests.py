@@ -8224,7 +8224,7 @@ extraTestsDirs
 :
             
 raise
-EnvironmentError
+OSError
 (
                 
 "
@@ -14421,7 +14421,7 @@ MOZ_GMP_PATH
 gmp_path
         
 except
-EnvironmentError
+OSError
 :
             
 self
@@ -17400,7 +17400,7 @@ gmp_paths
 :
             
 raise
-EnvironmentError
+OSError
 (
 "
 Could
@@ -19585,7 +19585,7 @@ self
 marionette
             
 except
-IOError
+OSError
 as
 e
 :

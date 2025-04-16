@@ -1,8 +1,6 @@
 import
 codecs
 import
-io
-import
 itertools
 import
 logging
@@ -1921,8 +1919,6 @@ sanitized_config
 )
     
 with
-io
-.
 open
 (
 "

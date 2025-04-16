@@ -160,7 +160,7 @@ remote_ini
 :
             
 raise
-IOError
+OSError
 (
 "
 Remote
@@ -981,7 +981,7 @@ online_devices
 :
             
 raise
-IOError
+OSError
 (
                 
 "

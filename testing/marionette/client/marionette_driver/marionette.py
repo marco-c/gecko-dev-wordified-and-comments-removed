@@ -4329,9 +4329,7 @@ host
 )
         
 except
-socket
-.
-error
+OSError
 :
             
 _
@@ -4375,7 +4373,7 @@ value
 reraise
 (
 IOError
-IOError
+OSError
 (
 msg
 )
@@ -4451,7 +4449,7 @@ errors
 reraise
 (
 IOError
-IOError
+OSError
 (
 msg
 .
@@ -4497,10 +4495,10 @@ delete_session
             
 except
 (
+OSError
 errors
 .
 MarionetteException
-IOError
 )
 :
                 
@@ -4896,9 +4894,7 @@ return
 True
             
 except
-socket
-.
-error
+OSError
 :
                 
 pass
@@ -4940,7 +4936,7 @@ check_for_crash
 :
                 
 raise
-IOError
+OSError
 (
 "
 Process
@@ -5164,7 +5160,7 @@ params
 )
         
 except
-IOError
+OSError
 :
             
 self
@@ -5654,7 +5650,7 @@ reraise
 (
                 
 IOError
-IOError
+OSError
 (
 message
 .
@@ -7733,7 +7729,7 @@ _request_in_app_shutdown
 )
             
 except
-IOError
+OSError
 :
                 
 pass
@@ -7824,7 +7820,7 @@ request
 "
                     
 raise
-IOError
+OSError
 (
 message
 .
@@ -8489,7 +8485,7 @@ raise
 e
             
 except
-IOError
+OSError
 :
                 
 pass

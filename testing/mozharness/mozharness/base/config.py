@@ -1018,7 +1018,7 @@ else
 :
             
 raise
-IOError
+OSError
 (
 "
 Can
@@ -1330,9 +1330,7 @@ e
 )
         
 except
-socket
-.
-error
+OSError
 as
 e
 :
@@ -1429,7 +1427,7 @@ close
 )
     
 except
-IOError
+OSError
 as
 e
 :

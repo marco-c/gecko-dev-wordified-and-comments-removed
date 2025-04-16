@@ -1,6 +1,4 @@
 import
-io
-import
 os
 import
 unittest
@@ -12294,8 +12292,6 @@ expected
 :
             
 with
-io
-.
 open
 (
 os
@@ -12535,8 +12531,6 @@ expected
 :
             
 with
-io
-.
 open
 (
 os

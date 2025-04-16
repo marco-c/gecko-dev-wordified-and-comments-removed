@@ -285,7 +285,7 @@ file
     
 except
 (
-IOError
+OSError
 ValueError
 )
 as

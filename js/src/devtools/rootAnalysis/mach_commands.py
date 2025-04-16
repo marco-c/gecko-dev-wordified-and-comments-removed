@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 argparse
 import
@@ -4375,7 +4363,7 @@ else
 :
                 
 raise
-IOError
+OSError
 (
 "
 not
@@ -4446,7 +4434,7 @@ html
         
 except
 (
-IOError
+OSError
 ValueError
 )
 :

@@ -1,6 +1,4 @@
 import
-io
-import
 itertools
 import
 os
@@ -762,8 +760,6 @@ try
 :
                 
 with
-io
-.
 open
 (
 full_path
@@ -817,7 +813,7 @@ None
 )
             
 except
-IOError
+OSError
 :
                 
 pass

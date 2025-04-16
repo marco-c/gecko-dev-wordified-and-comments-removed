@@ -383,7 +383,7 @@ BaseLoader
 )
     
 except
-IOError
+OSError
 as
 e
 :

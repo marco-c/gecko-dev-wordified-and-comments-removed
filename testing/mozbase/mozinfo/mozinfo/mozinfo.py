@@ -1807,7 +1807,7 @@ False
 :
         
 raise
-IOError
+OSError
 (
 "
 mozinfo

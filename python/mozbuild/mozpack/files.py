@@ -2314,7 +2314,7 @@ temp_dest
 )
         
 except
-EnvironmentError
+OSError
 :
             
 return
@@ -2340,7 +2340,7 @@ dest
 )
         
 except
-EnvironmentError
+OSError
 :
             
 os

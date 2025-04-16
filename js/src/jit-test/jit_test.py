@@ -2835,7 +2835,7 @@ close
 )
         
 except
-IOError
+OSError
 :
             
 if
@@ -3409,7 +3409,7 @@ ignore_timeouts
 ignore
         
 except
-IOError
+OSError
 :
             
 sys

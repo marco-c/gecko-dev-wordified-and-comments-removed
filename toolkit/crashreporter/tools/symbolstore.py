@@ -2019,7 +2019,7 @@ manifest_file
 :
             
 raise
-IOError
+OSError
 (
 errno
 .
@@ -2046,7 +2046,7 @@ destination
 :
             
 raise
-IOError
+OSError
 (
 errno
 .
@@ -2075,7 +2075,7 @@ UnreadableInstallManifest
 :
             
 raise
-IOError
+OSError
 (
 errno
 .
@@ -7567,7 +7567,7 @@ install_manifests
     
 except
 (
-IOError
+OSError
 ValueError
 )
 as

@@ -741,7 +741,7 @@ path
 )
             
 except
-WindowsError
+OSError
 :
                 
 kept

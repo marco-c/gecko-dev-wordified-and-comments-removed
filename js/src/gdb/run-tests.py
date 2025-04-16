@@ -744,7 +744,7 @@ n
 )
                 
 except
-IOError
+OSError
 as
 err
 :
@@ -825,7 +825,7 @@ out
 )
                 
 except
-IOError
+OSError
 as
 err
 :
@@ -2705,7 +2705,7 @@ n
 )
         
 except
-IOError
+OSError
 :
             
 sys
@@ -2807,7 +2807,7 @@ n
 )
         
 except
-IOError
+OSError
 as
 err
 :

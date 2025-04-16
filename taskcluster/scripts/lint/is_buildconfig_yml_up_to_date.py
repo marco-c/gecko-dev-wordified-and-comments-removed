@@ -128,7 +128,7 @@ cmd
 capture_output
 =
 True
-universal_newlines
+text
 =
 True
 )

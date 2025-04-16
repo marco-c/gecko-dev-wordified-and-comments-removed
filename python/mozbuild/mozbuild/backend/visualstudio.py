@@ -1889,7 +1889,7 @@ strip
 )
         
 except
-IOError
+OSError
 as
 e
 :

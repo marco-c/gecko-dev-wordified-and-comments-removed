@@ -581,9 +581,7 @@ e
 raise
         
 except
-socket
-.
-error
+OSError
 as
 e
 :

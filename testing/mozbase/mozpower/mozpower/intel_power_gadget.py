@@ -3151,19 +3151,13 @@ n
 )
 quotechar
 =
-str
-(
 '
 "
 '
-)
 delimiter
 =
-str
-(
 "
 "
-)
 )
         
 )

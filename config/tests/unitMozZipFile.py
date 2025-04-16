@@ -857,7 +857,7 @@ testzip
         
 self
 .
-failIf
+assertFalse
 (
 badEntry
 badEntry

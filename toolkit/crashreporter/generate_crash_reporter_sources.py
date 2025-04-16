@@ -391,7 +391,7 @@ annotations_file
     
 except
 (
-IOError
+OSError
 ValueError
 )
 as
@@ -493,7 +493,7 @@ read
 )
     
 except
-IOError
+OSError
 as
 ex
 :
@@ -1424,7 +1424,7 @@ generated_header
 )
     
 except
-IOError
+OSError
 as
 ex
 :
@@ -1743,7 +1743,7 @@ generated_class
 )
     
 except
-IOError
+OSError
 as
 ex
 :

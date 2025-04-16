@@ -1743,13 +1743,11 @@ parser
 parse
 (
         
-(
-            
 "
 \
 n
 "
-            
+        
 "
 interface
 TestPrefChromeOnlySCFuncConstructor
@@ -1757,7 +1755,7 @@ TestPrefChromeOnlySCFuncConstructor
 \
 n
 "
-            
+        
 '
 [
 ChromeOnly
@@ -1772,7 +1770,7 @@ test1
 "
 SecureContext
 '
-            
+        
 '
 Func
 =
@@ -1783,7 +1781,7 @@ IsNotUAWidget
 \
 n
 '
-            
+        
 "
 constructor
 (
@@ -1792,15 +1790,13 @@ constructor
 \
 n
 "
-            
+        
 "
 }
 ;
 \
 n
 "
-        
-)
     
 )
     

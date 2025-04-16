@@ -257,19 +257,11 @@ name
                 
 ]
                 
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
+True
                 
-stderr
-=
-subprocess
-.
-PIPE
-                
-universal_newlines
+text
 =
 True
                 
@@ -370,19 +362,11 @@ creatordate
 +
 revision_arg
                     
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
+True
                     
-stderr
-=
-subprocess
-.
-PIPE
-                    
-universal_newlines
+text
 =
 True
                     
@@ -489,19 +473,11 @@ tag
                 
 ]
                 
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
+True
                 
-stderr
-=
-subprocess
-.
-PIPE
-                
-universal_newlines
+text
 =
 True
                 

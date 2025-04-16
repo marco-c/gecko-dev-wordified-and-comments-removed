@@ -1118,7 +1118,7 @@ None
 :
                 
 raise
-IOError
+OSError
 (
 2
 "

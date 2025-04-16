@@ -1,19 +1,5 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 contextlib
-import
-io
 import
 os
 import
@@ -1438,8 +1424,6 @@ test262OutDir
 "
     
 with
-io
-.
 open
 (
 os
@@ -1625,8 +1609,6 @@ filePath
 :
         
 with
-io
-.
 open
 (
 filePath
@@ -1761,8 +1743,6 @@ localIncludes
 )
     
 with
-io
-.
 open
 (
 os
@@ -1816,11 +1796,8 @@ includeSource
 )
     
 with
-io
-.
 open
 (
-        
 os
 .
 path
@@ -1838,7 +1815,6 @@ js
 "
 wb
 "
-    
 )
 as
 browserFile
@@ -2516,7 +2492,6 @@ refTestOptions
 extend
 (
                     
-(
 "
 shell
 -
@@ -2537,7 +2512,6 @@ in
 sorted
 (
 shellOptions
-)
 )
                 
 )
@@ -2584,7 +2558,6 @@ refTestOptions
 extend
 (
             
-(
 "
 shell
 -
@@ -2605,7 +2578,6 @@ in
 sorted
 (
 optionalShellOptions
-)
 )
         
 )
@@ -3543,8 +3515,6 @@ js
 )
             
 with
-io
-.
 open
 (
 filePath
@@ -4793,11 +4763,8 @@ filePathDirs
 )
             
 with
-io
-.
 open
 (
-                
 os
 .
 path
@@ -4818,7 +4785,6 @@ split
 "
 wb
 "
-            
 )
 as
 output_file
@@ -5170,8 +5136,6 @@ LICENSE
 )
     
 with
-io
-.
 open
 (
 os
@@ -5242,8 +5206,6 @@ externManifests
 )
     
 with
-io
-.
 open
 (
 os

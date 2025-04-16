@@ -270,7 +270,7 @@ testdir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -338,7 +338,7 @@ testdir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -509,7 +509,7 @@ sourcedir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -523,7 +523,7 @@ testdir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -547,7 +547,7 @@ testfile
         
 self
 .
-assert_
+assertTrue
 (
 not
 os
@@ -572,7 +572,7 @@ Xfile
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -596,7 +596,7 @@ copieddir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -623,7 +623,7 @@ testfile2
         
 self
 .
-assert_
+assertTrue
 (
 not
 os
@@ -733,7 +733,7 @@ testfiles
             
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -837,7 +837,7 @@ destdir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -949,7 +949,7 @@ testfile
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -1109,7 +1109,7 @@ testfile
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -1221,7 +1221,7 @@ destdir
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -1361,7 +1361,7 @@ filename
         
 self
 .
-assert_
+assertTrue
 (
 os
 .
@@ -1504,7 +1504,7 @@ filename
         
 self
 .
-assert_
+assertTrue
 (
 os
 .

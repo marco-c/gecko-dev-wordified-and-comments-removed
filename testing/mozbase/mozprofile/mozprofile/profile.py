@@ -17,10 +17,6 @@ ABCMeta
 abstractmethod
 abstractproperty
 from
-io
-import
-open
-from
 shutil
 import
 copytree
@@ -48,6 +44,8 @@ input
         
 return
 input
+import
+builtins
 from
 .
 addons
@@ -1754,6 +1752,8 @@ filename
 )
         
 with
+builtins
+.
 open
 (
 prefs_file
@@ -1983,6 +1983,8 @@ filename
 )
         
 with
+builtins
+.
 open
 (
 path
@@ -2250,6 +2252,8 @@ e
 )
         
 with
+builtins
+.
 open
 (
 path
@@ -3256,6 +3260,8 @@ pref_file
 :
             
 with
+builtins
+.
 open
 (
 pref_file
@@ -3287,6 +3293,8 @@ preferences
 )
         
 with
+builtins
+.
 open
 (
 pref_file

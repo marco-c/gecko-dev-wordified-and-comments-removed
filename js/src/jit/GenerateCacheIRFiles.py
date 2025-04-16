@@ -3848,10 +3848,7 @@ get
 "
 cost_estimate
 "
-int
-(
 0xFFFFFFFF
-)
 )
         
 assert

@@ -637,7 +637,7 @@ utf8
 raise
     
 except
-IOError
+OSError
 :
         
 return

@@ -1278,9 +1278,7 @@ chunk
 :
                     
 raise
-socket
-.
-error
+OSError
 (
 "
 No
@@ -2023,7 +2021,7 @@ sent
 :
                     
 raise
-IOError
+OSError
 (
                         
 "
@@ -2307,7 +2305,7 @@ SHUT_RDWR
 )
                 
 except
-IOError
+OSError
 as
 exc
 :

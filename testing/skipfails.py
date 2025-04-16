@@ -1,8 +1,6 @@
 import
 gzip
 import
-io
-import
 json
 import
 logging
@@ -7558,8 +7556,6 @@ manifest_path
                 
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -7646,7 +7642,7 @@ manifest_path
 )
             
 except
-IOError
+OSError
 :
                 
 raise
@@ -7780,8 +7776,6 @@ else
                 
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -7918,8 +7912,6 @@ manifest_str
             
 fp
 =
-io
-.
 open
 (
 manifest_path
@@ -8341,8 +8333,6 @@ variants_file
             
 fp
 =
-io
-.
 open
 (
 variants_path
@@ -11076,8 +11066,6 @@ filename
         
 fp
 =
-io
-.
 open
 (
 filename
@@ -11424,8 +11412,6 @@ filename
         
 fp
 =
-io
-.
 open
 (
 filename
@@ -13945,8 +13931,6 @@ mods
         
 manifest_str
 =
-io
-.
 open
 (
 manifest

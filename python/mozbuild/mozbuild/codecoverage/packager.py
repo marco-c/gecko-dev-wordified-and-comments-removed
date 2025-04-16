@@ -58,7 +58,7 @@ UnreadableInstallManifest
 :
         
 raise
-IOError
+OSError
 (
 errno
 .

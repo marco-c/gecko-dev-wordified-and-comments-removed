@@ -1,6 +1,4 @@
 import
-io
-import
 os
 import
 sys
@@ -338,8 +336,6 @@ str
         
 fp
 =
-io
-.
 open
 (
 fp

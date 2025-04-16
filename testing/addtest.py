@@ -1,6 +1,4 @@
 import
-io
-import
 os
 import
 manifestparser
@@ -2376,8 +2374,6 @@ filename
 break
     
 with
-io
-.
 open
 (
 manifest_file

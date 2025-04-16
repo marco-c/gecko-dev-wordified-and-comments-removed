@@ -3137,7 +3137,7 @@ path
 :
                 
 raise
-IOError
+OSError
 (
 "
 Could
@@ -4051,9 +4051,7 @@ e
 raise
         
 except
-socket
-.
-error
+OSError
 as
 e
 :
@@ -6178,7 +6176,7 @@ dest
 )
         
 except
-IOError
+OSError
 as
 e
 :
@@ -6598,7 +6596,7 @@ close
 )
             
 except
-IOError
+OSError
 as
 e
 :
@@ -6681,7 +6679,7 @@ dest
             
 except
 (
-IOError
+OSError
 shutil
 .
 Error
@@ -6746,7 +6744,7 @@ dest
             
 except
 (
-IOError
+OSError
 shutil
 .
 Error
@@ -7346,7 +7344,7 @@ overwrite
         
 except
 (
-IOError
+OSError
 shutil
 .
 Error
@@ -7685,7 +7683,7 @@ return
 file_path
         
 except
-IOError
+OSError
 :
             
 self
@@ -7894,7 +7892,7 @@ open_mode
 )
         
 except
-IOError
+OSError
 as
 err
 :
@@ -12781,7 +12779,7 @@ w
 )
         
 except
-IOError
+OSError
 :
             
 level
@@ -12844,7 +12842,7 @@ w
 )
         
 except
-IOError
+OSError
 :
             
 level
@@ -13591,7 +13589,7 @@ close
 )
             
 except
-IOError
+OSError
 as
 e
 :
@@ -13810,7 +13808,7 @@ filename
 :
             
 raise
-IOError
+OSError
 (
 "
 Could

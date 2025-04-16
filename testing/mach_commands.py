@@ -881,9 +881,6 @@ kwargs
 :
     
 import
-io
-    
-import
 addtest
     
 from
@@ -1342,8 +1339,6 @@ OSError
 pass
             
 with
-io
-.
 open
 (
 path

@@ -4960,7 +4960,7 @@ path
 :
                     
 raise
-IOError
+OSError
 (
 "
 -
@@ -7578,7 +7578,7 @@ path
 :
                     
 raise
-IOError
+OSError
 (
 "
 test

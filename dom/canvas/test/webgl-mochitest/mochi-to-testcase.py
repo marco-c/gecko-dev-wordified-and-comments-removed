@@ -80,7 +80,7 @@ read_bytes
 )
     
 except
-IOError
+OSError
 :
         
 return

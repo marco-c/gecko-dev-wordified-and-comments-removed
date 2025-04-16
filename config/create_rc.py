@@ -515,8 +515,6 @@ pp
 .
 do_include
 (
-io
-.
 open
 (
 path
@@ -2142,8 +2140,6 @@ manifest_path
 )
     
 with
-io
-.
 open
 (
 "

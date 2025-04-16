@@ -213,12 +213,9 @@ append_env
 PYTHONDONTWRITEBYTECODE
 "
 :
-str
-(
 "
 1
 "
-)
 }
     
 if
@@ -1807,7 +1804,7 @@ subprocess
 .
 STDOUT
         
-universal_newlines
+text
 =
 True
         

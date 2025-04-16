@@ -3211,9 +3211,7 @@ return
 True
         
 except
-socket
-.
-error
+OSError
 :
             
 return

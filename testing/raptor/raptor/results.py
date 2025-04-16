@@ -1,4 +1,6 @@
 import
+builtins
+import
 json
 import
 os
@@ -19,10 +21,6 @@ collections
 abc
 import
 Iterable
-from
-io
-import
-open
 from
 pathlib
 import
@@ -1266,6 +1264,8 @@ try
 :
             
 with
+builtins
+.
 open
 (
 schema_path
@@ -5632,6 +5632,8 @@ try
 :
                 
 with
+builtins
+.
 open
 (
 bt_res_json
@@ -5805,6 +5807,8 @@ warm
 )
                 
 with
+builtins
+.
 open
 (
 _cold_path
@@ -5827,6 +5831,8 @@ f
 )
                 
 with
+builtins
+.
 open
 (
 _warm_path
@@ -5895,6 +5901,8 @@ try
 :
                     
 with
+builtins
+.
 open
 (
 bt_res_json
@@ -6022,8 +6030,11 @@ try
 :
                         
 with
+builtins
+.
 open
 (
+                            
 bt_profiling_res_json
 "
 r
@@ -6033,6 +6044,7 @@ encoding
 "
 utf8
 "
+                        
 )
 as
 f
@@ -7484,6 +7496,8 @@ jobs_file
 )
             
 with
+builtins
+.
 open
 (
 jobs_file

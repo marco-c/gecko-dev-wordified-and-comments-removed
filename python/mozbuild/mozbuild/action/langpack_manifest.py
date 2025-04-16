@@ -3,8 +3,6 @@ argparse
 import
 datetime
 import
-io
-import
 json
 import
 logging
@@ -79,8 +77,6 @@ content
 :
     
 with
-io
-.
 open
 (
 path

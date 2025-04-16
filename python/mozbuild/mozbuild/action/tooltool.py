@@ -48,10 +48,6 @@ functools
 import
 wraps
 from
-io
-import
-open
-from
 random
 import
 random
@@ -164,6 +160,8 @@ PACKAGE
 HAWK_VER
 =
 1
+import
+builtins
 import
 urllib
 .
@@ -2574,6 +2572,8 @@ present
 :
             
 with
+builtins
+.
 open
 (
 self
@@ -2758,6 +2758,8 @@ algorithm
     
 fo
 =
+builtins
+.
 open
 (
 filename
@@ -4144,6 +4146,8 @@ Manifest
 )
         
 with
+builtins
+.
 open
 (
 manifest_file
@@ -4857,6 +4861,8 @@ old_fr
 )
     
 with
+builtins
+.
 open
 (
 manifest_file
@@ -5177,14 +5183,18 @@ auth_file
 )
 as
 f
+builtins
+.
 open
 (
+                
 temp_path
 mode
 =
 "
 wb
 "
+            
 )
 as
 out
@@ -5318,7 +5328,7 @@ True
 )
         
 except
-IOError
+OSError
 :
             
 log
@@ -6350,6 +6360,8 @@ dctx
 .
 stream_reader
 (
+builtins
+.
 open
 (
 filename
@@ -6915,7 +6927,7 @@ digest
 )
             
 except
-IOError
+OSError
 :
                 
 log
@@ -7305,10 +7317,7 @@ digest
 )
                 
 except
-(
 OSError
-IOError
-)
 :
                     
 log
@@ -7933,6 +7942,8 @@ else
 :
         
 with
+builtins
+.
 open
 (
 auth_file
@@ -8279,6 +8290,8 @@ url
 path
         
 with
+builtins
+.
 open
 (
 filename

@@ -1,6 +1,4 @@
 import
-io
-import
 itertools
 import
 os
@@ -459,8 +457,6 @@ glbl
         
 exec
 (
-io
-.
 open
 (
 filename

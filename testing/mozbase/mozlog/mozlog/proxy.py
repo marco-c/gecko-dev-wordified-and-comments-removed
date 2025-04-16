@@ -428,8 +428,8 @@ get
             
 except
 (
+OSError
 EOFError
-IOError
 )
 :
                 

@@ -545,7 +545,7 @@ handle_now
 )
     
 except
-IOError
+OSError
 :
         
 allowlists

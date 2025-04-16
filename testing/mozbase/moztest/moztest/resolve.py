@@ -6674,7 +6674,7 @@ file_path
 )
             
 except
-IOError
+OSError
 :
                 
 pass

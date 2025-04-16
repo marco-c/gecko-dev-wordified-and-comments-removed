@@ -925,7 +925,7 @@ symbol_zip_url
         
 except
 (
-IOError
+OSError
 http
 .
 client
@@ -1055,7 +1055,7 @@ close
 )
         
 except
-IOError
+OSError
 :
             
 pass

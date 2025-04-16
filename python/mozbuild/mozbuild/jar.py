@@ -3196,8 +3196,6 @@ w
             
 inf
 =
-io
-.
 open
 (
 realsrc
@@ -3602,8 +3600,6 @@ mode
 :
                 
 return
-io
-.
 open
 (
 out
@@ -3614,8 +3610,6 @@ else
 :
                 
 return
-io
-.
 open
 (
 out

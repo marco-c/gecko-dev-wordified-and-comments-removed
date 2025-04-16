@@ -1046,7 +1046,7 @@ kwargs
 :
             
 raise
-WindowsError
+OSError
 (
 )
         

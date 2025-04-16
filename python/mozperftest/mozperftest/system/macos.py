@@ -485,7 +485,7 @@ dmg
 )
             
 raise
-IOError
+OSError
 (
 dmg
 )

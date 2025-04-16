@@ -1401,7 +1401,7 @@ close
 )
             
 except
-IOError
+OSError
 :
                 
 import

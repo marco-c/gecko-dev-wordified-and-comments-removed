@@ -301,7 +301,7 @@ stubs
 :
         
 raise
-IOError
+OSError
 (
 '
 Requested
@@ -354,11 +354,11 @@ addon_dir
 )
     
 except
-IOError
+OSError
 :
         
 raise
-IOError
+OSError
 (
 "
 Could

@@ -65,12 +65,6 @@ mozversioncontrol
 import
 get_repository_object
 from
-six
-.
-moves
-import
-input
-from
 mozbuild
 import
 build_commands

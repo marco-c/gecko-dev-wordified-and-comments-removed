@@ -1819,7 +1819,7 @@ toml
 )
                 
 except
-IOError
+OSError
 :
                     
 files

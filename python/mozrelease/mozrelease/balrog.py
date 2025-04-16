@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 def
 _generate_show_url
 (

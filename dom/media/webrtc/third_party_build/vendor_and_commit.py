@@ -1420,8 +1420,6 @@ error_help
 set_help
 (
             
-(
-                
 f
 "
 Running
@@ -1442,7 +1440,7 @@ failed
 \
 n
 "
-                
+            
 f
 "
 Please
@@ -1461,7 +1459,7 @@ github_path
 \
 n
 "
-                
+            
 "
 are
 reflected
@@ -1474,8 +1472,6 @@ hg
 diff
 '
 "
-            
-)
         
 )
         

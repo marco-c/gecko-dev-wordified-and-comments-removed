@@ -818,7 +818,7 @@ config
 )
         
 except
-IOError
+OSError
 as
 e
 :

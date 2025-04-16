@@ -2028,7 +2028,7 @@ close
 )
     
 except
-IOError
+OSError
 :
         
 LOG

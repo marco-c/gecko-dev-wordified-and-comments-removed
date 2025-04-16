@@ -3302,7 +3302,7 @@ w
 )
         
 except
-IOError
+OSError
 as
 ex
 :

@@ -609,7 +609,7 @@ exe
 :
                 
 raise
-IOError
+OSError
 (
 "
 Binary

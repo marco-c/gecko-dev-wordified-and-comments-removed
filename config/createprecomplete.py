@@ -1,6 +1,4 @@
 import
-io
-import
 os
 def
 get_build_entries
@@ -438,8 +436,6 @@ rel_path_precomplete
     
 precomplete_file
 =
-io
-.
 open
 (
 precomplete_file_path

@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -11536,8 +11524,6 @@ data
 )
     
 with
-io
-.
 open
 (
 out
@@ -11648,8 +11634,6 @@ js
 )
     
 with
-io
-.
 open
 (
 test_file
@@ -11745,8 +11729,6 @@ content
 "
     
 with
-io
-.
 open
 (
 filepath
@@ -15644,8 +15626,6 @@ __file__
 )
     
 with
-io
-.
 open
 (
         
@@ -16408,8 +16388,6 @@ file
 )
     
 with
-io
-.
 open
 (
 out
@@ -16975,8 +16953,6 @@ ignoreFactory
 )
     
 with
-io
-.
 open
 (
         
@@ -17351,8 +17327,6 @@ js
 "
     
 with
-io
-.
 open
 (
         
@@ -17575,8 +17549,6 @@ ignoreFactory
 )
     
 with
-io
-.
 open
 (
         
@@ -17790,8 +17762,6 @@ ignoreFactory
 )
     
 with
-io
-.
 open
 (
         
@@ -19449,8 +19419,6 @@ out
 :
     
 with
-io
-.
 open
 (
 out
@@ -22334,8 +22302,6 @@ data_filter_file
 :
     
 with
-io
-.
 open
 (
 data_filter_file
@@ -22602,8 +22568,6 @@ js
 )
     
 with
-io
-.
 open
 (
 sanctioned_js_file
@@ -22769,8 +22733,6 @@ h
 )
     
 with
-io
-.
 open
 (
 sanctioned_h_file
@@ -23077,8 +23039,6 @@ file_name
 )
         
 with
-io
-.
 open
 (
 file_path
@@ -24085,8 +24045,6 @@ unit
 )
     
 with
-io
-.
 open
 (
         
@@ -24971,11 +24929,8 @@ h
 )
     
 with
-io
-.
 open
 (
-        
 numbering_systems_js_file
 mode
 =
@@ -24993,7 +24948,6 @@ newline
 =
 "
 "
-    
 )
 as
 f
@@ -25234,8 +25188,6 @@ js
 )
     
 with
-io
-.
 open
 (
 intl_shell_js_file
@@ -25486,8 +25438,6 @@ misc
 )
     
 with
-io
-.
 open
 (
         

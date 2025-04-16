@@ -1048,7 +1048,6 @@ includes
 .
 append
 (
-(
 "
 nsIAccessible
 %
@@ -1056,7 +1055,6 @@ s
 "
 %
 e
-)
 )
     
 types

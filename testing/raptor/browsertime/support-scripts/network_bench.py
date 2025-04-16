@@ -378,17 +378,9 @@ version
 "
 ]
                 
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-                
-stderr
-=
-subprocess
-.
-PIPE
+True
                 
 text
 =
@@ -1664,17 +1656,9 @@ help
 "
 ]
                 
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-                
-stderr
-=
-subprocess
-.
-PIPE
+True
                 
 text
 =
@@ -1779,17 +1763,9 @@ check
 =
 True
                 
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-                
-stderr
-=
-subprocess
-.
-PIPE
+True
             
 )
             

@@ -4895,10 +4895,7 @@ tempdir
 )
             
 except
-(
 OSError
-IOError
-)
 :
                 
 self
