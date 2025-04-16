@@ -24,7 +24,7 @@ template
 hasAttribute
 (
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 "
 )
 )
@@ -33,14 +33,14 @@ assert_equals
 (
 template
 .
-shadowRootCustomElements
+shadowRootCustomElementRegistry
 "
 "
 )
 ;
 template
 .
-shadowRootCustomElements
+shadowRootCustomElementRegistry
 =
 "
 blah
@@ -53,7 +53,7 @@ template
 getAttribute
 (
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 "
 )
 "
@@ -65,7 +65,7 @@ assert_equals
 (
 template
 .
-shadowRootCustomElements
+shadowRootCustomElementRegistry
 "
 blah
 "
@@ -73,7 +73,7 @@ blah
 ;
 }
 "
-shadowRootCustomElements
+shadowRootCustomElementRegistry
 reflects
 as
 string
@@ -111,7 +111,7 @@ template
 shadowrootmode
 =
 open
-shadowrootcustomelements
+shadowrootcustomelementregistry
 shadowrootserializable
 >
 <
@@ -165,7 +165,7 @@ shadowrootserializable
 "
 \
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 =
 \
 "
@@ -226,7 +226,7 @@ template
 shadowrootmode
 =
 open
-shadowrootcustomelements
+shadowrootcustomelementregistry
 shadowrootserializable
 >
 <
@@ -266,7 +266,7 @@ firstChild
 .
 shadowRoot
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -301,7 +301,7 @@ shadowrootserializable
 "
 \
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 =
 \
 "

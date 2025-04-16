@@ -228,7 +228,7 @@ a
 b
 '
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -294,7 +294,7 @@ createElement
 (
 localName
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -315,7 +315,7 @@ assert_equals
 (
 scopedElement
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;
@@ -328,7 +328,7 @@ createElement
 (
 localName
 {
-customElements
+customElementRegistry
 :
 window
 .
@@ -351,7 +351,7 @@ assert_equals
 (
 globalExplicitElement
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -382,7 +382,7 @@ assert_equals
 (
 globalImplicitElement
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -426,7 +426,7 @@ a
 b
 '
 {
-customElements
+customElementRegistry
 :
 window
 .
@@ -469,7 +469,7 @@ a
 b
 '
 {
-customElements
+customElementRegistry
 :
 otherScopedRegistry
 }
@@ -542,7 +542,7 @@ c
 d
 '
 {
-customElements
+customElementRegistry
 :
 registry
 }
@@ -677,7 +677,7 @@ createElement
 time
 "
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -695,7 +695,7 @@ assert_equals
 (
 scopedElement
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;
@@ -712,7 +712,7 @@ a
 b
 "
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -730,7 +730,7 @@ assert_equals
 (
 abElement
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;

@@ -121,7 +121,7 @@ shadowrootclonable
 "
 true
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 >
 <
 a
@@ -140,7 +140,7 @@ shadowrootclonable
 "
 true
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 >
 <
 c
@@ -313,7 +313,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -330,7 +330,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -345,7 +345,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -362,7 +362,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -381,7 +381,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -398,7 +398,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -410,7 +410,7 @@ initialize
 sets
 element
 .
-customElements
+customElementRegistry
 to
 the
 global
@@ -446,7 +446,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -463,7 +463,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -478,7 +478,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -495,7 +495,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -514,7 +514,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -531,7 +531,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -552,7 +552,7 @@ b
 .
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -580,7 +580,7 @@ d
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -631,7 +631,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -648,7 +648,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -663,7 +663,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -684,7 +684,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -701,7 +701,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -716,7 +716,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -726,7 +726,7 @@ initialize
 sets
 element
 .
-customElements
+customElementRegistry
 to
 a
 scoped
@@ -762,7 +762,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -779,7 +779,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -794,7 +794,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -815,7 +815,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -832,7 +832,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -847,7 +847,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -866,7 +866,7 @@ b
 .
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -894,7 +894,7 @@ d
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -945,7 +945,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -962,7 +962,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -977,7 +977,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 null
 )
 ;
@@ -998,7 +998,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1015,7 +1015,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1030,7 +1030,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1047,7 +1047,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1064,7 +1064,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1079,7 +1079,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 registry
 )
 ;
@@ -1089,7 +1089,7 @@ initialize
 sets
 element
 .
-customElements
+customElementRegistry
 permantently
 '
 )
@@ -1133,7 +1133,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1152,7 +1152,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1169,7 +1169,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1192,7 +1192,7 @@ assert_equals
 (
 shadowRoot
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1211,7 +1211,7 @@ b
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1228,7 +1228,7 @@ ef
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements

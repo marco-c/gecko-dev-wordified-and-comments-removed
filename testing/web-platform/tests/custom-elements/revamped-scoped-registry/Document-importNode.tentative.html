@@ -121,7 +121,7 @@ shadowrootclonable
 "
 true
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 >
 <
 div
@@ -185,7 +185,7 @@ shadowrootclonable
 "
 true
 "
-shadowrootcustomelements
+shadowrootcustomelementregistry
 >
 <
 div
@@ -431,7 +431,7 @@ element
 '
 )
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -472,7 +472,7 @@ host
 selfOnly
 :
 false
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -625,7 +625,7 @@ assert_equals
 (
 clone
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -713,7 +713,7 @@ div
 selfOnly
 :
 false
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -723,7 +723,7 @@ assert_equals
 (
 clone
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;
@@ -798,7 +798,7 @@ createElement
 div
 '
 {
-customElements
+customElementRegistry
 :
 emptyRegistry
 }
@@ -845,7 +845,7 @@ element
 selfOnly
 :
 false
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -855,7 +855,7 @@ assert_equals
 (
 clone
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;
@@ -1047,7 +1047,7 @@ element
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1237,7 +1237,7 @@ content
 selfOnly
 :
 false
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -1256,7 +1256,7 @@ element
 '
 )
 .
-customElements
+customElementRegistry
 scopedRegistry
 )
 ;
@@ -1475,7 +1475,7 @@ element
 '
 )
 .
-customElements
+customElementRegistry
 window
 .
 customElements
@@ -1897,7 +1897,7 @@ importNode
 (
 root
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -1922,7 +1922,7 @@ argument
 with
 value
 {
-customElements
+customElementRegistry
 :
 scopedRegistry
 }
@@ -1949,7 +1949,7 @@ importNode
 (
 root
 {
-customElements
+customElementRegistry
 :
 null
 }
@@ -1966,7 +1966,7 @@ argument
 with
 value
 {
-customElements
+customElementRegistry
 :
 null
 }
