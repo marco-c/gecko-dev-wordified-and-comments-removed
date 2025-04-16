@@ -54,6 +54,9 @@ true
 getExtTabGroupIdForInternalTabGroupId
 :
 true
+getInternalTabGroupIdForExtTabGroupId
+:
+true
 makeWidgetId
 :
 true
