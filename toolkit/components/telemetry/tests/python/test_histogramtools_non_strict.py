@@ -488,7 +488,7 @@ name
 =
 =
 "
-TELEMETRY_TEST_FLAG
+TELEMETRY_TEST_LINEAR
 "
         
 ]
@@ -520,7 +520,7 @@ kind
 (
 )
 "
-flag
+linear
 "
 )
         

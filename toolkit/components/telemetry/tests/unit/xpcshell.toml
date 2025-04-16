@@ -752,13 +752,6 @@ id
 ]
 [
 "
-test_TelemetryFlagClear
-.
-js
-"
-]
-[
-"
 test_TelemetryHistograms
 .
 js
