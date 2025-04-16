@@ -54,6 +54,7 @@ uint8_t
 {
 Hybrid
 ControlOnly
+DebuggerOnly
 }
 ;
 private
