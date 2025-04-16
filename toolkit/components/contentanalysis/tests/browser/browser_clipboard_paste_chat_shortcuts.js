@@ -689,6 +689,13 @@ prompt
 ;
 shortcutTextArea
 .
+value
+=
+"
+"
+;
+shortcutTextArea
+.
 focus
 (
 )
