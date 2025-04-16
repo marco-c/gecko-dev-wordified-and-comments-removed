@@ -351,6 +351,10 @@ formatButtonConfig
 b
 )
 )
+false
+content
+.
+dismissable
 )
 ;
 this

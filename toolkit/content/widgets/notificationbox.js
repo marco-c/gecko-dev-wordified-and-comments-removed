@@ -315,6 +315,9 @@ aButtons
 aDisableClickJackingDelay
 =
 false
+dismissable
+=
+true
 )
 {
 if
@@ -391,6 +394,7 @@ try
 await
 createNotificationMessageElement
 (
+dismissable
 )
 ;
 }
@@ -423,6 +427,12 @@ notification
 message
 "
 )
+;
+newitem
+.
+dismissable
+=
+dismissable
 ;
 newitem
 .
@@ -1524,6 +1534,7 @@ async
 function
 createNotificationMessageElement
 (
+dismissable
 )
 {
 document
@@ -1615,7 +1626,7 @@ this
 .
 dismissable
 =
-true
+dismissable
 ;
 this
 .
