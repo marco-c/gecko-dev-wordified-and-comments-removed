@@ -10019,19 +10019,6 @@ padding
 1px
 )
 ;
-media
-(
-prefers
--
-reduced
--
-motion
-:
-no
--
-preference
-)
-{
 transition
 :
 box
@@ -10039,7 +10026,6 @@ box
 shadow
 150ms
 ;
-}
 }
 .
 card
