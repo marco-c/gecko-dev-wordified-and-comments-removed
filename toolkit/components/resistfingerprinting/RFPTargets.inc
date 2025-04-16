@@ -330,6 +330,11 @@ WebGPUSubgroupSizes
 )
 ITEM_VALUE
 (
+JSLocalePrompt
+67
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

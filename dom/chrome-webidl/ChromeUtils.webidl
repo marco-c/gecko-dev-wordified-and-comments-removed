@@ -6815,6 +6815,9 @@ SiteSpecificZoom
 "
 CSSPrefersColorScheme
 "
+"
+JSLocalePrompt
+"
 }
 ;
 #
