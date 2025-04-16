@@ -69,6 +69,10 @@ breakages
 FROM
 DOCKER_IMAGE_PARENT
 ARG
+ARCH
+=
+amd64
+ARG
 TASKCLUSTER_ROOT_URL
 ARG
 DOCKER_IMAGE_PACKAGES
@@ -143,6 +147,7 @@ system
 setup
 .
 sh
+ARCH
 RUN
 /
 usr
