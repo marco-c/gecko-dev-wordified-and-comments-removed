@@ -121,6 +121,13 @@ js
 ]
 [
 "
+browser_bouncetracking_fpi
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_mode_prefs
 .
 js

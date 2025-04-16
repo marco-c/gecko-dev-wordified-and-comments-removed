@@ -926,6 +926,14 @@ OriginAttributesRef
 (
 )
 ;
+mOriginAttributes
+.
+mFirstPartyDomain
+.
+Truncate
+(
+)
+;
 MOZ_ASSERT
 (
 mOriginAttributes
