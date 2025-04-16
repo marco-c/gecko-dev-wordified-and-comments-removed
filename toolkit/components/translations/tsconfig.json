@@ -86,7 +86,7 @@ ts
 /
 plugins
 /
-checkRootJs
+checkRootOnly
 .
 js
 "

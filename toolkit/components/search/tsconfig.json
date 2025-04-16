@@ -50,11 +50,6 @@ checkJs
 :
 true
 "
-incremental
-"
-:
-true
-"
 plugins
 "
 :
@@ -80,7 +75,7 @@ ts
 /
 plugins
 /
-checkRootJs
+checkRootOnly
 .
 js
 "
