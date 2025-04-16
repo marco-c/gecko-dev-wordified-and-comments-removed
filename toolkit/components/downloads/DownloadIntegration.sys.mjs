@@ -422,7 +422,7 @@ service
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
