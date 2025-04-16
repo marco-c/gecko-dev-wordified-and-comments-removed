@@ -595,6 +595,8 @@ Firefox
 /
 Privacy
 /
+Guides
+/
 Tracking_Protection
 "
 ;
@@ -639,9 +641,9 @@ docs
 /
 Web
 /
-HTTP
+Security
 /
-Public_Key_Pinning
+Certificate_Transparency
 "
 ;
 const
@@ -845,6 +847,8 @@ docs
 Web
 /
 HTML
+/
+Guides
 /
 Quirks_Mode_and_Standards_Mode
 "
@@ -1132,13 +1136,13 @@ org
 /
 docs
 /
-Mozilla
-/
-Firefox
+Web
 /
 Privacy
 /
-Storage_access_policy
+Guides
+/
+Storage_Access_Policy
 /
 Errors
 /

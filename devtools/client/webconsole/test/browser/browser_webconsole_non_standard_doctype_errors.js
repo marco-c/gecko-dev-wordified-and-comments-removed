@@ -202,6 +202,8 @@ Web
 /
 HTML
 /
+Guides
+/
 Quirks_Mode_and_Standards_Mode
 "
 +

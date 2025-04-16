@@ -816,6 +816,8 @@ Firefox
 /
 Privacy
 /
+Guides
+/
 Tracking_Protection
 {
 getGAParams

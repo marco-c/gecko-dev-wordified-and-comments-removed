@@ -427,6 +427,8 @@ Web
 /
 Accessibility
 /
+Guides
+/
 Understanding_WCAG
 /
 Perceivable
@@ -501,6 +503,8 @@ docs
 Web
 /
 Accessibility
+/
+Guides
 /
 Understanding_WCAG
 /
@@ -714,6 +718,8 @@ docs
 Web
 /
 Accessibility
+/
+Guides
 /
 Understanding_WCAG
 /
