@@ -7,13 +7,6 @@ head
 "
 [
 "
-test_csp_deserialization
-.
-js
-"
-]
-[
-"
 test_csp_reports
 .
 js
