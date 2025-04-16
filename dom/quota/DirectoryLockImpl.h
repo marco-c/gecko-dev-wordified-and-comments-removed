@@ -223,6 +223,9 @@ dom
 :
 quota
 {
+class
+ClientDirectoryLockHandle
+;
 struct
 OriginMetadata
 ;
@@ -250,6 +253,10 @@ private
 friend
 class
 ClientDirectoryLock
+;
+friend
+class
+ClientDirectoryLockHandle
 ;
 friend
 class
