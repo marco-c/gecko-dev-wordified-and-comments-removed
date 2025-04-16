@@ -2412,6 +2412,18 @@ mozilla
 org
 /
 1915183
+-
+https
+:
+/
+/
+bugzilla
+.
+mozilla
+.
+org
+/
+1958156
 data_reviews
 :
 -
@@ -2519,7 +2531,7 @@ type
 string
 expires
 :
-140
+147
 migrate_result_count
 :
 type
