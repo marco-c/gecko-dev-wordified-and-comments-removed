@@ -304,13 +304,6 @@ projectDirectoryRootName
 ;
 prefs
 .
-projectDirectoryRootFullName
-=
-"
-"
-;
-prefs
-.
 expressions
 =
 [
