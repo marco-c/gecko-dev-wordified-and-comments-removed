@@ -8678,6 +8678,9 @@ filterFunc
 (
 e
 environment
+this
+.
+identifier
 )
 )
 ;
