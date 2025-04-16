@@ -2090,7 +2090,7 @@ com
 expiry_version
 :
 "
-140
+147
 "
 products
 :
@@ -2130,6 +2130,7 @@ bug_numbers
 1861295
 1912166
 1917859
+1958149
 ]
 release_channel_collection
 :
