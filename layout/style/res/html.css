@@ -4236,6 +4236,13 @@ video
 caption
 -
 box
+:
+-
+moz
+-
+native
+-
+anonymous
 {
 width
 :
@@ -4250,6 +4257,12 @@ height
 position
 :
 relative
+;
+pointer
+-
+events
+:
+none
 ;
 }
 /
