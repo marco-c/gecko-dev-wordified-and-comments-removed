@@ -633,6 +633,8 @@ block
 :
 shell
 curl
+-
+L
 https
 :
 /

@@ -804,6 +804,8 @@ block
 :
 shell
 curl
+-
+L
 https
 :
 /
@@ -935,6 +937,8 @@ block
 :
 shell
 curl
+-
+L
 https
 :
 /
