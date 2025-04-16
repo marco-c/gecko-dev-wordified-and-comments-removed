@@ -36,8 +36,7 @@ EvaluateMediaQueriesAndReportChanges
 UpdateAnimationsAndSendEvents
 FullscreenSteps
 AnimationFrameCallbacks
-UpdateContentRelevancy
-ResizeObservers
+Layout
 ViewTransitionOperations
 UpdateIntersectionObservations
 Paint
@@ -93,11 +92,7 @@ AnimationFrameCallbacks
 RenderingPhase
 :
 :
-UpdateContentRelevancy
-RenderingPhase
-:
-:
-ResizeObservers
+Layout
 RenderingPhase
 :
 :

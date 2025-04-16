@@ -235,7 +235,7 @@ SetNeedStyleFlush
 (
 )
 ;
-ObserveStyleFlushes
+ScheduleFlush
 (
 )
 ;
@@ -252,7 +252,7 @@ SetNeedLayoutFlush
 (
 )
 ;
-ObserveStyleFlushes
+ScheduleFlush
 (
 )
 ;
