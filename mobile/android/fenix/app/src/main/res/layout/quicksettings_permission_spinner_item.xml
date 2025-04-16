@@ -173,7 +173,7 @@ textColor
 =
 "
 ?
-accentUsedOnDarkBackground
+textPrimary
 "
 tools
 :
