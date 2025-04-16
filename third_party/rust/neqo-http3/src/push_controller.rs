@@ -244,9 +244,10 @@ first_push_id
 )
 )
 .
-unwrap
+ok
 (
 )
+?
 ;
 if
 inx
@@ -485,8 +486,14 @@ count
 )
 )
 .
-unwrap
+expect
 (
+"
+usize
+fits
+in
+u64
+"
 )
 }
 pub

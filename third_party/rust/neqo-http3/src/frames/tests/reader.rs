@@ -177,9 +177,10 @@ stream_id
 v
 )
 .
-unwrap
+ok
 (
 )
+?
 ;
 let
 out
@@ -249,9 +250,10 @@ stream_id
 )
 )
 .
-unwrap
+ok
 (
 )
+?
 ;
 assert
 !
@@ -1741,7 +1743,6 @@ is_none
 ;
 }
 }
-;
 }
 #
 [

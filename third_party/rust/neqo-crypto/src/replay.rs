@@ -124,16 +124,6 @@ SSLAntiReplayContext
 SSL_ReleaseAntiReplayContext
 )
 ;
-#
-[
-allow
-(
-clippy
-:
-:
-module_name_repetitions
-)
-]
 pub
 struct
 AntiReplay

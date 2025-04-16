@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-module_name_repetitions
-)
-]
 use
 std
 :
@@ -932,7 +921,6 @@ Error
 NotEnoughData
 )
 }
-;
 }
 Ok
 (

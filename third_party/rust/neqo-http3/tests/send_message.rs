@@ -1,3 +1,11 @@
+#
+!
+[
+cfg
+(
+test
+)
+]
 use
 std
 :

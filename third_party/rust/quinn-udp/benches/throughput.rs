@@ -29,9 +29,9 @@ criterion
 :
 :
 {
+Criterion
 criterion_group
 criterion_main
-Criterion
 }
 ;
 use
@@ -54,10 +54,10 @@ quinn_udp
 :
 :
 {
+BATCH_SIZE
 RecvMeta
 Transmit
 UdpSocketState
-BATCH_SIZE
 }
 ;
 pub

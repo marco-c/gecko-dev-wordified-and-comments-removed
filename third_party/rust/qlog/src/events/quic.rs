@@ -71,6 +71,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 #
@@ -116,6 +117,10 @@ rename
 OneRtt
 Retry
 VersionNegotiation
+#
+[
+default
+]
 Unknown
 }
 #
@@ -166,6 +171,7 @@ Deserialize
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -1144,6 +1150,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 #
@@ -1183,6 +1190,10 @@ ConnectionClose
 ApplicationClose
 HandshakeDone
 Datagram
+#
+[
+default
+]
 Unknown
 }
 #
@@ -1604,6 +1615,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -1655,6 +1667,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -1706,6 +1719,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -1866,6 +1880,38 @@ Option
 <
 PreferredAddress
 >
+pub
+unknown_parameters
+:
+Vec
+<
+UnknownTransportParameter
+>
+}
+#
+[
+derive
+(
+Serialize
+Deserialize
+Clone
+PartialEq
+Eq
+Debug
+)
+]
+pub
+struct
+UnknownTransportParameter
+{
+pub
+id
+:
+u64
+pub
+value
+:
+Bytes
 }
 #
 [
@@ -1884,6 +1930,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -1978,6 +2025,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2029,6 +2077,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2080,6 +2129,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2110,6 +2160,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2199,6 +2250,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2300,6 +2352,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2359,6 +2412,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2411,6 +2465,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2504,6 +2559,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2542,6 +2598,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2607,6 +2664,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2693,6 +2751,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2787,6 +2846,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub
@@ -2876,6 +2936,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub
@@ -2923,6 +2984,7 @@ Deserialize
 Clone
 PartialEq
 Debug
+Default
 )
 ]
 pub

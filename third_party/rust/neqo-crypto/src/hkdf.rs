@@ -344,6 +344,7 @@ wrap
 (
 buf
 )
+?
 null_mut
 (
 )

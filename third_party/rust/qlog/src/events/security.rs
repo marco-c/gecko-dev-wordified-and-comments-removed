@@ -26,6 +26,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 #
@@ -95,6 +96,11 @@ client_1rtt_secret
 )
 ]
 Client1RttSecret
+#
+[
+default
+]
+Unknown
 }
 #
 [
@@ -144,6 +150,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub

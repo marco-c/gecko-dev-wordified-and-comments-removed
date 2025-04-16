@@ -358,6 +358,7 @@ derive
 Debug
 Copy
 Clone
+Default
 )
 ]
 pub
@@ -365,6 +366,10 @@ enum
 CongestionControlAlgorithm
 {
 NewReno
+#
+[
+default
+]
 Cubic
 }
 impl

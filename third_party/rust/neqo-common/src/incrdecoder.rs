@@ -143,10 +143,7 @@ decode_n
 (
 amount
 )
-.
-unwrap
-(
-)
+?
 ;
 *
 r
@@ -421,10 +418,7 @@ decode
 (
 amount
 )
-.
-unwrap
-(
-)
+?
 ;
 self
 .

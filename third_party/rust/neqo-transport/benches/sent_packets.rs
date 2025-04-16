@@ -18,12 +18,6 @@ Criterion
 }
 ;
 use
-neqo_common
-:
-:
-IpTosEcn
-;
-use
 neqo_transport
 :
 :
@@ -103,12 +97,6 @@ PacketNumber
 from
 (
 i
-)
-IpTosEcn
-:
-:
-default
-(
 )
 now
 true

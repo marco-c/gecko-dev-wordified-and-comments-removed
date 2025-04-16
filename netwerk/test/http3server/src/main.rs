@@ -1061,6 +1061,7 @@ Option
 Datagram
 <
 &
+mut
 [
 u8
 ]
@@ -4555,6 +4556,7 @@ Option
 Datagram
 <
 &
+mut
 [
 u8
 ]
@@ -6222,6 +6224,7 @@ Option
 Datagram
 <
 &
+mut
 [
 u8
 ]
@@ -7120,6 +7123,7 @@ Option
 Datagram
 <
 &
+mut
 [
 u8
 ]

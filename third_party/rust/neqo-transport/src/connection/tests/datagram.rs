@@ -72,7 +72,7 @@ OutgoingDatagramOutcome
 frame
 :
 :
-FRAME_TYPE_DATAGRAM
+FrameType
 packet
 :
 :
@@ -297,7 +297,10 @@ builder
 .
 encode_varint
 (
-FRAME_TYPE_DATAGRAM
+FrameType
+:
+:
+Datagram
 )
 ;
 builder

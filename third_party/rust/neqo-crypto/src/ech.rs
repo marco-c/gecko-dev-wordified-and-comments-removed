@@ -541,6 +541,7 @@ wrap
 &
 params
 )
+?
 ;
 let
 insensitive_secret_ptr

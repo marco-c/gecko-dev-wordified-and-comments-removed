@@ -226,7 +226,7 @@ mod
 server
 ;
 mod
-shuffle
+sni
 ;
 mod
 stats
@@ -315,16 +315,13 @@ recv_stream
 :
 {
 RecvStreamStats
-RECV_BUFFER_SIZE
+INITIAL_RECV_WINDOW_SIZE
 }
 send_stream
 :
 :
-{
 SendStreamStats
-SEND_BUFFER_SIZE
-}
-shuffle
+sni
 :
 :
 find_sni
@@ -421,7 +418,6 @@ AckedUnsentPacket
 ConnectionIdLimitExceeded
 ConnectionIdsExhausted
 ConnectionState
-DecodingFrame
 DecryptError
 DisabledVersion
 IdleTimeout
@@ -437,7 +433,7 @@ KeysDiscarded
 crypto
 :
 :
-CryptoSpace
+Epoch
 )
 KeysExhausted
 KeysPending
@@ -445,7 +441,7 @@ KeysPending
 crypto
 :
 :
-CryptoSpace
+Epoch
 )
 KeyUpdateBlocked
 NoAvailablePath
@@ -468,6 +464,7 @@ UnknownConnectionId
 UnknownFrameType
 VersionNegotiation
 WrongRole
+UnknownTransportParameter
 }
 impl
 Error
