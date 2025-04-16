@@ -69,9 +69,9 @@ include
 "
 mozilla
 /
-dom
+uniffi
 /
-UniFFICall
+Call
 .
 h
 "
@@ -80,9 +80,9 @@ include
 "
 mozilla
 /
-dom
+uniffi
 /
-UniFFICallbacks
+Callbacks
 .
 h
 "
