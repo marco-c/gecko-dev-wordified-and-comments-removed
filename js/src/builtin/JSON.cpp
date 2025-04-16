@@ -2696,6 +2696,7 @@ isDataDescriptor
 }
 #
 endif
+{
 RootedValue
 objValue
 (
@@ -2724,6 +2725,7 @@ outputValue
 return
 false
 ;
+}
 }
 if
 (
