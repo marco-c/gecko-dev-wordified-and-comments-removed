@@ -150,6 +150,17 @@ Bug
 Bug
 1869961
 ]
+support
+-
+files
+=
+[
+"
+browser_about_logging_server
+.
+sjs
+"
+]
 [
 "
 browser_about_networking
