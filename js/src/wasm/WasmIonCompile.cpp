@@ -848,6 +848,9 @@ OptimizationLevel
 :
 Wasm
 )
+codeMeta
+.
+types
 )
 loopDepth_
 (
