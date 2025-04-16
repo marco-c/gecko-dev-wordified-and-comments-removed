@@ -2058,6 +2058,12 @@ topType
 )
 const
 ;
+RefType
+bottomType
+(
+)
+const
+;
 static
 RefType
 leastUpperBound

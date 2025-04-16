@@ -34786,6 +34786,12 @@ New
 alloc
 (
 )
+wasm
+:
+:
+MaybeRefType
+(
+)
 )
 ;
 break
