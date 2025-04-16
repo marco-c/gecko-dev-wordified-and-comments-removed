@@ -13,14 +13,14 @@ appdir
 "
 browser
 "
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android
