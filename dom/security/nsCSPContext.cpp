@@ -10325,8 +10325,6 @@ policyString
 reportOnly
 deliveredViaMetaTag
 hasRequireTrustedTypesForDirective
-{
-}
 )
 )
 ;
@@ -10727,20 +10725,6 @@ toString
 policyString
 )
 ;
-nsTArray
-<
-nsString
->
-trustedTypesDirectiveExpressions
-;
-policy
--
->
-getTrustedTypesDirectiveExpressions
-(
-trustedTypesDirectiveExpressions
-)
-;
 aPolicies
 .
 AppendElement
@@ -10766,7 +10750,6 @@ policy
 hasRequireTrustedTypesForDirective
 (
 )
-trustedTypesDirectiveExpressions
 )
 )
 ;
