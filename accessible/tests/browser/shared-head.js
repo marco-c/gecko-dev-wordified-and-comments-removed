@@ -2379,6 +2379,13 @@ onContentDocLoad
 )
 ;
 }
+docAccessible
+.
+QueryInterface
+(
+nsIAccessibleDocument
+)
+;
 let
 iframeDocAccessible
 ;
@@ -2422,6 +2429,13 @@ DEFAULT_IFRAME_ID
 )
 .
 firstChild
+;
+iframeDocAccessible
+.
+QueryInterface
+(
+nsIAccessibleDocument
+)
 ;
 }
 }
