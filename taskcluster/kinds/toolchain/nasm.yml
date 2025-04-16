@@ -144,9 +144,9 @@ nasm
 -
 2
 .
-15
+16
 .
-05
+03
 toolchain
 :
 -
@@ -165,7 +165,8 @@ description
 :
 "
 nasm
-macosx64
+macos
+x64
 build
 "
 attributes
@@ -208,9 +209,9 @@ nasm
 -
 2
 .
-15
+16
 .
-05
+03
 toolchain
 :
 -
@@ -235,7 +236,8 @@ description
 :
 "
 nasm
-macosx64
+macos
+aarch64
 build
 "
 attributes
@@ -280,9 +282,9 @@ nasm
 -
 2
 .
-14
+16
 .
-02
+03
 toolchain
 :
 -
@@ -348,9 +350,9 @@ nasm
 -
 2
 .
-15
+16
 .
-05
+03
 toolchain
 :
 -
