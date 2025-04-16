@@ -24405,10 +24405,6 @@ m
 [
 0
 ]
-.
-strip
-(
-)
             
 self
 .
@@ -24436,6 +24432,10 @@ for
 p
 in
 prefs
+.
+strip
+(
+)
 .
 split
 (
