@@ -481,6 +481,17 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+eval
+/
+browser
+.
+toml
+"
 ]
 if
 CONFIG

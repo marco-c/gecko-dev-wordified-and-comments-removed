@@ -1067,6 +1067,14 @@ nsAString
 aPolicyStr
 )
 ;
+bool
+CSP_IsBrowserXHTML
+(
+nsIURI
+*
+aURI
+)
+;
 class
 nsCSPBaseSrc
 {
