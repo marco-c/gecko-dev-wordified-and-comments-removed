@@ -216,13 +216,10 @@ FromOrigin
 (
 aOriginMetadata
 )
-Nullable
-<
-Client
+ClientStorageScope
 :
 :
-Type
->
+CreateFromNull
 (
 )
 true

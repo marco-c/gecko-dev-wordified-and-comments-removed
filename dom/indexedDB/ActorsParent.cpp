@@ -57749,13 +57749,10 @@ OriginScope
 FromNull
 (
 )
-Nullable
-<
-Client
+ClientStorageScope
 :
 :
-Type
->
+CreateFromClient
 (
 Client
 :
