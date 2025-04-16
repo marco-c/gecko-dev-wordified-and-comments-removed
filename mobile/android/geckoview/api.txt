@@ -3170,14 +3170,6 @@ getFirstPaintCallback
 method
 public
 void
-onPipModeChanged
-(
-boolean
-)
-;
-method
-public
-void
 removeDrawCallback
 (
 NonNull
