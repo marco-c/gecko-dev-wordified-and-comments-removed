@@ -735,6 +735,11 @@ testWasmMasm
 cpp
 "
 "
+testWasmRefSubtypes
+.
+cpp
+"
+"
 testWasmReturnCalls
 .
 cpp
