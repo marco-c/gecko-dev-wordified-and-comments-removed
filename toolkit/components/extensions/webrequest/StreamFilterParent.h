@@ -628,6 +628,11 @@ mDisconnectedByOnStartRequest
 false
 ;
 bool
+mDisconnectedByFinishDisconnect
+=
+false
+;
+bool
 mBeforeOnStartRequest
 =
 true

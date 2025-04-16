@@ -1745,6 +1745,13 @@ FUNC
 self
 -
 >
+mDisconnectedByFinishDisconnect
+=
+true
+;
+self
+-
+>
 FlushBufferedData
 (
 )
@@ -3130,6 +3137,9 @@ AssertIsIOThread
 if
 (
 mDisconnectedByOnStartRequest
+|
+|
+mDisconnectedByFinishDisconnect
 |
 |
 mState
