@@ -82,8 +82,6 @@ import
 mozcrash
 import
 mozfile
-import
-six
 from
 mozlog
 import
@@ -604,10 +602,6 @@ framework
 for
 i
 in
-six
-.
-moves
-.
 range
 (
 test_config

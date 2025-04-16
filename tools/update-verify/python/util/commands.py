@@ -16,8 +16,6 @@ import
 subprocess
 import
 time
-import
-six
 log
 =
 logging
@@ -107,11 +105,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
         

@@ -2056,9 +2056,9 @@ not
 isinstance
 (
 path
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -9827,11 +9827,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 env
+.
+items
+(
 )
 :
                 
@@ -10212,11 +10211,10 @@ for
 name
 path
 in
-six
-.
-iteritems
-(
 exe
+.
+items
+(
 )
 :
                 

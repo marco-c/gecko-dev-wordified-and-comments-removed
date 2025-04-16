@@ -5294,11 +5294,10 @@ for
 path
 tests
 in
-six
-.
-iteritems
-(
 test_data
+.
+items
+(
 )
 :
             
@@ -5480,11 +5479,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 TEST_MANIFESTS
+.
+items
+(
 )
         
 }
@@ -9609,11 +9607,10 @@ for
 manifest
 data
 in
-six
-.
-iteritems
-(
 manifests
+.
+items
+(
 )
 :
             
@@ -10525,11 +10522,10 @@ for
 suite
 v
 in
-six
-.
-iteritems
-(
 TEST_SUITES
+.
+items
+(
 )
 :
                 

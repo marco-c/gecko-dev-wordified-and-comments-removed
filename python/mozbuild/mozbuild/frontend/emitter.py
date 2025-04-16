@@ -22,8 +22,6 @@ path
 as
 mozpath
 import
-six
-import
 toml
 from
 mach
@@ -3600,11 +3598,10 @@ for
 dep_crate_name
 values
 in
-six
-.
-iteritems
-(
 dependencies
+.
+items
+(
 )
 :
             
@@ -3613,12 +3610,8 @@ isinstance
 (
 values
 (
-six
-.
-binary_type
-six
-.
-text_type
+bytes
+str
 )
 )
 :
@@ -4016,10 +4009,6 @@ dependencies
 =
 set
 (
-six
-.
-iterkeys
-(
 config
 .
 get
@@ -4030,6 +4019,9 @@ dependencies
 {
 }
 )
+.
+keys
+(
 )
 )
         
@@ -6794,11 +6786,10 @@ for
 f
 flags
 in
-six
-.
-iteritems
-(
 all_flags
+.
+items
+(
 )
 if
 flags
@@ -6955,11 +6946,10 @@ for
 suffix
 alternatives
 in
-six
-.
-iteritems
-(
 suffix_map
+.
+items
+(
 )
 :
             
@@ -7495,11 +7485,10 @@ flags
 in
 sorted
 (
-six
-.
-iteritems
-(
 all_flags
+.
+items
+(
 )
 )
 :
@@ -10757,9 +10746,7 @@ script
 process_define_file
 "
                 
-six
-.
-text_type
+str
 (
 path
 )

@@ -4,8 +4,6 @@ import
 os
 import
 sys
-import
-six
 from
 mach
 .
@@ -296,11 +294,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
         

@@ -11,8 +11,6 @@ import
 mozversioncontrol
 import
 requests
-import
-six
 try
 :
     
@@ -768,11 +766,10 @@ for
 repo_path
 index_name
 in
-six
-.
-iteritems
-(
 repos
+.
+items
+(
 )
 :
             
@@ -1234,11 +1231,10 @@ content
 for
 paths
 in
-six
-.
-itervalues
-(
 test_paths
+.
+values
+(
 )
 :
         

@@ -2,8 +2,6 @@ import
 os
 import
 sys
-import
-six
 class
 NullTerminal
 (
@@ -98,9 +96,7 @@ False
 class
 NullCallableString
 (
-six
-.
-text_type
+str
 )
 :
         
@@ -127,9 +123,7 @@ cls
             
 new
 =
-six
-.
-text_type
+str
 .
 __new__
 (

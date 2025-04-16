@@ -8,8 +8,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozunit
 import
@@ -2868,11 +2866,10 @@ validation
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-self
 BuildReaderError
 "
 Invalid
@@ -2907,12 +2904,11 @@ validation
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 BuildReaderError
 "
 A
@@ -3402,15 +3398,12 @@ error
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 BuildReaderError
-            
 "
 DEFINES
 may
@@ -3735,12 +3728,10 @@ nasm
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
 SandboxValidationError
 "
 nasm
@@ -3748,7 +3739,6 @@ is
 not
 available
 "
-        
 )
 :
             
@@ -4533,12 +4523,10 @@ generated
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -4621,12 +4609,10 @@ files
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -4921,12 +4907,11 @@ script
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Script
@@ -4975,12 +4960,11 @@ inputs
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Input
@@ -5031,15 +5015,12 @@ script
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 Script
 for
@@ -5333,12 +5314,11 @@ missing
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 File
@@ -5407,12 +5387,10 @@ generated
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -5760,12 +5738,10 @@ root
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -6556,11 +6532,10 @@ manifest
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-self
 BuildReaderError
 "
 Missing
@@ -6615,11 +6590,10 @@ empty
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-self
 SandboxValidationError
 "
 Empty
@@ -6682,11 +6656,10 @@ support
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-self
 SandboxValidationError
 "
 Empty
@@ -6751,12 +6724,10 @@ dupes
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -6767,9 +6738,6 @@ js
 appears
 multiple
 times
-"
-            
-"
 in
 a
 test
@@ -7195,15 +7163,12 @@ missing
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 entry
 in
@@ -8248,15 +8213,12 @@ generated
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 entry
 in
@@ -8467,15 +8429,12 @@ file
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 lists
 test
@@ -8551,12 +8510,11 @@ unfiltered
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 lists
@@ -8958,12 +8916,10 @@ srcdir
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -8977,9 +8933,6 @@ LOCAL_INCLUDES
 resolves
 to
 the
-"
-            
-"
 topsrcdir
 or
 topobjdir
@@ -9011,12 +8964,10 @@ objdir
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -9030,9 +8981,6 @@ LOCAL_INCLUDES
 resolves
 to
 the
-"
-            
-"
 topsrcdir
 or
 topobjdir
@@ -9088,15 +9036,12 @@ filename
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 Path
 specified
@@ -9440,12 +9385,10 @@ self
 :
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
 SandboxValidationError
 "
 limited
@@ -9453,7 +9396,6 @@ to
 one
 value
 "
-        
 )
 :
             
@@ -9503,17 +9445,14 @@ rejected
 "
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 XPIDL_MODULE
-"
-"
 cannot
 be
 defined
@@ -9567,19 +9506,16 @@ rejected
 "
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 File
 .
 *
-"
-"
 from
 XPIDL_SOURCES
 does
@@ -9635,21 +9571,16 @@ rejected
 "
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 Path
 specified
 in
-"
-"
 LOCAL_INCLUDES
 does
 not
@@ -12431,9 +12362,7 @@ self
 .
 assertTrue
 (
-six
-.
-text_type
+str
 (
 f
 )
@@ -12465,12 +12394,10 @@ errors
 "
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -12478,8 +12405,6 @@ SandboxValidationError
 File
 listed
 in
-"
-"
 FINAL_TARGET_PP_FILES
 does
 not
@@ -12558,12 +12483,10 @@ srcdir
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -12733,9 +12656,7 @@ self
 .
 assertTrue
 (
-six
-.
-text_type
+str
 (
 f
 )
@@ -12802,12 +12723,10 @@ us
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -12830,9 +12749,6 @@ en
 US
 /
 :
-"
-            
-"
 foo
 .
 js
@@ -12984,9 +12900,7 @@ self
 .
 assertTrue
 (
-six
-.
-text_type
+str
 (
 f
 )
@@ -13196,12 +13110,10 @@ toml
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
 SandboxValidationError
 "
 No
@@ -13211,7 +13123,6 @@ toml
 file
 found
 "
-        
 )
 :
             
@@ -13269,15 +13180,12 @@ mismatch
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 library
 .
@@ -13352,12 +13260,11 @@ section
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Cargo
@@ -13436,12 +13343,11 @@ type
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 crate
@@ -13683,12 +13589,11 @@ msvc
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Cannot
@@ -13881,15 +13786,12 @@ features
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
-            
 SandboxValidationError
-            
 "
 features
 for
@@ -13956,12 +13858,10 @@ toml
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
 SandboxValidationError
 "
 No
@@ -13971,7 +13871,6 @@ toml
 file
 found
 "
-        
 )
 :
             
@@ -14029,12 +13928,10 @@ toml
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
 SandboxValidationError
 "
 No
@@ -14044,7 +13941,6 @@ toml
 file
 found
 "
-        
 )
 :
             
@@ -14106,12 +14002,11 @@ name
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Cannot
@@ -14186,12 +14081,11 @@ name
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 Cannot
@@ -14777,12 +14671,11 @@ hack
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
             
-self
 SandboxValidationError
 "
 doesn
@@ -14844,12 +14737,10 @@ hack
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             
@@ -15305,12 +15196,10 @@ generated
 )
         
 with
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 SandboxValidationError
             

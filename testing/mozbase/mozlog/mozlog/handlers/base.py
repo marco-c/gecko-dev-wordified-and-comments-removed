@@ -604,9 +604,7 @@ if
 isinstance
 (
 formatted
-six
-.
-text_type
+str
 )
 :
                     

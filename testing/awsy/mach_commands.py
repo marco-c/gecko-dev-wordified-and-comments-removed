@@ -1103,11 +1103,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
         

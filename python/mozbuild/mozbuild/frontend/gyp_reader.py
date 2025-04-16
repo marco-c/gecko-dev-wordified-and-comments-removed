@@ -2209,9 +2209,9 @@ if
 isinstance
 (
 f
-six
-.
-string_types
+(
+str
+)
 )
 :
                             

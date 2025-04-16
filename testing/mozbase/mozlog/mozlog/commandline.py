@@ -10,8 +10,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 .
 import
@@ -1057,11 +1055,10 @@ cls
 help_str
 )
 in
-six
-.
-iteritems
-(
 log_formatters
+.
+items
+(
 )
 :
         
@@ -1111,11 +1108,10 @@ formatters_
 action
 )
 in
-six
-.
-iteritems
-(
 fmt_options
+.
+items
+(
 )
 :
             
@@ -1387,11 +1383,10 @@ for
 fmt
 streams
 in
-six
-.
-iteritems
-(
 formatters
+.
+items
+(
 )
 :
         
@@ -1420,14 +1415,13 @@ for
 option
 value
 in
-six
-.
-iteritems
-(
 formatter_options
 [
 fmt
 ]
+.
+items
+(
 )
 :
             
@@ -1873,11 +1867,10 @@ for
 name
 values
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
         
@@ -1969,9 +1962,9 @@ if
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
 :
                         
@@ -2060,11 +2053,10 @@ for
 name
 value
 in
-six
-.
-iteritems
-(
 defaults
+.
+items
+(
 )
 :
             
@@ -2100,11 +2092,10 @@ for
 name
 value
 in
-six
-.
-iteritems
-(
 defaults
+.
+items
+(
 )
 :
             

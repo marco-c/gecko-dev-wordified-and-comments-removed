@@ -95,8 +95,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
@@ -1156,13 +1154,12 @@ for
 define
 value
 in
-six
-.
-iteritems
-(
 self
 .
 defines
+.
+items
+(
 )
 :
             

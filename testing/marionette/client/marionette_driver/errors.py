@@ -155,9 +155,7 @@ self
 .
 _message
 =
-six
-.
-text_type
+str
 (
 message
 )
@@ -331,9 +329,7 @@ tb
 )
         
 return
-six
-.
-text_type
+str
 (
 msg
 )

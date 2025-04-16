@@ -30,8 +30,6 @@ from
 collections
 import
 namedtuple
-import
-six
 from
 ply
 import
@@ -1916,13 +1914,15 @@ self
 :
         
 return
-six
-.
-itervalues
+iter
 (
 self
 .
 _d
+.
+values
+(
+)
 )
     
 def

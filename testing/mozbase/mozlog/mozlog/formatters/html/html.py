@@ -1412,12 +1412,8 @@ isinstance
 (
 content
 (
-six
-.
-text_type
-six
-.
-binary_type
+str
+bytes
 )
 )
 :
@@ -1436,9 +1432,7 @@ not
 isinstance
 (
 content
-six
-.
-text_type
+str
 )
 :
                             
@@ -1459,9 +1453,7 @@ if
 isinstance
 (
 content
-six
-.
-text_type
+str
 )
 :
                         
@@ -1471,9 +1463,7 @@ True
                         
 content_bytes
 =
-six
-.
-text_type
+str
 (
 content
 )
@@ -2123,13 +2113,12 @@ seconds
                             
 sum
 (
-six
-.
-itervalues
-(
 self
 .
 test_count
+.
+values
+(
 )
 )
                             

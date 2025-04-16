@@ -7,8 +7,6 @@ formatlog
 import
 logmerge
 import
-six
-import
 unstable
 def
 get_parser
@@ -104,11 +102,10 @@ parser_func
 main_func
 )
 in
-six
-.
-iteritems
-(
 commands
+.
+items
+(
 )
 :
         

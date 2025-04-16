@@ -12,8 +12,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
@@ -1215,13 +1213,12 @@ for
 target
 entries
 in
-six
-.
-iteritems
-(
 self
 .
 _manifest_entries
+.
+items
+(
 )
 :
             
@@ -1321,13 +1318,12 @@ deps
 in
 sorted
 (
-six
-.
-iteritems
-(
 self
 .
 _dependencies
+.
+items
+(
 )
 )
 :
@@ -1400,13 +1396,12 @@ deps
 in
 sorted
 (
-six
-.
-iteritems
-(
 self
 .
 _l10n_dependencies
+.
+items
+(
 )
 )
 :
@@ -1560,13 +1555,12 @@ for
 base
 install_manifest
 in
-six
-.
-iteritems
-(
 self
 .
 _install_manifests
+.
+items
+(
 )
 :
             
@@ -1635,13 +1629,12 @@ for
 base
 install_manifest
 in
-six
-.
-iteritems
-(
 self
 .
 _install_manifests
+.
+items
+(
 )
 :
             

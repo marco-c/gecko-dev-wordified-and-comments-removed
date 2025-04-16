@@ -33,8 +33,6 @@ BYTE
 DWORD
 HANDLE
 LARGE_INTEGER
-import
-six
 LPVOID
 =
 c_void_p
@@ -393,9 +391,9 @@ if
 isinstance
 (
 _class
-six
-.
-string_types
+(
+str
+)
 )
 :
             

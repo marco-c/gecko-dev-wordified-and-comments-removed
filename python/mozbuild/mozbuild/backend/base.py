@@ -19,8 +19,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mach
 .
@@ -1942,15 +1940,14 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 obj
 .
 config
 .
 substs
+.
+items
+(
 )
             
 }

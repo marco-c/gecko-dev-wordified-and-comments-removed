@@ -2,8 +2,6 @@ import
 codecs
 import
 re
-import
-six
 class
 DotProperties
 :
@@ -298,13 +296,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 _properties
+.
+items
+(
 )
 :
             
@@ -503,13 +500,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 _properties
+.
+items
+(
 )
             
 if

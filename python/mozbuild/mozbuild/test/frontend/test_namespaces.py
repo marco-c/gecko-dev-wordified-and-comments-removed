@@ -1,7 +1,5 @@
 import
 unittest
-import
-six
 from
 mozunit
 import
@@ -77,9 +75,7 @@ not
 isinstance
 (
 value
-six
-.
-text_type
+str
 )
 :
             
@@ -140,9 +136,7 @@ self
 value
 =
 =
-six
-.
-text_type
+str
 (
 other
 )
@@ -160,9 +154,7 @@ self
 .
 value
 <
-six
-.
-text_type
+str
 (
 other
 )
@@ -181,9 +173,7 @@ self
 value
 <
 =
-six
-.
-text_type
+str
 (
 other
 )
@@ -201,9 +191,7 @@ self
 .
 value
 >
-six
-.
-text_type
+str
 (
 other
 )
@@ -222,9 +210,7 @@ self
 value
 >
 =
-six
-.
-text_type
+str
 (
 other
 )
@@ -252,12 +238,8 @@ HOGE
 "
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+str
+str
 None
 )
     
@@ -267,9 +249,7 @@ FUGA
 :
 (
 Fuga
-six
-.
-text_type
+str
 None
 )
     
@@ -279,9 +259,7 @@ PIYO
 :
 (
 Piyo
-six
-.
-text_type
+str
 None
 )
     
@@ -666,9 +644,7 @@ e
 [
 4
 ]
-six
-.
-text_type
+str
 )
     
 def
@@ -811,9 +787,7 @@ e
 [
 4
 ]
-six
-.
-text_type
+str
 )
         
 ns
@@ -1003,9 +977,7 @@ e
 [
 4
 ]
-six
-.
-text_type
+str
 )
         
 ns

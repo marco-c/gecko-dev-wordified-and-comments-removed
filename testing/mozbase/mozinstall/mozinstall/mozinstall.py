@@ -30,7 +30,6 @@ from
 six
 import
 PY3
-reraise
 try
 :
     
@@ -620,10 +619,11 @@ val
 )
 )
                 
-reraise
-(
-InvalidSource
+raise
 error
+.
+with_traceback
+(
 tb
 )
         
@@ -877,17 +877,19 @@ exc
 )
 )
             
-reraise
-(
-InstallError
+raise
 error
+.
+with_traceback
+(
 trbk
 )
         
-reraise
-(
-cls
+raise
 exc
+.
+with_traceback
+(
 trbk
 )
     
@@ -1505,10 +1507,11 @@ ex
                 
 )
                 
-reraise
-(
-UninstallError
+raise
 error
+.
+with_traceback
+(
 trbk
 )
             

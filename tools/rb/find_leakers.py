@@ -1,7 +1,5 @@
 import
 sys
-import
-six
 def
 print_output
 (
@@ -36,11 +34,10 @@ count
     
 )
 in
-six
-.
-iteritems
-(
 allocation
+.
+items
+(
 )
 :
         

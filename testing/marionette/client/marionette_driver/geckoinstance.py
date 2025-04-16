@@ -20,8 +20,6 @@ import
 deepcopy
 import
 mozversion
-import
-six
 from
 mozprofile
 import
@@ -31,10 +29,6 @@ mozrunner
 import
 FennecEmulatorRunner
 Runner
-from
-six
-import
-reraise
 from
 .
 import
@@ -1528,9 +1522,7 @@ if
 isinstance
 (
 profile_path
-six
-.
-string_types
+str
 )
 :
                 
@@ -2205,13 +2197,14 @@ keys
             
 )
             
-reraise
-(
-NotImplementedError
+raise
 NotImplementedError
 (
 msg
 )
+.
+with_traceback
+(
 tb
 )
         
@@ -3312,13 +3305,10 @@ exc_info
 (
 )
             
-reraise
-(
-                
-exc_cls
-                
+raise
 exc_cls
 (
+                
 "
 Error
 possibly
@@ -3337,10 +3327,12 @@ format
 (
 exc
 )
-)
-                
-tb
             
+)
+.
+with_traceback
+(
+tb
 )
         
 self

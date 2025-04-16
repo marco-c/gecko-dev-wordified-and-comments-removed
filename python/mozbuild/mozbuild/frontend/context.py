@@ -1980,9 +1980,7 @@ not
 isinstance
 (
 k
-six
-.
-text_type
+str
 )
 :
                 
@@ -2105,9 +2103,7 @@ None
 else
 TypedList
 (
-six
-.
-text_type
+str
 )
 (
 v
@@ -3572,29 +3568,26 @@ key
 if
 not
 (
-            
 isinstance
 (
 value
 list
 )
-            
 and
 all
 (
 isinstance
 (
 v
-six
-.
-string_types
+(
+str
+)
 )
 for
 v
 in
 value
 )
-        
 )
 :
             
@@ -5084,9 +5077,7 @@ class
 FinalTargetValue
 (
 ContextDerivedValue
-six
-.
-text_type
+str
 )
 :
     
@@ -5174,9 +5165,7 @@ DIST_SUBDIR
 ]
         
 return
-six
-.
-text_type
+str
 .
 __new__
 (
@@ -5510,9 +5499,7 @@ with_metaclass
 (
 PathMeta
 ContextDerivedValue
-six
-.
-text_type
+str
 )
 )
 :
@@ -5762,9 +5749,7 @@ full_path
 return
 op
 (
-six
-.
-text_type
+str
 (
 self
 )
@@ -7791,17 +7776,13 @@ BugzillaComponent
 "
 product
 "
-six
-.
-text_type
+str
 )
 (
 "
 component
 "
-six
-.
-text_type
+str
 )
 ]
 )
@@ -7816,9 +7797,7 @@ inclusive
 "
 TypedList
 (
-six
-.
-text_type
+str
 StrictOrderingOnAppendList
 )
 )
@@ -7829,9 +7808,7 @@ exclusive
 "
 TypedList
 (
-six
-.
-text_type
+str
 StrictOrderingOnAppendList
 )
 )
@@ -7846,9 +7823,7 @@ StrictOrderingOnAppendListWithFlagsFactory
 script
 "
 :
-six
-.
-text_type
+str
 "
 inputs
 "
@@ -9646,9 +9621,7 @@ RUST_TESTS
         
 TypedList
 (
-six
-.
-text_type
+str
 )
         
 list
@@ -9683,9 +9656,7 @@ RUST_TEST_FEATURES
         
 TypedList
 (
-six
-.
-text_type
+str
 )
         
 list
@@ -11811,13 +11782,9 @@ FINAL_LIBRARY
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12159,13 +12126,9 @@ HOST_LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12245,13 +12208,9 @@ LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12331,13 +12290,9 @@ SHARED_LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12381,13 +12336,9 @@ SANDBOXED_WASM_LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12418,13 +12369,9 @@ SHARED_LIBRARY_OUTPUT_CATEGORY
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12484,13 +12431,9 @@ RUST_LIBRARY_OUTPUT_CATEGORY
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12604,13 +12547,9 @@ STATIC_LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12851,9 +12790,7 @@ RCFILE
         
 Path
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12889,9 +12826,7 @@ RCINCLUDE
         
 Path
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12935,9 +12870,7 @@ DEFFILE
         
 Path
         
-six
-.
-text_type
+str
         
 "
 "
@@ -12977,9 +12910,7 @@ SYMBOLS_FILE
         
 Path
         
-six
-.
-text_type
+str
         
 "
 "
@@ -13145,13 +13076,9 @@ SONAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -13758,13 +13685,9 @@ PROGRAM
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -13816,13 +13739,9 @@ HOST_PROGRAM
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -14122,13 +14041,9 @@ XPIDL_MODULE
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -15041,13 +14956,9 @@ XPI_NAME
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -15103,13 +15014,9 @@ DIST_SUBDIR
 :
 (
         
-six
-.
-text_type
+str
         
-six
-.
-text_type
+str
         
 "
 "
@@ -15172,9 +15079,7 @@ FINAL_TARGET
         
 FinalTargetValue
         
-six
-.
-text_type
+str
         
 "
 "
@@ -15356,9 +15261,7 @@ dict
 input
 "
 :
-six
-.
-text_type
+str
                 
 "
 sandbox_vars

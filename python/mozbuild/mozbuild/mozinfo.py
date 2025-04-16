@@ -4,8 +4,6 @@ import
 os
 import
 re
-import
-six
 def
 build_dict
 (
@@ -1466,9 +1464,7 @@ if
 isinstance
 (
 file
-six
-.
-text_type
+str
 )
 :
         

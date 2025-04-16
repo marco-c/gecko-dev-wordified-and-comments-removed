@@ -14,8 +14,6 @@ import
 mozunit
 import
 pytest
-import
-six
 from
 talos
 .
@@ -2584,11 +2582,10 @@ for
 key
 val
 in
-six
-.
-iteritems
-(
 config
+.
+items
+(
 )
 if
 val

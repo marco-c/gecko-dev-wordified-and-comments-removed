@@ -39,10 +39,6 @@ mozcrash
 =
 None
 from
-six
-import
-reraise
-from
 .
 .
 application
@@ -704,13 +700,10 @@ as
 e
 :
                 
-reraise
-(
-                    
-RunnerNotStartedError
-                    
+raise
 RunnerNotStartedError
 (
+                    
 "
 Failed
 to
@@ -726,8 +719,11 @@ format
 (
 e
 )
+                
 )
-                    
+.
+with_traceback
+(
 sys
 .
 exc_info
@@ -736,7 +732,6 @@ exc_info
 [
 2
 ]
-                
 )
         
 self

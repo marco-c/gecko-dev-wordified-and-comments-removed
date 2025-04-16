@@ -2876,7 +2876,6 @@ testlines
 .
 append
 (
-                
 '
 [
 "
@@ -2892,9 +2891,9 @@ if
 isinstance
 (
 t
-six
-.
-string_types
+(
+str
+)
 )
 else
 t
@@ -2902,7 +2901,6 @@ t
 0
 ]
 )
-            
 )
             
 if

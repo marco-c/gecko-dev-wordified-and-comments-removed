@@ -240,11 +240,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 all_expected
+.
+items
+(
 )
 :
             
@@ -8187,11 +8186,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 all_expected
+.
+items
+(
 )
 :
             

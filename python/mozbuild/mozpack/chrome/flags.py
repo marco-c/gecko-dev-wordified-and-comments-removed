@@ -4,8 +4,6 @@ from
 collections
 import
 OrderedDict
-import
-six
 from
 packaging
 .
@@ -2061,11 +2059,10 @@ for
 name
 value
 in
-six
-.
-iteritems
-(
 filter
+.
+items
+(
 )
 :
             

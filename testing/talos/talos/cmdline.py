@@ -2,8 +2,6 @@ import
 argparse
 import
 os
-import
-six
 from
 mozlog
 .
@@ -154,15 +152,14 @@ description
 for
 test_class
 in
-six
-.
-itervalues
-(
 test
 .
 test_dict
 (
 )
+.
+values
+(
 )
         
 ]

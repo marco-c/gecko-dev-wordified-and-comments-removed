@@ -559,9 +559,9 @@ not
 isinstance
 (
 s
-six
-.
-string_types
+(
+str
+)
 )
 :
         
@@ -569,9 +569,7 @@ if
 isinstance
 (
 s
-six
-.
-binary_type
+bytes
 )
 :
             
@@ -587,9 +585,7 @@ else
 :
             
 return
-six
-.
-text_type
+str
 (
 s
 )
@@ -598,9 +594,7 @@ if
 isinstance
 (
 s
-six
-.
-binary_type
+bytes
 )
 :
         
@@ -2284,13 +2278,12 @@ i
 for
 i
 in
-six
-.
-iteritems
-(
 self
 .
 env
+.
+items
+(
 )
 )
 -
@@ -2309,13 +2302,12 @@ i
 for
 i
 in
-six
-.
-iteritems
-(
 os
 .
 environ
+.
+items
+(
 )
         
 )
@@ -4665,9 +4657,9 @@ if
 isinstance
 (
 line
-six
-.
-string_types
+(
+str
+)
 )
 or
 isinstance
@@ -10028,13 +10020,12 @@ for
 name
 proc
 in
-six
-.
-iteritems
-(
 self
 .
 nodeProc
+.
+items
+(
 )
 :
             

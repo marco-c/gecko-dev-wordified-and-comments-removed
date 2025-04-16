@@ -3691,15 +3691,14 @@ self
 .
 tiers
 =
-six
-.
-viewitems
-(
 monitor
 .
 tiers
 .
 tier_status
+.
+items
+(
 )
     
 def

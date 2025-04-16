@@ -78,9 +78,7 @@ locale
 "
 type
 =
-six
-.
-text_type
+str
 help
 =
 "
@@ -112,9 +110,7 @@ script
         
 type
 =
-six
-.
-text_type
+str
         
 help
 =
@@ -147,9 +143,7 @@ name
         
 type
 =
-six
-.
-text_type
+str
         
 help
 =
@@ -184,9 +178,7 @@ file
         
 type
 =
-six
-.
-text_type
+str
         
 help
 =
@@ -218,9 +210,7 @@ file
         
 type
 =
-six
-.
-text_type
+str
         
 help
 =
@@ -256,9 +246,7 @@ target
         
 type
 =
-six
-.
-text_type
+str
         
 help
 =

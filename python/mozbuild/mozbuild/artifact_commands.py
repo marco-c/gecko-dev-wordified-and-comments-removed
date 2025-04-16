@@ -20,8 +20,6 @@ gecko_taskgraph
 main
 import
 mozversioncontrol
-import
-six
 from
 mach
 .
@@ -2899,11 +2897,10 @@ record
 for
 record
 in
-six
-.
-itervalues
-(
 records
+.
+values
+(
 )
 :
         

@@ -14,8 +14,6 @@ multiprocessing
 pool
 import
 ThreadPool
-import
-six
 sys
 .
 path
@@ -1405,14 +1403,13 @@ for
 f
 info
 in
-six
-.
-iteritems
-(
 parse_checksums_file
 (
 c
 )
+.
+items
+(
 )
 :
                 

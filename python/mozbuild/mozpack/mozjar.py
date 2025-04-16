@@ -468,13 +468,12 @@ t
 for
 t
 in
-six
-.
-itervalues
-(
 self
 .
 STRUCT
+.
+values
+(
 )
 if
 t
@@ -626,13 +625,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+items
+(
 )
 :
             
@@ -762,13 +760,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+items
+(
 )
 :
             
@@ -972,13 +969,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+items
+(
 )
             
 if
@@ -995,13 +991,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+items
+(
 )
 :
             
@@ -1139,13 +1134,12 @@ for
 name
 type
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+items
+(
 )
 :
             
@@ -1279,13 +1273,15 @@ self
 :
         
 return
-six
-.
-iteritems
+iter
 (
 self
 .
 _values
+.
+items
+(
+)
 )
     
 def
@@ -2695,11 +2691,10 @@ compression
 for
 f
 in
-six
-.
-itervalues
-(
 entries
+.
+values
+(
 )
 )
     
@@ -2813,11 +2808,7 @@ cdir_offset
 for
 e
 in
-six
-.
-moves
-.
-xrange
+range
 (
 self
 .
@@ -3235,13 +3226,12 @@ jarReader
 for
 entry
 in
-six
-.
-itervalues
-(
 self
 .
 entries
+.
+values
+(
 )
 :
             
@@ -3899,13 +3889,12 @@ for
 entry
 content
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+values
+(
 )
 :
             
@@ -4121,13 +4110,12 @@ for
 entry
 _
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+values
+(
 )
 :
                 
@@ -4171,13 +4159,12 @@ for
 entry
 content
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+values
+(
 )
 :
             
@@ -4248,13 +4235,12 @@ for
 entry
 _
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+values
+(
 )
 :
                 
@@ -4621,12 +4607,10 @@ isinstance
 (
 data
 (
-six
-.
-binary_type
-six
-.
-string_types
+bytes
+(
+str
+)
 )
 )
 :

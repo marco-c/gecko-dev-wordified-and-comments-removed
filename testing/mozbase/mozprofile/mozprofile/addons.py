@@ -31,7 +31,6 @@ getLogger
 from
 six
 import
-reraise
 string_types
 _SALT
 =
@@ -1819,9 +1818,7 @@ as
 e
 :
             
-reraise
-(
-AddonFormatError
+raise
 AddonFormatError
 (
 str
@@ -1829,6 +1826,9 @@ str
 e
 )
 )
+.
+with_traceback
+(
 sys
 .
 exc_info
@@ -2138,9 +2138,7 @@ as
 e
 :
                 
-reraise
-(
-AddonFormatError
+raise
 AddonFormatError
 (
 str
@@ -2148,6 +2146,9 @@ str
 e
 )
 )
+.
+with_traceback
+(
 sys
 .
 exc_info

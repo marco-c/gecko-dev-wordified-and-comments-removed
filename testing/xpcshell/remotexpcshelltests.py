@@ -34,8 +34,6 @@ import
 runxpcshelltests
 as
 xpcshell
-import
-six
 from
 mozdevice
 import
@@ -3551,13 +3549,12 @@ for
 envkey
 envval
 in
-six
-.
-iteritems
-(
 self
 .
 env
+.
+items
+(
 )
 :
                 

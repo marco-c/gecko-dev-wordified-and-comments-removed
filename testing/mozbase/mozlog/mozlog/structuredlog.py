@@ -15,8 +15,6 @@ threading
 import
 Lock
 current_thread
-import
-six
 from
 .
 logtypes
@@ -1784,11 +1782,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 raw_data
+.
+items
+(
 )
 :
             

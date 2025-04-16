@@ -244,9 +244,7 @@ hexdigest
 class
 EmptyValue
 (
-six
-.
-text_type
+str
 )
 :
     
@@ -356,11 +354,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
             
@@ -3793,11 +3790,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
                 
@@ -5422,9 +5418,9 @@ not
 isinstance
 (
 v
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
@@ -7117,9 +7113,9 @@ not
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -7430,9 +7426,7 @@ pass
 class
 EnumString
 (
-six
-.
-text_type
+str
 )
 :
     
@@ -7704,9 +7698,7 @@ return
 "
     
 return
-six
-.
-text_type
+str
 (
 c
 .
@@ -7735,9 +7727,7 @@ if
 isinstance
 (
 value
-six
-.
-text_type
+str
 )
 :
         
@@ -7769,9 +7759,7 @@ if
 isinstance
 (
 value
-six
-.
-binary_type
+bytes
 )
 :
         

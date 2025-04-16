@@ -8,8 +8,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 mozharness
 .
@@ -1162,13 +1160,12 @@ opts
 _
 )
 in
-six
-.
-iteritems
-(
 self
 .
 known_try_arguments
+.
+items
+(
 )
 :
             
@@ -1327,14 +1324,13 @@ for
 arg
 value
 in
-six
-.
-iteritems
-(
 vars
 (
 args
 )
+.
+items
+(
 )
 :
             

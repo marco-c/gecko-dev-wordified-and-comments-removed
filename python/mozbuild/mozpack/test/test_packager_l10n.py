@@ -2,8 +2,6 @@ import
 unittest
 import
 mozunit
-import
-six
 from
 mozpack
 .
@@ -1301,11 +1299,10 @@ for
 p
 f
 in
-six
-.
-iteritems
-(
 repacked
+.
+items
+(
 )
 )
         

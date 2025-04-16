@@ -2,8 +2,6 @@ import
 json
 import
 os
-import
-six
 from
 mozunit
 import
@@ -365,11 +363,10 @@ topsrcdir
         
 ]
         
-six
+self
 .
 assertCountEqual
 (
-self
 compile_db
 expected_db
 )

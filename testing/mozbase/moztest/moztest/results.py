@@ -4,8 +4,6 @@ import
 time
 import
 mozinfo
-import
-six
 class
 TestContext
 (
@@ -368,11 +366,10 @@ value
 =
 frozenset
 (
-six
-.
-iteritems
-(
 value
+.
+items
+(
 )
 )
             
@@ -632,9 +629,9 @@ assert
 isinstance
 (
 name
-six
-.
-string_types
+(
+str
+)
 )
 "
 name
@@ -1243,9 +1240,9 @@ if
 isinstance
 (
 output
-six
-.
-string_types
+(
+str
+)
 )
 :
             

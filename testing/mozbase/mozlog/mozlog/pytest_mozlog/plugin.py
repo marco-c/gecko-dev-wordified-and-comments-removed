@@ -3,8 +3,6 @@ time
 import
 pytest
 import
-six
-import
 mozlog
 def
 pytest_addoption
@@ -31,15 +29,14 @@ _class
 _help
 )
 in
-six
-.
-iteritems
-(
 mozlog
 .
 commandline
 .
 log_formatters
+.
+items
+(
 )
 :
         
@@ -73,15 +70,14 @@ _help
     
 formatter_options
 =
-six
-.
-iteritems
-(
 mozlog
 .
 commandline
 .
 fmt_options
+.
+items
+(
 )
     
 for
@@ -631,9 +627,9 @@ if
 isinstance
 (
 longrepr
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
