@@ -1453,15 +1453,6 @@ default
 :
 false
 }
-LocaleData
-:
-(
-)
-=
->
-ExtensionCommon
-.
-LocaleData
 async
 NO_PROMPT_PERMISSIONS
 (
@@ -16094,7 +16085,7 @@ this
 localeData
 =
 new
-lazy
+ExtensionCommon
 .
 LocaleData
 (
@@ -16551,7 +16542,7 @@ promiseLocales
 const
 localesToLoad
 =
-lazy
+ExtensionCommon
 .
 LocaleData
 .
