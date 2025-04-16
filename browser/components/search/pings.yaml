@@ -277,9 +277,10 @@ metadata
 include_info_sections
 :
 false
-use_ohttp
+uploader_capabilities
 :
-true
+-
+ohttp
 bugs
 :
 -

@@ -942,9 +942,6 @@ metadata
 include_info_sections
 :
 false
-use_ohttp
-:
-true
 uploader_capabilities
 :
 -
