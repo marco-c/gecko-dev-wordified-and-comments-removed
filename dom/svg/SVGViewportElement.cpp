@@ -1447,6 +1447,11 @@ OwnerDoc
 IsBeingUsedAsImage
 (
 )
+&
+&
+AreWidthAndHeightUnsetOrPositive
+(
+)
 ;
 }
 SVGViewBox
