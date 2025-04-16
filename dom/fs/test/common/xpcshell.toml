@@ -34,12 +34,3 @@ dummy
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
