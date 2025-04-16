@@ -99,6 +99,13 @@ verify
 ]
 [
 "
+browser_smartblockembeds_mutation
+.
+js
+"
+]
+[
+"
 browser_smartblockembeds
 .
 js
