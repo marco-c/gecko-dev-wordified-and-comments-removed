@@ -7436,15 +7436,6 @@ this
 ;
 }
 bool
-CanRewriteURL
-(
-nsIURI
-*
-aTargetURL
-)
-const
-;
-bool
 IsFullyActive
 (
 )
