@@ -31,9 +31,6 @@ ICU4CLibrary
 h
 "
 #
-if
-MOZ_ICU4X
-#
 include
 "
 mozilla
@@ -44,8 +41,6 @@ ICU4XGeckoDataProvider
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -1430,9 +1425,6 @@ Cleanup
 (
 )
 ;
-#
-if
-MOZ_ICU4X
 mozilla
 :
 :
@@ -1443,8 +1435,6 @@ CleanupDataProvider
 (
 )
 ;
-#
-endif
 #
 endif
 if
