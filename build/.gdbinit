@@ -1136,6 +1136,7 @@ arg0
 >
 DumpFrameTree
 (
+false
 )
 end
 define
@@ -1146,6 +1147,7 @@ arg0
 >
 DumpFrameTreeInCSSPixels
 (
+false
 )
 end
 define
