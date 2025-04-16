@@ -223,14 +223,14 @@ code
 JavaScript
 /
 /
-Utils
+Test
 .
 sys
 .
 mjs
 export
 const
-Utils
+TestUtils
 =
 {
 hello
@@ -383,7 +383,7 @@ code
 .
 const
 {
-Utils
+TestUtils
 }
 =
 ChromeUtils
@@ -399,7 +399,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -407,7 +407,7 @@ mjs
 "
 )
 ;
-Utils
+TestUtils
 .
 hello
 (
@@ -451,7 +451,7 @@ scope
 .
 import
 {
-Utils
+TestUtils
 }
 from
 "
@@ -463,14 +463,14 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
 mjs
 "
 ;
-Utils
+TestUtils
 .
 hello
 (
@@ -499,7 +499,7 @@ f
 {
 const
 {
-Utils2
+TestUtils
 }
 =
 await
@@ -514,7 +514,7 @@ gre
 /
 modules
 /
-Utils2
+Test
 .
 sys
 .
@@ -522,9 +522,9 @@ mjs
 "
 )
 ;
-Utils2
+TestUtils
 .
-log
+hello
 (
 )
 ;
@@ -693,7 +693,7 @@ defineESModuleGetters
 (
 lazy
 {
-Utils
+TestUtils
 :
 "
 resource
@@ -704,7 +704,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -720,7 +720,7 @@ f
 {
 /
 /
-Utils
+Test
 .
 sys
 .
@@ -734,7 +734,7 @@ access
 .
 lazy
 .
-Utils
+TestUtils
 .
 hello
 (
@@ -855,7 +855,7 @@ testcase
 .
 const
 {
-Utils
+TestUtils
 }
 =
 SpecialPowers
@@ -873,7 +873,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -957,7 +957,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -1131,7 +1131,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -1263,7 +1263,7 @@ true
 ;
 const
 {
-Utils
+TestUtils
 }
 =
 ChromeUtils
@@ -1279,7 +1279,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -1304,7 +1304,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -1498,7 +1498,7 @@ code
 JavaScript
 const
 {
-Utils
+TestUtils
 }
 =
 ChromeUtils
@@ -1514,7 +1514,7 @@ gre
 /
 modules
 /
-Utils
+Test
 .
 sys
 .
@@ -1529,12 +1529,18 @@ devtools
 }
 )
 ;
-Utils
+TestUtils
 .
 hello
 (
 )
 ;
+.
+.
+code
+:
+:
+JavaScript
 const
 lazy
 =
@@ -1546,7 +1552,7 @@ defineESModuleGetters
 (
 lazy
 {
-Utils2
+TestUtils
 :
 "
 resource
@@ -1557,7 +1563,7 @@ gre
 /
 modules
 /
-Utils2
+Test
 .
 sys
 .
