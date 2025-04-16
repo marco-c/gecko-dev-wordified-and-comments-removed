@@ -205,6 +205,11 @@ EventQueue
 h
 "
 "
+EventTargetAndLockCapability
+.
+h
+"
+"
 EventTargetCapability
 .
 h
