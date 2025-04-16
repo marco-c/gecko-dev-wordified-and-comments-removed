@@ -2310,7 +2310,7 @@ true
 }
 unsafe
 fn
-start_capture
+start_graphics_debugger_capture
 (
 &
 self
@@ -2323,7 +2323,7 @@ false
 }
 unsafe
 fn
-stop_capture
+stop_graphics_debugger_capture
 (
 &
 self

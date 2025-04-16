@@ -5268,6 +5268,14 @@ AccessFlags
 :
 :
 ACCELERATION_STRUCTURE_WRITE_KHR
+|
+vk
+:
+:
+AccessFlags
+:
+:
+SHADER_READ
 ;
 }
 if

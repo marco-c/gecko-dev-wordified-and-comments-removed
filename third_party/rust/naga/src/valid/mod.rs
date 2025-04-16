@@ -1961,6 +1961,7 @@ derive
 (
 Debug
 Clone
+Default
 )
 ]
 #

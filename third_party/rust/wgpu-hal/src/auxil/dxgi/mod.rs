@@ -27,6 +27,10 @@ factory
 ;
 pub
 mod
+name
+;
+pub
+mod
 result
 ;
 pub

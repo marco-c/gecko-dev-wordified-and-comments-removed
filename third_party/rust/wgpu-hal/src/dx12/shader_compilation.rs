@@ -153,6 +153,8 @@ D3DCOMPILE_ENABLE_STRICTNESS
 if
 device
 .
+shared
+.
 private_caps
 .
 instance_flags
@@ -1924,6 +1926,8 @@ DXC_ARG_SKIP_VALIDATION
 }
 if
 device
+.
+shared
 .
 private_caps
 .

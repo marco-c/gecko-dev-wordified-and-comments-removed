@@ -47,15 +47,6 @@ string
 :
 String
 ;
-use
-crate
-:
-:
-proc
-:
-:
-ExpressionKindTracker
-;
 #
 [
 cfg
@@ -550,10 +541,6 @@ crate
 :
 :
 NamedExpressions
-pub
-expr_kind_tracker
-:
-ExpressionKindTracker
 }
 impl
 FunctionCtx

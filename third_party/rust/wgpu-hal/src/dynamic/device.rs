@@ -852,7 +852,7 @@ DeviceError
 ;
 unsafe
 fn
-start_capture
+start_graphics_debugger_capture
 (
 &
 self
@@ -863,7 +863,7 @@ bool
 ;
 unsafe
 fn
-stop_capture
+stop_graphics_debugger_capture
 (
 &
 self
@@ -3367,7 +3367,7 @@ timeout_ms
 }
 unsafe
 fn
-start_capture
+start_graphics_debugger_capture
 (
 &
 self
@@ -3381,7 +3381,7 @@ unsafe
 D
 :
 :
-start_capture
+start_graphics_debugger_capture
 (
 self
 )
@@ -3389,7 +3389,7 @@ self
 }
 unsafe
 fn
-stop_capture
+stop_graphics_debugger_capture
 (
 &
 self
@@ -3400,7 +3400,7 @@ unsafe
 D
 :
 :
-stop_capture
+stop_graphics_debugger_capture
 (
 self
 )

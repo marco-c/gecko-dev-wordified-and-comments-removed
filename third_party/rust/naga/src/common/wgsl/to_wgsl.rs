@@ -1719,11 +1719,11 @@ self
 Scalar
 :
 :
-F64
+F16
 =
 >
 "
-f64
+f16
 "
 Scalar
 :
@@ -1737,11 +1737,11 @@ f32
 Scalar
 :
 :
-F16
+F64
 =
 >
 "
-f16
+f64
 "
 Scalar
 :
