@@ -8356,6 +8356,9 @@ move
 (
 optimizedCodeLinkData
 )
+TierStats
+(
+)
 )
 )
 {

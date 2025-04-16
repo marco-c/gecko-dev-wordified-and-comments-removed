@@ -335,6 +335,9 @@ funcBaselineSpewers
 FeatureUsage
 featureUsage
 ;
+TierStats
+tierStats
+;
 [
 [
 nodiscard
@@ -1041,6 +1044,9 @@ numCallRefMetrics_
 uint32_t
 numAllocSites_
 ;
+TierStats
+tierStats_
+;
 bool
 parallel_
 ;
@@ -1205,6 +1211,9 @@ finishTier
 UniqueLinkData
 *
 linkData
+TierStats
+*
+tierStats
 )
 ;
 bool
