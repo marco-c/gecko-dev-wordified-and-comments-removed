@@ -42,7 +42,6 @@ command
 >
 DumpFrameTree
 (
-false
 )
 "
 )
@@ -93,7 +92,6 @@ command
 >
 DumpFrameTreeInCSSPixels
 (
-false
 )
 "
 )
