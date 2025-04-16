@@ -4092,6 +4092,13 @@ requireComponents
 useCases
 .
 tabsUseCases
+fenixBrowserUseCases
+=
+requireComponents
+.
+useCases
+.
+fenixBrowserUseCases
 activity
 =
 activity

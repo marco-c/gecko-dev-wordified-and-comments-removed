@@ -1781,13 +1781,13 @@ openToBrowser
 :
 :
 openToBrowser
-tabsUseCases
+fenixBrowserUseCases
 =
 components
 .
 useCases
 .
-tabsUseCases
+fenixBrowserUseCases
 webAppUseCases
 =
 webAppUseCases
