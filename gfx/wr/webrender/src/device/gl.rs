@@ -9567,6 +9567,17 @@ aarch64
 )
 &
 &
+cfg
+!
+(
+target_os
+=
+"
+android
+"
+)
+&
+&
 being_profiled
 &
 &
