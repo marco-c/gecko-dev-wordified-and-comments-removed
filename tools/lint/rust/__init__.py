@@ -863,11 +863,13 @@ log
 debug
 (
         
+f
 "
 Found
 version
 :
 {
+actual_version
 }
 .
 Minimal
@@ -875,16 +877,9 @@ expected
 version
 :
 {
+min_version
 }
 "
-.
-format
-(
-            
-actual_version
-min_version
-        
-)
     
 )
     

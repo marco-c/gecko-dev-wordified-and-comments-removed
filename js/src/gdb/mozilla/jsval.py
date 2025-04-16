@@ -26,9 +26,6 @@ __name__
 )
 class
 Box
-(
-object
-)
 :
     
 def
@@ -385,9 +382,6 @@ PAYLOAD_MASK
 )
 class
 JSValueTypeCache
-(
-object
-)
 :
     
 def
@@ -650,9 +644,6 @@ Value
 )
 class
 JSValue
-(
-object
-)
 :
     
 def

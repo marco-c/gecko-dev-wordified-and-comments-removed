@@ -12,9 +12,9 @@ def
 gen_wrappers
 (
 unused
+template_file
 outdir
 compiler
-template_file
 *
 header_list
 )
@@ -25,9 +25,6 @@ template
 open
 (
 template_file
-"
-r
-"
 )
 .
 read

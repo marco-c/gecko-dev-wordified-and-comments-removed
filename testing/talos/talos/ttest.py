@@ -125,9 +125,6 @@ get_proxy_logger
 )
 class
 TTest
-(
-object
-)
 :
     
 def

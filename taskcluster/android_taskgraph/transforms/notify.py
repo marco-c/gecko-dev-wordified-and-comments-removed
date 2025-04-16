@@ -230,25 +230,22 @@ extend
                 
 [
                     
+f
 "
 notify
 .
 email
 .
 {
+address
 }
 .
 on
 -
 {
+reason
 }
 "
-.
-format
-(
-address
-reason
-)
                     
 for
 address

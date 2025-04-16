@@ -371,9 +371,6 @@ with
 open
 (
 logfilename
-"
-r
-"
 )
 as
 logfile

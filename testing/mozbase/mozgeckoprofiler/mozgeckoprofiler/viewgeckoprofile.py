@@ -166,9 +166,6 @@ self
 )
 class
 ViewGeckoProfile
-(
-object
-)
 :
     
 "
@@ -376,30 +373,25 @@ self
         
 file_url
 =
+f
 "
 http
 :
 /
 /
 {
-}
-:
-{
-}
-/
-{
-}
-"
-.
-format
-(
-            
 self
 .
 host
+}
+:
+{
 self
 .
 port
+}
+/
+{
 os
 .
 path
@@ -410,8 +402,8 @@ self
 .
 gecko_profile_data_path
 )
-        
-)
+}
+"
         
 self
 .

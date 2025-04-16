@@ -176,9 +176,6 @@ split
 ]
 class
 Test
-(
-object
-)
 :
     
 def
@@ -323,14 +320,24 @@ exceptions
         
 cmd
 =
+f
 "
 {
-CXX
+self
+.
+cfg
+.
+cxx
 }
 -
 c
 {
+self
+.
+infile
+(
 source
+)
 }
 -
 O3
@@ -345,7 +352,11 @@ c
 fplugin
 =
 {
-sixgill
+self
+.
+cfg
+.
+sixgill_plugin
 }
 -
 fplugin
@@ -361,40 +372,6 @@ mangle
 options
 }
 "
-.
-format
-(
-            
-source
-=
-self
-.
-infile
-(
-source
-)
-            
-CXX
-=
-self
-.
-cfg
-.
-cxx
-            
-sixgill
-=
-self
-.
-cfg
-.
-sixgill_plugin
-            
-options
-=
-options
-        
-)
         
 if
 self
@@ -660,6 +637,7 @@ w
 write
 (
             
+f
 "
 "
 "
@@ -675,28 +653,16 @@ sixgill_bin
 =
 '
 {
-bindir
-}
-'
-"
-"
-"
-.
-format
-(
-                
-scriptdir
-=
-scriptdir
-bindir
-=
 self
 .
 cfg
 .
 sixgill_bin
-            
-)
+}
+'
+"
+"
+"
         
 )
         
@@ -924,9 +890,6 @@ in
 open
 (
 fullpath
-"
-r
-"
 )
 )
         

@@ -17,9 +17,6 @@ import
 contextmanager
 class
 PsutilStub
-(
-object
-)
 :
     
 def
@@ -922,9 +919,6 @@ swap
 )
 class
 SystemResourceMonitor
-(
-object
-)
 :
     
 "

@@ -802,6 +802,7 @@ print
 dedent
 (
                             
+f
 "
 "
 "
@@ -842,18 +843,12 @@ Current
 user
 :
 {
+address
 }
                     
 "
 "
 "
-.
-format
-(
-                                
-address
-                            
-)
                         
 )
                     
@@ -1188,11 +1183,13 @@ p
                 
 print
 (
+f
 "
 error
 :
 '
 {
+p
 }
 '
 is
@@ -1202,11 +1199,6 @@ valid
 path
 .
 "
-.
-format
-(
-p
-)
 file
 =
 sys
@@ -2093,25 +2085,22 @@ metavar
 "
 ]
 =
+f
 "
 [
 {
-}
--
-{
-}
-]
-"
-.
-format
-(
 self
 .
 min
+}
+-
+{
 self
 .
 max
-)
+}
+]
+"
         
 super
 (
@@ -2159,8 +2148,10 @@ parser
 .
 error
 (
+f
 "
 {
+name
 }
 can
 not
@@ -2168,16 +2159,11 @@ be
 less
 than
 {
-}
-"
-.
-format
-(
-name
 self
 .
 min
-)
+}
+"
 )
         
 if
@@ -2192,8 +2178,10 @@ parser
 .
 error
 (
+f
 "
 {
+name
 }
 can
 not
@@ -2201,16 +2189,11 @@ be
 more
 than
 {
-}
-"
-.
-format
-(
-name
 self
 .
 max
-)
+}
+"
 )
         
 setattr
@@ -3678,6 +3661,7 @@ overrides
 print
 (
                         
+f
 "
 Can
 '
@@ -3694,13 +3678,17 @@ once
 .
 "
                         
+f
 "
 Already
 set
 to
 use
 {
-previous
+overrides
+[
+alias
+]
 }
 but
 also
@@ -3708,28 +3696,10 @@ asked
 to
 use
 {
-new
+worker_pool
 }
 .
 "
-.
-format
-(
-                            
-alias
-=
-alias
-previous
-=
-overrides
-[
-alias
-]
-new
-=
-worker_pool
-                        
-)
                     
 )
                     
@@ -4028,6 +3998,7 @@ overrides
 print
 (
                         
+f
 "
 Can
 '
@@ -4044,19 +4015,24 @@ once
 .
 "
                         
+f
 "
 Already
 set
 to
 use
 {
-previous
+overrides
+[
+alias
+]
 }
 but
 also
 asked
 "
                         
+f
 "
 to
 add
@@ -4066,24 +4042,6 @@ suffix
 }
 .
 "
-.
-format
-(
-                            
-alias
-=
-alias
-previous
-=
-overrides
-[
-alias
-]
-suffix
-=
-suffix
-                        
-)
                     
 )
                     
@@ -4123,6 +4081,7 @@ overrides
 alias
 ]
 =
+f
 "
 {
 provisioner
@@ -4135,21 +4094,6 @@ worker_type
 suffix
 }
 "
-.
-format
-(
-                    
-provisioner
-=
-provisioner
-worker_type
-=
-worker_type
-suffix
-=
-suffix
-                
-)
         
 retVal
 =

@@ -20,9 +20,6 @@ import
 pretty_printer
 class
 InterpreterTypeCache
-(
-object
-)
 :
     
 def
@@ -191,9 +188,6 @@ InterpreterRegs
 )
 class
 InterpreterRegs
-(
-object
-)
 :
     
 def
@@ -347,25 +341,22 @@ pc
 )
         
 return
+f
 "
 {
 {
 {
-}
-{
-}
-{
-}
-}
-}
-"
-.
-format
-(
 fp_
+}
+{
 sp
+}
+{
 pc
-)
+}
+}
+}
+"
 pretty_printer
 (
 "
@@ -377,9 +368,6 @@ AbstractFramePtr
 )
 class
 AbstractFramePtr
-(
-object
-)
 :
     
 Tag_InterpreterFrame
@@ -631,24 +619,21 @@ pointer
 )
         
 return
+f
 "
 AbstractFramePtr
 (
 (
 {
+label
 }
 *
 )
 {
+ptr
 }
 )
 "
-.
-format
-(
-label
-ptr
-)
     
 def
 children

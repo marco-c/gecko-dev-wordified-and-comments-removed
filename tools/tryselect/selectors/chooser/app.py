@@ -67,9 +67,6 @@ split
 )
 class
 Section
-(
-object
-)
 :
     
 __metaclass__
@@ -786,16 +783,13 @@ label
 =
 task
 [
+f
 "
 {
+suite
 }
 _try_name
 "
-.
-format
-(
-suite
-)
 ]
         
 if
@@ -810,19 +804,16 @@ suite
             
 label
 =
+f
 "
 {
+suite
 }
 -
 {
+label
 }
 "
-.
-format
-(
-suite
-label
-)
         
 if
 label

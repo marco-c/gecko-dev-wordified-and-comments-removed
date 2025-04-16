@@ -410,9 +410,6 @@ read
 open
 (
 filename
-"
-r
-"
 )
 )
 for

@@ -160,9 +160,6 @@ path
 )
 class
 Repository
-(
-object
-)
 :
     
 "

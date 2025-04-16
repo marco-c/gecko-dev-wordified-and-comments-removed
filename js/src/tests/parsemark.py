@@ -568,16 +568,23 @@ mean
         
 print
 (
+f
 "
 Stddev
 :
 {
+sigma
 :
 .
 2f
 }
 (
 {
+sigma
+/
+mean
+*
+100
 :
 .
 2f
@@ -587,16 +594,6 @@ of
 mean
 )
 "
-.
-format
-(
-sigma
-sigma
-/
-mean
-*
-100
-)
 )
     
 return
@@ -664,19 +661,16 @@ stfu
             
 print
 (
+f
 "
 Parsemarking
 {
+filename
 }
 .
 .
 .
 "
-.
-format
-(
-filename
-)
 )
         
 bench_map
@@ -781,17 +775,14 @@ fmt
         
 filename_str
 =
+f
 '
 "
 {
+filename
 }
 "
 '
-.
-format
-(
-filename
-)
         
 print
 (

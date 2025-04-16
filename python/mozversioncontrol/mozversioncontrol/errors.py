@@ -105,6 +105,7 @@ ext
         
 msg
 =
+f
 "
 Could
 not
@@ -113,16 +114,12 @@ required
 extension
 '
 {
-}
-'
-"
-.
-format
-(
 self
 .
 ext
-)
+}
+'
+"
         
 super
 (

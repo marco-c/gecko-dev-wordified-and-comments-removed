@@ -2,9 +2,6 @@ import
 os
 class
 Logger
-(
-object
-)
 :
     
 "

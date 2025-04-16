@@ -456,9 +456,6 @@ with
 open
 (
 path_to_third_party
-"
-r
-"
 )
 as
 fh
@@ -563,6 +560,7 @@ log
 .
 debug
 (
+f
 "
 Ignored
 third
@@ -570,15 +568,10 @@ party
 code
 '
 {
-0
+f
 }
 '
 "
-.
-format
-(
-f
-)
 )
             
 continue
@@ -740,17 +733,14 @@ log
 .
 debug
 (
+f
 "
 Version
 :
 {
+version
 }
 "
-.
-format
-(
-version
-)
 )
     
 cmd_args

@@ -198,6 +198,7 @@ tag
         
 tagging_script
 =
+f
 "
 "
 "
@@ -211,6 +212,7 @@ setTagPings
 (
 "
 {
+debug_tag
 }
 "
 )
@@ -219,13 +221,6 @@ setTagPings
 "
 "
 "
-.
-format
-(
-            
-debug_tag
-        
-)
         
 with
 self

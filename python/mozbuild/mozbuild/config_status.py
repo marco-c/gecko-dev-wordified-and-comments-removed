@@ -1222,12 +1222,14 @@ execution_time
 print
 (
         
+f
 "
 Total
 wall
 time
 :
 {
+wall_time
 :
 .
 2f
@@ -1238,6 +1240,7 @@ CPU
 time
 :
 {
+cpu_time
 :
 .
 2f
@@ -1248,8 +1251,10 @@ Efficiency
 :
 "
         
+f
 "
 {
+efficiency
 :
 .
 0
@@ -1259,20 +1264,13 @@ Efficiency
 Untracked
 :
 {
+untracked
 :
 .
 2f
 }
 s
 "
-.
-format
-(
-wall_time
-cpu_time
-efficiency
-untracked
-)
         
 file
 =

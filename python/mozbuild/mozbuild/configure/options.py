@@ -986,9 +986,6 @@ v
 )
 class
 Option
-(
-object
-)
 :
     
 "
@@ -3690,9 +3687,6 @@ option
 )
 class
 CommandLineHelper
-(
-object
-)
 :
     
 "

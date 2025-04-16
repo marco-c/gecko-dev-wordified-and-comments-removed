@@ -24,9 +24,6 @@ import
 log_levels
 class
 BaseHandler
-(
-object
-)
 :
     
 "

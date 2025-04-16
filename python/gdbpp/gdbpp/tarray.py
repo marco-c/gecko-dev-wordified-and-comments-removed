@@ -60,9 +60,6 @@ nsTArray
 )
 class
 tarray_printer
-(
-object
-)
 :
     
 def

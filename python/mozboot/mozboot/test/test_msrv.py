@@ -74,9 +74,6 @@ with
 open
 (
 cargo_toml
-"
-r
-"
 )
 as
 f

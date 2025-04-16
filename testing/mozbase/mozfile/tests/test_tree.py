@@ -130,8 +130,10 @@ self
 .
 assertEqual
 (
+f
 "
 {
+tmpdir
 }
 \
 n
@@ -140,11 +142,6 @@ file
 n
 dir
 "
-.
-format
-(
-tmpdir
-)
 tree
 (
 tmpdir

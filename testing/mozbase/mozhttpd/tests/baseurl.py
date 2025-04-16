@@ -78,6 +78,7 @@ server_port
     
 want
 =
+f
 "
 http
 :
@@ -92,14 +93,10 @@ http
 1
 :
 {
+port
 }
 /
 "
-.
-format
-(
-port
-)
     
 got
 =
@@ -117,6 +114,7 @@ want
     
 want
 =
+f
 "
 http
 :
@@ -131,17 +129,13 @@ http
 1
 :
 {
+port
 }
 /
 cheezburgers
 .
 html
 "
-.
-format
-(
-port
-)
     
 got
 =

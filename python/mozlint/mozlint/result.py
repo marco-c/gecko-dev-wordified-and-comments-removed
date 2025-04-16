@@ -22,9 +22,6 @@ as
 mozpath
 class
 ResultSummary
-(
-object
-)
 :
     
 "
@@ -466,9 +463,6 @@ True
 )
 class
 Issue
-(
-object
-)
 :
     
 "

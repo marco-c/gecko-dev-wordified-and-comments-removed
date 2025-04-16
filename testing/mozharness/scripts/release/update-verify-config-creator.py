@@ -2564,19 +2564,16 @@ BETA
             
 branch
 =
+f
 "
 releases
 /
 {
+branch_prefix
 }
 -
 beta
 "
-.
-format
-(
-branch_prefix
-)
         
 elif
 version
@@ -2591,24 +2588,21 @@ ESR
             
 branch
 =
+f
 "
 releases
 /
 {
+branch_prefix
 }
 -
 esr
 {
-}
-"
-.
-format
-(
-branch_prefix
 version
 .
 major_number
-)
+}
+"
         
 elif
 version
@@ -2623,19 +2617,16 @@ RELEASE
             
 branch
 =
+f
 "
 releases
 /
 {
+branch_prefix
 }
 -
 release
 "
-.
-format
-(
-branch_prefix
-)
         
 if
 not
@@ -3712,21 +3703,18 @@ self
 .
 log
 (
+f
 "
 Adding
 {
+build
+.
+version
 }
 to
 update
 paths
 "
-.
-format
-(
-build
-.
-version
-)
 level
 =
 INFO
@@ -4693,19 +4681,16 @@ last_linux_bz2_version
         
 to_path
 =
+f
 "
 {
+candidates_dir
 }
 /
 {
+to_
 }
 "
-.
-format
-(
-candidates_dir
-to_
-)
         
 to_display_version
 =
@@ -5132,19 +5117,16 @@ last_linux_bz2_version
             
 from_path
 =
+f
 "
 {
+release_dir
 }
 /
 {
+path_
 }
 "
-.
-format
-(
-release_dir
-path_
-)
             
 updater_package
 =

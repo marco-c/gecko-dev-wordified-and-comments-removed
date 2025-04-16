@@ -106,35 +106,27 @@ importlib
 .
 import_module
 (
+f
 "
 tryselect
 .
 selectors
 .
 {
-}
-"
-.
-format
-(
 self
 .
 selector
-)
+}
+"
 )
         
 return
 getattr
 (
 mod
+f
 "
 {
-}
-Parser
-"
-.
-format
-(
 self
 .
 selector
@@ -142,7 +134,9 @@ selector
 capitalize
 (
 )
-)
+}
+Parser
+"
 )
 (
 )
@@ -551,6 +545,7 @@ kwargs
         
 print
 (
+f
 "
 preset
 saved
@@ -562,13 +557,9 @@ with
 preset
 =
 {
+save
 }
 "
-.
-format
-(
-save
-)
 )
         
 sys
@@ -600,21 +591,18 @@ parser
 error
 (
                 
+f
 "
 preset
 '
 {
+preset
 }
 '
 does
 not
 exist
 "
-.
-format
-(
-preset
-)
             
 )
         
@@ -672,12 +660,14 @@ selector
 print
 (
                 
+f
 "
 error
 :
 preset
 '
 {
+name
 }
 '
 exists
@@ -687,6 +677,7 @@ different
 selector
 "
                 
+f
 "
 (
 did
@@ -698,18 +689,13 @@ run
 mach
 try
 {
+selector
 }
 '
 instead
 ?
 )
 "
-.
-format
-(
-name
-selector
-)
             
 )
             
@@ -955,18 +941,13 @@ importlib
 import_module
 (
         
+f
 "
 tryselect
 .
 selectors
 .
 {
-}
-"
-.
-format
-(
-            
 command_context
 .
 _mach_context
@@ -974,8 +955,8 @@ _mach_context
 handler
 .
 subcommand
-        
-)
+}
+"
     
 )
     
@@ -1179,21 +1160,18 @@ parser
 error
 (
                 
+f
 "
 preset
 '
 {
+preset
 }
 '
 does
 not
 exist
 "
-.
-format
-(
-preset
-)
             
 )
         

@@ -908,35 +908,23 @@ releases
         
 prod_major_version_re
 =
-r
+rf
 "
 ^
 {
-product
-}
-_
-{
-major_version
-}
-"
-.
-format
-(
-            
-product
-=
 product
 .
 upper
 (
 )
-major_version
-=
+}
+_
+{
 current_version
 .
 major_number
-        
-)
+}
+"
         
 return
 (
@@ -1157,6 +1145,7 @@ is_esr
 :
         
 return
+f
 "
 https
 :
@@ -1174,17 +1163,11 @@ mozilla
 -
 esr
 {
-}
-"
-.
-format
-(
-            
 version
 .
 major_number
-        
-)
+}
+"
     
 else
 :
@@ -1193,26 +1176,23 @@ raise
 Exception
 (
             
+f
 "
 Unsupported
 version
 type
 {
-}
-:
-{
-}
-"
-.
-format
-(
 version
 .
 version_type
 .
 name
+}
+:
+{
 version
-)
+}
+"
         
 )
 def
@@ -1384,29 +1364,24 @@ desktop
     
 subject
 =
+f
 "
 {
+subject_prefix
 }
 Build
 of
 {
+product
 }
 {
+version
 }
 build
 {
+build_number
 }
 "
-.
-format
-(
-        
-subject_prefix
-product
-version
-build_number
-    
-)
     
 if
 "

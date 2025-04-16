@@ -45,9 +45,6 @@ LOGGER_NAME
 )
 class
 RemoteGTests
-(
-object
-)
 :
     
 "
@@ -579,19 +576,16 @@ missing
             
 libxul_buildid_name
 =
+f
 "
 libxul_
 {
+buildid
 }
 _buildid
 .
 so
 "
-.
-format
-(
-buildid
-)
             
 libxul_buildid_path
 =
@@ -1505,9 +1499,6 @@ True
 )
 class
 AppWaiter
-(
-object
-)
 :
     
 def

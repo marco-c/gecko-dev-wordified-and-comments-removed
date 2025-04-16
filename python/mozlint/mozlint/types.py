@@ -40,9 +40,6 @@ filterpaths
 findobject
 class
 BaseType
-(
-object
-)
 :
     
 "
@@ -476,6 +473,7 @@ else
 patterns
 =
 [
+f
 "
 *
 *
@@ -483,13 +481,9 @@ patterns
 *
 .
 {
+e
 }
 "
-.
-format
-(
-e
-)
 for
 e
 in
@@ -718,9 +712,6 @@ with
 open
 (
 path
-"
-r
-"
 errors
 =
 "

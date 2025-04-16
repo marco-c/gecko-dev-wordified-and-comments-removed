@@ -26,9 +26,6 @@ EnumSet
 )
 class
 enumset_printer
-(
-object
-)
 :
     
 def

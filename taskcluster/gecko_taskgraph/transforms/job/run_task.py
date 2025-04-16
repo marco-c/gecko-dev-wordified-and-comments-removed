@@ -331,6 +331,7 @@ command
 .
 append
 (
+f
 "
 -
 -
@@ -339,13 +340,9 @@ gecko
 checkout
 =
 {
+gecko_path
 }
 "
-.
-format
-(
-gecko_path
-)
 )
         
 if

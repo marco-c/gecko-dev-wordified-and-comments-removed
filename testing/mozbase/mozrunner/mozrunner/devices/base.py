@@ -22,9 +22,6 @@ ADBError
 ADBHost
 class
 Device
-(
-object
-)
 :
     
 connected
@@ -437,17 +434,14 @@ else
                 
 print
 (
+f
 "
 WARNING
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 if

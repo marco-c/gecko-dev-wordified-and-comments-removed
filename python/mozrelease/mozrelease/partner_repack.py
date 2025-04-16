@@ -2143,9 +2143,6 @@ partner_distro
 )
 class
 RepackBase
-(
-object
-)
 :
     
 def

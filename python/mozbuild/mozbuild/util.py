@@ -317,9 +317,6 @@ __init__
 )
 class
 ReadOnlyNamespace
-(
-object
-)
 :
     
 "
@@ -720,9 +717,6 @@ self
 )
 class
 undefined_default
-(
-object
-)
 :
     
 "
@@ -3759,9 +3753,6 @@ values
     
 class
 Flags
-(
-object
-)
 :
         
 __slots__
@@ -4679,9 +4670,6 @@ return
 StrictOrderingOnAppendListWithFlagsSpecialization
 class
 HierarchicalStringList
-(
-object
-)
 :
     
 "
@@ -5773,9 +5761,6 @@ func
 )
 class
 memoized_property
-(
-object
-)
 :
     
 "
@@ -7811,16 +7796,11 @@ PY3
     
 off_format
 =
+f
 "
 %
 0
 {
-}
-x
-"
-.
-format
-(
 len
 (
 str
@@ -7831,7 +7811,9 @@ buf
 )
 )
 )
-)
+}
+x
+"
     
 lines
 =

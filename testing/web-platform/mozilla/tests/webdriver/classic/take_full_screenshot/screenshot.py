@@ -39,11 +39,14 @@ send
 GET
 "
         
+f
 "
 /
 session
 /
 {
+session
+.
 session_id
 }
 /
@@ -53,17 +56,6 @@ screenshot
 /
 full
 "
-.
-format
-(
-            
-session_id
-=
-session
-.
-session_id
-        
-)
     
 )
 def

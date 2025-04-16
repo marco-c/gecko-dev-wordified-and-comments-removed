@@ -8,9 +8,6 @@ import
 remove_duplicates
 class
 MockClient
-(
-object
-)
 :
     
 def

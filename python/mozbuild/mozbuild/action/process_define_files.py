@@ -241,9 +241,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 input
@@ -465,6 +462,7 @@ here
                             
 define
 =
+f
 "
 #
 define
@@ -475,16 +473,6 @@ name
 val
 }
 "
-.
-format
-(
-name
-=
-name
-val
-=
-val
-)
                             
 if
 name
@@ -506,6 +494,7 @@ WINVER
 :
                                 
 return
+f
 "
 #
 if
@@ -526,18 +515,6 @@ n
 #
 endif
 "
-.
-format
-(
-                                    
-name
-=
-name
-define
-=
-define
-                                
-)
                             
 return
 define

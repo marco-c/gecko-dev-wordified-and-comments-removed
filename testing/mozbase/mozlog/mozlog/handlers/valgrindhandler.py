@@ -74,9 +74,6 @@ tmp
 )
 class
 ValgrindFilter
-(
-object
-)
 :
     
 "

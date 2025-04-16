@@ -8,9 +8,6 @@ import
 Issue
 class
 UnixFormatter
-(
-object
-)
 :
     
 "

@@ -15,9 +15,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f

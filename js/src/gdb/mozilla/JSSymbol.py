@@ -126,20 +126,17 @@ InSymbolRegistry
 :
             
 return
+f
 "
 Symbol
 .
 for
 (
 {
+desc
 }
 )
 "
-.
-format
-(
-desc
-)
         
 elif
 code
@@ -149,18 +146,15 @@ UniqueSymbol
 :
             
 return
+f
 "
 Symbol
 (
 {
+desc
 }
 )
 "
-.
-format
-(
-desc
-)
         
 elif
 code
@@ -170,16 +164,13 @@ PrivateNameSymbol
 :
             
 return
+f
 "
 #
 {
+desc
 }
 "
-.
-format
-(
-desc
-)
         
 else
 :

@@ -459,9 +459,6 @@ TypeError
 pass
 class
 TypeCache
-(
-object
-)
 :
     
 def
@@ -1211,9 +1208,6 @@ return
 lookup
 class
 Pointer
-(
-object
-)
 :
     
 def

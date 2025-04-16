@@ -16,9 +16,6 @@ object
 )
 class
 log_action
-(
-object
-)
 :
     
 def
@@ -652,9 +649,6 @@ known_kwargs
 )
 class
 DataType
-(
-object
-)
 :
     
 def

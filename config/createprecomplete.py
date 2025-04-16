@@ -442,7 +442,7 @@ precomplete_file_path
 mode
 =
 "
-wt
+w
 "
 newline
 =

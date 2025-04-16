@@ -416,31 +416,26 @@ raise
 Exception
 (
                     
+f
 "
 Missing
 package
 job
 for
 {
-}
--
-{
-}
-:
-{
-}
-"
-.
-format
-(
-                        
 config
 .
 kind
+}
+-
+{
 image_name
+}
+:
+{
 p
-                    
-)
+}
+"
                 
 )
         
@@ -593,12 +588,14 @@ True
         
 description
 =
+f
 "
 Build
 the
 docker
 image
 {
+image_name
 }
 for
 use
@@ -606,13 +603,6 @@ by
 dependent
 tasks
 "
-.
-format
-(
-            
-image_name
-        
-)
         
 args
 [
@@ -938,6 +928,7 @@ decision
 CONTEXT_PATH
 "
 :
+f
 "
 public
 /
@@ -946,19 +937,13 @@ docker
 contexts
 /
 {
+image_name
 }
 .
 tar
 .
 gz
 "
-.
-format
-(
-                        
-image_name
-                    
-)
                     
 "
 HASH

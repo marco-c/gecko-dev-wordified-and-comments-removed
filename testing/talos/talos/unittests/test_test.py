@@ -66,17 +66,11 @@ null_attrib
 None
 class
 NotATest
-(
-object
-)
 :
     
 pass
 class
 Test_register_test
-(
-object
-)
 :
     
 def
@@ -173,9 +167,6 @@ NotATest
 )
 class
 TestTest
-(
-object
-)
 :
     
 def
@@ -697,9 +688,6 @@ is
 False
 class
 TestTsBase
-(
-object
-)
 :
     
 ts_base_registered_keys
@@ -985,9 +973,6 @@ timeout
 }
 class
 Test_ts_paint
-(
-object
-)
 :
     
 def

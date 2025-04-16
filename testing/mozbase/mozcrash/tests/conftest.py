@@ -242,17 +242,14 @@ tmpdir
 .
 join
 (
+f
 "
 {
+name
 }
 .
 dmp
 "
-.
-format
-(
-name
-)
 )
         
 dmp
@@ -270,17 +267,14 @@ tmpdir
 .
 join
 (
+f
 "
 {
+name
 }
 .
 extra
 "
-.
-format
-(
-name
-)
 )
         
 extra
@@ -658,9 +652,6 @@ turn
     
 class
 MockPopen
-(
-object
-)
 :
         
 def

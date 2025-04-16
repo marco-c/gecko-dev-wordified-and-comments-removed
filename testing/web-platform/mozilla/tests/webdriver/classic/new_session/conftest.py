@@ -246,17 +246,14 @@ send
 "
 DELETE
 "
+f
 "
 session
 /
 {
+session_id
 }
 "
-.
-format
-(
-session_id
-)
 )
     
 def

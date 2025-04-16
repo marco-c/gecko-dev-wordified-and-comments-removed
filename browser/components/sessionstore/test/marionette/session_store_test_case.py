@@ -28,6 +28,7 @@ doc
 :
     
 return
+f
 "
 data
 :
@@ -41,16 +42,12 @@ utf
 -
 8
 {
-}
-"
-.
-format
-(
 quote
 (
 doc
 )
-)
+}
+"
 DEFAULT_WINDOWS
 =
 set
@@ -2540,6 +2537,7 @@ all_windows
             
 msg
 =
+f
 "
 Not
 all
@@ -2551,22 +2549,16 @@ opened
 .
 Expected
 {
-}
-got
-{
-}
-.
-"
-.
-format
-(
-                
 self
 .
 all_windows
+}
+got
+{
 current_windows_set
-            
-)
+}
+.
+"
         
 )
         

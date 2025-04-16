@@ -527,9 +527,6 @@ with
 open
 (
 preset_path
-"
-r
-"
 )
 as
 fh

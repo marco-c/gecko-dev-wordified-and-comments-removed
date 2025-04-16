@@ -16,9 +16,6 @@ nsAutoOwningThread
 )
 class
 owning_thread_printer
-(
-object
-)
 :
     
 def

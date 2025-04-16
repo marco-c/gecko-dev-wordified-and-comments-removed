@@ -575,9 +575,6 @@ with
 open
 (
 chrome_map_path
-"
-r
-"
 )
 as
 chrome_map_f

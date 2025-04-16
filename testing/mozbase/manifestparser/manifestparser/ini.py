@@ -75,6 +75,7 @@ unknown
         
 msg
 =
+f
 "
 Error
 parsing
@@ -82,22 +83,18 @@ manifest
 file
 '
 {
+path
 }
 '
 line
 {
+linenum
 }
 :
 {
+msg
 }
 "
-.
-format
-(
-path
-linenum
-msg
-)
         
 super
 (
@@ -737,19 +734,16 @@ comment
 or
 section
 "
+f
 "
 instead
 found
 '
 {
+stripped
 }
 '
 "
-.
-format
-(
-stripped
-)
             
 )
         
@@ -818,26 +812,21 @@ fp
                         
 linenum
                         
+f
 "
 Should
 not
 assign
 in
 {
+key
 }
 condition
 for
 {
+current_section_name
 }
 "
-.
-format
-(
-                            
-key
-current_section_name
-                        
-)
                     
 )
             
@@ -944,26 +933,21 @@ fp
                             
 linenum
                             
+f
 "
 Should
 not
 assign
 in
 {
+key
 }
 condition
 for
 {
+current_section_name
 }
 "
-.
-format
-(
-                                
-key
-current_section_name
-                            
-)
                         
 )
                 
@@ -984,19 +968,16 @@ IniParseError
 (
 fp
 linenum
+f
 "
 Unexpected
 line
 '
 {
+stripped
 }
 '
 "
-.
-format
-(
-stripped
-)
 )
     
 defaults

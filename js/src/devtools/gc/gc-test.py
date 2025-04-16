@@ -1278,9 +1278,6 @@ open
 OPTIONS
 .
 baseline_path
-"
-r
-"
 )
         
 baseline_map

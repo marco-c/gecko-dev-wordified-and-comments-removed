@@ -1997,16 +1997,13 @@ bin
 mh_command
 =
 [
+f
 "
 {
+python_bindir
 }
 python3
 "
-.
-format
-(
-python_bindir
-)
 ]
     
 mh_command

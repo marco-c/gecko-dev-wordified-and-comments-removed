@@ -294,11 +294,13 @@ False
     
 print
 (
+f
 "
 warning
 :
 '
 {
+hooktype
 }
 '
 is
@@ -310,11 +312,6 @@ js
 format
 hooktype
 "
-.
-format
-(
-hooktype
-)
 )
     
 return

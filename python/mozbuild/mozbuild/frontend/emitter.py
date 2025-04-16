@@ -3268,9 +3268,6 @@ with
 open
 (
 cargo_file
-"
-r
-"
 )
 as
 f

@@ -198,31 +198,26 @@ ALIGNMENT_COLUMN
 print
 (
                         
+f
 "
 Warning
 :
 line
 {
+line_num
 }
 overflows
 from
 alignment
 column
 {
+ALIGNMENT_COLUMN
 }
 :
 {
+head_len
 }
 "
-.
-format
-(
-                            
-line_num
-ALIGNMENT_COLUMN
-head_len
-                        
-)
                         
 file
 =
@@ -251,30 +246,25 @@ MAX_CHARS_PER_LINE
 print
 (
                         
+f
 "
 Warning
 :
 line
 {
+line_num
 }
 overflows
 from
 {
+MAX_CHARS_PER_LINE
 }
 chars
 :
 {
+line_len
 }
 "
-.
-format
-(
-                            
-line_num
-MAX_CHARS_PER_LINE
-line_len
-                        
-)
                         
 file
 =
@@ -352,6 +342,7 @@ line
 print
 (
             
+f
 "
 Info
 :
@@ -364,13 +355,9 @@ stack
 ]
 :
 {
+max_head_len
 }
 "
-.
-format
-(
-max_head_len
-)
             
 file
 =
@@ -383,6 +370,7 @@ stderr
 print
 (
             
+f
 "
 Info
 :
@@ -395,13 +383,9 @@ stack
 ]
 :
 {
+ALIGNMENT_COLUMN
 }
 "
-.
-format
-(
-ALIGNMENT_COLUMN
-)
             
 file
 =
@@ -414,6 +398,7 @@ stderr
 print
 (
             
+f
 "
 Info
 :
@@ -425,13 +410,9 @@ transition
 comments
 :
 {
+max_comment_len
 }
 "
-.
-format
-(
-max_comment_len
-)
             
 file
 =

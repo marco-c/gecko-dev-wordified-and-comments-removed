@@ -392,17 +392,14 @@ dev
 zero
 "
             
+f
 "
 of
 =
 {
+hfs
 }
 "
-.
-format
-(
-hfs
-)
             
 "
 bs
@@ -410,17 +407,14 @@ bs
 1M
 "
             
+f
 "
 count
 =
 {
+size
 }
 "
-.
-format
-(
-size
-)
         
 ]
     

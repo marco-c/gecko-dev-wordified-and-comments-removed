@@ -497,11 +497,14 @@ raise
 Exception
 (
                 
+f
 "
 {
+appearing_as
 }
 :
 {
+identifier
 }
 missing
 from
@@ -509,17 +512,9 @@ doc
 file
 :
 {
+filename
 }
 "
-.
-format
-(
-                    
-appearing_as
-identifier
-filename
-                
-)
             
 )
 verifications
@@ -892,9 +887,13 @@ raise
 Exception
 (
                     
+f
 "
 Task
 {
+task
+.
+label
 }
 can
 '
@@ -906,6 +905,7 @@ treeherder
 collections
 "
                     
+f
 "
 (
 the
@@ -918,18 +918,9 @@ after
 )
 :
 {
+collection_keys
 }
 "
-.
-format
-(
-                        
-task
-.
-label
-collection_keys
-                    
-)
                 
 )
             
@@ -1191,34 +1182,29 @@ raise
 Exception
 (
                     
+f
 "
 conflict
 between
 {
+task
+.
+label
 }
 :
 {
+scratch_pad
+[
+route
+]
 }
 for
 route
 :
 {
+route
 }
 "
-.
-format
-(
-                        
-task
-.
-label
-scratch_pad
-[
-route
-]
-route
-                    
-)
                 
 )
             
@@ -1438,8 +1424,12 @@ raise
 Exception
 (
                     
+f
 "
 {
+task
+.
+label
 }
 has
 invalid
@@ -1447,19 +1437,10 @@ notification
 filter
 (
 {
+route_filter
 }
 )
 "
-.
-format
-(
-                        
-task
-.
-label
-route_filter
-                    
-)
                 
 )
             
@@ -1701,40 +1682,31 @@ raise
 Exception
 (
                         
+f
 "
 {
+task
+.
+label
 }
 (
 tier
 {
+printable_tier
+(
+tier
+)
 }
 )
 cannot
 depend
 on
 {
+d
 }
 (
 tier
 {
-}
-)
-"
-.
-format
-(
-                            
-task
-.
-label
-                            
-printable_tier
-(
-tier
-)
-                            
-d
-                            
 printable_tier
 (
 tiers
@@ -1742,8 +1714,9 @@ tiers
 d
 ]
 )
-                        
+}
 )
+"
                     
 )
 verifications
@@ -1937,38 +1910,29 @@ raise
 Exception
 (
                         
+f
 "
 {
+task
+.
+label
 }
 (
 {
+printable_signoff
+(
+required_signoffs
+)
 }
 )
 cannot
 depend
 on
 {
+d
 }
 (
 {
-}
-)
-"
-.
-format
-(
-                            
-task
-.
-label
-                            
-printable_signoff
-(
-required_signoffs
-)
-                            
-d
-                            
 printable_signoff
 (
 all_required_signoffs
@@ -1976,8 +1940,9 @@ all_required_signoffs
 d
 ]
 )
-                        
+}
 )
+"
                     
 )
 verifications
@@ -2094,38 +2059,24 @@ raise
 Exception
 (
             
+f
 "
 Task
 {
-}
-has
-a
-{
-}
-of
-{
-}
-masking
-a
-task
-of
-that
-name
-.
-"
-.
-format
-(
-                
 aliases
 [
 task
 .
 label
 ]
-                
+}
+has
+a
+{
 alias_attribute
-                
+}
+of
+{
 task
 .
 label
@@ -2140,8 +2091,15 @@ kind
 1
 :
 ]
-            
-)
+}
+masking
+a
+task
+of
+that
+name
+.
+"
         
 )
     
@@ -2242,16 +2200,22 @@ raise
 Exception
 (
                     
+f
 "
 Task
 {
+task
+.
+label
 }
 has
 a
 {
+alias_attribute
 }
 of
 {
+key
 }
 "
                     
@@ -2264,19 +2228,6 @@ that
 name
 .
 "
-.
-format
-(
-                        
-task
-.
-label
-                        
-alias_attribute
-                        
-key
-                    
-)
                 
 )
             
@@ -2290,39 +2241,31 @@ raise
 Exception
 (
                     
+f
 "
 Duplicate
 {
+alias_attribute
 }
 in
 tasks
 {
-}
-and
-{
-}
-:
-{
-}
-"
-.
-format
-(
-                        
-alias_attribute
-                        
 task
 .
 label
-                        
+}
+and
+{
 aliases
 [
 full_key
 ]
-                        
+}
+:
+{
 key
-                    
-)
+}
+"
                 
 )
             
@@ -2745,10 +2688,14 @@ exceptions
 append
 (
                             
+f
 "
 Build
 job
 {
+task
+.
+label
 }
 is
 shippable
@@ -2770,13 +2717,6 @@ the
 environment
 .
 "
-.
-format
-(
-task
-.
-label
-)
                         
 )
                     
@@ -2789,10 +2729,14 @@ exceptions
 append
 (
                             
+f
 "
 Build
 job
 {
+task
+.
+label
 }
 has
 tests
@@ -2813,15 +2757,6 @@ in
 the
 environment
 "
-.
-format
-(
-                                
-task
-.
-label
-                            
-)
                         
 )
                 
@@ -2846,10 +2781,14 @@ exceptions
 append
 (
                                 
+f
 "
 Build
 job
 {
+task
+.
+label
 }
 has
 no
@@ -2858,10 +2797,12 @@ but
 specifies
 "
                                 
+f
 "
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
 {
+package_tests
 }
 in
 the
@@ -2883,14 +2824,6 @@ to
 fix
 .
 "
-.
-format
-(
-task
-.
-label
-package_tests
-)
                             
 )
         
@@ -3090,10 +3023,14 @@ raise
 Exception
 (
                 
+f
 "
 In
 task
 {
+task
+.
+label
 }
 :
 using
@@ -3120,13 +3057,6 @@ task
 on
 try
 "
-.
-format
-(
-task
-.
-label
-)
             
 )
         
@@ -3157,10 +3087,14 @@ raise
 Exception
 (
                 
+f
 "
 Task
 '
 {
+task
+.
+label
 }
 '
 has
@@ -3175,17 +3109,11 @@ value
 :
 "
                 
+f
 "
 {
+invalid_projects
 }
 "
-.
-format
-(
-task
-.
-label
-invalid_projects
-)
             
 )

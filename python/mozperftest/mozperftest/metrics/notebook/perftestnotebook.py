@@ -16,9 +16,6 @@ import
 Constant
 class
 PerftestNotebook
-(
-object
-)
 :
     
 "

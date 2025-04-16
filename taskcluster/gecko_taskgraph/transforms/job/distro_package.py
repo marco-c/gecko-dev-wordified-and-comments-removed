@@ -758,10 +758,12 @@ KeepBuildDeps
 =
 "
             
+f
 '
 "
 reject
 {
+package
 }
 -
 build
@@ -772,11 +774,6 @@ UNINST
 "
 '
         
-)
-.
-format
-(
-package
 )
     
 else

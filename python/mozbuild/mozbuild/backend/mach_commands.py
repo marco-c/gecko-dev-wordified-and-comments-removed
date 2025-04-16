@@ -948,28 +948,21 @@ FileNotFoundError
         
 print
 (
-            
+f
 "
 Configuration
 for
 {
+vscode_settings
 }
 will
 be
 created
 .
 {
+artifact_prefix
 }
 "
-.
-format
-(
-                
-vscode_settings
-artifact_prefix
-            
-)
-        
 )
         
 old_settings_str
@@ -1285,10 +1278,13 @@ choice
 prompt_bool
 (
                     
+f
 "
 {
+artifact_prefix
 }
 {
+prompt_prefix
 }
 \
 nProceed
@@ -1296,18 +1292,10 @@ with
 modifications
 to
 {
+vscode_settings
 }
 ?
 "
-.
-format
-(
-                        
-artifact_prefix
-prompt_prefix
-vscode_settings
-                    
-)
                 
 )
                 
@@ -1355,6 +1343,7 @@ None
 print
 (
             
+f
 "
 Please
 open
@@ -1366,17 +1355,11 @@ load
 directory
 :
 {
-}
-"
-.
-format
-(
-                
 command_context
 .
 topsrcdir
-            
-)
+}
+"
         
 )
         
@@ -1437,19 +1420,16 @@ and
 load
 "
             
+f
 "
 directory
 :
 {
-}
-"
-.
-format
-(
 command_context
 .
 topsrcdir
-)
+}
+"
         
 )
         
@@ -1574,6 +1554,7 @@ ide
 {
 }
             
+f
 "
 Unable
 to
@@ -1581,14 +1562,10 @@ locate
 clangd
 in
 {
+clang_tidy_bin
 }
 .
 "
-.
-format
-(
-clang_tidy_bin
-)
         
 )
         

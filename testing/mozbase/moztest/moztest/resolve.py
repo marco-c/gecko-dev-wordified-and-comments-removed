@@ -5459,17 +5459,13 @@ self
 variables
 =
 {
-            
+f
 "
 {
+k
 }
 _MANIFESTS
 "
-.
-format
-(
-k
-)
 :
 v
 [
@@ -5484,7 +5480,6 @@ TEST_MANIFESTS
 items
 (
 )
-        
 }
         
 self
@@ -5493,22 +5488,18 @@ variables
 .
 update
 (
-            
 {
+f
 "
 {
-}
-_MANIFESTS
-"
-.
-format
-(
 f
 .
 upper
 (
 )
-)
+}
+_MANIFESTS
+"
 :
 f
 for
@@ -5516,7 +5507,6 @@ f
 in
 REFTEST_FLAVORS
 }
-        
 )
     
 def

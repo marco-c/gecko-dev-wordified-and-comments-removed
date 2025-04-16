@@ -338,9 +338,6 @@ files
 ]
 class
 HelperMixin
-(
-object
-)
 :
     
 "
@@ -2008,24 +2005,21 @@ pass
         
 expected
 =
+f
 "
 s3
 :
 bucket
 :
 {
+EMPTY_SHA512
 }
 /
 {
+rel_path
 }
 :
 "
-.
-format
-(
-EMPTY_SHA512
-rel_path
-)
         
 self
 .
@@ -2598,9 +2592,6 @@ arg
 :
 ]
 )
-"
-r
-"
 )
 .
 read
@@ -3935,9 +3926,6 @@ assertEqual
 open
 (
 symbol_file
-"
-r
-"
 )
 .
 read
@@ -4553,9 +4541,6 @@ symlines
 open
 (
 symbol_file
-"
-r
-"
 )
 .
 readlines

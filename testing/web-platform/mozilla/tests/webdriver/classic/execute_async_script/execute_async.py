@@ -144,6 +144,7 @@ url
 inline
 (
         
+f
 "
 "
 "
@@ -187,6 +188,7 @@ event
 {
           
 {
+dialog_type
 }
 (
 "
@@ -208,13 +210,6 @@ script
 "
 "
 "
-.
-format
-(
-            
-dialog_type
-        
-)
     
 )
     
@@ -400,32 +395,6 @@ session
 window_handle
 =
 original_handle
-    
-#
-Opening
-the
-alert
-in
-a
-different
-window
-is
-async
-here
-and
-can
-cause
-    
-#
-delays
-in
-slow
-builds
-like
-CCOV
-or
-TSAN
-.
     
 wait
 =

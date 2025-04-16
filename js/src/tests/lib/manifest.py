@@ -427,6 +427,7 @@ directory
 containing
 "
                 
+f
 "
 the
 JS
@@ -435,14 +436,10 @@ shell
 searched
 from
 {
+jsdir
 }
 )
 "
-.
-format
-(
-jsdir
-)
             
 )
             
@@ -851,6 +848,7 @@ js_prologue
 e
 "
                 
+f
 "
 print
 (
@@ -858,15 +856,11 @@ print
 !
 (
 {
+cond
 }
 )
 )
 "
-.
-format
-(
-cond
-)
             
 ]
         
@@ -970,6 +964,7 @@ raise
 Exception
 (
                 
+f
 "
 Failed
 to
@@ -977,33 +972,30 @@ test
 XUL
 condition
 {
+cond
 !
 r
 }
 ;
 "
                 
+f
 "
 output
 was
 {
+out
 !
 r
 }
 stderr
 was
 {
+err
 !
 r
 }
 "
-.
-format
-(
-cond
-out
-err
-)
             
 )
         
@@ -1117,6 +1109,7 @@ js_prologue
 e
 "
                     
+f
 "
 print
 (
@@ -1124,15 +1117,11 @@ print
 !
 (
 {
+cond
 }
 )
 )
 "
-.
-format
-(
-cond
-)
                 
 ]
             
@@ -1221,6 +1210,7 @@ raise
 Exception
 (
                     
+f
 "
 Failed
 to
@@ -1228,33 +1218,30 @@ test
 XUL
 condition
 {
+cond
 !
 r
 }
 ;
 "
                     
+f
 "
 output
 was
 {
+out
 !
 r
 }
 stderr
 was
 {
+err
 !
 r
 }
 "
-.
-format
-(
-cond
-out
-err
-)
                 
 )
             
@@ -1960,6 +1947,7 @@ else
             
 print
 (
+f
 '
 warning
 :
@@ -1969,17 +1957,13 @@ line
 element
 "
 {
-}
-"
-'
-.
-format
-(
 parts
 [
 pos
 ]
-)
+}
+"
+'
 )
             
 pos
@@ -3332,9 +3316,6 @@ with
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -3492,7 +3473,6 @@ matches
                     
 print
 (
-                        
 "
 warning
 :
@@ -3504,18 +3484,12 @@ jstests
 list
 :
 "
-                        
+f
 "
 {
-0
+line
 }
 "
-.
-format
-(
-line
-)
-                    
 )
                     
 continue

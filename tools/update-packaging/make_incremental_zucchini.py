@@ -1077,9 +1077,6 @@ open
 rmv
 .
 name
-"
-r
-"
 )
 as
 f

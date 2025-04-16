@@ -721,16 +721,13 @@ self
 .
 log
 (
+f
 "
 Checking
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
             
 r
@@ -768,24 +765,21 @@ self
 .
 error
 (
+f
 "
 FAIL
 :
 {
+url
 }
 status
 :
 {
-}
-"
-.
-format
-(
-url
 r
 .
 status_code
-)
+}
+"
 )
                 
 raise
@@ -814,6 +808,7 @@ self
 .
 error
 (
+f
 "
 FAIL
 :
@@ -824,15 +819,11 @@ not
 https
 :
 {
-}
-"
-.
-format
-(
 r
 .
 url
-)
+}
+"
 )
                 
 self
@@ -864,6 +855,7 @@ self
 .
 error
 (
+f
 "
 FAIL
 :
@@ -874,15 +866,11 @@ allowed
 locations
 :
 {
-}
-"
-.
-format
-(
 r
 .
 url
-)
+}
+"
 )
                 
 self

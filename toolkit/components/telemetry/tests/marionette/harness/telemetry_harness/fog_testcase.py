@@ -267,6 +267,7 @@ _logger
 info
 (
             
+f
 "
 Submitting
 to
@@ -275,17 +276,13 @@ ping
 server
 at
 {
-}
-"
-.
-format
-(
 self
 .
 fog_ping_server
 .
 url
-)
+}
+"
         
 )
         

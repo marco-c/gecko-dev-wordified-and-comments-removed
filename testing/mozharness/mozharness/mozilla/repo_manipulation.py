@@ -50,9 +50,6 @@ import
 MercurialVCS
 class
 MercurialRepoManipulationMixin
-(
-object
-)
 :
     
 def
@@ -1298,18 +1295,13 @@ self
 info
 (
             
+f
 "
 existing_tags
 :
 \
 n
 {
-}
-"
-.
-format
-(
-                
 json
 .
 dumps
@@ -1322,8 +1314,8 @@ indent
 =
 4
 )
-            
-)
+}
+"
         
 )
         

@@ -519,17 +519,14 @@ dmg
 attribution
 "
 :
+f
 "
 dlsource
 =
 {
+dlsource
 }
 "
-.
-format
-(
-dlsource
-)
                     
 }
                 

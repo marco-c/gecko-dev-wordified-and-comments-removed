@@ -1,8 +1,5 @@
 class
 FOGPingFilter
-(
-object
-)
 :
     
 "

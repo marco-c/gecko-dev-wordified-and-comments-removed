@@ -7645,24 +7645,18 @@ selected_categories_msg
         
 msg
 =
+f
 "
 Perf
 selections
 =
 {
+selected_categories_msg
 }
 \
 nQueries
 =
 {
-}
-"
-.
-format
-(
-            
-selected_categories_msg
-            
 json
 .
 dumps
@@ -7672,8 +7666,8 @@ indent
 =
 4
 )
-        
-)
+}
+"
         
 if
 alert_summary_id
@@ -7825,18 +7819,12 @@ perf
 again
 "
                         
+f
 "
 {
 msg
 }
 "
-.
-format
-(
-msg
-=
-msg
-)
                         
 try_task_config
 =
@@ -7944,18 +7932,12 @@ push_to_try
 perf
 "
                     
+f
 "
 {
 msg
 }
 "
-.
-format
-(
-msg
-=
-msg
-)
                     
 try_task_config
 =

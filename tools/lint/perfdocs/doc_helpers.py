@@ -42,9 +42,6 @@ defined
 pass
 class
 TableBuilder
-(
-object
-)
 :
     
 "

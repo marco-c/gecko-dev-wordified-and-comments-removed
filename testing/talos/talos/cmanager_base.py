@@ -1,8 +1,5 @@
 class
 CounterManager
-(
-object
-)
 :
     
 counterDict

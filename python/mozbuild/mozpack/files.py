@@ -271,9 +271,6 @@ mode
 )
 class
 Dest
-(
-object
-)
 :
     
 "
@@ -586,9 +583,6 @@ file
 None
 class
 BaseFile
-(
-object
-)
 :
     
 "
@@ -4775,9 +4769,6 @@ return
 output
 class
 BaseFinder
-(
-object
-)
 :
     
 def

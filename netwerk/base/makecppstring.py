@@ -13,9 +13,6 @@ file
 open
 (
 filename
-"
-r
-"
 )
     
 output

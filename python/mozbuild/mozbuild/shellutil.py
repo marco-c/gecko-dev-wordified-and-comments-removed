@@ -289,9 +289,6 @@ char
 char
 class
 _ClineSplitter
-(
-object
-)
 :
     
 "

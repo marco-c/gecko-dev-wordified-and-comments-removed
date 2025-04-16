@@ -33,9 +33,6 @@ import
 UnixFormatter
 class
 JSONFormatter
-(
-object
-)
 :
     
 def

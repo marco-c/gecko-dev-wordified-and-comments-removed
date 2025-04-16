@@ -1090,18 +1090,15 @@ subcommand
                     
 name
 =
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 name
+}
+{
 subcommand
-)
+}
+"
                 
 parser
 .
@@ -1129,17 +1126,14 @@ name
 join
 (
 [
+f
 "
 '
 {
+arg
 }
 '
 "
-.
-format
-(
-arg
-)
 for
 arg
 in

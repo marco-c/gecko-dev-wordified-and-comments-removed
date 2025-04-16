@@ -106,9 +106,6 @@ defaultdict
 deque
 class
 IdMapping
-(
-object
-)
 :
     
 "

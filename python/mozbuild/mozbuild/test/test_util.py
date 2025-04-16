@@ -4446,9 +4446,6 @@ self
         
 class
 foo
-(
-object
-)
 :
             
 def
@@ -4678,9 +4675,6 @@ self
         
 class
 foo
-(
-object
-)
 :
             
 def
@@ -5195,9 +5189,6 @@ objs
         
 class
 Foo
-(
-object
-)
 :
             
 def
@@ -6469,11 +6460,6 @@ ZYXWVU
 .
 encode
 (
-"
-utf
--
-8
-"
 )
 )
             

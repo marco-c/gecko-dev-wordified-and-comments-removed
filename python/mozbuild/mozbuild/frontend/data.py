@@ -131,9 +131,6 @@ import
 FinalTargetValue
 class
 TreeMetadata
-(
-object
-)
 :
     
 "
@@ -460,9 +457,6 @@ topobjdir
 )
 class
 HostMixin
-(
-object
-)
 :
     
 property
@@ -4031,9 +4025,6 @@ WASM_OBJ_SUFFIX
 )
 class
 BaseRustLibrary
-(
-object
-)
 :
     
 slots
@@ -5108,9 +5099,6 @@ host_dll_suffix
 )
 class
 ExternalLibrary
-(
-object
-)
 :
     
 "

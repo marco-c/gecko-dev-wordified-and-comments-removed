@@ -97,9 +97,6 @@ b4f8
 "
 class
 MouseButton
-(
-object
-)
 :
     
 "
@@ -131,9 +128,6 @@ RIGHT
 2
 class
 ActionSequence
-(
-object
-)
 :
     
 r
@@ -1320,9 +1314,6 @@ return
 self
 class
 Actions
-(
-object
-)
 :
     
 def
@@ -1500,9 +1491,6 @@ kwargs
 )
 class
 WebElement
-(
-object
-)
 :
     
 "
@@ -2827,9 +2815,6 @@ element
 )
 class
 ShadowRoot
-(
-object
-)
 :
     
 "
@@ -3191,9 +3176,6 @@ root
 )
 class
 WebFrame
-(
-object
-)
 :
     
 "
@@ -3342,9 +3324,6 @@ frame
 )
 class
 WebWindow
-(
-object
-)
 :
     
 "
@@ -3495,9 +3474,6 @@ window
 )
 class
 Alert
-(
-object
-)
 :
     
 "
@@ -3725,9 +3701,6 @@ string
 )
 class
 Marionette
-(
-object
-)
 :
     
 "
@@ -4338,31 +4311,28 @@ exc_info
             
 msg
 =
+f
 "
 Port
 {
+self
+.
+host
 }
 :
 {
+self
+.
+port
 }
 is
 unavailable
 (
 {
+value
 }
 )
 "
-.
-format
-(
-self
-.
-host
-self
-.
-port
-value
-)
             
 raise
 OSError
@@ -4934,6 +4904,7 @@ check_for_crash
 raise
 OSError
 (
+f
 "
 Process
 crashed
@@ -4942,19 +4913,15 @@ Exit
 code
 :
 {
-}
-)
-"
-.
-format
-(
 runner
 .
 wait
 (
 0
 )
+}
 )
+"
 )
             
 raise
@@ -4963,6 +4930,7 @@ socket
 timeout
 (
                 
+f
 "
 Timed
 out
@@ -4971,26 +4939,18 @@ for
 connection
 on
 {
-0
-}
-:
-{
-1
-}
-!
-"
-.
-format
-(
-                    
 self
 .
 host
+}
+:
+{
 self
 .
 port
-                
-)
+}
+!
+"
             
 )
     
@@ -6874,6 +6834,7 @@ self
 execute_script
 (
                     
+f
 "
 "
 "
@@ -6914,7 +6875,7 @@ pref
 =
 '
 {
-0
+pref
 }
 '
 ;
@@ -6924,7 +6885,7 @@ value
 =
 '
 {
-1
+value
 }
 '
 ;
@@ -7029,14 +6990,6 @@ false
 "
 "
 "
-.
-format
-(
-                        
-pref
-value
-                    
-)
                 
 )
                 
@@ -7647,24 +7600,19 @@ callback
 raise
 ValueError
 (
-                    
+f
 "
 Specified
 callback
 '
 {
+callback
 }
 '
 is
 not
 callable
 "
-.
-format
-(
-callback
-)
-                
 )
             
 self
@@ -8342,24 +8290,19 @@ callback
 raise
 ValueError
 (
-                    
+f
 "
 Specified
 callback
 '
 {
+callback
 }
 '
 is
 not
 callable
 "
-.
-format
-(
-callback
-)
-                
 )
             
 self
@@ -8835,22 +8778,17 @@ directory
 "
         
 return
+f
 "
 {
-0
-}
-{
-1
-}
-"
-.
-format
-(
 self
 .
 baseurl
+}
+{
 relative_url
-)
+}
+"
     
 do_process_check
     
@@ -10609,18 +10547,15 @@ CONTEXT_CONTENT
 raise
 ValueError
 (
+f
 "
 Unknown
 context
 :
 {
+context
 }
 "
-.
-format
-(
-context
-)
 )
         
 self
@@ -14877,6 +14812,7 @@ base64
 '
 "
                 
+f
 "
 or
 '
@@ -14884,17 +14820,12 @@ binary
 '
 not
 {
-0
-}
-"
-.
-format
-(
 repr
 (
 format
 )
-)
+}
+"
             
 )
     

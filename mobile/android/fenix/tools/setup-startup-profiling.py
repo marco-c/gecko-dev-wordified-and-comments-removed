@@ -387,19 +387,16 @@ GV_CONFIG
         
 print
 (
+f
 "
 Pushing
 {
+filename
 }
 to
 device
 .
 "
-.
-format
-(
-filename
-)
 )
         
 run
@@ -570,19 +567,16 @@ filename
     
 print
 (
+f
 "
 Removing
 {
+filename
 }
 from
 device
 .
 "
-.
-format
-(
-filename
-)
 )
     
 run

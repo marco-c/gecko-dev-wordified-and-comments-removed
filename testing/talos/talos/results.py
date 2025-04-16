@@ -47,9 +47,6 @@ output
 utils
 class
 TalosResults
-(
-object
-)
 :
     
 "
@@ -316,9 +313,6 @@ raise
 e
 class
 TestResults
-(
-object
-)
 :
     
 "
@@ -605,9 +599,6 @@ counter_results
 )
 class
 Results
-(
-object
-)
 :
     
 def
@@ -1636,9 +1627,6 @@ return
 page
 class
 BrowserLogResults
-(
-object
-)
 :
     
 "
@@ -3023,9 +3011,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 contents

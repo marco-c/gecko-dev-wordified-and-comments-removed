@@ -43,9 +43,6 @@ import
 DEBUG
 class
 TransferMixin
-(
-object
-)
 :
     
 "

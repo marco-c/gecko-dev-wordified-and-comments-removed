@@ -1231,19 +1231,16 @@ format
 (
                     
 flavor
+f
 "
 and
 subsuite
 '
 {
+subsuite
 }
 '
 "
-.
-format
-(
-subsuite
-)
 if
 subsuite
 else

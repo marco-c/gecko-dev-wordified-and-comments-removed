@@ -17,9 +17,6 @@ Exception
 pass
 class
 UpdateVerifyConfig
-(
-object
-)
 :
     
 comment_regex

@@ -795,9 +795,6 @@ with
 open
 (
 MOZ_YAML_PATH
-"
-r
-"
 encoding
 =
 "
@@ -1220,9 +1217,6 @@ with
 open
 (
 JS_PATH
-"
-r
-"
 encoding
 =
 "

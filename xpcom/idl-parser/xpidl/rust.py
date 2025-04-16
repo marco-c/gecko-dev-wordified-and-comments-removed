@@ -27,9 +27,6 @@ import
 xpidl
 class
 AutoIndent
-(
-object
-)
 :
     
 "

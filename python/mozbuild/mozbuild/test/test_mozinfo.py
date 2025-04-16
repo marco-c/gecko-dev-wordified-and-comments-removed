@@ -37,9 +37,6 @@ build_dict
 write_mozinfo
 class
 Base
-(
-object
-)
 :
     
 def

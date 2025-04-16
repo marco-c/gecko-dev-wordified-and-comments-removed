@@ -13,16 +13,10 @@ PIPE
 Popen
 class
 TaskPool
-(
-object
-)
 :
     
 class
 Task
-(
-object
-)
 :
         
 def
@@ -204,9 +198,6 @@ open
 os
 .
 devnull
-"
-r
-"
 )
 as
 devnull

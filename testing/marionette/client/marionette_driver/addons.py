@@ -26,9 +26,6 @@ MarionetteException
 pass
 class
 Addons
-(
-object
-)
 :
     
 "

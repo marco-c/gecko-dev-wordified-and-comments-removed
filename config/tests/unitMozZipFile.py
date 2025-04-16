@@ -1289,21 +1289,17 @@ allfiles
     
 testbasename
 =
+f
 "
 test
 {
-0
-}
-_
-"
-.
-format
-(
 getid
 (
 first
 )
-)
+}
+_
+"
     
 test
 =

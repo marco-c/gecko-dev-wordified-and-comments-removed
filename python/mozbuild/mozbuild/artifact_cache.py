@@ -848,9 +848,6 @@ files
 ]
 class
 ArtifactCache
-(
-object
-)
 :
     
 "

@@ -163,9 +163,6 @@ return
 path
 class
 ManifestParser
-(
-object
-)
 :
     
 "
@@ -4929,20 +4926,17 @@ join
 (
                 
 [
+f
 "
 [
 {
-}
-]
-"
-.
-format
-(
 denormalize_path
 (
 filename
 )
-)
+}
+]
+"
 for
 filename
 in

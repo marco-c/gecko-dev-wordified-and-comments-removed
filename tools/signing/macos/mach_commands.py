@@ -1880,9 +1880,6 @@ with
 open
 (
 buildconfigpath
-"
-r
-"
 )
 as
 buildconfigfile

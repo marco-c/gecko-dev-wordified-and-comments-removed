@@ -1465,9 +1465,6 @@ SystemError
 )
 class
 BaseConfig
-(
-object
-)
 :
     
 "

@@ -38,23 +38,20 @@ text
     
 print
 (
+f
 "
 TEST
 -
 PASS
 |
 {
+scriptname
 }
 |
 {
+text
 }
 "
-.
-format
-(
-scriptname
-text
-)
 )
 def
 log_fail
@@ -65,6 +62,7 @@ text
     
 print
 (
+f
 "
 TEST
 -
@@ -73,17 +71,13 @@ UNEXPECTED
 FAIL
 |
 {
+scriptname
 }
 |
 {
+text
 }
 "
-.
-format
-(
-scriptname
-text
-)
 )
 def
 check_opcode

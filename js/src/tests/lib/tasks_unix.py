@@ -32,9 +32,6 @@ TestOutput
 escape_cmdline
 class
 Task
-(
-object
-)
 :
     
 def
@@ -711,19 +708,16 @@ else
 raise
 KeyError
 (
+f
 "
 No
 such
 pid
 :
 {
+pid
 }
 "
-.
-format
-(
-pid
-)
 )
     
 out

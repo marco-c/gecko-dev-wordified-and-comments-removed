@@ -155,22 +155,17 @@ raise
 Exception
 (
             
+f
 "
 Unknown
 architecture
 {
+arch
 }
 available
 architectures
 :
 {
-}
-"
-.
-format
-(
-                
-arch
 list
 (
 _BCJ_OPTIONS
@@ -179,8 +174,8 @@ keys
 (
 )
 )
-            
-)
+}
+"
         
 )
     

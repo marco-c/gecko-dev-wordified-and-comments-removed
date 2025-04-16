@@ -265,18 +265,15 @@ label
         
 print
 (
+f
 "
 UserInteractionInfo
 (
 {
+name_index
 }
 )
 "
-.
-format
-(
-name_index
-)
 file
 =
 output

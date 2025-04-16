@@ -332,9 +332,6 @@ JobObjectExtendedLimitInformation
 9
 class
 JobObjectInfo
-(
-object
-)
 :
     
 mapping
@@ -560,9 +557,6 @@ QueryInformationJobObjectFlags
 )
 class
 SubscriptableReadOnlyStruct
-(
-object
-)
 :
     
 def

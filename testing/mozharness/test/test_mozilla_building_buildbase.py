@@ -33,9 +33,6 @@ MozconfigPathError
 get_mozconfig_path
 class
 FakeLogger
-(
-object
-)
 :
     
 def
@@ -56,7 +53,6 @@ FakeScriptMixin
 (
 LogMixin
 ScriptMixin
-object
 )
 :
     

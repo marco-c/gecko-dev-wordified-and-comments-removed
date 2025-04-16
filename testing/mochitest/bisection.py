@@ -4,9 +4,6 @@ import
 mozinfo
 class
 Bisect
-(
-object
-)
 :
     
 "

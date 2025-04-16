@@ -26,9 +26,6 @@ TIMEOUT
 60
 class
 TPS
-(
-object
-)
 :
     
 logger
@@ -227,23 +224,20 @@ logger
 .
 info
 (
+f
 "
 Using
 profile
 at
 :
 {
-}
-"
-.
-format
-(
 self
 .
 profile
 .
 profile
-)
+}
+"
 )
         
 runner
@@ -361,19 +355,16 @@ f
 :
             
 assert
+f
 "
 test
 phase
 {
+phase
 }
 :
 PASS
 "
-.
-format
-(
-phase
-)
 in
 f
 .

@@ -533,20 +533,17 @@ OSError
 errno
 .
 ENOENT
+f
 "
 Could
 not
 find
 {
+tool
 }
 on
 PATH
 "
-.
-format
-(
-tool
-)
 )
     
 if

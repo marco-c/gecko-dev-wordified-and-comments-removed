@@ -443,22 +443,19 @@ logger
 .
 info
 (
+f
 "
 Running
 tasks
 for
 {
+scriptworker
 }
 :
 {
+worker_tasks
 }
 "
-.
-format
-(
-scriptworker
-worker_tasks
-)
 )
             
 tasks
@@ -475,19 +472,16 @@ logger
 .
 info
 (
+f
 "
 No
 tasks
 for
 {
+scriptworker
 }
 .
 "
-.
-format
-(
-scriptworker
-)
 )
     
 mach
@@ -551,23 +545,20 @@ extend
 route
 "
                 
+f
 "
 notify
 .
 email
 .
 {
+address
 }
 .
 on
 -
 failed
 "
-.
-format
-(
-address
-)
                 
 "
 -
@@ -575,23 +566,20 @@ address
 route
 "
                 
+f
 "
 notify
 .
 email
 .
 {
+address
 }
 .
 on
 -
 exception
 "
-.
-format
-(
-address
-)
             
 ]
         

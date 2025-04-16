@@ -128,9 +128,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 fd
@@ -272,9 +269,6 @@ with
 open
 (
 template_path
-"
-r
-"
 )
 as
 template_fd
@@ -329,6 +323,7 @@ textwrap
 dedent
 (
             
+f
 "
 "
 "
@@ -379,18 +374,6 @@ endif
 "
 "
 "
-.
-format
-(
-                
-ty
-=
-ty
-name
-=
-name
-            
-)
         
 )
     
@@ -482,6 +465,7 @@ textwrap
 dedent
 (
             
+f
 "
 "
 "
@@ -552,24 +536,6 @@ endif
 "
 "
 "
-.
-format
-(
-                
-ty
-=
-ty
-name
-=
-name
-params
-=
-params
-args
-=
-args
-            
-)
         
 )
     

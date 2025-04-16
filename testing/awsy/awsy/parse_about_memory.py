@@ -952,18 +952,14 @@ v
             
 print
 (
+f
 "
 {
-0
+k
 }
 \
 t
 "
-.
-format
-(
-k
-)
 )
     
 print
@@ -1001,22 +997,18 @@ mebi
                 
 print
 (
+f
 "
 {
-0
+v
+/
+bytes_per_mebibyte
 :
 .
 2f
 }
 MiB
 "
-.
-format
-(
-v
-/
-bytes_per_mebibyte
-)
 )
             
 else
@@ -1024,17 +1016,13 @@ else
                 
 print
 (
+f
 "
 {
-0
+v
 }
 bytes
 "
-.
-format
-(
-v
-)
 )
             
 print

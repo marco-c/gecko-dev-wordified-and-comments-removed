@@ -1572,6 +1572,7 @@ raise
 ValueError
 (
                     
+f
 "
 New
 upstream
@@ -1581,26 +1582,20 @@ not
 end
 with
 {
-}
-:
-'
-{
-}
-'
-"
-.
-format
-(
-                        
 expr
 [
 :
 -
 1
 ]
+}
+:
+'
+{
 install_url
-                    
-)
+}
+'
+"
                 
 )
             
@@ -2391,6 +2386,7 @@ self
 .
 error
 (
+f
 "
 Mozperftest
 failed
@@ -2398,13 +2394,9 @@ to
 run
 :
 {
+msg
 }
 "
-.
-format
-(
-msg
-)
 msg
 )
         

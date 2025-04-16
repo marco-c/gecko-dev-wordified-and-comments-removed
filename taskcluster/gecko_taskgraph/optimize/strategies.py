@@ -375,8 +375,12 @@ logger
 debug
 (
                         
+f
 "
 {
+task
+.
+label
 }
 runs
 a
@@ -384,6 +388,7 @@ test
 path
 (
 {
+t
 }
 )
 contained
@@ -393,20 +398,10 @@ modified
 file
 (
 {
+d
 }
 )
 "
-.
-format
-(
-                            
-task
-.
-label
-t
-d
-                        
-)
                     
 )
                     
@@ -534,6 +529,7 @@ logger
 debug
 (
                 
+f
 '
 no
 files
@@ -550,18 +546,12 @@ changed
 for
 "
 {
-}
-"
-'
-.
-format
-(
-                    
 task
 .
 label
-                
-)
+}
+"
+'
             
 )
             

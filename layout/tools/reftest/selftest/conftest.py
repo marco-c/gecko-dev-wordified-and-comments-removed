@@ -863,6 +863,7 @@ pytest
 .
 skip
 (
+f
 "
 skipped
 due
@@ -873,11 +874,7 @@ match
 \
 n
 {
+value
 }
 "
-.
-format
-(
-value
-)
 )

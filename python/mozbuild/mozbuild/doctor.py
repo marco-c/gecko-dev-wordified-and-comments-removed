@@ -799,10 +799,12 @@ display_text
 =
 [
                         
+f
 "
 SSH
 username
 {
+username
 }
 is
 not
@@ -811,11 +813,6 @@ email
 address
 .
 "
-.
-format
-(
-username
-)
                         
 "
 hg
@@ -860,10 +857,12 @@ display_text
 =
 [
                     
+f
 "
 SSH
 username
 {
+username
 }
 does
 not
@@ -882,11 +881,6 @@ mozilla
 org
 .
 "
-.
-format
-(
-username
-)
                 
 ]
             
@@ -2582,9 +2576,6 @@ MOZILLABUILD
 VERSION
 "
 )
-"
-r
-"
 )
 as
 fh

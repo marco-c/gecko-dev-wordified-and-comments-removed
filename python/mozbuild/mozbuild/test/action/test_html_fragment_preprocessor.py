@@ -1436,9 +1436,6 @@ with
 open
 (
 DUMMY_FILE
-"
-r
-"
 )
 as
 file

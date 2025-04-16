@@ -65,9 +65,6 @@ __file__
 )
 class
 Timer
-(
-object
-)
 :
     
 def

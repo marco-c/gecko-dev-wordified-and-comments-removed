@@ -36,9 +36,6 @@ NullHandler
 )
 class
 GradlewBuild
-(
-object
-)
 :
     
 binary
@@ -135,6 +132,7 @@ gradlew
 "
             
 +
+f
 "
 app
 :
@@ -157,15 +155,9 @@ syncintegration
 SyncIntegrationTest
 #
 {
+identifier
 }
 "
-.
-format
-(
-                
-identifier
-            
-)
         
 )
         
@@ -175,18 +167,15 @@ logger
 .
 info
 (
+f
 "
 Running
 cmd
 :
 {
+cmd
 }
 "
-.
-format
-(
-cmd
-)
 )
         
 out

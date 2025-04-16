@@ -238,11 +238,13 @@ args
     
 print
 (
+f
 "
 warning
 :
 '
 {
+hooktype
 }
 '
 is
@@ -252,11 +254,6 @@ valid
 mozlint
 hooktype
 "
-.
-format
-(
-hooktype
-)
 )
     
 return

@@ -357,9 +357,6 @@ get_text_attr
 )
 class
 Terminal
-(
-object
-)
 :
     
 COLOR

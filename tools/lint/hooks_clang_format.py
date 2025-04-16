@@ -302,11 +302,13 @@ False
     
 print
 (
+f
 "
 warning
 :
 '
 {
+hooktype
 }
 '
 is
@@ -318,11 +320,6 @@ clang
 format
 hooktype
 "
-.
-format
-(
-hooktype
-)
 )
     
 return

@@ -364,18 +364,15 @@ start
     
 print
 (
+f
 "
 Starting
 trychooser
 on
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
     
 process
@@ -442,25 +439,22 @@ return
     
 msg
 =
+f
 "
 Try
 Chooser
 Enhanced
 (
 {
+len
+(
+selected
+)
 }
 tasks
 selected
 )
 "
-.
-format
-(
-len
-(
-selected
-)
-)
     
 return
 push_to_try

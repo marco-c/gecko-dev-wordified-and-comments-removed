@@ -952,19 +952,16 @@ tests
         
 submsg
 =
+f
 "
 for
 subsuite
 '
 {
+subsuite
 }
 '
 "
-.
-format
-(
-subsuite
-)
 if
 subsuite
 else
@@ -988,8 +985,10 @@ collected
 "
             
 +
+f
 "
 {
+submsg
 }
 (
 Not
@@ -998,11 +997,6 @@ PYTHON_UNITTEST_MANIFESTS
 ?
 )
 "
-.
-format
-(
-submsg
-)
         
 )
         

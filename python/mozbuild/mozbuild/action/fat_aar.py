@@ -166,19 +166,16 @@ greprefs
 js
 "
 :
+f
 "
 {
+arch
 }
 /
 greprefs
 .
 js
 "
-.
-format
-(
-arch
-)
             
 "
 defaults
@@ -192,12 +189,14 @@ prefs
 js
 "
 :
+f
 "
 defaults
 /
 pref
 /
 {
+arch
 }
 /
 geckoview
@@ -206,13 +205,6 @@ prefs
 .
 js
 "
-.
-format
-(
-                
-arch
-            
-)
         
 }
         
@@ -360,20 +352,17 @@ hexdigest
                     
 diffs
 [
+f
 "
 {
+path
 }
 !
 /
 {
+r
 }
 "
-.
-format
-(
-path
-r
-)
 ]
 [
 fingerprint
@@ -637,13 +626,14 @@ allow_pattern_list
 print
 (
                 
+f
 '
 Allowed
 :
 Path
 "
 {
-path
+p
 }
 "
 has
@@ -655,24 +645,12 @@ versions
 \
 n
 {
-ds_repr
-}
-'
-.
-format
-(
-                    
-path
-=
-p
-ds_repr
-=
 format_diffs
 (
 ds
 )
-                
-)
+}
+'
             
 )
             
@@ -699,13 +677,14 @@ items
 print
 (
             
+f
 '
 Disallowed
 :
 Path
 "
 {
-path
+p
 }
 "
 has
@@ -717,24 +696,12 @@ versions
 \
 n
 {
-ds_repr
-}
-'
-.
-format
-(
-                
-path
-=
-p
-ds_repr
-=
 format_diffs
 (
 ds
 )
-            
-)
+}
+'
         
 )
     
@@ -750,6 +717,7 @@ missing_arch_prefs
 print
 (
             
+f
 "
 Disallowed
 :
@@ -765,15 +733,6 @@ input
 missing
 }
 "
-.
-format
-(
-                
-missing
-=
-missing
-            
-)
         
 )
     
@@ -989,17 +948,14 @@ parser
 .
 add_argument
 (
+f
 "
 -
 -
 {
+command_line_flag
 }
 "
-.
-format
-(
-command_line_flag
-)
 dest
 =
 arch

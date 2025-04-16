@@ -151,9 +151,6 @@ file_path
 )
 class
 MockConfig
-(
-object
-)
 :
     
 def

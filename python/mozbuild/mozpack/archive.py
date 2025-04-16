@@ -505,9 +505,6 @@ files
 )
 class
 _BZ2Proxy
-(
-object
-)
 :
     
 "

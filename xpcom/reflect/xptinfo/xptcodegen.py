@@ -3552,9 +3552,6 @@ with
 open
 (
 file
-"
-r
-"
 )
 as
 fd

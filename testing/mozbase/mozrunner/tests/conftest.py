@@ -90,18 +90,15 @@ xfail
 (
 reason
 =
+f
 "
 {
+app
 }
 support
 not
 implemented
 "
-.
-format
-(
-app
-)
 )
         
 if
@@ -174,20 +171,17 @@ pytest
 .
 skip
 (
+f
 "
 could
 not
 find
 a
 {
+app
 }
 binary
 "
-.
-format
-(
-app
-)
 )
         
 return

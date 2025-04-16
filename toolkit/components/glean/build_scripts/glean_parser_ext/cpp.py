@@ -216,19 +216,9 @@ Extra
 "
                 
 return
+f
 "
 {
-}
-Metric
-<
-{
-}
->
-"
-.
-format
-(
-                    
 util
 .
 Camelize
@@ -237,6 +227,10 @@ obj
 .
 type
 )
+}
+Metric
+<
+{
 util
 .
 Camelize
@@ -247,8 +241,9 @@ name
 )
 +
 suffix
-                
-)
+}
+>
+"
     
 return
 util

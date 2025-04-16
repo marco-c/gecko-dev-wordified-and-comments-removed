@@ -2000,6 +2000,7 @@ self
 error
 (
                             
+f
 "
 the
 following
@@ -2009,15 +2010,9 @@ not
 writable
 :
 {
+fmt_dir
 }
 "
-.
-format
-(
-                                
-fmt_dir
-                            
-)
                         
 )
                 
@@ -2036,7 +2031,7 @@ self
 .
 error
 (
-                        
+f
 "
 the
 following
@@ -2046,14 +2041,9 @@ not
 available
 :
 {
+fmt
 }
 "
-.
-format
-(
-fmt
-)
-                    
 )
                 
 formats

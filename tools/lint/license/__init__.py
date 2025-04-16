@@ -307,9 +307,6 @@ with
 open
 (
 filename
-"
-r
-"
 errors
 =
 "
@@ -436,6 +433,7 @@ log
 .
 debug
 (
+f
 "
 Could
 not
@@ -443,31 +441,24 @@ read
 file
 '
 {
+f
 }
 '
 "
-.
-format
-(
-f
-)
 )
             
 log
 .
 debug
 (
+f
 "
 Error
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
             
 return
@@ -1621,18 +1612,15 @@ f
 message
 "
 :
+f
 "
 references
 unknown
 path
 {
+invalid_path
 }
 "
-.
-format
-(
-invalid_path
-)
                         
 "
 level

@@ -15,9 +15,6 @@ WebPlatformTestsRunner
 create_parser_wpt
 class
 WebPlatformTestsRunnerSetup
-(
-object
-)
 :
     
 default_log_type

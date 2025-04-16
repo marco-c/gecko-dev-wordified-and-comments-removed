@@ -399,6 +399,7 @@ history_path
         
 print
 (
+f
 "
 error
 :
@@ -408,13 +409,9 @@ not
 found
 :
 {
+history_path
 }
 "
-.
-format
-(
-history_path
-)
 )
         
 return
@@ -813,23 +810,20 @@ num_hidden_tasks
                         
 print
 (
+f
 "
 {
+indent
 }
 .
 .
 .
 and
 {
+num_hidden_tasks
 }
 more
 "
-.
-format
-(
-indent
-num_hidden_tasks
-)
 )
                 
 if
@@ -917,30 +911,16 @@ else
                 
 print
 (
-                    
+f
 "
 {
-index
-}
-.
-{
-msg
-}
-"
-.
-format
-(
-                        
-index
-=
 i
-                        
+}
+.
+{
 msg
-=
-msg
-                    
-)
-                
+}
+"
 )
         
 return

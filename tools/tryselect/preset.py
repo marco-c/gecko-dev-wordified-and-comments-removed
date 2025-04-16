@@ -616,20 +616,17 @@ splitlines
                 
 print
 (
+f
 "
 Presets
 from
 {
-}
-:
-"
-.
-format
-(
 handler
 .
 path
-)
+}
+:
+"
 )
                 
 print

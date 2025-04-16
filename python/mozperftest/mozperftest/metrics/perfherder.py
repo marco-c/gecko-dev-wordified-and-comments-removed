@@ -992,35 +992,28 @@ prefix
             
 file
 =
+f
 "
 {
+prefix
 }
 -
 {
+file
 }
 "
-.
-format
-(
-prefix
-file
-)
         
 self
 .
 info
 (
+f
 "
 Writing
 perfherder
 results
 to
 {
-}
-"
-.
-format
-(
 os
 .
 path
@@ -1030,7 +1023,8 @@ join
 output
 file
 )
-)
+}
+"
 )
         
 sys
@@ -2013,20 +2007,17 @@ self
 .
 warning
 (
+f
 "
 No
 replicates
 found
 for
 {
+measurement
 }
 skipping
 "
-.
-format
-(
-measurement
-)
 )
                 
 continue

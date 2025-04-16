@@ -146,9 +146,6 @@ parsed
 "
 class
 InstallManifest
-(
-object
-)
 :
     
 "

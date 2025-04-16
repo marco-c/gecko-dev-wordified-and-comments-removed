@@ -57,9 +57,6 @@ resolve
 )
 class
 Benchmark
-(
-object
-)
 :
     
 "
@@ -1786,19 +1783,16 @@ LOG
 .
 info
 (
+f
 "
 Cloning
 the
 benchmarks
 to
 {
+external_repo_path
 }
 "
-.
-format
-(
-external_repo_path
-)
 )
             
 self

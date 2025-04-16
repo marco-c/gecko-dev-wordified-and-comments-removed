@@ -165,9 +165,10 @@ argparse
 .
 ArgumentTypeError
 (
+f
 "
 {
-0
+path
 }
 is
 not
@@ -175,11 +176,6 @@ a
 valid
 dir
 "
-.
-format
-(
-path
-)
 )
     
 if
@@ -205,9 +201,10 @@ argparse
 .
 ArgumentTypeError
 (
+f
 "
 {
-0
+path
 }
 is
 not
@@ -215,11 +212,6 @@ a
 writable
 dir
 "
-.
-format
-(
-path
-)
 )
 def
 create_parser_interventions
@@ -2456,9 +2448,6 @@ with
 open
 (
 fullpath
-"
-r
-"
 )
 as
 f
@@ -2548,9 +2537,6 @@ with
 open
 (
 include_fullpath
-"
-r
-"
 )
 as
 inc

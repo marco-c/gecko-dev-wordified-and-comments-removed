@@ -40,6 +40,7 @@ doc
 :
     
 return
+f
 "
 data
 :
@@ -53,16 +54,12 @@ utf
 -
 8
 {
-}
-"
-.
-format
-(
 quote
 (
 doc
 )
-)
+}
+"
 class
 TestSessionRestoreWithTabGroups
 (

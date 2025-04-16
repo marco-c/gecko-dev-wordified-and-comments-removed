@@ -6437,28 +6437,25 @@ e
                         
 print
 (
+f
 "
 {
-}
-\
-n
-\
-n
-{
-}
-\
-n
-"
-.
-format
-(
 e
+}
+\
+n
+\
+n
+{
 e
 .
 help
 (
 )
-)
+}
+\
+n
+"
 )
                         
 sys
@@ -6558,11 +6555,15 @@ parser
 error
 (
                     
+f
 "
 Error
 :
 Path
 {
+options
+.
+app
 }
 doesn
 '
@@ -6588,13 +6589,6 @@ runtests
 py
 ?
 "
-.
-format
-(
-options
-.
-app
-)
                 
 )
         
@@ -8117,10 +8111,14 @@ parser
 error
 (
                 
+f
 "
 mochitest
 -
 {
+options
+.
+flavor
 }
 does
 not
@@ -8139,13 +8137,6 @@ disable
 e10s
 .
 "
-.
-format
-(
-options
-.
-flavor
-)
             
 )
         

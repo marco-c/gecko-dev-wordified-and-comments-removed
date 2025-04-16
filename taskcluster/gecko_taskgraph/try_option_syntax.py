@@ -4872,42 +4872,38 @@ logger
 debug
 (
                         
+f
 "
 not
 skipping
 tier
 {
+tier
 }
 test
 {
+task
+.
+label
 }
 because
 build
 task
 {
+build_task
+.
+label
 }
 "
                         
+f
 "
 is
 tier
 {
+build_task_tier
 }
 "
-.
-format
-(
-                            
-tier
-task
-.
-label
-build_task
-.
-label
-build_task_tier
-                        
-)
                     
 )
                     
@@ -4926,14 +4922,19 @@ logger
 debug
 (
                         
+f
 "
 not
 skipping
 tier
 {
+tier
 }
 test
 {
+task
+.
+label
 }
 without
 explicit
@@ -4941,6 +4942,7 @@ inclusion
 ;
 "
                         
+f
 "
 it
 is
@@ -4950,19 +4952,9 @@ run
 on
 tiers
 {
+test_tiers
 }
 "
-.
-format
-(
-                            
-tier
-task
-.
-label
-test_tiers
-                        
-)
                     
 )
                     
@@ -4974,25 +4966,35 @@ logger
 debug
 (
                     
+f
 "
 skipping
 tier
 {
+tier
 }
 test
 {
+task
+.
+label
 }
 because
 build
 task
 {
+build_task
+.
+label
 }
 is
 "
                     
+f
 "
 tier
 {
+build_task_tier
 }
 and
 there
@@ -5007,20 +5009,6 @@ the
 same
 name
 "
-.
-format
-(
-                        
-tier
-task
-.
-label
-build_task
-.
-label
-build_task_tier
-                    
-)
                 
 )
                 

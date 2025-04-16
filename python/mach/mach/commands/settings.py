@@ -226,22 +226,18 @@ short
                 
 print
 (
+f
 "
 {
-}
-.
-{
-}
--
--
-{
-}
-"
-.
-format
-(
 section
+}
+.
+{
 option
+}
+-
+-
+{
 desc
 .
 splitlines
@@ -250,7 +246,8 @@ splitlines
 [
 0
 ]
-)
+}
+"
 )
                 
 continue
@@ -336,18 +333,15 @@ desc
             
 print
 (
+f
 "
 ;
 {
+option
 }
 =
 {
+value
 }
 "
-.
-format
-(
-option
-value
-)
 )

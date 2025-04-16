@@ -31,9 +31,6 @@ import
 StringIO
 class
 TestHandler
-(
-object
-)
 :
     
 def

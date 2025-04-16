@@ -6,9 +6,6 @@ import
 re
 class
 TPSTestPhase
-(
-object
-)
 :
     
 lineRe
@@ -320,9 +317,6 @@ open
 self
 .
 logfile
-"
-r
-"
 )
         
 for

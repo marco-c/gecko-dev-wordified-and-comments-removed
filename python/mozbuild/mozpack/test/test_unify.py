@@ -1875,23 +1875,19 @@ testcases
                 
 filename
 =
+f
 "
 ext
 /
 id
 {
-0
+emid
 }
 /
 install
 .
 rdf
 "
-.
-format
-(
-emid
-)
                 
 self
 .

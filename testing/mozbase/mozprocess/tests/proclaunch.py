@@ -28,9 +28,6 @@ children
 )
 class
 ProcessLauncher
-(
-object
-)
 :
     
 "

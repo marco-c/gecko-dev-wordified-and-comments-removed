@@ -629,6 +629,7 @@ names
         
 component_dir
 =
+f
 "
 toolkit
 /
@@ -637,14 +638,9 @@ content
 widgets
 /
 {
-0
+name
 }
 "
-.
-format
-(
-name
-)
         
 try
 :
@@ -665,23 +661,18 @@ pass
 with
 open
 (
+f
 "
 {
-0
+component_dir
 }
 /
 {
-1
+name
 }
 .
 mjs
 "
-.
-format
-(
-component_dir
-name
-)
 "
 w
 "
@@ -750,23 +741,18 @@ class_name
 with
 open
 (
+f
 "
 {
-0
+component_dir
 }
 /
 {
-1
+name
 }
 .
 css
 "
-.
-format
-(
-component_dir
-name
-)
 "
 w
 "
@@ -804,6 +790,7 @@ _
         
 test_path
 =
+f
 "
 toolkit
 /
@@ -815,16 +802,11 @@ widgets
 /
 test_
 {
-0
+test_name
 }
 .
 html
 "
-.
-format
-(
-test_name
-)
         
 jar_path
 =
@@ -846,9 +828,6 @@ with
 open
 (
 jar_path
-"
-r
-"
 )
 as
 f
@@ -875,12 +854,15 @@ elements
         
 new_css_line
 =
+(
+            
+f
 "
 {
-0
+elements_startswith
 }
 {
-1
+name
 }
 .
 css
@@ -888,11 +870,11 @@ css
 widgets
 /
 {
-1
+name
 }
 /
 {
-1
+name
 }
 .
 css
@@ -900,23 +882,20 @@ css
 \
 n
 "
-.
-format
-(
-            
-elements_startswith
-name
         
 )
         
 new_js_line
 =
+(
+            
+f
 "
 {
-0
+elements_startswith
 }
 {
-1
+name
 }
 .
 mjs
@@ -924,11 +903,11 @@ mjs
 widgets
 /
 {
-1
+name
 }
 /
 {
-1
+name
 }
 .
 mjs
@@ -936,12 +915,6 @@ mjs
 \
 n
 "
-.
-format
-(
-            
-elements_startswith
-name
         
 )
         
@@ -1046,42 +1019,33 @@ new_jar_lines
         
 story_path
 =
+f
 "
 {
-0
+component_dir
 }
 /
 {
-1
+name
 }
 .
 stories
 .
 mjs
 "
-.
-format
-(
-component_dir
-name
-)
         
 element_path
 =
+f
 "
 .
 /
 {
-0
+name
 }
 .
 mjs
 "
-.
-format
-(
-name
-)
         
 with
 open
@@ -1373,6 +1337,7 @@ mjs
     
 story_path
 =
+f
 "
 browser
 /
@@ -1383,18 +1348,13 @@ storybook
 stories
 /
 {
-0
+name
 }
 .
 stories
 .
 mjs
 "
-.
-format
-(
-name
-)
     
 project_name
 =
@@ -1424,6 +1384,7 @@ project_name
     
 story_prefix
 =
+f
 "
 Domain
 -
@@ -1432,14 +1393,9 @@ UI
 Widgets
 /
 {
-0
+project_name
 }
 "
-.
-format
-(
-project_name
-)
     
 with
 open

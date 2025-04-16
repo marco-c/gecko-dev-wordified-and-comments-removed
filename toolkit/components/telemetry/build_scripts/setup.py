@@ -20,9 +20,6 @@ README
 .
 md
 "
-"
-r
-"
 )
 as
 fh

@@ -921,16 +921,13 @@ _sub
 create_subtest_entry
 (
                     
+f
 "
 {
+_sub
 }
 _decoded_frames
 "
-.
-format
-(
-_sub
-)
                     
 _value
 [
@@ -947,43 +944,33 @@ False
                 
 create_subtest_entry
 (
-                    
+f
 "
 {
+_sub
 }
 _dropped_frames
 "
-.
-format
-(
-_sub
-)
 _value
 [
 "
 droppedFrames
 "
 ]
-                
 )
                 
 create_subtest_entry
 (
-                    
+f
 "
 {
+_sub
 }
 _
 %
 _dropped_frames
 "
-.
-format
-(
-_sub
-)
 percent_dropped
-                
 )
         
 if

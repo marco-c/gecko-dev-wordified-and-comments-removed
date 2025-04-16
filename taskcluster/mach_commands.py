@@ -1269,22 +1269,19 @@ subtests
 print
 (
                 
+f
 "
 PERFHERDER_DATA
 :
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
 (
 perfherder_data
 )
-)
+}
+"
                 
 file
 =

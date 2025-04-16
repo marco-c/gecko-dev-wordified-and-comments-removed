@@ -153,9 +153,6 @@ _cleanup
 savedCleanup
 class
 Http3Server
-(
-object
-)
 :
     
 "
@@ -1144,9 +1141,6 @@ _http3ServerProc
 }
 class
 NodeHttp2Server
-(
-object
-)
 :
     
 "
@@ -1483,47 +1477,38 @@ self
 .
 _serverPath
                         
+f
 "
 serverPort
 =
 {
-}
-"
-.
-format
-(
 self
 .
 _dstServerPort
-)
+}
+"
                         
+f
 "
 listeningPort
 =
 {
-}
-"
-.
-format
-(
 self
 .
 _port
-)
+}
+"
                         
+f
 "
 alpn
 =
 {
-}
-"
-.
-format
-(
 self
 .
 _alpn
-)
+}
+"
                     
 ]
                     
@@ -1872,9 +1857,6 @@ _nodeProc
 None
 class
 DoHServer
-(
-object
-)
 :
     
 "
@@ -1987,9 +1969,6 @@ stop
 )
 class
 Http2Server
-(
-object
-)
 :
     
 "

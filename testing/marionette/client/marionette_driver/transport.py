@@ -14,9 +14,6 @@ import
 six
 class
 SocketTimeout
-(
-object
-)
 :
     
 def
@@ -96,9 +93,6 @@ self
 old_timeout
 class
 Message
-(
-object
-)
 :
     
 def
@@ -213,41 +207,33 @@ self
 :
         
 return
+f
 "
 <
 Command
 id
 =
 {
-0
-}
-name
-=
-{
-1
-}
-params
-=
-{
-2
-}
->
-"
-.
-format
-(
-            
 self
 .
 id
+}
+name
+=
+{
 self
 .
 name
+}
+params
+=
+{
 self
 .
 params
-        
-)
+}
+>
+"
     
 def
 to_msg
@@ -370,41 +356,33 @@ self
 :
         
 return
+f
 "
 <
 Response
 id
 =
 {
-0
-}
-error
-=
-{
-1
-}
-result
-=
-{
-2
-}
->
-"
-.
-format
-(
-            
 self
 .
 id
+}
+error
+=
+{
 self
 .
 error
+}
+result
+=
+{
 self
 .
 result
-        
-)
+}
+>
+"
     
 def
 to_msg
@@ -476,9 +454,6 @@ data
 )
 class
 SocketContext
-(
-object
-)
 :
     
 "
@@ -662,9 +637,6 @@ release
 )
 class
 TcpTransport
-(
-object
-)
 :
     
 "
@@ -1036,20 +1008,17 @@ else
 raise
 ValueError
 (
+f
 "
 Invalid
 message
 body
 {
+packet
 !
 r
 }
 "
-.
-format
-(
-packet
-)
 )
         
 return
@@ -1233,22 +1202,19 @@ socket
 timeout
 (
                         
+f
 "
 Connection
 timed
 out
 after
 {
-}
-s
-"
-.
-format
-(
 self
 .
 socket_timeout
-)
+}
+s
+"
                     
 )
                 
@@ -1339,23 +1305,18 @@ length_prefix
 raise
 ValueError
 (
-                            
+f
 "
 Invalid
 message
 length
 :
 {
+length_prefix
 !
 r
 }
 "
-.
-format
-(
-length_prefix
-)
-                        
 )
                     
 if
@@ -1445,27 +1406,22 @@ raise
 ValueError
 (
                                 
+f
 "
 Invalid
 message
 length
 :
 {
+err
 }
 got
 {
+length_prefix
 !
 r
 }
 "
-.
-format
-(
-                                    
-err
-length_prefix
-                                
-)
                             
 )
                         
@@ -1765,24 +1721,19 @@ gecko
 raise
 ValueError
 (
-                
+f
 "
 Application
 type
 '
 {
+application_type
 }
 '
 is
 not
 supported
 "
-.
-format
-(
-application_type
-)
-            
 )
         
 if
@@ -2023,31 +1974,24 @@ raise
 OSError
 (
                         
+f
 "
 Socket
 error
 after
 sending
 {
-0
+totalsent
 }
 of
 {
-1
-}
-bytes
-"
-.
-format
-(
-                            
-totalsent
 len
 (
 payload
 )
-                        
-)
+}
+bytes
+"
                     
 )
                 

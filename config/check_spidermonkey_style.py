@@ -1527,9 +1527,6 @@ out
 )
 class
 FileKind
-(
-object
-)
 :
     
 C
@@ -2555,9 +2552,6 @@ return
 False
 class
 Include
-(
-object
-)
 :
     
 "
@@ -2965,9 +2959,6 @@ n
 "
 class
 CppBlock
-(
-object
-)
 :
     
 "
@@ -3764,9 +3755,6 @@ self
 end
 class
 OrdinaryCode
-(
-object
-)
 :
     
 "

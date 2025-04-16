@@ -2522,9 +2522,6 @@ group
 )
 class
 WptMetaCollection
-(
-object
-)
 :
     
 def
@@ -2645,9 +2642,6 @@ dir_path
 ]
 class
 WptMeta
-(
-object
-)
 :
     
 def
@@ -2806,9 +2800,6 @@ meta_path
 meta_root
 dir_path
 )
-"
-r
-"
 )
 as
 f

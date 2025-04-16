@@ -2143,9 +2143,6 @@ with
 open
 (
 cacheIndexPath
-"
-r
-"
 )
 as
 cache

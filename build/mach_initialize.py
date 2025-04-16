@@ -2463,6 +2463,7 @@ state_dir
 print
 (
                 
+f
 "
 Creating
 global
@@ -2473,15 +2474,9 @@ environment
 variable
 :
 {
+state_dir
 }
 "
-.
-format
-(
-                    
-state_dir
-                
-)
             
 )
     
@@ -2542,6 +2537,7 @@ state_dir
             
 print
 (
+f
 "
 Creating
 default
@@ -2549,13 +2545,9 @@ state
 directory
 :
 {
+state_dir
 }
 "
-.
-format
-(
-state_dir
-)
 )
     
 os

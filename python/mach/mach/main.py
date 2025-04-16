@@ -2607,6 +2607,7 @@ fh
 .
 write
 (
+f
 "
 \
 nSentry
@@ -2614,15 +2615,11 @@ event
 ID
 :
 {
+sentry_event_id
 }
 \
 n
 "
-.
-format
-(
-sentry_event_id
-)
 )
     
 def

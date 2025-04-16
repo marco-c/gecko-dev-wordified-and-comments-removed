@@ -108,9 +108,6 @@ import
 UnpackFinder
 class
 LocaleManifestFinder
-(
-object
-)
 :
     
 def
@@ -141,9 +138,6 @@ bases
         
 class
 MockFormatter
-(
-object
-)
 :
             
 def
@@ -209,9 +203,6 @@ base
         
 class
 WrapFinder
-(
-object
-)
 :
             
 def
@@ -378,9 +369,6 @@ ManifestLocale
 )
 class
 L10NRepackFormatterMixin
-(
-object
-)
 :
     
 def

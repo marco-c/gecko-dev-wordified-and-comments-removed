@@ -260,7 +260,7 @@ client
 .
 await_xpath
 (
-        
+f
 "
 /
 /
@@ -271,20 +271,15 @@ contains
 style
 '
 {
+font
 }
 '
 )
 ]
 "
-.
-format
-(
-font
-)
 is_displayed
 =
 True
-    
 )
     
 assert

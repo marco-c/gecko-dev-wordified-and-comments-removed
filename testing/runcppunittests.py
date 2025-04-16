@@ -84,9 +84,6 @@ SCRIPT_DIR
 )
 class
 CPPUnitTests
-(
-object
-)
 :
     
 TEST_PROC_TIMEOUT

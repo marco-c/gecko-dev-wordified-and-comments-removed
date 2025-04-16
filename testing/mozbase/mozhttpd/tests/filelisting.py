@@ -392,9 +392,11 @@ DOCTYPE
             
 msg
 =
+f
 "
 File
 {
+webline
 }
 in
 dir
@@ -404,11 +406,6 @@ to
 a
 file
 "
-.
-format
-(
-webline
-)
             
 assert
 webline
@@ -425,6 +422,7 @@ webline
     
 msg
 =
+f
 "
 Should
 have
@@ -434,16 +432,12 @@ in
 filelist
 (
 {
+filelist
 }
 )
 unaccounted
 for
 "
-.
-format
-(
-filelist
-)
     
 assert
 len

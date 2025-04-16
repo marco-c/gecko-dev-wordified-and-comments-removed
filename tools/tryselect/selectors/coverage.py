@@ -871,18 +871,15 @@ get
 (
 pushes_url
 +
+f
 "
 &
 tochange
 =
 {
+base_revision
 }
 "
-.
-format
-(
-base_revision
-)
 )
 .
 json
@@ -914,10 +911,12 @@ error
 print
 (
                 
+f
 "
 unknown
 revision
 {
+base_revision
 }
 trying
 with
@@ -926,13 +925,6 @@ mozilla
 -
 central
 "
-.
-format
-(
-                    
-base_revision
-                
-)
             
 )
             
@@ -1051,24 +1043,21 @@ rev
         
 print
 (
+f
 "
 push
 id
 :
 {
+push_id
 }
 \
 trevision
 :
 {
+rev
 }
 "
-.
-format
-(
-push_id
-rev
-)
 )
         
 r
@@ -2042,10 +2031,14 @@ files_covered
         
 print
 (
-            
+f
 "
 Found
 {
+len
+(
+files_covered
+)
 }
 modified
 source
@@ -2055,17 +2048,6 @@ test
 coverage
 :
 "
-.
-format
-(
-                
-len
-(
-files_covered
-)
-            
-)
-        
 )
         
 for
@@ -2089,10 +2071,14 @@ files_no_coverage
         
 print
 (
-            
+f
 "
 Found
 {
+len
+(
+files_no_coverage
+)
 }
 modified
 source
@@ -2102,17 +2088,6 @@ no
 coverage
 :
 "
-.
-format
-(
-                
-len
-(
-files_no_coverage
-)
-            
-)
-        
 )
         
 for
@@ -2176,23 +2151,20 @@ test_files
         
 print
 (
+f
 "
 Running
 {
+len
+(
+test_files
+)
 }
 individual
 test
 files
 .
 "
-.
-format
-(
-len
-(
-test_files
-)
-)
 )
     
 else
@@ -2219,22 +2191,19 @@ test_chunks
         
 print
 (
+f
 "
 Running
 {
+len
+(
+test_chunks
+)
 }
 test
 chunks
 .
 "
-.
-format
-(
-len
-(
-test_chunks
-)
-)
 )
         
 for

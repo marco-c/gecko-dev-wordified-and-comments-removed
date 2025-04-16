@@ -5445,11 +5445,6 @@ with
 open
 (
 normalized_mozbuild_filename
-mode
-=
-"
-r
-"
 )
 as
 file
@@ -5767,11 +5762,6 @@ with
 open
 (
 normalized_mozbuild_filename
-mode
-=
-"
-r
-"
 )
 as
 file

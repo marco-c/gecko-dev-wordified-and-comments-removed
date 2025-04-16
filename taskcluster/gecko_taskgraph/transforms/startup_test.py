@@ -70,9 +70,11 @@ binary
         
 package_to_test
 =
+f
 "
 <
 {
+upstream_kind
 }
 /
 public
@@ -80,17 +82,10 @@ public
 build
 /
 {
+upstream_artifact
 }
 >
 "
-.
-format
-(
-            
-upstream_kind
-upstream_artifact
-        
-)
         
 if
 job

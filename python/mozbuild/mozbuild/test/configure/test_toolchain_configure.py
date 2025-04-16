@@ -2754,6 +2754,7 @@ old_ver
 :
     
 return
+f
 "
 Only
 GCC
@@ -2768,15 +2769,11 @@ supported
 found
 version
 {
+old_ver
 }
 )
 .
 "
-.
-format
-(
-old_ver
-)
 class
 LinuxToolchainTest
 (

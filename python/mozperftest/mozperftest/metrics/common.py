@@ -400,9 +400,6 @@ XpcShellTransformer
 }
 class
 MetricsStorage
-(
-object
-)
 :
     
 "
@@ -569,6 +566,7 @@ logger
 .
 warning
 (
+f
 "
 Given
 path
@@ -577,13 +575,9 @@ not
 exist
 :
 {
+results
 }
 "
-.
-format
-(
-results
-)
 )
             
 elif
@@ -1274,21 +1268,18 @@ prefix
                 
 prefix
 =
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 self
 .
 prefix
+}
+-
+{
 data_type
-)
+}
+"
             
 self
 .

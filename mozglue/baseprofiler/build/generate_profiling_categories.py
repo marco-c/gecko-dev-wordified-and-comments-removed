@@ -587,6 +587,7 @@ subcategories
     
 contents
 =
+f
 '
 BEGIN_CATEGORY
 (
@@ -609,21 +610,6 @@ color
 \
 n
 '
-.
-format
-(
-        
-name
-=
-name
-label
-=
-label
-color
-=
-color
-    
-)
     
 subcategory_items
 =
@@ -673,18 +659,19 @@ subcategory_items
 append
 (
             
+f
 '
 SUBCATEGORY
 (
 {
-parent_cat
+name
 }
 {
-name
+subcat_name
 }
 "
 {
-label
+subcat_label
 }
 "
 )
@@ -693,21 +680,6 @@ label
 \
 n
 '
-.
-format
-(
-                
-parent_cat
-=
-name
-name
-=
-subcat_name
-label
-=
-subcat_label
-            
-)
         
 )
     
@@ -865,6 +837,7 @@ subcategories
 0
         
 )
+f
 "
 At
 least
@@ -875,14 +848,10 @@ as
 default
 in
 {
+name
 }
 .
 "
-.
-format
-(
-name
-)
         
 category_items
 .
@@ -1195,26 +1164,20 @@ field
 =
 (
 field_name
+f
 "
 {
-name
+field_name
 }
 (
 Option
 <
 {
-name
+field_name
 }
 >
 )
 "
-.
-format
-(
-name
-=
-field_name
-)
 )
         
 self
@@ -1258,25 +1221,16 @@ field
             
 field_name
             
+f
 "
 {
-name
-}
-=
-{
-value
-}
-"
-.
-format
-(
-name
-=
 field_name
-value
+}
 =
+{
 field_value
-)
+}
+"
         
 )
         
@@ -1340,32 +1294,21 @@ name
                 
 content
 =
+f
 "
 {
-category
-}
-:
-:
-{
-subcategory
-}
-"
-.
-format
-(
-                    
-category
-=
 self
 .
 name
-subcategory
-=
+}
+:
+:
+{
 self
 .
 default_category
-                
-)
+}
+"
             
 )
         
@@ -1669,6 +1612,7 @@ cat_subcategories
 0
         
 )
+f
 "
 At
 least
@@ -1679,14 +1623,10 @@ as
 default
 in
 {
+cat_name
 }
 .
 "
-.
-format
-(
-cat_name
-)
         
 category_enum
 =

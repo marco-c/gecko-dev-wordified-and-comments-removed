@@ -832,9 +832,6 @@ join
 dstdir
 filename
 )
-"
-r
-"
 )
 .
 readlines
@@ -879,9 +876,6 @@ join
 dstdir
 filename
 )
-"
-r
-"
 )
 .
 readlines

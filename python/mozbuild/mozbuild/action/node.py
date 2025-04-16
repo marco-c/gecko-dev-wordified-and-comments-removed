@@ -308,22 +308,19 @@ BUILD_VERBOSE_LOG
             
 print
 (
+f
 '
 Executing
 "
 {
-}
-"
-'
-.
-format
-(
 shell_quote
 (
 *
 node_cmd_list
 )
-)
+}
+"
+'
 file
 =
 sys

@@ -153,9 +153,6 @@ ABCMeta
 )
 class
 PerftestResultsHandler
-(
-object
-)
 :
     
 "
@@ -5637,9 +5634,6 @@ builtins
 open
 (
 bt_res_json
-"
-r
-"
 encoding
 =
 "
@@ -6034,17 +6028,12 @@ builtins
 .
 open
 (
-                            
 bt_profiling_res_json
-"
-r
-"
 encoding
 =
 "
 utf8
 "
-                        
 )
 as
 f
@@ -7468,6 +7457,7 @@ LOG
 info
 (
                 
+f
 "
 Writing
 video
@@ -7476,19 +7466,13 @@ and
 application
 data
 {
+jobs_json
 }
 into
 {
+jobs_file
 }
 "
-.
-format
-(
-                    
-jobs_json
-jobs_file
-                
-)
             
 )
             

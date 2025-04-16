@@ -8,9 +8,6 @@ import
 time
 class
 TestLogger
-(
-object
-)
 :
     
 def

@@ -404,9 +404,6 @@ inc_origin_init
 }
 class
 ReftestManifest
-(
-object
-)
 :
     
 "
@@ -1004,9 +1001,6 @@ with
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -1279,34 +1273,32 @@ raise
 ValueError
 (
                         
+f
 "
 Error
 parsing
 manifest
 {
+path
 }
 line
 {
+lineno
 }
 :
 "
                         
+f
 "
 Invalid
 defaults
 token
 '
 {
+item
 }
 '
 "
-.
-format
-(
-path
-lineno
-item
-)
                     
 )
                 

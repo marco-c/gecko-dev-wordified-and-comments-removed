@@ -18,9 +18,6 @@ import
 pluralize
 class
 StylishFormatter
-(
-object
-)
 :
     
 "
@@ -816,17 +813,14 @@ max_level
 rule
 "
 :
+f
 "
 {
-}
-"
-.
-format
-(
 err
 .
 rule
-)
+}
+"
 if
 err
 .
@@ -1091,16 +1085,13 @@ else
                 
 fixed
 =
+f
 "
 {
+num_fixed
 }
 fixed
 "
-.
-format
-(
-num_fixed
-)
             
 )
         

@@ -6,9 +6,6 @@ import
 mozinfo
 class
 TestContext
-(
-object
-)
 :
     
 "
@@ -397,9 +394,6 @@ attrs
 )
 class
 TestResult
-(
-object
-)
 :
     
 "

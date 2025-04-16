@@ -699,9 +699,6 @@ rv
 )
 class
 Differences
-(
-object
-)
 :
     
 def

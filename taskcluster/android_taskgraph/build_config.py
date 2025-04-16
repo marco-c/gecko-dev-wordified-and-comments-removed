@@ -212,10 +212,12 @@ raise
 ValueError
 (
             
+f
 "
 For
 '
 {
+component
 }
 '
 '
@@ -228,13 +230,6 @@ be
 one
 of
 {
-}
-"
-.
-format
-(
-                
-component
 repr
 (
 EXTENSIONS
@@ -243,8 +238,8 @@ keys
 (
 )
 )
-            
-)
+}
+"
         
 )
     
@@ -430,6 +425,7 @@ number_of_matching_variants
 raise
 ValueError
 (
+f
 '
 No
 variant
@@ -439,14 +435,10 @@ build
 type
 "
 {
+build_type
 }
 "
 '
-.
-format
-(
-build_type
-)
 )
     
 elif
@@ -459,6 +451,7 @@ raise
 ValueError
 (
             
+f
 '
 Too
 many
@@ -469,21 +462,15 @@ build
 type
 "
 {
+build_type
 }
 "
 "
 :
 {
+matching_variants
 }
 '
-.
-format
-(
-                
-build_type
-matching_variants
-            
-)
         
 )
     

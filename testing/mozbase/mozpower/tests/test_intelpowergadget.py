@@ -628,9 +628,6 @@ with
 open
 (
 file
-"
-r
-"
 )
 as
 f
@@ -690,9 +687,6 @@ with
 open
 (
 clean_file
-"
-r
-"
 )
 as
 f
@@ -909,9 +903,6 @@ with
 open
 (
 file
-"
-r
-"
 )
 as
 f
@@ -957,9 +948,6 @@ with
 open
 (
 merged_output_path
-"
-r
-"
 )
 as
 f

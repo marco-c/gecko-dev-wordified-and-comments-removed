@@ -2221,7 +2221,7 @@ py
 "
 )
 "
-wt
+w
 "
 )
 as
@@ -3683,9 +3683,6 @@ fh
 open
 (
 filename
-"
-rt
-"
 )
     
 out

@@ -1369,9 +1369,6 @@ js
 }
 class
 WPTManifestNamespace
-(
-object
-)
 :
     
 "

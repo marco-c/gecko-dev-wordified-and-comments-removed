@@ -1415,25 +1415,22 @@ commits
                 
 print
 (
+f
 "
 {
+i
 }
 :
 \
 t
 {
-}
-"
-.
-format
-(
-i
 commit
 .
 message
 .
 summary
-)
+}
+"
 )
             
 remove
@@ -1576,25 +1573,22 @@ keep_commits
                 
 print
 (
+f
 "
 {
+i
 }
 :
 \
 t
 {
-}
-"
-.
-format
-(
-i
 commit
 .
 message
 .
 summary
-)
+}
+"
 )
             
 confirm
@@ -1969,6 +1963,7 @@ diff
 print
 (
                         
+f
 "
 "
 "
@@ -1981,6 +1976,9 @@ Diff
 saved
 in
 {
+f
+.
+name
 }
 Fix
 this
@@ -1997,15 +1995,6 @@ continue
 "
 "
 "
-.
-format
-(
-                            
-f
-.
-name
-                        
-)
                     
 )
                     

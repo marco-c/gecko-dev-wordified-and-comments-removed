@@ -341,6 +341,7 @@ else
 raise
 Exception
 (
+f
 "
 Unsupported
 type
@@ -351,13 +352,9 @@ Got
 job
 :
 {
+job
 }
 "
-.
-format
-(
-job
-)
 )
     
 for
@@ -706,17 +703,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 }
                 
 "
@@ -1767,17 +1761,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep
 }
 >
 "
-.
-format
-(
-dep
-)
 }
                 
 "

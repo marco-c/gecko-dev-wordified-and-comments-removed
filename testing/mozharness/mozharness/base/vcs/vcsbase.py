@@ -113,9 +113,6 @@ GittoolVCS
 }
 class
 VCSMixin
-(
-object
-)
 :
     
 "

@@ -948,6 +948,7 @@ percentile
             
 print
 (
+f
 "
 estimates
 :
@@ -955,18 +956,14 @@ In
 the
 longest
 {
+100
+-
+percentile
 }
 %
 of
 durations
 "
-.
-format
-(
-100
--
-percentile
-)
 )
         
 else
@@ -974,6 +971,7 @@ else
             
 print
 (
+f
 "
 estimates
 :
@@ -981,16 +979,12 @@ In
 the
 shortest
 {
+percentile
 }
 %
 of
 durations
 "
-.
-format
-(
-percentile
-)
 )
     
 print
@@ -1270,16 +1264,20 @@ the_cmdline
     
 commit_message
 =
+f
 "
 {
+msg
 }
 {
+closed_tree_string
 }
 \
 n
 \
 n
 {
+full_commandline_entry
 }
 \
 n
@@ -1289,21 +1287,9 @@ via
 mach
 try
 {
+method
 }
 "
-.
-format
-(
-        
-msg
-        
-closed_tree_string
-        
-full_commandline_entry
-        
-method
-    
-)
     
 changed_files
 =

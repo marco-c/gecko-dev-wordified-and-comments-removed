@@ -116,6 +116,7 @@ mock
 MagicMock
 (
 )
+b
 "
 don
 '
@@ -123,10 +124,6 @@ t
 parse
 line
 "
-.
-encode
-(
-)
 )
     
 assert
@@ -148,6 +145,7 @@ mock
 MagicMock
 (
 )
+b
 '
 perfMetrics
 :
@@ -171,21 +169,17 @@ values
 }
 ]
 '
-.
-encode
-(
-)
     
 )
     
 line_handler
 (
-        
 mock
 .
 MagicMock
 (
 )
+b
 '
 perfMetrics
 :
@@ -208,11 +202,6 @@ values
 }
 }
 '
-.
-encode
-(
-)
-    
 )
     
 assert

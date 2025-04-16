@@ -222,9 +222,6 @@ nsTHashtable
 )
 class
 thashtable_printer
-(
-object
-)
 :
     
 def

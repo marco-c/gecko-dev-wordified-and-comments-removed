@@ -243,9 +243,6 @@ filename
 )
 class
 BuildResult
-(
-object
-)
 :
     
 "
@@ -1562,9 +1559,6 @@ with
 open
 (
 state_path
-"
-r
-"
 )
 as
 fh
@@ -2569,9 +2563,6 @@ with
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -4231,9 +4222,6 @@ lists
 json
 "
 )
-"
-r
-"
 )
 as
 fh

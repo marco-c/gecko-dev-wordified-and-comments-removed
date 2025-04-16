@@ -617,9 +617,6 @@ items
 )
 class
 WarningsDatabase
-(
-object
-)
 :
     
 "
@@ -1788,9 +1785,6 @@ with
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -1882,9 +1876,6 @@ fh
 )
 class
 WarningsCollector
-(
-object
-)
 :
     
 "

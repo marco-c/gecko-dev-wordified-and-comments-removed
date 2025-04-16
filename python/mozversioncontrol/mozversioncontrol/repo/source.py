@@ -318,9 +318,6 @@ path
 .
 gitignore
 "
-"
-r
-"
 )
         
 while

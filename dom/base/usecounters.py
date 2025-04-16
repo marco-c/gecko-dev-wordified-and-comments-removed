@@ -12,9 +12,6 @@ stream
 open
 (
 conf_filename
-"
-r
-"
 )
     
 def

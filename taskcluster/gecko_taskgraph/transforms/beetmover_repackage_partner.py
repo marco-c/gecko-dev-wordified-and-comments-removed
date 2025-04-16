@@ -1368,11 +1368,14 @@ paths
 :
 [
                         
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1383,14 +1386,6 @@ installer
 .
 exe
 "
-.
-format
-(
-                            
-artifact_prefix
-repack_id
-                        
-)
                     
 ]
                     
@@ -1439,11 +1434,14 @@ paths
 :
 [
                         
+f
 "
 {
+artifact_prefix
 }
 /
 {
+repack_id
 }
 /
 target
@@ -1456,14 +1454,6 @@ exe
 .
 asc
 "
-.
-format
-(
-                            
-artifact_prefix
-repack_id
-                        
-)
                     
 ]
                     

@@ -761,11 +761,6 @@ with
 open
 (
 full_path
-mode
-=
-"
-r
-"
 encoding
 =
 "
@@ -1451,7 +1446,7 @@ purgecaches
 "
 )
 "
-wt
+w
 "
 )
 as

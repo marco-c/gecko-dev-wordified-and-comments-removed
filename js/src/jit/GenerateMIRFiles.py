@@ -340,9 +340,17 @@ types
 :
         
 return
+f
 "
 public
 {
+type_policies
+[
+types
+[
+0
+]
+]
 }
 <
 0
@@ -351,17 +359,6 @@ public
 :
 Data
 "
-.
-format
-(
-type_policies
-[
-types
-[
-0
-]
-]
-)
     
 type_num
 =
@@ -389,20 +386,17 @@ mixed_type_policies
 .
 append
 (
+f
 "
 {
+policy
 }
 <
 {
+type_num
 }
 >
 "
-.
-format
-(
-policy
-type_num
-)
 )
         
 type_num
@@ -664,20 +658,17 @@ named_operands
 .
 append
 (
+f
 "
 (
 {
-}
-{
-}
-)
-"
-.
-format
-(
 current_oper_num
+}
+{
 oper_name
+}
 )
+"
 )
             
 current_oper_num
@@ -743,15 +734,19 @@ type_policy
     
 code
 =
+f
 "
 class
 {
+class_name
 }
 :
 public
 {
+base_class
 }
 {
+type_policy
 }
 {
 {
@@ -760,13 +755,6 @@ public
 \
 n
 "
-.
-format
-(
-class_name
-base_class
-type_policy
-)
     
 mir_args
 =
@@ -981,6 +969,7 @@ result
 code
 +
 =
+f
 "
 setResultType
 (
@@ -988,6 +977,7 @@ MIRType
 :
 :
 {
+result
 }
 )
 ;
@@ -996,11 +986,6 @@ MIRType
 \
 n
 "
-.
-format
-(
-result
-)
     
 code
 +
@@ -1074,10 +1059,12 @@ n
 code
 +
 =
+f
 "
 INSTRUCTION_HEADER
 (
 {
+name
 }
 )
 \
@@ -1085,11 +1072,6 @@ INSTRUCTION_HEADER
 \
 n
 "
-.
-format
-(
-name
-)
     
 code
 +
@@ -1792,18 +1774,15 @@ ops_items
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
         
 gen_boilerplate

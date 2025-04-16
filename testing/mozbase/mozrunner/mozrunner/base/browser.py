@@ -644,6 +644,7 @@ profile_args
 =
 [
             
+f
 "
 -
 -
@@ -654,14 +655,11 @@ data
 dir
 =
 {
+data_dir
 }
 "
-.
-format
-(
-data_dir
-)
             
+f
 "
 -
 -
@@ -670,13 +668,9 @@ profile
 directory
 =
 {
+name
 }
 "
-.
-format
-(
-name
-)
             
 "
 -

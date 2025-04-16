@@ -2997,6 +2997,7 @@ test_file_name
         
 html_content
 =
+f
 "
 "
 "
@@ -3337,15 +3338,6 @@ html
 "
 "
 "
-.
-format
-(
-            
-test_file_name
-=
-test_file_name
-        
-)
         
 prefix
 =

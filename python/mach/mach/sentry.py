@@ -364,19 +364,16 @@ release
 "
 ]
 =
+f
 "
 hg
 -
 rev
 -
 {
+base_ref
 }
 "
-.
-format
-(
-base_ref
-)
     
 return
 sentry_event

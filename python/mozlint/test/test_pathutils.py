@@ -1681,17 +1681,14 @@ path
     
 print
 (
+f
 "
 inputs
 :
 {
+inputs
 }
 "
-.
-format
-(
-inputs
-)
 )
     
 assert_paths

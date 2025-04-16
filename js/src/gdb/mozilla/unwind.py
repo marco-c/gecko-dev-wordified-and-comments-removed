@@ -197,9 +197,6 @@ JitFrameLayout
 }
 class
 UnwinderTypeCacheFrameType
-(
-object
-)
 :
     
 def
@@ -963,9 +960,6 @@ pointer
 )
 class
 FrameSymbol
-(
-object
-)
 :
     
 "
@@ -1789,9 +1783,6 @@ return
 result
 class
 SpiderMonkeyFrameFilter
-(
-object
-)
 :
     
 "
@@ -1929,9 +1920,6 @@ frame_iter
 )
 class
 SpiderMonkeyFrameId
-(
-object
-)
 :
     
 "
@@ -1971,9 +1959,6 @@ pc
 pc
 class
 UnwinderState
-(
-object
-)
 :
     
 "

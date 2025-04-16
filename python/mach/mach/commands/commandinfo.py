@@ -120,17 +120,14 @@ context
     
 filename
 =
+f
 "
 {
+shell
 }
 .
 template
 "
-.
-format
-(
-shell
-)
     
 with
 open
@@ -1230,16 +1227,13 @@ description
 value
 +
 =
+f
 "
 :
 {
+description
 }
 "
-.
-format
-(
-description
-)
     
 value
 +
@@ -1408,19 +1402,16 @@ join
                     
 [
                         
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 cmd
 .
 name
+}
 )
+"
                         
 '
 opts
@@ -1523,26 +1514,23 @@ join
                         
 [
                             
+f
 '
 (
 "
 {
-}
-{
-}
-"
-)
-'
-.
-format
-(
 sub
 .
 name
+}
+{
 sub
 .
 subcommand
+}
+"
 )
+'
                             
 '
 opts
@@ -1640,33 +1628,27 @@ join
                     
 [
                         
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 cmd
 .
 name
+}
 )
+"
                         
+f
 '
 comsubs
 =
 "
 {
+comsubs
 }
 "
 '
-.
-format
-(
-comsubs
-)
                         
 "
 ;
@@ -1697,19 +1679,16 @@ join
                     
 [
                         
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 cmd
 .
 name
+}
 )
+"
                         
 '
 subs
@@ -2050,19 +2029,16 @@ join
                     
 [
                         
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 cmd
 .
 name
+}
 )
+"
                         
 "
 opts
@@ -2161,24 +2137,21 @@ join
                         
 [
                             
+f
 "
 (
 {
-}
-{
-}
-)
-"
-.
-format
-(
 sub
 .
 name
+}
+{
 sub
 .
 subcommand
+}
 )
+"
                             
 "
 opts
@@ -2301,19 +2274,16 @@ join
                     
 [
                         
+f
 "
 (
 {
-}
-)
-"
-.
-format
-(
 cmd
 .
 name
+}
 )
+"
                         
 "
 subs
@@ -2592,21 +2562,18 @@ startswith
 comp
 +
 =
+f
 "
 -
 l
 {
-}
-"
-.
-format
-(
 opt
 [
 2
 :
 ]
-)
+}
+"
             
 elif
 opt
@@ -2622,21 +2589,18 @@ startswith
 comp
 +
 =
+f
 "
 -
 s
 {
-}
-"
-.
-format
-(
 opt
 [
 1
 :
 ]
-)
+}
+"
         
 return
 comp
@@ -2802,18 +2766,15 @@ cmds_opts
 +
 =
 [
+f
 "
 #
 {
-}
-"
-.
-format
-(
 cmd
 .
 name
-)
+}
+"
 ]
         
 subcommands
@@ -3041,6 +3002,7 @@ comp
 =
 (
                 
+f
 "
 complete
 -
@@ -3053,38 +3015,33 @@ n
 '
 __fish_mach_complete_command
 {
+cmd
+.
+name
 }
 {
+subcommands
 }
 '
 "
                 
+f
 "
 -
 d
 '
 {
+description
 }
 '
 -
 a
 {
-}
-"
-.
-format
-(
-                    
-cmd
-.
-name
-subcommands
-description
 sub
 .
 subcommand
-                
-)
+}
+"
             
 )
             

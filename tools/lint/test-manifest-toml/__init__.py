@@ -328,9 +328,6 @@ manifest_str
 open
 (
 file_name
-"
-r
-"
 encoding
 =
 "

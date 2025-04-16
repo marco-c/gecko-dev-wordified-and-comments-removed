@@ -586,33 +586,22 @@ java_stack
             
 output
 =
+f
 "
 PROCESS
 -
 CRASH
 |
 {
-name
+test_name
 }
 |
 {
-stack
-}
-"
-.
-format
-(
-                
-name
-=
-test_name
-stack
-=
 info
 .
 java_stack
-            
-)
+}
+"
         
 elif
 not
@@ -622,41 +611,35 @@ quiet
 stackwalk_output
 =
 [
+f
 "
 Crash
 dump
 filename
 :
 {
-}
-"
-.
-format
-(
 info
 .
 minidump_path
-)
+}
+"
 ]
             
 stackwalk_output
 .
 append
 (
+f
 "
 Process
 type
 :
 {
-}
-"
-.
-format
-(
 info
 .
 process_type
-)
+}
+"
 )
             
 stackwalk_output
@@ -775,6 +758,7 @@ stackwalk_output
 append
 (
                     
+f
 "
 minidump
 -
@@ -784,17 +768,11 @@ with
 return
 code
 {
-}
-"
-.
-format
-(
-                        
 info
 .
 stackwalk_retcode
-                    
-)
+}
+"
                 
 )
             
@@ -1249,9 +1227,6 @@ panicking
 )
 class
 CrashInfo
-(
-object
-)
 :
     
 "
@@ -2495,36 +2470,30 @@ path
 join
 (
 json_dir
+f
 "
 {
+crash_id
 }
 .
 trace
 "
-.
-format
-(
-crash_id
-)
 )
                 
 command
 .
 append
 (
+f
 "
 -
 -
 cyborg
 =
 {
+json_output
 }
 "
-.
-format
-(
-json_output
-)
 )
                 
 if
@@ -3009,9 +2978,6 @@ json_file
 open
 (
 json_path
-"
-r
-"
 )
             
 crash_json
@@ -3063,6 +3029,7 @@ print_exc
             
 signature
 =
+f
 "
 an
 error
@@ -3073,13 +3040,9 @@ JSON
 output
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
         
 return
 {
@@ -3288,6 +3251,7 @@ print_exc
             
 signature
 =
+f
 "
 an
 error
@@ -3298,13 +3262,9 @@ the
 signature
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
         
 if
 signature
@@ -3481,17 +3441,12 @@ logger
 info
 (
             
+f
 "
 Saved
 minidump
 as
 {
-}
-"
-.
-format
-(
-                
 os
 .
 path
@@ -3510,8 +3465,8 @@ basename
 path
 )
 )
-            
-)
+}
+"
         
 )
         
@@ -3543,18 +3498,13 @@ logger
 info
 (
                 
+f
 "
 Saved
 app
 info
 as
 {
-}
-"
-.
-format
-(
-                    
 os
 .
 path
@@ -3573,8 +3523,8 @@ basename
 extra
 )
 )
-                
-)
+}
+"
             
 )
 def
@@ -3963,44 +3913,26 @@ quiet
                     
 output
 =
-(
-                        
+f
 "
 PROCESS
 -
 CRASH
 |
 {
-name
+test_name
 }
 |
 java
 -
 exception
 {
-type
+exception_type
 }
 {
-loc
+exception_location
 }
 "
-.
-format
-(
-                            
-name
-=
-test_name
-type
-=
-exception_type
-loc
-=
-exception_location
-                        
-)
-                    
-)
                     
 print
 (
@@ -4034,29 +3966,23 @@ at
 line
 "
                     
+f
 "
 {
-0
+i
 }
 of
 {
-1
-}
-:
-{
-2
-}
-"
-.
-format
-(
-i
 len
 (
 logcat
 )
+}
+:
+{
 line
-)
+}
+"
                 
 )
             
@@ -4282,9 +4208,11 @@ log
 info
 (
                 
+f
 "
 Using
 {
+minidumpwriter
 }
 to
 write
@@ -4292,22 +4220,15 @@ a
 dump
 to
 {
+file_name
 }
 for
 [
 {
+pid
 }
 ]
 "
-.
-format
-(
-                    
-minidumpwriter
-file_name
-pid
-                
-)
             
 )
             
@@ -4327,19 +4248,16 @@ log
 .
 error
 (
+f
 "
 minidumpwriter
 not
 found
 in
 {
+utility_path
 }
 "
-.
-format
-(
-utility_path
-)
 )
                 
 return
@@ -4391,25 +4309,22 @@ log
 .
 info
 (
+f
 "
 Writing
 a
 dump
 to
 {
+file_name
 }
 for
 [
 {
+pid
 }
 ]
 "
-.
-format
-(
-file_name
-pid
-)
 )
         
 proc_handle

@@ -36,9 +36,6 @@ UnsortedError
 )
 class
 Fuga
-(
-object
-)
 :
     
 def

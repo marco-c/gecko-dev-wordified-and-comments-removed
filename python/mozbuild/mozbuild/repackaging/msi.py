@@ -299,7 +299,7 @@ keys
 raise
 Exception
 (
-            
+f
 "
 arch
 name
@@ -310,19 +310,14 @@ and
 one
 of
 {
-}
-.
-"
-.
-format
-(
 _MSI_ARCH
 .
 keys
 (
 )
-)
-        
+}
+.
+"
 )
     
 if

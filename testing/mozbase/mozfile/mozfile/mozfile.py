@@ -3129,9 +3129,6 @@ return
 None
 class
 NamedTemporaryFile
-(
-object
-)
 :
     
 "

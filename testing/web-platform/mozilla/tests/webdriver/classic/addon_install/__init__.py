@@ -108,11 +108,14 @@ send
 POST
 "
         
+f
 "
 /
 session
 /
 {
+session
+.
 session_id
 }
 /
@@ -122,17 +125,6 @@ addon
 /
 uninstall
 "
-.
-format
-(
-            
-session_id
-=
-session
-.
-session_id
-        
-)
         
 {
 "

@@ -577,9 +577,6 @@ return
 None
 class
 BuiltinLocation
-(
-object
-)
 :
     
 def
@@ -612,9 +609,6 @@ get
 )
 class
 Builtin
-(
-object
-)
 :
     
 kind
@@ -1518,9 +1512,6 @@ name
 ]
 class
 Location
-(
-object
-)
 :
     
 _line
@@ -1823,9 +1814,6 @@ pointerline
 )
 class
 NameMap
-(
-object
-)
 :
     
 "
@@ -2410,9 +2398,6 @@ return
 error
 class
 Include
-(
-object
-)
 :
     
 kind
@@ -2680,9 +2665,6 @@ location
 )
 class
 IDL
-(
-object
-)
 :
     
 def
@@ -3077,9 +3059,6 @@ return
 False
 class
 CDATA
-(
-object
-)
 :
     
 kind
@@ -3311,9 +3290,6 @@ return
 0
 class
 Typedef
-(
-object
-)
 :
     
 kind
@@ -3563,9 +3539,6 @@ name
 )
 class
 Forward
-(
-object
-)
 :
     
 kind
@@ -3915,9 +3888,6 @@ self
 name
 class
 Native
-(
-object
-)
 :
     
 kind
@@ -5254,9 +5224,6 @@ nativename
 )
 class
 WebIDL
-(
-object
-)
 :
     
 kind
@@ -5608,9 +5575,6 @@ self
 name
 class
 Interface
-(
-object
-)
 :
     
 kind
@@ -6885,9 +6849,6 @@ self
 name
 class
 InterfaceAttributes
-(
-object
-)
 :
     
 uuid
@@ -7350,9 +7311,6 @@ l
 )
 class
 ConstMember
-(
-object
-)
 :
     
 kind
@@ -7661,9 +7619,6 @@ return
 0
 class
 CEnumVariant
-(
-object
-)
 :
     
 kind
@@ -7713,9 +7668,6 @@ self
 value
 class
 CEnum
-(
-object
-)
 :
     
 kind
@@ -8940,9 +8892,6 @@ location
 )
 class
 Attribute
-(
-object
-)
 :
     
 kind
@@ -9566,9 +9515,6 @@ or
 2
 class
 Method
-(
-object
-)
 :
     
 kind
@@ -10534,9 +10480,6 @@ return
 1
 class
 Param
-(
-object
-)
 :
     
 size_is
@@ -11223,9 +11166,6 @@ return
 type
 class
 LegacyArray
-(
-object
-)
 :
     
 kind
@@ -11459,9 +11399,6 @@ tsType
 "
 class
 Array
-(
-object
-)
 :
     
 kind
@@ -11833,9 +11770,6 @@ None
 )
 class
 IDLParser
-(
-object
-)
 :
     
 keywords

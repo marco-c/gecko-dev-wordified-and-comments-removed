@@ -44,9 +44,6 @@ import
 ChromeManifestHandler
 class
 LcovRecord
-(
-object
-)
 :
     
 __slots__
@@ -463,9 +460,6 @@ c
 )
 class
 RecordRewriter
-(
-object
-)
 :
     
 def
@@ -1108,9 +1102,6 @@ return
 generated_records
 class
 LcovFile
-(
-object
-)
 :
     
 PREFIX_TYPES
@@ -1240,9 +1231,6 @@ with
 open
 (
 lcov_path
-"
-r
-"
 encoding
 =
 "
@@ -2525,9 +2513,6 @@ Exception
 pass
 class
 UrlFinder
-(
-object
-)
 :
     
 def
@@ -2555,9 +2540,6 @@ with
 open
 (
 chrome_map_path
-"
-r
-"
 encoding
 =
 "
@@ -3999,9 +3981,6 @@ return
 result
 class
 LcovFileRewriter
-(
-object
-)
 :
     
 def

@@ -276,9 +276,6 @@ time
 gmtime
 class
 LogMixin
-(
-object
-)
 :
     
 "
@@ -2491,9 +2488,6 @@ line
 )
 class
 BaseLogger
-(
-object
-)
 :
     
 "

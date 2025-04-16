@@ -258,20 +258,16 @@ parser
 .
 error
 (
+f
 "
 option
 not
 supported
 :
 {
-0
+opt
 }
 "
-.
-format
-(
-opt
-)
 )
     
 p
@@ -426,11 +422,14 @@ stderr
 .
 write
 (
+f
 "
 nsinstall
 :
 {
-0
+options
+.
+m
 }
 is
 not
@@ -440,13 +439,6 @@ mode
 \
 n
 "
-.
-format
-(
-options
-.
-m
-)
 )
             
 return
@@ -497,22 +489,18 @@ dir
                 
 print
 (
+f
 "
 nsinstall
 :
 {
-0
+dir
 }
 is
 not
 a
 directory
 "
-.
-format
-(
-dir
-)
 file
 =
 sys
@@ -583,6 +571,7 @@ False
             
 print
 (
+f
 "
 nsinstall
 :
@@ -591,19 +580,13 @@ to
 create
 directory
 {
-0
+dir
 }
 :
 {
-1
+e
 }
 "
-.
-format
-(
-dir
-e
-)
 )
             
 return

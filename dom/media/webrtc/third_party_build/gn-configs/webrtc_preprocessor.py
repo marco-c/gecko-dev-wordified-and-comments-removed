@@ -20,9 +20,6 @@ with
 open
 (
 gn_config_file
-"
-r
-"
 )
 as
 fh

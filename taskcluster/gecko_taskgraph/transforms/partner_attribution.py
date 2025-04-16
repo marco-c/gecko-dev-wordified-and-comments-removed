@@ -474,6 +474,7 @@ upstream_artifact
 dest
 "
 :
+f
 "
 {
 platform
@@ -483,18 +484,6 @@ platform
 locale
 }
 "
-.
-format
-(
-                            
-platform
-=
-platform
-locale
-=
-locale
-                        
-)
                         
 "
 extract
@@ -631,6 +620,7 @@ artifact_file_name
 output_path
 "
 :
+f
 "
 /
 builds
@@ -640,13 +630,9 @@ worker
 artifacts
 /
 {
+output_artifact
 }
 "
-.
-format
-(
-output_artifact
-)
         
 "
 release_artifact
@@ -675,8 +661,7 @@ artifact_file_name
 :
     
 return
-(
-        
+f
 "
 /
 builds
@@ -697,25 +682,6 @@ locale
 artifact_file_name
 }
 "
-.
-format
-(
-            
-stage_platform
-=
-stage_platform
-            
-locale
-=
-locale
-            
-artifact_file_name
-=
-artifact_file_name
-        
-)
-    
-)
 def
 _get_output_path
 (
@@ -849,25 +815,20 @@ else
 raise
 NotImplementedError
 (
-            
+f
 '
 Case
 for
 platform
 "
 {
+platform
 }
 "
 is
 not
 implemented
 '
-.
-format
-(
-platform
-)
-        
 )
 def
 _get_upstream_task_label
@@ -901,6 +862,7 @@ US
             
 upstream_label
 =
+f
 "
 repackage
 -
@@ -912,21 +874,13 @@ platform
 /
 opt
 "
-.
-format
-(
-                
-platform
-=
-platform
-            
-)
         
 else
 :
             
 upstream_label
 =
+f
 "
 repackage
 -
@@ -944,18 +898,6 @@ platform
 /
 opt
 "
-.
-format
-(
-                
-locale
-=
-locale
-platform
-=
-platform
-            
-)
     
 elif
 platform
@@ -981,6 +923,7 @@ US
             
 upstream_label
 =
+f
 "
 repackage
 -
@@ -990,19 +933,13 @@ platform
 /
 opt
 "
-.
-format
-(
-platform
-=
-platform
-)
         
 else
 :
             
 upstream_label
 =
+f
 "
 repackage
 -
@@ -1018,18 +955,6 @@ platform
 /
 opt
 "
-.
-format
-(
-                
-locale
-=
-locale
-platform
-=
-platform
-            
-)
     
 else
 :
@@ -1037,25 +962,20 @@ else
 raise
 NotImplementedError
 (
-            
+f
 '
 Case
 for
 platform
 "
 {
+platform
 }
 "
 is
 not
 implemented
 '
-.
-format
-(
-platform
-)
-        
 )
     
 return
@@ -1069,10 +989,7 @@ locale
 :
     
 return
-(
-        
 artifact_file_name
-        
 if
 locale
 =
@@ -1082,23 +999,17 @@ en
 -
 US
 "
-        
 else
+f
 "
 {
+locale
 }
 /
 {
+artifact_file_name
 }
 "
-.
-format
-(
-locale
-artifact_file_name
-)
-    
-)
 def
 _build_attribution_config
 (
@@ -1231,20 +1142,17 @@ raise
 NotImplementedError
 (
             
+f
 "
 Case
 for
 platforms
 {
+task_platforms
 }
 is
 not
 implemented
 "
-.
-format
-(
-task_platforms
-)
         
 )

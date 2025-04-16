@@ -77,7 +77,7 @@ open
 (
 f
 "
-wt
+w
 "
 )
 .
@@ -694,9 +694,6 @@ with
 open
 (
 p
-"
-r
-"
 )
 as
 fh
@@ -799,9 +796,6 @@ with
 open
 (
 p2
-"
-r
-"
 )
 as
 fh
@@ -1420,7 +1414,7 @@ s_source
 "
 )
 "
-wt
+w
 "
 )
 as
@@ -1449,7 +1443,7 @@ c_source
 "
 )
 "
-wt
+w
 "
 )
 as
@@ -1478,7 +1472,7 @@ p_source
 "
 )
 "
-wt
+w
 "
 )
 as
@@ -1737,9 +1731,6 @@ dest
 s_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -1773,9 +1764,6 @@ dest
 c_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -1809,9 +1797,6 @@ dest
 p_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -2000,7 +1985,7 @@ open
 (
 include
 "
-wt
+w
 "
 )
 as
@@ -2056,7 +2041,7 @@ p_source
 "
 )
 "
-wt
+w
 "
 )
 as
@@ -2294,9 +2279,6 @@ dest
 p_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -2505,9 +2487,6 @@ dest
 p_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -2558,7 +2537,7 @@ open
 (
 include
 "
-wt
+w
 "
 )
 as
@@ -2649,9 +2628,6 @@ dest
 p_dest
 "
 )
-"
-rt
-"
 )
 as
 fh
@@ -2764,7 +2740,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -2815,7 +2791,7 @@ open
 (
 include
 "
-wt
+w
 "
 )
 as
@@ -2964,9 +2940,6 @@ with
 open
 (
 destfile
-"
-rt
-"
 )
 as
 fh
@@ -2993,7 +2966,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -3073,9 +3046,6 @@ with
 open
 (
 destfile
-"
-rt
-"
 )
 as
 fh
@@ -3128,7 +3098,7 @@ open
 (
 include
 "
-wt
+w
 "
 )
 as
@@ -3204,9 +3174,6 @@ with
 open
 (
 destfile
-"
-rt
-"
 )
 as
 fh

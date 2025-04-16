@@ -471,9 +471,6 @@ default
 ]
 class
 VirtualenvMixin
-(
-object
-)
 :
     
 "
@@ -3598,25 +3595,23 @@ macos
             
 tmp_path
 =
+f
 "
 {
+venv_path
 }
 /
 bin
 /
 bak
 "
-.
-format
-(
-venv_path
-)
             
 self
 .
 info
 (
                 
+f
 "
 Copying
 venv
@@ -3624,6 +3619,7 @@ python
 binaries
 to
 {
+tmp_path
 }
 to
 clear
@@ -3632,13 +3628,6 @@ re
 -
 sign
 "
-.
-format
-(
-                    
-tmp_path
-                
-)
             
 )
             
@@ -3646,18 +3635,15 @@ subprocess
 .
 call
 (
+f
 "
 mkdir
 -
 p
 {
+tmp_path
 }
 "
-.
-format
-(
-tmp_path
-)
 shell
 =
 True
@@ -3667,10 +3653,11 @@ subprocess
 .
 call
 (
-                
+f
 "
 cp
 {
+venv_path
 }
 /
 bin
@@ -3678,19 +3665,13 @@ bin
 python
 *
 {
+tmp_path
 }
 /
 "
-.
-format
-(
-venv_path
-tmp_path
-)
 shell
 =
 True
-            
 )
             
 self
@@ -3712,31 +3693,26 @@ subprocess
 .
 call
 (
-                
+f
 "
 mv
 -
 f
 {
+tmp_path
 }
 /
 *
 {
+venv_path
 }
 /
 bin
 /
 "
-.
-format
-(
-tmp_path
-venv_path
-)
 shell
 =
 True
-            
 )
             
 self
@@ -3761,21 +3737,18 @@ flags
 runtime
 "
                 
+f
 "
 -
 f
 {
+venv_path
 }
 /
 bin
 /
 *
 "
-.
-format
-(
-venv_path
-)
             
 )
             
@@ -3803,8 +3776,10 @@ runtime
 f
 "
                 
+f
 "
 {
+venv_path
 }
 /
 bin
@@ -3812,11 +3787,6 @@ bin
 python
 *
 "
-.
-format
-(
-venv_path
-)
                 
 shell
 =
@@ -6343,6 +6313,7 @@ self
 .
 _tinderbox_print
 (
+f
 "
 CPU
 usage
@@ -6351,17 +6322,13 @@ br
 /
 >
 {
+cpu_percent
 :
 .
 1f
 }
 %
 "
-.
-format
-(
-cpu_percent
-)
 )
         
 self
@@ -6369,6 +6336,7 @@ self
 _tinderbox_print
 (
             
+f
 "
 I
 /
@@ -6382,23 +6350,19 @@ br
 /
 >
 {
+io
+.
+read_bytes
 :
 }
 /
 {
-:
-}
-"
-.
-format
-(
-io
-.
-read_bytes
 io
 .
 read_time
-)
+:
+}
+"
         
 )
         
@@ -6407,6 +6371,7 @@ self
 _tinderbox_print
 (
             
+f
 "
 I
 /
@@ -6420,25 +6385,19 @@ br
 /
 >
 {
+io
+.
+write_bytes
 :
 }
 /
 {
-:
-}
-"
-.
-format
-(
-                
-io
-.
-write_bytes
 io
 .
 write_time
-            
-)
+:
+}
+"
         
 )
         
@@ -6551,22 +6510,25 @@ self
 .
 _tinderbox_print
 (
-                    
+f
 "
 CPU
 {
+attr
 }
 <
 br
 /
 >
 {
+value
 :
 .
 1f
 }
 (
 {
+percent
 :
 .
 1f
@@ -6574,14 +6536,6 @@ br
 %
 )
 "
-.
-format
-(
-attr
-value
-percent
-)
-                
 )
         
 if
@@ -6597,7 +6551,7 @@ self
 .
 _tinderbox_print
 (
-                
+f
 "
 Swap
 in
@@ -6608,20 +6562,15 @@ br
 /
 >
 {
+swap_in
 :
 }
 /
 {
+swap_out
 :
 }
 "
-.
-format
-(
-swap_in
-swap_out
-)
-            
 )
         
 for
@@ -6690,9 +6639,6 @@ message
 )
 class
 Python3Virtualenv
-(
-object
-)
 :
     
 "

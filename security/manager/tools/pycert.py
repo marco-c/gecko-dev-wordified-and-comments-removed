@@ -2596,19 +2596,16 @@ serialBytesLen
 raise
 InvalidSerialNumber
 (
+f
 "
 {
+serialBytesLen
 }
 bytes
 is
 too
 long
 "
-.
-format
-(
-serialBytesLen
-)
 )
     
 stringBytes
@@ -2632,9 +2629,6 @@ stringBytes
 )
 class
 Certificate
-(
-object
-)
 :
     
 "

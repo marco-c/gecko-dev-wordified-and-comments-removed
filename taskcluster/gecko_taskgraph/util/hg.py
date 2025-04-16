@@ -216,36 +216,31 @@ raise
 RuntimeError
 (
             
+f
 "
 Found
 {
+len
+(
+pushes
+)
 }
 pushlog_ids
 expected
 1
 for
 {
+repository
 }
 revision
 {
+revision
 }
 :
 {
+pushes
 }
 "
-.
-format
-(
-                
-len
-(
-pushes
-)
-repository
-revision
-pushes
-            
-)
         
 )
     

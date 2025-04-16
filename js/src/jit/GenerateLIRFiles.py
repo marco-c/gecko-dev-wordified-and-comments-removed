@@ -2671,18 +2671,15 @@ ops
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
     
 mir_data
@@ -2933,18 +2930,15 @@ ops
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
     
 contents

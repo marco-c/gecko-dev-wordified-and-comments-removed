@@ -1273,9 +1273,6 @@ OctetString
 )
 class
 RSAKey
-(
-object
-)
 :
     
 sharedRSA_N
@@ -4132,9 +4129,6 @@ return
 h
 class
 ECCKey
-(
-object
-)
 :
     
 secp256k1KeyPair

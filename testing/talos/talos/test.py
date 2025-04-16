@@ -102,9 +102,6 @@ return
 _TESTS
 class
 Test
-(
-object
-)
 :
     
 "

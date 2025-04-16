@@ -711,6 +711,7 @@ None
 print
 (
                     
+f
 "
 timed
 out
@@ -718,6 +719,11 @@ waiting
 for
 '
 {
+self
+.
+app_ctx
+.
+remote_process
 }
 '
 process
@@ -726,22 +732,14 @@ exit
 trying
 "
                     
+f
 "
 without
 signal
 {
+sig
 }
 "
-.
-format
-(
-self
-.
-app_ctx
-.
-remote_process
-sig
-)
                 
 )
             
@@ -767,6 +765,7 @@ None
 print
 (
                     
+f
 "
 timed
 out
@@ -774,23 +773,17 @@ waiting
 for
 '
 {
+self
+.
+app_ctx
+.
+remote_process
 }
 '
 process
 to
 exit
 "
-.
-format
-(
-                        
-self
-.
-app_ctx
-.
-remote_process
-                    
-)
                 
 )
     

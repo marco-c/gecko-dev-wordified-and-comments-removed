@@ -38,9 +38,6 @@ PerfDocLogger
 )
 class
 Generator
-(
-object
-)
 :
     
 "
@@ -992,6 +989,7 @@ logger
 .
 critical
 (
+f
 "
 Error
 creating
@@ -999,13 +997,9 @@ temp
 file
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 if
@@ -1540,7 +1534,7 @@ logger
 .
 critical
 (
-                
+f
 "
 There
 was
@@ -1552,14 +1546,9 @@ the
 documentation
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
-            
 )
     
 def

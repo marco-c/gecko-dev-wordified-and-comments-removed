@@ -640,19 +640,16 @@ values
 .
 append
 (
+f
 "
 {
+k
 }
 =
 {
+v
 }
 "
-.
-format
-(
-k
-v
-)
 )
             
 values

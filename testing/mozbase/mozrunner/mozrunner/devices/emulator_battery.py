@@ -1,8 +1,5 @@
 class
 EmulatorBattery
-(
-object
-)
 :
     
 def

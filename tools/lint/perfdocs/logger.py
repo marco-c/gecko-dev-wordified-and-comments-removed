@@ -2,9 +2,6 @@ import
 pathlib
 class
 PerfDocLogger
-(
-object
-)
 :
     
 "

@@ -159,6 +159,7 @@ secret
 secrets_url
 +
 =
+f
 "
 project
 /
@@ -171,6 +172,7 @@ build
 level
 -
 {
+level
 }
 /
 gecko
@@ -179,11 +181,6 @@ docs
 -
 upload
 "
-.
-format
-(
-level
-)
     
 if
 "

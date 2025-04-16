@@ -690,9 +690,6 @@ with
 open
 (
 preprocessed
-"
-r
-"
 )
 as
 fh
@@ -1319,6 +1316,7 @@ lines
 print
 (
                 
+f
 "
 Error
 while
@@ -1330,13 +1328,9 @@ lines
 read
 :
 {
+lines
 }
 "
-.
-format
-(
-lines
-)
                 
 file
 =

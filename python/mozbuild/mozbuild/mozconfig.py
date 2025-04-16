@@ -299,9 +299,6 @@ message
 )
 class
 MozconfigLoader
-(
-object
-)
 :
     
 "

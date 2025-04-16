@@ -6,9 +6,6 @@ gdb
 printing
 class
 GeckoPrettyPrinter
-(
-object
-)
 :
     
 pp

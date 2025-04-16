@@ -888,6 +888,7 @@ name
 only
 "
             
+f
 "
 -
 -
@@ -896,17 +897,13 @@ diff
 filter
 =
 {
-}
-"
-.
-format
-(
 diff_filter
 .
 upper
 (
 )
-)
+}
+"
             
 "
 -

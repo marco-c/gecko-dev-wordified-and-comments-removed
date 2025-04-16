@@ -1,8 +1,5 @@
 class
 By
-(
-object
-)
 :
     
 ID

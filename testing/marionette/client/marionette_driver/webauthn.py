@@ -7,9 +7,6 @@ WebAuthn
 ]
 class
 WebAuthn
-(
-object
-)
 :
     
 def

@@ -82,9 +82,6 @@ test_init_failure
     
 class
 TempClass
-(
-object
-)
 :
         
 def

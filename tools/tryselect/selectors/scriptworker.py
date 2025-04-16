@@ -687,16 +687,13 @@ print
 *
 4
 +
+f
 "
 {
+task_type
 }
 :
 "
-.
-format
-(
-task_type
-)
 )
         
 for
@@ -712,16 +709,13 @@ print
 *
 8
 +
+f
 "
 -
 {
+task
 }
 "
-.
-format
-(
-task
-)
 )
 def
 get_hg_file
@@ -1090,18 +1084,15 @@ label
     
 msg
 =
+f
 "
 scriptworker
 tests
 :
 {
+task_type
 }
 "
-.
-format
-(
-task_type
-)
     
 return
 push_to_try

@@ -2406,21 +2406,18 @@ s
                 
 name
 =
+f
 "
 {
+name
 }
 -
 -
 subsuite
 {
+s
 }
 "
-.
-format
-(
-name
-s
-)
             
 if
 buildapp
@@ -2466,23 +2463,20 @@ msg
 .
 append
 (
+f
 "
 mochitest
 -
 f
 {
+name
 }
 (
 {
+reason
 }
 )
 "
-.
-format
-(
-name
-reason
-)
 )
         
 print

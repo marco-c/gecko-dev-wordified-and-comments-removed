@@ -615,14 +615,10 @@ get
 "
 name
 "
+f
 "
 suite
 {
-}
-"
-.
-format
-(
 len
 (
 self
@@ -631,7 +627,8 @@ summary
 )
 +
 1
-)
+}
+"
 )
         
 if

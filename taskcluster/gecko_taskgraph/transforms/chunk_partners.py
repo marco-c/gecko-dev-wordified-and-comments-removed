@@ -166,9 +166,13 @@ copy_repack_ids
             
 assert
 repack_ids
+f
 "
 dep_job
 {
+dep_job
+.
+label
 }
 doesn
 '
@@ -177,15 +181,6 @@ have
 repack_ids
 !
 "
-.
-format
-(
-                
-dep_job
-.
-label
-            
-)
             
 job
 .

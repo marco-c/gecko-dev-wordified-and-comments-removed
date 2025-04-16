@@ -549,8 +549,10 @@ src
         
 msg
 =
+f
 "
 {
+src
 }
 is
 not
@@ -559,11 +561,6 @@ valid
 installer
 file
 "
-.
-format
-(
-src
-)
         
 if
 "
@@ -603,20 +600,17 @@ error
 =
 InvalidSource
 (
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 msg
+}
+(
+{
 val
+}
 )
+"
 )
                 
 raise

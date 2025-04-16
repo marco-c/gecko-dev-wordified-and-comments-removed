@@ -185,9 +185,6 @@ docdir
     
 class
 fakeconfig
-(
-object
-)
 :
         
 topsrcdir
@@ -448,9 +445,6 @@ trees
 python_package_dirs
 class
 _SphinxManager
-(
-object
-)
 :
     
 "
@@ -922,9 +916,6 @@ config
 yml
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -1102,9 +1093,6 @@ open
 self
 .
 index_path
-"
-r
-"
 )
 as
 fh

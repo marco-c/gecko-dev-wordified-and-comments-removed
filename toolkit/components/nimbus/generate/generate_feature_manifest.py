@@ -299,9 +299,6 @@ with
 open
 (
 schema_path
-"
-r
-"
 )
 as
 f
@@ -1042,9 +1039,6 @@ with
 open
 (
 input_file
-"
-r
-"
 encoding
 =
 "
@@ -1387,9 +1381,6 @@ with
 open
 (
 input_file
-"
-r
-"
 encoding
 =
 "
@@ -1429,8 +1420,10 @@ e
         
 print
 (
+f
 "
 {
+input_file
 }
 :
 error
@@ -1438,16 +1431,11 @@ error
 \
 n
 {
+e
 }
 \
 n
 "
-.
-format
-(
-input_file
-e
-)
 )
         
 sys

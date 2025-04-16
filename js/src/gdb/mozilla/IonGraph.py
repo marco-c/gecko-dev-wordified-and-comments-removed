@@ -87,9 +87,6 @@ __name__
 )
 class
 jsvmPrinterCache
-(
-object
-)
 :
     
 def
@@ -168,9 +165,6 @@ char
 )
 class
 ModuleCache
-(
-object
-)
 :
     
 def
@@ -199,9 +193,6 @@ LSprinter
 )
 class
 jsvmLSprinter
-(
-object
-)
 :
     
 def

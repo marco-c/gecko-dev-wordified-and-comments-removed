@@ -5782,18 +5782,15 @@ patterns
 extend
 (
 {
+f
 "
 {
+d
 }
 /
 *
 *
 "
-.
-format
-(
-d
-)
 for
 d
 in
@@ -6140,23 +6137,10 @@ raise
 Exception
 (
                 
+f
 '
 "
 {
-}
-"
-is
-not
-a
-supported
-manifest
-format
-.
-'
-.
-format
-(
-                    
 os
 .
 path
@@ -6168,8 +6152,16 @@ p
 [
 1
 ]
-                
-)
+}
+"
+is
+not
+a
+supported
+manifest
+format
+.
+'
             
 )
     

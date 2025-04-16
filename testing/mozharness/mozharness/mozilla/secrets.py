@@ -26,9 +26,6 @@ import
 urllib
 class
 SecretsMixin
-(
-object
-)
 :
     
 def
@@ -43,19 +40,16 @@ self
 .
 info
 (
+f
 "
 fetching
 secret
 {
+secret_name
 }
 from
 API
 "
-.
-format
-(
-secret_name
-)
 )
         
 proxy
@@ -540,9 +534,6 @@ with
 open
 (
 default_path
-"
-r
-"
 )
 as
 f

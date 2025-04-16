@@ -38,9 +38,6 @@ action_counts
 )
 class
 StatusHandler
-(
-object
-)
 :
     
 "

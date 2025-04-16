@@ -18,9 +18,6 @@ __name__
 )
 class
 Common
-(
-object
-)
 :
     
 member

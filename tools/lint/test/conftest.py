@@ -240,17 +240,14 @@ path
 join
 (
 lintdir
+f
 "
 {
+name
 }
 .
 yml
 "
-.
-format
-(
-name
-)
 )
         
 parser

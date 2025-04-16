@@ -60,9 +60,6 @@ __name__
 )
 class
 jsjitExecutableAllocatorCache
-(
-object
-)
 :
     
 "
@@ -221,9 +218,6 @@ ExecutableAllocator
 )
 class
 jsjitExecutableAllocator
-(
-object
-)
 :
     
 def
@@ -316,9 +310,6 @@ self
     
 class
 PoolIterator
-(
-object
-)
 :
         
 def

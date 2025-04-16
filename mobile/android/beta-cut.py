@@ -412,9 +412,6 @@ with
 open
 (
 CHANGELOG_FILE
-"
-r
-"
 )
 as
 file
@@ -527,9 +524,6 @@ with
 open
 (
 CHANGELOG_FILE
-"
-r
-"
 )
 as
 file

@@ -265,26 +265,23 @@ StuckRects3
 .
 get
 (
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 platform
 .
 system
 (
 )
+}
+{
 platform
 .
 release
 (
 )
-)
+}
+"
 )
 config
 =
@@ -3644,6 +3641,7 @@ powershell
 command
 "
                 
+f
 "
 \
 "
@@ -3682,19 +3680,13 @@ VisualFXSetting
 -
 Value
 {
+DESKTOP_VISUALFX_THEME
 }
 }
 }
 \
 "
 "
-.
-format
-(
-                    
-DESKTOP_VISUALFX_THEME
-                
-)
             
 ]
             
@@ -3837,6 +3829,7 @@ powershell
 command
 "
                 
+f
 "
 \
 "
@@ -3847,6 +3840,7 @@ p
 =
 '
 {
+TASKBAR_AUTOHIDE_REG_PATH
 }
 '
 ;
@@ -3888,13 +3882,6 @@ v
 \
 "
 "
-.
-format
-(
-                    
-TASKBAR_AUTOHIDE_REG_PATH
-                
-)
             
 ]
             

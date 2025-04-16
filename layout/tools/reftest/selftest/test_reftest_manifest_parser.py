@@ -81,19 +81,16 @@ path
 )
         
 return
+f
 "
 file
 :
 /
 /
 {
+path
 }
 "
-.
-format
-(
-path
-)
     
 def
 inner

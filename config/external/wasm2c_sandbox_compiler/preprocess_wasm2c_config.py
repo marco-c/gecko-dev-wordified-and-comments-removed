@@ -513,9 +513,6 @@ file_config_h_in
 open
 (
 config_h_in
-"
-r
-"
 )
     
 lines

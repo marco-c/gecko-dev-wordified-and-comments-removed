@@ -53,9 +53,6 @@ gtest
 )
 class
 GTests
-(
-object
-)
 :
     
 TEST_PROC_NO_OUTPUT_TIMEOUT

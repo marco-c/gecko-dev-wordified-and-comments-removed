@@ -39,8 +39,10 @@ max_wait_seconds
     
 lock_path
 =
+f
 "
 {
+topobjdir
 }
 /
 gradle
@@ -49,11 +51,6 @@ mach_android
 .
 lockfile
 "
-.
-format
-(
-topobjdir
-)
     
 ensureParentDir
 (

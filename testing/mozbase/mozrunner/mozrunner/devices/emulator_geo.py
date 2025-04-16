@@ -1,8 +1,5 @@
 class
 EmulatorGeo
-(
-object
-)
 :
     
 def

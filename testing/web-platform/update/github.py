@@ -42,9 +42,6 @@ data
 data
 class
 GitHub
-(
-object
-)
 :
     
 url_base
@@ -383,9 +380,6 @@ name
 )
 class
 GitHubRepo
-(
-object
-)
 :
     
 def
@@ -668,9 +662,6 @@ suffix
 )
 class
 PullRequest
-(
-object
-)
 :
     
 def
@@ -1030,9 +1021,6 @@ json
 )
 class
 Issue
-(
-object
-)
 :
     
 def

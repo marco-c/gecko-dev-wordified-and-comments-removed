@@ -371,9 +371,6 @@ f
 open
 (
 filename
-"
-r
-"
 )
         
 self

@@ -360,18 +360,15 @@ pieces
     
 closest_name
 =
+f
 "
 <
 Unknown
 {
+line
 }
 >
 "
-.
-format
-(
-line
-)
     
 closest_start
 =

@@ -65,9 +65,6 @@ BaseMarionetteArguments
 pass
 class
 MarionetteHarness
-(
-object
-)
 :
     
 def
@@ -192,6 +189,7 @@ information
             
 version
 =
+f
 "
 %
 (
@@ -199,10 +197,11 @@ prog
 )
 s
 {
-version
+__version__
 }
 "
             
+f
 "
 (
 using
@@ -214,18 +213,6 @@ driver
 driver_version
 }
 "
-.
-format
-(
-                
-version
-=
-__version__
-driver_version
-=
-driver_version
-            
-)
         
 )
         

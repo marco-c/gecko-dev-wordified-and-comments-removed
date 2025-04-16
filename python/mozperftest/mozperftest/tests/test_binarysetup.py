@@ -425,6 +425,7 @@ check_output
 .
 return_value
 =
+b
 "
 /
 fake
@@ -433,10 +434,6 @@ path
 /
 chrome
 "
-.
-encode
-(
-)
     
 with
 system

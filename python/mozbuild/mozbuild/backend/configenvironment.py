@@ -71,9 +71,6 @@ status
 "
 class
 BuildConfig
-(
-object
-)
 :
     
 "
@@ -236,9 +233,6 @@ with
 open
 (
 path
-"
-rt
-"
 )
 as
 fh
@@ -351,9 +345,6 @@ return
 config
 class
 ConfigEnvironment
-(
-object
-)
 :
     
 "
@@ -1400,9 +1391,6 @@ path
 )
 class
 PartialConfigDict
-(
-object
-)
 :
     
 "
@@ -2022,9 +2010,6 @@ var
 ]
 class
 PartialConfigEnvironment
-(
-object
-)
 :
     
 "

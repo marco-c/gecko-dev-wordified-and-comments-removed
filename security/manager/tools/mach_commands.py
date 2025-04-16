@@ -542,9 +542,11 @@ raise
 UserError
 (
                 
+f
 "
 '
 {
+specification
 }
 '
 is
@@ -559,13 +561,6 @@ or
 pkcs12spec
 file
 "
-.
-format
-(
-                    
-specification
-                
-)
             
 )
         

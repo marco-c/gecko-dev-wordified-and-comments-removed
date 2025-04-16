@@ -208,6 +208,7 @@ dict
 raise
 ValueError
 (
+f
 "
 RustEncoder
 doesn
@@ -216,16 +217,12 @@ t
 know
 dicts
 {
-}
-"
-.
-format
-(
 str
 (
 value
 )
-)
+}
+"
 )
             
 elif
@@ -797,24 +794,18 @@ Extra
 "
                 
 return
+f
 "
 {
-}
-<
-{
-}
->
-"
-.
-format
-(
-                    
 class_name
 (
 obj
 .
 type
 )
+}
+<
+{
 util
 .
 Camelize
@@ -825,8 +816,9 @@ name
 )
 +
 suffix
-                
-)
+}
+>
+"
     
 generate_structure
 =
@@ -863,25 +855,22 @@ Object
 "
         
 return
+f
 "
 {
-}
-<
-{
-}
->
-"
-.
-format
-(
 class_name
 (
 obj
 .
 type
 )
+}
+<
+{
 generic
-)
+}
+>
+"
     
 return
 class_name

@@ -26,9 +26,6 @@ with
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -125,19 +122,16 @@ output
 .
 write
 (
+f
 '
 "
 {
+known_string
 }
 "
 \
 n
 '
-.
-format
-(
-known_string
-)
 )
     
 output

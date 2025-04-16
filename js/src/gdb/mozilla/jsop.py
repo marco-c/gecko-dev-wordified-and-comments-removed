@@ -25,9 +25,6 @@ __name__
 )
 class
 JSOpTypeCache
-(
-object
-)
 :
     
 def
@@ -89,9 +86,6 @@ JSOp
 )
 class
 JSOp
-(
-object
-)
 :
     
 def
@@ -196,20 +190,17 @@ idx
 name
         
 return
+f
 "
 (
 JSOp
 )
 {
+idx
 :
 d
 }
 "
-.
-format
-(
-idx
-)
 ptr_pretty_printer
 (
 "
@@ -303,17 +294,9 @@ pc
 "
         
 return
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 self
 .
 value
@@ -326,5 +309,10 @@ cache
 .
 void_ptr_t
 )
+}
+(
+{
 opcode
+}
 )
+"

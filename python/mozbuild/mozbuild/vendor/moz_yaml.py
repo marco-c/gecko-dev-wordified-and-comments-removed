@@ -360,9 +360,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f
@@ -3124,9 +3121,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f
@@ -3334,9 +3328,6 @@ return
 manifest
 class
 UpdateActions
-(
-object
-)
 :
     
 "
@@ -3925,9 +3916,6 @@ UpdateActions
 "
 class
 UpdatebotTasks
-(
-object
-)
 :
     
 "
@@ -4154,9 +4142,6 @@ UpdatebotTasks
 "
 class
 License
-(
-object
-)
 :
     
 "

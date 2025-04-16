@@ -369,9 +369,6 @@ with
 open
 (
 annotations_filename
-"
-r
-"
 )
 as
 annotations_file
@@ -476,9 +473,6 @@ with
 open
 (
 template_filename
-"
-r
-"
 )
 as
 template_file

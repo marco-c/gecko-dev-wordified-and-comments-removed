@@ -326,9 +326,6 @@ item
 )
 class
 LogHandler
-(
-object
-)
 :
     
 "

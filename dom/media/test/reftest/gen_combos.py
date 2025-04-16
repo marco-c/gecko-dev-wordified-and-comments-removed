@@ -971,9 +971,6 @@ reftest
 .
 list
 "
-"
-r
-"
 )
 as
 f

@@ -265,9 +265,6 @@ directive
 )
 class
 CMS
-(
-object
-)
 :
     
 "

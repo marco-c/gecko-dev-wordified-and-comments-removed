@@ -14,9 +14,6 @@ filenames
 [
 0
 ]
-"
-r
-"
 encoding
 =
 "

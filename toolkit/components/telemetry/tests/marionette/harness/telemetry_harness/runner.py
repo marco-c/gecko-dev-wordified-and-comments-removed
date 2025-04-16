@@ -170,17 +170,14 @@ telemetry
 server
 "
 :
+f
 "
 {
+SERVER_URL
 }
 /
 pings
 "
-.
-format
-(
-SERVER_URL
-)
                 
 "
 telemetry

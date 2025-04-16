@@ -101,11 +101,14 @@ send
 GET
 "
         
+f
 "
 /
 session
 /
 {
+session
+.
 session_id
 }
 /
@@ -115,17 +118,6 @@ screenshot
 /
 full
 "
-.
-format
-(
-            
-session_id
-=
-session
-.
-session_id
-        
-)
     
 )
 pytest
@@ -172,24 +164,19 @@ url
 =
 inline
 (
+f
 "
 "
 "
 {
-0
-}
-{
-1
-}
-"
-"
-"
-.
-format
-(
 DEFAULT_CSS_STYLE
+}
+{
 DEFAULT_CONTENT
-)
+}
+"
+"
+"
 )
     
 response
@@ -220,6 +207,7 @@ session
     
 iframe_content
 =
+f
 "
 <
 style
@@ -238,13 +226,9 @@ margin
 style
 >
 {
+DEFAULT_CONTENT
 }
 "
-.
-format
-(
-DEFAULT_CONTENT
-)
     
 session
 .
@@ -253,22 +237,14 @@ url
 inline
 (
         
+f
 "
 "
 "
 {
-0
-}
-{
-1
-}
-"
-"
-"
-.
-format
-(
 DEFAULT_CSS_STYLE
+}
+{
 iframe
 (
 iframe_content
@@ -276,7 +252,10 @@ domain
 =
 domain
 )
-)
+}
+"
+"
+"
     
 )
     

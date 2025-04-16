@@ -743,9 +743,6 @@ with
 open
 (
 METRICS_FILENAME
-"
-r
-"
 )
 as
 f

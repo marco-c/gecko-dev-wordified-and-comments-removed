@@ -761,6 +761,7 @@ version
 "
 ]
 =
+f
 "
 {
 version
@@ -770,16 +771,6 @@ version
 build
 }
 "
-.
-format
-(
-version
-=
-version
-build
-=
-build
-)
     
 def
 change_name
@@ -867,19 +858,16 @@ None
             
 wmclass
 =
+f
 "
 {
+appname
 }
 -
 {
+branchname
 }
 "
-.
-format
-(
-appname
-branchname
-)
         
 build_variables
 =

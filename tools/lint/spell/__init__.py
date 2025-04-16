@@ -167,6 +167,7 @@ line
                 
 print
 (
+f
 "
 Unable
 to
@@ -176,13 +177,9 @@ against
 output
 :
 {
+line
 }
 "
-.
-format
-(
-line
-)
 )
             
 return
@@ -662,20 +659,17 @@ log
 .
 debug
 (
+f
 "
 Version
 :
 {
-}
-"
-.
-format
-(
 get_codespell_version
 (
 binary
 )
-)
+}
+"
 )
     
 if
@@ -752,20 +746,17 @@ log
 .
 debug
 (
+f
 "
 Version
 :
 {
-}
-"
-.
-format
-(
 get_codespell_version
 (
 binary
 )
-)
+}
+"
 )
         
 base_command

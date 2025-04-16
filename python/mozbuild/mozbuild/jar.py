@@ -114,9 +114,6 @@ JarMaker
 ]
 class
 ZipEntry
-(
-object
-)
 :
     
 "
@@ -329,9 +326,6 @@ mtime
 )
 class
 JarManifestEntry
-(
-object
-)
 :
     
 def
@@ -374,9 +368,6 @@ preprocess
 preprocess
 class
 JarInfo
-(
-object
-)
 :
     
 def
@@ -497,9 +488,6 @@ Exception
 pass
 class
 JarManifestParser
-(
-object
-)
 :
     
 ignore
@@ -1206,9 +1194,6 @@ _jars
 )
 class
 JarMaker
-(
-object
-)
 :
     
 "
@@ -1889,24 +1874,18 @@ chrome
                 
 addEntriesToListFile
 (
-                    
 chromeManifest
 [
+f
 "
 manifest
 {
-0
+jarname
 }
 .
 manifest
 "
-.
-format
-(
-jarname
-)
 ]
-                
 )
         
 if
@@ -3369,9 +3348,6 @@ close
     
 class
 OutputHelper_jar
-(
-object
-)
 :
         
 "
@@ -3465,9 +3441,6 @@ jarfile
     
 class
 OutputHelper_flat
-(
-object
-)
 :
         
 "

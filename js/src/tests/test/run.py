@@ -889,9 +889,6 @@ with
 open
 (
 filePath
-"
-r
-"
 )
 as
 file

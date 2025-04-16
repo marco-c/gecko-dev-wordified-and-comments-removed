@@ -20,9 +20,6 @@ import
 pluralize
 class
 SummaryFormatter
-(
-object
-)
 :
     
 def

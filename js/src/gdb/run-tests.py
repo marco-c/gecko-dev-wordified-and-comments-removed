@@ -320,9 +320,6 @@ l
 )
 class
 Summary
-(
-object
-)
 :
     
 class

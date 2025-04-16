@@ -3043,19 +3043,16 @@ paths
 .
 add
 (
+f
 "
 {
+flavor
 }
 :
 {
+test
 }
 "
-.
-format
-(
-flavor
-test
-)
 )
                     
 suites

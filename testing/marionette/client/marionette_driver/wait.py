@@ -18,9 +18,6 @@ DEFAULT_INTERVAL
 1
 class
 Wait
-(
-object
-)
 :
     
 "
@@ -941,18 +938,15 @@ message
             
 message
 =
+f
 "
 with
 message
 :
 {
+message
 }
 "
-.
-format
-(
-message
-)
         
 raise
 errors
@@ -1026,9 +1020,6 @@ now
 end
 class
 SystemClock
-(
-object
-)
 :
     
 def

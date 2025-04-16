@@ -4,9 +4,6 @@ import
 sys
 class
 NullTerminal
-(
-object
-)
 :
     
 "

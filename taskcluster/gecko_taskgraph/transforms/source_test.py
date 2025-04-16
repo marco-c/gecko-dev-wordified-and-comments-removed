@@ -1007,6 +1007,7 @@ found
 .
 "
             
+f
 "
 Define
 '
@@ -1016,6 +1017,7 @@ build
 '
 for
 {
+key
 }
 in
 the
@@ -1023,11 +1025,6 @@ task
 config
 .
 "
-.
-format
-(
-key
-)
         
 )
     

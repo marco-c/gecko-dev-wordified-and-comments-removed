@@ -76,9 +76,6 @@ png
 )
 class
 Gatherer
-(
-object
-)
 :
     
 "

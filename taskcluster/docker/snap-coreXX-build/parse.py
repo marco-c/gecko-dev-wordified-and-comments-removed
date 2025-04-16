@@ -156,9 +156,6 @@ with
 open
 (
 yaml_file
-"
-r
-"
 )
 as
 inp

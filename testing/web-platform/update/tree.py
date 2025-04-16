@@ -1047,9 +1047,6 @@ prefix
 )
 class
 Patch
-(
-object
-)
 :
     
 def

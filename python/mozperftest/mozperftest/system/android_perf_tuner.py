@@ -264,20 +264,17 @@ log
 .
 info
 (
+f
 "
 setting
 {
+file_name
 }
 to
 {
+value
 }
 "
-.
-format
-(
-file_name
-value
-)
 )
         
 if
@@ -326,21 +323,18 @@ log
 .
 info
 (
+f
 "
 successfully
 set
 {
+file_name
 }
 to
 {
+value
 }
 "
-.
-format
-(
-file_name
-value
-)
 )
         
 else
@@ -763,6 +757,7 @@ log
 info
 (
             
+f
 "
 CPU
 for
@@ -775,19 +770,13 @@ product
 model
 '
 {
+device_name
 }
 '
 unknown
 not
 scaling_governor
 "
-.
-format
-(
-                
-device_name
-            
-)
         
 )
         
@@ -991,6 +980,7 @@ log
 info
 (
             
+f
 "
 GPU
 for
@@ -1003,6 +993,7 @@ product
 model
 '
 {
+device_name
 }
 '
 unknown
@@ -1010,13 +1001,6 @@ not
 setting
 devfreq
 "
-.
-format
-(
-                
-device_name
-            
-)
         
 )
         

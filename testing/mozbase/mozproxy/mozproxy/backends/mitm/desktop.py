@@ -829,9 +829,6 @@ with
 open
 (
 policies_file
-"
-r
-"
 )
 as
 fd

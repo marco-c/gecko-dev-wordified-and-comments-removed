@@ -17,9 +17,6 @@ nsIWeakReference
 )
 class
 weak_ptr_printer
-(
-object
-)
 :
     
 def
@@ -224,9 +221,6 @@ RefPtr
 )
 class
 smartptr_printer
-(
-object
-)
 :
     
 def
@@ -344,9 +338,6 @@ UniquePtr
 )
 class
 uniqueptr_printer
-(
-object
-)
 :
     
 def

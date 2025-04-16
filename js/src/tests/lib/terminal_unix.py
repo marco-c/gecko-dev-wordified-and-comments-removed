@@ -2,9 +2,6 @@ import
 sys
 class
 Terminal
-(
-object
-)
 :
     
 COLOR

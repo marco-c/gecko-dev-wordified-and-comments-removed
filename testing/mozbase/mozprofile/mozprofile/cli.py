@@ -449,9 +449,6 @@ items
 }
 class
 MozProfileCLI
-(
-object
-)
 :
     
 "

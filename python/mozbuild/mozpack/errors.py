@@ -56,9 +56,6 @@ accumulate
 "
 class
 ErrorCollector
-(
-object
-)
 :
     
 "

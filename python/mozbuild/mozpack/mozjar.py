@@ -83,9 +83,6 @@ errors
 "
 class
 JarStruct
-(
-object
-)
 :
     
 "
@@ -1797,9 +1794,6 @@ extra_field_size
 )
 class
 JarFileReader
-(
-object
-)
 :
     
 "
@@ -2405,9 +2399,6 @@ self
 _uncompressed_data
 class
 JarReader
-(
-object
-)
 :
     
 "
@@ -3319,9 +3310,6 @@ self
 entries
 class
 JarWriter
-(
-object
-)
 :
     
 "
@@ -5035,9 +5023,6 @@ _contents
 new_contents
 class
 Deflater
-(
-object
-)
 :
     
 "
@@ -5827,9 +5812,6 @@ fileobj
 open
 (
 file
-"
-r
-"
 )
         
 for

@@ -372,9 +372,6 @@ join
 topsrcdir
 path
 )
-"
-r
-"
 )
 as
 fh

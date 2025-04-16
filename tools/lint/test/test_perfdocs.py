@@ -1783,9 +1783,6 @@ with
 open
 (
 yaml_path
-"
-r
-"
 newline
 =
 "
@@ -2041,9 +2038,6 @@ with
 open
 (
 rst_path
-"
-r
-"
 )
 as
 file
@@ -2465,9 +2459,6 @@ perfdocs_sample
 config
 "
 ]
-"
-r
-"
 )
 as
 file
@@ -2673,9 +2664,6 @@ perfdocs_sample
 config
 "
 ]
-"
-r
-"
 )
 as
 file

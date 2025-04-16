@@ -329,6 +329,7 @@ pytest
 .
 skip
 (
+f
 "
 skipped
 due
@@ -337,11 +338,7 @@ mozinfo
 match
 :
 {
+value
 }
 "
-.
-format
-(
-value
-)
 )

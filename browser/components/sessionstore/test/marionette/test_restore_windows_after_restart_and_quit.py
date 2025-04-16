@@ -29,6 +29,7 @@ title
 :
     
 return
+f
 "
 data
 :
@@ -51,6 +52,7 @@ head
 title
 >
 {
+title
 }
 <
 /
@@ -72,13 +74,6 @@ body
 html
 >
 "
-.
-format
-(
-        
-title
-    
-)
 class
 TestSessionStoreEnabledAllWindows
 (

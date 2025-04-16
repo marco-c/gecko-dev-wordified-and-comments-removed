@@ -12,9 +12,6 @@ jobs
 "
 class
 ChunkingMixin
-(
-object
-)
 :
     
 "

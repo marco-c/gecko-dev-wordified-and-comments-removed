@@ -100,9 +100,6 @@ files
 "
 class
 Preferences
-(
-object
-)
 :
     
 "

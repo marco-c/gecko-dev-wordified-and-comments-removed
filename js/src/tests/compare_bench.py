@@ -163,10 +163,12 @@ base_t_best
             
 result
 =
+f
 "
 faster
 :
 {
+t_worst
 :
 6
 .
@@ -176,6 +178,7 @@ ms
 <
 baseline
 {
+base_t_best
 :
 6
 .
@@ -184,6 +187,7 @@ baseline
 ms
 (
 {
+speedup
 :
 +
 6
@@ -193,15 +197,6 @@ ms
 %
 )
 "
-.
-format
-(
-                
-t_worst
-base_t_best
-speedup
-            
-)
             
 percent_speedups
 .
@@ -233,10 +228,12 @@ base_t_worst
             
 result
 =
+f
 "
 SLOWER
 :
 {
+t_best
 :
 6
 .
@@ -246,6 +243,7 @@ ms
 >
 baseline
 {
+base_t_worst
 :
 6
 .
@@ -254,6 +252,7 @@ baseline
 ms
 (
 {
+slowdown
 :
 +
 6
@@ -263,15 +262,6 @@ ms
 %
 )
 "
-.
-format
-(
-                
-t_best
-base_t_worst
-slowdown
-            
-)
             
 percent_speedups
 .
@@ -292,21 +282,18 @@ Meh
         
 print
 (
+f
 "
 {
+key
 :
 30s
 }
 :
 {
+result
 }
 "
-.
-format
-(
-key
-result
-)
 )
     
 if
@@ -315,25 +302,22 @@ percent_speedups
         
 print
 (
+f
 "
 Average
 speedup
 :
 {
+avg
+(
+percent_speedups
+)
 :
 .
 2f
 }
 %
 "
-.
-format
-(
-avg
-(
-percent_speedups
-)
-)
 )
 def
 compare_immediate

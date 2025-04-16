@@ -1725,38 +1725,32 @@ taskcluster_proxy_url
         
 tooltool_url
 =
+f
 "
 {
+taskcluster_proxy_url
 }
 /
 {
+tooltool_host
 }
 "
-.
-format
-(
-taskcluster_proxy_url
-tooltool_host
-)
     
 else
 :
         
 tooltool_url
 =
+f
 "
 https
 :
 /
 /
 {
+tooltool_host
 }
 "
-.
-format
-(
-tooltool_host
-)
     
 cache
 =
@@ -2115,27 +2109,24 @@ file_records
             
 url
 =
+f
 "
 {
-}
-/
-{
-}
-/
-{
-}
-"
-.
-format
-(
 tooltool_url
+}
+/
+{
 record
 .
 algorithm
+}
+/
+{
 record
 .
 digest
-)
+}
+"
             
 records
 [
@@ -2294,17 +2285,14 @@ toolchain
                 
 b
 =
+f
 "
 toolchain
 -
 {
+b
 }
 "
-.
-format
-(
-b
-)
             
 task
 =

@@ -4,9 +4,6 @@ import
 BaseMarionetteArguments
 class
 FirefoxUIBaseArguments
-(
-object
-)
 :
     
 name

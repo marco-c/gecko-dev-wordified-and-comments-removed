@@ -430,6 +430,7 @@ nonce
 :
             
 return
+f
 '
 <
 script
@@ -437,40 +438,33 @@ nonce
 =
 "
 {
+nonce
 }
 "
 >
 {
+script
 }
 <
 /
 script
 >
 '
-.
-format
-(
-nonce
-script
-)
         
 return
+f
 "
 <
 script
 >
 {
+script
 }
 <
 /
 script
 >
 "
-.
-format
-(
-script
-)
     
 def
 update_csp_script_src
@@ -649,19 +643,16 @@ sources
 .
 append
 (
+f
 "
 '
 sha256
 -
 {
+sha256
 }
 '
 "
-.
-format
-(
-sha256
-)
 )
                 
 add_unsafe
@@ -999,9 +990,6 @@ deterministic
 js
 "
 )
-"
-r
-"
                 
 )
 as
@@ -1134,6 +1122,7 @@ log
 info
 (
                                 
+f
 "
 No
 start
@@ -1142,22 +1131,16 @@ found
 in
 request
 {
-}
-.
-Skip
-injecting
-"
-.
-format
-(
-                                    
 flow
 .
 request
 .
 url
-                                
-)
+}
+.
+Skip
+injecting
+"
                             
 )
                             
@@ -1400,26 +1383,21 @@ log
 info
 (
                             
+f
 "
 In
 request
 {
-}
-injected
-deterministic
-JS
-"
-.
-format
-(
-                                
 flow
 .
 request
 .
 url
-                            
-)
+}
+injected
+deterministic
+JS
+"
                         
 )
                     
@@ -1433,6 +1411,7 @@ log
 info
 (
                             
+f
 "
 Script
 already
@@ -1440,19 +1419,13 @@ injected
 in
 request
 {
-}
-"
-.
-format
-(
-                                
 flow
 .
 request
 .
 url
-                            
-)
+}
+"
                         
 )
 addons

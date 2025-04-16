@@ -43,9 +43,6 @@ with
 open
 (
 tracking_file
-"
-r
-"
 )
 as
 fh

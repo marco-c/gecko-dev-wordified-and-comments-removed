@@ -880,6 +880,7 @@ self
 .
 fail
 (
+f
 "
 No
 such
@@ -887,16 +888,11 @@ browser
 preference
 :
 {
-0
+pref
 !
 r
 }
 "
-.
-format
-(
-pref
-)
 )
             
 if

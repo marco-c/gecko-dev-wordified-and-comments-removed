@@ -47,9 +47,6 @@ sep
 )
 class
 FilterPath
-(
-object
-)
 :
     
 "
@@ -1614,11 +1611,12 @@ count
 raise
 ValueError
 (
-            
+f
 '
 python
 path
 {
+path
 !
 r
 }
@@ -1633,12 +1631,6 @@ module
 object
 "
 '
-.
-format
-(
-path
-)
-        
 )
     
 modulepath
@@ -2135,6 +2127,7 @@ exclude
 base_ignore
 =
 [
+f
 "
 *
 *
@@ -2142,13 +2135,9 @@ base_ignore
 *
 .
 {
+ext
 }
 "
-.
-format
-(
-ext
-)
 for
 ext
 in
@@ -2374,6 +2363,7 @@ finder
 .
 find
 (
+f
 "
 *
 *
@@ -2381,13 +2371,9 @@ find
 *
 .
 {
+ext
 }
 "
-.
-format
-(
-ext
-)
 )
 :
                     

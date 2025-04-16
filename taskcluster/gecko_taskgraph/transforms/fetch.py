@@ -1508,9 +1508,6 @@ with
 open
 (
 key_path
-"
-r
-"
 )
 as
 fh

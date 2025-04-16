@@ -1,8 +1,5 @@
 class
 PingFilter
-(
-object
-)
 :
     
 "

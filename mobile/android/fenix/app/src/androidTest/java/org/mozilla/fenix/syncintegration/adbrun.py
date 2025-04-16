@@ -19,9 +19,6 @@ NullHandler
 )
 class
 ADBrun
-(
-object
-)
 :
     
 binary

@@ -40,9 +40,6 @@ __name__
 )
 class
 JSStringTypeCache
-(
-object
-)
 :
     
 def

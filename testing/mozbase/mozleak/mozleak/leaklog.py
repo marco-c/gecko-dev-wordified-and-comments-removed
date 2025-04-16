@@ -275,9 +275,6 @@ with
 open
 (
 leakLogFileName
-"
-r
-"
 )
 as
 leaks

@@ -76,22 +76,19 @@ msgutil
 send_message
 (
 request
+f
 "
 PASS
 :
 Message
 #
 {
+test_number
 :
 d
 }
 .
 "
-.
-format
-(
-test_number
-)
 )
         
 else
@@ -104,12 +101,14 @@ send_message
                 
 request
                 
+f
 "
 FAIL
 :
 Message
 #
 {
+test_number
 :
 d
 }
@@ -119,18 +118,11 @@ unexpected
 message
 :
 {
+message
 !
 r
 }
 "
-.
-format
-(
-                    
-test_number
-message
-                
-)
             
 )
 def

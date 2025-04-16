@@ -184,24 +184,19 @@ wrapper
 .
 __doc__
 =
+f
 "
 [
 {
-0
+func_suffix
 }
 ]
 {
-1
-}
-"
-.
-format
-(
-func_suffix
 func
 .
 __doc__
-)
+}
+"
     
 return
 wrapper
@@ -358,9 +353,12 @@ raise
 KeyError
 (
                             
+f
 "
 {
-0
+wrapper
+.
+__name__
 }
 is
 already
@@ -369,19 +367,9 @@ defined
 method
 on
 {
-1
+name
 }
 "
-.
-format
-(
-                                
-wrapper
-.
-__name__
-name
-                            
-)
                         
 )
                     
@@ -1514,33 +1502,25 @@ filepath
 )
         
 return
+f
 "
 {
-0
-}
-{
-1
-}
-.
-{
-2
-}
-"
-.
-format
-(
-            
 rel_path
+}
+{
 self
 .
 __class__
 .
 __name__
+}
+.
+{
 self
 .
 _testMethodName
-        
-)
+}
+"
     
 def
 id
@@ -1726,20 +1706,17 @@ test_path_prefixes
 =
 [
             
+f
 "
 tests
 {
-}
-"
-.
-format
-(
 os
 .
 path
 .
 sep
-)
+}
+"
         
 ]
         

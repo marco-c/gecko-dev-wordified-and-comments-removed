@@ -1209,9 +1209,6 @@ join
 topsrcdir
 path
 )
-"
-r
-"
 )
 as
 fh
@@ -1304,10 +1301,6 @@ xml
 "
                 
 )
-                
-"
-rt
-"
             
 )
         
@@ -1514,10 +1507,6 @@ ktlint
 ktlint_file
                 
 )
-                
-"
-rt
-"
             
 )
         
@@ -2411,9 +2400,6 @@ parse
 open
 (
 path
-"
-rt
-"
 )
 )
     
@@ -2601,9 +2587,6 @@ parse
 open
 (
 report_path
-"
-rt
-"
 )
 )
     
@@ -2947,19 +2930,16 @@ reports
 raise
 RuntimeError
 (
+f
 "
 No
 reports
 found
 under
 {
+report_dir
 }
 "
-.
-format
-(
-report_dir
-)
 )
     
 for
@@ -2988,9 +2968,6 @@ finder
 base
 report
 )
-"
-rt
-"
 )
 )
         
@@ -3116,7 +3093,7 @@ sourcepaths
 raise
 RuntimeError
 (
-                        
+f
 "
 No
 sourcepath
@@ -3127,16 +3104,6 @@ class
 class_name
 }
 "
-.
-format
-(
-                            
-class_name
-=
-class_name
-                        
-)
-                    
 )
                 
 for
@@ -3235,6 +3202,7 @@ else
                         
 msg
 =
+f
 "
 No
 source
@@ -3249,18 +3217,6 @@ class_name
 function_name
 }
 "
-.
-format
-(
-                            
-class_name
-=
-class_name
-function_name
-=
-function_name
-                        
-)
                         
 raise
 RuntimeError
@@ -3494,6 +3450,7 @@ topobjdir
 "
 ]
             
+f
 "
 gradle
 /
@@ -3504,6 +3461,7 @@ mobile
 android
 /
 {
+project
 }
 /
 test
@@ -3512,20 +3470,13 @@ results
 /
 test
 {
-}
-UnitTest
-"
-.
-format
-(
-                
-project
 capitalize
 (
 variant
 )
-            
-)
+}
+UnitTest
+"
         
 )
     

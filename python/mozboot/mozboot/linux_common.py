@@ -19,9 +19,6 @@ x86_64
 "
 class
 MobileAndroidBootstrapper
-(
-object
-)
 :
     
 def
@@ -115,39 +112,6 @@ android
 AVD_MANIFEST_X86_64
         
 )
-        
-android
-.
-ensure_android
-(
-            
-"
-linux
-"
-            
-os_arch
-            
-artifact_mode
-=
-artifact_mode
-            
-no_interactive
-=
-self
-.
-no_interactive
-            
-system_images_only
-=
-True
-            
-avd_manifest_path
-=
-android
-.
-AVD_MANIFEST_ARM
-        
-)
     
 def
 install_mobile_android_artifact_mode_packages
@@ -199,16 +163,7 @@ install_toolchain_artifact
 (
 android
 .
-LINUX_X86_64_ANDROID_AVD
-)
-        
-self
-.
-install_toolchain_artifact
-(
-android
-.
-LINUX_ARM_ANDROID_AVD
+X86_64_ANDROID_AVD
 )
     
 def
@@ -332,14 +287,30 @@ tar
 "
 unzip
 "
-                
-"
-watchman
-"
             
 ]
         
 )
+        
+try
+:
+            
+self
+.
+install_packages
+(
+[
+"
+watchman
+"
+]
+)
+        
+except
+Exception
+:
+            
+pass
     
 def
 install_browser_packages

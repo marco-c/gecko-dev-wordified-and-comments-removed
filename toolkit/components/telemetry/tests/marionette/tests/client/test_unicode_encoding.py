@@ -91,7 +91,7 @@ marionette
 execute_script
 (
                 
-r
+rf
 "
 "
 "
@@ -133,19 +133,6 @@ pref
 "
 "
 "
-.
-format
-(
-                    
-orig
-=
-orig
-                    
-pref
-=
-pref
-                
-)
             
 )
         

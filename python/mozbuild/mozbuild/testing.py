@@ -337,9 +337,6 @@ WEB_PLATFORM_TESTS_FLAVORS
 )
 class
 TestInstallInfo
-(
-object
-)
 :
     
 def
@@ -439,9 +436,6 @@ return
 self
 class
 SupportFilesConverter
-(
-object
-)
 :
     
 "

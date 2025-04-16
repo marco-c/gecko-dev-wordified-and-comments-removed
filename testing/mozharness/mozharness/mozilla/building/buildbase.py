@@ -1333,9 +1333,6 @@ return
 all_config_dicts
 class
 BuildOptionParser
-(
-object
-)
 :
     
 platform
@@ -4886,18 +4883,15 @@ self
 .
 info
 (
+f
 "
 Use
 mozconfig
 :
 {
+abs_mozconfig_path
 }
 "
-.
-format
-(
-abs_mozconfig_path
-)
 )
         
 content
@@ -6630,9 +6624,6 @@ with
 open
 (
 p
-"
-r
-"
 )
 as
 fh
@@ -7039,9 +7030,6 @@ with
 open
 (
 stats_file
-"
-r
-"
 )
 as
 fh
@@ -10255,10 +10243,12 @@ else
             
 err
 =
+f
 "
 Build
 platform
 {
+build_platform
 }
 didn
 '
@@ -10282,13 +10272,6 @@ or
 ios
 '
 "
-.
-format
-(
-                
-build_platform
-            
-)
             
 self
 .

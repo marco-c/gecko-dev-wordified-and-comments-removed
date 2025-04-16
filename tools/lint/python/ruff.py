@@ -186,6 +186,7 @@ matches
     
 print
 (
+f
 "
 Error
 :
@@ -196,14 +197,10 @@ the
 version
 '
 {
+output
 }
 '
 "
-.
-format
-(
-output
-)
 )
 def
 run_process

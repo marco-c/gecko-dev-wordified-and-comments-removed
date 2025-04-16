@@ -1270,8 +1270,12 @@ self
 .
 fatal
 (
+f
 "
 {
+self
+.
+test_suite
 }
 is
 not
@@ -1281,13 +1285,6 @@ the
 config
 !
 "
-.
-format
-(
-self
-.
-test_suite
-)
 )
         
 if
@@ -1776,7 +1773,7 @@ self
 .
 fatal
 (
-                
+f
 "
 Could
 not
@@ -1786,14 +1783,9 @@ requirements
 file
 :
 {
+requirements
 }
 "
-.
-format
-(
-requirements
-)
-            
 )
         
 self
@@ -1864,19 +1856,16 @@ marionette
 "
         
 return
+f
 "
 {
+testsuite
 }
 _
 {
+platform
 }
 "
-.
-format
-(
-testsuite
-platform
-)
     
 def
 download_and_extract
@@ -2481,19 +2470,16 @@ cmd
 extend
 (
 [
+f
 "
 -
 -
 setpref
 =
 {
+p
 }
 "
-.
-format
-(
-p
-)
 for
 p
 in
@@ -3059,7 +3045,7 @@ self
 .
 fatal
 (
-                
+f
 "
 Don
 '
@@ -3075,26 +3061,17 @@ test
 suite
 '
 {
-0
+self
+.
+test_suite
 }
 '
 :
 {
-1
+e
 }
 !
 "
-.
-format
-(
-                    
-self
-.
-test_suite
-e
-                
-)
-            
 )
         
 marionette_parser

@@ -138,6 +138,7 @@ AttributeError
             
 print
 (
+f
 "
 Unable
 to
@@ -148,13 +149,9 @@ against
 output
 :
 {
+line
 }
 "
-.
-format
-(
-line
-)
 )
             
 return
@@ -379,19 +376,16 @@ log
 .
 debug
 (
+f
 "
 Version
 :
 {
-}
-"
-.
-format
-(
 get_yamllint_version
 (
 )
-)
+}
+"
 )
     
 cmdargs

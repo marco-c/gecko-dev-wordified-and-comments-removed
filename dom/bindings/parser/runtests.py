@@ -12,9 +12,6 @@ import
 WebIDL
 class
 TestHarness
-(
-object
-)
 :
     
 def

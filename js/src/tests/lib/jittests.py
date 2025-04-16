@@ -552,17 +552,14 @@ condition
 condition
 +
 =
+f
 "
 (
 {
+value
 }
 )
 "
-.
-format
-(
-value
-)
     
 return
 condition
@@ -1637,7 +1634,6 @@ ValueError
                             
 print
 (
-                                
 "
 warning
 :
@@ -1648,17 +1644,12 @@ parse
 exit
 status
 "
-                                
+f
 "
 {
+value
 }
 "
-.
-format
-(
-value
-)
-                            
 )
                     
 elif
@@ -1681,7 +1672,7 @@ jitflags
 .
 append
 (
-                                
+f
 "
 -
 -
@@ -1690,18 +1681,13 @@ thread
 count
 =
 {
-}
-"
-.
-format
-(
 int
 (
 value
 0
 )
-)
-                            
+}
+"
 )
                         
 except
@@ -1710,7 +1696,6 @@ ValueError
                             
 print
 (
-                                
 "
 warning
 :
@@ -1722,17 +1707,12 @@ thread
 -
 count
 "
-                                
+f
 "
 {
+value
 }
 "
-.
-format
-(
-value
-)
-                            
 )
                     
 elif
@@ -1869,8 +1849,10 @@ else
 print
 (
                             
+f
 "
 {
+path
 }
 :
 warning
@@ -1884,16 +1866,12 @@ test
 attribute
 "
                             
+f
 "
 {
+part
 }
 "
-.
-format
-(
-path
-part
-)
                         
 )
                 
@@ -2149,8 +2127,10 @@ in
 path
                         
 )
+f
 "
 {
+path
 }
 :
 has
@@ -2160,11 +2140,6 @@ crash
 annotation
 .
 "
-.
-format
-(
-path
-)
                         
 test
 .
@@ -2262,8 +2237,10 @@ else
 print
 (
                             
+f
 "
 {
+path
 }
 :
 warning
@@ -2277,16 +2254,12 @@ test
 attribute
 "
                             
+f
 "
 {
+part
 }
 "
-.
-format
-(
-path
-part
-)
                         
 )
         
@@ -2430,16 +2403,12 @@ exprs
 =
 [
             
+f
 "
 const
 platform
 =
 {
-}
-"
-.
-format
-(
 js_quote
 (
 quotechar
@@ -2447,41 +2416,36 @@ sys
 .
 platform
 )
-)
+}
+"
             
+f
 "
 const
 libdir
 =
 {
-}
-"
-.
-format
-(
 js_quote
 (
 quotechar
 libdir
 )
-)
+}
+"
             
+f
 "
 const
 scriptdir
 =
 {
-}
-"
-.
-format
-(
 js_quote
 (
 quotechar
 scriptdir_var
 )
-)
+}
+"
         
 ]
         
@@ -2628,28 +2592,25 @@ cmd
 e
 "
                 
+f
 "
 if
 (
 {
+self
+.
+skip_if_cond
 }
 )
 quit
 (
 {
-}
-)
-"
-.
-format
-(
-self
-.
-skip_if_cond
 self
 .
 SKIPPED_EXIT_STATUS
+}
 )
+"
             
 ]
         
@@ -3395,27 +3356,42 @@ jitflags
 print
 (
         
+f
 '
 {
+result
 }
 |
 {
+res
+.
+test
+.
+relpath_top
 }
 |
 {
+message
 }
 (
 code
 {
+res
+.
+rc
 }
 args
 "
 {
+jitflags
 }
 "
 )
 [
 {
+res
+.
+dt
 :
 .
 1f
@@ -3423,26 +3399,6 @@ args
 s
 ]
 '
-.
-format
-(
-            
-result
-res
-.
-test
-.
-relpath_top
-message
-res
-.
-rc
-jitflags
-res
-.
-dt
-        
-)
     
 )
     
@@ -3526,6 +3482,7 @@ return
     
 print
 (
+f
 "
 INFO
 exit
@@ -3533,19 +3490,16 @@ exit
 status
 :
 {
-}
-"
-.
-format
-(
 res
 .
 rc
-)
+}
+"
 )
     
 print
 (
+f
 "
 INFO
 timed
@@ -3553,15 +3507,11 @@ timed
 out
 :
 {
-}
-"
-.
-format
-(
 res
 .
 timed_out
-)
+}
+"
 )
     
 warnings
@@ -3915,22 +3865,19 @@ write
 failure
 "
                     
+f
 "
 file
 '
 {
+options
+.
+write_failures
 }
 '
 \
 n
 "
-.
-format
-(
-options
-.
-write_failures
-)
                 
 )
                 
@@ -4031,14 +3978,12 @@ ALL
             
 +
 (
-                
 "
 "
-                
 if
 complete
-                
 else
+f
 "
 (
 partial
@@ -4049,15 +3994,10 @@ interrupted
 by
 user
 {
+doing
 }
 )
 "
-.
-format
-(
-doing
-)
-            
 )
         
 )
@@ -4095,38 +4035,32 @@ summary
         
 print
 (
+f
 "
 Passed
 :
 {
+num_tests
+-
+num_failures
 :
 d
 }
 "
-.
-format
-(
-num_tests
--
-num_failures
-)
 )
         
 print
 (
+f
 "
 Failed
 :
 {
+num_failures
 :
 d
 }
 "
-.
-format
-(
-num_failures
-)
 )
     
 if
@@ -4159,9 +4093,12 @@ num_tests
         
 print
 (
-            
+f
 "
 {
+fraction_fast
+*
+100
 :
 5
 .
@@ -4174,22 +4111,15 @@ ran
 in
 under
 {
+threshold
 }
 s
 "
-.
-format
-(
-fraction_fast
-*
-100
-threshold
-)
-        
 )
         
 print
 (
+f
 "
 Slowest
 tests
@@ -4198,15 +4128,11 @@ took
 longer
 than
 {
+threshold
 }
 s
 :
 "
-.
-format
-(
-threshold
-)
 )
         
 slow_tests
@@ -4255,27 +4181,24 @@ i
             
 print
 (
+f
 "
 {
+res
+.
+dt
 :
 6
 .
 2f
 }
 {
-}
-"
-.
-format
-(
-res
-.
-dt
 test_details
 (
 res
 )
-)
+}
+"
 )
             
 any
@@ -4594,22 +4517,19 @@ stdout
 .
 write
 (
+f
 "
 Exit
 code
 :
 {
+res
+.
+rc
 }
 \
 n
 "
-.
-format
-(
-res
-.
-rc
-)
 )
             
 if
@@ -4680,25 +4600,20 @@ pb
 .
 message
 (
-                            
+f
 "
 FAIL
 -
 OUTPUT
 DIFFERS
 {
-}
-"
-.
-format
-(
 res
 .
 test
 .
 relpath_tests
-)
-                        
+}
+"
 )
                 
 else
@@ -4719,20 +4634,17 @@ out
             
 doing
 =
+f
 "
 after
 {
-}
-"
-.
-format
-(
 res
 .
 test
 .
 relpath_tests
-)
+}
+"
             
 if
 status
@@ -4774,21 +4686,18 @@ pb
 .
 message
 (
+f
 "
 TIMEOUT
 -
 {
-}
-"
-.
-format
-(
 res
 .
 test
 .
 relpath_tests
-)
+}
+"
 )
                     
 timeouts
@@ -4803,21 +4712,18 @@ pb
 .
 message
 (
+f
 "
 FAIL
 -
 {
-}
-"
-.
-format
-(
 res
 .
 test
 .
 relpath_tests
-)
+}
+"
 )
             
 if

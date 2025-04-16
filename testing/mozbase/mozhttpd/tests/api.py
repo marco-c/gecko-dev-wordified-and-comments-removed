@@ -73,6 +73,7 @@ info
     
 url
 =
+f
 "
 http
 :
@@ -87,29 +88,16 @@ http
 1
 :
 {
-port
-}
-{
-path
-}
-"
-.
-format
-(
-        
-port
-=
 httpd
 .
 httpd
 .
 server_port
-        
+}
+{
 path
-=
-path
-    
-)
+}
+"
     
 if
 querystr
@@ -120,6 +108,7 @@ None
         
 url
 =
+f
 "
 {
 url
@@ -129,19 +118,6 @@ url
 querystr
 }
 "
-.
-format
-(
-            
-url
-=
-url
-            
-querystr
-=
-querystr
-        
-)
     
 return
 url
@@ -1660,19 +1636,13 @@ host
 "
     
 return
+f
 "
 {
 host
 }
 index
 "
-.
-format
-(
-host
-=
-host
-)
 pytest
 .
 fixture
@@ -1872,6 +1842,7 @@ ProxyHandler
 http
 "
 :
+f
 "
 http
 :
@@ -1891,13 +1862,6 @@ port
 d
 }
 "
-.
-format
-(
-port
-=
-port
-)
         
 }
     
@@ -1942,6 +1906,7 @@ f
 =
 urlopen
 (
+f
 "
 http
 :
@@ -1952,13 +1917,6 @@ host
 }
 /
 "
-.
-format
-(
-host
-=
-host
-)
 )
         
 assert
@@ -2081,12 +2039,12 @@ proxy_support
 =
 ProxyHandler
 (
-        
 {
 "
 http
 "
 :
+f
 "
 http
 :
@@ -2106,15 +2064,7 @@ port
 d
 }
 "
-.
-format
-(
-port
-=
-port
-)
 }
-    
 )
     
 install_opener
@@ -2156,6 +2106,7 @@ f
 =
 urlopen
 (
+f
 "
 http
 :
@@ -2166,13 +2117,6 @@ host
 }
 /
 "
-.
-format
-(
-host
-=
-host
-)
 )
         
 assert
@@ -2222,23 +2166,17 @@ excinfo
         
 urlopen
 (
+f
 "
 http
 :
 /
 /
 {
-host
+unproxied_host
 }
 /
 "
-.
-format
-(
-host
-=
-unproxied_host
-)
 )
     
 assert

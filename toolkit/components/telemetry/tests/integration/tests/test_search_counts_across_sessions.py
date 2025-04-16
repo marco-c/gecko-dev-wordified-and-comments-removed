@@ -253,19 +253,14 @@ SEARCH_COUNTS
 "
 ]
 [
-        
+f
 "
 {
+search_engine
 }
 .
 urlbar
 "
-.
-format
-(
-search_engine
-)
-    
 ]
     
 assert
@@ -725,19 +720,14 @@ SEARCH_COUNTS
 "
 ]
 [
-        
+f
 "
 {
+search_engine
 }
 .
 urlbar
 "
-.
-format
-(
-search_engine
-)
-    
 ]
     
 assert

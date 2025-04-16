@@ -162,9 +162,6 @@ hand
 "
 class
 MozbuildWriter
-(
-object
-)
 :
     
 def
@@ -5006,9 +5003,6 @@ with
 open
 (
 gn_config_file
-"
-r
-"
 )
 as
 fh
@@ -5191,9 +5185,6 @@ open
 args
 .
 config
-"
-r
-"
 )
 as
 fh

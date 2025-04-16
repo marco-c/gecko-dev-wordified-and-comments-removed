@@ -288,9 +288,6 @@ with
 open
 (
 config_path
-"
-r
-"
 )
 as
 infile

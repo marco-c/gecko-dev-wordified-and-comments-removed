@@ -176,6 +176,7 @@ output
 write
 (
         
+f
 "
 "
 "
@@ -183,7 +184,7 @@ write
 def
 test_
 {
-0
+testnum
 }
 (
 self
@@ -192,7 +193,12 @@ self
         
 #
 {
-1
+line
+[
+0
+:
+80
+]
 }
 .
 .
@@ -202,19 +208,6 @@ n
 "
 "
 "
-.
-format
-(
-            
-testnum
-line
-[
-0
-:
-80
-]
-        
-)
     
 )
     
@@ -332,6 +325,7 @@ output
 write
 (
         
+f
 "
 self
 .
@@ -341,23 +335,16 @@ ExperimentStatus
 .
 ENROLLED_
 {
-0
-}
-)
-\
-n
-"
-.
-format
-(
-            
 e
 .
 upper
 (
 )
-        
+}
 )
+\
+n
+"
     
 )
 def
@@ -371,7 +358,7 @@ output
 .
 write
 (
-        
+f
 "
 \
 n
@@ -385,21 +372,15 @@ Prefs
 .
 WIN32K
 {
-0
+str
+(
+enabled
+)
 }
 )
 \
 n
 "
-.
-format
-(
-str
-(
-enabled
-)
-)
-    
 )
 def
 set_e10s
@@ -697,9 +678,6 @@ win32k_tests
 .
 txt
 "
-"
-r
-"
 )
 .
 readlines
@@ -734,9 +712,6 @@ test_win32k_enrollment
 template
 .
 py
-"
-"
-r
 "
 )
 for
@@ -944,10 +919,11 @@ line
 raise
 Exception
 (
+f
 "
 '
 {
-0
+line
 }
 '
 does
@@ -957,11 +933,6 @@ the
 default
 regex
 "
-.
-format
-(
-line
-)
 )
     
 default

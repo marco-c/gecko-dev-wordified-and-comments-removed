@@ -31,9 +31,6 @@ PropertyKey
 )
 class
 PropertyKey
-(
-object
-)
 :
     
 StringTypeTag

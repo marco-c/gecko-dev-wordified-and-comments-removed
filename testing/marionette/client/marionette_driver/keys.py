@@ -1,8 +1,5 @@
 class
 Keys
-(
-object
-)
 :
     
 NULL

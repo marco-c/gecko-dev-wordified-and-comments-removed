@@ -228,9 +228,6 @@ with
 open
 (
 gen_sources
-"
-r
-"
 )
 as
 f

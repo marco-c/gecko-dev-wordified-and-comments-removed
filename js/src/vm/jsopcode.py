@@ -769,7 +769,6 @@ None
 raise
 Exception
 (
-            
 "
 Category
 is
@@ -779,22 +778,14 @@ in
 index
 :
 "
-            
+f
 "
 {
-name
-}
-"
-.
-format
-(
-name
-=
 opcode
 .
 category_name
-)
-        
+}
+"
 )
     
 opcodes
@@ -823,6 +814,7 @@ raise
 Exception
 (
                 
+f
 "
 Type
 is
@@ -830,30 +822,20 @@ not
 listed
 in
 {
-category
-}
-:
-"
-                
-"
-{
-name
-}
-"
-.
-format
-(
-category
-=
 opcode
 .
 category_name
-name
-=
+}
+:
+"
+f
+"
+{
 opcode
 .
 type_name
-)
+}
+"
             
 )
         
@@ -1244,6 +1226,7 @@ index
 with
 open
 (
+f
 "
 {
 dir
@@ -1258,16 +1241,6 @@ vm
 Opcodes
 .
 h
-"
-.
-format
-(
-dir
-=
-dir
-)
-"
-r
 "
 encoding
 =
@@ -1603,6 +1576,7 @@ raise
 ValueError
 (
                         
+f
 "
 unrecognized
 line
@@ -1610,6 +1584,7 @@ in
 comment
 :
 {
+line
 !
 r
 }
@@ -1623,16 +1598,9 @@ was
 \
 n
 {
+comment
 }
 "
-.
-format
-(
-                            
-line
-comment
-                        
-)
                     
 )
             
@@ -1892,6 +1860,7 @@ raise
 ValueError
 (
                     
+f
 "
 Unexpected
 snake
@@ -1900,32 +1869,26 @@ case
 name
 for
 {
+opcode
+.
+op
 }
 :
 expected
 {
+expected_snake
 !
 r
 }
 got
 {
+opcode
+.
+op_snake
 !
 r
 }
 "
-.
-format
-(
-                        
-opcode
-.
-op
-expected_snake
-opcode
-.
-op_snake
-                    
-)
                 
 )
             
@@ -1959,7 +1922,6 @@ category_name
 raise
 Exception
 (
-                        
 "
 Category
 is
@@ -1967,21 +1929,14 @@ not
 specified
 for
 "
+f
 "
 {
-op
-}
-"
-.
-format
-(
-op
-=
 opcode
 .
 op
-)
-                    
+}
+"
 )
                 
 add_to_index
@@ -2025,58 +1980,39 @@ group
 :
 "
                         
+f
 "
 {
-value1
+group_head
+.
+length
 }
 (
 {
-op1
+group_head
+.
+op
 }
 )
 !
 =
 "
                         
+f
 "
 {
-value2
-}
-(
-{
-op2
-}
-)
-"
-.
-format
-(
-                            
-op1
-=
-group_head
-.
-op
-                            
-value1
-=
-group_head
-.
-length
-                            
-op2
-=
-opcode
-.
-op
-                            
-value2
-=
 opcode
 .
 length
-                        
+}
+(
+{
+opcode
+.
+op
+}
 )
+"
                     
 )
                 
@@ -2112,58 +2048,39 @@ group
 :
 "
                         
+f
 "
 {
-value1
+group_head
+.
+nuses
 }
 (
 {
-op1
+group_head
+.
+op
 }
 )
 !
 =
 "
                         
+f
 "
 {
-value2
-}
-(
-{
-op2
-}
-)
-"
-.
-format
-(
-                            
-op1
-=
-group_head
-.
-op
-                            
-value1
-=
-group_head
-.
-nuses
-                            
-op2
-=
-opcode
-.
-op
-                            
-value2
-=
 opcode
 .
 nuses
-                        
+}
+(
+{
+opcode
+.
+op
+}
 )
+"
                     
 )
                 
@@ -2199,58 +2116,39 @@ group
 :
 "
                         
+f
 "
 {
-value1
+group_head
+.
+ndefs
 }
 (
 {
-op1
+group_head
+.
+op
 }
 )
 !
 =
 "
                         
+f
 "
 {
-value2
-}
-(
-{
-op2
-}
-)
-"
-.
-format
-(
-                            
-op1
-=
-group_head
-.
-op
-                            
-value1
-=
-group_head
-.
-ndefs
-                            
-op2
-=
-opcode
-.
-op
-                            
-value2
-=
 opcode
 .
 ndefs
-                        
+}
+(
+{
+opcode
+.
+op
+}
 )
+"
                     
 )
                 
@@ -2347,6 +2245,7 @@ raise
 Exception
 (
                     
+f
 "
 nuses
 should
@@ -2360,6 +2259,7 @@ op
 :
 "
                     
+f
 "
 {
 nuses
@@ -2376,19 +2276,6 @@ stack_nuses
 stack_nuses
 )
 "
-.
-format
-(
-op
-=
-op
-nuses
-=
-nuses
-stack_nuses
-=
-stack_nuses
-)
                 
 )
             
@@ -2415,6 +2302,7 @@ raise
 Exception
 (
                     
+f
 "
 ndefs
 should
@@ -2428,6 +2316,7 @@ op
 :
 "
                     
+f
 "
 {
 ndefs
@@ -2444,19 +2333,6 @@ stack_ndefs
 stack_ndefs
 )
 "
-.
-format
-(
-op
-=
-op
-ndefs
-=
-ndefs
-stack_ndefs
-=
-stack_ndefs
-)
                 
 )
     

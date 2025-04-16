@@ -105,9 +105,6 @@ EEXIST
 raise
 class
 AndroidMixin
-(
-object
-)
 :
     
 "
@@ -1093,9 +1090,6 @@ with
 open
 (
 avd_config_path
-"
-r
-"
 )
 as
 config_file

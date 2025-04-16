@@ -192,6 +192,7 @@ e
         
 print
 (
+f
 "
 Could
 not
@@ -200,29 +201,22 @@ the
 version
 '
 {
+output
 }
 '
 "
-.
-format
-(
-output
-)
 )
         
 print
 (
+f
 "
 Error
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
 def
 parse_issues
@@ -682,20 +676,17 @@ log
 .
 debug
 (
+f
 "
 Black
 version
 {
-}
-"
-.
-format
-(
 get_black_version
 (
 binary
 )
-)
+}
+"
 )
     
 cmd_args

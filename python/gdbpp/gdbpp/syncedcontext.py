@@ -35,9 +35,6 @@ FieldValues
 )
 class
 synced_context_field_printer
-(
-object
-)
 :
     
 def
