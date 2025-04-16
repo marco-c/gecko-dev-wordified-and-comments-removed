@@ -94,7 +94,6 @@ aCodec
 const
 {
 return
-(
 aCodec
 =
 =
@@ -102,19 +101,6 @@ CodecType
 :
 :
 H264
-&
-&
-java
-:
-:
-HardwareCodecCapabilityUtils
-:
-:
-HasHWH264
-(
-true
-)
-)
 |
 |
 (
