@@ -2938,10 +2938,6 @@ active
 :
 :
 before
-&
-:
-:
-after
 {
 content
 :
@@ -3048,6 +3044,10 @@ end
 8px
 ;
 }
+menu
+:
+:
+after
 .
 menu
 -
