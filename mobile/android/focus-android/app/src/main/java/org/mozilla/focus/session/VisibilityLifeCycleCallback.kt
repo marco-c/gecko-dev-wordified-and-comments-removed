@@ -337,10 +337,9 @@ Bundle
 {
 if
 (
-!
 appInForeground
 )
-{
+return
 appInForeground
 =
 true
@@ -350,7 +349,6 @@ addAppOpenings
 (
 context
 )
-}
 }
 override
 fun

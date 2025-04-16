@@ -241,7 +241,6 @@ in
 foreground
 if
 (
-!
 VisibilityLifeCycleCallback
 .
 isInBackground
@@ -249,7 +248,7 @@ isInBackground
 context
 )
 )
-{
+return
 context
 .
 components
@@ -265,7 +264,6 @@ ShowSearchWidgetSnackBar
 true
 )
 )
-}
 }
 override
 fun

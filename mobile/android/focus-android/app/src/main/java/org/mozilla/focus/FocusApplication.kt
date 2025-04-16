@@ -1260,14 +1260,11 @@ debug
 builds
 if
 (
-!
 AppConstants
 .
 isDevBuild
 )
 {
-return
-}
 val
 threadPolicyBuilder
 =
@@ -1386,6 +1383,7 @@ build
 (
 )
 )
+}
 }
 VisibleForTesting
 OpenForTesting
