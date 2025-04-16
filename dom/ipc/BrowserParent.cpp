@@ -6913,9 +6913,6 @@ principal
 }
 EnumSet
 <
-ContentParent
-:
-:
 ValidatePrincipalOptions
 >
 validationOptions
@@ -6962,9 +6959,6 @@ chrome
 validationOptions
 =
 {
-ContentParent
-:
-:
 ValidatePrincipalOptions
 :
 :
@@ -7064,9 +7058,6 @@ IsSystemPrincipal
 validationOptions
 =
 {
-ContentParent
-:
-:
 ValidatePrincipalOptions
 :
 :
