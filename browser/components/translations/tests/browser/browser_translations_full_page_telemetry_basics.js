@@ -99,7 +99,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewFirstShow
+assertPanelViewIntro
 }
 )
 ;
@@ -212,7 +212,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewFirstShow
+assertPanelViewIntro
 }
 )
 ;

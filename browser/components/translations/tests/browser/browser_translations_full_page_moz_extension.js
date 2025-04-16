@@ -181,7 +181,9 @@ urlbar
 -
 translations
 -
-button2
+button
+-
+intro
 "
 )
 ;
@@ -213,7 +215,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewDefault
+assertPanelViewIntro
 }
 )
 ;

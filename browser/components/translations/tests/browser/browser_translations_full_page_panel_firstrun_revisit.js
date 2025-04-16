@@ -26,20 +26,6 @@ SPANISH_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
-prefs
-:
-[
-[
-"
-browser
-.
-translations
-.
-panelShown
-"
-false
-]
-]
 }
 )
 ;
@@ -91,7 +77,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewFirstShow
+assertPanelViewIntro
 }
 )
 ;
@@ -122,7 +108,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewFirstShow
+assertPanelViewIntro
 }
 )
 ;
@@ -170,7 +156,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewDefault
+assertPanelViewIntro
 }
 )
 ;
@@ -219,7 +205,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewDefault
+assertPanelViewIntro
 }
 )
 ;
