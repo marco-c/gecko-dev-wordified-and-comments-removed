@@ -35870,6 +35870,12 @@ if
 IsEventHandlingEnabled
 (
 )
+&
+&
+!
+IsBeingUsedAsImage
+(
+)
 )
 {
 return
