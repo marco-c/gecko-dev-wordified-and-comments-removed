@@ -5848,6 +5848,12 @@ typePrefix
 !
 =
 FISSION_WEB_REMOTE_TYPE
+&
+&
+typePrefix
+!
+=
+SERVICEWORKER_REMOTE_TYPE
 )
 {
 return
