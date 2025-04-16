@@ -69,6 +69,8 @@ on
 ]
 ]
 }
+true
+undefined
 TEST_CREDIT_CARD_1
 )
 ;
@@ -243,6 +245,8 @@ testConfidence
 ]
 ]
 }
+true
+undefined
 TEST_CREDIT_CARD_1
 )
 ;
@@ -411,6 +415,8 @@ testConfidence
 ]
 ]
 }
+true
+undefined
 TEST_CREDIT_CARD_1
 )
 ;
