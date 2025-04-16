@@ -2507,6 +2507,16 @@ ScrollPositionUpdate
 aUpdate
 )
 ;
+bool
+HasBeenScrolled
+(
+)
+const
+{
+return
+mHasBeenScrolled
+;
+}
 protected
 :
 ScrollContainerFrame
