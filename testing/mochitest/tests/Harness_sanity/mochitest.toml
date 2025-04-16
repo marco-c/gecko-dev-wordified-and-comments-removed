@@ -56,13 +56,6 @@ html
 ]
 [
 "
-test_SpecialPowersLoadPrivilegedScript
-.
-html
-"
-]
-[
-"
 test_SpecialPowersPushPermissions
 .
 html
