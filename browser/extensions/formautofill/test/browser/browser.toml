@@ -370,13 +370,6 @@ js
 ]
 [
 "
-browser_dynamic_form_refill_on_site_clearing_values
-.
-js
-"
-]
-[
-"
 browser_dynamic_form_telemetry
 .
 js
