@@ -717,6 +717,16 @@ ToString
 stringValue
 )
 ;
+if
+(
+!
+stringValue
+.
+IsEmpty
+(
+)
+)
+{
 ParseStyleAttribute
 (
 stringValue
@@ -725,6 +735,7 @@ attrValue
 aForceInDataDoc
 )
 ;
+}
 bool
 oldValueSet
 ;
@@ -848,8 +859,10 @@ aValue
 nullptr
 )
 )
+{
 return
 ;
+}
 if
 (
 aForceInDataDoc
