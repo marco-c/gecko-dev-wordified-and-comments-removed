@@ -2578,6 +2578,13 @@ height
 )
 ;
 async
+AndroidPipModeChanged
+(
+bool
+aPipMode
+)
+;
+async
 StopIMEStateManagement
 (
 )

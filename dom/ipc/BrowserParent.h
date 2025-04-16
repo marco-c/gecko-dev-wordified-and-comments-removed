@@ -2117,11 +2117,8 @@ aCharCodes
 )
 ;
 #
-if
-defined
-(
+ifdef
 MOZ_WIDGET_ANDROID
-)
 void
 DynamicToolbarMaxHeightChanged
 (
@@ -2141,6 +2138,12 @@ KeyboardHeightChanged
 (
 ScreenIntCoord
 aHeight
+)
+;
+void
+AndroidPipModeChanged
+(
+bool
 )
 ;
 #

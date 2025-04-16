@@ -6226,6 +6226,12 @@ return
 mPrototypeDocument
 ;
 }
+bool
+InAndroidPipMode
+(
+)
+const
+;
 nsXULPrototypeDocument
 *
 GetPrototype
