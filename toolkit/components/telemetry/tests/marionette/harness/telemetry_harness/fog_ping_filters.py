@@ -151,15 +151,3 @@ deletion
 request
 "
 )
-FOG_ONE_PING_ONLY_PING
-=
-FOGDocTypePingFilter
-(
-"
-one
--
-ping
--
-only
-"
-)

@@ -15,13 +15,6 @@ py
 ]
 [
 "
-test_fog_custom_ping
-.
-py
-"
-]
-[
-"
 test_fog_deletion_request_ping
 .
 py
