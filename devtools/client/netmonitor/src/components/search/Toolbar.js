@@ -642,7 +642,7 @@ this
 props
 .
 searchboxRef
-value
+initialValue
 :
 query
 onClearButtonClick
