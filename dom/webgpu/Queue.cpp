@@ -435,7 +435,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
 aData
 uint64_t
@@ -1095,7 +1095,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
 aData
 const

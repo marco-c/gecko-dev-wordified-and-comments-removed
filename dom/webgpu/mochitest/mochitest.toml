@@ -296,6 +296,13 @@ html
 ]
 [
 "
+test_shared_array_buffer
+.
+html
+"
+]
+[
+"
 test_submit_compute_empty
 .
 html

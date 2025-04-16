@@ -190,9 +190,9 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
-aData
+data
 uint64_t
 aDataOffset
 const
@@ -224,9 +224,9 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
-aData
+data
 const
 dom
 :
