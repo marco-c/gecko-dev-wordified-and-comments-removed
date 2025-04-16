@@ -1,3 +1,17 @@
+setJitCompilerOption
+(
+"
+jit
+.
+full
+-
+debug
+-
+checks
+"
+0
+)
+;
 codegenTestARM64_adhoc
 (
 (

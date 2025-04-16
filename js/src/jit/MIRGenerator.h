@@ -190,9 +190,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 =
 nullptr
 )

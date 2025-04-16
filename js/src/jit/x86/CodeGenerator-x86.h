@@ -65,6 +65,13 @@ graph
 MacroAssembler
 *
 masm
+const
+wasm
+:
+:
+CodeMetadata
+*
+wasmCodeMeta
 )
 ;
 void

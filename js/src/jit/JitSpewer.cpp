@@ -1032,9 +1032,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 )
 :
 graph_
@@ -1053,7 +1053,7 @@ lifoAlloc
 jsonSpewer_
 (
 jsonPrinter_
-wasmTypes
+wasmCodeMeta
 )
 {
 }
