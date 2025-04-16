@@ -512,6 +512,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 "
 Optional
@@ -540,6 +544,10 @@ idle
 "
 ]
 origins
+:
+[
+]
+data_collection
 :
 [
 ]
@@ -870,6 +878,10 @@ permissions
 [
 ]
 origins
+:
+[
+]
+data_collection
 :
 [
 ]
@@ -1279,6 +1291,10 @@ com
 /
 *
 "
+]
+data_collection
+:
+[
 ]
 }
 }

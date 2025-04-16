@@ -367,6 +367,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 ;
 await
@@ -431,6 +435,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 ;
 await
@@ -477,6 +485,10 @@ permissions
 [
 ]
 origins
+:
+[
+]
+data_collection
 :
 [
 ]
