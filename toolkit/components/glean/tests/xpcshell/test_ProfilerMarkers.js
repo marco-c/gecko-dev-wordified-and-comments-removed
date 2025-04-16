@@ -9777,7 +9777,7 @@ await
 runWithProfilerAndGetMarkers
 (
 "
-Ping
+GleanPing
 "
 (
 )
@@ -9870,7 +9870,7 @@ markers
 type
 :
 "
-Ping
+GleanPing
 "
 id
 :
@@ -9886,7 +9886,7 @@ only
 type
 :
 "
-Ping
+GleanPing
 "
 id
 :
@@ -9902,7 +9902,7 @@ only
 type
 :
 "
-Ping
+GleanPing
 "
 id
 :
@@ -9918,7 +9918,7 @@ only
 type
 :
 "
-Ping
+GleanPing
 "
 id
 :
@@ -9934,7 +9934,7 @@ only
 type
 :
 "
-Ping
+GleanPing
 "
 id
 :
