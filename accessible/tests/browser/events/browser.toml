@@ -94,15 +94,6 @@ browser_test_docload
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 browser_test_focus_browserui

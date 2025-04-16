@@ -139,9 +139,6 @@ onLoadEvents
 =
 waitForEvents
 (
-{
-expected
-:
 [
 [
 EVENT_REORDER
@@ -163,10 +160,6 @@ busyChecker
 false
 )
 ]
-]
-unexpected
-:
-[
 [
 EVENT_DOCUMENT_LOAD_COMPLETE
 inIframeChecker
@@ -186,7 +179,6 @@ iframe1
 )
 ]
 ]
-}
 )
 ;
 BrowserTestUtils
