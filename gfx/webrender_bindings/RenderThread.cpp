@@ -8176,11 +8176,6 @@ MakeCurrent
 wr_shaders_delete
 (
 mShaders
-mGL
-.
-get
-(
-)
 )
 ;
 }
