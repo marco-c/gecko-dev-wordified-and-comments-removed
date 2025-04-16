@@ -2110,7 +2110,6 @@ onChannelCompleted
 #
 onChannelCompleted
 =
-async
 (
 )
 =
@@ -2224,7 +2223,6 @@ sizes
 .
 decodedBodySize
 =
-await
 this
 .
 #
