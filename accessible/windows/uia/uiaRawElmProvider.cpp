@@ -690,6 +690,9 @@ uia
 return
 ;
 }
+CacheDomainActivationBlocker
+cacheBlocker
+;
 PROPERTYID
 property
 =
