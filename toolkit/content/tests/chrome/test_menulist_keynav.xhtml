@@ -1592,6 +1592,10 @@ KEY_ArrowDown
 ;
 is
 (
+Math
+.
+round
+(
 item
 .
 getBoundingClientRect
@@ -1599,9 +1603,15 @@ getBoundingClientRect
 )
 .
 top
+)
+Math
+.
+round
+(
 originalPosition
 -
 rowdiff
+)
 "
 position
 of

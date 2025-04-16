@@ -569,6 +569,10 @@ some
 data
 =
 >
+Math
+.
+round
+(
 SpecialPowers
 .
 wrap
@@ -577,6 +581,7 @@ data
 )
 .
 scrollOffsetY
+)
 =
 =
 scrollMax
