@@ -98,7 +98,6 @@ true
 ]
 }
 true
-CC_NUM_USES_HISTOGRAM
 TEST_CREDIT_CARD_1
 )
 ;
@@ -132,17 +131,6 @@ openTabAndUseCreditCard
 (
 0
 TEST_CREDIT_CARD_1
-)
-;
-await
-assertHistogram
-(
-CC_NUM_USES_HISTOGRAM
-{
-1
-:
-1
-}
 )
 ;
 SpecialPowers
@@ -330,7 +318,6 @@ true
 ]
 }
 true
-CC_NUM_USES_HISTOGRAM
 TEST_CREDIT_CARD_1
 )
 ;
