@@ -163,7 +163,7 @@ service
 -
 nimbus
 :
-assembleAndroidTest
+testReleaseUnitTest
 samples
 -
 browser
