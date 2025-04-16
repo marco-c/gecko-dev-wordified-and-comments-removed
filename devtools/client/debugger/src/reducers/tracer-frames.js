@@ -1767,7 +1767,7 @@ e
 name
 =
 =
-name
+eventName
 )
 )
 {
