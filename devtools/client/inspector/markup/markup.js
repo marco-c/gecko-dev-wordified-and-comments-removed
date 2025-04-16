@@ -9722,6 +9722,11 @@ previouslyActiveElement
 .
 focus
 (
+{
+preventScroll
+:
+true
+}
 )
 ;
 }
