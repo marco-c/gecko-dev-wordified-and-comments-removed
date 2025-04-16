@@ -357,7 +357,11 @@ css
 *
 NOTE
 :
-Menu
+menu
+-
+shared
+.
+css
 must
 be
 after
@@ -387,6 +391,8 @@ global
 skin
 /
 menu
+-
+shared
 .
 css
 "
