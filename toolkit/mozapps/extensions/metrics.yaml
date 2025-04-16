@@ -1792,6 +1792,18 @@ mozilla
 org
 /
 1912166
+-
+https
+:
+/
+/
+bugzilla
+.
+mozilla
+.
+org
+/
+1958151
 data_reviews
 :
 -
@@ -1869,7 +1881,7 @@ type
 string
 expires
 :
-140
+147
 blocklist
 :
 last_modified_rs_addons_mblf
