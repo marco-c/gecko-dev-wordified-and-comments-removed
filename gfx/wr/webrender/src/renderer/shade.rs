@@ -2920,7 +2920,6 @@ pub
 struct
 Shaders
 {
-pub
 cs_blur_a8
 :
 LazilyCompiledShader
@@ -2936,7 +2935,6 @@ pub
 cs_border_solid
 :
 LazilyCompiledShader
-pub
 cs_scale
 :
 Vec
@@ -3031,11 +3029,9 @@ pub
 cs_clip_box_shadow
 :
 LazilyCompiledShader
-pub
 ps_text_run
 :
 TextShader
-pub
 ps_text_run_dual_source
 :
 Option
@@ -3049,11 +3045,9 @@ pub
 ps_quad_textured
 :
 LazilyCompiledShader
-pub
 ps_quad_radial_gradient
 :
 LazilyCompiledShader
-pub
 ps_quad_conic_gradient
 :
 LazilyCompiledShader
@@ -3073,7 +3067,6 @@ pub
 ps_copy
 :
 LazilyCompiledShader
-pub
 composite
 :
 CompositorShaders
