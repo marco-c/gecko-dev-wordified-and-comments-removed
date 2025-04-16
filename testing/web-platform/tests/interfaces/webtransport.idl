@@ -107,11 +107,6 @@ readable
 ;
 readonly
 attribute
-WebTransportDatagramsWritable
-writable
-;
-readonly
-attribute
 unsigned
 long
 maxDatagramSize

@@ -783,6 +783,15 @@ XRView
 view
 )
 ;
+undefined
+foveateBoundTexture
+(
+GLenum
+target
+float
+fixed_foveation
+)
+;
 }
 ;
 dictionary

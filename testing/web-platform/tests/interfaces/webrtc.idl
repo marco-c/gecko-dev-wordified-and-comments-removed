@@ -116,11 +116,11 @@ RTCIceServer
 {
 required
 (
-DOMString
+USVString
 or
 sequence
 <
-DOMString
+USVString
 >
 )
 urls
@@ -996,7 +996,7 @@ RTCIceCandidate
 ?
 candidate
 ;
-DOMString
+USVString
 ?
 url
 ;
@@ -1035,7 +1035,7 @@ port
 ;
 readonly
 attribute
-DOMString
+USVString
 url
 ;
 readonly
@@ -1065,7 +1065,7 @@ short
 ?
 port
 ;
-DOMString
+USVString
 url
 ;
 required
