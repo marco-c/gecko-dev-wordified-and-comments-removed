@@ -410,6 +410,16 @@ bugzil
 la
 /
 1912166
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+1958151
 data_reviews
 :
 &
@@ -559,7 +569,7 @@ mozilla
 com
 expires
 :
-140
+147
 extra_keys
 :
 &
@@ -1231,7 +1241,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1313,7 +1323,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1395,7 +1405,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1477,7 +1487,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1559,7 +1569,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1641,7 +1651,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1723,7 +1733,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1805,7 +1815,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1887,7 +1897,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -1969,7 +1979,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -2051,7 +2061,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -2133,7 +2143,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -2215,7 +2225,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -2297,7 +2307,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *
@@ -2379,7 +2389,7 @@ notification_emails
 addonsManager_install_emails
 expires
 :
-140
+147
 extra_keys
 :
 *

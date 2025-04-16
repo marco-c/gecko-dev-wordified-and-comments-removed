@@ -312,6 +312,18 @@ mozilla
 org
 /
 1912166
+-
+https
+:
+/
+/
+bugzilla
+.
+mozilla
+.
+org
+/
+1958151
 data_reviews
 :
 -
@@ -902,7 +914,7 @@ type
 string
 expires
 :
-140
+147
 update
 :
 *
