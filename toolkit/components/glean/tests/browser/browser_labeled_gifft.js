@@ -181,7 +181,7 @@ aLabeledCounter
 .
 repeat
 (
-112
+72
 )
 ]
 .
@@ -254,6 +254,18 @@ a_label
 another_label
 :
 2
+[
+"
+1
+"
+.
+repeat
+(
+72
+)
+]
+:
+3
 }
 value
 )
