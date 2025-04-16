@@ -806,6 +806,8 @@ global
 content
 /
 aboutLogging
+/
+aboutLogging
 .
 html
 "
