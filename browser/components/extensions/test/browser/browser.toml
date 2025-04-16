@@ -3258,6 +3258,13 @@ js
 ]
 [
 "
+browser_ext_tabs_onUpdated_groupId
+.
+js
+"
+]
+[
+"
 browser_ext_tabs_opener
 .
 js
