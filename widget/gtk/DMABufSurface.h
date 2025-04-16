@@ -993,12 +993,6 @@ DMABUF_BUFFER_PLANES
 ]
 ;
 int32_t
-mDrmFormats
-[
-DMABUF_BUFFER_PLANES
-]
-;
-int32_t
 mStrides
 [
 DMABUF_BUFFER_PLANES
@@ -2319,6 +2313,12 @@ DMABUF_BUFFER_PLANES
 ;
 int
 mHeightAligned
+[
+DMABUF_BUFFER_PLANES
+]
+;
+int32_t
+mDrmFormats
 [
 DMABUF_BUFFER_PLANES
 ]
