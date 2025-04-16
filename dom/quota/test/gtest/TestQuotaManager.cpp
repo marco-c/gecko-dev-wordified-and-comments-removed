@@ -9713,7 +9713,7 @@ ShutdownStorage
 TEST_F
 (
 TestQuotaManager
-DISABLED_SaveOriginAccessTime_FinishedWithOtherExclusiveClientDirectoryLock
+SaveOriginAccessTime_FinishedWithOtherExclusiveClientDirectoryLock
 )
 {
 auto

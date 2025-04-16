@@ -6151,7 +6151,7 @@ mOriginMetadata
 ClientStorageScope
 :
 :
-CreateFromNull
+CreateFromMetadata
 (
 )
 false
