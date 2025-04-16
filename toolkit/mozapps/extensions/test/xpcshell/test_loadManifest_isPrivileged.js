@@ -544,6 +544,10 @@ mozillaAddons
 cookies
 "
 ]
+data_collection
+:
+[
+]
 }
 "
 Privileged
@@ -648,6 +652,10 @@ permissions
 "
 cookies
 "
+]
+data_collection
+:
+[
 ]
 }
 "

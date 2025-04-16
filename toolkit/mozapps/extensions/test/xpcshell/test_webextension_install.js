@@ -3467,6 +3467,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 optionalPermissions
 :
@@ -3670,6 +3674,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 optionalPermissions
 :
@@ -3865,6 +3873,10 @@ manifestV2Privileged
 .
 permissions
 origins
+:
+[
+]
+data_collection
 :
 [
 ]
