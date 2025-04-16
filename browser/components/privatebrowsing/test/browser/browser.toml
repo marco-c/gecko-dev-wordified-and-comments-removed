@@ -417,6 +417,13 @@ js
 ]
 [
 "
+browser_privatebrowsing_permissions
+.
+js
+"
+]
+[
+"
 browser_privatebrowsing_placesTitleNoUpdate
 .
 js
