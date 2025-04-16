@@ -217,7 +217,7 @@ desc
 test
 getImageData
 with
-srsb
+srgb
 and
 uint8
 from
