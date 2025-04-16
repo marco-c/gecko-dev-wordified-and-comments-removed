@@ -1103,13 +1103,8 @@ this
 #
 input
 .
-toggleAttribute
+setUnifiedSearchButtonAvailability
 (
-"
-unifiedsearchbutton
--
-available
-"
 true
 )
 ;
