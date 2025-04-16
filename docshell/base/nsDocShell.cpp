@@ -49972,6 +49972,7 @@ navigation
 >
 FirePushReplaceReloadNavigateEvent
 (
+aCx
 aReplace
 ?
 NavigationType
