@@ -1919,11 +1919,6 @@ WordSized
 allocSite
 :
 WordSized
-arguments
-:
-typeDefIndex
-:
-uint32_t
 result_type
 :
 WordSized
@@ -1948,11 +1943,6 @@ WordSized
 allocSite
 :
 WordSized
-arguments
-:
-typeDefIndex
-:
-uint32_t
 result_type
 :
 WordSized
