@@ -16698,6 +16698,15 @@ MOZ_X11
 if
 (
 isX11
+&
+&
+!
+gtk_check_version
+(
+3
+24
+50
+)
 )
 {
 if
