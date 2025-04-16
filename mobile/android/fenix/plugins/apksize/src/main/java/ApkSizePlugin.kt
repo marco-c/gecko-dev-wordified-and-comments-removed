@@ -246,7 +246,15 @@ buildDir
 =
 project
 .
-buildDir
+layout
+.
+buildDirectory
+.
+get
+(
+)
+.
+asFile
 TaskAction
 fun
 logApkSize
