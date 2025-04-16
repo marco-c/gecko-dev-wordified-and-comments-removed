@@ -267,10 +267,10 @@ fmt
 :
 Result
 {
-write
-!
-(
 formatter
+.
+write_str
+(
 "
 a
 map
@@ -1181,9 +1181,6 @@ fn
 serialize_some
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1209,6 +1206,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1356,9 +1356,6 @@ fn
 serialize_newtype_struct
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1390,6 +1387,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1411,9 +1411,6 @@ fn
 serialize_newtype_variant
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1454,6 +1451,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1850,9 +1850,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -1878,6 +1875,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 value
 .
@@ -2732,9 +2732,6 @@ fn
 serialize_some
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -2760,6 +2757,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -2907,9 +2907,6 @@ fn
 serialize_newtype_struct
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -2941,6 +2938,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -2962,9 +2962,6 @@ fn
 serialize_newtype_variant
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -3005,6 +3002,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -3463,8 +3463,6 @@ SerContent
 }
 impl
 <
-'
-a
 M
 >
 SerializeSeq
@@ -3472,7 +3470,7 @@ for
 KeyValueSeqSerializer
 <
 '
-a
+_
 M
 >
 where
@@ -3498,9 +3496,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -3526,6 +3521,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 element
@@ -3649,7 +3647,6 @@ SerError
 custom
 (
 "
-TODO
 missing
 value
 for
@@ -3694,8 +3691,6 @@ SerContent
 }
 impl
 <
-'
-a
 M
 >
 SerializeTuple
@@ -3703,7 +3698,7 @@ for
 KeyValueTupleSerializer
 <
 '
-a
+_
 M
 >
 where
@@ -3729,9 +3724,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -3757,6 +3749,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 element
@@ -3880,7 +3875,6 @@ SerError
 custom
 (
 "
-TODO
 missing
 value
 for
@@ -3931,8 +3925,6 @@ SerContent
 }
 impl
 <
-'
-a
 M
 >
 SerializeTupleStruct
@@ -3940,7 +3932,7 @@ for
 KeyValueTupleStructSerializer
 <
 '
-a
+_
 M
 >
 where
@@ -3966,9 +3958,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -3994,6 +3983,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 field
@@ -4120,7 +4112,6 @@ SerError
 custom
 (
 "
-TODO
 missing
 value
 for
@@ -4177,8 +4168,6 @@ SerContent
 }
 impl
 <
-'
-a
 M
 >
 SerializeMap
@@ -4186,7 +4175,7 @@ for
 KeyValueMapSerializer
 <
 '
-a
+_
 M
 >
 where
@@ -4212,9 +4201,6 @@ fn
 serialize_key
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -4240,6 +4226,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 key
@@ -4308,9 +4297,6 @@ fn
 serialize_value
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -4336,6 +4322,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 value
@@ -4480,7 +4469,6 @@ SerError
 custom
 (
 "
-TODO
 missing
 value
 for
@@ -4537,8 +4525,6 @@ SerContent
 }
 impl
 <
-'
-a
 M
 >
 SerializeStruct
@@ -4546,7 +4532,7 @@ for
 KeyValueStructSerializer
 <
 '
-a
+_
 M
 >
 where
@@ -4572,9 +4558,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -4606,6 +4589,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 value
@@ -4732,7 +4718,6 @@ SerError
 custom
 (
 "
-TODO
 missing
 value
 for

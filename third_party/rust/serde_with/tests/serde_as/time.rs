@@ -3547,7 +3547,7 @@ r
 "
 0
 .
-0
+1
 "
 #
 expect
@@ -3563,6 +3563,8 @@ type
 floating
 point
 0
+.
+1
 expected
 a
 string
@@ -4611,7 +4613,7 @@ r
 "
 0
 .
-0
+1
 "
 #
 expect
@@ -4627,6 +4629,8 @@ type
 floating
 point
 0
+.
+1
 expected
 a
 string

@@ -1,15 +1,3 @@
-#
-!
-[
-allow
-(
-unknown_lints
-clippy
-:
-:
-derive_partial_eq_without_eq
-)
-]
 extern
 crate
 alloc
@@ -1320,6 +1308,7 @@ hash
 (
 state
 )
+;
 }
 }
 is_equal
@@ -1623,6 +1612,7 @@ hash
 (
 state
 )
+;
 }
 }
 is_equal

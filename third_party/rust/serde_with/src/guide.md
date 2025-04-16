@@ -159,7 +159,6 @@ serde
 '
 s
 with
--
 annotation
 ]
 [
@@ -182,14 +181,13 @@ downside
 is
 that
 it
-work
+works
 with
 fewer
 types
 than
 [
 with
--
 annotations
 ]
 [

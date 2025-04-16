@@ -219,10 +219,10 @@ fmt
 :
 Result
 {
-write
-!
-(
 formatter
+.
+write_str
+(
 "
 a
 map
@@ -1125,9 +1125,6 @@ fn
 serialize_some
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1153,6 +1150,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1300,9 +1300,6 @@ fn
 serialize_newtype_struct
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1334,6 +1331,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1355,9 +1355,6 @@ fn
 serialize_newtype_variant
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -1398,6 +1395,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -1794,9 +1794,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -1822,6 +1819,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 value
 .
@@ -2691,9 +2691,6 @@ fn
 serialize_some
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -2719,6 +2716,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -2869,9 +2869,6 @@ fn
 serialize_newtype_struct
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -2903,6 +2900,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 Err
 (
@@ -2924,9 +2924,6 @@ fn
 serialize_newtype_variant
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -2967,6 +2964,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 self
 .
@@ -3366,8 +3366,6 @@ Content
 }
 impl
 <
-'
-a
 M
 >
 SerializeStructVariant
@@ -3375,7 +3373,7 @@ for
 SerializeVariant
 <
 '
-a
+_
 M
 >
 where
@@ -3401,9 +3399,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -3435,6 +3430,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 value
@@ -3529,8 +3527,6 @@ content
 }
 impl
 <
-'
-a
 M
 >
 SerializeTupleVariant
@@ -3538,7 +3534,7 @@ for
 SerializeVariant
 <
 '
-a
+_
 M
 >
 where
@@ -3564,9 +3560,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -3592,6 +3585,9 @@ where
 T
 :
 Serialize
++
+?
+Sized
 {
 let
 value

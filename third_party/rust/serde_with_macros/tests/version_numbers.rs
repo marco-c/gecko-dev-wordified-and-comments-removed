@@ -1,13 +1,4 @@
 #
-!
-[
-allow
-(
-unknown_lints
-non_fmt_panics
-)
-]
-#
 [
 test
 ]
@@ -53,7 +44,6 @@ CHANGELOG
 md
 "
 r
-#
 "
 #
 #
@@ -65,7 +55,6 @@ version
 \
 ]
 "
-#
 )
 ;
 }

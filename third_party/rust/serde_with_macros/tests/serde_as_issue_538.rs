@@ -129,10 +129,8 @@ r
 ;
 let
 data
-:
-Data
 =
-Default
+Data
 :
 :
 default

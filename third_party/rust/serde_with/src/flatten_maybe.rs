@@ -110,7 +110,7 @@ derive
 crate
 :
 :
-serde
+serde_derive
 :
 :
 Deserialize

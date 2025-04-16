@@ -722,12 +722,6 @@ ty_pattern
 ty
 )
 ;
-dbg
-!
-(
-len_pattern
-)
-;
 let
 len_match
 =

@@ -67,10 +67,13 @@ fmt
 :
 Result
 {
-write
+f
+.
+write_fmt
+(
+format_args
 !
 (
-f
 "
 -
 >
@@ -89,6 +92,7 @@ a
 self
 .
 b
+)
 )
 }
 }

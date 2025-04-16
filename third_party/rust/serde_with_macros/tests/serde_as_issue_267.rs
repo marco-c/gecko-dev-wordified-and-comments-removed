@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+missing_docs
+)
+]
 use
 serde
 :

@@ -12,12 +12,8 @@ serde_with
 formats
 :
 :
-{
-CommaSeparator
 SpaceSeparator
-}
 PickFirst
-StringWithSeparator
 }
 ;
 #

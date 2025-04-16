@@ -1,12 +1,3 @@
-#
-!
-[
-allow
-(
-unknown_lints
-non_fmt_panics
-)
-]
 use
 version_sync
 :
@@ -34,7 +25,6 @@ CHANGELOG
 md
 "
 r
-#
 "
 #
 #
@@ -46,7 +36,6 @@ version
 \
 ]
 "
-#
 )
 ;
 }
@@ -127,8 +116,6 @@ assert_contains_regex
 "
 .
 .
-/
-serde_with_macros
 /
 Cargo
 .
@@ -440,6 +427,7 @@ as_str
 (
 )
 )
+;
 }
 _
 =

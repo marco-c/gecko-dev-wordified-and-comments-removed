@@ -405,15 +405,13 @@ ALPHABET
 ;
 impl
 <
-'
-de
 T
 ALPHABET
 >
 Visitor
 <
 '
-de
+_
 >
 for
 Helper
