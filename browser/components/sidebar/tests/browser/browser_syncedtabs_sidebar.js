@@ -1782,12 +1782,6 @@ enabled
 }
 )
 ;
-contextMenu
-.
-hidePopup
-(
-)
-;
 SidebarController
 .
 hide
