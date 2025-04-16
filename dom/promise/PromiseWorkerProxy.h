@@ -117,8 +117,6 @@ public
 PromiseNativeHandler
 public
 StructuredCloneHolderBase
-public
-SingleWriterLockOwner
 {
 friend
 class
@@ -177,13 +175,6 @@ JSObject
 >
 aObj
 )
-;
-bool
-OnWritingThread
-(
-)
-const
-override
 ;
 struct
 PromiseWorkerProxyStructuredCloneCallbacks
