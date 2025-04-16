@@ -339,7 +339,7 @@ that
 simulates
 login
 success
-of
+or
 failure
 .
 async
