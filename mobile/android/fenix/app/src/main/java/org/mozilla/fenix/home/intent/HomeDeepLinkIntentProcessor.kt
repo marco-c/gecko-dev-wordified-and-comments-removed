@@ -554,6 +554,14 @@ home_collections
 GlobalDirections
 .
 Home
+"
+settings_private_browsing
+"
+-
+>
+GlobalDirections
+.
+SettingsPrivateBrowsing
 else
 -
 >

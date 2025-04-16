@@ -309,4 +309,17 @@ id
 .
 wallpaperSettingsFragment
 )
+SettingsPrivateBrowsing
+(
+NavGraphDirections
+.
+actionGlobalPrivateBrowsingFragment
+(
+)
+R
+.
+id
+.
+privateBrowsingFragment
+)
 }
