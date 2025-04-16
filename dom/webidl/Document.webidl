@@ -2856,7 +2856,14 @@ it
 )
 .
 [
-ChromeOnly
+Func
+=
+"
+Document
+:
+:
+CallerIsSystemPrincipalOrWebCompatAddon
+"
 ]
 readonly
 attribute
@@ -4027,7 +4034,7 @@ Func
 Document
 :
 :
-CallerCanAccessPrivilegeSSA
+CallerIsSystemPrincipalOrWebCompatAddon
 "
 NewObject
 ]

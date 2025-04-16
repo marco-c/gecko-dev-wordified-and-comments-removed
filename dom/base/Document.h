@@ -6421,7 +6421,7 @@ aObject
 ;
 static
 bool
-CallerCanAccessPrivilegeSSA
+CallerIsSystemPrincipalOrWebCompatAddon
 (
 JSContext
 *

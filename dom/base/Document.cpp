@@ -10245,7 +10245,7 @@ bool
 Document
 :
 :
-CallerCanAccessPrivilegeSSA
+CallerIsSystemPrincipalOrWebCompatAddon
 (
 JSContext
 *
