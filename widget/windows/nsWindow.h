@@ -684,13 +684,8 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 nsWindow
 )
-explicit
 nsWindow
 (
-bool
-aIsChildWindow
-=
-false
 )
 ;
 void
@@ -3797,11 +3792,6 @@ bool
 mSendingSetText
 =
 false
-;
-bool
-mIsChildWindow
-:
-1
 ;
 bool
 mPIPWindow
