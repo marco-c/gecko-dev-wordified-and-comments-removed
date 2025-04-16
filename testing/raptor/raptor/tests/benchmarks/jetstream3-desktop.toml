@@ -48,11 +48,11 @@ page_timeout
 2000000
 subtest_lower_is_better
 =
-false
+true
 subtest_unit
 =
 "
-score
+ms
 "
 test_url
 =
