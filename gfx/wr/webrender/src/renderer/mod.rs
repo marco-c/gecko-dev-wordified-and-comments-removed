@@ -9026,6 +9026,8 @@ borrow_mut
 )
 .
 ps_copy
+(
+)
 .
 bind
 (
@@ -11220,6 +11222,8 @@ borrow_mut
 )
 .
 ps_mask_fast
+(
+)
 .
 bind
 (
@@ -11284,6 +11288,8 @@ borrow_mut
 )
 .
 ps_mask_fast
+(
+)
 .
 bind
 (
@@ -11388,6 +11394,8 @@ borrow_mut
 )
 .
 ps_quad_textured
+(
+)
 .
 bind
 (
@@ -11471,6 +11479,8 @@ borrow_mut
 )
 .
 ps_quad_textured
+(
+)
 .
 bind
 (
@@ -11572,6 +11582,8 @@ borrow_mut
 )
 .
 ps_mask
+(
+)
 .
 bind
 (
@@ -11636,6 +11648,8 @@ borrow_mut
 )
 .
 ps_mask
+(
+)
 .
 bind
 (
@@ -12263,6 +12277,8 @@ borrow_mut
 )
 .
 cs_svg_filter
+(
+)
 .
 bind
 (
@@ -12365,6 +12381,8 @@ borrow_mut
 )
 .
 cs_svg_filter_node
+(
+)
 .
 bind
 (
@@ -13240,6 +13258,8 @@ borrow_mut
 )
 .
 ps_clear
+(
+)
 .
 bind
 (
@@ -18545,6 +18565,8 @@ borrow_mut
 )
 .
 ps_clear
+(
+)
 .
 bind
 (
@@ -19118,6 +19140,8 @@ borrow_mut
 )
 .
 cs_border_solid
+(
+)
 .
 bind
 (
@@ -19183,6 +19207,8 @@ borrow_mut
 )
 .
 cs_border_segment
+(
+)
 .
 bind
 (
@@ -19293,6 +19319,8 @@ borrow_mut
 )
 .
 cs_line_decoration
+(
+)
 .
 bind
 (
@@ -19392,6 +19420,8 @@ borrow_mut
 )
 .
 cs_fast_linear_gradient
+(
+)
 .
 bind
 (
@@ -19480,6 +19510,8 @@ borrow_mut
 )
 .
 cs_linear_gradient
+(
+)
 .
 bind
 (
@@ -19600,6 +19632,8 @@ borrow_mut
 )
 .
 cs_radial_gradient
+(
+)
 .
 bind
 (
@@ -19720,6 +19754,8 @@ borrow_mut
 )
 .
 cs_conic_gradient
+(
+)
 .
 bind
 (
@@ -19847,6 +19883,8 @@ borrow_mut
 )
 .
 cs_blur_rgba8
+(
+)
 .
 bind
 (
@@ -20334,6 +20372,8 @@ borrow_mut
 )
 .
 cs_clip_rectangle_slow
+(
+)
 .
 bind
 (
@@ -20414,6 +20454,8 @@ borrow_mut
 )
 .
 cs_clip_rectangle_fast
+(
+)
 .
 bind
 (
@@ -20510,6 +20552,8 @@ borrow_mut
 )
 .
 cs_clip_box_shadow
+(
+)
 .
 bind
 (
