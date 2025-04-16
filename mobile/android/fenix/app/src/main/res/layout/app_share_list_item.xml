@@ -145,6 +145,13 @@ com
 /
 tools
 "
+tools
+:
+ignore
+=
+"
+SmallSp
+"
 android
 :
 layout_width
