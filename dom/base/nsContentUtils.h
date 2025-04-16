@@ -2568,6 +2568,14 @@ true
 ;
 static
 bool
+IsFirstLetterPunctuation
+(
+uint32_t
+aChar
+)
+;
+static
+bool
 IsAlphanumeric
 (
 uint32_t
