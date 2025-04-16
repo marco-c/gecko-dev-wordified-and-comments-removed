@@ -1856,6 +1856,10 @@ ComputeBSizeForResolvingRowSizes
 GridReflowInput
 &
 aGridRI
+const
+Grid
+&
+aGrid
 nscoord
 aComputedBSize
 const
