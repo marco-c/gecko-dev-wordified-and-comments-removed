@@ -1,4 +1,8 @@
 import
+importlib
+.
+metadata
+import
 sys
 import
 types
@@ -40,7 +44,9 @@ Entry
 Stub
 replacement
 for
-pkg_resources
+importlib
+.
+metadata
 .
 EntryPoint
 "
@@ -94,7 +100,6 @@ TestBase
 Test
 integrating
 with
-setuptools
 entry
 points
 "
@@ -147,9 +152,11 @@ providers
 patch
 (
 "
-pkg_resources
+importlib
 .
-iter_entry_points
+metadata
+.
+entry_points
 "
 )
     
@@ -233,9 +240,11 @@ _run_help
 patch
 (
 "
-pkg_resources
+importlib
 .
-iter_entry_points
+metadata
+.
+entry_points
 "
 )
     

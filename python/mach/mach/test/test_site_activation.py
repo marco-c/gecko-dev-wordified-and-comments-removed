@@ -3,6 +3,10 @@ ast
 import
 functools
 import
+importlib
+.
+metadata
+import
 os
 import
 subprocess
@@ -26,8 +30,6 @@ import
 buildconfig
 import
 mozunit
-import
-pkg_resources
 import
 pytest
 from
@@ -190,7 +192,7 @@ name
 )
 )
 def
-test_new_package_appears_in_pkg_resources
+test_new_package_metadta_is_found
 (
 )
 :
@@ -198,9 +200,11 @@ test_new_package_appears_in_pkg_resources
 try
 :
         
-pkg_resources
+importlib
 .
-get_distribution
+metadata
+.
+distribution
 (
 "
 carrot
@@ -227,9 +231,11 @@ test
 "
     
 except
-pkg_resources
+importlib
 .
-DistributionNotFound
+metadata
+.
+PackageNotFoundError
 :
         
 pass
@@ -336,9 +342,11 @@ venv
 )
             
 assert
-pkg_resources
+importlib
 .
-get_distribution
+metadata
+.
+distribution
 (
 "
 carrot

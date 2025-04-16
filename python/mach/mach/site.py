@@ -1421,20 +1421,6 @@ means
 "
 "
         
-try
-:
-            
-import
-pkg_resources
-        
-except
-ModuleNotFoundError
-:
-            
-pkg_resources
-=
-None
-        
 yield
         
 MozSiteMetadata
@@ -1448,16 +1434,6 @@ sys
 executable
 =
 executable
-        
-if
-pkg_resources
-:
-            
-pkg_resources
-.
-_initialize_master_working_set
-(
-)
 class
 MachSiteManager
 :
