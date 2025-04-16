@@ -119,13 +119,6 @@ gradlew
 detekt
 lint
 assembleDebug
-mozilla
--
-lint
--
-rules
-:
-test
 :
 benchmark
 :
