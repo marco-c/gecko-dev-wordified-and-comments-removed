@@ -2447,6 +2447,12 @@ storybook
 "
 :
 storybookJSFormat
+.
+.
+.
+figmaConfig
+.
+formats
 }
 platforms
 :
@@ -2680,6 +2686,8 @@ storybook
 figma
 :
 figmaConfig
+.
+platform
 }
 }
 ;
