@@ -4485,7 +4485,11 @@ BytecodeRange
 &
 funcRange
 =
-codeMeta
+code
+.
+codeTailMeta
+(
+)
 .
 funcDefRange
 (
@@ -4495,7 +4499,11 @@ funcIndex
 BytecodeSpan
 funcBytecode
 =
-codeMeta
+code
+.
+codeTailMeta
+(
+)
 .
 funcDefBody
 (

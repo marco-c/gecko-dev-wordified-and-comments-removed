@@ -154,6 +154,9 @@ namespace
 wasm
 {
 struct
+CodeTailMetadata
+;
+struct
 FuncDefInstanceData
 ;
 class
@@ -1357,6 +1360,15 @@ const
 CodeMetadata
 &
 codeMeta
+(
+)
+const
+;
+inline
+const
+CodeTailMetadata
+&
+codeTailMeta
 (
 )
 const

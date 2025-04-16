@@ -3106,9 +3106,6 @@ moduleName
 NameVector
 funcNames
 ;
-SharedBytes
-payload
-;
 uint32_t
 customSectionIndex
 ;

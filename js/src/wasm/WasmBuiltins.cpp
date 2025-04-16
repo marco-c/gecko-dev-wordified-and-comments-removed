@@ -2631,11 +2631,9 @@ MOZ_ASSERT
 (
 code
 .
-codeMeta
+debugEnabled
 (
 )
-.
-debugEnabled
 )
 ;
 CallSite

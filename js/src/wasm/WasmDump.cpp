@@ -2428,6 +2428,11 @@ module
 codeMeta
 (
 )
+module
+.
+codeTailMeta
+(
+)
 i
 o
 )
@@ -5913,6 +5918,10 @@ const
 CodeMetadata
 &
 codeMeta
+const
+CodeTailMetadata
+&
+codeTailMeta
 uint32_t
 funcIndex
 )
@@ -5935,6 +5944,7 @@ wasm
 DumpFunction
 (
 codeMeta
+codeTailMeta
 funcIndex
 out
 )
@@ -5960,6 +5970,10 @@ const
 CodeMetadata
 &
 codeMeta
+const
+CodeTailMetadata
+&
+codeTailMeta
 uint32_t
 funcIndex
 StructuredPrinter
@@ -6132,7 +6146,7 @@ expand
 }
 if
 (
-codeMeta
+codeTailMeta
 .
 codeSectionBytecode
 )
@@ -6143,7 +6157,7 @@ error
 BytecodeSpan
 funcBytecode
 =
-codeMeta
+codeTailMeta
 .
 funcDefBody
 (

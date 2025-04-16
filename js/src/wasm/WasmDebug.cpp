@@ -148,11 +148,9 @@ MOZ_RELEASE_ASSERT
 (
 code
 .
-codeMeta
+debugEnabled
 (
 )
-.
-debugEnabled
 )
 ;
 }
@@ -2287,7 +2285,7 @@ BytecodeRange
 &
 funcRange
 =
-codeMeta
+codeTailMeta
 (
 )
 .
@@ -2299,7 +2297,7 @@ funcIndex
 BytecodeSpan
 funcBytecode
 =
-codeMeta
+codeTailMeta
 (
 )
 .
