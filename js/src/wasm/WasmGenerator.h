@@ -733,6 +733,11 @@ CodeMetadata
 codeMeta
 ;
 const
+CodeTailMetadata
+*
+codeTailMeta
+;
+const
 CompilerEnvironment
 &
 compilerEnv
@@ -761,6 +766,10 @@ CodeMetadata
 &
 codeMeta
 const
+CodeTailMetadata
+*
+codeTailMeta
+const
 CompilerEnvironment
 &
 compilerEnv
@@ -776,6 +785,10 @@ defaultChunkSize
 codeMeta
 (
 codeMeta
+)
+codeTailMeta
+(
+codeTailMeta
 )
 compilerEnv
 (
@@ -1442,7 +1455,8 @@ const
 BytecodeBufferOrSource
 &
 bytecode
-MutableModuleMetadata
+ModuleMetadata
+&
 moduleMeta
 JS
 :

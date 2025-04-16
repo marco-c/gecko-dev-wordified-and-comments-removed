@@ -11905,6 +11905,7 @@ mg
 finishModule
 (
 bytecode
+*
 moduleMeta_
 nullptr
 )

@@ -4183,6 +4183,7 @@ mg
 finishModule
 (
 bytecode
+*
 moduleMeta
 listener
 )
@@ -5193,6 +5194,7 @@ BytecodeBufferOrSource
 (
 bytecodeBuffer
 )
+*
 moduleMeta
 streamEnd
 .

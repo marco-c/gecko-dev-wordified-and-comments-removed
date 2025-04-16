@@ -589,6 +589,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 nullptr
 )

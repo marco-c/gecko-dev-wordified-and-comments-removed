@@ -6088,6 +6088,10 @@ CodeMetadata
 &
 codeMeta
 const
+CodeTailMetadata
+&
+codeTailMeta
+const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
@@ -6108,6 +6112,11 @@ codeMeta_
 (
 &
 codeMeta
+)
+codeTailMeta_
+(
+&
+codeTailMeta
 )
 codeMetaForAsmJS_
 (

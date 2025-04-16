@@ -21353,6 +21353,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 nullptr
 )
