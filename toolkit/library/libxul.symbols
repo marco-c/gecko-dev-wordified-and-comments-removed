@@ -8,3 +8,11 @@ ChildProcessInit
 GeckoViewOpenWindow
 #
 endif
+#
+ifdef
+ANDROID
+*
+ffi
+*
+#
+endif
