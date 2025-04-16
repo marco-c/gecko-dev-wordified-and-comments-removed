@@ -3128,6 +3128,7 @@ rv
 )
 )
 {
+return
 DataReceived
 (
 )
@@ -3137,7 +3138,7 @@ return
 rv
 ;
 }
-void
+nsresult
 CacheLoadHandler
 :
 :
@@ -3216,6 +3217,9 @@ XHRParamsAllowed
 )
 )
 ;
+nsresult
+rv
+=
 mWorkerRef
 -
 >
@@ -3232,6 +3236,12 @@ parent
 GetCsp
 (
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mWorkerRef
@@ -3272,6 +3282,9 @@ IsWasmEvalAllowed
 ;
 }
 }
+return
+NS_OK
+;
 }
 }
 }

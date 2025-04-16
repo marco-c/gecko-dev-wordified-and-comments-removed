@@ -355,7 +355,7 @@ nsACString
 aReferrerPolicyHeaderValue
 )
 ;
-void
+nsresult
 DataReceived
 (
 )
