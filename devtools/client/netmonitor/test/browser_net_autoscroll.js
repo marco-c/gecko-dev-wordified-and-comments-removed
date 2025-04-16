@@ -32,6 +32,9 @@ true
 requestCount
 :
 1
+expectedEventTimings
+:
+1
 }
 )
 ;
@@ -230,6 +233,11 @@ waitForNetworkEvents
 (
 monitor
 8
+{
+expectedEventTimings
+:
+8
+}
 )
 ;
 await
@@ -272,6 +280,11 @@ waitForNetworkEvents
 (
 monitor
 8
+{
+expectedEventTimings
+:
+8
+}
 )
 ;
 await
@@ -415,6 +428,11 @@ waitForNetworkEvents
 (
 monitor
 1
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 if
