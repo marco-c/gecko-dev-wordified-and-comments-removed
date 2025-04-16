@@ -21,13 +21,7 @@ querySelector
 (
 "
 .
-dss
--
-hls
--
-subtitle
--
-overlay
+TimedTextOverlay
 "
 )
 ;
@@ -53,7 +47,7 @@ querySelectorAll
 (
 "
 .
-dss
+hive
 -
 subtitle
 -
