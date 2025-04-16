@@ -1597,9 +1597,7 @@ EXPECTED_REMOTE_SETTINGS_URLBAR_RESULT
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;

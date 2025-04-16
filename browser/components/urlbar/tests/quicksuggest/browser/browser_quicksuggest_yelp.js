@@ -1180,9 +1180,7 @@ blocked
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;

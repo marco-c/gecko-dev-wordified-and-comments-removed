@@ -177,6 +177,15 @@ exposureSuggestionTypes
 ;
 }
 get
+primaryUserControlledPreference
+(
+)
+{
+return
+null
+;
+}
+get
 additionalEnablingPredicate
 (
 )

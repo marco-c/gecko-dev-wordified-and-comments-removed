@@ -1989,9 +1989,7 @@ addons
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;

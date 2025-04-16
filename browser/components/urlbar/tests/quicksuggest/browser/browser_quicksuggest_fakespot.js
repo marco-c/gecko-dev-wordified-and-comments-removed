@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 const
 REMOTE_SETTINGS_RECORDS
 =
@@ -1645,9 +1650,7 @@ blocked
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;

@@ -252,9 +252,7 @@ _test_readyPromise
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;
@@ -672,9 +670,7 @@ window
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;
@@ -877,9 +873,7 @@ window
 await
 QuickSuggest
 .
-blockedSuggestions
-.
-clear
+clearDismissedSuggestions
 (
 )
 ;
