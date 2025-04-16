@@ -1440,6 +1440,17 @@ tab
 ;
 }
 }
+/
+*
+*
+*
+param
+{
+MozTabbrowserTab
+}
+tab
+*
+/
 _moveTab
 (
 tab

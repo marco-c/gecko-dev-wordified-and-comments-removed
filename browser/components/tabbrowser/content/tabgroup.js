@@ -1065,6 +1065,7 @@ labelElement
 addTabs
 (
 tabs
+metricsContext
 )
 {
 for
@@ -1125,6 +1126,7 @@ moveTabToGroup
 (
 tabToMove
 this
+metricsContext
 )
 ;
 }

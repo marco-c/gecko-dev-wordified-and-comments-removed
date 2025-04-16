@@ -79,7 +79,7 @@ mjs
 ;
 import
 {
-TabGroupMetrics
+TabMetrics
 }
 from
 "
@@ -96,7 +96,7 @@ components
 /
 tabbrowser
 /
-TabGroupMetrics
+TabMetrics
 .
 sys
 .
@@ -551,7 +551,7 @@ win
 {
 source
 :
-TabGroupMetrics
+TabMetrics
 .
 METRIC_SOURCE
 .

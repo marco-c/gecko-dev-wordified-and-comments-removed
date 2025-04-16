@@ -139,7 +139,7 @@ sys
 .
 mjs
 "
-TabGroupMetrics
+TabMetrics
 :
 "
 moz
@@ -155,7 +155,7 @@ components
 /
 tabbrowser
 /
-TabGroupMetrics
+TabMetrics
 .
 sys
 .
@@ -552,7 +552,7 @@ source
 :
 lazy
 .
-TabGroupMetrics
+TabMetrics
 .
 METRIC_SOURCE
 .
