@@ -164,6 +164,9 @@ compiled_data
 "
 icu_segmenter
 "
+"
+icu_calendar
+"
 ]
 }
 unicode
@@ -222,16 +225,6 @@ icu4x
 [
 '
 icu_capi
-'
-]
-icu4x_calendar
-=
-[
-'
-icu_capi
-?
-/
-icu_calendar
 '
 ]
 #

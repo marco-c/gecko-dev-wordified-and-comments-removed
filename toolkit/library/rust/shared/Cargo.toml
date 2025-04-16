@@ -2844,15 +2844,6 @@ jsrust_shared
 icu4x
 "
 ]
-icu4x_calendar
-=
-[
-"
-jsrust_shared
-/
-icu4x_calendar
-"
-]
 [
 lib
 ]
