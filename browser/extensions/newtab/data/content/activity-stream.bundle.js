@@ -68497,13 +68497,6 @@ el
 ;
 }
 }
-name
-:
-"
-wallpaper
--
-category
-"
 id
 :
 category
@@ -68513,7 +68506,7 @@ style
 type
 :
 "
-radio
+button
 "
 onKeyDown
 :

@@ -3566,13 +3566,6 @@ el
 }
 }
 }
-name
-=
-"
-wallpaper
--
-category
-"
 id
 =
 {
@@ -3586,7 +3579,7 @@ style
 type
 =
 "
-radio
+button
 "
 onKeyDown
 =
