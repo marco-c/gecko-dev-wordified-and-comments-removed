@@ -117,9 +117,6 @@ ObjectModel
 OutOfMemoryError
 "
 "
-PipelineError
-"
-"
 PipelineLayout
 "
 "
