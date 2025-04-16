@@ -124,10 +124,6 @@ accelKeyLabelSelector
 menu
 -
 accel
--
-container
->
-label
 "
 ;
 const
