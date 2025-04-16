@@ -887,7 +887,7 @@ search
 .
 service
 .
-initializaitonStatus
+initializationStatus
 ~
 ~
 ~
@@ -946,6 +946,7 @@ failedSettings
 failedFetchEngines
 failedLoadEngines
 failedLoadSettingsAddonManager
+settingsCorrupt
 success
 .
 A

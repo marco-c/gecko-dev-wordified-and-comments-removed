@@ -377,6 +377,10 @@ setup
 (
 )
 ;
+do_get_profile
+(
+)
+;
 registerCleanupFunction
 (
 async
