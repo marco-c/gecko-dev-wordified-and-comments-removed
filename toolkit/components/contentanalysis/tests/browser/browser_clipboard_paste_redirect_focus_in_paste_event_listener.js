@@ -904,9 +904,7 @@ browser
 editableSelector
 ]
 async
-(
 editableSelector
-)
 =
 >
 {
