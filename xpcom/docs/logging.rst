@@ -4087,7 +4087,7 @@ toolkit
 %
 2FaboutLogging
 .
-js
+mjs
 >
 _
 in
