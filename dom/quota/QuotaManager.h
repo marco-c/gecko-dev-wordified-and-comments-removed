@@ -411,6 +411,9 @@ class
 ClientDirectoryLock
 ;
 class
+ClientDirectoryLockHandle
+;
+class
 DirectoryLockImpl
 ;
 class
@@ -593,6 +596,16 @@ Observer
 ;
 public
 :
+using
+ClientDirectoryLockHandlePromise
+=
+MozPromise
+<
+ClientDirectoryLockHandle
+nsresult
+true
+>
+;
 QuotaManager
 (
 const
@@ -1313,7 +1326,7 @@ Nothing
 ;
 RefPtr
 <
-ClientDirectoryLockPromise
+ClientDirectoryLockHandlePromise
 >
 OpenClientDirectory
 (
