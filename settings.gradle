@@ -409,6 +409,15 @@ exoplayer2
 include
 '
 :
+mozilla
+-
+lint
+-
+rules
+'
+include
+'
+:
 android
 -
 components
