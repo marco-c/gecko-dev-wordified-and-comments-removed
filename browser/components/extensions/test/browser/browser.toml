@@ -3075,6 +3075,13 @@ js
 ]
 [
 "
+browser_ext_tabs_groupId
+.
+js
+"
+]
+[
+"
 browser_ext_tabs_hide
 .
 js

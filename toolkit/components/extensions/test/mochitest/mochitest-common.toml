@@ -2418,6 +2418,13 @@ http2
 ]
 [
 "
+test_ext_tabs_groupId
+.
+html
+"
+]
+[
+"
 test_ext_tabs_permissions
 .
 html

@@ -51,6 +51,9 @@ true
 clickModifiersFromEvent
 :
 true
+getExtTabGroupIdForInternalTabGroupId
+:
+true
 makeWidgetId
 :
 true
