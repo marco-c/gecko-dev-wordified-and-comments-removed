@@ -832,6 +832,10 @@ class
 "
 urlbarView
 "
+context
+=
+"
+"
 role
 =
 "
