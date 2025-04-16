@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
 OwnedRustBuffer
 .
@@ -57,9 +57,9 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
-Callbacks
+UniFFICallbacks
 .
 h
 "

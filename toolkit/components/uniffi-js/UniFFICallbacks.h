@@ -29,7 +29,7 @@ mozilla
 /
 dom
 /
-UniFFIScaffolding
+UniFFIRust
 .
 h
 "
@@ -38,9 +38,9 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
-Rust
+UniFFIScaffolding
 .
 h
 "

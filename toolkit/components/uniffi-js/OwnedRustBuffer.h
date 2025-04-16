@@ -29,9 +29,9 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
-Rust
+UniFFIRust
 .
 h
 "

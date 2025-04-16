@@ -50,9 +50,9 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
-PointerType
+UniFFIPointerType
 .
 h
 "
