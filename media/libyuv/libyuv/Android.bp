@@ -549,6 +549,13 @@ min_sdk_version
 "
 29
 "
+sanitize
+:
+{
+cfi
+:
+true
+}
 }
 /
 /

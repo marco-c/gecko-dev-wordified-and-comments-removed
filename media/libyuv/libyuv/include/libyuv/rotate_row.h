@@ -79,6 +79,7 @@ LIBYUV_DISABLE_X86
 )
 &
 &
+\
 (
 defined
 (
@@ -90,6 +91,14 @@ defined
 (
 __x86_64__
 )
+)
+&
+&
+\
+!
+defined
+(
+LIBYUV_ENABLE_ROWWIN
 )
 #
 define
@@ -114,6 +123,14 @@ LIBYUV_DISABLE_X86
 defined
 (
 __x86_64__
+)
+&
+&
+\
+!
+defined
+(
+LIBYUV_ENABLE_ROWWIN
 )
 #
 define

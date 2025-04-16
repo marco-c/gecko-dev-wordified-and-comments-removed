@@ -38,6 +38,7 @@ LIBYUV_DISABLE_X86
 )
 &
 &
+\
 (
 defined
 (
@@ -49,6 +50,14 @@ defined
 (
 __i386__
 )
+)
+&
+&
+\
+!
+defined
+(
+LIBYUV_ENABLE_ROWWIN
 )
 #
 if
