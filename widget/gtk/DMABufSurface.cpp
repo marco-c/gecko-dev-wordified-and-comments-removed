@@ -5765,6 +5765,13 @@ GlobalRefCountExport
 )
 ;
 }
+AutoTArray
+<
+uint32_t
+1
+>
+tmp
+;
 aOutDescriptor
 =
 SurfaceDescriptorDMABuf
@@ -5778,12 +5785,7 @@ width
 height
 width
 height
-nsTArray
-<
-uint32_t
->
-(
-)
+tmp
 strides
 offsets
 GetYUVColorSpace
