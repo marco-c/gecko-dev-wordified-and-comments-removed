@@ -6836,6 +6836,11 @@ ctFont
 nsAutoCString
 key
 ;
+if
+(
+name
+)
+{
 key
 .
 SetLength
@@ -6852,8 +6857,13 @@ name
 3
 )
 ;
+}
 if
 (
+!
+name
+|
+|
 !
 CFStringGetCString
 (
