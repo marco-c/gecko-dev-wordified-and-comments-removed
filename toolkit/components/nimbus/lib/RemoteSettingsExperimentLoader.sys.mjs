@@ -878,6 +878,7 @@ loader
 }
 constructor
 (
+manager
 )
 {
 /
@@ -962,6 +963,9 @@ this
 .
 manager
 =
+manager
+?
+?
 lazy
 .
 ExperimentManager
