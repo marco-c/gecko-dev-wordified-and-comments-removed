@@ -301,7 +301,7 @@ create
 id
 =
 "
-InvalidLicenseFormat
+AbsentOrWrongFileLicense
 "
 briefDescription
 =

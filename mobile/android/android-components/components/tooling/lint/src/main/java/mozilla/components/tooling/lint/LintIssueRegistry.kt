@@ -176,12 +176,6 @@ listOf
 ButtonStyleXmlDetector
 .
 ISSUE_XML_STYLE
-LicenseDetector
-.
-ISSUE_MISSING_LICENSE
-LicenseDetector
-.
-ISSUE_INVALID_LICENSE_FORMAT
 LintLogChecks
 .
 ISSUE_LOG_USAGE

@@ -163,6 +163,16 @@ UElementHandler
 companion
 object
 {
+Suppress
+(
+"
+ktlint
+:
+standard
+:
+wrapping
+"
+)
 val
 ValidLicenseForKotlinFiles
 =
