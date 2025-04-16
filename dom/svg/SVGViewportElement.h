@@ -424,12 +424,6 @@ svg
 )
 ;
 }
-bool
-AreWidthAndHeightUnsetOrPositive
-(
-)
-const
-;
 virtual
 SVGPreserveAspectRatio
 GetPreserveAspectRatioWithOverride
