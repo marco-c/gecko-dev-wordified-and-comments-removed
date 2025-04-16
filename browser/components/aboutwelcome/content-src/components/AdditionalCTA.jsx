@@ -222,6 +222,11 @@ label
 >
 <
 button
+id
+=
+"
+additional_button
+"
 className
 =
 {
