@@ -473,6 +473,9 @@ expectedLabelIds
 :
 [
 [
+"
+labelE4
+"
 ]
 ]
 }

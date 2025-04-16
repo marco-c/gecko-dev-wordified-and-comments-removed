@@ -557,6 +557,13 @@ js
 ]
 [
 "
+browser_label_matching
+.
+js
+"
+]
+[
+"
 browser_manageAddressesDialog
 .
 js
