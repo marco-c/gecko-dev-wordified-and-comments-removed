@@ -61,6 +61,10 @@ bool
 wantCacheData
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 mWantCacheData
 =
 wantCacheData
