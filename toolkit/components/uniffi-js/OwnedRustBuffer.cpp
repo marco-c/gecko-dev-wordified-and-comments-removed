@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-dom
+uniffi
 /
 OwnedRustBuffer
 .
