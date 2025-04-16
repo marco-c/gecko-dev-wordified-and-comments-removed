@@ -2846,13 +2846,6 @@ tabs
 "
 [
 "
-browser_tab_aria_level
-.
-js
-"
-]
-[
-"
 browser_tab_close_dependent_window
 .
 js
