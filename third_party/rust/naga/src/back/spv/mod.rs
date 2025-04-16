@@ -2703,7 +2703,13 @@ Vec
 <
 Word
 >
-ray_get_intersection_function
+ray_get_committed_intersection_function
+:
+Option
+<
+Word
+>
+ray_get_candidate_intersection_function
 :
 Option
 <

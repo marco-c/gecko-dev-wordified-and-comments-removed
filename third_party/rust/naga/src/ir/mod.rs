@@ -2857,6 +2857,8 @@ Log
 Log2
 Pow
 Dot
+Dot4I8Packed
+Dot4U8Packed
 Outer
 Cross
 Distance

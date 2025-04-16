@@ -2130,6 +2130,9 @@ enumerating
 "
 &
 *
+alloc
+:
+:
 format
 !
 (

@@ -24648,7 +24648,7 @@ naga
 version
 =
 "
-24
+25
 .
 0
 .
@@ -24675,9 +24675,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
@@ -24737,6 +24737,9 @@ log
 num
 -
 traits
+"
+"
+once_cell
 "
 "
 rustc
@@ -40798,7 +40801,7 @@ core
 version
 =
 "
-24
+25
 .
 0
 .
@@ -40825,9 +40828,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
@@ -40969,7 +40972,7 @@ apple
 version
 =
 "
-24
+25
 .
 0
 .
@@ -40996,9 +40999,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
@@ -41032,7 +41035,7 @@ android
 version
 =
 "
-24
+25
 .
 0
 .
@@ -41059,9 +41062,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
@@ -41087,7 +41090,7 @@ hal
 version
 =
 "
-24
+25
 .
 0
 .
@@ -41114,9 +41117,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
@@ -41268,7 +41271,7 @@ types
 version
 =
 "
-24
+25
 .
 0
 .
@@ -41295,9 +41298,9 @@ wgpu
 ?
 rev
 =
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 #
-a0dbe5ebc6fa24422fb84b2e0fea1cc94dee5109
+f1c496523ff0aa10c162fd01ad606960e925a5a4
 "
 dependencies
 =
