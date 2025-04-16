@@ -1026,7 +1026,7 @@ multiSessionInstallLockout
 .
 enabled
 "
-true
+false
 )
 ;
 #
