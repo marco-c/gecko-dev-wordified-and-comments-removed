@@ -603,6 +603,7 @@ DebugFlags
 GpuProfile
 GraphicsApi
 GraphicsApiInfo
+PendingShadersToPrecache
 PipelineInfo
 Renderer
 RendererError
