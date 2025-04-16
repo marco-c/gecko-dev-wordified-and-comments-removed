@@ -64,6 +64,17 @@ include
 "
 mozilla
 /
+dom
+/
+UniFFIScaffolding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 uniffi
 /
 Call
@@ -100,17 +111,6 @@ mozilla
 uniffi
 /
 PointerType
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-UniFFIScaffolding
 .
 h
 "
@@ -14192,7 +14192,7 @@ mErrorReporter
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -14259,7 +14259,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -14296,7 +14296,7 @@ private
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -14335,7 +14335,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -14390,7 +14390,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -14496,7 +14496,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -14566,7 +14566,7 @@ mArms
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -14689,7 +14689,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -14750,7 +14750,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -14881,7 +14881,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -14959,7 +14959,7 @@ mSelected
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15110,7 +15110,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15156,7 +15156,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15223,7 +15223,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15269,7 +15269,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15336,7 +15336,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15397,7 +15397,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15528,7 +15528,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15598,7 +15598,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15701,7 +15701,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15761,7 +15761,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15828,7 +15828,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -15879,7 +15879,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -15954,7 +15954,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16019,7 +16019,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16098,7 +16098,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16168,7 +16168,7 @@ mPath
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16291,7 +16291,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16342,7 +16342,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16417,7 +16417,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16490,7 +16490,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16593,7 +16593,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16658,7 +16658,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16737,7 +16737,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16802,7 +16802,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -16877,7 +16877,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -16947,7 +16947,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17050,7 +17050,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17123,7 +17123,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17226,7 +17226,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17299,7 +17299,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17402,7 +17402,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17462,7 +17462,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17529,7 +17529,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17589,7 +17589,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17696,7 +17696,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17761,7 +17761,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17836,7 +17836,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -17901,7 +17901,7 @@ mConfig
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -17996,7 +17996,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18052,7 +18052,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18159,7 +18159,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18219,7 +18219,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18286,7 +18286,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18342,7 +18342,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18445,7 +18445,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18510,7 +18510,7 @@ mOverrides
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18605,7 +18605,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18656,7 +18656,7 @@ mConfiguration
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18751,7 +18751,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18814,7 +18814,7 @@ mApplyEngineOverrides
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -18937,7 +18937,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -18983,7 +18983,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19034,7 +19034,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19103,7 +19103,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19209,7 +19209,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19269,7 +19269,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19336,7 +19336,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19382,7 +19382,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19449,7 +19449,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19500,7 +19500,7 @@ mSuggestionUrl
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19595,7 +19595,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19669,7 +19669,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19856,7 +19856,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -19921,7 +19921,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -19996,7 +19996,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20066,7 +20066,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -20169,7 +20169,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20239,7 +20239,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -20342,7 +20342,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20407,7 +20407,7 @@ mKind
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -20502,7 +20502,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20558,7 +20558,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -20661,7 +20661,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20731,7 +20731,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -20834,7 +20834,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -20908,7 +20908,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21015,7 +21015,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21084,7 +21084,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21163,7 +21163,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21237,7 +21237,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21344,7 +21344,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21418,7 +21418,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21525,7 +21525,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21604,7 +21604,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21739,7 +21739,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21813,7 +21813,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -21920,7 +21920,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -21994,7 +21994,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22101,7 +22101,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -22179,7 +22179,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22286,7 +22286,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -22346,7 +22346,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22397,7 +22397,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -22475,7 +22475,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22609,7 +22609,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -22695,7 +22695,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22857,7 +22857,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -22922,7 +22922,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -22997,7 +22997,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23075,7 +23075,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -23209,7 +23209,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23282,7 +23282,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -23388,7 +23388,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23453,7 +23453,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -23528,7 +23528,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23598,7 +23598,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -23701,7 +23701,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23769,7 +23769,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -23847,7 +23847,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -23912,7 +23912,7 @@ mClientData
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24007,7 +24007,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24053,7 +24053,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24120,7 +24120,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24171,7 +24171,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24246,7 +24246,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24314,7 +24314,7 @@ mLastSync
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24409,7 +24409,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24468,7 +24468,7 @@ mUploadedIds
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24591,7 +24591,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24642,7 +24642,7 @@ mIncomingEnvelopesAsJson
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24737,7 +24737,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24783,7 +24783,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24850,7 +24850,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -24901,7 +24901,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -24976,7 +24976,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25036,7 +25036,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25103,7 +25103,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25149,7 +25149,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25216,7 +25216,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25271,7 +25271,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25350,7 +25350,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25410,7 +25410,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25477,7 +25477,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25528,7 +25528,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25603,7 +25603,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25672,7 +25672,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25751,7 +25751,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25811,7 +25811,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -25878,7 +25878,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -25929,7 +25929,7 @@ mRemoteTabs
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26024,7 +26024,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26075,7 +26075,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26154,7 +26154,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26219,7 +26219,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26294,7 +26294,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26364,7 +26364,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26467,7 +26467,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26535,7 +26535,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26613,7 +26613,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26678,7 +26678,7 @@ mClientData
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26773,7 +26773,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26819,7 +26819,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -26886,7 +26886,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -26937,7 +26937,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27012,7 +27012,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27080,7 +27080,7 @@ mLastSync
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27175,7 +27175,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27234,7 +27234,7 @@ mGuids
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27357,7 +27357,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27408,7 +27408,7 @@ mIncoming
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27503,7 +27503,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27549,7 +27549,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27616,7 +27616,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27667,7 +27667,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27742,7 +27742,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27802,7 +27802,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27869,7 +27869,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -27915,7 +27915,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -27982,7 +27982,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28037,7 +28037,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28116,7 +28116,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28186,7 +28186,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28289,7 +28289,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28349,7 +28349,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28416,7 +28416,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28477,7 +28477,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28608,7 +28608,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28686,7 +28686,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28820,7 +28820,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -28885,7 +28885,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -28960,7 +28960,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29035,7 +29035,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -29166,7 +29166,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29241,7 +29241,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -29372,7 +29372,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29437,7 +29437,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -29516,7 +29516,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29594,7 +29594,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -29700,7 +29700,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29775,7 +29775,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -29881,7 +29881,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -29956,7 +29956,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30062,7 +30062,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30137,7 +30137,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30243,7 +30243,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30304,7 +30304,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30379,7 +30379,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30443,7 +30443,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30521,7 +30521,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30587,7 +30587,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30690,7 +30690,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30750,7 +30750,7 @@ mSprite
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -30817,7 +30817,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -30880,7 +30880,7 @@ mExclude
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -31031,7 +31031,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31081,7 +31081,7 @@ mItems
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -31176,7 +31176,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31226,7 +31226,7 @@ mItems
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -31321,7 +31321,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31379,7 +31379,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -31437,7 +31437,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31488,7 +31488,7 @@ private
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -31527,7 +31527,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31573,7 +31573,7 @@ mWorkerQueue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -31640,7 +31640,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31698,7 +31698,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -31792,7 +31792,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -31864,7 +31864,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -31958,7 +31958,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32030,7 +32030,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32124,7 +32124,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32196,7 +32196,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32290,7 +32290,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32362,7 +32362,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32456,7 +32456,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32528,7 +32528,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32622,7 +32622,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32691,7 +32691,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32779,7 +32779,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -32852,7 +32852,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -32948,7 +32948,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33017,7 +33017,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33105,7 +33105,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33177,7 +33177,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33271,7 +33271,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33343,7 +33343,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33437,7 +33437,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33509,7 +33509,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33603,7 +33603,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33675,7 +33675,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33769,7 +33769,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -33838,7 +33838,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -33926,7 +33926,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34002,7 +34002,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34108,7 +34108,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34180,7 +34180,7 @@ mUniffiReturnValue
 protected
 :
 void
-PrepareArgsAndMakeRustCall
+LowerArgsAndMakeRustCall
 (
 const
 dom
@@ -34275,7 +34275,7 @@ aOutStatus
 public
 :
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34335,7 +34335,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34402,7 +34402,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34448,7 +34448,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34499,7 +34499,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34559,7 +34559,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34626,7 +34626,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34677,7 +34677,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34752,7 +34752,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34817,7 +34817,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -34896,7 +34896,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -34965,7 +34965,7 @@ mTask
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35060,7 +35060,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35110,7 +35110,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35188,7 +35188,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35254,7 +35254,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35357,7 +35357,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35416,7 +35416,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35466,7 +35466,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35526,7 +35526,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35577,7 +35577,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35637,7 +35637,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35704,7 +35704,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35751,7 +35751,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35826,7 +35826,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -35887,7 +35887,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -35962,7 +35962,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36023,7 +36023,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36098,7 +36098,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36159,7 +36159,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36234,7 +36234,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36301,7 +36301,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36379,7 +36379,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36455,7 +36455,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36561,7 +36561,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36631,7 +36631,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36734,7 +36734,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36810,7 +36810,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -36916,7 +36916,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -36992,7 +36992,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -37098,7 +37098,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -37174,7 +37174,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -37280,7 +37280,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -37356,7 +37356,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -37462,7 +37462,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -37538,7 +37538,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -37644,7 +37644,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -37720,7 +37720,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -37826,7 +37826,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -37902,7 +37902,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38008,7 +38008,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38084,7 +38084,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38190,7 +38190,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38266,7 +38266,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38372,7 +38372,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38448,7 +38448,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38554,7 +38554,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38624,7 +38624,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38727,7 +38727,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38797,7 +38797,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -38900,7 +38900,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -38970,7 +38970,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39073,7 +39073,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -39149,7 +39149,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39255,7 +39255,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -39331,7 +39331,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39437,7 +39437,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -39513,7 +39513,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39619,7 +39619,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -39695,7 +39695,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39801,7 +39801,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -39877,7 +39877,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -39983,7 +39983,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40059,7 +40059,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40165,7 +40165,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40241,7 +40241,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40347,7 +40347,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40423,7 +40423,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40529,7 +40529,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40605,7 +40605,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40711,7 +40711,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40781,7 +40781,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40884,7 +40884,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -40944,7 +40944,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -40995,7 +40995,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41071,7 +41071,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -41177,7 +41177,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41253,7 +41253,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -41359,7 +41359,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41435,7 +41435,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -41541,7 +41541,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41617,7 +41617,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -41723,7 +41723,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41799,7 +41799,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -41905,7 +41905,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -41981,7 +41981,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42087,7 +42087,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -42163,7 +42163,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42269,7 +42269,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -42339,7 +42339,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42442,7 +42442,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -42512,7 +42512,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42615,7 +42615,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -42685,7 +42685,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42788,7 +42788,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -42858,7 +42858,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -42961,7 +42961,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43037,7 +43037,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43143,7 +43143,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43219,7 +43219,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43325,7 +43325,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43401,7 +43401,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43507,7 +43507,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43583,7 +43583,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43689,7 +43689,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43749,7 +43749,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43800,7 +43800,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -43873,7 +43873,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -43976,7 +43976,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44049,7 +44049,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -44152,7 +44152,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44225,7 +44225,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -44328,7 +44328,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44401,7 +44401,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -44504,7 +44504,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44577,7 +44577,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -44680,7 +44680,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44753,7 +44753,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -44856,7 +44856,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -44929,7 +44929,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45032,7 +45032,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45105,7 +45105,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45208,7 +45208,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45281,7 +45281,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45384,7 +45384,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45457,7 +45457,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45560,7 +45560,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45633,7 +45633,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45736,7 +45736,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45806,7 +45806,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -45909,7 +45909,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -45969,7 +45969,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46020,7 +46020,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46086,7 +46086,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46189,7 +46189,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46254,7 +46254,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46329,7 +46329,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46394,7 +46394,7 @@ mDirection
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46489,7 +46489,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46540,7 +46540,7 @@ mPosition
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46635,7 +46635,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46686,7 +46686,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46765,7 +46765,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -46835,7 +46835,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -46942,7 +46942,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47003,7 +47003,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47078,7 +47078,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47134,7 +47134,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47181,7 +47181,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47241,7 +47241,7 @@ mList
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47308,7 +47308,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47359,7 +47359,7 @@ mEntries
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47454,7 +47454,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47505,7 +47505,7 @@ mEntry
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47600,7 +47600,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47651,7 +47651,7 @@ mTodo
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47746,7 +47746,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47797,7 +47797,7 @@ mItems
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -47892,7 +47892,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -47943,7 +47943,7 @@ mTodo
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48038,7 +48038,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48089,7 +48089,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48164,7 +48164,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48229,7 +48229,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48304,7 +48304,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48369,7 +48369,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48444,7 +48444,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48509,7 +48509,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48584,7 +48584,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48649,7 +48649,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48724,7 +48724,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48784,7 +48784,7 @@ mPtr
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48851,7 +48851,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -48897,7 +48897,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -48948,7 +48948,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -49008,7 +49008,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -49059,7 +49059,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -49119,7 +49119,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -49170,7 +49170,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *
@@ -49254,7 +49254,7 @@ mUniffiReturnValue
 public
 :
 void
-PrepareRustArgs
+LowerRustArgs
 (
 const
 dom
@@ -49388,7 +49388,7 @@ aOutStatus
 }
 virtual
 void
-ExtractSuccessfulCallResult
+LiftSuccessfulCallResult
 (
 JSContext
 *

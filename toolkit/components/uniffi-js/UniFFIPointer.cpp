@@ -39,7 +39,7 @@ mozilla
 /
 dom
 /
-UniFFIPointer
+UniFFIBinding
 .
 h
 "
@@ -50,7 +50,7 @@ mozilla
 /
 dom
 /
-UniFFIBinding
+UniFFIPointer
 .
 h
 "
