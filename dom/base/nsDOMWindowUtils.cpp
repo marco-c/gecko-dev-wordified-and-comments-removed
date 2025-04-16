@@ -19193,7 +19193,7 @@ SetIsResizeSuppressed
 rd
 -
 >
-ScheduleViewManagerFlush
+SchedulePaint
 (
 )
 ;

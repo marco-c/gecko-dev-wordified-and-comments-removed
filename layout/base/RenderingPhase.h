@@ -40,6 +40,7 @@ UpdateContentRelevancy
 ResizeObservers
 ViewTransitionOperations
 UpdateIntersectionObservations
+Paint
 Count
 }
 ;
@@ -105,6 +106,10 @@ RenderingPhase
 :
 :
 UpdateIntersectionObservations
+RenderingPhase
+:
+:
+Paint
 }
 ;
 }

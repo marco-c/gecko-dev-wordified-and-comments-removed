@@ -3154,7 +3154,7 @@ WillPaint
 )
 ;
 void
-ScheduleViewManagerFlush
+SchedulePaint
 (
 )
 ;

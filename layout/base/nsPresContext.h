@@ -2988,17 +2988,6 @@ aRect
 )
 ;
 void
-NotifyInvalidation
-(
-TransactionId
-aTransactionId
-const
-nsIntRect
-&
-aRect
-)
-;
-void
 NotifyDidPaintForSubtree
 (
 TransactionId
