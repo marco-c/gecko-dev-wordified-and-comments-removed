@@ -806,6 +806,16 @@ true
 name
 :
 "
+GPUPipelineError
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 GPUPipelineLayout
 "
 nightly
