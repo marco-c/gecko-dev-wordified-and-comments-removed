@@ -12234,6 +12234,15 @@ result
 gpr
 (
 )
+result
+.
+type
+(
+)
+.
+toMaybeRefType
+(
+)
 )
 ;
 break
