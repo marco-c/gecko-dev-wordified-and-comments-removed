@@ -396,6 +396,10 @@ mMicroTaskLevel
 (
 0
 )
+mSyncOperations
+(
+0
+)
 mSuppressionGeneration
 (
 0
@@ -3651,6 +3655,16 @@ break
 }
 if
 (
+(
+IsInSyncOperation
+(
+)
+|
+|
+mSuppressedMicroTasks
+)
+&
+&
 runnable
 -
 >
