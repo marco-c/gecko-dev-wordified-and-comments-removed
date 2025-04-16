@@ -11404,7 +11404,10 @@ mWritingMode
 .
 IsOrthogonalTo
 (
-GetCBWritingMode
+alignCB
+-
+>
+GetWritingMode
 (
 )
 )
