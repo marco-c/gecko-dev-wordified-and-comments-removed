@@ -626,6 +626,22 @@ break
 const
 nsCString
 &
+TRRProviderKey
+(
+)
+{
+return
+TRRService
+:
+:
+ProviderKey
+(
+)
+;
+}
+const
+nsCString
+&
 TRRService
 :
 :
@@ -691,7 +707,6 @@ mLock
 "
 TRRService
 "
-this
 )
 {
 MOZ_ASSERT
@@ -1677,7 +1692,7 @@ newURI
 )
 ;
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2097,7 +2112,7 @@ credentials
 )
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2137,7 +2152,7 @@ confirmationNS
 )
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2194,7 +2209,7 @@ bootstrapAddr
 )
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2257,7 +2272,7 @@ domains
 )
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2281,15 +2296,13 @@ char
 *
 aPrefName
 )
+MOZ_REQUIRES
+(
+mLock
+)
 {
 nsAutoCString
 excludedDomains
-;
-mLock
-.
-AssertCurrentThreadOwns
-(
-)
 ;
 Preferences
 :
@@ -2496,7 +2509,7 @@ nsCString
 aArray
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2628,7 +2641,7 @@ nsACString
 result
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2650,7 +2663,7 @@ nsCString
 result
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2929,7 +2942,7 @@ TRRThread
 (
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -2983,7 +2996,7 @@ nsIThread
 thread
 ;
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -3091,7 +3104,7 @@ get
 )
 ;
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -3387,7 +3400,7 @@ NS_NETWORK_LINK_DATA_DOWN
 )
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -3464,7 +3477,7 @@ mShutdown
 true
 ;
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -3556,7 +3569,7 @@ mShutdown
 return
 ;
 }
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -3869,7 +3882,7 @@ ConfirmationEvent
 aEvent
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 OwningObject
@@ -3900,7 +3913,7 @@ HandleEvent
 ConfirmationEvent
 aEvent
 const
-MutexSingleWriterAutoLock
+MutexAutoLock
 &
 )
 {
@@ -4917,7 +4930,7 @@ nsACString
 aResult
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -5423,7 +5436,7 @@ nsACString
 aHost
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 mLock
@@ -5448,12 +5461,6 @@ nsACString
 aHost
 )
 {
-mLock
-.
-AssertOnWritingThreadOrHeld
-(
-)
-;
 int32_t
 dot
 =
@@ -5938,7 +5945,7 @@ nsITimer
 aTimer
 )
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 OwningObject
@@ -6512,7 +6519,7 @@ char
 *
 aReason
 const
-MutexSingleWriterAutoLock
+MutexAutoLock
 &
 )
 {
@@ -6852,7 +6859,7 @@ aTRRRequest
 )
 {
 {
-MutexSingleWriterAutoLock
+MutexAutoLock
 lock
 (
 OwningObject
