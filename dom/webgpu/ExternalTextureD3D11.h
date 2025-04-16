@@ -129,7 +129,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 RefPtr
 <
@@ -221,7 +221,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 mFencesHolderId
 ;
 const

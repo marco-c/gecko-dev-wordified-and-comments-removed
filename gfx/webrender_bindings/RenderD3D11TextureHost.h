@@ -121,7 +121,7 @@ Maybe
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 >
 &
 aFencesHolderId
@@ -623,7 +623,7 @@ Maybe
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 >
 mFencesHolderId
 ;
@@ -694,7 +694,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 )
 ;
@@ -1095,7 +1095,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 mFencesHolderId
 ;
 bool

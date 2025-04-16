@@ -485,7 +485,7 @@ mozilla
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 from
 "
 mozilla
@@ -614,7 +614,7 @@ colorRange
 bool
 hasKeyedMutex
 ;
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 ?
 fencesHolderId
 ;
@@ -656,7 +656,7 @@ yUVColorSpace
 ColorRange
 colorRange
 ;
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 fencesHolderId
 ;
 }

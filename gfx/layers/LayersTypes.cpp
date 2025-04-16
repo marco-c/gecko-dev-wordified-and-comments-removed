@@ -407,8 +407,8 @@ sCounter
 }
 ;
 }
-GpuProcessFencesHolderId
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
+CompositeProcessFencesHolderId
 :
 :
 GetNext
@@ -434,7 +434,7 @@ called
 )
 ;
 return
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 {
 }
 ;
@@ -452,7 +452,7 @@ sCounter
 0
 ;
 return
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 {
 +
 +
