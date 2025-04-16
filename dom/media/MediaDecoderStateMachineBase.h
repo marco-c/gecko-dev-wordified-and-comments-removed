@@ -626,7 +626,7 @@ aProxy
 )
 ;
 virtual
-bool
+nsresult
 IsCDMProxySupported
 (
 CDMProxy

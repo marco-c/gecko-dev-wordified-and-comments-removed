@@ -369,7 +369,7 @@ aProxy
 )
 override
 ;
-bool
+nsresult
 IsCDMProxySupported
 (
 CDMProxy
