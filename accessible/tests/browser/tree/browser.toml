@@ -162,6 +162,13 @@ js
 ]
 [
 "
+browser_select
+.
+js
+"
+]
+[
+"
 browser_shadowdom
 .
 js
