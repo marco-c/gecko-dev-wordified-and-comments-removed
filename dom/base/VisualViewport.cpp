@@ -1199,7 +1199,7 @@ RefreshDriver
 aPresContext
 -
 >
-RefreshDriver
+PresShell
 (
 )
 -
