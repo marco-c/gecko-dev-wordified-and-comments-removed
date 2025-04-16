@@ -118,6 +118,8 @@ h
 #
 include
 <
+libdrm
+/
 drm_fourcc
 .
 h

@@ -80,11 +80,13 @@ DRM_FORMAT_MOD_INVALID
 endif
 #
 include
-"
+<
+libdrm
+/
 drm_fourcc
 .
 h
-"
+>
 #
 ifdef
 MOZ_LOGGING
