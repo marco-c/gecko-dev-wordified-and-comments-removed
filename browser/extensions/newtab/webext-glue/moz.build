@@ -260,6 +260,17 @@ stream
 html
 "
 ]
+FINAL_TARGET_FILES
++
+=
+[
+"
+locales
+/
+*
+*
+"
+]
 if
 not
 CONFIG
