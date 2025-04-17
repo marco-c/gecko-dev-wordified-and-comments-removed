@@ -258,6 +258,15 @@ in
 picture
 mode
 .
+-
+Increased
+compileSdkVersion
+to
+36
+(
+Android
+16
+)
 [
 139
 .
