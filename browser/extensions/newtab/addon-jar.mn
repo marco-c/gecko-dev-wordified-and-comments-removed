@@ -172,6 +172,7 @@ schema
 .
 json
 )
+*
 builtin
 -
 addons
