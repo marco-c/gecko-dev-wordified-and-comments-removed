@@ -27876,7 +27876,7 @@ GetChildCount
 sanitizer
 -
 >
-SanitizeFragment
+Sanitize
 (
 fragment
 true
