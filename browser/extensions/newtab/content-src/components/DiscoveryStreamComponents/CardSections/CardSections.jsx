@@ -2012,6 +2012,13 @@ sectionFollowed
 {
 following
 }
+isTimeSensitive
+=
+{
+rec
+.
+isTimeSensitive
+}
 /
 >
 )
