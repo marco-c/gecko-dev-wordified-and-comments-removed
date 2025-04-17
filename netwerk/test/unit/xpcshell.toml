@@ -9422,13 +9422,6 @@ well
 "
 [
 "
-test_trr_flags
-.
-js
-"
-]
-[
-"
 test_trr_https_fallback
 .
 js
