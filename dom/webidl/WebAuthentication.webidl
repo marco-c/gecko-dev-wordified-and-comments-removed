@@ -1953,6 +1953,9 @@ AuthenticationExtensionsPRFOutputsJSON
 boolean
 enabled
 ;
+AuthenticationExtensionsPRFValuesJSON
+results
+;
 }
 ;
 partial
