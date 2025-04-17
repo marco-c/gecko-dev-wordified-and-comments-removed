@@ -1428,7 +1428,6 @@ sAllocator
 =
 nullptr
 ;
-MOZ_RUNINIT
 ThreadSafeAutoRefCnt
 nsTimerEvent
 :

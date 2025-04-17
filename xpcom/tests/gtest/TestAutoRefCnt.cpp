@@ -161,7 +161,6 @@ default
 ;
 }
 ;
-MOZ_RUNINIT
 ThreadSafeAutoRefCnt
 nsThreadSafeAutoRefCntRunner
 :
