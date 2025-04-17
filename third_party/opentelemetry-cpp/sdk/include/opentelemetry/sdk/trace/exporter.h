@@ -155,8 +155,6 @@ max
 )
 )
 noexcept
-=
-0
 ;
 virtual
 bool

@@ -175,7 +175,7 @@ schema_url_
 ;
 friend
 class
-ResourceDetector
+OTELResourceDetector
 ;
 }
 ;

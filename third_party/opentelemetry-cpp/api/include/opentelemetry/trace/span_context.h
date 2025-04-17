@@ -10,11 +10,6 @@ h
 >
 #
 include
-<
-utility
->
-#
-include
 "
 opentelemetry
 /
@@ -179,13 +174,7 @@ is_remote
 )
 trace_state_
 (
-std
-:
-:
-move
-(
 trace_state
-)
 )
 {
 }
@@ -280,7 +269,6 @@ trace
 :
 TraceState
 >
-&
 trace_state
 (
 )

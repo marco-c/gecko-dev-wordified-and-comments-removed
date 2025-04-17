@@ -126,8 +126,6 @@ data
 [
 kMaxSize
 ]
-{
-}
 ;
 }
 ;
