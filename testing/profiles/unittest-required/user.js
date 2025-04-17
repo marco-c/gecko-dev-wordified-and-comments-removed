@@ -1392,11 +1392,11 @@ tests
 /
 dom
 /
-tests
+geolocation
+/
+test
 /
 mochitest
-/
-geolocation
 /
 network_geolocation
 .

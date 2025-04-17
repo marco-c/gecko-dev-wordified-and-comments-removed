@@ -17944,17 +17944,6 @@ tests
 /
 browser
 /
-browser_bug1238427
-.
-js
-"
-"
-dom
-/
-tests
-/
-browser
-/
 browser_bytecode_cache_asm_js
 .
 js
