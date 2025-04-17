@@ -1256,5 +1256,16 @@ logo
 .
 svg
 "
+"
+shims
+/
+zendesk
+-
+asana
+-
+support
+.
+js
+"
 ]
 }
