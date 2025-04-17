@@ -3088,6 +3088,14 @@ oldTextStore
 oldTextStore
 -
 >
+IsEditable
+(
+)
+&
+&
+oldTextStore
+-
+>
 MaybeHasFocus
 (
 )

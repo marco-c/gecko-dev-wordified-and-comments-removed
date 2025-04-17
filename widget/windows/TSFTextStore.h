@@ -784,6 +784,7 @@ IMENotificationRequests
 GetIMENotificationRequests
 (
 )
+const
 final
 ;
 static

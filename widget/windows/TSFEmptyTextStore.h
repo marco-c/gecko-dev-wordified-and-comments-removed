@@ -338,6 +338,7 @@ IMENotificationRequests
 GetIMENotificationRequests
 (
 )
+const
 final
 ;
 void
