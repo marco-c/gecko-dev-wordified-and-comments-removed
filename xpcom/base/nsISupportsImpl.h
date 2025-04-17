@@ -1157,6 +1157,7 @@ mRefCntAndFlags
 )
 {
 }
+constexpr
 explicit
 nsCycleCollectingAutoRefCnt
 (
@@ -1567,6 +1568,7 @@ mValue
 )
 {
 }
+constexpr
 explicit
 nsAutoRefCnt
 (
@@ -1715,6 +1717,7 @@ mValue
 )
 {
 }
+constexpr
 explicit
 ThreadSafeAutoRefCnt
 (
