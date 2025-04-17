@@ -981,7 +981,7 @@ jogLabeledCounterErr
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -1028,7 +1028,7 @@ jogLabeledCounterWithLabelsErr
 .
 repeat
 (
-72
+112
 )
 ]
 .

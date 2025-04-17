@@ -117,7 +117,7 @@ MAX_LABEL_LENGTH
 :
 usize
 =
-71
+111
 ;
 pub
 type
