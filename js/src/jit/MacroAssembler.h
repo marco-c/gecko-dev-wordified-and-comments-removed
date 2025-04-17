@@ -16998,8 +16998,13 @@ Register
 superSTV
 Register
 scratch
-uint32_t
-superDepth
+const
+wasm
+:
+:
+TypeDef
+*
+destType
 Label
 *
 label
