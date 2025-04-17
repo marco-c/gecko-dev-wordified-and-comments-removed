@@ -2660,6 +2660,13 @@ rec
 .
 alt_text
 }
+isTimeSensitive
+=
+{
+rec
+.
+isTimeSensitive
+}
 /
 >
 )
