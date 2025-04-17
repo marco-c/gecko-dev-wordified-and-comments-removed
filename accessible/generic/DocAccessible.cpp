@@ -3921,7 +3921,7 @@ if
 aria
 :
 :
-HasDefinedARIAHidden
+IsValidARIAHidden
 (
 aElement
 )
@@ -5671,7 +5671,7 @@ IsElement
 aria
 :
 :
-HasDefinedARIAHidden
+IsValidARIAHidden
 (
 currNode
 -

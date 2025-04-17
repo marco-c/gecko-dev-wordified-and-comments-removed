@@ -155,6 +155,13 @@ js
 ]
 [
 "
+browser_test_aria_hidden
+.
+js
+"
+]
+[
+"
 browser_searchbar
 .
 js

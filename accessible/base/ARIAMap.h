@@ -432,7 +432,15 @@ aAtom
 )
 ;
 bool
-HasDefinedARIAHidden
+IsValidARIAHidden
+(
+nsIContent
+*
+aContent
+)
+;
+bool
+ShouldIgnoreARIAHidden
 (
 nsIContent
 *
