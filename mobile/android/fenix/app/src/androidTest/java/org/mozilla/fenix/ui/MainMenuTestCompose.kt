@@ -403,6 +403,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeVeryShort
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 import
 org
@@ -5075,6 +5087,7 @@ verifyRedesignedCustomTabsMainMenuItemsExist
 (
 customMenuItem
 false
+waitingTimeVeryShort
 )
 }
 }
