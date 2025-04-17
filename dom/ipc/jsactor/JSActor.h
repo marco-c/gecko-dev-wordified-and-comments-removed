@@ -331,7 +331,7 @@ JSActor
 default
 ;
 void
-SetName
+Init
 (
 const
 nsACString

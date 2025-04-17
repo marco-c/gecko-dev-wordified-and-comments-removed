@@ -962,7 +962,7 @@ void
 JSActor
 :
 :
-SetName
+Init
 (
 const
 nsACString
@@ -989,6 +989,14 @@ twice
 mName
 =
 aName
+;
+InvokeCallback
+(
+CallbackFunction
+:
+:
+ActorCreated
+)
 ;
 }
 void
