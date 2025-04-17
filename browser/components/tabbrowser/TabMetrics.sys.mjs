@@ -123,6 +123,11 @@ TAB_MENU
 "
 tab_menu
 "
+TAB_STRIP
+:
+"
+tab_strip
+"
 DRAG_AND_DROP
 :
 "
