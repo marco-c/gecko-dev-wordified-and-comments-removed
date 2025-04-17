@@ -252,3 +252,15 @@ content
 .
 "
 )
+MSG_DEF
+(
+JSMSG_STREAM_CONSUME_ERROR
+0
+JSEXN_ERR
+"
+error
+consuming
+stream
+body
+"
+)
