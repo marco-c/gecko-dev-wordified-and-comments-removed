@@ -4023,6 +4023,12 @@ progress
 max
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 views
 .
 progress

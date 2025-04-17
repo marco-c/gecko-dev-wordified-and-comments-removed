@@ -1681,6 +1681,12 @@ capture
 (
 )
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 assertEquals
 (
 AccessibilityEvent
@@ -2039,6 +2045,12 @@ captor
 capture
 (
 )
+)
+Suppress
+(
+"
+DEPRECATION
+"
 )
 assertEquals
 (

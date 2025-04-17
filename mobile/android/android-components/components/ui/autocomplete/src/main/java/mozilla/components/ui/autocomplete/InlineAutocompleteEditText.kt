@@ -2676,6 +2676,12 @@ addAutocompleteText
 result
 )
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 announceForAccessibility
 (
 text

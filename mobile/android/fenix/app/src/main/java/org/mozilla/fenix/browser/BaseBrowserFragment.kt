@@ -11175,6 +11175,12 @@ core
 store
 context
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 it
 .
 announceForAccessibility

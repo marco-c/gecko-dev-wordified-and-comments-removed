@@ -2678,6 +2678,12 @@ lifecycleScope
 .
 launch
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 view
 ?
 .

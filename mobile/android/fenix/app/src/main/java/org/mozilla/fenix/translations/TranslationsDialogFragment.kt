@@ -1468,6 +1468,12 @@ translationsDialogState
 isTranslationInProgress
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 localView
 .
 announceForAccessibility
@@ -1939,6 +1945,12 @@ if
 checked
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 localView
 .
 announceForAccessibility
