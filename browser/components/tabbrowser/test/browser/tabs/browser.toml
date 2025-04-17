@@ -2853,6 +2853,13 @@ js
 ]
 [
 "
+browser_tab_aria_posinset_setsize
+.
+js
+"
+]
+[
+"
 browser_tab_close_dependent_window
 .
 js
