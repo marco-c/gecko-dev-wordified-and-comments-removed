@@ -1313,7 +1313,12 @@ void
 IncrementAnimationGeneration
 (
 )
+{
++
++
+mAnimationGeneration
 ;
+}
 static
 void
 AddLayerChangesForAnimation
