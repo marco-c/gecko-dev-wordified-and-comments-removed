@@ -2810,8 +2810,6 @@ lParam
 bool
 OnPaint
 (
-uint32_t
-aNestingLevel
 )
 ;
 void

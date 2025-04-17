@@ -20256,7 +20256,6 @@ int
 )
 OnPaint
 (
-0
 )
 ;
 result
