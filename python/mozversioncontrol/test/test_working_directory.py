@@ -139,6 +139,13 @@ it
 "
     
 ]
+    
+"
+jj
+"
+:
+[
+]
 }
 def
 test_working_directory_clean_untracked_files
@@ -146,6 +153,19 @@ test_working_directory_clean_untracked_files
 repo
 )
 :
+    
+if
+repo
+.
+vcs
+=
+=
+"
+jj
+"
+:
+        
+return
     
 vcs
 =
