@@ -1379,7 +1379,7 @@ have
 the
 flexibility
 to
-accomodate
+accommodate
 these
 requests
 though
