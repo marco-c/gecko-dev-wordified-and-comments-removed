@@ -150,7 +150,10 @@ uri
 principal
 false
 nullptr
-DocumentFlavorHTML
+DocumentFlavor
+:
+:
+HTML
 )
 ;
 if

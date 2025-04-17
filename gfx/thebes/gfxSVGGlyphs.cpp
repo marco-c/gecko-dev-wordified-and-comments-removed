@@ -2005,7 +2005,10 @@ uri
 principal
 false
 nullptr
-DocumentFlavorSVG
+DocumentFlavor
+:
+:
+SVG
 )
 ;
 NS_ENSURE_SUCCESS

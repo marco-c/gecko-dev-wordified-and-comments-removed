@@ -31538,7 +31538,10 @@ return
 CreateInertDocument
 (
 aTemplate
-DocumentFlavorXML
+DocumentFlavor
+:
+:
+XML
 )
 ;
 }
@@ -31561,7 +31564,10 @@ return
 CreateInertDocument
 (
 aTemplate
-DocumentFlavorHTML
+DocumentFlavor
+:
+:
+HTML
 )
 ;
 }
