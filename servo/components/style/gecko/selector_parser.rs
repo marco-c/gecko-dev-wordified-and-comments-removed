@@ -2298,7 +2298,7 @@ i
 '
 t
 >
-after_part
+_after_part
 :
 bool
 )
@@ -2325,9 +2325,6 @@ name
 "
 lang
 "
-if
-!
-after_part
 =
 >
 {
@@ -2447,9 +2444,6 @@ locale
 -
 dir
 "
-if
-!
-after_part
 =
 >
 {
@@ -2471,9 +2465,6 @@ parser
 "
 dir
 "
-if
-!
-after_part
 =
 >
 {
