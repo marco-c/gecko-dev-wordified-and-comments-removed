@@ -23215,10 +23215,6 @@ interestPicker
 :
 {
 }
-surfaceId
-:
-"
-"
 recommendations
 :
 [
