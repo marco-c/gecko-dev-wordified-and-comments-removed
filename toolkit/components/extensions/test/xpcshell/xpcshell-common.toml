@@ -1153,6 +1153,13 @@ js
 ]
 [
 "
+test_ext_contentscript_order
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_preloading
 .
 js
