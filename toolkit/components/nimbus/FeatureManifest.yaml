@@ -22169,7 +22169,12 @@ group
 type
 :
 boolean
-fallbackPref
+setPref
+:
+branch
+:
+default
+pref
 :
 browser
 .
@@ -22224,7 +22229,12 @@ enabled
 type
 :
 boolean
-fallbackPref
+setPref
+:
+branch
+:
+default
+pref
 :
 browser
 .
