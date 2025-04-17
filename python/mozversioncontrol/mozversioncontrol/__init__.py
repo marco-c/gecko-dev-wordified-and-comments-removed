@@ -38,14 +38,6 @@ mozversioncontrol
 .
 repo
 .
-jj
-import
-JujutsuRepository
-from
-mozversioncontrol
-.
-repo
-.
 mercurial
 import
 HgRepository

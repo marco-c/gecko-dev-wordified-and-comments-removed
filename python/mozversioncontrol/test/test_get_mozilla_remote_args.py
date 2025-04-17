@@ -105,16 +105,9 @@ try
 "
     
 ]
-    
-"
-jj
-"
-:
-[
-]
 }
 def
-test_get_mozilla_remote_args
+test_get_upstream_remotes
 (
 repo
 )

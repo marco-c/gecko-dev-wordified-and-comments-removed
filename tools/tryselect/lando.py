@@ -106,8 +106,6 @@ import
 GitRepository
     
 HgRepository
-    
-JujutsuRepository
 )
 TOKEN_FILE
 =
@@ -135,7 +133,6 @@ Union
 [
 GitRepository
 HgRepository
-JujutsuRepository
 ]
 here
 =
@@ -2484,16 +2481,6 @@ HgRepository
 :
 "
 hgexport
-"
-        
-JujutsuRepository
-:
-"
-git
--
-format
--
-patch
 "
     
 }
