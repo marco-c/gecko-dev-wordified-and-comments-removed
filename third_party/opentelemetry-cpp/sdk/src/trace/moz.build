@@ -50,6 +50,11 @@ exporter
 cc
 "
 "
+provider
+.
+cc
+"
+"
 random_id_generator
 .
 cc
@@ -78,6 +83,11 @@ cc
 "
 "
 tracer
+.
+cc
+"
+"
+tracer_config
 .
 cc
 "

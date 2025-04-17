@@ -118,6 +118,7 @@ static
 void
 SetTracerProvider
 (
+const
 nostd
 :
 :
@@ -125,6 +126,7 @@ shared_ptr
 <
 TracerProvider
 >
+&
 tp
 )
 noexcept
