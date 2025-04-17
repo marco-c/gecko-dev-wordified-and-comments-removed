@@ -56,18 +56,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-disable
-no
--
-restricted
--
-globals
-*
-/
 const
 lazy
 =
@@ -462,7 +450,7 @@ win
 *
 *
 *
-Synthesise
+Synthesize
 a
 touch
 event
