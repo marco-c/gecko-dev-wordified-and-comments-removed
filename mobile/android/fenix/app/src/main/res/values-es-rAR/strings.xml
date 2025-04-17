@@ -56382,7 +56382,7 @@ debug_drawer_regin_tools_description
 "
 >
 Temporalmente
-anula
+reemplaza
 los
 valores
 de
@@ -56486,7 +56486,7 @@ name
 debug_drawer_override_home_region_label
 "
 >
-Anular
+Reemplazar
 regi
 n
 de
@@ -56519,7 +56519,7 @@ name
 debug_drawer_override_current_region_label
 "
 >
-Anular
+Reemplazar
 regi
 n
 actual
@@ -56554,7 +56554,7 @@ name
 debug_drawer_override_region
 "
 >
-Anular
+Reemplazar
 la
 regi
 n
