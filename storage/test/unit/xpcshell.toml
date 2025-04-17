@@ -178,12 +178,13 @@ non
 debug
 builds
 .
-skip
+run
 -
 if
 =
 [
 "
+!
 debug
 "
 ]

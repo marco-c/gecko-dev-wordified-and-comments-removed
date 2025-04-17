@@ -61,12 +61,13 @@ test_missing_variables
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
+!
 debug
 "
 ]
