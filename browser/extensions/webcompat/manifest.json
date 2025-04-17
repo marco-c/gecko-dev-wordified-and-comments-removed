@@ -35,7 +35,7 @@ version
 "
 139
 .
-6
+7
 .
 0
 "
@@ -1005,6 +1005,17 @@ shims
 instagram
 .
 svg
+"
+"
+shims
+/
+jira
+-
+zendesk
+-
+support
+.
+js
 "
 "
 shims
