@@ -918,15 +918,8 @@ stored
 for
 the
 given
-|
-tab
-|
-*
-or
-associated
-|
-browser
-|
+permanent
+key
 .
 *
 /
