@@ -1088,6 +1088,9 @@ SurfaceDescriptorCanvasSurface
 uint32_t
 managerId
 ;
+int32_t
+canvasId
+;
 uintptr_t
 surfaceId
 ;
