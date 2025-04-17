@@ -1158,12 +1158,6 @@ aFailureId
 ;
 static
 bool
-IsDMABufTexturesEnabled
-(
-)
-;
-static
-bool
 IsDMABufWebGLEnabled
 (
 )
