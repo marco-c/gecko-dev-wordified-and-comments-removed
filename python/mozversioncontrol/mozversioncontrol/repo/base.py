@@ -365,6 +365,40 @@ return_codes
 ]
 )
         
+env
+=
+self
+.
+_env
+        
+if
+"
+env
+"
+in
+runargs
+:
+            
+env
+=
+env
+.
+copy
+(
+)
+            
+env
+.
+update
+(
+runargs
+[
+"
+env
+"
+]
+)
+        
 cmd
 =
 (
@@ -412,9 +446,7 @@ path
                     
 env
 =
-self
-.
-_env
+env
                     
 encoding
 =
