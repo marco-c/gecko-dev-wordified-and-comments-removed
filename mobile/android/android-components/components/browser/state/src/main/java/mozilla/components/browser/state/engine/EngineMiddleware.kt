@@ -397,6 +397,11 @@ trimMemoryAutomatically
 Boolean
 =
 true
+automaticallyInitializeTranslations
+:
+Boolean
+=
+true
 )
 :
 List
@@ -446,6 +451,7 @@ TranslationsMiddleware
 (
 engine
 scope
+automaticallyInitializeTranslations
 )
 PdfStateMiddleware
 (

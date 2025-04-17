@@ -445,6 +445,13 @@ val
 scope
 :
 CoroutineScope
+private
+val
+automaticallyInitialize
+:
+Boolean
+=
+true
 )
 :
 Middleware
@@ -510,6 +517,11 @@ is
 InitAction
 -
 >
+if
+(
+automaticallyInitialize
+)
+{
 context
 .
 store
@@ -520,6 +532,7 @@ TranslationsAction
 .
 InitTranslationsBrowserState
 )
+}
 is
 LocaleAction
 .
