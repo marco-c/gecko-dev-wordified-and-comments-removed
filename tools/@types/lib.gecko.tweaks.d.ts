@@ -516,6 +516,17 @@ globalThis
 nsISupports
 ;
 interface
+WindowGlobalParent
+extends
+WindowContext
+{
+readonly
+browsingContext
+:
+CanonicalBrowsingContext
+;
+}
+interface
 XULBrowserElement
 extends
 XULFrameElement
