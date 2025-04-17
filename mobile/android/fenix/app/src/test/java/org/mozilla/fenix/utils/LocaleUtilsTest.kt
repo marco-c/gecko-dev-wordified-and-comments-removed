@@ -142,6 +142,8 @@ getDisplayName
 locale
 =
 Locale
+.
+forLanguageTag
 (
 "
 de
@@ -192,6 +194,8 @@ getLocalizedDisplayName
 userLocale
 =
 Locale
+.
+forLanguageTag
 (
 "
 en
@@ -200,6 +204,8 @@ en
 languageLocale
 =
 Locale
+.
+forLanguageTag
 (
 "
 de

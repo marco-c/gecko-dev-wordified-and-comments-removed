@@ -126,6 +126,8 @@ JavaLocale
 setDefault
 (
 JavaLocale
+.
+forLanguageTag
 (
 "
 ar
