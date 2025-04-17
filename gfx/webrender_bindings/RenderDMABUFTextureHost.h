@@ -174,7 +174,16 @@ GetFormat
 )
 const
 override
+{
+return
+mSurface
+-
+>
+GetFormat
+(
+)
 ;
+}
 gfx
 :
 :
