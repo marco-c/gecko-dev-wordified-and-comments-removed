@@ -1572,7 +1572,7 @@ quickactions
 -
 cmd
 -
-settings
+settings2
 "
 ]
 icon
