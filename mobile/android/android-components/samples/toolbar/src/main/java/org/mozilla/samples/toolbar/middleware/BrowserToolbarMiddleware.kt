@@ -206,6 +206,8 @@ toolbar
 store
 .
 BrowserToolbarMenuItem
+.
+BrowserToolbarMenuButton
 import
 mozilla
 .
@@ -804,7 +806,7 @@ menu
 {
 listOfNotNull
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 icon
 =
@@ -830,7 +832,7 @@ onClick
 =
 null
 )
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -857,7 +859,7 @@ onClick
 =
 BookmarksClicked
 )
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -884,7 +886,7 @@ onClick
 =
 TabsClicked
 )
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -911,7 +913,7 @@ onClick
 =
 HistoryClicked
 )
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -951,7 +953,7 @@ BrowserToolbarMenu
 {
 listOfNotNull
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -980,7 +982,7 @@ onClick
 =
 Add10TabsClicked
 )
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =

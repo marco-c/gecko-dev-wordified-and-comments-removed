@@ -324,6 +324,8 @@ toolbar
 store
 .
 BrowserToolbarMenuItem
+.
+BrowserToolbarMenuButton
 import
 mozilla
 .
@@ -2693,10 +2695,14 @@ toolbarStore
 .
 dispatch
 (
+(
 tabCounterMenuItems
 [
 0
 ]
+as
+BrowserToolbarMenuButton
+)
 .
 onClick
 !
@@ -2918,10 +2924,14 @@ toolbarStore
 .
 dispatch
 (
+(
 tabCounterMenuItems
 [
 0
 ]
+as
+BrowserToolbarMenuButton
+)
 .
 onClick
 !
@@ -3203,7 +3213,7 @@ true
 >
 listOf
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -3236,7 +3246,7 @@ false
 >
 listOf
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =

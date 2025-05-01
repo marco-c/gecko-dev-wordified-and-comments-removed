@@ -186,6 +186,8 @@ toolbar
 store
 .
 BrowserToolbarMenuItem
+.
+BrowserToolbarMenuButton
 import
 mozilla
 .
@@ -673,7 +675,7 @@ BrowserToolbarMenu
 {
 listOf
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =

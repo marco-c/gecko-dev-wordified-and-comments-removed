@@ -310,6 +310,8 @@ toolbar
 store
 .
 BrowserToolbarMenuItem
+.
+BrowserToolbarMenuButton
 import
 mozilla
 .
@@ -1154,7 +1156,7 @@ Normal
 >
 listOf
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
@@ -1187,7 +1189,7 @@ Private
 >
 listOf
 (
-BrowserToolbarMenuItem
+BrowserToolbarMenuButton
 (
 iconResource
 =
