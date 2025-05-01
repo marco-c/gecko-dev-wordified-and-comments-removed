@@ -409,12 +409,6 @@ mSessionAccessibility
 aSessionAccessibility
 )
 {
-SetAttached
-(
-true
-nullptr
-)
-;
 }
 void
 SessionAccessibility
