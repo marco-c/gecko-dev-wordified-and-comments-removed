@@ -1102,6 +1102,14 @@ ScrollbarAnimations
 "
 )
     
+blink_features
+=
+[
+'
+ViewTransitionLongCallbackTimeoutForTesting
+'
+]
+    
 if
 kwargs
 [
