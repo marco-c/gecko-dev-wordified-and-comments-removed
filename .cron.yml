@@ -2376,7 +2376,7 @@ tasks
 -
 method
 :
-snap_upstream_tests
+snap_upstream_tasks
 run
 -
 on
