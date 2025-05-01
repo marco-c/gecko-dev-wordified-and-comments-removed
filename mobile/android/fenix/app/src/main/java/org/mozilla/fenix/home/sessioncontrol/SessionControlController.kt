@@ -657,16 +657,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-openSetDefaultBrowserOption
-import
-org
-.
-mozilla
-.
-fenix
-.
 home
 .
 HomeFragment
@@ -3756,7 +3746,7 @@ SET_AS_DEFAULT
 >
 activity
 .
-openSetDefaultBrowserOption
+showSetDefaultBrowserPrompt
 (
 )
 ChecklistItem
