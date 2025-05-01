@@ -8540,9 +8540,6 @@ onbeforematch
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
