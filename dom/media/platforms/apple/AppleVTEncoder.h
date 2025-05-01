@@ -25,6 +25,15 @@ h
 #
 include
 "
+apple
+/
+AppleUtils
+.
+h
+"
+#
+include
+"
 PlatformEncoderModule
 .
 h
@@ -466,7 +475,10 @@ mAvcc
 MediaResult
 mError
 ;
+AutoCFTypeRef
+<
 VTCompressionSessionRef
+>
 mSession
 ;
 Atomic
