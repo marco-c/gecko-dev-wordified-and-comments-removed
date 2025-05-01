@@ -549,6 +549,7 @@ CallbackObjectBase
 =
 default
 ;
+virtual
 void
 Reset
 (
@@ -557,6 +558,10 @@ Reset
 ClearJSReferences
 (
 )
+;
+mIncumbentGlobal
+=
+nullptr
 ;
 }
 friend
@@ -1111,6 +1116,7 @@ void
 Reset
 (
 )
+final
 {
 CallbackObjectBase
 :
