@@ -1379,7 +1379,7 @@ pageData
 .
 article
 .
-language
+detectedLanguage
 &
 &
 (
@@ -1405,7 +1405,7 @@ pageData
 .
 article
 .
-language
+detectedLanguage
 )
 )
 )

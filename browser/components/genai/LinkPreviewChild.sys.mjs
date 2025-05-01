@@ -1945,7 +1945,7 @@ const
 title
 byline
 content
-language
+detectedLanguage
 length
 siteName
 excerpt
@@ -2062,7 +2062,7 @@ return
 title
 byline
 textContent
-language
+detectedLanguage
 length
 siteName
 excerpt
