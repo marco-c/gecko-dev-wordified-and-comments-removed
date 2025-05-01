@@ -126,8 +126,7 @@ index
 dispatch
 sectionKey
 following
-followedSections
-blockedSections
+sectionData
 sectionPosition
 }
 )
@@ -321,8 +320,7 @@ site
 =
 {
 {
-followedSections
-blockedSections
+sectionData
 sectionKey
 sectionPosition
 title
