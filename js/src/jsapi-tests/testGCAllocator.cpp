@@ -2812,17 +2812,6 @@ requestSize
 ;
 CHECK
 (
-GetAllocZone
-(
-alloc
-)
-=
-=
-zone
-)
-;
-CHECK
-(
 IsNurseryOwned
 (
 alloc
