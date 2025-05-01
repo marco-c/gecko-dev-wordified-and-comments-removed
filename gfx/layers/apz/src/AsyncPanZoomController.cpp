@@ -26355,6 +26355,8 @@ return
 RoundedToInt
 (
 mVisualScrollOffset
+*
+mZoom
 )
 =
 =
@@ -26363,6 +26365,10 @@ RoundedToInt
 aOther
 .
 mVisualScrollOffset
+*
+aOther
+.
+mZoom
 )
 &
 &
