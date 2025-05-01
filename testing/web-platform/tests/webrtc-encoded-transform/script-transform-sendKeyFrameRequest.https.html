@@ -786,9 +786,7 @@ transform
 port
 )
 '
-failure
-:
-InvalidStateError
+success
 '
 )
 ;
@@ -860,7 +858,9 @@ success
 }
 '
 sendKeyFrameRequest
-rejects
+does
+not
+reject
 when
 the
 receiver
