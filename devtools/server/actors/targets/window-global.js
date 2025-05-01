@@ -2116,6 +2116,14 @@ this
 browsingContext
 .
 parent
+&
+&
+!
+this
+.
+browsingContext
+.
+isDiscarded
 )
 {
 this
