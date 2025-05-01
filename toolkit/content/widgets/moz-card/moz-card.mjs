@@ -486,6 +486,17 @@ heading
 -
 wrapper
 "
+part
+=
+"
+moz
+-
+card
+-
+heading
+-
+wrapper
+"
 >
 {
 when
