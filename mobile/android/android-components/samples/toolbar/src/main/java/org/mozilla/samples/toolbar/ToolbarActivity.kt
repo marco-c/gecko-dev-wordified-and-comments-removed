@@ -5573,7 +5573,7 @@ displayState
 =
 DisplayState
 (
-navigationActions
+browserActionsStart
 =
 listOf
 (

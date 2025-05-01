@@ -513,13 +513,13 @@ displayToolbarColors
 progressBarConfig
 =
 progressBarConfig
-navigationActions
+browserActionsStart
 =
 uiState
 .
 displayState
 .
-navigationActions
+browserActionsStart
 pageActions
 =
 uiState
