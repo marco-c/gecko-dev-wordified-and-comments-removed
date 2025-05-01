@@ -334,6 +334,13 @@ Try
 )
 [
 "
+browser_asrouter_universal_infobar
+.
+js
+"
+]
+[
+"
 browser_bookmarks_bar_button
 .
 js
