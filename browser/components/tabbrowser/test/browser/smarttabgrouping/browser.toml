@@ -85,6 +85,13 @@ js
 ]
 [
 "
+browser_tab_grouping_search
+.
+js
+"
+]
+[
+"
 browser_tab_grouping_telemetry
 .
 js
