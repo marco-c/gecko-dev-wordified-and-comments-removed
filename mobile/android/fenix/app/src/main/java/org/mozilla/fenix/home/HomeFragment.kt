@@ -3463,6 +3463,13 @@ recentSyncedTabController
 =
 DefaultRecentSyncedTabController
 (
+fenixBrowserUseCases
+=
+requireComponents
+.
+useCases
+.
+fenixBrowserUseCases
 tabsUseCase
 =
 requireComponents
@@ -3485,6 +3492,11 @@ appStore
 components
 .
 appStore
+settings
+=
+components
+.
+settings
 )
 bookmarksController
 =
