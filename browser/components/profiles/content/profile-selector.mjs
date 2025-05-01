@@ -669,6 +669,7 @@ profiles
 length
 )
 {
+await
 this
 .
 selectableProfileService

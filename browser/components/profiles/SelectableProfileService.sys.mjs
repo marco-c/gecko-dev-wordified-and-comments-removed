@@ -1946,6 +1946,7 @@ storeID
 =
 null
 ;
+await
 this
 .
 #
@@ -2061,6 +2062,7 @@ this
 .
 storeID
 ;
+await
 this
 .
 #
@@ -2199,6 +2201,7 @@ default
 during
 startup
 .
+await
 this
 .
 setDefaultProfileForGroup
@@ -6845,6 +6848,7 @@ bug
 1933911
 )
 .
+await
 this
 .
 setShowProfileSelectorWindow
