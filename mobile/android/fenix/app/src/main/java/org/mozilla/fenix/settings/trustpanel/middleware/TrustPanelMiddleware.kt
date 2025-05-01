@@ -937,16 +937,6 @@ UpdateBaseDomain
 baseDomain
 )
 )
-store
-.
-dispatch
-(
-TrustPanelAction
-.
-Navigate
-.
-ClearSiteDataDialog
-)
 }
 }
 private
