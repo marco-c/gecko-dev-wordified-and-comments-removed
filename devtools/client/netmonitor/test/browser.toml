@@ -2183,6 +2183,17 @@ js
 ]
 [
 "
+browser_net_invalid
+-
+mime
+-
+types
+.
+js
+"
+]
+[
+"
 browser_net_json
 -
 b64

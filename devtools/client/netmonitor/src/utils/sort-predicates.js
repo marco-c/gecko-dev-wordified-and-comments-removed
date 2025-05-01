@@ -1403,10 +1403,6 @@ first
 .
 mimeType
 )
-.
-toLowerCase
-(
-)
 ;
 const
 secondType
@@ -1416,10 +1412,6 @@ getAbbreviatedMimeType
 second
 .
 mimeType
-)
-.
-toLowerCase
-(
 )
 ;
 const
