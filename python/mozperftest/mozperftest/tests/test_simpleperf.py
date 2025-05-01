@@ -681,32 +681,6 @@ return_value
 x86_64
 "
     
-mock_mozbuild
-=
-Path
-(
-"
-mock
-"
-)
-/
-"
-mozbuild
-"
-    
-mock_sdk
-=
-Path
-(
-"
-mock
-"
-)
-/
-"
-sdk
-"
-    
 mock_ndk
 =
 Path
@@ -720,19 +694,6 @@ mock
 ndk
 "
     
-mock_avd_home
-=
-Path
-(
-"
-mock
-"
-)
-/
-"
-avd_home
-"
-    
 mock_android
 =
 mock
@@ -743,21 +704,9 @@ MagicMock
     
 mock_android
 .
-get_paths
-.
-return_value
+NDK_PATH
 =
-(
-        
-mock_mozbuild
-        
-mock_sdk
-        
 mock_ndk
-        
-mock_avd_home
-    
-)
     
 with
 mock
@@ -798,24 +747,13 @@ setup_simpleperf_path
     
 mock_android
 .
-ensure_android
+ensure_android_ndk
 .
 assert_called_once_with
 (
-        
 "
 linux
 "
-"
-x86_64
-"
-ndk_only
-=
-True
-artifact_mode
-=
-False
-    
 )
     
 expected_path
