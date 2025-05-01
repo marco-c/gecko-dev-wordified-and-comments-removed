@@ -865,6 +865,13 @@ Bug
 1683730
 [
 "
+test_ext_contentscript_trustedtypes
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_unregister_during_loadContentScript
 .
 js
