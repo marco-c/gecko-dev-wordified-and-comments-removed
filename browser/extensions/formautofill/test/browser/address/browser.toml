@@ -397,6 +397,13 @@ js
 ]
 [
 "
+browser_address_street_lookup
+.
+js
+"
+]
+[
+"
 browser_address_telemetry
 .
 js
