@@ -194,17 +194,6 @@ nullptr
 )
 ;
 nsresult
-IsMultiSessionInstallLockoutActive
-(
-nsIFile
-*
-updRootDir
-bool
-&
-isActive
-)
-;
-nsresult
 WriteUpdateCompleteTestFile
 (
 nsIFile
