@@ -677,8 +677,6 @@ get_context
         
 super
 (
-InterruptableQueue
-self
 )
 .
 __init__

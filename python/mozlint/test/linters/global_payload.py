@@ -21,6 +21,7 @@ result
 def
 global_payload
 (
+_paths
 config
 *
 *

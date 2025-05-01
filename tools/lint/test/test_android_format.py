@@ -77,10 +77,17 @@ format
     
 }
     
+paths
+=
+[
+]
+    
 results
 =
 global_lint
 (
+        
+paths
         
 config
 =

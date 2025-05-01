@@ -1444,6 +1444,7 @@ root
 def
 wrapper
 (
+paths
 config
 =
 config
@@ -1511,6 +1512,7 @@ results
 =
 func
 (
+paths
 config
 root
 =

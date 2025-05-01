@@ -1037,10 +1037,9 @@ lintargs
 )
 :
         
-try
-:
-            
-next
+files
+=
+list
 (
 expand_exclusions
 (
@@ -1055,13 +1054,12 @@ root
 )
 )
         
-except
-StopIteration
+if
+not
+files
 :
             
 return
-[
-]
         
 func
 =
@@ -1078,6 +1076,7 @@ payload
 return
 func
 (
+files
 config
 *
 *
