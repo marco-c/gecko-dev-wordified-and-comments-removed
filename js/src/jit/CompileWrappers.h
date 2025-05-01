@@ -295,6 +295,11 @@ addressOfHasSeenObjectEmulateUndefinedFuse
 (
 )
 ;
+bool
+hasSeenArrayExceedsInt32LengthFuseIntact
+(
+)
+;
 #
 ifdef
 DEBUG
