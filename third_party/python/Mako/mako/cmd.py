@@ -2,8 +2,6 @@ from
 argparse
 import
 ArgumentParser
-import
-io
 from
 os
 .
@@ -489,7 +487,6 @@ kw
 =
 dict
 (
-[
 varsplit
 (
 var
@@ -500,7 +497,6 @@ in
 options
 .
 var
-]
 )
     
 try
@@ -531,8 +527,6 @@ if
 output_file
 :
             
-io
-.
 open
 (
 output_file
@@ -546,9 +540,7 @@ output_encoding
 .
 write
 (
-                
 rendered
-            
 )
         
 else

@@ -111,13 +111,6 @@ friendly
 version
 of
 tqdm
-(
-Python
-3
-.
-6
-+
-)
 .
     
 "

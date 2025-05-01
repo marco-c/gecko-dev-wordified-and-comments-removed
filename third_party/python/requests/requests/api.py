@@ -324,9 +324,7 @@ custom_headers
 )
 where
 '
-content
--
-type
+content_type
 '
 is
 a

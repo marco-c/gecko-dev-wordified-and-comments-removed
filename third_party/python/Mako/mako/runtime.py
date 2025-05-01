@@ -18,6 +18,8 @@ functions
 "
 "
 import
+builtins
+import
 functools
 import
 sys
@@ -33,17 +35,8 @@ from
 mako
 import
 util
-from
-mako
-.
-compat
-import
-compat_builtins
 class
 Context
-(
-object
-)
 :
     
 "
@@ -80,7 +73,7 @@ class
 .
 Context
 .
-     
+    
 "
 "
 "
@@ -612,7 +605,7 @@ else
 :
             
 return
-compat_builtins
+builtins
 .
 __dict__
 [
@@ -824,7 +817,7 @@ _data
 get
 (
 key
-compat_builtins
+builtins
 .
 __dict__
 .
@@ -1299,9 +1292,6 @@ pop
 )
 class
 Undefined
-(
-object
-)
 :
     
 "
@@ -1389,9 +1379,6 @@ STOP_RENDERING
 "
 class
 LoopStack
-(
-object
-)
 :
     
 "
@@ -1604,9 +1591,6 @@ _top
 )
 class
 LoopContext
-(
-object
-)
 :
     
 "
@@ -1945,7 +1929,6 @@ the
 loop
 progresses
 .
-        
 "
 "
 "
@@ -1983,9 +1966,6 @@ values
 ]
 class
 _NSAttr
-(
-object
-)
 :
     
 def
@@ -2055,9 +2035,6 @@ key
 )
 class
 Namespace
-(
-object
-)
 :
     
 "
@@ -2071,7 +2048,7 @@ of
 rendering
 methods
 which
-      
+    
 can
 be
 local
@@ -2083,7 +2060,7 @@ from
 imported
 modules
 .
-      
+    
 To
 access
 a
@@ -2093,7 +2070,7 @@ method
 referenced
 by
 a
-      
+    
 :
 class
 :
@@ -2104,14 +2081,14 @@ plain
 attribute
 access
 :
-      
+    
 .
 .
 sourcecode
 :
 :
 mako
-        
+      
 {
 some_namespace
 .
@@ -2122,7 +2099,7 @@ y
 z
 )
 }
-      
+    
 :
 class
 :
@@ -2135,11 +2112,11 @@ built
 -
 in
 attributes
-      
+    
 described
 here
 .
-      
+    
 "
 "
 "
@@ -2202,21 +2179,17 @@ self
 .
 callables
 =
-dict
-(
-[
-(
+{
 c
 .
 __name__
+:
 c
-)
 for
 c
 in
 callables
-]
-)
+}
     
 callables
 =
@@ -2794,16 +2767,13 @@ namespaces
 key
 ]
         
-else
-:
-            
 ns
 =
 TemplateNamespace
 (
-                
+            
 uri
-                
+            
 self
 .
 context
@@ -2811,19 +2781,19 @@ context
 _copy
 (
 )
-                
+            
 templateuri
 =
 uri
-                
+            
 calling_uri
 =
 self
 .
 _templateuri
-            
+        
 )
-            
+        
 self
 .
 context
@@ -2834,7 +2804,7 @@ key
 ]
 =
 ns
-            
+        
 return
 ns
     
@@ -3372,21 +3342,17 @@ self
 .
 callables
 =
-dict
-(
-[
-(
+{
 c
 .
 __name__
+:
 c
-)
 for
 c
 in
 callables
-]
-)
+}
         
 if
 templateuri
@@ -3947,21 +3913,17 @@ self
 .
 callables
 =
-dict
-(
-[
-(
+{
 c
 .
 __name__
+:
 c
-)
 for
 c
 in
 callables
-]
-)
+}
         
 mod
 =
@@ -4704,17 +4666,7 @@ not
 result
 :
                 
-compat
-.
-reraise
-(
-*
-sys
-.
-exc_info
-(
-)
-)
+raise
     
 else
 :
@@ -5023,6 +4975,8 @@ except
 exceptions
 .
 TopLevelLookupException
+as
+e
 :
         
 raise
@@ -5030,6 +4984,7 @@ exceptions
 .
 TemplateLookupException
 (
+            
 str
 (
 compat
@@ -5038,7 +4993,10 @@ exception_as
 (
 )
 )
+        
 )
+from
+e
 def
 _populate_self_namespace
 (
@@ -5189,23 +5147,6 @@ util
 .
 FastEncodingBuffer
 (
-as_unicode
-=
-True
-)
-    
-elif
-template
-.
-bytestring_passthrough
-:
-        
-buf
-=
-compat
-.
-StringIO
-(
 )
     
 else
@@ -5218,16 +5159,11 @@ util
 FastEncodingBuffer
 (
             
-as_unicode
-=
-as_unicode
-            
 encoding
 =
 template
 .
 output_encoding
-            
 errors
 =
 template
@@ -5725,17 +5661,35 @@ not
 result
 :
             
-compat
-.
-reraise
-(
-*
+tp
+value
+tb
+=
 sys
 .
 exc_info
 (
 )
+            
+if
+value
+and
+tb
+:
+                
+raise
+value
+.
+with_traceback
+(
+tb
 )
+            
+else
+:
+                
+raise
+error
     
 else
 :
@@ -5762,16 +5716,11 @@ _buffer_stack
 ]
 =
 [
-                
 util
 .
 FastEncodingBuffer
 (
-as_unicode
-=
-True
 )
-            
 ]
         
 else

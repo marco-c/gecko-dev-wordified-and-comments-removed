@@ -22,10 +22,6 @@ ast
 from
 mako
 import
-compat
-from
-mako
-import
 exceptions
 from
 mako
@@ -37,9 +33,6 @@ import
 util
 class
 Node
-(
-object
-)
 :
     
 "
@@ -241,8 +234,6 @@ filename
         
 super
 (
-TemplateNode
-self
 )
 .
 __init__
@@ -381,8 +372,6 @@ kwargs
         
 super
 (
-ControlLine
-self
 )
 .
 __init__
@@ -559,65 +548,61 @@ ControlLine
 "
 "
         
-return
-keyword
-in
+cases
+=
 {
             
 "
 if
 "
 :
-set
-(
-[
+{
 "
 else
 "
 "
 elif
 "
-]
-)
+}
             
 "
 try
 "
 :
-set
-(
-[
+{
 "
 except
 "
 "
 finally
 "
-]
-)
+}
             
 "
 for
 "
 :
-set
-(
-[
+{
 "
 else
 "
-]
-)
+}
         
 }
+        
+return
+keyword
+in
+cases
 .
 get
 (
 self
 .
 keyword
-[
-]
+set
+(
+)
 )
     
 def
@@ -700,8 +685,6 @@ kwargs
         
 super
 (
-Text
-self
 )
 .
 __init__
@@ -822,8 +805,6 @@ kwargs
         
 super
 (
-Code
-self
 )
 .
 __init__
@@ -968,8 +949,6 @@ kwargs
         
 super
 (
-Comment
-self
 )
 .
 __init__
@@ -1056,8 +1035,6 @@ kwargs
         
 super
 (
-Expression
-self
 )
 .
 __init__
@@ -1148,16 +1125,9 @@ undeclared_identifiers
 difference
 (
                 
-set
-(
 filters
 .
 DEFAULT_ESCAPES
-.
-keys
-(
-)
-)
             
 )
         
@@ -1283,8 +1253,6 @@ cls
         
 super
 (
-_TagMeta
-cls
 )
 .
 __init__
@@ -1430,13 +1398,10 @@ kwargs
 class
 Tag
 (
-compat
-.
-with_metaclass
-(
-_TagMeta
 Node
-)
+metaclass
+=
+_TagMeta
 )
 :
     
@@ -1618,8 +1583,6 @@ pos
         
 super
 (
-Tag
-self
 )
 .
 __init__
@@ -1679,6 +1642,8 @@ exceptions
 CompileException
 (
                 
+(
+                    
 "
 Missing
 attribute
@@ -1689,14 +1654,13 @@ s
 %
 s
 "
-                
+                    
 %
 "
 "
 .
 join
 (
-[
 repr
 (
 m
@@ -1705,7 +1669,8 @@ for
 m
 in
 missing
-]
+)
+                
 )
                 
 *
@@ -1921,13 +1886,10 @@ group
 )
 )
                     
-else
-:
-                        
-if
+elif
 x
 :
-                            
+                        
 expr
 .
 append
@@ -1996,7 +1958,7 @@ CompileException
 (
                         
 "
-Attibute
+Attribute
 '
 %
 s
@@ -2204,8 +2166,6 @@ kwargs
         
 super
 (
-IncludeTag
-self
 )
 .
 __init__
@@ -2306,14 +2266,11 @@ undeclared_identifiers
 difference
 (
             
-set
-(
-[
+{
 "
 __DUMMY
 "
-]
-)
+}
         
 )
 .
@@ -2331,17 +2288,13 @@ identifiers
 .
 union
 (
-            
 super
 (
-IncludeTag
-self
 )
 .
 undeclared_identifiers
 (
 )
-        
 )
 class
 NamespaceTag
@@ -2370,8 +2323,6 @@ kwargs
         
 super
 (
-NamespaceTag
-self
 )
 .
 __init__
@@ -2577,13 +2528,10 @@ kwargs
         
 super
 (
-TextTag
-self
 )
 .
 __init__
 (
-            
 keyword
 attributes
 (
@@ -2598,7 +2546,6 @@ filter
 *
 *
 kwargs
-        
 )
         
 self
@@ -2718,8 +2665,6 @@ cache_
         
 super
 (
-DefTag
-self
 )
 .
 __init__
@@ -3100,8 +3045,6 @@ cache_
         
 super
 (
-BlockTag
-self
 )
 .
 __init__
@@ -3450,8 +3393,6 @@ kwargs
         
 super
 (
-CallTag
-self
 )
 .
 __init__
@@ -3605,8 +3546,6 @@ kwargs
         
 super
 (
-CallNamespaceTag
-self
 )
 .
 __init__
@@ -3677,8 +3616,6 @@ defname
 join
 (
                 
-[
-                    
 "
 %
 s
@@ -3691,7 +3628,7 @@ s
 k
 v
 )
-                    
+                
 for
 k
 v
@@ -3703,7 +3640,7 @@ parsed_attributes
 items
 (
 )
-                    
+                
 if
 k
 !
@@ -3711,8 +3648,6 @@ k
 "
 args
 "
-                
-]
             
 )
         
@@ -3837,8 +3772,6 @@ kwargs
         
 super
 (
-InheritTag
-self
 )
 .
 __init__
@@ -3929,13 +3862,10 @@ cache_
         
 super
 (
-PageTag
-self
 )
 .
 __init__
 (
-            
 keyword
 attributes
 expressions
@@ -3946,7 +3876,6 @@ expressions
 *
 *
 kwargs
-        
 )
         
 self

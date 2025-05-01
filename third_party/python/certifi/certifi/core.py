@@ -33,6 +33,25 @@ contents
 "
 import
 sys
+import
+atexit
+def
+exit_cacert_ctx
+(
+)
+-
+>
+None
+:
+    
+_CACERT_CTX
+.
+__exit__
+(
+None
+None
+None
+)
 if
 sys
 .
@@ -112,6 +131,13 @@ _CACERT_CTX
 __enter__
 (
 )
+)
+            
+atexit
+.
+register
+(
+exit_cacert_ctx
 )
         
 return
@@ -225,6 +251,13 @@ _CACERT_CTX
 __enter__
 (
 )
+)
+            
+atexit
+.
+register
+(
+exit_cacert_ctx
 )
         
 return

@@ -27,7 +27,9 @@ be
 able
 to
 use
-cookielib
+http
+.
+cookiejar
 .
 CookieJar
 with
@@ -104,7 +106,9 @@ Request
 The
 code
 in
-cookielib
+http
+.
+cookiejar
 .
 CookieJar
 expects
@@ -436,7 +440,7 @@ val
 "
 "
 "
-cookielib
+cookiejar
 has
 no
 legitimate
@@ -590,7 +594,9 @@ response
     
 the
 way
-cookielib
+http
+.
+cookiejar
 expects
 to
 see
@@ -616,7 +622,7 @@ Make
 a
 MockResponse
 for
-cookielib
+cookiejar
 to
 read
 .
@@ -700,7 +706,9 @@ CookieJar
 param
 jar
 :
-cookielib
+http
+.
+cookiejar
 .
 CookieJar
 (
@@ -1042,7 +1050,9 @@ class
 ;
 is
 a
-cookielib
+http
+.
+cookiejar
 .
 CookieJar
 but
@@ -2288,7 +2298,9 @@ a
 name
 .
 Wraps
-cookielib
+http
+.
+cookiejar
 .
 CookieJar
 '

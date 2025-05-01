@@ -1,7 +1,17 @@
 import
-functools
-import
 sys
+from
+sentry_sdk
+.
+_functools
+import
+partial
+from
+sentry_sdk
+.
+consts
+import
+OP
 from
 sentry_sdk
 .
@@ -35,7 +45,8 @@ sentry_sdk
 .
 tracing
 import
-Span
+Transaction
+TRANSACTION_SOURCE_ROUTE
 from
 sentry_sdk
 .
@@ -50,6 +61,12 @@ integrations
 _wsgi_common
 import
 _filter_headers
+from
+sentry_sdk
+.
+profiler
+import
+start_profiling
 from
 sentry_sdk
 .
@@ -241,6 +258,9 @@ def
 get_host
 (
 environ
+use_x_forwarded_for
+=
+False
 )
 :
     
@@ -265,6 +285,95 @@ Werkzeug
 "
     
 if
+use_x_forwarded_for
+and
+"
+HTTP_X_FORWARDED_HOST
+"
+in
+environ
+:
+        
+rv
+=
+environ
+[
+"
+HTTP_X_FORWARDED_HOST
+"
+]
+        
+if
+environ
+[
+"
+wsgi
+.
+url_scheme
+"
+]
+=
+=
+"
+http
+"
+and
+rv
+.
+endswith
+(
+"
+:
+80
+"
+)
+:
+            
+rv
+=
+rv
+[
+:
+-
+3
+]
+        
+elif
+environ
+[
+"
+wsgi
+.
+url_scheme
+"
+]
+=
+=
+"
+https
+"
+and
+rv
+.
+endswith
+(
+"
+:
+443
+"
+)
+:
+            
+rv
+=
+rv
+[
+:
+-
+4
+]
+    
+elif
 environ
 .
 get
@@ -445,6 +554,9 @@ def
 get_request_url
 (
 environ
+use_x_forwarded_for
+=
+False
 )
 :
     
@@ -499,6 +611,7 @@ url_scheme
 get_host
 (
 environ
+use_x_forwarded_for
 )
         
 wsgi_decoding_dance
@@ -537,6 +650,9 @@ __slots__
 "
 app
 "
+"
+use_x_forwarded_for
+"
 )
     
 def
@@ -544,6 +660,9 @@ __init__
 (
 self
 app
+use_x_forwarded_for
+=
+False
 )
 :
         
@@ -552,6 +671,12 @@ self
 app
 =
 app
+        
+self
+.
+use_x_forwarded_for
+=
+use_x_forwarded_for
     
 def
 __call__
@@ -603,6 +728,11 @@ with
 auto_session_tracking
 (
 hub
+session_mode
+=
+"
+request
+"
 )
 :
                 
@@ -647,49 +777,68 @@ add_event_processor
                                 
 _make_wsgi_event_processor
 (
+                                    
 environ
+self
+.
+use_x_forwarded_for
+                                
 )
                             
 )
                     
-span
+transaction
 =
-Span
+Transaction
 .
 continue_from_environ
 (
+                        
 environ
-)
-                    
-span
-.
+                        
 op
 =
-"
-http
+OP
 .
-server
-"
-                    
-span
-.
-transaction
+HTTP_SERVER
+                        
+name
 =
 "
 generic
 WSGI
 request
 "
+                        
+source
+=
+TRANSACTION_SOURCE_ROUTE
+                    
+)
                     
 with
 hub
 .
-start_span
+start_transaction
 (
-span
+                        
+transaction
+custom_sampling_context
+=
+{
+"
+wsgi_environ
+"
+:
+environ
+}
+                    
 )
-as
-span
+start_profiling
+(
+transaction
+hub
+)
 :
                         
 try
@@ -704,14 +853,12 @@ app
                                 
 environ
                                 
-functools
-.
 partial
 (
                                     
 _sentry_start_response
 start_response
-span
+transaction
                                 
 )
                             
@@ -752,7 +899,7 @@ _sentry_start_response
     
 old_start_response
     
-span
+transaction
     
 status
     
@@ -787,7 +934,7 @@ split
 ]
 )
         
-span
+transaction
 .
 set_http_status
 (
@@ -830,9 +977,27 @@ environ
     
 Returns
 our
-whitelisted
+explicitly
+included
 environment
 variables
+we
+want
+to
+    
+capture
+(
+server
+name
+port
+and
+remote
+addr
+if
+pii
+is
+enabled
+)
 .
     
 "
@@ -1361,6 +1526,7 @@ def
 _make_wsgi_event_processor
 (
 environ
+use_x_forwarded_for
 )
 :
     
@@ -1376,6 +1542,7 @@ request_url
 get_request_url
 (
 environ
+use_x_forwarded_for
 )
     
 query_string

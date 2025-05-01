@@ -45,6 +45,11 @@ import
 Type
     
 from
+typing
+import
+Optional
+    
+from
 types
 import
 TracebackType
@@ -60,8 +65,12 @@ Type
 BaseException
 ]
 BaseException
+Optional
+[
 TracebackType
 ]
+]
+        
 Any
     
 ]

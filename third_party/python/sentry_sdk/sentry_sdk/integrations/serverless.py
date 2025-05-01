@@ -1,6 +1,4 @@
 import
-functools
-import
 sys
 from
 sentry_sdk
@@ -20,6 +18,12 @@ sentry_sdk
 _compat
 import
 reraise
+from
+sentry_sdk
+.
+_functools
+import
+wraps
 from
 sentry_sdk
 .
@@ -134,8 +138,6 @@ f
 )
 :
         
-functools
-.
 wraps
 (
 f
@@ -253,11 +255,6 @@ current
     
 if
 hub
-is
-not
-None
-and
-hub
 .
 client
 is
@@ -321,20 +318,10 @@ _flush_client
 )
 :
     
-hub
-=
+return
 Hub
 .
 current
-    
-if
-hub
-is
-not
-None
-:
-        
-hub
 .
 flush
 (

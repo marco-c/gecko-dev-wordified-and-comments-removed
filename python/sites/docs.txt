@@ -236,13 +236,6 @@ third_party
 /
 python
 /
-Jinja2
-vendored
-:
-third_party
-/
-python
-/
 MarkupSafe
 /
 src
@@ -381,6 +374,13 @@ python
 gyp
 /
 pylib
+vendored
+:
+third_party
+/
+python
+/
+jinja2
 vendored
 :
 third_party

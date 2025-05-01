@@ -9,10 +9,6 @@ itertools
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 itertools
 from
@@ -179,9 +175,8 @@ as
 t
 :
         
-for
-i
-in
+it
+=
 itertools
 .
 product
@@ -189,6 +184,11 @@ product
 *
 iterables
 )
+        
+for
+i
+in
+it
 :
             
 yield

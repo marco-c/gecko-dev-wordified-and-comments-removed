@@ -45,9 +45,11 @@ trange
 "
 "
 import
-os
-import
 sys
+from
+warnings
+import
+warn
 try
 :
     
@@ -85,22 +87,40 @@ console
 "
 )
     
-if
-'
-VSCODE_PID
-'
-in
-os
+from
 .
-environ
+notebook
+import
+WARN_NOIPYW
+IProgress
+    
+if
+IProgress
+is
+None
 :
+        
+from
+.
+std
+import
+TqdmWarning
+        
+warn
+(
+WARN_NOIPYW
+TqdmWarning
+stacklevel
+=
+2
+)
         
 raise
 ImportError
 (
-"
-vscode
-"
+'
+ipywidgets
+'
 )
 except
 Exception
@@ -114,11 +134,6 @@ tqdm
 trange
 else
 :
-    
-from
-warnings
-import
-warn
     
 from
 .

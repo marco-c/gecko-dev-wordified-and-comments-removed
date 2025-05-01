@@ -355,13 +355,6 @@ third_party
 /
 python
 /
-Jinja2
-vendored
-:
-third_party
-/
-python
-/
 MarkupSafe
 /
 src
@@ -511,6 +504,13 @@ third_party
 python
 /
 importlib_resources
+vendored
+:
+third_party
+/
+python
+/
+jinja2
 vendored
 :
 third_party

@@ -214,6 +214,7 @@ w
 +
 \
 )
++
 "
 )
     
@@ -505,6 +506,30 @@ replace
 replace
 (
 "
+\
+\
+A
+"
+"
+"
+)
+            
+.
+replace
+(
+"
+\
+\
+Z
+"
+"
+"
+)
+            
+.
+replace
+(
+"
 /
 /
 "
@@ -776,8 +801,6 @@ path
         
 return
 match
-or
-path
 LEGACY_RESOLVER
 =
 RavenResolver

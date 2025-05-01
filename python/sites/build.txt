@@ -142,13 +142,6 @@ third_party
 /
 python
 /
-Jinja2
-vendored
-:
-third_party
-/
-python
-/
 PyYAML
 /
 lib
@@ -313,6 +306,13 @@ third_party
 python
 /
 iniparse
+vendored
+:
+third_party
+/
+python
+/
+jinja2
 vendored
 :
 third_party

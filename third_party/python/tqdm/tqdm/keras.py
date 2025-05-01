@@ -1,9 +1,4 @@
 from
-__future__
-import
-absolute_import
-division
-from
 copy
 import
 copy
@@ -800,9 +795,13 @@ __
 :
         
 if
+hasattr
+(
 self
-.
-verbose
+'
+batch_bar
+'
+)
 :
             
 self

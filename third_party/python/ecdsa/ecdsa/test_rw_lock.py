@@ -1,3 +1,14 @@
+try
+:
+    
+import
+unittest2
+as
+unittest
+except
+ImportError
+:
+    
 import
 unittest
 import
@@ -23,12 +34,14 @@ Thread
 def
 __init__
 (
+        
 self
 buffer_
 rw_lock
 init_sleep_time
 sleep_time
 to_write
+    
 )
 :
         
@@ -666,7 +679,7 @@ buffer_read
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -686,7 +699,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -706,7 +719,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -814,7 +827,7 @@ buffer_read
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -834,7 +847,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1004,7 +1017,7 @@ buffer_read
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1023,7 +1036,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1043,7 +1056,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1063,7 +1076,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1255,7 +1268,7 @@ buffer_read
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1274,7 +1287,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1294,7 +1307,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1314,7 +1327,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1334,7 +1347,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1354,7 +1367,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [
@@ -1374,7 +1387,7 @@ entry_time
         
 self
 .
-assert_
+assertTrue
 (
 threads
 [

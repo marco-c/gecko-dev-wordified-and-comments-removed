@@ -199,8 +199,6 @@ CacheManager
         
 super
 (
-BeakerCacheImpl
-self
 )
 .
 __init__

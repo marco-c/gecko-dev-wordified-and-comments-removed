@@ -591,6 +591,13 @@ third_party
 /
 python
 /
+jinja2
+vendored
+:
+third_party
+/
+python
+/
 json_e
 vendored
 :

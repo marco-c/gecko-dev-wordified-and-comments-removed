@@ -28,9 +28,9 @@ trange
 for
 i
 in
-tqdm
+trange
 (
-iterable
+10
 token
 =
 '
@@ -62,11 +62,13 @@ https
 :
 /
 /
-img
-.
 tqdm
 .
-ml
+github
+.
+io
+/
+img
 /
 screenshot
 -
@@ -77,10 +79,6 @@ png
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 logging
 from
@@ -121,12 +119,6 @@ import
 tqdm
 as
 tqdm_auto
-from
-.
-.
-utils
-import
-_range
 from
 .
 utils_worker
@@ -291,6 +283,12 @@ str
 e
 )
 )
+            
+self
+.
+message
+=
+None
     
 def
 write
@@ -358,6 +356,20 @@ text
             
 return
         
+message
+=
+self
+.
+message
+        
+if
+message
+is
+None
+:
+            
+return
+        
 self
 .
 text
@@ -373,8 +385,6 @@ self
 .
 submit
 (
-self
-.
 message
 .
 edit
@@ -962,9 +972,7 @@ kwargs
 "
 "
 "
-    
-A
-shortcut
+Shortcut
 for
 tqdm
 .
@@ -974,7 +982,7 @@ discord
 .
 tqdm
 (
-xrange
+range
 (
 *
 args
@@ -984,18 +992,6 @@ args
 kwargs
 )
 .
-    
-On
-Python3
-+
-range
-is
-used
-instead
-of
-xrange
-.
-    
 "
 "
 "
@@ -1003,7 +999,7 @@ xrange
 return
 tqdm_discord
 (
-_range
+range
 (
 *
 args

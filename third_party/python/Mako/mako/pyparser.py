@@ -50,23 +50,9 @@ from
 mako
 import
 util
-from
-mako
-.
-compat
-import
-arg_stringname
-if
-compat
-.
-py3k
-:
-    
 reserved
 =
-set
-(
-[
+{
 "
 True
 "
@@ -79,9 +65,7 @@ None
 "
 print
 "
-]
-)
-    
+}
 arg_id
 =
 operator
@@ -90,36 +74,6 @@ attrgetter
 (
 "
 arg
-"
-)
-else
-:
-    
-reserved
-=
-set
-(
-[
-"
-True
-"
-"
-False
-"
-"
-None
-"
-]
-)
-    
-arg_id
-=
-operator
-.
-attrgetter
-(
-"
-id
 "
 )
 util
@@ -174,6 +128,8 @@ mode
     
 except
 Exception
+as
+e
 :
         
 raise
@@ -228,6 +184,8 @@ code
 exception_kwargs
         
 )
+from
+e
 class
 FindIdentifiers
 (
@@ -385,12 +343,6 @@ in_assign_targets
 =
 in_a
     
-if
-compat
-.
-py3k
-:
-        
 def
 visit_ExceptHandler
 (
@@ -398,7 +350,7 @@ self
 node
 )
 :
-            
+        
 if
 node
 .
@@ -407,7 +359,7 @@ is
 not
 None
 :
-                
+            
 self
 .
 _add_declared
@@ -416,7 +368,7 @@ node
 .
 name
 )
-            
+        
 if
 node
 .
@@ -425,7 +377,7 @@ is
 not
 None
 :
-                
+            
 self
 .
 visit
@@ -434,7 +386,7 @@ node
 .
 type
 )
-            
+        
 for
 statement
 in
@@ -442,7 +394,7 @@ node
 .
 body
 :
-                
+            
 self
 .
 visit
@@ -517,16 +469,11 @@ Tuple
 )
 :
                 
-for
-n
-in
+yield
+from
 arg
 .
 elts
-:
-                    
-yield
-n
             
 else
 :
@@ -858,10 +805,7 @@ name
 asname
 )
             
-else
-:
-                
-if
+elif
 name
 .
 name
@@ -871,13 +815,13 @@ name
 *
 "
 :
-                    
+                
 raise
 exceptions
 .
 CompileException
 (
-                        
+                    
 "
 '
 import
@@ -890,7 +834,7 @@ since
 all
 identifier
 "
-                        
+                    
 "
 names
 must
@@ -902,7 +846,7 @@ Please
 use
 the
 "
-                        
+                    
 "
 form
 '
@@ -918,7 +862,7 @@ name1
 name2
 >
 "
-                        
+                    
 "
 .
 .
@@ -927,14 +871,17 @@ name2
 instead
 .
 "
-                        
+                    
 *
 *
 self
 .
 exception_kwargs
-                    
+                
 )
+            
+else
+:
                 
 self
 .
@@ -1170,30 +1117,15 @@ argnames
 .
 append
 (
-arg_stringname
-(
 node
 .
 args
 .
 vararg
-)
-)
-        
-if
-compat
 .
-py2k
-:
-            
-kwargnames
-=
-[
-]
+arg
+)
         
-else
-:
-            
 kwargnames
 =
 [
@@ -1223,14 +1155,13 @@ kwargnames
 .
 append
 (
-arg_stringname
-(
 node
 .
 args
 .
 kwarg
-)
+.
+arg
 )
         
 self
@@ -1261,24 +1192,6 @@ kwargnames
 =
 kwargnames
         
-if
-compat
-.
-py2k
-:
-            
-self
-.
-listener
-.
-kwdefaults
-=
-[
-]
-        
-else
-:
-            
 self
 .
 listener
@@ -1316,9 +1229,6 @@ args
 kwarg
 class
 ExpressionGenerator
-(
-object
-)
 :
     
 def

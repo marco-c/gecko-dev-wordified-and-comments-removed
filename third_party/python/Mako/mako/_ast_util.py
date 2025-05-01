@@ -166,12 +166,6 @@ from
 _ast
 import
 USub
-from
-mako
-.
-compat
-import
-arg_stringname
 BOOLOP_SYMBOLS
 =
 {
@@ -449,24 +443,6 @@ fields
 "
 "
     
-if
-not
-hasattr
-(
-node
-"
-_fields
-"
-)
-or
-not
-node
-.
-_fields
-:
-        
-return
-    
 for
 field
 in
@@ -493,9 +469,6 @@ AttributeError
 pass
 class
 NodeVisitor
-(
-object
-)
 :
     
 "
@@ -1641,12 +1614,11 @@ write
 *
 "
 +
-arg_stringname
-(
 node
 .
 vararg
-)
+.
+arg
 )
         
 if
@@ -1671,12 +1643,11 @@ write
 *
 "
 +
-arg_stringname
-(
 node
 .
 kwarg
-)
+.
+arg
 )
     
 def
