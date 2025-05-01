@@ -3044,16 +3044,6 @@ aFrame
 )
 ;
 static
-nsIFrame
-*
-GetNonGeneratedAncestor
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 bool
 IsNonWrapperBlock
 (
