@@ -133,7 +133,7 @@ fenix
 .
 customannotations
 .
-DetectLeaks
+SkipLeaks
 import
 org
 .
@@ -500,6 +500,7 @@ view
 /
 522919
 Test
+SkipLeaks
 fun
 verifyEmptyBookmarksMenuTest
 (
@@ -1549,6 +1550,7 @@ view
 /
 1919262
 Test
+SkipLeaks
 fun
 verifyOpenAllInPrivateTabsTest
 (
@@ -1718,6 +1720,7 @@ view
 /
 325637
 Test
+SkipLeaks
 fun
 openBookmarkInPrivateTabTest
 (
@@ -1828,6 +1831,7 @@ view
 /
 325635
 Test
+SkipLeaks
 fun
 deleteBookmarkTest
 (
@@ -4053,7 +4057,6 @@ it
 .
 SmokeTest
 Test
-DetectLeaks
 fun
 deleteBookmarkFoldersTest
 (

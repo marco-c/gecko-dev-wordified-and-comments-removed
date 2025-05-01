@@ -283,7 +283,7 @@ fenix
 .
 experimentintegration
 -
-annotation
+notAnnotation
 org
 .
 mozilla
@@ -292,7 +292,7 @@ fenix
 .
 customannotations
 .
-DetectLeaks
+SkipLeaks
 device
 :
 -
