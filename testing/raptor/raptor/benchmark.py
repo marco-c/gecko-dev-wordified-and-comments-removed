@@ -469,6 +469,16 @@ SimpleHTTPRequestHandler
 )
 :
             
+protocol_version
+=
+"
+HTTP
+/
+1
+.
+1
+"
+            
 doc_root
 =
 self
