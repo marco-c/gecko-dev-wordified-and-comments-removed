@@ -42,11 +42,6 @@ Group
 Applications
 /
 Internet
-BuildArch
-:
-{
-ARCH_NAME
-}
 License
 :
 MPL
