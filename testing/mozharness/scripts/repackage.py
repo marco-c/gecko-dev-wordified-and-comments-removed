@@ -504,6 +504,21 @@ templates
 ]
             
 "
+rpm
+-
+templates
+"
+:
+config
+[
+"
+rpm
+-
+templates
+"
+]
+            
+"
 flatpak
 -
 templates
