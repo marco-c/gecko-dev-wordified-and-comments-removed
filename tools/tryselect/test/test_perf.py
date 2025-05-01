@@ -1799,7 +1799,7 @@ missing
 {
 }
             
-66
+96
             
 {
                 
@@ -2164,7 +2164,7 @@ live_sites
 True
 }
             
-74
+110
             
 {
                 
@@ -2450,7 +2450,7 @@ safari
 True
 }
             
-80
+116
             
 {
                 
@@ -2653,7 +2653,7 @@ tp
 True
 }
             
-66
+96
             
 {
                 
@@ -2849,7 +2849,7 @@ chrome
 True
 }
             
-98
+146
             
 {
                 
@@ -3838,43 +3838,6 @@ requested_platforms
 [
 "
 windows
-"
-]
-"
-requested_apps
-"
-:
-[
-"
-fenix
-"
-]
-}
-            
-0
-            
-{
-}
-            
-[
-"
-Benchmarks
-desktop
-"
-]
-        
-)
-        
-(
-            
-{
-"
-requested_platforms
-"
-:
-[
-"
-android
 "
 ]
 "
@@ -5524,7 +5487,7 @@ non_pgo
 True
 }
             
-58
+88
         
 )
     

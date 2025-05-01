@@ -635,31 +635,8 @@ applications
 such
 as
 chrome
-safari
 and
-android
-tests
-.
-These
-all
-require
-a
-flag
-such
-as
--
--
-android
-to
-enable
-(
-see
-build_category_matrix
-for
-more
-info
-)
-.
+safari
 "
 "
 "
@@ -1567,12 +1544,6 @@ aarch64
 }
                 
 "
-restriction
-"
-:
-check_for_android
-                
-"
 platform
 "
 :
@@ -1625,12 +1596,6 @@ aarch64
 "
                 
 }
-                
-"
-restriction
-"
-:
-check_for_android
                 
 "
 platform
