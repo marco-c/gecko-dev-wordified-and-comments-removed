@@ -91,6 +91,16 @@ enabled
 "
 true
 ]
+[
+"
+extensions
+.
+dataCollectionPermissions
+.
+enabled
+"
+false
+]
 ]
 }
 )

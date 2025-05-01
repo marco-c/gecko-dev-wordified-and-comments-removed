@@ -122,11 +122,11 @@ setBoolPref
 "
 extensions
 .
-manifestV3
+dataCollectionPermissions
 .
 enabled
 "
-true
+false
 )
 ;
 ChromeUtils
