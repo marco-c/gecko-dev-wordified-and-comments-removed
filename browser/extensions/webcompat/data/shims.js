@@ -6554,10 +6554,6 @@ zendesk
 .
 com
 /
-agent
-/
-filters
-/
 *
 "
 ]
