@@ -118,17 +118,6 @@ enabled
 =
 true
 "
-"
-app
-.
-update
-.
-multiSessionInstallLockout
-.
-enabled
-=
-false
-"
 ]
 #
 BITS
