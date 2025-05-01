@@ -605,13 +605,6 @@ js
 ]
 [
 "
-test_ObjectUtils_strict
-.
-js
-"
-]
-[
-"
 test_PermissionsUtils
 .
 js
