@@ -803,6 +803,13 @@ Bug
 1762638
 [
 "
+test_ext_contentscript_antitracking
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_api_injection
 .
 js
