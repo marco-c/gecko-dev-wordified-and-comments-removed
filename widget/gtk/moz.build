@@ -870,7 +870,6 @@ drm
 /
 include
 /
-libdrm
 "
 ]
 DEFINES
