@@ -168,6 +168,11 @@ gap
 :
 6px
 ;
+padding
+:
+0
+8px
+;
 }
 .
 import
@@ -226,6 +231,7 @@ gap
 padding
 :
 8px
+0
 ;
 }
 .
