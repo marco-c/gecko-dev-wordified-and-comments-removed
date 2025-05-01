@@ -125,6 +125,17 @@ blackboxedRanges
 {
 }
 ]
+directoryRoots
+:
+[
+"
+directory
+-
+roots
+"
+{
+}
+]
 }
 )
 ;

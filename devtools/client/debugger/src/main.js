@@ -464,6 +464,12 @@ sourcesTree
 initialSourcesTreeState
 (
 {
+mainThreadProjectDirectoryRoots
+:
+await
+asyncStore
+.
+directoryRoots
 isWebExtension
 :
 commands
