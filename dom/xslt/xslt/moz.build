@@ -11,6 +11,11 @@ txMozillaXSLTProcessor
 .
 h
 "
+"
+txXSLTMsgsURL
+.
+h
+"
 ]
 XPIDL_MODULE
 =
