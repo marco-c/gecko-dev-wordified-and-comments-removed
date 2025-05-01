@@ -228,4 +228,7 @@ GeckoSharedLibrary
 "
 wmfclearkey
 "
+linkage
+=
+None
 )

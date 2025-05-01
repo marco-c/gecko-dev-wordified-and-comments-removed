@@ -26,6 +26,9 @@ GeckoSharedLibrary
 "
 clearkey
 "
+linkage
+=
+None
 )
 FINAL_TARGET
 =

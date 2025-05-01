@@ -3,6 +3,9 @@ GeckoSharedLibrary
 "
 AccessibleMarshal
 "
+linkage
+=
+None
 )
 GeneratedFile
 (

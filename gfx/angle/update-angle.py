@@ -3133,6 +3133,9 @@ GeckoSharedLibrary
 name
 }
 "
+linkage
+=
+None
 )
 '
 )

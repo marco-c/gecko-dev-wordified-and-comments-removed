@@ -5458,4 +5458,7 @@ GeckoSharedLibrary
 "
 libGLESv2
 "
+linkage
+=
+None
 )
