@@ -622,6 +622,17 @@ PATH_MAX
 '
 )
 {
+JS_ReportErrorASCII
+(
+cx
+"
+Path
+is
+too
+long
+"
+)
+;
 return
 nullptr
 ;
