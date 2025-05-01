@@ -238,12 +238,7 @@ rule
 .
 textProps
 .
-slice
-(
-0
-)
-.
-reverse
+toReversed
 (
 )
 )
