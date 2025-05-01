@@ -10195,6 +10195,12 @@ SymbolicAddress
 :
 PostBarrierPreciseWithOffset
 :
+case
+SymbolicAddress
+:
+:
+PostBarrierWholeCell
+:
 return
 "
 call

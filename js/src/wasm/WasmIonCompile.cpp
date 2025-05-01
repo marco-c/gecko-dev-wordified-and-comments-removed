@@ -10783,11 +10783,6 @@ MDefinition
 object
 MDefinition
 *
-valueBase
-uint32_t
-valueOffset
-MDefinition
-*
 newValue
 )
 {
@@ -10805,8 +10800,6 @@ alloc
 )
 instancePointer_
 object
-valueBase
-valueOffset
 newValue
 )
 ;
@@ -22974,8 +22967,6 @@ postBarrierImmediate
 (
 bytecodeOffset
 exception
-data
-offset
 argValues
 [
 i
@@ -23820,8 +23811,6 @@ postBarrierImmediate
 (
 lineOrBytecode
 keepAlive
-base
-offset
 value
 )
 ;
