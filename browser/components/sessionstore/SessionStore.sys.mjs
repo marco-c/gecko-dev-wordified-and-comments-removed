@@ -41272,7 +41272,7 @@ document
 .
 documentElement
 .
-getAttribute
+hasAttribute
 (
 "
 taskbartab
