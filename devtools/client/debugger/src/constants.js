@@ -161,6 +161,15 @@ selection
 -
 marker
 "
+PAUSED_LOCATION_MARKER
+:
+"
+paused
+-
+location
+-
+marker
+"
 EMPTY_LINE_MARKER
 :
 "
