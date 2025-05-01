@@ -706,7 +706,8 @@ with
 obj
 so
 that
-Mercurial
+the
+VCS
 ignores
 it
 .
@@ -3011,7 +3012,7 @@ code
 python
 nonopt
 =
-[
+(
 "
 dom
 /
@@ -3030,7 +3031,7 @@ media
 libcubeb
 /
 "
-]
+)
 if
 RELATIVEDIR
 .
