@@ -411,15 +411,13 @@ file_name
 )
 ?
 ;
-write
+writeln
 !
 (
 f
 "
 {
 }
-\
-n
 "
 contents
 )

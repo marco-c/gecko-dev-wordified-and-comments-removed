@@ -954,7 +954,6 @@ FfiFunction
 >
 usize
 {
-return
 *
 self
 .
@@ -980,7 +979,6 @@ name
 unwrap
 (
 )
-;
 }
 pub
 fn
@@ -1187,7 +1185,6 @@ Object
 >
 usize
 {
-return
 *
 self
 .
@@ -1213,7 +1210,6 @@ name
 unwrap
 (
 )
-;
 }
 pub
 fn
@@ -1420,7 +1416,6 @@ CallbackInterface
 >
 usize
 {
-return
 *
 self
 .
@@ -1446,7 +1441,6 @@ name
 unwrap
 (
 )
-;
 }
 pub
 fn
