@@ -779,7 +779,7 @@ realloc
 (
 void
 *
-ptr
+alloc
 size_t
 bytes
 bool
@@ -791,7 +791,7 @@ free
 (
 void
 *
-ptr
+alloc
 )
 ;
 size_t
@@ -799,7 +799,7 @@ getAllocSize
 (
 void
 *
-ptr
+alloc
 )
 ;
 bool
@@ -807,7 +807,7 @@ isNurseryOwned
 (
 void
 *
-ptr
+alloc
 )
 ;
 void
