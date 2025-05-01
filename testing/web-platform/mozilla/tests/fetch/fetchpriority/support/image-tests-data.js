@@ -208,7 +208,7 @@ kExpectedRequestsOfDynamicLoadDisabled
 const
 kExpectedRequestsOfDynamicLoadForSVGImageTag
 =
-kExpectedRequestsOfInitialLoad
+kExpectedRequestsOfDynamicLoadForSVGImageTagDisabled
 ;
 const
 kExpectedRequestsShapeOutsideImage
