@@ -2489,11 +2489,6 @@ number
 encrypted
 "
 ]
-"
-ManageCC
-.
-openEditDialog
-"
 )
 ;
 }

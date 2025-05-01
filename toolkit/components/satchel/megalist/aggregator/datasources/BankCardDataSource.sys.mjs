@@ -208,9 +208,6 @@ number
 encrypted
 "
 ]
-"
-BankCardDataSource_decryptCard
-"
 false
 )
 ;
