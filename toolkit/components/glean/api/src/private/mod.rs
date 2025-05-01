@@ -714,6 +714,13 @@ Telemetry
 None
 )
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 (
 crate
@@ -880,6 +887,13 @@ offset
 )
 )
 }
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 (
 crate
