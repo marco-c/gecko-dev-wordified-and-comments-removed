@@ -429,13 +429,6 @@ js
 ]
 [
 "
-test_getFaviconDataForPage
-.
-js
-"
-]
-[
-"
 test_getFaviconForPage
 .
 js
@@ -444,13 +437,6 @@ js
 [
 "
 test_getFaviconLinkForIcon
-.
-js
-"
-]
-[
-"
-test_getFaviconURLForPage
 .
 js
 "
