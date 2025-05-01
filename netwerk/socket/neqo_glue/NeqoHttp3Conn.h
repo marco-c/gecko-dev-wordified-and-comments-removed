@@ -71,8 +71,6 @@ aQlogDir
 uint32_t
 aDatagramSize
 uint32_t
-aMaxAccumulatedTime
-uint32_t
 aProviderFlags
 uint32_t
 aIdleTimeout
@@ -102,7 +100,6 @@ aWebTransport
 &
 aQlogDir
 aDatagramSize
-aMaxAccumulatedTime
 aProviderFlags
 aIdleTimeout
 (
@@ -160,8 +157,6 @@ aQlogDir
 uint32_t
 aDatagramSize
 uint32_t
-aMaxAccumulatedTime
-uint32_t
 aProviderFlags
 uint32_t
 aIdleTimeout
@@ -193,7 +188,6 @@ aWebTransport
 &
 aQlogDir
 aDatagramSize
-aMaxAccumulatedTime
 aProviderFlags
 aIdleTimeout
 socket

@@ -885,12 +885,6 @@ Http3QlogDir
 (
 )
 datagramSize
-StaticPrefs
-:
-:
-network_http_http3_max_accumlated_time_ms
-(
-)
 aProviderFlags
 idleTimeout
 getter_AddRefs
@@ -966,12 +960,6 @@ Http3QlogDir
 (
 )
 datagramSize
-StaticPrefs
-:
-:
-network_http_http3_max_accumlated_time_ms
-(
-)
 aProviderFlags
 idleTimeout
 socket
