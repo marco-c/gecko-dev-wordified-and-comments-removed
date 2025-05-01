@@ -56,15 +56,6 @@ do_get_profile
 (
 )
 ;
-new
-Date
-(
-)
-.
-getHours
-(
-)
-;
 Services
 .
 fog
