@@ -3858,6 +3858,17 @@ page
 ordinal
 false
 )
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+isPrivateScreenBlocked
+=
+false
 }
 onAuthFailure
 =
