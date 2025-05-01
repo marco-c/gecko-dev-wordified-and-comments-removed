@@ -1750,6 +1750,9 @@ d
 mUID
 )
 ;
+#
+ifdef
+DEBUG
 for
 (
 int
@@ -1772,6 +1775,8 @@ i
 )
 ;
 }
+#
+endif
 MutexAutoLock
 lockFD
 (
@@ -1859,12 +1864,17 @@ mOffsets
 mGbmBufferObject
 (
 )
+#
+ifdef
+DEBUG
 mMappedRegion
 (
 )
 mMappedRegionStride
 (
 )
+#
+endif
 mSync
 (
 nullptr
@@ -6909,6 +6919,9 @@ buffer
 }
 #
 endif
+#
+ifdef
+DEBUG
 struct
 dma_buf_sync
 {
@@ -7536,6 +7549,8 @@ aPlane
 ;
 }
 }
+#
+endif
 nsresult
 DMABufSurface
 :

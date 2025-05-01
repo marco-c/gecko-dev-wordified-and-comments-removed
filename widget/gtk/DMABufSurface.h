@@ -465,6 +465,9 @@ GetTextureCount
 =
 0
 ;
+#
+ifdef
+DEBUG
 bool
 IsMapped
 (
@@ -496,6 +499,8 @@ aPlane
 0
 )
 ;
+#
+endif
 virtual
 DMABufSurfaceRGBA
 *
@@ -832,6 +837,9 @@ ReleaseDMABuf
 (
 )
 ;
+#
+ifdef
+DEBUG
 void
 *
 MapInternal
@@ -855,6 +863,8 @@ aPlane
 0
 )
 ;
+#
+endif
 virtual
 bool
 OpenFileDescriptorForPlane
@@ -1012,6 +1022,9 @@ mGbmBufferObject
 DMABUF_BUFFER_PLANES
 ]
 ;
+#
+ifdef
+DEBUG
 void
 *
 mMappedRegion
@@ -1032,6 +1045,8 @@ mMappedRegionStride
 DMABUF_BUFFER_PLANES
 ]
 ;
+#
+endif
 RefPtr
 <
 mozilla
@@ -1281,6 +1296,9 @@ HasAlpha
 (
 )
 ;
+#
+ifdef
+DEBUG
 void
 *
 MapReadOnly
@@ -1376,6 +1394,8 @@ aPlane
 ;
 }
 ;
+#
+endif
 bool
 CreateTexture
 (
