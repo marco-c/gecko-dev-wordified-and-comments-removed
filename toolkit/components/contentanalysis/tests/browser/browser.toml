@@ -425,6 +425,13 @@ js
 ]
 [
 "
+browser_content_analysis_quit_confirmation_dialog
+.
+js
+"
+]
+[
+"
 browser_print_changing_page_content_analysis
 .
 js
