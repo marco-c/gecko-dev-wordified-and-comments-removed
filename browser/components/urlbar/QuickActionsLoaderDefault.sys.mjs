@@ -483,12 +483,7 @@ quickactions
 -
 cmd
 -
-addons2
-"
-"
-quickactions
--
-addons
+addons3
 "
 ]
 icon
