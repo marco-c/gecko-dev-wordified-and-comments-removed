@@ -460,6 +460,16 @@ window_handle
 =
 current_window
     
+if
+session
+.
+session_id
+is
+None
+:
+        
+return
+    
 _restore_timeouts
 (
 session
