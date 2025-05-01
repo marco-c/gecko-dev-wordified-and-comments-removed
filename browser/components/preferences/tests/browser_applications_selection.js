@@ -434,7 +434,7 @@ handler2
 uriTemplate
 =
 "
-http
+https
 :
 /
 /
