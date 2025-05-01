@@ -24300,13 +24300,6 @@ name
 "
 download_search_placeholder
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Search
 downloads
@@ -24338,13 +24331,6 @@ name
 =
 "
 download_search_no_results_found
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 No
