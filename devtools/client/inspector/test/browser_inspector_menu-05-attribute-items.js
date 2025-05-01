@@ -730,6 +730,15 @@ found
 "
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+KEY_Escape
+"
+)
+;
 return
 menuItem
 ;
