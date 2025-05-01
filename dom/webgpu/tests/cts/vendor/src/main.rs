@@ -989,6 +989,9 @@ contains
 (
 expected_wpt_script_tag
 )
+format
+!
+(
 concat
 !
 (
@@ -1020,6 +1023,7 @@ upstream
 "
 )
 expected_wpt_script_tag
+)
 )
 ;
 let
