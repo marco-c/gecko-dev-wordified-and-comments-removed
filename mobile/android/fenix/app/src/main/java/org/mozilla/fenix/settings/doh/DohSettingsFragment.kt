@@ -197,7 +197,7 @@ FirefoxTheme
 Settings
 for
 DNS
-Over
+over
 HTTPS
 (
 DoH

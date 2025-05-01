@@ -36286,7 +36286,7 @@ string
 -
 -
 DNS
-Over
+over
 HTTPS
 (
 DoH
@@ -36317,7 +36317,7 @@ preference_doh_title
 "
 >
 DNS
-Over
+over
 HTTPS
 <
 /
