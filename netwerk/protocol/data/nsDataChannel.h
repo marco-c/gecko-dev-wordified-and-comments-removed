@@ -62,7 +62,6 @@ uri
 )
 ;
 }
-;
 nsresult
 Init
 (
@@ -99,12 +98,6 @@ nsIChannel
 channel
 )
 override
-;
-virtual
-nsresult
-NotifyListeners
-(
-)
 ;
 uint64_t
 mChannelId
