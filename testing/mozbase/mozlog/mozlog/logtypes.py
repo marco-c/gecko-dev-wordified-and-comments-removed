@@ -1378,9 +1378,7 @@ isinstance
 (
 data
 (
-(
 str
-)
 dict
 )
 )

@@ -2209,9 +2209,7 @@ if
 isinstance
 (
 f
-(
 str
-)
 )
 :
                             

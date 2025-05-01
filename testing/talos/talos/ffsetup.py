@@ -1015,9 +1015,7 @@ if
 isinstance
 (
 webextensions_folder
-(
 str
-)
 )
 :
             
@@ -1086,9 +1084,7 @@ if
 isinstance
 (
 webextensions
-(
 str
-)
 )
 :
             

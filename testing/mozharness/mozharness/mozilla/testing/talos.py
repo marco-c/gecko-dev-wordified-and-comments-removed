@@ -4186,9 +4186,7 @@ not
 isinstance
 (
 tests
-(
 str
-)
 )
 :
             

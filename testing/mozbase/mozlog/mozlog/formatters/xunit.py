@@ -43,9 +43,7 @@ not
 isinstance
 (
 test_id
-(
 str
-)
 )
 :
         

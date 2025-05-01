@@ -2628,10 +2628,7 @@ if
 isinstance
 (
 test_id
-(
 str
-str
-)
 )
 :
             

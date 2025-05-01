@@ -1581,9 +1581,7 @@ not
 isinstance
 (
 args
-(
 str
-)
 )
 :
                     

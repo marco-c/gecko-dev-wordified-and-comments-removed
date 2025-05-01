@@ -977,9 +977,7 @@ if
 isinstance
 (
 tags
-(
 str
-)
 )
 :
             

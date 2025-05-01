@@ -2053,9 +2053,7 @@ not
 isinstance
 (
 path
-(
 str
-)
 )
 :
             

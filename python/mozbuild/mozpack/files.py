@@ -982,9 +982,7 @@ if
 isinstance
 (
 dest
-(
 str
-)
 )
 :
             
@@ -1828,9 +1826,7 @@ not
 isinstance
 (
 dest
-(
 str
-)
 )
 :
             
@@ -1859,9 +1855,7 @@ assert
 isinstance
 (
 dest
-(
 str
-)
 )
         
 if
@@ -2075,9 +2069,7 @@ assert
 isinstance
 (
 dest
-(
 str
-)
 )
         
 if
@@ -2445,9 +2437,7 @@ assert
 isinstance
 (
 dest
-(
 str
-)
 )
         
 if
@@ -2790,9 +2780,7 @@ if
 isinstance
 (
 dest
-(
 str
-)
 )
 :
             
@@ -3088,9 +3076,7 @@ if
 isinstance
 (
 dest
-(
 str
-)
 )
 :
             

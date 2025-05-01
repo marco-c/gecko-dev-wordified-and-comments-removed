@@ -3576,9 +3576,7 @@ all
 isinstance
 (
 v
-(
 str
-)
 )
 for
 v

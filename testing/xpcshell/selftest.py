@@ -2891,9 +2891,7 @@ if
 isinstance
 (
 t
-(
 str
-)
 )
 else
 t
