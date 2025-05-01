@@ -354,6 +354,17 @@ pw_impl_client
 client
 )
 ;
+struct
+pw_mempool
+*
+pw_impl_client_get_mempool
+(
+struct
+pw_impl_client
+*
+client
+)
+;
 void
 pw_impl_client_add_listener
 (

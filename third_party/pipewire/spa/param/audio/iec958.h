@@ -59,12 +59,14 @@ SPA_AUDIO_INFO_IEC958_INIT
 .
 )
 (
+(
 struct
 spa_audio_info_iec958
 )
 {
 __VA_ARGS__
 }
+)
 #
 ifdef
 __cplusplus

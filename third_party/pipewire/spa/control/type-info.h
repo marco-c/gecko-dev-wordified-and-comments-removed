@@ -33,8 +33,6 @@ spa
 utils
 /
 type
--
-info
 .
 h
 >
@@ -105,6 +103,15 @@ SPA_TYPE_Int
 SPA_TYPE_INFO_CONTROL_BASE
 "
 OSC
+"
+NULL
+}
+{
+SPA_CONTROL_UMP
+SPA_TYPE_Int
+SPA_TYPE_INFO_CONTROL_BASE
+"
+UMP
 "
 NULL
 }

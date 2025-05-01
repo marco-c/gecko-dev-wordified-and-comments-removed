@@ -236,6 +236,15 @@ pw_impl_module
 module
 )
 ;
+void
+pw_impl_module_schedule_destroy
+(
+struct
+pw_impl_module
+*
+module
+)
+;
 #
 ifdef
 __cplusplus

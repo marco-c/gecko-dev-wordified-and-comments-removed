@@ -95,12 +95,14 @@ SPA_AUDIO_INFO_DSD_INIT
 .
 )
 (
+(
 struct
 spa_audio_info_dsd
 )
 {
 __VA_ARGS__
 }
+)
 #
 ifdef
 __cplusplus

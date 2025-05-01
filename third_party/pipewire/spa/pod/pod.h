@@ -85,6 +85,9 @@ SPA_POD_SIZE
 pod
 )
 (
+(
+uint64_t
+)
 sizeof
 (
 struct
@@ -212,7 +215,9 @@ pod
 type
 *
 )
+(
 pod
+)
 )
 -
 >

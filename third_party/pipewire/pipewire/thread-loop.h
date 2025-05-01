@@ -204,6 +204,7 @@ struct
 pw_thread_loop
 *
 loop
+const
 struct
 timespec
 *

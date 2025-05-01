@@ -22,8 +22,6 @@ spa
 utils
 /
 type
--
-info
 .
 h
 >
@@ -170,6 +168,15 @@ SPA_TYPE_Int
 SPA_TYPE_INFO_IO_BASE
 "
 Memory
+"
+NULL
+}
+{
+SPA_IO_AsyncBuffers
+SPA_TYPE_Int
+SPA_TYPE_INFO_IO_BASE
+"
+AsyncBuffers
 "
 NULL
 }

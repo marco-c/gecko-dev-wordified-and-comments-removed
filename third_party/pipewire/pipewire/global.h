@@ -116,6 +116,8 @@ char
 type
 uint32_t
 version
+uint32_t
+permission_mask
 struct
 pw_properties
 *

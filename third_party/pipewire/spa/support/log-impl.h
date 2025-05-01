@@ -56,6 +56,7 @@ spa_log_impl_logtv
 void
 *
 object
+SPA_UNUSED
 enum
 spa_log_level
 level
@@ -428,10 +429,12 @@ spa_log_impl_topic_init
 void
 *
 object
+SPA_UNUSED
 struct
 spa_log_topic
 *
 topic
+SPA_UNUSED
 )
 {
 }
@@ -473,11 +476,15 @@ SPA_VERSION_LOG
 SPA_CALLBACKS_INIT
 (
 &
+(
 name
+)
 .
 methods
 &
+(
 name
+)
 )
 }
 \
@@ -494,6 +501,8 @@ spa_log_impl_logv
 spa_log_impl_logt
 \
 spa_log_impl_logtv
+\
+spa_log_impl_topic_init
 \
 }
 }
