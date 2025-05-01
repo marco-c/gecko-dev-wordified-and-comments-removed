@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+prelude
+:
+:
+*
+;
 f
 !
 {
@@ -34,8 +43,6 @@ __error
 >
 *
 mut
-:
-:
 c_int
 {
 &
@@ -56,8 +63,6 @@ pub
 static
 mut
 errno
-:
-:
 :
 c_int
 ;

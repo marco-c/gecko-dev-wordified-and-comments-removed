@@ -1,16 +1,21 @@
+use
+crate
+:
+:
+prelude
+:
+:
+*
+;
 pub
 type
 pthread_t
 =
-:
-:
 c_ulong
 ;
 pub
 const
 SFD_CLOEXEC
-:
-:
 :
 c_int
 =
@@ -28,8 +33,6 @@ pub
 const
 O_TRUNC
 :
-:
-:
 c_int
 =
 512
@@ -37,8 +40,6 @@ c_int
 pub
 const
 O_CLOEXEC
-:
-:
 :
 c_int
 =
@@ -48,8 +49,6 @@ pub
 const
 EBFONT
 :
-:
-:
 c_int
 =
 59
@@ -57,8 +56,6 @@ c_int
 pub
 const
 ENOSTR
-:
-:
 :
 c_int
 =
@@ -68,8 +65,6 @@ pub
 const
 ENODATA
 :
-:
-:
 c_int
 =
 61
@@ -77,8 +72,6 @@ c_int
 pub
 const
 ETIME
-:
-:
 :
 c_int
 =
@@ -88,8 +81,6 @@ pub
 const
 ENOSR
 :
-:
-:
 c_int
 =
 63
@@ -97,8 +88,6 @@ c_int
 pub
 const
 ENONET
-:
-:
 :
 c_int
 =
@@ -108,8 +97,6 @@ pub
 const
 ENOPKG
 :
-:
-:
 c_int
 =
 65
@@ -117,8 +104,6 @@ c_int
 pub
 const
 EREMOTE
-:
-:
 :
 c_int
 =
@@ -128,8 +113,6 @@ pub
 const
 ENOLINK
 :
-:
-:
 c_int
 =
 67
@@ -137,8 +120,6 @@ c_int
 pub
 const
 EADV
-:
-:
 :
 c_int
 =
@@ -148,8 +129,6 @@ pub
 const
 ESRMNT
 :
-:
-:
 c_int
 =
 69
@@ -157,8 +136,6 @@ c_int
 pub
 const
 ECOMM
-:
-:
 :
 c_int
 =
@@ -168,8 +145,6 @@ pub
 const
 EPROTO
 :
-:
-:
 c_int
 =
 71
@@ -177,8 +152,6 @@ c_int
 pub
 const
 EDOTDOT
-:
-:
 :
 c_int
 =
@@ -188,9 +161,7 @@ pub
 const
 SA_NODEFER
 :
-:
-:
-c_int
+c_uint
 =
 0x40000000
 ;
@@ -198,9 +169,7 @@ pub
 const
 SA_RESETHAND
 :
-:
-:
-c_int
+c_uint
 =
 0x80000000
 ;
@@ -208,9 +177,7 @@ pub
 const
 SA_RESTART
 :
-:
-:
-c_int
+c_uint
 =
 0x10000000
 ;
@@ -218,17 +185,13 @@ pub
 const
 SA_NOCLDSTOP
 :
-:
-:
-c_int
+c_uint
 =
 0x00000001
 ;
 pub
 const
 EPOLL_CLOEXEC
-:
-:
 :
 c_int
 =
@@ -238,8 +201,6 @@ pub
 const
 EFD_CLOEXEC
 :
-:
-:
 c_int
 =
 0x80000
@@ -247,8 +208,6 @@ c_int
 pub
 const
 TMP_MAX
-:
-:
 :
 c_uint
 =
@@ -258,8 +217,6 @@ pub
 const
 _SC_2_C_VERSION
 :
-:
-:
 c_int
 =
 96
@@ -267,8 +224,6 @@ c_int
 pub
 const
 O_ACCMODE
-:
-:
 :
 c_int
 =
@@ -278,8 +233,6 @@ pub
 const
 O_DIRECT
 :
-:
-:
 c_int
 =
 0x8000
@@ -287,8 +240,6 @@ c_int
 pub
 const
 O_DIRECTORY
-:
-:
 :
 c_int
 =
@@ -298,8 +249,6 @@ pub
 const
 O_NOFOLLOW
 :
-:
-:
 c_int
 =
 0x20000
@@ -307,8 +256,6 @@ c_int
 pub
 const
 O_NOATIME
-:
-:
 :
 c_int
 =
@@ -318,8 +265,6 @@ pub
 const
 O_PATH
 :
-:
-:
 c_int
 =
 0o010000000
@@ -327,8 +272,6 @@ c_int
 pub
 const
 O_APPEND
-:
-:
 :
 c_int
 =
@@ -338,8 +281,6 @@ pub
 const
 O_CREAT
 :
-:
-:
 c_int
 =
 256
@@ -347,8 +288,6 @@ c_int
 pub
 const
 O_EXCL
-:
-:
 :
 c_int
 =
@@ -358,8 +297,6 @@ pub
 const
 O_NOCTTY
 :
-:
-:
 c_int
 =
 2048
@@ -367,8 +304,6 @@ c_int
 pub
 const
 O_NONBLOCK
-:
-:
 :
 c_int
 =
@@ -378,8 +313,6 @@ pub
 const
 O_SYNC
 :
-:
-:
 c_int
 =
 0x10
@@ -387,8 +320,6 @@ c_int
 pub
 const
 O_RSYNC
-:
-:
 :
 c_int
 =
@@ -398,8 +329,6 @@ pub
 const
 O_DSYNC
 :
-:
-:
 c_int
 =
 0x10
@@ -407,8 +336,6 @@ c_int
 pub
 const
 O_FSYNC
-:
-:
 :
 c_int
 =
@@ -418,8 +345,6 @@ pub
 const
 O_ASYNC
 :
-:
-:
 c_int
 =
 0x1000
@@ -427,8 +352,6 @@ c_int
 pub
 const
 O_LARGEFILE
-:
-:
 :
 c_int
 =
@@ -438,8 +361,6 @@ pub
 const
 O_NDELAY
 :
-:
-:
 c_int
 =
 0x80
@@ -447,8 +368,6 @@ c_int
 pub
 const
 SOCK_NONBLOCK
-:
-:
 :
 c_int
 =
@@ -458,8 +377,6 @@ pub
 const
 PIDFD_NONBLOCK
 :
-:
-:
 c_int
 =
 128
@@ -467,8 +384,6 @@ c_int
 pub
 const
 EDEADLK
-:
-:
 :
 c_int
 =
@@ -478,8 +393,6 @@ pub
 const
 ENAMETOOLONG
 :
-:
-:
 c_int
 =
 78
@@ -487,8 +400,6 @@ c_int
 pub
 const
 ENOLCK
-:
-:
 :
 c_int
 =
@@ -498,8 +409,6 @@ pub
 const
 ENOSYS
 :
-:
-:
 c_int
 =
 89
@@ -507,8 +416,6 @@ c_int
 pub
 const
 ENOTEMPTY
-:
-:
 :
 c_int
 =
@@ -518,8 +425,6 @@ pub
 const
 ELOOP
 :
-:
-:
 c_int
 =
 90
@@ -527,8 +432,6 @@ c_int
 pub
 const
 ENOMSG
-:
-:
 :
 c_int
 =
@@ -538,8 +441,6 @@ pub
 const
 EIDRM
 :
-:
-:
 c_int
 =
 36
@@ -547,8 +448,6 @@ c_int
 pub
 const
 ECHRNG
-:
-:
 :
 c_int
 =
@@ -558,8 +457,6 @@ pub
 const
 EL2NSYNC
 :
-:
-:
 c_int
 =
 38
@@ -567,8 +464,6 @@ c_int
 pub
 const
 EL3HLT
-:
-:
 :
 c_int
 =
@@ -578,8 +473,6 @@ pub
 const
 EL3RST
 :
-:
-:
 c_int
 =
 40
@@ -587,8 +480,6 @@ c_int
 pub
 const
 ELNRNG
-:
-:
 :
 c_int
 =
@@ -598,8 +489,6 @@ pub
 const
 EUNATCH
 :
-:
-:
 c_int
 =
 42
@@ -607,8 +496,6 @@ c_int
 pub
 const
 ENOCSI
-:
-:
 :
 c_int
 =
@@ -618,8 +505,6 @@ pub
 const
 EL2HLT
 :
-:
-:
 c_int
 =
 44
@@ -627,8 +512,6 @@ c_int
 pub
 const
 EBADE
-:
-:
 :
 c_int
 =
@@ -638,8 +521,6 @@ pub
 const
 EBADR
 :
-:
-:
 c_int
 =
 51
@@ -647,8 +528,6 @@ c_int
 pub
 const
 EXFULL
-:
-:
 :
 c_int
 =
@@ -658,8 +537,6 @@ pub
 const
 FFDLY
 :
-:
-:
 c_int
 =
 0o0100000
@@ -667,8 +544,6 @@ c_int
 pub
 const
 ENOANO
-:
-:
 :
 c_int
 =
@@ -678,8 +553,6 @@ pub
 const
 EBADRQC
 :
-:
-:
 c_int
 =
 54
@@ -687,8 +560,6 @@ c_int
 pub
 const
 EBADSLT
-:
-:
 :
 c_int
 =
@@ -698,8 +569,6 @@ pub
 const
 EMULTIHOP
 :
-:
-:
 c_int
 =
 74
@@ -707,8 +576,6 @@ c_int
 pub
 const
 EOVERFLOW
-:
-:
 :
 c_int
 =
@@ -718,8 +585,6 @@ pub
 const
 ENOTUNIQ
 :
-:
-:
 c_int
 =
 80
@@ -727,8 +592,6 @@ c_int
 pub
 const
 EBADFD
-:
-:
 :
 c_int
 =
@@ -738,8 +601,6 @@ pub
 const
 EBADMSG
 :
-:
-:
 c_int
 =
 77
@@ -747,8 +608,6 @@ c_int
 pub
 const
 EREMCHG
-:
-:
 :
 c_int
 =
@@ -758,8 +617,6 @@ pub
 const
 ELIBACC
 :
-:
-:
 c_int
 =
 83
@@ -767,8 +624,6 @@ c_int
 pub
 const
 ELIBBAD
-:
-:
 :
 c_int
 =
@@ -778,8 +633,6 @@ pub
 const
 ELIBSCN
 :
-:
-:
 c_int
 =
 85
@@ -787,8 +640,6 @@ c_int
 pub
 const
 ELIBMAX
-:
-:
 :
 c_int
 =
@@ -798,8 +649,6 @@ pub
 const
 ELIBEXEC
 :
-:
-:
 c_int
 =
 87
@@ -807,8 +656,6 @@ c_int
 pub
 const
 EILSEQ
-:
-:
 :
 c_int
 =
@@ -818,8 +665,6 @@ pub
 const
 ERESTART
 :
-:
-:
 c_int
 =
 91
@@ -827,8 +672,6 @@ c_int
 pub
 const
 ESTRPIPE
-:
-:
 :
 c_int
 =
@@ -838,8 +681,6 @@ pub
 const
 EUSERS
 :
-:
-:
 c_int
 =
 94
@@ -847,8 +688,6 @@ c_int
 pub
 const
 ENOTSOCK
-:
-:
 :
 c_int
 =
@@ -858,8 +697,6 @@ pub
 const
 EDESTADDRREQ
 :
-:
-:
 c_int
 =
 96
@@ -867,8 +704,6 @@ c_int
 pub
 const
 EMSGSIZE
-:
-:
 :
 c_int
 =
@@ -878,8 +713,6 @@ pub
 const
 EPROTOTYPE
 :
-:
-:
 c_int
 =
 98
@@ -887,8 +720,6 @@ c_int
 pub
 const
 ENOPROTOOPT
-:
-:
 :
 c_int
 =
@@ -898,8 +729,6 @@ pub
 const
 EPROTONOSUPPORT
 :
-:
-:
 c_int
 =
 120
@@ -907,8 +736,6 @@ c_int
 pub
 const
 ESOCKTNOSUPPORT
-:
-:
 :
 c_int
 =
@@ -918,8 +745,6 @@ pub
 const
 EOPNOTSUPP
 :
-:
-:
 c_int
 =
 122
@@ -927,8 +752,6 @@ c_int
 pub
 const
 EPFNOSUPPORT
-:
-:
 :
 c_int
 =
@@ -938,8 +761,6 @@ pub
 const
 EAFNOSUPPORT
 :
-:
-:
 c_int
 =
 124
@@ -947,8 +768,6 @@ c_int
 pub
 const
 EADDRINUSE
-:
-:
 :
 c_int
 =
@@ -958,8 +777,6 @@ pub
 const
 EADDRNOTAVAIL
 :
-:
-:
 c_int
 =
 126
@@ -967,8 +784,6 @@ c_int
 pub
 const
 ENETDOWN
-:
-:
 :
 c_int
 =
@@ -978,8 +793,6 @@ pub
 const
 ENETUNREACH
 :
-:
-:
 c_int
 =
 128
@@ -987,8 +800,6 @@ c_int
 pub
 const
 ENETRESET
-:
-:
 :
 c_int
 =
@@ -998,8 +809,6 @@ pub
 const
 ECONNABORTED
 :
-:
-:
 c_int
 =
 130
@@ -1007,8 +816,6 @@ c_int
 pub
 const
 ECONNRESET
-:
-:
 :
 c_int
 =
@@ -1018,8 +825,6 @@ pub
 const
 ENOBUFS
 :
-:
-:
 c_int
 =
 132
@@ -1027,8 +832,6 @@ c_int
 pub
 const
 EISCONN
-:
-:
 :
 c_int
 =
@@ -1038,8 +841,6 @@ pub
 const
 ENOTCONN
 :
-:
-:
 c_int
 =
 134
@@ -1047,8 +848,6 @@ c_int
 pub
 const
 ESHUTDOWN
-:
-:
 :
 c_int
 =
@@ -1058,8 +857,6 @@ pub
 const
 ETOOMANYREFS
 :
-:
-:
 c_int
 =
 144
@@ -1067,8 +864,6 @@ c_int
 pub
 const
 ETIMEDOUT
-:
-:
 :
 c_int
 =
@@ -1078,8 +873,6 @@ pub
 const
 ECONNREFUSED
 :
-:
-:
 c_int
 =
 146
@@ -1087,8 +880,6 @@ c_int
 pub
 const
 EHOSTDOWN
-:
-:
 :
 c_int
 =
@@ -1098,8 +889,6 @@ pub
 const
 EHOSTUNREACH
 :
-:
-:
 c_int
 =
 148
@@ -1107,8 +896,6 @@ c_int
 pub
 const
 EALREADY
-:
-:
 :
 c_int
 =
@@ -1118,8 +905,6 @@ pub
 const
 EINPROGRESS
 :
-:
-:
 c_int
 =
 150
@@ -1127,8 +912,6 @@ c_int
 pub
 const
 ESTALE
-:
-:
 :
 c_int
 =
@@ -1138,8 +921,6 @@ pub
 const
 EUCLEAN
 :
-:
-:
 c_int
 =
 135
@@ -1147,8 +928,6 @@ c_int
 pub
 const
 ENOTNAM
-:
-:
 :
 c_int
 =
@@ -1158,8 +937,6 @@ pub
 const
 ENAVAIL
 :
-:
-:
 c_int
 =
 138
@@ -1167,8 +944,6 @@ c_int
 pub
 const
 EISNAM
-:
-:
 :
 c_int
 =
@@ -1178,8 +953,6 @@ pub
 const
 EREMOTEIO
 :
-:
-:
 c_int
 =
 140
@@ -1187,8 +960,6 @@ c_int
 pub
 const
 EDQUOT
-:
-:
 :
 c_int
 =
@@ -1198,8 +969,6 @@ pub
 const
 ENOMEDIUM
 :
-:
-:
 c_int
 =
 159
@@ -1207,8 +976,6 @@ c_int
 pub
 const
 EMEDIUMTYPE
-:
-:
 :
 c_int
 =
@@ -1218,8 +985,6 @@ pub
 const
 ECANCELED
 :
-:
-:
 c_int
 =
 158
@@ -1227,8 +992,6 @@ c_int
 pub
 const
 ENOKEY
-:
-:
 :
 c_int
 =
@@ -1238,8 +1001,6 @@ pub
 const
 EKEYEXPIRED
 :
-:
-:
 c_int
 =
 162
@@ -1247,8 +1008,6 @@ c_int
 pub
 const
 EKEYREVOKED
-:
-:
 :
 c_int
 =
@@ -1258,8 +1017,6 @@ pub
 const
 EKEYREJECTED
 :
-:
-:
 c_int
 =
 164
@@ -1267,8 +1024,6 @@ c_int
 pub
 const
 EOWNERDEAD
-:
-:
 :
 c_int
 =
@@ -1278,8 +1033,6 @@ pub
 const
 ENOTRECOVERABLE
 :
-:
-:
 c_int
 =
 166
@@ -1287,8 +1040,6 @@ c_int
 pub
 const
 ERFKILL
-:
-:
 :
 c_int
 =
@@ -1298,8 +1049,6 @@ pub
 const
 MAP_NORESERVE
 :
-:
-:
 c_int
 =
 0x400
@@ -1307,8 +1056,6 @@ c_int
 pub
 const
 MAP_ANON
-:
-:
 :
 c_int
 =
@@ -1318,8 +1065,6 @@ pub
 const
 MAP_ANONYMOUS
 :
-:
-:
 c_int
 =
 0x800
@@ -1327,8 +1072,6 @@ c_int
 pub
 const
 MAP_GROWSDOWN
-:
-:
 :
 c_int
 =
@@ -1338,8 +1081,6 @@ pub
 const
 MAP_DENYWRITE
 :
-:
-:
 c_int
 =
 0x2000
@@ -1347,8 +1088,6 @@ c_int
 pub
 const
 MAP_EXECUTABLE
-:
-:
 :
 c_int
 =
@@ -1358,8 +1097,6 @@ pub
 const
 MAP_LOCKED
 :
-:
-:
 c_int
 =
 0x8000
@@ -1367,8 +1104,6 @@ c_int
 pub
 const
 MAP_POPULATE
-:
-:
 :
 c_int
 =
@@ -1378,8 +1113,6 @@ pub
 const
 MAP_NONBLOCK
 :
-:
-:
 c_int
 =
 0x20000
@@ -1387,8 +1120,6 @@ c_int
 pub
 const
 MAP_STACK
-:
-:
 :
 c_int
 =
@@ -1398,6 +1129,7 @@ pub
 const
 NLDLY
 :
+crate
 :
 :
 tcflag_t
@@ -1408,8 +1140,6 @@ pub
 const
 SOCK_STREAM
 :
-:
-:
 c_int
 =
 2
@@ -1417,8 +1147,6 @@ c_int
 pub
 const
 SOCK_DGRAM
-:
-:
 :
 c_int
 =
@@ -1428,8 +1156,6 @@ pub
 const
 SOCK_SEQPACKET
 :
-:
-:
 c_int
 =
 5
@@ -1437,8 +1163,6 @@ c_int
 pub
 const
 SA_ONSTACK
-:
-:
 :
 c_uint
 =
@@ -1448,8 +1172,6 @@ pub
 const
 SA_SIGINFO
 :
-:
-:
 c_uint
 =
 0x00000008
@@ -1457,8 +1179,6 @@ c_uint
 pub
 const
 SA_NOCLDWAIT
-:
-:
 :
 c_int
 =
@@ -1468,8 +1188,6 @@ pub
 const
 SIGCHLD
 :
-:
-:
 c_int
 =
 18
@@ -1477,8 +1195,6 @@ c_int
 pub
 const
 SIGBUS
-:
-:
 :
 c_int
 =
@@ -1488,8 +1204,6 @@ pub
 const
 SIGTTIN
 :
-:
-:
 c_int
 =
 26
@@ -1497,8 +1211,6 @@ c_int
 pub
 const
 SIGTTOU
-:
-:
 :
 c_int
 =
@@ -1508,8 +1220,6 @@ pub
 const
 SIGXCPU
 :
-:
-:
 c_int
 =
 30
@@ -1517,8 +1227,6 @@ c_int
 pub
 const
 SIGXFSZ
-:
-:
 :
 c_int
 =
@@ -1528,8 +1236,6 @@ pub
 const
 SIGVTALRM
 :
-:
-:
 c_int
 =
 28
@@ -1537,8 +1243,6 @@ c_int
 pub
 const
 SIGPROF
-:
-:
 :
 c_int
 =
@@ -1548,8 +1252,6 @@ pub
 const
 SIGWINCH
 :
-:
-:
 c_int
 =
 20
@@ -1557,8 +1259,6 @@ c_int
 pub
 const
 SIGUSR1
-:
-:
 :
 c_int
 =
@@ -1568,8 +1268,6 @@ pub
 const
 SIGUSR2
 :
-:
-:
 c_int
 =
 17
@@ -1577,8 +1275,6 @@ c_int
 pub
 const
 SIGCONT
-:
-:
 :
 c_int
 =
@@ -1588,8 +1284,6 @@ pub
 const
 SIGSTOP
 :
-:
-:
 c_int
 =
 23
@@ -1597,8 +1291,6 @@ c_int
 pub
 const
 SIGTSTP
-:
-:
 :
 c_int
 =
@@ -1608,8 +1300,6 @@ pub
 const
 SIGURG
 :
-:
-:
 c_int
 =
 21
@@ -1617,8 +1307,6 @@ c_int
 pub
 const
 SIGIO
-:
-:
 :
 c_int
 =
@@ -1628,8 +1316,6 @@ pub
 const
 SIGSYS
 :
-:
-:
 c_int
 =
 12
@@ -1637,8 +1323,6 @@ c_int
 pub
 const
 SIGPWR
-:
-:
 :
 c_int
 =
@@ -1648,8 +1332,6 @@ pub
 const
 SIG_SETMASK
 :
-:
-:
 c_int
 =
 3
@@ -1657,8 +1339,6 @@ c_int
 pub
 const
 SIG_BLOCK
-:
-:
 :
 c_int
 =
@@ -1668,8 +1348,6 @@ pub
 const
 SIG_UNBLOCK
 :
-:
-:
 c_int
 =
 0x2
@@ -1677,8 +1355,6 @@ c_int
 pub
 const
 POLLWRNORM
-:
-:
 :
 c_short
 =
@@ -1688,8 +1364,6 @@ pub
 const
 POLLWRBAND
 :
-:
-:
 c_short
 =
 0x100
@@ -1697,8 +1371,6 @@ c_short
 pub
 const
 PTHREAD_STACK_MIN
-:
-:
 :
 size_t
 =
@@ -1740,6 +1412,7 @@ pub
 const
 IEXTEN
 :
+crate
 :
 :
 tcflag_t
@@ -1750,6 +1423,7 @@ pub
 const
 TOSTOP
 :
+crate
 :
 :
 tcflag_t
@@ -1760,6 +1434,7 @@ pub
 const
 FLUSHO
 :
+crate
 :
 :
 tcflag_t
@@ -1770,8 +1445,6 @@ pub
 const
 TCSANOW
 :
-:
-:
 c_int
 =
 0x540e
@@ -1779,8 +1452,6 @@ c_int
 pub
 const
 TCSADRAIN
-:
-:
 :
 c_int
 =
@@ -1790,8 +1461,6 @@ pub
 const
 TCSAFLUSH
 :
-:
-:
 c_int
 =
 0x5410
@@ -1799,8 +1468,6 @@ c_int
 pub
 const
 CPU_SETSIZE
-:
-:
 :
 c_int
 =
@@ -1810,8 +1477,6 @@ pub
 const
 EFD_NONBLOCK
 :
-:
-:
 c_int
 =
 0x80
@@ -1819,8 +1484,6 @@ c_int
 pub
 const
 F_GETLK
-:
-:
 :
 c_int
 =
@@ -1830,8 +1493,6 @@ pub
 const
 F_SETLK
 :
-:
-:
 c_int
 =
 6
@@ -1839,8 +1500,6 @@ c_int
 pub
 const
 F_SETLKW
-:
-:
 :
 c_int
 =
@@ -1850,8 +1509,6 @@ pub
 const
 SFD_NONBLOCK
 :
-:
-:
 c_int
 =
 0x80
@@ -1859,8 +1516,6 @@ c_int
 pub
 const
 RTLD_GLOBAL
-:
-:
 :
 c_int
 =
@@ -1870,8 +1525,6 @@ pub
 const
 SIGSTKSZ
 :
-:
-:
 size_t
 =
 8192
@@ -1880,6 +1533,7 @@ pub
 const
 CBAUD
 :
+crate
 :
 :
 tcflag_t
@@ -1890,6 +1544,7 @@ pub
 const
 CBAUDEX
 :
+crate
 :
 :
 tcflag_t
@@ -1900,6 +1555,7 @@ pub
 const
 CIBAUD
 :
+crate
 :
 :
 tcflag_t
@@ -1910,6 +1566,7 @@ pub
 const
 TAB1
 :
+crate
 :
 :
 tcflag_t
@@ -1920,6 +1577,7 @@ pub
 const
 TAB2
 :
+crate
 :
 :
 tcflag_t
@@ -1930,6 +1588,7 @@ pub
 const
 TAB3
 :
+crate
 :
 :
 tcflag_t
@@ -1940,6 +1599,7 @@ pub
 const
 TABDLY
 :
+crate
 :
 :
 tcflag_t
@@ -1950,6 +1610,7 @@ pub
 const
 CR1
 :
+crate
 :
 :
 tcflag_t
@@ -1960,6 +1621,7 @@ pub
 const
 CR2
 :
+crate
 :
 :
 tcflag_t
@@ -1970,6 +1632,7 @@ pub
 const
 CR3
 :
+crate
 :
 :
 tcflag_t
@@ -1980,6 +1643,7 @@ pub
 const
 FF1
 :
+crate
 :
 :
 tcflag_t
@@ -1990,6 +1654,7 @@ pub
 const
 BS1
 :
+crate
 :
 :
 tcflag_t
@@ -2000,6 +1665,7 @@ pub
 const
 BSDLY
 :
+crate
 :
 :
 tcflag_t
@@ -2010,6 +1676,7 @@ pub
 const
 VT1
 :
+crate
 :
 :
 tcflag_t
@@ -2028,6 +1695,7 @@ pub
 const
 XTABS
 :
+crate
 :
 :
 tcflag_t
@@ -2061,8 +1729,6 @@ usize
 pub
 const
 VTDLY
-:
-:
 :
 c_int
 =
@@ -2104,6 +1770,7 @@ pub
 const
 IXON
 :
+crate
 :
 :
 tcflag_t
@@ -2114,6 +1781,7 @@ pub
 const
 IXOFF
 :
+crate
 :
 :
 tcflag_t
@@ -2124,6 +1792,7 @@ pub
 const
 OLCUC
 :
+crate
 :
 :
 tcflag_t
@@ -2134,6 +1803,7 @@ pub
 const
 ONLCR
 :
+crate
 :
 :
 tcflag_t
@@ -2144,6 +1814,7 @@ pub
 const
 CSIZE
 :
+crate
 :
 :
 tcflag_t
@@ -2154,6 +1825,7 @@ pub
 const
 CS6
 :
+crate
 :
 :
 tcflag_t
@@ -2164,6 +1836,7 @@ pub
 const
 CS7
 :
+crate
 :
 :
 tcflag_t
@@ -2174,6 +1847,7 @@ pub
 const
 CS8
 :
+crate
 :
 :
 tcflag_t
@@ -2184,6 +1858,7 @@ pub
 const
 CSTOPB
 :
+crate
 :
 :
 tcflag_t
@@ -2194,8 +1869,6 @@ pub
 const
 CRDLY
 :
-:
-:
 c_int
 =
 0o0003000
@@ -2204,6 +1877,7 @@ pub
 const
 CREAD
 :
+crate
 :
 :
 tcflag_t
@@ -2214,6 +1888,7 @@ pub
 const
 PARENB
 :
+crate
 :
 :
 tcflag_t
@@ -2224,6 +1899,7 @@ pub
 const
 PARODD
 :
+crate
 :
 :
 tcflag_t
@@ -2234,6 +1910,7 @@ pub
 const
 HUPCL
 :
+crate
 :
 :
 tcflag_t
@@ -2244,6 +1921,7 @@ pub
 const
 CLOCAL
 :
+crate
 :
 :
 tcflag_t
@@ -2254,6 +1932,7 @@ pub
 const
 ECHOKE
 :
+crate
 :
 :
 tcflag_t
@@ -2264,6 +1943,7 @@ pub
 const
 ECHOE
 :
+crate
 :
 :
 tcflag_t
@@ -2274,6 +1954,7 @@ pub
 const
 ECHOK
 :
+crate
 :
 :
 tcflag_t
@@ -2284,6 +1965,7 @@ pub
 const
 ECHONL
 :
+crate
 :
 :
 tcflag_t
@@ -2294,6 +1976,7 @@ pub
 const
 ECHOPRT
 :
+crate
 :
 :
 tcflag_t
@@ -2304,6 +1987,7 @@ pub
 const
 ECHOCTL
 :
+crate
 :
 :
 tcflag_t
@@ -2314,6 +1998,7 @@ pub
 const
 ISIG
 :
+crate
 :
 :
 tcflag_t
@@ -2324,6 +2009,7 @@ pub
 const
 ICANON
 :
+crate
 :
 :
 tcflag_t
@@ -2334,6 +2020,7 @@ pub
 const
 PENDIN
 :
+crate
 :
 :
 tcflag_t
@@ -2344,6 +2031,7 @@ pub
 const
 NOFLSH
 :
+crate
 :
 :
 tcflag_t
@@ -2354,8 +2042,6 @@ pub
 const
 MAP_HUGETLB
 :
-:
-:
 c_int
 =
 0x80000
@@ -2364,6 +2050,7 @@ pub
 const
 B0
 :
+crate
 :
 :
 speed_t
@@ -2374,6 +2061,7 @@ pub
 const
 B50
 :
+crate
 :
 :
 speed_t
@@ -2384,6 +2072,7 @@ pub
 const
 B75
 :
+crate
 :
 :
 speed_t
@@ -2394,6 +2083,7 @@ pub
 const
 B110
 :
+crate
 :
 :
 speed_t
@@ -2404,6 +2094,7 @@ pub
 const
 B134
 :
+crate
 :
 :
 speed_t
@@ -2414,6 +2105,7 @@ pub
 const
 B150
 :
+crate
 :
 :
 speed_t
@@ -2424,6 +2116,7 @@ pub
 const
 B200
 :
+crate
 :
 :
 speed_t
@@ -2434,6 +2127,7 @@ pub
 const
 B300
 :
+crate
 :
 :
 speed_t
@@ -2444,6 +2138,7 @@ pub
 const
 B600
 :
+crate
 :
 :
 speed_t
@@ -2454,6 +2149,7 @@ pub
 const
 B1200
 :
+crate
 :
 :
 speed_t
@@ -2464,6 +2160,7 @@ pub
 const
 B1800
 :
+crate
 :
 :
 speed_t
@@ -2474,6 +2171,7 @@ pub
 const
 B2400
 :
+crate
 :
 :
 speed_t
@@ -2484,6 +2182,7 @@ pub
 const
 B4800
 :
+crate
 :
 :
 speed_t
@@ -2494,6 +2193,7 @@ pub
 const
 B9600
 :
+crate
 :
 :
 speed_t
@@ -2504,6 +2204,7 @@ pub
 const
 B19200
 :
+crate
 :
 :
 speed_t
@@ -2514,6 +2215,7 @@ pub
 const
 B38400
 :
+crate
 :
 :
 speed_t
@@ -2524,6 +2226,7 @@ pub
 const
 B57600
 :
+crate
 :
 :
 speed_t
@@ -2534,6 +2237,7 @@ pub
 const
 B115200
 :
+crate
 :
 :
 speed_t
@@ -2544,6 +2248,7 @@ pub
 const
 B230400
 :
+crate
 :
 :
 speed_t
@@ -2554,6 +2259,7 @@ pub
 const
 B460800
 :
+crate
 :
 :
 speed_t
@@ -2564,6 +2270,7 @@ pub
 const
 B500000
 :
+crate
 :
 :
 speed_t
@@ -2574,6 +2281,7 @@ pub
 const
 B576000
 :
+crate
 :
 :
 speed_t
@@ -2584,6 +2292,7 @@ pub
 const
 B921600
 :
+crate
 :
 :
 speed_t
@@ -2594,6 +2303,7 @@ pub
 const
 B1000000
 :
+crate
 :
 :
 speed_t
@@ -2604,6 +2314,7 @@ pub
 const
 B1152000
 :
+crate
 :
 :
 speed_t
@@ -2614,6 +2325,7 @@ pub
 const
 B1500000
 :
+crate
 :
 :
 speed_t
@@ -2624,6 +2336,7 @@ pub
 const
 B2000000
 :
+crate
 :
 :
 speed_t
@@ -2634,6 +2347,7 @@ pub
 const
 B2500000
 :
+crate
 :
 :
 speed_t
@@ -2644,6 +2358,7 @@ pub
 const
 B3000000
 :
+crate
 :
 :
 speed_t
@@ -2654,6 +2369,7 @@ pub
 const
 B3500000
 :
+crate
 :
 :
 speed_t
@@ -2664,6 +2380,7 @@ pub
 const
 B4000000
 :
+crate
 :
 :
 speed_t

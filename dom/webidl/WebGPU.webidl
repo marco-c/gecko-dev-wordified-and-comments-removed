@@ -4981,6 +4981,9 @@ required
 GPUTextureView
 view
 ;
+GPUIntegerCoordinate
+depthSlice
+;
 GPUTextureView
 resolveTarget
 ;

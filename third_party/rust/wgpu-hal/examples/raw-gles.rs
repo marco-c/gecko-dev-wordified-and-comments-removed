@@ -1863,6 +1863,9 @@ TextureUses
 :
 COLOR_TARGET
 }
+depth_slice
+:
+None
 resolve_target
 :
 None
@@ -1920,6 +1923,10 @@ begin_render_pass
 (
 &
 rp_desc
+)
+.
+unwrap
+(
 )
 ;
 encoder

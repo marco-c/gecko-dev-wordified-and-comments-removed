@@ -7,9 +7,6 @@ raw_fair_mutex
 :
 RawFairMutex
 ;
-use
-lock_api
-;
 pub
 type
 FairMutex

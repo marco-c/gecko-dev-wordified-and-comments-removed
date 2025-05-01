@@ -6,7 +6,7 @@ cfg
 feature
 =
 "
-kv_unstable
+kv
 "
 )
 ]
@@ -18,14 +18,6 @@ feature
 test
 )
 ]
-extern
-crate
-log
-;
-extern
-crate
-test
-;
 use
 log
 :
@@ -66,6 +58,7 @@ from
 1u8
 )
 )
+;
 }
 #
 [
@@ -99,6 +92,7 @@ from_debug
 1u8
 )
 )
+;
 }
 #
 [
@@ -135,6 +129,7 @@ string
 "
 )
 )
+;
 }
 #
 [
@@ -178,4 +173,5 @@ from_debug
 A
 )
 )
+;
 }

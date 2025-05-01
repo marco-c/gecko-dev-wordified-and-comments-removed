@@ -50,12 +50,6 @@ YES
 }
 ;
 use
-std
-:
-:
-mem
-;
-use
 winit
 :
 :
@@ -274,6 +268,7 @@ found
 )
 ;
 let
+mut
 layer
 =
 MetalLayer
@@ -365,14 +360,18 @@ view
 .
 setLayer
 (
-mem
+<
+*
+mut
+_
+>
 :
 :
-transmute
+cast
 (
 layer
 .
-as_ref
+as_mut
 (
 )
 )
@@ -718,7 +717,6 @@ new
 ;
 prepare_render_pass_descriptor
 (
-&
 render_pass_descriptor
 drawable
 .
@@ -743,7 +741,6 @@ command_buffer
 .
 new_render_command_encoder
 (
-&
 render_pass_descriptor
 )
 ;
@@ -798,7 +795,6 @@ command_buffer
 .
 present_drawable
 (
-&
 drawable
 )
 ;

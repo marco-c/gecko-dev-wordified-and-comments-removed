@@ -66,10 +66,13 @@ use
 metal
 :
 :
+{
 foreign_types
 :
 :
 ForeignType
+MTLTextureType
+}
 ;
 use
 objc
@@ -1234,9 +1237,6 @@ format
 :
 swapchain_format
 raw_type
-:
-metal
-:
 :
 MTLTextureType
 :

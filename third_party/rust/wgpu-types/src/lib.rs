@@ -171,6 +171,9 @@ pub
 mod
 math
 ;
+mod
+transfers
+;
 pub
 use
 counters
@@ -188,6 +191,13 @@ features
 pub
 use
 instance
+:
+:
+*
+;
+pub
+use
+transfers
 :
 :
 *
@@ -2308,6 +2318,11 @@ defaults
 impl
 Limits
 {
+#
+[
+must_use
+]
+pub
 const
 fn
 defaults

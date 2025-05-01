@@ -8,8 +8,6 @@ const
 PROGRAM
 :
 &
-'
-static
 str
 =
 "

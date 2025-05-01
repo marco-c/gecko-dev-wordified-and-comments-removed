@@ -566,13 +566,6 @@ QuerySetDescriptor______nsACString
 "
 WGPUQuerySetDescriptor
 "
-"
-RenderPassColorAttachment_TextureViewId
-"
-=
-"
-WGPURenderPassColorAttachment
-"
 [
 parse
 ]

@@ -1739,11 +1739,8 @@ move
 |
 {
 let
-&
 (
-ref
 lock
-ref
 cond
 )
 =
@@ -1826,11 +1823,8 @@ tx
 )
 ;
 let
-&
 (
-ref
 lock
-ref
 cond
 )
 =
@@ -2175,11 +2169,8 @@ move
 |
 {
 let
-&
 (
-ref
 lock
-ref
 cond
 )
 =
@@ -2262,11 +2253,8 @@ tx
 )
 ;
 let
-&
 (
-ref
 lock
-ref
 cond
 )
 =
@@ -3530,7 +3518,6 @@ _guard
 PanicGuard
 (
 &
-*
 c
 )
 ;
@@ -4790,7 +4777,6 @@ lock
 wait
 (
 &
-*
 empty_condition
 &
 mut
@@ -4885,7 +4871,6 @@ notify
 (
 notify_style
 &
-*
 full_condition
 should_notify
 )
@@ -4996,7 +4981,6 @@ lock
 wait
 (
 &
-*
 full_condition
 &
 mut
@@ -5055,7 +5039,6 @@ notify
 (
 notify_style
 &
-*
 empty_condition
 should_notify
 )

@@ -6,15 +6,10 @@ xtask
 "
 run
 -
+p
+naga
 -
-manifest
--
-path
 xtask
-/
-Cargo
-.
-toml
 -
 -
 "

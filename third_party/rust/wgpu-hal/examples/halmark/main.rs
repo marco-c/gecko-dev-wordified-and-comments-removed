@@ -4454,6 +4454,9 @@ TextureUses
 :
 COLOR_TARGET
 }
+depth_slice
+:
+None
 resolve_target
 :
 None
@@ -4521,6 +4524,10 @@ begin_render_pass
 (
 &
 pass_desc
+)
+.
+unwrap
+(
 )
 ;
 ctx

@@ -1,12 +1,4 @@
 #
-!
-[
-cfg
-(
-libc_const_extern_fn
-)
-]
-#
 [
 cfg
 (

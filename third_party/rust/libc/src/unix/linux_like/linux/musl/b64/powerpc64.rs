@@ -1,8 +1,17 @@
-pub
-type
-c_char
-=
-u8
+use
+crate
+:
+:
+off_t
+;
+use
+crate
+:
+:
+prelude
+:
+:
+*
 ;
 pub
 type
@@ -14,16 +23,12 @@ pub
 type
 __u64
 =
-:
-:
 c_ulong
 ;
 pub
 type
 __s64
 =
-:
-:
 c_long
 ;
 pub
@@ -36,8 +41,6 @@ pub
 type
 blksize_t
 =
-:
-:
 c_long
 ;
 s
@@ -50,109 +53,109 @@ stat
 pub
 st_dev
 :
+crate
 :
 :
 dev_t
 pub
 st_ino
 :
+crate
 :
 :
 ino_t
 pub
 st_nlink
 :
+crate
 :
 :
 nlink_t
 pub
 st_mode
 :
+crate
 :
 :
 mode_t
 pub
 st_uid
 :
+crate
 :
 :
 uid_t
 pub
 st_gid
 :
+crate
 :
 :
 gid_t
 __pad0
 :
-:
-:
 c_int
 pub
 st_rdev
 :
+crate
 :
 :
 dev_t
 pub
 st_size
 :
-:
-:
 off_t
 pub
 st_blksize
 :
+crate
 :
 :
 blksize_t
 pub
 st_blocks
 :
+crate
 :
 :
 blkcnt_t
 pub
 st_atime
 :
+crate
 :
 :
 time_t
 pub
 st_atime_nsec
 :
-:
-:
 c_long
 pub
 st_mtime
 :
+crate
 :
 :
 time_t
 pub
 st_mtime_nsec
 :
-:
-:
 c_long
 pub
 st_ctime
 :
+crate
 :
 :
 time_t
 pub
 st_ctime_nsec
 :
-:
-:
 c_long
 __unused
 :
 [
-:
-:
 c_long
 ;
 3
@@ -165,109 +168,109 @@ stat64
 pub
 st_dev
 :
+crate
 :
 :
 dev_t
 pub
 st_ino
 :
+crate
 :
 :
 ino64_t
 pub
 st_nlink
 :
+crate
 :
 :
 nlink_t
 pub
 st_mode
 :
+crate
 :
 :
 mode_t
 pub
 st_uid
 :
+crate
 :
 :
 uid_t
 pub
 st_gid
 :
+crate
 :
 :
 gid_t
 __pad0
 :
-:
-:
 c_int
 pub
 st_rdev
 :
+crate
 :
 :
 dev_t
 pub
 st_size
 :
-:
-:
 off_t
 pub
 st_blksize
 :
+crate
 :
 :
 blksize_t
 pub
 st_blocks
 :
+crate
 :
 :
 blkcnt64_t
 pub
 st_atime
 :
+crate
 :
 :
 time_t
 pub
 st_atime_nsec
 :
-:
-:
 c_long
 pub
 st_mtime
 :
+crate
 :
 :
 time_t
 pub
 st_mtime_nsec
 :
-:
-:
 c_long
 pub
 st_ctime
 :
+crate
 :
 :
 time_t
 pub
 st_ctime_nsec
 :
-:
-:
 c_long
 __reserved
 :
 [
-:
-:
 c_long
 ;
 3
@@ -280,53 +283,53 @@ ipc_perm
 pub
 __ipc_perm_key
 :
+crate
 :
 :
 key_t
 pub
 uid
 :
+crate
 :
 :
 uid_t
 pub
 gid
 :
+crate
 :
 :
 gid_t
 pub
 cuid
 :
+crate
 :
 :
 uid_t
 pub
 cgid
 :
+crate
 :
 :
 gid_t
 pub
 mode
 :
+crate
 :
 :
 mode_t
 pub
 __seq
 :
-:
-:
 c_int
 __unused1
 :
-:
-:
 c_long
 __unused2
-:
-:
 :
 c_long
 }
@@ -334,8 +337,6 @@ c_long
 pub
 const
 MADV_SOFT_OFFLINE
-:
-:
 :
 c_int
 =
@@ -345,8 +346,6 @@ pub
 const
 MAP_32BIT
 :
-:
-:
 c_int
 =
 0x0040
@@ -354,8 +353,6 @@ c_int
 pub
 const
 O_APPEND
-:
-:
 :
 c_int
 =
@@ -365,8 +362,6 @@ pub
 const
 O_DIRECT
 :
-:
-:
 c_int
 =
 0x20000
@@ -374,8 +369,6 @@ c_int
 pub
 const
 O_DIRECTORY
-:
-:
 :
 c_int
 =
@@ -385,8 +378,6 @@ pub
 const
 O_LARGEFILE
 :
-:
-:
 c_int
 =
 0x10000
@@ -394,8 +385,6 @@ c_int
 pub
 const
 O_NOFOLLOW
-:
-:
 :
 c_int
 =
@@ -405,8 +394,6 @@ pub
 const
 O_CREAT
 :
-:
-:
 c_int
 =
 64
@@ -414,8 +401,6 @@ c_int
 pub
 const
 O_EXCL
-:
-:
 :
 c_int
 =
@@ -425,8 +410,6 @@ pub
 const
 O_NOCTTY
 :
-:
-:
 c_int
 =
 256
@@ -434,8 +417,6 @@ c_int
 pub
 const
 O_NONBLOCK
-:
-:
 :
 c_int
 =
@@ -445,8 +426,6 @@ pub
 const
 O_SYNC
 :
-:
-:
 c_int
 =
 1052672
@@ -454,8 +433,6 @@ c_int
 pub
 const
 O_RSYNC
-:
-:
 :
 c_int
 =
@@ -465,8 +442,6 @@ pub
 const
 O_DSYNC
 :
-:
-:
 c_int
 =
 4096
@@ -474,8 +449,6 @@ c_int
 pub
 const
 O_ASYNC
-:
-:
 :
 c_int
 =
@@ -485,8 +458,6 @@ pub
 const
 ENAMETOOLONG
 :
-:
-:
 c_int
 =
 36
@@ -494,8 +465,6 @@ c_int
 pub
 const
 ENOLCK
-:
-:
 :
 c_int
 =
@@ -505,8 +474,6 @@ pub
 const
 ENOSYS
 :
-:
-:
 c_int
 =
 38
@@ -514,8 +481,6 @@ c_int
 pub
 const
 ENOTEMPTY
-:
-:
 :
 c_int
 =
@@ -525,8 +490,6 @@ pub
 const
 ELOOP
 :
-:
-:
 c_int
 =
 40
@@ -534,8 +497,6 @@ c_int
 pub
 const
 ENOMSG
-:
-:
 :
 c_int
 =
@@ -545,8 +506,6 @@ pub
 const
 EIDRM
 :
-:
-:
 c_int
 =
 43
@@ -554,8 +513,6 @@ c_int
 pub
 const
 ECHRNG
-:
-:
 :
 c_int
 =
@@ -565,8 +522,6 @@ pub
 const
 EL2NSYNC
 :
-:
-:
 c_int
 =
 45
@@ -574,8 +529,6 @@ c_int
 pub
 const
 EL3HLT
-:
-:
 :
 c_int
 =
@@ -585,8 +538,6 @@ pub
 const
 EL3RST
 :
-:
-:
 c_int
 =
 47
@@ -594,8 +545,6 @@ c_int
 pub
 const
 ELNRNG
-:
-:
 :
 c_int
 =
@@ -605,8 +554,6 @@ pub
 const
 EUNATCH
 :
-:
-:
 c_int
 =
 49
@@ -614,8 +561,6 @@ c_int
 pub
 const
 ENOCSI
-:
-:
 :
 c_int
 =
@@ -625,8 +570,6 @@ pub
 const
 EL2HLT
 :
-:
-:
 c_int
 =
 51
@@ -634,8 +577,6 @@ c_int
 pub
 const
 EBADE
-:
-:
 :
 c_int
 =
@@ -645,8 +586,6 @@ pub
 const
 EBADR
 :
-:
-:
 c_int
 =
 53
@@ -654,8 +593,6 @@ c_int
 pub
 const
 EXFULL
-:
-:
 :
 c_int
 =
@@ -665,8 +602,6 @@ pub
 const
 ENOANO
 :
-:
-:
 c_int
 =
 55
@@ -674,8 +609,6 @@ c_int
 pub
 const
 EBADRQC
-:
-:
 :
 c_int
 =
@@ -685,8 +618,6 @@ pub
 const
 EBADSLT
 :
-:
-:
 c_int
 =
 57
@@ -694,8 +625,6 @@ c_int
 pub
 const
 EMULTIHOP
-:
-:
 :
 c_int
 =
@@ -705,8 +634,6 @@ pub
 const
 EBADMSG
 :
-:
-:
 c_int
 =
 74
@@ -714,8 +641,6 @@ c_int
 pub
 const
 EOVERFLOW
-:
-:
 :
 c_int
 =
@@ -725,8 +650,6 @@ pub
 const
 ENOTUNIQ
 :
-:
-:
 c_int
 =
 76
@@ -734,8 +657,6 @@ c_int
 pub
 const
 EBADFD
-:
-:
 :
 c_int
 =
@@ -745,8 +666,6 @@ pub
 const
 EREMCHG
 :
-:
-:
 c_int
 =
 78
@@ -754,8 +673,6 @@ c_int
 pub
 const
 ELIBACC
-:
-:
 :
 c_int
 =
@@ -765,8 +682,6 @@ pub
 const
 ELIBBAD
 :
-:
-:
 c_int
 =
 80
@@ -774,8 +689,6 @@ c_int
 pub
 const
 ELIBSCN
-:
-:
 :
 c_int
 =
@@ -785,8 +698,6 @@ pub
 const
 ELIBMAX
 :
-:
-:
 c_int
 =
 82
@@ -794,8 +705,6 @@ c_int
 pub
 const
 ELIBEXEC
-:
-:
 :
 c_int
 =
@@ -805,8 +714,6 @@ pub
 const
 EILSEQ
 :
-:
-:
 c_int
 =
 84
@@ -814,8 +721,6 @@ c_int
 pub
 const
 ERESTART
-:
-:
 :
 c_int
 =
@@ -825,8 +730,6 @@ pub
 const
 ESTRPIPE
 :
-:
-:
 c_int
 =
 86
@@ -834,8 +737,6 @@ c_int
 pub
 const
 EUSERS
-:
-:
 :
 c_int
 =
@@ -845,8 +746,6 @@ pub
 const
 ENOTSOCK
 :
-:
-:
 c_int
 =
 88
@@ -854,8 +753,6 @@ c_int
 pub
 const
 EDESTADDRREQ
-:
-:
 :
 c_int
 =
@@ -865,8 +762,6 @@ pub
 const
 EMSGSIZE
 :
-:
-:
 c_int
 =
 90
@@ -874,8 +769,6 @@ c_int
 pub
 const
 EPROTOTYPE
-:
-:
 :
 c_int
 =
@@ -885,8 +778,6 @@ pub
 const
 ENOPROTOOPT
 :
-:
-:
 c_int
 =
 92
@@ -894,8 +785,6 @@ c_int
 pub
 const
 EPROTONOSUPPORT
-:
-:
 :
 c_int
 =
@@ -905,8 +794,6 @@ pub
 const
 ESOCKTNOSUPPORT
 :
-:
-:
 c_int
 =
 94
@@ -914,8 +801,6 @@ c_int
 pub
 const
 EOPNOTSUPP
-:
-:
 :
 c_int
 =
@@ -925,8 +810,6 @@ pub
 const
 ENOTSUP
 :
-:
-:
 c_int
 =
 EOPNOTSUPP
@@ -934,8 +817,6 @@ EOPNOTSUPP
 pub
 const
 EPFNOSUPPORT
-:
-:
 :
 c_int
 =
@@ -945,8 +826,6 @@ pub
 const
 EAFNOSUPPORT
 :
-:
-:
 c_int
 =
 97
@@ -954,8 +833,6 @@ c_int
 pub
 const
 EADDRINUSE
-:
-:
 :
 c_int
 =
@@ -965,8 +842,6 @@ pub
 const
 EADDRNOTAVAIL
 :
-:
-:
 c_int
 =
 99
@@ -974,8 +849,6 @@ c_int
 pub
 const
 ENETDOWN
-:
-:
 :
 c_int
 =
@@ -985,8 +858,6 @@ pub
 const
 ENETUNREACH
 :
-:
-:
 c_int
 =
 101
@@ -994,8 +865,6 @@ c_int
 pub
 const
 ENETRESET
-:
-:
 :
 c_int
 =
@@ -1005,8 +874,6 @@ pub
 const
 ECONNABORTED
 :
-:
-:
 c_int
 =
 103
@@ -1014,8 +881,6 @@ c_int
 pub
 const
 ECONNRESET
-:
-:
 :
 c_int
 =
@@ -1025,8 +890,6 @@ pub
 const
 ENOBUFS
 :
-:
-:
 c_int
 =
 105
@@ -1034,8 +897,6 @@ c_int
 pub
 const
 EISCONN
-:
-:
 :
 c_int
 =
@@ -1045,8 +906,6 @@ pub
 const
 ENOTCONN
 :
-:
-:
 c_int
 =
 107
@@ -1054,8 +913,6 @@ c_int
 pub
 const
 ESHUTDOWN
-:
-:
 :
 c_int
 =
@@ -1065,8 +922,6 @@ pub
 const
 ETOOMANYREFS
 :
-:
-:
 c_int
 =
 109
@@ -1074,8 +929,6 @@ c_int
 pub
 const
 ETIMEDOUT
-:
-:
 :
 c_int
 =
@@ -1085,8 +938,6 @@ pub
 const
 ECONNREFUSED
 :
-:
-:
 c_int
 =
 111
@@ -1094,8 +945,6 @@ c_int
 pub
 const
 EHOSTDOWN
-:
-:
 :
 c_int
 =
@@ -1105,8 +954,6 @@ pub
 const
 EHOSTUNREACH
 :
-:
-:
 c_int
 =
 113
@@ -1114,8 +961,6 @@ c_int
 pub
 const
 EALREADY
-:
-:
 :
 c_int
 =
@@ -1125,8 +970,6 @@ pub
 const
 EINPROGRESS
 :
-:
-:
 c_int
 =
 115
@@ -1134,8 +977,6 @@ c_int
 pub
 const
 ESTALE
-:
-:
 :
 c_int
 =
@@ -1145,8 +986,6 @@ pub
 const
 EUCLEAN
 :
-:
-:
 c_int
 =
 117
@@ -1154,8 +993,6 @@ c_int
 pub
 const
 ENOTNAM
-:
-:
 :
 c_int
 =
@@ -1165,8 +1002,6 @@ pub
 const
 ENAVAIL
 :
-:
-:
 c_int
 =
 119
@@ -1174,8 +1009,6 @@ c_int
 pub
 const
 EISNAM
-:
-:
 :
 c_int
 =
@@ -1185,8 +1018,6 @@ pub
 const
 EREMOTEIO
 :
-:
-:
 c_int
 =
 121
@@ -1194,8 +1025,6 @@ c_int
 pub
 const
 EDQUOT
-:
-:
 :
 c_int
 =
@@ -1205,8 +1034,6 @@ pub
 const
 ENOMEDIUM
 :
-:
-:
 c_int
 =
 123
@@ -1214,8 +1041,6 @@ c_int
 pub
 const
 EMEDIUMTYPE
-:
-:
 :
 c_int
 =
@@ -1225,8 +1050,6 @@ pub
 const
 ECANCELED
 :
-:
-:
 c_int
 =
 125
@@ -1234,8 +1057,6 @@ c_int
 pub
 const
 ENOKEY
-:
-:
 :
 c_int
 =
@@ -1245,8 +1066,6 @@ pub
 const
 EKEYEXPIRED
 :
-:
-:
 c_int
 =
 127
@@ -1254,8 +1073,6 @@ c_int
 pub
 const
 EKEYREVOKED
-:
-:
 :
 c_int
 =
@@ -1265,8 +1082,6 @@ pub
 const
 EKEYREJECTED
 :
-:
-:
 c_int
 =
 129
@@ -1274,8 +1089,6 @@ c_int
 pub
 const
 EOWNERDEAD
-:
-:
 :
 c_int
 =
@@ -1285,8 +1098,6 @@ pub
 const
 ENOTRECOVERABLE
 :
-:
-:
 c_int
 =
 131
@@ -1294,8 +1105,6 @@ c_int
 pub
 const
 ERFKILL
-:
-:
 :
 c_int
 =
@@ -1305,8 +1114,6 @@ pub
 const
 EHWPOISON
 :
-:
-:
 c_int
 =
 133
@@ -1314,8 +1121,6 @@ c_int
 pub
 const
 MAP_ANON
-:
-:
 :
 c_int
 =
@@ -1325,8 +1130,6 @@ pub
 const
 MAP_GROWSDOWN
 :
-:
-:
 c_int
 =
 0x0100
@@ -1334,8 +1137,6 @@ c_int
 pub
 const
 MAP_DENYWRITE
-:
-:
 :
 c_int
 =
@@ -1345,8 +1146,6 @@ pub
 const
 MAP_EXECUTABLE
 :
-:
-:
 c_int
 =
 0x01000
@@ -1354,8 +1153,6 @@ c_int
 pub
 const
 MAP_LOCKED
-:
-:
 :
 c_int
 =
@@ -1365,8 +1162,6 @@ pub
 const
 MAP_NORESERVE
 :
-:
-:
 c_int
 =
 0x04000
@@ -1374,8 +1169,6 @@ c_int
 pub
 const
 MAP_POPULATE
-:
-:
 :
 c_int
 =
@@ -1385,8 +1178,6 @@ pub
 const
 MAP_NONBLOCK
 :
-:
-:
 c_int
 =
 0x010000
@@ -1394,8 +1185,6 @@ c_int
 pub
 const
 MAP_STACK
-:
-:
 :
 c_int
 =
@@ -1405,8 +1194,6 @@ pub
 const
 MAP_HUGETLB
 :
-:
-:
 c_int
 =
 0x040000
@@ -1414,8 +1201,6 @@ c_int
 pub
 const
 MAP_SYNC
-:
-:
 :
 c_int
 =
@@ -1425,8 +1210,6 @@ pub
 const
 PTRACE_SYSEMU
 :
-:
-:
 c_int
 =
 0x1d
@@ -1434,8 +1217,6 @@ c_int
 pub
 const
 PTRACE_SYSEMU_SINGLESTEP
-:
-:
 :
 c_int
 =
@@ -1445,8 +1226,6 @@ pub
 const
 SOCK_STREAM
 :
-:
-:
 c_int
 =
 1
@@ -1454,8 +1233,6 @@ c_int
 pub
 const
 SOCK_DGRAM
-:
-:
 :
 c_int
 =
@@ -1465,8 +1242,6 @@ pub
 const
 SA_ONSTACK
 :
-:
-:
 c_int
 =
 0x08000000
@@ -1474,8 +1249,6 @@ c_int
 pub
 const
 SA_SIGINFO
-:
-:
 :
 c_int
 =
@@ -1485,8 +1258,6 @@ pub
 const
 SA_NOCLDWAIT
 :
-:
-:
 c_int
 =
 0x00000002
@@ -1494,8 +1265,6 @@ c_int
 pub
 const
 SIGCHLD
-:
-:
 :
 c_int
 =
@@ -1505,8 +1274,6 @@ pub
 const
 SIGBUS
 :
-:
-:
 c_int
 =
 7
@@ -1514,8 +1281,6 @@ c_int
 pub
 const
 SIGTTIN
-:
-:
 :
 c_int
 =
@@ -1525,8 +1290,6 @@ pub
 const
 SIGTTOU
 :
-:
-:
 c_int
 =
 22
@@ -1534,8 +1297,6 @@ c_int
 pub
 const
 SIGXCPU
-:
-:
 :
 c_int
 =
@@ -1545,8 +1306,6 @@ pub
 const
 SIGXFSZ
 :
-:
-:
 c_int
 =
 25
@@ -1554,8 +1313,6 @@ c_int
 pub
 const
 SIGVTALRM
-:
-:
 :
 c_int
 =
@@ -1565,8 +1322,6 @@ pub
 const
 SIGPROF
 :
-:
-:
 c_int
 =
 27
@@ -1574,8 +1329,6 @@ c_int
 pub
 const
 SIGWINCH
-:
-:
 :
 c_int
 =
@@ -1585,8 +1338,6 @@ pub
 const
 SIGUSR1
 :
-:
-:
 c_int
 =
 10
@@ -1594,8 +1345,6 @@ c_int
 pub
 const
 SIGUSR2
-:
-:
 :
 c_int
 =
@@ -1605,8 +1354,6 @@ pub
 const
 SIGCONT
 :
-:
-:
 c_int
 =
 18
@@ -1614,8 +1361,6 @@ c_int
 pub
 const
 SIGSTOP
-:
-:
 :
 c_int
 =
@@ -1625,8 +1370,6 @@ pub
 const
 SIGTSTP
 :
-:
-:
 c_int
 =
 20
@@ -1634,8 +1377,6 @@ c_int
 pub
 const
 SIGURG
-:
-:
 :
 c_int
 =
@@ -1645,8 +1386,6 @@ pub
 const
 SIGIO
 :
-:
-:
 c_int
 =
 29
@@ -1654,8 +1393,6 @@ c_int
 pub
 const
 SIGSYS
-:
-:
 :
 c_int
 =
@@ -1665,8 +1402,6 @@ pub
 const
 SIGSTKFLT
 :
-:
-:
 c_int
 =
 16
@@ -1674,8 +1409,6 @@ c_int
 pub
 const
 SIGPOLL
-:
-:
 :
 c_int
 =
@@ -1685,8 +1418,6 @@ pub
 const
 SIGPWR
 :
-:
-:
 c_int
 =
 30
@@ -1694,8 +1425,6 @@ c_int
 pub
 const
 SIG_SETMASK
-:
-:
 :
 c_int
 =
@@ -1705,8 +1434,6 @@ pub
 const
 SIG_BLOCK
 :
-:
-:
 c_int
 =
 0x000000
@@ -1714,8 +1441,6 @@ c_int
 pub
 const
 SIG_UNBLOCK
-:
-:
 :
 c_int
 =
@@ -1725,8 +1450,6 @@ pub
 const
 F_GETLK
 :
-:
-:
 c_int
 =
 5
@@ -1734,8 +1457,6 @@ c_int
 pub
 const
 F_GETOWN
-:
-:
 :
 c_int
 =
@@ -1745,8 +1466,6 @@ pub
 const
 F_SETLK
 :
-:
-:
 c_int
 =
 6
@@ -1755,8 +1474,6 @@ pub
 const
 F_SETLKW
 :
-:
-:
 c_int
 =
 7
@@ -1764,8 +1481,6 @@ c_int
 pub
 const
 F_SETOWN
-:
-:
 :
 c_int
 =
@@ -1783,8 +1498,6 @@ pub
 const
 POLLWRNORM
 :
-:
-:
 c_short
 =
 0x100
@@ -1792,8 +1505,6 @@ c_short
 pub
 const
 POLLWRBAND
-:
-:
 :
 c_short
 =
@@ -1803,8 +1514,6 @@ pub
 const
 SIGSTKSZ
 :
-:
-:
 size_t
 =
 10240
@@ -1812,8 +1521,6 @@ size_t
 pub
 const
 MINSIGSTKSZ
-:
-:
 :
 size_t
 =
@@ -1823,8 +1530,6 @@ pub
 const
 SYS_restart_syscall
 :
-:
-:
 c_long
 =
 0
@@ -1832,8 +1537,6 @@ c_long
 pub
 const
 SYS_exit
-:
-:
 :
 c_long
 =
@@ -1843,8 +1546,6 @@ pub
 const
 SYS_fork
 :
-:
-:
 c_long
 =
 2
@@ -1852,8 +1553,6 @@ c_long
 pub
 const
 SYS_read
-:
-:
 :
 c_long
 =
@@ -1863,8 +1562,6 @@ pub
 const
 SYS_write
 :
-:
-:
 c_long
 =
 4
@@ -1872,8 +1569,6 @@ c_long
 pub
 const
 SYS_open
-:
-:
 :
 c_long
 =
@@ -1883,8 +1578,6 @@ pub
 const
 SYS_close
 :
-:
-:
 c_long
 =
 6
@@ -1892,8 +1585,6 @@ c_long
 pub
 const
 SYS_waitpid
-:
-:
 :
 c_long
 =
@@ -1903,8 +1594,6 @@ pub
 const
 SYS_creat
 :
-:
-:
 c_long
 =
 8
@@ -1912,8 +1601,6 @@ c_long
 pub
 const
 SYS_link
-:
-:
 :
 c_long
 =
@@ -1923,8 +1610,6 @@ pub
 const
 SYS_unlink
 :
-:
-:
 c_long
 =
 10
@@ -1932,8 +1617,6 @@ c_long
 pub
 const
 SYS_execve
-:
-:
 :
 c_long
 =
@@ -1943,8 +1626,6 @@ pub
 const
 SYS_chdir
 :
-:
-:
 c_long
 =
 12
@@ -1952,8 +1633,6 @@ c_long
 pub
 const
 SYS_time
-:
-:
 :
 c_long
 =
@@ -1963,8 +1642,6 @@ pub
 const
 SYS_mknod
 :
-:
-:
 c_long
 =
 14
@@ -1972,8 +1649,6 @@ c_long
 pub
 const
 SYS_chmod
-:
-:
 :
 c_long
 =
@@ -1983,8 +1658,6 @@ pub
 const
 SYS_lchown
 :
-:
-:
 c_long
 =
 16
@@ -1992,8 +1665,6 @@ c_long
 pub
 const
 SYS_break
-:
-:
 :
 c_long
 =
@@ -2003,8 +1674,6 @@ pub
 const
 SYS_oldstat
 :
-:
-:
 c_long
 =
 18
@@ -2012,8 +1681,6 @@ c_long
 pub
 const
 SYS_lseek
-:
-:
 :
 c_long
 =
@@ -2023,8 +1690,6 @@ pub
 const
 SYS_getpid
 :
-:
-:
 c_long
 =
 20
@@ -2032,8 +1697,6 @@ c_long
 pub
 const
 SYS_mount
-:
-:
 :
 c_long
 =
@@ -2043,8 +1706,6 @@ pub
 const
 SYS_umount
 :
-:
-:
 c_long
 =
 22
@@ -2052,8 +1713,6 @@ c_long
 pub
 const
 SYS_setuid
-:
-:
 :
 c_long
 =
@@ -2063,8 +1722,6 @@ pub
 const
 SYS_getuid
 :
-:
-:
 c_long
 =
 24
@@ -2072,8 +1729,6 @@ c_long
 pub
 const
 SYS_stime
-:
-:
 :
 c_long
 =
@@ -2083,8 +1738,6 @@ pub
 const
 SYS_ptrace
 :
-:
-:
 c_long
 =
 26
@@ -2092,8 +1745,6 @@ c_long
 pub
 const
 SYS_alarm
-:
-:
 :
 c_long
 =
@@ -2103,8 +1754,6 @@ pub
 const
 SYS_oldfstat
 :
-:
-:
 c_long
 =
 28
@@ -2112,8 +1761,6 @@ c_long
 pub
 const
 SYS_pause
-:
-:
 :
 c_long
 =
@@ -2123,8 +1770,6 @@ pub
 const
 SYS_utime
 :
-:
-:
 c_long
 =
 30
@@ -2132,8 +1777,6 @@ c_long
 pub
 const
 SYS_stty
-:
-:
 :
 c_long
 =
@@ -2143,8 +1786,6 @@ pub
 const
 SYS_gtty
 :
-:
-:
 c_long
 =
 32
@@ -2152,8 +1793,6 @@ c_long
 pub
 const
 SYS_access
-:
-:
 :
 c_long
 =
@@ -2163,8 +1802,6 @@ pub
 const
 SYS_nice
 :
-:
-:
 c_long
 =
 34
@@ -2172,8 +1809,6 @@ c_long
 pub
 const
 SYS_ftime
-:
-:
 :
 c_long
 =
@@ -2183,8 +1818,6 @@ pub
 const
 SYS_sync
 :
-:
-:
 c_long
 =
 36
@@ -2192,8 +1825,6 @@ c_long
 pub
 const
 SYS_kill
-:
-:
 :
 c_long
 =
@@ -2203,8 +1834,6 @@ pub
 const
 SYS_rename
 :
-:
-:
 c_long
 =
 38
@@ -2212,8 +1841,6 @@ c_long
 pub
 const
 SYS_mkdir
-:
-:
 :
 c_long
 =
@@ -2223,8 +1850,6 @@ pub
 const
 SYS_rmdir
 :
-:
-:
 c_long
 =
 40
@@ -2232,8 +1857,6 @@ c_long
 pub
 const
 SYS_dup
-:
-:
 :
 c_long
 =
@@ -2243,8 +1866,6 @@ pub
 const
 SYS_pipe
 :
-:
-:
 c_long
 =
 42
@@ -2252,8 +1873,6 @@ c_long
 pub
 const
 SYS_times
-:
-:
 :
 c_long
 =
@@ -2263,8 +1882,6 @@ pub
 const
 SYS_prof
 :
-:
-:
 c_long
 =
 44
@@ -2272,8 +1889,6 @@ c_long
 pub
 const
 SYS_brk
-:
-:
 :
 c_long
 =
@@ -2283,8 +1898,6 @@ pub
 const
 SYS_setgid
 :
-:
-:
 c_long
 =
 46
@@ -2292,8 +1905,6 @@ c_long
 pub
 const
 SYS_getgid
-:
-:
 :
 c_long
 =
@@ -2303,8 +1914,6 @@ pub
 const
 SYS_signal
 :
-:
-:
 c_long
 =
 48
@@ -2312,8 +1921,6 @@ c_long
 pub
 const
 SYS_geteuid
-:
-:
 :
 c_long
 =
@@ -2323,8 +1930,6 @@ pub
 const
 SYS_getegid
 :
-:
-:
 c_long
 =
 50
@@ -2332,8 +1937,6 @@ c_long
 pub
 const
 SYS_acct
-:
-:
 :
 c_long
 =
@@ -2343,8 +1946,6 @@ pub
 const
 SYS_umount2
 :
-:
-:
 c_long
 =
 52
@@ -2352,8 +1953,6 @@ c_long
 pub
 const
 SYS_lock
-:
-:
 :
 c_long
 =
@@ -2363,8 +1962,6 @@ pub
 const
 SYS_ioctl
 :
-:
-:
 c_long
 =
 54
@@ -2372,8 +1969,6 @@ c_long
 pub
 const
 SYS_fcntl
-:
-:
 :
 c_long
 =
@@ -2383,8 +1978,6 @@ pub
 const
 SYS_mpx
 :
-:
-:
 c_long
 =
 56
@@ -2392,8 +1985,6 @@ c_long
 pub
 const
 SYS_setpgid
-:
-:
 :
 c_long
 =
@@ -2403,8 +1994,6 @@ pub
 const
 SYS_ulimit
 :
-:
-:
 c_long
 =
 58
@@ -2412,8 +2001,6 @@ c_long
 pub
 const
 SYS_oldolduname
-:
-:
 :
 c_long
 =
@@ -2423,8 +2010,6 @@ pub
 const
 SYS_umask
 :
-:
-:
 c_long
 =
 60
@@ -2432,8 +2017,6 @@ c_long
 pub
 const
 SYS_chroot
-:
-:
 :
 c_long
 =
@@ -2443,8 +2026,6 @@ pub
 const
 SYS_ustat
 :
-:
-:
 c_long
 =
 62
@@ -2452,8 +2033,6 @@ c_long
 pub
 const
 SYS_dup2
-:
-:
 :
 c_long
 =
@@ -2463,8 +2042,6 @@ pub
 const
 SYS_getppid
 :
-:
-:
 c_long
 =
 64
@@ -2472,8 +2049,6 @@ c_long
 pub
 const
 SYS_getpgrp
-:
-:
 :
 c_long
 =
@@ -2483,8 +2058,6 @@ pub
 const
 SYS_setsid
 :
-:
-:
 c_long
 =
 66
@@ -2492,8 +2065,6 @@ c_long
 pub
 const
 SYS_sigaction
-:
-:
 :
 c_long
 =
@@ -2503,8 +2074,6 @@ pub
 const
 SYS_sgetmask
 :
-:
-:
 c_long
 =
 68
@@ -2512,8 +2081,6 @@ c_long
 pub
 const
 SYS_ssetmask
-:
-:
 :
 c_long
 =
@@ -2523,8 +2090,6 @@ pub
 const
 SYS_setreuid
 :
-:
-:
 c_long
 =
 70
@@ -2532,8 +2097,6 @@ c_long
 pub
 const
 SYS_setregid
-:
-:
 :
 c_long
 =
@@ -2543,8 +2106,6 @@ pub
 const
 SYS_sigsuspend
 :
-:
-:
 c_long
 =
 72
@@ -2552,8 +2113,6 @@ c_long
 pub
 const
 SYS_sigpending
-:
-:
 :
 c_long
 =
@@ -2563,8 +2122,6 @@ pub
 const
 SYS_sethostname
 :
-:
-:
 c_long
 =
 74
@@ -2572,8 +2129,6 @@ c_long
 pub
 const
 SYS_setrlimit
-:
-:
 :
 c_long
 =
@@ -2583,8 +2138,6 @@ pub
 const
 SYS_getrlimit
 :
-:
-:
 c_long
 =
 76
@@ -2592,8 +2145,6 @@ c_long
 pub
 const
 SYS_getrusage
-:
-:
 :
 c_long
 =
@@ -2603,8 +2154,6 @@ pub
 const
 SYS_gettimeofday
 :
-:
-:
 c_long
 =
 78
@@ -2612,8 +2161,6 @@ c_long
 pub
 const
 SYS_settimeofday
-:
-:
 :
 c_long
 =
@@ -2623,8 +2170,6 @@ pub
 const
 SYS_getgroups
 :
-:
-:
 c_long
 =
 80
@@ -2632,8 +2177,6 @@ c_long
 pub
 const
 SYS_setgroups
-:
-:
 :
 c_long
 =
@@ -2643,8 +2186,6 @@ pub
 const
 SYS_select
 :
-:
-:
 c_long
 =
 82
@@ -2652,8 +2193,6 @@ c_long
 pub
 const
 SYS_symlink
-:
-:
 :
 c_long
 =
@@ -2663,8 +2202,6 @@ pub
 const
 SYS_oldlstat
 :
-:
-:
 c_long
 =
 84
@@ -2672,8 +2209,6 @@ c_long
 pub
 const
 SYS_readlink
-:
-:
 :
 c_long
 =
@@ -2683,8 +2218,6 @@ pub
 const
 SYS_uselib
 :
-:
-:
 c_long
 =
 86
@@ -2692,8 +2225,6 @@ c_long
 pub
 const
 SYS_swapon
-:
-:
 :
 c_long
 =
@@ -2703,8 +2234,6 @@ pub
 const
 SYS_reboot
 :
-:
-:
 c_long
 =
 88
@@ -2712,8 +2241,6 @@ c_long
 pub
 const
 SYS_readdir
-:
-:
 :
 c_long
 =
@@ -2723,8 +2250,6 @@ pub
 const
 SYS_mmap
 :
-:
-:
 c_long
 =
 90
@@ -2732,8 +2257,6 @@ c_long
 pub
 const
 SYS_munmap
-:
-:
 :
 c_long
 =
@@ -2743,8 +2266,6 @@ pub
 const
 SYS_truncate
 :
-:
-:
 c_long
 =
 92
@@ -2752,8 +2273,6 @@ c_long
 pub
 const
 SYS_ftruncate
-:
-:
 :
 c_long
 =
@@ -2763,8 +2282,6 @@ pub
 const
 SYS_fchmod
 :
-:
-:
 c_long
 =
 94
@@ -2772,8 +2289,6 @@ c_long
 pub
 const
 SYS_fchown
-:
-:
 :
 c_long
 =
@@ -2783,8 +2298,6 @@ pub
 const
 SYS_getpriority
 :
-:
-:
 c_long
 =
 96
@@ -2792,8 +2305,6 @@ c_long
 pub
 const
 SYS_setpriority
-:
-:
 :
 c_long
 =
@@ -2803,8 +2314,6 @@ pub
 const
 SYS_profil
 :
-:
-:
 c_long
 =
 98
@@ -2812,8 +2321,6 @@ c_long
 pub
 const
 SYS_statfs
-:
-:
 :
 c_long
 =
@@ -2823,8 +2330,6 @@ pub
 const
 SYS_fstatfs
 :
-:
-:
 c_long
 =
 100
@@ -2832,8 +2337,6 @@ c_long
 pub
 const
 SYS_ioperm
-:
-:
 :
 c_long
 =
@@ -2843,8 +2346,6 @@ pub
 const
 SYS_socketcall
 :
-:
-:
 c_long
 =
 102
@@ -2852,8 +2353,6 @@ c_long
 pub
 const
 SYS_syslog
-:
-:
 :
 c_long
 =
@@ -2863,8 +2362,6 @@ pub
 const
 SYS_setitimer
 :
-:
-:
 c_long
 =
 104
@@ -2872,8 +2369,6 @@ c_long
 pub
 const
 SYS_getitimer
-:
-:
 :
 c_long
 =
@@ -2883,8 +2378,6 @@ pub
 const
 SYS_stat
 :
-:
-:
 c_long
 =
 106
@@ -2892,8 +2385,6 @@ c_long
 pub
 const
 SYS_lstat
-:
-:
 :
 c_long
 =
@@ -2903,8 +2394,6 @@ pub
 const
 SYS_fstat
 :
-:
-:
 c_long
 =
 108
@@ -2912,8 +2401,6 @@ c_long
 pub
 const
 SYS_olduname
-:
-:
 :
 c_long
 =
@@ -2923,8 +2410,6 @@ pub
 const
 SYS_iopl
 :
-:
-:
 c_long
 =
 110
@@ -2932,8 +2417,6 @@ c_long
 pub
 const
 SYS_vhangup
-:
-:
 :
 c_long
 =
@@ -2943,8 +2426,6 @@ pub
 const
 SYS_idle
 :
-:
-:
 c_long
 =
 112
@@ -2952,8 +2433,6 @@ c_long
 pub
 const
 SYS_vm86
-:
-:
 :
 c_long
 =
@@ -2963,8 +2442,6 @@ pub
 const
 SYS_wait4
 :
-:
-:
 c_long
 =
 114
@@ -2972,8 +2449,6 @@ c_long
 pub
 const
 SYS_swapoff
-:
-:
 :
 c_long
 =
@@ -2983,8 +2458,6 @@ pub
 const
 SYS_sysinfo
 :
-:
-:
 c_long
 =
 116
@@ -2992,8 +2465,6 @@ c_long
 pub
 const
 SYS_ipc
-:
-:
 :
 c_long
 =
@@ -3003,8 +2474,6 @@ pub
 const
 SYS_fsync
 :
-:
-:
 c_long
 =
 118
@@ -3012,8 +2481,6 @@ c_long
 pub
 const
 SYS_sigreturn
-:
-:
 :
 c_long
 =
@@ -3023,8 +2490,6 @@ pub
 const
 SYS_clone
 :
-:
-:
 c_long
 =
 120
@@ -3032,8 +2497,6 @@ c_long
 pub
 const
 SYS_setdomainname
-:
-:
 :
 c_long
 =
@@ -3043,8 +2506,6 @@ pub
 const
 SYS_uname
 :
-:
-:
 c_long
 =
 122
@@ -3052,8 +2513,6 @@ c_long
 pub
 const
 SYS_modify_ldt
-:
-:
 :
 c_long
 =
@@ -3063,8 +2522,6 @@ pub
 const
 SYS_adjtimex
 :
-:
-:
 c_long
 =
 124
@@ -3072,8 +2529,6 @@ c_long
 pub
 const
 SYS_mprotect
-:
-:
 :
 c_long
 =
@@ -3083,17 +2538,39 @@ pub
 const
 SYS_sigprocmask
 :
-:
-:
 c_long
 =
 126
 ;
+#
+[
+deprecated
+(
+since
+=
+"
+0
+.
+2
+.
+70
+"
+note
+=
+"
+Functional
+up
+to
+2
+.
+6
+kernel
+"
+)
+]
 pub
 const
 SYS_create_module
-:
-:
 :
 c_long
 =
@@ -3103,8 +2580,6 @@ pub
 const
 SYS_init_module
 :
-:
-:
 c_long
 =
 128
@@ -3113,17 +2588,39 @@ pub
 const
 SYS_delete_module
 :
-:
-:
 c_long
 =
 129
 ;
+#
+[
+deprecated
+(
+since
+=
+"
+0
+.
+2
+.
+70
+"
+note
+=
+"
+Functional
+up
+to
+2
+.
+6
+kernel
+"
+)
+]
 pub
 const
 SYS_get_kernel_syms
-:
-:
 :
 c_long
 =
@@ -3133,8 +2630,6 @@ pub
 const
 SYS_quotactl
 :
-:
-:
 c_long
 =
 131
@@ -3142,8 +2637,6 @@ c_long
 pub
 const
 SYS_getpgid
-:
-:
 :
 c_long
 =
@@ -3153,8 +2646,6 @@ pub
 const
 SYS_fchdir
 :
-:
-:
 c_long
 =
 133
@@ -3162,8 +2653,6 @@ c_long
 pub
 const
 SYS_bdflush
-:
-:
 :
 c_long
 =
@@ -3173,8 +2662,6 @@ pub
 const
 SYS_sysfs
 :
-:
-:
 c_long
 =
 135
@@ -3182,8 +2669,6 @@ c_long
 pub
 const
 SYS_personality
-:
-:
 :
 c_long
 =
@@ -3193,8 +2678,6 @@ pub
 const
 SYS_afs_syscall
 :
-:
-:
 c_long
 =
 137
@@ -3202,8 +2685,6 @@ c_long
 pub
 const
 SYS_setfsuid
-:
-:
 :
 c_long
 =
@@ -3213,8 +2694,6 @@ pub
 const
 SYS_setfsgid
 :
-:
-:
 c_long
 =
 139
@@ -3222,8 +2701,6 @@ c_long
 pub
 const
 SYS__llseek
-:
-:
 :
 c_long
 =
@@ -3233,8 +2710,6 @@ pub
 const
 SYS_getdents
 :
-:
-:
 c_long
 =
 141
@@ -3242,8 +2717,6 @@ c_long
 pub
 const
 SYS__newselect
-:
-:
 :
 c_long
 =
@@ -3253,8 +2726,6 @@ pub
 const
 SYS_flock
 :
-:
-:
 c_long
 =
 143
@@ -3262,8 +2733,6 @@ c_long
 pub
 const
 SYS_msync
-:
-:
 :
 c_long
 =
@@ -3273,8 +2742,6 @@ pub
 const
 SYS_readv
 :
-:
-:
 c_long
 =
 145
@@ -3282,8 +2749,6 @@ c_long
 pub
 const
 SYS_writev
-:
-:
 :
 c_long
 =
@@ -3293,8 +2758,6 @@ pub
 const
 SYS_getsid
 :
-:
-:
 c_long
 =
 147
@@ -3302,8 +2765,6 @@ c_long
 pub
 const
 SYS_fdatasync
-:
-:
 :
 c_long
 =
@@ -3313,8 +2774,6 @@ pub
 const
 SYS__sysctl
 :
-:
-:
 c_long
 =
 149
@@ -3322,8 +2781,6 @@ c_long
 pub
 const
 SYS_mlock
-:
-:
 :
 c_long
 =
@@ -3333,8 +2790,6 @@ pub
 const
 SYS_munlock
 :
-:
-:
 c_long
 =
 151
@@ -3342,8 +2797,6 @@ c_long
 pub
 const
 SYS_mlockall
-:
-:
 :
 c_long
 =
@@ -3353,8 +2806,6 @@ pub
 const
 SYS_munlockall
 :
-:
-:
 c_long
 =
 153
@@ -3362,8 +2813,6 @@ c_long
 pub
 const
 SYS_sched_setparam
-:
-:
 :
 c_long
 =
@@ -3373,8 +2822,6 @@ pub
 const
 SYS_sched_getparam
 :
-:
-:
 c_long
 =
 155
@@ -3382,8 +2829,6 @@ c_long
 pub
 const
 SYS_sched_setscheduler
-:
-:
 :
 c_long
 =
@@ -3393,8 +2838,6 @@ pub
 const
 SYS_sched_getscheduler
 :
-:
-:
 c_long
 =
 157
@@ -3402,8 +2845,6 @@ c_long
 pub
 const
 SYS_sched_yield
-:
-:
 :
 c_long
 =
@@ -3413,8 +2854,6 @@ pub
 const
 SYS_sched_get_priority_max
 :
-:
-:
 c_long
 =
 159
@@ -3422,8 +2861,6 @@ c_long
 pub
 const
 SYS_sched_get_priority_min
-:
-:
 :
 c_long
 =
@@ -3433,8 +2870,6 @@ pub
 const
 SYS_sched_rr_get_interval
 :
-:
-:
 c_long
 =
 161
@@ -3442,8 +2877,6 @@ c_long
 pub
 const
 SYS_nanosleep
-:
-:
 :
 c_long
 =
@@ -3453,8 +2886,6 @@ pub
 const
 SYS_mremap
 :
-:
-:
 c_long
 =
 163
@@ -3462,8 +2893,6 @@ c_long
 pub
 const
 SYS_setresuid
-:
-:
 :
 c_long
 =
@@ -3473,17 +2902,39 @@ pub
 const
 SYS_getresuid
 :
-:
-:
 c_long
 =
 165
 ;
+#
+[
+deprecated
+(
+since
+=
+"
+0
+.
+2
+.
+70
+"
+note
+=
+"
+Functional
+up
+to
+2
+.
+6
+kernel
+"
+)
+]
 pub
 const
 SYS_query_module
-:
-:
 :
 c_long
 =
@@ -3493,8 +2944,6 @@ pub
 const
 SYS_poll
 :
-:
-:
 c_long
 =
 167
@@ -3502,8 +2951,6 @@ c_long
 pub
 const
 SYS_nfsservctl
-:
-:
 :
 c_long
 =
@@ -3513,8 +2960,6 @@ pub
 const
 SYS_setresgid
 :
-:
-:
 c_long
 =
 169
@@ -3522,8 +2967,6 @@ c_long
 pub
 const
 SYS_getresgid
-:
-:
 :
 c_long
 =
@@ -3533,8 +2976,6 @@ pub
 const
 SYS_prctl
 :
-:
-:
 c_long
 =
 171
@@ -3542,8 +2983,6 @@ c_long
 pub
 const
 SYS_rt_sigreturn
-:
-:
 :
 c_long
 =
@@ -3553,8 +2992,6 @@ pub
 const
 SYS_rt_sigaction
 :
-:
-:
 c_long
 =
 173
@@ -3562,8 +2999,6 @@ c_long
 pub
 const
 SYS_rt_sigprocmask
-:
-:
 :
 c_long
 =
@@ -3573,8 +3008,6 @@ pub
 const
 SYS_rt_sigpending
 :
-:
-:
 c_long
 =
 175
@@ -3582,8 +3015,6 @@ c_long
 pub
 const
 SYS_rt_sigtimedwait
-:
-:
 :
 c_long
 =
@@ -3593,8 +3024,6 @@ pub
 const
 SYS_rt_sigqueueinfo
 :
-:
-:
 c_long
 =
 177
@@ -3602,8 +3031,6 @@ c_long
 pub
 const
 SYS_rt_sigsuspend
-:
-:
 :
 c_long
 =
@@ -3613,8 +3040,6 @@ pub
 const
 SYS_pread64
 :
-:
-:
 c_long
 =
 179
@@ -3622,8 +3047,6 @@ c_long
 pub
 const
 SYS_pwrite64
-:
-:
 :
 c_long
 =
@@ -3633,8 +3056,6 @@ pub
 const
 SYS_chown
 :
-:
-:
 c_long
 =
 181
@@ -3642,8 +3063,6 @@ c_long
 pub
 const
 SYS_getcwd
-:
-:
 :
 c_long
 =
@@ -3653,8 +3072,6 @@ pub
 const
 SYS_capget
 :
-:
-:
 c_long
 =
 183
@@ -3662,8 +3079,6 @@ c_long
 pub
 const
 SYS_capset
-:
-:
 :
 c_long
 =
@@ -3673,8 +3088,6 @@ pub
 const
 SYS_sigaltstack
 :
-:
-:
 c_long
 =
 185
@@ -3682,8 +3095,6 @@ c_long
 pub
 const
 SYS_sendfile
-:
-:
 :
 c_long
 =
@@ -3693,8 +3104,6 @@ pub
 const
 SYS_getpmsg
 :
-:
-:
 c_long
 =
 187
@@ -3702,8 +3111,6 @@ c_long
 pub
 const
 SYS_putpmsg
-:
-:
 :
 c_long
 =
@@ -3713,8 +3120,6 @@ pub
 const
 SYS_vfork
 :
-:
-:
 c_long
 =
 189
@@ -3722,8 +3127,6 @@ c_long
 pub
 const
 SYS_ugetrlimit
-:
-:
 :
 c_long
 =
@@ -3733,8 +3136,6 @@ pub
 const
 SYS_readahead
 :
-:
-:
 c_long
 =
 191
@@ -3742,8 +3143,6 @@ c_long
 pub
 const
 SYS_pciconfig_read
-:
-:
 :
 c_long
 =
@@ -3753,8 +3152,6 @@ pub
 const
 SYS_pciconfig_write
 :
-:
-:
 c_long
 =
 199
@@ -3762,8 +3159,6 @@ c_long
 pub
 const
 SYS_pciconfig_iobase
-:
-:
 :
 c_long
 =
@@ -3773,8 +3168,6 @@ pub
 const
 SYS_multiplexer
 :
-:
-:
 c_long
 =
 201
@@ -3782,8 +3175,6 @@ c_long
 pub
 const
 SYS_getdents64
-:
-:
 :
 c_long
 =
@@ -3793,8 +3184,6 @@ pub
 const
 SYS_pivot_root
 :
-:
-:
 c_long
 =
 203
@@ -3802,8 +3191,6 @@ c_long
 pub
 const
 SYS_madvise
-:
-:
 :
 c_long
 =
@@ -3813,8 +3200,6 @@ pub
 const
 SYS_mincore
 :
-:
-:
 c_long
 =
 206
@@ -3822,8 +3207,6 @@ c_long
 pub
 const
 SYS_gettid
-:
-:
 :
 c_long
 =
@@ -3833,8 +3216,6 @@ pub
 const
 SYS_tkill
 :
-:
-:
 c_long
 =
 208
@@ -3842,8 +3223,6 @@ c_long
 pub
 const
 SYS_setxattr
-:
-:
 :
 c_long
 =
@@ -3853,8 +3232,6 @@ pub
 const
 SYS_lsetxattr
 :
-:
-:
 c_long
 =
 210
@@ -3862,8 +3239,6 @@ c_long
 pub
 const
 SYS_fsetxattr
-:
-:
 :
 c_long
 =
@@ -3873,8 +3248,6 @@ pub
 const
 SYS_getxattr
 :
-:
-:
 c_long
 =
 212
@@ -3882,8 +3255,6 @@ c_long
 pub
 const
 SYS_lgetxattr
-:
-:
 :
 c_long
 =
@@ -3893,8 +3264,6 @@ pub
 const
 SYS_fgetxattr
 :
-:
-:
 c_long
 =
 214
@@ -3902,8 +3271,6 @@ c_long
 pub
 const
 SYS_listxattr
-:
-:
 :
 c_long
 =
@@ -3913,8 +3280,6 @@ pub
 const
 SYS_llistxattr
 :
-:
-:
 c_long
 =
 216
@@ -3922,8 +3287,6 @@ c_long
 pub
 const
 SYS_flistxattr
-:
-:
 :
 c_long
 =
@@ -3933,8 +3296,6 @@ pub
 const
 SYS_removexattr
 :
-:
-:
 c_long
 =
 218
@@ -3942,8 +3303,6 @@ c_long
 pub
 const
 SYS_lremovexattr
-:
-:
 :
 c_long
 =
@@ -3953,8 +3312,6 @@ pub
 const
 SYS_fremovexattr
 :
-:
-:
 c_long
 =
 220
@@ -3962,8 +3319,6 @@ c_long
 pub
 const
 SYS_futex
-:
-:
 :
 c_long
 =
@@ -3973,8 +3328,6 @@ pub
 const
 SYS_sched_setaffinity
 :
-:
-:
 c_long
 =
 222
@@ -3982,8 +3335,6 @@ c_long
 pub
 const
 SYS_sched_getaffinity
-:
-:
 :
 c_long
 =
@@ -3993,8 +3344,6 @@ pub
 const
 SYS_tuxcall
 :
-:
-:
 c_long
 =
 225
@@ -4002,8 +3351,6 @@ c_long
 pub
 const
 SYS_io_setup
-:
-:
 :
 c_long
 =
@@ -4013,8 +3360,6 @@ pub
 const
 SYS_io_destroy
 :
-:
-:
 c_long
 =
 228
@@ -4022,8 +3367,6 @@ c_long
 pub
 const
 SYS_io_getevents
-:
-:
 :
 c_long
 =
@@ -4033,8 +3376,6 @@ pub
 const
 SYS_io_submit
 :
-:
-:
 c_long
 =
 230
@@ -4042,8 +3383,6 @@ c_long
 pub
 const
 SYS_io_cancel
-:
-:
 :
 c_long
 =
@@ -4053,8 +3392,6 @@ pub
 const
 SYS_set_tid_address
 :
-:
-:
 c_long
 =
 232
@@ -4062,8 +3399,6 @@ c_long
 pub
 const
 SYS_exit_group
-:
-:
 :
 c_long
 =
@@ -4073,8 +3408,6 @@ pub
 const
 SYS_lookup_dcookie
 :
-:
-:
 c_long
 =
 235
@@ -4082,8 +3415,6 @@ c_long
 pub
 const
 SYS_epoll_create
-:
-:
 :
 c_long
 =
@@ -4093,8 +3424,6 @@ pub
 const
 SYS_epoll_ctl
 :
-:
-:
 c_long
 =
 237
@@ -4102,8 +3431,6 @@ c_long
 pub
 const
 SYS_epoll_wait
-:
-:
 :
 c_long
 =
@@ -4113,8 +3440,6 @@ pub
 const
 SYS_remap_file_pages
 :
-:
-:
 c_long
 =
 239
@@ -4122,8 +3447,6 @@ c_long
 pub
 const
 SYS_timer_create
-:
-:
 :
 c_long
 =
@@ -4133,8 +3456,6 @@ pub
 const
 SYS_timer_settime
 :
-:
-:
 c_long
 =
 241
@@ -4142,8 +3463,6 @@ c_long
 pub
 const
 SYS_timer_gettime
-:
-:
 :
 c_long
 =
@@ -4153,8 +3472,6 @@ pub
 const
 SYS_timer_getoverrun
 :
-:
-:
 c_long
 =
 243
@@ -4162,8 +3479,6 @@ c_long
 pub
 const
 SYS_timer_delete
-:
-:
 :
 c_long
 =
@@ -4173,8 +3488,6 @@ pub
 const
 SYS_clock_settime
 :
-:
-:
 c_long
 =
 245
@@ -4182,8 +3495,6 @@ c_long
 pub
 const
 SYS_clock_gettime
-:
-:
 :
 c_long
 =
@@ -4193,8 +3504,6 @@ pub
 const
 SYS_clock_getres
 :
-:
-:
 c_long
 =
 247
@@ -4202,8 +3511,6 @@ c_long
 pub
 const
 SYS_clock_nanosleep
-:
-:
 :
 c_long
 =
@@ -4213,8 +3520,6 @@ pub
 const
 SYS_swapcontext
 :
-:
-:
 c_long
 =
 249
@@ -4222,8 +3527,6 @@ c_long
 pub
 const
 SYS_tgkill
-:
-:
 :
 c_long
 =
@@ -4233,8 +3536,6 @@ pub
 const
 SYS_utimes
 :
-:
-:
 c_long
 =
 251
@@ -4242,8 +3543,6 @@ c_long
 pub
 const
 SYS_statfs64
-:
-:
 :
 c_long
 =
@@ -4253,8 +3552,6 @@ pub
 const
 SYS_fstatfs64
 :
-:
-:
 c_long
 =
 253
@@ -4262,8 +3559,6 @@ c_long
 pub
 const
 SYS_rtas
-:
-:
 :
 c_long
 =
@@ -4273,8 +3568,6 @@ pub
 const
 SYS_sys_debug_setcontext
 :
-:
-:
 c_long
 =
 256
@@ -4282,8 +3575,6 @@ c_long
 pub
 const
 SYS_migrate_pages
-:
-:
 :
 c_long
 =
@@ -4293,8 +3584,6 @@ pub
 const
 SYS_mbind
 :
-:
-:
 c_long
 =
 259
@@ -4302,8 +3591,6 @@ c_long
 pub
 const
 SYS_get_mempolicy
-:
-:
 :
 c_long
 =
@@ -4313,8 +3600,6 @@ pub
 const
 SYS_set_mempolicy
 :
-:
-:
 c_long
 =
 261
@@ -4322,8 +3607,6 @@ c_long
 pub
 const
 SYS_mq_open
-:
-:
 :
 c_long
 =
@@ -4333,8 +3616,6 @@ pub
 const
 SYS_mq_unlink
 :
-:
-:
 c_long
 =
 263
@@ -4342,8 +3623,6 @@ c_long
 pub
 const
 SYS_mq_timedsend
-:
-:
 :
 c_long
 =
@@ -4353,8 +3632,6 @@ pub
 const
 SYS_mq_timedreceive
 :
-:
-:
 c_long
 =
 265
@@ -4362,8 +3639,6 @@ c_long
 pub
 const
 SYS_mq_notify
-:
-:
 :
 c_long
 =
@@ -4373,8 +3648,6 @@ pub
 const
 SYS_mq_getsetattr
 :
-:
-:
 c_long
 =
 267
@@ -4382,8 +3655,6 @@ c_long
 pub
 const
 SYS_kexec_load
-:
-:
 :
 c_long
 =
@@ -4393,8 +3664,6 @@ pub
 const
 SYS_add_key
 :
-:
-:
 c_long
 =
 269
@@ -4402,8 +3671,6 @@ c_long
 pub
 const
 SYS_request_key
-:
-:
 :
 c_long
 =
@@ -4413,8 +3680,6 @@ pub
 const
 SYS_keyctl
 :
-:
-:
 c_long
 =
 271
@@ -4422,8 +3687,6 @@ c_long
 pub
 const
 SYS_waitid
-:
-:
 :
 c_long
 =
@@ -4433,8 +3696,6 @@ pub
 const
 SYS_ioprio_set
 :
-:
-:
 c_long
 =
 273
@@ -4442,8 +3703,6 @@ c_long
 pub
 const
 SYS_ioprio_get
-:
-:
 :
 c_long
 =
@@ -4453,8 +3712,6 @@ pub
 const
 SYS_inotify_init
 :
-:
-:
 c_long
 =
 275
@@ -4462,8 +3719,6 @@ c_long
 pub
 const
 SYS_inotify_add_watch
-:
-:
 :
 c_long
 =
@@ -4473,8 +3728,6 @@ pub
 const
 SYS_inotify_rm_watch
 :
-:
-:
 c_long
 =
 277
@@ -4482,8 +3735,6 @@ c_long
 pub
 const
 SYS_spu_run
-:
-:
 :
 c_long
 =
@@ -4493,8 +3744,6 @@ pub
 const
 SYS_spu_create
 :
-:
-:
 c_long
 =
 279
@@ -4502,8 +3751,6 @@ c_long
 pub
 const
 SYS_pselect6
-:
-:
 :
 c_long
 =
@@ -4513,8 +3760,6 @@ pub
 const
 SYS_ppoll
 :
-:
-:
 c_long
 =
 281
@@ -4522,8 +3767,6 @@ c_long
 pub
 const
 SYS_unshare
-:
-:
 :
 c_long
 =
@@ -4533,8 +3776,6 @@ pub
 const
 SYS_splice
 :
-:
-:
 c_long
 =
 283
@@ -4542,8 +3783,6 @@ c_long
 pub
 const
 SYS_tee
-:
-:
 :
 c_long
 =
@@ -4553,8 +3792,6 @@ pub
 const
 SYS_vmsplice
 :
-:
-:
 c_long
 =
 285
@@ -4562,8 +3799,6 @@ c_long
 pub
 const
 SYS_openat
-:
-:
 :
 c_long
 =
@@ -4573,8 +3808,6 @@ pub
 const
 SYS_mkdirat
 :
-:
-:
 c_long
 =
 287
@@ -4582,8 +3815,6 @@ c_long
 pub
 const
 SYS_mknodat
-:
-:
 :
 c_long
 =
@@ -4593,8 +3824,6 @@ pub
 const
 SYS_fchownat
 :
-:
-:
 c_long
 =
 289
@@ -4602,8 +3831,6 @@ c_long
 pub
 const
 SYS_futimesat
-:
-:
 :
 c_long
 =
@@ -4613,8 +3840,6 @@ pub
 const
 SYS_newfstatat
 :
-:
-:
 c_long
 =
 291
@@ -4622,8 +3847,6 @@ c_long
 pub
 const
 SYS_unlinkat
-:
-:
 :
 c_long
 =
@@ -4633,8 +3856,6 @@ pub
 const
 SYS_renameat
 :
-:
-:
 c_long
 =
 293
@@ -4642,8 +3863,6 @@ c_long
 pub
 const
 SYS_linkat
-:
-:
 :
 c_long
 =
@@ -4653,8 +3872,6 @@ pub
 const
 SYS_symlinkat
 :
-:
-:
 c_long
 =
 295
@@ -4662,8 +3879,6 @@ c_long
 pub
 const
 SYS_readlinkat
-:
-:
 :
 c_long
 =
@@ -4673,8 +3888,6 @@ pub
 const
 SYS_fchmodat
 :
-:
-:
 c_long
 =
 297
@@ -4682,8 +3895,6 @@ c_long
 pub
 const
 SYS_faccessat
-:
-:
 :
 c_long
 =
@@ -4693,8 +3904,6 @@ pub
 const
 SYS_get_robust_list
 :
-:
-:
 c_long
 =
 299
@@ -4702,8 +3911,6 @@ c_long
 pub
 const
 SYS_set_robust_list
-:
-:
 :
 c_long
 =
@@ -4713,8 +3920,6 @@ pub
 const
 SYS_move_pages
 :
-:
-:
 c_long
 =
 301
@@ -4722,8 +3927,6 @@ c_long
 pub
 const
 SYS_getcpu
-:
-:
 :
 c_long
 =
@@ -4733,8 +3936,6 @@ pub
 const
 SYS_epoll_pwait
 :
-:
-:
 c_long
 =
 303
@@ -4742,8 +3943,6 @@ c_long
 pub
 const
 SYS_utimensat
-:
-:
 :
 c_long
 =
@@ -4753,8 +3952,6 @@ pub
 const
 SYS_signalfd
 :
-:
-:
 c_long
 =
 305
@@ -4762,8 +3959,6 @@ c_long
 pub
 const
 SYS_timerfd_create
-:
-:
 :
 c_long
 =
@@ -4773,8 +3968,6 @@ pub
 const
 SYS_eventfd
 :
-:
-:
 c_long
 =
 307
@@ -4782,8 +3975,6 @@ c_long
 pub
 const
 SYS_sync_file_range2
-:
-:
 :
 c_long
 =
@@ -4793,8 +3984,6 @@ pub
 const
 SYS_fallocate
 :
-:
-:
 c_long
 =
 309
@@ -4802,8 +3991,6 @@ c_long
 pub
 const
 SYS_subpage_prot
-:
-:
 :
 c_long
 =
@@ -4813,8 +4000,6 @@ pub
 const
 SYS_timerfd_settime
 :
-:
-:
 c_long
 =
 311
@@ -4822,8 +4007,6 @@ c_long
 pub
 const
 SYS_timerfd_gettime
-:
-:
 :
 c_long
 =
@@ -4833,8 +4016,6 @@ pub
 const
 SYS_signalfd4
 :
-:
-:
 c_long
 =
 313
@@ -4842,8 +4023,6 @@ c_long
 pub
 const
 SYS_eventfd2
-:
-:
 :
 c_long
 =
@@ -4853,8 +4032,6 @@ pub
 const
 SYS_epoll_create1
 :
-:
-:
 c_long
 =
 315
@@ -4862,8 +4039,6 @@ c_long
 pub
 const
 SYS_dup3
-:
-:
 :
 c_long
 =
@@ -4873,8 +4048,6 @@ pub
 const
 SYS_pipe2
 :
-:
-:
 c_long
 =
 317
@@ -4882,8 +4055,6 @@ c_long
 pub
 const
 SYS_inotify_init1
-:
-:
 :
 c_long
 =
@@ -4893,8 +4064,6 @@ pub
 const
 SYS_perf_event_open
 :
-:
-:
 c_long
 =
 319
@@ -4902,8 +4071,6 @@ c_long
 pub
 const
 SYS_preadv
-:
-:
 :
 c_long
 =
@@ -4913,8 +4080,6 @@ pub
 const
 SYS_pwritev
 :
-:
-:
 c_long
 =
 321
@@ -4922,8 +4087,6 @@ c_long
 pub
 const
 SYS_rt_tgsigqueueinfo
-:
-:
 :
 c_long
 =
@@ -4933,8 +4096,6 @@ pub
 const
 SYS_fanotify_init
 :
-:
-:
 c_long
 =
 323
@@ -4942,8 +4103,6 @@ c_long
 pub
 const
 SYS_fanotify_mark
-:
-:
 :
 c_long
 =
@@ -4953,8 +4112,6 @@ pub
 const
 SYS_prlimit64
 :
-:
-:
 c_long
 =
 325
@@ -4962,8 +4119,6 @@ c_long
 pub
 const
 SYS_socket
-:
-:
 :
 c_long
 =
@@ -4973,8 +4128,6 @@ pub
 const
 SYS_bind
 :
-:
-:
 c_long
 =
 327
@@ -4982,8 +4135,6 @@ c_long
 pub
 const
 SYS_connect
-:
-:
 :
 c_long
 =
@@ -4993,8 +4144,6 @@ pub
 const
 SYS_listen
 :
-:
-:
 c_long
 =
 329
@@ -5002,8 +4151,6 @@ c_long
 pub
 const
 SYS_accept
-:
-:
 :
 c_long
 =
@@ -5013,8 +4160,6 @@ pub
 const
 SYS_getsockname
 :
-:
-:
 c_long
 =
 331
@@ -5022,8 +4167,6 @@ c_long
 pub
 const
 SYS_getpeername
-:
-:
 :
 c_long
 =
@@ -5033,8 +4176,6 @@ pub
 const
 SYS_socketpair
 :
-:
-:
 c_long
 =
 333
@@ -5042,8 +4183,6 @@ c_long
 pub
 const
 SYS_send
-:
-:
 :
 c_long
 =
@@ -5053,8 +4192,6 @@ pub
 const
 SYS_sendto
 :
-:
-:
 c_long
 =
 335
@@ -5062,8 +4199,6 @@ c_long
 pub
 const
 SYS_recv
-:
-:
 :
 c_long
 =
@@ -5073,8 +4208,6 @@ pub
 const
 SYS_recvfrom
 :
-:
-:
 c_long
 =
 337
@@ -5082,8 +4215,6 @@ c_long
 pub
 const
 SYS_shutdown
-:
-:
 :
 c_long
 =
@@ -5093,8 +4224,6 @@ pub
 const
 SYS_setsockopt
 :
-:
-:
 c_long
 =
 339
@@ -5102,8 +4231,6 @@ c_long
 pub
 const
 SYS_getsockopt
-:
-:
 :
 c_long
 =
@@ -5113,8 +4240,6 @@ pub
 const
 SYS_sendmsg
 :
-:
-:
 c_long
 =
 341
@@ -5122,8 +4247,6 @@ c_long
 pub
 const
 SYS_recvmsg
-:
-:
 :
 c_long
 =
@@ -5133,8 +4256,6 @@ pub
 const
 SYS_recvmmsg
 :
-:
-:
 c_long
 =
 343
@@ -5142,8 +4263,6 @@ c_long
 pub
 const
 SYS_accept4
-:
-:
 :
 c_long
 =
@@ -5153,8 +4272,6 @@ pub
 const
 SYS_name_to_handle_at
 :
-:
-:
 c_long
 =
 345
@@ -5162,8 +4279,6 @@ c_long
 pub
 const
 SYS_open_by_handle_at
-:
-:
 :
 c_long
 =
@@ -5173,8 +4288,6 @@ pub
 const
 SYS_clock_adjtime
 :
-:
-:
 c_long
 =
 347
@@ -5182,8 +4295,6 @@ c_long
 pub
 const
 SYS_syncfs
-:
-:
 :
 c_long
 =
@@ -5193,8 +4304,6 @@ pub
 const
 SYS_sendmmsg
 :
-:
-:
 c_long
 =
 349
@@ -5202,8 +4311,6 @@ c_long
 pub
 const
 SYS_setns
-:
-:
 :
 c_long
 =
@@ -5213,8 +4320,6 @@ pub
 const
 SYS_process_vm_readv
 :
-:
-:
 c_long
 =
 351
@@ -5222,8 +4327,6 @@ c_long
 pub
 const
 SYS_process_vm_writev
-:
-:
 :
 c_long
 =
@@ -5233,8 +4336,6 @@ pub
 const
 SYS_finit_module
 :
-:
-:
 c_long
 =
 353
@@ -5242,8 +4343,6 @@ c_long
 pub
 const
 SYS_kcmp
-:
-:
 :
 c_long
 =
@@ -5253,8 +4352,6 @@ pub
 const
 SYS_sched_setattr
 :
-:
-:
 c_long
 =
 355
@@ -5262,8 +4359,6 @@ c_long
 pub
 const
 SYS_sched_getattr
-:
-:
 :
 c_long
 =
@@ -5273,8 +4368,6 @@ pub
 const
 SYS_renameat2
 :
-:
-:
 c_long
 =
 357
@@ -5282,8 +4375,6 @@ c_long
 pub
 const
 SYS_seccomp
-:
-:
 :
 c_long
 =
@@ -5293,8 +4384,6 @@ pub
 const
 SYS_getrandom
 :
-:
-:
 c_long
 =
 359
@@ -5302,8 +4391,6 @@ c_long
 pub
 const
 SYS_memfd_create
-:
-:
 :
 c_long
 =
@@ -5313,8 +4400,6 @@ pub
 const
 SYS_bpf
 :
-:
-:
 c_long
 =
 361
@@ -5322,8 +4407,6 @@ c_long
 pub
 const
 SYS_execveat
-:
-:
 :
 c_long
 =
@@ -5333,8 +4416,6 @@ pub
 const
 SYS_switch_endian
 :
-:
-:
 c_long
 =
 363
@@ -5342,8 +4423,6 @@ c_long
 pub
 const
 SYS_userfaultfd
-:
-:
 :
 c_long
 =
@@ -5353,8 +4432,6 @@ pub
 const
 SYS_membarrier
 :
-:
-:
 c_long
 =
 365
@@ -5362,8 +4439,6 @@ c_long
 pub
 const
 SYS_mlock2
-:
-:
 :
 c_long
 =
@@ -5373,8 +4448,6 @@ pub
 const
 SYS_copy_file_range
 :
-:
-:
 c_long
 =
 379
@@ -5382,8 +4455,6 @@ c_long
 pub
 const
 SYS_preadv2
-:
-:
 :
 c_long
 =
@@ -5393,8 +4464,6 @@ pub
 const
 SYS_pwritev2
 :
-:
-:
 c_long
 =
 381
@@ -5402,8 +4471,6 @@ c_long
 pub
 const
 SYS_kexec_file_load
-:
-:
 :
 c_long
 =
@@ -5413,17 +4480,141 @@ pub
 const
 SYS_statx
 :
-:
-:
 c_long
 =
 383
 ;
 pub
 const
+SYS_pkey_alloc
+:
+c_long
+=
+384
+;
+pub
+const
+SYS_pkey_free
+:
+c_long
+=
+385
+;
+pub
+const
+SYS_pkey_mprotect
+:
+c_long
+=
+386
+;
+pub
+const
+SYS_rseq
+:
+c_long
+=
+387
+;
+pub
+const
+SYS_io_pgetevents
+:
+c_long
+=
+388
+;
+pub
+const
+SYS_semtimedop
+:
+c_long
+=
+392
+;
+pub
+const
+SYS_semget
+:
+c_long
+=
+393
+;
+pub
+const
+SYS_semctl
+:
+c_long
+=
+394
+;
+pub
+const
+SYS_shmget
+:
+c_long
+=
+395
+;
+pub
+const
+SYS_shmctl
+:
+c_long
+=
+396
+;
+pub
+const
+SYS_shmat
+:
+c_long
+=
+397
+;
+pub
+const
+SYS_shmdt
+:
+c_long
+=
+398
+;
+pub
+const
+SYS_msgget
+:
+c_long
+=
+399
+;
+pub
+const
+SYS_msgsnd
+:
+c_long
+=
+400
+;
+pub
+const
+SYS_msgrcv
+:
+c_long
+=
+401
+;
+pub
+const
+SYS_msgctl
+:
+c_long
+=
+402
+;
+pub
+const
 SYS_pidfd_send_signal
-:
-:
 :
 c_long
 =
@@ -5433,8 +4624,6 @@ pub
 const
 SYS_io_uring_setup
 :
-:
-:
 c_long
 =
 425
@@ -5442,8 +4631,6 @@ c_long
 pub
 const
 SYS_io_uring_enter
-:
-:
 :
 c_long
 =
@@ -5453,8 +4640,6 @@ pub
 const
 SYS_io_uring_register
 :
-:
-:
 c_long
 =
 427
@@ -5462,8 +4647,6 @@ c_long
 pub
 const
 SYS_open_tree
-:
-:
 :
 c_long
 =
@@ -5473,8 +4656,6 @@ pub
 const
 SYS_move_mount
 :
-:
-:
 c_long
 =
 429
@@ -5482,8 +4663,6 @@ c_long
 pub
 const
 SYS_fsopen
-:
-:
 :
 c_long
 =
@@ -5493,8 +4672,6 @@ pub
 const
 SYS_fsconfig
 :
-:
-:
 c_long
 =
 431
@@ -5502,8 +4679,6 @@ c_long
 pub
 const
 SYS_fsmount
-:
-:
 :
 c_long
 =
@@ -5513,8 +4688,6 @@ pub
 const
 SYS_fspick
 :
-:
-:
 c_long
 =
 433
@@ -5522,8 +4695,6 @@ c_long
 pub
 const
 SYS_pidfd_open
-:
-:
 :
 c_long
 =
@@ -5533,8 +4704,6 @@ pub
 const
 SYS_clone3
 :
-:
-:
 c_long
 =
 435
@@ -5542,8 +4711,6 @@ c_long
 pub
 const
 SYS_close_range
-:
-:
 :
 c_long
 =
@@ -5553,8 +4720,6 @@ pub
 const
 SYS_openat2
 :
-:
-:
 c_long
 =
 437
@@ -5562,8 +4727,6 @@ c_long
 pub
 const
 SYS_pidfd_getfd
-:
-:
 :
 c_long
 =
@@ -5573,8 +4736,6 @@ pub
 const
 SYS_faccessat2
 :
-:
-:
 c_long
 =
 439
@@ -5582,8 +4743,6 @@ c_long
 pub
 const
 SYS_process_madvise
-:
-:
 :
 c_long
 =
@@ -5593,8 +4752,6 @@ pub
 const
 SYS_epoll_pwait2
 :
-:
-:
 c_long
 =
 441
@@ -5602,8 +4759,6 @@ c_long
 pub
 const
 SYS_mount_setattr
-:
-:
 :
 c_long
 =
@@ -5613,8 +4768,6 @@ pub
 const
 SYS_quotactl_fd
 :
-:
-:
 c_long
 =
 443
@@ -5622,8 +4775,6 @@ c_long
 pub
 const
 SYS_landlock_create_ruleset
-:
-:
 :
 c_long
 =
@@ -5633,8 +4784,6 @@ pub
 const
 SYS_landlock_add_rule
 :
-:
-:
 c_long
 =
 445
@@ -5642,8 +4791,6 @@ c_long
 pub
 const
 SYS_landlock_restrict_self
-:
-:
 :
 c_long
 =
@@ -5653,8 +4800,6 @@ pub
 const
 SYS_memfd_secret
 :
-:
-:
 c_long
 =
 447
@@ -5662,8 +4807,6 @@ c_long
 pub
 const
 SYS_process_mrelease
-:
-:
 :
 c_long
 =
@@ -5673,8 +4816,6 @@ pub
 const
 SYS_futex_waitv
 :
-:
-:
 c_long
 =
 449
@@ -5682,8 +4823,6 @@ c_long
 pub
 const
 SYS_set_mempolicy_home_node
-:
-:
 :
 c_long
 =
@@ -5693,8 +4832,6 @@ pub
 const
 EDEADLK
 :
-:
-:
 c_int
 =
 58
@@ -5702,8 +4839,6 @@ c_int
 pub
 const
 EDEADLOCK
-:
-:
 :
 c_int
 =
@@ -5713,6 +4848,7 @@ pub
 const
 EXTPROC
 :
+crate
 :
 :
 tcflag_t
@@ -5747,6 +4883,7 @@ pub
 const
 IEXTEN
 :
+crate
 :
 :
 tcflag_t
@@ -5757,6 +4894,7 @@ pub
 const
 TOSTOP
 :
+crate
 :
 :
 tcflag_t
@@ -5767,6 +4905,7 @@ pub
 const
 FLUSHO
 :
+crate
 :
 :
 tcflag_t
@@ -5777,8 +4916,6 @@ pub
 const
 MCL_CURRENT
 :
-:
-:
 c_int
 =
 0x2000
@@ -5786,8 +4923,6 @@ c_int
 pub
 const
 MCL_FUTURE
-:
-:
 :
 c_int
 =
@@ -5797,8 +4932,6 @@ pub
 const
 MCL_ONFAULT
 :
-:
-:
 c_int
 =
 0x8000
@@ -5807,6 +4940,7 @@ pub
 const
 CBAUD
 :
+crate
 :
 :
 tcflag_t
@@ -5817,8 +4951,6 @@ pub
 const
 TAB1
 :
-:
-:
 c_int
 =
 0x400
@@ -5826,8 +4958,6 @@ c_int
 pub
 const
 TAB2
-:
-:
 :
 c_int
 =
@@ -5837,8 +4967,6 @@ pub
 const
 TAB3
 :
-:
-:
 c_int
 =
 0xc00
@@ -5846,8 +4974,6 @@ c_int
 pub
 const
 CR1
-:
-:
 :
 c_int
 =
@@ -5857,8 +4983,6 @@ pub
 const
 CR2
 :
-:
-:
 c_int
 =
 0x2000
@@ -5866,8 +4990,6 @@ c_int
 pub
 const
 CR3
-:
-:
 :
 c_int
 =
@@ -5877,8 +4999,6 @@ pub
 const
 FF1
 :
-:
-:
 c_int
 =
 0x4000
@@ -5887,8 +5007,6 @@ pub
 const
 BS1
 :
-:
-:
 c_int
 =
 0x8000
@@ -5896,8 +5014,6 @@ c_int
 pub
 const
 VT1
-:
-:
 :
 c_int
 =
@@ -5963,6 +5079,7 @@ pub
 const
 IXON
 :
+crate
 :
 :
 tcflag_t
@@ -5973,6 +5090,7 @@ pub
 const
 IXOFF
 :
+crate
 :
 :
 tcflag_t
@@ -5983,6 +5101,7 @@ pub
 const
 ONLCR
 :
+crate
 :
 :
 tcflag_t
@@ -5993,6 +5112,7 @@ pub
 const
 CSIZE
 :
+crate
 :
 :
 tcflag_t
@@ -6003,6 +5123,7 @@ pub
 const
 CS6
 :
+crate
 :
 :
 tcflag_t
@@ -6013,6 +5134,7 @@ pub
 const
 CS7
 :
+crate
 :
 :
 tcflag_t
@@ -6023,6 +5145,7 @@ pub
 const
 CS8
 :
+crate
 :
 :
 tcflag_t
@@ -6033,6 +5156,7 @@ pub
 const
 CSTOPB
 :
+crate
 :
 :
 tcflag_t
@@ -6043,6 +5167,7 @@ pub
 const
 CREAD
 :
+crate
 :
 :
 tcflag_t
@@ -6053,6 +5178,7 @@ pub
 const
 PARENB
 :
+crate
 :
 :
 tcflag_t
@@ -6063,6 +5189,7 @@ pub
 const
 PARODD
 :
+crate
 :
 :
 tcflag_t
@@ -6073,6 +5200,7 @@ pub
 const
 HUPCL
 :
+crate
 :
 :
 tcflag_t
@@ -6083,6 +5211,7 @@ pub
 const
 CLOCAL
 :
+crate
 :
 :
 tcflag_t
@@ -6093,6 +5222,7 @@ pub
 const
 ECHOKE
 :
+crate
 :
 :
 tcflag_t
@@ -6103,6 +5233,7 @@ pub
 const
 ECHOE
 :
+crate
 :
 :
 tcflag_t
@@ -6113,6 +5244,7 @@ pub
 const
 ECHOK
 :
+crate
 :
 :
 tcflag_t
@@ -6123,6 +5255,7 @@ pub
 const
 ECHONL
 :
+crate
 :
 :
 tcflag_t
@@ -6133,6 +5266,7 @@ pub
 const
 ECHOPRT
 :
+crate
 :
 :
 tcflag_t
@@ -6143,6 +5277,7 @@ pub
 const
 ECHOCTL
 :
+crate
 :
 :
 tcflag_t
@@ -6153,6 +5288,7 @@ pub
 const
 ISIG
 :
+crate
 :
 :
 tcflag_t
@@ -6163,6 +5299,7 @@ pub
 const
 ICANON
 :
+crate
 :
 :
 tcflag_t
@@ -6173,6 +5310,7 @@ pub
 const
 PENDIN
 :
+crate
 :
 :
 tcflag_t
@@ -6183,6 +5321,7 @@ pub
 const
 NOFLSH
 :
+crate
 :
 :
 tcflag_t
@@ -6193,6 +5332,7 @@ pub
 const
 CIBAUD
 :
+crate
 :
 :
 tcflag_t
@@ -6203,6 +5343,7 @@ pub
 const
 CBAUDEX
 :
+crate
 :
 :
 tcflag_t
@@ -6221,6 +5362,7 @@ pub
 const
 OLCUC
 :
+crate
 :
 :
 tcflag_t
@@ -6231,6 +5373,7 @@ pub
 const
 NLDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6241,6 +5384,7 @@ pub
 const
 CRDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6251,6 +5395,7 @@ pub
 const
 TABDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6261,6 +5406,7 @@ pub
 const
 BSDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6271,6 +5417,7 @@ pub
 const
 FFDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6281,6 +5428,7 @@ pub
 const
 VTDLY
 :
+crate
 :
 :
 tcflag_t
@@ -6291,6 +5439,7 @@ pub
 const
 XTABS
 :
+crate
 :
 :
 tcflag_t
@@ -6301,6 +5450,7 @@ pub
 const
 B57600
 :
+crate
 :
 :
 speed_t
@@ -6311,6 +5461,7 @@ pub
 const
 B115200
 :
+crate
 :
 :
 speed_t
@@ -6321,6 +5472,7 @@ pub
 const
 B230400
 :
+crate
 :
 :
 speed_t
@@ -6331,6 +5483,7 @@ pub
 const
 B460800
 :
+crate
 :
 :
 speed_t
@@ -6341,6 +5494,7 @@ pub
 const
 B500000
 :
+crate
 :
 :
 speed_t
@@ -6351,6 +5505,7 @@ pub
 const
 B576000
 :
+crate
 :
 :
 speed_t
@@ -6361,6 +5516,7 @@ pub
 const
 B921600
 :
+crate
 :
 :
 speed_t
@@ -6371,6 +5527,7 @@ pub
 const
 B1000000
 :
+crate
 :
 :
 speed_t
@@ -6381,6 +5538,7 @@ pub
 const
 B1152000
 :
+crate
 :
 :
 speed_t
@@ -6391,6 +5549,7 @@ pub
 const
 B1500000
 :
+crate
 :
 :
 speed_t
@@ -6401,6 +5560,7 @@ pub
 const
 B2000000
 :
+crate
 :
 :
 speed_t
@@ -6411,6 +5571,7 @@ pub
 const
 B2500000
 :
+crate
 :
 :
 speed_t
@@ -6421,6 +5582,7 @@ pub
 const
 B3000000
 :
+crate
 :
 :
 speed_t
@@ -6431,6 +5593,7 @@ pub
 const
 B3500000
 :
+crate
 :
 :
 speed_t
@@ -6441,6 +5604,7 @@ pub
 const
 B4000000
 :
+crate
 :
 :
 speed_t
