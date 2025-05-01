@@ -11690,6 +11690,12 @@ assertBackgroundSweepingFinished
 (
 )
 ;
+AutoLockStoreBuffer
+lock
+(
+rt
+)
+;
 MOZ_ASSERT
 (
 zones
