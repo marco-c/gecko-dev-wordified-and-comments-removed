@@ -998,6 +998,9 @@ Document
 {
 [
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 static
 Document

@@ -149,6 +149,9 @@ SVGAnimatedString
 {
 [
 SetterThrows
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 ]
 attribute
 (

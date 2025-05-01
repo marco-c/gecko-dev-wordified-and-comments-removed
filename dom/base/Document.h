@@ -13264,6 +13264,11 @@ TrustedHTMLOrString
 aValue
 =
 nullptr
+nsIPrincipal
+*
+aSubjectPrincipal
+=
+nullptr
 ErrorResult
 *
 aRv
@@ -15362,6 +15367,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

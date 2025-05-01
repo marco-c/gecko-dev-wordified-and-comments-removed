@@ -549,6 +549,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -571,6 +574,7 @@ content
 this
 aHTML
 false
+aSubjectPrincipal
 aError
 )
 ;

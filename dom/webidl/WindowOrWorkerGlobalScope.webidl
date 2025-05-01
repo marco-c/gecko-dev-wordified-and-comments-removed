@@ -281,6 +281,9 @@ atob
 timers
 [
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 long
 setTimeout
@@ -311,6 +314,9 @@ handle
 ;
 [
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 long
 setInterval

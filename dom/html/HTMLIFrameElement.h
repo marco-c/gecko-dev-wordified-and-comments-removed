@@ -250,6 +250,9 @@ const
 TrustedHTMLOrString
 &
 aSrcdoc
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

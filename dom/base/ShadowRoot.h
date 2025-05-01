@@ -111,6 +111,9 @@ nsAtom
 class
 nsIContent
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -998,6 +1001,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -1019,6 +1025,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aInnerHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

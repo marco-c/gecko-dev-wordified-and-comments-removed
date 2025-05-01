@@ -36,6 +36,9 @@ h
 class
 nsIGlobalWindow
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 :
@@ -197,9 +200,9 @@ const
 RegistrationOptions
 &
 aOptions
-const
-CallerType
-aCallerType
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

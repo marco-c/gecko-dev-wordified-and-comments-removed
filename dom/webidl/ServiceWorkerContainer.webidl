@@ -182,7 +182,9 @@ ready
 ;
 [
 NewObject
-NeedsCallerType
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 Promise

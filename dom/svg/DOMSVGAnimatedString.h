@@ -24,6 +24,9 @@ SVGElement
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 :
@@ -129,6 +132,9 @@ const
 TrustedScriptURLOrString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -150,6 +156,7 @@ SetBaseValue
 aValue
 svgElement
 true
+aSubjectPrincipal
 aRv
 )
 ;

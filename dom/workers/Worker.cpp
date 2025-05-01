@@ -277,6 +277,18 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
+nsIPrincipal
+>
+principal
+=
+aGlobal
+.
+GetSubjectPrincipal
+(
+)
+;
 const
 nsAString
 *
@@ -352,6 +364,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 globalObject
+principal
 compliantStringHolder
 aRv
 )

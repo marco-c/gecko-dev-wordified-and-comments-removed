@@ -1801,6 +1801,9 @@ innerHTML
 ;
 [
 CEReactions
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 Pure
 SetterThrows
 ]
@@ -1817,6 +1820,9 @@ outerHTML
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 undefined
@@ -2662,6 +2668,9 @@ options
 *
 /
 [
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 undefined

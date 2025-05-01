@@ -160,6 +160,9 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -174,6 +177,7 @@ SetBaseValue
 aValue
 aSVGElement
 aDoSetAttr
+aSubjectPrincipal
 aRv
 )
 ;
@@ -480,6 +484,9 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

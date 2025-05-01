@@ -866,6 +866,9 @@ const
 TrustedScriptOrString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -903,6 +906,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )
@@ -994,6 +998,9 @@ const
 TrustedScriptOrNullIsEmptyString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -1031,6 +1038,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -1193,6 +1201,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -1256,7 +1265,7 @@ TrustedScriptURLOrString
 aSrc
 nsIPrincipal
 *
-aTriggeringPrincipal
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1294,6 +1303,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )
@@ -1318,7 +1328,7 @@ nsGkAtoms
 src
 *
 compliantString
-aTriggeringPrincipal
+aSubjectPrincipal
 aRv
 )
 ;

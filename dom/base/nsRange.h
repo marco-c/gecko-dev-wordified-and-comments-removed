@@ -101,6 +101,9 @@ RefPtr
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -780,6 +783,9 @@ dom
 :
 TrustedHTMLOrString
 &
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

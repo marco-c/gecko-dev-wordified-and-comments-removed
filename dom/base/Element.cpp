@@ -22682,6 +22682,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -22764,6 +22765,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aOuterHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -22801,6 +22805,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -23194,6 +23199,9 @@ const
 TrustedHTMLOrString
 &
 aTrustedHTMLOrString
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -23231,6 +23239,7 @@ kSink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -28330,6 +28339,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -28344,6 +28356,7 @@ this
 this
 aHTML
 false
+aSubjectPrincipal
 aError
 )
 ;

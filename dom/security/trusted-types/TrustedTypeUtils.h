@@ -88,6 +88,9 @@ h
 class
 nsIContentSecurityPolicy
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -252,6 +255,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -285,6 +291,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -317,6 +326,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -350,6 +362,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -383,6 +398,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -415,6 +433,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -448,6 +469,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -480,6 +504,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -512,6 +539,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString

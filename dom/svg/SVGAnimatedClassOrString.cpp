@@ -155,6 +155,8 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+nsIPrincipal
+*
 ErrorResult
 &
 )

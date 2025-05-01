@@ -249,6 +249,9 @@ referrerPolicy
 ;
 [
 CEReactions
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 attribute
@@ -429,6 +432,9 @@ HTMLScriptElement
 {
 [
 CEReactions
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 attribute

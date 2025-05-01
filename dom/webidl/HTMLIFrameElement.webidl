@@ -241,6 +241,9 @@ src
 ;
 [
 CEReactions
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 Pure
 ]

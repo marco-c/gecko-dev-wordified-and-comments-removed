@@ -144,6 +144,9 @@ constructor
 ;
 [
 NewObject
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 UseCounter
 ]

@@ -321,6 +321,9 @@ const
 TrustedScriptOrString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -346,6 +349,9 @@ const
 TrustedScriptOrNullIsEmptyString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -486,7 +492,7 @@ TrustedScriptURLOrString
 aSrc
 nsIPrincipal
 *
-aTriggeringPrincipal
+aSubjectPrincipal
 ErrorResult
 &
 aRv

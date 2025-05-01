@@ -1523,6 +1523,9 @@ Value
 >
 &
 aArguments
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1559,6 +1562,9 @@ Value
 >
 &
 aArguments
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1833,6 +1839,9 @@ Value
 aArguments
 bool
 aIsInterval
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

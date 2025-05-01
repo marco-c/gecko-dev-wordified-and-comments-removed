@@ -4683,6 +4683,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -4707,6 +4710,7 @@ this
 host
 aHTML
 true
+aSubjectPrincipal
 aError
 )
 ;
@@ -4746,6 +4750,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aInnerHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -4783,6 +4790,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )

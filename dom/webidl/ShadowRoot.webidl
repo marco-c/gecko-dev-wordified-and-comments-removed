@@ -290,6 +290,9 @@ mixin
 [
 CEReactions
 SetterThrows
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 ]
 attribute
 (
@@ -491,6 +494,9 @@ shadowroot
 -
 sethtmlunsafe
 [
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 undefined

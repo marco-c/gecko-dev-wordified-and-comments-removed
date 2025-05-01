@@ -20,6 +20,9 @@ AlreadyAddRefed
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -102,6 +105,9 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

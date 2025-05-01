@@ -26389,6 +26389,9 @@ const
 TrustedHTMLOrString
 *
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 *
 aRv
@@ -26592,6 +26595,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 *
 aRv
@@ -28201,6 +28205,8 @@ ConvertToInternalCommand
 aHTMLCommandName
 &
 aValue
+&
+aSubjectPrincipal
 &
 aRv
 &
@@ -95381,6 +95387,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -95433,6 +95442,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 global
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
