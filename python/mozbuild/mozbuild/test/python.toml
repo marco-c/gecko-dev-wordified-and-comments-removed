@@ -341,6 +341,15 @@ py
 ]
 [
 "
+repackaging
+/
+test_rpm
+.
+py
+"
+]
+[
+"
 test_artifact_cache
 .
 py
