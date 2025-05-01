@@ -3246,6 +3246,17 @@ navController
 findNavController
 (
 )
+tabsUseCases
+=
+requireContext
+(
+)
+.
+components
+.
+useCases
+.
+tabsUseCases
 sendTabUseCases
 =
 SendTabUseCases
