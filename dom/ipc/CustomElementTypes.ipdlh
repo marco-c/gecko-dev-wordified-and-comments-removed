@@ -56,7 +56,7 @@ namespace
 dom
 {
 union
-IPCFormDataValue
+FormDataValue
 {
 BlobImpl
 ;
@@ -70,7 +70,7 @@ FormDataTuple
 nsString
 name
 ;
-IPCFormDataValue
+FormDataValue
 value
 ;
 }
