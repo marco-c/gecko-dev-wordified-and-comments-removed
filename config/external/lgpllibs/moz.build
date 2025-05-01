@@ -3,9 +3,6 @@ GeckoSharedLibrary
 "
 lgpllibs
 "
-linkage
-=
-None
 )
 SHARED_LIBRARY_NAME
 =

@@ -1497,7 +1497,4 @@ GeckoSharedLibrary
 "
 libEGL
 "
-linkage
-=
-None
 )

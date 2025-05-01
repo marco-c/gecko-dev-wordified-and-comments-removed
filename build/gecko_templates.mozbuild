@@ -647,6 +647,15 @@ mozglue
 library
 "
 )
+kwargs
+.
+setdefault
+(
+"
+linkage
+"
+None
+)
 GeckoBinary
 (
 *
