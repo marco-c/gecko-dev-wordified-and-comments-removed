@@ -189,6 +189,7 @@ js
 import
 {
 kResourceStates
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -238,9 +239,9 @@ js
 '
 ;
 import
-{
-AllFeaturesMaxLimitsValidationTest
-}
+*
+as
+vtu
 from
 '
 .
@@ -249,7 +250,7 @@ from
 .
 .
 /
-validation_test
+validation_test_utils
 .
 js
 '
@@ -785,7 +786,7 @@ depthOrArrayLayers
 class
 CopyExternalImageToTextureTest
 extends
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 {
 onlineCrossOriginUrl
 =
@@ -2878,10 +2879,11 @@ getImageData
 const
 dstTexture
 =
-t
+vtu
 .
 createTextureWithState
 (
+t
 state
 )
 ;

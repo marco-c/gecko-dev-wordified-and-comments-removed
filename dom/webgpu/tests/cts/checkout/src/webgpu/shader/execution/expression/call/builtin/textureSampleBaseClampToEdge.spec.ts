@@ -42,6 +42,7 @@ js
 ;
 import
 {
+AllFeaturesMaxLimitsGPUTest
 GPUTest
 }
 from
@@ -109,7 +110,6 @@ kShortAddressModeToAddressMode
 kShortShaderStages
 TextureCall
 vec2
-WGSLTextureSampleTest
 }
 from
 '
@@ -126,7 +126,7 @@ g
 =
 makeTestGroup
 (
-WGSLTextureSampleTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 async

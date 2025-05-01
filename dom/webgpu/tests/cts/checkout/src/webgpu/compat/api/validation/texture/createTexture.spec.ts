@@ -478,8 +478,6 @@ TEXTURE_BINDING
 dimension
 textureBindingViewDimension
 }
-as
-GPUTextureDescriptor
 )
 ;
 }
@@ -547,6 +545,8 @@ textureBindingViewDimension
 cube
 '
 ]
+as
+const
 )
 .
 combine
@@ -653,8 +653,6 @@ GPUTextureUsage
 TEXTURE_BINDING
 textureBindingViewDimension
 }
-as
-GPUTextureDescriptor
 )
 ;
 }

@@ -702,8 +702,6 @@ textureBindingViewDimension
 }
 )
 }
-as
-GPUTextureDescriptor
 )
 ;
 const

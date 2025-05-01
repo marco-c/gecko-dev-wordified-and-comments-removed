@@ -1011,7 +1011,6 @@ return
 ret
 ;
 }
-protected
 eventualAsyncExpectation
 <
 T

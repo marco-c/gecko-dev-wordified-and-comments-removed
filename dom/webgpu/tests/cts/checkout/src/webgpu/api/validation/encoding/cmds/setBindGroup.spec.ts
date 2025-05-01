@@ -215,6 +215,7 @@ import
 {
 kResourceStates
 ResourceState
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -262,9 +263,9 @@ js
 '
 ;
 import
-{
-AllFeaturesMaxLimitsValidationTest
-}
+*
+as
+vtu
 from
 '
 .
@@ -273,7 +274,7 @@ from
 .
 .
 /
-validation_test
+validation_test_utils
 .
 js
 '
@@ -281,7 +282,7 @@ js
 class
 F
 extends
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 {
 encoderTypeToStageFlag
 (
@@ -376,10 +377,11 @@ texture
 const
 texture
 =
-this
+vtu
 .
 createTextureWithState
 (
+this
 '
 valid
 '
@@ -425,10 +427,11 @@ return
 {
 buffer
 :
-this
+vtu
 .
 createBufferWithState
 (
+this
 state
 {
 size
@@ -1996,10 +1999,11 @@ resource
 {
 buffer
 :
-t
+vtu
 .
 createBufferWithState
 (
+t
 '
 valid
 '

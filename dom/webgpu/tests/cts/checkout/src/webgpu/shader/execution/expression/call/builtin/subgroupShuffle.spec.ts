@@ -3202,7 +3202,7 @@ value
 =
 input
 [
-id
+lid
 ]
 ;
 if
@@ -3226,7 +3226,7 @@ subgroupBroadcastFirst
 (
 input
 [
-id
+lid
 ]
 )
 ;
