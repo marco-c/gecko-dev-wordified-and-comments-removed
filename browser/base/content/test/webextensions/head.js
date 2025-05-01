@@ -1151,6 +1151,8 @@ perm
 -
 privatebrowsing
 >
+moz
+-
 checkbox
 "
 )
@@ -1393,6 +1395,8 @@ lastEntry
 querySelector
 (
 "
+moz
+-
 checkbox
 "
 )

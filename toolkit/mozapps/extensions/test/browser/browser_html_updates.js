@@ -4857,6 +4857,8 @@ webext
 perm
 -
 privatebrowsing
+moz
+-
 checkbox
 "
 )

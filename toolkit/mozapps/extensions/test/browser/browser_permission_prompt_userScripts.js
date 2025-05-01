@@ -410,17 +410,9 @@ panel
 querySelector
 (
 "
-checkbox
-:
-not
-(
-.
-popup
--
-notification
+moz
 -
 checkbox
-)
 "
 )
 ;
@@ -433,7 +425,7 @@ is
 (
 checkbox
 .
-textContent
+label
 PERMISSION_L10N
 .
 formatValueSync
