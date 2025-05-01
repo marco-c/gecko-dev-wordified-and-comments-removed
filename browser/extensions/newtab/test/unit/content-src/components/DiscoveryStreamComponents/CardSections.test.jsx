@@ -1352,7 +1352,7 @@ it
 "
 should
 dispatch
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 updates
 with
 follow
@@ -1505,7 +1505,7 @@ DiscoveryStream
 INITIAL_STATE
 .
 DiscoveryStream
-sectionData
+sectionPersonalization
 :
 {
 section_key_2
@@ -1739,7 +1739,7 @@ firstArg
 type
 :
 "
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 "
 data
 :
@@ -1890,7 +1890,7 @@ getCall
 type
 :
 "
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 "
 data
 :

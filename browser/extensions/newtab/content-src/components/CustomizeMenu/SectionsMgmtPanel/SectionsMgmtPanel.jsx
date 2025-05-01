@@ -150,7 +150,7 @@ with
 useState
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 useSelector
@@ -290,7 +290,7 @@ setSectionState
 =
 useState
 (
-sectionData
+sectionPersonalization
 )
 ;
 /
@@ -361,7 +361,7 @@ is
 open
 setSectionState
 (
-sectionData
+sectionPersonalization
 )
 ;
 followedSectionsData
@@ -428,14 +428,14 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -502,7 +502,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -529,14 +529,14 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -593,7 +593,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -616,7 +616,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -636,7 +636,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -683,7 +683,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -706,7 +706,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -726,7 +726,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -773,7 +773,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -872,7 +872,7 @@ receivedRank
 const
 following
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -1115,7 +1115,7 @@ receivedRank
 const
 blocked
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]

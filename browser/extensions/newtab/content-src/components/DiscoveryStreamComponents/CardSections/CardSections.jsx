@@ -851,7 +851,7 @@ values
 ;
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 useSelector
@@ -956,7 +956,7 @@ layout
 const
 following
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -1072,7 +1072,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -1108,7 +1108,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -1155,7 +1155,7 @@ MOZ_BUTTON
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 ]
@@ -1178,7 +1178,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -1198,7 +1198,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -1245,7 +1245,7 @@ MOZ_BUTTON
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 ]
@@ -1489,10 +1489,10 @@ following
 {
 following
 }
-sectionData
+sectionPersonalization
 =
 {
-sectionData
+sectionPersonalization
 }
 sectionKey
 =
@@ -2125,7 +2125,7 @@ values
 const
 {
 spocs
-sectionData
+sectionPersonalization
 }
 =
 useSelector
@@ -2208,7 +2208,7 @@ section
 =
 >
 !
-sectionData
+sectionPersonalization
 [
 section
 .

@@ -2808,7 +2808,7 @@ SectionBlock
 :
 (
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 title
@@ -2886,14 +2886,14 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -3070,7 +3070,7 @@ SectionUnfollow
 :
 (
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 }
@@ -3101,7 +3101,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 (
@@ -3121,7 +3121,7 @@ remaining
 remaining
 )
 (
-sectionData
+sectionPersonalization
 )
 }
 )

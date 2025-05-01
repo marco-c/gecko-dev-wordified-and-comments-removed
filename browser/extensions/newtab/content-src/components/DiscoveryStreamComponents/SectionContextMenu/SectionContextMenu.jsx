@@ -126,7 +126,7 @@ index
 dispatch
 sectionKey
 following
-sectionData
+sectionPersonalization
 sectionPosition
 }
 )
@@ -320,7 +320,7 @@ site
 =
 {
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 title

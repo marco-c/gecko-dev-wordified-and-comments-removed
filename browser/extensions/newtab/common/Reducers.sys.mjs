@@ -599,7 +599,7 @@ data
 {
 }
 }
-sectionData
+sectionPersonalization
 :
 {
 }
@@ -4988,7 +4988,7 @@ prevState
 showBlockSectionConfirmation
 :
 true
-sectionData
+sectionPersonalization
 :
 action
 .
@@ -5214,7 +5214,7 @@ false
 case
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 :
 return
 {
@@ -5222,7 +5222,7 @@ return
 .
 .
 prevState
-sectionData
+sectionPersonalization
 :
 action
 .

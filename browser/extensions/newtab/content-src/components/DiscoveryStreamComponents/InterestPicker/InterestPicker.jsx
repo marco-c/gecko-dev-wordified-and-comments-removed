@@ -251,7 +251,7 @@ values
 ;
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 useSelector
@@ -628,7 +628,7 @@ updatedSections
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 if
@@ -779,7 +779,7 @@ type
 :
 at
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSections
@@ -926,7 +926,7 @@ index
 const
 checked
 =
-sectionData
+sectionPersonalization
 [
 interest
 .
