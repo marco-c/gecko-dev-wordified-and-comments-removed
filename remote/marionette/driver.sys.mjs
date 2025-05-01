@@ -24074,7 +24074,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24087,7 +24087,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId
@@ -24135,7 +24135,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24148,7 +24148,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId
@@ -24346,7 +24346,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24359,7 +24359,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId
@@ -24403,7 +24403,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24416,7 +24416,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId
@@ -24483,7 +24483,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24496,7 +24496,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId
@@ -24539,7 +24539,7 @@ lazy
 .
 assert
 .
-string
+positiveInteger
 (
 authenticatorId
 lazy
@@ -24552,7 +24552,7 @@ authenticatorId
 to
 be
 a
-string
+positiveInteger
 got
 {
 authenticatorId

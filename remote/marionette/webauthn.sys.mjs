@@ -309,7 +309,7 @@ authenticator
 *
 param
 {
-string
+id
 }
 authenticatorId
 the
@@ -513,7 +513,7 @@ authenticator
 *
 param
 {
-string
+id
 }
 authenticatorId
 the
@@ -571,7 +571,7 @@ authenticator
 *
 param
 {
-string
+id
 }
 authenticatorId
 the
@@ -631,7 +631,7 @@ authenticator
 *
 param
 {
-string
+id
 }
 authenticatorId
 the
@@ -681,7 +681,7 @@ authenticator
 *
 param
 {
-string
+id
 }
 authenticatorId
 the

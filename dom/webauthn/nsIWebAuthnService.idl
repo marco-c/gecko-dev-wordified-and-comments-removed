@@ -304,7 +304,7 @@ uint64_t
 aIndex
 )
 ;
-ACString
+uint64_t
 addVirtualAuthenticator
 (
 in
@@ -331,7 +331,7 @@ void
 removeVirtualAuthenticator
 (
 in
-ACString
+uint64_t
 authenticatorId
 )
 ;
@@ -339,7 +339,7 @@ void
 addCredential
 (
 in
-ACString
+uint64_t
 authenticatorId
 in
 ACString
@@ -368,7 +368,7 @@ nsICredentialParameters
 getCredentials
 (
 in
-ACString
+uint64_t
 authenticatorId
 )
 ;
@@ -376,7 +376,7 @@ void
 removeCredential
 (
 in
-ACString
+uint64_t
 authenticatorId
 in
 ACString
@@ -387,7 +387,7 @@ void
 removeAllCredentials
 (
 in
-ACString
+uint64_t
 authenticatorId
 )
 ;
@@ -395,7 +395,7 @@ void
 setUserVerified
 (
 in
-ACString
+uint64_t
 authenticatorId
 in
 boolean
