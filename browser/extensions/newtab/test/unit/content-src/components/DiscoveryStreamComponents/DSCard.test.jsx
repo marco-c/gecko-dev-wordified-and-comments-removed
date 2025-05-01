@@ -2065,6 +2065,11 @@ action_position
 value
 :
 {
+event_source
+:
+"
+card
+"
 card_type
 :
 "
@@ -2300,6 +2305,11 @@ action_position
 value
 :
 {
+event_source
+:
+"
+card
+"
 card_type
 :
 "
@@ -2532,6 +2542,11 @@ action_position
 value
 :
 {
+event_source
+:
+"
+card
+"
 card_type
 :
 "
