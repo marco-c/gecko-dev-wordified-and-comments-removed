@@ -218,16 +218,15 @@ modify
 .
 *
 param
-hasCompleted
+value
 The
-new
-'
-completed
-'
-state
-of
+value
+to
+update
 the
 preference
+value
+to
 .
 *
 /
@@ -237,7 +236,7 @@ setPreference
 type
 :
 SetupChecklistPreference
-hasCompleted
+value
 :
 Boolean
 )
@@ -500,7 +499,7 @@ setPreference
 type
 :
 SetupChecklistPreference
-hasCompleted
+value
 :
 Boolean
 )
@@ -519,7 +518,7 @@ settings
 .
 hasCompletedSetupStepToolbar
 =
-hasCompleted
+value
 SetupChecklistPreference
 .
 ThemeComplete
@@ -529,7 +528,7 @@ settings
 .
 hasCompletedSetupStepTheme
 =
-hasCompleted
+value
 SetupChecklistPreference
 .
 ExtensionsComplete
@@ -539,7 +538,7 @@ settings
 .
 hasCompletedSetupStepExtensions
 =
-hasCompleted
+value
 SetupChecklistPreference
 .
 ShowSetupChecklist
@@ -549,7 +548,7 @@ settings
 .
 showSetupChecklist
 =
-hasCompleted
+value
 /
 /
 no

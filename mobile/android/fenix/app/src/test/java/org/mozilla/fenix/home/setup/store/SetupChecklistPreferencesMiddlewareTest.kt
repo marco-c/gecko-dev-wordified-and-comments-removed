@@ -1002,7 +1002,7 @@ setPreference
 type
 :
 SetupChecklistPreference
-hasCompleted
+value
 :
 Boolean
 )
@@ -1012,14 +1012,13 @@ Boolean
 Ensure
 the
 passed
-hasCompleted
 value
 is
 true
 .
 if
 (
-hasCompleted
+value
 )
 {
 setPreferenceInvoked
