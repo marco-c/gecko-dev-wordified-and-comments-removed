@@ -632,13 +632,11 @@ fix
         
 log
 .
-error
+debug
 (
 "
-Rust
+Clippy
 linting
-in
-mach
 does
 not
 support
