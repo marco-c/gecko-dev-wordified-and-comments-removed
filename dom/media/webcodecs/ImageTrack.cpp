@@ -437,7 +437,7 @@ aResult
 mFrames
 )
 {
-VideoColorSpaceInit
+VideoColorSpaceInternal
 colorSpace
 ;
 gfx

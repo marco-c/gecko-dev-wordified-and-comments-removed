@@ -3564,10 +3564,6 @@ aDuration
 )
 aTimestamp
 aColorSpace
-.
-ToColorSpaceInit
-(
-)
 )
 ;
 }
