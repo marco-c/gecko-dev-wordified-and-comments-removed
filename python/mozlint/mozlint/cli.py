@@ -2949,6 +2949,10 @@ workdir
 or
 rev
 )
+            
+and
+not
+setup
         
 )
 :
