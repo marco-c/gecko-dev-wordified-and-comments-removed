@@ -20385,11 +20385,13 @@ nightly_build
 command_context
 .
 substs
-[
+.
+get
+(
 "
 NIGHTLY_BUILD
 "
-]
+)
     
 if
 nightly_build
