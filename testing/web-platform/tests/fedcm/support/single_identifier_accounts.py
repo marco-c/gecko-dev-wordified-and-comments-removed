@@ -107,7 +107,7 @@ john_doe2
 "
    
 "
-phone
+tel
 "
 :
 "
