@@ -607,7 +607,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 alloc
 (
 *
@@ -759,7 +759,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 alloc
 (
 *
@@ -1226,7 +1226,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 alloc
 (
 *
@@ -3356,7 +3356,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 alloc
 (
 *
@@ -4535,7 +4535,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 alloc
 (
 *
