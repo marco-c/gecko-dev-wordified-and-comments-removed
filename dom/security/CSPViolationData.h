@@ -124,14 +124,6 @@ const
 nsAString
 &
 aSample
-const
-nsACString
-&
-aHashSHA256
-=
-"
-"
-_ns
 )
 ;
 ~
@@ -189,10 +181,6 @@ mElement
 const
 nsString
 mSample
-;
-const
-nsCString
-mHashSHA256
 ;
 }
 ;

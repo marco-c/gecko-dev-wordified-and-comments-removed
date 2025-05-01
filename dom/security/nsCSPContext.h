@@ -584,7 +584,7 @@ aSendContentLocationInViolationReports
 )
 ;
 void
-ReportInlineViolation
+reportInlineViolation
 (
 CSPDirective
 aDirective
@@ -609,7 +609,7 @@ aReportSample
 const
 nsAString
 &
-aSourceCode
+aSample
 const
 nsAString
 &
