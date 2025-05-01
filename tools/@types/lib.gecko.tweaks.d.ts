@@ -86,6 +86,7 @@ K
 ]
 ;
 }
+;
 type
 nsIGleanPingWithReason
 <
@@ -121,6 +122,7 @@ K
 ]
 ;
 }
+;
 interface
 MessageListenerManagerMixin
 {
@@ -296,6 +298,7 @@ T
 >
 ;
 }
+;
 }
 interface
 ComponentsExceptionOptions
@@ -304,14 +307,17 @@ result
 ?
 :
 number
+;
 stack
 ?
 :
 nsIStackFrame
+;
 data
 ?
 :
 object
+;
 }
 interface
 nsIException
@@ -356,6 +362,7 @@ string
 )
 :
 nsID
+;
 }
 interface
 nsIXPCComponents_utils_Sandbox
@@ -424,6 +431,7 @@ T
 >
 ;
 }
+;
 }
 interface
 nsXPCComponents_Utils

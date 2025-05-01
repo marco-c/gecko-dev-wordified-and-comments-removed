@@ -21,13 +21,11 @@ P
 ]
 extends
 (
-(
 )
 =
 >
 infer
 U
-)
 ?
 U
 :
@@ -57,6 +55,7 @@ extends
 pref
 :
 string
+;
 default
 ?
 :
@@ -78,6 +77,7 @@ extends
 service
 :
 string
+;
 iid
 ?
 :
@@ -93,12 +93,14 @@ U
 never
 ;
 }
+;
 type
 LazyDefinition
 =
 Record
 <
 string
+|
 string
 |
 (
@@ -113,6 +115,7 @@ any
 service
 :
 string
+;
 iid
 :
 nsIID
@@ -122,10 +125,13 @@ nsIID
 pref
 :
 string
+;
 default
 ?
+;
 onUpdate
 ?
+;
 transform
 ?
 }

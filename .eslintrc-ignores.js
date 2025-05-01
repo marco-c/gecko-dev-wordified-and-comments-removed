@@ -16,6 +16,11 @@ exports
 js
 "
 "
+*
+.
+ts
+"
+"
 .
 vscode
 /

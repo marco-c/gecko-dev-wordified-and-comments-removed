@@ -159,13 +159,20 @@ json
 mjs
 "
 "
+.
 sjs
 "
 "
+.
 html
 "
 "
+.
 xhtml
+"
+"
+.
+ts
 "
 )
     

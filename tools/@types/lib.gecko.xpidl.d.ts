@@ -46,6 +46,7 @@ prototype
 iface
 ;
 }
+;
 type
 nsIID
 =

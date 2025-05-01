@@ -3787,6 +3787,14 @@ ts
 error_list
 .
 json
+tools
+/
+ts
+/
+test
+/
+baselines
+/
 try_task_config
 .
 json

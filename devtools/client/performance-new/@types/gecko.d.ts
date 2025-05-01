@@ -1507,6 +1507,7 @@ FaviconData
 >
 ;
 }
+;
 toURI
 :
 (
