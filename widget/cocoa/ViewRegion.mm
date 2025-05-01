@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsChildView
+nsCocoaWindow
 .
 h
 "
@@ -60,7 +60,7 @@ LayoutDeviceIntRegion
 &
 aRegion
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView

@@ -24,7 +24,7 @@ class
 NSView
 ;
 class
-nsChildView
+nsCocoaWindow
 ;
 namespace
 mozilla
@@ -69,7 +69,7 @@ public
 VibrancyManager
 (
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView
@@ -101,7 +101,7 @@ PrefChanged
 protected
 :
 const
-nsChildView
+nsCocoaWindow
 &
 mCoordinateConverter
 ;

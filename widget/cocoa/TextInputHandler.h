@@ -99,7 +99,7 @@ WritingModes
 h
 "
 class
-nsChildView
+nsCocoaWindow
 ;
 namespace
 mozilla
@@ -1005,14 +1005,14 @@ virtual
 bool
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
 ;
 protected
 :
-nsChildView
+nsCocoaWindow
 *
 mWidget
 ;
@@ -1031,7 +1031,7 @@ mView
 ;
 TextInputHandlerBase
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -2596,7 +2596,7 @@ virtual
 bool
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
@@ -2882,7 +2882,7 @@ mProcessTextSubstitution
 ;
 IMEInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -3201,7 +3201,7 @@ DebugPrintAllKeyboardLayouts
 ;
 TextInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView

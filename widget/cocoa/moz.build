@@ -369,11 +369,6 @@ MediaKeysEventSourceFactory
 cpp
 "
 "
-nsChildView
-.
-mm
-"
-"
 nsClipboard
 .
 mm

@@ -26,7 +26,7 @@ nsTArray
 h
 "
 class
-nsChildView
+nsCocoaWindow
 ;
 class
 NSView
@@ -85,7 +85,7 @@ LayoutDeviceIntRegion
 &
 aRegion
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView

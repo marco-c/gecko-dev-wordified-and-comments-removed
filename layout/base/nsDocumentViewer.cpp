@@ -12810,14 +12810,6 @@ true
 }
 #
 ifdef
-XP_MACOSX
-return
-false
-;
-#
-else
-#
-ifdef
 DEBUG
 nsIWidgetListener
 *
@@ -12857,8 +12849,6 @@ endif
 return
 true
 ;
-#
-endif
 }
 bool
 nsDocumentViewer

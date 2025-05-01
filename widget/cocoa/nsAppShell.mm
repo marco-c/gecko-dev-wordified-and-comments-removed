@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsChildView
+nsCocoaWindow
 .
 h
 "
@@ -2811,7 +2811,7 @@ if
 moreEvents
 )
 {
-nsChildView
+nsCocoaWindow
 :
 :
 UpdateCurrentInputEventCount
