@@ -232,8 +232,6 @@ indexOf
 settings
 .
 shouldBlockCookiesValue
-(
-)
 )
 this
 .
