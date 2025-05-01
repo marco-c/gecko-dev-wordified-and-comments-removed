@@ -4719,6 +4719,12 @@ trc
 )
 {
 }
+size_t
+allocBytes
+(
+)
+const
+;
 void
 *
 data
