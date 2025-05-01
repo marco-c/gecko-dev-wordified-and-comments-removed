@@ -520,6 +520,13 @@ uiState
 displayState
 .
 browserActionsStart
+pageActionsStart
+=
+uiState
+.
+displayState
+.
+pageActionsStart
 pageActions
 =
 uiState
