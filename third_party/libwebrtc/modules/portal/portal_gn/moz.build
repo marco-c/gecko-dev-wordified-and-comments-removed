@@ -178,6 +178,7 @@ drm
 /
 include
 /
+libdrm
 "
 ]
 CXXFLAGS
