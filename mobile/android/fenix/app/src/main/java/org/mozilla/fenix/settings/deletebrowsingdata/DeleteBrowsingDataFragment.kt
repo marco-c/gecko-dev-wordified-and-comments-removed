@@ -416,11 +416,6 @@ requireComponents
 .
 core
 .
-icons
-requireComponents
-.
-core
-.
 engine
 )
 settings
