@@ -3039,7 +3039,7 @@ nurseryOwned
 }
 MOZ_ASSERT
 (
-IsNurseryOwned
+isNurseryOwned
 (
 ptr
 )
@@ -3691,7 +3691,7 @@ bool
 BufferAllocator
 :
 :
-IsNurseryOwned
+isNurseryOwned
 (
 void
 *
@@ -3787,7 +3787,7 @@ alloc
 ;
 MOZ_ASSERT
 (
-IsNurseryOwned
+isNurseryOwned
 (
 alloc
 )
@@ -4085,7 +4085,7 @@ bool
 BufferAllocator
 :
 :
-IsMarkedBlack
+isMarkedBlack
 (
 void
 *
@@ -4101,7 +4101,7 @@ alloc
 )
 {
 return
-IsLargeAllocMarked
+isLargeAllocMarked
 (
 alloc
 )
@@ -4198,7 +4198,7 @@ void
 BufferAllocator
 :
 :
-TraceEdge
+traceEdge
 (
 JSTracer
 *
@@ -4339,28 +4339,12 @@ isTenuringTracer
 {
 if
 (
-IsNurseryOwned
+isNurseryOwned
 (
 buffer
 )
 )
 {
-Zone
-*
-zone
-=
-owner
--
->
-zone
-(
-)
-;
-zone
--
->
-bufferAllocator
-.
 markNurseryOwnedAlloc
 (
 buffer
@@ -4389,7 +4373,7 @@ isMarkingTracer
 if
 (
 !
-IsNurseryOwned
+isNurseryOwned
 (
 buffer
 )
@@ -4404,7 +4388,7 @@ buffer
 )
 )
 ;
-MarkTenuredAlloc
+markTenuredAlloc
 (
 buffer
 )
@@ -4418,7 +4402,7 @@ bool
 BufferAllocator
 :
 :
-MarkTenuredAlloc
+markTenuredAlloc
 (
 void
 *
@@ -4433,7 +4417,7 @@ alloc
 MOZ_ASSERT
 (
 !
-IsNurseryOwned
+isNurseryOwned
 (
 alloc
 )
@@ -4448,7 +4432,7 @@ alloc
 )
 {
 return
-MarkLargeAlloc
+markLargeAlloc
 (
 alloc
 )
@@ -12073,7 +12057,7 @@ bool
 BufferAllocator
 :
 :
-IsLargeAllocMarked
+isLargeAllocMarked
 (
 void
 *
@@ -12103,7 +12087,7 @@ bool
 BufferAllocator
 :
 :
-MarkLargeAlloc
+markLargeAlloc
 (
 void
 *

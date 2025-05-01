@@ -2815,6 +2815,7 @@ CHECK
 (
 IsNurseryOwned
 (
+zone
 alloc
 )
 =
@@ -2842,6 +2843,7 @@ CHECK
 !
 IsBufferAllocMarkedBlack
 (
+zone
 alloc
 )
 )
@@ -3132,6 +3134,7 @@ CHECK
 (
 IsNurseryOwned
 (
+zone
 alloc
 )
 =
@@ -3207,6 +3210,7 @@ CHECK
 (
 IsNurseryOwned
 (
+zone
 alloc
 )
 =
@@ -3251,6 +3255,7 @@ CHECK
 (
 IsNurseryOwned
 (
+zone
 alloc
 )
 =
@@ -3292,6 +3297,7 @@ CHECK
 (
 IsNurseryOwned
 (
+zone
 alloc
 )
 =
