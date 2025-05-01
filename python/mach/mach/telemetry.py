@@ -307,6 +307,12 @@ pathlib
 import
 Path
     
+telemetry_interface
+=
+GleanTelemetry
+(
+)
+    
 Glean
 .
 initialize
@@ -340,9 +346,7 @@ glean
 )
     
 return
-GleanTelemetry
-(
-)
+telemetry_interface
 def
 report_invocation_metrics
 (
