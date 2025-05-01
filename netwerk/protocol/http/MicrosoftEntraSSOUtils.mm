@@ -1131,7 +1131,6 @@ SSORequestDelegate
 :
 :
 didCompleteWithAuthorization
-failure
 "
 [
 callback
