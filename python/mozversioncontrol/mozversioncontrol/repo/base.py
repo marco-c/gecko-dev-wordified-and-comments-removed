@@ -791,7 +791,7 @@ abc
 abstractmethod
     
 def
-base_ref_as_commit
+base_ref_as_hg
 (
 self
 )
@@ -800,7 +800,7 @@ self
 "
 "
 "
-Git
+Mercurial
 hash
 of
 revision
@@ -812,6 +812,23 @@ is
 based
 on
 .
+        
+Return
+None
+if
+the
+hg
+hash
+of
+the
+base
+ref
+could
+not
+be
+calculated
+.
+        
 "
 "
 "

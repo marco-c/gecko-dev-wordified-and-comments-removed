@@ -257,26 +257,16 @@ node
 )
     
 def
-base_ref_as_commit
+base_ref_as_hg
 (
 self
 )
 :
         
-raise
-Exception
-(
-"
-unimplemented
-:
-convert
-hg
-rev
-to
-git
-rev
-"
-)
+return
+self
+.
+base_ref
     
 property
     

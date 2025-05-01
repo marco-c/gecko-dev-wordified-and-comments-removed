@@ -315,7 +315,7 @@ base_ref
 =
 repo
 .
-base_ref_as_commit
+base_ref_as_hg
 (
 )
     
