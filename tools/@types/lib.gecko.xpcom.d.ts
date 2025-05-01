@@ -61237,6 +61237,11 @@ string
 :
 nsISearchSubmission
 ;
+readonly
+searchURLWithNoTerms
+:
+nsIURI
+;
 searchTermFromResult
 (
 uri
@@ -61323,6 +61328,11 @@ string
 ;
 readonly
 identifier
+:
+string
+;
+readonly
+loadPath
 :
 string
 ;
