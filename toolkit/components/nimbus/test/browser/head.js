@@ -197,6 +197,13 @@ registerCleanupFunction
 =
 >
 {
+registerCleanupFunction
+(
+(
+)
+=
+>
+{
 NimbusTestUtils
 .
 assert
@@ -212,6 +219,9 @@ sandbox
 .
 restore
 (
+)
+;
+}
 )
 ;
 }
