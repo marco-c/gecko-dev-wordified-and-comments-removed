@@ -475,7 +475,6 @@ Dx12Compiler
 :
 DynamicDxc
 {
-dxil_path
 dxc_path
 max_shader_model
 }
@@ -494,11 +493,6 @@ shader_compilation
 get_dynamic_dxc_container
 (
 dxc_path
-.
-into
-(
-)
-dxil_path
 .
 into
 (

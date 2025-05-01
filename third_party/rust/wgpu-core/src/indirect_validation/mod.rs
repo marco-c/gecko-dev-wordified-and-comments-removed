@@ -180,6 +180,12 @@ wgt
 :
 :
 Features
+backend
+:
+wgt
+:
+:
+Backend
 )
 -
 >
@@ -259,6 +265,7 @@ new
 (
 device
 required_features
+backend
 )
 {
 Ok
