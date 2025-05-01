@@ -390,13 +390,12 @@ firstCall
 .
 args
 [
-0
-]
 "
 test
 -
 path
 "
+]
 )
 ;
 Assert

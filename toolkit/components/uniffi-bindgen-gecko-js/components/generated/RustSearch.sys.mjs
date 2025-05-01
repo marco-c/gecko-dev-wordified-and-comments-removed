@@ -2219,7 +2219,7 @@ UniFFIScaffolding
 .
 callSync
 (
-32
+31
 /
 /
 search
@@ -2316,7 +2316,7 @@ UniFFIScaffolding
 .
 callSync
 (
-27
+26
 /
 /
 search
@@ -2464,7 +2464,7 @@ UniFFIScaffolding
 .
 callSync
 (
-28
+27
 /
 /
 search
@@ -2580,7 +2580,7 @@ UniFFIScaffolding
 .
 callSync
 (
-29
+28
 /
 /
 search
@@ -2745,7 +2745,7 @@ UniFFIScaffolding
 .
 callSync
 (
-30
+29
 /
 /
 search
@@ -2898,7 +2898,17 @@ undefined
 const
 liftError
 =
-null
+(
+data
+)
+=
+>
+FfiConverterTypeSearchApiError
+.
+lift
+(
+data
+)
 ;
 const
 functionCall
@@ -2983,7 +2993,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-31
+30
 /
 /
 search

@@ -3107,7 +3107,17 @@ result
 const
 liftError
 =
-null
+(
+data
+)
+=
+>
+FfiConverterTypeSuggestApiError
+.
+lift
+(
+data
+)
 ;
 const
 functionCall
@@ -3192,7 +3202,7 @@ UniFFIScaffolding
 .
 callSync
 (
-49
+48
 /
 /
 suggest
@@ -3289,7 +3299,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-34
+33
 /
 /
 suggest
@@ -3395,7 +3405,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-35
+34
 /
 /
 suggest
@@ -3497,7 +3507,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-36
+35
 /
 /
 suggest
@@ -3683,7 +3693,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-37
+36
 /
 /
 suggest
@@ -3837,7 +3847,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-38
+37
 /
 /
 suggest
@@ -4010,7 +4020,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-39
+38
 /
 /
 suggest
@@ -4511,7 +4521,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-40
+39
 /
 /
 suggest
@@ -4650,7 +4660,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-41
+40
 /
 /
 suggest
@@ -4804,7 +4814,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-42
+41
 /
 /
 suggest
@@ -4962,7 +4972,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-43
+42
 /
 /
 suggest
@@ -5138,7 +5148,7 @@ UniFFIScaffolding
 .
 callSync
 (
-44
+43
 /
 /
 suggest
@@ -5320,7 +5330,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-45
+44
 /
 /
 suggest
@@ -5517,7 +5527,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-46
+45
 /
 /
 suggest
@@ -5678,7 +5688,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-47
+46
 /
 /
 suggest
@@ -5835,7 +5845,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-48
+47
 /
 /
 suggest
@@ -6243,7 +6253,7 @@ UniFFIScaffolding
 .
 callSync
 (
-57
+56
 /
 /
 suggest
@@ -6321,7 +6331,7 @@ UniFFIScaffolding
 .
 callSync
 (
-50
+49
 /
 /
 suggest
@@ -6442,7 +6452,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-51
+50
 /
 /
 suggest
@@ -6584,7 +6594,7 @@ UniFFIScaffolding
 .
 callSync
 (
-52
+51
 /
 /
 suggest
@@ -6798,7 +6808,7 @@ UniFFIScaffolding
 .
 callSync
 (
-53
+52
 /
 /
 suggest
@@ -6920,7 +6930,7 @@ UniFFIScaffolding
 .
 callSync
 (
-54
+53
 /
 /
 suggest
@@ -7036,7 +7046,7 @@ UniFFIScaffolding
 .
 callSync
 (
-55
+54
 /
 /
 suggest
@@ -7152,7 +7162,7 @@ UniFFIScaffolding
 .
 callSync
 (
-56
+55
 /
 /
 suggest
@@ -22685,7 +22695,7 @@ UniFFIScaffolding
 .
 callSync
 (
-33
+32
 /
 /
 suggest

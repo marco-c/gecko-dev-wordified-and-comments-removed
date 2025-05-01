@@ -1298,8 +1298,6 @@ enum
 AmpMatchingStrategy
 {
 NoKeywordExpansion
-=
-1
 FtsAgainstFullKeywords
 FtsAgainstTitle
 }
