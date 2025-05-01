@@ -1495,12 +1495,6 @@ ACTIVE_WEBTRANSPORT
 <
 <
 17
-PAGE_LOADING
-=
-1
-<
-<
-18
 }
 ;
 }
