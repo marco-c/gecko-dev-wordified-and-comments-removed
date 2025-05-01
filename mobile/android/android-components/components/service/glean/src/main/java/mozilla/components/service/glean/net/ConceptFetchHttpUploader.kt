@@ -313,6 +313,13 @@ usePrivateRequest
 Boolean
 =
 false
+private
+val
+supportsOhttp
+:
+Boolean
+=
+false
 )
 :
 PingUploader
@@ -551,6 +558,10 @@ isEmpty
 )
 |
 |
+(
+supportsOhttp
+&
+&
 capabilities
 =
 =
@@ -559,6 +570,7 @@ listOf
 "
 ohttp
 "
+)
 )
 }
 if
@@ -762,6 +774,9 @@ conservative
 true
 useOhttp
 =
+supportsOhttp
+&
+&
 request
 .
 uploaderCapabilities

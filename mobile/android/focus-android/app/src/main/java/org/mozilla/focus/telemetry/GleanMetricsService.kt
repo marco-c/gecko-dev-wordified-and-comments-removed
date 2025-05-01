@@ -878,6 +878,9 @@ client
 usePrivateRequest
 =
 true
+supportsOhttp
+=
+true
 )
 )
 buildInfo

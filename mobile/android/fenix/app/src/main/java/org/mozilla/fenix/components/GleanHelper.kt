@@ -367,6 +367,9 @@ NONE
 {
 client
 }
+supportsOhttp
+=
+true
 )
 enableEventTimestamps
 =
