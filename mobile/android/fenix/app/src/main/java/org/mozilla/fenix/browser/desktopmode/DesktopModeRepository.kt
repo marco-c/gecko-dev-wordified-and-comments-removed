@@ -75,6 +75,12 @@ Context
 import
 androidx
 .
+annotation
+.
+VisibleForTesting
+import
+androidx
+.
 datastore
 .
 core
@@ -313,7 +319,8 @@ preferencesDataStore
 :
 DesktopModeRepository
 {
-private
+VisibleForTesting
+internal
 val
 defaultDesktopMode
 by
