@@ -35,13 +35,6 @@ js
 ]
 [
 "
-browser_policies_enterprise_only
-.
-js
-"
-]
-[
-"
 browser_policies_gpo
 .
 js
