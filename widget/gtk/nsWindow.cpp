@@ -1014,7 +1014,7 @@ GTK_CHECK_VERSION
 (
 3
 22
-0
+23
 )
 constexpr
 gint
