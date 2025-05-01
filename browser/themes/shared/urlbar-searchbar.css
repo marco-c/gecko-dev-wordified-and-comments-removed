@@ -8132,6 +8132,17 @@ wrapper
 search
 -
 container
+:
+not
+(
+[
+place
+=
+"
+panel
+"
+]
+)
 {
 flex
 :
