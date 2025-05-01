@@ -7679,8 +7679,11 @@ mFontEntry
 -
 >
 mHasSpaceFeatures
-=
+.
+exchange
+(
 flags
+)
 ;
 }
 )
