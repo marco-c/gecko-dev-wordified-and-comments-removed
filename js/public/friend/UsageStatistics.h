@@ -526,6 +526,12 @@ _
 OPTIMIZE_PROMISE_LOOKUP_FUSE
 OptimizePromiseLookupFuse
 )
+\
+_
+(
+REGEXP_SYMBOL_PROTOCOL_ON_PRIMITIVE
+RegExpSymbolProtocolOnPrimitive
+)
 #
 define
 ENUM_DEF
