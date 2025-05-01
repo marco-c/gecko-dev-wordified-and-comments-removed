@@ -272,13 +272,13 @@ mozilla
 TimeStamp
 MostRecentRefresh
 (
-bool
-aEnsureTimerStarted
-=
-true
 )
 const
+{
+return
+mMostRecentRefresh
 ;
+}
 void
 AddRefreshObserver
 (

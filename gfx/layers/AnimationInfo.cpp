@@ -3142,7 +3142,6 @@ RefreshDriver
 >
 MostRecentRefresh
 (
-false
 )
 ;
 MOZ_ASSERT
