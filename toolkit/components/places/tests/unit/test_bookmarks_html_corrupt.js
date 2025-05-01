@@ -649,16 +649,11 @@ let
 favicon
 =
 await
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 getFaviconForPage
 (
-uri
-(
 TEST_FAVICON_PAGE_URL
-)
 )
 ;
 Assert

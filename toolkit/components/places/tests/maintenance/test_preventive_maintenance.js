@@ -12280,9 +12280,7 @@ let
 favicon
 =
 await
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 getFaviconForPage
 (
