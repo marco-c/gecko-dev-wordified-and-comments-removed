@@ -12,6 +12,11 @@ TestAccessibleCaretManager
 .
 cpp
 "
+"
+TestUniqueOrNonOwningPtr
+.
+cpp
+"
 ]
 if
 CONFIG
