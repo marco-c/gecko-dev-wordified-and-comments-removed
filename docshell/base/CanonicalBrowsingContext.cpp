@@ -6695,13 +6695,6 @@ NotifyOnHistoryReplaceEntry
 (
 )
 ;
-shistory
--
->
-UpdateRootBrowsingContextState
-(
-)
-;
 }
 ResetSHEntryHasUserInteractionCache
 (

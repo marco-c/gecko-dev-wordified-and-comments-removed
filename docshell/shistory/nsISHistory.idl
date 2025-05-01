@@ -1753,15 +1753,6 @@ boolean
 aCloneChildren
 )
 ;
-[
-noscript
-notxpcom
-]
-boolean
-isEmptyOrHasEntriesForSingleTopLevelPage
-(
-)
-;
 /
 *
 *
