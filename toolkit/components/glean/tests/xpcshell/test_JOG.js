@@ -2226,7 +2226,7 @@ jogLabeledBool
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -2623,7 +2623,7 @@ jogLabeledCounter
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -2842,7 +2842,7 @@ jogLabeledCounterWithLabels
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -3036,7 +3036,7 @@ jogLabeledString
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -3255,7 +3255,7 @@ jogLabeledStringWithLabels
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -5183,7 +5183,7 @@ jogLabeledQuantity
 .
 repeat
 (
-72
+112
 )
 ]
 .
