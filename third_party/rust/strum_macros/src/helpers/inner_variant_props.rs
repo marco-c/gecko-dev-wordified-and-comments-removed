@@ -51,9 +51,6 @@ StrumInnerVariantProperties
 derive
 (
 Clone
-Eq
-PartialEq
-Debug
 Default
 )
 ]

@@ -883,6 +883,10 @@ representation
 "
 ]
 #
+[
+inline
+]
+#
 vis
 #
 const_if_possible
