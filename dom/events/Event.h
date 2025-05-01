@@ -1323,10 +1323,8 @@ nsAString
 aEventTypeArg
 )
 ;
-already_AddRefed
-<
 nsIContent
->
+*
 GetTargetFromFrame
 (
 )

@@ -6914,7 +6914,8 @@ DetermineDisplaySelection
 public
 :
 virtual
-nsresult
+nsIContent
+*
 GetContentForEvent
 (
 const
@@ -6923,12 +6924,8 @@ mozilla
 :
 WidgetEvent
 *
-aEvent
-nsIContent
-*
-*
-aContent
 )
+const
 ;
 struct
 MOZ_STACK_CLASS

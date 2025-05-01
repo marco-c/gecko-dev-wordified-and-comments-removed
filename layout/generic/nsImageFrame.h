@@ -359,7 +359,8 @@ IsLeafDynamic
 const
 override
 ;
-nsresult
+nsIContent
+*
 GetContentForEvent
 (
 const
@@ -368,11 +369,8 @@ mozilla
 :
 WidgetEvent
 *
-nsIContent
-*
-*
-aContent
 )
+const
 final
 ;
 nsresult
@@ -1081,8 +1079,8 @@ TranslateEventCoords
 const
 nsPoint
 &
-aPoint
 )
+const
 ;
 bool
 GetAnchorHREFTargetAndNode
