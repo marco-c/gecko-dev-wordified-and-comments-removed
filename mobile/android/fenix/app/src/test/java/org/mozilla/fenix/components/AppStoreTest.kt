@@ -5799,9 +5799,10 @@ the
 setup
 checklist
 state
-remains
-the
-same
+visible
+value
+is
+updated
 (
 )
 {
@@ -5830,6 +5831,9 @@ assertEquals
 (
 SetupChecklistState
 (
+isVisible
+=
+true
 )
 appState
 .

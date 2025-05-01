@@ -1113,6 +1113,11 @@ setupChecklistState
 !
 =
 null
+&
+&
+setupChecklistState
+.
+isVisible
 )
 {
 SetupChecklist
