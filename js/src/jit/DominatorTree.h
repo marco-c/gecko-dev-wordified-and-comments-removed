@@ -11,6 +11,9 @@ js
 jit
 {
 class
+MIRGenerator
+;
+class
 MIRGraph
 ;
 [
@@ -21,6 +24,10 @@ nodiscard
 bool
 BuildDominatorTree
 (
+const
+MIRGenerator
+*
+mir
 MIRGraph
 &
 graph

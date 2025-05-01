@@ -27,6 +27,9 @@ nodiscard
 bool
 ReorderInstructions
 (
+MIRGenerator
+*
+mir
 MIRGraph
 &
 graph

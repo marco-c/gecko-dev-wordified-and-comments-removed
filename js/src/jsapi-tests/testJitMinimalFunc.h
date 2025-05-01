@@ -360,6 +360,8 @@ if
 !
 BuildDominatorTree
 (
+&
+mir
 graph
 )
 )
@@ -439,6 +441,8 @@ if
 !
 BuildDominatorTree
 (
+&
+mir
 graph
 )
 )
