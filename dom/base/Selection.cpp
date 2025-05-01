@@ -4557,6 +4557,10 @@ RemoveAllRangesInternal
 IgnoreErrors
 (
 )
+IsUnlinking
+:
+:
+Yes
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -7604,6 +7608,8 @@ Clear
 nsPresContext
 *
 aPresContext
+IsUnlinking
+aIsUnlinking
 )
 {
 RemoveAnchorFocusRange
@@ -11389,6 +11395,8 @@ StyledRanges
 :
 UnregisterSelection
 (
+IsUnlinking
+aIsUnlinking
 )
 {
 uint32_t
@@ -11427,6 +11435,7 @@ mRange
 UnregisterSelection
 (
 mSelection
+aIsUnlinking
 )
 ;
 }
@@ -12553,6 +12562,8 @@ RemoveAllRangesInternal
 ErrorResult
 &
 aRv
+IsUnlinking
+aIsUnlinking
 )
 {
 if
@@ -12584,6 +12595,7 @@ GetPresContext
 Clear
 (
 presContext
+aIsUnlinking
 )
 ;
 RefPtr
