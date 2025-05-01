@@ -541,6 +541,18 @@ arch
 )
 :
     
+rpm_arch
+=
+_RPM_ARCH
+.
+get
+(
+arch
+"
+noarch
+"
+)
+    
 shutil
 .
 copy
@@ -600,7 +612,7 @@ join
         
 target_dir
         
-arch
+rpm_arch
         
 f
 "
@@ -636,7 +648,7 @@ PKG_BUILD_NUMBER
 }
 .
 {
-arch
+rpm_arch
 }
 .
 rpm
