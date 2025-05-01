@@ -398,6 +398,9 @@ WebCompatReporterSubmissionMiddleware
 appStore
 =
 appStore
+browserStore
+=
+browserStore
 webCompatReporterRetrievalService
 =
 DefaultWebCompatReporterRetrievalService

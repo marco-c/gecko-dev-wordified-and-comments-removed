@@ -430,7 +430,7 @@ navEvent
 is
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+SendMoreInfoSubmitted
 -
 >
 {
