@@ -670,6 +670,13 @@ shims
 js
 "
 "
+lib
+/
+smartblock_embeds_helper
+.
+js
+"
+"
 run
 .
 js
