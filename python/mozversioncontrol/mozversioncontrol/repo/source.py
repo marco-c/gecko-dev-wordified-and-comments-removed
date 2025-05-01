@@ -773,6 +773,26 @@ value
 pass
     
 def
+get_branch_nodes
+(
+self
+head
+=
+None
+limit
+=
+None
+follow
+=
+None
+)
+:
+        
+return
+[
+]
+    
+def
 get_last_modified_time_for_file
 (
 self
