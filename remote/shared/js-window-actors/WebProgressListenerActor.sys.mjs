@@ -137,7 +137,7 @@ false
 ;
 export
 function
-isNavigationListenerActorRegistered
+isWebProgressListenerActorRegistered
 (
 )
 {
@@ -151,7 +151,7 @@ registered
 *
 Register
 the
-NavigationListener
+WebProgressListener
 actor
 that
 will
@@ -167,7 +167,7 @@ navigations
 /
 export
 function
-registerNavigationListenerActor
+registerWebProgressListenerActor
 (
 )
 {
@@ -186,7 +186,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-NavigationListener
+WebProgressListener
 "
 {
 kind
@@ -216,7 +216,7 @@ window
 -
 actors
 /
-NavigationListenerParent
+WebProgressListenerParent
 .
 sys
 .
@@ -245,7 +245,7 @@ window
 -
 actors
 /
-NavigationListenerChild
+WebProgressListenerChild
 .
 sys
 .
@@ -281,7 +281,7 @@ true
 /
 Ensure
 the
-navigation
+WebProgress
 listener
 is
 started
@@ -345,7 +345,7 @@ currentWindowGlobal
 getActor
 (
 "
-NavigationListener
+WebProgressListener
 "
 )
 /
@@ -412,7 +412,7 @@ logger
 .
 warn
 (
-NavigationListener
+WebProgressListener
 actor
 is
 already
@@ -431,7 +431,7 @@ e
 }
 export
 function
-unregisterNavigationListenerActor
+unregisterWebProgressListenerActor
 (
 )
 {
@@ -449,7 +449,7 @@ ChromeUtils
 unregisterWindowActor
 (
 "
-NavigationListener
+WebProgressListener
 "
 )
 ;

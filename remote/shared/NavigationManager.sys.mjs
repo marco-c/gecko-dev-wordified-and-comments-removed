@@ -169,7 +169,7 @@ sys
 .
 mjs
 "
-registerNavigationListenerActor
+registerWebProgressListenerActor
 :
 "
 chrome
@@ -188,7 +188,7 @@ window
 -
 actors
 /
-NavigationListenerActor
+WebProgressListenerActor
 .
 sys
 .
@@ -232,7 +232,7 @@ sys
 .
 mjs
 "
-unregisterNavigationListenerActor
+unregisterWebProgressListenerActor
 :
 "
 chrome
@@ -251,7 +251,7 @@ window
 -
 actors
 /
-NavigationListenerActor
+WebProgressListenerActor
 .
 sys
 .
@@ -460,7 +460,7 @@ a
 JSWindowActor
 pair
 called
-NavigationListener
+WebProgressListener
 {
 Parent
 |
@@ -485,7 +485,7 @@ simple
 overview
 the
 *
-NavigationListenerChild
+WebProgressListenerChild
 will
 monitor
 navigations
@@ -507,7 +507,7 @@ update
 to
 *
 the
-NavigationListenerParent
+WebProgressListenerParent
 *
 *
 The
@@ -530,7 +530,7 @@ also
 be
 called
 by
-NavigationListenerParent
+WebProgressListenerParent
 *
 whenever
 a
@@ -580,7 +580,7 @@ to
 know
 if
 the
-NavigationListenerActor
+WebProgressListenerActor
 should
 be
 registered
@@ -929,7 +929,7 @@ will
 register
 *
 the
-NavigationListener
+WebProgressListener
 JSWindowActor
 and
 will
@@ -964,7 +964,7 @@ size
 {
 lazy
 .
-registerNavigationListenerActor
+registerWebProgressListenerActor
 (
 )
 ;
@@ -1010,7 +1010,7 @@ This
 will
 unregister
 the
-NavigationListener
+WebProgressListener
 *
 JSWindowActor
 and
@@ -1090,7 +1090,7 @@ stopListening
 ;
 lazy
 .
-unregisterNavigationListenerActor
+unregisterWebProgressListenerActor
 (
 )
 ;
@@ -1126,7 +1126,7 @@ recorded
 from
 the
 *
-NavigationListener
+WebProgressListener
 actors
 .
 *
@@ -1142,7 +1142,7 @@ be
 called
 from
 *
-NavigationListenerParent
+WebProgressListenerParent
 to
 avoid
 setting
@@ -1395,7 +1395,7 @@ recorded
 from
 the
 *
-NavigationListener
+WebProgressListener
 actors
 .
 *
@@ -1411,7 +1411,7 @@ be
 called
 from
 *
-NavigationListenerParent
+WebProgressListenerParent
 to
 avoid
 setting
@@ -1667,7 +1667,7 @@ recorded
 from
 the
 *
-NavigationListener
+WebProgressListener
 actors
 .
 *
@@ -1683,7 +1683,7 @@ be
 called
 from
 *
-NavigationListenerParent
+WebProgressListenerParent
 to
 avoid
 setting
@@ -1991,7 +1991,7 @@ recorded
 from
 the
 *
-NavigationListener
+WebProgressListener
 actors
 .
 *
@@ -2007,7 +2007,7 @@ be
 called
 from
 *
-NavigationListenerParent
+WebProgressListenerParent
 to
 avoid
 setting
@@ -2799,7 +2799,7 @@ recorded
 from
 the
 *
-NavigationListener
+WebProgressListener
 actors
 .
 *
@@ -4040,7 +4040,7 @@ to
 be
 called
 from
-NavigationListenerParent
+WebProgressListenerParent
 *
 to
 avoid
@@ -4100,7 +4100,7 @@ to
 be
 called
 from
-NavigationListenerParent
+WebProgressListenerParent
 *
 to
 avoid
@@ -4160,7 +4160,7 @@ to
 be
 called
 from
-NavigationListenerParent
+WebProgressListenerParent
 *
 to
 avoid
@@ -4220,7 +4220,7 @@ to
 be
 called
 from
-NavigationListenerParent
+WebProgressListenerParent
 *
 to
 avoid
@@ -4280,7 +4280,7 @@ to
 be
 called
 from
-NavigationListenerParent
+WebProgressListenerParent
 *
 to
 avoid

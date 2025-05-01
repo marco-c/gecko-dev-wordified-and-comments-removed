@@ -973,7 +973,7 @@ window
 -
 actors
 /
-NavigationListenerActor
+WebProgressListenerActor
 .
 sys
 .
@@ -987,7 +987,7 @@ window
 -
 actors
 /
-NavigationListenerActor
+WebProgressListenerActor
 .
 sys
 .
@@ -1003,7 +1003,7 @@ window
 -
 actors
 /
-NavigationListenerChild
+WebProgressListenerChild
 .
 sys
 .
@@ -1017,7 +1017,7 @@ window
 -
 actors
 /
-NavigationListenerChild
+WebProgressListenerChild
 .
 sys
 .
@@ -1033,7 +1033,7 @@ window
 -
 actors
 /
-NavigationListenerParent
+WebProgressListenerParent
 .
 sys
 .
@@ -1047,7 +1047,7 @@ window
 -
 actors
 /
-NavigationListenerParent
+WebProgressListenerParent
 .
 sys
 .
