@@ -12283,14 +12283,14 @@ false
 -
 name
 :
-WasmPostWriteBarrierWholeCell
+WasmPostWriteBarrierImmediate
 gen_boilerplate
 :
 false
 -
 name
 :
-WasmPostWriteBarrierEdgeAtIndex
+WasmPostWriteBarrierIndex
 gen_boilerplate
 :
 false

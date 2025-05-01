@@ -14768,7 +14768,7 @@ object
 -
 name
 :
-WasmPostWriteBarrierWholeCell
+WasmPostWriteBarrierImmediate
 operands
 :
 instance
@@ -14777,9 +14777,17 @@ WordSized
 object
 :
 WordSized
+valueBase
+:
+WordSized
 value
 :
 WordSized
+arguments
+:
+valueOffset
+:
+uint32_t
 num_temps
 :
 1
@@ -14802,7 +14810,7 @@ offset
 -
 name
 :
-WasmPostWriteBarrierEdgeAtIndex
+WasmPostWriteBarrierIndex
 operands
 :
 instance
