@@ -94,6 +94,12 @@ WantAllTraces
 ;
 }
 static
+void
+CleanupForForgetSkippable
+(
+)
+;
+static
 uint32_t
 sGeneration
 ;
@@ -111,6 +117,13 @@ nsCCUncollectableMarker
 )
 =
 default
+;
+nsresult
+Cleanup
+(
+bool
+aPrepareForCC
+)
 ;
 }
 ;
