@@ -1821,6 +1821,16 @@ aEventNameWithOn
 const
 ;
 bool
+HasNonPassiveListenersFor
+(
+const
+WidgetEvent
+*
+aEvent
+)
+const
+;
+bool
 HasNonSystemGroupListenersFor
 (
 nsAtom
@@ -2632,8 +2642,6 @@ const
 WidgetEvent
 *
 aEvent
-EventMessage
-aEventMessage
 )
 const
 ;
