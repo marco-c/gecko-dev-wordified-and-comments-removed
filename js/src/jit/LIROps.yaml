@@ -14768,7 +14768,7 @@ object
 -
 name
 :
-WasmPostWriteBarrierImmediate
+WasmPostWriteBarrierWholeCell
 operands
 :
 instance
@@ -14802,7 +14802,7 @@ offset
 -
 name
 :
-WasmPostWriteBarrierIndex
+WasmPostWriteBarrierEdgeAtIndex
 operands
 :
 instance

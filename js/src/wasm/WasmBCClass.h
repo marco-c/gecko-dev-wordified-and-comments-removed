@@ -473,8 +473,8 @@ enum
 class
 PostBarrierKind
 {
-Precise
 Imprecise
+Precise
 WholeCell
 }
 ;
@@ -4684,7 +4684,7 @@ nodiscard
 ]
 ]
 bool
-emitPostBarrierImprecise
+emitPostBarrierEdgeImprecise
 (
 const
 mozilla
@@ -4708,7 +4708,7 @@ nodiscard
 ]
 ]
 bool
-emitPostBarrierPrecise
+emitPostBarrierEdgePrecise
 (
 const
 mozilla
