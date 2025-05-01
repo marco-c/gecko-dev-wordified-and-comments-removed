@@ -407,15 +407,6 @@ wasmBatchBaselineThreshold
 uint32_t
 wasmBatchIonThreshold
 ;
-mozilla
-:
-:
-Maybe
-<
-IonRegisterAllocator
->
-forcedRegisterAllocator
-;
 #
 ifdef
 ENABLE_JS_AOT_ICS
