@@ -369,11 +369,6 @@ super
 .
 _run
 (
-*
-(
-args
-+
-(
 "
 -
 -
@@ -383,8 +378,8 @@ working
 -
 copy
 "
-)
-)
+*
+args
 *
 *
 kwargs
