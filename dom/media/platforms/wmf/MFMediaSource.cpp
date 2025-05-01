@@ -1532,6 +1532,10 @@ State
 :
 Shutdowned
 ;
+mCDMProxy
+=
+nullptr
+;
 LOG
 (
 "
