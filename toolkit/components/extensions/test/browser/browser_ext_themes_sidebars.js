@@ -708,7 +708,6 @@ set
 "
 )
 ;
-}
 is
 (
 rootCS
@@ -742,6 +741,7 @@ set
 "
 )
 ;
+}
 is
 (
 highlightCS
