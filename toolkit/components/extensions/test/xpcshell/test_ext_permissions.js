@@ -4110,6 +4110,9 @@ normandyAddonStudy
 "
 search
 "
+"
+tabGroups
+"
 )
 ;
 }

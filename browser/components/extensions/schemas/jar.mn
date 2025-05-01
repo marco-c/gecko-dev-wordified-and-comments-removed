@@ -216,6 +216,15 @@ browser
 /
 schemas
 /
+tabGroups
+.
+json
+content
+/
+browser
+/
+schemas
+/
 tabs
 .
 json
