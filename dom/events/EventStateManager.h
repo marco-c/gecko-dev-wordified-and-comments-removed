@@ -1226,11 +1226,11 @@ mGestureDownContent
 ;
 }
 void
-NotifyDestroyingFrameForGesture
+NotifyContentWillBeRemovedForGesture
 (
-nsIFrame
-*
-aFrame
+nsIContent
+&
+aContent
 )
 ;
 bool
