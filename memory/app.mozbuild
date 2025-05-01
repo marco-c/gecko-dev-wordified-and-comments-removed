@@ -37,6 +37,12 @@ memory
 /
 mfbt
 "
+"
+/
+third_party
+/
+fmt
+"
 ]
 EXPORTS
 .

@@ -1,3 +1,16 @@
+if
+CONFIG
+[
+"
+MOZ_BUILD_APP
+"
+]
+!
+=
+"
+memory
+"
+:
 FINAL_LIBRARY
 =
 "
