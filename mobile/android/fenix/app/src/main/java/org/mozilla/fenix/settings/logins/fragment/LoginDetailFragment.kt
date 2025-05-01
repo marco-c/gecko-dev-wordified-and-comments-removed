@@ -433,7 +433,7 @@ settings
 .
 biometric
 .
-bindBiometricsCredentialsPromptOrShowWarning
+DefaultBiometricUtils
 import
 org
 .
@@ -983,6 +983,10 @@ setSecureContentVisibility
 (
 false
 )
+DefaultBiometricUtils
+(
+)
+.
 bindBiometricsCredentialsPromptOrShowWarning
 (
 view
