@@ -30,6 +30,17 @@ mochitest
 /
 mochitest
 -
+disabled
+.
+toml
+"
+"
+tests
+/
+mochitest
+/
+mochitest
+-
 no
 -
 pref
