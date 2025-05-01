@@ -6001,6 +6001,15 @@ fill
 :
 currentColor
 ;
+-
+moz
+-
+user
+-
+focus
+:
+none
+;
 }
 input
 :
