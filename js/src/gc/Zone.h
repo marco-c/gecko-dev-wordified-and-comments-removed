@@ -2974,11 +2974,6 @@ numRealmsWithAllocMetadataBuilder_
 ;
 }
 void
-prepareForCompacting
-(
-)
-;
-void
 traceRootsInMajorGC
 (
 JSTracer
@@ -3187,6 +3182,11 @@ fixupAllCrossCompartmentWrappersAfterMovingGC
 JSTracer
 *
 trc
+)
+;
+void
+prepareForMovingGC
+(
 )
 ;
 void

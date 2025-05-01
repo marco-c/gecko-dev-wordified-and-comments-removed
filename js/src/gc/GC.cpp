@@ -20162,6 +20162,14 @@ beginCompactPhase
 )
 ;
 }
+nursery
+(
+)
+.
+joinSweepTask
+(
+)
+;
 if
 (
 compactPhase
