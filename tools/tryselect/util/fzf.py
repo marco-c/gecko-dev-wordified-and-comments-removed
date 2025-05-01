@@ -2087,6 +2087,18 @@ splitlines
 (
 )
     
+if
+proc
+.
+returncode
+=
+=
+130
+:
+        
+raise
+KeyboardInterrupt
+    
 selected
 =
 [
