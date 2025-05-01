@@ -55,10 +55,10 @@ record
 -
 video
 :
-true
+false
 timeout
 :
-30m
+15m
 async
 :
 false
@@ -123,7 +123,7 @@ device
 -
 model
 :
-Pixel2
+MediumPhone
 .
 arm
 version
