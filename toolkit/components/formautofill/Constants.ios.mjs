@@ -419,6 +419,17 @@ extensions
 .
 formautofill
 .
+heuristics
+.
+refillOnSiteClearingFields
+"
+:
+false
+"
+extensions
+.
+formautofill
+.
 focusOnAutofill
 "
 :
