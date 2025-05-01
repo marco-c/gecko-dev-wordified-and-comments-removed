@@ -142,6 +142,11 @@ TestURIMutator
 .
 cpp
 "
+"
+TestWebTransportFlowControl
+.
+cpp
+"
 ]
 if
 CONFIG
