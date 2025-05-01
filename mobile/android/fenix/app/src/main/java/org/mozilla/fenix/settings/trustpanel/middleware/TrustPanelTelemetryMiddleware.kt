@@ -281,6 +281,10 @@ TogglePermission
 is
 TrustPanelAction
 .
+UpdateAutoplayValue
+is
+TrustPanelAction
+.
 UpdateSitePermissions
 is
 TrustPanelAction
