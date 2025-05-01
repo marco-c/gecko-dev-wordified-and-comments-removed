@@ -6359,6 +6359,9 @@ dependencies
 =
 [
 "
+android_logger
+"
+"
 anyhow
 "
 "
@@ -6376,11 +6379,17 @@ crash_helper_common
 dirs
 "
 "
+env_logger
+"
+"
 linked
 -
 hash
 -
 map
+"
+"
+log
 "
 "
 minidump
@@ -10183,6 +10192,9 @@ dependencies
 [
 "
 log
+"
+"
+regex
 "
 "
 termcolor
