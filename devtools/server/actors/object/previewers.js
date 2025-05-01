@@ -3990,6 +3990,14 @@ obj
 objectActor
 ;
 const
+invokeUnsafeGetters
+=
+!
+obj
+.
+isMutedError
+;
+const
 name
 =
 DevToolsUtils
@@ -4000,7 +4008,7 @@ obj
 "
 name
 "
-true
+invokeUnsafeGetters
 )
 ;
 const
@@ -4014,7 +4022,7 @@ obj
 "
 message
 "
-true
+invokeUnsafeGetters
 )
 ;
 const
