@@ -55,12 +55,6 @@ mach
 "
 python
 /
-mozbuild
-"
-    
-"
-python
-/
 mozversioncontrol
 "
     
@@ -78,14 +72,6 @@ third_party
 python
 /
 jsmin
-"
-    
-"
-third_party
-/
-python
-/
-six
 "
 )
 sys

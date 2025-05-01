@@ -244,16 +244,6 @@ False
 install_requires
 =
 [
-"
-six
->
-=
-1
-.
-13
-.
-0
-"
 ]
     
 tests_require
