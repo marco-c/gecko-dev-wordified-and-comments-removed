@@ -5020,6 +5020,15 @@ ErrorBoundary
 >
 <
 DownloadModalToggle
+isActive
+=
+{
+this
+.
+state
+.
+showDownloadHighlight
+}
 onClick
 =
 {
