@@ -4931,7 +4931,14 @@ TemporaryDirectory
 (
 )
 as
-d
+xpi_dir
+tempfile
+.
+TemporaryDirectory
+(
+)
+as
+output_dir
 :
         
 for
@@ -4948,7 +4955,7 @@ path
 .
 join
 (
-d
+xpi_dir
 f
 "
 {
@@ -5002,11 +5009,8 @@ utils
 .
 prepare_langpack_files
 (
-"
-/
-tmp
-"
-d
+output_dir
+xpi_dir
 )
 =
 =
