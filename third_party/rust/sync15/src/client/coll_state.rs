@@ -880,6 +880,12 @@ anyhow
 Result
 ;
 use
+nss
+:
+:
+ensure_initialized
+;
+use
 std
 :
 :
@@ -1469,6 +1475,10 @@ test_unknown
 (
 )
 {
+ensure_initialized
+(
+)
+;
 let
 root_key
 =
@@ -1577,6 +1587,10 @@ test_known_no_state
 (
 )
 {
+ensure_initialized
+(
+)
+;
 let
 root_key
 =
@@ -1724,6 +1738,10 @@ test_known_wrong_state
 (
 )
 {
+ensure_initialized
+(
+)
+;
 let
 root_key
 =
@@ -1894,6 +1912,10 @@ test_known_good_state
 (
 )
 {
+ensure_initialized
+(
+)
+;
 let
 root_key
 =
@@ -2021,6 +2043,10 @@ test_declined
 (
 )
 {
+ensure_initialized
+(
+)
+;
 let
 root_key
 =

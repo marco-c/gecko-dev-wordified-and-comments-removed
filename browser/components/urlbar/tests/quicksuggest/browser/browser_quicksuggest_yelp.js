@@ -42,16 +42,9 @@ delivery
 locationSigns
 :
 [
-{
-keyword
-:
 "
 in
 "
-needLocation
-:
-true
-}
 ]
 yelpModifiers
 :

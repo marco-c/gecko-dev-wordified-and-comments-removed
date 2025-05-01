@@ -22,6 +22,16 @@ fra
 frab
 "
 ]
+full_keywords
+:
+[
+[
+"
+frab
+"
+2
+]
+]
 }
 )
 QuickSuggestTestUtils

@@ -398,6 +398,17 @@ Error
 error
 (
 "
+Database
+closed
+"
+)
+]
+DatabaseClosed
+#
+[
+error
+(
+"
 No
 attachment
 in

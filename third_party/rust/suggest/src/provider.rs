@@ -168,7 +168,7 @@ Weather
 Fakespot
 =
 8
-Exposure
+Dynamic
 =
 9
 }
@@ -323,7 +323,7 @@ fakespot
 Self
 :
 :
-Exposure
+Dynamic
 =
 >
 write
@@ -331,7 +331,7 @@ write
 (
 f
 "
-exposure
+dynamic
 "
 )
 }
@@ -456,7 +456,7 @@ Fakespot
 Self
 :
 :
-Exposure
+Dynamic
 ]
 }
 #
@@ -572,7 +572,7 @@ Some
 Self
 :
 :
-Exposure
+Dynamic
 )
 _
 =
@@ -726,13 +726,13 @@ Fakespot
 Self
 :
 :
-Exposure
+Dynamic
 =
 >
 SuggestRecordType
 :
 :
-Exposure
+Dynamic
 }
 }
 fn
@@ -1255,7 +1255,7 @@ None
 )
 ]
 pub
-exposure_suggestion_types
+dynamic_suggestion_types
 :
 Option
 <

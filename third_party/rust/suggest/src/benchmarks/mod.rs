@@ -316,10 +316,6 @@ to_string
 )
 rs_config
 )
-.
-unwrap
-(
-)
 )
 ;
 let
@@ -442,10 +438,6 @@ to_string
 (
 )
 rs_config
-)
-.
-unwrap
-(
 )
 )
 ;

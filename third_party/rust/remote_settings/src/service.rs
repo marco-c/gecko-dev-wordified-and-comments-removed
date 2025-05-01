@@ -105,10 +105,7 @@ RemoteSettingsConfig2
 )
 -
 >
-Result
-<
 Self
->
 {
 let
 storage_dir
@@ -134,10 +131,9 @@ RemoteSettingsServer
 Prod
 )
 .
-get_url
+get_url_with_prod_fallback
 (
 )
-?
 ;
 let
 bucket_name
@@ -161,8 +157,6 @@ main
 )
 )
 ;
-Ok
-(
 Self
 {
 inner
@@ -191,7 +185,6 @@ vec
 }
 )
 }
-)
 }
 pub
 fn
