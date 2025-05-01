@@ -437,6 +437,13 @@ AppleEncoderModule
 .
 h
 "
+"
+apple
+/
+AppleUtils
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -460,6 +467,13 @@ cpp
 apple
 /
 AppleEncoderModule
+.
+cpp
+"
+"
+apple
+/
+AppleUtils
 .
 cpp
 "
