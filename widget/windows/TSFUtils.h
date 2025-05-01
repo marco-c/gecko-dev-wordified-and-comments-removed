@@ -160,6 +160,9 @@ mozilla
 widget
 {
 class
+TSFEmptyTextStore
+;
+class
 TSFTextStore
 ;
 class
@@ -987,6 +990,13 @@ StaticRefPtr
 TSFTextStoreBase
 >
 sCurrentTextStore
+;
+static
+StaticRefPtr
+<
+TSFEmptyTextStore
+>
+sEmptyTextStore
 ;
 static
 DWORD
