@@ -479,6 +479,16 @@ gecko_taskgraph
 .
 decision
 .
+get_hg_revision_info
+"
+)
+patch
+(
+"
+gecko_taskgraph
+.
+decision
+.
 get_hg_revision_branch
 "
 )
@@ -609,6 +619,14 @@ try_task_config
 :
 {
 }
+                
+"
+head_git_rev
+"
+:
+"
+bcde
+"
             
 }
             
@@ -845,6 +863,14 @@ env
 }
                 
 }
+                
+"
+head_git_rev
+"
+:
+"
+bcde
+"
             
 }
             
@@ -929,6 +955,14 @@ b
 "
 ]
 }
+                
+"
+head_git_rev
+"
+:
+"
+bcde
+"
             
 }
             
@@ -954,6 +988,8 @@ mock_get_hg_commit_message
     
 mock_get_hg_revision_branch
     
+mock_get_hg_revision_info
+    
 options
     
 extra_options
@@ -965,6 +1001,14 @@ ttc
 expected
 )
 :
+    
+mock_get_hg_revision_info
+.
+return_value
+=
+"
+bcde
+"
     
 mock_get_hg_revision_branch
 .

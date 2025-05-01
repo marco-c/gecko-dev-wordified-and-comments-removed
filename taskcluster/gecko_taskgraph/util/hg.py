@@ -592,6 +592,24 @@ revision
 "
     
 return
+get_hg_revision_info
+(
+root
+revision
+"
+branch
+"
+)
+def
+get_hg_revision_info
+(
+root
+revision
+info
+)
+:
+    
+return
 subprocess
 .
 check_output
@@ -612,9 +630,14 @@ identify
 T
 "
             
+f
 "
 {
-branch
+{
+{
+info
+}
+}
 }
 "
             
