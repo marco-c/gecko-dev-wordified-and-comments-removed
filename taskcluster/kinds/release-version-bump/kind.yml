@@ -80,7 +80,7 @@ gecko_taskgraph
 .
 transforms
 .
-release_version_bump
+resolve_landoscript_keyed_by
 :
 transforms
 -
