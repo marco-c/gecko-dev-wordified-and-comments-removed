@@ -691,6 +691,13 @@ NSString
 )
 moxLanguage
 ;
+-
+(
+NSString
+*
+)
+moxKeyShortcutsValue
+;
 #
 ifndef
 RELEASE_OR_BETA

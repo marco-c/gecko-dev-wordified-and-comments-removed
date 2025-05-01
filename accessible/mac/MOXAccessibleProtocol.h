@@ -830,6 +830,14 @@ NSString
 *
 _Nullable
 )
+moxKeyShortcutsValue
+;
+-
+(
+NSString
+*
+_Nullable
+)
 moxMozDebugDescription
 ;
 #
