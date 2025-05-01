@@ -912,7 +912,7 @@ aPrefBranch
 SetIntPref
 (
 kPrefCookieQuotaPerHost
-49
+50
 )
 ;
 aPrefBranch

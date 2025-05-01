@@ -124,7 +124,7 @@ cookie
 .
 quotaPerHost
 "
-2
+3
 )
 ;
 Services
