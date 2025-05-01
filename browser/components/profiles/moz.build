@@ -64,6 +64,13 @@ profiles
 =
 [
 "
+ProfilesDatastoreService
+.
+sys
+.
+mjs
+"
+"
 SelectableProfile
 .
 sys
