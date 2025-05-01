@@ -13349,6 +13349,17 @@ extensions
 =
 availableExts
 ;
+Glean
+.
+systemCpu
+.
+extensions
+.
+set
+(
+availableExts
+)
+;
 return
 this
 .
