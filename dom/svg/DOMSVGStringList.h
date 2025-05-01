@@ -305,6 +305,11 @@ mAttrEnum
 bool
 mIsConditionalProcessingAttribute
 ;
+bool
+mIsInTearoffTable
+=
+true
+;
 }
 ;
 }
