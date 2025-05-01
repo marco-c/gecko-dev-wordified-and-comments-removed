@@ -108,7 +108,7 @@ define
 WMF_CLEARKEY_DEBUG
 0
 #
-ifdef
+if
 WMF_CLEARKEY_DEBUG
 #
 define
