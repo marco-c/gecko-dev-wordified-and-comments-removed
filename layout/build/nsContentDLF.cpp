@@ -1543,15 +1543,7 @@ doc
 >
 SetAllowDeclarativeShadowRoots
 (
-mozilla
-:
-:
-StaticPrefs
-:
-:
-dom_webcomponents_shadowdom_declarative_enabled
-(
-)
+true
 )
 ;
 rv
