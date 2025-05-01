@@ -69,6 +69,10 @@ default_fields
 [
         
 "
+scopes
+"
+        
+"
 worker
 .
 push
@@ -118,6 +122,12 @@ info
             
 "
 source
+-
+repo
+"
+            
+"
+lando
 -
 repo
 "
