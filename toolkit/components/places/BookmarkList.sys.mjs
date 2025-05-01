@@ -764,7 +764,12 @@ url
 *
 returns
 {
+Promise
+<
 boolean
+|
+undefined
+>
 }
 *
 The
@@ -843,7 +848,7 @@ Boolean
 count
 )
 :
-count
+undefined
 ;
 }
 /
@@ -1098,7 +1103,7 @@ accordingly
 *
 param
 {
-PlacesEvent
+PlacesBookmark
 [
 ]
 }
