@@ -57,7 +57,11 @@ mjs
 ;
 const
 {
+_ExperimentFeature
+:
+ExperimentFeature
 ExperimentAPI
+NimbusFeatures
 }
 =
 ChromeUtils
