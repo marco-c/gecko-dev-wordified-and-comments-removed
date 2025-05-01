@@ -829,11 +829,15 @@ captures
 /
 #
 Gradle
-cache
+caches
 .
 /
 .
 gradle
+/
+/
+.
+kotlin
 /
 #
 Local
