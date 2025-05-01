@@ -553,6 +553,14 @@ kMaxIdleContentAnalysisAgentTimeoutMs
 =
 UINT32_MAX
 ;
+const
+uint32_t
+kShutdownThreadpoolTimeoutMs
+=
+2
+*
+1000
+;
 auto
 kTextFormatsToAnalyze
 =
@@ -7714,8 +7722,9 @@ Clear
 mThreadPool
 -
 >
-Shutdown
+ShutdownWithTimeout
 (
+kShutdownThreadpoolTimeoutMs
 )
 ;
 mThreadPool
