@@ -201,6 +201,10 @@ const
 nsAString
 &
 aSample
+const
+nsACString
+&
+aHashSHA256
 )
 :
 mViolatedPolicyIndex
@@ -271,6 +275,10 @@ MaybeTruncateSampleWithEllipsis
 (
 aSample
 )
+}
+mHashSHA256
+{
+aHashSHA256
 }
 {
 }
