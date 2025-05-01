@@ -264,7 +264,7 @@ Editing
 (
 state
 .
-itemsNotPendingDeletion
+itemsMatchingFilters
 .
 toSet
 (
