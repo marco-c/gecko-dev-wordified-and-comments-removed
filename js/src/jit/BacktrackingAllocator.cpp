@@ -19516,12 +19516,7 @@ firstNonCallSafepoint
 =
 findFirstNonCallSafepoint
 (
-range
--
->
-from
-(
-)
+start
 *
 firstNonCallSafepoint
 )
