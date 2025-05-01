@@ -748,6 +748,8 @@ editor
 .
 getLocationsInViewport
 (
+100
+20
 )
 }
 ;
