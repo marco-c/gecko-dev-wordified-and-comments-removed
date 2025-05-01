@@ -1182,6 +1182,8 @@ Glean
 normandy
 .
 unenrollFailedNimbusExperiment
+.
+record
 (
 {
 value
