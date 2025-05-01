@@ -377,6 +377,15 @@ mHigherAccuracy
 =
 false
 ;
+mozilla
+:
+:
+Maybe
+<
+bool
+>
+mStarting
+;
 }
 ;
 namespace
