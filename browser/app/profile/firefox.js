@@ -11774,7 +11774,7 @@ newtabShortcuts
 .
 refresh
 "
-false
+true
 )
 ;
 pref
