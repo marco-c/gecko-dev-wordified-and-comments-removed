@@ -224,13 +224,6 @@ JS_STANDALONE
 "
 js_standalone
 )
-add_old_configure_assignment
-(
-"
-JS_STANDALONE
-"
-js_standalone
-)
 option
 (
 "
