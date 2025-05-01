@@ -50,6 +50,7 @@ drm
 /
 include
 /
+libdrm
 '
 ]
 FINAL_LIBRARY
