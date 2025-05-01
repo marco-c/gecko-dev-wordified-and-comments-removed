@@ -58,6 +58,12 @@ background
 js
 "
 "
+metrics
+/
+*
+*
+"
+"
 schema
 .
 json
