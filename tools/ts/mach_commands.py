@@ -795,6 +795,8 @@ topsrcdir
 tools
 /
 types
+/
+generated
 "
 )
     
@@ -997,6 +999,24 @@ import
 metrics_yamls
 pings_yamls
     
+typelib_dir
+=
+mozpath
+.
+join
+(
+ctx
+.
+topsrcdir
+"
+tools
+/
+types
+/
+generated
+"
+)
+    
 maybe_setup
 (
 ctx
@@ -1005,6 +1025,7 @@ ctx
 return
 node
 (
+        
 ctx
 "
 build_glean
@@ -1012,10 +1033,12 @@ build_glean
 ctx
 .
 topsrcdir
+typelib_dir
 *
 metrics_yamls
 *
 pings_yamls
+    
 )
 SubCommand
 (
@@ -1061,6 +1084,8 @@ tools
 /
 types
 /
+generated
+/
 tspaths
 .
 json
@@ -1080,6 +1105,8 @@ topsrcdir
 tools
 /
 types
+/
+generated
 /
 lib
 .

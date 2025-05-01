@@ -182,6 +182,8 @@ import
 "
 .
 /
+generated
+/
 lib
 .
 gecko

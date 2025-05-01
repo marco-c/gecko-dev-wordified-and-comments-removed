@@ -3756,9 +3756,14 @@ tools
 /
 types
 /
-tspaths
-.
-json
+generated
+/
+tools
+/
+types
+/
+subs
+/
 tools
 /
 browsertime
