@@ -452,6 +452,11 @@ ShuffleAnalysis
 cpp
 "
 "
+SimpleAllocator
+.
+cpp
+"
+"
 Sink
 .
 cpp
