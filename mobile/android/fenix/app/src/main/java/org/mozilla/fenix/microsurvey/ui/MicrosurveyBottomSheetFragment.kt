@@ -340,6 +340,10 @@ design_bottom_sheet
 bottomSheet
 ?
 .
+let
+{
+it
+.
 setBackgroundResource
 (
 android
@@ -357,7 +361,7 @@ BottomSheetBehavior
 .
 from
 (
-bottomSheet
+it
 )
 behavior
 .
@@ -371,6 +375,7 @@ state
 BottomSheetBehavior
 .
 STATE_HALF_EXPANDED
+}
 }
 }
 override

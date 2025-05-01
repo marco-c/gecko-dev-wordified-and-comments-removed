@@ -709,6 +709,10 @@ design_bottom_sheet
 bottomSheet
 ?
 .
+let
+{
+it
+.
 setBackgroundResource
 (
 android
@@ -725,7 +729,7 @@ BottomSheetBehavior
 .
 from
 (
-bottomSheet
+it
 )
 behavior
 ?
@@ -751,6 +755,7 @@ behavior
 hideFriction
 =
 DIALOG_FRICTION
+}
 }
 }
 }

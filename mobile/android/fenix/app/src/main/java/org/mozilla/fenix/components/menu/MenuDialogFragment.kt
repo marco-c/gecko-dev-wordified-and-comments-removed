@@ -1074,7 +1074,6 @@ WebExtensionsMenuBinding
 (
 )
 private
-lateinit
 var
 bottomSheetBehavior
 :
@@ -1082,6 +1081,9 @@ BottomSheetBehavior
 <
 View
 >
+?
+=
+null
 override
 fun
 onCreateDialog
@@ -1253,13 +1255,17 @@ transparent
 )
 bottomSheetBehavior
 =
+bottomSheet
+?
+.
+let
+{
 BottomSheetBehavior
 .
 from
 (
-bottomSheet
+it
 )
-bottomSheetBehavior
 .
 apply
 {
@@ -1301,6 +1307,7 @@ HIDING_FRICTION
 }
 }
 }
+}
 override
 fun
 onConfigurationChanged
@@ -1317,6 +1324,7 @@ onConfigurationChanged
 newConfig
 )
 bottomSheetBehavior
+?
 .
 apply
 {
