@@ -340,11 +340,6 @@ SVGImageElement
 h
 "
 "
-SVGLength
-.
-h
-"
-"
 SVGLengthUnits
 .
 h
