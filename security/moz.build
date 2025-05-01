@@ -141,9 +141,6 @@ GeckoSharedLibrary
 "
 nss
 "
-linkage
-=
-None
 )
 SHARED_LIBRARY_NAME
 =
