@@ -4486,12 +4486,6 @@ DrawsToCSDTitlebar
 const
 {
 return
-mSizeMode
-=
-=
-nsSizeMode_Normal
-&
-&
 mGtkWindowDecoration
 =
 =
