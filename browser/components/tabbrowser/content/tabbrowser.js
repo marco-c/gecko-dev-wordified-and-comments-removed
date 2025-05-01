@@ -11638,6 +11638,9 @@ label
 insertBefore
 =
 null
+isAdoptingGroup
+=
+false
 isUserTriggered
 =
 false
@@ -11797,6 +11800,7 @@ true
 detail
 :
 {
+isAdoptingGroup
 isUserTriggered
 telemetryUserCreateSource
 }
@@ -12089,6 +12093,12 @@ group
 }
 group
 .
+removedByAdoption
+=
+true
+;
+group
+.
 saveOnWindowClose
 =
 false
@@ -12153,6 +12163,9 @@ newTabs
 [
 0
 ]
+isAdoptingGroup
+:
+true
 }
 )
 ;
