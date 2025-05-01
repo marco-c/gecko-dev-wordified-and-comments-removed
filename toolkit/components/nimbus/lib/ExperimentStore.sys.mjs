@@ -2308,11 +2308,6 @@ featureId
 ?
 .
 isEarlyStartup
-|
-|
-feature
-.
-isEarlyStartup
 )
 {
 if
