@@ -110,9 +110,33 @@ toJSON
 (
 )
 )
-                
+                    
+error
+=
+>
+resolve
+(
+{
+code
+:
+error
+.
+code
+message
+:
+error
+.
+message
+}
 )
+                    
+{
+timeout
+:
+500
+}
             
+)
 )
         
 "

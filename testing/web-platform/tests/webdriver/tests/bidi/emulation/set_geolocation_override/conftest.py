@@ -29,7 +29,9 @@ set_geolocation_permission
 context
 user_context
 =
-None
+"
+default
+"
 )
 :
         
