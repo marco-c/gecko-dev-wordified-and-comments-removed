@@ -650,13 +650,13 @@ bug
 Legacy
 Count
 :
-114
+112
 /
 /
 Glean
 Count
 :
-49
+51
 var
 gGlobalEnvironment
 ;
