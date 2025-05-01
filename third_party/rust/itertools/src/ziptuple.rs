@@ -67,11 +67,7 @@ From
 <
 U
 >
-Zip
-<
-T
->
-:
++
 Iterator
 {
 Zip
@@ -360,11 +356,6 @@ let
 sh
 =
 (
-:
-:
-std
-:
-:
 usize
 :
 :

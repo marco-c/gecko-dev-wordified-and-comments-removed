@@ -377,7 +377,7 @@ ident
 )
 =
 >
-(
+{
 fn
 FOR_CHUNKS
 (
@@ -989,7 +989,8 @@ TUPLE_WINDOWS
 WINDOWS
 )
 ;
-)
+}
+;
 }
 def_benchs
 !

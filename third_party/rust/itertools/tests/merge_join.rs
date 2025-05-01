@@ -2,16 +2,16 @@ use
 itertools
 :
 :
-EitherOrBoth
+free
+:
+:
+merge_join_by
 ;
 use
 itertools
 :
 :
-free
-:
-:
-merge_join_by
+EitherOrBoth
 ;
 #
 [
@@ -55,7 +55,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
@@ -149,7 +148,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
@@ -264,7 +262,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
@@ -382,7 +379,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
@@ -522,7 +518,6 @@ Vec
 EitherOrBoth
 <
 u32
-u32
 >
 >
 =
@@ -660,7 +655,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
@@ -801,7 +795,6 @@ Vec
 <
 EitherOrBoth
 <
-u32
 u32
 >
 >
