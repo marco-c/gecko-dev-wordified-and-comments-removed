@@ -1081,10 +1081,11 @@ mozilla
 LayoutDeviceIntPoint
 mTargetWindowPoint
 ;
-int
-mWaitingForDragDataRequests
-=
-0
+RefPtr
+<
+GdkDragContext
+>
+mWaitingForDragDataContext
 ;
 bool
 IsDragFlavorAvailable
