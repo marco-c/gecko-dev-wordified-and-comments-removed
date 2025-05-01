@@ -3947,7 +3947,7 @@ tenuringAllocSite
 ;
 }
 uint32_t
-nurseryAllocCount
+nurseryPromotedCount
 (
 JS
 :
@@ -3960,7 +3960,7 @@ const
 return
 pretenuring
 .
-nurseryAllocCount
+nurseryPromotedCount
 (
 kind
 )
