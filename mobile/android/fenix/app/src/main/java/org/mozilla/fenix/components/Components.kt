@@ -1664,7 +1664,7 @@ SetupChecklistPreferencesMiddleware
 (
 DefaultSetupChecklistRepository
 (
-settings
+context
 )
 )
 SetupChecklistTelemetryMiddleware
@@ -1675,6 +1675,16 @@ SetupChecklistTelemetryMiddleware
 .
 also
 {
+it
+.
+dispatch
+(
+AppAction
+.
+SetupChecklistAction
+.
+Init
+)
 it
 .
 dispatch
