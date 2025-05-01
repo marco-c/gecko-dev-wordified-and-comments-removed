@@ -2787,6 +2787,13 @@ js
 ]
 [
 "
+browser_net_save_response_as_sanitization
+.
+js
+"
+]
+[
+"
 browser_net_script_cache
 .
 js
