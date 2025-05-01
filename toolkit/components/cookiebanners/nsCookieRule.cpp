@@ -148,7 +148,6 @@ aIsSession
 aIsSecure
 false
 aSameSite
-aSameSite
 aSchemeMap
 )
 ;

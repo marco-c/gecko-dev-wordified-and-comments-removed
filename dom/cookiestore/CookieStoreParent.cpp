@@ -1670,6 +1670,7 @@ CookieCommons
 ShouldIncludeCrossSiteCookie
 (
 cookie
+aCookieURI
 aPartitionForeign
 attrs
 .
@@ -2022,6 +2023,7 @@ CookieCommons
 :
 ShouldIncludeCrossSiteCookie
 (
+aCookieURI
 aSameSite
 aPartitioned
 &
@@ -2575,6 +2577,7 @@ CookieCommons
 :
 ShouldIncludeCrossSiteCookie
 (
+aCookieURI
 sameSiteAttr
 aPartitioned
 &

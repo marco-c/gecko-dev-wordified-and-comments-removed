@@ -90,13 +90,6 @@ js
 ]
 [
 "
-test_rawSameSite
-.
-js
-"
-]
-[
-"
 test_schemeMap
 .
 js

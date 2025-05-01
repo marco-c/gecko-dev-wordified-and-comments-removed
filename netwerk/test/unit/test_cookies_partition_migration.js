@@ -116,11 +116,6 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
-Ci
-.
-nsICookie
-.
 SCHEME_UNSET
 false
 )
@@ -171,11 +166,6 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
-Ci
-.
-nsICookie
-.
 SCHEME_UNSET
 true
 )
@@ -216,11 +206,6 @@ false
 false
 {
 }
-Ci
-.
-nsICookie
-.
-SAMESITE_NONE
 Ci
 .
 nsICookie
@@ -282,11 +267,6 @@ com
 )
 "
 }
-Ci
-.
-nsICookie
-.
-SAMESITE_NONE
 Ci
 .
 nsICookie

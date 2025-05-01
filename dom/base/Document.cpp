@@ -33139,6 +33139,19 @@ IsHttpOnly
 continue
 ;
 }
+nsCOMPtr
+<
+nsIURI
+>
+cookieURI
+=
+cookiePrincipal
+-
+>
+GetURI
+(
+)
+;
 if
 (
 thirdParty
@@ -33151,6 +33164,7 @@ CookieCommons
 ShouldIncludeCrossSiteCookie
 (
 cookie
+cookieURI
 CookieJarSettings
 (
 )
@@ -33714,6 +33728,7 @@ CookieCommons
 ShouldIncludeCrossSiteCookie
 (
 cookie
+documentURI
 CookieJarSettings
 (
 )

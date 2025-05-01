@@ -102,6 +102,12 @@ SAMESITE_STRICT
 =
 2
 ;
+const
+uint32_t
+SAMESITE_UNSET
+=
+256
+;
 readonly
 attribute
 ACString
