@@ -1203,6 +1203,15 @@ isError
 const
 ;
 bool
+isMutedError
+(
+JSContext
+*
+cx
+)
+const
+;
+bool
 name
 (
 JSContext
