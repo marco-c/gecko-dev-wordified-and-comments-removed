@@ -16516,6 +16516,9 @@ composite_state
 :
 &
 CompositeState
+frame_device_size
+:
+DeviceIntSize
 fb_draw_target
 :
 DrawTarget
@@ -17964,11 +17967,7 @@ external_fbo_id
 0
 dimensions
 :
-fb_draw_target
-.
-dimensions
-(
-)
+frame_device_size
 }
 }
 CompositorConfig
@@ -23672,6 +23671,13 @@ composite_simple
 frame
 .
 composite_state
+frame
+.
+device_rect
+.
+size
+(
+)
 draw_target
 &
 projection
