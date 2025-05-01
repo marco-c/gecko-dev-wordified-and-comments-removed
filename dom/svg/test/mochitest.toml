@@ -234,6 +234,13 @@ xhtml
 ]
 [
 "
+test_SVGPathSegment
+.
+xhtml
+"
+]
+[
+"
 test_SVGPointList
 .
 xhtml
