@@ -730,11 +730,11 @@ aUserActionId
 )
 ;
 void
-cancelAllRequestsAssociatedWithUserAction
+cancelRequestsByRequestToken
 (
 in
 ACString
-aUserActionId
+aRequestToken
 )
 ;
 void
