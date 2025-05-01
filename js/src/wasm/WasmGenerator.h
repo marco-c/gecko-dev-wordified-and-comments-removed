@@ -293,6 +293,9 @@ bytes
 CodeRangeVector
 codeRanges
 ;
+InliningContext
+inliningContext
+;
 CallSites
 callSites
 ;
@@ -372,6 +375,12 @@ clear
 )
 ;
 codeRanges
+.
+clear
+(
+)
+;
+inliningContext
 .
 clear
 (
@@ -485,6 +494,13 @@ empty
 &
 &
 codeRanges
+.
+empty
+(
+)
+&
+&
+inliningContext
 .
 empty
 (

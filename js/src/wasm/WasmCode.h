@@ -2082,6 +2082,9 @@ funcToCodeRange
 CodeRangeVector
 codeRanges
 ;
+InliningContext
+inliningContext
+;
 CallSites
 callSites
 ;
@@ -2477,7 +2480,7 @@ pc
 Trap
 *
 kindOut
-TrapSiteDesc
+TrapSite
 *
 trapOut
 )
@@ -4809,7 +4812,7 @@ pc
 Trap
 *
 kindOut
-TrapSiteDesc
+TrapSite
 *
 trapOut
 )

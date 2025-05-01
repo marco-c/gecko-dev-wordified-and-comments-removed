@@ -5214,7 +5214,7 @@ MOZ_RELEASE_ASSERT
 item
 -
 >
-inlinedCallerOffsets_
+inlinedCallerOffsetsMap_
 .
 empty
 (
@@ -5373,7 +5373,7 @@ MOZ_RELEASE_ASSERT
 item
 -
 >
-inlinedCallerOffsets_
+inlinedCallerOffsetsMap_
 .
 empty
 (
@@ -7658,7 +7658,7 @@ wasm
 :
 :
 CodeBlock
-2576
+2624
 )
 ;
 *
@@ -7997,7 +7997,7 @@ wasm
 :
 :
 CodeBlock
-2576
+2624
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
