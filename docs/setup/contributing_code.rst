@@ -1195,10 +1195,7 @@ them
 !
 -
 Run
-{
-hg
 git
-}
 blame
 on
 the
@@ -1226,10 +1223,7 @@ good
 candidates
 .
 Running
-{
-hg
 git
-}
 log
 and
 looking

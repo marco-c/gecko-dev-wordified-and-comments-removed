@@ -2947,9 +2947,6 @@ up
 the
 tree
 via
-hg
-clean
-or
 git
 clean
 .

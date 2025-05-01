@@ -307,14 +307,6 @@ workdir
 arguments
 respectively
 .
-These
-work
-both
-with
-mercurial
-and
-git
-.
 In
 the
 case

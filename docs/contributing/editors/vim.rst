@@ -257,10 +257,6 @@ root_pattern
 .
 git
 "
-"
-.
-hg
-"
 )
 You
 also
