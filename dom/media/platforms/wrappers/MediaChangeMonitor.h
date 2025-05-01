@@ -447,6 +447,14 @@ false
 ;
 }
 virtual
+void
+Flush
+(
+)
+{
+}
+;
+virtual
 ~
 CodecChangeMonitor
 (
