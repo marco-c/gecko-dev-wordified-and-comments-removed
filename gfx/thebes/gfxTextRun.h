@@ -3376,6 +3376,11 @@ gfxFont
 :
 Orientation
 aOrientation
+mozilla
+:
+:
+StyleQueryFontMetricsFlags
+aFlags
 )
 ;
 protected
