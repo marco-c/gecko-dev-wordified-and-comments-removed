@@ -9074,8 +9074,6 @@ mac
 /
 hardenedruntime
 /
-v2
-/
 production
 /
 plugin
@@ -9115,8 +9113,6 @@ security
 mac
 /
 hardenedruntime
-/
-v2
 /
 production
 /
@@ -9324,8 +9320,6 @@ mac
 /
 hardenedruntime
 /
-v2
-/
 production
 /
 firefoxdeveloperedition
@@ -9349,8 +9343,6 @@ mac
 /
 hardenedruntime
 /
-v2
-/
 production
 /
 nightly
@@ -9365,8 +9357,6 @@ security
 mac
 /
 hardenedruntime
-/
-v2
 /
 production
 /
@@ -9405,8 +9395,6 @@ mac
 /
 hardenedruntime
 /
-v2
-/
 developer
 /
 plugin
@@ -9446,8 +9434,6 @@ security
 mac
 /
 hardenedruntime
-/
-v2
 /
 developer
 /
@@ -9492,8 +9478,6 @@ security
 mac
 /
 hardenedruntime
-/
-v2
 /
 developer
 /
@@ -9669,8 +9653,6 @@ security
 mac
 /
 hardenedruntime
-/
-v2
 /
 developer
 /
