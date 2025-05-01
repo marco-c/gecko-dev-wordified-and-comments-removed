@@ -4834,7 +4834,7 @@ return
 cell
 -
 >
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 MarkColor
 :
@@ -4899,7 +4899,7 @@ ref
 (
 )
 .
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 alloc
 MarkColor
@@ -13090,7 +13090,7 @@ return
 headerCell
 -
 >
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 MarkColor
 :

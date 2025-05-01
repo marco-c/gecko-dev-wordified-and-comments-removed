@@ -1192,7 +1192,7 @@ color
 ;
 inline
 bool
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 const
 void

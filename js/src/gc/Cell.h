@@ -1121,7 +1121,7 @@ const
 ;
 MOZ_ALWAYS_INLINE
 bool
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 MarkColor
 color
