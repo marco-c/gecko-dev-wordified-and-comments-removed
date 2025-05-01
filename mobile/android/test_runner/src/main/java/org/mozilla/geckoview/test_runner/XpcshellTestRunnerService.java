@@ -517,6 +517,11 @@ build
 )
 )
 .
+lowMemoryDetection
+(
+false
+)
+.
 build
 (
 )

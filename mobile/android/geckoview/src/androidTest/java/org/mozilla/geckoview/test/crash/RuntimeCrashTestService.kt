@@ -110,6 +110,17 @@ class
 java
 )
 .
+lowMemoryDetection
+(
+false
+)
+/
+/
+Avoid
+unpredictability
+in
+tests
+.
 build
 (
 )

@@ -904,6 +904,11 @@ getExtras
 )
 )
 .
+lowMemoryDetection
+(
+false
+)
+.
 build
 (
 )

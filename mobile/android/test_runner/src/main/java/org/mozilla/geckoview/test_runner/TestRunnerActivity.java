@@ -2302,6 +2302,11 @@ build
 (
 )
 )
+.
+lowMemoryDetection
+(
+false
+)
 ;
 sRuntime
 =
