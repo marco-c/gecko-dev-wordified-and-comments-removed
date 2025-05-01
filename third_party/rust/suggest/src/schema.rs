@@ -37,7 +37,7 @@ VERSION
 :
 u32
 =
-35
+36
 ;
 pub
 const
@@ -2720,6 +2720,16 @@ suggestion_type
 )
 ?
 ;
+Ok
+(
+(
+)
+)
+}
+35
+=
+>
+{
 Ok
 (
 (

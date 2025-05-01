@@ -2617,7 +2617,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+108
 /
 /
 custom_types
