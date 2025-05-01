@@ -180,6 +180,11 @@ jj
 is_dir
 (
 )
+and
+jj
+is
+not
+None
 :
         
 avoid

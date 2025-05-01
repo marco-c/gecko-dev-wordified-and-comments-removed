@@ -459,11 +459,16 @@ mozversioncontrol
 .
 get_repository_object
 (
+        
 command_context
 .
 _mach_context
 .
 topdir
+jj
+=
+None
+    
 )
     
 tool
