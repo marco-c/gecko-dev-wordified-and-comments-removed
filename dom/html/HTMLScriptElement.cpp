@@ -1633,7 +1633,7 @@ GetFetchPriority
 const
 {
 return
-nsGenericHTMLElement
+Element
 :
 :
 GetFetchPriority
