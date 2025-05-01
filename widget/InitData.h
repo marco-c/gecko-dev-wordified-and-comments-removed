@@ -40,7 +40,6 @@ uint8_t
 TopLevel
 Dialog
 Popup
-Child
 Invisible
 }
 ;
@@ -154,7 +153,7 @@ mWindowType
 WindowType
 :
 :
-Child
+TopLevel
 ;
 BorderStyle
 mBorderStyle

@@ -4517,7 +4517,7 @@ mWindowType
 WindowType
 :
 :
-Child
+TopLevel
 ;
 WidgetType
 mWidgetType
