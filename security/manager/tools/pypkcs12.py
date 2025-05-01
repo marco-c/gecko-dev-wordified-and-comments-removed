@@ -82,8 +82,6 @@ import
 pycert
 import
 pykey
-import
-six
 from
 mozfile
 import
@@ -554,16 +552,15 @@ toDER
         
 b64
 =
-six
-.
-ensure_text
-(
 base64
 .
 b64encode
 (
 der
 )
+.
+decode
+(
 )
         
 while

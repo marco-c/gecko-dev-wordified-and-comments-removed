@@ -226,8 +226,6 @@ import
 ecdsa
 import
 rsa
-import
-six
 from
 pyasn1
 .
@@ -426,7 +424,7 @@ big
 def
 byteStringToHexifiedBitString
 (
-string
+bytes
 )
 :
     
@@ -505,12 +503,7 @@ s
 H
 "
 %
-six
-.
-ensure_binary
-(
-string
-)
+bytes
 .
 hex
 (
@@ -3578,16 +3571,15 @@ toDER
         
 b64
 =
-six
-.
-ensure_text
-(
 base64
 .
 b64encode
 (
 der
 )
+.
+decode
+(
 )
         
 while
@@ -4652,16 +4644,15 @@ toDER
         
 b64
 =
-six
-.
-ensure_text
-(
 base64
 .
 b64encode
 (
 der
 )
+.
+decode
+(
 )
         
 while
@@ -5096,12 +5087,7 @@ hashlib
 new
 (
 hashAlgorithm
-six
-.
-ensure_binary
-(
 data
-)
 )
 .
 digest
