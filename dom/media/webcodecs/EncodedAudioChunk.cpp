@@ -73,6 +73,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneHolder
 .
 h
@@ -1203,7 +1214,7 @@ EncodedAudioChunk
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 ErrorResult

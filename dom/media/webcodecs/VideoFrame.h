@@ -67,6 +67,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TypedArray
 .
 h

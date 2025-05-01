@@ -34,6 +34,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DecompressionStreamBinding
 .
 h
@@ -220,7 +231,7 @@ cx
 ;
 RootedUnion
 <
-OwningArrayBufferViewOrArrayBuffer
+OwningBufferSource
 >
 bufferSource
 (

@@ -23,6 +23,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UnionTypes
 .
 h
@@ -168,7 +179,7 @@ MediaKeyStatusMap
 FindKey
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 )
@@ -262,7 +273,7 @@ MediaKeyStatusMap
 Get
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 OwningMediaKeyStatusOrUndefined
@@ -318,7 +329,7 @@ MediaKeyStatusMap
 Has
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 )

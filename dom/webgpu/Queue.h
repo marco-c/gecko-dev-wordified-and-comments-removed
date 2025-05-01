@@ -25,6 +25,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TypedArray
 .
 h
@@ -51,9 +62,6 @@ dom
 {
 class
 RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
-;
-class
-ArrayBufferViewOrArrayBuffer
 ;
 template
 <
@@ -190,7 +198,7 @@ const
 dom
 :
 :
-MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
+AllowSharedBufferSource
 &
 data
 uint64_t
@@ -224,7 +232,7 @@ const
 dom
 :
 :
-MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
+AllowSharedBufferSource
 &
 data
 const

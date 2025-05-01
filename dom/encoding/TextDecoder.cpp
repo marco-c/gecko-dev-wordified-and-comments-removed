@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UnionTypes
 .
 h
@@ -503,7 +514,7 @@ Decode
 const
 Optional
 <
-ArrayBufferViewOrArrayBuffer
+BufferSource
 >
 &
 aBuffer
