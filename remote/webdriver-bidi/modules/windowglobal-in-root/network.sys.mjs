@@ -253,7 +253,7 @@ name
 "
 network
 .
-_cachedResourceSent
+_windowGlobalNetworkResource
 "
 )
 {
@@ -330,7 +330,7 @@ network
 commandName
 :
 "
-_sendEventsForCachedResource
+_sendEventsForWindowGlobalNetworkResource
 "
 params
 :

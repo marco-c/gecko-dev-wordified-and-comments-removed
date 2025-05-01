@@ -10820,7 +10820,7 @@ value
 }
 }
 }
-_sendEventsForCachedResource
+_sendEventsForWindowGlobalNetworkResource
 (
 params
 )
@@ -10831,7 +10831,9 @@ this
 onBeforeRequestSent
 (
 "
-beforerequest
+before
+-
+request
 -
 sent
 "
