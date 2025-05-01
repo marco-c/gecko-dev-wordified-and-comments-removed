@@ -6983,6 +6983,8 @@ max_data_bytes
 IMIN
 (
 1276
+*
+6
 out_data_bytes
 )
 ;
@@ -7691,6 +7693,9 @@ frame_rate
 (
 max_data_bytes
 *
+(
+opus_int32
+)
 frame_rate
 <
 300
@@ -10613,7 +10618,7 @@ char
 *
 data
 opus_int32
-max_data_bytes
+orig_max_data_bytes
 int
 float_api
 int
@@ -10667,6 +10672,9 @@ int
 ret
 =
 0
+;
+int
+max_data_bytes
 ;
 opus_int32
 nBytes
@@ -10737,6 +10745,14 @@ tmp_prefill
 )
 ;
 SAVE_STACK
+;
+max_data_bytes
+=
+IMIN
+(
+orig_max_data_bytes
+1276
+)
 ;
 st
 -
@@ -15106,7 +15122,7 @@ opus_packet_pad
 (
 data
 ret
-max_data_bytes
+orig_max_data_bytes
 )
 !
 =
@@ -15121,7 +15137,7 @@ OPUS_INTERNAL_ERROR
 }
 ret
 =
-max_data_bytes
+orig_max_data_bytes
 ;
 }
 RESTORE_STACK
