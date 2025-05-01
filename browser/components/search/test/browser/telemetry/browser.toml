@@ -994,6 +994,13 @@ xml
 ]
 [
 "
+browser_search_telemetry_searchform
+.
+js
+"
+]
+[
+"
 browser_search_telemetry_shopping
 .
 js
