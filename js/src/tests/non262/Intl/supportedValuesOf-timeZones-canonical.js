@@ -488,6 +488,11 @@ Costa_Rica
 "
 America
 /
+Coyhaique
+"
+"
+America
+/
 Creston
 "
 "
