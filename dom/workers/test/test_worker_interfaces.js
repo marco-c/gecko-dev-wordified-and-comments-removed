@@ -1338,7 +1338,7 @@ name
 "
 GPU
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1348,7 +1348,7 @@ name
 "
 GPUAdapter
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1358,7 +1358,7 @@ name
 "
 GPUAdapterInfo
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1368,7 +1368,7 @@ name
 "
 GPUBindGroup
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1378,7 +1378,7 @@ name
 "
 GPUBindGroupLayout
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1388,7 +1388,7 @@ name
 "
 GPUBuffer
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1398,7 +1398,7 @@ name
 "
 GPUBufferUsage
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1408,7 +1408,7 @@ name
 "
 GPUCanvasContext
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1418,7 +1418,7 @@ name
 "
 GPUColorWrite
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1428,7 +1428,7 @@ name
 "
 GPUCommandBuffer
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1438,7 +1438,7 @@ name
 "
 GPUCommandEncoder
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1448,7 +1448,7 @@ name
 "
 GPUCompilationInfo
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1458,7 +1458,7 @@ name
 "
 GPUCompilationMessage
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1468,7 +1468,7 @@ name
 "
 GPUComputePassEncoder
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1478,7 +1478,7 @@ name
 "
 GPUComputePipeline
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1488,7 +1488,7 @@ name
 "
 GPUDevice
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1498,7 +1498,7 @@ name
 "
 GPUDeviceLostInfo
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1508,7 +1508,7 @@ name
 "
 GPUError
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1518,7 +1518,7 @@ name
 "
 GPUExternalTexture
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1528,7 +1528,7 @@ name
 "
 GPUInternalError
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1538,7 +1538,7 @@ name
 "
 GPUMapMode
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1548,7 +1548,7 @@ name
 "
 GPUOutOfMemoryError
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1558,7 +1558,7 @@ name
 "
 GPUPipelineError
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1568,7 +1568,7 @@ name
 "
 GPUPipelineLayout
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1578,7 +1578,7 @@ name
 "
 GPUQuerySet
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1588,7 +1588,7 @@ name
 "
 GPUQueue
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1598,7 +1598,7 @@ name
 "
 GPURenderBundle
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1608,7 +1608,7 @@ name
 "
 GPURenderBundleEncoder
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1618,7 +1618,7 @@ name
 "
 GPURenderPassEncoder
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1628,7 +1628,7 @@ name
 "
 GPURenderPipeline
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1638,7 +1638,7 @@ name
 "
 GPUSampler
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1648,7 +1648,7 @@ name
 "
 GPUShaderModule
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1658,7 +1658,7 @@ name
 "
 GPUShaderStage
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1668,7 +1668,7 @@ name
 "
 GPUSupportedFeatures
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1678,7 +1678,7 @@ name
 "
 GPUSupportedLimits
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1688,7 +1688,7 @@ name
 "
 GPUTexture
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1698,7 +1698,7 @@ name
 "
 GPUTextureUsage
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1708,7 +1708,7 @@ name
 "
 GPUTextureView
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1718,7 +1718,7 @@ name
 "
 GPUUncapturedErrorEvent
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -1728,7 +1728,7 @@ name
 "
 GPUValidationError
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -2728,7 +2728,7 @@ name
 "
 WGSLLanguageFeatures
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
