@@ -1507,16 +1507,6 @@ IsAcceptableChild
 (
 aNode
 )
-&
-&
-!
-aria
-:
-:
-IsValidARIAHidden
-(
-mDoc
-)
 )
 {
 mDoc
