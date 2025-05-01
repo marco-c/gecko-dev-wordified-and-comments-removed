@@ -1936,7 +1936,7 @@ vaDesc
 .
 fourcc
 =
-VA_FOURCC_YV12
+VA_FOURCC_I420
 ;
 MOZ_ASSERT
 (
