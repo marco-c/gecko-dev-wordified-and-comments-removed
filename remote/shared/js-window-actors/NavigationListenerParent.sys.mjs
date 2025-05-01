@@ -208,7 +208,7 @@ get
 ;
 export
 class
-WebProgressListenerParent
+NavigationListenerParent
 extends
 JSWindowActorParent
 {
@@ -251,7 +251,7 @@ name
 {
 case
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 fragmentNavigated
 "
@@ -269,7 +269,7 @@ break
 }
 case
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 sameDocumentChanged
 "
@@ -287,7 +287,7 @@ break
 }
 case
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 navigationStarted
 "
@@ -305,7 +305,7 @@ break
 }
 case
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 navigationStopped
 "

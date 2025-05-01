@@ -132,7 +132,7 @@ get
 ;
 export
 class
-WebProgressListenerChild
+NavigationListenerChild
 extends
 JSWindowActorChild
 {
@@ -676,7 +676,7 @@ this
 sendAsyncMessage
 (
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 fragmentNavigated
 "
@@ -713,7 +713,7 @@ this
 sendAsyncMessage
 (
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 sameDocumentChanged
 "
@@ -887,7 +887,7 @@ this
 sendAsyncMessage
 (
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 navigationStarted
 "
@@ -963,7 +963,7 @@ this
 sendAsyncMessage
 (
 "
-WebProgressListenerChild
+NavigationListenerChild
 :
 navigationStopped
 "
