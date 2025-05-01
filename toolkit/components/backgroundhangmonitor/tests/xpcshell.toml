@@ -12,9 +12,6 @@ js
 BHR
 is
 disabled
-on
-android
-and
 outside
 of
 nightly
@@ -48,14 +45,6 @@ if
 [
 "
 debug
-"
-"
-os
-=
-=
-'
-android
-'
 "
 "
 os

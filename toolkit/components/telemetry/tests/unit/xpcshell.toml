@@ -1119,7 +1119,6 @@ disabled
 on
 tsan
 asan
-android
 and
 outside
 of
