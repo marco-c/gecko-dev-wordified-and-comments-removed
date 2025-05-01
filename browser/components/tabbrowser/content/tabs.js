@@ -6911,6 +6911,10 @@ crossAxisEnd
 window
 .
 screenX
++
+window
+.
+outerWidth
 ;
 }
 else
