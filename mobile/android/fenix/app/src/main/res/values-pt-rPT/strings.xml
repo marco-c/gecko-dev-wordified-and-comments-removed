@@ -2021,7 +2021,6 @@ direita
 para
 alternar
 entre
-os
 separadores
 .
 <
@@ -24088,9 +24087,8 @@ download_navigate_back_description
 "
 >
 Navegar
-para
-tr
-s
+de
+volta
 <
 /
 string
@@ -56665,10 +56663,11 @@ temporariamente
 os
 valores
 da
+casa
+e
+da
 regi
 o
-inicial
-e
 atual
 para
 testes
@@ -56764,7 +56763,7 @@ debug_drawer_override_home_region_label
 Sobrepor
 regi
 o
-inicial
+base
 <
 /
 string
@@ -56829,10 +56828,10 @@ debug_drawer_override_region
 "
 >
 Sobrepor
+casa
+e
 regi
 o
-inicial
-e
 atual
 <
 /
