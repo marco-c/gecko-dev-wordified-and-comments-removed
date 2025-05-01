@@ -3082,7 +3082,7 @@ quicksuggest
 .
 ampTopPickCharThreshold
 "
-0
+5
 )
 ;
 pref
