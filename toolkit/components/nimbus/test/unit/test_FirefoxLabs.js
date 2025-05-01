@@ -979,6 +979,9 @@ placeholder
 requiresRestart
 :
 false
+isRollout
+:
+true
 }
 )
 ;
