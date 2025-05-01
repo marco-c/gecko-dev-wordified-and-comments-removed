@@ -1120,7 +1120,9 @@ enable_mojojs
 :
         
 blink_features
-=
+.
+extend
+(
 [
 '
 MojoJS
@@ -1129,7 +1131,8 @@ MojoJS
 MojoJSTest
 '
 ]
-        
+)
+    
 chrome_options
 [
 "
