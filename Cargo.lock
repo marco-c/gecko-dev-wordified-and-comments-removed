@@ -27248,11 +27248,6 @@ foundation
 env_logger
 "
 "
-futures
--
-executor
-"
-"
 lazy_static
 "
 "
@@ -27260,9 +27255,6 @@ libloading
 "
 "
 log
-"
-"
-moz_task
 "
 "
 pkcs11
@@ -27276,10 +27268,10 @@ rsclientcerts
 sha2
 "
 "
+static_prefs
+"
+"
 winapi
-"
-"
-xpcom
 "
 ]
 [
