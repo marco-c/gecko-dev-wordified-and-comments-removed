@@ -80,6 +80,13 @@ js
 ]
 [
 "
+browser_ml_embeddings_generator
+.
+js
+"
+]
+[
+"
 browser_ml_engine
 .
 js
