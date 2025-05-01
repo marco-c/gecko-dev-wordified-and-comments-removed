@@ -531,7 +531,14 @@ fenixWordmarkText
 )
 contentDescription
 =
-null
+stringResource
+(
+R
+.
+string
+.
+app_name
+)
 )
 }
 Composable
