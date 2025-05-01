@@ -320,6 +320,13 @@ AppConstants
 NIGHTLY_BUILD
 ;
 var
+isEarlyBetaOrEarlier
+=
+AppConstants
+.
+EARLY_BETA_OR_EARLIER
+;
+var
 isRelease
 =
 AppConstants
@@ -344,6 +351,7 @@ postMessage
 (
 {
 isNightly
+isEarlyBetaOrEarlier
 isRelease
 isAndroid
 }
