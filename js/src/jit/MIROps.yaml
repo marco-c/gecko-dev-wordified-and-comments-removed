@@ -3298,9 +3298,6 @@ if_operands_equal
 alias_set
 :
 none
-clone
-:
-true
 -
 name
 :
