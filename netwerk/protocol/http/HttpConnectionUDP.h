@@ -151,12 +151,10 @@ define
 HTTPCONNECTIONUDP_IID
 \
 {
-\
 0xb97d2036
 0xb441
 0x48be
 {
-\
 0xb3
 0x1e
 0x25
@@ -165,9 +163,7 @@ HTTPCONNECTIONUDP_IID
 0x32
 0xdd
 0x67
-\
 }
-\
 }
 class
 HttpConnectionUDP
@@ -328,6 +324,11 @@ NotifyDataRead
 ;
 void
 NotifyDataWrite
+(
+)
+;
+Http3Stats
+GetStats
 (
 )
 ;

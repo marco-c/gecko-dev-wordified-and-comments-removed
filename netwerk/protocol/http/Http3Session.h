@@ -659,6 +659,11 @@ CloseWebTransportConn
 (
 )
 ;
+Http3Stats
+GetStats
+(
+)
+;
 private
 :
 ~
@@ -1058,6 +1063,9 @@ mTimerShouldTrigger
 ;
 TimeStamp
 mZeroRttStarted
+;
+TimeStamp
+mLastTRRResponseTime
 ;
 uint64_t
 mBlockedByStreamLimitCount

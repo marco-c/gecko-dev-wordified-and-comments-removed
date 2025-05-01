@@ -36,6 +36,17 @@ HttpRetParams
 *
 )
 ;
+static
+void
+GetHttp3ConnectionStatsData
+(
+nsTArray
+<
+Http3ConnectionStatsParams
+>
+*
+)
+;
 }
 ;
 }
