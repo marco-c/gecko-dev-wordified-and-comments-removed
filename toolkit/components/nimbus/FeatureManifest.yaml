@@ -128,9 +128,6 @@ task
 hasExposure
 :
 false
-allowCoenrollment
-:
-true
 variables
 :
 {
