@@ -775,6 +775,17 @@ innerTextField
 (
 )
 }
+if
+(
+state
+.
+text
+.
+isNotEmpty
+(
+)
+)
+{
 IconButton
 (
 onClick
@@ -805,6 +816,7 @@ colors
 .
 iconPrimary
 )
+}
 }
 }
 }
