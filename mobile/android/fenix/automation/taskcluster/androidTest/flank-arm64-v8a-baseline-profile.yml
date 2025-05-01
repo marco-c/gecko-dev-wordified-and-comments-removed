@@ -147,7 +147,7 @@ use
 -
 orchestrator
 :
-true
+false
 environment
 -
 variables
@@ -155,6 +155,13 @@ variables
 clearPackageData
 :
 true
+androidx
+.
+benchmark
+.
+enabledRules
+:
+BaselineProfile
 directories
 -
 to
