@@ -364,10 +364,6 @@ mIsDying
 (
 false
 )
-mIsScriptForbidden
-(
-false
-)
 mIsInnerWindow
 (
 false
@@ -390,9 +386,6 @@ const
 {
 if
 (
-mIsScriptForbidden
-|
-|
 mIsDying
 )
 {
