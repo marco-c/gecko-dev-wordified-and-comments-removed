@@ -561,15 +561,6 @@ zone
 ;
 virtual
 void
-adoptCalendar
-(
-Calendar
-*
-calendarToAdopt
-)
-;
-virtual
-void
 setContext
 (
 UDisplayContext

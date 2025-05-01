@@ -1392,6 +1392,13 @@ Ok
 )
 ;
 }
+void
+SetStartTimeIfGregorian
+(
+double
+aTime
+)
+;
 Result
 <
 ComponentsBag
