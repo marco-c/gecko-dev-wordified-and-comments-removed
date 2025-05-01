@@ -7269,7 +7269,7 @@ void
 CompositorBridgeParent
 :
 :
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 RefPtr
 <
@@ -7308,7 +7308,7 @@ mWrBridge
 mWrBridge
 -
 >
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 aInfo
 )

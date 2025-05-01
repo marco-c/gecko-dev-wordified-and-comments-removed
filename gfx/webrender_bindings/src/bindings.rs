@@ -2867,7 +2867,7 @@ RenderReasons
 )
 ;
 fn
-wr_finished_scene_build
+wr_schedule_frame_after_scene_build
 (
 window_id
 :
@@ -5076,6 +5076,9 @@ DocumentId
 info
 :
 PipelineInfo
+schedule_frame
+:
+bool
 )
 {
 let
@@ -5103,9 +5106,12 @@ info
 )
 ;
 }
+if
+schedule_frame
+{
 unsafe
 {
-wr_finished_scene_build
+wr_schedule_frame_after_scene_build
 (
 self
 .
@@ -5114,6 +5120,7 @@ window_id
 mut
 info
 )
+}
 }
 gecko_profiler_end_marker
 (

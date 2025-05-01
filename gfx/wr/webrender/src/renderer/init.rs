@@ -418,6 +418,9 @@ DocumentId
 info
 :
 PipelineInfo
+schedule_frame
+:
+bool
 )
 ;
 fn

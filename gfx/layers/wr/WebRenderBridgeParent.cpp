@@ -13561,7 +13561,7 @@ void
 WebRenderBridgeParent
 :
 :
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 RefPtr
 <
