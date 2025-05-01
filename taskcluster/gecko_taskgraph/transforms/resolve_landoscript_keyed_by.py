@@ -133,6 +133,14 @@ repo
 "
             
 "
+hg
+-
+repo
+-
+url
+"
+            
+"
 dontbuild
 "
             
