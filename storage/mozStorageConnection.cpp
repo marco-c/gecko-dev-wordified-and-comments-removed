@@ -12503,6 +12503,15 @@ sSupportedExtensions
 fts5
 "
 _ns
+#
+ifdef
+MOZ_SQLITE_VEC0_EXT
+"
+vec
+"
+_ns
+#
+endif
 }
 ;
 if

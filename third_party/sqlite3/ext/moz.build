@@ -33,6 +33,17 @@ fts5
 .
 c
 "
+"
+sqlite
+-
+vec
+/
+sqlite
+-
+vec
+.
+c
+"
 ]
 if
 CONFIG

@@ -54,3 +54,4 @@ MPL
 /
 .
 sqlite3_fts5_init
+sqlite3_vec_init
