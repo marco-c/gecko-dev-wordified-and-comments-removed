@@ -1128,7 +1128,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -1233,7 +1233,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -1410,7 +1410,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -1727,7 +1727,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -1873,7 +1873,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -2146,7 +2146,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
