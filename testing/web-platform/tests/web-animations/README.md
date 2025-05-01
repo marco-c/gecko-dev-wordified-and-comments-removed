@@ -768,7 +768,6 @@ fine
 to
 repeat
 the
-the
 same
 parameter
 values
