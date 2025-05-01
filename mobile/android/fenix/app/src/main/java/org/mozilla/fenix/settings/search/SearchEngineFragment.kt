@@ -660,6 +660,15 @@ pref_key_show_search_suggestions_in_private
 .
 apply
 {
+isChecked
+=
+context
+.
+settings
+(
+)
+.
+shouldShowSearchSuggestionsInPrivate
 isEnabled
 =
 context
