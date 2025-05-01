@@ -8213,6 +8213,7 @@ security
 "
 )
 ;
+{
 MutexAutoLock
 lock
 (
@@ -8222,6 +8223,12 @@ mMutex
 mDefaultCertVerifier
 =
 nullptr
+;
+}
+AsyncLoadOrUnloadOSClientCertsModule
+(
+false
+)
 ;
 }
 nsresult

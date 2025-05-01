@@ -208,11 +208,6 @@ LoadIPCClientCertsModule
 (
 )
 ;
-void
-UnloadUserModules
-(
-)
-;
 nsresult
 DefaultServerNicknameForCert
 (
