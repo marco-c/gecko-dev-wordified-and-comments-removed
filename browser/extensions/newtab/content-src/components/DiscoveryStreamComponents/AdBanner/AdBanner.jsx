@@ -581,6 +581,16 @@ title
 spoc
 .
 title
+|
+|
+spoc
+.
+sponsor
+|
+|
+spoc
+.
+alt_text
 }
 onLinkClick
 =
