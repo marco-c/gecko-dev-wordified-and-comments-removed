@@ -11338,6 +11338,17 @@ ss
 sid
 )
 ;
+PORT_Assert
+(
+!
+ss
+-
+>
+sec
+.
+localCert
+)
+;
 ss
 -
 >
