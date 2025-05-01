@@ -361,6 +361,16 @@ a
 profile
 group
 .
+This
+is
+only
+usable
+after
+*
+startup
+has
+complete
+.
 *
 *
 If

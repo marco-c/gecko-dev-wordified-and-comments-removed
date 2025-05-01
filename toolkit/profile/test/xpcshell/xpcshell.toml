@@ -80,6 +80,13 @@ js
 ]
 [
 "
+test_find_groupProfile
+.
+js
+"
+]
+[
+"
 test_fix_directory_case
 .
 js
@@ -88,6 +95,13 @@ js
 [
 "
 test_ignore_legacy_directory
+.
+js
+"
+]
+[
+"
+test_ignore_storeID_pref
 .
 js
 "
