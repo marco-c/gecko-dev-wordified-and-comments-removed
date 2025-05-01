@@ -222,6 +222,13 @@ js
 ]
 [
 "
+test_chromeutils_isJSIdentifier
+.
+js
+"
+]
+[
+"
 test_chromeutils_getXPCOMErrorName
 .
 js
