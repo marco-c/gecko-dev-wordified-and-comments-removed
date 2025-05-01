@@ -179,9 +179,6 @@ mFromTouchEvent
 bool
 mPreventMouseEventByContent
 ;
-bool
-mIsSynthesizedForTests
-;
 WeakPtr
 <
 dom
@@ -208,10 +205,6 @@ dom
 Document
 *
 aActiveDocument
-bool
-aIsSynthesizedForTests
-=
-false
 )
 :
 mPointerType
@@ -233,10 +226,6 @@ aFromTouchEvent
 mPreventMouseEventByContent
 (
 false
-)
-mIsSynthesizedForTests
-(
-aIsSynthesizedForTests
 )
 mActiveDocument
 (
