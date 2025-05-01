@@ -2267,7 +2267,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-117
+109
 /
 /
 external_types
@@ -2442,7 +2442,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-118
+110
 /
 /
 external_types
@@ -2576,7 +2576,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-119
+111
 /
 /
 external_types

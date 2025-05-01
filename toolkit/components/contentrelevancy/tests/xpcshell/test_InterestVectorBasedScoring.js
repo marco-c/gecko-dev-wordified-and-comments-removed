@@ -789,6 +789,7 @@ ContentRelevancyManager
 score
 (
 SINGLE_INTEREST_HIT_ORIGINAL_ENCODING
+true
 )
 ;
 Assert
@@ -822,6 +823,7 @@ ContentRelevancyManager
 score
 (
 INTEREST_INCONCLUSIVE_ORIGINAL_ENCODING
+true
 )
 ;
 Assert
