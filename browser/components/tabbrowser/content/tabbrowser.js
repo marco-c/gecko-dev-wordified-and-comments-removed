@@ -10229,6 +10229,11 @@ resetBrowserToLazyState
 aTab
 )
 ;
+if
+(
+aForceDiscard
+)
+{
 aTab
 .
 toggleAttribute
@@ -10239,6 +10244,7 @@ discarded
 true
 )
 ;
+}
 let
 filter
 =
