@@ -139,6 +139,12 @@ _ZN3std3sys3pal4unix4args3imp15ARGV_INIT_ARRAY
 '
     
 '
+_ZN3std3sys4args4unix3imp15ARGV_INIT_ARRAY
+.
+*
+'
+    
+'
 _ZN17compiler_builtins4math4libm7generic4sqrt9RSQRT_TAB
 .
 *
