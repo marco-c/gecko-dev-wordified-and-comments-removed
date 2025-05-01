@@ -251,6 +251,9 @@ tests
 void
 dumpContent
 (
+in
+boolean
+anonymousSubtrees
 )
 ;
 void
