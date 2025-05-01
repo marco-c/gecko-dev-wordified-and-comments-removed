@@ -436,6 +436,14 @@ codemirrorNext
 editor
 .
 isWasm
+&
+&
+!
+location
+.
+source
+.
+isOriginal
 :
 isWasm
 (
