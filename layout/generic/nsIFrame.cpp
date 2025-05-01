@@ -45810,6 +45810,12 @@ resultFrame
 CanProvideLineIterator
 (
 )
+&
+&
+IsRelevantBlockFrame
+(
+resultFrame
+)
 )
 {
 aPos
