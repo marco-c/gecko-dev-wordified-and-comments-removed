@@ -2753,7 +2753,7 @@ NamedTemporaryFile
 mode
 =
 "
-wb
+w
 "
             
 delete
@@ -2787,39 +2787,17 @@ fpath
         
 )
         
-with
-os
-.
-fdopen
-(
-sys
-.
-stdin
-.
-fileno
-(
-)
-"
-rb
-"
-closefd
-=
-False
-)
-as
-stdin
-:
-            
 stdin_tempfile
 .
 write
 (
-b
 "
 "
 .
 join
 (
+sys
+.
 stdin
 )
 )
@@ -3138,7 +3116,7 @@ open
 (
 dump_stdin_file
 "
-wb
+w
 "
 )
         
@@ -3151,23 +3129,25 @@ open
 stdin_tempfile
 .
 name
-"
-rb
-"
 )
 as
 fp
 :
                 
-dump_stdin_file
-.
-write
+print
 (
 fp
 .
 read
 (
 )
+.
+strip
+(
+)
+file
+=
+dump_stdin_file
 )
         
 finally
