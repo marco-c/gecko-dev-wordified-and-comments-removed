@@ -19106,6 +19106,9 @@ log
 mozbuild
 "
 "
+nserror
+"
+"
 nsstring
 "
 "

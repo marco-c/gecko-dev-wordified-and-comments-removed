@@ -1004,7 +1004,7 @@ Services
 .
 fog
 .
-testRegisterRuntimeMetric
+registerRuntimeMetric
 (
 type
 category
@@ -1364,7 +1364,7 @@ Services
 .
 fog
 .
-testRegisterRuntimePing
+registerRuntimePing
 (
 name
 includeClientId
