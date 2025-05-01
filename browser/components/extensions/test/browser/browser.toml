@@ -2966,6 +2966,13 @@ js
 ]
 [
 "
+browser_ext_tabGroups_move_onMoved
+.
+js
+"
+]
+[
+"
 browser_ext_tabGroups_query
 .
 js
