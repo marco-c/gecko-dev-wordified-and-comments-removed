@@ -335,11 +335,6 @@ RemoveFromTearoffTable
 (
 )
 {
-if
-(
-mIsInTearoffTable
-)
-{
 SVGStringListTearoffTable
 (
 )
@@ -352,11 +347,6 @@ InternalList
 )
 )
 ;
-mIsInTearoffTable
-=
-false
-;
-}
 }
 DOMSVGStringList
 :

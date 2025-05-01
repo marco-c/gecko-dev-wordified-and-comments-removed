@@ -728,11 +728,6 @@ mElement
 bool
 mIsAnimValList
 ;
-bool
-mIsInTearoffTable
-=
-true
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

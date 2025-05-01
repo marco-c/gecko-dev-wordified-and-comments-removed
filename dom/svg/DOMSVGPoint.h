@@ -82,7 +82,7 @@ h
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
-29
+30
 namespace
 mozilla
 :
@@ -149,10 +149,6 @@ mIsTranslatePoint
 (
 false
 )
-mIsInTearoffTable
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -207,10 +203,6 @@ mIsTranslatePoint
 (
 false
 )
-mIsInTearoffTable
-(
-false
-)
 {
 mVal
 =
@@ -260,10 +252,6 @@ false
 mIsTranslatePoint
 (
 true
-)
-mIsInTearoffTable
-(
-false
 )
 {
 }
@@ -554,11 +542,6 @@ mIsAnimValItem
 ;
 uint32_t
 mIsTranslatePoint
-:
-1
-;
-uint32_t
-mIsInTearoffTable
 :
 1
 ;

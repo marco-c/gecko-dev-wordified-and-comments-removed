@@ -58,12 +58,12 @@ h
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
-21
+22
 /
 /
 supports
 >
-2
+4
 million
 list
 items
@@ -418,11 +418,6 @@ mAttrEnum
 ;
 uint32_t
 mIsAnimValItem
-:
-1
-;
-uint32_t
-mIsInTearoffTable
 :
 1
 ;
