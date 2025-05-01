@@ -16,6 +16,14 @@ extensions
 0
 .
 0
+pydantic
+=
+=
+2
+.
+10
+.
+6
 toml
 =
 =
