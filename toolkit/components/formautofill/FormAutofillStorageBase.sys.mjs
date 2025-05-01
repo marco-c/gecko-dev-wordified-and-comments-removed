@@ -12248,6 +12248,11 @@ number
 encrypted
 "
 ]
+"
+CCBase
+.
+_stripComputedField
+"
 )
 ;
 }
@@ -13012,6 +13017,12 @@ number
 encrypted
 "
 ]
+"
+CCBase
+.
+*
+getDuplicatedRecords
+"
 false
 )
 ;
