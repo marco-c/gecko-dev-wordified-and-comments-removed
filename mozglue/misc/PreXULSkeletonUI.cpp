@@ -7220,7 +7220,7 @@ theme
 .
 titlebarColor
 =
-0xf0f0f4
+0xeaeaed
 ;
 theme
 .
