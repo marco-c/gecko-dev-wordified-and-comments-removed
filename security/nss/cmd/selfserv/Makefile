@@ -708,16 +708,6 @@ include
 platlibs
 .
 mk
-include
-(
-CORE_DEPTH
-)
-/
-coreconf
-/
-zlib
-.
-mk
 #
 #
 #

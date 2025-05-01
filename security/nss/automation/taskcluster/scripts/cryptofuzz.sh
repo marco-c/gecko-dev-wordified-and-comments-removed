@@ -246,7 +246,7 @@ ASAN_OPTIONS
 "
 quarantine_size_mb
 =
-64
+128
 "
 .
 /
