@@ -294,7 +294,7 @@ is
 firstEditor
 .
 styleSheetFriendlyIndex
-0
+1
 "
 1st
 inline
@@ -303,7 +303,7 @@ stylesheet
 s
 index
 is
-0
+1
 "
 )
 ;
@@ -361,7 +361,7 @@ is
 secondEditor
 .
 styleSheetFriendlyIndex
-1
+2
 "
 2nd
 inline
@@ -370,7 +370,7 @@ stylesheet
 s
 index
 is
-1
+2
 "
 )
 ;
@@ -514,7 +514,7 @@ editors
 ]
 .
 styleSheetFriendlyIndex
-0
+1
 "
 2nd
 to
@@ -526,7 +526,7 @@ stylesheet
 s
 index
 is
-0
+1
 "
 )
 ;
@@ -560,7 +560,7 @@ editors
 ]
 .
 styleSheetFriendlyIndex
-1
+2
 "
 Last
 user
@@ -570,7 +570,7 @@ stylesheet
 s
 index
 is
-1
+2
 "
 )
 ;
