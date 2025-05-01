@@ -2484,6 +2484,9 @@ NS_ERROR_UNEXPECTED
 __func__
 )
 ;
+return
+promise
+;
 }
 nsresult
 rv
