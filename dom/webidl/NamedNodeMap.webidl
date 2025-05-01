@@ -111,6 +111,9 @@ name
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 BinaryName
 =
@@ -166,6 +169,9 @@ localName
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 Attr

@@ -4875,6 +4875,9 @@ SetAttributeNode
 Attr
 &
 aNewAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -4918,6 +4921,9 @@ SetAttributeNodeNS
 Attr
 &
 aNewAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

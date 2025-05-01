@@ -3438,6 +3438,9 @@ const
 TrustedTypeOrStringArg
 &
 aNewValue
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3686,7 +3689,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3707,7 +3710,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3728,7 +3731,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3761,6 +3764,9 @@ const
 TrustedHTMLOrTrustedScriptOrTrustedScriptURLOrString
 &
 aNewValue
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3782,6 +3788,7 @@ aElement
 aAttributeName
 aAttributeNamespaceID
 aNewValue
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3806,6 +3813,9 @@ const
 nsAString
 &
 aNewValue
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3830,6 +3840,7 @@ aAttributeName
 aAttributeNamespaceID
 &
 aNewValue
+aPrincipalOrNull
 aResultHolder
 aError
 )

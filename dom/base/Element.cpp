@@ -8954,6 +8954,9 @@ SetAttributeNode
 Attr
 &
 aNewAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -8976,6 +8979,7 @@ attrMap
 SetNamedItemNS
 (
 aNewAttr
+aSubjectPrincipal
 aError
 )
 ;
@@ -9467,6 +9471,7 @@ this
 nameAtom
 kNameSpaceID_None
 aValue
+aTriggeringPrincipal
 compliantStringHolder
 aError
 )
@@ -9540,6 +9545,7 @@ NamespaceID
 (
 )
 aValue
+aTriggeringPrincipal
 compliantStringHolder
 aError
 )
@@ -9719,6 +9725,7 @@ NamespaceID
 (
 )
 aValue
+aTriggeringPrincipal
 compliantStringHolder
 aError
 )
@@ -9988,6 +9995,9 @@ SetAttributeNodeNS
 Attr
 &
 aNewAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -10010,6 +10020,7 @@ attrMap
 SetNamedItemNS
 (
 aNewAttr
+aSubjectPrincipal
 aError
 )
 ;

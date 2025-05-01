@@ -47,6 +47,9 @@ nsAtom
 class
 nsINode
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -557,6 +560,9 @@ SetNamedItemNS
 Attr
 &
 aNode
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

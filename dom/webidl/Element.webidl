@@ -1007,6 +1007,9 @@ name
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 Attr
@@ -1042,6 +1045,9 @@ localName
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
+=
+NonSystem
 Throws
 ]
 Attr
