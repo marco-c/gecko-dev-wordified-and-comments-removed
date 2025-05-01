@@ -113,6 +113,12 @@ AlertDialog
 import
 androidx
 .
+biometric
+.
+BiometricManager
+import
+androidx
+.
 core
 .
 content
@@ -405,7 +411,12 @@ BiometricPromptFeature
 .
 canUseFeature
 (
+BiometricManager
+.
+from
+(
 context
+)
 )
 )
 {

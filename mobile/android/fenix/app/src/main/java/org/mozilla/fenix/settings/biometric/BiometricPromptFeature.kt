@@ -526,9 +526,9 @@ feature
 fun
 canUseFeature
 (
-context
+manager
 :
-Context
+BiometricManager
 )
 :
 Boolean
@@ -542,15 +542,6 @@ SDK_INT
 M
 )
 {
-val
-manager
-=
-BiometricManager
-.
-from
-(
-context
-)
 manager
 .
 isHardwareAvailable
