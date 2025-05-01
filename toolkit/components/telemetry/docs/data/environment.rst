@@ -2815,8 +2815,6 @@ This
 feature
 is
 Windows
-8
-+
 only
 antivirus
 :
