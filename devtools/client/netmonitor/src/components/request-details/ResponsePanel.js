@@ -848,6 +848,9 @@ request
 "
 responseContent
 "
+"
+responseHeaders
+"
 ]
 )
 ;
@@ -874,6 +877,9 @@ request
 [
 "
 responseContent
+"
+"
+responseHeaders
 "
 ]
 )
@@ -1353,6 +1359,8 @@ props
 const
 {
 responseContent
+responseHeaders
+url
 }
 =
 request
@@ -1558,6 +1566,8 @@ componentProps
 =
 {
 responseContent
+responseHeaders
+url
 }
 ;
 hasFormattedDisplay
