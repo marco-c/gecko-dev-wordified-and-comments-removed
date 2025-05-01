@@ -6910,6 +6910,8 @@ dom
 /
 webgpu
 /
+tests
+/
 mochitest
 /
 *

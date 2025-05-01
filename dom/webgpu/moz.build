@@ -24,6 +24,8 @@ MOCHITEST_MANIFESTS
 =
 [
 "
+tests
+/
 mochitest
 /
 mochitest
@@ -35,6 +37,8 @@ pref
 toml
 "
 "
+tests
+/
 mochitest
 /
 mochitest
@@ -44,6 +48,8 @@ resistfingerprinting
 toml
 "
 "
+tests
+/
 mochitest
 /
 mochitest
@@ -51,6 +57,8 @@ mochitest
 toml
 "
 "
+tests
+/
 mochitest
 /
 perftest

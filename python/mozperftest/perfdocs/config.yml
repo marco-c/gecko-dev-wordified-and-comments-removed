@@ -516,6 +516,8 @@ dom
 /
 webgpu
 /
+tests
+/
 mochitest
 :
 description
@@ -529,6 +531,8 @@ the
 dom
 /
 webgpu
+/
+tests
 /
 mochitest
 '
