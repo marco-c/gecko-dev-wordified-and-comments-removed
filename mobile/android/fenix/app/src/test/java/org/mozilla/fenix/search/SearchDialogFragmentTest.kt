@@ -921,7 +921,7 @@ anything
 {
 fragment
 .
-interactor
+nullableInteractor
 =
 mockk
 (
