@@ -380,6 +380,7 @@ RecordedFrameHandle
 RenderBackendHooks
 Renderer
 RendererStats
+ClipRadius
 SWGLCompositeSurfaceInfo
 SceneBuilderHooks
 ShaderPrecacheFlags
@@ -6603,6 +6604,12 @@ DeviceIntRect
 image_rendering
 :
 ImageRendering
+rounded_clip_rect
+:
+DeviceIntRect
+rounded_clip_radii
+:
+ClipRadius
 )
 ;
 fn
@@ -7188,6 +7195,12 @@ DeviceIntRect
 image_rendering
 :
 ImageRendering
+rounded_clip_rect
+:
+DeviceIntRect
+rounded_clip_radii
+:
+ClipRadius
 )
 {
 unsafe
@@ -7202,6 +7215,8 @@ id
 transform
 clip_rect
 image_rendering
+rounded_clip_rect
+rounded_clip_radii
 )
 ;
 }
@@ -7990,6 +8005,11 @@ id
 transform
 clip_rect
 image_rendering
+clip_rect
+ClipRadius
+:
+:
+EMPTY
 )
 ;
 }
