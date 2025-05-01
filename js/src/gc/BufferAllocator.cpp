@@ -12968,7 +12968,7 @@ zone
 )
 |
 |
-CurrentThreadIsGCMarking
+CurrentThreadIsPerformingGC
 (
 )
 )
@@ -13110,7 +13110,7 @@ MOZ_ASSERT
 buffer
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 =
