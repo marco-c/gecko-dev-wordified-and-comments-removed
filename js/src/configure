@@ -86,6 +86,16 @@ PYTHON3
 python3
 }
 "
+export
+OLD_CONFIGURE
+=
+"
+SRCDIR
+"
+/
+old
+-
+configure
 set
 -
 -
