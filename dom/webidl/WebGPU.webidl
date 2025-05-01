@@ -696,6 +696,13 @@ wgslLanguageFeatures
 dictionary
 GPURequestAdapterOptions
 {
+DOMString
+featureLevel
+=
+"
+core
+"
+;
 GPUPowerPreference
 powerPreference
 ;
