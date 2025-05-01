@@ -117,11 +117,6 @@ case
 setState
 (
 query
-getState
-(
-query
-)
-+
 "
 load
 "
