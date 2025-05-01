@@ -393,6 +393,15 @@ bool
 aForeignByAncestorContext
 )
 ;
+static
+nsString
+PartitionKeyForExpandedPrincipal
+(
+nsIPrincipal
+*
+aExpandedPrincipal
+)
+;
 }
 ;
 }
