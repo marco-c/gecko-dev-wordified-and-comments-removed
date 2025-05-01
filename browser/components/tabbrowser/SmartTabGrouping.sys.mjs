@@ -1740,10 +1740,7 @@ slice
 }
 .
 {
-td
-[
-EMBED_TEXT_KEY
-]
+text
 }
 ;
 }
