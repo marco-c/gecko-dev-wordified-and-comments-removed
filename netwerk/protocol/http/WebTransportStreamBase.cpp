@@ -39,8 +39,6 @@ WebTransportStreamBase
 (
 uint64_t
 aSessionId
-WebTransportStreamType
-aType
 std
 :
 :
@@ -68,10 +66,6 @@ aCallback
 mSessionId
 (
 aSessionId
-)
-mStreamType
-(
-aType
 )
 mStreamReadyCallback
 (

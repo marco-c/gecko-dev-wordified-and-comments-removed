@@ -4020,7 +4020,7 @@ mSessionId
 aSession
 -
 >
-StreamId
+GetStreamId
 (
 )
 ;
@@ -4030,6 +4030,13 @@ WebTransportSessionProxyState
 :
 :
 NEGOTIATING_SUCCEEDED
+)
+;
+mWebTransportSession
+-
+>
+StartReading
+(
 )
 ;
 break

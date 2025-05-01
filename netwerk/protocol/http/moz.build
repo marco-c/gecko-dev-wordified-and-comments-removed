@@ -533,6 +533,11 @@ Http2WebTransportSession
 cpp
 "
 "
+Http2WebTransportStream
+.
+cpp
+"
+"
 Http3Session
 .
 cpp

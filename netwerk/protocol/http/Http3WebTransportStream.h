@@ -133,8 +133,16 @@ uint64_t
 aStreamId
 )
 ;
-uint64_t
+class
 StreamId
+WebTransportStreamId
+(
+)
+const
+override
+;
+uint64_t
+GetStreamId
 (
 )
 const
