@@ -4884,6 +4884,23 @@ try_name
 return
 False
                 
+if
+"
+ebay
+-
+kleinanzeigen
+-
+search
+-
+nofis
+"
+in
+try_name
+:
+                    
+return
+False
+                
 return
 True
         
