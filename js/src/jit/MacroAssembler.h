@@ -16869,7 +16869,7 @@ ref
 wasm
 :
 :
-RefType
+MaybeRefType
 sourceType
 wasm
 :
