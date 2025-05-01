@@ -1183,6 +1183,14 @@ experimental
 .
 hidden
 =
+!
+ExperimentAPI
+.
+_manager
+.
+studiesEnabled
+|
+|
 Services
 .
 prefs
