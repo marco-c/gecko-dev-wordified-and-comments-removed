@@ -215,15 +215,6 @@ val
 httpClient
 :
 Client
-private
-val
-updateFxAAllowDomesticChinaServerMenu
-:
-(
-)
--
->
-Unit
 )
 {
 private
@@ -358,9 +349,6 @@ account
 accountManager
 .
 authenticatedAccount
-(
-)
-updateFxAAllowDomesticChinaServerMenu
 (
 )
 /
