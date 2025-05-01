@@ -69,9 +69,6 @@ dom
 struct
 SVGPathDataSettings
 ;
-struct
-SVGPathSegmentInit
-;
 class
 SVGPathSegment
 ;
@@ -344,7 +341,10 @@ SetPathData
 const
 Sequence
 <
-SVGPathSegmentInit
+OwningNonNull
+<
+SVGPathSegment
+>
 >
 &
 aValues

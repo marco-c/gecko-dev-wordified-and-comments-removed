@@ -65,9 +65,6 @@ SVGElement
 class
 SVGPathSegment
 ;
-struct
-SVGPathSegmentInit
-;
 }
 class
 SVGAnimatedPathSegList
@@ -154,10 +151,13 @@ dom
 :
 Sequence
 <
+OwningNonNull
+<
 dom
 :
 :
-SVGPathSegmentInit
+SVGPathSegment
+>
 >
 &
 aValues
