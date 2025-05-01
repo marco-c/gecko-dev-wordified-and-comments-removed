@@ -70,6 +70,14 @@ nsIPrincipal
 aPrincipal
 )
 ;
+bool
+IsWebAuthnAllowedForTransportSecurityInfo
+(
+nsITransportSecurityInfo
+*
+aSecurityInfo
+)
+;
 nsresult
 DefaultRpId
 (
