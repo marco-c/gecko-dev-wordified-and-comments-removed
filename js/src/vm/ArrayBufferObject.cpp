@@ -11344,6 +11344,12 @@ ArrayBufferObject
 donor
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 constexpr
 auto
 allocKind
