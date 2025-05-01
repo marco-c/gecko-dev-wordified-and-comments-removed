@@ -214,6 +214,24 @@ LintSandbox
 {
                 
 "
+OLD_CONFIGURE
+"
+:
+os
+.
+path
+.
+join
+(
+topsrcdir
+"
+old
+-
+configure
+"
+)
+                
+"
 MOZCONFIG
 "
 :
