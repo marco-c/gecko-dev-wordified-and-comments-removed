@@ -751,6 +751,11 @@ nsIWebBrowserPersist
 :
 :
 PERSIST_FLAGS_AUTODETECT_APPLY_CONVERSION
+|
+nsIWebBrowserPersist
+:
+:
+PERSIST_FLAGS_DISABLE_HTTPS_ONLY
 )
 ;
 return
