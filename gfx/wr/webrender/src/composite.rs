@@ -5177,6 +5177,10 @@ pub
 is_opaque
 :
 bool
+pub
+enable_screenshot
+:
+bool
 }
 impl
 Default
@@ -5194,6 +5198,9 @@ Self
 WindowProperties
 {
 is_opaque
+:
+true
+enable_screenshot
 :
 true
 }
@@ -5835,6 +5842,10 @@ CompositorInputConfig
 a
 >
 {
+pub
+enable_screenshot
+:
+bool
 pub
 layers
 :
