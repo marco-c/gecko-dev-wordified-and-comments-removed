@@ -1550,6 +1550,13 @@ xhtml
 ]
 [
 "
+test_preferencesBindings_setting
+.
+html
+"
+]
+[
+"
 test_preferences_beforeaccept
 .
 xhtml
