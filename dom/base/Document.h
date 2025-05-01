@@ -10967,11 +10967,6 @@ ReportDocumentUseCounters
 )
 ;
 void
-ReportShadowedHTMLDocumentProperties
-(
-)
-;
-void
 ReportLCP
 (
 )
@@ -15231,12 +15226,6 @@ mShouldNotifyFetchSuccess
 ;
 bool
 mShouldNotifyFormOrPasswordRemoved
-;
-nsTArray
-<
-nsString
->
-mShadowedHTMLDocumentProperties
 ;
 uint32_t
 mPageloadEventFeatures
