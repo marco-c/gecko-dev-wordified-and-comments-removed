@@ -269,7 +269,7 @@ dom
 :
 Geolocation
 *
-locator
+aLocator
 )
 ;
 void
@@ -283,7 +283,15 @@ dom
 :
 Geolocation
 *
-locator
+aLocator
+)
+;
+void
+MoveLocators
+(
+nsGeolocationService
+*
+aService
 )
 ;
 void
