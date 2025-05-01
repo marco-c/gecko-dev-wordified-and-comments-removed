@@ -242,6 +242,16 @@ Color
 .
 Transparent
 )
+progressBarConfig
+=
+null
+textStyle
+=
+FirefoxTheme
+.
+typography
+.
+body1
 onUrlClicked
 =
 onClick
