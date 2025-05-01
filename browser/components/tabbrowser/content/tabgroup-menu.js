@@ -1531,7 +1531,6 @@ arrow
 class
 =
 "
-panel
 tab
 -
 group
