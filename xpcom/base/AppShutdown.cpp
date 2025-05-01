@@ -1810,6 +1810,10 @@ aPhase
 return
 ;
 }
+SetImpendingShutdown
+(
+)
+;
 nsCOMPtr
 <
 nsIThread
