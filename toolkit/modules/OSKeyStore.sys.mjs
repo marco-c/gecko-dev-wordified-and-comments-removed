@@ -348,9 +348,10 @@ a
 prompt
 .
 *
+*
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -1166,7 +1167,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 Object
