@@ -700,6 +700,13 @@ RPMIsFirefox
 *
 "
 ]
+RPMHasConnectivity
+:
+[
+"
+*
+"
+]
 RPMGetTRRSkipReason
 :
 [
