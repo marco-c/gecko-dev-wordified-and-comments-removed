@@ -14001,13 +14001,6 @@ move
 defaultLocale
 )
 ;
-worker
--
->
-CreateRemoteDebuggerEndpoints
-(
-)
-;
 if
 (
 !
