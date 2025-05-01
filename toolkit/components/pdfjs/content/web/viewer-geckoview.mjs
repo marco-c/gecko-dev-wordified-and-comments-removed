@@ -41649,7 +41649,7 @@ viewerVersion
 .
 2
 .
-87
+96
 "
 ;
 if
@@ -63937,14 +63937,14 @@ pdfjsVersion
 .
 2
 .
-87
+96
 "
 ;
 const
 pdfjsBuild
 =
 "
-2f7d163df
+d8d3e0abf
 "
 ;
 const
