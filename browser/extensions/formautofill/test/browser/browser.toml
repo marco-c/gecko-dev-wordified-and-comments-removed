@@ -107,6 +107,16 @@ html
 /
 fixtures
 /
+dynamic_form_replacing_all_fields
+.
+html
+"
+"
+.
+.
+/
+fixtures
+/
 page_navigation
 .
 html

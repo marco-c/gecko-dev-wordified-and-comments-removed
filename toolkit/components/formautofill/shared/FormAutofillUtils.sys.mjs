@@ -2857,6 +2857,7 @@ element
 )
 {
 return
+(
 element
 &
 &
@@ -2870,6 +2871,12 @@ readOnly
 element
 .
 disabled
+&
+&
+element
+.
+isConnected
+)
 ;
 }
 /

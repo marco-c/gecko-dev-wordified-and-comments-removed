@@ -976,7 +976,7 @@ addresses
 )
 ;
 const
-fieldDetectedAfterFieldMutations
+fieldDetectedAfterRemovingField
 =
 getFieldDetectionCompletedPromiseResolver
 (
@@ -999,6 +999,16 @@ level2
 ]
 )
 ;
+await
+fieldDetectedAfterRemovingField
+;
+const
+fieldDetectedAfterAddingField
+=
+getFieldDetectionCompletedPromiseResolver
+(
+)
+;
 addInputField
 (
 browser
@@ -1011,7 +1021,7 @@ level2
 )
 ;
 await
-fieldDetectedAfterFieldMutations
+fieldDetectedAfterAddingField
 ;
 await
 openPopupOn
