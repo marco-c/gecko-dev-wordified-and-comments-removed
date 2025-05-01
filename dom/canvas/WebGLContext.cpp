@@ -9784,10 +9784,16 @@ fb
 >
 mGLName
 :
+(
+mDefaultFB
+?
 mDefaultFB
 -
 >
 mFB
+:
+0
+)
 ;
 gl
 -
