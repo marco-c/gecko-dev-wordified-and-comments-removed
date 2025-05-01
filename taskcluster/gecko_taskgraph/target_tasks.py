@@ -4850,13 +4850,6 @@ tp6m
 "
 in
 try_name
-and
-"
-a55
-"
-not
-in
-platform
 :
                     
 return
