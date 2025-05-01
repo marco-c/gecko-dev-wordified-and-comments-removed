@@ -336,6 +336,16 @@ tests
 )
 ;
 const
+cleanupFeature
+=
+NimbusTestUtils
+.
+addTestFeatures
+(
+feature
+)
+;
+const
 cleanup
 =
 await
@@ -436,6 +446,10 @@ EVENT_FILTER
 )
 ;
 cleanup
+(
+)
+;
+cleanupFeature
 (
 )
 ;
