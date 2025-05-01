@@ -2252,6 +2252,8 @@ RUSTC
 export
 RUSTDOC
 export
+RUSTDOCFLAGS
+export
 RUSTFMT
 export
 LIBCLANG_PATH
