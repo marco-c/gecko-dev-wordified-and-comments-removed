@@ -395,6 +395,9 @@ obj
 {
 customFormatterObjectTagDepth
 customFormatterConfigDbgObj
+allowSideEffect
+=
+true
 }
 )
 {
@@ -466,6 +469,12 @@ this
 getSafeRawObject
 (
 )
+;
+this
+.
+allowSideEffect
+=
+allowSideEffect
 ;
 this
 .

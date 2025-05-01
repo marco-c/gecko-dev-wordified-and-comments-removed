@@ -3985,6 +3985,9 @@ false
 const
 {
 obj
+allowSideEffect
+=
+false
 }
 =
 objectActor
@@ -3992,6 +3995,9 @@ objectActor
 const
 invokeUnsafeGetters
 =
+allowSideEffect
+&
+&
 !
 obj
 .

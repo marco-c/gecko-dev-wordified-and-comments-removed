@@ -1226,6 +1226,10 @@ null
 createValueGrip
 (
 value
+objectActorAttributes
+=
+{
+}
 )
 {
 return
@@ -1242,6 +1246,8 @@ this
 targetActor
 .
 objectsPool
+0
+objectActorAttributes
 )
 ;
 }
@@ -3083,6 +3089,12 @@ evalResult
 .
 throw
 ;
+const
+allowSideEffect
+=
+!
+eager
+;
 errorGrip
 =
 this
@@ -3090,6 +3102,9 @@ this
 createValueGrip
 (
 error
+{
+allowSideEffect
+}
 )
 ;
 exceptionStack
@@ -3155,6 +3170,9 @@ error
 ;
 if
 (
+allowSideEffect
+&
+&
 typeof
 error
 =
