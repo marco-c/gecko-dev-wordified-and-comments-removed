@@ -720,11 +720,6 @@ BackgroundVideoDecodingPermissionObserver
 h
 "
 "
-Benchmark
-.
-h
-"
-"
 BitReader
 .
 h
@@ -1316,11 +1311,6 @@ cpp
 "
 "
 BaseMediaResource
-.
-cpp
-"
-"
-Benchmark
 .
 cpp
 "
