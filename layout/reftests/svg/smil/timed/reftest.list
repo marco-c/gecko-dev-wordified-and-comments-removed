@@ -69,7 +69,6 @@ pause
 ref
 .
 svg
-fails
 =
 =
 removeChild
@@ -84,12 +83,6 @@ removeChild
 ref
 .
 svg
-#
-rect
-needs
-to
-reset
-fails
 =
 =
 removeChild
@@ -104,12 +97,6 @@ removeChild
 ref
 .
 svg
-#
-rect
-needs
-to
-reset
-fails
 =
 =
 appendChild
@@ -124,12 +111,6 @@ appendChild
 ref
 .
 svg
-#
-first
-rect
-needs
-to
-reset
 =
 =
 appendChild
@@ -144,7 +125,6 @@ appendChild
 ref
 .
 svg
-fails
 =
 =
 appendChild
@@ -159,12 +139,6 @@ appendChild
 ref
 .
 svg
-#
-first
-rect
-needs
-to
-reset
 =
 =
 appendChild
