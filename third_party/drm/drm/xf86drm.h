@@ -30,8 +30,6 @@ h
 #
 include
 <
-libdrm
-/
 drm
 .
 h

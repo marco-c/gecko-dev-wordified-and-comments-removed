@@ -3998,6 +3998,7 @@ drm
 /
 include
 /
+libdrm
 "
 ]
 \
