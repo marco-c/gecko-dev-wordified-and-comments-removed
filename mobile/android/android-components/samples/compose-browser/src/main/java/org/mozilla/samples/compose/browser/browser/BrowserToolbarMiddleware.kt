@@ -646,7 +646,7 @@ pageActionsEnd
 buildDisplayPageActions
 (
 )
-browserActions
+browserActionsEnd
 =
 buildDisplayBrowserActions
 (

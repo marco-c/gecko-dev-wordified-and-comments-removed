@@ -212,6 +212,8 @@ toolbar
 store
 .
 BrowserDisplayToolbarAction
+.
+BrowserActionsEndUpdated
 import
 mozilla
 .
@@ -874,7 +876,7 @@ pageActionsEnd
 buildPageActionsEnd
 (
 )
-browserActions
+browserActionsEnd
 =
 buildDisplayBrowserActions
 (
@@ -947,9 +949,7 @@ currentTabsNumber
 1
 next
 (
-BrowserDisplayToolbarAction
-.
-UpdateBrowserActions
+BrowserActionsEndUpdated
 (
 buildDisplayBrowserActions
 (
@@ -968,9 +968,7 @@ currentTabsNumber
 BATCH_TAB_COUNTER_UPDATES_NUMBER
 next
 (
-BrowserDisplayToolbarAction
-.
-UpdateBrowserActions
+BrowserActionsEndUpdated
 (
 buildDisplayBrowserActions
 (
@@ -989,9 +987,7 @@ currentTabsNumber
 BATCH_TAB_COUNTER_UPDATES_NUMBER
 next
 (
-BrowserDisplayToolbarAction
-.
-UpdateBrowserActions
+BrowserActionsEndUpdated
 (
 buildDisplayBrowserActions
 (

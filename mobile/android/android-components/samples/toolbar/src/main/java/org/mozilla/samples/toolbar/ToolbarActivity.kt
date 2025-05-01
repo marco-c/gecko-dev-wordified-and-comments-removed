@@ -5588,7 +5588,7 @@ BrowserToolbarEvent
 }
 )
 )
-browserActions
+browserActionsEnd
 =
 listOf
 (

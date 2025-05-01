@@ -877,7 +877,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -995,7 +995,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 0
@@ -1120,7 +1120,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 val
 tabCounterButton
 =
@@ -1266,7 +1266,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 val
 tabCounterButton
 =
@@ -1401,7 +1401,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 0
@@ -1457,7 +1457,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -1608,7 +1608,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -1693,7 +1693,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 0
@@ -1808,7 +1808,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -1900,7 +1900,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -2069,7 +2069,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -2123,7 +2123,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 assertEquals
 (
 2
@@ -2231,7 +2231,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 [
 1
 ]
@@ -2366,7 +2366,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 [
 0
 ]
@@ -2499,7 +2499,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 [
 0
 ]
@@ -2632,7 +2632,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 [
 0
 ]
@@ -2861,7 +2861,7 @@ state
 .
 displayState
 .
-browserActions
+browserActionsEnd
 [
 0
 ]

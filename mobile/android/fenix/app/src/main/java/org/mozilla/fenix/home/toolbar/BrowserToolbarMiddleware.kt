@@ -234,6 +234,8 @@ toolbar
 store
 .
 BrowserDisplayToolbarAction
+.
+BrowserActionsEndUpdated
 import
 mozilla
 .
@@ -1013,9 +1015,7 @@ store
 .
 dispatch
 (
-BrowserDisplayToolbarAction
-.
-UpdateBrowserActions
+BrowserActionsEndUpdated
 (
 buildEndBrowserActions
 (

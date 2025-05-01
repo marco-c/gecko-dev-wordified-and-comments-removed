@@ -567,13 +567,13 @@ uiState
 displayState
 .
 pageActionsEnd
-browserActions
+browserActionsEnd
 =
 uiState
 .
 displayState
 .
-browserActions
+browserActionsEnd
 onInteraction
 =
 {
