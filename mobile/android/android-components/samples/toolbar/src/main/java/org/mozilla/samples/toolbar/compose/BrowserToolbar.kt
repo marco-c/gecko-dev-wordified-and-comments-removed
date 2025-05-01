@@ -491,13 +491,13 @@ uiState
 displayState
 .
 pageActionsStart
-pageActions
+pageActionsEnd
 =
 uiState
 .
 displayState
 .
-pageActions
+pageActionsEnd
 browserActions
 =
 uiState

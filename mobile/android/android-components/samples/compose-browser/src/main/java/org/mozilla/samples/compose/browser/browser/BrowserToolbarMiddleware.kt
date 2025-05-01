@@ -361,7 +361,7 @@ browser
 .
 browser
 .
-DisplayPageActionsInteractions
+DisplayPageActionsEndInteractions
 .
 RefreshClicked
 import
@@ -426,7 +426,7 @@ DisplayPageOriginInteractions
 private
 sealed
 class
-DisplayPageActionsInteractions
+DisplayPageActionsEndInteractions
 :
 BrowserToolbarEvent
 {
@@ -434,7 +434,7 @@ data
 object
 RefreshClicked
 :
-DisplayPageActionsInteractions
+DisplayPageActionsEndInteractions
 (
 )
 }
@@ -641,7 +641,7 @@ onClick
 =
 PageOriginClicked
 )
-pageActions
+pageActionsEnd
 =
 buildDisplayPageActions
 (
