@@ -6892,7 +6892,7 @@ crossAxisStart
 =
 window
 .
-screenX
+mozInnerScreenX
 +
 rect
 .
@@ -6925,7 +6925,7 @@ crossAxisEnd
 =
 window
 .
-screenX
+mozInnerScreenX
 +
 rect
 .
@@ -6953,7 +6953,7 @@ crossAxisEnd
 =
 window
 .
-screenY
+mozInnerScreenY
 +
 rect
 .
