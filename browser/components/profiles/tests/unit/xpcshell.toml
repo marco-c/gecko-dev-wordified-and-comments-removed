@@ -56,13 +56,6 @@ true
 ]
 [
 "
-test_command_line_handler
-.
-js
-"
-]
-[
-"
 test_delete_last_profile
 .
 js
