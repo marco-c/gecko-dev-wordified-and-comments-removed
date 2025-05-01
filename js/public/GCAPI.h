@@ -1026,6 +1026,17 @@ reason
 ;
 extern
 JS_PUBLIC_API
+const
+char
+*
+GetGCPhaseName
+(
+uint32_t
+phase
+)
+;
+extern
+JS_PUBLIC_API
 void
 PrepareZoneForGC
 (
