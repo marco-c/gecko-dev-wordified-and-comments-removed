@@ -36,6 +36,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+NeqoHttp3Conn
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
