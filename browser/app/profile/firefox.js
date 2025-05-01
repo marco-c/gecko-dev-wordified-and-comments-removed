@@ -3066,7 +3066,7 @@ urlbar
 .
 quicksuggest
 .
-exposureSuggestionTypes
+dynamicSuggestionTypes
 "
 "
 "
