@@ -110,13 +110,6 @@ infrastructure
 .
 *
 /
-callback
-PromiseJobCallback
-=
-undefined
-(
-)
-;
 [
 TreatNonCallableAsNull
 ]
