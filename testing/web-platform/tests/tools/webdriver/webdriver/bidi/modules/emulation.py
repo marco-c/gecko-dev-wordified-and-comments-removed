@@ -48,31 +48,46 @@ float
         
 accuracy
 :
+Optional
+[
 float
+]
 =
 None
         
 altitude
 :
+Optional
+[
 float
+]
 =
 None
         
 altitude_accuracy
 :
+Optional
+[
 float
+]
 =
 None
         
 heading
 :
+Optional
+[
 float
+]
 =
 None
         
 speed
 :
+Optional
+[
 float
+]
 =
 None
     
