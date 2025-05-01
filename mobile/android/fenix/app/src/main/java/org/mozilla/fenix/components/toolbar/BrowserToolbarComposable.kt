@@ -1072,10 +1072,6 @@ components
 core
 .
 store
-onDisplayToolbarClick
-=
-{
-}
 onTextEdit
 =
 {
