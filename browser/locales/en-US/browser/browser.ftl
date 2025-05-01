@@ -3187,9 +3187,11 @@ quickactions
 -
 cmd
 -
-savepdf
+savepdf2
 =
 pdf
+save
+page
 #
 Opens
 a

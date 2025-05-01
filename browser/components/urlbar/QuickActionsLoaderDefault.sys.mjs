@@ -1305,7 +1305,7 @@ quickactions
 -
 cmd
 -
-savepdf
+savepdf2
 "
 ]
 label
