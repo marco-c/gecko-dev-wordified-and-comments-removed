@@ -1363,6 +1363,7 @@ pool
 =
 nullptr
 ;
+mutable
 hb_atomic_t
 <
 uint16_t

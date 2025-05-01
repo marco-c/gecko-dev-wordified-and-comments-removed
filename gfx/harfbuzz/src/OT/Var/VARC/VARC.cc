@@ -1944,7 +1944,6 @@ transformer_session
 ;
 if
 (
-!
 c
 .
 font
@@ -1973,12 +1972,14 @@ scratch
 glyf_scratch
 )
 )
+return
+true
+;
 #
 ifndef
 HB_NO_CFF
 if
 (
-!
 c
 .
 font
@@ -2002,9 +2003,11 @@ shape_draw_session
 coords
 )
 )
+return
+true
+;
 if
 (
-!
 c
 .
 font
@@ -2027,6 +2030,9 @@ glyph
 shape_draw_session
 )
 )
+return
+true
+;
 #
 endif
 return

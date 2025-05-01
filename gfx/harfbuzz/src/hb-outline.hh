@@ -155,6 +155,14 @@ const
 ;
 HB_INTERNAL
 void
+slant
+(
+float
+slant_xy
+)
+;
+HB_INTERNAL
+void
 embolden
 (
 float

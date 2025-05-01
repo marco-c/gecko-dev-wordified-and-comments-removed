@@ -188,7 +188,7 @@ height
 hb_tag_t
 format
 float
-slant_xy
+slant_xy_deprecated
 hb_glyph_extents_t
 *
 extents
@@ -1397,6 +1397,7 @@ int
 height
 hb_tag_t
 format
+HB_UNUSED
 float
 slant
 hb_glyph_extents_t
@@ -1414,7 +1415,9 @@ image
 width
 height
 format
-slant
+0
+.
+f
 extents
 )
 ;

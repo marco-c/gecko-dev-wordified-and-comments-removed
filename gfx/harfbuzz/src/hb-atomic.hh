@@ -1434,7 +1434,6 @@ T
 *
 new_
 )
-const
 {
 return
 hb_atomic_ptr_impl_cmpexch

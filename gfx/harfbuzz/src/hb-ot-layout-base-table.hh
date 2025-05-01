@@ -770,6 +770,8 @@ collect_variation_indices
 varidx_set
 )
 ;
+return
+;
 default
 :
 return

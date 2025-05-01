@@ -858,7 +858,13 @@ unlikely
 font
 -
 >
-slant
+slant_xy
+)
+&
+&
+HB_DIRECTION_IS_HORIZONTAL
+(
+direction
 )
 )
 {

@@ -363,6 +363,9 @@ hb_blob_get_empty
 return
 false
 ;
+bool
+ret
+=
 funcs
 -
 >
@@ -373,10 +376,9 @@ blob
 0
 0
 HB_PAINT_IMAGE_FORMAT_SVG
-font
--
->
-slant_xy
+0
+.
+f
 nullptr
 )
 ;
@@ -386,7 +388,7 @@ blob
 )
 ;
 return
-true
+ret
 ;
 }
 private
