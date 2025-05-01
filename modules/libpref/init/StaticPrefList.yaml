@@ -99372,7 +99372,7 @@ mixed_content
 upgrade_display_content
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
@@ -99400,7 +99400,7 @@ upgrade_display_content
 image
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
@@ -99428,7 +99428,7 @@ upgrade_display_content
 audio
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
@@ -99456,7 +99456,7 @@ upgrade_display_content
 video
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
