@@ -2046,7 +2046,7 @@ nullptr
 )
 ;
 void
-ScheduleFrameAfterSceneBuild
+NotifyDidSceneBuild
 (
 RefPtr
 <
