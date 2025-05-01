@@ -92,15 +92,6 @@ be
 disabled
 via
 the
-newtabPingEnabled
-variable
-of
-the
-glean
-Nimbus
-feature
-or
-the
 browser
 .
 newtabpage
