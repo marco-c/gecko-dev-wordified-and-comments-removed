@@ -194,7 +194,7 @@ NavigationHistoryEntry
 ;
 Document
 *
-GetCurrentDocument
+GetAssociatedDocument
 (
 )
 const

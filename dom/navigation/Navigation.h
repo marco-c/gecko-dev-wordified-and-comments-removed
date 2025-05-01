@@ -781,6 +781,13 @@ JS
 UndefinedHandleValue
 )
 ;
+Document
+*
+GetAssociatedDocument
+(
+)
+const
+;
 void
 LogHistory
 (
