@@ -523,7 +523,7 @@ AudioDataResource
 Construct
 (
 const
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aInit
 )
@@ -1415,6 +1415,16 @@ AssertIsOnOwningThread
 (
 )
 ;
+if
+(
+!
+mNumberOfFrames
+)
+{
+return
+0
+;
+}
 return
 static_cast
 <
@@ -3190,7 +3200,7 @@ AudioData
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 const
