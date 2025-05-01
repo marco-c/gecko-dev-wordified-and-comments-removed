@@ -10,6 +10,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
 transforms
 =
 TransformSequence
@@ -208,10 +216,6 @@ artifact
 "
 :
 "
-public
-/
-build
-/
 target
 .
 tar
@@ -305,6 +309,36 @@ langpack_artifact_path
                 
 )
                 
+prefix
+=
+get_artifact_prefix
+(
+kind_deps
+[
+l10n_signing_dep
+]
+)
+                
+langpack_artifact_path_no_prefix
+=
+langpack_artifact_path
+[
+                    
+len
+(
+prefix
+)
+:
+                
+]
+.
+lstrip
+(
+"
+/
+"
+)
+                
 fetches
 [
 l10n_signing_dep
@@ -319,7 +353,7 @@ append
 artifact
 "
 :
-langpack_artifact_path
+langpack_artifact_path_no_prefix
                         
 "
 extract
