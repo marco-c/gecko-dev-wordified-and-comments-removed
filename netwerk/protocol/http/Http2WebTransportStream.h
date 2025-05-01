@@ -31,7 +31,7 @@ class
 Capsule
 ;
 class
-Http2WebTransportSession
+Http2WebTransportSessionImpl
 ;
 class
 StreamData
@@ -111,7 +111,7 @@ NS_DECL_NSIOUTPUTSTREAMCALLBACK
 explicit
 Http2WebTransportStream
 (
-Http2WebTransportSession
+Http2WebTransportSessionImpl
 *
 aWebTransportSession
 StreamId
@@ -143,7 +143,7 @@ aCallback
 explicit
 Http2WebTransportStream
 (
-Http2WebTransportSession
+Http2WebTransportSessionImpl
 *
 aWebTransportSession
 StreamId
@@ -284,7 +284,7 @@ aData
 ;
 RefPtr
 <
-Http2WebTransportSession
+Http2WebTransportSessionImpl
 >
 mWebTransportSession
 ;
@@ -324,6 +324,13 @@ list
 StreamData
 >
 mOutgoingQueue
+;
+const
+RefPtr
+<
+nsISerialEventTarget
+>
+mOwnerThread
 ;
 }
 ;
