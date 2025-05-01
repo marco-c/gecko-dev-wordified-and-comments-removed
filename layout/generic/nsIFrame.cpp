@@ -25847,6 +25847,14 @@ aFrame
 GetContent
 (
 )
+&
+&
+aFrame
+-
+>
+GetContent
+(
+)
 -
 >
 IsInNativeAnonymousSubtree
@@ -47265,6 +47273,14 @@ GetContent
 ;
 if
 (
+aPos
+-
+>
+mResultContent
+)
+{
+if
+(
 ShadowRoot
 *
 shadowRoot
@@ -47287,6 +47303,7 @@ mResultContent
 =
 shadowRoot
 ;
+}
 }
 if
 (
