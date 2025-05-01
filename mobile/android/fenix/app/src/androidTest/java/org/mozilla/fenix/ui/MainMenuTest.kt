@@ -714,6 +714,9 @@ verifyWhatsNewURL
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -729,6 +732,9 @@ verifyHelpUrl
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .

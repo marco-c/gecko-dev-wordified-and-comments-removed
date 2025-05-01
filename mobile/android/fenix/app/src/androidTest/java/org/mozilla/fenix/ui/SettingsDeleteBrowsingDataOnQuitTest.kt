@@ -617,6 +617,9 @@ url
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -724,6 +727,9 @@ url
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -868,6 +874,9 @@ storage
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1037,6 +1046,9 @@ closeDownloadPrompt
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1209,6 +1221,9 @@ allowed
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1326,12 +1341,14 @@ homeScreen
 {
 verifyExistingTopSitesTabs
 (
+composeTestRule
 pocketTopArticles
 )
 }
 .
 openTopSiteTabWithTitle
 (
+composeTestRule
 pocketTopArticles
 )
 {
@@ -1341,6 +1358,9 @@ verifyPocketPageContent
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .

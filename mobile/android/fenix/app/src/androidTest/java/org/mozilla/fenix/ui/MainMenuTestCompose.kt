@@ -2437,6 +2437,7 @@ goToHomescreenWithRedesignedToolbar
 {
 verifyExistingTopSitesTabs
 (
+composeTestRule
 testPage
 .
 title
@@ -2445,6 +2446,7 @@ title
 .
 openTopSiteTabWithTitle
 (
+composeTestRule
 testPage
 .
 title
@@ -2482,8 +2484,9 @@ snackbar_top_site_removed
 .
 goToHomescreenWithRedesignedToolbar
 {
-verifyNotExistingTopSitesList
+verifyNotExistingTopSiteItem
 (
+composeTestRule
 testPage
 .
 title
@@ -2761,17 +2764,20 @@ goToHomescreenWithRedesignedToolbar
 .
 expandCollection
 (
+composeTestRule
 collectionTitle
 )
 {
 verifyTabSavedInCollection
 (
+composeTestRule
 firstTestPage
 .
 title
 )
 verifyTabSavedInCollection
 (
+composeTestRule
 secondTestPage
 .
 title

@@ -293,9 +293,6 @@ verifyThoughtProvokingStories
 (
 true
 )
-verifyStoriesByTopicItems
-(
-)
 }
 break
 }
@@ -498,9 +495,6 @@ homeScreen
 verifyThoughtProvokingStories
 (
 true
-)
-scrollToPocketProvokingStories
-(
 )
 firstPocketStoryPublisher
 =

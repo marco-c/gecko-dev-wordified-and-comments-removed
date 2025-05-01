@@ -999,6 +999,9 @@ com
 }
 .
 goToHomescreen
+(
+activityTestRule
+)
 {
 }
 .

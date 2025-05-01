@@ -527,9 +527,13 @@ closeTabDrawer
 }
 .
 goToHomescreen
+(
+activityTestRule
+)
 {
 verifyExistingTopSitesList
 (
+activityTestRule
 )
 }
 .

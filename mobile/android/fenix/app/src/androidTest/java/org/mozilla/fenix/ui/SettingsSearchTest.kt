@@ -3152,6 +3152,9 @@ homeScreen
 {
 togglePrivateBrowsingModeOnOff
 (
+composeTestRule
+=
+activityTestRule
 )
 }
 .
@@ -3229,6 +3232,9 @@ homeScreen
 {
 togglePrivateBrowsingModeOnOff
 (
+composeTestRule
+=
+activityTestRule
 )
 }
 .

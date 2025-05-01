@@ -95,6 +95,15 @@ topSiteItemRoot
 .
 top_site_title
 "
+const
+val
+topSiteCardFavicon
+=
+"
+topSiteItemRoot
+.
+top_site_card_favicon
+"
 /
 /
 Contextual

@@ -1211,12 +1211,14 @@ homeScreen
 {
 verifyExistingTopSitesTabs
 (
+composeTestRule
 pocketTopArticles
 )
 }
 .
 openTopSiteTabWithTitle
 (
+composeTestRule
 pocketTopArticles
 )
 {

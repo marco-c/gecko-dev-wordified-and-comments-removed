@@ -1012,6 +1012,9 @@ waitForIdle
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 verifyHomeScreen
 (
@@ -1064,6 +1067,9 @@ homeScreen
 {
 togglePrivateBrowsingModeOnOff
 (
+composeTestRule
+=
+composeTestRule
 )
 }
 navigationToolbar
@@ -1085,6 +1091,9 @@ waitForIdle
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 verifyHomeScreen
 (

@@ -67,6 +67,18 @@ ui
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+AndroidComposeTestRule
+import
+androidx
+.
 test
 .
 platform
@@ -305,8 +317,10 @@ get
 :
 Rule
 val
-activityIntentTestRule
+activityTestRule
 =
+AndroidComposeTestRule
+(
 HomeActivityIntentTestRule
 (
 isHomeOnboardingDialogEnabled
@@ -325,6 +339,12 @@ isMenuRedesignCFREnabled
 =
 false
 )
+)
+{
+it
+.
+activity
+}
 get
 :
 Rule
@@ -346,6 +366,7 @@ openHomeScreen
 {
 verifyHomeComponent
 (
+activityTestRule
 )
 }
 robot
@@ -369,6 +390,7 @@ openHomeScreen
 {
 verifyHomeComponent
 (
+activityTestRule
 )
 }
 }
@@ -481,6 +503,7 @@ openCollections
 {
 verifyCollectionsHeader
 (
+activityTestRule
 )
 }
 }

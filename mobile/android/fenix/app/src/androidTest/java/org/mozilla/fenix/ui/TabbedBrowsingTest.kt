@@ -1774,6 +1774,9 @@ waitForPageToLoad
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2165,6 +2168,9 @@ waitForPageToLoad
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2785,6 +2791,9 @@ url
 }
 .
 goToHomescreen
+(
+composeTestRule
+)
 {
 }
 .

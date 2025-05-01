@@ -2588,6 +2588,9 @@ blocked
 }
 .
 goToHomescreen
+(
+activityTestRule
+)
 {
 }
 .

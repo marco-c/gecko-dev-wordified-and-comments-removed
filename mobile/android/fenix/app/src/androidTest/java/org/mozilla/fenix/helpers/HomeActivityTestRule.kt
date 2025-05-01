@@ -571,7 +571,7 @@ isComposeHomepageEnabled
 :
 Boolean
 =
-false
+true
 )
 :
 this
@@ -1341,7 +1341,7 @@ isComposeHomepageEnabled
 :
 Boolean
 =
-false
+true
 )
 :
 this

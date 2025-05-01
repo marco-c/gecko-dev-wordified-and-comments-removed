@@ -1111,6 +1111,7 @@ goToHomescreenWithRedesignedToolbar
 {
 verifyExistingTopSitesList
 (
+composeTestRule
 )
 }
 .
