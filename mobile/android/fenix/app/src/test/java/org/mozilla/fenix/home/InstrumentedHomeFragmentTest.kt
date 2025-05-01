@@ -397,7 +397,7 @@ homeMenuView
 homeMenuView
 homeFragment
 .
-toolbarView
+nullableToolbarView
 =
 toolbarView
 homeFragment
