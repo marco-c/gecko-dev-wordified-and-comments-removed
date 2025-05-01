@@ -1639,6 +1639,11 @@ openbsd
 )
 )
 )
+.
+mlkem
+(
+false
+)
 ;
 #
 [
