@@ -9428,7 +9428,7 @@ aReasons
 }
 static
 void
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 mozilla
 :
@@ -9485,7 +9485,7 @@ cbp
 cbp
 -
 >
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 aInfo
 )
@@ -9493,7 +9493,7 @@ aInfo
 }
 }
 void
-wr_finished_scene_build
+wr_schedule_frame_after_scene_build
 (
 mozilla
 :
@@ -9560,10 +9560,10 @@ Dispatch
 NewRunnableFunction
 (
 "
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 "
 &
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 aWindowId
 info
 )
