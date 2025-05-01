@@ -1532,6 +1532,15 @@ State
 :
 Shutdowned
 ;
+#
+ifdef
+MOZ_WMF_CDM
+mCDMProxy
+=
+nullptr
+;
+#
+endif
 LOG
 (
 "
