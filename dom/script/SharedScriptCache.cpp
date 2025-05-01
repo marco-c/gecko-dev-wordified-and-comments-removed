@@ -631,7 +631,12 @@ cache
 "
 KIND_HEAP
 UNITS_BYTES
-SizeOfIncludingThis
+SharedScriptCacheMallocSizeOf
+(
+this
+)
++
+SizeOfExcludingThis
 (
 SharedScriptCacheMallocSizeOf
 )

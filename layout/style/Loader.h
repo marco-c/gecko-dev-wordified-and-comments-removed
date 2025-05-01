@@ -1917,13 +1917,6 @@ SheetLoadData
 &
 )
 ;
-nsRefPtrHashtable
-<
-nsStringHashKey
-StyleSheet
->
-mInlineSheets
-;
 nsTHashtable
 <
 const
