@@ -98228,7 +98228,7 @@ type
 bool
 value
 :
-IS_NOT_NIGHTLY_BUILD
+true
 mirror
 :
 always
