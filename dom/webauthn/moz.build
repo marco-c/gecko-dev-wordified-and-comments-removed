@@ -109,6 +109,11 @@ WebAuthnHandler
 h
 "
 "
+WebAuthnIPCUtils
+.
+h
+"
+"
 WebAuthnPromiseHolder
 .
 h
