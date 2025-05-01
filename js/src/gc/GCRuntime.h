@@ -5852,6 +5852,16 @@ currentChunk_
 ;
 GCLockData
 <
+ChunkArenaBitmap
+>
+pendingFreeCommittedArenas
+;
+friend
+class
+ArenaChunk
+;
+GCLockData
+<
 uint32_t
 >
 minEmptyChunkCount_

@@ -2365,6 +2365,9 @@ gc
 void
 mergePendingFreeArenas
 (
+GCRuntime
+*
+gc
 const
 AutoLockGC
 &

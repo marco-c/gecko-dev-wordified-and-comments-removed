@@ -631,6 +631,11 @@ numArenasFree
 uint32_t
 numArenasFreeCommitted
 ;
+bool
+isCurrentChunk
+=
+false
+;
 }
 ;
 const
