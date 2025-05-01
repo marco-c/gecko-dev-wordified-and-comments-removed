@@ -134,13 +134,13 @@ await
 promise
 ;
 await
-checkFaviconMissingForPage
+promiseFaviconMissingForPage
 (
 TEST_PAGE_URI
 )
 ;
 await
-checkFaviconMissingForPage
+promiseFaviconMissingForPage
 (
 BOOKMARKED_PAGE_URI
 )

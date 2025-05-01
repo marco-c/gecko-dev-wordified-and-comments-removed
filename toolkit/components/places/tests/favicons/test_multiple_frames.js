@@ -212,9 +212,7 @@ let
 icon
 =
 await
-PlacesTestUtils
-.
-getFaviconForPage
+getFaviconDataForPage
 (
 pageURI
 size
@@ -240,7 +238,7 @@ deepEqual
 (
 icon
 .
-rawData
+data
 data
 )
 ;
