@@ -418,8 +418,6 @@ PhantomData
 &
 '
 a
-*
-const
 (
 )
 >
@@ -1038,8 +1036,6 @@ PhantomData
 &
 '
 a
-*
-const
 (
 )
 >
@@ -1274,10 +1270,4 @@ Ok
 self
 )
 }
-}
-fn
-_not_send_or_sync
-(
-)
-{
 }
