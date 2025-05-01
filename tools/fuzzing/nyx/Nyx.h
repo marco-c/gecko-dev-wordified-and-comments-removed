@@ -128,6 +128,15 @@ uint32_t
 size
 )
 ;
+uint32_t
+get_raw_data
+(
+uint8_t
+*
+*
+data
+)
+;
 void
 release
 (
