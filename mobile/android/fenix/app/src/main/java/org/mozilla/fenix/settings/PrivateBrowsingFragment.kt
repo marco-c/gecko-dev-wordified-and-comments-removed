@@ -398,7 +398,7 @@ R
 .
 string
 .
-pref_key_private_browsing_biometrics_enabled
+pref_key_private_browsing_locked_enabled
 )
 .
 apply
@@ -416,7 +416,7 @@ settings
 (
 )
 .
-privateBrowsingBiometricsEnabled
+privateBrowsingLockedEnabled
 isVisible
 =
 Config

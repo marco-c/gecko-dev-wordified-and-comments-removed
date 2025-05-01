@@ -4257,7 +4257,7 @@ string
 name
 =
 "
-pref_key_private_browsing_biometrics_enabled
+pref_key_private_browsing_locked_enabled
 "
 translatable
 =
@@ -4265,7 +4265,7 @@ translatable
 false
 "
 >
-pref_key_private_browsing_biometrics_enabled
+pref_key_private_browsing_locked_enabled
 <
 /
 string

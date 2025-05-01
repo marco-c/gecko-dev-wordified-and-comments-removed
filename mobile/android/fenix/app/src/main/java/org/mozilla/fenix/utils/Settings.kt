@@ -2131,7 +2131,7 @@ default
 false
 )
 var
-privateBrowsingBiometricsEnabled
+privateBrowsingLockedEnabled
 by
 booleanPreference
 (
@@ -2143,7 +2143,7 @@ R
 .
 string
 .
-pref_key_private_browsing_biometrics_enabled
+pref_key_private_browsing_locked_enabled
 )
 default
 =
