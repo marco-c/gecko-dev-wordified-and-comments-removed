@@ -18157,11 +18157,13 @@ org
 let
 wrapperScriptUrl
 =
-addonPolicy
-.
-getURL
+new
+URL
 (
 videoWrapperScriptPath
+addonPolicy
+.
+baseURL
 )
 ;
 let
