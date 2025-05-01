@@ -6147,7 +6147,7 @@ nullptr
 }
 MDefinition
 *
-MWasmRefIsSubtypeOfAbstract
+MWasmRefTestAbstract
 :
 :
 foldsTo
@@ -6216,7 +6216,7 @@ this
 }
 MDefinition
 *
-MWasmRefIsSubtypeOfConcrete
+MWasmRefTestConcrete
 :
 :
 foldsTo

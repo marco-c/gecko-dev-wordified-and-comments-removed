@@ -1801,7 +1801,7 @@ true
 -
 name
 :
-WasmRefIsSubtypeOfConcrete
+WasmRefTestConcrete
 mir_op
 :
 true
@@ -1822,7 +1822,7 @@ num_temps
 -
 name
 :
-WasmRefIsSubtypeOfAbstract
+WasmRefTestAbstract
 mir_op
 :
 true
@@ -1840,7 +1840,7 @@ num_temps
 -
 name
 :
-WasmRefIsSubtypeOfConcreteAndBranch
+WasmRefTestConcreteAndBranch
 successors
 :
 [
@@ -1875,7 +1875,7 @@ num_temps
 -
 name
 :
-WasmRefIsSubtypeOfAbstractAndBranch
+WasmRefTestAbstractAndBranch
 successors
 :
 [

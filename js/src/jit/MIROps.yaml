@@ -12748,14 +12748,14 @@ false
 -
 name
 :
-WasmRefIsSubtypeOfConcrete
+WasmRefTestConcrete
 gen_boilerplate
 :
 false
 -
 name
 :
-WasmRefIsSubtypeOfAbstract
+WasmRefTestAbstract
 gen_boilerplate
 :
 false
