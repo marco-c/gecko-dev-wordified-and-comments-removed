@@ -7668,7 +7668,7 @@ endif
 }
 ;
 class
-MWasmPostWriteBarrierImmediate
+MWasmPostWriteBarrierWholeCell
 :
 public
 MTernaryInstruction
@@ -7678,7 +7678,7 @@ NoTypePolicy
 :
 Data
 {
-MWasmPostWriteBarrierImmediate
+MWasmPostWriteBarrierWholeCell
 (
 MDefinition
 *
@@ -7708,7 +7708,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmPostWriteBarrierImmediate
+WasmPostWriteBarrierWholeCell
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -7744,12 +7744,12 @@ None
 }
 ALLOW_CLONE
 (
-MWasmPostWriteBarrierImmediate
+MWasmPostWriteBarrierWholeCell
 )
 }
 ;
 class
-MWasmPostWriteBarrierIndex
+MWasmPostWriteBarrierEdgeAtIndex
 :
 public
 MAryInstruction
@@ -7765,7 +7765,7 @@ Data
 uint32_t
 elemSize_
 ;
-MWasmPostWriteBarrierIndex
+MWasmPostWriteBarrierEdgeAtIndex
 (
 MDefinition
 *
@@ -7837,7 +7837,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmPostWriteBarrierIndex
+WasmPostWriteBarrierEdgeAtIndex
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -7891,7 +7891,7 @@ elemSize_
 }
 ALLOW_CLONE
 (
-MWasmPostWriteBarrierIndex
+MWasmPostWriteBarrierEdgeAtIndex
 )
 }
 ;

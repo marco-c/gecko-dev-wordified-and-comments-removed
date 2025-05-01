@@ -63447,9 +63447,9 @@ void
 CodeGenerator
 :
 :
-visitWasmPostWriteBarrierImmediate
+visitWasmPostWriteBarrierWholeCell
 (
-LWasmPostWriteBarrierImmediate
+LWasmPostWriteBarrierWholeCell
 *
 lir
 )
@@ -63702,9 +63702,9 @@ void
 CodeGenerator
 :
 :
-visitWasmPostWriteBarrierIndex
+visitWasmPostWriteBarrierEdgeAtIndex
 (
-LWasmPostWriteBarrierIndex
+LWasmPostWriteBarrierEdgeAtIndex
 *
 lir
 )
@@ -63938,7 +63938,7 @@ wasm
 SymbolicAddress
 :
 :
-PostBarrier
+PostBarrierEdge
 mozilla
 :
 :

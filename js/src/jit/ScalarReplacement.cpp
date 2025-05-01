@@ -16563,9 +16563,9 @@ ins
 )
 ;
 void
-visitWasmPostWriteBarrierImmediate
+visitWasmPostWriteBarrierWholeCell
 (
-MWasmPostWriteBarrierImmediate
+MWasmPostWriteBarrierWholeCell
 *
 ins
 )
@@ -17095,9 +17095,9 @@ void
 WasmStructMemoryView
 :
 :
-visitWasmPostWriteBarrierImmediate
+visitWasmPostWriteBarrierWholeCell
 (
-MWasmPostWriteBarrierImmediate
+MWasmPostWriteBarrierWholeCell
 *
 ins
 )
@@ -17949,7 +17949,7 @@ MDefinition
 Opcode
 :
 :
-WasmPostWriteBarrierImmediate
+WasmPostWriteBarrierWholeCell
 :
 {
 break
