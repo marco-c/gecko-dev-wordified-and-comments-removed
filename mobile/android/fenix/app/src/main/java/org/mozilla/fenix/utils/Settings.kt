@@ -2811,11 +2811,13 @@ user
 .
 *
 /
-val
+var
 isShortcutSuggestionsVisible
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
+key
+=
 appContext
 .
 getPreferenceKey
@@ -2828,6 +2830,7 @@ pref_key_enable_shortcuts_suggestions
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -2839,6 +2842,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
@@ -10560,7 +10567,7 @@ enabled
 var
 isTrendingSearchesVisible
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -10576,6 +10583,7 @@ pref_key_enable_trending_searches
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -10587,6 +10595,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
@@ -10605,7 +10617,7 @@ enabled
 var
 isRecentSearchesVisible
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -10621,6 +10633,7 @@ pref_key_enable_recent_searches
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -10632,6 +10645,10 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 /
 *
