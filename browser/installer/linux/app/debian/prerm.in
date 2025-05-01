@@ -46,7 +46,7 @@ usr
 bin
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 update
 -
@@ -65,6 +65,6 @@ usr
 bin
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 fi

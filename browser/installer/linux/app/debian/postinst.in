@@ -72,7 +72,7 @@ usr
 bin
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 100
 \
@@ -117,7 +117,7 @@ man
 man1
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 .
 1
@@ -151,7 +151,7 @@ usr
 bin
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 100
 \
@@ -196,7 +196,7 @@ man
 man1
 /
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 .
 1
@@ -284,7 +284,7 @@ alternatives
 if
 [
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 =
 firefox

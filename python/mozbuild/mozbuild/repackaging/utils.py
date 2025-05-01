@@ -784,20 +784,6 @@ fluent_resource_loader
 )
 :
     
-build_variables
-[
-"
-DEB_PKG_NAME
-"
-]
-=
-build_variables
-[
-"
-PKG_NAME
-"
-]
-    
 desktop_entry_template_path
 =
 mozpath

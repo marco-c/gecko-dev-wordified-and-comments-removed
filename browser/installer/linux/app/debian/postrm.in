@@ -9,7 +9,7 @@ e
 if
 [
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 =
 firefox
@@ -134,7 +134,7 @@ alternatives
 if
 [
 {
-DEB_PKG_NAME
+PKG_NAME
 }
 =
 firefox

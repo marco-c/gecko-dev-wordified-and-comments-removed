@@ -34,7 +34,6 @@ mozbuild
 .
 repackaging
 import
-deb
 utils
 _APPLICATION_INI_CONTENT
 =
@@ -1879,7 +1878,7 @@ raises
     
 application_ini_data
 =
-deb
+utils
 .
 _parse_application_ini_data
 (
@@ -1922,8 +1921,6 @@ devedition
             
 depends
 =
-(
-                
 f
 "
 firefox
@@ -1935,14 +1932,12 @@ devedition
 application_ini_data
 [
 '
-deb_pkg_version
+pkg_version
 '
 ]
 }
 )
 "
-            
-)
         
 else
 :
@@ -1965,7 +1960,7 @@ remoting_name
 application_ini_data
 [
 '
-deb_pkg_version
+pkg_version
 '
 ]
 }
