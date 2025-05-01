@@ -2976,6 +2976,7 @@ getRequestHeader
 getResponseHeader
 getResponseTime
 getStartTime
+getUrl
 getUrlBaseName
 getUrlDetails
 getUrlHost
