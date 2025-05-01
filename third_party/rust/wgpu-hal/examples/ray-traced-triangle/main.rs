@@ -1411,6 +1411,17 @@ InstanceFlags
 default
 (
 )
+memory_budget_thresholds
+:
+wgpu_types
+:
+:
+MemoryBudgetThresholds
+:
+:
+default
+(
+)
 backend_options
 :
 wgpu_types

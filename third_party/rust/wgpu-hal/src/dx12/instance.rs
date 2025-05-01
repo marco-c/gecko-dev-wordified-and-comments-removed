@@ -1,5 +1,5 @@
 use
-std
+alloc
 :
 :
 {
@@ -688,6 +688,11 @@ flags
 desc
 .
 flags
+memory_budget_thresholds
+:
+desc
+.
+memory_budget_thresholds
 dxc_container
 }
 )
@@ -925,6 +930,9 @@ library
 self
 .
 flags
+self
+.
+memory_budget_thresholds
 self
 .
 dxc_container

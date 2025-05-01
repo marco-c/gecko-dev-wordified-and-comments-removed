@@ -684,10 +684,6 @@ dep
 profiling
 "
 ]
-oom_panic
-=
-[
-]
 portable
 -
 atomic
@@ -1331,6 +1327,9 @@ features
 wgsl
 -
 in
+"
+"
+termcolor
 "
 ]
 [
@@ -2149,7 +2148,7 @@ version
 "
 0
 .
-5
+6
 .
 0
 "

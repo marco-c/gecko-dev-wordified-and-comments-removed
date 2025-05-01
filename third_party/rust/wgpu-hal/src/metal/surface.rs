@@ -10,7 +10,7 @@ let_unit_value
 )
 ]
 use
-std
+alloc
 :
 :
 borrow
@@ -21,7 +21,7 @@ as
 _
 ;
 use
-std
+core
 :
 :
 mem
@@ -30,7 +30,7 @@ mem
 ManuallyDrop
 ;
 use
-std
+core
 :
 :
 ptr
@@ -1076,7 +1076,7 @@ _timeout_ms
 :
 Option
 <
-std
+core
 :
 :
 time

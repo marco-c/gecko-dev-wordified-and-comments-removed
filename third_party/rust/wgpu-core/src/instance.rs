@@ -658,6 +658,11 @@ flags
 self
 .
 flags
+memory_budget_thresholds
+:
+instance_desc
+.
+memory_budget_thresholds
 backend_options
 :
 instance_desc

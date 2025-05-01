@@ -17,7 +17,7 @@ ash
 vk
 ;
 use
-std
+core
 :
 :
 {
@@ -6889,7 +6889,7 @@ StructureType
 COPY_ACCELERATION_STRUCTURE_INFO_KHR
 p_next
 :
-std
+core
 :
 :
 ptr

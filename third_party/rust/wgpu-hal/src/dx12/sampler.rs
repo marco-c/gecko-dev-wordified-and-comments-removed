@@ -1,5 +1,5 @@
 use
-std
+alloc
 :
 :
 vec
@@ -293,7 +293,7 @@ HashableSamplerDesc
 {
 }
 impl
-std
+core
 :
 :
 hash
@@ -308,7 +308,7 @@ hash
 <
 H
 :
-std
+core
 :
 :
 hash

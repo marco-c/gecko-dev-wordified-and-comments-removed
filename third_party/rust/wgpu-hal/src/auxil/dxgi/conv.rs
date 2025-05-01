@@ -1,4 +1,13 @@
 use
+alloc
+:
+:
+string
+:
+:
+String
+;
+use
 std
 :
 :
@@ -17,10 +26,6 @@ ffi
 :
 :
 OsStringExt
-string
-:
-:
-String
 }
 ;
 use

@@ -12758,6 +12758,12 @@ snatch_guard
 ;
 device
 .
+lose_if_oom
+(
+)
+;
+device
+.
 deferred_resource_destruction
 (
 )

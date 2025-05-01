@@ -327,7 +327,7 @@ HashableSamplerCreateInfo
 {
 }
 impl
-std
+core
 :
 :
 hash
@@ -342,7 +342,7 @@ hash
 <
 H
 :
-std
+core
 :
 :
 hash
