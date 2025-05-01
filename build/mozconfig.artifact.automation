@@ -18,6 +18,7 @@ mozconfig
 .
 automation
 .
+export
 MOZ_AUTOMATION_BUILD_SYMBOLS
 =
 0

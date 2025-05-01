@@ -24,8 +24,8 @@ not
 required
 for
 DevEdition
+unset
 MOZ_REQUIRE_SIGNING
-=
 ac_add_options
 -
 -

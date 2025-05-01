@@ -585,9 +585,6 @@ env
 in
 (
 "
-OLD_CONFIGURE
-"
-"
 MOZCONFIG
 "
 )

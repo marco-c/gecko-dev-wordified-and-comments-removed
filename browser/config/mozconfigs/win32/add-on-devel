@@ -20,8 +20,8 @@ checked
 but
 not
 enforced
+unset
 MOZ_REQUIRE_SIGNING
-=
 ac_add_options
 -
 -

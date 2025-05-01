@@ -80,8 +80,8 @@ by
 the
 trusted
 root
+unset
 MOZ_REQUIRE_SIGNING
-=
 .
 "
 topsrcdir

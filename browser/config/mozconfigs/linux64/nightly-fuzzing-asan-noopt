@@ -14,8 +14,8 @@ checked
 but
 not
 enforced
+unset
 MOZ_REQUIRE_SIGNING
-=
 #
 ASan
 specific

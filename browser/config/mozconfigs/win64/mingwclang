@@ -246,6 +246,7 @@ mingw
 Find
 our
 toolchain
+export
 HOST_CC
 =
 "
@@ -257,6 +258,7 @@ bin
 /
 clang
 "
+export
 HOST_CXX
 =
 "
@@ -270,6 +272,7 @@ clang
 +
 +
 "
+export
 CC
 =
 "
@@ -287,6 +290,7 @@ mingw32
 -
 clang
 "
+export
 CXX
 =
 "
@@ -306,6 +310,7 @@ clang
 +
 +
 "
+export
 CXXFLAGS
 =
 "
@@ -314,6 +319,7 @@ fms
 -
 extensions
 "
+export
 CFLAGS
 =
 "
@@ -329,6 +335,7 @@ dir
 UPLOAD_PATH
 }
 "
+export
 CXXFLAGS
 =
 "
@@ -344,6 +351,7 @@ dir
 UPLOAD_PATH
 }
 "
+export
 CFLAGS
 =
 "
@@ -354,6 +362,7 @@ _mingw
 .
 h
 "
+export
 CXXFLAGS
 =
 "
