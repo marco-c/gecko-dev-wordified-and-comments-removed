@@ -1928,7 +1928,7 @@ getSupportLink
 (
 )
 .
-parentElement
+previousElementSibling
 .
 id
 "
@@ -1939,7 +1939,8 @@ Support
 link
 is
 rendered
-in
+next
+to
 the
 description
 if
@@ -2180,7 +2181,7 @@ getSlottedSupportLink
 .
 assignedSlot
 .
-parentElement
+previousElementSibling
 .
 id
 "
@@ -2191,7 +2192,8 @@ Support
 link
 is
 rendered
-in
+next
+to
 the
 slotted
 description
