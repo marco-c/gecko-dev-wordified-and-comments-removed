@@ -6950,7 +6950,7 @@ cloud
 .
 svg
 "
-imageVerticalOffset
+imageVerticalTopOffset
 :
 -
 20
