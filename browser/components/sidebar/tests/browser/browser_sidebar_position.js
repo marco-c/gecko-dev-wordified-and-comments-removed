@@ -15,11 +15,7 @@ prefs
 .
 clearUserPref
 (
-"
-sidebar
-.
-position_start
-"
+POSITION_SETTING_PREF
 )
 )
 ;
@@ -157,11 +153,7 @@ prefs
 .
 setBoolPref
 (
-"
-sidebar
-.
-position_start
-"
+POSITION_SETTING_PREF
 false
 )
 ;

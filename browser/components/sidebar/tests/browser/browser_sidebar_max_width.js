@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-const
-TAB_DIRECTION_PREF
-=
-"
-sidebar
-.
-verticalTabs
-"
-;
 add_task
 (
 async
@@ -29,7 +20,7 @@ set
 :
 [
 [
-TAB_DIRECTION_PREF
+VERTICAL_TABS_PREF
 true
 ]
 ]

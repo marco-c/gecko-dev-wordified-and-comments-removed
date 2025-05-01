@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-const
-SIDEBAR_VISIBILITY_PREF
-=
-"
-sidebar
-.
-visibility
-"
-;
 add_setup
 (
 async
