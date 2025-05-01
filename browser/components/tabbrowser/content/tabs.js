@@ -3332,6 +3332,12 @@ tab
 }
 else
 {
+this
+.
+selectedItem
+=
+tab
+;
 let
 selectedTabs
 =
