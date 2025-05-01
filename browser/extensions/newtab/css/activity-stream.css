@@ -37122,7 +37122,13 @@ grid
 {
 display
 :
-grid
+flex
+;
+flex
+-
+direction
+:
+column
 ;
 grid
 -
@@ -38948,6 +38954,10 @@ grid
 gap
 :
 24px
+;
+position
+:
+relative
 ;
 }
 .
@@ -45769,6 +45779,10 @@ padding
 inline
 :
 0
+;
+position
+:
+relative
 ;
 }
 .
@@ -75764,6 +75778,10 @@ height
 :
 90px
 ;
+position
+:
+relative
+;
 grid
 -
 column
@@ -75782,7 +75800,7 @@ width
 100
 %
 ;
-margin
+inset
 -
 inline
 -
