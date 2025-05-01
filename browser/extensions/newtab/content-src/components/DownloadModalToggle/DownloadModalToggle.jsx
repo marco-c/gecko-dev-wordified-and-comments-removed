@@ -66,6 +66,9 @@ react
 function
 DownloadModalToggle
 (
+{
+onClick
+}
 )
 {
 return
@@ -81,6 +84,11 @@ download
 -
 promo
 "
+onClick
+=
+{
+onClick
+}
 >
 <
 div

@@ -420,6 +420,10 @@ Messages
 isHidden
 is
 true
+and
+hiddenOverride
+is
+false
 "
 (
 )
@@ -465,6 +469,11 @@ id
 >
 <
 MessageWrapper
+hiddenOverride
+=
+{
+false
+}
 dispatch
 =
 {

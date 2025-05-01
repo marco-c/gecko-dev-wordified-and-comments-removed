@@ -6992,7 +6992,7 @@ content
 messageType
 :
 "
-CustomWallpaperHighlight
+DownloadMobilePromoHighlight
 "
 }
 trigger
