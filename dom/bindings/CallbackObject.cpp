@@ -330,7 +330,7 @@ mIncumbentJSGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 void
-CallbackObjectBase
+CallbackObject
 :
 :
 Trace
@@ -523,7 +523,7 @@ ClearJSReferences
 }
 JSObject
 *
-CallbackObjectBase
+CallbackObject
 :
 :
 Callback
@@ -565,7 +565,7 @@ callback
 ;
 }
 void
-CallbackObjectBase
+CallbackObject
 :
 :
 GetDescription
@@ -914,7 +914,7 @@ Append
 )
 ;
 }
-CallbackObjectBase
+CallbackObject
 :
 :
 CallSetup
@@ -922,7 +922,7 @@ CallSetup
 :
 CallSetup
 (
-CallbackObjectBase
+CallbackObject
 *
 aCallback
 ErrorResult
@@ -1424,7 +1424,7 @@ nullptr
 ;
 }
 bool
-CallbackObjectBase
+CallbackObject
 :
 :
 CallSetup
@@ -1525,7 +1525,7 @@ obj
 mRealm
 ;
 }
-CallbackObjectBase
+CallbackObject
 :
 :
 CallSetup
