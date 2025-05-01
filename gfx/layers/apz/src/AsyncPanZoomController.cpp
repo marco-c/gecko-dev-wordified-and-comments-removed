@@ -26388,9 +26388,6 @@ aOther
 mSource
 ;
 }
-#
-ifdef
-MOZ_WIDGET_ANDROID
 std
 :
 :
@@ -26467,8 +26464,6 @@ return
 }
 ;
 }
-#
-endif
 wr
 :
 :

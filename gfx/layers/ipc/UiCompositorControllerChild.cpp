@@ -1055,12 +1055,6 @@ CompositorScrollUpdate
 aUpdate
 )
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 if
 (
 mWidget
@@ -1075,8 +1069,6 @@ aUpdate
 )
 ;
 }
-#
-endif
 return
 IPC_OK
 (

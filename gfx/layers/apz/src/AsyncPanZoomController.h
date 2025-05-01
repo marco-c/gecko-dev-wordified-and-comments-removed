@@ -1297,9 +1297,6 @@ Metrics
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 std
 :
 :
@@ -1316,8 +1313,6 @@ private
 CompositorScrollUpdate
 mLastCompositorScrollUpdate
 ;
-#
-endif
 public
 :
 wr

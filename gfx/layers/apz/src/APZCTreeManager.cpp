@@ -4597,12 +4597,6 @@ minimapData
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 if
 (
 apzc
@@ -4656,8 +4650,6 @@ update
 }
 }
 }
-#
-endif
 }
 for
 (
