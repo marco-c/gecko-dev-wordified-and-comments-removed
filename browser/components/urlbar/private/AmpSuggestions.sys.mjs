@@ -1194,9 +1194,7 @@ lazy
 .
 QuickSuggest
 .
-blockedSuggestions
-.
-blockResult
+dismissResult
 (
 result
 )

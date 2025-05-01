@@ -148,6 +148,13 @@ js
 ]
 [
 "
+test_quicksuggest_migrateBlockedDigests
+.
+js
+"
+]
+[
+"
 test_quicksuggest_migrate_v1
 .
 js
