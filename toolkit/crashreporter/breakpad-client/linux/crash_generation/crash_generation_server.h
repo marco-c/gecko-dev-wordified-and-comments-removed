@@ -62,6 +62,9 @@ OnClientDumpRequestCallback
 =
 void
 (
+void
+*
+dump_context
 const
 ClientInfo
 &
@@ -79,7 +82,7 @@ defined
 MOZ_OXIDIZED_BREAKPAD
 )
 using
-GetAuxvInfo
+GetAuxvInfoCallback
 =
 bool
 (
@@ -107,7 +110,7 @@ std
 :
 function
 <
-GetAuxvInfo
+GetAuxvInfoCallback
 >
 get_auxv_info
 #
@@ -120,6 +123,9 @@ function
 OnClientDumpRequestCallback
 >
 dump_callback
+void
+*
+dump_context
 const
 string
 *
@@ -139,6 +145,15 @@ Start
 void
 Stop
 (
+)
+;
+void
+SetPath
+(
+const
+char
+*
+dump_path
 )
 ;
 static
@@ -248,7 +263,7 @@ std
 :
 function
 <
-GetAuxvInfo
+GetAuxvInfoCallback
 >
 get_auxv_info_
 ;
@@ -262,6 +277,13 @@ function
 OnClientDumpRequestCallback
 >
 dump_callback_
+;
+void
+*
+dump_context_
+;
+pthread_mutex_t
+dump_dir_mutex_
 ;
 string
 dump_dir_
