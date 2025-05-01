@@ -34747,6 +34747,15 @@ value
 skipBarrier
 )
 ;
+CheckWholeCellLastElementCache
+(
+masm
+object
+temp
+&
+skipBarrier
+)
+;
 movePtr
 (
 RegPtr
