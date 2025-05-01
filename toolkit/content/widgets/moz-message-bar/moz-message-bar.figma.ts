@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 figma
 .
 connect
@@ -212,13 +213,10 @@ dark
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -271,3 +269,4 @@ bar
 >
 }
 )
+;

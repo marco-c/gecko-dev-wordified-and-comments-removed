@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 figma
 .
 connect
@@ -185,13 +186,10 @@ Checked
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -261,6 +259,7 @@ toggle
 >
 }
 )
+;
 figma
 .
 connect
@@ -362,13 +361,10 @@ Switch
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -412,3 +408,4 @@ toggle
 >
 }
 )
+;

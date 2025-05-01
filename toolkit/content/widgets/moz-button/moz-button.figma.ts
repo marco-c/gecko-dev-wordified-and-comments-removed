@@ -13,12 +13,11 @@ connect
 /
 html
 "
+;
 const
 example
 =
-(
 props
-)
 =
 >
 html
@@ -208,6 +207,7 @@ small
 example
 }
 )
+;
 figma
 .
 connect
@@ -323,6 +323,7 @@ undefined
 example
 }
 )
+;
 figma
 .
 connect
@@ -450,3 +451,4 @@ undefined
 example
 }
 )
+;

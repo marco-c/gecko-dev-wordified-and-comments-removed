@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 figma
 .
 connect
@@ -182,9 +183,7 @@ true
 }
 example
 :
-(
 props
-)
 =
 >
 html
@@ -257,6 +256,7 @@ checkbox
 >
 }
 )
+;
 figma
 .
 connect
@@ -348,9 +348,7 @@ Label
 }
 example
 :
-(
 props
-)
 =
 >
 html
@@ -395,3 +393,4 @@ checkbox
 >
 }
 )
+;
