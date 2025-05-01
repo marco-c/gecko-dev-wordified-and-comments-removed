@@ -1771,7 +1771,6 @@ this
 .
 _buildContentScriptRegistrations
 (
-bug
 label
 intervention
 matches
@@ -2010,7 +2009,6 @@ ids
 }
 _buildContentScriptRegistrations
 (
-bug
 label
 intervention
 matches
