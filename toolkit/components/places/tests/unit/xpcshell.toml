@@ -292,13 +292,6 @@ js
 ]
 [
 "
-test_PlacesSemanticHistoryManager
-.
-js
-"
-]
-[
-"
 test_PlacesUtils_isRootItem
 .
 js
