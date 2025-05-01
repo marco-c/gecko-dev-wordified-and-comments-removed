@@ -1,6 +1,10 @@
 import
 configparser
 import
+importlib
+.
+util
+import
 json
 import
 os
@@ -284,16 +288,19 @@ is_telemetry_enabled
 settings
 )
     
-try
-:
-        
-from
+if
+importlib
+.
+util
+.
+find_spec
+(
+"
 glean
-import
-Glean
-    
-except
-ImportError
+"
+)
+is
+None
 :
         
 return
@@ -302,34 +309,14 @@ NoopTelemetry
 is_enabled
 )
     
-from
-pathlib
-import
-Path
-    
 telemetry_interface
 =
 GleanTelemetry
 (
-)
-    
-Glean
-.
-initialize
-(
         
-"
-mozilla
-.
-mach
-"
-        
-"
-Unknown
-"
-        
+upload_enabled
+=
 is_enabled
-        
 data_dir
 =
 Path

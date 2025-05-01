@@ -307,24 +307,6 @@ incompatible
 environments
 .
     
-Also
-tracks
-whether
-an
-employee
-was
-just
-automatically
-opted
-into
-telemetry
-    
-during
-this
-mach
-invocation
-.
-    
 "
 "
 "
@@ -334,9 +316,23 @@ __init__
 (
         
 self
+        
+upload_enabled
+:
+bool
+        
+data_dir
+:
+Path
     
 )
 :
+        
+from
+glean
+import
+Glean
+load_pings
         
 self
 .
@@ -344,16 +340,6 @@ _metrics_cache
 =
 {
 }
-        
-from
-pathlib
-import
-Path
-        
-from
-glean
-import
-load_pings
         
 self
 .
@@ -375,6 +361,35 @@ pings
 .
 yaml
 "
+)
+        
+Glean
+.
+initialize
+(
+            
+application_id
+=
+"
+mozilla
+.
+mach
+"
+            
+application_version
+=
+"
+Unknown
+"
+            
+upload_enabled
+=
+upload_enabled
+            
+data_dir
+=
+data_dir
+        
 )
     
 def
