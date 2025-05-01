@@ -480,6 +480,15 @@ passwords
 )
 )
 .
+inRoot
+(
+RootMatchers
+.
+isDialog
+(
+)
+)
+.
 check
 (
 matches
