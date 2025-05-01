@@ -1617,13 +1617,13 @@ Test
 fun
 WHEN
 shouldShowPrompt
+is
 false
 and
-is
-private
 tab
 page
-true
+is
+private
 THEN
 onTabPageClick
 calls
@@ -1799,6 +1799,7 @@ Test
 fun
 WHEN
 shouldShowPrompt
+is
 false
 and
 not

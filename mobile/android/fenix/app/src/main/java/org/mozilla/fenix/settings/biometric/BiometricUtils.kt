@@ -382,7 +382,7 @@ BiometricUtils
 .
 *
 /
-class
+object
 DefaultBiometricUtils
 :
 BiometricUtils

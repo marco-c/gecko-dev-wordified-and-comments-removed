@@ -3823,8 +3823,6 @@ biometricUtils
 BiometricUtils
 =
 DefaultBiometricUtils
-(
-)
 tabsTrayInteractor
 :
 TabsTrayInteractor

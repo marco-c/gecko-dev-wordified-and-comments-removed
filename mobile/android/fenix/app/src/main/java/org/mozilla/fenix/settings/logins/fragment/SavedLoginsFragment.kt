@@ -730,8 +730,6 @@ setSecureContentVisibility
 false
 )
 DefaultBiometricUtils
-(
-)
 .
 bindBiometricsCredentialsPromptOrShowWarning
 (
