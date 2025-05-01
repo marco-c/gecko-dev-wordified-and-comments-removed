@@ -724,11 +724,6 @@ bool
 aForceBlack
 TimeStamp
 aTimeStamp
-media
-:
-:
-TimeUnit
-aProcessingDuration
 TimeStamp
 aWebrtcCaptureTime
 )

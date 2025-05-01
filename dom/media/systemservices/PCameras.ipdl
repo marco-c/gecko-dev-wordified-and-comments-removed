@@ -230,9 +230,6 @@ ntpTimeMs
 int64_t
 renderTimeMs
 ;
-TimeUnit
-processingDuration
-;
 /
 /
 See
