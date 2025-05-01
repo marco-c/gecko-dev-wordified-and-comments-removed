@@ -425,14 +425,11 @@ return
 return
 CalcLength
 (
-PresContext
-(
-)
-mComputedStyle
 aAttribute
 .
 mValue
 aFontSizeInflation
+this
 )
 ;
 }
