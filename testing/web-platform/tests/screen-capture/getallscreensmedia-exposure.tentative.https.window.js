@@ -174,7 +174,7 @@ _
 assert_equals
 (
 "
-function
+undefined
 "
 typeof
 i
@@ -206,6 +206,7 @@ Strict
 CSP
 +
 TT
+no
 exposure
 .
 "
