@@ -132,8 +132,11 @@ ref
 :
 snapshot
 <
-Mercurial
-Overview
+Firefox
+Contributors
+'
+Quick
+Reference
 >
 of
 the

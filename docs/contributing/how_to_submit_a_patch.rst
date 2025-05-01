@@ -805,8 +805,11 @@ guide
 :
 ref
 :
-Mercurial
-Overview
+Firefox
+Contributors
+'
+Quick
+Reference
 .
 Each
 patch

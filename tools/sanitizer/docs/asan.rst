@@ -1428,8 +1428,11 @@ mozilla
 -
 central
 <
-Mercurial
-overview
+Firefox
+Contributors
+'
+Quick
+Reference
 >
 .
 Adjusting
