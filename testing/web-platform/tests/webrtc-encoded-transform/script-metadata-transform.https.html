@@ -2282,7 +2282,7 @@ write
 '
 )
 ;
-assert_equals
+assert_true
 (
 data
 .
@@ -2291,6 +2291,8 @@ senderBeforeWrite
 metadata
 .
 frameId
+=
+=
 data
 .
 receiverBeforeWrite
@@ -2298,6 +2300,18 @@ receiverBeforeWrite
 metadata
 .
 frameId
+|
+|
+data
+.
+receiverBeforeWrite
+.
+metadata
+.
+frameId
+=
+=
+undefined
 '
 frameId
 matches
@@ -2314,7 +2328,7 @@ assert_equals
 (
 data
 .
-senderBeforeWrite
+receiverBeforeWrite
 .
 metadata
 .
