@@ -218,10 +218,6 @@ libunwind
 .
 yml
 -
-libxml2
-.
-yml
--
 llvm
 -
 symbolizer
