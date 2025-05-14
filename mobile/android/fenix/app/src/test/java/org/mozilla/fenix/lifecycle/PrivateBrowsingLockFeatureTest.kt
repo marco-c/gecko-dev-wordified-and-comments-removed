@@ -466,7 +466,7 @@ true
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 )
 PrivateBrowsingLockFeature
@@ -540,7 +540,7 @@ false
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 )
 PrivateBrowsingLockFeature
@@ -616,7 +616,7 @@ true
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 tabs
 =
@@ -749,7 +749,7 @@ false
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 tabs
 =
@@ -880,7 +880,7 @@ true
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 tabs
 =
@@ -1445,7 +1445,7 @@ true
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 tabs
 =
@@ -1611,7 +1611,7 @@ true
 val
 store
 =
-createBrowser
+createBrowserStore
 (
 tabs
 =
@@ -1773,7 +1773,7 @@ initialState
 }
 private
 fun
-createBrowser
+createBrowserStore
 (
 tabs
 :
@@ -1834,10 +1834,7 @@ String
 mozilla
 "
 )
-:
-BrowserStore
-{
-return
+=
 BrowserStore
 (
 BrowserState
@@ -1850,5 +1847,4 @@ selectedTabId
 selectedTabId
 )
 )
-}
 }
