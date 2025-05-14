@@ -4428,6 +4428,8 @@ recipe
 "
 )
 ;
+Assert
+.
 ok
 (
 !
