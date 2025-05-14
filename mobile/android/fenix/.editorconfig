@@ -209,13 +209,6 @@ finally
 spacing
 =
 disabled
-ktlint_standard_parameter
--
-list
--
-spacing
-=
-disabled
 #
 rules
 that

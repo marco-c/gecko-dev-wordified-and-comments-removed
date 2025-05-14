@@ -248,13 +248,6 @@ wildcard
 imports
 =
 disabled
-ktlint_standard_parameter
--
-list
--
-spacing
-=
-disabled
 ktlint_standard_multiline
 -
 if
