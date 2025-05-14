@@ -2113,6 +2113,13 @@ this
 .
 _onNewSelection
 (
+this
+.
+inspector
+.
+selection
+.
+nodeFront
 )
 ;
 if

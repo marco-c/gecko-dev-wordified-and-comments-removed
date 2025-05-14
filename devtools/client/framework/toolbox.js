@@ -1543,11 +1543,14 @@ isTracerFeatureEnabled
 function
 Toolbox
 (
+{
 commands
 selectedTool
+selectedToolOptions
 hostType
 contentWindow
 frameId
+}
 )
 {
 this
@@ -2336,6 +2339,12 @@ this
 _defaultToolId
 =
 selectedTool
+;
+this
+.
+_defaultToolOptions
+=
+selectedToolOptions
 ;
 this
 .
@@ -4840,6 +4849,9 @@ _defaultToolId
 "
 initial_panel
 "
+this
+.
+_defaultToolOptions
 )
 ;
 let
