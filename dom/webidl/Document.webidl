@@ -1012,12 +1012,6 @@ or
 DOMString
 )
 html
-optional
-SetHTMLUnsafeOptions
-options
-=
-{
-}
 )
 ;
 [

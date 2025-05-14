@@ -15452,10 +15452,6 @@ const
 TrustedHTMLOrString
 &
 aHTML
-const
-SetHTMLUnsafeOptions
-&
-aOptions
 nsIPrincipal
 *
 aSubjectPrincipal
