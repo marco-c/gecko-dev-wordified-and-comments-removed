@@ -274,6 +274,13 @@ js
 ]
 [
 "
+browser_sma_set_search_mode
+.
+js
+"
+]
+[
+"
 browser_sma_show_firefox_accounts
 .
 js
