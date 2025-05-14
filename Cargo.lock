@@ -27260,6 +27260,9 @@ foundation
 999
 "
 "
+cstr
+"
+"
 env_logger
 "
 "
@@ -27278,6 +27281,9 @@ log
 "
 "
 moz_task
+"
+"
+nserror
 "
 "
 pkcs11
