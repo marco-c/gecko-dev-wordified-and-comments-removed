@@ -841,8 +841,6 @@ IdentityCredentialRequestOptions
 aOptions
 CredentialMediationRequirement
 aMediationRequirement
-bool
-aHasUserActivation
 )
 returns
 (
