@@ -396,12 +396,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-=
-AllowRangeCrossShadowBoundary
-:
-:
-No
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -568,13 +562,6 @@ nsINode
 aEndContainer
 uint32_t
 aEndOffset
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
-=
-AllowRangeCrossShadowBoundary
-:
-:
-No
 )
 {
 return
@@ -590,7 +577,6 @@ RawRangeBoundary
 aEndContainer
 aEndOffset
 )
-aAllowCrossShadowBoundary
 )
 ;
 }
@@ -630,13 +616,6 @@ ERT
 >
 &
 aEndBoundary
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
-=
-AllowRangeCrossShadowBoundary
-:
-:
-No
 )
 {
 return
@@ -648,7 +627,6 @@ SetStartAndEndInternal
 aStartBoundary
 aEndBoundary
 this
-aAllowCrossShadowBoundary
 )
 ;
 }
