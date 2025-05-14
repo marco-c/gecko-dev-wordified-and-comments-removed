@@ -452,6 +452,9 @@ openBookmarks
 robot
 .
 openBookmarks
+(
+activityTestRule
+)
 {
 /
 /
@@ -461,12 +464,8 @@ can
 see
 headings
 .
-verifyFolderTitle
+verifyEmptyBookmarksMenuView
 (
-"
-Desktop
-Bookmarks
-"
 )
 }
 }
