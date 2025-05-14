@@ -280,6 +280,16 @@ ktx
 '
 )
 implementation
+project
+(
+'
+:
+support
+-
+base
+'
+)
+implementation
 libs
 .
 androidx

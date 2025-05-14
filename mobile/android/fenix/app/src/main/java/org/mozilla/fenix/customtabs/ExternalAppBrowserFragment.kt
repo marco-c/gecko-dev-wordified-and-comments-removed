@@ -1171,7 +1171,7 @@ Small
 }
 override
 fun
-removeSessionIfNeeded
+onBackPressed
 (
 )
 :
@@ -1187,7 +1187,7 @@ onBackPressed
 |
 super
 .
-removeSessionIfNeeded
+onBackPressed
 (
 )
 }
