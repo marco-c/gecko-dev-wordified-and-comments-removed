@@ -499,7 +499,7 @@ settings
 (
 )
 .
-isPrivateScreenBlocked
+isPrivateScreenLocked
 =
 false
 BiometricAuthenticationManager

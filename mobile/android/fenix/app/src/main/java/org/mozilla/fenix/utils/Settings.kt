@@ -2078,7 +2078,7 @@ default
 false
 )
 var
-isPrivateScreenBlocked
+isPrivateScreenLocked
 by
 booleanPreference
 (

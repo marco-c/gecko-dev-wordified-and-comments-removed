@@ -3908,7 +3908,7 @@ settings
 (
 )
 .
-isPrivateScreenBlocked
+isPrivateScreenLocked
 =
 false
 }
