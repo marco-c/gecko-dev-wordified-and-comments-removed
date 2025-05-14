@@ -46,7 +46,7 @@ sys
 .
 mjs
 "
-ExperimentFakes
+NimbusTestUtils
 :
 "
 resource
@@ -616,7 +616,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -804,7 +804,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1006,7 +1006,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1227,7 +1227,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1453,7 +1453,7 @@ let
 doExperimentCleanup1
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1481,7 +1481,7 @@ let
 doExperimentCleanup2
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1750,7 +1750,7 @@ let
 doExperimentCleanup1
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1778,7 +1778,7 @@ let
 doExperimentCleanup2
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
