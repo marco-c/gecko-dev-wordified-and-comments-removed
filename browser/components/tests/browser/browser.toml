@@ -127,7 +127,7 @@ js
 ]
 [
 "
-browser_csp_blocks_event_handlers
+browser_csp_blocks
 .
 js
 "
