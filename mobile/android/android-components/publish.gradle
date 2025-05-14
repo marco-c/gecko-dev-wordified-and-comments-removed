@@ -476,7 +476,15 @@ maven
 url
 =
 "
-buildDir
+{
+gradle
+.
+mozconfig
+.
+topobjdir
+}
+/
+gradle
 /
 maven
 "
