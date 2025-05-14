@@ -1779,6 +1779,7 @@ input
 #
 clear
 (
+doneCallResult
 )
 {
 if
@@ -1880,6 +1881,7 @@ this
 .
 destroy
 (
+doneCallResult
 )
 ;
 }
@@ -5142,6 +5144,9 @@ acceptPopupSuggestion
 }
 else
 {
+const
+onApplied
+=
 this
 .
 #
@@ -5154,6 +5159,7 @@ this
 #
 clear
 (
+onApplied
 )
 ;
 }
@@ -6235,6 +6241,9 @@ return
 ;
 }
 }
+const
+onApplied
+=
 this
 .
 #
@@ -6363,6 +6372,7 @@ this
 #
 clear
 (
+onApplied
 )
 ;
 }
@@ -6415,6 +6425,9 @@ cancelled
 =
 true
 ;
+const
+onApplied
+=
 this
 .
 #
@@ -6427,6 +6440,7 @@ this
 #
 clear
 (
+onApplied
 )
 ;
 }

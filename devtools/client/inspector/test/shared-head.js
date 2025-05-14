@@ -230,6 +230,14 @@ async
 function
 openRuleView
 (
+{
+overrideDebounce
+=
+true
+}
+=
+{
+}
 )
 {
 const
@@ -268,6 +276,11 @@ ruleViewPanel
 .
 view
 ;
+if
+(
+overrideDebounce
+)
+{
 view
 .
 debounce
@@ -276,6 +289,7 @@ manualDebounce
 (
 )
 ;
+}
 return
 {
 toolbox
