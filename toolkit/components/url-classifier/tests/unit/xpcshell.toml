@@ -250,3 +250,10 @@ test_threat_type_conversion
 js
 "
 ]
+[
+"
+test_urlClassifierExceptionList
+.
+js
+"
+]
