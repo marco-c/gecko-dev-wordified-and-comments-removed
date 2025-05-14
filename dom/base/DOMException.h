@@ -142,12 +142,10 @@ define
 MOZILLA_EXCEPTION_IID
 \
 {
-\
 0x55eda557
 0xeba0
 0x4fe3
 {
-\
 0xae
 0x2e
 0xf3
@@ -156,9 +154,7 @@ MOZILLA_EXCEPTION_IID
 0x23
 0x62
 0xd6
-\
 }
-\
 }
 class
 Exception
@@ -170,7 +166,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 MOZILLA_EXCEPTION_IID
 )
@@ -567,11 +563,6 @@ mThrownJSVal
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Exception
-MOZILLA_EXCEPTION_IID
-)
 class
 DOMException
 :

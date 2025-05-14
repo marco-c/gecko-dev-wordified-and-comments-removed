@@ -200,12 +200,10 @@ define
 NS_CHANNELWRAPPER_IID
 \
 {
-\
 0xc06162d2
 0xb803
 0x43b4
 {
-\
 0xaa
 0x31
 0xcf
@@ -214,9 +212,7 @@ NS_CHANNELWRAPPER_IID
 0x93
 0x68
 0x1c
-\
 }
-\
 }
 class
 nsILoadContext
@@ -475,7 +471,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 ChannelWrapper
 DOMEventTargetHelper
 )
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_CHANNELWRAPPER_IID
 )
@@ -1494,11 +1490,6 @@ mOrigStreamListener
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ChannelWrapper
-NS_CHANNELWRAPPER_IID
-)
 }
 }
 #

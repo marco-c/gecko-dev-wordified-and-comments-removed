@@ -656,12 +656,10 @@ define
 NS_JSEVENTHANDLER_IID
 \
 {
-\
 0x4f486881
 0x1956
 0x4079
 {
-\
 0x8c
 0xa0
 0xf3
@@ -670,9 +668,7 @@ NS_JSEVENTHANDLER_IID
 0x5c
 0xc2
 0x79
-\
 }
-\
 }
 class
 JSEventHandler
@@ -682,7 +678,7 @@ nsIDOMEventListener
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_JSEVENTHANDLER_IID
 )
@@ -890,11 +886,6 @@ mTypedHandler
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-JSEventHandler
-NS_JSEVENTHANDLER_IID
-)
 }
 nsresult
 NS_NewJSEventHandler

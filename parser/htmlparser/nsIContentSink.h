@@ -106,7 +106,7 @@ T
 ;
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ICONTENT_SINK_IID
 )
@@ -248,10 +248,5 @@ InitialTranslationCompleted
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIContentSink
-NS_ICONTENT_SINK_IID
-)
 #
 endif

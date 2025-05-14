@@ -37,12 +37,10 @@ define
 NS_NSICONSOLEREPORTCOLLECTOR_IID
 \
 {
-\
 0xdd98a481
 0xd2c4
 0x4203
 {
-\
 0x8d
 0xfa
 0x85
@@ -51,9 +49,7 @@ NS_NSICONSOLEREPORTCOLLECTOR_IID
 0xdc
 0xd7
 0x05
-\
 }
-\
 }
 namespace
 mozilla
@@ -74,7 +70,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_NSICONSOLEREPORTCOLLECTOR_IID
 )
@@ -339,10 +335,5 @@ ClearConsoleReports
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIConsoleReportCollector
-NS_NSICONSOLEREPORTCOLLECTOR_IID
-)
 #
 endif

@@ -30,12 +30,10 @@ define
 NS_INODELIST_IID
 \
 {
-\
 0xadb5e54c
 0x6e96
 0x4102
 {
-\
 0x8d
 0x40
 0xe0
@@ -44,9 +42,7 @@ NS_INODELIST_IID
 0xcf
 0x48
 0x7a
-\
 }
-\
 }
 class
 nsIContent
@@ -64,7 +60,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_INODELIST_IID
 )
@@ -139,10 +135,5 @@ item
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsINodeList
-NS_INODELIST_IID
-)
 #
 endif

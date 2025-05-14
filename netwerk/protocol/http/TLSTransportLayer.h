@@ -57,12 +57,10 @@ define
 NS_TLSTRANSPORTLAYER_IID
 \
 {
-\
 0x9d6a3bc6
 0x1f90
 0x41d0
 {
-\
 0x9b
 0x02
 0x33
@@ -71,9 +69,7 @@ NS_TLSTRANSPORTLAYER_IID
 0x69
 0x05
 0x2b
-\
 }
-\
 }
 class
 TLSTransportLayer
@@ -88,7 +84,7 @@ nsIOutputStreamCallback
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_TLSTRANSPORTLAYER_IID
 )
@@ -617,11 +613,6 @@ mOwner
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-TLSTransportLayer
-NS_TLSTRANSPORTLAYER_IID
-)
 }
 inline
 nsISupports

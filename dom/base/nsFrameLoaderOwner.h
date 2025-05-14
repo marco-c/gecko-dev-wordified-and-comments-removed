@@ -60,12 +60,10 @@ define
 NS_FRAMELOADEROWNER_IID
 \
 {
-\
 0x1b4fd25c
 0x2e57
 0x11e9
 {
-\
 0x9e
 0x5a
 0x5b
@@ -74,9 +72,7 @@ NS_FRAMELOADEROWNER_IID
 0x89
 0xa5
 0xc0
-\
 }
-\
 }
 class
 nsFrameLoaderOwner
@@ -86,7 +82,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_FRAMELOADEROWNER_IID
 )
@@ -136,6 +132,7 @@ GetExtantBrowsingContext
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeRemoteness
 (
@@ -157,6 +154,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeRemotenessWithBridge
 (
@@ -177,6 +175,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeRemotenessToProcess
 (
@@ -216,6 +215,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SubframeCrashed
 (
@@ -229,6 +229,7 @@ nsFrameLoader
 aNewFrameLoader
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateFocusAndMouseEnterStateAfterFrameLoaderChange
 (
@@ -288,6 +289,7 @@ bool
 aReplaceBrowsingContext
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeRemotenessCommon
 (
@@ -353,6 +355,7 @@ bool
 aRetainPaint
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateFocusAndMouseEnterStateAfterFrameLoaderChange
 (
@@ -394,10 +397,5 @@ mFrameLoaderList
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsFrameLoaderOwner
-NS_FRAMELOADEROWNER_IID
-)
 #
 endif

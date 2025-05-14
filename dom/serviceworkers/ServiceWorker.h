@@ -77,12 +77,10 @@ define
 NS_DOM_SERVICEWORKER_IID
 \
 {
-\
 0xd42e0611
 0x3647
 0x4319
 {
-\
 0xae
 0x05
 0x19
@@ -91,9 +89,7 @@ NS_DOM_SERVICEWORKER_IID
 0xba
 0x99
 0x5e
-\
 }
-\
 }
 class
 ServiceWorker
@@ -104,7 +100,7 @@ DOMEventTargetHelper
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_DOM_SERVICEWORKER_IID
 )
@@ -317,11 +313,6 @@ mLastNotifiedState
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ServiceWorker
-NS_DOM_SERVICEWORKER_IID
-)
 }
 #
 endif

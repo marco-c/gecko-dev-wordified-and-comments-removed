@@ -40,12 +40,10 @@ define
 NS_PRINTSETTINGSGTK_IID
 \
 {
-\
 0x758df520
 0xc7c3
 0x11dc
 {
-\
 0x95
 0xff
 0x08
@@ -54,9 +52,7 @@ NS_PRINTSETTINGSGTK_IID
 0x0c
 0x9a
 0x66
-\
 }
-\
 }
 class
 nsPrintSettingsGTK
@@ -67,7 +63,7 @@ nsPrintSettings
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_PRINTSETTINGSGTK_IID
 )
@@ -544,10 +540,5 @@ mGTKPrinter
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsPrintSettingsGTK
-NS_PRINTSETTINGSGTK_IID
-)
 #
 endif

@@ -16,12 +16,10 @@ define
 NS_ICSSLOADEROBSERVER_IID
 \
 {
-\
 0xf51fbf2c
 0xfe4b
 0x4a15
 {
-\
 0xaf
 0x7e
 0x5e
@@ -30,9 +28,7 @@ NS_ICSSLOADEROBSERVER_IID
 0x5f
 0xaf
 0x58
-\
 }
-\
 }
 namespace
 mozilla
@@ -49,7 +45,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ICSSLOADEROBSERVER_IID
 )
@@ -72,10 +68,5 @@ aStatus
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsICSSLoaderObserver
-NS_ICSSLOADEROBSERVER_IID
-)
 #
 endif

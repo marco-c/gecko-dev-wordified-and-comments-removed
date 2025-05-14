@@ -715,12 +715,10 @@ define
 NS_IJSARGARRAY_IID
 \
 {
-\
 0xb6acdac8
 0xf5c6
 0x432c
 {
-\
 0xa8
 0x6e
 0x33
@@ -729,9 +727,7 @@ NS_IJSARGARRAY_IID
 0xb0
 0xcd
 0xdc
-\
 }
-\
 }
 class
 nsIJSArgArray
@@ -741,7 +737,7 @@ nsIArray
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IJSARGARRAY_IID
 )
@@ -762,10 +758,5 @@ argv
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIJSArgArray
-NS_IJSARGARRAY_IID
-)
 #
 endif

@@ -1955,12 +1955,10 @@ define
 NS_DOM_MUTATION_OBSERVER_IID
 \
 {
-\
 0x0c3b91f8
 0xcc3b
 0x4b08
 {
-\
 0x9e
 0xab
 0x07
@@ -1969,9 +1967,7 @@ NS_DOM_MUTATION_OBSERVER_IID
 0xe4
 0x65
 0xb4
-\
 }
-\
 }
 class
 nsDOMMutationObserver
@@ -2048,7 +2044,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMMutationObserver
 )
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_DOM_MUTATION_OBSERVER_IID
 )
@@ -2736,11 +2732,6 @@ sCurrentlyHandlingObservers
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsDOMMutationObserver
-NS_DOM_MUTATION_OBSERVER_IID
-)
 class
 nsAutoMutationBatch
 {

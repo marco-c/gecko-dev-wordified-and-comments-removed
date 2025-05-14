@@ -51,7 +51,7 @@ nsPrintSettings
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_PRINTSETTINGSX_IID
 )
@@ -287,10 +287,5 @@ nullptr
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsPrintSettingsX
-NS_PRINTSETTINGSX_IID
-)
 #
 endif

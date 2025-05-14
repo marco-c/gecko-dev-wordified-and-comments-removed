@@ -548,7 +548,7 @@ return
 CallCreateInstance
 (
 aClass
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 DestinationType
 )
@@ -605,7 +605,7 @@ return
 CallCreateInstance
 (
 aContractID
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 DestinationType
 )
@@ -664,7 +664,7 @@ aFactory
 CreateInstance
 (
 nullptr
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 DestinationType
 )
@@ -712,7 +712,7 @@ return
 CallGetClassObject
 (
 aClass
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 DestinationType
 )
@@ -760,7 +760,7 @@ return
 CallGetClassObject
 (
 aContractID
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 DestinationType
 )

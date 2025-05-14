@@ -320,7 +320,7 @@ mozilla
 :
 RFPTarget
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IGLOBALOBJECT_IID
 )
@@ -1432,10 +1432,5 @@ mByteLengthQueuingStrategySizeFunction
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIGlobalObject
-NS_IGLOBALOBJECT_IID
-)
 #
 endif

@@ -59,12 +59,10 @@ define
 MOZILLA_DOMSVGTESTS_IID
 \
 {
-\
 0x92370da8
 0xda28
 0x4895
 {
-\
 0x9b
 0x1b
 0xe0
@@ -73,9 +71,7 @@ MOZILLA_DOMSVGTESTS_IID
 0xb7
 0x3f
 0xc3
-\
 }
-\
 }
 namespace
 dom
@@ -91,7 +87,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 MOZILLA_DOMSVGTESTS_IID
 )
@@ -305,11 +301,6 @@ true
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-SVGTests
-MOZILLA_DOMSVGTESTS_IID
-)
 }
 }
 #

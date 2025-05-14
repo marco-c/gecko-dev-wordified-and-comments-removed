@@ -962,7 +962,7 @@ JSHolderBase
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 DOM_CALLBACKOBJECT_IID
 )
@@ -2076,7 +2076,7 @@ ToXPCOMCallback
 GetWebIDLCallback
 (
 )
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 XPCOMCallbackT
 )
@@ -2194,11 +2194,6 @@ mPtrBits
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-CallbackObject
-DOM_CALLBACKOBJECT_IID
-)
 template
 <
 class

@@ -54,12 +54,10 @@ define
 NS_FOO_IID
 \
 {
-\
 0x6f7652e0
 0xee43
 0x11d1
 {
-\
 0x9c
 0xc3
 0x00
@@ -68,9 +66,7 @@ NS_FOO_IID
 0x8c
 0xa6
 0xb3
-\
 }
-\
 }
 class
 Foo
@@ -80,7 +76,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_FOO_IID
 )
@@ -193,11 +189,6 @@ total_queries_
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Foo
-NS_FOO_IID
-)
 int
 Foo
 :
@@ -549,12 +540,10 @@ define
 NS_BAR_IID
 \
 {
-\
 0x6f7652e1
 0xee43
 0x11d1
 {
-\
 0x9c
 0xc3
 0x00
@@ -563,9 +552,7 @@ NS_BAR_IID
 0x8c
 0xa6
 0xb3
-\
 }
-\
 }
 class
 Bar
@@ -575,7 +562,7 @@ Foo
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_BAR_IID
 )
@@ -640,11 +627,6 @@ total_queries_
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Bar
-NS_BAR_IID
-)
 int
 Bar
 :

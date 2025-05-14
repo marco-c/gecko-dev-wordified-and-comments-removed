@@ -78,12 +78,10 @@ define
 NS_WINDOW_IID
 \
 {
-\
 0x5e6fd559
 0xb3f9
 0x40c9
 {
-\
 0x92
 0xd1
 0xef
@@ -92,9 +90,7 @@ NS_WINDOW_IID
 0xf9
 0x69
 0xe9
-\
 }
-\
 }
 class
 nsWindow
@@ -109,7 +105,7 @@ nsWindow
 (
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_WINDOW_IID
 )
@@ -698,10 +694,5 @@ indent
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsWindow
-NS_WINDOW_IID
-)
 #
 endif

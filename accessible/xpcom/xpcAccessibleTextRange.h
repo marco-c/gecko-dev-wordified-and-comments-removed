@@ -59,10 +59,12 @@ bd50
 /
 \
 0xb17652d9
-0x4f54
-0x4c56
-{
 \
+0x4f54
+\
+0x4c56
+\
+{
 0xbb
 0x62
 0x6d
@@ -71,9 +73,7 @@ bd50
 0xef
 0x91
 0x0c
-\
 }
-\
 }
 class
 xpcAccessibleTextRange
@@ -187,7 +187,7 @@ aSuccess
 )
 final
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ACCESSIBLETEXTRANGE_IMPL_IID
 )
@@ -259,11 +259,6 @@ mEndOffset
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-xpcAccessibleTextRange
-NS_ACCESSIBLETEXTRANGE_IMPL_IID
-)
 }
 }
 #

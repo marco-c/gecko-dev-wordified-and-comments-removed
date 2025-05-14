@@ -39,12 +39,10 @@ define
 NS_IXMLCONTENT_SINK_IID
 \
 {
-\
 0x63fedea0
 0x9b0f
 0x4d64
 {
-\
 0x9b
 0xa5
 0x37
@@ -53,9 +51,7 @@ NS_IXMLCONTENT_SINK_IID
 0x73
 0x29
 0x35
-\
 }
-\
 }
 class
 nsIXMLContentSink
@@ -65,7 +61,7 @@ nsIContentSink
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IXMLCONTENT_SINK_IID
 )
@@ -93,11 +89,6 @@ false
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIXMLContentSink
-NS_IXMLCONTENT_SINK_IID
-)
 nsresult
 NS_NewXMLContentSink
 (

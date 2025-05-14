@@ -1329,7 +1329,7 @@ Sequence
 T
 >
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_INODE_IID
 )
@@ -8568,11 +8568,6 @@ aDocument
 )
 ;
 }
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsINode
-NS_INODE_IID
-)
 inline
 nsISupports
 *

@@ -686,12 +686,10 @@ define
 MOZILLA_TASKQUEUETRACKER_IID
 \
 {
-\
 0x765c4b56
 0xd5f6
 0x4a9f
 {
-\
 0x91
 0xcf
 0x51
@@ -700,9 +698,7 @@ MOZILLA_TASKQUEUETRACKER_IID
 0xc1
 0x7e
 0xa6
-\
 }
-\
 }
 class
 TaskQueueTracker
@@ -712,7 +708,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 MOZILLA_TASKQUEUETRACKER_IID
 )
@@ -761,11 +757,6 @@ mMutex
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-TaskQueueTracker
-MOZILLA_TASKQUEUETRACKER_IID
-)
 }
 #
 endif

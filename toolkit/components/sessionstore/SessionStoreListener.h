@@ -232,7 +232,7 @@ nsSupportsWeakReference
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_TABLISTENER_IID
 )
@@ -421,11 +421,6 @@ mEpoch
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-TabListener
-NS_TABLISTENER_IID
-)
 }
 #
 endif

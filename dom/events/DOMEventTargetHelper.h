@@ -158,12 +158,10 @@ define
 NS_DOMEVENTTARGETHELPER_IID
 \
 {
-\
 0xa28385c6
 0x9451
 0x4d7e
 {
-\
 0xa3
 0xdd
 0xf4
@@ -172,9 +170,7 @@ NS_DOMEVENTTARGETHELPER_IID
 0x2f
 0xa4
 0x76
-\
 }
-\
 }
 class
 DOMEventTargetHelper
@@ -304,7 +300,7 @@ aVisitor
 )
 override
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_DOMEVENTTARGETHELPER_IID
 )
@@ -580,11 +576,6 @@ false
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-DOMEventTargetHelper
-NS_DOMEVENTTARGETHELPER_IID
-)
 }
 #
 define

@@ -52,10 +52,12 @@ VARIANT_BASE_IID
 /
 \
 0x78888042
-0x0fa3
-0x4f7a
-{
 \
+0x0fa3
+\
+0x4f7a
+\
+{
 0x8b
 0x19
 0x79
@@ -64,9 +66,7 @@ VARIANT_BASE_IID
 0x9b
 0xf1
 0xaa
-\
 }
-\
 }
 namespace
 mozilla
@@ -86,7 +86,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIVARIANT
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 VARIANT_BASE_IID
 )
@@ -178,11 +178,6 @@ default
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Variant_base
-VARIANT_BASE_IID
-)
 template
 <
 typename

@@ -59,12 +59,10 @@ define
 NS_CONTENTFRAMEMESSAGEMANAGER_IID
 \
 {
-\
 0x97e192a6
 0xab7a
 0x4c8f
 {
-\
 0xb7
 0xdd
 0xf7
@@ -73,9 +71,7 @@ NS_CONTENTFRAMEMESSAGEMANAGER_IID
 0x38
 0x71
 0xb5
-\
 }
-\
 }
 class
 ContentFrameMessageManager
@@ -99,7 +95,7 @@ DOMEventTargetHelper
 :
 Release
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_CONTENTFRAMEMESSAGEMANAGER_IID
 )
@@ -208,11 +204,6 @@ aMessageManager
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ContentFrameMessageManager
-NS_CONTENTFRAMEMESSAGEMANAGER_IID
-)
 }
 #
 endif

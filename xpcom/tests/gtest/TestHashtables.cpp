@@ -982,12 +982,10 @@ define
 NS_IFOO_IID
 \
 {
-\
 0x6f7652e0
 0xee43
 0x11d1
 {
-\
 0x9c
 0xc3
 0x00
@@ -996,9 +994,7 @@ NS_IFOO_IID
 0x8c
 0xa6
 0xb3
-\
 }
-\
 }
 class
 IFoo
@@ -1009,7 +1005,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IFOO_IID
 )
@@ -1096,11 +1092,6 @@ mString
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IFoo
-NS_IFOO_IID
-)
 unsigned
 int
 IFoo

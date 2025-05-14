@@ -2274,7 +2274,7 @@ iface_prolog
 public
 :
   
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 %
 (
@@ -2327,20 +2327,6 @@ iface_epilog
 "
 }
 ;
-  
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-%
-(
-name
-)
-s
-%
-(
-defname
-)
-s_IID
-)
 "
 "
 "

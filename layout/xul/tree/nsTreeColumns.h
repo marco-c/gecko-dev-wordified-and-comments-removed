@@ -123,10 +123,12 @@ NS_TREECOLUMN_IMPL_CID
 /
 \
 0x02cd1963
-0x4b5d
-0x4a6c
-{
 \
+0x4b5d
+\
+0x4a6c
+\
+{
 0x92
 0x23
 0x81
@@ -135,9 +137,7 @@ NS_TREECOLUMN_IMPL_CID
 0xde
 0x93
 0xa3
-\
 }
-\
 }
 class
 nsTreeColumn
@@ -166,7 +166,7 @@ Element
 aElement
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_TREECOLUMN_IMPL_CID
 )
@@ -641,11 +641,6 @@ mPrevious
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsTreeColumn
-NS_TREECOLUMN_IMPL_CID
-)
 class
 nsTreeColumns
 final

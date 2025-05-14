@@ -318,12 +318,10 @@ define
 DOM_BROWSERPARENT_IID
 \
 {
-\
 0x58b47b52
 0x77dc
 0x44cf
 {
-\
 0x8b
 0xe5
 0x8e
@@ -332,9 +330,7 @@ DOM_BROWSERPARENT_IID
 0xd9
 0xae
 0xc5
-\
 }
-\
 }
 class
 BrowserParent
@@ -383,7 +379,7 @@ public
 struct
 AutoUseNewTab
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 DOM_BROWSERPARENT_IID
 )
@@ -3970,11 +3966,6 @@ mShowingTooltip
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-BrowserParent
-DOM_BROWSERPARENT_IID
-)
 struct
 MOZ_STACK_CLASS
 BrowserParent

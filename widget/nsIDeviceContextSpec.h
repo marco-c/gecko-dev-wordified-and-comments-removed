@@ -83,12 +83,10 @@ define
 NS_IDEVICE_CONTEXT_SPEC_IID
 \
 {
-\
 0xf407cfba
 0xbe28
 0x46c9
 {
-\
 0x8a
 0xba
 0x04
@@ -97,9 +95,7 @@ NS_IDEVICE_CONTEXT_SPEC_IID
 0xbb
 0x4f
 0x23
-\
 }
-\
 }
 class
 nsIDeviceContextSpec
@@ -130,7 +126,7 @@ gfx
 :
 IntSize
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IDEVICE_CONTEXT_SPEC_IID
 )
@@ -343,10 +339,5 @@ false
 endif
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIDeviceContextSpec
-NS_IDEVICE_CONTEXT_SPEC_IID
-)
 #
 endif

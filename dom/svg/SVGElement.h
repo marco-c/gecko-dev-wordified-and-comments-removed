@@ -136,12 +136,10 @@ define
 MOZILLA_SVGELEMENT_IID
 \
 {
-\
 0x70db954d
 0xe452
 0x4be3
 {
-\
 0x82
 0xaa
 0xf5
@@ -150,9 +148,7 @@ MOZILLA_SVGELEMENT_IID
 0xcf
 0x78
 0x90
-\
 }
-\
 }
 nsresult
 NS_NewSVGElement
@@ -371,7 +367,7 @@ Element
 aDest
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 MOZILLA_SVGELEMENT_IID
 )
@@ -2366,11 +2362,6 @@ mClassAnimAttr
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-SVGElement
-MOZILLA_SVGELEMENT_IID
-)
 #
 define
 NS_IMPL_NS_NEW_SVG_ELEMENT

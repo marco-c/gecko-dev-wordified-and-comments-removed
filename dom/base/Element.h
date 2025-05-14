@@ -1238,7 +1238,7 @@ earlier
 }
 #
 endif
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ELEMENT_IID
 )
@@ -7356,11 +7356,6 @@ mAttrs
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Element
-NS_ELEMENT_IID
-)
 inline
 bool
 Element

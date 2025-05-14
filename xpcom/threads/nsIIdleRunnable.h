@@ -25,12 +25,10 @@ define
 NS_IIDLERUNNABLE_IID
 \
 {
-\
 0x688be92e
 0x7ade
 0x4fdc
 {
-\
 0x9d
 0x83
 0x74
@@ -39,9 +37,7 @@ NS_IIDLERUNNABLE_IID
 0xf4
 0xa5
 0x2c
-\
 }
-\
 }
 class
 nsIEventTarget
@@ -54,7 +50,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IIDLERUNNABLE_IID
 )
@@ -121,10 +117,5 @@ default
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIIdleRunnable
-NS_IIDLERUNNABLE_IID
-)
 #
 endif

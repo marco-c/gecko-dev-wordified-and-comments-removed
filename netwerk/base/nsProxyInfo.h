@@ -56,10 +56,12 @@ abeb
 /
 \
 0xed42f751
-0x825e
-0x4cc2
-{
 \
+0x825e
+\
+0x4cc2
+\
+{
 0xab
 0xeb
 0x36
@@ -68,9 +70,7 @@ abeb
 0x1a
 0x8b
 0x85
-\
 }
-\
 }
 namespace
 mozilla
@@ -90,7 +90,7 @@ nsIProxyInfo
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_PROXYINFO_IID
 )
@@ -396,11 +396,6 @@ nullptr
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsProxyInfo
-NS_PROXYINFO_IID
-)
 }
 }
 #

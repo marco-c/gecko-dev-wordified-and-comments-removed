@@ -58,10 +58,12 @@ e58aec0aba4c
 /
 \
 0x8f8c54ed
-0xaba7
-0x4ebf
-{
 \
+0xaba7
+\
+0x4ebf
+\
+{
 0xba
 0x6f
 0xe5
@@ -70,9 +72,7 @@ e58aec0aba4c
 0x0a
 0xba
 0x4c
-\
 }
-\
 }
 class
 SubstitutingJARURI
@@ -127,7 +127,7 @@ default
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISERIALIZABLE
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_SUBSTITUTINGJARURI_IMPL_CID
 )
@@ -1127,11 +1127,6 @@ SubstitutingJARURI
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-SubstitutingJARURI
-NS_SUBSTITUTINGJARURI_IMPL_CID
-)
 }
 }
 #

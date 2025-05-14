@@ -118,10 +118,12 @@ cea17994dba2
 /
 \
 0x1b0a59dd
-0xc1cb
-0x429a
-{
 \
+0xc1cb
+\
+0x429a
+\
+{
 0xbb
 0x90
 0xce
@@ -130,9 +132,7 @@ cea17994dba2
 0x94
 0xdb
 0xa2
-\
 }
-\
 }
 class
 ShadowRealmGlobalScope
@@ -150,7 +150,7 @@ NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 ShadowRealmGlobalScope
 )
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 SHADOWREALMGLOBALSCOPE_IID
 )
@@ -392,11 +392,6 @@ mCreatingGlobal
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ShadowRealmGlobalScope
-SHADOWREALMGLOBALSCOPE_IID
-)
 JSObject
 *
 NewShadowRealmGlobal

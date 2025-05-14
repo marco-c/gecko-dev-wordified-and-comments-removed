@@ -68,12 +68,10 @@ define
 WORKLET_IID
 \
 {
-\
 0x1b3f62e7
 0xe357
 0x44be
 {
-\
 0xbf
 0xe0
 0xdf
@@ -82,9 +80,7 @@ WORKLET_IID
 0x56
 0x85
 0xac
-\
 }
-\
 }
 namespace
 JS
@@ -135,7 +131,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 WORKLET_IID
 )
@@ -432,11 +428,6 @@ mModuleLoader
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-WorkletGlobalScope
-WORKLET_IID
-)
 }
 }
 #

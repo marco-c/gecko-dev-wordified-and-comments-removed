@@ -52,12 +52,10 @@ define
 NS_ICONTENTSERIALIZER_IID
 \
 {
-\
 0xb1ee32f2
 0xb8c4
 0x49b9
 {
-\
 0x93
 0xdf
 0xb6
@@ -66,9 +64,7 @@ NS_ICONTENTSERIALIZER_IID
 0xd5
 0x46
 0x88
-\
 }
-\
 }
 class
 nsIContentSerializer
@@ -78,7 +74,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ICONTENTSERIALIZER_IID
 )
@@ -319,11 +315,6 @@ aElement
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIContentSerializer
-NS_ICONTENTSERIALIZER_IID
-)
 #
 define
 NS_CONTENTSERIALIZER_CONTRACTID_PREFIX

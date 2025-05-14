@@ -194,12 +194,10 @@ define
 NS_DATATRANSFER_IID
 \
 {
-\
 0x6c5f90d1
 0xa886
 0x42c8
 {
-\
 0x85
 0x06
 0x10
@@ -208,9 +206,7 @@ NS_DATATRANSFER_IID
 0x0d
 0xc6
 0x77
-\
 }
-\
 }
 class
 DataTransfer
@@ -223,7 +219,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_DATATRANSFER_IID
 )
@@ -1673,11 +1669,6 @@ true
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-DataTransfer
-NS_DATATRANSFER_IID
-)
 }
 }
 #

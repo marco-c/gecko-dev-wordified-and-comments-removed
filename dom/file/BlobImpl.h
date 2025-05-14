@@ -23,12 +23,10 @@ define
 BLOBIMPL_IID
 \
 {
-\
 0xbccb3275
 0x6778
 0x4ac5
 {
-\
 0xaf
 0x03
 0x90
@@ -37,9 +35,7 @@ BLOBIMPL_IID
 0xad
 0xdf
 0x5d
-\
 }
-\
 }
 class
 nsIInputStream
@@ -72,7 +68,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 BLOBIMPL_IID
 )
@@ -400,11 +396,6 @@ default
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-BlobImpl
-BLOBIMPL_IID
-)
 }
 }
 #

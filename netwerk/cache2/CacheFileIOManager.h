@@ -949,10 +949,12 @@ bca1
 /
 \
 0xdcaf2ddc
-0x17cf
-0x4242
-{
 \
+0x17cf
+\
+0x4242
+\
+{
 0xbc
 0xa1
 0x8c
@@ -961,9 +963,7 @@ bca1
 0x63
 0x75
 0xa5
-\
 }
-\
 }
 class
 CacheFileIOListener
@@ -973,7 +973,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 CACHEFILEIOLISTENER_IID
 )
@@ -1068,11 +1068,6 @@ false
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-CacheFileIOListener
-CACHEFILEIOLISTENER_IID
-)
 class
 CacheFileIOManager
 final

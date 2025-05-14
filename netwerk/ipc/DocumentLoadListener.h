@@ -708,7 +708,7 @@ nsIStreamListener
 aListener
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 DOCUMENT_LOAD_LISTENER_IID
 )
@@ -1763,11 +1763,6 @@ mHTTPSFirstDowngradeData
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-DocumentLoadListener
-DOCUMENT_LOAD_LISTENER_IID
-)
 inline
 nsISupports
 *

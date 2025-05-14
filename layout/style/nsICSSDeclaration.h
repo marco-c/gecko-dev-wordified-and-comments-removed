@@ -93,12 +93,10 @@ define
 NS_ICSSDECLARATION_IID
 \
 {
-\
 0xdbeabbfa
 0x6cb3
 0x4f5c
 {
-\
 0xae
 0xc2
 0xdd
@@ -107,9 +105,7 @@ NS_ICSSDECLARATION_IID
 0x9d
 0x68
 0x1f
-\
 }
-\
 }
 class
 nsICSSDeclaration
@@ -121,7 +117,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ICSSDECLARATION_IID
 )
@@ -427,11 +423,6 @@ IsReadOnly
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsICSSDeclaration
-NS_ICSSDECLARATION_IID
-)
 #
 define
 NS_DECL_NSIDOMCSSSTYLEDECLARATION_HELPER

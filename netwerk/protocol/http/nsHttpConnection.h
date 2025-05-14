@@ -210,7 +210,7 @@ nsHttpConnection
 ;
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_HTTPCONNECTION_IID
 )
@@ -1043,6 +1043,9 @@ mConsiderReusedAfterEpoch
 0
 }
 ;
+TimeStamp
+mLastTRRResponseTime
+;
 int64_t
 mCurrentBytesRead
 {
@@ -1350,11 +1353,6 @@ false
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsHttpConnection
-NS_HTTPCONNECTION_IID
-)
 }
 }
 #

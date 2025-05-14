@@ -16,12 +16,10 @@ define
 NS_IDISCARDABLERUNNABLE_IID
 \
 {
-\
 0xde93dc4c
 0x755c
 0x4cdc
 {
-\
 0x96
 0x76
 0x35
@@ -30,9 +28,7 @@ NS_IDISCARDABLERUNNABLE_IID
 0x81
 0x59
 0x78
-\
 }
-\
 }
 class
 NS_NO_VTABLE
@@ -43,7 +39,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IDISCARDABLERUNNABLE_IID
 )
@@ -73,10 +69,5 @@ default
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIDiscardableRunnable
-NS_IDISCARDABLERUNNABLE_IID
-)
 #
 endif

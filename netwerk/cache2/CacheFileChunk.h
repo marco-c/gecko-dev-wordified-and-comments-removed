@@ -351,10 +351,12 @@ a9c2
 /
 \
 0xbaf16149
-0x2ab5
-0x499c
-{
 \
+0x2ab5
+\
+0x499c
+\
+{
 0xa9
 0xc2
 0x59
@@ -363,9 +365,7 @@ a9c2
 0x95
 0xc2
 0x88
-\
 }
-\
 }
 class
 CacheFileChunkListener
@@ -375,7 +375,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 CACHEFILECHUNKLISTENER_IID
 )
@@ -429,11 +429,6 @@ aChunk
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-CacheFileChunkListener
-CACHEFILECHUNKLISTENER_IID
-)
 class
 ChunkListenerItem
 {

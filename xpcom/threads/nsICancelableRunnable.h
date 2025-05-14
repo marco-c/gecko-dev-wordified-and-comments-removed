@@ -16,12 +16,10 @@ define
 NS_ICANCELABLERUNNABLE_IID
 \
 {
-\
 0xde93dc4c
 0x5eea
 0x4eb7
 {
-\
 0xb6
 0xd1
 0xdb
@@ -30,9 +28,7 @@ NS_ICANCELABLERUNNABLE_IID
 0xce
 0xf6
 0x5c
-\
 }
-\
 }
 class
 nsICancelableRunnable
@@ -42,7 +38,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ICANCELABLERUNNABLE_IID
 )
@@ -72,10 +68,5 @@ default
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsICancelableRunnable
-NS_ICANCELABLERUNNABLE_IID
-)
 #
 endif
