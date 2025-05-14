@@ -231,20 +231,25 @@ shared
 "
     
 "
-platform
+upload_env
+"
+:
+{
+        
+"
+UPLOAD_PATH
 "
 :
 "
-linux64
+/
+builds
+/
+worker
+/
+artifacts
 "
     
-"
-stage_platform
-"
-:
-"
-linux64
-"
+}
     
 "
 env
@@ -370,8 +375,6 @@ bin
 /
 bin
 :
-"
-"
 /
 usr
 /
@@ -389,8 +392,6 @@ usr
 /
 sbin
 :
-"
-"
 /
 sbin
 "
@@ -398,7 +399,15 @@ sbin
 }
     
 "
-mozconfig_platform
+mozconfig_variant
+"
+:
+"
+nightly
+"
+    
+"
+platform
 "
 :
 "
@@ -406,10 +415,18 @@ linux64
 "
     
 "
-mozconfig_variant
+stage_platform
 "
 :
 "
-nightly
+linux64
+"
+    
+"
+mozconfig_platform
+"
+:
+"
+linux64
 "
 }

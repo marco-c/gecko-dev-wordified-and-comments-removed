@@ -438,41 +438,6 @@ option
 }
         
 ]
-        
-[
-            
-[
-"
--
--
-build
--
-pool
-"
-]
-            
-{
-                
-"
-dest
-"
-:
-"
-build_pool
-"
-                
-"
-help
-"
-:
-"
-dummy
-option
-"
-            
-}
-        
-]
     
 ]
     
