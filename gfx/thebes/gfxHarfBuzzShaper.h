@@ -735,6 +735,11 @@ mutable
 gfxFloat
 mDefaultVOrg
 ;
+uint32_t
+mNumGlyphs
+=
+0
+;
 bool
 mUseFontGetGlyph
 ;
