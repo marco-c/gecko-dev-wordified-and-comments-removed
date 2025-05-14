@@ -115,13 +115,6 @@ js
 ]
 [
 "
-browser_ml_pipeline
-.
-js
-"
-]
-[
-"
 browser_ml_telemetry
 .
 js
