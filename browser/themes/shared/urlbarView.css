@@ -5947,6 +5947,12 @@ urlbarView
 -
 action
 {
+white
+-
+space
+:
+nowrap
+;
 .
 urlbarView
 -
@@ -6365,6 +6371,12 @@ visibility
 hidden
 ;
 width
+:
+0
+;
+margin
+-
+inline
 :
 0
 ;
