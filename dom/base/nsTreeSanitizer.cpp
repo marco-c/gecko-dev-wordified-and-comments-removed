@@ -1327,10 +1327,6 @@ desc
 nsGkAtoms
 :
 :
-discard
-nsGkAtoms
-:
-:
 ellipse
 nsGkAtoms
 :

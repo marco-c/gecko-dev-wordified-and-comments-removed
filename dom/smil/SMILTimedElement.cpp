@@ -1903,9 +1903,6 @@ SampleAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 )
 {
 if
@@ -1921,7 +1918,6 @@ sMaxMilestone
 DoSampleAt
 (
 aContainerTime
-aDiscards
 false
 )
 ;
@@ -1934,9 +1930,6 @@ SampleEndAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 )
 {
 if
@@ -1966,7 +1959,6 @@ STATE_STARTUP
 DoSampleAt
 (
 aContainerTime
-aDiscards
 true
 )
 ;
@@ -1987,9 +1979,6 @@ DoSampleAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 bool
 aEndOnly
 )
@@ -2341,14 +2330,6 @@ UpdateCurrentInterval
 )
 ;
 }
-mAnimationElement
--
->
-AddDiscards
-(
-aDiscards
-)
-;
 stateChanged
 =
 true

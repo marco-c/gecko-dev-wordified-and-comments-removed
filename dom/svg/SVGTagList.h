@@ -40,11 +40,6 @@ Desc
 )
 SVG_TAG
 (
-discard
-Discard
-)
-SVG_TAG
-(
 ellipse
 Ellipse
 )

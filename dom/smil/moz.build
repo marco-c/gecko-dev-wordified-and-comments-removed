@@ -61,11 +61,6 @@ SMILCSSValueType
 h
 "
 "
-SMILDiscardAnimationFunction
-.
-h
-"
-"
 SMILInstanceTime
 .
 h
