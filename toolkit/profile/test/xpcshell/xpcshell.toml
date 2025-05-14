@@ -31,6 +31,13 @@ js
 ]
 [
 "
+test_async_flush_group_profile
+.
+js
+"
+]
+[
+"
 test_check_backup
 .
 js
