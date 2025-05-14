@@ -2822,9 +2822,6 @@ SystemAllocPolicy
 >
 exitPositions
 ;
-bool
-testbed
-;
 using
 VirtualRegBitSet
 =
@@ -4306,8 +4303,6 @@ lir
 LIRGraph
 &
 graph
-bool
-testbed
 )
 :
 RegisterAllocator
@@ -4315,10 +4310,6 @@ RegisterAllocator
 mir
 lir
 graph
-)
-testbed
-(
-testbed
 )
 liveIn
 (

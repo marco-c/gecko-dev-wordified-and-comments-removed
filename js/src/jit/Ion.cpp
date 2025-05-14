@@ -9142,9 +9142,6 @@ allocator
 case
 RegisterAllocator_Backtracking
 :
-case
-RegisterAllocator_Testbed
-:
 {
 BacktrackingAllocator
 regalloc
@@ -9154,10 +9151,6 @@ mir
 lirgen
 *
 lir
-allocator
-=
-=
-RegisterAllocator_Testbed
 )
 ;
 if
