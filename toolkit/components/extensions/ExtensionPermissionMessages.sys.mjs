@@ -436,7 +436,7 @@ authenticationInfo
 bookmarksInfo
 "
 "
-browsingHistory
+browsingActivity
 "
 "
 financialAndPaymentInfo
@@ -452,6 +452,9 @@ personalCommunications
 "
 "
 personallyIdentifyingInfo
+"
+"
+searchTerms
 "
 "
 technicalAndInteraction
