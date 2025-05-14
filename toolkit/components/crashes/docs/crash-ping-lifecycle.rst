@@ -169,6 +169,7 @@ crash
 >
 _
 *
+Desktop
 metrics
 definition
 <
@@ -198,6 +199,7 @@ yaml
 >
 _
 *
+Desktop
 ping
 definition
 <
@@ -253,6 +255,7 @@ crash
 >
 _
 *
+Fenix
 metrics
 definition
 <
@@ -290,6 +293,7 @@ yaml
 >
 _
 *
+Fenix
 ping
 definition
 <
