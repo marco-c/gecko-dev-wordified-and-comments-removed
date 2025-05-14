@@ -761,7 +761,7 @@ Version
 "
 2
 .
-24
+37
 "
 )
 OLD_GIT_WARNING
