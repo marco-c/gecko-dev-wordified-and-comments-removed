@@ -10972,16 +10972,6 @@ generated
 code
 devtools
 /
-*
-*
-/
-*
-.
-snapshot
-.
-mjs
-devtools
-/
 client
 /
 webconsole
