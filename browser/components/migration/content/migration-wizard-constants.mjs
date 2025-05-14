@@ -169,6 +169,17 @@ password
 -
 permission
 "
+CHROME_WINDOWS_PASSWORD_PERMISSION
+:
+"
+chrome
+-
+windows
+-
+password
+-
+permission
+"
 NO_BROWSERS_FOUND
 :
 "
