@@ -2980,6 +2980,13 @@ js
 ]
 [
 "
+browser_ext_tabGroups_private
+.
+js
+"
+]
+[
+"
 browser_ext_tabGroups_query
 .
 js
