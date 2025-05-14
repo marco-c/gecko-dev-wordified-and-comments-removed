@@ -111,7 +111,7 @@ video
 true
 timeout
 :
-15m
+30m
 async
 :
 false
