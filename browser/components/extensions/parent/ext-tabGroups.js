@@ -1200,10 +1200,6 @@ this
 queryGroups
 (
 query
-?
-?
-{
-}
 )
 group
 =
