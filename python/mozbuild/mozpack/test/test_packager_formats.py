@@ -7,8 +7,6 @@ chain
 import
 mozunit
 import
-six
-import
 mozpack
 .
 path
@@ -2444,10 +2442,6 @@ result
 k
 ]
 =
-six
-.
-ensure_text
-(
 v
 .
 open
@@ -2457,6 +2451,9 @@ open
 read
 (
 )
+.
+decode
+(
 )
 .
 splitlines

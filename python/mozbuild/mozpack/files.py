@@ -26,6 +26,7 @@ from
 io
 import
 BytesIO
+StringIO
 from
 itertools
 import
@@ -41,8 +42,6 @@ tempfile
 import
 NamedTemporaryFile
 mkstemp
-import
-six
 from
 jsmin
 import
@@ -237,10 +236,6 @@ r
 :
     
 if
-six
-.
-PY3
-and
 "
 b
 "
@@ -511,13 +506,20 @@ mode
 w
 "
         
-to_write
-=
-six
-.
-ensure_binary
+if
+isinstance
 (
 data
+str
+)
+:
+            
+data
+=
+data
+.
+encode
+(
 )
         
 return
@@ -527,7 +529,7 @@ file
 .
 write
 (
-to_write
+data
 )
     
 def
@@ -1254,20 +1256,10 @@ src_content
 break
             
 if
-six
-.
-ensure_binary
-(
 dest_content
-)
 !
 =
-six
-.
-ensure_binary
-(
 src_content
-)
 :
                 
 dest
@@ -3434,15 +3426,29 @@ _content
 (
 )
         
-return
-six
-.
-ensure_binary
+if
+isinstance
 (
 self
 .
 _content
+str
 )
+:
+            
+return
+self
+.
+_content
+.
+encode
+(
+)
+        
+return
+self
+.
+_content
     
 content
 .
@@ -4186,11 +4192,10 @@ _interfaces
 return
 BytesIO
 (
-six
-.
-ensure_binary
-(
 content
+.
+encode
+(
 )
 )
     
@@ -4384,11 +4389,10 @@ for
 l
 in
 [
-six
-.
-ensure_text
-(
 s
+.
+decode
+(
 )
 for
 s
@@ -4422,11 +4426,10 @@ startswith
 return
 BytesIO
 (
-six
-.
-ensure_binary
-(
 content
+.
+encode
+(
 )
 )
 class
@@ -4491,8 +4494,6 @@ self
         
 output
 =
-six
-.
 StringIO
 (
 )
@@ -4547,15 +4548,14 @@ seek
         
 output_source
 =
-six
-.
-ensure_binary
-(
 output
 .
 getvalue
 (
 )
+.
+encode
+(
 )
         
 output
@@ -7232,24 +7232,20 @@ client
 .
 cat
 (
-            
 [
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
 ]
 rev
 =
-six
-.
-ensure_binary
-(
 rev
+.
+encode
+(
 )
-        
 )
     
 def
@@ -7262,14 +7258,9 @@ self
 return
 BytesIO
 (
-six
-.
-ensure_binary
-(
 self
 .
 _content
-)
 )
     
 def
@@ -7621,13 +7612,12 @@ b
 rev
 "
                 
-six
-.
-ensure_binary
-(
 self
 .
 _rev
+.
+encode
+(
 )
             
 ]
@@ -7648,16 +7638,15 @@ self
 .
 _files
 [
-six
-.
-ensure_text
-(
 mozpath
 .
 normpath
 (
 relpath
 )
+.
+decode
+(
 )
 ]
 =
