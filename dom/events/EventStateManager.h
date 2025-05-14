@@ -2653,6 +2653,14 @@ aMouseEvent
 )
 ;
 void
+UpdateGestureContent
+(
+nsIContent
+*
+aContent
+)
+;
+void
 NotifyTargetUserActivation
 (
 WidgetEvent
