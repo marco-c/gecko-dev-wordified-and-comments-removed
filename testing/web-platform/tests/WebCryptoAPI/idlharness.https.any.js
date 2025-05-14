@@ -2,7 +2,7 @@ idl_test
 (
 [
 '
-WebCryptoAPI
+webcrypto
 '
 ]
 [
