@@ -244,9 +244,7 @@ manager
 .
 _prefFlips
 .
-_prefs
-.
-size
+_registeredPrefCount
 0
 "
 There
@@ -254,7 +252,7 @@ should
 be
 no
 prefFlips
-feature
+pref
 observers
 "
 )

@@ -90,13 +90,6 @@ settings
 "
 [
 "
-browser_prefs
-.
-js
-"
-]
-[
-"
 browser_remotesettings_experiment_enroll
 .
 js

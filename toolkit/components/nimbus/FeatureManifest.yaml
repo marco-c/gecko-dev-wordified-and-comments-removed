@@ -414,6 +414,9 @@ com
 hasExposure
 :
 false
+allowCoenrollment
+:
+true
 variables
 :
 prefs
