@@ -3904,6 +3904,16 @@ positionProperty
 IsAuto
 (
 )
+|
+|
+wm
+.
+IsOrthogonalTo
+(
+GetCBWritingMode
+(
+)
+)
 ;
 if
 (
