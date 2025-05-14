@@ -2253,6 +2253,15 @@ lambda
 )
 ;
 }
+MOZ_TRY
+(
+maybeInlineIC
+(
+opSnapshots
+loc
+)
+)
+;
 break
 ;
 }
