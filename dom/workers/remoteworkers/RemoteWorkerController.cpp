@@ -2051,6 +2051,12 @@ CancelAllPendingOps
 (
 )
 ;
+MaybeReportServiceWorkerShutdownProgress
+(
+mArgs
+true
+)
+;
 Cancel
 (
 )
