@@ -189,9 +189,13 @@ override
 #
 endif
 virtual
+Result
+<
 RefPtr
 <
 MediaRawData
+>
+MediaResult
 >
 ToMediaRawData
 (
