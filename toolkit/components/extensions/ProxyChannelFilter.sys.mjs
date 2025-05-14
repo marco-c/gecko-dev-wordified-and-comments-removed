@@ -2315,7 +2315,7 @@ lazy
 .
 ProxyService
 .
-unregisterFilter
+unregisterChannelFilter
 (
 this
 )
