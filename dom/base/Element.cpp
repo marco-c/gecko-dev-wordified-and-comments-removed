@@ -21999,7 +21999,7 @@ root
 vt
 -
 >
-GetRoot
+GetViewTransitionTreeRoot
 (
 )
 ;

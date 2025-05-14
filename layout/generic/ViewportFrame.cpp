@@ -1085,7 +1085,7 @@ root
 vt
 -
 >
-GetRoot
+GetSnapshotContainingBlock
 (
 )
 )
@@ -1122,9 +1122,10 @@ StyleTopLayer
 :
 None
 "
-ua
-.
-css
+the
+snapshot
+containing
+block
 should
 ensure
 this
