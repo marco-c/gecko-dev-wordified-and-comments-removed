@@ -320,10 +320,6 @@ return
 sum
 ;
 }
-#
-if
-!
-CONFIG_HIGHWAY
 unsigned
 int
 aom_sad128x64_avx2
@@ -504,8 +500,6 @@ return
 sum
 ;
 }
-#
-endif
 unsigned
 int
 aom_sad_skip_128x64_avx2

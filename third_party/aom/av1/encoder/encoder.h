@@ -6078,15 +6078,6 @@ AV1_COMP
 cpi
 )
 ;
-void
-av1_set_svc_seq_params
-(
-AV1_PRIMARY
-*
-const
-ppi
-)
-;
 typedef
 struct
 {

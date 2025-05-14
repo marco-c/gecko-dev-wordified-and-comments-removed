@@ -6959,15 +6959,8 @@ if
 number_spatial_layers
 >
 1
-)
-{
-return
-BLOCK_64X64
-;
-}
-else
-if
-(
+|
+|
 oxcf
 -
 >

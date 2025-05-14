@@ -146,7 +146,7 @@ Rand16
 )
 ;
 }
-uint16_t
+int16_t
 Rand15
 (
 )

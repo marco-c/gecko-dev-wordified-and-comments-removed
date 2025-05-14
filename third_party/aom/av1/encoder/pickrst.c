@@ -14779,14 +14779,6 @@ sb_size
 ]
 )
 ;
-max_lr_unit_size
-=
-AOMMAX
-(
-min_lr_unit_size
-max_lr_unit_size
-)
-;
 for
 (
 int

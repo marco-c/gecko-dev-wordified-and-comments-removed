@@ -1286,9 +1286,6 @@ weight_calc_level_in_tf
 int
 allow_sub_blk_me_in_tf
 ;
-int
-disable_ref_frame_mvs
-;
 }
 HIGH_LEVEL_SPEED_FEATURES
 ;
@@ -1375,9 +1372,6 @@ downsample_level
 ;
 int
 num_refinement_steps
-;
-int
-gm_erroradv_tr_level
 ;
 }
 GLOBAL_MOTION_SPEED_FEATURES
