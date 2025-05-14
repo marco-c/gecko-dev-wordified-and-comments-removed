@@ -185,7 +185,9 @@ components
 /
 reps
 /
-index
+reps
+/
+constants
 .
 mjs
 "

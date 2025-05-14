@@ -1012,6 +1012,10 @@ return
 PropRep
 (
 {
+.
+.
+.
+props
 name
 :
 key
