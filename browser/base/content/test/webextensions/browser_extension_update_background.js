@@ -693,6 +693,8 @@ webext
 perm
 -
 list
+-
+required
 "
 )
 ;

@@ -285,10 +285,6 @@ perms
 header
 -
 unsigned
--
-with
--
-perms
 "
 {
 extension
