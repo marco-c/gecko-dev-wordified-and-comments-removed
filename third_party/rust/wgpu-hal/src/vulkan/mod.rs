@@ -1439,6 +1439,9 @@ bool
 maximum_samplers
 :
 u32
+shader_integer_dot_product
+:
+bool
 }
 bitflags
 :

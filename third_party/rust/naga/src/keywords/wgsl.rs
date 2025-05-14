@@ -1,11 +1,11 @@
 use
-std
+crate
 :
 :
-sync
+racy_lock
 :
 :
-LazyLock
+RacyLock
 ;
 use
 hashbrown
@@ -685,7 +685,7 @@ pub
 static
 RESERVED_SET
 :
-LazyLock
+RacyLock
 <
 HashSet
 <
@@ -696,7 +696,7 @@ str
 >
 >
 =
-LazyLock
+RacyLock
 :
 :
 new
