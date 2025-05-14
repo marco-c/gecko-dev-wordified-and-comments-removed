@@ -16,9 +16,9 @@ __version__
 py
 sha256
 =
-Yxmx3lrk_196e3bPrIsVdSlPC62p9UmAaKJIRo
+FVfglgZmNQnmYPXpOohDU58F5EUb_
 -
-41H4
+VnSTaAesS187g
 435
 requests
 /
@@ -36,8 +36,8 @@ adapters
 py
 sha256
 =
-baufuIQxmY4sKNefXTkHyUJR9ipzJAe80SRWT5KyBVQ
-22721
+KIcecscqam6reOCXRl4DwP4jX8Jcl8sd57ft17KR2cQ
+27451
 requests
 /
 api
@@ -191,7 +191,7 @@ requests
 .
 32
 .
-0
+3
 .
 dist
 -
@@ -208,7 +208,7 @@ requests
 .
 32
 .
-0
+3
 .
 dist
 -
@@ -217,7 +217,7 @@ info
 METADATA
 sha256
 =
-NmgVzZioNWY_Ofy5SlvloP7hUmi3WOqA5ktlCl7Ld4E
+ZY7oRUweLnb7jCEnEW9hFWs7IpQbNVnAA4ncpwA4WBo
 4610
 requests
 -
@@ -225,7 +225,7 @@ requests
 .
 32
 .
-0
+3
 .
 dist
 -
@@ -234,11 +234,9 @@ info
 WHEEL
 sha256
 =
-yQN5g4mg4AybRjkgi
+GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ
 -
-9yy4iQEFibGQmlz78Pik5Or
--
-A
+9iHFVNxQ
 92
 requests
 -
@@ -246,7 +244,7 @@ requests
 .
 32
 .
-0
+3
 .
 dist
 -
@@ -271,7 +269,7 @@ requests
 .
 32
 .
-0
+3
 .
 dist
 -
