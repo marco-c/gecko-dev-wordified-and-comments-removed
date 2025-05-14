@@ -34,6 +34,27 @@ shared
 "
     
 "
+upload_env
+"
+:
+{
+        
+"
+UPLOAD_PATH
+"
+:
+"
+/
+builds
+/
+worker
+/
+artifacts
+"
+    
+}
+    
+"
 platform
 "
 :
@@ -179,7 +200,6 @@ bin
 /
 bin
 :
-\
 /
 usr
 /
