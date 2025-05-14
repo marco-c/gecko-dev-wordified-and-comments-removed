@@ -2608,8 +2608,6 @@ settings
 Settings
 =
 mockk
-(
-)
 {
 every
 {
@@ -2895,8 +2893,6 @@ settings
 Settings
 =
 mockk
-(
-)
 {
 every
 {

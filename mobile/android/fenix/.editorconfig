@@ -177,17 +177,6 @@ else
 wrapping
 =
 disabled
-ktlint_standard_unnecessary
--
-parentheses
--
-before
--
-trailing
--
-lambda
-=
-disabled
 #
 rules
 that

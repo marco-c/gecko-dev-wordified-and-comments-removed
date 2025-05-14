@@ -436,8 +436,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyDownloadedFileExistsInDownloadsList
 (

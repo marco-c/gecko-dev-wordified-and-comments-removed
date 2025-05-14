@@ -412,8 +412,6 @@ val
 providers
 =
 buildList
-(
-)
 {
 val
 availableSuggestionTypes

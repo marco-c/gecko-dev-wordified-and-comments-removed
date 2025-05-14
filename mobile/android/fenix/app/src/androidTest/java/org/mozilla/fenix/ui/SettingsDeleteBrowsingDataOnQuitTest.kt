@@ -1084,8 +1084,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyEmptyDownloadsList
 (

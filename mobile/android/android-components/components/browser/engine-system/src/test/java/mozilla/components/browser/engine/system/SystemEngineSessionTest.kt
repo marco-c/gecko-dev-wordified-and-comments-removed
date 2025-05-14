@@ -2025,8 +2025,6 @@ mock
 <
 WebView
 >
-(
-)
 {
 whenever
 (

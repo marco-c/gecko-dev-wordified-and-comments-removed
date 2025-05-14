@@ -1999,8 +1999,6 @@ expandMainMenu
 }
 .
 openExtensionsFromMainMenu
-(
-)
 {
 clickManageExtensionsButtonFromRedesignedMainMenu
 (
@@ -2442,8 +2440,6 @@ clickSaveButton
 }
 .
 clickAddToShortcutsButton
-(
-)
 {
 verifySnackBarText
 (
@@ -3909,8 +3905,6 @@ expandMainMenu
 }
 .
 openExtensionsFromMainMenu
-(
-)
 {
 clickManageExtensionsButtonFromRedesignedMainMenu
 (

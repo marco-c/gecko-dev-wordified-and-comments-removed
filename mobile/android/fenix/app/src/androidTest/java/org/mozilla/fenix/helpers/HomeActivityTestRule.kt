@@ -2185,8 +2185,6 @@ getMainLooper
 )
 .
 post
-(
-)
 {
 appContext
 .

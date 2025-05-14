@@ -965,8 +965,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyEmptyDownloadsList
 (
@@ -1037,8 +1035,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyDownloadedFileExistsInDownloadsList
 (
@@ -1295,8 +1291,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyDownloadedFileExistsInDownloadsList
 (
@@ -1438,8 +1432,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyDownloadedFileExistsInDownloadsList
 (
@@ -1472,8 +1464,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyEmptyDownloadsList
 (
@@ -1519,8 +1509,6 @@ openThreeDotMenu
 }
 .
 openDownloadsManager
-(
-)
 {
 verifyDownloadedFileExistsInDownloadsList
 (

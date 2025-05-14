@@ -1316,8 +1316,6 @@ composeTestRule
 }
 .
 clickSearchButton
-(
-)
 {
 /
 /

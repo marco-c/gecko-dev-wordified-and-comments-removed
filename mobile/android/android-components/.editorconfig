@@ -204,17 +204,6 @@ block
 comment
 =
 disabled
-ktlint_standard_unnecessary
--
-parentheses
--
-before
--
-trailing
--
-lambda
-=
-disabled
 ktlint_standard_no
 -
 wildcard

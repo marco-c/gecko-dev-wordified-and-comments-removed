@@ -2097,8 +2097,6 @@ scope
 store
 .
 flowScoped
-(
-)
 {
 flow
 -
