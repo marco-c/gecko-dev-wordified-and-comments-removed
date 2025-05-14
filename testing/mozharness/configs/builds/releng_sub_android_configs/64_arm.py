@@ -21,12 +21,4 @@ android
 -
 arm
 "
-    
-"
-mozconfig_variant
-"
-:
-"
-nightly
-"
 }
