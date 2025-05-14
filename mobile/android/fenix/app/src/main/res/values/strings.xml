@@ -59011,13 +59011,6 @@ name
 "
 pbm_authentication_enable_lock
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Enable
 private
@@ -59050,13 +59043,6 @@ name
 =
 "
 pbm_authentication_disable_lock
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Disable
