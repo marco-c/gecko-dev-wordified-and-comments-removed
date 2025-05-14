@@ -1148,7 +1148,7 @@ R
 .
 string
 .
-onboarding_term_of_service_agree_and_continue_button_label
+onboarding_term_of_service_agree_and_continue_button_label_2
 )
 onClick
 =
