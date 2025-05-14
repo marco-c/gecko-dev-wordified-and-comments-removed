@@ -21,7 +21,7 @@ hamcrest
 .
 Matchers
 .
-*
+equalTo
 import
 org
 .

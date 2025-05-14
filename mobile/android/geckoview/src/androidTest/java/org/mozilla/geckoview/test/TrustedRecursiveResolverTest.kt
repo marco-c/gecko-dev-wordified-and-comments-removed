@@ -33,7 +33,7 @@ hamcrest
 .
 Matchers
 .
-*
+is
 import
 org
 .

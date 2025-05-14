@@ -33,7 +33,15 @@ hamcrest
 .
 Matchers
 .
-*
+equalTo
+import
+org
+.
+hamcrest
+.
+Matchers
+.
+notNullValue
 import
 org
 .

@@ -33,7 +33,15 @@ hamcrest
 .
 Matchers
 .
-*
+containsString
+import
+org
+.
+hamcrest
+.
+Matchers
+.
+equalTo
 import
 org
 .
