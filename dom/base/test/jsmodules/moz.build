@@ -28,3 +28,13 @@ chrome
 toml
 "
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+"
+mochitest
+.
+toml
+"
+]
