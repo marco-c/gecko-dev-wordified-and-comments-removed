@@ -1000,10 +1000,7 @@ cmdline_files
     
 if
 not
-len
-(
 files
-)
 :
         
 op

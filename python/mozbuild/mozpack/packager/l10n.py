@@ -1152,10 +1152,7 @@ path
             
 if
 not
-len
-(
 files
-)
 :
                 
 if

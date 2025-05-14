@@ -5176,10 +5176,7 @@ values
 :
     
 assert
-len
-(
 values
-)
     
 default
 =

@@ -2358,10 +2358,7 @@ stdout
 )
             
 if
-len
-(
 other_frames
-)
 :
                 
 print

@@ -1202,10 +1202,7 @@ mt
 )
         
 if
-len
-(
 new_mtests
-)
 :
             
 for
