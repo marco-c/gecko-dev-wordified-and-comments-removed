@@ -150,7 +150,7 @@ another
 log
 breakpoint
 with
-static
+multiple
 arguments
 "
 )
@@ -184,6 +184,7 @@ b
 '
 c
 '
+firstCall
 "
 }
 )
@@ -283,6 +284,11 @@ value
 a
 b
 c
+\
+nfunction
+firstCall
+(
+)
 "
 "
 logs

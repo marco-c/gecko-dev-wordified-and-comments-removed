@@ -450,6 +450,9 @@ null
 emitMessages
 (
 messages
+argumentsAreRawObjects
+=
+true
 )
 {
 if
@@ -519,6 +522,7 @@ this
 .
 targetActor
 message
+argumentsAreRawObjects
 )
 ;
 }
@@ -804,6 +808,9 @@ prepareConsoleMessageForRemote
 (
 targetActor
 message
+argumentsAreRawObjects
+=
+true
 )
 {
 const
@@ -829,11 +836,15 @@ obj
 const
 dbgObj
 =
+argumentsAreRawObjects
+?
 makeDebuggeeValue
 (
 targetActor
 obj
 )
+:
+obj
 ;
 return
 createValueGripForTarget
