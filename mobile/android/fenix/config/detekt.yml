@@ -4840,16 +4840,6 @@ WildcardImport
 active
 :
 true
-excludeImports
-:
--
-'
-java
-.
-util
-.
-*
-'
 #
 Custom
 Rules

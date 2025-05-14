@@ -197,7 +197,7 @@ java
 .
 util
 .
-*
+Date
 class
 UpdateAttemptStorageTest
 {

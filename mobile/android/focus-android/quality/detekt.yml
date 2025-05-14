@@ -4873,13 +4873,3 @@ WildcardImport
 active
 :
 true
-excludeImports
-:
--
-'
-java
-.
-util
-.
-*
-'

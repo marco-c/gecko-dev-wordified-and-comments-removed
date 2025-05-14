@@ -204,13 +204,6 @@ block
 comment
 =
 disabled
-ktlint_standard_no
--
-wildcard
--
-imports
-=
-disabled
 ktlint_standard_multiline
 -
 if

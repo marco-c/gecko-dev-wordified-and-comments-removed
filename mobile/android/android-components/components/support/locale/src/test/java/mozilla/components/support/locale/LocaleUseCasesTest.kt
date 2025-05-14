@@ -137,7 +137,7 @@ java
 .
 util
 .
-*
+Locale
 class
 LocaleUseCasesTest
 {
