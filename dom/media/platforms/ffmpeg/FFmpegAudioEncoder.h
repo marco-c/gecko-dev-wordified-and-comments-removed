@@ -108,6 +108,15 @@ EncoderConfig
 aConfig
 )
 ;
+RefPtr
+<
+InitPromise
+>
+Init
+(
+)
+override
+;
 nsCString
 GetDescriptionName
 (
@@ -127,7 +136,7 @@ default
 ;
 virtual
 MediaResult
-InitSpecific
+InitEncoder
 (
 )
 override
