@@ -218,9 +218,10 @@ const
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kULTypeTable
 [
+4
 ]
 ;
 static
@@ -228,9 +229,10 @@ const
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kOLTypeTable
 [
+5
 ]
 ;
 protected
