@@ -611,6 +611,11 @@ Mutex
 mBufferMutex
 MOZ_UNANNOTATED
 ;
+int
+mPrependedBufferCount
+=
+0
+;
 bool
 mReceivedStop
 ;
@@ -624,11 +629,6 @@ false
 ;
 bool
 mDisconnectedByOnStartRequest
-=
-false
-;
-bool
-mDisconnectedByFinishDisconnect
 =
 false
 ;
