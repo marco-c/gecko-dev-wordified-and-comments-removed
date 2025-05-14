@@ -101,11 +101,11 @@ NS_IMPL_ELEMENT_CLONE
 HTMLTableCaptionElement
 )
 static
-const
+constexpr
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kCaptionAlignTable
 [
 ]
@@ -128,10 +128,6 @@ StyleCaptionSide
 :
 :
 Bottom
-}
-{
-nullptr
-0
 }
 }
 ;
