@@ -726,7 +726,7 @@ return
 if
 (
 !
-HasBeenDispatched
+IsBeingDispatched
 (
 )
 )
@@ -1227,7 +1227,7 @@ bool
 NavigateEvent
 :
 :
-HasBeenDispatched
+IsBeingDispatched
 (
 )
 const
@@ -1238,7 +1238,7 @@ mEvent
 >
 mFlags
 .
-mDispatchedAtLeastOnce
+mIsBeingDispatched
 ;
 }
 void
