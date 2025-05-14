@@ -2840,9 +2840,6 @@ suffix_cursor
 .
 node
 )
-        
-return
-None
 def
 _duplicate_fork_nodes
 (
