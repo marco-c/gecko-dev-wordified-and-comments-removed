@@ -2737,7 +2737,7 @@ fail_msg
 ]
 =
 "
-succeeded
+failed
 \
 n
 "
