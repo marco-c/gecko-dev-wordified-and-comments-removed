@@ -471,6 +471,13 @@ t
 =
 >
 {
+const
+soft_nav_promise
+=
+waitOnSoftNav
+(
+)
+;
 if
 (
 test_driver
@@ -485,9 +492,7 @@ link
 ;
 }
 await
-waitOnSoftNav
-(
-)
+soft_nav_promise
 ;
 assert_equals
 (
