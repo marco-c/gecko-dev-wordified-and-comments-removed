@@ -446,7 +446,7 @@ MAX_BUFFER_SIZE_U32
 )
 max_non_sampler_bindings
 :
-10_000
+500_000
 .
 .
 limits
