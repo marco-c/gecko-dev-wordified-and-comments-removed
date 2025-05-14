@@ -176,6 +176,13 @@ Bug
 ]
 [
 "
+test_tabgroups_restore
+.
+py
+"
+]
+[
+"
 test_taskbartab_restore
 .
 py
