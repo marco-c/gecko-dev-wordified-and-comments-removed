@@ -2781,6 +2781,12 @@ tuning
 =
 =
 AOM_TUNE_IQ
+|
+|
+tuning
+=
+=
+AOM_TUNE_SSIMULACRA2
 )
 {
 const

@@ -112,12 +112,14 @@ double
 best_erroradvantage
 int
 params_cost
+double
+gm_erroradv_tr
 )
 {
 return
 best_erroradvantage
 <
-erroradv_tr
+gm_erroradv_tr
 &
 &
 best_erroradvantage
@@ -2209,6 +2211,8 @@ uint8_t
 segment_map
 int
 segment_map_stride
+double
+gm_erroradv_tr
 )
 {
 static
@@ -2306,7 +2310,7 @@ lrint
 (
 ref_frame_error
 *
-erroradv_tr
+gm_erroradv_tr
 )
 ;
 return

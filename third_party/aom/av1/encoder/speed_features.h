@@ -1286,6 +1286,9 @@ weight_calc_level_in_tf
 int
 allow_sub_blk_me_in_tf
 ;
+int
+disable_ref_frame_mvs
+;
 }
 HIGH_LEVEL_SPEED_FEATURES
 ;
@@ -1372,6 +1375,9 @@ downsample_level
 ;
 int
 num_refinement_steps
+;
+int
+gm_erroradv_tr_level
 ;
 }
 GLOBAL_MOTION_SPEED_FEATURES
@@ -1951,6 +1957,12 @@ lpf_pick
 int
 use_coarse_filter_level_search
 ;
+int
+adaptive_luma_loop_filter_skip
+;
+int
+skip_loop_filter_using_filt_error
+;
 CDEF_PICK_METHOD
 cdef_pick_method
 ;
@@ -2243,6 +2255,9 @@ skip_encoding_non_reference_slide_change
 ;
 int
 rc_faster_convergence_static
+;
+int
+skip_newmv_mode_sad_screen
 ;
 }
 REAL_TIME_SPEED_FEATURES

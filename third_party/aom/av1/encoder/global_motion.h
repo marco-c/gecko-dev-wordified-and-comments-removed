@@ -155,10 +155,18 @@ static
 const
 double
 erroradv_tr
+[
+2
+]
 =
+{
 0
 .
 65
+0
+.
+2
+}
 ;
 static
 const
@@ -183,6 +191,8 @@ double
 best_erroradvantage
 int
 params_cost
+double
+gm_erroradv_tr
 )
 ;
 void
@@ -270,6 +280,8 @@ uint8_t
 segment_map
 int
 segment_map_stride
+double
+gm_erroradv_tr
 )
 ;
 #
