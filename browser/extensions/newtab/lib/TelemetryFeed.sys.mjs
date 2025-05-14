@@ -1533,6 +1533,7 @@ PREF_FOLLOWED_SECTIONS
 if
 (
 followedString
+?
 .
 length
 )
