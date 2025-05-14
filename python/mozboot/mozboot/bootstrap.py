@@ -5386,25 +5386,11 @@ performance
             
 )
     
-if
-git_version
->
-=
-Version
-(
-"
-2
-.
-17
-"
-)
-:
-        
 subprocess
 .
 check_call
 (
-            
+        
 [
 git_str
 "
@@ -5425,7 +5411,7 @@ str
 (
 top_src_dir
 )
-        
+    
 )
     
 cinnabar_dir
