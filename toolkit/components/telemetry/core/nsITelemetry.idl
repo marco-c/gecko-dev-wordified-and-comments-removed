@@ -338,14 +338,6 @@ areUntrustedModuleLoadEventsReady
 [
 implicit_jscontext
 ]
-Promise
-getLoadedModules
-(
-)
-;
-[
-implicit_jscontext
-]
 readonly
 attribute
 jsval

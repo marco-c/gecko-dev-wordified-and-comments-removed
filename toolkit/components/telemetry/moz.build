@@ -730,15 +730,6 @@ mjs
 "
 pings
 /
-ModulesPing
-.
-sys
-.
-mjs
-"
-"
-pings
-/
 TelemetrySession
 .
 sys
