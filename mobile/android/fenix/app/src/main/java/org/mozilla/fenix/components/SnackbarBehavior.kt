@@ -359,6 +359,14 @@ id
 .
 toolbar
 )
+add
+(
+R
+.
+id
+.
+composable_toolbar
+)
 }
 }
 private

@@ -866,6 +866,13 @@ vertical
 dp
 )
 .
+height
+(
+40
+.
+dp
+)
+.
 background
 (
 color
@@ -945,6 +952,11 @@ textGravity
 pageOrigin
 .
 textGravity
+contextualMenuOptions
+=
+pageOrigin
+.
+contextualMenuOptions
 onClick
 =
 pageOrigin

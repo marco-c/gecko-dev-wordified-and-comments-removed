@@ -272,6 +272,16 @@ ktx
 "
 )
 implementation
+project
+(
+"
+:
+support
+-
+utils
+"
+)
+implementation
 libs
 .
 accompanist

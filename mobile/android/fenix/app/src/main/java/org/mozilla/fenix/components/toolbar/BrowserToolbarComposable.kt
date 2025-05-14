@@ -1200,6 +1200,13 @@ browserStore
 tabsUseCases
 =
 tabsUseCases
+clipboard
+=
+context
+.
+components
+.
+clipboardHandler
 settings
 =
 settings
@@ -1239,6 +1246,13 @@ browsingModeManager
 thumbnailsFeature
 =
 thumbnailsFeature
+useCases
+=
+context
+.
+components
+.
+useCases
 )
 )
 }
