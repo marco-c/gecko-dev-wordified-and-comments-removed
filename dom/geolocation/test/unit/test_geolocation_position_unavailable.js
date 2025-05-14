@@ -73,6 +73,10 @@ nsIXULRuntime
 PROCESS_TYPE_DEFAULT
 )
 {
+do_get_profile
+(
+)
+;
 Services
 .
 prefs
