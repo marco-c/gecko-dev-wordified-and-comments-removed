@@ -762,6 +762,9 @@ fence
 uint32_t
 uid
 ;
+uint32_t
+pid
+;
 FileDescriptor
 [
 ]
