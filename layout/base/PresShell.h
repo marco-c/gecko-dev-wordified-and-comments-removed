@@ -5627,9 +5627,9 @@ aWeakFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent
-nsIContent
+Element
 *
-aPointerCapturingContent
+aPointerCapturingElement
 bool
 aDontRetargetEvents
 EventTargetData
@@ -5840,9 +5840,12 @@ aWeakFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent
-nsIContent
+dom
+:
+:
+Element
 *
-aPointerCapturingContent
+aPointerCapturingElement
 nsEventStatus
 *
 aEventStatus
@@ -6148,6 +6151,9 @@ aGUIEvent
 nsIFrame
 *
 aFrameForPresShell
+nsIContent
+*
+aPointerCapturingContent
 )
 ;
 MOZ_CAN_RUN_SCRIPT

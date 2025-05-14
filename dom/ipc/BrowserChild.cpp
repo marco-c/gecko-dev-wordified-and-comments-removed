@@ -6874,6 +6874,13 @@ aModifiers
 break
 ;
 }
+PointerEventHandler
+:
+:
+ReleasePointerCapturingElementAtLastPointerUp
+(
+)
+;
 return
 IPC_OK
 (
