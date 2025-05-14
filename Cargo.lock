@@ -11149,6 +11149,9 @@ log
 mozbuild
 "
 "
+nserror
+"
+"
 nsstring
 "
 "
@@ -11178,6 +11181,9 @@ time
 "
 "
 uuid
+"
+"
+wr_malloc_size_of
 "
 "
 xpcom

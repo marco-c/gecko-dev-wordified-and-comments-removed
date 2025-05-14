@@ -155,6 +155,11 @@ nsString
 .
 h
 "
+"
+nsIMemoryReporter
+.
+h
+"
 ]
 [
 export
