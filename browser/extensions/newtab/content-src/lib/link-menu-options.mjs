@@ -3418,8 +3418,6 @@ newtab
 menu
 -
 report
--
-content
 "
 action
 :
