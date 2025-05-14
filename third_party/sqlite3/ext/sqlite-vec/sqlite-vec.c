@@ -239,6 +239,9 @@ __COSMOPOLITAN__
 #
 ifndef
 __wasi__
+#
+ifndef
+__sun__
 typedef
 u_int8_t
 uint8_t
@@ -251,6 +254,8 @@ typedef
 u_int64_t
 uint64_t
 ;
+#
+endif
 #
 endif
 #
