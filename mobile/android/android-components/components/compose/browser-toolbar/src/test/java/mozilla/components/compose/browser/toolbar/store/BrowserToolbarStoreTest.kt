@@ -1364,13 +1364,6 @@ Random
 nextInt
 (
 )
-tint
-=
-Random
-.
-nextInt
-(
-)
 onClick
 =
 object

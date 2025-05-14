@@ -274,6 +274,12 @@ ktx
 implementation
 libs
 .
+accompanist
+.
+drawablepainter
+implementation
+libs
+.
 androidx
 .
 compose

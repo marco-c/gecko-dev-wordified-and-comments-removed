@@ -153,14 +153,6 @@ compose
 .
 runtime
 .
-key
-import
-androidx
-.
-compose
-.
-runtime
-.
 remember
 import
 androidx
@@ -898,6 +890,8 @@ else
 url
 }
 }
+/
+/
 val
 longClickMenu
 =
@@ -1066,7 +1060,7 @@ onClick
 setLongClickHandling
 (
 onLongClick
-longClickMenu
+null
 onInteraction
 )
 }
@@ -1131,7 +1125,7 @@ container
 setLongClickHandling
 (
 onLongClick
-longClickMenu
+null
 onInteraction
 )
 }

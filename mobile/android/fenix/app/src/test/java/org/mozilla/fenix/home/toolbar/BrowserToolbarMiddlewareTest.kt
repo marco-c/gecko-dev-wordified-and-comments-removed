@@ -2960,13 +2960,6 @@ R
 string
 .
 content_description_menu
-tint
-=
-R
-.
-attr
-.
-actionPrimary
 onClick
 =
 MenuClicked
