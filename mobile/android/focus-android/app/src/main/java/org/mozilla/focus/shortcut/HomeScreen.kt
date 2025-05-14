@@ -412,13 +412,8 @@ isEmpty
 title
 .
 trim
-{
-it
-<
-=
-'
-'
-}
+(
+)
 )
 )
 {

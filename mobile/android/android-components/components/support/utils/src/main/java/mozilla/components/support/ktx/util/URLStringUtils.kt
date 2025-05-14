@@ -1396,13 +1396,8 @@ trimmedUrl
 url
 .
 trim
-{
-it
-<
-=
-'
-'
-}
+(
+)
 if
 (
 !

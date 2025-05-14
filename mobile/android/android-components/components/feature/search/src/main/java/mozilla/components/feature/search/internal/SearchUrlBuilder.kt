@@ -695,13 +695,8 @@ trimmedInput
 input
 .
 trim
-{
-it
-<
-=
-'
-'
-}
+(
+)
 var
 uri
 =

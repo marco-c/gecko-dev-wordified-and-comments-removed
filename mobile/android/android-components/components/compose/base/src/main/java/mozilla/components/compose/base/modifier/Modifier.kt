@@ -115,6 +115,14 @@ compose
 .
 runtime
 .
+mutableLongStateOf
+import
+androidx
+.
+compose
+.
+runtime
+.
 mutableStateOf
 import
 androidx
@@ -583,7 +591,7 @@ Long
 by
 remember
 {
-mutableStateOf
+mutableLongStateOf
 (
 0
 )
