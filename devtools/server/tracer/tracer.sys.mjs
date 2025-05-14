@@ -6499,7 +6499,10 @@ anonymous
 ;
 }
 return
+primitiveToString
+(
 obj
+)
 ;
 }
 function
@@ -6666,7 +6669,10 @@ convertion
 to
 string
 return
+String
+(
 value
+)
 ;
 }
 /
@@ -7633,5 +7639,6 @@ addTracingListener
 removeTracingListener
 NEXT_INTERACTION_MESSAGE
 DOM_MUTATIONS
+objectToString
 }
 ;
