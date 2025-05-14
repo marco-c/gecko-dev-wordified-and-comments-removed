@@ -122,6 +122,9 @@ enum
 :
 [
 "
+unspecified
+"
+"
 no_restriction
 "
 "
@@ -2700,7 +2703,7 @@ default
 "
 :
 "
-no_restriction
+unspecified
 "
 }
 "

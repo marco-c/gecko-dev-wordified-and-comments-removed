@@ -54,7 +54,7 @@ nsICookie
 .
 SAMESITE_UNSET
 "
-no_restriction
+unspecified
 "
 ]
 ]
@@ -2883,6 +2883,8 @@ v
 sameSite
 =
 k
+;
+break
 ;
 }
 }
