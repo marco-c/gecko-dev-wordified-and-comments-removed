@@ -660,6 +660,7 @@ return
 true
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnLinkClick
 (
@@ -685,6 +686,14 @@ nsIInputStream
 aHeadersDataStream
 bool
 aIsUserTriggered
+mozilla
+:
+:
+dom
+:
+:
+UserNavigationInvolvement
+aUserInvolvement
 nsIPrincipal
 *
 aTriggeringPrincipal
