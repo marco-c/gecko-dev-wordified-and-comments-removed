@@ -639,6 +639,16 @@ inputTemplate
 return
 html
 <
+div
+class
+=
+"
+select
+-
+wrapper
+"
+>
+<
 select
 id
 =
@@ -743,6 +753,10 @@ option
 <
 /
 select
+>
+<
+/
+div
 >
 <
 slot
