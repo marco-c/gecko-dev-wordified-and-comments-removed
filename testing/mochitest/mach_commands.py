@@ -1587,6 +1587,23 @@ app
             
 break
     
+if
+kwargs
+.
+get
+(
+"
+android
+"
+)
+:
+        
+buildapp
+=
+"
+android
+"
+    
 flavors
 =
 None
