@@ -1120,7 +1120,7 @@ dispatch
 (
 CfrToolsAction
 .
-HomepageSyncCfrUpdated
+HomepageSyncCfrLoaded
 (
 true
 )
@@ -1187,7 +1187,7 @@ dispatch
 (
 CfrToolsAction
 .
-HomepageSyncCfrUpdated
+HomepageSyncCfrLoaded
 (
 false
 )
@@ -1255,7 +1255,7 @@ dispatch
 (
 CfrToolsAction
 .
-HomepageSearchbarCfrUpdated
+HomepageSearchbarCfrLoaded
 (
 true
 )
@@ -1322,7 +1322,7 @@ dispatch
 (
 CfrToolsAction
 .
-HomepageSearchbarCfrUpdated
+HomepageSearchbarCfrLoaded
 (
 false
 )
@@ -1392,7 +1392,7 @@ dispatch
 (
 CfrToolsAction
 .
-TabAutoCloseBannerCfrUpdated
+TabAutoCloseBannerCfrLoaded
 (
 true
 )
@@ -1461,7 +1461,7 @@ dispatch
 (
 CfrToolsAction
 .
-TabAutoCloseBannerCfrUpdated
+TabAutoCloseBannerCfrLoaded
 (
 false
 )
@@ -1529,7 +1529,7 @@ dispatch
 (
 CfrToolsAction
 .
-InactiveTabsCfrUpdated
+InactiveTabsCfrLoaded
 (
 true
 )
@@ -1596,7 +1596,7 @@ dispatch
 (
 CfrToolsAction
 .
-InactiveTabsCfrUpdated
+InactiveTabsCfrLoaded
 (
 false
 )
@@ -1665,7 +1665,7 @@ dispatch
 (
 CfrToolsAction
 .
-OpenInAppCfrUpdated
+OpenInAppCfrLoaded
 (
 true
 )
@@ -1733,7 +1733,7 @@ dispatch
 (
 CfrToolsAction
 .
-OpenInAppCfrUpdated
+OpenInAppCfrLoaded
 (
 false
 )
@@ -1800,7 +1800,7 @@ dispatch
 (
 CfrToolsAction
 .
-PwaCfrUpdated
+PwaCfrLoaded
 (
 true
 )
@@ -1866,7 +1866,7 @@ dispatch
 (
 CfrToolsAction
 .
-PwaCfrUpdated
+PwaCfrLoaded
 (
 false
 )

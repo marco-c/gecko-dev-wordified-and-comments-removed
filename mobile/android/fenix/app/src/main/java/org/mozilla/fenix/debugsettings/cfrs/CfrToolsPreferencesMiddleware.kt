@@ -492,7 +492,7 @@ resetLastCfrTimestamp
 is
 CfrToolsAction
 .
-CfrPreferenceUpdate
+LoadCfrPreference
 -
 >
 {
@@ -535,7 +535,7 @@ HomepageSync
 >
 CfrToolsAction
 .
-HomepageSyncCfrUpdated
+HomepageSyncCfrLoaded
 (
 newValue
 =
@@ -553,7 +553,7 @@ HomepageSearchBar
 >
 CfrToolsAction
 .
-HomepageSearchbarCfrUpdated
+HomepageSearchbarCfrLoaded
 (
 newValue
 =
@@ -571,7 +571,7 @@ TabAutoCloseBanner
 >
 CfrToolsAction
 .
-TabAutoCloseBannerCfrUpdated
+TabAutoCloseBannerCfrLoaded
 (
 newValue
 =
@@ -589,7 +589,7 @@ InactiveTabs
 >
 CfrToolsAction
 .
-InactiveTabsCfrUpdated
+InactiveTabsCfrLoaded
 (
 newValue
 =
@@ -607,7 +607,7 @@ OpenInApp
 >
 CfrToolsAction
 .
-OpenInAppCfrUpdated
+OpenInAppCfrLoaded
 (
 newValue
 =

@@ -520,7 +520,7 @@ it
 as
 CfrToolsAction
 .
-HomepageSyncCfrUpdated
+HomepageSyncCfrLoaded
 val
 actualValue
 =
@@ -556,7 +556,7 @@ it
 as
 CfrToolsAction
 .
-HomepageSearchbarCfrUpdated
+HomepageSearchbarCfrLoaded
 val
 actualValue
 =
@@ -592,7 +592,7 @@ it
 as
 CfrToolsAction
 .
-TabAutoCloseBannerCfrUpdated
+TabAutoCloseBannerCfrLoaded
 val
 actualValue
 =
@@ -628,7 +628,7 @@ it
 as
 CfrToolsAction
 .
-InactiveTabsCfrUpdated
+InactiveTabsCfrLoaded
 val
 actualValue
 =
@@ -664,7 +664,7 @@ it
 as
 CfrToolsAction
 .
-OpenInAppCfrUpdated
+OpenInAppCfrLoaded
 val
 actualValue
 =
