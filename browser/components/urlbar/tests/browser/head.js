@@ -56,7 +56,7 @@ sys
 .
 mjs
 "
-ExperimentFakes
+NimbusTestUtils
 :
 "
 resource
