@@ -377,6 +377,16 @@ config
 subcategory
 )
 }
+?
+disabled
+=
+{
+this
+.
+setting
+.
+locked
+}
 change
 =
 {
