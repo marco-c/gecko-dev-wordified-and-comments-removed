@@ -158,9 +158,7 @@ expectedInputLanguages
 return
 (
 await
-LanguageDetector
-.
-create
+createLanguageDetector
 (
 {
 expectedInputLanguages
@@ -281,6 +279,7 @@ assert_valid_expected_input_languages
 (
 languageSubtag
 )
+;
 for
 (
 const
@@ -294,6 +293,7 @@ assert_valid_expected_input_languages
 (
 variation
 )
+;
 }
 const
 expectedInputLanguages
@@ -385,9 +385,7 @@ invalid_language_tags
 assert_rejects_invalid_expected_input_languages
 (
 t
-LanguageDetector
-.
-create
+createLanguageDetector
 [
 languageTag
 ]
@@ -397,9 +395,7 @@ languageTag
 assert_rejects_invalid_expected_input_languages
 (
 t
-LanguageDetector
-.
-create
+createLanguageDetector
 invalid_language_tags
 )
 ;

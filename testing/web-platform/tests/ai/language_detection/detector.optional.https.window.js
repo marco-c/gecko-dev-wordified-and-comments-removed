@@ -225,9 +225,7 @@ const
 detector
 =
 await
-LanguageDetector
-.
-create
+createLanguageDetector
 (
 {
 expectedInputLanguages
@@ -297,9 +295,7 @@ const
 detector
 =
 await
-LanguageDetector
-.
-create
+createLanguageDetector
 (
 {
 expectedInputLanguages
