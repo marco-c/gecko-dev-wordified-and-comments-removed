@@ -2722,9 +2722,7 @@ name
 )
 )
 {
-this
-.
-logger
+console
 .
 error
 (

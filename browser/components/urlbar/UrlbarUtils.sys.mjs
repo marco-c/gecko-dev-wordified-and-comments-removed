@@ -4436,10 +4436,6 @@ engine
 getSubmission
 (
 query
-null
-"
-keyword
-"
 )
 ;
 return
@@ -21072,13 +21068,6 @@ changed
 "
 :
 {
-await
-this
-.
-l10n
-.
-ready
-;
 this
 .
 clear

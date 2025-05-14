@@ -1641,11 +1641,6 @@ changed
 "
 )
 ;
-await
-l10n
-.
-ready
-;
 Assert
 .
 equal
