@@ -1386,9 +1386,7 @@ UiSelector
 textContains
 (
 "
-Agree
-and
-continue
+Continue
 "
 )
 )

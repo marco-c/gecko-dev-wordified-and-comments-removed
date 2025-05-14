@@ -1085,7 +1085,7 @@ R
 .
 string
 .
-onboarding_first_screen_button_agree_and_continue
+onboarding_first_screen_button_agree_and_continue_2
 )
 )
 color
