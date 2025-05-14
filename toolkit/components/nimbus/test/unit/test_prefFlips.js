@@ -12726,10 +12726,6 @@ two
 "
 )
 ;
-cleanupExperiment
-(
-)
-;
 Services
 .
 prefs
@@ -12754,6 +12750,10 @@ pref
 .
 two
 "
+)
+;
+cleanupExperiment
+(
 )
 ;
 cleanup
