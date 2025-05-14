@@ -634,7 +634,7 @@ mozilla
 :
 Relaxed
 >
-sweptChunksAvailable
+hasMinorSweepDataToMerge
 ;
 MainThreadData
 <
