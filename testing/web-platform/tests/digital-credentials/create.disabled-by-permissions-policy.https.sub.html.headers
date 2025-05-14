@@ -6,17 +6,7 @@ digital
 -
 credentials
 -
-get
-=
-(
-self
-)
-digital
--
-credentials
--
 create
 =
 (
-self
 )
