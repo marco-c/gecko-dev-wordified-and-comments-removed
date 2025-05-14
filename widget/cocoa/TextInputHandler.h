@@ -2880,6 +2880,11 @@ mCandidatedTextSubstitutionResult
 bool
 mProcessTextSubstitution
 ;
+bool
+mBlockDismissTextSubstitutionPanel
+=
+false
+;
 IMEInputHandler
 (
 nsCocoaWindow
