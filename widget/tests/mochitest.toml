@@ -320,6 +320,16 @@ file_test_clipboard_pngPreservesTransparency
 .
 js
 "
+scheme
+=
+"
+https
+"
+#
+ImageDecoder
+requires
+secure
+context
 [
 "
 test_contextmenu_by_mouse_on_unix
