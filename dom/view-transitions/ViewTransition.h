@@ -439,13 +439,15 @@ GetGroupKeyframes
 nsAtom
 *
 aAnimationName
+const
+StyleComputedTimingFunction
+&
 nsTArray
 <
 Keyframe
 >
 &
 )
-const
 ;
 nsIGlobalObject
 *

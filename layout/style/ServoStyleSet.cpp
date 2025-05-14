@@ -5404,6 +5404,7 @@ vt
 GetGroupKeyframes
 (
 aName
+aTimingFunction
 aKeyframes
 )
 )
