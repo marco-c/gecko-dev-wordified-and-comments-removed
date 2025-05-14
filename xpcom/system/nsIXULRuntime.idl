@@ -620,6 +620,8 @@ DisabledByEnvVar
 MOZ_ENABLE_WIN32K
 is
 set
+/
+/
 DisabledBySafeMode
 =
 8
