@@ -689,9 +689,7 @@ block
 :
 shell
 cd
-mozilla
--
-unified
+firefox
 git
 pull
 .
