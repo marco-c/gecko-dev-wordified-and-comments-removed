@@ -725,3 +725,16 @@ formed
 unicode
 -
 strings
+#
+Atomics
+.
+waitAsync
+-
+-
+set
+-
+pref
+=
+atomics_wait_async
+=
+true
