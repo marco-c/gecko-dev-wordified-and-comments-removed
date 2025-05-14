@@ -3196,6 +3196,7 @@ attrs
 aSameSite
 aSchemeMap
 aIsPartitioned
+true
 nullptr
 [
 ]
@@ -3262,6 +3263,8 @@ schemeType
 aSchemeMap
 bool
 aIsPartitioned
+bool
+aFromHttp
 const
 nsID
 *
@@ -3447,7 +3450,7 @@ aCookieURI
 VoidCString
 (
 )
-true
+aFromHttp
 !
 aOriginAttributes
 -
@@ -3487,6 +3490,8 @@ const
 nsACString
 &
 aPath
+bool
+aFromHttp
 const
 nsID
 *
@@ -3582,6 +3587,7 @@ PromiseFlatCString
 (
 aPath
 )
+aFromHttp
 aOperationID
 )
 ;
@@ -3658,6 +3664,7 @@ aName
 aPath
 &
 attrs
+true
 nullptr
 )
 ;
@@ -3686,6 +3693,8 @@ aPath
 OriginAttributes
 *
 aOriginAttributes
+bool
+aFromHttp
 const
 nsID
 *
@@ -3715,6 +3724,7 @@ aHost
 aOriginAttributes
 aName
 aPath
+aFromHttp
 aOperationID
 )
 ;
@@ -6458,6 +6468,7 @@ cookie
 Path
 (
 )
+true
 nullptr
 )
 )

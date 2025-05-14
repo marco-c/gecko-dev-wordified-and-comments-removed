@@ -6929,6 +6929,7 @@ nsICookie
 :
 SCHEME_HTTPS
 false
+true
 nullptr
 [
 ]
@@ -6998,6 +6999,7 @@ nsICookie
 :
 SCHEME_HTTPS
 false
+true
 nullptr
 [
 ]
@@ -7061,6 +7063,7 @@ nsICookie
 :
 SCHEME_HTTPS
 false
+true
 nullptr
 [
 ]

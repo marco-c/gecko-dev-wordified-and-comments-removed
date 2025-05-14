@@ -2131,6 +2131,7 @@ nsICookie
 :
 SCHEME_HTTPS
 aPartitioned
+false
 &
 aOperationID
 [
@@ -2644,6 +2645,7 @@ Path
 )
 &
 attrs
+false
 &
 aOperationID
 )
