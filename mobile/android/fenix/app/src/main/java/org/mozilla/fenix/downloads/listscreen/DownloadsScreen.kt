@@ -1502,6 +1502,15 @@ snackbarHost
 SnackbarHost
 (
 snackbarHostState
+=
+snackbarHostState
+modifier
+=
+Modifier
+.
+imePadding
+(
+)
 )
 }
 )
@@ -2112,6 +2121,10 @@ padding
 (
 paddingValues
 )
+.
+imePadding
+(
+)
 horizontalAlignment
 =
 Alignment
@@ -2207,10 +2220,6 @@ modifier
 Modifier
 .
 fillMaxSize
-(
-)
-.
-imePadding
 (
 )
 )
