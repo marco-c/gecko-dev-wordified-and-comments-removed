@@ -58752,6 +58752,14 @@ aBuilder
 IsInsidePointerEventsNoneDoc
 (
 )
+|
+|
+aBuilder
+-
+>
+IsInViewTransitionCapture
+(
+)
 )
 {
 return
