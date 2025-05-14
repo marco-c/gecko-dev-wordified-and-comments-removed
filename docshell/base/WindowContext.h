@@ -1075,6 +1075,11 @@ ConsumeHistoryActivation
 (
 )
 ;
+void
+UpdateLastHistoryActivation
+(
+)
+;
 bool
 GetTransientUserGestureActivationModifiers
 (
@@ -1830,7 +1835,7 @@ mCanExecuteScripts
 true
 ;
 TimeStamp
-mUserGestureStart
+mLastActivationTimestamp
 ;
 TimeStamp
 mHistoryActivation
