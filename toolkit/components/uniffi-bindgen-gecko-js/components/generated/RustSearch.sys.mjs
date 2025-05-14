@@ -3417,7 +3417,7 @@ e
 g
 .
 {
-searchTerm
+searchTerms
 }
 for
 when
@@ -3554,7 +3554,7 @@ be
 skipped
 if
 {
-searchTerm
+searchTerms
 }
 *
 is
@@ -7602,7 +7602,7 @@ e
 g
 .
 {
-searchTerm
+searchTerms
 }
 for
 when
@@ -7736,7 +7736,7 @@ be
 skipped
 if
 {
-searchTerm
+searchTerms
 }
 *
 is
