@@ -1685,6 +1685,11 @@ optedIn
 this
 .
 cfrFeatures
+&
+&
+this
+.
+autoOpenEnabled
 )
 {
 let
