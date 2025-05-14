@@ -483,6 +483,13 @@ SortMenu
 )
 data
 object
+CustomSortClicked
+:
+SortMenu
+(
+)
+data
+object
 NewestClicked
 :
 SortMenu
