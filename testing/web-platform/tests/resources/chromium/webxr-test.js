@@ -3885,6 +3885,9 @@ vrMojom
 XREye
 .
 kLeft
+geometry
+:
+{
 fieldOfView
 :
 {
@@ -3939,6 +3942,7 @@ orientation
 }
 )
 )
+}
 viewport
 :
 {
@@ -3964,6 +3968,9 @@ vrMojom
 XREye
 .
 kRight
+geometry
+:
+{
 fieldOfView
 :
 {
@@ -4017,6 +4024,7 @@ orientation
 }
 )
 )
+}
 viewport
 :
 {
@@ -4284,6 +4292,9 @@ return
 eye
 :
 viewEye
+geometry
+:
+{
 fieldOfView
 :
 fov
@@ -4300,6 +4311,7 @@ fakeXRViewInit
 viewOffset
 )
 )
+}
 viewport
 :
 {
@@ -4652,6 +4664,8 @@ primaryViews_
 i
 ]
 .
+geometry
+.
 mojoFromView
 =
 this
@@ -4711,6 +4725,8 @@ secondaryViews_
 [
 i
 ]
+.
+geometry
 .
 mojoFromView
 =
