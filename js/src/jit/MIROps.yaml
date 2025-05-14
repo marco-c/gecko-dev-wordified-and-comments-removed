@@ -10491,6 +10491,12 @@ templateObj
 :
 NamedLambdaObject
 *
+initialHeap
+:
+gc
+:
+:
+Heap
 result_type
 :
 Object

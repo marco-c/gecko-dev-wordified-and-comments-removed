@@ -979,6 +979,11 @@ env
 NamedLambdaObject
 *
 templateObj
+gc
+:
+:
+Heap
+initialHeap
 )
 ;
 MInstruction
@@ -994,6 +999,11 @@ env
 CallObject
 *
 templateObj
+gc
+:
+:
+Heap
+initialHeap
 )
 ;
 MInstruction
