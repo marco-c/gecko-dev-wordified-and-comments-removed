@@ -1811,7 +1811,9 @@ param
 {
 String
 }
+[
 word
+]
 Needle
 to
 search
@@ -1825,7 +1827,9 @@ param
 {
 Boolean
 }
+[
 linksOnly
+]
 Only
 consider
 nodes
@@ -1840,7 +1844,9 @@ param
 {
 Boolean
 }
+[
 drawOutline
+]
 Whether
 found
 links
@@ -1853,7 +1859,9 @@ param
 {
 Boolean
 }
+[
 useSubFrames
+]
 Whether
 to
 iterate

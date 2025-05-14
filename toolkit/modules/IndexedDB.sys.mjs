@@ -782,6 +782,7 @@ args
 ;
 }
 }
+export
 class
 Cursor
 {
@@ -1097,6 +1098,7 @@ update
 ]
 )
 ;
+export
 class
 CursorWithValue
 extends
@@ -1287,6 +1289,7 @@ unique
 ]
 )
 ;
+export
 class
 ObjectStore
 extends
@@ -1399,6 +1402,7 @@ deleteIndex
 ]
 )
 ;
+export
 class
 Transaction
 {
@@ -2083,6 +2087,15 @@ constructor
 db
 )
 {
+/
+*
+*
+type
+{
+IDBDatabase
+}
+*
+/
 this
 .
 db
@@ -2112,10 +2125,11 @@ stores
 *
 param
 {
-Array
-<
 string
->
+|
+string
+[
+]
 }
 storeNames
 *

@@ -2758,6 +2758,15 @@ arg
 native
 )
 {
+/
+*
+*
+type
+{
+ParentPort
+}
+*
+/
 let
 port
 =

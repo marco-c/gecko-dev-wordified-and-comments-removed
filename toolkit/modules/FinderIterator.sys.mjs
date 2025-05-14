@@ -510,6 +510,12 @@ iterating
 *
 param
 {
+object
+}
+options
+*
+param
+{
 Number
 }
 [

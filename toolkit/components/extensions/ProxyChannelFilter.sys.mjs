@@ -1804,9 +1804,14 @@ windowId
 ;
 if
 (
+XULElement
+.
+isInstance
+(
 wrapper
 .
 browserElement
+)
 )
 {
 browserData

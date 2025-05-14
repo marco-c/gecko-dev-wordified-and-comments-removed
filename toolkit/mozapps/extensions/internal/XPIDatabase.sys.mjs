@@ -1586,9 +1586,6 @@ freeze
 ]
 )
 ;
-let
-AddonWrapper
-;
 /
 *
 *
@@ -5343,9 +5340,9 @@ wrap
 .
 *
 /
-AddonWrapper
-=
+export
 class
+AddonWrapper
 {
 constructor
 (
@@ -8779,7 +8776,6 @@ url
 ;
 }
 }
-;
 function
 chooseValue
 (
