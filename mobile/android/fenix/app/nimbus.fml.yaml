@@ -2125,7 +2125,9 @@ show
 snackbar
 :
 true
-SetupChecklist
+setup
+-
+checklist
 :
 description
 :
