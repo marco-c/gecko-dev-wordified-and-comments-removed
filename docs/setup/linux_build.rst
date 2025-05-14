@@ -579,11 +579,6 @@ python3
 bootstrap
 .
 py
--
--
-vcs
-=
-git
 Choosing
 a
 build

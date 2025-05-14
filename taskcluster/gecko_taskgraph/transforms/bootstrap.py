@@ -296,6 +296,8 @@ vcs
 =
 git
 -
+cinnabar
+-
 -
 no
 -
