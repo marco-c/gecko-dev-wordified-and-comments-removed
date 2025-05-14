@@ -2206,6 +2206,7 @@ unwrap
 )
 ;
 let
+mut
 test_group_path_components
 =
 test_group_path
@@ -2263,6 +2264,13 @@ config
 let
 file_path
 =
+{
+test_group_path_components
+.
+next_back
+(
+)
+;
 test_group_path_components
 .
 chain
@@ -2283,6 +2291,7 @@ join_with
 to_string
 (
 )
+}
 ;
 seen
 .
