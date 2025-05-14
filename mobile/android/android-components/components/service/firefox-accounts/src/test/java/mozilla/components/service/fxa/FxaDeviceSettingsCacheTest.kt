@@ -142,12 +142,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-lang
-.
-IllegalStateException
 RunWith
 (
 AndroidJUnit4
@@ -205,6 +199,10 @@ e
 IllegalStateException
 )
 {
+/
+/
+Ignore
+exception
 }
 cache
 .

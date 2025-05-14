@@ -271,11 +271,9 @@ Exception
 )
 {
 /
-*
+/
 Do
 nothing
-*
-/
 }
 verify
 (

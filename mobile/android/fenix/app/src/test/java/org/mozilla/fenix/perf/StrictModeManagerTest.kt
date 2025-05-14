@@ -876,11 +876,8 @@ IllegalStateException
 )
 {
 /
-*
-Do
-nothing
-*
 /
+Expected
 }
 verify
 {

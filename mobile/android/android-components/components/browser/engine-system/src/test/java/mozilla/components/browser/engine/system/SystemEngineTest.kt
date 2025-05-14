@@ -302,6 +302,10 @@ e
 UnsupportedOperationException
 )
 {
+/
+/
+Ignore
+exception
 }
 try
 {
@@ -336,6 +340,10 @@ e
 UnsupportedOperationException
 )
 {
+/
+/
+Ignore
+exception
 }
 }
 Test

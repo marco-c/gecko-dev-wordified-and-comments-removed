@@ -2888,6 +2888,9 @@ e
 UnsupportedSettingException
 )
 {
+/
+/
+Expected
 }
 try
 {
@@ -2913,6 +2916,10 @@ e
 UnsupportedSettingException
 )
 {
+/
+/
+Ignore
+exception
 }
 }
 Test

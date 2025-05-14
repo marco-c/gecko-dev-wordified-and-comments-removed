@@ -198,15 +198,6 @@ template
 indent
 =
 disabled
-ktlint_standard_try
--
-catch
--
-finally
--
-spacing
-=
-disabled
 ktlint_standard_function
 -
 naming

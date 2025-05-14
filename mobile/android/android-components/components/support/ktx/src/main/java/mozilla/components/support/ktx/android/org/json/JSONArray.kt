@@ -464,7 +464,7 @@ JSONException
 )
 {
 /
-*
+/
 Do
 nothing
 :
@@ -473,8 +473,6 @@ skip
 bad
 data
 .
-*
-/
 }
 }
 return

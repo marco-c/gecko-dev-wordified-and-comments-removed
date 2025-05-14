@@ -227,12 +227,6 @@ IOException
 import
 java
 .
-lang
-.
-Exception
-import
-java
-.
 net
 .
 SocketTimeoutException
@@ -3567,6 +3561,10 @@ e
 IOException
 )
 {
+/
+/
+Ignore
+exception
 }
 }
 }

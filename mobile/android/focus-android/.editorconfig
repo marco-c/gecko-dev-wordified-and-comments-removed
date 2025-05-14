@@ -154,15 +154,6 @@ block
 comment
 =
 disabled
-ktlint_standard_try
--
-catch
--
-finally
--
-spacing
-=
-disabled
 #
 rules
 that
