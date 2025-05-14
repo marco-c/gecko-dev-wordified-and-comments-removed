@@ -881,6 +881,7 @@ enum
 VerifierType
 {
 PreBarrierVerifier
+PostBarrierVerifier
 }
 ;
 #
