@@ -894,9 +894,6 @@ level
 &
 &
 (
-gSafeMode
-|
-|
 !
 IsWebglOutOfProcessEnabled
 (
