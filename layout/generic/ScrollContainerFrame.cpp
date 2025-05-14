@@ -16953,15 +16953,6 @@ SerializeList
 (
 )
 ;
-DisplayListClipState
-:
-:
-AutoSaveRestore
-clipState
-(
-aBuilder
-)
-;
 nsRect
 backdropRect
 =
