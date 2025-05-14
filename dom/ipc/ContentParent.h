@@ -455,6 +455,9 @@ class
 ParentIdleListener
 ;
 class
+nsIOriginsListLoadCallback
+;
+class
 nsIWidget
 ;
 class
@@ -7075,6 +7078,17 @@ nsIThread
 >
 mClipboardContentAnalysisThread
 ;
+#
+ifdef
+MOZ_WMF_CDM
+RefPtr
+<
+nsIOriginsListLoadCallback
+>
+mOriginsListCallback
+;
+#
+endif
 }
 ;
 class
