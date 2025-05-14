@@ -305,10 +305,6 @@ patch
 input_frame_validation_vp9
 .
 patch
--
-vpx_codec_enc_init_multi_fix__cherry_pick_1c7587
-.
-patch
 update
 -
 actions
