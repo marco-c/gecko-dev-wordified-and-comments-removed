@@ -219,11 +219,11 @@ gleandebugtools
 .
 PING_PREVIEW_URL
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .

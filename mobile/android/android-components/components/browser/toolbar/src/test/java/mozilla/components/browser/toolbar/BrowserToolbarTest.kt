@@ -263,9 +263,9 @@ components
 .
 support
 .
-ktx
+base
 .
-kotlin
+utils
 .
 MAX_URI_LENGTH
 import

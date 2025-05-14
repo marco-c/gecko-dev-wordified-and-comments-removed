@@ -719,11 +719,11 @@ perf
 .
 lazyMonitored
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .

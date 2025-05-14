@@ -99,11 +99,11 @@ kotlin
 .
 urlEncode
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .

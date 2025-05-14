@@ -269,11 +269,11 @@ logins
 .
 mapToSavedLogin
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+support
 .
 utils
 .
