@@ -155,6 +155,9 @@ highlightedDomEvents
 selectedTraceIndex
 :
 null
+selectedTraceLocation
+:
+null
 previews
 :
 null
@@ -421,6 +424,7 @@ SELECT_TRACE
 const
 {
 traceIndex
+location
 }
 =
 action
@@ -473,6 +477,9 @@ state
 selectedTraceIndex
 :
 traceIndex
+selectedTraceLocation
+:
+location
 previews
 :
 generatePreviewsForTrace
@@ -521,6 +528,9 @@ return
 .
 state
 selectedTraceIndex
+:
+null
+selectedTraceLocation
 :
 null
 previews
