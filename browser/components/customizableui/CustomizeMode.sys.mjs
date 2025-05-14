@@ -1613,7 +1613,13 @@ cmd_close
 cmd_closeWindow
 "
 "
+cmd_maximizeWindow
+"
+"
 cmd_minimizeWindow
+"
+"
+cmd_restoreWindow
 "
 "
 cmd_quitApplication
