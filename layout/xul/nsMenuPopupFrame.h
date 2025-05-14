@@ -1694,11 +1694,6 @@ return
 mFlip
 ;
 }
-void
-WidgetPositionOrSizeDidChange
-(
-)
-;
 uint64_t
 GetAPZFocusSequenceNumber
 (

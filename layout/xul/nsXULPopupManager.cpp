@@ -3750,13 +3750,6 @@ view
 return
 ;
 }
-menuPopupFrame
--
->
-WidgetPositionOrSizeDidChange
-(
-)
-;
 LayoutDeviceIntRect
 curDevBounds
 =
@@ -3919,13 +3912,6 @@ menuPopupFrame
 return
 ;
 }
-menuPopupFrame
--
->
-WidgetPositionOrSizeDidChange
-(
-)
-;
 nsView
 *
 view
