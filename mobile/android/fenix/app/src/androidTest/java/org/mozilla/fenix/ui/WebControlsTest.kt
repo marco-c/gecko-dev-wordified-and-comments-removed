@@ -316,9 +316,6 @@ activityTestRule
 =
 HomeActivityTestRule
 (
-isNavigationBarCFREnabled
-=
-false
 shouldUseBottomToolbar
 =
 true
