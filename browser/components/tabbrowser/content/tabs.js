@@ -3691,11 +3691,6 @@ toDrag
 =
 tab
 ;
-dragImageOffset
-=
--
-32
-;
 }
 else
 if
