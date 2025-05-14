@@ -317,6 +317,13 @@ customTabConfig
 initialLoadFlags
 =
 loadUrlFlags
+desktopMode
+=
+store
+.
+state
+.
+desktopMode
 )
 store
 .

@@ -567,6 +567,11 @@ LoadUrlFlags
 none
 (
 )
+desktopMode
+:
+Boolean
+=
+false
 )
 :
 CustomTabSessionState
@@ -596,6 +601,9 @@ private
 webAppManifest
 =
 webAppManifest
+desktopMode
+=
+desktopMode
 )
 config
 =
