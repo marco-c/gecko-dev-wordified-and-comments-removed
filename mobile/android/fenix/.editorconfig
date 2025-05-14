@@ -159,17 +159,6 @@ class
 body
 =
 disabled
-ktlint_standard_no
--
-single
--
-line
--
-block
--
-comment
-=
-disabled
 ktlint_standard_if
 -
 else

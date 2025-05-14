@@ -712,7 +712,7 @@ cache
 )
 {
 /
-*
+/
 Can
 be
 Source
@@ -734,8 +734,6 @@ on
 the
 disk
 .
-*
-/
 val
 icon
 =
@@ -861,7 +859,7 @@ cache
 )
 {
 /
-*
+/
 Can
 be
 Source
@@ -883,8 +881,6 @@ on
 the
 disk
 .
-*
-/
 val
 icon
 =

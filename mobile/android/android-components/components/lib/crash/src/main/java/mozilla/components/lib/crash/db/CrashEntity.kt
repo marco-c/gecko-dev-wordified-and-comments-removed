@@ -225,7 +225,7 @@ class
 CrashEntity
 (
 /
-*
+/
 shared
 fields
 -
@@ -235,8 +235,6 @@ exception
 and
 native
 crashes
-*
-/
 /
 *
 *
@@ -406,13 +404,11 @@ createdAt
 :
 Long
 /
-*
+/
 Uncaught
 exception
 crash
 fields
-*
-/
 /
 *
 *
@@ -489,12 +485,10 @@ throwableData
 ByteArray
 ?
 /
-*
+/
 Native
 crash
 fields
-*
-/
 /
 *
 *

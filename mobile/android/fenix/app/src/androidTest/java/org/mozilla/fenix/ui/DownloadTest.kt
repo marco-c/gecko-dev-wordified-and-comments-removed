@@ -428,7 +428,7 @@ TestSetup
 )
 {
 /
-*
+/
 Remote
 test
 page
@@ -452,8 +452,6 @@ mozilla
 mobile
 /
 testapp
-*
-/
 private
 val
 downloadTestPage

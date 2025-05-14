@@ -7333,7 +7333,7 @@ pref_key_open_links_in_apps_ask
 >
 true
 /
-*
+/
 Some
 applications
 will
@@ -7355,8 +7355,6 @@ it
 s
 custom
 tab
-*
-/
 appContext
 .
 getString

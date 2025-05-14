@@ -321,7 +321,7 @@ Build
 as
 AcBuild
 /
-*
+/
 This
 ID
 is
@@ -340,8 +340,6 @@ ID
 is
 passed
 in
-*
-/
 private
 const
 val
@@ -1187,15 +1185,13 @@ String
 ?
 {
 /
-*
+/
 Not
 sending
 caught
 exceptions
 to
 Socorro
-*
-/
 return
 null
 }

@@ -193,17 +193,6 @@ else
 wrapping
 =
 disabled
-ktlint_standard_no
--
-single
--
-line
--
-block
--
-comment
-=
-disabled
 ktlint_standard_multiline
 -
 if

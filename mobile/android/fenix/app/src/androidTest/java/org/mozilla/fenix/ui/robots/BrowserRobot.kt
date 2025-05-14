@@ -2016,7 +2016,7 @@ waitingTimeLong
 }
 }
 /
-*
+/
 Verifies
 the
 information
@@ -2027,8 +2027,6 @@ about
 :
 cache
 page
-*
-/
 fun
 verifyNetworkCacheIsEmpty
 (

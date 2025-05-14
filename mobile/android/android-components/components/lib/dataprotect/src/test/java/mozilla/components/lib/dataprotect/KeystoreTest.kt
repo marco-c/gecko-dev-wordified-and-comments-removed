@@ -157,7 +157,7 @@ toCharArray
 (
 )
 /
-*
+/
 mock
 keystore
 wrapper
@@ -173,8 +173,6 @@ Anroid
 key
 management
 work
-*
-/
 internal
 class
 MockStoreWrapper

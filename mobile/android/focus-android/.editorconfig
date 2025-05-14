@@ -136,17 +136,6 @@ ktlint_standard_condition
 wrapping
 =
 disabled
-ktlint_standard_no
--
-single
--
-line
--
-block
--
-comment
-=
-disabled
 #
 rules
 that

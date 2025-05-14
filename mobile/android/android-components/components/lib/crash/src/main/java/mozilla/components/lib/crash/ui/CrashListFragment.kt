@@ -363,14 +363,12 @@ SQLiteBlobTooBigException
 )
 {
 /
-*
+/
 recover
 by
 deleting
 all
 entries
-*
-/
 database
 .
 crashDao

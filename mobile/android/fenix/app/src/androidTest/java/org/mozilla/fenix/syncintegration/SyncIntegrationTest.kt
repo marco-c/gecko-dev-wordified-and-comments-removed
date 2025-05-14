@@ -1224,7 +1224,7 @@ TestAssetHelper
 waitingTime
 )
 /
-*
+/
 Wait
 until
 the
@@ -1233,8 +1233,6 @@ shows
 the
 account
 synced
-*
-/
 mDevice
 .
 waitNotNull

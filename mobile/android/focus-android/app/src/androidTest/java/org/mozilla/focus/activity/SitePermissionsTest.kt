@@ -351,7 +351,7 @@ FeatureSettingsHelper
 (
 )
 /
-*
+/
 Test
 page
 created
@@ -365,8 +365,6 @@ test
 -
 eng
 team
-*
-/
 private
 val
 permissionsPage

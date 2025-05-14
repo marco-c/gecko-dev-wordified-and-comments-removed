@@ -225,7 +225,7 @@ string
 pref_key_open_links_in_apps_never
 )
 /
-*
+/
 only
 show
 the
@@ -235,8 +235,6 @@ in
 normal
 browsing
 mode
-*
-/
 radioAlways
 .
 isVisible

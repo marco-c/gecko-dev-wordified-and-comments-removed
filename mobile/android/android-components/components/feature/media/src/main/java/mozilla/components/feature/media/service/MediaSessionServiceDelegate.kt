@@ -866,7 +866,7 @@ onTaskRemoved
 )
 {
 /
-*
+/
 no
 need
 to
@@ -875,8 +875,6 @@ this
 for
 custom
 tabs
-*
-/
 store
 .
 state

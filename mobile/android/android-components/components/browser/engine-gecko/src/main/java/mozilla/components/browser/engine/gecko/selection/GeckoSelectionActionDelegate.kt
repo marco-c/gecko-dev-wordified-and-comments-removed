@@ -383,7 +383,7 @@ MenuItem
 Boolean
 {
 /
-*
+/
 Temporary
 removed
 once
@@ -406,8 +406,6 @@ id
 1694983
 is
 fixed
-*
-/
 try
 {
 val

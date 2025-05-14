@@ -417,12 +417,10 @@ Any
 Boolean
 {
 /
-*
+/
 auto
 -
 generated
-*
-/
 if
 (
 this
@@ -562,12 +560,10 @@ hashCode
 Int
 {
 /
-*
+/
 auto
 -
 generated
-*
-/
 var
 result
 =

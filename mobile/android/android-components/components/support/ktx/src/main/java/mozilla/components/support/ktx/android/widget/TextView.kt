@@ -81,7 +81,7 @@ widget
 .
 TextView
 /
-*
+/
 This
 is
 the
@@ -99,8 +99,6 @@ descender
 height
 in
 Android
-*
-/
 private
 const
 val

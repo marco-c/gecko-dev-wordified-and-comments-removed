@@ -561,7 +561,7 @@ englishSystemLocaleTest
 )
 {
 /
-*
+/
 Go
 to
 Settings
@@ -570,8 +570,6 @@ change
 language
 to
 French
-*
-/
 homeScreen
 {
 }
@@ -605,7 +603,7 @@ exitToTop
 )
 }
 /
-*
+/
 Exit
 to
 main
@@ -617,8 +615,6 @@ is
 localized
 as
 well
-*
-/
 homeScreen
 {
 }
@@ -634,7 +630,7 @@ verifyTranslatedTextExists
 AF_HELP
 )
 /
-*
+/
 change
 back
 to
@@ -645,8 +641,6 @@ the
 locale
 is
 changed
-*
-/
 }
 .
 openSettings
@@ -697,12 +691,10 @@ frenchLocaleTest
 )
 {
 /
-*
+/
 Go
 to
 Settings
-*
-/
 homeScreen
 {
 }
@@ -732,7 +724,7 @@ verifySystemLocaleSelected
 FR_LANGUAGE_SYSTEM_DEFAULT
 )
 /
-*
+/
 change
 locale
 to
@@ -742,8 +734,6 @@ the
 locale
 is
 changed
-*
-/
 selectLanguage
 (
 EN_AFRIKAANS_LOCALE

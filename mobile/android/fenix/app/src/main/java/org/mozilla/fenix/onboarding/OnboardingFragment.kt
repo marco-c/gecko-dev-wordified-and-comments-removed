@@ -870,7 +870,7 @@ isEmpty
 )
 {
 /
-*
+/
 do
 not
 continue
@@ -883,8 +883,6 @@ onboarding
 pages
 to
 display
-*
-/
 onFinish
 (
 null
@@ -1858,7 +1856,7 @@ OnboardingPageUiData
 )
 {
 /
-*
+/
 onboarding
 page
 UI
@@ -1873,8 +1871,6 @@ no
 pages
 to
 display
-*
-/
 if
 (
 onboardingPageUiData
