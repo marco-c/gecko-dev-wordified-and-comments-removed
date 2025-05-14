@@ -203,11 +203,6 @@ mRTL
 false
 ;
 bool
-mNoAutoHide
-=
-false
-;
-bool
 mIsDragPopup
 =
 false

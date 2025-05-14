@@ -1507,14 +1507,6 @@ mPopupHint
 =
 mPopupType
 ;
-widgetData
-.
-mNoAutoHide
-=
-IsNoAutoHide
-(
-)
-;
 if
 (
 !
@@ -1602,9 +1594,9 @@ mPopupLevel
 =
 GetPopupLevel
 (
-widgetData
-.
-mNoAutoHide
+IsNoAutoHide
+(
+)
 )
 ;
 nsCOMPtr

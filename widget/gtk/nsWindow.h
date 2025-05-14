@@ -3260,11 +3260,6 @@ mAlwaysOnTop
 1
 ;
 bool
-mNoAutoHide
-:
-1
-;
-bool
 mIsTransparent
 :
 1
