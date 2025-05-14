@@ -3673,7 +3673,7 @@ small
 value
 :
 "
-24px
+28px
 "
 name
 :
@@ -17202,7 +17202,7 @@ medium
 "
 :
 "
-24px
+28px
 "
 "
 size
