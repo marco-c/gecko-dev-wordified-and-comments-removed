@@ -549,16 +549,6 @@ StyleAppearance
 ;
 virtual
 bool
-ThemeWantsButtonInnerFocusRing
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 ThemeNeedsComboboxDropmarker
 (
 )

@@ -277,16 +277,6 @@ StyleAppearance
 )
 override
 ;
-bool
-ThemeWantsButtonInnerFocusRing
-(
-)
-override
-{
-return
-true
-;
-}
 nsNativeThemeWin
 (
 )
