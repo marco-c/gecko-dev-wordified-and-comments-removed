@@ -320,6 +320,8 @@ linux64
 -
 cbindgen
 -
+base
+-
 linux64
 -
 dump_syms
@@ -541,6 +543,8 @@ linux64
 -
 cbindgen
 -
+base
+-
 linux64
 -
 dump_syms
@@ -752,6 +756,8 @@ base
 linux64
 -
 cbindgen
+-
+base
 -
 linux64
 -
@@ -974,6 +980,8 @@ base
 linux64
 -
 cbindgen
+-
+base
 -
 linux64
 -
