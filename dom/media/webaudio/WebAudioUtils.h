@@ -96,7 +96,7 @@ const
 uint32_t
 MaxSampleRate
 =
-192000
+768000
 ;
 inline
 bool
