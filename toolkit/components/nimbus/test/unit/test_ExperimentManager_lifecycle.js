@@ -642,7 +642,9 @@ updateEnrollment
 const
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (

@@ -40,7 +40,9 @@ test_createTargetingContext
 const
 manager
 =
-ExperimentFakes
+NimbusTestUtils
+.
+stubs
 .
 manager
 (
@@ -58,7 +60,9 @@ createSandbox
 const
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -70,7 +74,9 @@ foo
 const
 rollout
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 rollout
 (

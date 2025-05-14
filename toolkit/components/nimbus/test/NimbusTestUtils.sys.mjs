@@ -2092,7 +2092,7 @@ enrollment
 =
 >
 {
-ExperimentTestUtils
+NimbusTestUtils
 .
 validateEnrollment
 (

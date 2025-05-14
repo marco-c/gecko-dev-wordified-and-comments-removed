@@ -91,7 +91,9 @@ Object
 .
 freeze
 (
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 rollout
 (

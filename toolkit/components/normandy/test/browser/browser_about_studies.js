@@ -57,7 +57,7 @@ mjs
 ;
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -3972,7 +3972,9 @@ test_nimbus_about_studies_experiment
 const
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -4359,7 +4361,9 @@ test_nimbus_about_studies_rollout
 let
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -5294,7 +5298,9 @@ test_inactive_rollouts_under_completed_studies
 const
 experiment
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -5310,7 +5316,9 @@ experiment
 const
 rollout
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (

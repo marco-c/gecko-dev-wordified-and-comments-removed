@@ -227,7 +227,7 @@ const
 cleanupExperiment
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -921,7 +921,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1066,7 +1066,9 @@ FAKE_FEATURE_MANIFEST
 const
 rollout
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 rollout
 (

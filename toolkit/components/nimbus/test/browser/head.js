@@ -58,8 +58,6 @@ mjs
 ;
 const
 {
-ExperimentFakes
-ExperimentTestUtils
 NimbusTestUtils
 }
 =
@@ -174,7 +172,7 @@ enrollment
 =
 >
 {
-ExperimentTestUtils
+NimbusTestUtils
 .
 validateEnrollment
 (

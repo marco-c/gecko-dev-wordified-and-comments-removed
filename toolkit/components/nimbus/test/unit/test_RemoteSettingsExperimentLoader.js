@@ -527,7 +527,9 @@ test_updateRecipes
 const
 passRecipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -541,7 +543,9 @@ bucketConfig
 .
 .
 .
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 .
@@ -561,7 +565,9 @@ true
 const
 failRecipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -826,7 +832,9 @@ ctx
 .
 checkTargeting
 (
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -885,7 +893,9 @@ ctx
 .
 checkTargeting
 (
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -1082,7 +1092,9 @@ manager
 const
 PASS_FILTER_RECIPE
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -1123,7 +1135,9 @@ control
 const
 FAIL_FILTER_RECIPE
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -1223,7 +1237,9 @@ false
 const
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
