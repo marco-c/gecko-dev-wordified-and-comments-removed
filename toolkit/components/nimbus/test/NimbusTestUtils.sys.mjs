@@ -2377,6 +2377,7 @@ of
 features
 )
 {
+delete
 NimbusFeatures
 [
 featureId
