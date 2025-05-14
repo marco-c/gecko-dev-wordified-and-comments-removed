@@ -86,6 +86,9 @@ class
 SyncFutexWaiter
 ;
 class
+AsyncFutexWaiter
+;
+class
 FutexWaiterListNode
 {
 private
