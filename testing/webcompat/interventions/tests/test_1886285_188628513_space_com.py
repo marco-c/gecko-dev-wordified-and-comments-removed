@@ -56,7 +56,7 @@ URL
 wait
 =
 "
-load
+none
 "
 )
     
@@ -110,7 +110,7 @@ URL
 wait
 =
 "
-load
+none
 "
 )
     

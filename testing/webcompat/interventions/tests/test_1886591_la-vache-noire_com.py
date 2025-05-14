@@ -100,6 +100,10 @@ getBoundingClientRect
 ;
         
 return
+Math
+.
+abs
+(
 window
 .
 innerHeight
@@ -107,11 +111,13 @@ innerHeight
 b
 .
 y
-=
-=
+-
 b
 .
 height
+)
+<
+1
 ;
     
 "

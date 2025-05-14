@@ -53,6 +53,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 client
@@ -93,6 +98,11 @@ def
 test_disabled
 (
 client
+wait
+=
+"
+none
+"
 )
 :
     
