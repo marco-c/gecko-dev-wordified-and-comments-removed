@@ -91,10 +91,6 @@ do_test_pending
 (
 )
 ;
-do_get_profile
-(
-)
-;
 httpserver
 =
 new

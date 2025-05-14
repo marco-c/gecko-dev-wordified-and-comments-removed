@@ -182,10 +182,6 @@ if
 runningInParent
 )
 {
-do_get_profile
-(
-)
-;
 Components
 .
 manager
