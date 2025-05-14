@@ -5747,6 +5747,9 @@ MOZ_ICU
 "
 icu
 -
+uc
+icu
+-
 i18n
 >
 =
