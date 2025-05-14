@@ -12685,7 +12685,7 @@ feature
 var
 showSetupChecklist
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 key
 =
@@ -12701,6 +12701,7 @@ pref_key_setup_checklist_complete
 )
 default
 =
+{
 FxNimbus
 .
 features
@@ -12712,5 +12713,9 @@ value
 )
 .
 enabled
+}
+featureFlag
+=
+true
 )
 }
