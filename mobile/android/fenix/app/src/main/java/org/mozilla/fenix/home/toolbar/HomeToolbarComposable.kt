@@ -853,6 +853,9 @@ updateButtonVisibility
 browserState
 :
 BrowserState
+shouldAddNavigationBar
+:
+Boolean
 )
 {
 /

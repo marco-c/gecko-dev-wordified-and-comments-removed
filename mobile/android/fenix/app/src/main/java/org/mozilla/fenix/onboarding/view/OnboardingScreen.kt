@@ -124,6 +124,16 @@ foundation
 .
 layout
 .
+navigationBarsPadding
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 padding
 import
 androidx
@@ -1929,6 +1939,10 @@ layer1
 )
 .
 statusBarsPadding
+(
+)
+.
+navigationBarsPadding
 (
 )
 )
