@@ -693,13 +693,6 @@ layout
 .
 elevation
 =
-if
-(
-shouldShowDropShadow
-(
-)
-)
-{
 resources
 .
 getDimension
@@ -710,13 +703,6 @@ dimen
 .
 browser_fragment_toolbar_elevation
 )
-}
-else
-{
-0
-.
-0f
-}
 toolbar
 .
 apply
