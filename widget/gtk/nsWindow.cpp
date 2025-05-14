@@ -46943,6 +46943,10 @@ WindowType
 :
 :
 Popup
+&
+&
+!
+mPopupTemporaryHidden
 )
 {
 DestroyLayerManager
