@@ -1259,7 +1259,10 @@ type
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 True
@@ -1482,7 +1485,7 @@ offs
 *
 param
 {
-DOMElement
+XULPopupElement
 }
 val
 *
@@ -1693,7 +1696,7 @@ manually
 *
 param
 {
-DOMElement
+HTMLInputElement
 }
 val
 *
@@ -1986,7 +1989,7 @@ button
 *
 param
 {
-DOMElement
+XULElement
 |
 null
 }
@@ -3869,7 +3872,8 @@ aEvent
 .
 altKey
 )
-^
+!
+=
 newTabPref
 &
 &
@@ -6334,8 +6338,6 @@ pick
 param
 {
 nsISearchEngine
-|
-SearchEngine
 }
 engine
 *
@@ -6439,7 +6441,7 @@ ID
 *
 param
 {
-element
+XULElement
 }
 button
 *

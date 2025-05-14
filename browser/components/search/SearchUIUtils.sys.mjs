@@ -1031,7 +1031,10 @@ for
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 Returns
