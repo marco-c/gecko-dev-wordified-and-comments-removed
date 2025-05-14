@@ -78810,7 +78810,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -78849,7 +78849,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
