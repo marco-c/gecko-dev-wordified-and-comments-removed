@@ -334,6 +334,15 @@ UnderlyingProgressValue
 (
 aProgress
 )
+|
+|
+aProgress
+=
+=
+Progress
+:
+:
+ShutdownCompleted
 )
 ;
 mProgress
