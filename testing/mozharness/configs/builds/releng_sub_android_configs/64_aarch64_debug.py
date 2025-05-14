@@ -15,22 +15,20 @@ debug
 "
     
 "
-src_mozconfig
+mozconfig_platform
 "
 :
 "
-mobile
-/
-android
-/
-config
-/
-mozconfigs
-/
 android
 -
 aarch64
-/
+"
+    
+"
+mozconfig_variant
+"
+:
+"
 debug
 "
     

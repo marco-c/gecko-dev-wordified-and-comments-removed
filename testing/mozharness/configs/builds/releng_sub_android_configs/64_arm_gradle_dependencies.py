@@ -17,18 +17,10 @@ dependencies
 "
     
 "
-src_mozconfig
+mozconfig_platform
 "
 :
 "
-mobile
-/
-android
-/
-config
-/
-mozconfigs
-/
 android
 -
 arm
@@ -36,7 +28,13 @@ arm
 gradle
 -
 dependencies
-/
+"
+    
+"
+mozconfig_variant
+"
+:
+"
 nightly
 "
     

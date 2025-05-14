@@ -414,21 +414,13 @@ SHIP_LICENSED_FONTS
 }
     
 "
-src_mozconfig
+app_name
 "
 :
 "
 mobile
 /
 android
-/
-config
-/
-mozconfigs
-/
-android
-/
-nightly
 "
     
 "
