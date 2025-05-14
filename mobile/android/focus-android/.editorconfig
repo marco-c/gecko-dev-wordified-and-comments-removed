@@ -49,11 +49,6 @@ ktlint_standard_class
 signature
 =
 disabled
-ktlint_standard_colon
--
-spacing
-=
-disabled
 ktlint_standard_function
 -
 naming

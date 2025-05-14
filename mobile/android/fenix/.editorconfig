@@ -200,11 +200,6 @@ ktlint_standard_function
 literal
 =
 disabled
-ktlint_standard_colon
--
-spacing
-=
-disabled
 ktlint_standard_try
 -
 catch
