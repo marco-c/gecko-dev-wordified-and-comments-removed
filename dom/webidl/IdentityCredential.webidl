@@ -551,9 +551,6 @@ UTF8String
 >
 provider_urls
 ;
-UTF8String
-accounts_endpoint
-;
 }
 ;
 /
