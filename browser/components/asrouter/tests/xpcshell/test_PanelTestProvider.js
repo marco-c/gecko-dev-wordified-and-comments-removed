@@ -121,6 +121,9 @@ menu_message
 newtab_message
 :
 2
+infobar
+:
+1
 }
 ;
 const
