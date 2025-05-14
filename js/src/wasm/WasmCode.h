@@ -3645,10 +3645,10 @@ lazyExports
 SharedCodeSegmentVector
 lazyFuncSegments
 ;
-TierStats
+CompileAndLinkStats
 tier1Stats
 ;
-TierStats
+CompileAndLinkStats
 tier2Stats
 ;
 }
@@ -3971,7 +3971,7 @@ tier1CodeBlock
 UniqueLinkData
 tier1LinkData
 const
-TierStats
+CompileAndLinkStats
 &
 tier1Stats
 )
@@ -3989,7 +3989,7 @@ tier2CodeBlock
 UniqueLinkData
 tier2LinkData
 const
-TierStats
+CompileAndLinkStats
 &
 tier2Stats
 )
