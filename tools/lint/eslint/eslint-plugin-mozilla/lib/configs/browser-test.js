@@ -72,16 +72,7 @@ false
 add_task
 :
 false
-afterEach
-:
-false
-beforeEach
-:
-false
 content
-:
-false
-describe
 :
 false
 executeSoon
@@ -127,9 +118,6 @@ is
 :
 false
 isnot
-:
-false
-it
 :
 false
 ok
