@@ -1609,8 +1609,6 @@ this
 #
 engine
 .
-wrappedJSObject
-.
 rename
 (
 this
@@ -1708,8 +1706,6 @@ this
 #
 engine
 .
-wrappedJSObject
-.
 changeUrl
 (
 lazy
@@ -1797,8 +1793,6 @@ this
 .
 #
 engine
-.
-wrappedJSObject
 .
 changeUrl
 (

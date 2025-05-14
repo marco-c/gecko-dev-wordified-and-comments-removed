@@ -520,7 +520,7 @@ lazy
 .
 logConsole
 .
-warn
+debug
 (
 "
 loadListener
@@ -3810,7 +3810,9 @@ new
 Error
 (
 "
-Icon
+Rescaled
+icon
+still
 is
 too
 big
