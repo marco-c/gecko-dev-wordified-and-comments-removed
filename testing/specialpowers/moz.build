@@ -147,6 +147,15 @@ mjs
 "
 content
 /
+SpecialPowersProcessActor
+.
+sys
+.
+mjs
+"
+"
+content
+/
 SpecialPowersSandbox
 .
 sys
