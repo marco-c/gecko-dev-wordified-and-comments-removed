@@ -2047,7 +2047,7 @@ false
 var
 privateBrowsingLockedEnabled
 by
-booleanPreference
+lazyFeatureFlagPreference
 (
 appContext
 .
@@ -2059,9 +2059,16 @@ string
 .
 pref_key_private_browsing_locked_enabled
 )
+featureFlag
+=
+FeatureFlags
+.
+privateBrowsingLock
 default
 =
+{
 false
+}
 )
 var
 isPrivateScreenLocked

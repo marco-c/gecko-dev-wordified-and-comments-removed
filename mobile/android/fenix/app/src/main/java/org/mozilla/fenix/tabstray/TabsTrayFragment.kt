@@ -369,6 +369,14 @@ mozilla
 .
 fenix
 .
+FeatureFlags
+import
+org
+.
+mozilla
+.
+fenix
+.
 GleanMetrics
 .
 TabsTray
@@ -1541,6 +1549,11 @@ settings
 canShowCfr
 shouldShowLockPbmBanner
 =
+FeatureFlags
+.
+privateBrowsingLock
+&
+&
 !
 requireContext
 (
