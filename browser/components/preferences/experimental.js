@@ -597,7 +597,7 @@ checked
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -660,7 +660,7 @@ frag
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -697,7 +697,7 @@ _removeLabsRecipes
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -774,7 +774,7 @@ enrolling
 (
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -956,8 +956,6 @@ studiesEnabled
 =
 ExperimentAPI
 .
-_manager
-.
 studiesEnabled
 ;
 if
@@ -1002,7 +1000,7 @@ _removeObservers
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1057,7 +1055,7 @@ enrolled
 await
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .

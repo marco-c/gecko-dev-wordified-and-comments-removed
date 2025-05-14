@@ -1186,8 +1186,6 @@ hidden
 !
 ExperimentAPI
 .
-_manager
-.
 studiesEnabled
 |
 |
