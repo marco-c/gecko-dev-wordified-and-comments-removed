@@ -102,6 +102,11 @@ places_v78
 .
 sqlite
 "
+"
+places_v79
+.
+sqlite
+"
 ]
 [
 "
@@ -176,6 +181,13 @@ js
 [
 "
 test_current_from_v77
+.
+js
+"
+]
+[
+"
+test_current_from_v78
 .
 js
 "
