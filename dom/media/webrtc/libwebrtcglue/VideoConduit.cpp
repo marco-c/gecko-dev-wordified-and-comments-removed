@@ -5067,6 +5067,17 @@ GetRtcpMode
 ;
 newRtp
 .
+extmap_allow_mixed
+=
+rtpRtcpConfig
+-
+>
+GetExtmapAllowMixed
+(
+)
+;
+newRtp
+.
 max_packet_size
 =
 kVideoMtu

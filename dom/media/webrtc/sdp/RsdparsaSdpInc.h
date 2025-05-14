@@ -601,6 +601,9 @@ bundleOnly
 bool
 endOfCandidates
 ;
+bool
+extmapAllowMixed
+;
 }
 ;
 struct

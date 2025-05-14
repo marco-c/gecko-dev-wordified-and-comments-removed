@@ -138,6 +138,7 @@ RtcpMode
 :
 :
 kCompound
+true
 )
 {
 }
@@ -350,7 +351,9 @@ const
 {
 for
 (
+const
 auto
+&
 entry
 :
 mExtmap
