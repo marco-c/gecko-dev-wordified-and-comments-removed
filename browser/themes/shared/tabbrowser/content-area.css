@@ -2425,8 +2425,7 @@ margin
 :
 calc
 (
-100
-%
+100vw
 -
 2
 *
@@ -2454,8 +2453,7 @@ margin
 :
 calc
 (
-100
-%
+100vh
 -
 var
 (
@@ -2550,8 +2548,7 @@ height
 -
 requested
 :
-100
-%
+100vh
 ;
 -
 -
@@ -2563,8 +2560,7 @@ width
 -
 requested
 :
-100
-%
+100vw
 ;
 -
 -
@@ -2578,8 +2574,7 @@ remaining
 :
 calc
 (
-100
-%
+100vh
 -
 var
 (
@@ -2595,13 +2590,11 @@ px
 ;
 width
 :
-100
-%
+100vw
 ;
 height
 :
-100
-%
+100vh
 ;
 margin
 :
