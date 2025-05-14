@@ -188,11 +188,6 @@ trailing
 lambda
 =
 disabled
-ktlint_standard_function
--
-literal
-=
-disabled
 #
 rules
 that

@@ -128,11 +128,6 @@ body
 disabled
 ktlint_standard_function
 -
-literal
-=
-disabled
-ktlint_standard_function
--
 signature
 =
 disabled
