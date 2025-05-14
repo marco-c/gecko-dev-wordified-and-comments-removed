@@ -9883,6 +9883,13 @@ constantVal
 )
 &
 pass
+MacroAssembler
+:
+:
+LhsHighBitsAreClean
+:
+:
+No
 )
 ;
 masm

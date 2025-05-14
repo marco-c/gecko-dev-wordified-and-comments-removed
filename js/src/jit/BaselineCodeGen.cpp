@@ -15244,6 +15244,13 @@ constantVal
 )
 &
 pass
+MacroAssembler
+:
+:
+LhsHighBitsAreClean
+:
+:
+No
 )
 ;
 masm
@@ -15850,6 +15857,13 @@ payloadOrValueReg
 payload
 &
 pass
+MacroAssembler
+:
+:
+LhsHighBitsAreClean
+:
+:
+No
 )
 ;
 masm
