@@ -395,12 +395,6 @@ quarantineIgnoredByUser
 type
 :
 boolean
-send_in_pings
-:
--
-metrics
--
-heartbeat
 theme
 :
 type
