@@ -596,9 +596,12 @@ timeout
 nodiscard
 ]
 ]
-int64_t
+bool
 atomics_notify_impl
 (
+JSContext
+*
+cx
 SharedArrayRawBuffer
 *
 sarb
@@ -606,6 +609,9 @@ size_t
 byteOffset
 int64_t
 count
+int64_t
+*
+woken
 )
 ;
 }
