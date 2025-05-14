@@ -3059,7 +3059,7 @@ type
 string
 scope
 :
-report
+ping
 JSModuleLoadError
 :
 description
@@ -3173,7 +3173,7 @@ type
 string
 scope
 :
-report
+ping
 LastInteractionDuration
 :
 description
