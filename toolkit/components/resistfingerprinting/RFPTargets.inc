@@ -335,6 +335,11 @@ JSLocalePrompt
 )
 ITEM_VALUE
 (
+ScreenAvailToResolution
+68
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
