@@ -251,6 +251,11 @@ this
 )
 ;
 }
+~
+FutexWaiterListHead
+(
+)
+;
 }
 ;
 class
