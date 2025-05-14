@@ -145,9 +145,6 @@ browser
 "
 xpcshell
 "
-"
-mochitest
-"
 )
 :
         
@@ -160,6 +157,43 @@ env
 mach_cmd
             
 desktop_layers
+        
+)
+    
+if
+flavor
+=
+=
+"
+mochitest
+"
+:
+        
+return
+Layers
+(
+            
+env
+            
+mach_cmd
+            
+[
+                
+PingServer
+                
+BinarySetup
+                
+MacosDevice
+                
+Profile
+                
+ProxyRunner
+                
+AndroidDevice
+                
+VersionProducer
+            
+]
         
 )
     
