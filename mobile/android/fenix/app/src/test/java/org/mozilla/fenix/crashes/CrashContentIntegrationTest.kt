@@ -396,9 +396,6 @@ every
 {
 getBottomToolbarHeight
 (
-any
-(
-)
 )
 }
 returns

@@ -340,12 +340,6 @@ HomeActivityIntentTestRule
 isNewBookmarksEnabled
 =
 true
-isNavigationToolbarEnabled
-=
-false
-isNavigationBarCFREnabled
-=
-false
 isMenuRedesignEnabled
 =
 false

@@ -250,12 +250,6 @@ HomeActivityIntentTestRule
 skipOnboarding
 =
 true
-isNavigationToolbarEnabled
-=
-false
-isNavigationBarCFREnabled
-=
-false
 isMenuRedesignEnabled
 =
 false
