@@ -105,9 +105,6 @@ openLocation
 gLastOpenDirectory
 "
 "
-getLoadContext
-"
-"
 readFromClipboard
 "
 "
