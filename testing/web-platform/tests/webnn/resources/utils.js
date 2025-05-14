@@ -106,6 +106,12 @@ float32
 float16
 :
 0
+int8
+:
+0
+int32
+:
+0
 }
 reshape
 :
