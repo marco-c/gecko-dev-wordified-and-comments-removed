@@ -1723,6 +1723,25 @@ autostart
 )
           
 "
+remoteAsyncEvents
+"
+:
+bool_pref
+(
+"
+remote
+.
+events
+.
+async
+.
+wheel
+.
+enabled
+"
+)
+          
+"
 incOriginInit
 "
 :
@@ -1899,6 +1918,10 @@ asan
         
 "
 tsan
+"
+        
+"
+remoteAsyncEvents
 "
         
 "
