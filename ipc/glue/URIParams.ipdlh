@@ -207,6 +207,13 @@ iconSize
 int32_t
 iconState
 ;
+uint32_t
+iconScale
+;
+bool
+?
+iconDark
+;
 }
 ;
 struct

@@ -215,6 +215,14 @@ GOBJECT_TRAITS
 (
 GdkWindow
 )
+GOBJECT_TRAITS
+(
+GtkIconInfo
+)
+GOBJECT_TRAITS
+(
+GIcon
+)
 #
 undef
 GOBJECT_TRAITS
