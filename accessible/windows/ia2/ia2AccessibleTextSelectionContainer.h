@@ -107,8 +107,6 @@ IAccessibleText
 aText
 long
 aOffset
-bool
-aDescendToEnd
 )
 ;
 }
