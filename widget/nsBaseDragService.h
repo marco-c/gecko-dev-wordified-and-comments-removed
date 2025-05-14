@@ -243,8 +243,8 @@ nsIntPoint
 aEndDragPoint
 )
 {
-mEndDragPoint
-=
+SetDragEndPoint
+(
 mozilla
 :
 :
@@ -254,6 +254,7 @@ LayoutDeviceIntPoint
 FromUnknownPoint
 (
 aEndDragPoint
+)
 )
 ;
 }
@@ -266,12 +267,7 @@ mozilla
 LayoutDeviceIntPoint
 aEndDragPoint
 )
-{
-mEndDragPoint
-=
-aEndDragPoint
 ;
-}
 uint16_t
 GetInputSource
 (
