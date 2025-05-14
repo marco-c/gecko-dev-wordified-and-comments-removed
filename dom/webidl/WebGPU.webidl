@@ -711,6 +711,11 @@ forceFallbackAdapter
 =
 false
 ;
+boolean
+xrCompatible
+=
+false
+;
 }
 ;
 enum
