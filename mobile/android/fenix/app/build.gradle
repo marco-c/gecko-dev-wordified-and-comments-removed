@@ -7158,10 +7158,6 @@ implementation
 ComponentsDependencies
 .
 mozilla_appservices_init_rust_components
-implementation
-ComponentsDependencies
-.
-mozilla_appservices_search
 androidTestImplementation
 (
 libs
