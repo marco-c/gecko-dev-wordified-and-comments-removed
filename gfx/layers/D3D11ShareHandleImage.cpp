@@ -1124,7 +1124,16 @@ const
 bool
 useFence
 =
-false
+fencesHolderMap
+&
+&
+FenceD3D11
+:
+:
+IsSupported
+(
+mImageDevice
+)
 ;
 TextureAllocationFlags
 allocFlags
