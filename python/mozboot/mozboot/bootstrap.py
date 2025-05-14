@@ -68,6 +68,10 @@ mozfile
 import
 which
 from
+mozversioncontrol
+import
+get_repository_object
+from
 packaging
 .
 version
@@ -5864,6 +5868,21 @@ top_src_dir
 git_str
 )
     
+repo
+=
+get_repository_object
+(
+top_src_dir
+)
+    
+if
+repo
+.
+is_cinnabar_repo
+(
+)
+:
+        
 cinnabar_dir
 =
 str
@@ -5874,12 +5893,12 @@ git
 root_state_dir
 )
 )
-    
+        
 if
 not
 cinnabar
 :
-        
+            
 if
 "
 MOZILLABUILD
@@ -5889,22 +5908,22 @@ os
 .
 environ
 :
-            
+                
 cinnabar_dir
 =
 win_to_msys_path
 (
 cinnabar_dir
 )
-            
+                
 print
 (
-                
+                    
 ADD_GIT_CINNABAR_PATH
 .
 format
 (
-                    
+                        
 prefix
 =
 "
@@ -5915,16 +5934,17 @@ USERPROFILE
 cinnabar_dir
 =
 cinnabar_dir
+                    
+)
                 
 )
             
-)
-        
 else
 :
-            
+                
 print
 (
+                    
 ADD_GIT_CINNABAR_PATH
 .
 format
@@ -5938,6 +5958,7 @@ cinnabar_dir
 =
 cinnabar_dir
 )
+                
 )
 def
 _warn_if_risky_revision
@@ -5957,11 +5978,6 @@ NUM_SECONDS_IN_MONTH
 24
 *
 30
-    
-from
-mozversioncontrol
-import
-get_repository_object
     
 repo
 =
