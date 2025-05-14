@@ -323,6 +323,15 @@ obj
 *
 /
 #
+Hazard
+analysis
+results
+/
+haz
+-
+*
+/
+#
 Gradle
 build
 errors
