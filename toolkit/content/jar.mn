@@ -763,7 +763,7 @@ custom
 -
 element
 .
-js
+mjs
 (
 widgets
 /
@@ -773,7 +773,7 @@ custom
 -
 element
 .
-js
+mjs
 )
 content
 /
