@@ -1,4 +1,10 @@
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 crate
 :
 :
@@ -13,6 +19,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 )
 ]
 pub

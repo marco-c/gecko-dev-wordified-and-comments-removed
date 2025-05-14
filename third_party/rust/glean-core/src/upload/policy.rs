@@ -1,3 +1,9 @@
+use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
 const
 MAX_RECOVERABLE_FAILURES
 :
@@ -44,6 +50,7 @@ u64
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub

@@ -8,6 +8,12 @@ collections
 HashMap
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 serde
 :
 :
@@ -25,6 +31,7 @@ Deserialize
 Debug
 Clone
 Default
+MallocSizeOf
 )
 ]
 pub

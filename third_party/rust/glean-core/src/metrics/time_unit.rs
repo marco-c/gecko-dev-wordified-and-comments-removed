@@ -8,6 +8,12 @@ time
 Duration
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 serde
 :
 :
@@ -39,6 +45,7 @@ Deserialize
 Serialize
 PartialEq
 Eq
+MallocSizeOf
 )
 ]
 #

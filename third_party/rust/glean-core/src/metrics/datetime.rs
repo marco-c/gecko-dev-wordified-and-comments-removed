@@ -110,6 +110,12 @@ TimeZone
 Timelike
 }
 ;
+use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
 pub
 type
 ChronoDatetime
@@ -126,6 +132,7 @@ derive
 Clone
 PartialEq
 Eq
+MallocSizeOf
 )
 ]
 pub

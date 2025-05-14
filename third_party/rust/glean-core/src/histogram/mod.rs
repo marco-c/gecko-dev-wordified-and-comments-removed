@@ -17,6 +17,12 @@ collections
 HashMap
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 once_cell
 :
 :
@@ -85,6 +91,7 @@ Clone
 Copy
 Serialize
 Deserialize
+MallocSizeOf
 )
 ]
 #
@@ -189,6 +196,7 @@ Serialize
 Deserialize
 PartialEq
 Eq
+MallocSizeOf
 )
 ]
 pub

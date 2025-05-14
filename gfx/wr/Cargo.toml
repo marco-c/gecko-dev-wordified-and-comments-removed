@@ -40,9 +40,9 @@ glean
 =
 64
 .
-1
+2
 .
-1
+0
 "
 [
 profile
@@ -167,5 +167,14 @@ branch
 =
 "
 wr
+"
+}
+wr_malloc_size_of
+=
+{
+path
+=
+"
+wr_malloc_size_of
 "
 }

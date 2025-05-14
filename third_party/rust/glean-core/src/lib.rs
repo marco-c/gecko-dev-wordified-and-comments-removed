@@ -129,6 +129,12 @@ log
 LevelFilter
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 once_cell
 :
 :
@@ -725,6 +731,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 )
 ]
 pub
@@ -770,6 +777,18 @@ pub
 trim_data_to_registered_pings
 :
 bool
+#
+[
+ignore_malloc_size_of
+=
+"
+external
+non
+-
+allocating
+type
+"
+]
 pub
 log_level
 :
@@ -825,6 +844,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 )
 ]
 pub
