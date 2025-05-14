@@ -7,8 +7,6 @@ https
 :
 /
 /
-beta
-.
 maps
 .
 apple
