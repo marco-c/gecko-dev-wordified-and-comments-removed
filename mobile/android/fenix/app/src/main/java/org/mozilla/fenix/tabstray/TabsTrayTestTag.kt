@@ -109,15 +109,6 @@ normalTabsPageButton
 "
 const
 val
-NORMAL_TABS_COUNTER
-=
-"
-NORMAL_TABS_PAGE_BUTTON
-.
-counter
-"
-const
-val
 PRIVATE_TABS_PAGE_BUTTON
 =
 "

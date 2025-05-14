@@ -405,6 +405,16 @@ bottomsheet
 .
 BottomSheetBehavior
 import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+TabCounterTestTags
+import
 org
 .
 hamcrest
@@ -6503,7 +6513,7 @@ normalTabsCounter
 =
 onNodeWithTag
 (
-TabsTrayTestTag
+TabCounterTestTags
 .
 NORMAL_TABS_COUNTER
 )

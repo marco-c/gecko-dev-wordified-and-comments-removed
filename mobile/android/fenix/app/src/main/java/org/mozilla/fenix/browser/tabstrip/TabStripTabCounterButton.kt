@@ -341,13 +341,13 @@ menu
 .
 MenuItem
 import
-org
-.
 mozilla
 .
-fenix
+components
 .
-compose
+ui
+.
+tabcounter
 .
 TabCounter
 import
