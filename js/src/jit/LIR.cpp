@@ -4307,8 +4307,9 @@ LDefinition
 TYPE
 :
 return
-addNunboxType
+addNunboxPart
 (
+true
 vregId
 a
 )
@@ -4320,8 +4321,9 @@ LDefinition
 PAYLOAD
 :
 return
-addNunboxPayload
+addNunboxPart
 (
+false
 vregId
 a
 )
