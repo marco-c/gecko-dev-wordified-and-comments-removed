@@ -74,15 +74,6 @@ ezcmd
 .
 0
 "
-format
-=
-"
-0
-.
-2
-.
-4
-"
 itertools
 =
 "

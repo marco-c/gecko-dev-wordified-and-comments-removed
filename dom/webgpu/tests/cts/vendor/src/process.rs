@@ -8,12 +8,6 @@ ffi
 OsString
 ;
 use
-format
-:
-:
-lazy_format
-;
-use
 miette
 :
 :
@@ -67,9 +61,11 @@ into_diagnostic
 (
 )
 .
-wrap_err
+wrap_err_with
 (
-lazy_format
+|
+|
+format
 !
 (
 "
