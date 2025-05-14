@@ -305,14 +305,7 @@ flex
 ;
 gap
 :
-var
-(
--
--
-space
--
-xxlarge
-)
+48px
 ;
 padding
 -
@@ -366,7 +359,7 @@ var
 -
 space
 -
-medium
+xxlarge
 )
 ;
 }
