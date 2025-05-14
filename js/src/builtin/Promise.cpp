@@ -6930,9 +6930,11 @@ GetCapabilitiesExecutorSlots_Reject
 nodiscard
 ]
 ]
-static
 PromiseObject
 *
+js
+:
+:
 CreatePromiseObjectWithoutResolutionFunctions
 (
 JSContext

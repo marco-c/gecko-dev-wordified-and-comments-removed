@@ -5159,6 +5159,14 @@ void
 \
 MACRO_
 (
+waitAsync
+"
+waitAsync
+"
+)
+\
+MACRO_
+(
 wasm
 "
 wasm
