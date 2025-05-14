@@ -2484,6 +2484,12 @@ shouldStart
 const
 {
 return
+!
+shouldCancel
+(
+)
+&
+&
 runtime_
 -
 >
