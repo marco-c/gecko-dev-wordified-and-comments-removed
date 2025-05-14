@@ -88,7 +88,11 @@ data
 [
 cfg
 (
-limb_width_32
+fast_arithmetic
+=
+"
+32
+"
 )
 ]
 pub
@@ -130,7 +134,11 @@ collect
 [
 cfg
 (
-limb_width_64
+fast_arithmetic
+=
+"
+64
+"
 )
 ]
 pub

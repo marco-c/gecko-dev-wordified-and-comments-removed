@@ -874,15 +874,11 @@ String
 }
 impl
 <
-'
-a
 T
 >
 Sealed
 for
 &
-'
-a
 T
 where
 T
