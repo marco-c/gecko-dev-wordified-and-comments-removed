@@ -1133,7 +1133,7 @@ event
 context
 "
 :
-new_tab
+frame
 [
 "
 context
