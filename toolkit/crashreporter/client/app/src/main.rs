@@ -344,7 +344,6 @@ ui
 :
 error_dialog
 (
-&
 config
 message
 )
