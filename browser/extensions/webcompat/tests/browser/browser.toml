@@ -108,6 +108,13 @@ js
 ]
 [
 "
+browser_pref_check
+.
+js
+"
+]
+[
+"
 browser_shims
 .
 js

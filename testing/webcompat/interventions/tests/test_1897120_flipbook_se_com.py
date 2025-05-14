@@ -234,6 +234,11 @@ pytest
 .
 mark
 .
+disable_moztransform
+pytest
+.
+mark
+.
 asyncio
 pytest
 .
@@ -264,6 +269,11 @@ skip_platforms
 android
 "
 )
+pytest
+.
+mark
+.
+disable_moztransform
 pytest
 .
 mark
