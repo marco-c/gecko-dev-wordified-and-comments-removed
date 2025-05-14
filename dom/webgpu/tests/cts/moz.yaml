@@ -326,9 +326,8 @@ run
 -
 -
 '
-{
-yaml_dir
-}
+.
+.
 /
 checkout
 /
