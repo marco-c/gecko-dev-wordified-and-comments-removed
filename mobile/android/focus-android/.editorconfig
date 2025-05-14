@@ -15,6 +15,9 @@ true
 ktlint_standard_filename
 =
 disabled
+ktlint_function_naming_ignore_when_annotated_with
+=
+Composable
 #
 disabled
 rules
@@ -47,11 +50,6 @@ disabled
 ktlint_standard_class
 -
 signature
-=
-disabled
-ktlint_standard_function
--
-naming
 =
 disabled
 ktlint_standard_function

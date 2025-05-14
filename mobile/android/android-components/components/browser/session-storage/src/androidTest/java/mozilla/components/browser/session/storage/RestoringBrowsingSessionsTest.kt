@@ -323,7 +323,7 @@ Beta
 /
 Test
 fun
-SampleBrowser_2020_12_16
+testRestoreSessionStateFromSampleBrowser_2020_12_16
 (
 )
 =
@@ -1943,7 +1943,7 @@ Version
 /
 Test
 fun
-Fenix_80_1_3
+testRestoreSessionStateFromFenix_80_1_3
 (
 )
 {
@@ -5733,7 +5733,7 @@ Version
 /
 Test
 fun
-Fenix_83_1_0
+testRestoreSessionStateFromFenix_83_1_0
 (
 )
 {
@@ -7891,7 +7891,7 @@ Nightly
 /
 Test
 fun
-Fenix_Master_2021_01_5
+testRestoreSessionFromNightly_20210105
 (
 )
 {
@@ -8650,7 +8650,7 @@ Nightly
 /
 Test
 fun
-Fenix_Master_2021_01_8
+testRestoreSessionFromNightly_20210108
 (
 )
 {
