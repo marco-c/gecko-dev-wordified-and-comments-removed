@@ -1705,7 +1705,7 @@ amd64
 )
 amd64
 -
-esr128
+esr
 /
 opt
 :
@@ -1744,7 +1744,7 @@ snap
 -
 amd64
 -
-esr128
+esr
 -
 opt
 worker
@@ -1808,7 +1808,7 @@ amd64
 )
 amd64
 -
-esr128
+esr
 /
 debug
 :
@@ -1850,7 +1850,7 @@ snap
 -
 amd64
 -
-esr128
+esr
 -
 debug
 worker
