@@ -50,6 +50,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLSlotElement
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
