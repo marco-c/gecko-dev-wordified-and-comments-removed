@@ -2173,6 +2173,11 @@ SystemAllocPolicy
 >
 selfHostJitCache
 ;
+void
+clearSelfHostedJitCache
+(
+)
+;
 private
 :
 js
