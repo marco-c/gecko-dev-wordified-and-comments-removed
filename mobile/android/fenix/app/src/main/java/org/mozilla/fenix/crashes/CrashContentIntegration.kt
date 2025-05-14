@@ -942,6 +942,7 @@ settings
 .
 getBottomToolbarHeight
 (
+context
 )
 }
 }

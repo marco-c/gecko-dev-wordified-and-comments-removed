@@ -725,6 +725,13 @@ layout_height
 "
 48dp
 "
+android
+:
+layout_marginEnd
+=
+"
+16dp
+"
 app
 :
 layout_constraintEnd_toEndOf

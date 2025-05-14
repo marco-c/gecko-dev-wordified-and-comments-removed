@@ -355,6 +355,9 @@ activityTestRule
 =
 HomeActivityIntentTestRule
 (
+isNavigationBarCFREnabled
+=
+false
 isPWAsPromptEnabled
 =
 false
