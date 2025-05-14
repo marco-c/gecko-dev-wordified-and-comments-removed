@@ -10640,6 +10640,9 @@ type
 actionTypes
 .
 BLOCK_URL
+source
+:
+eventSource
 data
 :
 tiles
