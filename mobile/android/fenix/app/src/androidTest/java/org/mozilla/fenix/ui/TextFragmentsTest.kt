@@ -536,10 +536,7 @@ openThreeDotMenu
 {
 }
 .
-openBookmarksMenu
-(
-activityTestRule
-)
+openBookmarks
 {
 verifyBookmarkTitle
 (
