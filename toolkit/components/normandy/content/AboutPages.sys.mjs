@@ -123,7 +123,7 @@ sys
 .
 mjs
 "
-ExperimentManager
+ExperimentAPI
 :
 "
 resource
@@ -132,9 +132,7 @@ resource
 /
 nimbus
 /
-lib
-/
-ExperimentManager
+ExperimentAPI
 .
 sys
 .
@@ -685,7 +683,9 @@ getMessagingSystemList
 return
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
@@ -1346,7 +1346,9 @@ slug
 {
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 unenroll
 (
@@ -1378,7 +1380,9 @@ UpdateMessagingSystemExperimentList
 "
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .

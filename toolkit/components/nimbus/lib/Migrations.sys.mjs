@@ -508,7 +508,7 @@ lazy
 .
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -698,7 +698,7 @@ lazy
 .
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .

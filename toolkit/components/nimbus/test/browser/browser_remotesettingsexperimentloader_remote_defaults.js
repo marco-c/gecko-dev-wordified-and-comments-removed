@@ -987,7 +987,7 @@ missing
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1000,7 +1000,7 @@ foo
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1013,7 +1013,7 @@ bar
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1026,7 +1026,7 @@ slug
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1780,7 +1780,7 @@ fooCleanup
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1795,7 +1795,7 @@ rollout
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1852,7 +1852,7 @@ stub
 (
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 "
@@ -1963,7 +1963,7 @@ remote_defaults_active_remote_defaults
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -1976,7 +1976,7 @@ foo
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2305,7 +2305,7 @@ match
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2318,7 +2318,7 @@ foo
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2646,7 +2646,7 @@ defined
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2659,7 +2659,7 @@ bar
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .

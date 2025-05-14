@@ -283,7 +283,9 @@ active
 "
 )
 ;
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 unenroll
 (
@@ -319,7 +321,9 @@ active
 ;
 assertEmptyStore
 (
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 )

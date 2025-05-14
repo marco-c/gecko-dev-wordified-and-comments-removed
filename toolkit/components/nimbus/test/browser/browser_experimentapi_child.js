@@ -241,7 +241,7 @@ browser
 await
 ExperimentAPI
 .
-_manager
+manager
 .
 enroll
 (
@@ -465,7 +465,7 @@ browser
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 unenroll
 (
@@ -537,7 +537,7 @@ sync
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -603,7 +603,7 @@ releaseCachedProcesses
 await
 ExperimentAPI
 .
-_manager
+manager
 .
 enroll
 (
@@ -838,7 +838,7 @@ correct
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 unenroll
 (
@@ -849,7 +849,7 @@ qux
 ;
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .

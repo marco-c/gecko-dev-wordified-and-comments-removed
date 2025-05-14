@@ -344,7 +344,7 @@ lazy
 .
 ExperimentAPI
 .
-_manager
+manager
 .
 getAllOptInRecipes
 (
@@ -529,7 +529,7 @@ lazy
 .
 ExperimentAPI
 .
-_manager
+manager
 .
 enroll
 (
@@ -665,7 +665,7 @@ lazy
 .
 ExperimentAPI
 .
-_manager
+manager
 .
 unenroll
 (

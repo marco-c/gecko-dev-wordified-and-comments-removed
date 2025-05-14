@@ -949,7 +949,7 @@ try
 await
 this
 .
-_manager
+manager
 .
 onStartup
 (
@@ -1056,7 +1056,7 @@ CRASHREPORTER_ENABLED
 {
 this
 .
-_manager
+manager
 .
 store
 .
@@ -1147,6 +1147,28 @@ _onStudiesEnabledChanged
 }
 }
 }
+/
+*
+*
+*
+Return
+the
+global
+ExperimentManager
+.
+*
+/
+get
+manager
+(
+)
+{
+return
+this
+.
+_manager
+;
+}
 _resetForTests
 (
 )
@@ -1161,7 +1183,7 @@ disable
 ;
 this
 .
-_manager
+manager
 .
 store
 .
@@ -1298,7 +1320,7 @@ ready
 return
 this
 .
-_manager
+manager
 .
 store
 .
@@ -1344,7 +1366,7 @@ activeEnrollments
 =
 this
 .
-_manager
+manager
 .
 store
 .
@@ -1415,7 +1437,7 @@ studiesEnabled
 {
 this
 .
-_manager
+manager
 .
 _handleStudiesOptOut
 (
@@ -1484,7 +1506,7 @@ on
 the
 this
 .
-_manager
+manager
 .
 store
 .
@@ -1987,7 +2009,7 @@ null
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2240,7 +2262,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2293,7 +2315,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2458,7 +2480,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2524,7 +2546,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2765,7 +2787,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2779,7 +2801,7 @@ featureId
 ?
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2807,7 +2829,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2829,7 +2851,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -2929,7 +2951,7 @@ getAllEnrollments
 return
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -3071,7 +3093,7 @@ getAllEnrollmentMetadata
 return
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -3183,7 +3205,7 @@ enrollment
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -3272,7 +3294,7 @@ callback
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -3292,7 +3314,7 @@ callback
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .
@@ -4025,7 +4047,7 @@ null
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 _unenroll
 (
@@ -4143,7 +4165,7 @@ ExperimentLocalizationError
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 _unenroll
 (
@@ -4224,7 +4246,7 @@ initialized
 {
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 .

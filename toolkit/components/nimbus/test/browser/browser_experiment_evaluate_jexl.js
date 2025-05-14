@@ -354,7 +354,9 @@ random
 )
 ;
 await
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 onStartup
 (

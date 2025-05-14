@@ -2678,7 +2678,7 @@ manager
 =
 ExperimentAPI
 .
-_manager
+manager
 }
 =
 {
@@ -2905,7 +2905,7 @@ manager
 =
 ExperimentAPI
 .
-_manager
+manager
 source
 =
 "
@@ -3230,7 +3230,7 @@ manager
 =
 ExperimentAPI
 .
-_manager
+manager
 source
 slug
 branchSlug
@@ -3695,7 +3695,7 @@ property
 {
 _ExperimentManager
 }
-maanger
+manager
 *
 An
 ExperimentManager
