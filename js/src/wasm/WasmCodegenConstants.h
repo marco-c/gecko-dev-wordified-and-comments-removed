@@ -119,14 +119,14 @@ const
 uint32_t
 MaxInlineMemoryCopyLength
 =
-0
+1
 ;
 static
 const
 uint32_t
 MaxInlineMemoryFillLength
 =
-0
+1
 ;
 #
 endif
