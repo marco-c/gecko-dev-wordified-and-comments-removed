@@ -3668,6 +3668,10 @@ mInFilter
 (
 false
 )
+mInViewTransitionCapture
+(
+false
+)
 mInPageSequence
 (
 false
