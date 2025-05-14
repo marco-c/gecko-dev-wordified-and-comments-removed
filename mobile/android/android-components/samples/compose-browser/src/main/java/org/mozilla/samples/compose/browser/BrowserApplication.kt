@@ -75,12 +75,6 @@ Application
 import
 mozilla
 .
-appservices
-.
-Megazord
-import
-mozilla
-.
 components
 .
 feature
@@ -141,11 +135,6 @@ onCreate
 super
 .
 onCreate
-(
-)
-Megazord
-.
-init
 (
 )
 RustHttpConfig

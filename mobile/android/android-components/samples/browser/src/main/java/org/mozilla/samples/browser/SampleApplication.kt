@@ -97,12 +97,6 @@ launch
 import
 mozilla
 .
-appservices
-.
-Megazord
-import
-mozilla
-.
 components
 .
 browser
@@ -443,11 +437,6 @@ onCreate
 super
 .
 onCreate
-(
-)
-Megazord
-.
-init
 (
 )
 RustLog
