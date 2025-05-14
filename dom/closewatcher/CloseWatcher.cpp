@@ -605,16 +605,6 @@ const
 {
 if
 (
-!
-mEnabled
-)
-{
-return
-false
-;
-}
-if
-(
 auto
 *
 window
