@@ -3211,6 +3211,7 @@ ones
 .
 *
 /
+export
 class
 Query
 {
