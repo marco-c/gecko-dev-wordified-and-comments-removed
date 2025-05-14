@@ -126,9 +126,6 @@ editor
 =
 getEditor
 (
-features
-.
-codemirrorNext
 )
 ;
 editor
