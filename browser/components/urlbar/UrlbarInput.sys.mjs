@@ -3414,6 +3414,12 @@ valid
 =
 false
 ;
+let
+isReverting
+=
+!
+uri
+;
 /
 /
 If
@@ -4168,6 +4174,10 @@ valid
 invalid
 "
 dueToTabSwitch
+!
+isReverting
+&
+&
 dueToTabSwitch
 &
 &
