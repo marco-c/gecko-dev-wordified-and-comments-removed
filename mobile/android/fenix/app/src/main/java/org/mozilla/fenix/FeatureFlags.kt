@@ -458,7 +458,7 @@ rewrite
 /
 const
 val
-swipeToDismiss2
+SWIPE_TO_DISMISS_2
 =
 true
 /

@@ -609,7 +609,7 @@ webcompat
 .
 BrokenSiteReporterTestTags
 .
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 import
 org
 .
@@ -621,7 +621,7 @@ webcompat
 .
 BrokenSiteReporterTestTags
 .
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_SEND_BUTTON
 import
 org
 .
@@ -1120,7 +1120,7 @@ testTagsAsResourceId
 true
 testTag
 =
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 }
 style
 =
@@ -1425,7 +1425,7 @@ testTagsAsResourceId
 true
 testTag
 =
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_SEND_BUTTON
 }
 enabled
 =

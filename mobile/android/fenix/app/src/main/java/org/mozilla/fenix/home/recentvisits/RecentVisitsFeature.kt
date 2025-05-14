@@ -273,7 +273,7 @@ Settings
 .
 Companion
 .
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 import
 kotlin
 .
@@ -1381,7 +1381,7 @@ groupItems
 size
 >
 =
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 }
 }
 /

@@ -840,7 +840,7 @@ components
 .
 Build
 .
-applicationServicesVersion
+APPLICATION_SERVICES_VERSION
 val
 packageInfo
 =

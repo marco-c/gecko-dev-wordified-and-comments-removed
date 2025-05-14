@@ -123,7 +123,7 @@ Wallpaper
 .
 Companion
 .
-amethystName
+AMETHYST
 import
 org
 .
@@ -137,7 +137,7 @@ Wallpaper
 .
 Companion
 .
-beachVibeName
+BEACH_VIBE
 import
 org
 .
@@ -151,7 +151,7 @@ Wallpaper
 .
 Companion
 .
-ceruleanName
+CERULEAN
 import
 org
 .
@@ -165,7 +165,7 @@ Wallpaper
 .
 Companion
 .
-sunriseName
+SUNRISE
 import
 java
 .
@@ -338,9 +338,9 @@ when
 wallpaperName
 )
 {
-ceruleanName
-sunriseName
-amethystName
+CERULEAN
+SUNRISE
+AMETHYST
 -
 >
 {
@@ -490,7 +490,7 @@ if
 wallpaperName
 =
 =
-beachVibeName
+BEACH_VIBE
 )
 {
 "

@@ -731,7 +731,7 @@ version
 "
 Build
 .
-version
+VERSION
 )
 Sentry
 .
@@ -744,7 +744,7 @@ git
 "
 Build
 .
-gitHash
+GIT_HASH
 )
 Sentry
 .
@@ -759,7 +759,7 @@ build_version
 "
 Build
 .
-applicationServicesVersion
+APPLICATION_SERVICES_VERSION
 )
 Sentry
 .
@@ -774,7 +774,7 @@ build_version
 "
 Build
 .
-gleanSdkVersion
+GLEAN_SDK_VERSION
 )
 Sentry
 .

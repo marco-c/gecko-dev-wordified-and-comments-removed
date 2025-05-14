@@ -292,7 +292,7 @@ binding
 counterMask
 setCount
 (
-INTERNAL_COUNT
+internalCount
 )
 context
 .
@@ -462,7 +462,7 @@ cases
 .
 when
 {
-INTERNAL_COUNT
+internalCount
 =
 =
 0
@@ -474,7 +474,7 @@ return
 Initial
 state
 .
-INTERNAL_COUNT
+internalCount
 =
 =
 count
@@ -493,7 +493,7 @@ added
 or
 removed
 .
-INTERNAL_COUNT
+internalCount
 >
 MAX_VISIBLE_TABS
 -
@@ -598,7 +598,7 @@ count
 Int
 )
 {
-INTERNAL_COUNT
+internalCount
 =
 count
 updateContentDescription
@@ -1615,7 +1615,7 @@ companion
 object
 {
 var
-INTERNAL_COUNT
+internalCount
 =
 0
 const

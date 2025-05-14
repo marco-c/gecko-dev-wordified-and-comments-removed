@@ -879,7 +879,7 @@ if
 (
 FeatureFlags
 .
-swipeToDismiss2
+SWIPE_TO_DISMISS_2
 )
 {
 val
@@ -1336,7 +1336,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabItemRoot
+TAB_ITEM_ROOT
 )
 .
 semantics
@@ -1508,7 +1508,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabItemClose
+TAB_ITEM_CLOSE
 )
 )
 {
@@ -1662,7 +1662,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabItemThumbnail
+TAB_ITEM_THUMBNAIL
 )
 contentDescription
 =

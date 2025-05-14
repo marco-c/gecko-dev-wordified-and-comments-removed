@@ -1969,7 +1969,7 @@ String
 =
 Wallpaper
 .
-defaultName
+DEFAULT
 private
 val
 topSitesFeature
@@ -6138,7 +6138,7 @@ lastAppliedWallpaperName
 =
 Wallpaper
 .
-defaultName
+DEFAULT
 }
 override
 fun
@@ -7192,7 +7192,7 @@ lastAppliedWallpaperName
 =
 Wallpaper
 .
-defaultName
+DEFAULT
 }
 }
 }

@@ -682,7 +682,7 @@ syncPreference
 .
 title
 =
-notLoggedInTitle
+NOT_LOGGED_IN_TITLE
 }
 assertFalse
 (
@@ -768,7 +768,7 @@ syncPreference
 .
 title
 =
-notLoggedInTitle
+NOT_LOGGED_IN_TITLE
 }
 assertFalse
 (
@@ -852,7 +852,7 @@ syncPreference
 .
 title
 =
-notLoggedInTitle
+NOT_LOGGED_IN_TITLE
 }
 assertFalse
 (
@@ -1005,7 +1005,7 @@ syncPreference
 .
 title
 =
-loggedInTitle
+LOGGED_IN_TITLE
 }
 assertTrue
 (
@@ -1155,7 +1155,7 @@ syncPreference
 .
 title
 =
-loggedInTitle
+LOGGED_IN_TITLE
 }
 assertTrue
 (
@@ -1211,10 +1211,10 @@ SyncEngine
 Passwords
 loggedOffTitle
 =
-notLoggedInTitle
+NOT_LOGGED_IN_TITLE
 loggedInTitle
 =
-loggedInTitle
+LOGGED_IN_TITLE
 onSyncSignInClicked
 =
 {
@@ -1267,7 +1267,7 @@ object
 {
 const
 val
-notLoggedInTitle
+NOT_LOGGED_IN_TITLE
 :
 String
 =
@@ -1279,7 +1279,7 @@ devices
 "
 const
 val
-loggedInTitle
+LOGGED_IN_TITLE
 :
 String
 =

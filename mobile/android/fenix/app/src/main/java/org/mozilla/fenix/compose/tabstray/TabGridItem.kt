@@ -950,7 +950,7 @@ if
 (
 FeatureFlags
 .
-swipeToDismiss2
+SWIPE_TO_DISMISS_2
 )
 {
 SwipeToDismissBox2
@@ -1222,7 +1222,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabItemRoot
+TAB_ITEM_ROOT
 )
 )
 {
@@ -1678,7 +1678,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabItemClose
+TAB_ITEM_CLOSE
 )
 onClick
 =
@@ -1908,7 +1908,7 @@ testTag
 =
 TabsTrayTestTag
 .
-tabItemThumbnail
+TAB_ITEM_THUMBNAIL
 }
 )
 {

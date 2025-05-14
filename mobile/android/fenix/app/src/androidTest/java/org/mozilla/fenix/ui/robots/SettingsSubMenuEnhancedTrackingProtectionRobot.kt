@@ -390,7 +390,7 @@ helpers
 isEnabled
 const
 val
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 =
 "
 Tell
@@ -1006,7 +1006,7 @@ perform
 scroll
 to
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 "
 )
@@ -1037,7 +1037,7 @@ hasDescendant
 (
 withText
 (
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 )
 )
 )
@@ -1054,7 +1054,7 @@ Performed
 scroll
 to
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 "
 )
@@ -1077,7 +1077,7 @@ to
 verify
 that
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 is
 visible
@@ -1091,7 +1091,7 @@ withChild
 (
 withText
 (
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 )
 )
 )
@@ -1120,7 +1120,7 @@ verifyGPCTextWithSwitchWidget
 Verified
 that
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 is
 visible
@@ -1148,7 +1148,7 @@ to
 verify
 that
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 is
 checked
@@ -1164,7 +1164,7 @@ withChild
 (
 withText
 (
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 )
 )
 )
@@ -1191,7 +1191,7 @@ verifyGPCSwitchEnabled
 Verified
 that
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 is
 checked
@@ -1217,7 +1217,7 @@ Trying
 to
 click
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 toggle
 "
@@ -1230,7 +1230,7 @@ withChild
 (
 withText
 (
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 )
 )
 )
@@ -1249,7 +1249,7 @@ switchGPCToggle
 :
 Clicked
 the
-globalPrivacyControlSwitchText
+GLOBAL_PRIVACY_CONTROL_SWITCH_TEXT
 option
 toggle
 "

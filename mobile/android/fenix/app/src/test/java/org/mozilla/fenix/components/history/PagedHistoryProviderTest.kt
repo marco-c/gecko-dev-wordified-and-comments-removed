@@ -206,7 +206,7 @@ mockk
 )
 Settings
 .
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 =
 1
 }

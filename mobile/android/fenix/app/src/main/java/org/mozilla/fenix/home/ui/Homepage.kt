@@ -865,7 +865,7 @@ ui
 .
 HomepageTestTag
 .
-homepage
+HOMEPAGE
 import
 org
 .
@@ -1032,7 +1032,7 @@ testTagsAsResourceId
 true
 testTag
 =
-homepage
+HOMEPAGE
 }
 .
 verticalScroll

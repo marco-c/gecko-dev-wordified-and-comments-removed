@@ -139,7 +139,7 @@ ManifestDatabaseMigrationTest
 {
 private
 val
-TEST_DB
+testDbName
 =
 "
 migration
@@ -184,7 +184,7 @@ helper
 .
 createDatabase
 (
-TEST_DB
+testDbName
 2
 )
 .
@@ -299,7 +299,7 @@ helper
 .
 runMigrationsAndValidate
 (
-TEST_DB
+testDbName
 3
 true
 ManifestDatabase
@@ -408,7 +408,7 @@ helper
 .
 createDatabase
 (
-TEST_DB
+testDbName
 1
 )
 .
@@ -523,7 +523,7 @@ helper
 .
 runMigrationsAndValidate
 (
-TEST_DB
+testDbName
 2
 true
 ManifestDatabase
@@ -632,7 +632,7 @@ helper
 .
 createDatabase
 (
-TEST_DB
+testDbName
 0
 )
 .
@@ -741,7 +741,7 @@ helper
 .
 runMigrationsAndValidate
 (
-TEST_DB
+testDbName
 2
 true
 ManifestDatabase

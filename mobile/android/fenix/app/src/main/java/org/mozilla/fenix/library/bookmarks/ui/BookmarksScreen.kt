@@ -839,7 +839,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-addBookmarkFolderNameTextField
+ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 import
 org
 .
@@ -853,7 +853,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 import
 org
 .
@@ -867,7 +867,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 import
 org
 .
@@ -5704,7 +5704,7 @@ testTagsAsResourceId
 true
 testTag
 =
-addBookmarkFolderNameTextField
+ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 }
 label
 =
@@ -6193,7 +6193,7 @@ semantics
 {
 testTag
 =
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 }
 )
 Spacer
@@ -6237,7 +6237,7 @@ semantics
 {
 testTag
 =
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 }
 )
 }

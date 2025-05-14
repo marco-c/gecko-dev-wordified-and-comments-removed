@@ -651,7 +651,7 @@ testTag
 (
 NavBarTestTags
 .
-newTabButton
+NEW_TAB_BUTTON
 )
 update
 =

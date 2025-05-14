@@ -77,7 +77,7 @@ CreditCard
 .
 Companion
 .
-ellipsesEnd
+ELLIPSES_END
 import
 mozilla
 .
@@ -91,7 +91,7 @@ CreditCard
 .
 Companion
 .
-ellipsesStart
+ELLIPSES_START
 import
 mozilla
 .
@@ -105,7 +105,7 @@ CreditCard
 .
 Companion
 .
-ellipsis
+ELLIPSIS
 import
 mozilla
 .
@@ -201,15 +201,15 @@ returned
 {
 assertEquals
 (
-ellipsesStart
+ELLIPSES_START
 +
-ellipsis
+ELLIPSIS
 +
-ellipsis
+ELLIPSIS
 +
-ellipsis
+ELLIPSIS
 +
-ellipsis
+ELLIPSIS
 +
 creditCard
 .
@@ -219,7 +219,7 @@ last4Digits
 (
 )
 +
-ellipsesEnd
+ELLIPSES_END
 creditCard
 .
 obfuscatedCardNumber

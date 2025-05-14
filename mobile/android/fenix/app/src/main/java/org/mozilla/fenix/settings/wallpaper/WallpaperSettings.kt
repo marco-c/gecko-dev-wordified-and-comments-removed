@@ -941,7 +941,7 @@ name
 =
 Wallpaper
 .
-classicFirefoxCollectionName
+CLASSIC_FIREFOX_COLLECTION
 )
 {
 Text
@@ -1626,7 +1626,7 @@ name
 =
 Wallpaper
 .
-defaultName
+DEFAULT
 )
 {
 BorderStroke

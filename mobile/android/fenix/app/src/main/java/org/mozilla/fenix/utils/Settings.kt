@@ -870,7 +870,7 @@ contain
 VisibleForTesting
 internal
 var
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 :
 Int
 =

@@ -1248,7 +1248,7 @@ tag
 =
 TabsTrayTestTag
 .
-bannerTestTagRoot
+BANNER_ROOT
 )
 )
 {
@@ -1852,7 +1852,7 @@ testTag
 (
 TabsTrayTestTag
 .
-bannerHandle
+BANNER_HANDLE
 )
 )
 Row
@@ -1944,7 +1944,7 @@ testTag
 (
 TabsTrayTestTag
 .
-normalTabsPageButton
+NORMAL_TABS_PAGE_BUTTON
 )
 selectedContentColor
 =
@@ -2014,7 +2014,7 @@ testTag
 (
 TabsTrayTestTag
 .
-privateTabsPageButton
+PRIVATE_TABS_PAGE_BUTTON
 )
 icon
 =
@@ -2091,7 +2091,7 @@ testTag
 (
 TabsTrayTestTag
 .
-syncedTabsPageButton
+SYNCED_TABS_PAGE_BUTTON
 )
 icon
 =
@@ -2174,7 +2174,7 @@ testTag
 (
 TabsTrayTestTag
 .
-threeDotButton
+THREE_DOT_BUTTON
 )
 )
 {
@@ -2505,7 +2505,7 @@ testTag
 (
 TabsTrayTestTag
 .
-selectionCounter
+SELECTION_COUNTER
 )
 style
 =
@@ -2548,7 +2548,7 @@ testTag
 (
 TabsTrayTestTag
 .
-collectionsButton
+COLLECTIONS_BUTTON
 )
 enabled
 =

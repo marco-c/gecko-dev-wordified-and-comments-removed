@@ -323,7 +323,7 @@ settings
 .
 numFontListSent
 =
-kDesiredSubmissions
+DESIRED_SUBMISSIONS_NUMBER
 return
 withContext
 Result
@@ -561,7 +561,7 @@ settings
 numFontListSent
 >
 =
-kDesiredSubmissions
+DESIRED_SUBMISSIONS_NUMBER
 )
 {
 return
@@ -832,7 +832,7 @@ population
 /
 const
 val
-kDesiredSubmissions
+DESIRED_SUBMISSIONS_NUMBER
 :
 Int
 =

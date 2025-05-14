@@ -377,7 +377,7 @@ ui
 .
 HomepageTestTag
 .
-homepageWordMarkLogo
+HOMEPAGE_WORDMARK_LOGO
 import
 org
 .
@@ -391,7 +391,7 @@ ui
 .
 HomepageTestTag
 .
-homepageWordMarkText
+HOMEPAGE_WORDMARK_TEXT
 import
 org
 .
@@ -405,7 +405,7 @@ ui
 .
 HomepageTestTag
 .
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 import
 org
 .
@@ -560,7 +560,7 @@ testTagsAsResourceId
 true
 testTag
 =
-homepageWordMarkLogo
+HOMEPAGE_WORDMARK_LOGO
 }
 .
 padding
@@ -616,7 +616,7 @@ testTagsAsResourceId
 true
 testTag
 =
-homepageWordMarkText
+HOMEPAGE_WORDMARK_TEXT
 }
 .
 height
@@ -720,7 +720,7 @@ testTagsAsResourceId
 true
 testTag
 =
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 }
 checked
 =

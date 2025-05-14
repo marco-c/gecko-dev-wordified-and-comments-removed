@@ -840,7 +840,7 @@ ui
 .
 HomepageTestTag
 .
-homepage
+HOMEPAGE
 import
 org
 .
@@ -872,7 +872,7 @@ webcompat
 .
 BrokenSiteReporterTestTags
 .
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 import
 org
 .
@@ -884,7 +884,7 @@ webcompat
 .
 BrokenSiteReporterTestTags
 .
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_SEND_BUTTON
 import
 java
 .
@@ -8559,7 +8559,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 )
 .
 assertIsDisplayed
@@ -9014,7 +9014,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 )
 .
 assertIsDisplayed
@@ -9086,7 +9086,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 )
 .
 assertIsNotDisplayed
@@ -9715,7 +9715,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_SEND_BUTTON
 )
 .
 assertIsEnabled
@@ -9775,7 +9775,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_SEND_BUTTON
 )
 .
 assertIsNotEnabled
@@ -10548,7 +10548,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 .
 assertExists
@@ -10673,7 +10673,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 .
 assertExists
@@ -10829,7 +10829,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 .
 assertExists
@@ -10954,7 +10954,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 .
 assertExists
@@ -11178,7 +11178,7 @@ waitUntilAtLeastOneExists
 (
 hasTestTag
 (
-homepage
+HOMEPAGE
 )
 )
 Log

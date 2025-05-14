@@ -1726,7 +1726,7 @@ AndroidComponentVersion
 "
 AcBuild
 .
-version
+VERSION
 nameSet
 )
 sendPart
@@ -1738,7 +1738,7 @@ GleanVersion
 "
 AcBuild
 .
-gleanSdkVersion
+GLEAN_SDK_VERSION
 nameSet
 )
 sendPart
@@ -1750,7 +1750,7 @@ ApplicationServicesVersion
 "
 AcBuild
 .
-applicationServicesVersion
+APPLICATION_SERVICES_VERSION
 nameSet
 )
 sendPart
@@ -3711,7 +3711,7 @@ android_component_version
 "
 AcBuild
 .
-version
+VERSION
 )
 .
 build

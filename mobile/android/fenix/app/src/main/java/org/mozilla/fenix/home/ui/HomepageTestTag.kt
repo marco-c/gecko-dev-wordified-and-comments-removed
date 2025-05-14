@@ -72,7 +72,7 @@ HomepageTestTag
 {
 const
 val
-homepage
+HOMEPAGE
 =
 "
 homepage
@@ -81,7 +81,7 @@ view
 "
 const
 val
-homepageWordMarkLogo
+HOMEPAGE_WORDMARK_LOGO
 =
 "
 homepage
@@ -92,7 +92,7 @@ logo
 "
 const
 val
-homepageWordMarkText
+HOMEPAGE_WORDMARK_TEXT
 =
 "
 homepage
@@ -103,7 +103,7 @@ text
 "
 const
 val
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 =
 "
 private

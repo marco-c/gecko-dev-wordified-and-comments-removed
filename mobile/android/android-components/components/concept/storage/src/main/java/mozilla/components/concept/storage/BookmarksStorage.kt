@@ -426,7 +426,7 @@ limit
 :
 Int
 =
-defaultBookmarkSearchLimit
+DEFAULT_BOOKMARKS_SEARCH_LIMIT
 )
 :
 List
@@ -945,7 +945,7 @@ object
 {
 const
 val
-defaultBookmarkSearchLimit
+DEFAULT_BOOKMARKS_SEARCH_LIMIT
 =
 10
 }

@@ -70,7 +70,7 @@ BrokenSiteReporterTestTags
 {
 const
 val
-brokenSiteReporterSendButton
+BROKEN_SITE_REPORTER_SEND_BUTTON
 =
 "
 send
@@ -83,7 +83,7 @@ button
 "
 const
 val
-chooseReasonErrorMessage
+BROKEN_SITE_REPORTER_CHOOSE_REASON_BUTTON
 =
 "
 choose

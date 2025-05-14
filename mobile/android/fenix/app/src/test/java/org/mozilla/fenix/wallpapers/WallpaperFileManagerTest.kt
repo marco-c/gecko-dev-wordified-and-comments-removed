@@ -233,7 +233,7 @@ every
 currentWallpaperName
 }
 returns
-wallpaperName
+WALLPAPER_NAME
 every
 {
 currentWallpaperTextColor
@@ -276,7 +276,7 @@ runTest
 {
 createAllFiles
 (
-wallpaperName
+WALLPAPER_NAME
 )
 val
 result
@@ -294,7 +294,7 @@ generateWallpaper
 (
 name
 =
-wallpaperName
+WALLPAPER_NAME
 )
 assertEquals
 (
@@ -327,7 +327,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 landscape
 .
@@ -348,7 +348,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 thumbnail
 .
@@ -405,7 +405,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 portrait
 .
@@ -426,7 +426,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 thumbnail
 .
@@ -483,7 +483,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 portrait
 .
@@ -504,7 +504,7 @@ File
 (
 wallpapersFolder
 "
-wallpaperName
+WALLPAPER_NAME
 /
 landscape
 .
@@ -926,7 +926,7 @@ object
 {
 const
 val
-wallpaperName
+WALLPAPER_NAME
 =
 "
 name

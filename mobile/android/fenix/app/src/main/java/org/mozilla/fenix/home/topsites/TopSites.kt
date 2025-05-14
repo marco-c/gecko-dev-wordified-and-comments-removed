@@ -609,7 +609,7 @@ topsites
 .
 TopSitesTestTag
 .
-topSiteCardFavicon
+TOP_SITE_CARD_FAVICON
 import
 org
 .
@@ -1222,7 +1222,7 @@ testTag
 (
 TopSitesTestTag
 .
-topSites
+TOP_SITES
 )
 horizontalAlignment
 =
@@ -2070,7 +2070,7 @@ testTag
 (
 TopSitesTestTag
 .
-topSiteItemRoot
+TOP_SITE_ITEM_ROOT
 )
 )
 {
@@ -2265,7 +2265,7 @@ testTag
 (
 TopSitesTestTag
 .
-topSiteTitle
+TOP_SITE_TITLE
 )
 text
 =
@@ -2369,7 +2369,7 @@ testTag
 (
 TopSitesTestTag
 .
-topSiteContextualMenu
+TOP_SITE_CONTEXTUAL_MENU
 )
 menuItems
 =
@@ -2485,7 +2485,7 @@ testTagsAsResourceId
 true
 testTag
 =
-topSiteCardFavicon
+TOP_SITE_CARD_FAVICON
 }
 .
 size
@@ -2790,7 +2790,7 @@ testTag
 =
 TopSitesTestTag
 .
-openInPrivateTab
+OPEN_IN_PRIVATE_TAB
 onClick
 =
 {
@@ -2831,7 +2831,7 @@ testTag
 =
 TopSitesTestTag
 .
-edit
+EDIT
 onClick
 =
 {
@@ -2885,7 +2885,7 @@ testTag
 =
 TopSitesTestTag
 .
-remove
+REMOVE
 onClick
 =
 {
@@ -2926,7 +2926,7 @@ testTag
 =
 TopSitesTestTag
 .
-remove
+REMOVE
 onClick
 =
 {

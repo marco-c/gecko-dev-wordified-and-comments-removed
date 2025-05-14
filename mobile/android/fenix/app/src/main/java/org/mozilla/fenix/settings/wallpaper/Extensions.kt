@@ -216,7 +216,7 @@ name
 =
 Wallpaper
 .
-classicFirefoxCollectionName
+CLASSIC_FIREFOX_COLLECTION
 )
 {
 it
@@ -286,7 +286,7 @@ name
 =
 Wallpaper
 .
-classicFirefoxCollectionName
+CLASSIC_FIREFOX_COLLECTION
 }
 )
 {
@@ -463,7 +463,7 @@ name
 =
 Wallpaper
 .
-classicFirefoxCollectionName
+CLASSIC_FIREFOX_COLLECTION
 )
 {
 classicWallpapers

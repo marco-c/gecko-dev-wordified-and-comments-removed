@@ -77,7 +77,7 @@ bookmark
 folder
 const
 val
-addBookmarkFolderNameTextField
+ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 =
 "
 bookmarks
@@ -99,7 +99,7 @@ bookmarked
 item
 const
 val
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 =
 "
 edit
@@ -116,7 +116,7 @@ field
 "
 const
 val
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 =
 "
 edit

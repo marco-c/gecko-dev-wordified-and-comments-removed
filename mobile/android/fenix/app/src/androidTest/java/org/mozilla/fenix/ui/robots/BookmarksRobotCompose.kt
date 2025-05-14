@@ -235,7 +235,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-addBookmarkFolderNameTextField
+ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 import
 org
 .
@@ -249,7 +249,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 import
 org
 .
@@ -263,7 +263,7 @@ bookmarks
 .
 BookmarksTestTag
 .
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 class
 BookmarksRobotCompose
 (
@@ -604,7 +604,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 )
 .
 assertIsDisplayed
@@ -614,7 +614,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 )
 .
 assertIsDisplayed
@@ -2171,7 +2171,7 @@ addFolderTitleField
 =
 onNodeWithTag
 (
-addBookmarkFolderNameTextField
+ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 )
 .
 onChildAt
@@ -2227,7 +2227,7 @@ bookmarkNameEditBox
 =
 onNodeWithTag
 (
-editBookmarkedItemTileTextField
+EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 )
 .
 onChildAt
@@ -2258,7 +2258,7 @@ bookmarkURLEditBox
 =
 onNodeWithTag
 (
-editBookmarkedItemURLTextField
+EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
 )
 .
 onChildAt

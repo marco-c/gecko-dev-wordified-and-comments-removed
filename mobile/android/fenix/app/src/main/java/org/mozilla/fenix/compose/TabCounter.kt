@@ -724,7 +724,7 @@ testTag
 =
 TabsTrayTestTag
 .
-normalTabsCounter
+NORMAL_TABS_COUNTER
 }
 contentAlignment
 =

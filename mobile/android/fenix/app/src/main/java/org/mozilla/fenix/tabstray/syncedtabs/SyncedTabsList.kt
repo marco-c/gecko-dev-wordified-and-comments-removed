@@ -651,7 +651,7 @@ testTag
 (
 TabsTrayTestTag
 .
-syncedTabsList
+SYNCED_TABS_LIST
 )
 state
 =

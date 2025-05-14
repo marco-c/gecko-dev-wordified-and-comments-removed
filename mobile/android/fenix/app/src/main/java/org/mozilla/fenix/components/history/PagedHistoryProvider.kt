@@ -173,7 +173,7 @@ Settings
 .
 Companion
 .
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 private
 const
 val
@@ -805,7 +805,7 @@ items
 size
 >
 =
-SEARCH_GROUP_MINIMUM_SITES
+searchGroupMinimumSites
 }
 .
 toList

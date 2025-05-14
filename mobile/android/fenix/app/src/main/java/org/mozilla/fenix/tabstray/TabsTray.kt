@@ -1532,7 +1532,7 @@ testTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 )
 {

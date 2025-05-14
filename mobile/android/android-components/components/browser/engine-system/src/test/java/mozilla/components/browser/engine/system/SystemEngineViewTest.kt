@@ -3593,7 +3593,7 @@ protection
 {
 SystemEngineView
 .
-URL_MATCHER
+urlMatcher
 =
 UrlMatcher
 (
@@ -3954,7 +3954,7 @@ categories
 )
 {
 val
-BLOCK_LIST
+blockList
 =
 "
 "
@@ -4113,7 +4113,7 @@ com
 "
 SystemEngineView
 .
-URL_MATCHER
+urlMatcher
 =
 UrlMatcher
 .
@@ -4121,7 +4121,7 @@ createMatcher
 (
 StringReader
 (
-BLOCK_LIST
+blockList
 )
 StringReader
 (
@@ -4376,7 +4376,7 @@ SOCIAL
 )
 SystemEngineView
 .
-URL_MATCHER
+urlMatcher
 =
 null
 }
@@ -7027,7 +7027,7 @@ changed
 {
 SystemEngineView
 .
-URL_MATCHER
+urlMatcher
 =
 null
 val

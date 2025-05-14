@@ -161,7 +161,7 @@ NotificationRobot
 {
 private
 val
-NOTIFICATION_SHADE
+systemNotificationPanelId
 =
 "
 com
@@ -176,7 +176,7 @@ notification_stack_scroller
 "
 private
 val
-QS_PANEL
+quickSettingsPanelId
 =
 "
 com
@@ -312,7 +312,7 @@ UiSelector
 .
 resourceId
 (
-NOTIFICATION_SHADE
+systemNotificationPanelId
 )
 )
 .
@@ -369,7 +369,7 @@ By
 .
 res
 (
-QS_PANEL
+quickSettingsPanelId
 )
 .
 hasDescendant

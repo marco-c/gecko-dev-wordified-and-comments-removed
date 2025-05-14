@@ -649,7 +649,7 @@ testTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 contentDescription
 =

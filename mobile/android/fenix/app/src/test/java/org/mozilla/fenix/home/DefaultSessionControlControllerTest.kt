@@ -10143,7 +10143,7 @@ name
 =
 Wallpaper
 .
-firefoxCollectionName
+FIREFOX_COLLECTION
 heading
 =
 null

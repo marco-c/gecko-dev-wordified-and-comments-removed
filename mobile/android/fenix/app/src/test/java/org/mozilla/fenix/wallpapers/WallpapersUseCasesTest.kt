@@ -3576,7 +3576,7 @@ name
 =
 Wallpaper
 .
-firefoxCollectionName
+FIREFOX_COLLECTION
 heading
 =
 null
@@ -3657,7 +3657,7 @@ name
 =
 Wallpaper
 .
-firefoxCollectionName
+FIREFOX_COLLECTION
 heading
 =
 null

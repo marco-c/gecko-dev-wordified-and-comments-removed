@@ -318,7 +318,7 @@ appVersion
 =
 AcBuild
 .
-version
+VERSION
 appId
 =
 context

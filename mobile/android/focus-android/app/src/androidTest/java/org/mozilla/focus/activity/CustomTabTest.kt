@@ -306,14 +306,14 @@ webServer
 MockWebServer
 private
 val
-MENU_ITEM_LABEL
+menuItemTestLabel
 =
 "
 TestItem4223
 "
 private
 val
-ACTION_BUTTON_DESCRIPTION
+actionButtonDescription
 =
 "
 TestButton
@@ -459,8 +459,8 @@ createCustomTabIntent
 customTabPage
 .
 url
-MENU_ITEM_LABEL
-ACTION_BUTTON_DESCRIPTION
+menuItemTestLabel
+actionButtonDescription
 )
 )
 browserScreen
@@ -488,7 +488,7 @@ customTab
 {
 verifyCustomTabActionButton
 (
-ACTION_BUTTON_DESCRIPTION
+actionButtonDescription
 )
 verifyShareButtonIsDisplayed
 (
@@ -501,7 +501,7 @@ verifyTheStandardMenuItems
 )
 verifyCustomMenuItem
 (
-MENU_ITEM_LABEL
+menuItemTestLabel
 )
 /
 /

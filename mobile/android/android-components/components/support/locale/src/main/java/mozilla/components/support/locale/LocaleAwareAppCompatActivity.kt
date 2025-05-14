@@ -357,7 +357,7 @@ setLayoutDirectionIfNeeded
 )
 {
 val
-isAndroid8
+isOreo
 =
 Build
 .
@@ -372,7 +372,7 @@ VERSION_CODES
 .
 O
 val
-isAndroid8_1
+isOreoMr1
 =
 Build
 .
@@ -388,10 +388,10 @@ VERSION_CODES
 O_MR1
 if
 (
-isAndroid8
+isOreo
 |
 |
-isAndroid8_1
+isOreoMr1
 )
 {
 window

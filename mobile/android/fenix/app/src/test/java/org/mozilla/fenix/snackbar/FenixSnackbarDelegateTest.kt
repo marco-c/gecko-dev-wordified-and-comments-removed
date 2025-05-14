@@ -237,7 +237,7 @@ MockkRetryTestRule
 private
 const
 val
-appName
+APP_NAME
 =
 "
 Firefox
@@ -245,7 +245,7 @@ Firefox
 private
 const
 val
-editPassword
+EDIT_PASSWORD
 =
 "
 Edit
@@ -342,7 +342,7 @@ app_name
 )
 }
 returns
-appName
+APP_NAME
 every
 {
 view
@@ -359,7 +359,7 @@ edit_2
 )
 }
 returns
-editPassword
+EDIT_PASSWORD
 }
 After
 fun
@@ -412,7 +412,7 @@ snackBarParentView
 view
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG
@@ -421,7 +421,7 @@ isError
 false
 actionText
 =
-editPassword
+EDIT_PASSWORD
 listener
 =
 null
@@ -471,7 +471,7 @@ snackBarParentView
 view
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG
@@ -536,7 +536,7 @@ snackBarParentView
 view
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG
@@ -594,7 +594,7 @@ snackBarParentView
 view
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG
@@ -660,7 +660,7 @@ snackBarParentView
 view
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG
@@ -709,7 +709,7 @@ show
 (
 text
 =
-appName
+APP_NAME
 duration
 =
 LENGTH_LONG

@@ -4643,7 +4643,7 @@ Int
 Volatile
 internal
 var
-URL_MATCHER
+urlMatcher
 :
 UrlMatcher
 ?
@@ -4785,7 +4785,7 @@ it
 }
 .
 keys
-URL_MATCHER
+urlMatcher
 ?
 .
 setCategoriesEnabled
@@ -4796,7 +4796,7 @@ categories
 :
 run
 {
-URL_MATCHER
+urlMatcher
 =
 UrlMatcher
 .
@@ -4817,7 +4817,7 @@ categories
 )
 }
 return
-URL_MATCHER
+urlMatcher
 as
 UrlMatcher
 }

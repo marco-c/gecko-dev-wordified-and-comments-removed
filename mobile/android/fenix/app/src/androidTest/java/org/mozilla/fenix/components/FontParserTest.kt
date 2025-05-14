@@ -108,7 +108,7 @@ assertEquals
 4
 FontEnumerationWorker
 .
-kDesiredSubmissions
+DESIRED_SUBMISSIONS_NUMBER
 )
 }
 Test

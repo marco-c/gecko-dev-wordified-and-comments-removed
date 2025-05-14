@@ -272,7 +272,7 @@ request
 =
 Request
 (
-pocketEndpointUrl
+POCKET_ENDPOINT_URL
 conservative
 =
 true
@@ -291,7 +291,7 @@ object
 private
 const
 val
-pocketEndpointUrl
+POCKET_ENDPOINT_URL
 =
 "
 https

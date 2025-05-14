@@ -354,7 +354,7 @@ testTag
 (
 TabsTrayTestTag
 .
-privateTabsList
+PRIVATE_TABS_LIST
 )
 onTabClose
 =

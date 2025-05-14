@@ -512,7 +512,7 @@ object
 {
 const
 val
-viewType
+VIEW_TYPE
 =
 1
 }

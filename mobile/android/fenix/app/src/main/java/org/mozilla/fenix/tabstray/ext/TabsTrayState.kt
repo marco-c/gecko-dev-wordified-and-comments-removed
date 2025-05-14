@@ -727,7 +727,7 @@ testTag
 =
 TabsTrayTestTag
 .
-tabSettings
+TAB_SETTINGS
 onClick
 =
 onTabSettingsClick
@@ -755,7 +755,7 @@ testTag
 =
 TabsTrayTestTag
 .
-recentlyClosedTabs
+RECENTLY_CLOSED_TABS
 onClick
 =
 onRecentlyClosedClick
@@ -783,7 +783,7 @@ testTag
 =
 TabsTrayTestTag
 .
-selectTabs
+SELECT_TABS
 onClick
 =
 onEnterMultiselectModeClick
@@ -811,7 +811,7 @@ testTag
 =
 TabsTrayTestTag
 .
-shareAllTabs
+SHARE_ALL_TABS
 onClick
 =
 onShareAllTabsClick
@@ -839,7 +839,7 @@ testTag
 =
 TabsTrayTestTag
 .
-closeAllTabs
+CLOSE_ALL_TABS
 onClick
 =
 onDeleteAllTabsClick
@@ -867,7 +867,7 @@ testTag
 =
 TabsTrayTestTag
 .
-accountSettings
+ACCOUNT_SETTINGS
 onClick
 =
 onAccountSettingsClick

@@ -3282,7 +3282,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 .
 assertExists
@@ -3410,7 +3410,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 .
 assertExists

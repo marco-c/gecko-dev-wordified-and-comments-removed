@@ -859,7 +859,7 @@ testTag
 (
 TabsTrayTestTag
 .
-normalTabsList
+NORMAL_TABS_LIST
 )
 onTabClose
 =

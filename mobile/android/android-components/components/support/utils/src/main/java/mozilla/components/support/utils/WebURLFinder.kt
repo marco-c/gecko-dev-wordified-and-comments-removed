@@ -488,7 +488,7 @@ description
 private
 const
 val
-autolinkWebUrlPattern
+AUTOLINK_WEB_URL_PATTERN
 =
 "
 (
@@ -575,7 +575,7 @@ Pattern
 .
 compile
 (
-autolinkWebUrlPattern
+AUTOLINK_WEB_URL_PATTERN
 0
 )
 }
@@ -712,7 +712,7 @@ MagicNumber
 "
 )
 val
-UNICODE_CHARACTER_CLASS
+unicodeCharacterClassFlag
 :
 Int
 =
@@ -720,12 +720,12 @@ Int
 var
 regexFlags
 =
-UNICODE_CHARACTER_CLASS
+unicodeCharacterClassFlag
 Pattern
 .
 compile
 (
-autolinkWebUrlPattern
+AUTOLINK_WEB_URL_PATTERN
 regexFlags
 )
 }

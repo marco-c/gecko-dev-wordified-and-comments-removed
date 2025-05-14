@@ -204,7 +204,7 @@ android
 metadata
 /
 v
-currentJsonVersion
+CURRENT_JSON_VERSION
 /
 wallpapers
 .
@@ -868,7 +868,7 @@ object
 internal
 const
 val
-currentJsonVersion
+CURRENT_JSON_VERSION
 =
 1
 }

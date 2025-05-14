@@ -1247,7 +1247,7 @@ hasTestTag
 (
 TabsTrayTestTag
 .
-tabItemRoot
+TAB_ITEM_ROOT
 )
 )
 .
@@ -2601,7 +2601,7 @@ hasTestTag
 (
 TabsTrayTestTag
 .
-tabItemClose
+TAB_ITEM_CLOSE
 )
 )
 Log
@@ -3995,7 +3995,7 @@ onAllNodesWithTag
 (
 TabsTrayTestTag
 .
-tabItemClose
+TAB_ITEM_CLOSE
 )
 .
 filter
@@ -5798,7 +5798,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 /
 *
@@ -5824,7 +5824,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 /
 *
@@ -5856,7 +5856,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-normalTabsPageButton
+NORMAL_TABS_PAGE_BUTTON
 )
 /
 *
@@ -5888,7 +5888,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-privateTabsPageButton
+PRIVATE_TABS_PAGE_BUTTON
 )
 /
 *
@@ -5920,7 +5920,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-syncedTabsPageButton
+SYNCED_TABS_PAGE_BUTTON
 )
 /
 *
@@ -5950,7 +5950,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-normalTabsList
+NORMAL_TABS_LIST
 )
 /
 *
@@ -5980,7 +5980,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-normalTabsList
+NORMAL_TABS_LIST
 useUnmergedTree
 =
 true
@@ -6009,7 +6009,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-privateTabsList
+PRIVATE_TABS_LIST
 )
 /
 *
@@ -6035,7 +6035,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-syncedTabsList
+SYNCED_TABS_LIST
 )
 /
 *
@@ -6062,7 +6062,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-emptyNormalTabsList
+EMPTY_NORMAL_TABS_LIST
 )
 /
 *
@@ -6089,7 +6089,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-emptyPrivateTabsList
+EMPTY_PRIVATE_TABS_LIST
 )
 /
 *
@@ -6125,7 +6125,7 @@ onAllNodesWithTag
 (
 TabsTrayTestTag
 .
-tabItemRoot
+TAB_ITEM_ROOT
 )
 .
 filter
@@ -6177,7 +6177,7 @@ onAllNodesWithTag
 (
 TabsTrayTestTag
 .
-tabItemRoot
+TAB_ITEM_ROOT
 useUnmergedTree
 =
 true
@@ -6232,7 +6232,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabItemClose
+TAB_ITEM_CLOSE
 )
 /
 *
@@ -6268,7 +6268,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabItemThumbnail
+TAB_ITEM_THUMBNAIL
 )
 /
 *
@@ -6299,7 +6299,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-threeDotButton
+THREE_DOT_BUTTON
 )
 /
 *
@@ -6329,7 +6329,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-accountSettings
+ACCOUNT_SETTINGS
 )
 /
 *
@@ -6359,7 +6359,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-closeAllTabs
+CLOSE_ALL_TABS
 )
 /
 *
@@ -6390,7 +6390,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-recentlyClosedTabs
+RECENTLY_CLOSED_TABS
 )
 /
 *
@@ -6419,7 +6419,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-selectTabs
+SELECT_TABS
 )
 /
 *
@@ -6449,7 +6449,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-shareAllTabs
+SHARE_ALL_TABS
 )
 /
 *
@@ -6479,7 +6479,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabSettings
+TAB_SETTINGS
 )
 /
 *
@@ -6505,7 +6505,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-normalTabsCounter
+NORMAL_TABS_COUNTER
 )
 /
 *
@@ -6533,7 +6533,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-collectionsButton
+COLLECTIONS_BUTTON
 )
 /
 *
@@ -6562,7 +6562,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-selectionCounter
+SELECTION_COUNTER
 )
 /
 *
@@ -6589,7 +6589,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-bannerHandle
+BANNER_HANDLE
 )
 /
 *
@@ -6655,5 +6655,5 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-bannerTestTagRoot
+BANNER_ROOT
 )

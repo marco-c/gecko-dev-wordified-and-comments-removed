@@ -275,7 +275,7 @@ MozAC
 +
 Build
 .
-version
+VERSION
 private
 const
 val

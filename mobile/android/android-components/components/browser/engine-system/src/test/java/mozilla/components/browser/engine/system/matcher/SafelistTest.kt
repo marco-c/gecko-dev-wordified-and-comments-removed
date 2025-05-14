@@ -834,7 +834,7 @@ Expected
 }
 }
 val
-SAFE_LIST_JSON
+safelistJson
 =
 "
 "
@@ -937,7 +937,7 @@ JsonReader
 (
 StringReader
 (
-SAFE_LIST_JSON
+safelistJson
 )
 )
 )

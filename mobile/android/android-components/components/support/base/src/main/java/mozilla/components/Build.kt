@@ -123,7 +123,7 @@ SNAPSHOT
 /
 const
 val
-version
+VERSION
 :
 String
 =
@@ -175,7 +175,7 @@ runtime
 /
 const
 val
-applicationServicesVersion
+APPLICATION_SERVICES_VERSION
 :
 String
 =
@@ -207,7 +207,7 @@ against
 /
 const
 val
-gleanSdkVersion
+GLEAN_SDK_VERSION
 :
 String
 =
@@ -242,7 +242,7 @@ from
 /
 const
 val
-gitHash
+GIT_HASH
 :
 String
 =

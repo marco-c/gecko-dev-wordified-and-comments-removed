@@ -183,7 +183,7 @@ WallpaperMetadataFetcher
 .
 Companion
 .
-currentJsonVersion
+CURRENT_JSON_VERSION
 import
 java
 .
@@ -235,7 +235,7 @@ android
 metadata
 /
 v
-currentJsonVersion
+CURRENT_JSON_VERSION
 /
 wallpapers
 .

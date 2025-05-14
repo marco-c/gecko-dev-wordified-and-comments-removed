@@ -157,7 +157,7 @@ Random
 private
 const
 val
-mockProviderName
+MOCK_PROVIDER_NAME
 =
 LocationManager
 .
@@ -407,7 +407,7 @@ locationManager
 .
 addTestProvider
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 false
 false
 false
@@ -446,7 +446,7 @@ locationManager
 .
 setTestProviderEnabled
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 true
 )
 }
@@ -471,14 +471,14 @@ locationManager
 .
 setTestProviderEnabled
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 false
 )
 locationManager
 .
 removeTestProvider
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 )
 }
 /
@@ -580,7 +580,7 @@ location
 =
 Location
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 )
 location
 .
@@ -704,7 +704,7 @@ locationManager
 .
 setTestProviderLocation
 (
-mockProviderName
+MOCK_PROVIDER_NAME
 location
 )
 }

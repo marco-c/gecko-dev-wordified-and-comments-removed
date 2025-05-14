@@ -857,7 +857,7 @@ topsites
 .
 TopSitesTestTag
 .
-topSiteCardFavicon
+TOP_SITE_CARD_FAVICON
 import
 org
 .
@@ -871,7 +871,7 @@ ui
 .
 HomepageTestTag
 .
-homepage
+HOMEPAGE
 import
 org
 .
@@ -885,7 +885,7 @@ ui
 .
 HomepageTestTag
 .
-homepageWordMarkLogo
+HOMEPAGE_WORDMARK_LOGO
 import
 org
 .
@@ -899,7 +899,7 @@ ui
 .
 HomepageTestTag
 .
-homepageWordMarkText
+HOMEPAGE_WORDMARK_TEXT
 import
 org
 .
@@ -913,7 +913,7 @@ ui
 .
 HomepageTestTag
 .
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 import
 org
 .
@@ -1371,7 +1371,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-homepage
+HOMEPAGE
 )
 .
 assertIsDisplayed
@@ -3259,7 +3259,7 @@ hasTestTag
 (
 TopSitesTestTag
 .
-topSites
+TOP_SITES
 )
 timeoutMillis
 =
@@ -3312,7 +3312,7 @@ onNodeWithTag
 (
 TopSitesTestTag
 .
-topSites
+TOP_SITES
 )
 .
 assertIsDisplayed
@@ -3615,7 +3615,7 @@ hasTestTag
 (
 TopSitesTestTag
 .
-topSiteItemRoot
+TOP_SITE_ITEM_ROOT
 )
 .
 and
@@ -3746,7 +3746,7 @@ UiSelector
 .
 resourceId
 (
-topSiteCardFavicon
+TOP_SITE_CARD_FAVICON
 )
 )
 )
@@ -6066,7 +6066,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-homepage
+HOMEPAGE
 )
 .
 performScrollToNode
@@ -6788,7 +6788,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 .
 assertExists
@@ -6913,7 +6913,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-fab
+FAB
 )
 .
 assertExists
@@ -7084,7 +7084,7 @@ onNodeWithTag
 (
 TabsTrayTestTag
 .
-tabsTray
+TABS_TRAY
 )
 .
 assertExists
@@ -8966,7 +8966,7 @@ hasTestTag
 (
 TopSitesTestTag
 .
-remove
+REMOVE
 )
 waitingTime
 )
@@ -9725,7 +9725,7 @@ composeTestRule
 .
 onNodeWithTag
 (
-homepage
+HOMEPAGE
 )
 .
 performScrollToNode
@@ -10576,7 +10576,7 @@ UiSelector
 .
 resourceId
 (
-homepage
+HOMEPAGE
 )
 .
 scrollable
@@ -10749,7 +10749,7 @@ privateBrowsingButton
 =
 itemWithResId
 (
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 )
 private
 fun
@@ -10761,7 +10761,7 @@ Boolean
 =
 itemWithResId
 (
-privateBrowsingHomepageButton
+PRIVATE_BROWSING_HOMEPAGE_BUTTON
 )
 .
 isChecked
@@ -10773,7 +10773,7 @@ homepageWordmarkLogo
 =
 itemWithResId
 (
-homepageWordMarkLogo
+HOMEPAGE_WORDMARK_LOGO
 )
 private
 fun
@@ -10783,7 +10783,7 @@ homepageWordmarkText
 =
 itemWithResId
 (
-homepageWordMarkText
+HOMEPAGE_WORDMARK_TEXT
 )
 private
 fun
@@ -10957,7 +10957,7 @@ onAllNodesWithTag
 (
 TopSitesTestTag
 .
-topSiteItemRoot
+TOP_SITE_ITEM_ROOT
 )
 .
 filter
@@ -10986,7 +10986,7 @@ onAllNodesWithTag
 (
 TopSitesTestTag
 .
-openInPrivateTab
+OPEN_IN_PRIVATE_TAB
 )
 .
 onFirst
@@ -11004,7 +11004,7 @@ onAllNodesWithTag
 (
 TopSitesTestTag
 .
-edit
+EDIT
 )
 .
 onFirst
@@ -11022,7 +11022,7 @@ onAllNodesWithTag
 (
 TopSitesTestTag
 .
-remove
+REMOVE
 )
 .
 onFirst

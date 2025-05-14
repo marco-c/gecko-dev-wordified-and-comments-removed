@@ -231,7 +231,7 @@ testTag
 =
 TabsTrayTestTag
 .
-emptyPrivateTabsList
+EMPTY_PRIVATE_TABS_LIST
 emptyTextId
 =
 R
@@ -246,7 +246,7 @@ testTag
 =
 TabsTrayTestTag
 .
-emptyNormalTabsList
+EMPTY_NORMAL_TABS_LIST
 emptyTextId
 =
 R

@@ -538,7 +538,7 @@ name
 =
 Wallpaper
 .
-defaultName
+DEFAULT
 )
 )
 }

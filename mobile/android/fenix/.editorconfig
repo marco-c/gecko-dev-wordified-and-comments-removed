@@ -143,11 +143,6 @@ list
 disabled
 ktlint_standard_property
 -
-naming
-=
-disabled
-ktlint_standard_property
--
 wrapping
 =
 disabled

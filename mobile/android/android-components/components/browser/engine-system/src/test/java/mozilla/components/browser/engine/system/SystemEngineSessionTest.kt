@@ -2277,7 +2277,7 @@ runTest
 {
 SystemEngineView
 .
-URL_MATCHER
+urlMatcher
 =
 UrlMatcher
 (

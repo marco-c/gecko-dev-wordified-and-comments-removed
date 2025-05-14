@@ -525,11 +525,11 @@ Initialize
 UiDevice
 instance
 val
-LAUNCH_TIMEOUT
+appLaunchTimeoutMillis
 =
 5000
 val
-SETTINGS_APP
+settingsPackage
 =
 "
 com
@@ -551,7 +551,7 @@ UiSelector
 .
 packageName
 (
-SETTINGS_APP
+settingsPackage
 )
 .
 enabled
@@ -586,7 +586,7 @@ packageManager
 .
 getLaunchIntentForPackage
 (
-SETTINGS_APP
+settingsPackage
 )
 val
 testPage
@@ -657,7 +657,7 @@ depth
 0
 )
 )
-LAUNCH_TIMEOUT
+appLaunchTimeoutMillis
 .
 toLong
 (

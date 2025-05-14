@@ -1852,7 +1852,7 @@ true
 )
 JvmField
 var
-AddtoHSmenuItem
+addtoHSmenuItem
 =
 mDevice
 .
@@ -1881,7 +1881,7 @@ true
 )
 JvmField
 var
-AddtoHSCancelBtn
+addtoHSCancelBtn
 =
 mDevice
 .

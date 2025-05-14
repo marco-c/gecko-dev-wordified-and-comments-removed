@@ -619,7 +619,7 @@ testTag
 (
 NavBarTestTags
 .
-tabCounterButton
+TAB_COUNTER_BUTTON
 )
 update
 =

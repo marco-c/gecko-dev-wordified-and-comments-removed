@@ -2551,7 +2551,7 @@ testTag
 (
 NavBarTestTags
 .
-navbar
+NAVBAR
 )
 horizontalArrangement
 =
@@ -2676,7 +2676,7 @@ testTag
 (
 NavBarTestTags
 .
-backButton
+BACK_BUTTON
 )
 )
 {
@@ -2792,7 +2792,7 @@ testTag
 (
 NavBarTestTags
 .
-forwardButton
+FORWARD_BUTTON
 )
 )
 {
@@ -2867,7 +2867,7 @@ testTag
 (
 NavBarTestTags
 .
-searchButton
+SEARCH_BUTTON
 )
 )
 {
@@ -2967,7 +2967,7 @@ testTag
 (
 NavBarTestTags
 .
-menuButton
+MENU_BUTTON
 )
 )
 {
@@ -3020,7 +3020,7 @@ testTag
 (
 NavBarTestTags
 .
-menuButton
+MENU_BUTTON
 )
 factory
 =
@@ -3161,7 +3161,7 @@ testTag
 (
 NavBarTestTags
 .
-openInBrowserButton
+OPEN_IN_BROWSER_BUTTON
 )
 )
 {
