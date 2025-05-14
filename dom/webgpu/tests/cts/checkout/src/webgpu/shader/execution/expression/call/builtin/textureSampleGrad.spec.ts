@@ -137,7 +137,6 @@ kShortAddressModeToAddressMode
 kShortShaderStages
 SamplePointMethods
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
-skipIfTextureViewAndFormatNotCompatibleForDevice
 TextureCall
 vec2
 vec3
@@ -1297,9 +1296,10 @@ minFilter
 format
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 format
 viewDimension
 )

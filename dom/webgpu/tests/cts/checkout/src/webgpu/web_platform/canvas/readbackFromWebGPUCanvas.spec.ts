@@ -2862,6 +2862,8 @@ alpha
 true
 }
 )
+as
+CanvasRenderingContext2D
 ;
 if
 (

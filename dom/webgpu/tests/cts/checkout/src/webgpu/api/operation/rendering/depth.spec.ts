@@ -1602,7 +1602,7 @@ kMiddleDepthValue
 =
 0
 .
-5001
+4
 ;
 g
 .

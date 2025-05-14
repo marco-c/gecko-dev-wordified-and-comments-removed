@@ -147,7 +147,6 @@ chooseTextureSize
 isPotentiallyFilterableAndFillable
 getTextureTypeForTextureViewDimension
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
-skipIfTextureViewAndFormatNotCompatibleForDevice
 }
 from
 '
@@ -1249,9 +1248,10 @@ minFilter
 format
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 format
 viewDimension
 )

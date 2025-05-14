@@ -141,7 +141,7 @@ js
 import
 {
 kUncompressedTextureFormats
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 UncompressedTextureFormat
 EncodableTextureFormat
 isColorTextureFormat
@@ -2500,7 +2500,7 @@ format
 )
 =
 >
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 (
 dimension
 format

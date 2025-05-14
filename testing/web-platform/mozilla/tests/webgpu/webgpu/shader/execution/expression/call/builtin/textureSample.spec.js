@@ -89,7 +89,7 @@ import
 isDepthTextureFormat
 kDepthStencilFormats
 kAllTextureFormats
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 isTextureFormatPossiblyFilterableAsTextureF32
 }
 from
@@ -157,7 +157,6 @@ isPotentiallyFilterableAndFillable
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
 getTextureTypeForTextureViewDimension
 generateTextureBuiltinInputs1D
-skipIfTextureViewAndFormatNotCompatibleForDevice
 }
 from
 '
@@ -286,7 +285,7 @@ t
 )
 =
 >
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 (
 '
 1d
@@ -370,6 +369,16 @@ minFilter
 t
 .
 params
+;
+t
+.
+skipIfTextureFormatAndDimensionNotCompatible
+(
+format
+'
+1d
+'
+)
 ;
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
 (
@@ -2057,9 +2066,10 @@ minFilter
 format
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 format
 viewDimension
 )
