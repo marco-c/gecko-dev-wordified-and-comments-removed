@@ -1627,6 +1627,13 @@ arraybuffer_functions
 arraybuffer_properties
 arraybuffer_proto_functions
 arraybuffer_proto_properties
+GenericFinishInit
+<
+WhichHasFuseProperty
+:
+:
+ProtoAndCtor
+>
 }
 ;
 static
