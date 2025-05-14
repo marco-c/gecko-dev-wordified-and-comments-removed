@@ -1716,6 +1716,8 @@ QuickSuggest
 .
 getFeatureByResult
 (
+details
+.
 result
 )
 ;
