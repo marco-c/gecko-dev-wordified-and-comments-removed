@@ -321,7 +321,7 @@ const
 val
 TARGET_SIZE
 =
-16
+32
 private
 const
 val
