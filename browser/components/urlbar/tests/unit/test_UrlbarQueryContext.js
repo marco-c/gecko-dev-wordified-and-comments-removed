@@ -21,6 +21,8 @@ throws
 new
 UrlbarQueryContext
 (
+{
+}
 )
 /
 Missing
