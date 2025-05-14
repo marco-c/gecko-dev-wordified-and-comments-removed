@@ -1323,6 +1323,12 @@ type
 )
 }
 }
+SuppressLint
+(
+"
+RecyclerView
+"
+)
 override
 fun
 onBindViewHolder

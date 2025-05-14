@@ -131,6 +131,14 @@ androidx
 .
 core
 .
+content
+.
+withStyledAttributes
+import
+androidx
+.
+core
+.
 view
 .
 isVisible
@@ -258,7 +266,7 @@ View
 GONE
 context
 .
-obtainStyledAttributes
+withStyledAttributes
 (
 attrs
 R
@@ -269,8 +277,6 @@ ActionContainer
 defStyleAttr
 0
 )
-.
-run
 {
 actionSize
 =
@@ -289,9 +295,6 @@ ActionContainer_actionContainerItemSize
 0
 )
 }
-recycle
-(
-)
 }
 }
 fun
