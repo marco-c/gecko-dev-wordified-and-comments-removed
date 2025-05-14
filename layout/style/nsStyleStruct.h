@@ -3185,8 +3185,8 @@ aValue
 mozilla
 :
 :
-StylePhysicalAxis
-aAxis
+Side
+aSide
 mozilla
 :
 :
@@ -3219,7 +3219,13 @@ return
 ResolveAnchor
 (
 aValue
-aAxis
+mozilla
+:
+:
+ToStylePhysicalSide
+(
+aSide
+)
 aPosition
 )
 ;
@@ -3259,8 +3265,8 @@ aValue
 mozilla
 :
 :
-StylePhysicalAxis
-aAxis
+StylePhysicalSide
+aSide
 mozilla
 :
 :
@@ -4478,10 +4484,7 @@ Get
 (
 aSide
 )
-GetStylePhysicalAxis
-(
 aSide
-)
 aPosition
 )
 ;

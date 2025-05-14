@@ -1256,6 +1256,9 @@ PositionProperty
 PhysicalAxis
 "
 "
+PhysicalSide
+"
+"
 QueryFontMetricsFlags
 "
 ]

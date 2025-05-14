@@ -40,7 +40,7 @@ crate
 logical_geometry
 :
 :
-PhysicalAxis
+PhysicalSide
 ;
 use
 crate
@@ -5510,11 +5510,11 @@ f
 >
 {
 let
-axis
+side
 =
 info
 .
-axis
+side
 .
 expect
 (
@@ -5530,7 +5530,7 @@ f
 .
 resolve
 (
-axis
+side
 info
 .
 position_property
@@ -5643,11 +5643,11 @@ struct
 CalcAnchorFunctionResolutionInfo
 {
 pub
-axis
+side
 :
 Option
 <
-PhysicalAxis
+PhysicalSide
 >
 pub
 position_property

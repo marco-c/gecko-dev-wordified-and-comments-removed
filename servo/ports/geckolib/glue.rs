@@ -1022,7 +1022,7 @@ style
 logical_geometry
 :
 :
-PhysicalAxis
+PhysicalSide
 ;
 use
 style
@@ -44722,12 +44722,12 @@ length_percentage
 :
 :
 CalcLengthPercentage
-axis
+side
 :
 Option
 <
 &
-PhysicalAxis
+PhysicalSide
 >
 position_property
 :
@@ -44748,9 +44748,9 @@ resolve_anchor
 (
 CalcAnchorFunctionResolutionInfo
 {
-axis
+side
 :
-axis
+side
 .
 copied
 (
@@ -52729,9 +52729,9 @@ func
 :
 &
 AnchorFunction
-axis
+side
 :
-PhysicalAxis
+PhysicalSide
 prop
 :
 PositionProperty
@@ -52754,7 +52754,7 @@ func
 .
 resolve
 (
-axis
+side
 prop
 )
 )
