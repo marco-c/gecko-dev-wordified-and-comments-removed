@@ -6190,17 +6190,6 @@ drag
 ;
 }
 else
-if
-(
-dropIndex
-!
-=
-=
-undefined
-|
-|
-dropElement
-)
 {
 moveTabs
 (
