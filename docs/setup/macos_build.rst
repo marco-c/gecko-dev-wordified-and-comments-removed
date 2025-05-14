@@ -586,7 +586,9 @@ block
 :
 shell
 cd
-firefox
+mozilla
+-
+unified
 git
 pull
 .
@@ -1678,7 +1680,9 @@ block
 :
 shell
 cd
-firefox
+mozilla
+-
+unified
 #
 Creates
 virtual

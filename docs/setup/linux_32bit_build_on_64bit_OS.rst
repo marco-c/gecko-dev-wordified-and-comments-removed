@@ -297,7 +297,9 @@ code
 directory
 (
 probably
-firefox
+mozilla
+-
+unified
 )
 that
 looks
