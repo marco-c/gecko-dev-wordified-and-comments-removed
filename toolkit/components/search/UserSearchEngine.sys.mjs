@@ -814,7 +814,7 @@ name
 *
 returns
 {
-bool
+boolean
 }
 *
 Whether
