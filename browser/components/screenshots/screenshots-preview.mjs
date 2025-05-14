@@ -522,17 +522,6 @@ this
 true
 )
 ;
-URL
-.
-revokeObjectURL
-(
-this
-.
-previewImg
-.
-src
-)
-;
 window
 .
 close
@@ -1211,7 +1200,7 @@ lazy
 .
 ScreenshotsUtils
 .
-copyScreenshot
+copyScreenshotFromBlobURL
 (
 imageSrc
 this
