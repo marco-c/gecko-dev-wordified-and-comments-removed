@@ -3147,9 +3147,6 @@ Highlight
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -3158,9 +3155,6 @@ name
 HighlightRegistry
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
