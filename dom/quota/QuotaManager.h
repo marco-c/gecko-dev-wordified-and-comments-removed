@@ -736,6 +736,12 @@ GetObserver
 )
 ;
 static
+void
+ProcessPendingNormalOriginOperations
+(
+)
+;
+static
 bool
 IsShuttingDown
 (
