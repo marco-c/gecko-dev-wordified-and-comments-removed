@@ -1104,9 +1104,7 @@ block
 :
 shell
 cd
-mozilla
--
-unified
+firefox
 .
 /
 mach

@@ -1458,9 +1458,7 @@ mozilla
 -
 source
 /
-mozilla
--
-unified
+firefox
 hg
 up
 -
@@ -2452,9 +2450,7 @@ mozilla
 -
 source
 \
-mozilla
--
-unified
+firefox
 .
 This
 can
