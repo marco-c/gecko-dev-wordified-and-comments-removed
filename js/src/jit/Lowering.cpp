@@ -25194,7 +25194,7 @@ input
 ins
 -
 >
-input
+address
 (
 )
 ;
@@ -35123,7 +35123,7 @@ MOZ_ASSERT
 ins
 -
 >
-sep
+separator
 (
 )
 -
@@ -35165,7 +35165,7 @@ useRegisterAtStart
 ins
 -
 >
-sep
+separator
 (
 )
 )
@@ -39836,7 +39836,7 @@ MOZ_ASSERT
 ins
 -
 >
-envChain
+environmentChain
 (
 )
 -
@@ -39885,7 +39885,7 @@ useRegister
 ins
 -
 >
-envChain
+environmentChain
 (
 )
 )
@@ -57540,7 +57540,7 @@ useRegister
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -57602,7 +57602,7 @@ useRegister
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -57664,7 +57664,7 @@ useRegister
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -57729,7 +57729,7 @@ useRegister
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -57800,7 +57800,7 @@ useRegister
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -57871,7 +57871,7 @@ useRegisterAtStart
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -58039,7 +58039,7 @@ useRegisterAtStart
 ins
 -
 >
-set
+setObject
 (
 )
 )
@@ -58080,7 +58080,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58145,7 +58145,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58216,7 +58216,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58287,7 +58287,7 @@ useRegisterAtStart
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58343,7 +58343,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58408,7 +58408,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58479,7 +58479,7 @@ useRegister
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58550,7 +58550,7 @@ useRegisterAtStart
 ins
 -
 >
-map
+mapObject
 (
 )
 )
@@ -58727,7 +58727,7 @@ useRegisterAtStart
 ins
 -
 >
-map
+mapObject
 (
 )
 )
