@@ -215,6 +215,9 @@ Boolean
 showAddWidgetPage
 :
 Boolean
+showToolbarPage
+:
+Boolean
 jexlConditions
 :
 Map
@@ -281,6 +284,7 @@ isCardEnabled
 showDefaultBrowserPage
 showNotificationPage
 showAddWidgetPage
+showToolbarPage
 )
 }
 .
@@ -336,6 +340,9 @@ showNotificationPage
 :
 Boolean
 showAddWidgetPage
+:
+Boolean
+showToolbarPage
 :
 Boolean
 )
@@ -396,6 +403,9 @@ OnboardingCardType
 TOOLBAR_PLACEMENT
 -
 >
+showToolbarPage
+&
+&
 enabled
 &
 &
