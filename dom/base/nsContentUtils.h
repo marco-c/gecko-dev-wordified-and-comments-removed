@@ -738,6 +738,9 @@ OwningFileOrUSVStringOrFormData
 class
 Selection
 ;
+struct
+SetHTMLUnsafeOptions
+;
 enum
 class
 ShadowRootMode
@@ -4949,6 +4952,16 @@ dom
 TrustedHTMLOrString
 &
 aSource
+const
+mozilla
+:
+:
+dom
+:
+:
+SetHTMLUnsafeOptions
+&
+aOptions
 bool
 aIsShadowRoot
 nsIPrincipal

@@ -565,6 +565,9 @@ struct
 CustomElementData
 ;
 struct
+SetHTMLUnsafeOptions
+;
+struct
 SetHTMLOptions
 ;
 struct
@@ -7196,6 +7199,10 @@ const
 TrustedHTMLOrString
 &
 aHTML
+const
+SetHTMLUnsafeOptions
+&
+aOptions
 nsIPrincipal
 *
 aSubjectPrincipal

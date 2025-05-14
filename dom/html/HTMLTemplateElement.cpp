@@ -530,6 +530,10 @@ const
 TrustedHTMLOrString
 &
 aHTML
+const
+SetHTMLUnsafeOptions
+&
+aOptions
 nsIPrincipal
 *
 aSubjectPrincipal
@@ -554,6 +558,7 @@ SetHTMLUnsafe
 content
 this
 aHTML
+aOptions
 false
 aSubjectPrincipal
 aError
