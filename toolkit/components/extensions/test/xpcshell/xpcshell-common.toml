@@ -1824,13 +1824,6 @@ on
 Windows
 [
 "
-test_ext_management_policy
-.
-js
-"
-]
-[
-"
 test_ext_management_uninstall_self
 .
 js
