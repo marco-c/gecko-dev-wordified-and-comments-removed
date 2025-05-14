@@ -3466,7 +3466,7 @@ GetFlattenedTreeParentNodeForStyle
 const
 ;
 inline
-nsIContent
+nsINode
 *
 GetFlattenedTreeParentNodeForSelection
 (
