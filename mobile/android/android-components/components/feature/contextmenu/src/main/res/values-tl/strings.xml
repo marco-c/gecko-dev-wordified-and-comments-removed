@@ -164,9 +164,9 @@ name
 mozac_feature_contextmenu_download_link
 "
 >
-i
+I
 -
-Download
+download
 ang
 link
 <
@@ -312,7 +312,7 @@ name
 mozac_feature_contextmenu_copy_image_location
 "
 >
-Koyahin
+Kopyahin
 ang
 lokasyon
 ng
@@ -352,7 +352,7 @@ I
 -
 save
 ang
-imahe
+larawan
 <
 /
 string
@@ -419,9 +419,9 @@ name
 mozac_feature_contextmenu_save_file_to_device
 "
 >
-i
+I
 -
-Save
+save
 ang
 file
 sa
