@@ -92,8 +92,6 @@ qa_tests
         
 super
 (
-QATests
-self
 )
 .
 __init__
