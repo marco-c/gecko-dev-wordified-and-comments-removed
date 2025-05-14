@@ -300,3 +300,12 @@ group
 (
 1
 )
+    
+def
+flush
+(
+self
+)
+:
+        
+pass
