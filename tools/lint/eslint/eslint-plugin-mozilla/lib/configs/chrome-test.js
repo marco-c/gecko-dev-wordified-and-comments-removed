@@ -30,15 +30,6 @@ globals
 SpecialPowers
 :
 false
-afterEach
-:
-false
-beforeEach
-:
-false
-describe
-:
-false
 extractJarToTmp
 :
 false
@@ -52,9 +43,6 @@ getResolvedURI
 :
 false
 getRootDirectory
-:
-false
-it
 :
 false
 }
