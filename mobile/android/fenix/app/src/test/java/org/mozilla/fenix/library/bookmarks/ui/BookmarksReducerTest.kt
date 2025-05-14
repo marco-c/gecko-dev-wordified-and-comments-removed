@@ -191,6 +191,13 @@ it
 guid
 it
 "
+position
+=
+it
+.
+toUInt
+(
+)
 )
 }
 val
@@ -210,6 +217,9 @@ title
 "
 Bookmarks
 "
+position
+=
+1U
 )
 val
 result
@@ -291,6 +301,9 @@ title
 "
 mozilla
 "
+position
+=
+null
 )
 )
 val
@@ -324,6 +337,9 @@ title
 "
 mozilla
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -1234,6 +1250,9 @@ title
 "
 Bookmarks
 "
+position
+=
+1U
 )
 folderBeingAddedTitle
 =
@@ -1334,6 +1353,9 @@ url
 "
 guid
 "
+position
+=
+null
 )
 folder
 =
@@ -1347,6 +1369,9 @@ parentTitle
 "
 parentGuid
 "
+position
+=
+1U
 )
 )
 )
@@ -1364,6 +1389,9 @@ Bookmark
 "
 guid
 "
+position
+=
+null
 )
 val
 result
@@ -1449,6 +1477,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -1527,6 +1558,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -1617,6 +1651,9 @@ url
 "
 guid
 "
+position
+=
+null
 )
 folder
 =
@@ -1630,6 +1667,9 @@ parentTitle
 "
 parentGuid
 "
+position
+=
+1U
 )
 )
 bookmarksAddFolderState
@@ -1654,6 +1694,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -1761,6 +1804,9 @@ title
 "
 Bookmarks
 "
+position
+=
+2U
 )
 folder
 =
@@ -1779,6 +1825,9 @@ title
 New
 Bookmarks
 "
+position
+=
+1U
 )
 )
 )
@@ -1871,6 +1920,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folder
 =
@@ -1889,6 +1941,9 @@ title
 New
 Bookmarks
 "
+position
+=
+null
 )
 )
 )
@@ -1963,6 +2018,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folder
 =
@@ -1981,6 +2039,9 @@ title
 New
 Bookmarks
 "
+position
+=
+null
 )
 )
 )
@@ -2059,6 +2120,7 @@ Bookmark
 "
 "
 "
+null
 )
 folder
 =
@@ -2076,6 +2138,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 )
 )
@@ -2465,6 +2530,7 @@ Bookmarks
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2481,6 +2547,7 @@ One
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2497,6 +2564,7 @@ Two
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2513,6 +2581,7 @@ Two
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2529,6 +2598,7 @@ One
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2545,6 +2615,7 @@ Two
 "
 guid1
 "
+null
 )
 )
 SelectFolderItem
@@ -2561,6 +2632,7 @@ Three
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2577,6 +2649,7 @@ Nested
 "
 guid0
 "
+null
 )
 )
 )
@@ -2677,6 +2750,7 @@ Bookmarks
 "
 guid0
 "
+null
 )
 )
 bookmarksSelectFolderState
@@ -2705,6 +2779,7 @@ Bookmarks
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -2721,6 +2796,7 @@ Nested
 "
 guid0
 "
+null
 )
 )
 )
@@ -2756,6 +2832,7 @@ Nested
 "
 guid0
 "
+null
 )
 )
 )
@@ -2789,6 +2866,7 @@ Nested
 "
 guid0
 "
+null
 )
 )
 bookmarksSelectFolderState
@@ -2901,6 +2979,7 @@ Bookmarks
 guid
 0
 "
+null
 )
 )
 SelectFolderItem
@@ -2918,6 +2997,7 @@ Nested
 guid
 1
 "
+null
 )
 )
 SelectFolderItem
@@ -2935,6 +3015,7 @@ Nested
 folder
 1
 "
+null
 )
 )
 SelectFolderItem
@@ -2952,6 +3033,7 @@ Nested
 folder
 2
 "
+null
 )
 )
 )
@@ -2988,6 +3070,7 @@ Nested
 folder
 2
 "
+null
 )
 )
 )
@@ -3100,6 +3183,7 @@ Bookmarks
 "
 0
 "
+null
 )
 )
 bookmarksAddFolderState
@@ -3118,6 +3202,7 @@ Bookmarks
 "
 0
 "
+null
 )
 folderBeingAddedTitle
 =
@@ -3155,6 +3240,7 @@ Bookmarks
 "
 0
 "
+null
 )
 )
 SelectFolderItem
@@ -3171,6 +3257,7 @@ Nested
 "
 1
 "
+null
 )
 )
 )
@@ -3206,6 +3293,7 @@ Nested
 "
 1
 "
+null
 )
 )
 )
@@ -3239,6 +3327,7 @@ Nested
 "
 1
 "
+null
 )
 )
 bookmarksSelectFolderState
@@ -3303,6 +3392,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -3317,6 +3407,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -3414,6 +3505,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -3428,6 +3520,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -3470,6 +3563,7 @@ BookmarkRoot
 Root
 .
 id
+null
 )
 val
 result
@@ -3529,6 +3623,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -3543,6 +3638,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -3693,6 +3789,7 @@ Folder
 "
 guid0
 "
+null
 )
 )
 bookmarksSnackbarState
@@ -3784,6 +3881,7 @@ Folder
 "
 guid0
 "
+null
 )
 )
 bookmarksSnackbarState
@@ -3876,6 +3974,7 @@ Folder
 "
 guid0
 "
+null
 )
 )
 bookmarksSnackbarState
@@ -3919,6 +4018,9 @@ previewImageUrl
 "
 previewImage
 "
+position
+=
+null
 )
 val
 result
@@ -3999,6 +4101,7 @@ Folder
 "
 guid0
 "
+null
 )
 val
 state
@@ -4083,6 +4186,7 @@ Folder
 "
 guid0
 "
+null
 )
 val
 state
@@ -4166,6 +4270,7 @@ Folder
 "
 guid0
 "
+null
 )
 val
 state
@@ -4264,6 +4369,7 @@ Folder
 "
 guid0
 "
+null
 )
 val
 state
@@ -4358,6 +4464,7 @@ Folder
 "
 guid0
 "
+null
 )
 val
 state
@@ -4461,6 +4568,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -4475,6 +4583,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -4571,6 +4680,7 @@ url
 "
 guid
 "
+null
 )
 val
 state
@@ -4660,6 +4770,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -4755,6 +4866,7 @@ url
 "
 guid
 "
+null
 )
 val
 item2
@@ -4865,6 +4977,7 @@ url
 "
 guid
 "
+null
 )
 val
 item2
@@ -4965,6 +5078,7 @@ url
 "
 guid
 "
+null
 )
 val
 state
@@ -4993,6 +5107,7 @@ BookmarkRoot
 Mobile
 .
 id
+null
 )
 bookmark
 =
@@ -5261,6 +5376,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -5275,6 +5391,7 @@ title
 "
 guid
 "
+null
 )
 val
 result
@@ -5361,6 +5478,7 @@ url
 "
 guid
 "
+null
 )
 val
 parent
@@ -5375,6 +5493,7 @@ title
 "
 guid
 "
+null
 )
 val
 state
@@ -5564,6 +5683,12 @@ dateAdded
 Long
 =
 0
+position
+:
+UInt
+?
+=
+null
 )
 =
 BookmarkItem
@@ -5576,6 +5701,7 @@ previewImageUrl
 "
 num
 "
+position
 dateAdded
 )
 private
@@ -5599,6 +5725,12 @@ dateAdded
 Long
 =
 0
+position
+:
+UInt
+?
+=
+null
 )
 =
 BookmarkItem
@@ -5609,8 +5741,7 @@ title
 "
 num
 "
-dateAdded
-=
+position
 dateAdded
 )
 }

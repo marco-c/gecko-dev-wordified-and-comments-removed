@@ -6676,6 +6676,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 isSignedIntoSync
 =
@@ -6745,6 +6748,9 @@ guid
 "
 1
 "
+position
+=
+null
 )
 folder
 =
@@ -6761,6 +6767,7 @@ guid
 "
 1
 "
+null
 )
 )
 bookmarksSelectFolderState
@@ -6877,6 +6884,9 @@ guid
 "
 it
 "
+position
+=
+null
 )
 }
 else
@@ -6894,6 +6904,9 @@ guid
 "
 it
 "
+position
+=
+null
 )
 }
 }
@@ -6949,6 +6962,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 isSignedIntoSync
 =
@@ -7077,6 +7093,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 isSignedIntoSync
 =
@@ -7199,6 +7218,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 isSignedIntoSync
 =
@@ -7243,6 +7265,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -7352,6 +7377,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 isSignedIntoSync
 =
@@ -7381,6 +7409,9 @@ title
 "
 Bookmarks
 "
+position
+=
+null
 )
 folderBeingAddedTitle
 =
@@ -7438,6 +7469,7 @@ Bookmarks
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7456,6 +7488,7 @@ BookmarkRoot
 Root
 .
 id
+null
 )
 )
 SelectFolderItem
@@ -7474,6 +7507,7 @@ BookmarkRoot
 Menu
 .
 id
+null
 )
 )
 SelectFolderItem
@@ -7492,6 +7526,7 @@ BookmarkRoot
 Toolbar
 .
 id
+null
 )
 )
 SelectFolderItem
@@ -7510,6 +7545,7 @@ BookmarkRoot
 Unfiled
 .
 id
+null
 )
 )
 SelectFolderItem
@@ -7526,6 +7562,7 @@ One
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7542,6 +7579,7 @@ Two
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7558,6 +7596,7 @@ Two
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7574,6 +7613,7 @@ One
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7590,6 +7630,7 @@ Two
 "
 guid1
 "
+null
 )
 )
 SelectFolderItem
@@ -7606,6 +7647,7 @@ Three
 "
 guid0
 "
+null
 )
 )
 SelectFolderItem
@@ -7622,6 +7664,7 @@ Nested
 "
 guid0
 "
+null
 )
 )
 )
