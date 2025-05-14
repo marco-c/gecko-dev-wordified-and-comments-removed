@@ -3701,6 +3701,17 @@ getResultGroup
 result
 )
 {
+/
+/
+Used
+for
+test_suggestedIndexRelativeToGroup
+.
+js
+to
+make
+it
+simpler
 if
 (
 result

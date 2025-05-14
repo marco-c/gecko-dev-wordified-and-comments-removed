@@ -3922,11 +3922,13 @@ optional
 |
 |
 expected
-.
-hasOwnProperty
-(
+[
 key
-)
+]
+!
+=
+=
+undefined
 )
 {
 map
