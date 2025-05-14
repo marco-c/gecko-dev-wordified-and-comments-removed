@@ -7068,6 +7068,17 @@ public
 static
 final
 String
+EXTRA_CRASH_PROCESS_TYPE
+=
+"
+processType
+"
+;
+field
+public
+static
+final
+String
 EXTRA_CRASH_PROCESS_VISIBILITY
 =
 "

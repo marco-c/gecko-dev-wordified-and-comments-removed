@@ -187,6 +187,9 @@ GeckoRuntime
 .
 CRASHED_PROCESS_VISIBILITY_FOREGROUND_CHILD
 "
+content
+"
+"
 web
 "
 )

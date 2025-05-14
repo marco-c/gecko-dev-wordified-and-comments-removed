@@ -185,6 +185,9 @@ setEvalNextCrashDump
 GeckoRuntime
 .
 CRASHED_PROCESS_VISIBILITY_MAIN
+"
+main
+"
 null
 )
 val

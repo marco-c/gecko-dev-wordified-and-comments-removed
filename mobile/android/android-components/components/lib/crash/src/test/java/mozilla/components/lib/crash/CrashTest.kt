@@ -235,6 +235,11 @@ Crash
 NativeCodeCrash
 .
 PROCESS_VISIBILITY_FOREGROUND_CHILD
+processType
+=
+"
+content
+"
 breadcrumbs
 =
 arrayListOf
@@ -307,6 +312,15 @@ Crash
 NativeCodeCrash
 .
 PROCESS_VISIBILITY_FOREGROUND_CHILD
+)
+assertEquals
+(
+recoveredCrash
+.
+processType
+"
+content
+"
 )
 assertEquals
 (
@@ -642,6 +656,9 @@ NativeCodeCrash
 "
 "
 "
+processType
+=
+null
 breadcrumbs
 =
 arrayListOf

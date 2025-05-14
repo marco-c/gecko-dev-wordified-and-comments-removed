@@ -225,6 +225,9 @@ null
 processVisibility
 =
 null
+processType
+=
+null
 remoteType
 =
 null
@@ -330,6 +333,9 @@ extrasPath
 =
 null
 processVisibility
+=
+null
+processType
 =
 null
 remoteType

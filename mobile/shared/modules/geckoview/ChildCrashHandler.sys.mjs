@@ -626,6 +626,18 @@ BACKGROUND_CHILD
 FOREGROUND_CHILD
 "
 ;
+const
+processType
+=
+aSubject
+.
+get
+(
+"
+processType
+"
+)
+;
 lazy
 .
 EventDispatcher
@@ -651,6 +663,7 @@ fatal
 :
 false
 processVisibility
+processType
 remoteType
 }
 )

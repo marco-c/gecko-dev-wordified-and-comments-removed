@@ -396,6 +396,14 @@ additional_minidumps
 ]
 ;
 }
+const
+char
+*
+ProcessType
+(
+)
+const
+;
 static
 void
 RecordCrash
