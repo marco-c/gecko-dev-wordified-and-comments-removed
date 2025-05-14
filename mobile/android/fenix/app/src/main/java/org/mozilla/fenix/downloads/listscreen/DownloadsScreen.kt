@@ -1329,10 +1329,7 @@ dispatch
 (
 DownloadUIAction
 .
-UndoPendingDeletionSet
-(
-it
-)
+UndoPendingDeletion
 )
 }
 )
