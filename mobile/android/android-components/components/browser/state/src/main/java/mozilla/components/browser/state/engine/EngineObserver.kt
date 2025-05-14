@@ -848,6 +848,14 @@ appIntent
 :
 Intent
 ?
+fallbackUrl
+:
+String
+?
+appName
+:
+String
+?
 )
 {
 store
@@ -863,6 +871,8 @@ AppIntentState
 (
 url
 appIntent
+fallbackUrl
+appName
 )
 )
 )

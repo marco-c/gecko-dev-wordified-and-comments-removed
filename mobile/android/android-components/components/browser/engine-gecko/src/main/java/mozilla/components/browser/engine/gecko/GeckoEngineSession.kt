@@ -5670,6 +5670,12 @@ url
 appIntent
 =
 appIntent
+fallbackUrl
+=
+fallbackUrl
+appName
+=
+appName
 )
 }
 }

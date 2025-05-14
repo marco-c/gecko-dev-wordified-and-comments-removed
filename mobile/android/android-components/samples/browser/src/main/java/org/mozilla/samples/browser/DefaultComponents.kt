@@ -1659,10 +1659,9 @@ lazy
 {
 AppLinksInterceptor
 (
-applicationContext
-interceptLinkClicks
+context
 =
-true
+applicationContext
 launchInApp
 =
 {

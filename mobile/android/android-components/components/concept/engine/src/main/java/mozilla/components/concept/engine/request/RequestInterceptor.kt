@@ -286,6 +286,16 @@ val
 url
 :
 String
+val
+fallbackUrl
+:
+String
+?
+val
+appName
+:
+String
+?
 )
 :
 InterceptionResponse

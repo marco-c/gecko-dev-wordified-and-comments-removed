@@ -8337,6 +8337,12 @@ url
 appIntent
 =
 intent
+fallbackUrl
+=
+null
+appName
+=
+null
 )
 verify
 (
@@ -8358,6 +8364,8 @@ AppIntentState
 (
 url
 intent
+null
+null
 )
 )
 )

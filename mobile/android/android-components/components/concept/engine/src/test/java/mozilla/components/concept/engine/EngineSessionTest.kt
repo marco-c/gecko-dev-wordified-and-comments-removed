@@ -789,6 +789,8 @@ mozilla
 org
 "
 null
+null
+null
 )
 }
 session
@@ -1156,6 +1158,8 @@ mozilla
 org
 "
 null
+null
+null
 )
 verify
 (
@@ -1515,6 +1519,8 @@ mozilla
 .
 org
 "
+null
+null
 null
 )
 }
@@ -1878,6 +1884,8 @@ firefox
 com
 "
 null
+null
+null
 )
 }
 session
@@ -2112,6 +2120,8 @@ mozilla
 .
 org
 "
+null
+null
 null
 )
 verify
@@ -2496,6 +2506,8 @@ firefox
 .
 com
 "
+null
+null
 null
 )
 verifyNoMoreInteractions
@@ -8856,6 +8868,8 @@ mozilla
 .
 org
 "
+null
+null
 null
 )
 observer
