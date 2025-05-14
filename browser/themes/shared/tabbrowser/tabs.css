@@ -10806,6 +10806,11 @@ padding
 -
 block
 :
+calc
+(
+(
+24px
+-
 var
 (
 -
@@ -10816,7 +10821,11 @@ group
 -
 label
 -
-padding
+height
+)
+)
+/
+2
 )
 ;
 }
