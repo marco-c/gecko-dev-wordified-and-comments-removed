@@ -141,15 +141,6 @@ brand
 .
 ftl
 "
-"
-locales
--
-preview
-/
-dataCollectionPermissions
-.
-ftl
-"
 ]
 true
 )
