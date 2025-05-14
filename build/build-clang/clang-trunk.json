@@ -89,7 +89,7 @@ buffer
 -
 header
 -
-workaround
+workaround_clang_21
 .
 patch
 "
