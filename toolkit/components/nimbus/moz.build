@@ -161,6 +161,15 @@ schema
 .
 json
 "
+"
+schemas
+/
+NimbusEnrollment
+.
+schema
+.
+json
+"
 ]
 GeneratedFile
 (

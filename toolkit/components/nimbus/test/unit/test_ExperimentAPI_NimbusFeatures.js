@@ -50,6 +50,10 @@ resource
 :
 /
 /
+testing
+-
+common
+/
 nimbus
 /
 schemas
