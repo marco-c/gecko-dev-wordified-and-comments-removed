@@ -91,6 +91,16 @@ biometric
 .
 BiometricManager
 .
+Authenticators
+.
+DEVICE_CREDENTIAL
+import
+androidx
+.
+biometric
+.
+BiometricManager
+.
 BIOMETRIC_ERROR_HW_UNAVAILABLE
 import
 androidx
@@ -192,6 +202,8 @@ status
 canAuthenticate
 (
 BIOMETRIC_WEAK
+or
+DEVICE_CREDENTIAL
 )
 return
 status
