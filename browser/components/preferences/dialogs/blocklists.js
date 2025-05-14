@@ -620,7 +620,11 @@ const
 messageIdsMap
 =
 {
+"
+moz
+-
 std
+"
 :
 {
 name
@@ -650,7 +654,11 @@ std
 description
 "
 }
+"
+moz
+-
 full
+"
 :
 {
 name
