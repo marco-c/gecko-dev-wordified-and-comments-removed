@@ -199,9 +199,16 @@ support
 page
 =
 "
-local
+on
+-
+device
 -
 models
+"
+target
+=
+"
+_blank
 "
 >
 <
