@@ -1126,6 +1126,13 @@ task
 cancellable_
 )
 ;
+{
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 if
 (
 state
@@ -1147,6 +1154,7 @@ task
 {
 return
 ;
+}
 }
 if
 (
