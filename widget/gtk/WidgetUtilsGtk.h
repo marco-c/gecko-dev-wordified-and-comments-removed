@@ -170,16 +170,6 @@ IsRunningUnderSnap
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_DBUS
-void
-RegisterHostApp
-(
-)
-;
-#
-endif
 enum
 class
 PortalKind
