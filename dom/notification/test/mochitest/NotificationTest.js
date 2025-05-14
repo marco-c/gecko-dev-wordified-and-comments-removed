@@ -405,9 +405,6 @@ unregister
 }
 )
 ;
-return
-registration
-;
 }
 async
 function
