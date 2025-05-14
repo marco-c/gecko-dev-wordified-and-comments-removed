@@ -152,6 +152,7 @@ ScrollSnapType
 ScrollbarGutter
 TouchAction
 WillChange
+WritingModeProperty
 }
 ;
 pub

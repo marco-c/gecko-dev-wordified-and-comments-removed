@@ -463,6 +463,7 @@ ScrollbarGutter
 TouchAction
 VerticalAlign
 WillChange
+WritingModeProperty
 Zoom
 }
 ;

@@ -87,6 +87,16 @@ values
 :
 CustomIdent
 ;
+pub
+use
+crate
+:
+:
+logical_geometry
+:
+:
+WritingModeProperty
+;
 use
 cssparser
 :

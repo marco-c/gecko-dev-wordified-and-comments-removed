@@ -374,6 +374,7 @@ TouchAction
 VerticalAlign
 WillChange
 WillChangeBits
+WritingModeProperty
 Zoom
 }
 ;
