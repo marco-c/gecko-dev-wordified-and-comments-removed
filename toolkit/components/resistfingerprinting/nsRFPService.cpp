@@ -1490,7 +1490,7 @@ aMode
 StaticPrefs
 :
 :
-privacy_spoof_english
+privacy_spoof_english_DoNotUseDirectly
 (
 )
 =
