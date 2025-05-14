@@ -35840,8 +35840,6 @@ aReflowInput
 nsReflowStatus
 &
 aStatus
-bool
-aConstrainBSize
 )
 {
 ReflowAbsoluteFrames
@@ -35850,7 +35848,6 @@ aPresContext
 aDesiredSize
 aReflowInput
 aStatus
-aConstrainBSize
 )
 ;
 FinishAndStoreOverflow
@@ -35882,8 +35879,6 @@ aReflowInput
 nsReflowStatus
 &
 aStatus
-bool
-aConstrainBSize
 )
 {
 if
@@ -35995,21 +35990,12 @@ AbsPosReflowFlags
 :
 :
 CBWidthAndHeightChanged
-;
-if
-(
-aConstrainBSize
-)
-{
-flags
 |
-=
 AbsPosReflowFlags
 :
 :
 ConstrainHeight
 ;
-}
 absoluteContainer
 -
 >

@@ -8359,10 +8359,6 @@ aReflowInput
 nsReflowStatus
 &
 aStatus
-bool
-aConstrainBSize
-=
-true
 )
 ;
 bool
@@ -11254,10 +11250,6 @@ aReflowInput
 nsReflowStatus
 &
 aStatus
-bool
-aConstrainBSize
-=
-true
 )
 ;
 private
