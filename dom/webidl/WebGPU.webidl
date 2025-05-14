@@ -901,6 +901,17 @@ compression
 astc
 "
 "
+texture
+-
+compression
+-
+astc
+-
+sliced
+-
+3d
+"
+"
 timestamp
 -
 query
