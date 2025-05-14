@@ -65,6 +65,13 @@ js
 ]
 [
 "
+test_UrlbarProviderSemanticHistorySearch
+.
+js
+"
+]
+[
+"
 test_UrlbarQueryContext
 .
 js

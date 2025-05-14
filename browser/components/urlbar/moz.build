@@ -345,6 +345,13 @@ sys
 mjs
 "
 "
+UrlbarProviderSemanticHistorySearch
+.
+sys
+.
+mjs
+"
+"
 UrlbarProvidersManager
 .
 sys
