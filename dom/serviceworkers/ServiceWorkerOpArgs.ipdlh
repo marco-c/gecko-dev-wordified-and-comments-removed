@@ -66,9 +66,6 @@ include
 FetchTypes
 ;
 include
-NeckoChannelParams
-;
-include
 "
 mozilla
 /
@@ -157,8 +154,11 @@ eventName
 struct
 ServiceWorkerCookieChangeEventOpArgs
 {
-CookieStruct
-cookie
+nsString
+name
+;
+nsString
+value
 ;
 bool
 deleted
