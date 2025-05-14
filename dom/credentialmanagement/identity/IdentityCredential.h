@@ -470,14 +470,16 @@ aPrincipal
 CanonicalBrowsingContext
 *
 aBrowsingContext
-const
 IdentityCredentialRequestOptions
+&
 &
 aOptions
 const
 CredentialMediationRequirement
 &
 aMediationRequirement
+bool
+aHasUserActivation
 )
 ;
 static
