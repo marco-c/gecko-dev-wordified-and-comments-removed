@@ -5517,7 +5517,7 @@ ignored
 ;
 }
 }
-auto
+EditorDOMPoint
 pointToInsert
 =
 [
@@ -5525,9 +5525,6 @@ pointToInsert
 ]
 (
 )
--
->
-EditorDOMPoint
 {
 if
 (
