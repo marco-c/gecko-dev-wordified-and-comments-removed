@@ -2239,6 +2239,7 @@ aMsgCode
 WM_GETOBJECT
 |
 |
+(
 static_cast
 <
 LONG
@@ -2249,6 +2250,19 @@ aLParam
 !
 =
 OBJID_CLIENT
+&
+&
+static_cast
+<
+LONG
+>
+(
+aLParam
+)
+!
+=
+UiaRootObjectId
+)
 |
 |
 !
