@@ -938,13 +938,10 @@ how
 long
 the
 undo
-action
+snackbar
 will
 be
-available
-in
-the
-snackbar
+visible
 .
 *
 param
@@ -1599,10 +1596,7 @@ dispatch
 (
 DownloadUIAction
 .
-UndoPendingDeletionSet
-(
-it
-)
+UndoPendingDeletion
 )
 }
 )
