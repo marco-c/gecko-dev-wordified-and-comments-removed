@@ -115,6 +115,7 @@ eTimeoutOrInterval
 eIdleCallbackTimeout
 eAbortSignalTimeout
 eDelayedWebTaskTimeout
+eJSTimeout
 }
 ;
 struct

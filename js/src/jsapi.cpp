@@ -17010,7 +17010,7 @@ void
 JS
 :
 :
-InitDispatchToEventLoop
+InitDispatchsToEventLoop
 (
 JSContext
 *
@@ -17020,6 +17020,11 @@ JS
 :
 DispatchToEventLoopCallback
 callback
+JS
+:
+:
+DelayedDispatchToEventLoopCallback
+delayCallback
 void
 *
 closure
@@ -17042,6 +17047,7 @@ ref
 init
 (
 callback
+delayCallback
 closure
 )
 ;
