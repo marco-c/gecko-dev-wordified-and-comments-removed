@@ -1737,7 +1737,7 @@ traceRuntime
 JSTracer
 *
 trc
-AutoTraceSession
+AutoHeapSession
 &
 session
 )
@@ -3316,6 +3316,14 @@ shouldYieldForZeal
 (
 ZealMode
 mode
+)
+;
+void
+verifyPostBarriers
+(
+AutoHeapSession
+&
+session
 )
 ;
 #

@@ -97,6 +97,7 @@ Callback
 UnmarkGray
 VerifyTraceProtoAndIface
 CompartmentCheck
+HeapCheck
 }
 ;
 enum

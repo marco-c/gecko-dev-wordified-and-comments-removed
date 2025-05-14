@@ -1674,7 +1674,7 @@ traceRuntime
 JSTracer
 *
 trc
-AutoTraceSession
+AutoHeapSession
 &
 session
 )
