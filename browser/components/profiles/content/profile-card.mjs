@@ -732,7 +732,9 @@ css
 /
 >
 <
-div
+moz
+-
+card
 data
 -
 l10n
@@ -1024,7 +1026,9 @@ div
 >
 <
 /
-div
+moz
+-
+card
 >
 ;
 }
