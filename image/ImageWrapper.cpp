@@ -526,7 +526,7 @@ NS_IMETHODIMP
 ImageWrapper
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *
@@ -537,7 +537,7 @@ return
 mInnerImage
 -
 >
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 aSize
 )

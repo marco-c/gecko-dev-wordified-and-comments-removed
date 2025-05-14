@@ -478,7 +478,7 @@ noscript
 readonly
 attribute
 nsSize
-intrinsicSize
+intrinsicSizeInAppUnits
 ;
 [
 notxpcom

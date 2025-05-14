@@ -921,7 +921,7 @@ NS_IMETHODIMP
 ClippedImage
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *
@@ -942,7 +942,7 @@ InnerImage
 )
 -
 >
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 aSize
 )

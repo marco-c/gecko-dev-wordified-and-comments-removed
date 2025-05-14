@@ -4633,7 +4633,7 @@ NS_SUCCEEDED
 mImage
 -
 >
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 &
 size
@@ -5714,7 +5714,7 @@ NS_SUCCEEDED
 mImage
 -
 >
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 &
 intrinsicSize

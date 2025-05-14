@@ -423,7 +423,7 @@ NS_IMETHODIMP
 DynamicImage
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *
