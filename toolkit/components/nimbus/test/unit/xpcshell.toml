@@ -212,13 +212,6 @@ js
 ]
 [
 "
-test_SharedDataMap
-.
-js
-"
-]
-[
-"
 test_TargetingContextRecorder
 .
 js

@@ -116,3 +116,10 @@ browser_remotesettingsexperimentloader_remote_defaults
 js
 "
 ]
+[
+"
+browser_SharedDataMap
+.
+js
+"
+]
