@@ -726,6 +726,13 @@ GetServerCertHashes
 (
 )
 ;
+const
+nsCString
+&
+OriginFrameHashKey
+(
+)
+;
 private
 :
 void
@@ -812,6 +819,9 @@ mPendingQ
 ConnectionEntry
 (
 )
+;
+nsCString
+mOriginFrameHashKey
 ;
 bool
 mRetriedDifferentIPFamilyForHttp3
