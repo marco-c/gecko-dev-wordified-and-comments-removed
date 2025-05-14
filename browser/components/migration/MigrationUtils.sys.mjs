@@ -1099,7 +1099,7 @@ true
 "
 MigrationWizard
 :
-SelectSafariPasswordFile
+SelectManualPasswordFile
 "
 :
 {

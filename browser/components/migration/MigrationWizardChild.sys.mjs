@@ -803,7 +803,7 @@ case
 "
 MigrationWizard
 :
-SelectSafariPasswordFile
+SelectManualPasswordFile
 "
 :
 {
@@ -816,7 +816,7 @@ this
 sendQuery
 (
 "
-SelectSafariPasswordFile
+SelectManualPasswordFile
 "
 )
 ;
@@ -829,7 +829,7 @@ event
 .
 detail
 .
-safariPasswordFilePath
+manualPasswordFilePath
 =
 path
 ;
@@ -1803,7 +1803,7 @@ PASSWORDS
 !
 migrationDetails
 .
-safariPasswordFilePath
+manualPasswordFilePath
 )
 {
 this
