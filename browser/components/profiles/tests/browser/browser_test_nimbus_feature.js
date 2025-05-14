@@ -9,7 +9,7 @@ defineESModuleGetters
 (
 this
 {
-ExperimentFakes
+NimbusTestUtils
 :
 "
 resource
@@ -115,7 +115,7 @@ let
 experimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -303,7 +303,7 @@ let
 experimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
