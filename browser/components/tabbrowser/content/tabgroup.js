@@ -1393,15 +1393,6 @@ tab
 )
 ;
 }
-}
-for
-(
-let
-tab
-of
-tabs
-)
-{
 let
 tabToMove
 =
