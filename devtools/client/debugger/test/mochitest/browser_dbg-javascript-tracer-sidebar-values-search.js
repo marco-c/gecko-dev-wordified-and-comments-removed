@@ -693,6 +693,9 @@ trace
 line
 "
 )
+!
+=
+focusedTrace
 )
 ;
 focusedTrace
