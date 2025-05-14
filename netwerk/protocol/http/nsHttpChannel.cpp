@@ -13576,6 +13576,14 @@ CookieHeaders
 )
 )
 ;
+if
+(
+!
+LoadOnStartRequestCalled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIParentChannel
@@ -13614,6 +13622,7 @@ CookieHeaders
 )
 )
 ;
+}
 }
 nsresult
 rv
