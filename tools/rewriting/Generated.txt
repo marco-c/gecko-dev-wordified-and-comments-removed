@@ -3633,6 +3633,13 @@ onchange
 changesets
 .
 json
+docs
+/
+mots
+/
+index
+.
+rst
 node_modules
 /
 python
