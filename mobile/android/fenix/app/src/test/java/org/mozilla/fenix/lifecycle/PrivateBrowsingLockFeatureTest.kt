@@ -4682,13 +4682,6 @@ listener
 =
 listener
 }
-override
-fun
-removeFeatureStateListener
-(
-)
-{
-}
 }
 private
 fun
