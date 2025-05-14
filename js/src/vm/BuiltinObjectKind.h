@@ -46,7 +46,6 @@ BuiltinObjectKind
 uint8_t
 {
 Array
-Int32Array
 ListFormat
 Map
 Promise
@@ -56,9 +55,6 @@ SharedArrayBuffer
 Symbol
 FunctionPrototype
 IteratorPrototype
-ObjectPrototype
-RegExpPrototype
-StringPrototype
 DateTimeFormatPrototype
 NumberFormatPrototype
 None
