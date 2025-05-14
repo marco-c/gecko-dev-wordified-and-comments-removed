@@ -149,6 +149,17 @@ ComputedValues
 StyleBuilder
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 selectors
 :

@@ -170,6 +170,7 @@ font
 {
 FONT_MEDIUM_LINE_HEIGHT_PX
 FONT_MEDIUM_PX
+QueryFontMetricsFlags
 }
 ;
 use
@@ -292,12 +293,9 @@ Font
 base_size
 :
 CSSPixelLength
-in_media_query
+flags
 :
-bool
-retrieve_math_scales
-:
-bool
+QueryFontMetricsFlags
 )
 -
 >
@@ -1211,12 +1209,9 @@ Font
 base_size
 :
 CSSPixelLength
-in_media_query
+flags
 :
-bool
-retrieve_math_scales
-:
-bool
+QueryFontMetricsFlags
 )
 -
 >
@@ -1244,8 +1239,7 @@ query_font_metrics
 vertical
 font
 base_size
-in_media_query
-retrieve_math_scales
+flags
 )
 }
 pub

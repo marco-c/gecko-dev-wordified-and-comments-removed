@@ -6077,10 +6077,13 @@ use
 crate
 :
 :
-gecko
+values
 :
 :
-media_queries
+specified
+:
+:
+font
 :
 :
 QueryFontMetricsFlags
