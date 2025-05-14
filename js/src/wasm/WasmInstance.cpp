@@ -13179,6 +13179,18 @@ CompileMode
 LazyTiering
 )
 {
+const
+size_t
+codeSectionSize
+=
+codeMeta
+(
+)
+.
+codeSectionSize
+(
+)
+;
 for
 (
 uint32_t
@@ -13216,6 +13228,7 @@ hotnessCounter
 computeInitialHotnessCounter
 (
 funcIndex
+codeSectionSize
 )
 ;
 }
@@ -15621,6 +15634,8 @@ computeInitialHotnessCounter
 (
 uint32_t
 funcIndex
+size_t
+codeSectionSize
 )
 {
 MOZ_ASSERT
@@ -15638,6 +15653,13 @@ CompileMode
 :
 :
 LazyTiering
+)
+;
+MOZ_ASSERT
+(
+codeSectionSize
+>
+0
 )
 ;
 uint32_t
@@ -15661,6 +15683,7 @@ LazyTieringHeuristics
 estimateIonCompilationCost
 (
 bodyLength
+codeSectionSize
 )
 ;
 }
