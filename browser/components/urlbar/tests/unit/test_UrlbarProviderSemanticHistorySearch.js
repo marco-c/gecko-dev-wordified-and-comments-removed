@@ -566,8 +566,12 @@ minLength
 ;
 canUseStub
 .
-returns
+get
 (
+(
+)
+=
+>
 false
 )
 ;
@@ -595,8 +599,12 @@ false
 ;
 canUseStub
 .
-returns
+get
 (
+(
+)
+=
+>
 true
 )
 ;
