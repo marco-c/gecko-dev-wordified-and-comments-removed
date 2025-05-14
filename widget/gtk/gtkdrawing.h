@@ -375,7 +375,6 @@ MOZ_GTK_SCALE_TROUGH_HORIZONTAL
 MOZ_GTK_SCALE_TROUGH_VERTICAL
 MOZ_GTK_SCALE_THUMB_HORIZONTAL
 MOZ_GTK_SCALE_THUMB_VERTICAL
-MOZ_GTK_ENTRY
 MOZ_GTK_EXPANDER
 MOZ_GTK_TEXT_VIEW
 MOZ_GTK_TEXT_VIEW_TEXT
@@ -640,11 +639,6 @@ moz_gtk_get_titlebar_button_spacing
 (
 )
 ;
-gint
-moz_gtk_get_titlebar_preferred_height
-(
-)
-;
 size_t
 GetGtkHeaderBarButtonLayout
 (
@@ -658,11 +652,6 @@ ButtonLayout
 bool
 *
 aReversedButtonsPlacement
-)
-;
-GtkBorder
-GetTopLevelCSDDecorationSize
-(
 )
 ;
 #
