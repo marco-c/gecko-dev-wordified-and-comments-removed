@@ -429,7 +429,7 @@ s
 )
 HG_TO_GIT_MIGRATION_COMPLETE
 =
-False
+True
 ON_GIT
 =
 get_repository_object
@@ -8123,7 +8123,8 @@ True
                         
 push_to_vcs
 =
-True
+not
+ON_GIT
                     
 )
                 
@@ -8293,7 +8294,8 @@ True
                     
 push_to_vcs
 =
-True
+not
+ON_GIT
                 
 )
             
@@ -10495,6 +10497,8 @@ n
         
 if
 HG_TO_GIT_MIGRATION_COMPLETE
+and
+ON_GIT
 :
             
 perfcompare_url
