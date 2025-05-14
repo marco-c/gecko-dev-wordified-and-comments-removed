@@ -126,7 +126,7 @@ FFmpegAudioEncoder
 default
 ;
 virtual
-nsresult
+MediaResult
 InitSpecific
 (
 )
@@ -141,7 +141,7 @@ LIBAVCODEC_VERSION_MAJOR
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 EncodeOnePacket
 (
@@ -160,7 +160,7 @@ aPts
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 EncodeInputWithModernAPIs
 (
@@ -179,7 +179,7 @@ MediaDataEncoder
 :
 :
 EncodedData
-nsresult
+MediaResult
 >
 DrainWithModernAPIs
 (
@@ -211,7 +211,7 @@ already_AddRefed
 <
 MediaByteBuffer
 >
-nsresult
+MediaResult
 >
 GetExtraData
 (

@@ -137,7 +137,7 @@ FFmpegVideoEncoder
 default
 ;
 virtual
-nsresult
+MediaResult
 InitSpecific
 (
 )
@@ -152,7 +152,7 @@ LIBAVCODEC_VERSION_MAJOR
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 EncodeInputWithModernAPIs
 (
@@ -190,7 +190,7 @@ already_AddRefed
 <
 MediaByteBuffer
 >
-nsresult
+MediaResult
 >
 GetExtraData
 (
