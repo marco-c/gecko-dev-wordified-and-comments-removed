@@ -4269,6 +4269,12 @@ WellKnownAtomId
 :
 dollar_RegExpToString_
 :
+case
+WellKnownAtomId
+:
+:
+dollar_SharedArrayBufferSpecies_
+:
 {
 #
 ifdef
