@@ -348,6 +348,7 @@ ctx
 vpx_codec_iface_t
 *
 iface
+const
 vpx_codec_enc_cfg_t
 *
 cfg
@@ -355,6 +356,7 @@ int
 num_enc
 vpx_codec_flags_t
 flags
+const
 vpx_rational_t
 *
 dsf
@@ -403,6 +405,10 @@ num_enc
 <
 1
 )
+|
+|
+!
+dsf
 )
 res
 =

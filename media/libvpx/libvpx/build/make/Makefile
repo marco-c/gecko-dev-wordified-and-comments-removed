@@ -1436,6 +1436,8 @@ armv9
 -
 a
 +
+i8mm
++
 sve2
 (
 BUILD_PFX
@@ -1456,6 +1458,8 @@ march
 armv9
 -
 a
++
+i8mm
 +
 sve2
 #
