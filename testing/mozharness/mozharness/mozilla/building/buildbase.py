@@ -1604,24 +1604,6 @@ py
         
 "
 arm
--
-gradle
--
-dependencies
-"
-:
-path_base
-        
-+
-"
-%
-s_arm_gradle_dependencies
-.
-py
-"
-        
-"
-arm
 "
 :
 path_base
