@@ -11,8 +11,6 @@ collections
 import
 deque
 import
-six
-import
 mozpack
 .
 path
@@ -1802,10 +1800,6 @@ True
                 
 install_rdf
 =
-six
-.
-ensure_text
-(
 file
 .
 open
@@ -1815,6 +1809,9 @@ open
 read
 (
 )
+.
+decode
+(
 )
                 
 if
@@ -1865,10 +1862,6 @@ json
                 
 manifest
 =
-six
-.
-ensure_text
-(
 file
 .
 open
@@ -1877,7 +1870,6 @@ open
 .
 read
 (
-)
 )
                 
 try

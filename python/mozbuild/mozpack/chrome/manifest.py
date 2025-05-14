@@ -2,13 +2,7 @@ import
 os
 import
 re
-import
-six
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -2199,13 +2193,20 @@ in
 fileobj
 :
         
-line
-=
-six
-.
-ensure_text
+if
+isinstance
 (
 line
+bytes
+)
+:
+            
+line
+=
+line
+.
+decode
+(
 )
         
 linenum

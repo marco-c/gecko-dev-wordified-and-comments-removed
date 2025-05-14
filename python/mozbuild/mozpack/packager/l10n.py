@@ -22,8 +22,6 @@ import
 json
 import
 os
-import
-six
 from
 createprecomplete
 import
@@ -492,10 +490,6 @@ json
 .
 loads
 (
-six
-.
-ensure_text
-(
 file
 .
 open
@@ -504,7 +498,6 @@ open
 .
 read
 (
-)
 )
 )
             
