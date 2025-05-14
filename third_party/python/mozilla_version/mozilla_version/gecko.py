@@ -921,6 +921,8 @@ _KNOWN_ESR_MAJOR_NUMBERS
 115
         
 128
+        
+140
     
 )
     
@@ -3676,13 +3678,12 @@ major_number
 self
 .
 _LAST_AURORA_DEVEDITION_AS_VERSION_TYPE
-            
+        
+)
 or
 self
 .
 is_aurora_or_devedition
-        
-)
 :
             
 bump_version_type_kwargs
