@@ -11711,13 +11711,7 @@ evaluateMessagesForMicrosurvey
 (
 components
 )
-(
-requireActivity
-(
-)
-as
-HomeActivity
-)
+requireComponents
 .
 privateBrowsingLockFeature
 .

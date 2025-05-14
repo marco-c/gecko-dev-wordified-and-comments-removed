@@ -8021,13 +8021,7 @@ authenticationStatus
 AuthenticationStatus
 .
 NOT_AUTHENTICATED
-(
-requireActivity
-(
-)
-as
-HomeActivity
-)
+requireComponents
 .
 privateBrowsingLockFeature
 .
