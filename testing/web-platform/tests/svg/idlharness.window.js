@@ -113,9 +113,6 @@ animate
 set
 '
 '
-discard
-'
-'
 animateMotion
 '
 '
@@ -1195,15 +1192,6 @@ SVGAnimateElement
 objects
 .
 animate
-'
-]
-SVGDiscardElement
-:
-[
-'
-objects
-.
-discard
 '
 ]
 SVGSetElement
