@@ -318,7 +318,7 @@ __func__
 mAvailablePromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
@@ -326,7 +326,7 @@ __func__
 mTimingPromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
@@ -334,7 +334,7 @@ __func__
 mEndPromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
