@@ -880,6 +880,17 @@ texture
 -
 compression
 -
+bc
+-
+sliced
+-
+3d
+"
+"
+texture
+-
+compression
+-
 etc2
 "
 "
