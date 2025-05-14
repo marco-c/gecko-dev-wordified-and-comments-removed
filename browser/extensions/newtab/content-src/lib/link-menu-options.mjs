@@ -773,6 +773,9 @@ type
 at
 .
 BLOCK_URL
+source
+:
+eventSource
 data
 :
 tiles
