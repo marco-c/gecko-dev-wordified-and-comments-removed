@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-logEvent
+evalAndLogEvent
 getThrownMessage
 }
 =
@@ -660,7 +660,7 @@ logValue
 )
 {
 return
-logEvent
+evalAndLogEvent
 (
 {
 threadActor
