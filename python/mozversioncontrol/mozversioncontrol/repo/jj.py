@@ -1252,13 +1252,13 @@ rev
 latest
 (
 (
-|
--
-)
 ~
 empty
 (
 )
+)
+|
+-
 )
 "
         
@@ -2638,13 +2638,13 @@ commit_message
 latest
 (
 (
-|
--
-)
 ~
 empty
 (
 )
+)
+|
+-
 )
 "
 )
