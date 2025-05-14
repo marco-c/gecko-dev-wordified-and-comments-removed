@@ -946,9 +946,6 @@ options
 CheckBookmark
 "
 "
-ReportContent
-"
-"
 Separator
 "
 "
@@ -962,6 +959,9 @@ Separator
 "
 "
 BlockUrl
+"
+"
+ReportContent
 "
 ]
 )
