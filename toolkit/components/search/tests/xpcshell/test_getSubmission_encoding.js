@@ -715,14 +715,14 @@ data
 )
 ;
 let
-formData
+params
 =
 new
-FormData
+URLSearchParams
 (
 )
 ;
-formData
+params
 .
 append
 (
@@ -764,7 +764,7 @@ com
 /
 user
 "
-formData
+params
 method
 :
 "
