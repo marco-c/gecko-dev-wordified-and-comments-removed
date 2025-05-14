@@ -5636,6 +5636,12 @@ mChildArgs
 ;
 #
 if
+defined
+(
+XP_LINUX
+)
+&
+&
 !
 defined
 (
