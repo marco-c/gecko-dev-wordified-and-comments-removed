@@ -22,8 +22,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozfile
 import
@@ -1091,10 +1089,6 @@ result
             
 p
 :
-six
-.
-ensure_text
-(
 f
 .
 open
@@ -1104,6 +1098,9 @@ open
 read
 (
 )
+.
+decode
+(
 )
             
 for

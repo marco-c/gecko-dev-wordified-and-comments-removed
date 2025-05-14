@@ -7,6 +7,10 @@ textwrap
 import
 unittest
 from
+io
+import
+StringIO
+from
 buildconfig
 import
 topsrcdir
@@ -21,10 +25,6 @@ mozunit
 import
 MockedOpen
 main
-from
-six
-import
-StringIO
 from
 common
 import

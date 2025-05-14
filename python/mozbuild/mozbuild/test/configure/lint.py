@@ -2,8 +2,6 @@ import
 os
 import
 unittest
-import
-six
 from
 buildconfig
 import
@@ -143,18 +141,15 @@ name
 bases
 attrs
 )
-six
-.
-add_metaclass
-(
-LintMeta
-)
 class
 Lint
 (
 unittest
 .
 TestCase
+metaclass
+=
+LintMeta
 )
 :
     

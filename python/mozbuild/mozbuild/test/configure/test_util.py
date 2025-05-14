@@ -10,8 +10,10 @@ import
 textwrap
 import
 unittest
+from
+io
 import
-six
+StringIO
 from
 buildconfig
 import
@@ -26,10 +28,6 @@ from
 mozunit
 import
 main
-from
-six
-import
-StringIO
 from
 common
 import
@@ -2987,10 +2985,6 @@ self
 .
 assertEqual
 (
-six
-.
-ensure_text
-(
 out
 .
 getvalue
@@ -2999,7 +2993,6 @@ getvalue
 .
 strip
 (
-)
 )
 quote_char
 )

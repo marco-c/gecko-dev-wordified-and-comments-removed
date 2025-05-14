@@ -9,6 +9,10 @@ fnmatch
 import
 fnmatch
 from
+io
+import
+StringIO
+from
 textwrap
 import
 dedent
@@ -23,10 +27,6 @@ mozunit
 import
 MockedOpen
 main
-from
-six
-import
-StringIO
 from
 mozbuild
 .

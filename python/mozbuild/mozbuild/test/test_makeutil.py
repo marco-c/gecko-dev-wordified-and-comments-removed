@@ -3,13 +3,13 @@ os
 import
 unittest
 from
+io
+import
+StringIO
+from
 mozunit
 import
 main
-from
-six
-import
-StringIO
 from
 mozbuild
 .

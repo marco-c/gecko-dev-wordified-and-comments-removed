@@ -6,23 +6,21 @@ import
 textwrap
 import
 unittest
+from
+io
+import
+StringIO
 import
 mozpack
 .
 path
 as
 mozpath
-import
-six
 from
 mozunit
 import
 MockedOpen
 main
-from
-six
-import
-StringIO
 from
 mozbuild
 .
@@ -169,15 +167,10 @@ options
 :
             
 return
-six
-.
-ensure_text
-(
 out
 .
 getvalue
 (
-)
 )
 config
         
