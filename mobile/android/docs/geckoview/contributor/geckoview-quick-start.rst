@@ -577,7 +577,7 @@ contributing
 -
 to
 -
-mc
+firefox
 .
 html
 >

@@ -140,8 +140,7 @@ Firefox
 development
 .
 -
-Mozilla
-Central
+Firefox
 Contributor
 Guide
 <
@@ -149,7 +148,7 @@ contributing
 -
 to
 -
-mc
+firefox
 .
 html
 >
@@ -161,8 +160,7 @@ as
 a
 contributor
 to
-Mozilla
-Central
+Firefox
 .
 -
 Guide
