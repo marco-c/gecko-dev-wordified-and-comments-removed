@@ -8669,6 +8669,11 @@ Add
 )
 ;
 }
+bool
+finishedPageUseCounters
+=
+false
+;
 if
 (
 mPageUseCountersWindow
@@ -8684,6 +8689,10 @@ FinishAccumulatingPageUseCounters
 mPageUseCountersWindow
 =
 nullptr
+;
+finishedPageUseCounters
+=
+true
 ;
 }
 if
@@ -9063,6 +9072,7 @@ ReportCanvasFingerprintingLog
 DocumentPrincipal
 (
 )
+finishedPageUseCounters
 )
 ;
 GetContentBlockingLog
