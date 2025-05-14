@@ -41,6 +41,10 @@ pixman_region32_t
 region_type_t
 ;
 typedef
+int
+primitive_t
+;
+typedef
 int64_t
 overflow_int_t
 ;
@@ -72,6 +76,13 @@ INT32_MAX
 define
 PIXMAN_REGION_MIN
 INT32_MIN
+#
+define
+PRINT_SPECIFIER
+"
+%
+d
+"
 #
 include
 "

@@ -825,6 +825,13 @@ c
 '
 pixman
 -
+region64f
+.
+c
+'
+'
+pixman
+-
 riscv
 .
 c
