@@ -386,7 +386,7 @@ letterSpacing
 sp
 lineHeight
 =
-24
+32
 .
 sp
 )
