@@ -3602,8 +3602,6 @@ is_sframe_due
 sframe_enabled
 &
 &
-!
-(
 gf_group
 -
 >
@@ -3611,10 +3609,9 @@ frame_type
 [
 frame_index
 ]
-=
+!
 =
 S_FRAME
-)
 ;
 gf_group
 -
