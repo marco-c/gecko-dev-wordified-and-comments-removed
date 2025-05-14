@@ -625,15 +625,6 @@ page
 html
 "
 "
-html_sse
--
-test
--
-page
-.
-html
-"
-"
 html_ws
 -
 sse
