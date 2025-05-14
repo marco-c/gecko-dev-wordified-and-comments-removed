@@ -15,6 +15,7 @@ from
 .
 import
 assert_browsing_context
+find_context_info
 pytestmark
 =
 pytest
@@ -88,6 +89,25 @@ type_hint
 type_hint
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+top_level_context
+[
+"
+context
+"
+]
+)
+    
 context_info
 =
 await
@@ -121,6 +141,18 @@ about
 :
 blank
 "
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 pytest
@@ -351,6 +383,39 @@ context
 "
 ]
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+)
+    
+assert
+len
+(
+contexts
+)
+=
+=
+3
+    
+found_context
+=
+find_context_info
+(
+contexts
+context_info
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -376,5 +441,14 @@ about
 :
 blank
 "
+        
+client_window
+=
+found_context
+[
+"
+clientWindow
+"
+]
     
 )

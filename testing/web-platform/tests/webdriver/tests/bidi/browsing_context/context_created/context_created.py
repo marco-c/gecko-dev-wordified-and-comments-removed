@@ -29,6 +29,7 @@ from
 .
 import
 assert_browsing_context
+find_context_info
 pytestmark
 =
 pytest
@@ -231,6 +232,25 @@ wait_for_future_safe
 on_entry
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+top_level_context
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -264,6 +284,18 @@ user_context
 "
 default
 "
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 async
@@ -341,6 +373,39 @@ wait_for_future_safe
 on_entry
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+)
+    
+assert
+len
+(
+contexts
+)
+=
+=
+2
+    
+found_context
+=
+find_context_info
+(
+contexts
+context_info
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -372,6 +437,15 @@ top_context
 [
 "
 context
+"
+]
+        
+client_window
+=
+found_context
+[
+"
+clientWindow
 "
 ]
     
@@ -474,6 +548,39 @@ wait_for_future_safe
 on_entry
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+)
+    
+assert
+len
+(
+contexts
+)
+=
+=
+2
+    
+found_context
+=
+find_context_info
+(
+contexts
+context_info
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -505,6 +612,15 @@ top_context
 [
 "
 context
+"
+]
+        
+client_window
+=
+found_context
+[
+"
+clientWindow
 "
 ]
     
@@ -591,6 +707,25 @@ type_hint
 type_hint
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+context
+[
+"
+context
+"
+]
+)
+    
 assert
 len
 (
@@ -636,6 +771,18 @@ user_context
 "
 default
 "
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -858,6 +1005,18 @@ root_info
 context
 "
 ]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -897,6 +1056,26 @@ root_info
 [
 "
 context
+"
+]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+children
+"
+]
+[
+0
+]
+[
+"
+clientWindow
 "
 ]
     
@@ -1152,6 +1331,18 @@ root_info
 context
 "
 ]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -1188,6 +1379,26 @@ child1_info
 [
 "
 context
+"
+]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+children
+"
+]
+[
+0
+]
+[
+"
+clientWindow
 "
 ]
     
@@ -1486,6 +1697,25 @@ user_context
     
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+context
+[
+"
+context
+"
+]
+)
+    
 context_info
 =
 await
@@ -1534,6 +1764,18 @@ None
 user_context
 =
 user_context
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -1617,6 +1859,25 @@ wait_for_future_safe
 on_entry
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+top_level_context
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -1650,6 +1911,18 @@ user_context
 "
 default
 "
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 pytest
@@ -1735,6 +2008,25 @@ wait_for_future_safe
 on_entry
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+top_level_context
+[
+"
+context
+"
+]
+)
+    
 assert_browsing_context
 (
         
@@ -1766,6 +2058,18 @@ None
 user_context
 =
 user_context
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 pytest

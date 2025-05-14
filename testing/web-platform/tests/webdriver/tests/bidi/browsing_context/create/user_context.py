@@ -12,6 +12,13 @@ pytest
 mark
 .
 asyncio
+CONTEXT_CREATED_EVENT
+=
+"
+browsingContext
+.
+contextCreated
+"
 pytest
 .
 mark
@@ -35,10 +42,28 @@ def
 test_user_context
 (
 bidi_session
+wait_for_event
+wait_for_future_safe
+subscribe_events
 type_hint
 create_user_context
 )
 :
+    
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
+on_entry
+=
+wait_for_event
+(
+CONTEXT_CREATED_EVENT
+)
     
 contexts
 =
@@ -110,6 +135,14 @@ type_hint
 =
 type_hint
     
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_entry
 )
     
 contexts
@@ -173,6 +206,15 @@ blank
 user_context
 =
 user_context
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
 async
@@ -180,9 +222,27 @@ def
 test_user_context_default
 (
 bidi_session
+wait_for_event
+wait_for_future_safe
+subscribe_events
 create_user_context
 )
 :
+    
+await
+subscribe_events
+(
+[
+CONTEXT_CREATED_EVENT
+]
+)
+    
+on_entry
+=
+wait_for_event
+(
+CONTEXT_CREATED_EVENT
+)
     
 user_context
 =
@@ -212,6 +272,14 @@ user_context
 default
 "
     
+)
+    
+context_info_1
+=
+await
+wait_for_future_safe
+(
+on_entry
 )
     
 context_tree_1
@@ -266,6 +334,15 @@ user_context
 "
 default
 "
+        
+client_window
+=
+context_info_1
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -285,6 +362,14 @@ type_hint
 tab
 "
     
+)
+    
+context_info_2
+=
+await
+wait_for_future_safe
+(
+on_entry
 )
     
 context_tree_2
@@ -339,6 +424,15 @@ user_context
 "
 default
 "
+        
+client_window
+=
+context_info_2
+[
+"
+clientWindow
+"
+]
     
 )
 async

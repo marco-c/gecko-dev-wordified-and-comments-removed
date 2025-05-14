@@ -46,10 +46,25 @@ def
 test_type
 (
 bidi_session
+wait_for_event
+wait_for_future_safe
+subscribe_events
 top_context
 type_hint
 )
 :
+    
+await
+subscribe_events
+(
+[
+"
+browsingContext
+.
+contextCreated
+"
+]
+)
     
 is_window
 =
@@ -96,6 +111,17 @@ focused
 True
 )
     
+on_entry
+=
+wait_for_event
+(
+"
+browsingContext
+.
+contextCreated
+"
+)
+    
 new_context
 =
 await
@@ -108,6 +134,14 @@ create
 type_hint
 =
 type_hint
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_entry
 )
     
 assert
@@ -236,6 +270,15 @@ about
 :
 blank
 "
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
     

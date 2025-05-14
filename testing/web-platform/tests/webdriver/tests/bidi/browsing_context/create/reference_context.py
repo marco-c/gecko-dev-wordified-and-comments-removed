@@ -35,9 +35,24 @@ def
 test_reference_context
 (
 bidi_session
+wait_for_event
+wait_for_future_safe
+subscribe_events
 value
 )
 :
+    
+await
+subscribe_events
+(
+[
+"
+browsingContext
+.
+contextCreated
+"
+]
+)
     
 contexts
 =
@@ -101,6 +116,17 @@ contexts
 =
 2
     
+on_entry
+=
+wait_for_event
+(
+"
+browsingContext
+.
+contextCreated
+"
+)
+    
 new_context
 =
 await
@@ -123,6 +149,14 @@ type_hint
 =
 value
     
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_entry
 )
     
 assert
@@ -244,6 +278,15 @@ about
 :
 blank
 "
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
     
