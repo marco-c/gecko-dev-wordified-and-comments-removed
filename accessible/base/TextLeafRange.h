@@ -419,7 +419,7 @@ pair
 <
 nsIContent
 *
-int32_t
+uint32_t
 >
 ToDOMPoint
 (
