@@ -105,7 +105,6 @@ class
 FrameChildListID
 {
 Principal
-Caption
 ColGroup
 Absolute
 Fixed
