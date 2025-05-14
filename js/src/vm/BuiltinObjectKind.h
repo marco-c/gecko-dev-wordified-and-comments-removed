@@ -51,7 +51,6 @@ Map
 Promise
 RegExp
 Set
-SharedArrayBuffer
 Symbol
 FunctionPrototype
 IteratorPrototype
