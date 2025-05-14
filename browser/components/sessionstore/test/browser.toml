@@ -262,6 +262,13 @@ js
 ]
 [
 "
+browser_aboutRestartrequired_noRestore
+.
+js
+"
+]
+[
+"
 browser_aboutSessionRestore
 .
 js
