@@ -87,6 +87,13 @@ sys
 mjs
 "
 "
+GeckoViewPreferences
+.
+sys
+.
+mjs
+"
+"
 GeckoViewPrompt
 .
 sys
