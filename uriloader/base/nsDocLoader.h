@@ -1028,6 +1028,11 @@ bool
 mDocumentOpenedButNotLoaded
 ;
 bool
+mIsLoadingJavascriptURI
+=
+false
+;
+bool
 mNotifyAboutBackgroundRequests
 ;
 static
@@ -1098,6 +1103,9 @@ mIsLoadingDocument
 |
 |
 mDocumentOpenedButNotLoaded
+|
+|
+mIsLoadingJavascriptURI
 ;
 }
 RefPtr
