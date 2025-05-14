@@ -1580,7 +1580,6 @@ MediaThreadType
 PLATFORM_DECODER
 )
 {
-const
 uint32_t
 minStackSize
 =
@@ -1588,6 +1587,16 @@ minStackSize
 *
 1024
 ;
+#
+ifdef
+XP_WIN
+minStackSize
+*
+=
+2
+;
+#
+endif
 uint32_t
 stackSize
 ;
