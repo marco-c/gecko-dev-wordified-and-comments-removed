@@ -58,6 +58,7 @@ image
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 ImageCapture

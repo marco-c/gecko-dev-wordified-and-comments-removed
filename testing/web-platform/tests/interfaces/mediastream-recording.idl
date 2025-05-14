@@ -267,6 +267,8 @@ timecode
 ;
 dictionary
 BlobEventInit
+:
+EventInit
 {
 required
 Blob

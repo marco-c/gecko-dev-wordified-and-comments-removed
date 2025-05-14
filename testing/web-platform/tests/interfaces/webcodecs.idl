@@ -574,7 +574,7 @@ unsigned
 long
 numberOfChannels
 ;
-BufferSource
+AllowSharedBufferSource
 description
 ;
 }

@@ -562,6 +562,15 @@ enum
 GPUFeatureName
 {
 "
+core
+-
+features
+-
+and
+-
+limits
+"
+"
 depth
 -
 clip
