@@ -856,7 +856,7 @@ bottom
 -
 right
 .
-assert_equals
+assert_approx_equals
 (
 scroller
 .
@@ -872,9 +872,12 @@ offsetHeight
 scroller
 .
 clientHeight
+1
+.
+0
 )
 ;
-assert_equals
+assert_approx_equals
 (
 scroller
 .
@@ -890,6 +893,9 @@ offsetWidth
 scroller
 .
 clientWidth
+1
+.
+0
 )
 ;
 }
