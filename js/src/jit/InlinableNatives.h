@@ -1058,6 +1058,16 @@ _
 IntrinsicGuardToArrayBuffer
 )
 \
+_
+(
+IntrinsicArrayBufferByteLength
+)
+\
+_
+(
+IntrinsicPossiblyWrappedArrayBufferByteLength
+)
+\
 \
 _
 (
