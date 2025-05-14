@@ -401,6 +401,11 @@ onClick
 action
 .
 onClick
+highlighted
+=
+action
+.
+highlighted
 onLongClick
 =
 action
