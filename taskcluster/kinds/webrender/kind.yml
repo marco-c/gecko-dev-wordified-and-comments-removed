@@ -4414,9 +4414,7 @@ type
 :
 t
 -
-bitbar
--
-gw
+lambda
 -
 perf
 -
@@ -4747,9 +4745,7 @@ type
 :
 t
 -
-bitbar
--
-gw
+lambda
 -
 perf
 -
