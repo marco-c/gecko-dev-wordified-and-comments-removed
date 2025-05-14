@@ -3047,6 +3047,8 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
+clean
 )
 {
 ma_b
@@ -3073,6 +3075,8 @@ imm
 Label
 *
 label
+LhsHighBitsAreClean
+clean
 )
 {
 ma_b

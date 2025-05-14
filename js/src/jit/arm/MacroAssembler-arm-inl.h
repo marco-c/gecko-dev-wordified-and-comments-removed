@@ -8547,6 +8547,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 ma_cmp
@@ -8577,6 +8578,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 ScratchRegisterScope
