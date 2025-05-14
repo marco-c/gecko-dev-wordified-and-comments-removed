@@ -59,6 +59,10 @@ timeline
 twitter
 -
 video
+.
+tweet
+-
+embed
 "
 isTestShim
 :
