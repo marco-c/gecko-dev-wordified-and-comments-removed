@@ -1036,14 +1036,6 @@ gcx
 this
 )
 ;
-if
-(
-!
-selfHosted
-(
-)
-)
-{
 jit
 :
 :
@@ -1056,7 +1048,6 @@ gcx
 baseline
 )
 ;
-}
 }
 releaseJitScript
 (

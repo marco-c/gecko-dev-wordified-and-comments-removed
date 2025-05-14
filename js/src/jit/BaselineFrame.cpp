@@ -279,11 +279,6 @@ if
 runningInInterpreter
 (
 )
-|
-|
-isRealmIndependent
-(
-)
 )
 {
 TraceRoot
