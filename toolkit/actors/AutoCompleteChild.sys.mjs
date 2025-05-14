@@ -1951,6 +1951,15 @@ provider
 actorName
 )
 ;
+if
+(
+!
+searchResult
+)
+{
+continue
+;
+}
 const
 acResult
 =
