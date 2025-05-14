@@ -826,7 +826,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_VISIBILITY_MAIN
 breadcrumbs
 =
 arrayListOf
@@ -853,7 +853,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_FOREGROUND_CHILD
+PROCESS_VISIBILITY_FOREGROUND_CHILD
 breadcrumbs
 =
 arrayListOf
@@ -882,7 +882,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_BACKGROUND_CHILD
+PROCESS_VISIBILITY_BACKGROUND_CHILD
 breadcrumbs
 =
 arrayListOf
@@ -1350,7 +1350,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_VISIBILITY_MAIN
 breadcrumbs
 =
 arrayListOf
@@ -1376,7 +1376,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_FOREGROUND_CHILD
+PROCESS_VISIBILITY_FOREGROUND_CHILD
 breadcrumbs
 =
 arrayListOf
@@ -1404,7 +1404,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_BACKGROUND_CHILD
+PROCESS_VISIBILITY_BACKGROUND_CHILD
 breadcrumbs
 =
 arrayListOf
@@ -1430,7 +1430,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_BACKGROUND_CHILD
+PROCESS_VISIBILITY_BACKGROUND_CHILD
 breadcrumbs
 =
 arrayListOf
@@ -2448,7 +2448,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_VISIBILITY_MAIN
 breadcrumbs
 =
 arrayListOf
@@ -2712,7 +2712,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_VISIBILITY_MAIN
 breadcrumbs
 =
 arrayListOf
@@ -3951,7 +3951,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_MAIN
+PROCESS_VISIBILITY_MAIN
 breadcrumbs
 =
 arrayListOf

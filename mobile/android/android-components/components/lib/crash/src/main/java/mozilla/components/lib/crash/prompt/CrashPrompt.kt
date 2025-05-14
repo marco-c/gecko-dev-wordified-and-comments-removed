@@ -220,14 +220,14 @@ NativeCodeCrash
 &
 crash
 .
-processType
+processVisibility
 =
 =
 Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_BACKGROUND_CHILD
+PROCESS_VISIBILITY_BACKGROUND_CHILD
 )
 {
 intent

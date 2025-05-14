@@ -243,7 +243,7 @@ intent
 putExtra
 (
 "
-processType
+processVisibility
 "
 "
 FOREGROUND_CHILD
@@ -346,12 +346,12 @@ assertEquals
 (
 crash
 .
-processType
+processVisibility
 Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_FOREGROUND_CHILD
+PROCESS_VISIBILITY_FOREGROUND_CHILD
 )
 assertEquals
 (
@@ -472,7 +472,7 @@ Crash
 .
 NativeCodeCrash
 .
-PROCESS_TYPE_FOREGROUND_CHILD
+PROCESS_VISIBILITY_FOREGROUND_CHILD
 breadcrumbs
 =
 arrayListOf

@@ -567,7 +567,7 @@ BACKGROUND_CHILD
 aData
 ?
 .
-processType
+processVisibility
 "
 expected
 process

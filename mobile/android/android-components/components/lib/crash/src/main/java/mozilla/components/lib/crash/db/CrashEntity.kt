@@ -569,7 +569,7 @@ ColumnInfo
 name
 =
 "
-processType
+processVisibility
 "
 defaultValue
 =
@@ -578,7 +578,7 @@ null
 "
 )
 var
-processType
+processVisibility
 :
 String
 ?
@@ -789,11 +789,11 @@ extrasPath
 this
 .
 extrasPath
-processType
+processVisibility
 =
 this
 .
-processType
+processVisibility
 breadcrumbs
 =
 deserializeBreadcrumbs
@@ -1341,9 +1341,9 @@ crash
 minidumpPath
 =
 minidumpPath
-processType
+processVisibility
 =
-processType
+processVisibility
 extrasPath
 =
 extrasPath
@@ -1418,7 +1418,7 @@ getStacktraceAsString
 minidumpPath
 =
 null
-processType
+processVisibility
 =
 null
 extrasPath

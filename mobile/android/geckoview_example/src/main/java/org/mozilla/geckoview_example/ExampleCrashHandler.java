@@ -294,7 +294,7 @@ d
 LOGTAG
 "
 Process
-Type
+Visibility
 :
 "
 +
@@ -304,7 +304,7 @@ getStringExtra
 (
 GeckoRuntime
 .
-EXTRA_CRASH_PROCESS_TYPE
+EXTRA_CRASH_PROCESS_VISIBILITY
 )
 )
 ;

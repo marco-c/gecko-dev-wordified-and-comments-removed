@@ -1194,11 +1194,11 @@ toString
 (
 )
 val
-processType
+processVisibility
 =
 crash
 .
-processType
+processVisibility
 return
 "
 NativeCodeCrash
@@ -1206,9 +1206,9 @@ NativeCodeCrash
 fatal
 =
 fatal
-processType
+processVisibility
 =
-processType
+processVisibility
 )
 "
 }

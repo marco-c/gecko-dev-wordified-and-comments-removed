@@ -595,7 +595,7 @@ as
 foreground
 .
 const
-processType
+processVisibility
 =
 aTopic
 =
@@ -650,7 +650,7 @@ true
 fatal
 :
 false
-processType
+processVisibility
 remoteType
 }
 )

@@ -565,7 +565,7 @@ intent
 putExtra
 (
 "
-processType
+processVisibility
 "
 "
 MAIN
@@ -677,7 +677,7 @@ intent
 putExtra
 (
 "
-processType
+processVisibility
 "
 "
 FOREGROUND_CHILD
@@ -789,7 +789,7 @@ intent
 putExtra
 (
 "
-processType
+processVisibility
 "
 "
 BACKGROUND_CHILD
