@@ -3416,7 +3416,11 @@ App
 {
 isForStartupCache
 :
+{
+App
+:
 true
+}
 }
 DiscoveryStream
 :

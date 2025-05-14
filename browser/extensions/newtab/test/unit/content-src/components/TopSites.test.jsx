@@ -10913,7 +10913,11 @@ APP
 {
 isForStartupCache
 :
+{
+App
+:
 false
+}
 }
 ;
 it
@@ -10946,9 +10950,7 @@ DEFAULT_PROPS
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -11043,9 +11045,7 @@ rows
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -11197,9 +11197,7 @@ TOP_SITES_DEFAULT_ROWS
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -11315,9 +11313,7 @@ availibleRows
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -11506,7 +11502,11 @@ App
 {
 isForStartupCache
 :
+{
+App
+:
 true
+}
 }
 }
 /
@@ -11631,9 +11631,7 @@ TopSitesRows
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -11917,9 +11915,7 @@ rows
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -12034,9 +12030,7 @@ dispatch
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -12277,9 +12271,7 @@ DEFAULT_PROPS
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -12493,9 +12485,7 @@ TopSitesRows
 App
 =
 {
-{
 APP
-}
 }
 /
 >
@@ -13101,9 +13091,7 @@ TopSitesRows
 App
 =
 {
-{
 APP
-}
 }
 /
 >

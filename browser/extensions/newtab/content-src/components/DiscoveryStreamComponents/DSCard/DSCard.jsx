@@ -1313,6 +1313,8 @@ props
 App
 .
 isForStartupCache
+.
+App
 )
 {
 this

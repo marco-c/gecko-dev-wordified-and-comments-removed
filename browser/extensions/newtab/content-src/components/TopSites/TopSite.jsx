@@ -5897,6 +5897,8 @@ props
 App
 .
 isForStartupCache
+.
+App
 &
 &
 isSponsored

@@ -2344,6 +2344,8 @@ props
 App
 .
 isForStartupCache
+.
+App
 )
 ?
 (

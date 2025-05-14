@@ -938,7 +938,14 @@ App
 .
 isForStartupCache
 =
+{
+App
+:
 true
+Wallpaper
+:
+true
+}
 ;
 state
 =
