@@ -1593,7 +1593,7 @@ XP_WIN
 minStackSize
 *
 =
-2
+4
 ;
 #
 endif
