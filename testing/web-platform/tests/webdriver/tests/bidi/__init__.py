@@ -809,7 +809,7 @@ create_console_api_message
 bidi_session
 context
 :
-str
+Any
 text
 :
 str
@@ -890,7 +890,7 @@ get_device_pixel_ratio
 bidi_session
 context
 :
-str
+Any
 )
 -
 >
@@ -1056,7 +1056,7 @@ get_viewport_dimensions
 bidi_session
 context
 :
-str
+Any
       
 with_scrollbar
 :
@@ -1210,7 +1210,7 @@ get_document_dimensions
 bidi_session
 context
 :
-str
+Any
 )
 :
     
