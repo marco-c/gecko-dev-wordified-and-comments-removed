@@ -197,6 +197,10 @@ Decoder
 :
 DecodeStyle
 aDecodeStyle
+bool
+aIsPDF
+=
+false
 )
 ;
 enum
@@ -306,6 +310,9 @@ Decoder
 :
 DecodeStyle
 mDecodeStyle
+;
+bool
+mIsPDF
 ;
 SurfacePipe
 mPipe
