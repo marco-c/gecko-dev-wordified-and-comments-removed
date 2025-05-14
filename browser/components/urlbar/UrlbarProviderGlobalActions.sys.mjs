@@ -527,6 +527,14 @@ mode
 continue
 ;
 }
+action
+.
+providerName
+=
+provider
+.
+name
+;
 actionsResults
 .
 push
