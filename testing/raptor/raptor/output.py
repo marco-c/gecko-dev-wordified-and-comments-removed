@@ -2450,6 +2450,12 @@ _filter
 vals
 )
             
+EXPECTED_ENTRIES
+=
+380
++
+166
+            
 if
 len
 (
@@ -2457,29 +2463,31 @@ results
 )
 !
 =
-380
+EXPECTED_ENTRIES
 :
                 
 raise
 Exception
 (
                     
+f
 "
 StyleBench
 requires
-380
+{
+EXPECTED_ENTRIES
+}
 entries
 found
 :
-%
-s
-instead
-"
-%
+{
 len
 (
 results
 )
+}
+instead
+"
                 
 )
             
@@ -2487,10 +2495,22 @@ results
 =
 results
 [
+:
+380
+]
+[
 75
 :
 :
 76
+]
++
+[
+results
+[
+-
+1
+]
 ]
             
 return
