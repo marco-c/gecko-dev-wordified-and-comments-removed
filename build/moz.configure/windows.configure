@@ -2737,9 +2737,7 @@ with
 -
 redist
 "
-"
-MOZ_AUTOMATION
-"
+moz_automation
 c_compiler
 vc_path
 target

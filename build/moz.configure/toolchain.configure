@@ -5249,9 +5249,7 @@ bin
 "
 when
 =
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 original_path
 )

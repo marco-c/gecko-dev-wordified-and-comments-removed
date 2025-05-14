@@ -10,9 +10,7 @@ nargs
 1
 when
 =
-"
-MOZ_AUTOMATION
-"
+moz_automation
 help
 =
 "
@@ -29,9 +27,7 @@ MOZ_FETCHES_DIR
 "
 when
 =
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 def
 moz_fetches_dir
@@ -53,9 +49,7 @@ vcs_checkout_type
 milestone
 .
 is_nightly
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 def
 bootstrap_default

@@ -225,9 +225,7 @@ target
 update_channel
 have_64_bit
 moz_debug
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 imports
 (
