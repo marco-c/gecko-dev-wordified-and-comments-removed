@@ -68,9 +68,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 attributes
 :
 code

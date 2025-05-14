@@ -101,9 +101,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 macosx1470
 -
 64

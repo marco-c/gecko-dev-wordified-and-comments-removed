@@ -318,9 +318,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 worker
 :
 docker
@@ -444,9 +442,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 worker
 :
 docker

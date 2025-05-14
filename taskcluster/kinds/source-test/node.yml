@@ -75,9 +75,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 worker
 :
 docker

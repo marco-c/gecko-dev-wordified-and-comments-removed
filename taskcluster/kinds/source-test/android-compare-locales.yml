@@ -149,9 +149,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 platform
 :
 lint

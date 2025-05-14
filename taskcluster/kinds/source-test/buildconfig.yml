@@ -105,9 +105,7 @@ t
 -
 linux
 -
-xlarge
--
-source
+docker
 worker
 :
 artifacts

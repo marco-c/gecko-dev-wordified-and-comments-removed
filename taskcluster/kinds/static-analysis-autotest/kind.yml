@@ -249,7 +249,7 @@ t
 -
 linux
 -
-large
+docker
 worker
 :
 docker
