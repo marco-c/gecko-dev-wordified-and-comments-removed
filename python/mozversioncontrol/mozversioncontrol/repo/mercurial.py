@@ -211,6 +211,19 @@ node
 "
 )
     
+def
+is_cinnabar_repo
+(
+self
+)
+-
+>
+bool
+:
+        
+return
+False
+    
 property
     
 def
@@ -267,6 +280,28 @@ return
 self
 .
 base_ref
+    
+def
+base_ref_as_commit
+(
+self
+)
+:
+        
+raise
+Exception
+(
+"
+unimplemented
+:
+convert
+hg
+rev
+to
+git
+rev
+"
+)
     
 property
     
