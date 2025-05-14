@@ -627,7 +627,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterView
 android
 :
 id

@@ -377,7 +377,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterView
 /
 /
 Interim
@@ -899,7 +899,7 @@ factory
 _
 -
 >
-TabCounter
+TabCounterView
 (
 context
 )

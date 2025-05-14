@@ -289,7 +289,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterMenu
 import
 mozilla
 .
@@ -299,7 +299,7 @@ ui
 .
 tabcounter
 .
-TabCounterMenu
+TabCounterView
 import
 org
 .
@@ -560,7 +560,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 val
 counterText
 :
@@ -649,7 +649,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 val
 counterMask
 :
@@ -777,7 +777,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 val
 counterMask
 :
@@ -871,7 +871,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 store
 .
 dispatch
@@ -984,7 +984,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 store
 .
 dispatch
@@ -1146,7 +1146,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 store
 .
 dispatch
@@ -1263,7 +1263,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 store
 .
 dispatch
@@ -1423,7 +1423,7 @@ as
 ViewGroup
 )
 as
-TabCounter
+TabCounterView
 store
 .
 dispatch
@@ -1546,7 +1546,7 @@ createView
 parent
 )
 as
-TabCounter
+TabCounterView
 view
 .
 performClick

@@ -222,7 +222,7 @@ ui
 /
 tabcounter
 /
-TabCounter
+TabCounterView
 .
 kt
 "
@@ -349,7 +349,7 @@ ui
 /
 tabcounter
 /
-TabCounter
+TabCounterView
 .
 kt
 "

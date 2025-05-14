@@ -263,7 +263,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterMenu
 import
 mozilla
 .
@@ -273,7 +273,7 @@ ui
 .
 tabcounter
 .
-TabCounterMenu
+TabCounterView
 import
 java
 .
@@ -297,7 +297,7 @@ that
 shows
 a
 [
-TabCounter
+TabCounterView
 ]
 .
 *
@@ -386,7 +386,7 @@ reference
 =
 WeakReference
 <
-TabCounter
+TabCounterView
 >
 (
 null
@@ -443,7 +443,7 @@ tabs
 val
 tabCounter
 =
-TabCounter
+TabCounterView
 (
 parent
 .

@@ -217,7 +217,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterMenu
 import
 mozilla
 .
@@ -227,7 +227,7 @@ ui
 .
 tabcounter
 .
-TabCounterMenu
+TabCounterView
 import
 org
 .
@@ -531,7 +531,7 @@ factory
 context
 -
 >
-TabCounter
+TabCounterView
 (
 context
 )

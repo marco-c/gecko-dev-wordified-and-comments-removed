@@ -131,7 +131,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterMenu
 import
 mozilla
 .
@@ -141,7 +141,7 @@ ui
 .
 tabcounter
 .
-TabCounterMenu
+TabCounterView
 import
 mozilla
 .
@@ -286,7 +286,7 @@ param
 tabCounter
 The
 [
-TabCounter
+TabCounterView
 ]
 that
 will
@@ -338,7 +338,7 @@ private
 val
 tabCounter
 :
-TabCounter
+TabCounterView
 private
 val
 showLongPressMenu

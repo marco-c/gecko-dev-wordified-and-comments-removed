@@ -635,7 +635,7 @@ ui
 .
 tabcounter
 .
-TabCounter
+TabCounterView
 import
 org
 .
@@ -4307,7 +4307,7 @@ ViewGroup
 :
 View
 =
-TabCounter
+TabCounterView
 (
 parent
 .

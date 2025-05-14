@@ -215,7 +215,7 @@ lateinit
 var
 tabCounter
 :
-TabCounter
+TabCounterView
 private
 lateinit
 var
@@ -230,7 +230,7 @@ setUp
 {
 tabCounter
 =
-TabCounter
+TabCounterView
 (
 testContext
 )

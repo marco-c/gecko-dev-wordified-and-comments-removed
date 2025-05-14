@@ -189,7 +189,7 @@ text
 .
 NumberFormat
 class
-TabCounter
+TabCounterView
 JvmOverloads
 constructor
 (
@@ -303,7 +303,7 @@ R
 .
 styleable
 .
-TabCounter
+TabCounterView
 defStyle
 0
 )
@@ -318,7 +318,7 @@ R
 .
 styleable
 .
-TabCounter_tabCounterTintColor
+TabCounterView_tabCounterTintColor
 )
 ?
 :

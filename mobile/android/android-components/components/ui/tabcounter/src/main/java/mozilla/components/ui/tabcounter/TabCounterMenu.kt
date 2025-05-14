@@ -162,7 +162,7 @@ clicking
 on
 the
 [
-TabCounter
+TabCounterView
 ]
 *
 *
