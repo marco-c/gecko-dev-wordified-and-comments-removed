@@ -5100,6 +5100,25 @@ False
             
 if
 "
+windows11
+"
+in
+platform
+and
+"
+bing
+-
+search
+"
+in
+try_name
+:
+                
+return
+False
+            
+if
+"
 browsertime
 "
 in
