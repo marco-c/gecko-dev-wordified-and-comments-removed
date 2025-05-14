@@ -250,6 +250,13 @@ html
 ]
 [
 "
+browser_content_analysis_busy_dialog
+.
+js
+"
+]
+[
+"
 browser_content_analysis_dnd_diff_origin
 .
 js
