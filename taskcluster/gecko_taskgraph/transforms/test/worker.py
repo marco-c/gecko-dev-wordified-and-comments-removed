@@ -2530,11 +2530,9 @@ type
 "
 t
 -
-bitbar
+lambda
 -
-gw
--
-unit
+perf
 -
 a55
 "

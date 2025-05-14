@@ -1309,6 +1309,27 @@ task
 "
 )
     
+test_linux_file_path
+=
+os
+.
+path
+.
+join
+(
+scripts_root_dir
+"
+tester
+"
+"
+test
+-
+linux
+.
+sh
+"
+)
+    
 fetch_content_file_path
 =
 os
@@ -1380,6 +1401,14 @@ shutil
 copy2
 (
 run_task_file_path
+ARTIFACTS_DIR
+)
+    
+shutil
+.
+copy2
+(
+test_linux_file_path
 ARTIFACTS_DIR
 )
     
