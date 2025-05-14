@@ -646,6 +646,9 @@ of
 '
 boolean
 '
+'
+flag
+'
            
 '
 count
@@ -979,6 +982,9 @@ one
 of
 '
 boolean
+'
+'
+flag
 '
 '
 count
@@ -1600,6 +1606,12 @@ boolean
 linear_buckets
             
 "
+flag
+"
+:
+linear_buckets
+            
+"
 count
 "
 :
@@ -1717,6 +1729,14 @@ bucket_fns
             
 "
 boolean
+"
+:
+Histogram
+.
+boolean_flag_bucket_parameters
+            
+"
+flag
 "
 :
 Histogram
@@ -1864,6 +1884,12 @@ boolean
 ALWAYS_ALLOWED_KEYS
             
 "
+flag
+"
+:
+ALWAYS_ALLOWED_KEYS
+            
+"
 count
 "
 :
@@ -1973,7 +1999,7 @@ name
             
 )
 .
-handle_now
+handle_later
 (
 )
         
@@ -4521,6 +4547,14 @@ boolean
 :
 "
 BOOLEAN
+"
+            
+"
+flag
+"
+:
+"
+FLAG
 "
             
 "
