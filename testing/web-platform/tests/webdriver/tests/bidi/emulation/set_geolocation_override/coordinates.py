@@ -26,10 +26,6 @@ from
 .
 import
 remote_mapping_to_dict
-from
-.
-import
-get_current_geolocation
 pytestmark
 =
 pytest
@@ -180,9 +176,15 @@ test_get_current_position
 (
     
 bidi_session
+    
 new_tab
+    
 url
+    
+get_current_geolocation
+    
 set_geolocation_permission
+    
 test_coordinates
 )
 :
@@ -241,7 +243,6 @@ default_coordinates
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
     
@@ -297,7 +298,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -921,6 +921,7 @@ test_persists_on_reload
 bidi_session
 url
 new_tab
+get_current_geolocation
 set_geolocation_permission
 )
 :
@@ -1053,7 +1054,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -1088,7 +1088,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -1102,6 +1101,7 @@ test_persists_on_navigation
 bidi_session
 url
 new_tab
+get_current_geolocation
 set_geolocation_permission
 )
 :
@@ -1234,7 +1234,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -1290,7 +1289,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -1304,6 +1302,7 @@ test_reset_without_override
 bidi_session
 new_tab
 url
+get_current_geolocation
 set_geolocation_permission
 )
 :
@@ -1362,7 +1361,6 @@ default_coordinates
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
     
@@ -1394,7 +1392,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
