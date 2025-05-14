@@ -542,11 +542,6 @@ mNativeVisitedHyperLinkText
 =
 kBlack
 ;
-nscolor
-mComboBoxText
-=
-kBlack
-;
 ColorPair
 mField
 ;
