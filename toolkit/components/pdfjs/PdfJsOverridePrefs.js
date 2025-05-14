@@ -15,6 +15,16 @@ annotationEditorMode
 1
 )
 ;
+pref
+(
+"
+pdfjs
+.
+capCanvasAreaFactor
+"
+100
+)
+;
 #
 else
 pref
