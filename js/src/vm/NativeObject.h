@@ -3427,14 +3427,14 @@ const
 uint32_t
 SLOT_CAPACITY_MIN
 =
-5
+6
 ;
 static
 const
 uint32_t
 ELEMENT_CAPACITY_MIN
 =
-5
+6
 ;
 HeapSlot
 *

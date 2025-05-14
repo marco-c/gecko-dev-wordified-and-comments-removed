@@ -4754,11 +4754,6 @@ uint8_t
 data
 [
 bytes
--
-sizeof
-(
-SmallBuffer
-)
 ]
 ;
 }
@@ -4775,6 +4770,11 @@ SmallBufferN
 =
 =
 16
++
+sizeof
+(
+SmallBuffer
+)
 )
 ;
 static_assert
@@ -4789,6 +4789,11 @@ SmallBufferN
 =
 =
 128
++
+sizeof
+(
+SmallBuffer
+)
 )
 ;
 }
