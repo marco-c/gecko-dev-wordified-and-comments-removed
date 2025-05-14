@@ -1868,6 +1868,17 @@ true
 '
 )
 ;
+if
+(
+self
+.
+GLOBAL
+.
+isWindow
+(
+)
+)
+{
 promise_test
 (
 async
@@ -2043,3 +2054,4 @@ days
 "
 )
 ;
+}
