@@ -5146,6 +5146,16 @@ availableVirtual
 "
 AvailableVirtualMemory
 "
+jsLargeAllocationFailure
+:
+"
+JSLargeAllocationFailure
+"
+jsOutOfMemory
+:
+"
+JSOutOfMemory
+"
 lowPhysical
 :
 "
