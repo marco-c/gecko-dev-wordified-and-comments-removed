@@ -3935,6 +3935,16 @@ aPacket
 {
 MOZ_ASSERT
 (
+mTaskQueue
+-
+>
+IsOnCurrentThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 aPacket
 )
 ;
