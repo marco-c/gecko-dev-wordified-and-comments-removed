@@ -6965,6 +6965,9 @@ CSSPrefersColorScheme
 "
 JSLocalePrompt
 "
+"
+HttpUserAgent
+"
 }
 ;
 #
