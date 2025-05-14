@@ -18127,7 +18127,7 @@ Label
 label
 )
 {
-ScratchRegisterScope
+SecondScratchRegisterScope
 scratch
 (
 asMasm
