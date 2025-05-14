@@ -103,9 +103,6 @@ log
 "
 miette
 =
-{
-version
-=
 "
 7
 .
@@ -113,14 +110,6 @@ version
 .
 0
 "
-features
-=
-[
-"
-fancy
-"
-]
-}
 regex
 =
 "
