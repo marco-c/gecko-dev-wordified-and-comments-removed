@@ -1849,23 +1849,6 @@ py
 "
         
 "
-arm
--
-partner
--
-sample1
-"
-:
-path_base
-+
-"
-%
-s_arm_partner_sample1
-.
-py
-"
-        
-"
 aarch64
 "
 :
