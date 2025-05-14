@@ -15622,16 +15622,13 @@ aCh
 aNextCh
 )
 ;
+}
 if
 (
+!
 gid
 )
 {
-return
-true
-;
-}
-}
 gid
 =
 shaper
@@ -15642,6 +15639,7 @@ GetNominalGlyph
 aCh
 )
 ;
+}
 if
 (
 !
