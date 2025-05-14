@@ -465,11 +465,6 @@ mCacheInfo
 =
 nullptr
 ;
-DropJSObjects
-(
-this
-)
-;
 }
 bool
 ScriptLoadRequest
