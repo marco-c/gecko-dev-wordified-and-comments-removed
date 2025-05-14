@@ -778,9 +778,6 @@ searchQuery
 =
 "
 "
-isSearchEnabled
-=
-true
 )
 val
 store
@@ -1006,9 +1003,6 @@ searchQuery
 =
 "
 "
-isSearchEnabled
-=
-true
 )
 val
 store
@@ -1081,9 +1075,6 @@ searchQuery
 =
 "
 "
-isSearchEnabled
-=
-true
 )
 assertEquals
 (
@@ -1321,9 +1312,6 @@ searchQuery
 =
 "
 "
-isSearchEnabled
-=
-true
 )
 val
 store
@@ -1411,9 +1399,6 @@ searchQuery
 "
 url
 "
-isSearchEnabled
-=
-true
 )
 assertEquals
 (
