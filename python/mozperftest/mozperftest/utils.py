@@ -132,8 +132,6 @@ r
 "
 (
 perfMetrics
-\
-s
 .
 *
 )
@@ -483,7 +481,7 @@ self
 .
 matcher
 .
-match
+search
 (
 data
 )
