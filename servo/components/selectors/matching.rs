@@ -3640,7 +3640,15 @@ unknown
 KleeneValue
 :
 :
-True
+from
+(
+!
+context
+.
+in_negation
+(
+)
+)
 }
 else
 {
