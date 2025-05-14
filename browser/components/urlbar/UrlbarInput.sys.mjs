@@ -20849,7 +20849,7 @@ autofill
 *
 param
 {
-integer
+number
 }
 options
 .
@@ -20862,7 +20862,7 @@ selectionStart
 *
 param
 {
-integer
+number
 }
 options
 .

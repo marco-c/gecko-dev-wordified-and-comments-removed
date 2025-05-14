@@ -2434,7 +2434,10 @@ check
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 Whether
@@ -2881,7 +2884,10 @@ types
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 Whether

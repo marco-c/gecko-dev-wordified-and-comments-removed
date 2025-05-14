@@ -635,6 +635,10 @@ types
 .
 PROVIDER_TYPE
 :
+Object
+.
+freeze
+(
 {
 /
 /
@@ -751,6 +755,7 @@ EXTENSION
 :
 4
 }
+)
 /
 /
 Defines

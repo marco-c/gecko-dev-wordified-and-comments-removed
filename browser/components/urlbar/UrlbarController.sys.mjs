@@ -692,7 +692,10 @@ details
 *
 returns
 {
+Promise
+<
 UrlbarQueryContext
+>
 }
 *
 The

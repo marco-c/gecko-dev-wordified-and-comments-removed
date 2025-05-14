@@ -999,7 +999,12 @@ endpoint
 *
 returns
 {
-Array
+Promise
+<
+object
+[
+]
+>
 }
 *
 The
