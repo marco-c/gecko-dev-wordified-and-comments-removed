@@ -134,13 +134,6 @@ js
 ]
 [
 "
-browser_quicksuggest_dynamicSuggestions
-.
-js
-"
-]
-[
-"
 browser_quicksuggest_fakespot
 .
 js
