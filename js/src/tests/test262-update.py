@@ -44,12 +44,6 @@ info
 "
         
 "
-Atomics
-.
-waitAsync
-"
-        
-"
 legacy
 -
 regexp
@@ -705,6 +699,18 @@ enable
 math
 -
 sumprecise
+"
+    
+"
+Atomics
+.
+waitAsync
+"
+:
+"
+-
+P
+atomics_wait_async
 "
 }
 INCLUDE_FEATURE_DETECTED_OPTIONAL_SHELL_OPTIONS
