@@ -7831,11 +7831,9 @@ t
 -
 linux
 -
+docker
+-
 kvm
--
-noscratch
--
-gcp
 '
 t
 -
