@@ -19183,7 +19183,7 @@ const
 PersistenceType
 persistenceType
 :
-kAllPersistenceTypes
+kAllPersistenceTypesButPrivate
 )
 {
 QM_TRY_UNWRAP
