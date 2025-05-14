@@ -157,3 +157,7 @@ PerformanceEntry
 {
 }
 ;
+PerformancePaintTiming
+includes
+PaintTimingMixin
+;
