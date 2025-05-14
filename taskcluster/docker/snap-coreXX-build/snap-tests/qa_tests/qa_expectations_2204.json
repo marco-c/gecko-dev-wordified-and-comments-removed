@@ -435,7 +435,7 @@ reference
 "
 test_pdf_navigation_base
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -452,7 +452,7 @@ reference
 "
 test_pdf_navigation_next
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -469,7 +469,7 @@ reference
 "
 test_pdf_navigation_previous
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -486,7 +486,7 @@ reference
 "
 test_pdf_navigation_down
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -503,7 +503,7 @@ reference
 "
 test_pdf_navigation_up
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -520,7 +520,7 @@ reference
 "
 test_pdf_navigation_right
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -537,7 +537,7 @@ reference
 "
 test_pdf_navigation_left
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -554,7 +554,7 @@ reference
 "
 test_pdf_navigation_pagedown
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -571,7 +571,7 @@ reference
 "
 test_pdf_navigation_pageup
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -588,7 +588,7 @@ reference
 "
 test_pdf_navigation_end
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -605,7 +605,7 @@ reference
 "
 test_pdf_navigation_home
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -622,7 +622,7 @@ reference
 "
 test_pdf_navigation_firstPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -639,7 +639,7 @@ reference
 "
 test_pdf_navigation_lastPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -656,7 +656,7 @@ reference
 "
 test_pdf_navigation_pageRotateCw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -673,7 +673,7 @@ reference
 "
 test_pdf_navigation_pageRotateCcw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -690,7 +690,7 @@ reference
 "
 test_pdf_navigation_documentProperties
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -707,7 +707,7 @@ reference
 "
 test_pdf_navigation_select_text_with_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -724,7 +724,7 @@ reference
 "
 test_pdf_navigation_select_text_without_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -741,7 +741,7 @@ reference
 "
 test_pdf_navigation_hand_tool
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -764,7 +764,7 @@ reference
 "
 test_pdf_navigation_base
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -781,7 +781,7 @@ reference
 "
 test_pdf_navigation_next
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -798,7 +798,7 @@ reference
 "
 test_pdf_navigation_previous
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -815,7 +815,7 @@ reference
 "
 test_pdf_navigation_down
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -832,7 +832,7 @@ reference
 "
 test_pdf_navigation_up
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -849,7 +849,7 @@ reference
 "
 test_pdf_navigation_right
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -866,7 +866,7 @@ reference
 "
 test_pdf_navigation_left
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -883,7 +883,7 @@ reference
 "
 test_pdf_navigation_pagedown
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -900,7 +900,7 @@ reference
 "
 test_pdf_navigation_pageup
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -917,7 +917,7 @@ reference
 "
 test_pdf_navigation_end
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -934,7 +934,7 @@ reference
 "
 test_pdf_navigation_home
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -951,7 +951,7 @@ reference
 "
 test_pdf_navigation_firstPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -968,7 +968,7 @@ reference
 "
 test_pdf_navigation_lastPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -985,7 +985,7 @@ reference
 "
 test_pdf_navigation_pageRotateCw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1002,7 +1002,7 @@ reference
 "
 test_pdf_navigation_pageRotateCcw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1019,7 +1019,7 @@ reference
 "
 test_pdf_navigation_documentProperties
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1036,7 +1036,7 @@ reference
 "
 test_pdf_navigation_select_text_with_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1053,7 +1053,7 @@ reference
 "
 test_pdf_navigation_select_text_without_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1070,7 +1070,7 @@ reference
 "
 test_pdf_navigation_hand_tool
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1093,7 +1093,7 @@ reference
 "
 test_pdf_navigation_base
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1110,7 +1110,7 @@ reference
 "
 test_pdf_navigation_next
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1127,7 +1127,7 @@ reference
 "
 test_pdf_navigation_previous
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1144,7 +1144,7 @@ reference
 "
 test_pdf_navigation_down
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1161,7 +1161,7 @@ reference
 "
 test_pdf_navigation_up
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1178,7 +1178,7 @@ reference
 "
 test_pdf_navigation_right
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1195,7 +1195,7 @@ reference
 "
 test_pdf_navigation_left
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1212,7 +1212,7 @@ reference
 "
 test_pdf_navigation_pagedown
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1229,7 +1229,7 @@ reference
 "
 test_pdf_navigation_pageup
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1246,7 +1246,7 @@ reference
 "
 test_pdf_navigation_end
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1263,7 +1263,7 @@ reference
 "
 test_pdf_navigation_home
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1280,7 +1280,7 @@ reference
 "
 test_pdf_navigation_firstPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1297,7 +1297,7 @@ reference
 "
 test_pdf_navigation_lastPage
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1314,7 +1314,7 @@ reference
 "
 test_pdf_navigation_pageRotateCw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1331,7 +1331,7 @@ reference
 "
 test_pdf_navigation_pageRotateCcw
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1348,7 +1348,7 @@ reference
 "
 test_pdf_navigation_documentProperties
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1365,7 +1365,7 @@ reference
 "
 test_pdf_navigation_select_text_with_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1382,7 +1382,7 @@ reference
 "
 test_pdf_navigation_select_text_without_highlight
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1399,7 +1399,7 @@ reference
 "
 test_pdf_navigation_hand_tool
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1873,7 +1873,7 @@ reference
 "
 test_pdf_zoom_p1_50p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1890,7 +1890,7 @@ reference
 "
 test_pdf_zoom_p1_75p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1907,7 +1907,7 @@ reference
 "
 test_pdf_zoom_p1_100p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1924,7 +1924,7 @@ reference
 "
 test_pdf_zoom_p1_150p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1941,7 +1941,7 @@ reference
 "
 test_pdf_zoom_p1_400p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1958,7 +1958,7 @@ reference
 "
 test_pdf_zoom_p1_actual
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1975,7 +1975,7 @@ reference
 "
 test_pdf_zoom_p1_fit
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -1992,7 +1992,7 @@ reference
 "
 test_pdf_zoom_p1_width
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2015,7 +2015,7 @@ reference
 "
 test_pdf_zoom_p1_50p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2032,7 +2032,7 @@ reference
 "
 test_pdf_zoom_p1_75p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2049,7 +2049,7 @@ reference
 "
 test_pdf_zoom_p1_100p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2066,7 +2066,7 @@ reference
 "
 test_pdf_zoom_p1_150p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2100,7 +2100,7 @@ reference
 "
 test_pdf_zoom_p1_actual
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2117,7 +2117,7 @@ reference
 "
 test_pdf_zoom_p1_fit
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2134,7 +2134,7 @@ reference
 "
 test_pdf_zoom_p1_width
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2157,7 +2157,7 @@ reference
 "
 test_pdf_zoom_p1_50p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2174,7 +2174,7 @@ reference
 "
 test_pdf_zoom_p1_75p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2191,7 +2191,7 @@ reference
 "
 test_pdf_zoom_p1_100p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2208,7 +2208,7 @@ reference
 "
 test_pdf_zoom_p1_150p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2225,7 +2225,7 @@ reference
 "
 test_pdf_zoom_p1_400p
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2242,7 +2242,7 @@ reference
 "
 test_pdf_zoom_p1_actual
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2259,7 +2259,7 @@ reference
 "
 test_pdf_zoom_p1_fit
 -
-nightly_2204
+core24_2204
 .
 png
 "
@@ -2276,7 +2276,7 @@ reference
 "
 test_pdf_zoom_p1_width
 -
-nightly_2204
+core24_2204
 .
 png
 "
