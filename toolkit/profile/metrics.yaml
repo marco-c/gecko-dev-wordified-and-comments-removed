@@ -942,6 +942,12 @@ com
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+heartbeat
 reset_date
 :
 type
@@ -1142,6 +1148,12 @@ com
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+heartbeat
 recovered_from_backup
 :
 type
