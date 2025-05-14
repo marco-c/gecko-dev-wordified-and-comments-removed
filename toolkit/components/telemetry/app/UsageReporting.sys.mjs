@@ -278,6 +278,18 @@ getUsageProfileID
 (
 )
 ;
+let
+profileGroupID
+=
+await
+lazy
+.
+ClientID
+.
+getUsageProfileGroupID
+(
+)
+;
 const
 uploadEnabled
 =
@@ -317,6 +329,13 @@ profileID
 '
 {
 profileID
+}
+'
+profileGroupID
+=
+'
+{
+profileGroupID
 }
 '
 )
@@ -403,7 +422,7 @@ lazy
 .
 ClientID
 .
-resetUsageProfileIdentifier
+resetUsageProfileIdentifiers
 (
 )
 ;
@@ -420,7 +439,7 @@ SLUG
 Reset
 usage
 profile
-identifier
+identifiers
 .
 )
 ;
@@ -447,7 +466,7 @@ lazy
 .
 ClientID
 .
-setCanaryUsageProfileIdentifier
+setCanaryUsageProfileIdentifiers
 (
 )
 ;
@@ -465,7 +484,7 @@ Set
 canary
 usage
 profile
-identifier
+identifiers
 .
 )
 ;
@@ -879,7 +898,7 @@ not
 contain
 the
 new
-identifier
+identifiers
 .
 This
 call
@@ -895,7 +914,7 @@ lazy
 .
 ClientID
 .
-resetUsageProfileIdentifier
+resetUsageProfileIdentifiers
 (
 )
 ;
@@ -994,7 +1013,7 @@ not
 contain
 the
 previous
-identifier
+identifiers
 .
 This
 call
@@ -1008,7 +1027,7 @@ lazy
 .
 ClientID
 .
-setCanaryUsageProfileIdentifier
+setCanaryUsageProfileIdentifiers
 (
 )
 ;

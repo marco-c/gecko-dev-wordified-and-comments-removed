@@ -7349,7 +7349,7 @@ lazy
 .
 ClientID
 .
-resetUsageProfileIdentifier
+resetUsageProfileIdentifiers
 (
 )
 ;
