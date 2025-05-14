@@ -86,6 +86,13 @@ js
 ]
 [
 "
+test_NewTabGleanUtils
+.
+js
+"
+]
+[
+"
 test_NewTabMessaging
 .
 js
