@@ -3031,7 +3031,7 @@ aSelected
 const
 ;
 void
-SelectFramesOfShadowIncludingDescendantsOfContent
+SelectFramesOfFlattenedTreeOfContent
 (
 nsIContent
 *
