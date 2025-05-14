@@ -7352,7 +7352,7 @@ sandbox
 TargetPolicy
 :
 :
-FILES_ALLOW_DIR_ANY
+FILES_ALLOW_ANY
 sProfileDir
 u
 "
