@@ -329,7 +329,7 @@ constexpr
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kKindTable
 [
 ]
@@ -410,6 +410,10 @@ TextTrackKind
 Metadata
 )
 }
+{
+nullptr
+0
+}
 }
 ;
 static
@@ -418,7 +422,7 @@ const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 *
 kKindTableInvalidValueDefault
 =

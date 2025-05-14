@@ -136,11 +136,11 @@ aResult
 )
 {
 static
-constexpr
+const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kAlignTable
 [
 ]
@@ -172,6 +172,10 @@ LegendAlignValue
 :
 :
 Center
+}
+{
+nullptr
+0
 }
 }
 ;

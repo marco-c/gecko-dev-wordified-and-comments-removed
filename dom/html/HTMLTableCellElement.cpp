@@ -470,11 +470,11 @@ aValue
 }
 }
 static
-constexpr
+const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kCellScopeTable
 [
 ]
@@ -515,6 +515,10 @@ StyleCellScope
 :
 :
 Colgroup
+}
+{
+nullptr
+0
 }
 }
 ;
