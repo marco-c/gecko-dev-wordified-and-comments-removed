@@ -202,17 +202,6 @@ equal
 (
 iconURI
 .
-iconSize
-"
-"
-)
-;
-Assert
-.
-equal
-(
-iconURI
-.
 imageSize
 3
 )
