@@ -1067,6 +1067,9 @@ mozilla
 :
 SlotAssignedNodeRemoved
 (
+dom
+:
+:
 HTMLSlotElement
 *
 aSlot
