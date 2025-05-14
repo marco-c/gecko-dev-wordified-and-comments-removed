@@ -518,7 +518,7 @@ block
 shell
 curl
 -
-L
+LO
 https
 :
 /
