@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -252,6 +252,9 @@ r
 |
 \
 .
+\
+^
+|
 \
 ^
 |
@@ -13765,6 +13768,16 @@ version_added
 10
 '
     
+_example
+=
+"
+matlabsession
+/
+matlabsession_sample
+.
+txt
+"
+    
 def
 get_tokens_unprocessed
 (
@@ -18432,6 +18445,9 @@ r
 ^
 |
 \
+^
+|
+\
 .
 \
 \
@@ -19320,6 +19336,9 @@ r
 |
 \
 .
+\
+^
+|
 \
 ^
 |

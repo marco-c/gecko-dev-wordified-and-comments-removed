@@ -1656,8 +1656,13 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+datetime
+.
+timezone
+.
+utc
 )
             
 deadline

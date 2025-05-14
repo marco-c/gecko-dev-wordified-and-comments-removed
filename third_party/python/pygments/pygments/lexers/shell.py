@@ -42,7 +42,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -2251,6 +2251,18 @@ version_added
 .
 1
 '
+    
+_example
+=
+"
+console
+/
+example
+.
+sh
+-
+session
+"
     
 _innerLexerCls
 =
@@ -6928,6 +6940,14 @@ version_added
 1
 '
     
+_example
+=
+"
+doscon
+/
+session
+"
+    
 _innerLexerCls
 =
 BatchLexer
@@ -7875,6 +7895,14 @@ version_added
 .
 1
 '
+    
+_example
+=
+"
+tcshcon
+/
+session
+"
     
 _innerLexerCls
 =
@@ -9373,6 +9401,16 @@ version_added
 .
 1
 '
+    
+_example
+=
+"
+pwsh
+-
+session
+/
+session
+"
     
 _innerLexerCls
 =

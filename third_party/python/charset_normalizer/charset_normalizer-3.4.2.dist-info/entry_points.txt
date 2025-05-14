@@ -4,7 +4,7 @@ console_scripts
 normalizer
 =
 charset_normalizer
-.
-cli
 :
+cli
+.
 cli_detect

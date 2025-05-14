@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -191,6 +179,10 @@ details
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 logging
 from

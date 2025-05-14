@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -243,6 +243,9 @@ bazel
 '
 '
 starlark
+'
+'
+pyi
 '
 ]
     
@@ -921,7 +924,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 funcname
@@ -952,7 +955,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 classname
@@ -985,7 +988,7 @@ bygroups
 Keyword
 .
 Namespace
-Text
+Whitespace
 )
              
 '
@@ -1019,7 +1022,7 @@ bygroups
 Keyword
 .
 Namespace
-Text
+Whitespace
 )
              
 '
@@ -3755,9 +3758,9 @@ s
 '
 bygroups
 (
-Text
+Whitespace
 Keyword
-Text
+Whitespace
 )
 )
             
@@ -3797,9 +3800,9 @@ s
 '
 bygroups
 (
-Text
+Whitespace
 Operator
-Text
+Whitespace
 )
 )
             
@@ -3835,7 +3838,7 @@ b
 '
 bygroups
 (
-Text
+Whitespace
 Keyword
 .
 Namespace
@@ -5091,7 +5094,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 funcname
@@ -5122,7 +5125,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 classname
@@ -5155,7 +5158,7 @@ bygroups
 Keyword
 .
 Namespace
-Text
+Whitespace
 )
              
 '
@@ -5189,7 +5192,7 @@ bygroups
 Keyword
 .
 Namespace
-Text
+Whitespace
 )
              
 '
@@ -9465,7 +9468,7 @@ Number
 .
 Integer
 Operator
-Name
+Whitespace
 Operator
                       
 Name
@@ -9497,7 +9500,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 funcname
@@ -9521,7 +9524,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 cdef
@@ -9562,7 +9565,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 classname
@@ -9584,7 +9587,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 fromimport
@@ -9608,7 +9611,7 @@ s
 bygroups
 (
 Keyword
-Text
+Whitespace
 )
 '
 import
@@ -10810,7 +10813,7 @@ bygroups
 Name
 .
 Function
-Text
+Whitespace
 )
 '
 #
@@ -10847,7 +10850,7 @@ bygroups
 Name
 .
 Function
-Text
+Whitespace
 Punctuation
 )
 )
@@ -10993,9 +10996,9 @@ s
 '
 bygroups
 (
-Text
+Whitespace
 Keyword
-Text
+Whitespace
 )
 )
             
@@ -11039,9 +11042,9 @@ s
 '
 bygroups
 (
-Text
+Whitespace
 Operator
-Text
+Whitespace
 )
 )
             
@@ -11079,7 +11082,7 @@ b
 '
 bygroups
 (
-Text
+Whitespace
 Keyword
 )
 '

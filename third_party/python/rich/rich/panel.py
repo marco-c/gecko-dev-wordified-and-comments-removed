@@ -124,7 +124,6 @@ object
 box
 (
 Box
-optional
 )
 :
 A

@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 importlib
 from
@@ -18,10 +22,6 @@ import
 Counter
 as
 TypeCounter
-Dict
-List
-Optional
-Tuple
 from
 .
 constant
@@ -73,7 +73,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -107,7 +107,7 @@ iana_name
 :
         
 raise
-IOError
+OSError
 (
 "
 Function
@@ -128,19 +128,14 @@ importlib
 .
 import_module
 (
-        
+f
 "
 encodings
 .
 {
+iana_name
 }
 "
-.
-format
-(
-iana_name
-)
-    
 )
 .
 IncrementalDecoder
@@ -160,7 +155,7 @@ ignore
     
 seen_ranges
 :
-Dict
+dict
 [
 str
 int
@@ -207,10 +202,9 @@ chunk
             
 character_range
 :
-Optional
-[
 str
-]
+|
+None
 =
 unicode_range
 (
@@ -299,7 +293,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -325,7 +319,7 @@ range
     
 languages
 :
-List
+list
 [
 str
 ]
@@ -383,7 +377,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -427,7 +421,7 @@ correspondence
     
 unicode_ranges
 :
-List
+list
 [
 str
 ]
@@ -439,10 +433,9 @@ iana_name
     
 primary_range
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -498,7 +491,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -652,7 +645,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 bool
 bool
@@ -744,7 +737,7 @@ alphabet_languages
     
 characters
 :
-List
+list
 [
 str
 ]
@@ -756,7 +749,7 @@ False
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -781,9 +774,9 @@ characters
     
 languages
 :
-List
+list
 [
-Tuple
+tuple
 [
 str
 float
@@ -942,7 +935,7 @@ language
 str
 ordered_characters
 :
-List
+list
 [
 str
 ]
@@ -1040,17 +1033,14 @@ FREQUENCIES
 raise
 ValueError
 (
+f
 "
 {
+language
 }
 not
 available
 "
-.
-format
-(
-language
-)
 )
     
 character_approved_count
@@ -1215,7 +1205,7 @@ continue
         
 characters_before_source
 :
-List
+list
 [
 str
 ]
@@ -1234,7 +1224,7 @@ character_rank_in_language
         
 characters_after_source
 :
-List
+list
 [
 str
 ]
@@ -1252,7 +1242,7 @@ character_rank_in_language
         
 characters_before
 :
-List
+list
 [
 str
 ]
@@ -1266,7 +1256,7 @@ character_rank
         
 characters_after
 :
-List
+list
 [
 str
 ]
@@ -1413,7 +1403,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1481,7 +1471,7 @@ hebrew
     
 layers
 :
-Dict
+dict
 [
 str
 str
@@ -1510,10 +1500,9 @@ continue
         
 character_range
 :
-Optional
-[
 str
-]
+|
+None
 =
 unicode_range
 (
@@ -1530,10 +1519,9 @@ continue
         
 layer_target_range
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -1620,7 +1608,7 @@ merge_coherence_ratios
 (
 results
 :
-List
+list
 [
 CoherenceMatches
 ]
@@ -1662,10 +1650,10 @@ coherence_ratio
     
 per_language_ratios
 :
-Dict
+dict
 [
 str
-List
+list
 [
 float
 ]
@@ -1835,10 +1823,10 @@ it
     
 index_results
 :
-Dict
+dict
 [
 str
-List
+list
 [
 float
 ]
@@ -1973,10 +1961,9 @@ float
 1
 lg_inclusion
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 )
@@ -2026,9 +2013,9 @@ ranges
     
 results
 :
-List
+list
 [
-Tuple
+tuple
 [
 str
 float
@@ -2145,7 +2132,7 @@ continue
         
 popular_character_ordered
 :
-List
+list
 [
 str
 ]

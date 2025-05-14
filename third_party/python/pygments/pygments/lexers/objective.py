@@ -49,7 +49,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -103,6 +103,7 @@ Number
 Punctuation
 Literal
 Comment
+Whitespace
 from
 pygments
 .
@@ -3123,7 +3124,7 @@ r
 s
 +
 '
-Text
+Whitespace
 )
             
 (
@@ -4793,7 +4794,7 @@ bygroups
 Keyword
 .
 Declaration
-Text
+Whitespace
 Name
 .
 Class
@@ -4830,7 +4831,7 @@ bygroups
 Keyword
 .
 Declaration
-Text
+Whitespace
 Name
 .
 Function
@@ -4869,7 +4870,7 @@ Keyword
 .
 Declaration
              
-Text
+Whitespace
 Name
 .
 Variable
@@ -5019,7 +5020,7 @@ r
 \
 n
 '
-Text
+Whitespace
 '
 #
 pop
@@ -5041,6 +5042,7 @@ r
 \
 n
 ]
++
 '
 Comment
 .
@@ -5072,6 +5074,7 @@ r
 *
 /
 ]
++
 '
 Comment
 .
@@ -5117,6 +5120,7 @@ r
 *
 /
 ]
++
 '
 Comment
 .
@@ -5137,7 +5141,7 @@ r
 \
 n
 '
-Text
+Whitespace
 '
 #
 pop
@@ -5184,7 +5188,7 @@ r
 \
 n
 '
-Text
+Whitespace
 '
 #
 pop

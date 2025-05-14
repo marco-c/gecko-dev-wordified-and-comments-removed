@@ -537,8 +537,13 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+datetime
+.
+timezone
+.
+utc
 )
     
 time
@@ -564,6 +569,13 @@ else
         
 return
 time
+.
+replace
+(
+tzinfo
+=
+None
+)
 .
 isoformat
 (
@@ -619,6 +631,21 @@ time
 "
 "
     
+now
+=
+datetime
+.
+datetime
+.
+now
+(
+datetime
+.
+timezone
+.
+utc
+)
+    
 if
 datetime_format
 is
@@ -626,24 +653,19 @@ True
 :
         
 return
-datetime
-.
-datetime
-.
-utcnow
-(
-)
+now
     
 else
 :
         
 return
-datetime
+now
 .
-datetime
-.
-utcnow
+replace
 (
+tzinfo
+=
+None
 )
 .
 isoformat

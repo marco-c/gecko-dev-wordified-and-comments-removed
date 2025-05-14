@@ -42,7 +42,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -256,6 +256,14 @@ version_added
 .
 10
 '
+    
+_example
+=
+"
+output
+/
+output
+"
     
 def
 get_tokens_unprocessed

@@ -47,7 +47,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -85,6 +85,7 @@ Name
 Keyword
 String
 Number
+Operator
 __all__
 =
 [
@@ -186,6 +187,15 @@ Constant
 '
         
 Keyword
+:
+'
+#
+ff0000
+'
+	
+Operator
+.
+Word
 :
 '
 #

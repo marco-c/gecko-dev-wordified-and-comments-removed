@@ -197,7 +197,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -228,9 +228,9 @@ __version__
 '
 2
 .
-18
+19
 .
-0
+1
 '
 __docformat__
 =

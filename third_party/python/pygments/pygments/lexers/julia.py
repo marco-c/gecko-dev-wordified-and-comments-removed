@@ -43,7 +43,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -2558,6 +2558,14 @@ version_added
 .
 6
 '
+    
+_example
+=
+"
+jlcon
+/
+console
+"
     
 def
 get_tokens_unprocessed

@@ -98,6 +98,10 @@ optionally_keyed_by
 project
 "
             
+"
+level
+"
+            
 Any
 (
                 
@@ -629,6 +633,33 @@ str
 _PATH_MODIFIED
 =
 False
+    
+def
+__post_init__
+(
+self
+)
+:
+        
+object
+.
+__setattr__
+(
+self
+"
+root_dir
+"
+os
+.
+path
+.
+abspath
+(
+self
+.
+root_dir
+)
+)
     
 def
 __getitem__

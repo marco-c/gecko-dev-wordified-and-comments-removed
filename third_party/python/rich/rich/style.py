@@ -3991,8 +3991,6 @@ parse
 (
 word
 )
-is
-None
                 
 except
 ColorParseError

@@ -49,7 +49,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -1565,6 +1565,24 @@ Backtick
 interp
 '
 )
+            
+(
+r
+'
+#
+[
+a
+-
+zA
+-
+Z_
+]
+\
+w
+*
+'
+Name
+)
         
 ]
         
@@ -1974,6 +1992,24 @@ Declaration
 )
             
 inherit
+            
+(
+r
+'
+#
+[
+a
+-
+zA
+-
+Z_
+]
+\
+w
+*
+'
+Name
+)
         
 ]
     
