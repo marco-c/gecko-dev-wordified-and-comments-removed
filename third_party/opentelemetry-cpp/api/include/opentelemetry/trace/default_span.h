@@ -294,7 +294,13 @@ noexcept
 :
 span_context_
 (
+std
+:
+:
+move
+(
 span_context
+)
 )
 {
 }
