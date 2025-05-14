@@ -4019,6 +4019,15 @@ resolve
 )
 ;
 }
+customElementOptions
+:
+{
+addonId
+:
+addon
+.
+id
+}
 }
 ;
 lazy
