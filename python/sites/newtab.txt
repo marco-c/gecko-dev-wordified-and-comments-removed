@@ -50,4 +50,11 @@ third_party
 /
 python
 /
+requests
+vendored
+:
+third_party
+/
+python
+/
 tomli
