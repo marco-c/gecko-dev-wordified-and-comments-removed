@@ -87,7 +87,7 @@ MAX_PYTHON_VERSION_TO_CONSIDER
 =
 (
 3
-11
+12
 )
 def
 load_mach
