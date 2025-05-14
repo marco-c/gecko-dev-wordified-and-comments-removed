@@ -216,6 +216,15 @@ SharedShape
 *
 >
 shape
+js
+:
+:
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 MOZ_ASSERT
@@ -375,6 +384,7 @@ NativeObject
 kind
 heap
 clasp
+site
 )
 ;
 if

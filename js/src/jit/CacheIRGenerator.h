@@ -4569,6 +4569,15 @@ JSOp
 :
 :
 CallContentIter
+|
+|
+op
+=
+=
+JSOp
+:
+:
+Lambda
 ;
 }
 class

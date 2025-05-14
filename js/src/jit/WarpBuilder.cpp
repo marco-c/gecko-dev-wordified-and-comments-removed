@@ -21524,6 +21524,13 @@ alloc
 )
 env
 funConst
+gc
+:
+:
+Heap
+:
+:
+Default
 )
 ;
 current

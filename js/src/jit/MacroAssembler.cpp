@@ -2475,6 +2475,10 @@ Label
 fail
 bool
 initContents
+const
+AllocSiteInput
+&
+allocSite
 )
 {
 gc
@@ -2542,6 +2546,7 @@ allocKind
 nDynamicSlots
 initialHeap
 fail
+allocSite
 )
 ;
 initGCThing
@@ -3097,6 +3102,10 @@ allocKind
 Label
 *
 fail
+const
+AllocSiteInput
+&
+allocSite
 )
 {
 MOZ_ASSERT
@@ -3160,6 +3169,7 @@ allocKind
 numDynamicSlots
 initialHeap
 fail
+allocSite
 )
 ;
 loadPtr
