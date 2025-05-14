@@ -436,7 +436,7 @@ endif
 {
 %
 for
-fn
+fn_item
 in
 self
 .
@@ -448,7 +448,7 @@ initialization_fns
 }
 {
 {
-fn
+fn_item
 }
 }
 (

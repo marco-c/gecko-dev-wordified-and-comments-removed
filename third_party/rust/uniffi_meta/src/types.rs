@@ -2,7 +2,10 @@ use
 crate
 :
 :
+{
 Checksum
+Node
+}
 ;
 #
 [
@@ -16,6 +19,7 @@ PartialEq
 Checksum
 Ord
 PartialOrd
+Node
 )
 ]
 pub
@@ -138,6 +142,7 @@ PartialEq
 Checksum
 Ord
 PartialOrd
+Node
 )
 ]
 pub

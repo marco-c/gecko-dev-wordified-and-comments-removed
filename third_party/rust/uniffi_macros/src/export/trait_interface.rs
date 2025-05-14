@@ -245,7 +245,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 /
 /
@@ -503,7 +506,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 /
 /

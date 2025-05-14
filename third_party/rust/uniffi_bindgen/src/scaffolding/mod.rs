@@ -5,7 +5,7 @@ anyhow
 Result
 ;
 use
-rinja
+askama
 :
 :
 Template
@@ -147,7 +147,7 @@ Type
 Result
 <
 String
-rinja
+askama
 :
 :
 Error

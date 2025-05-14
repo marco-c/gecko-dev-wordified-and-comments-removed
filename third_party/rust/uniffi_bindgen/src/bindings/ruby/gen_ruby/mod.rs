@@ -5,7 +5,7 @@ anyhow
 Result
 ;
 use
-rinja
+askama
 :
 :
 Template
@@ -814,7 +814,7 @@ FfiType
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1136,7 +1136,7 @@ Literal
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1490,7 +1490,7 @@ str
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1523,7 +1523,7 @@ str
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1556,7 +1556,7 @@ str
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1625,7 +1625,7 @@ str
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -1678,7 +1678,7 @@ Type
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -2400,7 +2400,7 @@ Type
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -2554,7 +2554,7 @@ Type
 Result
 <
 String
-rinja
+askama
 :
 :
 Error
@@ -2863,7 +2863,7 @@ Type
 Result
 <
 String
-rinja
+askama
 :
 :
 Error

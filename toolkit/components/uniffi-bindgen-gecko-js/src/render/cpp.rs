@@ -8,6 +8,12 @@ collections
 HashSet
 ;
 use
+askama
+:
+:
+Template
+;
+use
 heck
 :
 :
@@ -15,12 +21,6 @@ heck
 ToSnakeCase
 ToUpperCamelCase
 }
-;
-use
-rinja
-:
-:
-Template
 ;
 use
 uniffi_bindgen

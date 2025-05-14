@@ -104,6 +104,10 @@ macro_metadata
 ;
 pub
 mod
+pipeline
+;
+pub
+mod
 scaffolding
 ;
 #
@@ -2321,7 +2325,7 @@ include_bytes
 .
 .
 /
-rinja
+askama
 .
 toml
 "

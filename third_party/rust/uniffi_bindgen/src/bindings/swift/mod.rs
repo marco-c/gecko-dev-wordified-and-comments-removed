@@ -1080,6 +1080,7 @@ Ok
 derive
 (
 Debug
+Default
 )
 ]
 pub

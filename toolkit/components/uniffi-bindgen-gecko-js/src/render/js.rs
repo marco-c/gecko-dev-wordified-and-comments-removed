@@ -19,6 +19,12 @@ ObjectIds
 }
 ;
 use
+askama
+:
+:
+Template
+;
+use
 extend
 :
 :
@@ -33,12 +39,6 @@ ToLowerCamelCase
 ToShoutySnakeCase
 ToUpperCamelCase
 }
-;
-use
-rinja
-:
-:
-Template
 ;
 use
 uniffi_bindgen

@@ -1443,7 +1443,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
@@ -1730,7 +1733,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
@@ -2023,7 +2029,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 unsafe
@@ -2252,7 +2261,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 unsafe
