@@ -386,6 +386,11 @@ gBrowser
 .
 getAllTabGroups
 (
+{
+sortByLastSeenActive
+:
+true
+}
 )
 )
 {
