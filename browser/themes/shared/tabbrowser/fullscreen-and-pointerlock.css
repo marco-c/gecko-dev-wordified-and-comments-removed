@@ -104,6 +104,17 @@ splitter
 :
 root
 [
+inDOMFullscreen
+]
+#
+sidebar
+-
+launcher
+-
+splitter
+:
+root
+[
 inFullscreen
 ]
 :
