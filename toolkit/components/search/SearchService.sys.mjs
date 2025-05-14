@@ -4116,10 +4116,7 @@ engine
 *
 returns
 {
-Promise
-<
 nsISearchEngine
->
 }
 *
 The
