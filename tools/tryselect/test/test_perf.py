@@ -9,6 +9,10 @@ shutil
 import
 tempfile
 from
+datetime
+import
+datetime
+from
 unittest
 import
 mock
@@ -5946,9 +5950,18 @@ n
 cached_revision
 "
 :
+[
 "
 cached_base_revision
 "
+"
+2024
+-
+04
+-
+04
+"
+]
 }
             
 [
@@ -7991,8 +8004,10 @@ get
 "
 cached_revision
 "
-"
-"
+(
+None
+None
+)
 )
         
 with
@@ -8193,6 +8208,8 @@ compare
 /
 compare
 -
+hash
+-
 results
 ?
 "
@@ -8221,6 +8238,26 @@ mocked100
 )
 }
 &
+baseHashDate
+=
+2025
+-
+01
+-
+01
+&
+newHashDate
+=
+2025
+-
+01
+-
+01
+"
+                
+f
+"
+&
 baseRepo
 =
 try
@@ -8234,79 +8271,6 @@ framework
 1
 \
 n
-\
-n
-"
-                
-"
-The
-old
-comparison
-tool
-is
-still
-available
-at
-this
-URL
-:
-\
-n
-"
-                
-"
-https
-:
-/
-/
-treeherder
-.
-mozilla
-.
-org
-/
-perfherder
-/
-compare
-?
-originalProject
-=
-try
-&
-original
-"
-                
-f
-"
-Hash
-=
-{
-hash
-(
-'
-mockedmocked
-'
-)
-}
-&
-newProject
-=
-try
-&
-newHash
-=
-{
-hash
-(
-'
-mocked100
-'
-)
-}
-&
-framework
-=
-1
 \
 n
 "
@@ -8537,6 +8501,24 @@ requests
 )
 as
 requests_mock
+mock
+.
+patch
+(
+        
+"
+tryselect
+.
+selectors
+.
+perf
+.
+datetime
+"
+    
+)
+as
+mock_datetime
 mock
 .
 patch
@@ -9071,8 +9053,23 @@ get
 "
 cached_revision
 "
-"
-"
+(
+None
+None
+)
+)
+        
+mock_datetime
+.
+today
+.
+return_value
+=
+datetime
+(
+2025
+1
+1
 )
         
 with
@@ -10064,9 +10061,18 @@ tasks
             
 }
             
+(
 "
 2b04563b5
 "
+"
+2023
+-
+03
+-
+31
+"
+)
             
 [
 1
@@ -10148,9 +10154,18 @@ b
             
 }
             
+(
 "
 2b04563b5
 "
+"
+2023
+-
+03
+-
+31
+"
+)
             
 [
 1
@@ -10214,7 +10229,10 @@ tasks
             
 }
             
+(
 None
+None
+)
             
 [
 1
@@ -10296,7 +10314,10 @@ a
             
 }
             
+(
 None
+None
+)
             
 [
 1
@@ -10318,7 +10339,10 @@ None
 {
 }
             
+(
 None
+None
+)
             
 [
 1
@@ -10340,7 +10364,10 @@ None
 {
 }
             
+(
 None
+None
+)
             
 [
 0

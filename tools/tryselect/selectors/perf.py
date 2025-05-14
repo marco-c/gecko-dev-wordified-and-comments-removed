@@ -332,6 +332,8 @@ compare
 /
 compare
 -
+hash
+-
 results
 ?
 "
@@ -343,6 +345,16 @@ baseHash
 s
 &
 newHash
+=
+%
+s
+&
+baseHashDate
+=
+%
+s
+&
+newHashDate
 =
 %
 s
@@ -6563,12 +6575,20 @@ search
 :
 return
 :
-The
+a
+tuple
+(
 base_revision_treeherder
+date
+)
 if
 found
 else
+(
 None
+None
+)
+)
         
 "
 "
@@ -6637,6 +6657,8 @@ is_file
 :
             
 return
+None
+None
         
 with
 cache_file
@@ -6819,6 +6841,16 @@ push
 base_revision_treeherder
 "
 ]
+push
+[
+"
+date
+"
+]
+        
+return
+None
+None
     
 def
 save_revision_treeherder
@@ -7926,11 +7958,21 @@ and
 HG_TO_GIT_MIGRATION_COMPLETE
 :
                     
+(
+                        
 PerfParser
 .
 push_info
 .
 base_hash
+                        
+PerfParser
+.
+push_info
+.
+base_hash_date
+                    
+)
 =
 PerfParser
 .
@@ -7958,6 +8000,7 @@ PerfParser
 push_info
 .
 base_revision
+_
 =
 (
                         
@@ -8102,6 +8145,34 @@ base_hash
 =
 base_commit_hash
                 
+PerfParser
+.
+push_info
+.
+base_hash_date
+=
+datetime
+.
+today
+(
+)
+.
+strftime
+(
+                    
+"
+%
+Y
+-
+%
+m
+-
+%
+d
+"
+                
+)
+                
 if
 base_comparator
 :
@@ -8243,6 +8314,32 @@ push_info
 new_hash
 =
 new_commit_hash
+            
+PerfParser
+.
+push_info
+.
+new_hash_date
+=
+datetime
+.
+today
+(
+)
+.
+strftime
+(
+"
+%
+Y
+-
+%
+m
+-
+%
+d
+"
+)
             
 comparator_obj
 .
@@ -10372,6 +10469,30 @@ get_perfcompare_settings
         
 )
         
+compareview_url_print
+=
+f
+"
+The
+old
+comparison
+tool
+is
+still
+available
+at
+this
+URL
+:
+\
+n
+{
+compareview_url
+}
+\
+n
+"
+        
 if
 HG_TO_GIT_MIGRATION_COMPLETE
 :
@@ -10393,22 +10514,10 @@ get_perfcompare_settings_git
             
 )
             
-compareview_url
+compareview_url_print
 =
-(
-                
-PERFHERDER_BASE_URL_GIT
-                
-%
-PerfParser
-.
-push_info
-.
-get_perfcompare_settings_git
-(
-)
-            
-)
+"
+"
         
 original_try_url
 =
@@ -10490,28 +10599,9 @@ perfcompare_url
 n
 \
 n
-"
-            
-f
-"
-The
-old
-comparison
-tool
-is
-still
-available
-at
-this
-URL
-:
-\
-n
 {
-compareview_url
+compareview_url_print
 }
-\
-n
 "
         
 )
