@@ -202,7 +202,7 @@ kind
 "
 :
 "
-flag
+boolean
 "
                 
 "
@@ -287,7 +287,7 @@ kind
 (
 )
 "
-flag
+boolean
 "
 )
         
@@ -577,7 +577,7 @@ kind
 "
 :
 "
-flag
+boolean
 "
                 
 "
@@ -633,7 +633,7 @@ kind
 (
 )
 "
-flag
+boolean
 "
 )
         
