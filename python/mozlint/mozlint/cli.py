@@ -3317,11 +3317,17 @@ and
 fh
 .
 encoding
-=
-=
+in
+(
 "
 ascii
 "
+"
+iso8859
+-
+1
+"
+)
 :
                 
 out
