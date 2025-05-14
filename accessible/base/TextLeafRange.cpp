@@ -2990,6 +2990,8 @@ MOZ_ASSERT
 parent
 )
 ;
+if
+(
 auto
 childIndex
 =
@@ -3000,12 +3002,8 @@ ComputeIndexOf
 (
 content
 )
-;
-MOZ_ASSERT
-(
-childIndex
 )
-;
+{
 return
 {
 parent
@@ -3023,6 +3021,7 @@ childIndex
 1
 }
 ;
+}
 }
 MOZ_ASSERT
 (
