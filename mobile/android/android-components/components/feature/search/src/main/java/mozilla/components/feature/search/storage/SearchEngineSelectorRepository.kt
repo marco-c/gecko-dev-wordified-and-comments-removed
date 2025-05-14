@@ -644,11 +644,11 @@ patternIdPrefix
 >
 if
 (
-engineIdentifier
+patternIdPrefix
 .
 startsWith
 (
-patternIdPrefix
+engineIdentifier
 )
 )
 {
