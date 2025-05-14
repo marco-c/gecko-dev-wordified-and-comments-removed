@@ -69,6 +69,12 @@ trustpanel
 .
 store
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 components
@@ -126,14 +132,6 @@ lib
 state
 .
 Store
-import
-org
-.
-jetbrains
-.
-annotations
-.
-VisibleForTesting
 import
 org
 .

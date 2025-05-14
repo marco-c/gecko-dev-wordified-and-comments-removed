@@ -327,14 +327,6 @@ ViewBoundFeatureWrapper
 import
 org
 .
-jetbrains
-.
-annotations
-.
-VisibleForTesting
-import
-org
-.
 mozilla
 .
 fenix
@@ -1206,8 +1198,7 @@ download
 )
 }
 }
-VisibleForTesting
-internal
+private
 fun
 provideBrowserStore
 (

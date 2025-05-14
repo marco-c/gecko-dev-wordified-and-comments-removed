@@ -67,6 +67,12 @@ search
 .
 telemetry
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 mozilla
 .
 appservices
@@ -140,14 +146,6 @@ support
 remotesettings
 .
 RemoteSettingsResult
-import
-org
-.
-jetbrains
-.
-annotations
-.
-VisibleForTesting
 import
 org
 .

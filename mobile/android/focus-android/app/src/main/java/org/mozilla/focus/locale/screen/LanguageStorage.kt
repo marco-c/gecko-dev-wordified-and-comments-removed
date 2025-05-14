@@ -95,14 +95,6 @@ PreferenceManager
 import
 org
 .
-jetbrains
-.
-annotations
-.
-VisibleForTesting
-import
-org
-.
 mozilla
 .
 focus
@@ -396,8 +388,7 @@ array
 .
 *
 /
-VisibleForTesting
-internal
+private
 fun
 getUsableLocales
 (
