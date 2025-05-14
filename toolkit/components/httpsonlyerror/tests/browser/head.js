@@ -376,7 +376,14 @@ if
 !
 openInsecureButton
 .
-inert
+classList
+.
+contains
+(
+"
+disabled
+"
+)
 )
 {
 info
@@ -460,7 +467,7 @@ attributeFilter
 :
 [
 "
-inert
+class
 "
 ]
 }

@@ -1826,7 +1826,14 @@ if
 !
 openInsecureButton
 .
-inert
+classList
+.
+contains
+(
+"
+disabled
+"
+)
 )
 {
 observer
@@ -1888,7 +1895,7 @@ attributeFilter
 :
 [
 "
-inert
+class
 "
 ]
 }

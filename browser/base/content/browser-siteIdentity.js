@@ -2562,6 +2562,14 @@ _identityPopup
 )
 ;
 }
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 return
 ;
 }
