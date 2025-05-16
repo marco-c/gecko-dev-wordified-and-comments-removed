@@ -228,7 +228,7 @@ sys
 .
 mjs
 "
-ExperimentManager
+ExperimentAPI
 :
 "
 resource
@@ -237,9 +237,7 @@ resource
 /
 nimbus
 /
-lib
-/
-ExperimentManager
+ExperimentAPI
 .
 sys
 .
@@ -5412,7 +5410,9 @@ targets
 [
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 createTargetingContext
 (
@@ -5524,7 +5524,9 @@ ASRouterTargeting
 Environment
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 createTargetingContext
 (
