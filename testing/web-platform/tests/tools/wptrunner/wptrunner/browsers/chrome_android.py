@@ -872,6 +872,7 @@ LogcatRunner
 self
 .
 logger
+self
 )
     
 def
