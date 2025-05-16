@@ -363,6 +363,7 @@ documentURL
 document_url
 &
 &
+(
 report
 .
 body
@@ -371,6 +372,17 @@ subresourceURL
 =
 =
 subresource_url
+|
+|
+report
+.
+body
+.
+blockedURL
+=
+=
+subresource_url
+)
 )
 return
 report
