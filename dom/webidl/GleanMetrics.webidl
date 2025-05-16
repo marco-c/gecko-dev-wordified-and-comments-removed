@@ -422,7 +422,8 @@ is
 always
 PRTime
 /
-nanos
+*
+microseconds
 )
 .
 *
@@ -438,8 +439,9 @@ value
 as
 PRTime
 (
-nanoseconds
+microseconds
 since
+*
 epoch
 )
 .
