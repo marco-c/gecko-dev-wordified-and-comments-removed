@@ -2042,6 +2042,11 @@ popup
 "
 #
 endif
+needsgutter
+=
+"
+always
+"
 tooltip
 =
 "
@@ -2543,6 +2548,11 @@ popup
 "
 #
 endif
+needsgutter
+=
+"
+always
+"
 context
 =
 "
