@@ -486,7 +486,7 @@ CREATE_IDX_MOZ_NEWTAB_STORY_CLICK_TIMESTAMP
 CREATE_PLACES_IDX
 (
 "
-idx_newtab_click_timestamp
+newtab_click_timestampindex
 "
 \
 "
@@ -505,11 +505,11 @@ CREATE_IDX_MOZ_NEWTAB_IMPRESSION_TIMESTAMP
 CREATE_PLACES_IDX
 (
 "
-idx_newtab_impression_timestamp
+newtab_impression_timestampindex
 "
 \
 "
-moz_newtab_story_click
+moz_newtab_story_impression
 "
 "
 timestamp_s
