@@ -4565,6 +4565,11 @@ themeFg
 theme
 .
 toolbar_text
+|
+|
+theme
+.
+textcolor
 ;
 let
 themeBg
@@ -4572,6 +4577,11 @@ themeBg
 theme
 .
 toolbarColor
+|
+|
+theme
+.
+accentcolor
 ;
 if
 (

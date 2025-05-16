@@ -403,6 +403,13 @@ Bug
 1955503
 [
 "
+browser_test_current_theme_from_amo
+.
+js
+"
+]
+[
+"
 browser_test_last_tab
 .
 js
