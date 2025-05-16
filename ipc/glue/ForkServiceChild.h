@@ -345,14 +345,14 @@ RestartForkServer
 ;
 static
 bool
-mHaveStartedClient
+sHaveStartedClient
 ;
 static
 StaticRefPtr
 <
 ForkServerLauncher
 >
-mSingleton
+sSingleton
 ;
 }
 ;
