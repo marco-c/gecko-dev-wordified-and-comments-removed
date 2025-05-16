@@ -1195,7 +1195,6 @@ chrome_rules_enabled
 MozMenuhoverdisabled
 MozMenuhovertext
 MozMenubarhovertext
-MozEventreerow
 MozOddtreerow
 #
 [
