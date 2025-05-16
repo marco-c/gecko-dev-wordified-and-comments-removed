@@ -148,6 +148,14 @@ ArrayBuffer
 BUF_MIN
 )
 ;
+setPrefValue
+(
+"
+warn_asmjs_deprecation
+"
+false
+)
+;
 function
 asmCompile
 (
