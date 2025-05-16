@@ -247,6 +247,11 @@ TestMediaEventSource
 cpp
 "
 "
+TestMediaFormatReader
+.
+cpp
+"
+"
 TestMediaInfo
 .
 cpp
