@@ -169,6 +169,12 @@ Fragment
 import
 androidx
 .
+lifecycle
+.
+lifecycleScope
+import
+androidx
+.
 localbroadcastmanager
 .
 content
@@ -182,6 +188,12 @@ navigation
 fragment
 .
 findNavController
+import
+kotlinx
+.
+coroutines
+.
+launch
 import
 mozilla
 .
@@ -1927,6 +1939,12 @@ requireContext
 settings
 (
 )
+viewLifecycleOwner
+.
+lifecycleScope
+.
+launch
+{
 initializeGlean
 (
 requireContext
@@ -1944,6 +1962,7 @@ core
 .
 client
 )
+}
 if
 (
 !
