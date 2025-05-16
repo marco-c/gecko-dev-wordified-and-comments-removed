@@ -69,11 +69,6 @@ PerformanceEntry
 readonly
 attribute
 DOMHighResTimeStamp
-renderTime
-;
-readonly
-attribute
-DOMHighResTimeStamp
 loadTime
 ;
 readonly
@@ -107,4 +102,8 @@ toJSON
 )
 ;
 }
+;
+LargestContentfulPaint
+includes
+PaintTimingMixin
 ;
