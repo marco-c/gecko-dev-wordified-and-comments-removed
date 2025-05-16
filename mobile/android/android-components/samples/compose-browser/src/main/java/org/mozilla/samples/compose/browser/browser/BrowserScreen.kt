@@ -259,6 +259,18 @@ components
 .
 compose
 .
+base
+.
+theme
+.
+AcornTheme
+import
+mozilla
+.
+components
+.
+compose
+.
 browser
 .
 awesomebar
@@ -636,6 +648,8 @@ false
 )
 )
 }
+AcornTheme
+{
 Box
 {
 Column
@@ -811,6 +825,7 @@ toolbarStore
 =
 toolbarStore
 )
+}
 }
 }
 }
