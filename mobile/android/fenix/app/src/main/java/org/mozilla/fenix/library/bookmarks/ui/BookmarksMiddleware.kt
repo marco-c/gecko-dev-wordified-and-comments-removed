@@ -3491,6 +3491,17 @@ sortOrder
 is
 BookmarksListMenuAction
 .
+SelectAll
+-
+>
+store
+.
+tryDispatchReceivedRecursiveCountUpdate
+(
+)
+is
+BookmarksListMenuAction
+.
 MultiSelect
 .
 DeleteClicked

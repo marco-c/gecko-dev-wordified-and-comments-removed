@@ -237,6 +237,14 @@ BookmarksListMenuAction
 BookmarksAction
 {
 internal
+data
+object
+SelectAll
+:
+BookmarksListMenuAction
+(
+)
+internal
 sealed
 class
 Bookmark

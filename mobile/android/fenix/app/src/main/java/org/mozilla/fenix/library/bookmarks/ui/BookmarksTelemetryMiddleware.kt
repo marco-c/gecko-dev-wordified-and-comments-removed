@@ -713,6 +713,9 @@ BookmarksListMenuAction
 MultiSelect
 .
 MoveClicked
+BookmarksListMenuAction
+.
+SelectAll
 is
 BookmarksLoaded
 EditBookmarkAction
