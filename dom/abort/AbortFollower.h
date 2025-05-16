@@ -40,6 +40,14 @@ mozilla
 :
 dom
 {
+enum
+class
+SignalAborted
+{
+No
+Yes
+}
+;
 class
 AbortSignal
 ;
@@ -125,7 +133,7 @@ public
 explicit
 AbortSignalImpl
 (
-bool
+SignalAborted
 aAborted
 JS
 :
@@ -292,7 +300,7 @@ AbortFollower
 >
 mFollowers
 ;
-bool
+SignalAborted
 mAborted
 ;
 }

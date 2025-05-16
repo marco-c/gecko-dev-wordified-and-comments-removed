@@ -308,8 +308,10 @@ newState
 >
 SetPrioritySource
 (
-new
 TaskSignal
+:
+:
+Create
 (
 aWindow
 -

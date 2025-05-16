@@ -1455,8 +1455,10 @@ newState
 >
 SetPrioritySource
 (
-new
 TaskSignal
+:
+:
+Create
 (
 GetParentObject
 (
@@ -1489,6 +1491,8 @@ newState
 >
 SetPrioritySource
 (
+do_AddRef
+(
 static_cast
 <
 TaskSignal
@@ -1496,6 +1500,7 @@ TaskSignal
 >
 (
 signalValue
+)
 )
 )
 ;
@@ -1516,8 +1521,10 @@ newState
 >
 SetPrioritySource
 (
-new
 TaskSignal
+:
+:
+Create
 (
 GetParentObject
 (
@@ -1874,8 +1881,10 @@ prioritySource
 {
 prioritySource
 =
-new
 TaskSignal
+:
+:
+Create
 (
 GetParentObject
 (

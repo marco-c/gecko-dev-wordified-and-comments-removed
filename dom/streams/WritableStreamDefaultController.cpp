@@ -622,8 +622,10 @@ AbortSignal
 >
 signal
 =
-new
 AbortSignal
+:
+:
+Create
 (
 aController
 -
@@ -631,7 +633,10 @@ aController
 GetParentObject
 (
 )
-false
+SignalAborted
+:
+:
+No
 JS
 :
 :

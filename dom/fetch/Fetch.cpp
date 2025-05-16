@@ -591,7 +591,7 @@ AbortSignalMainThread
 explicit
 AbortSignalMainThread
 (
-bool
+SignalAborted
 aAborted
 )
 :
@@ -772,7 +772,7 @@ nsIEventTarget
 mMainThreadEventTarget
 ;
 const
-bool
+SignalAborted
 mAborted
 ;
 public
@@ -800,6 +800,16 @@ aSignalImpl
 Aborted
 (
 )
+?
+SignalAborted
+:
+:
+Yes
+:
+SignalAborted
+:
+:
+No
 )
 {
 MOZ_ASSERT
