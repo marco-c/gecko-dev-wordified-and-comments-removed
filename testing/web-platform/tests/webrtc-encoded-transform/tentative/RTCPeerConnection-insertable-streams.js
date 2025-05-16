@@ -196,12 +196,12 @@ contributingSources
 &
 metadata1
 .
-absCaptureTime
+captureTime
 =
 =
 metadata2
 .
-absCaptureTime
+captureTime
 &
 &
 metadata1
