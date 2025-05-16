@@ -447,7 +447,11 @@ flags
 [
 '
 -
-D__ANDROID_UNAVAILABLE_SYMBOLS_ARE_WEAK__
+Wno
+-
+unguarded
+-
+availability
 '
 ]
 DEFINES
