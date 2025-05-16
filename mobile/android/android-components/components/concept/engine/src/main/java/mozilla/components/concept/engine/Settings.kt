@@ -2034,6 +2034,7 @@ var
 postQuantumKeyExchangeEnabled
 :
 Boolean
+?
 by
 UnsupportedSetting
 (
@@ -2531,8 +2532,9 @@ var
 postQuantumKeyExchangeEnabled
 :
 Boolean
+?
 =
-false
+null
 )
 :
 Settings

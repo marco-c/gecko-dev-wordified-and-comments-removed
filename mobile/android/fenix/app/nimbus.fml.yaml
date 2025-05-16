@@ -4304,10 +4304,13 @@ preferences
 .
 type
 :
+Option
+<
 Boolean
+>
 default
 :
-false
+null
 javascript
 :
 description
