@@ -113,6 +113,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsRefreshDriver
+*
+aRefreshDriver
 )
 ;
 }
