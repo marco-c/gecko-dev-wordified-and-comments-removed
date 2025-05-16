@@ -1613,6 +1613,12 @@ ColorID
 :
 MozColheaderhover
 :
+case
+ColorID
+:
+:
+MozEventreerow
+:
 aColor
 =
 GetColorFromNSColor

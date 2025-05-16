@@ -1085,6 +1085,12 @@ ColorID
 :
 MozCombobox
 :
+case
+ColorID
+:
+:
+MozEventreerow
+:
 aColor
 =
 NS_RGB
