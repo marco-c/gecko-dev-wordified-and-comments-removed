@@ -876,6 +876,11 @@ aCache
 )
 const
 ;
+bool
+MaybeVerifyCRC32
+(
+)
+;
 nsresult
 VerifyCRC32
 (
@@ -898,7 +903,6 @@ nsresult
 Init
 (
 )
-;
 ;
 virtual
 nsresult
@@ -1185,6 +1189,9 @@ aConfirmed
 ;
 bool
 mPrimed
+;
+bool
+mNeedCRC32Verification
 ;
 const
 nsCString
