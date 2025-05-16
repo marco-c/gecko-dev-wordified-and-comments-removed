@@ -606,7 +606,7 @@ gecko
 -
 js
 /
-fixtures
+tests
 "
 ]
 if
