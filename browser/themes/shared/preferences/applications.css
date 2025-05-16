@@ -218,6 +218,17 @@ menu
 -
 icon
 {
+media
+not
+(
+-
+moz
+-
+platform
+:
+linux
+)
+{
 content
 :
 url
@@ -239,6 +250,7 @@ png
 "
 )
 ;
+}
 media
 (
 -
