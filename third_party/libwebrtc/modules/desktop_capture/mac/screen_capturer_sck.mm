@@ -934,6 +934,12 @@ kCVPixelFormatType_32BGRA
 ;
 config
 .
+colorSpaceName
+=
+kCGColorSpaceSRGB
+;
+config
+.
 showsCursor
 =
 capture_options_
