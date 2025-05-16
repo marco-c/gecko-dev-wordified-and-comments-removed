@@ -110,14 +110,6 @@ mozilla
 fenix
 .
 HomeActivity
-import
-org
-.
-webrtc
-.
-EglBase
-.
-Context
 /
 *
 *
