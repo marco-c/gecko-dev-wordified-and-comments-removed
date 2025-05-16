@@ -6846,8 +6846,11 @@ RefPtr
 const
 nsAtom
 >
+nsTArray
+<
 nsIFrame
 *
+>
 >
 mAnchorPosAnchors
 ;
