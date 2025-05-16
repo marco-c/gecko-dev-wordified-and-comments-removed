@@ -1080,9 +1080,11 @@ if
 tab
 strip
 is
-enabled
+disabled
+.
 if
 (
+!
 context
 .
 isTabStripEnabled
