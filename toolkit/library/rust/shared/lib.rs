@@ -435,7 +435,7 @@ uniffi_fixtures
 ]
 extern
 crate
-uniffi_bindgen_gecko_js_test_fixtures
+gkrust_uniffi_fixtures
 ;
 #
 [

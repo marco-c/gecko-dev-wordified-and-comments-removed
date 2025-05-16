@@ -203,7 +203,7 @@ registered
 handler
 -
 >
-mUniffiInterfaceName
+mInterfaceName
 )
 )
 ;
@@ -251,7 +251,7 @@ global
 handler
 -
 >
-mUniffiInterfaceName
+mInterfaceName
 )
 )
 ;
@@ -268,7 +268,7 @@ global
 handler
 -
 >
-mUniffiInterfaceName
+mInterfaceName
 )
 ;
 IgnoredErrorResult
@@ -320,7 +320,7 @@ s
 handler
 -
 >
-mUniffiInterfaceName
+mInterfaceName
 )
 )
 ;
@@ -387,11 +387,7 @@ aJsHandler
 >
 Destroy
 (
-mUniffiHandle
-.
-IntoRust
-(
-)
+mObjectHandle
 aError
 )
 ;

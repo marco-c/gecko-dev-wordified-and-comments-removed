@@ -1,0 +1,12 @@
+This
+directory
+is
+where
+files
+generated
+by
+Uniffi
+will
+be
+created
+.
