@@ -821,7 +821,7 @@ DATE
 date
             
 "
-DEB_PKG_NAME
+PKG_NAME
 "
 :
 release_product
