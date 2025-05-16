@@ -415,7 +415,7 @@ TagFreedPage
 ;
 }
 enum
-purge_result_t
+may_purge_now_result_t
 {
 Done
 NeedsMore
