@@ -1049,10 +1049,15 @@ SetRemoteExceptionHandler
 (
 CrashPipeType
 aCrashPipe
+Maybe
+<
 ProcessId
+>
 aCrashHelperPid
 =
-0
+Nothing
+(
+)
 )
 ;
 bool

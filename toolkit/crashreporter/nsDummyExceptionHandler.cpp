@@ -855,7 +855,10 @@ SetRemoteExceptionHandler
 (
 CrashPipeType
 aCrashPipe
+Maybe
+<
 ProcessId
+>
 aCrashHelperPid
 )
 {

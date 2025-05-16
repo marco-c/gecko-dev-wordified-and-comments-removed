@@ -1542,10 +1542,11 @@ nullptr
 #
 endif
 static
+Maybe
+<
 ProcessId
+>
 gCrashHelperPid
-=
-0
 ;
 static
 Mutex
@@ -8446,6 +8447,10 @@ MOZ_WIDGET_ANDROID
 if
 (
 gCrashHelperPid
+.
+isSome
+(
+)
 )
 {
 Unused
@@ -8455,6 +8460,10 @@ prctl
 (
 PR_SET_PTRACER
 gCrashHelperPid
+.
+value
+(
+)
 )
 ;
 }
@@ -15931,7 +15940,10 @@ SetRemoteExceptionHandler
 (
 CrashPipeType
 aCrashPipe
+Maybe
+<
 ProcessId
+>
 aCrashHelperPid
 )
 {
