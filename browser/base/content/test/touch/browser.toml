@@ -8,17 +8,3 @@ browser_menu_touch
 js
 "
 ]
-run
--
-if
-=
-[
-"
-os
-=
-=
-'
-win
-'
-"
-]

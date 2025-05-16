@@ -249,9 +249,6 @@ switchToTabHavingURI
 RestoreLastSessionObserver
 "
 "
-MenuTouchModeObserver
-"
-"
 safeModeRestart
 "
 "
