@@ -144,8 +144,10 @@ pull
 TypographyDashes
 '
 sarifReport
+=
 true
 sarifOutput
+=
 file
 (
 "
