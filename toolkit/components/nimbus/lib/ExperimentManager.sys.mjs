@@ -623,7 +623,7 @@ Telemetry
 /
 export
 class
-_ExperimentManager
+ExperimentManager
 {
 constructor
 (
@@ -881,9 +881,6 @@ Object
 A
 context
 object
-*
-memberof
-_ExperimentManager
 *
 /
 createTargetingContext
@@ -5586,9 +5583,6 @@ Branch
 >
 }
 *
-memberof
-_ExperimentManager
-*
 /
 async
 chooseBranch
@@ -6983,7 +6977,7 @@ value
 .
 newValue
 =
-_ExperimentManager
+ExperimentManager
 .
 getFeatureConfigFromBranch
 (
@@ -8815,7 +8809,7 @@ reverse
 const
 feature
 =
-_ExperimentManager
+ExperimentManager
 .
 getFeatureConfigFromBranch
 (
@@ -9281,12 +9275,3 @@ featureId
 ;
 }
 }
-export
-const
-ExperimentManager
-=
-new
-_ExperimentManager
-(
-)
-;
