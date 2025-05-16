@@ -354,6 +354,11 @@ RemoteSettingsService
 .
 new
 "
+"
+RemoteSettingsService
+.
+update_config
+"
 ]
 [
 error_support
