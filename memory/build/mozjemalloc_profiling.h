@@ -83,6 +83,11 @@ system_calls
 =
 0
 ;
+size_t
+chunks
+=
+0
+;
 PurgeStats
 (
 arena_id_t
@@ -157,6 +162,8 @@ const
 PurgeStats
 &
 aStats
+ArenaPurgeResult
+aResult
 )
 =
 0
