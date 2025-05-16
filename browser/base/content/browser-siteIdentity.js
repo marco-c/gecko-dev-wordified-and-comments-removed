@@ -3964,6 +3964,15 @@ footerVisible
 ;
 if
 (
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+window
+)
+&
+&
 this
 .
 _uriHasHost
