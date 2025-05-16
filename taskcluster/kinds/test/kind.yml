@@ -362,11 +362,6 @@ test
 -
 platform
 :
-macosx1100
-.
-*
-:
-true
 windows1
 .
 *
@@ -442,7 +437,7 @@ macosx64
 fix
 -
 stacks
-macosx1100
+macosx1500
 .
 *
 :
