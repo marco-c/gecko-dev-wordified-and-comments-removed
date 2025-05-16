@@ -6,6 +6,7 @@ from
 .
 base
 import
+OutputHandler
 cmd_arg
 require_arg
 from
@@ -531,7 +532,6 @@ __init__
 self
 logger
 browser
-remote_queue
 )
 :
         
@@ -546,12 +546,6 @@ self
 browser
 =
 browser
-        
-self
-.
-remote_queue
-=
-remote_queue
     
 def
 start
@@ -632,6 +626,20 @@ logcat_cmd
         
 self
 .
+_output_handler
+=
+OutputHandler
+(
+self
+.
+logger
+self
+.
+_cmd
+)
+        
+self
+.
 _proc
 =
 mozprocess
@@ -647,7 +655,7 @@ processOutputLine
 =
 self
 .
-on_output
+_output_handler
             
 storeOutput
 =
@@ -661,50 +669,26 @@ _proc
 run
 (
 )
-    
-def
-_send_message
-(
-self
-command
-*
-args
-)
-:
         
-try
-:
-            
 self
 .
-remote_queue
+_output_handler
 .
-put
+after_process_start
 (
-(
-command
-args
-)
+self
+.
+_proc
+.
+pid
 )
         
-except
-AssertionError
-:
-            
 self
 .
-logger
+_output_handler
 .
-warning
+start
 (
-"
-Error
-when
-send
-to
-remote
-queue
-"
 )
     
 def
@@ -752,6 +736,14 @@ kill
 (
 9
 )
+        
+self
+.
+_output_handler
+.
+after_process_stop
+(
+)
     
 def
 is_alive
@@ -780,60 +772,6 @@ poll
 )
 is
 None
-    
-def
-on_output
-(
-self
-line
-)
-:
-        
-data
-=
-{
-            
-"
-action
-"
-:
-"
-process_output
-"
-            
-"
-process
-"
-:
-"
-LOGCAT
-"
-            
-"
-command
-"
-:
-"
-logcat
-"
-            
-"
-data
-"
-:
-line
-        
-}
-        
-self
-.
-_send_message
-(
-"
-log
-"
-data
-)
 class
 ChromeAndroidBrowserBase
 (
@@ -855,10 +793,6 @@ chromedriver
 "
                  
 adb_binary
-=
-None
-                 
-remote_queue
 =
 None
                  
@@ -931,21 +865,6 @@ symbols_path
         
 self
 .
-remote_queue
-=
-remote_queue
-        
-if
-self
-.
-remote_queue
-is
-not
-None
-:
-            
-self
-.
 logcat_runner
 =
 LogcatRunner
@@ -953,10 +872,6 @@ LogcatRunner
 self
 .
 logger
-self
-self
-.
-remote_queue
 )
     
 def
@@ -972,15 +887,6 @@ setup_adb_reverse
 (
 )
         
-if
-self
-.
-remote_queue
-is
-not
-None
-:
-            
 self
 .
 logcat_runner
@@ -1160,15 +1066,6 @@ all
 ]
 )
         
-if
-self
-.
-remote_queue
-is
-not
-None
-:
-            
 self
 .
 logcat_runner
@@ -1569,10 +1466,6 @@ adb_binary
 =
 None
                  
-remote_queue
-=
-None
-                 
 device_serial
 =
 None
@@ -1601,7 +1494,6 @@ logger
                          
 webdriver_binary
 adb_binary
-remote_queue
                          
 device_serial
 webdriver_args

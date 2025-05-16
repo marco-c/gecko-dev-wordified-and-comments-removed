@@ -3973,11 +3973,6 @@ browser_cls
 self
 .
 logger
-remote_queue
-=
-self
-.
-command_queue
                                        
 *
 *
