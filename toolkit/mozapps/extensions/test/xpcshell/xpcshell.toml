@@ -413,6 +413,13 @@ js
 ]
 [
 "
+test_addonStartup_save_failures
+.
+js
+"
+]
+[
+"
 test_addon_manager_telemetry_events
 .
 js
