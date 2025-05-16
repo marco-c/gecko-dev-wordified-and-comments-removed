@@ -413,6 +413,12 @@ ALLOC_FORCE_REMOTE
 <
 <
 9
+USE_D3D11_KEYED_MUTEX
+=
+1
+<
+<
+10
 }
 ;
 enum
