@@ -2709,10 +2709,9 @@ Nothing
 (
 )
 nullptr
-u
-"
-"
-_ns
+VoidString
+(
+)
 )
 ;
 }
@@ -2793,10 +2792,9 @@ None
 aSourceElement
 aFormDataEntryList
 aClassicHistoryAPIState
-u
-"
-"
-_ns
+VoidString
+(
+)
 )
 ;
 }
