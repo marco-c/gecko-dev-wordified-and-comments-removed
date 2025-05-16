@@ -3679,6 +3679,10 @@ NSS_IsInitialized
 )
 ;
 }
+#
+if
+!
+GTEST_OS_MAC
 class
 SoftokenNonAsciiTest
 :
@@ -3769,6 +3773,8 @@ nullptr
 )
 ;
 }
+#
+endif
 static
 unsigned
 char

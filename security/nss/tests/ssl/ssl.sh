@@ -9545,7 +9545,13 @@ error
 echo
 "
 grep
+-
+E
+'
 12276
+|
+5961
+'
 {
 P_R_SERVERDIR
 }
@@ -9555,7 +9561,13 @@ vfy
 out
 "
 grep
+-
+E
+'
 12276
+|
+5961
+'
 {
 P_R_SERVERDIR
 }

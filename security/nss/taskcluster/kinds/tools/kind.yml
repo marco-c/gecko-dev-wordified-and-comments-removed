@@ -93,6 +93,11 @@ nss
 path
 :
 nss
+nspr
+:
+path
+:
+nspr
 worker
 :
 artifacts

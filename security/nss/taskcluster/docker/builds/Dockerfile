@@ -122,6 +122,10 @@ clang
 -
 10
 \
+clang
+-
+18
+\
 cmake
 \
 g
