@@ -2636,18 +2636,6 @@ if
 tabToAdopt
 )
 {
-if
-(
-window
-.
-gBrowser
-.
-isTab
-(
-tabToAdopt
-)
-)
-{
 let
 adoptedBy
 =
@@ -2668,7 +2656,6 @@ adoptedBy
 tabToAdopt
 )
 ;
-}
 }
 else
 {
