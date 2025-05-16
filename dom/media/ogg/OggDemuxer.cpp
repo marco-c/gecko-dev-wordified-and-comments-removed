@@ -8382,7 +8382,13 @@ samples
 >
 AppendSample
 (
+std
+:
+:
+move
+(
 sample
+)
 )
 ;
 aNumSamples

@@ -271,7 +271,6 @@ RefPtr
 <
 MediaRawData
 >
-&
 aSample
 )
 {
@@ -289,7 +288,13 @@ mSamples
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aSample
+)
 )
 ;
 }
