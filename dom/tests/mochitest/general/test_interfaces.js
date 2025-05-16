@@ -9279,9 +9279,6 @@ name
 "
 onpointerrawupdate
 "
-disabled
-:
-true
 }
 {
 name
