@@ -719,6 +719,7 @@ lastDismissedTime
 time
 ;
 }
+async
 isActive
 (
 queryContext

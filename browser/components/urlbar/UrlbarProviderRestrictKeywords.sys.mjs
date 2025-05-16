@@ -243,6 +243,7 @@ return
 1
 ;
 }
+async
 isActive
 (
 queryContext

@@ -1080,6 +1080,7 @@ PROVIDER_TYPE
 PROFILE
 ;
 }
+async
 isActive
 (
 context
@@ -1345,6 +1346,7 @@ PROVIDER_TYPE
 PROFILE
 ;
 }
+async
 isActive
 (
 _context
@@ -1855,6 +1857,7 @@ matches
 )
 ;
 }
+async
 isActive
 (
 context

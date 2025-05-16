@@ -2741,6 +2741,7 @@ provider
 .
 isActive
 =
+async
 context
 =
 >

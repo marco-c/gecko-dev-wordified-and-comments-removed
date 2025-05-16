@@ -253,6 +253,7 @@ PROVIDER_TYPE
 PROFILE
 ;
 }
+async
 isActive
 (
 queryContext

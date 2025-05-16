@@ -603,6 +603,7 @@ null
 const
 isActive
 =
+await
 UrlbarProviderInterventions
 .
 isActive

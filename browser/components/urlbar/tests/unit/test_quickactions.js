@@ -621,6 +621,7 @@ context
 let
 isActive
 =
+await
 ActionsProviderQuickActions
 .
 isActive
@@ -734,11 +735,14 @@ Assert
 ok
 (
 !
+(
+await
 UrlbarProviderInterventions
 .
 isActive
 (
 context
+)
 )
 "
 Urlbar

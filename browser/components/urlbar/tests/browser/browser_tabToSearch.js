@@ -1436,6 +1436,7 @@ PROVIDER_TYPE
 PROFILE
 ;
 }
+async
 isActive
 (
 _context
