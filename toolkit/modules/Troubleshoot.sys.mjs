@@ -6418,7 +6418,7 @@ mjs
 ;
 const
 {
-ExperimentManager
+ExperimentAPI
 }
 =
 ChromeUtils
@@ -6432,9 +6432,7 @@ resource
 /
 nimbus
 /
-lib
-/
-ExperimentManager
+ExperimentAPI
 .
 sys
 .
@@ -6486,7 +6484,9 @@ NormandyPreferenceStudies
 getAllActive
 (
 )
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
@@ -6500,7 +6500,9 @@ then
 )
 =
 >
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
@@ -6508,7 +6510,9 @@ getAllActiveExperiments
 (
 )
 )
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
@@ -6522,7 +6526,9 @@ then
 )
 =
 >
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
