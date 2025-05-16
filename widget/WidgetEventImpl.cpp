@@ -366,6 +366,9 @@ case
 ePointerLeave
 :
 case
+ePointerRawUpdate
+:
+case
 ePointerGotCapture
 :
 case
@@ -508,6 +511,9 @@ ePointerEnter
 :
 case
 ePointerLeave
+:
+case
+ePointerRawUpdate
 :
 case
 ePointerCancel
