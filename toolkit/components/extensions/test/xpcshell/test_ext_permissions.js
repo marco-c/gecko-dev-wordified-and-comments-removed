@@ -126,7 +126,7 @@ dataCollectionPermissions
 .
 enabled
 "
-false
+true
 )
 ;
 ChromeUtils
@@ -2077,6 +2077,10 @@ REQUIRED_ORIGINS_EXPECTED
 .
 OPTIONAL_ORIGINS_NORMALIZED
 ]
+data_collection
+:
+[
+]
 }
 ;
 result
@@ -2255,6 +2259,10 @@ REQUIRED_ORIGINS_EXPECTED
 .
 .
 OPTIONAL_ORIGINS_NORMALIZED
+]
+data_collection
+:
+[
 ]
 }
 ;
@@ -3074,6 +3082,10 @@ permissions
 [
 ]
 origins
+:
+[
+]
+data_collection
 :
 [
 ]

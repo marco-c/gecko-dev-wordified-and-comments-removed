@@ -99,7 +99,7 @@ dataCollectionPermissions
 .
 enabled
 "
-false
+true
 ]
 ]
 }
@@ -190,6 +190,10 @@ origins
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 perms
 "
@@ -261,6 +265,10 @@ userScripts
 "
 ]
 origins
+:
+[
+]
+data_collection
 :
 [
 ]
