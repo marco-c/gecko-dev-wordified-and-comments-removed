@@ -1601,11 +1601,6 @@ NativeLayerCA
 h
 "
 "
-NativeLayerMacSurfaceHandler
-.
-h
-"
-"
 SurfacePoolCA
 .
 h
@@ -1632,11 +1627,6 @@ UNIFIED_SOURCES
 [
 "
 NativeLayerCA
-.
-mm
-"
-"
-NativeLayerMacSurfaceHandler
 .
 mm
 "
