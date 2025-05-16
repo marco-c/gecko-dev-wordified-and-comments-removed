@@ -186,9 +186,9 @@ enabled
 )
 ;
 await
-restartDoHController
-(
-)
+DoHController
+.
+resetPromise
 ;
 is
 (
