@@ -27,7 +27,12 @@ Optional
     
 Tuple
 Type
+TYPE_CHECKING
 Union
+if
+TYPE_CHECKING
+:
+    
 from
 webdriver
 .
@@ -2888,7 +2893,9 @@ Mapping
 str
 Any
 ]
+"
 Undefined
+"
 ]
 ]
             
