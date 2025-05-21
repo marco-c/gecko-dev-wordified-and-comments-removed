@@ -31,6 +31,19 @@ s
 "
         
 "
+EN_US_BINARY_URL
+"
+:
+os
+.
+environ
+[
+"
+EN_US_BINARY_URL
+"
+]
+        
+"
 DIST
 "
 :
@@ -70,6 +83,16 @@ get
 TOOLTOOL_CACHE
 "
 )
+        
+"
+EN_US_PACKAGE_NAME
+"
+:
+"
+target
+.
+zip
+"
     
 }
 }

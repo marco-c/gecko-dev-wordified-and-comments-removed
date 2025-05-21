@@ -452,10 +452,6 @@ False
 no_process
 =
 False
-    
-unfiltered_project_package
-=
-False
 )
 :
     
@@ -682,10 +678,6 @@ download_maven_zip
 no_process
 =
 no_process
-        
-unfiltered_project_package
-=
-unfiltered_project_package
         
 mozbuild
 =
@@ -934,48 +926,6 @@ CommandArgument
 "
 -
 -
-unfiltered
--
-project
--
-package
-"
-    
-action
-=
-"
-store_true
-"
-    
-help
-=
-"
-Minimally
-process
-(
-only
-)
-main
-project
-package
-artifact
-unpacking
-it
-to
-the
-given
--
--
-distdir
-.
-"
-)
-CommandArgument
-(
-    
-"
--
--
 maven
 -
 zip
@@ -1041,10 +991,6 @@ no_process
 =
 False
     
-unfiltered_project_package
-=
-False
-    
 maven_zip
 =
 False
@@ -1093,10 +1039,6 @@ maven_zip
 no_process
 =
 no_process
-        
-unfiltered_project_package
-=
-unfiltered_project_package
     
 )
     
