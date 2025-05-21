@@ -25,8 +25,9 @@ nsIVersionComparator
 nsVersionComparatorImpl
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -55,12 +56,10 @@ define
 NS_VERSIONCOMPARATOR_CID
 \
 {
-\
 0xc6e47036
 0xca94
 0x4be3
 {
-\
 0x96
 0x3a
 0x9a
@@ -69,7 +68,5 @@ NS_VERSIONCOMPARATOR_CID
 0x05
 0xf7
 0xa8
-\
 }
-\
 }

@@ -61,10 +61,12 @@ MOZ_JSSUBSCRIPTLOADER_CID
 /
 \
 0x929814d6
-0x1dd2
-0x11b2
-{
 \
+0x1dd2
+\
+0x11b2
+\
+{
 0x8e
 0x08
 0x82
@@ -73,9 +75,7 @@ MOZ_JSSUBSCRIPTLOADER_CID
 0x33
 0x9b
 0x00
-\
 }
-\
 }
 class
 nsIIOService

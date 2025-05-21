@@ -88,12 +88,10 @@ define
 NS_CONVERTERINPUTSTREAM_CID
 \
 {
-\
 0x2bc2ad62
 0xad5d
 0x4b7b
 {
-\
 0xa9
 0xdb
 0xf7
@@ -102,9 +100,7 @@ NS_CONVERTERINPUTSTREAM_CID
 0x3
 0xc5
 0x27
-\
 }
-\
 }
 class
 nsConverterInputStream

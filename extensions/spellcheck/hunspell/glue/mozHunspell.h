@@ -146,12 +146,10 @@ define
 MOZ_HUNSPELL_CID
 \
 {
-\
 0x56c778e4
 0x1bee
 0x45f3
 {
-\
 0xa6
 0x89
 0x88
@@ -160,9 +158,7 @@ MOZ_HUNSPELL_CID
 0xa9
 0x7f
 0xe7
-\
 }
-\
 }
 class
 mozHunspell

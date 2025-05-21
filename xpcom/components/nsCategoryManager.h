@@ -89,12 +89,10 @@ define
 NS_CATEGORYMANAGER_CID
 \
 {
-\
 0x16d222a6
 0x1dd2
 0x11b2
 {
-\
 0xb6
 0x93
 0xf3
@@ -103,9 +101,7 @@ NS_CATEGORYMANAGER_CID
 0xc0
 0x21
 0xb2
-\
 }
-\
 }
 class
 CategoryLeaf

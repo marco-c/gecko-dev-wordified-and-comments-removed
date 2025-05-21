@@ -16,12 +16,10 @@ define
 NS_HASH_PROPERTY_BAG_CID
 \
 {
-\
 0x678c50b8
 0x6bcb
 0x4ad0
 {
-\
 0xb9
 0xb8
 0xc8
@@ -30,9 +28,7 @@ NS_HASH_PROPERTY_BAG_CID
 0x95
 0x51
 0x99
-\
 }
-\
 }
 #
 define

@@ -339,9 +339,9 @@ MOZ_DEFINE_ENUM_AT_CLASS_SCOPE_IMPL
 (
 aEnumName
 class
-\
 :
 aBaseName
+\
 aEnumerators
 )
 #

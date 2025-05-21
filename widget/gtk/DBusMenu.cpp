@@ -165,7 +165,6 @@ s_
 #
 name
 }
-\
 static
 const
 DBusMenuDynamicFunction

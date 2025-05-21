@@ -16,12 +16,10 @@ define
 NS_GSETTINGSSERVICE_CID
 \
 {
-\
 0xbfd4a9d8
 0xd886
 0x4161
 {
-\
 0x81
 0xef
 0x88
@@ -30,9 +28,7 @@ NS_GSETTINGSSERVICE_CID
 0x11
 0x41
 0x70
-\
 }
-\
 }
 class
 nsGSettingsService

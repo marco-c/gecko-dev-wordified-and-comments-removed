@@ -299,12 +299,10 @@ define
 PUSHNOTIFIER_CID
 \
 {
-\
 0x2fc2d3e3
 0x020f
 0x404e
 {
-\
 0xb0
 0x6a
 0x6e
@@ -313,9 +311,7 @@ PUSHNOTIFIER_CID
 0xa2
 0x33
 0x4a
-\
 }
-\
 }
 #
 include

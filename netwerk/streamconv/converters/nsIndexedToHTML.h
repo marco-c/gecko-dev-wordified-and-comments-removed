@@ -44,12 +44,10 @@ define
 NS_NSINDEXEDTOHTMLCONVERTER_CID
 \
 {
-\
 0xcf0f71fd
 0xfafd
 0x4e2b
 {
-\
 0x9f
 0xdc
 0x13
@@ -58,9 +56,7 @@ NS_NSINDEXEDTOHTMLCONVERTER_CID
 0x2e
 0x16
 0xe2
-\
 }
-\
 }
 class
 nsIStringBundle

@@ -111,10 +111,12 @@ B7E1
 /
 \
 0X7EF52EAF
-0XB7E1
-0X462B
-{
 \
+0XB7E1
+\
+0X462B
+\
+{
 0X87
 0XE2
 0X5D
@@ -123,9 +125,7 @@ B7E1
 0XCA
 0X90
 0X48
-\
 }
-\
 }
 class
 mozPersonalDictionaryLoader

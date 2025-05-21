@@ -34,12 +34,10 @@ define
 TCPSERVERSOCKETCHILD_CID
 \
 {
-\
 0x41a77ec8
 0xfd86
 0x409e
 {
-\
 0xae
 0xa9
 0xaf
@@ -48,9 +46,7 @@ TCPSERVERSOCKETCHILD_CID
 0x07
 0xef
 0x8e
-\
 }
-\
 }
 class
 nsITCPServerSocketInternal

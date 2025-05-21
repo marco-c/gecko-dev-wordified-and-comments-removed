@@ -450,12 +450,10 @@ define
 NS_EXPANDEDPRINCIPAL_CID
 \
 {
-\
 0xe8ee88b0
 0x5571
 0x4086
 {
-\
 0xa4
 0x5b
 0x39
@@ -464,9 +462,7 @@ NS_EXPANDEDPRINCIPAL_CID
 0x90
 0x6b
 0xdb
-\
 }
-\
 }
 #
 endif

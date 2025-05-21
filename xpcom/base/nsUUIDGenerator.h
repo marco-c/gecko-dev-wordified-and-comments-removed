@@ -50,12 +50,10 @@ define
 NS_UUID_GENERATOR_CID
 \
 {
-\
 0x706d36bb
 0xbf79
 0x4293
 {
-\
 0x81
 0xf2
 0x8f
@@ -64,9 +62,7 @@ NS_UUID_GENERATOR_CID
 0xc1
 0x8f
 0x9d
-\
 }
-\
 }
 #
 endif

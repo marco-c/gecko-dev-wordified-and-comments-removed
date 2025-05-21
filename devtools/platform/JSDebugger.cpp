@@ -59,12 +59,10 @@ define
 JSDEBUGGER_CID
 \
 {
-\
 0x0365cbd5
 0xd46e
 0x4e94
 {
-\
 0xa3
 0x9f
 0x83
@@ -73,9 +71,7 @@ JSDEBUGGER_CID
 0xd1
 0xa9
 0x63
-\
 }
-\
 }
 namespace
 mozilla

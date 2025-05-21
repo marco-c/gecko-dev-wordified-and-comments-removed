@@ -21,12 +21,10 @@ define
 NS_MIXEDCONTENTBLOCKER_CID
 \
 {
-\
 0xdaf1461b
 0xbf29
 0x4f88
 {
-\
 0x8d
 0x0e
 0x4b
@@ -35,9 +33,7 @@ NS_MIXEDCONTENTBLOCKER_CID
 0x32
 0xc8
 0x62
-\
 }
-\
 }
 enum
 MixedContentTypes

@@ -25,12 +25,10 @@ define
 NS_MEDIA_SNIFFER_CID
 \
 {
-\
 0x3fdd6c28
 0x5b87
 0x4e3e
 {
-\
 0x8b
 0x57
 0x8e
@@ -39,9 +37,7 @@ NS_MEDIA_SNIFFER_CID
 0x3c
 0x1a
 0x6d
-\
 }
-\
 }
 #
 define

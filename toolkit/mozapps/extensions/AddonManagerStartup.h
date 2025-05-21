@@ -165,12 +165,10 @@ define
 NS_ADDON_MANAGER_STARTUP_CID
 \
 {
-\
 0x17a59a6b
 0x92b8
 0x42e5
 {
-\
 0xbc
 0xe0
 0xab
@@ -179,9 +177,7 @@ NS_ADDON_MANAGER_STARTUP_CID
 0x7a
 0x71
 0x35
-\
 }
-\
 }
 #
 endif

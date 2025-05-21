@@ -16,12 +16,10 @@ define
 NS_MACPREFERENCESREADER_CID
 \
 {
-\
 0xb0f20595
 0x88ce
 0x4738
 {
-\
 0xa1
 0xa4
 0x24
@@ -30,9 +28,7 @@ NS_MACPREFERENCESREADER_CID
 0xeb
 0x80
 0x51
-\
 }
-\
 }
 #
 define

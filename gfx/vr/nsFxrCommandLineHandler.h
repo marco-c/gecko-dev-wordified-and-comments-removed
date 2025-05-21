@@ -16,12 +16,10 @@ define
 NS_FXRCOMMANDLINEHANDLER_CID
 \
 {
-\
 0x5baca10a
 0x4d53
 0x4335
 {
-\
 0xb2
 0x4d
 0xc6
@@ -30,9 +28,7 @@ NS_FXRCOMMANDLINEHANDLER_CID
 0x64
 0x0a
 0x9a
-\
 }
-\
 }
 class
 nsFxrCommandLineHandler

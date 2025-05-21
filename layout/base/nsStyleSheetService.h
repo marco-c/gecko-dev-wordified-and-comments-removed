@@ -69,12 +69,10 @@ define
 NS_STYLESHEETSERVICE_CID
 \
 {
-\
 0x3b55e72e
 0xab7e
 0x431b
 {
-\
 0x89
 0xc0
 0x3b
@@ -83,9 +81,7 @@ NS_STYLESHEETSERVICE_CID
 0xb1
 0x40
 0x16
-\
 }
-\
 }
 #
 define

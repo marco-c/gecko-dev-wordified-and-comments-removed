@@ -488,10 +488,10 @@ CREATE_PLACES_IDX
 "
 newtab_click_timestampindex
 "
-\
 "
 moz_newtab_story_click
 "
+\
 "
 timestamp_s
 "

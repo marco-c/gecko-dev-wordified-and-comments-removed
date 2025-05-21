@@ -34,12 +34,13 @@ define
 NS_ENVIRONMENT_CID
 \
 {
-\
 0X3D68F92UL
-0X9513
-0X4E25
-{
 \
+0X9513
+\
+0X4E25
+\
+{
 0X9B
 0XE9
 0X7C
@@ -48,9 +49,7 @@ NS_ENVIRONMENT_CID
 0X87
 0X41
 0X72
-\
 }
-\
 }
 #
 define

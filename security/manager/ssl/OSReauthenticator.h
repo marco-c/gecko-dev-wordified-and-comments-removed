@@ -31,12 +31,10 @@ define
 NS_OSREAUTHENTICATOR_CID
 \
 {
-\
 0x4fe082ae
 0x6ff0
 0x4b41
 {
-\
 0xb2
 0x4f
 0xea
@@ -45,9 +43,7 @@ NS_OSREAUTHENTICATOR_CID
 0xf6
 0xe4
 0x6a
-\
 }
-\
 }
 class
 OSReauthenticator

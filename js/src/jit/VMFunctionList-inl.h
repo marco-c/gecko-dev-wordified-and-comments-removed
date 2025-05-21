@@ -3857,6 +3857,7 @@ fp
 )
 MOZ_CONCAT
 (
+\
 fp_
 __COUNTER__
 )

@@ -47,10 +47,12 @@ NS_CHROMEPROTOCOLHANDLER_CID
 /
 \
 0x61ba33c0
-0x3031
-0x11d3
-{
 \
+0x3031
+\
+0x11d3
+\
+{
 0x8c
 0xd0
 0x00
@@ -59,9 +61,7 @@ NS_CHROMEPROTOCOLHANDLER_CID
 0xfc
 0x14
 0xa3
-\
 }
-\
 }
 class
 nsChromeProtocolHandler

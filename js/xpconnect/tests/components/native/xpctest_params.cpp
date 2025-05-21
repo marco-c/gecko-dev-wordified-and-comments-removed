@@ -181,6 +181,7 @@ val
 )
 \
 {
+\
 }
 #
 define
@@ -190,6 +191,7 @@ val
 )
 \
 {
+\
 static_cast
 <
 nsISupports
@@ -204,6 +206,7 @@ AddRef
 (
 )
 ;
+\
 }
 #
 define

@@ -16,12 +16,10 @@ define
 NS_CERT_STORAGE_CID
 \
 {
-\
 0x16e5c837
 0xf877
 0x4e23
 {
-\
 0x9c
 0x64
 0xed
@@ -30,9 +28,7 @@ NS_CERT_STORAGE_CID
 0x5e
 0x30
 0xe6
-\
 }
-\
 }
 extern
 "

@@ -55,12 +55,10 @@ define
 NS_SECURITY_CONSOLE_MESSAGE_CID
 \
 {
-\
 0x43ebf210
 0x8a7b
 0x4ddb
 {
-\
 0xa8
 0x3d
 0xb8
@@ -69,9 +67,7 @@ NS_SECURITY_CONSOLE_MESSAGE_CID
 0xa0
 0x58
 0xdb
-\
 }
-\
 }
 #
 endif

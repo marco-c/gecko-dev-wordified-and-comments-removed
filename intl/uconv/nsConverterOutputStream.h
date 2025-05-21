@@ -44,12 +44,10 @@ define
 NS_CONVERTEROUTPUTSTREAM_CID
 \
 {
-\
 0xff8780a5
 0xbbb1
 0x4bc5
 {
-\
 0x8e
 0xe7
 0x05
@@ -58,9 +56,7 @@ NS_CONVERTEROUTPUTSTREAM_CID
 0xc5
 0xc9
 0x25
-\
 }
-\
 }
 class
 nsConverterOutputStream

@@ -169,12 +169,10 @@ define
 NS_WEBBROWSER_CID
 \
 {
-\
 0xcda5863a
 0xaa9c
 0x411e
 {
-\
 0xbe
 0x49
 0xea
@@ -183,9 +181,7 @@ NS_WEBBROWSER_CID
 0x5a
 0xb4
 0xb5
-\
 }
-\
 }
 class
 mozIDOMWindowProxy

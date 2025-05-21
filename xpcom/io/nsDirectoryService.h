@@ -62,12 +62,10 @@ define
 NS_DIRECTORY_SERVICE_CID
 \
 {
-\
 0xf00152d0
 0xb40b
 0x11d3
 {
-\
 0x8c
 0x9c
 0x00
@@ -76,9 +74,7 @@ NS_DIRECTORY_SERVICE_CID
 0x65
 0x73
 0x74
-\
 }
-\
 }
 class
 nsDirectoryService

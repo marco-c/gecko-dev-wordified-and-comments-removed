@@ -1075,10 +1075,12 @@ NS_ABOUT_CACHE_MODULE_CID
 /
 \
 0x9158c470
-0x86e4
-0x11d4
-{
 \
+0x86e4
+\
+0x11d4
+\
+{
 0x9b
 0xe2
 0x00
@@ -1087,9 +1089,7 @@ NS_ABOUT_CACHE_MODULE_CID
 0x72
 0xa4
 0x16
-\
 }
-\
 }
 #
 endif

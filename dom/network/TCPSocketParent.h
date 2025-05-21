@@ -54,12 +54,10 @@ define
 TCPSOCKETPARENT_CID
 \
 {
-\
 0x4e7246c6
 0xa8b3
 0x426d
 {
-\
 0x9c
 0x17
 0x76
@@ -68,9 +66,7 @@ TCPSOCKETPARENT_CID
 0xe1
 0xe1
 0x4a
-\
 }
-\
 }
 namespace
 mozilla

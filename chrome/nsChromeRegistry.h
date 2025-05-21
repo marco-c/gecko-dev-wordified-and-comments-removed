@@ -87,12 +87,10 @@ define
 NS_CHROMEREGISTRY_CID
 \
 {
-\
 0x47049e42
 0x1d87
 0x482a
 {
-\
 0x98
 0x4d
 0x56
@@ -101,9 +99,7 @@ NS_CHROMEREGISTRY_CID
 0x5e
 0x36
 0x7a
-\
 }
-\
 }
 class
 nsChromeRegistry

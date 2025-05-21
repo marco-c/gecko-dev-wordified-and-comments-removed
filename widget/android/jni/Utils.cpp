@@ -179,10 +179,10 @@ NativeType
 Get
 )
 (
+\
 jobject
 jfieldID
 )
-\
 ABIName
 ;
 \

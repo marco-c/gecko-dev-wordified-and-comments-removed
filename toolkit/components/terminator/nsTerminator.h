@@ -115,12 +115,10 @@ define
 NS_TOOLKIT_TERMINATOR_CID
 \
 {
-\
 0x2e59cc70
 0xf83a
 0x412f
 {
-\
 0x89
 0xd4
 0x45
@@ -129,9 +127,7 @@ NS_TOOLKIT_TERMINATOR_CID
 0x83
 0x72
 0x17
-\
 }
-\
 }
 #
 define

@@ -54,6 +54,7 @@ test
 )
 \
 {
+\
 mozilla
 :
 :
@@ -66,6 +67,7 @@ test
 lambdaOrFunc
 )
 ;
+\
 }
 #
 define
