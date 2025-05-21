@@ -54,6 +54,19 @@ show
 -
 "
 ]
+        
+"
+src
+"
+:
+[
+"
+echo
+"
+"
+src
+"
+]
     
 }
 [
@@ -101,6 +114,17 @@ server
 is
 None
     
+if
+repo
+.
+vcs
+!
+=
+"
+src
+"
+:
+        
 assert
 "
 Initial
