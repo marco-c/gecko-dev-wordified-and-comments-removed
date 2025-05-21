@@ -14420,13 +14420,6 @@ formData
 )
 charset
 method
-icon
-:
-this
-.
-browser
-.
-mIconURL
 }
 )
 ;
