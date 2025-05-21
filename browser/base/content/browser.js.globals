@@ -54,9 +54,6 @@ updateBookmarkToolbarVisibility
 gNavigatorBundle
 "
 "
-gScreenshots
-"
-"
 updateFxaToolbarMenu
 "
 "
@@ -732,13 +729,7 @@ gAddonAbuseReportEnabled
 gMiddleClickNewTabUsesPasteboard
 "
 "
-gScreenshotsDisabled
-"
-"
 gPrintEnabled
-"
-"
-gScreenshotsComponentEnabled
 "
 "
 gTranslationsEnabled

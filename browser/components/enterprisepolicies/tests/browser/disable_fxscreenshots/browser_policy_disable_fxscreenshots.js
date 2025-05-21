@@ -32,11 +32,13 @@ const
 PREF_DISABLE_FX_SCREENSHOTS
 =
 "
-extensions
-.
 screenshots
 .
-disabled
+browser
+.
+component
+.
+enabled
 "
 ;
 async
@@ -177,8 +179,9 @@ test_disable_firefox_screenshots
 (
 )
 {
-is
+ok
 (
+!
 Services
 .
 prefs
@@ -187,7 +190,6 @@ getBoolPref
 (
 PREF_DISABLE_FX_SCREENSHOTS
 )
-true
 "
 Screenshots
 pref
