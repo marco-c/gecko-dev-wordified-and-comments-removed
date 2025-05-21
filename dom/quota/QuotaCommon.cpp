@@ -2016,6 +2016,17 @@ rv
 *
 maybeRv
 ;
+if
+(
+rv
+=
+=
+NS_ERROR_DOM_QM_CLIENT_INIT_ORIGIN_UNINITIALIZED
+)
+{
+return
+;
+}
 rvCode
 =
 nsPrintfCString
