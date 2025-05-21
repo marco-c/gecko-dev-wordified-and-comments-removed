@@ -3122,6 +3122,13 @@ mDisplay
 aDisplay
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 wl_log_set_handler_client
 (
 WlLogHandler
