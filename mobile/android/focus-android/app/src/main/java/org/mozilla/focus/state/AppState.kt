@@ -684,7 +684,6 @@ PrivacyExceptions
 PrivacyExceptionsRemove
 CookieBanner
 SitePermissions
-Studies
 SecretSettings
 SearchList
 SearchRemove
