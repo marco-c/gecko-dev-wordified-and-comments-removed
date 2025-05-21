@@ -218,6 +218,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_disable
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_engagement_edge_cases
 .
 js
