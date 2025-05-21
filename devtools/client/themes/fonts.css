@@ -341,6 +341,7 @@ padding
 -
 bottom
 :
+0
 .
 5em
 ;
@@ -365,6 +366,7 @@ margin
 -
 bottom
 :
+0
 .
 4em
 ;
@@ -388,6 +390,7 @@ padding
 -
 bottom
 :
+0
 .
 5em
 ;
@@ -858,6 +861,7 @@ margin
 -
 bottom
 :
+0
 .
 5em
 ;
@@ -1342,6 +1346,7 @@ padding
 ;
 margin
 :
+0
 .
 6em
 0
@@ -1911,7 +1916,9 @@ input
 [
 type
 =
+"
 number
+"
 ]
 {
 appearance
@@ -2453,6 +2460,7 @@ absolute
 bottom
 :
 -
+0
 .
 6em
 ;
@@ -2574,6 +2582,7 @@ inline
 -
 start
 :
+0
 .
 3em
 ;
@@ -2605,6 +2614,7 @@ inline
 -
 end
 :
+0
 .
 3em
 ;
@@ -2676,9 +2686,11 @@ slider
 [
 name
 =
+"
 font
 -
 weight
+"
 ]
 {
 -
@@ -2947,6 +2959,7 @@ margin
 top
 :
 -
+0
 .
 25em
 ;
