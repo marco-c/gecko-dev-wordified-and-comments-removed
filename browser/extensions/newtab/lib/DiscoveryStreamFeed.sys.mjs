@@ -12081,6 +12081,10 @@ NewTabUtils
 .
 getUtcOffset
 (
+prefs
+[
+PREF_SURFACE_ID
+]
 )
 coarse_os
 :
