@@ -25554,7 +25554,7 @@ aRestoreImmediately
 true
 {
 inBackground
-index
+tabIndex
 }
 =
 {
@@ -25673,7 +25673,7 @@ tabOptions
 =
 {
 userContextId
-index
+tabIndex
 .
 .
 .
@@ -28509,7 +28509,7 @@ into
 a
 different
 window
-index
+tabIndex
 :
 aSource
 =
