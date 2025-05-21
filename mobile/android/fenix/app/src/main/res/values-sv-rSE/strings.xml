@@ -17421,7 +17421,7 @@ name
 alternative_app_icon_option_light
 "
 >
-Ljust
+Ljus
 <
 /
 string
@@ -17458,7 +17458,7 @@ alternative_app_icon_option_dark
 "
 >
 M
-rkt
+rk
 <
 /
 string
@@ -17642,8 +17642,7 @@ alternative_app_icon_option_purple_dark
 "
 >
 M
-rkt
-lila
+rklila
 <
 /
 string
@@ -18205,7 +18204,7 @@ name
 alternative_app_icon_option_pixelated
 "
 >
-Avpixlat
+Avpixlad
 <
 /
 string
