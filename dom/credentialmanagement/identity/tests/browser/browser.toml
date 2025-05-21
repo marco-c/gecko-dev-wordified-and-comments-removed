@@ -163,6 +163,13 @@ js
 ]
 [
 "
+browser_passive_requires_connected
+.
+js
+"
+]
+[
+"
 browser_single_concurrent_identity_request
 .
 js
