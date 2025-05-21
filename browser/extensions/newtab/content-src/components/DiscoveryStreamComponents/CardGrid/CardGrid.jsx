@@ -2441,6 +2441,13 @@ rec
 .
 topic
 }
+features
+=
+{
+rec
+.
+features
+}
 showTopics
 =
 {

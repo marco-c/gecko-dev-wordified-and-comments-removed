@@ -1986,6 +1986,13 @@ this
 props
 .
 topic
+features
+:
+this
+.
+props
+.
+features
 matches_selected_topic
 :
 matchesSelectedTopic
@@ -4552,6 +4559,13 @@ this
 props
 .
 topic
+features
+:
+this
+.
+props
+.
+features
 is_list_card
 :
 isListCard

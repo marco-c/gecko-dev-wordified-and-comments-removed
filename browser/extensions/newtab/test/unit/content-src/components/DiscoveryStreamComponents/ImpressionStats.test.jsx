@@ -867,6 +867,9 @@ undefined
 topic
 :
 undefined
+features
+:
+undefined
 is_list_card
 :
 undefined
@@ -911,6 +914,9 @@ undefined
 topic
 :
 undefined
+features
+:
+undefined
 is_list_card
 :
 undefined
@@ -953,6 +959,9 @@ received_rank
 :
 undefined
 topic
+:
+undefined
+features
 :
 undefined
 is_list_card
@@ -1509,6 +1518,9 @@ TEST_FETCH_TIMESTAMP
 topic
 :
 undefined
+features
+:
+undefined
 is_list_card
 :
 undefined
@@ -1553,6 +1565,9 @@ TEST_FETCH_TIMESTAMP
 topic
 :
 undefined
+features
+:
+undefined
 is_list_card
 :
 undefined
@@ -1595,6 +1610,9 @@ fetchTimestamp
 :
 TEST_FETCH_TIMESTAMP
 topic
+:
+undefined
+features
 :
 undefined
 is_list_card

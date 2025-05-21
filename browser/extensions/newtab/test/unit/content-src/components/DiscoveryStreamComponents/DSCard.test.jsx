@@ -2108,6 +2108,9 @@ undefined
 topic
 :
 undefined
+features
+:
+undefined
 matches_selected_topic
 :
 undefined
@@ -2346,6 +2349,9 @@ received_rank
 :
 undefined
 topic
+:
+undefined
+features
 :
 undefined
 matches_selected_topic
@@ -2589,6 +2595,9 @@ received_rank
 :
 undefined
 topic
+:
+undefined
+features
 :
 undefined
 matches_selected_topic
