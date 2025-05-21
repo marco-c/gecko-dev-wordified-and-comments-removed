@@ -1232,6 +1232,12 @@ enableChXtnPermutation
 :
 1
 ;
+unsigned
+int
+dbLoadCertChain
+:
+1
+;
 }
 sslOptions
 ;

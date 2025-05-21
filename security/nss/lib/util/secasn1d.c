@@ -2116,10 +2116,6 @@ encode_kind
 =
 =
 SEC_ASN1_INLINE
-&
-&
-!
-optional
 )
 ;
 state
