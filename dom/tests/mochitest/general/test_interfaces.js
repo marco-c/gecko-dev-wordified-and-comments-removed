@@ -9277,6 +9277,16 @@ true
 name
 :
 "
+onpointerrawupdate
+"
+disabled
+:
+true
+}
+{
+name
+:
+"
 onpointerup
 "
 insecureContext
