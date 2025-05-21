@@ -196,7 +196,7 @@ sys
 .
 mjs
 "
-_RemoteSettingsExperimentLoader
+RemoteSettingsExperimentLoader
 :
 "
 resource
@@ -1622,7 +1622,7 @@ loader
 new
 lazy
 .
-_RemoteSettingsExperimentLoader
+RemoteSettingsExperimentLoader
 (
 manager
 ?
@@ -3256,7 +3256,7 @@ sandbox
 *
 property
 {
-_RemoteSettingsExperimentLoader
+RemoteSettingsExperimentLoader
 }
 loader
 *

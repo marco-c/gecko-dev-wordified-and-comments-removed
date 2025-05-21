@@ -6,7 +6,6 @@ strict
 const
 {
 EnrollmentsContext
-RemoteSettingsExperimentLoader
 }
 =
 ChromeUtils
@@ -98,7 +97,7 @@ CONTEXT
 new
 EnrollmentsContext
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 manager
 )
