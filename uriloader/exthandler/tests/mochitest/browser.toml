@@ -135,6 +135,9 @@ bin
 https_first_disabled
 =
 true
+#
+Bug
+1897075
 [
 "
 browser_download_open_with_internal_handler
