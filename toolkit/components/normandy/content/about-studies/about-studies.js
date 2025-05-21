@@ -965,7 +965,15 @@ type
 :
 study
 .
-experimentType
+isRollout
+?
+"
+rollout
+"
+:
+"
+nimbus
+"
 sortDate
 :
 new
