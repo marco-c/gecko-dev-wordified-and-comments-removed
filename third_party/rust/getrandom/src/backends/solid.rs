@@ -49,6 +49,10 @@ usize
 i32
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner
@@ -121,13 +125,9 @@ Err
 Error
 :
 :
-from_os_error
+from_neg_error_code
 (
 ret
-.
-unsigned_abs
-(
-)
 )
 )
 }

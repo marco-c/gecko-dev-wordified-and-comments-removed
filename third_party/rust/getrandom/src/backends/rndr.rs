@@ -665,6 +665,10 @@ time
 }
 }
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u32
@@ -719,6 +723,10 @@ Error
 RNDR_FAILURE
 )
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u64
@@ -768,6 +776,10 @@ Error
 RNDR_FAILURE
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

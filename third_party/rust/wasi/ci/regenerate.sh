@@ -24,6 +24,10 @@ rust
 wit
 -
 -
+async
+none
+-
+-
 out
 -
 dir
@@ -37,14 +41,7 @@ feature
 "
 -
 -
-rustfmt
-\
--
--
-bitflags
--
-path
-bitflags
+format
 \
 -
 -
@@ -94,6 +91,12 @@ from
 crates
 -
 io
+\
+-
+-
+generate
+-
+all
 #
 Generate
 bindings
@@ -141,7 +144,7 @@ environment
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -164,7 +167,7 @@ exit
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -187,7 +190,7 @@ stdin
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -210,7 +213,7 @@ stdout
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -233,7 +236,7 @@ stderr
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -258,7 +261,7 @@ input
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -283,7 +286,7 @@ output
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -308,7 +311,7 @@ stdin
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -333,7 +336,7 @@ stdout
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -358,7 +361,7 @@ stderr
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -383,7 +386,7 @@ clock
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -408,7 +411,7 @@ clock
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -431,7 +434,7 @@ types
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -454,7 +457,7 @@ preopens
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -477,7 +480,7 @@ error
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -500,7 +503,7 @@ poll
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -523,7 +526,7 @@ streams
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -546,7 +549,7 @@ random
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -569,7 +572,7 @@ insecure
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -594,7 +597,7 @@ seed
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -617,7 +620,7 @@ network
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -642,7 +645,7 @@ network
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -665,7 +668,7 @@ tcp
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -692,7 +695,7 @@ socket
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -715,7 +718,7 @@ udp
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -742,7 +745,7 @@ socket
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -769,7 +772,7 @@ lookup
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -872,7 +875,7 @@ stdin
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -895,7 +898,7 @@ stdout
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -918,7 +921,7 @@ stderr
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -943,7 +946,7 @@ clock
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -968,7 +971,7 @@ clock
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -991,7 +994,7 @@ error
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -1014,7 +1017,7 @@ poll
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -1037,7 +1040,7 @@ streams
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -1060,7 +1063,7 @@ random
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -1083,7 +1086,7 @@ types
 .
 2
 .
-0
+4
 =
 crate
 :
@@ -1108,7 +1111,7 @@ handler
 .
 2
 .
-0
+4
 =
 crate
 :

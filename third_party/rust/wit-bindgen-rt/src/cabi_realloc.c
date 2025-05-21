@@ -8,7 +8,7 @@ h
 extern
 void
 *
-cabi_realloc_wit_bindgen_0_21_0
+cabi_realloc_wit_bindgen_0_39_0
 (
 void
 *
@@ -49,7 +49,7 @@ new_size
 )
 {
 return
-cabi_realloc_wit_bindgen_0_21_0
+cabi_realloc_wit_bindgen_0_39_0
 (
 ptr
 old_size

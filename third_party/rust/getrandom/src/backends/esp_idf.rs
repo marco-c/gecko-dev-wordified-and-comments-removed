@@ -54,6 +54,10 @@ usize
 u32
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

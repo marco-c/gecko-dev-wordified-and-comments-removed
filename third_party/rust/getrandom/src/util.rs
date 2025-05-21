@@ -334,6 +334,10 @@ T
 {
 r
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u32
@@ -432,6 +436,10 @@ assume_init
 }
 )
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u64

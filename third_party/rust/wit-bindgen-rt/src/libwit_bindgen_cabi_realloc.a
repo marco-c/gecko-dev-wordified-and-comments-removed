@@ -22,7 +22,7 @@ asm
 env
 __linear_memory
 env
-cabi_realloc_wit_bindgen_0_21_0
+cabi_realloc_wit_bindgen_0_39_0
 env
 __indirect_function_table
 p

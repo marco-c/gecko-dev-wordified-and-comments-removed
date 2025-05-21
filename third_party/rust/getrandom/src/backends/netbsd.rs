@@ -285,6 +285,13 @@ null_mut
 [
 cold
 ]
+#
+[
+inline
+(
+never
+)
+]
 fn
 init
 (
@@ -393,6 +400,10 @@ Release
 ;
 ptr
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

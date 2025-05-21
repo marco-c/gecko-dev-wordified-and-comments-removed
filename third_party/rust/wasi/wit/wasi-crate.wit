@@ -16,7 +16,7 @@ imports
 .
 2
 .
-0
+4
 ;
 import
 wasi
@@ -30,6 +30,6 @@ handler
 .
 2
 .
-0
+4
 ;
 }

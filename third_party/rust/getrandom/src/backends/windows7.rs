@@ -95,6 +95,10 @@ BOOLEAN
 =
 1u8
 ;
+#
+[
+inline
+]
 pub
 fn
 fill_inner
