@@ -1980,10 +1980,8 @@ GenericLightDark
 :
 parse_with
 (
-context
 i
 |
-context
 i
 |
 Self
