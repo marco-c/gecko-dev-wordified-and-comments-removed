@@ -110,6 +110,7 @@ waitForSelectedLocation
 (
 dbg
 4
+74
 )
 ;
 info
@@ -250,6 +251,7 @@ waitForSelectedLocation
 (
 dbg
 31
+24
 )
 ;
 }

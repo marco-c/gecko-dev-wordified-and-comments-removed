@@ -358,7 +358,7 @@ waitForSelectedLocation
 (
 dbg
 1
-16
+17
 )
 ;
 BrowserTestUtils
@@ -1077,7 +1077,7 @@ waitForSelectedLocation
 (
 dbg
 4
-2
+3
 )
 ;
 ok
