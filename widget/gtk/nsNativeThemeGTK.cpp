@@ -83,6 +83,15 @@ PathHelpers
 h
 "
 #
+include
+"
+mozilla
+/
+WidgetUtilsGtk
+.
+h
+"
+#
 ifdef
 MOZ_X11
 #
