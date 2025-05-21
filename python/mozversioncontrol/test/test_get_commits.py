@@ -173,7 +173,7 @@ automatically
 ]
 }
 def
-test_get_branch_nodes
+test_get_commits
 (
 repo
 )
@@ -198,7 +198,7 @@ nodes
 =
 vcs
 .
-get_branch_nodes
+get_commits
 (
 )
     

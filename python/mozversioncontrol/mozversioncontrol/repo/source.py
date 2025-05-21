@@ -795,7 +795,7 @@ value
 pass
     
 def
-get_branch_nodes
+get_commits
 (
 self
 head
