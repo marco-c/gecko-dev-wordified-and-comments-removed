@@ -3149,7 +3149,7 @@ title
 :
 "
 Importing
-Passwords
+passwords
 "
 progress
 :
@@ -3209,8 +3209,8 @@ title
 :
 "
 Passwords
-Imported
-Successfully
+imported
+successfully
 "
 progress
 :

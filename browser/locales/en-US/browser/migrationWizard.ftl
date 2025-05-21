@@ -62,8 +62,8 @@ selection
 header
 =
 Import
-Browser
-Data
+browser
+data
 migration
 -
 wizard
@@ -1021,8 +1021,8 @@ progress
 header
 =
 Import
-Passwords
-File
+passwords
+file
 migration
 -
 passwords
@@ -1036,8 +1036,8 @@ success
 header
 =
 Passwords
-Imported
-Successfully
+imported
+successfully
 migration
 -
 passwords
@@ -1382,8 +1382,8 @@ picker
 title
 =
 Import
-Bookmarks
-File
+bookmarks
+file
 migration
 -
 bookmarks
@@ -1397,7 +1397,7 @@ progress
 header
 =
 Importing
-Bookmarks
+bookmarks
 migration
 -
 bookmarks
@@ -1420,8 +1420,8 @@ success
 header
 =
 Bookmarks
-Imported
-Successfully
+imported
+successfully
 migration
 -
 bookmarks
@@ -1635,8 +1635,8 @@ button
 label
 =
 Import
-From
-File
+from
+file
 migration
 -
 import
@@ -1650,7 +1650,7 @@ button
 label
 =
 Select
-File
+file
 migration
 -
 cancel
@@ -1934,7 +1934,7 @@ progress
 header
 =
 Importing
-Data
+data
 #
 This
 header
@@ -1967,8 +1967,8 @@ done
 header
 =
 Data
-Imported
-Successfully
+imported
+successfully
 #
 This
 header
@@ -2036,8 +2036,8 @@ warnings
 header
 =
 Data
-Import
-Complete
+import
+complete
 migration
 -
 wizard
@@ -2083,7 +2083,7 @@ import
 header
 =
 Import
-Passwords
+passwords
 from
 Safari
 migration
@@ -2185,7 +2185,7 @@ step4
 =
 Use
 Select
-File
+file
 below
 to
 choose
@@ -2329,7 +2329,7 @@ Return
 here
 and
 Select
-File
+file
 to
 finish
 import
@@ -2360,7 +2360,7 @@ select
 button
 =
 Select
-File
+file
 #
 Shown
 in
