@@ -210,7 +210,7 @@ DPIRatio
 CSSToLayoutDeviceScale
 ;
 NS_DECL_ISUPPORTS_INHERITED
-void
+NS_IMETHOD
 DrawWidgetBackground
 (
 gfxContext
@@ -362,6 +362,12 @@ StyleAppearance
 nsAtom
 *
 aAttribute
+)
+override
+;
+NS_IMETHOD
+ThemeChanged
+(
 )
 override
 ;

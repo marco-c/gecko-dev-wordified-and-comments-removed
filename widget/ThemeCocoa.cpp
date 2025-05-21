@@ -36,7 +36,7 @@ mozilla
 :
 widget
 {
-void
+NS_IMETHODIMP
 ThemeCocoa
 :
 :
@@ -74,6 +74,7 @@ StyleAppearance
 Tooltip
 :
 return
+NS_OK
 ;
 default
 :

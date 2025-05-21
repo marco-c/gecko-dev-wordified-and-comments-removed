@@ -49,7 +49,7 @@ aScrollbarDrawing
 )
 {
 }
-void
+NS_IMETHOD
 DrawWidgetBackground
 (
 gfxContext
