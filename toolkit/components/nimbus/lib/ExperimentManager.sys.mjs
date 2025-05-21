@@ -3612,6 +3612,15 @@ requiresRestart
 }
 this
 .
+_prefFlips
+.
+_annotateEnrollment
+(
+enrollment
+)
+;
+this
+.
 store
 .
 addEnrollment
