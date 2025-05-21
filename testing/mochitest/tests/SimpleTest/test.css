@@ -26,6 +26,14 @@ block
 .
 test_todo
 {
+/
+*
+color
+:
+orange
+;
+*
+/
 display
 :
 block

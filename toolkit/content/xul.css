@@ -2067,6 +2067,7 @@ descenders
 /
 border
 :
+0
 .
 5px
 solid
@@ -3276,7 +3277,9 @@ scrollbox
 [
 smoothscroll
 =
+"
 true
+"
 ]
 {
 scroll
