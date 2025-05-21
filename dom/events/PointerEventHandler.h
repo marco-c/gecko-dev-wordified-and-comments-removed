@@ -279,6 +279,12 @@ static
 bool
 ShouldDispatchClickEventOnCapturingElement
 (
+const
+WidgetGUIEvent
+*
+aSourceEvent
+=
+nullptr
 )
 ;
 static
