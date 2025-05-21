@@ -341,6 +341,13 @@ revision
 this
 .
 version
+deletedBy
+:
+"
+about
+:
+addons
+"
 }
 )
 ;

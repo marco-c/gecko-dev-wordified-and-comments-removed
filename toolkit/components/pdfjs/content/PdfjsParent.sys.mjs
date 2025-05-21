@@ -2783,6 +2783,11 @@ deleteModels
 taskName
 :
 service
+deletedBy
+:
+"
+pdfjs
+"
 }
 )
 ;
