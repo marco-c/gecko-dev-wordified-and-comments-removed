@@ -37,6 +37,17 @@ prefetchOnEnable
 =
 false
 "
+"
+browser
+.
+ml
+.
+linkPreview
+.
+shiftAlt
+=
+true
+"
 ]
 [
 "
