@@ -7437,6 +7437,10 @@ macos
 return
 ;
 }
+AssertOnTaskQueue
+(
+)
+;
 RefPtr
 <
 AppleVTEncoder
