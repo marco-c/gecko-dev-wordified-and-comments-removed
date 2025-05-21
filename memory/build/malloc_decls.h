@@ -284,7 +284,7 @@ __cplusplus
 MALLOC_DECL
 (
 moz_may_purge_now
-may_purge_now_result_t
+purge_result_t
 bool
 uint32_t
 const
