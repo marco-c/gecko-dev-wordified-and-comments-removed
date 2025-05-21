@@ -90,6 +90,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

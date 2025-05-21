@@ -70,6 +70,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
