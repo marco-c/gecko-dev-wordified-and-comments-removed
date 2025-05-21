@@ -319,6 +319,13 @@ n
 "
 leak
 :
+mesa_cache_db_open
+\
+n
+"
+"
+leak
+:
 libcairo
 .
 so
