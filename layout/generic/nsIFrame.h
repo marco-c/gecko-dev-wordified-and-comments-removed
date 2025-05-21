@@ -11505,6 +11505,13 @@ const
 ;
 inline
 bool
+IsLegacyWebkitBox
+(
+)
+const
+;
+inline
+bool
 IsMasonry
 (
 mozilla

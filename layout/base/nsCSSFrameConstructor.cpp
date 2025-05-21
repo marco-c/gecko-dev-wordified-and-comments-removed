@@ -1563,9 +1563,8 @@ IsFlexContainerFrame
 aFrame
 -
 >
-HasAnyStateBits
+IsLegacyWebkitBox
 (
-NS_STATE_FLEX_IS_EMULATING_LEGACY_WEBKIT_BOX
 )
 ;
 }
