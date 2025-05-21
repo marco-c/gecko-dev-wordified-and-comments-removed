@@ -584,6 +584,13 @@ js
 ]
 [
 "
+browser_fixed_ABA_partitionKey
+.
+js
+"
+]
+[
+"
 browser_hasStorageAccess
 .
 js
