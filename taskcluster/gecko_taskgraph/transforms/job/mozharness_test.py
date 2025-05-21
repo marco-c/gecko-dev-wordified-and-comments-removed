@@ -1334,6 +1334,17 @@ MOZ_ENABLE_WAYLAND
 1
 "
     
+else
+:
+        
+assert
+"
+MOZ_ENABLE_WAYLAND
+"
+not
+in
+env
+    
 if
 mozharness
 .

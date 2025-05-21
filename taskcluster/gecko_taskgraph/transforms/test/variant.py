@@ -723,6 +723,8 @@ return
 merge
 (
 task
+deepcopy
+(
 variant
 .
 get
@@ -732,6 +734,7 @@ merge
 "
 {
 }
+)
 )
 )
     
