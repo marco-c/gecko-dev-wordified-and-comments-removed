@@ -2056,7 +2056,7 @@ a
 )
     
 def
-get_branch_nodes
+get_commits
 (
         
 self
