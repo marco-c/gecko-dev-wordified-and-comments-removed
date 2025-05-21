@@ -167,7 +167,7 @@ support
 .
 utils
 .
-ManufacturerCodes
+BuildManufacturerChecker
 const
 val
 SETTINGS_SELECT_OPTION_KEY
@@ -244,6 +244,9 @@ Context
 .
 navigateToDefaultBrowserAppsSettings
 (
+buildManufacturerChecker
+:
+BuildManufacturerChecker
 )
 {
 val
@@ -251,9 +254,11 @@ intent
 =
 when
 {
-ManufacturerCodes
+buildManufacturerChecker
 .
 isHuawei
+(
+)
 -
 >
 Intent

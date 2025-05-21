@@ -133,6 +133,16 @@ support
 .
 utils
 .
+BuildManufacturerChecker
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
 ext
 .
 navigateToDefaultBrowserAppsSettings
@@ -423,6 +433,9 @@ context
 .
 navigateToDefaultBrowserAppsSettings
 (
+BuildManufacturerChecker
+(
+)
 )
 SetDefaultBrowser
 .
@@ -459,6 +472,9 @@ context
 .
 navigateToDefaultBrowserAppsSettings
 (
+BuildManufacturerChecker
+(
+)
 )
 SetDefaultBrowser
 .

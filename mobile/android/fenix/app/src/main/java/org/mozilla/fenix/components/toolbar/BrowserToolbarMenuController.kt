@@ -301,7 +301,7 @@ support
 .
 utils
 .
-ManufacturerCodes
+BuildManufacturerChecker
 import
 mozilla
 .
@@ -1975,9 +1975,13 @@ else
 {
 if
 (
-ManufacturerCodes
+BuildManufacturerChecker
+(
+)
 .
 isXiaomi
+(
+)
 )
 {
 val

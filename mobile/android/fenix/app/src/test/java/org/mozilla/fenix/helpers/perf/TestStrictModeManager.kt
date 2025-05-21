@@ -138,6 +138,12 @@ relaxed
 =
 true
 )
+mockk
+(
+relaxed
+=
+true
+)
 )
 {
 /

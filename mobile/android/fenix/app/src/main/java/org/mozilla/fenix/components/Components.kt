@@ -285,6 +285,16 @@ support
 .
 utils
 .
+BuildManufacturerChecker
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
 ClipboardHandler
 import
 org
@@ -1349,6 +1359,9 @@ StrictModeManager
 (
 Config
 this
+BuildManufacturerChecker
+(
+)
 )
 }
 val

@@ -703,7 +703,7 @@ support
 .
 utils
 .
-ManufacturerCodes
+BuildManufacturerChecker
 import
 mozilla
 .
@@ -6083,9 +6083,13 @@ return
 isAndroidN
 |
 |
-ManufacturerCodes
+BuildManufacturerChecker
+(
+)
 .
 isHuawei
+(
+)
 }
 /
 *

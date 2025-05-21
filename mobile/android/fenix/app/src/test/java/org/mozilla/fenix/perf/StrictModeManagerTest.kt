@@ -339,6 +339,9 @@ StrictModeManager
 (
 debugConfig
 components
+mockk
+(
+)
 )
 val
 releaseConfig
@@ -362,6 +365,9 @@ StrictModeManager
 (
 releaseConfig
 components
+mockk
+(
+)
 )
 }
 After
