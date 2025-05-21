@@ -395,3 +395,13 @@ margin
 important
 ;
 }
+.
+tabs
+-
+right
+{
+flex
+:
+1
+;
+}
