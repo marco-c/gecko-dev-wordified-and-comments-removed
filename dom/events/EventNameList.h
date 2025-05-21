@@ -773,13 +773,6 @@ ePointerEventClass
 )
 EVENT
 (
-pointerrawupdate
-ePointerRawUpdate
-EventNameType_All
-ePointerEventClass
-)
-EVENT
-(
 gotpointercapture
 ePointerGotCapture
 EventNameType_All

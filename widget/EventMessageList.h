@@ -125,10 +125,6 @@ eMouseLongTap
 )
 NS_EVENT_MESSAGE
 (
-eMouseRawUpdate
-)
-NS_EVENT_MESSAGE
-(
 eMouseExploreByTouch
 )
 NS_EVENT_MESSAGE_FIRST_LAST
@@ -176,10 +172,6 @@ ePointerLeave
 NS_EVENT_MESSAGE
 (
 ePointerCancel
-)
-NS_EVENT_MESSAGE
-(
-ePointerRawUpdate
 )
 NS_EVENT_MESSAGE
 (
@@ -956,10 +948,6 @@ eTouchCancel
 NS_EVENT_MESSAGE
 (
 eTouchPointerCancel
-)
-NS_EVENT_MESSAGE
-(
-eTouchRawUpdate
 )
 NS_EVENT_MESSAGE
 (

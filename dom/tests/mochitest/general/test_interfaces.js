@@ -9277,13 +9277,6 @@ true
 name
 :
 "
-onpointerrawupdate
-"
-}
-{
-name
-:
-"
 onpointerup
 "
 insecureContext
