@@ -3673,7 +3673,7 @@ small
 value
 :
 "
-28px
+24px
 "
 name
 :
@@ -8533,7 +8533,7 @@ color
 -
 blue
 -
-70
+60
 )
 "
 dark
@@ -8577,7 +8577,7 @@ color
 -
 blue
 -
-70
+60
 )
 var
 (
@@ -8619,7 +8619,7 @@ color
 -
 green
 -
-70
+60
 )
 "
 dark
@@ -8663,7 +8663,7 @@ color
 -
 green
 -
-70
+60
 )
 var
 (
@@ -8705,7 +8705,7 @@ color
 -
 yellow
 -
-70
+60
 )
 "
 dark
@@ -8749,7 +8749,7 @@ color
 -
 yellow
 -
-70
+60
 )
 var
 (
@@ -8791,7 +8791,7 @@ color
 -
 red
 -
-70
+60
 )
 "
 dark
@@ -8835,7 +8835,7 @@ color
 -
 red
 -
-70
+60
 )
 var
 (
@@ -16435,7 +16435,7 @@ color
 -
 blue
 -
-70
+60
 )
 "
 dark
@@ -16479,7 +16479,7 @@ color
 -
 blue
 -
-70
+60
 )
 var
 (
@@ -16514,7 +16514,7 @@ color
 -
 green
 -
-70
+60
 )
 "
 dark
@@ -16558,7 +16558,7 @@ color
 -
 green
 -
-70
+60
 )
 var
 (
@@ -16593,7 +16593,7 @@ color
 -
 yellow
 -
-70
+60
 )
 "
 dark
@@ -16637,7 +16637,7 @@ color
 -
 yellow
 -
-70
+60
 )
 var
 (
@@ -16672,7 +16672,7 @@ color
 -
 red
 -
-70
+60
 )
 "
 dark
@@ -16716,7 +16716,7 @@ color
 -
 red
 -
-70
+60
 )
 var
 (
@@ -17202,7 +17202,7 @@ medium
 "
 :
 "
-28px
+24px
 "
 "
 size
