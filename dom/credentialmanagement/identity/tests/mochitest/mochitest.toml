@@ -400,6 +400,13 @@ html
 ]
 [
 "
+test_simple_no_user_activation
+.
+html
+"
+]
+[
+"
 test_two_accounts
 .
 html
