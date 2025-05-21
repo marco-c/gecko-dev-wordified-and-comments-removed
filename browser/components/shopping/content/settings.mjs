@@ -789,7 +789,6 @@ span
 moz
 -
 toggle
-/
 >
 <
 /

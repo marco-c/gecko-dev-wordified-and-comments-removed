@@ -1097,7 +1097,12 @@ tool
 .
 disabled
 }
+>
+<
 /
+moz
+-
+checkbox
 >
 ;
 }
@@ -1853,7 +1858,12 @@ hide
 sidebar
 "
 }
+>
+<
 /
+moz
+-
+checkbox
 >
 )
 }

@@ -577,6 +577,7 @@ this
 .
 rating
 }
+>
 <
 /
 moz
