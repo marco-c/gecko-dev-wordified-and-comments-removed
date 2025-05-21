@@ -5272,7 +5272,7 @@ typename
 CharT
 >
 static
-size_t
+void
 maybeCloneCharsOnPromotionTyped
 (
 JSLinearString
@@ -5281,7 +5281,7 @@ str
 )
 ;
 static
-size_t
+void
 maybeCloneCharsOnPromotion
 (
 JSLinearString
@@ -5299,7 +5299,6 @@ hasLatin1Chars
 )
 )
 {
-return
 maybeCloneCharsOnPromotionTyped
 <
 JS
@@ -5312,7 +5311,8 @@ str
 )
 ;
 }
-return
+else
+{
 maybeCloneCharsOnPromotionTyped
 <
 char16_t
@@ -5321,6 +5321,7 @@ char16_t
 str
 )
 ;
+}
 }
 inline
 void

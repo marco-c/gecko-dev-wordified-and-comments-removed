@@ -6754,9 +6754,6 @@ isDependent
 )
 )
 {
-size_t
-cloned
-=
 JSLinearString
 :
 :
@@ -6773,8 +6770,6 @@ asDependent
 ;
 return
 size
-+
-cloned
 ;
 }
 if

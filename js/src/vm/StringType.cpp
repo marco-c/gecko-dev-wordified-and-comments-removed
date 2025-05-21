@@ -14807,7 +14807,7 @@ template
 typename
 CharT
 >
-size_t
+void
 JSLinearString
 :
 :
@@ -14871,7 +14871,6 @@ isTenured
 )
 {
 return
-0
 ;
 }
 JS
@@ -14915,7 +14914,6 @@ nogc
 )
 {
 return
-0
 ;
 }
 js
@@ -15028,12 +15026,9 @@ MemoryUse
 StringContents
 )
 ;
-return
-nbytes
-;
 }
 template
-size_t
+void
 JSLinearString
 :
 :
@@ -15051,7 +15046,7 @@ str
 )
 ;
 template
-size_t
+void
 JSLinearString
 :
 :
