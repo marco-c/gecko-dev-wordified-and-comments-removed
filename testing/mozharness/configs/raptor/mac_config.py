@@ -212,7 +212,7 @@ architectures
 halt_on_failure
 "
 :
-False
+True
             
 "
 enabled
@@ -297,7 +297,7 @@ architectures
 halt_on_failure
 "
 :
-False
+True
             
 "
 enabled
