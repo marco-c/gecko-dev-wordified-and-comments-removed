@@ -83,6 +83,17 @@ mozilla
 /
 dom
 /
+NavigationBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowProxyHolder
 .
 h
