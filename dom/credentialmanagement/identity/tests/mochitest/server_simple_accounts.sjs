@@ -288,9 +288,9 @@ email
 :
 "
 john_doe
-idp
-.
 example
+.
+com
 "
 picture
 :
@@ -299,9 +299,9 @@ https
 :
 /
 /
-idp
-.
 example
+.
+com
 /
 profile
 /
