@@ -23835,22 +23835,6 @@ False
 )
                 
 "
-cm5
-"
-:
-mozinfo
-.
-info
-.
-get
-(
-"
-cm5
-"
-False
-)
-                
-"
 coverage
 "
 :

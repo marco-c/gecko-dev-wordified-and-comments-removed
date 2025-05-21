@@ -597,9 +597,6 @@ if
 "
 verify
 "
-"
-cm5
-"
 ]
 [
 "
@@ -1043,15 +1040,6 @@ preview
 frame
 .
 js
-"
-]
-skip
--
-if
-=
-[
-"
-cm5
 "
 ]
 [
