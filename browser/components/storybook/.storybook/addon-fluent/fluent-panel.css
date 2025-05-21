@@ -82,7 +82,7 @@ message
 background
 :
 #
-FFF5CF
+fff5cf
 ;
 color
 :
@@ -106,6 +106,7 @@ shadow
 :
 rgba
 (
+0
 0
 0
 0
@@ -231,6 +232,7 @@ rgba
 .
 55
 )
+;
 }
 }
 table
