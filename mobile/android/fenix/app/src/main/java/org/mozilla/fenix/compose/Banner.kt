@@ -402,7 +402,7 @@ text
 button1Text
 onClick
 =
-onButton2Click
+onButton1Click
 )
 Spacer
 (
@@ -424,7 +424,7 @@ text
 button2Text
 onClick
 =
-onButton1Click
+onButton2Click
 )
 }
 }

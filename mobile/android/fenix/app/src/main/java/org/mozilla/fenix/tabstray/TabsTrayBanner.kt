@@ -1384,7 +1384,7 @@ onButton1Click
 hasAcknowledgedAutoCloseBanner
 =
 true
-onTabAutoCloseBannerViewOptionsClick
+onTabAutoCloseBannerDismiss
 (
 )
 }
@@ -1394,7 +1394,7 @@ onButton2Click
 hasAcknowledgedAutoCloseBanner
 =
 true
-onTabAutoCloseBannerDismiss
+onTabAutoCloseBannerViewOptionsClick
 (
 )
 }
@@ -1491,9 +1491,6 @@ onButton1Click
 hasAcknowledgedPbmLockBanner
 =
 true
-onTabsTrayPbmLockedClick
-(
-)
 onTabsTrayPbmLockedDismiss
 (
 )
@@ -1504,6 +1501,9 @@ onButton2Click
 hasAcknowledgedPbmLockBanner
 =
 true
+onTabsTrayPbmLockedClick
+(
+)
 onTabsTrayPbmLockedDismiss
 (
 )
