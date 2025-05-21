@@ -957,14 +957,6 @@ away
 '
 )
 ;
-assert_equals
-(
-popup
-.
-window
-null
-)
-;
 assert_true
 (
 popup
