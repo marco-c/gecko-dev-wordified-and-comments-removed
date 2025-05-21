@@ -1518,6 +1518,15 @@ generalEvent
 pointer
 "
 "
+pointerrawupdate
+"
+)
+generalEvent
+(
+"
+pointer
+"
+"
 gotpointercapture
 "
 )
