@@ -30,7 +30,7 @@ moxRequired
 ;
 -
 (
-NSNumber
+NSString
 *
 )
 moxInvalid

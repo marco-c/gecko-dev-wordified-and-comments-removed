@@ -550,6 +550,13 @@ moxEnabled
 ;
 -
 (
+NSString
+*
+)
+moxInvalid
+;
+-
+(
 NSNumber
 *
 )
