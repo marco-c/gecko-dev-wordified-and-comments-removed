@@ -155,6 +155,14 @@ PerformancePaintTiming
 :
 PerformanceEntry
 {
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
 PerformancePaintTiming
