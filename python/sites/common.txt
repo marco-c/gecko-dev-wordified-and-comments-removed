@@ -135,15 +135,6 @@ third_party
 /
 python
 /
-MarkupSafe
-/
-src
-vendored
-:
-third_party
-/
-python
-/
 PyYAML
 /
 lib

@@ -108,16 +108,6 @@ imagesize
 1
 pypi
 :
-markupsafe
-=
-=
-2
-.
-0
-.
-1
-pypi
-:
 more
 -
 itertools
