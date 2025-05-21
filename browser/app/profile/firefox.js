@@ -2669,7 +2669,7 @@ weather
 .
 featureGate
 "
-true
+false
 )
 ;
 pref
@@ -3507,7 +3507,7 @@ addons
 .
 featureGate
 "
-true
+false
 )
 ;
 pref
@@ -3559,6 +3559,20 @@ browser
 .
 urlbar
 .
+mdn
+.
+featureGate
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
+urlbar
+.
 suggest
 .
 mdn
@@ -3577,7 +3591,7 @@ yelp
 .
 featureGate
 "
-true
+false
 )
 ;
 pref

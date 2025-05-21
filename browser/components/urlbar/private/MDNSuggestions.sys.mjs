@@ -207,9 +207,7 @@ enablingPreferences
 return
 [
 "
-mdn
-.
-featureGate
+mdnFeatureGate
 "
 "
 suggest

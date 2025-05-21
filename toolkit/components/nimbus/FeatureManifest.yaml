@@ -1721,12 +1721,7 @@ mdnFeatureGate
 type
 :
 boolean
-setPref
-:
-branch
-:
-default
-pref
+fallbackPref
 :
 browser
 .

@@ -1771,11 +1771,6 @@ name
 )
 ;
 }
-if
-(
-includeAmp
-)
-{
 UrlbarPrefs
 .
 set
@@ -1787,7 +1782,7 @@ quicksuggest
 .
 sponsored
 "
-true
+includeAmp
 )
 ;
 await
@@ -1797,7 +1792,6 @@ forceSync
 (
 )
 ;
-}
 let
 exposureTypes
 =
@@ -1895,11 +1889,6 @@ historyProvider
 )
 ;
 }
-if
-(
-includeAmp
-)
-{
 UrlbarPrefs
 .
 clear
@@ -1920,7 +1909,6 @@ forceSync
 (
 )
 ;
-}
 }
 add_task
 (
