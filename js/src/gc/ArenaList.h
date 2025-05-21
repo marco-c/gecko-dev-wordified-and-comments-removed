@@ -831,15 +831,6 @@ kind
 const
 ;
 inline
-bool
-needBackgroundFinalizeWait
-(
-AllocKind
-kind
-)
-const
-;
-inline
 void
 clearFreeLists
 (
