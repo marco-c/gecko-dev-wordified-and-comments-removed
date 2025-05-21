@@ -23535,7 +23535,20 @@ fission
 .
 disableSessionHistoryInParent
 "
-False
+                    
+mozinfo
+.
+info
+[
+"
+os
+"
+]
+=
+=
+"
+android
+"
                 
 )
                 
