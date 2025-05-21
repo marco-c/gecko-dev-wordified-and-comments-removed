@@ -322,8 +322,8 @@ CanvasContext
 GPU_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_WEAK_PTR
 (
 CanvasContext
-mConfig
-mTexture
+mConfiguration
+mCurrentTexture
 mBridge
 mCanvasElement
 mOffscreenCanvas
@@ -592,7 +592,7 @@ supported
 return
 ;
 }
-mConfig
+mConfiguration
 .
 reset
 (
@@ -737,7 +737,7 @@ false
 }
 #
 endif
-mTexture
+mCurrentTexture
 =
 aConfig
 .
@@ -746,7 +746,7 @@ mDevice
 >
 InitSwapChain
 (
-mConfig
+mConfiguration
 .
 get
 (
@@ -764,7 +764,7 @@ mCanvasSize
 if
 (
 !
-mTexture
+mCurrentTexture
 )
 {
 Unconfigure
@@ -774,7 +774,7 @@ Unconfigure
 return
 ;
 }
-mTexture
+mCurrentTexture
 -
 >
 mTargetContext
@@ -869,11 +869,11 @@ mBridge
 =
 nullptr
 ;
-mConfig
+mConfiguration
 =
 nullptr
 ;
-mTexture
+mCurrentTexture
 =
 nullptr
 ;
@@ -929,7 +929,7 @@ newSize
 ;
 if
 (
-mConfig
+mConfiguration
 )
 {
 const
@@ -942,7 +942,7 @@ dom
 GPUCanvasConfiguration
 {
 *
-mConfig
+mConfiguration
 }
 ;
 Configure
@@ -972,7 +972,7 @@ aRv
 if
 (
 !
-mTexture
+mCurrentTexture
 )
 {
 aRv
@@ -992,7 +992,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-mConfig
+mConfiguration
 )
 ;
 MOZ_ASSERT
@@ -1013,9 +1013,9 @@ mNewTextureRequested
 =
 false
 ;
-mTexture
+mCurrentTexture
 =
-mConfig
+mConfiguration
 -
 >
 mDevice
@@ -1023,7 +1023,7 @@ mDevice
 >
 CreateTextureForSwapChain
 (
-mConfig
+mConfiguration
 .
 get
 (
@@ -1036,7 +1036,7 @@ ref
 )
 )
 ;
-mTexture
+mCurrentTexture
 -
 >
 mTargetContext
@@ -1045,7 +1045,7 @@ this
 ;
 }
 return
-mTexture
+mCurrentTexture
 ;
 }
 void
@@ -1059,7 +1059,7 @@ MaybeQueueSwapChainPresent
 if
 (
 !
-mConfig
+mConfiguration
 )
 {
 return
@@ -1067,12 +1067,12 @@ return
 }
 MOZ_ASSERT
 (
-mTexture
+mCurrentTexture
 )
 ;
 if
 (
-mTexture
+mCurrentTexture
 )
 {
 mBridge
@@ -1080,7 +1080,7 @@ mBridge
 >
 NotifyWaitForSubmit
 (
-mTexture
+mCurrentTexture
 -
 >
 mId
@@ -1153,7 +1153,7 @@ isNothing
 |
 |
 !
-mTexture
+mCurrentTexture
 )
 {
 return
@@ -1182,7 +1182,7 @@ mBridge
 >
 SwapChainPresent
 (
-mTexture
+mCurrentTexture
 -
 >
 mId
@@ -1197,7 +1197,7 @@ if
 mUseExternalTextureInSwapChain
 )
 {
-mTexture
+mCurrentTexture
 -
 >
 Destroy
@@ -1654,7 +1654,7 @@ GetIsOpaque
 if
 (
 !
-mConfig
+mConfiguration
 )
 {
 return
@@ -1662,7 +1662,7 @@ false
 ;
 }
 return
-mConfig
+mConfiguration
 -
 >
 mAlphaMode

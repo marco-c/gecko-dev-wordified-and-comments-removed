@@ -479,7 +479,7 @@ dom
 :
 GPUCanvasConfiguration
 >
-mConfig
+mConfiguration
 ;
 bool
 mPendingSwapChainPresent
@@ -501,7 +501,7 @@ RefPtr
 <
 Texture
 >
-mTexture
+mCurrentTexture
 ;
 gfx
 :
