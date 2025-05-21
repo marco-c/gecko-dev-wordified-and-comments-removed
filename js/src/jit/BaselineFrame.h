@@ -106,7 +106,7 @@ DEBUGGEE
 <
 <
 6
-SELF_HOSTED
+REALM_INDEPENDENT
 =
 1
 <
@@ -1002,7 +1002,7 @@ RUNNING_IN_INTERPRETER
 ;
 }
 bool
-isSelfHosted
+isRealmIndependent
 (
 )
 const
@@ -1010,7 +1010,7 @@ const
 return
 flags_
 &
-SELF_HOSTED
+REALM_INDEPENDENT
 ;
 }
 JSScript
