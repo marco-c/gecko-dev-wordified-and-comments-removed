@@ -7641,8 +7641,12 @@ currentOffset
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+oom
+(
+)
 after
 -
 before
