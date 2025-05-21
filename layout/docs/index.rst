@@ -129,5 +129,6 @@ StyleSystemOverview
 LayoutOverview
 DynamicChangeHandling
 Reftest
+LayoutCodeReviewerChecklist
 LayoutDebugger
 AccessibleCaret
