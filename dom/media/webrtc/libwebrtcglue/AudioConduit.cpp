@@ -3285,6 +3285,17 @@ IsOnCurrentThread
 ;
 if
 (
+!
+mControl
+.
+mReceiving
+)
+{
+return
+;
+}
+if
+(
 mAllowSsrcChange
 &
 &

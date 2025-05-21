@@ -9211,6 +9211,17 @@ IsOnCurrentThread
 )
 )
 ;
+if
+(
+!
+mControl
+.
+mReceiving
+)
+{
+return
+;
+}
 mRemoteSendSSRC
 =
 aHeader
