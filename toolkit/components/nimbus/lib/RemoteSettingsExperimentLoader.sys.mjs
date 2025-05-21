@@ -2600,7 +2600,7 @@ true
 ;
 }
 async
-optInToExperiment
+_optInToExperiment
 (
 {
 slug

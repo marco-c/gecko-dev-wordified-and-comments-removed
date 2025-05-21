@@ -1305,7 +1305,7 @@ rejects
 (
 loader
 .
-optInToExperiment
+_optInToExperiment
 (
 {
 slug
@@ -1512,7 +1512,7 @@ rejects
 (
 loader
 .
-optInToExperiment
+_optInToExperiment
 (
 {
 slug
@@ -1785,7 +1785,7 @@ rejects
 (
 loader
 .
-optInToExperiment
+_optInToExperiment
 (
 {
 slug
@@ -1857,7 +1857,7 @@ experiment
 await
 loader
 .
-optInToExperiment
+_optInToExperiment
 (
 {
 slug
