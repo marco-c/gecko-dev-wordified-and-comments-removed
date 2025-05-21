@@ -256,6 +256,7 @@ mRawPtr
 ;
 }
 }
+constexpr
 RefPtr
 (
 )
