@@ -1,6 +1,14 @@
 #
 !
 [
+allow
+(
+warnings
+)
+]
+#
+!
+[
 cfg_attr
 (
 not
