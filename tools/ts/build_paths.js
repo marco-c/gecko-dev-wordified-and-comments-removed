@@ -843,6 +843,17 @@ paths_json
 )
 root_dir
 )
+.
+replaceAll
+(
+"
+\
+\
+"
+"
+/
+"
+)
 )
 ;
 console
