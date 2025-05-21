@@ -771,9 +771,11 @@ id
 "
 newtab
 -
-topsite
+label
 -
 sponsored
+-
+fixed
 "
 /
 >
