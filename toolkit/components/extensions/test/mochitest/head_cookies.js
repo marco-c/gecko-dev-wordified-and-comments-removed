@@ -717,7 +717,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 options
 .
 url
@@ -772,7 +772,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 options
 .
 url
@@ -827,7 +827,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 options
 .
 url
@@ -987,7 +987,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 options
 .
 url
@@ -1042,7 +1042,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 options
 .
 url

@@ -54,11 +54,6 @@ nsICookieService
 idl
 "
 "
-nsICookieValidation
-.
-idl
-"
-"
 nsIThirdPartyCookieBlockingExceptionListService
 .
 idl
@@ -137,11 +132,6 @@ CookieStorage
 h
 "
 "
-CookieValidation
-.
-h
-"
-"
 ThirdPartyCookieBlockingExceptions
 .
 h
@@ -208,11 +198,6 @@ cpp
 "
 "
 CookieStorage
-.
-cpp
-"
-"
-CookieValidation
 .
 cpp
 "

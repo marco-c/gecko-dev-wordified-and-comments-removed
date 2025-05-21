@@ -201,10 +201,6 @@ NetworkStringValue
 (
 cookie_value
 )
-                
-secure
-=
-True
             
 )
             
@@ -479,10 +475,6 @@ NetworkStringValue
 (
 cookie_value
 )
-            
-secure
-=
-True
         
 )
         

@@ -190,10 +190,6 @@ NetworkStringValue
 (
 cookie_value
 )
-            
-secure
-=
-True
         
 )
         
@@ -295,7 +291,7 @@ none
 secure
 "
 :
-True
+False
                     
 "
 size
@@ -619,10 +615,6 @@ NetworkStringValue
 (
 cookie_value
 )
-            
-secure
-=
-True
         
 )
         
@@ -695,7 +687,7 @@ none
 secure
 "
 :
-True
+False
             
 "
 size

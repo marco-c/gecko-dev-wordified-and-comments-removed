@@ -1931,17 +1931,6 @@ dom
 dom
 .
 properties
-RESPATH
-/
-res
-/
-locale
-/
-necko
-/
-necko
-.
-properties
 #
 ifdef
 XP_MACOSX

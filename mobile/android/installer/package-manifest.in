@@ -945,17 +945,6 @@ dom
 dom
 .
 properties
-BINPATH
-/
-res
-/
-locale
-/
-necko
-/
-necko
-.
-properties
 #
 ifndef
 MOZ_ANDROID_EXCLUDE_FONTS
