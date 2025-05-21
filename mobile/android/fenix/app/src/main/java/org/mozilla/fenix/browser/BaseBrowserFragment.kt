@@ -3650,11 +3650,11 @@ findNavController
 .
 navigate
 (
-R
+NavGraphDirections
 .
-id
-.
-unlockPrivateTabsFragment
+actionGlobalUnlockPrivateTabsFragment
+(
+)
 )
 }
 )
