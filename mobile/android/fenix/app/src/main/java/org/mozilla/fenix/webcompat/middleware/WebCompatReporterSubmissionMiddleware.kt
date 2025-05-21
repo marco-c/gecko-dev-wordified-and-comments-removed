@@ -874,6 +874,16 @@ btpHasPurgedSite
 )
 BrokenSiteReportTabInfoAntitracking
 .
+etpCategory
+.
+set
+(
+antiTracking
+.
+etpCategory
+)
+BrokenSiteReportTabInfoAntitracking
+.
 hasMixedActiveContentBlocked
 .
 set

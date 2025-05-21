@@ -128,6 +128,11 @@ true
 btpHasPurgedSite
 :
 false
+etpCategory
+:
+"
+strict
+"
 }
 frameworks
 :
@@ -241,6 +246,11 @@ true
 btpHasPurgedSite
 :
 false
+etpCategory
+:
+"
+strict
+"
 }
 frameworks
 :

@@ -1401,6 +1401,7 @@ hasMixedActiveContentBlocked
 hasMixedDisplayContentBlocked
 hasTrackingContentBlocked
 btpHasPurgedSite
+etpCategory
 }
 =
 antitracking
@@ -1473,6 +1474,7 @@ btpHasPurgedSite
 isPB
 :
 isPrivateBrowsing
+etpCategory
 languages
 locales
 memoryMB

@@ -260,6 +260,14 @@ Protection
 .
 *
 property
+etpCategory
+The
+current
+ETP
+category
+.
+*
+property
 hasMixedActiveContentBlocked
 Whether
 the
@@ -324,6 +332,10 @@ val
 btpHasPurgedSite
 :
 Boolean
+val
+etpCategory
+:
+String
 val
 hasMixedActiveContentBlocked
 :

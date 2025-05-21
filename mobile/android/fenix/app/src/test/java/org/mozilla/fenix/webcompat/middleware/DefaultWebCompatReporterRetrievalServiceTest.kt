@@ -637,6 +637,11 @@ basic
 btpHasPurgedSite
 =
 false
+etpCategory
+=
+"
+standard
+"
 hasMixedActiveContentBlocked
 =
 false
@@ -1150,6 +1155,11 @@ basic
 btpHasPurgedSite
 =
 false
+etpCategory
+=
+"
+standard
+"
 hasMixedActiveContentBlocked
 =
 false

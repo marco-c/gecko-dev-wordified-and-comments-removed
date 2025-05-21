@@ -94,6 +94,13 @@ btpHasPurgedSite
 :
 false
 "
+etpCategory
+"
+:
+"
+standard
+"
+"
 hasMixedActiveContentBlocked
 "
 :
@@ -560,6 +567,13 @@ btpHasPurgedSite
 "
 :
 false
+"
+etpCategory
+"
+:
+"
+standard
+"
 "
 hasMixedActiveContentBlocked
 "
