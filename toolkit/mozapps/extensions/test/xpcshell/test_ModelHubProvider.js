@@ -86,11 +86,11 @@ const
 MODELHUBPROVIDER_PREF
 =
 "
-browser
+extensions
 .
 ml
 .
-modelHubProvider
+local_model_management
 "
 ;
 function

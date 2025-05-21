@@ -12751,9 +12751,6 @@ same_as_mv2
 false
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -12766,8 +12763,6 @@ enabled
 true
 )
 ;
-#
-else
 pref
 (
 "
@@ -12775,13 +12770,11 @@ extensions
 .
 ml
 .
-enabled
+local_model_management
 "
-false
+true
 )
 ;
-#
-endif
 pref
 (
 "
