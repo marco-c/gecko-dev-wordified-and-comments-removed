@@ -10499,9 +10499,6 @@ UnderlyingCALayer
 }
 Maybe
 <
-NativeLayerCA
-:
-:
 SurfaceWithInvalidRegion
 >
 NativeLayerCA
