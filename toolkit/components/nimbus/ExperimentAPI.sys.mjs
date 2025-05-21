@@ -1155,6 +1155,7 @@ this
 studiesEnabled
 )
 {
+await
 this
 .
 _onStudiesEnabledChanged
@@ -1549,6 +1550,7 @@ _annotateCrashReport
 ;
 }
 }
+async
 _onStudiesEnabledChanged
 (
 )
@@ -1570,6 +1572,15 @@ _handleStudiesOptOut
 )
 ;
 }
+await
+this
+.
+_rsLoader
+.
+onEnabledPrefChange
+(
+)
+;
 Services
 .
 obs
