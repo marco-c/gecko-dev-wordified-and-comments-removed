@@ -26,6 +26,11 @@ file_bug691215
 .
 xml
 "
+"
+file_bug1666613
+.
+xml
+"
 ]
 [
 "
@@ -72,5 +77,12 @@ http2
 "
 "
 http3
+"
+]
+[
+"
+test_bug1666613
+.
+html
 "
 ]
