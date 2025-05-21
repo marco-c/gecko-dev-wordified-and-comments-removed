@@ -246,7 +246,7 @@ staging
 -
 firefox
 -
-esr128
+esr140
 bump
 -
 central
@@ -258,13 +258,13 @@ firefox
 main
 bump
 -
-esr128
+esr140
 :
 staging
 -
 firefox
 -
-esr128
+esr140
 default
 :
 by
@@ -308,7 +308,7 @@ esr
 :
 firefox
 -
-esr128
+esr140
 bump
 -
 central
@@ -318,11 +318,11 @@ firefox
 main
 bump
 -
-esr128
+esr140
 :
 firefox
 -
-esr128
+esr140
 dontbuild
 :
 false

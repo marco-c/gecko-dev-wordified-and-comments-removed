@@ -5467,7 +5467,7 @@ arcconfig
 -
 FIREFOXRELEASE
 -
-FIREFOXESRONETWOEIGHT
+FIREFOXESRONEFOURZERO
 merge
 -
 old
@@ -5491,7 +5491,7 @@ to
 branch
 :
 '
-esr128
+esr140
 '
 bump
 -
@@ -5800,7 +5800,7 @@ main
 '
 bump
 -
-esr128
+esr140
 :
 fetch
 -
@@ -5899,7 +5899,7 @@ to
 branch
 :
 '
-esr128
+esr140
 '
 scriptworker
 :

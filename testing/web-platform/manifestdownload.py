@@ -377,6 +377,20 @@ mozilla
 -
 esr128
 "
+        
+"
+releases
+/
+mozilla
+-
+esr140
+"
+:
+"
+mozilla
+-
+esr140
+"
     
 }
     

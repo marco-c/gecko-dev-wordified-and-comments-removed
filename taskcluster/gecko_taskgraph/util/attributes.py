@@ -59,6 +59,12 @@ esr128
 "
     
 "
+mozilla
+-
+esr140
+"
+    
+"
 comm
 -
 central
@@ -86,6 +92,12 @@ esr115
 comm
 -
 esr128
+"
+    
+"
+comm
+-
+esr140
 "
     
 "

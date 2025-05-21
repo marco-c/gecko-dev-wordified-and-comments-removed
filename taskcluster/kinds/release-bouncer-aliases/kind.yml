@@ -427,7 +427,7 @@ latest
 ssl
 :
 langpack
-esr115
+esr128
 :
 #
 when
@@ -524,7 +524,7 @@ latest
 ssl
 :
 langpack
-esr128
+esr140
 :
 #
 .

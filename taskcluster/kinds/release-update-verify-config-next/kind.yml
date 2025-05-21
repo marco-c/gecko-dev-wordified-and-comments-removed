@@ -138,7 +138,7 @@ on
 releases
 :
 [
-esr128
+esr140
 ]
 shipping
 -
@@ -420,7 +420,7 @@ include
 -
 version
 :
-esr128
+esr140
 -
 next
 last

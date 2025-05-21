@@ -329,7 +329,7 @@ release
 *
 mozilla
 -
-esr128
+esr140
 *
 .
 .

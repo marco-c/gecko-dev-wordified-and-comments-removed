@@ -454,6 +454,12 @@ esr128
 "
             
 "
+mozilla
+-
+esr140
+"
+            
+"
 comm
 -
 beta
@@ -475,6 +481,12 @@ esr115
 comm
 -
 esr128
+"
+            
+"
+comm
+-
+esr140
 "
         
 }
@@ -697,6 +709,12 @@ esr128
 "
             
 "
+mozilla
+-
+esr140
+"
+            
+"
 comm
 -
 beta
@@ -718,6 +736,12 @@ esr115
 comm
 -
 esr128
+"
+            
+"
+comm
+-
+esr140
 "
         
 }
@@ -1218,6 +1242,30 @@ esr128
 }
     
 ]
+    
+[
+        
+"
+esr140
+"
+        
+{
+            
+"
+mozilla
+-
+esr140
+"
+            
+"
+comm
+-
+esr140
+"
+        
+}
+    
+]
 ]
 "
 "
@@ -1301,6 +1349,18 @@ esr
     
 "
 esr128
+"
+:
+"
+balrog
+:
+server
+:
+esr
+"
+    
+"
+esr140
 "
 :
 "
