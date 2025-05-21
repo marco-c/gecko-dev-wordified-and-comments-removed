@@ -3629,6 +3629,7 @@ GetFromForm
 this
 submitter
 encoding
+formData
 aFormSubmission
 )
 ;
@@ -4027,6 +4028,19 @@ ConsumeTextDirectiveUserActivation
 |
 |
 hasValidUserGestureActivation
+)
+;
+loadState
+-
+>
+SetFormDataEntryList
+(
+aFormSubmission
+-
+>
+GetFormData
+(
+)
 )
 ;
 nsCOMPtr

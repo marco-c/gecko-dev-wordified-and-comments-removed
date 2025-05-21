@@ -3234,6 +3234,14 @@ nsIURI
 uri
 )
 ;
+bool
+NS_IsFetchScheme
+(
+nsIURI
+*
+uri
+)
+;
 nsresult
 NS_GenerateHostPort
 (
