@@ -9529,6 +9529,9 @@ size_t
 aSize
 )
 {
+#
+ifdef
+MALLOC_DEBUG_VIGILANT
 size_t
 i
 ;
@@ -9577,6 +9580,8 @@ i
 )
 ;
 }
+#
+endif
 }
 #
 endif
