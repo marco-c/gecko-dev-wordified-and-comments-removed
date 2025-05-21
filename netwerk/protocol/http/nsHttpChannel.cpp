@@ -9465,9 +9465,6 @@ move
 (
 observer
 )
-nullptr
-nullptr
-0
 )
 ;
 if

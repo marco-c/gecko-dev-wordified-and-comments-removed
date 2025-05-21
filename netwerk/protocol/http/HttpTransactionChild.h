@@ -206,13 +206,6 @@ bool
 &
 aHasTransactionObserver
 const
-Maybe
-<
-H2PushedStreamArg
->
-&
-aPushedStreamArg
-const
 mozilla
 :
 :
@@ -394,13 +387,6 @@ uint64_t
 channelId
 bool
 aHasTransactionObserver
-const
-Maybe
-<
-H2PushedStreamArg
->
-&
-aPushedStreamArg
 )
 ;
 void
