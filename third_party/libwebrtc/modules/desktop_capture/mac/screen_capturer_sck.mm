@@ -290,6 +290,7 @@ callback_
 =
 nullptr
 ;
+const
 DesktopCaptureOptions
 capture_options_
 ;
