@@ -138,8 +138,7 @@ PopoverData
 =
 default
 ;
-CloseWatcher
-&
+void
 EnsureCloseWatcher
 (
 nsGenericHTMLElement
