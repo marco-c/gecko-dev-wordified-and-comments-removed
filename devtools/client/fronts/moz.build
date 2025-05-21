@@ -77,6 +77,15 @@ frame
 js
 "
 "
+heap
+-
+snapshot
+-
+file
+.
+js
+"
+"
 highlighters
 .
 js
