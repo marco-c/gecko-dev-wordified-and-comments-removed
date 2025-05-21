@@ -1439,6 +1439,11 @@ Union
 str
 Path
 ]
+force
+:
+bool
+=
+False
 )
 :
         
@@ -1449,15 +1454,17 @@ paths
             
 return
         
-paths
+relative_paths
 =
 [
-str
+self
+.
+_repo_root_relative_path
 (
-path
+p
 )
 for
-path
+p
 in
 paths
 ]
@@ -1473,7 +1480,7 @@ file
 track
 "
 *
-paths
+relative_paths
 )
     
 def
@@ -1498,22 +1505,24 @@ paths
             
 return
         
-paths
+relative_paths
 =
 [
-str
+self
+.
+_repo_root_relative_path
 (
-path
+p
 )
 for
-path
+p
 in
 paths
 ]
         
 self
 .
-_run_read_only
+_run
 (
 "
 file
@@ -1522,7 +1531,7 @@ file
 untrack
 "
 *
-paths
+relative_paths
 )
     
 def
