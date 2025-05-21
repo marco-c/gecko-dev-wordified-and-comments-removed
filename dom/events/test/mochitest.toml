@@ -421,6 +421,17 @@ test_bug422132
 html
 "
 ]
+support
+-
+files
+=
+[
+"
+file_bug422132
+.
+html
+"
+]
 [
 "
 test_bug426082
