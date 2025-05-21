@@ -118,8 +118,6 @@ import
 sys
 import
 weakref
-import
-six
 from
 mozpack
 .
@@ -882,10 +880,6 @@ try
             
 source
 =
-six
-.
-ensure_text
-(
 self
 .
 _finder
@@ -898,6 +892,9 @@ path
 read
 (
 )
+.
+decode
+(
 )
         
 except

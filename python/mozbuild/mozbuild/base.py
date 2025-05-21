@@ -22,8 +22,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mach
 .
@@ -1687,7 +1685,7 @@ env_mozconfig
         
 out
 =
-six
+io
 .
 StringIO
 (

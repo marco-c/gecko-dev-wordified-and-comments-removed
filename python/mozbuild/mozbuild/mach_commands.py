@@ -9989,6 +9989,13 @@ False
 :
     
 from
+shlex
+import
+quote
+as
+shlex_quote
+    
+from
 mozrunner
 .
 devices
@@ -10008,13 +10015,6 @@ metadata_for_app
 verify_android_device
     
 )
-    
-from
-six
-.
-moves
-import
-shlex_quote
     
 metadata
 =

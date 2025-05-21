@@ -73,6 +73,12 @@ from
 pathlib
 import
 Path
+from
+shlex
+import
+quote
+as
+shlex_quote
 import
 mozpack
 .
@@ -122,12 +128,6 @@ packager
 unpack
 import
 UnpackFinder
-from
-six
-.
-moves
-import
-shlex_quote
 from
 mozbuild
 .

@@ -10,8 +10,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozbuild
 .
@@ -1619,10 +1617,6 @@ normalized
         
 to_write
 =
-six
-.
-ensure_text
-(
 json
 .
 dumps
@@ -1631,7 +1625,6 @@ obj
 indent
 =
 2
-)
 )
         
 fh

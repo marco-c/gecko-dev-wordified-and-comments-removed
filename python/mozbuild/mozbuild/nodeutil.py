@@ -20,10 +20,6 @@ packaging
 version
 import
 Version
-from
-six
-import
-PY3
 NODE_MIN_VERSION
 =
 Version
@@ -354,7 +350,7 @@ version
 ]
 universal_newlines
 =
-PY3
+True
                 
 )
                 
@@ -396,7 +392,7 @@ version
 ]
 universal_newlines
 =
-PY3
+True
 )
             
 .

@@ -14,16 +14,6 @@ VERSION
 DEPS
 =
 [
-"
-six
->
-=
-1
-.
-13
-.
-0
-"
 ]
 setup
 (
