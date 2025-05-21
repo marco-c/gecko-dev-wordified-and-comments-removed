@@ -1354,6 +1354,13 @@ failureId
 )
 ;
 }
+Unused
+<
+<
+GetGlobalDMABufFormats
+(
+)
+;
 }
 }
 bool
