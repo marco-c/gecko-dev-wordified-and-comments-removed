@@ -21716,6 +21716,12 @@ StaticPrefs
 dom_shadowdom_selection_across_boundary_enabled
 (
 )
+&
+&
+!
+IsEditorSelection
+(
+)
 ?
 nsContentUtils
 :
