@@ -1342,7 +1342,9 @@ gBrowser
 adoptTabGroup
 (
 group
+{
 tabIndex
+}
 )
 ;
 }

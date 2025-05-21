@@ -6212,6 +6212,9 @@ adoptTabGroup
 draggedTab
 .
 group
+{
+elementIndex
+:
 this
 .
 #
@@ -6219,6 +6222,7 @@ getDropIndex
 (
 event
 )
+}
 )
 ;
 }
