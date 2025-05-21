@@ -213,6 +213,11 @@ SizeOfState
 h
 "
 "
+nsDeviceContext
+.
+h
+"
+"
 nsCSSProps
 .
 h
@@ -1926,6 +1931,11 @@ nsAutoPtr_Proxy
 "
 "
 nsAutoPtr_Proxy_member_function
+"
+"
+nsRegion_
+.
+*
 "
 "
 mozilla
