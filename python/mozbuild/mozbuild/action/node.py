@@ -6,8 +6,6 @@ import
 sys
 import
 buildconfig
-import
-six
 from
 mozbuild
 .
@@ -423,11 +421,10 @@ splitlines
             
 line
 =
-six
-.
-ensure_text
-(
 line
+.
+decode
+(
 )
             
 if
@@ -759,15 +756,6 @@ sys
 exit
 (
 1
-)
-    
-node_script
-=
-six
-.
-ensure_text
-(
-node_script
 )
     
 if

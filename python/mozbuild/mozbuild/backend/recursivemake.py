@@ -10,6 +10,14 @@ import
 defaultdict
 namedtuple
 from
+functools
+import
+reduce
+from
+io
+import
+StringIO
+from
 itertools
 import
 chain
@@ -23,18 +31,12 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
 manifests
 import
 InstallManifest
-from
-six
-import
-StringIO
 from
 mozbuild
 import
@@ -764,15 +766,6 @@ buf
 )
 :
         
-buf
-=
-six
-.
-ensure_text
-(
-buf
-)
-        
 if
 "
 \
@@ -782,10 +775,6 @@ n
 buf
 not
 in
-six
-.
-ensure_text
-(
 self
 .
 fh
@@ -793,6 +782,9 @@ fh
 getvalue
 (
 )
+.
+decode
+(
 )
 :
             
@@ -4822,10 +4814,6 @@ all_compile_deps
 =
 (
             
-six
-.
-moves
-.
 reduce
 (
 lambda

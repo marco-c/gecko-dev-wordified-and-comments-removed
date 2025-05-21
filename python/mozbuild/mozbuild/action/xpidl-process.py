@@ -4,8 +4,6 @@ import
 os
 import
 sys
-import
-six
 from
 buildconfig
 import
@@ -155,12 +153,7 @@ rule
 .
 add_dependencies
 (
-six
-.
-ensure_text
-(
 s
-)
 for
 s
 in
@@ -329,15 +322,6 @@ rule
 .
 add_dependencies
 (
-six
-.
-ensure_text
-(
-s
-)
-for
-s
-in
 idl
 .
 deps
@@ -518,12 +502,7 @@ rule
 add_targets
 (
 [
-six
-.
-ensure_text
-(
 xpt_path
-)
 ]
 )
     
