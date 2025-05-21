@@ -384,6 +384,15 @@ screen
 feature
 .
 *
+Currently
+only
+enabled
+on
+debug
+and
+nightly
+.
+*
 /
 val
 privateBrowsingLock
@@ -392,5 +401,5 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 }

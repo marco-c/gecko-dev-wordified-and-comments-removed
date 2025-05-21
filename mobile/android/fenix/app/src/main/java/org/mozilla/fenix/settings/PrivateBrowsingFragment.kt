@@ -127,7 +127,7 @@ mozilla
 .
 fenix
 .
-Config
+FeatureFlags
 import
 org
 .
@@ -614,11 +614,9 @@ isVisible
 deviceCapable
 &
 &
-Config
+FeatureFlags
 .
-channel
-.
-isDebug
+privateBrowsingLock
 isEnabled
 =
 userHasEnabledCapability
@@ -752,6 +750,11 @@ deviceCapable
 &
 !
 userHasEnabledCapability
+&
+&
+FeatureFlags
+.
+privateBrowsingLock
 setOnPreferenceClickListener
 {
 context
