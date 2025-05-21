@@ -64,6 +64,7 @@ size_t
 _Length
 >
 class
+MOZ_GSL_OWNER
 Array
 {
 T
@@ -172,6 +173,7 @@ operator
 size_t
 aIndex
 )
+MOZ_LIFETIME_BOUND
 {
 if
 (
@@ -213,6 +215,7 @@ size_t
 aIndex
 )
 const
+MOZ_LIFETIME_BOUND
 {
 if
 (

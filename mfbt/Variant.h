@@ -2211,6 +2211,7 @@ Ts
 class
 MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 MOZ_NON_PARAM
+MOZ_GSL_OWNER
 Variant
 {
 friend
@@ -3379,6 +3380,7 @@ as
 (
 )
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3465,6 +3467,7 @@ as
 (
 )
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3543,6 +3546,7 @@ as
 )
 const
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3631,6 +3635,7 @@ as
 )
 const
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3710,6 +3715,7 @@ as
 )
 &
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3804,6 +3810,7 @@ as
 )
 &
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3890,6 +3897,7 @@ as
 const
 &
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (
@@ -3986,6 +3994,7 @@ as
 const
 &
 &
+MOZ_LIFETIME_BOUND
 {
 static_assert
 (

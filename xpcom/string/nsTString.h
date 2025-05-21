@@ -17,6 +17,7 @@ typename
 T
 >
 class
+MOZ_GSL_OWNER
 nsTString
 :
 public
@@ -1102,6 +1103,7 @@ N
 >
 class
 MOZ_NON_MEMMOVABLE
+MOZ_GSL_OWNER
 nsTAutoStringN
 :
 public

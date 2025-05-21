@@ -17,6 +17,7 @@ typename
 T
 >
 class
+MOZ_GSL_POINTER
 nsTDependentString
 :
 public
@@ -169,10 +170,12 @@ const
 char_type
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 char_type
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 nsTDependentString
@@ -181,6 +184,7 @@ const
 char_type
 *
 aData
+MOZ_LIFETIME_BOUND
 size_type
 aLength
 )
@@ -241,6 +245,7 @@ nsTDependentString
 (
 char16ptr_t
 aData
+MOZ_LIFETIME_BOUND
 size_type
 aLength
 )
@@ -269,6 +274,7 @@ const
 char_type
 *
 aData
+MOZ_LIFETIME_BOUND
 )
 :
 string_type
@@ -334,6 +340,7 @@ nsTDependentString
 (
 char16ptr_t
 aData
+MOZ_LIFETIME_BOUND
 )
 :
 nsTDependentString
@@ -358,6 +365,7 @@ const
 string_type
 &
 aStr
+MOZ_LIFETIME_BOUND
 index_type
 aStartPos
 )
@@ -443,6 +451,7 @@ const
 char_type
 *
 aData
+MOZ_LIFETIME_BOUND
 )
 {
 Rebind
@@ -465,10 +474,12 @@ const
 char_type
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 char_type
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 void

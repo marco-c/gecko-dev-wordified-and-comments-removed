@@ -251,6 +251,7 @@ class
 D
 >
 class
+MOZ_GSL_OWNER
 UniquePtr
 {
 public
@@ -415,6 +416,7 @@ UniquePtr
 (
 Pointer
 aPtr
+MOZ_LIFETIME_BOUND
 )
 :
 mTuple
@@ -468,6 +470,7 @@ UniquePtr
 (
 Pointer
 aPtr
+MOZ_LIFETIME_BOUND
 std
 :
 :
@@ -894,6 +897,7 @@ operator
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 MOZ_ASSERT
 (
@@ -925,6 +929,7 @@ operator
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 MOZ_ASSERT
 (
@@ -970,6 +975,7 @@ get
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 ptr
@@ -982,6 +988,7 @@ DeleterType
 get_deleter
 (
 )
+MOZ_LIFETIME_BOUND
 {
 return
 del
@@ -996,6 +1003,7 @@ get_deleter
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 del

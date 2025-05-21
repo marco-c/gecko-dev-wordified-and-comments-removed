@@ -1427,6 +1427,7 @@ size_t
 Extent
 >
 class
+MOZ_GSL_POINTER
 Span
 {
 public
@@ -1596,6 +1597,7 @@ Span
 (
 pointer
 aPtr
+MOZ_LIFETIME_BOUND
 index_type
 aLength
 )
@@ -1612,8 +1614,10 @@ Span
 (
 pointer
 aStartPtr
+MOZ_LIFETIME_BOUND
 pointer
 aEndPtr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -1744,6 +1748,7 @@ element_type
 (
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 [
 N
@@ -1873,6 +1878,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -1920,6 +1926,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -1970,6 +1977,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -2017,6 +2025,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -2070,6 +2079,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -2123,6 +2133,7 @@ N
 >
 &
 aArr
+MOZ_LIFETIME_BOUND
 )
 :
 storage_
@@ -2176,6 +2187,7 @@ DeleterType
 >
 &
 aPtr
+MOZ_LIFETIME_BOUND
 index_type
 aLength
 )

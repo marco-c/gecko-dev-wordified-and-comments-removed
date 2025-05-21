@@ -222,6 +222,7 @@ layout
 )
 ;
 class
+MOZ_GSL_OWNER
 NS_LossyConvertUTF16toASCII
 :
 public

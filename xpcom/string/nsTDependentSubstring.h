@@ -33,6 +33,7 @@ typename
 T
 >
 class
+MOZ_GSL_POINTER
 nsTDependentSubstring
 :
 public
@@ -249,6 +250,7 @@ const
 char_type
 *
 aData
+MOZ_LIFETIME_BOUND
 size_type
 aLength
 )
@@ -287,6 +289,7 @@ const
 char_type
 >
 aData
+MOZ_LIFETIME_BOUND
 )
 :
 nsTDependentSubstring
@@ -310,10 +313,12 @@ const
 char_type
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 char_type
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 #
@@ -343,6 +348,7 @@ nsTDependentSubstring
 (
 char16ptr_t
 aData
+MOZ_LIFETIME_BOUND
 size_type
 aLength
 )
@@ -383,8 +389,10 @@ nsTDependentSubstring
 (
 char16ptr_t
 aStart
+MOZ_LIFETIME_BOUND
 char16ptr_t
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 #
@@ -395,10 +403,12 @@ const
 const_iterator
 &
 aStart
+MOZ_LIFETIME_BOUND
 const
 const_iterator
 &
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 nsTDependentSubstring
@@ -635,6 +645,7 @@ const
 T
 *
 aData
+MOZ_LIFETIME_BOUND
 size_t
 aLength
 )
@@ -666,10 +677,12 @@ const
 T
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 T
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 extern
@@ -685,10 +698,12 @@ const
 char
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 char
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 extern
@@ -704,10 +719,12 @@ const
 char16_t
 *
 aStart
+MOZ_LIFETIME_BOUND
 const
 char16_t
 *
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 #
@@ -726,6 +743,7 @@ Substring
 (
 char16ptr_t
 aData
+MOZ_LIFETIME_BOUND
 size_t
 aLength
 )
@@ -739,8 +757,10 @@ Substring
 (
 char16ptr_t
 aStart
+MOZ_LIFETIME_BOUND
 char16ptr_t
 aEnd
+MOZ_LIFETIME_BOUND
 )
 ;
 #
@@ -801,6 +821,7 @@ T
 >
 &
 aStr
+MOZ_LIFETIME_BOUND
 size_t
 aCount
 )

@@ -69,6 +69,7 @@ typename
 CharT
 >
 struct
+MOZ_GSL_OWNER
 FakeString
 {
 using

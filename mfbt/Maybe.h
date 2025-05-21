@@ -1648,6 +1648,7 @@ T
 >
 class
 MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
+MOZ_GSL_OWNER
 Maybe
 :
 private
@@ -2718,6 +2719,7 @@ ref
 (
 )
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 const
@@ -2728,6 +2730,7 @@ ref
 )
 const
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 T
@@ -2738,6 +2741,7 @@ ref
 )
 &
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 const
@@ -2750,6 +2754,7 @@ ref
 const
 &
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 T
@@ -2759,7 +2764,9 @@ refOr
 T
 &
 aDefault
+MOZ_LIFETIME_BOUND
 )
+MOZ_LIFETIME_BOUND
 {
 if
 (
@@ -2788,8 +2795,10 @@ const
 T
 &
 aDefault
+MOZ_LIFETIME_BOUND
 )
 const
+MOZ_LIFETIME_BOUND
 {
 if
 (
@@ -2888,6 +2897,7 @@ operator
 (
 )
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 const
@@ -2899,6 +2909,7 @@ operator
 )
 const
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 T
@@ -2910,6 +2921,7 @@ operator
 )
 &
 &
+MOZ_LIFETIME_BOUND
 ;
 constexpr
 const
@@ -2923,6 +2935,7 @@ operator
 const
 &
 &
+MOZ_LIFETIME_BOUND
 ;
 template
 <

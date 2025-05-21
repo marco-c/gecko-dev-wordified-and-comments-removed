@@ -12278,6 +12278,7 @@ class
 E
 >
 class
+MOZ_GSL_OWNER
 nsTArray
 :
 public
@@ -13657,6 +13658,7 @@ class
 E
 >
 class
+MOZ_GSL_OWNER
 CopyableTArray
 :
 public
@@ -13930,6 +13932,7 @@ class
 E
 >
 class
+MOZ_GSL_OWNER
 FallibleTArray
 :
 public
@@ -14122,6 +14125,7 @@ N
 >
 class
 MOZ_NON_MEMMOVABLE
+MOZ_GSL_OWNER
 AutoTArray
 :
 public
