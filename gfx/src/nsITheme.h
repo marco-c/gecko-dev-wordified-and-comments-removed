@@ -200,7 +200,8 @@ No
 Yes
 }
 ;
-NS_IMETHOD
+virtual
+void
 DrawWidgetBackground
 (
 gfxContext
@@ -465,13 +466,13 @@ aAttribute
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 ThemeChanged
 (
 )
-=
-0
-;
+{
+}
 virtual
 bool
 WidgetAppearanceDependsOnWindowFocus

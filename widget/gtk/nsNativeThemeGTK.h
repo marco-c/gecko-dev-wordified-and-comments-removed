@@ -37,7 +37,7 @@ Theme
 ;
 public
 :
-NS_IMETHOD
+void
 DrawWidgetBackground
 (
 gfxContext
