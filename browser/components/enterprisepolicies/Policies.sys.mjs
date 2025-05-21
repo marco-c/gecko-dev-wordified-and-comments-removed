@@ -7468,7 +7468,7 @@ htmlaboutaddons
 .
 recommendations
 .
-enable
+enabled
 "
 false
 )
