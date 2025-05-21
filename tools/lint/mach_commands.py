@@ -172,6 +172,9 @@ eslint
 "
 rustfmt
 "
+"
+stylelint
+"
 }
 VALID_ANDROID_FORMATTERS
 =
