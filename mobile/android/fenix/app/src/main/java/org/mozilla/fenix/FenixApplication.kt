@@ -2152,6 +2152,16 @@ engine
 )
 components
 .
+performance
+.
+startupStateDetector
+.
+registerInAppOnCreate
+(
+this
+)
+components
+.
 appStartReasonProvider
 .
 registerInAppOnCreate
