@@ -452,17 +452,17 @@ gradient
 (
 90deg
 #
-9059ff
+9059FF
 0
 %
 #
-ff4aa2
+FF4AA2
 52
 .
 08
 %
 #
-ffbd4f
+FFBD4F
 100
 %
 )
@@ -472,9 +472,7 @@ ffbd4f
 [
 uidensity
 =
-"
 compact
-"
 ]
 {
 -
@@ -2231,9 +2229,7 @@ shrink
 [
 disabled
 =
-"
 true
-"
 ]
 {
 visibility
@@ -3374,7 +3370,7 @@ fill
 fill
 :
 #
-fff
+FFF
 ;
 animation
 :
@@ -3730,7 +3726,6 @@ transform
 :
 scale
 (
-0
 .
 8
 )
@@ -3747,13 +3742,11 @@ cubic
 -
 bezier
 (
-0
 .
 25
 1
 .
 27
-0
 .
 35
 1
@@ -4070,9 +4063,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 >
@@ -4180,7 +4171,6 @@ transform
 :
 scale
 (
-0
 .
 5
 )
@@ -5071,7 +5061,6 @@ button
 display
 :
 none
-;
 }
 :
 root
@@ -5361,9 +5350,7 @@ root
 [
 fxadisabled
 =
-"
 true
-"
 ]
 #
 appMenu
@@ -5376,9 +5363,7 @@ root
 [
 fxadisabled
 =
-"
 true
-"
 ]
 #
 appMenu
@@ -7755,9 +7740,7 @@ device
 [
 clientType
 =
-"
 phone
-"
 ]
 {
 list
@@ -7790,9 +7773,7 @@ svg
 [
 clientType
 =
-"
 tablet
-"
 ]
 {
 list
@@ -7825,9 +7806,7 @@ svg
 [
 clientType
 =
-"
 desktop
-"
 ]
 {
 list
@@ -7860,9 +7839,7 @@ svg
 [
 clientType
 =
-"
 tv
-"
 ]
 {
 list
@@ -7895,9 +7872,7 @@ svg
 [
 clientType
 =
-"
 vr
-"
 ]
 {
 list
@@ -8541,13 +8516,6 @@ a
 toolbar
 button
 .
-*
-/
-/
-*
-prettier
--
-ignore
 *
 /
 #
@@ -10875,9 +10843,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 >
@@ -11105,7 +11071,6 @@ hsla
 %
 10
 %
-0
 .
 03
 )
@@ -11603,9 +11568,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 >
@@ -11705,9 +11668,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 >
@@ -11769,9 +11730,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 >
@@ -11789,7 +11748,6 @@ stretch
 ;
 margin
 :
-0
 .
 5em
 0
@@ -11856,9 +11814,7 @@ toolbar
 [
 overflowedItem
 =
-"
 true
-"
 ]
 )
 :
@@ -12004,7 +11960,6 @@ inline
 -
 start
 :
-0
 .
 5em
 ;
@@ -13741,7 +13696,6 @@ transition
 margin
 -
 bottom
-0
 .
 25s
 ;
@@ -13865,7 +13819,6 @@ margin
 transition
 :
 opacity
-0
 .
 25s
 ;
@@ -14678,7 +14631,6 @@ font
 -
 size
 :
-0
 .
 9em
 ;
@@ -14718,7 +14670,6 @@ font
 -
 size
 :
-0
 .
 9em
 ;
@@ -15192,12 +15143,10 @@ panelview
 id
 ^
 =
-"
 PanelUI
 -
 webext
 -
-"
 ]
 {
 border

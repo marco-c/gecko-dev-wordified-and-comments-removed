@@ -547,7 +547,7 @@ outline
 3px
 solid
 #
-0060df
+0060DF
 ;
 box
 -
@@ -1107,7 +1107,6 @@ rgba
 255
 255
 255
-0
 .
 25
 )
@@ -1271,10 +1270,8 @@ relative
 ;
 padding
 :
-0
 .
 4em
-0
 .
 5em
 ;
@@ -2064,7 +2061,6 @@ rgba
 255
 255
 255
-0
 .
 8
 )
@@ -2123,7 +2119,6 @@ rgba
 255
 255
 255
-0
 .
 9
 )
@@ -2322,7 +2317,7 @@ background
 color
 :
 #
-ffffff
+FFFFFF
 ;
 width
 :
@@ -2370,7 +2365,7 @@ background
 color
 :
 #
-ffffff
+FFFFFF
 ;
 }
 &
@@ -2780,7 +2775,7 @@ background
 color
 :
 #
-2b2a33
+2B2A33
 ;
 text
 -
@@ -3028,7 +3023,7 @@ top
 color
 :
 #
-2b2a33
+2B2A33
 ;
 width
 :
@@ -3068,7 +3063,7 @@ height
 background
 :
 #
-8f8f9d
+8F8F9D
 ;
 }
 .
@@ -3351,8 +3346,8 @@ absolute
 ;
 content
 :
-"
-"
+'
+'
 ;
 height
 :
@@ -3379,7 +3374,7 @@ background
 color
 :
 #
-2b2a33
+2B2A33
 ;
 transition
 :
@@ -3613,7 +3608,7 @@ background
 color
 :
 #
-bfbfc9
+BFBFC9
 ;
 width
 :
@@ -3628,7 +3623,7 @@ border
 3px
 solid
 #
-ffffff
+FFFFFF
 ;
 padding
 :
@@ -3668,7 +3663,7 @@ background
 color
 :
 #
-ffffff
+FFFFFF
 ;
 }
 &
@@ -3715,7 +3710,7 @@ center
 color
 :
 #
-ffffff
+FFFFFF
 ;
 cursor
 :

@@ -1559,9 +1559,7 @@ input
 [
 type
 =
-"
 checkbox
-"
 ]
 {
 margin
@@ -3609,7 +3607,6 @@ address
 {
 opacity
 :
-0
 .
 5
 ;
@@ -3617,7 +3614,6 @@ margin
 -
 left
 :
-0
 .
 5em
 ;
@@ -3625,7 +3621,6 @@ margin
 -
 right
 :
-0
 .
 5em
 ;

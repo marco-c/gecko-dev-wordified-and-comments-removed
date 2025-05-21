@@ -737,7 +737,6 @@ font
 -
 size
 :
-0
 .
 9em
 ;
@@ -3598,10 +3597,8 @@ dialogTitleBar
 {
 padding
 :
-0
 .
 4em
-0
 .
 2em
 ;
@@ -4033,7 +4030,7 @@ border
 color
 :
 #
-0095dd
+0095DD
 ;
 }
 .
@@ -4310,7 +4307,7 @@ fill
 fill
 :
 #
-ffbf00
+FFBF00
 ;
 margin
 -
@@ -5752,7 +5749,6 @@ absolute
 padding
 :
 0
-0
 .
 7em
 ;
@@ -5784,7 +5780,6 @@ top
 ;
 opacity
 :
-0
 .
 85
 ;
@@ -5798,7 +5793,6 @@ hover
 {
 opacity
 :
-0
 .
 1
 ;
@@ -6029,9 +6023,7 @@ menulist
 [
 indicator
 =
-"
 true
-"
 ]
 >
 menupopup
@@ -6094,9 +6086,7 @@ menulist
 [
 indicator
 =
-"
 true
-"
 ]
 >
 menupopup
@@ -6104,9 +6094,7 @@ menuitem
 [
 indicator
 =
-"
 true
-"
 ]
 :
 not
@@ -6712,16 +6700,13 @@ input
 [
 type
 =
-"
 checkbox
-"
 ]
 {
 translate
 :
 0
 2px
-;
 }
 .
 checkbox
@@ -7081,7 +7066,6 @@ logo
 svg
 "
 )
-;
 }
 /
 *
@@ -7372,7 +7356,6 @@ font
 -
 size
 :
-0
 .
 87em
 ;
@@ -7451,7 +7434,6 @@ padding
 block
 :
 20px
-;
 }
 .
 simple
@@ -7482,7 +7464,6 @@ font
 -
 size
 :
-0
 .
 87em
 ;
@@ -7933,7 +7914,6 @@ light
 svg
 "
 )
-;
 }
 .
 web
@@ -7969,7 +7949,6 @@ dark
 svg
 "
 )
-;
 }
 .
 web

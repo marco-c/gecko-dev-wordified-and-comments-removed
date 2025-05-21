@@ -70,7 +70,7 @@ color
 1
 :
 #
-0a84ff
+0A84FF
 ;
 -
 -
@@ -83,7 +83,7 @@ color
 2
 :
 #
-008ea4
+008EA4
 ;
 -
 -
@@ -96,7 +96,7 @@ color
 3
 :
 #
-ed00b5
+ED00B5
 ;
 -
 -
@@ -109,7 +109,7 @@ color
 4
 :
 #
-058b00
+058B00
 ;
 -
 -
@@ -122,7 +122,7 @@ color
 5
 :
 #
-a47f00
+A47F00
 ;
 -
 -
@@ -135,7 +135,7 @@ color
 6
 :
 #
-ff0039
+FF0039
 ;
 -
 -
@@ -174,7 +174,7 @@ active
 color
 :
 #
-058b00
+058B00
 ;
 -
 -
@@ -542,7 +542,7 @@ icon
 color
 :
 #
-fff
+FFF
 ;
 flex
 :
@@ -831,7 +831,6 @@ margin
 -
 bottom
 :
-0
 .
 3em
 ;
@@ -928,21 +927,19 @@ font
 -
 family
 :
-"
+'
 Fira
 Mono
-"
-"
+'
+'
 mono
-"
+'
 monospace
 ;
 padding
 :
-0
 .
 05em
-0
 .
 4em
 ;

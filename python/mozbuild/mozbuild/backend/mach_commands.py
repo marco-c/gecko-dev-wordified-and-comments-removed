@@ -865,10 +865,6 @@ jsonc
 "
 html
 "
-        
-"
-css
-"
     
 ]
     

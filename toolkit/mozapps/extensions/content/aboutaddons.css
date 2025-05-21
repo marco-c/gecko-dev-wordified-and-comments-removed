@@ -1495,6 +1495,10 @@ bottom
 :
 16px
 ;
+overflow
+:
+hidden
+;
 transition
 :
 opacity
@@ -1503,10 +1507,6 @@ box
 -
 shadow
 150ms
-;
-overflow
-:
-hidden
 ;
 &
 .
@@ -2463,7 +2463,7 @@ border
 1px
 solid
 #
-cfcfd8
+CFCFD8
 ;
 width
 :
@@ -2489,7 +2489,7 @@ border
 color
 :
 #
-3a3944
+3A3944
 ;
 }
 }
@@ -4049,6 +4049,7 @@ accent
 -
 primary
 )
+;
 ;
 }
 panel

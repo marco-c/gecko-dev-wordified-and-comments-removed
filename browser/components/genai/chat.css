@@ -521,7 +521,6 @@ rgba
 0
 0
 0
-0
 .
 5
 )
@@ -1525,9 +1524,7 @@ l10n
 id
 *
 =
-"
 generate
-"
 ]
 {
 background
@@ -1563,9 +1560,7 @@ l10n
 id
 *
 =
-"
 analyze
-"
 ]
 {
 background
@@ -1599,9 +1594,7 @@ l10n
 id
 *
 =
-"
 switch
-"
 ]
 {
 background
@@ -1637,9 +1630,7 @@ l10n
 id
 *
 =
-"
 price
-"
 ]
 {
 background
@@ -1686,7 +1677,6 @@ font
 -
 size
 :
-0
 .
 8em
 ;

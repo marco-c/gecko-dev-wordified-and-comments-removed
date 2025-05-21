@@ -2210,9 +2210,7 @@ rule
 [
 unmatched
 =
-"
 true
-"
 ]
 .
 ruleview
@@ -2221,9 +2219,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 {
 background
@@ -2263,9 +2259,7 @@ unmatched
 [
 unmatched
 =
-"
 true
-"
 ]
 )
 {
@@ -2327,9 +2321,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 :
 focus
@@ -2356,9 +2348,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 .
 theme
@@ -2396,9 +2386,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 .
 ruleview
@@ -2427,9 +2415,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 .
 inspector
@@ -2478,9 +2464,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 .
 ruleview
@@ -2498,9 +2482,7 @@ rule
 [
 uneditable
 =
-"
 true
-"
 ]
 .
 ruleview
@@ -3171,7 +3153,6 @@ rgba
 0
 0
 0
-0
 .
 3
 )
@@ -3249,7 +3230,6 @@ rgba
 255
 255
 255
-0
 .
 4
 )
@@ -3290,7 +3270,6 @@ stroke
 :
 rgba
 (
-0
 0
 0
 0
@@ -3345,7 +3324,6 @@ rgba
 255
 255
 255
-0
 .
 8
 )
@@ -5417,9 +5395,7 @@ unmatched
 [
 unmatched
 =
-"
 true
-"
 ]
 )
 .

@@ -373,9 +373,7 @@ padding
 [
 uidensity
 =
-"
 compact
-"
 ]
 {
 -
@@ -413,9 +411,7 @@ padding
 [
 uidensity
 =
-"
 touch
-"
 ]
 {
 -
@@ -1643,7 +1639,6 @@ size
 ;
 opacity
 :
-0
 .
 2
 ;
@@ -1675,7 +1670,6 @@ separator
 {
 opacity
 :
-0
 .
 3
 ;
@@ -3358,9 +3352,7 @@ root
 [
 uidensity
 =
-"
 compact
-"
 ]
 &
 {
@@ -3682,9 +3674,7 @@ root
 [
 uidensity
 =
-"
 compact
-"
 ]
 &
 {
@@ -3950,9 +3940,7 @@ is
 [
 overflowedItem
 =
-"
 true
-"
 ]
 [
 cui
@@ -4467,9 +4455,7 @@ root
 [
 uidensity
 =
-"
 touch
-"
 ]
 &
 {
@@ -4521,9 +4507,7 @@ root
 [
 uidensity
 =
-"
 compact
-"
 ]
 &
 {
@@ -4646,15 +4630,12 @@ toolbarpaletteitem
 [
 place
 =
-"
 toolbar
-"
 ]
 [
 id
 ^
 =
-"
 wrapper
 -
 customizableui
@@ -4662,7 +4643,6 @@ customizableui
 special
 -
 spring
-"
 ]
 toolbarspring
 {
@@ -4791,9 +4771,7 @@ not
 [
 collapsed
 =
-"
 true
-"
 ]
 [
 customizing

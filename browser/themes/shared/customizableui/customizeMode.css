@@ -96,7 +96,6 @@ transition
 -
 duration
 :
-0
 .
 3s
 ;
@@ -576,7 +575,6 @@ rgba
 0
 0
 0
-0
 .
 15
 )
@@ -645,7 +643,6 @@ padding
 transition
 :
 opacity
-0
 .
 3s
 ease
@@ -898,7 +895,6 @@ solid
 ;
 opacity
 :
-0
 .
 6
 ;
@@ -1385,7 +1381,6 @@ transition
 outline
 -
 width
-0
 .
 01s
 linear
@@ -1661,11 +1656,9 @@ cubic
 -
 bezier
 (
-0
 .
 6
 2
-0
 .
 75
 1
@@ -2730,7 +2723,6 @@ hsla
 %
 0
 %
-0
 .
 3
 )
@@ -2744,7 +2736,6 @@ hsla
 %
 0
 %
-0
 .
 3
 )
@@ -2813,7 +2804,6 @@ hsla
 %
 0
 %
-0
 .
 2
 )

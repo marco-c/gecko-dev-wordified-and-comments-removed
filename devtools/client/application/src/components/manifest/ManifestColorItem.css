@@ -133,8 +133,8 @@ block
 ;
 content
 :
-"
-"
+'
+'
 ;
 background
 -
@@ -170,12 +170,6 @@ value
 )
 /
 *
--
--
-color
--
-value
-is
 injected
 via
 React

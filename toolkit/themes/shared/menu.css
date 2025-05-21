@@ -152,10 +152,8 @@ menuitem
 -
 padding
 :
-0
 .
 25em
-0
 .
 5em
 ;
@@ -1046,10 +1044,8 @@ radius
 ;
 padding
 :
-0
 .
 25em
-0
 .
 5em
 ;
@@ -1666,7 +1662,6 @@ margin
 -
 inline
 :
-0
 .
 5em
 0
@@ -1997,7 +1992,6 @@ inline
 -
 end
 :
-0
 .
 5em
 ;
@@ -2437,10 +2431,10 @@ before
 {
 content
 :
-"
+'
 \
 2713
-"
+'
 ;
 /
 *

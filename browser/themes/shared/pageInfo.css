@@ -555,7 +555,7 @@ background
 color
 :
 #
-e0e8f6
+E0E8F6
 ;
 color
 :
@@ -579,7 +579,7 @@ background
 color
 :
 #
-c1d2ee
+C1D2EE
 ;
 color
 :
@@ -714,9 +714,7 @@ radio
 [
 selected
 =
-"
 true
-"
 ]
 #
 viewGroup
@@ -725,15 +723,13 @@ toolbarbutton
 [
 checked
 =
-"
 true
-"
 ]
 {
 color
 :
 #
-fff
+FFF
 !
 important
 ;
@@ -765,7 +761,6 @@ tree
 {
 margin
 :
-0
 .
 5em
 ;
@@ -807,7 +802,6 @@ imagecontainerbox
 {
 margin
 :
-0
 .
 5em
 ;
@@ -1000,7 +994,6 @@ mediaSplitter
 {
 height
 :
-0
 .
 8em
 ;
@@ -1076,7 +1069,6 @@ listbox
 ;
 margin
 :
-0
 .
 5em
 ;
