@@ -29,7 +29,7 @@ py
 ]
 [
 "
-test_get_commits
+test_get_branch_nodes
 .
 py
 "

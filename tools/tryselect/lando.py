@@ -496,7 +496,7 @@ commit
 "
 )
     
-get_commits_kwargs
+branch_nodes_kwargs
 =
 {
 }
@@ -509,25 +509,27 @@ HgRepository
 )
 :
         
-get_commits_kwargs
+branch_nodes_kwargs
 [
 "
 base_ref
 "
 ]
 =
-base_commit
+vcs
+.
+base_ref
     
 nodes
 =
 vcs
 .
-get_commits
+get_branch_nodes
 (
 head
 *
 *
-get_commits_kwargs
+branch_nodes_kwargs
 )
     
 if
