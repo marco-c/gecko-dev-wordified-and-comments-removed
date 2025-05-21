@@ -2489,11 +2489,15 @@ GetInnerWindow
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 window
 )
+{
+return
 ;
+}
 mCloseWatcher
 =
 new
