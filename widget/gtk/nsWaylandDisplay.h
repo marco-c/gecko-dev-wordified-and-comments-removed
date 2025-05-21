@@ -7,7 +7,7 @@ __MOZ_WAYLAND_DISPLAY_H__
 #
 include
 "
-DMABufLibWrapper
+DMABufDevice
 .
 h
 "
