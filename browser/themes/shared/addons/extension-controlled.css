@@ -234,6 +234,13 @@ svg
 }
 }
 }
+/
+*
+prettier
+-
+ignore
+*
+/
 .
 extension
 -

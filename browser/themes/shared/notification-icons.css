@@ -189,6 +189,7 @@ hsla
 %
 70
 %
+0
 .
 2
 )
@@ -215,6 +216,7 @@ hsla
 %
 70
 %
+0
 .
 3
 )
@@ -2013,7 +2015,9 @@ icon
 [
 animate
 =
+"
 true
+"
 ]
 #
 eme
@@ -2024,7 +2028,9 @@ icon
 [
 firstplay
 =
+"
 true
+"
 ]
 {
 animation
@@ -2062,6 +2068,7 @@ translateX
 (
 3px
 )
+;
 }
 75
 %
@@ -2073,6 +2080,7 @@ translateX
 -
 3px
 )
+;
 }
 100
 %

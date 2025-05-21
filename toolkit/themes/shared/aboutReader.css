@@ -983,7 +983,7 @@ visited
 links
 :
 #
-321C64
+321c64
 ;
 -
 -
@@ -996,7 +996,7 @@ selection
 highlight
 :
 #
-FFFFCC
+ffffcc
 ;
 /
 *
@@ -1512,7 +1512,7 @@ primary
 color
 :
 #
-D6B4FD
+d6b4fd
 ;
 -
 -
@@ -1521,7 +1521,7 @@ link
 color
 :
 #
-8080FF
+8080ff
 ;
 -
 -
@@ -1532,7 +1532,7 @@ color
 hover
 :
 #
-D6B4FD
+d6b4fd
 ;
 -
 -
@@ -1541,7 +1541,7 @@ toolbar
 border
 :
 #
-FFEE32
+ffee32
 ;
 -
 -
@@ -1550,7 +1550,7 @@ icon
 fill
 :
 #
-FFEE32
+ffee32
 ;
 }
 body
@@ -4682,7 +4682,9 @@ input
 [
 type
 =
+"
 radio
+"
 ]
 :
 focus
@@ -6928,7 +6930,6 @@ background
 %
 )
 ;
-;
 }
 .
 light
@@ -8459,6 +8460,7 @@ width
 ;
 margin
 :
+0
 0
 .
 07em

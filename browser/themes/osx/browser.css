@@ -96,6 +96,7 @@ rgba
 249
 249
 250
+0
 .
 3
 )
@@ -104,6 +105,7 @@ rgba
 12
 12
 13
+0
 .
 3
 )
@@ -709,6 +711,7 @@ outline
 -
 color
 )
+;
 }
 }
 #
@@ -817,7 +820,7 @@ top
 1px
 solid
 #
-C7C7C7
+c7c7c7
 ;
 }
 /
@@ -1236,6 +1239,7 @@ multiselected
 {
 opacity
 :
+0
 .
 9
 ;
@@ -1298,6 +1302,7 @@ multiselected
 {
 opacity
 :
+0
 .
 7
 ;
