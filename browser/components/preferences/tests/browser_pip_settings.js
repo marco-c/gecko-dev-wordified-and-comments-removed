@@ -340,6 +340,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 el
+.
+labelEl
 {
 }
 win
@@ -456,6 +458,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 el
+.
+labelEl
 {
 }
 win
