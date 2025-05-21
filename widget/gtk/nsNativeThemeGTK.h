@@ -194,12 +194,6 @@ aAttribute
 )
 override
 ;
-void
-ThemeChanged
-(
-)
-override
-;
 bool
 ThemeSupportsWidget
 (
