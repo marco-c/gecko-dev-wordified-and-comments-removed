@@ -18827,9 +18827,13 @@ DEBUG_PRINTF
 \
 tpatchNopToCall
 %
-lu
+"
+PRIu64
+"
 %
-lu
+"
+PRIu64
+"
 \
 n
 "
