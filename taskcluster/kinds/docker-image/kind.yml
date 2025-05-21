@@ -2006,7 +2006,7 @@ decision
 )
 parent
 :
-ubuntu2004
+debian12
 -
 base
 snap

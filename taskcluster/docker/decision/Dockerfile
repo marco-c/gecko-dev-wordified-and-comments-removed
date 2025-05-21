@@ -1,6 +1,9 @@
 FROM
 DOCKER_IMAGE_PARENT
-MAINTAINER
+LABEL
+maintainer
+=
+"
 Andrew
 Halberstadt
 <
@@ -9,6 +12,7 @@ mozilla
 .
 com
 >
+"
 RUN
 mkdir
 /
