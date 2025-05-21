@@ -1204,6 +1204,17 @@ warning
 option
 "
 )
+check_and_add_warning
+(
+"
+-
+Wno
+-
+character
+-
+conversion
+"
+)
 set_config
 (
 "
