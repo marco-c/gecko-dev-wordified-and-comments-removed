@@ -592,15 +592,6 @@ endif
 #
 !
 MOZ_ANDROID_FAT_AAR_ARCHITECTURES
-BINPATH
-/
-defaults
-/
-autoconfig
-/
-prefcalls
-.
-js
 ;
 [
 Layout
