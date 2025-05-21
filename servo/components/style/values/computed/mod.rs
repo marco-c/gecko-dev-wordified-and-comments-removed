@@ -379,7 +379,6 @@ TimelineName
 TransitionBehavior
 TransitionProperty
 ViewTimelineInset
-ViewTransitionClass
 ViewTransitionName
 }
 ;
