@@ -175,11 +175,11 @@ lazy
 MODELHUB_PROVIDER_ENABLED
 "
 "
-extensions
+browser
 .
 ml
 .
-local_model_management
+modelHubProvider
 "
 false
 (
