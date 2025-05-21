@@ -290,7 +290,7 @@ message
 "
         
 def
-is_bar
+is_ctx_bar
 (
 )
 :
@@ -306,11 +306,13 @@ true
 "
 "
         
-fail_conditions
-=
-[
-is_bar
-]
+def
+is_false
+(
+)
+:
+            
+False
         
 for
 name
@@ -353,7 +355,9 @@ Registrar
 _condition_failed_message
 (
 name
-fail_conditions
+[
+is_false
+]
 )
             
 self
@@ -414,7 +418,9 @@ Registrar
 _condition_failed_message
 (
 name
-fail_conditions
+[
+is_ctx_bar
+]
 )
             
 self
