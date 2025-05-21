@@ -56,6 +56,13 @@ value
 {
 r
 }
+sameSite
+:
+Ci
+.
+nsICookie
+.
+SAMESITE_UNSET
 }
 ;
 let

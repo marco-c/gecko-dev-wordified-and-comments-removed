@@ -314,7 +314,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
+SAMESITE_UNSET
                     
 Ci
 .
