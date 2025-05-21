@@ -279,6 +279,11 @@ if
 runningInInterpreter
 (
 )
+|
+|
+isSelfHosted
+(
+)
 )
 {
 TraceRoot
