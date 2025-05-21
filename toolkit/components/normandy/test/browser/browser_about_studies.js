@@ -4941,7 +4941,7 @@ sandbox
 .
 stub
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 "
 optInToExperiment
 "
