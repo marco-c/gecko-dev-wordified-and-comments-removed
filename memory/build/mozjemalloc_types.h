@@ -415,6 +415,15 @@ TagFreedPage
 ;
 }
 enum
+ArenaPurgeResult
+{
+ReachedThreshold
+NotDone
+Busy
+Dying
+}
+;
+enum
 may_purge_now_result_t
 {
 Done
