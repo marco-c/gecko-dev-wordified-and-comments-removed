@@ -75,7 +75,9 @@ row
 [
 dynamicType
 =
+"
 quickSuggestContextualOptIn
+"
 ]
 {
 background
@@ -162,6 +164,7 @@ margin
 -
 inline
 :
+0
 0
 .
 7em
@@ -491,7 +494,9 @@ row
 [
 dynamicType
 =
+"
 onboardTabToSearch
+"
 ]
 >
 .
@@ -669,7 +674,9 @@ row
 [
 dynamicType
 =
+"
 onboardTabToSearch
+"
 ]
 [
 selected
@@ -755,6 +762,13 @@ start
 2px
 ;
 }
+/
+*
+prettier
+-
+ignore
+*
+/
 .
 urlbarView
 -
@@ -964,6 +978,7 @@ content
 margin
 :
 0
+0
 .
 4em
 ;
@@ -989,7 +1004,9 @@ row
 [
 dynamicType
 =
+"
 actions
+"
 ]
 >
 .
@@ -1226,7 +1243,9 @@ row
 [
 dynamicType
 =
+"
 weather
+"
 ]
 >
 .
@@ -1325,7 +1344,9 @@ row
 [
 dynamicType
 =
+"
 weather
+"
 ]
 :
 is
@@ -1596,7 +1617,9 @@ row
 [
 dynamicType
 =
+"
 weather
+"
 ]
 >
 .
@@ -1894,10 +1917,10 @@ before
 {
 content
 :
-'
+"
 \
 00B7
-'
+"
 ;
 margin
 :
@@ -1938,7 +1961,7 @@ top
 :
 0
 .
-40em
+4em
 ;
 .
 urlbarView
@@ -1947,7 +1970,9 @@ row
 [
 dynamicType
 =
+"
 weather
+"
 ]
 :
 not
@@ -2006,7 +2031,9 @@ row
 [
 dynamicType
 =
+"
 fakespot
+"
 ]
 >
 .
@@ -2177,7 +2204,7 @@ center
 color
 :
 #
-15141A
+15141a
 ;
 font
 -
@@ -2406,7 +2433,9 @@ width
 [
 grade
 =
+"
 A
+"
 ]
 {
 background
@@ -2451,7 +2480,9 @@ rgb
 [
 grade
 =
+"
 B
+"
 ]
 {
 background
