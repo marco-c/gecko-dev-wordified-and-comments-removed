@@ -534,5 +534,8 @@ pressHome
 startActivityAndWait
 (
 )
+killProcess
+(
+)
 }
 }
