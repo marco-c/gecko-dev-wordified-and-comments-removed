@@ -4367,6 +4367,12 @@ security_tls_enable_delegated_credentials
 )
 )
 ;
+SSL_OptionSetDefault
+(
+SSL_DB_LOAD_CERTIFICATE_CHAIN
+false
+)
+;
 rv
 =
 InitializeCipherSuite
