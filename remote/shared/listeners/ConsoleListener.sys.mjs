@@ -898,12 +898,11 @@ timeStamp
 ;
 }
 ;
-get
+/
+/
+XPCOM
 QueryInterface
-(
-)
-{
-return
+=
 ChromeUtils
 .
 generateQI
@@ -915,5 +914,4 @@ nsIConsoleListener
 ]
 )
 ;
-}
 }

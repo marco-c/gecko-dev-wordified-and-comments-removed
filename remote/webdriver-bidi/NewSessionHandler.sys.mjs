@@ -305,12 +305,8 @@ conn
 /
 /
 XPCOM
-get
 QueryInterface
-(
-)
-{
-return
+=
 ChromeUtils
 .
 generateQI
@@ -322,5 +318,4 @@ nsIHttpRequestHandler
 ]
 )
 ;
-}
 }

@@ -3356,12 +3356,11 @@ name
 ]
 ;
 }
-get
+/
+/
+XPCOM
 QueryInterface
-(
-)
-{
-return
+=
 ChromeUtils
 .
 generateQI
@@ -3376,5 +3375,4 @@ nsISupportsWeakReference
 ]
 )
 ;
-}
 }
