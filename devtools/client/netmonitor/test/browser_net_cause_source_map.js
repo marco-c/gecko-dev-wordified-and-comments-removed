@@ -349,6 +349,8 @@ xhr_original
 js
 :
 6
+:
+1
 )
 ;
 is
@@ -365,6 +367,8 @@ xhr_original
 js
 :
 10
+:
+1
 )
 ;
 await

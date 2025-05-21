@@ -858,6 +858,11 @@ dbgObj
 :
 [
 ]
+lineNumber
+:
+message
+.
+lineNumber
 columnNumber
 :
 message
@@ -873,11 +878,6 @@ level
 message
 .
 level
-lineNumber
-:
-message
-.
-lineNumber
 timeStamp
 :
 message

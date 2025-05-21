@@ -1689,6 +1689,8 @@ TRACER_FIELDS_INDEXES
 .
 FRAME_COLUMN
 ]
++
+1
 }
 depth
 implementation

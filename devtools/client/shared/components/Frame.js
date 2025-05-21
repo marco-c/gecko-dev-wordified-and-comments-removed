@@ -248,6 +248,10 @@ return
 url
 line
 column
+:
+column
+-
+1
 id
 :
 typeof
@@ -672,6 +676,8 @@ currentLocation
 .
 column
 )
++
+1
 :
 null
 ;
