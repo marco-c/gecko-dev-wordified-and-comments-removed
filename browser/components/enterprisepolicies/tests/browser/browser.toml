@@ -547,6 +547,13 @@ js
 ]
 [
 "
+browser_policy_pdfviewer
+.
+js
+"
+]
+[
+"
 browser_policy_privatebrowsingmodeavailability
 .
 js
