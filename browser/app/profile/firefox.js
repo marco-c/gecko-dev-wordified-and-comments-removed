@@ -11510,7 +11510,7 @@ customColor
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -11530,7 +11530,7 @@ customWallpaper
 .
 enabled
 "
-false
+true
 )
 ;
 pref
