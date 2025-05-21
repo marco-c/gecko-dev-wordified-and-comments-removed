@@ -801,12 +801,6 @@ GlobalRefRelease
 (
 )
 ;
-static
-void
-DeleteSnapshotGLContext
-(
-)
-;
 virtual
 void
 ReleaseSurface

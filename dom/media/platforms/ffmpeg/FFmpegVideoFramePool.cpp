@@ -737,13 +737,6 @@ Clear
 (
 )
 ;
-DMABufSurface
-:
-:
-DeleteSnapshotGLContext
-(
-)
-;
 }
 void
 VideoFramePool
