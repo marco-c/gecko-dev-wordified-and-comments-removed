@@ -50,10 +50,6 @@ attachment
 subjects
 :
 [
-]
-businessSubjects
-:
-[
 "
 coffee
 "
@@ -289,6 +285,14 @@ yelp
 mlEnabled
 "
 true
+]
+[
+"
+yelp
+.
+serviceResultDistinction
+"
+false
 ]
 ]
 remoteSettingsRecords
