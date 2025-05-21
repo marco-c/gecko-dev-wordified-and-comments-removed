@@ -265,6 +265,10 @@ NetworkStringValue
 (
 cookie_value
 )
+            
+secure
+=
+True
         
 )
         
