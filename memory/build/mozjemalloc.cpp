@@ -13190,6 +13190,12 @@ mIsPurging
 =
 true
 ;
+aStats
+.
+chunks
++
++
+;
 }
 bool
 continue_purge_arena
@@ -13714,6 +13720,7 @@ OnPurge
 start
 end
 purge_stats
+pr
 )
 ;
 }
