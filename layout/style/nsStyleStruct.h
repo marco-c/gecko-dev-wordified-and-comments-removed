@@ -9535,6 +9535,12 @@ mozilla
 StyleViewTransitionName
 mViewTransitionName
 ;
+mozilla
+:
+:
+StyleViewTransitionClass
+mViewTransitionClass
+;
 }
 ;
 struct

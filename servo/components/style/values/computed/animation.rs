@@ -97,6 +97,8 @@ ScrollAxis
 TimelineName
 TransitionBehavior
 TransitionProperty
+ViewTransitionClass
+ViewTransitionName
 }
 ;
 pub
