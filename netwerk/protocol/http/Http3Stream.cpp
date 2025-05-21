@@ -675,10 +675,10 @@ id
 {
 MOZ_ASSERT
 (
-gHttpHandler
--
->
-ActiveTabPriority
+StaticPrefs
+:
+:
+network_http_active_tab_priority
 (
 )
 )
