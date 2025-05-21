@@ -2886,6 +2886,9 @@ Transition
 fun
 openBookmarks
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BookmarksRobot
@@ -2956,6 +2959,7 @@ design
 )
 BookmarksRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2966,6 +2970,7 @@ BookmarksRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -3617,6 +3622,9 @@ Transition
 fun
 clickEditBookmarkButton
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BookmarksRobot
@@ -3697,6 +3705,7 @@ design
 )
 BookmarksRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3707,6 +3716,7 @@ BookmarksRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

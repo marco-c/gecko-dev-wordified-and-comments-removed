@@ -558,16 +558,6 @@ updatedFeatureFlags
 isMenuRedesignCFREnabled
 override
 var
-isNewBookmarksEnabled
-:
-Boolean
-by
-updatedFeatureFlags
-:
-:
-isNewBookmarksEnabled
-override
-var
 isMicrosurveyEnabled
 :
 Boolean
