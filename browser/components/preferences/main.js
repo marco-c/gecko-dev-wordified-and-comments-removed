@@ -1919,6 +1919,15 @@ SETTINGS_CONFIG
 browsing
 :
 {
+l10nId
+:
+"
+browsing
+-
+group
+-
+label
+"
 items
 :
 [
