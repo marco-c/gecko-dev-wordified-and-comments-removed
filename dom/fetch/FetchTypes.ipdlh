@@ -256,6 +256,15 @@ h
 "
 ;
 using
+nsContentPolicyType
+from
+"
+nsIContentPolicy
+.
+h
+"
+;
+using
 nsILoadInfo
 :
 :
@@ -389,7 +398,7 @@ bodySize
 nsCString
 preferredAlternativeDataType
 ;
-uint32_t
+nsContentPolicyType
 contentPolicyType
 ;
 int32_t
@@ -436,7 +445,7 @@ PrincipalInfo
 ?
 interceptionTriggeringPrincipalInfo
 ;
-uint32_t
+nsContentPolicyType
 interceptionContentPolicyType
 ;
 RedirectHistoryEntryInfo
