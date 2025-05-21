@@ -1916,6 +1916,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 )
 ;
 RefPtr
@@ -1928,6 +1930,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock
@@ -1956,6 +1960,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 )
 ;
 RefPtr

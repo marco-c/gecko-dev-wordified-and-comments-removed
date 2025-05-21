@@ -212,6 +212,12 @@ aPrincipal
 in
 AString
 aClientType
+[
+optional
+]
+in
+boolean
+aCreateIfNonExistent
 )
 ;
 [

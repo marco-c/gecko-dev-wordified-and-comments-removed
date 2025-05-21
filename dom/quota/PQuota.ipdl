@@ -555,6 +555,8 @@ PrincipalInfo
 principalInfo
 Type
 clientType
+bool
+createIfNonExistent
 )
 returns
 (

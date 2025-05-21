@@ -246,6 +246,7 @@ InitializeTemporaryClient
 GetTestClientMetadata
 (
 )
+true
 )
 )
 ;

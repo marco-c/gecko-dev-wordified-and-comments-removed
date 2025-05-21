@@ -1654,12 +1654,15 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 )
 {
 PerformOnBackgroundThread
 (
 [
 aClientMetadata
+aCreateIfNonExistent
 ]
 (
 )
@@ -1688,6 +1691,7 @@ quotaManager
 InitializeTemporaryClient
 (
 aClientMetadata
+aCreateIfNonExistent
 )
 )
 ;
