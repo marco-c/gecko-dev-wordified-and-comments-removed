@@ -23,11 +23,4 @@ third_party
 /
 python
 /
-toml
-vendored
-:
-third_party
-/
-python
-/
 voluptuous

@@ -39,10 +39,3 @@ PyYAML
 /
 lib
 /
-vendored
-:
-third_party
-/
-python
-/
-requests
