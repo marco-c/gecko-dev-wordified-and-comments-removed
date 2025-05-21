@@ -768,7 +768,7 @@ parserDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 <
 div
