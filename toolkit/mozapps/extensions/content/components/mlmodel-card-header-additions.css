@@ -170,7 +170,15 @@ var
 -
 space
 -
-xsmall
+small
+)
+var
+(
+-
+-
+space
+-
+medium
 )
 ;
 font
@@ -322,6 +330,10 @@ color
 -
 destructive
 )
+;
+margin
+:
+0
 ;
 }
 button
