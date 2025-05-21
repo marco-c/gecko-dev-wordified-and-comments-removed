@@ -9136,13 +9136,6 @@ html
 ]
 [
 "
-test_preload_attribute
-.
-html
-"
-]
-[
-"
 test_preload_suspend
 .
 html
