@@ -7844,7 +7844,7 @@ newIndex
 {
 params
 .
-index
+tabIndex
 =
 newIndex
 ;
@@ -7939,7 +7939,7 @@ targetTabIndex
 {
 params
 .
-index
+tabIndex
 =
 +
 +
@@ -10584,7 +10584,7 @@ addTrustedTab
 (
 BROWSER_NEW_TAB_URL
 {
-index
+tabIndex
 :
 tab
 .
@@ -10680,7 +10680,6 @@ inBackground
 true
 elementIndex
 tabIndex
-index
 lazyTabTitle
 name
 noInitialLabel
@@ -10950,22 +10949,6 @@ if
 insertTab
 )
 {
-if
-(
-typeof
-index
-=
-=
-"
-number
-"
-)
-{
-tabIndex
-=
-index
-;
-}
 this
 .
 #
@@ -36458,7 +36441,7 @@ pinned
 tab
 .
 pinned
-index
+tabIndex
 :
 tab
 .

@@ -16,7 +16,7 @@ about
 blank
 "
 {
-index
+tabIndex
 :
 10
 }
