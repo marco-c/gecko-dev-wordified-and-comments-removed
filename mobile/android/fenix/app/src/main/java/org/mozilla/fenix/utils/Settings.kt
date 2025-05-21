@@ -9167,7 +9167,12 @@ enabled
 }
 featureFlag
 =
-true
+ContentRecommendationsFeatureHelper
+.
+isContentRecommendationsFeatureEnabled
+(
+appContext
+)
 )
 /
 *
