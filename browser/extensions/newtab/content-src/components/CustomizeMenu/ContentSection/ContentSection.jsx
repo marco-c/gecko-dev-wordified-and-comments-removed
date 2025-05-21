@@ -104,7 +104,7 @@ from
 .
 .
 /
-WallpapersSection
+WallpaperCategories
 /
 WallpaperCategories
 "

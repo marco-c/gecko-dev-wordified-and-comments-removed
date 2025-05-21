@@ -1037,9 +1037,9 @@ src
 /
 components
 /
-WallpapersSection
+WallpaperCategories
 /
-*
+WallpaperCategories
 .
 jsx
 "
