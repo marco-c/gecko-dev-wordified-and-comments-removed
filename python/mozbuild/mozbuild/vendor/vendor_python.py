@@ -105,11 +105,12 @@ kwargs
 )
 :
         
-MozbuildObject
+super
+(
+)
 .
 __init__
 (
-self
 *
 args
 virtualenv_name
