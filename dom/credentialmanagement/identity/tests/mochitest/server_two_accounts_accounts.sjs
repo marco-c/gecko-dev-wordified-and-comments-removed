@@ -288,9 +288,9 @@ email
 :
 "
 john_doe
-example
+idp
 .
-com
+example
 "
 picture
 :
@@ -299,9 +299,9 @@ https
 :
 /
 /
-example
+idp
 .
-com
+example
 /
 profile
 /
@@ -341,9 +341,9 @@ email
 :
 "
 johnny
-example
+idp
 .
-com
+example
 "
 picture
 :
@@ -352,9 +352,9 @@ https
 :
 /
 /
-example
+idp
 .
-com
+example
 /
 profile
 /

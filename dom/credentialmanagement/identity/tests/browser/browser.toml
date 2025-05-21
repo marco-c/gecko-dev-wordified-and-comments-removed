@@ -142,13 +142,6 @@ headers
 ]
 [
 "
-browser_autoreauthn_doesnt_show_ui
-.
-js
-"
-]
-[
-"
 browser_close_prompt_on_timeout
 .
 js
@@ -164,13 +157,6 @@ js
 [
 "
 browser_loginStatus
-.
-js
-"
-]
-[
-"
-browser_passive_requires_connected
 .
 js
 "
