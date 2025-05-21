@@ -95686,8 +95686,6 @@ CreateHTMLDocument
 GlobalObject
 &
 aGlobal
-bool
-aLoadedAsData
 ErrorResult
 &
 aError
@@ -95751,7 +95749,7 @@ aGlobal
 GetSubjectPrincipal
 (
 )
-aLoadedAsData
+true
 )
 ;
 if
@@ -95935,7 +95933,6 @@ doc
 CreateHTMLDocument
 (
 aGlobal
-sanitize
 aError
 )
 ;
@@ -96100,7 +96097,6 @@ doc
 CreateHTMLDocument
 (
 aGlobal
-true
 aError
 )
 ;
