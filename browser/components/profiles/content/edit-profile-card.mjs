@@ -667,7 +667,7 @@ this
 .
 avatarsPicker
 .
-radioButtons
+childElements
 ;
 }
 get
@@ -680,7 +680,7 @@ this
 .
 themesPicker
 .
-radioButtons
+childElements
 ;
 }
 constructor
