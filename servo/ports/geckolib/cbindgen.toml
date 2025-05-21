@@ -1238,6 +1238,9 @@ Zoom
 TransitionProperty
 "
 "
+ViewTransitionClass
+"
+"
 ViewTransitionName
 "
 "
