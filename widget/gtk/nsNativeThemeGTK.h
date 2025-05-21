@@ -37,7 +37,7 @@ Theme
 ;
 public
 :
-NS_IMETHOD
+void
 DrawWidgetBackground
 (
 gfxContext
@@ -194,7 +194,7 @@ aAttribute
 )
 override
 ;
-NS_IMETHOD
+void
 ThemeChanged
 (
 )
