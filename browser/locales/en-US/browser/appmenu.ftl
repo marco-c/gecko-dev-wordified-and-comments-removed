@@ -217,6 +217,14 @@ and
 themes
 appmenuitem
 -
+extensions
+=
+.
+label
+=
+Extensions
+appmenuitem
+-
 print
 =
 .

@@ -957,6 +957,15 @@ command
 id
 =
 "
+cmd_openUnifiedExtensionsPanel
+"
+/
+>
+<
+command
+id
+=
+"
 Tools
 :
 Sanitize
