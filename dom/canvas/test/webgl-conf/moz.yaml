@@ -9,9 +9,9 @@ Core
 component
 :
 "
-Canvas
+Graphics
 :
-WebGL
+CanvasWebGL
 "
 origin
 :
