@@ -59546,8 +59546,6 @@ dark
 (
 )
 on
-images
-in
 content
 enabled
 ?
@@ -59562,15 +59560,13 @@ light
 -
 dark
 .
-images
-.
 enabled
 type
 :
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
