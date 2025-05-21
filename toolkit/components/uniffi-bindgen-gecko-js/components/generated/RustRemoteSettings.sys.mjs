@@ -999,7 +999,7 @@ readPointerRemoteSettings
 const
 pointerId
 =
-1
+2
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-1
+2
 ;
 /
 /
@@ -1159,7 +1159,7 @@ readPointerRemoteSettingsClient
 const
 pointerId
 =
-2
+3
 ;
 /
 /
@@ -1242,7 +1242,7 @@ value
 const
 pointerId
 =
-2
+3
 ;
 /
 /
@@ -1319,7 +1319,7 @@ readPointerRemoteSettingsService
 const
 pointerId
 =
-3
+4
 ;
 /
 /
@@ -1402,7 +1402,7 @@ value
 const
 pointerId
 =
-3
+4
 ;
 /
 /
@@ -2670,7 +2670,7 @@ UniFFIScaffolding
 .
 callSync
 (
-16
+20
 /
 /
 remote_settings
@@ -2827,7 +2827,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-13
+17
 /
 /
 remote_settings
@@ -2960,7 +2960,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-14
+18
 /
 /
 remote_settings
@@ -3126,7 +3126,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-15
+19
 /
 /
 remote_settings
@@ -3526,7 +3526,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-17
+21
 /
 /
 remote_settings
@@ -3758,7 +3758,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-18
+22
 /
 /
 remote_settings
@@ -4094,7 +4094,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-19
+23
 /
 /
 remote_settings
@@ -4281,7 +4281,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-20
+24
 /
 /
 remote_settings
@@ -4388,7 +4388,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-21
+25
 /
 /
 remote_settings
@@ -4488,7 +4488,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-22
+26
 /
 /
 remote_settings
@@ -5059,7 +5059,7 @@ UniFFIScaffolding
 .
 callSync
 (
-26
+30
 /
 /
 remote_settings
@@ -5206,7 +5206,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-23
+27
 /
 /
 remote_settings
@@ -5331,7 +5331,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-24
+28
 /
 /
 remote_settings
@@ -5529,7 +5529,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-25
+29
 /
 /
 remote_settings

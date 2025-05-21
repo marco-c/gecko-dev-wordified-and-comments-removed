@@ -3160,7 +3160,7 @@ errorsupport
 :
 ApplicationErrorReporter
 "
-0
+1
 [
 new
 UniFFICallbackMethodHandler
@@ -3300,7 +3300,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-0
+4
 /
 /
 errorsupport
@@ -3414,7 +3414,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-1
+5
 /
 /
 errorsupport

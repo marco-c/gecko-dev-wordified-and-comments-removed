@@ -4146,7 +4146,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-109
+113
 /
 /
 custom_types
@@ -4284,7 +4284,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-110
+114
 /
 /
 custom_types
@@ -4422,7 +4422,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-111
+115
 /
 /
 custom_types
@@ -4560,7 +4560,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-112
+116
 /
 /
 custom_types
@@ -4698,7 +4698,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-113
+117
 /
 /
 custom_types
@@ -4800,7 +4800,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-114
+118
 /
 /
 custom_types
@@ -4932,7 +4932,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-115
+119
 /
 /
 custom_types
@@ -5034,7 +5034,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-116
+120
 /
 /
 custom_types
@@ -5166,7 +5166,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-117
+121
 /
 /
 custom_types

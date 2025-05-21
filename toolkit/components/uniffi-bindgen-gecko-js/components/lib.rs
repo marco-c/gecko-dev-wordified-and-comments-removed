@@ -41,6 +41,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+context_id
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 }
 #
 [

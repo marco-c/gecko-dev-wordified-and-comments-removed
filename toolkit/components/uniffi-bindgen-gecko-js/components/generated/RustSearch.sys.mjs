@@ -999,7 +999,7 @@ readPointerSearchEngineSelector
 const
 pointerId
 =
-4
+5
 ;
 /
 /
@@ -1082,7 +1082,7 @@ value
 const
 pointerId
 =
-4
+5
 ;
 /
 /
@@ -2219,7 +2219,7 @@ UniFFIScaffolding
 .
 callSync
 (
-32
+36
 /
 /
 search
@@ -2316,7 +2316,7 @@ UniFFIScaffolding
 .
 callSync
 (
-27
+31
 /
 /
 search
@@ -2464,7 +2464,7 @@ UniFFIScaffolding
 .
 callSync
 (
-28
+32
 /
 /
 search
@@ -2580,7 +2580,7 @@ UniFFIScaffolding
 .
 callSync
 (
-29
+33
 /
 /
 search
@@ -2745,7 +2745,7 @@ UniFFIScaffolding
 .
 callSync
 (
-30
+34
 /
 /
 search
@@ -2983,7 +2983,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-31
+35
 /
 /
 search

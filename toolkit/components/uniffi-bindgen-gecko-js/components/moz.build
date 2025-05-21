@@ -5,6 +5,15 @@ EXTRA_JS_MODULES
 "
 generated
 /
+RustContextId
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustRelevancy
 .
 sys
