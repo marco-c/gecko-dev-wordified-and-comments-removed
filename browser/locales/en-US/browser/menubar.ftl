@@ -1546,7 +1546,7 @@ menu
 -
 tools
 -
-addons
+extensions
 -
 and
 -
@@ -1555,15 +1555,13 @@ themes
 .
 label
 =
-Add
--
-ons
+Extensions
 and
 Themes
 .
 accesskey
 =
-A
+E
 menu
 -
 tools

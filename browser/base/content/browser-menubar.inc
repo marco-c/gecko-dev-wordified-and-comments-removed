@@ -3116,7 +3116,7 @@ menu
 -
 tools
 -
-addons
+extensions
 -
 and
 -

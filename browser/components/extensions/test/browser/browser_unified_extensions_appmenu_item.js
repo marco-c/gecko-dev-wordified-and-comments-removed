@@ -124,9 +124,7 @@ menuItemThatOpensAboutAddons
 )
 "
 '
-Add
--
-ons
+Extensions
 and
 themes
 '
@@ -224,9 +222,7 @@ menuItemThatOpensAboutAddons
 )
 "
 '
-Add
--
-ons
+Extensions
 and
 themes
 '
