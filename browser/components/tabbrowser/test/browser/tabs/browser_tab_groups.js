@@ -13131,7 +13131,7 @@ example
 com
 "
 {
-tabIndex
+index
 :
 2
 triggeringPrincipal
@@ -13210,7 +13210,7 @@ example
 com
 "
 {
-tabIndex
+index
 :
 4
 triggeringPrincipal
@@ -13296,7 +13296,7 @@ example
 com
 "
 {
-tabIndex
+index
 :
 5
 triggeringPrincipal
@@ -13457,7 +13457,7 @@ example
 com
 "
 {
-tabIndex
+index
 :
 undefined
 relatedToCurrent

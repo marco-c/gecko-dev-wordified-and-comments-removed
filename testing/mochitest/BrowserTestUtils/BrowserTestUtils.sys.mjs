@@ -11838,7 +11838,7 @@ width
 "
 ;
 let
-tabIndex
+index
 =
 params
 .
@@ -12033,7 +12033,7 @@ blank
 skipAnimation
 :
 true
-tabIndex
+index
 }
 )
 )

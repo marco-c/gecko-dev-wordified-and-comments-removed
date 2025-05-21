@@ -4571,7 +4571,7 @@ tabs
 ]
 true
 {
-tabIndex
+index
 :
 2
 }
