@@ -475,6 +475,18 @@ fenix
 .
 home
 .
+pocket
+.
+ContentRecommendationsFeatureHelper
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 topsites
 .
 TopSitesConfigConstants
@@ -8926,7 +8938,7 @@ pref_key_pocket_homescreen_recommendations
 )
 featureFlag
 =
-FeatureFlags
+ContentRecommendationsFeatureHelper
 .
 isPocketRecommendationsFeatureEnabled
 (
@@ -8997,7 +9009,7 @@ true
 }
 featureFlag
 =
-FeatureFlags
+ContentRecommendationsFeatureHelper
 .
 isPocketSponsoredStoriesFeatureEnabled
 (
