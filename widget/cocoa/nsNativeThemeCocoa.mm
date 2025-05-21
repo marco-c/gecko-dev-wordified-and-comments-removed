@@ -12353,12 +12353,6 @@ case
 StyleAppearance
 :
 :
-Tabpanel
-:
-case
-StyleAppearance
-:
-:
 Menupopup
 :
 case
