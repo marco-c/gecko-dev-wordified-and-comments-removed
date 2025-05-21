@@ -426,6 +426,8 @@ is
 disabled
 (
 )
+=
+runTest
 {
 val
 icon
@@ -567,9 +569,7 @@ context
 .
 thenReturn
 (
-mock
-(
-)
+testContext
 )
 val
 browserAction
@@ -644,6 +644,8 @@ fun
 bind
 (
 )
+=
+runTest
 {
 val
 icon
@@ -966,6 +968,8 @@ is
 empty
 (
 )
+=
+runTest
 {
 val
 icon
@@ -1568,9 +1572,7 @@ context
 .
 thenReturn
 (
-mock
-(
-)
+testContext
 )
 val
 browserAction
@@ -1672,6 +1674,8 @@ is
 triggered
 (
 )
+=
+runTest
 {
 val
 icon
@@ -1813,9 +1817,7 @@ context
 .
 thenReturn
 (
-mock
-(
-)
+testContext
 )
 val
 browserAction
