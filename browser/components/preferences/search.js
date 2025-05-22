@@ -3977,6 +3977,11 @@ search
 removeEngine
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_ENTERPRISE
 )
 ;
 }
@@ -4845,6 +4850,11 @@ this
 selectedEngine
 .
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_USER
 )
 ;
 return
@@ -4990,6 +5000,11 @@ this
 selectedEngine
 .
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_USER
 )
 ;
 }

@@ -12945,6 +12945,11 @@ search
 removeEngine
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_ENTERPRISE
 )
 ;
 }
