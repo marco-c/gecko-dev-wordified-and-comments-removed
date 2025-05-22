@@ -6950,13 +6950,6 @@ x86_64
 ]
 [
 "
-test_ip_address_space_lna_glean
-.
-js
-"
-]
-[
-"
 test_large_port
 .
 js
