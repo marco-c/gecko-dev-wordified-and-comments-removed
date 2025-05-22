@@ -450,9 +450,14 @@ rev
 query
 keepSelection
 modifiers
+{
 focusFirstResult
 =
 true
+shouldScroll
+=
+true
+}
 )
 {
 const
@@ -600,6 +605,11 @@ to
 }
 )
 ;
+if
+(
+shouldScroll
+)
+{
 editor
 .
 scrollToPosition
@@ -609,6 +619,7 @@ cursor
 from
 )
 ;
+}
 return
 editor
 .
@@ -1460,7 +1471,7 @@ ctx
 query
 keepSelection
 modifiers
-focusFirstResult
+options
 )
 {
 clearSearch
@@ -1476,7 +1487,7 @@ false
 query
 keepSelection
 modifiers
-focusFirstResult
+options
 )
 ;
 }
@@ -1498,6 +1509,8 @@ false
 query
 keepSelection
 modifiers
+{
+}
 )
 ;
 }
@@ -1519,6 +1532,8 @@ true
 query
 keepSelection
 modifiers
+{
+}
 )
 ;
 }
