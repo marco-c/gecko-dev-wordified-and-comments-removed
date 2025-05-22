@@ -2991,9 +2991,9 @@ error
 ;
 ogCard
 .
-isGenerationErrorState
+generationError
 =
-true
+error
 ;
 }
 onText
