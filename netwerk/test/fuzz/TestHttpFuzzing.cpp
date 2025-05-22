@@ -956,8 +956,10 @@ failed
 }
 loadInfo
 =
-new
 LoadInfo
+:
+:
+Create
 (
 nsContentUtils
 :
@@ -1002,6 +1004,10 @@ ServiceWorkerDescriptor
 (
 )
 sandboxFlags
+)
+.
+unwrap
+(
 )
 ;
 rv
