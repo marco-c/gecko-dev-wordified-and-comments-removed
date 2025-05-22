@@ -4288,7 +4288,7 @@ R
 .
 string
 .
-pocket_stories_header_1
+pocket_stories_header_2
 )
 )
 )
@@ -4305,7 +4305,7 @@ R
 .
 string
 .
-pocket_stories_header_1
+pocket_stories_header_2
 )
 )
 exists
@@ -4411,10 +4411,7 @@ view
 the
 \
 "
-Thought
--
-provoking
-stories
+Stories
 \
 "
 pocket
@@ -4457,10 +4454,7 @@ view
 the
 \
 "
-Thought
--
-provoking
-stories
+Stories
 \
 "
 pocket
@@ -4720,10 +4714,7 @@ view
 the
 \
 "
-Thought
--
-provoking
-stories
+Stories
 \
 "
 pocket
@@ -4766,10 +4757,7 @@ view
 the
 \
 "
-Thought
--
-provoking
-stories
+Stories
 \
 "
 pocket
