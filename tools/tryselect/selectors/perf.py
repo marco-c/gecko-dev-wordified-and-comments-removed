@@ -287,6 +287,33 @@ revision
 %
 s
 "
+TREEHERDER_TRY_LANDO_BASE_URL
+=
+(
+    
+"
+https
+:
+/
+/
+treeherder
+.
+mozilla
+.
+org
+/
+jobs
+?
+repo
+=
+try
+&
+landoCommitID
+=
+%
+s
+"
+)
 TREEHERDER_ALERT_TASKS_URL
 =
 (
@@ -10516,7 +10543,32 @@ print
 "
 )
         
+original_try_url
+=
+TREEHERDER_TRY_BASE_URL
+%
+PerfParser
+.
+push_info
+.
+base_revision
+        
+local_change_try_url
+=
+(
+            
+TREEHERDER_TRY_BASE_URL
+%
+PerfParser
+.
+push_info
+.
+new_revision
+        
+)
+        
 if
+not
 kwargs
 .
 get
@@ -10531,13 +10583,14 @@ original_try_url
 =
 (
                 
-TREEHERDER_TRY_BASE_URL
+TREEHERDER_TRY_LANDO_BASE_URL
+                
 %
 PerfParser
 .
 push_info
 .
-base_revision
+base_lando_commit_id
             
 )
             
@@ -10545,16 +10598,16 @@ local_change_try_url
 =
 (
                 
-TREEHERDER_TRY_BASE_URL
+TREEHERDER_TRY_LANDO_BASE_URL
 %
 PerfParser
 .
 push_info
 .
-new_revision
+new_lando_commit_id
             
 )
-            
+        
 print
 (
 f
@@ -10571,7 +10624,7 @@ original_try_url
 }
 "
 )
-            
+        
 print
 (
 f
