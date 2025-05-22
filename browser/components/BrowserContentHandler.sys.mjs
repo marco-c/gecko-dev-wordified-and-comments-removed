@@ -2916,6 +2916,17 @@ gKiosk
 =
 true
 ;
+Glean
+.
+browserStartup
+.
+kioskMode
+.
+set
+(
+true
+)
+;
 }
 if
 (
