@@ -253,14 +253,6 @@ placesMenu
 >
 menu
 {
-padding
--
-inline
--
-start
-:
-4px
-;
 appearance
 :
 auto
@@ -388,10 +380,6 @@ expander
 -
 down
 {
-padding
-:
-2px
-;
 >
 .
 button
