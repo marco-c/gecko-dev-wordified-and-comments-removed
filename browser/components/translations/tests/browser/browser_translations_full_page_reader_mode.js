@@ -479,7 +479,6 @@ TEST
 es
 to
 en
-html
 ]
 "
 )
@@ -519,8 +518,11 @@ s
 last
 paragraph
 is
-in
+translated
+from
 Spanish
+to
+English
 .
 "
 getLastParagraph
@@ -548,7 +550,6 @@ PAGAR
 es
 to
 en
-html
 ]
 "
 )

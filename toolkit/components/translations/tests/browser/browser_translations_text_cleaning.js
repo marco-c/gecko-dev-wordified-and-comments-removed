@@ -89,7 +89,6 @@ EL
 es
 to
 en
-html
 ]
 "
 "
@@ -104,7 +103,6 @@ Y
 es
 to
 en
-html
 ]
 "
 "
@@ -115,7 +113,6 @@ ROJO
 es
 to
 en
-html
 ]
 "
 ]
@@ -159,7 +156,6 @@ HYPHENS
 es
 to
 en
-html
 ]
 "
 )

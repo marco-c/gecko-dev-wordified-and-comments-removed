@@ -88,7 +88,6 @@ MANCHA
 es
 to
 en
-html
 ]
 "
 )
@@ -104,8 +103,9 @@ last
 paragraph
 gets
 translated
-.
-It
+even
+though
+it
 is
 out
 of
@@ -140,7 +140,6 @@ PAGAR
 es
 to
 en
-html
 ]
 "
 )
@@ -542,7 +541,6 @@ MANCHA
 es
 to
 en
-html
 ]
 "
 )
@@ -558,8 +556,9 @@ last
 paragraph
 gets
 translated
-.
-It
+even
+though
+it
 is
 out
 of
@@ -594,7 +593,6 @@ PAGAR
 es
 to
 en
-html
 ]
 "
 )
