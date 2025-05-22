@@ -229,7 +229,7 @@ of
 the
 port
 is
-transfered
+transferred
 from
 the
 parent
