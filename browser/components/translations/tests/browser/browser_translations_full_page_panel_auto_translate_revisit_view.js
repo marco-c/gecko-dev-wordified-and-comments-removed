@@ -161,7 +161,7 @@ true
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -258,7 +258,7 @@ SPANISH_PAGE_URL_DOT_ORG
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage

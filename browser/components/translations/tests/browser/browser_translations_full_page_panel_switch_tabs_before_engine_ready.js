@@ -297,7 +297,7 @@ en
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -684,7 +684,7 @@ tab
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -845,7 +845,7 @@ resolveDownloads
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -1061,7 +1061,7 @@ French
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -1111,7 +1111,7 @@ downloads
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
@@ -1166,7 +1166,7 @@ Ukrainian
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage

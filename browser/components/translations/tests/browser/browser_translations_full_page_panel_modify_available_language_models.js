@@ -770,7 +770,7 @@ clickTranslateButton
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage

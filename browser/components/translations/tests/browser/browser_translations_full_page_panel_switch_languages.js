@@ -265,7 +265,7 @@ resolveDownloads
 await
 FullPageTranslationsTestUtils
 .
-assertOnlyIntersectingContentIsTranslated
+assertOnlyIntersectingNodesAreTranslated
 (
 {
 fromLanguage
