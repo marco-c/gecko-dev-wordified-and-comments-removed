@@ -518,6 +518,7 @@ TranslationsEngine
 DestroyEngineProcess
 "
 :
+{
 if
 (
 this
@@ -563,11 +564,14 @@ null
 return
 undefined
 ;
+}
 default
 :
+{
 return
 undefined
 ;
+}
 }
 }
 /

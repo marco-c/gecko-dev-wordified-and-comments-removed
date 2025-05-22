@@ -5251,6 +5251,7 @@ case
 childList
 "
 :
+{
 for
 (
 const
@@ -5325,6 +5326,7 @@ removedNode
 }
 break
 ;
+}
 case
 "
 characterData
@@ -5447,6 +5449,7 @@ case
 attributes
 "
 :
+{
 if
 (
 mutation
@@ -5475,10 +5478,13 @@ attributeName
 }
 break
 ;
+}
 default
 :
+{
 break
 ;
+}
 }
 }
 }
@@ -8470,6 +8476,7 @@ NodeStatus
 .
 NOT_TRANSLATABLE
 :
+{
 /
 /
 This
@@ -8487,6 +8494,7 @@ translated
 return
 null
 ;
+}
 /
 /
 SHADOW_HOST
@@ -8585,6 +8593,7 @@ NodeStatus
 .
 SUBDIVIDE_FURTHER
 :
+{
 /
 /
 This
@@ -8640,6 +8649,7 @@ node
 ;
 break
 ;
+}
 }
 return
 this
@@ -15794,6 +15804,7 @@ Node
 .
 TEXT_NODE
 :
+{
 node
 .
 removeChild
@@ -15803,11 +15814,13 @@ child
 ;
 break
 ;
+}
 case
 Node
 .
 ELEMENT_NODE
 :
+{
 removeTextNodes
 (
 child
@@ -15815,10 +15828,13 @@ child
 ;
 break
 ;
+}
 default
 :
+{
 break
 ;
+}
 }
 }
 }
@@ -16703,6 +16719,7 @@ Node
 .
 TEXT_NODE
 :
+{
 /
 /
 Keep
@@ -16716,6 +16733,7 @@ nodes
 .
 continue
 ;
+}
 case
 Node
 .
@@ -16764,9 +16782,11 @@ continue
 }
 default
 :
+{
 return
 true
 ;
+}
 }
 }
 return

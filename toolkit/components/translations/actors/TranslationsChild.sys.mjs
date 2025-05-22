@@ -489,6 +489,7 @@ Translations
 GetDocumentElementLang
 "
 :
+{
 return
 this
 .
@@ -498,6 +499,7 @@ documentElement
 .
 lang
 ;
+}
 case
 "
 Translations
