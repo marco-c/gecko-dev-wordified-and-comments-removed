@@ -145,7 +145,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -164,14 +164,14 @@ The
 page
 '
 s
-last
+final
 paragraph
 is
 in
 Spanish
 .
 "
-getLastParagraph
+getFinalParagraph
 "
 Pues
 aunque
@@ -369,7 +369,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -388,7 +388,7 @@ The
 page
 '
 s
-last
+final
 paragraph
 is
 translated
@@ -398,7 +398,7 @@ to
 English
 .
 "
-getLastParagraph
+getFinalParagraph
 "
 PUES
 AUNQUE
@@ -499,7 +499,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -518,7 +518,7 @@ The
 page
 '
 s
-last
+final
 paragraph
 is
 translated
@@ -528,7 +528,7 @@ to
 English
 .
 "
-getLastParagraph
+getFinalParagraph
 "
 PUES
 AUNQUE

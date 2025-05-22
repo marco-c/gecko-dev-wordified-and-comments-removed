@@ -2799,7 +2799,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -2811,7 +2811,7 @@ getSelectors
 const
 lastParagraph
 =
-getLastParagraph
+getFinalParagraph
 (
 )
 ;
@@ -2830,7 +2830,7 @@ Unable
 to
 find
 the
-last
+final
 paragraph
 for
 observation
@@ -5729,7 +5729,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -5754,7 +5754,7 @@ is
 translated
 .
 "
-getLastParagraph
+getFinalParagraph
 [
 /
 /
@@ -5854,7 +5854,7 @@ toLang
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -5879,7 +5879,7 @@ is
 translated
 .
 "
-getLastParagraph
+getFinalParagraph
 PUES
 AUNQUE
 MOV
@@ -6054,7 +6054,7 @@ TranslationsTest
 {
 const
 {
-getLastParagraph
+getFinalParagraph
 }
 =
 TranslationsTest
@@ -6086,7 +6086,7 @@ original
 Spanish
 .
 "
-getLastParagraph
+getFinalParagraph
 "
 Pues
 aunque

@@ -394,7 +394,7 @@ header
 )
 ;
 }
-getLastParagraph
+getFinalParagraph
 (
 )
 {
