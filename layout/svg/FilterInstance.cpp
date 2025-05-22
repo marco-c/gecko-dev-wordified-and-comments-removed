@@ -9186,7 +9186,9 @@ IsInitialized
 )
 {
 return
-aPostFilterDirtyRegion
+nsRect
+(
+)
 ;
 }
 return
