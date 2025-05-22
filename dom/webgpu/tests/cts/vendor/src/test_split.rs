@@ -614,6 +614,12 @@ assert_seen
 a
 >
 (
+what
+:
+&
+'
+static
+str
 entries
 :
 impl
@@ -730,9 +736,8 @@ entries
 "
 "
 in
-test
-listing
-output
+{
+}
 :
 {
 :
@@ -741,6 +746,7 @@ output
 }
 "
 )
+what
 unseen
 )
 ;
