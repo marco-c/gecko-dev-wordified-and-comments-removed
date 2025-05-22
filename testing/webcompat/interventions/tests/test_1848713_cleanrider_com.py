@@ -89,6 +89,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 try
@@ -104,7 +109,7 @@ is_displayed
 True
 timeout
 =
-3
+5
 )
 .
 click
