@@ -764,15 +764,11 @@ nsILoadInfo
 >
 secCheckLoadInfo
 =
-MOZ_TRY
-(
+new
 net
 :
 :
 LoadInfo
-:
-:
-Create
 (
 aDocument
 -
@@ -792,7 +788,6 @@ nsILoadInfo
 :
 SEC_ONLY_FOR_EXPLICIT_CONTENTSEC_CHECK
 mContentPolicyType
-)
 )
 ;
 int16_t

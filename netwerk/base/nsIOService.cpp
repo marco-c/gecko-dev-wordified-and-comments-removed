@@ -5279,12 +5279,8 @@ nsILoadInfo
 >
 loadInfo
 =
-MOZ_TRY
-(
+new
 LoadInfo
-:
-:
-Create
 (
 aLoadingPrincipal
 aTriggeringPrincipal
@@ -5294,7 +5290,6 @@ aContentPolicyType
 aLoadingClientInfo
 aController
 aSandboxFlags
-)
 )
 ;
 return
@@ -9844,12 +9839,8 @@ nsILoadInfo
 >
 httpsOnlyCheckLoadInfo
 =
-MOZ_TRY
-(
+new
 LoadInfo
-:
-:
-Create
 (
 loadingPrincipal
 loadingPrincipal
@@ -9862,7 +9853,6 @@ nsIContentPolicy
 :
 :
 TYPE_SPECULATIVE
-)
 )
 ;
 if
