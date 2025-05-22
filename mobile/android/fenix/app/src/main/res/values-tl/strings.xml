@@ -1024,7 +1024,8 @@ name
 private_browsing_placeholder_description_2
 "
 >
-Inaalis
+\
+u0032Inaalis
 ng
 %
 1
@@ -1097,7 +1098,8 @@ name
 private_browsing_common_myths
 "
 >
-Mga
+\
+u0032Mga
 karaniwang
 pamahiin
 tungkol
@@ -1106,6 +1108,8 @@ pribadong
 pag
 -
 browse
+\
+u0032
 <
 /
 string
@@ -24984,6 +24988,8 @@ natitirang
 %
 3
 s
+\
+u0032
 <
 /
 string
@@ -45376,6 +45382,8 @@ ng
 %
 1
 s
+\
+u0032
 <
 /
 string

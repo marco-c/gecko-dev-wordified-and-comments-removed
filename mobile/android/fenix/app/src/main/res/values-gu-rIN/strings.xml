@@ -550,6 +550,10 @@ name
 private_browsing_common_myths
 "
 >
+\
+u0032
+\
+u0032
 <
 /
 string
@@ -2769,6 +2773,8 @@ name
 fxa_received_tab_channel_name
 "
 >
+\
+u0032
 <
 /
 string
@@ -10226,8 +10232,7 @@ s
 .
 :
 \
-n
-https
+nhttps
 :
 /
 /

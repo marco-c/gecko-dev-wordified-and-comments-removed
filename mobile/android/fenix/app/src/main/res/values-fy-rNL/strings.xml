@@ -1067,11 +1067,14 @@ name
 private_browsing_common_myths
 "
 >
-Faaks
+\
+u0032Faaks
 hearde
 myten
 oer
 priveenavigaasje
+\
+u0032
 <
 /
 string
@@ -35644,6 +35647,7 @@ foarkommende
 trackers
 dy
 \
+\
 t
 folgje
 wat
@@ -35651,6 +35655,8 @@ jo
 online
 dogge
 .
+\
+u0032
 <
 /
 string
@@ -40649,6 +40655,8 @@ bewarje
 binne
 fersifere
 .
+\
+u0032
 <
 /
 string
@@ -41056,6 +41064,8 @@ kersnamme
 nei
 klamboerd
 kopiearre
+\
+u0032
 <
 /
 string
@@ -45352,6 +45362,8 @@ troch
 %
 1
 s
+\
+u0032
 <
 /
 string

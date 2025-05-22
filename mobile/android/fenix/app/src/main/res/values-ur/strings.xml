@@ -3467,6 +3467,8 @@ preferences_enable_autocomplete_urls
 "
 >
 URLs
+\
+u0032
 <
 /
 string
@@ -14427,6 +14429,8 @@ name
 saved_logins_clear_password
 "
 >
+\
+u0032
 <
 /
 string
@@ -14948,6 +14952,8 @@ name
 preferences_credit_cards_sync_cards
 "
 >
+\
+u0032
 <
 /
 string

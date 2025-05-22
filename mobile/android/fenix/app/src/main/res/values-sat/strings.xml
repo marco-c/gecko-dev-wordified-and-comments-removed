@@ -6628,6 +6628,8 @@ name
 onboarding_home_sync_description
 "
 >
+\
+u0032
 <
 /
 string
@@ -11793,6 +11795,8 @@ reduce_cookie_banner_details_panel_title_unsupported_site_request_2
 %
 1
 s
+\
+u0032
 <
 /
 string
@@ -15174,6 +15178,8 @@ name
 preferences_sync_category
 "
 >
+\
+u0032
 <
 /
 string
@@ -17812,6 +17818,8 @@ name
 close_tabs_manually_summary
 "
 >
+\
+u0032
 <
 /
 string
@@ -29547,6 +29555,8 @@ name
 preference_enhanced_tracking_protection_custom_info_button
 "
 >
+\
+u0032
 <
 /
 string
@@ -30114,6 +30124,8 @@ name
 etp_social_media_trackers_description
 "
 >
+\
+u0032
 <
 /
 string
@@ -37284,17 +37296,21 @@ name
 add_login_hostname_invalid_text_3
 "
 >
+\
 "
 https
 :
 /
 /
+\
 "
+\
 "
 http
 :
 /
 /
+\
 "
 <
 /
@@ -38639,6 +38655,8 @@ BrandUsage
 "
 >
 Firefox
+\
+u0032
 <
 /
 string
@@ -42451,6 +42469,8 @@ download_languages_header_preference
 %
 1
 s
+\
+u0032
 <
 /
 string

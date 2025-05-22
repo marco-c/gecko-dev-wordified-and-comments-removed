@@ -289,6 +289,7 @@ content_description_disable_private_browsing_button
 D
 n
 \
+\
 J
 ri
 a
@@ -586,12 +587,14 @@ nan
 n
 rugu
 \
+\
 nej
 rak
 j
 anj
 hu
 ni
+\
 \
 n
 nj
@@ -625,6 +628,7 @@ j
 nan
 n
 rugu
+\
 \
 nej
 rak
@@ -978,6 +982,7 @@ about_content
 1
 s
 huin
+\
 \
 ng
 sa
@@ -6448,11 +6453,13 @@ reduce_cookie_banner_unsupported_site_request_submitted_2
 Ng
 gan
 \
+\
 nj
 si
 n
 gu
 n
+\
 \
 t
 sa
@@ -6721,6 +6728,7 @@ preferences_https_only_off
 >
 D
 n
+\
 \
 j
 <
@@ -10560,6 +10568,7 @@ preferences_sync_2
 N
 gi
 \
+\
 hiaj
 n
 gu
@@ -10571,6 +10580,7 @@ na
 n
 nj
 s
+\
 \
 t
 nej
@@ -11572,6 +11582,8 @@ nej
 rak
 j
 anj
+\
+u0032
 <
 /
 string
@@ -17111,6 +17123,7 @@ tracking_protection_off
 D
 n
 \
+\
 j
 <
 /
@@ -17700,6 +17713,7 @@ delete_browsing_data_quit_off
 D
 n
 \
+\
 j
 <
 /
@@ -17767,6 +17781,7 @@ studies_off
 >
 D
 n
+\
 \
 j
 <
@@ -17881,8 +17896,7 @@ ruhu
 t
 .
 \
-n
-N
+nN
 gi
 hiaj
 chr
@@ -19262,6 +19276,7 @@ sync_menu_sync_and_save_data
 N
 gi
 \
+\
 hiaj
 n
 gu
@@ -19273,6 +19288,7 @@ na
 n
 nj
 s
+\
 \
 t
 nej
@@ -20261,6 +20277,8 @@ n
 n
 hu
 t
+\
+u0032
 <
 /
 string
@@ -22004,9 +22022,11 @@ a
 t
 j
 \
+\
 G
 hu
 t
+\
 \
 ri
 a
@@ -24357,6 +24377,8 @@ ri
 a
 nej
 sitio
+\
+u0032
 <
 /
 string
@@ -28354,6 +28376,7 @@ Di
 g
 r
 \
+\
 man
 Hio
 \
@@ -31769,6 +31792,7 @@ add_login_hostname_invalid_text_3
 >
 Da
 \
+\
 hui
 d
 reksi
@@ -31776,17 +31800,21 @@ n
 nan
 g
 nika
+\
 "
 https
 :
 /
+\
 "
 asi
+\
 "
 http
 :
 /
 /
+\
 "
 <
 /
@@ -32219,6 +32247,7 @@ j
 si
 hu
 ni
+\
 \
 n
 nj

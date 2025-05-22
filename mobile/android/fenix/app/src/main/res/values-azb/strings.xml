@@ -890,6 +890,8 @@ name
 private_browsing_placeholder_description_2
 "
 >
+\
+u0032
 %
 1
 s
@@ -907,6 +909,10 @@ name
 private_browsing_common_myths
 "
 >
+\
+u0032
+\
+u0032
 <
 /
 string
@@ -2699,6 +2705,8 @@ browser_menu_extensions_banner_onboarding_body
 >
 %
 s
+\
+u0032
 <
 /
 string
@@ -3878,6 +3886,8 @@ name
 browser_menu_syncing_paused_caption
 "
 >
+\
+u0032
 <
 /
 string
@@ -27177,6 +27187,8 @@ name
 credit_cards_number_validation_error_message_2
 "
 >
+\
+u0032
 <
 /
 string
@@ -29472,6 +29484,8 @@ certificate_info_verified_by
 %
 1
 s
+\
+u0032
 <
 /
 string
@@ -30136,17 +30150,21 @@ name
 add_login_hostname_invalid_text_3
 "
 >
+\
 "
 https
 :
 /
 /
+\
 "
+\
 "
 http
 :
 /
 /
+\
 "
 <
 /
@@ -31904,6 +31922,8 @@ name
 experiments_snackbar
 "
 >
+\
+u0032
 .
 <
 /

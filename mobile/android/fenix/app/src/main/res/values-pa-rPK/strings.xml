@@ -889,6 +889,8 @@ name
 private_browsing_placeholder_description_2
 "
 >
+\
+u0032
 %
 1
 s
@@ -904,6 +906,10 @@ name
 private_browsing_common_myths
 "
 >
+\
+u0032
+\
+u0032
 <
 /
 string
@@ -3038,6 +3044,8 @@ name
 browser_menu_add_to_homescreen_2
 "
 >
+\
+u0032
 <
 /
 string
@@ -4128,6 +4136,8 @@ name
 browser_menu_save
 "
 >
+\
+u0032
 <
 /
 string
@@ -7211,6 +7221,8 @@ name
 preferences_add_private_browsing_shortcut
 "
 >
+\
+u0032
 <
 /
 string
@@ -10238,6 +10250,8 @@ name
 customize_toggle_pocket_sponsored
 "
 >
+\
+u0032
 <
 /
 string
@@ -11096,6 +11110,8 @@ ignore
 UnusedResources
 "
 >
+\
+u0032
 <
 /
 string
@@ -11222,6 +11238,8 @@ name
 preferences_sync_now
 "
 >
+\
+u0032
 <
 /
 string
@@ -13155,6 +13173,8 @@ name
 recently_closed_show_full_history
 "
 >
+\
+u0032
 <
 /
 string
@@ -13784,6 +13804,8 @@ name
 close_tabs_manually_summary
 "
 >
+\
+u0032
 <
 /
 string
@@ -13858,6 +13880,8 @@ name
 close_tabs_after_one_week_summary
 "
 >
+\
+u0032
 <
 /
 string
@@ -16677,6 +16701,8 @@ name
 bookmark_navigate_back_button_content_description
 "
 >
+\
+u0032
 <
 /
 string
@@ -17725,6 +17751,8 @@ name
 preference_option_autoplay_allowed_wifi_subtext
 "
 >
+\
+u0032
 <
 /
 string

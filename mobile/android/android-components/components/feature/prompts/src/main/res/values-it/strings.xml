@@ -214,7 +214,7 @@ name
 mozac_feature_prompts_clear
 "
 >
-Annulla
+Cancella
 <
 /
 string
@@ -2990,10 +2990,12 @@ lt
 a
 href
 =
+\
 "
 %
 3
 s
+\
 "
 &
 gt
@@ -3017,10 +3019,12 @@ lt
 a
 href
 =
+\
 "
 %
 4
 s
+\
 "
 &
 gt

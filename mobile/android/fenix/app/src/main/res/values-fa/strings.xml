@@ -947,6 +947,10 @@ name
 private_browsing_common_myths
 "
 >
+\
+u0032
+\
+u0032
 <
 /
 string
@@ -7236,6 +7240,8 @@ juno_onboarding_sign_in_title_2
 "
 >
 .
+\
+u0032
 <
 /
 string
@@ -33412,6 +33418,8 @@ name
 preference_doh_exceptions_summary
 "
 >
+\
+u0032
 %
 1
 s

@@ -776,7 +776,8 @@ name
 private_browsing_common_myths
 "
 >
-Mitos
+\
+u0032Mitos
 comuns
 sobre
 la
@@ -1010,13 +1011,17 @@ d
 '
 Android
 toca
+\
 "
 permisos
+\
 "
 y
 toca
+\
 "
 permitir
+\
 "
 .
 <
@@ -14609,6 +14614,8 @@ estricta
 contra
 lo
 seguimiento
+\
+u0032
 <
 /
 string
@@ -17364,8 +17371,7 @@ s
 Eixemplo
 :
 \
-n
-https
+nhttps
 :
 /
 /

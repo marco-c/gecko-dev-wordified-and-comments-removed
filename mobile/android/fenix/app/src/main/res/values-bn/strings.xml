@@ -558,6 +558,10 @@ name
 private_browsing_common_myths
 "
 >
+\
+u0032
+\
+u0032
 <
 /
 string
@@ -632,6 +636,8 @@ name
 open_in_app_cfr_positive_button_text
 "
 >
+\
+u0032
 <
 /
 string
@@ -11476,9 +11482,11 @@ formatted
 false
 "
 >
+\
 "
 %
 s
+\
 "
 :
 \

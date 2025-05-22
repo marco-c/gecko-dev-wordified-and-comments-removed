@@ -10006,7 +10006,8 @@ name
 onboarding_preferences_dialog_crash_reporting_description
 "
 >
-Los
+\
+u0032Los
 rap
 rts
 de
@@ -10038,6 +10039,8 @@ personalas
 o
 sensiblas
 .
+\
+u0032
 <
 /
 string
@@ -17773,8 +17776,7 @@ extensions
 \
 n
 \
-n
-Se
+nSe
 relan
 ar
 n
@@ -19500,6 +19502,8 @@ personalas
 o
 sensiblas
 .
+\
+u0032
 <
 /
 string
@@ -31277,8 +31281,7 @@ s
 \
 n
 \
-n
-Enviat
+nEnviat
 dempu
 i
 %
@@ -40002,6 +40005,8 @@ enregistratz
 son
 chifrats
 .
+\
+u0032
 <
 /
 string

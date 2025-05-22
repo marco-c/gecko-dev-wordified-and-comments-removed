@@ -1014,6 +1014,8 @@ name
 private_browsing_placeholder_description_2
 "
 >
+\
+u0032
 %
 1
 s
@@ -1095,10 +1097,13 @@ name
 private_browsing_common_myths
 "
 >
-Liggenni
+\
+u0032Liggenni
 ncapu
 navicazzioni
 privata
+\
+u0032
 <
 /
 string
@@ -6641,6 +6646,8 @@ crunulugg
 a
 di
 navicazzioni
+\
+u0032
 <
 /
 string
@@ -6848,6 +6855,8 @@ a
 lingua
 d
 dispusitivu
+\
+u0032
 <
 /
 string
@@ -44733,6 +44742,8 @@ sarbata
 nn
 to
 dispusitivu
+\
+u0032
 <
 /
 string

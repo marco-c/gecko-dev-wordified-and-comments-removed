@@ -698,7 +698,8 @@ name
 private_browsing_placeholder_description_2
 "
 >
-Ang
+\
+u0032Ang
 %
 1
 s
@@ -767,12 +768,15 @@ name
 private_browsing_common_myths
 "
 >
-Mga
+\
+u0032Mga
 tinuohan
 bahin
 sa
 private
 browsing
+\
+u0032
 <
 /
 string
@@ -1191,6 +1195,8 @@ semana
 mabutang
 dinhi
 .
+\
+u0032
 <
 /
 string
@@ -2743,6 +2749,8 @@ nga
 search
 engine
 .
+\
+u0032
 <
 /
 string
