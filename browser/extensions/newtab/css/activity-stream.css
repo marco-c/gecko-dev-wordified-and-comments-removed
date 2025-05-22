@@ -1184,6 +1184,18 @@ color
 :
 inherit
 ;
+-
+-
+font
+-
+size
+-
+xsmall
+:
+0
+.
+734rem
+;
 }
 :
 root
@@ -9948,7 +9960,7 @@ font
 -
 size
 -
-small
+xsmall
 )
 ;
 }
