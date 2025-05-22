@@ -208,9 +208,6 @@ emailtracking
 emailtracking_content
 "
 "
-consentmanager
-"
-"
 tracking
 "
 "
@@ -245,6 +242,12 @@ any_strict_tracking
 "
 "
 any_social_tracking
+"
+"
+consentmanager
+"
+"
+antifraud
 "
 }
 ;
