@@ -1008,8 +1008,12 @@ aSandboxFlags
 {
 mLoadInfo
 =
-new
+MOZ_TRY
+(
 LoadInfo
+:
+:
+Create
 (
 aLoadingPrincipal
 aTriggeringPrincipal
@@ -1041,6 +1045,7 @@ ServiceWorkerDescriptor
 (
 )
 aSandboxFlags
+)
 )
 ;
 if

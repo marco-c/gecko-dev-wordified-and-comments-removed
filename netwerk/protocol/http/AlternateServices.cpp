@@ -4231,8 +4231,12 @@ nsILoadInfo
 >
 loadInfo
 =
-new
+MOZ_TRY
+(
 LoadInfo
+:
+:
+Create
 (
 nsContentUtils
 :
@@ -4250,6 +4254,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+)
 )
 ;
 loadInfo
