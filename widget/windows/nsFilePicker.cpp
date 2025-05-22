@@ -3933,6 +3933,7 @@ move
 (
 files
 )
+true
 windowGlobal
 nsIContentAnalysisRequest
 :

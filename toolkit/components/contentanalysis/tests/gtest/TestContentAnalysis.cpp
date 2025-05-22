@@ -9748,6 +9748,7 @@ move
 (
 files
 )
+true
 nullptr
 nsIContentAnalysisRequest
 :
@@ -10681,6 +10682,7 @@ move
 (
 files
 )
+true
 nullptr
 nsIContentAnalysisRequest
 :

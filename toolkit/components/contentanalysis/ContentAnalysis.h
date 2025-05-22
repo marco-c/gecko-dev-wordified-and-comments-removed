@@ -889,6 +889,8 @@ nsIFile
 &
 &
 aFiles
+bool
+aAutoAcknowledge
 mozilla
 :
 :
@@ -1857,6 +1859,18 @@ mIsCachedResponse
 true
 ;
 }
+void
+SetIsSyntheticResponse
+(
+bool
+aIsSyntheticResponse
+)
+{
+mIsSyntheticResponse
+=
+aIsSyntheticResponse
+;
+}
 private
 :
 virtual
@@ -2017,7 +2031,7 @@ mIsCachedResponse
 false
 ;
 bool
-mIsAgentResponse
+mIsSyntheticResponse
 =
 false
 ;

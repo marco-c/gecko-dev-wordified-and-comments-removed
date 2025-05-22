@@ -20715,6 +20715,8 @@ nsIFile
 &
 &
 aFiles
+bool
+aAutoAcknowledge
 mozilla
 :
 :
@@ -21580,7 +21582,7 @@ contentAnalysis
 AnalyzeContentRequestsCallback
 (
 singleRequest
-true
+aAutoAcknowledge
 callback
 )
 ;
