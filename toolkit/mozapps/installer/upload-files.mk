@@ -177,11 +177,6 @@ Contents
 Resources
 endif
 endif
-PACKAGE_BASE_DIR
-=
-(
-ABS_DIST
-)
 PACKAGE
 =
 (

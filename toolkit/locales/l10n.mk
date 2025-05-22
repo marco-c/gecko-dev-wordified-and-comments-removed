@@ -627,15 +627,6 @@ installer
 packager
 .
 mk
-PACKAGE_BASE_DIR
-=
-(
-ABS_DIST
-)
-/
-l10n
--
-stage
 (
 UNPACKED_INSTALLER
 )
@@ -888,7 +879,7 @@ STAGEDIST
 )
 '
 (
-DIST
+ABS_DIST
 )
 /
 xpi
