@@ -300,7 +300,7 @@ in
 -
 tree
 :
-ubuntu1804
+ubuntu2404
 -
 test
 }
@@ -395,7 +395,7 @@ in
 -
 tree
 :
-ubuntu1804
+ubuntu2404
 -
 test
 }
