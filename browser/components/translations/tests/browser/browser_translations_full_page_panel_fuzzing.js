@@ -331,7 +331,7 @@ loaded
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage

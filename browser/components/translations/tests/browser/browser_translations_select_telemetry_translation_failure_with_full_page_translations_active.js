@@ -443,7 +443,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage
@@ -626,12 +626,12 @@ platform
 win
 "
 ?
-1718
+1616
 :
-1709
+1607
 source_text_word_count
 :
-281
+257
 }
 }
 )

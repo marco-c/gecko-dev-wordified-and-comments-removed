@@ -46,6 +46,9 @@ es
 "
 }
 ]
+contentEagerMode
+:
+true
 runInPage
 :
 async
@@ -499,6 +502,9 @@ es
 "
 }
 ]
+contentEagerMode
+:
+true
 runInPage
 :
 async

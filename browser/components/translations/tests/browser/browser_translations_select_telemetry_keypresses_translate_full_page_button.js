@@ -130,7 +130,7 @@ fullPageTranslationCompletePromise
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage
@@ -315,7 +315,7 @@ fullPageTranslationCompletePromise
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage

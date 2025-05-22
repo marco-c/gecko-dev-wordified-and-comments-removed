@@ -344,7 +344,7 @@ resolveDownloads
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage
@@ -710,7 +710,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage
@@ -905,7 +905,7 @@ resolveDownloads
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage

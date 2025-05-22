@@ -117,7 +117,7 @@ clickTranslateButton
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 endToEndTest

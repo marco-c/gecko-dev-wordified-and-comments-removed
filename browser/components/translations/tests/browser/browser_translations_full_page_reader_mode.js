@@ -269,6 +269,9 @@ SPANISH_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
+contentEagerMode
+:
+true
 }
 )
 ;
@@ -339,7 +342,7 @@ resolveDownloads
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertAllPageContentIsTranslated
 (
 {
 fromLanguage
