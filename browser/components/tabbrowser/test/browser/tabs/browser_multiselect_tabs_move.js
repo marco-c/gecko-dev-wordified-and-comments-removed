@@ -1123,6 +1123,7 @@ on
 strip
 "
 )
+;
 is
 (
 tab
@@ -1139,6 +1140,7 @@ on
 strip
 "
 )
+;
 updateTabContextMenu
 (
 tab
@@ -1239,6 +1241,7 @@ on
 strip
 "
 )
+;
 is
 (
 group
@@ -1260,6 +1263,7 @@ on
 strip
 "
 )
+;
 updateTabContextMenu
 (
 tab
