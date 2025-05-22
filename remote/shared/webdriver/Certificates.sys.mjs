@@ -159,7 +159,7 @@ namespace
 /
 export
 const
-allowAllCerts
+Certificates
 =
 {
 }
@@ -179,9 +179,9 @@ certs
 .
 *
 /
-allowAllCerts
+Certificates
 .
-enable
+disableSecurityChecks
 =
 function
 (
@@ -247,9 +247,9 @@ check
 .
 *
 /
-allowAllCerts
+Certificates
 .
-disable
+enableSecurityChecks
 =
 function
 (
