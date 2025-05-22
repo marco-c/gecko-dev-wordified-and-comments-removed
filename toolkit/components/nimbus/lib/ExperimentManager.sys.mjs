@@ -1393,7 +1393,7 @@ this
 .
 store
 .
-init
+ready
 (
 )
 ;

@@ -355,9 +355,7 @@ random
 await
 ExperimentAPI
 .
-manager
-.
-onStartup
+ready
 (
 )
 ;
