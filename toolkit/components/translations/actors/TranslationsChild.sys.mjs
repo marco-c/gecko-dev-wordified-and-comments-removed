@@ -378,7 +378,6 @@ const
 {
 languagePair
 port
-translationsStart
 }
 =
 data
@@ -472,18 +471,6 @@ Translations
 :
 ReportFirstVisibleChange
 "
-)
-translationsStart
-(
-)
-=
->
-this
-.
-docShell
-.
-now
-(
 )
 TranslationsChild
 .
