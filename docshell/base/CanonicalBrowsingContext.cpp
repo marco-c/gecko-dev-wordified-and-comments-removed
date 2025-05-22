@@ -1744,6 +1744,15 @@ GetTopInnerSizeForRFP
 ;
 txn
 .
+SetIPAddressSpace
+(
+GetIPAddressSpace
+(
+)
+)
+;
+txn
+.
 SetAllowJavascript
 (
 GetAllowJavascript
