@@ -168,6 +168,9 @@ mozilla
 interface
 nsIContentSecurityPolicy
 ;
+interface
+nsIFile
+;
 [
 ptr
 ]
@@ -1451,6 +1454,12 @@ sendDispatchToDropTargetAndResumeEndDragSession
 in
 boolean
 aShouldDrop
+in
+Array
+<
+nsIFile
+>
+aAllowedFiles
 )
 ;
 /
