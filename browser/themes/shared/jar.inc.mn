@@ -4805,9 +4805,9 @@ taskbar
 -
 tabs
 -
-create
+add
 -
-new
+tab
 .
 svg
 (
@@ -4822,9 +4822,9 @@ taskbar
 -
 tabs
 -
-create
+add
 -
-new
+tab
 .
 svg
 )
