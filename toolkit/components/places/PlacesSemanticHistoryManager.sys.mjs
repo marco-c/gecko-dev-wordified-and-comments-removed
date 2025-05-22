@@ -1608,11 +1608,9 @@ semanticHistory
 .
 completionThreshold
 "
-"
 0
 .
 5
-"
 )
 ;
 /
