@@ -443,8 +443,6 @@ this
 translatedDoc
 ?
 .
-translator
-.
 engineStatus
 =
 =
@@ -779,8 +777,6 @@ this
 .
 #
 translatedDoc
-.
-translator
 .
 acquirePort
 (
