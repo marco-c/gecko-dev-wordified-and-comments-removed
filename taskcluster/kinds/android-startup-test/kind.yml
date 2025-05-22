@@ -126,11 +126,11 @@ worker
 -
 type
 :
-b
+t
 -
 linux
 -
-gcp
+docker
 worker
 :
 docker
