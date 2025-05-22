@@ -119,6 +119,9 @@ Init
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 protected

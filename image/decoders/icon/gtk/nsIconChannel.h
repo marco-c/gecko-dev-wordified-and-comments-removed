@@ -90,6 +90,9 @@ Init
 nsIURI
 *
 aURI
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 static

@@ -147,6 +147,9 @@ Init
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 static

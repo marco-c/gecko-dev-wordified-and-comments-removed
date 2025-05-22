@@ -67,6 +67,9 @@ Init
 nsIURI
 *
 aURI
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 private
