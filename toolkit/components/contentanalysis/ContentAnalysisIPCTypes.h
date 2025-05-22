@@ -126,7 +126,7 @@ Action
 aAction
 )
 :
-mValue
+mAction
 (
 aAction
 )
@@ -144,7 +144,7 @@ nsIContentAnalysisResponse
 :
 :
 Action
-mValue
+mAction
 ;
 }
 ;

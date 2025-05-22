@@ -6,6 +6,9 @@ nsISupports
 idl
 "
 interface
+nsIFile
+;
+interface
 nsITransferable
 ;
 interface
@@ -238,7 +241,7 @@ infallible
 readonly
 attribute
 boolean
-isAgentResponse
+isSyntheticResponse
 ;
 void
 acknowledge
@@ -440,7 +443,6 @@ attribute
 AString
 operationDisplayString
 ;
-readonly
 attribute
 DataTransfer
 dataTransfer
@@ -705,6 +707,20 @@ aAutoAcknowledge
 in
 nsIContentAnalysisCallback
 callback
+)
+;
+[
+implicit_jscontext
+]
+Promise
+analyzeBatchContentRequest
+(
+in
+nsIContentAnalysisRequest
+aCar
+in
+boolean
+aAutoAcknowledge
 )
 ;
 void
