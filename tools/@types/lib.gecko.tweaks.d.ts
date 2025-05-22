@@ -578,3 +578,17 @@ null
 ]
 ;
 }
+interface
+DOMStringMap
+{
+[
+name
+:
+string
+]
+:
+string
+|
+undefined
+;
+}
