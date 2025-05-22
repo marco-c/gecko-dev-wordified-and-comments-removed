@@ -12062,7 +12062,7 @@ getState
 .
 InferredPersonalization
 .
-interestVector
+inferredInterests
 |
 |
 {
