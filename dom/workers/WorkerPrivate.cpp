@@ -4845,7 +4845,7 @@ aBaseLevel
 StaticPrefs
 :
 :
-dom_clamp_timeout_nesting_level_AtStartup
+dom_clamp_timeout_nesting_level
 (
 )
 )
@@ -4864,7 +4864,7 @@ mNestingLevel
 StaticPrefs
 :
 :
-dom_clamp_timeout_nesting_level_AtStartup
+dom_clamp_timeout_nesting_level
 (
 )
 ;
@@ -4887,7 +4887,7 @@ mNestingLevel
 StaticPrefs
 :
 :
-dom_clamp_timeout_nesting_level_AtStartup
+dom_clamp_timeout_nesting_level
 (
 )
 &

@@ -16564,13 +16564,13 @@ nesting
 level
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 5
 mirror
 :
-once
+always
 #
 Skip
 the
@@ -22146,7 +22146,7 @@ dom
 min_background_timeout_value
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 1000
@@ -22176,7 +22176,7 @@ dom
 min_background_timeout_value_without_budget_throttling
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 1000
