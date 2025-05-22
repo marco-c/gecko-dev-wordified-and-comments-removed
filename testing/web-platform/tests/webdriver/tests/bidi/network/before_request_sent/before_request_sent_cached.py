@@ -460,6 +460,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -468,6 +469,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
@@ -804,6 +811,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -812,6 +820,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
@@ -1327,6 +1341,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -1335,6 +1350,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
@@ -1750,6 +1771,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -1758,6 +1780,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
@@ -2331,6 +2359,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -2339,6 +2368,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
@@ -2876,6 +2911,7 @@ browsing_context
 .
 reload
 (
+        
 context
 =
 top_context
@@ -2884,6 +2920,12 @@ top_context
 context
 "
 ]
+wait
+=
+"
+complete
+"
+    
 )
     
 wait
