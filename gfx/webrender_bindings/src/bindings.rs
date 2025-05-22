@@ -361,12 +361,15 @@ render_api
 set_profiler_hooks
 AsyncPropertySampler
 AsyncScreenshotHandle
+ClipRadius
 Compositor
-LayerCompositor
 CompositorCapabilities
 CompositorConfig
+CompositorInputConfig
 CompositorSurfaceTransform
+CompositorSurfaceUsage
 Device
+LayerCompositor
 MappableCompositor
 MappedTileInfo
 NativeSurfaceId
@@ -380,7 +383,6 @@ RecordedFrameHandle
 RenderBackendHooks
 Renderer
 RendererStats
-ClipRadius
 SWGLCompositeSurfaceInfo
 SceneBuilderHooks
 ShaderPrecacheFlags
@@ -389,11 +391,9 @@ SharedShaders
 TextureCacheConfig
 UploadMethod
 WebRenderOptions
-WindowVisibility
 WindowProperties
+WindowVisibility
 ONE_TIME_USAGE_HINT
-CompositorInputConfig
-CompositorSurfaceUsage
 }
 ;
 use
@@ -7678,7 +7678,6 @@ position
 |
 layer
 |
-{
 layer
 .
 is_opaque
@@ -7700,7 +7699,6 @@ request
 .
 usage
 )
-}
 )
 ;
 let
@@ -7919,7 +7917,6 @@ external_image_id
 }
 =
 >
-{
 unsafe
 {
 wr_compositor_attach_external_image
@@ -7933,7 +7930,6 @@ id
 external_image_id
 )
 ;
-}
 }
 }
 self
