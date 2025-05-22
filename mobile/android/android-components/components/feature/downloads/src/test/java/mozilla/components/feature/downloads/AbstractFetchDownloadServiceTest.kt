@@ -10846,9 +10846,11 @@ createOngoingDownloadNotification
 context
 =
 testContext
-downloadJobState
+downloadState
 =
 downloadState
+.
+state
 fileSizeFormatter
 =
 fakeFileSizeFormatter
@@ -10857,6 +10859,11 @@ notificationAccentColor
 notificationStyle
 .
 notificationAccentColor
+downloadEstimator
+=
+downloadState
+.
+downloadEstimator
 )
 NotificationManagerCompat
 .
