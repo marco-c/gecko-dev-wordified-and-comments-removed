@@ -201,7 +201,7 @@ by
 -
 behavior
 :
-central
+main
 -
 to
 -
@@ -249,7 +249,7 @@ firefox
 esr140
 bump
 -
-central
+main
 :
 staging
 -
@@ -271,7 +271,7 @@ by
 -
 behavior
 :
-central
+main
 -
 to
 -
@@ -311,7 +311,7 @@ firefox
 esr140
 bump
 -
-central
+main
 :
 firefox
 -
@@ -336,7 +336,7 @@ by
 -
 behavior
 :
-central
+main
 -
 to
 -
