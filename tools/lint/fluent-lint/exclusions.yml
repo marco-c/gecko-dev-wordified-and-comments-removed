@@ -1331,15 +1331,7 @@ connection
 #
 browser
 /
-components
-/
-urlbar
-/
-content
-/
-enUS
--
-searchFeatures
+search
 .
 ftl
 -
