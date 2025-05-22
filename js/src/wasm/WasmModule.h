@@ -104,6 +104,8 @@ void
 ReportTier2ResultsOffThread
 (
 bool
+cancelled
+bool
 success
 Maybe
 <
