@@ -885,10 +885,14 @@ getEffectiveUpdateChannel
 )
 ;
 const
-{
 version
-}
 =
+this
+.
+versionForTesting
+?
+?
+(
 await
 browser
 .
@@ -897,6 +901,9 @@ runtime
 getBrowserInfo
 (
 )
+)
+.
+version
 ;
 const
 cleanVersion
