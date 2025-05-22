@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 cases
 =
@@ -649,6 +654,9 @@ buttonShown
 |
 |
 offerTranslation
+|
+|
+translatePage
 )
 {
 await
