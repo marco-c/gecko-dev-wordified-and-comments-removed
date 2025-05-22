@@ -111,7 +111,8 @@ that
 the
 page
 is
-untranslated
+not
+translated
 "
 )
 ;
@@ -146,7 +147,8 @@ page
 s
 H1
 is
-untranslated
+not
+translated
 and
 in
 the

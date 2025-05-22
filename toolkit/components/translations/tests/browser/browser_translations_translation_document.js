@@ -4665,7 +4665,7 @@ of
 the
 SVG
 is
-untranslated
+translated
 .
 <
 /
@@ -4874,7 +4874,7 @@ OF
 THE
 SVG
 IS
-UNTRANSLATED
+TRANSLATED
 .
 <
 /

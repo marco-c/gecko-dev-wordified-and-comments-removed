@@ -6606,7 +6606,7 @@ info
 /
 static
 async
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 message
@@ -6691,7 +6691,8 @@ page
 s
 H1
 is
-untranslated
+not
+translated
 and
 in
 the

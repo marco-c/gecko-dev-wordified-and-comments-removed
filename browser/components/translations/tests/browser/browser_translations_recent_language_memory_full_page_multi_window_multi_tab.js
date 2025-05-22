@@ -224,7 +224,7 @@ window1
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInEsEnPage
 )
@@ -392,7 +392,7 @@ window2
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInEsFaPage
 )
@@ -574,7 +574,7 @@ window1
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInEsSlPage
 )
@@ -756,7 +756,7 @@ window2
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInEsUkPage
 )

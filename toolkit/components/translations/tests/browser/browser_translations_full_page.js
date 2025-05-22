@@ -436,7 +436,8 @@ Baum
 The
 page
 remains
-untranslated
+not
+translated
 after
 {
 (
