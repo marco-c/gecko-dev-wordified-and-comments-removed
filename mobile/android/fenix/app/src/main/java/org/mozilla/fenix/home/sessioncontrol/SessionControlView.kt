@@ -796,14 +796,6 @@ AdapterItem
 .
 PocketCategoriesItem
 )
-items
-.
-add
-(
-AdapterItem
-.
-PocketRecommendationsFooterItem
-)
 }
 }
 if

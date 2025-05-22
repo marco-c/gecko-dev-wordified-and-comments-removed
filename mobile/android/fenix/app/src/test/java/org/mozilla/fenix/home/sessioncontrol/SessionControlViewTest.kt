@@ -1181,17 +1181,6 @@ results
 is
 AdapterItem
 .
-PocketRecommendationsFooterItem
-)
-assertTrue
-(
-results
-[
-4
-]
-is
-AdapterItem
-.
 CustomizeHomeButton
 )
 /
