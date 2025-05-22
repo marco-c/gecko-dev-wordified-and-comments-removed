@@ -299,8 +299,6 @@ getPdfSpan
 )
 {
 return
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -676,6 +674,7 @@ string
 message
 *
 /
+export
 function
 waitForCondition
 (
