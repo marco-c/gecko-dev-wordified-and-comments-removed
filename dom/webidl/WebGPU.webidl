@@ -5548,6 +5548,9 @@ OffscreenCanvas
 )
 canvas
 ;
+[
+Throws
+]
 undefined
 configure
 (
