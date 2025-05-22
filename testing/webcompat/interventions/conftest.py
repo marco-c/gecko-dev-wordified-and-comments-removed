@@ -530,6 +530,20 @@ return
 {
         
 "
+enable_moztransform
+"
+:
+params
+.
+get
+(
+"
+enable_moztransform
+"
+False
+)
+        
+"
 disable_moztransform
 "
 :
