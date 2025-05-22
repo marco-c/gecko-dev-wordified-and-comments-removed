@@ -382,6 +382,15 @@ startTime
 param
 {
 string
+?
+}
+options
+.
+type
+*
+param
+{
+string
 }
 options
 .
@@ -400,6 +409,7 @@ TE_addProfilerMarker
 (
 {
 startTime
+type
 message
 innerWindowId
 }
@@ -409,6 +419,13 @@ ChromeUtils
 .
 addProfilerMarker
 (
+type
+?
+TranslationsEngine
+{
+type
+}
+:
 "
 TranslationsEngine
 "
