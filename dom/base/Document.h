@@ -4748,7 +4748,7 @@ aOnlySystemGroup
 )
 ;
 void
-DestroyElementMaps
+WillRemoveRoot
 (
 )
 ;
