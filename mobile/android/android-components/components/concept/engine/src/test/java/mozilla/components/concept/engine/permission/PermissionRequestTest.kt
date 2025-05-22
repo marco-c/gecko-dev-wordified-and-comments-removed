@@ -913,5 +913,15 @@ rejected
 =
 true
 }
+override
+fun
+merge
+(
+permissionRequest
+:
+PermissionRequest
+)
+=
+Unit
 }
 }

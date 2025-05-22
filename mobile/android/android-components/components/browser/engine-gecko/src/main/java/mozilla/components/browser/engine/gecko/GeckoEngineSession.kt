@@ -8131,7 +8131,10 @@ Content
 uri
 type
 geckoContentPermission
+mutableListOf
+(
 geckoResult
+)
 )
 notifyObservers
 {

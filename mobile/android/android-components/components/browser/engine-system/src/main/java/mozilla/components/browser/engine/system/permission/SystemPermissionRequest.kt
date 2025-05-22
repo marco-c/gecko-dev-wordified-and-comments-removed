@@ -259,6 +259,16 @@ deny
 (
 )
 }
+override
+fun
+merge
+(
+permissionRequest
+:
+PermissionRequest
+)
+=
+Unit
 companion
 object
 {
