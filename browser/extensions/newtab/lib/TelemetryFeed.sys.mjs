@@ -5881,12 +5881,7 @@ inferredInterests
 .
 set
 (
-JSON
-.
-stringify
-(
 inferredInterests
-)
 )
 ;
 }
