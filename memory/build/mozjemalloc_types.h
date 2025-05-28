@@ -112,6 +112,11 @@ mMaxDirtyDecreaseOverride
 uint32_t
 mFlags
 ;
+const
+char
+*
+mLabel
+;
 #
 ifdef
 __cplusplus
@@ -134,6 +139,10 @@ mMaxDirtyDecreaseOverride
 mFlags
 (
 0
+)
+mLabel
+(
+nullptr
 )
 {
 }
