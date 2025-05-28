@@ -156,8 +156,8 @@ template
 <
 class
 VecT
-class
-ABIArgGeneratorT
+ABIKind
+Kind
 >
 class
 ABIArgIterBase
@@ -217,8 +217,11 @@ template
 <
 class
 VecT
-class
-ABIArgGeneratorT
+jit
+:
+:
+ABIKind
+Kind
 >
 friend
 class

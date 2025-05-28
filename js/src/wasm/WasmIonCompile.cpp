@@ -512,7 +512,7 @@ SystemAllocPolicy
 struct
 CallCompileState
 {
-WasmABIArgGenerator
+ABIArgGenerator
 abi
 ;
 bool
@@ -573,6 +573,10 @@ ABIKind
 abiKind
 )
 :
+abi
+(
+abiKind
+)
 abiKind
 (
 abiKind

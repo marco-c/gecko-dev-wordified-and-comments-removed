@@ -2063,14 +2063,11 @@ General
 ;
 private
 :
-template
-<
-class
-ABIArgGeneratorT
->
 void
 setupABICallHelper
 (
+ABIKind
+kind
 )
 ;
 void
