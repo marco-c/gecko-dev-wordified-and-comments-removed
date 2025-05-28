@@ -111,16 +111,6 @@ JSObject
 obj
 )
 ;
-extern
-JS_PUBLIC_API
-bool
-IsImmutableArrayBufferMaybeShared
-(
-JSObject
-*
-obj
-)
-;
 }
 #
 endif
