@@ -2125,6 +2125,12 @@ getTime
 )
 /
 1000
+undefined
+Ci
+.
+nsIX509CertDB
+.
+FLAG_LOCAL_ONLY
 )
 ;
 }
