@@ -640,7 +640,7 @@ tabs
 )
 ;
 let
-pinnedTabsContainer
+verticalPinnedTabsContainer
 =
 document
 .
@@ -648,6 +648,8 @@ querySelector
 (
 "
 #
+vertical
+-
 pinned
 -
 tabs
@@ -752,7 +754,7 @@ BrowserTestUtils
 .
 isVisible
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 )
 "
 Vertical
@@ -766,7 +768,7 @@ visible
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 .
@@ -832,7 +834,7 @@ tabstrip
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 .
@@ -873,7 +875,7 @@ tabs
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 .
@@ -1037,7 +1039,7 @@ tab
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 [
@@ -1281,7 +1283,7 @@ tab
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 [
@@ -1338,7 +1340,7 @@ waitForCondition
 =
 >
 !
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 .
