@@ -2345,7 +2345,7 @@ App
 .
 isForStartupCache
 .
-App
+DiscoveryStream
 )
 ?
 (

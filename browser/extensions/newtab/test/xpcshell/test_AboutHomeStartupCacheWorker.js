@@ -918,6 +918,15 @@ isForStartupCache
 App
 :
 true
+TopSites
+:
+true
+DiscoveryStream
+:
+true
+Weather
+:
+true
 Wallpaper
 :
 true
