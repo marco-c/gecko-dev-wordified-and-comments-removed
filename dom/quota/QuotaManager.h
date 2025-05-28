@@ -890,8 +890,6 @@ aClientType
 void
 UpdateOriginAccessTime
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &
