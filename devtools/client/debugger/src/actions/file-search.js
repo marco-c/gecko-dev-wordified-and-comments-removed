@@ -47,8 +47,6 @@ doSearchForHighlight
 (
 query
 editor
-line
-ch
 )
 {
 return
@@ -87,8 +85,6 @@ searchContentsForHighlight
 (
 query
 editor
-line
-ch
 )
 )
 ;
@@ -132,8 +128,6 @@ searchContentsForHighlight
 (
 query
 editor
-line
-ch
 )
 {
 return
@@ -211,8 +205,6 @@ false
 query
 true
 modifiers
-line
-ch
 )
 ;
 }
