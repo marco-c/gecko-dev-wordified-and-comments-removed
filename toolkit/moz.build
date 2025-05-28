@@ -375,6 +375,11 @@ system
 /
 androidproxy
 "
+"
+system
+/
+commonproxy
+"
 ]
 TEST_HARNESS_FILES
 .
