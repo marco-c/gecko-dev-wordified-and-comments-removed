@@ -442,6 +442,17 @@ traces
 for
 log
 messages
+about
+-
+logging
+-
+menu
+=
+.
+title
+=
+Advanced
+options
 #
 #
 Logging
