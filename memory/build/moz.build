@@ -54,6 +54,14 @@ MOZ_MEMORY_IMPL
 ]
 =
 True
+DEFINES
+[
+"
+MOZ_SUPPORT_LEAKCHECKING
+"
+]
+=
+True
 if
 CONFIG
 [
