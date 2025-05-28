@@ -8193,7 +8193,7 @@ from_str
 memtest
 :
 :
-MemtestRunnerArgs
+RunnerArgs
 >
 (
 cmd

@@ -112,9 +112,9 @@ version
 "
 0
 .
-3
+4
 .
-1
+0
 "
 authors
 =
@@ -135,6 +135,9 @@ com
 "
 ]
 build
+=
+false
+autolib
 =
 false
 autobins
