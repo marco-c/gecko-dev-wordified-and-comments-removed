@@ -843,6 +843,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -881,6 +882,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -944,6 +946,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1404,6 +1407,7 @@ inactive
 }
 )
 ;
+await
 manager
 .
 unenroll
@@ -1413,6 +1417,7 @@ baz
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1422,6 +1427,7 @@ rol2
 "
 )
 ;
+await
 cleanup
 (
 )
