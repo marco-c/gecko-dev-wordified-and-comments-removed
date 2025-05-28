@@ -4055,6 +4055,7 @@ HostName
 )
 certArray
 loadContext
+mCANames
 callback
 )
 ;
@@ -5041,6 +5042,13 @@ move
 (
 potentialClientCertificateChains
 )
+std
+:
+:
+move
+(
+caNames
+)
 continuation
 browserId
 )
@@ -5588,6 +5596,13 @@ std
 move
 (
 potentialClientCertificateChains
+)
+std
+:
+:
+move
+(
+caNamesArray
 )
 continuation
 browserId
