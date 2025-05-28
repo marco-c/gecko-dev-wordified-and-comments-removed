@@ -116,6 +116,11 @@ TestMozPromiseUtils
 cpp
 "
 "
+TestOpenClientDirectoryInfo
+.
+cpp
+"
+"
 TestOriginParser
 .
 cpp

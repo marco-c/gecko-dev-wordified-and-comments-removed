@@ -330,6 +330,11 @@ NSSCipherStrategy
 h
 "
 "
+OpenClientDirectoryInfo
+.
+h
+"
+"
 OriginDirectoryLock
 .
 h
@@ -606,6 +611,11 @@ cpp
 "
 "
 NSSCipherStrategy
+.
+cpp
+"
+"
+OpenClientDirectoryInfo
 .
 cpp
 "
