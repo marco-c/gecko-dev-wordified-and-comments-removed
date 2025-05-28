@@ -4505,6 +4505,13 @@ js
 ]
 [
 "
+browser_unified_extensions_button_visibility_attention
+.
+js
+"
+]
+[
+"
 browser_unified_extensions_button_visibility_browserAction
 .
 js
