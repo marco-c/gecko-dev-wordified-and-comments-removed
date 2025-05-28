@@ -485,6 +485,16 @@ attr
 .
 textPrimary
 )
+context
+.
+getColorFromAttr
+(
+R
+.
+attr
+.
+textSecondary
+)
 renderStyle
 =
 renderStyle
@@ -813,7 +823,7 @@ ToolbarFeature
 .
 RenderStyle
 .
-UncoloredUrl
+ColoredUrl
 )
 {
 VisibleForTesting
