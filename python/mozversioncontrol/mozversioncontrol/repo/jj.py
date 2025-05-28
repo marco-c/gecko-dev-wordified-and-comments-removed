@@ -2585,11 +2585,23 @@ stage_changes
 "
 "
         
+self
+.
+_run
+(
+"
+debug
+"
+"
+snapshot
+"
+)
+        
 opid
 =
 self
 .
-_run_read_only
+_run
 (
             
 "
