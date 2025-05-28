@@ -56,18 +56,8 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
-{
-overrides
-:
+export
+default
 [
 {
 files
@@ -79,7 +69,7 @@ test_login_item
 html
 "
 ]
-parserOptions
+languageOptions
 :
 {
 sourceType
@@ -90,5 +80,4 @@ module
 }
 }
 ]
-}
 ;

@@ -56,11 +56,9 @@ MPL
 .
 *
 /
-module
-.
-exports
-=
-{
+export
+default
+[
 /
 /
 When
@@ -78,9 +76,6 @@ sub
 -
 directories
 .
-overrides
-:
-[
 {
 /
 /
@@ -249,5 +244,4 @@ off
 }
 }
 ]
-}
 ;

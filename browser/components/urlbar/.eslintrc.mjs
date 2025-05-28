@@ -56,15 +56,9 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
+export
+default
+[
 {
 rules
 :
@@ -99,4 +93,5 @@ error
 "
 }
 }
+]
 ;
