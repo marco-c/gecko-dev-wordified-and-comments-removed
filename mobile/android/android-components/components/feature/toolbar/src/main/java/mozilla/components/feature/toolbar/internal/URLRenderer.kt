@@ -1056,7 +1056,9 @@ end
 registrableDomainOrHostSpan
 setSpan
 (
-ForegroundColorSpan
+Toolbar
+.
+RegistrableDomainColorSpan
 (
 registrableDomainColor
 )
