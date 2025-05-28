@@ -2885,7 +2885,7 @@ aria
 label
 =
 Copy
-Username
+username
 {
 username
 }
@@ -2893,7 +2893,7 @@ username
 title
 =
 Copy
-Username
+username
 {
 username
 }
@@ -2950,7 +2950,7 @@ aria
 label
 =
 Copy
-Username
+username
 {
 username
 }
@@ -2961,7 +2961,7 @@ Warning
 title
 =
 Copy
-Username
+username
 {
 username
 }
@@ -2984,12 +2984,12 @@ aria
 label
 =
 Copy
-Password
+password
 .
 title
 =
 Copy
-Password
+password
 #
 "
 (
@@ -3029,7 +3029,7 @@ aria
 label
 =
 Copy
-Password
+password
 (
 Warning
 )
@@ -3037,7 +3037,7 @@ Warning
 title
 =
 Copy
-Password
+password
 (
 Warning
 )
@@ -3056,7 +3056,7 @@ Edit
 tooltiptext
 =
 Edit
-Password
+password
 contextual
 -
 manager
@@ -3103,12 +3103,12 @@ aria
 label
 =
 Show
-Password
+password
 .
 title
 =
 Show
-Password
+password
 contextual
 -
 manager
@@ -3125,12 +3125,12 @@ aria
 label
 =
 Hide
-Password
+password
 .
 title
 =
 Hide
-Password
+password
 #
 The
 message
