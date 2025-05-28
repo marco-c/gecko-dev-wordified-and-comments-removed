@@ -339,7 +339,9 @@ container
 [
 pageproxystate
 =
+"
 invalid
+"
 ]
 >
 #
@@ -616,7 +618,9 @@ root
 [
 uidensity
 =
+"
 touch
+"
 ]
 &
 {
@@ -1174,7 +1178,9 @@ input
 [
 dir
 =
+"
 ltr
+"
 ]
 :
 -
@@ -1200,7 +1206,9 @@ important
 [
 dir
 =
+"
 rtl
+"
 ]
 :
 -
@@ -2577,11 +2585,13 @@ transform
 :
 scaleX
 (
+0
 .
 99
 )
 scaleY
 (
+0
 .
 98
 )
@@ -2595,8 +2605,6 @@ transform
 scale
 (
 1
-.
-0
 )
 ;
 }
@@ -3068,7 +3076,9 @@ not
 [
 keyNav
 =
+"
 true
+"
 ]
 )
 #
@@ -3085,7 +3095,9 @@ not
 [
 keyNav
 =
+"
 true
+"
 ]
 )
 #
@@ -4061,8 +4073,6 @@ fill
 opacity
 :
 1
-.
-0
 ;
 }
 &
@@ -7588,6 +7598,7 @@ font
 -
 size
 :
+0
 .
 8em
 ;
@@ -7921,8 +7932,6 @@ transform
 scale
 (
 1
-.
-0
 )
 ;
 }
@@ -8266,7 +8275,9 @@ button
 [
 addengines
 =
+"
 true
+"
 ]
 >
 &
@@ -8357,7 +8368,9 @@ not
 [
 addengines
 =
+"
 true
+"
 ]
 )
 >
@@ -8877,7 +8890,9 @@ urlbar
 [
 pageproxystate
 =
+"
 valid
+"
 ]
 &
 {
@@ -9809,7 +9824,9 @@ urlbar
 [
 pageproxystate
 =
+"
 invalid
+"
 ]
 {
 #
