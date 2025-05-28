@@ -710,7 +710,10 @@ tabList
 .
 try_emplace
 (
-static_cast
+mozilla
+:
+:
+AssertedCast
 <
 intptr_t
 >
