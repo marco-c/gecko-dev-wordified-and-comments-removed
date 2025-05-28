@@ -7204,15 +7204,6 @@ browsingModeManager
 activity
 .
 browsingModeManager
-tabsUseCases
-=
-activity
-.
-components
-.
-useCases
-.
-tabsUseCases
 thumbnailsFeature
 =
 thumbnailsFeature
