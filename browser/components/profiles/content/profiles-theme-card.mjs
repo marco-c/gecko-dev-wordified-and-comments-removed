@@ -517,6 +517,13 @@ img
 -
 holder
 "
+aria
+-
+hidden
+=
+"
+true
+"
 >
 <
 img

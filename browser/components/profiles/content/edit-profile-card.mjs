@@ -2068,6 +2068,13 @@ profiles
 theme
 -
 card
+aria
+-
+hidden
+=
+"
+true
+"
 .
 theme
 =
