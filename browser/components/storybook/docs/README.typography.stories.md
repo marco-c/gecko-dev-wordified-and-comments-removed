@@ -2209,14 +2209,6 @@ of
 "
 large
 "
-(
-e
-.
-g
-.
-Shopping
-sidebar
-)
 .
 It
 also
