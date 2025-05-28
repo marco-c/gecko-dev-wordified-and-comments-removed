@@ -489,6 +489,15 @@ aboutdebugging
 .
 showHiddenAddons
 "
+SHOW_REDUX_ACTIONS
+:
+"
+devtools
+.
+aboutdebugging
+.
+showReduxActionsInConsole
+"
 TEMPORARY_EXTENSION_PATH
 :
 "

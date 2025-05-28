@@ -97,6 +97,15 @@ data
 js
 "
 "
+simple
+-
+console
+-
+logger
+.
+js
+"
+"
 tab
 -
 component
