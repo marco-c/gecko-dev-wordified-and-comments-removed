@@ -4383,6 +4383,10 @@ topic
 isListCard
 &
 &
+!
+refinedCardsLayout
+&
+&
 (
 <
 span
@@ -4982,6 +4986,10 @@ isListCard
 showTopics
 =
 {
+!
+refinedCardsLayout
+&
+&
 this
 .
 props

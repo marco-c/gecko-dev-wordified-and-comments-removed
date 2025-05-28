@@ -22262,6 +22262,10 @@ topic
 isListCard
 &
 &
+!
+refinedCardsLayout
+&
+&
 external_React_default
 (
 )
@@ -22818,6 +22822,10 @@ isListCard
 isListCard
 showTopics
 :
+!
+refinedCardsLayout
+&
+&
 this
 .
 props
