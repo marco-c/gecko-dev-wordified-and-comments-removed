@@ -10774,9 +10774,6 @@ StyleAppearance
 :
 Range
 :
-return
-false
-;
 case
 StyleAppearance
 :
@@ -10789,6 +10786,9 @@ StyleAppearance
 :
 Listbox
 :
+return
+false
+;
 default
 :
 return
