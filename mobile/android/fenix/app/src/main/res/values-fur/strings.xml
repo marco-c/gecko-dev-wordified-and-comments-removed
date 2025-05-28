@@ -1023,8 +1023,6 @@ name
 private_browsing_placeholder_description_2
 "
 >
-\
-u0032
 %
 1
 s
@@ -1108,15 +1106,12 @@ name
 private_browsing_common_myths
 "
 >
-\
-u0032Falsis
+Falsis
 crodincis
 su
 la
 navigazion
 privade
-\
-u0032
 <
 /
 string
@@ -10086,8 +10081,6 @@ i
 o
 sensibii
 .
-\
-u0032
 <
 /
 string
@@ -14645,8 +14638,6 @@ account
 Mozilla
 personaliz
 t
-\
-u0032
 <
 /
 string
@@ -40157,8 +40148,6 @@ a
 vegnin
 cifradis
 .
-\
-u0032
 <
 /
 string

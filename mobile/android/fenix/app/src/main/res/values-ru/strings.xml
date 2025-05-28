@@ -951,10 +951,6 @@ name
 private_browsing_common_myths
 "
 >
-\
-u0032
-\
-u0032
 <
 /
 string
@@ -35241,8 +35237,6 @@ preferences_passwords_saved_logins_description_empty_text_2
 s
 .
 .
-\
-u0032
 <
 /
 string
@@ -39502,8 +39496,6 @@ certificate_info_verified_by
 %
 1
 s
-\
-u0032
 <
 /
 string

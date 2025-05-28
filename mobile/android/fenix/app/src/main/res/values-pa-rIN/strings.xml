@@ -928,8 +928,6 @@ name
 private_browsing_placeholder_description_2
 "
 >
-\
-u0032
 %
 1
 s
@@ -945,10 +943,6 @@ name
 private_browsing_common_myths
 "
 >
-\
-u0032
-\
-u0032
 <
 /
 string
@@ -1539,8 +1533,6 @@ ignore
 UnusedResources
 "
 >
-\
-u0032
 <
 /
 string
@@ -16191,8 +16183,6 @@ name
 fxa_tabs_closed_text
 "
 >
-\
-u0032
 <
 /
 string
@@ -18926,8 +18916,6 @@ name
 tabs_header_private_tabs_counter_title
 "
 >
-\
-u0032
 :
 %
 1
@@ -20500,8 +20488,6 @@ name
 download_delete_single_item_snackbar_2
 "
 >
-\
-u0032
 %
 1
 s
@@ -34778,8 +34764,6 @@ name
 preferences_passwords_save_logins_ask_to_save
 "
 >
-\
-u0032
 <
 /
 string

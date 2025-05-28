@@ -1099,14 +1099,11 @@ name
 private_browsing_common_myths
 "
 >
-\
-u0032Mythau
+Mythau
 cyffredin
 am
 bori
 preifat
-\
-u0032
 <
 /
 string
@@ -21922,8 +21919,6 @@ cau
 yn
 ddiweddar
 yma
-\
-u0032
 <
 /
 string
@@ -38108,8 +38103,6 @@ etp_suspected_fingerprinters_title
 Amheuaeth
 o
 Fysbrintwyr
-\
-u0032
 <
 /
 string
@@ -41364,8 +41357,6 @@ wedi
 u
 hamgryptio
 .
-\
-u0032
 <
 /
 string

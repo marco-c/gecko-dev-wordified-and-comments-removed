@@ -888,10 +888,6 @@ name
 private_browsing_common_myths
 "
 >
-\
-u0032
-\
-u0032
 <
 /
 string
@@ -1333,8 +1329,6 @@ name
 tab_tray_close_tabs_banner_positive_button_text
 "
 >
-\
-u0032
 <
 /
 string
@@ -4546,8 +4540,6 @@ name
 a11y_selected_locale_content_description
 "
 >
-\
-u0032
 <
 /
 string
@@ -12582,8 +12574,6 @@ name
 recently_closed_show_full_history
 "
 >
-\
-u0032
 <
 /
 string
@@ -13628,8 +13618,6 @@ name
 add_private_tab
 "
 >
-\
-u0032
 <
 /
 string
@@ -24746,8 +24734,6 @@ name
 saved_logins_clear_password
 "
 >
-\
-u0032
 <
 /
 string
@@ -24897,8 +24883,6 @@ name
 saved_login_open_site
 "
 >
-\
-u0032
 <
 /
 string
