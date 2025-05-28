@@ -74,7 +74,7 @@ platform
 =
 =
 "
-windows
+win
 "
 )
 {
