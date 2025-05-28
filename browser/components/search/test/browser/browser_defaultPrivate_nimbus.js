@@ -449,6 +449,7 @@ reloaded
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -617,6 +618,7 @@ reloaded
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -780,6 +782,7 @@ experiment
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
