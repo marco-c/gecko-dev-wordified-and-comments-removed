@@ -127,6 +127,9 @@ ScrollSnap
 TriggeredExternally
 =
 0x4
+ExcludeAutoscroll
+=
+0x16
 }
 ;
 inline
