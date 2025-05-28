@@ -851,7 +851,7 @@ declSection
 0
 ]
 )
-tableSection
+defaultTableSection
 (
 1
 )
@@ -901,7 +901,7 @@ type
 ?
 BadType
 :
-AnyFuncCode
+FuncRefCode
 )
 ;
 body
@@ -1841,7 +1841,7 @@ globalSection
 {
 valType
 :
-AnyFuncCode
+FuncRefCode
 flags
 :
 0

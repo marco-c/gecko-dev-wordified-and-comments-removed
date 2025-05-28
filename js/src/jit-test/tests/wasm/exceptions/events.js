@@ -428,7 +428,7 @@ push
 .
 varU32
 (
-TagCode
+ExternTagCode
 )
 )
 ;
@@ -699,7 +699,7 @@ push
 .
 varU32
 (
-TagCode
+ExternTagCode
 )
 )
 ;
