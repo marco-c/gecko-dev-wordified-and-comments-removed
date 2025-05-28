@@ -4341,16 +4341,6 @@ browser
 /
 components
 /
-shopping
-/
-*
-*
-"
-"
-browser
-/
-components
-/
 storybook
 /
 .
