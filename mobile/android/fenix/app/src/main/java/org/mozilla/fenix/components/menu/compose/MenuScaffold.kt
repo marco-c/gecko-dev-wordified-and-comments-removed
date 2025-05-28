@@ -433,7 +433,7 @@ Arrangement
 .
 spacedBy
 (
-32
+16
 .
 dp
 )

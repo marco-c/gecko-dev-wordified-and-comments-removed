@@ -453,7 +453,7 @@ FirefoxTheme
 .
 colors
 .
-layer3
+layer1
 shape
 =
 RoundedCornerShape
