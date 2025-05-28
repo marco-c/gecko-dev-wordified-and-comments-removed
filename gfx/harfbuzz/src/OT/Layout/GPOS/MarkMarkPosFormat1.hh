@@ -541,10 +541,7 @@ return_trace
 false
 )
 ;
-hb_ot_apply_context_t
-:
-:
-skipping_iterator_t
+auto
 &
 skippy_iter
 =

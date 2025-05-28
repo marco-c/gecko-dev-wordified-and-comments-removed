@@ -2365,6 +2365,9 @@ glyph_extents
 return
 true
 ;
+#
+ifndef
+HB_NO_PAINT
 hb_paint_extents_context_t
 paint_extents
 ;
@@ -2400,6 +2403,11 @@ return
 true
 ;
 }
+#
+endif
+#
+ifndef
+HB_NO_DRAW
 hb_extents_t
 draw_extents
 ;
@@ -2429,6 +2437,8 @@ return
 true
 ;
 }
+#
+endif
 bool
 ret
 =
@@ -2736,6 +2746,9 @@ true
 {
 #
 ifndef
+HB_NO_DRAW
+#
+ifndef
 HB_NO_OUTLINE
 bool
 embolden
@@ -2941,6 +2954,11 @@ true
 ;
 #
 endif
+#
+endif
+return
+false
+;
 }
 bool
 paint_glyph_or_fail
@@ -2964,6 +2982,9 @@ synthetic
 true
 )
 {
+#
+ifndef
+HB_NO_PAINT
 if
 (
 synthetic
@@ -3044,6 +3065,11 @@ paint_data
 ;
 return
 ret
+;
+#
+endif
+return
+false
 ;
 }
 HB_INTERNAL
