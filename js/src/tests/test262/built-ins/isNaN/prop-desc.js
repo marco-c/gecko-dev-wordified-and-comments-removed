@@ -1,9 +1,13 @@
-verifyProperty
+verifyPrimordialCallableProperty
 (
 this
 "
 isNaN
 "
+"
+isNaN
+"
+1
 {
 writable
 :

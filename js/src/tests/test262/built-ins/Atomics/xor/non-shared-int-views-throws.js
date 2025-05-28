@@ -37,7 +37,7 @@ function
 {
 Atomics
 .
-and
+xor
 (
 view
 0
@@ -47,7 +47,7 @@ view
 }
 Atomics
 .
-and
+xor
 (
 new
 {

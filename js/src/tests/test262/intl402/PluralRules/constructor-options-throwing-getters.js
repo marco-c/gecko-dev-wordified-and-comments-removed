@@ -15,6 +15,9 @@ localeMatcher
 type
 "
 "
+notation
+"
+"
 minimumIntegerDigits
 "
 "

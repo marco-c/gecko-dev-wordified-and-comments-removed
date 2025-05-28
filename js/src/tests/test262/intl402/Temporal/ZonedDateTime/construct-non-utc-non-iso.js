@@ -310,7 +310,7 @@ sameValue
 instance
 .
 weekOfYear
-47
+undefined
 "
 weekOfYear
 "
@@ -323,7 +323,7 @@ sameValue
 instance
 .
 yearOfWeek
-1976
+undefined
 "
 yearOfWeek
 "

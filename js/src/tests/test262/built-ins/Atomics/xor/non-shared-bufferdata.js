@@ -27,7 +27,7 @@ sameValue
 (
 Atomics
 .
-and
+xor
 (
 view
 0
@@ -37,7 +37,7 @@ view
 '
 Atomics
 .
-and
+xor
 (
 view
 0
@@ -59,7 +59,7 @@ load
 view
 0
 )
-0
+1
 '
 Atomics
 .
@@ -69,7 +69,7 @@ view
 0
 )
 returns
-0
+1
 '
 )
 ;

@@ -37,7 +37,7 @@ function
 {
 Atomics
 .
-add
+exchange
 (
 view
 0
@@ -47,7 +47,7 @@ view
 }
 Atomics
 .
-add
+exchange
 (
 new
 {

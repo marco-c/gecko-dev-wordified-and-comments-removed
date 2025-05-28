@@ -37,6 +37,9 @@ locale
 type
 "
 "
+notation
+"
+"
 minimumIntegerDigits
 "
 "

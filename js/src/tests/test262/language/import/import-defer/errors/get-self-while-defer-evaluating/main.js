@@ -12,6 +12,10 @@ dep_FIXTURE
 js
 "
 ;
+ns
+.
+x
+;
 assert
 (
 globalThis
@@ -37,10 +41,6 @@ a
 TypeError
 "
 )
-;
-ns
-.
-foo
 ;
 reportCompare
 (

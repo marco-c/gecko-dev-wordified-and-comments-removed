@@ -75,7 +75,11 @@ if
 !
 Object
 .
-hasOwn
+prototype
+.
+hasOwnProperty
+.
+call
 (
 globalThis
 "
