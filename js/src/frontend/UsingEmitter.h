@@ -58,7 +58,6 @@ BlockKind
 :
 uint8_t
 {
-Switch
 ForOf
 Other
 }

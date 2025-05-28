@@ -625,15 +625,6 @@ ScopeKind
 :
 Lexical
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-BlockKind
-:
-:
-Switch
-#
-endif
 )
 )
 {
