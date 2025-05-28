@@ -1098,6 +1098,11 @@ WindowGlobalParent
 aGlobal
 )
 ;
+bool
+IsDocumentMissingClientInfo
+(
+)
+;
 void
 SetIncludeCookiesSecFlag
 (
