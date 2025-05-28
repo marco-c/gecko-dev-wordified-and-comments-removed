@@ -4092,16 +4092,6 @@ AnonymousContent
 &
 )
 ;
-Element
-*
-GetAnonRootIfInAnonymousContentContainer
-(
-nsINode
-*
-aNode
-)
-const
-;
 nsTArray
 <
 RefPtr
