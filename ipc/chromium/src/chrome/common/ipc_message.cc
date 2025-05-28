@@ -89,7 +89,7 @@ Message
 :
 Message
 (
-routeid_t
+int32_t
 routing_id
 msgid_t
 type
@@ -261,7 +261,7 @@ Message
 :
 IPDLMessage
 (
-routeid_t
+int32_t
 routing_id
 msgid_t
 type

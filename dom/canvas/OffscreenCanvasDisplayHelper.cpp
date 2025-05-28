@@ -508,13 +508,7 @@ aType
 const
 Maybe
 <
-mozilla
-:
-:
-ipc
-:
-:
-ActorId
+int32_t
 >
 &
 aChildId

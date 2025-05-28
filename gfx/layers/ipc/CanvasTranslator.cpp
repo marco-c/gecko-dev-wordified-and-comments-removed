@@ -8504,7 +8504,7 @@ uint64_t
 aSyncId
 uint32_t
 aManagerId
-ActorId
+int32_t
 aCanvasId
 )
 {

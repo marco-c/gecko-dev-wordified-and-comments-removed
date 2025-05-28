@@ -562,7 +562,7 @@ return
 false
 ;
 }
-ActorId
+int32_t
 id
 =
 mInner
