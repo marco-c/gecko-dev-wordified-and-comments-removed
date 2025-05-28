@@ -1774,7 +1774,7 @@ ObjId
 -
 name
 :
-GuardIsFixedLengthTypedArray
+GuardIsNonResizableTypedArray
 shared
 :
 true

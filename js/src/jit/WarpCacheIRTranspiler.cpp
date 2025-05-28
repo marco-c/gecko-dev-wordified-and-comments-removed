@@ -5163,7 +5163,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardIsFixedLengthTypedArray
+emitGuardIsNonResizableTypedArray
 (
 ObjOperandId
 objId
@@ -5182,7 +5182,7 @@ auto
 *
 ins
 =
-MGuardIsFixedLengthTypedArray
+MGuardIsNonResizableTypedArray
 :
 :
 New

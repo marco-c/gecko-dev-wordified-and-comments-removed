@@ -8670,7 +8670,7 @@ none
 -
 name
 :
-GuardIsFixedLengthTypedArray
+GuardIsNonResizableTypedArray
 operands
 :
 object
