@@ -655,7 +655,9 @@ slotted
 [
 slot
 =
+"
 header
+"
 ]
 )
 :
@@ -665,9 +667,11 @@ slotted
 [
 slot
 =
+"
 secondary
 -
 header
+"
 ]
 )
 {
@@ -725,7 +729,9 @@ slotted
 [
 slot
 =
+"
 header
+"
 ]
 )
 {
@@ -745,9 +751,11 @@ slotted
 [
 slot
 =
+"
 secondary
 -
 header
+"
 ]
 )
 {
@@ -804,7 +812,9 @@ slotted
 [
 slot
 =
+"
 footer
+"
 ]
 :
 not
