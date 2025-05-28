@@ -159,13 +159,6 @@ js
 ]
 [
 "
-test_quicksuggest_pocket
-.
-js
-"
-]
-[
-"
 test_quicksuggest_relevanceRanking
 .
 js
