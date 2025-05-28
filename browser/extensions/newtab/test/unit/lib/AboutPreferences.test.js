@@ -763,7 +763,7 @@ assert
 callCount
 (
 renderPreferenceSection
-5
+6
 )
 ;
 assert
