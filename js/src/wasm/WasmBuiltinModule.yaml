@@ -87,6 +87,9 @@ IntrI8VecMul
 type
 :
 Args_Int32_GeneralInt32Int32Int32Int32General
+needs_thunk
+:
+false
 entry
 :
 Instance
@@ -116,7 +119,7 @@ i32
 '
 fail_mode
 :
-FailOnNegI32
+Infallible
 uses_memory
 :
 true
@@ -263,6 +266,9 @@ IntrI8PrepareB
 type
 :
 Args_Int32_GeneralInt32Float32Float32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -412,6 +418,9 @@ IntrI8PrepareBFromTransposed
 type
 :
 Args_Int32_GeneralInt32Float32Float32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -554,6 +563,9 @@ IntrI8PrepareBFromQuantizedTransposed
 type
 :
 Args_Int32_GeneralInt32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -729,6 +741,9 @@ IntrI8PrepareA
 type
 :
 Args_Int32_GeneralInt32Float32Float32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -901,6 +916,9 @@ IntrI8PrepareBias
 type
 :
 Args_Int32_GeneralInt32Float32Float32Float32Float32Int32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -1096,6 +1114,9 @@ IntrI8MultiplyAndAddBias
 type
 :
 Args_Int32_GeneralInt32Float32Float32Int32Float32Float32Int32Float32Int32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -1243,6 +1264,9 @@ IntrI8SelectColumnsOfB
 type
 :
 Args_Int32_GeneralInt32Int32Int32Int32Int32Int32General
+needs_thunk
+:
+true
 entry
 :
 intgemm
@@ -1307,6 +1331,9 @@ StringTest
 type
 :
 Args_Int32_GeneralGeneral
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1348,6 +1375,9 @@ StringCast
 type
 :
 Args_General2
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1394,6 +1424,9 @@ StringFromCharCodeArray
 type
 :
 Args_General_GeneralGeneralInt32Int32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1453,6 +1486,9 @@ StringIntoCharCodeArray
 type
 :
 Args_Int32_GeneralGeneralGeneralInt32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1507,6 +1543,9 @@ StringFromCharCode
 type
 :
 Args_General_GeneralInt32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1550,6 +1589,9 @@ StringFromCodePoint
 type
 :
 Args_General_GeneralInt32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1593,6 +1635,9 @@ StringCharCodeAt
 type
 :
 Args_Int32_GeneralGeneralInt32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1635,6 +1680,9 @@ StringCodePointAt
 type
 :
 Args_Int32_GeneralGeneralInt32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1677,6 +1725,9 @@ StringLength
 type
 :
 Args_Int32_GeneralGeneral
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1718,6 +1769,9 @@ StringConcat
 type
 :
 Args_General3
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1765,6 +1819,9 @@ StringSubstring
 type
 :
 Args_General_GeneralGeneralInt32Int32
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1816,6 +1873,9 @@ StringEquals
 type
 :
 Args_Int32_GeneralGeneralGeneral
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1858,6 +1918,9 @@ StringCompare
 type
 :
 Args_Int32_GeneralGeneralGeneral
+needs_thunk
+:
+true
 entry
 :
 Instance
@@ -1911,6 +1974,9 @@ CreateSuspender
 type
 :
 Args_General_GeneralInt32
+needs_thunk
+:
+true
 entry
 :
 CreateSuspender
@@ -1946,6 +2012,9 @@ CreatePromisingPromise
 type
 :
 Args_General2
+needs_thunk
+:
+true
 entry
 :
 CreatePromisingPromise
@@ -1981,6 +2050,9 @@ CurrentSuspender
 type
 :
 Args_General_GeneralInt32
+needs_thunk
+:
+true
 entry
 :
 CurrentSuspender
@@ -2016,6 +2088,9 @@ GetSuspendingPromiseResult
 type
 :
 Args_General3
+needs_thunk
+:
+true
 entry
 :
 GetSuspendingPromiseResult
@@ -2055,6 +2130,9 @@ AddPromiseReactions
 type
 :
 Args_General4
+needs_thunk
+:
+true
 entry
 :
 AddPromiseReactions
@@ -2098,6 +2176,9 @@ ForwardExceptionToSuspended
 type
 :
 Args_General3
+needs_thunk
+:
+true
 entry
 :
 ForwardExceptionToSuspended
@@ -2137,6 +2218,9 @@ SetPromisingPromiseResults
 type
 :
 Args_Int32_GeneralGeneralGeneral
+needs_thunk
+:
+true
 entry
 :
 SetPromisingPromiseResults

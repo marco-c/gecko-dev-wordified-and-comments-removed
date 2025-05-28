@@ -2257,9 +2257,10 @@ op
 export
 sa_name
 abitype
+needs_thunk
 entry
-uses_memory
 \
+uses_memory
 inline_op
 idx
 )
