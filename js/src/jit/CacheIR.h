@@ -2348,6 +2348,7 @@ ResizableArrayBuffer
 FixedLengthSharedArrayBuffer
 GrowableSharedArrayBuffer
 FixedLengthDataView
+ImmutableDataView
 ResizableDataView
 MappedArguments
 UnmappedArguments
@@ -2375,6 +2376,7 @@ ArrayBufferViewKind
 uint8_t
 {
 FixedLength
+Immutable
 Resizable
 }
 ;
@@ -2479,6 +2481,17 @@ FixedLengthDataView
 return
 "
 FixedLengthDataView
+"
+;
+case
+GuardClassKind
+:
+:
+ImmutableDataView
+:
+return
+"
+ImmutableDataView
 "
 ;
 case
