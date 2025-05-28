@@ -261,7 +261,6 @@ branch
 EVENT_FILTER
 )
 ;
-await
 cleanup
 (
 )
@@ -405,7 +404,6 @@ featureId
 EVENT_FILTER
 )
 ;
-await
 cleanup
 (
 )
@@ -530,7 +528,6 @@ featureId
 EVENT_FILTER
 )
 ;
-await
 cleanup
 (
 )
