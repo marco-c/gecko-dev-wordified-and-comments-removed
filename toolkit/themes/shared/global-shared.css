@@ -1600,6 +1600,7 @@ root
 lwtheme
 ]
 {
+&
 toolbar
 &
 [
@@ -1620,6 +1621,12 @@ scheme
 light
 ;
 }
+&
+[
+lwtheme
+-
+brighttext
+]
 toolbar
 [
 brighttext
