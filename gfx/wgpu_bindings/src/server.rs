@@ -472,7 +472,7 @@ allow
 dead_code
 )
 ]
-owner
+webgpu_parent
 :
 *
 mut
@@ -883,6 +883,8 @@ global
 Global
 {
 global
+webgpu_parent
+:
 owner
 }
 ;
@@ -8627,7 +8629,7 @@ wgpu_server_ensure_external_texture_for_swap_chain
 (
 self
 .
-owner
+webgpu_parent
 swap_chain_id
 .
 unwrap
@@ -8697,7 +8699,7 @@ wgpu_server_get_external_texture_handle
 (
 self
 .
-owner
+webgpu_parent
 texture_id
 )
 }
@@ -9020,7 +9022,7 @@ wgpu_server_ensure_external_texture_for_swap_chain
 (
 self
 .
-owner
+webgpu_parent
 swap_chain_id
 .
 unwrap
@@ -9090,7 +9092,7 @@ wgpu_server_get_vk_image_handle
 (
 self
 .
-owner
+webgpu_parent
 texture_id
 )
 }
@@ -9148,7 +9150,7 @@ wgpu_server_get_dma_buf_fd
 (
 self
 .
-owner
+webgpu_parent
 texture_id
 )
 }
@@ -10181,7 +10183,7 @@ wgpu_server_ensure_external_texture_for_swap_chain
 (
 self
 .
-owner
+webgpu_parent
 swap_chain_id
 .
 unwrap
@@ -10251,7 +10253,7 @@ wgpu_server_get_external_io_surface_id
 (
 self
 .
-owner
+webgpu_parent
 texture_id
 )
 }
@@ -10999,7 +11001,7 @@ wgpu_server_use_external_texture_for_swap_chain
 (
 self
 .
-owner
+webgpu_parent
 id
 )
 }
@@ -11288,7 +11290,7 @@ wgpu_server_disable_external_texture_for_swap_chain
 (
 self
 .
-owner
+webgpu_parent
 swap_chain_id
 .
 unwrap
@@ -11313,7 +11315,7 @@ wgpu_server_ensure_external_texture_for_readback
 (
 self
 .
-owner
+webgpu_parent
 swap_chain_id
 self_id
 id
