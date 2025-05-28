@@ -158,12 +158,8 @@ short
 aPreferredWidth
 )
 ;
-[
-implicit_jscontext
-must_use
-]
-Promise
-tryCopyFavicons
+void
+copyFavicons
 (
 in
 nsIURI
@@ -175,6 +171,12 @@ in
 unsigned
 long
 aFaviconLoadType
+[
+optional
+]
+in
+nsIFaviconDataCallback
+aCallback
 )
 ;
 }
