@@ -186,6 +186,11 @@ attribute
 boolean
 isPrimary
 ;
+readonly
+attribute
+long
+persistentDeviceId
+;
 [
 Func
 =
@@ -281,6 +286,11 @@ boolean
 isPrimary
 =
 false
+;
+long
+persistentDeviceId
+=
+0
 ;
 sequence
 <

@@ -203,6 +203,11 @@ IsPrimary
 (
 )
 ;
+int32_t
+PersistentDeviceId
+(
+)
+;
 void
 GetPointerType
 (
@@ -327,6 +332,12 @@ Maybe
 double
 >
 mAzimuthAngle
+;
+Maybe
+<
+int32_t
+>
+mPersistentDeviceId
 ;
 bool
 mCoalescedOrPredictedEvent
