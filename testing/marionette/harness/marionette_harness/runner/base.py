@@ -70,10 +70,6 @@ TestResult
 TestResultCollection
 relevant_line
 from
-six
-import
-MAXSIZE
-from
 .
 import
 serve
@@ -2408,7 +2404,9 @@ random
 randint
 (
 0
-MAXSIZE
+sys
+.
+maxsize
 )
             
 help
@@ -4073,7 +4071,9 @@ random
 randint
 (
 0
-MAXSIZE
+sys
+.
+maxsize
 )
         
 this_chunk

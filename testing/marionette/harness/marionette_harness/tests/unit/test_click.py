@@ -1,14 +1,4 @@
-import
-sys
 from
-unittest
-import
-skipIf
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -19,12 +9,6 @@ marionette_driver
 import
 By
 errors
-from
-marionette_driver
-.
-marionette
-import
-Alert
 from
 marionette_harness
 import

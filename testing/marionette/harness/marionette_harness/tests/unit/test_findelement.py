@@ -1,10 +1,4 @@
-import
-re
 from
-six
-.
-moves
-.
 urllib
 .
 parse

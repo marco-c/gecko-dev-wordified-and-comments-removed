@@ -2,8 +2,6 @@ import
 sys
 import
 time
-import
-six
 from
 marionette_driver
 import
@@ -1002,9 +1000,9 @@ wait
 until_pred
 (
 c
-six
+sys
 .
-MAXSIZE
+maxsize
 )
 )
         

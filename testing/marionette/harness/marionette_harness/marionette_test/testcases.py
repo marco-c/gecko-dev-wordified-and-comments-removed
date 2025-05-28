@@ -18,8 +18,6 @@ unittest
 case
 import
 SkipTest
-import
-six
 from
 marionette_driver
 .
@@ -398,18 +396,15 @@ name
 bases
 attrs
 )
-six
-.
-add_metaclass
-(
-MetaParameterized
-)
 class
 CommonTestCase
 (
 unittest
 .
 TestCase
+metaclass
+=
+MetaParameterized
 )
 :
     
@@ -617,12 +612,10 @@ kwargs
 :
         
 return
-six
+self
 .
 assertRaisesRegex
 (
-            
-self
             
 expected_exception
             

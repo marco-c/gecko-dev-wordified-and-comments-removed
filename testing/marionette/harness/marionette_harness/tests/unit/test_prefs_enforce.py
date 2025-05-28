@@ -1,5 +1,3 @@
-import
-six
 from
 marionette_harness
 import

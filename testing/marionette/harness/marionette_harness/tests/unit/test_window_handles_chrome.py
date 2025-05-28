@@ -1,5 +1,3 @@
-import
-six
 from
 marionette_driver
 import
@@ -108,32 +106,24 @@ self
 .
 assertIsInstance
 (
-                
 self
 .
 marionette
 .
 current_chrome_window_handle
-six
-.
-string_types
-            
+str
 )
             
 self
 .
 assertIsInstance
 (
-                
 self
 .
 marionette
 .
 current_window_handle
-six
-.
-string_types
-            
+str
 )
         
 except
@@ -159,9 +149,7 @@ self
 assertIsInstance
 (
 handle
-six
-.
-string_types
+str
 )
         
 for
@@ -179,9 +167,7 @@ self
 assertIsInstance
 (
 handle
-six
-.
-string_types
+str
 )
     
 def

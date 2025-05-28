@@ -1,5 +1,3 @@
-import
-six
 from
 marionette_harness
 .
@@ -15,16 +13,13 @@ MetaParameterized
     
 MarionetteTestCase
 )
-six
-.
-add_metaclass
-(
-MetaParameterized
-)
 class
 Parameterizable
 (
 object
+metaclass
+=
+MetaParameterized
 )
 :
     

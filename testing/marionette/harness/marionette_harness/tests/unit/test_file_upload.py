@@ -1,18 +1,10 @@
-import
-contextlib
 from
 tempfile
 import
 NamedTemporaryFile
 as
 tempfile
-import
-six
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -34,7 +26,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip
 single
 =
 "
@@ -696,13 +687,12 @@ f
 .
 write
 (
-six
-.
-ensure_binary
-(
 "
 camembert
 "
+.
+encode
+(
 )
 )
             

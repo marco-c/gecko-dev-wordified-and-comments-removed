@@ -1,5 +1,3 @@
-import
-six
 from
 marionette_driver
 import
@@ -138,9 +136,7 @@ self
 marionette
 .
 session_id
-six
-.
-text_type
+str
 )
 )
     
@@ -170,9 +166,7 @@ self
 marionette
 .
 session_id
-six
-.
-text_type
+str
 )
 )
         

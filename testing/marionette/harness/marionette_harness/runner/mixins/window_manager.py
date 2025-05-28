@@ -4,10 +4,6 @@ from
 marionette_driver
 import
 Wait
-from
-six
-import
-reraise
 class
 WindowManagerMixin
 (
@@ -431,13 +427,10 @@ exc_info
 (
 )
             
-reraise
-(
-                
-exc_cls
-                
+raise
 exc_cls
 (
+                
 "
 Failed
 to
@@ -455,10 +448,12 @@ format
 (
 exc
 )
-)
-                
-tb
             
+)
+.
+with_traceback
+(
+tb
 )
         
 else
@@ -768,13 +763,10 @@ exc_info
 (
 )
             
-reraise
-(
-                
-exc_cls
-                
+raise
 exc_cls
 (
+                
 "
 Failed
 to
@@ -792,10 +784,12 @@ format
 (
 exc
 )
-)
-                
-tb
             
+)
+.
+with_traceback
+(
+tb
 )
         
 else

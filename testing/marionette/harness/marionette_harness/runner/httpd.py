@@ -26,14 +26,11 @@ sys
 import
 time
 from
-six
-.
-moves
-.
 urllib
-import
+.
 parse
-as
+import
+parse_qsl
 urlparse
 from
 wptserve
@@ -135,8 +132,6 @@ params
 =
 dict
 (
-urlparse
-.
 parse_qsl
 (
 req
@@ -347,8 +342,6 @@ params
 =
 dict
 (
-urlparse
-.
 parse_qsl
 (
 request
@@ -477,8 +470,6 @@ params
 =
 dict
 (
-urlparse
-.
 parse_qsl
 (
 request
@@ -891,8 +882,6 @@ doc_root
         
 url
 =
-urlparse
-.
 urlparse
 (
 url
