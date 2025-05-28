@@ -205,6 +205,11 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+CallerType
+aCallerType
+ErrorResult
+&
+aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
