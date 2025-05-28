@@ -518,6 +518,7 @@ experiment
 }
 )
 ;
+await
 doExperimentCleanup
 (
 )
