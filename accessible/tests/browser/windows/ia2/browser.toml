@@ -143,8 +143,15 @@ browser_textSelectionContainer
 js
 "
 ]
-tags
+skip
+-
+if
 =
+[
 "
-os_integration
+true
 "
+]
+#
+Bug
+1857116
