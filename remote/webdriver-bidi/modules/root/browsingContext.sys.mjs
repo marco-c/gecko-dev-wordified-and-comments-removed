@@ -9987,7 +9987,7 @@ context
 browserId
 ;
 const
-resolveWhenStarted
+resolveWhenCommitted
 =
 wait
 =
@@ -10017,7 +10017,7 @@ this
 messageHandler
 .
 navigationManager
-resolveWhenStarted
+resolveWhenCommitted
 targetURI
 /
 /
