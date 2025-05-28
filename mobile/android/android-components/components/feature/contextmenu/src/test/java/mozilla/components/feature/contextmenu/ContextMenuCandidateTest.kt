@@ -12353,6 +12353,10 @@ View
 text
 :
 Int
+subText
+:
+String
+?
 duration
 :
 Int
@@ -12394,6 +12398,10 @@ View
 text
 :
 String
+subText
+:
+String
+?
 duration
 :
 Int
@@ -12423,6 +12431,8 @@ show
 (
 snackBarParentView
 0
+"
+"
 duration
 isError
 0
