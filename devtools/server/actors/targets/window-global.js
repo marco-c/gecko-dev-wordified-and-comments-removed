@@ -4332,8 +4332,6 @@ new
 TouchSimulator
 (
 this
-.
-chromeEventHandler
 )
 ;
 }
