@@ -7364,6 +7364,16 @@ mSelectionFlags
 uint16_t
 mChangeNestCount
 ;
+uint16_t
+mMouseLocationInputSource
+=
+0
+;
+uint32_t
+mMouseLocationPointerId
+=
+0
+;
 RenderingStateFlags
 mRenderingStateFlags
 ;
