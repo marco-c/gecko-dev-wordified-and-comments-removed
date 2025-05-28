@@ -1085,6 +1085,12 @@ MODELHUB_PROVIDER_ENABLED
 return
 ;
 }
+this
+.
+clearAddonCache
+(
+)
+;
 const
 models
 =

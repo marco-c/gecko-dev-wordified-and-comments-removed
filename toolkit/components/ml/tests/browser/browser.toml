@@ -122,6 +122,13 @@ js
 ]
 [
 "
+browser_ml_privatebrowsing
+.
+js
+"
+]
+[
+"
 browser_ml_telemetry
 .
 js
