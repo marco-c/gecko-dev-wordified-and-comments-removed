@@ -1121,7 +1121,8 @@ contentBoxSize
 .
 inlineSize
 <
-520
+=
+800
 )
 ;
 }
