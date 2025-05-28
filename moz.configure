@@ -4709,7 +4709,7 @@ default
 =
 milestone
 .
-is_nightly
+is_early_beta_or_earlier
 help
 =
 "
