@@ -426,7 +426,9 @@ bar
 -
 type
 =
+"
 infobar
+"
 ]
 :
 first
@@ -453,7 +455,9 @@ bar
 -
 type
 =
+"
 infobar
+"
 ]
 )
 {
@@ -589,7 +593,9 @@ host
 [
 type
 =
+"
 system
+"
 ]
 )
 .
@@ -606,7 +612,9 @@ host
 [
 type
 =
+"
 system
+"
 ]
 )
 .

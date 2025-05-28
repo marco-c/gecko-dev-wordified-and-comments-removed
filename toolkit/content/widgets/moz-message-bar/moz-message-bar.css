@@ -1071,7 +1071,9 @@ host
 [
 type
 =
+"
 warning
+"
 ]
 )
 {
@@ -1124,7 +1126,9 @@ host
 [
 type
 =
+"
 success
+"
 ]
 )
 {
@@ -1177,7 +1181,9 @@ host
 [
 type
 =
+"
 error
+"
 ]
 )
 :
@@ -1186,7 +1192,9 @@ host
 [
 type
 =
+"
 critical
+"
 ]
 )
 {
