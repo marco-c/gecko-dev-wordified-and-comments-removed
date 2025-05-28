@@ -302,6 +302,16 @@ true
 isFocusable
 =
 true
+textDirection
+=
+View
+.
+TEXT_DIRECTION_LTR
+layoutDirection
+=
+View
+.
+LAYOUT_DIRECTION_LTR
 setOnClickListener
 {
 if
