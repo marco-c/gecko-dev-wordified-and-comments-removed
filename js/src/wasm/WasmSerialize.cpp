@@ -8228,7 +8228,7 @@ wasm
 :
 :
 Code
-960
+976
 )
 ;
 FuncImportVector
@@ -8531,7 +8531,7 @@ wasm
 :
 :
 Code
-960
+976
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING

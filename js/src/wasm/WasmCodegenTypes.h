@@ -6911,6 +6911,11 @@ inlinedCallRefBytecodeSize
 size_t
 numInliningBudgetOverruns
 ;
+size_t
+numLargeFunctionBackoffs
+=
+0
+;
 void
 clear
 (
@@ -6941,6 +6946,10 @@ inlinedCallRefBytecodeSize
 0
 ;
 numInliningBudgetOverruns
+=
+0
+;
+numLargeFunctionBackoffs
 =
 0
 ;
@@ -6978,6 +6987,8 @@ inlinedDirectCallBytecodeSize
 inlinedCallRefBytecodeSize
 |
 numInliningBudgetOverruns
+|
+numLargeFunctionBackoffs
 )
 ;
 }
