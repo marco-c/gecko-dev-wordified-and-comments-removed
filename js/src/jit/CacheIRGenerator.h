@@ -3031,15 +3031,6 @@ kind
 )
 ;
 AttachDecision
-tryAttachGuardToEitherClass
-(
-GuardClassKind
-kind1
-GuardClassKind
-kind2
-)
-;
-AttachDecision
 tryAttachGuardToArrayBuffer
 (
 )
