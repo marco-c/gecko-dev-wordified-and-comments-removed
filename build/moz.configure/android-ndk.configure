@@ -1484,6 +1484,14 @@ sorted_versions
 -
 1
 ]
+if
+len
+(
+sorted_versions
+)
+>
+1
+:
 log
 .
 warning
