@@ -645,7 +645,7 @@ biometric
 .
 ext
 .
-isEnrolled
+isAuthenticatorAvailable
 import
 org
 .
@@ -4024,7 +4024,7 @@ onTabsTrayPbmLockedClick
 )
 {
 val
-userHasEnabledCapability
+isAuthenticatorAvailable
 =
 BiometricManager
 .
@@ -4035,13 +4035,13 @@ requireContext
 )
 )
 .
-isEnrolled
+isAuthenticatorAvailable
 (
 )
 if
 (
 !
-userHasEnabledCapability
+isAuthenticatorAvailable
 )
 {
 findNavController
