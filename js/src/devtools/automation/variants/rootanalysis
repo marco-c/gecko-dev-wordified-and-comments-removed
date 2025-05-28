@@ -40,6 +40,8 @@ JS_GC_ZEAL
 :
 "
 GenerationalGC
+;
+CheckHeapBeforeMinorGC
 "
 "
 JITTEST_EXTRA_ARGS

@@ -1658,6 +1658,7 @@ inline
 bool
 inCollectedRegion
 (
+const
 gc
 :
 :

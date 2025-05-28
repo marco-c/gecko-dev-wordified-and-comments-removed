@@ -641,6 +641,7 @@ Nursery
 :
 inCollectedRegion
 (
+const
 gc
 :
 :
