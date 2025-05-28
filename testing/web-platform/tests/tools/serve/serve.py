@@ -8040,7 +8040,7 @@ start_http_server
 "
 http
 -
-private
+local
 "
 :
 start_http_server
@@ -8062,7 +8062,7 @@ start_https_server
 "
 https
 -
-private
+local
 "
 :
 start_https_server
@@ -9609,7 +9609,7 @@ auto
 "
 http
 -
-private
+local
 "
 :
 [
@@ -9642,7 +9642,7 @@ https
 "
 https
 -
-private
+local
 "
 :
 [

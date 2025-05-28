@@ -2,7 +2,7 @@ const
 alternatePorts
 =
 {
-httpPrivate
+httpLocal
 :
 "
 {
@@ -11,7 +11,7 @@ ports
 [
 http
 -
-private
+local
 ]
 [
 0
@@ -19,7 +19,7 @@ private
 }
 }
 "
-httpsPrivate
+httpsLocal
 :
 "
 {
@@ -28,7 +28,7 @@ ports
 [
 https
 -
-private
+local
 ]
 [
 0
@@ -152,7 +152,7 @@ const
 alternateOrigins
 =
 {
-httpPrivate
+httpLocal
 :
 {
 protocol
@@ -165,9 +165,9 @@ port
 :
 alternatePorts
 .
-httpPrivate
+httpLocal
 }
-httpsPrivate
+httpsLocal
 :
 {
 protocol
@@ -180,7 +180,7 @@ port
 :
 alternatePorts
 .
-httpsPrivate
+httpsLocal
 }
 httpPublic
 :
@@ -241,7 +241,7 @@ html
 "
 alternateOrigins
 .
-httpsPrivate
+httpsLocal
 )
 ;
 const
@@ -266,7 +266,7 @@ Fetch
 from
 https
 -
-private
+local
 port
 works
 .
@@ -300,7 +300,7 @@ html
 "
 alternateOrigins
 .
-httpPrivate
+httpLocal
 )
 ;
 const
@@ -325,7 +325,7 @@ Fetch
 from
 http
 -
-private
+local
 port
 works
 .

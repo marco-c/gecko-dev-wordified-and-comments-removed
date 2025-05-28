@@ -1126,7 +1126,7 @@ http
 "
 http
 -
-private
+local
 "
 :
 [
@@ -1155,7 +1155,7 @@ https
 "
 https
 -
-private
+local
 "
 :
 [

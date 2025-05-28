@@ -32,7 +32,7 @@ ports
 [
 http
 -
-private
+local
 ]
 [
 0
@@ -104,7 +104,7 @@ ports
 [
 https
 -
-private
+local
 ]
 [
 0
