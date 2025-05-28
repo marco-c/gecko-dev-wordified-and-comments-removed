@@ -2769,6 +2769,10 @@ mozilla
 LayoutDeviceIntPoint
 &
 aRefPoint
+bool
+isEraser
+=
+false
 )
 ;
 bool

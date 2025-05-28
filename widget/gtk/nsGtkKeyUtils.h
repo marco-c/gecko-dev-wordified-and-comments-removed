@@ -307,6 +307,10 @@ WidgetInputEvent
 aInputEvent
 guint
 aGdkModifierState
+bool
+isEraser
+=
+false
 )
 ;
 static
