@@ -101,7 +101,7 @@ efficiency
 .
 selectors
 .
-HomeSelectors
+MainMenuSelectors
 import
 org
 .
@@ -149,7 +149,7 @@ register
 from
 =
 "
-ThreeDotMenu
+MainMenuPage
 "
 to
 =
@@ -162,9 +162,9 @@ NavigationStep
 .
 Click
 (
-HomeSelectors
+MainMenuSelectors
 .
-TDM_SETTINGS_BUTTON
+SETTINGS_BUTTON
 )
 )
 )

@@ -145,7 +145,7 @@ isMenuRedesignEnabled
 :
 Boolean
 =
-true
+false
 private
 val
 isMenuRedesignCFREnabled
