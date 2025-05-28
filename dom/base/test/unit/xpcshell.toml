@@ -201,13 +201,6 @@ Bug
 721336
 [
 "
-test_cancelPrefetch
-.
-js
-"
-]
-[
-"
 test_chromeutils_base64
 .
 js
