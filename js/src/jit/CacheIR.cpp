@@ -21959,12 +21959,13 @@ objId
 {
 if
 (
+!
 obj
 -
 >
 is
 <
-FixedLengthTypedArrayObject
+ResizableTypedArrayObject
 >
 (
 )
@@ -21972,7 +21973,7 @@ FixedLengthTypedArrayObject
 {
 writer
 .
-guardIsFixedLengthTypedArray
+guardIsNonResizableTypedArray
 (
 objId
 )

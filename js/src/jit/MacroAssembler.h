@@ -22460,7 +22460,7 @@ notTypedArray
 )
 ;
 void
-branchIfClassIsNotFixedLengthTypedArray
+branchIfClassIsNotNonResizableTypedArray
 (
 Register
 clasp

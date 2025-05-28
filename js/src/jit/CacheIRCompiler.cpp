@@ -15388,7 +15388,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsFixedLengthTypedArray
+emitGuardIsNonResizableTypedArray
 (
 ObjOperandId
 objId
@@ -15450,7 +15450,7 @@ scratch
 ;
 masm
 .
-branchIfClassIsNotFixedLengthTypedArray
+branchIfClassIsNotNonResizableTypedArray
 (
 scratch
 failure

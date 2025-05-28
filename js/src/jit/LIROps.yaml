@@ -10287,7 +10287,7 @@ num_temps
 -
 name
 :
-GuardIsFixedLengthTypedArray
+GuardIsNonResizableTypedArray
 operands
 :
 object
