@@ -1688,6 +1688,9 @@ false
 showShortcutsSuggestions
 =
 false
+showQrButton
+=
+true
 tabId
 =
 "

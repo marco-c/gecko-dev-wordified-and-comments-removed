@@ -674,6 +674,9 @@ false
 showShortcutsSuggestions
 =
 false
+showQrButton
+=
+true
 searchAccessPoint
 =
 MetricsUtils
