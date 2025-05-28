@@ -104,7 +104,6 @@ y
 \
 aria2
 file
-7zip
 binutils
 build
 -
@@ -113,16 +112,15 @@ cpio
 curl
 debuginfod
 elfutils
+\
 flatpak
 jq
-\
 libxml2
 -
 utils
 python3
 -
 pip
-rpm2cpio
 squashfs
 -
 tools
@@ -200,9 +198,9 @@ crashstats
 tools
 =
 =
-1
+2
 .
-4
+1
 .
 0
 #

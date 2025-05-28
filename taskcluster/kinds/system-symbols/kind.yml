@@ -1054,7 +1054,7 @@ run
 -
 time
 :
-21600
+14400
 run
 :
 using
@@ -1089,6 +1089,12 @@ fetch
 symbol
 -
 scrapers
+toolchain
+:
+-
+linux64
+-
+7zz
 opensuse
 :
 description
@@ -1200,6 +1206,12 @@ fetch
 symbol
 -
 scrapers
+toolchain
+:
+-
+linux64
+-
+7zz
 ubuntu
 :
 description
