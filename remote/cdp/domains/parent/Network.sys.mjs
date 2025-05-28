@@ -207,17 +207,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_OBJECT_SUBREQUEST
-]
-:
-"
-ObjectSubdoc
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_DTD
 ]
 :

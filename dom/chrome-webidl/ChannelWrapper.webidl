@@ -123,9 +123,6 @@ image
 object
 "
 "
-object_subrequest
-"
-"
 xmlhttprequest
 "
 "

@@ -409,6 +409,10 @@ webRequest
 ResourceType
 type
 .
+object_subrequest
+is
+unsupported
+.
 "
 "
 enum

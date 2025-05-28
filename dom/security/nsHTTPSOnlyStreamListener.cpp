@@ -872,12 +872,6 @@ ExtContentPolicy
 :
 TYPE_OBJECT
 :
-case
-ExtContentPolicy
-:
-:
-TYPE_OBJECT_SUBREQUEST
-:
 typeKey
 =
 "
