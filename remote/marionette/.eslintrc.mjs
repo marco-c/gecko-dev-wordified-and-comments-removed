@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 inherits
@@ -90,10 +85,9 @@ configs
 recommended
 .
 js
-module
-.
-exports
-=
+export
+default
+[
 {
 rules
 :
@@ -123,4 +117,5 @@ error
 "
 }
 }
+]
 ;

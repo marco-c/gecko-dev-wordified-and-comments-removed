@@ -56,18 +56,8 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
-{
-overrides
-:
+export
+default
 [
 {
 files
@@ -390,5 +380,4 @@ foo
 }
 }
 ]
-}
 ;
