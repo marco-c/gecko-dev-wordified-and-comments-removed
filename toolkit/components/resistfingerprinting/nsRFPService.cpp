@@ -11986,11 +11986,17 @@ nsRect
 aRect
 float
 aScale
+bool
+aIsFullscreen
 )
 {
 int
 spoofedHeightOffset
 =
+aIsFullscreen
+?
+0
+:
 #
 ifdef
 XP_WIN

@@ -1391,6 +1391,8 @@ nsRect
 aRect
 float
 aScale
+bool
+aIsFullscreen
 )
 ;
 private
