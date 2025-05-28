@@ -4842,6 +4842,9 @@ static
 void
 LogNoAlloc
 (
+PHCLock
+&
+aLock
 size_t
 aReqSize
 size_t
@@ -4867,7 +4870,7 @@ sPHC
 >
 GetPageStats
 (
-lock
+aLock
 )
 ;
 #
@@ -4935,7 +4938,7 @@ sPHC
 >
 PageAllocHits
 (
-lock
+aLock
 )
 PHC
 :
@@ -4945,7 +4948,7 @@ sPHC
 >
 PageAllocAttempts
 (
-lock
+aLock
 )
 PHC
 :
@@ -4955,7 +4958,7 @@ sPHC
 >
 PageAllocHitRate
 (
-lock
+aLock
 )
 )
 ;
@@ -5161,6 +5164,7 @@ lock
 ;
 LogNoAlloc
 (
+lock
 aReqSize
 aAlignment
 newAllocDelay
@@ -5272,6 +5276,7 @@ lock
 ;
 LogNoAlloc
 (
+lock
 aReqSize
 aAlignment
 newAllocDelay
@@ -5358,7 +5363,7 @@ sPHC
 >
 GetFreeTime
 (
-i
+index
 )
 ;
 lifetime
@@ -5519,7 +5524,7 @@ n
 aReqSize
 aAlignment
 pagePtr
-i
+index
 ptr
 usableSize
 size_t
