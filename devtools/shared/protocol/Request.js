@@ -347,6 +347,11 @@ copyTo
 packet
 .
 copyTo
+copyToBuffer
+:
+packet
+.
+copyToBuffer
 }
 ]
 ;
