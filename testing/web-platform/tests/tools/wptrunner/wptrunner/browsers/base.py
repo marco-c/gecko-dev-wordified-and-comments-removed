@@ -686,9 +686,6 @@ super
 .
 __init__
 (
-*
-*
-kwargs
 )
         
 self
