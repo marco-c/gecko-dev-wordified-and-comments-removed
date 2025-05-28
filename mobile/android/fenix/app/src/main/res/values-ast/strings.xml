@@ -5128,6 +5128,13 @@ name
 "
 onboarding_add_on_ublock_name
 "
+moz
+:
+removedIn
+=
+"
+140
+"
 tools
 :
 ignore
