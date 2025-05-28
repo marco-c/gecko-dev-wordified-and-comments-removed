@@ -418,6 +418,15 @@ userTriggeredContext
 telemetrySource
 )
 {
+telemetrySource
+=
+telemetrySource
+|
+|
+METRIC_SOURCE
+.
+UNKNOWN
+;
 return
 {
 isUserTriggered

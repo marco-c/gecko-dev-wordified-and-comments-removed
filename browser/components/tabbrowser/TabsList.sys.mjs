@@ -1983,9 +1983,12 @@ event
 target
 .
 tab
-{
-telemetrySource
-:
+lazy
+.
+TabMetrics
+.
+userTriggeredContext
+(
 lazy
 .
 TabMetrics
@@ -1993,7 +1996,7 @@ TabMetrics
 METRIC_SOURCE
 .
 TAB_OVERFLOW_MENU
-}
+)
 )
 ;
 break
