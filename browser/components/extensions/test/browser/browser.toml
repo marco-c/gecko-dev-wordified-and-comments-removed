@@ -4540,13 +4540,6 @@ js
 ]
 [
 "
-browser_unified_extensions_doorhangers_postinstall
-.
-js
-"
-]
-[
-"
 browser_unified_extensions_item_messagebar
 .
 js
