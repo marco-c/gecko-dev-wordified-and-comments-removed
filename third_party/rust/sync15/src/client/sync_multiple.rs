@@ -69,7 +69,13 @@ crate
 error
 :
 :
+{
+debug
+info
+trace
+warn
 Error
+}
 ;
 use
 crate
@@ -466,9 +472,6 @@ _
 >
 SyncResult
 {
-log
-:
-:
 info
 !
 (
@@ -612,9 +615,6 @@ Ok
 =
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -643,9 +643,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -704,9 +701,6 @@ sync_result
 .
 next_sync_after
 ;
-log
-:
-:
 trace
 !
 (
@@ -891,9 +885,6 @@ Result
 Error
 >
 {
-log
-:
-:
 info
 !
 (
@@ -916,9 +907,6 @@ prepare_persisted_state
 (
 )
 ;
-log
-:
-:
 info
 !
 (
@@ -954,9 +942,6 @@ Ok
 )
 ;
 }
-log
-:
-:
 info
 !
 (
@@ -1024,9 +1009,6 @@ self
 .
 command_processor
 {
-log
-:
-:
 info
 !
 (
@@ -1190,9 +1172,6 @@ else
 None
 }
 ;
-log
-:
-:
 info
 !
 (
@@ -1232,9 +1211,6 @@ sync
 telem_sync
 )
 ;
-log
-:
-:
 info
 !
 (
@@ -1252,9 +1228,6 @@ self
 .
 saw_auth_error
 {
-log
-:
-:
 trace
 !
 (
@@ -1315,9 +1288,6 @@ was_interrupted
 (
 )
 {
-log
-:
-:
 info
 !
 (
@@ -1429,9 +1399,6 @@ is_some
 (
 )
 {
-log
-:
-:
 warn
 !
 (
@@ -1473,9 +1440,6 @@ e
 name
 )
 {
-log
-:
-:
 info
 !
 (
@@ -1495,9 +1459,6 @@ name
 continue
 ;
 }
-log
-:
-:
 info
 !
 (
@@ -1569,9 +1530,6 @@ Ok
 )
 =
 >
-log
-:
-:
 info
 !
 (
@@ -1594,9 +1552,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -1797,9 +1752,6 @@ self
 interruptee
 )
 ;
-log
-:
-:
 info
 !
 (
@@ -1873,9 +1825,6 @@ to_vec
 )
 )
 ;
-log
-:
-:
 debug
 !
 (
@@ -2058,9 +2007,6 @@ changes
 .
 remote_wipes
 {
-log
-:
-:
 info
 !
 (
@@ -2117,9 +2063,6 @@ contains
 name
 )
 {
-log
-:
-:
 info
 !
 (
@@ -2208,9 +2151,6 @@ self
 .
 storage_init
 {
-log
-:
-:
 info
 !
 (
@@ -2252,9 +2192,6 @@ storage_init
 }
 else
 {
-log
-:
-:
 debug
 !
 (
@@ -2274,9 +2211,6 @@ None
 =
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -2382,9 +2316,6 @@ state
 =
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -2462,9 +2393,6 @@ _
 =
 >
 {
-log
-:
-:
 info
 !
 (

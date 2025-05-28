@@ -50,6 +50,16 @@ crate
 :
 ConnExt
 ;
+use
+crate
+:
+:
+{
+debug
+info
+warn
+}
+;
 #
 [
 derive
@@ -598,9 +608,6 @@ Result
 Connection
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -631,9 +638,6 @@ open_flags
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -663,9 +667,6 @@ conn
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -719,9 +720,6 @@ Immediate
 if
 db_empty
 {
-log
-:
-:
 debug
 !
 (
@@ -791,9 +789,6 @@ CI
 :
 END_VERSION
 {
-log
-:
-:
 debug
 !
 (
@@ -833,9 +828,6 @@ current_version
 ;
 }
 }
-log
-:
-:
 debug
 !
 (
@@ -922,9 +914,6 @@ migrated
 "
 )
 ;
-log
-:
-:
 debug
 !
 (
@@ -953,9 +942,6 @@ conn
 ?
 ;
 }
-log
-:
-:
 debug
 !
 (
@@ -1098,9 +1084,6 @@ ErrorCode
 CannotOpen
 )
 {
-log
-:
-:
 info
 !
 (
@@ -1136,9 +1119,6 @@ err
 )
 ;
 }
-log
-:
-:
 warn
 !
 (
@@ -1172,9 +1152,6 @@ OpenFlags
 SQLITE_OPEN_READ_WRITE
 )
 {
-log
-:
-:
 warn
 !
 (
@@ -1224,9 +1201,6 @@ Corrupt
 if
 delete
 {
-log
-:
-:
 info
 !
 (

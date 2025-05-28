@@ -474,9 +474,6 @@ Malformed
 =
 >
 {
-log
-:
-:
 error
 !
 (
@@ -1731,9 +1728,6 @@ err_if_interrupted
 )
 ?
 ;
-log
-:
-:
 trace
 !
 (

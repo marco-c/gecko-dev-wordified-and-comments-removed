@@ -26,6 +26,12 @@ camino
 Utf8PathBuf
 ;
 use
+error_support
+:
+:
+trace
+;
+use
 parking_lot
 :
 :
@@ -538,9 +544,6 @@ client_last_modified
 *
 server_last_modified
 {
-log
-:
-:
 trace
 !
 (
@@ -576,9 +579,6 @@ to_string
 )
 )
 {
-log
-:
-:
 trace
 !
 (
@@ -911,9 +911,6 @@ into_inner
 (
 )
 ;
-log
-:
-:
 trace
 !
 (

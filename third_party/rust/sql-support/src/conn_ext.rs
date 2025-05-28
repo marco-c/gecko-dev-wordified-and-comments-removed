@@ -58,6 +58,15 @@ maybe_cached
 :
 MaybeCached
 ;
+use
+crate
+:
+:
+{
+debug
+warn
+}
+;
 pub
 trait
 ConnExt
@@ -1478,9 +1487,6 @@ self
 .
 finished
 {
-log
-:
-:
 warn
 !
 (
@@ -1522,9 +1528,6 @@ COMMIT
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -1572,9 +1575,6 @@ self
 .
 finished
 {
-log
-:
-:
 warn
 !
 (
@@ -1758,9 +1758,6 @@ finish_
 (
 )
 {
-log
-:
-:
 warn
 !
 (

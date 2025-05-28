@@ -101,7 +101,6 @@ geoname
 {
 Geoname
 GeonameMatch
-GeonameType
 }
 ;
 pub

@@ -14,7 +14,10 @@ crate
 error
 :
 :
+{
+debug
 Result
+}
 ;
 use
 rusqlite
@@ -241,9 +244,6 @@ MigrationResult
 )
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -484,9 +484,6 @@ Result
 )
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -1124,13 +1121,10 @@ Result
 )
 >
 {
-let
-_
-=
-env_logger
+error_support
 :
 :
-try_init
+init_for_tests
 (
 )
 ;

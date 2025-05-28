@@ -808,9 +808,6 @@ error
 e
 )
 ;
-log
-:
-:
 warn
 !
 (

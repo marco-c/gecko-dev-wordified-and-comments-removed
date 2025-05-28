@@ -861,6 +861,10 @@ SuggestRecordType
 :
 :
 Geonames
+SuggestRecordType
+:
+:
+GeonamesAlternates
 ]
 )
 )
@@ -896,6 +900,10 @@ SuggestRecordType
 :
 :
 Geonames
+SuggestRecordType
+:
+:
+GeonamesAlternates
 ]
 )
 )

@@ -6,6 +6,7 @@ error
 :
 :
 {
+warn
 Error
 Result
 }
@@ -682,9 +683,6 @@ is_err
 (
 )
 {
-log
-:
-:
 warn
 !
 (

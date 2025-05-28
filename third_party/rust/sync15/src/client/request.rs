@@ -25,6 +25,9 @@ error
 :
 {
 self
+debug
+info
+warn
 Error
 as
 ErrorKind
@@ -1221,9 +1224,6 @@ self
 .
 max_payload_bytes
 {
-log
-:
-:
 warn
 !
 (
@@ -1379,9 +1379,6 @@ truncate
 item_start
 )
 ;
-log
-:
-:
 warn
 !
 (
@@ -1461,9 +1458,6 @@ can_send_record
 !
 can_batch_record
 {
-log
-:
-:
 debug
 !
 (
@@ -1711,9 +1705,6 @@ clone
 )
 }
 ;
-log
-:
-:
 info
 !
 (
@@ -1900,9 +1891,6 @@ last_modified
 if
 want_commit
 {
-log
-:
-:
 debug
 !
 (
@@ -2084,9 +2072,6 @@ Unsupported
 =
 >
 {
-log
-:
-:
 warn
 !
 (

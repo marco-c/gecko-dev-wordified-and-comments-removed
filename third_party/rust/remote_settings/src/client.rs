@@ -18,6 +18,8 @@ error
 :
 :
 {
+debug
+trace
 Error
 Result
 }
@@ -2064,9 +2066,6 @@ timestamp
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -2151,9 +2150,6 @@ is_err
 (
 )
 {
-log
-:
-:
 debug
 !
 (
@@ -2226,9 +2222,6 @@ failure
 ?
 ;
 }
-log
-:
-:
 trace
 !
 (
@@ -2266,9 +2259,6 @@ Result
 )
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -2342,9 +2332,6 @@ load_packaged_data
 (
 )
 {
-log
-:
-:
 trace
 !
 (
@@ -2446,9 +2433,6 @@ Result
 )
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -2704,9 +2688,6 @@ inspect_err
 err
 |
 {
-log
-:
-:
 debug
 !
 (
@@ -2754,9 +2735,6 @@ expected_leaf_cname
 )
 ?
 ;
-log
-:
-:
 trace
 !
 (
@@ -3517,9 +3495,6 @@ Result
 Response
 >
 {
-log
-:
-:
 trace
 !
 (

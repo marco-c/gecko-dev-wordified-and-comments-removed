@@ -130,6 +130,7 @@ error
 :
 :
 {
+trace
 ApiResult
 RemoteSettingsError
 Result
@@ -440,9 +441,6 @@ e
 =
 >
 {
-log
-:
-:
 trace
 !
 (

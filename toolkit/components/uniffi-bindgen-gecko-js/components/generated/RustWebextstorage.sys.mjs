@@ -2394,7 +2394,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+88
 /
 /
 webextstorage
@@ -2540,7 +2540,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+89
 /
 /
 webextstorage
@@ -2656,7 +2656,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-89
+90
 /
 /
 webextstorage
@@ -2792,7 +2792,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-90
+91
 /
 /
 webextstorage
@@ -2898,7 +2898,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+92
 /
 /
 webextstorage
@@ -3008,7 +3008,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+93
 /
 /
 webextstorage
@@ -3144,7 +3144,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+94
 /
 /
 webextstorage
@@ -3322,7 +3322,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-94
+95
 /
 /
 webextstorage
@@ -3470,7 +3470,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-95
+96
 /
 /
 webextstorage
@@ -3576,7 +3576,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-96
+97
 /
 /
 webextstorage
@@ -3687,7 +3687,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-97
+98
 /
 /
 webextstorage
@@ -3787,7 +3787,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-98
+99
 /
 /
 webextstorage
@@ -3887,7 +3887,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-99
+100
 /
 /
 webextstorage
@@ -4305,7 +4305,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-108
+109
 /
 /
 webextstorage
@@ -4405,7 +4405,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-100
+101
 /
 /
 webextstorage
@@ -4551,7 +4551,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+102
 /
 /
 webextstorage
@@ -4657,7 +4657,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+103
 /
 /
 webextstorage
@@ -4839,7 +4839,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+104
 /
 /
 webextstorage
@@ -5033,7 +5033,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+105
 /
 /
 webextstorage
@@ -5159,7 +5159,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-105
+106
 /
 /
 webextstorage
@@ -5341,7 +5341,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-106
+107
 /
 /
 webextstorage
@@ -5535,7 +5535,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-107
+108
 /
 /
 webextstorage

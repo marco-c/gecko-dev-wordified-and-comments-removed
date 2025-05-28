@@ -538,9 +538,6 @@ row
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -603,9 +600,6 @@ Result
 )
 >
 {
-log
-:
-:
 debug
 !
 (

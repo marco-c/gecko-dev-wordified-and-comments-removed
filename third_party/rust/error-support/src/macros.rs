@@ -35,9 +35,7 @@ arg
 *
 )
 ;
-:
-:
-log
+crate
 :
 :
 warn
@@ -165,9 +163,7 @@ arg
 *
 )
 ;
-:
-:
-log
+crate
 :
 :
 info

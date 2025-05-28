@@ -18,7 +18,9 @@ crate
 :
 :
 {
+error
 msg_types
+warn
 Error
 }
 ;
@@ -196,9 +198,6 @@ args
 *
 )
 ;
-log
-:
-:
 error
 !
 (
@@ -561,9 +560,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -716,6 +712,12 @@ super
 :
 :
 FetchCallback
+;
+use
+crate
+:
+:
+error
 ;
 use
 std
@@ -930,9 +932,6 @@ _
 =
 >
 {
-log
-:
-:
 error
 !
 (
@@ -1067,10 +1066,6 @@ mut
 error
 |
 |
-{
-log
-:
-:
 error
 !
 (
@@ -1088,7 +1083,6 @@ as_str
 (
 )
 )
-}
 )
 ;
 error

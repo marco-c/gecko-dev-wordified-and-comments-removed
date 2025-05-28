@@ -102,6 +102,16 @@ repeat
 :
 *
 ;
+use
+error_support
+:
+:
+{
+debug
+info
+warn
+}
+;
 pub
 fn
 escape_string_for_pragma

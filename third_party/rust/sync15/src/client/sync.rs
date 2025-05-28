@@ -31,7 +31,11 @@ crate
 error
 :
 :
+{
+info
+warn
 Error
+}
 ;
 use
 crate
@@ -131,9 +135,6 @@ collection_name
 (
 )
 ;
-log
-:
-:
 info
 !
 (
@@ -172,9 +173,6 @@ None
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -254,9 +252,6 @@ None
 =
 >
 {
-log
-:
-:
 info
 !
 (
@@ -297,9 +292,6 @@ collection_request
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -336,9 +328,6 @@ err_if_interrupted
 }
 }
 ;
-log
-:
-:
 info
 !
 (
@@ -369,9 +358,6 @@ err_if_interrupted
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -411,9 +397,6 @@ upload
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -522,9 +505,6 @@ sync_finished
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
