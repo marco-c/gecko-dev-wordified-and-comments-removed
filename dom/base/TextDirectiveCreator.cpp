@@ -3771,6 +3771,7 @@ for
 (
 const
 auto
+&
 [
 first
 second
