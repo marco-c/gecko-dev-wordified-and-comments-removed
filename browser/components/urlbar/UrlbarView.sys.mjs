@@ -21868,7 +21868,9 @@ UrlbarPrefs
 get
 (
 "
-mdnFeatureGate
+mdn
+.
+featureGate
 "
 )
 )
