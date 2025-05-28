@@ -259,6 +259,10 @@ getTime
 -
 2000
 )
+.
+getTime
+(
+)
 ;
 var
 fd
@@ -332,6 +336,10 @@ fd
 lastModified
 new
 Date
+(
+)
+.
+getTime
 (
 )
 )
