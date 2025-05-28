@@ -2117,6 +2117,17 @@ js
 ]
 [
 "
+browser_inspector_search
+-
+suggests
+-
+pseudo
+.
+js
+"
+]
+[
+"
 browser_inspector_search_keyboard_shortcut_conflict
 .
 js
