@@ -183,6 +183,9 @@ WebDriverBrowser
 (
             
 logger
+manager_number
+=
+0
 webdriver_binary
 =
 "

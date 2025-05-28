@@ -990,22 +990,6 @@ __init__
 (
 self
 logger
-binary
-=
-None
-webdriver_binary
-=
-None
-webdriver_args
-=
-None
-                 
-port
-=
-None
-env
-=
-None
 kill_safari
 =
 False
@@ -1080,25 +1064,13 @@ __init__
 (
 logger
                          
-binary
-                         
-webdriver_binary
-                         
-webdriver_args
-=
-webdriver_args
-                         
-port
-=
-None
-                         
 supports_pac
 =
 False
                          
-env
-=
-env
+*
+*
+kwargs
 )
         
 if
@@ -1107,6 +1079,8 @@ if
 "
 not
 in
+self
+.
 webdriver_binary
 :
             
@@ -1114,6 +1088,8 @@ wd_path
 =
 which
 (
+self
+.
 webdriver_binary
 )
         
@@ -1122,6 +1098,8 @@ else
             
 wd_path
 =
+self
+.
 webdriver_binary
         
 self
