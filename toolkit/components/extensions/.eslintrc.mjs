@@ -56,15 +56,9 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
+export
+default
+[
 {
 rules
 :
@@ -1596,9 +1590,7 @@ var
 error
 "
 }
-overrides
-:
-[
+}
 {
 files
 :
@@ -1644,5 +1636,4 @@ local
 }
 }
 ]
-}
 ;
