@@ -1298,9 +1298,7 @@ val
 primaryButtonLabel
 =
 "
-add
--
-ons
+onboarding
 card
 primary
 button

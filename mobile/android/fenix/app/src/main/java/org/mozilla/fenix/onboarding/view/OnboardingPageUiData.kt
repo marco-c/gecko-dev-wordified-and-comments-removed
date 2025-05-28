@@ -145,16 +145,6 @@ Caption
 =
 null
 val
-addOns
-:
-List
-<
-OnboardingAddOn
->
-?
-=
-null
-val
 toolbarOptions
 :
 List
