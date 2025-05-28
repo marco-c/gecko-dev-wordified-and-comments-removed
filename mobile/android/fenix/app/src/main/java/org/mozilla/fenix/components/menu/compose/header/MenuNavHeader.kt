@@ -361,6 +361,13 @@ internal
 fun
 MenuNavHeader
 (
+state
+:
+MenuItemState
+=
+MenuItemState
+.
+ENABLED
 onBackButtonClick
 :
 (
@@ -449,6 +456,9 @@ CenterVertically
 {
 MenuNavItem
 (
+state
+=
+state
 painter
 =
 painterResource
@@ -492,6 +502,9 @@ true
 )
 MenuNavItem
 (
+state
+=
+state
 painter
 =
 painterResource
@@ -535,6 +548,9 @@ true
 )
 MenuNavItem
 (
+state
+=
+state
 painter
 =
 painterResource
@@ -578,6 +594,9 @@ true
 )
 MenuNavItem
 (
+state
+=
+state
 painter
 =
 painterResource
