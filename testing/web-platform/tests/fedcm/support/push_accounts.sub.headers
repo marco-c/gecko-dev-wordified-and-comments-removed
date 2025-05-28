@@ -11,7 +11,7 @@ Login
 :
 logged
 -
-out
+in
 Access
 -
 Control
@@ -50,15 +50,6 @@ Allow
 Credentials
 :
 true
-Clear
--
-Site
--
-Data
-:
-"
-cache
-"
 Supports
 -
 Loading
