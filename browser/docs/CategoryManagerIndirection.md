@@ -317,6 +317,7 @@ src
 :
 /
 /
+/
 browser
 /
 components
@@ -410,6 +411,7 @@ moz
 -
 src
 :
+/
 /
 /
 browser
