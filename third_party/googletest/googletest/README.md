@@ -224,7 +224,7 @@ git
 b
 v1
 .
-16
+17
 .
 0
 cd
@@ -996,7 +996,7 @@ supports
 C
 +
 +
-14
+17
 is
 required
 in
@@ -1030,7 +1030,7 @@ the
 set
 (
 CMAKE_CXX_STANDARD
-14
+17
 )
 command
 along
