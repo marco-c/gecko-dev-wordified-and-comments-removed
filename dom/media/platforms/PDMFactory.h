@@ -305,7 +305,6 @@ nullptr
 ;
 private
 :
-virtual
 ~
 PDMFactory
 (

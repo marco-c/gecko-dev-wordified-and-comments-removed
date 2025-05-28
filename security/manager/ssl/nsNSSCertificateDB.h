@@ -122,7 +122,6 @@ aCertListOut
 ;
 protected
 :
-virtual
 ~
 nsNSSCertificateDB
 (

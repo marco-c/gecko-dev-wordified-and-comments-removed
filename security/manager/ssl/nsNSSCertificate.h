@@ -114,7 +114,6 @@ der
 ;
 private
 :
-virtual
 ~
 nsNSSCertificate
 (

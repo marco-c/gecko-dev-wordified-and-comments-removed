@@ -795,7 +795,6 @@ mRaw
 }
 protected
 :
-virtual
 ~
 L10nRegistry
 (

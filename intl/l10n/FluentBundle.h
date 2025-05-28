@@ -442,7 +442,6 @@ aRetVal
 ;
 protected
 :
-virtual
 ~
 FluentBundle
 (

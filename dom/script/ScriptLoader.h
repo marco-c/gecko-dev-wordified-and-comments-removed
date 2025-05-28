@@ -533,7 +533,7 @@ Document
 aDocument
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
 ScriptLoader
@@ -960,7 +960,6 @@ mCurrentScript
 mParserBlockingRequest
 ;
 }
-virtual
 void
 PreloadURI
 (
@@ -1478,7 +1477,6 @@ nsresult
 aResult
 )
 ;
-virtual
 void
 ProcessPendingRequestsAsync
 (

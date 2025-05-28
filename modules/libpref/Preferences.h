@@ -1964,7 +1964,6 @@ AllowOffMainThreadSave
 ;
 private
 :
-virtual
 ~
 Preferences
 (

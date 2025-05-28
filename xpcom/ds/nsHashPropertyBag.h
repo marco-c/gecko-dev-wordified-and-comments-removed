@@ -140,7 +140,6 @@ nsHashPropertyBagOMT
 NS_DECL_ISUPPORTS
 protected
 :
-virtual
 ~
 nsHashPropertyBagOMT
 (
@@ -165,7 +164,7 @@ nsHashPropertyBagCC
 =
 default
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsHashPropertyBagCC
@@ -173,7 +172,6 @@ nsIWritablePropertyBag
 )
 protected
 :
-virtual
 ~
 nsHashPropertyBagCC
 (

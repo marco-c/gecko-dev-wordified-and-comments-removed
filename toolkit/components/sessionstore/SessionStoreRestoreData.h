@@ -130,7 +130,6 @@ mIsXPath
 ;
 private
 :
-virtual
 ~
 SessionStoreRestoreData
 (

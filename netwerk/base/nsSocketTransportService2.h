@@ -494,7 +494,6 @@ aPortMappingPref
 ;
 protected
 :
-virtual
 ~
 nsSocketTransportService
 (

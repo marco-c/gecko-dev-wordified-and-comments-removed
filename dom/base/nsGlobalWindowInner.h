@@ -1385,7 +1385,6 @@ HasOpenWebSockets
 const
 override
 ;
-virtual
 void
 AudioPlaybackChanged
 (

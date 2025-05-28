@@ -303,7 +303,6 @@ DoClearSSLExternalAndInternalSessionCache
 ;
 protected
 :
-virtual
 ~
 nsNSSComponent
 (

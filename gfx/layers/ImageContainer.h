@@ -971,7 +971,6 @@ uint32_t
 aSize
 )
 ;
-virtual
 void
 ClearRecycledBuffers
 (
