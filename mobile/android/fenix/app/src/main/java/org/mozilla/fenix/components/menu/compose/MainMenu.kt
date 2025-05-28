@@ -3070,6 +3070,14 @@ List
 <
 Addon
 >
+onAddonSettingsClick
+:
+(
+Addon
+)
+-
+>
+Unit
 onAddonClick
 :
 (
@@ -3164,7 +3172,7 @@ it
 onIconClick
 =
 {
-onAddonClick
+onAddonSettingsClick
 (
 it
 )
@@ -4127,6 +4135,10 @@ summary
 )
 )
 )
+onAddonSettingsClick
+=
+{
+}
 onAddonClick
 =
 {

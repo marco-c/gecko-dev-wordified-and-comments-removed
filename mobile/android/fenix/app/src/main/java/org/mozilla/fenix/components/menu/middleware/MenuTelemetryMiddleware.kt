@@ -1330,6 +1330,12 @@ MenuAction
 Navigate
 .
 Reload
+is
+MenuAction
+.
+Navigate
+.
+InstalledAddonDetails
 -
 >
 Unit
