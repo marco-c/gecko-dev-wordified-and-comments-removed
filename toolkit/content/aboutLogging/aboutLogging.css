@@ -488,7 +488,9 @@ input
 [
 type
 =
+"
 text
+"
 ]
 {
 box
@@ -564,6 +566,7 @@ center
 ;
 gap
 :
+0
 .
 5em
 ;
@@ -731,6 +734,7 @@ flex
 ;
 gap
 :
+0
 .
 5em
 ;

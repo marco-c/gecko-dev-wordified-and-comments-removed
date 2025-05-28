@@ -201,7 +201,7 @@ border
 1px
 solid
 #
-E6E6E6
+e6e6e6
 ;
 }
 #
@@ -551,6 +551,7 @@ width
 :
 100
 %
+;
 }
 #
 results
@@ -572,13 +573,14 @@ border
 1px
 solid
 #
-E6E6E6
+e6e6e6
 ;
 text
 -
 align
 :
 left
+;
 }
 #
 results
@@ -591,6 +593,7 @@ font
 weight
 :
 bold
+;
 }
 /
 *
@@ -647,6 +650,7 @@ child
 height
 :
 inherit
+;
 }
 .
 log
@@ -705,6 +709,7 @@ space
 pre
 -
 wrap
+;
 }
 div
 .
@@ -730,6 +735,7 @@ left
 height
 :
 220px
+;
 }
 div
 .
@@ -739,6 +745,7 @@ img
 height
 :
 220px
+;
 }
 /
 *
@@ -906,7 +913,7 @@ top
 8px
 solid
 #
-E6E6E6
+e6e6e6
 ;
 }
 .
