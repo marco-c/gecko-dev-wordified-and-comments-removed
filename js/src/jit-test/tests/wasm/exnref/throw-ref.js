@@ -61,7 +61,10 @@ test
 block
 (
 result
-exnref
+(
+ref
+exn
+)
 )
 try_table
 (
@@ -134,7 +137,10 @@ block
 catch
 (
 result
-exnref
+(
+ref
+exn
+)
 )
 (
 try_table
@@ -161,7 +167,10 @@ block
 catch
 (
 result
-exnref
+(
+ref
+exn
+)
 )
 (
 try_table

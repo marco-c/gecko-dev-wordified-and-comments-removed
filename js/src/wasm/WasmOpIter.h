@@ -9583,6 +9583,10 @@ RefType
 exn
 (
 )
+.
+asNonNullable
+(
+)
 )
 )
 )
