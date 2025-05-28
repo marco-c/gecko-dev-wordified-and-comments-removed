@@ -23,6 +23,7 @@ Callable
 List
 Optional
 Text
+cast
 from
 urllib
 .
@@ -40,7 +41,11 @@ ImportError
     
 zstandard
 =
+cast
+(
+Any
 None
+)
 from
 .
 utils

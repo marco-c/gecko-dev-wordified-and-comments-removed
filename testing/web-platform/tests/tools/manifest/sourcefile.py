@@ -35,7 +35,6 @@ Text
 Tuple
 TypedDict
 Union
-cast
 )
 from
 urllib
@@ -1320,8 +1319,7 @@ ElementTree
 Element
 :
     
-doc
-=
+return
 html5lib
 .
 parse
@@ -1335,15 +1333,6 @@ etree
 useChardet
 =
 False
-)
-    
-return
-cast
-(
-ElementTree
-.
-Element
-doc
 )
 def
 _parse_xml
