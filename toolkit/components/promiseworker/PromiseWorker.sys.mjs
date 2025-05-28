@@ -559,8 +559,8 @@ param
 {
 Record
 <
-String
-function
+string
+Function
 >
 }
 functions
@@ -677,7 +677,7 @@ someBuffer
 }
 *
 *
-constructor
+class
 *
 /
 export
@@ -2006,7 +2006,7 @@ message
 .
 *
 *
-return
+returns
 {
 promise
 }
@@ -2919,7 +2919,7 @@ worker
 .
 *
 *
-constructor
+class
 *
 /
 function
@@ -3027,7 +3027,7 @@ copied
 .
 *
 *
-constructor
+class
 *
 /
 BasePromiseWorker
