@@ -2647,8 +2647,6 @@ if
 defaultProperties
 .
 length
->
-0
 )
 {
 const

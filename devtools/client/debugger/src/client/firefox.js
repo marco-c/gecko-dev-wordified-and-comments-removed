@@ -1266,8 +1266,10 @@ targetFront
 .
 isTopLevel
 )
+{
 continue
 ;
+}
 if
 (
 event

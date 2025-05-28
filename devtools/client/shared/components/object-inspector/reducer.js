@@ -310,8 +310,6 @@ null
 )
 )
 watchpoints
-:
-watchpoints
 }
 )
 ;

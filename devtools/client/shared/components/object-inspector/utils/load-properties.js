@@ -510,8 +510,6 @@ response
 privateProperties
 .
 length
->
-0
 )
 {
 data
@@ -535,8 +533,6 @@ response
 ownSymbols
 .
 length
->
-0
 )
 {
 data

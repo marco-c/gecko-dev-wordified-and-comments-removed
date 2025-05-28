@@ -1797,9 +1797,11 @@ if
 !
 groupItem
 )
+{
 return
 null
 ;
+}
 const
 parentPath
 =
@@ -1896,9 +1898,11 @@ if
 !
 directoryItem
 )
+{
 return
 null
 ;
+}
 return
 directoryItem
 .

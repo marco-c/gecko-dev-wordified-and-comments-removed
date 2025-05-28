@@ -555,9 +555,11 @@ source
 .
 isOriginal
 )
+{
 return
 state
 ;
+}
 if
 (
 state
