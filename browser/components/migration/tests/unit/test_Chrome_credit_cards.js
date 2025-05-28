@@ -630,7 +630,8 @@ new
 ChromeWindowsLoginCrypto
 (
 "
-Edge
+Chrome
+Beta
 "
 )
 ;
@@ -638,10 +639,11 @@ profilePathSegments
 =
 [
 "
-Microsoft
+Google
 "
 "
-Edge
+Chrome
+Beta
 "
 "
 User
@@ -921,9 +923,9 @@ win
 "
 ?
 "
-chromium
+chrome
 -
-edge
+beta
 "
 :
 "
