@@ -191,7 +191,6 @@ export
 function
 createHeadlessEditor
 (
-useCm6
 )
 {
 const
@@ -202,7 +201,7 @@ createEditor
 {
 cm6
 :
-useCm6
+true
 }
 )
 ;
