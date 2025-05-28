@@ -483,7 +483,29 @@ pattern
 rules
             
 +
+list
+(
+filter
+(
+lambda
+x
+:
+not
+x
+.
+startswith
+(
+"
+-
+-
+ignore
+-
+path
+"
+)
 extra_args
+)
+)
             
 +
 exclude_args
@@ -609,7 +631,27 @@ pattern
 ]
         
 +
+list
+(
+filter
+(
+lambda
+x
+:
+not
+x
+.
+startswith
+(
+"
+-
+-
+config
+"
+)
 extra_args
+)
+)
         
 +
 paths

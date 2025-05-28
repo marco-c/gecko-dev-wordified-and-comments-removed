@@ -44,7 +44,7 @@ assert
 .
 eslintrc
 .
-js
+mjs
 "
 in
 results
