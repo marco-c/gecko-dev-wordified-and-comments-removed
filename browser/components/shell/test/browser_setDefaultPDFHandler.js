@@ -419,6 +419,7 @@ FirefoxPDF
 ]
 )
 ;
+await
 doCleanup
 (
 )
@@ -684,6 +685,7 @@ non
 browser
 )
 ;
+await
 doCleanup
 (
 )
@@ -817,6 +819,7 @@ aumi
 ]
 )
 ;
+await
 doCleanup
 (
 )
@@ -934,6 +937,7 @@ setDefaultStub
 called
 )
 ;
+await
 doCleanup
 (
 )
