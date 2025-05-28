@@ -26,6 +26,7 @@ typename
 T
 >
 class
+MOZ_GSL_OWNER
 nsTLiteralString
 :
 public
