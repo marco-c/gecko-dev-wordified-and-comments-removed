@@ -225,6 +225,9 @@ worker
 "
 websocket
 "
+"
+closewatcher
+"
 }
 ;
 /
