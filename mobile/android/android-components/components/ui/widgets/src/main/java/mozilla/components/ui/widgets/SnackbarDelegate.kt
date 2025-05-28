@@ -192,12 +192,6 @@ View
 text
 :
 Int
-subText
-:
-String
-?
-=
-null
 duration
 :
 Int
@@ -345,12 +339,6 @@ View
 text
 :
 String
-subText
-:
-String
-?
-=
-null
 duration
 :
 Int
@@ -417,10 +405,6 @@ View
 text
 :
 String
-subText
-:
-String
-?
 duration
 :
 Int
@@ -505,10 +489,6 @@ View
 text
 :
 Int
-subText
-:
-String
-?
 duration
 :
 Int
@@ -548,9 +528,6 @@ getString
 (
 text
 )
-subText
-=
-subText
 duration
 =
 duration
