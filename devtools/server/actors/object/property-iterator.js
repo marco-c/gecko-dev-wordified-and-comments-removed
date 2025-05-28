@@ -169,13 +169,13 @@ size
 0
 propertyName
 :
-index
+_index
 =
 >
 undefined
 propertyDescription
 :
-index
+_index
 =
 >
 undefined

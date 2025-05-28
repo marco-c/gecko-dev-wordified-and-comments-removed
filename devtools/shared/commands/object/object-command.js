@@ -10,8 +10,8 @@ constructor
 (
 {
 commands
-descriptorFront
-watcherFront
+_descriptorFront
+_watcherFront
 }
 )
 {

@@ -919,9 +919,6 @@ file
 path
 ;
 }
-let
-expectedValues
-;
 if
 (
 !
@@ -1824,12 +1821,6 @@ gTestPath
 in
 gTestScope
 ;
-const
-isXpcshell
-=
-!
-isMochitest
-;
 /
 /
 If
@@ -1955,7 +1946,8 @@ test
 .
 if
 (
-isXpcshell
+!
+isMochitest
 )
 {
 gTestScope
