@@ -398,7 +398,7 @@ REQUESTING_PROFILE
 )
 ;
 const
-profile
+profileAndAdditionalInformation
 =
 await
 perfFront
@@ -419,7 +419,7 @@ OBTAINED_PROFILE
 )
 ;
 return
-profile
+profileAndAdditionalInformation
 ;
 }
 ;

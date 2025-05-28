@@ -223,7 +223,7 @@ this
 props
 ;
 const
-profile
+profileAndAdditionalInformation
 =
 await
 getProfileAndStopProfiler
@@ -233,7 +233,7 @@ perfFront
 ;
 onProfileReceived
 (
-profile
+profileAndAdditionalInformation
 )
 ;
 }
