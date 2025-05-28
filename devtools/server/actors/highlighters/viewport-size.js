@@ -156,15 +156,6 @@ waitForDocumentToLoad
 ?
 ?
 true
-avoidForcedSynchronousLayoutUpdate
-:
-options
-?
-.
-avoidForcedSynchronousLayoutUpdate
-?
-?
-false
 }
 )
 ;
