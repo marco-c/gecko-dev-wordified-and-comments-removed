@@ -318,6 +318,7 @@ MediaKeySystemAccess
 ?
 keySystemAccess
 ;
+required
 MediaDecodingConfiguration
 configuration
 ;
@@ -328,6 +329,7 @@ MediaCapabilitiesEncodingInfo
 :
 MediaCapabilitiesInfo
 {
+required
 MediaEncodingConfiguration
 configuration
 ;
