@@ -5871,6 +5871,9 @@ input
 &
 CompositorInputConfig
 )
+-
+>
+bool
 ;
 fn
 bind_layer
@@ -5892,6 +5895,12 @@ self
 index
 :
 usize
+dirty_rects
+:
+&
+[
+DeviceIntRect
+]
 )
 ;
 fn

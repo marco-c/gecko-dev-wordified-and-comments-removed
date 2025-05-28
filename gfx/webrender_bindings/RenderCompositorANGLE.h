@@ -424,6 +424,15 @@ wr
 :
 NativeSurfaceId
 aId
+const
+wr
+:
+:
+DeviceIntRect
+*
+aDirtyRects
+size_t
+aNumDirtyRects
 )
 override
 ;
