@@ -1323,11 +1323,14 @@ maxHeight
 calculateMenuSheetHeight
 (
 )
+skipCollapsed
+=
+true
 state
 =
 BottomSheetBehavior
 .
-STATE_COLLAPSED
+STATE_EXPANDED
 hideFriction
 =
 HIDING_FRICTION
