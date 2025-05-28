@@ -202,6 +202,7 @@ AW_STEP1
 ]
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1033,6 +1034,7 @@ onboardingContainer
 ]
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1233,6 +1235,7 @@ TEST_BACKDROP
 ]
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1605,6 +1608,7 @@ tab
 }
 )
 ;
+await
 doExperimentCleanup
 (
 )
