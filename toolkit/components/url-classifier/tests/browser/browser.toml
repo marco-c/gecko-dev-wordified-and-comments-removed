@@ -7,6 +7,11 @@ files
 =
 [
 "
+head
+.
+js
+"
+"
 page
 .
 html
@@ -15,6 +20,13 @@ html
 raptor
 .
 jpg
+"
+]
+[
+"
+browser_antifraud_annotation
+.
+js
 "
 ]
 [
