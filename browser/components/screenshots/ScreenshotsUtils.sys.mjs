@@ -7838,7 +7838,9 @@ l10nId
 "
 screenshot
 -
-toolbarbutton
+toolbar
+-
+button
 "
 onCommand
 (
