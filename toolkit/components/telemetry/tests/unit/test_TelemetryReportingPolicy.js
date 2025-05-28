@@ -2475,6 +2475,7 @@ v900
 "
 )
 ;
+await
 doCleanup
 (
 )
@@ -2595,6 +2596,7 @@ v900
 "
 )
 ;
+await
 doCleanup
 (
 )

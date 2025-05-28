@@ -1076,6 +1076,7 @@ entry
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1208,6 +1209,7 @@ unenrollment
 "
 )
 ;
+await
 cleanup
 (
 )
