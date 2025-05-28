@@ -386,6 +386,12 @@ dlsource
 type
 :
 string
+send_in_pings
+:
+-
+metrics
+-
+update
 glean
 .
 distribution
@@ -563,3 +569,9 @@ items
 type
 :
 string
+send_in_pings
+:
+-
+metrics
+-
+update

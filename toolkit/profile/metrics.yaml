@@ -948,6 +948,8 @@ send_in_pings
 metrics
 -
 heartbeat
+-
+update
 reset_date
 :
 type
@@ -1041,6 +1043,12 @@ com
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+update
 first_use_date
 :
 type
@@ -1154,6 +1162,8 @@ send_in_pings
 metrics
 -
 heartbeat
+-
+update
 recovered_from_backup
 :
 type
@@ -1252,3 +1262,9 @@ com
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+update
