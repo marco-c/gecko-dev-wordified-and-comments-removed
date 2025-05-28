@@ -227,6 +227,7 @@ clearUserPref
 RUN_INTERVAL_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -321,6 +322,7 @@ updateRecipes
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -455,6 +457,7 @@ updateRecipes
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -710,6 +713,7 @@ NO_MATCH
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -871,6 +875,7 @@ false
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1330,6 +1335,7 @@ clearUserPref
 STUDIES_OPT_OUT_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -1542,6 +1548,7 @@ clearUserPref
 STUDIES_OPT_OUT_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -1663,6 +1670,7 @@ updateRecipes
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1886,6 +1894,7 @@ experiment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1908,6 +1917,7 @@ clearUserPref
 DEBUG_PREF
 )
 ;
+await
 cleanup
 (
 )

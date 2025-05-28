@@ -505,6 +505,7 @@ submitted
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager

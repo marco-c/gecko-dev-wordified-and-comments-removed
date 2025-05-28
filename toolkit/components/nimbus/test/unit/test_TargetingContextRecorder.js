@@ -239,10 +239,12 @@ return
 .
 .
 ctx
+async
 cleanup
 (
 )
 {
+await
 baseCleanup
 (
 )
@@ -896,6 +898,7 @@ rollout
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1191,6 +1194,7 @@ testSetString
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1462,6 +1466,7 @@ deleteBranch
 PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -2024,6 +2029,7 @@ rollout
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -2402,6 +2408,7 @@ isFirstStartup
 recordTargetingContext
 )
 ;
+await
 cleanup
 (
 )
@@ -2903,6 +2910,7 @@ metric
 recordTargetingContext
 )
 ;
+await
 cleanup
 (
 )
@@ -3379,6 +3387,7 @@ info
 recordTargetingContext
 )
 ;
+await
 cleanup
 (
 )

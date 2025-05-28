@@ -463,6 +463,7 @@ childSharedDataChanged
 browser
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -836,6 +837,7 @@ correct
 }
 )
 ;
+await
 ExperimentAPI
 .
 manager

@@ -436,6 +436,7 @@ store
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -445,6 +446,7 @@ MATCHING_ROLLOUT
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -622,6 +624,7 @@ remoteValue
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -743,6 +746,7 @@ reason
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -752,6 +756,7 @@ MATCHING_ROLLOUT
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -865,6 +870,7 @@ processed
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -874,6 +880,7 @@ MATCHING_ROLLOUT
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -973,6 +980,7 @@ configuration
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -982,6 +990,7 @@ MATCHING_ROLLOUT
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1096,6 +1105,7 @@ feature
 "
 )
 ;
+await
 cleanup
 (
 )

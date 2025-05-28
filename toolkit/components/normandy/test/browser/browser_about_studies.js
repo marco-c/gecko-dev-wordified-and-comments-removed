@@ -3980,6 +3980,9 @@ manager
 enroll
 (
 recipe
+"
+test
+"
 )
 ;
 await
@@ -4129,6 +4132,7 @@ slug
 }
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -4377,6 +4381,9 @@ manager
 enroll
 (
 rollout
+"
+test
+"
 )
 ;
 await
@@ -5322,6 +5329,9 @@ manager
 enroll
 (
 experiment
+"
+test
+"
 )
 ;
 await
@@ -5332,6 +5342,9 @@ manager
 enroll
 (
 rollout
+"
+test
+"
 )
 ;
 await
@@ -5509,6 +5522,7 @@ list
 }
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -5520,6 +5534,7 @@ experiment
 slug
 )
 ;
+await
 ExperimentAPI
 .
 manager

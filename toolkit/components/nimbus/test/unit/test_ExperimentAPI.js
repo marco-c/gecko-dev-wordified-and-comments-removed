@@ -199,6 +199,7 @@ collection
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -272,6 +273,7 @@ throws
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -366,6 +368,7 @@ recipe
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -493,6 +496,7 @@ getter
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -680,6 +684,7 @@ getter
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -753,6 +758,7 @@ throws
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -942,6 +948,7 @@ purple
 featureStub
 )
 ;
+await
 manager
 .
 unenroll
@@ -951,6 +958,7 @@ experiment
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1163,6 +1171,7 @@ purple
 featureStub
 )
 ;
+await
 manager
 .
 unenroll
@@ -1172,6 +1181,7 @@ experiment
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1318,6 +1328,7 @@ off
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1327,6 +1338,7 @@ experiment
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1475,6 +1487,9 @@ qux
 }
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -1516,6 +1531,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 const
@@ -1635,6 +1653,7 @@ enrollments
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -1665,6 +1684,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -1820,6 +1840,9 @@ qux
 }
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -1862,6 +1885,9 @@ foo
 }
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -1905,6 +1931,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -1950,6 +1979,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 const
@@ -2145,6 +2177,7 @@ enrollments
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -2189,6 +2222,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -2268,6 +2302,9 @@ foo
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2299,6 +2336,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 const
@@ -2377,6 +2417,7 @@ enrollments
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -2398,6 +2439,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -2484,6 +2526,9 @@ foo
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2519,6 +2564,9 @@ foo
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2552,6 +2600,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2585,6 +2636,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 const
@@ -2705,6 +2759,7 @@ enrollments
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -2740,6 +2795,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -2826,6 +2882,9 @@ foo
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2861,6 +2920,9 @@ foo
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2894,6 +2956,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -2927,6 +2992,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -3149,6 +3217,7 @@ foo
 ]
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -3184,6 +3253,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -3368,6 +3438,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -3448,6 +3521,9 @@ treatment
 "
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -3501,6 +3577,7 @@ getEnrollmentMetadata
 experimentMeta
 )
 ;
+await
 manager
 .
 unenroll
@@ -3563,6 +3640,7 @@ getEnrollmentMetadata
 experimentMeta
 )
 ;
+await
 manager
 .
 unenroll
@@ -3625,6 +3703,7 @@ getEnrollmentMetadata
 null
 )
 ;
+await
 cleanup
 (
 )
@@ -3842,6 +3921,7 @@ called
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -4004,6 +4084,7 @@ value
 "
 )
 ;
+await
 cleanup
 (
 )

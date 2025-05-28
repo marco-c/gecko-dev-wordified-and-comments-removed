@@ -472,6 +472,7 @@ exist
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )

@@ -385,10 +385,12 @@ return
 .
 .
 ctx
+async
 cleanup
 (
 )
 {
+await
 baseCleanup
 (
 )
@@ -893,6 +895,7 @@ name
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1261,6 +1264,7 @@ name
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1914,6 +1918,7 @@ UNKNOWN
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2542,6 +2547,7 @@ bogus
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2765,6 +2771,7 @@ unset
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3001,6 +3008,7 @@ unset
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3208,6 +3216,7 @@ unset
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3476,6 +3485,7 @@ after
 enrollment
 )
 ;
+await
 manager
 .
 unenroll
@@ -3601,6 +3611,7 @@ enrollments
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -3894,6 +3905,7 @@ enrollments
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -4151,6 +4163,7 @@ of
 recipes
 )
 {
+await
 manager
 .
 unenroll
@@ -4159,6 +4172,7 @@ slug
 )
 ;
 }
+await
 cleanup
 (
 )

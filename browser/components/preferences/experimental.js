@@ -870,6 +870,7 @@ branchSlug
 }
 else
 {
+await
 this
 .
 _firefoxLabs
@@ -1078,6 +1079,7 @@ if
 enrolled
 )
 {
+await
 this
 .
 _firefoxLabs

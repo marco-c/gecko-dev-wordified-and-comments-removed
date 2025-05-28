@@ -326,6 +326,7 @@ defined
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -608,6 +609,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 manager
 .
 unenroll
@@ -617,6 +619,7 @@ rollout
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -814,6 +817,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 manager
 .
 unenroll
@@ -823,6 +827,7 @@ rollout
 slug
 )
 ;
+await
 cleanup
 (
 )

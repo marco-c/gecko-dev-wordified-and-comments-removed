@@ -422,6 +422,7 @@ bucketing
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -810,6 +811,7 @@ exists
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -819,6 +821,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -978,6 +981,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1102,6 +1106,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1111,6 +1116,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1334,6 +1340,7 @@ in
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1343,6 +1350,7 @@ bogus
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1382,6 +1390,7 @@ API
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1421,6 +1430,7 @@ in
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1533,6 +1543,7 @@ Disqualified
 ]
 )
 ;
+await
 manager
 .
 unenroll
@@ -1542,6 +1553,7 @@ rollout
 "
 )
 ;
+await
 cleanup
 (
 )

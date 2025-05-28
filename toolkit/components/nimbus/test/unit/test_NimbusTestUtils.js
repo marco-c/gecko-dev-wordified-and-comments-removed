@@ -202,6 +202,7 @@ set
 "
 )
 ;
+await
 doEnrollmentCleanup
 (
 )
@@ -343,6 +344,7 @@ successfully
 "
 )
 ;
+await
 doEnrollmentCleanup
 (
 )
@@ -368,6 +370,7 @@ successfully
 "
 )
 ;
+await
 cleanup
 (
 )
