@@ -2473,6 +2473,6 @@ const
 val
 NUMBER_OF_RECOMMENDED_ADDONS_TO_SHOW
 =
-4
+3
 }
 }
