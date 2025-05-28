@@ -2989,12 +2989,6 @@ delayedStartup
 (
 )
 ;
-ShoppingSidebarManager
-.
-ensureInitialized
-(
-)
-;
 SessionStore
 .
 promiseAllWindowsRestored
