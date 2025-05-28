@@ -16740,6 +16740,11 @@ wasm
 :
 FailureMode
 failureMode
+wasm
+:
+:
+Trap
+failureTrap
 )
 ;
 void
@@ -16752,6 +16757,11 @@ wasm
 :
 FailureMode
 failureMode
+wasm
+:
+:
+Trap
+failureTrap
 const
 wasm
 :

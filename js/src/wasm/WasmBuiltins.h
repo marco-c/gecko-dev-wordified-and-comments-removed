@@ -31,6 +31,15 @@ WasmBuiltinModuleGenerated
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmConstants
+.
+h
+"
 namespace
 js
 {
@@ -249,6 +258,10 @@ retType
 const
 FailureMode
 failureMode
+;
+const
+Trap
+failureTrap
 ;
 const
 uint8_t
