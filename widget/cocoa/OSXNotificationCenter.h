@@ -86,10 +86,6 @@ NSString
 aAlertName
 NSUserNotificationActivationType
 aActivationType
-unsigned
-long
-long
-aAdditionalActionIndex
 NSUserNotificationAction
 *
 aAdditionalActivationAction
