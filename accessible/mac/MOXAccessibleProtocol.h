@@ -276,6 +276,14 @@ moxEnabled
 ;
 -
 (
+NSArray
+*
+_Nullable
+)
+moxErrorMessageElements
+;
+-
+(
 NSNumber
 *
 _Nullable

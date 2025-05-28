@@ -340,9 +340,16 @@ EVENT_LIVE_REGION_CHANGED
 const
 unsigned
 long
-EVENT_LAST_ENTRY
+EVENT_ERRORMESSAGE_CHANGED
 =
 0x002a
+;
+const
+unsigned
+long
+EVENT_LAST_ENTRY
+=
+0x002b
 ;
 readonly
 attribute

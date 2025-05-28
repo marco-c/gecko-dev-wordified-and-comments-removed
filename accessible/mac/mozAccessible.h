@@ -285,6 +285,12 @@ start
 ;
 -
 (
+void
+)
+maybePostValidationErrorChanged
+;
+-
+(
 id
 )
 childAt
@@ -554,6 +560,13 @@ NSString
 *
 )
 moxInvalid
+;
+-
+(
+NSString
+*
+)
+moxErrorMessageElements
 ;
 -
 (
