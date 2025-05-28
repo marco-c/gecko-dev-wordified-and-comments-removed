@@ -56,15 +56,12 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
+export
+default
+[
+{
+languageOptions
+:
 {
 globals
 :
@@ -72,6 +69,7 @@ globals
 define
 :
 true
+}
 }
 rules
 :
@@ -117,9 +115,7 @@ ownerGlobal
 off
 "
 }
-overrides
-:
-[
+}
 {
 /
 /
@@ -165,5 +161,4 @@ off
 }
 }
 ]
-}
 ;
