@@ -241,7 +241,7 @@ sShared
 [
 size_t
 (
-BuiltInStyleSheet
+UserAgentStyleSheetID
 :
 :
 Count
