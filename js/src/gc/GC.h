@@ -405,6 +405,15 @@ true
 _
 (
 "
+nurseryMaxTimeGoalMS
+"
+JSGC_NURSERY_MAX_TIME_GOAL_MS
+true
+)
+\
+_
+(
+"
 zoneAllocDelayKB
 "
 JSGC_ZONE_ALLOC_DELAY_KB

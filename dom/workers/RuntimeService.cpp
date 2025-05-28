@@ -1883,6 +1883,13 @@ JSGC_SEMISPACE_NURSERY_ENABLED
 )
 #
 endif
+PREF
+(
+"
+nursery_max_time_goal_ms
+"
+JSGC_NURSERY_MAX_TIME_GOAL_MS
+)
 }
 ;
 #
@@ -2276,6 +2283,9 @@ JSGC_PARALLEL_MARKING_THRESHOLD_MB
 :
 case
 JSGC_MAX_MARKING_THREADS
+:
+case
+JSGC_NURSERY_MAX_TIME_GOAL_MS
 :
 UpdateCommonJSGCMemoryOption
 (
