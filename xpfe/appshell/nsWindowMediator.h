@@ -174,10 +174,8 @@ const
 char16_t
 *
 inType
-bool
-aSkipPrivateBrowsingOrClosed
-=
-false
+WindowMediatorFilter
+aFilter
 )
 ;
 nsresult
