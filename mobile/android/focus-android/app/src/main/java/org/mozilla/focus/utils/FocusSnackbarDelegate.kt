@@ -109,6 +109,10 @@ StringRes
 text
 :
 Int
+subText
+:
+String
+?
 duration
 :
 Int
@@ -149,6 +153,9 @@ getString
 (
 text
 )
+subText
+=
+subText
 duration
 =
 duration
@@ -185,6 +192,10 @@ View
 text
 :
 String
+subText
+:
+String
+?
 duration
 :
 Int

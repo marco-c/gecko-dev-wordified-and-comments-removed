@@ -168,6 +168,10 @@ StringRes
 text
 :
 Int
+subText
+:
+String
+?
 duration
 :
 Int
@@ -255,6 +259,10 @@ View
 text
 :
 String
+subText
+:
+String
+?
 duration
 :
 Int
