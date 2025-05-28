@@ -305,6 +305,7 @@ called
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -422,6 +423,7 @@ timer
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
