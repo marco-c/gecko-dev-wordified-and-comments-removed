@@ -210,14 +210,14 @@ defineLazyPreferenceGetter
 (
 lazy
 "
-MODELHUB_PROVIDER_ENABLED
+LOCAL_MODEL_MANAGEMENT_ENABLED
 "
 "
-browser
+extensions
 .
-ml
+htmlaboutaddons
 .
-modelHubProvider
+local_model_management
 "
 false
 (
@@ -719,7 +719,7 @@ if
 !
 lazy
 .
-MODELHUB_PROVIDER_ENABLED
+LOCAL_MODEL_MANAGEMENT_ENABLED
 )
 {
 return
@@ -912,7 +912,7 @@ if
 !
 lazy
 .
-MODELHUB_PROVIDER_ENABLED
+LOCAL_MODEL_MANAGEMENT_ENABLED
 |
 |
 this
@@ -1079,7 +1079,7 @@ if
 !
 lazy
 .
-MODELHUB_PROVIDER_ENABLED
+LOCAL_MODEL_MANAGEMENT_ENABLED
 )
 {
 return
