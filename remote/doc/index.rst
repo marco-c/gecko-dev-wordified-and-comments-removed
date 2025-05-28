@@ -221,6 +221,14 @@ marionette
 testing
 /
 marionette
+.
+.
+_webdriver
+-
+bidi
+-
+header
+:
 WebDriver
 BiDi
 -
