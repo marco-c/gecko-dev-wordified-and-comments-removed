@@ -17873,7 +17873,7 @@ rnValue
 (
 )
 ;
-int32_t
+uint32_t
 rn_val
 =
 get_register
@@ -17881,7 +17881,7 @@ get_register
 rn
 )
 ;
-int32_t
+uint32_t
 shifter_operand
 =
 0
