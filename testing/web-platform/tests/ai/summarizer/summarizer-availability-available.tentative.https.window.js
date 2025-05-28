@@ -62,9 +62,7 @@ availability
 type
 :
 '
-tl
-;
-dr
+tldr
 '
 format
 :
@@ -143,9 +141,7 @@ availability
 type
 :
 '
-tl
-;
-dr
+tldr
 '
 format
 :
