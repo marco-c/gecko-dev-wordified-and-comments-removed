@@ -8093,6 +8093,7 @@ cleanup
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
