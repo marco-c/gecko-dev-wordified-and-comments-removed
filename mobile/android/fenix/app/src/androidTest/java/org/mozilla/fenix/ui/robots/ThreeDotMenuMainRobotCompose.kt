@@ -5517,7 +5517,7 @@ R
 .
 string
 .
-browser_menu_bookmark_this_page
+browser_menu_bookmark_this_page_2
 )
 )
 private
