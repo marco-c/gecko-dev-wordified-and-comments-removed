@@ -137,7 +137,7 @@ Activity
 *
 /
 fun
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 (
 activity
 :

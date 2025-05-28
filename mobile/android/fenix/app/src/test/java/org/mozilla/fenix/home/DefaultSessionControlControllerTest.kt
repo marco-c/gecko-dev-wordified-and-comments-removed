@@ -781,7 +781,7 @@ fenix
 .
 utils
 .
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 import
 org
 .
@@ -9734,7 +9734,7 @@ AddSearchWidgetPromptKt
 )
 every
 {
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 (
 activity
 )
@@ -9763,7 +9763,7 @@ task
 )
 verify
 {
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 (
 activity
 )

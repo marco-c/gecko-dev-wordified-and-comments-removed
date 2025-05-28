@@ -235,7 +235,7 @@ fenix
 .
 utils
 .
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 /
 *
 *
@@ -281,7 +281,7 @@ Unit
 =
 :
 :
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 )
 :
 HomeIntentProcessor

@@ -587,7 +587,7 @@ fenix
 .
 utils
 .
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 /
 *
 *
@@ -1416,7 +1416,7 @@ Type
 ADD_SEARCH_WIDGET
 )
 )
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 (
 requireActivity
 (

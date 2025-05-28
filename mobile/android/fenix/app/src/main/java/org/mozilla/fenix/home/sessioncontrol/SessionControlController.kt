@@ -721,7 +721,7 @@ fenix
 .
 utils
 .
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 import
 org
 .
@@ -3782,7 +3782,7 @@ Type
 INSTALL_SEARCH_WIDGET
 -
 >
-showAddSearchWidgetPrompt
+maybeShowAddSearchWidgetPrompt
 (
 activity
 )
