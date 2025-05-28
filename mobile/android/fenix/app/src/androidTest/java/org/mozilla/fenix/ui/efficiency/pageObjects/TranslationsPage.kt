@@ -87,9 +87,9 @@ efficiency
 .
 selectors
 .
-EnhancedTrackingProtectionSelectors
+TranslationsSelectors
 class
-EnhancedTrackingProtectionPage
+TranslationsPage
 (
 composeRule
 :
@@ -110,7 +110,7 @@ val
 pageName
 =
 "
-EnhancedTrackingProtectionPage
+TranslationsPage
 "
 init
 {
@@ -163,7 +163,7 @@ Selector
 >
 {
 return
-EnhancedTrackingProtectionSelectors
+TranslationsSelectors
 .
 all
 .
