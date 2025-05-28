@@ -142,13 +142,6 @@ third_party
 /
 python
 /
-Mako
-vendored
-:
-third_party
-/
-python
-/
 PyYAML
 /
 lib
@@ -285,6 +278,13 @@ third_party
 python
 /
 json_e
+vendored
+:
+third_party
+/
+python
+/
+Mako
 vendored
 :
 third_party
