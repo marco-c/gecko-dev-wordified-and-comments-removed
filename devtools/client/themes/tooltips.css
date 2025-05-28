@@ -358,11 +358,11 @@ color
 {
 syntax
 :
-'
+"
 <
 color
 >
-'
+"
 ;
 inherits
 :
@@ -390,11 +390,11 @@ background
 {
 syntax
 :
-'
+"
 <
 color
 >
-'
+"
 ;
 inherits
 :
@@ -494,7 +494,7 @@ line
 color
 :
 #
-4C9ED9
+4c9ed9
 ;
 -
 -
@@ -784,6 +784,7 @@ rgba
 249
 249
 250
+0
 .
 1
 )
@@ -810,6 +811,7 @@ hsla
 %
 80
 %
+0
 .
 45
 )
@@ -818,6 +820,7 @@ rgba
 249
 249
 250
+0
 .
 15
 )
@@ -857,6 +860,7 @@ rgba
 249
 249
 250
+0
 .
 5
 )
@@ -1016,6 +1020,13 @@ background
 gradient
 *
 /
+/
+*
+prettier
+-
+ignore
+*
+/
 -
 -
 timing
@@ -1165,6 +1176,7 @@ hsla
 %
 10
 %
+0
 .
 14
 )
@@ -1288,6 +1300,7 @@ color
 scheme
 :
 unset
+;
 }
 strong
 {
@@ -3686,6 +3699,7 @@ hsla
 %
 10
 %
+0
 .
 2
 )
@@ -4562,6 +4576,7 @@ hsla
 %
 10
 %
+0
 .
 03
 )
@@ -6289,6 +6304,7 @@ min
 height
 :
 1px
+;
 }
 .
 devtools

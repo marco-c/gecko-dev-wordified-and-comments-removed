@@ -590,6 +590,7 @@ offset
 :
 -
 1px
+;
 }
 #
 toolbar
@@ -1296,6 +1297,7 @@ device
 -
 selector
 ]
+0
 .
 8fr
 [
@@ -4045,7 +4047,7 @@ background
 color
 :
 #
-0060DF
+0060df
 ;
 color
 :
@@ -4057,7 +4059,7 @@ border
 1px
 solid
 #
-0060DF
+0060df
 ;
 width
 :

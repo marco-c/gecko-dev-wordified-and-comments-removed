@@ -3396,11 +3396,13 @@ resize
 class
 ^
 =
+"
 measuring
 -
 tool
 -
 handler
+"
 ]
 .
 dragging
@@ -3638,11 +3640,13 @@ height
 class
 ^
 =
+"
 measuring
 -
 tool
 -
 guide
+"
 ]
 {
 stroke
@@ -6573,7 +6577,7 @@ after
 color
 :
 #
-90E274
+90e274
 ;
 }
 .
@@ -6677,7 +6681,7 @@ after
 color
 :
 #
-E57180
+e57180
 ;
 margin
 -
