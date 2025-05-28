@@ -19,9 +19,7 @@ signal
 >
 {
 return
-Rewriter
-.
-create
+createRewriter
 (
 {
 signal
@@ -34,7 +32,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Rewriter
 .
@@ -42,7 +40,7 @@ create
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -56,9 +54,7 @@ const
 rewriter
 =
 await
-Rewriter
-.
-create
+createRewriter
 (
 )
 ;
@@ -87,7 +83,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Rewriter
 .
@@ -95,7 +91,7 @@ rewrite
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -109,9 +105,7 @@ const
 rewriter
 =
 await
-Rewriter
-.
-create
+createRewriter
 (
 )
 ;
@@ -140,7 +134,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Rewriter
 .
@@ -148,7 +142,7 @@ rewriteStreaming
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -162,9 +156,7 @@ const
 rewriter
 =
 await
-Rewriter
-.
-create
+createRewriter
 (
 )
 ;
@@ -201,8 +193,7 @@ chunk
 of
 streamingResponse
 )
-{
-}
+;
 controller
 .
 abort

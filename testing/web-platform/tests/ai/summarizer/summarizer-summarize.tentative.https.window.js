@@ -15,9 +15,7 @@ const
 summarizer
 =
 await
-Summarizer
-.
-create
+createSummarizer
 (
 )
 ;
@@ -77,9 +75,7 @@ const
 summarizer
 =
 await
-Summarizer
-.
-create
+createSummarizer
 (
 )
 ;

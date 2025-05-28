@@ -19,9 +19,7 @@ signal
 >
 {
 return
-Writer
-.
-create
+createWriter
 (
 {
 signal
@@ -34,7 +32,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Writer
 .
@@ -42,7 +40,7 @@ create
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -56,9 +54,7 @@ const
 writer
 =
 await
-Writer
-.
-create
+createWriter
 (
 )
 ;
@@ -87,7 +83,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Writer
 .
@@ -95,7 +91,7 @@ write
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -109,9 +105,7 @@ const
 writer
 =
 await
-Writer
-.
-create
+createWriter
 (
 )
 ;
@@ -140,7 +134,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Writer
 .
@@ -148,7 +142,7 @@ writeStreaming
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -164,9 +158,7 @@ const
 writer
 =
 await
-Writer
-.
-create
+createWriter
 (
 )
 ;
@@ -206,8 +198,7 @@ chunk
 of
 streamingResponse
 )
-{
-}
+;
 controller
 .
 abort
