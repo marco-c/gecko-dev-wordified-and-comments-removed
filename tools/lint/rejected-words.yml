@@ -2114,16 +2114,6 @@ vendor_rust
 .
 py
 -
-remote
-/
-cdp
-/
-Protocol
-.
-sys
-.
-mjs
--
 security
 /
 manager

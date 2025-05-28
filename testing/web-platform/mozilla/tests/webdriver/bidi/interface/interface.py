@@ -41,19 +41,6 @@ browser
 use_bidi
 =
 True
-extra_prefs
-=
-{
-"
-remote
-.
-active
--
-protocols
-"
-:
-1
-}
 )
     
 server_host

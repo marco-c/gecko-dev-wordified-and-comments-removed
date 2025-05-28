@@ -108,14 +108,6 @@ events
 produced
 by
 EventEmitter
-including
-CDP
-events
-produced
-by
-the
-Remote
-Agent
 you
 can
 use

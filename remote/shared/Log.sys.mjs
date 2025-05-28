@@ -185,11 +185,6 @@ static
 TYPES
 =
 {
-CDP
-:
-"
-CDP
-"
 MARIONETTE
 :
 "
