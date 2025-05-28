@@ -25,10 +25,10 @@ parametrize
 value
 "
 [
+42
 "
 foo
 "
-42
 {
 }
 [
@@ -37,9 +37,9 @@ foo
 )
 async
 def
-test_params_accept_insecure_certs_invalid_type
+test_accept_insecure_certs_invalid_type
 (
-bidi_session
+create_user_context
 value
 )
 :
@@ -56,10 +56,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-browser
-.
 create_user_context
 (
 accept_insecure_certs
