@@ -5971,7 +5971,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
@@ -6113,7 +6113,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
@@ -6266,7 +6266,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
@@ -6458,7 +6458,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
@@ -6642,7 +6642,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
@@ -6846,7 +6846,7 @@ clickChooseReasonField
 (
 composeTestRule
 )
-clickSiteSlowOrNotWorkingReason
+clickSiteDoesNotLoadReason
 (
 composeTestRule
 )
