@@ -339,6 +339,16 @@ aRange
 ;
 static
 RangeBoundary
+MoveToNextBoundaryPoint
+(
+const
+RangeBoundary
+&
+aPoint
+)
+;
+static
+RangeBoundary
 MoveBoundaryToNextNonWhitespacePosition
 (
 const
