@@ -11203,9 +11203,9 @@ version
 "
 0
 .
-4
+5
 .
-9
+1
 "
 source
 =
@@ -11233,7 +11233,7 @@ index
 checksum
 =
 "
-a88c69768c0a15262df21899142bc6df9b9b823546d4b4b9a7bc2d6c448ec6fd
+8b3e85d14d419ba3e1db925519461c0d17a49bdd2d67ea6316fa965ca7acdf74
 "
 dependencies
 =
@@ -11242,7 +11242,7 @@ dependencies
 hashbrown
 0
 .
-13
+14
 .
 999
 "
@@ -14395,9 +14395,6 @@ encoding_glue
 "
 "
 etagere
-"
-"
-fallible_collections
 "
 "
 fluent
@@ -25245,9 +25242,9 @@ rust
 ?
 rev
 =
-e64650a686e5c5732395cd059e17cfd3b1e5b63b
+d3e4d255bd149d341c7e90f5e9fc84e743a8e179
 #
-e64650a686e5c5732395cd059e17cfd3b1e5b63b
+d3e4d255bd149d341c7e90f5e9fc84e743a8e179
 "
 dependencies
 =
@@ -25334,9 +25331,9 @@ rust
 ?
 rev
 =
-e64650a686e5c5732395cd059e17cfd3b1e5b63b
+d3e4d255bd149d341c7e90f5e9fc84e743a8e179
 #
-e64650a686e5c5732395cd059e17cfd3b1e5b63b
+d3e4d255bd149d341c7e90f5e9fc84e743a8e179
 "
 dependencies
 =
