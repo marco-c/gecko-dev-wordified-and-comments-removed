@@ -1157,6 +1157,10 @@ Option
 TypeNode
 >
 pub
+resolved_discr_type
+:
+TypeNode
+pub
 non_exhaustive
 :
 bool
@@ -1204,6 +1208,10 @@ Option
 <
 LiteralNode
 >
+pub
+resolved_discr
+:
+LiteralNode
 pub
 fields
 :
