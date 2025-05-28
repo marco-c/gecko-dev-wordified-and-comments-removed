@@ -2343,6 +2343,7 @@ uint8_t
 Array
 PlainObject
 FixedLengthArrayBuffer
+ImmutableArrayBuffer
 ResizableArrayBuffer
 FixedLengthSharedArrayBuffer
 GrowableSharedArrayBuffer
@@ -2423,6 +2424,17 @@ FixedLengthArrayBuffer
 return
 "
 FixedLengthArrayBuffer
+"
+;
+case
+GuardClassKind
+:
+:
+ImmutableArrayBuffer
+:
+return
+"
+ImmutableArrayBuffer
 "
 ;
 case
