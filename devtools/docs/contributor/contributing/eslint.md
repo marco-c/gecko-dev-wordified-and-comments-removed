@@ -1081,12 +1081,13 @@ file
 name
 )
 "
-.
-eslintrc
+eslint
 -
 ignores
 .
-js
+config
+.
+mjs
 "
 )
 )
