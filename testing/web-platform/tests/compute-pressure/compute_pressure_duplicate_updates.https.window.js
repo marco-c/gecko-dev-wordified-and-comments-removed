@@ -73,6 +73,9 @@ cpu
 '
 critical
 '
+0
+.
+2
 )
 ;
 await
@@ -111,6 +114,9 @@ cpu
 '
 critical
 '
+0
+.
+2
 )
 ;
 await
@@ -153,6 +159,9 @@ cpu
 nominal
 '
 )
+0
+.
+2
 ;
 await
 syncObserver
