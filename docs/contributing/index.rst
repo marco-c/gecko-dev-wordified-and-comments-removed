@@ -73,6 +73,7 @@ how_to_submit_a_patch
 data
 -
 review
+jujutsu
 .
 .
 toctree
