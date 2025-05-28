@@ -179,7 +179,7 @@ TextDirectiveUtil
 :
 RangeContentAsString
 (
-nsRange
+AbstractRange
 *
 aRange
 )
