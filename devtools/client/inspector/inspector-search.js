@@ -2015,7 +2015,7 @@ stopPropagation
 #
 showPopup
 (
-list
+suggestions
 popupState
 )
 {
@@ -2047,7 +2047,7 @@ value
 state
 ]
 of
-list
+suggestions
 )
 {
 if

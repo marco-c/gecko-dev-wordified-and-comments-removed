@@ -391,7 +391,7 @@ devtools
 -
 toolbarbutton
 >
-tab
+hbox
 "
 "
 .
@@ -399,7 +399,7 @@ devtools
 -
 toolbarbutton
 >
-hbox
+tab
 "
 "
 .
@@ -450,7 +450,7 @@ devtools
 -
 menulist
 :
-after
+active
 "
 "
 .
@@ -458,7 +458,7 @@ devtools
 -
 menulist
 :
-active
+after
 "
 ]
 ]
@@ -552,7 +552,7 @@ true
 :
 hover
 :
-after
+active
 "
 "
 .
@@ -571,7 +571,7 @@ true
 :
 hover
 :
-active
+after
 "
 ]
 ]
@@ -603,6 +603,12 @@ lang
 :
 last
 -
+child
+"
+"
+:
+last
+-
 of
 -
 type
@@ -610,12 +616,6 @@ type
 "
 :
 link
-"
-"
-:
-last
--
-child
 "
 ]
 ]
