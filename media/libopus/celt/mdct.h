@@ -68,10 +68,6 @@ h
 "
 #
 endif
-#
-define
-IMDCT_HEADROOM
-2
 int
 clt_mdct_init
 (
