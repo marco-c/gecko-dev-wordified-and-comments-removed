@@ -19102,7 +19102,7 @@ pocket
 .
 enabled
 "
-true
+false
 )
 ;
 pref
