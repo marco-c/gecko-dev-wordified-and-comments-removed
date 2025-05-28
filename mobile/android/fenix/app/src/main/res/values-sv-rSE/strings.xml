@@ -13019,7 +13019,7 @@ PIN
 kod
 eller
 ansiktsl
-s
+sning
 .
 <
 /
@@ -27303,7 +27303,9 @@ webcompat_reporter_reason_checkout
 Kan
 inte
 betala
-betala
+g
+till
+kassan
 eller
 handla
 <
@@ -27698,9 +27700,10 @@ Webbl
 saren
 st
 ds
-eller
-blockeras
 inte
+eller
+r
+blockerad
 <
 /
 string

@@ -809,8 +809,10 @@ odaberi
 dozvole
 i
 odaberi
+\
 "
 Dopusti
+\
 "
 .
 <
@@ -910,8 +912,7 @@ Stvarno
 eli
 prekinuti
 privatno
-pretra
-ivanje
+pregledavanje
 ?
 <
 /
@@ -985,8 +986,7 @@ mozac_feature_downloads_cancel_active_private_downloads_deny
 Ostani
 u
 privatnom
-pretra
-ivanju
+pregledavanju
 <
 /
 string
