@@ -8581,6 +8581,10 @@ mDevToolsAnonymousAndShadowEventsEnabled
 (
 false
 )
+mPausedByDevTools
+(
+false
+)
 mIsSrcdocDocument
 (
 false
@@ -35950,6 +35954,10 @@ IsBeingUsedAsImage
 &
 !
 mDisplayDocument
+&
+&
+!
+mPausedByDevTools
 )
 {
 return

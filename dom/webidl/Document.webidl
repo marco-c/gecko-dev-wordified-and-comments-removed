@@ -3251,6 +3251,13 @@ devToolsAnonymousAndShadowEventsEnabled
 ;
 [
 ChromeOnly
+]
+attribute
+boolean
+pausedByDevTools
+;
+[
+ChromeOnly
 BinaryName
 =
 "
