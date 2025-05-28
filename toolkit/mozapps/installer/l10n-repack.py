@@ -38,16 +38,6 @@ set
 [
         
 "
-*
-*
-/
-crashreporter
-*
-.
-ini
-"
-        
-"
 dictionaries
 "
         
