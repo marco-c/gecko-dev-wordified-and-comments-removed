@@ -7204,6 +7204,9 @@ browsingModeManager
 activity
 .
 browsingModeManager
+browserAnimator
+=
+browserAnimator
 thumbnailsFeature
 =
 thumbnailsFeature
