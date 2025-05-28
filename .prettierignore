@@ -14810,6 +14810,12 @@ google
 -
 breakpad
 /
+toolkit
+/
+modules
+/
+third_party
+/
 tools
 /
 fuzzing
