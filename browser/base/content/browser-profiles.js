@@ -1617,6 +1617,7 @@ profiles
 theme
 -
 fg
+currentColor
 )
 "
 ;
