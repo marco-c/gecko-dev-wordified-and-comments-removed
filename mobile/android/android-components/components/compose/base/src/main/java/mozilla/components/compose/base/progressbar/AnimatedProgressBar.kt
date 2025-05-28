@@ -818,10 +818,6 @@ modifier
 Modifier
 =
 Modifier
-.
-fillMaxWidth
-(
-)
 color
 :
 List
@@ -1214,6 +1210,10 @@ margin
 Canvas
 (
 modifier
+.
+fillMaxWidth
+(
+)
 )
 {
 val
