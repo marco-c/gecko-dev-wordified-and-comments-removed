@@ -335,6 +335,7 @@ disabled
 ]
 )
 ;
+await
 doCleanup
 (
 )
