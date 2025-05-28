@@ -2022,6 +2022,9 @@ nsIStructuredCloneContainer
 aData
 bool
 aURIWasModified
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 ;
 nsresult
@@ -3143,6 +3146,9 @@ aCacheKey
 nsIURI
 *
 aPreviousURI
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 ;
 void

@@ -5291,6 +5291,9 @@ bool
 aChannelExpired
 uint32_t
 aCacheKey
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 MOZ_LOG
@@ -5457,6 +5460,14 @@ mExpired
 true
 ;
 }
+newActiveEntry
+-
+>
+SetPartitionedPrincipalToInherit
+(
+aPartitionedPrincipal
+)
+;
 bool
 loadFromSessionHistory
 =
