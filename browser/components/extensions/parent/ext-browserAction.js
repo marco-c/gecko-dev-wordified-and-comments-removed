@@ -2582,8 +2582,12 @@ window
 .
 gUnifiedExtensions
 .
-togglePanel
+openPanel
 (
+null
+"
+extension_browser_action_popup
+"
 )
 ;
 }
