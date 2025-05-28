@@ -237,7 +237,7 @@ ktx
 .
 kotlin
 .
-isContentUrl
+isUrl
 import
 mozilla
 .
@@ -245,11 +245,11 @@ components
 .
 support
 .
-ktx
+utils
 .
-kotlin
+ext
 .
-isUrl
+isContentUrl
 import
 mozilla
 .

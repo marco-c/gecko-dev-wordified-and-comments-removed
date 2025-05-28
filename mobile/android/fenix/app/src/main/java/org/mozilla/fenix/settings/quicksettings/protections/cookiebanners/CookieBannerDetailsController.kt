@@ -225,9 +225,9 @@ components
 .
 support
 .
-ktx
+utils
 .
-kotlin
+ext
 .
 isContentUrl
 import
