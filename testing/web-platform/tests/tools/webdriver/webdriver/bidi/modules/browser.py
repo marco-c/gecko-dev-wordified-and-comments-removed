@@ -220,6 +220,19 @@ bool
 ]
 =
 None
+        
+proxy
+:
+Optional
+[
+Mapping
+[
+str
+Any
+]
+]
+=
+None
     
 )
 -
@@ -257,6 +270,22 @@ acceptInsecureCerts
 ]
 =
 accept_insecure_certs
+        
+if
+proxy
+is
+not
+None
+:
+            
+params
+[
+"
+proxy
+"
+]
+=
+proxy
         
 return
 params
