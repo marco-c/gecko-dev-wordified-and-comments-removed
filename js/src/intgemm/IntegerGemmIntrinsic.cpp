@@ -1048,6 +1048,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 !
@@ -1273,6 +1276,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 !
@@ -1494,6 +1500,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 !
@@ -1712,6 +1721,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 if
 (
@@ -1934,6 +1946,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 if
 (
@@ -2329,6 +2344,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 !
@@ -2672,6 +2690,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 if
 (

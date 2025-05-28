@@ -10393,6 +10393,9 @@ Trap
 OutOfBounds
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 const
 WasmArrayRawBuffer
 *
