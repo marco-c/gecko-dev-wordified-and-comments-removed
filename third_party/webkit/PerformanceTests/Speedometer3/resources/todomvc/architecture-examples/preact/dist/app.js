@@ -7377,6 +7377,13 @@ type
 "
 checkbox
 "
+id
+:
+"
+toggle
+-
+all
+"
 checked
 :
 0

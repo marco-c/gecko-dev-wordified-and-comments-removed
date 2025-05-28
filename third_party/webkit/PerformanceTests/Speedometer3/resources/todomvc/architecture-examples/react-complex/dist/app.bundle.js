@@ -67649,6 +67649,13 @@ type
 "
 checkbox
 "
+id
+:
+"
+toggle
+-
+all
+"
 "
 data
 -
