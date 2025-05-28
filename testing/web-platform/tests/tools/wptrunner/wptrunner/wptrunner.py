@@ -2025,6 +2025,15 @@ max_restarts
 "
 ]
                           
+max_restart_backoff
+=
+kwargs
+[
+"
+max_restart_backoff
+"
+]
+                          
 )
 as
 manager_group
