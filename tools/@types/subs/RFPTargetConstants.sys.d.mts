@@ -338,6 +338,11 @@ JSLocalePrompt
 number
 ;
 let
+ScreenAvailToResolution
+:
+number
+;
+let
 IsAlwaysEnabledForPrecompute
 :
 number
