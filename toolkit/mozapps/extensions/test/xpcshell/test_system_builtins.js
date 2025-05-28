@@ -1492,7 +1492,7 @@ removed
 }
 expectSystemUpdateVersion
 :
-false
+true
 }
 )
 ;
