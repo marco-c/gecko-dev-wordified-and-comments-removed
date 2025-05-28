@@ -584,6 +584,16 @@ tabfocus
 "
 7
 ]
+[
+"
+extensions
+.
+pocket
+.
+enabled
+"
+true
+]
 ]
 }
 )
