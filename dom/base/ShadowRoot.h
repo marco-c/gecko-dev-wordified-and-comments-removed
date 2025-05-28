@@ -129,6 +129,12 @@ StyleRuleChangeKind
 :
 uint32_t
 ;
+enum
+class
+BuiltInStyleSheet
+:
+uint8_t
+;
 namespace
 css
 {
@@ -467,6 +473,12 @@ StyleSheetApplicableStateChanged
 (
 StyleSheet
 &
+)
+;
+void
+AppendBuiltInStyleSheet
+(
+BuiltInStyleSheet
 )
 ;
 void
