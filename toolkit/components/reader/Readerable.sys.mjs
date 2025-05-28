@@ -96,5 +96,6 @@ js
 export
 {
 Readerable
+isProbablyReaderable
 }
 ;
