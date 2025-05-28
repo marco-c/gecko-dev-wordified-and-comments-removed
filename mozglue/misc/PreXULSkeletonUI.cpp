@@ -7880,6 +7880,15 @@ window
 marionette
 "
 "
+remote
+-
+allow
+-
+system
+-
+access
+"
+"
 preferences
 "
 "

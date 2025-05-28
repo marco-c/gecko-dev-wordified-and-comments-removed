@@ -18931,16 +18931,21 @@ marionette
 "
 )
             
-env
-[
+args
+.
+append
+(
 "
-MOZ_REMOTE_ALLOW_SYSTEM_ACCESS
+-
+remote
+-
+allow
+-
+system
+-
+access
 "
-]
-=
-"
-1
-"
+)
             
 args
 .
