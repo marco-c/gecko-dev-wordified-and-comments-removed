@@ -792,6 +792,8 @@ classic
 global
 /
 menulist
+-
+shared
 .
 css
 (
@@ -804,6 +806,8 @@ css
 shared
 /
 menulist
+-
+shared
 .
 css
 )

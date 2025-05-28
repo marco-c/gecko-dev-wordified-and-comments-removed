@@ -102,6 +102,15 @@ classic
 /
 global
 /
+menulist
+.
+css
+skin
+/
+classic
+/
+global
+/
 richlistbox
 .
 css
