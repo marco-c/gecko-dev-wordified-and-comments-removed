@@ -1233,7 +1233,7 @@ local
 ;
 static
 void
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 std
 :
