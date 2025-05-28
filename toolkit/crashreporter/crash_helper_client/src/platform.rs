@@ -46,14 +46,11 @@ unix
 [
 cfg
 (
-any
-(
 target_os
 =
 "
 android
 "
-)
 )
 ]
 pub
