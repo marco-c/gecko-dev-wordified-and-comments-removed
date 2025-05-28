@@ -10,7 +10,7 @@ enableShellAllocationMetadataBuilder
 ;
 gczeal
 (
-false
+0
 )
 ;
 var
