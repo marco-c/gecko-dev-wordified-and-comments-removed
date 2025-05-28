@@ -140,9 +140,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-USB_RUNTIME_DEVICE_NAME
 USB_RUNTIME_APP_NAME
 document
 )
@@ -204,9 +203,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-NETWORK_RUNTIME_HOST
 NETWORK_RUNTIME_APP_NAME
 document
 )

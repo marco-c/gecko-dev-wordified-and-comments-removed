@@ -204,9 +204,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-USB_DEVICE_NAME
 USB_APP_NAME
 document
 )

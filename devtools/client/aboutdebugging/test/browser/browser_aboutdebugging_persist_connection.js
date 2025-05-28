@@ -230,9 +230,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-sidebarName
 runtimeName
 document
 )

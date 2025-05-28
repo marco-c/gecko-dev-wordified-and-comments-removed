@@ -200,9 +200,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-RUNTIME_DEVICE_NAME
 RUNTIME_APP_NAME
 document
 )

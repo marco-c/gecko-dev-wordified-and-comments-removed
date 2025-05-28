@@ -379,12 +379,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-"
-Fancy
-Phone
-"
 "
 Lorem
 ipsum

@@ -144,9 +144,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-NETWORK_RUNTIME_HOST
 NETWORK_RUNTIME_APP_NAME
 document
 )
