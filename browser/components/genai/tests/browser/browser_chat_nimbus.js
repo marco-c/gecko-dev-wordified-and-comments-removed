@@ -240,6 +240,7 @@ value
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -448,6 +449,7 @@ value
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -615,6 +617,7 @@ value
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -857,10 +860,12 @@ experiment
 "
 )
 ;
+await
 cleanRollout
 (
 )
 ;
+await
 cleanExperiment
 (
 )
@@ -1008,6 +1013,7 @@ set
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1092,6 +1098,7 @@ set
 "
 )
 ;
+await
 cleanup
 (
 )
