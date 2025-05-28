@@ -127,7 +127,7 @@ background
 color
 :
 #
-F9F9FB
+f9f9fb
 ;
 media
 (
@@ -154,14 +154,16 @@ background
 color
 :
 #
-2B2A33
+2b2a33
 ;
 }
 &
 [
 privatebrowsingmode
 =
+"
 temporary
+"
 ]
 {
 /
@@ -277,7 +279,7 @@ gradient
 0
 %
 #
-45278D
+45278d
 50
 %
 #
@@ -1115,7 +1117,9 @@ browser
 [
 type
 =
+"
 content
+"
 ]
 {
 color
@@ -1289,7 +1293,9 @@ width
 [
 type
 =
+"
 status
+"
 ]
 {
 min
@@ -1308,7 +1314,9 @@ min
 [
 type
 =
+"
 overLink
+"
 ]
 {
 transition
@@ -1329,7 +1337,9 @@ is
 [
 type
 =
+"
 overLink
+"
 ]
 [
 inactive
@@ -1337,7 +1347,9 @@ inactive
 [
 previoustype
 =
+"
 overLink
+"
 ]
 )
 {
@@ -1362,7 +1374,9 @@ not
 [
 type
 =
+"
 overLink
+"
 ]
 )
 {
@@ -1382,7 +1396,9 @@ hidden
 [
 previoustype
 =
+"
 overLink
+"
 ]
 {
 transition
@@ -1665,6 +1681,7 @@ right
 -
 radius
 :
+0
 .
 3em
 ;
@@ -1758,6 +1775,7 @@ left
 -
 radius
 :
+0
 .
 3em
 ;

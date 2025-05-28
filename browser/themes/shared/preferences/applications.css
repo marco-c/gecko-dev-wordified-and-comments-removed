@@ -251,6 +251,13 @@ png
 )
 ;
 }
+/
+*
+prettier
+-
+ignore
+*
+/
 media
 (
 -

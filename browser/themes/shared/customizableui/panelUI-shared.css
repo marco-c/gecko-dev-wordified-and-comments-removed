@@ -452,17 +452,17 @@ gradient
 (
 90deg
 #
-9059FF
+9059ff
 0
 %
 #
-FF4AA2
+ff4aa2
 52
 .
 08
 %
 #
-FFBD4F
+ffbd4f
 100
 %
 )
@@ -472,7 +472,9 @@ FFBD4F
 [
 uidensity
 =
+"
 compact
+"
 ]
 {
 -
@@ -2229,7 +2231,9 @@ shrink
 [
 disabled
 =
+"
 true
+"
 ]
 {
 visibility
@@ -3370,7 +3374,7 @@ fill
 fill
 :
 #
-FFF
+fff
 ;
 animation
 :
@@ -3726,6 +3730,7 @@ transform
 :
 scale
 (
+0
 .
 8
 )
@@ -3742,11 +3747,13 @@ cubic
 -
 bezier
 (
+0
 .
 25
 1
 .
 27
+0
 .
 35
 1
@@ -4063,7 +4070,9 @@ toolbar
 [
 overflowedItem
 =
+"
 true
+"
 ]
 )
 >
@@ -4171,6 +4180,7 @@ transform
 :
 scale
 (
+0
 .
 5
 )
@@ -5061,6 +5071,7 @@ button
 display
 :
 none
+;
 }
 :
 root
@@ -5350,7 +5361,9 @@ root
 [
 fxadisabled
 =
+"
 true
+"
 ]
 #
 appMenu
@@ -5363,7 +5376,9 @@ root
 [
 fxadisabled
 =
+"
 true
+"
 ]
 #
 appMenu
@@ -7740,7 +7755,9 @@ device
 [
 clientType
 =
+"
 phone
+"
 ]
 {
 list
@@ -7773,7 +7790,9 @@ svg
 [
 clientType
 =
+"
 tablet
+"
 ]
 {
 list
@@ -7806,7 +7825,9 @@ svg
 [
 clientType
 =
+"
 desktop
+"
 ]
 {
 list
@@ -7839,7 +7860,9 @@ svg
 [
 clientType
 =
+"
 tv
+"
 ]
 {
 list
@@ -7872,7 +7895,9 @@ svg
 [
 clientType
 =
+"
 vr
+"
 ]
 {
 list
@@ -8516,6 +8541,13 @@ a
 toolbar
 button
 .
+*
+/
+/
+*
+prettier
+-
+ignore
 *
 /
 #
@@ -10843,7 +10875,9 @@ toolbar
 [
 overflowedItem
 =
+"
 true
+"
 ]
 )
 >
@@ -11071,6 +11105,7 @@ hsla
 %
 10
 %
+0
 .
 03
 )
@@ -11568,7 +11603,9 @@ toolbar
 [
 overflowedItem
 =
+"
 true
+"
 ]
 )
 >
@@ -11668,7 +11705,9 @@ toolbar
 [
 overflowedItem
 =
+"
 true
+"
 ]
 )
 >
@@ -11730,7 +11769,9 @@ toolbar
 [
 overflowedItem
 =
+"
 true
+"
 ]
 )
 >
@@ -11897,6 +11938,7 @@ inline
 -
 start
 :
+0
 .
 5em
 ;
@@ -13633,6 +13675,7 @@ transition
 margin
 -
 bottom
+0
 .
 25s
 ;
@@ -13756,6 +13799,7 @@ margin
 transition
 :
 opacity
+0
 .
 25s
 ;
@@ -14568,6 +14612,7 @@ font
 -
 size
 :
+0
 .
 9em
 ;
@@ -14607,6 +14652,7 @@ font
 -
 size
 :
+0
 .
 9em
 ;
@@ -15080,10 +15126,12 @@ panelview
 id
 ^
 =
+"
 PanelUI
 -
 webext
 -
+"
 ]
 {
 border

@@ -186,7 +186,9 @@ transparent
 [
 uidensity
 =
+"
 compact
+"
 ]
 {
 -
@@ -204,7 +206,9 @@ height
 [
 uidensity
 =
+"
 touch
+"
 ]
 {
 -
@@ -579,7 +583,7 @@ loading
 fill
 :
 #
-0A84FF
+0a84ff
 ;
 -
 -
@@ -1598,7 +1602,7 @@ color
 gray
 :
 #
-5E6A77
+5e6a77
 ;
 -
 -
@@ -1613,7 +1617,7 @@ gray
 invert
 :
 #
-99A6B4
+99a6b4
 ;
 -
 -
@@ -1628,7 +1632,7 @@ gray
 pale
 :
 #
-F2F9FF
+f2f9ff
 ;
 -
 -
@@ -2218,6 +2222,7 @@ periphery
 transition
 :
 width
+0
 .
 15s
 ease
@@ -2825,7 +2830,9 @@ tabs
 [
 orient
 =
+"
 horizontal
+"
 ]
 &
 :
@@ -2918,7 +2925,9 @@ not
 [
 uidensity
 =
+"
 compact
+"
 ]
 [
 sidebar
@@ -3290,6 +3299,7 @@ cubic
 -
 bezier
 (
+0
 0
 0
 .
@@ -5052,7 +5062,9 @@ tabs
 [
 orient
 =
+"
 vertical
+"
 ]
 &
 {
@@ -7200,7 +7212,9 @@ unsupported
 [
 orient
 =
+"
 vertical
+"
 ]
 )
 &
@@ -7231,7 +7245,9 @@ textoverflow
 [
 labeldirection
 =
+"
 ltr
+"
 ]
 &
 :
@@ -7287,7 +7303,9 @@ size
 [
 labeldirection
 =
+"
 rtl
+"
 ]
 &
 :
@@ -7761,14 +7779,17 @@ font
 -
 size
 :
+0
 .
 75em
 ;
 margin
 :
 -
+0
 .
 3em
+0
 0
 .
 3em
@@ -7792,6 +7813,7 @@ label
 /
 opacity
 :
+0
 .
 8
 ;
@@ -7821,7 +7843,9 @@ root
 [
 uidensity
 =
+"
 compact
+"
 ]
 &
 &
@@ -8816,6 +8840,13 @@ padding
 ;
 }
 }
+/
+*
+prettier
+-
+ignore
+*
+/
 #
 tabbrowser
 -
@@ -9350,6 +9381,13 @@ display
 flex
 ;
 }
+/
+*
+prettier
+-
+ignore
+*
+/
 #
 tabbrowser
 -
@@ -11518,6 +11556,13 @@ inline
 margins
 *
 /
+/
+*
+prettier
+-
+ignore
+*
+/
 background
 -
 image
@@ -11585,6 +11630,7 @@ border
 -
 left
 :
+0
 .
 5px
 solid
@@ -11593,6 +11639,7 @@ rgba
 255
 255
 255
+0
 .
 2
 )
@@ -11611,6 +11658,7 @@ border
 -
 bottom
 :
+0
 .
 5px
 solid
@@ -11641,6 +11689,7 @@ margin
 inline
 :
 -
+0
 .
 5px
 -
@@ -11677,6 +11726,7 @@ inline
 .
 5px
 -
+0
 .
 5px
 ;
@@ -11788,6 +11838,7 @@ rgba
 0
 0
 0
+0
 .
 05
 )
@@ -11796,6 +11847,7 @@ rgba
 255
 255
 255
+0
 .
 05
 )
@@ -12997,6 +13049,7 @@ rgba
 0
 0
 0
+0
 .
 05
 )
@@ -13005,6 +13058,7 @@ rgba
 255
 255
 255
+0
 .
 05
 )
