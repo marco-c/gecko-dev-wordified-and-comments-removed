@@ -39,6 +39,12 @@ assert_equals
 ;
 ReflectionHarness
 .
+assertInArray
+=
+assert_in_array
+;
+ReflectionHarness
+.
 assertThrows
 =
 assert_throws_dom
