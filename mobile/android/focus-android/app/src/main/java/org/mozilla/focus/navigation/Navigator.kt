@@ -416,6 +416,17 @@ navigation
 showOnBoardingSecondScreen
 (
 )
+is
+Screen
+.
+CrashListScreen
+-
+>
+navigation
+.
+showCrashList
+(
+)
 }
 }
 }
