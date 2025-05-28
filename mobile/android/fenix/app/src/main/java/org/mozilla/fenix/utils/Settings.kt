@@ -9767,7 +9767,7 @@ configuration
 var
 useRemoteSearchConfiguration
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -9783,7 +9783,6 @@ pref_key_use_remote_search_configuration
 )
 default
 =
-{
 FxNimbus
 .
 features
@@ -9795,10 +9794,6 @@ value
 )
 .
 enabled
-}
-featureFlag
-=
-true
 )
 /
 *
