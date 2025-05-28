@@ -1,11 +1,17 @@
 import
 os
+import
+android_taskgraph
 from
 taskgraph
 import
 config
 as
 taskgraph_config
+from
+taskgraph
+import
+generator
 from
 taskgraph
 import
@@ -168,14 +174,6 @@ object
 "
 "
     
-import
-android_taskgraph
-    
-from
-taskgraph
-import
-generator
-    
 from
 taskgraph
 .
@@ -185,36 +183,26 @@ base
 import
 registry
     
-del
-registry
-[
-"
-skip
--
-unless
--
-changed
-"
-]
+from
+taskgraph
+.
+transforms
+.
+task
+import
+payload_builders
     
 from
 gecko_taskgraph
 import
 (
         
-morph
-        
 filter_tasks
+        
+morph
         
 target_tasks
     
-)
-    
-android_taskgraph
-.
-register
-(
-graph_config
 )
     
 from
@@ -229,7 +217,11 @@ gecko_taskgraph
 .
 util
 import
+(
+        
 dependencies
+    
+)
     
 from
 gecko_taskgraph
@@ -239,6 +231,53 @@ util
 verify
 import
 verifications
+    
+del
+registry
+[
+"
+skip
+-
+unless
+-
+changed
+"
+]
+    
+del
+payload_builders
+[
+"
+beetmover
+"
+]
+    
+del
+payload_builders
+[
+"
+docker
+-
+worker
+"
+]
+    
+del
+payload_builders
+[
+"
+generic
+-
+worker
+"
+]
+    
+android_taskgraph
+.
+register
+(
+graph_config
+)
     
 generator
 .
