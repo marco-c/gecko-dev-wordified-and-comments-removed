@@ -495,6 +495,7 @@ strict
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )

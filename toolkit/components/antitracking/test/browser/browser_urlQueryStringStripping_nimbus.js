@@ -619,6 +619,7 @@ string
 )
 ;
 }
+await
 doExperimentCleanup
 (
 )
