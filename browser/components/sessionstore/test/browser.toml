@@ -2054,13 +2054,6 @@ js
 ]
 [
 "
-browser_sessionHistory_partitionedPrincipalToInherit
-.
-js
-"
-]
-[
-"
 browser_sessionHistory
 .
 js
