@@ -5898,7 +5898,7 @@ App
 .
 isForStartupCache
 .
-TopSites
+App
 &
 &
 isSponsored
