@@ -51,6 +51,7 @@ ProfilerController
 "
 ;
 public
+static
 boolean
 isProfilerActive
 (
@@ -65,6 +66,7 @@ isProfilerActive
 ;
 }
 public
+static
 Nullable
 Double
 getProfilerTime
@@ -80,6 +82,7 @@ tryToGetProfilerTime
 ;
 }
 public
+static
 void
 addMarker
 (
@@ -113,6 +116,7 @@ aText
 ;
 }
 public
+static
 void
 addMarker
 (
@@ -142,6 +146,7 @@ aText
 ;
 }
 public
+static
 void
 addMarker
 (
@@ -165,6 +170,7 @@ null
 ;
 }
 public
+static
 void
 addMarker
 (
@@ -188,6 +194,7 @@ aText
 ;
 }
 public
+static
 void
 addMarker
 (
@@ -207,6 +214,7 @@ null
 ;
 }
 public
+static
 void
 startProfiler
 (
@@ -234,6 +242,7 @@ aFeaturesArr
 ;
 }
 public
+static
 NonNull
 GeckoResult
 <

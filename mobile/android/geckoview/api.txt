@@ -7190,6 +7190,20 @@ getPreferencesObserverDelegate
 )
 ;
 method
+Deprecated
+DeprecationSchedule
+(
+id
+=
+"
+GeckoRuntime
+-
+getProfilerController
+"
+version
+=
+142
+)
 NonNull
 UiThread
 public
@@ -18680,6 +18694,7 @@ ProfilerController
 ;
 method
 public
+static
 void
 addMarker
 (
@@ -18695,6 +18710,7 @@ String
 ;
 method
 public
+static
 void
 addMarker
 (
@@ -18708,6 +18724,7 @@ String
 ;
 method
 public
+static
 void
 addMarker
 (
@@ -18719,6 +18736,7 @@ Double
 ;
 method
 public
+static
 void
 addMarker
 (
@@ -18730,6 +18748,7 @@ String
 ;
 method
 public
+static
 void
 addMarker
 (
@@ -18740,6 +18759,7 @@ String
 method
 Nullable
 public
+static
 Double
 getProfilerTime
 (
@@ -18747,6 +18767,7 @@ getProfilerTime
 ;
 method
 public
+static
 boolean
 isProfilerActive
 (
@@ -18754,6 +18775,7 @@ isProfilerActive
 ;
 method
 public
+static
 void
 startProfiler
 (
@@ -18770,6 +18792,7 @@ String
 method
 NonNull
 public
+static
 GeckoResult
 <
 byte
