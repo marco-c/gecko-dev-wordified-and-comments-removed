@@ -30,6 +30,9 @@ mod
 docs
 ;
 mod
+enums
+;
+mod
 interfaces
 ;
 mod
@@ -60,7 +63,10 @@ use
 anyhow
 :
 :
+{
+bail
 Result
+}
 ;
 pub
 use
@@ -153,6 +159,14 @@ pass
 (
 pipeline_map
 )
+)
+.
+pass
+(
+enums
+:
+:
+pass
 )
 .
 pass
