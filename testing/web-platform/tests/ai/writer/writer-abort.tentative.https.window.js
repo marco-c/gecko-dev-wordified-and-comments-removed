@@ -39,7 +39,6 @@ Writer
 create
 (
 )
-.
 '
 )
 ;
@@ -90,7 +89,6 @@ Writer
 write
 (
 )
-.
 '
 )
 ;
@@ -141,7 +139,6 @@ Writer
 writeStreaming
 (
 )
-.
 '
 )
 ;
@@ -184,9 +181,6 @@ signal
 controller
 .
 signal
-context
-:
-kTestContext
 }
 )
 ;
@@ -216,7 +210,6 @@ writeStreaming
 after
 finished
 reading
-.
 '
 )
 ;

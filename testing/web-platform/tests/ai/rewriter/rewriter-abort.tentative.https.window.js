@@ -39,7 +39,6 @@ Rewriter
 create
 (
 )
-.
 '
 )
 ;
@@ -90,7 +89,6 @@ Rewriter
 rewrite
 (
 )
-.
 '
 )
 ;
@@ -141,7 +139,6 @@ Rewriter
 rewriteStreaming
 (
 )
-.
 '
 )
 ;
@@ -211,7 +208,6 @@ rewriteStreaming
 after
 finished
 reading
-.
 '
 )
 ;
