@@ -9411,7 +9411,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 switch
@@ -27776,7 +27776,7 @@ baselineCall
 ABIKind
 :
 :
-WasmBuiltin
+System
 RestoreState
 :
 :
@@ -31407,7 +31407,7 @@ baselineCall
 ABIKind
 :
 :
-WasmBuiltin
+System
 RestoreState
 :
 :

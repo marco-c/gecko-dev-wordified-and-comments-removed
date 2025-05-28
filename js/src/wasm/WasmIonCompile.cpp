@@ -590,7 +590,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 {
 #
@@ -12080,7 +12080,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 MInstruction
@@ -14989,7 +14989,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -15056,7 +15056,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -15146,7 +15146,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -15281,7 +15281,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -15796,7 +15796,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 if
@@ -17161,7 +17161,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 if

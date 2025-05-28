@@ -451,7 +451,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 restoreState
 =
 =
@@ -505,7 +505,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 {
 #

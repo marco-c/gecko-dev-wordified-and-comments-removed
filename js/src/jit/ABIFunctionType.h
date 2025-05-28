@@ -37,7 +37,6 @@ ABIKind
 {
 System
 Wasm
-WasmBuiltin
 }
 ;
 enum

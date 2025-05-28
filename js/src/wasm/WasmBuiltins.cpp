@@ -11408,7 +11408,7 @@ masm
 ABIKind
 :
 :
-WasmBuiltin
+System
 abiType
 exitReason
 funcPtr
