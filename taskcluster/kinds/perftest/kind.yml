@@ -83,6 +83,12 @@ signing
 apk
 -
 fetch
+-
+build
+-
+fat
+-
+aar
 transforms
 :
 -
