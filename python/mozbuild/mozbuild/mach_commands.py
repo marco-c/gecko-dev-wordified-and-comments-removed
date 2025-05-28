@@ -12748,14 +12748,6 @@ checkDefaultBrowser
 "
 :
 False
-            
-"
-general
-.
-warnOnAboutConfig
-"
-:
-False
         
 }
         
