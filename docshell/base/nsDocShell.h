@@ -2022,6 +2022,9 @@ nsIStructuredCloneContainer
 aData
 bool
 aURIWasModified
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 ;
 nsresult
