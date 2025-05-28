@@ -1399,12 +1399,17 @@ const
 T
 &
 argTypes
+jit
+:
+:
+ABIKind
+kind
 )
 {
 jit
 :
 :
-WasmABIArgIter
+ABIArgIter
 <
 const
 T
@@ -1412,6 +1417,7 @@ T
 i
 (
 argTypes
+kind
 )
 ;
 while
@@ -1446,6 +1452,11 @@ const
 SymbolicAddressSignature
 &
 saSig
+jit
+:
+:
+ABIKind
+kind
 )
 {
 class
@@ -1580,6 +1591,7 @@ return
 StackArgAreaSizeUnaligned
 (
 itemsAndLength
+kind
 )
 ;
 }

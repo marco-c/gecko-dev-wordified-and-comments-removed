@@ -100584,6 +100584,10 @@ nInboundStackArgBytes
 StackArgAreaSizeUnaligned
 (
 argTypes
+ABIKind
+:
+:
+Wasm
 )
 ;
 inboundStackArgBytes_
