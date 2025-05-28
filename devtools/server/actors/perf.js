@@ -286,9 +286,6 @@ stackwalk
 cpu
 "
 "
-responsiveness
-"
-"
 memory
 "
 ]
