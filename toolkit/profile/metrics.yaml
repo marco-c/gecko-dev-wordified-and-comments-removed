@@ -564,6 +564,16 @@ never
 telemetry_mirror
 :
 STARTUP_PROFILE_SELECTION_REASON
+send_in_pings
+:
+-
+metrics
+-
+baseline
+no_lint
+:
+-
+BASELINE_PING
 profile_database_version
 :
 type
