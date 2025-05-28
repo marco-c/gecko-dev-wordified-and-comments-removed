@@ -227,6 +227,10 @@ nimbus
 -
 support
 -
+appservices
+-
+support
+-
 base
 -
 support
@@ -248,14 +252,6 @@ locale
 support
 -
 remotesettings
--
-support
--
-rusthttp
--
-support
--
-rustlog
 -
 support
 -
