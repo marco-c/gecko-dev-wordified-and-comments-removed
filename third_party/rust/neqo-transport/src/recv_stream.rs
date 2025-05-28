@@ -51,6 +51,10 @@ collections
 :
 :
 BTreeMap
+fmt
+:
+:
+Debug
 mem
 rc
 :
@@ -4880,6 +4884,10 @@ cell
 :
 :
 RefCell
+fmt
+:
+:
+Debug
 ops
 :
 :
@@ -9968,12 +9976,6 @@ fn
 check_fc
 <
 T
-:
-std
-:
-:
-fmt
-:
 :
 Debug
 >

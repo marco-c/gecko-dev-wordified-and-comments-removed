@@ -6,6 +6,7 @@ fmt
 :
 :
 {
+self
 Debug
 Formatter
 }
@@ -234,11 +235,6 @@ Formatter
 )
 -
 >
-:
-:
-std
-:
-:
 fmt
 :
 :
@@ -612,11 +608,6 @@ Formatter
 )
 -
 >
-:
-:
-std
-:
-:
 fmt
 :
 :

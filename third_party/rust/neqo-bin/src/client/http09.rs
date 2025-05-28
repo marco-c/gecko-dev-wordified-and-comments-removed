@@ -34,6 +34,10 @@ collections
 HashMap
 VecDeque
 }
+fmt
+:
+:
+Display
 fs
 :
 :
@@ -1212,12 +1216,6 @@ AsRef
 str
 >
 +
-std
-:
-:
-fmt
-:
-:
 Display
 {
 if

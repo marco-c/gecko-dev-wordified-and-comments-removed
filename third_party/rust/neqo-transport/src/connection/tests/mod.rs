@@ -4223,6 +4223,8 @@ borrow_mut
 )
 .
 local
+(
+)
 .
 get_empty
 (
@@ -4285,6 +4287,8 @@ borrow_mut
 )
 .
 local
+(
+)
 .
 get_empty
 (

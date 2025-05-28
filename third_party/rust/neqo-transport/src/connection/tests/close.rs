@@ -615,7 +615,9 @@ client
 .
 crypto
 .
-tls
+tls_mut
+(
+)
 .
 set_option
 (

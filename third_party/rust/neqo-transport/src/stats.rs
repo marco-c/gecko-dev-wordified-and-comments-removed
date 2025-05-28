@@ -1147,6 +1147,7 @@ pub
 struct
 Stats
 {
+pub
 info
 :
 String

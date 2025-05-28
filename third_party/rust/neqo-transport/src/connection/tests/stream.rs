@@ -11,6 +11,10 @@ collections
 :
 :
 HashMap
+fmt
+:
+:
+Debug
 }
 ;
 use
@@ -1647,12 +1651,6 @@ R
 :
 IntoIterator
 +
-std
-:
-:
-fmt
-:
-:
 Debug
 R
 :

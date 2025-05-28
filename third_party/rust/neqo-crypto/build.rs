@@ -7,6 +7,10 @@ clippy
 :
 :
 unwrap_used
+clippy
+:
+:
+iter_over_hash_type
 reason
 =
 "

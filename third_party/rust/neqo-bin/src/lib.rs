@@ -119,7 +119,6 @@ h3
 "
 )
 ]
-pub
 alpn
 :
 String
@@ -147,7 +146,6 @@ PathBuf
 )
 )
 ]
-pub
 qlog_dir
 :
 Option
@@ -175,7 +173,6 @@ default_value
 "
 )
 ]
-pub
 max_table_size_encoder
 :
 u64
@@ -200,7 +197,6 @@ default_value
 "
 )
 ]
-pub
 max_table_size_decoder
 :
 u64
@@ -230,7 +226,6 @@ default_value
 "
 )
 ]
-pub
 max_blocked_streams
 :
 u16
@@ -249,7 +244,6 @@ number_of_values
 1
 )
 ]
-pub
 ciphers
 :
 Vec
@@ -270,7 +264,6 @@ test
 long
 )
 ]
-pub
 qns_test
 :
 Option
@@ -284,7 +277,6 @@ command
 flatten
 )
 ]
-pub
 quic_parameters
 :
 QuicParameters

@@ -41,7 +41,11 @@ std
 fmt
 :
 :
+{
+self
 Debug
+Formatter
+}
 ;
 use
 enum_map
@@ -688,12 +692,6 @@ f
 :
 &
 mut
-std
-:
-:
-fmt
-:
-:
 Formatter
 <
 '
@@ -702,9 +700,6 @@ _
 )
 -
 >
-std
-:
-:
 fmt
 :
 :
