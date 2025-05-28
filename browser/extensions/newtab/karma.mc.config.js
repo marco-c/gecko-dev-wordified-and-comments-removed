@@ -896,12 +896,12 @@ statements
 :
 84
 .
-55
+43
 lines
 :
-84
+83
 .
-03
+9
 functions
 :
 79
