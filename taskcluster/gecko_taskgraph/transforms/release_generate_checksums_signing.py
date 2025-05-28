@@ -77,7 +77,7 @@ util
 .
 scriptworker
 import
-get_signing_cert_scope
+get_signing_type
 release_generate_checksums_signing_schema
 =
 Schema
@@ -521,9 +521,9 @@ gcp_prod_autograph_gpg
         
 ]
         
-signing_cert_scope
+signing_type
 =
-get_signing_cert_scope
+get_signing_type
 (
 config
 )
@@ -573,6 +573,14 @@ signing
 "
                 
 "
+signing
+-
+type
+"
+:
+signing_type
+                
+"
 upstream
 -
 artifacts
@@ -591,16 +599,6 @@ time
 3600
             
 }
-            
-"
-scopes
-"
-:
-[
-                
-signing_cert_scope
-            
-]
             
 "
 dependencies
