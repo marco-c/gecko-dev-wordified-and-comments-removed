@@ -9,8 +9,6 @@ custom
 elements
 -
 registry
-.
-tentative
 "
 ]
 [
