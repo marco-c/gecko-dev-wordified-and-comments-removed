@@ -258,14 +258,6 @@ telemetryId
 notification
 "
 )
-ADD_ONS
-(
-telemetryId
-=
-"
-add_ons
-"
-)
 TOOLBAR_PLACEMENT
 (
 telemetryId
