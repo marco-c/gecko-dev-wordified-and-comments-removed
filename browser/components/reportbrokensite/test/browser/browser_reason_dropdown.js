@@ -503,6 +503,12 @@ defaultOrder
 choose
 "
 "
+checkout
+"
+"
+load
+"
+"
 slow
 "
 "
@@ -515,7 +521,10 @@ content
 account
 "
 "
-adblockers
+adblocker
+"
+"
+notsupported
 "
 "
 other

@@ -96,7 +96,7 @@ win
 breakageCategory
 :
 "
-adblockers
+adblocker
 "
 description
 :
