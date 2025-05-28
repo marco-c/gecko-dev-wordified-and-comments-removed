@@ -2014,13 +2014,6 @@ aObserverId
 )
 ;
 async
-ClearNativeTouchSequence
-(
-uint64_t
-aObserverId
-)
-;
-async
 SynthesizeNativePenInput
 (
 uint32_t

@@ -3435,15 +3435,6 @@ aObserver
 ;
 virtual
 nsresult
-ClearNativeTouchSequence
-(
-nsIObserver
-*
-aObserver
-)
-;
-virtual
-nsresult
 SynthesizeNativeTouchpadDoubleTap
 (
 LayoutDeviceIntPoint
