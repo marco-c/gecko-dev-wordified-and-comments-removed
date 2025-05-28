@@ -2996,6 +2996,7 @@ new
 PrefFlipsFailedError
 (
 pref
+value
 )
 ;
 }
