@@ -1,0 +1,14 @@
+#
+[
+uniffi
+:
+:
+export
+]
+pub
+fn
+test_func
+(
+)
+{
+}
