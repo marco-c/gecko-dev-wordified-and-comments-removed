@@ -86,23 +86,6 @@ diff
         
 "
 -
--
-rev
-"
-        
-"
-draft
-(
-)
-and
-ancestors
-(
-.
-)
-"
-        
-"
--
 I
 "
         
