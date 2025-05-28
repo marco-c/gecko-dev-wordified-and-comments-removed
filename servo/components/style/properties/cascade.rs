@@ -3972,6 +3972,10 @@ LonghandIdSet
 zoom_dependent_inherited_properties
 (
 )
+.
+iter
+(
+)
 {
 if
 self
@@ -3980,7 +3984,6 @@ seen
 .
 contains
 (
-*
 prop
 )
 {
@@ -3995,7 +3998,6 @@ PropertyDeclaration
 :
 css_wide_keyword
 (
-*
 prop
 CSSWideKeyword
 :
@@ -4010,7 +4012,6 @@ self
 do_apply_declaration
 (
 context
-*
 prop
 &
 declaration
