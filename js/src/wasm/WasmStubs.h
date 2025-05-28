@@ -1049,6 +1049,11 @@ masm
 jit
 :
 :
+ABIKind
+abiKind
+jit
+:
+:
 ABIFunctionType
 abiType
 ExitReason

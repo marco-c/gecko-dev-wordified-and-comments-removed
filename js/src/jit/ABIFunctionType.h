@@ -33,6 +33,15 @@ jit
 {
 enum
 class
+ABIKind
+{
+System
+Wasm
+WasmBuiltin
+}
+;
+enum
+class
 ABIType
 {
 General

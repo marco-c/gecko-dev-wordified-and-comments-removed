@@ -13444,6 +13444,13 @@ false
 -
 name
 :
+WasmBuiltinFloatRegisterResult
+gen_boilerplate
+:
+false
+-
+name
+:
 WasmRegister64Result
 gen_boilerplate
 :

@@ -773,7 +773,7 @@ ProvisionalLazyJitEntryStub
 ;
 void
 *
-MaybeGetBuiltinThunk
+MaybeGetTypedNative
 (
 JSFunction
 *

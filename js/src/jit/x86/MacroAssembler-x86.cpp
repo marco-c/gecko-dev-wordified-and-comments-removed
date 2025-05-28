@@ -4690,12 +4690,6 @@ stackAdjust
 ;
 if
 (
-!
-callFromWasm
-)
-{
-if
-(
 result
 =
 =
@@ -4788,7 +4782,6 @@ float
 )
 )
 ;
-}
 }
 if
 (

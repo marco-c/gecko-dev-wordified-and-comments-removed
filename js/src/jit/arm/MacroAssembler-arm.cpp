@@ -24986,10 +24986,6 @@ lr
 if
 (
 !
-callFromWasm
-&
-&
-!
 ARMFlags
 :
 :
