@@ -896,10 +896,14 @@ single
 action
 chain
 .
+await
 ChromeUtils
 .
 endWheelTransaction
 (
+this
+.
+contentWindow
 )
 ;
 /

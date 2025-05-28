@@ -4146,10 +4146,16 @@ chrome
 /
 [
 ChromeOnly
+Throws
 ]
+Promise
+<
 undefined
+>
 endWheelTransaction
 (
+WindowProxy
+window
 )
 ;
 /

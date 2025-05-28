@@ -99,6 +99,15 @@ DISPATCH_NORMAL
 )
 ;
 static
+already_AddRefed
+<
+nsISerialEventTarget
+>
+GetControllerThread
+(
+)
+;
+static
 bool
 IsControllerThread
 (

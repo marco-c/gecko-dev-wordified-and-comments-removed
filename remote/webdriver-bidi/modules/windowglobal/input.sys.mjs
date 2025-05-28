@@ -720,10 +720,16 @@ single
 action
 chain
 .
+await
 ChromeUtils
 .
 endWheelTransaction
 (
+this
+.
+messageHandler
+.
+window
 )
 ;
 /
