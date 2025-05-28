@@ -12,8 +12,6 @@ pyproject
 toml
 "
 [
-lint
-.
 isort
 ]
 known

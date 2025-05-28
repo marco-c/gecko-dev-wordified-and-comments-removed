@@ -169,7 +169,9 @@ worker
 :
 implementation
 :
-iscript
+scriptworker
+-
+signing
 max
 -
 run

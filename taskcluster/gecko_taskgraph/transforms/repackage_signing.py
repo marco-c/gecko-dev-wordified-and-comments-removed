@@ -68,7 +68,7 @@ util
 .
 scriptworker
 import
-get_signing_type_per_platform
+get_signing_cert_scope_per_platform
 repackage_signing_description_schema
 =
 Schema
@@ -816,9 +816,9 @@ shippable
 "
 )
         
-signing_type
+signing_cert_scope
 =
-get_signing_type_per_platform
+get_signing_cert_scope_per_platform
 (
             
 build_platform
@@ -826,6 +826,12 @@ is_shippable
 config
         
 )
+        
+scopes
+=
+[
+signing_cert_scope
+]
         
 upstream_artifacts
 =
@@ -984,14 +990,6 @@ signing
 "
                 
 "
-signing
--
-type
-"
-:
-signing_type
-                
-"
 upstream
 -
 artifacts
@@ -1010,6 +1008,12 @@ time
 3600
             
 }
+            
+"
+scopes
+"
+:
+scopes
             
 "
 dependencies
