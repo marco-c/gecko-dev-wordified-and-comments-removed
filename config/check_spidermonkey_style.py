@@ -340,7 +340,7 @@ h
 "
         
 "
-mozmemory_utils
+mozmemory_stall
 .
 h
 "

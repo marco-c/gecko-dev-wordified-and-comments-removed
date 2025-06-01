@@ -140,7 +140,7 @@ the
 profiler
 .
 *
-mozmemory_utils
+mozmemory_stall
 .
 h
 Low
