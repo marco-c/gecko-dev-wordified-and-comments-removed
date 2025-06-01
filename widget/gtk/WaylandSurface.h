@@ -1325,7 +1325,7 @@ void
 )
 >
 >
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 ;
 wl_callback
 *
