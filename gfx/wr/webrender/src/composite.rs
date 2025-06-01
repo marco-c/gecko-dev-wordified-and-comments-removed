@@ -5904,6 +5904,12 @@ self
 index
 :
 usize
+dirty_rects
+:
+&
+[
+DeviceIntRect
+]
 )
 ;
 fn
