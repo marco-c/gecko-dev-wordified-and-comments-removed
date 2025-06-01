@@ -305,6 +305,13 @@ third_party
 /
 python
 /
+mozilla_taskgraph
+vendored
+:
+third_party
+/
+python
+/
 multidict
 vendored
 :
