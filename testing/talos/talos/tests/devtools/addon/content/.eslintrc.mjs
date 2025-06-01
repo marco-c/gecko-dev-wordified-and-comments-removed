@@ -127,6 +127,11 @@ argsIgnorePattern
 ^
 _
 "
+caughtErrors
+:
+"
+none
+"
 vars
 :
 "

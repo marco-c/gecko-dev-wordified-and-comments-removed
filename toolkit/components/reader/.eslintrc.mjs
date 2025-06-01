@@ -92,6 +92,11 @@ vars
 "
 all
 "
+caughtErrors
+:
+"
+none
+"
 argsIgnorePattern
 :
 "

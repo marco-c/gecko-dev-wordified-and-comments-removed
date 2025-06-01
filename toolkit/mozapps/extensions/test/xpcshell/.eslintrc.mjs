@@ -82,6 +82,11 @@ argsIgnorePattern
 ^
 _
 "
+caughtErrors
+:
+"
+none
+"
 varsIgnorePattern
 :
 "
@@ -125,6 +130,11 @@ argsIgnorePattern
 "
 ^
 _
+"
+caughtErrors
+:
+"
+none
 "
 vars
 :

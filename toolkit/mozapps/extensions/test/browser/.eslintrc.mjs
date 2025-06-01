@@ -98,6 +98,11 @@ argsIgnorePattern
 ^
 _
 "
+caughtErrors
+:
+"
+none
+"
 varsIgnorePattern
 :
 "

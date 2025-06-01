@@ -738,6 +738,11 @@ args
 "
 none
 "
+caughtErrors
+:
+"
+none
+"
 vars
 :
 "
