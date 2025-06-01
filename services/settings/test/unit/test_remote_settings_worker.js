@@ -163,13 +163,10 @@ before
 await
 client
 .
-get
+db
+.
+getLastModified
 (
-{
-syncIfEmpty
-:
-false
-}
 )
 ;
 Assert
@@ -177,9 +174,7 @@ Assert
 equal
 (
 before
-.
-length
-0
+null
 )
 ;
 await

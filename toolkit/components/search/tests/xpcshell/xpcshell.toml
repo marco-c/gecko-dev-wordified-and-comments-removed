@@ -400,7 +400,9 @@ js
 tags
 =
 "
-remotesettings
+remote
+-
+settings
 searchmain
 "
 [
