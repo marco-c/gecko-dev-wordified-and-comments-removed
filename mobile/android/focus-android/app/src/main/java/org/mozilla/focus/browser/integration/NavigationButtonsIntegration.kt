@@ -75,11 +75,13 @@ Context
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 kotlinx
 .
@@ -369,7 +371,7 @@ TwoStateButton
 (
 primaryImage
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -463,7 +465,7 @@ TwoStateButton
 (
 primaryImage
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -557,7 +559,7 @@ TwoStateButton
 (
 primaryImage
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -572,7 +574,7 @@ mozac_ic_stop
 !
 secondaryImage
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

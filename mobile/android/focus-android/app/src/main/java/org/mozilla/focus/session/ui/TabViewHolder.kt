@@ -75,11 +75,13 @@ DrawableRes
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -603,7 +605,7 @@ drawable
 val
 drawableWidth
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
