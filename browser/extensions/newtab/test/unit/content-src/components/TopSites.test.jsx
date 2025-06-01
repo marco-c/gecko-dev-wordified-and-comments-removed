@@ -11503,7 +11503,7 @@ App
 isForStartupCache
 :
 {
-App
+TopSites
 :
 true
 }

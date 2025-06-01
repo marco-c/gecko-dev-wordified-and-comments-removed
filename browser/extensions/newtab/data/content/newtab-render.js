@@ -8,6 +8,11 @@ if
 window
 .
 __FROM_STARTUP_CACHE__
+&
+&
+window
+.
+__STARTUP_STATE__
 )
 {
 window

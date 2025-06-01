@@ -121,6 +121,13 @@ js
 ]
 [
 "
+test_StartupCacheInit
+.
+js
+"
+]
+[
+"
 test_TelemetryFeed
 .
 js
