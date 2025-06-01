@@ -3303,6 +3303,7 @@ implemented
 }
 getBrowserData
 (
+_browser
 )
 {
 throw
