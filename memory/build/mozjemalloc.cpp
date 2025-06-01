@@ -682,7 +682,6 @@ malloc_initialized
 ;
 #
 endif
-static
 StaticMutex
 gInitLock
 MOZ_UNANNOTATED
