@@ -1,3 +1,11 @@
+DIRS
++
+=
+[
+"
+abridged_certs
+"
+]
 TEST_DIRS
 +
 =
