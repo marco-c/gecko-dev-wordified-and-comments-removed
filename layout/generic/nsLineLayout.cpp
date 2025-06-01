@@ -4018,19 +4018,6 @@ aWM
 positionProperty
 )
 ;
-const
-auto
-anchorPosResolutionParams
-=
-AnchorPosResolutionParams
-:
-:
-UseCBFrameSize
-(
-aFrame
-positionProperty
-)
-;
 if
 (
 (
@@ -4095,7 +4082,7 @@ LogicalSide
 :
 IStart
 aWM
-anchorPosResolutionParams
+positionProperty
 )
 -
 >
@@ -4114,7 +4101,7 @@ LogicalSide
 :
 IEnd
 aWM
-anchorPosResolutionParams
+positionProperty
 )
 -
 >

@@ -18526,19 +18526,6 @@ wm
 positionProperty
 )
 ;
-const
-auto
-anchorPosResolutionParams
-=
-AnchorPosResolutionParams
-:
-:
-UseCBFrameSize
-(
-this
-positionProperty
-)
-;
 if
 (
 bsize
@@ -18590,7 +18577,7 @@ LogicalSide
 :
 BStart
 wm
-anchorPosResolutionParams
+positionProperty
 )
 -
 >
@@ -18610,7 +18597,7 @@ LogicalSide
 :
 BEnd
 wm
-anchorPosResolutionParams
+positionProperty
 )
 -
 >

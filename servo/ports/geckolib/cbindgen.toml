@@ -1250,9 +1250,6 @@ Inset
 AnchorFunction
 "
 "
-AnchorSide
-"
-"
 AnchorSizeFunction
 "
 "
@@ -1703,13 +1700,6 @@ PseudoStyleRequest
 =
 "
 PseudoStyleRequest
-"
-"
-AnchorPosResolutionParams
-"
-=
-"
-AnchorPosResolutionParams
 "
 [
 export
