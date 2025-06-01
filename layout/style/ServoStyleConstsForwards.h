@@ -196,9 +196,6 @@ imgRequestProxy
 struct
 nsCSSValueSharedList
 ;
-struct
-AnchorPosResolutionParams
-;
 class
 gfxFontFeatureValueSet
 ;

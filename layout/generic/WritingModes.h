@@ -9502,10 +9502,11 @@ LogicalSide
 aSide
 WritingMode
 aWM
-const
-AnchorPosResolutionParams
-&
-aParams
+mozilla
+:
+:
+StylePositionProperty
+aPosition
 )
 const
 {
@@ -9518,7 +9519,7 @@ PhysicalSide
 (
 aSide
 )
-aParams
+aPosition
 )
 ;
 }

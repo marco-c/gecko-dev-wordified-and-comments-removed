@@ -33897,19 +33897,6 @@ positionProperty
 ;
 const
 auto
-anchorResolutionParams
-=
-AnchorPosResolutionParams
-:
-:
-UseCBFrameSize
-(
-this
-positionProperty
-)
-;
-const
-auto
 iStartOffsetIsAuto
 =
 stylePos
@@ -33922,7 +33909,7 @@ LogicalSide
 :
 IStart
 aWM
-anchorResolutionParams
+positionProperty
 )
 -
 >
@@ -33944,7 +33931,7 @@ LogicalSide
 :
 IEnd
 aWM
-anchorResolutionParams
+positionProperty
 )
 -
 >
@@ -33966,7 +33953,7 @@ LogicalSide
 :
 BStart
 aWM
-anchorResolutionParams
+positionProperty
 )
 -
 >
@@ -33988,7 +33975,7 @@ LogicalSide
 :
 BEnd
 aWM
-anchorResolutionParams
+positionProperty
 )
 -
 >

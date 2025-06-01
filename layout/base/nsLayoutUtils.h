@@ -2318,7 +2318,6 @@ static
 nsRect
 GetRectRelativeToFrame
 (
-const
 mozilla
 :
 :
@@ -2328,7 +2327,6 @@ dom
 Element
 *
 aElement
-const
 nsIFrame
 *
 aFrame
