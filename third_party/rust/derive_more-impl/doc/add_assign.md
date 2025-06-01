@@ -101,6 +101,7 @@ i32
 )
 ;
 impl
+derive_more
 :
 :
 core
@@ -223,6 +224,7 @@ i32
 #
 }
 impl
+derive_more
 :
 :
 core

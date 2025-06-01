@@ -260,6 +260,7 @@ automatically_derived
 impl
 #
 impl_generics
+derive_more
 :
 :
 core
@@ -281,6 +282,10 @@ where_clause
 #
 [
 inline
+]
+#
+[
+track_caller
 ]
 fn
 #

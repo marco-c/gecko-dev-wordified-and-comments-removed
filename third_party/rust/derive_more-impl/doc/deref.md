@@ -330,6 +330,7 @@ i32
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -434,6 +435,7 @@ i32
 )
 ;
 impl
+derive_more
 :
 :
 core
@@ -455,6 +457,7 @@ Box
 i32
 >
 as
+derive_more
 :
 :
 core
@@ -493,6 +496,7 @@ Box
 i32
 >
 as
+derive_more
 :
 :
 core

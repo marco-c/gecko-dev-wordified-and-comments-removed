@@ -577,15 +577,8 @@ derive_more
 version
 =
 "
-0
-.
-99
+2
 "
-default
--
-features
-=
-false
 features
 =
 [

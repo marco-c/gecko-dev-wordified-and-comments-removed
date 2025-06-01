@@ -328,6 +328,10 @@ where_clause
 [
 inline
 ]
+#
+[
+track_caller
+]
 fn
 #
 method_ident

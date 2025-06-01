@@ -14,6 +14,14 @@ std
 no_std
 )
 ]
+#
+!
+[
+allow
+(
+dead_code
+)
+]
 use
 derive_more
 :

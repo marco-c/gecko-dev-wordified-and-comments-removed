@@ -264,6 +264,7 @@ impl
 <
 __RhsT
 >
+derive_more
 :
 :
 core
@@ -281,6 +282,7 @@ MyInt
 where
 i32
 :
+derive_more
 :
 :
 core
@@ -406,16 +408,9 @@ impl
 <
 __RhsT
 :
-:
-:
-core
-:
-:
-marker
-:
-:
 Copy
 >
+derive_more
 :
 :
 core
@@ -433,6 +428,7 @@ MyInts
 where
 i32
 :
+derive_more
 :
 :
 core
@@ -560,6 +556,7 @@ impl
 <
 __RhsT
 >
+derive_more
 :
 :
 core
@@ -577,6 +574,7 @@ Point1D
 where
 i32
 :
+derive_more
 :
 :
 core
@@ -714,16 +712,9 @@ impl
 <
 __RhsT
 :
-:
-:
-core
-:
-:
-marker
-:
-:
 Copy
 >
+derive_more
 :
 :
 core
@@ -741,6 +732,7 @@ Point2D
 where
 i32
 :
+derive_more
 :
 :
 core

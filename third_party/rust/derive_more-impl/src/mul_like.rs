@@ -343,6 +343,10 @@ ty_generics
 [
 inline
 ]
+#
+[
+track_caller
+]
 fn
 #
 method_ident

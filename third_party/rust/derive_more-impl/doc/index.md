@@ -241,6 +241,7 @@ impl
 <
 __IdxT
 >
+derive_more
 :
 :
 core
@@ -261,6 +262,7 @@ Vec
 i32
 >
 :
+derive_more
 :
 :
 core
@@ -283,6 +285,7 @@ Vec
 i32
 >
 as
+derive_more
 :
 :
 core
@@ -327,6 +330,7 @@ Vec
 i32
 >
 as
+derive_more
 :
 :
 core

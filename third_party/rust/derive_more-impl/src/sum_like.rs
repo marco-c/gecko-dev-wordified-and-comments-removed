@@ -143,6 +143,7 @@ op_path
 quote
 !
 {
+derive_more
 :
 :
 core
@@ -309,6 +310,7 @@ trait_path
 #
 method_ident
 (
+derive_more
 :
 :
 core
@@ -378,6 +380,7 @@ method_ident
 <
 I
 :
+derive_more
 :
 :
 core

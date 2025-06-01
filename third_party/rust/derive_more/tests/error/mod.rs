@@ -2,6 +2,9 @@ use
 derive_more
 :
 :
+with_trait
+:
+:
 Error
 ;
 macro_rules

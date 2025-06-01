@@ -115,6 +115,7 @@ i32
 )
 ;
 impl
+derive_more
 :
 :
 core
@@ -235,6 +236,7 @@ i32
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -433,6 +435,7 @@ u32
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -704,6 +707,7 @@ Unit
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -722,12 +726,7 @@ Output
 Result
 <
 EnumWithUnit
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 UnitError
@@ -743,12 +742,7 @@ self
 Result
 <
 EnumWithUnit
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 UnitError
@@ -788,12 +782,7 @@ Unit
 >
 Err
 (
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 UnitError

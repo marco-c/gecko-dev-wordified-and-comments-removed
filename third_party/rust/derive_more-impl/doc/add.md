@@ -16,7 +16,7 @@ will
 allow
 two
 structs
-from
+of
 the
 same
 type
@@ -26,6 +26,7 @@ added
 together
 .
 This
+is
 done
 by
 adding
@@ -68,6 +69,7 @@ one
 big
 difference
 however
+:
 it
 returns
 a
@@ -81,7 +83,7 @@ error
 is
 returned
 when
-to
+two
 different
 variants
 are
@@ -145,6 +147,7 @@ i32
 )
 ;
 impl
+derive_more
 :
 :
 core
@@ -275,6 +278,7 @@ i32
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -539,6 +543,7 @@ Unit
 #
 }
 impl
+derive_more
 :
 :
 core
@@ -557,12 +562,7 @@ Output
 Result
 <
 MixedInts
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 BinaryError
@@ -581,12 +581,7 @@ MixedInts
 Result
 <
 MixedInts
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 BinaryError
@@ -850,12 +845,7 @@ Unit
 >
 Err
 (
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 BinaryError
@@ -863,12 +853,7 @@ BinaryError
 :
 Unit
 (
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 UnitError
@@ -887,12 +872,7 @@ _
 >
 Err
 (
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 BinaryError
@@ -900,12 +880,7 @@ BinaryError
 :
 Mismatch
 (
-:
-:
 derive_more
-:
-:
-ops
 :
 :
 WrongVariantError
