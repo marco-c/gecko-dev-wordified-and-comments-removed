@@ -425,6 +425,15 @@ origin
 -
 tooltip
 "
+inputL10nId
+:
+"
+login
+-
+item
+-
+origin
+"
 onBlur
 :
 e

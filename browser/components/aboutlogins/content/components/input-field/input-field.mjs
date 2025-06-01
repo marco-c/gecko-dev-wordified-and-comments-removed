@@ -166,6 +166,7 @@ onFocus
 onBlur
 labelL10nId
 noteL10nId
+inputL10nId
 }
 )
 =
@@ -219,6 +220,18 @@ input
 -
 field
 "
+data
+-
+l10n
+-
+id
+=
+{
+ifDefined
+(
+inputL10nId
+)
+}
 type
 =
 {
