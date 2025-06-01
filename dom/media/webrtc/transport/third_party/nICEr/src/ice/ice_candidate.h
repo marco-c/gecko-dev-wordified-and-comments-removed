@@ -110,6 +110,9 @@ addr
 nr_transport_addr
 base
 ;
+UCHAR
+local_protocol
+;
 char
 *
 mdns_addr
