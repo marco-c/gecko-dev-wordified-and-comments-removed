@@ -464,15 +464,3 @@ asyncstack_capture_debuggee_only
 false
 )
 ;
-user_pref
-(
-"
-nimbus
-.
-profilesdatastoreservice
-.
-enabled
-"
-false
-)
-;

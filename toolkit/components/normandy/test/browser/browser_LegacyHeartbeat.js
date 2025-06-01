@@ -840,7 +840,6 @@ args
 SURVEY
 )
 ;
-await
 doEnrollmentCleanup
 (
 )
@@ -1092,7 +1091,6 @@ surveyVersion
 "
 )
 ;
-await
 doEnrollmentCleanup
 (
 )

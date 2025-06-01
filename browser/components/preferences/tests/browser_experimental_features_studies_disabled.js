@@ -144,15 +144,6 @@ false
 )
 ;
 await
-NimbusTestUtils
-.
-waitForActiveEnrollments
-(
-[
-]
-)
-;
-await
 waitForExperimentalFeaturesHidden
 (
 doc
