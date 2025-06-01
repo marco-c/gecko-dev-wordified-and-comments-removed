@@ -105,7 +105,7 @@ No
 gfx
 :
 :
-IntSize
+Size
 GetDisplayportAlignmentMultiplier
 (
 const
