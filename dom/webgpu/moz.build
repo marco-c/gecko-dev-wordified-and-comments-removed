@@ -445,16 +445,6 @@ CONFIG
 MOZ_DXC_DLL_PATH
 "
 ]
-"
-%
-"
-+
-CONFIG
-[
-"
-MOZ_DXIL_DLL_PATH
-"
-]
 ]
 if
 CONFIG
