@@ -1226,6 +1226,12 @@ useLegacyPackaging
 true
 }
 }
+compileOptions
+{
+coreLibraryDesugaringEnabled
+=
+true
+}
 namespace
 =
 '
@@ -1751,6 +1757,14 @@ ExperimentalCoroutinesApi
 }
 dependencies
 {
+coreLibraryDesugaring
+libs
+.
+desugar
+.
+jdk
+.
+libs
 implementation
 libs
 .
