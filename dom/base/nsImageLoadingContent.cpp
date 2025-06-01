@@ -6340,10 +6340,8 @@ Size
 )
 ;
 }
-const
-nsAttrValue
-*
-value
+CSSIntSize
+size
 ;
 nsCOMPtr
 <
@@ -6368,8 +6366,10 @@ image
 )
 ;
 }
-CSSIntSize
-size
+const
+nsAttrValue
+*
+value
 ;
 if
 (
