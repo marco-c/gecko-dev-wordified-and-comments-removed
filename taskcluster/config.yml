@@ -7076,9 +7076,7 @@ prov
 v1
 implementation
 :
-scriptworker
--
-signing
+iscript
 os
 :
 macosx
@@ -7106,9 +7104,7 @@ prov
 v1
 implementation
 :
-scriptworker
--
-signing
+iscript
 os
 :
 macosx
