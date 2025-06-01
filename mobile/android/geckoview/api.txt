@@ -7313,6 +7313,15 @@ isInteractiveWidgetDefaultResizesVisual
 )
 ;
 method
+AnyThread
+public
+void
+notifyTelemetryPrefChanged
+(
+boolean
+)
+;
+method
 UiThread
 public
 void
