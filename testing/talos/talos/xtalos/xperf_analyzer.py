@@ -19,8 +19,6 @@ from
 uuid
 import
 UUID
-import
-six
 EVENT_ID_FIREFOX_WINDOW_RESTORED
 =
 "
@@ -291,13 +289,9 @@ row
 class
 XPerfAttribute
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 ABCMeta
-object
-)
 )
 :
     
@@ -2456,13 +2450,9 @@ timestamp
 class
 EventExpression
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 ABCMeta
-object
-)
 )
 :
     
