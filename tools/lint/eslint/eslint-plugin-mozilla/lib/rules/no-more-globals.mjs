@@ -267,7 +267,6 @@ getGlobalsForCode
 code
 {
 }
-false
 )
 ;
 let
@@ -294,6 +293,15 @@ filename
 .
 globals
 "
+{
+encoding
+:
+"
+utf
+-
+8
+"
+}
 )
 )
 )

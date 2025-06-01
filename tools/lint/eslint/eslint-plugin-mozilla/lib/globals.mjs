@@ -3819,11 +3819,6 @@ parseCode
 (
 code
 astOptions
-{
-useBabel
-:
-false
-}
 )
 ;
 /
