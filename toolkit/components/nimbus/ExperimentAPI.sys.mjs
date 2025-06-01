@@ -2018,6 +2018,7 @@ this
 studiesEnabled
 )
 {
+await
 this
 .
 manager
