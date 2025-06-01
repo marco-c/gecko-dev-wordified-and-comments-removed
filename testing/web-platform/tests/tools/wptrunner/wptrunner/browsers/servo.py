@@ -468,6 +468,9 @@ __init__
 (
 self
 logger
+*
+*
+kwargs
 )
         
 self
