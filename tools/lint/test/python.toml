@@ -192,6 +192,13 @@ py
 ]
 [
 "
+test_python_sites
+.
+py
+"
+]
+[
+"
 test_rst
 .
 py
