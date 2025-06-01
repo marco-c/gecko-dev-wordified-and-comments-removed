@@ -109,23 +109,9 @@ https
 /
 www
 .
-amazon
+temu
 .
-ca
-/
-gp
-/
-aw
-/
-gb
-?
-ref_
-=
-navm_cs_gb
-&
-discounts
--
-widget
+com
 "
     
 "
