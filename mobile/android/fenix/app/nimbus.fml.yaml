@@ -4759,6 +4759,15 @@ true
 -
 channel
 :
+beta
+value
+:
+enabled
+:
+true
+-
+channel
+:
 developer
 value
 :
