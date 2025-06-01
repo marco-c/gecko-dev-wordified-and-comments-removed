@@ -1074,6 +1074,13 @@ interactor
 :
 onPrivateModeButtonClicked
 )
+if
+(
+state
+.
+firstFrameDrawn
+)
+{
 with
 (
 state
@@ -1407,6 +1414,7 @@ height
 bottomSpacerHeight
 )
 )
+}
 }
 }
 }
@@ -2390,6 +2398,9 @@ true
 searchBarEnabled
 =
 false
+firstFrameDrawn
+=
+true
 showSearchBar
 =
 true
@@ -2549,6 +2560,9 @@ true
 searchBarEnabled
 =
 false
+firstFrameDrawn
+=
+true
 setupChecklistState
 =
 null
@@ -2660,6 +2674,9 @@ true
 feltPrivateBrowsingEnabled
 =
 false
+firstFrameDrawn
+=
+true
 bottomSpacerHeight
 =
 188
