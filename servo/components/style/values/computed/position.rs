@@ -28,7 +28,10 @@ generics
 position
 :
 :
+{
+GenericAnchorSide
 GenericAnchorFunction
+}
 ;
 use
 crate
@@ -221,6 +224,15 @@ type
 VerticalPosition
 =
 LengthPercentage
+;
+pub
+type
+AnchorSide
+=
+GenericAnchorSide
+<
+Percentage
+>
 ;
 pub
 type
