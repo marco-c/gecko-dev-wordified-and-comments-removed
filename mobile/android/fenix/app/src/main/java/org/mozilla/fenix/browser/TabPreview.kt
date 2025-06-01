@@ -421,9 +421,9 @@ support
 .
 ktx
 .
-util
+kotlin
 .
-URLStringUtils
+isContentUrl
 import
 mozilla
 .
@@ -431,11 +431,11 @@ components
 .
 support
 .
-utils
+ktx
 .
-ext
+util
 .
-isContentUrl
+URLStringUtils
 import
 org
 .
