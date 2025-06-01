@@ -78,11 +78,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isPrefixed
 (
@@ -144,10 +139,8 @@ length
 )
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

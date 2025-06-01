@@ -129,15 +129,8 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

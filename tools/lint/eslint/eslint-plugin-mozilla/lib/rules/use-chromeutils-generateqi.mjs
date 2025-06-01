@@ -79,11 +79,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isIdentifier
 (
@@ -312,10 +307,8 @@ ifaces
 )
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

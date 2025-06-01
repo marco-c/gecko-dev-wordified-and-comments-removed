@@ -70,11 +70,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isCr
 (
@@ -273,10 +268,8 @@ sourceText
 )
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

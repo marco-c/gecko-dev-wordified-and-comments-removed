@@ -77,11 +77,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isCuReportError
 (
@@ -543,10 +538,8 @@ didFixTrailingIdentifier
 }
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

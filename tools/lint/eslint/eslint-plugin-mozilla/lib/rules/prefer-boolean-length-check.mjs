@@ -65,11 +65,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 funcForBooleanLength
 (
@@ -397,10 +392,8 @@ return
 newText
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

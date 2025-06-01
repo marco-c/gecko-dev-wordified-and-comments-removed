@@ -77,11 +77,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isIdentifier
 (
@@ -146,10 +141,8 @@ BlockStack
 [
 ]
 ;
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

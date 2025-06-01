@@ -71,11 +71,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 componentsBlacklist
 =
@@ -94,10 +89,8 @@ Cu
 "
 ]
 ;
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

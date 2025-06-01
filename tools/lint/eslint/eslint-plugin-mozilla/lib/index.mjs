@@ -523,7 +523,7 @@ Date
 -
 timing
 .
-js
+mjs
 "
 )
 )
@@ -548,7 +548,7 @@ avoid
 -
 removeChild
 .
-js
+mjs
 "
 )
 )
@@ -573,7 +573,7 @@ balanced
 -
 listeners
 .
-js
+mjs
 "
 )
 )
@@ -598,7 +598,7 @@ balanced
 -
 observers
 .
-js
+mjs
 "
 )
 )
@@ -631,7 +631,7 @@ window
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -664,7 +664,7 @@ task
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -689,7 +689,7 @@ import
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -718,7 +718,7 @@ headjs
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -751,7 +751,7 @@ object
 -
 name
 .
-js
+mjs
 "
 )
 )
@@ -784,7 +784,7 @@ function
 -
 used
 .
-js
+mjs
 "
 )
 )
@@ -809,7 +809,7 @@ no
 -
 aArgs
 .
-js
+mjs
 "
 )
 )
@@ -838,7 +838,7 @@ addtask
 -
 setup
 .
-js
+mjs
 "
 )
 )
@@ -867,7 +867,7 @@ arbitrary
 -
 setTimeout
 .
-js
+mjs
 "
 )
 )
@@ -904,7 +904,7 @@ in
 -
 toolkit
 .
-js
+mjs
 "
 )
 )
@@ -941,7 +941,7 @@ boolean
 -
 literals
 .
-js
+mjs
 "
 )
 )
@@ -982,7 +982,7 @@ inside
 -
 ok
 .
-js
+mjs
 "
 )
 )
@@ -1011,7 +1011,7 @@ cu
 -
 reportError
 .
-js
+mjs
 "
 )
 )
@@ -1044,7 +1044,7 @@ cc
 -
 etc
 .
-js
+mjs
 "
 )
 )
@@ -1073,7 +1073,7 @@ more
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -1110,7 +1110,7 @@ import
 -
 autofix
 .
-js
+mjs
 "
 )
 )
@@ -1143,7 +1143,7 @@ cr
 -
 literal
 .
-js
+mjs
 "
 )
 )
@@ -1172,7 +1172,7 @@ useless
 -
 parameters
 .
-js
+mjs
 "
 )
 )
@@ -1201,7 +1201,7 @@ useless
 -
 removeEventListener
 .
-js
+mjs
 "
 )
 )
@@ -1234,7 +1234,7 @@ run
 -
 test
 .
-js
+mjs
 "
 )
 )
@@ -1267,7 +1267,7 @@ length
 -
 check
 .
-js
+mjs
 "
 )
 )
@@ -1292,7 +1292,7 @@ prefer
 -
 formatValues
 .
-js
+mjs
 "
 )
 )
@@ -1321,7 +1321,7 @@ addtask
 -
 only
 .
-js
+mjs
 "
 )
 )
@@ -1362,7 +1362,7 @@ lazy
 -
 getter
 .
-js
+mjs
 "
 )
 )
@@ -1391,7 +1391,7 @@ globalThis
 -
 modification
 .
-js
+mjs
 "
 )
 )
@@ -1436,7 +1436,7 @@ non
 -
 system
 .
-js
+mjs
 "
 )
 )
@@ -1461,7 +1461,7 @@ reject
 -
 importGlobalProperties
 .
-js
+mjs
 "
 )
 )
@@ -1498,7 +1498,7 @@ into
 -
 globals
 .
-js
+mjs
 "
 )
 )
@@ -1535,7 +1535,7 @@ and
 -
 lazy
 .
-js
+mjs
 "
 )
 )
@@ -1564,7 +1564,7 @@ multiple
 -
 await
 .
-js
+mjs
 "
 )
 )
@@ -1597,7 +1597,7 @@ getters
 -
 calls
 .
-js
+mjs
 "
 )
 )
@@ -1622,7 +1622,7 @@ reject
 -
 scriptableunicodeconverter
 .
-js
+mjs
 "
 )
 )
@@ -1651,7 +1651,7 @@ relative
 -
 requires
 .
-js
+mjs
 "
 )
 )
@@ -1680,7 +1680,7 @@ some
 -
 requires
 .
-js
+mjs
 "
 )
 )
@@ -1713,7 +1713,7 @@ level
 -
 await
 .
-js
+mjs
 "
 )
 )
@@ -1742,7 +1742,7 @@ requires
 -
 await
 .
-js
+mjs
 "
 )
 )
@@ -1771,7 +1771,7 @@ cc
 -
 etc
 .
-js
+mjs
 "
 )
 )
@@ -1800,7 +1800,7 @@ chromeutils
 -
 generateqi
 .
-js
+mjs
 "
 )
 )
@@ -1829,7 +1829,7 @@ console
 -
 createInstance
 .
-js
+mjs
 "
 )
 )
@@ -1862,7 +1862,7 @@ preference
 -
 values
 .
-js
+mjs
 "
 )
 )
@@ -1887,7 +1887,7 @@ use
 -
 ownerGlobal
 .
-js
+mjs
 "
 )
 )
@@ -1924,7 +1924,7 @@ of
 -
 indexOf
 .
-js
+mjs
 "
 )
 )
@@ -1949,7 +1949,7 @@ use
 -
 isInstance
 .
-js
+mjs
 "
 )
 )
@@ -1974,7 +1974,7 @@ use
 -
 returnValue
 .
-js
+mjs
 "
 )
 )
@@ -1999,7 +1999,7 @@ use
 -
 services
 .
-js
+mjs
 "
 )
 )
@@ -2028,7 +2028,7 @@ static
 -
 import
 .
-js
+mjs
 "
 )
 )
@@ -2057,7 +2057,7 @@ ci
 -
 uses
 .
-js
+mjs
 "
 )
 )
@@ -2082,7 +2082,7 @@ valid
 -
 lazy
 .
-js
+mjs
 "
 )
 )
@@ -2107,7 +2107,7 @@ valid
 -
 services
 .
-js
+mjs
 "
 )
 )
@@ -2136,7 +2136,7 @@ services
 -
 property
 .
-js
+mjs
 "
 )
 )
@@ -2173,7 +2173,7 @@ top
 -
 level
 .
-js
+mjs
 "
 )
 )

@@ -76,11 +76,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isNamedLikeSetup
 (
@@ -104,10 +99,8 @@ name
 )
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

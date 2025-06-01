@@ -71,11 +71,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isIdentifier
 (
@@ -175,10 +170,8 @@ return
 "
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

@@ -73,11 +73,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 componentsMap
 =
@@ -104,10 +99,8 @@ Cu
 "
 }
 ;
-module
-.
-exports
-=
+export
+default
 {
 meta
 :

@@ -87,11 +87,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 operatorToAssertionMap
 =
@@ -178,10 +173,8 @@ greaterOrEqual
 "
 }
 ;
-module
-.
-exports
-=
+export
+default
 {
 meta
 :
