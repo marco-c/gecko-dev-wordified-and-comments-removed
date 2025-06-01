@@ -386,9 +386,9 @@ scaleType
 "
 center
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
