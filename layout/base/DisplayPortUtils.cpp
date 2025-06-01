@@ -1075,10 +1075,7 @@ ScreenSize
 }
 else
 {
-gfx
-:
-:
-Size
+IntSize
 multiplier
 =
 layers

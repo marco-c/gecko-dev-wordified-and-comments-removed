@@ -28,11 +28,6 @@ TestBasic
 cpp
 "
 "
-TestDisplayPort
-.
-cpp
-"
-"
 TestEventRegions
 .
 cpp

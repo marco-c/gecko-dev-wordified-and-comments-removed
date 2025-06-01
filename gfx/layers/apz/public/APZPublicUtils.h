@@ -121,7 +121,7 @@ aVelocity
 gfx
 :
 :
-Size
+IntSize
 GetDisplayportAlignmentMultiplier
 (
 const
