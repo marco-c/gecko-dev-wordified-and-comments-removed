@@ -456,7 +456,7 @@ scripts
 /
 createExports
 .
-js
+mjs
 "
 "
 test
