@@ -461,14 +461,14 @@ queue
 function
 runTest
 (
-arrayType
+ArrayType
 testBuffer
 )
 {
 const
 elementSize
 =
-arrayType
+ArrayType
 .
 BYTES_PER_ELEMENT
 ;
@@ -504,7 +504,7 @@ arraySm
 testBuffer
 ?
 new
-arrayType
+ArrayType
 (
 8
 )
@@ -512,7 +512,7 @@ arrayType
 buffer
 :
 new
-arrayType
+ArrayType
 (
 8
 )
@@ -523,7 +523,7 @@ arrayMd
 testBuffer
 ?
 new
-arrayType
+ArrayType
 (
 16
 )
@@ -531,7 +531,7 @@ arrayType
 buffer
 :
 new
-arrayType
+ArrayType
 (
 16
 )
@@ -542,7 +542,7 @@ arrayLg
 testBuffer
 ?
 new
-arrayType
+ArrayType
 (
 32
 )
@@ -550,7 +550,7 @@ arrayType
 buffer
 :
 new
-arrayType
+ArrayType
 (
 32
 )
@@ -568,7 +568,7 @@ array15
 testBuffer
 ?
 new
-arrayType
+ArrayType
 (
 15
 )
@@ -576,7 +576,7 @@ arrayType
 buffer
 :
 new
-arrayType
+ArrayType
 (
 15
 )

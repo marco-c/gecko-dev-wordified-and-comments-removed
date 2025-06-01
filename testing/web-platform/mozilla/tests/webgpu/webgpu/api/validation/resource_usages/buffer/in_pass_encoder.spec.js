@@ -526,7 +526,7 @@ list
 }
 }
 function
-IsBufferUsageInBindGroup
+isBufferUsageInBindGroup
 (
 bufferUsage
 )
@@ -2364,7 +2364,7 @@ t
 params
 ;
 const
-UseBufferOnComputePassEncoder
+useBufferOnComputePassEncoder
 =
 (
 computePassEncoder
@@ -2594,7 +2594,7 @@ offset0
 :
 kBoundBufferSize
 ;
-UseBufferOnComputePassEncoder
+useBufferOnComputePassEncoder
 (
 computePassEncoder
 buffer
@@ -2607,7 +2607,7 @@ if
 inSamePass
 )
 {
-UseBufferOnComputePassEncoder
+useBufferOnComputePassEncoder
 (
 computePassEncoder
 buffer
@@ -2639,7 +2639,7 @@ beginComputePass
 (
 )
 ;
-UseBufferOnComputePassEncoder
+useBufferOnComputePassEncoder
 (
 anotherComputePassEncoder
 buffer
@@ -2854,7 +2854,7 @@ compute
 &
 &
 !
-IsBufferUsageInBindGroup
+isBufferUsageInBindGroup
 (
 t
 .
@@ -2896,7 +2896,7 @@ compute
 &
 &
 !
-IsBufferUsageInBindGroup
+isBufferUsageInBindGroup
 (
 t
 .
@@ -2948,7 +2948,7 @@ numStorageBuffersNeededInFragmentStage
 )
 ;
 const
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 =
 (
 buffer
@@ -3131,7 +3131,7 @@ offset0
 =
 0
 ;
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 (
 buffer
 offset0
@@ -3149,7 +3149,7 @@ offset0
 :
 kBoundBufferSize
 ;
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 (
 buffer
 offset1
@@ -3881,7 +3881,7 @@ INDIRECT
 )
 ;
 const
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 =
 (
 bufferAccessibleInDraw
@@ -4028,7 +4028,7 @@ break
 }
 ;
 const
-MakeDrawCallWithOneUsage
+makeDrawCallWithOneUsage
 =
 (
 usage
@@ -4201,7 +4201,7 @@ usedBindGroupLayouts
 [
 ]
 ;
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 (
 usage0AccessibleInDraw
 bufferIndex0
@@ -4291,7 +4291,7 @@ draw
 }
 else
 {
-MakeDrawCallWithOneUsage
+makeDrawCallWithOneUsage
 (
 usage0
 offset0
@@ -4347,13 +4347,13 @@ usage0AccessibleInDraw
 {
 if
 (
-IsBufferUsageInBindGroup
+isBufferUsageInBindGroup
 (
 usage0
 )
 &
 &
-IsBufferUsageInBindGroup
+isBufferUsageInBindGroup
 (
 usage1
 )
@@ -4391,7 +4391,7 @@ bufferIndex1
 ;
 }
 }
-UseBufferOnRenderPassEncoder
+useBufferOnRenderPassEncoder
 (
 usage1AccessibleInDraw
 bufferIndex1
@@ -4500,7 +4500,7 @@ usage0AccessibleInDraw
 usage1AccessibleInDraw
 )
 {
-MakeDrawCallWithOneUsage
+makeDrawCallWithOneUsage
 (
 usage0
 offset0
@@ -4518,7 +4518,7 @@ usage0AccessibleInDraw
 usage1AccessibleInDraw
 )
 {
-MakeDrawCallWithOneUsage
+makeDrawCallWithOneUsage
 (
 usage1
 offset1
@@ -4938,7 +4938,7 @@ numStorageBuffersNeededInFragmentStage
 )
 ;
 const
-UseBufferOnRenderPassEncoderInDrawCall
+useBufferOnRenderPassEncoderInDrawCall
 =
 (
 offset
@@ -5288,7 +5288,7 @@ offset0
 =
 0
 ;
-UseBufferOnRenderPassEncoderInDrawCall
+useBufferOnRenderPassEncoderInDrawCall
 (
 offset0
 usage0
@@ -5309,7 +5309,7 @@ if
 inSamePass
 )
 {
-UseBufferOnRenderPassEncoderInDrawCall
+useBufferOnRenderPassEncoderInDrawCall
 (
 offset1
 usage1
@@ -5341,7 +5341,7 @@ beginSimpleRenderPass
 encoder
 )
 ;
-UseBufferOnRenderPassEncoderInDrawCall
+useBufferOnRenderPassEncoderInDrawCall
 (
 offset1
 usage1

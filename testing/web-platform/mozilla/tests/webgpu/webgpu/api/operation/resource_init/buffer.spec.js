@@ -234,7 +234,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-GetBufferUsageFromMapMode
+getBufferUsageFromMapMode
 (
 mapMode
 )
@@ -283,7 +283,7 @@ return
 ;
 }
 }
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -322,7 +322,7 @@ copy
 )
 ;
 }
-TestBufferZeroInitInBindGroup
+testBufferZeroInitInBindGroup
 (
 computeShaderModule
 buffer
@@ -510,7 +510,7 @@ finish
 ;
 this
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 buffer
 boundBufferSize
@@ -520,7 +520,7 @@ outputTexture
 )
 ;
 }
-CreateRenderPipelineForTest
+createRenderPipelineForTest
 (
 vertexShaderModule
 testVertexBuffer
@@ -671,7 +671,7 @@ renderPipelineDescriptor
 )
 ;
 }
-RecordInitializeTextureColor
+recordInitializeTextureColor
 (
 encoder
 texture
@@ -722,7 +722,7 @@ end
 )
 ;
 }
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 buffer
 bufferSize
@@ -1113,7 +1113,7 @@ bufferUsage
 =
 t
 .
-GetBufferUsageFromMapMode
+getBufferUsageFromMapMode
 (
 mapMode
 )
@@ -1204,7 +1204,7 @@ bufferSize
 ;
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -1345,7 +1345,7 @@ bufferUsage
 =
 t
 .
-GetBufferUsageFromMapMode
+getBufferUsageFromMapMode
 (
 mapMode
 )
@@ -1475,7 +1475,7 @@ unmap
 }
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -1668,7 +1668,7 @@ bufferSize
 ;
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -1930,7 +1930,7 @@ unmap
 }
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -2032,7 +2032,7 @@ bufferSize
 ;
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 buffer
 bufferUsage
@@ -2269,7 +2269,7 @@ finish
 ;
 t
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 srcBuffer
 srcBufferSize
@@ -2481,7 +2481,7 @@ bufferSize
 ;
 t
 .
-CheckGPUBufferContent
+checkGPUBufferContent
 (
 dstBuffer
 bufferUsage
@@ -3268,7 +3268,7 @@ f32
 ;
 t
 .
-TestBufferZeroInitInBindGroup
+testBufferZeroInitInBindGroup
 (
 computeShaderModule
 buffer
@@ -3553,7 +3553,7 @@ f32
 ;
 t
 .
-TestBufferZeroInitInBindGroup
+testBufferZeroInitInBindGroup
 (
 computeShaderModule
 buffer
@@ -3835,7 +3835,7 @@ f32
 ;
 t
 .
-TestBufferZeroInitInBindGroup
+testBufferZeroInitInBindGroup
 (
 computeShaderModule
 buffer
@@ -3931,7 +3931,7 @@ renderPipeline
 =
 t
 .
-CreateRenderPipelineForTest
+createRenderPipelineForTest
 (
 t
 .
@@ -4278,7 +4278,7 @@ finish
 ;
 t
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 vertexBuffer
 bufferSize
@@ -4373,7 +4373,7 @@ renderPipeline
 =
 t
 .
-CreateRenderPipelineForTest
+createRenderPipelineForTest
 (
 t
 .
@@ -4700,7 +4700,7 @@ finish
 ;
 t
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 indexBuffer
 bufferSize
@@ -4819,7 +4819,7 @@ renderPipeline
 =
 t
 .
-CreateRenderPipelineForTest
+createRenderPipelineForTest
 (
 t
 .
@@ -5015,7 +5015,7 @@ createCommandEncoder
 ;
 t
 .
-RecordInitializeTextureColor
+recordInitializeTextureColor
 (
 encoder
 outputTexture
@@ -5165,7 +5165,7 @@ finish
 ;
 t
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 indirectBuffer
 bufferSize
@@ -5442,7 +5442,7 @@ createCommandEncoder
 ;
 t
 .
-RecordInitializeTextureColor
+recordInitializeTextureColor
 (
 encoder
 outputTexture
@@ -5562,7 +5562,7 @@ finish
 ;
 t
 .
-CheckBufferAndOutputTexture
+checkBufferAndOutputTexture
 (
 indirectBuffer
 bufferSize

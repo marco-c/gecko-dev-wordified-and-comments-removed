@@ -2022,7 +2022,7 @@ nearest
 )
 ;
 }
-GetTargetTexture
+getTargetTexture
 (
 sampleCount
 :
@@ -2645,7 +2645,7 @@ depthStencilTexture
 }
 ;
 }
-CheckColorAttachmentResult
+checkColorAttachmentResult
 (
 texture
 :
@@ -2703,7 +2703,7 @@ expected
 )
 ;
 }
-CheckDepthStencilResult
+checkDepthStencilResult
 (
 aspect
 :
@@ -3393,7 +3393,7 @@ depthStencil
 =
 t
 .
-GetTargetTexture
+getTargetTexture
 (
 sampleCount
 rasterizationMask
@@ -3403,7 +3403,7 @@ fragmentMaskUniformBuffer
 ;
 t
 .
-CheckColorAttachmentResult
+checkColorAttachmentResult
 (
 color
 sampleCount
@@ -3414,7 +3414,7 @@ fragmentShaderOutputMask
 ;
 t
 .
-CheckDepthStencilResult
+checkDepthStencilResult
 (
 '
 depth
@@ -3430,7 +3430,7 @@ fragmentShaderOutputMask
 ;
 t
 .
-CheckDepthStencilResult
+checkDepthStencilResult
 (
 '
 stencil
@@ -4140,7 +4140,7 @@ depthStencil
 =
 t
 .
-GetTargetTexture
+getTargetTexture
 (
 sampleCount
 rasterizationMask

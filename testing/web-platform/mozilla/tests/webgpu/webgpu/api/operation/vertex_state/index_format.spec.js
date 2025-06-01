@@ -262,7 +262,7 @@ IndexFormatTest
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-MakeRenderPipeline
+makeRenderPipeline
 (
 topology
 stripIndexFormat
@@ -524,14 +524,14 @@ stripIndexFormat
 )
 ;
 }
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 indexFormat
 )
 {
 const
-typedArrayConstructor
+TypedArrayConstructor
 =
 {
 uint16
@@ -551,7 +551,7 @@ this
 makeBufferWithContents
 (
 new
-typedArrayConstructor
+TypedArrayConstructor
 (
 indices
 )
@@ -609,7 +609,7 @@ pipeline
 =
 this
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 primitiveTopology
 indexFormat
@@ -622,7 +622,7 @@ pipeline
 =
 this
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 primitiveTopology
 )
@@ -812,7 +812,7 @@ return
 result
 ;
 }
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 renderShape
 )
@@ -1022,7 +1022,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 '
@@ -1050,7 +1050,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 _expectedShape
 )
@@ -1173,7 +1173,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 '
@@ -1201,7 +1201,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 _expectedShape
 )
@@ -1324,7 +1324,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 indexFormat32
@@ -1344,7 +1344,7 @@ pipeline32
 =
 t
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 kPrimitiveTopology
 indexFormat32
@@ -1355,7 +1355,7 @@ pipeline16
 =
 t
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 kPrimitiveTopology
 indexFormat16
@@ -1563,7 +1563,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 expectedShape
 )
@@ -1679,7 +1679,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 indexFormat
@@ -1699,7 +1699,7 @@ pipeline
 =
 t
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 kPrimitiveTopology
 indexFormat
@@ -1919,7 +1919,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 expectedShape
 )
@@ -2009,7 +2009,7 @@ pipeline
 =
 t
 .
-MakeRenderPipeline
+makeRenderPipeline
 (
 kPrimitiveTopology
 )
@@ -2019,7 +2019,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 kBottomLeftTriangle
 )
@@ -2117,7 +2117,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 indexFormat
@@ -2275,7 +2275,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 indices
 indexFormat
@@ -3564,7 +3564,7 @@ indexBuffer
 =
 t
 .
-CreateIndexBuffer
+createIndexBuffer
 (
 _indices
 indexFormat
@@ -3591,7 +3591,7 @@ expectedTextureValues
 =
 t
 .
-CreateExpectedUint8Array
+createExpectedUint8Array
 (
 _expectedShape
 )

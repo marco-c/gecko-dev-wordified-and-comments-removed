@@ -171,7 +171,7 @@ const
 ;
 export
 function
-IsReadOnlyTextureBindingType
+isReadOnlyTextureBindingType
 (
 t
 :
@@ -3162,13 +3162,13 @@ end
 const
 bothReadOnly
 =
-IsReadOnlyTextureBindingType
+isReadOnlyTextureBindingType
 (
 bgUsage0
 )
 &
 &
-IsReadOnlyTextureBindingType
+isReadOnlyTextureBindingType
 (
 bgUsage1
 )

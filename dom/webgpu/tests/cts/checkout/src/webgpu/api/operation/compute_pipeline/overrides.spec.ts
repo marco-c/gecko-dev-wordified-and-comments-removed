@@ -90,7 +90,7 @@ extends
 AllFeaturesMaxLimitsGPUTest
 {
 async
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 isAsync
 :
@@ -413,7 +413,7 @@ count
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .
@@ -819,7 +819,7 @@ t
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .
@@ -1405,7 +1405,7 @@ c2
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .
@@ -1666,7 +1666,7 @@ d
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 isAsync
 new

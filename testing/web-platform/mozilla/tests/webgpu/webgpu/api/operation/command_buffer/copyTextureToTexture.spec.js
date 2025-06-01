@@ -333,7 +333,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-GetInitialDataPerMipLevel
+getInitialDataPerMipLevel
 (
 dimension
 textureSize
@@ -401,7 +401,7 @@ byteSize
 )
 ;
 }
-GetInitialStencilDataPerMipLevel
+getInitialStencilDataPerMipLevel
 (
 textureSize
 format
@@ -460,7 +460,7 @@ byteSize
 )
 ;
 }
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 srcTextureSize
@@ -611,7 +611,7 @@ initialSrcData
 =
 this
 .
-GetInitialDataPerMipLevel
+getInitialDataPerMipLevel
 (
 dimension
 srcTextureSize
@@ -1791,7 +1791,7 @@ length
 )
 ;
 }
-InitializeStencilAspect
+initializeStencilAspect
 (
 sourceTexture
 initialStencilData
@@ -1853,7 +1853,7 @@ copySize
 )
 ;
 }
-VerifyStencilAspect
+verifyStencilAspect
 (
 destinationTexture
 initialStencilData
@@ -2132,7 +2132,7 @@ expectedStencilData
 )
 ;
 }
-GetRenderPipelineForT2TCopyWithDepthTests
+getRenderPipelineForT2TCopyWithDepthTests
 (
 bindGroupLayout
 hasColorAttachment
@@ -2470,7 +2470,7 @@ renderPipelineDescriptor
 )
 ;
 }
-GetBindGroupLayoutForT2TCopyWithDepthTests
+getBindGroupLayoutForT2TCopyWithDepthTests
 (
 )
 {
@@ -2515,7 +2515,7 @@ true
 )
 ;
 }
-GetBindGroupForT2TCopyWithDepthTests
+getBindGroupForT2TCopyWithDepthTests
 (
 bindGroupLayout
 totalCopyArrayLayers
@@ -2631,7 +2631,7 @@ size
 )
 ;
 }
-InitializeDepthAspect
+initializeDepthAspect
 (
 sourceTexture
 depthFormat
@@ -2645,7 +2645,7 @@ bindGroupLayout
 =
 this
 .
-GetBindGroupLayoutForT2TCopyWithDepthTests
+getBindGroupLayoutForT2TCopyWithDepthTests
 (
 )
 ;
@@ -2654,7 +2654,7 @@ renderPipeline
 =
 this
 .
-GetRenderPipelineForT2TCopyWithDepthTests
+getRenderPipelineForT2TCopyWithDepthTests
 (
 bindGroupLayout
 false
@@ -2678,7 +2678,7 @@ bindGroup
 =
 this
 .
-GetBindGroupForT2TCopyWithDepthTests
+getBindGroupForT2TCopyWithDepthTests
 (
 bindGroupLayout
 copySize
@@ -2852,7 +2852,7 @@ finish
 )
 ;
 }
-VerifyDepthAspect
+verifyDepthAspect
 (
 destinationTexture
 depthFormat
@@ -2866,7 +2866,7 @@ bindGroupLayout
 =
 this
 .
-GetBindGroupLayoutForT2TCopyWithDepthTests
+getBindGroupLayoutForT2TCopyWithDepthTests
 (
 )
 ;
@@ -2875,7 +2875,7 @@ renderPipeline
 =
 this
 .
-GetRenderPipelineForT2TCopyWithDepthTests
+getRenderPipelineForT2TCopyWithDepthTests
 (
 bindGroupLayout
 true
@@ -2899,7 +2899,7 @@ bindGroup
 =
 this
 .
-GetBindGroupForT2TCopyWithDepthTests
+getBindGroupForT2TCopyWithDepthTests
 (
 bindGroupLayout
 copySize
@@ -4327,7 +4327,7 @@ params
 ;
 t
 .
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 srcTextureSize
@@ -4755,7 +4755,7 @@ dstFormat
 ;
 t
 .
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 {
@@ -5153,7 +5153,7 @@ params
 ;
 t
 .
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 textureSize
@@ -5489,7 +5489,7 @@ dstFormat
 ;
 t
 .
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 {
@@ -6228,7 +6228,7 @@ rgba8unorm
 ;
 t
 .
-DoCopyTextureToTextureTest
+doCopyTextureToTextureTest
 (
 dimension
 textureSize
@@ -6698,7 +6698,7 @@ initialStencilData
 =
 t
 .
-GetInitialStencilDataPerMipLevel
+getInitialStencilDataPerMipLevel
 (
 srcTextureSize
 format
@@ -6707,7 +6707,7 @@ srcCopyLevel
 ;
 t
 .
-InitializeStencilAspect
+initializeStencilAspect
 (
 sourceTexture
 initialStencilData
@@ -6727,7 +6727,7 @@ format
 {
 t
 .
-InitializeDepthAspect
+initializeDepthAspect
 (
 sourceTexture
 format
@@ -6831,7 +6831,7 @@ undefined
 ;
 t
 .
-VerifyStencilAspect
+verifyStencilAspect
 (
 destinationTexture
 initialStencilData
@@ -6851,7 +6851,7 @@ format
 {
 t
 .
-VerifyDepthAspect
+verifyDepthAspect
 (
 destinationTexture
 format

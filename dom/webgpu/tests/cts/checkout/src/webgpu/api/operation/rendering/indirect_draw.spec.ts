@@ -143,7 +143,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-MakeIndexBuffer
+makeIndexBuffer
 (
 )
 :
@@ -172,7 +172,7 @@ INDEX
 )
 ;
 }
-MakeVertexBuffer
+makeVertexBuffer
 (
 isIndexed
 :
@@ -278,7 +278,7 @@ VERTEX
 )
 ;
 }
-MakeIndirectBuffer
+makeIndirectBuffer
 (
 isIndexed
 :
@@ -984,7 +984,7 @@ vertexBuffer
 =
 t
 .
-MakeVertexBuffer
+makeVertexBuffer
 (
 isIndexed
 )
@@ -994,7 +994,7 @@ indirectBuffer
 =
 t
 .
-MakeIndirectBuffer
+makeIndirectBuffer
 (
 isIndexed
 indirectOffset
@@ -1289,7 +1289,7 @@ setIndexBuffer
 (
 t
 .
-MakeIndexBuffer
+makeIndexBuffer
 (
 )
 '

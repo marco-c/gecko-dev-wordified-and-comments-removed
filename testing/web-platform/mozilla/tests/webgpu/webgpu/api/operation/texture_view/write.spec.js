@@ -544,7 +544,7 @@ A
 ]
 ;
 function
-FloatToIntColor
+floatToIntColor
 (
 c
 )
@@ -577,7 +577,7 @@ return
 {
 R
 :
-FloatToIntColor
+floatToIntColor
 (
 c
 .
@@ -585,7 +585,7 @@ R
 )
 G
 :
-FloatToIntColor
+floatToIntColor
 (
 c
 .
@@ -593,7 +593,7 @@ G
 )
 B
 :
-FloatToIntColor
+floatToIntColor
 (
 c
 .
@@ -601,7 +601,7 @@ B
 )
 A
 :
-FloatToIntColor
+floatToIntColor
 (
 c
 .

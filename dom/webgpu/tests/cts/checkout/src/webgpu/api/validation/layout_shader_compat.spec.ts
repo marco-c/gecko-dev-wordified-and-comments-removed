@@ -418,7 +418,7 @@ bindingInPipelineLayout
 )
 ;
 }
-GetBindableResourceShaderDeclaration
+getBindableResourceShaderDeclaration
 (
 bindableResource
 :
@@ -601,7 +601,7 @@ read_write
 }
 }
 const
-BindingResourceCompatibleWithShaderStages
+bindingResourceCompatibleWithShaderStages
 =
 function
 (
@@ -798,7 +798,7 @@ nonFiltSamp
 |
 |
 !
-BindingResourceCompatibleWithShaderStages
+bindingResourceCompatibleWithShaderStages
 (
 p
 .
@@ -810,7 +810,7 @@ pipelineLayoutVisibility
 |
 |
 !
-BindingResourceCompatibleWithShaderStages
+bindingResourceCompatibleWithShaderStages
 (
 p
 .
@@ -1139,7 +1139,7 @@ binding
 {
 t
 .
-GetBindableResourceShaderDeclaration
+getBindableResourceShaderDeclaration
 (
 bindingInShader
 )

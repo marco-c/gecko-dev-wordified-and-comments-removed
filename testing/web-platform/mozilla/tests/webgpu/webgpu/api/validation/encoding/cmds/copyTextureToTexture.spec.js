@@ -162,7 +162,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 source
 destination
@@ -265,7 +265,7 @@ SubmitError
 ;
 }
 }
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 dimension
 textureSize
@@ -610,7 +610,7 @@ FinishError
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -829,7 +829,7 @@ COPY_DST
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -1209,7 +1209,7 @@ dstLevelCount
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -1421,7 +1421,7 @@ COPY_DST
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -1694,7 +1694,7 @@ dstSampleCount
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -2142,7 +2142,7 @@ kHeight
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -2492,7 +2492,7 @@ dstBaseFormat
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -2917,7 +2917,7 @@ srcSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 '
 2d
@@ -2932,7 +2932,7 @@ dstSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 '
 2d
@@ -3065,7 +3065,7 @@ height
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -3123,7 +3123,7 @@ FinishError
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -3785,7 +3785,7 @@ srcSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 dimension
 textureSize
@@ -3798,7 +3798,7 @@ dstSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 dimension
 textureSize
@@ -4008,7 +4008,7 @@ depthOrArrayLayers
 }
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -4173,7 +4173,7 @@ depthOrArrayLayers
 }
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -4436,7 +4436,7 @@ dstCopyOriginZ
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -4868,7 +4868,7 @@ destinationAspect
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -5452,7 +5452,7 @@ srcSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 dimension
 kTextureSize
@@ -5465,7 +5465,7 @@ dstSizeAtLevel
 =
 t
 .
-GetPhysicalSubresourceSize
+getPhysicalSubresourceSize
 (
 dimension
 kTextureSize
@@ -5683,7 +5683,7 @@ depthOrArrayLayers
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture
@@ -5800,7 +5800,7 @@ depthOrArrayLayers
 ;
 t
 .
-TestCopyTextureToTexture
+testCopyTextureToTexture
 (
 {
 texture

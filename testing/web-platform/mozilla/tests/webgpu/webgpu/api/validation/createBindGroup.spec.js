@@ -1053,7 +1053,7 @@ resourceType
 )
 ;
 const
-IsStorageTextureResourceType
+isStorageTextureResourceType
 =
 (
 resourceType
@@ -1162,7 +1162,7 @@ writeonlyStorageTex
 :
 resourceBindingIsCompatible
 =
-IsStorageTextureResourceType
+isStorageTextureResourceType
 (
 resourceType
 )
