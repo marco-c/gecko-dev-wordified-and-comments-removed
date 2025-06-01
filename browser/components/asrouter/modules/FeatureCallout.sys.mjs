@@ -1095,7 +1095,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 this
 )
@@ -1139,7 +1139,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )
@@ -1176,7 +1176,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 in
 _addPanelConflictListeners
 .

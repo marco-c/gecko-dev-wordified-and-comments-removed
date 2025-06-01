@@ -89,7 +89,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 {
 async
@@ -115,7 +115,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

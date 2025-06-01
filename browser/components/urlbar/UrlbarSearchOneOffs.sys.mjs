@@ -453,7 +453,7 @@ view
 .
 controller
 .
-addQueryListener
+addListener
 (
 this
 )
@@ -489,7 +489,7 @@ view
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

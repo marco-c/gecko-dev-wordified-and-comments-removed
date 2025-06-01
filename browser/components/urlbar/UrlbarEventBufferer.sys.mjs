@@ -750,7 +750,7 @@ input
 .
 controller
 .
-addQueryListener
+addListener
 (
 this
 )

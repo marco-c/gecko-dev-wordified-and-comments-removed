@@ -3025,7 +3025,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 queryListener
 )
@@ -3057,7 +3057,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 queryListener
 )

@@ -885,7 +885,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 {
 onQueryResults
@@ -897,7 +897,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

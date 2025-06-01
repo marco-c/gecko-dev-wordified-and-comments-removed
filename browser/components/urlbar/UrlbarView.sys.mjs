@@ -823,7 +823,7 @@ this
 .
 controller
 .
-addQueryListener
+addListener
 (
 this
 )

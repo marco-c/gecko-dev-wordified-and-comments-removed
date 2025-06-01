@@ -212,7 +212,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 {
 onViewOpen
@@ -225,7 +225,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )
@@ -419,7 +419,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 {
 onViewOpen
@@ -432,7 +432,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

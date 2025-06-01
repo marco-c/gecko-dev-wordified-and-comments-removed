@@ -1954,12 +1954,12 @@ listen
 for
 results
 .
-addQueryListener
+addListener
 (
 listener
 )
 ;
-removeQueryListener
+removeListener
 (
 listener
 )
