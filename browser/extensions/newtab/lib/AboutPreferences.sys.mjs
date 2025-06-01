@@ -1488,9 +1488,6 @@ classList
 add
 (
 "
-indent
-"
-"
 text
 -
 deemphasized
@@ -1847,17 +1844,6 @@ eventSource
 )
 ;
 }
-subcheck
-.
-classList
-.
-add
-(
-"
-indent
-"
-)
-;
 document
 .
 l10n
