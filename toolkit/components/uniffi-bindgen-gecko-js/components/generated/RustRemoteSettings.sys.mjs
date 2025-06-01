@@ -12663,7 +12663,6 @@ effects
 .
 *
 /
-async
 updateConfig
 (
 config
@@ -12679,10 +12678,9 @@ config
 const
 result
 =
-await
 UniFFIScaffolding
 .
-callAsyncWrapper
+callSync
 (
 31
 /
