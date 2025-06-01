@@ -273,6 +273,13 @@ the
 arena_chunk_t
 data
 structure
+and
+declarations
+for
+chunk
+and
+page
+allocation
 .
 *
 Constants
