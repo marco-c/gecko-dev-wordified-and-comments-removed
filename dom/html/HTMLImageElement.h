@@ -145,6 +145,7 @@ ResponsiveImageSelector
 GetResponsiveImageSelector
 (
 )
+const
 {
 return
 mResponsiveSelector
