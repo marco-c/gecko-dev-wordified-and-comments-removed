@@ -62,6 +62,9 @@ arrayBuffer
 blob
 "
 "
+bytes
+"
+"
 formData
 "
 "
