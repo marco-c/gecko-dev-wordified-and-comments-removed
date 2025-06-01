@@ -2737,6 +2737,13 @@ source
 initialLoadFlags
 =
 flags
+desktopMode
+=
+store
+.
+state
+.
+desktopMode
 )
 store
 .
