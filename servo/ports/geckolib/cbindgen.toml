@@ -1694,6 +1694,13 @@ RawHandle
 void
 *
 "
+"
+PseudoStyleRequest
+"
+=
+"
+PseudoStyleRequest
+"
 [
 export
 .
