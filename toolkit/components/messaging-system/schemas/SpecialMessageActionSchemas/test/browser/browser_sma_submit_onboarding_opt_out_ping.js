@@ -125,6 +125,7 @@ test
 "
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -167,6 +168,7 @@ test
 "
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -236,6 +238,7 @@ test
 "
 )
 ;
+await
 ExperimentAPI
 .
 manager
