@@ -236,6 +236,16 @@ the
 allocator
 .
 *
+BaseAlloc
+.
+h
+Declarations
+for
+the
+base
+allocator
+.
+*
 Chunk
 .
 h
