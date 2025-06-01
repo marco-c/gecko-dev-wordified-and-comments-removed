@@ -1130,14 +1130,6 @@ UpdateSecurityState
 )
 ;
 void
-MaybeAddAsProgressListener
-(
-nsIWebProgress
-*
-aWebProgress
-)
-;
-void
 ReplacedBy
 (
 CanonicalBrowsingContext
