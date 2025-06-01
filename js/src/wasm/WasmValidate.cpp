@@ -22231,6 +22231,8 @@ if
 range
 .
 size
+(
+)
 >
 MaxCodeSectionBytes
 )
@@ -22258,6 +22260,8 @@ readBytes
 range
 .
 size
+(
+)
 )
 )
 {
@@ -23026,6 +23030,8 @@ codeSectionRange
 -
 >
 size
+(
+)
 >
 MaxCodeSectionBytes
 )
@@ -24627,8 +24633,6 @@ range
 -
 >
 end
-(
-)
 )
 {
 if
