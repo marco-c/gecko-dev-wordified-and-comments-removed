@@ -104,7 +104,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 export

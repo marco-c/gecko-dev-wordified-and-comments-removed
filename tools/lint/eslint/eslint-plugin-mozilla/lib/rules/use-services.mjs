@@ -80,7 +80,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 let

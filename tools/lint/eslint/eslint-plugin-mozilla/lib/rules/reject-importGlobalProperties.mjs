@@ -85,7 +85,7 @@ environments
 /
 privileged
 .
-js
+mjs
 "
 ;
 const

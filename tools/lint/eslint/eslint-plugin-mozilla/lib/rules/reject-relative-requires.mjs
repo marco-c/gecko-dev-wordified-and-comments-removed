@@ -76,7 +76,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 const

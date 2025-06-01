@@ -107,7 +107,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 import
@@ -119,7 +119,7 @@ from
 /
 globals
 .
-js
+mjs
 "
 ;
 function

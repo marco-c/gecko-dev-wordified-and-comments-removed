@@ -91,7 +91,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 /

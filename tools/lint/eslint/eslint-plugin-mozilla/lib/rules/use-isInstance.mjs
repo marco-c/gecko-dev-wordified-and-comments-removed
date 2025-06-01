@@ -84,7 +84,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 import
@@ -98,7 +98,7 @@ environments
 /
 privileged
 .
-js
+mjs
 "
 ;
 const

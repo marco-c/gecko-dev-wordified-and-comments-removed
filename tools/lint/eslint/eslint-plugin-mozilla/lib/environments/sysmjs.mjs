@@ -69,15 +69,8 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-module
-.
-exports
-=
+export
+default
 {
 globals
 :

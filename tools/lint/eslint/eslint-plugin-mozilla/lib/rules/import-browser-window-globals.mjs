@@ -99,7 +99,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 import
@@ -115,7 +115,7 @@ browser
 -
 window
 .
-js
+mjs
 "
 ;
 export

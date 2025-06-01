@@ -95,7 +95,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 import
@@ -228,7 +228,7 @@ browser
 -
 window
 .
-js
+mjs
 "
 )
 )
@@ -253,7 +253,7 @@ chrome
 -
 script
 .
-js
+mjs
 "
 )
 )
@@ -278,7 +278,7 @@ frame
 -
 script
 .
-js
+mjs
 "
 )
 )
@@ -297,7 +297,7 @@ environments
 /
 sysmjs
 .
-js
+mjs
 "
 )
 )
@@ -316,7 +316,7 @@ environments
 /
 privileged
 .
-js
+mjs
 "
 )
 )
@@ -341,7 +341,7 @@ process
 -
 script
 .
-js
+mjs
 "
 )
 )
@@ -366,7 +366,7 @@ remote
 -
 page
 .
-js
+mjs
 "
 )
 )
@@ -385,7 +385,7 @@ environments
 /
 simpletest
 .
-js
+mjs
 "
 )
 )
@@ -404,7 +404,7 @@ environments
 /
 sjs
 .
-js
+mjs
 "
 )
 )
@@ -433,7 +433,7 @@ powers
 -
 sandbox
 .
-js
+mjs
 "
 )
 )
@@ -452,7 +452,7 @@ environments
 /
 specific
 .
-js
+mjs
 "
 )
 )
@@ -471,7 +471,7 @@ environments
 /
 testharness
 .
-js
+mjs
 "
 )
 )
@@ -490,7 +490,7 @@ environments
 /
 xpcshell
 .
-js
+mjs
 "
 )
 )

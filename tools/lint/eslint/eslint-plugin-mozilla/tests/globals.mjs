@@ -46,7 +46,7 @@ lib
 /
 globals
 .
-js
+mjs
 "
 ;
 var

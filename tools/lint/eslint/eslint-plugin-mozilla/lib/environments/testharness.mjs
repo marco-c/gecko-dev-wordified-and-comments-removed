@@ -90,11 +90,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 These
@@ -116,10 +111,8 @@ expose
 /
 function
 .
-module
-.
-exports
-=
+export
+default
 {
 globals
 :

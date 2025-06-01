@@ -120,7 +120,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 import
@@ -136,7 +136,7 @@ frame
 -
 script
 .
-js
+mjs
 "
 ;
 import
@@ -154,7 +154,7 @@ powers
 -
 sandbox
 .
-js
+mjs
 "
 ;
 export

@@ -78,7 +78,7 @@ from
 /
 globals
 .
-js
+mjs
 "
 ;
 export

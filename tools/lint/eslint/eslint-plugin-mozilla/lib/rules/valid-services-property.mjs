@@ -105,7 +105,7 @@ from
 /
 helpers
 .
-js
+mjs
 "
 ;
 function
