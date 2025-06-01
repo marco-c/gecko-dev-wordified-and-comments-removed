@@ -1258,14 +1258,14 @@ components
 core
 .
 store
-onTranslationsActionUpdated
+onTranslationStatusUpdate
 =
 {
 translationsAvailable
 =
 it
 .
-isVisible
+isTranslationPossible
 translationsAction
 .
 updateView

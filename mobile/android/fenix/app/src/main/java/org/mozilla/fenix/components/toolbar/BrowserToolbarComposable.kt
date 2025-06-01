@@ -799,7 +799,6 @@ BrowserToolbarMiddleware
 >
 (
 )
-private
 val
 store
 =
