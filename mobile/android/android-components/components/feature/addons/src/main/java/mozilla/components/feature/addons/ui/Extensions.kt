@@ -89,6 +89,16 @@ AlertDialog
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 core
 .
 content
@@ -1167,7 +1177,7 @@ att
 )
 setImageDrawable
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

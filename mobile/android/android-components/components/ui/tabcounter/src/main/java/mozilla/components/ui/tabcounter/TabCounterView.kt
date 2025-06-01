@@ -147,11 +147,13 @@ VisibleForTesting
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -322,7 +324,7 @@ TabCounterView_tabCounterTintColor
 )
 ?
 :
-ContextCompat
+AppCompatResources
 .
 getColorStateList
 (
@@ -679,7 +681,7 @@ currentCounterColor
 false
 -
 >
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

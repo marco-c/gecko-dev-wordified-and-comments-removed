@@ -113,6 +113,16 @@ AppCompatActivity
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 compose
 .
 runtime
@@ -1277,7 +1287,7 @@ background
 val
 background
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -3116,7 +3126,7 @@ background
 val
 background
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -4503,7 +4513,7 @@ display
 .
 setUrlBackground
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -4822,7 +4832,7 @@ edit
 .
 setUrlBackground
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -4842,7 +4852,7 @@ edit
 .
 setIcon
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -5175,7 +5185,7 @@ mobile
 val
 drawableIcon
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -5246,7 +5256,7 @@ button
 val
 drawable
 =
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

@@ -107,11 +107,13 @@ TextClassifier
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -607,7 +609,7 @@ drawable
 .
 mozac_ic_search_24
 return
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

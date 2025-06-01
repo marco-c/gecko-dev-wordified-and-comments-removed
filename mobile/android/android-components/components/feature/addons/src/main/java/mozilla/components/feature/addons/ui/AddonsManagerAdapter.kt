@@ -173,6 +173,16 @@ VisibleForTesting
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 core
 .
 content
@@ -2839,7 +2849,7 @@ imageView
 .
 setImageDrawable
 (
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

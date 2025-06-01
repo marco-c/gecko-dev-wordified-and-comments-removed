@@ -83,6 +83,16 @@ Drawable
 import
 androidx
 .
+appcompat
+.
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
 core
 .
 content
@@ -517,7 +527,7 @@ drawable
 .
 mozac_ic_reader_view_24
 return
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

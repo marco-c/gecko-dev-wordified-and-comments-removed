@@ -131,11 +131,13 @@ VisibleForTesting
 import
 androidx
 .
-core
+appcompat
 .
 content
 .
-ContextCompat
+res
+.
+AppCompatResources
 import
 androidx
 .
@@ -564,7 +566,7 @@ backgroundPadding
 Rect
 (
 )
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -593,7 +595,7 @@ top
 backgroundPadding
 .
 bottom
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (

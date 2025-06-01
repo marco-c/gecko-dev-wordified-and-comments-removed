@@ -69,6 +69,12 @@ ext
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 res
@@ -485,6 +491,12 @@ option
 .
 *
 /
+SuppressLint
+(
+"
+UnsafeCompatGetDrawable
+"
+)
 internal
 fun
 View

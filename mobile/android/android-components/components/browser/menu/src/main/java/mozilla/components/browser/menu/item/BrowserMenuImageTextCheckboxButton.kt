@@ -95,6 +95,16 @@ androidx
 .
 appcompat
 .
+content
+.
+res
+.
+AppCompatResources
+import
+androidx
+.
+appcompat
+.
 widget
 .
 AppCompatCheckBox
@@ -646,7 +656,7 @@ isInPrimaryState
 )
 )
 {
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
@@ -658,7 +668,7 @@ primaryStateIconResource
 }
 else
 {
-ContextCompat
+AppCompatResources
 .
 getDrawable
 (
