@@ -4073,6 +4073,14 @@ build
 type
 sandbox
 .
+mingw
+=
+mozinfo
+.
+mingw
+;
+sandbox
+.
 isDebugBuild
 =
 mozinfo
