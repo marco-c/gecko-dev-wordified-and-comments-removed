@@ -488,11 +488,6 @@ if
 addon
 .
 isSystem
-|
-|
-addon
-.
-isAPIExtension
 )
 {
 return
