@@ -88,3 +88,15 @@ test_videoFrame_mismatched_codedSize
 html
 "
 ]
+[
+"
+test_resistFingerprinting
+.
+html
+"
+]
+scheme
+=
+"
+https
+"
