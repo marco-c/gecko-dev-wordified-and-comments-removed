@@ -316,6 +316,13 @@ imptests
 /
 dom
 /
+onnx
+/
+onnxruntime_c_api
+.
+h
+dom
+/
 media
 /
 gmp
