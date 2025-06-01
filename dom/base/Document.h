@@ -2776,16 +2776,6 @@ return
 mOriginalURI
 ;
 }
-nsCString
-GetBaseDomain
-(
-)
-const
-{
-return
-mBaseDomain
-;
-}
 void
 SetDocumentURI
 (
@@ -13753,9 +13743,6 @@ nsCOMPtr
 nsIURI
 >
 mChromeXHRDocBaseURI
-;
-nsCString
-mBaseDomain
 ;
 RefPtr
 <
