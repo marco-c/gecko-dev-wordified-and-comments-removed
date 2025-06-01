@@ -906,6 +906,7 @@ clicked
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -1240,6 +1241,7 @@ button
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -1341,6 +1343,7 @@ manager
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -1416,6 +1419,7 @@ off
 }
 )
 ;
+await
 cleanup
 (
 )
