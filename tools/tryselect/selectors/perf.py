@@ -7883,11 +7883,7 @@ not
 push_to_vcs
 :
                     
-PerfParser
-.
-push_info
-.
-base_lando_commit_id
+lando_commit_id
 =
 push_to_try
 (
@@ -7941,6 +7937,21 @@ push_to_vcs
 False
                     
 )
+                    
+if
+not
+lando_commit_id
+:
+                        
+return
+                    
+PerfParser
+.
+push_info
+.
+base_lando_commit_id
+=
+lando_commit_id
                 
 else
 :
@@ -8068,11 +8079,7 @@ not
 push_to_vcs
 :
                 
-PerfParser
-.
-push_info
-.
-new_lando_commit_id
+lando_commit_id
 =
 push_to_try
 (
@@ -8124,6 +8131,21 @@ push_to_vcs
 False
                 
 )
+                
+if
+not
+lando_commit_id
+:
+                    
+return
+                
+PerfParser
+.
+push_info
+.
+new_lando_commit_id
+=
+lando_commit_id
             
 else
 :
