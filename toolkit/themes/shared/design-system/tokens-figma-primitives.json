@@ -29,6 +29,15 @@ medium
 "
 border
 /
+radius
+/
+large
+"
+:
+12
+"
+border
+/
 width
 "
 :
@@ -377,7 +386,7 @@ item
 medium
 "
 :
-28
+24
 "
 size
 /
