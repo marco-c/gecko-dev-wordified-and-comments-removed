@@ -679,6 +679,13 @@ Start
 )
 )
 ;
+memset
+(
+header_
+0
+header_size_
+)
+;
 header_
 -
 >
