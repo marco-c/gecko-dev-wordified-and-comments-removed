@@ -404,6 +404,13 @@ headers
 ]
 [
 "
+browser_pdfjs_print_enabled
+.
+js
+"
+]
+[
+"
 browser_pdfjs_properties
 .
 js
