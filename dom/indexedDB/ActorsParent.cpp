@@ -7049,7 +7049,7 @@ aTransactionOp
 )
 ;
 void
-Dispatch
+StartOp
 (
 uint64_t
 aTransactionId
@@ -33199,7 +33199,7 @@ void
 ConnectionPool
 :
 :
-Dispatch
+StartOp
 (
 uint64_t
 aTransactionId
@@ -33223,7 +33223,7 @@ AUTO_PROFILER_LABEL
 ConnectionPool
 :
 :
-Dispatch
+StartOp
 "
 DOM
 )
@@ -33409,7 +33409,7 @@ aTransactionId
 aCallback
 )
 ;
-Dispatch
+StartOp
 (
 aTransactionId
 wrapper
@@ -76690,7 +76690,7 @@ DatabaseWork
 gConnectionPool
 -
 >
-Dispatch
+StartOp
 (
 (
 *
