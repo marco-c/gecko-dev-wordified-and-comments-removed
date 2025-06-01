@@ -72,7 +72,7 @@ MPL
 *
 /
 const
-componentsBlacklist
+componentsList
 =
 [
 "
@@ -205,7 +205,7 @@ Identifier
 "
 &
 &
-componentsBlacklist
+componentsList
 .
 includes
 (
@@ -281,7 +281,7 @@ Property
 "
 &
 &
-componentsBlacklist
+componentsList
 .
 includes
 (
