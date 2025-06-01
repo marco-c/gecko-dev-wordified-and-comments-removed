@@ -78,7 +78,7 @@ public
 :
 ShmemCreated
 (
-int32_t
+routeid_t
 routingId
 id_t
 aIPDLId
@@ -237,7 +237,7 @@ public
 :
 ShmemDestroyed
 (
-int32_t
+routeid_t
 routingId
 id_t
 aIPDLId
@@ -708,7 +708,13 @@ id_t
 aId
 bool
 aUnsafe
-int32_t
+IPC
+:
+:
+Message
+:
+:
+routeid_t
 aRoutingId
 )
 {
@@ -936,7 +942,13 @@ Shmem
 :
 MkDestroyedMessage
 (
-int32_t
+IPC
+:
+:
+Message
+:
+:
+routeid_t
 routingId
 )
 {
