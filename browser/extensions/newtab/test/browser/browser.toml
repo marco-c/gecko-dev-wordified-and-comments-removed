@@ -173,11 +173,6 @@ log
 all
 "
 ]
-tags
-=
-"
-newtab
-"
 [
 "
 browser_as_load_location
