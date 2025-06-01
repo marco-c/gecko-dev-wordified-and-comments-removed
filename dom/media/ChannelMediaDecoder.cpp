@@ -1828,7 +1828,7 @@ MediaPlaybackEvent
 :
 PlaybackStarted
 :
-mPlaybackPosition
+mPlaybackByteOffset
 =
 aEvent
 .
@@ -1876,10 +1876,10 @@ AddBytes
 (
 newPos
 -
-mPlaybackPosition
+mPlaybackByteOffset
 )
 ;
-mPlaybackPosition
+mPlaybackByteOffset
 =
 newPos
 ;
@@ -1913,10 +1913,10 @@ AddBytes
 (
 newPos
 -
-mPlaybackPosition
+mPlaybackByteOffset
 )
 ;
-mPlaybackPosition
+mPlaybackByteOffset
 =
 newPos
 ;
@@ -2139,7 +2139,7 @@ DurationToTimeUnit
 )
 pos
 =
-mPlaybackPosition
+mPlaybackByteOffset
 ]
 (
 )
@@ -2538,7 +2538,7 @@ mReliable
 ;
 result
 .
-mPlaybackPosition
+mPlaybackByteOffset
 =
 aPlaybackPosition
 ;
@@ -3221,7 +3221,7 @@ mPlaybackRate
 mDownloadRate
 mTotalBytes
 mDownloadPosition
-mPlaybackPosition
+mPlaybackByteOffset
 mDownloadRateReliable
 mPlaybackRateReliable
 )
@@ -3441,12 +3441,12 @@ str
 AppendPrintf
 (
 "
-mPlaybackPosition
+mPlaybackByteOffset
 =
 %
 "
 PRId64
-mPlaybackPosition
+mPlaybackByteOffset
 )
 ;
 str

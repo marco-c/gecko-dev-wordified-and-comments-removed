@@ -389,7 +389,7 @@ int64_t
 mDownloadPosition
 ;
 int64_t
-mPlaybackPosition
+mPlaybackByteOffset
 ;
 bool
 mDownloadRateReliable
@@ -514,7 +514,7 @@ MediaChannelStatistics
 mPlaybackStatistics
 ;
 int64_t
-mPlaybackPosition
+mPlaybackByteOffset
 =
 0
 ;
