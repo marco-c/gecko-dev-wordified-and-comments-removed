@@ -77,6 +77,14 @@ widget
 .
 ToggleButton
 import
+androidx
+.
+core
+.
+view
+.
+isVisible
+import
 org
 .
 mozilla
@@ -133,6 +141,9 @@ PrivateBrowsingButtonView
 button
 :
 ToggleButton
+showPrivateBrowsingButton
+:
+Boolean
 private
 val
 browsingModeManager
@@ -156,6 +167,11 @@ OnClickListener
 {
 init
 {
+button
+.
+isVisible
+=
+showPrivateBrowsingButton
 button
 .
 contentDescription
