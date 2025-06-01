@@ -16471,10 +16471,10 @@ frame
 {
 frame
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
-GetCrossDocParentFrame
+OneStepInAsyncScrollableAncestorChain
 (
 frame
 )

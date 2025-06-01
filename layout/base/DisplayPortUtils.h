@@ -619,6 +619,16 @@ aRepaintMode
 )
 ;
 static
+nsIFrame
+*
+OneStepInAsyncScrollableAncestorChain
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
 (
