@@ -853,6 +853,8 @@ branches
 [
 0
 ]
+.
+slug
 "
 test
 "
@@ -4410,6 +4412,7 @@ value
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -4536,6 +4539,7 @@ enabled
 )
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -4580,6 +4584,7 @@ enabled
 )
 )
 ;
+await
 doRolloutCleanup
 (
 )
