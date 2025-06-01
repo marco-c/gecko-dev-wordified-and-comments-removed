@@ -305,6 +305,16 @@ in
 t
 .
 label
+                    
+and
+"
+trainhop
+"
+not
+in
+t
+.
+label
                 
 )
             
@@ -542,6 +552,16 @@ label
 and
 "
 ioi
+"
+not
+in
+t
+.
+label
+                    
+and
+"
+trainhop
 "
 not
 in

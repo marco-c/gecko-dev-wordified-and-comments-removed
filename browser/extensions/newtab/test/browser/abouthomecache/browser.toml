@@ -256,6 +256,11 @@ delayMs
 =
 0
 ]
+tags
+=
+"
+newtab
+"
 [
 "
 browser_basic_endtoend
