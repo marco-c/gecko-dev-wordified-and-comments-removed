@@ -35,6 +35,10 @@ void
 base_init
 (
 )
+MOZ_REQUIRES
+(
+gInitLock
+)
 ;
 void
 *
