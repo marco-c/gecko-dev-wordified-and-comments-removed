@@ -44,11 +44,7 @@ tests
 /
 tools
 /
-third_party
-/
-websockets
-/
-src
+webdriver
 vendored
 :
 testing
@@ -61,4 +57,8 @@ tests
 /
 tools
 /
-webdriver
+third_party
+/
+websockets
+/
+src

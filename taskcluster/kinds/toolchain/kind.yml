@@ -214,10 +214,6 @@ hostutils
 .
 yml
 -
-jj
-.
-yml
--
 libunwind
 .
 yml
