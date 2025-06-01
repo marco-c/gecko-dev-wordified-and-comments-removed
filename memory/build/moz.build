@@ -145,6 +145,11 @@ UNIFIED_SOURCES
 =
 [
 "
+Globals
+.
+cpp
+"
+"
 mozjemalloc
 .
 cpp
