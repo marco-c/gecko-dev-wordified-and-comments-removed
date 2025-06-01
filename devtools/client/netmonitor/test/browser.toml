@@ -1712,6 +1712,13 @@ or
 labeled
 [
 "
+browser_net_disable_cache_rdm
+.
+js
+"
+]
+[
+"
 browser_net_domain
 -
 not

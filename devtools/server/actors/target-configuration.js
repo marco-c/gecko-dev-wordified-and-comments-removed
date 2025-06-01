@@ -1021,6 +1021,13 @@ _setPrintSimulationEnabled
 false
 )
 ;
+if
+(
+this
+.
+_resetCacheDisabledOnDestroy
+)
+{
 this
 .
 _setCacheDisabled
@@ -1028,6 +1035,7 @@ _setCacheDisabled
 false
 )
 ;
+}
 this
 .
 _setTabOffline
@@ -1608,6 +1616,12 @@ _browsingContext
 defaultLoadFlags
 =
 value
+;
+this
+.
+_resetCacheDisabledOnDestroy
+=
+true
 ;
 }
 }
