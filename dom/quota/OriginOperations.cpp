@@ -6520,7 +6520,7 @@ AssertIsOnOwningThread
 mQuotaManager
 -
 >
-ClearDirectoryLockTables
+ClearOpenClientDirectoryInfos
 (
 )
 ;
@@ -11729,7 +11729,7 @@ AssertIsOnOwningThread
 mQuotaManager
 -
 >
-ClearDirectoryLockTables
+ClearOpenClientDirectoryInfos
 (
 )
 ;
