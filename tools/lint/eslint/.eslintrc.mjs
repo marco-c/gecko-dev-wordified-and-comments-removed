@@ -133,7 +133,7 @@ toolchain
 .
 ecmaVersion
 :
-12
+16
 }
 }
 rules
