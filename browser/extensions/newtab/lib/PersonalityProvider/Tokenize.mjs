@@ -4015,6 +4015,12 @@ split
 multiple
 code
 points
+const
+REGEXP_ALPHANUMS
+=
+new
+RegExp
+(
 /
 /
 eslint
@@ -4031,12 +4037,6 @@ misleading
 character
 -
 class
-const
-REGEXP_ALPHANUMS
-=
-new
-RegExp
-(
 ^
 [
 {
