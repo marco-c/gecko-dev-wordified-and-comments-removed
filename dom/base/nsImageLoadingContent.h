@@ -614,6 +614,14 @@ GetFetchPriorityForImage
 )
 const
 ;
+mozilla
+:
+:
+CSSIntSize
+NaturalSize
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 mozilla
 :
