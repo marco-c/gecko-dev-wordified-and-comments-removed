@@ -4900,11 +4900,6 @@ MozillaStrictModeSuppression
 active
 :
 true
-MozillaCorrectUnitTestRunner
-:
-active
-:
-true
 MozillaRunBlockingCheck
 :
 active

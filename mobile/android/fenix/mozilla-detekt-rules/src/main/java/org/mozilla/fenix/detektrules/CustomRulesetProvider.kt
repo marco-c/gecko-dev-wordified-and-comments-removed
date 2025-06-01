@@ -190,10 +190,6 @@ MozillaStrictModeSuppression
 (
 config
 )
-MozillaCorrectUnitTestRunner
-(
-config
-)
 MozillaRunBlockingCheck
 (
 config
