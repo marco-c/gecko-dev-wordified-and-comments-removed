@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 functions
 for
 scanning
@@ -573,7 +573,7 @@ string
 *
 returns
 {
-Object
+object
 }
 Result
 map
@@ -933,7 +933,7 @@ definitions
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -963,7 +963,7 @@ scope
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1690,7 +1690,7 @@ scope
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -1720,7 +1720,7 @@ scope
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1883,7 +1883,7 @@ definitions
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -1913,7 +1913,7 @@ scope
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -2647,7 +2647,7 @@ found
 *
 param
 {
-String
+string
 }
 filePath
 *
@@ -3364,7 +3364,7 @@ directives
 *
 param
 {
-String
+string
 }
 filePath
 *
@@ -3381,7 +3381,7 @@ parsed
 *
 param
 {
-Object
+object
 }
 astOptions
 *
@@ -3394,7 +3394,7 @@ the
 parser
 .
 *
-return
+returns
 {
 Array
 }
@@ -3720,7 +3720,7 @@ testing
 *
 param
 {
-String
+string
 }
 code
 *
@@ -3730,7 +3730,7 @@ code
 *
 param
 {
-Object
+object
 }
 astOptions
 *
@@ -3743,7 +3743,7 @@ the
 parser
 .
 *
-return
+returns
 {
 Array
 }
@@ -4030,7 +4030,7 @@ order
 *
 param
 {
-String
+string
 }
 filePath
 *
@@ -4045,7 +4045,7 @@ be
 parsed
 .
 *
-return
+returns
 {
 Array
 }
@@ -4365,7 +4365,7 @@ directives
 *
 param
 {
-Object
+object
 }
 context
 *

@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 Reject
 common
 XPCOM

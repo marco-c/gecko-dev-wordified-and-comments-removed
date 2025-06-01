@@ -267,9 +267,9 @@ imports
 .
 *
 *
-return
+returns
 {
-function
+Function
 }
 *
 /

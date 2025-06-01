@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 Reject
 use
 of
@@ -304,6 +304,7 @@ globals
 for
 example
 .
+*
 *
 param
 {

@@ -428,6 +428,7 @@ privileged
 script
 .
 *
+*
 param
 {
 string
@@ -477,6 +478,7 @@ simulating
 content
 script
 .
+*
 *
 param
 {

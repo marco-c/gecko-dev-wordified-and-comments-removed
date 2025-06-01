@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 Provides
 utilities
 for
@@ -119,7 +119,7 @@ param
 Array
 .
 <
-String
+string
 >
 }
 files
@@ -144,7 +144,7 @@ topsrcdir
 *
 returns
 {
-Object
+object
 }
 *
 Returns

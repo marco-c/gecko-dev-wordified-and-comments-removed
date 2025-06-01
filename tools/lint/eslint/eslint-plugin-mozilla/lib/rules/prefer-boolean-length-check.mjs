@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 Prefer
 boolean
 length
