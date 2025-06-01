@@ -88,6 +88,7 @@ AsyncGeneratorYieldReturnAwaitedFulfilled
 AsyncGeneratorYieldReturnAwaitedRejected
 AsyncFromSyncIteratorValueUnwrapDone
 AsyncFromSyncIteratorValueUnwrapNotDone
+AsyncFromSyncIteratorClose
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
