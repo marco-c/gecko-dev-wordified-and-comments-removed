@@ -965,7 +965,7 @@ defineESModuleGetters
 (
 lazy
 {
-PlacesSemanticHistoryManager
+getPlacesSemanticHistoryManager
 :
 "
 resource
@@ -1107,13 +1107,12 @@ Info
 }
 )
 ;
-const
+let
 semanticManager
 =
-new
 lazy
 .
-PlacesSemanticHistoryManager
+getPlacesSemanticHistoryManager
 (
 {
 embeddingSize
@@ -1135,6 +1134,7 @@ distanceThreshold
 0
 testFlag
 }
+true
 )
 ;
 if

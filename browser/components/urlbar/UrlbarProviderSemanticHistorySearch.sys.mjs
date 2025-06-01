@@ -107,6 +107,8 @@ mjs
 ;
 import
 {
+getPlacesSemanticHistoryManager
+as
 PlacesSemanticHistoryManager
 }
 from
@@ -486,7 +488,6 @@ this
 #
 semanticManager
 =
-new
 PlacesSemanticHistoryManager
 (
 {
