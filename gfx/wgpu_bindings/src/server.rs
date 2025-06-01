@@ -537,9 +537,6 @@ owner
 *
 mut
 c_void
-use_dxc
-:
-bool
 )
 -
 >
@@ -727,9 +724,6 @@ DISCARD_HAL_LABELS
 let
 dx12_shader_compiler
 =
-if
-use_dxc
-{
 wgt
 :
 :
@@ -758,17 +752,6 @@ DxcShaderModel
 :
 :
 V6_6
-}
-}
-else
-{
-wgt
-:
-:
-Dx12Compiler
-:
-:
-Fxc
 }
 ;
 let
