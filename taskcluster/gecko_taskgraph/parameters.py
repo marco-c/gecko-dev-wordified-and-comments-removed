@@ -142,6 +142,17 @@ None
 str
 )
     
+Optional
+(
+"
+partial_versions
+"
+)
+:
+[
+str
+]
+    
 Required
 (
 "
