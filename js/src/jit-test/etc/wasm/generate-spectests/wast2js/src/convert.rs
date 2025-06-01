@@ -823,7 +823,9 @@ writeln
 out
 "
 let
-_
+_anon_
+{
+}
 =
 module
 (
@@ -832,6 +834,7 @@ module
 )
 ;
 "
+line
 module_text
 )
 ?

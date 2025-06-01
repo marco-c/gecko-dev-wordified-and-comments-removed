@@ -2242,7 +2242,7 @@ unknown
 operator
 )
 ;
-assert_malformed
+assert_invalid
 (
 (
 )
@@ -2275,11 +2275,13 @@ const
 )
 )
 )
-i32
-constant
+offset
+out
+of
+range
 )
 ;
-assert_malformed
+assert_invalid
 (
 (
 )
@@ -2319,7 +2321,9 @@ i32x4
 )
 )
 )
-i32
-constant
+offset
+out
+of
+range
 )
 ;

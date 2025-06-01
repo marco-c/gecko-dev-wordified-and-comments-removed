@@ -3402,7 +3402,7 @@ memory
 access
 )
 ;
-assert_malformed
+assert_invalid
 (
 (
 )
@@ -3435,8 +3435,10 @@ const
 )
 )
 )
-i32
-constant
+offset
+out
+of
+range
 )
 ;
 let
