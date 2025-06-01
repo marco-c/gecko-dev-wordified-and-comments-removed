@@ -3198,6 +3198,15 @@ builtin
 /
 intl
 /
+GlobalIntlData
+.
+cpp
+"
+"
+builtin
+/
+intl
+/
 IntlObject
 .
 cpp

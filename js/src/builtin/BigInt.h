@@ -156,9 +156,6 @@ Value
 vp
 )
 ;
-#
-ifndef
-JS_HAS_INTL_API
 static
 bool
 toLocaleString_impl
@@ -189,8 +186,6 @@ Value
 vp
 )
 ;
-#
-endif
 static
 bool
 asUintN
