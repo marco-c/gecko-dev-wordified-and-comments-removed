@@ -3315,14 +3315,6 @@ nsIURI
 aURI
 )
 ;
-already_AddRefed
-<
-nsIWebProgressListener
->
-BCWebProgressListener
-(
-)
-;
 nsString
 mTitle
 ;
