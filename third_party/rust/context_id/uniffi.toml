@@ -1,0 +1,15 @@
+[
+bindings
+.
+swift
+]
+ffi_module_name
+=
+"
+MozillaRustComponents
+"
+ffi_module_filename
+=
+"
+contextIDFFI
+"
