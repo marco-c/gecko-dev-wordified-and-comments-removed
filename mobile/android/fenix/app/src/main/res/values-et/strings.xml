@@ -13161,13 +13161,6 @@ name
 "
 download_in_progress_snackbar_action_details
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 ksikasjad
 <
@@ -13199,13 +13192,6 @@ name
 =
 "
 download_completed_snackbar_action_open
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Ava
