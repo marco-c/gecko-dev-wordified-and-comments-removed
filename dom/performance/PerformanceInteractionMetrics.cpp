@@ -323,6 +323,13 @@ IncreaseInteractionValueAndCount
 (
 )
 ;
+mLastKeydownInteractionValue
+=
+Some
+(
+interactionId
+)
+;
 return
 Some
 (
@@ -415,13 +422,6 @@ mPendingKeyDowns
 Remove
 (
 code
-)
-;
-mLastKeydownInteractionValue
-=
-Some
-(
-interactionId
 )
 ;
 return
