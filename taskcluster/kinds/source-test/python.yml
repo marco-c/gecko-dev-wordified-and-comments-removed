@@ -2166,10 +2166,6 @@ opt
 linux64
 -
 node
--
-linux64
--
-uv
 macosx1470
 -
 64
@@ -2180,10 +2176,6 @@ opt
 macosx64
 -
 node
--
-macosx64
--
-uv
 windows11
 -
 64
@@ -2194,10 +2186,6 @@ opt
 win64
 -
 node
--
-win64
--
-uv
 -
 win64
 -
