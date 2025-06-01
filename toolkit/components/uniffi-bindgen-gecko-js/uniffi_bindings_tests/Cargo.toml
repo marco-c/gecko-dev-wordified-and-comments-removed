@@ -38,15 +38,6 @@ staticlib
 [
 dependencies
 ]
-async
--
-trait
-=
-"
-0
-.
-1
-"
 thiserror
 =
 "
