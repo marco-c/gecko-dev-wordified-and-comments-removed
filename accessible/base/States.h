@@ -735,11 +735,6 @@ OFFSCREEN
 states
 :
 :
-ENABLED
-|
-states
-:
-:
 SENSITIVE
 |
 states

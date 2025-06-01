@@ -1571,6 +1571,17 @@ Optional
 "
 use
 -
+uv
+"
+)
+:
+bool
+        
+Optional
+(
+"
+use
+-
 caches
 "
 )
@@ -2144,6 +2155,18 @@ python
 "
 system
 "
+)
+        
+task
+.
+setdefault
+(
+"
+use
+-
+uv
+"
+True
 )
         
 task

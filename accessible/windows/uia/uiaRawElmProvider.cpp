@@ -1184,13 +1184,7 @@ case
 states
 :
 :
-COLLAPSED
-:
-case
-states
-:
-:
-EXPANDED
+EXPANDABLE
 :
 case
 states

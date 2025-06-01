@@ -16,7 +16,7 @@ third_party
 /
 python
 /
-PyYAML
+pyyaml
 /
 lib
 /

@@ -227,6 +227,11 @@ use
 python
 :
 default
+use
+-
+uv
+:
+true
 run
 :
 mozconfig
