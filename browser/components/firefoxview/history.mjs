@@ -872,6 +872,13 @@ controller
 deleteFromHistory
 (
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 this
 .
