@@ -167,6 +167,14 @@ Highlight
 aHighlight
 )
 ;
+void
+RepaintHighlightSelection
+(
+Highlight
+&
+aHighlight
+)
+;
 Document
 *
 GetParentObject

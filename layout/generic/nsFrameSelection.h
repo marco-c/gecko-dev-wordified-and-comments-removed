@@ -1088,6 +1088,14 @@ Highlight
 aHighlight
 )
 ;
+void
+RepaintHighlightSelection
+(
+nsAtom
+*
+aHighlightName
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 RemoveHighlightSelection
