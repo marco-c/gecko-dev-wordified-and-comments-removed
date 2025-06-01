@@ -793,7 +793,7 @@ colors
 textActionPrimary
 wallpaperState
 .
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 {
 _
 _

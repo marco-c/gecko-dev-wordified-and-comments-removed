@@ -166,7 +166,7 @@ item
 /
 Composable
 fun
-EagerFlingBehavior
+eagerFlingBehavior
 (
 lazyRowState
 :

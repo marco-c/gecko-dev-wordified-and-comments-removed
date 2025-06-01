@@ -472,7 +472,7 @@ buildColors
 )
 wallpaperState
 .
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 {
 cardColorLight
 cardColorDark

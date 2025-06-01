@@ -1517,7 +1517,7 @@ FirefoxTheme
 colors
 .
 actionTertiary
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 {
 cardColorLight
 cardColorDark

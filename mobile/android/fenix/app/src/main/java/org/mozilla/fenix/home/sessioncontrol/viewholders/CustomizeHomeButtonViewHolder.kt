@@ -396,7 +396,7 @@ colors
 actionTertiary
 wallpaperState
 .
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 {
 cardColorLight
 cardColorDark

@@ -428,7 +428,7 @@ available
 /
 Composable
 fun
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 (
 run
 :

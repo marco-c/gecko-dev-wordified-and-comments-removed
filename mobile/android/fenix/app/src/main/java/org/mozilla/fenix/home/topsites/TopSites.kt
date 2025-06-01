@@ -1774,7 +1774,7 @@ colors
 layer2
 wallpaperState
 .
-composeRunIfWallpaperCardColorsAreAvailable
+ComposeRunIfWallpaperCardColorsAreAvailable
 {
 cardColorLight
 cardColorDark

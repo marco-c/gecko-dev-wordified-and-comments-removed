@@ -273,7 +273,7 @@ buildStore
 (
 navController
 )
-updateToolbar
+UpdateToolbar
 (
 navController
 =
@@ -685,7 +685,7 @@ url
 Composable
 private
 fun
-updateToolbar
+UpdateToolbar
 (
 navController
 :
