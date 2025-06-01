@@ -959,6 +959,9 @@ xa
 )
 )
 ;
+#
+ifndef
+UNSAFE_FUZZER_MODE
 CHECK_MPI_OK
 (
 mp_exptmod
@@ -974,6 +977,8 @@ Ya
 )
 )
 ;
+#
+endif
 MPINT_TO_SECITEM
 (
 &
