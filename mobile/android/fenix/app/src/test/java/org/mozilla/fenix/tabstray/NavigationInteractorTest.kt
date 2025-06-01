@@ -325,13 +325,9 @@ FenixGleanTestRule
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 mozilla
 .
@@ -348,7 +344,7 @@ as
 createStateTab
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

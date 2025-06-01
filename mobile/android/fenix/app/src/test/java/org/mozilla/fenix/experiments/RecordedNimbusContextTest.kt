@@ -209,13 +209,9 @@ FenixGleanTestRule
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 org
 .
@@ -230,7 +226,7 @@ as
 GleanNimbus
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

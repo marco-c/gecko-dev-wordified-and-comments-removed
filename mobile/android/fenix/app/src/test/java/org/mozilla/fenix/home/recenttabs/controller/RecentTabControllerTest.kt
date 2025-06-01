@@ -299,13 +299,9 @@ FenixGleanTestRule
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 OptIn
 (
 ExperimentalCoroutinesApi
@@ -315,7 +311,7 @@ class
 )
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

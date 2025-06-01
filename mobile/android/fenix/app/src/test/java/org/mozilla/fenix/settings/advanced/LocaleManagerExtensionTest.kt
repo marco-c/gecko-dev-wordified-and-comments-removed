@@ -155,13 +155,9 @@ BuildConfig
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 org
 .
@@ -178,7 +174,7 @@ util
 Locale
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

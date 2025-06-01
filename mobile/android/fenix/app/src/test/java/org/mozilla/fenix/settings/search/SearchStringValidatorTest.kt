@@ -143,13 +143,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 java
 .
@@ -164,7 +160,7 @@ io
 IOException
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

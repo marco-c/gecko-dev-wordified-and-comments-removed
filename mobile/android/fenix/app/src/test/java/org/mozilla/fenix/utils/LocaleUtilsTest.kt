@@ -89,13 +89,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 java
 .
@@ -104,7 +100,7 @@ util
 Locale
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

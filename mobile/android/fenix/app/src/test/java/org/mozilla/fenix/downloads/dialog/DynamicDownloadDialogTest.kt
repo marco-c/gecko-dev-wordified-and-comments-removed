@@ -251,13 +251,9 @@ settings
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 org
 .
@@ -268,7 +264,7 @@ Shadows
 shadowOf
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

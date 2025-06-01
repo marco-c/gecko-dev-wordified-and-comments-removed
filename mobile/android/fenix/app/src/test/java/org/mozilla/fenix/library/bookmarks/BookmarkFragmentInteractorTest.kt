@@ -195,13 +195,9 @@ FenixGleanTestRule
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 SuppressWarnings
 (
 "
@@ -213,7 +209,7 @@ LargeClass
 )
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

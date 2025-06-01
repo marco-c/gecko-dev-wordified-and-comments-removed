@@ -197,13 +197,9 @@ TabCollectionStorage
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 private
 const
 val
@@ -273,7 +269,7 @@ id
 "
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class

@@ -183,13 +183,9 @@ FenixGleanTestRule
 import
 org
 .
-mozilla
+robolectric
 .
-fenix
-.
-helpers
-.
-FenixRobolectricTestRunner
+RobolectricTestRunner
 import
 org
 .
@@ -204,7 +200,7 @@ as
 Metrics
 RunWith
 (
-FenixRobolectricTestRunner
+RobolectricTestRunner
 :
 :
 class
