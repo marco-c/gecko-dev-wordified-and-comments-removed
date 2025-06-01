@@ -657,6 +657,10 @@ atloc
 .
 ftploc
 "
+"
+.
+terminal
+"
 }
 ;
 const

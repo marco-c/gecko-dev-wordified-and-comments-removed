@@ -8822,6 +8822,9 @@ ftploc
 "
 inetloc
 "
+"
+terminal
+"
 #
 endif
 "

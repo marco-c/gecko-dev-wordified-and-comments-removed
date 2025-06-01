@@ -451,6 +451,10 @@ shs
 "
 "
 .
+terminal
+"
+"
+.
 url
 "
 "

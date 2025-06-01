@@ -971,6 +971,10 @@ tcsh
 "
 "
 .
+terminal
+"
+"
+.
 tgz
 "
 "
