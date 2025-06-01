@@ -710,6 +710,11 @@ iconSize
 return
 WebExtensionMenuItem
 (
+id
+=
+extension
+.
+id
 label
 =
 title

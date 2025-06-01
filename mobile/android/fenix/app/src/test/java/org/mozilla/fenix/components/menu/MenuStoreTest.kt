@@ -2116,6 +2116,11 @@ listOf
 (
 WebExtensionMenuItem
 (
+id
+=
+"
+id
+"
 label
 =
 "

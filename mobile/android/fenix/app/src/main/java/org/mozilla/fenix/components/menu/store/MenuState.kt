@@ -833,6 +833,16 @@ whole
 *
 *
 property
+id
+The
+id
+of
+the
+web
+extension
+.
+*
+property
 label
 The
 label
@@ -920,6 +930,10 @@ data
 class
 WebExtensionMenuItem
 (
+val
+id
+:
+String
 val
 label
 :
