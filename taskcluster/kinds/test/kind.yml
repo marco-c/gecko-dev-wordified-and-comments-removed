@@ -310,6 +310,11 @@ use
 python
 :
 default
+use
+-
+uv
+:
+true
 require
 -
 signed
