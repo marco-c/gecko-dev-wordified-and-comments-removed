@@ -340,10 +340,6 @@ jsStringConstants
 (
 false
 )
-requireExnref
-(
-false
-)
 {
 }
 bool
@@ -360,9 +356,6 @@ jsStringConstants
 ;
 SharedChars
 jsStringConstantsNamespace
-;
-bool
-requireExnref
 ;
 [
 [
