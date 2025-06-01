@@ -3226,9 +3226,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
 url
-}
 )
 ;
 if
@@ -3370,9 +3368,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
 url
-}
 )
 ;
 if
