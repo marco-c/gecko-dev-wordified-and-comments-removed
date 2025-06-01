@@ -129,7 +129,7 @@ aWidget
 #
 endif
 void
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 (
 struct
 wl_callback
