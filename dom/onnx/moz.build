@@ -36,6 +36,11 @@ onnxruntime_c_api
 h
 "
 "
+OnxRunTimeIncludeWrapper
+.
+h
+"
+"
 Tensor
 .
 h

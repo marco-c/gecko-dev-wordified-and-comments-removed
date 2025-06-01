@@ -68,7 +68,7 @@ h
 #
 include
 "
-onnxruntime_c_api
+OnxRunTimeIncludeWrapper
 .
 h
 "
