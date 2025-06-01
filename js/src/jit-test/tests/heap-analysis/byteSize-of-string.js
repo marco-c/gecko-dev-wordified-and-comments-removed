@@ -11,6 +11,122 @@ semispaceNurseryEnabled
 0
 )
 ;
+var
+checkFailures
+=
+0
+;
+function
+checkEq
+(
+expect
+receive
+)
+{
+if
+(
+expect
+=
+=
+=
+receive
+)
+{
+return
+;
+}
+const
+e
+=
+new
+Error
+(
+)
+;
+const
+[
+_
+line
+]
+=
+e
+.
+stack
+.
+match
+(
+/
+[
+^
+\
+n
+]
+*
+\
+n
+[
+^
+\
+n
+]
+*
+?
+tests
+\
+/
+(
+[
+^
+\
+n
+]
+*
+:
+\
+d
++
+)
+:
+\
+d
++
+\
+n
+/
+)
+;
+printErr
+(
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+{
+line
+}
+|
+Error
+:
+Assertion
+failed
+.
+Got
+{
+receive
+}
+expected
+{
+expect
+}
+)
+;
+checkFailures
++
++
+;
+}
 {
 const
 sample_nursery
@@ -464,7 +580,7 @@ s
 +
 0
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -478,7 +594,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -493,7 +609,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -508,7 +624,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -523,7 +639,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -538,7 +654,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -555,7 +671,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -572,7 +688,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -589,7 +705,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -608,7 +724,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -627,7 +743,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -650,7 +766,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -675,7 +791,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -700,7 +816,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -725,7 +841,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -739,7 +855,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -754,7 +870,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -775,7 +891,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -796,7 +912,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -817,7 +933,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -840,7 +956,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -863,7 +979,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -886,7 +1002,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -911,7 +1027,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -936,7 +1052,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -961,7 +1077,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -988,7 +1104,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1015,7 +1131,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1066,7 +1182,7 @@ true
 ]
 ;
 }
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1084,7 +1200,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1102,7 +1218,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1122,7 +1238,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1142,7 +1258,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1162,7 +1278,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1182,7 +1298,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1202,7 +1318,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1223,7 +1339,7 @@ FA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1249,7 +1365,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1275,7 +1391,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1301,7 +1417,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1327,7 +1443,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1355,7 +1471,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1383,7 +1499,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -1411,7 +1527,7 @@ NA
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1425,7 +1541,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1439,7 +1555,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1453,7 +1569,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1467,7 +1583,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1481,7 +1597,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1495,7 +1611,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1509,7 +1625,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1523,7 +1639,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1537,7 +1653,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1551,7 +1667,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1565,7 +1681,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1583,7 +1699,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1601,7 +1717,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1619,7 +1735,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1637,7 +1753,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1655,7 +1771,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1673,7 +1789,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 tByteSize
 (
@@ -1691,7 +1807,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1705,7 +1821,7 @@ TA
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1725,7 +1841,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1745,7 +1861,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1765,7 +1881,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1785,7 +1901,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1805,7 +1921,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1825,7 +1941,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1845,7 +1961,7 @@ TN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1865,7 +1981,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1885,7 +2001,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1905,7 +2021,7 @@ FN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1925,7 +2041,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1945,7 +2061,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1965,7 +2081,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -1985,7 +2101,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -2005,7 +2121,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -2025,7 +2141,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 nByteSize
 (
@@ -2089,7 +2205,7 @@ rope8
 +
 rope8
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2112,7 +2228,7 @@ minorgc
 (
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2144,7 +2260,7 @@ acordarme
 /
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2177,7 +2293,7 @@ ext8
 +
 fragment8
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2207,7 +2323,7 @@ function
 (
 )
 {
-assertEq
+checkEq
 (
 true
 false
@@ -2216,7 +2332,7 @@ false
 }
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2239,7 +2355,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2252,7 +2368,7 @@ DN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2277,7 +2393,7 @@ DN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2299,7 +2415,7 @@ DN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2338,7 +2454,7 @@ minorgc
 (
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2362,7 +2478,7 @@ function
 (
 )
 {
-assertEq
+checkEq
 (
 true
 false
@@ -2371,7 +2487,7 @@ false
 }
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2388,7 +2504,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2429,7 +2545,7 @@ substr
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2453,7 +2569,7 @@ LN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2483,7 +2599,7 @@ LN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2545,7 +2661,7 @@ rope16
 +
 rope16
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2577,7 +2693,7 @@ match
 /
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2609,7 +2725,7 @@ ext16
 =
 rope16
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2634,7 +2750,7 @@ DN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2656,7 +2772,7 @@ DN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2684,7 +2800,7 @@ ext16
 +
 fragment16
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2714,7 +2830,7 @@ function
 (
 )
 {
-assertEq
+checkEq
 (
 true
 false
@@ -2723,7 +2839,7 @@ false
 }
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2750,7 +2866,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2790,7 +2906,7 @@ finishBackgroundFree
 (
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2814,7 +2930,7 @@ function
 (
 )
 {
-assertEq
+checkEq
 (
 true
 false
@@ -2823,7 +2939,7 @@ false
 }
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2844,7 +2960,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2867,7 +2983,7 @@ windows
 )
 )
 {
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2893,7 +3009,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2920,7 +3036,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2947,7 +3063,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -2974,7 +3090,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3004,7 +3120,7 @@ EN
 }
 else
 {
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3030,7 +3146,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3057,7 +3173,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3084,7 +3200,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3111,7 +3227,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3139,7 +3255,7 @@ EN
 )
 ;
 }
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3166,7 +3282,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3197,7 +3313,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3228,7 +3344,7 @@ EN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3260,7 +3376,7 @@ XN
 )
 )
 ;
-assertEq
+checkEq
 (
 byteSize
 (
@@ -3292,5 +3408,23 @@ XN
 +
 0
 )
+)
+;
+assertEq
+(
+{
+checkFailures
+}
+failure
+(
+s
+)
+"
+0
+failure
+(
+s
+)
+"
 )
 ;
