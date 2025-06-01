@@ -966,6 +966,8 @@ int32_t
 aIndex
 )
 ;
+public
+:
 void
 EvictDocumentViewerForEntry
 (
@@ -974,6 +976,8 @@ nsISHEntry
 aEntry
 )
 ;
+private
+:
 static
 void
 GloballyEvictDocumentViewers

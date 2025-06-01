@@ -238,6 +238,15 @@ CLEAR_NETWORK_CACHE
 ;
 const
 uint32_t
+CLEAR_BFCACHE
+=
+1
+<
+<
+1
+;
+const
+uint32_t
 CLEAR_IMAGE_CACHE
 =
 1
@@ -526,6 +535,8 @@ CLEAR_CSS_CACHE
 CLEAR_PREFLIGHT_CACHE
 |
 CLEAR_HSTS
+|
+CLEAR_BFCACHE
 ;
 const
 uint32_t
