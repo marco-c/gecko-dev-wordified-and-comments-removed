@@ -186,7 +186,7 @@ attribute
 (
 TrustedScriptURL
 or
-DOMString
+USVString
 )
 src
 ;

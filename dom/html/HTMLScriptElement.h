@@ -65,7 +65,7 @@ class
 OwningTrustedScriptOrString
 ;
 class
-OwningTrustedScriptURLOrString
+OwningTrustedScriptURLOrUSVString
 ;
 class
 TrustedScriptOrNullIsEmptyString
@@ -74,7 +74,7 @@ class
 TrustedScriptOrString
 ;
 class
-TrustedScriptURLOrString
+TrustedScriptURLOrUSVString
 ;
 class
 HTMLScriptElement
@@ -477,7 +477,7 @@ aRv
 void
 GetSrc
 (
-OwningTrustedScriptURLOrString
+OwningTrustedScriptURLOrUSVString
 &
 aSrc
 )
@@ -487,7 +487,7 @@ void
 SetSrc
 (
 const
-TrustedScriptURLOrString
+TrustedScriptURLOrUSVString
 &
 aSrc
 nsIPrincipal

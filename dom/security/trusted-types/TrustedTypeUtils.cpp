@@ -3073,6 +3073,14 @@ nsIGlobalObject
 ;
 IMPL_GET_TRUSTED_TYPES_COMPLIANT_STRING
 (
+TrustedScriptURLOrUSVString
+TrustedScriptURL
+const
+nsINode
+)
+;
+IMPL_GET_TRUSTED_TYPES_COMPLIANT_STRING
+(
 OwningTrustedScriptURLOrString
 TrustedScriptURL
 nsIGlobalObject
