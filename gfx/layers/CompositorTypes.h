@@ -354,6 +354,7 @@ EffectTypes
 :
 uint8_t
 {
+ROUNDED_CLIP
 RGB
 YCBCR
 NV12
