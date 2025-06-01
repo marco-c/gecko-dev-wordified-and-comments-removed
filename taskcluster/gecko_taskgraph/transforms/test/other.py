@@ -3451,6 +3451,16 @@ cd
 -
 stable
 "
+                
+"
+linux64
+-
+cft
+-
+cd
+-
+beta
+"
             
 ]
             
@@ -3481,6 +3491,16 @@ cd
 -
 stable
 "
+                
+"
+linux64
+-
+cft
+-
+cd
+-
+beta
+"
             
 ]
             
@@ -3510,6 +3530,16 @@ cft
 cd
 -
 stable
+"
+                
+"
+mac
+-
+cft
+-
+cd
+-
+beta
 "
             
 ]
@@ -3545,6 +3575,18 @@ arm
 -
 stable
 "
+                
+"
+mac
+-
+cft
+-
+cd
+-
+arm
+-
+beta
+"
             
 ]
             
@@ -3579,6 +3621,18 @@ arm
 -
 stable
 "
+                
+"
+mac
+-
+cft
+-
+cd
+-
+arm
+-
+beta
+"
             
 ]
             
@@ -3612,6 +3666,16 @@ cft
 cd
 -
 stable
+"
+                
+"
+win64
+-
+cft
+-
+cd
+-
+beta
 "
             
 ]
