@@ -1337,12 +1337,6 @@ endif
 /
 /
 ENABLE_WASM_MOZ_INTGEMM
-#
-if
-defined
-(
-ENABLE_WASM_JS_STRING_BUILTINS
-)
 -
 op
 :
@@ -1975,11 +1969,6 @@ FailOnMaxI32
 uses_memory
 :
 false
-#
-endif
-/
-/
-ENABLE_WASM_JS_STRING_BUILTINS
 #
 if
 defined

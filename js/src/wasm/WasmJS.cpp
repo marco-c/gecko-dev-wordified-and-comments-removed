@@ -6452,13 +6452,6 @@ false
 if
 defined
 (
-ENABLE_WASM_JS_STRING_BUILTINS
-)
-|
-|
-\
-defined
-(
 ENABLE_WASM_TYPE_REFLECTIONS
 )
 const
@@ -6520,9 +6513,6 @@ moduleMeta
 imports
 )
 {
-#
-ifdef
-ENABLE_WASM_JS_STRING_BUILTINS
 Maybe
 <
 BuiltinModuleId
@@ -6555,8 +6545,6 @@ builtinModule
 continue
 ;
 }
-#
-endif
 Rooted
 <
 IdValueVector
