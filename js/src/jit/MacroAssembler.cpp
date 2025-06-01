@@ -34521,9 +34521,6 @@ ok
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_MEMORY64
 void
 MacroAssembler
 :
@@ -34602,8 +34599,6 @@ ret
 ;
 }
 ;
-#
-endif
 BranchWasmRefIsSubtypeRegisters
 MacroAssembler
 :
