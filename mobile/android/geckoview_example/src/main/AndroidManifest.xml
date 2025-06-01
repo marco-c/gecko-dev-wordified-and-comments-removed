@@ -283,6 +283,13 @@ drawable
 /
 logo
 "
+android
+:
+requestLegacyExternalStorage
+=
+"
+true
+"
 >
 <
 uses
