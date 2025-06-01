@@ -1782,6 +1782,7 @@ autoFillAdaptiveHistoryEnabled
 )
 )
 ;
+await
 doCleanup
 (
 )
@@ -2043,6 +2044,7 @@ enabled
 "
 )
 ;
+await
 doCleanup
 (
 )

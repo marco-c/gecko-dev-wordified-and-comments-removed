@@ -8589,11 +8589,13 @@ done
 const
 cleanup
 =
+async
 (
 )
 =
 >
 {
+await
 doExperimentCleanup
 (
 )
@@ -8677,6 +8679,7 @@ here
 .
 try
 {
+await
 cleanup
 (
 )
