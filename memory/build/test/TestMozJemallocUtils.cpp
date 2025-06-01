@@ -26,7 +26,7 @@ type_traits
 #
 include
 "
-mozmemory_stall
+mozmemory_utils
 .
 h
 "

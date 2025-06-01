@@ -1,9 +1,9 @@
 #
 ifndef
-mozjemalloc_stall_h
+mozjemalloc_utils_h
 #
 define
-mozjemalloc_stall_h
+mozjemalloc_utils_h
 #
 include
 <

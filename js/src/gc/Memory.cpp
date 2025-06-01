@@ -67,7 +67,7 @@ MOZ_MEMORY
 #
 include
 "
-mozmemory_stall
+mozmemory_utils
 .
 h
 "
