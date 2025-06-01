@@ -48,10 +48,6 @@ parse
 as
 urlparse
 from
-functools
-import
-lru_cache
-from
 six
 import
 string_types
@@ -137,158 +133,6 @@ Exception
 :
     
 pass
-lru_cache
-(
-maxsize
-=
-None
-)
-def
-get_uv_executable
-(
-)
-:
-    
-return
-shutil
-.
-which
-(
-"
-uv
-"
-)
-def
-pip_command
-(
-*
-python_executable
-subcommand
-=
-None
-args
-=
-None
-non_uv_args
-=
-None
-)
-:
-    
-if
-uv_executable
-:
-=
-get_uv_executable
-(
-)
-:
-        
-command
-=
-[
-uv_executable
-"
-pip
-"
-]
-        
-if
-subcommand
-:
-            
-command
-.
-append
-(
-subcommand
-)
-            
-python_root
-=
-Path
-(
-python_executable
-)
-.
-parent
-.
-parent
-            
-command
-.
-append
-(
-f
-"
--
--
-python
-=
-{
-python_root
-}
-"
-)
-        
-full_command
-=
-command
-+
-(
-args
-or
-[
-]
-)
-    
-else
-:
-        
-command
-=
-[
-python_executable
-"
--
-m
-"
-"
-pip
-"
-]
-        
-if
-subcommand
-:
-            
-command
-.
-append
-(
-subcommand
-)
-        
-full_command
-=
-command
-+
-(
-non_uv_args
-or
-[
-]
-)
-+
-(
-args
-or
-[
-]
-)
-    
-return
-full_command
 def
 get_tlsv1_post
 (
@@ -1248,28 +1092,18 @@ return
 {
 }
             
-pip_list_command
-=
-pip_command
-(
-                
-python_executable
+pip_freeze_output
 =
 self
 .
-query_python_path
+get_output_from_command
 (
-)
                 
-subcommand
-=
+[
+pip
 "
 list
 "
-                
-args
-=
-[
 "
 -
 -
@@ -1286,17 +1120,6 @@ no
 index
 "
 ]
-            
-)
-            
-pip_freeze_output
-=
-self
-.
-get_output_from_command
-(
-                
-pip_list_command
                 
 silent
 =
@@ -1783,15 +1606,16 @@ requirements
 "
 )
             
-pip_command_args
+pip
 =
-[
-]
-            
-pip_command_non_uv_args
-=
-[
-]
+self
+.
+query_python_path
+(
+"
+pip
+"
+)
             
 if
 c
@@ -1804,13 +1628,28 @@ verbose_pip
 )
 :
                 
-pip_command_args
-+
+command
 =
 [
+pip
 "
 -
 v
+"
+"
+install
+"
+]
+            
+else
+:
+                
+command
+=
+[
+pip
+"
+install
 "
 ]
             
@@ -1818,7 +1657,7 @@ if
 no_deps
 :
                 
-pip_command_args
+command
 +
 =
 [
@@ -1831,7 +1670,7 @@ deps
 "
 ]
             
-pip_command_non_uv_args
+command
 +
 =
 [
@@ -1846,7 +1685,7 @@ pep517
 "
 ]
             
-pip_command_non_uv_args
+command
 +
 =
 [
@@ -1875,7 +1714,7 @@ in
 requirements
 :
                 
-pip_command_args
+command
 +
 =
 [
@@ -1905,7 +1744,7 @@ pip_index
 ]
 :
                 
-pip_command_args
+command
 +
 =
 [
@@ -1924,7 +1763,7 @@ in
 global_options
 :
                 
-pip_command_args
+command
 +
 =
 [
@@ -2267,7 +2106,7 @@ find_links_added
 =
 1
                     
-pip_command_args
+command
 .
 extend
 (
@@ -2361,7 +2200,7 @@ find_links_added
 =
 1
                 
-pip_command_args
+command
 .
 extend
 (
@@ -2448,7 +2287,7 @@ pip
 )
 :
                     
-pip_command_args
+command
 +
 =
 [
@@ -2482,7 +2321,7 @@ install_method
                     
 )
             
-pip_command_args
+command
 +
 =
 [
@@ -2525,39 +2364,6 @@ requirements
 ]
 )
         
-pip_install_command
-=
-(
-            
-pip_command
-(
-                
-python_executable
-=
-self
-.
-query_python_path
-(
-)
-                
-subcommand
-=
-"
-install
-"
-                
-args
-=
-pip_command_args
-                
-non_uv_args
-=
-pip_command_non_uv_args
-            
-)
-        
-)
-        
 self
 .
 retry
@@ -2591,6 +2397,7 @@ FATAL
             
 error_message
 =
+(
 "
 Could
 not
@@ -2603,10 +2410,15 @@ all
 attempts
 .
 "
+)
             
 args
 =
-pip_install_command
+[
+                
+command
+            
+]
             
 kwargs
 =
@@ -3662,50 +3474,30 @@ venv_python_bin
 parent
 )
             
-if
-uv_executable
-:
-=
-get_uv_executable
-(
-)
-:
-                
 self
 .
 run_command
 (
-[
-uv_executable
-"
--
--
-version
-"
-]
-)
-            
-pip_install_command
-=
-pip_command
-(
                 
-python_executable
-=
+[
+                    
 str
 (
 venv_python_bin
 )
-                
-subcommand
-=
+                    
+"
+-
+m
+"
+                    
+"
+pip
+"
+                    
 "
 install
 "
-                
-args
-=
-[
                     
 "
 -
@@ -3733,46 +3525,28 @@ version
 check
 "
                     
-str
-(
 wheels
 [
 "
 pip
 "
 ]
-)
                     
-str
-(
 wheels
 [
 "
 setuptools
 "
 ]
-)
                     
-str
-(
 wheels
 [
 "
 wheel
 "
 ]
-)
                 
 ]
-            
-)
-            
-self
-.
-run_command
-(
-                
-pip_install_command
                 
 cwd
 =
@@ -4349,6 +4123,12 @@ query_virtualenv_path
 )
 )
         
+venv_name
+=
+venv_root_dir
+.
+name
+        
 bin_path
 =
 Path
@@ -4483,10 +4263,7 @@ VIRTUAL_ENV
 "
 ]
 =
-str
-(
-venv_root_dir
-)
+venv_name
         
 prev_path
 =
@@ -7333,77 +7110,42 @@ in
 modules
 :
             
-pip_install_command_args
+cmd
 =
 [
-]
-            
-pip_install_non_uv_args
-=
-[
+self
+.
+py3_pip_path
+"
+install
+"
 ]
             
 if
 use_mozharness_pip_config
 :
                 
-pip_args
-pip_install_non_uv_args
+cmd
++
 =
 self
 .
 _mozharness_pip_args
 (
 )
-                
-pip_install_command_args
-+
-=
-pip_args
             
-pip_install_command_args
+cmd
 +
 =
 [
 m
 ]
             
-pip_install_command
-=
-(
-                
-pip_command
-(
-                    
-python_executable
-=
-self
-.
-py3_python_path
-                    
-subcommand
-=
-"
-install
-"
-                    
-args
-=
-pip_install_command_args
-                    
-non_uv_args
-=
-pip_install_non_uv_args
-                
-)
-            
-)
-            
 self
 .
 run_command
 (
-pip_install_command
+cmd
 env
 =
 self
@@ -7448,7 +7190,8 @@ pip_args
 [
 ]
         
-non_uv_pip_args
+pip_args
++
 =
 [
 "
@@ -7502,7 +7245,7 @@ index
 "
 ]
         
-non_uv_pip_args
+pip_args
 +
 =
 [
@@ -7653,7 +7396,6 @@ host
         
 return
 pip_args
-non_uv_pip_args
     
 py3_venv_initialized
     
@@ -7691,38 +7433,34 @@ paths
 "
 "
         
-pip_install_command_args
+cmd
 =
 [
+self
+.
+py3_pip_path
+"
+install
+"
 ]
         
-pip_install_command_args
+cmd
 +
 =
 pip_args
-        
-pip_install_non_uv_args
-=
-[
-]
         
 if
 use_mozharness_pip_config
 :
             
-pip_args
-pip_install_non_uv_args
+cmd
++
 =
 self
 .
 _mozharness_pip_args
 (
 )
-            
-pip_install_command_args
-+
-=
-pip_args
         
 for
 requirement_path
@@ -7730,7 +7468,7 @@ in
 requirements
 :
             
-pip_install_command_args
+cmd
 +
 =
 [
@@ -7741,42 +7479,11 @@ r
 requirement_path
 ]
         
-pip_install_command
-=
-(
-            
-pip_command
-(
-                
-python_executable
-=
-self
-.
-py3_python_path
-                
-subcommand
-=
-"
-install
-"
-                
-args
-=
-pip_install_command_args
-                
-non_uv_args
-=
-pip_install_non_uv_args
-            
-)
-        
-)
-        
 self
 .
 run_command
 (
-pip_install_command
+cmd
 env
 =
 self

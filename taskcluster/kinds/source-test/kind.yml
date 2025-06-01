@@ -256,11 +256,6 @@ use
 python
 :
 default
-use
--
-uv
-:
-true
 attributes
 :
 retrigger

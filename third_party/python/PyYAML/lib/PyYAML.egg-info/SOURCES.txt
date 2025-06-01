@@ -219,207 +219,7 @@ yaml
 tokens
 .
 py
-packaging
-/
-_pyyaml_pep517
-.
-py
-packaging
-/
-__pycache__
-/
-_pyyaml_pep517
-.
-cpython
--
-312
-.
-pyc
-packaging
-/
-build
-/
-libyaml
-.
-sh
-packaging
-/
-build
-/
-smoketest
-.
-py
 tests
-/
-legacy_tests
-/
-canonical
-.
-py
-tests
-/
-legacy_tests
-/
-conftest
-.
-py
-tests
-/
-legacy_tests
-/
-test_all
-.
-py
-tests
-/
-legacy_tests
-/
-test_appliance
-.
-py
-tests
-/
-legacy_tests
-/
-test_build
-.
-py
-tests
-/
-legacy_tests
-/
-test_build_ext
-.
-py
-tests
-/
-legacy_tests
-/
-test_canonical
-.
-py
-tests
-/
-legacy_tests
-/
-test_constructor
-.
-py
-tests
-/
-legacy_tests
-/
-test_dump_load
-.
-py
-tests
-/
-legacy_tests
-/
-test_emitter
-.
-py
-tests
-/
-legacy_tests
-/
-test_errors
-.
-py
-tests
-/
-legacy_tests
-/
-test_input_output
-.
-py
-tests
-/
-legacy_tests
-/
-test_mark
-.
-py
-tests
-/
-legacy_tests
-/
-test_multi_constructor
-.
-py
-tests
-/
-legacy_tests
-/
-test_reader
-.
-py
-tests
-/
-legacy_tests
-/
-test_recursive
-.
-py
-tests
-/
-legacy_tests
-/
-test_representer
-.
-py
-tests
-/
-legacy_tests
-/
-test_resolver
-.
-py
-tests
-/
-legacy_tests
-/
-test_schema
-.
-py
-tests
-/
-legacy_tests
-/
-test_sort_keys
-.
-py
-tests
-/
-legacy_tests
-/
-test_structure
-.
-py
-tests
-/
-legacy_tests
-/
-test_tokens
-.
-py
-tests
-/
-legacy_tests
-/
-test_yaml
-.
-py
-tests
-/
-legacy_tests
-/
-test_yaml_ext
-.
-py
-tests
-/
-legacy_tests
 /
 data
 /
@@ -436,8 +236,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 aliases
@@ -449,8 +247,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 aliases
@@ -458,16 +254,12 @@ aliases
 events
 tests
 /
-legacy_tests
-/
 data
 /
 bool
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -476,8 +268,6 @@ bool
 detect
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -488,8 +278,6 @@ py2
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -502,8 +290,6 @@ py2
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -515,8 +301,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -528,8 +312,6 @@ py3
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -538,8 +320,6 @@ bool
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -550,8 +330,6 @@ bool
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -560,8 +338,6 @@ custom
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -572,8 +348,6 @@ custom
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -582,8 +356,6 @@ float
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -594,8 +366,6 @@ float
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -604,8 +374,6 @@ int
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -616,8 +384,6 @@ int
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -626,8 +392,6 @@ map
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -638,8 +402,6 @@ map
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -648,8 +410,6 @@ merge
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -660,8 +420,6 @@ merge
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -670,8 +428,6 @@ null
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -682,8 +438,6 @@ null
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -692,8 +446,6 @@ omap
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -704,8 +456,6 @@ omap
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -715,8 +465,6 @@ pairs
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -725,8 +473,6 @@ pairs
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -739,8 +485,6 @@ bool
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -751,8 +495,6 @@ bool
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -767,8 +509,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -782,8 +522,6 @@ py3
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -794,8 +532,6 @@ complex
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -808,8 +544,6 @@ complex
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -820,8 +554,6 @@ float
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -834,8 +566,6 @@ float
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -847,8 +577,6 @@ int
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -859,8 +587,6 @@ int
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -877,8 +603,6 @@ py2
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -893,8 +617,6 @@ py2
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -911,8 +633,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -927,8 +647,6 @@ py3
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -943,8 +661,6 @@ module
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -958,8 +674,6 @@ module
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -970,8 +684,6 @@ none
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -984,8 +696,6 @@ none
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -997,8 +707,6 @@ object
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1009,8 +717,6 @@ object
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1025,8 +731,6 @@ ascii
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1039,8 +743,6 @@ ascii
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1057,8 +759,6 @@ py2
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1073,8 +773,6 @@ py2
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1091,8 +789,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1107,8 +803,6 @@ py3
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1125,8 +819,6 @@ dict
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1142,8 +834,6 @@ dict
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1159,8 +849,6 @@ py2
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1175,8 +863,6 @@ py2
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1193,8 +879,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1210,8 +894,6 @@ py3
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1226,8 +908,6 @@ py2
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1244,8 +924,6 @@ py2
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1261,8 +939,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1277,8 +953,6 @@ py3
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1289,8 +963,6 @@ seq
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1300,8 +972,6 @@ seq
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1311,8 +981,6 @@ set
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1321,8 +989,6 @@ set
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1335,8 +1001,6 @@ ascii
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1347,8 +1011,6 @@ ascii
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1363,8 +1025,6 @@ py2
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1378,8 +1038,6 @@ py2
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1393,8 +1051,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1408,8 +1064,6 @@ py3
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1418,8 +1072,6 @@ str
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1430,8 +1082,6 @@ str
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1440,8 +1090,6 @@ timestamp
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1452,8 +1100,6 @@ timestamp
 data
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1463,8 +1109,6 @@ value
 code
 tests
 /
-legacy_tests
-/
 data
 /
 construct
@@ -1473,8 +1117,6 @@ value
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1493,16 +1135,12 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 documents
 .
 events
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1517,8 +1155,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1532,8 +1168,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1549,8 +1183,6 @@ error
 code
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1565,8 +1197,6 @@ error
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1585,8 +1215,6 @@ error
 code
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1603,8 +1231,6 @@ error
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1623,8 +1249,6 @@ error
 code
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1641,8 +1265,6 @@ error
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1657,8 +1279,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1676,8 +1296,6 @@ error
 code
 tests
 /
-legacy_tests
-/
 data
 /
 duplicate
@@ -1694,8 +1312,6 @@ error
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1710,8 +1326,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 emit
@@ -1733,8 +1347,6 @@ bug
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 emit
@@ -1756,8 +1368,6 @@ bug
 data
 tests
 /
-legacy_tests
-/
 data
 /
 emitting
@@ -1775,8 +1385,6 @@ py3
 code
 tests
 /
-legacy_tests
-/
 data
 /
 emitting
@@ -1793,8 +1401,6 @@ py3
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1815,8 +1421,6 @@ skip
 ext
 tests
 /
-legacy_tests
-/
 data
 /
 emitting
@@ -1832,8 +1436,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 emitting
@@ -1848,8 +1450,6 @@ bug
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1867,8 +1467,6 @@ skip
 -
 ext
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1877,16 +1475,12 @@ emoticons
 unicode
 tests
 /
-legacy_tests
-/
 data
 /
 emoticons2
 .
 unicode
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1899,8 +1493,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -1912,8 +1504,6 @@ bug
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -1925,8 +1515,6 @@ bug
 data
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -1937,8 +1525,6 @@ bug
 .
 empty
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1953,8 +1539,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -1967,8 +1551,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -1983,8 +1565,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -1997,8 +1577,6 @@ emitter
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2013,8 +1591,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 empty
@@ -2025,8 +1601,6 @@ emitter
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2041,8 +1615,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 expected
@@ -2056,8 +1628,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 expected
@@ -2068,8 +1638,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2084,8 +1652,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 expected
@@ -2099,8 +1665,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 expected
@@ -2111,8 +1675,6 @@ emitter
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2125,8 +1687,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 expected
@@ -2137,8 +1697,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2153,8 +1711,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 explicit
@@ -2167,8 +1723,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2185,8 +1739,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 float
@@ -2202,8 +1754,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 float
@@ -2219,16 +1769,12 @@ bug
 data
 tests
 /
-legacy_tests
-/
 data
 /
 float
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2236,8 +1782,6 @@ float
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2250,8 +1794,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 forbidden
@@ -2263,8 +1805,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 forbidden
@@ -2275,8 +1815,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2291,16 +1829,12 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 int
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2308,8 +1842,6 @@ int
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2324,8 +1856,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2338,8 +1868,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2352,8 +1880,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2369,8 +1895,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2383,8 +1907,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2401,8 +1923,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2414,8 +1934,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2426,8 +1944,6 @@ stream
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2442,8 +1958,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2459,8 +1973,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2475,8 +1987,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2491,8 +2001,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2505,8 +2013,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2523,8 +2029,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2539,8 +2043,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2559,8 +2061,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2573,8 +2073,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2589,8 +2087,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2603,8 +2099,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2619,8 +2113,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2633,8 +2125,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2649,8 +2139,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2664,8 +2152,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2678,8 +2164,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2698,8 +2182,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2714,8 +2196,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2731,8 +2211,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2749,8 +2227,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2763,8 +2239,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2781,8 +2255,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2797,8 +2269,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2815,8 +2285,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2832,8 +2300,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2846,8 +2312,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2862,8 +2326,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2876,8 +2338,6 @@ bug
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2892,8 +2352,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2907,8 +2365,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2921,8 +2377,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2938,8 +2392,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -2956,8 +2408,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2973,8 +2423,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -2989,8 +2437,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3007,8 +2453,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3023,8 +2467,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3041,8 +2483,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3057,8 +2497,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3075,8 +2513,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3087,8 +2523,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3102,8 +2536,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3118,8 +2550,6 @@ stream
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3136,8 +2566,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3156,8 +2584,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3174,8 +2600,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3194,8 +2618,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3212,8 +2634,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3232,8 +2652,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 invalid
@@ -3247,16 +2665,12 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 latin
 .
 unicode
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3265,16 +2679,12 @@ mapping
 sort
 tests
 /
-legacy_tests
-/
 data
 /
 mapping
 .
 sorted
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3283,16 +2693,12 @@ mappings
 events
 tests
 /
-legacy_tests
-/
 data
 /
 merge
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3301,8 +2707,6 @@ merge
 detect
 tests
 /
-legacy_tests
-/
 data
 /
 more
@@ -3312,8 +2716,6 @@ floats
 code
 tests
 /
-legacy_tests
-/
 data
 /
 more
@@ -3322,8 +2724,6 @@ floats
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3334,8 +2734,6 @@ constructor
 code
 tests
 /
-legacy_tests
-/
 data
 /
 multi
@@ -3344,8 +2742,6 @@ constructor
 .
 multi
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3354,8 +2750,6 @@ myfullloader
 subclass_blacklist
 tests
 /
-legacy_tests
-/
 data
 /
 negative
@@ -3367,8 +2761,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 negative
@@ -3379,8 +2771,6 @@ bug
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3395,8 +2785,6 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3409,8 +2797,6 @@ skip
 -
 ext
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3427,8 +2813,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3446,8 +2830,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3463,8 +2845,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3477,8 +2857,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3494,8 +2872,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3512,8 +2888,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3526,8 +2900,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3542,8 +2914,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 no
@@ -3555,16 +2925,12 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 null
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3572,8 +2938,6 @@ null
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3585,8 +2949,6 @@ stream
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3603,8 +2965,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 recursive
@@ -3618,8 +2978,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 recursive
@@ -3628,8 +2986,6 @@ dict
 .
 recursive
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3640,8 +2996,6 @@ list
 recursive
 tests
 /
-legacy_tests
-/
 data
 /
 recursive
@@ -3650,8 +3004,6 @@ set
 .
 recursive
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3662,8 +3014,6 @@ state
 recursive
 tests
 /
-legacy_tests
-/
 data
 /
 recursive
@@ -3672,8 +3022,6 @@ tuple
 .
 recursive
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3685,8 +3033,6 @@ dumper
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3705,16 +3051,12 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 resolver
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3722,8 +3064,6 @@ resolver
 .
 path
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3738,8 +3078,6 @@ bug
 data
 tests
 /
-legacy_tests
-/
 data
 /
 scalars
@@ -3747,8 +3085,6 @@ scalars
 events
 tests
 /
-legacy_tests
-/
 data
 /
 scan
@@ -3762,8 +3098,6 @@ bug
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 scan
@@ -3776,8 +3110,6 @@ bug
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3792,8 +3124,6 @@ bug
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 scan
@@ -3806,8 +3136,6 @@ bug
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3815,8 +3143,6 @@ sequences
 .
 events
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3833,8 +3159,6 @@ dumper
 error
 tests
 /
-legacy_tests
-/
 data
 /
 serializer
@@ -3850,8 +3174,6 @@ dumper
 error
 tests
 /
-legacy_tests
-/
 data
 /
 serializer
@@ -3866,8 +3188,6 @@ dumper
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3886,8 +3206,6 @@ dumper
 error
 tests
 /
-legacy_tests
-/
 data
 /
 serializer
@@ -3904,8 +3222,6 @@ dumper
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3924,8 +3240,6 @@ bug
 code
 tests
 /
-legacy_tests
-/
 data
 /
 single
@@ -3943,8 +3257,6 @@ bug
 data
 tests
 /
-legacy_tests
-/
 data
 /
 sloppy
@@ -3954,8 +3266,6 @@ indentation
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 sloppy
@@ -3965,8 +3275,6 @@ indentation
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -3977,8 +3285,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -3991,8 +3297,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4004,8 +3308,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4016,8 +3318,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4030,8 +3330,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4042,8 +3340,6 @@ spec
 .
 tokens
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4056,8 +3352,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4068,8 +3362,6 @@ spec
 .
 structure
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4082,8 +3374,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4094,8 +3384,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4108,8 +3396,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4121,8 +3407,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4133,8 +3417,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4147,8 +3429,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4160,8 +3440,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4172,8 +3450,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4186,8 +3462,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4199,8 +3473,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4211,8 +3483,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4225,8 +3495,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4238,8 +3506,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4250,8 +3516,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4264,8 +3528,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4277,8 +3539,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4289,8 +3549,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4303,8 +3561,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4316,8 +3572,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4328,8 +3582,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4342,8 +3594,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4355,8 +3605,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4367,8 +3615,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4381,8 +3627,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4394,8 +3638,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4406,8 +3648,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4420,8 +3660,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4433,8 +3671,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4445,8 +3681,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4459,8 +3693,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4472,8 +3704,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4484,8 +3714,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4498,8 +3726,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4511,8 +3737,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4523,8 +3747,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4537,8 +3759,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4549,8 +3769,6 @@ spec
 .
 tokens
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4563,8 +3781,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4575,8 +3791,6 @@ spec
 .
 structure
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4589,8 +3803,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4601,8 +3813,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4615,8 +3825,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4628,8 +3836,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4640,8 +3846,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4654,8 +3858,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4667,8 +3869,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4679,8 +3879,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4693,8 +3891,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4706,8 +3902,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4718,8 +3912,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4732,8 +3924,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4745,8 +3935,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4757,8 +3945,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4771,8 +3957,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4784,8 +3968,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4796,8 +3978,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4810,8 +3990,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4823,8 +4001,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4835,8 +4011,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4849,8 +4023,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4862,8 +4034,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4874,8 +4044,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4888,8 +4056,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4901,8 +4067,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4913,8 +4077,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4927,8 +4089,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4940,8 +4100,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4952,8 +4110,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -4966,8 +4122,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4979,8 +4133,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -4991,8 +4143,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5005,8 +4155,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5018,8 +4166,6 @@ spec
 tokens
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5030,8 +4176,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5044,8 +4188,6 @@ spec
 structure
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5056,8 +4198,6 @@ spec
 .
 tokens
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5071,8 +4211,6 @@ utf16be
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5087,8 +4225,6 @@ utf16be
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5101,8 +4237,6 @@ utf16le
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5117,8 +4251,6 @@ utf16le
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5131,8 +4263,6 @@ utf8
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5147,8 +4277,6 @@ utf8
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5161,8 +4289,6 @@ utf16be
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5177,8 +4303,6 @@ utf16be
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5191,8 +4315,6 @@ utf16le
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5207,8 +4329,6 @@ utf16le
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5221,8 +4341,6 @@ utf8
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5236,8 +4354,6 @@ utf8
 .
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5250,8 +4366,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5262,8 +4376,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5276,8 +4388,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5289,8 +4399,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5301,8 +4409,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5315,8 +4421,6 @@ spec
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5327,8 +4431,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5341,8 +4443,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5353,8 +4453,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5367,8 +4465,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5380,8 +4476,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5392,8 +4486,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5406,8 +4498,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5419,8 +4509,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5431,8 +4519,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5445,8 +4531,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5457,8 +4541,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5471,8 +4553,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5483,8 +4563,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5497,8 +4575,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5509,8 +4585,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5523,8 +4597,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5536,8 +4608,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5548,8 +4618,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5561,8 +4629,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5575,8 +4641,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5588,8 +4652,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5600,8 +4662,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5613,8 +4673,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5627,8 +4685,6 @@ spec
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5639,8 +4695,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5653,8 +4707,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5665,8 +4717,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5679,8 +4729,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5691,8 +4739,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5705,8 +4751,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5718,8 +4762,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5730,8 +4772,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5744,8 +4784,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5756,8 +4794,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5770,8 +4806,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5782,8 +4816,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5796,8 +4828,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5808,8 +4838,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5824,8 +4852,6 @@ skip
 ext
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5837,8 +4863,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5849,8 +4873,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5865,8 +4887,6 @@ skip
 ext
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5877,8 +4897,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5891,8 +4909,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5904,8 +4920,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5917,8 +4931,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5929,8 +4941,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5943,8 +4953,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5956,8 +4964,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5968,8 +4974,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -5982,8 +4986,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -5995,8 +4997,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6007,8 +5007,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6021,8 +5019,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6033,8 +5029,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6047,8 +5041,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6059,8 +5051,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6073,8 +5063,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6086,8 +5074,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6098,8 +5084,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6111,8 +5095,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6125,8 +5107,6 @@ spec
 empty
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6137,8 +5117,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6151,8 +5129,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6163,8 +5139,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6177,8 +5151,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6190,8 +5162,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6202,8 +5172,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6216,8 +5184,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6229,8 +5195,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6241,8 +5205,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6255,8 +5217,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6267,8 +5227,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6281,8 +5239,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6293,8 +5249,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6307,8 +5261,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6320,8 +5272,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6333,8 +5283,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6345,8 +5293,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6359,8 +5305,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6371,8 +5315,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6385,8 +5327,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6398,8 +5338,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6410,8 +5348,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6424,8 +5360,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6437,8 +5371,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6449,8 +5381,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6463,8 +5393,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6475,8 +5403,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6489,8 +5415,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6501,8 +5425,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6515,8 +5437,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6528,8 +5448,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6540,8 +5458,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6556,8 +5472,6 @@ skip
 ext
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6569,8 +5483,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6581,8 +5493,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6595,8 +5505,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6608,8 +5516,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6620,8 +5526,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6634,8 +5538,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6646,8 +5548,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6660,8 +5560,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6672,8 +5570,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6686,8 +5582,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6698,8 +5592,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6712,8 +5604,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6724,8 +5614,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6738,8 +5626,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6750,8 +5636,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6764,8 +5648,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6776,8 +5658,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6790,8 +5670,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6802,8 +5680,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6816,8 +5692,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6829,8 +5703,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6841,8 +5713,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6855,8 +5725,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6868,8 +5736,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6880,8 +5746,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6894,8 +5758,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6906,8 +5768,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6920,8 +5780,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6933,8 +5791,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6945,8 +5801,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6958,8 +5812,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6972,8 +5824,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -6984,8 +5834,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -6998,8 +5846,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7010,8 +5856,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7024,8 +5868,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7036,8 +5878,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7050,8 +5890,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7062,8 +5900,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7076,8 +5912,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7088,8 +5922,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7102,8 +5934,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7115,8 +5945,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7127,8 +5955,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7143,8 +5969,6 @@ skip
 ext
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7155,8 +5979,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7169,8 +5991,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7181,8 +6001,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7195,8 +6013,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7207,8 +6023,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7221,8 +6035,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7233,8 +6045,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7247,8 +6057,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7259,8 +6067,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7273,8 +6079,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7285,8 +6089,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7299,8 +6101,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7311,8 +6111,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7325,8 +6123,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7337,8 +6133,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7351,8 +6145,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7363,8 +6155,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7377,8 +6167,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7389,8 +6177,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7403,8 +6189,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7415,8 +6199,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7429,8 +6211,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7441,8 +6221,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7455,8 +6233,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7468,8 +6244,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7480,8 +6254,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7494,8 +6266,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7507,8 +6277,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7519,8 +6287,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7533,8 +6299,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7545,8 +6309,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7559,8 +6321,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7571,8 +6331,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7585,8 +6343,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7597,8 +6353,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7611,8 +6365,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7623,8 +6375,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7637,8 +6387,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7650,8 +6398,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7662,8 +6408,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7675,8 +6419,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7689,8 +6431,6 @@ spec
 error
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7701,8 +6441,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7715,8 +6453,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7728,8 +6464,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7740,8 +6474,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7754,8 +6486,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7767,8 +6497,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7779,8 +6507,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7793,8 +6519,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7805,8 +6529,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7819,8 +6541,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7831,8 +6551,6 @@ spec
 .
 canonical
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7845,8 +6563,6 @@ spec
 data
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7858,8 +6574,6 @@ spec
 canonical
 tests
 /
-legacy_tests
-/
 data
 /
 spec
@@ -7870,8 +6584,6 @@ spec
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7879,8 +6591,6 @@ str
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7888,8 +6598,6 @@ str
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7898,16 +6606,12 @@ tags
 events
 tests
 /
-legacy_tests
-/
 data
 /
 test_mark
 .
 marks
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7918,8 +6622,6 @@ bugs
 code
 tests
 /
-legacy_tests
-/
 data
 /
 timestamp
@@ -7929,16 +6631,12 @@ bugs
 data
 tests
 /
-legacy_tests
-/
 data
 /
 timestamp
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7946,8 +6644,6 @@ timestamp
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7960,8 +6656,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 unclosed
@@ -7972,8 +6666,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -7988,8 +6680,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 undefined
@@ -8001,8 +6691,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 undefined
@@ -8013,8 +6701,6 @@ loader
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8029,8 +6715,6 @@ loader
 error
 tests
 /
-legacy_tests
-/
 data
 /
 unknown
@@ -8039,8 +6723,6 @@ dumper
 -
 error
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8053,16 +6735,12 @@ emitter
 error
 tests
 /
-legacy_tests
-/
 data
 /
 utf16be
 .
 code
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8071,8 +6749,6 @@ utf16be
 data
 tests
 /
-legacy_tests
-/
 data
 /
 utf16le
@@ -8080,16 +6756,12 @@ utf16le
 code
 tests
 /
-legacy_tests
-/
 data
 /
 utf16le
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8100,8 +6772,6 @@ implicit
 code
 tests
 /
-legacy_tests
-/
 data
 /
 utf8
@@ -8111,8 +6781,6 @@ implicit
 data
 tests
 /
-legacy_tests
-/
 data
 /
 utf8
@@ -8120,8 +6788,6 @@ utf8
 code
 tests
 /
-legacy_tests
-/
 data
 /
 utf8
@@ -8129,16 +6795,12 @@ utf8
 data
 tests
 /
-legacy_tests
-/
 data
 /
 value
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8147,16 +6809,12 @@ value
 detect
 tests
 /
-legacy_tests
-/
 data
 /
 yaml
 .
 data
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8164,8 +6822,6 @@ yaml
 .
 detect
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8173,8 +6829,6 @@ yaml11
 .
 schema
 tests
-/
-legacy_tests
 /
 data
 /
@@ -8183,6 +6837,167 @@ yaml11
 schema
 -
 skip
+tests
+/
+lib
+/
+canonical
+.
+py
+tests
+/
+lib
+/
+test_all
+.
+py
+tests
+/
+lib
+/
+test_appliance
+.
+py
+tests
+/
+lib
+/
+test_build
+.
+py
+tests
+/
+lib
+/
+test_build_ext
+.
+py
+tests
+/
+lib
+/
+test_canonical
+.
+py
+tests
+/
+lib
+/
+test_constructor
+.
+py
+tests
+/
+lib
+/
+test_dump_load
+.
+py
+tests
+/
+lib
+/
+test_emitter
+.
+py
+tests
+/
+lib
+/
+test_errors
+.
+py
+tests
+/
+lib
+/
+test_input_output
+.
+py
+tests
+/
+lib
+/
+test_mark
+.
+py
+tests
+/
+lib
+/
+test_multi_constructor
+.
+py
+tests
+/
+lib
+/
+test_reader
+.
+py
+tests
+/
+lib
+/
+test_recursive
+.
+py
+tests
+/
+lib
+/
+test_representer
+.
+py
+tests
+/
+lib
+/
+test_resolver
+.
+py
+tests
+/
+lib
+/
+test_schema
+.
+py
+tests
+/
+lib
+/
+test_sort_keys
+.
+py
+tests
+/
+lib
+/
+test_structure
+.
+py
+tests
+/
+lib
+/
+test_tokens
+.
+py
+tests
+/
+lib
+/
+test_yaml
+.
+py
+tests
+/
+lib
+/
+test_yaml_ext
+.
+py
 yaml
 /
 __init__
