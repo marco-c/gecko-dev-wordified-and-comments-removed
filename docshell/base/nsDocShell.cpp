@@ -18496,11 +18496,6 @@ Navigation
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-navigation
-)
-;
 RefPtr
 <
 nsIStructuredCloneContainer
@@ -18545,6 +18540,9 @@ nullptr
 ;
 if
 (
+navigation
+&
+&
 !
 navigation
 -
