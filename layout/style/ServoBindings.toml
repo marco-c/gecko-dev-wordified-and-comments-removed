@@ -1643,6 +1643,9 @@ StyleRuleInclusion
 "
 NodeSelectorFlags
 "
+"
+AnchorPosResolutionParams
+"
 ]
 opaque
 -
