@@ -430,7 +430,7 @@ data
 structure
 .
 *
-fallback
+Fallback
 .
 cpp
 When
@@ -525,7 +525,7 @@ the
 allocator
 .
 *
-rb
+RedBlackTree
 .
 h
 A
