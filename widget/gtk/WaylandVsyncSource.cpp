@@ -355,7 +355,7 @@ mWaylandSurface
 mWaylandSurface
 -
 >
-SetFrameCallbackLocked
+AddPersistentFrameCallbackLocked
 (
 surfaceLock
 [
@@ -673,7 +673,7 @@ void
 WaylandVsyncSource
 :
 :
-SetVSyncEventsStateLocked
+SetVSyncEventsLocked
 (
 const
 MutexAutoLock
@@ -792,7 +792,7 @@ mVsyncEnabled
 =
 true
 ;
-SetVSyncEventsStateLocked
+SetVSyncEventsLocked
 (
 lock
 mVsyncEnabled
@@ -866,7 +866,7 @@ mVsyncEnabled
 =
 false
 ;
-SetVSyncEventsStateLocked
+SetVSyncEventsLocked
 (
 lock
 mVsyncEnabled
@@ -935,7 +935,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mWaylandSurface
 )
 ;
-SetVSyncEventsStateLocked
+SetVSyncEventsLocked
 (
 lock
 mVsyncEnabled
@@ -997,7 +997,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mWaylandSurface
 )
 ;
-SetVSyncEventsStateLocked
+SetVSyncEventsLocked
 (
 lock
 mVsyncEnabled
