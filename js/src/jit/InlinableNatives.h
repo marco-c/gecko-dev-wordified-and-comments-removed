@@ -1131,12 +1131,6 @@ IntrinsicTypedArrayElementSize
 )
 \
 \
-_
-(
-IntrinsicThisTimeValue
-)
-\
-\
 INLINABLE_EXPLICIT_RESOURCE_MANAGEMENENT_LIST
 (
 _

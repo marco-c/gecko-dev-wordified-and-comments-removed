@@ -3573,8 +3573,6 @@ tryAttachMapSet
 AttachDecision
 tryAttachDateGetTime
 (
-InlinableNative
-native
 )
 ;
 AttachDecision
