@@ -328,7 +328,7 @@ XP_WIN
 #
 include
 "
-mozmemory_utils
+mozmemory_stall
 .
 h
 "
