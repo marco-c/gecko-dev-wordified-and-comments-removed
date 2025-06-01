@@ -383,7 +383,7 @@ Ci
 .
 nsIWebProgress
 .
-NOTIFY_STATE_ALL
+NOTIFY_STATE_NETWORK
 |
 Ci
 .
