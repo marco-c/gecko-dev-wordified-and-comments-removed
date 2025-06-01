@@ -59,14 +59,6 @@ util
 attributes
 import
 copy_attributes_from_dependent_job
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-add_scope_prefix
 geckodriver_notarization_description_schema
 =
 Schema
@@ -429,25 +421,27 @@ build_platform
 "
 )
         
-scopes
-=
+job
 [
-add_scope_prefix
-(
-config
+"
+worker
+"
+]
+[
 "
 signing
-:
-cert
-:
+-
+type
+"
+]
+=
+"
 release
 -
 apple
 -
 notarization
 "
-)
-]
         
 platform
 =
@@ -510,12 +504,6 @@ job
 worker
 "
 ]
-            
-"
-scopes
-"
-:
-scopes
             
 "
 dependencies

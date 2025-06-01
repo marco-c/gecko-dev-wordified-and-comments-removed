@@ -1,7 +1,17 @@
 import
 os
-import
+from
 android_taskgraph
+import
+register
+as
+register_android_taskgraph
+from
+mozilla_taskgraph
+import
+register
+as
+register_mozilla_taskgraph
 from
 taskgraph
 import
@@ -268,9 +278,12 @@ changed
 "
 ]
     
-android_taskgraph
-.
-register
+register_mozilla_taskgraph
+(
+graph_config
+)
+    
+register_android_taskgraph
 (
 graph_config
 )

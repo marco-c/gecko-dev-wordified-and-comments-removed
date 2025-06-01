@@ -82,7 +82,7 @@ util
 .
 scriptworker
 import
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 transforms
 =
 TransformSequence
@@ -517,9 +517,9 @@ repackage
 signing
 "
         
-signing_cert_scope
+signing_type
 =
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 (
             
 build_platform
@@ -527,12 +527,6 @@ is_shippable
 config
         
 )
-        
-scopes
-=
-[
-signing_cert_scope
-]
         
 if
 "
@@ -958,6 +952,14 @@ signing
 "
                 
 "
+signing
+-
+type
+"
+:
+signing_type
+                
+"
 upstream
 -
 artifacts
@@ -976,12 +978,6 @@ time
 3600
             
 }
-            
-"
-scopes
-"
-:
-scopes
             
 "
 dependencies
