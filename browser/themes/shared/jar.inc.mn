@@ -5086,9 +5086,6 @@ right
 .
 svg
 )
-#
-ifndef
-MOZ_WIDGET_GTK
 skin
 /
 classic
@@ -5110,8 +5107,6 @@ sort
 .
 svg
 )
-#
-endif
 skin
 /
 classic
