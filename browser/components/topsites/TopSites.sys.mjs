@@ -7526,13 +7526,14 @@ MIN_FAVICON_SIZE
 {
 try
 {
+await
 lazy
 .
 PlacesUtils
 .
 favicons
 .
-copyFavicons
+tryCopyFavicons
 (
 redirectedUri
 Services
