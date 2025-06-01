@@ -1442,6 +1442,9 @@ u32
 shader_integer_dot_product
 :
 bool
+shader_int8
+:
+bool
 }
 bitflags
 :

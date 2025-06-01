@@ -3166,7 +3166,9 @@ if
 info
 .
 CurrentUsage
-+
+.
+checked_add
+(
 allocation_info
 .
 SizeInBytes
@@ -3175,6 +3177,14 @@ max
 (
 memblock_size
 )
+)
+.
+is_none_or
+(
+|
+usage
+|
+usage
 >
 =
 info
@@ -3186,6 +3196,7 @@ Budget
 threshold
 as
 u64
+)
 {
 return
 Err
