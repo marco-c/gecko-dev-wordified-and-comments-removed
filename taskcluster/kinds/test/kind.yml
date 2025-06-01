@@ -105,6 +105,10 @@ repackage
 fetch
 -
 toolchain
+-
+build
+-
+extensions
 transforms
 :
 -
