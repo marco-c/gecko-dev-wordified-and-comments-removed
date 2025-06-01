@@ -1003,6 +1003,8 @@ nsSearchControlFrame
 "
 TextInput
 "
+REPLACED
+|
 LEAF
 )
     
