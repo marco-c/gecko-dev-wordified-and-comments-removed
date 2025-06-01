@@ -5972,6 +5972,8 @@ nsImageLoadingContent
 :
 NaturalSize
 (
+DoDensityCorrection
+aDensityCorrection
 )
 {
 if
@@ -6194,6 +6196,17 @@ GetResolution
 ;
 if
 (
+aDensityCorrection
+=
+=
+DoDensityCorrection
+:
+:
+Yes
+)
+{
+if
+(
 auto
 *
 image
@@ -6250,6 +6263,7 @@ ScaleBy
 density
 )
 ;
+}
 }
 }
 resolution
