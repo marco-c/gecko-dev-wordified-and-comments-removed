@@ -1573,6 +1573,9 @@ I8SelectColumnsOfB
 ;
 #
 endif
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 static
 BuiltinModuleFuncId
 JSStringFuncs
@@ -1648,6 +1651,8 @@ js
 string
 "
 ;
+#
+endif
 Maybe
 <
 BuiltinModuleId
@@ -1670,6 +1675,9 @@ BuiltinModuleIds
 enabledBuiltins
 )
 {
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 if
 (
 enabledBuiltins
@@ -1737,6 +1745,8 @@ JSStringConstants
 )
 ;
 }
+#
+endif
 MOZ_RELEASE_ASSERT
 (
 !
@@ -1784,6 +1794,9 @@ BuiltinModuleFuncId
 matchedFuncId
 )
 {
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 if
 (
 module
@@ -1865,6 +1878,8 @@ true
 ;
 }
 }
+#
+endif
 return
 false
 ;
@@ -1940,6 +1955,9 @@ result
 ;
 #
 endif
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 case
 BuiltinModuleId
 :
@@ -1967,6 +1985,8 @@ MOZ_CRASH
 (
 )
 ;
+#
+endif
 default
 :
 MOZ_CRASH

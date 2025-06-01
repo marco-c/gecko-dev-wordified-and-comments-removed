@@ -3,6 +3,14 @@ jit
 -
 test
 |
+-
+-
+setpref
+=
+wasm_multi_memory
+=
+true
+;
 test
 -
 also
@@ -32,3 +40,12 @@ include
 wasm
 .
 js
+;
+skip
+-
+if
+:
+!
+wasmMultiMemoryEnabled
+(
+)

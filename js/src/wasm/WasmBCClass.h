@@ -4317,6 +4317,9 @@ RegI32
 temp
 )
 ;
+#
+ifdef
+ENABLE_WASM_MEMORY64
 void
 load
 (
@@ -4338,6 +4341,8 @@ RegI64
 temp
 )
 ;
+#
+endif
 template
 <
 typename
@@ -4409,6 +4414,9 @@ RegI32
 temp
 )
 ;
+#
+ifdef
+ENABLE_WASM_MEMORY64
 void
 store
 (
@@ -4430,6 +4438,8 @@ RegI64
 temp
 )
 ;
+#
+endif
 template
 <
 typename

@@ -3,6 +3,14 @@ jit
 -
 test
 |
+-
+-
+setpref
+=
+wasm_exnref
+=
+true
+;
 test
 -
 also
@@ -71,3 +79,12 @@ include
 wasm
 .
 js
+;
+skip
+-
+if
+:
+!
+wasmExnRefEnabled
+(
+)

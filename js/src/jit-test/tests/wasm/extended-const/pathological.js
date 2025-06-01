@@ -429,6 +429,13 @@ expr
 )
 ;
 }
+if
+(
+wasmMemory64Enabled
+(
+)
+)
+{
 let
 val
 =
@@ -564,3 +571,4 @@ i64
 '
 )
 ;
+}

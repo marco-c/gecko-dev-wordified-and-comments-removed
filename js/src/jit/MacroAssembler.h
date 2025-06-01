@@ -16574,6 +16574,9 @@ reg
 )
 PER_SHARED_ARCH
 ;
+#
+ifdef
+ENABLE_WASM_MEMORY64
 void
 wasmClampTable64Address
 (
@@ -16583,6 +16586,8 @@ Register
 out
 )
 ;
+#
+endif
 void
 wasmCallIndirect
 (

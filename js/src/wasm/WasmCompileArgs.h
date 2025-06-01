@@ -340,6 +340,10 @@ jsStringConstants
 (
 false
 )
+requireExnref
+(
+false
+)
 {
 }
 bool
@@ -356,6 +360,9 @@ jsStringConstants
 ;
 SharedChars
 jsStringConstantsNamespace
+;
+bool
+requireExnref
 ;
 [
 [
@@ -1355,6 +1362,8 @@ if
 range
 .
 end
+(
+)
 <
 =
 codeOffset
@@ -1376,6 +1385,8 @@ if
 range
 .
 end
+(
+)
 <
 =
 tailOffset

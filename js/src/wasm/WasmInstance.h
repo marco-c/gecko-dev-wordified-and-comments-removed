@@ -2606,6 +2606,9 @@ uint8_t
 memBase
 )
 ;
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 static
 int32_t
 stringTest
@@ -2792,6 +2795,8 @@ void
 secondStringArg
 )
 ;
+#
+endif
 }
 ;
 bool

@@ -6614,6 +6614,12 @@ isBuiltinModule
 =
 true
 ;
+options
+.
+requireExnref
+=
+true
+;
 ScriptedCaller
 scriptedCaller
 ;
