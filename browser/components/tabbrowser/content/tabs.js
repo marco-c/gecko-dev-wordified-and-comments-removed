@@ -11222,6 +11222,16 @@ px
 }
 }
 }
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 _animateTabMove
 (
 event

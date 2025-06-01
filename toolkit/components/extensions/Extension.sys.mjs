@@ -18251,6 +18251,16 @@ dialog
 .
 *
 /
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 static
 formatPermissionStrings
 (

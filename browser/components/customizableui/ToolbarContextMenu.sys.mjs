@@ -972,6 +972,16 @@ toolbar
 .
 *
 /
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 onViewToolbarsPopupShowing
 (
 aEvent
