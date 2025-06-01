@@ -82,6 +82,11 @@ serviceworker
 js
 "
 "
+slow_json
+.
+sjs
+"
+"
 sjs_network
 -
 auth
@@ -167,6 +172,13 @@ Bug
 [
 "
 browser_networkobserver_data_url
+.
+js
+"
+]
+[
+"
+browser_networkobserver_decode_text
 .
 js
 "
