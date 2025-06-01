@@ -3780,6 +3780,12 @@ select
 )
 ;
 }
+aEvent
+.
+preventDefault
+(
+)
+;
 return
 true
 ;
