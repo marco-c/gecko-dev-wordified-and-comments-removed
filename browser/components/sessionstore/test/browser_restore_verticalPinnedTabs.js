@@ -265,7 +265,7 @@ tabs
 )
 ;
 let
-pinnedTabsContainer
+verticalPinnedTabsContainer
 =
 document
 .
@@ -273,6 +273,8 @@ querySelector
 (
 "
 #
+vertical
+-
 pinned
 -
 tabs
@@ -323,7 +325,7 @@ BrowserTestUtils
 .
 isVisible
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 )
 "
 Vertical
@@ -337,7 +339,7 @@ visible
 ;
 is
 (
-pinnedTabsContainer
+verticalPinnedTabsContainer
 .
 children
 .

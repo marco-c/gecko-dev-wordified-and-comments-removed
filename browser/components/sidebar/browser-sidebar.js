@@ -1647,6 +1647,8 @@ document
 getElementById
 (
 "
+vertical
+-
 pinned
 -
 tabs
@@ -10845,14 +10847,6 @@ _disablePinnedTabsDragging
 )
 ;
 }
-SidebarController
-.
-_state
-.
-updatePinnedTabsHeight
-(
-)
-;
 }
 }
 )
