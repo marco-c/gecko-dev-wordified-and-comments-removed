@@ -600,7 +600,7 @@ select
 getAttributeValue
 (
 "
-AXDescription
+AXTitle
 "
 )
 "
@@ -1236,7 +1236,7 @@ select
 getAttributeValue
 (
 "
-AXDescription
+AXTitle
 "
 )
 "
@@ -2017,7 +2017,7 @@ select
 getAttributeValue
 (
 "
-AXDescription
+AXTitle
 "
 )
 "

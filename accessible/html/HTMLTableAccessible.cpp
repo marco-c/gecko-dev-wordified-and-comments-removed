@@ -1637,7 +1637,7 @@ IsEmpty
 )
 {
 return
-eNameFromRelations
+eNameOK
 ;
 }
 }

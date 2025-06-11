@@ -245,6 +245,13 @@ mozMenuItemAccessible
 mozSelectableChildAccessible
 -
 (
+NSString
+*
+)
+moxLabel
+;
+-
+(
 BOOL
 )
 moxIgnoreWithParent

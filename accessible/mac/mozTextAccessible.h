@@ -11,6 +11,13 @@ mozTextAccessible
 mozAccessible
 -
 (
+NSString
+*
+)
+moxTitle
+;
+-
+(
 id
 )
 moxValue
