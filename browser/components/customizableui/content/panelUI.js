@@ -2306,13 +2306,6 @@ return
 }
 this
 .
-_ensureShortcutsShown
-(
-viewNode
-)
-;
-this
-.
 ensurePanicViewInitialized
 (
 viewNode
