@@ -35,6 +35,8 @@ nsBrowserStatusFilter
 :
 nsBrowserStatusFilter
 (
+bool
+aDisableStateChangeFilters
 )
 :
 mTarget
@@ -70,6 +72,10 @@ false
 mDelayedProgress
 (
 false
+)
+mDisableStateChangeFilters
+(
+aDisableStateChangeFilters
 )
 {
 }
@@ -547,6 +553,9 @@ NS_OK
 }
 if
 (
+mDisableStateChangeFilters
+|
+|
 aStateFlags
 &
 STATE_IS_NETWORK

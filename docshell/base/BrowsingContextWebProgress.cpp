@@ -666,6 +666,8 @@ GetBrowsingContext
 )
 )
 {
+if
+(
 RefPtr
 <
 BrowsingContextWebProgress
@@ -688,7 +690,8 @@ Canonical
 GetWebProgress
 (
 )
-;
+)
+{
 aWebProgress
 -
 >
@@ -708,6 +711,7 @@ forget
 (
 )
 ;
+}
 }
 return
 do_AddRef

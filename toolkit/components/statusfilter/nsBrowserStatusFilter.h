@@ -72,8 +72,13 @@ nsSupportsWeakReference
 {
 public
 :
+explicit
 nsBrowserStatusFilter
 (
+bool
+aDisableStateChangeFilters
+=
+false
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -190,6 +195,9 @@ mDelayedStatus
 ;
 bool
 mDelayedProgress
+;
+bool
+mDisableStateChangeFilters
 ;
 }
 ;
