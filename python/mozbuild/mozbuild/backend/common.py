@@ -2844,9 +2844,6 @@ substs
 MOZ_UI_LOCALE
 "
 ]
-[
-0
-]
         
 l10nbase
 =
@@ -3029,9 +3026,6 @@ substs
 "
 MOZ_UI_LOCALE
 "
-]
-[
-0
 ]
         
 pp
