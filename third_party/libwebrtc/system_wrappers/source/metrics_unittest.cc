@@ -364,14 +364,14 @@ Boolean
 ;
 const
 int
-kSample
+kSampleZero
 =
 0
 ;
 RTC_HISTOGRAM_BOOLEAN
 (
 kName
-kSample
+kSampleZero
 )
 ;
 EXPECT_EQ
@@ -395,7 +395,7 @@ metrics
 NumEvents
 (
 kName
-kSample
+kSampleZero
 )
 )
 ;
@@ -412,7 +412,7 @@ ElementsAre
 (
 Pair
 (
-kSample
+kSampleZero
 1
 )
 )

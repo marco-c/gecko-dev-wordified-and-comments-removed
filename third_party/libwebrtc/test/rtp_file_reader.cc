@@ -3495,7 +3495,7 @@ kProtocolUdp
 )
 {
 uint16_t
-length
+payload_length
 ;
 uint16_t
 checksum
@@ -3531,7 +3531,7 @@ TRY_PCAP
 Read
 (
 &
-length
+payload_length
 true
 )
 )
@@ -3551,7 +3551,7 @@ marker
 >
 payload_length
 =
-length
+payload_length
 -
 kUdpHeaderLength
 ;

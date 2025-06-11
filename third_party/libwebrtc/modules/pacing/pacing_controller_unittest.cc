@@ -15043,13 +15043,7 @@ const
 uint32_t
 kSsrc
 =
-12345
-;
-const
-uint32_t
-kAudioSsrc
-=
-2345
+54321
 ;
 uint16_t
 sequence_number

@@ -3035,12 +3035,6 @@ kPayloadSize
 =
 200
 ;
-const
-size_t
-kRtxHeaderSize
-=
-2
-;
 EXPECT_CALL
 (
 mock_paced_sender_
@@ -6794,14 +6788,14 @@ for
 (
 auto
 &
-packet
+generated_packet
 :
 generated_packets
 )
 {
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 packet_type
@@ -6815,7 +6809,7 @@ kPadding
 ;
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 Ssrc
@@ -6826,7 +6820,7 @@ kRtxSsrc
 ;
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 payload_size
@@ -6837,7 +6831,7 @@ payload_size
 ;
 EXPECT_GT
 (
-packet
+generated_packet
 -
 >
 padding_size
@@ -6849,7 +6843,7 @@ padding_size
 padding_bytes_generated
 +
 =
-packet
+generated_packet
 -
 >
 padding_size
@@ -7325,14 +7319,14 @@ for
 (
 auto
 &
-packet
+generated_packet
 :
 padding_packets
 )
 {
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 packet_type
@@ -7346,7 +7340,7 @@ kPadding
 ;
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 Ssrc
@@ -7357,7 +7351,7 @@ kSsrc
 ;
 EXPECT_EQ
 (
-packet
+generated_packet
 -
 >
 payload_size
@@ -7368,7 +7362,7 @@ payload_size
 ;
 EXPECT_GT
 (
-packet
+generated_packet
 -
 >
 padding_size
@@ -7380,7 +7374,7 @@ padding_size
 padding_bytes_generated
 +
 =
-packet
+generated_packet
 -
 >
 padding_size
@@ -7389,7 +7383,7 @@ padding_size
 ;
 EXPECT_TRUE
 (
-packet
+generated_packet
 -
 >
 HasExtension
@@ -7402,7 +7396,7 @@ TransportSequenceNumber
 ;
 EXPECT_TRUE
 (
-packet
+generated_packet
 -
 >
 HasExtension
@@ -7415,7 +7409,7 @@ AbsoluteSendTime
 ;
 EXPECT_TRUE
 (
-packet
+generated_packet
 -
 >
 HasExtension
