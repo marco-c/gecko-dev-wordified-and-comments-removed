@@ -96,7 +96,9 @@ worker
 :
 implementation
 :
-landoscript
+scriptworker
+-
+lando
 dontbuild
 :
 by
@@ -225,11 +227,7 @@ default
 :
 '
 '
-l10n
--
-bump
--
-info
+actions
 :
 by
 -
@@ -261,6 +259,11 @@ kind
 .
 yml
 beta
+:
+-
+l10n
+-
+bump
 :
 -
 name
@@ -552,6 +555,11 @@ locales
 }
 ]
 default
+:
+-
+l10n
+-
+bump
 :
 -
 name
