@@ -720,8 +720,6 @@ aChangeID
 uint32_t
 aLoadType
 bool
-aPersist
-bool
 aCloneEntryChildren
 bool
 aChannelExpired

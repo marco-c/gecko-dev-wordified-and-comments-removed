@@ -5914,10 +5914,6 @@ aLoadType
 const
 bool
 &
-aPersist
-const
-bool
-&
 aCloneEntryChildren
 const
 bool

@@ -4503,8 +4503,6 @@ SessionHistoryInfo
 *
 aPreviousActiveEntry
 bool
-aPersist
-bool
 aCloneEntryChildren
 bool
 aChannelExpired
@@ -4528,6 +4526,9 @@ aPreviousScrollPos
 SessionHistoryInfo
 *
 aInfo
+SessionHistoryInfo
+*
+aPreviousActiveEntry
 uint32_t
 aLoadType
 uint32_t
@@ -4985,6 +4986,15 @@ aHasPostData
 ;
 private
 :
+bool
+AddSHEntryWouldIncreaseLength
+(
+SessionHistoryInfo
+*
+aCurrentEntry
+)
+const
+;
 [
 [
 nodiscard

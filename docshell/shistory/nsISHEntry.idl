@@ -423,9 +423,15 @@ childCount
 [
 infallible
 ]
-attribute
 boolean
-persist
+isTransient
+(
+)
+;
+void
+setTransient
+(
+)
 ;
 void
 setScrollPosition
