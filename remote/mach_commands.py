@@ -899,7 +899,7 @@ run_npm
 (
             
 "
-install
+ci
 "
             
 cwd
