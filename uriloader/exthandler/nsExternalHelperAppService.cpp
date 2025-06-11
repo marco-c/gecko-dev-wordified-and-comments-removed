@@ -3088,6 +3088,12 @@ IMAGE_JPEG
 jfif
 "
 }
+{
+AUDIO_MP3
+"
+mpga
+"
+}
 }
 ;
 static
