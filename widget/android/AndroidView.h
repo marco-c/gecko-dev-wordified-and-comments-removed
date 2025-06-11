@@ -9,17 +9,6 @@ include
 "
 mozilla
 /
-java
-/
-GeckoBundleWrappers
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 EventDispatcher

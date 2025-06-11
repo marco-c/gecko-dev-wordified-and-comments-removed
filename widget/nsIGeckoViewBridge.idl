@@ -189,7 +189,6 @@ callback
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 e98bf792
@@ -269,7 +268,6 @@ events
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 60a78a94
@@ -300,7 +298,6 @@ initData
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 1beb70d3

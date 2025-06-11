@@ -10228,6 +10228,7 @@ From
 (
 aDispatcher
 )
+nullptr
 )
 ;
 androidView
@@ -10593,10 +10594,6 @@ Param
 aInitData
 )
 {
-AssertIsOnMainThread
-(
-)
-;
 mWindow
 -
 >
@@ -10793,6 +10790,7 @@ From
 (
 aDispatcher
 )
+mDOMWindow
 )
 ;
 RefPtr
@@ -11017,11 +11015,6 @@ GeckoView
 :
 UpdateInitData
 "
-_ns
-JS
-:
-:
-NullHandleValue
 )
 ;
 }
@@ -14753,10 +14746,6 @@ bool
 aFullScreen
 )
 {
-AssertIsOnMainThread
-(
-)
-;
 if
 (
 !
@@ -14787,7 +14776,6 @@ GeckoView
 :
 FullScreenEnter
 "
-_ns
 :
 u
 "
@@ -14795,11 +14783,6 @@ GeckoView
 :
 FullScreenExit
 "
-_ns
-JS
-:
-:
-NullHandleValue
 )
 ;
 nsIWidgetListener
