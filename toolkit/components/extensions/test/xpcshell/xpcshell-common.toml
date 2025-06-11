@@ -1006,6 +1006,13 @@ js
 ]
 [
 "
+test_ext_cookies_expirationDate
+.
+js
+"
+]
+[
+"
 test_ext_cookies_firstParty
 .
 js
@@ -1055,6 +1062,13 @@ js
 [
 "
 test_ext_cookies_sort
+.
+js
+"
+]
+[
+"
+test_ext_cookies_validation
 .
 js
 "
