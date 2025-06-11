@@ -788,13 +788,6 @@ message
 )
 ;
 async
-DropAction
-(
-ByteBuf
-buf
-)
-;
-async
 DeviceLost
 (
 RawId

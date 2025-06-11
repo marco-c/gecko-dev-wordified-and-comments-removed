@@ -233,13 +233,13 @@ ChildOf
 (
 aParent
 )
-mBridge
-(
-aBridge
-)
 mId
 (
 aId
+)
+mBridge
+(
+aBridge
 )
 {
 MOZ_RELEASE_ASSERT

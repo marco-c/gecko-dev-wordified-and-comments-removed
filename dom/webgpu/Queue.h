@@ -283,6 +283,10 @@ ErrorResult
 aRv
 )
 ;
+const
+RawId
+mId
+;
 private
 :
 virtual
@@ -302,10 +306,6 @@ RefPtr
 WebGPUChild
 >
 mBridge
-;
-const
-RawId
-mId
 ;
 public
 :
