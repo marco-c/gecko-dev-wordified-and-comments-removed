@@ -964,6 +964,11 @@ IsDtlsPiggybackSupportedByPeer
 (
 )
 ;
+bool
+WasDtlsCompletedByPiggybacking
+(
+)
+;
 private
 :
 void
@@ -1293,11 +1298,6 @@ false
 ;
 DtlsStunPiggybackController
 dtls_stun_piggyback_controller_
-;
-bool
-IsDtlsPiggybackHandshaking
-(
-)
 ;
 absl
 :
