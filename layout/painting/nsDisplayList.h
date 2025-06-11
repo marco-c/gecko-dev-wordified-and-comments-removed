@@ -7558,7 +7558,7 @@ cleared
 ;
 }
 bool
-mInPreserves3D
+mGatheringPreserves3DLeaves
 =
 false
 ;
