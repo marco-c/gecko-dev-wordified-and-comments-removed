@@ -576,12 +576,6 @@ horizontalPadding
 backgroundColor
 =
 cardBackgroundColor
-showPlaceholderStory
-=
-!
-state
-.
-showContentRecommendations
 onStoryShown
 =
 interactor
@@ -594,12 +588,6 @@ interactor
 :
 :
 onStoryClicked
-onDiscoverMoreClicked
-=
-interactor
-:
-:
-onDiscoverMoreClicked
 )
 if
 (

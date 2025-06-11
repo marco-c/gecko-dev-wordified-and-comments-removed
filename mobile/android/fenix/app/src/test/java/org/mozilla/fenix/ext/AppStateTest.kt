@@ -494,7 +494,7 @@ PocketRecommendedStoriesCategory
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 +
 2
 )
@@ -528,7 +528,7 @@ getFilteredStories
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -573,7 +573,7 @@ PocketRecommendedStoriesCategory
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 )
 )
 val
@@ -619,7 +619,7 @@ toMutableList
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -722,7 +722,7 @@ PocketRecommendedStoriesCategory
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 )
 )
 val
@@ -768,7 +768,7 @@ toMutableList
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -801,7 +801,7 @@ sponsoredStories
 ]
 result
 [
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 -
 1
 ]
@@ -890,7 +890,7 @@ PocketRecommendedStoriesCategory
 POCKET_STORIES_DEFAULT_CATEGORY_NAME
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 )
 )
 val
@@ -939,7 +939,7 @@ toMutableList
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -963,7 +963,7 @@ sponsoredContents
 ]
 result
 [
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 -
 1
 ]
@@ -1699,7 +1699,7 @@ recommendedStories
 =
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 "
 other
 "
@@ -1721,7 +1721,7 @@ sponsoredStories
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -1811,7 +1811,7 @@ sponsoredStories
 ]
 result
 [
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 -
 1
 ]
@@ -2373,7 +2373,7 @@ sponsoredStories
 =
 getFakeSponsoredStories
 (
-4
+2
 )
 val
 yetAnotherStoriesCategory
@@ -2445,7 +2445,7 @@ toMutableList
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
@@ -2475,11 +2475,11 @@ assertEquals
 (
 sponsoredStories
 [
-3
+0
 ]
 result
 [
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 -
 1
 ]
@@ -2504,7 +2504,9 @@ result
 .
 removeAt
 (
-7
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
+-
+1
 )
 result
 .
@@ -2587,7 +2589,7 @@ other
 "
 getFakePocketStories
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 +
 2
 "
@@ -2635,7 +2637,7 @@ getFilteredStories
 )
 assertEquals
 (
-POCKET_STORIES_TO_SHOW_COUNT
+CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 result
 .
 size
