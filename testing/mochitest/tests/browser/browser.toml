@@ -35,6 +35,13 @@ verify
 ]
 [
 "
+browser_EventUtils
+.
+js
+"
+]
+[
+"
 browser_SpecialPowersForProcessSpawn
 .
 js

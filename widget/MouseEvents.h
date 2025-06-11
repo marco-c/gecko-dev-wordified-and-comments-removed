@@ -2432,6 +2432,12 @@ mAllowToOverrideSystemScrollSpeed
 bool
 mDeltaValuesHorizontalizedForDefaultHandler
 ;
+Maybe
+<
+uint64_t
+>
+mCallbackId
+;
 void
 AssignWheelEventData
 (

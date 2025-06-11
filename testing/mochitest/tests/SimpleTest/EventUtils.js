@@ -4107,6 +4107,9 @@ aEvent
 aWindow
 =
 window
+aCallback
+=
+null
 )
 {
 var
@@ -4484,6 +4487,7 @@ modifiers
 lineOrPageDeltaX
 lineOrPageDeltaY
 options
+aCallback
 )
 ;
 }
@@ -4497,6 +4501,9 @@ aEvent
 aWindow
 =
 window
+aCallback
+=
+null
 )
 {
 var
@@ -4522,6 +4529,7 @@ top
 aOffsetY
 aEvent
 aWindow
+aCallback
 )
 ;
 }
