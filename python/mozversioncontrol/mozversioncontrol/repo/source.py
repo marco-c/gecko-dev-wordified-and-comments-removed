@@ -916,3 +916,20 @@ file
         
 raise
 MissingVCSTool
+    
+def
+configure
+(
+self
+state_dir
+:
+Path
+update_only
+:
+bool
+=
+False
+)
+:
+        
+pass
