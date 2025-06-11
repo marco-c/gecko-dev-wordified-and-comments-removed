@@ -26135,6 +26135,15 @@ aFrame
 IsBlockOutside
 (
 )
+&
+&
+!
+aFrame
+-
+>
+IsTableCaption
+(
+)
 )
 {
 return
