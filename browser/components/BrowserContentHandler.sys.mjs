@@ -4447,9 +4447,11 @@ n
 private
 -
 window
+[
 <
 url
 >
+]
 Open
 <
 url
