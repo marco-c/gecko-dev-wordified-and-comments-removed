@@ -147,6 +147,14 @@ for
 event
 in
 events
+.
+into_iter
+(
+)
+.
+rev
+(
+)
 {
 match
 event
