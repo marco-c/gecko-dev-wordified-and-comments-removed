@@ -19047,7 +19047,7 @@ skin
 /
 icons
 /
-pocket
+help
 .
 svg
 "
