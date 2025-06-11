@@ -1256,15 +1256,12 @@ const
 OriginMetadata
 &
 aOriginMetadata
-int64_t
-aTimestamp
 )
 {
 PerformOnBackgroundThread
 (
 [
 aOriginMetadata
-aTimestamp
 ]
 (
 )
@@ -1296,7 +1293,6 @@ quotaManager
 SaveOriginAccessTime
 (
 aOriginMetadata
-aTimestamp
 )
 )
 ;
