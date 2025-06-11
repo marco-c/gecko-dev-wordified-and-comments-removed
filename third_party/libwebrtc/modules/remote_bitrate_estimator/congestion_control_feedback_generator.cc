@@ -171,9 +171,7 @@ include
 "
 rtc_base
 /
-experiments
-/
-field_trial_parser
+checks
 .
 h
 "
@@ -182,7 +180,9 @@ include
 "
 rtc_base
 /
-logging
+experiments
+/
+field_trial_parser
 .
 h
 "
