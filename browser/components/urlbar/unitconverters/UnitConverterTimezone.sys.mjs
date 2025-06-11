@@ -826,7 +826,9 @@ getTimezoneOffset
 const
 hours
 =
-parseInt
+Math
+.
+floor
 (
 Math
 .
