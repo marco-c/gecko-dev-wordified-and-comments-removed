@@ -140,6 +140,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 menu
@@ -149,6 +151,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -160,6 +164,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -169,6 +175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -223,6 +231,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

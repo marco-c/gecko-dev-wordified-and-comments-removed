@@ -322,6 +322,8 @@ gradlew
 -
 '
 :
+components
+:
 samples
 -
 browser
@@ -331,6 +333,8 @@ assembleGecko
 -
 '
 :
+components
+:
 samples
 -
 browser
@@ -339,6 +343,8 @@ testGeckoDebugUnitTest
 '
 -
 '
+:
+components
 :
 samples
 -
@@ -354,6 +360,8 @@ gradlew
 :
 [
 '
+:
+components
 :
 samples
 -

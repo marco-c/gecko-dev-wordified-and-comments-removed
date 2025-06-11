@@ -170,6 +170,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 sync
@@ -179,6 +181,8 @@ api
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -232,6 +236,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -241,6 +247,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -252,6 +260,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -262,6 +272,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 dataprotect
@@ -271,6 +283,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -304,6 +318,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -313,6 +329,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

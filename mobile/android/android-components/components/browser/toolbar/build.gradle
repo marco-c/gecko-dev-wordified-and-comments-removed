@@ -140,6 +140,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -149,6 +151,8 @@ api
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -160,6 +164,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -169,6 +175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -180,6 +188,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 menu
@@ -190,6 +200,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 menu
@@ -199,6 +211,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -210,6 +224,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 icons
@@ -219,6 +235,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -230,6 +248,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 widgets
@@ -240,6 +260,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -249,6 +271,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -291,6 +315,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

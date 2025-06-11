@@ -176,6 +176,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -185,6 +187,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -196,6 +200,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -205,6 +211,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -216,6 +224,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -226,6 +236,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 session
@@ -235,6 +247,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -252,6 +266,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -261,6 +277,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

@@ -140,6 +140,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -149,6 +151,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

@@ -152,6 +152,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -161,6 +163,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -172,6 +176,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -181,6 +187,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -192,6 +200,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -201,6 +211,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -212,6 +224,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 publicsuffixlist
@@ -221,6 +235,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -232,6 +248,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -241,6 +259,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -265,6 +285,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

@@ -198,6 +198,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 storage
@@ -207,6 +209,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -220,6 +224,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 sync
@@ -232,6 +238,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 appservices
@@ -242,6 +250,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 dataprotect
@@ -251,6 +261,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -

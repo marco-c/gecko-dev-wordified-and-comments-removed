@@ -235,6 +235,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -245,6 +247,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -254,6 +258,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -267,6 +273,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -276,6 +284,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -317,6 +327,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 session
@@ -327,6 +339,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -336,6 +350,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -394,6 +410,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 support
 -

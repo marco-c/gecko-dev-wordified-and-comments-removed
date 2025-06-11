@@ -140,6 +140,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -163,6 +165,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

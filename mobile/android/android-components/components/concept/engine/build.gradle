@@ -148,6 +148,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -209,6 +211,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -218,6 +222,8 @@ api
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -229,6 +235,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 storage
@@ -239,6 +247,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch
@@ -248,6 +258,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -286,6 +298,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

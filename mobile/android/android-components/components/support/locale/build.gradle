@@ -170,6 +170,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -179,6 +181,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -190,6 +194,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -200,6 +206,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -209,6 +217,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

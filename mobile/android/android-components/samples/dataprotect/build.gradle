@@ -110,6 +110,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -119,6 +121,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -

@@ -156,6 +156,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 base
@@ -166,6 +168,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 utils
@@ -175,6 +179,8 @@ testImplementation
 project
 (
 "
+:
+components
 :
 support
 -

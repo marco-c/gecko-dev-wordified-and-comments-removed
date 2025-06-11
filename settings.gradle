@@ -694,6 +694,8 @@ geckoview_example
 include
 '
 :
+components
+:
 samples
 -
 browser
@@ -701,6 +703,10 @@ browser
 include
 '
 :
+components
+:
+samples
+-
 compose
 -
 browser
@@ -708,6 +714,10 @@ browser
 include
 '
 :
+components
+:
+samples
+-
 toolbar
 '
 include
@@ -782,6 +792,8 @@ project
 (
 '
 :
+components
+:
 samples
 -
 browser
@@ -819,6 +831,10 @@ project
 (
 '
 :
+components
+:
+samples
+-
 compose
 -
 browser
@@ -858,6 +874,10 @@ project
 (
 '
 :
+components
+:
+samples
+-
 toolbar
 '
 )
