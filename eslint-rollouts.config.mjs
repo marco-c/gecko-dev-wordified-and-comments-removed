@@ -2785,17 +2785,6 @@ browser
 /
 actors
 /
-AboutPocketParent
-.
-sys
-.
-mjs
-"
-"
-browser
-/
-actors
-/
 SpeechDispatcherParent
 .
 sys
