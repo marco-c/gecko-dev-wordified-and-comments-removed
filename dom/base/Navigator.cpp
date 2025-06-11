@@ -11052,11 +11052,6 @@ NavigatorLogin
 GetWindow
 (
 )
--
->
-AsGlobal
-(
-)
 )
 ;
 }

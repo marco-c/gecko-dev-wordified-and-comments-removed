@@ -84,12 +84,12 @@ NavigatorLogin
 explicit
 NavigatorLogin
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 aGlobal
 )
 ;
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -203,7 +203,7 @@ private
 :
 nsCOMPtr
 <
-nsIGlobalObject
+nsPIDOMWindowInner
 >
 mOwner
 ;
