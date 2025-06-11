@@ -491,6 +491,15 @@ packet_counter
 )
 override
 ;
+StreamDataCounters
+GetDataCounters
+(
+uint32_t
+ssrc
+)
+const
+override
+;
 void
 DataCountersUpdated
 (

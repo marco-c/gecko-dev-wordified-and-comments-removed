@@ -16408,6 +16408,9 @@ counters
 StreamDataCounters
 rtx_counters
 ;
+StreamDataCounters
+flexfec_counters
+;
 const
 int
 kMinRequiredPeriodSamples
@@ -16488,7 +16491,7 @@ retransmitted
 header_bytes
 +
 =
-25
+50
 ;
 counters
 .
@@ -16497,7 +16500,7 @@ retransmitted
 padding_bytes
 +
 =
-100
+200
 ;
 counters
 .
@@ -16508,7 +16511,7 @@ payload_bytes
 =
 250
 ;
-counters
+flexfec_counters
 .
 fec
 =
@@ -16572,7 +16575,7 @@ proxy
 >
 DataCountersUpdated
 (
-counters
+flexfec_counters
 kFlexFecSsrc
 )
 ;
@@ -16690,7 +16693,7 @@ Video
 .
 MediaBitrateSentInKbps
 "
-12
+14
 )
 )
 ;
@@ -16764,7 +16767,7 @@ Video
 .
 FecBitrateSentInKbps
 "
-3
+2
 )
 )
 ;
@@ -16801,7 +16804,7 @@ Video
 .
 RetransmittedBitrateSentInKbps
 "
-3
+4
 )
 )
 ;
