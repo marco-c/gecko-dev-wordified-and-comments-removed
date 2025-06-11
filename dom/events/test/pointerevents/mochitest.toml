@@ -313,6 +313,13 @@ html
 ]
 [
 "
+test_click_pointerId_of_single_tap_in_process
+.
+html
+"
+]
+[
+"
 test_contextmenu_pointerId_of_long_tap
 .
 html
