@@ -1184,6 +1184,9 @@ WebRtcVoiceSendChannel
 )
 override
 ;
+webrtc
+:
+:
 MediaType
 media_type
 (
@@ -1994,6 +1997,9 @@ WebRtcVoiceReceiveChannel
 )
 override
 ;
+webrtc
+:
+:
 MediaType
 media_type
 (

@@ -411,6 +411,9 @@ MediaSessionOptions
 :
 HasMediaDescription
 (
+webrtc
+:
+:
 MediaType
 type
 )

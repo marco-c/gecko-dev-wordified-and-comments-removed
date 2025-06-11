@@ -161,6 +161,9 @@ MediaDescriptionOptions
 {
 MediaDescriptionOptions
 (
+webrtc
+:
+:
 MediaType
 type
 const
@@ -263,6 +266,9 @@ int
 num_sim_layers
 )
 ;
+webrtc
+:
+:
 MediaType
 type
 ;
@@ -439,6 +445,9 @@ DATA
 bool
 HasMediaDescription
 (
+webrtc
+:
+:
 MediaType
 type
 )
