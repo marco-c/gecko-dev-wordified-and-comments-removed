@@ -338,6 +338,18 @@ settings
 biometric
 .
 BiometricUtils
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+biometric
+.
+DefaultBiometricUtils
 /
 *
 *
@@ -1588,6 +1600,8 @@ verifyUser
 biometricUtils
 :
 BiometricUtils
+=
+DefaultBiometricUtils
 fallbackVerification
 :
 ActivityResultLauncher
