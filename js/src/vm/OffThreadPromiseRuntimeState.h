@@ -135,9 +135,6 @@ PromiseObject
 promise_
 ;
 bool
-registered_
-;
-bool
 cancellable_
 ;
 void
@@ -670,6 +667,12 @@ HelperThreadLockData
 size_t
 >
 numRegistered_
+;
+HelperThreadLockData
+<
+size_t
+>
+numDelayed_
 ;
 HelperThreadLockData
 <

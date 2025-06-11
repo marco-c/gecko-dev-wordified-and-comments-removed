@@ -3659,10 +3659,9 @@ removedWaiter
 hasTimeout
 (
 )
-)
-{
-MOZ_ASSERT
-(
+&
+&
+!
 removedWaiter
 -
 >
@@ -3676,7 +3675,7 @@ cleared
 lock
 )
 )
-;
+{
 continue
 ;
 }
@@ -4034,6 +4033,10 @@ clear
 (
 lock
 )
+;
+timeoutTask_
+=
+nullptr
 ;
 }
 }
