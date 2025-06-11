@@ -7109,6 +7109,13 @@ x86_64
 ]
 [
 "
+test_local_network_access
+.
+js
+"
+]
+[
+"
 test_localhost_offline
 .
 js
