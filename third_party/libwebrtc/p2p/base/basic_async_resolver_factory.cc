@@ -24,9 +24,9 @@ include
 "
 absl
 /
-memory
+functional
 /
-memory
+any_invocable
 .
 h
 "
@@ -53,7 +53,7 @@ include
 "
 rtc_base
 /
-logging
+socket_address
 .
 h
 "

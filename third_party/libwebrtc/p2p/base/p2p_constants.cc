@@ -9,6 +9,16 @@ p2p_constants
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
 namespace
 cricket
 {
