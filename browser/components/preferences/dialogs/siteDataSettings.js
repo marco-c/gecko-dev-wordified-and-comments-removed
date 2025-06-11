@@ -747,11 +747,13 @@ setEventListener
 searchBox
 "
 "
-command
+MozInputSearch
+:
+search
 "
 this
 .
-onCommandSearch
+onInputSearch
 )
 ;
 setEventListener
@@ -1746,7 +1748,7 @@ clearSelection
 )
 ;
 }
-onCommandSearch
+onInputSearch
 (
 )
 {
