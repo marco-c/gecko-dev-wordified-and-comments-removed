@@ -4767,26 +4767,6 @@ try_name
                     
 if
 "
-jetstream3
-"
-in
-try_name
-and
-"
-safari
--
-tp
-"
-not
-in
-try_name
-:
-                        
-return
-False
-                    
-if
-"
 jetstream2
 "
 in
