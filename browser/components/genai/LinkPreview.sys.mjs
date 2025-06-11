@@ -4908,6 +4908,16 @@ lazy
 .
 collapsed
 ;
+ogCard
+.
+regionSupported
+=
+this
+.
+_isRegionSupported
+(
+)
+;
 /
 /
 Reflect
