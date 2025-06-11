@@ -1193,6 +1193,7 @@ getActiveStreams
 aCamera
 aMicrophone
 aScreen
+aTab
 aWindow
 =
 false
@@ -1245,6 +1246,16 @@ aScreen
 state
 .
 screen
+)
+|
+|
+(
+aTab
+&
+&
+state
+.
+browser
 )
 |
 |
@@ -6087,6 +6098,7 @@ getActiveStreams
 true
 false
 false
+false
 )
 ;
 }
@@ -6109,6 +6121,7 @@ getActiveStreams
 (
 false
 true
+false
 false
 )
 ;
@@ -6133,6 +6146,7 @@ getActiveStreams
 false
 false
 true
+inclWindow
 inclWindow
 )
 ;
