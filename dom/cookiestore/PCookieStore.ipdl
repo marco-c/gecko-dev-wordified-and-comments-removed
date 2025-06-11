@@ -175,7 +175,6 @@ parent
 async
 GetRequest
 (
-nullable
 nsIURI
 cookieURI
 OriginAttributes
@@ -211,7 +210,6 @@ data
 async
 SetRequest
 (
-nullable
 nsIURI
 cookieURI
 OriginAttributes
@@ -252,7 +250,6 @@ waitForNotification
 async
 DeleteRequest
 (
-nullable
 nsIURI
 cookieURI
 OriginAttributes
