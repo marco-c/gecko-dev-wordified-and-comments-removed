@@ -524,7 +524,7 @@ coroutines
 testFixturesImplementation
 libs
 .
-kotlinx
+kotlin
 .
 coroutines
 .
