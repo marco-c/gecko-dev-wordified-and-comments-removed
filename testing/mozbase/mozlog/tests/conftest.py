@@ -1,3 +1,7 @@
+from
+io
+import
+StringIO
 import
 pytest
 from
@@ -19,10 +23,6 @@ mozlog
 structuredlog
 import
 StructuredLogger
-from
-six
-import
-StringIO
 pytest
 .
 fixture

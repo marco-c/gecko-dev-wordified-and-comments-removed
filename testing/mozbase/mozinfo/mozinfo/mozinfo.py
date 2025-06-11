@@ -1339,16 +1339,11 @@ info
 "
 "
     
-from
-six
-import
-string_types
-    
 if
 isinstance
 (
 new_info
-string_types
+str
 )
 :
         

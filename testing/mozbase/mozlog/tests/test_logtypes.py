@@ -774,10 +774,18 @@ bar
         
 self
 .
-assertDictContainsSubset
+assertLessEqual
 (
 d1
+.
+items
+(
+)
 d2
+.
+items
+(
+)
 )
 if
 __name__

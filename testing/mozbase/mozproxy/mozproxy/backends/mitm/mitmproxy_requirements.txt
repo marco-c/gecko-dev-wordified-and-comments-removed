@@ -226,14 +226,6 @@ yaml
 13
 .
 14
-six
-=
-=
-1
-.
-13
-.
-0
 sortedcontainers
 =
 =

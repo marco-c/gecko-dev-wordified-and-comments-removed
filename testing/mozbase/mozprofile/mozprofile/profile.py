@@ -1,4 +1,6 @@
 import
+builtins
+import
 json
 import
 os
@@ -22,30 +24,6 @@ import
 copytree
 import
 mozfile
-import
-six
-from
-six
-import
-python_2_unicode_compatible
-string_types
-if
-six
-.
-PY3
-:
-    
-def
-unicode
-(
-input
-)
-:
-        
-return
-input
-import
-builtins
 from
 .
 addons
@@ -93,14 +71,13 @@ ThunderbirdProfile
 create_profile
 "
 ]
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 BaseProfile
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 def
@@ -858,7 +835,6 @@ self
 .
 profile
 )
-python_2_unicode_compatible
 class
 Profile
 (
@@ -1782,8 +1758,6 @@ f
 .
 write
 (
-unicode
-(
 "
 \
 n
@@ -1800,7 +1774,6 @@ delimeters
 0
 ]
 )
-)
             
 Preferences
 .
@@ -1813,8 +1786,6 @@ preferences
 f
 .
 write
-(
-unicode
 (
 "
 %
@@ -1829,7 +1800,6 @@ delimeters
 [
 1
 ]
-)
 )
     
 def
@@ -3052,7 +3022,7 @@ if
 isinstance
 (
 addons
-string_types
+str
 )
 :
                 
@@ -3310,25 +3280,6 @@ prefstr
 %
 values
             
-if
-six
-.
-PY2
-:
-                
-fh
-.
-write
-(
-unicode
-(
-prefstr
-)
-)
-            
-else
-:
-                
 fh
 .
 write

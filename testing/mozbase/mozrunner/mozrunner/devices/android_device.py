@@ -32,8 +32,6 @@ urllib
 request
 import
 urlopen
-import
-six
 from
 mozdevice
 import
@@ -6276,10 +6274,6 @@ timeout
 :
         
 if
-six
-.
-PY3
-and
 isinstance
 (
 expected
@@ -6317,10 +6311,6 @@ command
 :
         
 if
-six
-.
-PY3
-and
 isinstance
 (
 command
@@ -7831,30 +7821,12 @@ check_output
 command
 )
         
-if
-six
-.
-PY3
-and
-not
-isinstance
-(
-out
-str
-)
-:
-            
 out
 =
 out
 .
 decode
 (
-"
-utf
--
-8
-"
 )
         
 if

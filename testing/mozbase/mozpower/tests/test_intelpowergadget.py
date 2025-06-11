@@ -12,8 +12,6 @@ import
 mozunit
 import
 pytest
-import
-six
 from
 mozpower
 .
@@ -28,32 +26,6 @@ IPGMissingOutputFileError
 IPGTimeoutError
     
 IPGUnknownValueTypeError
-)
-def
-thread_is_alive
-(
-thread
-)
-:
-    
-if
-six
-.
-PY2
-:
-        
-return
-thread
-.
-isAlive
-(
-)
-    
-return
-thread
-.
-is_alive
-(
 )
 def
 test_ipg_pathsplitting
@@ -369,11 +341,12 @@ ipg_obj
 _running
         
 assert
-thread_is_alive
-(
 ipg_obj
 .
 _thread
+.
+is_alive
+(
 )
         
 ipg_obj

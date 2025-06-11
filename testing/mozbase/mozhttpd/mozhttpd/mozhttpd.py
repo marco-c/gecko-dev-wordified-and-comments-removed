@@ -43,10 +43,6 @@ unquote
 urlsplit
 import
 moznetwork
-from
-six
-import
-ensure_binary
 class
 EasyServer
 (
@@ -536,16 +532,29 @@ end_headers
 (
 )
                 
+if
+isinstance
+(
+data
+str
+)
+:
+                    
+data
+=
+data
+.
+encode
+(
+)
+                
 self
 .
 wfile
 .
 write
 (
-ensure_binary
-(
 data
-)
 )
                 
 return

@@ -2,8 +2,6 @@ import
 json
 import
 re
-import
-six
 from
 mozlog
 import
@@ -44,20 +42,6 @@ Z_
 MAX_FORWARDED_REQUESTS
 =
 3
-if
-six
-.
-PY2
-:
-    
-from
-urllib2
-import
-Request
-urlopen
-else
-:
-    
 from
 urllib
 .
@@ -65,10 +49,6 @@ request
 import
 Request
 urlopen
-    
-basestring
-=
-str
 class
 ModuleV3
 :
@@ -106,7 +86,7 @@ not
 isinstance
 (
 libName
-basestring
+str
 )
 or
 not
@@ -143,7 +123,7 @@ not
 isinstance
 (
 breakpadId
-basestring
+str
 )
 :
         

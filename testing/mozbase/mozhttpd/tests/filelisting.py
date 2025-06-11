@@ -14,10 +14,6 @@ import
 mozunit
 import
 pytest
-from
-six
-import
-ensure_str
 pytest
 .
 fixture
@@ -321,9 +317,10 @@ sub
 pattern
 "
 "
-ensure_str
-(
 line
+.
+decode
+(
 )
 .
 strip

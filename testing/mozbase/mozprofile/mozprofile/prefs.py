@@ -12,15 +12,12 @@ import
 os
 import
 tokenize
-import
-mozfile
-import
-six
 from
-six
+io
 import
 StringIO
-string_types
+import
+mozfile
 try
 :
     
@@ -55,21 +52,6 @@ read_file
 ConfigParser
 .
 readfp
-if
-six
-.
-PY3
-:
-    
-def
-unicode
-(
-input
-)
-:
-        
-return
-input
 __all__
 =
 (
@@ -392,7 +374,7 @@ not
 isinstance
 (
 value
-string_types
+str
 )
 :
             
@@ -970,7 +952,7 @@ types
 =
 (
 bool
-string_types
+str
 int
 )
         
@@ -1385,7 +1367,7 @@ and
 isinstance
 (
 b
-string_types
+str
 )
 :
                 
@@ -1517,7 +1499,7 @@ if
 isinstance
 (
 value
-string_types
+str
 )
 and
 marker
@@ -1586,7 +1568,7 @@ if
 isinstance
 (
 _file
-string_types
+str
 )
 :
             
@@ -1655,12 +1637,9 @@ _prefs
             
 print
 (
-unicode
-(
 pref_string
 %
 _pref
-)
 file
 =
 f
@@ -1670,7 +1649,7 @@ if
 isinstance
 (
 _file
-string_types
+str
 )
 :
             

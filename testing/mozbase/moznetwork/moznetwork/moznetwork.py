@@ -16,8 +16,6 @@ import
 mozinfo
 import
 mozlog
-import
-six
 if
 mozinfo
 .
@@ -263,12 +261,6 @@ buffer_info
 0
 ]
         
-if
-six
-.
-PY3
-:
-            
 namestr
 =
 names
@@ -277,26 +269,11 @@ tobytes
 (
 )
         
-else
-:
-            
-namestr
-=
-names
-.
-tostring
-(
-)
-        
 return
 [
             
 (
                 
-six
-.
-ensure_str
-(
 namestr
 [
 i
@@ -318,6 +295,9 @@ b
 [
 0
 ]
+.
+decode
+(
 )
                 
 socket

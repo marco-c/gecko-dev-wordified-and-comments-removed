@@ -3,16 +3,13 @@ abc
 import
 ABCMeta
 abstractmethod
-import
-six
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 Playback
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 def

@@ -13,6 +13,10 @@ ElementTree
 as
 ET
 from
+io
+import
+StringIO
+from
 textwrap
 import
 dedent
@@ -49,12 +53,6 @@ mozlog
 structuredlog
 import
 StructuredLogger
-from
-six
-import
-StringIO
-ensure_text
-unichr
 FORMATS
 =
 {
@@ -3013,13 +3011,10 @@ position
         
 return
 [
-ensure_text
-(
 line
 .
 rstrip
 (
-)
 )
 for
 line
@@ -3188,7 +3183,7 @@ extra
 data
 "
 :
-unichr
+chr
 (
 0x02A9
 )
@@ -5334,7 +5329,7 @@ assertIn
 (
 "
 \
-u25B6
+u25b6
 FAIL
 [
 expected
@@ -5354,7 +5349,7 @@ assertIn
             
 "
 \
-u25B6
+u25b6
 FAIL
 [
 expected

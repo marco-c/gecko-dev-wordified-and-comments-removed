@@ -11,8 +11,6 @@ from
 shutil
 import
 which
-import
-six
 from
 mozdevice
 import
@@ -134,14 +132,13 @@ DefaultContext
 profile_class
 =
 Profile
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 RemoteContext
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 device
