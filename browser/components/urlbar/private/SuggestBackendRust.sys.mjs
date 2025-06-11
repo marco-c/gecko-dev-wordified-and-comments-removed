@@ -2755,7 +2755,10 @@ directly
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 Whether
@@ -2892,7 +2895,10 @@ key
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 Whether
