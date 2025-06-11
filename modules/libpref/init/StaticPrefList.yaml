@@ -85811,7 +85811,7 @@ network
 .
 dns
 .
-native_https_timeout_mac
+native_https_timeout_mac_msec
 type
 :
 RelaxedAtomicInt32
