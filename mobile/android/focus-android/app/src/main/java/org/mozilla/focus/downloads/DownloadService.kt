@@ -105,7 +105,7 @@ feature
 .
 downloads
 .
-DateTimeProvider
+DownloadEstimator
 import
 mozilla
 .
@@ -195,14 +195,14 @@ fileSizeFormatter
 }
 override
 val
-dateTimeProvider
+downloadEstimator
 :
-DateTimeProvider
+DownloadEstimator
 by
 lazy
 {
 components
 .
-dateTimeProvider
+downloadEstimator
 }
 }

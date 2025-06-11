@@ -442,6 +442,15 @@ components
 core
 .
 fileSizeFormatter
+downloadEstimator
+=
+applicationContext
+.
+components
+.
+core
+.
+downloadEstimator
 )
 )
 private
