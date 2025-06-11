@@ -94,6 +94,15 @@ browser
 /
 preferences
 /
+blocklists
+.
+ftl
+"
+"
+browser
+/
+preferences
+/
 colors
 .
 ftl
