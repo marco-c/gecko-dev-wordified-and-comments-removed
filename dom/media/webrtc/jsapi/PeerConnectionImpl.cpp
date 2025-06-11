@@ -1910,10 +1910,6 @@ mIceRollbackCount
 (
 0
 )
-mHaveConfiguredCodecs
-(
-false
-)
 mTrickle
 (
 true

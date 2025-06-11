@@ -3558,9 +3558,6 @@ PeerConnectionAutoTimer
 sCallDurationTimers
 ;
 bool
-mHaveConfiguredCodecs
-;
-bool
 mTrickle
 ;
 bool
