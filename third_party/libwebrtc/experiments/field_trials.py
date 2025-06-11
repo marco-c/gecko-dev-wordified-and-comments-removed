@@ -926,6 +926,24 @@ FieldTrial
 '
 WebRTC
 -
+UseAbsCapTimeForG2gMetric
+'
+               
+401512883
+               
+date
+(
+2025
+9
+10
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 UseNtpTimeAbsoluteSendTime
 '
                
