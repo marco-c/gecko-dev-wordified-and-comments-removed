@@ -1076,6 +1076,11 @@ GfxInfoOperatingSystemDefs
 h
 "
 "
+GfxInfoRefreshRateStatusDefs
+.
+h
+"
+"
 GfxInfoWindowProtocolDefs
 .
 h
