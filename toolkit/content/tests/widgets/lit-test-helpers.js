@@ -619,6 +619,14 @@ elementName
 await
 this
 .
+verifyAriaLabel
+(
+elementName
+)
+;
+await
+this
+.
 verifyName
 (
 elementName
