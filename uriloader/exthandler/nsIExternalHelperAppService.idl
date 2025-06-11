@@ -149,6 +149,14 @@ nsIFile
 aTemporaryFile
 )
 ;
+void
+deletePrivateFileWhenPossible
+(
+in
+nsIFile
+aPrivateFile
+)
+;
 }
 ;
 [
