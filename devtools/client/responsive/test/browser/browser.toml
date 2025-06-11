@@ -765,6 +765,13 @@ js
 ]
 [
 "
+browser_resize_cancel
+.
+js
+"
+]
+[
+"
 browser_screenshot_button
 .
 js
