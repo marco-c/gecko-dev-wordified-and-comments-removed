@@ -124,6 +124,9 @@ operator
 )
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r
@@ -173,10 +176,16 @@ operator
 )
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r1
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r2
@@ -1015,6 +1024,9 @@ payload
 dest_addr
 )
 ;
+webrtc
+:
+:
 SocketAddressPair
 route
 (
@@ -1407,6 +1419,9 @@ NATServer
 Translate
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 route
@@ -1567,6 +1582,9 @@ TransEntry
 TransEntry
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r

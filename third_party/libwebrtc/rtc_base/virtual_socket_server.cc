@@ -4522,6 +4522,9 @@ port
 )
 )
 ;
+webrtc
+:
+:
 SocketAddressPair
 address_pair
 (
@@ -4539,6 +4542,9 @@ std
 :
 pair
 <
+webrtc
+:
+:
 SocketAddressPair
 VirtualSocket
 *
@@ -4605,6 +4611,9 @@ port
 )
 )
 ;
+webrtc
+:
+:
 SocketAddressPair
 address_pair
 (
@@ -4701,6 +4710,9 @@ port
 )
 )
 ;
+webrtc
+:
+:
 SocketAddressPair
 address_pair
 (
