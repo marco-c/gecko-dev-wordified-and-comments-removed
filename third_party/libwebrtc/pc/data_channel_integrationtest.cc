@@ -10346,7 +10346,7 @@ EndToEndCallWithDataChannelOnlyConnects
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -10483,7 +10483,7 @@ DataChannelClosesWhenClosed
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -10651,7 +10651,7 @@ DataChannelClosesWhenClosedReverse
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -10819,7 +10819,7 @@ DataChannelClosesWhenPeerConnectionClosed
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -11338,6 +11338,7 @@ CreatePeerConnectionWrappersWithConfig
 (
 config
 config
+false
 )
 ;
 PeerConnectionDependencies
@@ -11399,6 +11400,7 @@ move
 dependencies
 )
 nullptr
+false
 false
 false
 )

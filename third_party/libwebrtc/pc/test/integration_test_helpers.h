@@ -7944,6 +7944,10 @@ PeerConnectionInterface
 RTCConfiguration
 &
 callee_config
+bool
+create_media_engine
+=
+true
 )
 {
 caller_
@@ -7961,6 +7965,7 @@ nullptr
 nullptr
 false
 false
+create_media_engine
 )
 ;
 callee_
@@ -7978,6 +7983,7 @@ nullptr
 nullptr
 false
 false
+create_media_engine
 )
 ;
 return
