@@ -118,7 +118,7 @@ release
 :
 v0
 .
-5
+6
 .
 0
 #
@@ -141,7 +141,7 @@ preferred
 )
 revision
 :
-b475d25cb4568dd7bf37f80b8804030f1820bd4b
+1de4a085d3a7afb625c51a60aabb5ad298e4059f
 #
 The
 package

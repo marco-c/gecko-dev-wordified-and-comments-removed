@@ -10,11 +10,11 @@ BERGAMOT_VERSION_FULL
 "
 v0
 .
-5
+6
 .
 0
 +
-b475d25
+1de4a085d
 "
 ;
 null
@@ -3935,7 +3935,7 @@ var
 ASM_CONSTS
 =
 {
-1429732
+1427332
 (
 0
 1
