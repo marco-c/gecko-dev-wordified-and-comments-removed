@@ -683,15 +683,13 @@ setup
 (
 )
 ;
-await
 profile
 .
-setAvatar
-(
+avatar
+=
 "
 flower
 "
-)
 ;
 let
 expectedAvatar
