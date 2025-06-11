@@ -982,3 +982,17 @@ disabledForTesting
 true
 )
 ;
+user_pref
+(
+"
+layout
+.
+disable
+-
+pixel
+-
+alignment
+"
+true
+)
+;

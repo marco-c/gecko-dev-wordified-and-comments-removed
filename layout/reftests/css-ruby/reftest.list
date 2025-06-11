@@ -421,10 +421,7 @@ enabled
 true
 )
 fuzzy
--
-if
 (
-Android
 0
 -
 198
@@ -493,6 +490,15 @@ intercharacter
 .
 enabled
 true
+)
+fuzzy
+(
+0
+-
+92
+0
+-
+186
 )
 =
 =
