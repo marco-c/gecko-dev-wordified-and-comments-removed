@@ -237,6 +237,14 @@ BookmarksListMenuAction
 BookmarksAction
 {
 internal
+data
+object
+SelectAll
+:
+BookmarksListMenuAction
+(
+)
+internal
 sealed
 class
 Bookmark
@@ -634,6 +642,12 @@ internal
 data
 object
 FirstSyncCompleted
+:
+BookmarksAction
+internal
+data
+object
+PrivateBrowsingAuthorized
 :
 BookmarksAction
 /

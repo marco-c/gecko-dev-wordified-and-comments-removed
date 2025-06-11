@@ -2068,6 +2068,7 @@ EditFolderAction
 DeleteClicked
 is
 ReceivedSyncSignInUpdate
+PrivateBrowsingAuthorized
 -
 >
 Unit
@@ -3488,6 +3489,17 @@ state
 sortOrder
 )
 }
+is
+BookmarksListMenuAction
+.
+SelectAll
+-
+>
+store
+.
+tryDispatchReceivedRecursiveCountUpdate
+(
+)
 is
 BookmarksListMenuAction
 .

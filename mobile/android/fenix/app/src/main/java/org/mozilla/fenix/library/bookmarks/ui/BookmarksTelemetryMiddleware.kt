@@ -713,6 +713,9 @@ BookmarksListMenuAction
 MultiSelect
 .
 MoveClicked
+BookmarksListMenuAction
+.
+SelectAll
 is
 BookmarksLoaded
 EditBookmarkAction
@@ -799,6 +802,7 @@ is
 ReceivedSyncSignInUpdate
 FirstSyncCompleted
 ViewDisposed
+PrivateBrowsingAuthorized
 -
 >
 Unit
