@@ -1047,15 +1047,6 @@ MOZ_ASSERT
 proto
 )
 ;
-MOZ_ASSERT
-(
-!
-hasBuiltinProto
-(
-kind
-)
-)
-;
 data
 (
 )
@@ -1065,7 +1056,7 @@ builtinProtos
 kind
 ]
 .
-init
+set
 (
 proto
 )
