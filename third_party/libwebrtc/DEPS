@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-e9fb06ff6fe2c527924b0e7ab92f843f9d982647
+d4fa62ff1a3c594db19dae4dfd457fa02c2b559f
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-2159acffa84c441d1b72b25ba89ea7f3849c17b4
+14592d8bac3be9bf64b025171cf56336536a581d
 '
 '
 src
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-1f61273a03390bc4dbeda3fd553ab82c2e213778
+37bc9412ad43d810f73a72a847f6552b2e05fce7
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-e8dd5a6ffc0f8684d2b61dc09b5485092484728b
+f8f0bfb1f3e658310c6f3e9594dc1231fb3ce2bf
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-9d978500248c2b71cf19f6093888705826cf5423
+16c3d4af85ae1afdd8809ef6ab75abbcd03dc214
 '
 '
 src
@@ -2252,7 +2252,7 @@ com
 boringssl
 .
 git
-71bcfad967d575343145f95158b6e9926ce94337
+02f0d8776ecd83a1c663db2eaba6283aa72cc5b8
 '
 '
 src
@@ -2304,7 +2304,7 @@ com
 catapult
 .
 git
-582e2efe2ebb4a820b477e9ca78179e0e4b577f0
+ca135ac1f3c4133bc887a405b013ed24898bb1ae
 '
 '
 src
@@ -2582,7 +2582,7 @@ grpc
 grpc
 .
 git
-b22086abf4cef3f1b5248760459c19f019874bdf
+6adf614949b8dcf7deefc665cf1dd335ebf0b05f
 '
 }
 #
@@ -3344,7 +3344,7 @@ google
 fuzztest
 .
 git
-b8e43c76ff87840e1141cbfeff4a849cd6441b08
+59dff6437c5c64b77c2441390b2486effece75d0
 '
 '
 src
@@ -3533,7 +3533,7 @@ external
 perfetto
 .
 git
-ea324cfbfd21cbbfbc1122e33575ab24b81cecbe
+6b56f59b220659e6367b5f8194762ff0b80e9ca2
 '
 '
 src
@@ -4084,7 +4084,7 @@ chromium
 src
 /
 tools
-01a0529cd0be20b8315467fed85595d343d3afe2
+b03c7c30b4f08562198b1d79893694cb0d04f3da
 '
 '
 src
