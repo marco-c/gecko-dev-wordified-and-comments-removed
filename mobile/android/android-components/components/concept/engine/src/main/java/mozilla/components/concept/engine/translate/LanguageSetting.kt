@@ -247,6 +247,10 @@ LanguageSetting
 when
 (
 languageSetting
+.
+lowercase
+(
+)
 )
 {
 "
