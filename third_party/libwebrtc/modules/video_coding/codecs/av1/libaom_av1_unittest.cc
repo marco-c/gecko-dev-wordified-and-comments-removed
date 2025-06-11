@@ -460,6 +460,10 @@ public
 explicit
 TestAv1Decoder
 (
+const
+Environment
+&
+env
 int
 decoder_id
 )
@@ -472,6 +476,7 @@ decoder_
 (
 CreateDav1dDecoder
 (
+env
 )
 )
 {
@@ -787,6 +792,7 @@ CreateEnvironment
 TestAv1Decoder
 decoder
 (
+env
 0
 )
 ;
@@ -1358,6 +1364,14 @@ DependencyStructure
 .
 num_decode_targets
 ;
+const
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 std
 :
 :
@@ -1369,9 +1383,7 @@ encoder
 =
 CreateLibaomAv1Encoder
 (
-CreateEnvironment
-(
-)
+env
 )
 ;
 VideoCodec
@@ -1534,6 +1546,7 @@ dt
 TestAv1Decoder
 decoder
 (
+env
 dt
 )
 ;

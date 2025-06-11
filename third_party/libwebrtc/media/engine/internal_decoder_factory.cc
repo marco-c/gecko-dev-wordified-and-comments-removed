@@ -233,6 +233,10 @@ VideoDecoder
 >
 CreateDav1dDecoder
 (
+const
+Environment
+&
+env
 )
 {
 return
@@ -588,6 +592,7 @@ kDav1dIsIncluded
 return
 CreateDav1dDecoder
 (
+env
 )
 ;
 }
