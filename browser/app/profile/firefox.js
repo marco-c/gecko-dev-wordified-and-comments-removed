@@ -24504,6 +24504,6 @@ component
 .
 enabled
 "
-true
+false
 )
 ;
