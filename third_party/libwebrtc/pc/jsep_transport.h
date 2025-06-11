@@ -370,7 +370,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -524,7 +524,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -548,7 +548,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -924,7 +924,7 @@ RTCError
 VerifyCertificateFingerprint
 (
 const
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1184,7 +1184,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate

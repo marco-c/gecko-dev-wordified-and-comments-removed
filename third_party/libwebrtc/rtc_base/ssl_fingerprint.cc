@@ -443,6 +443,9 @@ SSLFingerprint
 CreateFromCertificate
 (
 const
+webrtc
+:
+:
 RTCCertificate
 &
 cert

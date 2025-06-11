@@ -694,9 +694,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_gen
@@ -3019,9 +3016,6 @@ SessionErrorIfFingerprintInvalid
 auto
 callee_certificate
 =
-rtc
-:
-:
 RTCCertificate
 :
 :
@@ -3036,9 +3030,6 @@ kRsaPems
 auto
 other_certificate
 =
-rtc
-:
-:
 RTCCertificate
 :
 :

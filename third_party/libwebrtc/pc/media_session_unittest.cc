@@ -3965,7 +3965,7 @@ tdf1_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -4002,7 +4002,7 @@ tdf2_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -32010,7 +32010,7 @@ tdf1_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -32047,7 +32047,7 @@ tdf2_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -32472,7 +32472,7 @@ tdf
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -33073,7 +33073,7 @@ offer_tdf
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -33110,7 +33110,7 @@ answer_tdf
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -34013,7 +34013,7 @@ tdf_offerer_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -34050,7 +34050,7 @@ tdf_answerer_
 .
 set_certificate
 (
-rtc
+webrtc
 :
 :
 RTCCertificate

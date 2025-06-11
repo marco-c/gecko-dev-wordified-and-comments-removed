@@ -1762,9 +1762,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 RTCCertificateGenerator
 >
 (

@@ -573,7 +573,7 @@ fake_dtls2
 auto
 cert1
 =
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -610,7 +610,7 @@ cert1
 auto
 cert2
 =
-rtc
+webrtc
 :
 :
 RTCCertificate

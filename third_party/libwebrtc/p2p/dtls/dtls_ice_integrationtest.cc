@@ -345,7 +345,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -867,7 +867,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -879,7 +879,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1318,7 +1318,7 @@ Prepare
 auto
 client_certificate
 =
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1347,7 +1347,7 @@ KT_DEFAULT
 auto
 server_certificate
 =
-rtc
+webrtc
 :
 :
 RTCCertificate

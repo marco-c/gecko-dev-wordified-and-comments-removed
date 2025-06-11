@@ -484,7 +484,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -629,7 +629,7 @@ key_type
 {
 certificate_
 =
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -657,7 +657,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -2193,7 +2193,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate

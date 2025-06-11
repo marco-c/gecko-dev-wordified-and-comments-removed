@@ -646,9 +646,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 const
@@ -869,9 +866,6 @@ network_thread
 )
 certificate_
 (
-rtc
-:
-:
 RTCCertificate
 :
 :

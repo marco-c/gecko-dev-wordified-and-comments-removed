@@ -480,9 +480,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_generator
@@ -1072,9 +1069,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_generator

@@ -511,9 +511,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_generator

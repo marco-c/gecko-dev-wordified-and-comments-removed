@@ -48,7 +48,7 @@ ssl_identity
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -85,6 +85,9 @@ RTCCertificateGenerator
 GenerateCertificate
 (
 const
+rtc
+:
+:
 KeyParams
 &
 key_params
@@ -119,6 +122,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLIdentity
 >
 identity
@@ -131,6 +137,9 @@ expires_ms
 {
 identity
 =
+rtc
+:
+:
 SSLIdentity
 :
 :
@@ -175,6 +184,9 @@ expires_s
 ;
 identity
 =
+rtc
+:
+:
 SSLIdentity
 :
 :
@@ -217,9 +229,15 @@ RTCCertificateGenerator
 :
 RTCCertificateGenerator
 (
+rtc
+:
+:
 Thread
 *
 signaling_thread
+rtc
+:
+:
 Thread
 *
 worker_thread
@@ -252,6 +270,9 @@ RTCCertificateGenerator
 GenerateCertificateAsync
 (
 const
+rtc
+:
+:
 KeyParams
 &
 key_params

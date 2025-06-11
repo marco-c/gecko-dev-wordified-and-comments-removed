@@ -4332,16 +4332,10 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 local_certificate
 (
-rtc
-:
-:
 RTCCertificate
 :
 :

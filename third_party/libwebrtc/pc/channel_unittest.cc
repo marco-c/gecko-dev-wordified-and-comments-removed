@@ -1447,7 +1447,7 @@ DTLS
 auto
 cert1
 =
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1613,7 +1613,7 @@ DTLS
 auto
 cert2
 =
-rtc
+webrtc
 :
 :
 RTCCertificate
