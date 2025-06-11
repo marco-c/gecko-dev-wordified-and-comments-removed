@@ -3042,7 +3042,7 @@ content_type
 ;
 RTC_LOG
 (
-LS_VERBOSE
+LS_INFO
 )
 <
 <
