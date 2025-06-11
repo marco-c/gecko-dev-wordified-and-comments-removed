@@ -15,8 +15,6 @@ transforms
 "
 import
 hashlib
-import
-json
 from
 functools
 import
@@ -29,6 +27,12 @@ import
 mozunit
 import
 pytest
+from
+taskgraph
+.
+util
+import
+json
 from
 gecko_taskgraph
 .

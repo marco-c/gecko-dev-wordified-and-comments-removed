@@ -1,6 +1,4 @@
 import
-json
-import
 taskgraph
 from
 taskgraph
@@ -10,6 +8,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

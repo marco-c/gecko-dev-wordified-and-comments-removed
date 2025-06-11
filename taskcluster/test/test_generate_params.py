@@ -1,6 +1,4 @@
 import
-json
-import
 os
 import
 subprocess
@@ -20,6 +18,12 @@ taskgraph
 taskgraph
 import
 TaskGraph
+from
+taskgraph
+.
+util
+import
+json
 pytestmark
 =
 pytest

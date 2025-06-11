@@ -57,8 +57,6 @@ job
 "
 "
 import
-json
-import
 logging
 import
 mozpack
@@ -88,6 +86,12 @@ transforms
 run
 import
 rewrite_when_to_optimization
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

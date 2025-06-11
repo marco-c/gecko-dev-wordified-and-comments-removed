@@ -12,8 +12,6 @@ chunking
 "
 "
 import
-json
-import
 logging
 import
 os
@@ -53,6 +51,12 @@ import
 TEST_SUITES
 TestManifestLoader
 TestResolver
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

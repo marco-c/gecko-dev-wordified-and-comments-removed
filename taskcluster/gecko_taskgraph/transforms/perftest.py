@@ -16,8 +16,6 @@ task
 "
 "
 "
-import
-json
 from
 copy
 import
@@ -35,6 +33,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

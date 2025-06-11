@@ -1,6 +1,4 @@
 import
-json
-import
 re
 from
 collections
@@ -37,6 +35,7 @@ taskgraph
 .
 util
 import
+json
 taskcluster
 yaml
 from

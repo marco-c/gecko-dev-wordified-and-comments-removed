@@ -1,6 +1,4 @@
 import
-json
-import
 os
 import
 re
@@ -30,6 +28,12 @@ mozbuild
 util
 import
 memoize
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

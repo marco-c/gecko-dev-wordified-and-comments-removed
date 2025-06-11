@@ -1,6 +1,4 @@
 import
-json
-import
 unittest
 from
 pprint
@@ -28,6 +26,7 @@ taskgraph
 .
 util
 import
+json
 taskcluster
 from
 gecko_taskgraph
