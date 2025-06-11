@@ -1300,9 +1300,7 @@ extras
 .
 getString
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 )
 ?
 :

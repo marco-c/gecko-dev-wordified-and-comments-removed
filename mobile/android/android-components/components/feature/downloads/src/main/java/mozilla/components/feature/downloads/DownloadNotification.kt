@@ -452,14 +452,6 @@ val
 PERCENTAGE_MULTIPLIER
 =
 100
-internal
-const
-val
-EXTRA_DOWNLOAD_ID
-=
-"
-downloadId
-"
 VisibleForTesting
 internal
 fun
@@ -1953,7 +1945,7 @@ intent
 .
 putExtra
 (
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 downloadStateId
 )
 /

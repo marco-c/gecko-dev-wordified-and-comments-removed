@@ -3661,9 +3661,7 @@ packageName
 )
 putExtra
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 providedDownload
 .
 value
@@ -3965,9 +3963,7 @@ packageName
 )
 putExtra
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 providedDownload
 .
 value
@@ -4394,9 +4390,7 @@ packageName
 )
 putExtra
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 providedDownload
 .
 value
@@ -4807,9 +4801,7 @@ packageName
 )
 putExtra
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 providedDownload
 .
 value
@@ -5663,9 +5655,7 @@ apply
 {
 putExtra
 (
-DownloadNotification
-.
-EXTRA_DOWNLOAD_ID
+INTENT_EXTRA_DOWNLOAD_ID
 downloadId
 )
 }
