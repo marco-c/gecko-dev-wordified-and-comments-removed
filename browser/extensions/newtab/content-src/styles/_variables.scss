@@ -1808,7 +1808,9 @@ topic
 -
 margin
 -
-top
+block
+-
+start
 :
 12px
 ;
@@ -2546,7 +2548,14 @@ inline
 -
 end
 :
-5px
+var
+(
+-
+-
+space
+-
+xsmall
+)
 ;
 margin
 -

@@ -276,7 +276,9 @@ rtl
 .
 margin
 -
-left
+inline
+-
+start
 :
 var
 (
@@ -299,7 +301,9 @@ disallowed
 list
 margin
 -
-top
+block
+-
+start
 :
 var
 (

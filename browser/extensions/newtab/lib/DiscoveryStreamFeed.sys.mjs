@@ -18822,7 +18822,9 @@ message
 "
 margin
 -
-bottom
+block
+-
+end
 :
 -
 20px
@@ -19081,7 +19083,9 @@ navigation
 "
 margin
 -
-top
+block
+-
+start
 :
 -
 10px
