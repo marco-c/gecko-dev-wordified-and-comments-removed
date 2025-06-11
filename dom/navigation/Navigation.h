@@ -544,6 +544,10 @@ UndefinedHandleValue
 ;
 private
 :
+friend
+struct
+NavigationAPIMethodTracker
+;
 using
 UpcomingTraverseAPIMethodTrackers
 =
