@@ -798,6 +798,13 @@ const
 ;
 #
 endif
+void
+SetFrameCallbackState
+(
+bool
+aState
+)
+;
 virtual
 void
 DiscardBackbuffersLocked
