@@ -1417,7 +1417,7 @@ rtc
 AutoThread
 main_thread_
 ;
-rtc
+webrtc
 :
 :
 ScopedFakeClock

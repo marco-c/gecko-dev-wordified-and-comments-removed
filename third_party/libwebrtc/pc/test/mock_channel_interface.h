@@ -98,7 +98,7 @@ gmock
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 MockChannelInterface
@@ -128,6 +128,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VideoChannel
 *
 AsVideoChannel
@@ -140,6 +143,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VoiceChannel
 *
 AsVoiceChannel
@@ -152,6 +158,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 MediaSendChannelInterface
 *
 media_send_channel
@@ -164,6 +173,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -176,6 +188,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -188,6 +203,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 MediaReceiveChannelInterface
 *
 media_receive_channel
@@ -200,6 +218,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -212,6 +233,9 @@ override
 ;
 MOCK_METHOD
 (
+cricket
+:
+:
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
@@ -317,9 +341,6 @@ cricket
 :
 MediaContentDescription
 *
-webrtc
-:
-:
 SdpType
 std
 :
@@ -343,9 +364,6 @@ cricket
 :
 MediaContentDescription
 *
-webrtc
-:
-:
 SdpType
 std
 :
@@ -378,6 +396,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 StreamParams
 >
 &
@@ -398,6 +419,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 StreamParams
 >
 &
@@ -415,9 +439,6 @@ MOCK_METHOD
 bool
 SetRtpTransport
 (
-webrtc
-:
-:
 RtpTransportInternal
 *
 )
@@ -427,6 +448,18 @@ override
 )
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+MockChannelInterface
 ;
 }
 #

@@ -37,7 +37,7 @@ video_source_interface
 h
 "
 namespace
-cricket
+webrtc
 {
 cricket
 :

@@ -777,7 +777,7 @@ StunRequestTest
 TestBackoff
 )
 {
-rtc
+webrtc
 :
 :
 ScopedFakeClock
@@ -995,7 +995,7 @@ StunRequestTest
 TestTimeout
 )
 {
-rtc
+webrtc
 :
 :
 ScopedFakeClock

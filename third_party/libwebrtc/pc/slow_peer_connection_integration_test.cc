@@ -307,9 +307,6 @@ class
 FakeClockForTest
 :
 public
-rtc
-:
-:
 ScopedFakeClock
 {
 protected

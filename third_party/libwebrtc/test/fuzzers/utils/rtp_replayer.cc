@@ -279,9 +279,6 @@ rtp_dump_size
 RunLoop
 loop
 ;
-rtc
-:
-:
 ScopedBaseFakeClock
 fake_clock
 ;
@@ -916,9 +913,6 @@ RtpReplayer
 :
 ReplayPackets
 (
-rtc
-:
-:
 FakeClock
 *
 clock

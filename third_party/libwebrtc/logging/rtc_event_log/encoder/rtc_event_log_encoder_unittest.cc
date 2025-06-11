@@ -7502,9 +7502,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -7804,9 +7801,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -8106,9 +8100,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -8408,9 +8399,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -8710,9 +8698,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -9012,9 +8997,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -9314,9 +9296,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -9616,9 +9595,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -9918,9 +9894,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -10224,9 +10197,6 @@ force_repeated_fields_
 return
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

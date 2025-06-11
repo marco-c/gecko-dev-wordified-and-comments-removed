@@ -93,12 +93,6 @@ gtest
 h
 "
 using
-cricket
-:
-:
-FakeVideoRenderer
-;
-using
 rtc
 :
 :
@@ -109,6 +103,14 @@ rtc
 :
 :
 VideoSinkWants
+;
+using
+:
+:
+webrtc
+:
+:
+FakeVideoRenderer
 ;
 using
 FrameSize

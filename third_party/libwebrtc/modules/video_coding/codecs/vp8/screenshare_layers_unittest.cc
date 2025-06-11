@@ -1053,9 +1053,6 @@ max_qp_
 int
 frame_size_
 ;
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;

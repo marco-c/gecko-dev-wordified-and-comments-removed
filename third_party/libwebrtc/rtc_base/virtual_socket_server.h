@@ -964,6 +964,9 @@ VirtualSocketServer
 explicit
 VirtualSocketServer
 (
+webrtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock
@@ -1737,6 +1740,9 @@ VirtualSocket
 >
 ConnectionMap
 ;
+webrtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock_

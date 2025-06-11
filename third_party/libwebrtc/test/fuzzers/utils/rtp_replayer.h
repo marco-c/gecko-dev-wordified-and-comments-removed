@@ -318,9 +318,6 @@ static
 void
 ReplayPackets
 (
-rtc
-:
-:
 FakeClock
 *
 clock

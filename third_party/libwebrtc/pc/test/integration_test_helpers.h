@@ -3358,9 +3358,6 @@ observer
 ;
 }
 }
-rtc
-:
-:
 FakeNetworkManager
 *
 network_manager
@@ -6265,9 +6262,6 @@ std
 string
 debug_name_
 ;
-rtc
-:
-:
 FakeNetworkManager
 *
 fake_network_manager_

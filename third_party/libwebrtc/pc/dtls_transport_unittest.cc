@@ -169,12 +169,6 @@ kNonsenseCipherSuite
 1234
 ;
 using
-cricket
-:
-:
-FakeDtlsTransport
-;
-using
 :
 :
 testing
@@ -325,9 +319,6 @@ observer_
 void
 CreateTransport
 (
-rtc
-:
-:
 FakeSSLCertificate
 *
 certificate
@@ -829,9 +820,6 @@ DtlsTransportTest
 RoleAppearsOnConnect
 )
 {
-rtc
-:
-:
 FakeSSLCertificate
 fake_certificate
 (
@@ -967,9 +955,6 @@ DtlsTransportTest
 CertificateAppearsOnConnect
 )
 {
-rtc
-:
-:
 FakeSSLCertificate
 fake_certificate
 (
@@ -1056,9 +1041,6 @@ DtlsTransportTest
 CertificateDisappearsOnClose
 )
 {
-rtc
-:
-:
 FakeSSLCertificate
 fake_certificate
 (

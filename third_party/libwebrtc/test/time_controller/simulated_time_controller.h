@@ -635,9 +635,6 @@ runner
 ;
 private
 :
-rtc
-:
-:
 ScopedBaseFakeClock
 global_clock_
 ;

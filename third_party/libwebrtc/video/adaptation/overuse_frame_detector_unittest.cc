@@ -1173,9 +1173,6 @@ max_processing_time_us
 CpuOveruseOptions
 options_
 ;
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;

@@ -577,9 +577,6 @@ class
 FakeNetworkManagerWithNoAnyNetwork
 :
 public
-rtc
-:
-:
 FakeNetworkManager
 {
 public
@@ -1159,9 +1156,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 FakeNetworkManager
 *
 network
@@ -1175,9 +1169,6 @@ network_
 void
 set_network
 (
-rtc
-:
-:
 FakeNetworkManager
 *
 network
@@ -1189,9 +1180,6 @@ network
 ;
 }
 private
-:
-rtc
-:
 :
 FakeNetworkManager
 *

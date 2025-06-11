@@ -4543,9 +4543,6 @@ Create
 false
 )
 ;
-cricket
-:
-:
 FakeFrameSource
 frame_source
 (
@@ -4920,9 +4917,6 @@ make_unique
 <
 NiceMock
 <
-rtc
-:
-:
 MockPacketSocketFactory
 >
 >

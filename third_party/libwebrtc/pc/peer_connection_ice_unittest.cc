@@ -979,9 +979,6 @@ return
 candidates
 ;
 }
-rtc
-:
-:
 FakeNetworkManager
 *
 network
@@ -995,9 +992,6 @@ network_
 void
 set_network
 (
-rtc
-:
-:
 FakeNetworkManager
 *
 network
@@ -1009,9 +1003,6 @@ network
 ;
 }
 private
-:
-rtc
-:
 :
 FakeNetworkManager
 *
@@ -1152,9 +1143,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (

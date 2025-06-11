@@ -1118,9 +1118,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (

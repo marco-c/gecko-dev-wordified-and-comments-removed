@@ -2215,7 +2215,7 @@ FakeClockBase
 {
 public
 :
-rtc
+webrtc
 :
 :
 ScopedFakeClock

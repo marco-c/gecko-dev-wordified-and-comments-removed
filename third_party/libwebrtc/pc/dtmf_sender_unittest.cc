@@ -1265,7 +1265,7 @@ DtmfSender
 >
 dtmf_
 ;
-rtc
+webrtc
 :
 :
 ScopedFakeClock

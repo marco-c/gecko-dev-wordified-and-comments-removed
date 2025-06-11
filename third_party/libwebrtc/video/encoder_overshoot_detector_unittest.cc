@@ -462,9 +462,6 @@ kWindowSizeMs
 EncoderOvershootDetector
 detector_
 ;
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;

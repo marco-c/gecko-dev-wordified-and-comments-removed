@@ -1749,9 +1749,6 @@ mock_decoder_
 FakeVideoRenderer
 fake_renderer_
 ;
-cricket
-:
-:
 FakeCall
 fake_call_
 ;

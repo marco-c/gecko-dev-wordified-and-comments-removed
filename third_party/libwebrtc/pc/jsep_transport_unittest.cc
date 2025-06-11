@@ -845,6 +845,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 FakeDtlsTransport
 >
 (
@@ -883,6 +886,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 FakeDtlsTransport
 >
 rtcp_dtls_transport
@@ -914,6 +920,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 FakeDtlsTransport
 >
 (
@@ -1837,6 +1846,9 @@ fake_dtls
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -1884,6 +1896,9 @@ fake_rtcp_dtls
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -2117,6 +2132,9 @@ fake_dtls
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -2164,6 +2182,9 @@ fake_rtcp_dtls
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -5571,6 +5592,9 @@ fake_dtls1
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -5588,6 +5612,9 @@ fake_dtls2
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -5939,6 +5966,9 @@ rtp_dtls_transport1
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -5956,6 +5986,9 @@ rtp_dtls_transport2
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -6282,6 +6315,9 @@ fake_dtls1
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >
@@ -6299,6 +6335,9 @@ fake_dtls2
 =
 static_cast
 <
+webrtc
+:
+:
 FakeDtlsTransport
 *
 >

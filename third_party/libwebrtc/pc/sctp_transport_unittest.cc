@@ -232,12 +232,6 @@ kTestMaxSctpStreams
 1234
 ;
 using
-cricket
-:
-:
-FakeDtlsTransport
-;
-using
 :
 :
 testing
@@ -1471,9 +1465,6 @@ IsRtcOk
 ;
 static_cast
 <
-cricket
-:
-:
 FakeDtlsTransport
 *
 >

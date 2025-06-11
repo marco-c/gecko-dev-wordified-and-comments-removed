@@ -283,9 +283,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 ScopedFakeClock
 >
 fake_clock
@@ -350,9 +347,6 @@ fake_clock
 reset
 (
 new
-rtc
-:
-:
 ScopedFakeClock
 (
 )

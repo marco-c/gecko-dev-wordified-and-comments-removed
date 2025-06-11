@@ -17,7 +17,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -66,9 +66,6 @@ scoped
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -93,9 +90,6 @@ scoped
 .
 SetTime
 (
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -120,9 +114,6 @@ scoped
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :

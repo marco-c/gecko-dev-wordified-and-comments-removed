@@ -629,9 +629,6 @@ make_unique
 <
 NiceMock
 <
-cricket
-:
-:
 MockChannelInterface
 >
 >
@@ -791,9 +788,6 @@ make_unique
 <
 NiceMock
 <
-cricket
-:
-:
 MockChannelInterface
 >
 >
@@ -943,9 +937,6 @@ make_unique
 <
 NiceMock
 <
-cricket
-:
-:
 MockChannelInterface
 >
 >
@@ -4907,9 +4898,6 @@ make_unique
 <
 NiceMock
 <
-cricket
-:
-:
 MockChannelInterface
 >
 >
@@ -5224,9 +5212,6 @@ make_unique
 <
 NiceMock
 <
-cricket
-:
-:
 MockChannelInterface
 >
 >

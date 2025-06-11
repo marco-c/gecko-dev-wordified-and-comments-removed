@@ -2664,7 +2664,7 @@ ProcessMessages
 ;
 }
 const
-cricket
+webrtc
 :
 :
 FakeAudioSendStream
@@ -2698,7 +2698,7 @@ send_stream
 ;
 }
 const
-cricket
+webrtc
 :
 :
 FakeAudioReceiveStream
@@ -3211,7 +3211,7 @@ InsertDtmf
 )
 )
 ;
-cricket
+webrtc
 :
 :
 FakeAudioSendStream
@@ -6277,7 +6277,7 @@ MockAudioProcessing
 >
 apm_
 ;
-cricket
+webrtc
 :
 :
 FakeCall
@@ -18145,7 +18145,7 @@ i
 ;
 }
 const
-cricket
+webrtc
 :
 :
 FakeAudioReceiveStream
@@ -18158,7 +18158,7 @@ ssrc1
 )
 ;
 const
-cricket
+webrtc
 :
 :
 FakeAudioReceiveStream
@@ -18171,7 +18171,7 @@ ssrc2
 )
 ;
 const
-cricket
+webrtc
 :
 :
 FakeAudioReceiveStream
@@ -21765,7 +21765,7 @@ SetupSendStream
 )
 )
 ;
-cricket
+webrtc
 :
 :
 FakeNetworkInterface
@@ -23442,7 +23442,7 @@ size
 )
 ;
 const
-cricket
+webrtc
 :
 :
 FakeAudioReceiveStream
