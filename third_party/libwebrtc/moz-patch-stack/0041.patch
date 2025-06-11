@@ -1370,10 +1370,10 @@ video_receive_stream
 .
 h
 index
-1b7d28cf50
+84a5818dd6
 .
 .
-dd1220e787
+40a142e2fb
 100644
 -
 -
@@ -1463,10 +1463,10 @@ frame_transformer_interface
 h
 "
 -
-270
+271
 6
 +
-271
+272
 8
 class
 VideoReceiveStreamInterface

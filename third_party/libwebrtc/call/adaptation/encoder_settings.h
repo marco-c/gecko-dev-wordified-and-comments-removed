@@ -14,6 +14,17 @@ include
 "
 api
 /
+video
+/
+video_codec_type
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 video_codec

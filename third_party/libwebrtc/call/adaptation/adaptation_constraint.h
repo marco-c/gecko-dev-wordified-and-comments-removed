@@ -12,17 +12,6 @@ string
 #
 include
 "
-api
-/
-adaptation
-/
-resource
-.
-h
-"
-#
-include
-"
 call
 /
 adaptation

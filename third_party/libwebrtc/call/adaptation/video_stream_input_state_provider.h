@@ -40,6 +40,15 @@ h
 #
 include
 "
+rtc_base
+/
+thread_annotations
+.
+h
+"
+#
+include
+"
 video
 /
 video_stream_encoder_observer

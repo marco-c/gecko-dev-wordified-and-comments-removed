@@ -11,6 +11,17 @@ call
 /
 adaptation
 /
+video_stream_input_state
+.
+h
+"
+#
+include
+"
+call
+/
+adaptation
+/
 video_stream_input_state_provider
 .
 h

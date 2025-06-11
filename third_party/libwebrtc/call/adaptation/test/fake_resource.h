@@ -7,17 +7,7 @@ CALL_ADAPTATION_TEST_FAKE_RESOURCE_H_
 #
 include
 <
-optional
->
-#
-include
-<
 string
->
-#
-include
-<
-vector
 >
 #
 include
