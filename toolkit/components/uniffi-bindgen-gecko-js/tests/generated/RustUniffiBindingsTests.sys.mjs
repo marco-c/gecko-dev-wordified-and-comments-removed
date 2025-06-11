@@ -19891,7 +19891,7 @@ value
 )
 {
 return
-uniffiCallbackHandlerAsyncTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsAsyncTestTraitInterface
 .
 storeCallbackObj
 (
@@ -20021,7 +20021,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerAsyncTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsAsyncTestTraitInterface
 =
 new
 UniFFICallbackHandler
@@ -20173,9 +20173,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerAsyncTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsAsyncTestTraitInterface
 =
-uniffiCallbackHandlerAsyncTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsAsyncTestTraitInterface
 ;
 /
 *
@@ -21241,7 +21241,7 @@ value
 )
 {
 return
-uniffiCallbackHandlerTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestTraitInterface
 .
 storeCallbackObj
 (
@@ -21371,7 +21371,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestTraitInterface
 =
 new
 UniFFICallbackHandler
@@ -21523,9 +21523,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestTraitInterface
 =
-uniffiCallbackHandlerTestTraitInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestTraitInterface
 ;
 /
 /
@@ -21552,7 +21552,7 @@ callbackObj
 )
 {
 return
-uniffiCallbackHandlerTestAsyncCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestAsyncCallbackInterface
 .
 storeCallbackObj
 (
@@ -21566,7 +21566,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerTestAsyncCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestAsyncCallbackInterface
 .
 getCallbackObj
 (
@@ -21622,7 +21622,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerTestAsyncCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestAsyncCallbackInterface
 =
 new
 UniFFICallbackHandler
@@ -21774,9 +21774,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerTestAsyncCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestAsyncCallbackInterface
 =
-uniffiCallbackHandlerTestAsyncCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestAsyncCallbackInterface
 ;
 /
 /
@@ -21803,7 +21803,7 @@ callbackObj
 )
 {
 return
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 storeCallbackObj
 (
@@ -21817,7 +21817,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 getCallbackObj
 (
@@ -21873,7 +21873,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 =
 new
 UniFFICallbackHandler
@@ -22025,9 +22025,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 =
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 ;
 /
 /

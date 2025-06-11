@@ -3602,7 +3602,7 @@ callbackObj
 )
 {
 return
-uniffiCallbackHandlerApplicationErrorReporter
+uniffiCallbackHandlerErrorsupportApplicationErrorReporter
 .
 storeCallbackObj
 (
@@ -3616,7 +3616,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerApplicationErrorReporter
+uniffiCallbackHandlerErrorsupportApplicationErrorReporter
 .
 getCallbackObj
 (
@@ -3672,7 +3672,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerApplicationErrorReporter
+uniffiCallbackHandlerErrorsupportApplicationErrorReporter
 =
 new
 UniFFICallbackHandler
@@ -3758,7 +3758,7 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerApplicationErrorReporter
+uniffiCallbackHandlerErrorsupportApplicationErrorReporter
 =
-uniffiCallbackHandlerApplicationErrorReporter
+uniffiCallbackHandlerErrorsupportApplicationErrorReporter
 ;

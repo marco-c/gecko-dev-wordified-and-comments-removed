@@ -202,7 +202,7 @@ equal
 (
 UnitTestObjs
 .
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 hasRegisteredCallbacks
 (
@@ -239,7 +239,7 @@ equal
 (
 UnitTestObjs
 .
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 hasRegisteredCallbacks
 (
@@ -273,7 +273,7 @@ equal
 (
 UnitTestObjs
 .
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 hasRegisteredCallbacks
 (
@@ -326,7 +326,7 @@ equal
 (
 UnitTestObjs
 .
-uniffiCallbackHandlerTestCallbackInterface
+uniffiCallbackHandlerUniffiBindingsTestsTestCallbackInterface
 .
 hasRegisteredCallbacks
 (

@@ -1678,7 +1678,7 @@ UniFFIScaffolding
 .
 callSync
 (
-195
+196
 /
 /
 uniffi_uniffi_bindings_tests_external_types_fn_func_roundtrip_ext_custom_type
@@ -1760,7 +1760,7 @@ UniFFIScaffolding
 .
 callSync
 (
-196
+197
 /
 /
 uniffi_uniffi_bindings_tests_external_types_fn_func_roundtrip_ext_enum
@@ -1842,7 +1842,7 @@ UniFFIScaffolding
 .
 callSync
 (
-197
+198
 /
 /
 uniffi_uniffi_bindings_tests_external_types_fn_func_roundtrip_ext_interface
@@ -1924,7 +1924,7 @@ UniFFIScaffolding
 .
 callSync
 (
-198
+199
 /
 /
 uniffi_uniffi_bindings_tests_external_types_fn_func_roundtrip_ext_record

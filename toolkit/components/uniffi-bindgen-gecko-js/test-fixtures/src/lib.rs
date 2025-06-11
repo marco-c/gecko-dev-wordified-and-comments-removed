@@ -14,3 +14,11 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_bindings_tests_collision
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;

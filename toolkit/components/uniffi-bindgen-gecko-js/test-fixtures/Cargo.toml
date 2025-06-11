@@ -72,3 +72,15 @@ path
 uniffi_bindings_tests_external_types
 "
 }
+uniffi_bindings_tests_collision
+=
+{
+path
+=
+"
+.
+.
+/
+uniffi_bindings_tests_collision
+"
+}
