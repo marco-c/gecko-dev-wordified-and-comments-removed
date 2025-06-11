@@ -16,6 +16,15 @@ h
 #
 include
 <
+EGL
+/
+eglext
+.
+h
+>
+#
+include
+<
 asm
 /
 ioctl
