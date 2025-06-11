@@ -111,7 +111,7 @@ mSoftwareH264Enabled
 ;
 }
 bool
-H264PacketizationModeZeroSupported
+SendingH264PacketizationModeZeroSupported
 (
 )
 const

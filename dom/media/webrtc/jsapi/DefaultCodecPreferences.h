@@ -101,14 +101,14 @@ mHardwareH264Enabled
 ;
 }
 bool
-H264PacketizationModeZeroSupported
+SendingH264PacketizationModeZeroSupported
 (
 )
 const
 override
 {
 return
-mH264PacketizationModeZeroSupported
+mSendingH264PacketizationModeZeroSupported
 ;
 }
 int32_t
@@ -301,7 +301,7 @@ HardwareH264EnabledStatic
 ;
 static
 bool
-H264PacketizationModeZeroSupportedStatic
+SendingH264PacketizationModeZeroSupportedStatic
 (
 )
 ;
@@ -856,9 +856,9 @@ HardwareH264EnabledStatic
 ;
 const
 bool
-mH264PacketizationModeZeroSupported
+mSendingH264PacketizationModeZeroSupported
 =
-H264PacketizationModeZeroSupportedStatic
+SendingH264PacketizationModeZeroSupportedStatic
 (
 )
 ;
