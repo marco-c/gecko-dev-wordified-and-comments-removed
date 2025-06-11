@@ -157,10 +157,6 @@ updatebot
 yml
 -
 onnxruntime
-.
-yml
--
-onnxruntime
 -
 web
 -
