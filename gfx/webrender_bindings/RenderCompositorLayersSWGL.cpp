@@ -835,6 +835,10 @@ surface
 -
 >
 mIsOpaque
+&
+&
+!
+clipEffect
 )
 {
 texturedEffect
