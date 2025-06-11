@@ -788,6 +788,16 @@ bugzil
 la
 /
 1850872
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+1969169
 data_reviews
 :
 &
@@ -865,7 +875,7 @@ mozilla
 org
 expires
 :
-142
+148
 extra_keys
 :
 &
@@ -1117,7 +1127,7 @@ notification_emails
 pwmgr_doorhanger_submitted_emails
 expires
 :
-142
+148
 extra_keys
 :
 *
