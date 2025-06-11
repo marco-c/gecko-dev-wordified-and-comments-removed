@@ -209,12 +209,7 @@ libepoxy
 include
 "
 "
-/
-gfx
-/
-angle
-/
-checkout
+libepoxy
 /
 include
 "
