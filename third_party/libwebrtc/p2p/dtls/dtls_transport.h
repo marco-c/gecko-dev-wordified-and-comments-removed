@@ -1070,10 +1070,6 @@ network_route
 bool
 SetupDtls
 (
-bool
-disable_piggybacking
-=
-false
 )
 ;
 void
@@ -1107,11 +1103,6 @@ error
 ;
 void
 ConfigureHandshakeTimeout
-(
-)
-;
-void
-DisablePiggybackingAndRestart
 (
 )
 ;
@@ -1294,6 +1285,11 @@ RtcEventLog
 *
 const
 event_log_
+;
+bool
+dtls_in_stun_
+=
+false
 ;
 DtlsStunPiggybackController
 dtls_stun_piggyback_controller_

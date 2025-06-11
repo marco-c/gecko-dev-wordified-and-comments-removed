@@ -2661,7 +2661,7 @@ StunUInt64Attribute
 )
 ;
 void
-SendPeriodicPingUntilDtlsConnected
+PeriodicRetransmitDtlsPacketUntilDtlsConnected
 (
 )
 ;
@@ -2713,7 +2713,7 @@ StunDictionaryView
 stun_dict_view_
 ;
 bool
-pending_ping_until_dtls_connected_
+pending_periodic_retransmit_dtls_packet_
 =
 false
 ;
