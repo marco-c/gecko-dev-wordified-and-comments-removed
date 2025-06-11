@@ -4302,11 +4302,6 @@ deps
 "
 p2p
 :
-libstunprober_unittests
-"
-"
-p2p
-:
 rtc_p2p_unittests
 "
 "
