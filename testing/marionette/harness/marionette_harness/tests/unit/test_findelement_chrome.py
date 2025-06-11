@@ -36,7 +36,7 @@ content
 /
 marionette
 /
-test
+test_no_xul
 .
 xhtml
 "
@@ -53,7 +53,7 @@ content
 /
 marionette
 /
-test_xul
+test
 .
 xhtml
 "
@@ -397,7 +397,7 @@ By
 .
 ID
 "
-button
+textInput
 "
 )
         
@@ -413,7 +413,7 @@ By
 .
 ID
 "
-types
+things
 "
 )
         
@@ -427,7 +427,7 @@ By
 .
 TAG_NAME
 "
-button
+input
 "
 )
         
@@ -514,7 +514,7 @@ By
 .
 ID
 "
-button
+textInput3
 "
 )
         
@@ -530,7 +530,7 @@ By
 .
 ID
 "
-types
+things
 "
 )
         
@@ -544,17 +544,18 @@ By
 .
 TAG_NAME
 "
-button
+input
 "
 )
         
 self
 .
-assertIn
+assertTrue
 (
 el
 .
 id
+in
 [
 found_el
 .
@@ -626,7 +627,7 @@ document
 getElementsByTagName
 (
 '
-button
+vbox
 '
 )
 [
@@ -649,7 +650,7 @@ By
 .
 TAG_NAME
 "
-button
+vbox
 "
 )
         
@@ -658,7 +659,7 @@ self
 assertEqual
 (
 "
-button
+vbox
 "
 found_el
 .
@@ -754,7 +755,7 @@ document
 getElementsByClassName
 (
 '
-foo
+asdf
 '
 )
 [
@@ -777,7 +778,7 @@ By
 .
 CLASS_NAME
 "
-foo
+asdf
 "
 )
         
@@ -972,6 +973,55 @@ win
         
 self
 .
+marionette
+.
+timeout
+.
+implicit
+=
+1
+        
+self
+.
+assertRaises
+(
+            
+NoSuchElementException
+            
+self
+.
+marionette
+.
+find_element
+            
+By
+.
+ID
+            
+"
+I
+'
+m
+not
+on
+the
+page
+"
+        
+)
+        
+self
+.
+marionette
+.
+timeout
+.
+implicit
+=
+0
+        
+self
+.
 assertRaises
 (
             
@@ -1069,7 +1119,7 @@ timeout
 .
 implicit
 =
-2
+4
         
 self
 .
@@ -1120,7 +1170,7 @@ document
 getElementById
 (
 '
-types
+things
 '
 )
 .
@@ -1131,7 +1181,7 @@ b
 ;
             
 }
-500
+1000
 )
 ;
 "
@@ -1198,7 +1248,7 @@ document
 getElementById
 (
 '
-types
+things
 '
 )
 ;
