@@ -412,21 +412,17 @@ FRAMETYPE_MASK
 "
 ]
 =
-(
-1
-<
-<
 self
 .
 jit_value
 (
 "
-FRAMETYPE_BITS
+FrameDescriptor
+:
+:
+TypeMask
 "
 )
-)
--
-1
         
 self
 .
