@@ -1066,9 +1066,9 @@ double
 aPointerPressure
 uint32_t
 aPointerOrientation
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 override
 ;
@@ -1089,9 +1089,9 @@ nsIWidget
 :
 Modifiers
 aModifierFlags
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 override
 ;
@@ -1100,9 +1100,9 @@ SynthesizeNativeMouseMove
 (
 LayoutDeviceIntPoint
 aPoint
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 override
 ;
