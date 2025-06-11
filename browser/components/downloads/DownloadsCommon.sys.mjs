@@ -8577,10 +8577,9 @@ downloads
 {
 if
 (
-!
 download
 .
-stopped
+isInCurrentBatch
 |
 |
 (
