@@ -720,6 +720,14 @@ attribute
 nsIPrincipal
 triggeringPrincipal
 ;
+void
+setTriggeringPrincipalForTesting
+(
+in
+nsIPrincipal
+aPrincipal
+)
+;
 [
 noscript
 notxpcom
