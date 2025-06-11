@@ -19128,6 +19128,16 @@ FontPresentation
 :
 :
 TextExplicit
+&
+&
+!
+gfxFontUtils
+:
+:
+IsRegionalIndicator
+(
+aCh
+)
 )
 {
 *
