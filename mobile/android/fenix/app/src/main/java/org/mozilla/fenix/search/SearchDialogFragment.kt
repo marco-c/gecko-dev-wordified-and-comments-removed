@@ -955,6 +955,16 @@ fenix
 .
 ext
 .
+runIfFragmentIsAttached
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 secure
 import
 org
@@ -4165,6 +4175,8 @@ dismissDialogAndGoBack
 (
 )
 {
+runIfFragmentIsAttached
+{
 /
 /
 In
@@ -4266,6 +4278,7 @@ hideKeyboard
 dismissAllowingStateLoss
 (
 )
+}
 }
 Suppress
 (
