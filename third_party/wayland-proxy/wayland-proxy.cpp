@@ -747,8 +747,6 @@ double
 sFailureTimeout
 =
 CLOCKS_PER_SEC
-/
-2
 ;
 clock_t
 mFailureTime
