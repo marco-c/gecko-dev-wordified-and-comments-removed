@@ -1620,7 +1620,7 @@ skin
 /
 icons
 /
-help
+pocket
 .
 svg
 "

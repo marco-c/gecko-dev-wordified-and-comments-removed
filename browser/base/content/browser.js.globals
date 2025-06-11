@@ -381,6 +381,9 @@ PlacesUIUtils
 PlacesUtils
 "
 "
+Pocket
+"
+"
 PrivateBrowsingUtils
 "
 "
@@ -400,6 +403,9 @@ SafeBrowsing
 "
 "
 Sanitizer
+"
+"
+SaveToPocket
 "
 "
 ScreenshotsUtils
@@ -616,6 +622,9 @@ gEditItemOverlay
 "
 "
 gGfxUtils
+"
+"
+pktUI
 "
 "
 ToolbarKeyboardNavigator
