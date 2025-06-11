@@ -12,6 +12,11 @@ cstddef
 #
 include
 <
+cstdint
+>
+#
+include
+<
 optional
 >
 namespace

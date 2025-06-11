@@ -11,6 +11,16 @@ h
 "
 #
 include
+<
+memory
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 api
 /
@@ -49,7 +59,7 @@ api
 /
 video_codecs
 /
-vp9_profile
+video_encoder_factory
 .
 h
 "

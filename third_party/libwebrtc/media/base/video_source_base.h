@@ -62,6 +62,15 @@ no_unique_address
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread_annotations
+.
+h
+"
 namespace
 rtc
 {

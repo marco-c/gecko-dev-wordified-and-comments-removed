@@ -123,6 +123,15 @@ include
 "
 api
 /
+make_ref_counted
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h

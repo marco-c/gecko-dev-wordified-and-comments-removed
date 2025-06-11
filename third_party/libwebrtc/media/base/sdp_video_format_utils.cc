@@ -22,6 +22,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -29,6 +34,15 @@ include
 <
 utility
 >
+#
+include
+"
+api
+/
+rtp_parameters
+.
+h
+"
 #
 include
 "

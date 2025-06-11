@@ -7,6 +7,11 @@ MEDIA_BASE_RTP_UTILS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -35,15 +40,6 @@ include
 rtc_base
 /
 async_packet_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-byte_order
 .
 h
 "
