@@ -261,6 +261,14 @@ dark
 "
 add
 "
+"
+-
+moz
+-
+symbolic
+-
+icon
+"
 ]
 }
 ]
