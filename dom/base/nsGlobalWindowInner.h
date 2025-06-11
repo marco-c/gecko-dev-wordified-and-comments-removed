@@ -6364,7 +6364,7 @@ const
 mozilla
 :
 :
-CSSPoint
+CSSIntPoint
 &
 aScroll
 const
