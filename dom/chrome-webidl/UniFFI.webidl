@@ -665,9 +665,11 @@ callback
 interface
 UniFFICallbackHandler
 {
-UniFFIScaffoldingValue
-?
-call
+Promise
+<
+UniFFIScaffoldingCallResult
+>
+callAsync
 (
 UniFFICallbackObjectHandle
 objectHandle
