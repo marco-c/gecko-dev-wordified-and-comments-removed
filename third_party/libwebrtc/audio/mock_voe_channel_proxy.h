@@ -856,7 +856,7 @@ MOCK_METHOD
 void
 ModifyEncoder
 (
-rtc
+webrtc
 :
 :
 FunctionView
@@ -885,7 +885,7 @@ MOCK_METHOD
 void
 CallEncoder
 (
-rtc
+webrtc
 :
 :
 FunctionView

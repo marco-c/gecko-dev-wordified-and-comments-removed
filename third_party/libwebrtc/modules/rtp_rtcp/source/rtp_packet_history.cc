@@ -805,9 +805,6 @@ GetPacketAndMarkAsPending
 (
 uint16_t
 sequence_number
-rtc
-:
-:
 FunctionView
 <
 std
@@ -1223,9 +1220,6 @@ RtpPacketHistory
 :
 GetPayloadPaddingPacket
 (
-rtc
-:
-:
 FunctionView
 <
 std

@@ -953,9 +953,6 @@ override
 void
 ModifyEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -977,9 +974,6 @@ override
 void
 CallEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -3032,9 +3026,6 @@ ChannelSend
 :
 ModifyEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -3067,9 +3058,6 @@ ChannelSend
 :
 CallEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void

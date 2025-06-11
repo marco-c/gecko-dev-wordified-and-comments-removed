@@ -844,9 +844,6 @@ PeerConnectionWrapper
 :
 CreateSdp
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -1305,9 +1302,6 @@ PeerConnectionWrapper
 :
 SetSdp
 (
-rtc
-:
-:
 FunctionView
 <
 void

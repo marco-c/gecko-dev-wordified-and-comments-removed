@@ -127,9 +127,6 @@ this
 void
 BlockingCallImpl
 (
-rtc
-:
-:
 FunctionView
 <
 void

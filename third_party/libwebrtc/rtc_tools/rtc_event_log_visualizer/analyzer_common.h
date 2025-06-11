@@ -472,9 +472,6 @@ IterableType
 void
 ProcessPoints
 (
-rtc
-:
-:
 FunctionView
 <
 float
@@ -485,9 +482,6 @@ DataType
 )
 >
 fx
-rtc
-:
-:
 FunctionView
 <
 std
@@ -595,9 +589,6 @@ IterableType
 void
 ProcessPairs
 (
-rtc
-:
-:
 FunctionView
 <
 float
@@ -608,9 +599,6 @@ DataType
 )
 >
 fx
-rtc
-:
-:
 FunctionView
 <
 std
@@ -729,9 +717,6 @@ IterableType
 void
 AccumulatePairs
 (
-rtc
-:
-:
 FunctionView
 <
 float
@@ -742,9 +727,6 @@ DataType
 )
 >
 fx
-rtc
-:
-:
 FunctionView
 <
 std
@@ -875,9 +857,6 @@ IterableType
 void
 MovingAverage
 (
-rtc
-:
-:
 FunctionView
 <
 std

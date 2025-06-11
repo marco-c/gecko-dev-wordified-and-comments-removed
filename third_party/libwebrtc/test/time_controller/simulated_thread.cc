@@ -277,9 +277,6 @@ SimulatedThread
 :
 BlockingCallImpl
 (
-rtc
-:
-:
 FunctionView
 <
 void

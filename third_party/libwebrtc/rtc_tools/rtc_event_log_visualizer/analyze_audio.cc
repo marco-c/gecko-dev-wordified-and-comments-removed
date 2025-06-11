@@ -2653,9 +2653,6 @@ const
 NetEqStatsGetterMap
 &
 neteq_stats
-rtc
-:
-:
 FunctionView
 <
 const
@@ -2684,9 +2681,6 @@ NetEqStatsGetter
 )
 >
 data_extractor
-rtc
-:
-:
 FunctionView
 <
 float
@@ -2938,9 +2932,6 @@ const
 NetEqStatsGetterMap
 &
 neteq_stats
-rtc
-:
-:
 FunctionView
 <
 float
@@ -3013,9 +3004,6 @@ const
 NetEqStatsGetterMap
 &
 neteq_stats
-rtc
-:
-:
 FunctionView
 <
 float

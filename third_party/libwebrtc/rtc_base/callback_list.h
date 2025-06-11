@@ -233,9 +233,6 @@ removal_tag
 void
 Foreach
 (
-rtc
-:
-:
 FunctionView
 <
 void

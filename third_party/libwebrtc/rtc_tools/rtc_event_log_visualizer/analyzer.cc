@@ -15820,9 +15820,6 @@ CreateSenderAndReceiverReportPlot
 (
 PacketDirection
 direction
-rtc
-:
-:
 FunctionView
 <
 float

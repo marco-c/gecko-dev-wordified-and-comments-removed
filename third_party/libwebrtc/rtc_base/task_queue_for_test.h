@@ -90,9 +90,6 @@ SendTask
 TaskQueueBase
 *
 task_queue
-rtc
-:
-:
 FunctionView
 <
 void
@@ -459,9 +456,6 @@ location
 void
 SendTask
 (
-rtc
-:
-:
 FunctionView
 <
 void

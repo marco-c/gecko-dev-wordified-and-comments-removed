@@ -1071,6 +1071,9 @@ Run
 void
 BlockingCall
 (
+webrtc
+:
+:
 FunctionView
 <
 void
@@ -1497,6 +1500,9 @@ virtual
 void
 BlockingCallImpl
 (
+webrtc
+:
+:
 FunctionView
 <
 void

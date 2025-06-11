@@ -120,9 +120,6 @@ DesktopCapturer
 :
 SourceId
 original_source_id
-rtc
-:
-:
 FunctionView
 <
 bool

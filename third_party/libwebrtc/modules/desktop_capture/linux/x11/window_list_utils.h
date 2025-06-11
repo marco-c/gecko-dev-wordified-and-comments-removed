@@ -73,9 +73,6 @@ GetWindowList
 XAtomCache
 *
 cache
-rtc
-:
-:
 FunctionView
 <
 bool

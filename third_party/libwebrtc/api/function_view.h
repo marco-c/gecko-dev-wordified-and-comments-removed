@@ -29,7 +29,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 template
 <
@@ -562,6 +562,18 @@ ArgT
 )
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+FunctionView
 ;
 }
 #

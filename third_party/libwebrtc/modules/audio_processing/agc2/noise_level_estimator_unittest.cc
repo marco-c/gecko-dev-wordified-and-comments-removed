@@ -119,9 +119,6 @@ kFramesPerSecond
 float
 RunEstimator
 (
-rtc
-:
-:
 FunctionView
 <
 float

@@ -127,9 +127,6 @@ namespace
 void
 TestScreenDrawerLock
 (
-rtc
-:
-:
 FunctionView
 <
 std
@@ -201,9 +198,6 @@ bool
 >
 &
 ready
-rtc
-:
-:
 FunctionView
 <
 std
@@ -357,9 +351,6 @@ bool
 ready_
 ;
 const
-rtc
-:
-:
 FunctionView
 <
 std

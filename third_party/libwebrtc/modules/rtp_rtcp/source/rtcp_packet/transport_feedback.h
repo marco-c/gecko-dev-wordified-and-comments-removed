@@ -279,9 +279,6 @@ const
 void
 ForAllPackets
 (
-rtc
-:
-:
 FunctionView
 <
 void

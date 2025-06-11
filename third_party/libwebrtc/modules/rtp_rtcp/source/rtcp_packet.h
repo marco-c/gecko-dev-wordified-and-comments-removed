@@ -59,9 +59,6 @@ public
 using
 PacketReadyCallback
 =
-rtc
-:
-:
 FunctionView
 <
 void
