@@ -2587,6 +2587,16 @@ return
 }
 return
 html
+<
+span
+class
+=
+"
+text
+-
+container
+"
+>
 {
 this
 .
@@ -2607,6 +2617,10 @@ this
 .
 label
 }
+<
+/
+span
+>
 <
 /
 span
