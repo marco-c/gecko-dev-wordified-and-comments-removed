@@ -216,8 +216,6 @@ symbol
 :
 perftest
 (
-win
--
 bt
 )
 run
@@ -348,8 +346,6 @@ symbol
 :
 perftest
 (
-win
--
 sw
 )
 tier
@@ -615,8 +611,6 @@ symbol
 :
 perftest
 (
-win
--
 dom
 )
 attributes
@@ -1739,8 +1733,6 @@ symbol
 :
 perftest
 (
-win
--
 perfstats
 )
 attributes
@@ -2115,8 +2107,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -2278,8 +2268,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 sum
@@ -2434,8 +2422,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 llama
@@ -2597,8 +2583,6 @@ symbol
 :
 perftest
 (
-windows
--
 ml
 -
 multi
@@ -2756,8 +2740,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -2913,8 +2895,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -3072,8 +3052,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -3220,8 +3198,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -3393,8 +3369,6 @@ symbol
 :
 perftest
 (
-win
--
 tr8ns
 -
 perf
@@ -3544,8 +3518,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -3722,8 +3694,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf

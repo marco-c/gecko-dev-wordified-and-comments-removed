@@ -244,8 +244,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -407,8 +405,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 sum
@@ -563,8 +559,6 @@ symbol
 :
 perftest
 (
-win
--
 ref
 -
 ml
@@ -728,8 +722,6 @@ symbol
 :
 perftest
 (
-windows
--
 ml
 -
 multi
@@ -887,8 +879,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -1044,8 +1034,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -1203,8 +1191,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -1351,8 +1337,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -1516,8 +1500,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf
@@ -1694,8 +1676,6 @@ symbol
 :
 perftest
 (
-win
--
 ml
 -
 perf

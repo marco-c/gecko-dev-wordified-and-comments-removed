@@ -239,8 +239,6 @@ symbol
 :
 perftest
 (
-macos
--
 xpcshell
 )
 run
@@ -376,8 +374,6 @@ symbol
 :
 perftest
 (
-macos
--
 bt
 )
 run
@@ -511,8 +507,6 @@ symbol
 :
 perftest
 (
-macosx
--
 sw
 )
 tier
@@ -779,8 +773,6 @@ symbol
 :
 perftest
 (
-macos
--
 dom
 )
 attributes
@@ -2081,8 +2073,6 @@ symbol
 :
 perftest
 (
-macos
--
 perfstats
 )
 attributes
@@ -2456,8 +2446,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -2617,8 +2605,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 sum
@@ -2771,8 +2757,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 llama
@@ -2932,8 +2916,6 @@ symbol
 :
 perftest
 (
-macos
--
 ml
 -
 multi
@@ -3089,8 +3071,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -3244,8 +3224,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -3401,8 +3379,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -3547,8 +3523,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -3718,8 +3692,6 @@ symbol
 :
 perftest
 (
-mac
--
 tr8ns
 -
 perf
@@ -3867,8 +3839,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
@@ -4034,8 +4004,6 @@ symbol
 :
 perftest
 (
-mac
--
 ml
 -
 perf
