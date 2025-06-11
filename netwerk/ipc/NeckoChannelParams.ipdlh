@@ -746,6 +746,10 @@ isInDevToolsContext
 bool
 parserCreatedScript
 ;
+RequestMode
+?
+requestMode
+;
 bool
 isFromProcessingFrameAttributes
 ;
@@ -848,6 +852,10 @@ isInDevToolsContext
 ;
 bool
 parserCreatedScript
+;
+RequestMode
+?
+requestMode
 ;
 uint32_t
 triggeringSandboxFlags
