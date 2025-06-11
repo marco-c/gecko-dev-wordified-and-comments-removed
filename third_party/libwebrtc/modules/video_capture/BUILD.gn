@@ -271,6 +271,17 @@ common_video
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 event_tracer
 "
 "
