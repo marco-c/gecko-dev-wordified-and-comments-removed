@@ -1085,14 +1085,14 @@ onBackPressed
 Boolean
 {
 return
-customTabsIntegration
+super
 .
 onBackPressed
 (
 )
 |
 |
-super
+customTabsIntegration
 .
 onBackPressed
 (
