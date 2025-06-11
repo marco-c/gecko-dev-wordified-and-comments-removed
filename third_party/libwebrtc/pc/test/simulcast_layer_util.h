@@ -37,15 +37,6 @@ include
 "
 pc
 /
-session_description
-.
-h
-"
-#
-include
-"
-pc
-/
 simulcast_description
 .
 h

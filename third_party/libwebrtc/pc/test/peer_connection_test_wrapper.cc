@@ -273,6 +273,17 @@ api
 /
 video_codecs
 /
+video_decoder_factory
+.
+h
+"
+#
+include
+"
+api
+/
+video_codecs
+/
 video_decoder_factory_template
 .
 h

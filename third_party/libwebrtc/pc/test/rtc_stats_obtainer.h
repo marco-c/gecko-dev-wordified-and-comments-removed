@@ -18,6 +18,15 @@ include
 "
 api
 /
+scoped_refptr
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -47,9 +56,9 @@ h
 #
 include
 "
-rtc_base
+test
 /
-gunit
+gtest
 .
 h
 "
