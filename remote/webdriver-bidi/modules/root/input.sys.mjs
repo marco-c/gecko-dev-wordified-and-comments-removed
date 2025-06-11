@@ -585,6 +585,7 @@ dispatched
 .
 *
 /
+async
 #
 dispatchEvent
 (
@@ -663,6 +664,7 @@ case
 synthesizeWheelAtPoint
 "
 :
+await
 lazy
 .
 event
@@ -704,15 +706,10 @@ dispatching
 )
 ;
 }
-return
-Promise
-.
-resolve
-(
-)
-;
 }
-return
+else
+{
+await
 this
 .
 _forwardToWindowGlobal
@@ -729,6 +726,7 @@ details
 }
 )
 ;
+}
 }
 /
 *
