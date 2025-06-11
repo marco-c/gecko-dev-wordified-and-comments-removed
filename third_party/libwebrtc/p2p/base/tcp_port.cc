@@ -1077,6 +1077,9 @@ protocol
 SSLTCP_PROTOCOL_NAME
 ;
 }
+webrtc
+:
+:
 ProtocolType
 TCPPort
 :
@@ -1087,6 +1090,9 @@ GetProtocol
 const
 {
 return
+webrtc
+:
+:
 PROTO_TCP
 ;
 }
@@ -1492,6 +1498,9 @@ Port
 OnReadPacket
 (
 packet
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -1517,6 +1526,9 @@ SentPacket
 sent_packet
 )
 {
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -1631,6 +1643,9 @@ port
 GetProtocol
 (
 )
+webrtc
+:
+:
 PROTO_TCP
 )
 ;

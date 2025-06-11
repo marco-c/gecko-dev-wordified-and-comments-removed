@@ -1945,6 +1945,9 @@ protocol
 UDP_PROTOCOL_NAME
 ;
 }
+webrtc
+:
+:
 ProtocolType
 UDPPort
 :
@@ -1955,6 +1958,9 @@ GetProtocol
 const
 {
 return
+webrtc
+:
+:
 PROTO_UDP
 ;
 }
@@ -2223,6 +2229,9 @@ Port
 OnReadPacket
 (
 packet
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -2248,6 +2257,9 @@ SentPacket
 sent_packet
 )
 {
+webrtc
+:
+:
 PortInterface
 :
 :

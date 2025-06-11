@@ -333,7 +333,7 @@ static
 int
 GetRelayPreference
 (
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -346,7 +346,7 @@ proto
 )
 {
 case
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -355,7 +355,7 @@ return
 ICE_TYPE_PREFERENCE_RELAY_TCP
 ;
 case
-cricket
+webrtc
 :
 :
 PROTO_TLS
@@ -370,6 +370,9 @@ RTC_DCHECK
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -1671,6 +1674,9 @@ SocketAddress
 )
 ;
 }
+webrtc
+:
+:
 ProtocolType
 TurnPort
 :
@@ -2155,6 +2161,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 {
@@ -2197,6 +2206,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 &
 &
@@ -2247,6 +2259,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 |
 |
@@ -2255,6 +2270,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 {
@@ -2284,6 +2302,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 {
@@ -2523,6 +2544,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 |
 |
@@ -2531,6 +2555,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 {
@@ -2611,6 +2638,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 |
 |
@@ -2619,6 +2649,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -4185,6 +4218,9 @@ SentPacket
 sent_packet
 )
 {
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -4569,6 +4605,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 |
 |
@@ -4577,6 +4616,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 )
@@ -4992,6 +5034,9 @@ server_address_
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 &
 &
@@ -5172,6 +5217,9 @@ GetProtocol
 )
 !
 =
+webrtc
+:
+:
 PROTO_UDP
 ?
 "
@@ -5298,6 +5346,9 @@ server_address
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 {
@@ -5323,6 +5374,9 @@ server_address
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 |
 |
@@ -5333,6 +5387,9 @@ server_address
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -5636,6 +5693,9 @@ length
 (
 )
 ext_addr
+webrtc
+:
+:
 PROTO_UDP
 packet_time_us
 )
@@ -5774,6 +5834,9 @@ entry
 address
 (
 )
+webrtc
+:
+:
 PROTO_UDP
 packet_time_us
 )
@@ -5798,6 +5861,9 @@ rtc
 SocketAddress
 &
 remote_addr
+webrtc
+:
+:
 ProtocolType
 proto
 int64_t
@@ -6839,9 +6905,15 @@ proto
 )
 {
 case
+webrtc
+:
+:
 PROTO_SSLTCP
 :
 case
+webrtc
+:
+:
 PROTO_TLS
 :
 scheme
@@ -6853,6 +6925,9 @@ turns
 break
 ;
 case
+webrtc
+:
+:
 PROTO_UDP
 :
 transport
@@ -6864,6 +6939,9 @@ udp
 break
 ;
 case
+webrtc
+:
+:
 PROTO_TCP
 :
 break

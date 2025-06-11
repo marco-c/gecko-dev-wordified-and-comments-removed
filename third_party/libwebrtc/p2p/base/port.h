@@ -675,6 +675,9 @@ char
 *
 ProtoToString
 (
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -684,6 +687,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 ProtocolType
 >
 StringToProto
@@ -704,6 +710,9 @@ rtc
 SocketAddress
 address
 ;
+webrtc
+:
+:
 ProtocolType
 proto
 ;
@@ -716,6 +725,9 @@ rtc
 SocketAddress
 &
 a
+webrtc
+:
+:
 ProtocolType
 p
 )
@@ -924,6 +936,9 @@ RTC_EXPORT
 Port
 :
 public
+webrtc
+:
+:
 PortInterface
 public
 sigslot
@@ -1359,6 +1374,9 @@ function
 <
 void
 (
+webrtc
+:
+:
 PortInterface
 *
 )
@@ -1820,6 +1838,9 @@ rtc
 ReceivedPacket
 &
 packet
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -1864,6 +1885,9 @@ rtc
 SocketAddress
 &
 addr
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -2238,6 +2262,9 @@ webrtc
 :
 CallbackList
 <
+webrtc
+:
+:
 PortInterface
 *
 >

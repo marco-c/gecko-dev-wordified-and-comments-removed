@@ -432,6 +432,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -455,6 +458,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -478,6 +484,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 bool
@@ -826,6 +835,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -874,6 +886,9 @@ signal2
 <
 PortAllocatorSession
 *
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -892,6 +907,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >

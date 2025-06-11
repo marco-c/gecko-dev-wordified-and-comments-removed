@@ -1604,9 +1604,6 @@ IsRtcOk
 void
 CreateTurnServer
 (
-cricket
-:
-:
 ProtocolType
 type
 const
@@ -2139,9 +2136,6 @@ Bwe_After_TurnOverTCP
 {
 CreateTurnServer
 (
-cricket
-:
-:
 ProtocolType
 :
 :
@@ -2312,9 +2306,6 @@ Bwe_After_TurnOverUDP
 {
 CreateTurnServer
 (
-cricket
-:
-:
 ProtocolType
 :
 :
@@ -2478,9 +2469,6 @@ Bwe_After_TurnOverTLS
 {
 CreateTurnServer
 (
-cricket
-:
-:
 ProtocolType
 :
 :

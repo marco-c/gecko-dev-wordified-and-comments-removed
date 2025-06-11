@@ -8367,15 +8367,9 @@ rtc
 :
 SocketAddress
 external_address
-cricket
-:
-:
 ProtocolType
 type
 =
-cricket
-:
-:
 ProtocolType
 :
 :

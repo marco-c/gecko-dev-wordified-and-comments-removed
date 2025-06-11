@@ -303,7 +303,7 @@ rtc
 PacketInfoProtocolType
 ConvertProtocolTypeToPacketInfoProtocolType
 (
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -316,7 +316,7 @@ type
 )
 {
 case
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -334,7 +334,7 @@ PacketInfoProtocolType
 kUdp
 ;
 case
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -352,7 +352,7 @@ PacketInfoProtocolType
 kTcp
 ;
 case
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -370,7 +370,7 @@ PacketInfoProtocolType
 kSsltcp
 ;
 case
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -433,6 +433,9 @@ char
 *
 ProtoToString
 (
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -449,6 +452,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 ProtocolType
 >
 StringToProto
@@ -470,6 +476,9 @@ i
 i
 <
 =
+webrtc
+:
+:
 PROTO_LAST
 ;
 +
@@ -495,6 +504,9 @@ proto_name
 return
 static_cast
 <
+webrtc
+:
+:
 ProtocolType
 >
 (
@@ -1763,6 +1775,9 @@ rtc
 ReceivedPacket
 &
 packet
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -4804,6 +4819,9 @@ function
 <
 void
 (
+webrtc
+:
+:
 PortInterface
 *
 )

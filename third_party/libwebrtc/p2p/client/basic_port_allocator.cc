@@ -443,7 +443,7 @@ kNumPhases
 int
 GetProtocolPriority
 (
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -456,7 +456,7 @@ protocol
 )
 {
 case
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -465,7 +465,7 @@ return
 2
 ;
 case
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -474,13 +474,13 @@ return
 1
 ;
 case
-cricket
+webrtc
 :
 :
 PROTO_SSLTCP
 :
 case
-cricket
+webrtc
 :
 :
 PROTO_TLS
@@ -2720,6 +2720,9 @@ GetProtocol
 )
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 )
@@ -2747,6 +2750,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -2768,6 +2774,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -6683,6 +6692,9 @@ BasicPortAllocatorSession
 :
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -7005,6 +7017,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -7519,6 +7534,9 @@ GetProtocol
 )
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 &
 &
@@ -7618,6 +7636,9 @@ GetProtocol
 )
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 &
 &
@@ -9005,6 +9026,9 @@ relay_port
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 {
@@ -9248,6 +9272,9 @@ relay_port
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 &
 &
@@ -9624,6 +9651,9 @@ AllocationSequence
 :
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -9844,6 +9874,9 @@ turn_servers
 =
 GetRelayServerAddresses
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9920,6 +9953,9 @@ const
 RelayServerConfig
 &
 relay
+webrtc
+:
+:
 ProtocolType
 type
 )
@@ -9983,6 +10019,9 @@ PortConfiguration
 :
 SupportsProtocol
 (
+webrtc
+:
+:
 ProtocolType
 type
 )
@@ -10033,6 +10072,9 @@ PortConfiguration
 :
 GetRelayServerAddresses
 (
+webrtc
+:
+:
 ProtocolType
 type
 )

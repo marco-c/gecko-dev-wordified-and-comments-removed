@@ -643,6 +643,9 @@ return
 credentials_
 ;
 }
+webrtc
+:
+:
 ProtocolType
 GetProtocol
 (
@@ -726,6 +729,9 @@ const
 Candidate
 &
 c
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -1730,6 +1736,9 @@ rtc
 SocketAddress
 &
 remote_addr
+webrtc
+:
+:
 ProtocolType
 proto
 int64_t

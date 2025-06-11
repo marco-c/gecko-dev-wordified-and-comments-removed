@@ -179,6 +179,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -223,6 +226,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -265,6 +271,9 @@ absl
 :
 string_view
 password
+webrtc
+:
+:
 ProtocolType
 proto
 bool
@@ -281,11 +290,17 @@ password
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 &
 &
 secure
 ?
+webrtc
+:
+:
 PROTO_TLS
 :
 proto

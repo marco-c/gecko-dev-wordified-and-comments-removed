@@ -1099,7 +1099,7 @@ GetProtocol
 )
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1616,6 +1616,9 @@ push_back
 ProtocolAddress
 (
 udp_turn
+webrtc
+:
+:
 PROTO_UDP
 )
 )
@@ -1640,6 +1643,9 @@ push_back
 ProtocolAddress
 (
 tcp_turn
+webrtc
+:
+:
 PROTO_TCP
 )
 )
@@ -2051,6 +2057,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -2058,6 +2067,9 @@ PortInterface
 ports
 IceCandidateType
 type
+webrtc
+:
+:
 ProtocolType
 protocol
 const
@@ -2585,6 +2597,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -2722,6 +2737,9 @@ OnPortReady
 PortAllocatorSession
 *
 ses
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2785,6 +2803,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -3446,6 +3467,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -3898,6 +3922,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIntIPv6Addr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -4109,6 +4136,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr
 )
@@ -4124,6 +4154,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr
 )
@@ -4139,6 +4172,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr
 )
@@ -4154,6 +4190,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr
 )
@@ -4258,6 +4297,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -4437,6 +4479,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr
 )
@@ -4461,6 +4506,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr
 )
@@ -4478,6 +4526,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_TCP
 kClientAddr
 )
@@ -4575,6 +4626,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -4583,6 +4637,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIntIPv6Addr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -4591,6 +4648,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntIPv6Addr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -4824,6 +4884,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr
 )
@@ -4839,6 +4902,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientAddr2
 )
@@ -4854,6 +4920,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr
 )
@@ -4869,6 +4938,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr2
 )
@@ -4884,6 +4956,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_TCP
 kClientAddr
 )
@@ -4899,6 +4974,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_TCP
 kClientAddr2
 )
@@ -4914,6 +4992,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_TCP
 kClientIPv6Addr
 )
@@ -4929,6 +5010,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_TCP
 kClientIPv6Addr2
 )
@@ -4944,6 +5028,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr
 )
@@ -4959,6 +5046,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kClientIPv6Addr2
 )
@@ -8888,6 +8978,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -8985,6 +9078,9 @@ IceCandidateType
 :
 :
 kSrflx
+webrtc
+:
+:
 PROTO_UDP
 kAnyAddr
 )
@@ -9000,6 +9096,9 @@ IceCandidateType
 :
 :
 kHost
+webrtc
+:
+:
 PROTO_TCP
 kAnyAddr
 )
@@ -9015,6 +9114,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_UDP
 kAnyAddr
 )
@@ -9030,6 +9132,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 PROTO_TCP
 kAnyAddr
 )
@@ -9276,6 +9381,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9545,6 +9653,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11787,6 +11898,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -12313,6 +12427,9 @@ SocketAddress
 "
 3478
 )
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -12376,6 +12493,9 @@ localhost
 "
 3478
 )
+webrtc
+:
+:
 PROTO_UDP
 )
 )
@@ -13013,6 +13133,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -16830,6 +16953,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;

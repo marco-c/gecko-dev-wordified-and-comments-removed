@@ -503,6 +503,9 @@ receiving
 const
 ;
 const
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -1253,6 +1256,9 @@ StunMessage
 response
 )
 ;
+webrtc
+:
+:
 PortInterface
 *
 PortForTest
@@ -1268,6 +1274,9 @@ get
 ;
 }
 const
+webrtc
+:
+:
 PortInterface
 *
 PortForTest
@@ -1486,6 +1495,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port
@@ -1604,6 +1616,9 @@ bool
 value
 )
 ;
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -1635,6 +1650,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port_
@@ -2164,6 +2182,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port

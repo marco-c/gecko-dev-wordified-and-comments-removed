@@ -662,6 +662,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -1199,6 +1202,9 @@ OnProtocolEnabled
 AllocationSequence
 *
 seq
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -1206,6 +1212,9 @@ proto
 void
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -1601,6 +1610,9 @@ const
 RelayServerConfig
 &
 relay
+webrtc
+:
+:
 ProtocolType
 type
 )
@@ -1609,6 +1621,9 @@ const
 bool
 SupportsProtocol
 (
+webrtc
+:
+:
 ProtocolType
 type
 )
@@ -1617,6 +1632,9 @@ const
 ServerAddresses
 GetRelayServerAddresses
 (
+webrtc
+:
+:
 ProtocolType
 type
 )
@@ -1780,6 +1798,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 ProtocolType
 >
 ProtocolList
@@ -1852,6 +1873,9 @@ packet
 void
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port

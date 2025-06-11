@@ -633,7 +633,7 @@ webrtc
 :
 TimeDelta
 ;
-cricket
+webrtc
 :
 :
 PortInterface
@@ -642,13 +642,13 @@ PortInterface
 CandidateOrigin
 GetOrigin
 (
-cricket
+webrtc
 :
 :
 PortInterface
 *
 port
-cricket
+webrtc
 :
 :
 PortInterface
@@ -662,7 +662,7 @@ if
 origin_port
 )
 return
-cricket
+webrtc
 :
 :
 PortInterface
@@ -679,7 +679,7 @@ port
 origin_port
 )
 return
-cricket
+webrtc
 :
 :
 PortInterface
@@ -689,7 +689,7 @@ ORIGIN_THIS_PORT
 ;
 else
 return
-cricket
+webrtc
 :
 :
 PortInterface
@@ -4974,6 +4974,9 @@ OnPortReady
 (
 PortAllocatorSession
 *
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -5464,6 +5467,9 @@ P2PTransportChannel
 :
 OnUnknownAddress
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -5474,6 +5480,9 @@ rtc
 SocketAddress
 &
 address
+webrtc
+:
+:
 ProtocolType
 proto
 IceMessage
@@ -5789,6 +5798,9 @@ if
 proto
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 )
 {
@@ -5887,6 +5899,9 @@ port
 CreateConnection
 (
 remote_candidate
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -6038,6 +6053,9 @@ P2PTransportChannel
 :
 OnRoleConflict
 (
+webrtc
+:
+:
 PortInterface
 *
 )
@@ -7250,6 +7268,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -7286,6 +7307,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -7394,6 +7418,9 @@ P2PTransportChannel
 :
 CreateConnection
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -7401,6 +7428,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -7566,6 +7596,9 @@ generation
 )
 )
 {
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -7583,6 +7616,9 @@ if
 origin
 =
 =
+webrtc
+:
+:
 PortInterface
 :
 :
@@ -7927,6 +7963,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -9005,6 +9044,9 @@ P2PTransportChannel
 IsPortPruned
 (
 const
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -11015,6 +11057,9 @@ P2PTransportChannel
 :
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -11124,6 +11169,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -11333,6 +11381,9 @@ P2PTransportChannel
 :
 PrunePort
 (
+webrtc
+:
+:
 PortInterface
 *
 port

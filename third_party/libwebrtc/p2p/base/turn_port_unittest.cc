@@ -1041,7 +1041,7 @@ ProtocolAddress
 kTurnUdpProtoAddr
 (
 kTurnUdpIntAddr
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1056,7 +1056,7 @@ ProtocolAddress
 kTurnTcpProtoAddr
 (
 kTurnTcpIntAddr
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -1071,7 +1071,7 @@ ProtocolAddress
 kTurnTlsProtoAddr
 (
 kTurnTcpIntAddr
-cricket
+webrtc
 :
 :
 PROTO_TLS
@@ -1086,7 +1086,7 @@ ProtocolAddress
 kTurnUdpIPv6ProtoAddr
 (
 kTurnUdpIPv6IntAddr
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1101,7 +1101,7 @@ ProtocolAddress
 kTurnDangerousProtoAddr
 (
 kTurnDangerousAddr
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -1116,7 +1116,7 @@ ProtocolAddress
 kTurnPort53ProtoAddr
 (
 kTurnPort53Addr
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -1131,7 +1131,7 @@ ProtocolAddress
 kTurnPort80ProtoAddr
 (
 kTurnPort80Addr
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -1146,7 +1146,7 @@ ProtocolAddress
 kTurnPort443ProtoAddr
 (
 kTurnPort443Addr
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -1161,7 +1161,7 @@ ProtocolAddress
 kTurnPortInvalidHostnameProtoAddr
 (
 kTurnInvalidAddr
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1176,7 +1176,7 @@ ProtocolAddress
 kTurnPortValidHostnameProtoAddr
 (
 kTurnValidAddr
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1552,6 +1552,9 @@ event
 void
 OnTurnUnknownAddress
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -1559,6 +1562,9 @@ const
 SocketAddress
 &
 addr
+webrtc
+:
+:
 ProtocolType
 proto
 IceMessage
@@ -1623,6 +1629,9 @@ packet
 void
 OnTurnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2069,7 +2078,7 @@ server_address
 proto
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_TLS
@@ -2117,6 +2126,9 @@ server_address
 proto
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -2515,6 +2527,9 @@ OnUdpPortComplete
 void
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -2646,6 +2661,9 @@ IsRtcOk
 int
 TimeToConnect
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -2656,6 +2674,9 @@ protocol_type
 )
 {
 case
+webrtc
+:
+:
 PROTO_TCP
 :
 return
@@ -2664,6 +2685,9 @@ kSimulatedRtt
 2
 ;
 case
+webrtc
+:
+:
 PROTO_TLS
 :
 return
@@ -2673,10 +2697,16 @@ kSimulatedRtt
 +
 TimeToConnect
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
 case
+webrtc
+:
+:
 PROTO_UDP
 :
 default
@@ -2689,6 +2719,9 @@ return
 int
 TimeToGetTurnCandidate
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -2707,6 +2740,9 @@ protocol_type
 int
 TimeToGetAlternateTurnCandidate
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -2952,6 +2988,9 @@ port
 void
 TestReconstructedServerUrl
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 absl
@@ -3060,6 +3099,9 @@ expected_url
 void
 TestTurnAlternateServer
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -3280,6 +3322,9 @@ port
 void
 TestTurnAlternateServerV4toV6
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -3399,6 +3444,9 @@ IsRtcOk
 void
 TestTurnAlternateServerPingPong
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -3564,6 +3612,9 @@ address
 void
 TestTurnAlternateServerDetectRepetition
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -3711,6 +3762,9 @@ size
 void
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 bool
@@ -3802,6 +3856,9 @@ AF_INET
 protocol_type
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 ?
 SOCK_DGRAM
@@ -3837,6 +3894,9 @@ if
 protocol_type
 =
 =
+webrtc
+:
+:
 PROTO_TCP
 )
 {
@@ -3956,6 +4016,9 @@ if
 protocol_type
 =
 =
+webrtc
+:
+:
 PROTO_UDP
 )
 {
@@ -4020,6 +4083,9 @@ get
 void
 TestTurnConnection
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -4386,6 +4452,9 @@ TestDestroyTurnConnection
 {
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -4875,6 +4944,9 @@ IsRtcOk
 void
 TestTurnSendData
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -5400,6 +5472,9 @@ i
 void
 TestTurnReleaseAllocation
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -5480,6 +5555,9 @@ IsRtcOk
 void
 TestTurnGracefulReleaseAllocation
 (
+webrtc
+:
+:
 ProtocolType
 protocol_type
 )
@@ -6185,6 +6263,9 @@ kTurnUdpProtoAddr
 ;
 TestReconstructedServerUrl
 (
+webrtc
+:
+:
 PROTO_UDP
 "
 turn
@@ -6217,6 +6298,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -6230,6 +6314,9 @@ kTurnUdpIPv6ProtoAddr
 ;
 TestReconstructedServerUrl
 (
+webrtc
+:
+:
 PROTO_UDP
 "
 turn
@@ -6272,6 +6359,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -6284,6 +6374,9 @@ kTurnTcpProtoAddr
 ;
 TestReconstructedServerUrl
 (
+webrtc
+:
+:
 PROTO_TCP
 "
 turn
@@ -6316,6 +6409,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -6328,6 +6424,9 @@ kTurnTlsProtoAddr
 ;
 TestReconstructedServerUrl
 (
+webrtc
+:
+:
 PROTO_TLS
 "
 turns
@@ -7059,6 +7158,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7141,6 +7243,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7235,6 +7340,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7502,6 +7610,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7665,6 +7776,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnIPv6IntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7684,6 +7798,9 @@ cricket
 ProtocolAddress
 (
 kTurnIPv6IntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 )
@@ -7771,6 +7888,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -7781,6 +7901,9 @@ kTurnPassword
 ProtocolAddress
 (
 kTurnInvalidAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 )
@@ -7939,6 +8062,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -7949,6 +8075,9 @@ kTurnPassword
 ProtocolAddress
 (
 kTurnInvalidAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 )
@@ -8027,6 +8156,9 @@ kTurnPassword
 ProtocolAddress
 (
 kTurnInvalidAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 )
@@ -8931,6 +9063,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9157,6 +9292,9 @@ kTurnUdpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9365,6 +9503,9 @@ kTurnUdpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9548,6 +9689,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9560,6 +9704,9 @@ kTurnTcpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9651,6 +9798,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9663,6 +9813,9 @@ kTurnTcpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9789,6 +9942,9 @@ TestTurnAlternateServerUDP
 {
 TestTurnAlternateServer
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9801,6 +9957,9 @@ TestTurnAlternateServerTCP
 {
 TestTurnAlternateServer
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9813,6 +9972,9 @@ TestTurnAlternateServerTLS
 {
 TestTurnAlternateServer
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -9825,6 +9987,9 @@ TestTurnAlternateServerV4toV6UDP
 {
 TestTurnAlternateServerV4toV6
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9837,6 +10002,9 @@ TestTurnAlternateServerV4toV6TCP
 {
 TestTurnAlternateServerV4toV6
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9849,6 +10017,9 @@ TestTurnAlternateServerV4toV6TLS
 {
 TestTurnAlternateServerV4toV6
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -9861,6 +10032,9 @@ TestTurnAlternateServerPingPongUDP
 {
 TestTurnAlternateServerPingPong
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9873,6 +10047,9 @@ TestTurnAlternateServerPingPongTCP
 {
 TestTurnAlternateServerPingPong
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9885,6 +10062,9 @@ TestTurnAlternateServerPingPongTLS
 {
 TestTurnAlternateServerPingPong
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -9897,6 +10077,9 @@ TestTurnAlternateServerDetectRepetitionUDP
 {
 TestTurnAlternateServerDetectRepetition
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -9909,6 +10092,9 @@ TestTurnAlternateServerDetectRepetitionTCP
 {
 TestTurnAlternateServerDetectRepetition
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9921,6 +10107,9 @@ TestTurnAlternateServerDetectRepetitionTLS
 {
 TestTurnAlternateServerDetectRepetition
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -9933,6 +10122,9 @@ TestTurnAlternateServerLoopbackUdpIpv4
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_UDP
 false
 )
@@ -9946,6 +10138,9 @@ TestTurnAlternateServerLoopbackUdpIpv6
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_UDP
 true
 )
@@ -9959,6 +10154,9 @@ TestTurnAlternateServerLoopbackTcpIpv4
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_TCP
 false
 )
@@ -9972,6 +10170,9 @@ TestTurnAlternateServerLoopbackTcpIpv6
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_TCP
 true
 )
@@ -9985,6 +10186,9 @@ TestTurnAlternateServerLoopbackTlsIpv4
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_TLS
 false
 )
@@ -9998,6 +10202,9 @@ TestTurnAlternateServerLoopbackTlsIpv6
 {
 TestTurnAlternateServerLoopback
 (
+webrtc
+:
+:
 PROTO_TLS
 true
 )
@@ -10018,6 +10225,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnConnection
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10037,6 +10247,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnConnection
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10052,6 +10265,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -10064,6 +10280,9 @@ kTurnTcpProtoAddr
 ;
 TestTurnConnection
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -10079,6 +10298,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -10091,6 +10313,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnConnection
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -10153,6 +10378,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnConnection
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10172,6 +10400,9 @@ kTurnUdpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10420,6 +10651,9 @@ kTurnUdpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10786,6 +11020,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -10819,6 +11056,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -10831,6 +11071,9 @@ kTurnTcpProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -10864,6 +11107,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -10876,6 +11122,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -10909,6 +11158,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11000,6 +11252,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11030,6 +11285,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11201,6 +11459,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11528,6 +11789,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11543,6 +11807,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11555,6 +11822,9 @@ kTurnTcpProtoAddr
 ;
 TestTurnReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11570,6 +11840,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -11582,6 +11855,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -11597,6 +11873,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11609,6 +11888,9 @@ kTurnUdpProtoAddr
 ;
 TestTurnGracefulReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11624,6 +11906,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11636,6 +11921,9 @@ kTurnTcpProtoAddr
 ;
 TestTurnGracefulReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -11651,6 +11939,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -11663,6 +11954,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnGracefulReleaseAllocation
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -11682,6 +11976,9 @@ kTurnUdpProtoAddr
 ;
 PrepareTurnAndUdpPorts
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11764,6 +12061,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;
@@ -11782,6 +12082,9 @@ kTurnPassword
 ProtocolAddress
 (
 kTurnInvalidAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 )
@@ -12177,6 +12480,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12214,6 +12520,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12333,6 +12642,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12370,6 +12682,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12491,6 +12806,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12528,6 +12846,9 @@ kTurnTlsProtoAddr
 ;
 TestTurnSendData
 (
+webrtc
+:
+:
 PROTO_TLS
 )
 ;
@@ -12731,9 +13052,15 @@ TestTurnDangerousAlternateServer
 )
 {
 const
+webrtc
+:
+:
 ProtocolType
 protocol_type
 =
+webrtc
+:
+:
 PROTO_TCP
 ;
 std
@@ -13119,6 +13446,9 @@ turn_server_
 AddInternalSocket
 (
 kTurnUdpIPv6IntAddr
+webrtc
+:
+:
 PROTO_UDP
 )
 ;

@@ -1802,7 +1802,7 @@ cricket
 ProtocolAddress
 (
 turn_server_udp
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -1832,7 +1832,7 @@ cricket
 ProtocolAddress
 (
 turn_server_tcp
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -12532,6 +12532,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -12597,6 +12600,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -17637,6 +17643,9 @@ test_turn_server
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -17658,6 +17667,9 @@ push_back
 ProtocolAddress
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 )
@@ -27003,6 +27015,9 @@ SocketAddress
 "
 1
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -28608,6 +28623,9 @@ SocketAddress
 "
 1
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -28681,6 +28699,9 @@ SocketAddress
 "
 1
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -30997,6 +31018,9 @@ SocketAddress
 "
 1
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -31226,6 +31250,9 @@ SocketAddress
 "
 3
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -31336,6 +31363,9 @@ SocketAddress
 "
 4
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -31497,6 +31527,9 @@ SocketAddress
 "
 5
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -31961,6 +31994,9 @@ SocketAddress
 "
 3
 )
+webrtc
+:
+:
 PROTO_UDP
 &
 request
@@ -37026,6 +37062,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -37425,6 +37464,9 @@ ch
 )
 )
 ;
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -39547,6 +39589,9 @@ turn_server
 AddInternalSocket
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 ;
@@ -39568,6 +39613,9 @@ push_back
 ProtocolAddress
 (
 kTurnTcpIntAddr
+webrtc
+:
+:
 PROTO_TCP
 )
 )
