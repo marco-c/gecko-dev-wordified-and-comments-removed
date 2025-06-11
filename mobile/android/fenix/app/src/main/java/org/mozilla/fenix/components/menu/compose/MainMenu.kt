@@ -1632,7 +1632,7 @@ ColumnScope
 Unit
 )
 {
-MenuScaffold
+MenuFrame
 (
 header
 =
@@ -1694,6 +1694,12 @@ onStopButtonClick
 onShareButtonClick
 =
 onShareButtonClick
+isExtensionsExpanded
+=
+isExtensionsExpanded
+isMoreMenuExpanded
+=
+isMoreMenuExpanded
 )
 }
 scrollState
@@ -1701,12 +1707,12 @@ scrollState
 scrollState
 )
 {
-MenuGroup
-{
 if
 (
 isReaderViewActive
 )
+{
+MenuGroup
 {
 MenuItem
 (

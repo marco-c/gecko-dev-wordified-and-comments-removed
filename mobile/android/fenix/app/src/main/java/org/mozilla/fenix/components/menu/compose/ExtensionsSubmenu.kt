@@ -512,7 +512,7 @@ webExtensionMenuItemClick
 Unit
 )
 {
-MenuScaffold
+MenuFrame
 (
 header
 =

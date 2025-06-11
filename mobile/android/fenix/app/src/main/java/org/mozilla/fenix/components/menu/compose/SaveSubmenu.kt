@@ -254,7 +254,7 @@ onSaveAsPDFMenuClick
 Unit
 )
 {
-MenuScaffold
+MenuFrame
 (
 header
 =

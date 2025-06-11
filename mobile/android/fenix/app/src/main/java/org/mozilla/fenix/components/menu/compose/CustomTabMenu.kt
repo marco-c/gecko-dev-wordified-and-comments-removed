@@ -418,7 +418,7 @@ onShareMenuClick
 Unit
 )
 {
-MenuScaffold
+MenuFrame
 (
 header
 =
