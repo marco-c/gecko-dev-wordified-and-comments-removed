@@ -880,6 +880,8 @@ catch
 IOException
 |
 IllegalArgumentException
+|
+IllegalStateException
 e
 )
 {
@@ -896,6 +898,7 @@ encoder
 "
 +
 codecName
+e
 )
 ;
 return
