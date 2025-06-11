@@ -392,20 +392,6 @@ component
 "
 ]
             
-group
-=
-component
-.
-split
-(
-"
-:
-"
-)
-[
-1
-]
-            
 _deep_format
 (
                 
@@ -427,7 +413,7 @@ timestamp
                 
 treeherder_group
 =
-group
+component
 [
 :
 25

@@ -152,8 +152,6 @@ project
 (
 "
 :
-components
-:
 browser
 -
 state
@@ -163,8 +161,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -176,8 +172,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 tabs
@@ -187,8 +181,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -202,8 +194,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -213,8 +203,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -226,8 +214,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -238,8 +224,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 search
@@ -249,8 +233,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -310,8 +292,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -321,8 +301,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

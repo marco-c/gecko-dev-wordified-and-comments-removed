@@ -163,8 +163,6 @@ project
 (
 "
 :
-components
-:
 concept
 -
 tabstray
@@ -174,8 +172,6 @@ implementation
 project
 (
 "
-:
-components
 :
 browser
 -
@@ -187,8 +183,6 @@ project
 (
 "
 :
-components
-:
 ui
 -
 icons
@@ -198,8 +192,6 @@ implementation
 project
 (
 "
-:
-components
 :
 feature
 -
@@ -256,8 +248,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

@@ -191,8 +191,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 state
@@ -214,8 +212,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 awesomebar
@@ -225,8 +221,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -238,8 +232,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 storage
@@ -250,8 +242,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 utils
@@ -261,8 +251,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -309,8 +297,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -341,8 +327,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -352,8 +336,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

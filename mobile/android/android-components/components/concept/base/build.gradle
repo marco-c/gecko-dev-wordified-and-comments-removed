@@ -208,8 +208,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test

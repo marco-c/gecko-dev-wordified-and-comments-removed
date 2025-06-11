@@ -200,8 +200,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test

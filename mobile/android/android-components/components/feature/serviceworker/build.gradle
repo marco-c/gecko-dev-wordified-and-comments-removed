@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -152,8 +150,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 tabs
@@ -163,8 +159,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -184,8 +178,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -195,8 +187,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 browser
 -

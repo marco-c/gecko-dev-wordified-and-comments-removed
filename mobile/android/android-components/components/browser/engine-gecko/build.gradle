@@ -315,8 +315,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -326,8 +324,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -339,8 +335,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -350,8 +344,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -363,8 +355,6 @@ implementation
 project
 (
 '
-:
-components
 :
 service
 -
@@ -496,8 +486,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -507,8 +495,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 tooling
 -
@@ -598,8 +584,6 @@ androidTestImplementation
 project
 (
 '
-:
-components
 :
 tooling
 -

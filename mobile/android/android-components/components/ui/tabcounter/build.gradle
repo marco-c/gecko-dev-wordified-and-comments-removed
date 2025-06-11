@@ -172,8 +172,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -183,8 +181,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -240,8 +236,6 @@ project
 (
 '
 :
-components
-:
 compose
 -
 base
@@ -251,8 +245,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -264,8 +256,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 menu2
@@ -275,8 +265,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -288,8 +276,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -300,8 +286,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 icons
@@ -311,8 +295,6 @@ testImplementation
 project
 (
 "
-:
-components
 :
 support
 -

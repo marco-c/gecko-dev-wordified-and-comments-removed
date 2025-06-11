@@ -398,8 +398,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -409,8 +407,6 @@ api
 project
 (
 "
-:
-components
 :
 concept
 -
@@ -447,8 +443,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -725,17 +719,6 @@ project
 project
 .
 key
-.
-replaceFirst
-(
-/
-^
-components
-:
-/
-"
-"
-)
 .
 replace
 (

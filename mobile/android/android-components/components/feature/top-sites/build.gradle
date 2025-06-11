@@ -237,8 +237,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 storage
@@ -251,8 +249,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 toolbar
@@ -262,8 +258,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -275,8 +269,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -286,8 +278,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -334,8 +324,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -386,8 +374,6 @@ androidTestImplementation
 project
 (
 '
-:
-components
 :
 support
 -

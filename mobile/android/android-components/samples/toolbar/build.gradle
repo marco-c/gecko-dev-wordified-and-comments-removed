@@ -203,8 +203,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -215,8 +213,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 menu
@@ -226,8 +222,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -239,8 +233,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 menu
@@ -250,8 +242,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -263,8 +253,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 domains
@@ -274,8 +262,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -287,8 +273,6 @@ project
 (
 '
 :
-components
-:
 compose
 -
 base
@@ -298,8 +282,6 @@ implementation
 project
 (
 '
-:
-components
 :
 compose
 -
@@ -313,8 +295,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -324,8 +304,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -337,8 +315,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 icons
@@ -348,8 +324,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -361,8 +335,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -372,8 +344,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -

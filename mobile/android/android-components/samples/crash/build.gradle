@@ -174,8 +174,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 crash
@@ -185,8 +183,6 @@ implementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -206,8 +202,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 glean
@@ -218,8 +212,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -229,8 +221,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -

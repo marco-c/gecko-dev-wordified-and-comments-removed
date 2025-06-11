@@ -158,8 +158,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 storage
@@ -169,8 +167,6 @@ api
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -182,8 +178,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 base
@@ -193,8 +187,6 @@ api
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -206,8 +198,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 utils
@@ -218,8 +208,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -229,8 +217,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

@@ -156,8 +156,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -168,8 +166,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 icons
@@ -179,8 +175,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

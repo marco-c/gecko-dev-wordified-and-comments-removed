@@ -185,8 +185,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test

@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -151,8 +149,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -164,8 +160,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -176,8 +170,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -187,8 +179,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -214,8 +204,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -225,8 +213,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
