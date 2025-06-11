@@ -186,7 +186,6 @@ PlatformThread
 rhs
 )
 ;
-virtual
 ~
 PlatformThread
 (
