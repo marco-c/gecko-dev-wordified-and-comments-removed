@@ -363,7 +363,10 @@ aSuggestedDriverVersion
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 aDriverInfo
@@ -382,7 +385,10 @@ virtual
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 GetGfxDriverInfo
