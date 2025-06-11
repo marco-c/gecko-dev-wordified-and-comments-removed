@@ -46,6 +46,7 @@ eRejectedSecureButNonHttps
 eRejectedForNonSameSiteness
 eRejectedAttributePathOversize
 eRejectedAttributeDomainOversize
+eRejectedAttributeExpiryOversize
 }
 ;
 readonly
