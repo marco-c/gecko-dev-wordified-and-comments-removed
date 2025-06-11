@@ -208,7 +208,7 @@ state
 ;
 [
 Throws
-NeedsSubjectPrincipal
+NeedsCallerType
 ]
 undefined
 go
