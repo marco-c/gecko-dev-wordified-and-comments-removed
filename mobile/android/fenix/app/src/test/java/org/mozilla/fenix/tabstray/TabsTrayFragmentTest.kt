@@ -1005,6 +1005,16 @@ returns
 Page
 .
 NormalTabs
+every
+{
+fragment
+.
+verificationResultLauncher
+}
+returns
+mockk
+(
+)
 val
 biometricAuthenticationNeededInfo
 =
