@@ -3,7 +3,9 @@ import
 {
 {
 external
-|
+.
+self_type
+.
 ffi_converter
 }
 }
@@ -42,7 +44,9 @@ export
 {
 {
 external
-|
+.
+self_type
+.
 ffi_converter
 }
 }

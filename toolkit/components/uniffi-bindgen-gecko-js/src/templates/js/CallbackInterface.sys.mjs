@@ -15,7 +15,9 @@ class
 {
 {
 cbi
-|
+.
+self_type
+.
 ffi_converter
 }
 }

@@ -166,6 +166,10 @@ to_string
 (
 )
 }
+.
+into
+(
+)
 }
 ]
 return_type
@@ -198,6 +202,10 @@ to_string
 (
 )
 }
+.
+into
+(
+)
 )
 }
 has_rust_call_status_arg
@@ -282,6 +290,10 @@ to_string
 (
 )
 }
+.
+into
+(
+)
 }
 ]
 return_type

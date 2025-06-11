@@ -417,7 +417,9 @@ class
 {
 {
 int
-|
+.
+self_type
+.
 ffi_converter
 }
 }
@@ -654,7 +656,9 @@ class
 {
 {
 int
-|
+.
+self_type
+.
 ffi_converter
 }
 }

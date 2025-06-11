@@ -524,7 +524,7 @@ uniffi
 .
 29
 .
-2
+3
 "
 uniffi_bindgen
 =
@@ -533,7 +533,7 @@ uniffi_bindgen
 .
 29
 .
-2
+3
 "
 uniffi_pipeline
 =
@@ -542,7 +542,7 @@ uniffi_pipeline
 .
 29
 .
-2
+3
 "
 #
 Shared

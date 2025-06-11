@@ -386,6 +386,14 @@ u8
 =
 6
 ;
+pub
+const
+LIT_EMPTY_MAP
+:
+u8
+=
+7
+;
 }
 const
 BUF_SIZE

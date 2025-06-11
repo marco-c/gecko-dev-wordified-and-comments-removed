@@ -54,6 +54,7 @@ util
 {
 ident_to_string
 tagged_impl_header
+wasm_single_threaded_annotation
 }
 }
 ;
@@ -1273,6 +1274,13 @@ Self
 }
 )
 ;
+let
+single_threaded_annotation
+=
+wasm_single_threaded_annotation
+(
+)
+;
 quote
 !
 {
@@ -1343,6 +1351,8 @@ t
 being
 met
 .
+#
+single_threaded_annotation
 :
 :
 uniffi
