@@ -6570,7 +6570,7 @@ thread
 ;
 #
 ifndef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 return
 true
 ;
