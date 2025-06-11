@@ -42,7 +42,6 @@ Dict
 List
 Literal
 Tuple
-Union
 from
 xmlrpc
 .
@@ -2449,14 +2448,6 @@ kind
                             
 path
                             
-first_task_id
-                            
-None
-                            
-None
-                            
-False
-                            
 anyjs
                             
 differences
@@ -2470,6 +2461,8 @@ status
 label
                             
 classification
+                            
+first_task_id
                             
 try_url
                             
@@ -5878,14 +5871,6 @@ path
 :
 str
         
-skip_if
-:
-str
-        
-filename
-:
-str
-        
 anyjs
 :
 Optional
@@ -5899,24 +5884,15 @@ bool
         
 lineno
 :
-Optional
-[
 int
-]
         
 label
 :
-Optional
-[
 str
-]
         
 classification
 :
-Optional
-[
 str
-]
         
 task_id
 :
@@ -5927,24 +5903,23 @@ str
         
 try_url
 :
-Optional
-[
 str
-]
         
 revision
 :
-Optional
-[
 str
-]
         
 repo
 :
-Optional
-[
 str
-]
+        
+skip_if
+:
+str
+        
+filename
+:
+str
         
 meta_bug_id
 :
@@ -6154,13 +6129,6 @@ p
 "
 '
         
-if
-label
-is
-not
-None
-:
-            
 platform
 testname
 =
@@ -6170,14 +6138,14 @@ label_to_platform_testname
 (
 label
 )
-            
+        
 if
 platform
 is
 not
 None
 :
-                
+            
 comment
 +
 =
@@ -6194,7 +6162,7 @@ experimental
 \
 n
 "
-                
+            
 comment
 +
 =
@@ -6219,13 +6187,6 @@ testname
 "
 "
         
-if
-try_url
-is
-not
-None
-:
-            
 comment
 +
 =
@@ -6240,13 +6201,6 @@ try_url
 }
 "
         
-if
-revision
-is
-not
-None
-:
-            
 comment
 +
 =
@@ -6260,13 +6214,6 @@ revision
 }
 "
         
-if
-repo
-is
-not
-None
-:
-            
 comment
 +
 =
@@ -6280,13 +6227,6 @@ repo
 }
 "
         
-if
-label
-is
-not
-None
-:
-            
 comment
 +
 =
@@ -6329,18 +6269,6 @@ Kind
 LIST
 :
                 
-if
-revision
-is
-not
-None
-and
-repo
-is
-not
-None
-:
-                    
 push_id
 =
 self
@@ -6350,14 +6278,14 @@ get_push_id
 revision
 repo
 )
-                    
+                
 if
 push_id
 is
 not
 None
 :
-                        
+                    
 comment
 +
 =
@@ -6370,7 +6298,7 @@ npush_id
 push_id
 }
 "
-                        
+                    
 job_id
 =
 self
@@ -6380,14 +6308,14 @@ get_job_id
 push_id
 task_id
 )
-                        
+                    
 if
 job_id
 is
 not
 None
 :
-                            
+                        
 comment
 +
 =
@@ -6400,17 +6328,17 @@ njob_id
 job_id
 }
 "
-                            
+                        
 (
-                                
-suggestions_url
-                                
-line_number
-                                
-line
-                                
-log_url
                             
+suggestions_url
+                            
+line_number
+                            
+line
+                            
+log_url
+                        
 )
 =
 self
@@ -6422,14 +6350,14 @@ job_id
 path
 anyjs
 )
-                            
+                        
 if
 log_url
 is
 not
 None
 :
-                                
+                            
 comment
 +
 =
@@ -6443,7 +6371,7 @@ suggestions
 suggestions_url
 }
 "
-                                
+                            
 comment
 +
 =
@@ -6466,7 +6394,7 @@ log
 log_url
 }
 "
-                                
+                            
 comment
 +
 =
@@ -7264,37 +7192,6 @@ path
 :
 str
         
-task_id
-:
-Optional
-[
-str
-]
-        
-platform_info
-:
-Optional
-[
-PlatformInfo
-]
-=
-None
-        
-bug_id
-:
-Optional
-[
-str
-]
-=
-None
-        
-high_freq
-:
-bool
-=
-False
-        
 anyjs
 :
 Optional
@@ -7305,95 +7202,55 @@ str
 bool
 ]
 ]
-=
-None
         
 differences
 :
-Optional
-[
 List
 [
 int
 ]
-]
-=
-None
         
 pixels
 :
-Optional
-[
 List
 [
 int
 ]
-]
-=
-None
         
 lineno
 :
-Optional
-[
 int
-]
-=
-None
         
 status
 :
-Optional
-[
 str
-]
-=
-None
         
 label
 :
-Optional
-[
 str
-]
-=
-None
         
 classification
 :
+str
+        
+task_id
+:
 Optional
 [
 str
 ]
-=
-None
         
 try_url
 :
-Optional
-[
 str
-]
-=
-None
         
 revision
 :
-Optional
-[
 str
-]
-=
-None
         
 repo
 :
-Optional
-[
 str
-]
-=
-None
         
 meta_bug_id
 :
@@ -7542,24 +7399,10 @@ self
 .
 task_to_skip_if
 (
-                
 manifest
-                
-platform_info
-if
-platform_info
-is
-not
-None
-else
 task_id
-                
 kind
-                
 path
-                
-high_freq
-            
 )
         
 if
@@ -7568,21 +7411,35 @@ is
 None
 :
             
-self
-.
-info
+raise
+Exception
 (
+                
+f
 "
-Not
-adding
+Unable
+to
+calculate
 skip
 -
 if
 condition
+from
+manifest
+=
+{
+manifest
+}
+from
+failure
+label
+=
+{
+label
+}
 "
-)
             
-return
+)
         
 filename
 =
@@ -7625,72 +7482,45 @@ additional_comment
 "
 "
         
-if
-bug_id
-is
-None
-:
-            
 comment
-generated_bug_reference
+bug_reference
 bugid
 attachments
 =
-(
-                
 self
 .
 generate_bugzilla_comment
 (
-                    
+            
 manifest
-                    
+            
 kind
-                    
+            
 path
-                    
-skip_if
-                    
-filename
-                    
+            
 anyjs
-                    
+            
 lineno
-                    
+            
 label
-                    
+            
 classification
-                    
+            
 task_id
-                    
+            
 try_url
-                    
+            
 revision
-                    
+            
 repo
-                    
+            
+skip_if
+            
+filename
+            
 meta_bug_id
-                
-)
-            
-)
-            
-bug_reference
-=
-generated_bug_reference
         
-else
-:
-            
-bug_reference
-=
-f
-"
-Bug
-{
-bug_id
-}
-"
+)
         
 if
 kind
@@ -8157,17 +7987,11 @@ bug_reference
 )
             
 if
-bug_id
-is
-None
-:
-                
-if
 self
 .
 dry_run
 :
-                    
+                
 self
 .
 info
@@ -8193,12 +8017,12 @@ comment
 }
 "
 )
-                    
+                
 self
 .
 info
 (
-                        
+                    
 f
 '
 Dry
@@ -8222,14 +8046,13 @@ manifest
 }
 "
 '
-                    
+                
 )
-                    
+                
 self
 .
 info
 (
-                        
 f
 '
 would
@@ -8249,9 +8072,8 @@ skip_if
 bug_reference
 }
 '
-                    
 )
-                    
+                
 if
 task_id
 is
@@ -8263,7 +8085,7 @@ not
 in
 attachments
 :
-                        
+                    
 self
 .
 info
@@ -8278,9 +8100,9 @@ this
 task
 "
 )
-                    
-return
                 
+return
+            
 elif
 self
 .
@@ -8288,7 +8110,7 @@ bugzilla
 is
 None
 :
-                    
+                
 self
 .
 warning
@@ -8311,10 +8133,10 @@ comment
 }
 "
 )
-                
+            
 else
 :
-                    
+                
 self
 .
 add_bug_comment
@@ -8323,7 +8145,7 @@ bugid
 comment
 meta_bug_id
 )
-                    
+                
 self
 .
 info
@@ -8345,14 +8167,14 @@ comment
 }
 "
 )
-                    
+                
 if
 meta_bug_id
 is
 not
 None
 :
-                        
+                    
 self
 .
 info
@@ -8372,7 +8194,7 @@ meta_bug_id
 }
 "
 )
-                    
+                
 if
 task_id
 is
@@ -8384,7 +8206,7 @@ not
 in
 attachments
 :
-                        
+                    
 self
 .
 add_attachment_log_for_task
@@ -8392,7 +8214,7 @@ add_attachment_log_for_task
 bugid
 task_id
 )
-                        
+                    
 self
 .
 info
@@ -9650,38 +9472,23 @@ task_to_skip_if
 (
         
 self
-        
 manifest
 :
 str
-        
-task
+task_id
 :
-Union
-[
 str
-PlatformInfo
-]
-        
 kind
 :
 str
-        
 file_path
 :
 str
-        
-high_freq
-:
-bool
     
 )
 -
 >
-Optional
-[
 str
-]
 :
         
 "
@@ -9700,46 +9507,6 @@ task_id
 "
 "
 "
-        
-if
-isinstance
-(
-task
-str
-)
-:
-            
-self
-.
-info
-(
-f
-"
-Fetching
-task
-data
-for
-{
-task
-}
-"
-)
-            
-extra
-=
-self
-.
-get_extra
-(
-task
-)
-        
-else
-:
-            
-extra
-=
-task
         
 if
 kind
@@ -9784,6 +9551,15 @@ eq
 =
 =
 "
+        
+extra
+=
+self
+.
+get_extra
+(
+task_id
+)
         
 skip_if
 =
@@ -10076,10 +9852,7 @@ failure_key
 =
 FailedPlatform
 (
-                    
 permutations
-high_freq
-                
 )
             
 build_types
@@ -10109,13 +9882,6 @@ test_variant
 )
             
 if
-skip_cond
-is
-not
-None
-:
-                
-if
 kind
 =
 =
@@ -10123,7 +9889,7 @@ Kind
 .
 WPT
 :
-                    
+                
 skip_cond
 =
 skip_cond
@@ -10137,53 +9903,11 @@ replace
 not
 "
 )
-                
+            
 skip_if
 +
 =
 skip_cond
-            
-else
-:
-                
-skip_if
-=
-None
-        
-elif
-skip_if
-is
-None
-:
-            
-raise
-Exception
-(
-                
-f
-"
-Unable
-to
-calculate
-skip
--
-if
-condition
-from
-manifest
-=
-{
-manifest
-}
-and
-file
-=
-{
-file_path
-}
-"
-            
-)
         
 return
 skip_if
@@ -10480,11 +10204,7 @@ get_push_id
 (
 self
 revision
-:
-str
 repo
-:
-str
 )
 :
         
@@ -12072,8 +11792,6 @@ label_to_platform_testname
 (
 self
 label
-:
-str
 )
 :
         
