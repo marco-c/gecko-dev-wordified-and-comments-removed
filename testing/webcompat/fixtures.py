@@ -149,6 +149,15 @@ helperApps
 .
 deleteTempFileOnExit
 "
+PLATFORM_OVERRIDE_PREF
+=
+"
+extensions
+.
+webcompat
+.
+platform_override
+"
 class
 WebDriver
 :
@@ -311,6 +320,7 @@ def
 capabilities
 (
 self
+request
 test_config
 )
 :
@@ -465,6 +475,7 @@ def
 capabilities
 (
 self
+request
 test_config
 )
 :
@@ -473,6 +484,30 @@ prefs
 =
 {
 }
+        
+override
+=
+request
+.
+config
+.
+getoption
+(
+"
+platform_override
+"
+)
+        
+if
+override
+:
+            
+prefs
+[
+PLATFORM_OVERRIDE_PREF
+]
+=
+override
         
 if
 "
@@ -2124,6 +2159,7 @@ def
 session
 (
 driver
+request
 test_config
 )
 :
@@ -2134,6 +2170,7 @@ driver
 .
 capabilities
 (
+request
 test_config
 )
     
@@ -2405,11 +2442,27 @@ True
 def
 platform
 (
+request
 session
+test_config
 )
 :
     
 return
+(
+        
+request
+.
+config
+.
+getoption
+(
+"
+platform_override
+"
+)
+        
+or
 session
 .
 capabilities
@@ -2418,6 +2471,8 @@ capabilities
 platformName
 "
 ]
+    
+)
 pytest
 .
 fixture
@@ -2903,6 +2958,30 @@ profile
 "
 )
     
+actualPlatform
+=
+session
+.
+capabilities
+[
+"
+platformName
+"
+]
+    
+actualPlatformRequired
+=
+request
+.
+node
+.
+get_closest_marker
+(
+"
+actual_platform_required
+"
+)
+    
 if
 request
 .
@@ -2955,6 +3034,16 @@ is_fenix
 )
 :
                 
+if
+actualPlatform
+=
+=
+platform
+or
+not
+actualPlatformRequired
+:
+                    
 return
         
 pytest

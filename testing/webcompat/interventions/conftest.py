@@ -386,6 +386,23 @@ args
     
 if
 "
+actual_platform_required
+"
+in
+marks
+:
+        
+otherargs
+[
+"
+actual_platform_required
+"
+]
+=
+True
+    
+if
+"
 no_overlay_scrollbars
 "
 in
@@ -528,6 +545,20 @@ __name__
     
 return
 {
+        
+"
+actual_platform_required
+"
+:
+params
+.
+get
+(
+"
+actual_platform_required
+"
+False
+)
         
 "
 enable_moztransform

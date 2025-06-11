@@ -248,6 +248,11 @@ pytest
 .
 mark
 .
+actual_platform_required
+pytest
+.
+mark
+.
 asyncio
 pytest
 .
@@ -278,6 +283,11 @@ only_platforms
 android
 "
 )
+pytest
+.
+mark
+.
+actual_platform_required
 pytest
 .
 mark
