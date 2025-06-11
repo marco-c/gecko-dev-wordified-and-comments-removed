@@ -644,6 +644,12 @@ object
 FirstSyncCompleted
 :
 BookmarksAction
+internal
+data
+object
+PrivateBrowsingAuthorized
+:
+BookmarksAction
 /
 *
 *

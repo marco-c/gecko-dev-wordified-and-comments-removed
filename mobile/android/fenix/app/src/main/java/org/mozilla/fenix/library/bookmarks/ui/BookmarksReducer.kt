@@ -1013,6 +1013,7 @@ SignIntoSyncClicked
 is
 InitEdit
 Init
+PrivateBrowsingAuthorized
 -
 >
 state
