@@ -1709,6 +1709,15 @@ getPrefType
 pref
 )
 ;
+if
+(
+expectedType
+!
+=
+=
+0
+)
+{
 ok
 (
 (
@@ -1801,6 +1810,7 @@ s
 type
 )
 ;
+}
 }
 }
 if

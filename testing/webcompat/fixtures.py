@@ -633,6 +633,23 @@ enabled
 ]
 =
 False
+            
+prefs
+[
+"
+widget
+.
+windows
+.
+overlay
+-
+scrollbars
+.
+enabled
+"
+]
+=
+False
         
 if
 "

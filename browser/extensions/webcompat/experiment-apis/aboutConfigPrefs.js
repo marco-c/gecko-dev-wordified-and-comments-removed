@@ -29,6 +29,11 @@ prefixes
 .
 transforms
 "
+"
+timer
+.
+auto_increase_timer_resolution
+"
 ]
 .
 concat
