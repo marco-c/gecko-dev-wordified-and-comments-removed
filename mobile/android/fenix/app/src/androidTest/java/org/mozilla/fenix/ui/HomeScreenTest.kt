@@ -371,9 +371,6 @@ verifyThoughtProvokingStories
 (
 true
 )
-verifyStoriesByTopicItems
-(
-)
 verifyCustomizeHomepageButton
 (
 activityTestRule

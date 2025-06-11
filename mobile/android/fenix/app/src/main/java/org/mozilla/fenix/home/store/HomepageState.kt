@@ -1319,7 +1319,6 @@ PocketState
 build
 (
 appState
-settings
 )
 showTopSites
 =

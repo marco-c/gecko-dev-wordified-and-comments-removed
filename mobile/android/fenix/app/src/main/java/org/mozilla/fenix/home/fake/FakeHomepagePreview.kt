@@ -2371,9 +2371,6 @@ categoriesSelections
 emptyList
 (
 )
-showContentRecommendations
-=
-false
 categoryColors
 =
 SelectableChipColors
