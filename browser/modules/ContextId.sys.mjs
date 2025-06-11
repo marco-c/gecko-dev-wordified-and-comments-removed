@@ -184,12 +184,14 @@ enabled
 "
 ;
 const
-TOPIC_APP_QUIT
+SHUTDOWN_TOPIC
 =
 "
-quit
+profile
 -
-application
+before
+-
+change
 "
 ;
 const
@@ -538,7 +540,7 @@ this
 .
 #
 observer
-TOPIC_APP_QUIT
+SHUTDOWN_TOPIC
 )
 ;
 }
@@ -583,7 +585,7 @@ if
 topic
 =
 =
-TOPIC_APP_QUIT
+SHUTDOWN_TOPIC
 )
 {
 /
@@ -617,7 +619,7 @@ this
 .
 #
 observer
-TOPIC_APP_QUIT
+SHUTDOWN_TOPIC
 )
 ;
 }
