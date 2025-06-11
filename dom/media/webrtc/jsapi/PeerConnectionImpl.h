@@ -3024,7 +3024,7 @@ fingerprint
 const
 ;
 nsresult
-ConfigureJsepSessionCodecs
+SortJsepSessionCodecs
 (
 )
 ;
