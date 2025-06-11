@@ -1019,7 +1019,7 @@ of
 the
 model
 in
-mb
+bytes
 type
 :
 quantity
@@ -1365,7 +1365,7 @@ string
 expires
 :
 never
-extension_model_link
+model_card_link
 :
 type
 :
@@ -1379,13 +1379,12 @@ the
 user
 clicks
 the
-link
-from
-an
-AI
 model
+card
+link
 in
-extension
+the
+model
 details
 bugs
 :

@@ -149,7 +149,7 @@ sys
 .
 mjs
 "
-recordExtensionModelLinkTelemetry
+recordModelCardLinkTelemetry
 :
 "
 chrome
@@ -603,7 +603,7 @@ handleCardLinkClick
 {
 lazy
 .
-recordExtensionModelLinkTelemetry
+recordModelCardLinkTelemetry
 (
 this
 .
