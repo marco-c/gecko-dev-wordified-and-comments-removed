@@ -285,7 +285,7 @@ supported
 "
 )
 "
-detect
+on
 "
 )
 ;

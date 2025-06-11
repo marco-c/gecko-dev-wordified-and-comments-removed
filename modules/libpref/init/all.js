@@ -35447,7 +35447,7 @@ creditCards
 supported
 "
 "
-detect
+on
 "
 )
 ;
