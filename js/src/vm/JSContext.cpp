@@ -5313,11 +5313,6 @@ interruptBits_
 (
 0
 )
-inlinedICScript_
-(
-this
-nullptr
-)
 jitStackLimit
 (
 JS
