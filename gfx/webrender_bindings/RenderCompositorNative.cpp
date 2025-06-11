@@ -1368,6 +1368,10 @@ mDrawnPixelCount
 =
 0
 ;
+DoFlush
+(
+)
+;
 mNativeLayerRoot
 -
 >
