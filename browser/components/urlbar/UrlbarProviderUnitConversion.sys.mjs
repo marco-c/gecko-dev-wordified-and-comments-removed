@@ -374,6 +374,15 @@ tag
 "
 strong
 "
+attributes
+:
+{
+dir
+:
+"
+ltr
+"
+}
 }
 {
 name
