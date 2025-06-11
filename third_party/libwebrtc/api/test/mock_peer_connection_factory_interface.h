@@ -205,7 +205,7 @@ MOCK_METHOD
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -221,7 +221,7 @@ MOCK_METHOD
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType

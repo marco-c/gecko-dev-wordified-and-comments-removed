@@ -161,7 +161,7 @@ MockRtpTransceiver
 }
 MOCK_METHOD
 (
-cricket
+webrtc
 :
 :
 MediaType

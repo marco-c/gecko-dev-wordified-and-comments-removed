@@ -505,7 +505,7 @@ RtpSenderInternal
 >
 CreateSender
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -562,7 +562,7 @@ RtpReceiverInternal
 >
 CreateReceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -770,7 +770,7 @@ sender_info
 MediaStreamInterface
 *
 stream
-cricket
+webrtc
 :
 :
 MediaType
@@ -787,7 +787,7 @@ sender_info
 MediaStreamInterface
 *
 stream
-cricket
+webrtc
 :
 :
 MediaType
@@ -801,7 +801,7 @@ const
 RtpSenderInfo
 &
 sender_info
-cricket
+webrtc
 :
 :
 MediaType
@@ -815,7 +815,7 @@ const
 RtpSenderInfo
 &
 sender_info
-cricket
+webrtc
 :
 :
 MediaType
@@ -832,7 +832,7 @@ RtpSenderInfo
 *
 GetRemoteSenderInfos
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -849,7 +849,7 @@ RtpSenderInfo
 *
 GetLocalSenderInfos
 (
-cricket
+webrtc
 :
 :
 MediaType

@@ -73,7 +73,7 @@ MOCK_METHOD
 Result
 Decrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -120,7 +120,7 @@ MOCK_METHOD
 size_t
 GetMaxPlaintextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

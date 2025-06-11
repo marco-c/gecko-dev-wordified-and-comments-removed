@@ -79,7 +79,7 @@ expected_postfix_byte
 Result
 Decrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -126,7 +126,7 @@ override
 size_t
 GetMaxPlaintextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

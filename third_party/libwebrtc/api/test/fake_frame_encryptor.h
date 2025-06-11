@@ -89,7 +89,7 @@ postfix_byte
 int
 Encrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -131,7 +131,7 @@ override
 size_t
 GetMaxCiphertextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

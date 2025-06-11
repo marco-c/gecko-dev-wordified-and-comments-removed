@@ -118,7 +118,7 @@ ChannelInterface
 default
 ;
 virtual
-cricket
+webrtc
 :
 :
 MediaType

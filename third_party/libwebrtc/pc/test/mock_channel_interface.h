@@ -113,7 +113,7 @@ public
 :
 MOCK_METHOD
 (
-cricket
+webrtc
 :
 :
 MediaType

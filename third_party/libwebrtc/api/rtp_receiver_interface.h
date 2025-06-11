@@ -134,7 +134,7 @@ virtual
 void
 OnFirstPacketReceived
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -232,7 +232,7 @@ streams
 const
 ;
 virtual
-cricket
+webrtc
 :
 :
 MediaType

@@ -45,7 +45,7 @@ receiver
 void
 OnFirstPacketReceived
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -128,7 +128,7 @@ RTCRtpMediaType
 mediaTypeForNativeMediaType
 :
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -137,7 +137,7 @@ nativeMediaType
 ;
 +
 (
-cricket
+webrtc
 :
 :
 MediaType

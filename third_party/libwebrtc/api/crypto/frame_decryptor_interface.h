@@ -7,6 +7,16 @@ API_CRYPTO_FRAME_DECRYPTOR_INTERFACE_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 vector
 >
 #
@@ -30,7 +40,7 @@ h
 #
 include
 "
-rtc_base
+api
 /
 ref_count
 .
@@ -115,7 +125,7 @@ virtual
 Result
 Decrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -164,7 +174,7 @@ virtual
 size_t
 GetMaxPlaintextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

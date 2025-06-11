@@ -76,7 +76,7 @@ FakeFrameEncryptor
 :
 Encrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -217,7 +217,7 @@ FakeFrameEncryptor
 :
 GetMaxCiphertextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

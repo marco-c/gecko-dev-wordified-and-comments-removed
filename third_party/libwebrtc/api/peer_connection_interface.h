@@ -2264,7 +2264,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -2286,7 +2286,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -3916,7 +3916,7 @@ virtual
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -3930,7 +3930,7 @@ virtual
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType

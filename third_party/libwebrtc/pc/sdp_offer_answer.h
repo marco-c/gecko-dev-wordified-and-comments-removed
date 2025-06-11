@@ -1752,7 +1752,7 @@ RtpTransceiver
 >
 FindAvailableTransceiverToReceive
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -1957,7 +1957,7 @@ options
 void
 RemoveRecvDirectionFromReceivingTransceiversOfType
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -1973,7 +1973,7 @@ signaling_thread
 void
 AddUpToOneReceivingTransceiverOfType
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -1998,7 +1998,7 @@ RtpTransceiver
 >
 GetReceivingTransceiversOfType
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -2097,7 +2097,7 @@ removed_streams
 void
 RemoveSenders
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -2120,7 +2120,7 @@ StreamParams
 >
 &
 streams
-cricket
+webrtc
 :
 :
 MediaType
@@ -2145,7 +2145,7 @@ StreamParams
 streams
 bool
 default_track_needed
-cricket
+webrtc
 :
 :
 MediaType

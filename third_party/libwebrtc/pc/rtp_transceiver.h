@@ -345,7 +345,7 @@ public
 :
 RtpTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -849,7 +849,7 @@ StopTransceiverProcedure
 (
 )
 ;
-cricket
+webrtc
 :
 :
 MediaType
@@ -1182,7 +1182,7 @@ bool
 unified_plan_
 ;
 const
-cricket
+webrtc
 :
 :
 MediaType
@@ -1423,7 +1423,7 @@ PROXY_PRIMARY_THREAD_DESTRUCTOR
 )
 BYPASS_PROXY_CONSTMETHOD0
 (
-cricket
+webrtc
 :
 :
 MediaType

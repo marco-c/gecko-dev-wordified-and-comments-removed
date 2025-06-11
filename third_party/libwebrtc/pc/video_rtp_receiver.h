@@ -391,7 +391,7 @@ streams
 const
 override
 ;
-cricket
+webrtc
 :
 :
 MediaType
@@ -402,10 +402,13 @@ const
 override
 {
 return
-cricket
+webrtc
 :
 :
-MEDIA_TYPE_VIDEO
+MediaType
+:
+:
+VIDEO
 ;
 }
 std

@@ -68,7 +68,7 @@ MOCK_METHOD
 int
 Encrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -109,7 +109,7 @@ MOCK_METHOD
 size_t
 GetMaxCiphertextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType
