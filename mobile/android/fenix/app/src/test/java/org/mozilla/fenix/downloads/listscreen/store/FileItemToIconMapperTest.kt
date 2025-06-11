@@ -137,9 +137,11 @@ filePath
 =
 "
 "
-formattedSize
+description
 =
 "
+Test
+description
 "
 displayedShortUrl
 =
@@ -160,9 +162,9 @@ DownloadState
 Status
 .
 COMPLETED
-createdTime
+timeCategory
 =
-CreatedTime
+TimeCategory
 .
 TODAY
 )
