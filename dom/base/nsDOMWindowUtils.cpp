@@ -4843,8 +4843,6 @@ aTwists
 int32_t
 aModifiers
 bool
-aIgnoreRootScrollFrame
-bool
 *
 aPreventDefault
 )
@@ -4864,7 +4862,6 @@ aTiltXs
 aTiltYs
 aTwists
 aModifiers
-aIgnoreRootScrollFrame
 false
 false
 aPreventDefault
@@ -4904,8 +4901,6 @@ aTwist
 int32_t
 aModifier
 bool
-aIgnoreRootScrollFrame
-bool
 *
 aPreventDefault
 )
@@ -4955,7 +4950,6 @@ nsTArray
 aTwist
 }
 aModifier
-aIgnoreRootScrollFrame
 true
 false
 aPreventDefault
@@ -5045,8 +5039,6 @@ aTwists
 int32_t
 aModifiers
 bool
-aIgnoreRootScrollFrame
-bool
 *
 aPreventDefault
 )
@@ -5066,7 +5058,6 @@ aTiltXs
 aTiltYs
 aTwists
 aModifiers
-aIgnoreRootScrollFrame
 false
 true
 aPreventDefault
@@ -5155,8 +5146,6 @@ int32_t
 aTwists
 int32_t
 aModifiers
-bool
-aIgnoreRootScrollFrame
 bool
 aIsPen
 bool

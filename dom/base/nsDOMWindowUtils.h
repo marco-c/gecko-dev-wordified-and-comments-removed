@@ -433,8 +433,6 @@ aTwists
 int32_t
 aModifiers
 bool
-aIgnoreRootScrollFrame
-bool
 aIsPen
 bool
 aToWindow
