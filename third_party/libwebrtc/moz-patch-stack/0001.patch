@@ -13027,10 +13027,10 @@ logging
 .
 cc
 index
-83dd1bc99f
+cf28db4a8e
 .
 .
-f8ff475e5d
+eb31bffab9
 100644
 -
 -
@@ -13166,7 +13166,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 +
 +
@@ -13450,10 +13450,10 @@ logging
 .
 h
 index
-9a024f6c77
+2fa7b2edc3
 .
 .
-1f598df01f
+a2329a999a
 100644
 -
 -
@@ -13578,9 +13578,6 @@ formatted
 message
 before
 output
-webrtc
-:
-:
 StringBuilder
 print_stream_
 ;
