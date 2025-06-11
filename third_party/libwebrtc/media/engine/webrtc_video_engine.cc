@@ -15336,15 +15336,6 @@ ssrc
 ;
 if
 (
-outbound_rtp_substreams
-.
-size
-(
-)
->
-1
-&
-&
 encoding_index_by_ssrc
 .
 find
