@@ -238,9 +238,6 @@ IsInitialized
 )
 )
 {
-webrtc
-:
-:
 TrackEvent
 :
 :
@@ -377,7 +374,6 @@ flags
 }
 #
 endif
-}
 #
 if
 defined
@@ -385,9 +381,6 @@ defined
 RTC_USE_PERFETTO
 )
 namespace
-rtc
-:
-:
 tracing
 {
 void
@@ -450,9 +443,6 @@ kTraceArgBufferLength
 =
 32
 ;
-namespace
-rtc
-{
 namespace
 tracing
 {
@@ -655,9 +645,6 @@ str_copy
 ;
 }
 }
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -693,15 +680,9 @@ output_file_
 ;
 static
 constexpr
-webrtc
-:
-:
 TimeDelta
 kLoggingInterval
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -757,9 +738,6 @@ TraceEvent
 events
 ;
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -1143,9 +1121,6 @@ output_file_owned_
 owned
 ;
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -1178,6 +1153,9 @@ zero
 ;
 logging_thread_
 =
+rtc
+:
+:
 PlatformThread
 :
 :
@@ -1738,9 +1716,6 @@ return
 output
 ;
 }
-webrtc
-:
-:
 Mutex
 mutex_
 ;
@@ -1769,9 +1744,6 @@ rtc
 Event
 shutdown_event_
 ;
-webrtc
-:
-:
 SequenceChecker
 thread_checker_
 ;
@@ -2036,9 +2008,6 @@ EventLogger
 )
 )
 ;
-webrtc
-:
-:
 SetupEventTracer
 (
 enable_all_categories
@@ -2254,9 +2223,6 @@ nullptr
 delete
 old_logger
 ;
-webrtc
-:
-:
 SetupEventTracer
 (
 nullptr
@@ -2265,6 +2231,6 @@ nullptr
 ;
 }
 }
-}
 #
 endif
+}
