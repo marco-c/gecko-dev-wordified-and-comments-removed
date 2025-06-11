@@ -3236,6 +3236,7 @@ EXIFParser
 :
 Parse
 (
+true
 marker
 -
 >

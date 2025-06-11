@@ -116,6 +116,8 @@ static
 EXIFData
 Parse
 (
+bool
+aExpectExifIdCode
 const
 uint8_t
 *
@@ -134,6 +136,9 @@ aRealImageSize
 {
 EXIFParser
 parser
+(
+aExpectExifIdCode
+)
 ;
 return
 parser
@@ -148,8 +153,11 @@ aRealImageSize
 }
 private
 :
+explicit
 EXIFParser
 (
+bool
+aExpectExifIdCode
 )
 :
 mStart
@@ -174,6 +182,10 @@ ByteOrder
 :
 :
 Unknown
+)
+mExpectExifIdCode
+(
+aExpectExifIdCode
 )
 {
 }
@@ -313,6 +325,12 @@ mCurrent
 mStart
 ;
 }
+uint32_t
+TIFFHeaderStart
+(
+)
+const
+;
 class
 ScopedJump
 {
@@ -432,6 +450,9 @@ mRemainingLength
 ;
 ByteOrder
 mByteOrder
+;
+bool
+mExpectExifIdCode
 ;
 }
 ;
