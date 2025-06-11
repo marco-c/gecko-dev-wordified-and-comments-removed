@@ -72,16 +72,6 @@ Firefox
 Sync
 "
 )
-EXTRA_COMPONENTS
-+
-=
-[
-"
-AutomationComponents
-.
-manifest
-"
-]
 EXTRA_JS_MODULES
 [
 "
