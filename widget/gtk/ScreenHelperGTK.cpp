@@ -645,7 +645,6 @@ image_description_info_target_max_cll
 image_description_info_target_max_fall
 }
 ;
-static
 bool
 IsMonitorHDR
 (
@@ -1757,9 +1756,13 @@ GdkIsWaylandDisplay
 {
 isHDR
 =
-IsMonitorHDR
+WaylandDisplayGet
 (
-aMonitorNum
+)
+-
+>
+IsHDREnabled
+(
 )
 ;
 }
