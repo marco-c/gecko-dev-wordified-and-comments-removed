@@ -95,13 +95,6 @@ sys
 mjs
 "
 "
-UrlbarProviderCalculator
-.
-sys
-.
-mjs
-"
-"
 UrlbarProviderGlobalActions
 .
 sys
