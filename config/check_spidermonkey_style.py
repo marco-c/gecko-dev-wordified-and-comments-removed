@@ -310,24 +310,6 @@ h
 "
         
 "
-ICU4XWeekCalculator
-.
-h
-"
-        
-"
-ICU4XWeekOf
-.
-h
-"
-        
-"
-ICU4XWeekRelativeUnit
-.
-h
-"
-        
-"
 ICU4XWordSegmenter
 .
 h
