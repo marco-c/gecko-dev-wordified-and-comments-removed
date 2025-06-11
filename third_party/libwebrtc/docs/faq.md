@@ -1397,10 +1397,9 @@ G
 G
 .
 722
-iLBC
 and
-iSAC
-and
+Opus
+while
 VP8
 is
 the

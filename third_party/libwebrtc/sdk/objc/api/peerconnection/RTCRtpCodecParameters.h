@@ -82,13 +82,6 @@ const
 NSString
 *
 const
-kRTCIlbcCodecName
-;
-RTC_EXTERN
-const
-NSString
-*
-const
 kRTCPcmuCodecName
 ;
 RTC_EXTERN

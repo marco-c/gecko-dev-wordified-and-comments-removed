@@ -1392,11 +1392,11 @@ decoder_database
 .
 RegisterPayload
 (
-3
+1
 SdpAudioFormat
 (
 "
-ilbc
+pcma
 "
 8000
 1
