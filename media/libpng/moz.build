@@ -39,7 +39,7 @@ pnglibconf
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -152,7 +152,7 @@ MOZ_PNG_USE_ARM_NEON
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -219,7 +219,7 @@ MOZ_PNG_USE_INTEL_SSE
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -263,7 +263,7 @@ MOZ_PNG_USE_MIPS_MSA
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -305,7 +305,7 @@ MOZ_PNG_USE_POWERPC
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -354,7 +354,7 @@ CFLAGS
 mlsx
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
