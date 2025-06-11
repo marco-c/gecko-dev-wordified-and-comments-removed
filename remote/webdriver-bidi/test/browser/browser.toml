@@ -37,6 +37,13 @@ js
 ]
 [
 "
+browser_ProxyPerUserContextManager
+.
+js
+"
+]
+[
+"
 browser_RemoteValue
 .
 js
