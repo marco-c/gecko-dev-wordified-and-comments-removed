@@ -1323,9 +1323,14 @@ IsEnabled
 )
 )
 {
+DMABufDeviceLock
+device
+;
 if
 (
 !
+device
+.
 GetDMABufDevice
 (
 )
