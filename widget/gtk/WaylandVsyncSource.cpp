@@ -673,7 +673,7 @@ void
 WaylandVsyncSource
 :
 :
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 const
 MutexAutoLock
@@ -792,7 +792,7 @@ mVsyncEnabled
 =
 true
 ;
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 lock
 mVsyncEnabled
@@ -866,7 +866,7 @@ mVsyncEnabled
 =
 false
 ;
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 lock
 mVsyncEnabled
@@ -935,7 +935,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mWaylandSurface
 )
 ;
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 lock
 mVsyncEnabled
@@ -997,7 +997,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mWaylandSurface
 )
 ;
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 lock
 mVsyncEnabled
