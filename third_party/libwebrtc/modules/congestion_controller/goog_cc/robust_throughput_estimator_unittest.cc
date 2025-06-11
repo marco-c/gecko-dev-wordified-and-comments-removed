@@ -2311,6 +2311,7 @@ send_rate
 )
 ;
 }
+{
 delayed_packets
 .
 front
@@ -2386,6 +2387,7 @@ double
 )
 )
 ;
+}
 for
 (
 int

@@ -3498,7 +3498,7 @@ uint16_t
 payload_length
 ;
 uint16_t
-checksum
+payload_checksum
 ;
 TRY_PCAP
 (
@@ -3541,7 +3541,7 @@ TRY_PCAP
 Read
 (
 &
-checksum
+payload_checksum
 true
 )
 )

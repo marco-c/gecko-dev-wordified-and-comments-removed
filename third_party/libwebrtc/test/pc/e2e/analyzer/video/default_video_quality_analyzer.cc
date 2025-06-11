@@ -1627,7 +1627,7 @@ captured_time
 )
 ;
 auto
-it
+captured_frame_it
 =
 captured_frames_in_flight_
 .
@@ -1638,7 +1638,7 @@ frame_id
 ;
 if
 (
-it
+captured_frame_it
 !
 =
 captured_frames_in_flight_
@@ -1780,7 +1780,7 @@ FrameComparisonType
 :
 :
 kDroppedFrame
-it
+captured_frame_it
 -
 >
 second
@@ -1796,7 +1796,7 @@ frames_storage_
 .
 Remove
 (
-it
+captured_frame_it
 -
 >
 second
@@ -1810,7 +1810,7 @@ captured_frames_in_flight_
 .
 erase
 (
-it
+captured_frame_it
 )
 ;
 }
