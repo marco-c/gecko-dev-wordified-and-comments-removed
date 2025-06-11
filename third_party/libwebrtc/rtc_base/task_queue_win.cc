@@ -983,9 +983,6 @@ priority
 )
 )
 ;
-rtc
-:
-:
 Event
 event
 (
@@ -1016,9 +1013,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

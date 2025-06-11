@@ -1061,9 +1061,6 @@ RepeatingTaskTest
 CancelDelayedTaskBeforeItRuns
 )
 {
-rtc
-:
-:
 Event
 done
 ;
@@ -1186,9 +1183,6 @@ RepeatingTaskTest
 CancelTaskAfterItRuns
 )
 {
-rtc
-:
-:
 Event
 done
 ;
@@ -1520,9 +1514,6 @@ MockClosure
 >
 closure
 ;
-rtc
-:
-:
 Event
 done
 ;
@@ -1623,9 +1614,6 @@ TimeDelta
 >
 closure
 ;
-rtc
-:
-:
 Event
 done
 ;

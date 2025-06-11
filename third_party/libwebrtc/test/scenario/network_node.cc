@@ -840,9 +840,6 @@ current_network_route_
 route
 ;
 }
-rtc
-:
-:
 Event
 event
 ;

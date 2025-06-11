@@ -2795,9 +2795,6 @@ store
 false
 )
 ;
-rtc
-:
-:
 Event
 flush
 ;
@@ -2840,9 +2837,6 @@ flush
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

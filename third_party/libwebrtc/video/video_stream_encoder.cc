@@ -4351,9 +4351,6 @@ SetSource
 nullptr
 )
 ;
-rtc
-:
-:
 Event
 shutdown_event
 ;
@@ -4523,9 +4520,6 @@ shutdown_event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -4733,9 +4727,6 @@ RTC_DCHECK_RUN_ON
 worker_queue_
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -4794,9 +4785,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -13989,9 +13977,6 @@ AdaptationConstraint
 adaptation_constraint
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -14053,9 +14038,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -14074,9 +14056,6 @@ VideoSourceRestrictionsListener
 restrictions_listener
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -14127,9 +14106,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -14148,9 +14124,6 @@ VideoSourceRestrictionsListener
 restrictions_listener
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -14201,9 +14174,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

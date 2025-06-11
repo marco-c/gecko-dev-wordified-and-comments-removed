@@ -93,9 +93,6 @@ override
 ;
 private
 :
-rtc
-:
-:
 Event
 event_
 ;

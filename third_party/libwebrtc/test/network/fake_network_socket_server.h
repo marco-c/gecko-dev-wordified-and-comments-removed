@@ -194,9 +194,6 @@ EndpointsContainer
 *
 endpoints_container_
 ;
-rtc
-:
-:
 Event
 wakeup_
 ;

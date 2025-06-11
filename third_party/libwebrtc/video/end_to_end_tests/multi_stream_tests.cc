@@ -280,9 +280,6 @@ FrameGeneratorCapturer
 const
 frame_generator_
 ;
-rtc
-:
-:
 Event
 done_
 ;

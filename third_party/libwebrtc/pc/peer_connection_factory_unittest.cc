@@ -4756,9 +4756,6 @@ MockNetworkManager
 (
 )
 ;
-rtc
-:
-:
 Event
 called
 ;
@@ -4914,9 +4911,6 @@ MockPacketSocketFactory
 (
 )
 ;
-rtc
-:
-:
 Event
 called
 ;

@@ -1422,9 +1422,6 @@ fake_audio_setup_
 {
 }
 ;
-rtc
-:
-:
 Event
 done
 ;
@@ -1454,9 +1451,6 @@ done
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

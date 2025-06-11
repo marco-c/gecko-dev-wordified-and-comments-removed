@@ -82,9 +82,6 @@ event_
 Wait
 (
 max_wait_duration
-rtc
-:
-:
 Event
 :
 :

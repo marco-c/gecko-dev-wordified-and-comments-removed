@@ -116,9 +116,6 @@ task
 return
 ;
 }
-rtc
-:
-:
 Event
 event
 ;
@@ -172,9 +169,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

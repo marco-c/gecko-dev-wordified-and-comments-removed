@@ -699,7 +699,7 @@ closed_event_
 .
 Wait
 (
-rtc
+webrtc
 :
 :
 Event
@@ -719,7 +719,7 @@ setup_message_event_
 .
 Wait
 (
-rtc
+webrtc
 :
 :
 Event
@@ -1076,13 +1076,13 @@ Thread
 const
 signaling_thread_
 ;
-rtc
+webrtc
 :
 :
 Event
 closed_event_
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1295,7 +1295,7 @@ open_event_
 .
 Wait
 (
-rtc
+webrtc
 :
 :
 Event
@@ -1315,7 +1315,7 @@ bytes_received_event_
 .
 Wait
 (
-rtc
+webrtc
 :
 :
 Event
@@ -1335,13 +1335,13 @@ DataChannelInterface
 const
 dc_
 ;
-rtc
+webrtc
 :
 :
 Event
 open_event_
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1925,7 +1925,7 @@ DataChannelInterface
 >
 data_channel
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -2034,7 +2034,7 @@ got_data_channel
 .
 Wait
 (
-rtc
+webrtc
 :
 :
 Event

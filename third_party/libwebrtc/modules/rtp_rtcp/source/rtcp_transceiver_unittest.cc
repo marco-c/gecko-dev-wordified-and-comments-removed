@@ -359,7 +359,7 @@ TaskQueueForTest
 queue
 )
 {
-rtc
+webrtc
 :
 :
 Event
@@ -821,13 +821,13 @@ SendCompoundPacket
 (
 )
 ;
-rtc
+webrtc
 :
 :
 Event
 done
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -959,7 +959,7 @@ RtcpTransceiver
 config
 )
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1133,7 +1133,7 @@ rtcp_transceiver
 config
 )
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1338,13 +1338,13 @@ get
 )
 )
 ;
-rtc
+webrtc
 :
 :
 Event
 queue_blocker
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1688,7 +1688,7 @@ RtcpTransceiver
 config
 )
 ;
-rtc
+webrtc
 :
 :
 Event

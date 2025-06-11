@@ -1618,9 +1618,6 @@ public
 :
 TestBuffer
 (
-rtc
-:
-:
 Event
 *
 event
@@ -1668,9 +1665,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Event
 *
 const
@@ -1691,9 +1685,6 @@ public
 :
 FakeNativeBuffer
 (
-rtc
-:
-:
 Event
 *
 event
@@ -1844,9 +1835,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Event
 *
 const
@@ -1875,9 +1863,6 @@ public
 :
 FakeNV12NativeBuffer
 (
-rtc
-:
-:
 Event
 *
 event
@@ -2085,9 +2070,6 @@ NV12Buffer
 >
 nv12_buffer_
 ;
-rtc
-:
-:
 Event
 *
 const
@@ -2197,9 +2179,6 @@ return
 options_
 ;
 }
-rtc
-:
-:
 Event
 *
 framerate_updated_event
@@ -2223,9 +2202,6 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-rtc
-:
-:
 Event
 framerate_updated_event_
 ;
@@ -2264,9 +2240,6 @@ was_restrictions_updated_
 )
 ;
 }
-rtc
-:
-:
 Event
 *
 restrictions_updated_event
@@ -2318,9 +2291,6 @@ private
 bool
 was_restrictions_updated_
 ;
-rtc
-:
-:
 Event
 restrictions_updated_event_
 ;
@@ -3325,9 +3295,6 @@ TriggerCpuOveruse
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -3399,9 +3366,6 @@ TriggerCpuUnderuse
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -3473,9 +3437,6 @@ TriggerQualityLow
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -3547,9 +3508,6 @@ TriggerQualityHigh
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -6144,9 +6102,6 @@ CreateFrame
 (
 int64_t
 ntp_time_ms
-rtc
-:
-:
 Event
 *
 destruction_event
@@ -6202,9 +6157,6 @@ CreateFrameWithUpdatedPixel
 (
 int64_t
 ntp_time_ms
-rtc
-:
-:
 Event
 *
 destruction_event
@@ -6407,9 +6359,6 @@ CreateFakeNativeFrame
 (
 int64_t
 ntp_time_ms
-rtc
-:
-:
 Event
 *
 destruction_event
@@ -6469,9 +6418,6 @@ CreateFakeNV12NativeFrame
 (
 int64_t
 ntp_time_ms
-rtc
-:
-:
 Event
 *
 destruction_event
@@ -6531,9 +6477,6 @@ CreateFakeNativeFrame
 (
 int64_t
 ntp_time_ms
-rtc
-:
-:
 Event
 *
 destruction_event
@@ -8156,9 +8099,6 @@ EncoderState
 :
 kUninitialized
 ;
-rtc
-:
-:
 Event
 continue_encode_event_
 ;
@@ -9386,9 +9326,6 @@ TestEncoder
 *
 test_encoder_
 ;
-rtc
-:
-:
 Event
 encoded_frame_event_
 ;
@@ -9784,9 +9721,6 @@ kTargetBitrate
 0
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -9972,9 +9906,6 @@ kLowRate
 0
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -10445,9 +10376,6 @@ VideoStreamEncoderTest
 DropsFramesBeforeFirstOnBitrateUpdated
 )
 {
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -10836,9 +10764,6 @@ SetExpectNoFrames
 (
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -10991,9 +10916,6 @@ kTargetBitrate
 0
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -11175,9 +11097,6 @@ config
 height
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -11347,9 +11266,6 @@ SetPreferredPixelFormats
 }
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -11430,9 +11346,6 @@ kNV12
 }
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -11513,9 +11426,6 @@ kI444
 }
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -11581,9 +11491,6 @@ kTargetBitrate
 0
 )
 ;
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;
@@ -48522,9 +48429,6 @@ AV2
 )
 )
 ;
-rtc
-:
-:
 Event
 encode_attempted
 ;
@@ -48749,9 +48653,6 @@ AV2
 )
 )
 ;
-rtc
-:
-:
 Event
 encode_attempted
 ;
@@ -48949,9 +48850,6 @@ WEBRTC_VIDEO_CODEC_ENCODER_FAILURE
 )
 )
 ;
-rtc
-:
-:
 Event
 encode_attempted
 ;
@@ -49158,9 +49056,6 @@ AV2
 )
 )
 ;
-rtc
-:
-:
 Event
 encode_attempted
 ;
@@ -53847,9 +53742,6 @@ VideoStreamEncoderTest
 RequestsRefreshFrameAfterEarlyDroppedNativeFrame
 )
 {
-rtc
-:
-:
 Event
 frame_destroyed_event
 ;

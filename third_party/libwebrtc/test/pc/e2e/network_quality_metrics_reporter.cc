@@ -594,9 +594,6 @@ EmulatedNetworkManagerInterface
 network
 )
 {
-rtc
-:
-:
 Event
 wait
 ;

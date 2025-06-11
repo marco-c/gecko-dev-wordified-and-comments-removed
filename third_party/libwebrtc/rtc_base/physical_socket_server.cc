@@ -6796,9 +6796,6 @@ return
 max_wait_duration
 =
 =
-rtc
-:
-:
 Event
 :
 :

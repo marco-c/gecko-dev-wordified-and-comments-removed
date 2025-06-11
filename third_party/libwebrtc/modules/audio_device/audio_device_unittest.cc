@@ -1821,9 +1821,6 @@ MockAudioTransport
 void
 HandleCallbacks
 (
-rtc
-:
-:
 Event
 *
 event
@@ -2531,9 +2528,6 @@ TransportType
 :
 kInvalid
 ;
-rtc
-:
-:
 Event
 *
 event_
@@ -2934,9 +2928,6 @@ return
 requirements_satisfied_
 ;
 }
-rtc
-:
-:
 Event
 *
 event
@@ -3417,9 +3408,6 @@ requirements_satisfied_
 =
 true
 ;
-rtc
-:
-:
 Event
 event_
 ;

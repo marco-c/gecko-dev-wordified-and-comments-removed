@@ -732,9 +732,6 @@ AudioIngressTest
 GetAudioFrameAfterRtpReceived
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -947,9 +944,6 @@ rtp_count
 =
 0
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -1175,9 +1169,6 @@ AudioIngressTest
 PreferredSampleRate
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -1349,9 +1340,6 @@ rtp_count
 =
 0
 ;
-rtc
-:
-:
 Event
 event
 ;

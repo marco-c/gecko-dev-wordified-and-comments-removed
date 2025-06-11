@@ -417,9 +417,6 @@ kDefaultTimeout
 )
 ;
 }
-rtc
-:
-:
 Event
 event_
 ;
@@ -702,9 +699,6 @@ kDefaultTimeout
 )
 ;
 }
-rtc
-:
-:
 Event
 event_
 ;

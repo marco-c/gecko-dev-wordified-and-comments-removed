@@ -64,9 +64,6 @@ constexpr
 TimeDelta
 kForever
 =
-rtc
-:
-:
 Event
 :
 :

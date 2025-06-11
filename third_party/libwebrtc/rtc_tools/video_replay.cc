@@ -3307,9 +3307,6 @@ Priority
 NORMAL
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -3412,9 +3409,6 @@ RtpReplayer
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -3507,9 +3501,6 @@ Run
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -3857,9 +3848,6 @@ int
 >
 unknown_packets
 ;
-rtc
-:
-:
 Event
 event
 (

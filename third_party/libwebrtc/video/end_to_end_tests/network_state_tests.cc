@@ -1666,15 +1666,9 @@ task_queue_
 Mutex
 test_mutex_
 ;
-rtc
-:
-:
 Event
 encoded_frames_
 ;
-rtc
-:
-:
 Event
 packet_event_
 ;

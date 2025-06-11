@@ -183,9 +183,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Event
 event
 ;

@@ -704,9 +704,6 @@ ASSERT_TRUE
 owner
 )
 ;
-rtc
-:
-:
 Event
 blocker
 ;
@@ -727,9 +724,6 @@ blocker
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

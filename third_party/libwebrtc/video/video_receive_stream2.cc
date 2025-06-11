@@ -2344,9 +2344,6 @@ if
 decoder_running_
 )
 {
-rtc
-:
-:
 Event
 done
 ;
@@ -2407,9 +2404,6 @@ done
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -6078,9 +6072,6 @@ RTC_DCHECK_RUN_ON
 worker_sequence_checker_
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -6255,9 +6246,6 @@ event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

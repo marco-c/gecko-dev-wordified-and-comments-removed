@@ -186,9 +186,6 @@ kQueueName
 PostDelayedHighRes
 "
 ;
-rtc
-:
-:
 Event
 event
 ;

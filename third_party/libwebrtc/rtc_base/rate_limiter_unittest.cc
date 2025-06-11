@@ -575,15 +575,9 @@ RateLimiter
 const
 rate_limiter_
 ;
-rtc
-:
-:
 Event
 start_signal_
 ;
-rtc
-:
-:
 Event
 end_signal_
 ;

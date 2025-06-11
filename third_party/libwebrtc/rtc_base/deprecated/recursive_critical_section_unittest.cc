@@ -522,9 +522,15 @@ int
 >
 threads_active_
 ;
+webrtc
+:
+:
 Event
 start_event_
 ;
+webrtc
+:
+:
 Event
 done_event_
 ;
@@ -851,6 +857,9 @@ PerfTestData
 (
 int
 expected_count
+webrtc
+:
+:
 Event
 *
 event
@@ -965,6 +974,9 @@ const
 int
 expected_count_
 ;
+webrtc
+:
+:
 Event
 *
 const
@@ -1112,6 +1124,9 @@ threads
 8
 ]
 ;
+webrtc
+:
+:
 Event
 event
 ;
@@ -1164,6 +1179,9 @@ event
 .
 Wait
 (
+webrtc
+:
+:
 Event
 :
 :

@@ -576,9 +576,6 @@ lock_
 =
 0
 ;
-rtc
-:
-:
 Event
 expected_frames_count_received_
 ;

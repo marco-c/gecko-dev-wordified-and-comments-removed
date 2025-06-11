@@ -2413,9 +2413,6 @@ attributes
 )
 ;
 }
-rtc
-:
-:
 Event
 test_complete_
 ;

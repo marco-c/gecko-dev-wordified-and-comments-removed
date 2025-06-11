@@ -495,9 +495,6 @@ encode_complete_callback_
 FakeDecodeCompleteCallback
 decode_complete_callback_
 ;
-rtc
-:
-:
 Event
 encoded_frame_event_
 ;
@@ -533,9 +530,6 @@ RTC_GUARDED_BY
 encoded_frame_section_
 )
 ;
-rtc
-:
-:
 Event
 decoded_frame_event_
 ;

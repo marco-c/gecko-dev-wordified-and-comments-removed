@@ -1590,9 +1590,6 @@ fake_clock_
 =
 nullptr
 ;
-rtc
-:
-:
 Event
 wakeup_
 ;

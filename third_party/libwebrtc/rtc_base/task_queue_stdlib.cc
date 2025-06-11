@@ -464,9 +464,6 @@ NotifyWake
 (
 )
 ;
-rtc
-:
-:
 Event
 flag_notify_
 ;
@@ -610,9 +607,6 @@ ThreadPriority
 priority
 )
 {
-rtc
-:
-:
 Event
 started
 ;
@@ -671,9 +665,6 @@ started
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

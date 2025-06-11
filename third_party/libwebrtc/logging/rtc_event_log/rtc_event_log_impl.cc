@@ -887,9 +887,6 @@ log
 .
 "
 ;
-rtc
-:
-:
 Event
 output_stopped
 ;
@@ -915,9 +912,6 @@ output_stopped
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

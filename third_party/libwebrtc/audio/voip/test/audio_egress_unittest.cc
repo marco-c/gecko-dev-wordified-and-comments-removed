@@ -682,9 +682,6 @@ kExpected
 =
 10
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -920,9 +917,6 @@ kExpected
 =
 10
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -1150,9 +1144,6 @@ kExpected
 =
 10
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -1516,9 +1507,6 @@ kEvent
 kDurationMs
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -1746,9 +1734,6 @@ kExpected
 =
 6
 ;
-rtc
-:
-:
 Event
 event
 ;

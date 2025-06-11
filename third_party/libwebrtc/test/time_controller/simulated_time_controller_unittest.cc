@@ -856,9 +856,6 @@ get
 [
 ]
 {
-rtc
-:
-:
 Event
 yield_event
 ;

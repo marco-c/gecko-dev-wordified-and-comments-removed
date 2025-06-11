@@ -944,9 +944,6 @@ NORMAL
 ExecutionOrderKeeper
 execution_order
 ;
-rtc
-:
-:
 Event
 event
 ;

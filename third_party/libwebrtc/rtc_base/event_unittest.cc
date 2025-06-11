@@ -48,7 +48,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -69,9 +69,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -101,9 +98,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -125,9 +119,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -143,9 +134,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -167,9 +155,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -195,9 +180,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -219,9 +201,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -237,9 +216,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -276,6 +252,9 @@ reader
 ;
 thread_
 =
+rtc
+:
+:
 PlatformThread
 :
 :
@@ -292,9 +271,6 @@ stop_event_
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -359,6 +335,9 @@ Event
 *
 reader_
 ;
+rtc
+:
+:
 PlatformThread
 thread_
 ;
@@ -371,15 +350,9 @@ UnsignaledWaitDoesNotReturnBeforeTimeout
 )
 {
 constexpr
-webrtc
-:
-:
 TimeDelta
 kDuration
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -396,9 +369,6 @@ event
 auto
 begin
 =
-webrtc
-:
-:
 Clock
 :
 :
@@ -423,9 +393,6 @@ kDuration
 ;
 EXPECT_GE
 (
-webrtc
-:
-:
 Clock
 :
 :
@@ -485,9 +452,6 @@ event
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :

@@ -349,9 +349,6 @@ lock_
 Mutex
 frame_decode_lock_
 ;
-rtc
-:
-:
 Event
 next_frame_decoded_
 ;
