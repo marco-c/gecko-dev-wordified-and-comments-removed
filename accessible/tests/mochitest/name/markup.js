@@ -1125,7 +1125,7 @@ aRule
 getAttribute
 (
 "
-explict
+explicit
 -
 name
 "
