@@ -5641,6 +5641,10 @@ connection_info
 "
 "
 :
+dtls_stun_piggyback_controller
+"
+"
+:
 ice_transport_internal
 "
 "
