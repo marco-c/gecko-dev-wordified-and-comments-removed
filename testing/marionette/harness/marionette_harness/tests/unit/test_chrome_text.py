@@ -40,6 +40,7 @@ self
 .
 open_chrome_window
 (
+            
 "
 chrome
 :
@@ -51,10 +52,11 @@ content
 /
 marionette
 /
-test
+test_xul
 .
 xhtml
 "
+        
 )
         
 self
@@ -154,7 +156,7 @@ By
 .
 ID
 "
-textInput3
+textInput
 "
 )
         

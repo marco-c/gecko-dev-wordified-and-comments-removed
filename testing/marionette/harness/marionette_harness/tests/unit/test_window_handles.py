@@ -84,7 +84,7 @@ content
 /
 marionette
 /
-test_dialog
+test
 .
 xhtml
 "

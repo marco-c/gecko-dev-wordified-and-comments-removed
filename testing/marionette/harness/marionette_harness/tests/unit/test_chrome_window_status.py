@@ -18,7 +18,7 @@ __file__
 )
 )
 from
-test_window_status_content
+test_window_status
 import
 TestNoSuchWindowContent
 class
