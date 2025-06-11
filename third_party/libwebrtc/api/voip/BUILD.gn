@@ -418,6 +418,12 @@ voip_engine_factory
 .
 .
 :
+field_trials
+"
+"
+.
+.
+:
 make_ref_counted
 "
 "
@@ -472,9 +478,9 @@ test_support
 .
 .
 /
-task_queue
+environment
 :
-default_task_queue_factory
+environment_factory
 "
 ]
 }
