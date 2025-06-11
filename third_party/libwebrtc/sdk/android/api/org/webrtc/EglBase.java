@@ -546,6 +546,10 @@ add
 EGL10
 .
 EGL_PBUFFER_BIT
+|
+EGL10
+.
+EGL_WINDOW_BIT
 )
 ;
 }
