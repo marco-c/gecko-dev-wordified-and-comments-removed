@@ -520,6 +520,15 @@ enabled
 "
 :
 true
+"
+unifiedAds
+.
+adsFeed
+.
+enabled
+"
+:
+false
 }
 }
 }
