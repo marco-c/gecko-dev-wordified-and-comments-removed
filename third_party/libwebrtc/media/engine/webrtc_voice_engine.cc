@@ -4486,7 +4486,7 @@ Codec
 WebRtcVoiceEngine
 :
 :
-send_codecs
+LegacySendCodecs
 (
 )
 const
@@ -4516,7 +4516,7 @@ Codec
 WebRtcVoiceEngine
 :
 :
-recv_codecs
+LegacyRecvCodecs
 (
 )
 const

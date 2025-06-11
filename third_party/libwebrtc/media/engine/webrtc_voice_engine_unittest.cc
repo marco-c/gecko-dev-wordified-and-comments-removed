@@ -1735,7 +1735,7 @@ codecs
 =
 engine
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;
@@ -6201,7 +6201,7 @@ codecs
 engine_
 -
 >
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -25256,7 +25256,7 @@ codec
 :
 engine
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -26785,7 +26785,7 @@ codecs
 =
 engine
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;
@@ -27580,7 +27580,7 @@ codecs
 =
 engine
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;

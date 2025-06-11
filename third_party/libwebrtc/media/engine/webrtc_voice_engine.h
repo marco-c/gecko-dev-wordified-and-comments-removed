@@ -765,7 +765,7 @@ vector
 Codec
 >
 &
-send_codecs
+LegacySendCodecs
 (
 )
 const
@@ -780,7 +780,7 @@ vector
 Codec
 >
 &
-recv_codecs
+LegacyRecvCodecs
 (
 )
 const
