@@ -928,7 +928,7 @@ const
 PortParametersRef
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1260,7 +1260,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1273,7 +1273,7 @@ rtc
 Network
 *
 network
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1396,7 +1396,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2287,7 +2287,7 @@ SharedSocket
 int
 opts
 =
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2322,7 +2322,7 @@ TLS_CERT_POLICY_INSECURE_NO_CHECK
 opts
 |
 =
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2336,7 +2336,7 @@ else
 opts
 |
 =
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2346,7 +2346,7 @@ OPT_TLS
 ;
 }
 }
-rtc
+webrtc
 :
 :
 PacketSocketTcpOptions
@@ -2623,7 +2623,7 @@ TurnPort
 :
 OnSocketConnect
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3046,7 +3046,7 @@ TurnPort
 :
 OnSocketClose
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3465,7 +3465,7 @@ TurnPort
 :
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -3482,7 +3482,7 @@ if
 opt
 =
 =
-rtc
+webrtc
 :
 :
 Socket
@@ -3537,7 +3537,7 @@ TurnPort
 :
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -3821,7 +3821,7 @@ TurnPort
 :
 HandleIncomingPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -4175,7 +4175,7 @@ TurnPort
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -4203,7 +4203,7 @@ TurnPort
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -4236,7 +4236,7 @@ TurnPort
 :
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

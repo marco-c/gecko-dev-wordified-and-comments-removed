@@ -203,9 +203,6 @@ SocketAddress
 loopback
 )
 {
-rtc
-:
-:
 PhysicalSocketServer
 socket_server
 ;
@@ -219,9 +216,6 @@ main_thread
 socket_server
 )
 ;
-rtc
-:
-:
 Socket
 *
 socket
@@ -254,9 +248,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 AsyncUDPSocket
 >
 (
@@ -329,9 +320,6 @@ SocketAddress
 loopback
 )
 {
-rtc
-:
-:
 PhysicalSocketServer
 socket_server
 ;
@@ -356,9 +344,6 @@ main_thread
 loopback
 )
 ;
-rtc
-:
-:
 Socket
 *
 socket
@@ -380,9 +365,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncTCPSocket
 >
 tcp_socket
@@ -392,9 +374,6 @@ absl
 :
 WrapUnique
 (
-rtc
-:
-:
 AsyncTCPSocket
 :
 :

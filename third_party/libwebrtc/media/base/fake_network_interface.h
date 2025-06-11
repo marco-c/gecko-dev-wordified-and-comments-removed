@@ -845,9 +845,6 @@ int
 SetOption
 (
 SocketType
-rtc
-:
-:
 Socket
 :
 :
@@ -862,9 +859,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :
@@ -882,9 +876,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :
@@ -902,9 +893,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :

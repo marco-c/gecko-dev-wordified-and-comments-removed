@@ -10865,7 +10865,7 @@ MediaChannelNetworkInterface
 :
 :
 ST_RTP
-rtc
+webrtc
 :
 :
 Socket
@@ -20112,7 +20112,7 @@ MediaChannelNetworkInterface
 :
 :
 ST_RTP
-rtc
+webrtc
 :
 :
 Socket

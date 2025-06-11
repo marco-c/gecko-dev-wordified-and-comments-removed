@@ -315,9 +315,6 @@ virtual
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -333,9 +330,6 @@ virtual
 int
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -605,9 +599,6 @@ thread
 0
 ;
 virtual
-rtc
-:
-:
 PacketSocketFactory
 *
 socket_factory

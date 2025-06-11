@@ -144,9 +144,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -159,9 +156,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -230,9 +224,6 @@ GetRemoteAddress
 bool
 CheckConnState
 (
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -248,9 +239,6 @@ CheckConnected
 return
 CheckConnState
 (
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -324,9 +312,6 @@ GetError
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -369,9 +354,6 @@ kNoPacketTimeoutMs
 =
 1000
 ;
-rtc
-:
-:
 Socket
 :
 :
@@ -383,9 +365,6 @@ GetState
 void
 OnPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -401,9 +380,6 @@ received_packet
 void
 OnReadyToSend
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -443,9 +419,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket_

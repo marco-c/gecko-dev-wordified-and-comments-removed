@@ -267,7 +267,7 @@ rtc
 NetworkManager
 *
 network_manager
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -356,7 +356,7 @@ return
 network_manager_
 ;
 }
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -491,7 +491,7 @@ NetworkManager
 *
 network_manager_
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -598,7 +598,7 @@ return
 network_thread_
 ;
 }
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1420,7 +1420,7 @@ Thread
 *
 network_thread_
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1855,7 +1855,7 @@ CreateRelayPorts
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1922,7 +1922,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

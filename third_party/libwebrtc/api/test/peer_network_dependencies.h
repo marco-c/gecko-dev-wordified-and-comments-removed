@@ -90,9 +90,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 SocketFactory
 *
 >

@@ -188,6 +188,9 @@ CleanupSSL
 explicit
 OpenSSLAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -419,6 +422,9 @@ protected
 void
 OnConnectEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -428,6 +434,9 @@ override
 void
 OnReadEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -437,6 +446,9 @@ override
 void
 OnWriteEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -446,6 +458,9 @@ override
 void
 OnCloseEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -848,6 +863,9 @@ OpenSSLAdapter
 *
 CreateAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket

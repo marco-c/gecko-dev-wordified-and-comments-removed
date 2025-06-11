@@ -6826,9 +6826,6 @@ sdp_semantics
 vss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -7198,9 +7195,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (
@@ -10726,9 +10720,6 @@ kSdpStringWithStream1And2UnifiedPlan
 ;
 }
 }
-rtc
-:
-:
 SocketServer
 *
 socket_server
@@ -10767,9 +10758,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_
@@ -11281,17 +11269,11 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 packet_socket_factory
 (
 new
-rtc
-:
-:
 BasicPacketSocketFactory
 (
 socket_server

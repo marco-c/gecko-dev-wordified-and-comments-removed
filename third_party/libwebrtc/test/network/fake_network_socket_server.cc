@@ -276,9 +276,6 @@ class
 FakeNetworkSocket
 :
 public
-rtc
-:
-:
 Socket
 public
 EmulatedNetworkReceiverInterface
@@ -428,9 +425,6 @@ backlog
 )
 override
 ;
-rtc
-:
-:
 Socket
 *
 Accept
@@ -1350,9 +1344,6 @@ SOCK_DGRAM
 "
 ;
 }
-rtc
-:
-:
 Socket
 *
 FakeNetworkSocket
@@ -1485,9 +1476,6 @@ error_
 error
 ;
 }
-rtc
-:
-:
 Socket
 :
 :
@@ -1681,9 +1669,6 @@ socket
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 FakeNetworkSocketServer

@@ -497,9 +497,6 @@ end
 it
 )
 {
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -541,9 +538,6 @@ end
 it
 )
 {
-rtc
-:
-:
 Socket
 *
 socket
@@ -564,9 +558,6 @@ TurnServer
 :
 AddInternalSocket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -648,9 +639,6 @@ TurnServer
 :
 AddInternalServerSocket
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -729,9 +717,6 @@ TurnServer
 :
 SetExternalSocketFactory
 (
-rtc
-:
-:
 PacketSocketFactory
 *
 factory
@@ -764,9 +749,6 @@ TurnServer
 :
 OnNewInternalConnection
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -806,9 +788,6 @@ TurnServer
 :
 AcceptConnection
 (
-rtc
-:
-:
 Socket
 *
 server_socket
@@ -822,9 +801,6 @@ thread_
 SocketAddress
 accept_addr
 ;
-rtc
-:
-:
 Socket
 *
 accepted_socket
@@ -894,17 +870,11 @@ accepted_socket
 ssl_adapter
 ;
 }
-cricket
-:
-:
 AsyncStunTCPSocket
 *
 tcp_socket
 =
 new
-cricket
-:
-:
 AsyncStunTCPSocket
 (
 accepted_socket
@@ -955,9 +925,6 @@ TurnServer
 :
 OnInternalSocketClose
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -982,9 +949,6 @@ TurnServer
 :
 OnInternalPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -2506,9 +2470,6 @@ string_view
 key
 )
 {
-rtc
-:
-:
 AsyncPacketSocket
 *
 external_socket
@@ -3041,9 +3002,6 @@ TurnServerAllocation
 allocation
 )
 {
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -3125,9 +3083,6 @@ TurnServer
 :
 DestroyInternalSocket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -3158,9 +3113,6 @@ end
 )
 )
 {
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -3197,9 +3149,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket_to_delete
@@ -3245,9 +3194,6 @@ SocketAddress
 src
 ProtocolType
 proto
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -3451,9 +3397,6 @@ const
 TurnServerConnection
 &
 conn
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -4920,9 +4863,6 @@ TurnServerAllocation
 :
 OnExternalPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket

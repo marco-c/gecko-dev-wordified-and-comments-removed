@@ -644,6 +644,9 @@ kForever
 explicit
 Thread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss
@@ -657,6 +660,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 ss
@@ -664,6 +670,9 @@ ss
 ;
 Thread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss
@@ -678,6 +687,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 ss
@@ -920,6 +932,9 @@ const
 ;
 #
 endif
+webrtc
+:
+:
 SocketServer
 *
 socketserver
@@ -1773,6 +1788,9 @@ int
 >
 stop_
 ;
+webrtc
+:
+:
 SocketServer
 *
 const
@@ -1783,6 +1801,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 own_ss_
@@ -1913,6 +1934,9 @@ public
 explicit
 AutoSocketServerThread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss

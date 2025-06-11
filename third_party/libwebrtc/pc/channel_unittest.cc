@@ -8983,7 +8983,7 @@ BaseChannel
 :
 :
 ST_RTP
-rtc
+webrtc
 :
 :
 Socket
@@ -9008,7 +9008,7 @@ BaseChannel
 :
 :
 ST_RTP
-rtc
+webrtc
 :
 :
 Socket
@@ -9040,7 +9040,7 @@ fake_rtp_dtls_transport2_
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -9061,7 +9061,7 @@ fake_rtp_dtls_transport2_
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket

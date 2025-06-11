@@ -602,9 +602,6 @@ pc_wrapper
 }
 protected
 :
-rtc
-:
-:
 VirtualSocketServer
 virtual_socket_server_
 ;

@@ -569,7 +569,7 @@ TCPPortTest
 ss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -858,7 +858,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -871,7 +871,7 @@ rtc
 AutoSocketServerThread
 main_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory

@@ -134,9 +134,6 @@ get
 )
 {
 }
-rtc
-:
-:
 SocketServer
 *
 socket_server
@@ -165,9 +162,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server_
@@ -298,9 +292,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (

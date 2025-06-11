@@ -158,6 +158,9 @@ SSLAdapter
 *
 CreateAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -183,6 +186,9 @@ class
 SSLAdapter
 :
 public
+webrtc
+:
+:
 AsyncSocketAdapter
 {
 public
@@ -190,10 +196,16 @@ public
 explicit
 SSLAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket
 )
+:
+webrtc
+:
 :
 AsyncSocketAdapter
 (
@@ -348,6 +360,9 @@ SSLAdapter
 *
 Create
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -369,6 +384,9 @@ false
 )
 ;
 }
+webrtc
+:
+:
 Socket
 *
 Accept

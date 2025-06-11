@@ -1530,6 +1530,9 @@ Thread
 :
 Thread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss
@@ -1552,6 +1555,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 ss
@@ -1575,6 +1581,9 @@ Thread
 :
 Thread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss
@@ -1645,6 +1654,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 ss
@@ -1778,6 +1790,9 @@ delayed_messages_
 }
 ;
 }
+webrtc
+:
+:
 SocketServer
 *
 Thread
@@ -2123,6 +2138,9 @@ cmsNext
 =
 kForever
 ?
+webrtc
+:
+:
 SocketServer
 :
 :
@@ -2659,10 +2677,16 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 (
 new
+webrtc
+:
+:
 NullSocketServer
 (
 )
@@ -4450,6 +4474,9 @@ AutoSocketServerThread
 :
 AutoSocketServerThread
 (
+webrtc
+:
+:
 SocketServer
 *
 ss

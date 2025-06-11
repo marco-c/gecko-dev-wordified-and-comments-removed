@@ -4376,7 +4376,7 @@ override_dscp
 {
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -4465,7 +4465,7 @@ kb
 ;
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -4569,7 +4569,7 @@ mode
 ;
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -8110,7 +8110,7 @@ P2PTransportChannel
 :
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -8137,7 +8137,7 @@ override_dscp
 opt
 =
 =
-rtc
+webrtc
 :
 :
 Socket
@@ -8296,7 +8296,7 @@ P2PTransportChannel
 :
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -8765,7 +8765,7 @@ options_
 .
 find
 (
-rtc
+webrtc
 :
 :
 Socket

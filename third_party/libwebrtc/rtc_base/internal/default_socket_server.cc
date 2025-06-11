@@ -65,6 +65,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 CreateDefaultSocketServer
@@ -107,11 +110,14 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 (
 new
-rtc
+webrtc
 :
 :
 PhysicalSocketServer

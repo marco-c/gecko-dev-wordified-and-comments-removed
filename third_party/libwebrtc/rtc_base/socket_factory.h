@@ -14,7 +14,7 @@ socket
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 SocketFactory
@@ -42,6 +42,18 @@ type
 0
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+SocketFactory
 ;
 }
 #

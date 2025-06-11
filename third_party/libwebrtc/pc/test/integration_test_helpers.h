@@ -4280,9 +4280,6 @@ RTCConfiguration
 config
 PeerConnectionDependencies
 dependencies
-rtc
-:
-:
 SocketServer
 *
 socket_server
@@ -7198,9 +7195,6 @@ sdp_semantics
 ss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -7208,9 +7202,6 @@ VirtualSocketServer
 fss_
 (
 new
-rtc
-:
-:
 FirewallSocketServer
 (
 ss_
@@ -8371,9 +8362,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -8708,9 +8696,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 VirtualSocketServer
 *
 virtual_socket_server
@@ -8867,9 +8852,6 @@ return
 old
 ;
 }
-rtc
-:
-:
 FirewallSocketServer
 *
 firewall
@@ -9692,9 +9674,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 ss_
@@ -9704,9 +9683,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 FirewallSocketServer
 >
 fss_

@@ -28,15 +28,9 @@ class
 DummySocketServer
 :
 public
-rtc
-:
-:
 SocketServer
 {
 public
-:
-rtc
-:
 :
 Socket
 *
@@ -111,9 +105,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server

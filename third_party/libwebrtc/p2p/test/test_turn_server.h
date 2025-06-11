@@ -264,9 +264,6 @@ rtc
 Thread
 *
 thread
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -324,9 +321,6 @@ server_
 SetExternalSocketFactory
 (
 new
-rtc
-:
-:
 BasicPacketSocketFactory
 (
 socket_factory
@@ -550,9 +544,6 @@ webrtc
 PROTO_TLS
 )
 {
-rtc
-:
-:
 Socket
 *
 socket
@@ -866,9 +857,6 @@ key
 TurnServer
 server_
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory_

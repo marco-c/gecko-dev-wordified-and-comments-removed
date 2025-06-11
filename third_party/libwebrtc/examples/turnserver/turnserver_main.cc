@@ -422,7 +422,7 @@ return
 1
 ;
 }
-rtc
+webrtc
 :
 :
 PhysicalSocketServer
@@ -438,14 +438,14 @@ main
 socket_server
 )
 ;
-rtc
+webrtc
 :
 :
 AsyncUDPSocket
 *
 int_socket
 =
-rtc
+webrtc
 :
 :
 AsyncUDPSocket
@@ -604,7 +604,7 @@ server
 SetExternalSocketFactory
 (
 new
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory

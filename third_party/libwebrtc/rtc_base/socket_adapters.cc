@@ -112,7 +112,7 @@ zero_memory
 h
 "
 namespace
-rtc
+webrtc
 {
 BufferedReadAdapter
 :
@@ -574,6 +574,9 @@ kSslClientHello
 0xea
 }
 ;
+rtc
+:
+:
 ArrayView
 <
 const
@@ -685,6 +688,9 @@ kSslServerHello
 0x00
 }
 ;
+rtc
+:
+:
 ArrayView
 <
 const
@@ -731,9 +737,6 @@ AsyncSSLSocket
 Connect
 (
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr

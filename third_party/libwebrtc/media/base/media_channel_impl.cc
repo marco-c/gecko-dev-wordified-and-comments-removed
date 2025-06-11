@@ -396,7 +396,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket
@@ -1323,7 +1323,7 @@ MediaChannelNetworkInterface
 :
 :
 ST_RTP
-rtc
+webrtc
 :
 :
 Socket
@@ -1346,7 +1346,7 @@ MediaChannelNetworkInterface
 :
 :
 ST_RTCP
-rtc
+webrtc
 :
 :
 Socket
@@ -1435,7 +1435,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket
@@ -1475,7 +1475,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket

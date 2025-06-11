@@ -678,9 +678,6 @@ NetworkManager
 >
 network_manager_
 ;
-rtc
-:
-:
 BasicPacketSocketFactory
 packet_socket_factory_
 ;

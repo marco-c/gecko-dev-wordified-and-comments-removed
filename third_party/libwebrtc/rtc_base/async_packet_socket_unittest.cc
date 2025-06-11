@@ -48,7 +48,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -64,9 +64,6 @@ class
 MockAsyncPacketSocket
 :
 public
-rtc
-:
-:
 AsyncPacketSocket
 {
 public
@@ -80,9 +77,6 @@ default
 ;
 MOCK_METHOD
 (
-webrtc
-:
-:
 SocketAddress
 GetLocalAddress
 (
@@ -95,9 +89,6 @@ override
 ;
 MOCK_METHOD
 (
-webrtc
-:
-:
 SocketAddress
 GetRemoteAddress
 (
@@ -144,9 +135,6 @@ pv
 size_t
 cb
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -191,9 +179,6 @@ MOCK_METHOD
 int
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -213,9 +198,6 @@ MOCK_METHOD
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -275,6 +257,9 @@ MockFunction
 <
 void
 (
+webrtc
+:
+:
 AsyncPacketSocket
 *
 const
@@ -308,13 +293,13 @@ mock_socket
 .
 NotifyPacketReceived
 (
+rtc
+:
+:
 ReceivedPacket
 (
 {
 }
-webrtc
-:
-:
 SocketAddress
 (
 )

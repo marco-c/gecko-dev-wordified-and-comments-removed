@@ -306,7 +306,7 @@ std
 string
 &
 name
-rtc
+webrtc
 :
 :
 SocketServer
@@ -964,7 +964,7 @@ std
 string
 name_
 ;
-rtc
+webrtc
 :
 :
 SocketServer

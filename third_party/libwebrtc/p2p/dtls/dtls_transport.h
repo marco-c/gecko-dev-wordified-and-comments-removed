@@ -665,7 +665,7 @@ override
 bool
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -838,7 +838,7 @@ override
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket

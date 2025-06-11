@@ -241,7 +241,7 @@ TryCreateServerSocket
 }
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -458,7 +458,7 @@ NULL
 ;
 if
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -706,7 +706,7 @@ bool
 payload
 )
 {
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -955,7 +955,7 @@ TCPPort
 :
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1015,7 +1015,7 @@ TCPPort
 :
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1102,13 +1102,13 @@ TCPPort
 :
 OnNewConnection
 (
-rtc
+webrtc
 :
 :
 AsyncListenSocket
 *
 socket
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1370,7 +1370,7 @@ OnNewConnection
 )
 ;
 }
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1391,7 +1391,7 @@ bool
 remove
 )
 {
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1477,7 +1477,7 @@ TCPPort
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1511,7 +1511,7 @@ TCPPort
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1544,7 +1544,7 @@ TCPPort
 :
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1577,7 +1577,7 @@ const
 Candidate
 &
 candidate
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1981,7 +1981,7 @@ TCPConnection
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2079,7 +2079,7 @@ TCPConnection
 :
 OnConnect
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2478,7 +2478,7 @@ TCPConnection
 :
 OnClose
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2713,7 +2713,7 @@ TCPConnection
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2760,7 +2760,7 @@ TCPConnection
 :
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2862,7 +2862,7 @@ protocol
 SSLTCP_PROTOCOL_NAME
 )
 ?
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2887,7 +2887,7 @@ get
 )
 ;
 }
-rtc
+webrtc
 :
 :
 PacketSocketTcpOptions
@@ -3096,7 +3096,7 @@ TCPConnection
 :
 ConnectSocketSignals
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3240,7 +3240,7 @@ TCPConnection
 :
 DisconnectSocketSignals
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

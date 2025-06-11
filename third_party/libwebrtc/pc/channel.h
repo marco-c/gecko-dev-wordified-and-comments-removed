@@ -679,7 +679,7 @@ SetOption
 (
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket
@@ -1493,7 +1493,7 @@ std
 :
 pair
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -1521,7 +1521,7 @@ std
 :
 pair
 <
-rtc
+webrtc
 :
 :
 Socket

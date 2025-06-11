@@ -504,7 +504,7 @@ BIO
 *
 BIO_new_socket
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -622,7 +622,7 @@ return
 -
 1
 ;
-rtc
+webrtc
 :
 :
 Socket
@@ -631,7 +631,7 @@ socket
 =
 static_cast
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -719,7 +719,7 @@ return
 -
 1
 ;
-rtc
+webrtc
 :
 :
 Socket
@@ -728,7 +728,7 @@ socket
 =
 static_cast
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -856,7 +856,7 @@ case
 BIO_CTRL_EOF
 :
 {
-rtc
+webrtc
 :
 :
 Socket
@@ -865,7 +865,7 @@ socket
 =
 static_cast
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -885,7 +885,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 Socket
@@ -1047,6 +1047,9 @@ OpenSSLAdapter
 :
 OpenSSLAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -1418,6 +1421,9 @@ GetState
 )
 !
 =
+webrtc
+:
+:
 Socket
 :
 :
@@ -1981,6 +1987,9 @@ state_
 =
 SSL_CONNECTED
 ;
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -2182,6 +2191,9 @@ if
 signal
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -2498,6 +2510,9 @@ case
 SSL_NONE
 :
 return
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -2736,6 +2751,9 @@ GetState
 )
 =
 =
+webrtc
+:
+:
 Socket
 :
 :
@@ -2797,6 +2815,9 @@ case
 SSL_NONE
 :
 return
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3008,6 +3029,9 @@ GetState
 )
 =
 =
+webrtc
+:
+:
 Socket
 :
 :
@@ -3061,6 +3085,9 @@ state_
 SSL_NONE
 ;
 return
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3069,6 +3096,9 @@ Close
 )
 ;
 }
+webrtc
+:
+:
 Socket
 :
 :
@@ -3189,6 +3219,9 @@ OpenSSLAdapter
 :
 OnConnectEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -3223,6 +3256,9 @@ state_
 SSL_NONE
 )
 ;
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3248,6 +3284,9 @@ BeginSSL
 )
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3265,6 +3304,9 @@ OpenSSLAdapter
 :
 OnReadEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -3278,6 +3320,9 @@ state_
 SSL_NONE
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3335,6 +3380,9 @@ if
 ssl_write_needs_read_
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3344,6 +3392,9 @@ socket
 )
 ;
 }
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3359,6 +3410,9 @@ OpenSSLAdapter
 :
 OnWriteEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -3372,6 +3426,9 @@ state_
 SSL_NONE
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3429,6 +3486,9 @@ if
 ssl_read_needs_write_
 )
 {
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3491,6 +3551,9 @@ Clear
 ;
 }
 }
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -3506,6 +3569,9 @@ OpenSSLAdapter
 :
 OnCloseEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -3535,6 +3601,9 @@ err
 )
 "
 ;
+webrtc
+:
+:
 AsyncSocketAdapter
 :
 :
@@ -5220,6 +5289,9 @@ OpenSSLAdapterFactory
 :
 CreateAdapter
 (
+webrtc
+:
+:
 Socket
 *
 socket

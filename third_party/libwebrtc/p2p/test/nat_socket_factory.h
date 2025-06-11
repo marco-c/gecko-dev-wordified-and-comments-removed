@@ -144,9 +144,6 @@ NATInternalSocketFactory
 {
 }
 virtual
-rtc
-:
-:
 Socket
 *
 CreateInternalSocket
@@ -172,9 +169,6 @@ class
 NATSocketFactory
 :
 public
-rtc
-:
-:
 SocketFactory
 public
 NATInternalSocketFactory
@@ -183,9 +177,6 @@ public
 :
 NATSocketFactory
 (
-rtc
-:
-:
 SocketFactory
 *
 factory
@@ -220,9 +211,6 @@ NATSocketFactory
 =
 delete
 ;
-rtc
-:
-:
 Socket
 *
 CreateSocket
@@ -234,9 +222,6 @@ type
 )
 override
 ;
-rtc
-:
-:
 Socket
 *
 CreateInternalSocket
@@ -257,9 +242,6 @@ override
 ;
 private
 :
-rtc
-:
-:
 SocketFactory
 *
 factory_
@@ -276,9 +258,6 @@ class
 NATSocketServer
 :
 public
-rtc
-:
-:
 SocketServer
 public
 NATInternalSocketFactory
@@ -374,9 +353,6 @@ rtc
 Thread
 &
 external_socket_thread
-rtc
-:
-:
 SocketFactory
 *
 ext_factory
@@ -391,9 +367,6 @@ Translator
 (
 )
 ;
-rtc
-:
-:
 SocketFactory
 *
 internal_factory
@@ -509,9 +482,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 internal_server_
@@ -542,9 +512,6 @@ clients_
 explicit
 NATSocketServer
 (
-rtc
-:
-:
 SocketServer
 *
 ss
@@ -571,9 +538,6 @@ NATSocketServer
 =
 delete
 ;
-rtc
-:
-:
 SocketServer
 *
 socketserver
@@ -632,9 +596,6 @@ SocketAddress
 ext_ip
 )
 ;
-rtc
-:
-:
 Socket
 *
 CreateSocket
@@ -674,9 +635,6 @@ WakeUp
 )
 override
 ;
-rtc
-:
-:
 Socket
 *
 CreateInternalSocket
@@ -696,9 +654,6 @@ nat_addr
 override
 ;
 private
-:
-rtc
-:
 :
 SocketServer
 *

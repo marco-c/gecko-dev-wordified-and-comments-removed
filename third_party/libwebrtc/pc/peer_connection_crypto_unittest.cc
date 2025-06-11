@@ -544,9 +544,6 @@ sdp_semantics
 vss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -727,9 +724,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (
@@ -1089,9 +1083,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_

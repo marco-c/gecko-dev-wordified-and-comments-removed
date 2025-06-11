@@ -839,7 +839,7 @@ override
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -855,7 +855,7 @@ override
 bool
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2302,7 +2302,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 Socket

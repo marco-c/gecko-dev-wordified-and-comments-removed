@@ -263,9 +263,6 @@ key
 )
 ;
 }
-rtc
-:
-:
 AsyncPacketSocket
 *
 CreatePeerSocket
@@ -365,9 +362,6 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
-:
-:
 AsyncPacketSocket
 *
 Wrap

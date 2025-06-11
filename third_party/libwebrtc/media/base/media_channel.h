@@ -1011,7 +1011,7 @@ SetOption
 (
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket

@@ -1002,7 +1002,7 @@ std
 string
 &
 name
-rtc
+webrtc
 :
 :
 SocketServer
@@ -1183,7 +1183,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory

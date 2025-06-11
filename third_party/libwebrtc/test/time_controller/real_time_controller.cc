@@ -65,9 +65,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 NullSocketServer
 >
 (
@@ -211,9 +208,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server
@@ -231,9 +225,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 NullSocketServer
 >
 (

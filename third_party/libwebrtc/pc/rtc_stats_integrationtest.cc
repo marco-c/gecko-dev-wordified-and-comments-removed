@@ -1016,9 +1016,6 @@ report
 )
 ;
 }
-rtc
-:
-:
 VirtualSocketServer
 virtual_socket_server_
 ;

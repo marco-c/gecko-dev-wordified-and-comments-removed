@@ -445,9 +445,6 @@ class
 NATSocket
 :
 public
-rtc
-:
-:
 Socket
 public
 sigslot
@@ -941,9 +938,6 @@ size
 kNATEncodedIPv6AddressSize
 )
 ;
-rtc
-:
-:
 Socket
 :
 :
@@ -1177,9 +1171,6 @@ backlog
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 Accept
@@ -1321,9 +1312,6 @@ value
 void
 OnConnectEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1367,9 +1355,6 @@ SendConnectRequest
 void
 OnReadEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1420,9 +1405,6 @@ this
 void
 OnWriteEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1445,9 +1427,6 @@ this
 void
 OnCloseEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1717,9 +1696,6 @@ remote_addr_
 SocketAddress
 server_addr_
 ;
-rtc
-:
-:
 Socket
 *
 socket_
@@ -1739,9 +1715,6 @@ NATSocketFactory
 :
 NATSocketFactory
 (
-rtc
-:
-:
 SocketFactory
 *
 factory
@@ -1769,9 +1742,6 @@ nat_tcp_addr
 )
 {
 }
-rtc
-:
-:
 Socket
 *
 NATSocketFactory
@@ -1795,9 +1765,6 @@ type
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 NATSocketFactory
@@ -1856,9 +1823,6 @@ NATSocketServer
 :
 NATSocketServer
 (
-rtc
-:
-:
 SocketServer
 *
 server
@@ -1973,9 +1937,6 @@ ext_ip
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 NATSocketServer
@@ -2065,9 +2026,6 @@ WakeUp
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 NATSocketServer
@@ -2088,9 +2046,6 @@ SocketAddress
 nat_addr
 )
 {
-rtc
-:
-:
 Socket
 *
 socket
@@ -2195,9 +2150,6 @@ rtc
 Thread
 &
 external_socket_thread
-rtc
-:
-:
 SocketFactory
 *
 ext_factory
@@ -2219,9 +2171,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 (

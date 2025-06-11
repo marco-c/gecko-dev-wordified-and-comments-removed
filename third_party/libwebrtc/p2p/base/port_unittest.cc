@@ -605,12 +605,6 @@ using
 rtc
 :
 :
-AsyncListenSocket
-;
-using
-rtc
-:
-:
 AsyncPacketSocket
 ;
 using
@@ -630,12 +624,6 @@ rtc
 :
 :
 PacketSocketFactory
-;
-using
-rtc
-:
-:
-Socket
 ;
 using
 :
@@ -668,6 +656,14 @@ testing
 :
 :
 NotNull
+;
+using
+:
+:
+webrtc
+:
+:
+AsyncListenSocket
 ;
 using
 webrtc
@@ -714,6 +710,14 @@ webrtc
 :
 :
 NATType
+;
+using
+:
+:
+webrtc
+:
+:
+Socket
 ;
 using
 :
@@ -1601,7 +1605,7 @@ virtual
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1619,7 +1623,7 @@ virtual
 int
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1682,7 +1686,7 @@ private
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2921,7 +2925,7 @@ PortTest
 ss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -4332,7 +4336,7 @@ const
 SocketAddress
 &
 addr
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -6535,7 +6539,7 @@ return
 ports_destroyed_
 ;
 }
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -6549,7 +6553,7 @@ return
 nat_socket_factory1_
 ;
 }
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -6585,7 +6589,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -6598,7 +6602,7 @@ rtc
 AutoSocketServerThread
 main_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -6640,13 +6644,13 @@ webrtc
 NATSocketFactory
 nat_factory2_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
 nat_socket_factory1_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -8117,7 +8121,7 @@ class
 FakePacketSocketFactory
 :
 public
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -8234,7 +8238,7 @@ SocketAddress
 &
 remote_address
 const
-rtc
+webrtc
 :
 :
 PacketSocketTcpOptions
@@ -9374,7 +9378,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -11713,7 +11717,7 @@ port1
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -12053,7 +12057,7 @@ socket
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -12104,7 +12108,7 @@ socket
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13647,7 +13651,7 @@ udpport
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13669,7 +13673,7 @@ udpport
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13697,7 +13701,7 @@ tcpport
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13719,7 +13723,7 @@ tcpport
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13759,7 +13763,7 @@ stunport
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13781,7 +13785,7 @@ stunport
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13836,7 +13840,7 @@ turnport1
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13858,7 +13862,7 @@ turnport1
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13906,7 +13910,7 @@ turnport2
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -13928,7 +13932,7 @@ turnport2
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket

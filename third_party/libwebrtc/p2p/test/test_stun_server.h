@@ -106,9 +106,6 @@ static
 StunServerPtr
 Create
 (
-rtc
-:
-:
 SocketServer
 *
 ss
@@ -151,9 +148,6 @@ server
 ;
 TestStunServer
 (
-rtc
-:
-:
 AsyncUDPSocket
 *
 socket

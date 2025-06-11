@@ -2873,6 +2873,9 @@ BasicNetworkManager
 NetworkMonitorFactory
 *
 network_monitor_factory
+webrtc
+:
+:
 SocketFactory
 *
 socket_factory
@@ -5477,6 +5480,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 socket

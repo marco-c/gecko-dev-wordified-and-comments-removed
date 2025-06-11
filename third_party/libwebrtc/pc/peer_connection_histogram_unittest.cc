@@ -1795,9 +1795,6 @@ next_local_address_
 =
 0
 ;
-rtc
-:
-:
 VirtualSocketServer
 vss_
 ;

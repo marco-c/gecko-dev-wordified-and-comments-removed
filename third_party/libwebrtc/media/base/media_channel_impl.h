@@ -512,7 +512,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket
@@ -653,7 +653,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket
@@ -760,7 +760,7 @@ MediaChannelNetworkInterface
 :
 SocketType
 type
-rtc
+webrtc
 :
 :
 Socket

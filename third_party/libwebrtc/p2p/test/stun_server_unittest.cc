@@ -158,9 +158,6 @@ StunServerTest
 ss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -182,9 +179,6 @@ reset
 new
 StunServer
 (
-rtc
-:
-:
 AsyncUDPSocket
 :
 :
@@ -212,9 +206,6 @@ absl
 :
 WrapUnique
 (
-rtc
-:
-:
 AsyncUDPSocket
 :
 :
@@ -420,9 +411,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 ss_

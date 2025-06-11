@@ -43,9 +43,6 @@ class
 MockDnsResolvingPacketSocketFactory
 :
 public
-rtc
-:
-:
 BasicPacketSocketFactory
 {
 public
@@ -70,16 +67,10 @@ MockAsyncDnsResolverResult
 explicit
 MockDnsResolvingPacketSocketFactory
 (
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
 )
-:
-rtc
-:
 :
 BasicPacketSocketFactory
 (

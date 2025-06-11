@@ -132,9 +132,6 @@ virtual
 int
 SetRtpOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -150,9 +147,6 @@ virtual
 int
 SetRtcpOption
 (
-rtc
-:
-:
 Socket
 :
 :

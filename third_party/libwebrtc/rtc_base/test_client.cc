@@ -145,9 +145,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -176,9 +173,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -266,9 +260,6 @@ TestClient
 :
 CheckConnState
 (
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -807,9 +798,6 @@ TestClient
 :
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -836,9 +824,6 @@ TestClient
 :
 OnPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -881,9 +866,6 @@ TestClient
 :
 OnReadyToSend
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket

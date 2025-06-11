@@ -121,9 +121,6 @@ FakeNetworkSocketServer
 )
 override
 ;
-rtc
-:
-:
 Socket
 *
 CreateSocket

@@ -2885,7 +2885,7 @@ DtlsTransport
 :
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2915,7 +2915,7 @@ DtlsTransport
 :
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
