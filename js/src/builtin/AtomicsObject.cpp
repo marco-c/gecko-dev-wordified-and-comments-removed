@@ -3663,6 +3663,7 @@ hasTimeout
 {
 MOZ_ASSERT
 (
+!
 removedWaiter
 -
 >
