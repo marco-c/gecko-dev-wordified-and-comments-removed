@@ -151,10 +151,10 @@ second
 ;
 }
 }
-StreamState
+AnalyzerStreamState
 :
 :
-StreamState
+AnalyzerStreamState
 (
 size_t
 sender
@@ -241,7 +241,7 @@ clock_
 }
 }
 uint16_t
-StreamState
+AnalyzerStreamState
 :
 :
 PopFront
@@ -354,7 +354,7 @@ value
 ;
 }
 void
-StreamState
+AnalyzerStreamState
 :
 :
 AddPeer
@@ -397,7 +397,7 @@ clock_
 ;
 }
 void
-StreamState
+AnalyzerStreamState
 :
 :
 RemovePeer
@@ -472,7 +472,7 @@ alive_size
 }
 PausableState
 *
-StreamState
+AnalyzerStreamState
 :
 :
 GetPausableState
@@ -524,7 +524,7 @@ second
 ;
 }
 void
-StreamState
+AnalyzerStreamState
 :
 :
 SetLastRenderedFrameTime
@@ -586,7 +586,7 @@ optional
 <
 Timestamp
 >
-StreamState
+AnalyzerStreamState
 :
 :
 last_rendered_frame_time
@@ -605,7 +605,7 @@ peer
 ;
 }
 size_t
-StreamState
+AnalyzerStreamState
 :
 :
 GetLongestReceiverQueue

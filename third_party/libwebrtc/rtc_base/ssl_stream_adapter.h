@@ -327,6 +327,9 @@ class
 SSLStreamAdapter
 :
 public
+webrtc
+:
+:
 StreamInterface
 {
 public
@@ -346,6 +349,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 StreamInterface
 >
 stream

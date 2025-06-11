@@ -86,11 +86,11 @@ namespace
 webrtc
 {
 class
-StreamState
+AnalyzerStreamState
 {
 public
 :
-StreamState
+AnalyzerStreamState
 (
 size_t
 sender

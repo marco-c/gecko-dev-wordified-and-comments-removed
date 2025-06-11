@@ -29,7 +29,7 @@ array_view
 h
 "
 namespace
-rtc
+webrtc
 {
 StreamResult
 StreamInterface

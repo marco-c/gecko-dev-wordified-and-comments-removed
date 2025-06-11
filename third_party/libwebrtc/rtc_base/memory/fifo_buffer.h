@@ -83,6 +83,9 @@ FifoBuffer
 final
 :
 public
+webrtc
+:
+:
 StreamInterface
 {
 public
@@ -139,6 +142,9 @@ data_len
 )
 const
 ;
+webrtc
+:
+:
 StreamState
 GetState
 (
@@ -146,6 +152,9 @@ GetState
 const
 override
 ;
+webrtc
+:
+:
 StreamResult
 Read
 (
@@ -166,6 +175,9 @@ error
 )
 override
 ;
+webrtc
+:
+:
 StreamResult
 Write
 (
@@ -310,6 +322,9 @@ err
 )
 ;
 }
+webrtc
+:
+:
 StreamResult
 ReadLocked
 (
@@ -327,6 +342,9 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 callback_sequence_
 )
 ;
+webrtc
+:
+:
 StreamResult
 WriteLocked
 (
@@ -351,6 +369,9 @@ webrtc
 ScopedTaskSafety
 task_safety_
 ;
+webrtc
+:
+:
 StreamState
 state_
 RTC_GUARDED_BY

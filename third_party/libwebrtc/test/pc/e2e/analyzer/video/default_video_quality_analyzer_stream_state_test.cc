@@ -62,7 +62,7 @@ StreamStateTest
 PopFrontAndFrontIndependentForEachPeer
 )
 {
-StreamState
+AnalyzerStreamState
 state
 (
 0
@@ -201,7 +201,7 @@ StreamStateTest
 IsEmpty
 )
 {
-StreamState
+AnalyzerStreamState
 state
 (
 0
@@ -272,7 +272,7 @@ StreamStateTest
 PopFrontForOnlyOnePeerDontChangeAliveFramesCount
 )
 {
-StreamState
+AnalyzerStreamState
 state
 (
 0
@@ -357,7 +357,7 @@ StreamStateTest
 PopFrontForAllPeersReducesAliveFramesCount
 )
 {
-StreamState
+AnalyzerStreamState
 state
 (
 0
@@ -442,7 +442,7 @@ StreamStateTest
 RemovePeerForLastExpectedReceiverUpdatesAliveFrames
 )
 {
-StreamState
+AnalyzerStreamState
 state
 (
 0

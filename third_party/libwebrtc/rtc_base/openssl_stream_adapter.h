@@ -207,6 +207,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 StreamInterface
 >
 stream
@@ -338,6 +341,9 @@ timeout_ms
 )
 override
 ;
+webrtc
+:
+:
 StreamResult
 Read
 (
@@ -358,6 +364,9 @@ error
 )
 override
 ;
+webrtc
+:
+:
 StreamResult
 Write
 (
@@ -385,6 +394,9 @@ Close
 )
 override
 ;
+webrtc
+:
+:
 StreamState
 GetState
 (
@@ -708,6 +720,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 StreamInterface
 >
 stream_

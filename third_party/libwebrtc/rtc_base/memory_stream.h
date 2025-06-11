@@ -28,6 +28,9 @@ MemoryStream
 final
 :
 public
+webrtc
+:
+:
 StreamInterface
 {
 public
@@ -42,6 +45,9 @@ MemoryStream
 )
 override
 ;
+webrtc
+:
+:
 StreamState
 GetState
 (
@@ -49,6 +55,9 @@ GetState
 const
 override
 ;
+webrtc
+:
+:
 StreamResult
 Read
 (
@@ -69,6 +78,9 @@ error
 )
 override
 ;
+webrtc
+:
+:
 StreamResult
 Write
 (
@@ -167,6 +179,9 @@ length
 )
 ;
 private
+:
+webrtc
+:
 :
 StreamResult
 DoReserve

@@ -307,6 +307,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 StreamInterface
 >
 stream
