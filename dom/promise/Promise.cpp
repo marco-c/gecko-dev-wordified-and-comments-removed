@@ -1444,6 +1444,9 @@ SuccessSteps
 aSuccessSteps
 FailureSteps
 aFailureSteps
+nsISupports
+*
+aCycleCollectedArg
 )
 {
 const
@@ -1479,6 +1482,13 @@ WaitForAllResults
 >
 &
 aResult
+const
+nsCOMPtr
+<
+nsISupports
+>
+&
+aCycleCollectedArg
 )
 {
 if
@@ -1587,6 +1597,11 @@ WaitForAllResults
 total
 )
 ;
+nsCOMPtr
+arg
+=
+aCycleCollectedArg
+;
 for
 (
 const
@@ -1633,6 +1648,13 @@ WaitForAllResults
 >
 &
 aResult
+const
+nsCOMPtr
+<
+nsISupports
+>
+&
+aCycleCollectedArg
 )
 -
 >
@@ -1708,6 +1730,7 @@ ThenCatchWithCycleCollectedArgs
 fulfillmentHandlerSteps
 rejectionHandlerSteps
 result
+arg
 )
 ;
 index

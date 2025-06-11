@@ -1210,6 +1210,11 @@ SuccessSteps
 aSuccessSteps
 FailureSteps
 aFailureSteps
+nsISupports
+*
+aCycleCollectedArg
+=
+nullptr
 )
 ;
 template
