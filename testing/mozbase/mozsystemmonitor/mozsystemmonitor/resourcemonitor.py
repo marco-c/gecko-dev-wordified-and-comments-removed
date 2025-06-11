@@ -5073,6 +5073,104 @@ virtual_memory
 ]
                 
 "
+categories
+"
+:
+[
+                    
+{
+                        
+"
+name
+"
+:
+"
+Other
+"
+                        
+"
+color
+"
+:
+"
+grey
+"
+                        
+"
+subcategories
+"
+:
+[
+"
+Other
+"
+]
+                    
+}
+                    
+{
+                        
+"
+name
+"
+:
+"
+Phases
+"
+                        
+"
+color
+"
+:
+"
+grey
+"
+                        
+"
+subcategories
+"
+:
+[
+"
+Other
+"
+]
+                    
+}
+                    
+{
+                        
+"
+name
+"
+:
+"
+Tasks
+"
+                        
+"
+color
+"
+:
+"
+grey
+"
+                        
+"
+subcategories
+"
+:
+[
+"
+Other
+"
+]
+                    
+}
+                
+]
+                
+"
 markerSchema
 "
 :
@@ -6249,6 +6347,18 @@ counters
         
 }
         
+OTHER_CATEGORY
+=
+0
+        
+PHASE_CATEGORY
+=
+1
+        
+TASK_CATEGORY
+=
+2
+        
 firstThread
 =
 profile
@@ -6344,13 +6454,18 @@ stringArray
 def
 add_marker
 (
+            
 name_index
 start
 end
 data
+category_index
+=
+OTHER_CATEGORY
 precision
 =
 None
+        
 )
 :
             
@@ -6452,7 +6567,7 @@ category
 .
 append
 (
-0
+category_index
 )
             
 markers
@@ -7511,6 +7626,7 @@ v
 1
 ]
 markerData
+PHASE_CATEGORY
 3
 )
         
@@ -7559,6 +7675,7 @@ name
 start
 end
 markerData
+TASK_CATEGORY
 3
 )
         
@@ -7613,6 +7730,8 @@ text
 :
 text
 }
+                        
+TASK_CATEGORY
                         
 3
                     
@@ -7682,13 +7801,16 @@ teardown
         
 add_marker
 (
+            
 phase_string_index
 self
 .
 stop_time
 now
 markerData
+PHASE_CATEGORY
 3
+        
 )
         
 teardown_string_index
@@ -7724,15 +7846,23 @@ stop
         
 add_marker
 (
+            
 teardown_string_index
+            
 self
 .
 stop_time
+            
 self
 .
 end_time
+            
 markerData
+            
+TASK_CATEGORY
+            
 3
+        
 )
         
 markerData
@@ -7759,11 +7889,14 @@ as_profile
         
 add_marker
 (
+            
 teardown_string_index
 profile_time
 now
 markerData
+TASK_CATEGORY
 3
+        
 )
         
 return
