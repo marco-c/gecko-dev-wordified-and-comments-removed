@@ -6077,7 +6077,7 @@ data
 case
 at
 .
-TRENDING_SERACH_TOGGLE_COLLAPSE
+TRENDING_SEARCH_TOGGLE_COLLAPSE
 :
 return
 {
@@ -6087,10 +6087,9 @@ return
 prevState
 collapsed
 :
-!
-prevState
+action
 .
-collapsed
+data
 }
 ;
 default

@@ -133,7 +133,7 @@ react
 ;
 import
 {
-TrendingSearchesVarA
+TrendingSearches
 }
 from
 "
@@ -144,7 +144,7 @@ DiscoveryStreamComponents
 /
 TrendingSearches
 /
-TrendingSearchesVarA
+TrendingSearches
 "
 ;
 export
@@ -1337,7 +1337,7 @@ a
 &
 &
 <
-TrendingSearchesVarA
+TrendingSearches
 /
 >
 }
@@ -1509,7 +1509,7 @@ a
 &
 &
 <
-TrendingSearchesVarA
+TrendingSearches
 /
 >
 }
