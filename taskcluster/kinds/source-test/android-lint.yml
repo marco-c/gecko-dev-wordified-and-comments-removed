@@ -81,11 +81,6 @@ gradlew
 lint
 '
 ]
-use
--
-caches
-:
-false
 worker
 :
 max

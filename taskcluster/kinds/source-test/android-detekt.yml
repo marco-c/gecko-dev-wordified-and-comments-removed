@@ -81,11 +81,6 @@ gradlew
 detekt
 '
 ]
-use
--
-caches
-:
-false
 worker
 :
 docker

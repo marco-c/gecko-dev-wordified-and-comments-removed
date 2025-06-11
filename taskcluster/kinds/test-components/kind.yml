@@ -284,11 +284,6 @@ true
 using
 :
 gradlew
-use
--
-caches
-:
-false
 treeherder
 :
 kind
