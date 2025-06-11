@@ -45,7 +45,7 @@ std
 vector
 ;
 namespace
-rtc
+webrtc
 {
 static
 const

@@ -3433,6 +3433,9 @@ std
 string
 escaped
 ;
+webrtc
+:
+:
 Base64
 :
 :
@@ -3503,6 +3506,9 @@ unescaped
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -3510,6 +3516,9 @@ DecodeFromArray
 (
 src
 szsrc
+webrtc
+:
+:
 Base64
 :
 :
@@ -3569,6 +3578,9 @@ s
 {
 EXPECT_TRUE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -3576,6 +3588,9 @@ DecodeFromArray
 (
 src
 szsrc
+webrtc
+:
+:
 Base64
 :
 :
@@ -8786,6 +8801,9 @@ const
 char
 *
 decoded
+webrtc
+:
+:
 Base64
 :
 :
@@ -8813,6 +8831,9 @@ encoded
 bool
 success
 =
+webrtc
+:
+:
 Base64
 :
 :
@@ -8891,6 +8912,9 @@ y
 z
 )
 \
+webrtc
+:
+:
 Base64
 :
 :
@@ -8899,6 +8923,9 @@ DO_PARSE_
 #
 x
 |
+webrtc
+:
+:
 Base64
 :
 :
@@ -8907,6 +8934,10 @@ DO_PAD_
 #
 y
 |
+\
+webrtc
+:
+:
 Base64
 :
 :
@@ -9591,6 +9622,9 @@ next_char
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -9614,6 +9648,9 @@ next_char
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -9637,6 +9674,9 @@ next_char
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -9660,6 +9700,9 @@ next_char
 ;
 EXPECT_FALSE
 (
+webrtc
+:
+:
 Base64
 :
 :
@@ -9675,6 +9718,9 @@ next_char
 ;
 EXPECT_FALSE
 (
+webrtc
+:
+:
 Base64
 :
 :

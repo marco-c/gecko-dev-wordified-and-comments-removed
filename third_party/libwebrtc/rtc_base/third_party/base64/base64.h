@@ -36,7 +36,7 @@ string_view
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 Base64
@@ -469,6 +469,18 @@ data_used
 )
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+Base64
 ;
 }
 #
