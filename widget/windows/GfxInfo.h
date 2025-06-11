@@ -311,14 +311,14 @@ return
 mWindowsVersion
 ;
 }
-uint32_t
-OperatingSystemBuild
+GfxVersionEx
+OperatingSystemVersionEx
 (
 )
 override
 {
 return
-mWindowsBuildNumber
+mWindowsVersionEx
 ;
 }
 #
@@ -504,6 +504,9 @@ mAdapterSubsysID
 [
 2
 ]
+;
+GfxVersionEx
+mWindowsVersionEx
 ;
 uint32_t
 mWindowsVersion
