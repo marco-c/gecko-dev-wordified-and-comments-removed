@@ -1875,6 +1875,10 @@ const
 nsAtom
 *
 aName
+const
+nsIFrame
+*
+aPositionedFrame
 )
 const
 ;

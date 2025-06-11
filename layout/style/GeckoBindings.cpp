@@ -10435,6 +10435,7 @@ presShell
 GetAnchorPosAnchor
 (
 anchorName
+aPositioned
 )
 ;
 if

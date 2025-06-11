@@ -42425,6 +42425,7 @@ PresShell
 GetAnchorPosAnchor
 (
 aAnchorSpec
+this
 )
 ;
 }
