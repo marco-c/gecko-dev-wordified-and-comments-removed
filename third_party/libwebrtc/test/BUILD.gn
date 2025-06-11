@@ -910,6 +910,14 @@ frame_generator_api
 .
 /
 api
+:
+scoped_refptr
+"
+"
+.
+.
+/
+api
 /
 task_queue
 "
