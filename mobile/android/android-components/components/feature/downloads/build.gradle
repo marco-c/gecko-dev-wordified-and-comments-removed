@@ -222,6 +222,12 @@ viewBinding
 =
 true
 }
+testFixtures
+{
+enable
+=
+true
+}
 namespace
 =
 '
@@ -515,6 +521,14 @@ libs
 testing
 .
 coroutines
+testFixturesImplementation
+libs
+.
+kotlinx
+.
+coroutines
+.
+core
 }
 apply
 from
