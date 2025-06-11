@@ -1751,10 +1751,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-dee6be5533
+b35bcf3682
 .
 .
-508d4d9a4c
+3e8b803a2e
 100644
 -
 -
@@ -1965,10 +1965,10 @@ rtp_video_stream_receiver2
 .
 h
 index
-d1802f865a
+92d7655b8a
 .
 .
-145105d7a4
+9f9c083311
 100644
 -
 -
@@ -2130,7 +2130,7 @@ packet_sequence_checker_
 /
 h26x_packet_buffer_
 is
-nullptr
+null
 if
 codec
 list
@@ -2142,6 +2142,10 @@ H
 .
 264
 or
+H
+.
+265
+.
 diff
 -
 -
