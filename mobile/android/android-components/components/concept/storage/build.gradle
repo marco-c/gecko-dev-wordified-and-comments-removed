@@ -200,8 +200,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -217,8 +215,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

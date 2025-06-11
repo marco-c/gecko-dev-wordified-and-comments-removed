@@ -151,8 +151,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 state

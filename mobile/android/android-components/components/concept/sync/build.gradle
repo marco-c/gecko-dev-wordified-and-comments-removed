@@ -205,8 +205,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base

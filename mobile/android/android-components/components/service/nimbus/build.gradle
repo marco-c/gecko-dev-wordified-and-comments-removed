@@ -382,8 +382,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -393,8 +391,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -406,8 +402,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -417,8 +411,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -525,8 +517,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

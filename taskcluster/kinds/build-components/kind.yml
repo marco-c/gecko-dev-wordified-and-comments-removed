@@ -106,8 +106,6 @@ for
 components
 :
 -
-components
-:
 samples
 -
 browser
@@ -645,8 +643,6 @@ isn
 '
 t
 defined
-components
-:
 tooling
 -
 lint
@@ -699,8 +695,6 @@ isn
 '
 t
 defined
-components
-:
 tooling
 -
 detekt
@@ -747,16 +741,12 @@ publish
 on
 these
 tasks
-components
-:
 tooling
 -
 fetch
 -
 tests
 |
-components
-:
 samples
 -
 .

@@ -159,8 +159,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -170,8 +168,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -183,8 +179,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 publicsuffixlist
@@ -194,8 +188,6 @@ implementation
 project
 (
 '
-:
-components
 :
 service
 -
@@ -207,8 +199,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -218,8 +208,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -231,8 +219,6 @@ project
 (
 "
 :
-components
-:
 support
 -
 utils
@@ -242,8 +228,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -313,8 +297,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -324,8 +306,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 lib
 -

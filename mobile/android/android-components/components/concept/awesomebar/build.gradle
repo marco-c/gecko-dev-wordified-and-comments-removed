@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base

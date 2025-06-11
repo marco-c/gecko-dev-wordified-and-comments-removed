@@ -342,8 +342,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -354,8 +352,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -365,8 +361,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -444,8 +438,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -455,8 +447,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -469,8 +459,6 @@ androidTestImplementation
 project
 (
 '
-:
-components
 :
 support
 -

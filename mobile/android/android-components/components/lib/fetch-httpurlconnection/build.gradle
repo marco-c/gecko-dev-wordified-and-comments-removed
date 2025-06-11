@@ -148,8 +148,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -187,8 +185,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 tooling
 -

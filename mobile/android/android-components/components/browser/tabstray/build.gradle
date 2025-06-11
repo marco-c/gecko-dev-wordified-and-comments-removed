@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 tabstray
@@ -151,8 +149,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -164,8 +160,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -175,8 +169,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -188,8 +180,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -200,8 +190,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 images
@@ -211,8 +199,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -247,8 +233,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

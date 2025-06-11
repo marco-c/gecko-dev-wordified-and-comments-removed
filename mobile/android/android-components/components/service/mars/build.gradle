@@ -218,8 +218,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -229,8 +227,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -242,8 +238,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 base
@@ -253,8 +247,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -309,8 +301,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

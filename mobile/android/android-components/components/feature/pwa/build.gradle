@@ -247,8 +247,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 icons
@@ -258,8 +256,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -271,8 +267,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -282,8 +276,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -295,8 +287,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 customtabs
@@ -306,8 +296,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -319,8 +307,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 intent
@@ -330,8 +316,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -343,8 +327,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 digitalassetlinks
@@ -354,8 +336,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -367,8 +347,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 images
@@ -379,8 +357,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -390,8 +366,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -447,8 +421,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -458,8 +430,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

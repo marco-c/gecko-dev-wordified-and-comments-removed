@@ -146,8 +146,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -158,8 +156,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -170,8 +166,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -181,8 +175,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -193,8 +185,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -231,8 +221,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 lib
 -

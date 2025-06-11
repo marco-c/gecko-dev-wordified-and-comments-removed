@@ -459,13 +459,10 @@ if
 (
 project
 .
-path
-=
-=
-"
-:
 name
-"
+=
+=
+name
 )
 {
 project

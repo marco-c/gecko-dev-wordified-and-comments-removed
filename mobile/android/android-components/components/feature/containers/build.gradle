@@ -235,8 +235,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -247,8 +245,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -258,8 +254,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -306,8 +300,6 @@ androidTestImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -369,8 +361,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -380,8 +370,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

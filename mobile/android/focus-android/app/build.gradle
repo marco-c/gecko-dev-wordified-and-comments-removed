@@ -1994,8 +1994,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 engine
@@ -2008,8 +2006,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 domains
@@ -2019,8 +2015,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -2032,8 +2026,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 icons
@@ -2044,8 +2036,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 menu
@@ -2055,8 +2045,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -2068,8 +2056,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 toolbar
@@ -2080,8 +2066,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 awesomebar
@@ -2091,8 +2075,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -2104,8 +2086,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 fetch
@@ -2115,8 +2095,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -2128,8 +2106,6 @@ project
 (
 '
 :
-components
-:
 compose
 -
 awesomebar
@@ -2140,8 +2116,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 awesomebar
@@ -2151,8 +2125,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2166,8 +2138,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 customtabs
@@ -2177,8 +2147,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2190,8 +2158,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 downloads
@@ -2201,8 +2167,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2214,8 +2178,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 intent
@@ -2225,8 +2187,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2238,8 +2198,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 session
@@ -2249,8 +2207,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2262,8 +2218,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 tabs
@@ -2274,8 +2228,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 toolbar
@@ -2285,8 +2237,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2300,8 +2250,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 sitepermissions
@@ -2312,8 +2260,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 crash
@@ -2323,8 +2269,6 @@ implementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -2338,8 +2282,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 state
@@ -2349,8 +2291,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2362,8 +2302,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 auth
@@ -2373,8 +2311,6 @@ implementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -2386,8 +2322,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 location
@@ -2397,8 +2331,6 @@ implementation
 project
 (
 '
-:
-components
 :
 service
 -
@@ -2410,8 +2342,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -2421,8 +2351,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -2434,8 +2362,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 remotesettings
@@ -2445,8 +2371,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -2458,8 +2382,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 license
@@ -2469,8 +2391,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -2482,8 +2402,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -2493,8 +2411,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -2506,8 +2422,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 tabcounter
@@ -2517,8 +2431,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -2530,8 +2442,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 webcompat
@@ -2541,8 +2451,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -2556,8 +2464,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 webextensions
@@ -2567,8 +2473,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -2580,8 +2484,6 @@ project
 (
 '
 :
-components
-:
 compose
 -
 cfr
@@ -2591,8 +2493,6 @@ implementation
 project
 (
 "
-:
-components
 :
 service
 -
@@ -2715,8 +2615,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -2726,8 +2624,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -2752,8 +2648,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -2872,8 +2766,6 @@ lintChecks
 project
 (
 '
-:
-components
 :
 tooling
 -

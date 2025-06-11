@@ -284,8 +284,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -295,8 +293,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -308,8 +304,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 widgets
@@ -319,8 +313,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -332,8 +324,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -343,8 +333,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -356,8 +344,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 menu
@@ -367,8 +353,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -380,8 +364,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -391,8 +373,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -404,8 +384,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 utils
@@ -416,8 +394,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -427,8 +403,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

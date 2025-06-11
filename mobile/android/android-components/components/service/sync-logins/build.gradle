@@ -246,8 +246,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 sync
@@ -257,8 +255,6 @@ api
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -270,8 +266,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 storage
@@ -281,8 +275,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -

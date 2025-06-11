@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 awesomebar
@@ -151,8 +149,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -164,8 +160,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -175,8 +169,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -188,8 +180,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 storage
@@ -200,8 +190,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -211,8 +199,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -226,8 +212,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 icons
@@ -237,8 +221,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -252,8 +234,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 tabs
@@ -263,8 +243,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -276,8 +254,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 search
@@ -287,8 +263,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -300,8 +274,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 utils
@@ -311,8 +283,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -332,8 +302,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -343,8 +311,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 lib
 -

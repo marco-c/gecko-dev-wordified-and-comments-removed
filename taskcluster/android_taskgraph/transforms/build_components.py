@@ -315,36 +315,6 @@ Pcoverage
         
 yield
 task
-def
-get_component_name
-(
-component
-)
-:
-    
-prefix
-_
-name
-=
-component
-.
-partition
-(
-"
-:
-"
-)
-    
-assert
-prefix
-=
-=
-"
-components
-"
-    
-return
-name
 transforms
 .
 add
@@ -422,13 +392,6 @@ component
 "
 ]
             
-group
-=
-get_component_name
-(
-component
-)
-            
 _deep_format
 (
                 
@@ -450,7 +413,7 @@ timestamp
                 
 treeherder_group
 =
-group
+component
 [
 :
 25
@@ -1040,10 +1003,7 @@ format
                     
 component
 =
-get_component_name
-(
 component
-)
                     
 version
 =
@@ -1201,10 +1161,7 @@ component
                             
 component
 =
-get_component_name
-(
 component
-)
                             
 version
 =

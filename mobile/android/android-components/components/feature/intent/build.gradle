@@ -140,8 +140,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -151,8 +149,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -164,8 +160,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 search
@@ -175,8 +169,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -188,8 +180,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 tabs
@@ -199,8 +189,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -212,8 +200,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -224,8 +210,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 test
@@ -235,8 +219,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

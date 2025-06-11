@@ -154,8 +154,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -165,8 +163,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -178,8 +174,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -189,8 +183,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -202,8 +194,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -214,8 +204,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 colors
@@ -225,8 +213,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -275,8 +261,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

@@ -353,8 +353,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 awesomebar
@@ -364,8 +362,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -377,8 +373,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -388,8 +382,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -401,8 +393,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 toolbar
@@ -412,8 +402,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -425,8 +413,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 base
@@ -437,8 +423,6 @@ project
 (
 '
 :
-components
-:
 compose
 -
 awesomebar
@@ -448,8 +432,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -463,8 +445,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 domains
@@ -475,8 +455,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 icons
@@ -486,8 +464,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -501,8 +477,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -512,8 +486,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -525,8 +497,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 thumbnails
@@ -536,8 +506,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -549,8 +517,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 menu
@@ -560,8 +526,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -575,8 +539,6 @@ project
 (
 '
 :
-components
-:
 lib
 -
 fetch
@@ -589,8 +551,6 @@ project
 (
 "
 :
-components
-:
 lib
 -
 crash
@@ -600,8 +560,6 @@ implementation
 project
 (
 '
-:
-components
 :
 lib
 -
@@ -613,8 +571,6 @@ project
 (
 "
 :
-components
-:
 lib
 -
 publicsuffixlist
@@ -624,8 +580,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -637,8 +591,6 @@ project
 (
 "
 :
-components
-:
 feature
 -
 autofill
@@ -648,8 +600,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -663,8 +613,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 contextmenu
@@ -674,8 +622,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -687,8 +633,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 downloads
@@ -698,8 +642,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -711,8 +653,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 media
@@ -722,8 +662,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -735,8 +673,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 search
@@ -746,8 +682,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -759,8 +693,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 toolbar
@@ -770,8 +702,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -783,8 +713,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 prompts
@@ -794,8 +722,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -807,8 +733,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 pwa
@@ -818,8 +742,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -831,8 +753,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 sitepermissions
@@ -843,8 +763,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 webcompat
@@ -854,8 +772,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -869,8 +785,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 webnotifications
@@ -880,8 +794,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -893,8 +805,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 autocomplete
@@ -905,8 +815,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 tabcounter
@@ -916,8 +824,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -966,8 +872,6 @@ project
 (
 "
 :
-components
-:
 service
 -
 glean
@@ -984,8 +888,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 location
@@ -996,8 +898,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 digitalassetlinks
@@ -1007,8 +907,6 @@ implementation
 project
 (
 '
-:
-components
 :
 service
 -
@@ -1022,7 +920,15 @@ project
 (
 '
 :
-components
+support
+-
+appservices
+'
+)
+implementation
+project
+(
+'
 :
 support
 -
@@ -1034,8 +940,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 locale
@@ -1045,8 +949,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -1058,8 +960,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -1069,8 +969,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -1082,20 +980,6 @@ project
 (
 '
 :
-components
-:
-support
--
-appservices
-'
-)
-implementation
-project
-(
-'
-:
-components
-:
 feature
 -
 screendetection
@@ -1105,8 +989,6 @@ geckoImplementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -1221,8 +1103,6 @@ androidTestImplementation
 project
 (
 '
-:
-components
 :
 support
 -

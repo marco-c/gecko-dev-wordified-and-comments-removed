@@ -162,8 +162,6 @@ project
 (
 '
 :
-components
-:
 service
 -
 firefox
@@ -176,8 +174,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 icons
@@ -188,8 +184,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -199,8 +193,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -214,8 +206,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 awesomebar
@@ -225,8 +215,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -238,8 +226,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 toolbar
@@ -249,8 +235,6 @@ implementation
 project
 (
 '
-:
-components
 :
 feature
 -
@@ -262,8 +246,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 utils
@@ -274,8 +256,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -285,8 +265,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -319,8 +297,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -

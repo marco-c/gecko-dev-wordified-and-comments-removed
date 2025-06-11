@@ -152,8 +152,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 state
@@ -163,8 +161,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -178,8 +174,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 thumbnails
@@ -190,8 +184,6 @@ project
 (
 '
 :
-components
-:
 browser
 -
 tabstray
@@ -201,8 +193,6 @@ implementation
 project
 (
 '
-:
-components
 :
 browser
 -
@@ -214,8 +204,6 @@ project
 (
 '
 :
-components
-:
 feature
 -
 session
@@ -225,8 +213,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -238,8 +224,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 tabstray
@@ -249,8 +233,6 @@ implementation
 project
 (
 '
-:
-components
 :
 concept
 -
@@ -262,8 +244,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 menu
@@ -273,8 +253,6 @@ implementation
 project
 (
 '
-:
-components
 :
 ui
 -
@@ -286,8 +264,6 @@ project
 (
 '
 :
-components
-:
 ui
 -
 tabcounter
@@ -298,8 +274,6 @@ project
 (
 '
 :
-components
-:
 support
 -
 ktx
@@ -309,8 +283,6 @@ implementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -361,8 +333,6 @@ project
 (
 '
 :
-components
-:
 concept
 -
 engine
@@ -372,8 +342,6 @@ testImplementation
 project
 (
 '
-:
-components
 :
 support
 -
@@ -404,8 +372,6 @@ testImplementation
 project
 (
 "
-:
-components
 :
 support
 -
