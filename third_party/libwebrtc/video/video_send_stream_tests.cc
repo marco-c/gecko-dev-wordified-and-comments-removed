@@ -11794,9 +11794,6 @@ Start
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -11866,9 +11863,6 @@ Copy
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

@@ -261,7 +261,7 @@ StunRequestTest
 :
 manager_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -384,7 +384,7 @@ true
 }
 protected
 :
-rtc
+webrtc
 :
 :
 AutoThread

@@ -64,6 +64,9 @@ read_position_
 )
 owner_
 (
+webrtc
+:
+:
 Thread
 :
 :
@@ -80,6 +83,9 @@ FifoBuffer
 (
 size_t
 size
+webrtc
+:
+:
 Thread
 *
 owner

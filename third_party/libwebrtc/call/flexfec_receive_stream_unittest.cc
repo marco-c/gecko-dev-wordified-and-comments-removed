@@ -512,9 +512,6 @@ UnregisterFromTransport
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;

@@ -288,9 +288,6 @@ FakeNetworkSocket
 FakeNetworkSocketServer
 *
 scoket_manager
-rtc
-:
-:
 Thread
 *
 thread
@@ -485,9 +482,6 @@ FakeNetworkSocketServer
 const
 socket_server_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -581,9 +575,6 @@ FakeNetworkSocket
 FakeNetworkSocketServer
 *
 socket_server
-rtc
-:
-:
 Thread
 *
 thread
@@ -1767,9 +1758,6 @@ FakeNetworkSocketServer
 :
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 thread
@@ -1800,9 +1788,6 @@ RTC_DCHECK
 thread_
 =
 =
-rtc
-:
-:
 Thread
 :
 :

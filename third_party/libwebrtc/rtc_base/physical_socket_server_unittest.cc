@@ -459,15 +459,9 @@ class
 FakeNetworkBinder
 :
 public
-rtc
-:
-:
 NetworkBinderInterface
 {
 public
-:
-rtc
-:
 :
 NetworkBindingResult
 BindSocketToNetwork
@@ -490,9 +484,6 @@ result_
 void
 set_result
 (
-rtc
-:
-:
 NetworkBindingResult
 result
 )
@@ -512,9 +503,6 @@ num_binds_
 ;
 }
 private
-:
-rtc
-:
 :
 NetworkBindingResult
 result_
@@ -638,9 +626,6 @@ loopback
 FakePhysicalSocketServer
 server_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 thread_
 ;
@@ -2411,9 +2396,6 @@ fake_network_binder
 .
 set_result
 (
-rtc
-:
-:
 NetworkBindingResult
 :
 :
@@ -2573,9 +2555,6 @@ fake_network_binder
 .
 set_result
 (
-rtc
-:
-:
 NetworkBindingResult
 :
 :

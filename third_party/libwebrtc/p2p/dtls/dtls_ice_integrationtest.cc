@@ -1371,7 +1371,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -1814,7 +1814,7 @@ time_controller
 ;
 }
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -1858,7 +1858,7 @@ network_thread
 ;
 }
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -1874,7 +1874,7 @@ client_
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -2160,7 +2160,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AutoSocketServerThread

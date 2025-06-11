@@ -196,9 +196,6 @@ NATServer
 (
 NATType
 type
-rtc
-:
-:
 Thread
 &
 internal_socket_thread
@@ -213,9 +210,6 @@ const
 SocketAddress
 &
 internal_tcp_addr
-rtc
-:
-:
 Thread
 &
 external_socket_thread
@@ -433,16 +427,10 @@ NAT
 *
 nat_
 ;
-rtc
-:
-:
 Thread
 &
 internal_socket_thread_
 ;
-rtc
-:
-:
 Thread
 &
 external_socket_thread_

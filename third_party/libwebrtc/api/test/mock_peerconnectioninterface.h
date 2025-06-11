@@ -1298,9 +1298,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

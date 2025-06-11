@@ -79,7 +79,7 @@ audioDeviceModule
 audioDeviceThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread

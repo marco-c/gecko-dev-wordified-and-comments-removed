@@ -47,9 +47,6 @@ class
 MainThread
 :
 public
-rtc
-:
-:
 Thread
 {
 public
@@ -186,9 +183,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 RealTimeController
@@ -238,9 +232,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Thread
 >
 (
@@ -273,9 +264,6 @@ return
 res
 ;
 }
-rtc
-:
-:
 Thread
 *
 RealTimeController

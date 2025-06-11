@@ -602,9 +602,6 @@ PeerScenarioClient
 NetworkEmulationManager
 *
 net
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -653,9 +650,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 thread
@@ -869,9 +863,6 @@ TaskQueueFactory
 const
 task_queue_factory_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -893,9 +884,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

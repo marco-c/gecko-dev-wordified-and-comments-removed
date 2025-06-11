@@ -132,9 +132,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 CreateThread
@@ -161,9 +158,6 @@ nullptr
 0
 ;
 virtual
-rtc
-:
-:
 Thread
 *
 GetMainThread

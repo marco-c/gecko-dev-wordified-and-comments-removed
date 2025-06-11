@@ -480,9 +480,6 @@ sctp_transport_factory
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -499,9 +496,6 @@ signaling_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -612,9 +606,6 @@ PeerConnectionFactory
 )
 ;
 private
-:
-rtc
-:
 :
 Thread
 *

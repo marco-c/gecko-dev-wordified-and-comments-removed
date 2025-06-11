@@ -328,9 +328,6 @@ cricket
 FakePortAllocator
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -372,9 +369,6 @@ ice_transport_
 get
 (
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -601,9 +595,6 @@ VirtualSocketServer
 >
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 thread_
 ;

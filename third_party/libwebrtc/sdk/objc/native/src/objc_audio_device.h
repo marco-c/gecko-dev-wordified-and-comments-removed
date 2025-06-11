@@ -794,9 +794,6 @@ cached_recording_delay_ms_
 =
 0
 ;
-rtc
-:
-:
 Thread
 *
 thread_

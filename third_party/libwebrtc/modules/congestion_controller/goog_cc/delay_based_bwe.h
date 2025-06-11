@@ -542,9 +542,6 @@ DataRate
 target_rate
 )
 ;
-rtc
-:
-:
 RaceChecker
 network_race_
 ;

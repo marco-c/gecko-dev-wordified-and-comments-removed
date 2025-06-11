@@ -3805,9 +3805,6 @@ empty
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -5601,9 +5598,6 @@ network_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -5917,9 +5911,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -7335,9 +7326,6 @@ GetTransceiversInternal
 )
 ;
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -7525,9 +7513,6 @@ BlockingCall
 &
 ]
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -7756,9 +7741,6 @@ it
 }
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8033,9 +8015,6 @@ network_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8546,9 +8525,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

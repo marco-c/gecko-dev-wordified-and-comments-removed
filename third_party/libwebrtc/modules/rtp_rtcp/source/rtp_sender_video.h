@@ -818,9 +818,6 @@ Clock
 const
 clock_
 ;
-rtc
-:
-:
 RaceChecker
 send_checker_
 ;

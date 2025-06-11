@@ -471,9 +471,6 @@ virtual_socket_server_
 network_thread_
 (
 new
-rtc
-:
-:
 Thread
 (
 &
@@ -482,9 +479,6 @@ virtual_socket_server_
 )
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -607,9 +601,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 network_thread_
@@ -619,9 +610,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

@@ -175,9 +175,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 Thread
 *
 >
@@ -329,9 +326,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 >

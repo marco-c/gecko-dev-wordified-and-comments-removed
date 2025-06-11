@@ -169,9 +169,6 @@ webrtc
 {
 namespace
 {
-rtc
-:
-:
 ThreadPriority
 TaskQueuePriorityToThreadPriority
 (
@@ -197,9 +194,6 @@ Priority
 HIGH
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -215,9 +209,6 @@ Priority
 LOW
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -233,9 +224,6 @@ Priority
 NORMAL
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -259,9 +247,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )
@@ -428,9 +413,6 @@ kForever
 }
 ;
 static
-rtc
-:
-:
 PlatformThread
 InitializeThread
 (
@@ -442,9 +424,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )
@@ -542,9 +521,6 @@ RTC_GUARDED_BY
 pending_lock_
 )
 ;
-rtc
-:
-:
 PlatformThread
 thread_
 ;
@@ -560,9 +536,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )
@@ -583,9 +556,6 @@ priority
 )
 {
 }
-rtc
-:
-:
 PlatformThread
 TaskQueueStdlib
 :
@@ -600,9 +570,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )
@@ -613,9 +580,6 @@ started
 auto
 thread
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -648,9 +612,6 @@ ProcessTasks
 ;
 }
 queue_name
-rtc
-:
-:
 ThreadAttributes
 (
 )

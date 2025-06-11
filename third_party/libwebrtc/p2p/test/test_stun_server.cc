@@ -68,9 +68,6 @@ const
 SocketAddress
 &
 addr
-rtc
-:
-:
 Thread
 &
 network_thread

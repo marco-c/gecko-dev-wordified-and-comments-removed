@@ -61,9 +61,6 @@ internal
 :
 creator_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -132,9 +129,6 @@ override
 private
 :
 const
-rtc
-:
-:
 Thread
 *
 creator_thread_

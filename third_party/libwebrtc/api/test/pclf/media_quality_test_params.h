@@ -475,9 +475,6 @@ InjectableComponents
 {
 InjectableComponents
 (
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -556,17 +553,11 @@ socket_factory
 socket_factory
 ;
 }
-rtc
-:
-:
 Thread
 *
 const
 network_thread
 ;
-rtc
-:
-:
 Thread
 *
 worker_thread

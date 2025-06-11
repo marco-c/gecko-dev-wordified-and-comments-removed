@@ -820,9 +820,6 @@ field_trials_
 )
 signaling_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -864,16 +861,10 @@ JsepTransportController
 :
 Config
 config
-rtc
-:
-:
 Thread
 *
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2176,9 +2167,6 @@ state
 {
 ice_signaled_on_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2207,9 +2195,6 @@ state
 {
 ice_signaled_on_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2258,9 +2243,6 @@ state
 ;
 ice_signaled_on_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2286,9 +2268,6 @@ state
 {
 ice_signaled_on_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2323,9 +2302,6 @@ candidates
 {
 ice_signaled_on_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2440,9 +2416,6 @@ field_trials_
 Environment
 env_
 ;
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -2540,9 +2513,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 network_thread_
@@ -2565,9 +2535,6 @@ FakeDtlsTransportFactory
 >
 fake_dtls_transport_factory_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -2575,9 +2542,6 @@ signaling_thread_
 =
 nullptr
 ;
-rtc
-:
-:
 Thread
 *
 ice_signaled_on_thread_
@@ -7522,9 +7486,6 @@ IceSignalingOccursOnNetworkThread
 {
 network_thread_
 =
-rtc
-:
-:
 Thread
 :
 :

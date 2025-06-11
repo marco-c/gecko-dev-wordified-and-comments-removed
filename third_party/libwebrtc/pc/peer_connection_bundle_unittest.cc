@@ -1264,9 +1264,6 @@ pcf_deps
 .
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1278,9 +1275,6 @@ pcf_deps
 .
 worker_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1292,9 +1286,6 @@ pcf_deps
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1653,9 +1644,6 @@ candidate
 VirtualSocketServer
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_
 ;

@@ -32,7 +32,7 @@ thread_annotations
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 internal
@@ -87,6 +87,9 @@ access_count_
 ;
 mutable
 volatile
+rtc
+:
+:
 PlatformThreadRef
 accessing_thread_
 ;
@@ -175,6 +178,18 @@ RTC_UNLOCK_FUNCTION
 ;
 }
 }
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+RaceChecker
+;
+}
 #
 define
 RTC_CHECK_RUNS_SERIALIZED
@@ -207,7 +222,7 @@ x
 suffix
 )
 \
-rtc
+webrtc
 :
 :
 internal
@@ -245,7 +260,7 @@ RTC_DCHECK_RUNS_SERIALIZED
 x
 )
 \
-rtc
+webrtc
 :
 :
 internal
@@ -276,7 +291,7 @@ RTC_DCHECK_RUNS_SERIALIZED
 x
 )
 \
-rtc
+webrtc
 :
 :
 internal

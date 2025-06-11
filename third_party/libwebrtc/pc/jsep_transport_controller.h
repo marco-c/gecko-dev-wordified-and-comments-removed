@@ -526,9 +526,6 @@ namespace
 rtc
 {
 class
-Thread
-;
-class
 PacketTransportInternal
 ;
 }
@@ -739,9 +736,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -2269,9 +2263,6 @@ const
 Environment
 env_
 ;
-rtc
-:
-:
 Thread
 *
 const

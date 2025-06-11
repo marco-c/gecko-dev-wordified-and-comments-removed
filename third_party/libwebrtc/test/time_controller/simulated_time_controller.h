@@ -224,9 +224,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 CreateThread
@@ -349,16 +346,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 dummy_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -555,9 +546,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 CreateThread
@@ -580,9 +568,6 @@ socket_server
 )
 override
 ;
-rtc
-:
-:
 Thread
 *
 GetMainThread
@@ -649,9 +634,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 main_thread_

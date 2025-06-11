@@ -73,9 +73,6 @@ psnr_coverage
 =
 1
 ;
-rtc
-:
-:
 Thread
 *
 thread

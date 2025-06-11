@@ -721,9 +721,6 @@ Millis
 }
 else
 {
-rtc
-:
-:
 Thread
 :
 :

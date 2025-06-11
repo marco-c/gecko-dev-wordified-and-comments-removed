@@ -238,9 +238,6 @@ public
 :
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -274,9 +271,6 @@ nullptr
 ;
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -716,9 +710,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 signaling_thread_checker_
 ;
-rtc
-:
-:
 Thread
 *
 const

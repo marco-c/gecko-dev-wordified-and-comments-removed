@@ -1487,7 +1487,7 @@ allocator
 )
 network_thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -7957,7 +7957,7 @@ epoch
 {
 RTC_DCHECK
 (
-rtc
+webrtc
 :
 :
 Thread

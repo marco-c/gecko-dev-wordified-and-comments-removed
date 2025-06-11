@@ -5519,9 +5519,6 @@ DtlsTransport
 >
 LookupDtlsTransportByMid
 (
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -8841,9 +8838,6 @@ UpdateNegotiationNeeded
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 SdpOfferAnswerHandler
@@ -8863,9 +8857,6 @@ signaling_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 SdpOfferAnswerHandler
@@ -15042,9 +15033,6 @@ MediaStreamProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -15127,9 +15115,6 @@ MediaStreamProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -26976,9 +26961,6 @@ MediaStreamProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -27107,9 +27089,6 @@ MediaStreamProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -28890,9 +28869,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

@@ -771,9 +771,6 @@ RtpReceiverInternal
 rtp_receivers
 )
 {
-rtc
-:
-:
 Thread
 :
 :

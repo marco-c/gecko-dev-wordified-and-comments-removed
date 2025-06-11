@@ -403,9 +403,6 @@ DtlsTransportState
 state
 )
 ;
-rtc
-:
-:
 Thread
 *
 const

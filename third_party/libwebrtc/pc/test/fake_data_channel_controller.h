@@ -179,7 +179,7 @@ public
 explicit
 FakeDataChannelController
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -189,7 +189,7 @@ network_thread
 :
 signaling_thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1251,7 +1251,7 @@ channels_closed_
 }
 private
 :
-rtc
+webrtc
 :
 :
 Thread
@@ -1259,7 +1259,7 @@ Thread
 const
 signaling_thread_
 ;
-rtc
+webrtc
 :
 :
 Thread

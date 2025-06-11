@@ -156,10 +156,10 @@ video_capture_impl
 .
 h
 index
-e46e050609
+962aa29f86
 .
 .
-dcc93fd3a0
+d0f604afe4
 100644
 -
 -
@@ -198,9 +198,6 @@ VideoCaptureImpl
 public
 VideoCaptureModule
 {
-rtc
-:
-:
 RaceChecker
 capture_checker_
 ;

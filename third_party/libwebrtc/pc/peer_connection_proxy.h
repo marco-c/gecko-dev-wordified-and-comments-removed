@@ -780,9 +780,6 @@ GetNetworkController
 )
 BYPASS_PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

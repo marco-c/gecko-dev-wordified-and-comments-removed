@@ -96,9 +96,6 @@ public
 explicit
 PeerConnectionMessageHandler
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

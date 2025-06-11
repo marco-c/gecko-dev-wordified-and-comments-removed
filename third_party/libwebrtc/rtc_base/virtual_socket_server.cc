@@ -3736,9 +3736,6 @@ VirtualSocketServer
 :
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 msg_queue
@@ -3771,9 +3768,6 @@ if
 stop_on_idle_
 &
 &
-rtc
-:
-:
 Thread
 :
 :
@@ -3896,9 +3890,6 @@ msg_queue_
 >
 ProcessMessages
 (
-rtc
-:
-:
 Thread
 :
 :

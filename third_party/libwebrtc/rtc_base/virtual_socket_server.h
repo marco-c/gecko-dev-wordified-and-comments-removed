@@ -1093,9 +1093,6 @@ override
 void
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue
@@ -1593,9 +1590,6 @@ nullptr
 Event
 wakeup_
 ;
-rtc
-:
-:
 Thread
 *
 msg_queue_

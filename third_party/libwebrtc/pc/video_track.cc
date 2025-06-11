@@ -68,9 +68,6 @@ VideoTrackSourceInterface
 >
 >
 source
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -588,9 +585,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -651,9 +645,6 @@ scoped_refptr
 VideoTrackSourceInterface
 >
 source
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -676,9 +667,6 @@ VideoTrackSourceProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :

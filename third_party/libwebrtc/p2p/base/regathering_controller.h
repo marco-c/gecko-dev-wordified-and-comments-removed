@@ -95,9 +95,6 @@ config
 IceTransportInternal
 *
 ice_transport
-rtc
-:
-:
 Thread
 *
 thread
@@ -216,9 +213,6 @@ allocator_session_
 =
 nullptr
 ;
-rtc
-:
-:
 Thread
 *
 const

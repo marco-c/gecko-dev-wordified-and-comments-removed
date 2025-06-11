@@ -235,9 +235,6 @@ monostate
 &
 )
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -251,9 +248,6 @@ ProcessMessages
 0
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

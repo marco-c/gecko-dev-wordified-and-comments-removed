@@ -146,14 +146,14 @@ return
 1
 ;
 }
-rtc
+webrtc
 :
 :
 Thread
 *
 pthMain
 =
-rtc
+webrtc
 :
 :
 ThreadManager

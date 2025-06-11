@@ -268,9 +268,6 @@ PeerConnectionFactoryInterface
 >
 CreateDefaultFactory
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

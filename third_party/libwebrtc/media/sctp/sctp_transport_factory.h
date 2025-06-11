@@ -68,7 +68,7 @@ public
 explicit
 SctpTransportFactory
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -100,7 +100,7 @@ override
 ;
 private
 :
-rtc
+webrtc
 :
 :
 Thread

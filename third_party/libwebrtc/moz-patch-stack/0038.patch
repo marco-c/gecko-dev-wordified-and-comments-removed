@@ -123,10 +123,10 @@ platform_thread
 .
 cc
 index
-f75ce8c3dc
+b7141bcf16
 .
 .
-81e115b568
+cc1c9c1c76
 100644
 -
 -
@@ -173,7 +173,7 @@ h
 "
 +
 namespace
-rtc
+webrtc
 {
 namespace
 {

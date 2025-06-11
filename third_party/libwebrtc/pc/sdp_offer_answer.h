@@ -1088,9 +1088,6 @@ CodecLookupHelper
 codec_lookup_helper
 )
 ;
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -1098,9 +1095,6 @@ signaling_thread
 )
 const
 ;
-rtc
-:
-:
 Thread
 *
 network_thread

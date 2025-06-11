@@ -1463,9 +1463,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -1972,9 +1969,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -1988,9 +1982,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 Thread
 *
 worker_thread

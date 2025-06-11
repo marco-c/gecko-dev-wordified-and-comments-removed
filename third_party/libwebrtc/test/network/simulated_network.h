@@ -336,9 +336,6 @@ mutable
 Mutex
 config_lock_
 ;
-rtc
-:
-:
 RaceChecker
 process_checker_
 ;

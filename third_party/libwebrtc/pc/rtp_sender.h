@@ -1015,9 +1015,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -1106,17 +1103,11 @@ const
 Environment
 env_
 ;
-rtc
-:
-:
 Thread
 *
 const
 signaling_thread_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -1460,9 +1451,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -1583,9 +1571,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -1758,9 +1743,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -1862,9 +1844,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread

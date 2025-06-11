@@ -1592,9 +1592,6 @@ RTC_GUARDED_BY
 queue_
 )
 ;
-rtc
-:
-:
 RaceChecker
 incoming_frame_race_checker_
 ;

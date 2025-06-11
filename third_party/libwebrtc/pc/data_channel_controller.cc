@@ -2796,9 +2796,6 @@ OnTransportChannelCreated
 ;
 }
 }
-rtc
-:
-:
 Thread
 *
 DataChannelController
@@ -2818,9 +2815,6 @@ network_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 DataChannelController

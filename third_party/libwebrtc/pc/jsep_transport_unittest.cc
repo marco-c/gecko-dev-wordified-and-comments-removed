@@ -1264,7 +1264,7 @@ signal_rtcp_mux_active_received_
 true
 ;
 }
-rtc
+webrtc
 :
 :
 AutoThread

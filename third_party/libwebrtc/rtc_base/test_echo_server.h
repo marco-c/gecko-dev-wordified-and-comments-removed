@@ -137,9 +137,6 @@ public
 :
 TestEchoServer
 (
-rtc
-:
-:
 Thread
 *
 thread
@@ -385,9 +382,6 @@ erase
 it
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

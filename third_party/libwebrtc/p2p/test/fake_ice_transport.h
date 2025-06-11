@@ -354,7 +354,7 @@ string_view
 name
 int
 component
-rtc
+webrtc
 :
 :
 Thread
@@ -378,7 +378,7 @@ network_thread
 ?
 network_thread
 :
-rtc
+webrtc
 :
 :
 Thread
@@ -3427,7 +3427,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-rtc
+webrtc
 :
 :
 Thread

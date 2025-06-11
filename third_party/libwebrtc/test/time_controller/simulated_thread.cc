@@ -110,9 +110,6 @@ SocketServer
 socket_server
 )
 :
-rtc
-:
-:
 Thread
 (
 socket_server
@@ -379,9 +376,6 @@ Location
 location
 )
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -445,9 +439,6 @@ Location
 location
 )
 {
-rtc
-:
-:
 Thread
 :
 :

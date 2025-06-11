@@ -865,7 +865,7 @@ VirtualSocketServer
 >
 ss_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -3042,7 +3042,7 @@ IsRtcOk
 )
 )
 ;
-rtc
+webrtc
 :
 :
 Thread

@@ -357,9 +357,6 @@ sent_first_update_
 =
 false
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -388,9 +385,6 @@ if
 sent_first_update_
 )
 {
-rtc
-:
-:
 Thread
 :
 :

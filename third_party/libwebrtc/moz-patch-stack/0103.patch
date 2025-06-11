@@ -134,10 +134,10 @@ video_capture_v4l2
 .
 cc
 index
-29ca864e19
+eb0fa6d383
 .
 .
-b6e7e79a2a
+e1b8530338
 100644
 -
 -
@@ -230,9 +230,6 @@ false
 }
 _captureThread
 =
-rtc
-:
-:
 PlatformThread
 :
 :

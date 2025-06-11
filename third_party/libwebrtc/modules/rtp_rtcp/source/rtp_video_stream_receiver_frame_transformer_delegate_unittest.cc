@@ -406,9 +406,6 @@ receiver
 &
 clock
 frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -486,9 +483,6 @@ receiver
 &
 clock
 frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -568,9 +562,6 @@ receiver
 &
 clock
 frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -616,9 +607,6 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 ManageFrameOnTransformedFrame
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -679,9 +667,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -863,9 +848,6 @@ csrcs
 )
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -921,9 +903,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1342,9 +1321,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1532,9 +1508,6 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 TransformableFrameMetadataHasCorrectValueAfterSetMetadata
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1579,9 +1552,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1938,9 +1908,6 @@ csrcs
 )
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -1955,9 +1922,6 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 SenderFramesAreConvertedToReceiverFrames
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -2002,9 +1966,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -2233,9 +2194,6 @@ mock_sender_frame
 )
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -2250,9 +2208,6 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 ManageFrameFromDifferentReceiver
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -2319,9 +2274,6 @@ receiver1
 &
 clock
 mock_frame_transformer1
-rtc
-:
-:
 Thread
 :
 :
@@ -2367,9 +2319,6 @@ receiver2
 &
 clock
 mock_frame_transformer2
-rtc
-:
-:
 Thread
 :
 :
@@ -2564,9 +2513,6 @@ untransformed_frame
 )
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -2581,9 +2527,6 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 ShortCircuitingSkipsTransform
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -2628,9 +2571,6 @@ receiver
 &
 clock
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -2654,9 +2594,6 @@ StartShortCircuiting
 (
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

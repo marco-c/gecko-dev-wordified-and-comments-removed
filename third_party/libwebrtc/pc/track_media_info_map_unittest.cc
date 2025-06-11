@@ -606,9 +606,6 @@ Create
 (
 false
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -1193,9 +1190,6 @@ rtp_receivers_
 ;
 }
 private
-:
-rtc
-:
 :
 AutoThread
 main_thread_

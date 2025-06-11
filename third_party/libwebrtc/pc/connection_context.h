@@ -263,9 +263,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -277,9 +274,6 @@ signaling_thread_
 ;
 }
 const
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -291,9 +285,6 @@ return
 signaling_thread_
 ;
 }
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -309,9 +300,6 @@ get
 ;
 }
 const
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -327,9 +315,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -341,9 +326,6 @@ network_thread_
 ;
 }
 const
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -505,9 +487,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 owned_network_thread_
@@ -516,9 +495,6 @@ RTC_GUARDED_BY
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -526,17 +502,11 @@ network_thread_
 ;
 AlwaysValidPointer
 <
-rtc
-:
-:
 Thread
 >
 const
 worker_thread_
 ;
-rtc
-:
-:
 Thread
 *
 const

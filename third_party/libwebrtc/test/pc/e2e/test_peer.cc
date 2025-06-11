@@ -930,9 +930,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread

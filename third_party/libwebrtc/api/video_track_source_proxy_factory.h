@@ -55,15 +55,9 @@ VideoTrackSourceInterface
 RTC_EXPORT
 CreateVideoTrackSourceProxy
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
-rtc
-:
-:
 Thread
 *
 worker_thread

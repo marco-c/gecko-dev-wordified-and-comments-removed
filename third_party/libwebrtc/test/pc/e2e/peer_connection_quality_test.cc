@@ -1948,9 +1948,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 signaling_thread
@@ -4325,9 +4322,6 @@ PeerConnectionE2EQualityTest
 :
 WaitUntilIceCandidatesGathered
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -4394,9 +4388,6 @@ PeerConnectionE2EQualityTest
 :
 WaitUntilPeersAreConnected
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

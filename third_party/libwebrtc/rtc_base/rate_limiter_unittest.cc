@@ -651,9 +651,6 @@ get
 auto
 thread1
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -735,9 +732,6 @@ get
 auto
 thread2
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -862,9 +856,6 @@ clock_
 auto
 thread3
 =
-rtc
-:
-:
 PlatformThread
 :
 :

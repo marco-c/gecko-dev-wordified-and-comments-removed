@@ -625,15 +625,9 @@ _recordingFramesIn10MS
 size_t
 _playoutFramesIn10MS
 ;
-rtc
-:
-:
 PlatformThread
 _ptrThreadRec
 ;
-rtc
-:
-:
 PlatformThread
 _ptrThreadPlay
 ;

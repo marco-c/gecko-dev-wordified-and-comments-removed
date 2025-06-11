@@ -243,6 +243,9 @@ counter2
 auto
 thread1
 =
+webrtc
+:
+:
 PlatformThread
 :
 :
@@ -268,6 +271,9 @@ Thread1
 auto
 thread2
 =
+webrtc
+:
+:
 PlatformThread
 :
 :

@@ -953,9 +953,6 @@ GetFeedbackState
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;

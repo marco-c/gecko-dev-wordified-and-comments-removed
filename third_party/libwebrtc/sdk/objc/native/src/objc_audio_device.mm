@@ -410,9 +410,6 @@ Detach
 ;
 thread_
 =
-rtc
-:
-:
 Thread
 :
 :

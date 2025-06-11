@@ -201,7 +201,7 @@ wrapped
 :
 network_thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -261,7 +261,7 @@ wrapped_factory_args
 :
 network_thread_
 (
-rtc
+webrtc
 :
 :
 Thread

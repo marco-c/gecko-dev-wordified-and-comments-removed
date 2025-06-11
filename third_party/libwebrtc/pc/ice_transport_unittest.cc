@@ -166,9 +166,6 @@ SocketServer
 >
 socket_server_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_thread_
 ;

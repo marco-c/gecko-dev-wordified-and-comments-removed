@@ -2039,7 +2039,7 @@ get
 )
 ;
 }
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -2099,7 +2099,7 @@ VirtualSocketServer
 >
 ss_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread

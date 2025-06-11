@@ -1363,9 +1363,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Thread
 >
 (
@@ -2835,9 +2832,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 background_thread_
@@ -8010,9 +8004,6 @@ WaitForConnection
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8314,9 +8305,6 @@ WaitForConnection
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8651,9 +8639,6 @@ IsRtcOk
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -9007,9 +8992,6 @@ IsRtcOk
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -17366,9 +17348,6 @@ WaitForConnection
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

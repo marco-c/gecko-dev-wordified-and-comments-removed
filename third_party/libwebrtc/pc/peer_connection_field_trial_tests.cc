@@ -369,9 +369,6 @@ pcf_deps
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -555,9 +552,6 @@ SocketServer
 >
 socket_server_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_thread_
 ;

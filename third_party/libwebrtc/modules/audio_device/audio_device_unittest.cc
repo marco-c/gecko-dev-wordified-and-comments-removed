@@ -1054,9 +1054,6 @@ mutable
 Mutex
 lock_
 ;
-rtc
-:
-:
 RaceChecker
 race_checker_
 ;
@@ -1724,9 +1721,6 @@ average_latency
 Mutex
 lock_
 ;
-rtc
-:
-:
 RaceChecker
 race_checker_
 ;

@@ -258,9 +258,6 @@ FakeVideoTrackSource
 Create
 (
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -426,9 +423,6 @@ enabled
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;

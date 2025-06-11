@@ -73,9 +73,6 @@ AudioRtpReceiver
 :
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -129,9 +126,6 @@ AudioRtpReceiver
 :
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -216,9 +210,6 @@ AudioTrack
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :

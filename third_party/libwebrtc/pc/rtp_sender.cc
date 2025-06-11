@@ -438,9 +438,6 @@ public
 :
 SignalingThreadCallback
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -612,9 +609,6 @@ callback_
 nullptr
 ;
 }
-rtc
-:
-:
 Thread
 *
 signaling_thread_
@@ -709,9 +703,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -733,9 +724,6 @@ env
 )
 signaling_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3420,9 +3408,6 @@ webrtc
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -3470,9 +3455,6 @@ webrtc
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -3509,9 +3491,6 @@ DtmfSender
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3528,9 +3507,6 @@ DtmfSenderProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4393,9 +4369,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -4436,9 +4409,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 worker_thread

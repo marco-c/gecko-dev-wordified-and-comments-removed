@@ -343,9 +343,6 @@ num_bytes_left_for_log_
 =
 0
 ;
-rtc
-:
-:
 RaceChecker
 race_checker_
 ;

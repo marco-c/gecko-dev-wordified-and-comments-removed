@@ -159,9 +159,6 @@ Dequeue
 SequenceChecker
 main_thread_checker_
 ;
-rtc
-:
-:
 RaceChecker
 decoder_race_checker_
 ;

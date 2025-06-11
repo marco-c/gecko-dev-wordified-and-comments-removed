@@ -252,9 +252,6 @@ reader
 ;
 thread_
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -335,9 +332,6 @@ Event
 *
 reader_
 ;
-rtc
-:
-:
 PlatformThread
 thread_
 ;

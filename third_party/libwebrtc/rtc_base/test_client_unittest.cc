@@ -206,9 +206,6 @@ loopback
 PhysicalSocketServer
 socket_server
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_thread
 (
@@ -323,9 +320,6 @@ loopback
 PhysicalSocketServer
 socket_server
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_thread
 (

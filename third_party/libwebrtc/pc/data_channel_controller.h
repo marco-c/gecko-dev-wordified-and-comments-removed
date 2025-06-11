@@ -451,9 +451,6 @@ const
 ;
 protected
 :
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -461,9 +458,6 @@ network_thread
 )
 const
 ;
-rtc
-:
-:
 Thread
 *
 signaling_thread

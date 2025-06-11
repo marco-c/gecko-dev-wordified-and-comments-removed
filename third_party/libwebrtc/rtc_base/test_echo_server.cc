@@ -24,9 +24,6 @@ TestEchoServer
 :
 TestEchoServer
 (
-rtc
-:
-:
 Thread
 *
 thread

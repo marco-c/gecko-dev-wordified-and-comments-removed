@@ -104,9 +104,6 @@ NullSocketServerTest
 WaitAndSet
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -116,9 +113,6 @@ ss
 auto
 thread
 =
-rtc
-:
-:
 Thread
 :
 :

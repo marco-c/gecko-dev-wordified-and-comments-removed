@@ -229,15 +229,9 @@ RTCCertificateGenerator
 :
 RTCCertificateGenerator
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
-rtc
-:
-:
 Thread
 *
 worker_thread

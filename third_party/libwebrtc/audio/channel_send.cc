@@ -1352,9 +1352,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_thread_checker_
 ;
-rtc
-:
-:
 RaceChecker
 audio_thread_race_checker_
 ;

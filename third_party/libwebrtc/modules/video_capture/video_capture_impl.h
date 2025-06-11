@@ -365,9 +365,6 @@ override
 SequenceChecker
 api_checker_
 ;
-rtc
-:
-:
 RaceChecker
 capture_checker_
 ;

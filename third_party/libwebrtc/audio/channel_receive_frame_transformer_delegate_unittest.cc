@@ -406,9 +406,6 @@ ChannelReceiveFrameTransformerDelegateTest
 TransformRunsChannelReceiveCallback
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -460,9 +457,6 @@ callback
 (
 )
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -607,9 +601,6 @@ opus
 kFakeReceiveTimestamp
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -624,9 +615,6 @@ ChannelReceiveFrameTransformerDelegateTest
 TransformRunsChannelReceiveCallbackForSenderFrame
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -678,9 +666,6 @@ callback
 (
 )
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -850,9 +835,6 @@ opus
 kFakeReceiveTimestamp
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -867,9 +849,6 @@ ChannelReceiveFrameTransformerDelegateTest
 OnTransformedDoesNotRunChannelReceiveCallbackAfterReset
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -924,9 +903,6 @@ callback
 (
 )
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -969,9 +945,6 @@ MockTransformableAudioFrame
 )
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -986,9 +959,6 @@ ChannelReceiveFrameTransformerDelegateTest
 ShortCircuitingSkipsTransform
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1043,9 +1013,6 @@ callback
 (
 )
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1094,9 +1061,6 @@ StartShortCircuiting
 (
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -1145,9 +1109,6 @@ ChannelReceiveFrameTransformerDelegateTest
 AudioLevelAndCaptureTimeAbsentWithoutExtension
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1192,9 +1153,6 @@ ChannelReceiveFrameTransformerDelegate
 (
 nullptr
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1413,9 +1371,6 @@ ChannelReceiveFrameTransformerDelegateTest
 AudioLevelPresentWithExtension
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1460,9 +1415,6 @@ ChannelReceiveFrameTransformerDelegate
 (
 nullptr
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :
@@ -1684,9 +1636,6 @@ ChannelReceiveFrameTransformerDelegateTest
 CaptureTimePresentWithExtension
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1731,9 +1680,6 @@ ChannelReceiveFrameTransformerDelegate
 (
 nullptr
 mock_frame_transformer
-rtc
-:
-:
 Thread
 :
 :

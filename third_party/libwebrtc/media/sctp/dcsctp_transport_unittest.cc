@@ -512,9 +512,6 @@ DcSctpTransport
 >
 (
 env_
-rtc
-:
-:
 Thread
 :
 :
@@ -608,9 +605,6 @@ DcSctpTransportTest
 OpenSequence
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -710,9 +704,6 @@ DcSctpTransportTest
 CloseSequence
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1092,9 +1083,6 @@ DcSctpTransportTest
 CloseSequenceSimultaneous
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1460,9 +1448,6 @@ DcSctpTransportTest
 SetStreamPriority
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1602,9 +1587,6 @@ DcSctpTransportTest
 DiscardMessageClosedChannel
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1693,9 +1675,6 @@ DcSctpTransportTest
 DiscardMessageClosingChannel
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1805,9 +1784,6 @@ DcSctpTransportTest
 SendDataOpenChannel
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -1929,9 +1905,6 @@ DcSctpTransportTest
 DeliversMessage
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -2051,9 +2024,6 @@ DcSctpTransportTest
 DropMessageWithUnknownPpid
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;

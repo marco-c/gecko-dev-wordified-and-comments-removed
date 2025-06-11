@@ -793,7 +793,7 @@ name
 )
 thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1816,7 +1816,7 @@ std
 string
 log_prefix_
 ;
-rtc
+webrtc
 :
 :
 Thread

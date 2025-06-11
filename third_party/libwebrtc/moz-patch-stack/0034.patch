@@ -120,10 +120,10 @@ platform_thread
 .
 h
 index
-cfc9d17af4
+0d1c40d451
 .
 .
-eeaa052d27
+a3a888fd35
 100644
 -
 -
@@ -185,7 +185,7 @@ h
 "
 +
 namespace
-rtc
+webrtc
 {
 +
 /
@@ -244,4 +244,4 @@ PlatformUIThread
 /
 /
 namespace
-rtc
+webrtc

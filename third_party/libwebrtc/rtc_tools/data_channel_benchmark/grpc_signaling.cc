@@ -1053,9 +1053,6 @@ oneshot_
 {
 server_stop_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1096,9 +1093,6 @@ stream
 auto
 reading_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1205,9 +1199,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 server_stop_thread_
@@ -1350,9 +1341,6 @@ get
 ;
 reading_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1443,9 +1431,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 reading_thread_

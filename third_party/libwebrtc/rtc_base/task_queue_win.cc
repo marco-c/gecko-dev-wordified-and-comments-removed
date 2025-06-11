@@ -281,9 +281,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 ThreadPriority
 TaskQueuePriorityToThreadPriority
 (
@@ -309,9 +306,6 @@ Priority
 HIGH
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -327,9 +321,6 @@ Priority
 LOW
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -345,9 +336,6 @@ Priority
 NORMAL
 :
 return
-rtc
-:
-:
 ThreadPriority
 :
 :
@@ -735,9 +723,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )
@@ -875,9 +860,6 @@ timer_id_
 =
 0
 ;
-rtc
-:
-:
 PlatformThread
 thread_
 ;
@@ -922,9 +904,6 @@ absl
 :
 string_view
 queue_name
-rtc
-:
-:
 ThreadPriority
 priority
 )

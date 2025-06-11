@@ -5460,6 +5460,14 @@ rtc_base
 :
 refcount
 "
+"
+.
+.
+/
+rtc_base
+:
+threading
+"
 ]
 }
 rtc_library

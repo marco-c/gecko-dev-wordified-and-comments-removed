@@ -1124,9 +1124,6 @@ IsAnyIP
 )
 )
 {
-rtc
-:
-:
 NetworkBindingResult
 result
 =
@@ -1153,9 +1150,6 @@ if
 result
 =
 =
-rtc
-:
-:
 NetworkBindingResult
 :
 :
@@ -1190,9 +1184,6 @@ if
 result
 =
 =
-rtc
-:
-:
 NetworkBindingResult
 :
 :

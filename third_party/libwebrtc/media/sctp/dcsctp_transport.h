@@ -337,9 +337,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -357,9 +354,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -804,9 +798,6 @@ MaybeConnectSocket
 (
 )
 ;
-rtc
-:
-:
 Thread
 *
 network_thread_

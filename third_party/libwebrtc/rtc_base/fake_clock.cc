@@ -134,9 +134,6 @@ SetTime
 time
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -162,9 +159,6 @@ AdvanceTime
 delta
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

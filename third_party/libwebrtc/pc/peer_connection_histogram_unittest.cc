@@ -1258,9 +1258,6 @@ make_unique
 FakeMdnsResponder
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -1516,9 +1513,6 @@ pcf_deps
 .
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1530,9 +1524,6 @@ pcf_deps
 .
 worker_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1544,9 +1535,6 @@ pcf_deps
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1798,9 +1786,6 @@ next_local_address_
 VirtualSocketServer
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_
 ;

@@ -253,7 +253,7 @@ factory
 signalingThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -263,7 +263,7 @@ signalingThread
 workerThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -306,7 +306,7 @@ factory
 signalingThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -316,7 +316,7 @@ signalingThread
 workerThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread

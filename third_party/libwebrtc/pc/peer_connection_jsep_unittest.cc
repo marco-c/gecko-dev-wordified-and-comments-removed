@@ -412,9 +412,6 @@ dependencies
 .
 worker_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -426,9 +423,6 @@ dependencies
 .
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -440,9 +434,6 @@ dependencies
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -704,9 +695,6 @@ VirtualSocketServer
 >
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_
 ;

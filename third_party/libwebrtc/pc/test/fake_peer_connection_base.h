@@ -1503,9 +1503,6 @@ Close
 override
 {
 }
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -1518,9 +1515,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -1533,9 +1527,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 Thread
 *
 signaling_thread

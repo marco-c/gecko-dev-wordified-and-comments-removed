@@ -101,6 +101,9 @@ FifoBuffer
 (
 size_t
 length
+webrtc
+:
+:
 Thread
 *
 owner
@@ -412,6 +415,9 @@ RTC_GUARDED_BY
 callback_sequence_
 )
 ;
+webrtc
+:
+:
 Thread
 *
 const

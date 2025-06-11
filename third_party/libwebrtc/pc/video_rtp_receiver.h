@@ -253,9 +253,6 @@ public
 :
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -279,9 +276,6 @@ streams_ids
 ;
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -825,9 +819,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 signaling_thread_checker_
 ;
-rtc
-:
-:
 Thread
 *
 const

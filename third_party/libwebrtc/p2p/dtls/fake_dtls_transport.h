@@ -505,9 +505,6 @@ string
 name
 int
 component
-rtc
-:
-:
 Thread
 *
 network_thread

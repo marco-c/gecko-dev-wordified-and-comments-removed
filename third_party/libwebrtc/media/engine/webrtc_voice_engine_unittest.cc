@@ -2646,7 +2646,7 @@ OnPacketReceived
 packet
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -6221,7 +6221,7 @@ codecs
 }
 protected
 :
-rtc
+webrtc
 :
 :
 AutoThread
@@ -10576,7 +10576,7 @@ OnPacketReceived
 received_packet
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -23491,7 +23491,7 @@ OnPacketReceived
 parsed_packet
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -24586,7 +24586,7 @@ WebRtcVoiceEngineTest
 StartupShutdown
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -24846,7 +24846,7 @@ WebRtcVoiceEngineTest
 StartupShutdownWithExternalADM
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -25578,7 +25578,7 @@ WebRtcVoiceEngineTest
 Has32Channels
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -25838,7 +25838,7 @@ WebRtcVoiceEngineTest
 SetRecvCodecs
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -26052,7 +26052,7 @@ WebRtcVoiceEngineTest
 SetRtpSendParametersMaxBitrate
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread

@@ -113,9 +113,6 @@ const
 SocketAddress
 &
 addr
-rtc
-:
-:
 Thread
 &
 network_thread
@@ -151,9 +148,6 @@ TestStunServer
 AsyncUDPSocket
 *
 socket
-rtc
-:
-:
 Thread
 &
 network_thread
@@ -190,9 +184,6 @@ private
 SocketAddress
 fake_stun_addr_
 ;
-rtc
-:
-:
 Thread
 &
 network_thread_

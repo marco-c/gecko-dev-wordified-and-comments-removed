@@ -369,9 +369,6 @@ reset
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

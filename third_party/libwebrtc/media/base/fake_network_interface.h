@@ -225,9 +225,6 @@ FakeNetworkInterface
 :
 thread_
 (
-rtc
-:
-:
 Thread
 :
 :

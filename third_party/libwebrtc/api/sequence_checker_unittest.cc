@@ -201,9 +201,6 @@ run
 Event
 thread_has_run_event
 ;
-rtc
-:
-:
 PlatformThread
 :
 :

@@ -1247,7 +1247,7 @@ thread_
 )
 turn_server_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -3469,7 +3469,7 @@ webrtc
 BasicPacketSocketFactory
 socket_factory_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -17468,7 +17468,7 @@ webrtc
 FakeMdnsResponder
 >
 (
-rtc
+webrtc
 :
 :
 Thread

@@ -103,9 +103,6 @@ internal
 :
 owner_thread_
 (
-rtc
-:
-:
 Thread
 :
 :

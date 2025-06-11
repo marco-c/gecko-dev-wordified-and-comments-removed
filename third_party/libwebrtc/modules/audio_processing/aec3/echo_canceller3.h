@@ -684,15 +684,9 @@ const
 Environment
 env_
 ;
-rtc
-:
-:
 RaceChecker
 capture_race_checker_
 ;
-rtc
-:
-:
 RaceChecker
 render_race_checker_
 ;

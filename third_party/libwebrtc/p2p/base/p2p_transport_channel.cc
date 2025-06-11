@@ -1120,7 +1120,7 @@ owned_dns_resolver_factory
 )
 network_thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -5388,7 +5388,7 @@ RTC_DCHECK
 network_thread_
 =
 =
-rtc
+webrtc
 :
 :
 Thread

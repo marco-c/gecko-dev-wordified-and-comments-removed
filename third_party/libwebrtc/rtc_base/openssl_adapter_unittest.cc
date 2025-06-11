@@ -575,7 +575,7 @@ OpenSSLAdapterTest
 TestBeginSSLBeforeConnection
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -621,7 +621,7 @@ OpenSSLAdapterFactoryTest
 CreateSingleOpenSSLAdapter
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -674,7 +674,7 @@ OpenSSLAdapterFactoryTest
 CreateWorksWithCustomVerifier
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread

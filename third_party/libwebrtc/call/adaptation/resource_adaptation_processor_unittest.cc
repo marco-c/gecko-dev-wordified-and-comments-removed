@@ -726,9 +726,6 @@ WaitUntilTaskQueueIdle
 {
 ASSERT_TRUE
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -745,9 +742,6 @@ ProcessMessages
 ;
 }
 protected
-:
-rtc
-:
 :
 AutoThread
 main_thread_

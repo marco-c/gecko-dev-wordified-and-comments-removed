@@ -220,7 +220,7 @@ webrtc
 GlobalSimulatedTimeController
 time_controller_
 ;
-rtc
+webrtc
 :
 :
 Thread

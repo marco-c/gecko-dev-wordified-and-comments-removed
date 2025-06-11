@@ -1440,9 +1440,6 @@ worker_thread_
 ScopedTaskSafety
 worker_safety_
 ;
-rtc
-:
-:
 RaceChecker
 audio_thread_race_checker_
 ;

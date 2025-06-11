@@ -296,9 +296,6 @@ override
 void
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue

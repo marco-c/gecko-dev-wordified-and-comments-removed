@@ -72,9 +72,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 Thread
 *
 >

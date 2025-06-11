@@ -2939,9 +2939,6 @@ stream
 )
 ;
 }
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -3002,9 +2999,6 @@ true
 )
 ;
 }
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -3220,9 +3214,6 @@ SetPlayout
 false
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

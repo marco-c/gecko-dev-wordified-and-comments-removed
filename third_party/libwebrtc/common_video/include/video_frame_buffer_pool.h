@@ -282,9 +282,6 @@ Type
 type
 )
 ;
-rtc
-:
-:
 RaceChecker
 race_checker_
 ;

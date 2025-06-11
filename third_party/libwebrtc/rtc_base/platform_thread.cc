@@ -50,7 +50,7 @@ MicroGeckoProfiler
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
