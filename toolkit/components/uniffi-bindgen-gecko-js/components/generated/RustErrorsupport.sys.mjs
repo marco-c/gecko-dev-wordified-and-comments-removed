@@ -3087,6 +3087,12 @@ in
 startup
 .
 *
+param
+{
+ApplicationErrorReporter
+}
+errorReporter
+*
 /
 export
 async
