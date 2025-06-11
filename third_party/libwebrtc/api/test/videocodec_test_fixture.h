@@ -230,7 +230,7 @@ std
 :
 :
 string
-codec_name
+codec_name_to_set
 size_t
 num_simulcast_streams
 size_t

@@ -1535,7 +1535,7 @@ std
 :
 :
 string
-codec_name
+codec_name_to_set
 size_t
 num_simulcast_streams
 size_t
@@ -1554,12 +1554,9 @@ size_t
 height
 )
 {
-this
--
->
 codec_name
 =
-codec_name
+codec_name_to_set
 ;
 VideoCodecType
 codec_type
