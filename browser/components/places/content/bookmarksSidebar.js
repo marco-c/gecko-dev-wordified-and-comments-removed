@@ -337,7 +337,9 @@ box
 addEventListener
 (
 "
-command
+MozInputSearch
+:
+search
 "
 searchBookmarks
 )
