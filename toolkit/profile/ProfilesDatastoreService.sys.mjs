@@ -2061,15 +2061,6 @@ this
 profileService
 .
 currentProfile
-&
-&
-!
-this
-.
-#
-profileService
-.
-groupProfile
 )
 {
 return

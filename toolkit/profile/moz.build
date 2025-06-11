@@ -1,3 +1,16 @@
+SPHINX_TREES
+[
+"
+/
+toolkit
+/
+profile
+"
+]
+=
+"
+docs
+"
 MOCHITEST_CHROME_MANIFESTS
 +
 =

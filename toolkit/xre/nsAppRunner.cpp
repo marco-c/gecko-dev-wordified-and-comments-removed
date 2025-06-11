@@ -25952,6 +25952,13 @@ InitializeUserPrefs
 (
 )
 ;
+mProfileSvc
+-
+>
+UpdateCurrentProfile
+(
+)
+;
 if
 (
 !

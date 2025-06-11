@@ -84,7 +84,7 @@ class
 nsStartupLock
 ;
 struct
-GroupProfileData
+CurrentProfileData
 {
 nsCString
 mPath
@@ -347,6 +347,11 @@ aOldProfile
 )
 ;
 void
+UpdateCurrentProfile
+(
+)
+;
+void
 CompleteStartup
 (
 )
@@ -585,7 +590,7 @@ nsStartupLock
 &
 aStartupLock
 const
-GroupProfileData
+CurrentProfileData
 *
 aProfileInfo
 )
@@ -642,12 +647,6 @@ RefPtr
 nsToolkitProfile
 >
 mCurrent
-;
-RefPtr
-<
-nsToolkitProfile
->
-mGroupProfile
 ;
 RefPtr
 <

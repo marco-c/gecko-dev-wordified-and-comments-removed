@@ -634,7 +634,7 @@ ok
 !
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 "
@@ -697,7 +697,7 @@ disabled
 ;
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 =
@@ -758,7 +758,7 @@ ok
 (
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 "

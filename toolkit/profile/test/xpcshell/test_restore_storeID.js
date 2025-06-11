@@ -149,16 +149,6 @@ Assert
 .
 equal
 (
-service
-.
-groupProfile
-profile
-)
-;
-Assert
-.
-equal
-(
 profile
 .
 storeID

@@ -43,6 +43,9 @@ toctree
 maxdepth
 :
 1
+profile
+/
+index
 javascript
 -
 logging

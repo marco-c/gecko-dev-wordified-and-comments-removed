@@ -31,7 +31,7 @@ js
 ]
 [
 "
-test_async_flush_group_profile
+test_async_flush_current_profile
 .
 js
 "
@@ -87,7 +87,7 @@ js
 ]
 [
 "
-test_find_groupProfile
+test_find_currentProfile
 .
 js
 "
