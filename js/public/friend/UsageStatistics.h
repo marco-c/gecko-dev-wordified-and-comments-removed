@@ -314,6 +314,12 @@ _
 GC_GLEAN_SLOW_TASK
 Enumeration
 )
+\
+_
+(
+GC_TIME_BETWEEN_MINOR_MS
+TimeDuration_MS
+)
 #
 define
 FOR_EACH_JS_METRIC
