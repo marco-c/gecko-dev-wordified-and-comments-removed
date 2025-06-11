@@ -843,7 +843,7 @@ dom
 mutation
 "
 "
-DOMNodeRemovedIntoDocument
+DOMNodeRemovedFromDocument
 "
 )
 nodeEvent
