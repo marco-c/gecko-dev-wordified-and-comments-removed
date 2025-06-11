@@ -333,13 +333,6 @@ js
 ]
 [
 "
-browser_policy_disable_pocket
-.
-js
-"
-]
-[
-"
 browser_policy_disable_popup_blocker
 .
 js
