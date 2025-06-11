@@ -805,6 +805,15 @@ listOf
 GleanCrashReporterService
 (
 context
+appChannel
+=
+MOZ_UPDATE_CHANNEL
+appVersion
+=
+MOZ_APP_VERSION
+appBuildId
+=
+MOZ_APP_BUILDID
 )
 )
 shouldPrompt
