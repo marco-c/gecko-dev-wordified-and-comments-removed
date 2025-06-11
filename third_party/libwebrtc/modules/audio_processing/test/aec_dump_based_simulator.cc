@@ -59,6 +59,11 @@ optional
 #
 include
 <
+sstream
+>
+#
+include
+<
 string
 >
 #
@@ -309,11 +314,11 @@ k
 <
 frame
 .
-num_channels
+num_channels_
 *
 frame
 .
-samples_per_channel
+samples_per_channel_
 ;
 +
 +
