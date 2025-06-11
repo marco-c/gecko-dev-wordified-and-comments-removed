@@ -525,6 +525,12 @@ GPUUncapturedErrorEvent
 =
 >
 {
+event
+.
+preventDefault
+(
+)
+;
 if
 (
 useOnuncapturederror

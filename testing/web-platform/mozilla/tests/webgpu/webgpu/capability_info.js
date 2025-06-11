@@ -4401,6 +4401,16 @@ limits
 :
 {
 }
+'
+texture
+-
+formats
+-
+tier1
+'
+:
+{
+}
 }
 ;
 export

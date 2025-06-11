@@ -491,6 +491,12 @@ event
 =
 >
 {
+event
+.
+preventDefault
+(
+)
+;
 if
 (
 useOnuncapturederror

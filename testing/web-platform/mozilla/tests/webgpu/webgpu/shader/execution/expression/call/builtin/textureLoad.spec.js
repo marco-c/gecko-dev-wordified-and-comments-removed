@@ -4094,6 +4094,13 @@ params
 ;
 t
 .
+skipIfTextureFormatNotSupported
+(
+format
+)
+;
+t
+.
 skipIfTextureFormatNotUsableAsStorageTexture
 (
 format
