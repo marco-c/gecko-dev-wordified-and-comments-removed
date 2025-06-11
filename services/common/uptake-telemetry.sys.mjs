@@ -829,6 +829,11 @@ CORRUPTION_ERROR
 "
 corruption_error
 "
+SYNC_START
+:
+"
+sync_start
+"
 SYNC_ERROR
 :
 "
@@ -848,6 +853,11 @@ CERTIFICATE_ERROR
 :
 "
 certificate_error
+"
+DOWNLOAD_START
+:
+"
+download_start
 "
 DOWNLOAD_ERROR
 :
