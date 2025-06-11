@@ -435,15 +435,6 @@ trackApplicationLaunch
 (
 )
 {
-reviewSettings
-.
-numberOfAppLaunches
-=
-reviewSettings
-.
-numberOfAppLaunches
-+
-1
 /
 /
 We
