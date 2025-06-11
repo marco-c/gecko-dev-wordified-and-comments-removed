@@ -11749,6 +11749,13 @@ browsingContextInfo
 context
 :
 navigableId
+timestamp
+:
+Date
+.
+now
+(
+)
 url
 }
 ;
