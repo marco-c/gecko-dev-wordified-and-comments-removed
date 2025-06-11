@@ -414,6 +414,12 @@ define
 PNG_STDIO_SUPPORTED
 #
 define
+PNG_eXIf_SUPPORTED
+#
+define
+PNG_READ_eXIf_SUPPORTED
+#
+define
 PNG_CHECK_cHRM_SUPPORTED
 #
 define
