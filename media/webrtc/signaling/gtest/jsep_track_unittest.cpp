@@ -15865,7 +15865,7 @@ t1
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -16419,7 +16419,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -16998,7 +16998,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -17617,7 +17617,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -18238,7 +18238,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -18710,7 +18710,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 newTracks
 )

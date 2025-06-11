@@ -4216,7 +4216,7 @@ void
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 std
 :
