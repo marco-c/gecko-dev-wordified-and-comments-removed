@@ -3280,13 +3280,6 @@ XRE_IsParentProcess
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 wl_log_set_handler_client
 (
 WlLogHandler
