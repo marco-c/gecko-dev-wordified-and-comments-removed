@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-d4f6168ad33068650242aa947bff87440f61d1ea
+a1723b7af1e1222623e4acbab192ba3df0eecb46
 '
 #
 Fetch
@@ -522,7 +522,7 @@ chromium
 src
 /
 base
-6da5c23bd5b75b7c191a816823581ff9a71b5588
+bf4cc197a277e3949b650c8f6f4f329bf261d700
 '
 '
 src
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-03fc1723170269f6368e1733ee81a7a780e3af7e
+e7031cc6a0df7cf30e22f51b630b5f467b9fd7e2
 '
 '
 src
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-877a05d432c40bd5499bb705751c62e6492908f7
+2d40f99e9d22e91dfb93784534785ad8ae08c8ff
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-b6dcd890b689e825abb37da1e2b011893f0d5283
+7134995e816bf9580677bff342600f1d6a95fdc8
 '
 '
 src
@@ -3364,7 +3364,7 @@ deps
 libjpeg_turbo
 .
 git
-927aabfcd26897abb9776ecf2a6c38ea5bb52ab6
+e14cbfaa85529d47f9f55b0f104a579c1061f9ad
 '
 '
 src
@@ -4070,7 +4070,7 @@ chromium
 src
 /
 tools
-378a84d39fff1439713830c3745d3de21364b3c6
+62bf196e25c950941b6a14a7d32431f28c473d92
 '
 '
 src
@@ -4265,7 +4265,7 @@ version
 '
 :
 '
-fctKGF9iSV5EYY1z5I3sYTJLW4lCARmCDMtOtvMsNcYC
+WKY6e5N8jvYdALeO7J5bPt01a7TY2NJg47PVvIcaBqcC
 '
 }
 ]
