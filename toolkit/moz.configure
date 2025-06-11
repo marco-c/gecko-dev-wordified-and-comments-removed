@@ -20035,7 +20035,6 @@ dllinfo
 prefix
 }
 onnxruntime
-.
 {
 dllinfo
 .
