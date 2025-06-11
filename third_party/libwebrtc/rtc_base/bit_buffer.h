@@ -41,7 +41,7 @@ data_size
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 BitBufferWriter
@@ -50,9 +50,6 @@ public
 :
 static
 constexpr
-webrtc
-:
-:
 DataSize
 kMaxLeb128Length
 =
@@ -235,6 +232,18 @@ size_t
 bit_offset_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+BitBufferWriter
 ;
 }
 #

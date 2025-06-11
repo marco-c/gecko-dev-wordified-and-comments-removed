@@ -277,9 +277,6 @@ bitset
 >
 active_chains_
 ;
-rtc
-:
-:
 BitBufferWriter
 bit_writer_
 ;

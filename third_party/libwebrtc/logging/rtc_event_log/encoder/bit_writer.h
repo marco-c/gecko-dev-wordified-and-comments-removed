@@ -168,9 +168,6 @@ std
 string
 buffer_
 ;
-rtc
-:
-:
 BitBufferWriter
 bit_writer_
 ;

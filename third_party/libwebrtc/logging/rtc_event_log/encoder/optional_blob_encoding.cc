@@ -155,9 +155,6 @@ reserve_size_bits
 +
 =
 (
-rtc
-:
-:
 BitBufferWriter
 :
 :
@@ -239,9 +236,6 @@ reserve_size_bits
 8
 )
 ;
-rtc
-:
-:
 BitBufferWriter
 writer
 (

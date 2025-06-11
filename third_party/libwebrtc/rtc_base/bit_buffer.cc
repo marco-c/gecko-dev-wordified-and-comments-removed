@@ -148,7 +148,7 @@ target_bit_offset
 }
 }
 namespace
-rtc
+webrtc
 {
 BitBufferWriter
 :

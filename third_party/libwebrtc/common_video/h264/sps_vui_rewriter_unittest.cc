@@ -645,9 +645,6 @@ kSpsBufferMaxSize
 0
 }
 ;
-rtc
-:
-:
 BitBufferWriter
 writer
 (
