@@ -340,6 +340,12 @@ GetOperatingSystem
 )
 override
 ;
+GfxVersionEx
+OperatingSystemVersionEx
+(
+)
+override
+;
 virtual
 nsresult
 GetFeatureStatusImpl
@@ -449,6 +455,9 @@ mAdapterDeviceID
 [
 2
 ]
+;
+GfxVersionEx
+mOSXVersionEx
 ;
 uint32_t
 mOSXVersion

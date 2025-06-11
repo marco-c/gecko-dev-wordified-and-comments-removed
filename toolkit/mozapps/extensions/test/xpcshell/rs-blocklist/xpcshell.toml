@@ -603,6 +603,13 @@ js
 ]
 [
 "
+test_gfxBlocklist_OSVersionEx_match
+.
+js
+"
+]
+[
+"
 test_gfxBlocklist_Vendor
 .
 js
