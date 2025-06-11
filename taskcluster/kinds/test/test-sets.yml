@@ -2669,14 +2669,6 @@ qr
 mochitest
 -
 media
-android
--
-hw
--
-p5
--
-aarch64
-:
 -
 mochitest
 -
