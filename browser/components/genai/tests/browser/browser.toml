@@ -87,6 +87,13 @@ js
 ]
 [
 "
+browser_chat_page
+.
+js
+"
+]
+[
+"
 browser_chat_request
 .
 js
