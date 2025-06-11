@@ -4253,7 +4253,7 @@ string
 name
 =
 "
-pbm_lock_category_bottom_divider
+pref_key_pbm_lock_category_divider
 "
 translatable
 =
@@ -4261,7 +4261,7 @@ translatable
 false
 "
 >
-pbm_lock_category_bottom_divider
+pref_key_pbm_lock_category_divider
 <
 /
 string
