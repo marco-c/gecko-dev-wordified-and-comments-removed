@@ -1,6 +1,11 @@
 import
 re
 from
+typing
+import
+Any
+Dict
+from
 taskgraph
 .
 util
@@ -283,12 +288,42 @@ now
 def
 resolve_task_references
 (
+    
 label
+:
+str
+    
 task_def
+:
+Dict
+[
+str
+Any
+]
+    
 task_id
+:
+str
+    
 decision_task_id
+:
+str
+    
 dependencies
+:
+Dict
+[
+str
+str
+]
 )
+-
+>
+Dict
+[
+str
+Any
+]
 :
     
 "
@@ -608,7 +643,8 @@ repl
 val
 )
     
-return
+result
+=
 _recurse
 (
         
@@ -635,3 +671,13 @@ artifact_reference
 }
     
 )
+    
+assert
+isinstance
+(
+result
+dict
+)
+    
+return
+result

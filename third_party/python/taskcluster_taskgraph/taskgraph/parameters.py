@@ -1672,29 +1672,27 @@ hg
 :
             
 if
-path
-.
-startswith
-(
 "
 comm
 /
 "
-)
+in
+path
 :
                 
 path
 =
 path
-[
-len
+.
+split
 (
 "
 comm
 /
 "
 )
-:
+[
+1
 ]
                 
 repo

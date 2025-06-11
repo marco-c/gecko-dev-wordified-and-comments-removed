@@ -83,6 +83,11 @@ collections
 import
 defaultdict
 from
+typing
+import
+Dict
+Set
+from
 slugid
 import
 nice
@@ -1838,14 +1843,34 @@ get_subgraph
 (
     
 target_task_graph
+:
+TaskGraph
     
 removed_tasks
+:
+Set
+[
+str
+]
     
 replaced_tasks
+:
+Set
+[
+str
+]
     
 label_to_taskid
+:
+Dict
+[
+str
+str
+]
     
 decision_task_id
+:
+str
 )
 :
     
@@ -2042,14 +2067,25 @@ label_to_taskid
 )
 :
         
+task_id
+=
+slugid
+(
+)
+        
+assert
+isinstance
+(
+task_id
+str
+)
+        
 label_to_taskid
 [
 label
 ]
 =
-slugid
-(
-)
+task_id
     
 tasks_by_taskid
 =
@@ -2172,6 +2208,11 @@ omit
 }
             
 )
+        
+assert
+task
+.
+task_id
         
 task
 .
