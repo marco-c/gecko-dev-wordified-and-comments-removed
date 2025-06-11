@@ -1694,6 +1694,9 @@ JS
 Value
 FindFirstParseError
 (
+JSContext
+*
+aCx
 ModuleLoadRequest
 *
 aRequest
