@@ -976,6 +976,16 @@ uint32_t
 aPointerId
 )
 ;
+static
+void
+SetPointerCapturingElementAtLastPointerUp
+(
+nsWeakPtr
+&
+&
+aPointerCapturingElement
+)
+;
 }
 ;
 }
