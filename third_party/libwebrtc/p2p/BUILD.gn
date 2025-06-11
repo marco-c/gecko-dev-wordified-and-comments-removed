@@ -942,6 +942,10 @@ connection_info
 "
 "
 :
+dtls_stun_piggyback_controller
+"
+"
+:
 ice_credentials_iterator
 "
 "
@@ -2300,6 +2304,10 @@ connection_info
 "
 "
 :
+dtls_stun_piggyback_controller
+"
+"
+:
 p2p_constants
 "
 "
@@ -2563,6 +2571,10 @@ connection
 "
 :
 connection_info
+"
+"
+:
+dtls_stun_piggyback_controller
 "
 "
 :
@@ -4110,6 +4122,13 @@ dtls_stun_piggyback_controller
 sources
 =
 [
+"
+dtls
+/
+dtls_stun_piggyback_callbacks
+.
+h
+"
 "
 dtls
 /
