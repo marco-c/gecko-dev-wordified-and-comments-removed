@@ -148,14 +148,6 @@ config
 .
 yaml
 :
-.
-/
-automation
-/
-taskcluster
-/
-androidTest
-/
 geckoview
 -
 configs

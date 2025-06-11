@@ -106,14 +106,6 @@ robo
 -
 script
 :
-.
-/
-automation
-/
-taskcluster
-/
-androidTest
-/
 robo
 -
 scripts

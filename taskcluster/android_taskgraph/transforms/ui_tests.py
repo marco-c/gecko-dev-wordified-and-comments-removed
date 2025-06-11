@@ -225,10 +225,14 @@ component
 "
 ]
         
-device_type
+flank_config
 =
 "
+components
+/
 arm
+.
+yml
 "
         
 apk_app
@@ -607,15 +611,6 @@ python3
 "
                 
 "
-.
-.
-/
-.
-.
-/
-.
-.
-/
 taskcluster
 /
 scripts
@@ -629,7 +624,7 @@ lab
 py
 "
                 
-device_type
+flank_config
                 
 apk_app
                 
