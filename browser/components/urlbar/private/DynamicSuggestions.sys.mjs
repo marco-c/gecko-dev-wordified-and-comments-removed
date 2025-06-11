@@ -772,6 +772,7 @@ case
 dismiss
 "
 :
+{
 let
 {
 result
@@ -817,6 +818,7 @@ result
 ;
 break
 ;
+}
 }
 }
 #

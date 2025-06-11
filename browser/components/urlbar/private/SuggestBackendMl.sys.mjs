@@ -342,7 +342,10 @@ context
 *
 returns
 {
+Promise
+<
 Array
+>
 }
 *
 An
