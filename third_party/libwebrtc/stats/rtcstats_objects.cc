@@ -1812,10 +1812,10 @@ rid
 AttributeInit
 (
 "
-simulcastIndex
+encodingIndex
 "
 &
-simulcast_index
+encoding_index
 )
 AttributeInit
 (

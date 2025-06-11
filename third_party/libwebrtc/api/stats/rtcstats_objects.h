@@ -1921,7 +1921,7 @@ optional
 <
 uint32_t
 >
-simulcast_index
+encoding_index
 ;
 std
 :

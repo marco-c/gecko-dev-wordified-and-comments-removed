@@ -5980,7 +5980,7 @@ TestAttributeIsUndefined
 (
 outbound_stream
 .
-simulcast_index
+encoding_index
 )
 ;
 verifier
@@ -6112,7 +6112,7 @@ TestAttributeIsUndefined
 (
 outbound_stream
 .
-simulcast_index
+encoding_index
 )
 ;
 verifier

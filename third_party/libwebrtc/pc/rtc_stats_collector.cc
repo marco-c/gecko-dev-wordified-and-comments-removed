@@ -4975,7 +4975,7 @@ if
 (
 video_sender_info
 .
-simulcast_index
+encoding_index
 .
 has_value
 (
@@ -4985,12 +4985,12 @@ has_value
 outbound_video
 -
 >
-simulcast_index
+encoding_index
 =
 *
 video_sender_info
 .
-simulcast_index
+encoding_index
 ;
 }
 if
