@@ -2595,6 +2595,15 @@ VideoSenderInfo
 std
 :
 :
+optional
+<
+size_t
+>
+simulcast_index
+;
+std
+:
+:
 vector
 <
 SsrcGroup

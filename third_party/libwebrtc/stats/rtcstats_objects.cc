@@ -1812,6 +1812,14 @@ rid
 AttributeInit
 (
 "
+simulcastIndex
+"
+&
+simulcast_index
+)
+AttributeInit
+(
+"
 retransmittedPacketsSent
 "
 &

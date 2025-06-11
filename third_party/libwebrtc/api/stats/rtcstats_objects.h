@@ -1919,6 +1919,15 @@ std
 :
 optional
 <
+uint32_t
+>
+simulcast_index
+;
+std
+:
+:
+optional
+<
 uint64_t
 >
 retransmitted_packets_sent
