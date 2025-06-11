@@ -5252,7 +5252,7 @@ return
 FrameType
 :
 :
-I_FRAME
+I_FRAME_IDR
 ;
 }
 if
@@ -5294,7 +5294,7 @@ return
 FrameType
 :
 :
-I_FRAME
+I_FRAME_OTHER
 ;
 }
 }
@@ -5334,7 +5334,7 @@ return
 FrameType
 :
 :
-I_FRAME
+I_FRAME_OTHER
 ;
 }
 }
