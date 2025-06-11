@@ -110,9 +110,9 @@ enum
 class
 HardwarePreference
 {
+None
 RequireHardware
 RequireSoftware
-None
 }
 ;
 const
@@ -1159,12 +1159,14 @@ mUsage
 HardwarePreference
 mHardwarePreference
 {
+HardwarePreference
+:
+:
+None
 }
 ;
 SampleFormat
 mFormat
-{
-}
 ;
 ScalabilityMode
 mScalabilityMode
