@@ -11052,6 +11052,11 @@ NavigatorLogin
 GetWindow
 (
 )
+-
+>
+AsGlobal
+(
+)
 )
 ;
 }
