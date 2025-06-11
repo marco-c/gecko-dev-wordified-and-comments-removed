@@ -63,6 +63,7 @@ MaybeCheckTDZ
 >
 ;
 class
+MOZ_STACK_CLASS
 TDZCheckCache
 :
 public

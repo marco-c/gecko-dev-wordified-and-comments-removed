@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -122,6 +131,7 @@ class
 TaggedParserAtomIndex
 ;
 class
+MOZ_STACK_CLASS
 EmitterScope
 :
 public

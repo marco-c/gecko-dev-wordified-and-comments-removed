@@ -126,6 +126,7 @@ kind
 )
 ;
 class
+MOZ_STACK_CLASS
 ParseContext
 :
 public
@@ -137,6 +138,7 @@ ParseContext
 public
 :
 class
+MOZ_STACK_CLASS
 Statement
 :
 public
@@ -354,6 +356,7 @@ nullptr
 }
 ;
 class
+MOZ_STACK_CLASS
 Scope
 :
 public
