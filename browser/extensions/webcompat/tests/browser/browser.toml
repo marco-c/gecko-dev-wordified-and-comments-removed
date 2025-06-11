@@ -98,6 +98,11 @@ download_server
 .
 sjs
 "
+"
+echo_headers
+.
+sjs
+"
 ]
 [
 "
