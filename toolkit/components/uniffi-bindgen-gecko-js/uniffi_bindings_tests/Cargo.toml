@@ -112,6 +112,9 @@ errors
 callback_interfaces
 "
 "
+trait_interfaces
+"
+"
 futures
 "
 ]
@@ -152,6 +155,10 @@ errors
 [
 ]
 callback_interfaces
+=
+[
+]
+trait_interfaces
 =
 [
 ]
