@@ -3078,7 +3078,7 @@ var
 webAppToolbarShouldBeVisible
 =
 true
-private
+protected
 lateinit
 var
 browserScreenStore
@@ -7137,7 +7137,6 @@ BrowserScreenMiddleware
 >
 (
 )
-val
 browserScreenStore
 =
 StoreProvider
