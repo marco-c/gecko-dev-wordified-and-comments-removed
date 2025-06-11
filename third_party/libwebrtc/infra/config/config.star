@@ -6377,9 +6377,6 @@ try_builder
 "
 iwyu_verifier
 "
-cq
-=
-None
 )
 try_builder
 (
