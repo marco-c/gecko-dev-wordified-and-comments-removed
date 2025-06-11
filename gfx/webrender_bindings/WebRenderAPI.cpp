@@ -246,6 +246,9 @@ bool
 aUseDComp
 bool
 *
+aUseLayerCompositor
+bool
+*
 aUseTripleBuffering
 bool
 *
@@ -307,6 +310,10 @@ aUseANGLE
 mUseDComp
 (
 aUseDComp
+)
+mUseLayerCompositor
+(
+aUseLayerCompositor
 )
 mUseTripleBuffering
 (
@@ -478,6 +485,16 @@ compositor
 -
 >
 UseDComp
+(
+)
+;
+*
+mUseLayerCompositor
+=
+compositor
+-
+>
+ShouldUseLayerCompositor
 (
 )
 ;
@@ -1133,6 +1150,10 @@ mUseANGLE
 bool
 *
 mUseDComp
+;
+bool
+*
+mUseLayerCompositor
 ;
 bool
 *
@@ -2104,6 +2125,11 @@ useDComp
 false
 ;
 bool
+useLayerCompositor
+=
+false
+;
+bool
 useTripleBuffering
 =
 false
@@ -2155,6 +2181,8 @@ maxTextureSize
 useANGLE
 &
 useDComp
+&
+useLayerCompositor
 &
 useTripleBuffering
 &
@@ -2228,6 +2256,7 @@ compositor
 maxTextureSize
 useANGLE
 useDComp
+useLayerCompositor
 useTripleBuffering
 supportsExternalBufferTextures
 syncHandle
@@ -2282,6 +2311,7 @@ mCompositor
 mMaxTextureSize
 mUseANGLE
 mUseDComp
+mUseLayerCompositor
 mUseTripleBuffering
 mSupportsExternalBufferTextures
 mSyncHandle
@@ -2342,6 +2372,8 @@ aUseANGLE
 bool
 aUseDComp
 bool
+aUseLayerCompositor
+bool
 aUseTripleBuffering
 bool
 aSupportsExternalBufferTextures
@@ -2391,6 +2423,10 @@ aUseANGLE
 mUseDComp
 (
 aUseDComp
+)
+mUseLayerCompositor
+(
+aUseLayerCompositor
 )
 mUseTripleBuffering
 (

@@ -15672,6 +15672,12 @@ mApi
 GetUseDComp
 (
 )
+mApi
+-
+>
+GetUseLayerCompositor
+(
+)
 mAsyncImageManager
 -
 >
