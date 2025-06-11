@@ -297,7 +297,7 @@ SUCCESS
 )
 stun_server_1_
 (
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -316,7 +316,7 @@ main_
 )
 stun_server_2_
 (
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -892,7 +892,7 @@ stopped_
 =
 false
 ;
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -901,7 +901,7 @@ TestStunServer
 StunServerPtr
 stun_server_1_
 ;
-cricket
+webrtc
 :
 :
 TestStunServer

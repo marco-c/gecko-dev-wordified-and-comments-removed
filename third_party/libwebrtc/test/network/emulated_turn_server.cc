@@ -817,9 +817,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 TurnServer
 >
 (

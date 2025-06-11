@@ -528,7 +528,7 @@ kPublicIP
 ipaddr
 (
 )
-rtc
+webrtc
 :
 :
 NAT_SERVER_UDP_PORT
@@ -614,7 +614,7 @@ kPublicIPv6
 ipaddr
 (
 )
-rtc
+webrtc
 :
 :
 NAT_SERVER_UDP_PORT
@@ -1015,7 +1015,7 @@ nat_server_
 CreateNatServer
 (
 nat_server_address
-rtc
+webrtc
 :
 :
 NAT_OPEN_CONE
@@ -1092,7 +1092,7 @@ stun_servers_
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -1117,7 +1117,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 NATServer
@@ -1128,7 +1128,7 @@ const
 SocketAddress
 &
 addr
-rtc
+webrtc
 :
 :
 NATType
@@ -1141,7 +1141,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 NATServer
@@ -1999,7 +1999,7 @@ back
 )
 ;
 }
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -2019,7 +2019,7 @@ get
 )
 ;
 }
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -2105,7 +2105,7 @@ rtc
 AutoSocketServerThread
 thread_
 ;
-rtc
+webrtc
 :
 :
 NATSocketFactory
@@ -2134,7 +2134,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 TestStunServer
@@ -2173,7 +2173,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 NATServer
@@ -2817,7 +2817,7 @@ socket_factory_
 void
 SetDnsResolverExpectations
 (
-rtc
+webrtc
 :
 :
 MockDnsResolvingPacketSocketFactory
@@ -2837,7 +2837,7 @@ expectations
 }
 private
 :
-rtc
+webrtc
 :
 :
 MockDnsResolvingPacketSocketFactory
@@ -6259,7 +6259,7 @@ socket_factory_
 void
 SetDnsResolverExpectations
 (
-rtc
+webrtc
 :
 :
 MockDnsResolvingPacketSocketFactory
@@ -6279,7 +6279,7 @@ expectations
 }
 private
 :
-rtc
+webrtc
 :
 :
 MockDnsResolvingPacketSocketFactory

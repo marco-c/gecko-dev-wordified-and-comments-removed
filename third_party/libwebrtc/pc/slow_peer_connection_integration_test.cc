@@ -1473,9 +1473,6 @@ server_address
 {
 stun_server_
 =
-cricket
-:
-:
 TestStunServer
 :
 :
@@ -1771,9 +1768,6 @@ private
 uint32_t
 port_allocator_flags_
 ;
-cricket
-:
-:
 TestStunServer
 :
 :
@@ -1820,9 +1814,6 @@ SocketAddress
 .
 1
 "
-cricket
-:
-:
 STUN_SERVER_PORT
 )
 ;

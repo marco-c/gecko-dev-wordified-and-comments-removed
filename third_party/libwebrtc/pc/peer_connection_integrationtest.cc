@@ -12006,9 +12006,6 @@ server_address
 {
 stun_server_
 =
-cricket
-:
-:
 TestStunServer
 :
 :
@@ -12304,9 +12301,6 @@ private
 uint32_t
 port_allocator_flags_
 ;
-cricket
-:
-:
 TestStunServer
 :
 :
@@ -15693,9 +15687,6 @@ turn_server_2_external_address
 0
 }
 ;
-cricket
-:
-:
 TestTurnServer
 *
 turn_server_1
@@ -15706,9 +15697,6 @@ turn_server_1_internal_address
 turn_server_1_external_address
 )
 ;
-cricket
-:
-:
 TestTurnServer
 *
 turn_server_2

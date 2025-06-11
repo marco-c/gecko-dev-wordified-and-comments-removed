@@ -140,7 +140,7 @@ class
 TurnFileAuth
 :
 public
-cricket
+webrtc
 :
 :
 TurnAuthInterface
@@ -498,7 +498,7 @@ return
 1
 ;
 }
-cricket
+webrtc
 :
 :
 TurnServer

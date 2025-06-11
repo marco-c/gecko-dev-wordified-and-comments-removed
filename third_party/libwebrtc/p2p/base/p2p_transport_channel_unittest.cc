@@ -1387,7 +1387,7 @@ kStunAddr
 .
 1
 "
-cricket
+webrtc
 :
 :
 STUN_SERVER_PORT
@@ -1407,7 +1407,7 @@ kTurnUdpIntAddr
 .
 3
 "
-cricket
+webrtc
 :
 :
 STUN_SERVER_PORT
@@ -1427,7 +1427,7 @@ kTurnTcpIntAddr
 .
 4
 "
-cricket
+webrtc
 :
 :
 STUN_SERVER_PORT
@@ -2327,7 +2327,7 @@ VirtualSocketServer
 nss_
 (
 new
-rtc
+webrtc
 :
 :
 NATSocketServer
@@ -2379,6 +2379,9 @@ get
 )
 stun_server_
 (
+webrtc
+:
+:
 TestStunServer
 :
 :
@@ -3659,6 +3662,9 @@ get
 )
 ;
 }
+webrtc
+:
+:
 TestTurnServer
 *
 test_turn_server
@@ -3757,7 +3763,7 @@ const
 Result
 kPrflxTcpToLocalTcp
 ;
-rtc
+webrtc
 :
 :
 NATSocketServer
@@ -7090,7 +7096,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 NATSocketServer
@@ -7143,12 +7149,18 @@ Create
 (
 )
 ;
+webrtc
+:
+:
 TestStunServer
 :
 :
 StunServerPtr
 stun_server_
 ;
+webrtc
+:
+:
 TestTurnServer
 turn_server_
 ;
@@ -7694,7 +7706,7 @@ endpoint
 ]
 static_cast
 <
-rtc
+webrtc
 :
 :
 NATType
@@ -7754,12 +7766,12 @@ config
 NAT_DOUBLE_CONE
 )
 ?
-rtc
+webrtc
 :
 :
 NAT_OPEN_CONE
 :
-rtc
+webrtc
 :
 :
 NAT_SYMMETRIC
@@ -7776,7 +7788,7 @@ kCascadedNatAddrs
 [
 endpoint
 ]
-rtc
+webrtc
 :
 :
 NAT_OPEN_CONE
@@ -16279,7 +16291,7 @@ CreatePortAllocators
 env
 )
 ;
-rtc
+webrtc
 :
 :
 NATSocketServer
@@ -16306,7 +16318,7 @@ kNatAddrs
 ]
 static_cast
 <
-rtc
+webrtc
 :
 :
 NATType
@@ -16341,7 +16353,7 @@ FROM_SETICEPARAMETERS
 void
 ConfigureEndpoint
 (
-rtc
+webrtc
 :
 :
 NATSocketServer
@@ -16419,7 +16431,7 @@ endpoint
 ]
 static_cast
 <
-rtc
+webrtc
 :
 :
 NATType
@@ -38039,6 +38051,9 @@ return
 channel_
 ;
 }
+webrtc
+:
+:
 TestTurnServer
 *
 turn_server
@@ -38165,6 +38180,9 @@ rtc
 FakeNetworkManager
 network_manager_
 ;
+webrtc
+:
+:
 TestTurnServer
 turn_server_
 ;
@@ -47415,6 +47433,9 @@ get
 )
 )
 ;
+webrtc
+:
+:
 MockIceControllerFactory
 factory
 ;
@@ -47568,6 +47589,9 @@ get
 )
 )
 ;
+webrtc
+:
+:
 MockActiveIceControllerFactory
 factory
 ;

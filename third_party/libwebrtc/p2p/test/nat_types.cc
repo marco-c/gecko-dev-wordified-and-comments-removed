@@ -19,7 +19,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 SymmetricNAT

@@ -11236,9 +11236,6 @@ turn_server_1_external_address
 0
 }
 ;
-cricket
-:
-:
 TestTurnServer
 *
 turn_server_1

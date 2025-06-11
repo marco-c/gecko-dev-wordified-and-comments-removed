@@ -175,7 +175,7 @@ kStunAddr
 .
 1
 "
-cricket
+webrtc
 :
 :
 STUN_SERVER_PORT
@@ -197,7 +197,7 @@ kTurnUdpIntAddr
 .
 3
 "
-cricket
+webrtc
 :
 :
 STUN_SERVER_PORT
@@ -296,9 +296,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 MockIceTransport
 >
 (
