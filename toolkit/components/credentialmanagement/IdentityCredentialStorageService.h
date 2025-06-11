@@ -66,17 +66,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-IPCIdentityCredential
-.
-h
-"
-#
-include
-"
 nsIAsyncShutdown
 .
 h
