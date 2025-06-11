@@ -1766,7 +1766,6 @@ EventDispatcher
 GetInstance
 (
 )
-nullptr
 )
 ;
 mEventDispatcher
@@ -1838,7 +1837,6 @@ ByName
 (
 aName
 )
-nullptr
 )
 ;
 dispatcher
