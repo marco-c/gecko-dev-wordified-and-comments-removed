@@ -191,7 +191,7 @@ input2
 getAttributeValue
 (
 "
-AXDescription
+AXTitle
 "
 )
 "
@@ -211,11 +211,10 @@ input2
 getAttributeValue
 (
 "
-AXTitle
+AXDescription
 "
 )
-"
-"
+null
 "
 Correct
 title
@@ -361,9 +360,7 @@ getAttributeValue
 AXDescription
 "
 )
-"
-Birthday
-"
+null
 "
 Correct
 label
@@ -381,6 +378,7 @@ AXTitle
 "
 )
 "
+Birthday
 "
 "
 Correct
