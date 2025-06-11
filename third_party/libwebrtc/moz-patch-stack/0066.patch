@@ -298,10 +298,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-f79bbce24d
+1c42786357
 .
 .
-157107c806
+fad4b2cb84
 100644
 -
 -
@@ -324,10 +324,10 @@ rtp_video_stream_receiver2
 .
 cc
 -
-1406
+1401
 7
 +
-1406
+1401
 9
 void
 RtpVideoStreamReceiver2
@@ -341,6 +341,10 @@ picture_id
 {
 packet_infos_
 .
+erase
+(
+packet_infos_
+.
 begin
 (
 )
@@ -348,8 +352,7 @@ packet_infos_
 .
 upper_bound
 (
-*
-last_decoded_unwrapped_seq_num_
+unwrapped_rtp_seq_num
 )
 )
 ;

@@ -1517,10 +1517,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-157107c806
+fad4b2cb84
 .
 .
-59a0dc6722
+6a41d05d1c
 100644
 -
 -
@@ -1610,10 +1610,10 @@ buffered_frame_decryptor
 h
 "
 -
-1407
+1402
 6
 +
-1408
+1403
 9
 void
 RtpVideoStreamReceiver2
@@ -1629,8 +1629,7 @@ packet_infos_
 .
 upper_bound
 (
-*
-last_decoded_unwrapped_seq_num_
+unwrapped_rtp_seq_num
 )
 )
 ;
