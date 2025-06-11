@@ -569,7 +569,6 @@ case
 synthesizeWheelAtPoint
 "
 :
-await
 lazy
 .
 event

@@ -560,7 +560,6 @@ contentWindow
 )
 ;
 }
-async
 #
 dispatchEvent
 (
@@ -746,7 +745,6 @@ case
 synthesizeWheelAtPoint
 "
 :
-await
 lazy
 .
 event
@@ -1180,7 +1178,6 @@ MarionetteCommandsParent
 _dispatchEvent
 "
 :
-await
 this
 .
 #
