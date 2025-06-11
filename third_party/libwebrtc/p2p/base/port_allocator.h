@@ -14,11 +14,6 @@ h
 #
 include
 <
-deque
->
-#
-include
-<
 memory
 >
 #
@@ -166,15 +161,6 @@ third_party
 sigslot
 /
 sigslot
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-thread
 .
 h
 "
