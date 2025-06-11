@@ -1287,6 +1287,16 @@ MenuAction
 .
 Navigate
 .
+Stop
+is
+MenuAction
+.
+SetLoading
+is
+MenuAction
+.
+Navigate
+.
 InstalledAddonDetails
 -
 >
