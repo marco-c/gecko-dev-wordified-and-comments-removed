@@ -106,6 +106,9 @@ class
 DisplaySVGText
 ;
 class
+SVGContextPaint
+;
+class
 SVGTextFrame
 ;
 class
@@ -1077,7 +1080,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 ;
 }
@@ -1229,6 +1232,9 @@ ShouldRenderAsPath
 nsTextFrame
 *
 aFrame
+SVGContextPaint
+*
+aContextPaint
 bool
 &
 aShouldPaintSVGGlyphs

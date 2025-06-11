@@ -7675,6 +7675,9 @@ SVGTextDrawPathCallbacks
 SVGTextFrame
 *
 aSVGTextFrame
+SVGContextPaint
+*
+aContextPaint
 gfxContext
 &
 aContext
@@ -7699,6 +7702,10 @@ aShouldPaintSVGGlyphs
 mSVGTextFrame
 (
 aSVGTextFrame
+)
+mContextPaint
+(
+aContextPaint
 )
 mContext
 (
@@ -7851,6 +7858,11 @@ SVGTextFrame
 *
 const
 mSVGTextFrame
+;
+SVGContextPaint
+*
+const
+mContextPaint
 ;
 gfxContext
 &
@@ -8387,7 +8399,7 @@ SVGUtils
 GetOpacity
 (
 aOpacity
-nullptr
+mContextPaint
 )
 ;
 }
@@ -8426,6 +8438,7 @@ mFrame
 mContext
 aOutPattern
 mImgParams
+mContextPaint
 )
 ;
 return
@@ -8800,7 +8813,7 @@ SVGUtils
 HasStroke
 (
 mFrame
-nullptr
+mContextPaint
 )
 )
 {
@@ -8874,7 +8887,7 @@ mContext
 &
 strokePattern
 mImgParams
-nullptr
+mContextPaint
 )
 ;
 }
@@ -8972,7 +8985,7 @@ mFrame
 Style
 (
 )
-nullptr
+mContextPaint
 )
 ;
 DrawOptions
@@ -11139,6 +11152,7 @@ if
 ShouldRenderAsPath
 (
 frame
+contextPaint
 paintSVGGlyphs
 )
 )
@@ -11147,6 +11161,7 @@ SVGTextDrawPathCallbacks
 callbacks
 (
 this
+contextPaint
 aContext
 frame
 matrixForPaintServers
@@ -20105,6 +20120,9 @@ ShouldRenderAsPath
 nsTextFrame
 *
 aFrame
+SVGContextPaint
+*
+aContextPaint
 bool
 &
 aShouldPaintSVGGlyphs
@@ -20180,7 +20198,7 @@ style
 -
 >
 mFillOpacity
-nullptr
+aContextPaint
 )
 =
 =
