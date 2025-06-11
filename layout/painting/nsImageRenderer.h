@@ -683,6 +683,7 @@ bool
 IsRasterImage
 (
 )
+const
 ;
 already_AddRefed
 <
