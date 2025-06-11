@@ -1287,11 +1287,6 @@ writable_
 =
 false
 ;
-bool
-was_ever_connected_
-=
-false
-;
 webrtc
 :
 :
