@@ -38,6 +38,14 @@ set
 :
 [
 [
+"
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
 PREF_WARN_ON_CLOSE
 false
 ]

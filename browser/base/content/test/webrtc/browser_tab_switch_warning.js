@@ -572,6 +572,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 privacy
 .
 webrtc

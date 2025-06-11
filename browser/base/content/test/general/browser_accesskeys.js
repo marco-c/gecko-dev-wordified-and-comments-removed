@@ -10,6 +10,14 @@ pushPrefs
 (
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 ui
 .
 key
