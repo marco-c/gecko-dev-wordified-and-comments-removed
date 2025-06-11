@@ -383,11 +383,11 @@ contentDescription
 action
 .
 contentDescription
-isActive
+state
 =
 action
 .
-isActive
+state
 onClick
 =
 action
