@@ -512,12 +512,6 @@ Info
 const
 ;
 bool
-IsFallbackAdapter
-(
-)
-const
-;
-bool
 SupportExternalTextureInSwapChain
 (
 )

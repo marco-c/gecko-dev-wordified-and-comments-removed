@@ -783,11 +783,6 @@ attribute
 GPUAdapterInfo
 info
 ;
-readonly
-attribute
-boolean
-isFallbackAdapter
-;
 [
 Throws
 ]
