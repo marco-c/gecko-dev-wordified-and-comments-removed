@@ -5819,6 +5819,8 @@ WindowsVersionToOperatingSystem
 (
 int32_t
 aWindowsVersion
+int32_t
+aWindowsBuildNumber
 )
 {
 switch
@@ -5856,11 +5858,25 @@ Windows8_1
 case
 kWindows10
 :
+if
+(
+aWindowsBuildNumber
+<
+22000
+)
+{
 return
 OperatingSystem
 :
 :
 Windows10
+;
+}
+return
+OperatingSystem
+:
+:
+Windows11
 ;
 case
 kWindowsUnknown
@@ -6293,7 +6309,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -6407,7 +6423,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -6462,7 +6478,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -6566,7 +6582,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -7364,7 +7380,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -7392,7 +7408,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -7566,7 +7582,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -8267,7 +8283,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -8316,7 +8332,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -8365,7 +8381,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -8584,7 +8600,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -8633,7 +8649,7 @@ APPEND_TO_DRIVER_BLOCKLIST_RANGE
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -9053,7 +9069,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows10or11
 DeviceFamily
 :
 :
@@ -9179,6 +9195,7 @@ return
 WindowsVersionToOperatingSystem
 (
 mWindowsVersion
+mWindowsBuildNumber
 )
 ;
 }
@@ -9236,6 +9253,7 @@ os
 WindowsVersionToOperatingSystem
 (
 mWindowsVersion
+mWindowsBuildNumber
 )
 ;
 *
