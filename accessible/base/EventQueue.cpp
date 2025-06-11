@@ -691,6 +691,15 @@ true
 ;
 break
 ;
+case
+eNameFromRelations
+:
+fireNameChange
+=
+true
+;
+break
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
