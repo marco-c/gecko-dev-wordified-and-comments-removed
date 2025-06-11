@@ -133,7 +133,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 TestClient
 :
@@ -145,6 +145,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 AsyncPacketSocket
 >
 socket
@@ -173,9 +176,15 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 AsyncPacketSocket
 >
 socket
+rtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock
@@ -260,6 +269,9 @@ TestClient
 :
 CheckConnState
 (
+rtc
+:
+:
 AsyncPacketSocket
 :
 :
@@ -270,6 +282,9 @@ state
 int64_t
 end
 =
+rtc
+:
+:
 TimeAfter
 (
 kTimeoutMs
@@ -288,6 +303,9 @@ GetState
 state
 &
 &
+rtc
+:
+:
 TimeUntil
 (
 end
@@ -361,6 +379,9 @@ buf
 size_t
 size
 const
+rtc
+:
+:
 SocketAddress
 &
 dest
@@ -407,6 +428,9 @@ timeout_ms
 int64_t
 end
 =
+rtc
+:
+:
 TimeAfter
 (
 timeout_ms
@@ -414,6 +438,9 @@ timeout_ms
 ;
 while
 (
+rtc
+:
+:
 TimeUntil
 (
 end
@@ -423,9 +450,6 @@ end
 )
 {
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -462,9 +486,6 @@ Packet
 >
 packet
 ;
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -524,6 +545,9 @@ char
 buf
 size_t
 size
+rtc
+:
+:
 SocketAddress
 *
 addr
@@ -624,9 +648,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 Timestamp
 >
 packet_timestamp
@@ -736,6 +757,9 @@ Millis
 }
 else
 {
+rtc
+:
+:
 Thread
 :
 :
@@ -792,6 +816,9 @@ TestClient
 :
 SetOption
 (
+rtc
+:
+:
 Socket
 :
 :
@@ -818,6 +845,9 @@ TestClient
 :
 OnPacket
 (
+rtc
+:
+:
 AsyncPacketSocket
 *
 socket
@@ -830,9 +860,6 @@ ReceivedPacket
 received_packet
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -863,6 +890,9 @@ TestClient
 :
 OnReadyToSend
 (
+rtc
+:
+:
 AsyncPacketSocket
 *
 socket
