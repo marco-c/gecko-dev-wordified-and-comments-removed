@@ -53,9 +53,9 @@ script
 -
 src
 '
-strict
+Strict
 -
-dynamic
+Dynamic
 '
 '
 nonce
