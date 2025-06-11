@@ -2457,7 +2457,7 @@ for
 (
 auto
 &
-config
+track
 :
 allocatable_tracks_
 )
@@ -2467,7 +2467,7 @@ allocated_bitrate
 =
 allocation
 [
-config
+track
 .
 observer
 ]
@@ -2477,7 +2477,7 @@ allocated_stable_target_rate
 =
 stable_bitrate_allocation
 [
-config
+track
 .
 observer
 ]
@@ -2554,7 +2554,7 @@ cwnd_reduce_ratio
 uint32_t
 protection_bitrate
 =
-config
+track
 .
 observer
 -
@@ -2572,7 +2572,7 @@ allocated_bitrate
 0
 &
 &
-config
+track
 .
 allocated_bitrate_bps
 >
@@ -2597,12 +2597,12 @@ predicted_protection_bps
 .
 0
 -
-config
+track
 .
 media_ratio
 )
 *
-config
+track
 .
 config
 .
@@ -2620,7 +2620,7 @@ observer
 "
 <
 <
-config
+track
 .
 observer
 <
@@ -2633,7 +2633,7 @@ bitrate
 "
 <
 <
-config
+track
 .
 config
 .
@@ -2669,7 +2669,7 @@ allocated_bitrate
 0
 &
 &
-config
+track
 .
 allocated_bitrate_bps
 =
@@ -2699,7 +2699,7 @@ observer
 "
 <
 <
-config
+track
 .
 observer
 <
@@ -2711,7 +2711,7 @@ bitrate
 "
 <
 <
-config
+track
 .
 config
 .
@@ -2743,7 +2743,7 @@ allocated_bitrate
 >
 0
 )
-config
+track
 .
 media_ratio
 =
@@ -2753,17 +2753,17 @@ allocated_bitrate
 protection_bitrate
 )
 ;
-config
+track
 .
 allocated_bitrate_bps
 =
 allocated_bitrate
 ;
-config
+track
 .
 last_used_bitrate
 =
-config
+track
 .
 observer
 -
@@ -2918,7 +2918,7 @@ for
 (
 auto
 &
-config
+track
 :
 allocatable_tracks_
 )
@@ -2928,7 +2928,7 @@ allocated_bitrate
 =
 allocation
 [
-config
+track
 .
 observer
 ]
@@ -2938,7 +2938,7 @@ allocated_stable_bitrate
 =
 stable_bitrate_allocation
 [
-config
+track
 .
 observer
 ]
@@ -3007,7 +3007,7 @@ last_bwe_period_ms_
 uint32_t
 protection_bitrate
 =
-config
+track
 .
 observer
 -
@@ -3017,17 +3017,17 @@ OnBitrateUpdated
 update
 )
 ;
-config
+track
 .
 allocated_bitrate_bps
 =
 allocated_bitrate
 ;
-config
+track
 .
 last_used_bitrate
 =
-config
+track
 .
 observer
 -
@@ -3042,7 +3042,7 @@ allocated_bitrate
 >
 0
 )
-config
+track
 .
 media_ratio
 =
@@ -3183,14 +3183,14 @@ for
 (
 auto
 &
-config
+track
 :
 allocatable_tracks_
 )
 {
 if
 (
-config
+track
 .
 config
 .
@@ -3206,7 +3206,7 @@ TrackRateElasticity
 elasticity
 =
 *
-config
+track
 .
 config
 .
@@ -3235,7 +3235,7 @@ kCanContributeAndConsume
 DataRate
 current_usage
 =
-config
+track
 .
 observer
 -
@@ -3257,7 +3257,7 @@ Zero
 DataRate
 last_usage
 =
-config
+track
 .
 last_used_bitrate
 .
@@ -3293,7 +3293,7 @@ DataRate
 :
 BitsPerSec
 (
-config
+track
 .
 LastAllocatedBitrate
 (
@@ -3400,7 +3400,7 @@ for
 (
 auto
 &
-config
+track
 :
 allocatable_tracks_
 )
@@ -3415,7 +3415,7 @@ BitsPerSec
 (
 allocation
 [
-config
+track
 .
 observer
 ]
@@ -3431,7 +3431,7 @@ BitsPerSec
 (
 stable_bitrate_allocation
 [
-config
+track
 .
 observer
 ]
@@ -3494,7 +3494,7 @@ DataRate
 :
 BitsPerSec
 (
-config
+track
 .
 observer
 -
@@ -3505,7 +3505,7 @@ update
 )
 )
 ;
-config
+track
 .
 allocated_bitrate_bps
 =
@@ -3515,11 +3515,11 @@ bps
 (
 )
 ;
-config
+track
 .
 last_used_bitrate
 =
-config
+track
 .
 observer
 -
@@ -3538,7 +3538,7 @@ bps
 >
 0
 )
-config
+track
 .
 media_ratio
 =
@@ -3582,7 +3582,7 @@ for
 const
 auto
 &
-config
+track
 :
 allocatable_tracks_
 )
@@ -3590,7 +3590,7 @@ allocatable_tracks_
 uint32_t
 stream_padding
 =
-config
+track
 .
 config
 .
@@ -3598,7 +3598,7 @@ pad_up_bitrate_bps
 ;
 if
 (
-config
+track
 .
 config
 .
@@ -3615,7 +3615,7 @@ DataRate
 :
 BitsPerSec
 (
-config
+track
 .
 config
 .
@@ -3626,7 +3626,7 @@ min_bitrate_bps
 else
 if
 (
-config
+track
 .
 allocated_bitrate_bps
 =
@@ -3641,7 +3641,7 @@ std
 :
 max
 (
-config
+track
 .
 MinBitrateWithHysteresis
 (
@@ -3673,7 +3673,7 @@ DataRate
 :
 BitsPerSec
 (
-config
+track
 .
 config
 .

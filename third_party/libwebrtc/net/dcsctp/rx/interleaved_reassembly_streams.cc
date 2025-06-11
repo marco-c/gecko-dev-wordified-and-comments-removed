@@ -1736,7 +1736,7 @@ DcSctpSocketHandoverState
 :
 OrderedStream
 &
-state
+stream_state
 :
 state
 .
@@ -1754,7 +1754,7 @@ false
 )
 StreamID
 (
-state
+stream_state
 .
 id
 )
@@ -1784,7 +1784,7 @@ stream_id
 this
 MID
 (
-state
+stream_state
 .
 next_ssn
 )
@@ -1800,7 +1800,7 @@ DcSctpSocketHandoverState
 :
 UnorderedStream
 &
-state
+stream_state
 :
 state
 .
@@ -1818,7 +1818,7 @@ true
 )
 StreamID
 (
-state
+stream_state
 .
 id
 )

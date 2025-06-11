@@ -1140,7 +1140,7 @@ kTimeout
 for
 (
 auto
-it
+stream_it
 =
 streams_
 .
@@ -1148,7 +1148,7 @@ begin
 (
 )
 ;
-it
+stream_it
 !
 =
 streams_
@@ -1161,7 +1161,7 @@ end
 {
 if
 (
-it
+stream_it
 -
 >
 second
@@ -1172,7 +1172,7 @@ IsEmpty
 )
 &
 &
-it
+stream_it
 -
 >
 second
@@ -1191,7 +1191,7 @@ streams_
 .
 erase
 (
-it
+stream_it
 +
 +
 )
@@ -1201,7 +1201,7 @@ else
 {
 +
 +
-it
+stream_it
 ;
 }
 }
