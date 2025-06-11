@@ -20338,11 +20338,13 @@ NS_OK
 bool
 IsLocalNetworkAccess
 (
+const
 nsILoadInfo
 :
 :
 IPAddressSpace
 aParentIPAddressSpace
+const
 nsILoadInfo
 :
 :
