@@ -380,6 +380,13 @@ editText
 )
 )
 is
+BrowserToolbarAction
+.
+CommitUrl
+-
+>
+state
+is
 BrowserActionsStartUpdated
 -
 >
