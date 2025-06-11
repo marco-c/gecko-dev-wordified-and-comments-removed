@@ -223,15 +223,6 @@ true
 emulate
 focus
 "
-privacy
-.
-partition
-.
-network_state
-=
-false
-"
-"
 network
 .
 proxy

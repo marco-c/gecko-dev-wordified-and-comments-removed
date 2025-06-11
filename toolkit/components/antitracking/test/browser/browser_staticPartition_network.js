@@ -218,16 +218,6 @@ privacy
 partition
 .
 network_state
-"
-true
-]
-[
-"
-privacy
-.
-partition
-.
-network_state
 .
 connection_with_proxy
 "

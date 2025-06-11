@@ -94,16 +94,6 @@ Every
 Time
 "
 ]
-[
-"
-privacy
-.
-partition
-.
-network_state
-"
-false
-]
 ]
 }
 )
