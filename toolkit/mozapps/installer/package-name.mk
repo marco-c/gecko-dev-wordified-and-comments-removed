@@ -309,12 +309,6 @@ PKG_BASENAME
 installer
 -
 stub
-PKG_INST_PATH
-=
-install
-/
-sea
-/
 PKG_UPDATE_BASENAME
 =
 (

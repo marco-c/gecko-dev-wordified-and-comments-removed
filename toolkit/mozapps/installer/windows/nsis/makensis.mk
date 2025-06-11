@@ -368,14 +368,6 @@ exe
 (
 ZIP_IN
 )
-echo
-'
-Packaging
-(
-WIN32_INSTALLER_OUT
-)
-.
-'
 (
 NSINSTALL
 )
@@ -387,7 +379,7 @@ ABS_DIST
 )
 /
 (
-PKG_INST_PATH
+PKG_PATH
 )
 '
 (
@@ -409,7 +401,7 @@ ABS_DIST
 )
 /
 (
-PKG_INST_PATH
+PKG_PATH
 )
 (
 PKG_INST_BASENAME
@@ -501,7 +493,7 @@ ABS_DIST
 )
 /
 (
-PKG_INST_PATH
+PKG_PATH
 )
 (
 PKG_STUB_BASENAME

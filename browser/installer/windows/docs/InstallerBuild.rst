@@ -88,11 +88,6 @@ in
 OBJDIR
 /
 dist
-/
-install
-/
-sea
-/
 .
 You
 have
