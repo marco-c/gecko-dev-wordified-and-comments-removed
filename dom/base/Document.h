@@ -2858,6 +2858,17 @@ bool
 aSpeculative
 )
 ;
+IntegrityPolicy
+*
+GetIntegrityPolicy
+(
+)
+const
+{
+return
+mIntegrityPolicy
+;
+}
 already_AddRefed
 <
 nsIParser

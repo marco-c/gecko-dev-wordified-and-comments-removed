@@ -792,6 +792,13 @@ js
 ]
 [
 "
+test_ext_contentscript_integritypolicy
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_json_api
 .
 js

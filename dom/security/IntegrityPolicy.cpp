@@ -232,6 +232,9 @@ IntegrityPolicy
 :
 DestinationType
 >
+IntegrityPolicy
+:
+:
 ContentTypeToDestinationType
 (
 nsContentPolicyType
