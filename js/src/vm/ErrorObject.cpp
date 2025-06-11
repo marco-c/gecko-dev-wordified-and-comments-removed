@@ -1291,6 +1291,12 @@ messageArg
 isObject
 (
 )
+&
+&
+exnType
+!
+=
+JSEXN_SUPPRESSEDERR
 ;
 Rooted
 <
