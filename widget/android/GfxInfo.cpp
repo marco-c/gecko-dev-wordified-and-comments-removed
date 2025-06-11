@@ -1692,7 +1692,10 @@ Version
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 GfxInfo
@@ -1763,7 +1766,10 @@ aSuggestedDriverVersion
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 aDriverInfo
