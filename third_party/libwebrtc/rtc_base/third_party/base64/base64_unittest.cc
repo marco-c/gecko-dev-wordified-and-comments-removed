@@ -32,6 +32,11 @@ algorithm
 >
 #
 include
+<
+string
+>
+#
+include
 "
 rtc_base
 /
@@ -43,6 +48,10 @@ h
 include
 "
 rtc_base
+/
+third_party
+/
+base64
 /
 test_base64
 .

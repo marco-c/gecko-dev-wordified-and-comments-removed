@@ -8367,11 +8367,6 @@ server_socket_adapters
 h
 "
 "
-test_base64
-.
-h
-"
-"
 test_certificate_verifier
 .
 h
@@ -9242,11 +9237,6 @@ sources
 =
 [
 "
-base64_unittest
-.
-cc
-"
-"
 bit_buffer_unittest
 .
 cc
@@ -9849,6 +9839,8 @@ repeating_task
 third_party
 /
 base64
+:
+base64_unittest
 "
 "
 third_party
