@@ -310,6 +310,9 @@ kPayloadTypes
 kSsrcs
 =
 27
+kIceOptionsRenomination
+=
+28
 kRtpHeaderExtensionRemoved
 =
 40
