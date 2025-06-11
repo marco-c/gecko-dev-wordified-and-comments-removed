@@ -172,6 +172,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 ktx
@@ -181,6 +183,8 @@ implementation
 project
 (
 "
+:
+components
 :
 support
 -
@@ -192,6 +196,8 @@ project
 (
 "
 :
+components
+:
 ui
 -
 colors
@@ -201,6 +207,8 @@ implementation
 project
 (
 "
+:
+components
 :
 ui
 -
@@ -315,6 +323,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

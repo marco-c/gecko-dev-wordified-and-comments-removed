@@ -150,6 +150,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -165,6 +167,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

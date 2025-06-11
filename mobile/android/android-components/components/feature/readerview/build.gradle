@@ -181,6 +181,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 menu
@@ -190,6 +192,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -201,6 +205,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -210,6 +216,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -221,6 +229,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -230,6 +240,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -241,6 +253,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 webextensions
@@ -250,6 +264,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -280,6 +296,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

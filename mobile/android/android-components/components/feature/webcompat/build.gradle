@@ -463,6 +463,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -487,6 +489,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -496,6 +500,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

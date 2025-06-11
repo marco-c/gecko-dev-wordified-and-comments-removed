@@ -161,6 +161,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 base
@@ -170,6 +172,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -181,6 +185,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 colors
@@ -190,6 +196,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -201,6 +209,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -210,6 +220,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -253,6 +265,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 test
@@ -262,6 +276,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

@@ -218,6 +218,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 storage
@@ -227,6 +229,8 @@ api
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -238,6 +242,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -247,6 +253,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -269,6 +277,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

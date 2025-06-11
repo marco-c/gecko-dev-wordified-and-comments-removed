@@ -140,6 +140,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 icons
@@ -149,6 +151,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -160,6 +164,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 sitepermissions
@@ -169,6 +175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -180,6 +188,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -189,6 +199,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -213,6 +225,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

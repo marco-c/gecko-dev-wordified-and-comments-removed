@@ -179,6 +179,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 menu
@@ -188,6 +190,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -199,6 +203,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 toolbar
@@ -208,6 +214,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -219,6 +227,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch
@@ -228,6 +238,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -239,6 +251,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 session
@@ -248,6 +262,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -259,6 +275,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 tabs
@@ -268,6 +286,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -279,6 +299,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -288,6 +310,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -299,6 +323,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -308,6 +334,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -339,6 +367,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -348,6 +378,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

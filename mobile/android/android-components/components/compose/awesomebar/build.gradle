@@ -194,6 +194,8 @@ project
 (
 "
 :
+components
+:
 concept
 -
 awesomebar
@@ -203,6 +205,8 @@ implementation
 project
 (
 "
+:
+components
 :
 browser
 -
@@ -214,6 +218,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 base
@@ -224,6 +230,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 utils
@@ -233,6 +241,8 @@ implementation
 project
 (
 "
+:
+components
 :
 ui
 -
@@ -303,6 +313,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

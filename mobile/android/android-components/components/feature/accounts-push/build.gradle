@@ -164,6 +164,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -173,6 +175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -186,6 +190,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -195,6 +201,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -206,6 +214,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 push
@@ -215,6 +225,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -248,6 +260,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -258,6 +272,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -267,6 +283,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

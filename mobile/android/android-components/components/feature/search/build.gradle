@@ -207,6 +207,8 @@ project
 (
 "
 :
+components
+:
 feature
 -
 tabs
@@ -216,6 +218,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -227,6 +231,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -236,6 +242,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -247,6 +255,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -256,6 +266,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -267,6 +279,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 colors
@@ -277,6 +291,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -286,6 +302,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -319,6 +337,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 icons
@@ -329,6 +349,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -338,6 +360,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -350,6 +374,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
