@@ -628,7 +628,7 @@ option
 "
 -
 -
-enable
+disable
 -
 explicit
 -
@@ -638,9 +638,7 @@ management
 "
 default
 =
-milestone
-.
-is_nightly
+True
 help
 =
 "
@@ -659,7 +657,7 @@ depends
 "
 -
 -
-enable
+disable
 -
 explicit
 -
