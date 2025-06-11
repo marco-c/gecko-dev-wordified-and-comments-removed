@@ -3635,7 +3635,7 @@ String
 columns
 ]
 *
-Clumns
+Columns
 to
 be
 printed

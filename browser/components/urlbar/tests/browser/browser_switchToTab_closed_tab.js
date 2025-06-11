@@ -156,6 +156,7 @@ gBrowser
 contentPrincipal
 .
 userContextId
+null
 false
 )
 ;

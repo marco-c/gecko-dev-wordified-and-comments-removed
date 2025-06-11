@@ -8537,7 +8537,8 @@ to
 switch
 to
 non
-existant
+-
+existent
 tab
 :
 {
@@ -8557,6 +8558,11 @@ result
 payload
 .
 userContextId
+result
+.
+payload
+.
+tabGroup
 this
 .
 isPrivate

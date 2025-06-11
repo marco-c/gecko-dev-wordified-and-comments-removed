@@ -12148,6 +12148,15 @@ type
 number
 "
 }
+tabGroup
+:
+{
+type
+:
+"
+string
+"
+}
 title
 :
 {

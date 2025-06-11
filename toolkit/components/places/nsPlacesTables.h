@@ -1020,6 +1020,11 @@ INTEGER
 "
 \
 "
+groupId
+TEXT
+"
+\
+"
 open_count
 INTEGER
 "
@@ -1030,6 +1035,7 @@ KEY
 (
 url
 userContextId
+groupId
 )
 "
 \

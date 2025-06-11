@@ -1631,6 +1631,9 @@ count
 userContextId
 =
 0
+tabGroupId
+=
+null
 )
 {
 for
@@ -1658,6 +1661,7 @@ uri
 .
 spec
 userContextId
+tabGroupId
 false
 )
 ;
@@ -1674,6 +1678,9 @@ aCount
 aUserContextId
 =
 0
+tabGroupId
+=
+null
 )
 {
 for
@@ -1701,6 +1708,7 @@ aUri
 .
 spec
 aUserContextId
+tabGroupId
 false
 )
 ;
@@ -2346,6 +2354,7 @@ uri
 title
 iconUri
 userContextId
+tabGroup
 }
 )
 {
@@ -2420,6 +2429,14 @@ userContextId
 |
 |
 0
+]
+tabGroup
+:
+[
+tabGroup
+|
+|
+null
 ]
 }
 )

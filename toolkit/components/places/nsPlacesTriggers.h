@@ -1065,6 +1065,15 @@ userContextId
 NEW
 .
 userContextId
+"
+\
+"
+AND
+groupId
+IS
+NEW
+.
+groupId
 ;
 "
 \
