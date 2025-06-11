@@ -957,6 +957,16 @@ aForceSubpixelAAWherePossible
 )
 ;
 void
+RenderOffscreen
+(
+wr
+:
+:
+WrPipelineId
+aPipelineId
+)
+;
+void
 Notify
 (
 wr
