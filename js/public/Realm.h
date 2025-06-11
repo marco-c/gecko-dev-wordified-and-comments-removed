@@ -182,6 +182,16 @@ obj
 ;
 extern
 JS_PUBLIC_API
+bool
+HasRealmInitializedGlobal
+(
+Realm
+*
+realm
+)
+;
+extern
+JS_PUBLIC_API
 void
 *
 GetRealmPrivate
