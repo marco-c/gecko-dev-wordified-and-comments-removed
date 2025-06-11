@@ -586,6 +586,17 @@ show
 (
 )
 {
+if
+(
+this
+.
+_destroyed
+)
+{
+return
+false
+;
+}
 const
 {
 pageListenerTarget
