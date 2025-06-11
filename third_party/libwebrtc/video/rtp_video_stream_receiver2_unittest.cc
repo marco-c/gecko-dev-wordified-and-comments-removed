@@ -4832,7 +4832,7 @@ OutOfBandFmtpSpsPps
 {
 constexpr
 int
-kPayloadType
+kH264PayloadType
 =
 99
 ;
@@ -4865,7 +4865,7 @@ rtp_video_stream_receiver_
 >
 AddReceiveCodec
 (
-kPayloadType
+kH264PayloadType
 kVideoCodecH264
 codec_params
 false
@@ -4974,7 +4974,7 @@ rtp_packet
 .
 SetPayloadType
 (
-kPayloadType
+kH264PayloadType
 )
 ;
 rtp_packet
@@ -5130,12 +5130,6 @@ RtpVideoStreamReceiver2TestH264
 ForceSpsPpsIdrIsKeyframe
 )
 {
-constexpr
-int
-kPayloadType
-=
-99
-;
 webrtc
 :
 :
@@ -7513,7 +7507,7 @@ data
 ;
 const
 int
-kPayloadType
+kPayloadTypeGeneric
 =
 123
 ;
@@ -7522,7 +7516,7 @@ rtp_video_stream_receiver_
 >
 AddReceiveCodec
 (
-kPayloadType
+kPayloadTypeGeneric
 kVideoCodecGeneric
 {
 }
@@ -7677,7 +7671,7 @@ rtp_packet
 .
 SetPayloadType
 (
-kPayloadType
+kPayloadTypeGeneric
 )
 ;
 rtp_packet

@@ -5775,6 +5775,7 @@ EXPECT_TRUE
 seen_ss_data
 )
 ;
+{
 std
 :
 :
@@ -5874,6 +5875,7 @@ value_or
 2
 )
 ;
+}
 for
 (
 size_t
@@ -7678,6 +7680,7 @@ value_or
 )
 ;
 }
+{
 std
 :
 :
@@ -7795,6 +7798,7 @@ maxFramerate
 )
 )
 ;
+}
 for
 (
 size_t
@@ -11321,6 +11325,7 @@ EXPECT_TRUE
 frame_dropped
 )
 ;
+{
 bitrate_allocation
 .
 SetBitrate
@@ -11415,6 +11420,7 @@ size
 3u
 )
 ;
+}
 frame_dropped
 =
 false
