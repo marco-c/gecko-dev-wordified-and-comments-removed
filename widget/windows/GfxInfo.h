@@ -399,7 +399,10 @@ aSuggestedDriverVersion
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 aDriverInfo
@@ -417,7 +420,10 @@ override
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 GetGfxDriverInfo
