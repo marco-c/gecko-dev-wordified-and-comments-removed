@@ -1694,8 +1694,6 @@ printStats
 template
 <
 typename
-LegacyFn
-typename
 GleanFn
 >
 void
@@ -1703,8 +1701,6 @@ reportLongestPhaseInMajorGC
 (
 PhaseKind
 longest
-LegacyFn
-legacyReportFn
 GleanFn
 gleanReportFn
 )
