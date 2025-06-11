@@ -1669,13 +1669,13 @@ const
 int
 order_hint_n_bits
 const
-unsigned
+int
 poc
 const
-unsigned
+int
 ref0poc
 const
-unsigned
+int
 ref1poc
 const
 BlockContext
@@ -1696,7 +1696,7 @@ xb4
 )
 {
 const
-unsigned
+int
 d0
 =
 abs
@@ -1710,7 +1710,7 @@ poc
 )
 ;
 const
-unsigned
+int
 d1
 =
 abs

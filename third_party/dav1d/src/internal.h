@@ -537,7 +537,7 @@ Dav1dRef
 *
 refmvs
 ;
-unsigned
+uint8_t
 refpoc
 [
 7
@@ -729,7 +729,7 @@ uint8_t
 *
 prev_segmap
 ;
-unsigned
+uint8_t
 refpoc
 [
 7
