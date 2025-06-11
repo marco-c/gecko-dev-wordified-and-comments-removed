@@ -4448,6 +4448,12 @@ GetPreloadDefaultAuto
 )
 const
 ;
+bool
+ShouldSuspendDownloadAfterFirstFrameLoaded
+(
+)
+const
+;
 void
 AfterMaybeChangeAttr
 (
