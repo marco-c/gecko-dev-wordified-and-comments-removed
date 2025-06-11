@@ -92,14 +92,6 @@ webrtc
 gni
 "
 )
-group
-(
-"
-p2p
-"
-)
-{
-}
 rtc_source_set
 (
 "
