@@ -99,10 +99,11 @@ const
 char
 *
 aTopic
-const
-char16_t
-*
-aCookie
+Maybe
+<
+nsString
+>
+aAction
 )
 ;
 protected
