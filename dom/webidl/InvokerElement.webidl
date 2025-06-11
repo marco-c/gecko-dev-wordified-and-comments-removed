@@ -128,7 +128,7 @@ dom
 .
 element
 .
-invokers
+commandfor
 .
 enabled
 "
@@ -147,7 +147,7 @@ dom
 .
 element
 .
-invokers
+commandfor
 .
 enabled
 "
