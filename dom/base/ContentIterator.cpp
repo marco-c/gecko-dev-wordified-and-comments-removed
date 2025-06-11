@@ -5833,13 +5833,9 @@ slot
 IterAllowCrossShadowBoundary
 (
 )
-)
-{
-if
-(
+&
+&
 !
-NS_WARN_IF
-(
 slot
 -
 >
@@ -5849,7 +5845,6 @@ AssignedNodes
 .
 IsEmpty
 (
-)
 )
 )
 {
@@ -5865,7 +5860,6 @@ AssignedNodes
 0
 ]
 ;
-}
 }
 else
 {
