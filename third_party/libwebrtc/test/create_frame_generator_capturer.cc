@@ -266,6 +266,8 @@ FrameGeneratorCapturerConfig
 :
 SquaresVideo
 config
+bool
+allow_zero_hertz
 )
 {
 return
@@ -297,6 +299,7 @@ config
 .
 framerate
 task_queue_factory
+allow_zero_hertz
 )
 ;
 }
@@ -320,6 +323,8 @@ FrameGeneratorCapturerConfig
 :
 SquareSlides
 config
+bool
+allow_zero_hertz
 )
 {
 return
@@ -359,6 +364,7 @@ config
 .
 framerate
 task_queue_factory
+allow_zero_hertz
 )
 ;
 }
@@ -382,6 +388,8 @@ FrameGeneratorCapturerConfig
 :
 VideoFile
 config
+bool
+allow_zero_hertz
 )
 {
 RTC_CHECK
@@ -428,6 +436,7 @@ config
 .
 framerate
 task_queue_factory
+allow_zero_hertz
 )
 ;
 }
@@ -451,6 +460,8 @@ FrameGeneratorCapturerConfig
 :
 ImageSlides
 config
+bool
+allow_zero_hertz
 )
 {
 std
@@ -666,6 +677,7 @@ config
 .
 framerate
 task_queue_factory
+allow_zero_hertz
 )
 ;
 }
@@ -706,6 +718,9 @@ task_queue_factory
 config
 .
 video_file
+config
+.
+allow_zero_hertz
 )
 ;
 }
@@ -726,6 +741,9 @@ task_queue_factory
 config
 .
 image_slides
+config
+.
+allow_zero_hertz
 )
 ;
 }
@@ -746,6 +764,9 @@ task_queue_factory
 config
 .
 squares_slides
+config
+.
+allow_zero_hertz
 )
 ;
 }
@@ -769,6 +790,9 @@ SquaresVideo
 (
 )
 )
+config
+.
+allow_zero_hertz
 )
 ;
 }
