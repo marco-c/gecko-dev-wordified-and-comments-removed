@@ -499,10 +499,13 @@ set
 '
 )
 ;
-promise_rejects_js
+await
+promise_rejects_dom
 (
 t
-WebSocketError
+'
+InvalidStateError
+'
 writePromise
 '
 write
