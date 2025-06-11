@@ -3023,11 +3023,6 @@ fingerprint
 )
 const
 ;
-nsresult
-SortJsepSessionCodecs
-(
-)
-;
 NS_IMETHODIMP
 EnsureDataConnection
 (
