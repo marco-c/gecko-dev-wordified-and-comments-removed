@@ -349,7 +349,9 @@ files
 =
 [
 "
-notification_openWindow_worker
+notification_openWindow
+.
+serviceworker
 .
 js
 "
@@ -415,7 +417,9 @@ files
 =
 [
 "
-openWindow_worker
+openWindow
+.
+serviceworker
 .
 js
 "
@@ -725,6 +729,8 @@ html
 "
 notificationclick
 .
+serviceworker
+.
 js
 "
 "
@@ -772,6 +778,8 @@ html
 "
 "
 notificationclick_focus
+.
+serviceworker
 .
 js
 "
@@ -822,6 +830,8 @@ html
 "
 "
 notificationclick
+.
+serviceworker
 .
 js
 "
@@ -875,6 +885,8 @@ html
 "
 "
 notificationclose
+.
+serviceworker
 .
 js
 "
