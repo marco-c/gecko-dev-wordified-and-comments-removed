@@ -383,15 +383,6 @@ shortcut
 to
 secondSponsoredShortcutTitle
 "
-Top
-Articles
-"
-to
-"
-Top
-Articles
-"
-"
 Wikipedia
 "
 to

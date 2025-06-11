@@ -396,10 +396,6 @@ defaultTopSites
 arrayOf
 (
 "
-Top
-Articles
-"
-"
 Wikipedia
 "
 "

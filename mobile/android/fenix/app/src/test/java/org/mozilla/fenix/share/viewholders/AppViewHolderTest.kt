@@ -270,7 +270,7 @@ AppShareOption
 name
 =
 "
-Pocket
+Focus
 "
 icon
 =
@@ -281,7 +281,7 @@ R
 .
 drawable
 .
-ic_pocket
+mozac_ic_logo_firefox_24
 )
 !
 !
@@ -292,7 +292,7 @@ com
 .
 mozilla
 .
-pocket
+focus
 "
 activityName
 =
@@ -309,7 +309,7 @@ app
 assertEquals
 (
 "
-Pocket
+Focus
 "
 binding
 .
@@ -348,7 +348,7 @@ AppShareOption
 name
 =
 "
-Pocket
+Focus
 "
 icon
 =
@@ -359,7 +359,7 @@ R
 .
 drawable
 .
-ic_pocket
+mozac_ic_logo_firefox_24
 )
 !
 !
@@ -370,7 +370,7 @@ com
 .
 mozilla
 .
-pocket
+focus
 "
 activityName
 =
