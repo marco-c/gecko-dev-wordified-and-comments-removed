@@ -3825,6 +3825,13 @@ let
 conditionalPayloadProperties
 =
 {
+frecency
+:
+{
+optional
+:
+true
+}
 lastVisit
 :
 {
