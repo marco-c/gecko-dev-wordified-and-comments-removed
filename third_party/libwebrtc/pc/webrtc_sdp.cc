@@ -6825,7 +6825,7 @@ kAttributeCandidateRport
 )
 {
 int
-port
+related_port
 =
 0
 ;
@@ -6842,7 +6842,7 @@ fields
 current_position
 ]
 &
-port
+related_port
 error
 )
 )
@@ -6856,7 +6856,7 @@ if
 !
 IsValidPort
 (
-port
+related_port
 )
 )
 {
@@ -6878,7 +6878,7 @@ related_address
 .
 SetPort
 (
-port
+related_port
 )
 ;
 +
@@ -7892,9 +7892,6 @@ use_sctpmap
 )
 )
 {
-StringBuilder
-os
-;
 InitAttrLine
 (
 kAttributeSctpmap
@@ -11251,9 +11248,6 @@ rtcp_fb_ack_ccfb
 )
 )
 {
-StringBuilder
-os
-;
 InitAttrLine
 (
 kAttributeRtcpFb

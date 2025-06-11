@@ -5666,7 +5666,7 @@ break
 }
 RTCCertificateStats
 *
-certificate_stats
+current_certificate_stats
 =
 new
 RTCCertificateStats
@@ -5675,7 +5675,7 @@ certificate_stats_id
 timestamp
 )
 ;
-certificate_stats
+current_certificate_stats
 -
 >
 fingerprint
@@ -5685,7 +5685,7 @@ s
 >
 fingerprint
 ;
-certificate_stats
+current_certificate_stats
 -
 >
 fingerprint_algorithm
@@ -5695,7 +5695,7 @@ s
 >
 fingerprint_algorithm
 ;
-certificate_stats
+current_certificate_stats
 -
 >
 base64_certificate
@@ -5714,7 +5714,7 @@ prev_certificate_stats
 >
 issuer_certificate_id
 =
-certificate_stats
+current_certificate_stats
 -
 >
 id
@@ -5734,13 +5734,13 @@ unique_ptr
 RTCCertificateStats
 >
 (
-certificate_stats
+current_certificate_stats
 )
 )
 ;
 prev_certificate_stats
 =
-certificate_stats
+current_certificate_stats
 ;
 }
 }
@@ -11567,7 +11567,7 @@ channel_stats
 )
 {
 auto
-transport_stats
+channel_transport_stats
 =
 std
 :
@@ -11587,7 +11587,7 @@ component
 timestamp
 )
 ;
-transport_stats
+channel_transport_stats
 -
 >
 packets_sent
@@ -11598,7 +11598,7 @@ ice_transport_stats
 .
 packets_sent
 ;
-transport_stats
+channel_transport_stats
 -
 >
 packets_received
@@ -11609,7 +11609,7 @@ ice_transport_stats
 .
 packets_received
 ;
-transport_stats
+channel_transport_stats
 -
 >
 bytes_sent
@@ -11620,7 +11620,7 @@ ice_transport_stats
 .
 bytes_sent
 ;
-transport_stats
+channel_transport_stats
 -
 >
 bytes_received
@@ -11631,7 +11631,7 @@ ice_transport_stats
 .
 bytes_received
 ;
-transport_stats
+channel_transport_stats
 -
 >
 dtls_state
@@ -11643,7 +11643,7 @@ channel_stats
 dtls_state
 )
 ;
-transport_stats
+channel_transport_stats
 -
 >
 selected_candidate_pair_changes
@@ -11654,7 +11654,7 @@ ice_transport_stats
 .
 selected_candidate_pair_changes
 ;
-transport_stats
+channel_transport_stats
 -
 >
 ice_role
@@ -11668,7 +11668,7 @@ ice_transport_stats
 ice_role
 )
 ;
-transport_stats
+channel_transport_stats
 -
 >
 ice_local_username_fragment
@@ -11679,7 +11679,7 @@ ice_transport_stats
 .
 ice_local_username_fragment
 ;
-transport_stats
+channel_transport_stats
 -
 >
 ice_state
@@ -11717,7 +11717,7 @@ info
 best_connection
 )
 {
-transport_stats
+channel_transport_stats
 -
 >
 selected_candidate_pair_id
@@ -11750,7 +11750,7 @@ empty
 )
 )
 {
-transport_stats
+channel_transport_stats
 -
 >
 rtcp_transport_stats_id
@@ -11767,7 +11767,7 @@ empty
 (
 )
 )
-transport_stats
+channel_transport_stats
 -
 >
 local_certificate_id
@@ -11783,7 +11783,7 @@ empty
 (
 )
 )
-transport_stats
+channel_transport_stats
 -
 >
 remote_certificate_id
@@ -11819,7 +11819,7 @@ channel_stats
 ssl_version_bytes
 )
 ;
-transport_stats
+channel_transport_stats
 -
 >
 tls_version
@@ -11834,7 +11834,7 @@ channel_stats
 dtls_role
 )
 {
-transport_stats
+channel_transport_stats
 -
 >
 dtls_role
@@ -11858,7 +11858,7 @@ server
 }
 else
 {
-transport_stats
+channel_transport_stats
 -
 >
 dtls_role
@@ -11868,7 +11868,7 @@ unknown
 "
 ;
 }
-transport_stats
+channel_transport_stats
 -
 >
 dtls_cipher
@@ -11899,7 +11899,7 @@ length
 )
 )
 {
-transport_stats
+channel_transport_stats
 -
 >
 srtp_cipher
@@ -11922,7 +11922,7 @@ std
 :
 move
 (
-transport_stats
+channel_transport_stats
 )
 )
 ;

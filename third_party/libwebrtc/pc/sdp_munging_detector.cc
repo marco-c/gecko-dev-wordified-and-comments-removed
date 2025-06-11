@@ -2536,11 +2536,11 @@ kNumberOfContents
 for
 (
 size_t
-i
+content_index
 =
 0
 ;
-i
+content_index
 <
 last_created_contents
 .
@@ -2548,7 +2548,7 @@ size
 (
 )
 ;
-i
+content_index
 +
 +
 )
@@ -2557,7 +2557,7 @@ if
 (
 last_created_contents
 [
-i
+content_index
 ]
 .
 mid
@@ -2567,7 +2567,7 @@ mid
 =
 contents_to_set
 [
-i
+content_index
 ]
 .
 mid
@@ -2610,7 +2610,7 @@ last_created_media_description
 =
 last_created_contents
 [
-i
+content_index
 ]
 .
 media_description
@@ -2623,7 +2623,7 @@ media_description_to_set
 =
 contents_to_set
 [
-i
+content_index
 ]
 .
 media_description

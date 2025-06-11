@@ -2154,18 +2154,18 @@ num_packets
 for
 (
 uint16_t
-i
+j
 =
 start_seq_num
 ;
-i
+j
 !
 =
 end_seq_num
 ;
 +
 +
-i
+j
 )
 {
 std
@@ -2180,7 +2180,7 @@ packet
 =
 buffer_
 [
-i
+j
 %
 buffer_
 .
@@ -2196,7 +2196,7 @@ packet
 ;
 RTC_DCHECK_EQ
 (
-i
+j
 packet
 -
 >
@@ -2213,7 +2213,7 @@ video_header
 is_first_packet_in_frame
 =
 (
-i
+j
 =
 =
 start_seq_num
@@ -2227,7 +2227,7 @@ video_header
 is_last_packet_in_frame
 =
 (
-i
+j
 =
 =
 seq_num

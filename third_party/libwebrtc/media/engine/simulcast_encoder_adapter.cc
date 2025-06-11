@@ -2005,7 +2005,7 @@ mode
 "
 ;
 int
-ret
+result
 =
 encoder_context
 -
@@ -2023,7 +2023,7 @@ settings
 ;
 if
 (
-ret
+result
 >
 =
 0
@@ -2326,7 +2326,7 @@ false
 )
 ;
 int
-ret
+result
 =
 encoder_context
 -
@@ -2344,7 +2344,7 @@ settings
 ;
 if
 (
-ret
+result
 <
 0
 )
@@ -2385,7 +2385,7 @@ ret
 )
 ;
 return
-ret
+result
 ;
 }
 SimulcastEncoderAdapter

@@ -1114,7 +1114,7 @@ vector
 uint32_t
 >
 *
-ssrcs
+primary_ssrcs
 )
 const
 {
@@ -1136,7 +1136,7 @@ sim_group
 NULL
 )
 {
-ssrcs
+primary_ssrcs
 -
 >
 push_back
@@ -1149,12 +1149,12 @@ first_ssrc
 }
 else
 {
-ssrcs
+primary_ssrcs
 -
 >
 insert
 (
-ssrcs
+primary_ssrcs
 -
 >
 end

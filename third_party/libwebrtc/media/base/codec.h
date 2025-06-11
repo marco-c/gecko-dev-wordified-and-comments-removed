@@ -540,7 +540,7 @@ std
 :
 string
 &
-name
+key
 std
 :
 :
@@ -559,7 +559,7 @@ std
 :
 string
 &
-name
+key
 int
 *
 out
@@ -575,7 +575,7 @@ std
 :
 string
 &
-name
+key
 const
 std
 :
@@ -594,7 +594,7 @@ std
 :
 string
 &
-name
+key
 int
 value
 )

@@ -613,7 +613,7 @@ vector
 uint32_t
 >
 *
-ssrcs
+primary_ssrcs
 )
 const
 ;

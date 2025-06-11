@@ -2493,7 +2493,7 @@ absl
 :
 :
 string_view
-message
+error_message
 =
 dcsctp
 :
@@ -2531,7 +2531,7 @@ error
 "
 <
 <
-message
+error_message
 <
 <
 "
@@ -2545,7 +2545,7 @@ RTCErrorType
 :
 :
 NETWORK_ERROR
-message
+error_message
 )
 ;
 }

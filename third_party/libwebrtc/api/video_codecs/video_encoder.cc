@@ -894,11 +894,11 @@ oss
 for
 (
 size_t
-i
+j
 =
 0
 ;
-i
+j
 <
 fractions
 .
@@ -908,12 +908,12 @@ size
 ;
 +
 +
-i
+j
 )
 {
 if
 (
-i
+j
 >
 0
 )
@@ -936,7 +936,7 @@ double
 (
 fractions
 [
-i
+j
 ]
 )
 /

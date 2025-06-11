@@ -17850,7 +17850,7 @@ transceivers_stable_state_pair
 first
 ;
 auto
-state
+stable_state
 =
 transceivers_stable_state_pair
 .
@@ -17858,7 +17858,7 @@ second
 ;
 if
 (
-state
+stable_state
 .
 did_set_fired_direction
 (
@@ -17894,7 +17894,7 @@ fired_direction
 bool
 currently_fired_direction_is_recv
 =
-state
+stable_state
 .
 fired_direction
 (
@@ -17907,7 +17907,7 @@ has_value
 &
 RtpTransceiverDirectionHasRecv
 (
-state
+stable_state
 .
 fired_direction
 (
@@ -17945,7 +17945,7 @@ internal
 >
 set_fired_direction
 (
-state
+stable_state
 .
 fired_direction
 (
@@ -17955,7 +17955,7 @@ fired_direction
 }
 if
 (
-state
+stable_state
 .
 remote_stream_ids
 (
@@ -18005,7 +18005,7 @@ internal
 receiver_internal
 (
 )
-state
+stable_state
 .
 remote_stream_ids
 (
@@ -18065,7 +18065,7 @@ end
 if
 (
 !
-state
+stable_state
 .
 has_m_section
 (
@@ -18073,7 +18073,7 @@ has_m_section
 &
 &
 !
-state
+stable_state
 .
 newly_created
 (
@@ -18151,7 +18151,7 @@ receiver
 }
 if
 (
-state
+stable_state
 .
 newly_created
 (
@@ -18215,7 +18215,7 @@ transceiver
 }
 if
 (
-state
+stable_state
 .
 init_send_encodings
 (
@@ -18237,7 +18237,7 @@ sender_internal
 >
 set_init_send_encodings
 (
-state
+stable_state
 .
 init_send_encodings
 (
@@ -18287,7 +18287,7 @@ nullptr
 ;
 if
 (
-state
+stable_state
 .
 has_m_section
 (
@@ -18304,7 +18304,7 @@ internal
 >
 set_mid
 (
-state
+stable_state
 .
 mid
 (
@@ -18321,7 +18321,7 @@ internal
 >
 set_mline_index
 (
-state
+stable_state
 .
 mline_index
 (
@@ -19935,12 +19935,6 @@ return
 error
 ;
 }
-std
-:
-:
-string
-crypto_error
-;
 if
 (
 pc_
