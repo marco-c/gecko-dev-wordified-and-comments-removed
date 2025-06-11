@@ -2364,6 +2364,16 @@ project
 :
 support
 -
+remotesettings
+'
+)
+implementation
+project
+(
+'
+:
+support
+-
 appservices
 '
 )
