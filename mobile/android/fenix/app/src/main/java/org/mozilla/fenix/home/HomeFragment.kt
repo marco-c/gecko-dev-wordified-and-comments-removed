@@ -2439,9 +2439,6 @@ pocketStoriesService
 getSponsoredContents
 (
 )
-showContentRecommendations
-=
-true
 )
 )
 }
@@ -2468,9 +2465,6 @@ pocketStoriesService
 getSponsoredStories
 (
 )
-showContentRecommendations
-=
-true
 )
 )
 }
