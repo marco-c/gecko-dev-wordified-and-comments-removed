@@ -1817,14 +1817,6 @@ originalBrowsingContext
 =
 this
 .
-devtoolsSpawnedBrowsingContextForWebExtension
-?
-this
-.
-devtoolsSpawnedBrowsingContextForWebExtension
-:
-this
-.
 originalDocShell
 .
 browsingContext
