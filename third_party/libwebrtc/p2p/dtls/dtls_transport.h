@@ -1288,6 +1288,11 @@ writable_
 =
 false
 ;
+bool
+ice_has_been_writable_
+=
+false
+;
 webrtc
 :
 :
