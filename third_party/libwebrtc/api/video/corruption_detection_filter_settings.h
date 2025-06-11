@@ -11,6 +11,9 @@ stdint
 .
 h
 >
+namespace
+webrtc
+{
 struct
 CorruptionDetectionFilterSettings
 {
@@ -33,5 +36,6 @@ chroma_error_threshold
 ;
 }
 ;
+}
 #
 endif
