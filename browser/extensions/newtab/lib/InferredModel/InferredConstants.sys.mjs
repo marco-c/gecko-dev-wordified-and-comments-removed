@@ -158,6 +158,11 @@ CLICKS
 "
 clicks
 "
+CTR
+:
+"
+ctr
+"
 }
 ;
 export
