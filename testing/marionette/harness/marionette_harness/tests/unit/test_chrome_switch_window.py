@@ -22,7 +22,7 @@ __file__
 )
 )
 from
-test_switch_window_content
+test_switch_window
 import
 TestSwitchToWindowContent
 class

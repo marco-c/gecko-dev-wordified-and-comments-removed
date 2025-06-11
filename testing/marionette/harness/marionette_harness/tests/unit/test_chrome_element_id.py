@@ -35,7 +35,7 @@ content
 /
 marionette
 /
-test_no_xul
+test
 .
 xhtml
 "
@@ -52,7 +52,7 @@ content
 /
 marionette
 /
-test
+test_xul
 .
 xhtml
 "
