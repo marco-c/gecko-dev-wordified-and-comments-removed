@@ -44,6 +44,9 @@ OpenSSLSessionCache
 :
 OpenSSLSessionCache
 (
+webrtc
+:
+:
 SSLMode
 ssl_mode
 SSL_CTX
@@ -210,6 +213,9 @@ return
 ssl_ctx_
 ;
 }
+webrtc
+:
+:
 SSLMode
 OpenSSLSessionCache
 :

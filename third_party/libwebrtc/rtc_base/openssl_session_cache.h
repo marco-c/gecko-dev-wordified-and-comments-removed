@@ -73,6 +73,9 @@ public
 :
 OpenSSLSessionCache
 (
+webrtc
+:
+:
 SSLMode
 ssl_mode
 SSL_CTX
@@ -138,6 +141,9 @@ GetSSLContext
 )
 const
 ;
+webrtc
+:
+:
 SSLMode
 GetSSLMode
 (
@@ -147,6 +153,9 @@ const
 private
 :
 const
+webrtc
+:
+:
 SSLMode
 ssl_mode_
 ;

@@ -345,9 +345,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 fallback_ssl_role
@@ -374,9 +371,6 @@ StreamId
 >
 AllocateSid
 (
-rtc
-:
-:
 SSLRole
 role
 )

@@ -1355,9 +1355,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 JsepTransportController
@@ -1436,9 +1433,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 (
@@ -8882,9 +8876,6 @@ JsepTransportController
 :
 OnDtlsHandshakeError
 (
-rtc
-:
-:
 SSLHandshakeError
 error
 )

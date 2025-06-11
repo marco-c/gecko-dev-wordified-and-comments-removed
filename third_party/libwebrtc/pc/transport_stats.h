@@ -99,7 +99,7 @@ ssl_version_bytes
 int
 srtp_crypto_suite
 =
-rtc
+webrtc
 :
 :
 kSrtpInvalidCryptoSuite
@@ -107,7 +107,7 @@ kSrtpInvalidCryptoSuite
 int
 ssl_cipher_suite
 =
-rtc
+webrtc
 :
 :
 kTlsNullWithNullNull
@@ -129,7 +129,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -156,7 +156,7 @@ ice_transport_stats
 uint16_t
 ssl_peer_signature_algorithm
 =
-rtc
+webrtc
 :
 :
 kSslSignatureAlgorithmUnknown

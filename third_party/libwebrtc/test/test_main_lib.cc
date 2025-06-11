@@ -912,9 +912,6 @@ InitializeSSL
 (
 )
 ;
-rtc
-:
-:
 SSLStreamAdapter
 :
 :

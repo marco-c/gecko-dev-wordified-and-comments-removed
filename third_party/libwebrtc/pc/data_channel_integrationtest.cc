@@ -3674,9 +3674,6 @@ tls_version
 )
 =
 =
-rtc
-:
-:
 kDtls13VersionBytes
 )
 {
@@ -3690,9 +3687,6 @@ caller
 tls_version
 (
 )
-rtc
-:
-:
 kDtls13VersionBytes
 )
 ;

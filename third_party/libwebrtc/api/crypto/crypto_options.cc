@@ -134,9 +134,6 @@ crypto_suites
 .
 push_back
 (
-rtc
-:
-:
 kSrtpAes128CmSha1_32
 )
 ;
@@ -152,9 +149,6 @@ crypto_suites
 .
 push_back
 (
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 )
 ;
@@ -170,9 +164,6 @@ crypto_suites
 .
 push_back
 (
-rtc
-:
-:
 kSrtpAeadAes256Gcm
 )
 ;
@@ -180,9 +171,6 @@ crypto_suites
 .
 push_back
 (
-rtc
-:
-:
 kSrtpAeadAes128Gcm
 )
 ;

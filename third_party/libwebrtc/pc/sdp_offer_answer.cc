@@ -18751,9 +18751,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 SdpOfferAnswerHandler
@@ -18973,9 +18970,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 guessed_role
@@ -19012,9 +19006,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 role
@@ -19057,9 +19048,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 SdpOfferAnswerHandler
@@ -19098,13 +19086,7 @@ is_caller
 (
 )
 ?
-rtc
-:
-:
 SSL_SERVER
-:
-rtc
-:
 :
 SSL_CLIENT
 ;

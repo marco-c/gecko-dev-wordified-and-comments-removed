@@ -433,9 +433,6 @@ config
 void
 AllocateSctpSids
 (
-rtc
-:
-:
 SSLRole
 role
 )
@@ -574,9 +571,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 fallback_ssl_role

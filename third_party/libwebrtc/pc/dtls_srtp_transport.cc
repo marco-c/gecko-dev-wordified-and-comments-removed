@@ -994,9 +994,6 @@ salt_len
 if
 (
 !
-rtc
-:
-:
 GetSrtpKeyAndSaltLengths
 (
 (
@@ -1155,9 +1152,6 @@ salt_len
 salt_len
 )
 ;
-rtc
-:
-:
 SSLRole
 role
 ;
@@ -1199,9 +1193,6 @@ if
 role
 =
 =
-rtc
-:
-:
 SSL_SERVER
 )
 {

@@ -514,9 +514,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GetSctpSslRole_n
@@ -1011,9 +1008,6 @@ std
 string
 &
 content_name
-rtc
-:
-:
 SSLRole
 *
 role

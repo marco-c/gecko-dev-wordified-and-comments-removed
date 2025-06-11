@@ -6276,15 +6276,9 @@ if
 srtp_crypto_suite
 !
 =
-rtc
-:
-:
 kSrtpInvalidCryptoSuite
 &
 &
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 srtp_crypto_suite
@@ -6304,9 +6298,6 @@ StatsReport
 :
 :
 kStatsValueNameSrtpCipher
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 srtp_crypto_suite

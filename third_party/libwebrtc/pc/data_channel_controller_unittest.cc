@@ -852,9 +852,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 (
@@ -864,13 +861,7 @@ channel_id
 1
 )
 ?
-rtc
-:
-:
 SSL_SERVER
-:
-rtc
-:
 :
 SSL_CLIENT
 )
@@ -1007,9 +998,6 @@ WillByDefault
 )
 {
 return
-rtc
-:
-:
 SSL_CLIENT
 ;
 }
@@ -1083,9 +1071,6 @@ WillByDefault
 )
 {
 return
-rtc
-:
-:
 SSL_CLIENT
 ;
 }

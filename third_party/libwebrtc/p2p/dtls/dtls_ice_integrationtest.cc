@@ -495,7 +495,7 @@ tuple
 <
 bool
 bool
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
@@ -1278,12 +1278,12 @@ SetDtlsRole
 (
 client
 ?
-rtc
+webrtc
 :
 :
 SSL_SERVER
 :
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -2330,11 +2330,11 @@ testing
 :
 Values
 (
-rtc
+webrtc
 :
 :
 SSL_PROTOCOL_DTLS_12
-rtc
+webrtc
 :
 :
 SSL_PROTOCOL_DTLS_13

@@ -94,6 +94,9 @@ virtual
 void
 SetMode
 (
+webrtc
+:
+:
 SSLMode
 mode
 )
@@ -131,6 +134,9 @@ virtual
 void
 SetRole
 (
+webrtc
+:
+:
 SSLRole
 role
 )
@@ -267,6 +273,9 @@ virtual
 void
 SetMode
 (
+webrtc
+:
+:
 SSLMode
 mode
 )
@@ -304,6 +313,9 @@ virtual
 void
 SetRole
 (
+webrtc
+:
+:
 SSLRole
 role
 )

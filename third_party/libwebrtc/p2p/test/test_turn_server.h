@@ -650,7 +650,7 @@ ssl_adapter_factory
 >
 SetRole
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER

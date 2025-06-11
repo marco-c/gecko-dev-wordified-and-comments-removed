@@ -1076,6 +1076,9 @@ SSL_NONE
 )
 role_
 (
+webrtc
+:
+:
 SSL_CLIENT
 )
 ssl_read_needs_write_
@@ -1096,6 +1099,9 @@ nullptr
 )
 ssl_mode_
 (
+webrtc
+:
+:
 SSL_MODE_TLS
 )
 ignore_bad_cert_
@@ -1222,6 +1228,9 @@ OpenSSLAdapter
 :
 SetMode
 (
+webrtc
+:
+:
 SSLMode
 mode
 )
@@ -1345,6 +1354,9 @@ OpenSSLAdapter
 :
 SetRole
 (
+webrtc
+:
+:
 SSLRole
 role
 )
@@ -1904,6 +1916,9 @@ code
 role_
 =
 =
+webrtc
+:
+:
 SSL_CLIENT
 )
 ?
@@ -4604,6 +4619,9 @@ OpenSSLAdapter
 :
 CreateContext
 (
+webrtc
+:
+:
 SSLMode
 mode
 bool
@@ -4644,6 +4662,9 @@ SSL_CTX_new
 mode
 =
 =
+webrtc
+:
+:
 SSL_MODE_DTLS
 ?
 DTLS_method
@@ -5068,6 +5089,9 @@ OpenSSLAdapterFactory
 :
 SetMode
 (
+webrtc
+:
+:
 SSLMode
 mode
 )
@@ -5144,6 +5168,9 @@ OpenSSLAdapterFactory
 :
 SetRole
 (
+webrtc
+:
+:
 SSLRole
 role
 )

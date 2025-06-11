@@ -3907,15 +3907,9 @@ rtc
 :
 kDefaultNetworkIgnoreMask
 ;
-rtc
-:
-:
 SSLProtocolVersion
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 CryptoOptions

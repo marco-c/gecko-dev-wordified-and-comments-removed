@@ -638,7 +638,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1090,7 +1090,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1126,7 +1126,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
