@@ -3144,7 +3144,7 @@ EXPECT_EQ
 saveOriginAccessTimeCountNow
 -
 saveOriginAccessTimeCountBefore
-0u
+1u
 )
 ;
 directoryLockHandle
@@ -3363,7 +3363,7 @@ EXPECT_EQ
 saveOriginAccessTimeCountNow
 -
 saveOriginAccessTimeCountBefore
-0u
+1u
 )
 ;
 directoryLockHandle2
