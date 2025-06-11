@@ -1,6 +1,4 @@
 import
-json
-import
 logging
 import
 os
@@ -51,6 +49,12 @@ taskgraph
 taskgraph
 import
 TaskGraph
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .
@@ -2306,15 +2310,6 @@ True
 indent
 =
 2
-separators
-=
-(
-"
-"
-"
-:
-"
-)
 )
     
 elif

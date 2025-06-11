@@ -1,6 +1,4 @@
 import
-json
-import
 logging
 import
 os
@@ -16,6 +14,12 @@ import
 nice
 as
 slugid
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .
@@ -541,17 +545,7 @@ True
             
 indent
 =
-4
-            
-separators
-=
-(
-"
-"
-"
-:
-"
-)
+2
         
 )
         

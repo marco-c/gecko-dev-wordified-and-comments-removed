@@ -1,7 +1,5 @@
 import
 functools
-import
-json
 from
 collections
 import
@@ -36,6 +34,7 @@ taskgraph
 util
 import
 hash
+json
 taskcluster
 yaml
 from
@@ -2041,20 +2040,28 @@ callback
 "
 )
     
-raw_url
+parsed_base_url
 =
+parse
+(
 parameters
 [
 "
 base_repository
 "
 ]
+)
     
-parsed_url
+parsed_head_url
 =
 parse
 (
-raw_url
+parameters
+[
+"
+head_repository
+"
+]
 )
     
 action_scope
@@ -2066,7 +2073,7 @@ f
 assume
 :
 {
-parsed_url
+parsed_head_url
 .
 taskcluster_role_prefix
 }
@@ -2084,14 +2091,12 @@ permission
     
 pr_action_scope
 =
-(
-        
 f
 "
 assume
 :
 {
-parsed_url
+parsed_base_url
 .
 taskcluster_role_prefix
 }
@@ -2106,8 +2111,6 @@ action
 permission
 }
 "
-    
-)
     
 if
 not

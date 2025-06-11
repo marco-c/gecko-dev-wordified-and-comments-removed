@@ -718,7 +718,7 @@ load_stream
 (
 response
 .
-text
+content
 )
     
 response
