@@ -2252,7 +2252,7 @@ aRole
 )
 const
 ;
-void
+ENameValueFlag
 ARIAName
 (
 nsString

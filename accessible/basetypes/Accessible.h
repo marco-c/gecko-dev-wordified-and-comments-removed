@@ -99,6 +99,7 @@ ENameValueFlag
 eNameOK
 eNameFromSubtree
 eNameFromTooltip
+eNameFromRelations
 }
 ;
 struct
