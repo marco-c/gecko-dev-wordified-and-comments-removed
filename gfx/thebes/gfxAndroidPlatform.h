@@ -211,14 +211,6 @@ true
 }
 private
 :
-static
-void
-FontAPIInitializeCallback
-(
-void
-*
-)
-;
 gfxImageFormat
 mOffscreenFormat
 ;
