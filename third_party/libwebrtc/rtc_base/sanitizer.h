@@ -16,15 +16,9 @@ ifdef
 __cplusplus
 #
 include
-"
-absl
-/
-meta
-/
+<
 type_traits
-.
-h
-"
+>
 #
 endif
 #
@@ -358,7 +352,7 @@ static_cast
 bool
 >
 (
-absl
+std
 :
 :
 is_trivially_copy_constructible
@@ -371,7 +365,7 @@ value
 &
 &
 (
-absl
+std
 :
 :
 is_trivially_copy_assignable
@@ -397,7 +391,7 @@ value
 )
 &
 &
-absl
+std
 :
 :
 is_trivially_destructible
