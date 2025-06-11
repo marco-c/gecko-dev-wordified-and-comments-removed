@@ -2404,6 +2404,13 @@ js
 ]
 [
 "
+browser_searchMode_perplexity
+.
+js
+"
+]
+[
+"
 browser_searchMode_pickResult
 .
 js
