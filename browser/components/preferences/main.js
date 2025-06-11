@@ -4970,7 +4970,9 @@ setEventListener
 filter
 "
 "
-command
+MozInputSearch
+:
+search
 "
 gMainPane
 .
