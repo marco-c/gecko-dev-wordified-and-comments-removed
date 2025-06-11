@@ -436,8 +436,8 @@ val
 addonName
 =
 "
-uBlock
-Origin
+AdGuard
+AdBlocker
 "
 homeScreen
 {
