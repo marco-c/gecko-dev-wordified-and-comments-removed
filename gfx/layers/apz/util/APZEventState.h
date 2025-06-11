@@ -154,6 +154,12 @@ layers
 class
 ActiveElementManager
 ;
+enum
+class
+SynthesizeForTests
+:
+bool
+;
 namespace
 apz
 {
@@ -387,6 +393,8 @@ const
 CSSToLayoutDeviceScale
 &
 aScale
+uint32_t
+aPointerId
 Modifiers
 aModifiers
 const
@@ -396,6 +404,8 @@ nsIWidget
 >
 &
 aWidget
+SynthesizeForTests
+aSynthesizeForTests
 )
 ;
 already_AddRefed
@@ -459,6 +469,12 @@ PrecedingPointerDown
 :
 NotConsumed
 ;
+SynthesizeForTests
+mLastTouchSynthesizedForTests
+{
+false
+}
+;
 bool
 mPendingTouchPreventedResponse
 =
@@ -486,6 +502,8 @@ false
 ;
 int32_t
 mLastTouchIdentifier
+=
+0
 ;
 nsTArray
 <
