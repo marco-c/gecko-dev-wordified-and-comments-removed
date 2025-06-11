@@ -518,6 +518,7 @@ HasOngoingNavigateEvent
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AbortOngoingNavigation
 (
@@ -597,6 +598,7 @@ NavigationHistoryEntry
 aDisposedEntries
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FireEvent
 (
@@ -606,6 +608,7 @@ nsAString
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FireErrorEvent
 (
