@@ -198,7 +198,7 @@ CollectSuffixContextTerm
 )
 ;
 virtual
-void
+bool
 CollectContextTermWordBoundaryDistances
 (
 )
@@ -433,7 +433,7 @@ CollectContextTerms
 )
 override
 ;
-void
+bool
 CollectContextTermWordBoundaryDistances
 (
 )
@@ -559,7 +559,7 @@ CollectContextTerms
 )
 override
 ;
-void
+bool
 CollectContextTermWordBoundaryDistances
 (
 )
