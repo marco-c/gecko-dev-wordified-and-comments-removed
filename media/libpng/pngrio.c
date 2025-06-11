@@ -109,7 +109,8 @@ data
 length
 png_voidcast
 (
-png_FILE_p
+FILE
+*
 png_ptr
 -
 >

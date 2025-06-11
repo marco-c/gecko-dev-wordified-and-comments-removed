@@ -85,7 +85,6 @@ PNG_MIPS_MSA_FILE
 else
 #
 error
-"
 PNG_MIPS_MSA_FILE
 undefined
 :
@@ -98,7 +97,6 @@ time
 MIPS
 MSA
 checks
-"
 #
 endif
 #
@@ -153,7 +151,6 @@ PNG_MIPS_MMI_FILE
 else
 #
 error
-"
 PNG_MIPS_MMI_FILE
 undefined
 :
@@ -166,7 +163,6 @@ time
 MIPS
 MMI
 checks
-"
 #
 endif
 #
@@ -176,16 +172,13 @@ ifndef
 PNG_ALIGNED_MEMORY_SUPPORTED
 #
 error
-"
 ALIGNED_MEMORY
 is
 required
 ;
-set
-:
--
-DPNG_ALIGNED_MEMORY_SUPPORTED
-"
+please
+define
+PNG_ALIGNED_MEMORY_SUPPORTED
 #
 endif
 void

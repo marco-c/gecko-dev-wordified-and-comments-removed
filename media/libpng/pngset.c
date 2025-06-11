@@ -1266,8 +1266,6 @@ png_fixed
 (
 png_ptr
 white_x
-/
-2
 "
 png_set_mDCV
 (
@@ -1282,8 +1280,6 @@ png_fixed
 (
 png_ptr
 white_y
-/
-2
 "
 png_set_mDCV
 (
@@ -1298,8 +1294,6 @@ png_fixed
 (
 png_ptr
 red_x
-/
-2
 "
 png_set_mDCV
 (
@@ -1314,8 +1308,6 @@ png_fixed
 (
 png_ptr
 red_y
-/
-2
 "
 png_set_mDCV
 (
@@ -1330,8 +1322,6 @@ png_fixed
 (
 png_ptr
 green_x
-/
-2
 "
 png_set_mDCV
 (
@@ -1346,8 +1336,6 @@ png_fixed
 (
 png_ptr
 green_y
-/
-2
 "
 png_set_mDCV
 (
@@ -1362,8 +1350,6 @@ png_fixed
 (
 png_ptr
 blue_x
-/
-2
 "
 png_set_mDCV
 (
@@ -1378,8 +1364,6 @@ png_fixed
 (
 png_ptr
 blue_y
-/
-2
 "
 png_set_mDCV
 (

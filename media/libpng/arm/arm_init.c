@@ -47,7 +47,6 @@ _M_ARM64
 )
 #
 error
-"
 PNG_ARM_NEON_CHECK_SUPPORTED
 must
 not
@@ -55,7 +54,6 @@ be
 defined
 on
 ARM64
-"
 #
 elif
 defined
@@ -70,7 +68,6 @@ __ARM_NEON
 )
 #
 error
-"
 PNG_ARM_NEON_CHECK_SUPPORTED
 must
 not
@@ -80,7 +77,6 @@ on
 this
 CPU
 arch
-"
 #
 elif
 defined
@@ -99,7 +95,6 @@ c
 else
 #
 error
-"
 No
 support
 for
@@ -115,7 +110,6 @@ compile
 -
 time
 options
-"
 #
 endif
 #
@@ -143,16 +137,13 @@ ifndef
 PNG_ALIGNED_MEMORY_SUPPORTED
 #
 error
-"
 ALIGNED_MEMORY
 is
 required
 ;
-set
-:
--
-DPNG_ALIGNED_MEMORY_SUPPORTED
-"
+please
+define
+PNG_ALIGNED_MEMORY_SUPPORTED
 #
 endif
 void
