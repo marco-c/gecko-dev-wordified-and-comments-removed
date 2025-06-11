@@ -204,9 +204,6 @@ char
 IceCandidateTypeToStatsType
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -217,9 +214,6 @@ char
 *
 AdapterTypeToStatsType
 (
-rtc
-:
-:
 AdapterType
 type
 )

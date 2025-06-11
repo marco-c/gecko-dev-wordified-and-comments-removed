@@ -636,9 +636,6 @@ PeerConnectionWrapper
 bool
 AddIceCandidateToMedia
 (
-cricket
-:
-:
 Candidate
 *
 candidate
@@ -1610,9 +1607,6 @@ return
 wrapper
 ;
 }
-cricket
-:
-:
 Candidate
 CreateLocalUdpCandidate
 (
@@ -1622,9 +1616,6 @@ SocketAddress
 address
 )
 {
-cricket
-:
-:
 Candidate
 candidate
 ;
@@ -1738,9 +1729,6 @@ return
 [
 ]
 (
-cricket
-:
-:
 ContentInfo
 *
 content
@@ -3932,9 +3920,6 @@ options
 )
 )
 ;
-cricket
-:
-:
 Candidate
 audio_candidate1
 =
@@ -3959,9 +3944,6 @@ MEDIA_TYPE_AUDIO
 )
 )
 ;
-cricket
-:
-:
 Candidate
 video_candidate
 =
@@ -3986,9 +3968,6 @@ MEDIA_TYPE_VIDEO
 )
 )
 ;
-cricket
-:
-:
 Candidate
 audio_candidate2
 =
@@ -4214,9 +4193,6 @@ cricket
 GROUP_TYPE_BUNDLE
 )
 ;
-cricket
-:
-:
 ContentGroup
 new_bundle_group
 (
@@ -4776,9 +4752,6 @@ content_names
 1
 ]
 ;
-cricket
-:
-:
 ContentGroup
 new_bundle_group
 (
@@ -5265,9 +5238,6 @@ mid
 (
 )
 ;
-cricket
-:
-:
 ContentGroup
 bundle_group
 (
@@ -5837,9 +5807,6 @@ desc
 )
 ;
 const
-cricket
-:
-:
 ContentGroup
 *
 bundle_group
@@ -5970,9 +5937,6 @@ cricket
 GROUP_TYPE_BUNDLE
 )
 ;
-cricket
-:
-:
 ContentGroup
 bundle_group1
 (
@@ -6000,9 +5964,6 @@ AddContentName
 "
 )
 ;
-cricket
-:
-:
 ContentGroup
 bundle_group2
 (
@@ -6512,9 +6473,6 @@ cricket
 GROUP_TYPE_BUNDLE
 )
 ;
-cricket
-:
-:
 ContentGroup
 bundle_group
 (

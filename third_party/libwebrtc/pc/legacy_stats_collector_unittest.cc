@@ -8026,15 +8026,9 @@ transport
 "
 ;
 const
-rtc
-:
-:
 AdapterType
 kNetworkType
 =
-rtc
-:
-:
 ADAPTER_TYPE_ETHERNET
 ;
 constexpr
@@ -8124,9 +8118,6 @@ get
 )
 )
 ;
-cricket
-:
-:
 Candidate
 local
 ;
@@ -8188,9 +8179,6 @@ set_network_type
 kNetworkType
 )
 ;
-cricket
-:
-:
 Candidate
 remote
 ;

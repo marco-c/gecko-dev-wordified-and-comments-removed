@@ -243,15 +243,9 @@ start_as_enabled
 =
 true
 ;
-rtc
-:
-:
 AdapterType
 type
 =
-rtc
-:
-:
 AdapterType
 :
 :

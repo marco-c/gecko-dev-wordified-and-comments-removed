@@ -63,15 +63,11 @@ jsep_ice_candidate
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 SessionDescription
 ;
-}
-namespace
-webrtc
-{
 class
 JsepSessionDescription
 :
@@ -108,9 +104,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description
@@ -161,9 +154,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description
@@ -197,9 +187,6 @@ Clone
 const
 ;
 virtual
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -216,9 +203,6 @@ get
 }
 virtual
 const
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -310,9 +294,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -357,9 +338,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description_
@@ -404,9 +382,6 @@ int
 GetMediasectionIndex
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate

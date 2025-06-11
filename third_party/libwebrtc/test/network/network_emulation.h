@@ -1141,9 +1141,6 @@ ip
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
 ;
-rtc
-:
-:
 AdapterType
 type
 ;

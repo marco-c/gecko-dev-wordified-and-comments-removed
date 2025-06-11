@@ -555,6 +555,9 @@ default
 ;
 CandidateStats
 (
+webrtc
+:
+:
 Candidate
 candidate
 std
@@ -615,6 +618,9 @@ other
 default
 ;
 const
+webrtc
+:
+:
 Candidate
 &
 candidate
@@ -645,6 +651,9 @@ stun_stats_
 ;
 }
 private
+:
+webrtc
+:
 :
 Candidate
 candidate_
@@ -1311,6 +1320,9 @@ signal2
 Port
 *
 const
+webrtc
+:
+:
 Candidate
 &
 >
@@ -1322,6 +1334,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 &
@@ -1681,6 +1696,9 @@ void
 AddPrflxCandidate
 (
 const
+webrtc
+:
+:
 Candidate
 &
 local
@@ -1801,6 +1819,9 @@ void
 FinishAddingAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -2051,6 +2072,9 @@ bool
 MaybeObfuscateAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -2198,6 +2222,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 candidates_

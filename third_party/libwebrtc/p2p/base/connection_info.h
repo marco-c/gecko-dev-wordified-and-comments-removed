@@ -122,9 +122,15 @@ recv_ping_requests
 size_t
 recv_ping_responses
 ;
+webrtc
+:
+:
 Candidate
 local_candidate
 ;
+webrtc
+:
+:
 Candidate
 remote_candidate
 ;

@@ -965,9 +965,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &

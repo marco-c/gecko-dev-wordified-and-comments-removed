@@ -62,9 +62,6 @@ BundleManager
 Update
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -155,9 +152,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 ContentGroup
 >
 (
@@ -313,9 +307,6 @@ RefreshEstablishedBundleGroupsByMid
 }
 }
 const
-cricket
-:
-:
 ContentGroup
 *
 BundleManager
@@ -410,9 +401,6 @@ FirstContentName
 )
 ;
 }
-cricket
-:
-:
 ContentGroup
 *
 BundleManager
@@ -464,9 +452,6 @@ BundleManager
 DeleteMid
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 bundle_group
@@ -606,9 +591,6 @@ BundleManager
 DeleteGroup
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 bundle_group
@@ -778,9 +760,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 ContentGroup
 >
 (
@@ -834,9 +813,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 ContentGroup
 >
 (

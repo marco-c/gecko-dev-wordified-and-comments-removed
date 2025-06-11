@@ -845,6 +845,10 @@ deps
 rtp_transport_internal
 "
 "
+:
+session_description
+"
+"
 .
 .
 /

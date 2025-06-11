@@ -30,6 +30,9 @@ CandidatePairInterface
 }
 virtual
 const
+webrtc
+:
+:
 Candidate
 &
 local_candidate
@@ -41,6 +44,9 @@ const
 ;
 virtual
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -68,6 +74,9 @@ override
 default
 ;
 const
+webrtc
+:
+:
 Candidate
 &
 local_candidate
@@ -81,6 +90,9 @@ local
 ;
 }
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -93,9 +105,15 @@ return
 remote
 ;
 }
+webrtc
+:
+:
 Candidate
 local
 ;
+webrtc
+:
+:
 Candidate
 remote
 ;

@@ -525,9 +525,6 @@ contents
 )
 ;
 const
-cricket
-:
-:
 ContentInfo
 *
 cinfo
@@ -1647,9 +1644,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 desc
@@ -1976,9 +1970,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 desc

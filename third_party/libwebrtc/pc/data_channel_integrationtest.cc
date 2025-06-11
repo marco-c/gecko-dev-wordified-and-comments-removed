@@ -7083,9 +7083,6 @@ SessionDescriptionInterface
 desc
 )
 {
-cricket
-:
-:
 SctpDataContentDescription
 *
 dcd_offer

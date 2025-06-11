@@ -1646,9 +1646,6 @@ false
 int
 max_ipv6_networks
 =
-cricket
-:
-:
 kDefaultMaxIPv6Networks
 ;
 bool
@@ -1838,9 +1835,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 AdapterType
 >
 network_preference
@@ -2867,9 +2861,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -3292,9 +3283,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -3458,9 +3446,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 PortAllocator
 >
 allocator

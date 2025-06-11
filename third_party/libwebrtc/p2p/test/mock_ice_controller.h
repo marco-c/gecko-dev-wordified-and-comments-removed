@@ -63,9 +63,6 @@ explicit
 MockIceController
 (
 const
-cricket
-:
-:
 IceControllerFactoryArgs
 &
 )
@@ -85,7 +82,7 @@ void
 SetIceConfig
 (
 const
-cricket
+webrtc
 :
 :
 IceConfig
@@ -235,7 +232,7 @@ cricket
 :
 Connection
 *
-cricket
+webrtc
 :
 :
 NominationMode
@@ -359,9 +356,6 @@ class
 MockIceControllerFactory
 :
 public
-cricket
-:
-:
 IceControllerFactoryInterface
 {
 public
@@ -387,9 +381,6 @@ IceControllerInterface
 Create
 (
 const
-cricket
-:
-:
 IceControllerFactoryArgs
 &
 args

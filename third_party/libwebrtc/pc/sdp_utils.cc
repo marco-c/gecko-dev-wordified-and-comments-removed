@@ -164,9 +164,6 @@ SdpContentsAll
 SdpContentPredicate
 pred
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -235,9 +232,6 @@ SdpContentsNone
 SdpContentPredicate
 pred
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -284,9 +278,6 @@ SdpContentsForEach
 (
 SdpContentMutator
 fn
-cricket
-:
-:
 SessionDescription
 *
 desc

@@ -1032,6 +1032,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 &
@@ -1160,6 +1163,9 @@ RTC_DCHECK_RUN_ON
 thread_
 )
 ;
+webrtc
+:
+:
 Candidate
 c
 (
@@ -1347,6 +1353,9 @@ Port
 MaybeObfuscateAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1563,6 +1572,9 @@ Port
 FinishAddingAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -2203,6 +2215,9 @@ Port
 AddPrflxCandidate
 (
 const
+webrtc
+:
+:
 Candidate
 &
 local

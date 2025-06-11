@@ -813,7 +813,7 @@ cricket
 :
 :
 VoiceMediaReceiveChannelInterface
-cricket
+webrtc
 :
 :
 AudioContentDescription
@@ -855,7 +855,7 @@ cricket
 :
 :
 VideoMediaReceiveChannelInterface
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -10461,7 +10461,7 @@ cricket
 Codec
 &
 video_codec
-cricket
+webrtc
 :
 :
 AudioContentDescription
@@ -10506,13 +10506,13 @@ VoiceTraits
 CopyContent
 (
 const
-cricket
+webrtc
 :
 :
 AudioContentDescription
 &
 source
-cricket
+webrtc
 :
 :
 AudioContentDescription
@@ -10542,7 +10542,7 @@ uint32_t
 ssrc
 int
 flags
-cricket
+webrtc
 :
 :
 AudioContentDescription
@@ -10900,7 +10900,7 @@ cricket
 Codec
 &
 video_codec
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -10945,13 +10945,13 @@ VideoTraits
 CopyContent
 (
 const
-cricket
+webrtc
 :
 :
 VideoContentDescription
 &
 source
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -10981,7 +10981,7 @@ uint32_t
 ssrc
 int
 flags
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -12726,7 +12726,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -12941,7 +12941,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13165,7 +13165,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13498,7 +13498,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13513,7 +13513,7 @@ kLocalCodec
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13705,7 +13705,7 @@ VP8
 "
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13720,7 +13720,7 @@ local_codec
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13919,7 +13919,7 @@ packetization
 unknownpacketizationattributevalue
 "
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -13934,7 +13934,7 @@ local_codec
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14122,7 +14122,7 @@ VP8
 "
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14137,7 +14137,7 @@ local_codec
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14373,7 +14373,7 @@ packetization
 bar
 "
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14390,7 +14390,7 @@ vp9_foo
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14734,7 +14734,7 @@ packetization
 bar
 "
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -14750,7 +14750,7 @@ vp9
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -15046,7 +15046,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -15062,7 +15062,7 @@ vp8_raw
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -15330,7 +15330,7 @@ cricket
 :
 kPacketizationParamRaw
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -15346,7 +15346,7 @@ vp8
 }
 )
 ;
-cricket
+webrtc
 :
 :
 VideoContentDescription

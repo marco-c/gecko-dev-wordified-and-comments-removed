@@ -632,6 +632,9 @@ STATE_CONNECTED
 ;
 }
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -654,6 +657,9 @@ const
 override
 ;
 virtual
+webrtc
+:
+:
 TlsCertPolicy
 GetTlsCertPolicy
 (
@@ -664,6 +670,9 @@ virtual
 void
 SetTlsCertPolicy
 (
+webrtc
+:
+:
 TlsCertPolicy
 tls_cert_policy
 )
@@ -726,6 +735,9 @@ Connection
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1036,6 +1048,9 @@ void
 set_credentials
 (
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1134,6 +1149,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1196,6 +1214,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1298,6 +1319,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1407,6 +1431,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1892,9 +1919,15 @@ std
 string
 server_url_
 ;
+webrtc
+:
+:
 TlsCertPolicy
 tls_cert_policy_
 =
+webrtc
+:
+:
 TlsCertPolicy
 :
 :
@@ -1931,6 +1964,9 @@ SSLCertificateVerifier
 *
 tls_cert_verifier_
 ;
+webrtc
+:
+:
 RelayCredentials
 credentials_
 ;

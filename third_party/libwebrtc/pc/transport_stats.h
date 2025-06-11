@@ -150,6 +150,9 @@ DtlsTransportState
 :
 kNew
 ;
+webrtc
+:
+:
 IceTransportStats
 ice_transport_stats
 ;

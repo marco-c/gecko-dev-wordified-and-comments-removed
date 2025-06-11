@@ -77,6 +77,9 @@ DtlsTransportInternal
 >
 CreateDtlsTransport
 (
+webrtc
+:
+:
 IceTransportInternal
 *
 ice

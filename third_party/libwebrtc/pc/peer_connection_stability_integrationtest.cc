@@ -2824,9 +2824,6 @@ media_section_counter
 0
 ;
 const
-cricket
-:
-:
 SessionDescription
 *
 desc

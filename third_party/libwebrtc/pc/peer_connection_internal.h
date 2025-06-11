@@ -487,9 +487,6 @@ data_channel_controller
 0
 ;
 virtual
-cricket
-:
-:
 PortAllocator
 *
 port_allocator
@@ -588,9 +585,6 @@ bool
 ValidateBundleSettings
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -605,9 +599,6 @@ std
 :
 string
 const
-cricket
-:
-:
 ContentGroup
 *
 >
@@ -720,9 +711,6 @@ absl
 string_view
 mid
 const
-cricket
-:
-:
 Candidate
 &
 candidate

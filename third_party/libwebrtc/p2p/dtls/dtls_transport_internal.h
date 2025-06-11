@@ -483,6 +483,9 @@ true
 ;
 }
 virtual
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport

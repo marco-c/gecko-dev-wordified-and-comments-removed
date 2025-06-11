@@ -30,6 +30,17 @@ p2p
 /
 base
 /
+port_allocator
+.
+h
+"
+#
+include
+"
+p2p
+/
+base
+/
 port_interface
 .
 h
@@ -73,9 +84,6 @@ struct
 ProtocolAddress
 ;
 struct
-RelayServerConfig
-;
-struct
 CreateRelayPortArgs
 {
 rtc
@@ -106,6 +114,9 @@ ProtocolAddress
 server_address
 ;
 const
+webrtc
+:
+:
 RelayServerConfig
 *
 config

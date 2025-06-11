@@ -136,7 +136,9 @@ cricket
 Candidate
 ;
 using
-cricket
+:
+:
+webrtc
 :
 :
 SessionDescription
@@ -175,9 +177,6 @@ const
 JsepCandidateCollection
 &
 candidate_collection
-cricket
-:
-:
 MediaContentDescription
 *
 media_desc
@@ -737,9 +736,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description
@@ -900,9 +896,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description
@@ -976,9 +969,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 description

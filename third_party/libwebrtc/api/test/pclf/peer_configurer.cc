@@ -1548,14 +1548,8 @@ params_
 >
 port_allocator_flags
 =
-cricket
-:
-:
 kDefaultPortAllocatorFlags
 |
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_TCP
 |
 extra_flags

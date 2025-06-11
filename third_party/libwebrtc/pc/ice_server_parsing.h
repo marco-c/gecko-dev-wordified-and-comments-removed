@@ -85,9 +85,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 *
@@ -116,9 +113,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &

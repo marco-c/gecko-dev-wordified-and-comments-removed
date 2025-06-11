@@ -658,9 +658,6 @@ size
 )
 ;
 const
-cricket
-:
-:
 MediaContentDescription
 *
 media_description1
@@ -851,9 +848,6 @@ size
 )
 )
 ;
-cricket
-:
-:
 MediaContentDescription
 *
 media_description1
@@ -1119,9 +1113,6 @@ size
 )
 )
 ;
-cricket
-:
-:
 MediaContentDescription
 *
 media_description2

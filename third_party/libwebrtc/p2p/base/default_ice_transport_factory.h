@@ -75,9 +75,6 @@ DefaultIceTransport
 (
 )
 ;
-cricket
-:
-:
 IceTransportInternal
 *
 internal

@@ -1054,9 +1054,6 @@ OnNegotiationUpdate
 SdpType
 sdp_type
 const
-cricket
-:
-:
 MediaContentDescription
 *
 content

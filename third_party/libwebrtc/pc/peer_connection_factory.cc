@@ -1533,9 +1533,6 @@ semantics
 RTCError
 err
 =
-cricket
-:
-:
 IceConfig
 (
 configuration
@@ -1590,9 +1587,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 turn_servers

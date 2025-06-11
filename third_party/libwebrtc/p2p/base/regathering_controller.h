@@ -92,9 +92,6 @@ const
 Config
 &
 config
-cricket
-:
-:
 IceTransportInternal
 *
 ice_transport
@@ -120,9 +117,6 @@ Start
 void
 set_allocator_session
 (
-cricket
-:
-:
 PortAllocatorSession
 *
 allocator_session
@@ -147,9 +141,6 @@ private
 void
 OnIceTransportStateChanged
 (
-cricket
-:
-:
 IceTransportInternal
 *
 )
@@ -215,16 +206,10 @@ pending_regathering_
 Config
 config_
 ;
-cricket
-:
-:
 IceTransportInternal
 *
 ice_transport_
 ;
-cricket
-:
-:
 PortAllocatorSession
 *
 allocator_session_

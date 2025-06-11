@@ -1402,9 +1402,6 @@ return
 ssl_max_version_
 ;
 }
-cricket
-:
-:
 IceTransportInternal
 *
 ice_transport

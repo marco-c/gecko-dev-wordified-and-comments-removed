@@ -618,9 +618,6 @@ audio_config
 uint32_t
 port_allocator_flags
 =
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_TCP
 ;
 std

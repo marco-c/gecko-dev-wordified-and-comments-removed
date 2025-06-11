@@ -73,9 +73,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -89,9 +86,6 @@ override
 MOCK_METHOD
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -185,7 +179,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate

@@ -1191,6 +1191,9 @@ return
 jsep_description
 ;
 }
+webrtc
+:
+:
 Candidate
 CreateCandidate
 (
@@ -1198,6 +1201,9 @@ int
 component
 )
 {
+webrtc
+:
+:
 Candidate
 c
 ;

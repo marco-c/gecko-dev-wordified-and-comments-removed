@@ -424,6 +424,9 @@ network_thread
 const
 ;
 const
+webrtc
+:
+:
 Candidate
 &
 local_candidate
@@ -433,6 +436,9 @@ const
 override
 ;
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -1146,6 +1152,9 @@ void
 MaybeUpdatePeerReflexiveCandidate
 (
 const
+webrtc
+:
+:
 Candidate
 &
 new_candidate
@@ -1504,6 +1513,9 @@ port
 size_t
 index
 const
+webrtc
+:
+:
 Candidate
 &
 candidate
@@ -1657,6 +1669,9 @@ PortInterface
 >
 port_
 ;
+webrtc
+:
+:
 Candidate
 local_candidate_
 RTC_GUARDED_BY
@@ -1664,6 +1679,9 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
+webrtc
+:
+:
 Candidate
 remote_candidate_
 ;
@@ -2191,6 +2209,9 @@ port
 size_t
 index
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate

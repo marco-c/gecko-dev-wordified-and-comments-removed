@@ -3348,7 +3348,7 @@ EXPECT_EQ
 kStunCandidatePriority
 +
 (
-cricket
+webrtc
 :
 :
 kMaxTurnServers
@@ -6796,7 +6796,7 @@ EXPECT_EQ
 kIPv6StunCandidatePriority
 +
 (
-cricket
+webrtc
 :
 :
 kMaxTurnServers

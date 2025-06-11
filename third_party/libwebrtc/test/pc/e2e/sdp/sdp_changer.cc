@@ -651,9 +651,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media_desc
@@ -1070,9 +1067,6 @@ mid
 )
 )
 ;
-cricket
-:
-:
 MediaContentDescription
 *
 media_desc
@@ -1324,9 +1318,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 desc
@@ -1354,9 +1345,6 @@ context_
 simulcast_infos
 )
 {
-cricket
-:
-:
 ContentInfo
 *
 simulcast_content
@@ -1376,9 +1364,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaContentDescription
 >
 prototype_media_desc
@@ -1648,9 +1633,6 @@ Clone
 ;
 }
 }
-cricket
-:
-:
 ContentGroup
 bundle_group
 (
@@ -2387,9 +2369,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media_desc
@@ -2616,9 +2595,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 desc
@@ -2646,9 +2622,6 @@ context_
 simulcast_infos
 )
 {
-cricket
-:
-:
 ContentInfo
 *
 simulcast_content
@@ -2676,9 +2649,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaContentDescription
 >
 media_desc
@@ -2996,9 +2966,6 @@ desc
 )
 )
 ;
-cricket
-:
-:
 ContentGroup
 bundle_group
 (
@@ -3296,9 +3263,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 SignalingInterceptor
@@ -3311,9 +3275,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 source
@@ -3324,9 +3285,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 out
@@ -3387,9 +3345,6 @@ context_
 mids_order
 )
 {
-cricket
-:
-:
 ContentInfo
 *
 content
@@ -3855,9 +3810,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 MediaProtocolType
 media_protocol_type
 const

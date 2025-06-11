@@ -54,9 +54,6 @@ public
 explicit
 IceTransportWithPointer
 (
-cricket
-:
-:
 IceTransportInternal
 *
 internal
@@ -112,9 +109,6 @@ IceTransportWithPointer
 =
 delete
 ;
-cricket
-:
-:
 IceTransportInternal
 *
 internal
@@ -145,9 +139,6 @@ Thread
 *
 creator_thread_
 ;
-cricket
-:
-:
 IceTransportInternal
 *
 internal_

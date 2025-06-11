@@ -961,6 +961,9 @@ webrtc
 SdpType
 type
 const
+webrtc
+:
+:
 ContentInfo
 &
 content
@@ -1044,6 +1047,9 @@ webrtc
 :
 SdpType
 type
+webrtc
+:
+:
 ContentSource
 source
 )
@@ -1106,6 +1112,9 @@ const
 IceParameters
 &
 ice_parameters
+webrtc
+:
+:
 IceTransportInternal
 *
 ice

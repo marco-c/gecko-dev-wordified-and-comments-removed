@@ -442,6 +442,9 @@ StreamInterfaceChannel
 :
 StreamInterfaceChannel
 (
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -820,6 +823,9 @@ DtlsTransport
 :
 DtlsTransport
 (
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -2776,6 +2782,9 @@ return
 ;
 }
 }
+webrtc
+:
+:
 IceTransportInternal
 *
 DtlsTransport

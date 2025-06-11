@@ -162,10 +162,16 @@ WrappingActiveIceController
 IceAgentInterface
 *
 ice_agent
+webrtc
+:
+:
 IceControllerFactoryInterface
 *
 wrapped_factory
 const
+webrtc
+:
+:
 IceControllerFactoryArgs
 &
 wrapped_factory_args
@@ -181,6 +187,9 @@ void
 SetIceConfig
 (
 const
+webrtc
+:
+:
 IceConfig
 &
 config
@@ -194,6 +203,9 @@ const
 Connection
 *
 connection
+webrtc
+:
+:
 NominationMode
 mode
 IceMode

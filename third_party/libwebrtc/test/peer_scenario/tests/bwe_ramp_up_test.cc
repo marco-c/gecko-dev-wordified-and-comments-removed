@@ -979,9 +979,6 @@ offer
 RtpHeaderExtensionMap
 extension_map
 (
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 offer
@@ -1015,9 +1012,6 @@ std
 string
 video_mid
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 offer

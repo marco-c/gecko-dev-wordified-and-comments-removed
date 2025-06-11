@@ -73,6 +73,15 @@ rtp_transport_internal
 .
 h
 "
+#
+include
+"
+pc
+/
+session_description
+.
+h
+"
 namespace
 webrtc
 {
@@ -91,9 +100,6 @@ VoiceChannel
 ;
 class
 VideoChannel
-;
-class
-MediaContentDescription
 ;
 struct
 MediaConfig
@@ -272,6 +278,9 @@ bool
 SetLocalContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -295,6 +304,9 @@ bool
 SetRemoteContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content

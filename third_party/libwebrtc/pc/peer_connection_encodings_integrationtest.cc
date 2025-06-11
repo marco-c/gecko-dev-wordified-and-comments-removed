@@ -2176,9 +2176,6 @@ get
 )
 )
 ;
-cricket
-:
-:
 MediaContentDescription
 *
 mcd_answer
