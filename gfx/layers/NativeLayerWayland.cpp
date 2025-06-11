@@ -4069,7 +4069,7 @@ false
 mSurface
 -
 >
-AddPersistentFrameCallbackLocked
+AddFrameCallbackLocked
 (
 surfaceLock
 [

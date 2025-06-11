@@ -355,7 +355,7 @@ mWaylandSurface
 mWaylandSurface
 -
 >
-AddPersistentFrameCallbackLocked
+AddFrameCallbackLocked
 (
 surfaceLock
 [
