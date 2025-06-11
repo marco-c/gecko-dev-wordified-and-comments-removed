@@ -5483,6 +5483,13 @@ if
 jsepCodec
 -
 >
+mEnabled
+|
+|
+!
+jsepCodec
+-
+>
 DirectionSupported
 (
 sdp
