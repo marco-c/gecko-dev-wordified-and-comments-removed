@@ -349,6 +349,11 @@ bool
 aSignalingStable
 )
 ;
+void
+UpdateActive
+(
+)
+;
 virtual
 DirectionType
 Direction
@@ -735,6 +740,9 @@ Mirror
 bool
 >
 mActive
+;
+bool
+mActiveSts
 ;
 Atomic
 <
