@@ -945,7 +945,7 @@ false
 }
 override
 fun
-onStop
+onPause
 (
 owner
 :
@@ -954,7 +954,7 @@ LifecycleOwner
 {
 super
 .
-onStop
+onPause
 (
 owner
 )
@@ -993,7 +993,7 @@ owner
 isChangingConfigurations
 )
 {
-maybeLockPrivateModeOnStop
+maybeLockPrivateModeOnPause
 (
 )
 }
@@ -1021,7 +1021,7 @@ startObservingSharedPrefs
 }
 private
 fun
-maybeLockPrivateModeOnStop
+maybeLockPrivateModeOnPause
 (
 )
 {
