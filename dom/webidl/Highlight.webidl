@@ -335,7 +335,7 @@ sync
 [
 Throws
 ]
-undefined
+Highlight
 add
 (
 AbstractRange
@@ -473,7 +473,7 @@ sync
 [
 Throws
 ]
-undefined
+HighlightRegistry
 set
 (
 DOMString

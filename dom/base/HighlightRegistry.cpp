@@ -752,7 +752,8 @@ highlight
 ;
 }
 }
-void
+HighlightRegistry
+*
 HighlightRegistry
 :
 :
@@ -797,6 +798,7 @@ Failed
 )
 {
 return
+this
 ;
 }
 HighlightRegistry_Binding
@@ -823,6 +825,7 @@ Failed
 )
 {
 return
+this
 ;
 }
 RefPtr
@@ -1007,6 +1010,9 @@ aValue
 )
 ;
 }
+return
+this
+;
 }
 void
 HighlightRegistry

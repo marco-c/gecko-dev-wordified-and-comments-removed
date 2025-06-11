@@ -615,7 +615,8 @@ Repaint
 )
 ;
 }
-void
+Highlight
+*
 Highlight
 :
 :
@@ -653,6 +654,7 @@ Failed
 )
 {
 return
+this
 ;
 }
 Highlight_Binding
@@ -678,6 +680,7 @@ Failed
 )
 {
 return
+this
 ;
 }
 MOZ_ASSERT
@@ -778,9 +781,13 @@ Failed
 )
 {
 return
+this
 ;
 }
 }
+return
+this
+;
 }
 void
 Highlight
