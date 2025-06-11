@@ -17,7 +17,7 @@ arraysize
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const

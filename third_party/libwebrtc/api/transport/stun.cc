@@ -2829,7 +2829,7 @@ STUN_FINGERPRINT_XOR_VALUE
 )
 =
 =
-rtc
+webrtc
 :
 :
 ComputeCrc32
@@ -3051,7 +3051,7 @@ length
 uint32_t
 c
 =
-rtc
+webrtc
 :
 :
 ComputeCrc32
