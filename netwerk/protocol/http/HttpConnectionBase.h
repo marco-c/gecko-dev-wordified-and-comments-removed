@@ -797,6 +797,11 @@ nsresult
 aReason
 )
 ;
+void
+RecordConnectionAddressType
+(
+)
+;
 protected
 :
 uint32_t
@@ -890,6 +895,12 @@ ConnectionCloseReason
 :
 :
 UNSET
+;
+bool
+mAddressTypeReported
+{
+false
+}
 ;
 }
 ;
