@@ -4635,6 +4635,16 @@ masm
 )
 ;
 void
+pushInlinedICScript
+(
+MacroAssembler
+&
+masm
+Address
+icScriptAddr
+)
+;
+void
 storeTracedValue
 (
 MacroAssembler
