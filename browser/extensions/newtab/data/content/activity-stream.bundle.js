@@ -20047,7 +20047,7 @@ width
 110
 height
 :
-110
+117
 }
 medium
 :
@@ -20059,7 +20059,7 @@ height
 :
 refinedCardsLayout
 ?
-162
+160
 :
 150
 }
@@ -22284,6 +22284,12 @@ excerpt
 =
 !
 hideDescriptions
+|
+|
+sectionsEnabled
+&
+&
+refinedCardsLayout
 ?
 this
 .
