@@ -704,9 +704,6 @@ ColorPrimariesStrings
 Display
 "
 "
-UNKNOWN
-"
-"
 SRGB
 "
 "
@@ -714,12 +711,6 @@ DISPLAY_P3
 "
 "
 BT601_525
-"
-"
-BT709
-"
-"
-BT601_625
 "
 "
 BT709
