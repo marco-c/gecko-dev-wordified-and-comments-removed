@@ -754,11 +754,6 @@ sequence_checker_
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
-RTC_GUARDED_BY
-(
-&
-sequence_checker_
-)
 ;
 VideoStreamInputStateProvider
 *
