@@ -7771,10 +7771,6 @@ during
 a
 blur
 event
-doesn
-'
-t
-succeed
 var
 t1
 =
@@ -7801,7 +7797,14 @@ t1
 focus
 (
 )
+{
+capture
+:
 true
+once
+:
+true
+}
 )
 ;
 t1
@@ -7834,7 +7837,7 @@ is
 fm
 .
 focusedElement
-t3
+t1
 "
 focus
 during
