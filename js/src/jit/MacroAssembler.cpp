@@ -20579,12 +20579,15 @@ resumeFramePtr
 FramePointer
 )
 ;
-pushFrameDescriptor
+push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 BaselineJS
+)
 )
 ;
 push
