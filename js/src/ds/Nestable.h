@@ -13,15 +13,6 @@ Assertions
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 js
 {
@@ -31,7 +22,6 @@ typename
 Concrete
 >
 class
-MOZ_STACK_CLASS
 Nestable
 {
 Concrete
