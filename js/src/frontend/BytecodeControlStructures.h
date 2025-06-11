@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -222,6 +231,7 @@ this
 }
 ;
 class
+MOZ_STACK_CLASS
 BreakableControl
 :
 public
@@ -289,6 +299,7 @@ Label
 ;
 }
 class
+MOZ_STACK_CLASS
 LabelControl
 :
 public
