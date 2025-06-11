@@ -5585,8 +5585,8 @@ return
 false
 ;
 }
-RootedScript
-targetScript
+RootedFunction
+targetFunction
 (
 cx_
 inlineData
@@ -5603,7 +5603,7 @@ TrialInliner
 :
 canInline
 (
-targetScript
+targetFunction
 script_
 loc
 )
@@ -5645,6 +5645,18 @@ TrialInliningState
 :
 :
 MonomorphicInlined
+)
+;
+RootedScript
+targetScript
+(
+cx_
+targetFunction
+-
+>
+nonLazyScript
+(
+)
 )
 ;
 ICScript
@@ -5839,6 +5851,7 @@ mirGen_
 .
 runtime
 targetScript
+targetFunction
 osrPc
 needsArgsObj
 inlineScriptTree
