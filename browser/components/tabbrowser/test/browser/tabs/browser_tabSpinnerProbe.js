@@ -304,6 +304,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 dom
 .
 ipc

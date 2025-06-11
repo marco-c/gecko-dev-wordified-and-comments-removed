@@ -38,6 +38,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 apz
 .
 touch_start_tolerance

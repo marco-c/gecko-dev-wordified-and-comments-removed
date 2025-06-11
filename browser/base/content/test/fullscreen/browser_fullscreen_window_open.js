@@ -257,6 +257,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 dom
 .
 disable_open_during_load
