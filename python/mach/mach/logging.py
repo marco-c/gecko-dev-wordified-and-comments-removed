@@ -1,8 +1,6 @@
 import
 codecs
 import
-json
-import
 logging
 import
 os
@@ -18,6 +16,10 @@ mozbuild
 buildversion
 import
 mozilla_build_version
+from
+mozfile
+import
+json
 from
 packaging
 .

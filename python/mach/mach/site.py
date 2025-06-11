@@ -5,8 +5,6 @@ enum
 import
 functools
 import
-json
-import
 os
 import
 platform
@@ -46,6 +44,10 @@ filelock
 import
 FileLock
 Timeout
+from
+mozfile
+import
+json
 from
 packaging
 .
