@@ -8373,11 +8373,6 @@ server_socket_adapters
 h
 "
 "
-sigslot_tester
-.
-h
-"
-"
 test_base64
 .
 h
