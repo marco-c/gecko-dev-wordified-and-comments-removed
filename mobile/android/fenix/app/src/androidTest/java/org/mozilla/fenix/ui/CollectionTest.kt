@@ -295,9 +295,6 @@ AndroidComposeTestRule
 (
 HomeActivityIntentTestRule
 (
-isHomeOnboardingDialogEnabled
-=
-false
 isRecentTabsFeatureEnabled
 =
 false

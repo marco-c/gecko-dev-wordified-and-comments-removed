@@ -5587,10 +5587,6 @@ if
 featureRecommended
 &
 &
-!
-showHomeOnboardingDialog
-&
-&
 showWallpaperOnboardingDialog
 (
 featureRecommended

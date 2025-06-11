@@ -323,9 +323,6 @@ AndroidComposeTestRule
 (
 HomeActivityIntentTestRule
 (
-isHomeOnboardingDialogEnabled
-=
-false
 isMenuRedesignEnabled
 =
 false
