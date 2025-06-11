@@ -76,6 +76,11 @@ FramingChecker
 h
 "
 "
+IntegrityPolicy
+.
+h
+"
+"
 nsContentSecurityManager
 .
 h
@@ -197,6 +202,11 @@ cpp
 "
 "
 FramingChecker
+.
+cpp
+"
+"
+IntegrityPolicy
 .
 cpp
 "
