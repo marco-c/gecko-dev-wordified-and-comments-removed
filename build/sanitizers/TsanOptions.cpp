@@ -746,6 +746,15 @@ BufferReleaseCallbackHandler
 n
 "
 "
+race
+:
+i965_dri
+.
+so
+\
+n
+"
+"
 deadlock
 :
 SanctionsTestServer
