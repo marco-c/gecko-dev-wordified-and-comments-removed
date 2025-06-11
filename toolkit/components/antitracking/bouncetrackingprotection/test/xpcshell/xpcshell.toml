@@ -32,6 +32,13 @@ bounceTrackingPurgeTimerPeriodSec
 0
 "
 ]
+firefox
+-
+appdir
+=
+"
+browser
+"
 [
 "
 test_bouncetracking_clearExpiredUserActivation
@@ -56,6 +63,13 @@ js
 [
 "
 test_bouncetracking_purge_telemetry
+.
+js
+"
+]
+[
+"
+test_bouncetracking_storage_batch_write
 .
 js
 "
