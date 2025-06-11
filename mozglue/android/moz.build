@@ -174,14 +174,6 @@ XPCOM_GLUE
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-android
-"
-]
 USE_LIBS
 +
 =
