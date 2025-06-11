@@ -2930,6 +2930,16 @@ rtc_event_log
 .
 .
 /
+api
+/
+rtc_event_log
+:
+rtc_event_log_factory_interface
+"
+"
+.
+.
+/
 rtc_base
 :
 macromagic
