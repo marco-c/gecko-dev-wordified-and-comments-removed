@@ -11059,12 +11059,6 @@ AllowGC
 CanGC
 )
 {
-vp
-.
-setUndefined
-(
-)
-;
 if
 (
 nameLookup
@@ -11080,6 +11074,12 @@ return
 false
 ;
 }
+vp
+.
+setUndefined
+(
+)
+;
 return
 true
 ;
