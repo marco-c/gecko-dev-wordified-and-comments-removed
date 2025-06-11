@@ -6657,6 +6657,8 @@ DISABLED
 )
 )
 {
+backgroundColor
+=
 borderColor
 =
 sTransparent
