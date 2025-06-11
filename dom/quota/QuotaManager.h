@@ -3771,6 +3771,16 @@ DirectoryLockImpl
 >
 mDirectoryLocks
 ;
+nsTArray
+<
+NotNull
+<
+DirectoryLockImpl
+*
+>
+>
+mExclusiveDirectoryLocks
+;
 nsTHashMap
 <
 nsUint64HashKey
