@@ -85,13 +85,6 @@ py
 ]
 [
 "
-test_try_option_syntax
-.
-py
-"
-]
-[
-"
 test_util_attributes
 .
 py

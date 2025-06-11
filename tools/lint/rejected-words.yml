@@ -2262,14 +2262,6 @@ other
 .
 py
 -
-taskcluster
-/
-gecko_taskgraph
-/
-try_option_syntax
-.
-py
--
 testing
 /
 condprofile
