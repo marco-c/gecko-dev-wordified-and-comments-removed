@@ -187,10 +187,6 @@ ClassifyDownload
 nsIChannel
 *
 aChannel
-const
-nsAutoCString
-&
-aMimeTypeGuess
 )
 ;
 static
