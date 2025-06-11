@@ -2478,7 +2478,7 @@ original_size
 {
 RTC_LOG
 (
-LS_WARNING
+LS_INFO
 )
 <
 <
