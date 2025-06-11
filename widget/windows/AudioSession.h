@@ -12,12 +12,12 @@ namespace
 widget
 {
 void
-CreateAudioSession
+StartAudioSession
 (
 )
 ;
 void
-DestroyAudioSession
+StopAudioSession
 (
 )
 ;
