@@ -1,6 +1,12 @@
-extern
-crate
+use
 coremidi
+:
+:
+{
+Destinations
+Endpoint
+Sources
+}
 ;
 fn
 main
@@ -23,9 +29,6 @@ i
 destination
 )
 in
-coremidi
-:
-:
 Destinations
 .
 into_iter
@@ -82,9 +85,6 @@ i
 source
 )
 in
-coremidi
-:
-:
 Sources
 .
 into_iter
@@ -127,9 +127,6 @@ get_display_name
 endpoint
 :
 &
-coremidi
-:
-:
 Endpoint
 )
 -

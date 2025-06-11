@@ -36,9 +36,9 @@ bindgen
 )
 0
 .
-59
+69
 .
-2
+4
 using
 the
 following
@@ -84,7 +84,7 @@ h
 \
 -
 -
-whitelist
+allowlist
 -
 type
 "
@@ -94,7 +94,7 @@ MIDI
 "
 -
 -
-whitelist
+allowlist
 -
 function
 "
@@ -104,7 +104,7 @@ MIDI
 "
 -
 -
-whitelist
+allowlist
 -
 var
 "
@@ -115,7 +115,7 @@ kMIDI
 \
 -
 -
-blacklist
+blocklist
 -
 type
 "

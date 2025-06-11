@@ -473,9 +473,10 @@ Descriptors
 to
 combine
 with
-poll
-or
-mio
+your
+favorite
+async
+framework
 .
 Or
 just

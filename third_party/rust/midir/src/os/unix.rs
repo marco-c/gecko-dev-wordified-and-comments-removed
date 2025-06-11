@@ -1,12 +1,9 @@
 use
-:
-:
-ConnectError
-;
-use
+crate
 :
 :
 {
+ConnectError
 MidiInputConnection
 MidiOutputConnection
 }

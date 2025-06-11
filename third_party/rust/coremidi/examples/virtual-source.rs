@@ -1,6 +1,11 @@
-extern
-crate
+use
 coremidi
+:
+:
+{
+Client
+PacketBuffer
+}
 ;
 use
 std
@@ -25,9 +30,6 @@ main
 let
 client
 =
-coremidi
-:
-:
 Client
 :
 :
@@ -160,9 +162,6 @@ u8
 )
 -
 >
-coremidi
-:
-:
 PacketBuffer
 {
 let
@@ -185,9 +184,6 @@ velocity
 0x7f
 ]
 ;
-coremidi
-:
-:
 PacketBuffer
 :
 :
@@ -212,9 +208,6 @@ u8
 )
 -
 >
-coremidi
-:
-:
 PacketBuffer
 {
 let
@@ -237,9 +230,6 @@ velocity
 0x7f
 ]
 ;
-coremidi
-:
-:
 PacketBuffer
 :
 :
