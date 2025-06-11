@@ -4139,6 +4139,7 @@ initializeBrowserToolbar
 (
 activity
 store
+readerMenuController
 )
 if
 (
@@ -7084,6 +7085,9 @@ HomeActivity
 store
 :
 BrowserStore
+readerMenuController
+:
+DefaultReaderModeController
 )
 =
 when
@@ -7104,6 +7108,7 @@ initializeBrowserToolbarComposable
 (
 activity
 store
+readerMenuController
 )
 false
 -
@@ -7124,6 +7129,9 @@ HomeActivity
 store
 :
 BrowserStore
+readerMenuController
+:
+DefaultReaderModeController
 )
 :
 BrowserToolbarComposable
@@ -7203,6 +7211,9 @@ thumbnailsFeature
 get
 (
 )
+readerModeController
+=
+readerMenuController
 settings
 =
 activity
