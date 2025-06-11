@@ -1491,7 +1491,7 @@ name
 {
 searchParams
 .
-set
+append
 (
 name
 value
