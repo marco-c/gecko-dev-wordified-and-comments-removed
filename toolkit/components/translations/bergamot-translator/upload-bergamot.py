@@ -214,7 +214,7 @@ yaml
 REMOTE_SETTINGS_VERSION
 =
 "
-3
+2
 .
 0
 "
