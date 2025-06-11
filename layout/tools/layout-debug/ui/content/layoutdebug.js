@@ -2091,7 +2091,7 @@ menu_dumpTextRuns
 :
 gDebugger
 .
-dumTextRuns
+dumpTextRuns
 (
 )
 ;
