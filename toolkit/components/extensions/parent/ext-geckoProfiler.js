@@ -63,13 +63,11 @@ resource
 /
 devtools
 /
-client
+shared
 /
 performance
 -
 new
-/
-shared
 /
 symbolication
 .
