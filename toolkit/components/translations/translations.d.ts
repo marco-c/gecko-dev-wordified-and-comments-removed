@@ -349,6 +349,10 @@ attachments
 :
 any
 ;
+sync
+:
+Function
+;
 }
 interface
 LanguageTranslationModelFile
