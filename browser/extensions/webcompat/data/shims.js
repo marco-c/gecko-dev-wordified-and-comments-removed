@@ -677,6 +677,9 @@ js
 ]
 }
 {
+hiddenInAboutCompat
+:
+true
 id
 :
 "

@@ -242,6 +242,13 @@ info
 =
 >
 {
+if
+(
+info
+.
+interventions
+)
+{
 info
 .
 interventions
@@ -270,6 +277,14 @@ domain
 )
 )
 ;
+}
+if
+(
+info
+.
+shims
+)
+{
 info
 .
 shims
@@ -298,6 +313,7 @@ name
 )
 )
 ;
+}
 document
 .
 body
