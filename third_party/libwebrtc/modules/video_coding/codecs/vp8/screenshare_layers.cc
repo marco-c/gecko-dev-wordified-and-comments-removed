@@ -552,9 +552,6 @@ const
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1955,9 +1952,6 @@ encode_framerate_
 Update
 (
 1
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -3008,9 +3002,6 @@ int64_t
 duration_sec
 =
 (
-rtc
-:
-:
 TimeMillis
 (
 )

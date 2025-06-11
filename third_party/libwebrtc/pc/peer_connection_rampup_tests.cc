@@ -808,9 +808,6 @@ video_track_sources_
 back
 (
 )
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -862,9 +859,6 @@ pc_factory
 >
 CreateAudioTrack
 (
-rtc
-:
-:
 CreateRandomUuid
 (
 )

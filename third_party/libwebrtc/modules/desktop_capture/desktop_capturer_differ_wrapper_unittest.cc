@@ -1003,9 +1003,6 @@ updated_region_should_exactly_match
 Random
 random
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1319,9 +1316,6 @@ DISABLED_CaptureWithoutHintsPerf
 int64_t
 started
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1336,9 +1330,6 @@ false
 ;
 ASSERT_LE
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1357,9 +1348,6 @@ DISABLED_CaptureWithHintsPerf
 int64_t
 started
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1374,9 +1362,6 @@ false
 ;
 ASSERT_LE
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1395,9 +1380,6 @@ DISABLED_CaptureWithEnlargedHintsPerf
 int64_t
 started
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1412,9 +1394,6 @@ false
 ;
 ASSERT_LE
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1433,9 +1412,6 @@ DISABLED_CaptureWithRandomHintsPerf
 int64_t
 started
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1450,9 +1426,6 @@ false
 ;
 ASSERT_LE
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1471,9 +1444,6 @@ DISABLED_CaptureWithEnlargedAndRandomHintsPerf
 int64_t
 started
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1488,9 +1458,6 @@ false
 ;
 ASSERT_LE
 (
-rtc
-:
-:
 TimeMillis
 (
 )

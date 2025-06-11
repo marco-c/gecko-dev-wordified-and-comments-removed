@@ -328,9 +328,6 @@ cache_lifetime_us
 =
 50
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;

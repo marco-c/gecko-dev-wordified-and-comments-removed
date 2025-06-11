@@ -80,7 +80,7 @@ h
 undef
 max
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -560,9 +560,6 @@ b
 '
 }
 ;
-webrtc
-:
-:
 Mutex
 &
 GetRandomGeneratorLock
@@ -570,18 +567,12 @@ GetRandomGeneratorLock
 )
 {
 static
-webrtc
-:
-:
 Mutex
 &
 mutex
 =
 *
 new
-webrtc
-:
-:
 Mutex
 (
 )
@@ -652,9 +643,6 @@ SetDefaultRandomGenerator
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -690,9 +678,6 @@ RandomGenerator
 generator
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -722,9 +707,6 @@ bool
 test
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (

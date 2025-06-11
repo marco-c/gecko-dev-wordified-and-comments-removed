@@ -270,9 +270,6 @@ state
 int64_t
 end
 =
-rtc
-:
-:
 TimeAfter
 (
 kTimeoutMs
@@ -291,9 +288,6 @@ GetState
 state
 &
 &
-rtc
-:
-:
 TimeUntil
 (
 end
@@ -413,9 +407,6 @@ timeout_ms
 int64_t
 end
 =
-rtc
-:
-:
 TimeAfter
 (
 timeout_ms
@@ -423,9 +414,6 @@ timeout_ms
 ;
 while
 (
-rtc
-:
-:
 TimeUntil
 (
 end
@@ -697,16 +685,10 @@ for
 int64_t
 start
 =
-rtc
-:
-:
 TimeMillis
 (
 )
 ;
-rtc
-:
-:
 TimeMillis
 (
 )

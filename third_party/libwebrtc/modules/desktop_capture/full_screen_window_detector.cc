@@ -180,9 +180,6 @@ kUpdateIntervalMs
 if
 (
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -214,9 +211,6 @@ window_list
 {
 last_update_time_ms_
 =
-rtc
-:
-:
 TimeMillis
 (
 )

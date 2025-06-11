@@ -2704,7 +2704,7 @@ identities_set_
 false
 )
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -2719,7 +2719,7 @@ SSLStreamAdapterTestBase
 )
 override
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -3872,7 +3872,7 @@ SS_OPENING
 &
 &
 (
-rtc
+webrtc
 :
 :
 TimeDiff
@@ -3887,7 +3887,7 @@ time_start
 <
 3600
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -4543,7 +4543,7 @@ error
 {
 if
 (
-rtc
+webrtc
 :
 :
 CreateRandomId

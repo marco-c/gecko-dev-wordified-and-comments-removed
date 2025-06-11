@@ -451,7 +451,7 @@ render_time_ms
 )
 >
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -468,7 +468,7 @@ render_time_ms
 )
 <
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1052,7 +1052,7 @@ i
 int64_t
 start_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1168,7 +1168,7 @@ capability
 ;
 EXPECT_LE
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1229,7 +1229,7 @@ IsRtcOk
 int64_t
 stop_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1259,7 +1259,7 @@ CaptureStarted
 ;
 EXPECT_LE
 (
-rtc
+webrtc
 :
 :
 TimeMillis

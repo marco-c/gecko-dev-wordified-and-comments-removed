@@ -627,9 +627,6 @@ Millis
 (
 timestamp_ms
 -
-rtc
-:
-:
 TimeMillis
 (
 )

@@ -1133,9 +1133,6 @@ GetParametersInternal
 ;
 last_transaction_id_
 =
-rtc
-:
-:
 CreateRandomUuid
 (
 )

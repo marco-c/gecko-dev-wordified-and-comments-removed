@@ -519,9 +519,6 @@ resampler_source
 int64_t
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -559,9 +556,6 @@ double
 total_time_sinc_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -569,9 +563,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -603,9 +594,6 @@ output_samples
 ;
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -701,9 +689,6 @@ double
 total_time_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -711,9 +696,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf

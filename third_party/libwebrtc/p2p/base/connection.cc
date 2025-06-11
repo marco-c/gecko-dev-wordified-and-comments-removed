@@ -1314,7 +1314,7 @@ thread
 )
 id_
 (
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -1438,7 +1438,7 @@ WAITING
 )
 time_created_ms_
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1447,14 +1447,14 @@ TimeMillis
 )
 delta_internal_unix_epoch_ms_
 (
-rtc
+webrtc
 :
 :
 TimeUTCMillis
 (
 )
 -
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2765,7 +2765,7 @@ remote_ufrag
 {
 last_data_received_
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -3642,7 +3642,7 @@ const
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -6750,7 +6750,7 @@ network_thread_
 ;
 last_ping_received_
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -6938,7 +6938,7 @@ const
 int64_t
 rtt
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -7060,7 +7060,7 @@ value
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -10760,7 +10760,7 @@ true
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis

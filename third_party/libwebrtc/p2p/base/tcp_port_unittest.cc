@@ -594,7 +594,7 @@ get
 )
 username_
 (
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -604,7 +604,7 @@ ICE_UFRAG_LENGTH
 )
 password_
 (
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -1886,7 +1886,7 @@ client_conn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1899,7 +1899,7 @@ server_conn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2469,7 +2469,7 @@ client_conn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2987,7 +2987,7 @@ client_conn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis

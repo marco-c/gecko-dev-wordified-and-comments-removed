@@ -655,9 +655,6 @@ metrics
 :
 kMinRunTimeInSeconds
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 {
@@ -2846,9 +2843,6 @@ TotalFramesDurationMs
 )
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 stats_

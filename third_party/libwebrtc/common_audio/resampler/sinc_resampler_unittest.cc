@@ -540,9 +540,6 @@ mock_source
 int64_t
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -577,9 +574,6 @@ double
 total_time_c_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -587,9 +581,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -858,9 +849,6 @@ kConvolveIterations
 int64_t
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -914,9 +902,6 @@ double
 total_time_c_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -924,9 +909,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -979,9 +961,6 @@ kCPUFeatureNEON
 endif
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1037,9 +1016,6 @@ double
 total_time_optimized_unaligned_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1047,9 +1023,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -1088,9 +1061,6 @@ total_time_optimized_unaligned_us
 ;
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1144,9 +1114,6 @@ double
 total_time_optimized_aligned_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1154,9 +1121,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf

@@ -1841,9 +1841,6 @@ channel_receive_
 >
 GetCurrentEstimatedPlayoutNtpTimestampMs
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1951,9 +1948,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -1984,9 +1978,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2009,9 +2000,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2050,9 +2038,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -2157,9 +2142,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;

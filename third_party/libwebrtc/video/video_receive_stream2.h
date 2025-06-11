@@ -396,9 +396,6 @@ const
 return
 timestamp_us
 /
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 }

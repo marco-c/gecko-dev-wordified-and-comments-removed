@@ -2412,9 +2412,6 @@ encoded_image
 .
 capture_time_ms_
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 encode_usage_resource_
@@ -3216,9 +3213,6 @@ filter_time_ms
 =
 5
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 }

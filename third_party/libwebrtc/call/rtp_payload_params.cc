@@ -1331,9 +1331,6 @@ fill
 Random
 random
 (
-rtc
-:
-:
 TimeMicros
 (
 )

@@ -208,9 +208,6 @@ const
 int64_t
 time_now
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -544,9 +541,6 @@ render_time_ms
 -
 render_delay_ms_
 -
-rtc
-:
-:
 TimeMillis
 (
 )

@@ -228,9 +228,6 @@ bitrate_tracker_
 .
 Rate
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -257,9 +254,6 @@ mutex_
 uint32_t
 current_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

@@ -1753,7 +1753,7 @@ started_
 {
 next_frame_time_
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1795,7 +1795,7 @@ const
 int64_t
 current_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis

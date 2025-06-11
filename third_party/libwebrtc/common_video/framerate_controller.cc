@@ -133,9 +133,6 @@ true
 int64_t
 frame_interval_ns
 =
-rtc
-:
-:
 kNumNanosecsPerSec
 /
 max_framerate_
@@ -275,9 +272,6 @@ return
 int64_t
 frame_interval_ns
 =
-rtc
-:
-:
 kNumNanosecsPerSec
 /
 max_framerate_

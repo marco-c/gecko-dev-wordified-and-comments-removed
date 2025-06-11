@@ -1284,9 +1284,6 @@ CaptureFrame
 int64_t
 capture_start_time_nanos
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1512,9 +1509,6 @@ result
 set_capture_time_ms
 (
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1522,9 +1516,6 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;

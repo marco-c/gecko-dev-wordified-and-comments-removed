@@ -470,7 +470,7 @@ FpsToInterval
 kDefaultFps
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
@@ -622,7 +622,7 @@ timestamp_us
 (
 )
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
@@ -6002,7 +6002,7 @@ AdaptFrameResolution
 (
 480
 640
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -6146,7 +6146,7 @@ AdaptFrameResolution
 (
 480
 640
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -6797,7 +6797,7 @@ kSourceWidth
 kSourceHeight
 frame_num
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec

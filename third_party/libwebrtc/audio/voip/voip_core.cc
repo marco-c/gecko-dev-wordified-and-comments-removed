@@ -589,9 +589,6 @@ local_ssrc
 Random
 random
 (
-rtc
-:
-:
 TimeMicros
 (
 )

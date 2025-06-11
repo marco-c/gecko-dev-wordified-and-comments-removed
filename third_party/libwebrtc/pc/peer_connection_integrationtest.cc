@@ -2335,9 +2335,6 @@ config
 .
 timestamp_offset_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23178,9 +23175,6 @@ tracks
 auto
 start_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23225,9 +23219,6 @@ IsRtcOk
 auto
 elapsed_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23476,9 +23467,6 @@ tracks
 auto
 start_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23523,9 +23511,6 @@ IsRtcOk
 auto
 elapsed_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23809,9 +23794,6 @@ tracks
 auto
 start_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -23856,9 +23838,6 @@ IsRtcOk
 auto
 elapsed_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

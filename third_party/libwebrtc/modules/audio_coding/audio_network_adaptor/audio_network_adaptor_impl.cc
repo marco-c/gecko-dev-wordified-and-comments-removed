@@ -674,9 +674,6 @@ debug_dump_writer_
 DumpEncoderRuntimeConfig
 (
 config
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -767,9 +764,6 @@ debug_dump_writer_
 DumpNetworkMetrics
 (
 last_metrics_
-rtc
-:
-:
 TimeMillis
 (
 )

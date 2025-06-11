@@ -966,9 +966,6 @@ timestamp_us_
 =
 timestamp_ms
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 return
@@ -1464,9 +1461,6 @@ timestamp_us_
 (
 render_time_ms
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 rotation_
@@ -1853,9 +1847,6 @@ timestamp_us
 (
 )
 /
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 }

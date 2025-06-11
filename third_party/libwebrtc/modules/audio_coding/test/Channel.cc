@@ -878,9 +878,6 @@ false
 )
 _beginTime
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1262,9 +1259,6 @@ totalEncodedSamples
 }
 _beginTime
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1325,9 +1319,6 @@ rate
 uint64_t
 currTime
 =
-rtc
-:
-:
 TimeMillis
 (
 )

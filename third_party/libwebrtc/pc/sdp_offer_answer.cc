@@ -5399,9 +5399,6 @@ cname
 if
 (
 !
-rtc
-:
-:
 CreateRandomString
 (
 kRtcpCnameLength
@@ -15144,9 +15141,6 @@ MediaStream
 :
 Create
 (
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -21367,9 +21361,6 @@ std
 string
 sender_id
 =
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -21452,9 +21443,6 @@ else
 {
 receiver_id
 =
-rtc
-:
-:
 CreateRandomUuid
 (
 )

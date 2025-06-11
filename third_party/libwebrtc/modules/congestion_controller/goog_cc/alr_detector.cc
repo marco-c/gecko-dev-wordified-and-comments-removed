@@ -449,9 +449,6 @@ alr_started_time_ms_
 .
 emplace
 (
-rtc
-:
-:
 TimeMillis
 (
 )

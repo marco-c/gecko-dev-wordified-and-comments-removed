@@ -1380,7 +1380,7 @@ network_
 .
 ice_username_fragment
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -1390,7 +1390,7 @@ CreateRandomString
 .
 ice_password
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -1641,7 +1641,7 @@ network_
 .
 ice_username_fragment
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -1651,7 +1651,7 @@ CreateRandomString
 .
 ice_password
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -1850,7 +1850,7 @@ SetUpTestSuite
 (
 )
 {
-rtc
+webrtc
 :
 :
 InitRandom

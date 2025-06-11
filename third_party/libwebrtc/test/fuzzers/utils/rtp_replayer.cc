@@ -948,9 +948,6 @@ true
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

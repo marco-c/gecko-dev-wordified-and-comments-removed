@@ -1601,9 +1601,6 @@ original_timestamp_us
 +
 index
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -1622,9 +1619,6 @@ ToMs
 +
 index
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2231,9 +2225,6 @@ timestamp_us
 )
 original_timestamp_us
 +
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -2250,9 +2241,6 @@ ToMs
 (
 )
 +
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2331,9 +2319,6 @@ original_timestamp_us
 +
 2
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -2352,9 +2337,6 @@ ToMs
 +
 2
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2797,9 +2779,6 @@ timestamp_us
 )
 5
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 /
 2
@@ -2820,9 +2799,6 @@ ToMs
 +
 5u
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 2
@@ -6518,9 +6494,6 @@ constexpr
 int
 kSleepMs
 =
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 2

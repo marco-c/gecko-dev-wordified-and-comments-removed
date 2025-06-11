@@ -2827,9 +2827,6 @@ get
 env
 50
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 )
@@ -4300,9 +4297,6 @@ IsRtcOk
 int64_t
 after
 =
-rtc
-:
-:
 TimeUTCMicros
 (
 )
@@ -10414,9 +10408,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10434,9 +10425,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10454,9 +10442,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10474,9 +10459,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10791,9 +10773,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10811,9 +10790,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10831,9 +10807,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10851,9 +10824,6 @@ timestamp
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -28104,9 +28074,6 @@ CreateEnvironment
 )
 50
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 )

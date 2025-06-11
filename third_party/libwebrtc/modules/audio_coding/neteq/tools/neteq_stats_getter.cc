@@ -219,9 +219,6 @@ last_stats_query_time_ms_
 0
 |
 |
-rtc
-:
-:
 TimeDiff
 (
 time_now_ms

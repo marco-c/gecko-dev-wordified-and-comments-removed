@@ -182,9 +182,6 @@ ScopedBaseFakeClock
 {
 prev_clock_
 =
-rtc
-:
-:
 SetClockForTesting
 (
 this
@@ -199,9 +196,6 @@ ScopedBaseFakeClock
 (
 )
 {
-rtc
-:
-:
 SetClockForTesting
 (
 prev_clock_
@@ -217,9 +211,6 @@ ScopedFakeClock
 {
 prev_clock_
 =
-rtc
-:
-:
 SetClockForTesting
 (
 this
@@ -234,9 +225,6 @@ ScopedFakeClock
 (
 )
 {
-rtc
-:
-:
 SetClockForTesting
 (
 prev_clock_

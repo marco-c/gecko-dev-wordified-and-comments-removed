@@ -133,9 +133,6 @@ const
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -204,9 +201,6 @@ nullopt
 }
 ExtrapolateLastSample
 (
-rtc
-:
-:
 TimeMillis
 (
 )

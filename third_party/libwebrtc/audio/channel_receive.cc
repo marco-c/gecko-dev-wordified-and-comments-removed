@@ -3487,9 +3487,6 @@ worker_thread_checker_
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -4001,9 +3998,6 @@ worker_thread_checker_
 UpdatePlayoutTimestamp
 (
 true
-rtc
-:
-:
 TimeMillis
 (
 )

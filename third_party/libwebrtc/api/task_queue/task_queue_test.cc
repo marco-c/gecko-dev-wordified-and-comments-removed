@@ -685,9 +685,6 @@ HIGH
 int64_t
 start
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -749,9 +746,6 @@ Seconds
 int64_t
 end
 =
-rtc
-:
-:
 TimeMillis
 (
 )

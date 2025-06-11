@@ -183,9 +183,6 @@ syncable_video
 )
 last_stats_log_ms_
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -367,9 +364,6 @@ const
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -973,9 +967,6 @@ ToMs
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

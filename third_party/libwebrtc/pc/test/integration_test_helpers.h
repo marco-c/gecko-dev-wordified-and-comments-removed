@@ -1839,9 +1839,6 @@ peer_connection_factory_
 >
 CreateAudioTrack
 (
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -1874,9 +1871,6 @@ config
 .
 timestamp_offset_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1940,9 +1934,6 @@ config
 .
 timestamp_offset_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -4477,9 +4468,6 @@ video_track_sources_
 back
 (
 )
-rtc
-:
-:
 CreateRandomUuid
 (
 )

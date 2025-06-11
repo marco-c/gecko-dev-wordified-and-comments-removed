@@ -836,9 +836,6 @@ std
 :
 make_optional
 (
-rtc
-:
-:
 TimeNanos
 (
 )

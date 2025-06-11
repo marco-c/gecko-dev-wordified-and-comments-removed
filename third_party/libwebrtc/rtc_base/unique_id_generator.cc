@@ -157,9 +157,6 @@ known_ids_
 .
 insert
 (
-rtc
-:
-:
 CreateRandomNonZeroId
 (
 )

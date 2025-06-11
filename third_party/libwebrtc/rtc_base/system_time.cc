@@ -292,9 +292,6 @@ ts
 ;
 ticks
 =
-rtc
-:
-:
 kNumNanosecsPerSec
 *
 static_cast

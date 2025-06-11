@@ -57,7 +57,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {

@@ -1029,9 +1029,6 @@ current_time
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )

@@ -581,9 +581,6 @@ tv_sec
 =
 microsecs_from_now
 /
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 ts
@@ -594,15 +591,9 @@ tv_nsec
 (
 microsecs_from_now
 %
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 *
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 if
@@ -612,9 +603,6 @@ ts
 tv_nsec
 >
 =
-rtc
-:
-:
 kNumNanosecsPerSec
 )
 {
@@ -629,9 +617,6 @@ ts
 tv_nsec
 -
 =
-rtc
-:
-:
 kNumNanosecsPerSec
 ;
 }

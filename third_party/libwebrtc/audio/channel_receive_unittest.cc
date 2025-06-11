@@ -477,9 +477,6 @@ RtpNow
 )
 {
 return
-rtc
-:
-:
 TimeMillis
 (
 )

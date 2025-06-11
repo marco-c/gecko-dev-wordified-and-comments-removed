@@ -888,9 +888,6 @@ transport_description_
 (
 {
 }
-rtc
-:
-:
 CreateRandomString
 (
 cricket
@@ -898,9 +895,6 @@ cricket
 :
 ICE_UFRAG_LENGTH
 )
-rtc
-:
-:
 CreateRandomString
 (
 cricket

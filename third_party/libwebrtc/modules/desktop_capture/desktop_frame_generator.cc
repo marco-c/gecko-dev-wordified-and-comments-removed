@@ -109,9 +109,6 @@ size
 Random
 random
 (
-rtc
-:
-:
 TimeMicros
 (
 )

@@ -3579,7 +3579,7 @@ SSLIdentityExpirationTest
 (
 )
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -3594,7 +3594,7 @@ SSLIdentityExpirationTest
 )
 override
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -4039,7 +4039,7 @@ buf
 length
 ]
 =
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -4114,7 +4114,7 @@ buf
 length
 ]
 =
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -4191,7 +4191,7 @@ nullptr
 time_t
 lifetime
 =
-rtc
+webrtc
 :
 :
 CreateRandomId

@@ -388,9 +388,6 @@ sent_packet
 options
 .
 packet_id
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -469,9 +466,6 @@ sent_packet
 options
 .
 packet_id
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -818,9 +812,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -842,9 +833,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeMicros
 (
 )

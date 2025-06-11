@@ -129,9 +129,6 @@ FailNextWait
 int
 cms
 =
-rtc
-:
-:
 GetClockForTesting
 (
 )

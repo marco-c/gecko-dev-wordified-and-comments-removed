@@ -358,7 +358,7 @@ loss_
 0
 )
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -372,7 +372,7 @@ PseudoTcpTestBase
 (
 )
 {
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -826,7 +826,7 @@ WR_SUCCESS
 }
 if
 (
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -1322,7 +1322,7 @@ size
 ;
 start
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -1423,7 +1423,7 @@ IsRtcOk
 ;
 elapsed
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -2055,7 +2055,7 @@ size
 ;
 start
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -2156,7 +2156,7 @@ IsRtcOk
 ;
 elapsed
 =
-rtc
+webrtc
 :
 :
 TimeSince

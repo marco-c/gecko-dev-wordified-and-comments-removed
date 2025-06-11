@@ -408,9 +408,6 @@ encoder
 )
 last_output_ms_
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -552,9 +549,6 @@ const
 int64_t
 timestamp_us
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -565,9 +559,6 @@ const
 int64_t
 utc_time_us
 =
-rtc
-:
-:
 TimeUTCMillis
 (
 )
@@ -1353,9 +1344,6 @@ const
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1502,9 +1490,6 @@ histories
 {
 last_output_ms_
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1827,9 +1812,6 @@ const
 int64_t
 timestamp_us
 =
-rtc
-:
-:
 TimeMillis
 (
 )

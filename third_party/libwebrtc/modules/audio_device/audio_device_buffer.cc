@@ -119,9 +119,6 @@ kTimerIntervalInMilliseconds
 =
 kTimerIntervalInSeconds
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 static
@@ -138,9 +135,6 @@ kMinValidCallTimeTimeInMilliseconds
 =
 kMinValidCallTimeTimeInSeconds
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 #
@@ -490,9 +484,6 @@ const
 int64_t
 now_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -565,9 +556,6 @@ StartPeriodicLogging
 }
 rec_start_time_
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -641,9 +629,6 @@ time
 "
 <
 <
-rtc
-:
-:
 TimeSince
 (
 play_start_time_
@@ -700,9 +685,6 @@ const
 size_t
 time_since_start
 =
-rtc
-:
-:
 TimeSince
 (
 rec_start_time_
@@ -1135,9 +1117,6 @@ capture_timestamp_ns
 int64_t
 align_offsync_estimation_time
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -1160,9 +1139,6 @@ align_offsync_estimation_time
 ;
 capture_timestamp_ns_
 =
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 *
 timestamp_aligner_
@@ -1172,9 +1148,6 @@ TranslateTimestamp
 *
 capture_timestamp_ns
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 align_offsync_estimation_time
 )
@@ -1184,9 +1157,6 @@ else
 {
 capture_timestamp_ns_
 =
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 *
 timestamp_aligner_
@@ -1196,9 +1166,6 @@ TranslateTimestamp
 *
 capture_timestamp_ns
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 )
 ;
@@ -1929,9 +1896,6 @@ get
 int64_t
 now_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2009,9 +1973,6 @@ kTimerIntervalInMilliseconds
 int64_t
 time_since_last
 =
-rtc
-:
-:
 TimeDiff
 (
 now_time
@@ -2475,9 +2436,6 @@ time_to_wait_ms
 =
 next_callback_time
 -
-rtc
-:
-:
 TimeMillis
 (
 )

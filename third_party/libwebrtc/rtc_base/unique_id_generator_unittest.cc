@@ -392,9 +392,6 @@ num_elements
 =
 100
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -454,9 +451,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -593,9 +587,6 @@ num_elements
 =
 100
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -655,9 +646,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -807,9 +795,6 @@ typedef
 TypeParam
 Generator
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -832,9 +817,6 @@ Generate
 (
 )
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -864,9 +846,6 @@ typedef
 TypeParam
 Generator
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -889,9 +868,6 @@ Generate
 (
 )
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -931,9 +907,6 @@ typedef
 TypeParam
 Generator
 ;
-rtc
-:
-:
 InitRandom
 (
 0
@@ -973,9 +946,6 @@ known_values
 id
 }
 ;
-rtc
-:
-:
 InitRandom
 (
 0

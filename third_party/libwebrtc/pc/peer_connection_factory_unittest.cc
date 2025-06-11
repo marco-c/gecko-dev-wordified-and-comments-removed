@@ -4488,9 +4488,6 @@ frame_source
 (
 1280
 720
-rtc
-:
-:
 kNumMicrosecsPerSec
 /
 30

@@ -545,9 +545,6 @@ rand_dir
 =
 path
 +
-rtc
-:
-:
 CreateRandomUuid
 (
 )

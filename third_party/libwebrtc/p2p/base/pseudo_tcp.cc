@@ -644,7 +644,7 @@ StartTime
 #
 else
 return
-rtc
+webrtc
 :
 :
 Time32
@@ -958,7 +958,7 @@ m_rto_base
 &
 &
 (
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -1150,7 +1150,7 @@ m_snd_wnd
 &
 &
 (
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -1168,7 +1168,7 @@ now
 {
 if
 (
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -1223,7 +1223,7 @@ m_t_ack
 &
 &
 (
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -2902,7 +2902,7 @@ int32_t
 >
 (
 nTimeout
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -2931,7 +2931,7 @@ int32_t
 >
 (
 nTimeout
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -2963,7 +2963,7 @@ int32_t
 >
 (
 nTimeout
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -3359,7 +3359,7 @@ tsecr
 int32_t
 rtt
 =
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -5268,7 +5268,7 @@ Now
 ;
 if
 (
-rtc
+webrtc
 :
 :
 TimeDiff32

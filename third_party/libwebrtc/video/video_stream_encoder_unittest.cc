@@ -1380,9 +1380,6 @@ const
 int64_t
 kFrameIntervalMs
 =
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 kDefaultFramerate
@@ -17403,9 +17400,6 @@ const
 int
 frame_interval_ms
 =
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 fps
@@ -17643,9 +17637,6 @@ const
 int
 frame_interval_ms
 =
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 fps
@@ -41220,9 +41211,6 @@ const
 int
 kFrameIntervalMs
 =
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 kFramerateFps

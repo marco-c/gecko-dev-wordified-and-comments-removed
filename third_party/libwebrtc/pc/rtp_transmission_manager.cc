@@ -957,9 +957,6 @@ adjusted_stream_ids
 .
 push_back
 (
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -1569,9 +1566,6 @@ sender_id
 {
 sender_id
 =
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -1612,9 +1606,6 @@ receiver
 CreateReceiver
 (
 media_type
-rtc
-:
-:
 CreateRandomUuid
 (
 )

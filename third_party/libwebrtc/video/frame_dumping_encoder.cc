@@ -775,9 +775,6 @@ move
 (
 encoder
 )
-rtc
-:
-:
 TimeMicros
 (
 )

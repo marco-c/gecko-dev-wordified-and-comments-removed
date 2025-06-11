@@ -3693,9 +3693,6 @@ std
 :
 ceil
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 /
 rate_profile
@@ -3745,9 +3742,6 @@ SleepMs
 (
 1
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;

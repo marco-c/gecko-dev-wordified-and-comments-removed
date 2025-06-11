@@ -1805,9 +1805,6 @@ const
 int64_t
 render_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

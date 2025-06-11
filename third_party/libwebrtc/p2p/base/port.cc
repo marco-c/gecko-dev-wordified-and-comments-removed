@@ -737,7 +737,7 @@ empty
 ;
 ice_username_fragment_
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -747,7 +747,7 @@ ICE_UFRAG_LENGTH
 ;
 password_
 =
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -4798,7 +4798,7 @@ empty
 )
 &
 &
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -5219,7 +5219,7 @@ empty
 {
 last_time_all_connections_removed_
 =
-rtc
+webrtc
 :
 :
 TimeMillis

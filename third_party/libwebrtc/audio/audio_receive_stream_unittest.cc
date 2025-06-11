@@ -1719,9 +1719,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 stats
@@ -1756,9 +1753,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 stats
@@ -1783,9 +1777,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 stats
@@ -1850,9 +1841,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 stats
@@ -1985,9 +1973,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 stats

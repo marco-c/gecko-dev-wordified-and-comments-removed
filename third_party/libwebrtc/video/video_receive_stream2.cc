@@ -3003,9 +3003,6 @@ remote_ssrc
 "
 <
 <
-rtc
-:
-:
 TimeMicros
 (
 )
