@@ -3349,10 +3349,13 @@ NO
 return
 run_android_test
 (
+            
+command_context
 tests
 symbols_path
 manifest_path
 log
+        
 )
     
 return
@@ -3595,7 +3598,7 @@ replace
 bin
 "
 "
-fennec
+geckoview
 "
 )
     
@@ -3638,7 +3641,7 @@ file
 startswith
 (
 "
-fennec
+geckoview
 "
 )
 :
