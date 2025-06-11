@@ -729,9 +729,6 @@ kPcmuFrame
 rtp_len
 )
 ;
-rtc
-:
-:
 SetBE16
 (
 reinterpret_cast
@@ -1586,9 +1583,6 @@ kPcmuFrameWithExtensions
 rtp_len
 )
 ;
-rtc
-:
-:
 SetBE16
 (
 reinterpret_cast

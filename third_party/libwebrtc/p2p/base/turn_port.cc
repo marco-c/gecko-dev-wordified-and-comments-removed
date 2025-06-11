@@ -4017,7 +4017,7 @@ us
 uint16_t
 msg_type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -5659,7 +5659,7 @@ packet_time_us
 uint16_t
 len
 =
-rtc
+webrtc
 :
 :
 GetBE16

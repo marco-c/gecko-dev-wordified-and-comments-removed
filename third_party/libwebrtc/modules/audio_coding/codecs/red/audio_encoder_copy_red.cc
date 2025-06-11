@@ -778,9 +778,6 @@ payload_type
 |
 0x80
 ;
-rtc
-:
-:
 SetBE16
 (
 static_cast

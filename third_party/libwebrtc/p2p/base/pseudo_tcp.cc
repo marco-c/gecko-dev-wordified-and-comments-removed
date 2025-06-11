@@ -344,7 +344,7 @@ uint32_t
 buf
 )
 =
-rtc
+webrtc
 :
 :
 HostToNetwork32
@@ -374,7 +374,7 @@ uint16_t
 buf
 )
 =
-rtc
+webrtc
 :
 :
 HostToNetwork16
@@ -394,7 +394,7 @@ buf
 )
 {
 return
-rtc
+webrtc
 :
 :
 NetworkToHost32
@@ -423,7 +423,7 @@ buf
 )
 {
 return
-rtc
+webrtc
 :
 :
 NetworkToHost16

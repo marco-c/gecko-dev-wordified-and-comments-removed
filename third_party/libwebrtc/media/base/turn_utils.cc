@@ -96,7 +96,7 @@ false
 uint16_t
 type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -143,7 +143,7 @@ packet_size
 size_t
 length
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -195,7 +195,7 @@ const
 size_t
 stun_message_length
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -266,7 +266,7 @@ false
 }
 attr_type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -280,7 +280,7 @@ pos
 ;
 attr_length
 =
-rtc
+webrtc
 :
 :
 GetBE16

@@ -552,7 +552,7 @@ false
 *
 value
 =
-rtc
+webrtc
 :
 :
 GetBE32
@@ -864,7 +864,7 @@ false
 uint16_t
 extension_length_in_32bits
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -973,7 +973,7 @@ header_length_without_extension
 uint16_t
 profile_id
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -984,7 +984,7 @@ rtp
 uint16_t
 extension_length_in_32bits
 =
-rtc
+webrtc
 :
 :
 GetBE16

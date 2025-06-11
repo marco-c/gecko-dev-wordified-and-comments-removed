@@ -1054,7 +1054,7 @@ socket
 uint16_t
 msg_type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -4532,7 +4532,7 @@ payload
 uint16_t
 channel_id
 =
-rtc
+webrtc
 :
 :
 GetBE16

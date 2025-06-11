@@ -822,6 +822,9 @@ static_cast
 int64_t
 >
 (
+webrtc
+:
+:
 NetworkToHost64
 (
 1
@@ -1246,6 +1249,9 @@ kEncryptedHeaderExtensionIds
 )
 )
 ;
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1282,6 +1288,9 @@ kPcmuFrame
 )
 )
 ;
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1322,6 +1331,9 @@ kPcmuFrame
 )
 )
 ;
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1362,6 +1374,9 @@ kPcmuFrame
 )
 )
 ;
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1387,6 +1402,9 @@ rtp_packet_
 )
 )
 ;
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1445,6 +1463,9 @@ seqnum
 seqnum
 )
 {
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_
@@ -1482,6 +1503,9 @@ kPcmuFrame
 )
 ;
 }
+webrtc
+:
+:
 SetBE16
 (
 rtp_packet_

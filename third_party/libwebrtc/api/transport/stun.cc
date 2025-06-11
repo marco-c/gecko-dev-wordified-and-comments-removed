@@ -2065,7 +2065,7 @@ false
 uint16_t
 msg_length
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2119,7 +2119,7 @@ attr_length
 ;
 attr_type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2133,7 +2133,7 @@ current_pos
 ;
 attr_length
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2313,7 +2313,7 @@ extra_offset
 -
 kStunHeaderSize
 ;
-rtc
+webrtc
 :
 :
 SetBE16
@@ -2746,7 +2746,7 @@ kStunMagicCookieLength
 ;
 if
 (
-rtc
+webrtc
 :
 :
 GetBE32
@@ -2773,7 +2773,7 @@ fingerprint_attr_size
 ;
 if
 (
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2785,7 +2785,7 @@ fingerprint_attr_data
 STUN_ATTR_FINGERPRINT
 |
 |
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2810,7 +2810,7 @@ false
 uint32_t
 fingerprint
 =
-rtc
+webrtc
 :
 :
 GetBE32
@@ -2915,7 +2915,7 @@ kStunMagicCookieLength
 ;
 if
 (
-rtc
+webrtc
 :
 :
 GetBE32
@@ -2932,7 +2932,7 @@ false
 int
 method
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -3251,7 +3251,7 @@ magic_cookie_int
 ;
 if
 (
-rtc
+webrtc
 :
 :
 NetworkToHost32
@@ -5286,7 +5286,7 @@ v4addr
 .
 s_addr
 ^
-rtc
+webrtc
 :
 :
 HostToNetwork32
@@ -5397,7 +5397,7 @@ ip_as_ints
 0
 ]
 ^
-rtc
+webrtc
 :
 :
 HostToNetwork32

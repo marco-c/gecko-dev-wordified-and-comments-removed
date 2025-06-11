@@ -732,7 +732,7 @@ kPcmuFrame
 rtp_len
 )
 ;
-rtc
+webrtc
 :
 :
 SetBE16
@@ -1208,7 +1208,7 @@ kPcmuFrameWithExtensions
 rtp_len
 )
 ;
-rtc
+webrtc
 :
 :
 SetBE16

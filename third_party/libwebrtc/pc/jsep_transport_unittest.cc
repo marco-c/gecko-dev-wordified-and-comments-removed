@@ -6089,7 +6089,7 @@ kPcmuFrameWithExtensions
 rtp_len
 )
 ;
-rtc
+webrtc
 :
 :
 SetBE16

@@ -1309,7 +1309,7 @@ kRtpLeadByte
 :
 0x00
 ;
-rtc
+webrtc
 :
 :
 SetBE32
@@ -1569,7 +1569,7 @@ false
 uint32_t
 packet_num
 =
-rtc
+webrtc
 :
 :
 GetBE32
@@ -1656,7 +1656,7 @@ false
 uint32_t
 packet_num
 =
-rtc
+webrtc
 :
 :
 GetBE32
