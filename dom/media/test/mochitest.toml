@@ -9295,6 +9295,13 @@ test_video_dimensions
 html
 "
 ]
+#
+Disabled
+-
+see
+bug
+1970241
+#
 [
 "
 test_video_low_power_telemetry
@@ -9302,6 +9309,7 @@ test_video_low_power_telemetry
 html
 "
 ]
+#
 run
 -
 if
@@ -9324,6 +9332,7 @@ macOS
 -
 specific
 .
+#
 tags
 =
 "
