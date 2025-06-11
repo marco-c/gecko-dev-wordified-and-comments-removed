@@ -1952,6 +1952,12 @@ scene
 :
 &
 Scene
+root_pipeline
+:
+Option
+<
+PipelineId
+>
 fonts
 :
 SharedFontResources
@@ -2001,9 +2007,14 @@ build_scene
 let
 root_pipeline_id
 =
+root_pipeline
+.
+or
+(
 scene
 .
 root_pipeline_id
+)
 .
 unwrap
 (
