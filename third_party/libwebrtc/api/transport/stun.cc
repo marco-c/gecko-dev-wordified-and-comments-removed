@@ -4843,7 +4843,7 @@ return
 false
 ;
 }
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4925,7 +4925,7 @@ return
 false
 ;
 }
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5228,7 +5228,7 @@ owner_
 owner
 ;
 }
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5245,7 +5245,7 @@ if
 owner_
 )
 {
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5296,7 +5296,7 @@ kStunMagicCookie
 )
 ;
 return
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5458,7 +5458,7 @@ transactionid_as_ints
 )
 ;
 return
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5473,7 +5473,7 @@ break
 }
 }
 return
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5520,7 +5520,7 @@ kStunMagicCookie
 16
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5596,7 +5596,7 @@ return
 false
 ;
 }
-rtc
+webrtc
 :
 :
 IPAddress

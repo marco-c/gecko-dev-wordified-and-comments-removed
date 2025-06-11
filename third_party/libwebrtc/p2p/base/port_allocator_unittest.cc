@@ -2293,7 +2293,7 @@ SetMdnsObfuscationEnabledForTesting
 true
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2301,6 +2301,9 @@ ip
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 IPFromString
 (
 kIpv4Address

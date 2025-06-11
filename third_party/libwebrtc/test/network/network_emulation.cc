@@ -288,9 +288,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -343,9 +340,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -1111,9 +1105,6 @@ EmulatedNetworkStatsBuilder
 :
 EmulatedNetworkStatsBuilder
 (
-rtc
-:
-:
 IPAddress
 local_ip
 EmulatedNetworkStatsGatheringMode
@@ -1274,9 +1265,6 @@ EmulatedNetworkStatsBuilder
 :
 OnPacketDropped
 (
-rtc
-:
-:
 IPAddress
 source_ip
 DataSize
@@ -1698,9 +1686,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -1739,9 +1724,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -2831,9 +2813,6 @@ NetworkRouterNode
 SetReceiver
 (
 const
-rtc
-:
-:
 IPAddress
 &
 dest_ip
@@ -2920,9 +2899,6 @@ NetworkRouterNode
 RemoveReceiver
 (
 const
-rtc
-:
-:
 IPAddress
 &
 dest_ip
@@ -3210,9 +3186,6 @@ EmulatedNetworkNode
 CreateRoute
 (
 const
-rtc
-:
-:
 IPAddress
 &
 receiver_ip
@@ -3309,9 +3282,6 @@ EmulatedNetworkNode
 ClearRoute
 (
 const
-rtc
-:
-:
 IPAddress
 &
 receiver_ip
@@ -3369,9 +3339,6 @@ Options
 uint64_t
 id
 const
-rtc
-:
-:
 IPAddress
 &
 ip
@@ -3556,9 +3523,6 @@ prefix_length
 kIPv6NetworkPrefixLength
 ;
 }
-rtc
-:
-:
 IPAddress
 prefix
 =
@@ -4427,9 +4391,6 @@ std
 nullopt
 ;
 }
-rtc
-:
-:
 IPAddress
 EmulatedEndpointImpl
 :
@@ -4845,9 +4806,6 @@ EndpointsContainer
 LookupByLocalAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 local_ip
@@ -4863,9 +4821,6 @@ endpoint
 endpoints_
 )
 {
-rtc
-:
-:
 IPAddress
 peer_local_address
 =

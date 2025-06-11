@@ -4084,7 +4084,7 @@ server_
 reject_private_addresses_
 &
 &
-rtc
+webrtc
 :
 :
 IPIsPrivate
@@ -4943,7 +4943,7 @@ TurnServerAllocation
 HasPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4972,7 +4972,7 @@ TurnServerAllocation
 AddPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -5078,7 +5078,7 @@ TurnServerAllocation
 FindPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress

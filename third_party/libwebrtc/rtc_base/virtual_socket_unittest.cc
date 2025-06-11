@@ -898,6 +898,9 @@ ss_
 )
 kIPv4AnyAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 INADDR_ANY
@@ -906,6 +909,9 @@ INADDR_ANY
 )
 kIPv6AnyAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 in6addr_any
@@ -943,6 +949,9 @@ port
 1
 )
 ;
+webrtc
+:
+:
 IPAddress
 post_ip
 =
@@ -952,6 +961,9 @@ ipaddr
 (
 )
 ;
+webrtc
+:
+:
 IPAddress
 pre_ip
 =
@@ -1097,6 +1109,9 @@ void
 TestDefaultSourceAddress
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 default_address
@@ -6025,6 +6040,9 @@ basic_v4
 SocketAddress
 ipv4_test_addr
 (
+webrtc
+:
+:
 IPAddress
 (
 INADDR_ANY
@@ -6047,6 +6065,9 @@ basic_v6
 SocketAddress
 ipv6_test_addr
 (
+webrtc
+:
+:
 IPAddress
 (
 in6addr_any
@@ -6066,6 +6087,9 @@ VirtualSocketServerTest
 TestDefaultRoute_v4
 )
 {
+webrtc
+:
+:
 IPAddress
 ipv4_default_addr
 (
@@ -6084,11 +6108,17 @@ VirtualSocketServerTest
 TestDefaultRoute_v6
 )
 {
+webrtc
+:
+:
 IPAddress
 ipv6_default_addr
 ;
 EXPECT_TRUE
 (
+webrtc
+:
+:
 IPFromString
 (
 "

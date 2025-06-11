@@ -7888,7 +7888,7 @@ endpoint
 ]
 SocketAddress
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -7917,7 +7917,7 @@ endpoint
 ]
 SocketAddress
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -11734,14 +11734,14 @@ fw
 SetUnbindableIps
 (
 {
-rtc
+webrtc
 :
 :
 GetAnyIP
 (
 AF_INET
 )
-rtc
+webrtc
 :
 :
 GetAnyIP
@@ -43494,7 +43494,7 @@ void
 CreateNameForAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -43512,7 +43512,7 @@ void
 RemoveNameForAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress

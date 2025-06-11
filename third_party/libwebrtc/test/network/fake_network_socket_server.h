@@ -177,9 +177,6 @@ EmulatedEndpointImpl
 GetEndpointNode
 (
 const
-rtc
-:
-:
 IPAddress
 &
 ip

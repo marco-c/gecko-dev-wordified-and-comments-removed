@@ -406,7 +406,7 @@ network
 "
 unittest
 "
-rtc
+webrtc
 :
 :
 IPAddress
@@ -423,7 +423,7 @@ network
 "
 unittest
 "
-rtc
+webrtc
 :
 :
 IPAddress
@@ -466,7 +466,7 @@ ipv4_network_
 .
 AddIP
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -479,7 +479,7 @@ ipv6_network_
 .
 AddIP
 (
-rtc
+webrtc
 :
 :
 IPAddress

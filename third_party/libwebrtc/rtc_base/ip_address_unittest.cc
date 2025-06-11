@@ -28,7 +28,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const

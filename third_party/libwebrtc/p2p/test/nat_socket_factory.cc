@@ -94,6 +94,9 @@ remote_addr
 )
 {
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -364,6 +367,9 @@ remote_addr
 =
 SocketAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 *
@@ -425,6 +431,9 @@ remote_addr
 =
 SocketAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 *
@@ -589,6 +598,9 @@ BindInternal
 (
 SocketAddress
 (
+webrtc
+:
+:
 GetAnyIP
 (
 family_

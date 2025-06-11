@@ -289,10 +289,16 @@ TestSocketSendRecvWithEcnIPV6
 )
 ;
 const
+webrtc
+:
+:
 IPAddress
 kIPv4Loopback
 ;
 const
+webrtc
+:
+:
 IPAddress
 kIPv6Loopback
 ;
@@ -302,6 +308,9 @@ void
 TcpInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -317,6 +326,9 @@ void
 ConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -326,6 +338,9 @@ void
 ConnectWithDnsLookupInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -340,6 +355,9 @@ void
 ConnectFailInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -349,6 +367,9 @@ void
 ConnectWithDnsLookupFailInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -358,6 +379,9 @@ void
 ConnectWithClosedSocketInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -367,6 +391,9 @@ void
 ConnectWhileNotClosedInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -376,6 +403,9 @@ void
 ServerCloseDuringConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -385,6 +415,9 @@ void
 ClientCloseDuringConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -394,6 +427,9 @@ void
 ServerCloseInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -403,6 +439,9 @@ void
 CloseInClosedCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -412,6 +451,9 @@ void
 DeleteInReadCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -421,6 +463,9 @@ void
 SocketServerWaitInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -430,6 +475,9 @@ void
 SingleFlowControlCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -439,6 +487,9 @@ void
 UdpInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -448,6 +499,9 @@ void
 UdpReadyToSend
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -457,6 +511,9 @@ void
 GetSetOptionsInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -466,6 +523,9 @@ void
 SocketRecvTimestamp
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -475,6 +535,9 @@ void
 UdpSocketRecvTimestampUseRtcEpoch
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -484,6 +547,9 @@ void
 SocketSendRecvWithEcn
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -499,6 +565,9 @@ bool
 IsUnspecOrEmptyIP
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 address

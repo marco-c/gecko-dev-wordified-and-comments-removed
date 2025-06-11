@@ -3844,6 +3844,9 @@ network
 )
 {
 return
+webrtc
+:
+:
 IPIsLinkLocal
 (
 network
@@ -3946,7 +3949,7 @@ networks
 {
 if
 (
-rtc
+webrtc
 :
 :
 IPIsLinkLocal

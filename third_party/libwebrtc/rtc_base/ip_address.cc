@@ -105,7 +105,7 @@ string_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const
@@ -3220,9 +3220,6 @@ AF_INET
 )
 {
 return
-rtc
-:
-:
 IPAddress
 (
 INADDR_LOOPBACK
@@ -3238,9 +3235,6 @@ AF_INET6
 )
 {
 return
-rtc
-:
-:
 IPAddress
 (
 in6addr_loopback
@@ -3248,9 +3242,6 @@ in6addr_loopback
 ;
 }
 return
-rtc
-:
-:
 IPAddress
 (
 )
@@ -3272,9 +3263,6 @@ AF_INET
 )
 {
 return
-rtc
-:
-:
 IPAddress
 (
 INADDR_ANY
@@ -3290,9 +3278,6 @@ AF_INET6
 )
 {
 return
-rtc
-:
-:
 IPAddress
 (
 in6addr_any
@@ -3300,9 +3285,6 @@ in6addr_any
 ;
 }
 return
-rtc
-:
-:
 IPAddress
 (
 )

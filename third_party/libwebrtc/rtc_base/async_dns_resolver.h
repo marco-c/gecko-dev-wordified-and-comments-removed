@@ -128,9 +128,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 IPAddress
 >
 addresses_

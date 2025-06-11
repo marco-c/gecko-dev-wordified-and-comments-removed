@@ -800,7 +800,7 @@ void
 CreateNameForAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -826,7 +826,7 @@ void
 RemoveNameForAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -941,7 +941,7 @@ kNatAddr
 StunPortTestBase
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -1955,7 +1955,7 @@ Network
 MakeNetwork
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress

@@ -587,9 +587,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 IPAddress
 >
 GetNextIPv4Address
@@ -637,9 +634,6 @@ std
 :
 set
 <
-rtc
-:
-:
 IPAddress
 >
 used_ip_addresses_

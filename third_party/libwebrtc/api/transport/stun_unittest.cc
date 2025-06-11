@@ -250,7 +250,7 @@ expected_family
 int
 expected_port
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2684,7 +2684,7 @@ GetAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2750,7 +2750,7 @@ GetAddress
 STUN_ATTR_XOR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2801,7 +2801,7 @@ kTestTransactionId1
 kStunTransactionIdLength
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2864,7 +2864,7 @@ kTestTransactionId1
 kStunTransactionIdLength
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2913,7 +2913,7 @@ msg
 kStunMessageWithIPv6XorMappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -3577,7 +3577,7 @@ GetAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -3614,7 +3614,7 @@ msg
 kStunMessageWithIPv6XorMappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -3904,7 +3904,7 @@ msg
 kStunMessageWithIPv4XorMappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4150,7 +4150,7 @@ StunTest
 CreateIPv6AddressAttribute
 )
 {
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4217,7 +4217,7 @@ s_addr
 =
 0xBEB0B0BE
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4298,7 +4298,7 @@ addr
 >
 SetIP
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4320,7 +4320,7 @@ port
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4351,7 +4351,7 @@ addr2
 >
 SetIP
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4381,7 +4381,7 @@ port
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4411,7 +4411,7 @@ sizeof
 kStunMessageWithIPv6MappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4601,7 +4601,7 @@ sizeof
 kStunMessageWithIPv4MappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4791,7 +4791,7 @@ sizeof
 kStunMessageWithIPv6XorMappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4981,7 +4981,7 @@ sizeof
 kStunMessageWithIPv4XorMappedAddress
 )
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -8400,7 +8400,7 @@ data
 ;
 }
 {
-rtc
+webrtc
 :
 :
 IPAddress
@@ -8496,7 +8496,7 @@ test_ip
 ;
 }
 {
-rtc
+webrtc
 :
 :
 IPAddress
@@ -8736,7 +8736,7 @@ addr
 >
 SetIP
 (
-rtc
+webrtc
 :
 :
 IPAddress
@@ -8996,7 +8996,7 @@ addr
 >
 SetIP
 (
-rtc
+webrtc
 :
 :
 IPAddress

@@ -333,7 +333,7 @@ rtc
 SocketAddress
 srflx_addr
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -489,7 +489,7 @@ Request
 GetRequestByAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -1167,7 +1167,7 @@ Requester
 GetRequestByAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2568,7 +2568,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2580,7 +2580,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 IPAddress
@@ -2593,7 +2593,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 IPAddress

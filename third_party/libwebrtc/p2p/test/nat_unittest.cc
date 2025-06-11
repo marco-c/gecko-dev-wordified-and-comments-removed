@@ -1395,6 +1395,9 @@ SocketAddress
 &
 src
 const
+webrtc
+:
+:
 IPAddress
 &
 dst
@@ -1778,6 +1781,9 @@ networks
 )
 {
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -2044,6 +2050,9 @@ public
 VirtualSocketServer
 {
 public
+:
+webrtc
+:
 :
 IPAddress
 GetNextIP

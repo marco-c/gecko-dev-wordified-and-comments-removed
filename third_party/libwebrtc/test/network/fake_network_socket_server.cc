@@ -1678,9 +1678,6 @@ FakeNetworkSocketServer
 GetEndpointNode
 (
 const
-rtc
-:
-:
 IPAddress
 &
 ip
