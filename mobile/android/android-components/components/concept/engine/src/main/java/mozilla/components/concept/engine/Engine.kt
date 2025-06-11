@@ -167,6 +167,18 @@ concept
 .
 engine
 .
+preferences
+.
+BrowserPreferencesRuntime
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 serviceworker
 .
 ServiceWorkerDelegate
@@ -268,6 +280,7 @@ Engine
 :
 WebExtensionRuntime
 TranslationsRuntime
+BrowserPreferencesRuntime
 DataCleanable
 {
 /
