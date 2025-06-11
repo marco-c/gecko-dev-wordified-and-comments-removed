@@ -121,9 +121,6 @@ struct
 JS_PUBLIC_API
 JSContext
 ;
-class
-JSFunction
-;
 namespace
 JS
 {
@@ -347,7 +344,7 @@ InlinableOpData
 {
 public
 :
-JSFunction
+JSScript
 *
 target
 =
@@ -610,7 +607,7 @@ static
 bool
 canInline
 (
-JSFunction
+JSScript
 *
 target
 HandleScript
@@ -658,7 +655,7 @@ ICScript
 *
 createInlinedICScript
 (
-JSFunction
+JSScript
 *
 target
 BytecodeLocation
@@ -689,7 +686,7 @@ kind
 TrialInliningDecision
 getInliningDecision
 (
-JSFunction
+JSScript
 *
 target
 ICCacheIRStub
