@@ -17199,7 +17199,7 @@ return
 observer_
 ;
 }
-void
+RTCError
 PeerConnection
 :
 :
@@ -17218,12 +17218,10 @@ signaling_thread
 )
 )
 ;
-if
+RTC_DCHECK
 (
-!
 sctp_mid_s_
 )
-return
 ;
 network_thread
 (
@@ -17277,6 +17275,14 @@ options
 ;
 }
 )
+)
+;
+return
+RTCError
+:
+:
+OK
+(
 )
 ;
 }

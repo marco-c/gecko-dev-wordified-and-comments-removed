@@ -1871,7 +1871,7 @@ override
 ;
 MOCK_METHOD
 (
-void
+RTCError
 StartSctpTransport
 (
 const

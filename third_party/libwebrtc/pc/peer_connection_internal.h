@@ -656,7 +656,7 @@ true
 0
 ;
 virtual
-void
+RTCError
 StartSctpTransport
 (
 const
@@ -691,7 +691,6 @@ int
 max_message_size
 )
 {
-return
 StartSctpTransport
 (
 {

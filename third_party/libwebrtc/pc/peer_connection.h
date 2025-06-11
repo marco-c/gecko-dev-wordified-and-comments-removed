@@ -2499,7 +2499,7 @@ error
 )
 override
 ;
-void
+RTCError
 StartSctpTransport
 (
 const
