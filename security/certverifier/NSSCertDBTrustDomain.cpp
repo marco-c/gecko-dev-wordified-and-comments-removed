@@ -8195,6 +8195,7 @@ srv
 }
 CollectThirdPartyPKCS11ModuleTelemetry
 (
+true
 )
 ;
 return
