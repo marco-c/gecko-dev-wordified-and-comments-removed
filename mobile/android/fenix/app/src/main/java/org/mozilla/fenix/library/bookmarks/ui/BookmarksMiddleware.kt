@@ -2068,7 +2068,6 @@ EditFolderAction
 DeleteClicked
 is
 ReceivedSyncSignInUpdate
-PrivateBrowsingAuthorized
 -
 >
 Unit

@@ -802,7 +802,6 @@ is
 ReceivedSyncSignInUpdate
 FirstSyncCompleted
 ViewDisposed
-PrivateBrowsingAuthorized
 -
 >
 Unit
