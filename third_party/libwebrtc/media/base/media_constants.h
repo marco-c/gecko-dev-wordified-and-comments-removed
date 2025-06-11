@@ -231,6 +231,13 @@ kCodecParamUseDtx
 extern
 const
 char
+kCodecParamCbr
+[
+]
+;
+extern
+const
+char
 kCodecParamMaxAverageBitrate
 [
 ]
