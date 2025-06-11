@@ -696,6 +696,8 @@ aContext
 GetDrawTarget
 (
 )
+aToMarkedFrameUserSpace
+*
 aContext
 .
 CurrentMatrixDouble
