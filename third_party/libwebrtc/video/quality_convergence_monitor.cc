@@ -187,6 +187,12 @@ kVideoCodecVP8
 :
 dynamic_config
 .
+enabled
+=
+true
+;
+dynamic_config
+.
 Parser
 (
 )
