@@ -162,6 +162,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch
@@ -171,6 +173,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -195,6 +199,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 tooling
 -

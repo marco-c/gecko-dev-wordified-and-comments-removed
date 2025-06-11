@@ -152,6 +152,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -162,6 +164,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -171,6 +175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -195,6 +201,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

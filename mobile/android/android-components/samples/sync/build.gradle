@@ -203,6 +203,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 storage
@@ -213,6 +215,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -222,6 +226,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -235,6 +241,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 firefox
@@ -246,6 +254,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -259,6 +269,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 sync
@@ -271,6 +283,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 appservices
@@ -280,6 +294,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -292,6 +308,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -

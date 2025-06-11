@@ -183,6 +183,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -192,6 +194,8 @@ implementation
 project
 (
 '
+:
+components
 :
 compose
 -
@@ -203,6 +207,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -212,6 +218,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -223,6 +231,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 tabs
@@ -232,6 +242,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -243,6 +255,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -252,6 +266,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -263,6 +279,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 icons
@@ -273,6 +291,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 widgets
@@ -282,6 +302,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -393,6 +415,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 session
@@ -403,6 +427,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -412,6 +438,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -424,6 +452,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 support
 -

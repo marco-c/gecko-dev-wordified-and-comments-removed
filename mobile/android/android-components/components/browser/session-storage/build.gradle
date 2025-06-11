@@ -180,6 +180,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -189,6 +191,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -200,6 +204,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -209,6 +215,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -262,6 +270,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -271,6 +281,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -284,6 +296,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -295,6 +309,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -334,6 +350,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 engine
@@ -346,6 +364,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 android
@@ -357,6 +377,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 feature
 -

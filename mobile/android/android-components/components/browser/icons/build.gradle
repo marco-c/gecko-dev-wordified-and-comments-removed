@@ -232,6 +232,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 images
@@ -241,6 +243,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -252,6 +256,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 base
@@ -261,6 +267,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -272,6 +280,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch
@@ -281,6 +291,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -346,6 +358,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -355,6 +369,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -367,6 +383,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 lib
 -

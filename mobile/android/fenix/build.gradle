@@ -347,6 +347,18 @@ subprojects
 {
 afterEvaluate
 {
+if
+(
+it
+.
+hasProperty
+(
+'
+kotlin
+'
+)
+)
+{
 kotlin
 {
 jvmToolchain
@@ -355,6 +367,7 @@ config
 .
 jvmTargetCompatibility
 )
+}
 }
 if
 (

@@ -191,6 +191,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -201,6 +203,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -210,6 +214,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -241,6 +247,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -250,6 +258,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -296,6 +306,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 support
 -

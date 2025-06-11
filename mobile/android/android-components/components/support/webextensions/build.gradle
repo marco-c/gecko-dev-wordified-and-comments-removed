@@ -145,6 +145,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -154,6 +156,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -165,6 +169,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -174,6 +180,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -191,6 +199,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -200,6 +210,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

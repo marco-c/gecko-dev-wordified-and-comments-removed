@@ -170,6 +170,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 push
@@ -179,6 +181,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -195,6 +199,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

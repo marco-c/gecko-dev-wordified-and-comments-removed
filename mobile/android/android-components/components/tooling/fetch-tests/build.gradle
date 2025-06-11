@@ -176,6 +176,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch

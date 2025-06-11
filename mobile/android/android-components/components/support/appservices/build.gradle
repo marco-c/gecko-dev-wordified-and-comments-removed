@@ -225,6 +225,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 fetch
@@ -246,6 +248,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 base
@@ -259,6 +263,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

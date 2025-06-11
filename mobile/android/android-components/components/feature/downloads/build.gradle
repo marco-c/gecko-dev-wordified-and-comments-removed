@@ -274,6 +274,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -283,6 +285,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -294,6 +298,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -303,6 +309,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -314,6 +322,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -324,6 +334,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 icons
@@ -333,6 +345,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -434,6 +448,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -444,6 +460,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -453,6 +471,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -465,6 +485,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 support
 -

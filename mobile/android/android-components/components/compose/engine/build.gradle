@@ -171,6 +171,8 @@ project
 (
 "
 :
+components
+:
 browser
 -
 state
@@ -181,6 +183,8 @@ project
 (
 "
 :
+components
+:
 concept
 -
 engine
@@ -190,6 +194,8 @@ implementation
 project
 (
 "
+:
+components
 :
 support
 -
@@ -246,6 +252,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

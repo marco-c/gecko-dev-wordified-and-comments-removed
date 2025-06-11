@@ -5992,6 +5992,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 engine
@@ -6028,6 +6030,8 @@ project
 (
 '
 :
+components
+:
 compose
 -
 awesomebar
@@ -6038,6 +6042,8 @@ project
 (
 '
 :
+components
+:
 compose
 -
 base
@@ -6047,6 +6053,8 @@ implementation
 project
 (
 '
+:
+components
 :
 compose
 -
@@ -6059,6 +6067,8 @@ implementation
 project
 (
 '
+:
+components
 :
 compose
 -
@@ -6070,6 +6080,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 awesomebar
@@ -6079,6 +6091,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -6090,6 +6104,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 engine
@@ -6100,6 +6116,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 menu
@@ -6109,6 +6127,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -6120,6 +6140,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 storage
@@ -6129,6 +6151,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -6140,6 +6164,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 toolbar
@@ -6149,6 +6175,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -6160,6 +6188,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 domains
@@ -6169,6 +6199,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -6180,6 +6212,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 menu
@@ -6190,6 +6224,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 menu2
@@ -6199,6 +6235,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -6212,6 +6250,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -6221,6 +6261,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -6234,6 +6276,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 tabstray
@@ -6243,6 +6287,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -6254,6 +6300,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 toolbar
@@ -6263,6 +6311,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6274,6 +6324,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 accounts
@@ -6283,6 +6335,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6296,6 +6350,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 autofill
@@ -6305,6 +6361,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6316,6 +6374,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 contextmenu
@@ -6325,6 +6385,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6336,6 +6398,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 downloads
@@ -6345,6 +6409,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6356,6 +6422,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 intent
@@ -6365,6 +6433,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6376,6 +6446,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 prompts
@@ -6385,6 +6457,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6396,6 +6470,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 privatemode
@@ -6405,6 +6481,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6416,6 +6494,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 qr
@@ -6425,6 +6505,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6436,6 +6518,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 session
@@ -6445,6 +6529,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6456,6 +6542,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 toolbar
@@ -6465,6 +6553,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6476,6 +6566,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 findinpage
@@ -6485,6 +6577,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6496,6 +6590,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 sitepermissions
@@ -6506,6 +6602,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 readerview
@@ -6515,6 +6613,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6528,6 +6628,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 recentlyclosed
@@ -6537,6 +6639,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6550,6 +6654,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 share
@@ -6559,6 +6665,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6572,6 +6680,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 webauthn
@@ -6581,6 +6691,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6592,6 +6704,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 webnotifications
@@ -6601,6 +6715,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -6614,6 +6730,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 pocket
@@ -6623,6 +6741,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -6634,6 +6754,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 digitalassetlinks
@@ -6643,6 +6765,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -6656,6 +6780,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 sync
@@ -6668,6 +6794,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 firefox
@@ -6679,6 +6807,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -6696,6 +6826,8 @@ project
 (
 '
 :
+components
+:
 service
 -
 location
@@ -6705,6 +6837,8 @@ implementation
 project
 (
 '
+:
+components
 :
 service
 -
@@ -6716,6 +6850,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 webextensions
@@ -6725,6 +6861,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -6736,6 +6874,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 remotesettings
@@ -6745,6 +6885,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -6756,6 +6898,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -6765,6 +6909,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -6776,6 +6922,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 utils
@@ -6785,6 +6933,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -6796,6 +6946,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 colors
@@ -6805,6 +6957,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -6816,6 +6970,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 publicsuffixlist
@@ -6825,6 +6981,8 @@ implementation
 project
 (
 '
+:
+components
 :
 ui
 -
@@ -6836,6 +6994,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 tabcounter
@@ -6846,6 +7006,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 crash
@@ -6855,6 +7017,8 @@ implementation
 project
 (
 '
+:
+components
 :
 lib
 -
@@ -6868,6 +7032,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 push
@@ -6880,6 +7046,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 state
@@ -6890,6 +7058,8 @@ project
 (
 '
 :
+components
+:
 lib
 -
 dataprotect
@@ -6899,6 +7069,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -7410,6 +7582,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -7419,6 +7593,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -7553,6 +7729,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 downloads
@@ -7563,6 +7741,8 @@ lintChecks
 project
 (
 '
+:
+components
 :
 tooling
 -

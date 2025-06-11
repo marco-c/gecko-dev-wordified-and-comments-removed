@@ -942,6 +942,8 @@ project
 (
 '
 :
+components
+:
 tooling
 -
 lint
@@ -1923,6 +1925,8 @@ dependsOn
 (
 "
 :
+components
+:
 tooling
 -
 detekt
@@ -2089,6 +2093,8 @@ dependsOn
 (
 "
 :
+components
+:
 browser
 -
 icons
@@ -2099,6 +2105,8 @@ updateBuiltInExtensionVersion
 dependsOn
 (
 "
+:
+components
 :
 feature
 -
@@ -2111,6 +2119,8 @@ dependsOn
 (
 "
 :
+components
+:
 feature
 -
 readerview
@@ -2121,6 +2131,8 @@ updateBuiltInExtensionVersion
 dependsOn
 (
 "
+:
+components
 :
 feature
 -
@@ -2133,6 +2145,8 @@ dependsOn
 (
 "
 :
+components
+:
 feature
 -
 search
@@ -2144,6 +2158,8 @@ dependsOn
 (
 "
 :
+components
+:
 samples
 -
 browser
@@ -2155,6 +2171,8 @@ dependsOn
 (
 "
 :
+components
+:
 samples
 -
 browser
@@ -2165,6 +2183,8 @@ updateTestExtensionVersion
 dependsOn
 (
 "
+:
+components
 :
 samples
 -
@@ -2179,6 +2199,8 @@ dependsOn
 (
 "
 :
+components
+:
 samples
 -
 compose
@@ -2191,6 +2213,8 @@ updateTestExtensionVersion
 dependsOn
 (
 "
+:
+components
 :
 tooling
 -
@@ -2367,6 +2391,8 @@ detektPlugins
 project
 (
 "
+:
+components
 :
 tooling
 -

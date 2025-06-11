@@ -145,6 +145,8 @@ project
 (
 "
 :
+components
+:
 concept
 -
 engine

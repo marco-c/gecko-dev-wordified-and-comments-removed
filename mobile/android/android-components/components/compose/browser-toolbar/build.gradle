@@ -166,6 +166,8 @@ project
 (
 "
 :
+components
+:
 ui
 -
 autocomplete
@@ -175,6 +177,8 @@ implementation
 project
 (
 "
+:
+components
 :
 compose
 -
@@ -186,6 +190,8 @@ project
 (
 "
 :
+components
+:
 concept
 -
 engine
@@ -195,6 +201,8 @@ implementation
 project
 (
 "
+:
+components
 :
 concept
 -
@@ -206,6 +214,8 @@ project
 (
 "
 :
+components
+:
 browser
 -
 menu2
@@ -216,6 +226,8 @@ project
 (
 "
 :
+components
+:
 browser
 -
 state
@@ -225,6 +237,8 @@ implementation
 project
 (
 "
+:
+components
 :
 feature
 -
@@ -236,6 +250,8 @@ project
 (
 "
 :
+components
+:
 lib
 -
 state
@@ -245,6 +261,8 @@ implementation
 project
 (
 "
+:
+components
 :
 ui
 -
@@ -256,6 +274,8 @@ project
 (
 "
 :
+components
+:
 ui
 -
 tabcounter
@@ -266,6 +286,8 @@ project
 (
 "
 :
+components
+:
 support
 -
 ktx
@@ -275,6 +297,8 @@ implementation
 project
 (
 "
+:
+components
 :
 support
 -
@@ -349,6 +373,8 @@ testImplementation
 project
 (
 '
+:
+components
 :
 support
 -

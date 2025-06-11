@@ -255,6 +255,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -264,6 +266,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -275,6 +279,8 @@ project
 (
 '
 :
+components
+:
 ui
 -
 icons
@@ -284,6 +290,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -295,6 +303,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 tabs
@@ -304,6 +314,8 @@ implementation
 project
 (
 '
+:
+components
 :
 support
 -
@@ -365,6 +377,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 test
@@ -402,6 +416,8 @@ androidTestImplementation
 project
 (
 '
+:
+components
 :
 support
 -

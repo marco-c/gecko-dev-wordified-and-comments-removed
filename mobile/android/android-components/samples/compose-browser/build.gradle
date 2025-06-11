@@ -286,6 +286,8 @@ project
 (
 '
 :
+components
+:
 compose
 -
 base
@@ -295,6 +297,8 @@ implementation
 project
 (
 '
+:
+components
 :
 concept
 -
@@ -306,6 +310,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 awesomebar
@@ -316,6 +322,8 @@ project
 (
 '
 :
+components
+:
 concept
 -
 tabstray
@@ -325,6 +333,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -338,6 +348,8 @@ project
 (
 '
 :
+components
+:
 browser
 -
 state
@@ -347,6 +359,8 @@ implementation
 project
 (
 '
+:
+components
 :
 browser
 -
@@ -358,6 +372,8 @@ project
 (
 '
 :
+components
+:
 compose
 -
 awesomebar
@@ -367,6 +383,8 @@ implementation
 project
 (
 '
+:
+components
 :
 compose
 -
@@ -380,6 +398,8 @@ project
 (
 '
 :
+components
+:
 compose
 -
 engine
@@ -389,6 +409,8 @@ implementation
 project
 (
 '
+:
+components
 :
 compose
 -
@@ -400,6 +422,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 awesomebar
@@ -409,6 +433,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -420,6 +446,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 search
@@ -429,6 +457,8 @@ implementation
 project
 (
 '
+:
+components
 :
 feature
 -
@@ -440,6 +470,8 @@ project
 (
 '
 :
+components
+:
 feature
 -
 tabs
@@ -450,15 +482,7 @@ project
 (
 '
 :
-support
--
-appservices
-'
-)
-implementation
-project
-(
-'
+components
 :
 service
 -
@@ -470,6 +494,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 ktx
@@ -480,6 +506,8 @@ project
 (
 '
 :
+components
+:
 support
 -
 remotesettings
@@ -489,6 +517,20 @@ implementation
 project
 (
 '
+:
+components
+:
+support
+-
+appservices
+'
+)
+implementation
+project
+(
+'
+:
+components
 :
 ui
 -
