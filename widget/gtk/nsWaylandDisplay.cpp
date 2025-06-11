@@ -3307,13 +3307,13 @@ registry_listener
 this
 )
 ;
-RequestAsyncRoundtrip
-(
-)
-;
 wl_display_roundtrip
 (
 mDisplay
+)
+;
+RequestAsyncRoundtrip
+(
 )
 ;
 WaitForAsyncRoundtrips
