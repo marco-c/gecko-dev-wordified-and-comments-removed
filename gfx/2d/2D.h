@@ -3004,7 +3004,6 @@ SurfaceDescriptor
 &
 aDesc
 )
-const
 {
 return
 false
