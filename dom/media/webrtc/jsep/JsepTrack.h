@@ -1486,6 +1486,7 @@ return
 mVideoPreferredCodec
 ;
 }
+const
 std
 :
 :
@@ -1493,6 +1494,7 @@ vector
 <
 uint8_t
 >
+&
 GetUniqueReceivePayloadTypes
 (
 )
@@ -1502,6 +1504,7 @@ return
 mUniqueReceivePayloadTypes
 ;
 }
+const
 std
 :
 :
@@ -1509,6 +1512,7 @@ vector
 <
 uint8_t
 >
+&
 GetDuplicateReceivePayloadTypes
 (
 )
