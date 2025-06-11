@@ -663,7 +663,7 @@ TimeDelta
 :
 Micros
 (
-UQ32x32ToInt64Us
+Q32x32ToInt64Us
 (
 *
 header_
