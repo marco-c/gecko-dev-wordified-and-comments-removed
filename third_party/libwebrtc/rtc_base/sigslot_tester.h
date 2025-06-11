@@ -7,6 +7,17 @@ RTC_BASE_SIGSLOT_TESTER_H_
 #
 include
 "
+absl
+/
+base
+/
+macros
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 third_party
@@ -21,6 +32,9 @@ namespace
 rtc
 {
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester0
 :
 public
@@ -121,6 +135,9 @@ class
 C1
 >
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester1
 :
 public
@@ -243,6 +260,9 @@ class
 C2
 >
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester2
 :
 public
@@ -388,6 +408,9 @@ class
 C3
 >
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester3
 :
 public
@@ -556,6 +579,9 @@ class
 C4
 >
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester4
 :
 public
@@ -747,6 +773,9 @@ class
 C5
 >
 class
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 SigslotTester5
 :
 public
