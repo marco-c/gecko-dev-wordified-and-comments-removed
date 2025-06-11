@@ -503,11 +503,6 @@ ExpungeTemporaryPrivateFiles
 (
 )
 ;
-void
-ExpungePrivateFiles
-(
-)
-;
 bool
 GetFileNameFromChannel
 (
@@ -607,12 +602,6 @@ nsCOMArray
 nsIFile
 >
 mTemporaryPrivateFilesList
-;
-nsCOMArray
-<
-nsIFile
->
-mPrivateFilesList
 ;
 private
 :
