@@ -41,6 +41,11 @@ LINUX
 '
 linux
 '
+LINUX_ARM
+=
+'
+linux_arm
+'
 MAC
 =
 '

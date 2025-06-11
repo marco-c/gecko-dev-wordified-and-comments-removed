@@ -77,6 +77,13 @@ util
 js
 '
 ;
+const
+idGenerator
+=
+createIncrementalIdGenerator
+(
+)
+;
 export
 class
 CallbackRegistry
@@ -96,9 +103,7 @@ Callback
 #
 idGenerator
 =
-createIncrementalIdGenerator
-(
-)
+idGenerator
 ;
 create
 (

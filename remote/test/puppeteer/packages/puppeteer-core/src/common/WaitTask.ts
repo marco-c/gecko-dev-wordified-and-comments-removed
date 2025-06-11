@@ -1115,7 +1115,7 @@ this
 #
 poller
 .
-evaluateHandle
+evaluate
 (
 async
 poller

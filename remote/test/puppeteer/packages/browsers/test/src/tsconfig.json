@@ -28,6 +28,17 @@ compilerOptions
 :
 {
 "
+lib
+"
+:
+[
+"
+ES2024
+.
+Promise
+"
+]
+"
 module
 "
 :

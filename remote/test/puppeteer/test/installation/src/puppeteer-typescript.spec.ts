@@ -5,6 +5,8 @@ writeFile
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -16,6 +18,8 @@ platform
 }
 from
 '
+node
+:
 os
 '
 ;
@@ -25,6 +29,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

@@ -15,7 +15,6 @@ import
 install
 Browser
 resolveBuildId
-makeProgressCallback
 detectBrowserPlatform
 }
 from
@@ -172,11 +171,9 @@ platform
 buildId
 downloadProgressCallback
 :
-makeProgressCallback
-(
-browser
-buildId
-)
+'
+default
+'
 baseUrl
 buildIdAlias
 :

@@ -70,7 +70,7 @@ from
 '
 .
 /
-CDPSession
+CdpSession
 .
 js
 '

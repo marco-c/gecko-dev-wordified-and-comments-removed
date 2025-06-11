@@ -3,6 +3,8 @@ type
 FS
 from
 '
+node
+:
 fs
 '
 ;
@@ -11,6 +13,8 @@ type
 Path
 from
 '
+node
+:
 path
 '
 ;

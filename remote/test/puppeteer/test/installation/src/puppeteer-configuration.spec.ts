@@ -2,6 +2,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -11,6 +13,8 @@ spawnSync
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -21,6 +25,8 @@ readFileSync
 }
 from
 '
+node
+:
 fs
 '
 ;
@@ -31,6 +37,8 @@ writeFile
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -42,6 +50,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

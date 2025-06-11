@@ -3277,7 +3277,7 @@ return
 this
 .
 #
-maybeReassignOOPIFRequestClient
+adoptCdpSessionIfNeeded
 (
 client
 request
@@ -3425,7 +3425,7 @@ return
 this
 .
 #
-maybeReassignOOPIFRequestClient
+adoptCdpSessionIfNeeded
 (
 client
 request
@@ -3481,7 +3481,7 @@ request
 ;
 }
 #
-maybeReassignOOPIFRequestClient
+adoptCdpSessionIfNeeded
 (
 client
 :
@@ -3502,13 +3502,6 @@ client
 request
 .
 client
-&
-&
-request
-.
-isNavigationRequest
-(
-)
 )
 {
 request

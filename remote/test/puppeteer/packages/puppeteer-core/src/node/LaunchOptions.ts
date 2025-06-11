@@ -84,6 +84,15 @@ string
 [
 ]
 ;
+enableExtensions
+?
+:
+boolean
+|
+string
+[
+]
+;
 handleSIGINT
 ?
 :

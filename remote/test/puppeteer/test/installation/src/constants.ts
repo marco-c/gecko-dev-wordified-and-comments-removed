@@ -6,6 +6,8 @@ resolve
 }
 from
 '
+node
+:
 path
 '
 ;
@@ -15,6 +17,8 @@ fileURLToPath
 }
 from
 '
+node
+:
 url
 '
 ;

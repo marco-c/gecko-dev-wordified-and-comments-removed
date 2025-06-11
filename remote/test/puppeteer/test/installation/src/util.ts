@@ -5,6 +5,8 @@ ExecFileOptions
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -16,6 +18,8 @@ execFileAsync
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -25,6 +29,8 @@ readFile
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -36,6 +42,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

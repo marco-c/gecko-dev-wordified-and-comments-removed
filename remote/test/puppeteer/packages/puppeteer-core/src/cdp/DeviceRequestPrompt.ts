@@ -851,7 +851,7 @@ timeoutSettings
 TimeoutSettings
 ;
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 =
 new
 Set
@@ -988,7 +988,7 @@ needsEnable
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 .
 size
 =
@@ -1118,7 +1118,7 @@ true
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 .
 add
 (
@@ -1156,7 +1156,7 @@ finally
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 .
 delete
 (
@@ -1183,7 +1183,7 @@ if
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 .
 size
 )
@@ -1228,7 +1228,7 @@ of
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 )
 {
 promise
@@ -1242,7 +1242,7 @@ devicePrompt
 this
 .
 #
-deviceRequestPrompDeferreds
+deviceRequestPromptDeferreds
 .
 clear
 (

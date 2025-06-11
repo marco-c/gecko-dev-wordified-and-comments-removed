@@ -2,6 +2,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;
@@ -50,6 +52,11 @@ switch
 platform
 )
 {
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .
@@ -147,6 +154,11 @@ return
 Mac_Arm
 '
 ;
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .
@@ -323,6 +335,11 @@ Chromium
 '
 )
 ;
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .

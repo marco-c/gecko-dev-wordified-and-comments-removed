@@ -150,10 +150,10 @@ js
 import
 type
 {
+BidiEvents
 Commands
 as
 BidiCommands
-BidiEvents
 Connection
 }
 from
@@ -202,6 +202,8 @@ extends
 BidiCommands
 {
 '
+goog
+:
 cdp
 .
 sendCommand
@@ -227,6 +229,8 @@ SendCommandResult
 }
 ;
 '
+goog
+:
 cdp
 .
 getSession
@@ -252,6 +256,8 @@ GetSessionResult
 }
 ;
 '
+goog
+:
 cdp
 .
 resolveRealm
@@ -1119,6 +1125,8 @@ method
 startsWith
 (
 '
+goog
+:
 cdp
 .
 '

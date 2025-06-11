@@ -931,6 +931,8 @@ BrowserPlatform
 tag
 :
 string
+|
+BrowserTag
 )
 :
 Promise

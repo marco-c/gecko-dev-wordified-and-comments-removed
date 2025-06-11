@@ -14,6 +14,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

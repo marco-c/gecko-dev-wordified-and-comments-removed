@@ -2,6 +2,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -9,6 +11,8 @@ import
 fs
 from
 '
+node
+:
 fs
 '
 ;
@@ -19,6 +23,8 @@ ServerResponse
 }
 from
 '
+node
+:
 http
 '
 ;
@@ -26,6 +32,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;

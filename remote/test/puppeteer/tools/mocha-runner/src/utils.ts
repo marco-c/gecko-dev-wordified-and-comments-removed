@@ -2,6 +2,8 @@ import
 fs
 from
 '
+node
+:
 fs
 '
 ;
@@ -9,6 +11,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;
@@ -687,6 +691,9 @@ string
 ]
 ;
 }
+skipPassing
+:
+boolean
 )
 :
 RecommendedExpectation
@@ -756,6 +763,14 @@ results
 passes
 )
 {
+if
+(
+skipPassing
+)
+{
+continue
+;
+}
 const
 expectationEntry
 =

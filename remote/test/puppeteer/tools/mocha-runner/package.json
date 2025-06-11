@@ -121,7 +121,14 @@ tsc
 b
 &
 &
-tsx
+node
+-
+-
+experimental
+-
+strip
+-
+types
 .
 .
 /
@@ -295,9 +302,9 @@ zod
 "
 3
 .
-24
+25
 .
-1
+28
 "
 }
 }

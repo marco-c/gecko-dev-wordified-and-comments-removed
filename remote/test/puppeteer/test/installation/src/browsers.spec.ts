@@ -2,6 +2,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -11,6 +13,8 @@ spawnSync
 }
 from
 '
+node
+:
 child_process
 '
 ;

@@ -232,6 +232,14 @@ Connection
 |
 undefined
 ;
+abstract
+get
+detached
+(
+)
+:
+boolean
+;
 parentSession
 (
 )

@@ -5,6 +5,8 @@ resolve
 }
 from
 '
+node
+:
 path
 '
 ;

@@ -4,6 +4,8 @@ statSync
 }
 from
 '
+node
+:
 fs
 '
 ;

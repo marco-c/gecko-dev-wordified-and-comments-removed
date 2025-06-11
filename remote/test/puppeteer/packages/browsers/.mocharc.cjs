@@ -65,6 +65,15 @@ utils
 .
 js
 '
+'
+source
+-
+map
+-
+support
+/
+register
+'
 ]
 exit
 :

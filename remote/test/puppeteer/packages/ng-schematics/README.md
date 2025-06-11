@@ -1694,7 +1694,7 @@ browser
 get
 (
 '
-http
+https
 :
 /
 /
@@ -1852,7 +1852,7 @@ page
 goto
 (
 '
-http
+https
 :
 /
 /

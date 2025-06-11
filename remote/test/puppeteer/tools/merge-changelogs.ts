@@ -5,6 +5,8 @@ writeFileSync
 }
 from
 '
+node
+:
 fs
 '
 ;

@@ -431,6 +431,10 @@ Type
 into
 search
 box
+using
+accessible
+input
+name
 .
 await
 page
@@ -438,12 +442,9 @@ page
 locator
 (
 '
-.
-devsite
--
-search
--
-field
+aria
+/
+Search
 '
 )
 .

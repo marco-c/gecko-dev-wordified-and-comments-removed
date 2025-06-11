@@ -263,7 +263,7 @@ use
 new
 EventEmitter
 (
-pipeRead
+pipeWrite
 as
 unknown
 as

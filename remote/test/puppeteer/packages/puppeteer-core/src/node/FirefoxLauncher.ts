@@ -2,6 +2,8 @@ import
 fs
 from
 '
+node
+:
 fs
 '
 ;
@@ -13,6 +15,8 @@ mkdtemp
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -22,6 +26,8 @@ import
 os
 from
 '
+node
+:
 os
 '
 ;
@@ -29,6 +35,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;
@@ -183,15 +191,6 @@ return
 .
 .
 extraPrefsFirefox
-'
-remote
-.
-active
--
-protocols
-'
-:
-1
 '
 fission
 .

@@ -63,6 +63,8 @@ boolean
 export
 interface
 Cookie
+extends
+CookieData
 {
 name
 :

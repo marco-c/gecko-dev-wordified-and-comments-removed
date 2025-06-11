@@ -4,6 +4,8 @@ spawn
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -14,6 +16,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

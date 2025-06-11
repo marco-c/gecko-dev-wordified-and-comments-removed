@@ -114,7 +114,14 @@ tsc
 b
 &
 &
-tsx
+node
+-
+-
+experimental
+-
+strip
+-
+types
 .
 .
 /
@@ -191,9 +198,9 @@ core
 "
 1
 .
-10
+11
 .
-4
+29
 "
 "
 types
@@ -247,7 +254,7 @@ acorn
 .
 14
 .
-0
+1
 "
 "
 doctrine
