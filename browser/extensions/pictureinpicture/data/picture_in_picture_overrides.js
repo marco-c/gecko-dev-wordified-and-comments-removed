@@ -1124,6 +1124,17 @@ visibilityThreshold
 0
 .
 7
+videoWrapperScriptPath
+:
+"
+video
+-
+wrappers
+/
+kick
+.
+js
+"
 }
 }
 joyn
