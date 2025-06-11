@@ -3600,8 +3600,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -3632,8 +3630,6 @@ html
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -3673,8 +3669,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -3711,8 +3705,6 @@ html
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -3752,8 +3744,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -3793,8 +3783,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -3847,8 +3835,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -3906,8 +3892,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -3967,8 +3951,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -4005,8 +3987,6 @@ html
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -4055,8 +4035,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -4101,8 +4079,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -4149,8 +4125,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -4196,8 +4170,6 @@ pref
 (
 layout
 .
-scroll
-.
 disable
 -
 pixel
@@ -4242,8 +4214,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
@@ -4295,8 +4265,6 @@ offset
 pref
 (
 layout
-.
-scroll
 .
 disable
 -
