@@ -673,6 +673,15 @@ network_emulation_manager_api
 .
 .
 :
+peer_network_dependencies
+"
+"
+.
+.
+/
+.
+.
+:
 scoped_refptr
 "
 "
