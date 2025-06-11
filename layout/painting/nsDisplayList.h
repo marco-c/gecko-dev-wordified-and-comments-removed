@@ -4238,6 +4238,8 @@ const
 nsRect
 &
 aDirtyRect
+bool
+aContainingBlockInViewTransitionCapture
 )
 :
 mContainingBlockClipChain
@@ -4264,6 +4266,10 @@ mScrollParentId
 (
 aScrollParentId
 )
+mContainingBlockInViewTransitionCapture
+(
+aContainingBlockInViewTransitionCapture
+)
 {
 }
 const
@@ -4289,6 +4295,9 @@ mDirtyRect
 ;
 ViewID
 mScrollParentId
+;
+bool
+mContainingBlockInViewTransitionCapture
 ;
 static
 nsRect
