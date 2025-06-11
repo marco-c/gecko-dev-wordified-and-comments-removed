@@ -41,7 +41,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 template
 <
@@ -454,6 +454,18 @@ it
 )
 ;
 }
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+MovingMaxCounter
+;
 }
 #
 endif
