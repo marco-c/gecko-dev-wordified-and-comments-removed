@@ -92,16 +92,10 @@ EmulatedIpPacket
 EmulatedIpPacket
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 from
 const
-rtc
-:
-:
 SocketAddress
 &
 to

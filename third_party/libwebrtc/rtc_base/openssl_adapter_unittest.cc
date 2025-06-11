@@ -118,6 +118,9 @@ Socket
 *
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 )
@@ -128,6 +131,9 @@ override
 ;
 MOCK_METHOD
 (
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -140,6 +146,9 @@ override
 ;
 MOCK_METHOD
 (
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -156,6 +165,9 @@ int
 Bind
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 )
@@ -170,6 +182,9 @@ int
 Connect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 )
@@ -203,6 +218,9 @@ void
 *
 size_t
 const
+webrtc
+:
+:
 SocketAddress
 &
 )
@@ -235,6 +253,9 @@ RecvFrom
 void
 *
 size_t
+webrtc
+:
+:
 SocketAddress
 *
 int64_t

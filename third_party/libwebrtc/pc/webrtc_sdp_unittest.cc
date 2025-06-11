@@ -11071,7 +11071,7 @@ AddStream
 audio_stream
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11192,7 +11192,7 @@ AddStream
 video_stream
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11284,7 +11284,7 @@ port
 =
 1234
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11415,7 +11415,7 @@ kCandidateGeneration
 kCandidateFoundation1
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11571,7 +11571,7 @@ port_stun
 =
 2345
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11591,7 +11591,7 @@ port_stun
 +
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11702,7 +11702,7 @@ port_relay
 =
 3456
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -18226,7 +18226,7 @@ JsepSessionDescription
 jdesc
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -18244,7 +18244,7 @@ audio_addr
 9
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -20030,7 +20030,7 @@ WebRtcSdpTest
 SerializeHostnameCandidate
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -20127,7 +20127,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -23288,7 +23288,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress

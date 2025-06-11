@@ -590,7 +590,7 @@ return
 server_address_
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -750,7 +750,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -830,7 +830,7 @@ bool
 CanHandleIncomingPacketsFrom
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -847,7 +847,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1513,7 +1513,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1590,7 +1590,7 @@ bool
 SetAlternateServer
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1602,7 +1602,7 @@ void
 ResolveTurnAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1648,7 +1648,7 @@ void
 OnStunAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1660,14 +1660,14 @@ void
 OnAllocateSuccess
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1730,7 +1730,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1816,7 +1816,7 @@ TurnEntry
 FindEntry
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1838,7 +1838,7 @@ bool
 FailAndPruneConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

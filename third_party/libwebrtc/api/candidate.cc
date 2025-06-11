@@ -258,7 +258,7 @@ absl
 string_view
 protocol
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1159,7 +1159,7 @@ empty
 )
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1209,7 +1209,7 @@ ip
 )
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1241,7 +1241,7 @@ redacted_addr
 }
 else
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1281,7 +1281,7 @@ copy
 .
 set_related_address
 (
-rtc
+webrtc
 :
 :
 EmptySocketAddressWithFamily
@@ -1324,7 +1324,7 @@ Candidate
 ComputeFoundation
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

@@ -111,6 +111,9 @@ FakeNetworkManager
 struct
 Iface
 {
+webrtc
+:
+:
 SocketAddress
 socket_address
 ;
@@ -142,6 +145,9 @@ void
 AddInterface
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 iface
@@ -170,6 +176,9 @@ void
 AddInterface
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 iface
@@ -192,6 +201,9 @@ void
 AddInterface
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 iface
@@ -217,6 +229,9 @@ std
 nullopt
 )
 {
+webrtc
+:
+:
 SocketAddress
 address
 (
@@ -255,6 +270,9 @@ void
 RemoveInterface
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 iface

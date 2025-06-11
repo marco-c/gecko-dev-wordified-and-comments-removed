@@ -160,7 +160,7 @@ cricket
 PORTALLOCATOR_DISABLE_TCP
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -182,7 +182,7 @@ STUN_SERVER_PORT
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress

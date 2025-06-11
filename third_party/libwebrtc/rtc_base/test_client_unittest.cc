@@ -198,9 +198,6 @@ void
 TestUdpInternal
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 loopback
@@ -267,9 +264,6 @@ socket
 )
 )
 ;
-rtc
-:
-:
 SocketAddress
 addr
 =
@@ -330,9 +324,6 @@ void
 TestTcpInternal
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 loopback
@@ -439,9 +430,6 @@ tcp_socket
 )
 )
 ;
-rtc
-:
-:
 SocketAddress
 addr
 =
@@ -520,9 +508,6 @@ MAYBE_SKIP_IPV4
 ;
 TestUdpInternal
 (
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -567,9 +552,6 @@ MAYBE_SKIP_IPV6
 ;
 TestUdpInternal
 (
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -592,9 +574,6 @@ MAYBE_SKIP_IPV4
 ;
 TestTcpInternal
 (
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -639,9 +618,6 @@ MAYBE_SKIP_IPV6
 ;
 TestTcpInternal
 (
-rtc
-:
-:
 SocketAddress
 (
 "

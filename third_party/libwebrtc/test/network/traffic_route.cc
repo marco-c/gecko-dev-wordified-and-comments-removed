@@ -469,15 +469,9 @@ OnPacketReceived
 (
 EmulatedIpPacket
 (
-rtc
-:
-:
 SocketAddress
 (
 )
-rtc
-:
-:
 SocketAddress
 (
 endpoint_

@@ -575,7 +575,7 @@ listen_socket_
 GetLocalAddress
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -623,7 +623,7 @@ restrictions
 ;
 AddAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -638,7 +638,7 @@ GetBestIP
 )
 DISCARD_PORT
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -653,7 +653,7 @@ GetBestIP
 )
 0
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -689,7 +689,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1296,7 +1296,7 @@ socket_factory
 >
 CreateServerTcpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1381,7 +1381,7 @@ TCPPort
 GetIncoming
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2123,7 +2123,7 @@ return
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2915,7 +2915,7 @@ socket_factory
 >
 CreateClientTcpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress

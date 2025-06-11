@@ -80,6 +80,9 @@ Socket
 socket
 )
 ;
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -87,6 +90,9 @@ GetLocalAddress
 const
 override
 ;
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -98,6 +104,9 @@ int
 Bind
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -108,6 +117,9 @@ int
 Connect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -136,6 +148,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -164,6 +179,9 @@ void
 pv
 size_t
 cb
+webrtc
+:
+:
 SocketAddress
 *
 paddr
@@ -185,6 +203,9 @@ Socket
 *
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 paddr

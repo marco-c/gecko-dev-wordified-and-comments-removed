@@ -539,7 +539,7 @@ UDPPort
 )
 override
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -811,7 +811,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -855,7 +855,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -932,7 +932,7 @@ SendStunBindingRequests
 bool
 MaybeSetDefaultLocalAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -965,7 +965,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -980,7 +980,7 @@ void
 Resolve
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1001,7 +1001,7 @@ bool
 GetResolvedAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1009,7 +1009,7 @@ SocketAddress
 input
 int
 family
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1026,7 +1026,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1058,7 +1058,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1077,7 +1077,7 @@ void
 ResolveStunAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1089,7 +1089,7 @@ void
 OnResolveResult
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1103,7 +1103,7 @@ void
 SendStunBindingRequest
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1117,14 +1117,14 @@ OnStunBindingRequestSucceeded
 int
 rtt_ms
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 stun_server_addr
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1136,7 +1136,7 @@ void
 OnStunBindingOrResolveRequestFailed
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1174,7 +1174,7 @@ bool
 HasStunCandidateWithAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

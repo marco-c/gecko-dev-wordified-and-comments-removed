@@ -157,7 +157,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -185,12 +185,12 @@ bool
 ShouldRedirect
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -238,7 +238,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -251,7 +251,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -286,14 +286,14 @@ SocketFactory
 *
 socket_factory
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 int_addr
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -492,7 +492,7 @@ void
 AddInternalSocket
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -739,7 +739,7 @@ TurnServerAllocation
 FindAllocation
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

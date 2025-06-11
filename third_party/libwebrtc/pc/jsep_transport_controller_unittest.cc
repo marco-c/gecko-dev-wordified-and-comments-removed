@@ -1939,9 +1939,6 @@ c
 .
 set_address
 (
-rtc
-:
-:
 SocketAddress
 (
 "

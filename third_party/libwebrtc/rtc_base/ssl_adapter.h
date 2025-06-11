@@ -373,6 +373,9 @@ Socket
 *
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 paddr

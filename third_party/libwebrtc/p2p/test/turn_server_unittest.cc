@@ -231,7 +231,7 @@ socket_factory_
 .
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -268,7 +268,7 @@ socket_factory_
 .
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress

@@ -873,7 +873,7 @@ void
 set_connection_address
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -887,7 +887,7 @@ address
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1342,7 +1342,7 @@ RtpTransceiverDirection
 :
 kSendRecv
 ;
-rtc
+webrtc
 :
 :
 SocketAddress

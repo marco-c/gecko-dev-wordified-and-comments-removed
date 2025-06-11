@@ -336,6 +336,9 @@ AsyncPacketSocket
 delete
 ;
 virtual
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -345,6 +348,9 @@ const
 0
 ;
 virtual
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -382,6 +388,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -550,6 +559,9 @@ signal2
 AsyncPacketSocket
 *
 const
+webrtc
+:
+:
 SocketAddress
 &
 >
@@ -728,6 +740,9 @@ const
 0
 ;
 virtual
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (

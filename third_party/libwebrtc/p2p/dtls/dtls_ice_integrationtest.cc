@@ -1462,7 +1462,7 @@ network_manager_
 .
 AddInterface
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2016,7 +2016,7 @@ network_manager_
 .
 AddInterface
 (
-rtc
+webrtc
 :
 :
 SocketAddress

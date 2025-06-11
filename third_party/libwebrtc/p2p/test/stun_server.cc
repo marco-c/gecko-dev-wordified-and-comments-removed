@@ -267,7 +267,7 @@ StunMessage
 *
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -313,7 +313,7 @@ StunMessage
 &
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -409,7 +409,7 @@ StunMessage
 &
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -481,7 +481,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress

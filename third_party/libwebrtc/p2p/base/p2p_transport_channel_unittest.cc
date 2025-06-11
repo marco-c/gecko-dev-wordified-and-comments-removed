@@ -814,12 +814,6 @@ h
 namespace
 {
 using
-rtc
-:
-:
-SocketAddress
-;
-using
 :
 :
 testing
@@ -994,6 +988,14 @@ webrtc
 :
 :
 SafeTask
+;
+using
+:
+:
+webrtc
+:
+:
+SocketAddress
 ;
 static
 const
@@ -1662,7 +1664,7 @@ c
 .
 set_address
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1753,14 +1755,14 @@ ServerAddresses
 &
 stun_servers
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 turn_server_udp
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1954,7 +1956,7 @@ WillRepeatedly
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2062,7 +2064,7 @@ mock_async_dns_resolver_
 void
 SetAddressToReturn
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2465,7 +2467,7 @@ get
 )
 stun_servers
 kTurnUdpIntAddr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2491,7 +2493,7 @@ get
 )
 stun_servers
 kTurnUdpIntAddr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -24813,7 +24815,7 @@ port
 >
 GetConnection
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -26999,7 +27001,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -28607,7 +28609,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -28683,7 +28685,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31002,7 +31004,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31234,7 +31236,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31347,7 +31349,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31511,7 +31513,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31978,7 +31980,7 @@ port
 SignalUnknownAddress
 (
 port
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -37907,7 +37909,7 @@ ServerAddresses
 (
 )
 kTurnUdpIntAddr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -40295,7 +40297,7 @@ const
 auto
 local_address
 =
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -40755,7 +40757,7 @@ const
 auto
 local_address
 =
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -41177,7 +41179,7 @@ IsUnresolvedIP
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -41545,7 +41547,7 @@ is_local
 )
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -42883,7 +42885,7 @@ is_local
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -43380,7 +43382,7 @@ mdns_candidate
 mdns_candidates
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress

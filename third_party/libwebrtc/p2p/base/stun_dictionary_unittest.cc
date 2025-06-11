@@ -1927,7 +1927,7 @@ writer
 StunDictionaryView
 dictionary
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2131,7 +2131,7 @@ writer
 StunDictionaryView
 dictionary
 ;
-rtc
+webrtc
 :
 :
 SocketAddress

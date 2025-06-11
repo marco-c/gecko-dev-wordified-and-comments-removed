@@ -80,6 +80,9 @@ default
 ;
 MOCK_METHOD
 (
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -92,6 +95,9 @@ override
 ;
 MOCK_METHOD
 (
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -138,6 +144,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -303,6 +312,9 @@ ReceivedPacket
 (
 {
 }
+webrtc
+:
+:
 SocketAddress
 (
 )

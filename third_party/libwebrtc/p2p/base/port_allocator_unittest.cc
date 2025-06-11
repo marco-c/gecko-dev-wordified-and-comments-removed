@@ -552,7 +552,7 @@ FakePortAllocator
 >
 allocator_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -570,7 +570,7 @@ stun_server_1
 3478
 }
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1875,7 +1875,7 @@ input
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1973,7 +1973,7 @@ input
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2072,7 +2072,7 @@ input
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2171,7 +2171,7 @@ input
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2322,7 +2322,7 @@ input
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress

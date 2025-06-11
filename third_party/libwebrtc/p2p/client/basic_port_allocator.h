@@ -1523,7 +1523,7 @@ struct
 RTC_EXPORT
 PortConfiguration
 {
-rtc
+webrtc
 :
 :
 SocketAddress

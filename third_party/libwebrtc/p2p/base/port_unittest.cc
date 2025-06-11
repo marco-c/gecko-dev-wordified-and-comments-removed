@@ -668,12 +668,6 @@ rtc
 Socket
 ;
 using
-rtc
-:
-:
-SocketAddress
-;
-using
 :
 :
 testing
@@ -710,6 +704,14 @@ webrtc
 :
 :
 IceCandidateType
+;
+using
+:
+:
+webrtc
+:
+:
+SocketAddress
 ;
 namespace
 cricket
@@ -1236,7 +1238,7 @@ PrepareAddress
 (
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1259,7 +1261,7 @@ AddAddress
 (
 addr
 addr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1319,7 +1321,7 @@ void
 AddCandidateAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1331,7 +1333,7 @@ AddAddress
 (
 addr
 addr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1359,14 +1361,14 @@ void
 AddCandidateAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 addr
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1384,7 +1386,7 @@ AddAddress
 (
 addr
 base_address
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1460,7 +1462,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1732,7 +1734,7 @@ ByteBufferWriter
 *
 buf
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1904,7 +1906,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2012,7 +2014,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4479,7 +4481,7 @@ webrtc
 ProtocolType
 ext_proto
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6126,7 +6128,7 @@ TestPort
 CreateTestPort
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6236,7 +6238,7 @@ TestPort
 CreateTestPort
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -10712,7 +10714,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -11386,7 +11388,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -14251,7 +14253,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -14308,7 +14310,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -15064,7 +15066,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -15102,7 +15104,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -15569,7 +15571,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -15727,7 +15729,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -16863,7 +16865,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -17397,7 +17399,7 @@ ByteBufferWriter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -17768,7 +17770,7 @@ ByteBufferWriter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -18277,7 +18279,7 @@ ByteBufferWriter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -18510,7 +18512,7 @@ ByteBufferWriter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -18984,7 +18986,7 @@ ByteBufferWriter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -19390,7 +19392,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -19792,7 +19794,7 @@ ByteBufferWriter
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -20100,7 +20102,7 @@ rport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -24928,7 +24930,7 @@ ice_lite_port
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -25796,7 +25798,7 @@ port2
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -27575,7 +27577,7 @@ port2
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -28218,7 +28220,7 @@ port2
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -29579,7 +29581,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -30136,7 +30138,7 @@ lport
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -30283,7 +30285,7 @@ rtc
 ReceivedPacket
 (
 reply
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -30740,7 +30742,7 @@ rtc
 ReceivedPacket
 (
 reply
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31232,7 +31234,7 @@ lport_
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31344,7 +31346,7 @@ rport_
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31586,7 +31588,7 @@ lport_
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -31693,7 +31695,7 @@ rport_
 last_stun_buf
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress

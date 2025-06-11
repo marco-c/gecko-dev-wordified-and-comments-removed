@@ -59,9 +59,6 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -91,9 +88,6 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

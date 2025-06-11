@@ -16,16 +16,10 @@ SocketAddressPair
 SocketAddressPair
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 src
 const
-rtc
-:
-:
 SocketAddress
 &
 dest

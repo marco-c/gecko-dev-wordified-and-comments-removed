@@ -245,9 +245,6 @@ socket_factory_
 .
 CreateUdpSocket
 (
-rtc
-:
-:
 SocketAddress
 (
 GetAnyIP
@@ -367,9 +364,6 @@ test_controller_thread_checker_
 ;
 remote_address_
 =
-rtc
-:
-:
 SocketAddress
 (
 hostname

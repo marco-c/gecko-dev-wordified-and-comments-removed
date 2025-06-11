@@ -694,9 +694,6 @@ EmulatedEndpoint
 *
 endpoint
 const
-rtc
-:
-:
 SocketAddress
 &
 receiver_address
@@ -819,9 +816,6 @@ endpoint
 ;
 local_address_
 =
-rtc
-:
-:
 SocketAddress
 (
 endpoint_

@@ -170,6 +170,9 @@ AsyncPacketSocket
 CreateUdpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 address
@@ -187,6 +190,9 @@ AsyncListenSocket
 CreateServerTcpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 local_address
@@ -206,10 +212,16 @@ AsyncPacketSocket
 CreateClientTcpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 local_address
 const
+webrtc
+:
+:
 SocketAddress
 &
 remote_address

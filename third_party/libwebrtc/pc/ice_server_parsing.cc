@@ -1424,9 +1424,6 @@ stun_servers
 >
 insert
 (
-rtc
-:
-:
 SocketAddress
 (
 address
@@ -1514,9 +1511,6 @@ server
 .
 hostname
 ;
-rtc
-:
-:
 SocketAddress
 socket_address
 (

@@ -590,7 +590,7 @@ port
 =
 1234
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1013,7 +1013,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1055,7 +1055,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1968,7 +1968,7 @@ c
 .
 set_address
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2199,7 +2199,7 @@ c
 .
 set_address
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2556,7 +2556,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2594,7 +2594,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2789,7 +2789,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2831,7 +2831,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3030,7 +3030,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3068,7 +3068,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3277,7 +3277,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3315,7 +3315,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3517,7 +3517,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3564,7 +3564,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 tcp
 "
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3611,7 +3611,7 @@ ICE_CANDIDATE_COMPONENT_RTP
 "
 udp
 "
-rtc
+webrtc
 :
 :
 SocketAddress

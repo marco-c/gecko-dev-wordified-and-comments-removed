@@ -374,7 +374,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -414,7 +414,7 @@ private
 struct
 Incoming
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -442,7 +442,7 @@ AsyncPacketSocket
 GetIncoming
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

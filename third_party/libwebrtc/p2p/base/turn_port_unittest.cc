@@ -511,7 +511,9 @@ h
 namespace
 {
 using
-rtc
+:
+:
+webrtc
 :
 :
 SocketAddress
@@ -1852,7 +1854,7 @@ bool
 CreateTurnPort
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2149,7 +2151,7 @@ socket_factory
 >
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3111,7 +3113,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3334,7 +3336,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3456,7 +3458,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3590,7 +3592,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3624,7 +3626,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3798,7 +3800,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8380,7 +8382,7 @@ IsRtcOk
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8622,7 +8624,7 @@ IsRtcOk
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8813,7 +8815,7 @@ rtc
 TimeMicros
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8899,7 +8901,7 @@ IsRtcOk
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -9132,7 +9134,7 @@ IsRtcOk
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -13068,7 +13070,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -13338,7 +13340,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -13497,7 +13499,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

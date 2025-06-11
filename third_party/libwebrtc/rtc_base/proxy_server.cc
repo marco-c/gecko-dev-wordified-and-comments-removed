@@ -58,6 +58,9 @@ SocketFactory
 *
 int_factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 int_addr
@@ -65,6 +68,9 @@ SocketFactory
 *
 ext_factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 ext_ip
@@ -175,6 +181,9 @@ ProxyServer
 =
 default
 ;
+webrtc
+:
+:
 SocketAddress
 ProxyServer
 :
@@ -484,6 +493,9 @@ AsyncProxyServerSocket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -704,6 +716,9 @@ int_socket_
 SendConnectResult
 (
 err
+webrtc
+:
+:
 SocketAddress
 (
 )

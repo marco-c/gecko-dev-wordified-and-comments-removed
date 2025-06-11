@@ -264,7 +264,7 @@ AsyncPacketSocket
 CreateUdpSocket
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -294,7 +294,7 @@ AsyncListenSocket
 CreateServerTcpSocket
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -321,14 +321,14 @@ AsyncPacketSocket
 CreateClientTcpSocket
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 local_address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -433,9 +433,6 @@ endpoint
 )
 local_address_
 (
-rtc
-:
-:
 SocketAddress
 (
 endpoint_
@@ -463,9 +460,6 @@ local_address_
 )
 ;
 }
-rtc
-:
-:
 SocketAddress
 GetLocalAddress
 (
@@ -477,9 +471,6 @@ return
 local_address_
 ;
 }
-rtc
-:
-:
 SocketAddress
 GetRemoteAddress
 (
@@ -488,9 +479,6 @@ const
 override
 {
 return
-rtc
-:
-:
 SocketAddress
 (
 )
@@ -542,9 +530,6 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -730,9 +715,6 @@ const
 endpoint_
 ;
 const
-rtc
-:
-:
 SocketAddress
 local_address_
 ;
@@ -910,9 +892,6 @@ PacketSocketFactoryWrapper
 (
 this
 )
-rtc
-:
-:
 SocketAddress
 (
 )
@@ -1115,9 +1094,6 @@ port
 ;
 sockets_
 [
-rtc
-:
-:
 SocketAddress
 (
 endpoint
@@ -1239,9 +1215,6 @@ EmulatedTURNServer
 :
 Unbind
 (
-rtc
-:
-:
 SocketAddress
 address
 )

@@ -1312,7 +1312,7 @@ WvJxBt
 ;
 static
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1332,7 +1332,7 @@ kRfc5769SampleMsgMappedAddress
 ;
 static
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4170,7 +4170,7 @@ CreateAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4237,7 +4237,7 @@ CreateAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4460,7 +4460,7 @@ CreateAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4650,7 +4650,7 @@ CreateAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4840,7 +4840,7 @@ CreateXorAddress
 STUN_ATTR_XOR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5030,7 +5030,7 @@ CreateXorAddress
 STUN_ATTR_XOR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8420,7 +8420,7 @@ CreateAddress
 STUN_ATTR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8516,7 +8516,7 @@ CreateAddress
 STUN_ATTR_XOR_MAPPED_ADDRESS
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress

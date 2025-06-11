@@ -110,7 +110,7 @@ SocketServer
 *
 ss
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -128,7 +128,7 @@ void
 set_fake_stun_addr
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -185,7 +185,7 @@ StunMessage
 *
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -196,7 +196,7 @@ override
 ;
 private
 :
-rtc
+webrtc
 :
 :
 SocketAddress

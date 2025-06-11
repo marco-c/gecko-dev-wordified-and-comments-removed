@@ -4666,7 +4666,7 @@ StunAddressAttribute
 uint16_t
 type
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4854,7 +4854,7 @@ v4addr
 ;
 SetAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4936,7 +4936,7 @@ v6addr
 ;
 SetAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5155,7 +5155,7 @@ StunXorAddressAttribute
 uint16_t
 type
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5532,7 +5532,7 @@ GetXoredIP
 ;
 SetAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress

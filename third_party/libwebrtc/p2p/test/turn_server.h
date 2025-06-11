@@ -219,7 +219,7 @@ NULL
 TurnServerConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -239,7 +239,7 @@ socket
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -300,13 +300,13 @@ const
 ;
 private
 :
-rtc
+webrtc
 :
 :
 SocketAddress
 src_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -506,7 +506,7 @@ uint16_t
 id
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -695,7 +695,7 @@ iterator
 FindChannel
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -746,7 +746,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -869,13 +869,13 @@ bool
 ShouldRedirect
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 address
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1252,7 +1252,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1591,7 +1591,7 @@ StunMessage
 *
 req
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1823,7 +1823,7 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress

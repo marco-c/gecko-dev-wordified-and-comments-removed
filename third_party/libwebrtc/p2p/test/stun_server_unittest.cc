@@ -106,7 +106,7 @@ cricket
 namespace
 {
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -125,7 +125,7 @@ server_addr
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress

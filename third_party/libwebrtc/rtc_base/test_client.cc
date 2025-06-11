@@ -379,9 +379,6 @@ buf
 size_t
 size
 const
-rtc
-:
-:
 SocketAddress
 &
 dest
@@ -545,9 +542,6 @@ char
 buf
 size_t
 size
-rtc
-:
-:
 SocketAddress
 *
 addr

@@ -190,9 +190,6 @@ return
 client_
 ;
 }
-rtc
-:
-:
 SocketAddress
 GetClientEndpointAddress
 (
@@ -299,9 +296,6 @@ override
 void
 Unbind
 (
-rtc
-:
-:
 SocketAddress
 address
 )
@@ -325,9 +319,6 @@ Thread
 >
 thread_
 ;
-rtc
-:
-:
 SocketAddress
 client_address_
 ;
@@ -369,9 +360,6 @@ std
 :
 map
 <
-rtc
-:
-:
 SocketAddress
 AsyncPacketSocketWrapper
 *

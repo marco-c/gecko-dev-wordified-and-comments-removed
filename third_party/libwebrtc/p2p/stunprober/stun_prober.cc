@@ -327,7 +327,7 @@ received_time_ms
 =
 0
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -383,7 +383,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -513,7 +513,7 @@ AsyncPacketSocket
 >
 socket_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -546,7 +546,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -595,7 +595,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1453,7 +1453,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1505,7 +1505,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1723,7 +1723,7 @@ StunProber
 ResolveServerName
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1796,7 +1796,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1849,7 +1849,7 @@ IsCurrent
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1867,7 +1867,7 @@ received_address
 )
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1974,7 +1974,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2039,7 +2039,7 @@ socket_factory_
 >
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2110,7 +2110,7 @@ socket
 get
 (
 )
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2203,7 +2203,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2615,7 +2615,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2886,7 +2886,7 @@ nat_type
 NATTYPE_NON_SYMMETRIC
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress

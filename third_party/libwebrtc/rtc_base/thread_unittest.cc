@@ -480,6 +480,9 @@ Socket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -555,6 +558,9 @@ delete
 socket_
 ;
 }
+webrtc
+:
+:
 SocketAddress
 address
 (
@@ -849,6 +855,9 @@ AutoThread
 main_thread
 ;
 const
+webrtc
+:
+:
 SocketAddress
 addr
 (

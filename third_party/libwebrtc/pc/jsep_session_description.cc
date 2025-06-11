@@ -370,9 +370,6 @@ current_family
 family
 ;
 const
-rtc
-:
-:
 SocketAddress
 &
 candidate_addr
@@ -417,9 +414,6 @@ hostname
 )
 ;
 }
-rtc
-:
-:
 SocketAddress
 connection_addr
 (
@@ -449,9 +443,6 @@ empty
 {
 connection_addr
 =
-rtc
-:
-:
 SocketAddress
 (
 kDummyAddress

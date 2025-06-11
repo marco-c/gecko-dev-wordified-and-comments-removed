@@ -168,9 +168,6 @@ loop
 AsyncDnsResolver
 resolver
 ;
-rtc
-:
-:
 SocketAddress
 address
 (
@@ -180,9 +177,6 @@ localhost
 kPortNumber
 )
 ;
-rtc
-:
-:
 SocketAddress
 resolved_address
 ;
@@ -268,9 +262,6 @@ resolved_address
 EXPECT_EQ
 (
 resolved_address
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -337,9 +328,6 @@ AsyncDnsResolver
 (
 )
 ;
-rtc
-:
-:
 SocketAddress
 address
 (
@@ -349,9 +337,6 @@ localhost
 kPortNumber
 )
 ;
-rtc
-:
-:
 SocketAddress
 resolved_address
 ;

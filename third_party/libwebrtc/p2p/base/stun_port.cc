@@ -194,7 +194,7 @@ UDPPort
 *
 port
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -243,7 +243,7 @@ false
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -343,7 +343,7 @@ family
 }
 else
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -724,7 +724,7 @@ UDPPort
 port_
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -757,7 +757,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -794,7 +794,7 @@ AddressResolver
 Resolve
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -852,7 +852,7 @@ std
 :
 pair
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -981,7 +981,7 @@ AddressResolver
 GetResolvedAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -989,7 +989,7 @@ SocketAddress
 input
 int
 family
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1256,7 +1256,7 @@ socket_factory
 >
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1624,7 +1624,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2027,7 +2027,7 @@ rtc
 AsyncPacketSocket
 *
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2035,7 +2035,7 @@ SocketAddress
 address
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2053,7 +2053,7 @@ AddAddress
 (
 addr
 addr
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2357,7 +2357,7 @@ UDPPort
 ResolveStunAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2461,7 +2461,7 @@ UDPPort
 OnResolveResult
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2483,7 +2483,7 @@ get
 nullptr
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2608,7 +2608,7 @@ UDPPort
 SendStunBindingRequest
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2724,7 +2724,7 @@ UDPPort
 :
 MaybeSetDefaultLocalAddress
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2832,14 +2832,14 @@ OnStunBindingRequestSucceeded
 int
 rtt_ms
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 stun_server_addr
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2948,7 +2948,7 @@ stun_reflected_addr
 )
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2973,7 +2973,7 @@ related_address
 {
 related_address
 =
-rtc
+webrtc
 :
 :
 EmptySocketAddressWithFamily
@@ -3064,7 +3064,7 @@ UDPPort
 OnStunBindingOrResolveRequestFailed
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3424,7 +3424,7 @@ UDPPort
 HasStunCandidateWithAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

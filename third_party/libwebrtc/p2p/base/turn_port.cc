@@ -539,7 +539,7 @@ TurnEntry
 *
 entry
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -593,7 +593,7 @@ TurnEntry
 *
 entry_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -620,7 +620,7 @@ entry
 uint16_t
 channel_id
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -680,7 +680,7 @@ uint16_t
 channel_id_
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -747,7 +747,7 @@ channel_id_
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -892,7 +892,7 @@ uint16_t
 channel_id_
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1644,7 +1644,7 @@ UpdateHash
 ;
 }
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1666,7 +1666,7 @@ GetLocalAddress
 (
 )
 :
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2227,7 +2227,7 @@ socket_factory
 >
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2385,7 +2385,7 @@ socket_factory
 >
 CreateClientTcpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2656,7 +2656,7 @@ PROTO_TLS
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3419,7 +3419,7 @@ TurnPort
 FailAndPruneConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3634,7 +3634,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3750,7 +3750,7 @@ TurnPort
 CanHandleIncomingPacketsFrom
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3778,7 +3778,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4288,7 +4288,7 @@ TurnPort
 SetAlternateServer
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4517,7 +4517,7 @@ TurnPort
 ResolveTurnAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4648,7 +4648,7 @@ error
 return
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4887,7 +4887,7 @@ TurnPort
 OnStunAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4903,14 +4903,14 @@ TurnPort
 OnAllocateSuccess
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4922,7 +4922,7 @@ state_
 =
 STATE_READY
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5604,7 +5604,7 @@ indication
 return
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5855,7 +5855,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6511,7 +6511,7 @@ TurnPort
 FindEntry
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6736,7 +6736,7 @@ conn
 )
 {
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8947,7 +8947,7 @@ TurnEntry
 *
 entry
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -9394,7 +9394,7 @@ entry
 uint16_t
 channel_id
 const
-rtc
+webrtc
 :
 :
 SocketAddress

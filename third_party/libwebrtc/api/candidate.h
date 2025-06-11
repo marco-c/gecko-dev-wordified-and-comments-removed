@@ -216,7 +216,7 @@ absl
 string_view
 protocol
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -375,7 +375,7 @@ protocol
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -393,7 +393,7 @@ void
 set_address
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -787,7 +787,7 @@ foundation
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -805,7 +805,7 @@ void
 set_related_address
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1052,7 +1052,7 @@ void
 ComputeFoundation
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1118,7 +1118,7 @@ std
 string
 relay_protocol_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1180,7 +1180,7 @@ std
 string
 foundation_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress

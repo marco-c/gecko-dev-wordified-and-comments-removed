@@ -979,6 +979,9 @@ testing
 StreamSink
 sink
 ;
+webrtc
+:
+:
 SocketAddress
 accept_addr
 ;
@@ -1151,6 +1154,9 @@ server
 >
 Bind
 (
+webrtc
+:
+:
 SocketAddress
 (
 loopback
@@ -2413,6 +2419,9 @@ socket
 >
 Bind
 (
+webrtc
+:
+:
 SocketAddress
 (
 "
@@ -2482,6 +2491,9 @@ socket
 >
 Bind
 (
+webrtc
+:
+:
 SocketAddress
 (
 "
@@ -2571,6 +2583,9 @@ socket
 >
 Bind
 (
+webrtc
+:
+:
 SocketAddress
 (
 kIPv4Loopback

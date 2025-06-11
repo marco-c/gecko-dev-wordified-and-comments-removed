@@ -356,9 +356,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 SocketAddress
 GetClientEndpointAddress
 (
