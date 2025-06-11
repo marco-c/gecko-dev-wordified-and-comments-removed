@@ -8932,8 +8932,6 @@ true
 Indicates
 if
 the
-Pocket
-recommended
 stories
 homescreen
 section
@@ -8962,7 +8960,7 @@ featureFlag
 =
 ContentRecommendationsFeatureHelper
 .
-isPocketRecommendationsFeatureEnabled
+isContentRecommendationsFeatureEnabled
 (
 appContext
 )

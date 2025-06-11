@@ -591,7 +591,7 @@ isVisible
 =
 ContentRecommendationsFeatureHelper
 .
-isPocketRecommendationsFeatureEnabled
+isContentRecommendationsFeatureEnabled
 (
 context
 )
