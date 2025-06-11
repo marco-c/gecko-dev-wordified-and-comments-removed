@@ -2360,6 +2360,15 @@ ActiveScrolledRoot
 *
 finiteBoundsASR
 =
+mBuilder
+-
+>
+IsInViewTransitionCapture
+(
+)
+?
+aActiveScrolledRoot
+:
 ActiveScrolledRoot
 :
 :
