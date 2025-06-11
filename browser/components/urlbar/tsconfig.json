@@ -200,13 +200,6 @@ sys
 mjs
 "
 "
-UrlbarSearchTermsPersistence
-.
-sys
-.
-mjs
-"
-"
 UrlbarSearchUtils
 .
 sys
