@@ -11153,10 +11153,15 @@ Setup
 checklist
 onboarding
 -
-checklist
+finish
+-
+setup
 -
 button
 -
+label
+=
+.
 label
 =
 Finish
