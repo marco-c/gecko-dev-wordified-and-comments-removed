@@ -12617,7 +12617,7 @@ if
 StaticPrefs
 :
 :
-layout_disable_pixel_alignment
+layout_scroll_disable_pixel_alignment
 (
 )
 )
@@ -22546,7 +22546,7 @@ if
 StaticPrefs
 :
 :
-layout_disable_pixel_alignment
+layout_scroll_disable_pixel_alignment
 (
 )
 )
@@ -31419,7 +31419,7 @@ if
 StaticPrefs
 :
 :
-layout_disable_pixel_alignment
+layout_scroll_disable_pixel_alignment
 (
 )
 )

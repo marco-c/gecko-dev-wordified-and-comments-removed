@@ -4059,7 +4059,7 @@ color
 }
 static
 gfxFloat
-GetMaybeSnappedBaselineY
+GetSnappedBaselineY
 (
 nsIFrame
 *
@@ -4075,7 +4075,7 @@ aAscent
 ;
 static
 gfxFloat
-GetMaybeSnappedBaselineX
+GetSnappedBaselineX
 (
 nsIFrame
 *

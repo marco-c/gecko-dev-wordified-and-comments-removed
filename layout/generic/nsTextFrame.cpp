@@ -37142,7 +37142,7 @@ x
 nsLayoutUtils
 :
 :
-GetMaybeSnappedBaselineX
+GetSnappedBaselineX
 (
 this
 aParams
@@ -37169,7 +37169,7 @@ x
 nsLayoutUtils
 :
 :
-GetMaybeSnappedBaselineX
+GetSnappedBaselineX
 (
 this
 aParams
@@ -37246,7 +37246,7 @@ value
 nsLayoutUtils
 :
 :
-GetMaybeSnappedBaselineY
+GetSnappedBaselineY
 (
 this
 aParams
