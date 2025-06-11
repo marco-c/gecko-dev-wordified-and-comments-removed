@@ -693,12 +693,10 @@ will
 only
 print
 calculated
-try
+task
 "
             
 "
-syntax
-and
 selection
 info
 and

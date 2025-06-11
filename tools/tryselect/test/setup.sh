@@ -79,12 +79,6 @@ MACHRC
 <
 <
 EOF
-[
-try
-]
-default
-=
-syntax
 EOF
 cmd
 =

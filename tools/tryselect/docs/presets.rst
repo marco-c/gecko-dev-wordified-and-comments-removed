@@ -11,8 +11,6 @@ selectors
 such
 as
 fuzzy
-and
-syntax
 allow
 saving
 and
@@ -51,6 +49,7 @@ preset
 section
 in
 mach
+try
 <
 selector
 >
