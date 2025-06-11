@@ -1573,7 +1573,7 @@ quickactions
 -
 cmd
 -
-themes
+themes2
 "
 ]
 icon
