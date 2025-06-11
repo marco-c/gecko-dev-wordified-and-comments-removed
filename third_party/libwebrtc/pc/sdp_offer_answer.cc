@@ -4724,6 +4724,10 @@ not
 supported
 "
 ;
+default
+:
+break
+;
 }
 RTC_DCHECK_NOTREACHED
 (
