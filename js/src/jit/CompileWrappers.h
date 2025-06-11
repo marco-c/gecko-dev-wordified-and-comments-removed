@@ -237,6 +237,13 @@ addressOfInterruptBits
 const
 void
 *
+addressOfInlinedICScript
+(
+)
+;
+const
+void
+*
 addressOfRealm
 (
 )
