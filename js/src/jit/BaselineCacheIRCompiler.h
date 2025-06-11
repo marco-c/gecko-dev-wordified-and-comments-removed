@@ -540,8 +540,8 @@ emitCallScriptedGetterShared
 (
 ValOperandId
 receiverId
-uint32_t
-getterOffset
+ObjOperandId
+calleeId
 bool
 sameRealm
 uint32_t

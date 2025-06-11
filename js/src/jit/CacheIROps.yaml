@@ -7426,9 +7426,9 @@ args
 receiver
 :
 ValId
-getter
+callee
 :
-ObjectField
+ObjId
 sameRealm
 :
 BoolImm
@@ -7456,9 +7456,9 @@ args
 receiver
 :
 ValId
-getter
+callee
 :
-ObjectField
+ObjId
 icScript
 :
 RawPointerField
