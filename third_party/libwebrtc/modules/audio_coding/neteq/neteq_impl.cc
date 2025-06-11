@@ -1335,9 +1335,6 @@ RtpPacketInfo
 packet_info
 )
 {
-rtc
-:
-:
 MsanCheckInitialized
 (
 payload

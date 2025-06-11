@@ -877,9 +877,6 @@ kPcmWavHeaderSize
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderPcm
@@ -1155,9 +1152,6 @@ kIeeeFloatWavHeaderSize
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderIeeeFloat
@@ -1934,9 +1928,6 @@ data_start_pos
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderPcm
