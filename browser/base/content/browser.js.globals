@@ -381,9 +381,6 @@ PlacesUIUtils
 PlacesUtils
 "
 "
-Pocket
-"
-"
 PrivateBrowsingUtils
 "
 "
@@ -403,9 +400,6 @@ SafeBrowsing
 "
 "
 Sanitizer
-"
-"
-SaveToPocket
 "
 "
 ScreenshotsUtils
