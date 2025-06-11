@@ -373,13 +373,10 @@ the
 value
 of
 the
-hidden
 preference
 *
 remote
 .
-experimental
--
 parent
 -
 navigation
