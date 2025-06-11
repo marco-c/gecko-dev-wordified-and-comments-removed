@@ -1383,7 +1383,7 @@ CHECKSUM_FILE
 =
 '
 (
-DIST
+ABS_DIST
 )
 /
 (
@@ -1396,11 +1396,6 @@ CHECKSUMS_FILE_BASENAME
 .
 checksums
 '
-CHECKSUM_FILES
-=
-(
-CHECKSUM_FILE
-)
 #
 Upload
 MAR
