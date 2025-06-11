@@ -5740,9 +5740,9 @@ args
 receiver
 :
 ObjId
-setter
+callee
 :
-ObjectField
+ObjId
 rhs
 :
 ValId
@@ -5773,9 +5773,9 @@ args
 receiver
 :
 ObjId
-setter
+callee
 :
-ObjectField
+ObjId
 rhs
 :
 ValId

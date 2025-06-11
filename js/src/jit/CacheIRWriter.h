@@ -3602,10 +3602,18 @@ flagsAndArgCountRaw
 (
 )
 ;
+ObjOperandId
+callee
+=
+getterSetterCalleeOperand
+(
+setter
+)
+;
 callScriptedSetter_
 (
 receiver
-setter
+callee
 rhs
 sameRealm
 nargsAndFlags
@@ -3624,6 +3632,8 @@ callInlinedSetter
 (
 ObjOperandId
 receiver
+ObjOperandId
+callee
 JSFunction
 *
 setter
@@ -3659,7 +3669,7 @@ flagsAndArgCountRaw
 callInlinedSetter_
 (
 receiver
-setter
+callee
 rhs
 icScript
 sameRealm
