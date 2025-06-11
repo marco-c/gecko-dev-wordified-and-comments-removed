@@ -1897,6 +1897,10 @@ SurfaceFormat
 :
 :
 OS_RGBX
+SurfaceFormat
+:
+:
+OS_RGBX
 pipeTransform
 GetOrientation
 (
