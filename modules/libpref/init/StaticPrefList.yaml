@@ -17396,7 +17396,7 @@ always
 #
 Whether
 the
-invoketarget
+commandfor
 attribute
 implementation
 is
@@ -17408,7 +17408,7 @@ dom
 .
 element
 .
-invokers
+commandfor
 .
 enabled
 type
