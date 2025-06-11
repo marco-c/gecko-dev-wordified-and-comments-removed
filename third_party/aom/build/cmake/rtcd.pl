@@ -2552,6 +2552,7 @@ sse4_1
 sse4_2
 avx
 avx2
+avx512
 /
 )
 ;

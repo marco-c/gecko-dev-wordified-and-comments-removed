@@ -7449,6 +7449,7 @@ neon
 neon_dotprod
 neon_i8mm
 sve2
+rvv
 /
 ;
 specialize
@@ -7456,6 +7457,7 @@ qw
 /
 av1_convolve_2d_sr_intrabc
 neon
+rvv
 /
 ;
 specialize
@@ -7467,6 +7469,7 @@ avx2
 neon
 neon_dotprod
 neon_i8mm
+rvv
 /
 ;
 specialize
@@ -7474,6 +7477,7 @@ qw
 /
 av1_convolve_x_sr_intrabc
 neon
+rvv
 /
 ;
 specialize
@@ -7485,6 +7489,7 @@ avx2
 neon
 neon_dotprod
 neon_i8mm
+rvv
 /
 ;
 specialize
@@ -7492,6 +7497,7 @@ qw
 /
 av1_convolve_y_sr_intrabc
 neon
+rvv
 /
 ;
 specialize

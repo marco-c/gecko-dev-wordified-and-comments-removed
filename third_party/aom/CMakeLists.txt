@@ -3266,6 +3266,11 @@ inl
 h
 "
 )
+add_definitions
+(
+-
+DHWY_HEADER_ONLY
+)
 add_library
 (
 aom_hwy

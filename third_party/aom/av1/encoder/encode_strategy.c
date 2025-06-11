@@ -1187,6 +1187,13 @@ step
 ;
 if
 (
+is_one_pass_rt_params
+(
+cpi
+)
+|
+|
+(
 cpi
 -
 >
@@ -1215,6 +1222,7 @@ svc
 number_spatial_layers
 >
 1
+)
 )
 {
 this_duration

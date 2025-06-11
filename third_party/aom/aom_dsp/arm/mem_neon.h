@@ -103,9 +103,15 @@ defined
 (
 ARM_32_BIT
 )
+&
+&
+\
+__GNUC__
+<
+14
 #
 define
-GCC_32_BIT
+DEFICIENT_GCC_32_BIT
 #
 endif
 #
@@ -118,7 +124,7 @@ DEFICIENT_CLANG_32_BIT
 |
 defined
 (
-GCC_32_BIT
+DEFICIENT_GCC_32_BIT
 )
 static
 inline

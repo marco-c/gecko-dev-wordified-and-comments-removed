@@ -327,6 +327,9 @@ equ
 HAVE_AVX2
 equ
 0
+HAVE_AVX512
+equ
+0
 HAVE_FEXCEPT
 equ
 1

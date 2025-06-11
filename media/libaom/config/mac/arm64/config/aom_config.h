@@ -286,6 +286,10 @@ HAVE_AVX2
 0
 #
 define
+HAVE_AVX512
+0
+#
+define
 HAVE_FEXCEPT
 1
 #

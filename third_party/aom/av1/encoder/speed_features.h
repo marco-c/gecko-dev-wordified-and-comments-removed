@@ -1287,7 +1287,7 @@ int
 allow_sub_blk_me_in_tf
 ;
 int
-disable_ref_frame_mvs
+ref_frame_mvs_lvl
 ;
 }
 HIGH_LEVEL_SPEED_FEATURES
@@ -1502,6 +1502,9 @@ skip_non_sq_part_based_on_none
 ;
 int
 disable_8x8_part_based_on_qidx
+;
+int
+split_partition_penalty_level
 ;
 }
 PARTITION_SPEED_FEATURES
@@ -1743,6 +1746,9 @@ extra_prune_warped
 ;
 int
 skip_arf_compound
+;
+int
+bias_warp_mode_rd_scale_pct
 ;
 }
 INTER_MODE_SPEED_FEATURES
