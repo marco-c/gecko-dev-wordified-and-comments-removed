@@ -4084,6 +4084,7 @@ TextLeafRange
 :
 :
 kRemoveAllExistingSelectedRanges
+false
 )
 )
 {
@@ -4130,6 +4131,7 @@ SetSelection
 (
 -
 1
+false
 )
 )
 {

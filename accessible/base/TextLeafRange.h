@@ -850,6 +850,10 @@ SetSelection
 (
 int32_t
 aSelectionNum
+bool
+aSetFocus
+=
+true
 )
 const
 ;

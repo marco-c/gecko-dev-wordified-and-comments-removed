@@ -565,6 +565,8 @@ int32_t
 aEndOffset
 int32_t
 aSelectionNum
+bool
+aSetFocus
 )
 ;
 async

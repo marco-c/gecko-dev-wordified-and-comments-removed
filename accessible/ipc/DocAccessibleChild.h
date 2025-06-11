@@ -373,6 +373,10 @@ const
 int32_t
 &
 aSelectionNum
+const
+bool
+&
+aSetFocus
 )
 override
 ;
