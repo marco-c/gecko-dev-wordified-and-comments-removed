@@ -1228,9 +1228,6 @@ of
 Parent
 process
 "
-quitApplicationGranted
-"
-"
 appShutdownConfirmed
 "
 "
