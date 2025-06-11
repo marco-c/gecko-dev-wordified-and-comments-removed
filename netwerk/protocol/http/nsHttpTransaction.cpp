@@ -6451,12 +6451,6 @@ SSL_ERROR_DOWNGRADE_WITH_EARLY_DATA
 )
 |
 |
-reason
-=
-=
-NS_ERROR_HTTP2_FALLBACK_TO_HTTP1
-|
-|
 ShouldRestartOn0RttError
 (
 reason
