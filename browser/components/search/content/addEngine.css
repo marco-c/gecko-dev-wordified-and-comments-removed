@@ -156,6 +156,14 @@ type
 url
 "
 ]
+:
+not
+(
+:
+placeholder
+-
+shown
+)
 {
 /
 *
