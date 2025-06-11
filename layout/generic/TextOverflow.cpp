@@ -1278,7 +1278,7 @@ NSToCoordFloor
 nsLayoutUtils
 :
 :
-GetSnappedBaselineX
+GetMaybeSnappedBaselineX
 (
 mFrame
 aCtx
@@ -1301,7 +1301,7 @@ NSToCoordFloor
 nsLayoutUtils
 :
 :
-GetSnappedBaselineX
+GetMaybeSnappedBaselineX
 (
 mFrame
 aCtx
@@ -1330,7 +1330,7 @@ NSToCoordFloor
 nsLayoutUtils
 :
 :
-GetSnappedBaselineY
+GetMaybeSnappedBaselineY
 (
 mFrame
 aCtx
