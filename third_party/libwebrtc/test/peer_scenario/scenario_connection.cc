@@ -388,6 +388,15 @@ include
 "
 rtc_base
 /
+thread
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -958,6 +967,7 @@ cricket
 BasicPortAllocator
 >
 (
+env
 network_manager_
 .
 get
