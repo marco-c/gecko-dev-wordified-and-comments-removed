@@ -27,17 +27,6 @@ optional
 #
 include
 "
-absl
-/
-types
-/
-variant
-.
-h
-"
-#
-include
-"
 api
 /
 units
@@ -259,7 +248,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -403,7 +392,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get

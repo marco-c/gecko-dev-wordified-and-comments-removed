@@ -1297,7 +1297,7 @@ auto
 &
 h264
 =
-absl
+std
 :
 :
 get
@@ -1391,7 +1391,7 @@ auto
 &
 h264
 =
-absl
+std
 :
 :
 get
@@ -1457,7 +1457,7 @@ auto
 &
 h264
 =
-absl
+std
 :
 :
 get
@@ -2900,7 +2900,7 @@ std
 :
 optional
 <
-absl
+std
 :
 :
 variant
@@ -2932,7 +2932,7 @@ has_value
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -2948,7 +2948,7 @@ data_key_frame
 FrameInstrumentationData
 frame_inst_data_key_frame
 =
-absl
+std
 :
 :
 get
@@ -3458,7 +3458,7 @@ std
 :
 optional
 <
-absl
+std
 :
 :
 variant
@@ -3490,7 +3490,7 @@ has_value
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -3506,7 +3506,7 @@ data
 FrameInstrumentationData
 frame_inst_data
 =
-absl
+std
 :
 :
 get

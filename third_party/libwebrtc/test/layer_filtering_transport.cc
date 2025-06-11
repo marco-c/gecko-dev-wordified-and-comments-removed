@@ -547,7 +547,7 @@ is_vp8
 {
 temporal_idx
 =
-absl
+std
 :
 :
 get
@@ -589,7 +589,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get

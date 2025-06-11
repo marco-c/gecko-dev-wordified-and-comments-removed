@@ -54,17 +54,6 @@ h
 #
 include
 "
-absl
-/
-types
-/
-variant
-.
-h
-"
-#
-include
-"
 api
 /
 field_trials_view
@@ -1764,7 +1753,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -1838,7 +1827,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -3138,7 +3127,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -3424,7 +3413,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get

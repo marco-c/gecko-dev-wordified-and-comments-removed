@@ -39,17 +39,6 @@ vector
 #
 include
 "
-absl
-/
-types
-/
-variant
-.
-h
-"
-#
-include
-"
 common_video
 /
 h264

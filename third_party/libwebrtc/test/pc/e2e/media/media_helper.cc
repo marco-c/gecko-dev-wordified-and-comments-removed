@@ -25,15 +25,9 @@ utility
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -779,7 +773,7 @@ CapturingDeviceIndex
 *
 capturing_device_index
 =
-absl
+std
 :
 :
 get_if
@@ -890,7 +884,7 @@ FrameGeneratorCapturer
 >
 (
 clock_
-absl
+std
 :
 :
 get

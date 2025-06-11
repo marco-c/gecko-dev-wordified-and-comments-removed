@@ -26,15 +26,9 @@ queue
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -149,7 +143,7 @@ std
 :
 optional
 <
-absl
+std
 :
 :
 variant

@@ -2296,7 +2296,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -2380,7 +2380,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get

@@ -262,7 +262,7 @@ cb
 .
 OnMessageReceived
 (
-absl
+std
 :
 :
 get
@@ -329,7 +329,7 @@ cb
 Error
 error
 =
-absl
+std
 :
 :
 get
@@ -412,7 +412,7 @@ cb
 Error
 error
 =
-absl
+std
 :
 :
 get
@@ -492,7 +492,7 @@ OnConnected
 )
 ;
 }
-absl
+std
 :
 :
 monostate
@@ -536,7 +536,7 @@ OnClosed
 )
 ;
 }
-absl
+std
 :
 :
 monostate
@@ -580,7 +580,7 @@ OnConnectionRestarted
 )
 ;
 }
-absl
+std
 :
 :
 monostate
@@ -634,7 +634,7 @@ cb
 StreamReset
 stream_reset
 =
-absl
+std
 :
 :
 get
@@ -730,7 +730,7 @@ cb
 StreamReset
 stream_reset
 =
-absl
+std
 :
 :
 get
@@ -816,7 +816,7 @@ cb
 StreamReset
 stream_reset
 =
-absl
+std
 :
 :
 get
@@ -897,7 +897,7 @@ cb
 .
 OnBufferedAmountLow
 (
-absl
+std
 :
 :
 get
@@ -955,7 +955,7 @@ OnTotalBufferedAmountLow
 )
 ;
 }
-absl
+std
 :
 :
 monostate

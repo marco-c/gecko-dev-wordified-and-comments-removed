@@ -48,6 +48,11 @@ utility
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -80,17 +85,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -737,7 +731,7 @@ auto
 *
 vp8
 =
-absl
+std
 :
 :
 get_if
@@ -847,7 +841,7 @@ auto
 &
 vp8
 =
-absl
+std
 :
 :
 get
@@ -888,7 +882,7 @@ auto
 &
 vp9
 =
-absl
+std
 :
 :
 get
@@ -2690,7 +2684,7 @@ auto
 *
 data
 =
-absl
+std
 :
 :
 get_if
@@ -2725,7 +2719,7 @@ auto
 *
 sync_data
 =
-absl
+std
 :
 :
 get_if
@@ -4696,7 +4690,7 @@ operator
 )
 (
 const
-absl
+std
 :
 :
 monostate
@@ -4710,7 +4704,7 @@ kNoTemporalIdx
 }
 ;
 return
-absl
+std
 :
 :
 visit

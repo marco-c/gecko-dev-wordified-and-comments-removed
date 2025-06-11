@@ -569,7 +569,7 @@ const
 {
 if
 (
-absl
+std
 :
 :
 holds_alternative
@@ -586,7 +586,7 @@ auto
 &
 params
 =
-absl
+std
 :
 :
 get
@@ -621,7 +621,7 @@ offset
 }
 RTC_DCHECK
 (
-absl
+std
 :
 :
 holds_alternative
@@ -638,7 +638,7 @@ auto
 &
 params
 =
-absl
+std
 :
 :
 get

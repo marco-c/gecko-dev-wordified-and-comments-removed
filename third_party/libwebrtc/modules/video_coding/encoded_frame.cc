@@ -18,15 +18,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -272,7 +266,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -416,7 +410,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get

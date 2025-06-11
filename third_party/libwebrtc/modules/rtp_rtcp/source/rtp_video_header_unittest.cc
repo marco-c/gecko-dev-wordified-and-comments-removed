@@ -1579,7 +1579,7 @@ GetAsMetadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1643,7 +1643,7 @@ GetAsMetadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1701,7 +1701,7 @@ GetAsMetadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1779,7 +1779,7 @@ metadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1843,7 +1843,7 @@ metadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1901,7 +1901,7 @@ metadata
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get

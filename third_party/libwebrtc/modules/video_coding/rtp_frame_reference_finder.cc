@@ -16,15 +16,9 @@ utility
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -148,12 +142,12 @@ private
 using
 RefFinder
 =
-absl
+std
 :
 :
 variant
 <
-absl
+std
 :
 :
 monostate
@@ -265,7 +259,7 @@ RTPVideoHeaderVP8
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -378,7 +372,7 @@ RTPVideoHeaderVP9
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -484,7 +478,7 @@ auto
 *
 generic_header
 =
-absl
+std
 :
 :
 get_if
@@ -587,7 +581,7 @@ auto
 *
 ref_finder
 =
-absl
+std
 :
 :
 get_if
@@ -633,7 +627,7 @@ operator
 (
 )
 (
-absl
+std
 :
 :
 monostate
@@ -720,7 +714,7 @@ seq_num
 ;
 }
 ;
-absl
+std
 :
 :
 visit
@@ -753,7 +747,7 @@ auto
 *
 ref_finder
 =
-absl
+std
 :
 :
 get_if
