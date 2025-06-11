@@ -758,6 +758,15 @@ return
 client_auth_enabled_
 ;
 }
+virtual
+int
+GetRetransmissionCount
+(
+)
+const
+=
+0
+;
 private
 :
 bool

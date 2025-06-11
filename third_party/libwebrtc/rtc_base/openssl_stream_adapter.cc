@@ -4332,6 +4332,10 @@ res
 0
 )
 {
+retransmission_count_
++
++
+;
 RTC_LOG
 (
 LS_INFO
