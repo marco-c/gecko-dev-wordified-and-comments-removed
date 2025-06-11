@@ -22335,6 +22335,10 @@ setMovable
 (
 )
 ;
+setCommutative
+(
+)
+;
 }
 public
 :
