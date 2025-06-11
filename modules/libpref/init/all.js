@@ -34812,7 +34812,7 @@ navigation
 .
 enabled
 "
-false
+true
 )
 ;
 #
