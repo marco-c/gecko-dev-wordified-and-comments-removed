@@ -305,6 +305,10 @@ name
 :
 String
 pub
+ffi_value_class
+:
+String
+pub
 handler_var
 :
 String
