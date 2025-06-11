@@ -370,6 +370,12 @@ OperatingSystemVersion
 )
 override
 ;
+GfxVersionEx
+OperatingSystemVersionEx
+(
+)
+override
+;
 protected
 :
 OperatingSystem
@@ -478,6 +484,9 @@ mProduct
 ;
 nsCString
 mOSVersion
+;
+GfxVersionEx
+mOSVersionEx
 ;
 uint32_t
 mOSVersionInteger
