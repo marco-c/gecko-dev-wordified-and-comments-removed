@@ -167,6 +167,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

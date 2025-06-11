@@ -93,6 +93,17 @@ mozilla
 /
 dom
 /
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 VideoColorSpaceBinding
 .
 h

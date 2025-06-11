@@ -29,17 +29,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

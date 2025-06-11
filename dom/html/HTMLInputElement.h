@@ -107,17 +107,6 @@ mozilla
 /
 dom
 /
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SingleLineTextInputTypes
 .
 h
@@ -307,6 +296,9 @@ GetFilesHelper
 ;
 class
 InputType
+;
+class
+OwningFileOrDirectory
 ;
 class
 UploadLastDir
