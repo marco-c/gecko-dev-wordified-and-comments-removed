@@ -4346,7 +4346,7 @@ nsIOService
 gBadPortList
 type
 :
-Text
+String
 default
 :
 "
