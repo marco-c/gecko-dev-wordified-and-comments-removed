@@ -15,12 +15,6 @@ third_party
 /
 jsoncpp
 "
-"
-+
-third_party
-/
-libevent
-"
 ]
 specific_include_rules
 =
