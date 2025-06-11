@@ -1874,9 +1874,9 @@ MOCK_METHOD
 void
 StartSctpTransport
 (
-int
-int
-int
+const
+SctpOptions
+&
 )
 (
 override

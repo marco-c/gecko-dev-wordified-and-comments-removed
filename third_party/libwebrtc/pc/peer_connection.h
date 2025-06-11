@@ -2502,12 +2502,10 @@ override
 void
 StartSctpTransport
 (
-int
-local_port
-int
-remote_port
-int
-max_message_size
+const
+SctpOptions
+&
+options
 )
 override
 ;

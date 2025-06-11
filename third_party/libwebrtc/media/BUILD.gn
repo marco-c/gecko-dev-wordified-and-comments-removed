@@ -5235,6 +5235,14 @@ media_channel
 /
 api
 :
+libjingle_peerconnection_api
+"
+"
+.
+.
+/
+api
+:
 priority
 "
 "
@@ -7802,6 +7810,12 @@ rtc_base
 third_party
 /
 sigslot
+"
+"
+.
+.
+/
+system_wrappers
 "
 "
 .
