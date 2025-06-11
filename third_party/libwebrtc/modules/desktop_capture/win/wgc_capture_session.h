@@ -500,6 +500,9 @@ damage_region_
 intptr_t
 source_id_
 ;
+bool
+is_window_source_
+;
 SequenceChecker
 sequence_checker_
 ;
