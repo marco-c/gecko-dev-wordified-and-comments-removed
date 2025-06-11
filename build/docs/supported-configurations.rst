@@ -781,6 +781,12 @@ gcc
 and
 clang
 )
+Linux
+/
+AArch64
+(
+clang
+)
 -
 macOS
 10
@@ -1026,13 +1032,6 @@ supported
 compilers
 are
 :
--
-Linux
-/
-AArch64
-(
-clang
-)
 -
 Windows
 /
