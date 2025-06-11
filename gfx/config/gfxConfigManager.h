@@ -167,10 +167,6 @@ mSafeMode
 (
 false
 )
-mIsWin11OrLater
-(
-false
-)
 {
 }
 void
@@ -340,9 +336,6 @@ mIsEarlyBetaOrEarlier
 ;
 bool
 mSafeMode
-;
-bool
-mIsWin11OrLater
 ;
 }
 ;

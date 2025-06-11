@@ -670,3 +670,15 @@ dmabuf
 webgl
 "
 )
+GFXINFO_FEATURE
+(
+WEBRENDER_DCOMP
+"
+WEBRENDER_DCOMP
+"
+"
+webrender
+.
+dcomp
+"
+)
