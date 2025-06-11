@@ -305,7 +305,7 @@ onOpenInRegularTabClick
 Unit
 )
 {
-MenuFrame
+MenuScaffold
 (
 header
 =

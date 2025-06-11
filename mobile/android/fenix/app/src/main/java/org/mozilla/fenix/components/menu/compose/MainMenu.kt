@@ -1632,7 +1632,7 @@ ColumnScope
 Unit
 )
 {
-MenuFrame
+MenuScaffold
 (
 header
 =
@@ -1694,12 +1694,6 @@ onStopButtonClick
 onShareButtonClick
 =
 onShareButtonClick
-isExtensionsExpanded
-=
-isExtensionsExpanded
-isMoreMenuExpanded
-=
-isMoreMenuExpanded
 )
 }
 scrollState
