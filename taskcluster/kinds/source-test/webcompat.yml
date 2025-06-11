@@ -62,7 +62,7 @@ defaults
 :
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -77,7 +77,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 /
@@ -90,7 +90,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 /
@@ -152,7 +152,7 @@ in
 -
 tree
 :
-ubuntu1804
+ubuntu2404
 -
 test
 }

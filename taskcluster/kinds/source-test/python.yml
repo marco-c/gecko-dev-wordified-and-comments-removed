@@ -62,7 +62,7 @@ defaults
 :
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -91,7 +91,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -134,7 +134,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -401,7 +401,7 @@ Glean
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -469,7 +469,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -548,7 +548,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -638,19 +638,19 @@ unittests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
 opt
 -
-linux1804
+linux2404
 -
 64
 /
 debug
 -
-linux1804
+linux2404
 -
 64
 -
@@ -672,7 +672,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 -
@@ -687,7 +687,7 @@ linux64
 asan
 /
 opt
-linux1804
+linux2404
 -
 64
 /
@@ -698,7 +698,7 @@ build
 linux64
 /
 debug
-linux1804
+linux2404
 -
 64
 /
@@ -711,7 +711,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 -
@@ -726,7 +726,7 @@ linux64
 asan
 /
 opt
-linux1804
+linux2404
 -
 64
 /
@@ -737,7 +737,7 @@ build
 linux64
 /
 debug
-linux1804
+linux2404
 -
 64
 /
@@ -764,7 +764,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -780,7 +780,7 @@ in
 tree
 :
 "
-ubuntu1804
+ubuntu2404
 -
 test
 "
@@ -1013,7 +1013,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -1123,7 +1123,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -1175,7 +1175,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -1222,7 +1222,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -1365,7 +1365,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -1425,7 +1425,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -1472,7 +1472,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -1529,7 +1529,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -1598,19 +1598,19 @@ unittests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
 opt
 -
-linux1804
+linux2404
 -
 64
 /
 debug
 -
-linux1804
+linux2404
 -
 64
 -
@@ -1627,7 +1627,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 -
@@ -1642,7 +1642,7 @@ linux64
 asan
 /
 opt
-linux1804
+linux2404
 -
 64
 /
@@ -1653,7 +1653,7 @@ build
 linux64
 /
 debug
-linux1804
+linux2404
 -
 64
 /
@@ -1666,7 +1666,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 -
@@ -1681,7 +1681,7 @@ linux64
 asan
 /
 opt
-linux1804
+linux2404
 -
 64
 /
@@ -1692,7 +1692,7 @@ build
 linux64
 /
 debug
-linux1804
+linux2404
 -
 64
 /
@@ -1724,7 +1724,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -1740,7 +1740,7 @@ in
 tree
 :
 "
-ubuntu1804
+ubuntu2404
 -
 test
 "
@@ -2044,7 +2044,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -2147,7 +2147,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -2194,7 +2194,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2382,7 +2382,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -2419,7 +2419,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2504,7 +2504,7 @@ definition
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -2527,7 +2527,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2540,7 +2540,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2581,7 +2581,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -2597,7 +2597,7 @@ in
 tree
 :
 "
-ubuntu1804
+ubuntu2404
 -
 test
 "
@@ -2788,7 +2788,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -2811,7 +2811,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2824,7 +2824,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 /
@@ -2865,7 +2865,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -2881,7 +2881,7 @@ in
 tree
 :
 "
-ubuntu1804
+ubuntu2404
 -
 test
 "
@@ -3122,7 +3122,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -3330,7 +3330,7 @@ false
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -3341,7 +3341,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 .
@@ -3357,7 +3357,7 @@ in
 tree
 :
 "
-ubuntu1804
+ubuntu2404
 -
 test
 "
@@ -3379,7 +3379,7 @@ project
 :
 try
 :
-linux1804
+linux2404
 -
 64
 /
@@ -3392,7 +3392,7 @@ linux64
 opt
 default
 :
-linux1804
+linux2404
 -
 64
 /
@@ -3556,7 +3556,7 @@ Telemetry
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -3605,7 +3605,7 @@ by
 -
 platform
 :
-linux1804
+linux2404
 -
 64
 /
@@ -3664,7 +3664,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
@@ -3773,7 +3773,7 @@ tests
 platform
 :
 -
-linux1804
+linux2404
 -
 64
 /
