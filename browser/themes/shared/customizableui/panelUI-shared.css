@@ -15783,11 +15783,11 @@ panels
 -
 *
 /
-#
-PanelUI
+.
+panel
 -
-profiles
->
+header
++
 toolbarseparator
 {
 display
