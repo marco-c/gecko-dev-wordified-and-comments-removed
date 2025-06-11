@@ -152,6 +152,16 @@ nsTArray
 RefPtr
 <
 const
+Buffer
+>
+>
+mUsedBuffers
+;
+nsTArray
+<
+RefPtr
+<
+const
 ComputePipeline
 >
 >
