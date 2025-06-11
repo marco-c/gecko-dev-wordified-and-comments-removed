@@ -341,7 +341,7 @@ EngineView
 *
 /
 class
-EngineViewClippingBehavior2
+EngineViewClippingBehavior
 (
 context
 :

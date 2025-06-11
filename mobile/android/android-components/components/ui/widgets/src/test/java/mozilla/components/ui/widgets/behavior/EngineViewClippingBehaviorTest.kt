@@ -248,7 +248,7 @@ AndroidJUnit4
 class
 )
 class
-EngineViewClippingBehavior2Test
+EngineViewClippingBehaviorTest
 {
 private
 lateinit
@@ -1852,10 +1852,10 @@ Int
 0
 )
 :
-EngineViewClippingBehavior2
+EngineViewClippingBehavior
 {
 return
-EngineViewClippingBehavior2
+EngineViewClippingBehavior
 (
 context
 =
@@ -1881,7 +1881,7 @@ apply
 engineView
 =
 this
-EngineViewClippingBehavior2Test
+EngineViewClippingBehaviorTest
 .
 engineView
 }

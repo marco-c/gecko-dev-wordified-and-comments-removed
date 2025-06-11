@@ -1393,7 +1393,7 @@ widgets
 .
 behavior
 .
-EngineViewClippingBehavior2
+EngineViewClippingBehavior
 import
 mozilla
 .
@@ -8373,7 +8373,7 @@ LayoutParams
 .
 behavior
 =
-EngineViewClippingBehavior2
+EngineViewClippingBehavior
 (
 context
 =
