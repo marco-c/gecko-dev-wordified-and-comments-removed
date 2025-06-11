@@ -1144,7 +1144,7 @@ tabsFilter
 addEventListener
 (
 "
-command
+input
 "
 this
 .
