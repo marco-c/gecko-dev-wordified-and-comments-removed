@@ -462,6 +462,9 @@ repository
 SearchEngineSelectorRepository
 (
 mockConfig
+mock
+(
+)
 mockClient
 )
 }
