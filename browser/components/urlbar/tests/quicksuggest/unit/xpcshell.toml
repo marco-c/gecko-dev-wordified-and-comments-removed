@@ -208,6 +208,13 @@ js
 ]
 [
 "
+test_suggestBackendMl
+.
+js
+"
+]
+[
+"
 test_weather
 .
 js
