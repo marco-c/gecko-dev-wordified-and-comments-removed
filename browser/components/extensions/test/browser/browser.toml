@@ -2266,6 +2266,13 @@ js
 ]
 [
 "
+browser_ext_originControls_multiple_windows
+.
+js
+"
+]
+[
+"
 browser_ext_pageAction_activeTab
 .
 js
