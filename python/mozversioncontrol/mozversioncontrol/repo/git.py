@@ -454,10 +454,11 @@ native
 "
             
 if
-is_cinnabar_repo
-:
+(
                 
-return
+is_cinnabar_repo
+                
+and
 "
 hg
 .
@@ -467,13 +468,14 @@ org
 "
 in
 url
+                
 and
 not
 url
 .
 endswith
 (
-                    
+(
 "
 hg
 .
@@ -483,8 +485,24 @@ org
 /
 try
 "
-                
+"
+hg
+.
+mozilla
+.
+org
+/
+try
+/
+"
 )
+)
+            
+)
+:
+                
+return
+True
             
 return
 any

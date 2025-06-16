@@ -170,6 +170,14 @@ central
 -
 remotes
 =
+firefox
+"
+                
+"
+-
+-
+remotes
+=
 unified
 "
             
