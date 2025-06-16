@@ -80,13 +80,9 @@ createTestGlobal
 test
 "
 {
-wantGlobalProperties
+chrome
 :
-[
-"
-ChromeUtils
-"
-]
+true
 }
 )
 ;

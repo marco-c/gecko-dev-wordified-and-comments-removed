@@ -81,6 +81,14 @@ evaluateTestCode
 debuggee
 )
 {
+debuggee
+.
+NS_ERROR_NO_INTERFACE
+=
+Cr
+.
+NS_ERROR_NO_INTERFACE
+;
 Cu
 .
 evalInSandbox
@@ -97,8 +105,6 @@ QueryInterface
 /
 2
 throw
-Cr
-.
 NS_ERROR_NO_INTERFACE
 ;
 /
