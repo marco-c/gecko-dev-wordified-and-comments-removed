@@ -63,13 +63,6 @@ js
 ]
 [
 "
-test_quicksuggest_dynamicWikipedia
-.
-js
-"
-]
-[
-"
 test_quicksuggest_exposures
 .
 js
