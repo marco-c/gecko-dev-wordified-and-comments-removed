@@ -4553,12 +4553,6 @@ display
 '
 x11
 '
-&
-&
-opt
-&
-&
-xorigin
 "
 ]
 [
@@ -4606,12 +4600,6 @@ display
 '
 x11
 '
-&
-&
-opt
-&
-&
-xorigin
 "
 ]
 [
