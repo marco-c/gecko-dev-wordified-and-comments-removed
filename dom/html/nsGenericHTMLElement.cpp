@@ -15581,7 +15581,7 @@ if
 StaticPrefs
 :
 :
-dom_element_invokers_enabled
+dom_element_commandfor_enabled
 (
 )
 )
@@ -16162,7 +16162,7 @@ if
 StaticPrefs
 :
 :
-dom_element_invokers_enabled
+dom_element_commandfor_enabled
 (
 )
 )
