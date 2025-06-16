@@ -8667,7 +8667,7 @@ TOP_SITES
 event
 :
 "
-TOP_SITES_EDIT
+TOP_SITES_ADD
 "
 }
 meta
@@ -9581,6 +9581,12 @@ event
 "
 TOP_SITES_EDIT
 "
+hasTitleChanged
+:
+false
+hasURLChanged
+:
+false
 }
 meta
 :
