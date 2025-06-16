@@ -71,6 +71,13 @@ verify
 ]
 [
 "
+browser_ext_notifications_useSystemBackend_false
+.
+js
+"
+]
+[
+"
 browser_ext_process_crash_handling
 .
 js
