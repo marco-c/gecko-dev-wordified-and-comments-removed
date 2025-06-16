@@ -305,6 +305,13 @@ html
 ]
 [
 "
+test_moz_reorderable_list
+.
+html
+"
+]
+[
+"
 test_moz_select
 .
 html
