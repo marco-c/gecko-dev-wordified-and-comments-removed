@@ -11147,6 +11147,16 @@ public
 static
 final
 int
+ERROR_UNABLE_TO_PROCESS_DOCUMENT
+=
+-
+7
+;
+field
+public
+static
+final
+int
 ERROR_UNABLE_TO_RETRIEVE_CANONICAL_BROWSING_CONTEXT
 =
 -
