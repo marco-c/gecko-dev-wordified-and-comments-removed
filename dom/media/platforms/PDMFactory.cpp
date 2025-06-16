@@ -4590,7 +4590,7 @@ contains
 TrackSupport
 :
 :
-Video
+DecodeVideo
 )
 )
 {
@@ -4734,7 +4734,7 @@ contains
 TrackSupport
 :
 :
-Audio
+DecodeAudio
 )
 )
 {
