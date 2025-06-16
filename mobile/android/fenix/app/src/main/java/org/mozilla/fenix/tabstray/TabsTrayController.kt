@@ -3752,17 +3752,6 @@ browsingModeManager
 mode
 =
 mode
-appStore
-.
-dispatch
-(
-AppAction
-.
-BrowsingModeManagerModeChanged
-(
-mode
-)
-)
 handleNavigateToBrowser
 (
 )
