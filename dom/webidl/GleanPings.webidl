@@ -98,10 +98,7 @@ nsIGleanPing
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 Exposed
 =

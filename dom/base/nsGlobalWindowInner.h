@@ -1819,16 +1819,6 @@ JSObject
 *
 )
 ;
-static
-bool
-IsGleanNeeded
-(
-JSContext
-*
-JSObject
-*
-)
-;
 bool
 DoResolve
 (

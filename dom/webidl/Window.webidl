@@ -4301,10 +4301,7 @@ isChromeWindow
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 ]
 readonly
@@ -4316,10 +4313,7 @@ Glean
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 ]
 readonly

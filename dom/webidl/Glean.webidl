@@ -95,10 +95,7 @@ MPL
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 Exposed
 =
@@ -150,10 +147,7 @@ identifier
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 Exposed
 =
@@ -198,10 +192,7 @@ identifier
 Func
 =
 "
-nsGlobalWindowInner
-:
-:
-IsGleanNeeded
+GleanWebidlEnabled
 "
 Exposed
 =

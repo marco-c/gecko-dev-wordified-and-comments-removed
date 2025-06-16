@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultVariant
 .
 h
