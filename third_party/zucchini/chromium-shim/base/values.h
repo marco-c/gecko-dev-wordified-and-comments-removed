@@ -1,0 +1,15 @@
+#
+ifndef
+BASE_VALUES_H_
+#
+define
+BASE_VALUES_H_
+namespace
+base
+{
+class
+Value
+;
+}
+#
+endif
