@@ -10689,9 +10689,6 @@ RandomizePixels
 GetCookieJarSettings
 (
 )
-PrincipalOrNull
-(
-)
 ret
 .
 get
@@ -33174,9 +33171,6 @@ nsRFPService
 RandomizePixels
 (
 GetCookieJarSettings
-(
-)
-PrincipalOrNull
 (
 )
 rawData

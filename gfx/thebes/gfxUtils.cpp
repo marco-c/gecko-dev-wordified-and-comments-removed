@@ -8887,9 +8887,6 @@ aIsAlphaPremultiplied
 nsICookieJarSettings
 *
 aCookieJarSettings
-nsIPrincipal
-*
-aPrincipal
 int32_t
 *
 outFormat
@@ -8916,7 +8913,6 @@ nsRFPService
 RandomizePixels
 (
 aCookieJarSettings
-aPrincipal
 imageBuffer
 .
 get
@@ -9133,9 +9129,6 @@ aEncoderOptions
 nsICookieJarSettings
 *
 aCookieJarSettings
-nsIPrincipal
-*
-aPrincipal
 nsIInputStream
 *
 *
@@ -9228,7 +9221,6 @@ nsRFPService
 RandomizePixels
 (
 aCookieJarSettings
-aPrincipal
 imageBuffer
 .
 get
