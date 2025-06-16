@@ -214,6 +214,13 @@ nsIAccessibleEvent
 EVENT_MENUPOPUP_END
 ;
 const
+EVENT_ERRORMESSAGE_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_ERRORMESSAGE_CHANGED
+;
+const
 EventsLogger
 =
 {
