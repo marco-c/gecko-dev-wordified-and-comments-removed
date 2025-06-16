@@ -53,6 +53,13 @@ js
 ]
 [
 "
+browser_taskbarTabs_cmd
+.
+js
+"
+]
+[
+"
 browser_taskbarTabs_pageAction
 .
 js
