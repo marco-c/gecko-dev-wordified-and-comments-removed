@@ -289,6 +289,8 @@ DownloadUIAction
 .
 PauseDownload
 (
+downloadId
+=
 "
 id
 "
@@ -341,6 +343,8 @@ DownloadUIAction
 .
 ResumeDownload
 (
+downloadId
+=
 "
 id
 "

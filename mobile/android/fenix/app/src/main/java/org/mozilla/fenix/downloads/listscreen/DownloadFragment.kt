@@ -490,6 +490,10 @@ status
 item
 .
 status
+.
+toDownloadStateStatus
+(
+)
 )
 val
 canOpenFile
