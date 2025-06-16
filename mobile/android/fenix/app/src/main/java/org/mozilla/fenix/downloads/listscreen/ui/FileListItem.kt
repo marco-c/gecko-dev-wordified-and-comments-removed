@@ -1540,7 +1540,7 @@ class
 FileListItemPreviewState
 (
 val
-fieItem
+fileItem
 :
 FileItem
 val
@@ -1577,7 +1577,7 @@ sequenceOf
 (
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -1657,7 +1657,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -1737,7 +1737,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -1815,7 +1815,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -1893,7 +1893,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -1971,7 +1971,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2049,7 +2049,7 @@ false
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2127,7 +2127,7 @@ false
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2205,7 +2205,7 @@ false
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2283,7 +2283,7 @@ false
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2361,7 +2361,7 @@ false
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2447,7 +2447,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2532,7 +2532,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2617,7 +2617,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2691,7 +2691,7 @@ true
 )
 FileListItemPreviewState
 (
-fieItem
+fileItem
 =
 FileItem
 (
@@ -2812,7 +2812,7 @@ fileItem
 =
 fileListItemPreviewState
 .
-fieItem
+fileItem
 areAfterListItemIconsVisible
 =
 fileListItemPreviewState
