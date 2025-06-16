@@ -261,6 +261,9 @@ WebMessage
 WebNotification
 "
 "
+WebNotificationAction
+"
+"
 WebNotificationDelegate
 "
 "
