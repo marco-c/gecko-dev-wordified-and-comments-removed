@@ -4881,7 +4881,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 mode
 =
@@ -5540,7 +5540,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 mode
 =

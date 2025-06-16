@@ -543,7 +543,7 @@ collections
 is
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 -
 >
 state

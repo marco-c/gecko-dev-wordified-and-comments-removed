@@ -2797,7 +2797,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 newMode
 )

@@ -876,7 +876,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 BrowsingMode
 .
@@ -914,7 +914,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 BrowsingMode
 .

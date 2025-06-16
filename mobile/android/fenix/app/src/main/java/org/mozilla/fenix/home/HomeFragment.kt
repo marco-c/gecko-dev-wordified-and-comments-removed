@@ -2319,7 +2319,7 @@ dispatch
 (
 AppAction
 .
-ModeChange
+BrowsingModeManagerModeChanged
 (
 browsingModeManager
 .
