@@ -147,6 +147,16 @@ ui
 .
 test
 .
+onNodeWithText
+import
+androidx
+.
+compose
+.
+ui
+.
+test
+.
 performClick
 import
 androidx
@@ -2510,7 +2520,7 @@ displayed
 )
 }
 fun
-verifyDisabledExtensionsPromotionBanner
+verifyExtensionsEnabledButton
 (
 composeTestRule
 :
@@ -2523,7 +2533,7 @@ i
 (
 TAG
 "
-verifyDisabledExtensionsPromotionBanner
+verifyExtensionsEnabledButton
 :
 Trying
 to
@@ -2572,7 +2582,7 @@ i
 (
 TAG
 "
-verifyDisabledExtensionsPromotionBanner
+verifyExtensionsEnabledButton
 :
 Verified
 that
@@ -3110,7 +3120,7 @@ ComposeTestRule
 =
 composeTestRule
 .
-onNodeWithContentDescription
+onNodeWithText
 (
 getStringResource
 (
@@ -3120,6 +3130,9 @@ string
 .
 browser_menu_manage_extensions
 )
+useUnmergedTree
+=
+true
 )
 .
 performClick
