@@ -681,6 +681,13 @@ expression
 logValue
 }
 ]
+showStacktrace
+:
+this
+.
+options
+.
+showStacktrace
 }
 )
 ;
