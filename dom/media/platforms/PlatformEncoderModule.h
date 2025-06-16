@@ -231,6 +231,7 @@ const
 =
 0
 ;
+virtual
 RefPtr
 <
 PlatformEncoderModule
