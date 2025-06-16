@@ -542,14 +542,8 @@ setAttribute
 "
 taskbartab
 "
-extraOptions
-.
-getPropertyAsAString
-(
 "
-taskbartab
 "
-)
 )
 ;
 }
@@ -1022,7 +1016,7 @@ init
 (
 )
 ;
-TaskbarTabsChrome
+TaskbarTabUI
 .
 init
 (
