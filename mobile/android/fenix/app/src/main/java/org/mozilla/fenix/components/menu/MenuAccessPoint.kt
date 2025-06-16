@@ -171,9 +171,6 @@ Route
 {
 MainMenu
 CustomTabMenu
-ToolsMenu
-SaveMenu
-ExtensionsMenu
 }
 /
 *

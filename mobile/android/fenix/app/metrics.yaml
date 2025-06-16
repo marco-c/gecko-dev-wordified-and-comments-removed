@@ -1212,7 +1212,6 @@ web_extension_browser_action_clicked
 downloads
 edit_bookmark
 extensions_learn_more
-extensions_submenu
 find_in_page
 forward
 forward_long_press
@@ -1226,14 +1225,12 @@ quit
 reader_mode_appearance
 reload
 remove_from_top_sites
-save_submenu
 save_to_collection
 set_default_browser
 settings
 share
 stop
 sync_account
-tools_submenu
 translate
 and
 print_content
