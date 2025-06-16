@@ -6090,6 +6090,8 @@ collapsed
 action
 .
 data
+.
+collapsed
 }
 ;
 default
