@@ -7166,7 +7166,6 @@ MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayFramesetBorder
 )
-virtual
 void
 HitTest
 (
@@ -7190,6 +7189,17 @@ aOutFrames
 )
 override
 {
+if
+(
+ShouldIgnoreForBackfaceHidden
+(
+aState
+)
+)
+{
+return
+;
+}
 aOutFrames
 -
 >
