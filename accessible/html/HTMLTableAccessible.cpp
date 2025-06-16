@@ -3641,7 +3641,11 @@ tableFrame
 tableFrame
 -
 >
-InnerTableFrame
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )
