@@ -87,7 +87,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 .
 h
 "

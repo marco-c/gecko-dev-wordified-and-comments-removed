@@ -2169,13 +2169,13 @@ OtherEndpointProcInfo
 ;
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 childPipe
 ;
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 parentPipe
 ;
@@ -2185,7 +2185,7 @@ nsresult
 const
 rv
 =
-PRemoteDecoderManager
+PRemoteMediaManager
 :
 :
 CreateEndpoints
@@ -2226,7 +2226,7 @@ CreateAndReject
 LaunchError
 (
 "
-PRemoteDecoderManager
+PRemoteMediaManager
 :
 :
 CreateEndpoints
@@ -2243,7 +2243,7 @@ if
 uadc
 -
 >
-SendNewContentRemoteDecoderManager
+SendNewContentRemoteMediaManager
 (
 std
 :
@@ -2260,7 +2260,7 @@ MOZ_ASSERT
 (
 false
 "
-SendNewContentRemoteDecoderManager
+SendNewContentRemoteMediaManager
 failure
 "
 )

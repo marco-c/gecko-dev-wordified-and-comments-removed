@@ -27,7 +27,7 @@ h
 #
 include
 "
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -88,7 +88,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 {
@@ -145,7 +145,7 @@ RemoteDecoderModule
 :
 RemoteDecoderModule
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 :
@@ -210,7 +210,7 @@ const
 bool
 supports
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 Supports
@@ -230,7 +230,7 @@ mMediaEngineId
 mLocation
 !
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -261,7 +261,7 @@ type
 %
 s
 "
-RemoteDecodeInToStr
+RemoteMediaInToStr
 (
 mLocation
 )
@@ -381,7 +381,7 @@ Option
 DefaultPlaybackDeviceMono
 ;
 return
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 CreateAudioDecoder
@@ -392,7 +392,7 @@ mLocation
 ;
 }
 return
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 CreateAudioDecoder
@@ -403,7 +403,7 @@ mLocation
 ;
 }
 return
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 CreateVideoDecoder

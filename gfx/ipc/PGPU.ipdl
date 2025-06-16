@@ -51,7 +51,7 @@ PUiCompositorController
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 #
 if
@@ -649,11 +649,11 @@ childId
 )
 ;
 async
-NewContentRemoteDecoderManager
+NewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 endpoint
 ContentParentId

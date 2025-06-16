@@ -854,7 +854,7 @@ RDD
 -
 >
 |
-PRemoteDecoderManager
+PRemoteMediaManager
 |
 Content
 RDD

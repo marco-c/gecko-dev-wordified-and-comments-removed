@@ -128,7 +128,7 @@ SupportDecoderParams
 ;
 enum
 class
-RemoteDecodeIn
+RemoteMediaIn
 ;
 using
 PDMCreateDecoderPromise
@@ -260,7 +260,7 @@ media
 MediaCodecsSupported
 &
 aSupported
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;

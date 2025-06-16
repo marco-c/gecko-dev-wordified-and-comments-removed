@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -963,11 +963,11 @@ IPCResult
 RDDParent
 :
 :
-RecvNewContentRemoteDecoderManager
+RecvNewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
@@ -981,7 +981,7 @@ aParentId
 if
 (
 !
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 CreateForContent
@@ -1042,7 +1042,7 @@ aContentDeviceData
 if
 (
 !
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 CreateVideoBridgeToOtherProcess
@@ -1861,7 +1861,7 @@ mProfilerController
 nullptr
 ;
 }
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 ShutdownVideoBridge

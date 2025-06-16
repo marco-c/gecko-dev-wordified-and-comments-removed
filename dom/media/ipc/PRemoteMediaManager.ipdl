@@ -169,7 +169,7 @@ anydom
 ]
 sync
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 {
 manages
 PRemoteDecoder

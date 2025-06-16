@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -1156,12 +1156,12 @@ aResult
 >
 mManager
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetSingleton
 (
-GetRemoteDecodeInFromVideoBridgeSource
+GetRemoteMediaInFromVideoBridgeSource
 (
 aResult
 -

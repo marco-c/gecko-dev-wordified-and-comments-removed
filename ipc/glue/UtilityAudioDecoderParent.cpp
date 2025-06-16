@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -657,7 +657,7 @@ Unused
 <
 SendUpdateMediaCodecsSupported
 (
-GetRemoteDecodeInFromKind
+GetRemoteMediaInFromKind
 (
 mKind
 )
@@ -696,11 +696,11 @@ IPCResult
 UtilityAudioDecoderParent
 :
 :
-RecvNewContentRemoteDecoderManager
+RecvNewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
@@ -721,7 +721,7 @@ NS_IsMainThread
 if
 (
 !
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 CreateForContent
@@ -792,7 +792,7 @@ MF_MEDIA_ENGINE_CDM
 if
 (
 !
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 CreateVideoBridgeToOtherProcess
@@ -963,7 +963,7 @@ this
 }
 location
 =
-GetRemoteDecodeInFromKind
+GetRemoteMediaInFromKind
 (
 mKind
 )

@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 .
 h
 "
@@ -136,7 +136,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 nsresult
 true
@@ -361,10 +361,10 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
-aOutRemoteDecoderManager
+aOutRemoteMediaManager
 )
 ;
 const

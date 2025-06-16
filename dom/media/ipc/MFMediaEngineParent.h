@@ -95,7 +95,7 @@ class
 MFMediaSource
 ;
 class
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 ;
 class
 MFMediaEngineParent
@@ -113,7 +113,7 @@ MFMediaEngineParent
 ;
 MFMediaEngineParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aManager
 nsISerialEventTarget
@@ -426,7 +426,7 @@ mIPDLSelfRef
 const
 RefPtr
 <
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 >
 mManager
 ;

@@ -22,14 +22,14 @@ h
 #
 include
 "
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
 #
 include
 "
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -59,7 +59,7 @@ RemoteAudioDecoderChild
 :
 RemoteAudioDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 :
@@ -201,11 +201,11 @@ aMediaEngineId
 {
 RefPtr
 <
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 >
 manager
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetSingleton
@@ -226,7 +226,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
 "
-RemoteDecoderManager
+RemoteMediaManager
 is
 not
 available
@@ -254,7 +254,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
 "
-RemoteDecoderManager
+RemoteMediaManager
 unable
 to
 send
@@ -297,7 +297,7 @@ RemoteAudioDecoderParent
 :
 RemoteAudioDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const

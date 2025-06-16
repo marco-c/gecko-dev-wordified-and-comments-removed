@@ -6856,7 +6856,7 @@ Endpoint
 mozilla
 :
 :
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -6892,7 +6892,7 @@ Type
 NS_ERROR_NOT_AVAILABLE
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 (
 )
@@ -6929,7 +6929,7 @@ Type
 NS_ERROR_NOT_AVAILABLE
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 (
 )
@@ -7013,7 +7013,7 @@ RejectValue
 )
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 (
 )
@@ -7064,7 +7064,7 @@ BackgroundParentImpl
 RecvEnsureUtilityProcessAndCreateBridge
 (
 const
-RemoteDecodeIn
+RemoteMediaIn
 &
 aLocation
 EnsureUtilityProcessAndCreateBridgeResolver
@@ -7197,7 +7197,7 @@ Endpoint
 mozilla
 :
 :
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -7240,7 +7240,7 @@ Type
 NS_ERROR_NOT_AVAILABLE
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 (
 )
@@ -7318,7 +7318,7 @@ Type
 NS_ERROR_FAILURE
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 (
 )

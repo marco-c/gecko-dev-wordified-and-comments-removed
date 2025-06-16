@@ -165,7 +165,7 @@ class
 MemoryReportingProcess
 ;
 class
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 ;
 namespace
 layers
@@ -498,7 +498,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
 aOutVideoManager
@@ -949,7 +949,7 @@ aOutEndpoint
 )
 ;
 void
-CreateContentRemoteDecoderManager
+CreateContentRemoteMediaManager
 (
 mozilla
 :
@@ -972,7 +972,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
 aOutEndPoint

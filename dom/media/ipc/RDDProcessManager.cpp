@@ -42,7 +42,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -51,7 +51,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -1031,7 +1031,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 endpoint
 ;
@@ -1346,10 +1346,10 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
-aOutRemoteDecoderManager
+aOutRemoteMediaManager
 )
 {
 MOZ_ASSERT
@@ -1394,7 +1394,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 parentPipe
 ;
@@ -1403,14 +1403,14 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 childPipe
 ;
 nsresult
 rv
 =
-PRemoteDecoderManager
+PRemoteMediaManager
 :
 :
 CreateEndpoints
@@ -1469,7 +1469,7 @@ false
 mRDDChild
 -
 >
-SendNewContentRemoteDecoderManager
+SendNewContentRemoteMediaManager
 (
 std
 :
@@ -1482,7 +1482,7 @@ aParentId
 )
 ;
 *
-aOutRemoteDecoderManager
+aOutRemoteMediaManager
 =
 std
 :

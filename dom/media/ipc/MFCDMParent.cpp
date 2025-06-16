@@ -2313,7 +2313,7 @@ const
 nsAString
 &
 aKeySystem
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aManager
 nsISerialEventTarget

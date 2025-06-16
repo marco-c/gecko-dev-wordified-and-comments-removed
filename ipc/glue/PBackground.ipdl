@@ -230,7 +230,7 @@ PVsync
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 include
 protocol
@@ -376,12 +376,12 @@ using
 mozilla
 :
 :
-RemoteDecodeIn
+RemoteMediaIn
 from
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -1290,7 +1290,7 @@ nsresult
 rv
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 aEndpoint
 )
@@ -1298,7 +1298,7 @@ aEndpoint
 async
 EnsureUtilityProcessAndCreateBridge
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 returns
@@ -1307,7 +1307,7 @@ nsresult
 rv
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 aEndpoint
 )

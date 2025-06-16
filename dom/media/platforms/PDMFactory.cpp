@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -854,7 +854,7 @@ MOZ_WIDGET_ANDROID
 }
 #
 endif
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 Init
@@ -3408,7 +3408,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -3433,7 +3433,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess
@@ -3461,7 +3461,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_AppleMedia
@@ -3480,7 +3480,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_WMF
@@ -3496,7 +3496,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_Generic
@@ -3524,7 +3524,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -4386,7 +4386,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -4565,7 +4565,7 @@ const
 MediaCodecsSupported
 &
 aSupported
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 {
@@ -4573,7 +4573,7 @@ const
 TrackSupportSet
 supports
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetTrackSupport

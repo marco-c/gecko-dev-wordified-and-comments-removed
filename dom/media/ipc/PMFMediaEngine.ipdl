@@ -69,7 +69,7 @@ h
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 using
 mozilla
@@ -195,7 +195,7 @@ protocol
 PMFMediaEngine
 {
 manager
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 parent
 :

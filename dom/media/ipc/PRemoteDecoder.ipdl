@@ -11,7 +11,7 @@ h
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 using
 mozilla
@@ -203,7 +203,7 @@ protocol
 PRemoteDecoder
 {
 manager
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 parent
 :

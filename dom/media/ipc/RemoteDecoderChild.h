@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -40,7 +40,7 @@ namespace
 mozilla
 {
 class
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 ;
 using
 mozilla
@@ -82,7 +82,7 @@ RemoteDecoderChild
 explicit
 RemoteDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
@@ -223,7 +223,7 @@ IPDLActorDestroyed
 (
 )
 ;
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 *
 GetManager
 (
@@ -277,7 +277,7 @@ DecodedData
 mDecodedData
 ;
 const
-RemoteDecodeIn
+RemoteMediaIn
 mLocation
 ;
 private

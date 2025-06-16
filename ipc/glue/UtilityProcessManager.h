@@ -74,7 +74,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 .
 h
 "
@@ -163,7 +163,7 @@ LaunchPromise
 <
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 >
 ;

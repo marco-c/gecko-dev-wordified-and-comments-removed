@@ -110,7 +110,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -6005,7 +6005,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
 aOutVideoManager
@@ -6064,7 +6064,7 @@ return
 false
 ;
 }
-CreateContentRemoteDecoderManager
+CreateContentRemoteMediaManager
 (
 aOtherProcess
 aChildId
@@ -6822,7 +6822,7 @@ void
 GPUProcessManager
 :
 :
-CreateContentRemoteDecoderManager
+CreateContentRemoteMediaManager
 (
 ipc
 :
@@ -6839,7 +6839,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
 aOutEndpoint
@@ -6895,7 +6895,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 parentPipe
 ;
@@ -6904,13 +6904,13 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 childPipe
 ;
 rv
 =
-PRemoteDecoderManager
+PRemoteMediaManager
 :
 :
 CreateEndpoints
@@ -6964,7 +6964,7 @@ return
 mGPUChild
 -
 >
-SendNewContentRemoteDecoderManager
+SendNewContentRemoteMediaManager
 (
 std
 :

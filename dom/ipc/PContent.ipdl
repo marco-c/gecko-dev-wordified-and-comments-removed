@@ -249,7 +249,7 @@ PVRManager
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 include
 protocol
@@ -1726,12 +1726,12 @@ using
 mozilla
 :
 :
-RemoteDecodeIn
+RemoteMediaIn
 from
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -3529,7 +3529,7 @@ PVRManagerChild
 vr
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 video
 uint32_t
@@ -3605,7 +3605,7 @@ PVRManagerChild
 vr
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 video
 uint32_t
@@ -6202,7 +6202,7 @@ process
 async
 UpdateMediaCodecsSupported
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 MediaCodecsSupported
 aSupported

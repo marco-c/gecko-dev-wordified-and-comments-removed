@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -59,12 +59,12 @@ ipc
 SandboxingKind
 GetSandboxingKindFromLocation
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
-RemoteDecodeIn
-GetRemoteDecodeInFromKind
+RemoteMediaIn
+GetRemoteMediaInFromKind
 (
 ipc
 :
@@ -73,8 +73,8 @@ SandboxingKind
 aKind
 )
 ;
-RemoteDecodeIn
-GetRemoteDecodeInFromVideoBridgeSource
+RemoteMediaIn
+GetRemoteMediaInFromVideoBridgeSource
 (
 layers
 :
@@ -86,9 +86,9 @@ aSource
 const
 char
 *
-RemoteDecodeInToStr
+RemoteMediaInToStr
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;

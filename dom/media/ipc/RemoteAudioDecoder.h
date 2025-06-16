@@ -42,7 +42,7 @@ public
 explicit
 RemoteAudioDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
@@ -93,7 +93,7 @@ public
 :
 RemoteAudioDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const

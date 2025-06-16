@@ -53,7 +53,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -184,7 +184,7 @@ RemoteDecoderModule
 :
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM

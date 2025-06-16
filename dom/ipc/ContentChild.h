@@ -839,7 +839,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -885,7 +885,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -4636,7 +4636,7 @@ ipc
 IPCResult
 RecvUpdateMediaCodecsSupported
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 const
 media

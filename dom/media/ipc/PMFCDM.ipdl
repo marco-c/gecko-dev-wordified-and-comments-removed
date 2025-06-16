@@ -65,7 +65,7 @@ h
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 using
 mozilla
@@ -499,7 +499,7 @@ protocol
 PMFCDM
 {
 manager
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 parent
 :
