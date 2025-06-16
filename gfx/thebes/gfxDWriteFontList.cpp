@@ -187,7 +187,12 @@ h
 #
 include
 "
-gfxGDIFontList
+.
+.
+/
+2d
+/
+AutoHelpersWin
 .
 h
 "
