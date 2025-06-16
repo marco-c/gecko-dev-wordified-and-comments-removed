@@ -553,7 +553,7 @@ icon
 fileItem
 .
 icon
-afterListAction
+afterListItemAction
 =
 {
 if
