@@ -17516,6 +17516,9 @@ engine
 handleWebNotificationClick
 (
 runtime
+action
+=
+null
 )
 val
 notification
@@ -17530,6 +17533,9 @@ engine
 handleWebNotificationClick
 (
 notification
+action
+=
+null
 )
 verify
 (
