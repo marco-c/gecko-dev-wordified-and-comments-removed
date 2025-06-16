@@ -4782,6 +4782,7 @@ onNodeWithContentDescription
 "
 Sign
 inSync
+bookmarks
 passwords
 tabs
 and
@@ -5019,7 +5020,7 @@ R
 .
 string
 .
-browser_menu_find_in_page_2
+browser_menu_find_in_page
 )
 )
 private
@@ -5209,7 +5210,7 @@ R
 .
 string
 .
-browser_menu_add_to_homescreen_2
+browser_menu_add_to_homescreen
 )
 )
 private
@@ -5228,7 +5229,7 @@ R
 .
 string
 .
-browser_menu_save_to_collection
+browser_menu_save_to_collection_2
 )
 )
 private
@@ -5247,7 +5248,7 @@ R
 .
 string
 .
-browser_menu_save_as_pdf
+browser_menu_save_as_pdf_2
 )
 )
 /
@@ -5285,7 +5286,7 @@ R
 .
 string
 .
-browser_menu_translate_page
+browser_menu_translations
 )
 )
 private
@@ -5327,7 +5328,7 @@ R
 .
 string
 .
-browser_menu_webcompat_reporter
+browser_menu_webcompat_reporter_2
 )
 )
 private
@@ -5346,7 +5347,7 @@ R
 .
 string
 .
-browser_menu_print
+browser_menu_print_2
 )
 )
 private
@@ -5422,7 +5423,7 @@ R
 .
 string
 .
-browser_menu_share_2
+browser_menu_share
 )
 )
 private

@@ -127,6 +127,15 @@ save
 "
 const
 val
+SHARE
+=
+"
+MAIN_MENU
+.
+share
+"
+const
+val
 RECOMMENDED_ADDON_ITEM
 =
 "

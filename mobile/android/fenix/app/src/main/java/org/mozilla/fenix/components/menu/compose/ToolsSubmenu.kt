@@ -464,7 +464,7 @@ R
 .
 string
 .
-browser_menu_webcompat_reporter
+browser_menu_webcompat_reporter_2
 )
 beforeIconPainter
 =
@@ -511,7 +511,7 @@ R
 .
 string
 .
-browser_menu_print
+browser_menu_print_2
 )
 beforeIconPainter
 =
@@ -551,7 +551,7 @@ R
 .
 string
 .
-browser_menu_share_2
+browser_menu_share
 )
 beforeIconPainter
 =
@@ -883,7 +883,7 @@ R
 .
 string
 .
-browser_menu_translate_page
+browser_menu_translations
 )
 beforeIconPainter
 =

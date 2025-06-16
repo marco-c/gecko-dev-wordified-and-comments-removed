@@ -342,7 +342,7 @@ R
 .
 string
 .
-browser_menu_webcompat_reporter
+browser_menu_webcompat_reporter_2
 )
 beforeIconPainter
 =
@@ -400,7 +400,7 @@ R
 .
 string
 .
-browser_menu_add_app_to_homescreen_2
+browser_menu_add_app_to_homescreen
 )
 }
 else
@@ -413,7 +413,7 @@ R
 .
 string
 .
-browser_menu_add_to_homescreen_2
+browser_menu_add_to_homescreen
 )
 }
 beforeIconPainter
@@ -444,7 +444,7 @@ R
 .
 string
 .
-browser_menu_save_to_collection
+browser_menu_save_to_collection_2
 )
 beforeIconPainter
 =
@@ -574,7 +574,7 @@ R
 .
 string
 .
-browser_menu_save_as_pdf
+browser_menu_save_as_pdf_2
 )
 beforeIconPainter
 =
@@ -604,7 +604,7 @@ R
 .
 string
 .
-browser_menu_print
+browser_menu_print_2
 )
 beforeIconPainter
 =
@@ -733,7 +733,7 @@ R
 .
 string
 .
-browser_menu_translate_page
+browser_menu_translate_page_2
 )
 beforeIconPainter
 =
