@@ -1131,7 +1131,7 @@ sys
 .
 mjs
 "
-TaskbarTabUI
+TaskbarTabsChrome
 :
 "
 resource
@@ -1143,7 +1143,7 @@ modules
 /
 taskbartabs
 /
-TaskbarTabUI
+TaskbarTabsChrome
 .
 sys
 .
