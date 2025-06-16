@@ -245,11 +245,6 @@ DirectoryLockInlines
 h
 "
 "
-DirectoryMetadata
-.
-h
-"
-"
 DummyCipherStrategy
 .
 h
