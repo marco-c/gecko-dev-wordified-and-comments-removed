@@ -35,6 +35,9 @@ rst
 nss_3_110
 .
 rst
+nss_3_101_4
+.
+rst
 nss_3_109
 .
 rst
@@ -286,7 +289,7 @@ NSS
 .
 101
 .
-3
+4
 (
 ESR
 )
@@ -310,7 +313,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_101_3_release_notes
+mozilla_projects_nss_nss_3_101_4_release_notes
 .
 .
 container

@@ -34486,10 +34486,10 @@ extractValue
 =
 PR_TRUE
 ;
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
+CK_IKE1_EXTENDED_DERIVE_PARAMS
 ikeAppB
 ;
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
+CK_IKE1_EXTENDED_DERIVE_PARAMS
 *
 pIkeAppB
 ;
@@ -35033,6 +35033,9 @@ break
 case
 CKM_NSS_IKE_PRF_DERIVE
 :
+case
+CKM_IKE_PRF_DERIVE
+:
 if
 (
 pMechanism
@@ -35043,7 +35046,7 @@ ulParameterLen
 =
 sizeof
 (
-CK_NSS_IKE_PRF_DERIVE_PARAMS
+CK_IKE_PRF_DERIVE_PARAMS
 )
 )
 {
@@ -35061,7 +35064,7 @@ sftk_ike_prf
 hSession
 att
 (
-CK_NSS_IKE_PRF_DERIVE_PARAMS
+CK_IKE_PRF_DERIVE_PARAMS
 *
 )
 pMechanism
@@ -35076,6 +35079,9 @@ break
 case
 CKM_NSS_IKE1_PRF_DERIVE
 :
+case
+CKM_IKE1_PRF_DERIVE
+:
 if
 (
 pMechanism
@@ -35086,7 +35092,7 @@ ulParameterLen
 =
 sizeof
 (
-CK_NSS_IKE1_PRF_DERIVE_PARAMS
+CK_IKE1_PRF_DERIVE_PARAMS
 )
 )
 {
@@ -35104,7 +35110,7 @@ sftk_ike1_prf
 hSession
 att
 (
-CK_NSS_IKE1_PRF_DERIVE_PARAMS
+CK_IKE1_PRF_DERIVE_PARAMS
 *
 )
 pMechanism
@@ -35120,10 +35126,13 @@ break
 case
 CKM_NSS_IKE1_APP_B_PRF_DERIVE
 :
+case
+CKM_IKE1_EXTENDED_DERIVE
+:
 pIkeAppB
 =
 (
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
+CK_IKE1_EXTENDED_DERIVE_PARAMS
 *
 )
 pMechanism
@@ -35200,7 +35209,7 @@ ulParameterLen
 =
 sizeof
 (
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
+CK_IKE1_EXTENDED_DERIVE_PARAMS
 )
 )
 {
@@ -35227,6 +35236,9 @@ break
 case
 CKM_NSS_IKE_PRF_PLUS_DERIVE
 :
+case
+CKM_IKE2_PRF_PLUS_DERIVE
+:
 if
 (
 pMechanism
@@ -35237,7 +35249,7 @@ ulParameterLen
 =
 sizeof
 (
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
 )
 )
 {
@@ -35255,7 +35267,7 @@ sftk_ike_prf_plus
 hSession
 att
 (
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
 *
 )
 pMechanism

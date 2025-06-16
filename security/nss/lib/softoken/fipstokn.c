@@ -952,8 +952,8 @@ sftk_fipsTable
 =
 {
 {
-CRYPTOKI_VERSION_MAJOR
-CRYPTOKI_VERSION_MINOR
+3
+0
 }
 #
 undef

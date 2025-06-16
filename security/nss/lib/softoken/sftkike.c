@@ -1882,7 +1882,7 @@ SFTKAttribute
 *
 inKey
 const
-CK_NSS_IKE_PRF_DERIVE_PARAMS
+CK_IKE_PRF_DERIVE_PARAMS
 *
 params
 SFTKObject
@@ -2423,7 +2423,7 @@ SFTKAttribute
 *
 inKey
 const
-CK_NSS_IKE1_PRF_DERIVE_PARAMS
+CK_IKE1_PRF_DERIVE_PARAMS
 *
 params
 SFTKObject
@@ -2969,7 +2969,7 @@ SFTKAttribute
 *
 inKey
 const
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
+CK_IKE1_EXTENDED_DERIVE_PARAMS
 *
 params
 SFTKObject
@@ -3606,7 +3606,7 @@ inKeyData
 CK_ULONG
 inKeyLen
 const
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
 *
 params
 unsigned
@@ -4148,7 +4148,7 @@ SFTKAttribute
 *
 inKey
 const
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
 *
 params
 SFTKObject
@@ -5852,7 +5852,7 @@ unsigned
 int
 outKeySize
 ;
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
 ike_params
 ;
 rv

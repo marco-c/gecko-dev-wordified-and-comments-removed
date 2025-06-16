@@ -295,6 +295,8 @@ shlibsign
 -
 v
 -
+C
+-
 i
 "
 {
@@ -310,6 +312,8 @@ i
 shlibsign
 -
 v
+-
+C
 -
 i
 "
@@ -434,6 +438,8 @@ echo
 /
 shlibsign
 -
+C
+-
 v
 -
 i
@@ -449,6 +455,8 @@ i
 "
 /
 shlibsign
+-
+C
 -
 v
 -
