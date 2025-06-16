@@ -1164,11 +1164,6 @@ paths
 loaderOptions
 .
 paths
-invisibleToDebugger
-:
-loaderOptions
-.
-invisibleToDebugger
 /
 /
 Make

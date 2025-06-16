@@ -247,13 +247,6 @@ js
 ]
 [
 "
-test_invisible_loader
-.
-js
-"
-]
-[
-"
 test_isSet
 .
 js
