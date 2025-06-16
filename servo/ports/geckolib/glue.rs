@@ -34430,6 +34430,8 @@ p
 matches
 (
 pseudo_selector
+&
+element
 )
 _
 =

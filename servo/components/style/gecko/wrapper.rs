@@ -12532,6 +12532,7 @@ pseudo
 matches
 (
 pseudo_selector
+self
 )
 }
 #
