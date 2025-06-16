@@ -910,6 +910,11 @@ it
 .
 name
 }
+dataCollectionPermissions
+=
+emptyList
+(
+)
 )
 if
 (

@@ -2614,6 +2614,11 @@ origins
 emptyList
 (
 )
+dataCollectionPermissions
+=
+emptyList
+(
+)
 onLearnMoreClicked
 =
 {
