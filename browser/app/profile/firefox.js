@@ -24502,3 +24502,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+browser
+.
+ipProtection
+.
+enabled
+"
+false
+)
+;
