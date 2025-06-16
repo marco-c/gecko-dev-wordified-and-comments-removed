@@ -320,6 +320,14 @@ set
 :
 [
 [
+"
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
 PREF_PRIVACY_USER_CONTEXT_ENABLED
 true
 ]
