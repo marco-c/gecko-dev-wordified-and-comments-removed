@@ -9476,11 +9476,9 @@ this
 .
 _state
 .
-updateVisibility
-(
-undefined
+launcherExpanded
+=
 false
-)
 ;
 }
 }
