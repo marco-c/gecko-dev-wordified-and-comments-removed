@@ -680,7 +680,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-principal
+storagePrincipal
 ;
 rv
 =
@@ -692,7 +692,7 @@ GetChannelResultStoragePrincipal
 aChannel
 getter_AddRefs
 (
-principal
+storagePrincipal
 )
 )
 ;
@@ -707,7 +707,7 @@ rv
 |
 |
 !
-principal
+storagePrincipal
 )
 )
 {
@@ -770,7 +770,7 @@ return
 bool
 secure
 =
-principal
+storagePrincipal
 -
 >
 GetIsOriginPotentiallyTrustworthy
@@ -951,7 +951,7 @@ nsIClearDataService
 CLEAR_FINGERPRINTING_PROTECTION_STATE
 ;
 }
-int
+uint32_t
 numClearCalls
 =
 (
@@ -979,7 +979,7 @@ nsCOMPtr
 <
 nsIClearDataService
 >
-csd
+cds
 =
 do_GetService
 (
@@ -1000,7 +1000,7 @@ service
 ;
 MOZ_ASSERT
 (
-csd
+cds
 )
 ;
 RefPtr
@@ -1049,12 +1049,12 @@ cleanFlags
 {
 rv
 =
-csd
+cds
 -
 >
 DeleteDataFromPrincipal
 (
-principal
+storagePrincipal
 false
 cleanFlags
 holder
@@ -1085,7 +1085,7 @@ cleanNetworkFlags
 {
 rv
 =
-csd
+cds
 -
 >
 DeleteDataFromPrincipal
