@@ -48,10 +48,6 @@ parse
 as
 urlparse
 from
-functools
-import
-lru_cache
-from
 six
 import
 string_types
@@ -137,12 +133,6 @@ Exception
 :
     
 pass
-lru_cache
-(
-maxsize
-=
-None
-)
 def
 get_uv_executable
 (
@@ -3435,11 +3425,26 @@ python_path
 os
 .
 environ
-[
+.
+get
+(
+                    
 "
 MOZ_PYTHON_HOME
 "
+Path
+(
+sys
+.
+executable
+)
+.
+parents
+[
+1
 ]
+                
+)
                 
 uv_venv_creation_command
 =
