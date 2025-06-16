@@ -2226,6 +2226,12 @@ List
 <
 String
 >
+dataCollectionPermissions
+:
+List
+<
+String
+>
 onConfirm
 :
 (
@@ -2255,6 +2261,7 @@ Required
 extension
 permissions
 origins
+dataCollectionPermissions
 onConfirm
 )
 )

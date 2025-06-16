@@ -3562,6 +3562,15 @@ org
 "
 )
 val
+dataCollectionPermissions
+=
+listOf
+(
+"
+locationInfo
+"
+)
+val
 delegateCaptor
 =
 argumentCaptor
@@ -3608,6 +3617,7 @@ onInstallPermissionRequest
 ext
 permissions
 origins
+dataCollectionPermissions
 onPermissionsGranted
 )
 verify
@@ -3632,6 +3642,7 @@ Required
 ext
 permissions
 origins
+dataCollectionPermissions
 onPermissionsGranted
 )
 )
