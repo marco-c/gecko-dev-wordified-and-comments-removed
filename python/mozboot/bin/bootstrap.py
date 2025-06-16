@@ -1,5 +1,8 @@
 import
 sys
+MINIMUM_MINOR_VERSION
+=
+9
 major
 minor
 =
@@ -25,13 +28,14 @@ major
 and
 minor
 <
-8
+MINIMUM_MINOR_VERSION
 )
 :
     
 print
 (
         
+f
 "
 Bootstrap
 currently
@@ -41,11 +45,14 @@ on
 Python
 3
 .
-8
+{
+MINIMUM_MINOR_VERSION
+}
 +
 .
 "
         
+f
 "
 Please
 try
@@ -55,7 +62,9 @@ running
 with
 python3
 .
-8
+{
+MINIMUM_MINOR_VERSION
+}
 +
 .
 "
