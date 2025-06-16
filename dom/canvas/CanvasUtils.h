@@ -275,6 +275,14 @@ nsIPrincipal
 aPrincipal
 )
 ;
+uint32_t
+GetCanvasExtractDataPermission
+(
+nsIPrincipal
+&
+aPrincipal
+)
+;
 enum
 class
 ImageExtraction
