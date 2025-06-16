@@ -729,6 +729,13 @@ webextensions
 "
 [
 "
+browser_eyedropper
+.
+js
+"
+]
+[
+"
 browser_in_rdm_pane
 .
 js
