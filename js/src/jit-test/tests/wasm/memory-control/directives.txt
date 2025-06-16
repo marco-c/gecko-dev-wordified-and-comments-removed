@@ -62,13 +62,6 @@ optimizing
 -
 setpref
 =
-wasm_memory64
-=
-false
--
--
-setpref
-=
 wasm_memory_control
 =
 true
@@ -84,13 +77,6 @@ wasm
 compiler
 =
 baseline
--
--
-setpref
-=
-wasm_memory64
-=
-false
 -
 -
 setpref

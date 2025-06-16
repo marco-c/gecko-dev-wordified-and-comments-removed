@@ -418,13 +418,6 @@ i32
 '
 )
 ;
-if
-(
-wasmMemory64Enabled
-(
-)
-)
-{
 func
 (
 false
@@ -461,7 +454,6 @@ i64
 '
 )
 ;
-}
 }
 testAll
 (
@@ -1016,13 +1008,6 @@ true
 (
 )
 ;
-if
-(
-wasmMemory64Enabled
-(
-)
-)
-{
 (
 function
 testOverflow
@@ -1090,7 +1075,6 @@ true
 (
 )
 ;
-}
 testAll
 (
 function
