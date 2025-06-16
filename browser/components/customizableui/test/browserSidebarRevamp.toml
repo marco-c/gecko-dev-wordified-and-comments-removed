@@ -67,6 +67,15 @@ overflowable
 -
 toolbar
 "
+skip
+-
+if
+=
+[
+"
+devedition
+"
+]
 [
 "
 browser_proton_toolbar_hide_toolbarbuttons
