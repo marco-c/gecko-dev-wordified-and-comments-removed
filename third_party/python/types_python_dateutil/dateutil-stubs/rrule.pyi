@@ -188,10 +188,6 @@ xafter
 self
 dt
 count
-:
-Incomplete
-|
-None
 =
 None
 inc

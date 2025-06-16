@@ -75,10 +75,6 @@ get
 self
 name
 default
-:
-Incomplete
-|
-None
 =
 None
 )

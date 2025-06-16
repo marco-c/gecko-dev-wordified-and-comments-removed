@@ -2,6 +2,10 @@ import
 os
 import
 sys
+from
+typing
+import
+TYPE_CHECKING
 __all__
 =
 (
@@ -44,8 +48,18 @@ NO_EXTENSIONS
 =
 True
 if
-not
+TYPE_CHECKING
+or
 NO_EXTENSIONS
+:
+    
+from
+.
+_quoting_py
+import
+_Quoter
+_Unquoter
+else
 :
     
 try
@@ -62,15 +76,6 @@ except
 ImportError
 :
         
-from
-.
-_quoting_py
-import
-_Quoter
-_Unquoter
-else
-:
-    
 from
 .
 _quoting_py

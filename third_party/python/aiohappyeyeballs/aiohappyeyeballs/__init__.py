@@ -3,9 +3,9 @@ __version__
 "
 2
 .
-4
+6
 .
-4
+1
 "
 from
 .
@@ -17,6 +17,7 @@ from
 types
 import
 AddrInfoType
+SocketFactoryType
 from
 .
 utils
@@ -30,6 +31,10 @@ __all__
     
 "
 AddrInfoType
+"
+    
+"
+SocketFactoryType
 "
     
 "

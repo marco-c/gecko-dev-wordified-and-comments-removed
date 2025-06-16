@@ -31,9 +31,15 @@ TYPE_CHECKING
 :
     
 from
-typing
+collections
+.
+abc
 import
 Iterator
+    
+from
+typing
+import
 Literal
 class
 PlatformDirsABC
@@ -74,12 +80,12 @@ appauthor
 :
 str
 |
-None
-|
 Literal
 [
 False
 ]
+|
+None
 =
 None
         

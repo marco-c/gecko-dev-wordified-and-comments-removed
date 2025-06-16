@@ -1,7 +1,6 @@
 from
 _typeshed
 import
-Incomplete
 StrOrBytesPath
 from
 collections
@@ -20,10 +19,6 @@ filename
 :
 StrOrBytesPath
 tag
-:
-Incomplete
-|
-None
 =
 None
 format
@@ -45,10 +40,6 @@ TarInfo
 [
 ]
 metadata
-:
-Incomplete
-|
-None
 =
 None
 )

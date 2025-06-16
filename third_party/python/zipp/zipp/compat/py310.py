@@ -1,7 +1,7 @@
 import
-sys
-import
 io
+import
+sys
 def
 _text_encoding
 (

@@ -111,9 +111,29 @@ try
         
 import
 fcntl
+        
+_
+=
+(
+fcntl
+.
+flock
+fcntl
+.
+LOCK_EX
+fcntl
+.
+LOCK_NB
+fcntl
+.
+LOCK_UN
+)
     
 except
+(
 ImportError
+AttributeError
+)
 :
         
 pass
@@ -329,7 +349,9 @@ fd
 =
 cast
 (
+"
 int
+"
 self
 .
 _context

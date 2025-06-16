@@ -2,6 +2,13 @@ import
 os
 import
 re
+from
+.
+compat
+.
+py313
+import
+legacy_end_marker
 _default_seps
 =
 os
@@ -174,6 +181,8 @@ pattern
 )
 )
     
+legacy_end_marker
+    
 def
 extend
 (
@@ -225,7 +234,7 @@ Unix
 Append
 '
 \
-Z
+z
 '
 to
 imply
@@ -253,7 +262,7 @@ pattern
 }
 )
 \
-Z
+z
 '
     
 def

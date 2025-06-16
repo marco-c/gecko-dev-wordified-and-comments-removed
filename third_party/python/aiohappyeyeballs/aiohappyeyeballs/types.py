@@ -13,6 +13,7 @@ socket
 from
 typing
 import
+Callable
 Tuple
 Union
 AddrInfoType
@@ -41,4 +42,15 @@ int
 str
     
 Tuple
+]
+SocketFactoryType
+=
+Callable
+[
+[
+AddrInfoType
+]
+socket
+.
+socket
 ]

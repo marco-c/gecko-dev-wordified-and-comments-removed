@@ -37,6 +37,12 @@ TypeVar
 _T
 "
 )
+RE_RAISE_EXCEPTIONS
+=
+(
+SystemExit
+KeyboardInterrupt
+)
 def
 _set_result
 (
@@ -836,10 +842,7 @@ coro_fn
 )
         
 except
-(
-SystemExit
-KeyboardInterrupt
-)
+RE_RAISE_EXCEPTIONS
 :
             
 raise
@@ -1032,6 +1035,8 @@ break
             
 while
 tasks
+or
+start_next
 :
                 
 done
@@ -1040,11 +1045,11 @@ await
 _wait_one
 (
                     
-[
+(
 *
 tasks
 start_next
-]
+)
 if
 start_next
 else
