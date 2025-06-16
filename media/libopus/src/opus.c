@@ -20,8 +20,6 @@ h
 #
 include
 "
-celt
-/
 mathops
 .
 h
