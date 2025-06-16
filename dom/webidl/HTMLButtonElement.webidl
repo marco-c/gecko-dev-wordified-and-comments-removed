@@ -353,7 +353,7 @@ CEReactions
 attribute
 Element
 ?
-invokeTargetElement
+commandForElement
 ;
 [
 Pref
@@ -371,7 +371,7 @@ CEReactions
 ]
 attribute
 DOMString
-invokeAction
+command
 ;
 }
 ;

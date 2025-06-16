@@ -17339,7 +17339,7 @@ FromNodeOrNull
 buttonControl
 -
 >
-GetInvokeTargetElement
+GetCommandForElement
 (
 )
 )
