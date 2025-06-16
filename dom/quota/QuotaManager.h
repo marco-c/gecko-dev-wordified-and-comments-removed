@@ -1195,14 +1195,10 @@ CreateDirectoryMetadata2
 nsIFile
 &
 aDirectory
-int64_t
-aTimestamp
-bool
-aPersisted
 const
-OriginMetadata
+FullOriginMetadata
 &
-aOriginMetadata
+aFullOriginMetadata
 )
 ;
 nsresult
