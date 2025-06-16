@@ -858,6 +858,14 @@ verticalTabs
 "
 true
 ]
+[
+"
+sidebar
+.
+revamp
+"
+true
+]
 ]
 }
 )
@@ -955,10 +963,6 @@ popPrefEnv
 )
 ;
 }
-)
-.
-skip
-(
 )
 ;
 add_task
