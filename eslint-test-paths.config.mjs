@@ -1364,16 +1364,6 @@ browser
 /
 components
 /
-pocket
-/
-test
-/
-"
-"
-browser
-/
-components
-/
 preferences
 /
 tests
