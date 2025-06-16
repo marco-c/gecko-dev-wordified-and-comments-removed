@@ -238,6 +238,16 @@ aDynamicOffsetsLength
 public
 :
 void
+Invalidate
+(
+)
+{
+mValid
+=
+false
+;
+}
+void
 SetBindGroup
 (
 uint32_t
