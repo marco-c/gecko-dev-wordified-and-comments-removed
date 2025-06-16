@@ -558,17 +558,10 @@ CallArgs
 args
 )
 {
-JS
-:
-:
-Rooted
-<
-AsyncDisposableStackObject
+auto
 *
->
 disposableStack
-(
-cx
+=
 &
 args
 .
@@ -585,7 +578,6 @@ as
 AsyncDisposableStackObject
 >
 (
-)
 )
 ;
 args

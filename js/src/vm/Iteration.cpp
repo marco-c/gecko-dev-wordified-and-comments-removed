@@ -9391,14 +9391,10 @@ return
 false
 ;
 }
-Rooted
-<
 JSObject
 *
->
 home
-(
-cx
+=
 GlobalObject
 :
 :
@@ -9410,7 +9406,6 @@ cx
 >
 global
 (
-)
 )
 )
 ;
@@ -9684,14 +9679,10 @@ argc
 vp
 )
 ;
-Rooted
-<
 JSObject
 *
->
 constructor
-(
-cx
+=
 GlobalObject
 :
 :
@@ -9699,7 +9690,6 @@ getOrCreateConstructor
 (
 cx
 JSProto_Iterator
-)
 )
 ;
 if

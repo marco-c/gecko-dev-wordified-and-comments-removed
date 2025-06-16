@@ -809,14 +809,10 @@ EnvironmentObject
 )
 )
 ;
-Rooted
-<
 NonSyntacticLexicalEnvironmentObject
 *
->
 lexicalEnv
-(
-cx
+=
 NonSyntacticLexicalEnvironmentObject
 :
 :
@@ -825,7 +821,6 @@ create
 cx
 enclosing
 thisv
-)
 )
 ;
 if

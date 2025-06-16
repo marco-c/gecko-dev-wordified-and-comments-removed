@@ -1381,17 +1381,10 @@ CallArgs
 args
 )
 {
-JS
-:
-:
-Rooted
-<
-DisposableStackObject
+auto
 *
->
 disposableStack
-(
-cx
+=
 &
 args
 .
@@ -1408,7 +1401,6 @@ as
 DisposableStackObject
 >
 (
-)
 )
 ;
 args

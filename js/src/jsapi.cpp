@@ -25132,14 +25132,10 @@ MutableHandleId
 idp
 )
 {
-Rooted
-<
 JSAtom
 *
->
 atom
-(
-cx
+=
 AtomizeChars
 (
 cx
@@ -25156,7 +25152,6 @@ chars
 .
 length
 (
-)
 )
 )
 ;
