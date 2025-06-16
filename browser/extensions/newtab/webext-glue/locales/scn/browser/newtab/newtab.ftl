@@ -514,7 +514,6 @@ history
 p2
 =
 St
-'
 azziuni
 nun
 si
@@ -1136,7 +1135,6 @@ a
 carpetta
 unni
 s
-'
 attrova
 }
 newtab
@@ -1548,7 +1546,6 @@ cca
 ti
 mustraremu
 l
-'
 art
 culi
 i
@@ -1634,7 +1631,6 @@ Torna
 cchi
 tardu
 p
-'
 aviri
 autri
 nutizzi
@@ -1645,16 +1641,13 @@ provider
 .
 Nun
 po
-'
 aspittari
 ?
 Scarta
 n
-'
 argumentu
 pupulari
 p
-'
 attruvari
 autri
 nutizzi
@@ -1874,7 +1867,6 @@ text
 =
 Sarba
 l
-'
 art
 culi
 chi
@@ -2170,3 +2162,9 @@ reporting
 ads
 and
 content
+#
+#
+Strings
+for
+trending
+searches
