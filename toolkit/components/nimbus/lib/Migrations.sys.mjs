@@ -939,6 +939,13 @@ _rsLoader
 .
 getRecipesFromAllCollections
 (
+{
+trigger
+:
+"
+migration
+"
+}
 )
 ;
 const
