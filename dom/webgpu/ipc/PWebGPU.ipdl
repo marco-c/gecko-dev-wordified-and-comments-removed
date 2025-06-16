@@ -750,6 +750,17 @@ PopErrorScopeResult
 result
 )
 ;
+async
+ReportError
+(
+RawId
+selfId
+GPUErrorFilter
+aType
+nsCString
+message
+)
+;
 child
 :
 async
