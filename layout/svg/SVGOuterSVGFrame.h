@@ -123,6 +123,10 @@ aStyle
 ;
 friend
 class
+AsyncSendIntrinsicSizeAndRatioToEmbedder
+;
+friend
+class
 AutoSVGViewHandler
 ;
 friend
