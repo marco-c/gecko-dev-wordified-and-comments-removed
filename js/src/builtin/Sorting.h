@@ -55,6 +55,10 @@ TypedArray
 }
 ;
 class
+alignas
+(
+8
+)
 ArraySortData
 {
 public
@@ -203,8 +207,11 @@ DEBUG
 )
 protected
 :
-size_t
+uint32_t
 padding
+[
+2
+]
 ;
 #
 endif

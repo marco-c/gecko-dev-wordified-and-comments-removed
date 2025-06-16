@@ -1181,6 +1181,10 @@ OrderedHashTableObject
 SlotCount
 ;
 struct
+alignas
+(
+8
+)
 Data
 {
 T
