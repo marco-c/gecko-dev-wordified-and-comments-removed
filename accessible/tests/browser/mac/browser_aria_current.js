@@ -154,6 +154,17 @@ two
 "
 )
 ;
+let
+attrChanged
+=
+waitForEvent
+(
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+"
+one
+"
+)
+;
 await
 SpecialPowers
 .
@@ -192,6 +203,9 @@ step
 ;
 }
 )
+;
+await
+attrChanged
 ;
 is
 (
