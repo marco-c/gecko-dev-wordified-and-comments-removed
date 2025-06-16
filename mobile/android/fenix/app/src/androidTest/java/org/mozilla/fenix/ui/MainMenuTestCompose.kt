@@ -1517,7 +1517,16 @@ openMainMenuFromRedesignedToolbar
 }
 .
 clickOpenInBrowserButtonFromRedesignedToolbar
+(
+composeTestRule
+)
 {
+verifyPageContent
+(
+customTabPage
+.
+content
+)
 verifyTabCounter
 (
 "
