@@ -188,6 +188,10 @@ using
 to_repo
 and
 to_branch
+(
+mercurial
+only
+)
 "
                 
 "
