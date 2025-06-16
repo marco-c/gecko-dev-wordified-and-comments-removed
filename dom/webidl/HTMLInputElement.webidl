@@ -1312,6 +1312,10 @@ HTMLInputElement
 includes
 PopoverInvokerElement
 ;
+HTMLInputElement
+includes
+InvokerElement
+;
 /
 /
 https

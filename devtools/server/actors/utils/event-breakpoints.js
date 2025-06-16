@@ -649,7 +649,7 @@ generalEvent
 control
 "
 "
-command
+invoke
 "
 global
 =
@@ -658,7 +658,7 @@ global
 &
 &
 "
-CommandEvent
+InvokeEvent
 "
 in
 global

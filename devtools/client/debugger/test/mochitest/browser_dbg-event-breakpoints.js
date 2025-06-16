@@ -18,7 +18,7 @@ dom
 .
 element
 .
-commandfor
+invokers
 .
 enabled
 "
@@ -579,7 +579,7 @@ event
 .
 control
 .
-command
+invoke
 "
 )
 ;

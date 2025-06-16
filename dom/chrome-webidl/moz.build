@@ -278,6 +278,11 @@ ClonedErrorHolder
 webidl
 "
 "
+CommandEvent
+.
+webidl
+"
+"
 ConsoleInstance
 .
 webidl
