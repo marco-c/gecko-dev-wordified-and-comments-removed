@@ -440,6 +440,10 @@ DecoderDoctorDiagnostics
 FlagsSet
 mFailureFlags
 ;
+static
+StaticMutex
+sSupportedMutex
+;
 friend
 class
 RemoteVideoDecoderParent

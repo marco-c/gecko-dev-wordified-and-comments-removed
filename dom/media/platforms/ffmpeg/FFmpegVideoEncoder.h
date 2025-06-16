@@ -145,6 +145,13 @@ InitEncoder
 )
 override
 ;
+MediaResult
+InitEncoderInternal
+(
+bool
+aHardware
+)
+;
 #
 if
 LIBAVCODEC_VERSION_MAJOR
