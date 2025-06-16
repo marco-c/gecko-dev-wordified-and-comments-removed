@@ -1254,9 +1254,6 @@ like
 yelp
 .
 rs
-pocket
-.
-rs
 and
 keyword
 .
