@@ -488,7 +488,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
@@ -2129,7 +2129,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
@@ -2613,7 +2613,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
