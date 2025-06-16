@@ -81,6 +81,12 @@ public
 :
 #
 if
+defined
+(
+MOZ_ZUCCHINI
+)
+|
+|
 !
 DCHECK_IS_ON
 (
