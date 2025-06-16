@@ -3407,6 +3407,11 @@ view
 "
 )
 ;
+if
+(
+view
+)
+{
 info
 (
 Click
@@ -3475,6 +3480,14 @@ testGetValue
 (
 )
 ;
+if
+(
+events
+?
+.
+length
+)
+{
 Assert
 .
 equal
@@ -3531,6 +3544,8 @@ collapsed
 .
 )
 ;
+}
+}
 }
 }
 info

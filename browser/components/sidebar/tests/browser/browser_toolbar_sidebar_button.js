@@ -2317,7 +2317,7 @@ sidebarMain
 .
 toolButtons
 [
-0
+1
 ]
 ;
 EventUtils
