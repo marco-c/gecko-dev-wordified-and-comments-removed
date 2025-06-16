@@ -10551,9 +10551,6 @@ return
 0
 ;
 }
-#
-ifdef
-ENABLE_WASM_JS_STRING_BUILTINS
 template
 <
 bool
@@ -12540,8 +12537,6 @@ return
 result
 ;
 }
-#
-endif
 Instance
 :
 :

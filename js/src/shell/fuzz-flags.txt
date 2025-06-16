@@ -604,13 +604,6 @@ disable
 huge
 -
 memory
--
--
-setpref
-=
-wasm_js_string_builtins
-=
-true
 #
 CPU
 instruction
