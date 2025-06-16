@@ -1077,6 +1077,9 @@ RandomizePixels
 GetCookieJarSettings
 (
 )
+PrincipalOrNull
+(
+)
 ret
 .
 get

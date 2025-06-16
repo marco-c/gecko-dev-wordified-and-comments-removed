@@ -1198,6 +1198,9 @@ RandomizePixels
 nsICookieJarSettings
 *
 aCookieJarSettings
+nsIPrincipal
+*
+aPrincipal
 uint8_t
 *
 aData
