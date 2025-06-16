@@ -29128,14 +29128,6 @@ setWrappedJSValueTag
 wrappedJSValueTagObject
 )
 ;
-if
-(
-ExnRefAvailable
-(
-cx
-)
-)
-{
 RootedId
 jsTagName
 (
@@ -29182,7 +29174,6 @@ JSPROP_ENUMERATE
 return
 false
 ;
-}
 }
 #
 ifdef
