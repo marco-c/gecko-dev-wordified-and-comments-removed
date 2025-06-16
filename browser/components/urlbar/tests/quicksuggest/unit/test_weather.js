@@ -2387,6 +2387,16 @@ if
 expected
 )
 {
+expected
+.
+weatherParams
+.
+source
+=
+"
+urlbar
+"
+;
 for
 (
 let
