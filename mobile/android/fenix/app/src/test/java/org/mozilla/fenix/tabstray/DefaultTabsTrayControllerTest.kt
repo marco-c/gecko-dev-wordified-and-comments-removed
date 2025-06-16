@@ -6734,6 +6734,9 @@ Private
 settings
 =
 settings
+appStore
+=
+appStore
 modeDidChange
 =
 mockk
