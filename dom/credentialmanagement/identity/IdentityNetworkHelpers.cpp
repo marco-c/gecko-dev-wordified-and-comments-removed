@@ -203,6 +203,11 @@ if
 success
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 result
 -
 >
@@ -493,6 +498,11 @@ if
 success
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 result
 -
 >
