@@ -82216,11 +82216,8 @@ if
 (
 MOZ_UNLIKELY
 (
-NS_WARN_IF
-(
 !
 subDocFrame
-)
 )
 )
 {
