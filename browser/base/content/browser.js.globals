@@ -438,7 +438,7 @@ TabCrashHandler
 TabsSetupFlowManager
 "
 "
-TaskbarTabsChrome
+TaskbarTabUI
 "
 "
 TelemetryEnvironment
