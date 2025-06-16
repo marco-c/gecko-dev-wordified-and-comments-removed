@@ -454,12 +454,13 @@ Normal
 settings
 =
 settings
-appStore
-=
-appStore
 modeDidChange
 =
 modeDidChange
+updateAppStateMode
+=
+{
+}
 )
 }
 Test
