@@ -17,8 +17,6 @@ path
 '
 ;
 import
-*
-as
 constants
 from
 '
@@ -746,7 +744,9 @@ exports
 .
 memory
 as
-any
+WebAssembly
+.
+Memory
 ;
 const
 alloc

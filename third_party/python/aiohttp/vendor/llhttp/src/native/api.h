@@ -105,6 +105,9 @@ llhttp_cb
 on_message_begin
 ;
 llhttp_data_cb
+on_protocol
+;
+llhttp_data_cb
 on_url
 ;
 llhttp_data_cb
@@ -136,6 +139,9 @@ on_body
 ;
 llhttp_cb
 on_message_complete
+;
+llhttp_cb
+on_protocol_complete
 ;
 llhttp_cb
 on_url_complete

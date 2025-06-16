@@ -1,7 +1,17 @@
 import
-*
-as
 constants
+from
+'
+.
+/
+constants
+'
+;
+import
+type
+{
+IntDict
+}
 from
 '
 .
@@ -545,8 +555,6 @@ prefix
 string
 map
 :
-constants
-.
 IntDict
 encoding
 :
@@ -745,8 +753,6 @@ name
 string
 map
 :
-constants
-.
 IntDict
 )
 :
@@ -798,7 +804,6 @@ XX
 (
 {
 value
-!
 }
 {
 key

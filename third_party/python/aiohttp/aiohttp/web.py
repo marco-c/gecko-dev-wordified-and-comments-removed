@@ -33,6 +33,8 @@ typing
 import
 (
     
+TYPE_CHECKING
+    
 Any
     
 Awaitable
@@ -1052,20 +1054,32 @@ WSMsgType
 run_app
 "
 )
-try
+if
+TYPE_CHECKING
 :
     
 from
 ssl
 import
 SSLContext
+else
+:
+    
+try
+:
+        
+from
+ssl
+import
+SSLContext
+    
 except
 ImportError
 :
-    
+        
 SSLContext
 =
-Any
+object
 warnings
 .
 filterwarnings
@@ -1359,12 +1373,7 @@ if
 isinstance
 (
 host
-(
 str
-bytes
-bytearray
-memoryview
-)
 )
 :
                 
@@ -2450,19 +2459,13 @@ on
 (
 default
 :
-%
-(
-default
-)
-r
+localhost
 )
 "
         
 default
 =
-"
-localhost
-"
+None
     
 )
     
@@ -2509,9 +2512,7 @@ int
         
 default
 =
-"
 8080
-"
     
 )
     
@@ -2542,21 +2543,21 @@ to
 serve
 on
 .
-Specifying
-a
-path
-will
-cause
+Can
+be
+combined
+with
+hostname
 "
         
 "
-hostname
-and
-port
-arguments
 to
-be
-ignored
+serve
+on
+both
+Unix
+and
+TCP
 .
 "
     
@@ -2745,8 +2746,6 @@ supported
 by
 your
 operating
-"
-"
 environment
 "
         
@@ -2763,6 +2762,43 @@ logging
 DEBUG
 )
     
+if
+args
+.
+path
+and
+args
+.
+hostname
+is
+None
+:
+        
+host
+=
+port
+=
+None
+    
+else
+:
+        
+host
+=
+args
+.
+hostname
+or
+"
+localhost
+"
+        
+port
+=
+args
+.
+port
+    
 app
 =
 func
@@ -2775,13 +2811,9 @@ run_app
 app
 host
 =
-args
-.
-hostname
+host
 port
 =
-args
-.
 port
 path
 =

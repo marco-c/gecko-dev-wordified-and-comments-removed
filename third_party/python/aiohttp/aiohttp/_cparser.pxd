@@ -11,15 +11,6 @@ cdef
 extern
 from
 "
-.
-.
-/
-vendor
-/
-llhttp
-/
-build
-/
 llhttp
 .
 h

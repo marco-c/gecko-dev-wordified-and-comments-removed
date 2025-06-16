@@ -301,8 +301,6 @@ run
 -
 rm
 -
-it
--
 -
 platform
 =

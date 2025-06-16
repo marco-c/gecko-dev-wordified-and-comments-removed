@@ -1,12 +1,12 @@
 FROM
 node
 :
-21
+23
 -
 alpine
 sha256
 :
-7bfef1d72befbb72b0894a3e4503edbdc0441058b4d091325143338cbf54cff8
+6eae672406a2bc8ed93eab6f9f76a02eb247e06ba82b2f5032c0a4ae07e825ba
 ARG
 UID
 =

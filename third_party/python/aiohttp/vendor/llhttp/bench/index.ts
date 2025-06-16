@@ -1,6 +1,4 @@
 import
-*
-as
 assert
 from
 "

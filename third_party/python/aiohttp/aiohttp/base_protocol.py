@@ -160,6 +160,23 @@ is
 not
 None
     
+property
+    
+def
+writing_paused
+(
+self
+)
+-
+>
+bool
+:
+        
+return
+self
+.
+_paused
+    
 def
 pause_writing
 (
@@ -482,10 +499,11 @@ None
 :
         
 if
-not
 self
 .
-connected
+transport
+is
+None
 :
             
 raise

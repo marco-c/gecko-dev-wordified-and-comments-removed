@@ -1,6 +1,4 @@
 import
-*
-as
 fs
 from
 '
@@ -44,8 +42,6 @@ fixture
 '
 ;
 import
-*
-as
 path
 from
 '
@@ -53,8 +49,6 @@ path
 '
 ;
 import
-*
-as
 llhttp
 from
 '
@@ -637,9 +631,6 @@ BUILD_DIR
 ;
 }
 catch
-(
-e
-)
 {
 }
 fs
@@ -731,15 +722,13 @@ undefined
 ;
 const
 cache
-:
+=
+new
 Map
 <
 Node
 ICompilerResult
 >
-=
-new
-Map
 (
 )
 ;

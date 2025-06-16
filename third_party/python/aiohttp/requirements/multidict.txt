@@ -12,7 +12,7 @@ with
 python
 3
 .
-8
+10
 #
 by
 the
@@ -61,9 +61,9 @@ multidict
 =
 6
 .
-0
+4
 .
-5
+4
 #
 via
 -
@@ -73,3 +73,16 @@ requirements
 multidict
 .
 in
+typing
+-
+extensions
+=
+=
+4
+.
+13
+.
+2
+#
+via
+multidict

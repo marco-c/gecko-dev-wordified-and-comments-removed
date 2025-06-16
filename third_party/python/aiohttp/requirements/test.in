@@ -1,17 +1,12 @@
 -
-c
-broken
--
-projects
-.
-in
--
 r
 base
 .
 in
+blockbuster
 coverage
 freezegun
+isal
 mypy
 ;
 implementation_name
@@ -20,6 +15,7 @@ implementation_name
 "
 cpython
 "
+pkgconfig
 proxy
 .
 py
@@ -71,3 +67,4 @@ wait
 for
 -
 it
+zlib_ng

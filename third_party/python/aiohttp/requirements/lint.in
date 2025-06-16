@@ -1,6 +1,7 @@
 aiodns
-aioredis
+blockbuster
 freezegun
+isal
 mypy
 ;
 implementation_name
@@ -32,3 +33,5 @@ platform_system
 "
 Windows
 "
+valkey
+zlib_ng

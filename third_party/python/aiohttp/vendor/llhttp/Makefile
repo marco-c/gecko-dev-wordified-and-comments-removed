@@ -448,8 +448,6 @@ cp
 -
 rf
 LICENSE
--
-MIT
 release
 /
 github
@@ -636,8 +634,6 @@ README
 .
 md
 LICENSE
--
-MIT
 libllhttp
 .
 pc

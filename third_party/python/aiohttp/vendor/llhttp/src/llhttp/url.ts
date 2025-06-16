@@ -1,5 +1,6 @@
 import
 {
+type
 LLParse
 source
 }
@@ -29,6 +30,7 @@ Node
 import
 {
 ALPHA
+type
 CharList
 ERROR
 URL_CHAR
@@ -151,8 +153,6 @@ llparse
 :
 LLParse
 separateSpans
-:
-boolean
 =
 false
 )

@@ -1,17 +1,7 @@
--
-c
-broken
--
-projects
-.
-in
 aiohttp
 -
 theme
 sphinx
-sphinxcontrib
--
-blockdiag
 sphinxcontrib
 -
 towncrier

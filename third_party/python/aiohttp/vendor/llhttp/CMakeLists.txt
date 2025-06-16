@@ -3,9 +3,9 @@ cmake_minimum_required
 VERSION
 3
 .
-5
+25
 .
-1
+0
 )
 cmake_policy
 (
@@ -264,7 +264,9 @@ include
 <
 INSTALL_INTERFACE
 :
-include
+{
+CMAKE_INSTALL_INCLUDEDIR
+}
 >
 )
 set_target_properties
@@ -300,6 +302,11 @@ target
 }
 EXPORT
 llhttp
+RUNTIME
+DESTINATION
+{
+CMAKE_INSTALL_BINDIR
+}
 LIBRARY
 DESTINATION
 {

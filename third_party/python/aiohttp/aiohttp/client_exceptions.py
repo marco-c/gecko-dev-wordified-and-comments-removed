@@ -28,7 +28,8 @@ from
 typedefs
 import
 StrOrURL
-try
+if
+TYPE_CHECKING
 :
     
 import
@@ -39,10 +40,25 @@ SSLContext
 ssl
 .
 SSLContext
+else
+:
+    
+try
+:
+        
+import
+ssl
+        
+SSLContext
+=
+ssl
+.
+SSLContext
+    
 except
 ImportError
 :
-    
+        
 ssl
 =
 SSLContext
@@ -188,6 +204,10 @@ InvalidUrlRedirectClientError
     
 "
 NonHttpUrlRedirectClientError
+"
+    
+"
+WSMessageTypeError
 "
 )
 class
@@ -2261,3 +2281,23 @@ self
 )
         
 )
+class
+WSMessageTypeError
+(
+TypeError
+)
+:
+    
+"
+"
+"
+WebSocket
+message
+type
+is
+not
+valid
+.
+"
+"
+"
