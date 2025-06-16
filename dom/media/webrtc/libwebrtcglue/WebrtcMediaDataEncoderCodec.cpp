@@ -1515,14 +1515,16 @@ nullptr
 CodecType
 type
 ;
-Maybe
-<
 EncoderConfig
 :
 :
 CodecSpecific
->
 specific
+{
+void_t
+{
+}
+}
 ;
 switch
 (
@@ -1567,8 +1569,9 @@ mFormatParams
 specific
 .
 emplace
-(
+<
 H264Specific
+>
 (
 profileLevel
 .
@@ -1580,7 +1583,6 @@ H264BitStreamFormat
 :
 :
 ANNEXB
-)
 )
 ;
 break
@@ -1646,8 +1648,9 @@ GetFrameDropEnabled
 specific
 .
 emplace
-(
+<
 VP8Specific
+>
 (
 MapComplexity
 (
@@ -1664,7 +1667,6 @@ vp8
 .
 automaticResizeOn
 frameDropEnabled
-)
 )
 ;
 break
@@ -1730,8 +1732,9 @@ GetFrameDropEnabled
 specific
 .
 emplace
-(
+<
 VP9Specific
+>
 (
 MapComplexity
 (
@@ -1757,7 +1760,6 @@ numberOfSpatialLayers
 vp9
 .
 flexibleMode
-)
 )
 ;
 break

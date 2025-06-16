@@ -843,6 +843,13 @@ if
 mConfig
 .
 mCodecSpecific
+.
+is
+<
+H264Specific
+>
+(
+)
 )
 {
 const
@@ -853,8 +860,7 @@ specific
 mConfig
 .
 mCodecSpecific
--
->
+.
 as
 <
 H264Specific
@@ -2328,6 +2334,13 @@ if
 mConfig
 .
 mCodecSpecific
+.
+is
+<
+H264Specific
+>
+(
+)
 )
 {
 const
@@ -2338,8 +2351,7 @@ specific
 mConfig
 .
 mCodecSpecific
--
->
+.
 as
 <
 H264Specific

@@ -2314,8 +2314,7 @@ return
 mConfig
 .
 mCodecSpecific
--
->
+.
 as
 <
 H264Specific

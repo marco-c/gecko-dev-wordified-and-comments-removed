@@ -1235,15 +1235,7 @@ if
 aConfig
 .
 mCodecSpecific
-)
-{
-if
-(
-aConfig
 .
-mCodecSpecific
--
->
 is
 <
 H264Specific
@@ -1280,8 +1272,7 @@ GetProfile
 aConfig
 .
 mCodecSpecific
--
->
+.
 as
 <
 H264Specific
@@ -1318,7 +1309,6 @@ hr
 return
 nullptr
 ;
-}
 }
 }
 return

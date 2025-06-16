@@ -1536,14 +1536,16 @@ point
 )
 ;
 }
-Maybe
-<
 EncoderConfig
 :
 :
 CodecSpecific
->
 specific
+{
+void_t
+{
+}
+}
 ;
 if
 (
@@ -1649,8 +1651,9 @@ H264_PROFILE_HIGH
 specific
 .
 emplace
-(
+<
 H264Specific
+>
 (
 static_cast
 <
@@ -1661,7 +1664,6 @@ profile
 )
 level
 format
-)
 )
 ;
 }
@@ -1819,8 +1821,9 @@ endif
 specific
 .
 emplace
-(
+<
 VP9Specific
+>
 (
 VPXComplexity
 :
@@ -1834,7 +1837,6 @@ false
 true
 1
 false
-)
 )
 ;
 }
