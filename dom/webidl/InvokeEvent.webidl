@@ -124,7 +124,7 @@ dom
 .
 element
 .
-invokers
+commandfor
 .
 enabled
 "
