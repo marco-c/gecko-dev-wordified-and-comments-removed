@@ -11,9 +11,7 @@ Path
 from
 typing
 import
-List
 Optional
-Set
 from
 manifestparser
 .
@@ -605,7 +603,7 @@ close
                 
 removed_condition
 :
-List
+list
 [
 str
 ]
@@ -783,7 +781,7 @@ self
 )
 -
 >
-Set
+set
 [
 str
 ]

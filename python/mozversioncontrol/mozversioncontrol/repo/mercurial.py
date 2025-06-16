@@ -23,8 +23,6 @@ Path
 from
 typing
 import
-Dict
-List
 Optional
 Union
 from
@@ -1878,7 +1876,7 @@ str
         
 changed_files
 :
-Dict
+dict
 [
 str
 str
@@ -2092,7 +2090,7 @@ follow
 :
 Optional
 [
-List
+list
 [
 str
 ]
@@ -2103,7 +2101,7 @@ None
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2256,14 +2254,14 @@ get_commit_patches
 self
 nodes
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
 bytes
 ]
@@ -2440,7 +2438,7 @@ changed_files
 :
 Optional
 [
-Dict
+dict
 [
 str
 str

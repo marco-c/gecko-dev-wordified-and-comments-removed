@@ -11,7 +11,6 @@ Path
 from
 typing
 import
-List
 Optional
 import
 tomlkit
@@ -190,7 +189,7 @@ sites
 :
 Optional
 [
-List
+list
 [
 str
 ]
@@ -828,7 +827,7 @@ sites
 :
 Optional
 [
-List
+list
 [
 str
 ]

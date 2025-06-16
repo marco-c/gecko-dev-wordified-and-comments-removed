@@ -17,8 +17,6 @@ Path
 from
 typing
 import
-Dict
-List
 Optional
 Union
 from
@@ -1798,7 +1796,7 @@ str
         
 changed_files
 :
-Dict
+dict
 [
 str
 str
@@ -2405,7 +2403,7 @@ follow
 :
 Optional
 [
-List
+list
 [
 str
 ]
@@ -2416,7 +2414,7 @@ None
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2456,7 +2454,7 @@ str
 )
 -
 >
-List
+list
 [
 bytes
 ]
@@ -2502,7 +2500,7 @@ changed_files
 :
 Optional
 [
-Dict
+dict
 [
 str
 str
@@ -2580,7 +2578,7 @@ stage_changes
 self
 changed_files
 :
-Dict
+dict
 [
 str
 str

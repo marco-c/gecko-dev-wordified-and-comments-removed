@@ -11,6 +11,12 @@ shutil
 import
 sys
 from
+collections
+.
+abc
+import
+Iterable
+from
 datetime
 import
 datetime
@@ -23,10 +29,6 @@ from
 subprocess
 import
 check_call
-from
-typing
-import
-Iterable
 from
 compare_locales
 .

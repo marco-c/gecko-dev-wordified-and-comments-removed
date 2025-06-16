@@ -3,7 +3,7 @@ os
 from
 functools
 import
-lru_cache
+cache
 import
 yaml
 from
@@ -285,12 +285,7 @@ in
 CHECKSUMS_EXTENSIONS
     
 ]
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 _read_build_config
 (

@@ -19,10 +19,6 @@ string
 import
 Template
 from
-typing
-import
-List
-from
 urllib
 .
 parse
@@ -1174,7 +1170,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]

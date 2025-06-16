@@ -77,12 +77,7 @@ base
 )
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 files_in
 (

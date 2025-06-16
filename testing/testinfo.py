@@ -16,10 +16,6 @@ from
 collections
 import
 defaultdict
-from
-typing
-import
-Dict
 import
 mozpack
 .
@@ -7639,7 +7635,7 @@ list
     
 task_tuples
 :
-Dict
+dict
 [
 str
 PlatformInfo

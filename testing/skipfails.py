@@ -38,10 +38,7 @@ from
 typing
 import
 Any
-Dict
-List
 Literal
-Tuple
 Union
 from
 xmlrpc
@@ -1203,7 +1200,7 @@ self
 .
 extras
 :
-Dict
+dict
 [
 str
 PlatformInfo
@@ -1248,7 +1245,7 @@ self
 .
 failed_platforms
 :
-Dict
+dict
 [
 str
 FailedPlatform
@@ -1261,37 +1258,37 @@ self
 .
 platform_permutations
 :
-Dict
+dict
 [
             
 str
             
-Dict
+dict
 [
                 
 str
                 
-Dict
+dict
 [
                     
 str
                     
-Dict
+dict
 [
                         
 str
                         
-Dict
+dict
 [
                             
 str
                             
-Dict
+dict
 [
                                 
 str
                                 
-Dict
+dict
 [
 str
 int
@@ -2192,10 +2189,10 @@ LINENO
                         
 runs
 :
-Dict
+dict
 [
 str
-Dict
+dict
 [
 str
 Any
@@ -2996,7 +2993,7 @@ get_failures
 self
 tasks
 :
-List
+list
 [
 TestTask
 ]
@@ -3104,13 +3101,13 @@ failures
         
 manifest_paths
 :
-Dict
+dict
 [
 str
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
@@ -5890,7 +5887,7 @@ anyjs
 :
 Optional
 [
-Dict
+dict
 [
 str
 bool
@@ -7299,7 +7296,7 @@ anyjs
 :
 Optional
 [
-Dict
+dict
 [
 str
 bool
@@ -7312,7 +7309,7 @@ differences
 :
 Optional
 [
-List
+list
 [
 int
 ]
@@ -7324,7 +7321,7 @@ pixels
 :
 Optional
 [
-List
+list
 [
 int
 ]
@@ -8964,7 +8961,7 @@ result
 :
 Optional
 [
-Dict
+dict
 [
 str
 Any
@@ -9019,9 +9016,9 @@ None
                 
 artifact_list
 :
-List
+list
 [
-Dict
+dict
 [
 Literal
 [
@@ -12601,7 +12598,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 Optional
 [

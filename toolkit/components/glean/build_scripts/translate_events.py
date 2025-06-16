@@ -23,6 +23,12 @@ re
 import
 sys
 from
+collections
+.
+abc
+import
+Sequence
+from
 os
 import
 path
@@ -30,10 +36,6 @@ from
 pathlib
 import
 Path
-from
-typing
-import
-Sequence
 import
 yaml
 from

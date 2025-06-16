@@ -119,12 +119,7 @@ return
 sandbox
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 _bootstrap_sandbox
 (

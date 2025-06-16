@@ -301,12 +301,7 @@ arm64
 }
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 sdk_tool_search_path
 (

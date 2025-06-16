@@ -181,10 +181,6 @@ xml
 etree
 .
 ElementTree
-from
-typing
-import
-List
 (
 _
 XML_DIR_STR
@@ -806,7 +802,7 @@ xml
 )
 lines
 :
-List
+list
 [
 str
 ]
@@ -900,7 +896,7 @@ append
 )
 b_lines
 :
-List
+list
 [
 bytes
 ]

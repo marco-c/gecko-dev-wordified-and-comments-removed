@@ -15,9 +15,7 @@ Path
 from
 typing
 import
-List
 Optional
-Tuple
 SKIP_LIBS
 =
 [
@@ -168,7 +166,7 @@ self
 .
 dependencies
 :
-List
+list
 [
 Dependency
 ]
@@ -183,13 +181,13 @@ self
 )
 -
 >
-Tuple
+tuple
 [
 Optional
 [
 str
 ]
-List
+list
 [
 Dependency
 ]

@@ -17,7 +17,6 @@ Path
 from
 typing
 import
-List
 Optional
 Union
 import
@@ -102,7 +101,7 @@ Optional
 Union
 [
 Path
-List
+list
 [
 Path
 ]
