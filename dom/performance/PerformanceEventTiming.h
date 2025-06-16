@@ -514,7 +514,7 @@ TimeStamp
 &
 aStartTime
 bool
-aIsCacelable
+aIsCancelable
 EventMessage
 aMessage
 )
