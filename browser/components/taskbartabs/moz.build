@@ -26,6 +26,13 @@ sys
 mjs
 "
 "
+TaskbarTabsPin
+.
+sys
+.
+mjs
+"
+"
 TaskbarTabsRegistry
 .
 sys
