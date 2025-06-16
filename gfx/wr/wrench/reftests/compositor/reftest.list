@@ -61,12 +61,6 @@ corners
 ref
 .
 yaml
-#
-fuzzy
-(
-2
-106
-)
 =
 =
 rounded
@@ -88,8 +82,8 @@ yaml
 #
 fuzzy
 (
-1
-6
+2
+106
 )
 =
 =

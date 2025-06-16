@@ -1982,7 +1982,7 @@ rounded_rect_count
 =
 1
 ;
-true
+false
 }
 else
 {
