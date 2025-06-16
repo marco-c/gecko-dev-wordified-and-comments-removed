@@ -611,15 +611,6 @@ props
 .
 wallpapersEnabled
 }
-trendingSearchEnabled
-=
-{
-this
-.
-props
-.
-trendingSearchEnabled
-}
 activeWallpaper
 =
 {
