@@ -246,9 +246,6 @@ SurfaceControlManager
 SurfaceTextureListener
 "
 "
-TelemetryUtils
-"
-"
 WebAuthnTokenManager
 "
 "
