@@ -585,6 +585,8 @@ restoredWindows
 .
 unshift
 (
+SessionWindowUI
+.
 undoCloseWindow
 (
 )

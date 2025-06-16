@@ -1104,8 +1104,11 @@ History
 UndoCloseTab
 "
 :
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 break
@@ -1117,6 +1120,8 @@ History
 UndoCloseWindow
 "
 :
+SessionWindowUI
+.
 undoCloseWindow
 (
 )
@@ -1130,8 +1135,11 @@ History
 RestoreLastClosedTabOrWindowOrSession
 "
 :
+SessionWindowUI
+.
 restoreLastClosedTabOrWindowOrSession
 (
+window
 )
 ;
 break

@@ -251,8 +251,11 @@ promiseSessionStoreLoads
 4
 )
 ;
+SessionWindowUI
+.
 restoreLastClosedTabOrWindowOrSession
 (
+window
 )
 ;
 await
@@ -436,8 +439,11 @@ tabs
 "
 )
 ;
+SessionWindowUI
+.
 restoreLastClosedTabOrWindowOrSession
 (
+window
 )
 ;
 Assert

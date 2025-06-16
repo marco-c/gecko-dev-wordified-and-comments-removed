@@ -2381,7 +2381,7 @@ closed
 return
 ;
 }
-RestoreLastSessionObserver
+gRestoreLastSessionObserver
 .
 init
 (

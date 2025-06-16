@@ -421,8 +421,11 @@ checkTabs
 3
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 checkTabs

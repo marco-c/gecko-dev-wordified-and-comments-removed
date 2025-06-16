@@ -209,8 +209,11 @@ TAB_URL
 true
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 const

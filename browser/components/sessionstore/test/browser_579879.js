@@ -102,8 +102,11 @@ tab1
 ;
 tab1
 =
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 ok

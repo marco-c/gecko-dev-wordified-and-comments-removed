@@ -1469,6 +1469,8 @@ states
 ;
 newWin
 =
+SessionWindowUI
+.
 undoCloseWindow
 (
 0

@@ -225,15 +225,6 @@ warnAboutClosingWindow
 MailIntegration
 "
 "
-restoreLastClosedTabOrWindowOrSession
-"
-"
-undoCloseTab
-"
-"
-undoCloseWindow
-"
-"
 gRemoteControl
 "
 "
@@ -243,7 +234,7 @@ gPrivateBrowsingUI
 switchToTabHavingURI
 "
 "
-RestoreLastSessionObserver
+gRestoreLastSessionObserver
 "
 "
 safeModeRestart
@@ -412,6 +403,9 @@ SessionStartup
 "
 "
 SessionStore
+"
+"
+SessionWindowUI
 "
 "
 SharingUtils
