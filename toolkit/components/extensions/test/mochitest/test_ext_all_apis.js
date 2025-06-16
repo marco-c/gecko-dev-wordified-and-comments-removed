@@ -85,6 +85,11 @@ getMessage
 "
 i18n
 .
+getPreferredSystemLanguages
+"
+"
+i18n
+.
 getUILanguage
 "
 "
