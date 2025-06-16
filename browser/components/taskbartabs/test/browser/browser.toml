@@ -115,6 +115,13 @@ html
 ]
 [
 "
+browser_taskbarTabs_windowManager
+.
+js
+"
+]
+[
+"
 browser_taskbarTabs_windowTracker
 .
 js
