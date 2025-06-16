@@ -867,6 +867,13 @@ setting
 }
 )
             
+if
+not
+test_setting
+:
+                
+continue
+            
 platform_info
 =
 PlatformInfo
