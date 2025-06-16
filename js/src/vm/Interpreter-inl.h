@@ -193,9 +193,7 @@ inline
 bool
 IsUninitializedLexical
 (
-const
 Value
-&
 val
 )
 {

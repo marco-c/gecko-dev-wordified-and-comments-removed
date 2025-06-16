@@ -2426,9 +2426,7 @@ result
 bool
 OptimizeGetIterator
 (
-const
 Value
-&
 arg
 JSContext
 *

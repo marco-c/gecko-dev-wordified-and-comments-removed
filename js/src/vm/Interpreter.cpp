@@ -3838,9 +3838,7 @@ static
 bool
 CalleeNeedsOuterizedThisObject
 (
-const
 Value
-&
 callee
 )
 {
@@ -29137,9 +29135,7 @@ js
 :
 OptimizeGetIterator
 (
-const
 Value
-&
 arg
 JSContext
 *
