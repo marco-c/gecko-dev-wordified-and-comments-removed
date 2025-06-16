@@ -30,6 +30,10 @@ used
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 functools
 import
@@ -43,7 +47,7 @@ typing
 import
 Iterator
 NamedTuple
-Optional
+Sequence
 from
 .
 _elffile
@@ -72,10 +76,9 @@ str
 )
 -
 >
-Optional
-[
 _MuslVersion
-]
+|
+None
 :
     
 lines
@@ -195,8 +198,6 @@ group
 functools
 .
 lru_cache
-(
-)
 def
 _get_musl_version
 (
@@ -206,10 +207,9 @@ str
 )
 -
 >
-Optional
-[
 _MuslVersion
-]
+|
+None
 :
     
 "
@@ -352,7 +352,7 @@ stderr
 subprocess
 .
 PIPE
-universal_newlines
+text
 =
 True
 )
@@ -367,9 +367,12 @@ stderr
 def
 platform_tags
 (
-arch
+archs
 :
+Sequence
+[
 str
+]
 )
 -
 >
@@ -394,19 +397,36 @@ platform
     
 :
 param
-arch
+archs
 :
-Should
+Sequence
+of
+compatible
+architectures
+.
+        
+The
+first
+one
+shall
+be
+the
+closest
+to
+the
+actual
+architecture
+and
 be
 the
 part
 of
+        
 platform
 tag
 after
 the
 linux_
-        
 prefix
 e
 .
@@ -414,6 +434,7 @@ g
 .
 x86_64
 .
+        
 The
 linux_
 prefix
@@ -421,13 +442,13 @@ is
 assumed
 as
 a
-        
 prerequisite
 for
 the
 current
 platform
 to
+        
 be
 musllinux
 -
@@ -467,6 +488,12 @@ None
 return
     
 for
+arch
+in
+archs
+:
+        
+for
 minor
 in
 range
@@ -480,7 +507,7 @@ minor
 1
 )
 :
-        
+            
 yield
 f
 "

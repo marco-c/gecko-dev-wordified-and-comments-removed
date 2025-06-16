@@ -71,6 +71,10 @@ html
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 enum
 import
@@ -81,8 +85,6 @@ from
 typing
 import
 IO
-Optional
-Tuple
 class
 ELFInvalid
 (
@@ -210,6 +212,8 @@ except
 struct
 .
 error
+as
+e
 :
             
 raise
@@ -222,6 +226,8 @@ parse
 identification
 "
 )
+from
+e
         
 magic
 =
@@ -390,6 +396,8 @@ encoding
         
 except
 KeyError
+as
+e
 :
             
 raise
@@ -408,10 +416,6 @@ capacity
 }
 )
 or
-"
-                
-f
-"
 encoding
 (
 {
@@ -423,6 +427,8 @@ encoding
 "
             
 )
+from
+e
         
 try
 :
@@ -502,7 +508,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 int
 .
@@ -541,10 +547,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
