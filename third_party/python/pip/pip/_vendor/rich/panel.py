@@ -144,12 +144,87 @@ ref
 :
 appendix_box
 .
-            
 Defaults
 to
 box
 .
 ROUNDED
+.
+        
+title
+(
+Optional
+[
+TextType
+]
+optional
+)
+:
+Optional
+title
+displayed
+in
+panel
+header
+.
+Defaults
+to
+None
+.
+        
+title_align
+(
+AlignMethod
+optional
+)
+:
+Alignment
+of
+title
+.
+Defaults
+to
+"
+center
+"
+.
+        
+subtitle
+(
+Optional
+[
+TextType
+]
+optional
+)
+:
+Optional
+subtitle
+displayed
+in
+panel
+footer
+.
+Defaults
+to
+None
+.
+        
+subtitle_align
+(
+AlignMethod
+optional
+)
+:
+Alignment
+of
+subtitle
+.
+Defaults
+to
+"
+center
+"
 .
         
 safe_box
@@ -197,7 +272,6 @@ to
 fill
 the
 console
-            
 width
 otherwise
 it
@@ -647,6 +721,15 @@ int
 =
 None
         
+height
+:
+Optional
+[
+int
+]
+=
+None
+        
 padding
 :
 PaddingDimensions
@@ -655,6 +738,12 @@ PaddingDimensions
 0
 1
 )
+        
+highlight
+:
+bool
+=
+False
     
 )
 -
@@ -720,9 +809,17 @@ width
 =
 width
             
+height
+=
+height
+            
 padding
 =
 padding
+            
+highlight
+=
+highlight
             
 expand
 =
@@ -1007,10 +1104,8 @@ self
 style
 )
         
-border_style
+partial_border_style
 =
-style
-+
 console
 .
 get_style
@@ -1019,6 +1114,12 @@ self
 .
 border_style
 )
+        
+border_style
+=
+style
++
+partial_border_style
         
 width
 =
@@ -1204,6 +1305,26 @@ plain
 )
             
 if
+text
+.
+style
+:
+                
+text
+.
+stylize
+(
+console
+.
+get_style
+(
+text
+.
+style
+)
+)
+            
+if
 excess_space
 :
                 
@@ -1344,7 +1465,7 @@ title_text
 .
 stylize_before
 (
-border_style
+partial_border_style
 )
         
 child_width
@@ -1642,7 +1763,7 @@ subtitle_text
 .
 stylize_before
 (
-border_style
+partial_border_style
 )
         
 if

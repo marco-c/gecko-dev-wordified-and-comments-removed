@@ -823,13 +823,11 @@ fade
 +
 cos
 (
-(
 position
 *
 pi
 *
 2
-)
 )
 /
 2

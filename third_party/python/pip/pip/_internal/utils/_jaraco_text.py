@@ -709,7 +709,7 @@ but
     
 The
 character
-preceeding
+preceding
 the
 backslash
 is

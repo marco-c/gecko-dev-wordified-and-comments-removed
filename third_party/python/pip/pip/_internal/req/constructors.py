@@ -76,6 +76,10 @@ os
 import
 re
 from
+dataclasses
+import
+dataclass
+from
 typing
 import
 Collection
@@ -600,11 +604,13 @@ str
 =
 "
 [
-%
-s
+{
+}
 ]
 "
-%
+.
+format
+(
 "
 "
 .
@@ -620,9 +626,10 @@ new_extras
 else
 "
 "
+)
     
 return
-Requirement
+get_requirement
 (
 f
 "
@@ -943,6 +950,7 @@ raise
 InstallationError
 (
             
+f
 "
 Could
 not
@@ -952,25 +960,21 @@ name
 for
 '
 {
+editable_req
 }
 '
-please
-specify
-one
 "
             
 "
+please
+specify
+one
 with
 #
 egg
 =
 your_package_name
 "
-.
-format
-(
-editable_req
-)
         
 )
     
@@ -1166,7 +1170,7 @@ lines
 "
 )
             
-Requirement
+get_requirement
 (
 line
 )
@@ -1351,70 +1355,43 @@ it
     
 return
 msg
+dataclass
+(
+frozen
+=
+True
+)
 class
 RequirementParts
 :
     
-def
-__init__
-(
-        
-self
-        
 requirement
 :
 Optional
 [
 Requirement
 ]
-        
+    
 link
 :
 Optional
 [
 Link
 ]
-        
+    
 markers
 :
 Optional
 [
 Marker
 ]
-        
+    
 extras
 :
 Set
 [
 str
 ]
-    
-)
-:
-        
-self
-.
-requirement
-=
-requirement
-        
-self
-.
-link
-=
-link
-        
-self
-.
-markers
-=
-markers
-        
-self
-.
-extras
-=
-extras
 def
 parse_req_from_editable
 (
@@ -1453,13 +1430,15 @@ Optional
 Requirement
 ]
 =
-Requirement
+get_requirement
 (
 name
 )
         
 except
 InvalidRequirement
+as
+exc
 :
             
 raise
@@ -1470,11 +1449,15 @@ f
 Invalid
 requirement
 :
-'
 {
 name
+!
+r
 }
-'
+:
+{
+exc
+}
 "
 )
     
@@ -2423,8 +2406,7 @@ Requirement
 try
 :
             
-req
-=
+return
 get_requirement
 (
 req_as_string
@@ -2432,6 +2414,8 @@ req_as_string
         
 except
 InvalidRequirement
+as
+exc
 :
             
 if
@@ -2525,6 +2509,10 @@ req_as_string
 !
 r
 }
+:
+{
+exc
+}
 "
 )
             
@@ -2550,59 +2538,6 @@ InstallationError
 (
 msg
 )
-        
-else
-:
-            
-for
-spec
-in
-req
-.
-specifier
-:
-                
-spec_str
-=
-str
-(
-spec
-)
-                
-if
-spec_str
-.
-endswith
-(
-"
-]
-"
-)
-:
-                    
-msg
-=
-f
-"
-Extras
-after
-version
-'
-{
-spec_str
-}
-'
-.
-"
-                    
-raise
-InstallationError
-(
-msg
-)
-        
-return
-req
     
 if
 req_as_string
@@ -2925,6 +2860,8 @@ req_string
     
 except
 InvalidRequirement
+as
+exc
 :
         
 raise
@@ -2935,11 +2872,15 @@ f
 Invalid
 requirement
 :
-'
 {
 req_string
+!
+r
 }
-'
+:
+{
+exc
+}
 "
 )
     

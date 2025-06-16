@@ -186,6 +186,12 @@ details
 from
 error
     
+assert
+distinfo_dir
+is
+not
+None
+    
 return
 os
 .

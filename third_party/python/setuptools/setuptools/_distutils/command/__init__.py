@@ -70,10 +70,6 @@ sdist
 '
     
 '
-register
-'
-    
-'
 bdist
 '
     
@@ -87,9 +83,5 @@ bdist_rpm
     
 '
 check
-'
-    
-'
-upload
 '
 ]

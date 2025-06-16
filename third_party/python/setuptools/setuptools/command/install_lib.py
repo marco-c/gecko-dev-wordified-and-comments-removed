@@ -541,18 +541,26 @@ outfile
 str
         
 preserve_mode
+:
+bool
 =
 True
         
 preserve_times
+:
+bool
 =
 True
         
 preserve_symlinks
+:
+bool
 =
 False
         
 level
+:
+object
 =
 1
     

@@ -56,8 +56,9 @@ sysconfig
 import
 tempfile
 from
+jaraco
 .
-_functools
+functools
 import
 pass_none
 from

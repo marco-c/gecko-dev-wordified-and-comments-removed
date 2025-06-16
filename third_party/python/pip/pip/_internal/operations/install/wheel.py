@@ -86,6 +86,8 @@ NewType
     
 Optional
     
+Protocol
+    
 Sequence
     
 Set
@@ -204,7 +206,7 @@ utils
 .
 misc
 import
-captured_stdout
+StreamWrapper
 ensure_dir
 hash_file
 partition
@@ -240,11 +242,6 @@ parse_wheel
 if
 TYPE_CHECKING
 :
-    
-from
-typing
-import
-Protocol
     
 class
 File
@@ -2240,24 +2237,6 @@ self
 None
 :
         
-parent_dir
-=
-os
-.
-path
-.
-dirname
-(
-self
-.
-dest_path
-)
-        
-ensure_dir
-(
-parent_dir
-)
-        
 if
 os
 .
@@ -2289,19 +2268,6 @@ _getinfo
 )
         
 with
-self
-.
-_zip_file
-.
-open
-(
-zipinfo
-)
-as
-f
-:
-            
-with
 open
 (
 self
@@ -2314,13 +2280,47 @@ wb
 as
 dest
 :
+            
+if
+zipinfo
+.
+file_size
+>
+0
+:
                 
+with
+self
+.
+_zip_file
+.
+open
+(
+zipinfo
+)
+as
+f
+:
+                    
+blocksize
+=
+min
+(
+zipinfo
+.
+file_size
+1024
+*
+1024
+)
+                    
 shutil
 .
 copyfileobj
 (
 f
 dest
+blocksize
 )
         
 if
@@ -3163,14 +3163,17 @@ message
 =
 (
                     
+f
 "
 Unexpected
 file
 in
 {
+wheel_path
 }
 :
 {
+record_path
 !
 r
 }
@@ -3178,10 +3181,10 @@ r
 .
 data
 directory
-contents
 "
                     
 "
+contents
 should
 be
 named
@@ -3200,12 +3203,6 @@ path
 .
 "
                 
-)
-.
-format
-(
-wheel_path
-record_path
 )
                 
 raise
@@ -3245,6 +3242,7 @@ message
 =
 (
                     
+f
 "
 Unknown
 scheme
@@ -3252,14 +3250,21 @@ key
 used
 in
 {
+wheel_path
 }
 :
 {
+scheme_key
 }
+"
+                    
+f
+"
 (
 for
 file
 {
+record_path
 !
 r
 }
@@ -3267,38 +3272,33 @@ r
 .
 .
 data
-"
-                    
-"
 directory
 contents
+"
+                    
+f
+"
 should
 be
 in
 subdirectories
 named
-"
-                    
-"
 with
 a
 valid
 scheme
+"
+                    
+f
+"
 key
 (
 {
+valid_scheme_keys
 }
 )
 "
                 
-)
-.
-format
-(
-wheel_path
-scheme_key
-record_path
-valid_scheme_keys
 )
                 
 raise
@@ -3701,11 +3701,49 @@ files
 script_scheme_files
 )
     
+existing_parents
+=
+set
+(
+)
+    
 for
 file
 in
 files
 :
+        
+parent_dir
+=
+os
+.
+path
+.
+dirname
+(
+file
+.
+dest_path
+)
+        
+if
+parent_dir
+not
+in
+existing_parents
+:
+            
+ensure_dir
+(
+parent_dir
+)
+            
+existing_parents
+.
+add
+(
+parent_dir
+)
         
 file
 .
@@ -3846,8 +3884,20 @@ pycompile
 :
         
 with
-captured_stdout
+contextlib
+.
+redirect_stdout
 (
+            
+StreamWrapper
+.
+from_stream
+(
+sys
+.
+stdout
+)
+        
 )
 as
 stdout

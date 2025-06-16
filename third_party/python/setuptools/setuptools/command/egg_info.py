@@ -22,8 +22,6 @@ contents
 "
 "
 import
-collections
-import
 functools
 import
 os
@@ -1168,33 +1166,19 @@ builds
         
 egg_info
 =
-collections
-.
-OrderedDict
+dict
 (
-)
-        
-egg_info
-[
-'
 tag_build
-'
-]
 =
 self
 .
 tags
 (
 )
-        
-egg_info
-[
-'
 tag_date
-'
-]
 =
 0
+)
         
 edit_config
 (
@@ -1501,6 +1485,8 @@ what
 filename
 data
 force
+:
+bool
 =
 False
 )
@@ -1838,6 +1824,24 @@ self
 )
 :
         
+writers
+=
+list
+(
+metadata
+.
+entry_points
+(
+group
+=
+'
+egg_info
+.
+writers
+'
+)
+)
+        
 self
 .
 mkpath
@@ -1900,18 +1904,7 @@ e
 for
 ep
 in
-metadata
-.
-entry_points
-(
-group
-=
-'
-egg_info
-.
 writers
-'
-)
 :
             
 writer
@@ -2077,6 +2070,8 @@ debug_print
 =
 None
 ignore_egg_info_dir
+:
+bool
 =
 False
 )
@@ -4666,6 +4661,8 @@ cmd
 basename
 filename
 force
+:
+bool
 =
 False
 )

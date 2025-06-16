@@ -36,7 +36,14 @@ def
 unpack_f
 (
 args
+:
+argparse
+.
+Namespace
 )
+-
+>
+None
 :
     
 from
@@ -58,7 +65,14 @@ def
 pack_f
 (
 args
+:
+argparse
+.
+Namespace
 )
+-
+>
+None
 :
     
 from
@@ -83,7 +97,14 @@ def
 convert_f
 (
 args
+:
+argparse
+.
+Namespace
 )
+-
+>
+None
 :
     
 from
@@ -108,7 +129,14 @@ def
 tags_f
 (
 args
+:
+argparse
+.
+Namespace
 )
+-
+>
+None
 :
     
 from
@@ -171,7 +199,14 @@ def
 version_f
 (
 args
+:
+argparse
+.
+Namespace
 )
+-
+>
+None
 :
     
 from
@@ -182,13 +217,13 @@ __version__
     
 print
 (
+f
 "
 wheel
-%
-s
-"
-%
+{
 __version__
+}
+"
 )
 def
 parse_build_tag

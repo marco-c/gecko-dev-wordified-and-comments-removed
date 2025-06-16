@@ -89,8 +89,9 @@ sys
 import
 sysconfig
 from
+jaraco
 .
-_functools
+functools
 import
 pass_none
 from

@@ -8,6 +8,7 @@ BinaryIO
 Dict
 Iterable
 List
+NoReturn
 Optional
 from
 pip
@@ -37,11 +38,6 @@ from
 hashlib
 import
 _Hash
-    
-from
-typing
-import
-NoReturn
 FAVORITE_HASH
 =
 "
@@ -168,10 +164,20 @@ allowed
 alg
 ]
 =
+[
+k
+.
+lower
+(
+)
+for
+k
+in
 sorted
 (
 keys
 )
+]
         
 self
 .

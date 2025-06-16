@@ -232,6 +232,7 @@ compat
 import
 py39
 py311
+py312
 from
 distutils
 import
@@ -2825,6 +2826,8 @@ run
 (
 self
 show_deprecation
+:
+bool
 =
 True
 )
@@ -3968,9 +3971,9 @@ w
 '
 encoding
 =
-py39
+py312
 .
-LOCALE_ENCODING
+PTH_ENCODING
 )
         
 except
@@ -4586,6 +4589,8 @@ easy_install
 self
 spec
 deps
+:
+bool
 =
 False
 )
@@ -4827,6 +4832,8 @@ download
 tmpdir
 deps
 install_needed
+:
+bool
 =
 False
 )
@@ -4836,9 +4843,12 @@ install_needed
 =
 install_needed
 or
+bool
+(
 self
 .
 always_copy
+)
         
 install_needed
 =
@@ -5103,6 +5113,8 @@ requirement
 dist
         
 deps
+:
+bool
 =
 True
         
@@ -5901,6 +5913,8 @@ self
 script_name
 contents
 mode
+:
+str
 =
 "
 t
@@ -8135,6 +8149,8 @@ self
 req
 dist
 what
+:
+str
 =
 "
 Installed
@@ -9192,9 +9208,9 @@ wt
 '
 encoding
 =
-py39
+py312
 .
-LOCALE_ENCODING
+PTH_ENCODING
 )
 as
 f
@@ -10626,8 +10642,9 @@ pth
                 
 continue
             
-with
-open
+content
+=
+_read_pth
 (
 os
 .
@@ -10638,23 +10655,15 @@ join
 dirname
 name
 )
-encoding
-=
-py39
-.
-LOCALE_ENCODING
 )
-as
-f
-:
-                
+            
 lines
 =
 list
 (
 yield_lines
 (
-f
+content
 )
 )
             
@@ -11534,27 +11543,23 @@ self
 sitedirs
 )
         
-f
+content
 =
-open
+_read_pth
 (
 self
 .
 filename
-'
-rt
-'
-encoding
-=
-py39
-.
-LOCALE_ENCODING
 )
         
 for
 line
 in
-f
+content
+.
+splitlines
+(
+)
 :
             
 path
@@ -11684,12 +11689,6 @@ seen
 add
 (
 normalized_path
-)
-        
-f
-.
-close
-(
 )
         
 while
@@ -12058,9 +12057,9 @@ wt
 '
 encoding
 =
-py39
+py312
 .
-LOCALE_ENCODING
+PTH_ENCODING
 )
 as
 f
@@ -14301,6 +14300,8 @@ from_string
 (
 cls
 string
+:
+str
 )
 :
         
@@ -14357,6 +14358,8 @@ install_options
 (
 self
 script_text
+:
+str
 )
 :
         
@@ -14999,7 +15002,6 @@ _scripts
             
 for
 name
-ep
 in
 dist
 .
@@ -15008,7 +15010,7 @@ get_entry_map
 group
 )
 .
-items
+keys
 (
 )
 :
@@ -15204,14 +15206,31 @@ classmethod
 def
 get_header
 (
+        
 cls
+        
 script_text
+:
+str
 =
 "
 "
+        
 executable
+:
+str
+|
+CommandSpec
+|
+Iterable
+[
+str
+]
+|
+None
 =
 None
+    
 )
 :
         
@@ -16113,6 +16132,8 @@ _rmtree
 (
 path
 ignore_errors
+:
+bool
 =
 False
 onexc
@@ -16192,6 +16213,66 @@ val
 str
 )
 values
+)
+def
+_read_pth
+(
+fullname
+:
+str
+)
+-
+>
+str
+:
+    
+try
+:
+        
+with
+open
+(
+fullname
+encoding
+=
+py312
+.
+PTH_ENCODING
+)
+as
+f
+:
+            
+return
+f
+.
+read
+(
+)
+    
+except
+UnicodeDecodeError
+:
+        
+with
+open
+(
+fullname
+encoding
+=
+py39
+.
+LOCALE_ENCODING
+)
+as
+f
+:
+            
+return
+f
+.
+read
+(
 )
 class
 EasyInstallDeprecationWarning

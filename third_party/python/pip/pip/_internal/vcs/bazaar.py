@@ -233,13 +233,15 @@ verbosity
 0
 :
             
-flag
+flags
 =
+[
 "
 -
 -
 quiet
 "
+]
         
 elif
 verbosity
@@ -248,16 +250,17 @@ verbosity
 1
 :
             
-flag
+flags
 =
-"
-"
+[
+]
         
 else
 :
             
-flag
+flags
 =
+[
 f
 "
 -
@@ -269,6 +272,7 @@ v
 verbosity
 }
 "
+]
         
 cmd_args
 =
@@ -283,7 +287,8 @@ checkout
 -
 lightweight
 "
-flag
+*
+flags
 rev_options
 .
 to_args

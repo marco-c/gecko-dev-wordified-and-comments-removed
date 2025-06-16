@@ -5,6 +5,11 @@ logging
 import
 os
 from
+dataclasses
+import
+dataclass
+field
+from
 typing
 import
 Container
@@ -24,6 +29,7 @@ packaging
 .
 utils
 import
+NormalizedName
 canonicalize_name
 from
 pip
@@ -34,7 +40,7 @@ packaging
 .
 version
 import
-Version
+InvalidVersion
 from
 pip
 .
@@ -901,18 +907,17 @@ BaseDistribution
 str
 :
     
+try
+:
+        
 dist_version
 =
 dist
 .
 version
     
-if
-isinstance
-(
-dist_version
-Version
-)
+except
+InvalidVersion
 :
         
 return
@@ -925,11 +930,17 @@ raw_name
 }
 =
 =
+=
 {
-dist_version
+dist
+.
+raw_version
 }
 "
     
+else
+:
+        
 return
 f
 "
@@ -938,7 +949,6 @@ dist
 .
 raw_name
 }
-=
 =
 =
 {
@@ -1375,28 +1385,28 @@ location
 ]
     
 )
+dataclass
+(
+frozen
+=
+True
+)
 class
 FrozenRequirement
 :
     
-def
-__init__
-(
-        
-self
-        
 name
 :
 str
-        
+    
 req
 :
 str
-        
+    
 editable
 :
 bool
-        
+    
 comments
 :
 Iterable
@@ -1404,47 +1414,32 @@ Iterable
 str
 ]
 =
+field
 (
+default_factory
+=
+tuple
 )
     
+property
+    
+def
+canonical_name
+(
+self
 )
 -
 >
-None
+NormalizedName
 :
         
-self
-.
-name
-=
-name
-        
-self
-.
-canonical_name
-=
+return
 canonicalize_name
 (
+self
+.
 name
 )
-        
-self
-.
-req
-=
-req
-        
-self
-.
-editable
-=
-editable
-        
-self
-.
-comments
-=
-comments
     
 classmethod
     

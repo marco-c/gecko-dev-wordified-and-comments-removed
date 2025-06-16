@@ -507,6 +507,25 @@ state
 "
 index
 )
+        
+logger
+.
+debug
+(
+"
+Reporter
+.
+ending_round
+(
+%
+r
+%
+r
+)
+"
+index
+state
+)
     
 def
 ending

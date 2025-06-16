@@ -1526,9 +1526,9 @@ scheme
 .
 startswith
 (
-'
+"
 https
-'
+"
 )
 and
 username
@@ -2660,6 +2660,31 @@ URL
 of
 the
 proxy
+.
+        
+:
+param
+hooks
+:
+(
+optional
+)
+Dictionary
+mapping
+hook
+name
+to
+one
+event
+or
+            
+list
+of
+events
+event
+must
+be
+callable
 .
         
 :
@@ -4144,10 +4169,8 @@ no_proxy
 )
             
 for
-(
 k
 v
-)
 in
 env_proxies
 .
@@ -4307,10 +4330,8 @@ BaseAdapter
 "
         
 for
-(
 prefix
 adapter
-)
 in
 self
 .

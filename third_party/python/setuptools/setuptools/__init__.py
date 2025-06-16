@@ -438,6 +438,8 @@ def
 _fetch_build_eggs
 (
 dist
+:
+Distribution
 )
 :
     
@@ -638,19 +640,13 @@ TYPE_CHECKING
 :
     
 from
-typing_extensions
-import
-TypeAlias
-    
-_Command
-:
-TypeAlias
-=
 distutils
 .
 core
-.
+import
 Command
+as
+_Command
 else
 :
     
@@ -1226,6 +1222,8 @@ ensure_string_list
 (
 self
 option
+:
+str
 )
 :
         

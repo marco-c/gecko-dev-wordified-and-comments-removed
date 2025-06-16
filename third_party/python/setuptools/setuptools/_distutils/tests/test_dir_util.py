@@ -198,15 +198,6 @@ creating
 {
 self
 .
-root_target
-}
-'
-f
-'
-creating
-{
-self
-.
 target
 }
 '

@@ -127,7 +127,7 @@ Python
 +
 and
     
-pkg_resourcess
+pkg_resources
 otherwise
 .
 This
@@ -407,7 +407,7 @@ to
 share
 instance
 state
-accorss
+across
 calls
 .
     

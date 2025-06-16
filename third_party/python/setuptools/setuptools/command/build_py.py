@@ -34,6 +34,12 @@ more_itertools
 import
 unique_everseen
 from
+setuptools
+.
+_path
+import
+StrPath
+from
 .
 .
 dist
@@ -282,22 +288,36 @@ copy_file
 self
         
 infile
+:
+StrPath
         
 outfile
+:
+StrPath
         
 preserve_mode
+:
+bool
 =
 True
         
 preserve_times
+:
+bool
 =
 True
         
 link
+:
+str
+|
+None
 =
 None
         
 level
+:
+object
 =
 1
     
@@ -855,6 +875,8 @@ get_outputs
 (
 self
 include_bytecode
+:
+bool
 =
 True
 )

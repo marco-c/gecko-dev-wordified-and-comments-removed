@@ -180,6 +180,7 @@ raise
 InstallationError
 (
             
+f
 "
 More
 than
@@ -192,13 +193,9 @@ directory
 found
 in
 {
+directory
 }
 "
-.
-format
-(
-directory
-)
         
 )
     

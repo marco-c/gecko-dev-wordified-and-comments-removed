@@ -6,7 +6,7 @@ from
 .
 compat
 import
-py39
+py312
 from
 distutils
 import
@@ -114,9 +114,9 @@ wt
 '
 encoding
 =
-py39
+py312
 .
-LOCALE_ENCODING
+PTH_ENCODING
 )
 as
 f

@@ -4545,7 +4545,6 @@ startswith
 '
 )
 and
-                    
 x
 <
 '

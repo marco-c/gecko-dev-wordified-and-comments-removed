@@ -2733,10 +2733,8 @@ _islice
 islice
             
 for
-(
 region
 lines
-)
 in
 render_map
 .

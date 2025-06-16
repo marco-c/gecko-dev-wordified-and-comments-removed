@@ -59,6 +59,16 @@ utils
 logging
 import
 getLogger
+from
+pip
+.
+_internal
+.
+utils
+.
+misc
+import
+format_size
 logger
 =
 getLogger
@@ -1184,11 +1194,27 @@ warning
 no_matching_msg
 )
         
+bytes_removed
+=
+0
+        
 for
 filename
 in
 files
 :
+            
+bytes_removed
++
+=
+os
+.
+stat
+(
+filename
+)
+.
+st_size
             
 os
 .
@@ -1219,10 +1245,18 @@ removed
 :
 %
 s
+(
+%
+s
+)
 "
 len
 (
 files
+)
+format_size
+(
+bytes_removed
 )
 )
     

@@ -36,7 +36,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -770,3 +770,14 @@ format_unencoded
 tokensource
 outfile
 )
+    
+def
+__class_getitem__
+(
+cls
+name
+)
+:
+        
+return
+cls

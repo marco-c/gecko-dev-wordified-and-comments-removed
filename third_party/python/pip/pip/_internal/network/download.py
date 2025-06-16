@@ -35,7 +35,6 @@ requests
 .
 models
 import
-CONTENT_CHUNK_SIZE
 Response
 from
 pip
@@ -330,9 +329,9 @@ elif
 total_length
 >
 (
-40
+512
 *
-1000
+1024
 )
 :
         
@@ -352,7 +351,6 @@ chunks
 response_chunks
 (
 resp
-CONTENT_CHUNK_SIZE
 )
     
 if

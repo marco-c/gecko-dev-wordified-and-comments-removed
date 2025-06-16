@@ -2235,7 +2235,7 @@ It
 s
 probably
 most
-ergononmic
+ergonomic
 to
 display
         

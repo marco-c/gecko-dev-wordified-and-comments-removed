@@ -34,7 +34,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -424,19 +424,19 @@ name
             
 print
 (
+f
 "
 Help
 on
 the
-%
-s
-lexer
-:
-"
-%
+{
 cls
 .
 name
+}
+lexer
+:
+"
 )
             
 print
@@ -467,19 +467,19 @@ name
             
 print
 (
+f
 "
 Help
 on
 the
-%
-s
-formatter
-:
-"
-%
+{
 cls
 .
 name
+}
+formatter
+:
+"
 )
             
 print
@@ -510,17 +510,17 @@ name
             
 print
 (
+f
 "
 Help
 on
 the
-%
-s
+{
+name
+}
 filter
 :
 "
-%
-name
 )
             
 print
@@ -545,15 +545,15 @@ ValueError
         
 print
 (
+f
 "
-%
-s
+{
+what
+}
 not
 found
 !
 "
-%
-what
 file
 =
 sys
@@ -683,18 +683,22 @@ print
 (
 '
 *
-%
-s
+{
+}
 \
 n
-%
-s
-%
-s
+{
+}
+{
+}
 '
 )
-%
+.
+format
+(
+*
 i
+)
 )
     
 elif
@@ -824,18 +828,22 @@ print
 (
 '
 *
-%
-s
+{
+}
 \
 n
-%
-s
-%
-s
+{
+}
+{
+}
 '
 )
-%
+.
+format
+(
+*
 i
+)
 )
     
 elif
@@ -903,15 +911,15 @@ name
             
 print
 (
+f
 "
-%
-s
-"
-%
+{
 docstring_headline
 (
 cls
 )
+}
+"
 )
     
 elif
@@ -978,15 +986,15 @@ name
             
 print
 (
+f
 "
-%
-s
-"
-%
+{
 docstring_headline
 (
 cls
 )
+}
+"
 )
 def
 _print_list_as_json
@@ -1283,17 +1291,19 @@ V
         
 print
 (
+f
 '
 Pygments
 version
-%
-s
+{
+__version__
+}
 (
 c
 )
 2006
 -
-2023
+2024
 by
 Georg
 Brandl
@@ -1307,8 +1317,6 @@ and
 contributors
 .
 '
-%
-__version__
 )
         
 return
@@ -2915,15 +2923,9 @@ try
 :
             
 import
-pip
-.
-_vendor
-.
 colorama
 .
 initialise
-as
-colorama_initialise
         
 except
 ImportError
@@ -2936,7 +2938,9 @@ else
             
 outfile
 =
-colorama_initialise
+colorama
+.
+initialise
 .
 wrap_stream
 (
@@ -4664,11 +4668,13 @@ msg
 n
 (
 f
-%
-s
+{
+}
 )
 '
-%
+.
+format
+(
 info
 [
 -
@@ -4693,6 +4699,7 @@ strip
 1
 :
 ]
+)
         
 print
 (

@@ -266,12 +266,12 @@ TypeVar
 _K
 "
 )
-_V
+_V_co
 =
 TypeVar
 (
 "
-_V
+_V_co
 "
 covariant
 =
@@ -1478,6 +1478,14 @@ name
 =
 module
     
+assert
+spec
+.
+loader
+is
+not
+None
+    
 spec
 .
 loader
@@ -2214,6 +2222,7 @@ import
 construct_package_dir
     
 if
+not
 namespaces
 :
         
@@ -2222,8 +2231,6 @@ setuptools
 .
 discovery
 import
-PEP420PackageFinder
-as
 PackageFinder
     
 else
@@ -2234,6 +2241,8 @@ setuptools
 .
 discovery
 import
+PEP420PackageFinder
+as
 PackageFinder
     
 root_dir
@@ -2707,6 +2716,8 @@ text
 :
 str
 text_source
+:
+str
 =
 "
 entry
@@ -3079,9 +3090,6 @@ TracebackType
 None
     
 )
--
->
-None
 :
         
 if
@@ -3184,7 +3192,7 @@ LazyMappingProxy
 Mapping
 [
 _K
-_V
+_V_co
 ]
 )
 :
@@ -3312,7 +3320,7 @@ Callable
 Mapping
 [
 _K
-_V
+_V_co
 ]
 ]
 )
@@ -3331,7 +3339,7 @@ _value
 Mapping
 [
 _K
-_V
+_V_co
 ]
 |
 None
@@ -3348,7 +3356,7 @@ self
 Mapping
 [
 _K
-_V
+_V_co
 ]
 :
         
@@ -3385,7 +3393,7 @@ _K
 )
 -
 >
-_V
+_V_co
 :
         
 return

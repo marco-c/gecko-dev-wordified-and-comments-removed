@@ -28,6 +28,11 @@ as
 SocketTimeout
 from
 .
+_collections
+import
+HTTPHeaderDict
+from
+.
 connection
 import
 (
@@ -2265,6 +2270,10 @@ ESHUTDOWN
 errno
 .
 EPROTOTYPE
+                
+errno
+.
+ECONNRESET
             
 }
 :
@@ -4012,10 +4021,20 @@ number
 "
 in
 message
+                    
 or
 "
 unknown
 protocol
+"
+in
+message
+                    
+or
+"
+record
+layer
+failure
 "
 in
 message
@@ -4389,6 +4408,21 @@ method
 "
 GET
 "
+                
+body
+=
+None
+                
+headers
+=
+HTTPHeaderDict
+(
+headers
+)
+.
+_prepare_for_method_change
+(
+)
             
 try
 :

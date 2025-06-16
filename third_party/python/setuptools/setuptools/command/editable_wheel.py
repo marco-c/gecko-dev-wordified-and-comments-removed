@@ -143,10 +143,6 @@ tempfile
 import
 TemporaryDirectory
 from
-types
-import
-TracebackType
-from
 typing
 import
 TYPE_CHECKING
@@ -176,7 +172,7 @@ from
 .
 compat
 import
-py39
+py312
 from
 .
 .
@@ -2658,6 +2654,7 @@ Protocol
 def
 __call__
 (
+        
 self
 wheel
 :
@@ -2670,11 +2667,12 @@ str
 ]
 mapping
 :
-dict
+Mapping
 [
 str
 str
 ]
+    
 )
 :
 .
@@ -2700,28 +2698,17 @@ __exit__
         
 self
         
-exc_type
+_exc_type
 :
-type
-[
-BaseException
-]
-|
-None
+object
         
-exc_value
+_exc_value
 :
-BaseException
-|
-None
+object
         
-traceback
+_traceback
 :
-TracebackType
-|
-None
-        
-/
+object
     
 )
 -
@@ -2787,7 +2774,7 @@ str
 ]
 mapping
 :
-dict
+Mapping
 [
 str
 str
@@ -3115,7 +3102,7 @@ str
 ]
 mapping
 :
-dict
+Mapping
 [
 str
 str
@@ -3264,6 +3251,12 @@ _create_links
 self
 outputs
 output_mapping
+:
+Mapping
+[
+str
+str
+]
 )
 :
         
@@ -3861,7 +3854,7 @@ str
 ]
 mapping
 :
-dict
+Mapping
 [
 str
 str
@@ -4016,6 +4009,32 @@ bytes
 "
 "
 "
+    
+Prior
+to
+Python
+3
+.
+13
+(
+see
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+cpython
+/
+issues
+/
+77102
+)
+    
 .
 pth
 files
@@ -4157,9 +4176,9 @@ TextIOWrapper
 buffer
 encoding
 =
-py39
+py312
 .
-LOCALE_ENCODING
+PTH_ENCODING
 )
         
 wrapper

@@ -79,23 +79,21 @@ text_type
 shutil
 raw_input
 StringIO
-                     
 cache_from_source
 urlopen
 urljoin
 httplib
-xmlrpclib
                      
+xmlrpclib
 HTTPHandler
 BaseConfigurator
 valid_ident
-                     
 Container
 configparser
 URLError
 ZipFile
-fsdecode
                      
+fsdecode
 unquote
 urlparse
 )
@@ -619,7 +617,6 @@ literal
 s
 '
 %
-                                          
 remaining
 )
                     
@@ -1577,7 +1574,6 @@ version
 s
 '
 %
-                                              
 ver_remaining
 )
                         
@@ -1674,7 +1670,6 @@ constraint
 s
 '
 %
-                                              
 ver_remaining
 )
                     
@@ -1743,7 +1738,6 @@ parenthesis
 s
 '
 %
-                                      
 remaining
 )
                 
@@ -1982,7 +1976,6 @@ distname
 .
 join
 (
-            
 [
 '
 %
@@ -2006,23 +1999,18 @@ Container
 name
 =
 distname
-                     
 extras
 =
 extras
-                     
 constraints
 =
 versions
-                     
 marker
 =
 mark_expr
-                     
 url
 =
 uri
-                     
 requirement
 =
 rs
@@ -3575,7 +3563,6 @@ not
 exist
 "
 %
-                                   
 os
 .
 path
@@ -4246,21 +4233,16 @@ def
 byte_compile
 (
 self
-                     
 path
-                     
 optimize
 =
 False
-                     
 force
 =
 False
-                     
 prefix
 =
 None
-                     
 hashed_invalidation
 =
 False
@@ -4355,26 +4337,39 @@ and
 hasattr
 (
 py_compile
-                                               
 '
 PycInvalidationMode
 '
 )
 :
                 
-compile_kwargs
-[
+if
+not
+isinstance
+(
+hashed_invalidation
+py_compile
+.
+PycInvalidationMode
+)
+:
                     
-'
-invalidation_mode
-'
-]
+hashed_invalidation
 =
 py_compile
 .
 PycInvalidationMode
 .
 CHECKED_HASH
+                
+compile_kwargs
+[
+'
+invalidation_mode
+'
+]
+=
+hashed_invalidation
             
 py_compile
 .
@@ -4384,7 +4379,6 @@ path
 dpath
 diagpath
 True
-                               
 *
 *
 compile_kwargs
@@ -4990,7 +4984,6 @@ name
 self
 .
 prefix
-                                                
 self
 .
 suffix
@@ -5043,7 +5036,6 @@ prefix
 other
 .
 prefix
-                      
 and
 self
 .
@@ -5053,8 +5045,8 @@ suffix
 other
 .
 suffix
-                      
 and
+                      
 self
 .
 flags
@@ -5777,6 +5769,9 @@ def
 path_to_cache_dir
 (
 path
+use_abspath
+=
+True
 )
 :
     
@@ -5874,6 +5869,10 @@ abspath
 (
 path
 )
+if
+use_abspath
+else
+path
 )
     
 if
@@ -6113,7 +6112,6 @@ re
 .
 compile
 (
-    
 '
 (
 [
@@ -6147,7 +6145,7 @@ z0
 )
 -
 '
-    
+                                      
 '
 (
 [
@@ -7175,6 +7173,9 @@ prefix_to_dir
 (
 self
 prefix
+use_abspath
+=
+True
 )
 :
         
@@ -7203,6 +7204,9 @@ return
 path_to_cache_dir
 (
 prefix
+use_abspath
+=
+use_abspath
 )
     
 def
@@ -7796,7 +7800,6 @@ result
 s
 '
 event
-                     
 args
 kwargs
 result
@@ -8166,7 +8169,6 @@ in
 self
 .
 _succs
-                
 or
 step
 in
@@ -8686,7 +8688,6 @@ tgz
 .
 tbz
 '
-                      
 '
 .
 whl
@@ -10324,7 +10325,6 @@ HTTPSHandler
 as
 BaseHTTPSHandler
 match_hostname
-                         
 CertificateError
 )
     
@@ -10366,7 +10366,6 @@ self
 .
 port
 )
-                                            
 self
 .
 timeout
@@ -10818,7 +10817,6 @@ reason
 raise
 CertificateError
 (
-                        
 '
 Unable
 to
@@ -10826,7 +10824,7 @@ verify
 server
 certificate
 '
-                        
+                                           
 '
 for
 %
@@ -10862,7 +10860,6 @@ req
 raise
 URLError
 (
-                
 '
 Unexpected
 HTTP
@@ -10874,7 +10871,7 @@ be
 a
 secure
 '
-                
+                           
 '
 connection
 :
@@ -11093,7 +11090,6 @@ httplib
 .
 HTTPSConnection
 (
-                    
 h
 None
 *
@@ -12331,19 +12327,16 @@ subprocess
 Popen
 (
 cmd
-                             
 stdout
 =
 subprocess
 .
 PIPE
-                             
 stderr
 =
 subprocess
 .
 PIPE
-                             
 *
 *
 kwargs
@@ -12686,7 +12679,6 @@ servers
 _servers
 =
 [
-                    
 server
 .
 strip
@@ -12704,7 +12696,6 @@ split
 n
 '
 )
-                    
 if
 server
 .
@@ -12715,7 +12706,6 @@ strip
 =
 '
 '
-                
 ]
                 
 if
@@ -12787,12 +12777,10 @@ in
 '
 repository
 '
-                                              
 self
 .
 DEFAULT_REPOSITORY
 )
-                                             
 (
 '
 realm
@@ -12854,7 +12842,6 @@ pypi
 '
 and
 repository
-                                
 in
 (
 self
@@ -12889,7 +12876,6 @@ server
 !
 =
 repository
-                              
 and
 result
 [
@@ -13758,7 +13744,6 @@ _osx_support
 .
 get_platform_osx
 (
-            
 sysconfig
 .
 get_config_vars

@@ -32,7 +32,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -524,15 +524,17 @@ text
             
 assert
 False
+f
 "
 wrong
 color
 format
-%
-r
-"
-%
+{
 text
+!
+r
+}
+"
         
 _styles
 =
@@ -1248,6 +1250,17 @@ styles
 =
 {
 }
+    
+name
+=
+'
+unnamed
+'
+    
+aliases
+=
+[
+]
     
 web_style_gallery_exclude
 =

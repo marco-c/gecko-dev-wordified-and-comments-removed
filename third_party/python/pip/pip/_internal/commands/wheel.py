@@ -1049,12 +1049,6 @@ values
 )
 )
         
-requirement_set
-.
-warn_legacy_versions_and_specifiers
-(
-)
-        
 build_successes
 build_failures
 =

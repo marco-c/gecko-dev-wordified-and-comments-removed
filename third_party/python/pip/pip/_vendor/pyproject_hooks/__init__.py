@@ -17,12 +17,14 @@ hooks
 "
 "
 from
+typing
+import
+TYPE_CHECKING
+from
 .
 _impl
 import
 (
-    
-BackendInvalid
     
 BackendUnavailable
     
@@ -38,42 +40,63 @@ quiet_subprocess_runner
 )
 __version__
 =
-'
+"
 1
 .
-0
+2
 .
 0
-'
+"
 __all__
 =
 [
     
-'
+"
 BackendUnavailable
-'
+"
     
-'
+"
 BackendInvalid
-'
+"
     
-'
+"
 HookMissing
-'
+"
     
-'
+"
 UnsupportedOperation
-'
+"
     
-'
+"
 default_subprocess_runner
-'
+"
     
-'
+"
 quiet_subprocess_runner
-'
+"
     
-'
+"
 BuildBackendHookCaller
-'
+"
+]
+BackendInvalid
+=
+BackendUnavailable
+if
+TYPE_CHECKING
+:
+    
+from
+.
+_impl
+import
+SubprocessRunner
+    
+__all__
++
+=
+[
+"
+SubprocessRunner
+"
 ]

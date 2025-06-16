@@ -1,11 +1,10 @@
 from
 typing
 import
-cast
+TYPE_CHECKING
 List
 Optional
 Tuple
-TYPE_CHECKING
 Union
 if
 TYPE_CHECKING
@@ -38,14 +37,14 @@ import
 Measurement
 from
 .
-style
-import
-Style
-from
-.
 segment
 import
 Segment
+from
+.
+style
+import
+Style
 PaddingDimensions
 =
 Union
@@ -472,15 +471,7 @@ pad
 pad_top
 pad_right
 =
-cast
-(
-Tuple
-[
-int
-int
-]
 pad
-)
             
 return
 (
@@ -505,17 +496,7 @@ right
 bottom
 left
 =
-cast
-(
-Tuple
-[
-int
-int
-int
-int
-]
 pad
-)
             
 return
 (

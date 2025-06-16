@@ -34,6 +34,14 @@ pip
 .
 _internal
 .
+metadata
+import
+get_default_environment
+from
+pip
+.
+_internal
+.
 operations
 .
 check
@@ -42,10 +50,20 @@ import
     
 check_package_set
     
-create_package_set_from_installed
+check_unsupported
     
-warn_legacy_versions_and_specifiers
+create_package_set_from_installed
 )
+from
+pip
+.
+_internal
+.
+utils
+.
+compatibility_tags
+import
+get_supported
 from
 pip
 .
@@ -84,6 +102,10 @@ dependencies
 "
 "
 "
+    
+ignore_require_venv
+=
+True
     
 usage
 =
@@ -126,17 +148,36 @@ create_package_set_from_installed
 (
 )
         
-warn_legacy_versions_and_specifiers
-(
-package_set
-)
-        
 missing
 conflicting
 =
 check_package_set
 (
 package_set
+)
+        
+unsupported
+=
+list
+(
+            
+check_unsupported
+(
+                
+get_default_environment
+(
+)
+.
+iter_installed_distributions
+(
+)
+                
+get_supported
+(
+)
+            
+)
+        
 )
         
 for
@@ -252,12 +293,46 @@ dep_version
                 
 )
         
+for
+package
+in
+unsupported
+:
+            
+write_output
+(
+                
+"
+%
+s
+%
+s
+is
+not
+supported
+on
+this
+platform
+"
+                
+package
+.
+raw_name
+                
+package
+.
+version
+            
+)
+        
 if
 missing
 or
 conflicting
 or
 parsing_probs
+or
+unsupported
 :
             
 return

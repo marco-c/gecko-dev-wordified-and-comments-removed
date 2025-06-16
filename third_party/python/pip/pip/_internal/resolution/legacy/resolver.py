@@ -301,7 +301,10 @@ DiscoveredDependencies
 =
 DefaultDict
 [
+Optional
+[
 str
+]
 List
 [
 InstallRequirement
@@ -577,9 +580,13 @@ raise
 UnsupportedPythonVersion
 (
         
+f
 "
 Package
 {
+dist
+.
+raw_name
 !
 r
 }
@@ -588,26 +595,21 @@ a
 different
 Python
 :
+"
+        
+f
+"
 {
+version
 }
 not
 in
 {
+requires_python
 !
 r
 }
 "
-.
-format
-(
-            
-dist
-.
-raw_name
-version
-requires_python
-        
-)
     
 )
 class
@@ -1428,11 +1430,11 @@ existing_req
 :
 Optional
 [
-                
 InstallRequirement
-            
 ]
 =
+(
+                
 requirement_set
 .
 get_requirement
@@ -1440,6 +1442,8 @@ get_requirement
 install_req
 .
 name
+)
+            
 )
         
 except
@@ -1511,37 +1515,36 @@ raise
 InstallationError
 (
                 
+f
 "
 Double
 requirement
 given
 :
 {
+install_req
 }
+"
+                
+f
+"
 (
 already
 in
 {
+existing_req
 }
 name
 =
 {
+install_req
+.
+name
 !
 r
 }
 )
 "
-.
-format
-(
-                    
-install_req
-existing_req
-install_req
-.
-name
-                
-)
             
 )
         
@@ -1824,6 +1827,14 @@ installed
 "
 "
 "
+        
+assert
+req
+.
+satisfied_by
+is
+not
+None
         
 if
 not
@@ -2436,6 +2447,20 @@ require_hashes
             
 return
         
+assert
+req
+.
+link
+is
+not
+None
+"
+_find_requirement_link
+unexpectedly
+returned
+None
+"
+        
 cache_entry
 =
 self
@@ -2967,6 +2992,14 @@ indent_log
 (
 )
 :
+            
+assert
+req_to_install
+.
+name
+is
+not
+None
             
 if
 not

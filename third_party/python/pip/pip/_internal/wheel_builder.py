@@ -436,8 +436,6 @@ return
 req
 .
 supports_pyproject_editable
-(
-)
     
 return
 True

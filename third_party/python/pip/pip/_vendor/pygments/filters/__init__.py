@@ -40,7 +40,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -244,15 +244,17 @@ else
 raise
 ClassNotFound
 (
+f
 '
 filter
-%
+{
+filtername
+!
 r
+}
 not
 found
 '
-%
-filtername
 )
 def
 get_all_filters
@@ -521,13 +523,15 @@ r
 \
 b
 (
-%
-s
+{
+}
 )
 \
 b
 '
-%
+.
+format
+(
 '
 |
 '
@@ -550,6 +554,7 @@ if
 tag
         
 ]
+)
 )
 )
     

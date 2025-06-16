@@ -1,9 +1,3 @@
-#
-coding
-:
-utf
--
-8
 "
 "
 "
@@ -175,17 +169,14 @@ base
 :
         
 return
+f
 "
 {
+size
 :
 }
 bytes
 "
-.
-format
-(
-size
-)
     
 for
 i

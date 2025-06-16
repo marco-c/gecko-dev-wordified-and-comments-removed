@@ -1749,21 +1749,23 @@ verbosity
 0
 :
             
-flag
+flags
 =
+[
 "
 -
 -
 quiet
 "
+]
         
 else
 :
             
-flag
+flags
 =
-"
-"
+[
+]
         
 cmd_args
 =
@@ -1774,7 +1776,8 @@ make_command
 checkout
 "
             
-flag
+*
+flags
             
 self
 .

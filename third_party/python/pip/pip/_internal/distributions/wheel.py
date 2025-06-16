@@ -1,6 +1,7 @@
 from
 typing
 import
+TYPE_CHECKING
 Optional
 from
 pip
@@ -27,16 +28,6 @@ pip
 .
 _internal
 .
-index
-.
-package_finder
-import
-PackageFinder
-from
-pip
-.
-_internal
-.
 metadata
 import
 (
@@ -47,6 +38,20 @@ FilesystemWheel
     
 get_wheel_distribution
 )
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_internal
+.
+index
+.
+package_finder
+import
+PackageFinder
 class
 WheelDistribution
 (
@@ -206,7 +211,9 @@ self
         
 finder
 :
+"
 PackageFinder
+"
         
 build_isolation
 :

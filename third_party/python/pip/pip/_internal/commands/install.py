@@ -25,9 +25,25 @@ pip
 .
 _vendor
 .
+packaging
+.
+utils
+import
+canonicalize_name
+from
+pip
+.
+_vendor
+.
 rich
 import
 print_json
+import
+pip
+.
+_internal
+.
+self_outdated_check
 from
 pip
 .
@@ -66,8 +82,6 @@ import
 (
     
 RequirementCommand
-    
-warn_if_run_as_root
     
 with_cleanup
 )
@@ -211,6 +225,8 @@ ensure_dir
 get_pip_version
     
 protect_pip_from_modification_on_windows
+    
+warn_if_run_as_root
     
 write_output
 )
@@ -2396,6 +2412,12 @@ use_pep517
 options
 .
 use_pep517
+                
+py_version_info
+=
+options
+.
+python_version
             
 )
             
@@ -2507,12 +2529,6 @@ options
 .
 dry_run
 :
-                
-requirement_set
-.
-warn_legacy_versions_and_specifiers
-(
-)
                 
 would_install_items
 =
@@ -2686,27 +2702,25 @@ InstallationError
 (
                     
 "
-Could
-not
+Failed
+to
 build
+installable
 wheels
 for
-{
-}
-which
-is
-required
-to
+some
 "
                     
 "
-install
 pyproject
 .
 toml
--
 based
 projects
+(
+{
+}
+)
 "
 .
 format
@@ -2897,68 +2911,91 @@ name
 )
 )
             
-items
+summary
 =
 [
 ]
             
+installed_versions
+=
+{
+}
+            
 for
-result
+distribution
+in
+env
+.
+iter_all_distributions
+(
+)
+:
+                
+installed_versions
+[
+distribution
+.
+canonical_name
+]
+=
+distribution
+.
+version
+            
+for
+package
 in
 installed
 :
                 
-item
+display_name
 =
-result
+package
 .
 name
                 
-try
-:
-                    
-installed_dist
+version
 =
-env
+installed_versions
 .
-get_distribution
+get
 (
-item
+canonicalize_name
+(
+display_name
 )
-                    
-if
-installed_dist
-is
-not
 None
+)
+                
+if
+version
 :
-                        
-item
+                    
+text
 =
 f
 "
 {
-item
+display_name
 }
 -
 {
-installed_dist
-.
 version
 }
 "
                 
-except
-Exception
+else
 :
                     
-pass
+text
+=
+display_name
                 
-items
+summary
 .
 append
 (
-item
+text
 )
             
 if
@@ -2993,7 +3030,7 @@ installed_desc
 .
 join
 (
-items
+summary
 )
             
 if

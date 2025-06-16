@@ -63,6 +63,8 @@ glob
 (
 pathname
 recursive
+:
+bool
 =
 False
 )
@@ -168,6 +170,8 @@ iglob
 (
 pathname
 recursive
+:
+bool
 =
 False
 )

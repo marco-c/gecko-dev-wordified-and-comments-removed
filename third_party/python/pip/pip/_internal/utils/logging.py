@@ -763,6 +763,29 @@ n
 "
 )
 class
+PipConsole
+(
+Console
+)
+:
+    
+def
+on_broken_pipe
+(
+self
+)
+-
+>
+None
+:
+        
+raise
+BrokenPipeError
+(
+)
+from
+None
+class
 RichPipStreamHandler
 (
 RichHandler
@@ -813,7 +836,7 @@ __init__
             
 console
 =
-Console
+PipConsole
 (
 file
 =
@@ -870,15 +893,6 @@ Style
 =
 None
         
-assert
-isinstance
-(
-record
-.
-args
-tuple
-)
-        
 if
 getattr
 (
@@ -889,6 +903,15 @@ rich
 False
 )
 :
+            
+assert
+isinstance
+(
+record
+.
+args
+tuple
+)
             
 (
 rich_renderable

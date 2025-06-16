@@ -169,10 +169,7 @@ an
 invalid
 wheel
 {
-str
-(
 e
-)
 }
 "
 )

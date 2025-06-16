@@ -3,9 +3,9 @@ configparser
 from
 typing
 import
+IO
 Dict
 List
-IO
 Mapping
 Optional
 from
@@ -552,9 +552,6 @@ with
 open
 (
 path
-"
-rt
-"
 encoding
 =
 encoding

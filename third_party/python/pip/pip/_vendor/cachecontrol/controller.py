@@ -977,6 +977,19 @@ available
 "
 "
         
+if
+"
+Range
+"
+in
+request
+.
+headers
+:
+            
+return
+None
+        
 cache_url
 =
 request

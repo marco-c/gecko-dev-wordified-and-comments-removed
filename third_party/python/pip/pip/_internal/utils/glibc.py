@@ -159,6 +159,9 @@ ImportError
 return
 None
     
+try
+:
+        
 process_namespace
 =
 ctypes
@@ -167,6 +170,13 @@ CDLL
 (
 None
 )
+    
+except
+OSError
+:
+        
+return
+None
     
 try
 :
@@ -193,6 +203,8 @@ ctypes
 c_char_p
     
 version_str
+:
+str
 =
 gnu_get_libc_version
 (

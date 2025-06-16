@@ -359,6 +359,14 @@ split
 "
 )
         
+proxyOverride
+=
+filter
+(
+None
+proxyOverride
+)
+        
 for
 test
 in
@@ -568,6 +576,27 @@ None
 current_position
 =
 0
+    
+if
+isinstance
+(
+o
+str
+)
+:
+        
+o
+=
+o
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
     
 if
 hasattr
@@ -2602,24 +2631,18 @@ dict
 cookie_dict
 =
 {
-}
-    
+cookie
+.
+name
+:
+cookie
+.
+value
 for
 cookie
 in
 cj
-:
-        
-cookie_dict
-[
-cookie
-.
-name
-]
-=
-cookie
-.
-value
+}
     
 return
 cookie_dict
@@ -4976,7 +4999,7 @@ consider
 settings
     
 such
-a
+as
 NO_PROXY
 to
 strip

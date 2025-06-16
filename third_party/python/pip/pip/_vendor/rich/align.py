@@ -174,7 +174,7 @@ vertical
 (
 Optional
 [
-VerticalAlginMethod
+VerticalAlignMethod
 ]
 optional
 )
@@ -1558,6 +1558,26 @@ RenderableType
 A
 renderable
 object
+.
+        
+style
+(
+StyleType
+optional
+)
+:
+An
+optional
+style
+to
+apply
+to
+the
+background
+.
+Defaults
+to
+None
 .
     
 "

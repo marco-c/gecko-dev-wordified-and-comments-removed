@@ -20,8 +20,9 @@ os
 .
 path
 from
+jaraco
 .
-_functools
+functools
 import
 splat
 from

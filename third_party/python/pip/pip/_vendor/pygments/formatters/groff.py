@@ -46,7 +46,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -444,17 +444,20 @@ start
 \
 m
 [
-%
-s
+{
+}
 ]
 '
-%
+.
+format
+(
 ndef
 [
 '
 color
 '
 ]
+)
                 
 end
 =
@@ -525,17 +528,20 @@ start
 \
 M
 [
-%
-s
+{
+}
 ]
 '
-%
+.
+format
+(
 ndef
 [
 '
 bgcolor
 '
 ]
+)
                 
 end
 =

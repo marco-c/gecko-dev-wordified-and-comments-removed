@@ -35,8 +35,7 @@ types
 import
 warnings
 from
-.
-_itertools
+more_itertools
 import
 always_iterable
 from

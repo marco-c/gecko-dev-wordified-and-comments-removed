@@ -153,6 +153,10 @@ order
 "
 "
     
+ignore_require_venv
+=
+True
+    
 usage
 =
 "

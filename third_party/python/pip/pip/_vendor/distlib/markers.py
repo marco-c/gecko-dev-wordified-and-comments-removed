@@ -68,7 +68,6 @@ re
 .
 compile
 (
-    
 r
 '
 (
@@ -621,7 +620,6 @@ s
 s
 '
 %
-                                  
 (
 elhs
 op
@@ -662,8 +660,8 @@ _is_version_marker
 erhs
 )
 )
-                    
 and
+                    
 op
 in
 (
@@ -867,7 +865,6 @@ implementation_version
 =
 format_full_version
 (
-            
 sys
 .
 implementation
@@ -1142,7 +1139,6 @@ s
 s
 '
 %
-                          
 (
 marker
 e
@@ -1180,7 +1176,6 @@ s
 s
 '
 %
-                          
 (
 marker
 rest

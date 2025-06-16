@@ -16,19 +16,8 @@ import
 Dict
 Generator
 Optional
-Set
 Type
 Union
-from
-pip
-.
-_internal
-.
-models
-.
-link
-import
-Link
 from
 pip
 .
@@ -626,8 +615,12 @@ else
             
 message
 =
+f
 "
 {
+req
+.
+link
 }
 is
 already
@@ -635,16 +628,9 @@ being
 built
 :
 {
+contents
 }
 "
-.
-format
-(
-req
-.
-link
-contents
-)
             
 raise
 LookupError

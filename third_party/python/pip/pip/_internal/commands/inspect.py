@@ -47,7 +47,7 @@ _internal
 .
 cli
 .
-req_command
+base_command
 import
 Command
 from

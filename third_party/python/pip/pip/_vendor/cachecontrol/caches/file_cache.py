@@ -16,6 +16,10 @@ import
 IO
 TYPE_CHECKING
 from
+pathlib
+import
+Path
+from
 pip
 .
 _vendor
@@ -197,6 +201,8 @@ self
 directory
 :
 str
+|
+Path
         
 forever
 :
@@ -289,7 +295,10 @@ pip
               
 pip
 install
-filelock
+cachecontrol
+[
+filecache
+]
             
 "
 "

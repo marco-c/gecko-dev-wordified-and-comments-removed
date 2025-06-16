@@ -454,6 +454,8 @@ DEPRECATION_MSG_PREFIX
             
 gone_in
             
+(
+                
 "
 pip
 {
@@ -465,11 +467,11 @@ behaviour
 change
 .
 "
-            
+                
 if
 not
 is_gone
-            
+                
 else
 "
 Since
@@ -483,6 +485,8 @@ longer
 supported
 .
 "
+            
+)
         
 )
         
@@ -506,6 +510,8 @@ is
             
 feature_flag
             
+(
+                
 "
 You
 can
@@ -527,13 +533,15 @@ upcoming
 behaviour
 .
 "
-            
+                
 if
 not
 is_gone
-            
+                
 else
 None
+            
+)
         
 )
         

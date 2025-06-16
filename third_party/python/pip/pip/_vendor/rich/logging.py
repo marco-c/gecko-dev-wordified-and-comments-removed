@@ -394,6 +394,31 @@ to
 None
 .
         
+tracebacks_code_width
+(
+int
+optional
+)
+:
+Number
+of
+code
+characters
+used
+to
+render
+tracebacks
+or
+None
+for
+full
+width
+.
+Defaults
+to
+88
+.
+        
 tracebacks_extra_lines
 (
 int
@@ -490,6 +515,22 @@ paths
 to
 exclude
 from
+traceback
+.
+        
+tracebacks_max_frames
+(
+int
+optional
+)
+:
+Optional
+maximum
+number
+of
+frames
+returned
+by
 traceback
 .
         
@@ -751,6 +792,12 @@ int
 =
 None
         
+tracebacks_code_width
+:
+int
+=
+88
+        
 tracebacks_extra_lines
 :
 int
@@ -791,6 +838,12 @@ ModuleType
 =
 (
 )
+        
+tracebacks_max_frames
+:
+int
+=
+100
         
 locals_max_length
 :
@@ -958,6 +1011,18 @@ self
 tracebacks_suppress
 =
 tracebacks_suppress
+        
+self
+.
+tracebacks_max_frames
+=
+tracebacks_max_frames
+        
+self
+.
+tracebacks_code_width
+=
+tracebacks_code_width
         
 self
 .
@@ -1175,6 +1240,12 @@ self
 .
 tracebacks_width
                 
+code_width
+=
+self
+.
+tracebacks_code_width
+                
 extra_lines
 =
 self
@@ -1216,6 +1287,12 @@ suppress
 self
 .
 tracebacks_suppress
+                
+max_frames
+=
+self
+.
+tracebacks_max_frames
             
 )
             

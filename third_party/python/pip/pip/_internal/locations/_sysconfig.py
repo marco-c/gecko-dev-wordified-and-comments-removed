@@ -1213,13 +1213,21 @@ not
 None
 :
         
+converted_keys
+=
+{
+}
+        
 for
 key
 in
 SCHEME_KEYS
 :
             
-value
+converted_keys
+[
+key
+]
 =
 change_root
 (
@@ -1230,12 +1238,14 @@ scheme
 key
 )
 )
-            
-setattr
-(
+        
 scheme
-key
-value
+=
+Scheme
+(
+*
+*
+converted_keys
 )
     
 return

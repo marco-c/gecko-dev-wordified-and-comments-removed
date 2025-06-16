@@ -24,6 +24,8 @@ email
 .
 utils
 import
+functools
+import
 io
 import
 ipaddress
@@ -443,6 +445,14 @@ for
 name
 in
 CI_ENVIRONMENT_VARIABLES
+)
+functools
+.
+lru_cache
+(
+maxsize
+=
+1
 )
 def
 user_agent
@@ -1408,9 +1418,6 @@ exc
 .
 encode
 (
-"
-utf8
-"
 )
 )
         
@@ -2015,6 +2022,12 @@ int
 =
 [
 ]
+        
+self
+.
+pip_proxy
+=
+None
         
 self
 .

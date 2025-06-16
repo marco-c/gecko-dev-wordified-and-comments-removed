@@ -11,6 +11,8 @@ import
     
 TYPE_CHECKING
     
+Callable
+    
 Dict
     
 FrozenSet
@@ -26,6 +28,8 @@ Mapping
 NamedTuple
     
 Optional
+    
+Protocol
     
 Sequence
     
@@ -73,6 +77,17 @@ pip
 .
 _vendor
 .
+packaging
+.
+version
+import
+InvalidVersion
+Version
+from
+pip
+.
+_vendor
+.
 resolvelib
 import
 ResolutionImpossible
@@ -98,7 +113,11 @@ DistributionNotFound
     
 InstallationError
     
+InvalidInstalledPackage
+    
 MetadataInconsistent
+    
+MetadataInvalid
     
 UnsupportedPythonVersion
     
@@ -238,7 +257,6 @@ from
 base
 import
 Candidate
-CandidateVersion
 Constraint
 Requirement
 from
@@ -286,11 +304,6 @@ UnsatisfiableRequirement
 if
 TYPE_CHECKING
 :
-    
-from
-typing
-import
-Protocol
     
 class
 ConflictCause
@@ -545,6 +558,14 @@ ExtrasCandidate
 =
 {
 }
+        
+self
+.
+_supported_tags_cache
+=
+get_supported
+(
+)
         
 if
 not
@@ -898,7 +919,7 @@ version
 :
 Optional
 [
-CandidateVersion
+Version
 ]
     
 )
@@ -978,7 +999,7 @@ version
 :
 Optional
 [
-CandidateVersion
+Version
 ]
     
 )
@@ -1048,7 +1069,10 @@ version
 )
                 
 except
+(
 MetadataInconsistent
+MetadataInvalid
+)
 as
 e
 :
@@ -1431,6 +1455,9 @@ KeyError
 return
 None
             
+try
+:
+                
 if
 not
 specifier
@@ -1445,9 +1472,26 @@ prereleases
 True
 )
 :
-                
+                    
 return
 None
+            
+except
+InvalidVersion
+as
+e
+:
+                
+raise
+InvalidInstalledPackage
+(
+dist
+=
+installed_dist
+invalid_exc
+=
+e
+)
             
 candidate
 =
@@ -1522,14 +1566,9 @@ hashes
             
 icans
 =
-list
-(
 result
 .
-iter_applicable
-(
-)
-)
+applicable_candidates
             
 all_yanked
 =
@@ -2006,6 +2045,17 @@ Constraint
 prefers_installed
 :
 bool
+        
+is_satisfied_by
+:
+Callable
+[
+[
+Requirement
+Candidate
+]
+bool
+]
     
 )
 -
@@ -2295,10 +2345,9 @@ c
 and
 all
 (
-req
-.
 is_satisfied_by
 (
+req
 c
 )
 for
@@ -3224,9 +3273,9 @@ name
             
 supported_tags
 =
-get_supported
-(
-)
+self
+.
+_supported_tags_cache
         
 )
     
@@ -3613,7 +3662,7 @@ versions_set
 :
 Set
 [
-CandidateVersion
+Version
 ]
 =
 set
@@ -3624,7 +3673,7 @@ yanked_versions_set
 :
 Set
 [
-CandidateVersion
+Version
 ]
 =
 set
@@ -4487,6 +4536,7 @@ versions
 to
 allow
 pip
+to
 attempt
 to
 solve

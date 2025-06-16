@@ -18,6 +18,11 @@ import
 _reqs
 from
 .
+_reqs
+import
+_StrOrIter
+from
+.
 warnings
 import
 SetuptoolsDeprecationWarning
@@ -147,6 +152,8 @@ _fetch_build_eggs
 (
 dist
 requires
+:
+_StrOrIter
 )
 :
     

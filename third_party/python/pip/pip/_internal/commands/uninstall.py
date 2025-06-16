@@ -43,10 +43,9 @@ _internal
 .
 cli
 .
-req_command
+index_command
 import
 SessionCommandMixin
-warn_if_run_as_root
 from
 pip
 .
@@ -102,6 +101,8 @@ import
 check_externally_managed
     
 protect_pip_from_modification_on_windows
+    
+warn_if_run_as_root
 )
 logger
 =

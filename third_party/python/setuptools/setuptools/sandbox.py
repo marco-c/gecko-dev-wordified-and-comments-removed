@@ -1435,20 +1435,26 @@ self
         
 exc_type
 :
-object
+type
+[
+BaseException
+]
+|
+None
         
 exc_value
 :
-object
+BaseException
+|
+None
         
 traceback
 :
-object
+TracebackType
+|
+None
     
 )
--
->
-None
 :
         
 self
@@ -2210,6 +2216,12 @@ chroot
 "
     
 write_ops
+:
+dict
+[
+str
+None
+]
 =
 dict
 .
@@ -2785,6 +2797,8 @@ self
 file
 flags
 mode
+:
+int
 =
 0o777
 *

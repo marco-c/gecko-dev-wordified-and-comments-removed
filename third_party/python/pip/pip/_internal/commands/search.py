@@ -25,6 +25,7 @@ TYPE_CHECKING
 Dict
 List
 Optional
+TypedDict
 from
 pip
 .
@@ -127,11 +128,6 @@ write_output
 if
 TYPE_CHECKING
 :
-    
-from
-typing
-import
-TypedDict
     
 class
 TransformedHit
@@ -490,6 +486,9 @@ fault
             
 message
 =
+(
+                
+f
 "
 XMLRPC
 request
@@ -498,30 +497,19 @@ failed
 code
 :
 {
-code
+fault
+.
+faultCode
 }
 ]
 \
 n
 {
-string
-}
-"
-.
-format
-(
-                
-code
-=
-fault
-.
-faultCode
-                
-string
-=
 fault
 .
 faultString
+}
+"
             
 )
             
@@ -617,9 +605,7 @@ packages
 Dict
 [
 str
-"
 TransformedHit
-"
 ]
 =
 OrderedDict

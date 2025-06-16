@@ -1,12 +1,3 @@
-from
-.
-core
-import
-encode
-decode
-alabel
-ulabel
-IDNAError
 import
 codecs
 import
@@ -14,15 +5,25 @@ re
 from
 typing
 import
-Tuple
+Any
 Optional
+Tuple
+from
+.
+core
+import
+IDNAError
+alabel
+decode
+encode
+ulabel
 _unicode_dots_re
 =
 re
 .
 compile
 (
-'
+"
 [
 \
 u002e
@@ -33,7 +34,7 @@ uff0e
 \
 uff61
 ]
-'
+"
 )
 class
 Codec
@@ -55,9 +56,9 @@ errors
 :
 str
 =
-'
+"
 strict
-'
+"
 )
 -
 >
@@ -72,9 +73,9 @@ if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
@@ -84,11 +85,9 @@ IDNAError
 Unsupported
 error
 handling
-\
 "
 {
 }
-\
 "
 '
 .
@@ -130,9 +129,9 @@ errors
 :
 str
 =
-'
+"
 strict
-'
+"
 )
 -
 >
@@ -147,9 +146,9 @@ if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
@@ -159,11 +158,9 @@ IDNAError
 Unsupported
 error
 handling
-\
 "
 {
 }
-\
 "
 '
 .
@@ -179,8 +176,8 @@ data
 :
             
 return
-'
-'
+"
+"
 0
         
 return
@@ -219,7 +216,7 @@ bool
 >
 Tuple
 [
-str
+bytes
 int
 ]
 :
@@ -228,9 +225,9 @@ if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
@@ -240,11 +237,9 @@ IDNAError
 Unsupported
 error
 handling
-\
 "
 {
 }
-\
 "
 '
 .
@@ -260,6 +255,7 @@ data
 :
             
 return
+b
 "
 "
 0
@@ -275,8 +271,9 @@ data
         
 trailing_dot
 =
-'
-'
+b
+"
+"
         
 if
 labels
@@ -293,9 +290,10 @@ labels
                 
 trailing_dot
 =
-'
+b
+"
 .
-'
+"
                 
 del
 labels
@@ -322,9 +320,10 @@ labels
                     
 trailing_dot
 =
-'
+b
+"
 .
-'
+"
         
 result
 =
@@ -368,11 +367,12 @@ len
 label
 )
         
-result_str
+result_bytes
 =
-'
+b
+"
 .
-'
+"
 .
 join
 (
@@ -390,7 +390,7 @@ trailing_dot
 )
         
 return
-result_str
+result_bytes
 size
 class
 IncrementalDecoder
@@ -407,7 +407,7 @@ _buffer_decode
 self
 data
 :
-str
+Any
 errors
 :
 str
@@ -428,9 +428,9 @@ if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
@@ -440,11 +440,9 @@ IDNAError
 Unsupported
 error
 handling
-\
 "
 {
 }
-\
 "
 '
 .
@@ -461,9 +459,28 @@ data
             
 return
 (
-'
-'
+"
+"
 0
+)
+        
+if
+not
+isinstance
+(
+data
+str
+)
+:
+            
+data
+=
+str
+(
+data
+"
+ascii
+"
 )
         
 labels
@@ -477,8 +494,8 @@ data
         
 trailing_dot
 =
-'
-'
+"
+"
         
 if
 labels
@@ -495,9 +512,9 @@ labels
                 
 trailing_dot
 =
-'
+"
 .
-'
+"
                 
 del
 labels
@@ -524,9 +541,9 @@ labels
                     
 trailing_dot
 =
-'
+"
 .
-'
+"
         
 result
 =
@@ -572,9 +589,9 @@ label
         
 result_str
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -619,15 +636,33 @@ StreamReader
     
 pass
 def
-getregentry
+search_function
 (
+name
+:
+str
 )
 -
 >
+Optional
+[
 codecs
 .
 CodecInfo
+]
 :
+    
+if
+name
+!
+=
+"
+idna2008
+"
+:
+        
+return
+None
     
 return
 codecs
@@ -637,9 +672,7 @@ CodecInfo
         
 name
 =
-'
-idna
-'
+name
         
 encode
 =
@@ -673,4 +706,10 @@ streamreader
 =
 StreamReader
     
+)
+codecs
+.
+register
+(
+search_function
 )

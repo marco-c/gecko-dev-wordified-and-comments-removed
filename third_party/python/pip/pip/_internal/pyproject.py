@@ -4,6 +4,8 @@ importlib
 util
 import
 os
+import
+sys
 from
 collections
 import
@@ -14,12 +16,31 @@ import
 Any
 List
 Optional
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+:
+    
+import
+tomllib
+else
+:
+    
 from
 pip
 .
 _vendor
 import
 tomli
+as
+tomllib
 from
 pip
 .
@@ -30,7 +51,6 @@ packaging
 requirements
 import
 InvalidRequirement
-Requirement
 from
 pip
 .
@@ -46,6 +66,16 @@ InvalidPyProjectBuildRequires
     
 MissingPyProjectBuildRequires
 )
+from
+pip
+.
+_internal
+.
+utils
+.
+packaging
+import
+get_requirement
 def
 _is_list_of_str
 (
@@ -396,7 +426,7 @@ f
             
 pp_toml
 =
-tomli
+tomllib
 .
 loads
 (
@@ -716,7 +746,7 @@ requires
 try
 :
             
-Requirement
+get_requirement
 (
 requirement
 )

@@ -11,7 +11,6 @@ Any
 Iterable
 List
 Optional
-Union
 from
 pip
 .
@@ -21,7 +20,6 @@ packaging
 .
 version
 import
-LegacyVersion
 Version
 from
 pip
@@ -670,11 +668,7 @@ versions
 :
 Iterable
 [
-Union
-[
-LegacyVersion
 Version
-]
 ]
 =
 (

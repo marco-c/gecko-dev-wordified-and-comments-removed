@@ -1,79 +1,11 @@
-#
-coding
-:
-utf
--
-8
+import
+datetime
+import
+struct
 from
 collections
 import
 namedtuple
-import
-datetime
-import
-sys
-import
-struct
-PY2
-=
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
-if
-PY2
-:
-    
-int_types
-=
-(
-int
-long
-)
-    
-_utc
-=
-None
-else
-:
-    
-int_types
-=
-int
-    
-try
-:
-        
-_utc
-=
-datetime
-.
-timezone
-.
-utc
-    
-except
-AttributeError
-:
-        
-_utc
-=
-datetime
-.
-timezone
-(
-datetime
-.
-timedelta
-(
-0
-)
-)
 class
 ExtType
 (
@@ -180,8 +112,6 @@ be
 return
 super
 (
-ExtType
-cls
 )
 .
 __new__
@@ -192,9 +122,6 @@ data
 )
 class
 Timestamp
-(
-object
-)
 :
     
 "
@@ -224,12 +151,12 @@ and
 unpack
 Timestamp
 .
+    
 When
 using
 pure
 -
 Python
-    
 msgpack
 :
 func
@@ -245,6 +172,7 @@ used
 to
 pack
 and
+    
 unpack
 Timestamp
 .
@@ -372,10 +300,12 @@ epoch
 are
 represented
 as
-negative
+neg
+.
 seconds
 +
-positive
+pos
+.
 ns
 .
         
@@ -388,7 +318,7 @@ not
 isinstance
 (
 seconds
-int_types
+int
 )
 :
             
@@ -409,7 +339,7 @@ not
 isinstance
 (
 nanoseconds
-int_types
+int
 )
 :
             
@@ -443,7 +373,6 @@ nanoseconds
 raise
 ValueError
 (
-                
 "
 nanoseconds
 must
@@ -458,7 +387,6 @@ than
 999999999
 .
 "
-            
 )
         
 self
@@ -493,33 +421,26 @@ Timestamp
 "
         
 return
+f
 "
 Timestamp
 (
 seconds
 =
 {
-0
+self
+.
+seconds
 }
 nanoseconds
 =
 {
-1
-}
-)
-"
-.
-format
-(
-            
-self
-.
-seconds
 self
 .
 nanoseconds
-        
+}
 )
+"
     
 def
 __eq__
@@ -555,8 +476,6 @@ __class__
 :
             
 return
-(
-                
 self
 .
 seconds
@@ -574,8 +493,6 @@ nanoseconds
 other
 .
 nanoseconds
-            
-)
         
 return
 False
@@ -1014,7 +931,6 @@ unix_float
 int
 or
 float
-.
         
 "
 "
@@ -1226,22 +1142,24 @@ UTC
 datetime
 .
         
-Python
-2
-is
-not
-supported
-.
-        
 :
 rtype
 :
 datetime
 .
+datetime
         
 "
 "
 "
+        
+utc
+=
+datetime
+.
+timezone
+.
+utc
         
 return
 datetime
@@ -1251,7 +1169,7 @@ datetime
 fromtimestamp
 (
 0
-_utc
+utc
 )
 +
 datetime
@@ -1263,9 +1181,15 @@ seconds
 =
 self
 .
-to_unix
-(
-)
+seconds
+microseconds
+=
+self
+.
+nanoseconds
+/
+/
+1000
         
 )
     
@@ -1290,13 +1214,6 @@ with
 tzinfo
 .
         
-Python
-2
-is
-not
-supported
-.
-        
 :
 rtype
 :
@@ -1308,12 +1225,22 @@ Timestamp
         
 return
 Timestamp
-.
-from_unix
+(
+seconds
+=
+int
 (
 dt
 .
 timestamp
 (
 )
+)
+nanoseconds
+=
+dt
+.
+microsecond
+*
+1000
 )

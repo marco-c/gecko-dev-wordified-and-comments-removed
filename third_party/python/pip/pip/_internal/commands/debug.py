@@ -1,8 +1,4 @@
 import
-importlib
-.
-resources
-import
 locale
 import
 logging
@@ -103,6 +99,16 @@ _internal
 metadata
 import
 get_environment
+from
+pip
+.
+_internal
+.
+utils
+.
+compat
+import
+open_text_resource
 from
 pip
 .
@@ -216,11 +222,7 @@ str
 :
     
 with
-importlib
-.
-resources
-.
-open_text
+open_text_resource
 (
 "
 pip

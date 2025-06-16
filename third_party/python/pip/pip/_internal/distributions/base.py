@@ -3,17 +3,8 @@ abc
 from
 typing
 import
+TYPE_CHECKING
 Optional
-from
-pip
-.
-_internal
-.
-index
-.
-package_finder
-import
-PackageFinder
 from
 pip
 .
@@ -32,6 +23,20 @@ _internal
 req
 import
 InstallRequirement
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_internal
+.
+index
+.
+package_finder
+import
+PackageFinder
 class
 AbstractDistribution
 (
@@ -302,7 +307,9 @@ self
         
 finder
 :
+"
 PackageFinder
+"
         
 build_isolation
 :

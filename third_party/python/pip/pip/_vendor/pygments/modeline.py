@@ -41,7 +41,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -205,7 +205,7 @@ splitlines
 )
     
 for
-l
+line
 in
 lines
 [
@@ -226,7 +226,7 @@ ret
 =
 get_filetype_from_line
 (
-l
+line
 )
         
 if

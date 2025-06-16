@@ -29,6 +29,8 @@ Any
 Dict
 Generator
 List
+NoReturn
+Optional
 Tuple
 from
 pip
@@ -508,7 +510,10 @@ format_description
 self
 description
 :
+Optional
+[
 str
+]
 )
 -
 >
@@ -615,7 +620,10 @@ format_epilog
 self
 epilog
 :
+Optional
+[
 str
+]
 )
 -
 >
@@ -2006,7 +2014,7 @@ str
 )
 -
 >
-None
+NoReturn
 :
         
 self

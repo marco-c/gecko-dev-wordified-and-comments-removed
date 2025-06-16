@@ -96,6 +96,34 @@ environ
         
 return
     
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+COMP_WORDS
+"
+)
+or
+not
+os
+.
+environ
+.
+get
+(
+"
+COMP_CWORD
+"
+)
+:
+        
+return
+    
 cwords
 =
 os

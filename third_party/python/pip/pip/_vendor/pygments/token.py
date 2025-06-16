@@ -36,7 +36,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -1176,6 +1176,14 @@ Subheading
 :
 '
 gu
+'
+    
+Generic
+.
+EmphStrong
+:
+'
+ges
 '
     
 Generic

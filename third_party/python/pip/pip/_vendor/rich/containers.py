@@ -7,21 +7,21 @@ typing
 import
 (
     
-Iterator
+TYPE_CHECKING
     
 Iterable
+    
+Iterator
     
 List
     
 Optional
     
+TypeVar
+    
 Union
     
 overload
-    
-TypeVar
-    
-TYPE_CHECKING
 )
 if
 TYPE_CHECKING
@@ -765,7 +765,8 @@ int
 :
 Number
 of
-characters
+cells
+available
 per
 line
 .

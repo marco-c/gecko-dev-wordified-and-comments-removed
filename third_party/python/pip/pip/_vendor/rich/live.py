@@ -263,8 +263,8 @@ Optional
 Console
 instance
 .
-Default
-will
+Defaults
+to
 an
 internal
 Console
@@ -2567,12 +2567,10 @@ Rate
                 
 for
 (
-(
 source
 dest
 )
 exchange_rate
-)
 in
 exchange_rate_dict
 .

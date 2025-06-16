@@ -1,9 +1,5 @@
-#
-coding
-:
-utf
--
-8
+import
+os
 from
 .
 exceptions
@@ -15,25 +11,21 @@ ext
 import
 ExtType
 Timestamp
-import
-os
-import
-sys
 version
 =
 (
 1
+1
 0
-5
 )
 __version__
 =
 "
 1
 .
-0
+1
 .
-5
+0
 "
 if
 os
@@ -46,16 +38,6 @@ get
 MSGPACK_PUREPYTHON
 "
 )
-or
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
 :
     
 from
@@ -63,8 +45,8 @@ from
 fallback
 import
 Packer
-unpackb
 Unpacker
+unpackb
 else
 :
     
@@ -76,8 +58,8 @@ from
 _cmsgpack
 import
 Packer
-unpackb
 Unpacker
+unpackb
     
 except
 ImportError
@@ -88,8 +70,8 @@ from
 fallback
 import
 Packer
-unpackb
 Unpacker
+unpackb
 def
 pack
 (

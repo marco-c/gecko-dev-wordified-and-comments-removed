@@ -3,6 +3,10 @@ collections
 import
 math
 from
+functools
+import
+lru_cache
+from
 typing
 import
 (
@@ -1277,7 +1281,20 @@ identifier
 incompatibilities
 =
 incompatibilities
+            
+is_satisfied_by
+=
+self
+.
+is_satisfied_by
         
+)
+    
+lru_cache
+(
+maxsize
+=
+None
 )
     
 def

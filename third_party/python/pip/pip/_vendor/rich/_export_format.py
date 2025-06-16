@@ -10,6 +10,9 @@ DOCTYPE
 html
 >
 <
+html
+>
+<
 head
 >
 <
@@ -58,9 +61,6 @@ style
 head
 >
 <
-html
->
-<
 body
 >
     
@@ -89,6 +89,15 @@ monospace
 >
 <
 code
+style
+=
+"
+font
+-
+family
+:
+inherit
+"
 >
 {
 code

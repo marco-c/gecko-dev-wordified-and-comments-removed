@@ -47,6 +47,14 @@ getLogger
 (
 __name__
 )
+functools
+.
+lru_cache
+(
+maxsize
+=
+32
+)
 def
 check_requires_python
 (
@@ -212,7 +220,7 @@ lru_cache
 (
 maxsize
 =
-512
+2048
 )
 def
 get_requirement

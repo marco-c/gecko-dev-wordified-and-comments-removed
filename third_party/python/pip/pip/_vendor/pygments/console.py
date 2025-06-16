@@ -35,7 +35,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -225,8 +225,8 @@ x
 =
 30
 for
-d
-l
+dark
+light
 in
 zip
 (
@@ -237,7 +237,7 @@ light_colors
     
 codes
 [
-d
+dark
 ]
 =
 esc
@@ -251,7 +251,7 @@ x
     
 codes
 [
-l
+light
 ]
 =
 esc
@@ -272,8 +272,8 @@ x
 =
 1
 del
-d
-l
+dark
+light
 x
 codes
 [

@@ -272,6 +272,12 @@ text
         
 self
 .
+name
+=
+name
+        
+self
+.
 frames
 =
 cast

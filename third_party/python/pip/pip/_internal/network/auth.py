@@ -197,6 +197,7 @@ abstractmethod
 def
 get_auth_info
 (
+        
 self
 url
 :
@@ -207,6 +208,7 @@ Optional
 [
 str
 ]
+    
 )
 -
 >
@@ -215,7 +217,6 @@ Optional
 AuthInfo
 ]
 :
-        
 .
 .
 .
@@ -240,7 +241,6 @@ str
 >
 None
 :
-        
 .
 .
 .
@@ -912,11 +912,6 @@ linesep
 .
 encode
 (
-"
-utf
--
-8
-"
 )
             
 env
@@ -1558,6 +1553,24 @@ Exception
 as
 exc
 :
+            
+logger
+.
+debug
+(
+"
+Keyring
+is
+skipped
+due
+to
+an
+exception
+"
+exc_info
+=
+True
+)
             
 logger
 .

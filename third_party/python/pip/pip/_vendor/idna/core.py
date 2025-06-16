@@ -1,18 +1,18 @@
+import
+bisect
+import
+re
+import
+unicodedata
+from
+typing
+import
+Optional
+Union
 from
 .
 import
 idnadata
-import
-bisect
-import
-unicodedata
-import
-re
-from
-typing
-import
-Union
-Optional
 from
 .
 intranges
@@ -24,18 +24,18 @@ _virama_combining_class
 _alabel_prefix
 =
 b
-'
+"
 xn
 -
 -
-'
+"
 _unicode_dots_re
 =
 re
 .
 compile
 (
-'
+"
 [
 \
 u002e
@@ -46,7 +46,7 @@ uff0e
 \
 uff61
 ]
-'
+"
 )
 class
 IDNAError
@@ -193,12 +193,12 @@ cp
 raise
 ValueError
 (
-'
+"
 Unknown
 character
 in
 unicodedata
-'
+"
 )
     
 return
@@ -249,9 +249,9 @@ s
 .
 encode
 (
-'
+"
 punycode
-'
+"
 )
 def
 _unot
@@ -266,14 +266,14 @@ str
 :
     
 return
-'
+"
 U
 +
 {
 :
 04X
 }
-'
+"
 .
 format
 (
@@ -370,10 +370,8 @@ bidi_label
 False
     
 for
-(
 idx
 cp
-)
 in
 enumerate
 (
@@ -395,14 +393,14 @@ if
 direction
 =
 =
-'
-'
+"
+"
 :
             
 raise
 IDNABidiError
 (
-'
+"
 Unknown
 directionality
 in
@@ -413,7 +411,7 @@ at
 position
 {
 }
-'
+"
 .
 format
 (
@@ -429,15 +427,15 @@ if
 direction
 in
 [
-'
+"
 R
-'
-'
+"
+"
 AL
-'
-'
+"
+"
 AN
-'
+"
 ]
 :
             
@@ -472,12 +470,12 @@ if
 direction
 in
 [
-'
+"
 R
-'
-'
+"
+"
 AL
-'
+"
 ]
 :
         
@@ -489,9 +487,9 @@ elif
 direction
 =
 =
-'
+"
 L
-'
+"
 :
         
 rtl
@@ -504,7 +502,7 @@ else
 raise
 IDNABidiError
 (
-'
+"
 First
 codepoint
 in
@@ -518,7 +516,7 @@ L
 R
 or
 AL
-'
+"
 .
 format
 (
@@ -534,14 +532,17 @@ valid_ending
 False
     
 number_type
+:
+Optional
+[
+str
+]
 =
 None
     
 for
-(
 idx
 cp
-)
 in
 enumerate
 (
@@ -564,47 +565,58 @@ rtl
 :
             
 if
-not
 direction
+not
 in
 [
-'
+                
+"
 R
-'
-'
+"
+                
+"
 AL
-'
-'
+"
+                
+"
 AN
-'
-'
+"
+                
+"
 EN
-'
-'
+"
+                
+"
 ES
-'
-'
+"
+                
+"
 CS
-'
-'
+"
+                
+"
 ET
-'
-'
+"
+                
+"
 ON
-'
-'
+"
+                
+"
 BN
-'
-'
+"
+                
+"
 NSM
-'
+"
+            
 ]
 :
                 
 raise
 IDNABidiError
 (
-'
+"
 Invalid
 direction
 for
@@ -621,7 +633,7 @@ to
 -
 left
 label
-'
+"
 .
 format
 (
@@ -633,18 +645,18 @@ if
 direction
 in
 [
-'
+"
 R
-'
-'
+"
+"
 AL
-'
-'
+"
+"
 EN
-'
-'
+"
+"
 AN
-'
+"
 ]
 :
                 
@@ -656,9 +668,9 @@ elif
 direction
 !
 =
-'
+"
 NSM
-'
+"
 :
                 
 valid_ending
@@ -669,12 +681,12 @@ if
 direction
 in
 [
-'
+"
 AN
-'
-'
+"
+"
 EN
-'
+"
 ]
 :
                 
@@ -700,7 +712,7 @@ direction
 raise
 IDNABidiError
 (
-'
+"
 Can
 not
 mix
@@ -714,48 +726,48 @@ to
 -
 left
 label
-'
+"
 )
         
 else
 :
             
 if
-not
 direction
+not
 in
 [
-'
+"
 L
-'
-'
+"
+"
 EN
-'
-'
+"
+"
 ES
-'
-'
+"
+"
 CS
-'
-'
+"
+"
 ET
-'
-'
+"
+"
 ON
-'
-'
+"
+"
 BN
-'
-'
+"
+"
 NSM
-'
+"
 ]
 :
                 
 raise
 IDNABidiError
 (
-'
+"
 Invalid
 direction
 for
@@ -772,7 +784,7 @@ to
 -
 right
 label
-'
+"
 .
 format
 (
@@ -784,12 +796,12 @@ if
 direction
 in
 [
-'
+"
 L
-'
-'
+"
+"
 EN
-'
+"
 ]
 :
                 
@@ -801,9 +813,9 @@ elif
 direction
 !
 =
-'
+"
 NSM
-'
+"
 :
                 
 valid_ending
@@ -818,14 +830,14 @@ valid_ending
 raise
 IDNABidiError
 (
-'
+"
 Label
 ends
 with
 illegal
 codepoint
 directionality
-'
+"
 )
     
 return
@@ -857,15 +869,15 @@ label
 ]
 =
 =
-'
+"
 M
-'
+"
 :
         
 raise
 IDNAError
 (
-'
+"
 Label
 begins
 with
@@ -873,7 +885,7 @@ an
 illegal
 combining
 character
-'
+"
 )
     
 return
@@ -899,16 +911,16 @@ label
 ]
 =
 =
-'
+"
 -
 -
-'
+"
 :
         
 raise
 IDNAError
 (
-'
+"
 Label
 has
 disallowed
@@ -918,7 +930,7 @@ in
 and
 4th
 position
-'
+"
 )
     
 if
@@ -928,9 +940,9 @@ label
 ]
 =
 =
-'
+"
 -
-'
+"
 or
 label
 [
@@ -939,15 +951,15 @@ label
 ]
 =
 =
-'
+"
 -
-'
+"
 :
         
 raise
 IDNAError
 (
-'
+"
 Label
 must
 not
@@ -957,7 +969,7 @@ end
 with
 a
 hyphen
-'
+"
 )
     
 return
@@ -979,9 +991,9 @@ unicodedata
 .
 normalize
 (
-'
+"
 NFC
-'
+"
 label
 )
 !
@@ -992,7 +1004,7 @@ label
 raise
 IDNAError
 (
-'
+"
 Label
 must
 be
@@ -1000,7 +1012,7 @@ in
 Normalization
 Form
 C
-'
+"
 )
 def
 valid_contextj
@@ -1031,7 +1043,7 @@ if
 cp_value
 =
 =
-0x200c
+0x200C
 :
         
 if
@@ -1103,29 +1115,29 @@ joining_type
 =
 ord
 (
-'
+"
 T
-'
+"
 )
 :
                 
 continue
             
-if
+elif
 joining_type
 in
 [
 ord
 (
-'
+"
 L
-'
+"
 )
 ord
 (
-'
+"
 D
-'
+"
 )
 ]
 :
@@ -1133,6 +1145,11 @@ D
 ok
 =
 True
+                
+break
+            
+else
+:
                 
 break
         
@@ -1186,29 +1203,29 @@ joining_type
 =
 ord
 (
-'
+"
 T
-'
+"
 )
 :
                 
 continue
             
-if
+elif
 joining_type
 in
 [
 ord
 (
-'
+"
 R
-'
+"
 )
 ord
 (
-'
+"
 D
-'
+"
 )
 ]
 :
@@ -1216,6 +1233,11 @@ D
 ok
 =
 True
+                
+break
+            
+else
+:
                 
 break
         
@@ -1226,7 +1248,7 @@ if
 cp_value
 =
 =
-0x200d
+0x200D
 :
         
 if
@@ -1298,7 +1320,7 @@ if
 cp_value
 =
 =
-0x00b7
+0x00B7
 :
         
 if
@@ -1326,7 +1348,7 @@ pos
 )
 =
 =
-0x006c
+0x006C
 and
 ord
 (
@@ -1339,7 +1361,7 @@ pos
 )
 =
 =
-0x006c
+0x006C
 :
                 
 return
@@ -1382,9 +1404,9 @@ pos
 +
 1
 ]
-'
+"
 Greek
-'
+"
 )
         
 return
@@ -1394,12 +1416,12 @@ elif
 cp_value
 =
 =
-0x05f3
+0x05F3
 or
 cp_value
 =
 =
-0x05f4
+0x05F4
 :
         
 if
@@ -1417,9 +1439,9 @@ pos
 -
 1
 ]
-'
+"
 Hebrew
-'
+"
 )
         
 return
@@ -1429,7 +1451,7 @@ elif
 cp_value
 =
 =
-0x30fb
+0x30FB
 :
         
 for
@@ -1442,10 +1464,10 @@ if
 cp
 =
 =
-'
+"
 \
 u30fb
-'
+"
 :
                 
 continue
@@ -1454,25 +1476,25 @@ if
 _is_script
 (
 cp
-'
+"
 Hiragana
-'
+"
 )
 or
 _is_script
 (
 cp
-'
+"
 Katakana
-'
+"
 )
 or
 _is_script
 (
 cp
-'
+"
 Han
-'
+"
 )
 :
                 
@@ -1499,7 +1521,7 @@ label
 :
             
 if
-0x6f0
+0x6F0
 <
 =
 ord
@@ -1508,7 +1530,7 @@ cp
 )
 <
 =
-0x06f9
+0x06F9
 :
                 
 return
@@ -1518,13 +1540,13 @@ return
 True
     
 elif
-0x6f0
+0x6F0
 <
 =
 cp_value
 <
 =
-0x6f9
+0x6F9
 :
         
 for
@@ -1588,11 +1610,11 @@ label
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 if
@@ -1608,10 +1630,10 @@ label
 raise
 IDNAError
 (
-'
+"
 Empty
 Label
-'
+"
 )
     
 check_nfc
@@ -1630,10 +1652,8 @@ label
 )
     
 for
-(
 pos
 cp
-)
 in
 enumerate
 (
@@ -1656,9 +1676,9 @@ idnadata
 .
 codepoint_classes
 [
-'
+"
 PVALID
-'
+"
 ]
 )
 :
@@ -1673,9 +1693,9 @@ idnadata
 .
 codepoint_classes
 [
-'
+"
 CONTEXTJ
-'
+"
 ]
 )
 :
@@ -1695,7 +1715,8 @@ pos
 raise
 InvalidCodepointContext
 (
-'
+                        
+"
 Joiner
 {
 }
@@ -1708,7 +1729,49 @@ position
 in
 {
 }
-'
+"
+.
+format
+(
+_unot
+(
+cp_value
+)
+pos
++
+1
+repr
+(
+label
+)
+)
+                    
+)
+            
+except
+ValueError
+:
+                
+raise
+IDNAError
+(
+                    
+"
+Unknown
+codepoint
+adjacent
+to
+joiner
+{
+}
+at
+position
+{
+}
+in
+{
+}
+"
 .
 format
 (
@@ -1724,48 +1787,9 @@ repr
 (
 label
 )
-)
-)
-            
-except
-ValueError
-:
-                
-raise
-IDNAError
-(
-'
-Unknown
-codepoint
-adjacent
-to
-joiner
-{
-}
-at
-position
-{
-}
-in
-{
-}
-'
-.
-format
-(
                     
-_unot
-(
-cp_value
 )
-pos
-+
-1
-repr
-(
-label
-)
-)
+                
 )
         
 elif
@@ -1776,9 +1800,9 @@ idnadata
 .
 codepoint_classes
 [
-'
+"
 CONTEXTO
-'
+"
 ]
 )
 :
@@ -1795,7 +1819,8 @@ pos
 raise
 InvalidCodepointContext
 (
-'
+                    
+"
 Codepoint
 {
 }
@@ -1808,7 +1833,7 @@ position
 in
 {
 }
-'
+"
 .
 format
 (
@@ -1824,6 +1849,7 @@ repr
 label
 )
 )
+                
 )
         
 else
@@ -1832,7 +1858,8 @@ else
 raise
 InvalidCodepoint
 (
-'
+                
+"
 Codepoint
 {
 }
@@ -1845,7 +1872,7 @@ of
 }
 not
 allowed
-'
+"
 .
 format
 (
@@ -1861,6 +1888,7 @@ repr
 label
 )
 )
+            
 )
     
 check_bidi
@@ -1888,9 +1916,9 @@ label
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
         
 ulabel
@@ -1909,11 +1937,11 @@ label_bytes
 raise
 IDNAError
 (
-'
+"
 Label
 too
 long
-'
+"
 )
         
 return
@@ -1925,35 +1953,7 @@ UnicodeEncodeError
         
 pass
     
-if
-not
-label
-:
-        
-raise
-IDNAError
-(
-'
-No
-Input
-'
-)
-    
-label
-=
-str
-(
-label
-)
-    
 check_label
-(
-label
-)
-    
-label_bytes
-=
-_punycode
 (
 label
 )
@@ -1962,7 +1962,10 @@ label_bytes
 =
 _alabel_prefix
 +
-label_bytes
+_punycode
+(
+label
+)
     
 if
 not
@@ -1975,11 +1978,11 @@ label_bytes
 raise
 IDNAError
 (
-'
+"
 Label
 too
 long
-'
+"
 )
     
 return
@@ -2022,9 +2025,9 @@ label
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
         
 except
@@ -2082,7 +2085,7 @@ label_bytes
 raise
 IDNAError
 (
-'
+"
 Malformed
 A
 -
@@ -2092,7 +2095,7 @@ Punycode
 eligible
 content
 found
-'
+"
 )
         
 if
@@ -2100,9 +2103,9 @@ label_bytes
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
 [
 -
@@ -2110,15 +2113,15 @@ ascii
 ]
 =
 =
-'
+"
 -
-'
+"
 :
             
 raise
 IDNAError
 (
-'
+"
 A
 -
 label
@@ -2128,7 +2131,7 @@ end
 with
 a
 hyphen
-'
+"
 )
     
 else
@@ -2144,9 +2147,9 @@ label_bytes
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
     
 try
@@ -2158,9 +2161,9 @@ label_bytes
 .
 decode
 (
-'
+"
 punycode
-'
+"
 )
     
 except
@@ -2170,12 +2173,12 @@ UnicodeError
 raise
 IDNAError
 (
-'
+"
 Invalid
 A
 -
 label
-'
+"
 )
     
 check_label
@@ -2235,8 +2238,8 @@ uts46data
     
 output
 =
-'
-'
+"
+"
     
 for
 pos
@@ -2268,7 +2271,6 @@ code_point
 <
 256
 else
-                
 bisect
 .
 bisect_left
@@ -2276,9 +2278,9 @@ bisect_left
 uts46data
 (
 code_point
-'
+"
 Z
-'
+"
 )
 )
 -
@@ -2293,6 +2295,11 @@ uts46row
 ]
             
 replacement
+:
+Optional
+[
+str
+]
 =
 None
             
@@ -2315,34 +2322,35 @@ uts46row
             
 if
 (
+                
 status
 =
 =
-'
+"
 V
-'
+"
+                
 or
-                    
 (
 status
 =
 =
-'
+"
 D
-'
+"
 and
 not
 transitional
 )
+                
 or
-                    
 (
 status
 =
 =
-'
+"
 3
-'
+"
 and
 not
 std3_rules
@@ -2351,6 +2359,7 @@ replacement
 is
 None
 )
+            
 )
 :
                 
@@ -2366,37 +2375,37 @@ not
 None
 and
 (
+                
 status
 =
 =
-'
+"
 M
-'
+"
 or
-                    
 (
 status
 =
 =
-'
+"
 3
-'
+"
 and
 not
 std3_rules
 )
 or
-                    
 (
 status
 =
 =
-'
+"
 D
-'
+"
 and
 transitional
 )
+            
 )
 :
                 
@@ -2409,9 +2418,9 @@ elif
 status
 !
 =
-'
+"
 I
-'
+"
 :
                 
 raise
@@ -2427,7 +2436,7 @@ raise
 InvalidCodepoint
 (
                 
-'
+"
 Codepoint
 {
 }
@@ -2440,11 +2449,10 @@ position
 in
 {
 }
-'
+"
 .
 format
 (
-                
 _unot
 (
 code_point
@@ -2457,6 +2465,7 @@ repr
 domain
 )
 )
+            
 )
     
 return
@@ -2464,14 +2473,15 @@ unicodedata
 .
 normalize
 (
-'
+"
 NFC
-'
+"
 output
 )
 def
 encode
 (
+    
 s
 :
 Union
@@ -2480,21 +2490,25 @@ str
 bytes
 bytearray
 ]
+    
 strict
 :
 bool
 =
 False
+    
 uts46
 :
 bool
 =
 False
+    
 std3_rules
 :
 bool
 =
 False
+    
 transitional
 :
 bool
@@ -2507,13 +2521,11 @@ bytes
 :
     
 if
+not
 isinstance
 (
 s
-(
-bytes
-bytearray
-)
+str
 )
 :
         
@@ -2522,13 +2534,12 @@ try
             
 s
 =
-s
-.
-decode
+str
 (
-'
+s
+"
 ascii
-'
+"
 )
         
 except
@@ -2538,7 +2549,7 @@ UnicodeDecodeError
 raise
 IDNAError
 (
-'
+"
 should
 pass
 a
@@ -2553,7 +2564,7 @@ a
 byte
 string
 .
-'
+"
 )
     
 if
@@ -2588,9 +2599,9 @@ s
 .
 split
 (
-'
+"
 .
-'
+"
 )
     
 else
@@ -2613,18 +2624,18 @@ labels
 =
 =
 [
-'
-'
+"
+"
 ]
 :
         
 raise
 IDNAError
 (
-'
+"
 Empty
 domain
-'
+"
 )
     
 if
@@ -2635,8 +2646,8 @@ labels
 ]
 =
 =
-'
-'
+"
+"
 :
         
 del
@@ -2680,10 +2691,10 @@ else
 raise
 IDNAError
 (
-'
+"
 Empty
 label
-'
+"
 )
     
 if
@@ -2695,16 +2706,16 @@ result
 append
 (
 b
-'
-'
+"
+"
 )
     
 s
 =
 b
-'
+"
 .
-'
+"
 .
 join
 (
@@ -2723,11 +2734,11 @@ trailing_dot
 raise
 IDNAError
 (
-'
+"
 Domain
 too
 long
-'
+"
 )
     
 return
@@ -2735,6 +2746,7 @@ s
 def
 decode
 (
+    
 s
 :
 Union
@@ -2743,16 +2755,19 @@ str
 bytes
 bytearray
 ]
+    
 strict
 :
 bool
 =
 False
+    
 uts46
 :
 bool
 =
 False
+    
 std3_rules
 :
 bool
@@ -2768,25 +2783,22 @@ try
 :
         
 if
+not
 isinstance
 (
 s
-(
-bytes
-bytearray
-)
+str
 )
 :
             
 s
 =
-s
-.
-decode
+str
 (
-'
+s
+"
 ascii
-'
+"
 )
     
 except
@@ -2796,14 +2808,14 @@ UnicodeDecodeError
 raise
 IDNAError
 (
-'
+"
 Invalid
 ASCII
 in
 A
 -
 label
-'
+"
 )
     
 if
@@ -2851,9 +2863,9 @@ s
 .
 split
 (
-'
+"
 .
-'
+"
 )
     
 if
@@ -2864,18 +2876,18 @@ labels
 =
 =
 [
-'
-'
+"
+"
 ]
 :
         
 raise
 IDNAError
 (
-'
+"
 Empty
 domain
-'
+"
 )
     
 if
@@ -2928,10 +2940,10 @@ else
 raise
 IDNAError
 (
-'
+"
 Empty
 label
-'
+"
 )
     
 if
@@ -2942,14 +2954,14 @@ result
 .
 append
 (
-'
-'
+"
+"
 )
     
 return
-'
+"
 .
-'
+"
 .
 join
 (

@@ -66,7 +66,6 @@ import
 Metadata
 METADATA_FILENAME
 WHEEL_METADATA_FILENAME
-                       
 LEGACY_METADATA_FILENAME
 )
 from
@@ -77,10 +76,10 @@ import
 parse_requirement
 cached_property
 parse_name_and_version
-                   
 read_exports
 write_exports
 CSVReader
+                   
 CSVWriter
 )
 __all__
@@ -96,7 +95,6 @@ BaseInstalledDistribution
 '
 InstalledDistribution
 '
-    
 '
 EggInfoDistribution
 '
@@ -143,7 +141,6 @@ RECORD
 '
 REQUESTED
 '
-              
 '
 RESOURCES
 '
@@ -757,12 +754,9 @@ DISTINFO_EXT
 possible_filenames
 =
 [
-                            
 METADATA_FILENAME
 WHEEL_METADATA_FILENAME
-                            
 LEGACY_METADATA_FILENAME
-                        
 ]
                         
 for
@@ -777,7 +771,6 @@ posixpath
 .
 join
 (
-                                
 entry
 metadata_filename
 )
@@ -824,7 +817,6 @@ Metadata
 fileobj
 =
 stream
-                                                
 scheme
 =
 '
@@ -861,11 +853,9 @@ new_dist_class
 r
 .
 path
-                                             
 metadata
 =
 metadata
-                                             
 env
 =
 self
@@ -880,7 +870,6 @@ entry
 .
 endswith
 (
-                            
 (
 '
 .
@@ -1781,7 +1770,6 @@ r
 r
 '
 %
-                                       
 (
 name
 version
@@ -2538,7 +2526,6 @@ r
 self
 .
 name
-                     
 req_attr
 reqts
 )
@@ -2546,7 +2533,6 @@ reqts
 return
 set
 (
-            
 md
 .
 get_requirements
@@ -3034,7 +3020,6 @@ version
 other
 .
 version
-                      
 and
 self
 .
@@ -3756,7 +3741,6 @@ in
 s
 '
 %
-                                 
 (
 METADATA_FILENAME
 path
@@ -3930,7 +3914,6 @@ r
 '
 %
 (
-            
 self
 .
 name
@@ -4845,7 +4828,6 @@ base
 or
 (
 base_under_prefix
-                                             
 and
 path
 .
@@ -5233,7 +5215,6 @@ mismatches
 .
 append
 (
-                                
 (
 path
 '
@@ -6018,7 +5999,6 @@ sep
 raise
 DistlibException
 (
-                    
 '
 dist
 -
@@ -6036,7 +6016,7 @@ r
 %
 s
 '
-                    
+                                       
 '
 distribution
 '
@@ -6239,7 +6219,6 @@ isinstance
 other
 InstalledDistribution
 )
-                
 and
 self
 .
@@ -6587,7 +6566,6 @@ logger
 .
 warning
 (
-                        
 '
 Unexpected
 line
@@ -6948,7 +6926,6 @@ fileobj
 =
 StringIO
 (
-                    
 zipf
 .
 get_data
@@ -7025,7 +7002,6 @@ txt
 .
 decode
 (
-                        
 '
 utf
 -
@@ -7300,7 +7276,6 @@ name
 self
 .
 version
-                                                      
 self
 .
 path
@@ -8073,7 +8048,6 @@ isinstance
 other
 EggInfoDistribution
 )
-                
 and
 self
 .
@@ -8895,7 +8869,6 @@ s
 n
 '
 %
-                            
 (
 dist
 .
@@ -9246,7 +9219,6 @@ result
 %
 s
 '
-                         
 [
 '
 %
@@ -9523,7 +9495,6 @@ run_requires
 dist
 .
 meta_requires
-                    
 |
 dist
 .
@@ -9572,7 +9543,6 @@ using
 name
 only
 '
-                               
 req
 )
                 
