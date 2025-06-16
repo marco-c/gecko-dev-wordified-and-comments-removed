@@ -3897,7 +3897,6 @@ e
 }
 const
 {
-pocketButtonEnabled
 hideDescriptions
 compactImages
 imageGradient
@@ -5457,16 +5456,6 @@ onMenuShow
 this
 .
 onMenuShow
-}
-saveToPocketCard
-=
-{
-saveToPocketCard
-}
-pocket_button_enabled
-=
-{
-pocketButtonEnabled
 }
 isRecentSave
 =
