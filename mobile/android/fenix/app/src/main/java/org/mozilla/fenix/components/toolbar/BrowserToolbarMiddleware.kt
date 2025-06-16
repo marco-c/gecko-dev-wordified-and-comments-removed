@@ -3377,6 +3377,8 @@ distinctUntilChangedBy
 it
 .
 tabs
+.
+size
 }
 .
 collect
