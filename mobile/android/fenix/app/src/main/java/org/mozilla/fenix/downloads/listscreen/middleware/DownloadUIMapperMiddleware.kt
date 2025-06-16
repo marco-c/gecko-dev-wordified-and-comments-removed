@@ -547,13 +547,6 @@ FileItem
 =
 values
 .
-distinctBy
-{
-it
-.
-fileName
-}
-.
 filter
 {
 isDisplayableItem
@@ -562,6 +555,13 @@ it
 .
 status
 )
+}
+.
+distinctBy
+{
+it
+.
+fileName
 }
 .
 sortedByDescending
