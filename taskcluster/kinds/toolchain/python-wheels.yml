@@ -134,7 +134,7 @@ TL
 (
 py3
 .
-8
+9
 -
 dbus
 -
@@ -163,7 +163,7 @@ python
 -
 3
 .
-8
+9
 run
 :
 toolchain
@@ -182,9 +182,9 @@ dbus_python
 .
 18
 -
-cp38
+cp39
 -
-cp38
+cp39
 -
 linux_x86_64
 .
@@ -409,7 +409,7 @@ python
 -
 3
 .
-8
+9
 run
 :
 toolchain

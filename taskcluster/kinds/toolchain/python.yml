@@ -124,7 +124,7 @@ python
 -
 3
 .
-8
+9
 :
 treeherder
 :
@@ -165,9 +165,9 @@ cpython
 -
 3
 .
-8
+9
 .
-10
+13
 worker
 :
 docker
@@ -193,7 +193,7 @@ python
 -
 3
 .
-8
+9
 :
 description
 :
@@ -201,9 +201,9 @@ description
 cpython
 3
 .
-8
+9
 .
-10
+13
 AArch64
 /
 ARM64
@@ -260,9 +260,9 @@ cpython
 -
 3
 .
-8
+9
 .
-10
+13
 worker
 :
 docker
@@ -365,7 +365,7 @@ python
 -
 3
 .
-8
+9
 :
 description
 :
@@ -373,9 +373,9 @@ description
 cpython
 3
 .
-8
+9
 .
-10
+13
 "
 treeherder
 :
@@ -429,9 +429,9 @@ cpython
 -
 3
 .
-8
+9
 .
-10
+13
 .
 exe
 macosx64
@@ -440,7 +440,7 @@ python
 -
 3
 .
-8
+9
 :
 treeherder
 :
@@ -490,9 +490,9 @@ cpython
 -
 3
 .
-8
+9
 .
-10
+13
 toolchain
 :
 -

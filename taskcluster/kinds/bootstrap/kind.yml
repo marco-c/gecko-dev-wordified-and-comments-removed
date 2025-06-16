@@ -488,7 +488,7 @@ install
 -
 y
 git
-python38
+python39
 -
 pip
 rockylinux9
