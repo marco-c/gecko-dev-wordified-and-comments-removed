@@ -23540,7 +23540,33 @@ fission
 .
 disableSessionHistoryInParent
 "
+                    
+mozinfo
+.
+info
+[
+"
+os
+"
+]
+=
+=
+"
+android
+"
+                    
+and
+mozinfo
+.
+info
+.
+get
+(
+"
+release_or_beta
+"
 False
+)
                 
 )
                 
