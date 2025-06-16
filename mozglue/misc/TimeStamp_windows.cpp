@@ -1712,7 +1712,6 @@ if
 (
 result
 >
-=
 double
 (
 INT64_MAX
@@ -1728,7 +1727,6 @@ if
 (
 result
 <
-=
 double
 (
 INT64_MIN
