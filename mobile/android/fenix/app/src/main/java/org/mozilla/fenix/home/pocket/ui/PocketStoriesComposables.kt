@@ -3166,9 +3166,6 @@ category
 .
 name
 )
-isSquare
-=
-true
 selectableChipColors
 =
 categoryColors
