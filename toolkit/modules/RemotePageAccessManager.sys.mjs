@@ -934,11 +934,6 @@ Profiles
 :
 UpdateProfileTheme
 "
-"
-Profiles
-:
-UpdateProfileAvatar
-"
 ]
 RPMSendAsyncMessage
 :
@@ -947,6 +942,11 @@ RPMSendAsyncMessage
 Profiles
 :
 UpdateProfileName
+"
+"
+Profiles
+:
+UpdateProfileAvatar
 "
 "
 Profiles
@@ -1005,11 +1005,6 @@ Profiles
 :
 UpdateProfileTheme
 "
-"
-Profiles
-:
-UpdateProfileAvatar
-"
 ]
 RPMSendAsyncMessage
 :
@@ -1018,6 +1013,11 @@ RPMSendAsyncMessage
 Profiles
 :
 UpdateProfileName
+"
+"
+Profiles
+:
+UpdateProfileAvatar
 "
 "
 Profiles

@@ -829,15 +829,13 @@ expectedAvatar
 briefcase
 "
 ;
-await
 profile
 .
-setAvatar
-(
+avatar
+=
 "
 flower
 "
-)
 ;
 await
 SelectableProfileService
