@@ -5364,14 +5364,10 @@ return
 nullptr
 ;
 }
-Rooted
-<
 ModuleObject
 *
->
 self
-(
-cx
+=
 NewObjectWithGivenProto
 <
 ModuleObject
@@ -5379,7 +5375,6 @@ ModuleObject
 (
 cx
 nullptr
-)
 )
 ;
 if
@@ -5462,14 +5457,10 @@ return
 nullptr
 ;
 }
-Rooted
-<
 ModuleObject
 *
->
 self
-(
-cx
+=
 NewObjectWithGivenProto
 <
 ModuleObject
@@ -5477,7 +5468,6 @@ ModuleObject
 (
 cx
 nullptr
-)
 )
 ;
 if

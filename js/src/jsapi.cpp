@@ -10982,14 +10982,10 @@ Type
 String
 :
 {
-Rooted
-<
 JSAtom
 *
->
 atom
-(
-cx
+=
 Atomize
 (
 cx
@@ -11005,7 +11001,6 @@ u
 value
 .
 string
-)
 )
 )
 ;

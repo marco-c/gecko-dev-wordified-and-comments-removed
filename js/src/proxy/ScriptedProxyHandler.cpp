@@ -6865,14 +6865,10 @@ return
 false
 ;
 }
-Rooted
-<
 ProxyObject
 *
->
 proxy
-(
-cx
+=
 &
 proxy_
 -
@@ -6882,7 +6878,6 @@ as
 ProxyObject
 >
 (
-)
 )
 ;
 proxy

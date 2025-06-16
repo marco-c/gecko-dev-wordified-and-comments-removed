@@ -6316,14 +6316,10 @@ enclosingEnvironment
 )
 )
 ;
-Rooted
-<
 BlockLexicalEnvironmentObject
 *
->
 copy
-(
-cx
+=
 create
 (
 cx
@@ -6336,7 +6332,6 @@ Heap
 :
 :
 Default
-)
 )
 ;
 if

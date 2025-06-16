@@ -14756,10 +14756,10 @@ lexicalEnvironment
 )
 )
 ;
-RootedFunction
+JSFunction
+*
 fun
-(
-cx
+=
 NewFunctionWithProto
 (
 cx
@@ -14787,7 +14787,6 @@ AllocKind
 :
 FUNCTION_EXTENDED
 TenuredObject
-)
 )
 ;
 if
