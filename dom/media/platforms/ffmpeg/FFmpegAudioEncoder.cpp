@@ -323,8 +323,7 @@ r
 =
 AllocateCodecContext
 (
-mLib
-mCodecID
+false
 )
 ;
 if

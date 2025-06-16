@@ -403,6 +403,16 @@ final
 public
 :
 static
+MediaCodecsSupported
+GetSupportFromFactory
+(
+bool
+aForceRefresh
+=
+false
+)
+;
+static
 void
 AddSupport
 (

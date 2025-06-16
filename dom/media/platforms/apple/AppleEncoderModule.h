@@ -31,7 +31,10 @@ AppleEncoderModule
 =
 default
 ;
-bool
+media
+:
+:
+EncodeSupportSet
 Supports
 (
 const
@@ -42,7 +45,10 @@ aConfig
 const
 override
 ;
-bool
+media
+:
+:
+EncodeSupportSet
 SupportsCodec
 (
 CodecType
