@@ -159,8 +159,12 @@ aOriginSuffix
 aGroupNoSuffix
 aOriginNoSuffix
 )
-false
+OriginStateMetadata
+{
 0
+false
+false
+}
 }
 ;
 }
