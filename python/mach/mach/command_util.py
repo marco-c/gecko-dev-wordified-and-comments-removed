@@ -1482,6 +1482,23 @@ py
 )
     
 "
+platform
+-
+diff
+"
+:
+MachCommandReference
+(
+"
+testing
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 marionette
 -
 test
