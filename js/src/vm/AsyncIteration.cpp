@@ -3566,7 +3566,7 @@ vp
 JS
 :
 :
-Rooted
+Handle
 <
 JS
 :
@@ -3574,13 +3574,11 @@ JS
 Value
 >
 O
-(
-cx
+=
 args
 .
 thisv
 (
-)
 )
 ;
 JS
