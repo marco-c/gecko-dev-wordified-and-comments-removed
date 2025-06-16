@@ -615,7 +615,7 @@ queries
 homeRegion
 :
 "
-DE
+XX
 "
 locales
 :
