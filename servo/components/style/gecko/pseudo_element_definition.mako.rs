@@ -772,6 +772,8 @@ PtNameAndClassSelector
 from_name
 (
 p
+.
+0
 )
 )
 }
@@ -836,7 +838,7 @@ PseudoStyleType
 Option
 <
 &
-AtomIdent
+Atom
 >
 )
 {
@@ -919,7 +921,10 @@ pseudo_ident
 }
 Some
 (
+&
 value
+.
+0
 )
 )
 %
@@ -1667,10 +1672,9 @@ selector_name
 name
 (
 )
-.
-0
 =
 =
+&
 atom
 !
 (

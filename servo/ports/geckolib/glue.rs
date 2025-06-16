@@ -25919,8 +25919,6 @@ name
 |
 name
 .
-0
-.
 as_ptr
 (
 )
