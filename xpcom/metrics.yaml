@@ -7363,8 +7363,6 @@ send_in_pings
 -
 metrics
 -
-sync
--
 update
 version
 :
@@ -7467,8 +7465,6 @@ send_in_pings
 -
 metrics
 -
-sync
--
 update
 locale
 :
@@ -7558,8 +7554,6 @@ send_in_pings
 :
 -
 metrics
--
-sync
 -
 update
 distro
@@ -7651,8 +7645,6 @@ send_in_pings
 :
 -
 metrics
--
-sync
 -
 update
 distro_version
@@ -7748,8 +7740,6 @@ send_in_pings
 -
 metrics
 -
-sync
--
 update
 service_pack_major
 :
@@ -7844,8 +7834,6 @@ send_in_pings
 -
 metrics
 -
-sync
--
 update
 service_pack_minor
 :
@@ -7939,8 +7927,6 @@ send_in_pings
 :
 -
 metrics
--
-sync
 -
 update
 windows_build_number
@@ -8045,8 +8031,6 @@ send_in_pings
 -
 metrics
 -
-sync
--
 update
 windows_ubr
 :
@@ -8149,8 +8133,6 @@ send_in_pings
 :
 -
 metrics
--
-sync
 -
 update
 system
