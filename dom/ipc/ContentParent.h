@@ -6736,9 +6736,6 @@ mLaunchTS
 TimeStamp
 mLaunchYieldTS
 ;
-TimeStamp
-mActivateTS
-;
 bool
 mIsAPreallocBlocker
 ;
