@@ -1497,6 +1497,14 @@ public
 nsISHEntry
 public
 nsSupportsWeakReference
+public
+LinkedListElement
+<
+RefPtr
+<
+SessionHistoryEntry
+>
+>
 {
 public
 :
