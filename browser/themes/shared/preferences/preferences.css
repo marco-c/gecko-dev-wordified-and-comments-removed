@@ -8481,13 +8481,8 @@ space
 large
 )
 ;
-}
-.
-mission
--
-message
--
-link
+>
+a
 {
 font
 -
@@ -8504,4 +8499,5 @@ size
 small
 )
 ;
+}
 }
