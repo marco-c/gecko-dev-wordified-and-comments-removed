@@ -1226,6 +1226,9 @@ SessionHistoryInfo
 >
 GetContiguousSessionHistoryInfos
 (
+SessionHistoryInfo
+&
+aInfo
 )
 ;
 void
@@ -2199,15 +2202,6 @@ nsTArray
 LoadingSessionHistoryEntry
 >
 mLoadingEntries
-;
-AutoCleanLinkedList
-<
-RefPtr
-<
-SessionHistoryEntry
->
->
-mActiveEntryList
 ;
 RefPtr
 <

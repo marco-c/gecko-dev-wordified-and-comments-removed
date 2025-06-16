@@ -20663,6 +20663,7 @@ GetSingleton
 SendGetContiguousSessionHistoryInfos
 (
 this
+aActiveEntry
 [
 aActiveEntry
 navigation
@@ -20724,6 +20725,7 @@ Canonical
 >
 GetContiguousSessionHistoryInfos
 (
+aActiveEntry
 )
 ;
 aNavigation
