@@ -4735,7 +4735,7 @@ response
 new
 GeckoBundle
 (
-2
+3
 )
 ;
 response
@@ -4760,6 +4760,18 @@ privateBrowsingAllowed
 userResponse
 .
 isPrivateModeGranted
+)
+;
+response
+.
+putBoolean
+(
+"
+isTechnicalAndInteractionDataGranted
+"
+userResponse
+.
+isTechnicalAndInteractionDataGranted
 )
 ;
 return
