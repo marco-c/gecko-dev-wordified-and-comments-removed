@@ -4003,7 +4003,7 @@ name
 String
 topic
 String
-action
+cookie
 )
 ;
 public
@@ -4014,6 +4014,9 @@ onNotificationClose
 final
 String
 name
+final
+String
+cookie
 )
 {
 if
@@ -4031,7 +4034,7 @@ name
 "
 alertfinished
 "
-null
+cookie
 )
 ;
 }
@@ -4044,10 +4047,9 @@ onNotificationClick
 final
 String
 name
-Nullable
 final
 String
-action
+cookie
 )
 {
 if
@@ -4065,7 +4067,7 @@ name
 "
 alertclickcallback
 "
-action
+cookie
 )
 ;
 }
@@ -4090,7 +4092,7 @@ name
 "
 alertclickcallback
 "
-action
+cookie
 )
 ;
 }
