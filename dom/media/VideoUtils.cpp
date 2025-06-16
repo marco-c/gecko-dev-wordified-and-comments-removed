@@ -444,6 +444,7 @@ double
 USECS_PER_S
 )
 >
+=
 double
 (
 INT64_MAX
