@@ -1041,8 +1041,8 @@ targetString
 =
 "
 H264
-SWDEC
-HWDEC
+SW
+HW
 "
 _ns
 ;
@@ -1066,7 +1066,7 @@ targetString
 =
 "
 VP8
-SWDEC
+SW
 "
 _ns
 ;
@@ -1090,7 +1090,7 @@ targetString
 =
 "
 VP9
-HWDEC
+HW
 "
 _ns
 ;

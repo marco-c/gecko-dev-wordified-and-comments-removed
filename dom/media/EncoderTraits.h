@@ -67,17 +67,12 @@ ToEncoderConfig
 )
 ;
 return
-!
 factory
 -
 >
 Supports
 (
 config
-)
-.
-isEmpty
-(
 )
 ;
 }

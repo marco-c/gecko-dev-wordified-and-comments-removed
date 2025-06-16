@@ -4420,9 +4420,6 @@ m
 ;
 }
 StaticMutex
-PDMFactory
-:
-:
 sSupportedMutex
 ;
 media
