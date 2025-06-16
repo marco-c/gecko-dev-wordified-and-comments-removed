@@ -4422,11 +4422,6 @@ IntlUtils
 webidl
 "
 "
-InvokeEvent
-.
-webidl
-"
-"
 IterableIterator
 .
 webidl

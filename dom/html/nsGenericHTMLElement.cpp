@@ -619,7 +619,7 @@ mozilla
 /
 dom
 /
-InvokeEvent
+CommandEvent
 .
 h
 "
@@ -16298,7 +16298,7 @@ action
 return
 ;
 }
-InvokeEventInit
+CommandEventInit
 init
 ;
 actionRaw
@@ -16308,12 +16308,12 @@ ToString
 (
 init
 .
-mAction
+mCommand
 )
 ;
 init
 .
-mInvoker
+mSource
 =
 this
 ;
@@ -16335,7 +16335,7 @@ Event
 >
 event
 =
-InvokeEvent
+CommandEvent
 :
 :
 Constructor
@@ -16343,7 +16343,7 @@ Constructor
 this
 u
 "
-invoke
+command
 "
 _ns
 init
