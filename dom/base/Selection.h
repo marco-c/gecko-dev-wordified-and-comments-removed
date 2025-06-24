@@ -229,6 +229,9 @@ dom
 class
 DocGroup
 ;
+class
+ShadowRootOrGetComposedRangesOptions
+;
 }
 }
 namespace
@@ -1867,6 +1870,10 @@ aRv
 void
 GetComposedRanges
 (
+const
+ShadowRootOrGetComposedRangesOptions
+&
+aShadowRootOrGetComposedRangesOptions
 const
 Sequence
 <
