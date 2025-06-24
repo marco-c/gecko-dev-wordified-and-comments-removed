@@ -26,6 +26,11 @@ DataChannelProtocol
 .
 h
 "
+"
+DataChannelUsrsctp
+.
+h
+"
 ]
 SOURCES
 +
@@ -33,6 +38,11 @@ SOURCES
 [
 "
 DataChannel
+.
+cpp
+"
+"
+DataChannelUsrsctp
 .
 cpp
 "
