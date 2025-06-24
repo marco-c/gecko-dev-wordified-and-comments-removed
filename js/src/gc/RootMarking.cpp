@@ -1408,13 +1408,6 @@ traceRuntimeAtoms
 trc
 )
 ;
-atomMarking
-.
-markAtomsUsedByUncollectedZones
-(
-this
-)
-;
 }
 {
 gcstats
