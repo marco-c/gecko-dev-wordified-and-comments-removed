@@ -5178,8 +5178,6 @@ aMaxTime
 :
 0
 )
-nullptr
-nullptr
 aExternalNegotiated
 aStream
 )
