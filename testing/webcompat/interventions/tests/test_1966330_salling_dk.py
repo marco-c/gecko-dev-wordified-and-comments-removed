@@ -2,6 +2,13 @@ import
 asyncio
 import
 pytest
+from
+webdriver
+.
+error
+import
+ElementClickInterceptedException
+WebDriverException
 URL
 =
 "
@@ -131,7 +138,7 @@ COOKIES_OVERLAY_CSS
 )
     
 for
-i
+_
 in
 range
 (
@@ -139,6 +146,9 @@ range
 )
 :
         
+try
+:
+            
 await
 asyncio
 .
@@ -148,7 +158,7 @@ sleep
 .
 1
 )
-        
+            
 client
 .
 await_css
@@ -162,6 +172,15 @@ True
 click
 (
 )
+        
+except
+(
+WebDriverException
+ElementClickInterceptedException
+)
+:
+            
+continue
         
 brands
 =
@@ -181,10 +200,51 @@ brands
             
 break
     
+for
+_
+in
+range
+(
+20
+)
+:
+        
+try
+:
+            
 brands
 .
 click
 (
+)
+            
+break
+        
+except
+(
+WebDriverException
+ElementClickInterceptedException
+)
+:
+            
+await
+asyncio
+.
+sleep
+(
+0
+.
+1
+)
+    
+await
+asyncio
+.
+sleep
+(
+0
+.
+5
 )
     
 return

@@ -108,6 +108,11 @@ pytest
 .
 mark
 .
+actual_platform_required
+pytest
+.
+mark
+.
 asyncio
 pytest
 .
@@ -128,6 +133,11 @@ check_can_scroll
 (
 client
 )
+pytest
+.
+mark
+.
+actual_platform_required
 pytest
 .
 mark

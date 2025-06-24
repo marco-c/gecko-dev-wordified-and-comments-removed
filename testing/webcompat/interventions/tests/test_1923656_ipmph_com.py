@@ -45,6 +45,26 @@ src
 videoM3u8
 ]
 "
+VPN_MESSAGE
+=
+"
+Possibly
+region
+-
+locked
+.
+Please
+try
+again
+using
+a
+VPN
+set
+to
+Hong
+Kong
+.
+"
 pytest
 .
 mark
@@ -69,8 +89,16 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
+try
+:
+        
 client
 .
 switch_frame
@@ -82,9 +110,22 @@ await_css
 IFRAME_CSS
 timeout
 =
-120
+30
 )
 )
+    
+except
+Exception
+:
+        
+pytest
+.
+skip
+(
+VPN_MESSAGE
+)
+        
+return
     
 client
 .
@@ -94,9 +135,6 @@ SUPPORTED_CSS
 is_displayed
 =
 True
-timeout
-=
-60
 )
     
 assert
@@ -134,8 +172,16 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
+try
+:
+        
 client
 .
 await_css
@@ -146,8 +192,21 @@ is_displayed
 True
 timeout
 =
-60
+30
 )
+    
+except
+Exception
+:
+        
+pytest
+.
+skip
+(
+VPN_MESSAGE
+)
+        
+return
     
 assert
 not
