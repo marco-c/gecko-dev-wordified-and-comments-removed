@@ -924,7 +924,7 @@ R
 .
 id
 .
-button_search_widget_new_tab
+button_search_widget_new_tab_icon
 textSearchIntent
 )
 setOnClickPendingIntent
