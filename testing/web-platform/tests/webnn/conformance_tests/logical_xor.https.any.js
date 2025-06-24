@@ -2722,6 +2722,7 @@ webnn_conformance_test
 buildAndExecuteGraph
 getPrecisionTolerance
 test
+true
 )
 ;
 }

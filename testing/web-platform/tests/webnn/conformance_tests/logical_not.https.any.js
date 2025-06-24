@@ -1251,6 +1251,7 @@ webnn_conformance_test
 buildAndExecuteGraph
 getLogicalNotPrecisionTolerance
 test
+true
 )
 ;
 }

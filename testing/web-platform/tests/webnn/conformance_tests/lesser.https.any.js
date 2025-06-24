@@ -7612,6 +7612,7 @@ webnn_conformance_test
 buildAndExecuteGraph
 getLesserPrecisionTolerance
 test
+true
 )
 ;
 }
