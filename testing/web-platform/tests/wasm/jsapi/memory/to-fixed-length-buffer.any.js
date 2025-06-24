@@ -132,6 +132,9 @@ Memory
 initial
 :
 0
+maximum
+:
+1
 }
 )
 ;
