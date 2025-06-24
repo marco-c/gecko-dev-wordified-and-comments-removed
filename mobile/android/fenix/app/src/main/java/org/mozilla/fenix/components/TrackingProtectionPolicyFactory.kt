@@ -697,5 +697,8 @@ strictSocialTrackingProtection
 cookiePurging
 =
 cookiePurging
+bounceTrackingProtectionMode
+=
+bounceTrackingProtectionMode
 )
 }
