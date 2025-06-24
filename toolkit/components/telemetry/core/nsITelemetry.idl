@@ -319,6 +319,14 @@ EXCLUDE_STACKINFO_FROM_LOADEVENTS
 implicit_jscontext
 ]
 Promise
+submitAndGetUntrustedModulePayload
+(
+)
+;
+[
+implicit_jscontext
+]
+Promise
 getUntrustedModuleLoadEvents
 (
 [

@@ -342,7 +342,7 @@ Services
 .
 telemetry
 .
-getUntrustedModuleLoadEvents
+submitAndGetUntrustedModulePayload
 (
 )
 .
