@@ -3721,12 +3721,13 @@ WidgetMouseEventBase
 :
 InputSourceSupportsHover
 (
+uint16_t
+aInputSource
 )
-const
 {
 switch
 (
-mInputSource
+aInputSource
 )
 {
 case
