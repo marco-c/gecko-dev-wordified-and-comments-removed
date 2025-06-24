@@ -1044,6 +1044,10 @@ void
 CompleteConnect
 (
 )
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 void
 SetSignals
@@ -2275,12 +2279,6 @@ mMaxMessageSizeSet
 =
 false
 ;
-Maybe
-<
-bool
->
-mAllocateEven
-;
 uint64_t
 mMaxMessageSize
 =
@@ -2419,6 +2417,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mSTS
+;
+Maybe
+<
+bool
+>
+mAllocateEven
 ;
 uint16_t
 mLocalPort
