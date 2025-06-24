@@ -377,13 +377,13 @@ mozilla
 .
 org
 /
-Firefox
+Web
 /
 Privacy
 /
 Guides
 /
-Tracking_Protection
+Firefox_tracking_protection
 "
 +
 DOCS_GA_PARAMS

@@ -810,15 +810,13 @@ return
 {
 MDN_URL
 }
-Mozilla
-/
-Firefox
+Web
 /
 Privacy
 /
 Guides
 /
-Tracking_Protection
+Firefox_tracking_protection
 {
 getGAParams
 (
