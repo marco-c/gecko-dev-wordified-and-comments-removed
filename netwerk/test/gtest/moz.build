@@ -153,6 +153,11 @@ TestURIMutator
 cpp
 "
 "
+TestURLPatternGlue
+.
+cpp
+"
+"
 TestWebTransportFlowControl
 .
 cpp
