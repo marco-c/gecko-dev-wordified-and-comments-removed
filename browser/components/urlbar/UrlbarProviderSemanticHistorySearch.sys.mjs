@@ -541,7 +541,7 @@ distanceThreshold
 "
 0
 .
-75
+6
 )
 ;
 this
