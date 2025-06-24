@@ -356,9 +356,14 @@ export
 default
 getScriptGlobals
 (
+{
+environmentName
+:
 "
 simpletest
 "
+files
+:
 simpleTestFiles
 .
 map
@@ -374,5 +379,6 @@ simpleTestPath
 file
 )
 )
+}
 )
 ;
