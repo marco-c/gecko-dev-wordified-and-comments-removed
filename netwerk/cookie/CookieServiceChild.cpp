@@ -2114,7 +2114,7 @@ PR_Now
 (
 )
 /
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 ;
 if
 (

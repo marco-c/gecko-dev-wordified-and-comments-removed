@@ -636,9 +636,9 @@ int64_t
 MaybeReduceExpiry
 (
 int64_t
-aCurrentTimeInSec
+aCurrentTimeInMSec
 int64_t
-aExpiryInSec
+aExpiryInMSec
 )
 ;
 static
