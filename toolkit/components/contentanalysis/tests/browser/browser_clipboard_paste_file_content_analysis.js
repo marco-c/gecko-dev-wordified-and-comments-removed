@@ -439,7 +439,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eCustomDisplayString
+eUpload
 expectedFilePath
 "
 "

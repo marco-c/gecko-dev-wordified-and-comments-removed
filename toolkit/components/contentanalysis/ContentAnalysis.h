@@ -526,7 +526,7 @@ OperationType
 mOperationTypeForDisplay
 ;
 nsString
-mOperationDisplayString
+mFileNameForDisplay
 ;
 nsString
 mPrinterName
@@ -926,7 +926,7 @@ RefPtr
 <
 FilesAllowedPromise
 >
-CheckFilesInBatchMode
+CheckUploadsInBatchMode
 (
 nsCOMArray
 <
