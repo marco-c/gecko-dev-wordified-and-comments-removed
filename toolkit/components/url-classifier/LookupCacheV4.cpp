@@ -1907,7 +1907,10 @@ Clear
 (
 )
 ;
-nsAutoCString
+nsAutoCStringN
+<
+40
+>
 sha256
 ;
 crypto
