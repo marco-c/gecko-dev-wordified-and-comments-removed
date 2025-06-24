@@ -186,7 +186,7 @@ const
 rcHelper
 =
 new
-RemoteContextHelper
+PrerenderingRemoteContextHelper
 (
 )
 ;
@@ -253,9 +253,10 @@ const
 prerenderedRC
 =
 await
-addPrerenderRC
-(
 referrerRC
+.
+addPrerender
+(
 )
 ;
 let
@@ -398,9 +399,10 @@ currentEntry
 )
 ;
 await
-activatePrerenderRC
-(
 referrerRC
+.
+navigateExpectingPrerenderingActivation
+(
 prerenderedRC
 )
 ;

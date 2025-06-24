@@ -224,7 +224,7 @@ const
 rcHelper
 =
 new
-RemoteContextHelper
+PrerenderingRemoteContextHelper
 (
 )
 ;
@@ -250,9 +250,10 @@ const
 prerenderedRC
 =
 await
-addPrerenderRC
-(
 referrerRC
+.
+addPrerender
+(
 )
 ;
 const
@@ -478,7 +479,7 @@ const
 rcHelper
 =
 new
-RemoteContextHelper
+PrerenderingRemoteContextHelper
 (
 )
 ;
@@ -504,9 +505,10 @@ const
 prerenderedRC
 =
 await
-addPrerenderRC
-(
 referrerRC
+.
+addPrerender
+(
 )
 ;
 /
@@ -541,9 +543,10 @@ HTTPS_REMOTE_ORIGIN
 )
 ;
 await
-activatePrerenderRC
-(
 referrerRC
+.
+navigateExpectingPrerenderingActivation
+(
 prerenderedRC
 )
 ;

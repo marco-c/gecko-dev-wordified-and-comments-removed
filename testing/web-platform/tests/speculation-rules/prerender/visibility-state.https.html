@@ -199,7 +199,7 @@ const
 rcHelper
 =
 new
-RemoteContextHelper
+PrerenderingRemoteContextHelper
 (
 )
 ;
@@ -225,9 +225,10 @@ const
 prerenderedRC
 =
 await
-addPrerenderRC
-(
 referrerRC
+.
+addPrerender
+(
 )
 ;
 assert_equals
@@ -251,9 +252,10 @@ hidden
 )
 ;
 await
-activatePrerenderRC
-(
 referrerRC
+.
+navigateExpectingPrerenderingActivation
+(
 prerenderedRC
 )
 ;
