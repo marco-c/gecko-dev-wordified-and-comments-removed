@@ -286,11 +286,6 @@ UnregisterHandler
 (
 )
 ;
-void
-HandleCloseFromBrowser
-(
-)
-;
 nsString
 ActionArgsJSONString
 (
