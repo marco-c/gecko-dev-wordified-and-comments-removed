@@ -211,29 +211,6 @@ kwargs
 )
 :
     
-kwargs
-[
-"
-binary_args
-"
-]
-.
-extend
-(
-subsuite
-.
-config
-.
-get
-(
-"
-binary_args
-"
-[
-]
-)
-)
-    
 return
 {
         
@@ -269,6 +246,19 @@ kwargs
 binary_args
 "
 ]
++
+subsuite
+.
+config
+.
+get
+(
+"
+binary_args
+"
+[
+]
+)
         
 "
 user_stylesheets
