@@ -1,3 +1,7 @@
+import
+functools
+import
+sentry_sdk
 from
 sentry_sdk
 .
@@ -5,21 +9,9 @@ consts
 import
 OP
 from
-sentry_sdk
-.
-hub
-import
-Hub
-from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
-from
-sentry_sdk
-import
-_functools
 if
 TYPE_CHECKING
 :
@@ -119,14 +111,8 @@ self
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -136,12 +122,19 @@ op
 OP
 .
 VIEW_RESPONSE_RENDER
-description
+            
+name
 =
 "
 serialize
 response
 "
+            
+origin
+=
+DjangoIntegration
+.
+origin
         
 )
 :
@@ -152,7 +145,7 @@ old_render
 self
 )
     
-_functools
+functools
 .
 wraps
 (
@@ -183,15 +176,13 @@ args
 kwargs
 )
         
-hub
-=
-Hub
-.
-current
-        
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -240,7 +231,6 @@ sentry_wrapped_callback
 =
 wrap_async_view
 (
-hub
 callback
 )
             
@@ -251,7 +241,6 @@ sentry_wrapped_callback
 =
 _wrap_sync_view
 (
-hub
 callback
 )
         
@@ -279,12 +268,20 @@ sentry_patched_make_view_atomic
 def
 _wrap_sync_view
 (
-hub
 callback
 )
 :
     
-_functools
+from
+sentry_sdk
+.
+integrations
+.
+django
+import
+DjangoIntegration
+    
+functools
 .
 wraps
 (
@@ -303,16 +300,39 @@ kwargs
 )
 :
         
-with
-hub
+current_scope
+=
+sentry_sdk
 .
-configure_scope
+get_current_scope
 (
 )
-as
-sentry_scope
+        
+if
+current_scope
+.
+transaction
+is
+not
+None
 :
             
+current_scope
+.
+transaction
+.
+update_active_thread
+(
+)
+        
+sentry_scope
+=
+sentry_sdk
+.
+get_isolation_scope
+(
+)
+        
 if
 sentry_scope
 .
@@ -321,7 +341,7 @@ is
 not
 None
 :
-                
+            
 sentry_scope
 .
 profile
@@ -329,19 +349,20 @@ profile
 update_active_thread_id
 (
 )
-            
+        
 with
-hub
+sentry_sdk
 .
 start_span
 (
-                
+            
 op
 =
 OP
 .
 VIEW_RENDER
-description
+            
+name
 =
 request
 .
@@ -349,9 +370,15 @@ resolver_match
 .
 view_name
             
+origin
+=
+DjangoIntegration
+.
+origin
+        
 )
 :
-                
+            
 return
 callback
 (

@@ -1,15 +1,7 @@
-from
-__future__
-import
-absolute_import
 import
 sys
-from
-sentry_sdk
-.
-hub
 import
-Hub
+sentry_sdk
 from
 sentry_sdk
 .
@@ -23,9 +15,7 @@ scope
 import
 add_global_event_processor
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -76,9 +66,11 @@ hint
 :
             
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (

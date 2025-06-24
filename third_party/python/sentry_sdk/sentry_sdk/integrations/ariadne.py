@@ -2,18 +2,19 @@ from
 importlib
 import
 import_module
+import
+sentry_sdk
 from
 sentry_sdk
-.
-hub
 import
-Hub
-_should_send_default_pii
+get_client
+capture_event
 from
 sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 DidNotEnable
 Integration
 from
@@ -35,22 +36,24 @@ request_body_within_bounds
 from
 sentry_sdk
 .
+scope
+import
+should_send_default_pii
+from
+sentry_sdk
+.
 utils
 import
 (
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
     
 package_version
 )
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 try
 :
     
@@ -78,6 +81,10 @@ not
 installed
 "
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -146,45 +153,10 @@ ariadne
 "
 )
         
-if
-version
-is
-None
-:
-            
-raise
-DidNotEnable
+_check_minimum_version
 (
-"
-Unparsable
-ariadne
+AriadneIntegration
 version
-.
-"
-)
-        
-if
-version
-<
-(
-0
-20
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-ariadne
-0
-.
-20
-or
-newer
-required
-.
-"
 )
         
 ignore_logger
@@ -221,6 +193,12 @@ ariadne_graphql
 .
 handle_query_result
     
+ensure_integration_enabled
+(
+AriadneIntegration
+old_parse_query
+)
+    
 def
 _sentry_patched_parse_query
 (
@@ -230,53 +208,18 @@ data
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
-integration
-=
-hub
-.
-get_integration
-(
-AriadneIntegration
-)
-        
-if
-integration
-is
-None
-:
-            
-return
-old_parse_query
-(
-context_value
-query_parser
-data
-)
-        
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-            
 event_processor
 =
 _make_request_event_processor
 (
 data
 )
-            
-scope
+        
+sentry_sdk
+.
+get_isolation_scope
+(
+)
 .
 add_event_processor
 (
@@ -295,6 +238,12 @@ data
 return
 result
     
+ensure_integration_enabled
+(
+AriadneIntegration
+old_handle_errors
+)
+    
 def
 _sentry_patched_handle_graphql_errors
 (
@@ -307,38 +256,6 @@ kwargs
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
-integration
-=
-hub
-.
-get_integration
-(
-AriadneIntegration
-)
-        
-if
-integration
-is
-None
-:
-            
-return
-old_handle_errors
-(
-errors
-*
-args
-*
-*
-kwargs
-)
-        
 result
 =
 old_handle_errors
@@ -351,16 +268,6 @@ args
 kwargs
 )
         
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-            
 event_processor
 =
 _make_response_event_processor
@@ -370,18 +277,30 @@ result
 1
 ]
 )
-            
-scope
+        
+sentry_sdk
+.
+get_isolation_scope
+(
+)
 .
 add_event_processor
 (
 event_processor
 )
         
-if
-hub
-.
 client
+=
+get_client
+(
+)
+        
+if
+client
+.
+is_active
+(
+)
 :
             
 with
@@ -406,8 +325,6 @@ error
                         
 client_options
 =
-hub
-.
 client
 .
 options
@@ -420,7 +337,7 @@ mechanism
 type
 "
 :
-integration
+AriadneIntegration
 .
 identifier
                             
@@ -434,8 +351,6 @@ False
                     
 )
                     
-hub
-.
 capture_event
 (
 event
@@ -446,6 +361,12 @@ hint
         
 return
 result
+    
+ensure_integration_enabled
+(
+AriadneIntegration
+old_handle_query_result
+)
     
 def
 _sentry_patched_handle_query_result
@@ -459,38 +380,6 @@ kwargs
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
-integration
-=
-hub
-.
-get_integration
-(
-AriadneIntegration
-)
-        
-if
-integration
-is
-None
-:
-            
-return
-old_handle_query_result
-(
-result
-*
-args
-*
-*
-kwargs
-)
-        
 query_result
 =
 old_handle_query_result
@@ -503,16 +392,6 @@ args
 kwargs
 )
         
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-            
 event_processor
 =
 _make_response_event_processor
@@ -522,18 +401,30 @@ query_result
 1
 ]
 )
-            
-scope
+        
+sentry_sdk
+.
+get_isolation_scope
+(
+)
 .
 add_event_processor
 (
 event_processor
 )
         
-if
-hub
-.
 client
+=
+get_client
+(
+)
+        
+if
+client
+.
+is_active
+(
+)
 :
             
 with
@@ -563,8 +454,6 @@ error
                         
 client_options
 =
-hub
-.
 client
 .
 options
@@ -577,7 +466,7 @@ mechanism
 type
 "
 :
-integration
+AriadneIntegration
 .
 identifier
                             
@@ -591,8 +480,6 @@ False
                     
 )
                     
-hub
-.
 capture_event
 (
 event
@@ -714,18 +601,16 @@ return
 event
             
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 and
 request_body_within_bounds
 (
                 
-Hub
-.
-current
-.
-client
+get_client
+(
+)
 content_length
             
 )
@@ -842,7 +727,7 @@ capture_internal_exceptions
 :
             
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 and

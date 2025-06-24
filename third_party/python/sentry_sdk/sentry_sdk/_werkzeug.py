@@ -260,15 +260,7 @@ DAMAGE
 "
 "
 from
-sentry_sdk
-.
-_compat
-import
-iteritems
-from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -315,9 +307,10 @@ for
 key
 value
 in
-iteritems
-(
 environ
+.
+items
+(
 )
 :
         

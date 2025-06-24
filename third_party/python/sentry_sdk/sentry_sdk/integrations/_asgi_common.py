@@ -3,9 +3,9 @@ urllib
 from
 sentry_sdk
 .
-hub
+scope
 import
-_should_send_default_pii
+should_send_default_pii
 from
 sentry_sdk
 .
@@ -15,9 +15,7 @@ _wsgi_common
 import
 _filter_headers
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -40,9 +38,21 @@ import
 Optional
     
 from
+typing
+import
+Union
+    
+from
 typing_extensions
 import
 Literal
+    
+from
+sentry_sdk
+.
+utils
+import
+AnnotatedValue
 def
 _get_headers
 (
@@ -672,7 +682,7 @@ client
 if
 client
 and
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :

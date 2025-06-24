@@ -1,3 +1,5 @@
+import
+functools
 from
 django
 .
@@ -18,23 +20,24 @@ import
 VERSION
 as
 DJANGO_VERSION
-from
-sentry_sdk
 import
-_functools
-Hub
-from
 sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 from
 sentry_sdk
 .
 consts
 import
 OP
+from
+sentry_sdk
+.
+utils
+import
+ensure_integration_enabled
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -261,6 +264,14 @@ rendered_content
     
 property
     
+ensure_integration_enabled
+(
+DjangoIntegration
+real_rendered_content
+.
+fget
+)
+    
 def
 rendered_content
 (
@@ -268,33 +279,8 @@ self
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-DjangoIntegration
-)
-is
-None
-:
-            
-return
-real_rendered_content
-.
-fget
-(
-self
-)
-        
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -305,7 +291,7 @@ OP
 .
 TEMPLATE_RENDER
             
-description
+name
 =
 _get_template_name_description
 (
@@ -313,6 +299,12 @@ self
 .
 template_name
 )
+            
+origin
+=
+DjangoIntegration
+.
+origin
         
 )
 as
@@ -369,10 +361,16 @@ shortcuts
 .
 render
     
-_functools
+functools
 .
 wraps
 (
+real_render
+)
+    
+ensure_integration_enabled
+(
+DjangoIntegration
 real_render
 )
     
@@ -391,36 +389,6 @@ args
 kwargs
 )
 :
-        
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-DjangoIntegration
-)
-is
-None
-:
-            
-return
-real_render
-(
-request
-template_name
-context
-*
-args
-*
-*
-kwargs
-)
         
 context
 =
@@ -447,15 +415,21 @@ sentry_trace_meta
 =
 mark_safe
 (
-hub
+                
+sentry_sdk
+.
+get_current_scope
+(
+)
 .
 trace_propagation_meta
 (
 )
+            
 )
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -466,12 +440,18 @@ OP
 .
 TEMPLATE_RENDER
             
-description
+name
 =
 _get_template_name_description
 (
 template_name
 )
+            
+origin
+=
+DjangoIntegration
+.
+origin
         
 )
 as

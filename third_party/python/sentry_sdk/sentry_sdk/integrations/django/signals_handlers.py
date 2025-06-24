@@ -1,41 +1,15 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 from
-__future__
+functools
 import
-absolute_import
+wraps
 from
 django
 .
 dispatch
 import
 Signal
-from
-sentry_sdk
 import
-Hub
-from
 sentry_sdk
-.
-_functools
-import
-wraps
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -50,6 +24,10 @@ integrations
 django
 import
 DJANGO_VERSION
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -286,12 +264,6 @@ sender
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
 if
 DJANGO_VERSION
 >
@@ -358,7 +330,7 @@ receiver
 )
                 
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -369,9 +341,15 @@ OP
 .
 EVENT_DJANGO
                     
-description
+name
 =
 signal_name
+                    
+origin
+=
+DjangoIntegration
+.
+origin
                 
 )
 as
@@ -403,7 +381,11 @@ wrapper
         
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (

@@ -1,31 +1,23 @@
 import
 uuid
 from
-sentry_sdk
-.
-_compat
+datetime
 import
-datetime_utcnow
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
+datetime
+timezone
 from
 sentry_sdk
 .
 utils
 import
 format_timestamp
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
-    
-from
-datetime
-import
-datetime
     
 from
 typing
@@ -102,9 +94,6 @@ val
 )
 class
 Session
-(
-object
-)
 :
     
 def
@@ -192,8 +181,13 @@ None
             
 started
 =
-datetime_utcnow
+datetime
+.
+now
 (
+timezone
+.
+utc
 )
         
 if
@@ -485,8 +479,13 @@ None
             
 timestamp
 =
-datetime_utcnow
+datetime
+.
+now
 (
+timezone
+.
+utc
 )
         
 self

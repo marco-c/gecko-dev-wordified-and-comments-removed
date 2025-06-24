@@ -96,9 +96,7 @@ import
 Baggage
 extract_sentrytrace_data
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -109,10 +107,6 @@ from
 typing
 import
 Optional
-    
-from
-typing
-import
 Set
 class
 SentryPropagator
@@ -463,17 +457,25 @@ if
 baggage
 :
                 
+baggage_data
+=
+baggage
+.
+serialize
+(
+)
+                
+if
+baggage_data
+:
+                    
 setter
 .
 set
 (
 carrier
 BAGGAGE_HEADER_NAME
-baggage
-.
-serialize
-(
-)
+baggage_data
 )
     
 property

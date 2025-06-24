@@ -13,7 +13,14 @@ threading
 import
 time
 import
+warnings
+import
 zlib
+from
+abc
+import
+ABC
+abstractmethod
 from
 contextlib
 import
@@ -22,6 +29,7 @@ from
 datetime
 import
 datetime
+timezone
 from
 functools
 import
@@ -29,14 +37,6 @@ wraps
 partial
 import
 sentry_sdk
-from
-sentry_sdk
-.
-_compat
-import
-text_type
-utc_from_timestamp
-iteritems
 from
 sentry_sdk
 .
@@ -68,20 +68,9 @@ sentry_sdk
 .
 tracing
 import
-(
-    
-TRANSACTION_SOURCE_ROUTE
-    
-TRANSACTION_SOURCE_VIEW
-    
-TRANSACTION_SOURCE_COMPONENT
-    
-TRANSACTION_SOURCE_TASK
-)
+TransactionSource
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -207,6 +196,86 @@ sentry_sdk
 _types
 import
 MetricValue
+warnings
+.
+warn
+(
+    
+"
+The
+sentry_sdk
+.
+metrics
+module
+is
+deprecated
+and
+will
+be
+removed
+in
+the
+next
+major
+release
+.
+"
+    
+"
+Sentry
+will
+reject
+all
+metrics
+sent
+after
+October
+7
+2024
+.
+"
+    
+"
+Learn
+more
+:
+https
+:
+/
+/
+sentry
+.
+zendesk
+.
+com
+/
+hc
+/
+en
+-
+us
+/
+articles
+/
+26369339769883
+-
+Upcoming
+-
+API
+-
+Changes
+-
+to
+-
+Metrics
+"
+    
+DeprecationWarning
+    
+stacklevel
+=
+2
+)
 _in_metrics
 =
 ContextVar
@@ -228,13 +297,21 @@ frozenset
     
 [
         
-TRANSACTION_SOURCE_ROUTE
+TransactionSource
+.
+ROUTE
         
-TRANSACTION_SOURCE_VIEW
+TransactionSource
+.
+VIEW
         
-TRANSACTION_SOURCE_COMPONENT
+TransactionSource
+.
+COMPONENT
         
-TRANSACTION_SOURCE_TASK
+TransactionSource
+.
+TASK
     
 ]
 )
@@ -331,10 +408,22 @@ sub
 "
 "
 )
-_TAG_VALUE_SANITIZATION_TABLE
+def
+_sanitize_tag_value
+(
+value
+)
+:
+    
+table
 =
+str
+.
+maketrans
+(
+        
 {
-    
+            
 "
 \
 n
@@ -345,7 +434,7 @@ n
 \
 n
 "
-    
+            
 "
 \
 r
@@ -356,7 +445,7 @@ r
 \
 r
 "
-    
+            
 "
 \
 t
@@ -367,7 +456,7 @@ t
 \
 t
 "
-    
+            
 "
 \
 \
@@ -379,7 +468,7 @@ t
 \
 \
 "
-    
+            
 "
 |
 "
@@ -392,7 +481,7 @@ u
 7c
 }
 "
-    
+            
 "
 "
 :
@@ -404,47 +493,17 @@ u
 2c
 }
 "
+        
 }
-def
-_sanitize_tag_value
-(
-value
+    
 )
-:
     
 return
-"
-"
-.
-join
-(
-        
-[
-            
-(
-                
-_TAG_VALUE_SANITIZATION_TABLE
-[
-char
-]
-                
-if
-char
-in
-_TAG_VALUE_SANITIZATION_TABLE
-                
-else
-char
-            
-)
-            
-for
-char
-in
 value
-        
-]
-    
+.
+translate
+(
+table
 )
 def
 get_code_location
@@ -610,7 +669,7 @@ new_func
 class
 Metric
 (
-object
+ABC
 )
 :
     
@@ -619,7 +678,21 @@ __slots__
 (
 )
     
+abstractmethod
+    
+def
+__init__
+(
+self
+first
+)
+:
+        
+pass
+    
 property
+    
+abstractmethod
     
 def
 weight
@@ -628,25 +701,21 @@ self
 )
 :
         
-raise
-NotImplementedError
-(
-)
+pass
+    
+abstractmethod
     
 def
 add
 (
-        
 self
 value
-    
 )
 :
         
-raise
-NotImplementedError
-(
-)
+pass
+    
+abstractmethod
     
 def
 serialize_value
@@ -655,10 +724,7 @@ self
 )
 :
         
-raise
-NotImplementedError
-(
-)
+pass
 class
 CounterMetric
 (
@@ -1169,9 +1235,10 @@ for
 bucket_key
 metric
 in
-iteritems
-(
 buckets
+.
+items
+(
 )
 :
             
@@ -1656,9 +1723,6 @@ now
 }
 class
 LocalAggregator
-(
-object
-)
 :
     
 __slots__
@@ -1904,9 +1968,6 @@ return
 rv
 class
 MetricsAggregator
-(
-object
-)
 :
     
 ROLLUP_IN_SECONDS
@@ -2339,11 +2400,12 @@ for
 buckets_timestamp
 buckets
 in
-iteritems
-(
 self
 .
 buckets
+.
+items
+(
 )
 :
                     
@@ -2372,12 +2434,12 @@ flushable_buckets
 :
                     
 for
-_
 metric
 in
-iteritems
-(
 buckets
+.
+values
+(
 )
 :
                         
@@ -2748,9 +2810,14 @@ unit
         
 start_of_day
 =
-utc_from_timestamp
+datetime
+.
+fromtimestamp
 (
 timestamp
+timezone
+.
+utc
 )
 .
 replace
@@ -2848,7 +2915,7 @@ loc
 metrics_noop
     
 def
-need_code_loation
+need_code_location
 (
         
 self
@@ -2883,9 +2950,14 @@ unit
         
 start_of_day
 =
-utc_from_timestamp
+datetime
+.
+fromtimestamp
 (
 timestamp
+timezone
+.
+utc
 )
 .
 replace
@@ -3082,9 +3154,10 @@ for
 timestamp
 locations
 in
-iteritems
-(
 code_locations
+.
+items
+(
 )
 :
             
@@ -3157,9 +3230,10 @@ for
 key
 value
 in
-iteritems
-(
 tags
+.
+items
+(
 )
 :
         
@@ -3193,7 +3267,7 @@ append
 (
 (
 key
-text_type
+str
 (
 inner_value
 )
@@ -3213,7 +3287,7 @@ append
 (
 (
 key
-text_type
+str
 (
 value
 )
@@ -3309,19 +3383,13 @@ _get_aggregator
 )
 :
     
-hub
+client
 =
 sentry_sdk
 .
-Hub
-.
-current
-    
-client
-=
-hub
-.
-client
+get_client
+(
+)
     
 return
 (
@@ -3332,9 +3400,10 @@ metrics_aggregator
         
 if
 client
-is
-not
-None
+.
+is_active
+(
+)
 and
 client
 .
@@ -3357,24 +3426,21 @@ tags
 )
 :
     
-hub
+client
 =
 sentry_sdk
 .
-Hub
-.
-current
-    
-client
-=
-hub
-.
-client
+get_client
+(
+)
     
 if
+not
 client
-is
-None
+.
+is_active
+(
+)
 or
 client
 .
@@ -3434,9 +3500,11 @@ environment
     
 scope
 =
-hub
+sentry_sdk
 .
-scope
+get_current_scope
+(
+)
     
 local_aggregator
 =
@@ -3654,9 +3722,6 @@ incr
 increment
 class
 _Timing
-(
-object
-)
 :
     
 def
@@ -3813,7 +3878,7 @@ metric
 .
 timing
 "
-description
+name
 =
 self
 .

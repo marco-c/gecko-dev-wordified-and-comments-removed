@@ -1,13 +1,5 @@
-from
-__future__
 import
-absolute_import
-from
 sentry_sdk
-.
-hub
-import
-Hub
 from
 sentry_sdk
 .
@@ -27,9 +19,7 @@ utils
 import
 _get_installed_modules
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -98,9 +88,11 @@ return
 event
             
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (

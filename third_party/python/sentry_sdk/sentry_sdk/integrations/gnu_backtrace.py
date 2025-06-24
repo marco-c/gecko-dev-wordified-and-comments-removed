@@ -1,11 +1,7 @@
 import
 re
-from
-sentry_sdk
-.
-hub
 import
-Hub
+sentry_sdk
 from
 sentry_sdk
 .
@@ -25,9 +21,7 @@ utils
 import
 capture_internal_exceptions
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -309,9 +303,11 @@ hint
 :
     
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (

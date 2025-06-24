@@ -27,9 +27,7 @@ consts
 import
 DEFAULT_QUEUE_SIZE
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -57,9 +55,6 @@ object
 )
 class
 BackgroundWorker
-(
-object
-)
 :
     
 def
@@ -286,9 +281,9 @@ _target
 name
 =
 "
-raven
--
 sentry
+-
+sdk
 .
 BackgroundWorker
 "

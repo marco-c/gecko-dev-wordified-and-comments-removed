@@ -1,18 +1,18 @@
 import
 sys
-from
-sentry_sdk
-.
-hub
 import
-Hub
+sentry_sdk
 from
 sentry_sdk
 .
 utils
 import
+(
+    
 capture_internal_exceptions
+    
 event_from_exception
+)
 from
 sentry_sdk
 .
@@ -20,9 +20,7 @@ integrations
 import
 Integration
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -177,15 +175,13 @@ traceback
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -195,9 +191,18 @@ ExcepthookIntegration
 if
 integration
 is
-not
 None
-and
+:
+            
+return
+old_excepthook
+(
+type_
+value
+traceback
+)
+        
+if
 _should_send
 (
 integration
@@ -205,12 +210,6 @@ integration
 always_run
 )
 :
-            
-client
-=
-hub
-.
-client
             
 with
 capture_internal_exceptions
@@ -232,7 +231,11 @@ traceback
                     
 client_options
 =
-client
+sentry_sdk
+.
+get_client
+(
+)
 .
 options
                     
@@ -255,7 +258,7 @@ False
                 
 )
                 
-hub
+sentry_sdk
 .
 capture_event
 (

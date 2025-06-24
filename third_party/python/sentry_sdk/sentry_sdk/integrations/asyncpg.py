@@ -12,16 +12,8 @@ TypeVar
 Callable
 Awaitable
 Iterator
-from
-asyncpg
-.
-cursor
 import
-BaseCursor
-from
 sentry_sdk
-import
-Hub
 from
 sentry_sdk
 .
@@ -34,6 +26,7 @@ sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 Integration
 DidNotEnable
 from
@@ -54,13 +47,26 @@ sentry_sdk
 .
 utils
 import
+(
+    
+ensure_integration_enabled
+    
 parse_version
+    
 capture_internal_exceptions
+)
 try
 :
     
 import
 asyncpg
+    
+from
+asyncpg
+.
+cursor
+import
+BaseCursor
 except
 ImportError
 :
@@ -75,44 +81,6 @@ installed
 .
 "
 )
-asyncpg_version
-=
-parse_version
-(
-asyncpg
-.
-__version__
-)
-if
-asyncpg_version
-is
-not
-None
-and
-asyncpg_version
-<
-(
-0
-23
-0
-)
-:
-    
-raise
-DidNotEnable
-(
-"
-asyncpg
->
-=
-0
-.
-23
-.
-0
-required
-"
-)
 class
 AsyncPGIntegration
 (
@@ -124,6 +92,19 @@ identifier
 =
 "
 asyncpg
+"
+    
+origin
+=
+f
+"
+auto
+.
+db
+.
+{
+identifier
+}
 "
     
 _record_params
@@ -159,6 +140,21 @@ setup_once
 >
 None
 :
+        
+asyncpg_version
+=
+parse_version
+(
+asyncpg
+.
+__version__
+)
+        
+_check_minimum_version
+(
+AsyncPGIntegration
+asyncpg_version
+)
         
 asyncpg
 .
@@ -317,26 +313,33 @@ Any
 T
 :
         
-hub
-=
-Hub
+if
+sentry_sdk
 .
-current
-        
-integration
-=
-hub
+get_client
+(
+)
 .
 get_integration
 (
 AsyncPGIntegration
 )
-        
-if
-integration
 is
 None
-or
+:
+            
+return
+await
+f
+(
+*
+args
+*
+*
+kwargs
+)
+        
+if
 len
 (
 args
@@ -367,14 +370,31 @@ with
 record_sql_queries
 (
             
-hub
+cursor
+=
 None
+            
 query
+=
+query
+            
+params_list
+=
 None
+            
+paramstyle
+=
 None
+            
 executemany
 =
 False
+            
+span_origin
+=
+AsyncPGIntegration
+.
+origin
         
 )
 as
@@ -401,7 +421,6 @@ capture_internal_exceptions
             
 add_query_source
 (
-hub
 span
 )
         
@@ -427,10 +446,6 @@ contextmanager
 def
 _record
 (
-    
-hub
-:
-Hub
     
 cursor
 :
@@ -472,7 +487,11 @@ Span
     
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -480,6 +499,11 @@ AsyncPGIntegration
 )
     
 if
+integration
+is
+not
+None
+and
 not
 integration
 .
@@ -504,14 +528,20 @@ with
 record_sql_queries
 (
         
-hub
-        
+cursor
+=
 cursor
         
 query
+=
+query
         
 params_list
+=
+params_list
         
+paramstyle
+=
 param_style
         
 executemany
@@ -524,6 +554,12 @@ cursor
 is
 not
 None
+        
+span_origin
+=
+AsyncPGIntegration
+.
+origin
     
 )
 as
@@ -588,23 +624,17 @@ Any
 T
 :
         
-hub
-=
-Hub
+if
+sentry_sdk
 .
-current
-        
-integration
-=
-hub
+get_client
+(
+)
 .
 get_integration
 (
 AsyncPGIntegration
 )
-        
-if
-integration
 is
 None
 :
@@ -646,7 +676,6 @@ None
 with
 _record
 (
-hub
 None
 query
 params_list
@@ -708,6 +737,12 @@ T
 ]
 :
     
+ensure_integration_enabled
+(
+AsyncPGIntegration
+f
+)
+    
 def
 _inner
 (
@@ -725,37 +760,6 @@ Any
 >
 T
 :
-        
-hub
-=
-Hub
-.
-current
-        
-integration
-=
-hub
-.
-get_integration
-(
-AsyncPGIntegration
-)
-        
-if
-integration
-is
-None
-:
-            
-return
-f
-(
-*
-args
-*
-*
-kwargs
-)
         
 query
 =
@@ -783,8 +787,6 @@ None
 with
 _record
 (
-            
-hub
             
 None
             
@@ -887,23 +889,17 @@ Any
 T
 :
         
-hub
-=
-Hub
+if
+sentry_sdk
 .
-current
-        
-integration
-=
-hub
+get_client
+(
+)
 .
 get_integration
 (
 AsyncPGIntegration
 )
-        
-if
-integration
 is
 None
 :
@@ -942,20 +938,29 @@ params
 database
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
+            
 op
 =
 OP
 .
 DB
-description
+            
+name
 =
 "
 connect
 "
+            
+origin
+=
+AsyncPGIntegration
+.
+origin
+        
 )
 as
 span
@@ -1049,10 +1054,11 @@ capture_internal_exceptions
 )
 :
                 
-hub
+sentry_sdk
 .
 add_breadcrumb
 (
+                    
 message
 =
 "
@@ -1068,6 +1074,7 @@ data
 span
 .
 _data
+                
 )
             
 res

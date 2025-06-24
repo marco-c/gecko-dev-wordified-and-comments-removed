@@ -1,13 +1,7 @@
-from
-__future__
-import
-absolute_import
 import
 socket
-from
-sentry_sdk
 import
-Hub
+sentry_sdk
 from
 sentry_sdk
 .
@@ -61,6 +55,19 @@ identifier
 =
 "
 socket
+"
+    
+origin
+=
+f
+"
+auto
+.
+socket
+.
+{
+identifier
+}
 "
     
 staticmethod
@@ -132,6 +139,26 @@ AttributeError
         
 pass
     
+try
+:
+        
+port
+=
+port
+.
+decode
+(
+)
+    
+except
+(
+UnicodeDecodeError
+AttributeError
+)
+:
+        
+pass
+    
 description
 =
 "
@@ -180,19 +207,21 @@ None
 )
 :
         
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-        
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 SocketIntegration
 )
+        
+if
+integration
 is
 None
 :
@@ -200,21 +229,13 @@ None
 return
 real_create_connection
 (
-                
-address
-=
 address
 timeout
-=
-timeout
 source_address
-=
-source_address
-            
 )
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -225,7 +246,7 @@ OP
 .
 SOCKET_CONNECTION
             
-description
+name
 =
 _get_span_description
 (
@@ -238,6 +259,12 @@ address
 1
 ]
 )
+            
+origin
+=
+SocketIntegration
+.
+origin
         
 )
 as
@@ -327,19 +354,21 @@ flags
 )
 :
         
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-        
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 SocketIntegration
 )
+        
+if
+integration
 is
 None
 :
@@ -356,7 +385,7 @@ flags
 )
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -366,13 +395,20 @@ op
 OP
 .
 SOCKET_DNS
-description
+            
+name
 =
 _get_span_description
 (
 host
 port
 )
+            
+origin
+=
+SocketIntegration
+.
+origin
         
 )
 as

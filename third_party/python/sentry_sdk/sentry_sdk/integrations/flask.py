@@ -1,25 +1,11 @@
-from
-__future__
 import
-absolute_import
-from
 sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
-from
-sentry_sdk
-.
-hub
-import
-Hub
-_should_send_default_pii
 from
 sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 DidNotEnable
 Integration
 from
@@ -29,7 +15,12 @@ integrations
 .
 _wsgi_common
 import
+(
+    
+DEFAULT_HTTP_METHODS_TO_CAPTURE
+    
 RequestExtractor
+)
 from
 sentry_sdk
 .
@@ -43,7 +34,7 @@ sentry_sdk
 .
 scope
 import
-Scope
+should_send_default_pii
 from
 sentry_sdk
 .
@@ -59,10 +50,16 @@ import
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
     
 package_version
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -202,6 +199,19 @@ identifier
 flask
 "
     
+origin
+=
+f
+"
+auto
+.
+http
+.
+{
+identifier
+}
+"
+    
 transaction_style
 =
 "
@@ -210,12 +220,19 @@ transaction_style
 def
 __init__
 (
+        
 self
+        
 transaction_style
 =
 "
 endpoint
 "
+        
+http_methods_to_capture
+=
+DEFAULT_HTTP_METHODS_TO_CAPTURE
+    
 )
 :
         
@@ -260,6 +277,21 @@ self
 transaction_style
 =
 transaction_style
+        
+self
+.
+http_methods_to_capture
+=
+tuple
+(
+map
+(
+str
+.
+upper
+http_methods_to_capture
+)
+)
     
 staticmethod
     
@@ -268,6 +300,49 @@ setup_once
 (
 )
 :
+        
+try
+:
+            
+from
+quart
+import
+Quart
+            
+if
+Flask
+=
+=
+Quart
+:
+                
+raise
+DidNotEnable
+(
+                    
+"
+This
+is
+not
+a
+Flask
+app
+but
+rather
+Quart
+pretending
+to
+be
+Flask
+"
+                
+)
+        
+except
+ImportError
+:
+            
+pass
         
 version
 =
@@ -278,46 +353,10 @@ flask
 "
 )
         
-if
-version
-is
-None
-:
-            
-raise
-DidNotEnable
+_check_minimum_version
 (
-"
-Unparsable
-Flask
+FlaskIntegration
 version
-.
-"
-)
-        
-if
-version
-<
-(
-0
-10
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-Flask
-0
-.
-10
-or
-newer
-is
-required
-.
-"
 )
         
 before_render_template
@@ -357,9 +396,11 @@ start_response
 :
             
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (
@@ -377,9 +418,24 @@ environ
 start_response
 )
             
-return
+integration
+=
+sentry_sdk
+.
+get_client
+(
+)
+.
+get_integration
+(
+FlaskIntegration
+)
+            
+middleware
+=
 SentryWsgiMiddleware
 (
+                
 lambda
 *
 a
@@ -396,12 +452,36 @@ a
 *
 kw
 )
-)
-(
                 
+span_origin
+=
+FlaskIntegration
+.
+origin
+                
+http_methods_to_capture
+=
+(
+                    
+integration
+.
+http_methods_to_capture
+                    
+if
+integration
+                    
+else
+DEFAULT_HTTP_METHODS_TO_CAPTURE
+                
+)
+            
+)
+            
+return
+middleware
+(
 environ
 start_response
-            
 )
         
 Flask
@@ -431,17 +511,19 @@ context
         
 return
     
-hub
+scope
 =
-Hub
+sentry_sdk
 .
-current
+get_current_scope
+(
+)
     
 trace_meta
 =
 Markup
 (
-hub
+scope
 .
 trace_propagation_meta
 (
@@ -537,15 +619,13 @@ kwargs
 )
 :
     
-hub
-=
-Hub
-.
-current
-    
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -560,16 +640,6 @@ None
         
 return
     
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-        
 request
 =
 flask_request
@@ -577,16 +647,30 @@ flask_request
 _get_current_object
 (
 )
-        
+    
 _set_transaction_name_and_source
 (
-scope
+        
+sentry_sdk
+.
+get_current_scope
+(
+)
 integration
 .
 transaction_style
 request
+    
 )
-        
+    
+scope
+=
+sentry_sdk
+.
+get_isolation_scope
+(
+)
+    
 evt_processor
 =
 _make_request_event_processor
@@ -595,7 +679,7 @@ app
 request
 integration
 )
-        
+    
 scope
 .
 add_event_processor
@@ -804,7 +888,7 @@ event
 )
         
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :
@@ -825,6 +909,10 @@ event
     
 return
 inner
+ensure_integration_enabled
+(
+FlaskIntegration
+)
 def
 _capture_exception
 (
@@ -836,31 +924,6 @@ kwargs
 )
 :
     
-hub
-=
-Hub
-.
-current
-    
-if
-hub
-.
-get_integration
-(
-FlaskIntegration
-)
-is
-None
-:
-        
-return
-    
-client
-=
-hub
-.
-client
-    
 event
 hint
 =
@@ -871,7 +934,11 @@ exception
         
 client_options
 =
-client
+sentry_sdk
+.
+get_client
+(
+)
 .
 options
         
@@ -894,7 +961,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (

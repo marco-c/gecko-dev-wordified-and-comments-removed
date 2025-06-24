@@ -1,11 +1,9 @@
 from
-__future__
+functools
 import
-absolute_import
-from
+partial
+import
 sentry_sdk
-import
-Hub
 from
 sentry_sdk
 .
@@ -18,6 +16,7 @@ sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 Integration
 DidNotEnable
 from
@@ -29,23 +28,22 @@ Span
 from
 sentry_sdk
 .
-_functools
-import
-partial
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
-from
-sentry_sdk
-.
 utils
 import
+(
+    
 capture_internal_exceptions
+    
+ensure_integration_enabled
+    
 parse_url
+    
 parse_version
+)
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -126,6 +124,19 @@ identifier
 boto3
 "
     
+origin
+=
+f
+"
+auto
+.
+http
+.
+{
+identifier
+}
+"
+    
 staticmethod
     
 def
@@ -141,54 +152,12 @@ parse_version
 BOTOCORE_VERSION
 )
         
-if
-version
-is
-None
-:
-            
-raise
-DidNotEnable
+_check_minimum_version
 (
-                
+Boto3Integration
+version
 "
-Unparsable
 botocore
-version
-:
-{
-}
-"
-.
-format
-(
-BOTOCORE_VERSION
-)
-            
-)
-        
-if
-version
-<
-(
-1
-12
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-Botocore
-1
-.
-12
-or
-newer
-is
-required
-.
 "
 )
         
@@ -296,6 +265,10 @@ BaseClient
 __init__
 =
 sentry_patched_init
+ensure_integration_enabled
+(
+Boto3Integration
+)
 def
 _sentry_request_created
 (
@@ -307,25 +280,6 @@ operation_name
 kwargs
 )
 :
-    
-hub
-=
-Hub
-.
-current
-    
-if
-hub
-.
-get_integration
-(
-Boto3Integration
-)
-is
-None
-:
-        
-return
     
 description
 =
@@ -346,14 +300,10 @@ operation_name
     
 span
 =
-hub
+sentry_sdk
 .
 start_span
 (
-        
-hub
-=
-hub
         
 op
 =
@@ -361,9 +311,15 @@ OP
 .
 HTTP_CLIENT
         
-description
+name
 =
 description
+        
+origin
+=
+Boto3Integration
+.
+origin
     
 )
     
@@ -552,11 +508,17 @@ OP
 .
 HTTP_CLIENT_STREAM
         
-description
+name
 =
 span
 .
 description
+        
+origin
+=
+Boto3Integration
+.
+origin
     
 )
     

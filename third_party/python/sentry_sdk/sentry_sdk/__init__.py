@@ -1,13 +1,6 @@
 from
 sentry_sdk
 .
-hub
-import
-Hub
-init
-from
-sentry_sdk
-.
 scope
 import
 Scope
@@ -36,18 +29,6 @@ sentry_sdk
 consts
 import
 VERSION
-from
-sentry_sdk
-.
-crons
-import
-monitor
-from
-sentry_sdk
-.
-tracing
-import
-trace
 __all__
 =
 [
@@ -73,23 +54,15 @@ HttpTransport
 "
     
 "
-init
-"
-    
-"
 integrations
 "
     
 "
-capture_event
+init
 "
     
 "
-capture_message
-"
-    
-"
-capture_exception
+add_attachment
 "
     
 "
@@ -97,11 +70,23 @@ add_breadcrumb
 "
     
 "
+capture_event
+"
+    
+"
+capture_exception
+"
+    
+"
+capture_message
+"
+    
+"
 configure_scope
 "
     
 "
-push_scope
+continue_trace
 "
     
 "
@@ -109,39 +94,23 @@ flush
 "
     
 "
-last_event_id
+get_baggage
 "
     
 "
-start_span
+get_client
 "
     
 "
-start_transaction
+get_global_scope
 "
     
 "
-set_tag
+get_isolation_scope
 "
     
 "
-set_context
-"
-    
-"
-set_extra
-"
-    
-"
-set_user
-"
-    
-"
-set_level
-"
-    
-"
-set_measurement
+get_current_scope
 "
     
 "
@@ -153,15 +122,71 @@ get_traceparent
 "
     
 "
-get_baggage
+is_initialized
 "
     
 "
-continue_trace
+isolation_scope
+"
+    
+"
+last_event_id
+"
+    
+"
+new_scope
+"
+    
+"
+push_scope
+"
+    
+"
+set_context
+"
+    
+"
+set_extra
+"
+    
+"
+set_level
+"
+    
+"
+set_measurement
+"
+    
+"
+set_tag
+"
+    
+"
+set_tags
+"
+    
+"
+set_user
+"
+    
+"
+start_span
+"
+    
+"
+start_transaction
 "
     
 "
 trace
+"
+    
+"
+monitor
+"
+    
+"
+logger
 "
 ]
 from
@@ -175,3 +200,9 @@ init_debug_support
 )
 del
 init_debug_support
+from
+sentry_sdk
+.
+hub
+import
+Hub

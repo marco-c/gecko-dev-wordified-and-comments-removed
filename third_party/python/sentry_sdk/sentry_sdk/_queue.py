@@ -672,9 +672,7 @@ time
 import
 time
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -754,9 +752,6 @@ put_nowait
 pass
 class
 Queue
-(
-object
-)
 :
     
 "

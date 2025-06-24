@@ -1,20 +1,13 @@
-from
-__future__
-import
-absolute_import
 import
 asyncio
 import
 inspect
-import
-threading
 from
-sentry_sdk
-.
-hub
+functools
 import
-_should_send_default_pii
-Hub
+wraps
+import
+sentry_sdk
 from
 sentry_sdk
 .
@@ -43,7 +36,7 @@ sentry_sdk
 .
 scope
 import
-Scope
+should_send_default_pii
 from
 sentry_sdk
 .
@@ -59,18 +52,12 @@ import
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
 )
 from
-sentry_sdk
-.
-_functools
-import
-wraps
-from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -208,6 +195,19 @@ identifier
 quart
 "
     
+origin
+=
+f
+"
+auto
+.
+http
+.
+{
+identifier
+}
+"
+    
 transaction_style
 =
 "
@@ -341,9 +341,11 @@ send
 :
         
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (
@@ -367,6 +369,7 @@ middleware
 =
 SentryAsgiMiddleware
 (
+            
 lambda
 *
 a
@@ -383,6 +386,13 @@ a
 *
 kw
 )
+            
+span_origin
+=
+QuartIntegration
+.
+origin
+        
 )
         
 middleware
@@ -472,6 +482,12 @@ wraps
 old_func
 )
                 
+ensure_integration_enabled
+(
+QuartIntegration
+old_func
+)
+                
 def
 _sentry_func
 (
@@ -483,47 +499,39 @@ kwargs
 )
 :
                     
-hub
+current_scope
 =
-Hub
+sentry_sdk
 .
-current
-                    
-integration
-=
-hub
-.
-get_integration
+get_current_scope
 (
-QuartIntegration
 )
                     
 if
-integration
+current_scope
+.
+transaction
 is
+not
 None
 :
                         
-return
-old_func
+current_scope
+.
+transaction
+.
+update_active_thread
 (
-*
-args
-*
-*
-kwargs
 )
                     
-with
-hub
+sentry_scope
+=
+sentry_sdk
 .
-configure_scope
+get_isolation_scope
 (
 )
-as
-sentry_scope
-:
-                        
+                    
 if
 sentry_scope
 .
@@ -532,25 +540,15 @@ is
 not
 None
 :
-                            
+                        
 sentry_scope
 .
 profile
 .
-active_thread_id
-=
-(
-                                
-threading
-.
-current_thread
+update_active_thread_id
 (
 )
-.
-ident
-                            
-)
-                        
+                    
 return
 old_func
 (
@@ -654,15 +652,13 @@ kwargs
 )
 :
     
-hub
-=
-Hub
-.
-current
-    
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -677,22 +673,12 @@ None
         
 return
     
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-        
 if
 has_request_context
 (
 )
 :
-            
+        
 request_websocket
 =
 request
@@ -700,13 +686,13 @@ request
 _get_current_object
 (
 )
-        
+    
 if
 has_websocket_context
 (
 )
 :
-            
+        
 request_websocket
 =
 websocket
@@ -714,29 +700,39 @@ websocket
 _get_current_object
 (
 )
-        
+    
 _set_transaction_name_and_source
 (
-            
-scope
+        
+sentry_sdk
+.
+get_current_scope
+(
+)
 integration
 .
 transaction_style
 request_websocket
-        
+    
 )
-        
+    
+scope
+=
+sentry_sdk
+.
+get_isolation_scope
+(
+)
+    
 evt_processor
 =
 _make_request_event_processor
 (
-            
 app
 request_websocket
 integration
-        
 )
-        
+    
 scope
 .
 add_event_processor
@@ -839,7 +835,7 @@ headers
 )
             
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :
@@ -886,30 +882,26 @@ kwargs
 )
 :
     
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-    
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 QuartIntegration
 )
+    
+if
+integration
 is
 None
 :
         
 return
-    
-client
-=
-hub
-.
-client
     
 event
 hint
@@ -921,7 +913,11 @@ exception
         
 client_options
 =
-client
+sentry_sdk
+.
+get_client
+(
+)
 .
 options
         
@@ -944,7 +940,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (

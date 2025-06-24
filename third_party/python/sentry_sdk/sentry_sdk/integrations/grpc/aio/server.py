@@ -1,13 +1,5 @@
-from
-sentry_sdk
 import
-Hub
-from
 sentry_sdk
-.
-_types
-import
-MYPY
 from
 sentry_sdk
 .
@@ -23,18 +15,32 @@ DidNotEnable
 from
 sentry_sdk
 .
+integrations
+.
+grpc
+.
+consts
+import
+SPAN_ORIGIN
+from
+sentry_sdk
+.
 tracing
 import
 Transaction
-TRANSACTION_SOURCE_CUSTOM
+TransactionSource
 from
 sentry_sdk
 .
 utils
 import
 event_from_exception
+from
+typing
+import
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -49,6 +55,7 @@ from
 typing
 import
 Any
+Optional
 try
 :
     
@@ -115,8 +122,6 @@ _find_name
         
 super
 (
-ServerInterceptor
-self
 )
 .
 __init__
@@ -146,6 +151,15 @@ continuation
 (
 handler_call_details
 )
+        
+if
+handler
+is
+None
+:
+            
+return
+None
         
 if
 not
@@ -196,12 +210,6 @@ request
 context
 )
                 
-hub
-=
-Hub
-.
-current
-                
 transaction
 =
 Transaction
@@ -230,12 +238,18 @@ name
                     
 source
 =
-TRANSACTION_SOURCE_CUSTOM
+TransactionSource
+.
+CUSTOM
+                    
+origin
+=
+SPAN_ORIGIN
                 
 )
                 
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
@@ -297,7 +311,7 @@ False
                         
 )
                         
-hub
+sentry_sdk
 .
 capture_event
 (

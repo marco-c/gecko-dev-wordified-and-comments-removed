@@ -16,9 +16,7 @@ utils
 import
 logger
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -34,9 +32,6 @@ MAX_DOWNSAMPLE_FACTOR
 10
 class
 Monitor
-(
-object
-)
 :
     
 "

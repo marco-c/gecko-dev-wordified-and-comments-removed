@@ -1,19 +1,7 @@
-from
-__future__
-import
-absolute_import
 import
 sys
-from
-sentry_sdk
 import
-configure_scope
-from
 sentry_sdk
-.
-hub
-import
-Hub
 from
 sentry_sdk
 .
@@ -38,9 +26,7 @@ walk_exception_chain
 event_hint_with_exc_info
 )
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -102,21 +88,16 @@ def
 _capture_exception
 (
 exc_info
-hub
 )
 :
     
 client
 =
-hub
+sentry_sdk
 .
-client
-    
-client_options
-=
-client
-.
-options
+get_client
+(
+)
     
 mechanism
 =
@@ -186,7 +167,9 @@ single_exception_from_error_tuple
 exc_type
 exc_value
 tb
-client_options
+client
+.
+options
 mechanism
                 
 )
@@ -237,7 +220,7 @@ _tag_task_context
 (
 )
         
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -259,18 +242,18 @@ taskcontext
 import
 TaskContext
     
-with
-configure_scope
+scope
+=
+sentry_sdk
+.
+get_isolation_scope
 (
 )
-as
-scope
-:
-        
+    
 scope
 .
 add_event_processor
-        
+    
 def
 process_event
 (
@@ -278,24 +261,28 @@ event
 hint
 )
 :
-            
+        
 with
 capture_internal_exceptions
 (
 )
 :
-                
+            
 integration
 =
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (
-SparkWorkerIntegration
-)
                 
+SparkWorkerIntegration
+            
+)
+            
 task_context
 =
 TaskContext
@@ -303,7 +290,7 @@ TaskContext
 get
 (
 )
-                
+            
 if
 integration
 is
@@ -313,10 +300,10 @@ task_context
 is
 None
 :
-                    
+                
 return
 event
-                
+            
 event
 .
 setdefault
@@ -330,7 +317,7 @@ tags
 .
 setdefault
 (
-                    
+                
 "
 stageId
 "
@@ -342,9 +329,9 @@ stageId
 (
 )
 )
-                
+            
 )
-                
+            
 event
 [
 "
@@ -366,7 +353,7 @@ partitionId
 )
 )
 )
-                
+            
 event
 [
 "
@@ -376,7 +363,6 @@ tags
 .
 setdefault
 (
-                    
 "
 attemptNumber
 "
@@ -388,9 +374,8 @@ attemptNumber
 (
 )
 )
-                
 )
-                
+            
 event
 [
 "
@@ -400,7 +385,6 @@ tags
 .
 setdefault
 (
-                    
 "
 taskAttemptId
 "
@@ -412,15 +396,14 @@ taskAttemptId
 (
 )
 )
-                
 )
-                
+            
 if
 task_context
 .
 _localProperties
 :
-                    
+                
 if
 "
 sentry_app_name
@@ -430,7 +413,7 @@ task_context
 .
 _localProperties
 :
-                        
+                    
 event
 [
 "
@@ -440,7 +423,7 @@ tags
 .
 setdefault
 (
-                            
+                        
 "
 app_name
 "
@@ -452,9 +435,9 @@ _localProperties
 sentry_app_name
 "
 ]
-                        
+                    
 )
-                        
+                    
 event
 [
 "
@@ -464,11 +447,11 @@ tags
 .
 setdefault
 (
-                            
+                        
 "
 application_id
 "
-                            
+                        
 task_context
 .
 _localProperties
@@ -477,9 +460,9 @@ _localProperties
 sentry_application_id
 "
 ]
-                        
-)
                     
+)
+                
 if
 "
 callSite
@@ -491,7 +474,7 @@ task_context
 .
 _localProperties
 :
-                        
+                    
 event
 .
 setdefault
@@ -505,7 +488,7 @@ extra
 .
 setdefault
 (
-                            
+                        
 "
 callSite
 "
@@ -519,9 +502,9 @@ callSite
 short
 "
 ]
-                        
+                    
 )
-            
+        
 return
 event
 def
@@ -561,9 +544,11 @@ SystemExit
 :
         
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (
@@ -573,12 +558,6 @@ is
 not
 None
 :
-            
-hub
-=
-Hub
-.
-current
             
 exc_info
 =
@@ -597,5 +576,4 @@ capture_internal_exceptions
 _capture_exception
 (
 exc_info
-hub
 )

@@ -6,6 +6,8 @@ from
 inspect
 import
 iscoroutinefunction
+import
+sentry_sdk
 from
 sentry_sdk
 .
@@ -21,21 +23,15 @@ OP
 from
 sentry_sdk
 .
-hub
+scope
 import
-Hub
-_should_send_default_pii
+should_send_default_pii
 from
 sentry_sdk
 .
 tracing
 import
-(
-    
-TRANSACTION_SOURCE_COMPONENT
-    
-TRANSACTION_SOURCE_ROUTE
-)
+TransactionSource
 from
 sentry_sdk
 .
@@ -46,6 +42,8 @@ import
 HAS_REAL_CONTEXTVARS
     
 CONTEXTVARS_ERROR_MESSAGE
+    
+ensure_integration_enabled
     
 event_from_exception
     
@@ -58,6 +56,7 @@ sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 Integration
 DidNotEnable
 from
@@ -83,12 +82,6 @@ integrations
 logging
 import
 ignore_logger
-from
-sentry_sdk
-.
-_compat
-import
-iteritems
 try
 :
     
@@ -127,9 +120,7 @@ installed
 "
 )
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -181,6 +172,19 @@ identifier
 tornado
 "
     
+origin
+=
+f
+"
+auto
+.
+http
+.
+{
+identifier
+}
+"
+    
 staticmethod
     
 def
@@ -189,24 +193,10 @@ setup_once
 )
 :
         
-if
+_check_minimum_version
+(
+TornadoIntegration
 TORNADO_VERSION
-<
-(
-5
-0
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-Tornado
-5
-+
-required
-"
 )
         
 if
@@ -403,15 +393,13 @@ self
 )
 :
     
-hub
-=
-Hub
-.
-current
-    
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -436,12 +424,13 @@ self
 )
     
 with
-Hub
+sentry_sdk
+.
+isolation_scope
 (
-hub
 )
 as
-hub
+scope
 :
         
 headers
@@ -452,29 +441,19 @@ request
 .
 headers
         
-with
-hub
-.
-configure_scope
-(
-)
-as
-scope
-:
-            
 scope
 .
 clear_breadcrumbs
 (
 )
-            
+        
 processor
 =
 _make_event_processor
 (
 weak_handler
 )
-            
+        
 scope
 .
 add_event_processor
@@ -505,12 +484,20 @@ request
             
 source
 =
-TRANSACTION_SOURCE_ROUTE
+TransactionSource
+.
+ROUTE
+            
+origin
+=
+TornadoIntegration
+.
+origin
         
 )
         
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
@@ -532,6 +519,10 @@ request
 :
             
 yield
+ensure_integration_enabled
+(
+TornadoIntegration
+)
 def
 _capture_exception
 (
@@ -540,25 +531,6 @@ value
 tb
 )
 :
-    
-hub
-=
-Hub
-.
-current
-    
-if
-hub
-.
-get_integration
-(
-TornadoIntegration
-)
-is
-None
-:
-        
-return
     
 if
 isinstance
@@ -569,12 +541,6 @@ HTTPError
 :
         
 return
-    
-client
-=
-hub
-.
-client
     
 event
 hint
@@ -590,7 +556,11 @@ tb
         
 client_options
 =
-client
+sentry_sdk
+.
+get_client
+(
+)
 .
 options
         
@@ -613,7 +583,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -707,7 +677,9 @@ transaction_info
 source
 "
 :
-TRANSACTION_SOURCE_COMPONENT
+TransactionSource
+.
+COMPONENT
 }
         
 with
@@ -841,7 +813,7 @@ handler
 .
 current_user
 and
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :
@@ -925,13 +897,14 @@ for
 k
 v
 in
-iteritems
-(
 self
 .
 request
 .
 cookies
+.
+items
+(
 )
 }
     
@@ -983,13 +956,14 @@ for
 k
 vs
 in
-iteritems
-(
 self
 .
 request
 .
 body_arguments
+.
+items
+(
 )
         
 }
@@ -1039,13 +1013,14 @@ for
 k
 v
 in
-iteritems
-(
 self
 .
 request
 .
 files
+.
+items
+(
 )
 if
 v

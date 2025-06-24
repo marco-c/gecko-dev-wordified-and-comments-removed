@@ -11,27 +11,17 @@ invocations
 "
 "
 from
+functools
+import
+wraps
+from
 django
 import
 VERSION
 as
 DJANGO_VERSION
-from
-sentry_sdk
 import
-Hub
-from
 sentry_sdk
-.
-_functools
-import
-wraps
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -51,6 +41,10 @@ transaction_from_function
     
 capture_internal_exceptions
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -108,35 +102,18 @@ ContextVar
 import_string_should_wrap_middleware
 "
 )
-if
-DJANGO_VERSION
-<
-(
-1
-7
-)
-:
-    
-import_string_name
+DJANGO_SUPPORTS_ASYNC_MIDDLEWARE
 =
-"
-import_by_path
-"
-else
-:
-    
-import_string_name
-=
-"
-import_string
-"
-if
 DJANGO_VERSION
-<
+>
+=
 (
 3
 1
 )
+if
+not
+DJANGO_SUPPORTS_ASYNC_MIDDLEWARE
 :
     
 _asgi_middleware_mixin_factory
@@ -170,11 +147,9 @@ base
     
 old_import_string
 =
-getattr
-(
 base
-import_string_name
-)
+.
+import_string
     
 def
 sentry_patched_import_string
@@ -210,12 +185,11 @@ dotted_path
 return
 rv
     
-setattr
-(
 base
-import_string_name
+.
+import_string
+=
 sentry_patched_import_string
-)
     
 old_load_middleware
 =
@@ -297,15 +271,13 @@ old_method
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -370,7 +342,7 @@ function_basename
         
 middleware_span
 =
-hub
+sentry_sdk
 .
 start_span
 (
@@ -380,9 +352,16 @@ op
 OP
 .
 MIDDLEWARE_DJANGO
-description
+            
+name
 =
 description
+            
+origin
+=
+DjangoIntegration
+.
+origin
         
 )
         
@@ -519,15 +498,30 @@ _check_middleware_span
 )
 :
         
-async_capable
+sync_capable
 =
 getattr
 (
 middleware
 "
+sync_capable
+"
+True
+)
+        
+async_capable
+=
+DJANGO_SUPPORTS_ASYNC_MIDDLEWARE
+and
+getattr
+(
+            
+middleware
+"
 async_capable
 "
 False
+        
 )
         
 def
@@ -599,8 +593,6 @@ async_capable
                 
 super
 (
-SentryWrappingMiddleware
-self
 )
 .
 __init__

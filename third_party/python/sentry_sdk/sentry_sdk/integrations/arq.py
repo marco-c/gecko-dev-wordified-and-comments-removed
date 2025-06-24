@@ -1,42 +1,20 @@
-from
-__future__
-import
-absolute_import
 import
 sys
-from
-sentry_sdk
-.
-_compat
 import
-reraise
-from
 sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
-from
-sentry_sdk
-import
-Hub
 from
 sentry_sdk
 .
 consts
 import
 OP
-from
-sentry_sdk
-.
-hub
-import
-_should_send_default_pii
+SPANSTATUS
 from
 sentry_sdk
 .
 integrations
 import
+_check_minimum_version
 DidNotEnable
 Integration
 from
@@ -50,10 +28,16 @@ ignore_logger
 from
 sentry_sdk
 .
+scope
+import
+should_send_default_pii
+from
+sentry_sdk
+.
 tracing
 import
 Transaction
-TRANSACTION_SOURCE_TASK
+TransactionSource
 from
 sentry_sdk
 .
@@ -63,11 +47,15 @@ import
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
     
 SENSITIVE_DATA_SUBSTITUTE
     
 parse_version
+    
+reraise
 )
 try
 :
@@ -116,6 +104,10 @@ not
 installed
 "
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -185,6 +177,19 @@ identifier
 arq
 "
     
+origin
+=
+f
+"
+auto
+.
+queue
+.
+{
+identifier
+}
+"
+    
 staticmethod
     
 def
@@ -235,52 +240,10 @@ version
 =
 None
         
-if
+_check_minimum_version
+(
+ArqIntegration
 version
-is
-None
-:
-            
-raise
-DidNotEnable
-(
-"
-Unparsable
-arq
-version
-:
-{
-}
-"
-.
-format
-(
-ARQ_VERSION
-)
-)
-        
-if
-version
-<
-(
-0
-23
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-arq
-0
-.
-23
-or
-newer
-required
-.
-"
 )
         
 patch_enqueue_job
@@ -315,6 +278,12 @@ ArqRedis
 .
 enqueue_job
     
+original_kwdefaults
+=
+old_enqueue_job
+.
+__kwdefaults__
+    
 async
 def
 _sentry_enqueue_job
@@ -329,19 +298,21 @@ kwargs
 )
 :
         
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-        
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 ArqIntegration
 )
+        
+if
+integration
 is
 None
 :
@@ -360,18 +331,25 @@ kwargs
 )
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
+            
 op
 =
 OP
 .
 QUEUE_SUBMIT_ARQ
-description
+name
 =
 function
+origin
+=
+ArqIntegration
+.
+origin
+        
 )
 :
             
@@ -387,6 +365,12 @@ args
 *
 kwargs
 )
+    
+_sentry_enqueue_job
+.
+__kwdefaults__
+=
+original_kwdefaults
     
 ArqRedis
 .
@@ -415,22 +399,21 @@ score
 )
 :
         
-hub
+integration
 =
-Hub
-(
-Hub
+sentry_sdk
 .
-current
+get_client
+(
 )
-        
-if
-hub
 .
 get_integration
 (
 ArqIntegration
 )
+        
+if
+integration
 is
 None
 :
@@ -445,9 +428,9 @@ score
 )
         
 with
-hub
+sentry_sdk
 .
-push_scope
+isolation_scope
 (
 )
 as
@@ -495,12 +478,20 @@ QUEUE_TASK_ARQ
                 
 source
 =
-TRANSACTION_SOURCE_TASK
+TransactionSource
+.
+TASK
+                
+origin
+=
+ArqIntegration
+.
+origin
             
 )
             
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
@@ -529,15 +520,15 @@ exc_info
 )
 :
     
-hub
+scope
 =
-Hub
+sentry_sdk
 .
-current
+get_current_scope
+(
+)
     
 if
-hub
-.
 scope
 .
 transaction
@@ -555,32 +546,28 @@ in
 ARQ_CONTROL_FLOW_EXCEPTIONS
 :
             
-hub
-.
 scope
 .
 transaction
 .
 set_status
 (
-"
-aborted
-"
+SPANSTATUS
+.
+ABORTED
 )
             
 return
         
-hub
-.
 scope
 .
 transaction
 .
 set_status
 (
-"
-internal_error
-"
+SPANSTATUS
+.
+INTERNAL_ERROR
 )
     
 event
@@ -593,17 +580,13 @@ exc_info
         
 client_options
 =
-hub
+sentry_sdk
 .
-client
+get_client
+(
+)
 .
 options
-if
-hub
-.
-client
-else
-None
         
 mechanism
 =
@@ -624,7 +607,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -653,21 +636,21 @@ hint
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
 with
 capture_internal_exceptions
 (
 )
 :
             
-if
-hub
+scope
+=
+sentry_sdk
 .
+get_current_scope
+(
+)
+            
+if
 scope
 .
 transaction
@@ -676,8 +659,6 @@ not
 None
 :
                 
-hub
-.
 scope
 .
 transaction
@@ -791,7 +772,7 @@ args
                     
 args
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 else
@@ -807,7 +788,7 @@ kwargs
                     
 kwargs
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 else
@@ -854,19 +835,21 @@ kwargs
 )
 :
         
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-        
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 ArqIntegration
 )
+        
+if
+integration
 is
 None
 :
@@ -883,9 +866,11 @@ args
 kwargs
 )
         
-hub
+sentry_sdk
 .
-scope
+get_isolation_scope
+(
+)
 .
 add_event_processor
 (
@@ -969,6 +954,12 @@ worker
 .
 create_worker
     
+ensure_integration_enabled
+(
+ArqIntegration
+old_create_worker
+)
+    
 def
 _sentry_create_worker
 (
@@ -980,33 +971,6 @@ kwargs
 )
 :
         
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-ArqIntegration
-)
-is
-None
-:
-            
-return
-old_create_worker
-(
-*
-args
-*
-*
-kwargs
-)
-        
 settings_cls
 =
 args
@@ -1015,6 +979,90 @@ args
 ]
         
 if
+isinstance
+(
+settings_cls
+dict
+)
+:
+            
+if
+"
+functions
+"
+in
+settings_cls
+:
+                
+settings_cls
+[
+"
+functions
+"
+]
+=
+[
+                    
+_get_arq_function
+(
+func
+)
+                    
+for
+func
+in
+settings_cls
+.
+get
+(
+"
+functions
+"
+[
+]
+)
+                
+]
+            
+if
+"
+cron_jobs
+"
+in
+settings_cls
+:
+                
+settings_cls
+[
+"
+cron_jobs
+"
+]
+=
+[
+                    
+_get_arq_cron_job
+(
+cron_job
+)
+                    
+for
+cron_job
+in
+settings_cls
+.
+get
+(
+"
+cron_jobs
+"
+[
+]
+)
+                
+]
+        
+if
 hasattr
 (
 settings_cls
@@ -1063,12 +1111,18 @@ _get_arq_cron_job
 (
 cron_job
 )
+                
 for
 cron_job
 in
+(
 settings_cls
 .
 cron_jobs
+or
+[
+]
+)
             
 ]
         
@@ -1097,11 +1151,15 @@ for
 func
 in
 kwargs
-[
+.
+get
+(
 "
 functions
 "
+[
 ]
+)
             
 ]
         
@@ -1130,11 +1188,15 @@ for
 cron_job
 in
 kwargs
-[
+.
+get
+(
 "
 cron_jobs
 "
+[
 ]
+)
             
 ]
         
