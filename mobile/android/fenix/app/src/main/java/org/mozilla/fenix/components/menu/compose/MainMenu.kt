@@ -3591,7 +3591,7 @@ R
 .
 string
 .
-browser_menu_sign_in_caption_2
+browser_menu_sign_in_caption_3
 )
 }
 AuthenticationProblem

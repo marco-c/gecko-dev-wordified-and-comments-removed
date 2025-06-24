@@ -4163,9 +4163,8 @@ onNodeWithContentDescription
 "
 Sign
 inSync
-bookmarks
 passwords
-tabs
+bookmarks
 and
 more
 "
