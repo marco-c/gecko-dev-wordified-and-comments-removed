@@ -15216,10 +15216,8 @@ nsAtom
 >
 mLanguagesUsed
 ;
-RefPtr
-<
 nsAtom
->
+*
 mLanguageFromCharset
 ;
 nsCOMPtr
