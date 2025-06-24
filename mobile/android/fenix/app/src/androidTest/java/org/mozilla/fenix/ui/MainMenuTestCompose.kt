@@ -665,30 +665,6 @@ cases
 view
 /
 2860835
-Ignore
-(
-"
-Failing
-see
-https
-:
-/
-/
-bugzilla
-.
-mozilla
-.
-org
-/
-show_bug
-.
-cgi
-?
-id
-=
-1971476
-"
-)
 SmokeTest
 Test
 fun
@@ -2070,7 +2046,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-clickSaveButton
+openMoreMenu
 (
 )
 }
@@ -2119,7 +2095,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-clickSaveButton
+openMoreMenu
 (
 )
 }
@@ -2235,7 +2211,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-clickSaveButton
+openMoreMenu
 (
 )
 }
@@ -2255,7 +2231,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-clickSaveButton
+openMoreMenu
 (
 )
 }
@@ -2433,7 +2409,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-clickSaveButton
+openMoreMenu
 (
 )
 }
@@ -2690,7 +2666,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -2714,17 +2690,12 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
 .
-clickTranslatedToButton
-(
-"
-English
-"
-)
+clickTranslatedButton
 {
 verifyTranslationSheetIsDisplayed
 (
@@ -2749,7 +2720,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -2842,9 +2813,6 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
-(
-)
 }
 .
 clickShareButton
@@ -2967,7 +2935,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 verifyOpenInAppButtonIsEnabled
@@ -3212,7 +3180,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 clickPrintContentButton
@@ -4790,7 +4758,7 @@ cgi
 ?
 id
 =
-1971476
+1807268
 "
 )
 Test
@@ -4825,7 +4793,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -4886,7 +4854,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -4988,7 +4956,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5119,7 +5087,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5156,7 +5124,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5420,7 +5388,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5469,7 +5437,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5582,7 +5550,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5655,7 +5623,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5764,7 +5732,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5824,7 +5792,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
@@ -5898,7 +5866,7 @@ cgi
 ?
 id
 =
-1971476
+1807268
 "
 )
 Test
@@ -5963,7 +5931,7 @@ openThreeDotMenu
 composeTestRule
 )
 {
-openToolsMenu
+openMoreMenu
 (
 )
 }
