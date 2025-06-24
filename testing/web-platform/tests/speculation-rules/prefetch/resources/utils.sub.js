@@ -1035,7 +1035,7 @@ document
 eagerness
 :
 '
-eager
+immediate
 '
 where
 :
