@@ -39,10 +39,13 @@ success
 :
 ICU4XChineseBasedCalendar
 (
+icu4x
+:
+:
 capi
 :
 :
-ICU4XAnyCalendarKind_Chinese
+CalendarKind_Chinese
 locale
 success
 )
@@ -74,10 +77,13 @@ success
 :
 ICU4XChineseBasedCalendar
 (
+icu4x
+:
+:
 capi
 :
 :
-ICU4XAnyCalendarKind_Chinese
+CalendarKind_Chinese
 timeZone
 locale
 success
@@ -163,7 +169,6 @@ const
 {
 return
 "
-chinese
 "
 ;
 }
