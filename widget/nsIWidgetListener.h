@@ -187,9 +187,6 @@ aSizeMode
 )
 {
 }
-#
-ifdef
-MOZ_WIDGET_ANDROID
 virtual
 void
 DynamicToolbarMaxHeightChanged
@@ -214,6 +211,9 @@ aOffset
 )
 {
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
 virtual
 void
 KeyboardHeightChanged
