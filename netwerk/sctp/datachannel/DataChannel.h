@@ -2286,10 +2286,6 @@ mListener
 ;
 bool
 mSendInterleaved
-MOZ_GUARDED_BY
-(
-mLock
-)
 =
 false
 ;
@@ -2344,10 +2340,6 @@ mLock
 ;
 PendingType
 mPendingType
-MOZ_GUARDED_BY
-(
-mLock
-)
 =
 PendingType
 :
@@ -2372,10 +2364,6 @@ nsTArray
 OutgoingMsg
 >
 mBufferedControl
-MOZ_GUARDED_BY
-(
-mLock
-)
 ;
 Maybe
 <
