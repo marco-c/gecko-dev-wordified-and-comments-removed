@@ -2998,16 +2998,8 @@ nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;
-mutable
-Mutex
-mStatsLock
-;
 TrafficCounters
 mTrafficCounters
-MOZ_GUARDED_BY
-(
-mStatsLock
-)
 ;
 std
 :
