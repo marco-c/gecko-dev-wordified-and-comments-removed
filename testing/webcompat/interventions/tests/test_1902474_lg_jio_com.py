@@ -73,6 +73,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 client
@@ -137,6 +142,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 btn
