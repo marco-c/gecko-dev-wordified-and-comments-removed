@@ -30911,10 +30911,10 @@ nscoord
 aMaxPos
 )
 {
-DebugOnly
-<
+#
+ifdef
+DEBUG
 nsWeakPtr
->
 weakShell
 (
 do_GetWeakReference
@@ -30925,6 +30925,8 @@ PresShell
 )
 )
 ;
+#
+endif
 if
 (
 aMaxPos
@@ -30998,10 +31000,10 @@ nscoord
 aSize
 )
 {
-DebugOnly
-<
+#
+ifdef
+DEBUG
 nsWeakPtr
->
 weakShell
 (
 do_GetWeakReference
@@ -31012,6 +31014,8 @@ PresShell
 )
 )
 ;
+#
+endif
 int32_t
 pixelSize
 =
