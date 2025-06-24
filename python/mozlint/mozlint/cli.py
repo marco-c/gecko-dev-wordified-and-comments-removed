@@ -3025,6 +3025,11 @@ virtualenv_manager
         
 if
 setup
+or
+not
+lint
+.
+linters
 :
             
 return

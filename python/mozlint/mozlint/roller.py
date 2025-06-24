@@ -1613,6 +1613,35 @@ failed_setup
 return
 1
         
+if
+not
+self
+.
+linters
+:
+            
+log
+.
+error
+(
+"
+all
+linters
+were
+skipped
+due
+to
+setup
+nothing
+to
+do
+!
+"
+)
+            
+return
+1
+        
 return
 0
     
