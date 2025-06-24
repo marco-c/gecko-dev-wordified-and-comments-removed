@@ -593,7 +593,7 @@ void
 SMILCSSValueType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -635,7 +635,7 @@ void
 SMILCSSValueType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &
@@ -2387,7 +2387,7 @@ IsEmpty
 {
 sSingleton
 .
-Init
+InitValue
 (
 aValue
 )
@@ -2487,7 +2487,7 @@ result
 }
 sSingleton
 .
-Init
+InitValue
 (
 result
 )

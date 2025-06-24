@@ -44,7 +44,7 @@ void
 SVGPathSegListSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -88,7 +88,7 @@ void
 SVGPathSegListSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

@@ -35,7 +35,7 @@ void
 SMILStringType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -79,7 +79,7 @@ void
 SMILStringType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

@@ -43,7 +43,7 @@ Singleton
 protected
 :
 void
-Init
+InitValue
 (
 SMILValue
 &
@@ -54,7 +54,7 @@ override
 {
 }
 void
-Destroy
+DestroyValue
 (
 SMILValue
 &

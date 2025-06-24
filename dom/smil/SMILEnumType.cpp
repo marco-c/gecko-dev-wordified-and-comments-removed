@@ -35,7 +35,7 @@ void
 SMILEnumType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -76,7 +76,7 @@ void
 SMILEnumType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

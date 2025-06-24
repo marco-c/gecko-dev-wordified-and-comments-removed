@@ -564,7 +564,7 @@ aNewType
 aNewType
 -
 >
-Init
+InitValue
 (
 *
 this
@@ -602,7 +602,7 @@ DestroyAndCheckPostcondition
 mType
 -
 >
-Destroy
+DestroyValue
 (
 *
 this

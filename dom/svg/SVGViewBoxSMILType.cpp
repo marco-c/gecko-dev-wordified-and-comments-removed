@@ -48,7 +48,7 @@ void
 SVGViewBoxSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -104,7 +104,7 @@ void
 SVGViewBoxSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

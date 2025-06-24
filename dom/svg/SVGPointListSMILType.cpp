@@ -57,7 +57,7 @@ void
 SVGPointListSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -101,7 +101,7 @@ void
 SVGPointListSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

@@ -566,7 +566,7 @@ void
 SVGMotionSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -611,7 +611,7 @@ void
 SVGMotionSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

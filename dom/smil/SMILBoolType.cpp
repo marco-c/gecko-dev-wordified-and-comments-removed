@@ -35,7 +35,7 @@ void
 SMILBoolType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -76,7 +76,7 @@ void
 SMILBoolType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

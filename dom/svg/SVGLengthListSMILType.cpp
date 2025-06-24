@@ -62,7 +62,7 @@ void
 SVGLengthListSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -106,7 +106,7 @@ void
 SVGLengthListSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

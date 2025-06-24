@@ -35,7 +35,7 @@ void
 SVGIntegerPairSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -90,7 +90,7 @@ void
 SVGIntegerPairSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

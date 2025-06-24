@@ -37,7 +37,7 @@ protected
 :
 virtual
 void
-Init
+InitValue
 (
 SMILValue
 &
@@ -49,7 +49,7 @@ const
 ;
 virtual
 void
-Destroy
+DestroyValue
 (
 SMILValue
 &
