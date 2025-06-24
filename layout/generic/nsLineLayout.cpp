@@ -3940,7 +3940,7 @@ StyleMargin
 ;
 const
 auto
-anchorPosResolutionParams
+anchorResolutionParams
 =
 AnchorPosResolutionParams
 :
@@ -3956,7 +3956,7 @@ HasPercentageUnitMargin
 (
 *
 margin
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -4015,7 +4015,7 @@ pos
 ISize
 (
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -4029,7 +4029,7 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
-anchorPosResolutionParams
+anchorResolutionParams
 )
 ;
 if
@@ -4065,7 +4065,7 @@ pos
 MaxISize
 (
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -4083,7 +4083,7 @@ pos
 MinISize
 (
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -4263,7 +4263,7 @@ pos
 BSize
 (
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
