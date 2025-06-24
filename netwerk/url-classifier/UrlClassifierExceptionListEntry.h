@@ -111,6 +111,12 @@ UrlClassifierExceptionListEntry
 =
 default
 ;
+nsIUrlClassifierExceptionListEntry
+:
+:
+Category
+mCategory
+;
 nsCString
 mUrlPattern
 ;
