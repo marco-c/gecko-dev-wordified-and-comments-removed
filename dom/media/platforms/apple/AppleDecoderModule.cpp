@@ -837,6 +837,14 @@ StaticPrefs
 media_rdd_vpx_enabled
 (
 )
+&
+&
+StaticPrefs
+:
+:
+media_utility_ffvpx_enabled
+(
+)
 )
 {
 dss
