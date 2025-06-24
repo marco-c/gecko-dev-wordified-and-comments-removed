@@ -149,13 +149,6 @@ copy
 attributes
 :
 true
-max
--
-run
--
-time
-:
-1800
 treeherder
 :
 symbol

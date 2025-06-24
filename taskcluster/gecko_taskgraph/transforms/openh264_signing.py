@@ -391,16 +391,6 @@ type
 "
 :
 signing_type
-            
-"
-max
--
-run
--
-time
-"
-:
-3600
         
 }
         

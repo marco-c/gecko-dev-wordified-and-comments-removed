@@ -170,13 +170,6 @@ worker
 implementation
 :
 iscript
-max
--
-run
--
-time
-:
-3600
 upstream
 -
 artifacts

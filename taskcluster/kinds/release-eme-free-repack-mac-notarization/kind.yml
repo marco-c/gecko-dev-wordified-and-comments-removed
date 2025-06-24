@@ -175,13 +175,6 @@ shipping
 phase
 :
 promote
-max
--
-run
--
-time
-:
-1800
 copy
 -
 repack

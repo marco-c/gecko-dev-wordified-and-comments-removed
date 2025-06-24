@@ -134,15 +134,6 @@ shipping
 phase
 :
 push
-worker
-:
-max
--
-run
--
-time
-:
-2700
 tasks
 :
 devedition
