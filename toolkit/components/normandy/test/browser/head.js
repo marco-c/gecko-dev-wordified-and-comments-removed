@@ -3159,6 +3159,12 @@ clearAllStorage
 (
 )
 ;
+ShowHeartbeatAction
+.
+_clearAllStorage
+(
+)
+;
 try
 {
 await
@@ -3173,6 +3179,12 @@ finally
 Storage
 .
 clearAllStorage
+(
+)
+;
+ShowHeartbeatAction
+.
+_clearAllStorage
 (
 )
 ;
