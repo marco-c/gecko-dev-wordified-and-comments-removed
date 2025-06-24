@@ -9011,6 +9011,13 @@ js
 ]
 [
 "
+test_te_remove
+.
+js
+"
+]
+[
+"
 test_throttlechannel
 .
 js

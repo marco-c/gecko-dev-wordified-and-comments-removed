@@ -3427,6 +3427,7 @@ webtransport
 _ns
 false
 aCompressedData
+true
 )
 ;
 NS_ENSURE_SUCCESS
