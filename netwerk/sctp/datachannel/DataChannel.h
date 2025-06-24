@@ -134,9 +134,7 @@ h
 #
 include
 "
-transport
-/
-sigslot
+MediaEventSource
 .
 h
 "
@@ -450,13 +448,6 @@ net
 :
 :
 NeckoTargetHolder
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 friend
 class
@@ -2052,6 +2043,12 @@ RefPtr
 MediaTransportHandler
 >
 mTransportHandler
+;
+MediaEventListener
+mPacketReceivedListener
+;
+MediaEventListener
+mStateChangeListener
 ;
 nsCOMPtr
 <

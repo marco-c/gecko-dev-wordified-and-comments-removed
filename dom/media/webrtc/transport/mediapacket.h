@@ -95,6 +95,14 @@ orig
 default
 ;
 MediaPacket
+(
+const
+MediaPacket
+&
+orig
+)
+;
+MediaPacket
 Clone
 (
 )

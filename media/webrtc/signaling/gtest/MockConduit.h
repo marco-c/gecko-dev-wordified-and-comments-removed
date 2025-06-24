@@ -193,7 +193,10 @@ void
 (
 MediaEventSourceExc
 <
-MediaPacket
+rtc
+:
+:
+CopyOnWriteBuffer
 >
 &
 )
@@ -206,7 +209,10 @@ void
 (
 MediaEventSourceExc
 <
-MediaPacket
+rtc
+:
+:
+CopyOnWriteBuffer
 >
 &
 )
