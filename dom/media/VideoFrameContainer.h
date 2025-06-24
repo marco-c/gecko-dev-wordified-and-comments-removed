@@ -339,13 +339,13 @@ mIntrinsicSize
 ;
 }
 bool
-Is16bitImageSupported
+SupportsOnly8BitImage
 (
 )
 const
 {
 return
-mIs16bitImageSupported
+mSupportsOnly8BitImage
 ;
 }
 protected
@@ -460,7 +460,7 @@ mMainThread
 ;
 const
 bool
-mIs16bitImageSupported
+mSupportsOnly8BitImage
 ;
 }
 ;
