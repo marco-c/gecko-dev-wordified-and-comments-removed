@@ -1741,13 +1741,10 @@ shouldListen
 {
 if
 (
+!
 locationListeningRequested
 )
 {
-return
-false
-;
-}
 lm
 .
 removeUpdates
@@ -1755,6 +1752,7 @@ removeUpdates
 sAndroidListeners
 )
 ;
+}
 return
 true
 ;
