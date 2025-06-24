@@ -120,6 +120,15 @@ manager
 -
 passwords
 -
+title
+=
+Passwords
+contextual
+-
+manager
+-
+passwords
+-
 command
 -
 create
