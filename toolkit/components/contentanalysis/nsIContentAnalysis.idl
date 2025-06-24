@@ -871,10 +871,5 @@ ACString
 aUserActionId
 )
 ;
-void
-forceRecreateClientForTest
-(
-)
-;
 }
 ;
