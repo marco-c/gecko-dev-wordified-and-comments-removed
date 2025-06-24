@@ -3824,13 +3824,6 @@ http2
 ]
 [
 "
-test_bug1261673
-.
-html
-"
-]
-[
-"
 test_bug1261674
 -
 1
@@ -4360,6 +4353,13 @@ html
 [
 "
 test_input_lastInteractiveValue
+.
+html
+"
+]
+[
+"
+test_input_modify_by_wheel
 .
 html
 "

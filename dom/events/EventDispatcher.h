@@ -276,6 +276,10 @@ mWantsActivationBehavior
 (
 false
 )
+mMaybeUncancelable
+(
+false
+)
 mParentTarget
 (
 nullptr
@@ -464,6 +468,9 @@ mIgnoreBecauseOfShadowDOM
 ;
 bool
 mWantsActivationBehavior
+;
+bool
+mMaybeUncancelable
 ;
 private
 :
