@@ -32928,7 +32928,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NOT_MOBILE
+true
 mirror
 :
 always
@@ -33612,7 +33612,7 @@ type
 bool
 value
 :
-IS_NOT_MOBILE
+true
 mirror
 :
 always
