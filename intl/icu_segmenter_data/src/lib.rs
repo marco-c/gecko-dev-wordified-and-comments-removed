@@ -12,7 +12,7 @@ include
 /
 data
 /
-macros
+mod
 .
 rs
 "
