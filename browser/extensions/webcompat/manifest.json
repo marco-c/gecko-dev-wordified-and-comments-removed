@@ -996,6 +996,13 @@ js
 "
 shims
 /
+microsoftOfficeAuth
+.
+js
+"
+"
+shims
+/
 microsoftVirtualAssistant
 .
 js
