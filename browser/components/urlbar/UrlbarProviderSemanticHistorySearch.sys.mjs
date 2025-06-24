@@ -1448,16 +1448,6 @@ TABS
 payload
 )
 ;
-result
-.
-resultGroup
-=
-UrlbarUtils
-.
-RESULT_GROUP
-.
-HISTORY_SEMANTIC
-;
 addCallback
 (
 this
