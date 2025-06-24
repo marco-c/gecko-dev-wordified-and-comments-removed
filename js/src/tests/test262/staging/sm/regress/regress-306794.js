@@ -32,16 +32,6 @@ No
 Assertion
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 try
 {
 eval

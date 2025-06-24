@@ -57,16 +57,6 @@ No
 errors
 "
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 var
 o
 =

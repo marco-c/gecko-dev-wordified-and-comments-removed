@@ -30,16 +30,6 @@ No
 Crash
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 if
 (
 typeof

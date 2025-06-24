@@ -26,16 +26,6 @@ replace
 .
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 var
 result
 =

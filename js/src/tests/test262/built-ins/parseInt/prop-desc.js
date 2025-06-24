@@ -8,17 +8,6 @@ parseInt
 parseInt
 "
 2
-{
-writable
-:
-true
-enumerable
-:
-false
-configurable
-:
-true
-}
 )
 ;
 reportCompare

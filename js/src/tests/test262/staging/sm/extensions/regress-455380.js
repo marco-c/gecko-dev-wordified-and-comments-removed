@@ -47,16 +47,6 @@ No
 Crash
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 const
 IS_TOKEN_ARRAY
 =

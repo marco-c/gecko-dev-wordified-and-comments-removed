@@ -25,16 +25,6 @@ expect
 '
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 try
 {
 eval

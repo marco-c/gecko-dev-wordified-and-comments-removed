@@ -31,16 +31,6 @@ expect
 =
 0
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 var
 a
 =

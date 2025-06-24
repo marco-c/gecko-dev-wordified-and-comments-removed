@@ -18,6 +18,9 @@ script
 region
 "
 "
+variants
+"
+"
 calendar
 "
 "

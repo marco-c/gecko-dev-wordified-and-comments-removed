@@ -1,4 +1,4 @@
-testJSON
+testJSONSyntaxError
 (
 '
 {
@@ -13,15 +13,6 @@ zeroes
 013
 }
 '
-true
-)
-;
-print
-(
-"
-Tests
-complete
-"
 )
 ;
 reportCompare

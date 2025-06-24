@@ -33,16 +33,6 @@ apply
 s
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 function
 foo
 (

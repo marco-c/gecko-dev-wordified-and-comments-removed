@@ -369,16 +369,6 @@ v
 buffer
 ;
 }
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 buffer
 =
 bufferize
