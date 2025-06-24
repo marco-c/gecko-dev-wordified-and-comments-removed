@@ -1672,8 +1672,10 @@ MediaPacket
 packet
 )
 ;
+already_AddRefed
+<
 DataChannel
-*
+>
 FindChannelByStream
 (
 uint16_t
@@ -2970,7 +2972,6 @@ EventType
 {
 OnConnection
 OnDisconnected
-OnChannelCreated
 OnDataString
 OnDataBinary
 }
