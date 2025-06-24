@@ -585,12 +585,6 @@ triggeringWindowId
 bool
 triggeringStorageAccess
 ;
-uint32_t
-triggeringFirstPartyClassificationFlags
-;
-uint32_t
-triggeringThirdPartyClassificationFlags
-;
 nsContentPolicyType
 contentPolicyType
 ;
