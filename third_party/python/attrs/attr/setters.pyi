@@ -9,6 +9,9 @@ from
 .
 import
 Attribute
+from
+attrs
+import
 _OnSetAttrType
 _T
 =

@@ -133,8 +133,6 @@ versionadded
     
 raise
 FrozenAttributeError
-(
-)
 def
 validate
 (
@@ -278,10 +276,33 @@ if
 c
 :
         
+from
+.
+_make
+import
+Converter
+        
+if
+not
+isinstance
+(
+c
+Converter
+)
+:
+            
 return
 c
 (
 new_value
+)
+        
+return
+c
+(
+new_value
+instance
+attrib
 )
     
 return
