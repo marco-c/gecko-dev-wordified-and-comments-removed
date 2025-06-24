@@ -6598,10 +6598,6 @@ return
 1
 ;
 }
-profiler_lookup_async_signal_dump_directory
-(
-)
-;
 Preferences
 :
 :

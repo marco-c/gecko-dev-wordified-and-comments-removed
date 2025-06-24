@@ -2245,6 +2245,10 @@ RegisterCategoryProviders
 (
 )
 ;
+profiler_lookup_async_signal_dump_directory
+(
+)
+;
 mozilla
 :
 :
