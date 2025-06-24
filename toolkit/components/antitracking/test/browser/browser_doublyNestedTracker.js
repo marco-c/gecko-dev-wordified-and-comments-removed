@@ -127,16 +127,6 @@ laxByDefault
 "
 false
 ]
-[
-"
-network
-.
-lna
-.
-block_trackers
-"
-false
-]
 ]
 }
 )
