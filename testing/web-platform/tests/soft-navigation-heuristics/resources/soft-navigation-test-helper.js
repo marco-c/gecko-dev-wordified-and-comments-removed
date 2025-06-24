@@ -231,6 +231,7 @@ disconnect
 )
 ;
 }
+static
 getPerformanceEntries
 (
 type
