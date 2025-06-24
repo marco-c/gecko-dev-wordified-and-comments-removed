@@ -328,6 +328,10 @@ disableOptimizingCompiler
 (
 false
 )
+mozIntGemm
+(
+false
+)
 isBuiltinModule
 (
 false
@@ -344,6 +348,9 @@ false
 }
 bool
 disableOptimizingCompiler
+;
+bool
+mozIntGemm
 ;
 bool
 isBuiltinModule
