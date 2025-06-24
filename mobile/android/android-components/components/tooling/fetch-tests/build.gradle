@@ -192,9 +192,7 @@ mockwebserver
 implementation
 libs
 .
-junit
-.
-vintage
+junit4
 implementation
 libs
 .
