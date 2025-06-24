@@ -2040,7 +2040,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_required_data_collection_description
+mozac_feature_addons_permissions_required_data_collection_description_2
 formattedList
 )
 }

@@ -1100,7 +1100,6 @@ collects
 :
 health
 information
-.
 "
 )
 .
@@ -1831,7 +1830,6 @@ collects
 :
 health
 information
-.
 "
 )
 .

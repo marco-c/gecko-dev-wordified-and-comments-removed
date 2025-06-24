@@ -1044,7 +1044,7 @@ R
 .
 string
 .
-addons_permissions_required_data_collection_description
+addons_permissions_required_data_collection_description_2
 Addon
 .
 formatLocalizedDataCollectionPermissions
