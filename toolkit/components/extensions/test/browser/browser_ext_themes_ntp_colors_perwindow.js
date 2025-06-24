@@ -262,6 +262,7 @@ attribute
 ;
 ok
 (
+!
 doc
 .
 documentElement
@@ -277,6 +278,7 @@ New
 tab
 page
 should
+not
 have
 lwtheme
 attribute
