@@ -142,13 +142,6 @@ third_party
 /
 python
 /
-Mako
-vendored
-:
-third_party
-/
-python
-/
 aiohappyeyeballs
 vendored
 :
@@ -275,6 +268,13 @@ third_party
 python
 /
 json_e
+vendored
+:
+third_party
+/
+python
+/
+mako
 vendored
 :
 third_party
