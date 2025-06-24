@@ -312,9 +312,6 @@ Value
 value
 )
 ;
-#
-ifdef
-DEBUG
 template
 <
 typename
@@ -331,6 +328,9 @@ T
 thing
 )
 ;
+#
+ifdef
+DEBUG
 bool
 idIsMarked
 (
