@@ -460,6 +460,13 @@ Bug
 ]
 [
 "
+browser_fullscreen_ui_state
+.
+js
+"
+]
+[
+"
 browser_fullscreen_warning
 .
 js
