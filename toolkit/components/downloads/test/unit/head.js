@@ -2390,6 +2390,13 @@ keepBlockedData
 useLegacySaver
 verdict
 =
+Ci
+.
+nsIApplicationReputationService
+.
+VERDICT_UNCOMMON
+expectedError
+=
 Downloads
 .
 Error
@@ -2601,7 +2608,7 @@ equal
 ex
 .
 reputationCheckVerdict
-verdict
+expectedError
 )
 ;
 Assert
@@ -2624,7 +2631,7 @@ download
 error
 .
 reputationCheckVerdict
-verdict
+expectedError
 )
 ;
 }
@@ -4356,8 +4363,11 @@ shouldBlock
 false
 verdict
 :
-"
-"
+Ci
+.
+nsIApplicationReputationService
+.
+VERDICT_SAFE
 }
 )
 confirmLaunchExecutable
