@@ -6385,6 +6385,8 @@ GetContiguousSessionHistoryInfos
 (
 MaybeDiscardedBrowsingContext
 aContext
+SessionHistoryInfo
+aInfo
 )
 returns
 (
