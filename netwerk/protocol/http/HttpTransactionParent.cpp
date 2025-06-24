@@ -451,9 +451,13 @@ nsILoadInfo
 :
 IPAddressSpace
 aParentIpAddressSpace
-const
-LNAPerms
-&
+dom
+:
+:
+ContentPermissionRequestBase
+:
+:
+PromptResult
 aLnaPermissionStatus
 )
 {
