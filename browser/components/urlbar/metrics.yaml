@@ -749,6 +749,9 @@ calc
 clipboard
 fxsuggest_data_sharing_opt_in
 history
+history_semantic
+history_semantic_serp
+history_serp
 intervention_clear
 intervention_refresh
 intervention_unknown
@@ -780,6 +783,9 @@ search_history
 search_suggest
 search_suggest_rich
 tab
+tab_semantic
+tab_semantic_serp
+tab_serp
 tab_to_search
 tip_dismissal_acknowledgment
 tip_onboard
@@ -2223,6 +2229,9 @@ clipboard
 experimental_addon
 fxsuggest_data_sharing_opt_in
 history
+history_semantic
+history_semantic_serp
+history_serp
 input_field
 intervention_clear
 intervention_refresh
@@ -2257,6 +2266,9 @@ search_suggest
 search_suggest_rich
 site_specific_contextual_search
 tab
+tab_semantic
+tab_semantic_serp
+tab_serp
 tab_to_search
 tip_dismissal_acknowledgment
 tip_onboard
@@ -2645,6 +2657,9 @@ calc
 clipboard
 fxsuggest_data_sharing_opt_in
 history
+history_semantic
+history_semantic_serp
+history_serp
 intervention_clear
 intervention_refresh
 intervention_unknown
@@ -2676,6 +2691,9 @@ search_history
 search_suggest
 search_suggest_rich
 tab
+tab_semantic
+tab_semantic_serp
+tab_serp
 tab_to_search
 tip_dismissal_acknowledgment
 tip_onboard
