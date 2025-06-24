@@ -275,7 +275,7 @@ defineLazyGetter
 (
 this
 "
-_store
+_jsonFile
 "
 (
 )
@@ -378,7 +378,7 @@ try
 await
 this
 .
-_store
+_jsonFile
 .
 load
 (
@@ -390,7 +390,7 @@ _data
 =
 this
 .
-_store
+_jsonFile
 .
 data
 ;
@@ -541,7 +541,7 @@ allowed
 }
 this
 .
-_store
+_jsonFile
 .
 data
 [
@@ -552,7 +552,7 @@ value
 ;
 this
 .
-_store
+_jsonFile
 .
 saveSoon
 (
@@ -658,7 +658,7 @@ try
 delete
 this
 .
-_store
+_jsonFile
 .
 data
 [
@@ -684,7 +684,7 @@ fails
 }
 this
 .
-_store
+_jsonFile
 .
 saveSoon
 (
@@ -740,7 +740,7 @@ key
 delete
 this
 .
-_store
+_jsonFile
 .
 data
 [
@@ -749,7 +749,7 @@ key
 ;
 this
 .
-_store
+_jsonFile
 .
 saveSoon
 (

@@ -4787,7 +4787,7 @@ happening
 .
 store
 .
-_store
+_jsonFile
 .
 _saver
 .
@@ -4841,7 +4841,7 @@ if
 (
 store
 .
-_store
+_jsonFile
 .
 _saver
 .
@@ -4851,7 +4851,7 @@ isRunning
 await
 store
 .
-_store
+_jsonFile
 .
 _saver
 .
@@ -4865,7 +4865,7 @@ remove
 (
 store
 .
-_store
+_jsonFile
 .
 path
 )
@@ -4931,7 +4931,7 @@ jsonFile
 =
 store
 .
-_store
+_jsonFile
 ;
 if
 (
@@ -5033,9 +5033,7 @@ _flushNow
 )
 ;
 return
-store
-.
-_store
+jsonFile
 .
 path
 ;
