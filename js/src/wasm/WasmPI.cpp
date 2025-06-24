@@ -5301,7 +5301,14 @@ endif
 bool
 ok
 =
+(
 res
+&
+255
+)
+!
+=
+0
 ;
 suspender
 -
