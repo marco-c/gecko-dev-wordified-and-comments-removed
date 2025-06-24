@@ -11,12 +11,6 @@ nsIURI
 interface
 nsIPrincipal
 ;
-interface
-mozIPlacesPendingOperation
-;
-interface
-nsIFaviconDataCallback
-;
 [
 scriptable
 uuid
