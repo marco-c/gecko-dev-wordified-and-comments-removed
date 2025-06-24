@@ -133,6 +133,11 @@ UrlClassifierExceptionListEntry
 cpp
 "
 "
+UrlClassifierFeatureAntiFraudAnnotation
+.
+cpp
+"
+"
 UrlClassifierFeatureBase
 .
 cpp
