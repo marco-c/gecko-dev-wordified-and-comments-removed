@@ -2,9 +2,13 @@ import
 pytest
 from
 .
+.
+import
+set_simulate_adapter
+from
+.
 import
 get_bluetooth_availability
-set_simulate_adapter
 pytestmark
 =
 pytest
