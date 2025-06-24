@@ -1758,6 +1758,16 @@ props
 .
 firstVisibleTimestamp
 }
+spocPositions
+=
+{
+component
+.
+spocs
+?
+.
+positions
+}
 /
 >
 )
