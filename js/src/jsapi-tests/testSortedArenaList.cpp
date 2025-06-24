@@ -99,18 +99,6 @@ MOZ_RELEASE_ASSERT
 arena
 )
 ;
-{
-AutoLockGC
-lock
-(
-cx
--
->
-runtime
-(
-)
-)
-;
 arena
 -
 >
@@ -133,10 +121,8 @@ zone
 (
 )
 kind
-lock
 )
 ;
-}
 size_t
 nallocs
 =
@@ -618,7 +604,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 =
@@ -636,7 +622,7 @@ CHECK
 (
 list
 .
-last
+getLast
 (
 )
 =
