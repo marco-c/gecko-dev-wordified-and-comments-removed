@@ -9755,6 +9755,16 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
+if
+(
+!
+aHandle
+)
+{
+return
+NS_ERROR_NULL_POINTER
+;
+}
 nsresult
 rv
 ;
