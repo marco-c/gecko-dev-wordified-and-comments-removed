@@ -1318,7 +1318,6 @@ inserted
 /
 fun
 BrowserMenuBuilder
-?
 .
 addCustomMenuItems
 (
@@ -1340,7 +1339,6 @@ Int
 )
 :
 BrowserMenuBuilder
-?
 {
 val
 customTab

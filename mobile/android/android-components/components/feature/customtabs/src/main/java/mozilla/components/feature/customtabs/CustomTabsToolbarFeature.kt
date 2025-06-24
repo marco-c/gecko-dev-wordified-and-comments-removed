@@ -2257,6 +2257,7 @@ display
 menuBuilder
 =
 menuBuilder
+?
 .
 addCustomMenuItems
 (
