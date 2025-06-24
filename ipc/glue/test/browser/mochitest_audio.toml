@@ -132,17 +132,6 @@ prefs
 "
 media
 .
-utility
--
-process
-.
-enabled
-=
-false
-"
-"
-media
-.
 wmf
 .
 media
@@ -160,7 +149,7 @@ false
 ]
 [
 "
-test_android_audio_off
+test_android_audio
 .
 html
 "
@@ -185,7 +174,7 @@ isolated_process
 ]
 [
 "
-test_utility_audio_off
+test_utility_audio
 .
 html
 "
