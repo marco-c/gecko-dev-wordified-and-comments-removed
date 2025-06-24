@@ -807,13 +807,6 @@ uint64_t
 (
 )
 )
-\
-_
-(
-AllowGLNorm16Textures
-bool
-false
-)
 class
 gfxVars
 final

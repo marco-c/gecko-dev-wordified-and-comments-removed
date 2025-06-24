@@ -91,10 +91,6 @@ mFeatureGPUProcess
 (
 nullptr
 )
-mFeatureGLNorm16Textures
-(
-nullptr
-)
 mWrForceEnabled
 (
 false
@@ -268,10 +264,6 @@ mFeatureD3D11Compositing
 FeatureState
 *
 mFeatureGPUProcess
-;
-FeatureState
-*
-mFeatureGLNorm16Textures
 ;
 Maybe
 <
