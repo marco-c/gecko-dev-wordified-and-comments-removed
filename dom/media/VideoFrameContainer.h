@@ -338,16 +338,6 @@ return
 mIntrinsicSize
 ;
 }
-bool
-SupportsOnly8BitImage
-(
-)
-const
-{
-return
-mSupportsOnly8BitImage
-;
-}
 protected
 :
 void
@@ -457,10 +447,6 @@ RefPtr
 AbstractThread
 >
 mMainThread
-;
-const
-bool
-mSupportsOnly8BitImage
 ;
 }
 ;

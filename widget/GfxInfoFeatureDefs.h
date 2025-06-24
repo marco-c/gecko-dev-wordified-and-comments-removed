@@ -766,17 +766,3 @@ hw
 drm
 "
 )
-GFXINFO_FEATURE
-(
-GL_NORM16_TEXTURES
-"
-GL_NORM16
-"
-"
-gl
-.
-norm16
--
-textures
-"
-)

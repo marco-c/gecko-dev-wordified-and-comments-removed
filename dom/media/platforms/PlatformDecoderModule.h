@@ -287,7 +287,6 @@ FullH264Parsing
 ErrorIfNoInitializationData
 DefaultPlaybackDeviceMono
 KeepOriginalPts
-Output8BitPerChannel
 SENTINEL
 )
 )
