@@ -436,6 +436,7 @@ store
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -745,6 +746,7 @@ reason
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -868,6 +870,7 @@ processed
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -977,6 +980,7 @@ configuration
 "
 )
 ;
+await
 manager
 .
 unenroll

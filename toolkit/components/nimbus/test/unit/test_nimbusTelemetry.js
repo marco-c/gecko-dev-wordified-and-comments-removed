@@ -444,6 +444,7 @@ recorded
 "
 )
 ;
+await
 manager
 .
 unenroll

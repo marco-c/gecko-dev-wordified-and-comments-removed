@@ -628,6 +628,7 @@ restore
 (
 )
 ;
+await
 manager
 .
 unenroll
@@ -808,6 +809,7 @@ exposureEvents
 length
 )
 ;
+await
 manager
 .
 unenroll

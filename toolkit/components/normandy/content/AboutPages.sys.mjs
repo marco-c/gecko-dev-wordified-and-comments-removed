@@ -1327,6 +1327,7 @@ removeMessagingSystemExperiment
 slug
 )
 {
+await
 lazy
 .
 ExperimentAPI
