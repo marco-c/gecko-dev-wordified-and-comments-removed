@@ -6955,6 +6955,7 @@ v
 stencil
 )
 ;
+export
 const
 kTextureFormatTier1AllowsRenderAttachmentBlendableMultisampleResolve
 :
@@ -6980,6 +6981,7 @@ rg11b10ufloat
 as
 const
 ;
+export
 const
 kTextureFormatsTier1EnablesStorageReadOnlyWriteOnly
 :
