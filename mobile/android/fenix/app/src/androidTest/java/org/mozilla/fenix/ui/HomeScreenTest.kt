@@ -427,7 +427,10 @@ verifyPrivateBrowsingHomeScreenItems
 )
 }
 .
-openCommonMythsLink
+openPrivateBrowsingModeLearnMoreLink
+(
+activityTestRule
+)
 {
 verifyUrl
 (
