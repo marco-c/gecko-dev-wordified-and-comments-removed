@@ -859,9 +859,7 @@ uri
 ;
 if
 (
-SelectableProfileService
-.
-currentProfile
+profile
 .
 hasCustomAvatar
 )
@@ -874,9 +872,7 @@ IOUtils
 .
 getFile
 (
-SelectableProfileService
-.
-currentProfile
+profile
 .
 getAvatarPath
 (
@@ -906,9 +902,7 @@ io
 .
 newURI
 (
-SelectableProfileService
-.
-currentProfile
+profile
 .
 getAvatarPath
 (
@@ -952,7 +946,7 @@ if
 (
 profile
 .
-isCustomAvatar
+hasCustomAvatar
 )
 {
 return
@@ -4040,7 +4034,7 @@ this
 #
 currentProfile
 .
-isCustomAvatar
+hasCustomAvatar
 )
 {
 iconController

@@ -2121,7 +2121,7 @@ SelectableProfileService
 .
 currentProfile
 .
-isCustomAvatar
+hasCustomAvatar
 ?
 "
 custom
