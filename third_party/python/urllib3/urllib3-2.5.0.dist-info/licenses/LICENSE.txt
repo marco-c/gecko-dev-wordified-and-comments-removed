@@ -11,12 +11,7 @@ Andrey
 Petrov
 and
 contributors
-(
-see
-CONTRIBUTORS
 .
-txt
-)
 Permission
 is
 hereby
