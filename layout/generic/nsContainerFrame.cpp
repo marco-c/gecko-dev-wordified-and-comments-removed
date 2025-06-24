@@ -11041,6 +11041,7 @@ nsContainerFrame
 ResolvedOrientationIsVertical
 (
 )
+const
 {
 StyleOrient
 orient

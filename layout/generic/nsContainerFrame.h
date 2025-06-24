@@ -2078,6 +2078,7 @@ bool
 ResolvedOrientationIsVertical
 (
 )
+const
 ;
 mozilla
 :

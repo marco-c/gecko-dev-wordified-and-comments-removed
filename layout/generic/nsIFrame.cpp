@@ -41858,12 +41858,6 @@ case
 LayoutFrameType
 :
 :
-Meter
-:
-case
-LayoutFrameType
-:
-:
 Progress
 :
 case
@@ -59796,12 +59790,6 @@ LayoutFrameType
 :
 :
 ListControl
-:
-case
-LayoutFrameType
-:
-:
-Meter
 :
 case
 LayoutFrameType
