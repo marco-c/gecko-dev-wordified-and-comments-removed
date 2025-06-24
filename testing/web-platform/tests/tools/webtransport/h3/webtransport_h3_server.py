@@ -2748,7 +2748,7 @@ _allow_datagrams
             
 _logger
 .
-warn
+warning
 (
                 
 "
@@ -3027,7 +3027,7 @@ e
             
 _logger
 .
-warn
+warning
 (
 str
 (
@@ -3620,7 +3620,7 @@ e
                 
 _logger
 .
-warn
+warning
 (
 str
 (
