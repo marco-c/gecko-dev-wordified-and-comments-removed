@@ -956,9 +956,6 @@ action
 action
 :
 name
-.
-.
-.
 params
 }
 ;
