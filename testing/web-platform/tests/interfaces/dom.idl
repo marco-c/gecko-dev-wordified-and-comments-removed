@@ -1843,7 +1843,7 @@ DocumentType
 createDocumentType
 (
 DOMString
-qualifiedName
+name
 DOMString
 publicId
 DOMString
