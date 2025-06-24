@@ -4572,7 +4572,7 @@ DESKTOP_DEFAULT
 return
 RFPTargetConstants
 .
-DefaultTargets
+DefaultTargetsFPP
 [
 key
 ]
