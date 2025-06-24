@@ -36,10 +36,12 @@ worker_types
 py
 sha256
 =
-4uxpiu6ADCpp
+nptG3q1xyMm455dX2i
 -
-oXUXBKFrvrsIcqQxrkagC7bXeUs_Wc
-18578
+u
+-
+Ntfi9i3N0b3B0Sk51g9TyU
+18833
 mozilla_taskgraph
 /
 actions
@@ -162,7 +164,7 @@ mozilla_taskgraph
 .
 3
 .
-1
+2
 .
 dist
 -
@@ -171,9 +173,7 @@ info
 METADATA
 sha256
 =
-yEhYr
--
-SY5Z5VOgKfdj00bKHE3npQC0NZ3dgebDZjqj0
+8qyKQJ36gEYlEHESxkMCb5LDp8HKVJxdL81rxoB_jbg
 2006
 mozilla_taskgraph
 -
@@ -181,7 +181,7 @@ mozilla_taskgraph
 .
 3
 .
-1
+2
 .
 dist
 -
@@ -198,7 +198,7 @@ mozilla_taskgraph
 .
 3
 .
-1
+2
 .
 dist
 -
@@ -217,7 +217,7 @@ mozilla_taskgraph
 .
 3
 .
-1
+2
 .
 dist
 -
