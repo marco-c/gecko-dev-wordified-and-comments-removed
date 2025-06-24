@@ -1369,9 +1369,7 @@ GetElementAt
 .
 wrappedJSObject
 ;
-this
-.
-contentWindow
+content
 .
 wrappedJSObject
 .
