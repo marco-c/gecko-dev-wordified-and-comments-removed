@@ -1108,6 +1108,9 @@ blink_features
 '
 ViewTransitionLongCallbackTimeoutForTesting
 '
+'
+NoFontAntialiasing
+'
 ]
     
 if
