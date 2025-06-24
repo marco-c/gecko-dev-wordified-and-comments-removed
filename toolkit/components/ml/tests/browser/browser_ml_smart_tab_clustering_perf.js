@@ -108,7 +108,7 @@ win
 ;
 requestLongerTimeout
 (
-250
+300
 )
 ;
 const
@@ -314,11 +314,8 @@ q8
 "
 timeoutMS
 :
-2
-*
-60
-*
-1000
+-
+1
 }
 )
 ;
