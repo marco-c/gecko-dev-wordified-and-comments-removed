@@ -148,7 +148,10 @@ addEnrollment
 .
 callsFake
 (
+(
 enrollment
+recipe
+)
 =
 >
 {
@@ -163,6 +166,7 @@ return
 origAddExperiment
 (
 enrollment
+recipe
 )
 ;
 }

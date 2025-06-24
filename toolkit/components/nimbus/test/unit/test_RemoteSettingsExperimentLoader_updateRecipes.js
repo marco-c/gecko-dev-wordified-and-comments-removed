@@ -2370,15 +2370,16 @@ init
 (
 )
 ;
-store
+await
+NimbusTestUtils
 .
-addEnrollment
+addEnrollmentForRecipe
 (
 NimbusTestUtils
 .
 factories
 .
-experiment
+recipe
 .
 withFeatureConfig
 (
@@ -2387,6 +2388,9 @@ recipe
 "
 featureConfig
 )
+{
+store
+}
 )
 ;
 storePath
@@ -4979,7 +4983,6 @@ nimbus_experiment
 }
 )
 ;
-await
 manager
 .
 unenroll
@@ -5253,7 +5256,6 @@ reason
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -5344,7 +5346,6 @@ experiment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -6037,7 +6038,6 @@ b
 ]
 )
 ;
-await
 manager
 .
 unenroll
@@ -6049,7 +6049,6 @@ c
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -7426,7 +7425,6 @@ length
 3
 )
 ;
-await
 manager
 .
 unenroll
@@ -8290,7 +8288,6 @@ enrolled
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -10249,7 +10246,6 @@ Enrolled
 ]
 )
 ;
-await
 manager
 .
 unenroll
@@ -10261,7 +10257,6 @@ enrolled
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -10908,7 +10903,6 @@ FeatureConflict
 ]
 )
 ;
-await
 manager
 .
 unenroll
@@ -10920,7 +10914,6 @@ experiment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -12045,7 +12038,6 @@ r2
 ]
 )
 ;
-await
 manager
 .
 unenroll
@@ -12055,7 +12047,6 @@ e3
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -12305,7 +12296,6 @@ active
 "
 )
 ;
-await
 manager
 .
 unenroll

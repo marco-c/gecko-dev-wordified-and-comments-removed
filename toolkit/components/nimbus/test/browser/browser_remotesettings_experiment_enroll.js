@@ -309,7 +309,6 @@ active
 "
 )
 ;
-await
 ExperimentAPI
 .
 manager
