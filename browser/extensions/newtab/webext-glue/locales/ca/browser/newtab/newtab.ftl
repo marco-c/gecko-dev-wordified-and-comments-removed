@@ -3383,7 +3383,7 @@ light
 -
 purple
 =
-Lila
+Porpra
 clar
 newtab
 -
@@ -3465,7 +3465,7 @@ dark
 -
 purple
 =
-Lila
+Porpra
 fosc
 newtab
 -
@@ -3527,7 +3527,7 @@ abstract
 purple
 =
 Formes
-liles
+porpres
 newtab
 -
 wallpaper
@@ -3563,7 +3563,7 @@ purple
 Formes
 blaves
 i
-liles
+porpres
 #
 #
 Celestial

@@ -929,14 +929,6 @@ menu
 -
 report
 =
-newtab
--
-menu
--
-report
--
-content
-=
 #
 Context
 menu

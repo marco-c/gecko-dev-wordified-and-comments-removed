@@ -1110,17 +1110,6 @@ menu
 report
 =
 Report
-newtab
--
-menu
--
-report
--
-content
-=
-Report
-this
-content
 #
 Context
 menu

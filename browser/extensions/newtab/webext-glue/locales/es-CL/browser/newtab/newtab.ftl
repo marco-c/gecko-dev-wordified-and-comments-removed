@@ -1146,17 +1146,6 @@ menu
 report
 =
 Reportar
-newtab
--
-menu
--
-report
--
-content
-=
-Reportar
-este
-contenido
 #
 Context
 menu
