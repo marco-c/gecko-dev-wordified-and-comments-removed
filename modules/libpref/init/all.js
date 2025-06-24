@@ -5165,16 +5165,6 @@ pref
 "
 print
 .
-prefer_system_dialog
-"
-false
-)
-;
-pref
-(
-"
-print
-.
 shrink
 -
 to
