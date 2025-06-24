@@ -696,12 +696,6 @@ case
 StyleAppearance
 :
 :
-Searchfield
-:
-case
-StyleAppearance
-:
-:
 Textarea
 :
 {

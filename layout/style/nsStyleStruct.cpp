@@ -12943,15 +12943,6 @@ StyleAppearance
 :
 :
 PasswordInput
-|
-|
-aDefaultAppearance
-=
-=
-StyleAppearance
-:
-:
-Searchfield
 ;
 case
 StyleAppearance
