@@ -579,13 +579,9 @@ equal
 cookie
 .
 expiry
-(
 futureExpiry
 +
 44
-)
-*
-1000
 )
 ;
 do_close_profile

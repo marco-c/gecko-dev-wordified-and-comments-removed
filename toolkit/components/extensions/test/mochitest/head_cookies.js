@@ -711,8 +711,6 @@ false
 options
 .
 expiry
-*
-1000
 {
 }
 Ci
@@ -768,8 +766,6 @@ false
 options
 .
 expiry
-*
-1000
 {
 }
 Ci
@@ -825,8 +821,6 @@ false
 options
 .
 expiry
-*
-1000
 {
 }
 Ci
@@ -987,8 +981,6 @@ false
 options
 .
 expiry
-*
-1000
 {
 }
 Ci
@@ -1044,8 +1036,6 @@ false
 options
 .
 expiry
-*
-1000
 {
 }
 Ci

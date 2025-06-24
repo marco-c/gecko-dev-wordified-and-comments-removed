@@ -633,12 +633,12 @@ aCookiePartitionedPrincipal
 ;
 static
 int64_t
-MaybeCapExpiry
+MaybeReduceExpiry
 (
 int64_t
-aCurrentTimeInMSec
+aCurrentTimeInSec
 int64_t
-aExpiryInMSec
+aExpiryInSec
 )
 ;
 static

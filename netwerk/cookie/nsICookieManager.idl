@@ -549,13 +549,5 @@ testGet3PCBExceptions
 (
 )
 ;
-int64_t
-maybeCapExpiry
-(
-in
-int64_t
-aExpiryInMSec
-)
-;
 }
 ;

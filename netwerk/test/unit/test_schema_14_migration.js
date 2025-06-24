@@ -318,15 +318,11 @@ WHERE
 expiry
 <
 =
-(
 unixepoch
 (
 )
 +
 34560000
-)
-*
-1000
 "
 )
 ;

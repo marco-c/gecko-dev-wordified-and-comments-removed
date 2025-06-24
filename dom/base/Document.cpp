@@ -33000,7 +33000,7 @@ currentTime
 =
 currentTimeInUsec
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 ;
 nsCOMPtr
 <
