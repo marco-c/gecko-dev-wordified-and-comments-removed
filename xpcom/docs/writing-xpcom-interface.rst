@@ -715,6 +715,16 @@ nsIComponentName
 idl
 "
 ]
+XPIDL_MODULE
+=
+"
+nsIComponentName
+"
+FINAL_LIBRARY
+=
+"
+xul
+"
 Next
 write
 the
@@ -954,7 +964,7 @@ attributes
 /
 readonly
 attribute
-bool
+boolean
 isAlive
 ;
 }
@@ -2497,6 +2507,11 @@ ComponentName
 cpp
 "
 ]
+FINAL_LIBRARY
+=
+"
+xul
+"
 This
 completes
 the
