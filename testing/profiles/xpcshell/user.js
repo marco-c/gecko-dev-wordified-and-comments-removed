@@ -476,3 +476,17 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+messaging
+-
+system
+.
+log
+"
+"
+all
+"
+)
+;
