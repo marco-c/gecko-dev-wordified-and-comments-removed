@@ -1659,8 +1659,10 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
+{
 nullptr
 aPosition
+}
 )
 ;
 Servo_ResolveAnchorFunctionsInCalcPercentage
@@ -7506,8 +7508,10 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
+{
 nullptr
 aPosition
+}
 )
 ;
 Servo_ResolveAnchorFunctionsInCalcPercentage
@@ -7717,8 +7721,10 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
+{
 nullptr
 aPosition
+}
 )
 ;
 Servo_ResolveAnchorFunctionsInCalcPercentage
