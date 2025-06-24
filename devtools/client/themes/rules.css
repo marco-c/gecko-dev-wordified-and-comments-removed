@@ -2512,13 +2512,11 @@ ruleview
 -
 propertyvalue
 {
-border
+text
 -
-bottom
--
-color
+decoration
 :
-transparent
+none
 ;
 }
 .
