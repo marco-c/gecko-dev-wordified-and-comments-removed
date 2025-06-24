@@ -26,6 +26,9 @@ glob
 :
 hidden
 :
+nss_3_113
+.
+rst
 nss_3_112
 .
 rst
