@@ -1570,7 +1570,7 @@ manager
 .
 store
 .
-_jsonFile
+_store
 .
 saveSoon
 (
