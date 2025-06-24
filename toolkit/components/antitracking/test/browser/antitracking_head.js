@@ -1227,16 +1227,6 @@ testing
 "
 true
 ]
-[
-"
-network
-.
-lna
-.
-block_trackers
-"
-false
-]
 ]
 }
 )
