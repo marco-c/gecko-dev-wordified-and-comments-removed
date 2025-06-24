@@ -273,11 +273,6 @@ MainAsCurrent
 :
 WebrtcTaskQueueWrapper
 (
-TaskQueue
-:
-:
-Create
-(
 do_AddRef
 (
 GetMainThreadSerialEventTarget
@@ -285,13 +280,10 @@ GetMainThreadSerialEventTarget
 )
 )
 "
-MainAsCurrentTaskQueue
-"
-)
-"
 MainAsCurrent
 "
 _ns
+false
 )
 mSetter
 (
