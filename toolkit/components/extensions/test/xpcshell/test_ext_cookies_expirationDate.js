@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_no_reject_invalid_cookies
+test_expirationDate_and_maxageCap
 (
 )
 {
