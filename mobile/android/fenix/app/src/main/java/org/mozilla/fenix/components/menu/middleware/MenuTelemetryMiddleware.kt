@@ -1243,6 +1243,12 @@ MenuAction
 .
 Navigate
 .
+Stop
+is
+MenuAction
+.
+Navigate
+.
 InstalledAddonDetails
 -
 >
