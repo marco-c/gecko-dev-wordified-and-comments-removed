@@ -374,6 +374,18 @@ tabs
 text
 .
 *
+param
+showNegativeButton
+To
+check
+if
+we
+display
+the
+negative
+button
+.
+*
 /
 Composable
 internal
@@ -394,6 +406,9 @@ onLeaveClicked
 -
 >
 Unit
+showNegativeButton
+:
+Boolean
 )
 {
 Column
@@ -455,6 +470,7 @@ Footer
 (
 onUnlockClicked
 onLeaveClicked
+showNegativeButton
 )
 LaunchedEffect
 (
@@ -624,6 +640,9 @@ onLeaveClicked
 -
 >
 Unit
+showNegativeButton
+:
+Boolean
 )
 {
 val
@@ -710,6 +729,11 @@ height
 dp
 )
 )
+if
+(
+showNegativeButton
+)
+{
 TextButton
 (
 text
@@ -738,6 +762,7 @@ false
 )
 }
 }
+}
 FlexibleWindowLightDarkPreview
 Composable
 private
@@ -763,6 +788,9 @@ onLeaveClicked
 =
 {
 }
+showNegativeButton
+=
+true
 )
 }
 }
