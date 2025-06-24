@@ -1271,7 +1271,7 @@ nsIInputStream
 aBlob
 )
 ;
-bool
+void
 SendDeferredMessages
 (
 )
