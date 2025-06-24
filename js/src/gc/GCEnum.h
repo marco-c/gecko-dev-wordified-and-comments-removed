@@ -532,16 +532,6 @@ Breakpoint
 \
 _
 (
-ForOfPIC
-)
-\
-_
-(
-ForOfPICStub
-)
-\
-_
-(
 WasmInstanceExports
 )
 \
