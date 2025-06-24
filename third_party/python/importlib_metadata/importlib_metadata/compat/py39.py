@@ -16,16 +16,20 @@ Python
 "
 "
 from
+__future__
+import
+annotations
+from
 typing
 import
 TYPE_CHECKING
 Any
-Optional
 if
 TYPE_CHECKING
 :
     
 from
+.
 .
 import
 Distribution
@@ -38,6 +42,12 @@ Distribution
 EntryPoint
 =
 Any
+from
+.
+.
+_typing
+import
+md_none
 def
 normalized_name
 (
@@ -47,10 +57,9 @@ Distribution
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -88,6 +97,7 @@ AttributeError
         
 from
 .
+.
 import
 Prepared
         
@@ -96,6 +106,7 @@ Prepared
 .
 normalize
 (
+            
 getattr
 (
 dist
@@ -105,14 +116,18 @@ name
 None
 )
 or
+md_none
+(
 dist
 .
 metadata
+)
 [
 '
 Name
 '
 ]
+        
 )
 def
 ep_matches
@@ -165,6 +180,7 @@ AttributeError
 :
         
 from
+.
 .
 import
 EntryPoint

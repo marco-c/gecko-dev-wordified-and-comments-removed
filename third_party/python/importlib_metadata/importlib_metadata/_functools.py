@@ -1,7 +1,7 @@
 import
-types
-import
 functools
+import
+types
 def
 method_cache
 (
