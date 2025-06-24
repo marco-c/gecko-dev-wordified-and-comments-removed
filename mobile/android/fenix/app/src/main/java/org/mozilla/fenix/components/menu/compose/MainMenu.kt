@@ -3498,7 +3498,7 @@ R
 .
 drawable
 .
-mozac_ic_grid_add_24
+mozac_ic_tool_24
 )
 onClick
 =
