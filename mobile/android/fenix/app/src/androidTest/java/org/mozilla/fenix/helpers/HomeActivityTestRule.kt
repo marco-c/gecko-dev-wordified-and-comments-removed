@@ -533,6 +533,11 @@ isComposeHomepageEnabled
 Boolean
 =
 true
+isUseNewCrashReporterDialog
+:
+Boolean
+=
+false
 )
 :
 this
@@ -618,6 +623,11 @@ this
 isComposeHomepageEnabled
 =
 isComposeHomepageEnabled
+this
+.
+isUseNewCrashReporterDialog
+=
+isUseNewCrashReporterDialog
 }
 /
 *
@@ -891,6 +901,11 @@ skipOnboarding
 Boolean
 =
 false
+useNewCrashReporterDialog
+:
+Boolean
+=
+false
 )
 =
 HomeActivityTestRule
@@ -953,6 +968,9 @@ true
 isPageLoadTranslationsPromptEnabled
 =
 false
+isUseNewCrashReporterDialog
+=
+useNewCrashReporterDialog
 )
 }
 }

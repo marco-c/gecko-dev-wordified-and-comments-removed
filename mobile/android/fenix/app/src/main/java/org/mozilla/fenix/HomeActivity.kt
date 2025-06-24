@@ -9010,7 +9010,8 @@ nextMessage
 currentBootUniqueIdentifier
 )
 }
-private
+VisibleForTesting
+internal
 fun
 showCrashReporter
 (
