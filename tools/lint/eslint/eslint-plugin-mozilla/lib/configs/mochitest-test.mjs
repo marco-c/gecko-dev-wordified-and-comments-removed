@@ -105,7 +105,9 @@ SimpleTest
 js
 SpecialPowers
 :
-false
+"
+readonly
+"
 }
 name
 :
