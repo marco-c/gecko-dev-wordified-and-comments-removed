@@ -3970,14 +3970,7 @@ bind
 (
 FfiConverterTypeContextIDComponent
 )
-FfiConverterTypeApiError
-.
-lift
-.
-bind
-(
-FfiConverterTypeApiError
-)
+null
 )
 }
 /
