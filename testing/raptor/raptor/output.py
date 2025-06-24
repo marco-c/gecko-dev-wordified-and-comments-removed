@@ -29,8 +29,6 @@ import
 Iterable
 import
 filters
-import
-six
 from
 logger
 .
@@ -109,14 +107,13 @@ median
 geomean
 "
 ]
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 PerftestOutput
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 "
