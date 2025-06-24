@@ -16266,11 +16266,6 @@ bool
 done
 )
 {
-*
-done
-=
-false
-;
 MOZ_ASSERT
 (
 C
@@ -16280,6 +16275,11 @@ isConstructor
 (
 )
 )
+;
+*
+done
+=
+false
 ;
 Rooted
 <
