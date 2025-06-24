@@ -347,11 +347,11 @@ VideoSink
 void
 OnVideoQueuePushed
 (
-const
 RefPtr
 <
 VideoData
 >
+&
 &
 aSample
 )

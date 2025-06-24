@@ -1575,8 +1575,8 @@ virtual
 void
 OnPlaybackEvent
 (
-const
 MediaPlaybackEvent
+&
 &
 aEvent
 )
