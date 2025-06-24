@@ -542,6 +542,13 @@ tests
 "
 [
 "
+test_rvfc_timestamp_alignment
+.
+html
+"
+]
+[
+"
 test_setSinkId
 -
 echoCancellation
