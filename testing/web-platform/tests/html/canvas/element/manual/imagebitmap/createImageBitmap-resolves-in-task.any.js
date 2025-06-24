@@ -391,7 +391,7 @@ try
 assert_equals
 (
 taskRan
-tru
+true
 '
 The
 promise
