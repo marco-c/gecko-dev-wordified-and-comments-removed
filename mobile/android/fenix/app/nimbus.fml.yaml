@@ -48,12 +48,6 @@ fml
 .
 yaml
 -
-pbm
-.
-fml
-.
-yaml
--
 messaging
 -
 fenix
