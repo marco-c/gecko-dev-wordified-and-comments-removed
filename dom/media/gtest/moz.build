@@ -390,12 +390,12 @@ TestAudioInputProcessing
 cpp
 "
 "
-TestCallWorkerThread
+TestRTCStatsTimestampMaker
 .
 cpp
 "
 "
-TestRTCStatsTimestampMaker
+TestWebrtcTaskQueueWrapper
 .
 cpp
 "

@@ -111,11 +111,6 @@ AudioConduit
 cpp
 "
 "
-CallWorkerThread
-.
-cpp
-"
-"
 FrameTransformer
 .
 cpp
@@ -177,6 +172,11 @@ cpp
 "
 "
 WebrtcMediaDataEncoderCodec
+.
+cpp
+"
+"
+WebrtcTaskQueueWrapper
 .
 cpp
 "
