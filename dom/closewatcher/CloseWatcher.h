@@ -181,6 +181,11 @@ Close
 )
 ;
 void
+AddToWindowsCloseWatcherManager
+(
+)
+;
+void
 Destroy
 (
 )
