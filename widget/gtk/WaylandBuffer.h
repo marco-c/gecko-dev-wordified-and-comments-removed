@@ -311,6 +311,7 @@ mIsAttachedToCompositor
 void
 SetAttachedLocked
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock
@@ -356,6 +357,7 @@ wl_buffer
 *
 BorrowBuffer
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock
@@ -364,6 +366,7 @@ aSurfaceLock
 void
 ReturnBufferDetached
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock

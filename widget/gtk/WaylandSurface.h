@@ -202,8 +202,12 @@ false
 )
 ;
 void
-SetFrameCallbackState
+SetFrameCallbackStateLocked
 (
+const
+WaylandSurfaceLock
+&
+aProofOfLock
 bool
 aEnabled
 )
@@ -430,6 +434,7 @@ aInitialDrawCB
 bool
 AttachLocked
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock
@@ -443,6 +448,7 @@ aWaylandBuffer
 void
 RemoveAttachedBufferLocked
 (
+const
 WaylandSurfaceLock
 &
 aProofOfLock
@@ -936,6 +942,11 @@ wp_image_description_v1
 aImageDescription
 uint32_t
 aIdentity
+)
+;
+void
+AssertCurrentThreadOwnsMutex
+(
 )
 ;
 private

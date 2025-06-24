@@ -510,6 +510,7 @@ WaylandBuffer
 :
 BorrowBuffer
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock
@@ -740,6 +741,7 @@ WaylandBuffer
 :
 ReturnBufferDetached
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock

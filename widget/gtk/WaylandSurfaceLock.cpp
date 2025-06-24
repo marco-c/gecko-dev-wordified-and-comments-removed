@@ -54,6 +54,11 @@ aForceCommit
 #
 ifdef
 MOZ_WAYLAND
+MOZ_DIAGNOSTIC_ASSERT
+(
+aWaylandSurface
+)
+;
 mWaylandSurface
 =
 std
@@ -75,11 +80,6 @@ GdkIsWaylandDisplay
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-mWaylandSurface
-)
-;
 mSurface
 =
 mWaylandSurface
@@ -144,6 +144,7 @@ WaylandSurfaceLock
 GetWaylandSurface
 (
 )
+const
 {
 #
 ifdef
