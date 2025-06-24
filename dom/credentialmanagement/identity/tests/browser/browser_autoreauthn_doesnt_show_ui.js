@@ -664,6 +664,14 @@ obtained
 "
 )
 ;
+IdentityCredentialStorageService
+.
+disconnect
+(
+rpPrincipal
+idpPrincipal
+)
+;
 await
 BrowserTestUtils
 .
