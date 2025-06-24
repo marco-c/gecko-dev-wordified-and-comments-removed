@@ -179,9 +179,7 @@ fenix
 .
 downloads
 .
-dialog
-.
-DynamicDownloadDialog
+getCannotOpenFileErrorMessage
 import
 org
 .
@@ -552,8 +550,6 @@ SnackbarState
 (
 message
 =
-DynamicDownloadDialog
-.
 getCannotOpenFileErrorMessage
 (
 context

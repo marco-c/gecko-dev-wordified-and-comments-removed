@@ -5069,6 +5069,13 @@ name
 "
 material_scrim_color
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 #
 52000000

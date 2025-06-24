@@ -341,9 +341,7 @@ fenix
 .
 downloads
 .
-dialog
-.
-DynamicDownloadDialog
+getCannotOpenFileErrorMessage
 import
 org
 .
@@ -1803,8 +1801,6 @@ show
 (
 text
 =
-DynamicDownloadDialog
-.
 getCannotOpenFileErrorMessage
 (
 context
