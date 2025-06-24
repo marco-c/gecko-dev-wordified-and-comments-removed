@@ -111,7 +111,7 @@ video
 true
 timeout
 :
-30m
+15m
 async
 :
 false
@@ -208,7 +208,7 @@ MediumPhone
 arm
 version
 :
-33
+34
 locale
 :
 en_US
@@ -223,6 +223,7 @@ test
 -
 shards
 :
+-
 1
 num
 -
