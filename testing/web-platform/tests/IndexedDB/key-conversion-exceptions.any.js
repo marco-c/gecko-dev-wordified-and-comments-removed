@@ -1409,12 +1409,6 @@ get
 getKey
 '
 '
-getAll
-'
-'
-getAllKeys
-'
-'
 count
 '
 '
@@ -1586,6 +1580,12 @@ keys
 )
 ;
 [
+'
+getAll
+'
+'
+getAllKeys
+'
 '
 getAllRecords
 '
