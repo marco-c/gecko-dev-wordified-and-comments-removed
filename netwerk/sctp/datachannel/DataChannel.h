@@ -3006,11 +3006,6 @@ bool
 mOrdered
 ;
 bool
-mHasFinishedOpen
-=
-false
-;
-bool
 mWaitingForAck
 =
 false
