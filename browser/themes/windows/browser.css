@@ -979,7 +979,14 @@ font
 /
 font
 :
+round
+(
 10px
+env
+(
+hairline
+)
+)
 /
 1
 "
