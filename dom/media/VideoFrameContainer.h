@@ -338,6 +338,16 @@ return
 mIntrinsicSize
 ;
 }
+bool
+Is16bitImageSupported
+(
+)
+const
+{
+return
+mIs16bitImageSupported
+;
+}
 protected
 :
 void
@@ -447,6 +457,10 @@ RefPtr
 AbstractThread
 >
 mMainThread
+;
+const
+bool
+mIs16bitImageSupported
 ;
 }
 ;
