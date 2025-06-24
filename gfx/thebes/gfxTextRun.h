@@ -4809,13 +4809,13 @@ mResolvedFonts
 =
 false
 ;
-FontPresentation
-mEmojiPresentation
+StyleFontVariantEmoji
+mFontVariantEmoji
 =
-FontPresentation
+StyleFontVariantEmoji
 :
 :
-Any
+Normal
 ;
 mozilla
 :
