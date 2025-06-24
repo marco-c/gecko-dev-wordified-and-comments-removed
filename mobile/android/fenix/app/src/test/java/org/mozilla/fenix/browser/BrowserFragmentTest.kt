@@ -2730,7 +2730,7 @@ true
 )
 browserFragment
 .
-leadingAction
+homeAction
 =
 leadingAction
 browserFragment
@@ -2963,7 +2963,7 @@ true
 )
 browserFragment
 .
-leadingAction
+homeAction
 =
 leadingAction
 browserFragment
@@ -3187,7 +3187,7 @@ true
 )
 browserFragment
 .
-leadingAction
+homeAction
 =
 leadingAction
 browserFragment
@@ -3572,7 +3572,7 @@ exactly
 {
 browserFragment
 .
-addLeadingAction
+addHomeAction
 (
 any
 (
@@ -3669,7 +3669,7 @@ verifyOrder
 {
 browserFragment
 .
-addLeadingAction
+addHomeAction
 (
 any
 (

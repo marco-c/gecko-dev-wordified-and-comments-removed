@@ -685,7 +685,7 @@ null
 VisibleForTesting
 internal
 var
-leadingAction
+homeAction
 :
 BrowserToolbar
 .
@@ -1899,7 +1899,7 @@ PRIVATE
 )
 internal
 fun
-addLeadingAction
+addHomeAction
 (
 context
 :
@@ -1908,13 +1908,13 @@ Context
 {
 if
 (
-leadingAction
+homeAction
 !
 =
 null
 )
 return
-leadingAction
+homeAction
 =
 BrowserToolbar
 .
@@ -2000,7 +2000,7 @@ isTablet
 Boolean
 )
 {
-addLeadingAction
+addHomeAction
 (
 context
 =
@@ -2834,7 +2834,7 @@ onDestroyView
 isTablet
 =
 false
-leadingAction
+homeAction
 =
 null
 forwardAction
