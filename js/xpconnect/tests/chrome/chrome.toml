@@ -338,6 +338,13 @@ prefs
 =
 [
 "
+security
+.
+allow_eval_with_system_principal
+=
+true
+"
+"
 javascript
 .
 options
