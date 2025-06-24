@@ -65,6 +65,11 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+size_t
+nondeterministicGetSize
+(
+)
+;
 [
 [
 nodiscard
