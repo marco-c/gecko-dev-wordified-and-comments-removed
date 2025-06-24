@@ -340,6 +340,11 @@ ScreenAvailToResolution
 )
 ITEM_VALUE
 (
+UseHardcodedFontSubstitutes
+69
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
