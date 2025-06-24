@@ -877,6 +877,9 @@ true
 privateBrowsingAllowed
 =
 false
+technicalAndInteractionDataGranted
+=
+false
 )
 return
 }
@@ -1567,6 +1570,7 @@ onPositiveButtonClicked
 {
 _
 privateBrowsingAllowed
+technicalAndInteractionDataAllowed
 -
 >
 handlePermissions
@@ -1576,6 +1580,7 @@ granted
 =
 true
 privateBrowsingAllowed
+technicalAndInteractionDataAllowed
 )
 }
 onNegativeButtonClicked
@@ -1588,6 +1593,9 @@ granted
 =
 false
 privateBrowsingAllowed
+=
+false
+technicalAndInteractionDataGranted
 =
 false
 )
@@ -1645,6 +1653,7 @@ onPositiveButtonClicked
 {
 addon
 privateBrowsingAllowed
+technicalAndInteractionDataGranted
 -
 >
 store
@@ -1689,6 +1698,7 @@ granted
 =
 true
 privateBrowsingAllowed
+technicalAndInteractionDataGranted
 )
 }
 }
@@ -1728,6 +1738,9 @@ granted
 =
 false
 privateBrowsingAllowed
+=
+false
+technicalAndInteractionDataGranted
 =
 false
 )
@@ -1834,6 +1847,9 @@ Boolean
 privateBrowsingAllowed
 :
 Boolean
+technicalAndInteractionDataGranted
+:
+Boolean
 )
 {
 when
@@ -1881,6 +1897,9 @@ granted
 isPrivateModeGranted
 =
 privateBrowsingAllowed
+isTechnicalAndInteractionDataGranted
+=
+technicalAndInteractionDataGranted
 )
 promptRequest
 .

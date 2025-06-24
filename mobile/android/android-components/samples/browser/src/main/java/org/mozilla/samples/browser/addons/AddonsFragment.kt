@@ -991,6 +991,7 @@ onConfirmPermissionButtonClicked
 (
 Addon
 Boolean
+Boolean
 )
 -
 >
@@ -999,6 +1000,7 @@ Unit
 =
 {
 addon
+_
 _
 -
 >

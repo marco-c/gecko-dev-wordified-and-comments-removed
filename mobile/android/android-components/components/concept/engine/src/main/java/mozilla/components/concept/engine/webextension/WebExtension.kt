@@ -3903,6 +3903,12 @@ isPrivateModeGranted
 Boolean
 =
 false
+val
+isTechnicalAndInteractionDataGranted
+:
+Boolean
+=
+false
 )
 /
 *

@@ -2580,9 +2580,8 @@ isPermissionsGranted
 data
 .
 isPrivateModeGranted
-false
-/
-/
+data
+.
 isTechnicalAndInteractionDataGranted
 )
 )
