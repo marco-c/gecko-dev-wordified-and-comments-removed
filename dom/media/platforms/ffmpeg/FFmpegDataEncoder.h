@@ -434,11 +434,6 @@ aPacket
 =
 0
 ;
-void
-ForceEnablingFFmpegDebugLogs
-(
-)
-;
 const
 FFmpegLibWrapper
 *

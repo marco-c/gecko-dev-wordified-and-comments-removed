@@ -209,11 +209,6 @@ aPacket
 )
 override
 ;
-void
-ForceEnablingFFmpegDebugLogs
-(
-)
-;
 struct
 SVCSettings
 {

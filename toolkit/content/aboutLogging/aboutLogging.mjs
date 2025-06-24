@@ -918,6 +918,15 @@ Autoplay
 MFMediaEngine
 :
 5
+FFmpegVideo
+:
+5
+FFmpegAudio
+:
+5
+FFmpegLib
+:
+4
 "
 l10nIds
 :
@@ -1176,6 +1185,9 @@ FFmpegVideo
 FFmpegAudio
 :
 5
+FFmpegLib
+:
+4
 GMP
 :
 5
