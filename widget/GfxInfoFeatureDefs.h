@@ -752,3 +752,17 @@ hw
 encode
 "
 )
+GFXINFO_FEATURE
+(
+WMF_HW_DRM
+"
+WMF_HW_DRM
+"
+"
+wmf
+.
+hw
+-
+drm
+"
+)
