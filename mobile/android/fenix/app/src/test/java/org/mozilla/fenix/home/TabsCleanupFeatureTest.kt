@@ -636,7 +636,7 @@ tabs
 to
 delete
 WHEN
-rfeature
+feature
 is
 started
 THEN
@@ -688,7 +688,7 @@ R
 .
 string
 .
-snackbar_private_tabs_closed
+snackbar_private_data_deleted
 )
 undoActionTitle
 =
@@ -935,7 +935,7 @@ R
 .
 string
 .
-snackbar_private_tabs_closed
+snackbar_private_data_deleted
 )
 undoActionTitle
 =
@@ -970,12 +970,6 @@ null
 Test
 fun
 GIVEN
-felt
-private
-browsing
-is
-enabled
-and
 all
 private
 tabs
@@ -998,14 +992,6 @@ snackbar
 (
 )
 {
-every
-{
-settings
-.
-feltPrivateBrowsingEnabled
-}
-returns
-true
 every
 {
 viewModel
