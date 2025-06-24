@@ -96,10 +96,8 @@ headers
 "
 )
     
-session_id
+session_id_header
 =
-int
-(
 session_id_header
 .
 decode
@@ -110,6 +108,12 @@ utf
 8
 '
 )
+    
+session_id
+=
+int
+(
+session_id_header
 )
     
 if
@@ -315,6 +319,30 @@ jti
 !
 =
 challenge
+:
+            
+return
+(
+400
+response
+.
+headers
+"
+"
+)
+        
+if
+jwt_payload
+.
+get
+(
+"
+sub
+"
+)
+!
+=
+session_id_header
 :
             
 return
