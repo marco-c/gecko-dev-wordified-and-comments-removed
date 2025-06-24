@@ -214,7 +214,7 @@ const
 override
 ;
 bool
-HasScriptContent
+HasExternalScriptContent
 (
 )
 override

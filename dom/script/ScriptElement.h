@@ -89,7 +89,7 @@ protected
 :
 virtual
 bool
-HasScriptContent
+HasExternalScriptContent
 (
 )
 =

@@ -917,7 +917,7 @@ this
 }
 virtual
 bool
-HasScriptContent
+HasExternalScriptContent
 (
 )
 override
