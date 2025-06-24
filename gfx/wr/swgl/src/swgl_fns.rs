@@ -1485,6 +1485,9 @@ resource
 mut
 LockedTexture
 )
+-
+>
+i32
 ;
 fn
 GetResourceBuffer
