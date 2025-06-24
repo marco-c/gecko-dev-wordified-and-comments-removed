@@ -6522,7 +6522,7 @@ req_size
 )
 ;
 }
-bool
+void
 DataChannelConnection
 :
 :
@@ -6583,7 +6583,6 @@ None
 )
 {
 return
-false
 ;
 }
 if
@@ -6620,7 +6619,6 @@ nullptr
 )
 {
 return
-true
 ;
 }
 mPendingType
@@ -6774,9 +6772,6 @@ PendingType
 Dcep
 ;
 }
-return
-blocked
-;
 }
 bool
 DataChannelConnection
