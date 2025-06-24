@@ -953,7 +953,7 @@ platform
 tests
 -
 eme
-linux1804
+linux
 -
 tests
 :
@@ -976,7 +976,7 @@ jittest
 See
 comment
 in
-linux1804
+linux
 -
 ccov
 -
@@ -1113,7 +1113,7 @@ verify
 wpt
 -
 xpcshell
-linux1804
+linux
 -
 ccov
 -
@@ -1140,16 +1140,10 @@ it
 #
 from
 the
-linux1804
+linux2404
 -
 tests
-and
-linux1804
--
-qr
--
-tests
-sets
+set
 .
 But
 we
