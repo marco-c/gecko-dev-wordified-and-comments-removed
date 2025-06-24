@@ -121,6 +121,10 @@ toolchain
 linux64
 -
 dump_syms
+-
+linux64
+-
+7zz
 treeherder
 :
 platform
@@ -1089,12 +1093,6 @@ fetch
 symbol
 -
 scrapers
-toolchain
-:
--
-linux64
--
-7zz
 opensuse
 :
 description
@@ -1206,12 +1204,6 @@ fetch
 symbol
 -
 scrapers
-toolchain
-:
--
-linux64
--
-7zz
 ubuntu
 :
 description
@@ -1449,10 +1441,6 @@ toolchain
 linux64
 -
 cabextract
--
-linux64
--
-7zz
 alpine
 :
 description
