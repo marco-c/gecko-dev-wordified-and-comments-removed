@@ -309,6 +309,8 @@ crash
 reports
 -
 message
+-
+new
 =
 {
 reportCount
@@ -323,8 +325,8 @@ an
 unsent
 crash
 report
-that
-matches
+related
+to
 crashes
 being
 investigated
@@ -363,13 +365,13 @@ reportCount
 unsent
 crash
 reports
-that
-matches
+related
+to
 crashes
 being
 investigated
 sending
-it
+them
 will
 help
 us
