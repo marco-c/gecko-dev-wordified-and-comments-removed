@@ -1925,6 +1925,9 @@ touch
 tabbrowser
 -
 tab
+[
+fadein
+]
 :
 not
 (
@@ -2734,6 +2737,9 @@ horizontal
 "
 ]
 &
+[
+fadein
+]
 :
 not
 (
