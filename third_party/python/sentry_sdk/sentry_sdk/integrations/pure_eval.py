@@ -14,7 +14,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -36,7 +36,7 @@ import
 walk_exception_chain
 iter_stacks
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

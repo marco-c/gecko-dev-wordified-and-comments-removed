@@ -1,10 +1,10 @@
-'
+"
 Mozilla
 l10n
 compare
 locales
 tool
-'
+"
 import
 os
 import
@@ -35,54 +35,55 @@ __all__
 =
 [
     
-'
+"
 ContentComparer
-'
+"
     
-'
+"
 Observer
-'
-'
+"
+    
+"
 ObserverList
-'
+"
     
-'
+"
 AddRemove
-'
-'
-Tree
-'
+"
     
-'
+"
+Tree
+"
+    
+"
 compareProjects
-'
+"
 ]
 def
 compareProjects
 (
-            
+    
 project_configs
-            
+    
 locales
-            
+    
 l10n_base_dir
-            
+    
 stat_observer
 =
 None
-            
+    
 merge_stage
 =
 None
-            
+    
 clobber_merge
 =
 False
-            
+    
 quiet
 =
 0
-        
 )
 :
     
@@ -148,6 +149,7 @@ filter
 filter
             
 )
+        
 )
         
 if
@@ -181,7 +183,6 @@ ProjectFiles
 (
 locale
 project_configs
-                                   
 mergebase
 =
 merge_stage
@@ -205,9 +206,9 @@ _m
 .
 get
 (
-'
+"
 merge
-'
+"
 )
 for
 _m
@@ -297,9 +298,9 @@ matchers
 if
 _m
 [
-'
+"
 l10n
-'
+"
 ]
 .
 match
@@ -311,9 +312,9 @@ l10npath
 if
 _m
 [
-'
+"
 module
-'
+"
 ]
 :
                         
@@ -321,9 +322,9 @@ module
 =
 _m
 [
-'
+"
 module
-'
+"
 ]
                         
 fpath
@@ -335,9 +336,9 @@ relpath
 l10npath
 _m
 [
-'
+"
 l10n
-'
+"
 ]
 .
 prefix
@@ -382,7 +383,6 @@ l10npath
 fpath
 or
 l10npath
-                              
 module
 =
 module

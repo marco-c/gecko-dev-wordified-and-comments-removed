@@ -511,6 +511,12 @@ line
 7
 :
 ]
+or
+"
+[
+noname
+]
+"
                 
 elif
 line
@@ -525,14 +531,32 @@ mail
 )
 :
                     
-user
-+
+email
 =
 line
 [
 11
 :
 ]
+                    
+user
++
+=
+email
+if
+email
+!
+=
+'
+<
+>
+'
+else
+'
+<
+nomail
+>
+'
                 
 elif
 line

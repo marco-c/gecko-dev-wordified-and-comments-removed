@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 A
 tuple
 with
@@ -80,9 +80,9 @@ the
 superclass
 implementation
 .
-'
-'
-'
+"
+"
+"
 class
 KeyedTuple
 (

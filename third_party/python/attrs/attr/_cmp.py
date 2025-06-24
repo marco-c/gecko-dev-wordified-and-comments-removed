@@ -567,10 +567,8 @@ not
 has_eq_function
 :
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 eq
 must
@@ -582,9 +580,6 @@ to
 complete
 ordering
 from
-"
-                
-"
 lt
 le
 gt
@@ -592,6 +587,10 @@ ge
 .
 "
             
+raise
+ValueError
+(
+msg
 )
         
 type_
@@ -788,28 +787,21 @@ self
 "
 "
     
+return
+all
+(
+func
+(
+self
+other
+)
 for
 func
 in
 self
 .
 _requirements
-:
-        
-if
-not
-func
-(
-self
-other
 )
-:
-            
-return
-False
-    
-return
-True
 def
 _check_same_type
 (

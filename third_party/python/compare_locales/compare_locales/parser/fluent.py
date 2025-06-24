@@ -41,9 +41,13 @@ import
 CAN_SKIP
     
 Entry
+    
 Entity
+    
 Comment
+    
 Junk
+    
 Whitespace
     
 LiteralEntity
@@ -81,9 +85,7 @@ node
 if
 isinstance
 (
-            
 node
-            
 (
 ftl
 .
@@ -95,7 +97,6 @@ ftl
 .
 BaseComment
 )
-        
 )
 :
             
@@ -160,9 +161,9 @@ Entry
 ignored_fields
 =
 [
-'
+"
 span
-'
+"
 ]
     
 def
@@ -257,7 +258,6 @@ attr
 .
 equals
 (
-            
 other
 .
 attr
@@ -277,12 +277,12 @@ Entity
 ignored_fields
 =
 [
-'
+"
 comment
-'
-'
+"
+"
 span
-'
+"
 ]
     
 def
@@ -442,9 +442,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 AST
 node
 at
@@ -470,9 +470,9 @@ all
 attributes
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -541,7 +541,6 @@ entry
 .
 equals
 (
-            
 other
 .
 entry
@@ -764,15 +763,15 @@ FluentEntity
 ignored_fields
 =
 [
-'
+"
 attributes
-'
-'
+"
+"
 comment
-'
-'
+"
+"
 span
-'
+"
 ]
     
 property
@@ -784,9 +783,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 AST
 node
 at
@@ -823,9 +822,9 @@ word
 total
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -965,7 +964,6 @@ last_span_end
 yield
 Whitespace
 (
-                        
 self
 .
 ctx
@@ -1050,7 +1048,7 @@ re
 .
 match
 (
-'
+"
 [
 \
 t
@@ -1060,7 +1058,7 @@ r
 n
 ]
 *
-'
+"
 entry
 .
 content
@@ -1086,7 +1084,6 @@ start
 yield
 Whitespace
 (
-                        
 self
 .
 ctx
@@ -1098,7 +1095,6 @@ span
 start
 start
 )
-                    
 )
                 
 ws
@@ -1108,7 +1104,7 @@ re
 .
 search
 (
-'
+"
 [
 \
 t
@@ -1118,7 +1114,7 @@ r
 n
 ]
 *
-'
+"
 entry
 .
 content
@@ -1163,7 +1159,6 @@ end
 yield
 Whitespace
 (
-                        
 self
 .
 ctx
@@ -1175,7 +1170,6 @@ span
 .
 end
 )
-                    
 )
             
 elif

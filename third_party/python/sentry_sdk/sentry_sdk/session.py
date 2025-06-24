@@ -1,15 +1,17 @@
 import
 uuid
 from
-datetime
+sentry_sdk
+.
+_compat
 import
-datetime
+datetime_utcnow
 from
 sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -17,8 +19,13 @@ utils
 import
 format_timestamp
 if
-MYPY
+TYPE_CHECKING
 :
+    
+from
+datetime
+import
+datetime
     
 from
 typing
@@ -185,9 +192,7 @@ None
             
 started
 =
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
         
@@ -480,9 +485,7 @@ None
             
 timestamp
 =
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
         

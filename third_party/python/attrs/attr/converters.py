@@ -396,9 +396,8 @@ is
 None
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 Must
 pass
@@ -408,6 +407,11 @@ or
 factory
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 if
@@ -422,10 +426,8 @@ not
 None
 :
         
-raise
-TypeError
-(
-            
+msg
+=
 "
 Must
 pass
@@ -439,6 +441,10 @@ both
 .
 "
         
+raise
+TypeError
+(
+msg
 )
     
 if
@@ -469,10 +475,8 @@ default
 takes_self
 :
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 takes_self
 is
@@ -483,6 +487,10 @@ default_if_none
 .
 "
             
+raise
+ValueError
+(
+msg
 )
         
 def
@@ -818,9 +826,8 @@ TypeError
         
 pass
     
-raise
-ValueError
-(
+msg
+=
 f
 "
 Cannot
@@ -833,4 +840,9 @@ bool
 val
 }
 "
+    
+raise
+ValueError
+(
+msg
 )

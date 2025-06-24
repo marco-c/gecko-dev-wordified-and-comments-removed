@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 Serialize
 string
 changes
@@ -150,9 +150,9 @@ whitespace
 once
 more
 .
-'
-'
-'
+"
+"
+"
 from
 codecs
 import
@@ -209,9 +209,9 @@ new_data
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 a
 byte
@@ -281,9 +281,9 @@ file
 format
 .
     
-'
-'
-'
+"
+"
+"
     
 try
 :
@@ -302,9 +302,8 @@ UserWarning
 raise
 SerializationNotSupportedError
 (
-            
 f
-'
+"
 Unsupported
 file
 format
@@ -314,7 +313,7 @@ filename
 }
 )
 .
-'
+"
 )
     
 placeholders
@@ -325,12 +324,10 @@ placeholder
 (
 entry
 )
-        
 for
 entry
 in
 reference
-        
 if
 not
 isinstance
@@ -344,25 +341,21 @@ Junk
 ref_mapping
 =
 {
-        
 entry
 .
 key
 :
 entry
-        
 for
 entry
 in
 reference
-        
 if
 isinstance
 (
 entry
 Entity
 )
-    
 }
     
 old_l10n
@@ -432,13 +425,11 @@ merge_resources
 (
         
 parser
-        
 [
 placeholders
 old_l10n
 new_l10n
 ]
-        
 keep_newest
 =
 False
@@ -578,13 +569,11 @@ placeholder
 (
 entry
 )
-        
 if
 should_placeholder
 (
 entry
 )
-        
 else
 entry
         
@@ -637,13 +626,11 @@ entries
 pruned
 =
 [
-        
 entry
 for
 entry
 in
 entries
-        
 if
 not
 isinstance
@@ -651,7 +638,6 @@ isinstance
 entry
 PlaceholderEntity
 )
-    
 ]
     
 def

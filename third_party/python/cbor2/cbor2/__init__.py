@@ -1,5 +1,4 @@
 from
-cbor2
 .
 decoder
 import
@@ -8,7 +7,6 @@ loads
 CBORDecoder
 CBORDecodeError
 from
-cbor2
 .
 encoder
 import
@@ -18,7 +16,6 @@ CBOREncoder
 CBOREncodeError
 shareable_encoder
 from
-cbor2
 .
 types
 import

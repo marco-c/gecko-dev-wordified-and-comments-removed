@@ -42,9 +42,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

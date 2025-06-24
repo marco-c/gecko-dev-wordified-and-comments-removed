@@ -43,13 +43,15 @@ import
 capture_internal_exceptions
     
 event_from_exception
+    
+parse_version
 )
 from
 sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -72,7 +74,7 @@ EventSourceHandler
 as
 ChaliceEventSourceHandler
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -493,36 +495,17 @@ setup_once
 )
 :
         
-try
-:
-            
 version
 =
-tuple
+parse_version
 (
-map
-(
-int
 CHALICE_VERSION
-.
-split
-(
-"
-.
-"
-)
-[
-:
-3
-]
-)
 )
         
-except
-(
-ValueError
-TypeError
-)
+if
+version
+is
+None
 :
             
 raise

@@ -15,8 +15,13 @@ functions
 "
 import
 platform
+from
+blessed
+.
+_compat
 import
-six
+TextType
+StringType
 from
 blessed
 .
@@ -186,9 +191,7 @@ split
 class
 ParameterizingString
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -372,9 +375,7 @@ optional
         
 new
 =
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -560,9 +561,7 @@ args
 [
 0
 ]
-six
-.
-string_types
+StringType
 )
 :
                 
@@ -619,9 +618,7 @@ NULL
 "
 not
 in
-six
-.
-text_type
+TextType
 (
 err
 )
@@ -636,9 +633,7 @@ NullCallableString
 class
 ParameterizingProxyString
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -966,9 +961,7 @@ fmt_pair
         
 new
 =
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -1112,9 +1105,7 @@ _normal
 class
 FormattingString
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -1331,9 +1322,7 @@ optional
         
 new
 =
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -1415,29 +1404,9 @@ not
 isinstance
 (
 ucs_part
-six
-.
-string_types
+StringType
 )
 :
-                
-expected_types
-=
-'
-'
-.
-join
-(
-_type
-.
-__name__
-for
-_type
-in
-six
-.
-string_types
-)
                 
 raise
 TypeError
@@ -1448,9 +1417,6 @@ TypeError
 for
 FormattingString
 argument
-"
-                    
-"
 %
 r
 at
@@ -1460,11 +1426,11 @@ s
 :
 expected
 type
-%
-s
 "
                     
 "
+%
+s
 got
 %
 s
@@ -1473,8 +1439,9 @@ s
 (
 ucs_part
 idx
-expected_types
-                                
+StringType
+.
+__name__
 type
 (
 ucs_part
@@ -1482,6 +1449,7 @@ ucs_part
 .
 __name__
 )
+                
 )
         
 postfix
@@ -1551,9 +1519,7 @@ postfix
 class
 FormattingOtherString
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -1774,9 +1740,7 @@ right
         
 new
 =
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -1801,15 +1765,11 @@ self
 :
         
 return
-six
-.
-text_type
+TextType
 .
 __new__
 (
-six
-.
-text_type
+TextType
 self
 )
 self
@@ -1837,10 +1797,6 @@ target
 "
 "
         
-if
-args
-:
-            
 return
 self
 .
@@ -1849,15 +1805,14 @@ _callable
 *
 args
 )
-        
-return
+if
+args
+else
 self
 class
 NullCallableString
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -1929,9 +1884,7 @@ constructor
 "
         
 return
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -1982,12 +1935,12 @@ empty
 Unicode
 .
 An
-        
 int
 is
 a
 good
 hint
+        
 that
 I
 am
@@ -1998,7 +1951,6 @@ class
 ParameterizingString
 as
 there
-        
 are
 only
 about
@@ -2007,11 +1959,11 @@ a
 dozen
 string
 -
+        
 returning
 capabilities
 listed
 in
-        
 terminfo
 (
 5
@@ -2025,6 +1977,7 @@ arguments
 they
 are
 seldom
+        
 used
 .
         
@@ -2047,10 +2000,10 @@ at
 all
 )
 return
-        
 the
 first
 arg
+        
 acting
 in
 place
@@ -2060,7 +2013,6 @@ class
 :
 FormattingString
 without
-        
 any
 attributes
 .

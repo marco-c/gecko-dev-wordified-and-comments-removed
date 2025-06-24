@@ -211,23 +211,25 @@ parameter
 .
     
 -
-If
+Converters
+and
+validators
+run
+when
+attributes
+are
+set
+by
+default
+-
+-
+if
+      
 *
 frozen
 *
 is
 False
-run
-converters
-and
-validators
-when
-setting
-an
-      
-attribute
-by
-default
 .
     
 -
@@ -265,7 +267,7 @@ can
 lead
 to
 some
-suprising
+surprising
 behaviors
 so
 please
@@ -700,10 +702,8 @@ if
 had_on_setattr
 :
                     
-raise
-ValueError
-(
-                        
+msg
+=
 "
 Frozen
 classes
@@ -712,9 +712,6 @@ can
 t
 use
 on_setattr
-"
-                        
-"
 (
 frozen
 -
@@ -725,6 +722,10 @@ inherited
 .
 "
                     
+raise
+ValueError
+(
+msg
 )
                 
 on_setattr
@@ -779,9 +780,6 @@ None
 return
 wrap
     
-else
-:
-        
 return
 wrap
 (
@@ -911,14 +909,11 @@ added
 ;
 mostly
 for
-       
-{
-func
-}
 attrs
 .
 make_class
 .
+       
 Please
 note
 that
@@ -926,7 +921,6 @@ type
 checkers
 ignore
 this
-       
 metadata
 .
     

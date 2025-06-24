@@ -1,10 +1,10 @@
-'
+"
 Mozilla
 l10n
 compare
 locales
 tool
-'
+"
 import
 codecs
 import
@@ -54,12 +54,12 @@ re
 .
 compile
 (
-'
+"
 [
 kK
 ]
 ey
-'
+"
 )
     
 nl
@@ -68,10 +68,10 @@ re
 .
 compile
 (
-'
+"
 \
 n
-'
+"
 re
 .
 M
@@ -87,9 +87,9 @@ quiet
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 a
 ContentComparer
@@ -123,9 +123,9 @@ missing
 entities
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -168,23 +168,33 @@ True
 def
 merge
 (
+        
 self
+        
 ref_entities
+        
 ref_file
+        
 l10n_file
+        
 merge_file
-              
+        
 missing
+        
 skips
+        
 ctx
+        
 capabilities
+        
 encoding
+    
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 localized
 file
@@ -301,9 +311,9 @@ utf
 -
 8
         
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -425,9 +435,9 @@ codecs
 open
 (
 merge_file
-'
+"
 wb
-'
+"
 encoding
 )
             
@@ -542,23 +552,24 @@ codecs
 open
 (
 merge_file
-'
+"
 ab
-'
+"
 encoding
 )
             
 trailing
 =
 (
+                
 [
-'
+"
 \
 n
-'
+"
 ]
+                
 +
-                        
 [
 ref_entities
 [
@@ -571,9 +582,10 @@ key
 in
 missing
 ]
+                
 +
-                        
 [
+                    
 ref_entities
 [
 skip
@@ -582,11 +594,12 @@ key
 ]
 .
 all
+                    
 for
 skip
 in
 skips
-                         
+                    
 if
 not
 isinstance
@@ -596,7 +609,9 @@ parser
 .
 Junk
 )
+                
 ]
+            
 )
             
 def
@@ -612,20 +627,20 @@ s
 .
 endswith
 (
-'
+"
 \
 n
-'
+"
 )
 :
                     
 return
 s
 +
-'
+"
 \
 n
-'
+"
                 
 return
 s
@@ -644,8 +659,8 @@ f
 .
 write
 (
-'
-'
+"
+"
 .
 join
 (
@@ -680,9 +695,9 @@ merge_file
 )
 :
         
-'
-'
-'
+"
+"
+"
 Obsolete
 l10n
 file
@@ -697,9 +712,9 @@ we
 can
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -707,9 +722,9 @@ observers
 .
 notify
 (
-'
+"
 obsoleteFile
-'
+"
 l10n
 None
 )
@@ -724,18 +739,25 @@ KeyedTuple
 [
 ]
 )
+            
 ref_file
+            
 l10n
+            
 merge_file
             
 [
 ]
+            
 [
 ]
+            
 None
+            
 parser
 .
 CAN_COPY
+            
 None
         
 )
@@ -781,19 +803,27 @@ KeyedTuple
 [
 ]
 )
+                
 ref_file
+                
 l10n
+                
 merge_file
+                
 [
 ]
+                
 [
 ]
+                
 None
                 
 parser
 .
 CAN_COPY
+                
 None
+            
 )
             
 return
@@ -820,9 +850,9 @@ observers
 .
 notify
 (
-'
+"
 error
-'
+"
 ref_file
 str
 (
@@ -876,9 +906,9 @@ observers
 .
 notify
 (
-'
+"
 error
-'
+"
 l10n
 str
 (
@@ -990,9 +1020,9 @@ observers
 .
 notify
 (
-'
+"
 warning
-'
+"
 l10n
 msg
 )
@@ -1014,9 +1044,9 @@ observers
 .
 notify
 (
-'
+"
 error
-'
+"
 l10n
 msg
 )
@@ -1032,9 +1062,9 @@ if
 action
 =
 =
-'
+"
 delete
-'
+"
 :
                 
 if
@@ -1056,20 +1086,18 @@ observers
 .
 notify
 (
-                        
-'
+"
 warning
-'
+"
 l10n
-'
+"
 Parser
 error
 in
 en
 -
 US
-'
-                    
+"
 )
                     
 continue
@@ -1082,9 +1110,9 @@ observers
 .
 notify
 (
-'
+"
 missingEntity
-'
+"
 l10n
 entity_id
 )
@@ -1149,9 +1177,9 @@ elif
 action
 =
 =
-'
+"
 add
-'
+"
 :
                 
 if
@@ -1161,7 +1189,6 @@ l10n_entities
 [
 entity_id
 ]
-                              
 parser
 .
 Junk
@@ -1181,18 +1208,15 @@ observers
 .
 notify
 (
-                        
-'
+"
 error
-'
+"
 l10n
-                        
 junk
 .
 error_message
 (
 )
-                    
 )
                     
 if
@@ -1218,18 +1242,17 @@ observers
 .
 notify
 (
-'
+"
 obsoleteEntity
-'
+"
 l10n
 entity_id
 )
-                    
 !
 =
-'
+"
 ignore
-'
+"
                 
 )
 :
@@ -1385,9 +1408,9 @@ if
 tp
 =
 =
-'
+"
 error
-'
+"
 and
 merge_file
 is
@@ -1410,6 +1433,7 @@ notify
 (
                             
 tp
+                            
 l10n
                             
 "
@@ -1426,8 +1450,8 @@ for
 %
 s
 "
-%
                             
+%
 (
 msg
 line
@@ -1454,77 +1478,84 @@ merge
 (
                 
 ref_entities
+                
 ref_file
                 
 l10n
+                
 merge_file
+                
 missings
+                
 skips
+                
 l10n_ctx
                 
 p
 .
 capabilities
+                
 p
 .
 encoding
+            
 )
         
 stats
 =
 {
             
-'
+"
 missing
-'
+"
 :
 missing
             
-'
+"
 missing_w
-'
+"
 :
 missing_w
             
-'
+"
 report
-'
+"
 :
 report
             
-'
+"
 obsolete
-'
+"
 :
 obsolete
             
-'
+"
 changed
-'
+"
 :
 changed
             
-'
+"
 changed_w
-'
+"
 :
 changed_w
             
-'
+"
 unchanged
-'
+"
 :
 unchanged
             
-'
+"
 unchanged_w
-'
+"
 :
 unchanged_w
             
-'
+"
 keys
-'
+"
 :
 keys
         
@@ -1552,17 +1583,17 @@ merge_file
 )
 :
         
-'
-'
-'
+"
+"
+"
 Add
 missing
 localized
 file
 .
-'
-'
-'
+"
+"
+"
         
 f
 =
@@ -1603,7 +1634,6 @@ parser
 CAN_COPY
         
 if
-(
 caps
 &
 (
@@ -1614,7 +1644,6 @@ CAN_COPY
 parser
 .
 CAN_MERGE
-)
 )
 :
             
@@ -1628,22 +1657,29 @@ KeyedTuple
 [
 ]
 )
+                
 orig
+                
 missing
+                
 merge_file
                 
 [
-'
+"
 trigger
 copy
-'
+"
 ]
+                
 [
 ]
+                
 None
+                
 parser
 .
 CAN_COPY
+                
 None
             
 )
@@ -1655,9 +1691,9 @@ observers
 .
 notify
 (
-'
+"
 missingFile
-'
+"
 missing
 None
 )
@@ -1708,9 +1744,9 @@ observers
 .
 notify
 (
-'
+"
 error
-'
+"
 f
 str
 (
@@ -1747,9 +1783,9 @@ updateStats
 (
 missing
 {
-'
+"
 missing
-'
+"
 :
 len
 (
@@ -1785,9 +1821,9 @@ updateStats
 (
 missing
 {
-'
+"
 missing_w
-'
+"
 :
 missing_w
 }

@@ -1,17 +1,17 @@
 import
-time
-from
-functools
+logging
 import
-wraps
+random
+import
+time
 from
 contextlib
 import
 contextmanager
+from
+functools
 import
-logging
-import
-random
+wraps
 log
 =
 logging
@@ -401,7 +401,6 @@ sleeptime
 raise
 Exception
 (
-            
 "
 jitter
 (
@@ -425,7 +424,6 @@ format
 jitter
 sleeptime
 )
-        
 )
     
 sleeptime_real
@@ -519,7 +517,6 @@ log
 .
 debug
 (
-                
 "
 sleeping
 for
@@ -540,7 +537,6 @@ _
 +
 1
 attempts
-            
 )
             
 time
@@ -1068,7 +1064,6 @@ kwargs
 log_attempt_args
 =
 (
-            
 "
 retry
 :
@@ -1091,13 +1086,9 @@ attempt
 %
 d
 "
-            
 action_name
-            
 args
-            
 kwargs
-        
 )
     
 else
@@ -1153,27 +1144,21 @@ _
 in
 retrier
 (
-        
 attempts
 =
 attempts
-        
 sleeptime
 =
 sleeptime
-        
 max_sleeptime
 =
 max_sleeptime
-        
 sleepscale
 =
 sleepscale
-        
 jitter
 =
 jitter
-    
 )
 :
         

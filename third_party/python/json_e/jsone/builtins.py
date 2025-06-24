@@ -36,6 +36,7 @@ builtins
 def
 builtin
 (
+        
 name
 variadic
 =
@@ -49,6 +50,7 @@ None
 needs_context
 =
 False
+    
 )
 :
         
@@ -89,7 +91,7 @@ raise
 BuiltinError
 (
                                 
-'
+"
 invalid
 arguments
 to
@@ -104,12 +106,14 @@ least
 {
 }
 arguments
-'
+"
 .
 format
 (
+                                    
 name
 minArgs
+                                
 )
                             
 )
@@ -131,7 +135,8 @@ arg
 raise
 BuiltinError
 (
-'
+                                
+"
 invalid
 arguments
 to
@@ -139,12 +144,13 @@ builtin
 :
 {
 }
-'
+"
 .
 format
 (
 name
 )
+                            
 )
                     
 if
@@ -197,7 +203,8 @@ argument_tests
 raise
 BuiltinError
 (
-'
+                            
+"
 invalid
 arguments
 to
@@ -205,12 +212,13 @@ builtin
 :
 {
 }
-'
+"
 .
 format
 (
 name
 )
+                        
 )
                     
 for
@@ -235,7 +243,8 @@ arg
 raise
 BuiltinError
 (
-'
+                                
+"
 invalid
 arguments
 to
@@ -243,12 +252,13 @@ builtin
 :
 {
 }
-'
+"
 .
 format
 (
 name
 )
+                            
 )
                     
 if
@@ -349,6 +359,20 @@ bool
 )
     
 def
+is_int
+(
+v
+)
+:
+        
+return
+isinstance
+(
+v
+int
+)
+    
+def
 is_string
 (
 v
@@ -442,6 +466,8 @@ v
 :
         
 return
+(
+            
 isinstance
 (
 v
@@ -462,12 +488,14 @@ callable
 (
 v
 )
+        
+)
     
 builtin
 (
-'
+"
 min
-'
+"
 variadic
 =
 is_number
@@ -481,9 +509,9 @@ min
     
 builtin
 (
-'
+"
 max
-'
+"
 variadic
 =
 is_number
@@ -497,9 +525,9 @@ max
     
 builtin
 (
-'
+"
 sqrt
-'
+"
 argument_tests
 =
 [
@@ -514,9 +542,9 @@ sqrt
     
 builtin
 (
-'
+"
 abs
-'
+"
 argument_tests
 =
 [
@@ -529,9 +557,9 @@ abs
     
 builtin
 (
-'
+"
 ceil
-'
+"
 argument_tests
 =
 [
@@ -559,9 +587,9 @@ v
     
 builtin
 (
-'
+"
 floor
-'
+"
 argument_tests
 =
 [
@@ -589,9 +617,80 @@ v
     
 builtin
 (
-'
+"
+range
+"
+minArgs
+=
+2
+)
+    
+def
+range_builtin
+(
+start
+stop
+step
+=
+1
+)
+:
+        
+if
+step
+=
+=
+0
+or
+not
+all
+(
+[
+is_int
+(
+n
+)
+for
+n
+in
+[
+start
+stop
+step
+]
+]
+)
+:
+            
+raise
+BuiltinError
+(
+"
+invalid
+arguments
+to
+builtin
+:
+range
+"
+)
+        
+return
+list
+(
+range
+(
+start
+stop
+step
+)
+)
+    
+builtin
+(
+"
 lowercase
-'
+"
 argument_tests
 =
 [
@@ -615,9 +714,9 @@ lower
     
 builtin
 (
-'
+"
 uppercase
-'
+"
 argument_tests
 =
 [
@@ -641,9 +740,9 @@ upper
     
 builtin
 (
-'
+"
 len
-'
+"
 argument_tests
 =
 [
@@ -656,9 +755,9 @@ len
     
 builtin
 (
-'
+"
 str
-'
+"
 argument_tests
 =
 [
@@ -671,9 +770,9 @@ to_str
     
 builtin
 (
-'
+"
 number
-'
+"
 variadic
 =
 is_string
@@ -687,9 +786,9 @@ float
     
 builtin
 (
-'
+"
 strip
-'
+"
 argument_tests
 =
 [
@@ -713,9 +812,9 @@ strip
     
 builtin
 (
-'
+"
 rstrip
-'
+"
 argument_tests
 =
 [
@@ -739,9 +838,9 @@ rstrip
     
 builtin
 (
-'
+"
 lstrip
-'
+"
 argument_tests
 =
 [
@@ -765,9 +864,9 @@ lstrip
     
 builtin
 (
-'
+"
 join
-'
+"
 argument_tests
 =
 [
@@ -810,15 +909,18 @@ string_list
     
 builtin
 (
-'
+"
 split
-'
-variadic
+"
+argument_tests
 =
+[
+is_string
 is_string_or_number
+]
 minArgs
 =
-1
+2
 )
     
 def
@@ -827,8 +929,8 @@ split
 s
 d
 =
-'
-'
+"
+"
 )
 :
         
@@ -861,9 +963,9 @@ d
     
 builtin
 (
-'
+"
 fromNow
-'
+"
 variadic
 =
 is_string
@@ -896,17 +998,17 @@ context
 .
 get
 (
-'
+"
 now
-'
+"
 )
 )
     
 builtin
 (
-'
+"
 typeof
-'
+"
 argument_tests
 =
 [
@@ -930,9 +1032,9 @@ bool
 :
             
 return
-'
+"
 boolean
-'
+"
         
 elif
 isinstance
@@ -943,9 +1045,9 @@ string
 :
             
 return
-'
+"
 string
-'
+"
         
 elif
 isinstance
@@ -959,9 +1061,9 @@ float
 :
             
 return
-'
+"
 number
-'
+"
         
 elif
 isinstance
@@ -972,9 +1074,9 @@ list
 :
             
 return
-'
+"
 array
-'
+"
         
 elif
 isinstance
@@ -985,9 +1087,9 @@ dict
 :
             
 return
-'
+"
 object
-'
+"
         
 elif
 v
@@ -996,9 +1098,9 @@ None
 :
             
 return
-'
+"
 null
-'
+"
         
 elif
 callable
@@ -1008,15 +1110,15 @@ v
 :
             
 return
-'
+"
 function
-'
+"
     
 builtin
 (
-'
+"
 defined
-'
+"
 argument_tests
 =
 [

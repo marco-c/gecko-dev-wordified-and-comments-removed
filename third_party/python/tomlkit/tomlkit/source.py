@@ -663,6 +663,8 @@ parse_error
 (
 exception
 )
+from
+None
             
 return
 False

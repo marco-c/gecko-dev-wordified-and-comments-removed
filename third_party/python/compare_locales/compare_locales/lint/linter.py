@@ -165,7 +165,6 @@ locale
 =
 REFERENCE_LOCALE
 )
-            
 extra_tests
 =
 extra_tests
@@ -215,9 +214,9 @@ current_entity
                 
 result
 [
-'
+"
 path
-'
+"
 ]
 =
 path
@@ -228,9 +227,9 @@ class
 EntityLinter
 :
     
-'
-'
-'
+"
+"
+"
 Factored
 out
 helper
@@ -242,9 +241,9 @@ a
 single
 entity
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -345,9 +344,9 @@ current_entity
 )
 :
         
-'
-'
-'
+"
+"
+"
 Checks
 that
 go
@@ -368,9 +367,9 @@ the
 entity
 .
         
-'
-'
-'
+"
+"
+"
         
 lineno
 =
@@ -403,48 +402,43 @@ position
 yield
 {
                 
-'
+"
 lineno
-'
+"
 :
 lineno
                 
-'
+"
 column
-'
+"
 :
 col
                 
-'
+"
 level
-'
+"
 :
-'
+"
 error
-'
+"
                 
-'
+"
 message
-'
+"
 :
-'
+f
+"
 Duplicate
 string
 with
 ID
 :
 {
-}
-'
-.
-format
-(
-                    
 current_entity
 .
 key
-                
-)
+}
+"
             
 }
         
@@ -496,7 +490,7 @@ position
                 
 msg
 =
-'
+"
 Changes
 to
 string
@@ -507,7 +501,7 @@ ID
 :
 {
 }
-'
+"
 .
 format
 (
@@ -521,29 +515,29 @@ key
 yield
 {
                     
-'
+"
 lineno
-'
+"
 :
 lineno
                     
-'
+"
 column
-'
+"
 :
 col
                     
-'
+"
 level
-'
+"
 :
-'
+"
 warning
-'
+"
                     
-'
+"
 message
-'
+"
 :
 msg
                 
@@ -557,9 +551,9 @@ current_entity
 )
 :
         
-'
-'
-'
+"
+"
+"
 Checks
 that
 error
@@ -571,10 +565,9 @@ the
 entity
 value
 .
-        
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -594,10 +587,8 @@ checker
 .
 check
 (
-                
 current_entity
 current_entity
-            
 )
 :
                 
@@ -637,27 +628,27 @@ pos
 yield
 {
                     
-'
+"
 lineno
-'
+"
 :
 lineno
                     
-'
+"
 column
-'
+"
 :
 col
                     
-'
+"
 level
-'
+"
 :
 tp
                     
-'
+"
 message
-'
+"
 :
 msg
                 
@@ -697,29 +688,29 @@ position
 return
 {
             
-'
+"
 lineno
-'
+"
 :
 lineno
             
-'
+"
 column
-'
+"
 :
 col
             
-'
+"
 level
-'
+"
 :
-'
+"
 error
-'
+"
             
-'
+"
 message
-'
+"
 :
 current_entity
 .

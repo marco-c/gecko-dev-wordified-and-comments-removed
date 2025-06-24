@@ -1,3 +1,16 @@
+"
+"
+"
+Type
+hint
+for
+terminal
+capability
+builder
+patterns
+"
+"
+"
 #
 std
 imports

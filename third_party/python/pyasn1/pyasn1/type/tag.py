@@ -480,8 +480,6 @@ else
             
 raise
 IndexError
-(
-)
     
 def
 __iter__

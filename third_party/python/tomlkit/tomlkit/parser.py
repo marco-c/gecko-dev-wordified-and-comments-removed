@@ -1550,6 +1550,7 @@ code
 =
 CHR_DEL
 or
+(
 code
 <
 =
@@ -1559,6 +1560,7 @@ code
 !
 =
 CTRL_I
+)
 :
                         
 raise
@@ -2869,6 +2871,8 @@ parse_error
 (
 InvalidDateTimeError
 )
+from
+None
                 
 if
 m
@@ -3058,6 +3062,8 @@ parse_error
 (
 InvalidDateError
 )
+from
+None
                 
 if
 m
@@ -3128,6 +3134,8 @@ parse_error
 (
 InvalidTimeError
 )
+from
+None
             
 item
 =
@@ -3466,6 +3474,40 @@ exception
 UnexpectedEofError
 )
                 
+if
+isinstance
+(
+elems
+[
+-
+1
+]
+Whitespace
+)
+:
+                    
+elems
+[
+-
+1
+]
+.
+_s
+=
+elems
+[
+-
+1
+]
+.
+s
++
+"
+"
+                
+else
+:
+                    
 elems
 .
 append
@@ -3639,17 +3681,15 @@ inc
 break
                 
 if
+trailing_comma
+is
+False
+or
 (
                     
 trailing_comma
 is
-False
-                    
-or
-trailing_comma
-is
 None
-                    
 and
 self
 .
@@ -3862,6 +3902,7 @@ raw
 and
 (
             
+(
 raw
 .
 startswith
@@ -3870,7 +3911,6 @@ startswith
 0
 "
 )
-            
 and
 not
 raw
@@ -3896,10 +3936,11 @@ startswith
 "
 )
 )
+)
             
 or
+(
 sign
-            
 and
 raw
 .
@@ -3908,6 +3949,7 @@ startswith
 "
 .
 "
+)
 )
         
 )
@@ -4079,8 +4121,6 @@ return
 None
         
 if
-(
-            
 clean
 .
 endswith
@@ -4089,8 +4129,9 @@ endswith
 .
 "
 )
-            
 or
+(
+            
 not
 clean
 .
@@ -4100,7 +4141,6 @@ startswith
 0x
 "
 )
-            
 and
 clean
 .
@@ -4656,6 +4696,7 @@ code
 =
 CHR_DEL
 or
+(
 code
 <
 =
@@ -4665,6 +4706,7 @@ code
 !
 =
 CTRL_I
+)
 )
             
 )
@@ -4690,11 +4732,12 @@ code
 CHR_DEL
                     
 or
+(
+                        
 code
 <
 =
 CTRL_CHAR_LIMIT
-                    
 and
 code
 not
@@ -4704,6 +4747,8 @@ CTRL_I
 CTRL_J
 CTRL_M
 ]
+                    
+)
                 
 )
             
@@ -5526,12 +5571,13 @@ key
                         
 display_name
 =
+(
+                            
 full_key
 .
 as_string
 (
 )
-                        
 if
 i
 =
@@ -5542,9 +5588,10 @@ name_parts
 )
 -
 2
-                        
 else
 None
+                        
+)
                     
 )
                 

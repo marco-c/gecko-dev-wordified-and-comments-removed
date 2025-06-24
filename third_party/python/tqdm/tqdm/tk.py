@@ -360,8 +360,6 @@ None
         
 super
 (
-tqdm_tk
-self
 )
 .
 __init__
@@ -1275,8 +1273,6 @@ determinate
         
 super
 (
-tqdm_tk
-self
 )
 .
 reset

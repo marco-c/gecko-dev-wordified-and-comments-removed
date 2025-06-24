@@ -1733,9 +1733,14 @@ connector
 =
 TCPConnector
 (
+                
+loop
+=
+loop
 ssl_shutdown_timeout
 =
 ssl_shutdown_timeout
+            
 )
         
 if

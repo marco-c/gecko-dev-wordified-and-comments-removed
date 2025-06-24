@@ -746,8 +746,6 @@ copy
         
 super
 (
-tqdm_rich
-self
 )
 .
 __init__
@@ -977,10 +975,14 @@ disable
             
 return
         
+self
+.
+display
+(
+)
+        
 super
 (
-tqdm_rich
-self
 )
 .
 close
@@ -1137,8 +1139,6 @@ total
         
 super
 (
-tqdm_rich
-self
 )
 .
 reset

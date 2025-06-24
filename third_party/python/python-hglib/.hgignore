@@ -24,3 +24,5 @@ swp
 .
 noseids
 build
+.
+tox

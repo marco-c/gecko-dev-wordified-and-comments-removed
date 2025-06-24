@@ -1,5 +1,7 @@
 import
 sys
+import
+warnings
 from
 pyasn1
 import
@@ -20,26 +22,16 @@ from
 pyasn1
 .
 compat
-.
-integer
 import
-to_bytes
+_MISSING
 from
 pyasn1
 .
 compat
 .
-octets
+integer
 import
-(
-int2oct
-oct2int
-ints2octs
-null
-                                  
-str2octs
-isOctetsType
-)
+to_bytes
 from
 pyasn1
 .
@@ -67,6 +59,9 @@ useful
 __all__
 =
 [
+'
+Encoder
+'
 '
 encode
 '
@@ -104,7 +99,7 @@ eooIntegerSubstrate
     
 eooOctetsSubstrate
 =
-ints2octs
+bytes
 (
 eooIntegerSubstrate
 )
@@ -402,7 +397,9 @@ True
         
 substrate
 =
-null
+b
+'
+'
         
 for
 idx
@@ -450,15 +447,9 @@ except
 error
 .
 PyAsn1Error
-:
-                    
+as
 exc
-=
-sys
-.
-exc_info
-(
-)
+:
                     
 raise
 error
@@ -479,9 +470,6 @@ s
 (
 value
 exc
-[
-1
-]
 )
 )
                 
@@ -608,7 +596,7 @@ debug
 .
 hexdump
 (
-ints2octs
+bytes
 (
 header
 )
@@ -661,7 +649,7 @@ debug
 .
 hexdump
 (
-ints2octs
+bytes
 (
 header
 )
@@ -675,7 +663,7 @@ isOctets
                 
 substrate
 =
-ints2octs
+bytes
 (
 header
 )
@@ -722,7 +710,7 @@ isOctets
             
 substrate
 =
-ints2octs
+bytes
 (
 substrate
 )
@@ -750,7 +738,9 @@ options
 :
         
 return
-null
+b
+'
+'
 False
 True
 class
@@ -995,7 +985,8 @@ asOctets
 )
             
 return
-int2oct
+bytes
+(
 (
 len
 (
@@ -1005,6 +996,7 @@ substrate
 8
 -
 valueLength
+)
 )
 +
 substrate
@@ -1082,7 +1074,9 @@ stop
         
 substrate
 =
-null
+b
+'
+'
         
 while
 stop
@@ -1163,9 +1157,10 @@ asOctets
         
 elif
 not
-isOctetsType
+isinstance
 (
 value
+bytes
 )
 :
             
@@ -1292,9 +1287,10 @@ tagSet
         
 elif
 not
-isOctetsType
+isinstance
 (
 value
+bytes
 )
 :
             
@@ -1348,7 +1344,9 @@ pos
         
 substrate
 =
-null
+b
+'
+'
         
 while
 True
@@ -1418,7 +1416,9 @@ options
 :
         
 return
-null
+b
+'
+'
 False
 True
 class
@@ -1754,6 +1754,158 @@ octets
 False
 False
 class
+RelativeOIDEncoder
+(
+AbstractItemEncoder
+)
+:
+    
+supportIndefLenMode
+=
+False
+    
+def
+encodeValue
+(
+self
+value
+asn1Spec
+encodeFun
+*
+*
+options
+)
+:
+        
+if
+asn1Spec
+is
+not
+None
+:
+            
+value
+=
+asn1Spec
+.
+clone
+(
+value
+)
+        
+octets
+=
+(
+)
+        
+for
+subOid
+in
+value
+.
+asTuple
+(
+)
+:
+            
+if
+0
+<
+=
+subOid
+<
+=
+127
+:
+                
+octets
++
+=
+(
+subOid
+)
+            
+elif
+subOid
+>
+127
+:
+                
+res
+=
+(
+subOid
+&
+0x7f
+)
+                
+subOid
+>
+>
+=
+7
+                
+while
+subOid
+:
+                    
+res
+=
+(
+0x80
+|
+(
+subOid
+&
+0x7f
+)
+)
++
+res
+                    
+subOid
+>
+>
+=
+7
+                
+octets
++
+=
+res
+            
+else
+:
+                
+raise
+error
+.
+PyAsn1Error
+(
+'
+Negative
+RELATIVE
+-
+OID
+arc
+%
+s
+at
+%
+s
+'
+%
+(
+subOid
+value
+)
+)
+        
+return
+octets
+False
+False
+class
 RealEncoder
 (
 AbstractItemEncoder
@@ -1762,7 +1914,7 @@ AbstractItemEncoder
     
 supportIndefLenMode
 =
-0
+False
     
 binEncBase
 =
@@ -2233,7 +2385,9 @@ m
 :
             
 return
-null
+b
+'
+'
 False
 True
         
@@ -2260,8 +2414,7 @@ form
 )
             
 return
-str2octs
-(
+b
 '
 \
 x03
@@ -2280,14 +2433,15 @@ e
 =
 0
 and
+b
 '
 +
 '
 or
+b
 '
 '
 e
-)
 )
 False
 True
@@ -2465,7 +2619,9 @@ sf
             
 eo
 =
-null
+b
+'
+'
             
 if
 e
@@ -2482,11 +2638,13 @@ e
                 
 eo
 =
-int2oct
+bytes
+(
 (
 e
 &
 0xff
+)
 )
             
 else
@@ -2505,11 +2663,13 @@ in
                     
 eo
 =
-int2oct
+bytes
+(
 (
 e
 &
 0xff
+)
 )
 +
 eo
@@ -2528,22 +2688,21 @@ e
 and
 eo
 and
-oct2int
-(
 eo
 [
 0
 ]
-)
 &
 0x80
 :
                     
 eo
 =
-int2oct
+bytes
+(
 (
 0
+)
 )
 +
 eo
@@ -2559,13 +2718,10 @@ eo
 and
 not
 (
-oct2int
-(
 eo
 [
 0
 ]
-)
 &
 0x80
 )
@@ -2573,9 +2729,11 @@ eo
                     
 eo
 =
-int2oct
+bytes
+(
 (
 0xff
+)
 )
 +
 eo
@@ -2648,18 +2806,22 @@ fo
                 
 eo
 =
-int2oct
+bytes
+(
 (
 n
 &
 0xff
+)
 )
 +
 eo
             
 po
 =
-null
+b
+'
+'
             
 while
 m
@@ -2667,11 +2829,13 @@ m
                 
 po
 =
-int2oct
+bytes
+(
 (
 m
 &
 0xff
+)
 )
 +
 po
@@ -2684,9 +2848,11 @@ m
             
 substrate
 =
-int2oct
+bytes
+(
 (
 fo
+)
 )
 +
 eo
@@ -2742,7 +2908,9 @@ options
         
 substrate
 =
-null
+b
+'
+'
         
 omitEmptyOptionals
 =
@@ -2803,7 +2971,28 @@ inconsistency
 :
                 
 raise
-inconsistency
+error
+.
+PyAsn1Error
+(
+                    
+f
+"
+ASN
+.
+1
+object
+{
+value
+.
+__class__
+.
+__name__
+}
+is
+inconsistent
+"
+)
             
 namedTypes
 =
@@ -3372,7 +3561,28 @@ inconsistency
 :
                 
 raise
-inconsistency
+error
+.
+PyAsn1Error
+(
+                    
+f
+"
+ASN
+.
+1
+object
+{
+value
+.
+__class__
+.
+__name__
+}
+is
+inconsistent
+"
+)
         
 else
 :
@@ -3509,7 +3719,9 @@ options
 )
         
 return
-null
+b
+'
+'
 .
 join
 (
@@ -3688,9 +3900,10 @@ asOctets
         
 elif
 not
-isOctetsType
+isinstance
 (
 value
+bytes
 )
 :
             
@@ -3720,7 +3933,7 @@ defMode
 True
 )
 True
-tagMap
+TAG_MAP
 =
 {
     
@@ -3791,6 +4004,16 @@ ObjectIdentifier
 tagSet
 :
 ObjectIdentifierEncoder
+(
+)
+    
+univ
+.
+RelativeOID
+.
+tagSet
+:
+RelativeOIDEncoder
 (
 )
     
@@ -3984,7 +4207,7 @@ OctetStringEncoder
 (
 )
 }
-typeMap
+TYPE_MAP
 =
 {
     
@@ -4045,6 +4268,16 @@ ObjectIdentifier
 typeId
 :
 ObjectIdentifierEncoder
+(
+)
+    
+univ
+.
+RelativeOID
+.
+typeId
+:
+RelativeOIDEncoder
 (
 )
     
@@ -4269,7 +4502,7 @@ OctetStringEncoder
 )
 }
 class
-Encoder
+SingleItemEncoder
 (
 object
 )
@@ -4283,29 +4516,59 @@ fixedChunkSize
 =
 None
     
+TAG_MAP
+=
+TAG_MAP
+    
+TYPE_MAP
+=
+TYPE_MAP
+    
 def
 __init__
 (
 self
 tagMap
+=
+_MISSING
 typeMap
 =
-{
-}
+_MISSING
+*
+*
+ignored
 )
 :
         
 self
 .
-__tagMap
+_tagMap
 =
 tagMap
+if
+tagMap
+is
+not
+_MISSING
+else
+self
+.
+TAG_MAP
         
 self
 .
-__typeMap
+_typeMap
 =
 typeMap
+if
+typeMap
+is
+not
+_MISSING
+else
+self
+.
+TYPE_MAP
     
 def
 __call__
@@ -4399,12 +4662,12 @@ size
 %
 s
 for
-'
-                   
-'
 type
 %
 s
+'
+                
+'
 value
 :
 \
@@ -4431,6 +4694,7 @@ in
 or
 '
 '
+                                
 options
 .
 get
@@ -4440,6 +4704,7 @@ maxChunkSize
 '
 0
 )
+                                
 asn1Spec
 is
 None
@@ -4450,6 +4715,7 @@ prettyPrintType
 (
 )
 or
+                                
 asn1Spec
 .
 prettyPrintType
@@ -4506,7 +4772,7 @@ concreteEncoder
 =
 self
 .
-__typeMap
+_typeMap
 [
 typeId
 ]
@@ -4527,6 +4793,9 @@ chosen
 by
 type
 ID
+'
+                    
+'
 %
 s
 '
@@ -4587,7 +4856,7 @@ concreteEncoder
 =
 self
 .
-__tagMap
+_tagMap
 [
 baseTagSet
 ]
@@ -4634,6 +4903,9 @@ s
 chosen
 by
 tagSet
+'
+                    
+'
 %
 s
 '
@@ -4683,6 +4955,9 @@ substrate
 s
 \
 nencoder
+'
+                
+'
 completed
 '
 %
@@ -4692,6 +4967,7 @@ len
 (
 substrate
 )
+                               
 debug
 .
 hexdump
@@ -4703,10 +4979,156 @@ substrate
         
 return
 substrate
+class
+Encoder
+(
+object
+)
+:
+    
+SINGLE_ITEM_ENCODER
+=
+SingleItemEncoder
+    
+def
+__init__
+(
+self
+tagMap
+=
+_MISSING
+typeMap
+=
+_MISSING
+*
+*
+options
+)
+:
+        
+self
+.
+_singleItemEncoder
+=
+self
+.
+SINGLE_ITEM_ENCODER
+(
+            
+tagMap
+=
+tagMap
+typeMap
+=
+typeMap
+*
+*
+options
+        
+)
+    
+def
+__call__
+(
+self
+pyObject
+asn1Spec
+=
+None
+*
+*
+options
+)
+:
+        
+return
+self
+.
+_singleItemEncoder
+(
+            
+pyObject
+asn1Spec
+=
+asn1Spec
+*
+*
+options
+)
 encode
 =
 Encoder
 (
+)
+def
+__getattr__
+(
+attr
+:
+str
+)
+:
+    
+if
+newAttr
+:
+=
+{
+"
 tagMap
+"
+:
+"
+TAG_MAP
+"
+"
 typeMap
+"
+:
+"
+TYPE_MAP
+"
+}
+.
+get
+(
+attr
+)
+:
+        
+warnings
+.
+warn
+(
+f
+"
+{
+attr
+}
+is
+deprecated
+.
+Please
+use
+{
+newAttr
+}
+instead
+.
+"
+DeprecationWarning
+)
+        
+return
+globals
+(
+)
+[
+newAttr
+]
+    
+raise
+AttributeError
+(
+attr
 )

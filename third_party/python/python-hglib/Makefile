@@ -31,6 +31,9 @@ help
 PHONY
 :
 tests
+dist
+all
+help
 MANIFEST
 .
 in

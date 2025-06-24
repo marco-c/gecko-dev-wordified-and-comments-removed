@@ -267,8 +267,6 @@ else
             
 super
 (
-TqdmWarning
-self
 )
 .
 __init__

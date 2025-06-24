@@ -10,12 +10,6 @@ time
 from
 sentry_sdk
 .
-_compat
-import
-check_thread_support
-from
-sentry_sdk
-.
 _queue
 import
 Queue
@@ -37,9 +31,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -77,10 +71,6 @@ queue_size
 DEFAULT_QUEUE_SIZE
 )
 :
-        
-check_thread_support
-(
-)
         
 self
 .
@@ -313,6 +303,9 @@ daemon
 =
 True
                 
+try
+:
+                    
 self
 .
 _thread
@@ -320,7 +313,7 @@ _thread
 start
 (
 )
-                
+                    
 self
 .
 _thread_for_pid
@@ -330,6 +323,16 @@ os
 getpid
 (
 )
+                
+except
+RuntimeError
+:
+                    
+self
+.
+_thread
+=
+None
     
 def
 kill
@@ -494,6 +497,22 @@ background
 worker
 flushed
 "
+)
+    
+def
+full
+(
+self
+)
+:
+        
+return
+self
+.
+_queue
+.
+full
+(
 )
     
 def

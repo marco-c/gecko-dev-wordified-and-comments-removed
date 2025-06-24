@@ -30,6 +30,11 @@ import
 cmp_using
 from
 .
+_compat
+import
+Protocol
+from
+.
 _config
 import
 get_run_validators
@@ -102,6 +107,9 @@ True
 )
 class
 AttrsInstance
+(
+Protocol
+)
 :
     
 pass
@@ -375,15 +383,10 @@ name
 not
 in
 dunder_to_metadata
-.
-keys
-(
-)
 :
             
-raise
-AttributeError
-(
+msg
+=
 f
 "
 module
@@ -397,6 +400,11 @@ attribute
 name
 }
 "
+            
+raise
+AttributeError
+(
+msg
 )
         
 import
@@ -433,11 +441,16 @@ metadata
         
 if
 name
-!
-=
+not
+in
+(
+"
+__version__
+"
 "
 __version_info__
 "
+)
 :
             
 warnings
@@ -519,7 +532,7 @@ return
 MIT
 "
         
-elif
+if
 name
 =
 =
@@ -539,7 +552,7 @@ Hynek
 Schlawack
 "
         
-elif
+if
 name
 in
 (
@@ -573,7 +586,7 @@ split
 1
 ]
         
-elif
+if
 name
 =
 =
@@ -595,7 +608,7 @@ version
 ]
 )
         
-elif
+if
 name
 =
 =
@@ -624,7 +637,7 @@ rsplit
 0
 ]
         
-elif
+if
 name
 =
 =

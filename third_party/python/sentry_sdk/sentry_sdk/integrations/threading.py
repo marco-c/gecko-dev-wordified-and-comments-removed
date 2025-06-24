@@ -5,6 +5,10 @@ absolute_import
 import
 sys
 from
+functools
+import
+wraps
+from
 threading
 import
 Thread
@@ -24,7 +28,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -39,7 +43,7 @@ import
 event_from_exception
 capture_internal_exceptions
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -128,6 +132,11 @@ old_start
 Thread
 .
 start
+        
+wraps
+(
+old_start
+)
         
 def
 sentry_start
@@ -238,6 +247,11 @@ parent_hub
 old_run_func
 )
 :
+    
+wraps
+(
+old_run_func
+)
     
 def
 run

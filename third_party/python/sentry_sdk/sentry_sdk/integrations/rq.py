@@ -13,6 +13,12 @@ OP
 from
 sentry_sdk
 .
+api
+import
+continue_trace
+from
+sentry_sdk
+.
 hub
 import
 Hub
@@ -36,7 +42,6 @@ sentry_sdk
 .
 tracing
 import
-Transaction
 TRANSACTION_SOURCE_TASK
 from
 sentry_sdk
@@ -50,6 +55,8 @@ capture_internal_exceptions
 event_from_exception
     
 format_timestamp
+    
+parse_version
 )
 try
 :
@@ -83,6 +90,13 @@ rq
 worker
 import
 Worker
+    
+from
+rq
+.
+job
+import
+JobStatus
 except
 ImportError
 :
@@ -101,9 +115,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -111,13 +125,13 @@ typing
 import
 Any
 Callable
-Dict
     
 from
 sentry_sdk
 .
 _types
 import
+Event
 EventProcessor
     
 from
@@ -154,36 +168,17 @@ setup_once
 )
 :
         
-try
-:
-            
 version
 =
-tuple
+parse_version
 (
-map
-(
-int
 RQ_VERSION
-.
-split
-(
-"
-.
-"
-)
-[
-:
-3
-]
-)
 )
         
-except
-(
-ValueError
-TypeError
-)
+if
+version
+is
+None
 :
             
 raise
@@ -326,9 +321,7 @@ job
                 
 transaction
 =
-Transaction
-.
-continue_from_headers
+continue_trace
 (
                     
 job
@@ -455,6 +448,15 @@ kwargs
 if
 job
 .
+_status
+=
+=
+JobStatus
+.
+FAILED
+or
+job
+.
 is_failed
 :
                 
@@ -516,6 +518,17 @@ not
 None
 :
                 
+if
+hub
+.
+scope
+.
+span
+is
+not
+None
+:
+                    
 job
 .
 meta
@@ -527,13 +540,13 @@ _sentry_trace_headers
 =
 dict
 (
-                    
+                        
 hub
 .
 iter_trace_propagation_headers
 (
 )
-                
+                    
 )
             
 return
@@ -607,14 +620,7 @@ extra
 }
 )
                 
-extra
-[
-"
-rq
--
-job
-"
-]
+rq_job
 =
 {
                     
@@ -666,14 +672,7 @@ job
 enqueued_at
 :
                     
-extra
-[
-"
-rq
--
-job
-"
-]
+rq_job
 [
 "
 enqueued_at
@@ -693,14 +692,7 @@ job
 started_at
 :
                     
-extra
-[
-"
-rq
--
-job
-"
-]
+rq_job
 [
 "
 started_at
@@ -713,6 +705,17 @@ job
 .
 started_at
 )
+                
+extra
+[
+"
+rq
+-
+job
+"
+]
+=
+rq_job
         
 if
 "

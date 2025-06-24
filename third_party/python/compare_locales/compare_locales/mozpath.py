@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 Like
 :
 py
@@ -46,9 +46,9 @@ os
 .
 path
 .
-'
-'
-'
+"
+"
+"
 import
 posixpath
 import
@@ -62,9 +62,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Normalize
 path
@@ -88,9 +88,9 @@ sep
 is
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 os
@@ -98,9 +98,9 @@ os
 sep
 !
 =
-'
+"
 /
-'
+"
 :
         
 path
@@ -112,9 +112,9 @@ replace
 os
 .
 sep
-'
+"
 /
-'
+"
 )
     
 if
@@ -127,9 +127,9 @@ os
 altsep
 !
 =
-'
+"
 /
-'
+"
 :
         
 path
@@ -141,9 +141,9 @@ replace
 os
 .
 altsep
-'
+"
 /
-'
+"
 )
     
 return
@@ -172,15 +172,15 @@ start
 )
     
 return
-'
-'
+"
+"
 if
 rel
 =
 =
-'
+"
 .
-'
+"
 else
 rel
 def
@@ -339,9 +339,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Return
 the
@@ -378,9 +378,9 @@ baz
 '
 ]
     
-'
-'
-'
+"
+"
+"
     
 return
 normsep
@@ -390,9 +390,9 @@ path
 .
 split
 (
-'
+"
 /
-'
+"
 )
 def
 basedir
@@ -402,9 +402,9 @@ bases
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Given
 a
@@ -490,9 +490,9 @@ deepest
 match
 )
     
-'
-'
-'
+"
+"
+"
     
 path
 =
@@ -539,8 +539,8 @@ if
 b
 =
 =
-'
-'
+"
+"
 or
 path
 .
@@ -548,9 +548,9 @@ startswith
 (
 b
 +
-'
+"
 /
-'
+"
 )
 :
             
@@ -568,9 +568,9 @@ pattern
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Return
 whether
@@ -704,9 +704,9 @@ or
 /
 bar
     
-'
-'
-'
+"
+"
+"
     
 if
 not
@@ -729,8 +729,8 @@ last_end
         
 p
 =
-'
-'
+"
+"
         
 for
 m
@@ -740,7 +740,7 @@ re
 finditer
 (
 r
-'
+"
 (
 ?
 :
@@ -768,7 +768,7 @@ star
 \
 *
 )
-'
+"
 pattern
 )
 :
@@ -807,22 +807,22 @@ m
 .
 group
 (
-'
+"
 star
-'
+"
 )
 :
                 
 p
 +
 =
-'
+"
 [
 ^
 /
 ]
 *
-'
+"
             
 elif
 m
@@ -849,7 +849,7 @@ group
 )
 +
 r
-'
+"
 (
 ?
 :
@@ -859,7 +859,7 @@ r
 s
 )
 ?
-'
+"
 %
 m
 .
@@ -875,7 +875,7 @@ p
 +
 =
 r
-'
+"
 (
 ?
 :
@@ -885,7 +885,7 @@ s
 +
 )
 ?
-'
+"
 %
 re
 .
@@ -921,7 +921,7 @@ last_end
 ]
 )
 +
-'
+"
 (
 ?
 :
@@ -930,7 +930,7 @@ last_end
 *
 )
 ?
-'
+"
         
 re_cache
 [
@@ -966,9 +966,9 @@ relativepath
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Return
 relativepath
@@ -980,9 +980,9 @@ of
 oldbase
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 base
@@ -1077,9 +1077,9 @@ relativepath
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 and
 not
@@ -1087,18 +1087,18 @@ result
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
         
 result
 +
 =
-'
+"
 /
-'
+"
     
 return
 result

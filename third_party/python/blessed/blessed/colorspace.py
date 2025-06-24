@@ -176,10 +176,7 @@ X11_COLORNAMES_TO_RGB
 )
 CGA_COLORS
 =
-set
-(
-    
-(
+{
 '
 black
 '
@@ -204,8 +201,7 @@ cyan
 '
 white
 '
-)
-)
+}
 class
 RGBColor
 (

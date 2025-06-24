@@ -25,6 +25,8 @@ capture_internal_exceptions
     
 event_from_exception
     
+parse_version
+    
 transaction_from_function
 )
 from
@@ -55,9 +57,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -229,42 +231,17 @@ setup_once
 )
 :
         
-try
-:
-            
 version
 =
-tuple
+parse_version
 (
-map
-(
-int
 BOTTLE_VERSION
-.
-replace
-(
-"
--
-dev
-"
-"
-"
-)
-.
-split
-(
-"
-.
-"
-)
-)
 )
         
-except
-(
-TypeError
-ValueError
-)
+if
+version
+is
+None
 :
             
 raise
@@ -281,7 +258,7 @@ version
 .
 format
 (
-version
+BOTTLE_VERSION
 )
 )
         

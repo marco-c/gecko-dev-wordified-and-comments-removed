@@ -31,7 +31,7 @@ re
 compile
 (
 r
-'
+"
 [
 a
 -
@@ -49,7 +49,7 @@ Z0
 9_
 ]
 *
-'
+"
 )
 def
 render
@@ -101,7 +101,8 @@ context
 raise
 TemplateError
 (
-'
+            
+"
 top
 level
 keys
@@ -109,9 +110,8 @@ of
 context
 must
 follow
-'
-                            
-'
+"
+"
 /
 [
 a
@@ -131,22 +131,23 @@ Z0
 ]
 *
 /
-'
+"
+        
 )
     
 full_context
 =
 {
-'
+"
 now
-'
+"
 :
 fromNow
 (
-'
+"
 0
 seconds
-'
+"
 None
 )
 }
@@ -196,13 +197,13 @@ rv
 raise
 TemplateError
 (
-'
+"
 evaluated
 template
 contained
 uncalled
 functions
-'
+"
 )
     
 return

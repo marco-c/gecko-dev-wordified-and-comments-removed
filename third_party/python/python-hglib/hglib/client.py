@@ -251,6 +251,14 @@ if
 path
 :
             
+if
+isinstance
+(
+path
+str
+)
+:
+                
 self
 .
 _args
@@ -261,6 +269,27 @@ _args
 -
 R
 '
++
+path
+]
+            
+else
+:
+                
+self
+.
+_args
++
+=
+[
+b
+(
+'
+-
+R
+'
+)
++
 path
 ]
         
@@ -915,11 +944,62 @@ not
 data
 :
             
+ret
+serr
+=
+self
+.
+_close
+(
+)
+            
+if
+ret
+!
+=
+0
+:
+                
 raise
 error
 .
 ServerError
 (
+'
+server
+exited
+with
+status
+%
+d
+:
+%
+s
+'
+                                        
+%
+(
+ret
+serr
+.
+strip
+(
+)
+)
+)
+            
+raise
+error
+.
+ResponseError
+(
+'
+no
+response
+received
+from
+server
+'
 )
         
 channel
@@ -1191,6 +1271,37 @@ connected
 "
 )
         
+if
+any
+(
+b
+(
+'
+\
+0
+'
+)
+in
+a
+for
+a
+in
+args
+)
+:
+            
+raise
+ValueError
+(
+'
+null
+character
+in
+command
+arguments
+'
+)
+        
 self
 .
 server
@@ -1322,6 +1433,12 @@ isupper
 (
 )
 :
+                
+self
+.
+close
+(
+)
                 
 raise
 error
@@ -1659,6 +1776,25 @@ L
 =
 func
         
+else
+:
+            
+inchannels
+[
+b
+(
+'
+L
+'
+)
+]
+=
+lambda
+_
+:
+'
+'
+        
 if
 input
 is
@@ -1792,8 +1928,41 @@ _readhello
 except
 error
 .
+ResponseError
+:
+            
+if
+self
+.
+server
+is
+not
+None
+:
+                
+self
+.
+_close
+(
+)
+            
+raise
+        
+except
+error
+.
 ServerError
 :
+            
+if
+self
+.
+server
+is
+None
+:
+                
+raise
             
 ret
 serr
@@ -1886,6 +2055,16 @@ ValueError
 "
 "
 "
+        
+if
+not
+self
+.
+server
+:
+            
+return
+0
         
 return
 self
@@ -5151,6 +5330,7 @@ util
 skiplines
 (
 out
+(
 b
 (
 '
@@ -5159,6 +5339,17 @@ config
 from
 :
 '
+)
+                                       
+b
+(
+'
+set
+config
+by
+:
+'
+)
 )
 )
             
@@ -6639,6 +6830,9 @@ hidden
 self
 .
 hidden
+print0
+=
+True
                           
 *
 [
@@ -6646,19 +6840,6 @@ pattern
 ]
 +
 files
-)
-        
-args
-.
-append
-(
-b
-(
-'
--
-0
-'
-)
 )
         
 def
@@ -6717,10 +6898,33 @@ b
 '
 )
 )
+[
+:
+-
+1
+]
         
 fieldcount
 =
-3
+1
+        
+if
+all
+or
+self
+.
+version
+<
+(
+5
+2
+)
+:
+            
+fieldcount
++
+=
+1
         
 if
 user
@@ -6759,11 +6963,12 @@ fieldcount
 1
         
 if
+not
 fileswithmatches
 :
             
 fieldcount
--
++
 =
 1
         
@@ -8880,6 +9085,18 @@ force
 t
 =
 tool
+                          
+y
+=
+(
+cb
+is
+merge
+.
+handlers
+.
+noninteractive
+)
 )
         
 prompt
@@ -8910,18 +9127,7 @@ handlers
 noninteractive
 :
             
-args
-.
-append
-(
-b
-(
-'
--
-y
-'
-)
-)
+pass
         
 else
 :
@@ -11578,19 +11784,9 @@ hidden
 self
 .
 hidden
-)
-        
-args
-.
-append
-(
-b
-(
-'
--
-0
-'
-)
+print0
+=
+True
 )
         
 out
@@ -12662,9 +12858,6 @@ commit
                 
 value
 =
-value
-=
-=
 b
 (
 '
@@ -12673,6 +12866,8 @@ clean
 )
 '
 )
+in
+value
             
 elif
 name

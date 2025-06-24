@@ -1,9 +1,3 @@
-#
-encoding
-:
-utf
--
-8
 "
 "
 "
@@ -23,6 +17,10 @@ implementations
 "
 "
 "
+from
+.
+import
+gitwildmatch
 from
 .
 gitwildmatch

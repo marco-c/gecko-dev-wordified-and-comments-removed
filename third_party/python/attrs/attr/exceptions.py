@@ -1,3 +1,11 @@
+from
+__future__
+import
+annotations
+from
+typing
+import
+ClassVar
 class
 FrozenError
 (
@@ -69,6 +77,14 @@ attribute
 "
     
 args
+:
+ClassVar
+[
+tuple
+[
+str
+]
+]
 =
 [
 msg

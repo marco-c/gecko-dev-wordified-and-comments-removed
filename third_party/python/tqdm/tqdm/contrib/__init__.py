@@ -103,8 +103,6 @@ wrapped
         
 super
 (
-DummyTqdmFile
-self
 )
 .
 __init__

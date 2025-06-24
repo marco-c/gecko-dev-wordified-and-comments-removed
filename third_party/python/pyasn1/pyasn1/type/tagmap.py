@@ -331,9 +331,6 @@ None
 :
                 
 raise
-KeyError
-(
-)
             
 elif
 tagSet

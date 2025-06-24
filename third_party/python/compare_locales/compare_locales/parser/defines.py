@@ -4,17 +4,12 @@ from
 .
 base
 import
-(
-    
 CAN_COPY
-    
 Entry
 OffsetComment
 Junk
 Whitespace
-    
 Parser
-)
 class
 DefinesInstruction
 (
@@ -22,9 +17,9 @@ Entry
 )
 :
     
-'
-'
-'
+"
+"
+"
 Entity
 -
 like
@@ -35,10 +30,9 @@ instructions
 in
 inc
 files
-    
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -100,11 +94,11 @@ re
 .
 compile
 (
-'
+"
 \
 n
 +
-'
+"
 re
 .
 M
@@ -147,10 +141,6 @@ contents
             
 super
 (
-DefinesParser
-.
-Context
-self
 )
 .
 __init__
@@ -179,7 +169,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 :
@@ -204,7 +194,7 @@ n
 ]
 *
 )
-'
+"
 re
 .
 M
@@ -220,7 +210,7 @@ compile
 (
             
 r
-'
+"
 #
 define
 [
@@ -260,10 +250,11 @@ n
 )
 )
 ?
-'
+"
 re
 .
 M
+        
 )
         
 self
@@ -275,7 +266,7 @@ re
 compile
 (
 r
-'
+"
 #
 (
 ?
@@ -298,7 +289,7 @@ n
 ]
 +
 )
-'
+"
 re
 .
 M
@@ -394,14 +385,11 @@ m
 :
             
 if
-(
-                
 offset
 =
 =
 0
 or
-                
 not
 (
 len
@@ -419,8 +407,6 @@ or
 ctx
 .
 filter_empty_lines
-)
-            
 )
 :
                 
@@ -463,13 +449,10 @@ end
 )
             
 if
-(
-                
 current_comment
 is
 not
 None
-                
 and
 white_space
 .
@@ -477,15 +460,13 @@ raw_val
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
 >
 1
-            
-)
 :
                 
 return
@@ -578,9 +559,9 @@ m
 .
 span
 (
-'
+"
 val
-'
+"
 )
 )
             
@@ -590,10 +571,10 @@ instr
 val
 =
 =
-'
+"
 filter
 emptyLines
-'
+"
 :
                 
 ctx
@@ -608,10 +589,10 @@ instr
 val
 =
 =
-'
+"
 unfilter
 emptyLines
-'
+"
 :
                 
 ctx
@@ -628,7 +609,6 @@ self
 .
 getJunk
 (
-            
 ctx
 junk_offset
 self

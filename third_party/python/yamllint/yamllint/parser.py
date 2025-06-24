@@ -1,22 +1,7 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 yaml
 class
 Line
-(
-object
-)
 :
     
 def
@@ -78,9 +63,6 @@ end
 ]
 class
 Token
-(
-object
-)
 :
     
 def
@@ -126,9 +108,6 @@ nextnext
 nextnext
 class
 Comment
-(
-object
-)
 :
     
 def
@@ -808,18 +787,13 @@ next
 nextnext
 )
             
-for
-comment
-in
+yield
+from
 comments_between_tokens
 (
 curr
 next
 )
-:
-                
-yield
-comment
             
 prev
 =

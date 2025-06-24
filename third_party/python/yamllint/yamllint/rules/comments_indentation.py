@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -378,16 +366,13 @@ comment
 token_before
 )
     
-if
-prev_line_indent
-<
-=
-next_line_indent
-:
-        
 prev_line_indent
 =
+max
+(
+prev_line_indent
 next_line_indent
+)
     
 if
 (

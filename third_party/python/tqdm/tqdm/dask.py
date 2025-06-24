@@ -135,8 +135,6 @@ bars
         
 super
 (
-TqdmCallback
-self
 )
 .
 __init__

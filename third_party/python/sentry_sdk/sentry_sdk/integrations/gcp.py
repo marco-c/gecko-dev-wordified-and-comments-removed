@@ -1,14 +1,23 @@
+import
+sys
+from
+copy
+import
+deepcopy
 from
 datetime
 import
-datetime
 timedelta
 from
 os
 import
 environ
+from
+sentry_sdk
+.
+api
 import
-sys
+continue_trace
 from
 sentry_sdk
 .
@@ -28,12 +37,13 @@ sentry_sdk
 tracing
 import
 TRANSACTION_SOURCE_COMPONENT
-Transaction
 from
 sentry_sdk
 .
 _compat
 import
+datetime_utcnow
+duration_in_milliseconds
 reraise
 from
 sentry_sdk
@@ -71,7 +81,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 TIMEOUT_WARNING_BUFFER
 =
 1
@@ -83,8 +93,13 @@ MILLIS_TO_SECONDS
 .
 0
 if
-MYPY
+TYPE_CHECKING
 :
+    
+from
+datetime
+import
+datetime
     
 from
 typing
@@ -250,9 +265,7 @@ configured_time
         
 initial_time
 =
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
         
@@ -373,9 +386,7 @@ headers
             
 transaction
 =
-Transaction
-.
-continue_from_headers
+continue_trace
 (
                 
 headers
@@ -718,9 +729,7 @@ hint
         
 final_time
 =
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
         
@@ -732,11 +741,10 @@ initial_time
         
 execution_duration_in_millis
 =
+duration_in_milliseconds
+(
 time_diff
-.
-microseconds
-/
-MILLIS_TO_SECONDS
+)
         
 extra
 =
@@ -1040,7 +1048,10 @@ request
 "
 ]
 =
+deepcopy
+(
 request
+)
         
 return
 event

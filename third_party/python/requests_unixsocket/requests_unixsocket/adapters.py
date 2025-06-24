@@ -16,21 +16,6 @@ unquote
 try
 :
     
-import
-http
-.
-client
-as
-httplib
-except
-ImportError
-:
-    
-import
-httplib
-try
-:
-    
 from
 requests
 .
@@ -46,7 +31,9 @@ urllib3
 class
 UnixHTTPConnection
 (
-httplib
+urllib3
+.
+connection
 .
 HTTPConnection
 object
@@ -333,6 +320,11 @@ timeout
 pool_connections
 =
 25
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -344,6 +336,11 @@ self
 .
 __init__
 (
+*
+args
+*
+*
+kwargs
 )
         
 self
@@ -376,15 +373,31 @@ close
 )
         
 )
-        
-super
+    
+def
+get_connection_with_tls_context
 (
-UnixAdapter
 self
+request
+verify
+proxies
+=
+None
+cert
+=
+None
 )
+:
+        
+return
+self
 .
-__init__
+get_connection
 (
+request
+.
+url
+proxies
 )
     
 def

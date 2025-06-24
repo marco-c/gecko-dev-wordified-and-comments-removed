@@ -340,6 +340,26 @@ world
 !
 '
         
+if
+environ
+[
+'
+REQUEST_METHOD
+'
+]
+=
+=
+'
+HEAD
+'
+:
+            
+body_bytes
+=
+b
+'
+'
+        
 start_response
 (
 status_text
@@ -546,12 +566,19 @@ waitress
 .
 create_server
 (
+            
 wsgi_app
+            
 unix_socket
 =
 self
 .
 usock
+            
+clear_untrusted_proxy_headers
+=
+True
+        
 )
         
 wsgi_app

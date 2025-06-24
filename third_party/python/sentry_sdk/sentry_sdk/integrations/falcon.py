@@ -47,15 +47,17 @@ import
 capture_internal_exceptions
     
 event_from_exception
+    
+parse_version
 )
 from
 sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -78,17 +80,13 @@ sentry_sdk
 .
 _types
 import
+Event
 EventProcessor
 try
 :
     
 import
 falcon
-    
-import
-falcon
-.
-api_helpers
     
 from
 falcon
@@ -109,6 +107,53 @@ not
 installed
 "
 )
+try
+:
+    
+import
+falcon
+.
+app_helpers
+    
+falcon_helpers
+=
+falcon
+.
+app_helpers
+    
+falcon_app_class
+=
+falcon
+.
+App
+    
+FALCON3
+=
+True
+except
+ImportError
+:
+    
+import
+falcon
+.
+api_helpers
+    
+falcon_helpers
+=
+falcon
+.
+api_helpers
+    
+falcon_app_class
+=
+falcon
+.
+API
+    
+FALCON3
+=
+False
 class
 FalconRequestExtractor
 (
@@ -198,23 +243,27 @@ else
 return
 None
     
+if
+FALCON3
+:
+        
 def
 json
 (
 self
 )
 :
-        
+            
 try
 :
-            
+                
 return
 self
 .
 request
 .
 media
-        
+            
 except
 falcon
 .
@@ -222,7 +271,38 @@ errors
 .
 HTTPBadRequest
 :
+                
+return
+None
+    
+else
+:
+        
+def
+json
+(
+self
+)
+:
             
+try
+:
+                
+return
+self
+.
+request
+.
+media
+            
+except
+falcon
+.
+errors
+.
+HTTPBadRequest
+:
+                
 return
 self
 .
@@ -407,32 +487,17 @@ setup_once
 )
 :
         
-try
-:
-            
 version
 =
-tuple
+parse_version
 (
-map
-(
-int
 FALCON_VERSION
-.
-split
-(
-"
-.
-"
-)
-)
 )
         
-except
-(
-ValueError
-TypeError
-)
+if
+version
+is
+None
 :
             
 raise
@@ -496,9 +561,7 @@ _patch_wsgi_app
     
 original_wsgi_app
 =
-falcon
-.
-API
+falcon_app_class
 .
 __call__
     
@@ -565,9 +628,7 @@ env
 start_response
 )
     
-falcon
-.
-API
+falcon_app_class
 .
 __call__
 =
@@ -580,9 +641,7 @@ _patch_handle_exception
     
 original_handle_exception
 =
-falcon
-.
-API
+falcon_app_class
 .
 _handle_exception
     
@@ -595,33 +654,55 @@ args
 )
 :
         
-if
-isinstance
+ex
+=
+response
+=
+None
+        
+with
+capture_internal_exceptions
 (
-args
-[
-0
-]
-Exception
 )
 :
             
 ex
 =
+next
+(
+argument
+for
+argument
+in
 args
-[
-0
-]
-        
-else
-:
+if
+isinstance
+(
+argument
+Exception
+)
+)
             
-ex
+response
 =
+next
+(
+                
+argument
+for
+argument
+in
 args
-[
-2
-]
+if
+isinstance
+(
+argument
+falcon
+.
+Response
+)
+            
+)
         
 was_handled
 =
@@ -631,6 +712,19 @@ self
 *
 args
 )
+        
+if
+ex
+is
+None
+or
+response
+is
+None
+:
+            
+return
+was_handled
         
 hub
 =
@@ -656,6 +750,7 @@ and
 _exception_leads_to_http_5xx
 (
 ex
+response
 )
 :
             
@@ -711,9 +806,7 @@ hint
 return
 was_handled
     
-falcon
-.
-API
+falcon_app_class
 .
 _handle_exception
 =
@@ -726,9 +819,7 @@ _patch_prepare_middleware
     
 original_prepare_middleware
 =
-falcon
-.
-api_helpers
+falcon_helpers
 .
 prepare_middleware
     
@@ -742,9 +833,24 @@ None
 independent_middleware
 =
 False
+asgi
+=
+False
     
 )
 :
+        
+if
+asgi
+:
+            
+return
+original_prepare_middleware
+(
+middleware
+independent_middleware
+asgi
+)
         
 hub
 =
@@ -790,9 +896,7 @@ middleware
 independent_middleware
 )
     
-falcon
-.
-api_helpers
+falcon_helpers
 .
 prepare_middleware
 =
@@ -801,6 +905,7 @@ def
 _exception_leads_to_http_5xx
 (
 ex
+response
 )
 :
     
@@ -853,9 +958,41 @@ HTTPStatus
 )
     
 return
+(
 is_server_error
 or
 is_unhandled_error
+)
+and
+(
+        
+not
+FALCON3
+or
+_has_http_5xx_status
+(
+response
+)
+    
+)
+def
+_has_http_5xx_status
+(
+response
+)
+:
+    
+return
+response
+.
+status
+.
+startswith
+(
+"
+5
+"
+)
 def
 _set_transaction_name_and_source
 (

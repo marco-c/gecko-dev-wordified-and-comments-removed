@@ -24,6 +24,9 @@ yamllint
 '
 rules
 :
+anchors
+:
+enable
 braces
 :
 enable
@@ -66,6 +69,11 @@ lines
 :
 enable
 empty
+-
+values
+:
+disable
+float
 -
 values
 :

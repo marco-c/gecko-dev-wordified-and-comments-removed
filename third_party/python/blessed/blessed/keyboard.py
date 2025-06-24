@@ -14,6 +14,8 @@ awareness
 "
 "
 import
+os
+import
 re
 import
 time
@@ -23,8 +25,13 @@ from
 collections
 import
 OrderedDict
+from
+blessed
+.
+_compat
 import
-six
+TextType
+unicode_chr
 if
 platform
 .
@@ -68,9 +75,7 @@ capability_names
 class
 Keystroke
 (
-six
-.
-text_type
+TextType
 )
 :
     
@@ -250,9 +255,7 @@ constructor
         
 new
 =
-six
-.
-text_type
+TextType
 .
 __new__
 (
@@ -329,9 +332,7 @@ overwritten
         
 return
 (
-six
-.
-text_type
+TextType
 .
 __repr__
 (
@@ -354,9 +355,7 @@ __repr__
 .
 __doc__
 =
-six
-.
-text_type
+TextType
 .
 __doc__
     
@@ -766,6 +765,7 @@ keycodes
 .
 update
 (
+        
 (
 name
 value
@@ -775,6 +775,10 @@ name
 value
 in
 globals
+(
+)
+.
+copy
 (
 )
 .
@@ -790,6 +794,7 @@ startswith
 KEY_
 '
 )
+    
 )
     
 return
@@ -2268,9 +2273,7 @@ DEFAULT_SEQUENCE_MIXIN
 (
     
 (
-six
-.
-unichr
+unicode_chr
 (
 10
 )
@@ -2280,9 +2283,7 @@ KEY_ENTER
 )
     
 (
-six
-.
-unichr
+unicode_chr
 (
 13
 )
@@ -2292,9 +2293,7 @@ KEY_ENTER
 )
     
 (
-six
-.
-unichr
+unicode_chr
 (
 8
 )
@@ -2304,9 +2303,7 @@ KEY_BACKSPACE
 )
     
 (
-six
-.
-unichr
+unicode_chr
 (
 9
 )
@@ -2314,9 +2311,7 @@ KEY_TAB
 )
     
 (
-six
-.
-unichr
+unicode_chr
 (
 27
 )
@@ -2326,9 +2321,7 @@ KEY_EXIT
 )
     
 (
-six
-.
-unichr
+unicode_chr
 (
 127
 )
@@ -3014,6 +3007,62 @@ curses
 .
 KEY_BEG
 )
+)
+DEFAULT_ESCDELAY
+=
+0
+.
+35
+def
+_reinit_escdelay
+(
+)
+:
+    
+global
+DEFAULT_ESCDELAY
+    
+if
+os
+.
+environ
+.
+get
+(
+'
+ESCDELAY
+'
+)
+:
+        
+try
+:
+            
+DEFAULT_ESCDELAY
+=
+int
+(
+os
+.
+environ
+[
+'
+ESCDELAY
+'
+]
+)
+/
+1000
+.
+0
+        
+except
+ValueError
+:
+            
+pass
+_reinit_escdelay
+(
 )
 __all__
 =

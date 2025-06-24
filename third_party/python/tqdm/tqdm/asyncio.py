@@ -134,8 +134,6 @@ kwargs
         
 super
 (
-tqdm_asyncio
-self
 )
 .
 __init__

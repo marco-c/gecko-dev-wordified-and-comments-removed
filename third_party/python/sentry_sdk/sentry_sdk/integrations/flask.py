@@ -7,7 +7,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -49,7 +49,6 @@ sentry_sdk
 .
 tracing
 import
-SENTRY_TRACE_HEADER_NAME
 SOURCE_FOR_STYLE
 from
 sentry_sdk
@@ -61,9 +60,11 @@ import
 capture_internal_exceptions
     
 event_from_exception
+    
+package_version
 )
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -79,6 +80,7 @@ sentry_sdk
 .
 _types
 import
+Event
 EventProcessor
     
 from
@@ -116,15 +118,7 @@ from
 flask
 import
 Flask
-Markup
 Request
-    
-from
-flask
-import
-__version__
-as
-FLASK_VERSION
     
 from
 flask
@@ -147,6 +141,11 @@ got_request_exception
 request_started
     
 )
+    
+from
+markupsafe
+import
+Markup
 except
 ImportError
 :
@@ -270,43 +269,32 @@ setup_once
 )
 :
         
-try
-:
-            
 version
 =
-tuple
-(
-map
-(
-int
-FLASK_VERSION
-.
-split
+package_version
 (
 "
+flask
+"
+)
+        
+if
+version
+is
+None
+:
+            
+raise
+DidNotEnable
+(
+"
+Unparsable
+Flask
+version
 .
 "
 )
-[
-:
-3
-]
-)
-)
         
-except
-(
-ValueError
-TypeError
-)
-:
-            
-pass
-        
-else
-:
-            
 if
 version
 <
@@ -315,7 +303,7 @@ version
 10
 )
 :
-                
+            
 raise
 DidNotEnable
 (
@@ -443,15 +431,22 @@ context
         
 return
     
-sentry_span
+hub
 =
 Hub
 .
 current
+    
+trace_meta
+=
+Markup
+(
+hub
 .
-scope
-.
-span
+trace_propagation_meta
+(
+)
+)
     
 context
 [
@@ -460,53 +455,16 @@ sentry_trace
 "
 ]
 =
-(
-        
-Markup
-(
-            
-'
-<
-meta
-name
-=
-"
-%
-s
-"
-content
-=
-"
-%
-s
-"
-/
->
-'
-            
-%
-(
-                
-SENTRY_TRACE_HEADER_NAME
-                
-sentry_span
-.
-to_traceparent
-(
-)
-            
-)
-        
-)
-        
-if
-sentry_span
-        
-else
-"
-"
+trace_meta
     
-)
+context
+[
+"
+sentry_trace_meta
+"
+]
+=
+trace_meta
 def
 _set_transaction_name_and_source
 (
@@ -786,6 +744,9 @@ request
 .
 get_json
 (
+silent
+=
+True
 )
     
 def
@@ -1047,18 +1008,6 @@ username
 user
 .
 username
-)
-            
-user_info
-.
-setdefault
-(
-"
-username
-"
-user
-.
-email
 )
         
 except

@@ -31,7 +31,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -52,7 +52,7 @@ transaction_from_function
 capture_internal_exceptions
 )
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

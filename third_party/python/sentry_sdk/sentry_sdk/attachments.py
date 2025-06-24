@@ -7,7 +7,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -16,7 +16,7 @@ import
 Item
 PayloadRef
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

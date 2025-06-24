@@ -165,13 +165,17 @@ __version__
 "
 0
 .
-12
+13
 .
 3
 "
 __all__
 =
 [
+    
+"
+TOMLDocument
+"
     
 "
 aot
@@ -250,6 +254,10 @@ parse
 "
     
 "
+register_encoder
+"
+    
+"
 string
 "
     
@@ -262,7 +270,7 @@ time
 "
     
 "
-TOMLDocument
+unregister_encoder
 "
     
 "
@@ -271,13 +279,5 @@ value
     
 "
 ws
-"
-    
-"
-register_encoder
-"
-    
-"
-unregister_encoder
 "
 ]

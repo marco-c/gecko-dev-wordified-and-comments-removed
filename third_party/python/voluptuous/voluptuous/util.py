@@ -1,13 +1,23 @@
 import
-sys
+typing
+from
+voluptuous
+import
+validators
 from
 voluptuous
 .
 error
 import
+Invalid
 LiteralInvalid
 TypeInvalid
-Invalid
+from
+voluptuous
+.
+schema_builder
+import
+DefaultFactory
 from
 voluptuous
 .
@@ -16,61 +26,21 @@ import
 Schema
 default_factory
 raises
-from
-voluptuous
-import
-validators
 __author__
 =
 '
 tusharmakkar08
 '
 def
-_fix_str
-(
-v
-)
-:
-    
-if
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
-and
-isinstance
-(
-v
-unicode
-)
-:
-        
-s
-=
-v
-    
-else
-:
-        
-s
-=
-str
-(
-v
-)
-    
-return
-s
-def
 Lower
 (
 v
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -113,7 +83,7 @@ hi
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -125,7 +95,12 @@ def
 Upper
 (
 v
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -168,7 +143,7 @@ HI
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -180,7 +155,12 @@ def
 Capitalize
 (
 v
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -222,7 +202,7 @@ world
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -234,7 +214,12 @@ def
 Title
 (
 v
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -277,7 +262,7 @@ World
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -289,7 +274,12 @@ def
 Strip
 (
 v
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -333,7 +323,7 @@ world
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -418,9 +408,19 @@ __init__
 self
 default_value
 msg
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+None
 :
         
 self
@@ -556,6 +556,9 @@ __init__
 self
 value
 )
+-
+>
+None
 :
         
 self
@@ -728,9 +731,19 @@ __init__
 (
 self
 msg
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+None
 :
         
 self
@@ -766,7 +779,6 @@ e
 raise
 TypeInvalid
 (
-                
 self
 .
 msg
@@ -818,6 +830,9 @@ __init__
 self
 lit
 )
+-
+>
+None
 :
         
 self
@@ -832,6 +847,13 @@ __call__
 self
 value
 msg
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
 )
@@ -849,7 +871,6 @@ value
 raise
 LiteralInvalid
 (
-                
 msg
 or
 '
@@ -868,7 +889,6 @@ self
 .
 lit
 )
-            
 )
         
 else
@@ -908,31 +928,3 @@ self
 .
 lit
 )
-def
-u
-(
-x
-)
-:
-    
-if
-sys
-.
-version_info
-<
-(
-3
-)
-:
-        
-return
-unicode
-(
-x
-)
-    
-else
-:
-        
-return
-x

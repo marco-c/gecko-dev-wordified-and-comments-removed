@@ -53,9 +53,9 @@ Checker
 )
 :
     
-'
-'
-'
+"
+"
+"
 Tests
 to
 run
@@ -64,10 +64,9 @@ on
 properties
 files
 .
-    
-'
-'
-'
+"
+"
+"
     
 pattern
 =
@@ -76,13 +75,13 @@ re
 compile
 (
 r
-'
+"
 .
 *
 \
 .
 properties
-'
+"
 )
     
 printf
@@ -91,8 +90,9 @@ re
 .
 compile
 (
+        
 r
-'
+"
 %
 (
 ?
@@ -102,10 +102,10 @@ good
 >
 %
 |
-'
-                        
+"
+        
 r
-'
+"
 (
 ?
 :
@@ -130,10 +130,10 @@ number
 \
 )
 ?
-'
-                        
+"
+        
 r
-'
+"
 (
 ?
 P
@@ -151,10 +151,10 @@ width
 +
 )
 ?
-'
-                        
+"
+        
 r
-'
+"
 (
 ?
 P
@@ -179,10 +179,10 @@ prec
 ?
 )
 ?
-'
-                        
+"
+        
 r
-'
+"
 (
 ?
 P
@@ -195,7 +195,8 @@ duxXosScpfg
 )
 )
 ?
-'
+"
+    
 )
     
 def
@@ -207,9 +208,9 @@ l10nEnt
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 for
 the
@@ -217,10 +218,9 @@ different
 variable
 formats
 .
-        
-'
-'
-'
+"
+"
+"
         
 yield
 from
@@ -250,31 +250,32 @@ None
         
 if
 (
+            
 refEnt
 .
 pre_comment
-                
+            
 and
-'
+"
 Localization_and_Plurals
-'
+"
 in
 refEnt
 .
 pre_comment
 .
 all
-                
+            
 and
 refEnt
 .
 key
 !
 =
-'
+"
 pluralRule
-'
-                
+"
+            
 and
 not
 re
@@ -282,13 +283,14 @@ re
 match
 (
 r
-'
+"
 \
 d
 +
-'
+"
 refValue
 )
+        
 )
 :
             
@@ -324,63 +326,69 @@ raw_val
 :
             
 if
+(
+                
 m
 .
 group
 (
-'
+"
 single
-'
+"
 )
+                
 and
-\
-               
 m
 .
 group
 (
-'
+"
 single
-'
+"
 )
 not
 in
 PropertiesEntity
 .
 known_escapes
+            
+)
 :
                 
 yield
 (
-'
+                    
+"
 warning
-'
+"
+                    
 m
 .
 start
 (
 )
-                       
-'
+                    
+"
 unknown
 escape
 sequence
 \
 \
-'
+"
 +
 m
 .
 group
 (
-'
+"
 single
-'
+"
 )
-                       
-'
+                    
+"
 escape
-'
+"
+                
 )
         
 try
@@ -429,9 +437,9 @@ l10nValue
 )
 :
         
-'
-'
-'
+"
+"
+"
 Check
 for
 the
@@ -449,9 +457,9 @@ is
 1
 .
         
-'
-'
-'
+"
+"
+"
         
 known_plurals
 =
@@ -481,33 +489,27 @@ l10nValue
 .
 count
 (
-'
+"
 ;
-'
+"
 )
 +
 1
             
 msg
 =
-'
+f
+"
 expecting
 {
+expected_forms
 }
 plurals
 found
 {
-}
-'
-.
-format
-(
-                
-expected_forms
-                
 found_forms
-            
-)
+}
+"
             
 if
 expected_forms
@@ -517,14 +519,14 @@ found_forms
                 
 yield
 (
-'
+"
 warning
-'
+"
 0
 msg
-'
+"
 plural
-'
+"
 )
             
 if
@@ -535,14 +537,14 @@ found_forms
                 
 yield
 (
-'
+"
 warning
-'
+"
 0
 msg
-'
+"
 plural
-'
+"
 )
         
 pats
@@ -564,7 +566,7 @@ re
 .
 finditer
 (
-'
+"
 #
 (
 [
@@ -574,7 +576,7 @@ finditer
 ]
 +
 )
-'
+"
 refValue
 )
 }
@@ -610,7 +612,7 @@ re
 .
 finditer
 (
-'
+"
 #
 (
 [
@@ -620,7 +622,7 @@ finditer
 ]
 +
 )
-'
+"
 l10nValue
 )
 }
@@ -633,22 +635,21 @@ lpats
             
 yield
 (
-'
+"
 warning
-'
+"
 0
-'
+"
 not
 all
 variables
 used
 in
 l10n
-'
-                   
-'
+"
+"
 plural
-'
+"
 )
             
 return
@@ -661,20 +662,19 @@ pats
             
 yield
 (
-'
+"
 error
-'
+"
 0
-'
+"
 unreplaced
 variables
 in
 l10n
-'
-                   
-'
+"
+"
 plural
-'
+"
 )
     
 def
@@ -706,18 +706,18 @@ e
             
 yield
 (
-'
+"
 error
-'
+"
 e
 .
 pos
 e
 .
 msg
-'
+"
 printf
-'
+"
 )
             
 return
@@ -770,9 +770,9 @@ if
 action
 =
 =
-'
+"
 equal
-'
+"
 :
                     
 continue
@@ -781,9 +781,9 @@ if
 action
 =
 =
-'
+"
 delete
-'
+"
 :
                     
 if
@@ -798,12 +798,13 @@ refSpecs
                         
 warn
 =
-'
-'
+"
+"
 .
 join
 (
-'
+                            
+"
 trailing
 argument
 %
@@ -811,9 +812,8 @@ d
 %
 s
 missing
-'
+"
 %
-                                         
 (
 i
 +
@@ -823,7 +823,7 @@ refSpecs
 i
 ]
 )
-                                         
+                            
 for
 i
 in
@@ -832,6 +832,7 @@ range
 i1
 i2
 )
+                        
 )
                     
 else
@@ -851,16 +852,16 @@ msgs
 .
 append
 (
-'
+                                
+"
 argument
 %
 d
 %
 s
 missing
-'
+"
 %
-                                        
 (
 i
 +
@@ -870,6 +871,7 @@ refSpecs
 i
 ]
 )
+                            
 )
                     
 continue
@@ -878,9 +880,9 @@ if
 action
 =
 =
-'
+"
 insert
-'
+"
 :
                     
 for
@@ -897,16 +899,15 @@ msgs
 .
 append
 (
-'
+"
 argument
 %
 d
 %
 s
 obsolete
-'
+"
 %
-                                    
 (
 i
 +
@@ -924,9 +925,9 @@ if
 action
 =
 =
-'
+"
 replace
-'
+"
 :
                     
 for
@@ -952,7 +953,8 @@ msgs
 .
 append
 (
-'
+                            
+"
 argument
 %
 d
@@ -962,9 +964,9 @@ should
 be
 %
 s
-'
+"
+                            
 %
-                                    
 (
 j
 +
@@ -978,6 +980,7 @@ refSpecs
 i
 ]
 )
+                        
 )
             
 if
@@ -986,20 +989,20 @@ msgs
                 
 yield
 (
-'
+"
 error
-'
+"
 0
-'
-'
+"
+"
 .
 join
 (
 msgs
 )
-'
+"
 printf
-'
+"
 )
             
 if
@@ -1011,14 +1014,14 @@ None
                 
 yield
 (
-'
+"
 warning
-'
+"
 0
 warn
-'
+"
 printf
-'
+"
 )
     
 def
@@ -1067,11 +1070,11 @@ None
 raise
 PrintfException
 (
-'
+"
 Found
 single
 %
-'
+"
 m
 .
 start
@@ -1090,57 +1093,55 @@ good
 )
 =
 =
-'
+"
 %
-'
+"
 :
                 
 continue
             
 if
 (
-(
 hasNumber
 and
 m
 .
 group
 (
-'
+"
 number
-'
+"
 )
 is
 None
 )
 or
-                    
 (
+                
 not
 hasNumber
 and
 specs
 and
-                     
 m
 .
 group
 (
-'
+"
 number
-'
+"
 )
 is
 not
 None
-)
+            
 )
 :
                 
 raise
 PrintfException
 (
-'
+"
 Mixed
 ordered
 and
@@ -1148,8 +1149,7 @@ non
 -
 ordered
 args
-'
-                                      
+"
 m
 .
 start
@@ -1163,9 +1163,9 @@ m
 .
 group
 (
-'
+"
 number
-'
+"
 )
 is
 not
@@ -1183,9 +1183,9 @@ m
 .
 group
 (
-'
+"
 number
-'
+"
 )
 )
 -
@@ -1232,9 +1232,9 @@ m
 .
 group
 (
-'
+"
 spec
-'
+"
 )
 )
                 
@@ -1250,9 +1250,9 @@ m
 .
 group
 (
-'
+"
 spec
-'
+"
 )
             
 else
@@ -1266,9 +1266,9 @@ m
 .
 group
 (
-'
+"
 spec
-'
+"
 )
 )
         
@@ -1285,11 +1285,11 @@ specs
 raise
 PrintfException
 (
-'
+"
 Ordered
 argument
 missing
-'
+"
 0
 )
         

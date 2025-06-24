@@ -67,8 +67,6 @@ std_tqdm
         
 super
 (
-_TqdmLoggingHandler
-self
 )
 .
 __init__

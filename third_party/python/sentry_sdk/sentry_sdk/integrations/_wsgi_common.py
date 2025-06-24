@@ -1,5 +1,13 @@
+from
+__future__
+import
+absolute_import
 import
 json
+from
+copy
+import
+deepcopy
 from
 sentry_sdk
 .
@@ -25,9 +33,27 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
+try
+:
+    
+from
+django
+.
+http
+.
+request
+import
+RawPostDataException
+except
+ImportError
+:
+    
+RawPostDataException
+=
+None
 if
-MYPY
+TYPE_CHECKING
 :
     
 import
@@ -52,6 +78,13 @@ from
 typing
 import
 Union
+    
+from
+sentry_sdk
+.
+_types
+import
+Event
 SENSITIVE_ENV_KEYS
 =
 (
@@ -141,7 +174,7 @@ client
 options
 [
 "
-request_bodies
+max_request_body_size
 "
 ]
     
@@ -303,6 +336,30 @@ removed_because_over_size_limit
 else
 :
             
+raw_data
+=
+None
+            
+try
+:
+                
+raw_data
+=
+self
+.
+raw_data
+(
+)
+            
+except
+(
+RawPostDataException
+ValueError
+)
+:
+                
+pass
+            
 parsed_body
 =
 self
@@ -323,11 +380,7 @@ data
 parsed_body
             
 elif
-self
-.
 raw_data
-(
-)
 :
                 
 data
@@ -368,7 +421,10 @@ request
 "
 ]
 =
+deepcopy
+(
 request_info
+)
     
 def
 content_length

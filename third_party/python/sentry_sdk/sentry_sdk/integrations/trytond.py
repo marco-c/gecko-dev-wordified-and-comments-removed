@@ -21,7 +21,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 trytond
 .
@@ -35,7 +35,7 @@ wsgi
 import
 app
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

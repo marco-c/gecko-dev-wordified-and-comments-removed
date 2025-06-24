@@ -21,9 +21,9 @@ class
 ProjectConfig
 :
     
-'
-'
-'
+"
+"
+"
 Abstraction
 of
 l10n
@@ -31,10 +31,9 @@ project
 configuration
 data
 .
-    
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -123,18 +122,17 @@ other
 )
 :
         
-'
-'
-'
+"
+"
+"
 Equality
 test
 ignoring
 locales
 .
-        
-'
-'
-'
+"
+"
+"
         
 if
 other
@@ -174,21 +172,21 @@ for
 prop
 in
 (
-'
+"
 path
-'
-'
+"
+"
 root
-'
-'
+"
+"
 paths
-'
-'
+"
+"
 rules
-'
-'
+"
+"
 environ
-'
+"
 )
 :
             
@@ -273,7 +271,6 @@ mozpath
 .
 abspath
 (
-            
 mozpath
 .
 join
@@ -288,7 +285,6 @@ path
 )
 basepath
 )
-        
 )
     
 def
@@ -319,9 +315,9 @@ paths
 )
 :
         
-'
-'
-'
+"
+"
+"
 Add
 path
 dictionaries
@@ -365,9 +361,9 @@ path
 pattern
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -385,17 +381,17 @@ rv
 =
 {
                 
-'
+"
 l10n
-'
+"
 :
 Matcher
 (
 d
 [
-'
+"
 l10n
-'
+"
 ]
 env
 =
@@ -409,34 +405,34 @@ self
 root
 )
                 
-'
+"
 module
-'
+"
 :
 d
 .
 get
 (
-'
+"
 module
-'
+"
 )
             
 }
             
 if
-'
+"
 reference
-'
+"
 in
 d
 :
                 
 rv
 [
-'
+"
 reference
-'
+"
 ]
 =
 Matcher
@@ -444,9 +440,9 @@ Matcher
                     
 d
 [
-'
+"
 reference
-'
+"
 ]
 env
 =
@@ -462,47 +458,47 @@ root
 )
             
 if
-'
+"
 test
-'
+"
 in
 d
 :
                 
 rv
 [
-'
+"
 test
-'
+"
 ]
 =
 d
 [
-'
+"
 test
-'
+"
 ]
             
 if
-'
+"
 locales
-'
+"
 in
 d
 :
                 
 rv
 [
-'
+"
 locales
-'
+"
 ]
 =
 d
 [
-'
+"
 locales
-'
+"
 ]
 [
 :
@@ -525,9 +521,9 @@ filter_function
 )
 :
         
-'
-'
-'
+"
+"
+"
 Set
 legacy
 filter
@@ -551,9 +547,9 @@ already
 here
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 not
@@ -591,34 +587,30 @@ BaseException
 :
                 
 return
-'
+"
 error
-'
+"
             
 rv
 =
 {
-                
 True
 :
-'
+"
 error
-'
-                
+"
 False
 :
-'
+"
 ignore
-'
-                
-'
+"
+"
 report
-'
+"
 :
-'
+"
 warning
-'
-            
+"
 }
 .
 get
@@ -631,15 +623,15 @@ assert
 rv
 in
 (
-'
+"
 error
-'
-'
+"
+"
 ignore
-'
-'
+"
+"
 warning
-'
+"
 None
 )
             
@@ -661,9 +653,9 @@ rules
 )
 :
         
-'
-'
-'
+"
+"
+"
 Add
 rules
 to
@@ -686,9 +678,9 @@ hooked
 up
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 self
@@ -740,8 +732,7 @@ excludes
 raise
 ExcludeError
 (
-                
-'
+"
 Included
 configs
 cannot
@@ -750,8 +741,7 @@ their
 own
 excludes
 .
-'
-            
+"
 )
         
 self
@@ -789,7 +779,7 @@ raise
 ExcludeError
 (
                     
-'
+"
 Excluded
 configs
 cannot
@@ -798,7 +788,7 @@ their
 own
 excludes
 .
-'
+"
                 
 )
         
@@ -868,7 +858,7 @@ self
 )
 :
         
-'
+"
 Recursively
 get
 all
@@ -879,7 +869,7 @@ project
 and
 its
 children
-'
+"
         
 yield
 self
@@ -907,7 +897,7 @@ self
 )
 :
         
-'
+"
 Recursively
 get
 all
@@ -918,7 +908,7 @@ project
 and
 its
 paths
-'
+"
         
 if
 self
@@ -969,9 +959,9 @@ paths
 :
                     
 if
-'
+"
 locales
-'
+"
 in
 paths
 :
@@ -982,9 +972,9 @@ update
 (
 paths
 [
-'
+"
 locales
-'
+"
 ]
 )
             
@@ -1013,9 +1003,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
 Filter
 a
 localization
@@ -1030,9 +1020,9 @@ this
 configuration
 file
 .
-'
-'
-'
+"
+"
+"
         
 if
 l10n_file
@@ -1046,9 +1036,9 @@ all_locales
 :
             
 return
-'
+"
 ignore
-'
+"
         
 if
 self
@@ -1070,7 +1060,6 @@ module
 l10n_file
 .
 file
-                                  
 entity
 =
 entity
@@ -1095,9 +1084,9 @@ None
 :
             
 return
-'
+"
 ignore
-'
+"
         
 return
 rv
@@ -1182,9 +1171,9 @@ paths
 :
             
 if
-'
+"
 locales
-'
+"
 in
 paths
 and
@@ -1193,9 +1182,9 @@ not
 in
 paths
 [
-'
+"
 locales
-'
+"
 ]
 :
                 
@@ -1211,21 +1200,19 @@ append
 (
 paths
 [
-'
+"
 l10n
-'
+"
 ]
 .
 with_env
 (
 {
-                
 "
 locale
 "
 :
 locale
-            
 }
 )
 )
@@ -1248,28 +1235,26 @@ copy
             
 cached_rule
 [
-'
+"
 path
-'
+"
 ]
 =
 rule
 [
-'
+"
 path
-'
+"
 ]
 .
 with_env
 (
 {
-                
 "
 locale
 "
 :
 locale
-            
 }
 )
             
@@ -1303,7 +1288,6 @@ None
 if
 any
 (
-            
 exclude
 .
 filter
@@ -1312,17 +1296,15 @@ l10n_file
 )
 =
 =
-'
+"
 error
-'
-            
+"
 for
 exclude
 in
 self
 .
 excludes
-        
 )
 :
             
@@ -1331,7 +1313,6 @@ return
 actions
 =
 {
-            
 child
 .
 _filter
@@ -1341,7 +1322,6 @@ entity
 =
 entity
 )
-            
 for
 child
 in
@@ -1351,17 +1331,17 @@ children
 }
         
 if
-'
+"
 error
-'
+"
 in
 actions
 :
             
 return
-'
+"
 error
-'
+"
         
 cached
 =
@@ -1396,9 +1376,9 @@ l10n_paths
             
 action
 =
-'
+"
 error
-'
+"
             
 for
 rule
@@ -1415,9 +1395,9 @@ if
 not
 rule
 [
-'
+"
 path
-'
+"
 ]
 .
 match
@@ -1432,9 +1412,9 @@ continue
                 
 if
 (
-'
+"
 key
-'
+"
 in
 rule
 )
@@ -1450,18 +1430,18 @@ None
 continue
                 
 if
-'
+"
 key
-'
+"
 in
 rule
 and
 not
 rule
 [
-'
+"
 key
-'
+"
 ]
 .
 match
@@ -1476,9 +1456,9 @@ action
 =
 rule
 [
-'
+"
 action
-'
+"
 ]
                 
 break
@@ -1491,43 +1471,43 @@ action
 )
         
 if
-'
+"
 error
-'
+"
 in
 actions
 :
             
 return
-'
+"
 error
-'
+"
         
 if
-'
+"
 warning
-'
+"
 in
 actions
 :
             
 return
-'
+"
 warning
-'
+"
         
 if
-'
+"
 ignore
-'
+"
 in
 actions
 :
             
 return
-'
+"
 ignore
-'
+"
     
 def
 _compile_rule
@@ -1538,9 +1518,9 @@ rule
 :
         
 assert
-'
+"
 path
-'
+"
 in
 rule
         
@@ -1549,9 +1529,9 @@ isinstance
 (
 rule
 [
-'
+"
 path
-'
+"
 ]
 list
 )
@@ -1562,9 +1542,9 @@ path
 in
 rule
 [
-'
+"
 path
-'
+"
 ]
 :
                 
@@ -1578,9 +1558,9 @@ copy
                 
 _rule
 [
-'
+"
 path
-'
+"
 ]
 =
 Matcher
@@ -1614,9 +1594,9 @@ isinstance
 (
 rule
 [
-'
+"
 path
-'
+"
 ]
 str
 )
@@ -1624,19 +1604,18 @@ str
             
 rule
 [
-'
+"
 path
-'
+"
 ]
 =
 Matcher
 (
-                
 rule
 [
-'
+"
 path
-'
+"
 ]
 env
 =
@@ -1648,13 +1627,12 @@ root
 self
 .
 root
-            
 )
         
 if
-'
+"
 key
-'
+"
 not
 in
 rule
@@ -1671,9 +1649,9 @@ isinstance
 (
 rule
 [
-'
+"
 key
-'
+"
 ]
 str
 )
@@ -1684,9 +1662,9 @@ key
 in
 rule
 [
-'
+"
 key
-'
+"
 ]
 :
                 
@@ -1700,9 +1678,9 @@ copy
                 
 _rule
 [
-'
+"
 key
-'
+"
 ]
 =
 key
@@ -1730,9 +1708,9 @@ key
 =
 rule
 [
-'
+"
 key
-'
+"
 ]
         
 if
@@ -1740,10 +1718,10 @@ key
 .
 startswith
 (
-'
+"
 re
 :
-'
+"
 )
 :
             
@@ -1767,14 +1745,14 @@ escape
 key
 )
 +
-'
-'
+"
+"
         
 rule
 [
-'
+"
 key
-'
+"
 ]
 =
 re

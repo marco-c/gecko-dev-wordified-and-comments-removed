@@ -57,9 +57,9 @@ type
 __new__
 (
 metaclass
-'
+"
 temporary_class
-'
+"
 (
 )
 {

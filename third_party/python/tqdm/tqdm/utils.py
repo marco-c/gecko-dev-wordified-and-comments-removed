@@ -99,6 +99,9 @@ linux
 '
 darwin
 '
+'
+freebsd
+'
 ]
 )
 RE_ANSI
@@ -1134,8 +1137,6 @@ encoding
         
 super
 (
-SimpleTextIOWrapper
-self
 )
 .
 __init__
@@ -1415,8 +1416,6 @@ tqdm_instance
         
 super
 (
-DisableOnWriteError
-self
 )
 .
 __init__
@@ -1560,8 +1559,6 @@ callback
         
 super
 (
-CallbackIOWrapper
-self
 )
 .
 __init__

@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -48,7 +36,7 @@ new
 line
 character
 <
-http
+https
 :
 /
 /

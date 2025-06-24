@@ -17,7 +17,8 @@ expected
 return
 InterpreterError
 (
-'
+        
+"
 infix
 :
 {
@@ -29,9 +30,8 @@ expects
 }
 {
 }
-'
+"
 .
-                            
 format
 (
 operator
@@ -39,6 +39,7 @@ expected
 operator
 expected
 )
+    
 )
 class
 Interpreter
@@ -68,9 +69,9 @@ node
         
 method_name
 =
-'
+"
 visit_
-'
+"
 +
 type
 (
@@ -128,9 +129,9 @@ float
 v
 )
 if
-'
+"
 .
-'
+"
 in
 v
 else
@@ -276,23 +277,23 @@ value
 raise
 InterpreterError
 (
-'
+"
 {
 }
 expects
 {
 }
-'
+"
 .
 format
 (
-'
+"
 unary
 +
-'
-'
+"
+"
 number
-'
+"
 )
 )
             
@@ -323,23 +324,23 @@ value
 raise
 InterpreterError
 (
-'
+"
 {
 }
 expects
 {
 }
-'
+"
 .
 format
 (
-'
+"
 unary
 -
-'
-'
+"
+"
 number
-'
+"
 )
 )
             
@@ -497,14 +498,14 @@ bool
 raise
 infixExpectationError
 (
-'
+"
 +
-'
-'
+"
+"
 numbers
 /
 strings
-'
+"
 )
             
 if
@@ -529,14 +530,14 @@ bool
 raise
 infixExpectationError
 (
-'
+"
 +
-'
-'
+"
+"
 numbers
 /
 strings
-'
+"
 )
             
 if
@@ -551,9 +552,8 @@ type
 left
 )
 and
-\
-                    
 (
+                
 isinstance
 (
 left
@@ -565,20 +565,21 @@ isinstance
 right
 string
 )
+            
 )
 :
                 
 raise
 infixExpectationError
 (
-'
+"
 +
-'
-'
+"
+"
 numbers
 /
 strings
-'
+"
 )
             
 return
@@ -633,6 +634,23 @@ test_math_operands
 "
 left
 right
+)
+            
+if
+right
+=
+=
+0
+:
+                
+raise
+InterpreterError
+(
+"
+division
+by
+zero
+"
 )
             
 return
@@ -888,17 +906,17 @@ string
 raise
 infixExpectationError
 (
-'
+"
 in
 -
 object
-'
-'
+"
+"
 string
 on
 left
 side
-'
+"
 )
             
 elif
@@ -921,17 +939,17 @@ string
 raise
 infixExpectationError
 (
-'
+"
 in
 -
 string
-'
-'
+"
+"
 string
 on
 left
 side
-'
+"
 )
             
 elif
@@ -947,10 +965,10 @@ raise
 infixExpectationError
 (
                     
-'
+"
 in
-'
-'
+"
+"
 Array
 string
 or
@@ -958,7 +976,8 @@ object
 on
 right
 side
-'
+"
+                
 )
             
 try
@@ -976,14 +995,14 @@ TypeError
 raise
 infixExpectationError
 (
-'
+"
 in
-'
-'
+"
+"
 scalar
 value
 collection
-'
+"
 )
         
 elif
@@ -1011,7 +1030,7 @@ dict
 raise
 InterpreterError
 (
-'
+"
 infix
 :
 {
@@ -1019,16 +1038,16 @@ infix
 expects
 {
 }
-'
+"
 .
 format
 (
 "
 .
 "
-'
+"
 objects
-'
+"
 )
 )
             
@@ -1048,7 +1067,6 @@ KeyError
 raise
 InterpreterError
 (
-                    
 '
 object
 has
@@ -1223,7 +1241,8 @@ TypeError
 raise
 InterpreterError
 (
-'
+                        
+"
 cannot
 perform
 interval
@@ -1232,7 +1251,8 @@ with
 non
 -
 integers
-'
+"
+                    
 )
             
 else
@@ -1254,12 +1274,12 @@ IndexError
 raise
 InterpreterError
 (
-'
+"
 index
 out
 of
 bounds
-'
+"
 )
                 
 except
@@ -1269,7 +1289,8 @@ TypeError
 raise
 InterpreterError
 (
-'
+                        
+"
 should
 only
 use
@@ -1279,7 +1300,8 @@ access
 arrays
 or
 strings
-'
+"
+                    
 )
         
 if
@@ -1294,7 +1316,8 @@ dict
 raise
 InterpreterError
 (
-'
+                
+"
 infix
 :
 {
@@ -1302,7 +1325,7 @@ infix
 expects
 {
 }
-'
+"
 .
 format
 (
@@ -1314,13 +1337,14 @@ format
 ]
 "
 '
-'
+"
 object
 array
 or
 string
-'
+"
 )
+            
 )
         
 if
@@ -1335,13 +1359,13 @@ string
 raise
 InterpreterError
 (
-'
+"
 object
 keys
 must
 be
 strings
-'
+"
 )
         
 try
@@ -1391,14 +1415,13 @@ KeyError
 raise
 InterpreterError
 (
-                
-'
+"
 unknown
 context
 value
 {
 }
-'
+"
 .
 format
 (
@@ -1509,14 +1532,13 @@ else
 raise
 InterpreterError
 (
-                
-'
+"
 {
 }
 is
 not
 callable
-'
+"
 .
 format
 (
@@ -1601,9 +1623,9 @@ raise
 infixExpectationError
 (
 op
-'
+"
 number
-'
+"
 )
     
 if
@@ -1618,9 +1640,9 @@ raise
 infixExpectationError
 (
 op
-'
+"
 number
-'
+"
 )
     
 return
@@ -1645,10 +1667,9 @@ type
 right
 )
 or
-\
-            
 not
 (
+        
 isinstance
 (
 left
@@ -1665,6 +1686,7 @@ isinstance
 left
 bool
 )
+    
 )
 :
         
@@ -1672,11 +1694,11 @@ raise
 infixExpectationError
 (
 op
-'
+"
 numbers
 /
 strings
-'
+"
 )
     
 return

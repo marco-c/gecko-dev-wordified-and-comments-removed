@@ -86,11 +86,15 @@ import
 CAN_SKIP
     
 Entity
+    
 Comment
+    
 Junk
+    
 Whitespace
     
 StickyEntry
+    
 LiteralEntity
     
 Parser
@@ -105,7 +109,6 @@ Entity
 def
 __init__
 (
-        
 self
 ctx
 pre_comment
@@ -115,7 +118,6 @@ all
 key
 raw_val
 val
-    
 )
 :
         
@@ -129,17 +131,14 @@ __init__
 ctx
 pre_comment
 white_space
-            
 (
 None
 None
 )
-            
 (
 None
 None
 )
-            
 (
 None
 None
@@ -241,8 +240,8 @@ _all_literal
 )
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -441,8 +440,8 @@ self
 .
 key
 raw_val
-'
-'
+"
+"
 .
 join
 (
@@ -735,8 +734,8 @@ length
 :
         
 return
-'
-'
+"
+"
     
 for
 child
@@ -766,7 +765,7 @@ data
     
 if
 (
-            
+        
 node
 .
 childNodes
@@ -775,8 +774,8 @@ length
 !
 =
 1
+        
 or
-            
 node
 .
 childNodes
@@ -819,7 +818,7 @@ re
 compile
 (
 r
-'
+"
 [
 \
 t
@@ -832,7 +831,7 @@ n
 t
 ]
 *
-'
+"
 )
 def
 normalize
@@ -846,18 +845,18 @@ NEWLINE
 .
 sub
 (
-'
+"
 \
 n
-'
+"
 val
 .
 strip
 (
-'
+"
 \
 t
-'
+"
 )
 )
 class
@@ -936,11 +935,11 @@ contents
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
         
@@ -968,9 +967,9 @@ docElement
 nodeName
 !
 =
-'
+"
 resources
-'
+"
 :
             
 yield
@@ -1000,7 +999,7 @@ yield
 DocumentWrapper
 (
                 
-'
+"
 <
 ?
 xml
@@ -1009,7 +1008,7 @@ xml
 <
 resources
 >
-'
+"
                 
 '
 <
@@ -1055,9 +1054,7 @@ items
 yield
 DocumentWrapper
 (
-                    
 attr_name
-                    
 f
 '
 {
@@ -1070,18 +1067,17 @@ attr_value
 }
 "
 '
-                
 )
             
 yield
 DocumentWrapper
 (
-'
+"
 >
-'
-'
+"
+"
 >
-'
+"
 )
         
 child_num
@@ -1222,10 +1218,10 @@ nodeValue
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
 >
 1
@@ -1353,20 +1349,20 @@ only_localizable
 yield
 DocumentWrapper
 (
-'
+"
 <
 /
 resources
 >
-'
-'
+"
+"
 <
 /
 resources
 >
 \
 n
-'
+"
 )
     
 def
@@ -1385,17 +1381,17 @@ element
 nodeName
 =
 =
-'
+"
 string
-'
+"
 and
 element
 .
 hasAttribute
 (
-'
+"
 name
-'
+"
 )
 :
             
@@ -1423,9 +1419,9 @@ element
 .
 getAttribute
 (
-'
+"
 name
-'
+"
 )
                 
 textContent
@@ -1433,8 +1429,8 @@ textContent
 element
 )
                 
-'
-'
+"
+"
 .
 join
 (
@@ -1539,10 +1535,10 @@ nodeValue
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
 >
 1

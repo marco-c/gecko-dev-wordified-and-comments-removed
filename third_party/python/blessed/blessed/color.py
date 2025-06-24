@@ -118,6 +118,13 @@ XYZ
 color
 .
     
+D65
+/
+2
+standard
+illuminant
+.
+    
 :
 arg
 int
@@ -168,12 +175,6 @@ color
 rtype
 :
 tuple
-    
-D65
-/
-2
-standard
-illuminant
     
 "
 "
@@ -394,7 +395,6 @@ color
 rtype
 :
 tuple
-    
 D65
 /
 2
@@ -595,7 +595,6 @@ color
 rtype
 :
 tuple
-    
 D65
 /
 2
@@ -829,7 +828,6 @@ colors
 rtype
 :
 float
-    
 Similar
 to
 a
@@ -840,15 +838,14 @@ the
 values
 are
 weighted
-    
 to
 approximate
+        
 human
 perception
 of
 color
 differences
-    
 For
 efficiency
 the
@@ -858,7 +855,7 @@ the
 distance
 is
 returned
-    
+        
 which
 is
 sufficient
@@ -975,7 +972,7 @@ rgb
 colors
 using
 the
-CIE94
+CIE76
 algorithm
 .
     
@@ -1012,7 +1009,6 @@ colors
 rtype
 :
 float
-    
 For
 efficiency
 the
@@ -1022,11 +1018,11 @@ the
 distance
 is
 returned
-    
 which
 is
 sufficient
 for
+        
 comparisons
     
 "
@@ -1134,7 +1130,6 @@ colors
 rtype
 :
 float
-    
 For
 efficiency
 the
@@ -1144,11 +1139,11 @@ the
 distance
 is
 returned
-    
 which
 is
 sufficient
 for
+        
 comparisons
     
 "
@@ -1387,7 +1382,6 @@ colors
 rtype
 :
 float
-    
 For
 efficiency
 the
@@ -1397,11 +1391,11 @@ the
 distance
 is
 returned
-    
 which
 is
 sufficient
 for
+        
 comparisons
     
 "
