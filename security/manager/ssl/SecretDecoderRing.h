@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsString
+pkcs11t
 .
 h
 "
@@ -82,6 +82,8 @@ private
 nsresult
 Encrypt
 (
+CK_MECHANISM_TYPE
+type
 const
 nsACString
 &
