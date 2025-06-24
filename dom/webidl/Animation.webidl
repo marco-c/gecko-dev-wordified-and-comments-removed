@@ -261,12 +261,6 @@ double
 ?
 currentTime
 ;
-readonly
-attribute
-double
-?
-overallProgress
-;
 attribute
 double
 playbackRate
