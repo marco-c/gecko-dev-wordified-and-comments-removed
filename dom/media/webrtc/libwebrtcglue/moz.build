@@ -111,6 +111,11 @@ AudioConduit
 cpp
 "
 "
+CallWorkerThread
+.
+cpp
+"
+"
 FrameTransformer
 .
 cpp
