@@ -36,13 +36,6 @@ width
 '
 /
 >
-<
-iframe
->
-<
-/
-iframe
->
 "
 ;
 addRDMTask
