@@ -2322,6 +2322,12 @@ mMaxMessageSize
 =
 0
 ;
+nsTArray
+<
+uint16_t
+>
+mStreamIds
+;
 Channels
 mChannels
 ;
