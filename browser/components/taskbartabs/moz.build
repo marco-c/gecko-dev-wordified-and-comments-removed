@@ -39,6 +39,13 @@ sys
 .
 mjs
 "
+"
+TaskbarTabsWindowManager
+.
+sys
+.
+mjs
+"
 ]
 JAR_MANIFESTS
 +
