@@ -98604,18 +98604,6 @@ content
 -
 scripts
 .
-#
-This
-feature
-is
-currently
-disabled
-(
-see
-bug
-1965552
-)
-.
 -
 name
 :
@@ -98629,7 +98617,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
