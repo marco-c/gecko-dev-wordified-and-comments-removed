@@ -819,6 +819,10 @@ uint64_t
 aTriggeringWindowId
 bool
 aTriggeringStorageAccess
+uint32_t
+aTriggeringFirstPartyClassificationFlags
+uint32_t
+aTriggeringThirdPartyClassificationFlags
 nsContentPolicyType
 aContentPolicyType
 LoadTainting
@@ -1344,6 +1348,16 @@ bool
 mTriggeringStorageAccess
 =
 false
+;
+uint32_t
+mTriggeringFirstPartyClassificationFlags
+=
+0
+;
+uint32_t
+mTriggeringThirdPartyClassificationFlags
+=
+0
 ;
 nsContentPolicyType
 mInternalContentPolicyType
