@@ -6978,9 +6978,8 @@ otherwise
 falls
 back
 to
-the
-last
-known
+normal
+browsing
 mode
 .
 *
@@ -7040,11 +7039,9 @@ startPrivateMode
 }
 }
 return
-settings
-(
-)
+BrowsingMode
 .
-lastKnownMode
+Normal
 }
 /
 *
