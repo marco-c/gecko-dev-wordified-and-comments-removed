@@ -270,9 +270,7 @@ enum
 SummarizerType
 {
 "
-tl
-;
-dr
+tldr
 "
 "
 teaser

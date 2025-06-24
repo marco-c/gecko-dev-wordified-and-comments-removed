@@ -162,6 +162,11 @@ lifetimeDays
 ;
 }
 ;
+dictionary
+PrivateAttributionImpressionResult
+{
+}
+;
 [
 SecureContext
 Exposed
@@ -172,7 +177,10 @@ partial
 interface
 PrivateAttribution
 {
-undefined
+Promise
+<
+PrivateAttributionImpressionResult
+>
 saveImpression
 (
 PrivateAttributionImpressionOptions

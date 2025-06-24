@@ -188,6 +188,11 @@ attribute
 DOMString
 contentType
 ;
+readonly
+attribute
+DOMString
+contentEncoding
+;
 [
 Default
 ]

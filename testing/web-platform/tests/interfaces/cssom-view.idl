@@ -832,6 +832,12 @@ readonly
 attribute
 Element
 ?
+scrollParent
+;
+readonly
+attribute
+Element
+?
 offsetParent
 ;
 readonly

@@ -109,7 +109,7 @@ element
 ;
 readonly
 attribute
-DOMString
+USVString
 url
 ;
 [
