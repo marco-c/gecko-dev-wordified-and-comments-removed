@@ -32786,6 +32786,7 @@ for
 (
 const
 auto
+&
 maybeType
 :
 {
