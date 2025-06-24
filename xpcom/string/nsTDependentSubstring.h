@@ -289,7 +289,6 @@ const
 char_type
 >
 aData
-MOZ_LIFETIME_BOUND
 )
 :
 nsTDependentSubstring
@@ -403,12 +402,10 @@ const
 const_iterator
 &
 aStart
-MOZ_LIFETIME_BOUND
 const
 const_iterator
 &
 aEnd
-MOZ_LIFETIME_BOUND
 )
 ;
 nsTDependentSubstring
