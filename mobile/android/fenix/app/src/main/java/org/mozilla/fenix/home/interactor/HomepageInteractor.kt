@@ -173,18 +173,6 @@ home
 .
 sessioncontrol
 .
-CustomizeHomeIteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
-sessioncontrol
-.
 MessageCardInteractor
 import
 org
@@ -285,7 +273,6 @@ RecentTabInteractor
 RecentSyncedTabInteractor
 BookmarksInteractor
 RecentVisitsInteractor
-CustomizeHomeIteractor
 PocketStoriesInteractor
 PrivateBrowsingInteractor
 SearchSelectorInteractor
