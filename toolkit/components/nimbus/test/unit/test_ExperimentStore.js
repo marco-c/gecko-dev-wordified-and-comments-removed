@@ -4937,6 +4937,13 @@ storePath
 clearTelemetry
 :
 true
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+IMPORTED_ENROLLMENTS_TO_SQL
 }
 )
 ;
@@ -4992,6 +4999,11 @@ store_active_count
 :
 "
 2
+"
+trigger
+:
+"
+startup
 "
 }
 ]
