@@ -55,6 +55,13 @@ js
 ]
 [
 "
+browser_taskbarTabs_nimbus
+.
+js
+"
+]
+[
+"
 browser_taskbarTabs_pageAction
 .
 js
