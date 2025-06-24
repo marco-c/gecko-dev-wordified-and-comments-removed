@@ -147,6 +147,13 @@ parallel
 "
 [
 "
+test_Enrollments
+.
+js
+"
+]
+[
+"
 test_ExperimentAPI
 .
 js

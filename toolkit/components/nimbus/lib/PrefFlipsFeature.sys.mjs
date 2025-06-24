@@ -1174,7 +1174,6 @@ set
 .
 *
 /
-async
 _handleSetPrefConflict
 (
 conflictingSlug
@@ -1236,7 +1235,6 @@ entry
 slugs
 )
 {
-await
 this
 .
 manager
@@ -1633,7 +1631,6 @@ prefs
 const
 originalValues
 =
-await
 this
 .
 manager

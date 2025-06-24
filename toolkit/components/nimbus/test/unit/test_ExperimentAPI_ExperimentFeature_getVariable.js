@@ -583,7 +583,6 @@ doExperimentCleanup
 (
 )
 ;
-await
 manager
 .
 unenroll
@@ -791,7 +790,6 @@ doExperimentCleanup
 (
 )
 ;
-await
 manager
 .
 unenroll

@@ -604,7 +604,6 @@ unenroll
 .
 *
 /
-async
 unenroll
 (
 slug
@@ -662,7 +661,6 @@ return
 }
 try
 {
-await
 lazy
 .
 ExperimentAPI
