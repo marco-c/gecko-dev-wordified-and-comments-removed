@@ -1128,6 +1128,12 @@ geckoview
 WebExtension
 .
 InstallException
+Suppress
+(
+"
+DEPRECATION
+"
+)
 RunWith
 (
 AndroidJUnit4

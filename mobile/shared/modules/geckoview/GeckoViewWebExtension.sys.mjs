@@ -6754,6 +6754,9 @@ const
 extensionId
 permissions
 origins
+dataCollectionPermissions
+:
+data_collection
 }
 =
 aData
@@ -6783,6 +6786,7 @@ normalizeOptional
 {
 permissions
 origins
+data_collection
 }
 addon
 .
@@ -6877,6 +6881,9 @@ const
 extensionId
 permissions
 origins
+dataCollectionPermissions
+:
+data_collection
 }
 =
 aData
@@ -6906,6 +6913,7 @@ normalizeOptional
 {
 permissions
 origins
+data_collection
 }
 addon
 .

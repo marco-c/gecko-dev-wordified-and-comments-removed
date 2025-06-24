@@ -1058,6 +1058,9 @@ LargeClass
 "
 TooManyFunctions
 "
+"
+DEPRECATION
+"
 )
 class
 GeckoEngine
