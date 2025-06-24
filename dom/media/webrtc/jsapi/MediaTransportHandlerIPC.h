@@ -42,9 +42,6 @@ public
 explicit
 MediaTransportHandlerIPC
 (
-nsISerialEventTarget
-*
-aCallbackThread
 )
 ;
 void
@@ -414,6 +411,12 @@ RefPtr
 InitPromise
 >
 mInitPromise
+;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mThread
 ;
 }
 ;
