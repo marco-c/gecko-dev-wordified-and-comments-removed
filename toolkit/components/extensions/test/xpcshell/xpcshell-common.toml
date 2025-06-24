@@ -3746,13 +3746,6 @@ parallel
 "
 [
 "
-test_extensionUtils
-.
-js
-"
-]
-[
-"
 test_native_manifests
 .
 js
