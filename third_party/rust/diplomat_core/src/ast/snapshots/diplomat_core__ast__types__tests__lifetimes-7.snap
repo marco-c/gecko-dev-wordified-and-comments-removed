@@ -27,8 +27,6 @@ syn
 parse_quote
 !
 {
-\
-n
 Result
 <
 OkRef
@@ -44,9 +42,9 @@ ErrRef
 c
 >
 >
+}
 \
 n
-}
 None
 )
 "
@@ -90,4 +88,4 @@ Named
 :
 c
 -
-true
+Stdlib

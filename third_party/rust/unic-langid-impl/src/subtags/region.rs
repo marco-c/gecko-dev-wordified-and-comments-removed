@@ -90,7 +90,7 @@ s
 TinyStr4
 :
 :
-from_bytes
+try_from_utf8
 (
 v
 )
@@ -147,7 +147,7 @@ s
 TinyStr4
 :
 :
-from_bytes
+try_from_utf8
 (
 v
 )
@@ -241,7 +241,7 @@ Self
 TinyStr4
 :
 :
-from_bytes_unchecked
+from_utf8_unchecked
 (
 v
 .

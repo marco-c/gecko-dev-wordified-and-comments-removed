@@ -1,14 +1,3 @@
-#
-[
-cfg
-(
-feature
-=
-"
-bench
-"
-)
-]
 pub
 mod
 gc_fast

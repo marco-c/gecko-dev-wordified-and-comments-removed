@@ -138,9 +138,7 @@ icu_capi
 version
 =
 "
-1
-.
-5
+2
 .
 0
 "
@@ -162,10 +160,10 @@ any_provider
 compiled_data
 "
 "
-icu_segmenter
+segmenter
 "
 "
-icu_calendar
+calendar
 "
 ]
 }
