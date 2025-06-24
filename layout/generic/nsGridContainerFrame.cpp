@@ -11913,9 +11913,6 @@ mState
 LineRange
 mLineRange
 ;
-mozilla
-:
-:
 EnumeratedArray
 <
 GridIntrinsicSizeType
@@ -32044,9 +32041,6 @@ return
 sizes
 ;
 }
-mozilla
-:
-:
 EnumeratedArray
 <
 GridIntrinsicSizeType
