@@ -1711,6 +1711,13 @@ AnchorPosResolutionParams
 "
 AnchorPosResolutionParams
 "
+"
+AnchorPosOffsetResolutionParams
+"
+=
+"
+AnchorPosOffsetResolutionParams
+"
 [
 export
 .

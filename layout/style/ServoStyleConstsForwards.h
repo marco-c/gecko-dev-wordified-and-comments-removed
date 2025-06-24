@@ -197,7 +197,7 @@ struct
 nsCSSValueSharedList
 ;
 struct
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 ;
 class
 gfxFontFeatureValueSet

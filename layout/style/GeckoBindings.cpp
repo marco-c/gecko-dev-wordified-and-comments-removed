@@ -10775,7 +10775,7 @@ bool
 Gecko_GetAnchorPosOffset
 (
 const
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 *
 aParams
 const
@@ -10809,6 +10809,8 @@ aParams
 aParams
 -
 >
+mBaseParams
+.
 mFrame
 )
 {
@@ -10825,6 +10827,8 @@ GetAnchorPosRect
 aParams
 -
 >
+mBaseParams
+.
 mFrame
 aAnchorName
 !
@@ -10902,6 +10906,8 @@ usesCBWM
 aParams
 -
 >
+mBaseParams
+.
 mFrame
 -
 >

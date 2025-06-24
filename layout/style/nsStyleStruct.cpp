@@ -1651,10 +1651,10 @@ Invalid
 (
 )
 ;
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 params
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -7021,7 +7021,7 @@ mozilla
 StylePhysicalSide
 aSide
 const
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 &
 aParams
 )
@@ -7260,6 +7260,8 @@ AsAnchorSizeFunction
 )
 aParams
 .
+mBaseParams
+.
 mPosition
 &
 resolved
@@ -7496,10 +7498,10 @@ Invalid
 (
 )
 ;
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 params
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -7707,10 +7709,10 @@ Invalid
 (
 )
 ;
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 params
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize

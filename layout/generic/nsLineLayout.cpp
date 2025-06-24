@@ -4020,9 +4020,9 @@ positionProperty
 ;
 const
 auto
-anchorPosResolutionParams
+anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -4095,7 +4095,7 @@ LogicalSide
 :
 IStart
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -4114,7 +4114,7 @@ LogicalSide
 :
 IEnd
 aWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
