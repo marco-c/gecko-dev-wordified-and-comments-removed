@@ -5064,7 +5064,7 @@ R
 string
 .
 mozac_feature_addons_permissions_required_data_collection_description
-fragment
+Addon
 .
 formatLocalizedDataCollectionPermissions
 (
@@ -5552,7 +5552,7 @@ R
 string
 .
 mozac_feature_addons_permissions_required_data_collection_description
-fragment
+Addon
 .
 formatLocalizedDataCollectionPermissions
 (
@@ -6377,7 +6377,7 @@ R
 string
 .
 mozac_feature_addons_permissions_required_data_collection_description
-fragment
+Addon
 .
 formatLocalizedDataCollectionPermissions
 (
