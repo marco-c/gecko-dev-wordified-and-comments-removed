@@ -283,6 +283,7 @@ activity
 navigateToHome
 (
 navHostController
+true
 )
 verify
 {
