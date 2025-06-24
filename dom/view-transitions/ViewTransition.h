@@ -196,6 +196,7 @@ DuplicateTransitionNameCapturingOldState
 DuplicateTransitionNameCapturingNewState
 PseudoUpdateFailure
 Resize
+PageSwap
 }
 ;
 enum
