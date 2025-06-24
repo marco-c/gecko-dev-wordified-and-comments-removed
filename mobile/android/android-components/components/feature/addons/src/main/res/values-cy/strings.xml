@@ -2040,7 +2040,7 @@ mozac_feature_addons_permissions_data_collection_authenticationInfo_short_descri
 "
 >
 manylion
-ddilysu
+dilysu
 <
 /
 string
@@ -2214,7 +2214,7 @@ name
 mozac_feature_addons_permissions_data_collection_personalCommunications_short_description
 "
 >
-cyfathrebiadau
+cyfathrebu
 personol
 <
 /
@@ -2245,7 +2245,7 @@ mozac_feature_addons_permissions_data_collection_personallyIdentifyingInfo_short
 >
 manylion
 adnabod
-personol
+person
 <
 /
 string
@@ -2730,7 +2730,9 @@ u
 i
 estyniad
 redeg
-mewn
+o
+fewn
+y
 pori
 preifat
 <
