@@ -61,7 +61,7 @@ generated
 with
 CLDR
 version
-47
+45
 .
 0
 .
@@ -70,13 +70,13 @@ ICU
 version
 icu4x
 /
-2025
+2024
 -
 05
 -
-01
+16
 /
-77
+75
 .
 x
 and

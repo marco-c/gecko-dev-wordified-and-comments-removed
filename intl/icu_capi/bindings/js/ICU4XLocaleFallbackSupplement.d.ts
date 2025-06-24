@@ -1,0 +1,15 @@
+export
+enum
+ICU4XLocaleFallbackSupplement
+{
+None
+=
+'
+None
+'
+Collation
+=
+'
+Collation
+'
+}

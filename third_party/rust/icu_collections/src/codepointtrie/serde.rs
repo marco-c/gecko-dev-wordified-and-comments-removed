@@ -93,6 +93,8 @@ T
 }
 impl
 <
+'
+trie
 T
 :
 TrieValue
@@ -104,7 +106,7 @@ for
 CodePointTrie
 <
 '
-_
+trie
 T
 >
 {

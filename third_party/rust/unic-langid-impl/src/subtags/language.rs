@@ -105,7 +105,7 @@ s
 TinyStr8
 :
 :
-try_from_utf8
+from_bytes
 (
 v
 )
@@ -249,7 +249,7 @@ Some
 TinyStr8
 :
 :
-from_utf8_unchecked
+from_bytes_unchecked
 (
 v
 .

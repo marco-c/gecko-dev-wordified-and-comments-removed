@@ -693,15 +693,13 @@ optional
 =
 true
 }
-icu_locale_core
+icu_locid
 =
 {
 version
 =
 "
-2
-.
-0
+1
 "
 default
 -
@@ -725,15 +723,13 @@ icu_properties
 version
 =
 "
-2
-.
-0
+1
 "
 features
 =
 [
 "
-unicode_bidi
+bidi
 "
 ]
 optional
@@ -1174,7 +1170,7 @@ version
 "
 0
 .
-8
+7
 "
 features
 =
@@ -1411,7 +1407,7 @@ version
 "
 0
 .
-8
+7
 "
 features
 =
@@ -1482,7 +1478,7 @@ version
 "
 0
 .
-11
+10
 "
 default
 -
@@ -2587,7 +2583,7 @@ hyper
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep
@@ -2918,7 +2914,7 @@ hyper
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep
@@ -3248,7 +3244,7 @@ hex
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep
@@ -3605,7 +3601,7 @@ hyper
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep
@@ -3835,7 +3831,7 @@ hashbrown
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep
@@ -4206,7 +4202,7 @@ hashbrown
 "
 dep
 :
-icu_locale_core
+icu_locid
 "
 "
 dep

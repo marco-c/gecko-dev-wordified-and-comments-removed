@@ -2793,7 +2793,7 @@ u16
 ZeroVec
 :
 :
-parse_bytes
+parse_byte_slice
 (
 index_array_as_bytes
 )
@@ -2823,7 +2823,7 @@ u8
 ZeroVec
 :
 :
-parse_bytes
+parse_byte_slice
 (
 data_8_array
 )
@@ -4131,7 +4131,7 @@ u16
 ZeroVec
 :
 :
-parse_bytes
+parse_byte_slice
 (
 index_array_as_bytes
 )

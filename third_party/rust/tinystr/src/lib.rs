@@ -8,7 +8,11 @@ not
 any
 (
 test
-doc
+feature
+=
+"
+std
+"
 )
 )
 no_std
@@ -49,10 +53,6 @@ clippy
 :
 :
 exhaustive_enums
-clippy
-:
-:
-trivially_copy_pass_by_ref
 missing_debug_implementations
 )
 )
@@ -152,7 +152,7 @@ use
 error
 :
 :
-ParseError
+TinyStrError
 ;
 pub
 use

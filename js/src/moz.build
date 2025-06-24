@@ -3439,7 +3439,7 @@ icu_capi
 /
 bindings
 /
-cpp
+c
 "
 ]
 if

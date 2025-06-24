@@ -95,3 +95,16 @@ Error
 as
 CodePointTrieError
 ;
+#
+[
+doc
+(
+no_inline
+)
+]
+pub
+use
+CodePointTrieError
+as
+Error
+;

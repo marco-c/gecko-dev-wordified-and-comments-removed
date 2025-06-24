@@ -12,9 +12,6 @@ ast
 modules
 .
 rs
-assertion_line
-:
-371
 expression
 :
 "
@@ -173,7 +170,7 @@ docs
 -
 [
 ]
-abi_name
+full_path_name
 :
 Foo_pub_fn
 self_param
@@ -198,10 +195,6 @@ output_only
 :
 false
 attrs
-:
-{
-}
-declared_traits
 :
 {
 }

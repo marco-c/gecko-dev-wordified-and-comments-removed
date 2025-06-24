@@ -31,7 +31,7 @@ inline
 pub
 const
 fn
-from_utf8
+from_bytes
 <
 const
 N
@@ -141,7 +141,7 @@ Self
 Self
 :
 :
-from_utf8
+from_bytes
 :
 :
 <
@@ -1071,7 +1071,7 @@ inline
 pub
 const
 fn
-from_utf8
+from_bytes
 <
 const
 N
@@ -1181,7 +1181,7 @@ Self
 Self
 :
 :
-from_utf8
+from_bytes
 :
 :
 <

@@ -27,15 +27,17 @@ syn
 parse_quote
 !
 {
+\
+n
 DiplomatResult
 <
 (
 )
 MyLocalStruct
 >
-}
 \
 n
+}
 None
 )
 "
@@ -60,4 +62,4 @@ lifetimes
 [
 ]
 -
-Diplomat
+false

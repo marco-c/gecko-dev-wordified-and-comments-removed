@@ -83,7 +83,7 @@ s
 TinyStr4
 :
 :
-try_from_utf8
+from_bytes
 (
 v
 )
@@ -175,7 +175,7 @@ Self
 TinyStr4
 :
 :
-from_utf8_unchecked
+from_bytes_unchecked
 (
 v
 .

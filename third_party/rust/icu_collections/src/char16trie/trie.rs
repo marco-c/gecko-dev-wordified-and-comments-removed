@@ -251,17 +251,6 @@ databake
 :
 Bake
 )
-)
-]
-#
-[
-cfg_attr
-(
-feature
-=
-"
-databake
-"
 databake
 (
 path
@@ -1197,7 +1186,6 @@ pos
 +
 =
 (
-(
 trie_unwrap
 !
 (
@@ -1216,7 +1204,6 @@ usize
 <
 <
 16
-)
 |
 trie_unwrap
 !
@@ -1754,7 +1741,6 @@ delta
 =
 (
 (
-(
 delta
 -
 MIN_TWO_UNIT_DELTA_LEAD
@@ -1765,7 +1751,6 @@ usize
 <
 <
 16
-)
 |
 (
 self
@@ -2093,7 +2078,6 @@ THREE_UNIT_VALUE_LEAD
 {
 (
 (
-(
 lead_unit
 -
 MIN_TWO_UNIT_VALUE_LEAD
@@ -2104,7 +2088,6 @@ i32
 <
 <
 16
-)
 |
 self
 .
@@ -2121,7 +2104,6 @@ i32
 else
 {
 (
-(
 self
 .
 trie
@@ -2137,7 +2119,6 @@ i32
 <
 <
 16
-)
 |
 self
 .
@@ -2219,7 +2200,6 @@ THREE_UNIT_NODE_VALUE_LEAD
 (
 (
 (
-(
 lead_unit
 &
 0x7fc0
@@ -2233,7 +2213,6 @@ i32
 <
 <
 10
-)
 |
 self
 .
@@ -2250,7 +2229,6 @@ i32
 else
 {
 (
-(
 self
 .
 trie
@@ -2266,7 +2244,6 @@ i32
 <
 <
 16
-)
 |
 self
 .

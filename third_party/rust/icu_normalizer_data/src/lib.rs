@@ -36,7 +36,7 @@ ICU4X_DATA_DIR
 )
 "
 /
-mod
+macros
 .
 rs
 "
@@ -62,7 +62,7 @@ include
 /
 data
 /
-mod
+macros
 .
 rs
 "

@@ -111,10 +111,6 @@ attrs
 :
 {
 }
-declared_traits
-:
-{
-}
 sub_modules
 :
 [
@@ -133,10 +129,6 @@ imports
 [
 ]
 declared_types
-:
-{
-}
-declared_traits
 :
 {
 }

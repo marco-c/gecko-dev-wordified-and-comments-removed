@@ -42,10 +42,8 @@ iterable_no_self
 :
 Iterables
 must
-accept
-a
+take
 self
-parameter
 Lowering
 error
 in
@@ -97,12 +95,10 @@ BrokenIterator
 :
 iterator_no_self
 :
-Iterator
+Iterators
 must
-accept
-a
+take
 self
-parameter
 Lowering
 error
 in

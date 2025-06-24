@@ -876,6 +876,10 @@ is_arithmetic_leap_year
 p_year
 :
 i32
+_data
+:
+(
+)
 )
 -
 >
@@ -945,6 +949,10 @@ is_leap_year
 p_year
 :
 i32
+_data
+:
+(
+)
 )
 -
 >

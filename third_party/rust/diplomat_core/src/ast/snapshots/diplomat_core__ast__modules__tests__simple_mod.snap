@@ -12,9 +12,6 @@ ast
 modules
 .
 rs
-assertion_line
-:
-326
 expression
 :
 "
@@ -41,6 +38,8 @@ n
 n
 struct
 NonOpaqueStruct
+\
+n
 {
 a
 :
@@ -52,9 +51,9 @@ Box
 NonOpaqueStruct
 >
 }
+impl
 \
 n
-impl
 NonOpaqueStruct
 \
 n
@@ -72,6 +71,8 @@ i32
 -
 >
 NonOpaqueStruct
+\
+n
 {
 unimplemented
 !
@@ -79,10 +80,10 @@ unimplemented
 )
 ;
 }
-\
-n
 pub
 fn
+\
+n
 set_a
 (
 &
@@ -144,9 +145,9 @@ unimplemented
 )
 ;
 }
-pub
 \
 n
+pub
 fn
 get_string
 (
@@ -222,9 +223,6 @@ i32
 [
 ]
 -
-{
-}
--
 -
 b
 -
@@ -249,9 +247,6 @@ lifetimes
 -
 [
 ]
--
-{
-}
 methods
 :
 -
@@ -266,7 +261,7 @@ docs
 -
 [
 ]
-abi_name
+full_path_name
 :
 NonOpaqueStruct_new
 self_param
@@ -283,10 +278,6 @@ ty
 Primitive
 :
 i32
-attrs
-:
-{
-}
 return_type
 :
 Named
@@ -321,7 +312,7 @@ docs
 -
 [
 ]
-abi_name
+full_path_name
 :
 NonOpaqueStruct_set_a
 self_param
@@ -344,10 +335,6 @@ lifetimes
 :
 [
 ]
-attrs
-:
-{
-}
 params
 :
 -
@@ -359,10 +346,6 @@ ty
 Primitive
 :
 i32
-attrs
-:
-{
-}
 return_type
 :
 ~
@@ -414,7 +397,7 @@ docs
 -
 [
 ]
-abi_name
+full_path_name
 :
 OpaqueStruct_new
 self_param
@@ -460,7 +443,7 @@ docs
 -
 [
 ]
-abi_name
+full_path_name
 :
 OpaqueStruct_get_string
 self_param
@@ -483,10 +466,6 @@ lifetimes
 :
 [
 ]
-attrs
-:
-{
-}
 params
 :
 [
@@ -517,13 +496,6 @@ mutability
 :
 Immutable
 attrs
-:
-{
-}
-dtor_abi_name
-:
-OpaqueStruct_destroy
-declared_traits
 :
 {
 }

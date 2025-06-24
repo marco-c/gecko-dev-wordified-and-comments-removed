@@ -40,7 +40,6 @@ None
 -
 Option
 :
--
 Named
 :
 path
@@ -53,5 +52,3 @@ lifetimes
 :
 [
 ]
--
-Stdlib
