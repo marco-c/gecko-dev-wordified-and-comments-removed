@@ -4411,6 +4411,9 @@ array_index
 offset
 level
 depth_ref
+clamp_to_edge
+:
+false
 }
 ;
 let

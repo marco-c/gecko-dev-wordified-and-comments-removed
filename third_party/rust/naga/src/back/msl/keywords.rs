@@ -1055,6 +1055,13 @@ super
 writer
 :
 :
+IMAGE_SAMPLE_BASE_CLAMP_TO_EDGE_FUNCTION
+super
+:
+:
+writer
+:
+:
 ARGUMENT_BUFFER_WRAPPER_STRUCT
 ]
 ;

@@ -2873,6 +2873,9 @@ ArrayVec
 PushConstantDesc
 MAX_PUSH_CONSTANT_COMMANDS
 >
+clip_distance_count
+:
+u32
 }
 #
 [
@@ -4180,6 +4183,15 @@ uniform
 :
 PushConstantDesc
 offset
+:
+u32
+}
+SetClipDistances
+{
+old_count
+:
+u32
+new_count
 :
 u32
 }

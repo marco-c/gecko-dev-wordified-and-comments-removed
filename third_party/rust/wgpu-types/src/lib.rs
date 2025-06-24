@@ -30186,6 +30186,7 @@ vertex_return
 :
 bool
 }
+ExternalTexture
 }
 impl
 BindingType

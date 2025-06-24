@@ -7314,7 +7314,15 @@ FRAGMENT
 S
 :
 :
-Barrier
+ControlBarrier
+(
+barrier
+)
+|
+S
+:
+:
+MemoryBarrier
 (
 barrier
 )

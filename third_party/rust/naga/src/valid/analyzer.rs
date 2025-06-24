@@ -3211,6 +3211,9 @@ array_index
 offset
 level
 depth_ref
+clamp_to_edge
+:
+_
 }
 =
 >
@@ -4600,7 +4603,15 @@ empty
 S
 :
 :
-Barrier
+ControlBarrier
+(
+_
+)
+|
+S
+:
+:
+MemoryBarrier
 (
 _
 )

@@ -280,7 +280,15 @@ SubgroupGather
 S
 :
 :
-Barrier
+ControlBarrier
+(
+_
+)
+|
+S
+:
+:
+MemoryBarrier
 (
 _
 )

@@ -3910,6 +3910,9 @@ Handle
 Expression
 >
 >
+clamp_to_edge
+:
+bool
 }
 ImageLoad
 {
@@ -4546,7 +4549,11 @@ Expression
 >
 }
 Kill
+ControlBarrier
+(
 Barrier
+)
+MemoryBarrier
 (
 Barrier
 )

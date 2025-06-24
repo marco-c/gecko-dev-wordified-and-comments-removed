@@ -11606,7 +11606,7 @@ crate
 Statement
 :
 :
-Barrier
+ControlBarrier
 (
 crate
 :
@@ -11857,6 +11857,9 @@ depth_ref
 comps
 .
 depth_ref
+clamp_to_edge
+:
+false
 }
 meta
 )

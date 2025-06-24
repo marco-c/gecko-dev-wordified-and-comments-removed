@@ -2537,6 +2537,13 @@ writer
 :
 :
 F2U64_FUNCTION
+super
+:
+:
+writer
+:
+:
+IMAGE_SAMPLE_BASE_CLAMP_TO_EDGE_FUNCTION
 ]
 ;
 pub

@@ -709,6 +709,9 @@ offset
 ref
 level
 depth_ref
+clamp_to_edge
+:
+_
 }
 =
 >
@@ -1626,6 +1629,9 @@ level
 ref
 mut
 depth_ref
+clamp_to_edge
+:
+_
 }
 =
 >

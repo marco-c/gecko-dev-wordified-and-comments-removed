@@ -2019,6 +2019,13 @@ help
 :
 WrappedArrayLength
 )
+ImageSample
+(
+help
+:
+:
+WrappedImageSample
+)
 ImageQuery
 (
 help
