@@ -630,6 +630,11 @@ sse41
 no
 -
 sse42
+-
+-
+no
+-
+fjcvtzs
 #
 arm
 specific
