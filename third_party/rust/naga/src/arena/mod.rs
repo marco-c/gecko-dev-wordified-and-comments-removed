@@ -1299,17 +1299,6 @@ Ok
 )
 )
 }
-#
-[
-cfg
-(
-feature
-=
-"
-compact
-"
-)
-]
 pub
 (
 crate

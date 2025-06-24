@@ -36,6 +36,7 @@ ffi
 :
 :
 {
+c_int
 c_void
 CStr
 }
@@ -58,13 +59,6 @@ std
 :
 :
 {
-os
-:
-:
-raw
-:
-:
-c_int
 sync
 :
 :

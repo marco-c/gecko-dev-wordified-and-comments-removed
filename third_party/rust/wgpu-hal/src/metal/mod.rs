@@ -70,12 +70,6 @@ atomic
 }
 ;
 use
-std
-:
-:
-thread
-;
-use
 arrayvec
 :
 :
@@ -1629,12 +1623,6 @@ wgt
 :
 Extent3d
 >
-main_thread_id
-:
-thread
-:
-:
-ThreadId
 pub
 present_with_transaction
 :

@@ -1,4 +1,7 @@
 mod
+blas
+;
+mod
 buffer
 ;
 mod
@@ -40,6 +43,13 @@ snatch
 :
 :
 SnatchGuard
+track
+:
+:
+blas
+:
+:
+BlasTracker
 }
 ;
 use
@@ -2308,13 +2318,7 @@ TextureTracker
 pub
 blas_s
 :
-StatelessTracker
-<
-resource
-:
-:
-Blas
->
+BlasTracker
 pub
 tlas_s
 :
@@ -2418,7 +2422,7 @@ new
 )
 blas_s
 :
-StatelessTracker
+BlasTracker
 :
 :
 new

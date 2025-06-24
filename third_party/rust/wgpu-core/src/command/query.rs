@@ -58,7 +58,7 @@ command
 :
 {
 CommandBuffer
-CommandEncoderError
+EncoderStateError
 }
 device
 :
@@ -553,13 +553,13 @@ error
 transparent
 )
 ]
-Encoder
+EncoderState
 (
 #
 [
 from
 ]
-CommandEncoderError
+EncoderStateError
 )
 #
 [
