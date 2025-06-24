@@ -594,6 +594,16 @@ exclude_third_party_trackers
 "
 false
 ]
+[
+"
+network
+.
+lna
+.
+block_trackers
+"
+false
+]
 ]
 }
 )
