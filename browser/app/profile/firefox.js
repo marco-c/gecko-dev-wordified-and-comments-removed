@@ -12161,7 +12161,7 @@ hideDescriptions
 .
 enabled
 "
-false
+true
 )
 ;
 pref
