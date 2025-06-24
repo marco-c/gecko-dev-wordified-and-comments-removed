@@ -130,6 +130,18 @@ privatebrowsing
 interactor
 .
 PrivateBrowsingInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+ui
+.
+PrivateBrowsingDescription
 /
 *
 *
@@ -244,7 +256,7 @@ Content
 (
 )
 {
-FeltPrivacyModeInfoCard
+PrivateBrowsingDescription
 (
 onLearnMoreClick
 =

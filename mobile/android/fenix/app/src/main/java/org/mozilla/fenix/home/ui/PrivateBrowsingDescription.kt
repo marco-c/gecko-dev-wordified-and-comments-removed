@@ -65,9 +65,7 @@ fenix
 .
 home
 .
-sessioncontrol
-.
-viewholders
+ui
 import
 androidx
 .
@@ -385,7 +383,7 @@ class
 )
 Composable
 fun
-FeltPrivacyModeInfoCard
+PrivateBrowsingDescription
 (
 onLearnMoreClick
 :
@@ -655,7 +653,7 @@ fillMaxSize
 )
 )
 {
-FeltPrivacyModeInfoCard
+PrivateBrowsingDescription
 (
 onLearnMoreClick
 =
