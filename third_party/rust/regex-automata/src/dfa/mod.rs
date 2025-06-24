@@ -26,7 +26,6 @@ automaton
 {
 Automaton
 OverlappingState
-StartError
 }
 start
 :

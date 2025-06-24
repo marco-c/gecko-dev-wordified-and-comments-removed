@@ -177,7 +177,7 @@ MatchError
 :
 gave_up
 (
-24
+25
 )
 ;
 assert_eq
@@ -316,7 +316,7 @@ MatchError
 :
 gave_up
 (
-26
+27
 )
 ;
 assert_eq

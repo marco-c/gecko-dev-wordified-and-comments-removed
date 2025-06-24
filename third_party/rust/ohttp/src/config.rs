@@ -1429,8 +1429,7 @@ Unsupported
 )
 =
 >
-{
-}
+continue
 Err
 (
 e

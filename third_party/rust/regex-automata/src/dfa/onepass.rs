@@ -845,10 +845,6 @@ NFA
 -
 >
 InternalBuilder
-<
-'
-a
->
 {
 let
 classes
@@ -7190,7 +7186,6 @@ PatternEpsilons
 PATTERN_ID_MASK
 )
 |
-(
 u64
 :
 :
@@ -7199,12 +7194,6 @@ from
 epsilons
 .
 0
-)
-&
-PatternEpsilons
-:
-:
-EPSILONS_MASK
 )
 )
 }
@@ -7520,7 +7509,7 @@ Epsilons
 LOOK_MASK
 )
 .
-low_u32
+low_u16
 (
 )
 }
@@ -7550,7 +7539,6 @@ Epsilons
 SLOT_MASK
 )
 |
-(
 u64
 :
 :
@@ -7559,12 +7547,6 @@ from
 look_set
 .
 bits
-)
-&
-Epsilons
-:
-:
-LOOK_MASK
 )
 )
 }

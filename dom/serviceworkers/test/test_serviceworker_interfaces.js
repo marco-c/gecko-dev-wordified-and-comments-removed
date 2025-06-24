@@ -1242,9 +1242,6 @@ TransformStreamDefaultController
 URL
 "
 "
-URLPattern
-"
-"
 URLSearchParams
 "
 "

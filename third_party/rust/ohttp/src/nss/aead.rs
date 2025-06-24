@@ -1032,10 +1032,10 @@ add
 (
 pt_expected
 )
-.
-cast_mut
-(
-)
+as
+*
+mut
+_
 c_int_len
 (
 TAG_LEN
