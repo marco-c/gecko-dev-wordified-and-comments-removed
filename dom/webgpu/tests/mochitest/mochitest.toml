@@ -387,3 +387,10 @@ test_adapter_enabled
 html
 "
 ]
+[
+"
+test_submit_render_multiple
+.
+html
+"
+]

@@ -8282,6 +8282,13 @@ if
 recycledTexture
 )
 {
+recycledTexture
+-
+>
+CleanForRecycling
+(
+)
+;
 data
 -
 >
