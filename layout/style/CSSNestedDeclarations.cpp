@@ -590,6 +590,7 @@ css
 Rule
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+const
 StyleLockedDeclarationBlock
 *
 CSSNestedDeclarations

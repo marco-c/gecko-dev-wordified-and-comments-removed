@@ -861,6 +861,7 @@ aCssText
 )
 ;
 }
+const
 StyleLockedDeclarationBlock
 *
 CSSStyleRule

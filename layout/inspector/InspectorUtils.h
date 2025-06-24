@@ -80,9 +80,6 @@ mozilla
 dom
 {
 class
-CSSStyleRule
-;
-class
 InspectorUtils
 {
 public
@@ -130,13 +127,7 @@ bool
 aWithStartingStyle
 nsTArray
 <
-RefPtr
-<
-css
-:
-:
-Rule
->
+OwningCSSRuleOrInspectorDeclaration
 >
 &
 aResult

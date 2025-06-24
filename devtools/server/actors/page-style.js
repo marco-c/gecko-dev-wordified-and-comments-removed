@@ -3633,6 +3633,16 @@ domRules
 i
 ]
 ;
+if
+(
+domRule
+.
+declarationOrigin
+)
+{
+continue
+;
+}
 const
 isSystem
 =

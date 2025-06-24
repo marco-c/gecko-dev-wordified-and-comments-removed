@@ -5823,6 +5823,7 @@ SVGElement
 :
 UpdateDeclarationBlockFromLength
 (
+const
 StyleLockedDeclarationBlock
 &
 aBlock
@@ -5974,6 +5975,7 @@ SVGElement
 :
 UpdateDeclarationBlockFromPath
 (
+const
 StyleLockedDeclarationBlock
 &
 aBlock
@@ -6495,6 +6497,7 @@ SVGElement
 :
 UpdateDeclarationBlockFromTransform
 (
+const
 StyleLockedDeclarationBlock
 &
 aBlock
