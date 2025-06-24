@@ -13505,6 +13505,11 @@ CreateFromClient
 mClientType
 )
 true
+false
+DirectoryLockCategory
+:
+:
+UninitClients
 )
 ;
 }
@@ -14914,6 +14919,10 @@ CreateFromClient
 mClientType
 )
 true
+DirectoryLockCategory
+:
+:
+UninitClients
 )
 ;
 return
