@@ -232,8 +232,6 @@ RequestKeyFrame
 void
 KeyFrameRequestDone
 (
-bool
-aSuccess
 )
 ;
 bool

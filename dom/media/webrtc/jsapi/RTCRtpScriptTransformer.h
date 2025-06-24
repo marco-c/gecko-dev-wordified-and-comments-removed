@@ -610,8 +610,6 @@ SendKeyFrameRequest
 void
 KeyFrameRequestDone
 (
-bool
-aSuccess
 )
 ;
 using
