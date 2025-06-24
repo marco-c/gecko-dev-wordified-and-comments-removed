@@ -1016,10 +1016,11 @@ define
 HITHEME_ORIENTATION
 kHIThemeOrientationNormal
 static
+constexpr
 CGFloat
 kMaxFocusRingWidth
 =
-0
+7
 ;
 enum
 class
@@ -1557,10 +1558,6 @@ ScrollbarStyle
 )
 {
 NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
-;
-kMaxFocusRingWidth
-=
-7
 ;
 nsAutoreleasePool
 pool
