@@ -2108,8 +2108,6 @@ line
 frame
 .
 line
--
-1
 ;
 const
 column
