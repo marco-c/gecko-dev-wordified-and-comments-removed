@@ -2,6 +2,17 @@ skip_on
 (
 android
 )
+fuzzy
+-
+if
+(
+platform
+(
+win
+)
+1
+48
+)
 =
 =
 color_targets
