@@ -3118,6 +3118,10 @@ let
 redirect
 of
 redirects
+.
+enumerate
+(
+)
 )
 {
 resources
