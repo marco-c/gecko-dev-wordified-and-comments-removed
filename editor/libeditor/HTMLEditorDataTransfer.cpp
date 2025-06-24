@@ -4301,16 +4301,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-editor_white_space_normalization_blink_compatible
-(
-)
-)
-{
 Result
 <
 EditorDOMPoint
@@ -4396,7 +4386,6 @@ Err
 NS_ERROR_EDITOR_UNEXPECTED_DOM_TREE
 )
 ;
-}
 }
 const
 bool
