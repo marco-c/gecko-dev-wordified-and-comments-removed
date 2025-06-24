@@ -584,6 +584,7 @@ if
 (
 result
 >
+=
 double
 (
 INT64_MAX
@@ -598,6 +599,7 @@ if
 (
 result
 <
+=
 INT64_MIN
 )
 {
