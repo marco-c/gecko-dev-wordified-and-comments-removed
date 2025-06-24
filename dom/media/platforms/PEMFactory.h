@@ -155,6 +155,11 @@ aLocation
 private
 :
 void
+InitGpuPEMs
+(
+)
+;
+void
 InitRddPEMs
 (
 )
