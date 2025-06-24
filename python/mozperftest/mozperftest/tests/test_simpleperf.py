@@ -362,6 +362,20 @@ result
 =
 metadata
     
+assert
+metadata
+.
+get_extra_options
+(
+)
+=
+=
+[
+"
+simpleperf
+"
+]
+    
 profiler
 .
 teardown

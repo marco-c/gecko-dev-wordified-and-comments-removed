@@ -1295,5 +1295,16 @@ ProfilerMediator
 "
 "
         
+metadata
+.
+add_extra_options
+(
+[
+"
+simpleperf
+"
+]
+)
+        
 return
 metadata
