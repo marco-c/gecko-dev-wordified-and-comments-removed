@@ -2675,12 +2675,14 @@ name
 preference_autocomplete_add_example2
 "
 >
+\
 "
 V
 :
 mozilla
 .
 org
+\
 "
 <
 /
@@ -3338,6 +3340,7 @@ name
 preference_default_browser2
 "
 >
+\
 "
 M
 -
@@ -3352,6 +3355,7 @@ l
 s
 =
 l
+\
 "
 <
 /

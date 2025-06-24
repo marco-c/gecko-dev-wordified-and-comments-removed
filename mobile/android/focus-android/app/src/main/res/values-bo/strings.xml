@@ -1421,8 +1421,10 @@ name
 preference_privacy_and_security_summary
 "
 >
+\
 "
 cookies
+\
 "
 <
 /
@@ -2085,8 +2087,10 @@ name
 preference_autocomplete_action_add
 "
 >
+\
 "
 +
+\
 "
 <
 /
@@ -2978,10 +2982,12 @@ name
 preference_default_browser2
 "
 >
+\
 "
 %
 1
 s
+\
 "
 <
 /
@@ -3364,6 +3370,7 @@ name
 search_add_manually_example
 "
 >
+\
 "
 example
 .
@@ -3376,6 +3383,7 @@ q
 =
 %
 s
+\
 "
 <
 /
@@ -5199,6 +5207,7 @@ name
 accessibility_find_in_page_result
 "
 >
+\
 "
 %
 1
@@ -5206,6 +5215,7 @@ d
 %
 1
 d
+\
 "
 <
 /
