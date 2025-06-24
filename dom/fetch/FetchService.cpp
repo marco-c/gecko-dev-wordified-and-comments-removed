@@ -1507,7 +1507,16 @@ GetMainThreadSerialEventTarget
 )
 mCookieJarSettings
 mPerformanceStorage
-false
+net
+:
+:
+ClassificationFlags
+(
+{
+0
+0
+}
+)
 )
 ;
 if
