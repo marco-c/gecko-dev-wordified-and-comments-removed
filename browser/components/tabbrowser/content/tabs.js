@@ -13878,6 +13878,17 @@ draggedTab
 &
 !
 isPinned
+&
+&
+(
+!
+numPinned
+|
+|
+newDropElementIndex
+>
+numPinned
+)
 )
 {
 let
