@@ -79473,7 +79473,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -79561,7 +79561,7 @@ type
 RelaxedAtomicUint32
 value
 :
-1
+2
 mirror
 :
 always
