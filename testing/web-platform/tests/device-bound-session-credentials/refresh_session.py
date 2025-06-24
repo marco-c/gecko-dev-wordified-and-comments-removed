@@ -62,6 +62,24 @@ set_has_called_refresh
 True
 )
     
+if
+test_session_manager
+.
+get_refresh_endpoint_unavailable
+(
+)
+:
+        
+return
+(
+500
+response
+.
+headers
+"
+"
+)
+    
 session_id_header
 =
 request
