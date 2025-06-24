@@ -900,6 +900,15 @@ aTimestamp
 )
 ;
 void
+UpdateOriginAccessed
+(
+const
+OriginMetadata
+&
+aOriginMetadata
+)
+;
+void
 RemoveQuota
 (
 )
