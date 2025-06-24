@@ -7793,6 +7793,13 @@ PICKER_TYPES
 .
 EYEDROPPER
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 this
 .
