@@ -351,7 +351,7 @@ R
 .
 string
 .
-browser_menu_sign_in_caption
+browser_menu_sign_in_caption_2
 )
 description
 =
