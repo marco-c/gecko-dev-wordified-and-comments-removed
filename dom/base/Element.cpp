@@ -2236,7 +2236,7 @@ if
 pointerInfo
 -
 >
-mActiveState
+mIsActive
 |
 |
 pointerInfo
