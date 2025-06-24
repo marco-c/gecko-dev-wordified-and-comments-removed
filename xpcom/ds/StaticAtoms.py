@@ -10732,6 +10732,16 @@ prefwidth
 Atom
 (
 "
+queue
+"
+"
+queue
+"
+)
+    
+Atom
+(
+"
 dynamicRange
 "
 "
