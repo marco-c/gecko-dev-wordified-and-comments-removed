@@ -1536,6 +1536,10 @@ toolchain
 -
 win64
 -
+clang
+-
+win64
+-
 rust
 -
 vs
