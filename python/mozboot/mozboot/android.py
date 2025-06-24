@@ -1,8 +1,6 @@
 import
 errno
 import
-json
-import
 os
 import
 platform
@@ -35,6 +33,10 @@ mach
 util
 import
 get_state_dir
+from
+mozfile
+import
+json
 from
 tqdm
 import
