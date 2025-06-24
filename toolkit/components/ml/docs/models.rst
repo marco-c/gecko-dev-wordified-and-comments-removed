@@ -137,10 +137,6 @@ xenova
 transformers
 .
 js
-and
-checkout
-branch
-v3
 -
 go
 into
@@ -175,9 +171,11 @@ block
 :
 bash
 python
-convert
+-
+m
+scripts
 .
-py
+convert
 -
 -
 model_id
@@ -201,6 +199,10 @@ the
 inference
 -
 task
+-
+-
+output_parent_dir
+output_models
 You
 will
 get
