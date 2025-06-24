@@ -177,13 +177,6 @@ h
 #
 include
 "
-TaskQueueWrapper
-.
-h
-"
-#
-include
-"
 mtransport_test_utils
 .
 h
@@ -213,6 +206,13 @@ h
 include
 "
 WebrtcEnvironmentWrapper
+.
+h
+"
+#
+include
+"
+WebrtcTaskQueueWrapper
 .
 h
 "
@@ -257,7 +257,7 @@ class
 MainAsCurrent
 :
 public
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :
@@ -271,7 +271,7 @@ MainAsCurrent
 (
 )
 :
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 (
 TaskQueue
 :
@@ -2672,7 +2672,7 @@ main_task_queue_
 (
 WrapUnique
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :
@@ -3296,7 +3296,7 @@ protected
 :
 UniquePtr
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :
