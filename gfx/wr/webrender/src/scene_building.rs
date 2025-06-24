@@ -5324,6 +5324,7 @@ space_and_clip
 clip_chain_id
 )
 false
+false
 )
 ;
 self
@@ -8901,6 +8902,13 @@ composite_ops
 is_empty
 (
 )
+composite_ops
+.
+snapshot
+.
+is_some
+(
+)
 )
 ;
 let
@@ -11455,6 +11463,7 @@ Some
 (
 clip_chain_id
 )
+false
 false
 )
 ;
