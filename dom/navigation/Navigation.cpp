@@ -2507,7 +2507,13 @@ docShell
 >
 ReloadNavigable
 (
+Some
+(
+WrapNotNullUnchecked
+(
 aCx
+)
+)
 nsIWebNavigation
 :
 :

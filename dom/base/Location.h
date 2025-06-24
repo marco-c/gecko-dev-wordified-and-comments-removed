@@ -145,9 +145,13 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Reload
 (
+JSContext
+*
+aCx
 bool
 aForceget
 nsIPrincipal

@@ -328,6 +328,15 @@ aRv
 )
 const
 {
+if
+(
+!
+mState
+)
+{
+return
+;
+}
 nsresult
 rv
 =
