@@ -98248,7 +98248,7 @@ false
 else
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 endif
 mirror
@@ -98580,7 +98580,7 @@ true
 else
 value
 :
-IS_NOT_NIGHTLY_BUILD
+false
 #
 endif
 mirror
