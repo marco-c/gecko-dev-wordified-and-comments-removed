@@ -1015,6 +1015,14 @@ limits
 ;
 [
 SameObject
+]
+readonly
+attribute
+GPUAdapterInfo
+adapterInfo
+;
+[
+SameObject
 BinaryName
 =
 "
