@@ -5424,7 +5424,7 @@ persistDefaultIfNotExists
 true
 )
 var
-shouldUseExpandedToolbar
+shouldUseSimpleToolbar
 by
 booleanPreference
 (
@@ -5438,11 +5438,11 @@ R
 .
 string
 .
-pref_key_toolbar_expanded
+pref_key_toolbar_simple
 )
 default
 =
-false
+true
 persistDefaultIfNotExists
 =
 true
@@ -9650,7 +9650,7 @@ Indicates
 if
 the
 user
-have
+has
 access
 to
 the
@@ -9662,8 +9662,6 @@ settings
 .
 *
 /
-VisibleForTesting
-internal
 var
 toolbarRedesignEnabled
 by
