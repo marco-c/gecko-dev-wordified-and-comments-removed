@@ -1549,10 +1549,6 @@ false
 scrolled
 =
 false
-.
-tracked
-=
-false
 }
 ;
 UniquePtr
@@ -1589,10 +1585,6 @@ render
 aCompositeNeeded
 .
 scrolled
-=
-false
-.
-tracked
 =
 false
 }
@@ -1816,6 +1808,8 @@ wr
 FrameReadyParams
 &
 aParams
+bool
+aTrackedFrame
 Maybe
 <
 FramePublishId
@@ -1862,6 +1856,8 @@ wr
 :
 FrameReadyParams
 &
+bool
+aTrackedFrame
 Maybe
 <
 FramePublishId

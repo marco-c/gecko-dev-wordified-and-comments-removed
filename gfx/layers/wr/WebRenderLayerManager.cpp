@@ -2310,18 +2310,9 @@ reset
 }
 if
 (
+!
 aRenderOffscreen
 )
-{
-mStateManager
-.
-DiscardUnusedImagesInTransaction
-(
-resourceUpdates
-)
-;
-}
-else
 {
 mStateManager
 .
@@ -2330,6 +2321,7 @@ DiscardImagesInTransaction
 resourceUpdates
 )
 ;
+}
 WrBridge
 (
 )
@@ -2340,7 +2332,6 @@ RemoveExpiredFontKeys
 resourceUpdates
 )
 ;
-}
 if
 (
 !

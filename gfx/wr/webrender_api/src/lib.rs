@@ -898,10 +898,6 @@ pub
 scrolled
 :
 bool
-pub
-tracked
-:
-bool
 }
 pub
 trait

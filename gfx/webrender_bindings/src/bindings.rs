@@ -11514,10 +11514,12 @@ txn
 &
 mut
 Transaction
-params
+id
 :
-&
-GenerateFrameParams
+u64
+present
+:
+bool
 reasons
 :
 RenderReasons
@@ -11527,7 +11529,8 @@ txn
 .
 generate_frame
 (
-params
+id
+present
 reasons
 )
 ;
