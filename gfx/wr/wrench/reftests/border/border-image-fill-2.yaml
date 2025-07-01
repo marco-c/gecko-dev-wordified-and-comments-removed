@@ -142,12 +142,6 @@ image
 height
 :
 50
-slice
-:
-[
-20
-40
-]
 repeat
 -
 vertical
