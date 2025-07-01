@@ -1,5 +1,13 @@
 import
+asyncio
+import
 pytest
+from
+webdriver
+.
+error
+import
+WebDriverException
 URL
 =
 "
@@ -185,6 +193,18 @@ click
 (
 )
     
+for
+_
+in
+range
+(
+5
+)
+:
+        
+try
+:
+            
 client
 .
 await_css
@@ -197,6 +217,22 @@ True
 .
 click
 (
+)
+            
+break
+        
+except
+WebDriverException
+:
+            
+await
+asyncio
+.
+sleep
+(
+0
+.
+5
 )
     
 client
