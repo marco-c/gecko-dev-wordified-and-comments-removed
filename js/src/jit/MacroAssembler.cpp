@@ -6171,15 +6171,15 @@ size_t
 StringCharsByteLength
 (
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 )
 {
 CharEncoding
 encoding
 =
-linear
+str
 -
 >
 hasLatin1Chars
@@ -6221,7 +6221,7 @@ char16_t
 )
 ;
 return
-linear
+str
 -
 >
 length
@@ -6238,9 +6238,9 @@ MacroAssembler
 canCompareStringCharsInline
 (
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 )
 {
 constexpr
@@ -6254,7 +6254,7 @@ byteLength
 =
 StringCharsByteLength
 (
-linear
+str
 )
 ;
 return
@@ -6321,9 +6321,9 @@ T
 CopyCharacters
 (
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 size_t
 index
 )
@@ -6336,7 +6336,7 @@ nogc
 ;
 if
 (
-linear
+str
 -
 >
 hasLatin1Chars
@@ -6362,7 +6362,7 @@ Latin1Char
 )
 <
 =
-linear
+str
 -
 >
 length
@@ -6376,7 +6376,7 @@ CopyCharacters
 T
 >
 (
-linear
+str
 -
 >
 latin1Chars
@@ -6417,7 +6417,7 @@ char16_t
 )
 <
 =
-linear
+str
 -
 >
 length
@@ -6431,7 +6431,7 @@ CopyCharacters
 T
 >
 (
-linear
+str
 -
 >
 twoByteChars
@@ -6452,9 +6452,9 @@ branchIfNotStringCharsEquals
 Register
 stringChars
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Label
 *
 label
@@ -6463,7 +6463,7 @@ label
 CharEncoding
 encoding
 =
-linear
+str
 -
 >
 hasLatin1Chars
@@ -6509,7 +6509,7 @@ byteLength
 =
 StringCharsByteLength
 (
-linear
+str
 )
 ;
 size_t
@@ -6564,7 +6564,7 @@ CopyCharacters
 uint64_t
 >
 (
-linear
+str
 pos
 )
 ;
@@ -6597,7 +6597,7 @@ CopyCharacters
 uint32_t
 >
 (
-linear
+str
 pos
 )
 ;
@@ -6630,7 +6630,7 @@ CopyCharacters
 uint16_t
 >
 (
-linear
+str
 pos
 )
 ;
@@ -6663,7 +6663,7 @@ CopyCharacters
 uint8_t
 >
 (
-linear
+str
 pos
 )
 ;
@@ -6765,7 +6765,7 @@ CopyCharacters
 uint64_t
 >
 (
-linear
+str
 prev
 )
 ;
@@ -6798,7 +6798,7 @@ CopyCharacters
 uint32_t
 >
 (
-linear
+str
 prev
 )
 ;
@@ -6834,9 +6834,9 @@ loadStringCharsForCompare
 Register
 input
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Register
 stringChars
 Label
@@ -6847,7 +6847,7 @@ fail
 CharEncoding
 encoding
 =
-linear
+str
 -
 >
 hasLatin1Chars
@@ -6903,7 +6903,7 @@ mozilla
 :
 IsUtf16Latin1
 (
-linear
+str
 -
 >
 twoByteRange
@@ -6963,7 +6963,7 @@ DEBUG
 size_t
 length
 =
-linear
+str
 -
 >
 length
@@ -7047,9 +7047,9 @@ op
 Register
 stringChars
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Register
 output
 )
@@ -7067,7 +7067,7 @@ byteLength
 =
 StringCharsByteLength
 (
-linear
+str
 )
 ;
 if
@@ -7129,7 +7129,7 @@ CopyCharacters
 uint64_t
 >
 (
-linear
+str
 0
 )
 ;
@@ -7159,7 +7159,7 @@ CopyCharacters
 uint32_t
 >
 (
-linear
+str
 0
 )
 ;
@@ -7189,7 +7189,7 @@ CopyCharacters
 uint16_t
 >
 (
-linear
+str
 0
 )
 ;
@@ -7219,7 +7219,7 @@ CopyCharacters
 uint8_t
 >
 (
-linear
+str
 0
 )
 ;
@@ -7247,7 +7247,7 @@ setNotEqualResult
 branchIfNotStringCharsEquals
 (
 stringChars
-linear
+str
 &
 setNotEqualResult
 )
@@ -19810,7 +19810,7 @@ guardSpecificAtom
 (
 Register
 str
-JSAtom
+JSOffThreadAtom
 *
 atom
 Register
