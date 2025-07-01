@@ -25,7 +25,6 @@ GtkWidget
 GetWidget
 (
 WidgetNodeType
-aNodeType
 )
 ;
 GtkStyleContext
