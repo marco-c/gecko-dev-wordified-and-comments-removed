@@ -3474,11 +3474,6 @@ FormAutofillUtils
 .
 setOSAuthEnabled
 (
-lazy
-.
-FormAutofillUtils
-.
-AUTOFILL_CREDITCARDS_REAUTH_PREF
 false
 )
 ;

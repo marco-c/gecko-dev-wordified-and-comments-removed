@@ -2033,9 +2033,6 @@ FormAutofillUtils
 .
 getOSAuthEnabled
 (
-FormAutofillUtils
-.
-AUTOFILL_CREDITCARDS_REAUTH_PREF
 )
 ;
 }
@@ -2175,9 +2172,6 @@ FormAutofillUtils
 .
 getOSAuthEnabled
 (
-FormAutofillUtils
-.
-AUTOFILL_CREDITCARDS_REAUTH_PREF
 )
 ;
 }

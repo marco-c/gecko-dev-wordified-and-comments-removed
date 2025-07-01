@@ -4157,11 +4157,6 @@ FormAutofillUtils
 .
 getOSAuthEnabled
 (
-lazy
-.
-FormAutofill
-.
-AUTOFILL_CREDITCARDS_REAUTH_PREF
 )
 )
 {
