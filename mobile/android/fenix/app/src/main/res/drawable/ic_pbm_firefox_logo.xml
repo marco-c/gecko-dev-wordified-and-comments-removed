@@ -1742,8 +1742,10 @@ android
 fillColor
 =
 "
-#
-FBFBFE
+?
+attr
+/
+textPrimary
 "
 android
 :
