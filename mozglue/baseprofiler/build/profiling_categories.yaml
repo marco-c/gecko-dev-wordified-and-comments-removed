@@ -1166,6 +1166,13 @@ decoding
 -
 name
 :
+GRAPHICS_WebGPU
+label
+:
+WebGPU
+-
+name
+:
 DOM
 label
 :
