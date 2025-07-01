@@ -1428,7 +1428,7 @@ R
 .
 string
 .
-pref_key_private_browsing_locked_enabled
+pref_key_private_browsing_locked
 )
 )
 )
