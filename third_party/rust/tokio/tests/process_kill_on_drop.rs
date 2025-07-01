@@ -11,6 +11,10 @@ feature
 "
 process
 "
+not
+(
+miri
+)
 )
 )
 ]

@@ -29,6 +29,13 @@ len
 (
 )
 }
+}
+cfg_unstable_metrics
+!
+{
+impl
+Shared
+{
 pub
 (
 crate
@@ -58,5 +65,6 @@ steal
 len
 (
 )
+}
 }
 }

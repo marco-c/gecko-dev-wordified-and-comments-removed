@@ -57,6 +57,14 @@ tokio
 :
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 test_hard_link

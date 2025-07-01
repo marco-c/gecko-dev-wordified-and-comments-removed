@@ -431,6 +431,14 @@ full
 "
 )
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 aborted_future_1
@@ -912,11 +920,11 @@ format
 (
 "
 {
+s
 :
 ?
 }
 "
-s
 )
 format
 !

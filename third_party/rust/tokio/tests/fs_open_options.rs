@@ -518,9 +518,9 @@ mode
 is
 :
 {
+mode
 }
 "
-mode
 )
 ;
 }

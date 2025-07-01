@@ -52,6 +52,14 @@ test
 [
 should_panic
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 fn
 no_runtime_panics_binding_net_tcp_listener
 (

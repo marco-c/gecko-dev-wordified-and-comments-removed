@@ -25,12 +25,6 @@ bytes
 BytesMut
 ;
 use
-futures
-:
-:
-ready
-;
-use
 tokio
 :
 :
@@ -69,6 +63,7 @@ task
 :
 :
 {
+ready
 Context
 Poll
 }

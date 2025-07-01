@@ -213,6 +213,13 @@ poll_evented
 PollEvented
 ;
 }
+#
+[
+cfg
+(
+unix
+)
+]
 cfg_aio
 !
 {
@@ -393,6 +400,7 @@ duplex
 empty
 repeat
 sink
+simplex
 AsyncBufReadExt
 AsyncReadExt
 AsyncSeekExt
@@ -407,6 +415,7 @@ Repeat
 Sink
 Split
 Take
+SimplexStream
 }
 ;
 }

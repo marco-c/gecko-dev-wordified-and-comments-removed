@@ -65,13 +65,9 @@ mod
 rt_multi_thread
 ;
 }
-cfg_unstable_metrics
-!
-{
 mod
 metrics
 ;
-}
 pub
 (
 crate

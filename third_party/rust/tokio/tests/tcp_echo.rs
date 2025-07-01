@@ -26,6 +26,10 @@ target_os
 wasi
 "
 )
+not
+(
+miri
+)
 )
 )
 ]

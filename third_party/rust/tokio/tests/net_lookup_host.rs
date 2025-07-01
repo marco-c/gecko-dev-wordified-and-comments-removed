@@ -228,6 +228,14 @@ tokio
 :
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 resolve_dns

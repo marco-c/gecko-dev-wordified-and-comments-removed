@@ -479,6 +479,14 @@ tokio
 :
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 read_to_end_doesnt_grow_with_capacity

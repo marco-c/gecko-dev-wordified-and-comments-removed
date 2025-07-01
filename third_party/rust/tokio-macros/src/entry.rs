@@ -214,6 +214,7 @@ such
 runtime
 flavor
 {
+s
 }
 .
 The
@@ -225,7 +226,6 @@ and
 multi_thread
 .
 "
-s
 )
 )
 }
@@ -307,6 +307,7 @@ unhandled
 panic
 behavior
 {
+s
 }
 .
 The
@@ -319,7 +320,6 @@ and
 shutdown_runtime
 .
 "
-s
 )
 )
 }
@@ -1709,15 +1709,15 @@ parse
 value
 of
 {
+field
 }
 as
 integer
 :
 {
+e
 }
 "
-field
-e
 )
 )
 )
@@ -1746,12 +1746,12 @@ parse
 value
 of
 {
+field
 }
 as
 integer
 .
 "
-field
 )
 )
 )
@@ -1852,12 +1852,12 @@ parse
 value
 of
 {
+field
 }
 as
 string
 .
 "
-field
 )
 )
 )
@@ -1999,12 +1999,12 @@ parse
 value
 of
 {
+field
 }
 as
 path
 .
 "
-field
 )
 )
 )
@@ -2083,12 +2083,12 @@ parse
 value
 of
 {
+field
 }
 as
 bool
 .
 "
-field
 )
 )
 )
@@ -2528,6 +2528,7 @@ format
 Unknown
 attribute
 {
+name
 }
 is
 specified
@@ -2542,7 +2543,6 @@ start_paused
 crate
 unhandled_panic
 "
-name
 )
 ;
 return
@@ -2650,6 +2650,7 @@ with
 #
 [
 {
+macro_name
 }
 (
 flavor
@@ -2663,7 +2664,6 @@ multi_thread
 ]
 .
 "
-macro_name
 )
 }
 "
@@ -2692,6 +2692,7 @@ with
 #
 [
 {
+macro_name
 }
 (
 flavor
@@ -2705,7 +2706,6 @@ current_thread
 ]
 .
 "
-macro_name
 )
 }
 "
@@ -2736,6 +2736,7 @@ format
 "
 The
 {
+name
 }
 attribute
 requires
@@ -2743,7 +2744,6 @@ an
 argument
 .
 "
-name
 )
 }
 name
@@ -2757,6 +2757,7 @@ format
 Unknown
 attribute
 {
+name
 }
 is
 specified
@@ -2772,7 +2773,6 @@ crate
 unhandled_panic
 .
 "
-name
 )
 }
 }
@@ -3202,6 +3202,10 @@ clippy
 :
 :
 diverging_sub_expression
+clippy
+:
+:
+needless_return
 )
 ]
 {

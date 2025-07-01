@@ -1179,6 +1179,14 @@ wasi
 ]
 #
 [
+cfg_attr
+(
+miri
+ignore
+)
+]
+#
+[
 tokio
 :
 :

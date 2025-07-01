@@ -73,6 +73,15 @@ RefUnwindSafe
 UnwindSafe
 }
 ;
+use
+std
+:
+:
+task
+:
+:
+ready
+;
 cfg_io_driver
 !
 {

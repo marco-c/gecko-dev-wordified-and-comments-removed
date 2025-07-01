@@ -11,15 +11,6 @@ batch_semaphore
 *
 ;
 use
-futures
-:
-:
-future
-:
-:
-poll_fn
-;
-use
 loom
 :
 :
@@ -53,7 +44,10 @@ std
 future
 :
 :
+{
+poll_fn
 Future
+}
 ;
 use
 std

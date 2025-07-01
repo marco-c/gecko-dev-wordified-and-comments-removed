@@ -77,6 +77,7 @@ task
 :
 {
 self
+ready
 Poll
 }
 ;
@@ -643,6 +644,9 @@ tracing
 trace_span
 !
 (
+parent
+:
+None
 "
 runtime
 .
@@ -1310,7 +1314,7 @@ poll_elapsed
 crate
 :
 :
-runtime
+task
 :
 :
 coop
@@ -1353,7 +1357,7 @@ ready
 crate
 :
 :
-runtime
+task
 :
 :
 coop
@@ -1638,9 +1642,9 @@ timer
 error
 :
 {
+e
 }
 "
-e
 )
 }
 }

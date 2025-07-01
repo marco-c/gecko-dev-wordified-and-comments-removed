@@ -26,6 +26,10 @@ target_os
 wasi
 "
 )
+not
+(
+miri
+)
 )
 )
 ]
@@ -739,11 +743,11 @@ panic
 message
 :
 {
+err
 :
 ?
 }
 "
-err
 )
 ;
 }

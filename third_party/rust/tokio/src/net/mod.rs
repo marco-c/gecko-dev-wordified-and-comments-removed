@@ -97,6 +97,13 @@ TcpSocket
 mod
 udp
 ;
+#
+[
+doc
+(
+inline
+)
+]
 pub
 use
 udp

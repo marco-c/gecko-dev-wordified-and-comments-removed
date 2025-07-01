@@ -26,6 +26,17 @@ cfg
 windows
 )
 ]
+#
+!
+[
+cfg
+(
+not
+(
+miri
+)
+)
+]
 use
 tokio
 :

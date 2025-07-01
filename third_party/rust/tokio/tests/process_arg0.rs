@@ -19,6 +19,10 @@ feature
 full
 "
 unix
+not
+(
+miri
+)
 )
 )
 ]

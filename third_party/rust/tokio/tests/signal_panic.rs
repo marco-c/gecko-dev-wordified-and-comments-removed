@@ -38,6 +38,17 @@ unwind
 "
 )
 ]
+#
+!
+[
+cfg
+(
+not
+(
+miri
+)
+)
+]
 use
 std
 :

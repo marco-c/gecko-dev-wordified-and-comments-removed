@@ -64,10 +64,7 @@ Poll
 [
 cfg
 (
-not
-(
-docsrs
-)
+windows
 )
 ]
 #
@@ -89,10 +86,7 @@ imp
 [
 cfg
 (
-not
-(
-docsrs
-)
+windows
 )
 ]
 pub
@@ -115,7 +109,10 @@ OsStorage
 [
 cfg
 (
-docsrs
+not
+(
+windows
+)
 )
 ]
 #

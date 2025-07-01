@@ -34,6 +34,10 @@ target_os
 dragonfly
 "
 )
+not
+(
+miri
+)
 )
 )
 ]

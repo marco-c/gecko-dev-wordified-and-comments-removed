@@ -48,6 +48,14 @@ tokio
 :
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 try_exists

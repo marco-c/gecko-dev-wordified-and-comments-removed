@@ -78,6 +78,14 @@ tokio
 :
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 async
 fn
 echo_server

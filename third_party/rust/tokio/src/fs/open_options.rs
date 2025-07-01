@@ -399,6 +399,17 @@ std
 )
 )
 }
+#
+[
+cfg
+(
+any
+(
+windows
+unix
+)
+)
+]
 pub
 (
 super

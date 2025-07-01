@@ -1,15 +1,6 @@
 #
 !
 [
-allow
-(
-unknown_lints
-unexpected_cfgs
-)
-]
-#
-!
-[
 warn
 (
 rust_2018_idioms
@@ -2649,6 +2640,7 @@ not
 complete
 within
 {
+timeout
 :
 ?
 }
@@ -2665,7 +2657,6 @@ infinite
 loop
 !
 "
-timeout
 )
 Err
 (

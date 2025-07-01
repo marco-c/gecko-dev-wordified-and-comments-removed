@@ -375,7 +375,7 @@ entry
 ;
 block_on
 (
-futures
+std
 :
 :
 future
@@ -386,7 +386,6 @@ poll_fn
 |
 cx
 |
-{
 entry
 .
 as_mut
@@ -397,7 +396,6 @@ poll_elapsed
 (
 cx
 )
-}
 )
 )
 .
@@ -449,7 +447,6 @@ time
 .
 process_at_time
 (
-0
 time
 .
 time_source
@@ -679,7 +676,6 @@ time
 .
 process_at_time
 (
-0
 time
 .
 time_source
@@ -837,7 +833,7 @@ noop_waker_ref
 ;
 block_on
 (
-futures
+std
 :
 :
 future
@@ -848,7 +844,6 @@ poll_fn
 |
 cx
 |
-{
 entry
 .
 as_mut
@@ -859,7 +854,6 @@ poll_elapsed
 (
 cx
 )
-}
 )
 )
 .
@@ -911,7 +905,6 @@ time
 .
 process_at_time
 (
-0
 time
 .
 time_source
@@ -1120,7 +1113,7 @@ true
 ;
 block_on
 (
-futures
+std
 :
 :
 future
@@ -1131,7 +1124,6 @@ poll_fn
 |
 cx
 |
-{
 entry
 .
 as_mut
@@ -1142,7 +1134,6 @@ poll_elapsed
 (
 cx
 )
-}
 )
 )
 .
@@ -1190,7 +1181,6 @@ handle
 .
 process_at_time
 (
-0
 handle
 .
 time_source
@@ -1230,7 +1220,6 @@ handle
 .
 process_at_time
 (
-0
 handle
 .
 time_source
@@ -1481,7 +1470,6 @@ time
 .
 process_at_time
 (
-0
 t
 as
 u64
@@ -1687,7 +1675,6 @@ handle
 .
 process_at_time
 (
-0
 62
 )
 ;
@@ -1716,7 +1703,6 @@ handle
 .
 process_at_time
 (
-0
 192
 )
 ;
@@ -1724,7 +1710,6 @@ handle
 .
 process_at_time
 (
-0
 192
 )
 ;

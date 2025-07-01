@@ -107,10 +107,7 @@ BufMut
 [
 cfg
 (
-not
-(
-docsrs
-)
+windows
 )
 ]
 mod
@@ -208,7 +205,10 @@ mio_windows
 [
 cfg
 (
-docsrs
+not
+(
+windows
+)
 )
 ]
 mod

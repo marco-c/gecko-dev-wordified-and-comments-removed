@@ -34,6 +34,10 @@ target_os
 freebsd
 "
 )
+not
+(
+miri
+)
 )
 )
 ]

@@ -23,16 +23,13 @@ Mutex
 }
 ;
 use
-crate
+std
 :
 :
-util
+sync
 :
 :
-once_cell
-:
-:
-OnceCell
+OnceLock
 ;
 pub
 (
@@ -46,7 +43,7 @@ init
 u64
 cell
 :
-OnceCell
+OnceLock
 <
 Mutex
 <
@@ -112,7 +109,7 @@ init
 val
 cell
 :
-OnceCell
+OnceLock
 :
 :
 new
@@ -285,7 +282,7 @@ self
 .
 cell
 .
-get
+get_or_init
 (
 |
 |

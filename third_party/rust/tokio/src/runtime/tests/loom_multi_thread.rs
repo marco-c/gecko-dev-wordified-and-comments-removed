@@ -11,15 +11,6 @@ use
 crate
 :
 :
-future
-:
-:
-poll_fn
-;
-use
-crate
-:
-:
 runtime
 :
 :
@@ -94,7 +85,10 @@ std
 future
 :
 :
+{
+poll_fn
 Future
+}
 ;
 use
 std
@@ -131,6 +125,7 @@ task
 :
 :
 {
+ready
 Context
 Poll
 }

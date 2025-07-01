@@ -18,6 +18,17 @@ full
 "
 )
 ]
+#
+!
+[
+cfg
+(
+not
+(
+miri
+)
+)
+]
 use
 rand
 :

@@ -657,6 +657,13 @@ Result
 usize
 >
 {
+dst
+.
+fill
+(
+0
+)
+;
 self
 .
 inner_read
@@ -1167,11 +1174,11 @@ panic
 error
 =
 {
+e
 :
 ?
 }
 "
-e
 )
 Poll
 :

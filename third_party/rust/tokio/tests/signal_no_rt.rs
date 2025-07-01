@@ -26,6 +26,17 @@ cfg
 unix
 )
 ]
+#
+!
+[
+cfg
+(
+not
+(
+miri
+)
+)
+]
 use
 tokio
 :
