@@ -777,7 +777,7 @@ fenix
 .
 utils
 .
-DURATION_MS_MAIN_MENU
+DURATION_MS_MAIN_MENU_ITEM
 /
 *
 *
@@ -2374,7 +2374,7 @@ tween
 (
 durationMillis
 =
-DURATION_MS_MAIN_MENU
+DURATION_MS_MAIN_MENU_ITEM
 easing
 =
 LinearEasing
@@ -2389,7 +2389,7 @@ tween
 (
 durationMillis
 =
-DURATION_MS_MAIN_MENU
+DURATION_MS_MAIN_MENU_ITEM
 easing
 =
 LinearEasing
@@ -2410,7 +2410,7 @@ tween
 (
 durationMillis
 =
-DURATION_MS_MAIN_MENU
+DURATION_MS_MAIN_MENU_ITEM
 easing
 =
 LinearEasing
@@ -2425,7 +2425,7 @@ tween
 (
 durationMillis
 =
-DURATION_MS_MAIN_MENU
+DURATION_MS_MAIN_MENU_ITEM
 easing
 =
 LinearEasing
