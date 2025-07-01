@@ -789,6 +789,7 @@ RTCReceivedRtpStreamStats
 mTrackIdentifier
 mRemoteId
 mFramesDecoded
+mKeyFramesDecoded
 mFramesDropped
 mFrameWidth
 mFrameHeight
@@ -797,6 +798,10 @@ mQpSum
 mTotalDecodeTime
 mTotalInterFrameDelay
 mTotalSquaredInterFrameDelay
+mPauseCount
+mTotalPausesDuration
+mFreezeCount
+mTotalFreezesDuration
 mLastPacketReceivedTimestamp
 mHeaderBytesReceived
 mFecPacketsReceived
@@ -806,9 +811,12 @@ mNackCount
 mFirCount
 mPliCount
 mTotalProcessingDelay
+mEstimatedPlayoutTimestamp
 mFramesReceived
 mJitterBufferDelay
 mJitterBufferEmittedCount
+mJitterBufferTargetDelay
+mJitterBufferMinimumDelay
 mTotalSamplesReceived
 mConcealedSamples
 mSilentConcealedSamples
@@ -818,6 +826,8 @@ mRemovedSamplesForAcceleration
 mAudioLevel
 mTotalAudioEnergy
 mTotalSamplesDuration
+mFramesAssembledFromMultiplePackets
+mTotalAssemblyTime
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_SUPER_CLASS_AND_FIELDS
