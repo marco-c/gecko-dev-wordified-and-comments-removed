@@ -283,6 +283,11 @@ WGPUOption_QuerySetId
 uint64_t
 ;
 using
+WGPUOption_DeviceId
+=
+uint64_t
+;
+using
 WGPUAdapterId
 =
 uint64_t
@@ -461,6 +466,9 @@ ANativeWindow_setBuffersGeometry
 "
 "
 Option_QuerySetId
+"
+"
+Option_DeviceId
 "
 ]
 include

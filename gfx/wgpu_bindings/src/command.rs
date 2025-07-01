@@ -2715,6 +2715,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 id
 :
 CommandEncoderId
@@ -2834,6 +2840,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 return
@@ -2870,6 +2877,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 return
@@ -2907,6 +2915,7 @@ error_buf
 init
 (
 err
+device_id
 )
 }
 }
@@ -3623,6 +3632,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 id
 :
 CommandEncoderId
@@ -3716,6 +3731,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 return
@@ -3742,6 +3758,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }

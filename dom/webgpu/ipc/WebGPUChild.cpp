@@ -841,11 +841,7 @@ WebGPUChild
 :
 RecvUncapturedError
 (
-const
-Maybe
-<
 RawId
->
 aDeviceId
 const
 nsACString
@@ -872,7 +868,6 @@ mDeviceMap
 .
 find
 (
-*
 aDeviceId
 )
 ;

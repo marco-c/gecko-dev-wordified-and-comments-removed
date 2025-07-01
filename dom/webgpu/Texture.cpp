@@ -638,6 +638,10 @@ bridge
 GetClient
 (
 )
+mParent
+-
+>
+mId
 mId
 &
 desc
