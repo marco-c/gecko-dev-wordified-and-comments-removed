@@ -439,6 +439,15 @@ aGlobal
 )
 ;
 static
+bool
+IsTrustedScheme
+(
+nsIURI
+*
+aURI
+)
+;
+static
 nsresult
 LoadSingleModuleScript
 (
