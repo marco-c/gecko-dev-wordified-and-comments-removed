@@ -5395,12 +5395,10 @@ hidecolumnpicker
 Atom
 (
 "
-hide_popover
+hidepopover
 "
 "
-hide
--
-popover
+hidepopover
 "
 )
     
@@ -12044,24 +12042,20 @@ showcaret
 Atom
 (
 "
-show_modal
+showmodal
 "
 "
-show
--
-modal
+showmodal
 "
 )
     
 Atom
 (
 "
-show_popover
+showpopover
 "
 "
-show
--
-popover
+showpopover
 "
 )
     
@@ -13028,12 +13022,10 @@ toggle
 Atom
 (
 "
-toggle_popover
+togglepopover
 "
 "
-toggle
--
-popover
+togglepopover
 "
 )
     
