@@ -266,8 +266,6 @@ false
 true
 true
 futureExpiry
-*
-1000
 {
 }
 Ci

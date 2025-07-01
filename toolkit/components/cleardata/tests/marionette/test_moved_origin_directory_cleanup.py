@@ -288,14 +288,19 @@ false
                     
 false
                     
+Math
+.
+floor
+(
 Date
 .
 now
 (
 )
-+
+/
 1000
-*
+)
++
 24
 *
 60

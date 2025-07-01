@@ -2169,7 +2169,6 @@ aCurrentTime
 value
 +
 =
-(
 maxageCap
 ?
 std
@@ -2182,9 +2181,6 @@ maxageCap
 )
 :
 maxage
-)
-*
-1000
 ;
 aCookieData
 .
@@ -2253,7 +2249,7 @@ expiresTime
 /
 int64_t
 (
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 )
 ;
 if
@@ -2307,7 +2303,7 @@ dateHeaderTime
 /
 int64_t
 (
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 )
 ;
 int64_t
@@ -2333,7 +2329,7 @@ expiry
 CookieCommons
 :
 :
-MaybeCapExpiry
+MaybeReduceExpiry
 (
 aCurrentTime
 expires
@@ -2740,7 +2736,7 @@ expires
 maxage
 currentTimeInUsec
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 aDateHeader
 aFromHttp
 )
