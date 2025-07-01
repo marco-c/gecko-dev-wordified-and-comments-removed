@@ -3152,12 +3152,9 @@ uint8_t
 &
 &
 aTable
-nsTHashtable
-<
-FontTableHashEntry
->
+gfxFontEntry
 *
-aHashtable
+aFontEntry
 )
 ;
 hb_blob_t
