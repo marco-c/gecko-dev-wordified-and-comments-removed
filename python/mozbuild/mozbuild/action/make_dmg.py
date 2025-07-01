@@ -8,6 +8,8 @@ from
 pathlib
 import
 Path
+import
+buildconfig
 from
 mozpack
 import
@@ -308,6 +310,17 @@ Name
     
 dmg_tool
 =
+buildconfig
+.
+substs
+.
+get
+(
+"
+DMG_TOOL
+"
+)
+or
 bootstrap_toolchain
 (
 "
@@ -319,6 +332,17 @@ dmg
     
 hfs_tool
 =
+buildconfig
+.
+substs
+.
+get
+(
+"
+HFS_TOOL
+"
+)
+or
 bootstrap_toolchain
 (
 "
@@ -330,13 +354,26 @@ hfsplus
     
 mkfshfs_tool
 =
+buildconfig
+.
+substs
+.
+get
+(
+"
+MKFSHFS
+"
+)
+or
 bootstrap_toolchain
 (
+        
 "
 hfsplus
 /
 newfs_hfs
 "
+    
 )
     
 dmg
