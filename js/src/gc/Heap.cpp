@@ -652,7 +652,7 @@ unmarkAll
 (
 )
 {
-MarkBitmapWord
+AtomicBitmapWord
 *
 arenaBits
 =
