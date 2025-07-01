@@ -218,6 +218,12 @@ ISSUE_PLACEHOLDER_COMMENT
 VisibleForTestingDetector
 .
 ISSUE_VISIBLE_FOR_TESTING_ANNOTATION
+NoStaticOrObjectMockingDetector
+.
+ISSUE_NO_STATIC_MOCKING
+NoStaticOrObjectMockingDetector
+.
+ISSUE_NO_OBJECT_MOCKING
 )
 +
 ConstraintLayoutPerfDetector
