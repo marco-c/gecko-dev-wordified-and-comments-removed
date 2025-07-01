@@ -104,6 +104,16 @@ fenix
 ext
 .
 nav
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
 /
 *
 *
@@ -146,6 +156,9 @@ NavController
 out
 :
 Intent
+settings
+:
+Settings
 )
 :
 Boolean

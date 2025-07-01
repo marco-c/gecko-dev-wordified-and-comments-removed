@@ -177,6 +177,16 @@ mozilla
 .
 fenix
 .
+utils
+.
+Settings
+import
+org
+.
+mozilla
+.
+fenix
+.
 widget
 .
 VoiceSearchActivity
@@ -249,6 +259,9 @@ NavController
 out
 :
 Intent
+settings
+:
+Settings
 )
 :
 Boolean

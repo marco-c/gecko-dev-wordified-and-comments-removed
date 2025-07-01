@@ -270,6 +270,21 @@ FenixGleanTestRule
 (
 testContext
 )
+private
+val
+settings
+:
+Settings
+=
+mockk
+{
+every
+{
+shouldUseComposableToolbar
+}
+returns
+false
+}
 Test
 fun
 do
@@ -322,6 +337,7 @@ Intent
 )
 navController
 out
+settings
 )
 assertFalse
 (
@@ -487,6 +503,7 @@ process
 intent
 navController
 out
+settings
 )
 assert
 (
@@ -703,6 +720,7 @@ process
 intent
 navController
 out
+settings
 )
 assert
 (

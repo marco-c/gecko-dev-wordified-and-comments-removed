@@ -5502,6 +5502,9 @@ navController
 this
 .
 intent
+settings
+(
+)
 )
 }
 browsingModeManager
@@ -8822,6 +8825,9 @@ navController
 this
 .
 intent
+settings
+(
+)
 )
 }
 }

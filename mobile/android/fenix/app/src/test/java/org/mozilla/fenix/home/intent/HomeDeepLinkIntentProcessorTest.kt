@@ -279,6 +279,16 @@ SupportUtils
 import
 org
 .
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
+import
+org
+.
 robolectric
 .
 RobolectricTestRunner
@@ -324,6 +334,21 @@ var
 processorHome
 :
 HomeDeepLinkIntentProcessor
+private
+val
+settings
+:
+Settings
+=
+mockk
+{
+every
+{
+shouldUseComposableToolbar
+}
+returns
+false
+}
 Before
 fun
 setup
@@ -382,6 +407,7 @@ Intent
 )
 navController
 out
+settings
 )
 )
 verify
@@ -428,6 +454,7 @@ test
 )
 navController
 out
+settings
 )
 )
 verify
@@ -482,6 +509,7 @@ test
 )
 navController
 out
+settings
 )
 )
 verify
@@ -526,6 +554,7 @@ home
 )
 navController
 out
+settings
 )
 )
 verify
@@ -577,6 +606,7 @@ urls_bookmarks
 )
 navController
 out
+settings
 )
 )
 verify
@@ -627,6 +657,7 @@ urls_history
 )
 navController
 out
+settings
 )
 )
 verify
@@ -672,6 +703,7 @@ home_collections
 )
 navController
 out
+settings
 )
 )
 verify
@@ -717,6 +749,7 @@ settings
 )
 navController
 out
+settings
 )
 )
 verify
@@ -768,6 +801,7 @@ turn_on_sync
 )
 navController
 out
+settings
 )
 )
 verify
@@ -824,6 +858,7 @@ settings_search_engine
 )
 navController
 out
+settings
 )
 )
 verify
@@ -875,6 +910,7 @@ settings_accessibility
 )
 navController
 out
+settings
 )
 )
 verify
@@ -926,6 +962,7 @@ settings_delete_browsing_data
 )
 navController
 out
+settings
 )
 )
 verify
@@ -977,6 +1014,7 @@ settings_addon_manager
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1022,6 +1060,7 @@ settings_logins
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1067,6 +1106,7 @@ settings_tracking_protection
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1112,6 +1152,7 @@ settings_privacy
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1157,6 +1198,7 @@ enable_private_browsing
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1214,6 +1256,7 @@ open
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1252,6 +1295,7 @@ test
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1302,6 +1346,7 @@ org
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1377,6 +1422,7 @@ share_sheet
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1409,6 +1455,7 @@ test
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1461,6 +1508,7 @@ TestSubject
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1589,6 +1637,7 @@ open
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1643,6 +1692,7 @@ org
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1765,6 +1815,7 @@ make_default_browser
 )
 navController
 out
+settings
 )
 )
 val
@@ -1846,6 +1897,7 @@ settings_notifications
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1895,6 +1947,7 @@ settings_wallpapers
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1940,6 +1993,7 @@ install_search_widget
 )
 navController
 out
+settings
 )
 )
 verify
@@ -1985,6 +2039,7 @@ settings_private_browsing
 )
 navController
 out
+settings
 )
 )
 verify

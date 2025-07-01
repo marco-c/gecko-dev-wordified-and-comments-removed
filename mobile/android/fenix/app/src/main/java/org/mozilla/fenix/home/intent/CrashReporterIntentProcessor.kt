@@ -138,6 +138,16 @@ components
 appstate
 .
 AppAction
+import
+org
+.
+mozilla
+.
+fenix
+.
+utils
+.
+Settings
 /
 *
 *
@@ -234,6 +244,9 @@ NavController
 out
 :
 Intent
+settings
+:
+Settings
 )
 :
 Boolean

@@ -279,6 +279,9 @@ NavController
 out
 :
 Intent
+settings
+:
+Settings
 )
 :
 Boolean
