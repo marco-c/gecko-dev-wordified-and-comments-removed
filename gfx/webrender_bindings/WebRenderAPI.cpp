@@ -1632,6 +1632,8 @@ VsyncId
 aVsyncId
 bool
 aPresent
+bool
+aTracked
 wr
 :
 :
@@ -1646,6 +1648,7 @@ aVsyncId
 .
 mId
 aPresent
+aTracked
 aReasons
 )
 ;
@@ -4079,6 +4082,10 @@ render
 true
 .
 scrolled
+=
+false
+.
+tracked
 =
 false
 }
