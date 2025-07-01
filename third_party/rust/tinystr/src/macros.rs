@@ -55,7 +55,7 @@ crate
 TinyAsciiStr
 :
 :
-from_bytes
+try_from_utf8
 (
 s
 .

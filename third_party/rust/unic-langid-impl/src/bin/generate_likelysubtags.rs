@@ -655,7 +655,7 @@ from_le_bytes
 TinyStr8
 :
 :
-from_str
+try_from_str
 (
 "
 und

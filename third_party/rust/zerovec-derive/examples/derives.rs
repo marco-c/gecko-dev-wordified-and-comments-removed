@@ -315,7 +315,7 @@ ule
 ULE
 :
 :
-as_byte_slice
+slice_as_bytes
 (
 &
 [
@@ -526,7 +526,7 @@ Foo
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -688,7 +688,7 @@ RelationULE
 VarZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )

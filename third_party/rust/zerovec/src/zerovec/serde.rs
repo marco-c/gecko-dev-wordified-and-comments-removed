@@ -255,7 +255,7 @@ Error
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )

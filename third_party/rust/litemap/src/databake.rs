@@ -108,7 +108,6 @@ str
 ]
 >
 const
-:
 crate
 :
 :

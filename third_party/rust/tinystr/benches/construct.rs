@@ -125,7 +125,7 @@ cfs
 ;
 }
 fn
-construct_from_bytes
+construct_from_utf8
 (
 c
 :
@@ -210,7 +210,7 @@ r
 >
 :
 :
-from_bytes
+try_from_utf8
 (
 *
 u
@@ -237,7 +237,7 @@ c
 benchmark_group
 (
 "
-construct_from_bytes
+construct_from_utf8
 /
 4
 "
@@ -321,7 +321,7 @@ c
 benchmark_group
 (
 "
-construct_from_bytes
+construct_from_utf8
 /
 8
 "
@@ -384,7 +384,7 @@ c
 benchmark_group
 (
 "
-construct_from_bytes
+construct_from_utf8
 /
 16
 "
@@ -423,7 +423,7 @@ criterion_group
 (
 benches
 construct_from_str
-construct_from_bytes
+construct_from_utf8
 )
 ;
 criterion_main

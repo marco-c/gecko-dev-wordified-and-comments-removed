@@ -256,6 +256,10 @@ or
 LiteMap
 ]
 (
+https
+:
+/
+/
 docs
 .
 rs
@@ -925,7 +929,7 @@ bincode_bytes
 len
 (
 )
-67
+63
 )
 ;
 let
@@ -1519,7 +1523,7 @@ bincode_bytes
 len
 (
 )
-168
+160
 )
 ;
 let

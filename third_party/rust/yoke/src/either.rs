@@ -86,6 +86,10 @@ Target
 =
 T
 >
+T
+:
+?
+Sized
 {
 type
 Target
@@ -174,6 +178,10 @@ Target
 =
 T
 >
+T
+:
+?
+Sized
 {
 }
 unsafe

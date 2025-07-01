@@ -466,7 +466,7 @@ unsafe
 TinyAsciiStr
 :
 :
-from_bytes_unchecked
+from_utf8_unchecked
 (
 bytes
 )
@@ -552,7 +552,7 @@ deserializer
 TinyAsciiStr
 :
 :
-from_str
+try_from_str
 (
 &
 x

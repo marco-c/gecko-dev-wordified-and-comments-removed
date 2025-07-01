@@ -32,15 +32,6 @@ use
 zerovec
 :
 :
-ule
-:
-:
-VarULE
-;
-use
-zerovec
-:
-:
 VarZeroSlice
 ;
 use
@@ -91,7 +82,7 @@ u32
 >
 :
 :
-parse_byte_slice
+parse_bytes
 (
 black_box
 (
@@ -159,7 +150,7 @@ u32
 >
 :
 :
-parse_byte_slice
+parse_bytes
 (
 black_box
 (
@@ -205,7 +196,7 @@ str
 VarZeroSlice
 :
 :
-parse_byte_slice
+parse_bytes
 (
 black_box
 (
@@ -257,7 +248,7 @@ unsafe
 VarZeroSlice
 :
 :
-from_byte_slice_unchecked
+from_bytes_unchecked
 (
 black_box
 (
@@ -303,7 +294,7 @@ unsafe
 VarZeroSlice
 :
 :
-from_byte_slice_unchecked
+from_bytes_unchecked
 (
 black_box
 (

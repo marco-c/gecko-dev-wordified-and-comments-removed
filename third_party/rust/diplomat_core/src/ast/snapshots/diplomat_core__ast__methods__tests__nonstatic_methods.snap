@@ -101,7 +101,7 @@ docs
 -
 [
 ]
-full_path_name
+abi_name
 :
 MyStructContainingMethod_foo
 self_param
@@ -124,6 +124,10 @@ lifetimes
 :
 [
 ]
+attrs
+:
+{
+}
 params
 :
 -
@@ -135,6 +139,10 @@ ty
 Primitive
 :
 u64
+attrs
+:
+{
+}
 -
 name
 :
@@ -153,6 +161,10 @@ lifetimes
 :
 [
 ]
+attrs
+:
+{
+}
 return_type
 :
 ~

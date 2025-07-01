@@ -27,16 +27,14 @@ syn
 parse_quote
 !
 {
-\
-n
 DiplomatResult
 <
 MyLocalStruct
 i32
 >
+}
 \
 n
-}
 None
 )
 "
@@ -63,4 +61,4 @@ Primitive
 :
 i32
 -
-false
+Diplomat
