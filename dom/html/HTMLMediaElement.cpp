@@ -36139,7 +36139,7 @@ return
 mTextTrackManager
 -
 >
-NotifyUpdateCueDisplay
+DispatchUpdateCueDisplay
 (
 )
 ;
