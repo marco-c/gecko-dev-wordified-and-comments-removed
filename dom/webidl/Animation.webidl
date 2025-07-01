@@ -390,7 +390,6 @@ persist
 [
 CEReactions
 Throws
-UseCounter
 ]
 undefined
 commitStyles
