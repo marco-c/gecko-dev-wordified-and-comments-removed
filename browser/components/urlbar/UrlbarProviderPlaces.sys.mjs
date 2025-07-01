@@ -2132,6 +2132,11 @@ lastVisit
 match
 .
 lastVisit
+tabGroup
+:
+match
+.
+tabGroup
 frecency
 :
 match
@@ -2433,6 +2438,11 @@ lastVisit
 info
 .
 lastVisit
+tabGroup
+:
+info
+.
+tabGroup
 frecency
 :
 info
