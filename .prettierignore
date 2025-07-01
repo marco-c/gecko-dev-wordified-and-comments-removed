@@ -19631,15 +19631,6 @@ manager
 /
 tools
 /
-KnownRootHashes
-.
-json
-security
-/
-manager
-/
-tools
-/
 PreloadedHPKPins
 .
 json
