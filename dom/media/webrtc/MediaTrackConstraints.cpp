@@ -23,13 +23,6 @@ iterator
 #
 include
 "
-MediaEngineSource
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -101,12 +94,6 @@ dom
 :
 :
 CallerType
-;
-using
-dom
-:
-:
-ConstrainBooleanParameters
 ;
 using
 dom
