@@ -2330,12 +2330,7 @@ WidgetTypeSupportsNativeCompositing
 (
 )
 override
-{
-return
-!
-mIsDragPopup
 ;
-}
 nsresult
 SetSystemFont
 (
