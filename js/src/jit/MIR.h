@@ -6682,7 +6682,7 @@ f
 double
 d
 ;
-JSString
+JSOffThreadAtom
 *
 str
 ;
@@ -7301,7 +7301,7 @@ payload_
 f
 ;
 }
-JSString
+JSOffThreadAtom
 *
 toString
 (

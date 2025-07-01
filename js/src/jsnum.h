@@ -798,6 +798,16 @@ str
 )
 ;
 extern
+double
+OffThreadAtomToNumber
+(
+const
+JSOffThreadAtom
+*
+str
+)
+;
+extern
 bool
 NumberParseInt
 (
