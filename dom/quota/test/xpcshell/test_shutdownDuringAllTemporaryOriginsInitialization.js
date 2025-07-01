@@ -719,6 +719,16 @@ dom
 .
 quotaManager
 .
+loadQuotaFromSecondaryCache
+"
+false
+]
+[
+"
+dom
+.
+quotaManager
+.
 originInitialization
 .
 pauseOnIOThreadMs
