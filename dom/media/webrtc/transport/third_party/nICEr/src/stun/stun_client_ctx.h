@@ -364,6 +364,16 @@ response
 UINT2
 error_code
 ;
+struct
+timeval
+request_time
+;
+int
+rtt_valid
+;
+INT8
+rtt_ms
+;
 }
 ;
 int
