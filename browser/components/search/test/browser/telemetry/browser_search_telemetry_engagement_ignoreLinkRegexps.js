@@ -485,6 +485,11 @@ linkedBrowser
 await
 promise
 ;
+await
+waitForPageWithImpression
+(
+)
+;
 assertSERPTelemetry
 (
 [
@@ -575,6 +580,11 @@ linkedBrowser
 await
 promise
 ;
+await
+waitForPageWithImpression
+(
+)
+;
 assertSERPTelemetry
 (
 [
@@ -664,6 +674,11 @@ linkedBrowser
 ;
 await
 promise
+;
+await
+waitForPageWithImpression
+(
+)
 ;
 assertSERPTelemetry
 (
@@ -840,6 +855,11 @@ linkedBrowser
 ;
 await
 promise
+;
+await
+waitForPageWithImpression
+(
+)
 ;
 assertSERPTelemetry
 (

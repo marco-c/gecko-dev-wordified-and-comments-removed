@@ -9863,13 +9863,6 @@ DOMContentLoaded
 this
 .
 #
-checkForPageImpressionComponents
-(
-)
-;
-this
-.
-#
 check
 (
 event
@@ -9886,6 +9879,13 @@ load
 "
 :
 {
+this
+.
+#
+checkForPageImpressionComponents
+(
+)
+;
 /
 /
 We
