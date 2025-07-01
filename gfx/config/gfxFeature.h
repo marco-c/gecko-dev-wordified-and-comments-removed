@@ -278,6 +278,17 @@ decoding
 \
 _
 (
+HARDWARE_VIDEO_ENCODING
+Feature
+"
+Hardware
+video
+encoding
+"
+)
+\
+_
+(
 VIDEO_HARDWARE_OVERLAY
 Feature
 "
