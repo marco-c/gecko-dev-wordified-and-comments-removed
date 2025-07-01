@@ -854,6 +854,13 @@ uint32_t
 permission
 )
 ;
+async
+ProcessCloseRequest
+(
+MaybeDiscardedBrowsingContext
+aFocused
+)
+;
 }
 ;
 }
