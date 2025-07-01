@@ -330,13 +330,11 @@ dos
 ;
 Assert
 .
-ok
+equal
 (
 dos
 .
 length
-=
-=
 4096
 )
 ;

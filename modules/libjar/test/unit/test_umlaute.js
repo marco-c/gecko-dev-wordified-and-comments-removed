@@ -211,11 +211,9 @@ entryName
 ;
 Assert
 .
-ok
+notEqual
 (
 entry
-!
-=
 null
 )
 ;

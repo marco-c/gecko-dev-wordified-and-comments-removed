@@ -4335,12 +4335,11 @@ getManagedPrefDetails
 ;
 Assert
 .
-ok
+greater
 (
 prefNames
 .
 size
->
 0
 "
 some

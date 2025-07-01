@@ -1233,7 +1233,7 @@ USERNAME_DROPMARKER_SELECTOR
 ;
 Assert
 .
-ok
+equal
 (
 BrowserTestUtils
 .
@@ -1241,8 +1241,6 @@ isVisible
 (
 usernameDropmarker
 )
-=
-=
 testCase
 .
 expectUsernameDropmarker

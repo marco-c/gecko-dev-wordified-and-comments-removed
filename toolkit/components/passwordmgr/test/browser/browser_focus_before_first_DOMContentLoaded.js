@@ -41,11 +41,9 @@ init
 ;
 Assert
 .
-ok
+notEqual
 (
 nsLoginInfo
-!
-=
 null
 "
 nsLoginInfo

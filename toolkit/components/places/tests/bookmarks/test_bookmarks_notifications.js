@@ -2033,12 +2033,11 @@ DEFAULT_INDEX
 ;
 Assert
 .
-ok
+greater
 (
 bm
 .
 index
->
 0
 )
 ;

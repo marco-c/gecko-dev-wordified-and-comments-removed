@@ -122,11 +122,9 @@ length
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 gNumTimesSourcesSent
-<
-=
 1
 "
 Should

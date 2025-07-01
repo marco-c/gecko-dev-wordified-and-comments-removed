@@ -502,12 +502,11 @@ nsISimpleEnumerator
 }
 Assert
 .
-ok
+less
 (
 MigrationUtils
 .
 HISTORY_MAX_AGE_IN_DAYS
-<
 300
 "
 This
@@ -530,12 +529,11 @@ visit
 ;
 Assert
 .
-ok
+greater
 (
 MigrationUtils
 .
 HISTORY_MAX_AGE_IN_DAYS
->
 160
 "
 This

@@ -612,11 +612,9 @@ rbs
 ;
 Assert
 .
-ok
+notEqual
 (
 randomOrder
-!
-=
 defaultOrder
 "
 options

@@ -250,12 +250,11 @@ testGetValue
 ;
 Assert
 .
-ok
+greater
 (
 durations
 .
 sum
->
 0
 "
 Sum

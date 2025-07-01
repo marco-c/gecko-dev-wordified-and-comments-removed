@@ -77,10 +77,9 @@ oldBackup
 ;
 Assert
 .
-ok
+greater
 (
 count
->
 0
 )
 ;

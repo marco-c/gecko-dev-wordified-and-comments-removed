@@ -183,12 +183,11 @@ onLoad
 {
 Assert
 .
-ok
+less
 (
 history
 .
 index
-<
 history
 .
 count
@@ -468,12 +467,11 @@ sessionHistory
 ;
 Assert
 .
-ok
+less
 (
 history
 .
 index
-<
 history
 .
 count

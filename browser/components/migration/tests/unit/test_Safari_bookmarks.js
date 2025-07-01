@@ -187,11 +187,9 @@ parentGuid
 ;
 Assert
 .
-ok
+notEqual
 (
 index
-!
-=
 -
 1
 "

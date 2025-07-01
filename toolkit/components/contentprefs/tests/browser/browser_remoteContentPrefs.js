@@ -109,12 +109,9 @@ nsIContentPrefService2
 ;
 Assert
 .
-ok
+notStrictEqual
 (
 cps
-!
-=
-=
 null
 "
 got

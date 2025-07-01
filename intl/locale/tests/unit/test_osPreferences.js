@@ -37,11 +37,9 @@ systemLocale
 ;
 Assert
 .
-ok
+notEqual
 (
 systemLocale
-!
-=
 "
 "
 "
@@ -80,11 +78,9 @@ array
 ;
 Assert
 .
-ok
+equal
 (
 systemLocale
-=
-=
 systemLocales
 [
 0

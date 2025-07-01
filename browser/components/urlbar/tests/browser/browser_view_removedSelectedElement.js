@@ -286,7 +286,7 @@ invoked
 ;
 Assert
 .
-ok
+greater
 (
 UrlbarTestUtils
 .
@@ -294,7 +294,6 @@ getResultCount
 (
 window
 )
->
 0
 There
 should

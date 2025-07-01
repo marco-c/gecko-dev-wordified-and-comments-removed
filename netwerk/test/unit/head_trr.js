@@ -1105,11 +1105,9 @@ inStatus
 {
 Assert
 .
-ok
+equal
 (
 inRequest
-=
-=
 this
 .
 request

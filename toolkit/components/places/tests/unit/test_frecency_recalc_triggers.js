@@ -836,10 +836,9 @@ TEST_URL_2
 ;
 Assert
 .
-ok
+greater
 (
 frecency
->
 0
 "
 frecency

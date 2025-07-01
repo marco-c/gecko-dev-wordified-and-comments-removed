@@ -1565,14 +1565,13 @@ NS_ERROR_NOT_RESUMABLE
 ;
 Assert
 .
-ok
+less
 (
 request
 .
 nsIHttpChannel
 .
 responseStatus
-<
 300
 )
 ;

@@ -371,7 +371,7 @@ test
 ;
 Assert
 .
-ok
+greater
 (
 UrlbarTestUtils
 .
@@ -379,7 +379,6 @@ getResultCount
 (
 window
 )
->
 0
 "
 At

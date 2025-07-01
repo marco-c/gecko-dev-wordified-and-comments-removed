@@ -443,11 +443,9 @@ win
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 count
->
-=
 1
 "
 There
@@ -490,13 +488,11 @@ i
 ;
 Assert
 .
-ok
+notEqual
 (
 result
 .
 type
-!
-=
 UrlbarUtils
 .
 RESULT_TYPE

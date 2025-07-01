@@ -102,13 +102,11 @@ collectSystemInfoResults
 {
 Assert
 .
-ok
+equal
 (
 result
 .
 status
-=
-=
 "
 fulfilled
 "

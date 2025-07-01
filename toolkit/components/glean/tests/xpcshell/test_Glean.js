@@ -437,7 +437,7 @@ stop
 ;
 Assert
 .
-ok
+greater
 (
 Glean
 .
@@ -453,7 +453,6 @@ test
 ping
 "
 )
->
 0
 )
 ;

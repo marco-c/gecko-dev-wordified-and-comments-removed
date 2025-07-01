@@ -885,11 +885,9 @@ invoked
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 invoked
-<
-=
 2
 "
 only

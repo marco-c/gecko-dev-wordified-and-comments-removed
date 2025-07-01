@@ -266,13 +266,11 @@ ready
 ;
 Assert
 .
-ok
+equal
 (
 AppConstants
 .
 platform
-=
-=
 "
 win
 "

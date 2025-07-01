@@ -61,12 +61,9 @@ doesAppNeedPin
 ;
 Assert
 .
-ok
+notStrictEqual
 (
 defaultValue
-!
-=
-=
 undefined
 "
 Got

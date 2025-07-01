@@ -1621,14 +1621,12 @@ now
 {
 Assert
 .
-ok
+greaterOrEqual
 (
 login
 [
 pname
 ]
->
-=
 now
 {
 testData

@@ -589,12 +589,9 @@ aPropertyListRoot
 {
 Assert
 .
-ok
+notStrictEqual
 (
 aPropertyListRoot
-!
-=
-=
 null
 )
 ;

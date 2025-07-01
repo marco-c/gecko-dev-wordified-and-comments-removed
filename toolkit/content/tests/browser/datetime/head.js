@@ -1746,7 +1746,7 @@ msg
 {
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -1756,7 +1756,6 @@ got
 -
 exp
 )
-<
 1
 msg
 +

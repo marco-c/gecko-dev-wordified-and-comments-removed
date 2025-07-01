@@ -355,7 +355,7 @@ else
 {
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -368,7 +368,6 @@ aTest
 1
 ]
 )
-<
 0
 .
 1

@@ -273,11 +273,9 @@ directory
 ;
 Assert
 .
-ok
+notEqual
 (
 dir
-!
-=
 null
 )
 ;

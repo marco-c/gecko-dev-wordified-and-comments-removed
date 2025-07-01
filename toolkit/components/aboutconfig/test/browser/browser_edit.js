@@ -313,7 +313,7 @@ add
 ;
 Assert
 .
-ok
+strictEqual
 (
 Preferences
 .
@@ -321,9 +321,6 @@ get
 (
 PREF_NEW
 )
-=
-=
-=
 expectedValue
 )
 ;
@@ -579,7 +576,7 @@ deleted
 ;
 Assert
 .
-ok
+strictEqual
 (
 Preferences
 .
@@ -587,9 +584,6 @@ get
 (
 PREF_NEW
 )
-=
-=
-=
 testValue
 )
 ;
@@ -785,7 +779,7 @@ click
 ;
 Assert
 .
-ok
+strictEqual
 (
 Preferences
 .
@@ -793,9 +787,6 @@ get
 (
 PREF_NEW_WHILE_DELETED
 )
-=
-=
-=
 expectedValue
 )
 ;
@@ -818,7 +809,7 @@ click
 ;
 Assert
 .
-ok
+strictEqual
 (
 Preferences
 .
@@ -826,9 +817,6 @@ get
 (
 PREF_TO_DELETE
 )
-=
-=
-=
 true
 )
 ;

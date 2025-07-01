@@ -151,11 +151,9 @@ close
 ;
 Assert
 .
-ok
+equal
 (
 read
-=
-=
 payload
 )
 ;

@@ -234,12 +234,11 @@ ch
 {
 Assert
 .
-ok
+greater
 (
 ch
 .
 contentLength
->
 -
 1
 )

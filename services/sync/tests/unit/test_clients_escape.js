@@ -239,10 +239,9 @@ code
 ;
 Assert
 .
-ok
+less
 (
 code
-<
 128
 )
 ;

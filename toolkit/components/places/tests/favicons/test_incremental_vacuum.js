@@ -299,10 +299,9 @@ pages
 ;
 Assert
 .
-ok
+less
 (
 newCount
-<
 count
 "
 The

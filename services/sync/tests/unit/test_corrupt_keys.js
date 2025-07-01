@@ -512,7 +512,7 @@ tabs
 ;
 Assert
 .
-ok
+greater
 (
 johndoe
 .
@@ -522,7 +522,6 @@ modified
 tabs
 "
 )
->
 0
 )
 ;
@@ -1445,7 +1444,7 @@ history
 ;
 Assert
 .
-ok
+greater
 (
 johndoe
 .
@@ -1455,7 +1454,6 @@ modified
 crypto
 "
 )
->
 old_key_time
 )
 ;

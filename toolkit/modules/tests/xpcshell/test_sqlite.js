@@ -4276,10 +4276,9 @@ i
 }
 Assert
 .
-ok
+greater
 (
 i
->
 0
 )
 ;

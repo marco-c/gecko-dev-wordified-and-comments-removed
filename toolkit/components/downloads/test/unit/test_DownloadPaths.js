@@ -1764,14 +1764,13 @@ tempFile
 ;
 Assert
 .
-ok
+less
 (
 newFile
 .
 leafName
 .
 length
-<
 tempFile
 .
 leafName

@@ -145,12 +145,9 @@ frame
 {
 Assert
 .
-ok
+strictEqual
 (
 frame
-=
-=
-=
 dbg
 .
 getNewestFrame
@@ -168,12 +165,9 @@ try
 {
 Assert
 .
-ok
+strictEqual
 (
 frame
-=
-=
-=
 dbg
 .
 getNewestFrame

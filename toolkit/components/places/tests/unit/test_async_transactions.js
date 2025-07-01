@@ -614,13 +614,11 @@ sanityCheckTransactionHistory
 {
 Assert
 .
-ok
+lessOrEqual
 (
 PT
 .
 undoPosition
-<
-=
 PT
 .
 length

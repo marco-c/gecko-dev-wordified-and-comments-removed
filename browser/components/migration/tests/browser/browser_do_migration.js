@@ -281,7 +281,7 @@ false
 ;
 Assert
 .
-ok
+greater
 (
 scalars
 [
@@ -291,7 +291,6 @@ migration
 time_to_produce_migrator_list
 "
 ]
->
 0
 "
 Non
