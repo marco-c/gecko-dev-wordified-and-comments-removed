@@ -86,6 +86,11 @@ TestCommonMetadata
 cpp
 "
 "
+TestDate
+.
+cpp
+"
+"
 TestDirectoryLock
 .
 cpp
