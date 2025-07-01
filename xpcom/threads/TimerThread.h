@@ -696,17 +696,6 @@ mMonitor
 ;
 #
 ifdef
-XP_WIN
-UINT
-ComputeDesiredTimerPeriod
-(
-)
-const
-;
-#
-endif
-#
-ifdef
 DEBUG
 void
 VerifyTimerListConsistency
