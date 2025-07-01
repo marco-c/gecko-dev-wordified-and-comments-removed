@@ -443,13 +443,6 @@ mochitest_stream
 toml
 "
 "
-test
-/
-mochitest_sw
-.
-toml
-"
-"
 webrtc
 /
 tests
