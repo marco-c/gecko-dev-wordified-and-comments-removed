@@ -1144,7 +1144,7 @@ instr
 )
 ;
 }
-BufferOffset
+void
 AssemblerRiscvBase
 :
 :
@@ -1225,14 +1225,13 @@ imm12
 kImm12Shift
 )
 ;
-return
 emit
 (
 instr
 )
 ;
 }
-BufferOffset
+void
 AssemblerRiscvBase
 :
 :
@@ -1313,7 +1312,6 @@ imm12
 kImm12Shift
 )
 ;
-return
 emit
 (
 instr

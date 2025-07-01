@@ -93,7 +93,7 @@ int32_t
 imm20
 )
 ;
-BufferOffset
+void
 jalr
 (
 Register

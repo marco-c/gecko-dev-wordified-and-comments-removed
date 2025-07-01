@@ -2825,7 +2825,7 @@ as_nop
 )
 ;
 }
-BufferOffset
+void
 ret
 (
 )
@@ -2835,7 +2835,6 @@ ma_pop
 ra
 )
 ;
-return
 as_jirl
 (
 zero

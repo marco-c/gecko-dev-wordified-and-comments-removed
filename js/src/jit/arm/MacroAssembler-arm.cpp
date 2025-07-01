@@ -6660,7 +6660,7 @@ cc
 ;
 }
 }
-BufferOffset
+void
 MacroAssemblerARM
 :
 :
@@ -6670,7 +6670,6 @@ Register
 r
 )
 {
-return
 as_dtr
 (
 IsLoad

@@ -72,17 +72,6 @@ riscv64
 h
 "
 #
-include
-"
-jit
-/
-shared
-/
-IonAssemblerBuffer
-.
-h
-"
-#
 define
 xlen
 (
@@ -623,7 +612,7 @@ bits
 0
 ;
 virtual
-BufferOffset
+void
 emit
 (
 Instr
@@ -633,7 +622,7 @@ x
 0
 ;
 virtual
-BufferOffset
+void
 emit
 (
 ShortInstr
@@ -643,7 +632,7 @@ x
 0
 ;
 virtual
-BufferOffset
+void
 emit
 (
 uint64_t
@@ -836,7 +825,7 @@ FPURoundingMode
 frm
 )
 ;
-BufferOffset
+void
 GenInstrI
 (
 uint8_t
@@ -851,7 +840,7 @@ int16_t
 imm12
 )
 ;
-BufferOffset
+void
 GenInstrI
 (
 uint8_t
