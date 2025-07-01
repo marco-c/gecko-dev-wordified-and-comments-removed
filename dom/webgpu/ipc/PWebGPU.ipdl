@@ -353,17 +353,6 @@ dummy
 )
 ;
 async
-CommandEncoderAction
-(
-RawId
-selfId
-RawId
-aDeviceId
-ByteBuf
-buf
-)
-;
-async
 RenderPass
 (
 RawId

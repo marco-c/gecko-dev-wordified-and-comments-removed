@@ -641,6 +641,14 @@ TextureAction
 a
 >
 )
+CommandEncoder
+(
+id
+:
+:
+CommandEncoderId
+CommandEncoderAction
+)
 DestroyBuffer
 (
 id
