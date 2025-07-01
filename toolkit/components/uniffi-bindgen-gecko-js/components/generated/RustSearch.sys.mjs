@@ -14068,7 +14068,6 @@ overrides
 to
 the
 selected
-*
 engines
 .
 Should
@@ -14076,8 +14075,8 @@ be
 false
 unless
 the
-application
 *
+application
 supports
 the
 click

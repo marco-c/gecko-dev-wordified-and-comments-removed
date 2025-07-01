@@ -2645,10 +2645,6 @@ match
 self
 {
 Initial
-{
-.
-.
-}
 =
 >
 "

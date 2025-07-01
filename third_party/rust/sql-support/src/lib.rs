@@ -58,6 +58,9 @@ mod
 lazy
 ;
 mod
+maintenance
+;
+mod
 maybe_cached
 ;
 pub
@@ -87,6 +90,13 @@ lazy
 :
 :
 *
+;
+pub
+use
+maintenance
+:
+:
+run_maintenance
 ;
 pub
 use
