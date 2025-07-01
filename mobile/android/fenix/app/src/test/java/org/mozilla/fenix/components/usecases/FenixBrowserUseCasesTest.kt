@@ -1531,9 +1531,6 @@ invoke
 url
 =
 ABOUT_HOME
-startLoading
-=
-false
 title
 =
 testContext
@@ -1568,9 +1565,6 @@ invoke
 url
 =
 ABOUT_HOME
-startLoading
-=
-false
 title
 =
 testContext

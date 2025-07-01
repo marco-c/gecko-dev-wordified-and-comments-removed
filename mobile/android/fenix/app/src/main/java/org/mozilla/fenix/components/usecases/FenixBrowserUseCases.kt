@@ -845,9 +845,6 @@ invoke
 url
 =
 ABOUT_HOME
-startLoading
-=
-false
 title
 =
 homepageTitle
