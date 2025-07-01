@@ -7539,9 +7539,6 @@ findNavController
 lifecycleOwner
 =
 this
-includeSelectedTab
-=
-true
 )
 .
 also

@@ -3411,11 +3411,6 @@ BrowserToolbarStore
 this
 .
 toolbarStore
-includeSelectedTab
-:
-Boolean
-=
-true
 )
 :
 Pair
@@ -3438,7 +3433,6 @@ settings
 appStore
 browserStore
 toolbarStore
-includeSelectedTab
 )
 )
 val
@@ -3522,11 +3516,6 @@ BrowserToolbarStore
 this
 .
 toolbarStore
-includeSelectedTab
-:
-Boolean
-=
-true
 )
 =
 FenixSearchMiddleware
@@ -3552,9 +3541,6 @@ browserStore
 toolbarStore
 =
 toolbarStore
-includeSelectedTab
-=
-includeSelectedTab
 )
 .
 apply
