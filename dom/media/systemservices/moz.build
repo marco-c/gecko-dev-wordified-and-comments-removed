@@ -58,6 +58,13 @@ CamerasParent
 cpp
 "
 "
+fake_video_capture
+/
+device_info_fake
+.
+cpp
+"
+"
 video_engine
 /
 video_capture_factory
