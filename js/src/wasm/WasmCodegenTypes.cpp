@@ -192,7 +192,7 @@ inlinedCallerOffsetsIndex
 =
 inlinedCallerOffsetsMap_
 .
-lookup
+readonlyThreadsafeLookup
 (
 match
 )
