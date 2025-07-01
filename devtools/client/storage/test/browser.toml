@@ -590,6 +590,13 @@ js
 ]
 [
 "
+browser_storage_cookies_edit_expiry
+.
+js
+"
+]
+[
+"
 browser_storage_cookies_edit_keyboard
 .
 js

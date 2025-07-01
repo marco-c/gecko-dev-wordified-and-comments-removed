@@ -69,6 +69,13 @@ js
 ]
 [
 "
+test_maybeCapExpiry
+.
+js
+"
+]
+[
+"
 test_migrateCookieLifetimePref
 .
 js
