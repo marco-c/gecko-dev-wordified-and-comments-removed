@@ -2266,6 +2266,10 @@ Register
 argc
 Register
 scratch
+bool
+hasInlineICScript
+=
+false
 )
 ;
 inline
@@ -2278,6 +2282,10 @@ Register
 argc
 Register
 scratch
+bool
+hasInlineICScript
+=
+false
 )
 ;
 inline
@@ -25028,13 +25036,6 @@ Label
 failure
 =
 nullptr
-)
-;
-void
-storeICScriptInJSContext
-(
-Register
-icScript
 )
 ;
 void
