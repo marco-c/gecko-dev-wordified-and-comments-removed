@@ -2821,14 +2821,6 @@ responseStatus
 ;
 if
 (
-this
-.
-#
-request
-.
-fromCache
-|
-|
 responseStatus
 =
 =
