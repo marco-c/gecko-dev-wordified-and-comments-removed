@@ -145,9 +145,6 @@ Settings
 .
 showWallpaperOnboardingDialog
 (
-featureRecommended
-:
-Boolean
 )
 =
 numberOfAppLaunches
@@ -157,7 +154,3 @@ MIN_NUMBER_OF_APP_LAUNCHES
 &
 &
 showWallpaperOnboarding
-&
-&
-!
-featureRecommended
