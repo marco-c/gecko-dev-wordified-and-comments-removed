@@ -4938,8 +4938,6 @@ AU
 |
 ciudad
 |
-provincia
-|
 localidad
 |
 poblacion
