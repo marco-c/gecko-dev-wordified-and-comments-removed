@@ -2515,7 +2515,7 @@ R
 .
 string
 .
-bookmark_add_new_folder_button_content_description
+bookmark_select_folder_new_folder_button_title
 )
 )
 private
