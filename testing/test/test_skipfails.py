@@ -11761,6 +11761,9 @@ disable
 implicit_vars
 =
 True
+dry_run
+=
+True
 )
     
 manifest
@@ -12279,6 +12282,9 @@ bugzilla
 disable
 "
 implicit_vars
+=
+True
+dry_run
 =
 True
 )

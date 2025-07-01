@@ -23867,6 +23867,22 @@ coverage
 "
 False
 )
+                
+"
+nogpu
+"
+:
+mozinfo
+.
+info
+.
+get
+(
+"
+nogpu
+"
+False
+)
             
 }
         
