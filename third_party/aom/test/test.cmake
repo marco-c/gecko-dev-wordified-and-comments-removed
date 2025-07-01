@@ -857,6 +857,17 @@ AOM_ROOT
 /
 test
 /
+roi_map_test
+.
+cc
+"
+"
+{
+AOM_ROOT
+}
+/
+test
+/
 scalability_test
 .
 cc

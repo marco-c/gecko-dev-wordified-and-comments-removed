@@ -1976,6 +1976,9 @@ int
 dual_sgr_penalty_level
 ;
 int
+switchable_lr_with_bias_level
+;
+int
 enable_sgr_ep_pruning
 ;
 int

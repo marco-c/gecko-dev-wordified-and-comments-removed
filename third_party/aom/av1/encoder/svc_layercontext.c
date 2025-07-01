@@ -1435,9 +1435,8 @@ lrc
 >
 avg_frame_bandwidth
 =
+saturate_cast_double_to_int
 (
-int
-)
 round
 (
 lc
@@ -1449,6 +1448,7 @@ lc
 -
 >
 framerate
+)
 )
 ;
 lrc
@@ -5395,7 +5395,11 @@ const
 int
 dist
 =
+(
+1
++
 current_frame_num
+)
 -
 rtc_ref
 -

@@ -26,6 +26,15 @@ h
 #
 include
 "
+aom_ports
+/
+bitops
+.
+h
+"
+#
+include
+"
 av1
 /
 encoder
@@ -402,7 +411,7 @@ bits_per_delta
 =
 AOMMAX
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 max_delta
 +
@@ -474,7 +483,7 @@ bits_per_delta
 AOMMIN
 (
 bits_per_delta
-av1_ceil_log2
+aom_ceil_log2
 (
 range
 )
@@ -858,7 +867,7 @@ zero_count
 return
 AOMMAX
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 max_d
 +

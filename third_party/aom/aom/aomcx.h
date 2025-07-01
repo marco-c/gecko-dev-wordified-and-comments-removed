@@ -759,6 +759,15 @@ ref_frame
 AOM_MAX_SEGMENTS
 ]
 ;
+int
+delta_qp_enabled
+;
+int
+reference_enabled
+;
+int
+rdmult_delta_qp
+;
 }
 aom_roi_map_t
 ;

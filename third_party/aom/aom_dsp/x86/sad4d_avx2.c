@@ -896,6 +896,10 @@ SADMXN_AVX2
 32
 64
 )
+#
+if
+!
+CONFIG_HIGHWAY
 SADMXN_AVX2
 (
 64
@@ -921,6 +925,8 @@ SADMXN_AVX2
 128
 128
 )
+#
+endif
 #
 if
 !
@@ -1066,6 +1072,10 @@ SAD_SKIP_MXN_AVX2
 32
 64
 )
+#
+if
+!
+CONFIG_HIGHWAY
 SAD_SKIP_MXN_AVX2
 (
 64
@@ -1091,6 +1101,8 @@ SAD_SKIP_MXN_AVX2
 128
 128
 )
+#
+endif
 #
 if
 !

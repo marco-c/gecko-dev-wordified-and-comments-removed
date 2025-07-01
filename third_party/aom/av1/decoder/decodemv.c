@@ -158,6 +158,15 @@ aom_dsp_common
 h
 "
 #
+include
+"
+aom_ports
+/
+bitops
+.
+h
+"
+#
 define
 ACCT_STR
 __func__
@@ -3565,7 +3574,7 @@ bits
 AOMMIN
 (
 bits
-av1_ceil_log2
+aom_ceil_log2
 (
 range
 )
@@ -3885,7 +3894,7 @@ bits
 AOMMIN
 (
 bits
-av1_ceil_log2
+aom_ceil_log2
 (
 range
 )

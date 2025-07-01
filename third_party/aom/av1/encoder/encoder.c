@@ -43,6 +43,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -1056,7 +1063,7 @@ const
 int
 ref_frame_range
 =
-3
+REF_FRAMES
 ;
 const
 int
@@ -19652,13 +19659,6 @@ cpi
 roi
 .
 enabled
-&
-&
-!
-frame_is_intra_only
-(
-cm
-)
 )
 {
 av1_apply_roi_map

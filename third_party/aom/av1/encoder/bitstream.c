@@ -4476,7 +4476,7 @@ bits
 =
 AOMMAX
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 max_delta
 +
@@ -4564,7 +4564,7 @@ bits
 AOMMIN
 (
 bits
-av1_ceil_log2
+aom_ceil_log2
 (
 range
 )
