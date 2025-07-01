@@ -94,6 +94,16 @@ components
 conf
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 FINAL_LIBRARY
 =
 "

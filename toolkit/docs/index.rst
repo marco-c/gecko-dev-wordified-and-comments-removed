@@ -60,6 +60,13 @@ manager
 index
 components
 /
+autocomplete
+/
+docs
+/
+index
+components
+/
 backgroundtasks
 /
 index
