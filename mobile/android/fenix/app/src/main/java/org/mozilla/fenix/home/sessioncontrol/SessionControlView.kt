@@ -472,14 +472,6 @@ add
 (
 AdapterItem
 .
-RecentTabsHeader
-)
-items
-.
-add
-(
-AdapterItem
-.
 RecentTabItem
 )
 if
