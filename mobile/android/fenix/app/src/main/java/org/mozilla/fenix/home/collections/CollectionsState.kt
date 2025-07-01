@@ -649,7 +649,7 @@ FirefoxTheme
 .
 colors
 .
-textActionPrimary
+iconActionPrimary
 titleTextColor
 :
 Color
