@@ -766,7 +766,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 )
 }
 }

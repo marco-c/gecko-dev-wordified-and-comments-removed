@@ -421,7 +421,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 )
 }
 Spacer

@@ -511,7 +511,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 )
 }
 IconButton
@@ -553,7 +553,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 )
 }
 }

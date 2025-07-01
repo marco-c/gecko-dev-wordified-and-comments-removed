@@ -952,7 +952,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 )
 }
 Composable

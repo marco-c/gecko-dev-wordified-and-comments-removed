@@ -1155,7 +1155,7 @@ FirefoxTheme
 .
 colors
 .
-iconSecondary
+iconPrimary
 }
 }
 PreviewLightDark
