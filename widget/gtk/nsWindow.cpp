@@ -118,13 +118,6 @@ h
 #
 include
 "
-gtkdrawing
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h
