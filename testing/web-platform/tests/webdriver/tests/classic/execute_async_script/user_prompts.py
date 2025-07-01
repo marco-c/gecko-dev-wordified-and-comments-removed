@@ -163,19 +163,20 @@ assert_success
 response
 )
         
-wait
-=
-Poll
+def
+assert_page_loaded
 (
+s
+)
+:
             
-session
-            
-timeout
+assert
+s
+.
+url
 =
-5
-            
-message
 =
+page_target
 "
 Target
 page
@@ -183,21 +184,22 @@ did
 not
 load
 "
+        
+wait
+=
+Poll
+(
+session
+timeout
+=
+5
 )
         
 wait
 .
 until
 (
-lambda
-s
-:
-s
-.
-url
-=
-=
-page_target
+assert_page_loaded
 )
         
 with

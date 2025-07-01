@@ -1879,9 +1879,7 @@ handles_before
 )
 )
         
-if
-new_handles
-and
+assert
 len
 (
 new_handles
@@ -1889,38 +1887,28 @@ new_handles
 =
 =
 1
-:
-            
+"
+No
+new
+window
+was
+opened
+"
+        
 return
 new_handles
 [
 0
 ]
-        
-return
-None
     
 wait
 =
 Poll
 (
-        
 session
-        
 timeout
 =
 5
-        
-message
-=
-"
-No
-new
-window
-has
-been
-opened
-"
 )
     
 return
