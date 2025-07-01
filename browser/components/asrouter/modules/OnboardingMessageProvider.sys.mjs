@@ -7602,6 +7602,10 @@ date
 =
 7
 )
+&
+&
+!
+hasActiveEnterprisePolicies
 "
 }
 {
@@ -9836,6 +9840,10 @@ priority
 3
 targeting
 :
+!
+hasActiveEnterprisePolicies
+&
+&
 tabsClosedCount
 >
 4
