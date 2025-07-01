@@ -5590,12 +5590,6 @@ if
 (
 Android
 )
-random
--
-if
-(
-winWidget
-)
 =
 =
 chrome
@@ -5630,9 +5624,6 @@ bugs
 ref
 .
 xhtml
-#
-bug
-587631
 =
 =
 300691
