@@ -672,6 +672,17 @@ maxDelay
 )
 const
 ;
+uint64_t
+FireDueTimers
+(
+TimeDuration
+aAllowedEarlyFiring
+)
+MOZ_REQUIRES
+(
+mMonitor
+)
+;
 static
 constexpr
 size_t
