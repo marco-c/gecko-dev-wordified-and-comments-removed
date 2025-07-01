@@ -340,7 +340,7 @@ R
 .
 drawable
 .
-mozac_ic_lock_24
+mozac_ic_shield_checkmark_24
 )
 }
 else
@@ -353,7 +353,7 @@ R
 .
 drawable
 .
-mozac_ic_lock_slash_24
+mozac_ic_shield_slash_24
 )
 }
 )

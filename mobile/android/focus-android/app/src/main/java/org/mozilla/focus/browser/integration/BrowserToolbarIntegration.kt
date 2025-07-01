@@ -1020,7 +1020,7 @@ R
 .
 drawable
 .
-mozac_ic_shield_24
+mozac_ic_shield_checkmark_24
 )
 !
 !
@@ -1035,7 +1035,7 @@ R
 .
 drawable
 .
-mozac_ic_shield_24
+mozac_ic_shield_checkmark_24
 )
 !
 !
