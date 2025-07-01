@@ -11239,6 +11239,11 @@ gcContext
 )
 )
 ;
+ReportOutOfMemory
+(
+cx_
+)
+;
 return
 false
 ;
@@ -11400,6 +11405,11 @@ runtime
 gcContext
 (
 )
+)
+;
+ReportOutOfMemory
+(
+cx_
 )
 ;
 return
