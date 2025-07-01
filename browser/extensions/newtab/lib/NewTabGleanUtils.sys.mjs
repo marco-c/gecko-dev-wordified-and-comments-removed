@@ -96,11 +96,11 @@ getBoolPref
 "
 browser
 .
-newtab
+newtabpage
 .
-builtin
+glean
 -
-addon
+utils
 .
 log
 "
