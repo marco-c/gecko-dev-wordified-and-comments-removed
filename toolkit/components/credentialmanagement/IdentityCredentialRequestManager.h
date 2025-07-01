@@ -133,6 +133,17 @@ IdentityResolveOptions
 aOptions
 )
 ;
+bool
+IsActivePopup
+(
+dom
+:
+:
+WebIdentityParent
+*
+aPopupWindow
+)
+;
 private
 :
 static
