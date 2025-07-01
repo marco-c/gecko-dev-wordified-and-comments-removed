@@ -399,6 +399,12 @@ aFontList
 )
 override
 ;
+bool
+CanUseHardwareVideoDecoding
+(
+)
+override
+;
 void
 CompositorUpdated
 (
@@ -749,12 +755,6 @@ override
 ;
 void
 InitWebRenderConfig
-(
-)
-override
-;
-void
-InitPlatformHardwareVideoConfig
 (
 )
 override
