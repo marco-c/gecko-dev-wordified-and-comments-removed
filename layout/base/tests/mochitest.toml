@@ -3927,6 +3927,13 @@ html
 ]
 [
 "
+test_smooth_scroll_preference
+.
+html
+"
+]
+[
+"
 test_synthmousemove
 .
 html

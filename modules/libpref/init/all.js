@@ -36382,3 +36382,14 @@ enabled
 true
 )
 ;
+pref
+(
+"
+general
+.
+smoothScroll
+"
+true
+sticky
+)
+;

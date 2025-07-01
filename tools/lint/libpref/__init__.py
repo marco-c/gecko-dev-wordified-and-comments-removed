@@ -83,6 +83,12 @@ backgroundServiceWorker
 .
 enabled
 "
+    
+"
+general
+.
+smoothScroll
+"
 }
 PATTERN
 =
