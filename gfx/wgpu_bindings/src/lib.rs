@@ -1634,6 +1634,7 @@ PushErrorScope
 (
 u8
 )
+PopErrorScope
 }
 #
 [
@@ -1788,6 +1789,16 @@ QueueId
 Option
 <
 String
+>
+)
+PopErrorScopeResponse
+(
+u8
+Cow
+<
+'
+a
+str
 >
 )
 }
