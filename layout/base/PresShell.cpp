@@ -12422,6 +12422,11 @@ mDocumentLoading
 =
 true
 ;
+SuppressDisplayport
+(
+true
+)
+;
 gfxTextPerfMetrics
 *
 tp
@@ -12554,6 +12559,11 @@ mDocument
 Wrong
 document
 "
+)
+;
+SuppressDisplayport
+(
+false
 )
 ;
 RestoreRootScrollPosition

@@ -2599,6 +2599,16 @@ IsDisplayportSuppressed
 (
 )
 ;
+bool
+IsDocumentLoading
+(
+)
+const
+{
+return
+mDocumentLoading
+;
+}
 void
 AddSizeOfIncludingThis
 (
