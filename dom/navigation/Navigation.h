@@ -457,6 +457,8 @@ nsIURI
 aDestinationURL
 bool
 aIsSameDocument
+bool
+aIsSync
 Maybe
 <
 UserNavigationInvolvement

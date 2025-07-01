@@ -18734,6 +18734,7 @@ NavigationType
 Reload
 destinationURL
 false
+false
 Some
 (
 aUserInvolvement
@@ -39957,6 +39958,7 @@ GetNavigationType
 )
 newURI
 true
+false
 Some
 (
 aLoadState
@@ -43033,6 +43035,7 @@ GetNavigationType
 (
 )
 destinationURL
+false
 false
 Some
 (
@@ -51446,6 +51449,7 @@ NavigationType
 :
 Push
 newURI
+true
 true
 Nothing
 (
