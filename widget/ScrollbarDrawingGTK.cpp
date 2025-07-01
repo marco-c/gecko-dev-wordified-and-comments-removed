@@ -317,10 +317,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -338,7 +334,6 @@ ComputeScrollbarThumbColor
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 )
 ;
@@ -566,10 +561,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -588,7 +579,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -621,10 +611,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -643,7 +629,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
