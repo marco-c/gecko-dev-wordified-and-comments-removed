@@ -1800,16 +1800,6 @@ EnsureCloseWatcherManager
 (
 )
 ;
-void
-NotifyCloseWatcherAdded
-(
-)
-;
-void
-NotifyCloseWatcherRemoved
-(
-)
-;
 protected
 :
 void
