@@ -1433,6 +1433,15 @@ mOwner
 ;
 if
 (
+!
+aWorkerPrivate
+-
+>
+GlobalScope
+(
+)
+|
+|
 aWorkerPrivate
 -
 >
