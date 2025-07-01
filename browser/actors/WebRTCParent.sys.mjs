@@ -7715,9 +7715,6 @@ return
 false
 ;
 }
-queue
-:
-true
 }
 ;
 function

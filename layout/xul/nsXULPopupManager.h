@@ -2106,7 +2106,7 @@ HidePopupOptions
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-bool
+void
 BeginShowingPopup
 (
 const
@@ -2256,11 +2256,6 @@ Element
 aPopup
 )
 const
-;
-void
-DismissQueueableShownPopups
-(
-)
 ;
 nsCOMPtr
 <
