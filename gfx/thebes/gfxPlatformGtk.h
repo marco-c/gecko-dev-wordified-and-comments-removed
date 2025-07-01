@@ -278,11 +278,12 @@ InitDmabufConfig
 (
 )
 ;
-void
-InitPlatformHardwareVideoConfig
+bool
+InitVAAPIConfig
 (
+bool
+aForceEnabledByUser
 )
-override
 ;
 void
 InitPlatformGPUProcessPrefs

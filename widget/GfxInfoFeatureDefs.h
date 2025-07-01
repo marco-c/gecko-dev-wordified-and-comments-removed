@@ -780,13 +780,3 @@ norm16
 textures
 "
 )
-GFXINFO_FEATURE
-(
-HARDWARE_VIDEO_ENCODING
-"
-HARDWARE_VIDEO_ENCODING
-"
-"
-hardwarevideoencoding
-"
-)
