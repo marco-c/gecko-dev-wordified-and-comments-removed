@@ -1503,7 +1503,9 @@ mozac_feature_addons_permissions_pkcs11_description
 >
 Tilby
 kryptografiske
-godkjenningstenester
+autentiserings
+-
+tenester
 <
 /
 string
