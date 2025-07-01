@@ -81,9 +81,6 @@ LoginHelper
 .
 getOSAuthEnabled
 (
-LoginHelper
-.
-OS_AUTH_FOR_PASSWORDS_PREF
 )
 AppConstants
 .
