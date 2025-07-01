@@ -127,6 +127,15 @@ Exposed
 Window
 Worker
 )
+Pref
+=
+"
+dom
+.
+urlpattern
+.
+enabled
+"
 ]
 interface
 URLPattern
