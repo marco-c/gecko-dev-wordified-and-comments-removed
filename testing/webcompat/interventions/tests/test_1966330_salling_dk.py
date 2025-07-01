@@ -182,8 +182,7 @@ ElementClickInterceptedException
             
 continue
         
-brands
-=
+if
 client
 .
 find_css
@@ -193,9 +192,6 @@ is_displayed
 =
 True
 )
-        
-if
-brands
 :
             
 break
@@ -212,7 +208,15 @@ range
 try
 :
             
-brands
+client
+.
+await_css
+(
+BRANDS_CSS
+is_displayed
+=
+True
+)
 .
 click
 (
@@ -269,7 +273,16 @@ top
 =
 0
 "
-brands
+        
+client
+.
+await_css
+(
+BRANDS_CSS
+is_displayed
+=
+True
+)
     
 )
 pytest

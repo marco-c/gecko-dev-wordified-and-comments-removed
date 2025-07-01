@@ -29,6 +29,12 @@ button
 CHECKBOX_CSS
 =
 "
+.
+qqcom
+-
+modal
+-
+content
 #
 web
 -
