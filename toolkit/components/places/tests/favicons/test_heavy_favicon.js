@@ -47,13 +47,14 @@ png
 ;
 Assert
 .
-greater
+ok
 (
 icon
 .
 data
 .
 length
+>
 Ci
 .
 nsIFaviconService

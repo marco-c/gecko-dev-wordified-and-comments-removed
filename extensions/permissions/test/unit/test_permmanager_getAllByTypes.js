@@ -55,9 +55,11 @@ permissions
 {
 Assert
 .
-notEqual
+ok
 (
 perm
+!
+=
 null
 )
 ;
@@ -97,9 +99,12 @@ expectedType
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 expectedPermission
+!
+=
+=
 null
 "
 Found

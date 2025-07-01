@@ -27,7 +27,7 @@ foo
 ;
 Assert
 .
-greater
+ok
 (
 UrlbarTestUtils
 .
@@ -35,6 +35,7 @@ getResultCount
 (
 window
 )
+>
 0
 There
 should
@@ -133,7 +134,7 @@ foo
 ;
 Assert
 .
-equal
+ok
 (
 UrlbarTestUtils
 .
@@ -141,6 +142,8 @@ getResultCount
 (
 window
 )
+=
+=
 0
 There
 should

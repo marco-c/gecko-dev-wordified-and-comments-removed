@@ -1030,9 +1030,11 @@ expectedProcessSwitch
 ;
 Assert
 .
-equal
+ok
 (
 secondProcessID
+=
+=
 thirdProcessID
 )
 ;

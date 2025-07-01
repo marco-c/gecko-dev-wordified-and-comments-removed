@@ -501,11 +501,13 @@ length
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 called
 .
 timestamp
+>
+=
 1694684362860
 )
 ;

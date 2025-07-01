@@ -777,11 +777,14 @@ res
 }
 Assert
 .
-strictEqual
+ok
 (
 results
 .
 length
+=
+=
+=
 queries
 .
 length

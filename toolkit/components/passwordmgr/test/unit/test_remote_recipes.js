@@ -804,9 +804,11 @@ e
 {
 Assert
 .
-equal
+ok
 (
 e
+=
+=
 "
 There
 were
@@ -918,9 +920,11 @@ e
 {
 Assert
 .
-equal
+ok
 (
 e
+=
+=
 "
 There
 were

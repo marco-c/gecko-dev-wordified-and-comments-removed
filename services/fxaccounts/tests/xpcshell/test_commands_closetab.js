@@ -2392,11 +2392,12 @@ length
 ;
 Assert
 .
-greater
+ok
 (
 ensureTimerSpy
 .
 callCount
+>
 1
 )
 ;
@@ -3331,9 +3332,11 @@ length
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 chunkSize
+<
+=
 COMMAND_MAX_PAYLOAD_SIZE
 Chunk
 size

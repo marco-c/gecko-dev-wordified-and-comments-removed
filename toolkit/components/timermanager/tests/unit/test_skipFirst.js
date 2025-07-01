@@ -171,7 +171,7 @@ now
 ;
 Assert
 .
-less
+ok
 (
 Math
 .
@@ -181,6 +181,7 @@ nowSeconds
 -
 prefValue
 )
+<
 2
 "
 Last

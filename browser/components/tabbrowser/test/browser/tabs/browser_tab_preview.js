@@ -3714,13 +3714,16 @@ waitForTick
 ;
 Assert
 .
-strictEqual
+ok
 (
 previewComponent
 .
 _panel
 .
 state
+=
+=
+=
 "
 closed
 "
@@ -4753,7 +4756,7 @@ getBoundingClientRect
 ;
 Assert
 .
-less
+ok
 (
 Math
 .
@@ -4767,6 +4770,7 @@ panelRect
 .
 top
 )
+<
 5
 "
 Preview

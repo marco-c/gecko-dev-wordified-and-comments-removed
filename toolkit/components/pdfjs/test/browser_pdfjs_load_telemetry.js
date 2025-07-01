@@ -226,7 +226,7 @@ testFlushAllChildren
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 Glean
 .
@@ -239,6 +239,9 @@ testGetValue
 )
 .
 sum
+!
+=
+=
 0
 )
 ;

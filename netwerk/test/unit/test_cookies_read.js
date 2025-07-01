@@ -285,11 +285,12 @@ exists
 ;
 Assert
 .
-less
+ok
 (
 file
 .
 fileSize
+<
 1e6
 )
 ;

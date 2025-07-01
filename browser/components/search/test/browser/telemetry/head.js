@@ -2511,7 +2511,7 @@ extra
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 Number
 (
@@ -2520,6 +2520,8 @@ actual
 .
 organic_num_domains
 )
+<
+=
 CATEGORIZATION_SETTINGS
 .
 MAX_DOMAINS_TO_CATEGORIZE
@@ -2539,7 +2541,7 @@ threshold
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 Number
 (
@@ -2548,6 +2550,8 @@ actual
 .
 sponsored_num_domains
 )
+<
+=
 CATEGORIZATION_SETTINGS
 .
 MAX_DOMAINS_TO_CATEGORIZE

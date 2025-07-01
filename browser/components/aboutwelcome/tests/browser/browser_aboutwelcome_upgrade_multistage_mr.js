@@ -778,13 +778,15 @@ twice
 ;
 Assert
 .
-notEqual
+ok
 (
 pinStub
 .
 firstCall
 .
 lastArg
+!
+=
 pinStub
 .
 secondCall

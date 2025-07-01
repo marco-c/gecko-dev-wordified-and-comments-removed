@@ -1199,11 +1199,12 @@ increase
 {
 Assert
 .
-greater
+ok
 (
 results
 .
 count
+>
 gUpdateCount
 "
 expected

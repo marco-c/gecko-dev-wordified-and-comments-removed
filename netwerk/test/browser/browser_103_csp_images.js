@@ -271,9 +271,11 @@ naturalHeight
 await
 Assert
 .
-equal
+ok
 (
 image_should_load
+=
+=
 imageLoaded
 "
 test_image_preload_hint_request_loaded

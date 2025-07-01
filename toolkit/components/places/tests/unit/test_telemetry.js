@@ -125,9 +125,10 @@ val
 >
 Assert
 .
-greater
+ok
 (
 val
+>
 0
 )
 PLACES_DATABASE_FAVICONS_FILESIZE_MB
@@ -137,9 +138,10 @@ val
 >
 Assert
 .
-greater
+ok
 (
 val
+>
 0
 )
 PLACES_EXPIRATION_STEPS_TO_CLEAN2
@@ -149,9 +151,10 @@ val
 >
 Assert
 .
-greater
+ok
 (
 val
+>
 1
 )
 PLACES_IDLE_MAINTENANCE_TIME_MS
@@ -161,9 +164,10 @@ val
 >
 Assert
 .
-greater
+ok
 (
 val
+>
 0
 )
 PLACES_ANNOS_PAGES_COUNT
@@ -185,9 +189,11 @@ val
 >
 Assert
 .
-greaterOrEqual
+ok
 (
 val
+>
+=
 0
 )
 }
@@ -684,7 +690,7 @@ sum
 ;
 Assert
 .
-greater
+ok
 (
 Object
 .
@@ -708,6 +714,7 @@ a
 b
 0
 )
+>
 0
 )
 ;

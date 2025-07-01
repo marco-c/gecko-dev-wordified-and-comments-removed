@@ -108,7 +108,8 @@ testnum
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 promiseCountEntries
@@ -116,6 +117,8 @@ promiseCountEntries
 null
 null
 )
+)
+>
 0
 )
 ;

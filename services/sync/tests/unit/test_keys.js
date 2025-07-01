@@ -715,9 +715,11 @@ keyBundle
 ;
 Assert
 .
-equal
+ok
 (
 null
+=
+=
 storage_keys
 .
 cleartext
@@ -725,9 +727,11 @@ cleartext
 ;
 Assert
 .
-notEqual
+ok
 (
 null
+!
+=
 storage_keys
 .
 ciphertext

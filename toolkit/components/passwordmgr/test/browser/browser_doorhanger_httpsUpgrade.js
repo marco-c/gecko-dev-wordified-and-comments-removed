@@ -1221,11 +1221,12 @@ increased
 ;
 Assert
 .
-less
+ok
 (
 loginHTTPS
 .
 timeCreated
+<
 loginHTTPS
 .
 timePasswordChanged

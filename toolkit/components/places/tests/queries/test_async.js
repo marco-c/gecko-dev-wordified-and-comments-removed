@@ -612,9 +612,12 @@ aExpectOldState
 ;
 Assert
 .
-strictEqual
+ok
 (
 aOldState
+=
+=
+=
 aExpectOldState
 )
 ;

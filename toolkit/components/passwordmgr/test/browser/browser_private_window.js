@@ -1625,7 +1625,7 @@ record
 ;
 Assert
 .
-greater
+ok
 (
 allLogins
 [
@@ -1633,6 +1633,7 @@ allLogins
 ]
 .
 timeLastUsed
+>
 timeLastUsed
 "
 The

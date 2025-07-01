@@ -869,9 +869,10 @@ getInt64
 ;
 Assert
 .
-greater
+ok
 (
 thisModTime
+>
 0
 "
 new

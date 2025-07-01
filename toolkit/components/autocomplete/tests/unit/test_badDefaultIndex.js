@@ -32,11 +32,13 @@ aDefaultIndex
 {
 Assert
 .
-lessOrEqual
+ok
 (
 aValues
 .
 length
+<
+=
 aDefaultIndex
 )
 ;

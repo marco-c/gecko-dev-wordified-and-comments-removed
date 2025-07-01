@@ -1668,9 +1668,11 @@ return
 }
 Assert
 .
-greaterOrEqual
+ok
 (
 nmethods
+>
+=
 1
 )
 ;
@@ -2416,9 +2418,11 @@ port
 ;
 Assert
 .
-notEqual
+ok
 (
 test
+!
+=
 null
 )
 ;

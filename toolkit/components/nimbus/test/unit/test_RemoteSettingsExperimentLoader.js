@@ -1069,9 +1069,12 @@ test
 ;
 Assert
 .
-strictEqual
+ok
 (
 loadingError
+=
+=
+=
 false
 "
 should

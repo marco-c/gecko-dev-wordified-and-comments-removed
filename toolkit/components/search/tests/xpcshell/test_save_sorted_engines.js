@@ -274,13 +274,14 @@ foo
 ;
 Assert
 .
-greater
+ok
 (
 metadata
 .
 foo
 .
 order
+>
 0
 )
 ;

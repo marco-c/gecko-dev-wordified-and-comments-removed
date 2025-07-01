@@ -1378,9 +1378,11 @@ id
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 idx
+>
+=
 0
 Should
 have

@@ -76,12 +76,15 @@ i
 {
 Assert
 .
-strictEqual
+ok
 (
 serviceProfiles
 [
 i
 ]
+=
+=
+=
 knownProfiles
 [
 i

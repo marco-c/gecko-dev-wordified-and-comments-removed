@@ -509,11 +509,13 @@ function
 {
 Assert
 .
-equal
+ok
 (
 chan
 .
 contentLength
+=
+=
 0
 )
 ;

@@ -1398,7 +1398,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -1406,6 +1406,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 emptyXYZ
@@ -1553,7 +1554,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -1561,6 +1562,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC
@@ -1793,7 +1795,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -1801,6 +1803,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC
@@ -1816,7 +1819,7 @@ change
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -1824,6 +1827,7 @@ finalLogins
 ]
 .
 timePasswordChanged
+>
 savedLoginsByName
 .
 bobABC
@@ -1975,7 +1979,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -1983,6 +1987,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC
@@ -2216,7 +2221,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -2224,6 +2229,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC
@@ -2239,7 +2245,7 @@ change
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -2247,6 +2253,7 @@ finalLogins
 ]
 .
 timePasswordChanged
+>
 savedLoginsByName
 .
 bobABC
@@ -2391,7 +2398,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -2399,6 +2406,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC
@@ -2414,7 +2422,7 @@ change
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -2422,6 +2430,7 @@ finalLogins
 ]
 .
 timePasswordChanged
+>
 savedLoginsByName
 .
 bobABC
@@ -2743,7 +2752,7 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 finalLogins
 [
@@ -2751,6 +2760,7 @@ finalLogins
 ]
 .
 timeLastUsed
+>
 savedLoginsByName
 .
 bobABC

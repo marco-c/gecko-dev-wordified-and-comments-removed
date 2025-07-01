@@ -1410,7 +1410,7 @@ certificateErrorText
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 content
 .
@@ -1420,6 +1420,9 @@ div
 )
 .
 display
+!
+=
+=
 "
 none
 "

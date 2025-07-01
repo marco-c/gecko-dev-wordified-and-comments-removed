@@ -771,9 +771,10 @@ expectedZoom
 ;
 Assert
 .
-greater
+ok
 (
 zoom
+>
 0
 subTest
 .

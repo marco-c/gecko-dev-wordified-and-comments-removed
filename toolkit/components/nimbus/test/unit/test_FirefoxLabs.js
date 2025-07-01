@@ -911,7 +911,7 @@ create
 ;
 Assert
 .
-strictEqual
+ok
 (
 typeof
 manager
@@ -924,6 +924,9 @@ recipe
 .
 slug
 )
+=
+=
+=
 "
 undefined
 "
@@ -988,7 +991,7 @@ slug
 ;
 Assert
 .
-strictEqual
+ok
 (
 manager
 .
@@ -1003,6 +1006,9 @@ slug
 ?
 .
 active
+=
+=
+=
 false
 Inactive
 enrollment
@@ -1025,7 +1031,7 @@ updateRecipes
 ;
 Assert
 .
-strictEqual
+ok
 (
 manager
 .
@@ -1040,6 +1046,9 @@ slug
 ?
 .
 active
+=
+=
+=
 false
 Inactive
 enrollment
@@ -1255,7 +1264,7 @@ rollout
 ;
 Assert
 .
-strictEqual
+ok
 (
 typeof
 manager
@@ -1270,6 +1279,9 @@ opt
 in
 "
 )
+=
+=
+=
 "
 undefined
 "

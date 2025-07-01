@@ -1314,10 +1314,12 @@ again
 ;
 Assert
 .
-equal
+ok
 (
 !
 hasData
+=
+=
 !
 hasKeys
 )
@@ -1468,10 +1470,12 @@ modified
 ;
 Assert
 .
-equal
+ok
 (
 !
 hasData
+=
+=
 !
 hasKeys
 )

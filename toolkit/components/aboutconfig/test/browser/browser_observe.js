@@ -354,7 +354,7 @@ value
 ;
 Assert
 .
-strictEqual
+ok
 (
 Preferences
 .
@@ -362,6 +362,9 @@ get
 (
 PREF_NEW
 )
+=
+=
+=
 value
 )
 ;

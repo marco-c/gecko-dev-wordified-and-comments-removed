@@ -4371,9 +4371,10 @@ test
 ;
 Assert
 .
-greater
+ok
 (
 expectedResults
+>
 1
 )
 ;

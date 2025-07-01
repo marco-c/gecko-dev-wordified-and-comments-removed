@@ -242,9 +242,12 @@ linkedBrowser
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 originalBrowser
+!
+=
+=
 newBrowser
 "
 A
@@ -478,9 +481,12 @@ linkedBrowser
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 originalBrowser
+!
+=
+=
 newBrowser
 "
 A

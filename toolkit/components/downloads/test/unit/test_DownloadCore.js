@@ -908,7 +908,7 @@ NS_ERROR_NOT_RESUMABLE
 ;
 Assert
 .
-greater
+ok
 (
 error
 .
@@ -920,6 +920,7 @@ indexOf
 Exception
 "
 )
+>
 0
 )
 ;

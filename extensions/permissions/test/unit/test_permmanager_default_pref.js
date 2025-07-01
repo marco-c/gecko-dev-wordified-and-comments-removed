@@ -294,7 +294,7 @@ DENY_ACTION
 ;
 Assert
 .
-notEqual
+ok
 (
 Services
 .
@@ -308,6 +308,8 @@ camera
 "
 false
 )
+!
+=
 null
 )
 ;

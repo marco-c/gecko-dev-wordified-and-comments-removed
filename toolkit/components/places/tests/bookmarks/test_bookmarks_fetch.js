@@ -3305,11 +3305,12 @@ guid
 ;
 Assert
 .
-greater
+ok
 (
 bm5
 .
 lastModified
+>
 bm1
 .
 lastModified

@@ -301,9 +301,11 @@ undefined
 ;
 Assert
 .
-notEqual
+ok
 (
 prototype
+!
+=
 undefined
 )
 ;

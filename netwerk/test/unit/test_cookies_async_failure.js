@@ -373,9 +373,10 @@ fileSize
 ;
 Assert
 .
-greater
+ok
 (
 size
+>
 320e3
 )
 ;

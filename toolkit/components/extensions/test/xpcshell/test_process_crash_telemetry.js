@@ -336,7 +336,7 @@ set
 ;
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -349,6 +349,7 @@ created_fg
 testGetValue
 (
 )
+>
 0
 "
 Expect
@@ -514,7 +515,7 @@ _isAndroid
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -527,6 +528,7 @@ crashed_bg
 testGetValue
 (
 )
+>
 0
 "
 Expect
@@ -549,7 +551,7 @@ else
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -562,6 +564,7 @@ crashed_fg
 testGetValue
 (
 )
+>
 0
 "
 Expect

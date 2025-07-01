@@ -255,9 +255,10 @@ A
 ;
 Assert
 .
-greater
+ok
 (
 num
+>
 0
 )
 ;

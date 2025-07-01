@@ -110,11 +110,13 @@ extra
 {
 Assert
 .
-equal
+ok
 (
 extra
 .
 TestKey
+=
+=
 "
 a
 "

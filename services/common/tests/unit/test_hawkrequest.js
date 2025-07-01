@@ -322,9 +322,10 @@ function
 {
 Assert
 .
-less
+ok
 (
 testCount
+<
 languages
 .
 length

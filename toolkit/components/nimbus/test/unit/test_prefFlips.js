@@ -9635,9 +9635,12 @@ enrollmentOrder
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 enrollment
+!
+=
+=
 null
 An
 enrollment
@@ -9690,9 +9693,12 @@ enrollmentOrder
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 enrollment
+!
+=
+=
 null
 An
 enrollment
@@ -11266,7 +11272,7 @@ BAD_PREF
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 typeof
 setPrefSpy
@@ -11277,6 +11283,9 @@ getCall
 )
 .
 exception
+!
+=
+=
 "
 undefined
 "

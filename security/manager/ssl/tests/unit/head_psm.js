@@ -3908,11 +3908,13 @@ match
 }
 Assert
 .
-greaterOrEqual
+ok
 (
 expectedCertNames
 .
 length
+>
+=
 1
 "
 expectedCertNames

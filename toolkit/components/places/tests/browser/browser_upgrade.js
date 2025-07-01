@@ -32,9 +32,12 @@ url
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 hidden
+!
+=
+=
 undefined
 We
 should

@@ -925,7 +925,7 @@ syncGUID
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 changes
 [
@@ -933,6 +933,8 @@ addon
 .
 syncGUID
 ]
+>
+=
 changeTime
 )
 ;
@@ -995,12 +997,13 @@ changes
 ;
 Assert
 .
-greater
+ok
 (
 changes
 [
 guid2
 ]
+>
 oldTime
 )
 ;

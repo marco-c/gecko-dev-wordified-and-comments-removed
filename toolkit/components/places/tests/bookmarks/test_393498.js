@@ -342,11 +342,14 @@ bookmark
 ;
 Assert
 .
-strictEqual
+ok
 (
 observer
 .
 itemChangedProperty
+=
+=
+=
 undefined
 )
 ;

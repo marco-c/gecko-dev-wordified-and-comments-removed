@@ -331,11 +331,12 @@ run_test
 {
 Assert
 .
-greater
+ok
 (
 responseBody
 .
 length
+>
 1024
 )
 ;

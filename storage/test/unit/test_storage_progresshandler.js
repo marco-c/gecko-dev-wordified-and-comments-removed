@@ -304,11 +304,12 @@ executeStep
 }
 Assert
 .
-greater
+ok
 (
 testProgressHandler
 .
 calls
+>
 0
 )
 ;

@@ -1678,10 +1678,12 @@ newVal
 {
 Assert
 .
-equal
+ok
 (
 typeof
 newVal
+=
+=
 "
 undefined
 "

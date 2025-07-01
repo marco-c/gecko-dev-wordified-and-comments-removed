@@ -1568,9 +1568,10 @@ currentTabCount
 ;
 Assert
 .
-greater
+ok
 (
 maxTabCount
+>
 0
 "
 Tabstrip

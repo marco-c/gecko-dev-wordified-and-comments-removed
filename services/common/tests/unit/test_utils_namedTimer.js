@@ -137,13 +137,14 @@ nsITimer
 ;
 Assert
 .
-greater
+ok
 (
 Date
 .
 now
 (
 )
+>
 t0
 )
 ;
@@ -213,7 +214,7 @@ callback
 {
 Assert
 .
-greater
+ok
 (
 Date
 .
@@ -222,6 +223,7 @@ now
 )
 -
 t0
+>
 delay
 )
 ;

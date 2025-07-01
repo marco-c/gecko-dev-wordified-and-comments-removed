@@ -250,9 +250,12 @@ e
 {
 Assert
 .
-strictEqual
+ok
 (
 mustBlock
+=
+=
+=
 true
 )
 ;

@@ -426,7 +426,8 @@ positive
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -445,6 +446,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;
@@ -850,7 +853,8 @@ positive
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -869,6 +873,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;
@@ -1234,7 +1240,8 @@ positive
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -1253,6 +1260,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;
@@ -1655,7 +1664,8 @@ positive
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -1674,6 +1684,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;
@@ -2361,7 +2373,8 @@ smaller
 ;
 Assert
 .
-less
+ok
+(
 (
 await
 PlacesTestUtils
@@ -2380,6 +2393,8 @@ url
 TEST_URI
 }
 )
+)
+<
 initialFrecency
 )
 ;

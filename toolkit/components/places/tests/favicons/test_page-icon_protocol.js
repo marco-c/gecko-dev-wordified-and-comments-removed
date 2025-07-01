@@ -723,9 +723,11 @@ contentType
 ;
 Assert
 .
-equal
+ok
 (
 data
+=
+=
 gDefaultFavicon
 .
 data

@@ -212,12 +212,14 @@ SHUTDOWN_PHASE_APPSHUTDOWN
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 getDBVersion
 (
 destFile
 )
+>
+=
 13
 )
 ;

@@ -350,7 +350,7 @@ entry
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 intervals
 [
@@ -358,6 +358,8 @@ intervals
 ]
 .
 end
+<
+=
 new
 Date
 (
@@ -379,7 +381,7 @@ now
 ;
 Assert
 .
-less
+ok
 (
 intervals
 [
@@ -387,6 +389,7 @@ intervals
 ]
 .
 start
+<
 intervals
 [
 0
@@ -404,7 +407,7 @@ end
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 intervals
 [
@@ -412,6 +415,8 @@ intervals
 ]
 .
 end
+<
+=
 new
 Date
 (
@@ -433,7 +438,7 @@ now
 ;
 Assert
 .
-less
+ok
 (
 intervals
 [
@@ -441,6 +446,7 @@ intervals
 ]
 .
 start
+<
 intervals
 [
 0
@@ -1301,7 +1307,7 @@ intervals
 {
 Assert
 .
-lessOrEqual
+ok
 (
 interval
 .
@@ -1310,6 +1316,8 @@ start
 getTime
 (
 )
+<
+=
 interval
 .
 end
@@ -1331,7 +1339,7 @@ order
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 interval
 .
@@ -1340,6 +1348,8 @@ end
 getTime
 (
 )
+<
+=
 curTime
 .
 getTime
@@ -2101,13 +2111,14 @@ interest
 ;
 Assert
 .
-greater
+ok
 (
 result
 .
 inferredInterests
 .
 parenting
+>
 0
 "
 Original
@@ -2292,13 +2303,14 @@ returned
 ;
 Assert
 .
-greater
+ok
 (
 result
 .
 inferredInterests
 .
 parenting
+>
 0
 "
 Original
@@ -2389,13 +2401,14 @@ available
 ;
 Assert
 .
-greater
+ok
 (
 result
 .
 inferredInterests
 .
 parenting
+>
 0
 "
 Original
@@ -2527,7 +2540,7 @@ CTR
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 Math
 .
@@ -2541,6 +2554,8 @@ sports
 .
 25
 )
+<
+=
 1e
 -
 4
@@ -2556,7 +2571,7 @@ expected
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 Math
 .
@@ -2570,6 +2585,8 @@ news
 .
 5
 )
+<
+=
 1e
 -
 4

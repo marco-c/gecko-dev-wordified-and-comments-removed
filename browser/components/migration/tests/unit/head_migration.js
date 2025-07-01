@@ -345,11 +345,14 @@ aProfile
 ;
 Assert
 .
-greater
+ok
+(
 (
 availableSources
 &
 resourceType
+)
+>
 0
 "
 Resource

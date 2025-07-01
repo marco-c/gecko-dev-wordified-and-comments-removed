@@ -295,11 +295,12 @@ amount
 {
 Assert
 .
-greater
+ok
 (
 this
 .
 onProgressNotificationCount
+>
 10
 )
 ;

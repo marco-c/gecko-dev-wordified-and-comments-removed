@@ -352,7 +352,7 @@ async
 {
 Assert
 .
-strictEqual
+ok
 (
 content
 .
@@ -361,6 +361,9 @@ document
 body
 .
 textContent
+=
+=
+=
 "
 Not
 proxied
@@ -461,7 +464,7 @@ async
 {
 Assert
 .
-strictEqual
+ok
 (
 content
 .
@@ -470,6 +473,9 @@ document
 body
 .
 textContent
+=
+=
+=
 "
 Proxied
 "
@@ -549,7 +555,7 @@ async
 {
 Assert
 .
-strictEqual
+ok
 (
 content
 .
@@ -558,6 +564,9 @@ document
 body
 .
 textContent
+=
+=
+=
 "
 Not
 proxied

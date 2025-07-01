@@ -197,9 +197,10 @@ finalize
 ;
 Assert
 .
-greater
+ok
 (
 placeId
+>
 0
 )
 ;

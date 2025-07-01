@@ -104,10 +104,13 @@ template
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 typeof
 validator
+!
+=
+=
 "
 undefined
 "

@@ -591,9 +591,10 @@ break
 }
 Assert
 .
-less
+ok
 (
 index
+<
 count
 "
 Result

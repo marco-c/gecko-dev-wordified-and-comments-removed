@@ -212,9 +212,10 @@ now
 ;
 Assert
 .
-greater
+ok
 (
 lastSettingsCorruptTime
+>
 fiveMinAgo
 "
 lastSettingsCorruptTime
@@ -486,9 +487,10 @@ now
 ;
 Assert
 .
-greater
+ok
 (
 lastSettingsCorruptTime
+>
 fiveMinAgo
 "
 lastSettingsCorruptTime

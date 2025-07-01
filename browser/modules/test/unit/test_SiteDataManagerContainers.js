@@ -441,7 +441,7 @@ userContextId
 ;
 Assert
 .
-equal
+ok
 (
 typeof
 site1Container1
@@ -449,6 +449,8 @@ site1Container1
 lastAccessed
 .
 getDate
+=
+=
 "
 function
 "
@@ -545,7 +547,7 @@ userContextId
 ;
 Assert
 .
-equal
+ok
 (
 typeof
 site1Container2
@@ -553,6 +555,8 @@ site1Container2
 lastAccessed
 .
 getDate
+=
+=
 "
 function
 "
@@ -617,7 +621,7 @@ userContextId
 ;
 Assert
 .
-equal
+ok
 (
 typeof
 site2Container3
@@ -625,6 +629,8 @@ site2Container3
 lastAccessed
 .
 getDate
+=
+=
 "
 function
 "

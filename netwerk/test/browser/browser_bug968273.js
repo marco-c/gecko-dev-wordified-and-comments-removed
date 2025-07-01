@@ -237,11 +237,13 @@ loadContextInfo
 ;
 Assert
 .
-equal
+ok
 (
 entry
 .
 persistent
+=
+=
 https
 https
 ?
