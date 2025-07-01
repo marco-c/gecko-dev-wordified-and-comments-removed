@@ -87,3 +87,17 @@ name
 }
 IP
 Protection
+ipprotection
+-
+title
+=
+{
+-
+brand
+-
+product
+-
+name
+}
+IP
+Protection
