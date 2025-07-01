@@ -33649,7 +33649,7 @@ GPU
 API
 enabled
 on
-service
+DOM
 workers
 ?
 -
@@ -33659,8 +33659,6 @@ dom
 .
 webgpu
 .
-service
--
 workers
 .
 enabled
