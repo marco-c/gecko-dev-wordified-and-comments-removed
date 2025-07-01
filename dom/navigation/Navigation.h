@@ -723,6 +723,9 @@ aInfo
 void
 SetEarlyErrorResult
 (
+JSContext
+*
+aCx
 NavigationResult
 &
 aResult
@@ -736,6 +739,9 @@ const
 bool
 CheckIfDocumentIsFullyActiveAndMaybeSetEarlyErrorResult
 (
+JSContext
+*
+aCx
 const
 Document
 *
@@ -749,6 +755,9 @@ const
 bool
 CheckDocumentUnloadCounterAndMaybeSetEarlyErrorResult
 (
+JSContext
+*
+aCx
 const
 Document
 *
