@@ -77,6 +77,9 @@ data
 -
 review
 jujutsu
+searchfox
+/
+searchfox_search
 .
 .
 toctree
