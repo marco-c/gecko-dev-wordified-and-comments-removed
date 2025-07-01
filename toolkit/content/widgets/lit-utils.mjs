@@ -3332,6 +3332,11 @@ class
 "
 label
 "
+id
+=
+"
+label
+"
 >
 {
 this
@@ -3414,6 +3419,11 @@ description
 text
 -
 deemphasized
+"
+id
+=
+"
+description
 "
 >
 {
