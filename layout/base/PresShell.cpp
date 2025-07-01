@@ -22656,7 +22656,7 @@ ConnectedNode
 (
 )
 .
-IsInclusiveDescendantOf
+IsInclusiveFlatTreeDescendantOf
 (
 aChild
 )
@@ -22670,7 +22670,7 @@ mConnectedAncestor
 aChild
 -
 >
-GetParentNode
+GetFlattenedTreeParentElement
 (
 )
 ;
