@@ -595,7 +595,6 @@ search
 property
 isSearchActive
 Whether
-whether
 the
 user
 is
