@@ -82,6 +82,16 @@ main
 "
 )
 ;
+globalThis
+.
+browserLoaderRequire
+=
+globalThis
+.
+browserLoader
+.
+require
+;
 }
 catch
 (
