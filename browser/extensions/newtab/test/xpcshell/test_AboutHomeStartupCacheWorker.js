@@ -574,6 +574,12 @@ true
 ;
 AboutNewTab
 .
+init
+(
+)
+;
+AboutNewTab
+.
 onBrowserReady
 (
 )

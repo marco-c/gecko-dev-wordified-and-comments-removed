@@ -15,6 +15,16 @@ _details
 =
 >
 {
+browser
+.
+builtin
+.
+newtab
+.
+handleUpdateAvailable
+(
+)
+;
 }
 )
 ;
