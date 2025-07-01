@@ -603,6 +603,15 @@ height
 .
 dp
 )
+.
+background
+(
+FirefoxTheme
+.
+colors
+.
+layer3
+)
 )
 IconButton
 (
@@ -908,7 +917,7 @@ FirefoxTheme
 .
 colors
 .
-layer3
+layer1
 )
 )
 {
