@@ -588,6 +588,10 @@ present
 :
 bool
 pub
+tracked
+:
+bool
+pub
 invalidate_rendered_frame
 :
 bool
@@ -2793,6 +2797,9 @@ render_frame
 item
 .
 build_frame
+tracked
+:
+false
 present
 :
 true
@@ -3957,6 +3964,15 @@ txn
 generate_frame
 .
 present
+(
+)
+tracked
+:
+txn
+.
+generate_frame
+.
+tracked
 (
 )
 invalidate_rendered_frame
