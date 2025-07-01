@@ -317,7 +317,6 @@ R
 ComposeState
 <
 R
-?
 >
 {
 val
@@ -332,10 +331,6 @@ state
 remember
 {
 mutableStateOf
-<
-R
-?
->
 (
 map
 (
