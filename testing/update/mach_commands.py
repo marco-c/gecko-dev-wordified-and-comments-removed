@@ -2001,6 +2001,11 @@ Path
 (
 installed_app_dir
 "
+Firefox
+.
+app
+"
+"
 Contents
 "
 "
