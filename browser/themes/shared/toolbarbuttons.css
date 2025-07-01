@@ -657,6 +657,7 @@ root
 [
 taskbartab
 ]
+toolbar
 {
 .
 chromeclass
@@ -710,6 +711,12 @@ unified
 extensions
 -
 button
+.
+unified
+-
+extensions
+-
+item
 #
 save
 -
@@ -744,6 +751,14 @@ link
 button
 #
 screenshot
+-
+button
+#
+nav
+-
+bar
+-
+overflow
 -
 button
 #
