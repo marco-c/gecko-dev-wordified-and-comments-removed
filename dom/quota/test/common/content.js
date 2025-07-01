@@ -1,4 +1,4 @@
-const
+var
 NS_ERROR_STORAGE_BUSY
 =
 SpecialPowers
