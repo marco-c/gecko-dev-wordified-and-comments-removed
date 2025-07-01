@@ -337,9 +337,7 @@ concept
 .
 Action
 .
-ActionButton
-.
-State
+ActionButtonRes
 import
 mozilla
 .
@@ -1601,8 +1599,6 @@ toolbarBrowserActions
 [
 1
 ]
-as
-ActionButton
 assertEqualsTabCounterButton
 (
 expectedTabCounterButton
@@ -2130,8 +2126,6 @@ toolbarBrowserActions
 [
 1
 ]
-as
-ActionButton
 assertEqualsTabCounterButton
 (
 expectedTabCounterButton
@@ -2260,8 +2254,6 @@ toolbarBrowserActions
 [
 1
 ]
-as
-ActionButton
 assertEqualsTabCounterButton
 (
 expectedTabCounterButton
@@ -2842,7 +2834,7 @@ browserActionsStart
 0
 ]
 as
-ActionButton
+ActionButtonRes
 mockkStatic
 (
 NavController
@@ -2954,7 +2946,7 @@ browserActionsEnd
 1
 ]
 as
-ActionButton
+ActionButtonRes
 mockkStatic
 (
 NavController
@@ -6447,7 +6439,7 @@ pageActionsEnd
 0
 ]
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedReaderModeButton
@@ -6621,7 +6613,7 @@ pageActionsEnd
 0
 ]
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedReaderModeButton
@@ -7352,7 +7344,7 @@ pageActionsEnd
 0
 ]
 as
-ActionButton
+ActionButtonRes
 toolbarStore
 .
 dispatch
@@ -7637,8 +7629,6 @@ browserActionsStart
 [
 1
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoBackButton
@@ -7668,8 +7658,6 @@ browserActionsStart
 [
 2
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoForwardButton
@@ -7955,8 +7943,6 @@ browserActionsStart
 [
 1
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoBackButton
@@ -7986,8 +7972,6 @@ browserActionsStart
 [
 2
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoForwardButton
@@ -8036,8 +8020,6 @@ browserActionsStart
 [
 1
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoBackButton
@@ -8066,8 +8048,6 @@ browserActionsStart
 [
 2
 ]
-as
-ActionButton
 assertEquals
 (
 displayGoForwardButton
@@ -8409,7 +8389,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedRefreshButton
@@ -8828,7 +8808,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedRefreshButton
@@ -8955,7 +8935,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedStopButton
@@ -9020,7 +9000,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedRefreshButton
@@ -9196,9 +9176,9 @@ private
 val
 expectedRefreshButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9214,6 +9194,8 @@ string
 browser_menu_refresh
 state
 =
+ActionButton
+.
 State
 .
 DEFAULT
@@ -9238,9 +9220,9 @@ private
 val
 expectedStopButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9256,6 +9238,8 @@ string
 browser_menu_stop
 state
 =
+ActionButton
+.
 State
 .
 DEFAULT
@@ -9274,9 +9258,9 @@ Boolean
 false
 )
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9342,9 +9326,9 @@ private
 val
 expectedGoForwardButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9376,9 +9360,9 @@ private
 val
 expectedGoBackButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9410,9 +9394,9 @@ private
 val
 expectedTranslateButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9585,9 +9569,9 @@ private
 val
 expectedHomeButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -9609,9 +9593,9 @@ private
 val
 expectedMenuButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .

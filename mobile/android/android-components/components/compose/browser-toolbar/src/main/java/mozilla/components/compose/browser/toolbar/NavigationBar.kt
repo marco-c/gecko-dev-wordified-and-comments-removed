@@ -191,7 +191,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -386,9 +386,9 @@ NavigationBar
 (
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -412,9 +412,9 @@ BrowserToolbarEvent
 {
 }
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -438,9 +438,9 @@ BrowserToolbarEvent
 {
 }
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -491,9 +491,9 @@ BrowserToolbarEvent
 {
 }
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .

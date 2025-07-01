@@ -239,7 +239,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -981,7 +981,7 @@ toolbarBrowserActions
 1
 ]
 as
-ActionButton
+ActionButtonRes
 assertEqualsToolbarButton
 (
 expectedToolbarButton
@@ -1534,7 +1534,7 @@ toolbarBrowserActions
 1
 ]
 as
-ActionButton
+ActionButtonRes
 assertEqualsToolbarButton
 (
 expectedToolbarButton
@@ -1671,7 +1671,7 @@ toolbarBrowserActions
 1
 ]
 as
-ActionButton
+ActionButtonRes
 assertEqualsToolbarButton
 (
 expectedToolbarButton
@@ -2243,7 +2243,7 @@ browserActionsEnd
 1
 ]
 as
-ActionButton
+ActionButtonRes
 toolbarStore
 .
 dispatch
@@ -4038,9 +4038,9 @@ private
 val
 expectedMenuButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .

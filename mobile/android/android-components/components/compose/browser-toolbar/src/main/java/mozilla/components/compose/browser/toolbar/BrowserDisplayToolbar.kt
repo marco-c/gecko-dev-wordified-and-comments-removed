@@ -257,7 +257,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -1406,9 +1406,9 @@ browserStartActions
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -1473,9 +1473,9 @@ pageActionsEnd
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -1505,9 +1505,9 @@ browserActionsEnd
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .

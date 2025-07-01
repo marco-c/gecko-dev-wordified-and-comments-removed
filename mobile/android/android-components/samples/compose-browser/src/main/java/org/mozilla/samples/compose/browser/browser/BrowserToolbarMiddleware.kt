@@ -95,7 +95,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -657,9 +657,9 @@ buildDisplayPageActions
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -706,9 +706,9 @@ onClick
 =
 TabCounterClicked
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -769,9 +769,9 @@ buildEditPageActionsEnd
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .

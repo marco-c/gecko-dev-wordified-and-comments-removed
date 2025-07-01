@@ -143,7 +143,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -1044,9 +1044,9 @@ buildStartBrowserActions
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -1234,9 +1234,9 @@ SettingsClicked
 )
 }
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .
@@ -1299,9 +1299,9 @@ buildPageActionsEnd
 =
 listOf
 (
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 iconsR
 .

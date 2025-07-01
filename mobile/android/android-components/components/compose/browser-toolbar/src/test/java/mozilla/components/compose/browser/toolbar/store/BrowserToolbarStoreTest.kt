@@ -107,7 +107,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -1348,9 +1348,9 @@ fakeActionButton
 (
 )
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 Random
 .

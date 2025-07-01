@@ -203,7 +203,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -1428,9 +1428,9 @@ buildTabCounterMenu
 (
 )
 )
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .

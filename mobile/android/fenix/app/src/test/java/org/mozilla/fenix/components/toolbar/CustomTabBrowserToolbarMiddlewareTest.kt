@@ -261,7 +261,7 @@ concept
 .
 Action
 .
-ActionButton
+ActionButtonRes
 import
 mozilla
 .
@@ -790,9 +790,9 @@ true
 val
 expectedCloseButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -846,8 +846,6 @@ toolbarBrowserActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedCloseButton
@@ -986,9 +984,9 @@ test
 val
 expectedSecurityIndicator
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -1042,8 +1040,6 @@ toolbarPageActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedSecurityIndicator
@@ -1095,9 +1091,9 @@ true
 val
 expectedSecurityIndicator
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -1151,8 +1147,6 @@ toolbarPageActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedSecurityIndicator
@@ -1204,9 +1198,9 @@ false
 val
 expectedSecurityIndicator
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -1260,8 +1254,6 @@ toolbarPageActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedSecurityIndicator
@@ -1341,9 +1333,9 @@ updateDependencies
 val
 expectedSecureIndicator
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -1364,9 +1356,9 @@ SiteInfoClicked
 val
 expectedInsecureIndicator
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -1425,8 +1417,6 @@ toolbarPageActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedInsecureIndicator
@@ -1476,8 +1466,6 @@ toolbarPageActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedSecureIndicator
@@ -2084,9 +2072,9 @@ false
 val
 expectedMenuButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -2140,8 +2128,6 @@ toolbarBrowserActions
 [
 0
 ]
-as
-ActionButton
 assertEquals
 (
 expectedMenuButton
@@ -2200,9 +2186,9 @@ true
 val
 expectedShareButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -2223,9 +2209,9 @@ ShareClicked
 val
 expectedMenuButton
 =
-ActionButton
+ActionButtonRes
 (
-icon
+drawableResId
 =
 R
 .
@@ -2279,8 +2265,6 @@ toolbarBrowserActions
 [
 0
 ]
-as
-ActionButton
 val
 menuButton
 =
@@ -2288,8 +2272,6 @@ toolbarBrowserActions
 [
 1
 ]
-as
-ActionButton
 assertEquals
 (
 expectedShareButton
