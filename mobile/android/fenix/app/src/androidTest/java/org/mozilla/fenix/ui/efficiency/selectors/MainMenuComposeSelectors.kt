@@ -150,15 +150,6 @@ string
 .
 browser_menu_extensions
 )
-+
-getStringResource
-(
-R
-.
-string
-.
-browser_menu_try_a_recommended_extension_description
-)
 description
 =
 "
