@@ -185,6 +185,14 @@ compose
 .
 ui
 .
+Modifier
+import
+androidx
+.
+compose
+.
+ui
+.
 platform
 .
 LocalContext
@@ -3655,6 +3663,7 @@ searchSuggestionsContent
 =
 {
 toolbarStore
+modifier
 -
 >
 (
@@ -3664,6 +3673,7 @@ awesomeBarComposable
 initializeAwesomeBarComposable
 (
 toolbarStore
+modifier
 )
 )
 ?
@@ -7474,6 +7484,9 @@ initializeAwesomeBarComposable
 toolbarStore
 :
 BrowserToolbarStore
+modifier
+:
+Modifier
 )
 =
 context
@@ -7490,6 +7503,9 @@ requireActivity
 )
 as
 HomeActivity
+modifier
+=
+modifier
 components
 =
 requireComponents
