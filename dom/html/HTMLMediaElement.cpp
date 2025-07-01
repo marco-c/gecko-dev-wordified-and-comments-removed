@@ -5687,6 +5687,17 @@ Muted
 ;
 }
 void
+ConstraintsChanged
+(
+const
+MediaTrackConstraints
+&
+aConstraints
+)
+override
+{
+}
+void
 OverrideEnded
 (
 )
