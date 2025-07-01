@@ -343,6 +343,17 @@ url
 String
 ?
 val
+registrableDomainIndexRange
+:
+Pair
+<
+Int
+Int
+>
+?
+=
+null
+val
 textGravity
 :
 TextGravity
