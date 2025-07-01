@@ -2113,6 +2113,11 @@ activity
 interactor
 awesomeBar
 fromHomeFragment
+browsingModeManager
+=
+activity
+.
+browsingModeManager
 )
 binding
 .
