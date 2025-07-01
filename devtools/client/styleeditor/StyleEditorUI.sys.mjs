@@ -5625,7 +5625,7 @@ add
 "
 stylesheet
 -
-system
+readonly
 "
 )
 ;
