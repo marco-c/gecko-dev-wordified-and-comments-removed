@@ -732,6 +732,9 @@ webrtc
 CaptureCapability
 mCapability
 ;
+DistanceCalculation
+mCalculation
+;
 mutable
 nsTArray
 <
