@@ -813,7 +813,7 @@ SearchSuggestionsProvidersBuilder
 activity
 =
 activity
-fromHomeFragment
+includeSelectedTab
 =
 false
 loadUrlUseCase
