@@ -221,8 +221,6 @@ DOMString
 >
 facingMode
 ;
-/
-/
 sequence
 <
 DOMString

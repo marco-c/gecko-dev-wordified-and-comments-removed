@@ -3326,6 +3326,13 @@ LogConstraintStringRange
 (
 c
 .
+mResizeMode
+)
+;
+LogConstraintStringRange
+(
+c
+.
 mDeviceId
 )
 ;

@@ -152,6 +152,11 @@ facingMode
 true
 ;
 boolean
+resizeMode
+=
+true
+;
+boolean
 volume
 ;
 /

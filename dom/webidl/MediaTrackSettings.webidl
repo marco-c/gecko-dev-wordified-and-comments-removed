@@ -133,6 +133,9 @@ frameRate
 DOMString
 facingMode
 ;
+DOMString
+resizeMode
+;
 boolean
 echoCancellation
 ;
