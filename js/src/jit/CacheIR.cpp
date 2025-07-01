@@ -26365,6 +26365,16 @@ nobj
 objId
 )
 ;
+bool
+expectPackedElements
+=
+nobj
+-
+>
+denseElementsArePacked
+(
+)
+;
 writer
 .
 storeDenseElement
@@ -26372,6 +26382,7 @@ storeDenseElement
 objId
 indexId
 rhsId
+expectPackedElements
 )
 ;
 writer

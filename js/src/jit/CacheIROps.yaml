@@ -3580,6 +3580,9 @@ Int32Id
 rhs
 :
 ValId
+expectPackedElements
+:
+BoolImm
 -
 name
 :
