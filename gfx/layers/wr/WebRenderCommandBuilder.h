@@ -1036,6 +1036,12 @@ mDumpIndent
 bool
 mApzEnabled
 ;
+bool
+mComputingOpaqueRegion
+;
+nsPoint
+mOpaqueRegionOffset
+;
 public
 :
 bool
