@@ -193,12 +193,6 @@ mercurial
 only
 )
 "
-                
-"
-default
-"
-:
-False
             
 }
             
