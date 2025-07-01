@@ -623,6 +623,7 @@ mMergeDenominator
 ;
 struct
 LongRange
+final
 :
 public
 Range
@@ -673,6 +674,7 @@ aList
 ;
 struct
 LongLongRange
+final
 :
 public
 Range
@@ -713,6 +715,7 @@ aList
 ;
 struct
 DoubleRange
+final
 :
 public
 Range
@@ -763,6 +766,7 @@ aList
 ;
 struct
 BooleanRange
+final
 :
 public
 Range
@@ -856,6 +860,7 @@ aOther
 ;
 struct
 StringRange
+final
 :
 public
 BaseRange
