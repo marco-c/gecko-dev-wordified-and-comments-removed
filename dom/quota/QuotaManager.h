@@ -840,12 +840,6 @@ const
 FullOriginMetadata
 &
 aFullOriginMetadata
-const
-ClientUsageArray
-&
-aClientUsages
-uint64_t
-aUsageBytes
 bool
 aDirectoryExists
 =

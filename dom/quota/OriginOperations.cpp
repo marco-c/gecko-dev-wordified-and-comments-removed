@@ -15777,6 +15777,11 @@ timestamp
 accessed
 true
 }
+ClientUsageArray
+(
+)
+0
+kCurrentQuotaVersion
 }
 ;
 if
@@ -15846,10 +15851,6 @@ aQuotaManager
 InitQuotaForOrigin
 (
 fullOriginMetadata
-ClientUsageArray
-(
-)
-0
 )
 ;
 }

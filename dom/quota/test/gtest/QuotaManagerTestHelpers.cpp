@@ -233,6 +233,11 @@ OriginStateMetadata
 false
 false
 }
+ClientUsageArray
+(
+)
+0
+kCurrentQuotaVersion
 }
 ;
 }

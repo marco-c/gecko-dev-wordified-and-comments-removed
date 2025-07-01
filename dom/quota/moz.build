@@ -185,6 +185,11 @@ ClientStorageScope
 h
 "
 "
+ClientUsageArray
+.
+h
+"
+"
 CommonMetadata
 .
 h
