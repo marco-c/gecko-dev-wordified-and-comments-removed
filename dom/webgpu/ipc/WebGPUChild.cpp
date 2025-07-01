@@ -735,6 +735,7 @@ mClient
 get
 (
 )
+aDeviceId
 &
 aEncoder
 &
@@ -746,9 +747,8 @@ bb
 )
 )
 ;
-SendDeviceAction
+SendMessage
 (
-aDeviceId
 std
 :
 :
@@ -804,6 +804,7 @@ mClient
 get
 (
 )
+aDeviceId
 label
 .
 Get
@@ -816,9 +817,8 @@ bb
 )
 )
 ;
-SendDeviceAction
+SendMessage
 (
-aDeviceId
 std
 :
 :

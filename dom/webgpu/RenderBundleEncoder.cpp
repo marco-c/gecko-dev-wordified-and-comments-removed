@@ -362,9 +362,8 @@ bundle
 aBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-aDeviceId
 std
 :
 :
@@ -1315,6 +1314,7 @@ bridge
 GetClient
 (
 )
+deviceId
 mEncoder
 .
 get
@@ -1345,6 +1345,7 @@ bridge
 GetClient
 (
 )
+deviceId
 label
 .
 Get
@@ -1371,9 +1372,8 @@ CanSend
 bridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-deviceId
 std
 :
 :
