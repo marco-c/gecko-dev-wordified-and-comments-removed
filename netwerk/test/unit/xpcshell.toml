@@ -7058,6 +7058,13 @@ x86_64
 ]
 [
 "
+test_invalid_cookie_fix
+.
+js
+"
+]
+[
+"
 test_large_port
 .
 js
