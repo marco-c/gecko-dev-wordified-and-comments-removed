@@ -2143,6 +2143,9 @@ ScriptLoadRequestList
 mOffThreadCompilingRequests
 ;
 ScriptLoadRequestList
+mBytecodeEncodableDependencyModules
+;
+ScriptLoadRequestList
 mBytecodeEncodingQueue
 ;
 struct
