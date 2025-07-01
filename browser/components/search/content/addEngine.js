@@ -1812,6 +1812,7 @@ URL_TYPE
 .
 SUGGEST_JSON
 newSuggestURL
+?
 .
 replace
 (
