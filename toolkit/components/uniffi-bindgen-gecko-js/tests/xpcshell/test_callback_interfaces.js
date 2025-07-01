@@ -2,7 +2,6 @@ const
 {
 invokeTestCallbackInterfaceNoop
 invokeTestCallbackInterfaceSetValue
-TestCallbackInterface
 UniffiSkipJsTypeCheck
 UnitTestObjs
 }
@@ -45,18 +44,12 @@ mjs
 ;
 class
 Callback
-extends
-TestCallbackInterface
 {
 constructor
 (
 value
 )
 {
-super
-(
-)
-;
 this
 .
 value
