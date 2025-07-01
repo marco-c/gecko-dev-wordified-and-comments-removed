@@ -7539,6 +7539,11 @@ findNavController
 lifecycleOwner
 =
 this
+searchAccessPoint
+=
+args
+.
+searchAccessPoint
 )
 .
 also
