@@ -643,11 +643,6 @@ isOnboardingTab
 Boolean
 =
 false
-renderStyle
-:
-ToolbarFeature
-.
-RenderStyle
 )
 :
 LifecycleAwareFeature
@@ -700,7 +695,11 @@ color
 .
 secondaryText
 )
-renderStyle
+ToolbarFeature
+.
+RenderStyle
+.
+ColoredUrl
 )
 )
 VisibleForTesting
