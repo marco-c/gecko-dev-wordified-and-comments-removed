@@ -663,8 +663,7 @@ name
 mozac_feature_prompt_login_update_headline_2
 "
 >
-A
-urirati
+Aktualizirati
 lozinku
 ?
 <
@@ -715,8 +714,7 @@ name
 mozac_feature_prompt_login_add_username_headline_2
 "
 >
-A
-urirati
+Aktualizirati
 korisni
 ko
 ime
@@ -2106,8 +2104,7 @@ mozac_feature_prompts_suggest_strong_password_updated_snackbar_title
 >
 Lozinka
 je
-a
-urirana
+aktualizirana
 <
 /
 string
@@ -2139,8 +2136,7 @@ Korisni
 ko
 ime
 je
-a
-urirano
+aktualizirano
 <
 /
 string
@@ -2647,8 +2643,7 @@ name
 mozac_feature_prompts_update_credit_card_prompt_title
 "
 >
-A
-uriraj
+Aktualizirati
 datum
 isteka
 kartice

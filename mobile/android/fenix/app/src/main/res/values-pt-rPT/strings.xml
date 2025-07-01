@@ -17171,6 +17171,7 @@ de
 %
 s
 e
+do
 dispositivo
 <
 /
@@ -22756,7 +22757,7 @@ name
 preference_expanded_toolbar
 "
 >
-Expandido
+Expandida
 <
 /
 string
@@ -28041,8 +28042,8 @@ download_item_in_progress_description_unknown_total_size
 %
 1
 s
-hora
-desconhecida
+tempo
+desconhecido
 <
 /
 string
@@ -30116,9 +30117,9 @@ em
 investiga
 o
 .
-Envi
--
-los
+O
+respetivo
+envio
 ir
 ajudar
 -
@@ -30136,9 +30137,9 @@ notifica
 o
 ir
 ignorar
-estas
-den
-ncias
+estes
+relat
+rios
 .
 <
 /
@@ -30237,8 +30238,10 @@ name
 unsubmitted_crash_requested_by_devs_dialog_never_button
 "
 >
-Nunca
+N
+o
 mostrar
+novamente
 <
 /
 string
@@ -45081,7 +45084,7 @@ name
 login_detail_menu_delete_button
 "
 >
-Apagar
+Eliminar
 <
 /
 string
