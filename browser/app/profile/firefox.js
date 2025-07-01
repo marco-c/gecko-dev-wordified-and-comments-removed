@@ -14378,7 +14378,7 @@ true
 if
 defined
 (
-NIGHTLY_BUIILD
+NIGHTLY_BUILD
 )
 pref
 (
