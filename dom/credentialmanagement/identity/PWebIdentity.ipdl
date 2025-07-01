@@ -330,6 +330,16 @@ nsresult
 rv
 )
 ;
+async
+IsActiveContinuationWindow
+(
+)
+returns
+(
+bool
+result
+)
+;
 child
 :
 async
