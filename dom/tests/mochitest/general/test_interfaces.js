@@ -7159,6 +7159,16 @@ true
 name
 :
 "
+URLPattern
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 URLSearchParams
 "
 insecureContext
