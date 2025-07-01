@@ -271,6 +271,10 @@ mExternal
 (
 false
 )
+mIsTrusted
+(
+true
+)
 mKind
 (
 JS
@@ -901,6 +905,9 @@ mAsync
 ;
 bool
 mExternal
+;
+bool
+mIsTrusted
 ;
 JS
 :
