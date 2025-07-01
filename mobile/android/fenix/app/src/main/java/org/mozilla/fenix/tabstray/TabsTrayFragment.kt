@@ -419,6 +419,16 @@ mozilla
 .
 fenix
 .
+biometricauthentication
+.
+NavigationOrigin
+import
+org
+.
+mozilla
+.
+fenix
+.
 browser
 .
 tabstrip
@@ -2920,6 +2930,9 @@ NavGraphDirections
 .
 actionGlobalUnlockPrivateTabsFragment
 (
+NavigationOrigin
+.
+TABS_TRAY
 )
 )
 }

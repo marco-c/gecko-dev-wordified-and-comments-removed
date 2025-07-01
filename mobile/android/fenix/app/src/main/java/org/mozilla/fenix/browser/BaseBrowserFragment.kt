@@ -1553,6 +1553,16 @@ mozilla
 .
 fenix
 .
+biometricauthentication
+.
+NavigationOrigin
+import
+org
+.
+mozilla
+.
+fenix
+.
 browser
 .
 browsingmode
@@ -3534,6 +3544,9 @@ NavGraphDirections
 .
 actionGlobalUnlockPrivateTabsFragment
 (
+NavigationOrigin
+.
+TAB
 )
 )
 }
