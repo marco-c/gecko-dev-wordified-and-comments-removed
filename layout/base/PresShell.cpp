@@ -43902,7 +43902,7 @@ Document
 :
 AsyncExitFullscreen
 (
-nullptr
+root
 )
 ;
 }
