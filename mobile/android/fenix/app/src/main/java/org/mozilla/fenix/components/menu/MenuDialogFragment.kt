@@ -3732,11 +3732,6 @@ onInstallAddonClick
 addon
 -
 >
-view
-?
-.
-slideDown
-{
 store
 .
 dispatch
@@ -3750,7 +3745,6 @@ addon
 addon
 )
 )
-}
 }
 onManageExtensionsMenuClick
 =
