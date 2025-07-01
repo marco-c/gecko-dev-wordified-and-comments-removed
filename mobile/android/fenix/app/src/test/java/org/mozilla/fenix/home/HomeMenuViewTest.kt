@@ -357,12 +357,6 @@ HomeActivity
 private
 lateinit
 var
-homeFragment
-:
-HomeFragment
-private
-lateinit
-var
 navController
 :
 NavController
@@ -408,14 +402,6 @@ relaxed
 =
 true
 )
-homeFragment
-=
-mockk
-(
-relaxed
-=
-true
-)
 navController
 =
 mockk
@@ -449,9 +435,6 @@ homeActivity
 navController
 =
 navController
-homeFragment
-=
-homeFragment
 menuButton
 =
 WeakReference

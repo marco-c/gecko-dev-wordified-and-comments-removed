@@ -882,9 +882,6 @@ homeFragment
 findNavController
 (
 )
-homeFragment
-=
-homeFragment
 menuButton
 =
 WeakReference
