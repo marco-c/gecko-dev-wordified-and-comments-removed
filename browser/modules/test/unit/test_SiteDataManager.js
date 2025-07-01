@@ -446,7 +446,7 @@ com
 ;
 Assert
 .
-ok
+equal
 (
 typeof
 site1
@@ -454,8 +454,6 @@ site1
 lastAccessed
 .
 getDate
-=
-=
 "
 function
 "
@@ -585,7 +583,7 @@ org
 ;
 Assert
 .
-ok
+equal
 (
 typeof
 site2
@@ -593,8 +591,6 @@ site2
 lastAccessed
 .
 getDate
-=
-=
 "
 function
 "

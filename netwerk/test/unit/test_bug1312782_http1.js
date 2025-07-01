@@ -501,10 +501,12 @@ maxWindowId
 ;
 Assert
 .
-ok
+less
+(
+Number
 (
 id
-<
+)
 maxWindowId
 )
 ;
