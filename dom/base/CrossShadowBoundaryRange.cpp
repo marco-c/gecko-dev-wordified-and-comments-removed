@@ -729,8 +729,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 MOZ_DIAGNOSTIC_ASSERT

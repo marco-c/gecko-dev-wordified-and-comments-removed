@@ -549,6 +549,9 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
 )
 {
 Invalidate
@@ -571,6 +574,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 Invalidate
@@ -594,8 +600,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 Invalidate

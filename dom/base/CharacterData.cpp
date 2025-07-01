@@ -1229,6 +1229,10 @@ textLength
 aOffset
 endOffset
 aLength
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 aDetails
 }
 ;
@@ -1541,6 +1545,10 @@ textLength
 aOffset
 endOffset
 aLength
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 aDetails
 }
 ;

@@ -6461,6 +6461,9 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
 )
 {
 mStylesheet
@@ -6477,6 +6480,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 mStylesheet
@@ -6494,8 +6500,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 mStylesheet

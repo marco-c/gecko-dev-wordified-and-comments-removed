@@ -4363,6 +4363,10 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
+aInfo
 )
 {
 for
@@ -4388,6 +4392,7 @@ GetNextSibling
 ContentInserted
 (
 cur
+aInfo
 )
 ;
 }
@@ -4401,6 +4406,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 NS_ASSERTION
@@ -4794,8 +4802,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 NS_ASSERTION
