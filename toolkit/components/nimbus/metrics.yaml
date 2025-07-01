@@ -4888,9 +4888,6 @@ com
 expires
 :
 never
-disabled
-:
-true
 migration
 :
 type
