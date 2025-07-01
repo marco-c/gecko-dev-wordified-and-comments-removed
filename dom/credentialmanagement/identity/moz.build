@@ -44,6 +44,11 @@ IdentityNetworkHelpers
 h
 "
 "
+IdentityProvider
+.
+h
+"
+"
 NavigatorLogin
 .
 h
@@ -85,6 +90,11 @@ cpp
 "
 "
 IdentityNetworkHelpers
+.
+cpp
+"
+"
+IdentityProvider
 .
 cpp
 "
