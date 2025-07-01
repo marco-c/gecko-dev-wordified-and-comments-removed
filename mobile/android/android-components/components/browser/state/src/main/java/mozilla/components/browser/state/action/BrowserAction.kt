@@ -10729,6 +10729,9 @@ BrowserAction
 ]
 to
 remove
+completed
+and
+cancelled
 downloads
 from
 the
@@ -10736,6 +10739,7 @@ storage
 that
 no
 longer
+*
 exist
 on
 disk
