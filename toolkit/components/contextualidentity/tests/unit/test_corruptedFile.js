@@ -144,6 +144,8 @@ isSession
 COOKIE
 .
 expiry
+*
+1000
 {
 userContextId
 }
