@@ -8607,13 +8607,6 @@ callback
 }
 )
 ;
-WindowContext
-:
-:
-Discard
-(
-)
-;
 if
 (
 !
@@ -8758,6 +8751,13 @@ DocumentPrincipal
 }
 }
 }
+WindowContext
+:
+:
+Discard
+(
+)
+;
 JSActorDidDestroy
 (
 )
