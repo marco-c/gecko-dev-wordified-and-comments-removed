@@ -728,6 +728,17 @@ id
 :
 :
 QueueId
+Option
+<
+Cow
+<
+'
+a
+[
+u8
+]
+>
+>
 QueueWriteAction
 )
 DestroyBuffer
