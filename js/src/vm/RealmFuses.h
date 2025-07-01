@@ -1210,7 +1210,7 @@ Found
 )
 ;
 }
-DependentScriptGroup
+DependentIonScriptGroup
 fuseDependencies
 ;
 static

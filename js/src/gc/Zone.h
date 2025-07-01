@@ -4008,7 +4008,7 @@ endif
 js
 :
 :
-DependentScriptGroup
+DependentIonScriptGroup
 fuseDependencies
 ;
 private
