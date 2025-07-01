@@ -61,7 +61,7 @@ mjs
 ;
 const
 {
-Proxy
+ProxyConfiguration
 }
 =
 ChromeUtils
@@ -235,7 +235,7 @@ context
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -471,7 +471,7 @@ field
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -628,7 +628,7 @@ context
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -691,7 +691,7 @@ proxy
 const
 newProxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -788,7 +788,7 @@ proxy
 const
 globalProxy
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -912,7 +912,7 @@ context
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1021,7 +1021,7 @@ proxy
 const
 globalProxy
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1105,7 +1105,7 @@ context
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1258,7 +1258,7 @@ context
 const
 proxyConfiguration
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (

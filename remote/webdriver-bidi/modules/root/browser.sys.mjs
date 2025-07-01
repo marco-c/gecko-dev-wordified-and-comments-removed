@@ -198,7 +198,7 @@ sys
 .
 mjs
 "
-Proxy
+ProxyConfiguration
 :
 "
 chrome
@@ -1204,7 +1204,7 @@ proxyObject
 =
 lazy
 .
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (

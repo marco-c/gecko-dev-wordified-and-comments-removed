@@ -31,7 +31,7 @@ mjs
 ;
 const
 {
-Proxy
+ProxyConfiguration
 }
 =
 ChromeUtils
@@ -391,7 +391,7 @@ proxy
 const
 globalProxy
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (

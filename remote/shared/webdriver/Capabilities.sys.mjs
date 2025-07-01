@@ -882,7 +882,7 @@ representation
 /
 export
 class
-Proxy
+ProxyConfiguration
 {
 #
 previousValuesForPreferences
@@ -1963,7 +1963,7 @@ let
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -2933,7 +2933,7 @@ getWebDriverPlatformName
 proxy
 "
 new
-Proxy
+ProxyConfiguration
 (
 )
 ]
@@ -3199,7 +3199,7 @@ proxy
 (
 value
 instanceof
-Proxy
+ProxyConfiguration
 )
 )
 {
@@ -3652,7 +3652,7 @@ proxy
 :
 v
 =
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -4506,7 +4506,7 @@ proxy
 "
 :
 return
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
