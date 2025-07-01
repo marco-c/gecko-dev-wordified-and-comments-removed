@@ -3098,9 +3098,13 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 "
 FEATURE_DOWNLOAD_MOBILE_PROMO
 "
+}
 }
 )
 )
