@@ -2300,7 +2300,7 @@ aAtom
 nsGkAtoms
 :
 :
-showpopover
+show_popover
 )
 )
 {
@@ -2322,7 +2322,7 @@ aAtom
 nsGkAtoms
 :
 :
-hidepopover
+hide_popover
 )
 )
 {
@@ -2344,7 +2344,7 @@ aAtom
 nsGkAtoms
 :
 :
-togglepopover
+toggle_popover
 )
 )
 {
@@ -2366,7 +2366,7 @@ aAtom
 nsGkAtoms
 :
 :
-showmodal
+show_modal
 )
 )
 {
