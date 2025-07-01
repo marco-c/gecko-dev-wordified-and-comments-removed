@@ -2321,7 +2321,6 @@ DiscardImagesInTransaction
 resourceUpdates
 )
 ;
-}
 WrBridge
 (
 )
@@ -2332,6 +2331,7 @@ RemoveExpiredFontKeys
 resourceUpdates
 )
 ;
+}
 if
 (
 !
