@@ -1419,6 +1419,9 @@ CustomTabBrowserToolbarMiddleware
 .
 LifecycleDependencies
 (
+context
+=
+activity
 lifecycleOwner
 =
 lifecycleOwner
