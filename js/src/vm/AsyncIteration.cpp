@@ -1225,13 +1225,6 @@ HandleValue
 value
 )
 {
-generator
--
->
-setSuspendedYield
-(
-)
-;
 if
 (
 !
@@ -1248,6 +1241,13 @@ return
 false
 ;
 }
+generator
+-
+>
+setSuspendedYield
+(
+)
+;
 return
 AsyncGeneratorDrainQueue
 (
