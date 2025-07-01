@@ -340,7 +340,7 @@ void
 UnregisterDevice
 (
 RawId
-aId
+aDeviceId
 )
 ;
 void
