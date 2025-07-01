@@ -1603,10 +1603,16 @@ filename
 .
 endswith
 (
+(
 "
 .
 h
 "
+"
+.
+hpp
+"
+)
 )
 :
             
@@ -2747,10 +2753,16 @@ inclname
 .
 endswith
 (
+(
 "
 .
 h
 "
+"
+.
+hpp
+"
+)
 )
 :
             
