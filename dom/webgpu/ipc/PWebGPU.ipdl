@@ -337,7 +337,11 @@ Messages
 uint32_t
 nrOfMessages
 ByteBuf
-buf
+serializedMessages
+ByteBuf
+[
+]
+dataBuffers
 MutableSharedMemoryHandle
 [
 ]
