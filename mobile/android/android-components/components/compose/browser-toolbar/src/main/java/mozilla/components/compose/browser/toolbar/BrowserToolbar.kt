@@ -134,6 +134,8 @@ toolbar
 store
 .
 BrowserEditToolbarAction
+.
+UpdateEditText
 import
 mozilla
 .
@@ -148,6 +150,8 @@ toolbar
 store
 .
 BrowserToolbarAction
+.
+CommitUrl
 import
 mozilla
 .
@@ -162,6 +166,8 @@ toolbar
 store
 .
 BrowserToolbarInteraction
+.
+BrowserToolbarEvent
 import
 mozilla
 .
@@ -405,8 +411,6 @@ store
 .
 dispatch
 (
-BrowserToolbarAction
-.
 CommitUrl
 (
 text
@@ -423,8 +427,6 @@ store
 .
 dispatch
 (
-BrowserEditToolbarAction
-.
 UpdateEditText
 (
 text
@@ -616,8 +618,6 @@ onClick
 =
 object
 :
-BrowserToolbarInteraction
-.
 BrowserToolbarEvent
 {
 }
