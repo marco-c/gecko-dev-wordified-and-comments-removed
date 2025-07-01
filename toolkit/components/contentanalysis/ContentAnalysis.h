@@ -1069,6 +1069,15 @@ U
 aClientCallFunc
 )
 ;
+void
+RecordConnectionSettingsTelemetry
+(
+const
+nsString
+&
+clientSignature
+)
+;
 nsresult
 RunAnalyzeRequestTask
 (
