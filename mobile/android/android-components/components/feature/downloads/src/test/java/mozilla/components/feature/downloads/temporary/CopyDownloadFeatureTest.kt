@@ -1131,6 +1131,8 @@ if
 available
 (
 )
+=
+runTest
 {
 val
 copyFeature
@@ -1322,6 +1324,8 @@ not
 successful
 (
 )
+=
+runTest
 {
 val
 copyFeature
@@ -1435,6 +1439,8 @@ is
 unavailable
 (
 )
+=
+runTest
 {
 val
 client
@@ -1600,6 +1606,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 client
@@ -1729,6 +1737,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 client

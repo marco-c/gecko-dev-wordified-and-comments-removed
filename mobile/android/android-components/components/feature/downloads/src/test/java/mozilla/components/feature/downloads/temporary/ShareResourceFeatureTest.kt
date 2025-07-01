@@ -91,6 +91,14 @@ runners
 .
 AndroidJUnit4
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -1245,6 +1253,8 @@ if
 available
 (
 )
+=
+runTest
 {
 val
 shareFeature
@@ -1433,6 +1443,8 @@ not
 successful
 (
 )
+=
+runTest
 {
 val
 shareFeature
@@ -1543,6 +1555,8 @@ is
 unavailable
 (
 )
+=
+runTest
 {
 val
 client
@@ -1705,6 +1719,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 client
@@ -1831,6 +1847,8 @@ private
 mode
 (
 )
+=
+runTest
 {
 val
 client
