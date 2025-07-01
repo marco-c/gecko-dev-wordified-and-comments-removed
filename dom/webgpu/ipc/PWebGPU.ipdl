@@ -471,17 +471,6 @@ flush
 )
 ;
 async
-CommandEncoderFinish
-(
-RawId
-selfId
-RawId
-deviceId
-GPUCommandBufferDescriptor
-desc
-)
-;
-async
 QueueSubmit
 (
 RawId
