@@ -108,6 +108,12 @@ dom
 :
 ConstrainBooleanParameters
 ;
+using
+dom
+:
+:
+VideoResizeModeEnum
+;
 template
 <
 class
