@@ -7209,7 +7209,7 @@ true
 name
 :
 "
-trendingsearchfeed
+trendingseachfeed
 "
 factory
 :
