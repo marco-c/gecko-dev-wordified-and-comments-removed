@@ -760,6 +760,13 @@ html
 ]
 [
 "
+test_pointercancel_target_at_dragstart_with_restyle
+.
+html
+"
+]
+[
+"
 test_pointercapture_remove_iframe
 .
 html
