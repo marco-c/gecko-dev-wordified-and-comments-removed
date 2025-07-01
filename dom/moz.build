@@ -248,6 +248,9 @@ streams
 url
 "
 "
+urlpattern
+"
+"
 webauthn
 "
 "
