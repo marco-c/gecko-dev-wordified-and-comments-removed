@@ -8264,15 +8264,7 @@ event
 detail
 ?
 .
-dragging
-?
-"
-drag
-"
-:
-"
-context_menu
-"
+telemetrySource
 }
 )
 ;

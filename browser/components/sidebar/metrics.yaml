@@ -3351,11 +3351,14 @@ description
 :
 Either
 "
-context_menu
+tab_menu
+"
+"
+drag
 "
 or
 "
-drag
+unknown
 "
 .
 close
