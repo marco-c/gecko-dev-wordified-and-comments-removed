@@ -650,6 +650,13 @@ tab
 -
 embedding
 "
+backend
+:
+"
+onnx
+-
+native
+"
 }
 topicGeneration
 :
@@ -681,6 +688,13 @@ smart
 tab
 -
 topic
+"
+backend
+:
+"
+onnx
+-
+native
 "
 }
 dataConfig
@@ -4036,6 +4050,7 @@ taskName
 timeoutMS
 modelId
 modelRevision
+backend
 }
 =
 engineConfig
@@ -4051,6 +4066,7 @@ taskName
 timeoutMS
 modelId
 modelRevision
+backend
 }
 ;
 initData
