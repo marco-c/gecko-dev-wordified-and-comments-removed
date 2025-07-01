@@ -4678,6 +4678,10 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+const
+MediaEnginePrefs
+&
+aPrefs
 CallerType
 aCallerType
 )
@@ -4839,6 +4843,7 @@ Source
 GetBestFitnessDistance
 (
 aConstraintSets
+aPrefs
 )
 ;
 }
@@ -5919,6 +5924,9 @@ move
 (
 aDevices
 )
+prefs
+=
+mPrefs
 aCallerType
 ]
 (
@@ -6106,6 +6114,7 @@ aConstraints
 mVideo
 )
 )
+prefs
 videos
 aCallerType
 )
@@ -6143,6 +6152,7 @@ aConstraints
 mAudio
 )
 )
+prefs
 audios
 aCallerType
 )
@@ -6968,6 +6978,7 @@ NormalizedConstraints
 (
 constraints
 )
+mPrefs
 devices
 mCallerType
 )
@@ -7065,6 +7076,7 @@ NormalizedConstraints
 (
 constraints
 )
+mPrefs
 devices
 mCallerType
 )
@@ -25925,6 +25937,12 @@ mDeviceState
 >
 mDevice
 aConstraints
+prefs
+=
+mgr
+-
+>
+mPrefs
 aCallerType
 ]
 (
@@ -26036,6 +26054,7 @@ NormalizedConstraints
 (
 aConstraints
 )
+prefs
 devices
 aCallerType
 )

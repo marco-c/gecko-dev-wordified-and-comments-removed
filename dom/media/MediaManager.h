@@ -565,6 +565,10 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+const
+MediaEnginePrefs
+&
+aPrefs
 dom
 :
 :
