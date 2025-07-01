@@ -638,6 +638,7 @@ bridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -660,13 +661,8 @@ CanSend
 bridge
 -
 >
-SendTextureAction
+SendMessage
 (
-mId
-mParent
--
->
-mId
 std
 :
 :
