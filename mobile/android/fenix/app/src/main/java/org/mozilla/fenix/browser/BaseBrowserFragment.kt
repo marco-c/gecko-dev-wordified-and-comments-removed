@@ -7073,7 +7073,7 @@ middleware
 return
 BrowserToolbarComposable
 (
-context
+activity
 =
 activity
 lifecycleOwner
@@ -7102,6 +7102,11 @@ browserScreenStore
 browserStore
 =
 store
+components
+=
+activity
+.
+components
 browsingModeManager
 =
 activity
