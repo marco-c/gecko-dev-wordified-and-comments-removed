@@ -2087,7 +2087,6 @@ ScriptLoadRequest
 aRequest
 )
 ;
-static
 void
 CalculateBytecodeCacheFlag
 (
