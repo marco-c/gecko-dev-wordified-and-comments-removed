@@ -67,8 +67,6 @@ icon
 -
 size
 :
-calc
-(
 var
 (
 -
@@ -77,10 +75,7 @@ icon
 -
 size
 -
-small
-)
--
-4px
+xsmall
 )
 ;
 -
