@@ -695,9 +695,13 @@ generation
 modelId
 :
 "
-Xenova
+onnx
+-
+community
 /
 gpt2
+-
+ONNX
 "
 dtype
 :

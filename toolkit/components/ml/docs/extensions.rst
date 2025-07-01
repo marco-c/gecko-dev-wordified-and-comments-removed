@@ -1166,9 +1166,13 @@ generation
 *
 *
 :
-Xenova
+onnx
+-
+community
 /
 gpt2
+-
+ONNX
 -
 *
 *
