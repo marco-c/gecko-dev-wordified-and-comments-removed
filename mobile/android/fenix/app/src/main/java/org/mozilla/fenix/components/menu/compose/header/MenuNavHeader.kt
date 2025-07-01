@@ -611,7 +611,7 @@ padding
 (
 horizontal
 =
-16
+8
 .
 dp
 vertical

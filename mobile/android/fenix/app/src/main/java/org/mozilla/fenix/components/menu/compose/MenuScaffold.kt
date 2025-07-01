@@ -604,7 +604,7 @@ padding
 (
 start
 =
-16
+8
 .
 dp
 top
@@ -614,12 +614,12 @@ top
 dp
 end
 =
-16
+8
 .
 dp
 bottom
 =
-16
+12
 .
 dp
 )

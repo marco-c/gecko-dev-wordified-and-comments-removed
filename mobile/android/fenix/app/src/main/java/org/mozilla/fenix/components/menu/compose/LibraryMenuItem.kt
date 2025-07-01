@@ -480,6 +480,13 @@ Modifier
 .
 padding
 (
+horizontal
+=
+8
+.
+dp
+vertical
+=
 12
 .
 dp
