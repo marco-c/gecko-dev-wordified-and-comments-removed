@@ -486,15 +486,6 @@ page
 )
 composeTestRule
 .
-whatsNewButton
-(
-)
-.
-assertIsDisplayed
-(
-)
-composeTestRule
-.
 customizeHomeButton
 (
 )
@@ -4362,7 +4353,7 @@ private
 fun
 ComposeTestRule
 .
-whatsNewButton
+backToMainMenuButton
 (
 )
 =
@@ -4374,7 +4365,7 @@ R
 .
 string
 .
-browser_menu_new_in_firefox
+browser_menu_back_button_content_description
 )
 )
 private
