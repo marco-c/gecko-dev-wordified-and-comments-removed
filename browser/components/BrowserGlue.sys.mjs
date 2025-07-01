@@ -3474,6 +3474,11 @@ FormAutofillUtils
 .
 setOSAuthEnabled
 (
+lazy
+.
+FormAutofillUtils
+.
+AUTOFILL_CREDITCARDS_REAUTH_PREF
 false
 )
 ;
@@ -3483,6 +3488,11 @@ LoginHelper
 .
 setOSAuthEnabled
 (
+lazy
+.
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 false
 )
 ;
@@ -10447,7 +10457,7 @@ number
 const
 APP_DATA_VERSION
 =
-157
+156
 ;
 const
 PREF

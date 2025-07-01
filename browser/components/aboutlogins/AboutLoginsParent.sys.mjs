@@ -1651,6 +1651,11 @@ LoginHelper
 .
 getOSAuthEnabled
 (
+lazy
+.
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 )
 ;
 /
@@ -2282,6 +2287,11 @@ LoginHelper
 .
 getOSAuthEnabled
 (
+lazy
+.
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 )
 ;
 /

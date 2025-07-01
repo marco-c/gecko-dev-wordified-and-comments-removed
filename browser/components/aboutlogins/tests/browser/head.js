@@ -409,9 +409,7 @@ os
 -
 auth
 .
-locked
-.
-enabled
+optout
 "
 ;
 const

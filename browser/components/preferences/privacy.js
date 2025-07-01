@@ -14253,6 +14253,9 @@ LoginHelper
 .
 getOSAuthEnabled
 (
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 )
 )
 {
@@ -14897,6 +14900,9 @@ LoginHelper
 .
 setOSAuthEnabled
 (
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 osReauthCheckbox
 .
 checked
@@ -14981,6 +14987,9 @@ LoginHelper
 .
 getOSAuthEnabled
 (
+LoginHelper
+.
+OS_AUTH_FOR_PASSWORDS_PREF
 )
 )
 ;
