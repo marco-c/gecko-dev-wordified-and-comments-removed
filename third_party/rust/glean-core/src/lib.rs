@@ -267,6 +267,7 @@ common_metric_data
 :
 {
 CommonMetricData
+DynamicLabelType
 Lifetime
 }
 ;
@@ -371,6 +372,7 @@ Datetime
 DatetimeMetric
 DenominatorMetric
 DistributionData
+DualLabeledCounterMetric
 EventMetric
 LocalCustomDistribution
 LocalMemoryDistribution
