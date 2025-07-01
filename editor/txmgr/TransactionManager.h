@@ -231,6 +231,14 @@ return
 true
 ;
 }
+already_AddRefed
+<
+nsITransaction
+>
+PopUndoStack
+(
+)
+;
 void
 Attach
 (
