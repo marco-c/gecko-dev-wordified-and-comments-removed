@@ -166,7 +166,7 @@ aRv
 void
 GetToken
 (
-nsAString
+nsACString
 &
 aToken
 )
@@ -176,14 +176,14 @@ void
 SetToken
 (
 const
-nsAString
+nsACString
 &
 aToken
 )
 ;
 private
 :
-nsAutoString
+nsCString
 mToken
 ;
 }
