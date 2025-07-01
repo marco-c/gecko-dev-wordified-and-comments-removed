@@ -122,7 +122,7 @@ imm21
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -136,6 +136,7 @@ int16_t
 imm12
 )
 {
+return
 GenInstrI
 (
 0b000

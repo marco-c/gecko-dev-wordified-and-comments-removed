@@ -2550,7 +2550,7 @@ cc
 Always
 )
 ;
-void
+BufferOffset
 ma_pop
 (
 Register
@@ -3781,11 +3781,12 @@ ma_nop
 )
 ;
 }
-void
+BufferOffset
 ret
 (
 )
 {
+return
 ma_pop
 (
 pc
