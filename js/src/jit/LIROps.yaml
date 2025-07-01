@@ -2966,7 +2966,7 @@ arguments
 :
 constant
 :
-JSLinearString
+JSOffThreadAtom
 *
 mir_op
 :
@@ -2990,7 +2990,7 @@ jsop
 JSOp
 constant
 :
-JSLinearString
+JSOffThreadAtom
 *
 num_temps
 :
@@ -5407,7 +5407,7 @@ arguments
 :
 searchString
 :
-JSLinearString
+JSOffThreadAtom
 *
 num_temps
 :
@@ -5440,7 +5440,7 @@ arguments
 :
 searchString
 :
-JSLinearString
+JSOffThreadAtom
 *
 num_temps
 :
@@ -5472,7 +5472,7 @@ arguments
 :
 searchString
 :
-JSLinearString
+JSOffThreadAtom
 *
 num_temps
 :
@@ -5504,7 +5504,7 @@ arguments
 :
 searchString
 :
-JSLinearString
+JSOffThreadAtom
 *
 num_temps
 :
