@@ -426,8 +426,12 @@ before
 opening
 "
 )
-verifyDownloadsButton
+verifyExternalDownloadManagerButton
 (
+)
+verifyExternalDownloadManagerToggle
+(
+false
 )
 verifyLeakCanaryButton
 (

@@ -1304,7 +1304,14 @@ androidx
 .
 preference
 .
-Preference
+SwitchPreference
+android
+:
+defaultValue
+=
+"
+false
+"
 android
 :
 key
@@ -1312,7 +1319,7 @@ key
 "
 string
 /
-pref_key_downloads
+pref_key_external_download_manager
 "
 app
 :
@@ -1328,7 +1335,7 @@ title
 "
 string
 /
-preferences_downloads
+preferences_external_download_manager
 "
 /
 >
