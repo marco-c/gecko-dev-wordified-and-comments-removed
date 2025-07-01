@@ -485,6 +485,9 @@ OriginStateMetadata
 int64_t
 mLastAccessTime
 ;
+int32_t
+mLastMaintenanceDate
+;
 bool
 mAccessed
 ;
@@ -501,6 +504,8 @@ OriginStateMetadata
 (
 int64_t
 aLastAccessTime
+int32_t
+aLastMaintenanceDate
 bool
 aAccessed
 bool
@@ -510,6 +515,10 @@ aPersisted
 mLastAccessTime
 (
 aLastAccessTime
+)
+mLastMaintenanceDate
+(
+aLastMaintenanceDate
 )
 mAccessed
 (
@@ -562,6 +571,14 @@ mLastAccessTime
 aOther
 .
 mLastAccessTime
+&
+&
+mLastMaintenanceDate
+=
+=
+aOther
+.
+mLastMaintenanceDate
 &
 &
 mAccessed

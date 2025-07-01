@@ -482,6 +482,7 @@ originStateMetadata1
 OriginStateMetadata
 (
 0
+0
 false
 false
 )
@@ -492,6 +493,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 false
@@ -515,6 +517,7 @@ originStateMetadata2
 OriginStateMetadata
 (
 1
+0
 false
 false
 )
@@ -537,6 +540,30 @@ originStateMetadata2
 OriginStateMetadata
 (
 0
+1
+false
+false
+)
+;
+EXPECT_FALSE
+(
+originStateMetadata1
+.
+Equals
+(
+originStateMetadata2
+)
+)
+;
+}
+{
+OriginStateMetadata
+originStateMetadata2
+=
+OriginStateMetadata
+(
+0
+0
 true
 false
 )
@@ -558,6 +585,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 true
@@ -688,6 +716,7 @@ originStateMetadata1
 OriginStateMetadata
 (
 0
+0
 false
 false
 )
@@ -745,6 +774,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 false
@@ -816,6 +846,7 @@ originStateMetadata2
 OriginStateMetadata
 (
 0
+0
 false
 false
 )
@@ -884,6 +915,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 false
@@ -954,6 +986,7 @@ originStateMetadata2
 OriginStateMetadata
 (
 1
+0
 false
 false
 )
@@ -1022,6 +1055,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 false
@@ -1110,6 +1144,7 @@ originStateMetadata2
 OriginStateMetadata
 (
 0
+0
 false
 false
 )
@@ -1178,6 +1213,7 @@ originStateMetadata2
 =
 OriginStateMetadata
 (
+0
 0
 false
 false
