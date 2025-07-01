@@ -744,6 +744,14 @@ colors
 badgeActive
 menuItemState
 =
+if
+(
+isPdf
+)
+MenuItemState
+.
+DISABLED
+else
 MenuItemState
 .
 ACTIVE
