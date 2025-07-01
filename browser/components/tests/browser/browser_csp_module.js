@@ -248,12 +248,6 @@ if
 AppConstants
 .
 DEBUG
-|
-|
-!
-AppConstants
-.
-NIGHTLY_BUILD
 )
 {
 ok
