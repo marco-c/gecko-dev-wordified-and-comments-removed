@@ -658,4 +658,16 @@ xxsmall
 )
 ;
 }
+&
+:
+:
+placeholder
+{
+text
+-
+overflow
+:
+ellipsis
+;
+}
 }
