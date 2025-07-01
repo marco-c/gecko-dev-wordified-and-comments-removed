@@ -1218,6 +1218,8 @@ void
 bumpAllocOrRetry
 (
 size_t
+requestedBytes
+size_t
 sizeClass
 bool
 inGC
@@ -1227,6 +1229,8 @@ void
 *
 bumpAlloc
 (
+size_t
+bytes
 size_t
 sizeClass
 )
@@ -1239,7 +1243,7 @@ FreeRegion
 *
 region
 size_t
-requestedBytes
+bytes
 size_t
 sizeClass
 )
