@@ -21148,6 +21148,16 @@ TabDelegate
 ;
 field
 public
+static
+final
+List
+<
+String
+>
+DATA_COLLECTION_PERMISSIONS
+;
+field
+public
 final
 long
 flags
