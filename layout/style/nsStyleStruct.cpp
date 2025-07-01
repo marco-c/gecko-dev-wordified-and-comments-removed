@@ -16854,6 +16854,15 @@ StyleFieldSizing
 :
 Fixed
 )
+mViewTransitionName
+(
+StyleViewTransitionName
+:
+:
+None
+(
+)
+)
 {
 MOZ_COUNT_CTOR
 (
