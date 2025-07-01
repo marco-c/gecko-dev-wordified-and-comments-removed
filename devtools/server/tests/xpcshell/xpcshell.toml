@@ -1503,6 +1503,13 @@ snapshot
 mjs
 "
 ]
+tags
+=
+"
+object
+-
+snapshots
+"
 [
 "
 test_layout

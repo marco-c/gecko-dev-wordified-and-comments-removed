@@ -47,6 +47,13 @@ snapshot
 mjs
 "
 ]
+tags
+=
+"
+object
+-
+snapshots
+"
 prefs
 =
 [
