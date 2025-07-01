@@ -173,6 +173,18 @@ ui
 autocomplete
 "
 )
+api
+project
+(
+"
+:
+components
+:
+concept
+-
+toolbar
+"
+)
 implementation
 project
 (
@@ -346,7 +358,7 @@ androidx
 .
 compose
 .
-material
+material3
 implementation
 libs
 .
