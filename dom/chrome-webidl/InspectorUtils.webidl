@@ -364,12 +364,6 @@ colorToRGBA
 (
 UTF8String
 colorString
-optional
-Document
-?
-doc
-=
-null
 )
 ;
 InspectorColorToResult

@@ -4613,9 +4613,6 @@ InspectorUtils
 colorToRGBA
 (
 themeBgColor
-window
-.
-document
 )
 ;
 let
@@ -4653,9 +4650,6 @@ InspectorUtils
 colorToRGBA
 (
 themeFgColor
-window
-.
-document
 )
 ;
 let
