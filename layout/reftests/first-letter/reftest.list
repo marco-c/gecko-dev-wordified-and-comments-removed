@@ -697,6 +697,17 @@ html
 ref
 .
 html
+pref
+(
+gfx
+.
+font_rendering
+.
+fallback
+.
+async
+false
+)
 =
 =
 399941
