@@ -48,6 +48,13 @@ com
 *
 "
 ]
+data_collection
+:
+[
+"
+healthInfo
+"
+]
 }
 ;
 const
