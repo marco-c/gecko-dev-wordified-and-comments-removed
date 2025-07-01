@@ -540,14 +540,6 @@ add
 (
 AdapterItem
 .
-RecentVisitsHeader
-)
-items
-.
-add
-(
-AdapterItem
-.
 RecentVisitsItems
 )
 }
