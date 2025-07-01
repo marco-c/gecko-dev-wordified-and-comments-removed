@@ -2758,7 +2758,7 @@ R
 .
 string
 .
-bookmark_select_folder_new_folder_button_title
+bookmark_add_new_folder_button_content_description
 )
 tint
 =
