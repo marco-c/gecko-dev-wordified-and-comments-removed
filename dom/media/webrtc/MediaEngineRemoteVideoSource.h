@@ -735,16 +735,6 @@ mCapability
 DistanceCalculation
 mCalculation
 ;
-Maybe
-<
-NormalizedConstraints
->
-mConstraints
-MOZ_GUARDED_BY
-(
-mMutex
-)
-;
 UniquePtr
 <
 MediaEnginePrefs
