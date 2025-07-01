@@ -362,6 +362,7 @@ null
 assertEquals
 (
 "
+10
 "
 newDownload
 .
@@ -397,6 +398,7 @@ contentLength
 assertEquals
 (
 "
+10
 "
 downloadWithNoSize
 .
@@ -432,6 +434,7 @@ null
 assertEquals
 (
 "
+10
 "
 downloadWithNullSize
 .
