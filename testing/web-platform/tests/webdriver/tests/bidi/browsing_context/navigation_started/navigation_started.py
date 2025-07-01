@@ -3,14 +3,6 @@ asyncio
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 webdriver
 .
 error
@@ -34,6 +26,12 @@ modules
 script
 import
 ContextTarget
+from
+tests
+.
+bidi
+import
+wait_for_bidi_events
 from
 .
 .
@@ -206,18 +204,6 @@ tab
 "
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -228,19 +214,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -1396,18 +1379,6 @@ False
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -1418,19 +1389,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -1828,41 +1796,13 @@ complete
     
 )
     
-wait
-=
-AsyncPoll
+await
+wait_for_bidi_events
 (
 bidi_session
-timeout
-=
-2
-)
-    
-await
-wait
-.
-until
-(
-lambda
-_
-:
-len
-(
 events
-)
->
-=
 2
 )
-    
-assert
-len
-(
-events
-)
-=
-=
-2
     
 assert_navigation_info
 (
@@ -2558,18 +2498,6 @@ type_hint
 type_hint
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -2580,19 +2508,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -2830,18 +2755,6 @@ False
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -2852,19 +2765,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener

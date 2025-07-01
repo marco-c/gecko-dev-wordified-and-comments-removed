@@ -1,14 +1,6 @@
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 webdriver
 .
 bidi
@@ -18,6 +10,12 @@ modules
 script
 import
 ContextTarget
+from
+tests
+.
+bidi
+import
+wait_for_bidi_events
 from
 .
 .
@@ -921,33 +919,17 @@ context
     
 )
     
-wait
-=
-AsyncPoll
+await
+wait_for_bidi_events
 (
 bidi_session
+events
+2
 timeout
 =
 0
 .
 5
-)
-    
-await
-wait
-.
-until
-(
-lambda
-_
-:
-len
-(
-events
-)
-=
-=
-2
 )
     
 recursive_compare

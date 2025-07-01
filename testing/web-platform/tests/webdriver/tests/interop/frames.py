@@ -154,7 +154,7 @@ current_session
 window_handle
 )
         
-return
+assert
 not
 contexts
 [
@@ -165,22 +165,8 @@ contexts
 children
 "
 ]
-    
-wait
-=
-AsyncPoll
-(
-        
-current_session
-        
-timeout
-=
-5
-        
-message
-=
 "
-IFrame
+iframe
 that
 should
 be
@@ -190,6 +176,11 @@ still
 open
 "
     
+wait
+=
+AsyncPoll
+(
+current_session
 )
     
 await

@@ -1,14 +1,6 @@
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 webdriver
 .
 bidi
@@ -24,6 +16,12 @@ webdriver
 error
 import
 TimeoutException
+from
+tests
+.
+bidi
+import
+wait_for_bidi_events
 from
 .
 .
@@ -55,9 +53,6 @@ test_unsubscribe
 bidi_session
 inline
 new_tab
-wait_for_event
-        
-wait_for_future_safe
 )
 :
     
@@ -253,18 +248,6 @@ user_activation
 True
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -275,19 +258,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -297,11 +277,10 @@ async
 def
 test_subscribe
 (
+    
 bidi_session
-subscribe_events
 new_tab
 inline
-        
 wait_for_event
 wait_for_future_safe
 )

@@ -3,11 +3,9 @@ pytest
 from
 tests
 .
-support
-.
-sync
+bidi
 import
-AsyncPoll
+wait_for_bidi_events
 from
 .
 .
@@ -734,30 +732,11 @@ complete
     
 )
     
-wait
-=
-AsyncPoll
+await
+wait_for_bidi_events
 (
 bidi_session
-timeout
-=
-2
-)
-    
-await
-wait
-.
-until
-(
-lambda
-_
-:
-len
-(
 events
-)
->
-=
 3
 )
     

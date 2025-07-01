@@ -18,14 +18,6 @@ modules
 script
 import
 ContextTarget
-from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
 pytestmark
 =
 pytest

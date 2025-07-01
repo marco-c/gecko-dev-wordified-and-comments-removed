@@ -27,11 +27,9 @@ TimeoutException
 from
 tests
 .
-support
-.
-sync
+bidi
 import
-AsyncPoll
+wait_for_bidi_events
 from
 .
 .
@@ -176,18 +174,6 @@ Unauthorized
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -198,19 +184,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-1
+2
+timeout
+=
+0
+.
+5
 )
     
 remove_listener
@@ -299,18 +282,6 @@ default
 "
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -321,19 +292,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -499,18 +467,6 @@ OK
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -521,19 +477,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-1
+2
+timeout
+=
+0
+.
+5
 )
     
 remove_listener
@@ -748,18 +701,6 @@ OK
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -770,19 +711,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-1
+2
+timeout
+=
+0
+.
+5
 )
     
 remove_listener

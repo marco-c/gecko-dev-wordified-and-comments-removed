@@ -1,14 +1,6 @@
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 webdriver
 .
 bidi
@@ -24,6 +16,12 @@ webdriver
 error
 import
 TimeoutException
+from
+tests
+.
+bidi
+import
+wait_for_bidi_events
 from
 .
 .
@@ -161,18 +159,6 @@ complete
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -183,19 +169,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -511,53 +494,13 @@ test_page_same_origin_frame
     
 )
     
-wait
-=
-AsyncPoll
-(
-        
-bidi_session
-message
-=
-"
-Didn
-'
-t
-receive
-context
-load
-events
-for
-frames
-"
-    
-)
-    
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-=
 2
 )
-    
-assert
-len
-(
-events
-)
-=
-=
-2
     
 contexts
 =
@@ -814,18 +757,6 @@ type_hint
 type_hint
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -836,19 +767,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener

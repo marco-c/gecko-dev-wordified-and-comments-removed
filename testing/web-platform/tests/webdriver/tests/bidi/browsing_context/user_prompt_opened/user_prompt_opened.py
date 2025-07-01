@@ -1,19 +1,17 @@
 import
 pytest
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 webdriver
 .
 error
 import
 TimeoutException
+from
+tests
+.
+bidi
+import
+wait_for_bidi_events
 pytestmark
 =
 pytest
@@ -141,18 +139,6 @@ script
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -163,19 +149,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 remove_listener
@@ -763,18 +746,6 @@ script
     
 )
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-0
-.
-5
-)
-    
 with
 pytest
 .
@@ -785,19 +756,16 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+1
+timeout
+=
 0
+.
+5
 )
     
 await

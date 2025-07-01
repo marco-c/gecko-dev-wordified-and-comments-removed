@@ -1367,6 +1367,7 @@ message
 :
 An
 optional
+fallback
 message
 to
 include
@@ -1382,6 +1383,23 @@ until
 condition
 times
 out
+and
+no
+assertion
+failure
+            
+or
+other
+exception
+message
+from
+calling
+the
+condition
+callback
+is
+            
+available
 .
         
 :
@@ -1492,6 +1510,7 @@ get_event_loop
 exceptions
 =
 [
+AssertionError
 ]
         
 if
@@ -1551,6 +1570,11 @@ until
 (
 self
 condition
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -1690,6 +1714,20 @@ by
 this
 function
 .
+Use
+assert
+statements
+within
+this
+            
+callback
+to
+see
+more
+detailed
+error
+messages
+.
         
 "
 "
@@ -1701,14 +1739,6 @@ poll
 (
 )
 :
-            
-result
-=
-None
-            
-traceback
-=
-None
             
 start
 =
@@ -1742,6 +1772,14 @@ time
 end
 :
                 
+condition_msg
+=
+result
+=
+traceback
+=
+None
+                
 next
 =
 self
@@ -1759,28 +1797,33 @@ interval
 try
 :
                     
-result
+_result
 =
 condition
 (
 self
 .
 session
+*
+args
+*
+*
+kwargs
 )
                     
+result
+=
+await
+_result
 if
 inspect
 .
 isawaitable
 (
-result
+_result
 )
-:
-                        
-result
-=
-await
-result
+else
+_result
                 
 except
 (
@@ -1798,7 +1841,7 @@ exceptions
 :
                     
 _
-_
+condition_msg
 traceback
 =
 sys
@@ -1825,8 +1868,24 @@ time
                 
 if
 result
+is
+None
 :
                     
+if
+not
+traceback
+:
+                        
+return
+                
+else
+:
+                    
+if
+result
+:
+                        
 return
 result
                 
@@ -1879,25 +1938,24 @@ seconds
 "
                 
 if
+condition_msg
+or
 self
 .
 exc_msg
-is
-not
-None
 :
                     
 message
++
 =
 f
 "
-{
-message
-}
 with
 message
 :
 {
+condition_msg
+or
 self
 .
 exc_msg

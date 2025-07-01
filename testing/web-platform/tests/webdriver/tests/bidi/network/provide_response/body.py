@@ -21,14 +21,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
-from
 .
 .
 import
