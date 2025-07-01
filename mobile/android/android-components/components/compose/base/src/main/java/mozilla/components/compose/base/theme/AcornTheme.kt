@@ -491,7 +491,6 @@ content
 content
 )
 }
-private
 val
 localAcornColors
 =

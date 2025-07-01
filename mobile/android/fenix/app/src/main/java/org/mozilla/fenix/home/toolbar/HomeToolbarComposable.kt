@@ -711,16 +711,6 @@ composable_toolbar
 setContent
 {
 val
-shouldShowDivider
-by
-remember
-{
-mutableStateOf
-(
-showDivider
-)
-}
-val
 shouldShowTabStrip
 :
 Boolean
@@ -750,7 +740,7 @@ tabStripContent
 )
 BrowserToolbar
 (
-shouldShowDivider
+showDivider
 settings
 .
 shouldUseBottomToolbar
@@ -761,7 +751,7 @@ false
 >
 BrowserToolbar
 (
-shouldShowDivider
+showDivider
 settings
 .
 shouldUseBottomToolbar
