@@ -1006,6 +1006,13 @@ name
 "
 fx_mobile_action_color_indicator_active
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 color
 /
@@ -1030,6 +1037,13 @@ name
 =
 "
 fx_mobile_action_color_indicator_inactive
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 color
