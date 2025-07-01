@@ -1214,6 +1214,13 @@ widget
 has
 been
 created
+and
+*
+adds
+content
+to
+the
+panel
 .
 *
 *

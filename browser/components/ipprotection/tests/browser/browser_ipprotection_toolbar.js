@@ -58,6 +58,8 @@ IPProtectionWidget
 WIDGET_ID
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -95,7 +97,9 @@ WIDGET_ID
 .
 position
 ;
-is
+Assert
+.
+equal
 (
 position
 7
@@ -139,7 +143,9 @@ IPProtectionWidget
 WIDGET_ID
 )
 ;
-is
+Assert
+.
+equal
 (
 widget
 null
@@ -181,6 +187,8 @@ IPProtectionWidget
 WIDGET_ID
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils

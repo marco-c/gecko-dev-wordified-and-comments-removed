@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_ipprotection_header
+.
+js
+"
+]
+[
+"
 browser_ipprotection_panel
 .
 js
