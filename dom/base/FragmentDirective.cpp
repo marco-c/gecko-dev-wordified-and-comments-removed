@@ -331,12 +331,13 @@ IsEmpty
 )
 {
 mFinder
-.
-reset
-(
-new
+=
+MakeUnique
+<
 TextDirectiveFinder
+>
 (
+*
 mDocument
 std
 :
@@ -344,7 +345,6 @@ std
 move
 (
 aTextDirectives
-)
 )
 )
 ;
@@ -2375,6 +2375,7 @@ TextDirectiveCreator
 :
 CreateTextDirectiveFromRange
 (
+*
 mDocument
 &
 aRange
