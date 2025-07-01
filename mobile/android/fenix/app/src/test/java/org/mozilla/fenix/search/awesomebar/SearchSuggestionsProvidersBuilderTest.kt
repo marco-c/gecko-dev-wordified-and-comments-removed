@@ -69,12 +69,6 @@ awesomebar
 import
 android
 .
-app
-.
-Activity
-import
-android
-.
 graphics
 .
 drawable
@@ -327,6 +321,18 @@ content
 .
 getColorFromAttr
 import
+mozilla
+.
+components
+.
+support
+.
+test
+.
+robolectric
+.
+testContext
+import
 org
 .
 junit
@@ -399,7 +405,11 @@ mozilla
 .
 fenix
 .
-HomeActivity
+browser
+.
+browsingmode
+.
+BrowsingMode
 import
 org
 .
@@ -411,7 +421,7 @@ browser
 .
 browsingmode
 .
-BrowsingMode
+BrowsingModeManager
 import
 org
 .
@@ -495,10 +505,16 @@ class
 SearchSuggestionsProvidersBuilderTest
 {
 private
+lateinit
 var
-activity
+builder
 :
-HomeActivity
+SearchSuggestionsProvidersBuilder
+private
+val
+browsingModeManager
+:
+BrowsingModeManager
 =
 mockk
 (
@@ -506,12 +522,6 @@ relaxed
 =
 true
 )
-private
-lateinit
-var
-builder
-:
-SearchSuggestionsProvidersBuilder
 Before
 fun
 setup
@@ -572,12 +582,7 @@ Companion
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -591,12 +596,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -610,12 +610,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -629,12 +624,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -648,12 +638,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -667,12 +652,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -686,12 +666,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -705,12 +680,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -724,12 +694,7 @@ mockk
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 components
 .
@@ -750,12 +715,7 @@ true
 )
 every
 {
-any
-<
-Activity
->
-(
-)
+testContext
 .
 getColorFromAttr
 (
@@ -810,9 +770,12 @@ builder
 =
 SearchSuggestionsProvidersBuilder
 (
-activity
+context
 =
-activity
+testContext
+browsingModeManager
+=
+browsingModeManager
 includeSelectedTab
 =
 false
@@ -942,7 +905,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1064,7 +1027,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1186,7 +1149,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1308,7 +1271,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1431,7 +1394,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1554,7 +1517,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1677,7 +1640,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1794,7 +1757,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -1927,7 +1890,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2080,7 +2043,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2213,7 +2176,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2357,7 +2320,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2502,7 +2465,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2651,7 +2614,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2802,7 +2765,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -2957,7 +2920,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3110,7 +3073,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3262,7 +3225,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3411,7 +3374,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3549,7 +3512,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3691,7 +3654,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -3844,7 +3807,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4014,7 +3977,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4166,7 +4129,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4289,7 +4252,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4393,7 +4356,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4502,7 +4465,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4709,7 +4672,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4719,8 +4682,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -4860,7 +4821,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -4870,8 +4831,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5010,7 +4969,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5020,8 +4979,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5136,7 +5093,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5146,8 +5103,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5261,7 +5216,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5271,8 +5226,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5413,7 +5366,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5423,8 +5376,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5561,7 +5512,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5571,8 +5522,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5711,7 +5660,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5721,8 +5670,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -5857,7 +5804,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -5867,8 +5814,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -6002,7 +5947,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -6012,8 +5957,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -6127,7 +6070,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -6237,7 +6180,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -6247,8 +6190,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -6612,7 +6553,7 @@ toUri
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -6622,8 +6563,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -6967,7 +6906,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -6977,8 +6916,6 @@ returns
 settings
 every
 {
-activity
-.
 browsingModeManager
 .
 mode
@@ -7177,7 +7114,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -7257,7 +7194,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -7339,7 +7276,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -7424,7 +7361,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -7516,7 +7453,7 @@ true
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -7643,7 +7580,7 @@ false
 }
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8274,7 +8211,7 @@ searches
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8362,7 +8299,7 @@ searches
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8448,7 +8385,7 @@ filter
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8544,7 +8481,7 @@ null
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8635,7 +8572,7 @@ excluded
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -8947,7 +8884,7 @@ included
 {
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -9624,7 +9561,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -9701,7 +9638,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -9779,7 +9716,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -9856,7 +9793,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -9930,7 +9867,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
@@ -10024,7 +9961,7 @@ true
 )
 every
 {
-activity
+testContext
 .
 settings
 (
