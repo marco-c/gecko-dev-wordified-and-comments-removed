@@ -9781,13 +9781,8 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithInstances
+Frame
 )
--
-jit
-:
-:
-ShadowStackSpace
 ;
 GenPrintf
 (
@@ -9825,7 +9820,7 @@ args
 ABIKind
 :
 :
-System
+Wasm
 )
 ;
 !
