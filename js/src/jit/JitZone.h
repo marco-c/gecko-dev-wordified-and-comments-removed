@@ -548,7 +548,7 @@ WeakHeapPtr
 BaseScript
 *
 >
-RecompileInfoVector
+IonScriptKeyVector
 StableCellHasher
 <
 WeakHeapPtr
@@ -1044,15 +1044,15 @@ bool
 addInlinedCompilation
 (
 const
-RecompileInfo
+IonScriptKey
 &
-info
+ionScriptKey
 JSScript
 *
 inlined
 )
 ;
-RecompileInfoVector
+IonScriptKeyVector
 *
 maybeInlinedCompilations
 (

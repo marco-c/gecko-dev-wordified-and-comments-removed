@@ -41,7 +41,7 @@ class
 IonScript
 ;
 class
-RecompileInfo
+IonScriptKey
 {
 JSScript
 *
@@ -52,7 +52,7 @@ id_
 ;
 public
 :
-RecompileInfo
+IonScriptKey
 (
 JSScript
 *
@@ -103,7 +103,7 @@ operator
 =
 (
 const
-RecompileInfo
+IonScriptKey
 &
 other
 )
@@ -129,14 +129,14 @@ id_
 }
 ;
 using
-RecompileInfoVector
+IonScriptKeyVector
 =
 JS
 :
 :
 GCVector
 <
-RecompileInfo
+IonScriptKey
 1
 SystemAllocPolicy
 >
@@ -178,7 +178,7 @@ AddPendingInvalidation
 jit
 :
 :
-RecompileInfoVector
+IonScriptKeyVector
 &
 invalid
 JSScript
@@ -193,7 +193,7 @@ JSContext
 *
 cx
 const
-RecompileInfoVector
+IonScriptKeyVector
 &
 invalid
 bool

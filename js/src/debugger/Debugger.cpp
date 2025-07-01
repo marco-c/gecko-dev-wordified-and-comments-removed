@@ -17134,7 +17134,7 @@ script
 jit
 :
 :
-RecompileInfoVector
+IonScriptKeyVector
 &
 invalid
 Vector
@@ -17248,7 +17248,7 @@ cx
 )
 ;
 {
-RecompileInfoVector
+IonScriptKeyVector
 invalid
 ;
 if

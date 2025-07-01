@@ -2194,7 +2194,7 @@ DebugModeOSREntry
 entries
 )
 {
-RecompileInfoVector
+IonScriptKeyVector
 invalid
 ;
 for
