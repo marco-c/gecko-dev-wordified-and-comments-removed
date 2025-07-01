@@ -1621,7 +1621,12 @@ root
 lwtheme
 ]
 {
-&
+.
+browser
+-
+toolbox
+-
+background
 toolbar
 &
 [
@@ -1648,6 +1653,12 @@ lwtheme
 -
 brighttext
 ]
+.
+browser
+-
+toolbox
+-
+background
 toolbar
 [
 brighttext
