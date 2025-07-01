@@ -37,6 +37,9 @@ js
 jit
 {
 class
+IonScriptKey
+;
+class
 MIRGenerator
 ;
 struct
@@ -108,8 +111,10 @@ registerDependency
 JSContext
 *
 cx
-HandleScript
-script
+const
+IonScriptKey
+&
+ionScript
 )
 =
 0

@@ -101792,8 +101792,10 @@ registerDependency
 JSContext
 *
 cx
-HandleScript
-script
+const
+IonScriptKey
+&
+ionScript
 )
 override
 {
@@ -101823,7 +101825,7 @@ ref
 addFuseDependency
 (
 cx
-script
+ionScript
 )
 ;
 }
@@ -101934,8 +101936,10 @@ registerDependency
 JSContext
 *
 cx
-HandleScript
-script
+const
+IonScriptKey
+&
+ionScript
 )
 override
 {
@@ -101965,7 +101969,7 @@ ref
 addFuseDependency
 (
 cx
-script
+ionScript
 )
 ;
 }
@@ -102280,6 +102284,13 @@ return
 true
 ;
 }
+IonScriptKey
+ionScriptKey
+(
+script
+compilationId
+)
+;
 for
 (
 auto
@@ -102300,7 +102311,7 @@ dep
 registerDependency
 (
 cx
-script
+ionScriptKey
 )
 )
 {
