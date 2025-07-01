@@ -3488,11 +3488,6 @@ LoginHelper
 .
 setOSAuthEnabled
 (
-lazy
-.
-LoginHelper
-.
-OS_AUTH_FOR_PASSWORDS_PREF
 false
 )
 ;
