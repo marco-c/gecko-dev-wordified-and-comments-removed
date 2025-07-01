@@ -1123,6 +1123,9 @@ false
 lineNumbers
 :
 false
+lineWrapping
+:
+true
 placeholder
 :
 L10N
