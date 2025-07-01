@@ -2864,6 +2864,8 @@ WebAudioDecodeJob
 UnknownError
 )
 ;
+return
+;
 }
 RefPtr
 <
