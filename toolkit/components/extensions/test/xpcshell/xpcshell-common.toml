@@ -257,6 +257,13 @@ js
 ]
 [
 "
+test_ext_audio_mozextension
+.
+js
+"
+]
+[
+"
 test_ext_background_api_injection
 .
 js

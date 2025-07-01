@@ -1541,6 +1541,17 @@ LOAD_BACKGROUND
 )
 ;
 }
+nsCOMPtr
+<
+nsIHttpChannel
+>
+hc
+=
+do_QueryInterface
+(
+mChannel
+)
+;
 if
 (
 aStatus
@@ -1553,6 +1564,9 @@ aStatus
 !
 =
 NS_BINDING_ABORTED
+&
+&
+hc
 )
 {
 auto
