@@ -7251,12 +7251,6 @@ nsCOMPtr
 <
 nsIContent
 >
-mPointerEventTarget
-;
-nsCOMPtr
-<
-nsIContent
->
 mLastAnchorScrolledTo
 ;
 enum
