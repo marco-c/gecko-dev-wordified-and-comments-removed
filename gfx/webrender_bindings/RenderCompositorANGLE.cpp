@@ -4758,6 +4758,8 @@ DeviceIntSize
 aSize
 bool
 aIsOpaque
+bool
+aNeedsSyncDcompCommit
 )
 {
 mDCLayerTree
@@ -4768,6 +4770,7 @@ CreateSwapChainSurface
 aId
 aSize
 aIsOpaque
+aNeedsSyncDcompCommit
 )
 ;
 }

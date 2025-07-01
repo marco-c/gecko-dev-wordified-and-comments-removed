@@ -570,6 +570,8 @@ DeviceIntSize
 aSize
 bool
 aIsOpaque
+bool
+aNeedsSyncDcompCommit
 )
 ;
 void
