@@ -165,7 +165,7 @@ OutdatedDocumentation
 "
 )
 class
-AwesomeBarViewSuggestions
+AwesomeBarView
 (
 activity
 :
