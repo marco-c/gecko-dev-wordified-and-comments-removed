@@ -501,6 +501,7 @@ WasPassed
 return
 ;
 }
+const
 auto
 &
 other
@@ -678,6 +679,7 @@ WasPassed
 return
 ;
 }
+const
 auto
 &
 other
@@ -793,6 +795,7 @@ WasPassed
 return
 ;
 }
+const
 auto
 &
 other
@@ -845,6 +848,7 @@ GetAsBoolean
 }
 else
 {
+const
 auto
 &
 r
@@ -961,6 +965,7 @@ WasPassed
 return
 ;
 }
+const
 auto
 &
 other
@@ -1035,6 +1040,7 @@ clear
 ;
 for
 (
+const
 auto
 &
 str
@@ -1065,6 +1071,7 @@ clear
 ;
 for
 (
+const
 auto
 &
 str
@@ -1171,6 +1178,7 @@ else
 {
 for
 (
+const
 auto
 &
 str
@@ -1252,6 +1260,7 @@ else
 {
 for
 (
+const
 auto
 &
 str
@@ -1317,6 +1326,7 @@ result
 ;
 for
 (
+const
 auto
 &
 entry
@@ -1638,6 +1648,7 @@ WasPassed
 {
 for
 (
+const
 auto
 &
 entry
@@ -1683,6 +1694,7 @@ aOther
 {
 for
 (
+const
 auto
 &
 set
@@ -1896,6 +1908,7 @@ IsEmpty
 ;
 for
 (
+const
 auto
 &
 device
@@ -2081,6 +2094,7 @@ CallerType
 aCallerType
 )
 {
+const
 auto
 &
 c
@@ -2538,6 +2552,7 @@ LocalMediaDevice
 aDevices
 )
 {
+const
 auto
 &
 c
@@ -3020,6 +3035,7 @@ mName
 ;
 for
 (
+const
 auto
 &
 entry
@@ -3058,6 +3074,7 @@ ideal
 ;
 for
 (
+const
 auto
 &
 entry
@@ -3313,6 +3330,7 @@ NormalizedConstraintSet
 aConstraints
 )
 {
+const
 auto
 &
 c
