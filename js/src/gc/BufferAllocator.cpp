@@ -9946,7 +9946,7 @@ baseChunk
 gc
 -
 >
-takeOrAllocChunk
+getOrAllocChunk
 (
 ShouldStallAndRetry
 (
@@ -10541,7 +10541,7 @@ tenuredChunk
 ArenaChunk
 :
 :
-emplace
+init
 (
 chunk
 gc

@@ -3320,17 +3320,6 @@ AutoLockGCBgAlloc
 lock
 )
 ;
-ArenaChunk
-*
-takeOrAllocChunk
-(
-StallAndRetry
-stallAndRetry
-AutoLockGCBgAlloc
-&
-lock
-)
-;
 void
 recycleChunk
 (
