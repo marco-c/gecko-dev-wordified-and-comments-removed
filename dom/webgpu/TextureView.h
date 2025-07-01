@@ -14,6 +14,13 @@ h
 #
 include
 "
+CanvasContext
+.
+h
+"
+#
+include
+"
 ObjectModel
 .
 h
@@ -73,8 +80,10 @@ RawId
 aId
 )
 ;
+WeakPtr
+<
 CanvasContext
-*
+>
 GetTargetContext
 (
 )
