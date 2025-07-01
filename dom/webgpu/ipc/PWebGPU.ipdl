@@ -511,15 +511,6 @@ txnId
 )
 ;
 async
-DevicePushErrorScope
-(
-RawId
-selfId
-GPUErrorFilter
-aFilter
-)
-;
-async
 DevicePopErrorScope
 (
 RawId

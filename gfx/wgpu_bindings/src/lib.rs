@@ -1221,6 +1221,10 @@ type
 :
 ErrorBufferType
 }
+PushErrorScope
+(
+u8
+)
 }
 #
 [
