@@ -66,9 +66,10 @@ name
 text_field_eye_trailing_icon_default_content_description
 "
 >
-Show
-hidden
-text
+Ammustra
+su
+testu
+cuadu
 <
 /
 string
@@ -113,8 +114,9 @@ name
 text_field_cross_trailing_icon_default_content_description
 "
 >
-Clear
-text
+Cantzella
+su
+testu
 <
 /
 string
@@ -151,7 +153,7 @@ name
 mozac_compose_base_progress_loading
 "
 >
-Loading
+Carrighende
 <
 /
 string
