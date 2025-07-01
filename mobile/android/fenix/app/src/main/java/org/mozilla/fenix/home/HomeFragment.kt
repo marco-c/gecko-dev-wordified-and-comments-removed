@@ -3294,9 +3294,11 @@ pocketStoriesController
 =
 DefaultPocketStoriesController
 (
-homeActivity
+navController
 =
-activity
+findNavController
+(
+)
 appStore
 =
 components
@@ -3307,6 +3309,13 @@ settings
 components
 .
 settings
+fenixBrowserUseCases
+=
+requireComponents
+.
+useCases
+.
+fenixBrowserUseCases
 marsUseCases
 =
 components
