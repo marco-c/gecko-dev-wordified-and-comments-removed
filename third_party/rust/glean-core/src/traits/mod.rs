@@ -25,6 +25,9 @@ mod
 datetime
 ;
 mod
+dual_labeled_counter
+;
+mod
 event
 ;
 mod
@@ -108,6 +111,16 @@ datetime
 :
 :
 Datetime
+;
+pub
+use
+self
+:
+:
+dual_labeled_counter
+:
+:
+DualLabeledCounter
 ;
 pub
 use
