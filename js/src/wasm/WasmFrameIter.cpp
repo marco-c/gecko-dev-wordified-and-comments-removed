@@ -2215,7 +2215,7 @@ const
 unsigned
 PoppedFPJitEntry
 =
-0
+8
 ;
 #
 elif
@@ -2256,7 +2256,7 @@ const
 unsigned
 PoppedFPJitEntry
 =
-0
+8
 ;
 #
 elif
@@ -2297,7 +2297,7 @@ const
 unsigned
 PoppedFPJitEntry
 =
-0
+8
 ;
 #
 elif
@@ -5335,13 +5335,11 @@ ret
 =
 masm
 .
-currentOffset
+ret
 (
 )
-;
-masm
 .
-ret
+getOffset
 (
 )
 ;
