@@ -67,7 +67,7 @@ icu_capi
 /
 bindings
 /
-c
+cpp
 "
 ]
 UNIFIED_SOURCES
