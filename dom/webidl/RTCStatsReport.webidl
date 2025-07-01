@@ -827,6 +827,17 @@ lastPacketReceivedTimestamp
 boolean
 selected
 ;
+double
+totalRoundTripTime
+;
+double
+currentRoundTripTime
+;
+unsigned
+long
+long
+responsesReceived
+;
 [
 ChromeOnly
 ]
