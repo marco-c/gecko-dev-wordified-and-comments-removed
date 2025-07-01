@@ -2747,6 +2747,13 @@ Array
 out
 String
 >
+dataCollectionPermissions
+:
+Array
+<
+out
+String
+>
 )
 :
 GeckoResult
@@ -2779,6 +2786,11 @@ toList
 (
 )
 origins
+.
+toList
+(
+)
+dataCollectionPermissions
 .
 toList
 (

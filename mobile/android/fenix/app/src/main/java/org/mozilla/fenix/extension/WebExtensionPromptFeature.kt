@@ -849,6 +849,15 @@ origins
 isEmpty
 (
 )
+&
+&
+promptRequest
+.
+dataCollectionPermissions
+.
+isEmpty
+(
+)
 /
 /
 If
@@ -904,6 +913,11 @@ origins
 promptRequest
 .
 origins
+dataCollectionPermissions
+=
+promptRequest
+.
+dataCollectionPermissions
 )
 }
 VisibleForTesting

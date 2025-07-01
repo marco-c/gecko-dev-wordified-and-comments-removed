@@ -1115,7 +1115,11 @@ url
 "
 ext1
 "
+enabled
+=
 true
+allowedInPrivateBrowsing
+=
 true
 )
 actionCaptor
@@ -1138,7 +1142,11 @@ ext2
 .
 url
 null
+enabled
+=
 false
+allowedInPrivateBrowsing
+=
 false
 )
 actionCaptor
@@ -5547,7 +5555,7 @@ ext
 engineSession
 browserAction
 )
-var
+val
 actionCaptor
 =
 argumentCaptor
@@ -5583,7 +5591,7 @@ capture
 (
 )
 )
-var
+val
 values
 =
 actionCaptor
@@ -5823,7 +5831,7 @@ should
 select
 popup
 tab
-var
+val
 actionCaptor
 =
 argumentCaptor
@@ -6055,7 +6063,7 @@ again
 should
 close
 tab
-var
+val
 actionCaptor
 =
 argumentCaptor
@@ -8321,6 +8329,15 @@ org
 "
 )
 val
+dataCollectionPermissions
+=
+listOf
+(
+"
+locationInfo
+"
+)
+val
 onPermissionsGranted
 :
 (
@@ -8373,6 +8390,7 @@ onOptionalPermissionsRequest
 ext
 permissions
 origins
+dataCollectionPermissions
 onPermissionsGranted
 )
 verify
@@ -8397,6 +8415,7 @@ Optional
 ext
 permissions
 origins
+dataCollectionPermissions
 onPermissionsGranted
 )
 )

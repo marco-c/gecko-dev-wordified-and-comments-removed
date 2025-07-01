@@ -358,7 +358,7 @@ id
 +
 id
 /
-required_data_collection_permissions
+data_collection_permissions
 "
 android
 :

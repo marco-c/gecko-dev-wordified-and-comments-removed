@@ -2328,6 +2328,12 @@ List
 <
 String
 >
+dataCollectionPermissions
+:
+List
+<
+String
+>
 onPermissionsGranted
 :
 (
@@ -2359,6 +2365,7 @@ Optional
 extension
 permissions
 origins
+dataCollectionPermissions
 onPermissionsGranted
 )
 )
