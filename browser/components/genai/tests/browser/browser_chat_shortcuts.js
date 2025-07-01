@@ -1319,7 +1319,9 @@ input
 ;
 Assert
 .
-ok
+greater
+(
+Number
 (
 events
 [
@@ -1329,7 +1331,7 @@ events
 extra
 .
 selection
->
+)
 8192
 "
 Selected
