@@ -832,14 +832,11 @@ dir
 ;
 Assert
 .
-ok
+strictEqual
 (
 service
 .
 currentProfile
-=
-=
-=
 profile
 .
 value

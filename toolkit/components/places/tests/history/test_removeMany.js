@@ -1054,7 +1054,7 @@ callback
 ;
 Assert
 .
-ok
+equal
 (
 visits_in_database
 (
@@ -1062,8 +1062,6 @@ page
 .
 uri
 )
-=
-=
 0
 "
 History

@@ -544,13 +544,12 @@ height
 {
 Assert
 .
-ok
+greater
 (
 rect
 [
 property
 ]
->
 0
 Rect
 property

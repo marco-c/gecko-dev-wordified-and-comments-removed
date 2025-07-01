@@ -543,12 +543,11 @@ privateWin
 ;
 Assert
 .
-ok
+greater
 (
 closedIds
 .
 testWindow2
->
 closedIds
 .
 testWindow1

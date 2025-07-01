@@ -247,13 +247,12 @@ getChangedIDs
 ;
 Assert
 .
-ok
+greater
 (
 changes
 [
 id
 ]
->
 10
 )
 ;

@@ -130,7 +130,7 @@ manager
 ;
 Assert
 .
-ok
+strictEqual
 (
 manager
 .
@@ -141,9 +141,6 @@ getAllActiveExperiments
 )
 .
 length
-=
-=
-=
 1
 "
 Enrolled
@@ -209,7 +206,7 @@ doEnrollmentCleanup
 ;
 Assert
 .
-ok
+strictEqual
 (
 manager
 .
@@ -220,9 +217,6 @@ getAll
 )
 .
 length
-=
-=
-=
 0
 "
 Cleanup

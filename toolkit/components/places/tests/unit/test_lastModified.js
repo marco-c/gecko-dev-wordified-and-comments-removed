@@ -195,12 +195,11 @@ dateAdded
 ;
 Assert
 .
-ok
+less
 (
 bookmark
 .
 dateAdded
-<
 bookmark
 .
 lastModified

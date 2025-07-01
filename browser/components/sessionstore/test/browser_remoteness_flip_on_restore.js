@@ -272,12 +272,11 @@ scenarioIndex
 ;
 Assert
 .
-ok
+greater
 (
 scenario
 .
 initialSelectedTab
->
 0
 "
 You

@@ -6276,11 +6276,9 @@ nsIEventTarget
 ;
 Assert
 .
-ok
+notEqual
 (
 target
-!
-=
 null
 )
 ;

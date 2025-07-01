@@ -70,11 +70,9 @@ principal
 ;
 Assert
 .
-ok
+notEqual
 (
 perm
-!
-=
 null
 )
 ;

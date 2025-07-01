@@ -120,13 +120,11 @@ getPrototype
 ;
 Assert
 .
-ok
+notEqual
 (
 response
 .
 prototype
-!
-=
 undefined
 )
 ;

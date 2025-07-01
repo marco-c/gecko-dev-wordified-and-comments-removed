@@ -278,10 +278,9 @@ format
 ;
 Assert
 .
-ok
+greater
 (
 netCallbacksRequired
->
 0
 "
 Callback

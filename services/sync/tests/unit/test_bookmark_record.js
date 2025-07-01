@@ -216,13 +216,11 @@ ciphertext
 ;
 Assert
 .
-ok
+notEqual
 (
 bookmarkItem
 .
 ciphertext
-!
-=
 null
 )
 ;

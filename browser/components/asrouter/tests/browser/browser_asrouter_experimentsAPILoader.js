@@ -1458,14 +1458,11 @@ com
 ;
 Assert
 .
-ok
+strictEqual
 (
 exposureSpy
 .
 callCount
-=
-=
-=
 1
 "
 Should

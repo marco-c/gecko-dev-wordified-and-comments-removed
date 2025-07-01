@@ -649,7 +649,7 @@ param
 ;
 Assert
 .
-ok
+strictEqual
 (
 Glean
 .
@@ -662,9 +662,6 @@ metric2
 testGetValue
 (
 )
-=
-=
-=
 false
 "
 Glean
@@ -840,7 +837,7 @@ param
 ;
 Assert
 .
-ok
+strictEqual
 (
 Glean
 .
@@ -853,9 +850,6 @@ ping2
 testGetValue
 (
 )
-=
-=
-=
 false
 "
 Glean

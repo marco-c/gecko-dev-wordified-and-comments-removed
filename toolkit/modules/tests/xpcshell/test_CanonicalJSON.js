@@ -848,7 +848,7 @@ test_canonicalJSON_handles_signed_zeros
 {
 Assert
 .
-ok
+strictEqual
 (
 CanonicalJSON
 .
@@ -857,9 +857,6 @@ stringify
 -
 0
 )
-=
-=
-=
 "
 -
 0
@@ -868,7 +865,7 @@ stringify
 ;
 Assert
 .
-ok
+strictEqual
 (
 CanonicalJSON
 .
@@ -876,9 +873,6 @@ stringify
 (
 0
 )
-=
-=
-=
 "
 0
 "

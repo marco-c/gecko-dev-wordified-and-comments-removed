@@ -678,7 +678,7 @@ NullPrincipal
 ;
 Assert
 .
-ok
+notEqual
 (
 content
 .
@@ -689,8 +689,6 @@ nodePrincipal
 originAttributes
 .
 firstPartyDomain
-!
-=
 "
 "
 "
@@ -883,7 +881,7 @@ NullPrincipal
 ;
 Assert
 .
-ok
+notEqual
 (
 content
 .
@@ -894,8 +892,6 @@ nodePrincipal
 originAttributes
 .
 firstPartyDomain
-!
-=
 "
 "
 "

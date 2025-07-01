@@ -517,12 +517,11 @@ arrowScrollbox
 ;
 Assert
 .
-ok
+greater
 (
 arrowScrollbox
 .
 scrollPosition
->
 0
 "
 First

@@ -132,11 +132,9 @@ FILENAME
 ;
 Assert
 .
-ok
+notEqual
 (
 entry
-!
-=
 null
 )
 ;

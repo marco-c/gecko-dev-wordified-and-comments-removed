@@ -843,14 +843,12 @@ suggestions
 {
 Assert
 .
-ok
+equal
 (
 typeof
 s
 .
 score
-=
-=
 "
 number
 "

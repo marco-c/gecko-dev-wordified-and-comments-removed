@@ -563,7 +563,7 @@ MSG_SHOULD_EQUAL
 ;
 Assert
 .
-ok
+less
 (
 Date
 .
@@ -574,7 +574,6 @@ now
 bestUpdate
 .
 installDate
-<
 10000
 "
 the

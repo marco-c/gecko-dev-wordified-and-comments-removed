@@ -356,15 +356,12 @@ visits
 }
 Assert
 .
-ok
+strictEqual
 (
 typeof
 pageInfo
 .
 frecency
-=
-=
-=
 "
 number
 "

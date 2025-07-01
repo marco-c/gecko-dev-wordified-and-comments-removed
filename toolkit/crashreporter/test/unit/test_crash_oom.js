@@ -90,7 +90,7 @@ extra
 ;
 Assert
 .
-ok
+greater
 (
 Number
 (
@@ -98,7 +98,6 @@ extra
 .
 OOMAllocationSize
 )
->
 0
 )
 ;
@@ -115,7 +114,7 @@ extra
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 Number
 (
@@ -123,8 +122,6 @@ extra
 .
 TotalPhysicalMemory
 )
->
-=
 0
 )
 ;

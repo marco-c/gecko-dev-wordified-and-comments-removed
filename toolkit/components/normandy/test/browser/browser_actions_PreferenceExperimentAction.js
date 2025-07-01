@@ -562,7 +562,7 @@ FILTER_MATCH
 ;
 Assert
 .
-ok
+strictEqual
 (
 action
 .
@@ -573,9 +573,6 @@ debug
 args
 .
 length
-=
-=
-=
 1
 )
 ;
@@ -655,7 +652,7 @@ finalize
 ;
 Assert
 .
-ok
+strictEqual
 (
 action
 .
@@ -666,9 +663,6 @@ debug
 args
 .
 length
-=
-=
-=
 2
 )
 ;

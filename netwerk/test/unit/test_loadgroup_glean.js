@@ -754,12 +754,11 @@ testGetValue
 ;
 Assert
 .
-ok
+greater
 (
 result
 .
 sum
->
 100
 "
 size

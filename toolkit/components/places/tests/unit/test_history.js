@@ -953,12 +953,11 @@ true
 ;
 Assert
 .
-ok
+greater
 (
 root
 .
 childCount
->
 0
 )
 ;

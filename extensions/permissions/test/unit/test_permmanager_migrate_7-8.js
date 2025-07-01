@@ -1700,11 +1700,9 @@ i
 {
 Assert
 .
-ok
+equal
 (
 count
-=
-=
 1
 "
 Expected

@@ -891,14 +891,11 @@ normalize
 ;
 Assert
 .
-ok
+strictEqual
 (
 varDir
 .
 path
-=
-=
-=
 "
 /
 private

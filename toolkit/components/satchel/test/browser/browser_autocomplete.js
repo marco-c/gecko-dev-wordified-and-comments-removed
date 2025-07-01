@@ -392,8 +392,7 @@ changes
 ;
 Assert
 .
-ok
-(
+greater
 (
 await
 countEntries
@@ -403,8 +402,6 @@ field1
 "
 null
 )
-)
->
 0
 "
 Check

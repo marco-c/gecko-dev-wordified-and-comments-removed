@@ -174,7 +174,7 @@ query
 ;
 Assert
 .
-ok
+greater
 (
 UrlbarTestUtils
 .
@@ -182,7 +182,6 @@ getResultCount
 (
 window
 )
->
 1
 "
 Sanity
@@ -1015,7 +1014,7 @@ searchString
 ;
 Assert
 .
-ok
+greater
 (
 UrlbarTestUtils
 .
@@ -1023,7 +1022,6 @@ getResultCount
 (
 window
 )
->
 1
 "
 Sanity
@@ -1920,10 +1918,9 @@ window
 ;
 Assert
 .
-ok
+greater
 (
 count
->
 1
 "
 Sanity
@@ -2540,10 +2537,9 @@ window
 ;
 Assert
 .
-ok
+greater
 (
 count
->
 1
 "
 Sanity

@@ -397,7 +397,7 @@ open
 ;
 Assert
 .
-ok
+notEqual
 (
 PopupNotifications
 .
@@ -414,8 +414,6 @@ gBrowser
 .
 selectedBrowser
 )
-!
-=
 null
 "
 Opened

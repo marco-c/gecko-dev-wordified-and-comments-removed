@@ -8154,14 +8154,11 @@ e
 {
 Assert
 .
-ok
+strictEqual
 (
 e
 .
 name
-=
-=
-=
 "
 ForbiddenURLError
 "

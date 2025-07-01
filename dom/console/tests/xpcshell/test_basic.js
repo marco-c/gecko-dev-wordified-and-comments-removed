@@ -56,7 +56,7 @@ wrappedJSObject
 ;
 Assert
 .
-ok
+strictEqual
 (
 obj
 .
@@ -64,9 +64,6 @@ arguments
 [
 0
 ]
-=
-=
-=
 42
 "
 Message
@@ -77,14 +74,11 @@ received
 ;
 Assert
 .
-ok
+strictEqual
 (
 obj
 .
 ID
-=
-=
-=
 "
 jsm
 "

@@ -230,10 +230,9 @@ guid
 {
 Assert
 .
-ok
+greater
 (
 newValue
->
 value
 {
 desc

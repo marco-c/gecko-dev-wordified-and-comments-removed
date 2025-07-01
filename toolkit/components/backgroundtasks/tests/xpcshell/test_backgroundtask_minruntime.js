@@ -56,12 +56,11 @@ getTime
 ;
 Assert
 .
-ok
+greater
 (
 finishTime
 -
 startTime
->
 1800
 "
 Runtime

@@ -485,7 +485,7 @@ promiseBackgroundBrowser
 ;
 Assert
 .
-ok
+greater
 (
 Glean
 .
@@ -498,7 +498,6 @@ created_fg
 testGetValue
 (
 )
->
 0
 "
 Expect
@@ -699,7 +698,7 @@ event
 ;
 Assert
 .
-ok
+greater
 (
 Glean
 .
@@ -712,7 +711,6 @@ crashed_fg
 testGetValue
 (
 )
->
 0
 "
 Expect

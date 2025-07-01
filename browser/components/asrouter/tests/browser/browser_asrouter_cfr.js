@@ -465,14 +465,11 @@ notification
 {
 Assert
 .
-ok
+strictEqual
 (
 notification
 .
 hidden
-=
-=
-=
 false
 "
 Panel
@@ -1029,7 +1026,7 @@ showPanel
 ;
 Assert
 .
-ok
+strictEqual
 (
 document
 .
@@ -1047,9 +1044,6 @@ notification
 )
 .
 hidden
-=
-=
-=
 false
 "
 Panel
@@ -1340,7 +1334,7 @@ showPanel
 ;
 Assert
 .
-ok
+strictEqual
 (
 document
 .
@@ -1358,9 +1352,6 @@ notification
 )
 .
 hidden
-=
-=
-=
 false
 "
 Panel
@@ -1615,7 +1606,7 @@ state
 ;
 Assert
 .
-ok
+strictEqual
 (
 gURLBar
 .
@@ -1629,9 +1620,6 @@ recommendation
 state
 "
 )
-=
-=
-=
 "
 expanded
 "
@@ -1894,7 +1882,7 @@ state
 ;
 Assert
 .
-ok
+strictEqual
 (
 gURLBar
 .
@@ -1908,9 +1896,6 @@ recommendation
 state
 "
 )
-=
-=
-=
 "
 expanded
 "
@@ -2244,7 +2229,7 @@ showPanel
 ;
 Assert
 .
-ok
+strictEqual
 (
 document
 .
@@ -2262,9 +2247,6 @@ notification
 )
 .
 hidden
-=
-=
-=
 false
 "
 Panel
@@ -2725,7 +2707,7 @@ showPanel
 ;
 Assert
 .
-ok
+strictEqual
 (
 document
 .
@@ -2743,9 +2725,6 @@ notification
 )
 .
 hidden
-=
-=
-=
 false
 "
 Panel

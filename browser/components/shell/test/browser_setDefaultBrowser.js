@@ -259,12 +259,9 @@ called
 ;
 Assert
 .
-ok
+notStrictEqual
 (
 defaultUserChoice
-!
-=
-=
 undefined
 "
 Decided

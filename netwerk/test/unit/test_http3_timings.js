@@ -246,12 +246,11 @@ nsITimedChannel
 ;
 Assert
 .
-ok
+greater
 (
 timing
 .
 connectStartTime
->
 0
 )
 ;
@@ -269,12 +268,11 @@ secureConnectionStartTime
 ;
 Assert
 .
-ok
+greater
 (
 timing
 .
 connectEndTime
->
 timing
 .
 connectStartTime

@@ -173,13 +173,11 @@ data
 {
 Assert
 .
-ok
+equal
 (
 data
 .
 length
-=
-=
 tests
 [
 index

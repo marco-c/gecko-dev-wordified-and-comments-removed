@@ -322,7 +322,7 @@ instance
 ;
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -340,7 +340,6 @@ getTime
 (
 )
 )
-<
 1
 "
 Times

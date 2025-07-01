@@ -95,15 +95,13 @@ mjs
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 PlacesUtils
 .
 history
 .
 databaseStatus
-<
-=
 1
 "
 ensure

@@ -249,12 +249,11 @@ i
 ;
 Assert
 .
-ok
+greater
 (
 node
 .
 itemId
->
 0
 )
 ;
@@ -427,12 +426,11 @@ RESULT_TYPE_QUERY
 ;
 Assert
 .
-ok
+greater
 (
 node
 .
 itemId
->
 0
 )
 ;

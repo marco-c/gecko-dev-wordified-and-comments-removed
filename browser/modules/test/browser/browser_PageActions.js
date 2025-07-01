@@ -1555,11 +1555,9 @@ id
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 index
->
-=
 0
 "
 Action

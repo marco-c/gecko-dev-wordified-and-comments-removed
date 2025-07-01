@@ -188,13 +188,11 @@ resumed
 ;
 Assert
 .
-ok
+notEqual
 (
 secinfo
 .
 serverCert
-!
-=
 null
 )
 ;

@@ -4177,11 +4177,9 @@ expectedAlias
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 index
->
-=
 0
 gURLBar
 .

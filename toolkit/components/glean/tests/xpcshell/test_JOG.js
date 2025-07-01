@@ -510,7 +510,7 @@ stop
 ;
 Assert
 .
-ok
+greater
 (
 Glean
 .
@@ -521,7 +521,6 @@ jogTimespan
 testGetValue
 (
 )
->
 0
 )
 ;

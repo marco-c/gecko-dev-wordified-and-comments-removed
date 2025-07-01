@@ -45,11 +45,9 @@ shift
 ;
 Assert
 .
-ok
+notEqual
 (
 perm
-!
-=
 null
 )
 ;

@@ -5444,11 +5444,9 @@ PREF_CLOCK_SKEW_SECONDS
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 clockSkew
->
-=
 skewSeconds
 clockSkew
 is

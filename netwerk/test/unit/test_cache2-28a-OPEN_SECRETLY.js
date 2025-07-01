@@ -42,7 +42,7 @@ b
 {
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -52,7 +52,6 @@ a
 -
 b
 )
-<
 0
 .
 5

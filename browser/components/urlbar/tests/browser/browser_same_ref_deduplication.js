@@ -2005,7 +2005,7 @@ providerName
 ;
 Assert
 .
-ok
+equal
 (
 historyResults
 [
@@ -2015,8 +2015,6 @@ historyResults
 result
 .
 providerName
-=
-=
 "
 InputHistory
 "

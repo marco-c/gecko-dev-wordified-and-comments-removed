@@ -577,11 +577,9 @@ start
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 duration
->
-=
 130
 "
 Ordered

@@ -110,11 +110,9 @@ selected
 ;
 Assert
 .
-ok
+notEqual
 (
 selectedTab
-!
-=
 pipTab
 "
 Picture
@@ -151,11 +149,9 @@ click
 ;
 Assert
 .
-ok
+equal
 (
 selectedTab
-=
-=
 pipTab
 "
 Picture
