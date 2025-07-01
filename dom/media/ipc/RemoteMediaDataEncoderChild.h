@@ -279,6 +279,11 @@ aTicket
 )
 ;
 void
+DoSendInit
+(
+)
+;
+void
 MaybeDestroyActor
 (
 )
