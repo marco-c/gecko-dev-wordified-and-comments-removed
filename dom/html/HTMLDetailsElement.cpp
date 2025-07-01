@@ -959,6 +959,15 @@ aCommand
 Command
 :
 :
+Auto
+|
+|
+aCommand
+=
+=
+Command
+:
+:
 Toggle
 )
 {
