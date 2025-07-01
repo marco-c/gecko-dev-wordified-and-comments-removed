@@ -608,12 +608,6 @@ SupportedLimits
 >
 limits
 ;
-RefPtr
-<
-AdapterInfo
->
-adapter_info
-;
 }
 ;
 std
