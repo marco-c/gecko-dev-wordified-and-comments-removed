@@ -2835,7 +2835,9 @@ report
 any
 errors
 .
-console
+lazy
+.
+sessionStoreLogger
 .
 error
 (
