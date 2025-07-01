@@ -690,7 +690,7 @@ this
 ;
 lazy
 .
-Sqlite
+ProfilesDatastoreService
 .
 shutdown
 .
@@ -1269,9 +1269,6 @@ debug
 (
 Flushing
 {
-this
-.
-#
 pending
 .
 size
