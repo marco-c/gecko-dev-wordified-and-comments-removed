@@ -2351,6 +2351,8 @@ width
 ease
 -
 out
+visibility
+100ms
 ;
 #
 tabbrowser
@@ -9466,6 +9468,10 @@ width
 0
 !
 important
+;
+visibility
+:
+hidden
 ;
 padding
 :
