@@ -1106,6 +1106,13 @@ js
 ]
 [
 "
+browser_popup_queue_panels
+.
+js
+"
+]
+[
+"
 browser_quickfind_editable
 .
 js
