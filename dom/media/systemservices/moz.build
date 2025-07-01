@@ -516,6 +516,16 @@ ShmemPool
 cpp
 "
 ]
+SOURCES
++
+=
+[
+"
+FakeVideoSource
+.
+cpp
+"
+]
 IPDL_SOURCES
 +
 =
