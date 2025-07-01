@@ -1408,13 +1408,6 @@ action_global_unlockPrivateTabsFragment
 "
 app
 :
-launchSingleTop
-=
-"
-true
-"
-app
-:
 popUpTo
 =
 "
@@ -1427,7 +1420,7 @@ app
 popUpToInclusive
 =
 "
-false
+true
 "
 app
 :
