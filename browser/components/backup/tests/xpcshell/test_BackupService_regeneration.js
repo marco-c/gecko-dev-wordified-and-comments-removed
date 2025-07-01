@@ -500,10 +500,8 @@ Date
 now
 (
 )
-/
-1000
 +
-1
+1000
 COOKIE_ORIGIN_ATTRIBUTES
 Ci
 .

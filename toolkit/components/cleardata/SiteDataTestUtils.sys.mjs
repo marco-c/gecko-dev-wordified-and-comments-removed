@@ -791,17 +791,10 @@ value
 false
 false
 false
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
-/
-1000
 )
 +
 24
@@ -809,6 +802,8 @@ now
 60
 *
 60
+*
+1000
 originAttributes
 Ci
 .
