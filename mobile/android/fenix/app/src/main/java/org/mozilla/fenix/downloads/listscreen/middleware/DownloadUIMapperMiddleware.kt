@@ -559,9 +559,15 @@ status
 .
 distinctBy
 {
+Pair
+(
 it
 .
 fileName
+it
+.
+status
+)
 }
 .
 sortedByDescending
