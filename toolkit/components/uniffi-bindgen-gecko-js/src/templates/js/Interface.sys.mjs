@@ -11,7 +11,7 @@ class
 {
 int
 .
-name
+js_class_name
 }
 }
 {
@@ -451,7 +451,7 @@ new
 {
 int
 .
-name
+js_class_name
 }
 }
 (
@@ -497,7 +497,7 @@ a
 {
 int
 .
-name
+js_class_name
 }
 }
 '
@@ -698,7 +698,7 @@ new
 {
 int
 .
-name
+js_class_name
 }
 }
 (
@@ -798,7 +798,7 @@ a
 {
 int
 .
-name
+js_class_name
 }
 }
 '

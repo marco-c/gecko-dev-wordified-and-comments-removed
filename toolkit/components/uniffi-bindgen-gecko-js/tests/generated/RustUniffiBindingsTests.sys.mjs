@@ -19344,7 +19344,7 @@ TestTraitInterface
 /
 export
 class
-AsyncTestTraitInterface
+AsyncTestTraitInterfaceImpl
 {
 /
 /
@@ -19869,7 +19869,7 @@ value
 ;
 return
 new
-AsyncTestTraitInterface
+AsyncTestTraitInterfaceImpl
 (
 opts
 )
@@ -19957,7 +19957,7 @@ is
 not
 a
 '
-AsyncTestTraitInterface
+AsyncTestTraitInterfaceImpl
 '
 instance
 "
@@ -20710,7 +20710,7 @@ TestTraitInterface
 /
 export
 class
-TestTraitInterface
+TestTraitInterfaceImpl
 {
 /
 /
@@ -21219,7 +21219,7 @@ value
 ;
 return
 new
-TestTraitInterface
+TestTraitInterfaceImpl
 (
 opts
 )
@@ -21307,7 +21307,7 @@ is
 not
 a
 '
-TestTraitInterface
+TestTraitInterfaceImpl
 '
 instance
 "
