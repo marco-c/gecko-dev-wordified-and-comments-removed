@@ -729,6 +729,16 @@ libGLESv2
 dll
 #
 endif
+#
+ifdef
+ONNX_RUNTIME
+BINPATH
+/
+DLL_PREFIX
+onnxruntime
+DLL_SUFFIX
+#
+endif
 [
 browser
 ]

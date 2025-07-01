@@ -20224,3 +20224,10 @@ ONNX_RUNTIME
 "
 onnx_runtime_path
 )
+set_define
+(
+"
+ONNX_RUNTIME
+"
+onnx_runtime_path
+)
