@@ -509,14 +509,6 @@ add
 (
 AdapterItem
 .
-BookmarksHeader
-)
-items
-.
-add
-(
-AdapterItem
-.
 Bookmarks
 )
 }
