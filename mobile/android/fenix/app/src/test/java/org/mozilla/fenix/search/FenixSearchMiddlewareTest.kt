@@ -246,8 +246,6 @@ toolbar
 store
 .
 BrowserEditToolbarAction
-.
-UpdateEditText
 import
 mozilla
 .
@@ -670,18 +668,6 @@ search
 SearchFragmentAction
 .
 SuggestionSelected
-import
-org
-.
-mozilla
-.
-fenix
-.
-search
-.
-SearchFragmentAction
-.
-UpdateQuery
 import
 org
 .
@@ -1525,6 +1511,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 "
@@ -1724,6 +1712,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 "
@@ -1843,6 +1833,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 store
@@ -1864,6 +1856,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 "
@@ -1883,6 +1877,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 "
@@ -1933,6 +1929,8 @@ store
 .
 dispatch
 (
+SearchFragmentAction
+.
 UpdateQuery
 (
 "
@@ -3106,7 +3104,9 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+BrowserEditToolbarAction
+.
+SearchQueryUpdated
 (
 "
 "
@@ -3354,7 +3354,9 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+BrowserEditToolbarAction
+.
+SearchQueryUpdated
 (
 "
 test

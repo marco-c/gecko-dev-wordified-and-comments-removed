@@ -5441,9 +5441,9 @@ dispatch
 (
 BrowserEditToolbarAction
 .
-UpdateEditText
+SearchQueryUpdated
 (
-text
+query
 =
 text
 )

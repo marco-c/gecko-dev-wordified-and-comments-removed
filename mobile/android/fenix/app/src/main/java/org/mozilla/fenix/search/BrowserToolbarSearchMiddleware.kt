@@ -301,7 +301,7 @@ store
 .
 BrowserEditToolbarAction
 .
-UpdateEditText
+SearchQueryUpdated
 import
 mozilla
 .
@@ -1221,7 +1221,7 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 "

@@ -109,7 +109,7 @@ store
 .
 BrowserEditToolbarAction
 .
-UpdateEditText
+SearchQueryUpdated
 import
 mozilla
 .
@@ -428,7 +428,7 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 t
@@ -450,7 +450,7 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 te
@@ -472,7 +472,7 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 tes
@@ -494,7 +494,7 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 test

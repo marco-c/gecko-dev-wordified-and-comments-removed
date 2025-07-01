@@ -331,10 +331,11 @@ uiState
 .
 editState
 .
-editText
+query
 )
 {
-null
+"
+"
 -
 >
 url
@@ -354,7 +355,7 @@ isEditMode
 {
 BrowserEditToolbar
 (
-url
+query
 =
 input
 editActionsStart

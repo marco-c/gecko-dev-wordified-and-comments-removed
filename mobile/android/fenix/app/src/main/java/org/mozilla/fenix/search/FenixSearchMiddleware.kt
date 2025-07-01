@@ -200,8 +200,6 @@ toolbar
 store
 .
 BrowserEditToolbarAction
-.
-UpdateEditText
 import
 mozilla
 .
@@ -1203,7 +1201,9 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+BrowserEditToolbarAction
+.
+SearchQueryUpdated
 (
 "
 "
@@ -1228,7 +1228,9 @@ toolbarStore
 .
 dispatch
 (
-UpdateEditText
+BrowserEditToolbarAction
+.
+SearchQueryUpdated
 (
 it
 )

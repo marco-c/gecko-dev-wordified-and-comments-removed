@@ -588,7 +588,7 @@ it
 .
 editState
 .
-editText
+query
 }
 .
 distinctUntilChanged
@@ -609,10 +609,6 @@ SearchFragmentAction
 UpdateQuery
 (
 query
-?
-:
-"
-"
 )
 )
 }

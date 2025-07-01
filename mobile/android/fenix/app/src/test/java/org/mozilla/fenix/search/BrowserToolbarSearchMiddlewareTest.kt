@@ -233,7 +233,7 @@ store
 .
 BrowserEditToolbarAction
 .
-UpdateEditText
+SearchQueryUpdated
 import
 mozilla
 .
@@ -889,7 +889,7 @@ store
 .
 dispatch
 (
-UpdateEditText
+SearchQueryUpdated
 (
 "
 test
@@ -917,7 +917,7 @@ state
 .
 editState
 .
-editText
+query
 )
 store
 .
@@ -945,7 +945,7 @@ state
 .
 editState
 .
-editText
+query
 )
 captorMiddleware
 .
