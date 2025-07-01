@@ -22150,7 +22150,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 operation
 "
@@ -22277,7 +22277,7 @@ exit
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 operation
 "
@@ -22401,7 +22401,7 @@ fzliout
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 operation
 "
@@ -28554,7 +28554,7 @@ NAME
 )
 &
 &
-StringEqualsAscii
+StringEqualsLiteral
 (
 name
 NAME

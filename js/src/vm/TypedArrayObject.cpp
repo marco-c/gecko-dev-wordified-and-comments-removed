@@ -19249,7 +19249,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linear
 "
@@ -19272,7 +19272,7 @@ true
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linear
 "
@@ -19432,7 +19432,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linear
 "
@@ -19455,7 +19455,7 @@ true
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linear
 "
@@ -19478,7 +19478,7 @@ true
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linear
 "
