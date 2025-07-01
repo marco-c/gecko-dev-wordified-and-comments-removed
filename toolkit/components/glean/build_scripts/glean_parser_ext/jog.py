@@ -120,14 +120,6 @@ numerators
 "
 ordered_labels
 "
-    
-"
-ordered_keys
-"
-    
-"
-ordered_categories
-"
 ]
 known_metadata
 =

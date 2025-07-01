@@ -40,13 +40,6 @@ use
 glean_core
 :
 :
-DualLabeledCounterMetric
-;
-pub
-use
-glean_core
-:
-:
 NumeratorMetric
 ;
 pub

@@ -14,10 +14,7 @@ crate
 common_metric_data
 :
 :
-{
 CommonMetricDataInternal
-DynamicLabelType
-}
 ;
 use
 crate
@@ -166,7 +163,7 @@ with_dynamic_label
 self
 label
 :
-DynamicLabelType
+String
 )
 -
 >
