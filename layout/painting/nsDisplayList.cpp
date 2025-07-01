@@ -26399,7 +26399,7 @@ nsDisplayBlendContainer
 nsDisplayBlendContainer
 :
 :
-CreateForMixBlendMode
+Create
 (
 nsDisplayListBuilder
 *
@@ -43629,6 +43629,18 @@ CurrentClipChainId
 (
 )
 )
+;
+params
+.
+flags
+=
+wr
+:
+:
+StackingContextFlags
+:
+:
+IS_BACKDROP_ROOT
 ;
 StackingContextHelper
 sc

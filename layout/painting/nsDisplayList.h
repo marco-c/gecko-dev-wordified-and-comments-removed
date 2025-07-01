@@ -18861,7 +18861,7 @@ public
 static
 nsDisplayBlendContainer
 *
-CreateForMixBlendMode
+Create
 (
 nsDisplayListBuilder
 *
