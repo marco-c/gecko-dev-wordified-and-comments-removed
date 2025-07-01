@@ -132,6 +132,11 @@ searchEngineSource
 SearchEngineSource
 .
 None
+searchSuggestionsProviders
+=
+emptyList
+(
+)
 defaultEngine
 =
 null
