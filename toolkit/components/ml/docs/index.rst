@@ -369,10 +369,3 @@ notifications
 models
 perf
 extensions
-extensions
--
-api
--
-example
-/
-README
