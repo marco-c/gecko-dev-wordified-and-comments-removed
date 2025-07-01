@@ -1098,6 +1098,13 @@ TextureId
 ]
 >
 )
+QueueOnSubmittedWorkDone
+(
+id
+:
+:
+QueueId
+)
 CreateSwapChain
 {
 device_id
@@ -2000,6 +2007,7 @@ BufferMapResult
 a
 >
 )
+QueueOnSubmittedWorkDoneResponse
 }
 #
 [
