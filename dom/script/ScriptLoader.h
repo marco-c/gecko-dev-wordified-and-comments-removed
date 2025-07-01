@@ -2087,6 +2087,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+static
 void
 CalculateBytecodeCacheFlag
 (
@@ -2141,9 +2142,6 @@ mParserBlockingRequest
 ;
 ScriptLoadRequestList
 mOffThreadCompilingRequests
-;
-ScriptLoadRequestList
-mBytecodeEncodableDependencyModules
 ;
 ScriptLoadRequestList
 mBytecodeEncodingQueue

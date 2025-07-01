@@ -1114,11 +1114,9 @@ IsTextSource
 )
 )
 {
-GetScriptLoader
-(
-)
--
->
+ScriptLoader
+:
+:
 CalculateBytecodeCacheFlag
 (
 aRequest
