@@ -389,7 +389,7 @@ editableFieldTemplate
 type
 :
 "
-url
+text
 "
 value
 :
