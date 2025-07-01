@@ -314,9 +314,7 @@ logLevel
 prefix
 :
 "
-ML
-:
-EmbeddingsGenerator
+GeckoMLEmbeddingsGenerator
 "
 }
 )

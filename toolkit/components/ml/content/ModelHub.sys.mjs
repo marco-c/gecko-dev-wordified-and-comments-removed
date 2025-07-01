@@ -331,9 +331,7 @@ logLevel
 prefix
 :
 "
-ML
-:
-ModelHub
+GeckoMLModelHub
 "
 }
 )

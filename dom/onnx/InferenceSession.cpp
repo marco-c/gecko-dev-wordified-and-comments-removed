@@ -185,7 +185,7 @@ LazyLogModule
 gONNXLog
 (
 "
-ONNXNative
+GeckoMLONNXNative
 "
 )
 ;

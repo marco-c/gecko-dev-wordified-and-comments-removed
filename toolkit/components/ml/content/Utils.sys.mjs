@@ -293,9 +293,7 @@ workers
 prefix
 :
 "
-ML
-:
-Utils
+GeckoMLUtils
 "
 }
 )
@@ -337,9 +335,7 @@ logLevel
 prefix
 :
 "
-ML
-:
-Utils
+GeckoMLUtils
 "
 }
 )

@@ -239,9 +239,7 @@ workers
 prefix
 :
 "
-ML
-:
-ONNXPipeline
+GeckoMLONNXPipeline
 "
 }
 )

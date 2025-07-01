@@ -151,9 +151,7 @@ logLevel
 prefix
 :
 "
-ML
-:
-OPFS
+GeckoMLOPFS
 "
 }
 )
