@@ -438,6 +438,12 @@ settings
 isExperimentationEnabled
 =
 isChecked
+settings
+.
+hasUserDisabledExperimentation
+=
+!
+isChecked
 val
 experimentsKey
 =

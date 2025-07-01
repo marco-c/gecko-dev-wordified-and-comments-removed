@@ -294,6 +294,18 @@ MetricServiceType
 .
 Data
 )
+if
+(
+!
+context
+.
+settings
+(
+)
+.
+hasUserDisabledExperimentation
+)
+{
 context
 .
 settings
@@ -303,6 +315,7 @@ settings
 isExperimentationEnabled
 =
 true
+}
 requireComponents
 .
 nimbus
