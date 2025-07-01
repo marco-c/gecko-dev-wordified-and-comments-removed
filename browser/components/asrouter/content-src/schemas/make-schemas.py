@@ -155,8 +155,6 @@ schema
 "
 "
 import
-json
-import
 sys
 from
 argparse
@@ -184,6 +182,10 @@ import
 urlparse
 import
 jsonschema
+from
+mozfile
+import
+json
 class
 SchemaDefinition
 (
