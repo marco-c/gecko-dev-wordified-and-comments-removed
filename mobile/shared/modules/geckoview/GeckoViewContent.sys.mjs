@@ -1164,9 +1164,10 @@ false
 const
 onResize
 =
-function
 (
 )
+=
+>
 {
 gotResize
 =
