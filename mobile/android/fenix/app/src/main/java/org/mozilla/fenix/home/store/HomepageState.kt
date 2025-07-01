@@ -1127,8 +1127,6 @@ settings
 enableHomepageAsNewTab
 firstFrameDrawn
 =
-appState
-.
 firstFrameDrawn
 bottomSpacerHeight
 =
@@ -1285,9 +1283,6 @@ pocketStories
 isNotEmpty
 (
 )
-&
-&
-firstFrameDrawn
 showPrivateBrowsingButton
 =
 !
@@ -1319,8 +1314,6 @@ ToolbarPosition
 TOP
 firstFrameDrawn
 =
-appState
-.
 firstFrameDrawn
 setupChecklistState
 =
