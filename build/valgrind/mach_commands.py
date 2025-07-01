@@ -1,6 +1,4 @@
 import
-json
-import
 logging
 import
 os
@@ -29,6 +27,10 @@ import
 MachCommandConditions
 as
 conditions
+from
+mozfile
+import
+json
 def
 is_valgrind_build
 (

@@ -4247,6 +4247,13 @@ open
 )
 imports
 (
+_from
+=
+"
+mozfile
+"
+_import
+=
 "
 json
 "

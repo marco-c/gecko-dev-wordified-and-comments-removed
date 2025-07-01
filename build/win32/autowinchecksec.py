@@ -1,11 +1,13 @@
 import
-json
-import
 subprocess
 import
 sys
 import
 buildconfig
+from
+mozfile
+import
+json
 if
 len
 (
@@ -274,7 +276,7 @@ buildconfig
 substs
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =

@@ -22,6 +22,10 @@ import
 topobjdir
 topsrcdir
 from
+mozfile
+import
+json
+from
 mozpack
 import
 path
@@ -845,6 +849,9 @@ which
 self
 .
 which
+json
+=
+json
 )
     
 memoized_property
