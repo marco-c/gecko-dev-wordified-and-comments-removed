@@ -5097,9 +5097,6 @@ org
 private
 =
 false
-isProductUrl
-=
-false
 )
 source
 =
@@ -5170,9 +5167,6 @@ org
 private
 =
 false
-isProductUrl
-=
-false
 )
 )
 assertFalse
@@ -5217,9 +5211,6 @@ mozilla
 org
 "
 private
-=
-false
-isProductUrl
 =
 false
 )
@@ -5341,9 +5332,6 @@ org
 private
 =
 false
-isProductUrl
-=
-false
 )
 source
 =
@@ -5412,9 +5400,6 @@ mozilla
 org
 "
 private
-=
-false
-isProductUrl
 =
 false
 )
@@ -5487,9 +5472,6 @@ org
 private
 =
 false
-isProductUrl
-=
-false
 )
 source
 =
@@ -5558,9 +5540,6 @@ mozilla
 org
 "
 private
-=
-false
-isProductUrl
 =
 false
 )

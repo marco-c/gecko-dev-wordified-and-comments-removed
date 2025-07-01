@@ -766,11 +766,6 @@ restored
 Boolean
 =
 false
-isProductUrl
-:
-Boolean
-=
-false
 engineSession
 :
 EngineSession
@@ -896,9 +891,6 @@ previewImageUrl
 hasFormData
 =
 hasFormData
-isProductUrl
-=
-isProductUrl
 )
 parentId
 =
