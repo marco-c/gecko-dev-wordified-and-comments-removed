@@ -943,8 +943,6 @@ presShell
 ContentAppended
 (
 newNativeAnonymousContent
-{
-}
 )
 ;
 return
@@ -1102,8 +1100,7 @@ aPresShell
 ContentWillBeRemoved
 (
 aContent
-{
-}
+nullptr
 )
 ;
 }

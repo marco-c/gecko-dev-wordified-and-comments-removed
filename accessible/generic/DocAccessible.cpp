@@ -4555,9 +4555,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
 )
 {
 MaybeHandleChangeToHiddenNameOrDescription
@@ -5229,9 +5226,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 {
 MaybeHandleChangeToHiddenNameOrDescription
@@ -5250,8 +5244,8 @@ nsIContent
 *
 aChildNode
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 #

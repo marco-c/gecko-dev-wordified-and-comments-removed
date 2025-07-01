@@ -784,8 +784,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 nsINode

@@ -879,9 +879,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
 )
 {
 MaybeUnhook
@@ -904,9 +901,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 {
 MaybeUnhook
@@ -930,8 +924,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 MaybeUnhook

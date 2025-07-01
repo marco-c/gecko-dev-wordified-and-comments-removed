@@ -1030,9 +1030,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
 )
 {
 nsINode
@@ -1272,9 +1269,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 {
 nsINode
@@ -1476,8 +1470,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 if

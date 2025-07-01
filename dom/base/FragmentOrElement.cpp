@@ -9766,8 +9766,6 @@ target
 GetFirstChild
 (
 )
-{
-}
 )
 ;
 }

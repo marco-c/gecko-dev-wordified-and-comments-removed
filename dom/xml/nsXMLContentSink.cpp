@@ -1807,8 +1807,6 @@ NotifyContentInserted
 (
 mDocument
 rootElement
-{
-}
 )
 ;
 mDocument

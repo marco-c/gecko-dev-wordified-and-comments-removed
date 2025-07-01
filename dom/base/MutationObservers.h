@@ -162,9 +162,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
 )
 ;
 static
@@ -177,9 +174,6 @@ aContainer
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 ;
 static
@@ -193,8 +187,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 ;
 static

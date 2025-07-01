@@ -3578,8 +3578,6 @@ aContent
 mDocument
 )
 aChildContent
-{
-}
 )
 ;
 mLastNotificationTime

@@ -4365,9 +4365,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
 )
 {
 MaybeUpdateAreas
@@ -4390,9 +4387,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 {
 MaybeUpdateAreas
@@ -4503,8 +4497,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 if
