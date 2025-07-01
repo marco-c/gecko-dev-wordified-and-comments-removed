@@ -283,7 +283,7 @@ IdentityCredential
 :
 GetToken
 (
-nsACString
+nsAString
 &
 aToken
 )
@@ -304,7 +304,7 @@ IdentityCredential
 SetToken
 (
 const
-nsACString
+nsAString
 &
 aToken
 )
