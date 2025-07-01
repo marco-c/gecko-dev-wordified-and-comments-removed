@@ -892,7 +892,7 @@ fuzzy
 if
 (
 gtkWidget
-15
+7
 -
 33
 14
@@ -1884,7 +1884,7 @@ fuzzy
 if
 (
 gtkWidget
-17
+8
 -
 74
 20
@@ -1988,7 +1988,7 @@ fuzzy
 if
 (
 gtkWidget
-17
+8
 -
 74
 20
@@ -2138,7 +2138,7 @@ fuzzy
 if
 (
 gtkWidget
-17
+8
 -
 74
 20
@@ -2380,10 +2380,10 @@ fuzzy
 if
 (
 gtkWidget
-4
+2
 -
 13
-12
+8
 -
 32
 )
@@ -2482,10 +2482,10 @@ fuzzy
 if
 (
 gtkWidget
-6
+2
 -
 30
-12
+8
 -
 32
 )
@@ -2745,7 +2745,7 @@ fuzzy
 if
 (
 gtkWidget
-6
+2
 -
 19
 12
@@ -2855,7 +2855,7 @@ fuzzy
 if
 (
 gtkWidget
-8
+2
 -
 26
 24
@@ -2977,7 +2977,7 @@ fuzzy
 if
 (
 gtkWidget
-17
+2
 -
 28
 24
@@ -3087,7 +3087,7 @@ fuzzy
 if
 (
 gtkWidget
-17
+2
 -
 29
 24
@@ -3253,7 +3253,7 @@ fuzzy
 if
 (
 gtkWidget
-16
+8
 -
 25
 12
@@ -3517,7 +3517,7 @@ fuzzy
 if
 (
 gtkWidget
-10
+6
 -
 15
 12
@@ -3753,7 +3753,7 @@ fuzzy
 if
 (
 gtkWidget
-7
+3
 -
 20
 12
@@ -3891,7 +3891,7 @@ fuzzy
 if
 (
 gtkWidget
-10
+3
 -
 27
 12
@@ -4027,7 +4027,7 @@ fuzzy
 if
 (
 gtkWidget
-10
+3
 -
 27
 12
