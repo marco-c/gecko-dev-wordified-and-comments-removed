@@ -159,6 +159,18 @@ fenix
 .
 home
 .
+search
+.
+HomeSearchInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 sessioncontrol
 .
 CollectionInteractor
@@ -268,6 +280,7 @@ CollectionInteractor
 TopSiteInteractor
 TabSessionInteractor
 ToolbarInteractor
+HomeSearchInteractor
 MessageCardInteractor
 RecentTabInteractor
 RecentSyncedTabInteractor

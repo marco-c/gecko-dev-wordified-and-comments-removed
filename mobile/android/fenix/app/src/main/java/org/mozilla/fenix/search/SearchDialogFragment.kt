@@ -1624,9 +1624,9 @@ dispatch
 (
 AppAction
 .
-UpdateSearchDialogVisibility
+UpdateSearchBeingActiveState
 (
-isVisible
+isSearchActive
 =
 true
 )
@@ -4083,9 +4083,9 @@ dispatch
 (
 AppAction
 .
-UpdateSearchDialogVisibility
+UpdateSearchBeingActiveState
 (
-isVisible
+isSearchActive
 =
 false
 )

@@ -1017,6 +1017,10 @@ updateEndBrowserActions
 updatePageOrigin
 (
 )
+next
+(
+action
+)
 }
 is
 MenuClicked
