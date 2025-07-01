@@ -106,11 +106,6 @@ WaylandSurface
 mSurface
 ;
 gboolean
-opaque_region_needs_updates
-=
-false
-;
-gboolean
 before_first_size_alloc
 =
 false
@@ -158,14 +153,6 @@ struct
 wl_egl_window
 *
 moz_container_wayland_get_egl_window
-(
-MozContainer
-*
-container
-)
-;
-gboolean
-moz_container_wayland_has_egl_window
 (
 MozContainer
 *
