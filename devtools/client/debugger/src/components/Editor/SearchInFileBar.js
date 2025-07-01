@@ -1041,6 +1041,7 @@ setSearchResults
 (
 results
 matches
+shouldScroll
 )
 ;
 }
@@ -1199,6 +1200,7 @@ setSearchResults
 (
 results
 matches
+true
 )
 ;
 }
@@ -1208,6 +1210,7 @@ setSearchResults
 (
 results
 matches
+shouldScroll
 )
 {
 if
@@ -1305,6 +1308,11 @@ false
 }
 )
 ;
+if
+(
+shouldScroll
+)
+{
 this
 .
 setCursorLocation
@@ -1314,6 +1322,7 @@ ch
 matchContent
 )
 ;
+}
 this
 .
 setState
@@ -1386,7 +1395,7 @@ highlight
 false
 scroll
 :
-false
+true
 }
 )
 ;

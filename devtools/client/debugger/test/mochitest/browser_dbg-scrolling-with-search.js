@@ -123,6 +123,14 @@ CodeMirror
 "
 )
 ;
+await
+waitForSelectedLocation
+(
+dbg
+50
+53
+)
+;
 is
 (
 getSearchSelection
