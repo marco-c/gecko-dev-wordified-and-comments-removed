@@ -2346,8 +2346,6 @@ nsIVariant
 KeyValueError
 >
 {
-Ok
-(
 owned_to_variant
 (
 self
@@ -2357,8 +2355,6 @@ value
 clone
 (
 )
-)
-?
 )
 }
 }
