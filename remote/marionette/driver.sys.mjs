@@ -16718,11 +16718,6 @@ cookie
 iter
 (
 hostname
-this
-.
-getBrowsingContext
-(
-)
 pathname
 )
 ]
@@ -16856,11 +16851,6 @@ cookie
 iter
 (
 hostname
-this
-.
-getBrowsingContext
-(
-)
 pathname
 )
 )
@@ -17036,11 +17026,6 @@ cookie
 iter
 (
 hostname
-this
-.
-getBrowsingContext
-(
-)
 pathname
 )
 )
