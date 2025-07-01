@@ -6590,9 +6590,6 @@ Scheduler
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -6885,9 +6882,6 @@ TaskController
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -6898,9 +6892,6 @@ TaskPriorityChangeEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -6909,9 +6900,6 @@ name
 TaskSignal
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -9815,9 +9803,6 @@ name
 scheduler
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
