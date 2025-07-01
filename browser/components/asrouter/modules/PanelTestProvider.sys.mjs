@@ -7038,7 +7038,6 @@ Personalized
 Just
 for
 You
-!
 "
 cardMessage
 :
