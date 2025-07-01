@@ -1160,6 +1160,13 @@ View
 ?
 =
 null
+private
+var
+isPrivate
+:
+Boolean
+=
+false
 override
 fun
 onCreateDialog
@@ -1212,6 +1219,13 @@ HomeActivity
 )
 .
 browsingModeManager
+isPrivate
+=
+browsingModeManager
+.
+mode
+.
+isPrivate
 val
 navigationBarColor
 =
@@ -3036,6 +3050,9 @@ isDesktopMode
 isPdf
 =
 isPdf
+isPrivate
+=
+isPrivate
 isReaderViewActive
 =
 isReaderViewActive
