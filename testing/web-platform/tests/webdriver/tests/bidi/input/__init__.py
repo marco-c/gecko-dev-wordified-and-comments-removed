@@ -347,6 +347,8 @@ get_object_from_context
 bidi_session
 context
 "
+window
+.
 allEvents
 .
 events
