@@ -581,6 +581,10 @@ extern
 crate
 mime_guess_ffi
 ;
+extern
+crate
+urlpattern
+;
 #
 [
 cfg

@@ -71,6 +71,10 @@ pub
 mod
 primitives
 ;
+pub
+mod
+start
+;
 #
 [
 cfg
@@ -163,13 +167,6 @@ crate
 )
 mod
 sparse_set
-;
-pub
-(
-crate
-)
-mod
-start
 ;
 pub
 (
