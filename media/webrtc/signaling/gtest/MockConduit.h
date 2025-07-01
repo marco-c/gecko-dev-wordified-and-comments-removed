@@ -408,6 +408,14 @@ GenericPromise
 )
 )
 ;
+MOCK_CONST_METHOD0
+(
+IsShutdown
+bool
+(
+)
+)
+;
 MOCK_METHOD0
 (
 AsAudioSessionConduit

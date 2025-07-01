@@ -560,6 +560,13 @@ Shutdown
 override
 ;
 bool
+IsShutdown
+(
+)
+const
+override
+;
+bool
 Denoising
 (
 )
@@ -1167,6 +1174,11 @@ CreateRecvStream
 ;
 void
 DeleteRecvStream
+(
+)
+;
+void
+SetIsShutdown
 (
 )
 ;
@@ -1932,6 +1944,11 @@ mReceiverRtcpEventListener
 ;
 MediaEventListener
 mSenderRtcpEventListener
+;
+bool
+mIsShutdown
+=
+false
 ;
 }
 ;

@@ -725,6 +725,15 @@ Shutdown
 0
 ;
 virtual
+bool
+IsShutdown
+(
+)
+const
+=
+0
+;
+virtual
 Maybe
 <
 RefPtr

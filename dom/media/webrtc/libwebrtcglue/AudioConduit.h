@@ -446,6 +446,13 @@ Shutdown
 )
 override
 ;
+bool
+IsShutdown
+(
+)
+const
+override
+;
 WebrtcAudioConduit
 (
 RefPtr
@@ -751,6 +758,11 @@ CreateRecvStream
 ;
 void
 DeleteRecvStream
+(
+)
+;
+void
+SetIsShutdown
 (
 )
 ;
@@ -1119,6 +1131,11 @@ mReceiverRtcpEventListener
 ;
 MediaEventListener
 mSenderRtcpEventListener
+;
+bool
+mIsShutdown
+=
+false
 ;
 }
 ;
