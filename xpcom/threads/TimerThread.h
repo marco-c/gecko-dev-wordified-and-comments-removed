@@ -697,6 +697,17 @@ kMaxQueuedTimersFired
 queuedTimersFiredPerWakeup
 )
 ;
+void
+Wait
+(
+TimeDuration
+aWaitFor
+)
+MOZ_REQUIRES
+(
+mMonitor
+)
+;
 #
 ifdef
 XP_WIN
