@@ -9914,7 +9914,7 @@ R
 .
 drawable
 .
-mozac_ic_lock_24
+mozac_ic_shield_checkmark_24
 contentDescription
 =
 R
@@ -10031,7 +10031,7 @@ R
 .
 drawable
 .
-mozac_ic_broken_lock
+mozac_ic_shield_slash_24
 contentDescription
 =
 R
@@ -10180,7 +10180,7 @@ R
 .
 drawable
 .
-mozac_ic_lock_24
+mozac_ic_shield_checkmark_24
 contentDescription
 =
 R
@@ -10205,7 +10205,7 @@ R
 .
 drawable
 .
-mozac_ic_broken_lock
+mozac_ic_shield_slash_24
 contentDescription
 =
 R

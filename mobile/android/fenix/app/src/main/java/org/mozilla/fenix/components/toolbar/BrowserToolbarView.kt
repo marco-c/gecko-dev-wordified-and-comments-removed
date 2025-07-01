@@ -75,12 +75,6 @@ Context
 import
 android
 .
-graphics
-.
-Color
-import
-android
-.
 view
 .
 LayoutInflater
@@ -1231,9 +1225,7 @@ siteInfoIconSecure
 primaryTextColor
 siteInfoIconInsecure
 =
-Color
-.
-TRANSPARENT
+primaryTextColor
 siteInfoIconLocalPdf
 =
 primaryTextColor

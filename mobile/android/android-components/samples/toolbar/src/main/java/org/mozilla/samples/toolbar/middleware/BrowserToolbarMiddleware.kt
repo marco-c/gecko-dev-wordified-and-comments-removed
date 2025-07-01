@@ -1397,7 +1397,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_lock_24
+mozac_ic_shield_checkmark_24
 contentDescription
 =
 R
