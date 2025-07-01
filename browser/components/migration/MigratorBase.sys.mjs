@@ -762,11 +762,14 @@ abstract
 *
 returns
 {
+Promise
+<
 object
 [
 ]
 |
 null
+>
 }
 *
 /
