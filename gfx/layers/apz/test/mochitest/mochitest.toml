@@ -247,17 +247,6 @@ test_group_displayport
 html
 "
 ]
-support
--
-files
-=
-[
-"
-slow_content
-.
-sjs
-"
-]
 [
 "
 test_group_double_tap_zoom
