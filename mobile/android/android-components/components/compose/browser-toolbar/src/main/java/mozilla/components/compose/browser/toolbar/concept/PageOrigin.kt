@@ -244,6 +244,7 @@ URL
 *
 property
 onClick
+Optional
 [
 BrowserToolbarInteraction
 ]
@@ -277,6 +278,20 @@ detail
 being
 long
 clicked
+.
+To
+ensure
+long
+click
+functionality
+the
+normal
+click
+behavior
+should
+also
+be
+set
 .
 *
 property
@@ -348,6 +363,7 @@ val
 onClick
 :
 BrowserToolbarEvent
+?
 val
 onLongClick
 :

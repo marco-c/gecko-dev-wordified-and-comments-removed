@@ -3539,6 +3539,8 @@ displayState
 pageOrigin
 .
 onClick
+as
+BrowserToolbarAction
 )
 assertTrue
 (
