@@ -594,7 +594,7 @@ activity
 HomeActivity
 private
 val
-fromHomeFragment
+includeSelectedTab
 :
 Boolean
 private
@@ -2752,7 +2752,7 @@ ic_search_results_tab
 excludeSelectedSession
 =
 !
-fromHomeFragment
+includeSelectedTab
 suggestionsHeader
 =
 activity
