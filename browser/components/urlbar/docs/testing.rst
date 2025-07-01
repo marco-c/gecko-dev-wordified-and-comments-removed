@@ -659,7 +659,7 @@ components
 /
 urlbar
 /
-UrlbarMuxerUnifiedComplete
+UrlbarMuxerStandard
 .
 sys
 .

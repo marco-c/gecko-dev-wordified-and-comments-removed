@@ -10910,7 +10910,7 @@ HIDDEN
 }
 export
 var
-UrlbarMuxerUnifiedComplete
+UrlbarMuxerStandard
 =
 new
 MuxerUnifiedComplete

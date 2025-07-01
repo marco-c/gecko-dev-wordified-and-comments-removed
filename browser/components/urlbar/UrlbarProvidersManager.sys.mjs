@@ -812,7 +812,7 @@ var
 localMuxerModules
 =
 {
-UrlbarMuxerUnifiedComplete
+UrlbarMuxerStandard
 :
 "
 resource
@@ -822,7 +822,7 @@ resource
 /
 modules
 /
-UrlbarMuxerUnifiedComplete
+UrlbarMuxerStandard
 .
 sys
 .
