@@ -1017,7 +1017,7 @@ search
 .
 awesomebar
 .
-AwesomeBarViewSuggestions
+AwesomeBarView
 import
 org
 .
@@ -1195,7 +1195,7 @@ private
 var
 _awesomeBarView
 :
-AwesomeBarViewSuggestions
+AwesomeBarView
 ?
 =
 null
@@ -1203,7 +1203,7 @@ private
 val
 awesomeBarView
 :
-AwesomeBarViewSuggestions
+AwesomeBarView
 get
 (
 )
@@ -2107,7 +2107,7 @@ binding
 awesomeBar
 _awesomeBarView
 =
-AwesomeBarViewSuggestions
+AwesomeBarView
 (
 activity
 interactor
