@@ -235,8 +235,6 @@ MediaTrackSupportedConstraints
 &
 aResult
 )
-{
-}
 ;
 already_AddRefed
 <

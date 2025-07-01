@@ -2203,6 +2203,11 @@ MediaDeviceKind
 :
 :
 Videoinput
+&
+&
+aPrefs
+.
+mResizeModeEnabled
 )
 {
 nsString

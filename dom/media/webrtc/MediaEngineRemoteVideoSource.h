@@ -735,6 +735,12 @@ mCapability
 DistanceCalculation
 mCalculation
 ;
+UniquePtr
+<
+MediaEnginePrefs
+>
+mPrefs
+;
 mutable
 nsTArray
 <

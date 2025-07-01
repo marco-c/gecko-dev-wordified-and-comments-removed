@@ -84,6 +84,10 @@ mHeight
 (
 0
 )
+mResizeModeEnabled
+(
+false
+)
 mResizeMode
 (
 dom
@@ -158,6 +162,9 @@ mWidth
 ;
 int32_t
 mHeight
+;
+bool
+mResizeModeEnabled
 ;
 dom
 :

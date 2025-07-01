@@ -153,9 +153,14 @@ true
 ;
 boolean
 resizeMode
-=
-true
 ;
+/
+/
+to
+be
+enabled
+by
+default
 boolean
 volume
 ;
