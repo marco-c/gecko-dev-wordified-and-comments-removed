@@ -245,6 +245,7 @@ messageToView
 #
 authExpirationTime
 ;
+static
 #
 aggregator
 =
@@ -274,7 +275,7 @@ Number
 .
 NEGATIVE_INFINITY
 ;
-this
+MegalistViewModel
 .
 #
 aggregator
@@ -301,7 +302,7 @@ willDestroy
 (
 )
 {
-this
+MegalistViewModel
 .
 #
 aggregator
@@ -310,13 +311,6 @@ detachViewModel
 (
 this
 )
-;
-this
-.
-#
-aggregator
-=
-null
 ;
 }
 refreshAllLinesOnScreen
@@ -731,7 +725,7 @@ Array
 .
 from
 (
-this
+MegalistViewModel
 .
 #
 aggregator
@@ -964,7 +958,7 @@ dotIndex
 1
 )
 ;
-this
+MegalistViewModel
 .
 #
 aggregator
@@ -1156,7 +1150,7 @@ isAuthorized
 const
 authTimeoutMs
 =
-this
+MegalistViewModel
 .
 #
 aggregator
