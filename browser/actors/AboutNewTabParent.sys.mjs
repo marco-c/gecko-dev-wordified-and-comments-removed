@@ -303,6 +303,7 @@ ASRouter
 .
 waitForInitialized
 ;
+await
 lazy
 .
 ASRouter
@@ -341,6 +342,7 @@ newtab
 }
 )
 ;
+await
 lazy
 .
 ASRouter
