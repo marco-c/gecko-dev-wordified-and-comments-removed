@@ -497,6 +497,11 @@ stubName
 "
 Shutdown
 "
+dispatchTo
+=
+"
+gecko
+"
 )
 protected
 native
