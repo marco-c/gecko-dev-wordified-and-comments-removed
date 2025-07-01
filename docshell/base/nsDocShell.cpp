@@ -39958,7 +39958,7 @@ GetNavigationType
 )
 newURI
 true
-false
+true
 Some
 (
 aLoadState
