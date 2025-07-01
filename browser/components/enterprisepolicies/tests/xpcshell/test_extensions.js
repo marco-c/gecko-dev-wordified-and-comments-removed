@@ -319,6 +319,17 @@ disabled
 )
 ;
 await
+assertManagementAPIInstallType
+(
+addon
+.
+id
+"
+admin
+"
+)
+;
+await
 addon
 .
 uninstall
