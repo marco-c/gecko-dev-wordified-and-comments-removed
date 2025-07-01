@@ -1862,6 +1862,9 @@ lastSavedFolderCache
 )
 MenuNavigationMiddleware
 (
+browserStore
+=
+browserStore
 navController
 =
 findNavController
