@@ -16602,6 +16602,7 @@ case
 PREF_SHOW_SPONSORED_TOPSITES
 :
 {
+await
 this
 .
 updateOrRemoveSpocs
