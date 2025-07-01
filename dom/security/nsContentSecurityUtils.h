@@ -38,6 +38,9 @@ class
 nsIPrincipal
 ;
 class
+nsIURI
+;
+class
 NS_ConvertUTF8toUTF16
 ;
 namespace
@@ -86,6 +89,15 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aResultPrincipal
+)
+;
+static
+bool
+IsTrustedScheme
+(
+nsIURI
+*
+aURI
 )
 ;
 static
