@@ -85,6 +85,13 @@ FromStr
 }
 ;
 pub
+type
+ProcessHandle
+=
+(
+)
+;
+pub
 (
 crate
 )

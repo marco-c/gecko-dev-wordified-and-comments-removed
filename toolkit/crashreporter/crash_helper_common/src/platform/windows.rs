@@ -108,6 +108,12 @@ OVERLAPPED
 }
 ;
 pub
+type
+ProcessHandle
+=
+OwnedHandle
+;
+pub
 (
 crate
 )

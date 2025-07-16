@@ -62,6 +62,13 @@ OwnedFd
 }
 ;
 pub
+type
+ProcessHandle
+=
+(
+)
+;
+pub
 (
 crate
 )
