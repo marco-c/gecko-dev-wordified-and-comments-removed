@@ -276,6 +276,15 @@ bits
 ElementState
 :
 :
+SUPPRESS_FOR_PRINT_SELECTION
+.
+bits
+(
+)
+|
+ElementState
+:
+:
 HEADING_LEVEL_BITS
 .
 bits
