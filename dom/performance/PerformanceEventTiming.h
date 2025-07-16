@@ -333,7 +333,17 @@ aDuration
 {
 mDuration
 =
+std
+:
+:
+round
+(
 aDuration
+/
+8
+)
+*
+8
 ;
 }
 DOMHighResTimeStamp
