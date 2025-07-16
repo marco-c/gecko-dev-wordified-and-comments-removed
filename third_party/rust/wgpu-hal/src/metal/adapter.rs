@@ -59,7 +59,7 @@ MAX_COMMAND_BUFFERS
 :
 u64
 =
-2048
+4096
 ;
 unsafe
 impl

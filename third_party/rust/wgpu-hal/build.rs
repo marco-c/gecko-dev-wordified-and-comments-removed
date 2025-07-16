@@ -326,5 +326,14 @@ target_has_atomic
 64
 "
 }
+supports_ptr_atomics
+:
+{
+target_has_atomic
+=
+"
+ptr
+"
+}
 }
 }

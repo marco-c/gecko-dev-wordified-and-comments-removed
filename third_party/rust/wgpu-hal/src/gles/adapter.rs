@@ -5925,7 +5925,7 @@ crate
 DeviceError
 :
 :
-ResourceCreationFailed
+Lost
 )
 ?
 }

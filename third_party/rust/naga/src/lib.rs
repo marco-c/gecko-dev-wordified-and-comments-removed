@@ -192,9 +192,6 @@ alloc
 mod
 arena
 ;
-mod
-as_diagnostic_file_path
-;
 pub
 mod
 back
@@ -229,6 +226,9 @@ keywords
 ;
 mod
 non_max_u32
+;
+mod
+path_like
 ;
 pub
 mod

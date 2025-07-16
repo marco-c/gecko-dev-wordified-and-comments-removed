@@ -450,6 +450,13 @@ device
 ;
 device
 .
+check_is_valid
+(
+)
+?
+;
+device
+.
 require_features
 (
 Features
@@ -1182,6 +1189,13 @@ device
 cmd_buf
 .
 device
+;
+device
+.
+check_is_valid
+(
+)
+?
 ;
 device
 .

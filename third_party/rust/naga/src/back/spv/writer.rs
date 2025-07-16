@@ -6,10 +6,7 @@ alloc
 string
 :
 :
-{
 String
-ToString
-}
 vec
 vec
 :
@@ -100,6 +97,10 @@ spv
 BindingInfo
 WrappedFunction
 }
+path_like
+:
+:
+PathLike
 proc
 :
 :
@@ -14400,11 +14401,7 @@ debug_info
 .
 file_name
 .
-display
-(
-)
-.
-to_string
+to_string_lossy
 (
 )
 source_file_id

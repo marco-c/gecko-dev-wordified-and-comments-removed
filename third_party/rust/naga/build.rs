@@ -129,14 +129,6 @@ std
 any
 (
 test
-spv_out
-feature
-=
-"
-spv
--
-in
-"
 feature
 =
 "
@@ -148,6 +140,11 @@ feature
 =
 "
 stderr
+"
+feature
+=
+"
+fs
 "
 )
 }

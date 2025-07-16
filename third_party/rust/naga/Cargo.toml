@@ -344,6 +344,10 @@ out
 =
 [
 ]
+fs
+=
+[
+]
 glsl
 -
 in
@@ -459,10 +463,6 @@ dep
 :
 spirv
 "
-]
-std
-=
-[
 ]
 stderr
 =
