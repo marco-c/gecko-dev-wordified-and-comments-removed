@@ -1044,9 +1044,6 @@ preflightArgs
 nsCString
 contentTypeHint
 ;
-nsString
-integrityMetadata
-;
 IPCStream
 ?
 uploadStream

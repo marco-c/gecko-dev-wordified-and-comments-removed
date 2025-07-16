@@ -1218,11 +1218,6 @@ channelId
 )
 a
 .
-integrityMetadata
-(
-)
-a
-.
 contentWindowId
 (
 )
@@ -2514,10 +2509,6 @@ uint64_t
 &
 aChannelId
 const
-nsString
-&
-aIntegrityMetadata
-const
 uint64_t
 &
 aContentWindowId
@@ -2974,14 +2965,6 @@ httpChannel
 SetBrowserId
 (
 aBrowserId
-)
-;
-httpChannel
--
->
-SetIntegrityMetadata
-(
-aIntegrityMetadata
 )
 ;
 RefPtr

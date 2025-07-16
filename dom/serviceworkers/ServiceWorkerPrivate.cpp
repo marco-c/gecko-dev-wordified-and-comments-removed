@@ -2098,7 +2098,7 @@ integrity
 ;
 MOZ_TRY
 (
-internalChannel
+loadInfo
 -
 >
 GetIntegrityMetadata
