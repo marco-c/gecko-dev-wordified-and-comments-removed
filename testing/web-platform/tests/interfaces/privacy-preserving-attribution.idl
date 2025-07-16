@@ -36,7 +36,6 @@ webref
 Source
 :
 Attribution
-:
 Level
 1
 (
@@ -151,6 +150,15 @@ conversionSites
 [
 ]
 ;
+sequence
+<
+USVString
+>
+conversionCallers
+=
+[
+]
+;
 unsigned
 long
 lifetimeDays
@@ -214,7 +222,7 @@ sequence
 unsigned
 long
 >
-matchValue
+matchValues
 =
 [
 ]
@@ -232,7 +240,7 @@ sequence
 <
 USVString
 >
-intermediarySites
+impressionCallers
 =
 [
 ]
