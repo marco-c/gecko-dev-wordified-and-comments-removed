@@ -130,11 +130,14 @@ nsresult
 {
 match
 (
+&
+(
 *
 session
 )
 .
 attribute
+)
 .
 get
 (
