@@ -2580,6 +2580,7 @@ NotificationController
 IsUpdatePending
 (
 )
+const
 {
 return
 mPresShell
@@ -2657,6 +2658,7 @@ NotificationController
 WaitingForParent
 (
 )
+const
 {
 DocAccessible
 *
@@ -5204,6 +5206,19 @@ ProcessEventQueue
 (
 )
 ;
+if
+(
+mDocument
+)
+{
+mDocument
+-
+>
+ProcessAnchorJump
+(
+)
+;
+}
 if
 (
 mDocument
