@@ -3571,13 +3571,6 @@ homepageView
 isVisible
 =
 false
-binding
-.
-sessionControlRecyclerView
-.
-isVisible
-=
-true
 }
 disableAppBarDragging
 (
@@ -5318,13 +5311,6 @@ initComposeHomepage
 (
 )
 {
-binding
-.
-sessionControlRecyclerView
-.
-isVisible
-=
-false
 binding
 .
 homepageView
