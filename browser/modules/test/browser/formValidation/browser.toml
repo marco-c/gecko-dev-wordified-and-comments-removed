@@ -48,6 +48,13 @@ js
 ]
 [
 "
+browser_validation_message_update
+.
+js
+"
+]
+[
+"
 browser_validation_navigation
 .
 js
