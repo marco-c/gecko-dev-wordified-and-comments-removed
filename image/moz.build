@@ -82,15 +82,6 @@ browser
 .
 toml
 "
-"
-test
-/
-browser
-/
-browser_sandbox_headless
-.
-toml
-"
 ]
 MOCHITEST_MANIFESTS
 +

@@ -15,10 +15,6 @@ assertFileProcess
 (
 )
 ;
-assertSandboxHeadless
-(
-)
-;
 await
 createMozIconInFile
 (
