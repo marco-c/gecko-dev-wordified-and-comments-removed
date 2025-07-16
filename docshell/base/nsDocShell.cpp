@@ -20075,6 +20075,8 @@ Stop
 (
 uint32_t
 aStopFlags
+bool
+aUnsetOngoingNavigation
 )
 {
 RefPtr
@@ -20094,6 +20096,9 @@ GetDocument
 (
 )
 ;
+aUnsetOngoingNavigation
+&
+&
 doc
 &
 &
@@ -43479,6 +43484,7 @@ nsIWebNavigation
 :
 :
 STOP_ALL
+false
 )
 ;
 }
@@ -43492,6 +43498,7 @@ nsIWebNavigation
 :
 :
 STOP_NETWORK
+false
 )
 ;
 }
