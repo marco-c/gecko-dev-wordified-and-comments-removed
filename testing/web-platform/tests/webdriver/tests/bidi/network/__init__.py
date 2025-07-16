@@ -2503,6 +2503,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -2544,7 +2554,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2602,6 +2612,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -2646,7 +2666,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2704,6 +2724,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -2748,7 +2778,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2811,6 +2841,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -2857,7 +2897,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2919,6 +2959,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -2960,7 +3010,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -3022,6 +3072,12 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
         
 )
         
@@ -3147,6 +3203,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -3194,7 +3260,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -3256,6 +3322,16 @@ NetworkStringValue
 bar
 "
 )
+            
+same_site
+=
+"
+none
+"
+            
+secure
+=
+True
         
 )
         
@@ -3303,7 +3379,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size

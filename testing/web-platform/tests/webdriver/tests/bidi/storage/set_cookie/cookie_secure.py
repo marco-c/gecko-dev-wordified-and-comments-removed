@@ -41,7 +41,6 @@ test_cookie_secure
 (
 bidi_session
 set_cookie
-test_page
 domain_value
 secure
 )
@@ -62,10 +61,16 @@ domain
 domain_value
 (
 )
+same_site
+=
+"
+strict
+"
 secure
 =
 secure
 )
+    
 )
     
 await
@@ -96,13 +101,20 @@ False
 await
 assert_cookie_is_set
 (
+        
 bidi_session
 domain
 =
 domain_value
 (
 )
+same_site
+=
+"
+strict
+"
 secure
 =
 expected_secure
+    
 )
