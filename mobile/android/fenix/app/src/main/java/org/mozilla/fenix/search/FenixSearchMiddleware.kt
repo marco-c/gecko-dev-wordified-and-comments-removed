@@ -898,6 +898,10 @@ Init
 -
 >
 {
+next
+(
+action
+)
 context
 .
 store
@@ -915,10 +919,6 @@ state
 search
 true
 )
-)
-next
-(
-action
 )
 }
 is

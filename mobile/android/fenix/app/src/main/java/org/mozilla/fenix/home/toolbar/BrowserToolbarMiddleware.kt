@@ -1218,6 +1218,10 @@ ToggleEditMode
 -
 >
 {
+next
+(
+action
+)
 when
 (
 action
@@ -1241,10 +1245,6 @@ context
 store
 )
 }
-next
-(
-action
-)
 }
 is
 MenuClicked
