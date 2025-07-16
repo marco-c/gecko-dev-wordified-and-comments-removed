@@ -338,7 +338,7 @@ set
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 verify
@@ -457,7 +457,7 @@ get
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -598,7 +598,7 @@ true
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 store
 =
@@ -655,7 +655,7 @@ Private
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -705,7 +705,7 @@ Normal
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -756,7 +756,7 @@ true
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 intent
 =
@@ -809,7 +809,7 @@ true
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -902,7 +902,7 @@ true
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 store
 =
@@ -986,7 +986,7 @@ Private
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -1049,7 +1049,7 @@ Normal
 val
 manager
 =
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 )
 assertEquals
@@ -1078,7 +1078,7 @@ mode
 }
 private
 fun
-buildBrowsingModeManger
+buildBrowsingModeManager
 (
 intent
 :
