@@ -350,16 +350,6 @@ mozilla
 .
 components
 .
-compose
-.
-base
-.
-Divider
-import
-mozilla
-.
-components
-.
 lib
 .
 state
@@ -1863,9 +1853,6 @@ ExitSelectMode
 }
 )
 }
-Divider
-(
-)
 Box
 (
 modifier

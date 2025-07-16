@@ -1580,9 +1580,6 @@ false
 verifyThreeDotButton
 (
 )
-verifyNormalTabCounter
-(
-)
 verifyNormalTabsList
 (
 )
@@ -1720,9 +1717,6 @@ verifySyncedTabsButtonIsSelected
 false
 )
 verifyThreeDotButton
-(
-)
-verifyNormalTabCounter
 (
 )
 verifyPrivateTabsList

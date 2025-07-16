@@ -684,7 +684,7 @@ positionToPage
 =
 Page
 .
-NormalTabs
+PrivateTabs
 )
 assert
 (
@@ -698,7 +698,7 @@ positionToPage
 =
 Page
 .
-PrivateTabs
+NormalTabs
 )
 assert
 (
