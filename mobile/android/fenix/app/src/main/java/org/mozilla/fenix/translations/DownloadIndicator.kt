@@ -197,7 +197,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 ButtonDefaults
 import
@@ -205,7 +205,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 CircularProgressIndicator
 import
@@ -213,7 +213,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import

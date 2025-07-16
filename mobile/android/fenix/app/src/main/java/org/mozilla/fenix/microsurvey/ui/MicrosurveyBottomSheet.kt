@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Scaffold
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Surface
 import

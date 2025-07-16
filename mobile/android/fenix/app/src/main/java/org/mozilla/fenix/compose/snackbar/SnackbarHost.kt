@@ -71,7 +71,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Snackbar
 import
@@ -79,7 +79,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SnackbarData
 import
@@ -129,7 +129,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SnackbarHost
 as

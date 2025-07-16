@@ -181,7 +181,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -189,7 +189,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Scaffold
 import
@@ -197,7 +197,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -205,7 +205,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 TopAppBar
 import
@@ -668,7 +668,7 @@ false
 }
 TopAppBar
 (
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -710,7 +710,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 IconButton
 (

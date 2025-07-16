@@ -305,7 +305,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 AlertDialog
 import
@@ -313,7 +313,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 ButtonDefaults
 import
@@ -321,7 +321,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 CircularProgressIndicator
 import
@@ -329,7 +329,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Divider
 import
@@ -337,7 +337,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -345,7 +345,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 IconButton
 import
@@ -353,7 +353,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Scaffold
 import
@@ -361,7 +361,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -369,7 +369,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 TextButton
 import
@@ -377,7 +377,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 TopAppBar
 import

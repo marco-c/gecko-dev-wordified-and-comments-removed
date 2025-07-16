@@ -263,7 +263,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Card
 import
@@ -271,7 +271,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Surface
 import
@@ -279,7 +279,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

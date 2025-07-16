@@ -147,7 +147,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Surface
 import
@@ -155,7 +155,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

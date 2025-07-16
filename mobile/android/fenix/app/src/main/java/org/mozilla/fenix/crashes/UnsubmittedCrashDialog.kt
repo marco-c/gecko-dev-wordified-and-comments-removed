@@ -191,7 +191,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Checkbox
 import
@@ -199,7 +199,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 CheckboxDefaults
 import
@@ -207,7 +207,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

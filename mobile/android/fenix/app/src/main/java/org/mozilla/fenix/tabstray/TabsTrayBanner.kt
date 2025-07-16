@@ -167,7 +167,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -175,7 +175,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 IconButton
 import
@@ -183,7 +183,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 LocalContentAlpha
 import
@@ -191,7 +191,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 LocalContentColor
 import
@@ -199,7 +199,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Tab
 import
@@ -207,7 +207,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 TabRow
 import
@@ -215,7 +215,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

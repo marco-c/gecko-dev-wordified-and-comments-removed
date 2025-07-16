@@ -111,7 +111,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Surface
 import

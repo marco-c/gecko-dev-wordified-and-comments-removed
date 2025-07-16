@@ -147,7 +147,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DrawerValue
 import
@@ -155,7 +155,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 ModalDrawer
 import
@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 rememberDrawerState
 import

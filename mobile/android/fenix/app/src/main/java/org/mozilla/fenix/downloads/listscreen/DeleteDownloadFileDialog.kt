@@ -89,7 +89,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 AlertDialog
 import
@@ -97,7 +97,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

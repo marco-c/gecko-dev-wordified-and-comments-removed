@@ -115,7 +115,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Card
 import

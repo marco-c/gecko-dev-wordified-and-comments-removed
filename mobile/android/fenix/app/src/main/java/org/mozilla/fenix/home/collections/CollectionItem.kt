@@ -121,7 +121,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Card
 import
@@ -129,7 +129,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DismissDirection
 .
@@ -139,7 +139,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DismissDirection
 .
@@ -149,7 +149,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 ExperimentalMaterialApi
 import
@@ -157,7 +157,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SwipeToDismiss
 import
@@ -165,7 +165,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 rememberDismissState
 import
