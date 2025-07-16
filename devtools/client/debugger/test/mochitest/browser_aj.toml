@@ -1824,6 +1824,17 @@ browser_dbg
 es
 -
 module
+.
+js
+"
+]
+[
+"
+browser_dbg
+-
+es
+-
+module
 -
 worker
 .
