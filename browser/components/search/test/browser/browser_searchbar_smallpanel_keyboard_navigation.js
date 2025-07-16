@@ -408,6 +408,7 @@ selected
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -820,6 +821,7 @@ focused
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1071,6 +1073,7 @@ promise
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1444,6 +1447,7 @@ unmodified
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1693,6 +1697,7 @@ unmodified
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1981,6 +1986,7 @@ unmodified
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -2457,6 +2463,7 @@ KEY_ArrowUp
 const
 allOneOffs
 =
+await
 getOneOffs
 (
 )
