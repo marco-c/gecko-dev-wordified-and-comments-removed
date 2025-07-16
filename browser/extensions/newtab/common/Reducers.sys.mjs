@@ -650,9 +650,9 @@ ASRouter
 are
 initially
 visible
-isHidden
+isVisible
 :
-false
+true
 /
 /
 portID
@@ -3367,7 +3367,7 @@ return
 .
 .
 prevState
-isHidden
+isVisible
 :
 action
 .
