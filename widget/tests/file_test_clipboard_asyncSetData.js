@@ -442,6 +442,7 @@ type
 }
 )
 ;
+await
 cleanupAllClipboard
 (
 )
