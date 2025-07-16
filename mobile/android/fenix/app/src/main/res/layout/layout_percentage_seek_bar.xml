@@ -406,7 +406,9 @@ android
 layout_height
 =
 "
-wrap_content
+dimen
+/
+accessibility_min_height
 "
 android
 :
