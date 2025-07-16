@@ -838,7 +838,7 @@ R
 .
 drawable
 .
-mozac_ic_pin_slash_fill_24
+mozac_ic_pin_fill_24
 )
 }
 else
