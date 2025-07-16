@@ -56640,8 +56640,8 @@ nsLayoutUtils
 :
 CompareTreePosition
 (
-aOther
 mFrame
+aOther
 nullptr
 )
 ;
