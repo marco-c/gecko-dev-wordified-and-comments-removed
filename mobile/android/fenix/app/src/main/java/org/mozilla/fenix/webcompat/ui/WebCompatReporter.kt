@@ -955,7 +955,7 @@ R
 .
 string
 .
-webcompat_reporter_choose_reason
+webcompat_reporter_choose_reason_2
 )
 dropdownItems
 =

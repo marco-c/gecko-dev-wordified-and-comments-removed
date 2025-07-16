@@ -8357,6 +8357,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
@@ -8375,7 +8376,7 @@ R
 .
 string
 .
-webcompat_reporter_choose_reason
+webcompat_reporter_choose_reason_2
 )
 )
 .
@@ -8396,6 +8397,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
@@ -8858,6 +8860,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
@@ -8876,7 +8879,7 @@ R
 .
 string
 .
-webcompat_reporter_choose_reason
+webcompat_reporter_choose_reason_2
 )
 )
 .
@@ -8897,6 +8900,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
@@ -9064,6 +9068,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
@@ -9080,7 +9085,7 @@ R
 .
 string
 .
-webcompat_reporter_choose_reason
+webcompat_reporter_choose_reason_2
 )
 )
 .
@@ -9102,6 +9107,7 @@ the
 \
 "
 Choose
+a
 reason
 \
 "
