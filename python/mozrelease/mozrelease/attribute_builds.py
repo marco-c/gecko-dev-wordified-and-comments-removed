@@ -1,8 +1,6 @@
 import
 argparse
 import
-json
-import
 logging
 import
 mmap
@@ -24,6 +22,10 @@ from
 pathlib
 import
 Path
+from
+mozfile
+import
+json
 logging
 .
 basicConfig

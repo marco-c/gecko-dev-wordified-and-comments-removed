@@ -1,6 +1,4 @@
 import
-json
-import
 logging
 import
 os
@@ -42,6 +40,10 @@ from
 subprocess
 import
 Popen
+from
+mozfile
+import
+json
 from
 redo
 import
@@ -1806,7 +1808,7 @@ dumps
 artifact_ids
 indent
 =
-4
+2
 sort_keys
 =
 True
