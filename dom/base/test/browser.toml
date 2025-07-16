@@ -757,6 +757,13 @@ js
 ]
 [
 "
+browser_language_override
+.
+js
+"
+]
+[
+"
 browser_messagemanager_loadprocessscript
 .
 js

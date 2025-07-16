@@ -1273,6 +1273,13 @@ attribute
 DOMString
 mediumOverride
 ;
+[
+SetterThrows
+]
+attribute
+DOMString
+languageOverride
+;
 /
 /
 Color
