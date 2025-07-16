@@ -94,6 +94,16 @@ RequestRefreshScreens
 (
 )
 ;
+static
+int
+GetLastSerial
+(
+)
+{
+return
+gLastSerial
+;
+}
 private
 :
 static
