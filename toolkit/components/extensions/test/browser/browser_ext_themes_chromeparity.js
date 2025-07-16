@@ -146,11 +146,12 @@ set
 ;
 Assert
 .
-equal
+ok
 (
+!
 docEl
 .
-getAttribute
+hasAttribute
 (
 "
 lwtheme
@@ -158,7 +159,6 @@ lwtheme
 brighttext
 "
 )
-null
 "
 LWT
 text

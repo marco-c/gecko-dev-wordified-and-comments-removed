@@ -229,7 +229,7 @@ is
 (
 docEl
 .
-getAttribute
+hasAttribute
 (
 "
 lwtheme
@@ -238,12 +238,6 @@ brighttext
 "
 )
 expectDark
-?
-"
-true
-"
-:
-null
 "
 LWT
 text
