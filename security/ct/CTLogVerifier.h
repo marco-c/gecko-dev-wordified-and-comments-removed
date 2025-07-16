@@ -83,6 +83,8 @@ CTLogOperatorId
 operatorId
 CTLogState
 logState
+CTLogFormat
+logFormat
 uint64_t
 timestamp
 )
@@ -130,6 +132,16 @@ const
 {
 return
 mState
+;
+}
+CTLogFormat
+format
+(
+)
+const
+{
+return
+mFormat
 ;
 }
 uint64_t
@@ -229,6 +241,9 @@ mOperatorId
 ;
 CTLogState
 mState
+;
+CTLogFormat
+mFormat
 ;
 uint64_t
 mTimestamp

@@ -85,6 +85,14 @@ specification
 [
 tamper
 ]
+[
+leafIndex
+:
+<
+leaf
+index
+>
+]
 certificate
 :
 <
@@ -224,22 +232,22 @@ self
 :
         
 return
+f
 '
 Invalid
 key
 :
 "
-%
-s
-"
-'
-%
+{
 str
 (
 self
 .
 key
 )
+}
+"
+'
 class
 UnknownSignedEntryType
 (
@@ -284,23 +292,23 @@ self
 :
         
 return
+f
 '
 Unknown
 SignedEntry
 type
 :
 "
-%
-s
-"
-'
-%
+{
 str
 (
 self
 .
 signedEntry
 )
+}
+"
+'
 class
 SignedEntry
 :
@@ -422,6 +430,9 @@ self
 key
 date
 signedEntry
+leafIndex
+=
+None
 )
 :
         
@@ -459,6 +470,12 @@ self
 tamper
 =
 False
+        
+self
+.
+leafIndex
+=
+leafIndex
     
 def
 signAndEncode
@@ -652,6 +669,81 @@ self
 signedEntry
 )
         
+extensions
+=
+[
+]
+        
+if
+self
+.
+leafIndex
+:
+            
+extensions
+=
+[
+b
+"
+\
+0
+\
+0
+\
+5
+"
++
+self
+.
+leafIndex
+.
+to_bytes
+(
+5
+byteorder
+=
+"
+big
+"
+)
+]
+        
+extensionsLength
+=
+sum
+(
+map
+(
+len
+extensions
+)
+)
+        
+extensionsEncoded
+=
+extensionsLength
+.
+to_bytes
+(
+2
+byteorder
+=
+"
+big
+"
+)
++
+b
+"
+"
+.
+join
+(
+            
+extensions
+        
+)
+        
 data
 =
 b
@@ -672,13 +764,7 @@ b
 +
 entry_with_type
 +
-b
-"
-\
-0
-\
-0
-"
+extensionsEncoded
         
 if
 isinstance
@@ -848,12 +934,11 @@ key_id
 timestamp
             
 +
+extensionsEncoded
+            
++
 b
 "
-\
-0
-\
-0
 \
 4
 "
@@ -903,6 +988,10 @@ tamper
 =
 False
         
+leafIndex
+=
+None
+        
 for
 line
 in
@@ -913,7 +1002,7 @@ readlines
 )
 :
             
-line
+lineStripped
 =
 line
 .
@@ -927,14 +1016,14 @@ readingCertificateSpecification
                 
 print
 (
-line
+lineStripped
 file
 =
 certificateSpecification
 )
             
 elif
-line
+lineStripped
 =
 =
 "
@@ -948,7 +1037,7 @@ readingCertificateSpecification
 True
             
 elif
-line
+lineStripped
 .
 startswith
 (
@@ -965,7 +1054,7 @@ pykey
 .
 keyFromSpecification
 (
-line
+lineStripped
 [
 len
 (
@@ -979,7 +1068,7 @@ key
 )
             
 elif
-line
+lineStripped
 .
 startswith
 (
@@ -999,7 +1088,7 @@ datetime
 strptime
 (
                     
-line
+lineStripped
 [
 len
 (
@@ -1022,7 +1111,7 @@ d
 )
             
 elif
-line
+lineStripped
 =
 =
 "
@@ -1034,6 +1123,35 @@ tamper
 =
 True
             
+elif
+lineStripped
+.
+startswith
+(
+"
+leafIndex
+:
+"
+)
+:
+                
+leafIndex
+=
+int
+(
+lineStripped
+[
+len
+(
+"
+leafIndex
+:
+"
+)
+:
+]
+)
+            
 else
 :
                 
@@ -1042,7 +1160,7 @@ pycert
 .
 UnknownParameterTypeError
 (
-line
+lineStripped
 )
         
 certificateSpecification
@@ -1082,6 +1200,12 @@ sct
 tamper
 =
 tamper
+        
+sct
+.
+leafIndex
+=
+leafIndex
         
 return
 sct
