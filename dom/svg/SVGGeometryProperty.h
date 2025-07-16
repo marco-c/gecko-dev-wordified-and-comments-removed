@@ -200,10 +200,10 @@ nsStylePosition
 *
 )
 (
-mozilla
-:
-:
-StylePositionProperty
+const
+AnchorPosResolutionParams
+&
+aParams
 )
 const
 ;
@@ -646,6 +646,9 @@ aStyle
 StylePosition
 (
 )
+AnchorPosResolutionParams
+{
+nullptr
 aStyle
 .
 StyleDisplay
@@ -654,6 +657,7 @@ StyleDisplay
 -
 >
 mPosition
+}
 )
 ;
 if
@@ -752,6 +756,9 @@ aStyle
 StylePosition
 (
 )
+AnchorPosResolutionParams
+{
+nullptr
 aStyle
 .
 StyleDisplay
@@ -760,6 +767,7 @@ StyleDisplay
 -
 >
 mPosition
+}
 )
 ;
 gfx
