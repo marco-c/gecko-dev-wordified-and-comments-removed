@@ -1276,7 +1276,7 @@ aEvent
 LOG
 (
 "
-MIDIAcess
+MIDIAccess
 :
 :
 Notify
