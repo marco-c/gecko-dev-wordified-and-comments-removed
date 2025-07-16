@@ -189,6 +189,16 @@ UTF8String
 ?
 token
 ;
+readonly
+attribute
+boolean
+isAutoSelected
+;
+readonly
+attribute
+UTF8String
+configURL
+;
 }
 ;
 enum

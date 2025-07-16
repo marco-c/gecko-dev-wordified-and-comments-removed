@@ -2952,6 +2952,8 @@ tuple
 <
 nsCString
 nsCString
+const
+bool
 >
 &
 promiseResult
@@ -2963,6 +2965,9 @@ token
 nsCString
 accountId
 ;
+bool
+isAutoSelected
+;
 std
 :
 :
@@ -2970,6 +2975,7 @@ tie
 (
 token
 accountId
+isAutoSelected
 )
 =
 promiseResult
@@ -2998,6 +3004,24 @@ NS_ConvertUTF8toUTF16
 (
 accountId
 )
+;
+credential
+.
+isAutoSelected
+(
+)
+=
+isAutoSelected
+;
+credential
+.
+configURL
+(
+)
+=
+aProvider
+.
+mConfigURL
 ;
 nsresult
 rv
@@ -4361,6 +4385,7 @@ __func__
 aAccount
 idpURI
 relyingParty
+isAutoSelected
 ]
 (
 const
@@ -4404,6 +4429,7 @@ aAccount
 .
 mId
 )
+isAutoSelected
 )
 __func__
 )
@@ -4514,6 +4540,7 @@ AuthorizationPopupForToken
 continueURI
 relyingParty
 aAccount
+isAutoSelected
 )
 ;
 }
@@ -4554,6 +4581,9 @@ const
 IdentityProviderAccount
 &
 aAccount
+const
+bool
+isAutoSelected
 )
 {
 MOZ_ASSERT
@@ -4608,6 +4638,7 @@ GetCurrentSerialEventTarget
 __func__
 [
 aAccount
+isAutoSelected
 ]
 (
 const
@@ -4672,6 +4703,7 @@ overridingAccountId
 value
 (
 )
+isAutoSelected
 )
 __func__
 )
@@ -4695,6 +4727,7 @@ aAccount
 .
 mId
 )
+isAutoSelected
 )
 __func__
 )

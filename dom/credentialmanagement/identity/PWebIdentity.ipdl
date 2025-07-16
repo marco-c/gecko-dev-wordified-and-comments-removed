@@ -232,6 +232,12 @@ nsCString
 ?
 token
 ;
+bool
+isAutoSelected
+;
+nsCString
+configURL
+;
 }
 ;
 union
