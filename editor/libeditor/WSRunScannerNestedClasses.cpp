@@ -525,6 +525,10 @@ Element
 aAncestorLimiter
 )
 :
+mAncestorLimiter
+(
+aAncestorLimiter
+)
 mBlockInlineCheck
 (
 aBlockInlineCheck
