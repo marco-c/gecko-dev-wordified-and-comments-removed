@@ -1786,6 +1786,10 @@ void
 LogCommonSubstringLengths
 (
 const
+char
+*
+aFunc
+const
 nsAString
 &
 aReferenceString
@@ -1862,7 +1866,7 @@ Length
 )
 )
 ;
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Direction
@@ -1871,6 +1875,7 @@ Direction
 }
 .
 "
+aFunc
 direction
 =
 =
@@ -1900,7 +1905,7 @@ TextScanDirection
 Left
 )
 {
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Ref
@@ -1912,6 +1917,7 @@ Ref
 }
 }
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 aReferenceString
@@ -1919,7 +1925,7 @@ aReferenceString
 maxLength
 )
 ;
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Other
@@ -1931,6 +1937,7 @@ Other
 }
 }
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 concatenatedTextContents
@@ -1938,7 +1945,7 @@ concatenatedTextContents
 maxLength
 )
 ;
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Common
@@ -1955,6 +1962,7 @@ Common
 chars
 )
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 Substring
@@ -1970,7 +1978,7 @@ aCommonLength
 }
 else
 {
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Ref
@@ -1982,6 +1990,7 @@ Ref
 }
 }
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 aReferenceString
@@ -1989,7 +1998,7 @@ aReferenceString
 maxLength
 )
 ;
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Other
@@ -2001,6 +2010,7 @@ Other
 }
 }
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 concatenatedTextContents
@@ -2008,7 +2018,7 @@ concatenatedTextContents
 maxLength
 )
 ;
-TEXT_FRAGMENT_LOG
+TEXT_FRAGMENT_LOG_FN
 (
 "
 Common
@@ -2025,6 +2035,7 @@ Common
 chars
 )
 "
+aFunc
 NS_ConvertUTF16toUTF8
 (
 Substring
@@ -2076,6 +2087,22 @@ wordBoundaryDistances
 uint32_t
 pos
 =
+direction
+=
+=
+TextScanDirection
+:
+:
+Left
+?
+aString
+.
+Length
+(
+)
+-
+1
+:
 0
 ;
 while
@@ -2141,6 +2168,12 @@ Length
 wordBegin
 )
 ;
+pos
+=
+wordBegin
+-
+1
+;
 }
 else
 {
@@ -2151,7 +2184,6 @@ AppendElement
 wordEnd
 )
 ;
-}
 pos
 =
 wordEnd
@@ -2159,24 +2191,6 @@ wordEnd
 1
 ;
 }
-if
-constexpr
-(
-direction
-=
-=
-TextScanDirection
-:
-:
-Left
-)
-{
-wordBoundaryDistances
-.
-Reverse
-(
-)
-;
 }
 return
 std
@@ -2686,6 +2700,7 @@ LogCommonSubstringLengths
 direction
 >
 (
+__FUNCTION__
 aReferenceString
 textContentForLogging
 commonLength
