@@ -3610,6 +3610,7 @@ TogglePopover
 ShowPopover
 HidePopover
 ShowModal
+RequestClose
 Toggle
 Close
 Open
