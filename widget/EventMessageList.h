@@ -201,6 +201,10 @@ eContextMenu
 )
 NS_EVENT_MESSAGE
 (
+eCommand
+)
+NS_EVENT_MESSAGE
+(
 eCueChange
 )
 NS_EVENT_MESSAGE
@@ -494,10 +498,6 @@ eSVGLoad
 NS_EVENT_MESSAGE
 (
 eSVGScroll
-)
-NS_EVENT_MESSAGE
-(
-eXULCommand
 )
 NS_EVENT_MESSAGE
 (
