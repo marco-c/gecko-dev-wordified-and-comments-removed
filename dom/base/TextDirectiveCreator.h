@@ -370,6 +370,13 @@ uint32_t
 aSecondExtendedToWordBoundaries
 )
 ;
+static
+constexpr
+uint32_t
+kMaxContextTermLength
+=
+1024
+;
 nsString
 mPrefixContent
 ;
