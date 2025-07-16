@@ -662,6 +662,12 @@ HasRemoteContent
 const
 ;
 bool
+IsDragPopup
+(
+)
+const
+;
+bool
 ShouldHaveWidgetWhenHidden
 (
 )
