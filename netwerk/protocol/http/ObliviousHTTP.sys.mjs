@@ -767,6 +767,14 @@ method
 "
 PUT
 "
+|
+|
+method
+=
+=
+"
+DELETE
+"
 )
 {
 let
