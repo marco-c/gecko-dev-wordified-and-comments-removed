@@ -164,6 +164,13 @@ py
 ]
 [
 "
+test_node_licenses
+.
+py
+"
+]
+[
+"
 test_node_package_names
 .
 py

@@ -421,6 +421,7 @@ for
 ones
 under
 third_party
+/
 node_modules
 /
 devtools
