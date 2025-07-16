@@ -1412,6 +1412,7 @@ use
 an
 email
 mask
+.
 firefox
 -
 relay
