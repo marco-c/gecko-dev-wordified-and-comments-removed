@@ -924,8 +924,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Extract
 suite
@@ -1003,8 +1001,6 @@ devtools
 node
 -
 test
--
-runner
 :
 "
 +
@@ -1023,8 +1019,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Check
 yarn
@@ -1064,8 +1058,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 ERROR
 :
@@ -1200,8 +1192,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Running
 suite
@@ -1229,8 +1219,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Running
 yarn
@@ -1276,8 +1264,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Run
 yarn
@@ -1323,8 +1309,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Run
 yarn
@@ -1368,8 +1352,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Run
 yarn
@@ -1414,8 +1396,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Error
 log
@@ -1441,8 +1421,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Parse
 errors
@@ -1610,8 +1588,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Writing
 artifact
@@ -1661,8 +1637,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Test
 suites
@@ -1698,8 +1672,6 @@ devtools
 node
 -
 test
--
-runner
 ]
 Test
 suites
@@ -1728,19 +1700,18 @@ UNEXPECTED
 -
 FAIL
 |
+mach
+devtools
+-
+node
+-
+test
+failed
+.
 Documentation
-to
-run
-and
-fix
-failures
-for
 "
 +
 "
-devtools
-node
-tests
 at
 https
 :
