@@ -543,6 +543,12 @@ ASM_PREF
 name
 ;
 .
+hidden
+ASM_PREF
+\
+name
+;
+.
 type
 ASM_PREF
 \

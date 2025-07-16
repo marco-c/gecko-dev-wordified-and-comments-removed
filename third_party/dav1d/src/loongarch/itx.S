@@ -7009,9 +7009,9 @@ vr12
 vr13
 416
 :
-ble
-t5
+bge
 a3
+t5
 416416f
 .
 irp
@@ -10207,9 +10207,9 @@ vr7
 endif
 816
 :
-ble
-t5
+bge
 a3
+t5
 816816f
 .
 irp
@@ -11631,9 +11631,9 @@ t5
 endr
 1616
 :
-ble
-t5
+bge
 a3
+t5
 16161616f
 addi
 .

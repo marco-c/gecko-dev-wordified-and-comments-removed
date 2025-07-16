@@ -2354,9 +2354,9 @@ t3
 t3
 -
 8
-ble
-t3
+bge
 zero
+t3
 .
 LBS3_V_H0
 .
@@ -7013,9 +7013,9 @@ t4
 t4
 -
 8
-ble
-t4
+bge
 zero
+t4
 .
 LBOXSUM5_V_H1
 .

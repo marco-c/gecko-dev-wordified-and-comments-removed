@@ -1458,7 +1458,7 @@ files
 '
 loongarch
 /
-looprestoration_tmpl
+looprestoration_inner
 .
 c
 '

@@ -555,7 +555,7 @@ if
 (
 val
 >
-UINT_MAX
+UINT32_MAX
 |
 |
 more
@@ -699,7 +699,7 @@ n_bits
 32
 )
 return
-0xFFFFFFFFU
+UINT32_MAX
 ;
 }
 while

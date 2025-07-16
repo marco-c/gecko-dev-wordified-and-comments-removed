@@ -6977,7 +6977,7 @@ matrix
 ]
 =
 =
-SHRT_MIN
+INT16_MIN
 )
 {
 t
@@ -18090,7 +18090,7 @@ matrix
 0
 ]
 =
-SHRT_MIN
+INT16_MIN
 ;
 }
 }

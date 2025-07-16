@@ -558,7 +558,7 @@ if
 num_ticks_per_picture
 =
 =
-0xFFFFFFFFU
+UINT32_MAX
 )
 goto
 error

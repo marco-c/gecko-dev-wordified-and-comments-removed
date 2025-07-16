@@ -5517,7 +5517,7 @@ d
 a0
 a0
 t3
-TRANSPOSE_4x16b
+TRANSPOSE_4x16B
 vr22
 vr23
 vr24
@@ -6089,7 +6089,7 @@ d
 a0
 a0
 t3
-TRANSPOSE_8x16b
+TRANSPOSE_8x16B
 vr20
 vr21
 vr22
