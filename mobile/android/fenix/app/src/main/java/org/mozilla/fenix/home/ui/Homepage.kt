@@ -1319,6 +1319,11 @@ interactor
 interactor
 )
 }
+if
+(
+showCollections
+)
+{
 CollectionsSection
 (
 collectionsState
@@ -1328,6 +1333,7 @@ interactor
 =
 interactor
 )
+}
 if
 (
 showPocketStories
@@ -2254,6 +2260,9 @@ true
 showPocketStories
 =
 true
+showCollections
+=
+true
 showPrivateBrowsingButton
 =
 true
@@ -2407,6 +2416,9 @@ showRecentlyVisited
 =
 true
 showPocketStories
+=
+true
+showCollections
 =
 true
 showPrivateBrowsingButton
