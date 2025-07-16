@@ -34,6 +34,13 @@ js
 ]
 [
 "
+browser_ipprotection_content_signedout
+.
+js
+"
+]
+[
+"
 browser_ipprotection_header
 .
 js
