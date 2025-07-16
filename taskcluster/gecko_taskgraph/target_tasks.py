@@ -10820,6 +10820,11 @@ test
 "
 perftest
 "
+"
+startup
+-
+test
+"
 )
 :
             
