@@ -3611,7 +3611,7 @@ type
 Boolean
 default
 :
-false
+true
 report
 -
 site
