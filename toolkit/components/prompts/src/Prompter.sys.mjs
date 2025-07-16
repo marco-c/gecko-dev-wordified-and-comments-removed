@@ -215,15 +215,6 @@ Prompter
 (
 )
 {
-/
-/
-Note
-that
-EmbedPrompter
-clones
-this
-implementation
-.
 }
 /
 *
