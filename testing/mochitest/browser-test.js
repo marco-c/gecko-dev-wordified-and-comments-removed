@@ -5109,6 +5109,14 @@ dumpDMDAfterTest
 )
 ;
 }
+this
+.
+PromiseTestUtils
+.
+assertNoUncaughtRejections
+(
+)
+;
 let
 name
 =
