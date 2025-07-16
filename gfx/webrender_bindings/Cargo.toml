@@ -257,6 +257,15 @@ init
 static_prefs
 "
 }
+remove_dir_all
+=
+"
+0
+.
+5
+.
+3
+"
 [
 dependencies
 .
