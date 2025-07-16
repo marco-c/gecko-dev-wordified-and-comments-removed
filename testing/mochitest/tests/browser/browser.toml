@@ -384,6 +384,13 @@ js
 ]
 [
 "
+browser_signal
+.
+js
+"
+]
+[
+"
 browser_tasks_skip
 .
 js

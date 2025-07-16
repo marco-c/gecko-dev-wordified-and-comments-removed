@@ -315,6 +315,11 @@ stringMatches
 "
 readonly
 "
+testSignal
+:
+"
+readonly
+"
 todo
 :
 "
