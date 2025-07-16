@@ -144,7 +144,6 @@ RangeBehaviour
 uint8_t
 {
 KeepDefaultRangeAndCrossShadowBoundaryRanges
-MergeDefaultRangeAndCrossShadowBoundaryRanges
 CollapseDefaultRange
 CollapseDefaultRangeAndCrossShadowBoundaryRanges
 }
@@ -331,6 +330,13 @@ aEndOffset
 ErrorResult
 &
 aRv
+AllowRangeCrossShadowBoundary
+aAllowCrossShadowBoundary
+=
+AllowRangeCrossShadowBoundary
+:
+:
+No
 )
 {
 return
@@ -350,6 +356,7 @@ aEndContainer
 aEndOffset
 )
 aRv
+aAllowCrossShadowBoundary
 )
 ;
 }
@@ -1758,9 +1765,6 @@ mCrossShadowBoundaryRange
 nullptr
 ;
 }
-#
-ifdef
-DEBUG
 bool
 CrossShadowBoundaryRangeCollapsed
 (
@@ -1816,8 +1820,6 @@ EndOffset
 )
 ;
 }
-#
-endif
 nsIContent
 *
 GetMayCrossShadowBoundaryChildAtStartOffset
