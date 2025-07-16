@@ -442,7 +442,7 @@ banner
 /
 Composable
 fun
-DefaultBrowserBanner
+MenuBanner
 (
 onDismiss
 :
@@ -775,7 +775,7 @@ PreviewLightDark
 Composable
 private
 fun
-DefaultBrowserBannerPreview
+MenuBannerPreview
 (
 )
 {
@@ -795,7 +795,7 @@ dp
 )
 )
 {
-DefaultBrowserBanner
+MenuBanner
 (
 onDismiss
 =
@@ -813,7 +813,7 @@ Preview
 Composable
 private
 fun
-DefaultBrowserBannerPrivatePreview
+MenuBannerPrivatePreview
 (
 )
 {
@@ -840,7 +840,7 @@ dp
 )
 )
 {
-DefaultBrowserBanner
+MenuBanner
 (
 onDismiss
 =

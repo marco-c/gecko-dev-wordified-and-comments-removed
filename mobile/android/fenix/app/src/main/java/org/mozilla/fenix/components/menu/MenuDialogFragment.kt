@@ -2842,7 +2842,7 @@ initRoute
 )
 }
 var
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 by
 remember
 {
@@ -2850,13 +2850,13 @@ mutableStateOf
 (
 settings
 .
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 )
 }
 var
 showBanner
 =
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 &
 &
 !
@@ -3342,7 +3342,7 @@ openSetDefaultBrowserOption
 showBanner
 =
 false
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 =
 false
 }
@@ -3351,10 +3351,10 @@ onBannerDismiss
 {
 settings
 .
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 =
 false
-shouldShowDefaultBrowserBanner
+shouldShowMenuBanner
 =
 false
 }

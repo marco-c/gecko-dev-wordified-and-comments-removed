@@ -5924,7 +5924,7 @@ string
 name
 =
 "
-pref_key_show_default_browser_banner
+pref_key_show_menu_banner
 "
 translatable
 =
@@ -5932,7 +5932,7 @@ translatable
 false
 "
 >
-pref_key_show_default_browser_banner
+pref_key_show_menu_banner
 <
 /
 string

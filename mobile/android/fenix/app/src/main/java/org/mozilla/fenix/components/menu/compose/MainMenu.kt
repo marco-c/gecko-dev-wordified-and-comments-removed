@@ -1840,7 +1840,7 @@ Home
 showBanner
 )
 {
-DefaultBrowserBanner
+MenuBanner
 (
 onDismiss
 =
