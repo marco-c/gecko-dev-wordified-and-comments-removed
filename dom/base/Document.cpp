@@ -60764,6 +60764,13 @@ mBaseTarget
 =
 mBaseTarget
 ;
+clone
+-
+>
+mAllowDeclarativeShadowRoots
+=
+mAllowDeclarativeShadowRoots
+;
 return
 NS_OK
 ;
