@@ -963,7 +963,7 @@ testInteractor
 =
 buildTestInteractor
 (
-onTrayPositionSelected
+onTabPageClicked
 =
 {
 isTabsTrayInteractorCalled
@@ -1050,7 +1050,7 @@ testInteractor
 =
 buildTestInteractor
 (
-onTrayPositionSelected
+onTabPageClicked
 =
 {
 isTabsTrayInteractorCalled
@@ -1137,7 +1137,7 @@ testInteractor
 =
 buildTestInteractor
 (
-onTrayPositionSelected
+onTabPageClicked
 =
 {
 isTabsTrayInteractorCalled
@@ -1224,7 +1224,7 @@ testInteractor
 =
 buildTestInteractor
 (
-onTrayPositionSelected
+onTabPageClicked
 =
 {
 isTabsTrayInteractorCalled
@@ -1536,7 +1536,7 @@ private
 fun
 buildTestInteractor
 (
-onTrayPositionSelected
+onTabPageClicked
 :
 (
 )
@@ -1551,17 +1551,14 @@ TabsTrayInteractor
 {
 override
 fun
-onTrayPositionSelected
+onTabPageClicked
 (
-position
+page
 :
-Int
-smoothScroll
-:
-Boolean
+Page
 )
 {
-onTrayPositionSelected
+onTabPageClicked
 (
 )
 }
