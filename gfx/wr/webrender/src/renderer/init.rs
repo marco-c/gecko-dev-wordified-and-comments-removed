@@ -3565,6 +3565,9 @@ None
 pending_result_msg
 :
 None
+layer_compositor_frame_state_in_prev_frame
+:
+None
 }
 ;
 renderer
