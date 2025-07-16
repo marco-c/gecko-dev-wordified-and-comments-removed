@@ -13,8 +13,6 @@ subprocess
 import
 sys
 import
-tempfile
-import
 time
 from
 urllib
@@ -260,20 +258,10 @@ fixture
 def
 manifest_dir
 (
+tmp_path
 )
 :
     
-try
-:
-        
-path
-=
-tempfile
-.
-mkdtemp
-(
-)
-        
 shutil
 .
 copyfile
@@ -281,14 +269,14 @@ copyfile
 get_persistent_manifest_path
 (
 )
-                        
+                    
 os
 .
 path
 .
 join
 (
-path
+tmp_path
 "
 MANIFEST
 .
@@ -296,18 +284,11 @@ json
 "
 )
 )
-        
-yield
-path
     
-finally
-:
-        
-utils
-.
-rmtree
+return
+str
 (
-path
+tmp_path
 )
 pytest
 .
@@ -320,8 +301,9 @@ module
 "
 )
 def
-download_firefox
+firefox_binary_path
 (
+tmp_path_factory
 )
 :
     
@@ -335,16 +317,22 @@ logging
 getLogger
 (
 "
-download_firefox
+firefox_binary_path
 "
 )
         
 path
 =
-tempfile
-.
-mkdtemp
+str
 (
+tmp_path_factory
+.
+mktemp
+(
+"
+firefox_binary
+"
+)
 )
         
 firefox
@@ -734,6 +722,7 @@ def
 test_list_tests
 (
 manifest_dir
+firefox_binary_path
 )
 :
     
@@ -799,14 +788,6 @@ tests
 "
 -
 -
-channel
-"
-"
-dev
-"
-"
--
--
 yes
 "
                        
@@ -825,13 +806,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 "
 /
@@ -871,7 +851,7 @@ def
 test_list_tests_missing_manifest
 (
 manifest_dir
-download_firefox
+firefox_binary_path
 )
 :
     
@@ -1001,7 +981,7 @@ h3
 -
 binary
 "
-download_firefox
+firefox_binary_path
                        
 "
 firefox
@@ -1044,7 +1024,7 @@ def
 test_list_tests_invalid_manifest
 (
 manifest_dir
-download_firefox
+firefox_binary_path
 )
 :
     
@@ -1209,7 +1189,7 @@ h3
 -
 binary
 "
-download_firefox
+firefox_binary_path
                        
 "
 firefox
@@ -1290,6 +1270,7 @@ issues
 def
 test_run_zero_tests
 (
+firefox_binary_path
 )
 :
     
@@ -1382,14 +1363,6 @@ no
 -
 pause
 "
-"
--
--
-channel
-"
-"
-dev
-"
                        
 "
 -
@@ -1406,13 +1379,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 "
 /
@@ -1491,15 +1463,6 @@ unexpected
 "
 -
 -
-channel
-"
-"
-dev
-"
-                       
-"
--
--
 no
 -
 enable
@@ -1512,13 +1475,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 "
 /
@@ -1600,6 +1562,7 @@ issues
 def
 test_run_failing_test
 (
+firefox_binary_path
 )
 :
     
@@ -1729,14 +1692,6 @@ no
 -
 pause
 "
-"
--
--
-channel
-"
-"
-dev
-"
                        
 "
 -
@@ -1753,13 +1708,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 failing_test
 ]
@@ -1844,13 +1798,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 failing_test
 ]
@@ -1918,6 +1871,7 @@ def
 test_run_verify_unstable
 (
 temp_test
+firefox_binary_path
 )
 :
     
@@ -2078,14 +2032,6 @@ yes
 -
 verify
 "
-"
--
--
-channel
-"
-"
-dev
-"
                        
 "
 -
@@ -2102,13 +2048,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 unstable_test
 ]
@@ -2176,14 +2121,6 @@ yes
 -
 verify
 "
-"
--
--
-channel
-"
-"
-dev
-"
                        
 "
 -
@@ -2200,13 +2137,12 @@ h3
 "
 -
 -
-enable
--
-swiftshader
+binary
 "
+firefox_binary_path
                        
 "
-chrome
+firefox
 "
 stable_test
 ]
