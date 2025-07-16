@@ -5003,7 +5003,7 @@ AttrType
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 )
 ;
 }

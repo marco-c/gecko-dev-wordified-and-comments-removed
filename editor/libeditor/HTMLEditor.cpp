@@ -14617,7 +14617,7 @@ blockElement
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 aOutColor
 )
 ;
@@ -14687,7 +14687,7 @@ nsGkAtoms
 :
 "
 "
-backgroundColor
+background_color
 )
 failed
 but
@@ -14901,7 +14901,7 @@ element
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 aOutColor
 )
 ;
@@ -14956,7 +14956,7 @@ nsGkAtoms
 :
 "
 "
-backgroundColor
+background_color
 )
 failed
 but

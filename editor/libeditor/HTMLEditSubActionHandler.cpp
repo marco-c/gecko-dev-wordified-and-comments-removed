@@ -56546,7 +56546,7 @@ acronym
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 nsGkAtoms
 :
 :

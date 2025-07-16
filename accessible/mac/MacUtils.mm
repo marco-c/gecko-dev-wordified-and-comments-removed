@@ -514,7 +514,7 @@ Name
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 )
 {
 if

@@ -22456,7 +22456,7 @@ aName
 nsGkAtoms
 :
 :
-colorProfile
+color_profile
 &
 &
 aName

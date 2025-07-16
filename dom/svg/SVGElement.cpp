@@ -5354,13 +5354,13 @@ color
 nsGkAtoms
 :
 :
-colorInterpolation
+color_interpolation
 }
 {
 nsGkAtoms
 :
 :
-colorInterpolationFilters
+color_interpolation_filters
 }
 {
 nsGkAtoms
@@ -5462,7 +5462,7 @@ font_variant
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 }
 {
 nsGkAtoms

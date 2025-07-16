@@ -147,14 +147,14 @@ SVG_FEBLEND_MODE_OVERLAY
 nsGkAtoms
 :
 :
-colorDodge
+color_dodge
 SVG_FEBLEND_MODE_COLOR_DODGE
 }
 {
 nsGkAtoms
 :
 :
-colorBurn
+color_burn
 SVG_FEBLEND_MODE_COLOR_BURN
 }
 {
