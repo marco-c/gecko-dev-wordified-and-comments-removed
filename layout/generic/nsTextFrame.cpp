@@ -9694,8 +9694,6 @@ GetMargin
 (
 aSide
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
