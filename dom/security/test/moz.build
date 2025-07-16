@@ -90,6 +90,17 @@ mochitest
 toml
 "
 "
+mochitest
+/
+integrity
+-
+policy
+/
+mochitest
+.
+toml
+"
+"
 referrer
 -
 policy
