@@ -1308,6 +1308,10 @@ const
 IntRect
 &
 aRect
+bool
+aForce
+=
+false
 )
 ;
 void
