@@ -839,7 +839,7 @@ presContext
 =
 GetPresContext
 (
-eForUncomposedDoc
+eForComposedDoc
 )
 ;
 if
