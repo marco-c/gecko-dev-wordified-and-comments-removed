@@ -233,6 +233,19 @@ Any
 ]
 =
 None
+        
+unhandled_prompt_behavior
+:
+Optional
+[
+Mapping
+[
+str
+str
+]
+]
+=
+None
     
 )
 -
@@ -286,6 +299,22 @@ proxy
 ]
 =
 proxy
+        
+if
+unhandled_prompt_behavior
+is
+not
+None
+:
+            
+params
+[
+"
+unhandledPromptBehavior
+"
+]
+=
+unhandled_prompt_behavior
         
 return
 params
