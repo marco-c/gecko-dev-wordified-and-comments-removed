@@ -885,6 +885,14 @@ redirector
 .
 promiseBuiltInAddonInitialized
 ;
+lazy
+.
+AboutNewTabResourceMapping
+.
+scheduleUpdateTrainhopAddonState
+(
+)
+;
 }
 else
 {
