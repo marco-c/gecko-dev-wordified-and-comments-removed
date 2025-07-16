@@ -138,17 +138,6 @@ mock
 ;
 global
 .
-Glean
-=
-require
-(
-"
-Glean
-"
-)
-;
-global
-.
 isWorker
 =
 false
