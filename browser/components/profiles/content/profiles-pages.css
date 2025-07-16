@@ -494,3 +494,17 @@ deemphasized
 )
 ;
 }
+.
+disable
+-
+text
+-
+selection
+{
+user
+-
+select
+:
+none
+;
+}
