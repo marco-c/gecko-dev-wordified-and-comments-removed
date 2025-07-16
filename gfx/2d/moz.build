@@ -114,6 +114,11 @@ DrawTargetSkia
 h
 "
 "
+FilterNodeSoftware
+.
+h
+"
+"
 Filters
 .
 h

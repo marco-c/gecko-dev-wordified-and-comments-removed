@@ -531,6 +531,11 @@ DrawTargetWebgl
 cpp
 "
 "
+FilterNodeWebgl
+.
+cpp
+"
+"
 ImageUtils
 .
 cpp
