@@ -13,12 +13,12 @@ webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
 (
-ExtTex
+ExternalTexture
 mGlobal
 )
 JSObject
 *
-ExtTex
+ExternalTexture
 :
 :
 WrapObject
