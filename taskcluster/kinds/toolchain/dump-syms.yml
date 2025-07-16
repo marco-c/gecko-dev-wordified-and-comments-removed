@@ -82,7 +82,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -197,7 +197,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 arguments

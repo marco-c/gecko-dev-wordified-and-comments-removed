@@ -74,7 +74,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -807,7 +807,7 @@ linux
 -
 large
 -
-gcp
+amd
 treeherder
 :
 symbol
@@ -2584,7 +2584,7 @@ linux
 -
 large
 -
-gcp
+amd
 treeherder
 :
 symbol

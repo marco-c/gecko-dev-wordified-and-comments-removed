@@ -70,7 +70,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -142,7 +142,7 @@ linux
 -
 large
 -
-gcp
+amd
 run
 :
 script
@@ -313,7 +313,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -582,7 +582,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -664,7 +664,7 @@ linux
 -
 large
 -
-gcp
+amd
 worker
 :
 max
@@ -879,7 +879,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -1022,7 +1022,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -1710,7 +1710,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -2191,7 +2191,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -3116,7 +3116,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -4068,7 +4068,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -5017,7 +5017,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -5528,7 +5528,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -5797,7 +5797,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -5920,7 +5920,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -6570,7 +6570,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -7035,7 +7035,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -7942,7 +7942,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -8871,7 +8871,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -9802,7 +9802,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -10290,7 +10290,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -10546,7 +10546,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -10696,7 +10696,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 script
@@ -11431,7 +11431,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -11915,7 +11915,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -12853,7 +12853,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -13818,7 +13818,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -14752,7 +14752,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
@@ -15266,7 +15266,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 max
