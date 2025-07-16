@@ -17136,7 +17136,7 @@ blendContainer
 nsDisplayBlendContainer
 :
 :
-Create
+CreateForMixBlendMode
 (
 aBuilder
 this
