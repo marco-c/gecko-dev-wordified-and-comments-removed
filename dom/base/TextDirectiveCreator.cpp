@@ -77,7 +77,7 @@ TextDirectiveCreator
 TextDirectiveCreator
 (
 Document
-&
+*
 aDocument
 AbstractRange
 *
@@ -86,11 +86,17 @@ aRange
 :
 mDocument
 (
+WrapNotNull
+(
 aDocument
+)
 )
 mRange
 (
+WrapNotNull
+(
 aRange
+)
 )
 {
 }
@@ -108,7 +114,7 @@ TextDirectiveCreator
 CreateTextDirectiveFromRange
 (
 Document
-&
+*
 aDocument
 AbstractRange
 *
@@ -446,7 +452,7 @@ TextDirectiveCreator
 CreateInstance
 (
 Document
-&
+*
 aDocument
 AbstractRange
 *
@@ -742,11 +748,6 @@ rv
 )
 ;
 }
-MOZ_ASSERT
-(
-range
-)
-;
 if
 (
 !
@@ -846,11 +847,6 @@ CollectContextTerms
 (
 )
 {
-MOZ_ASSERT
-(
-mRange
-)
-;
 if
 (
 MOZ_UNLIKELY
@@ -970,11 +966,6 @@ CollectContextTerms
 (
 )
 {
-MOZ_ASSERT
-(
-mRange
-)
-;
 if
 (
 MOZ_UNLIKELY
@@ -2401,7 +2392,6 @@ FindAllMatchingRanges
 (
 mStartContent
 {
-&
 mDocument
 0u
 }
@@ -2708,7 +2698,6 @@ FindAllMatchingRanges
 (
 firstWordOfStartContent
 {
-&
 mDocument
 0u
 }
