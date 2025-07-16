@@ -28,6 +28,15 @@ nsAString
 aMsg
 )
 ;
+bool
+IsCamelCase
+(
+const
+nsAString
+&
+aStr
+)
+;
 }
 #
 endif
