@@ -2700,7 +2700,7 @@ if
 aFactory
 .
 mProvider
-=
+!
 =
 MFTEncoder
 :
@@ -2711,7 +2711,7 @@ Factory
 Provider
 :
 :
-HW_AMD
+SW
 &
 &
 isH264HighProfile
