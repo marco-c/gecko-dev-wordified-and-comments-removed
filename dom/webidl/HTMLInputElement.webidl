@@ -954,6 +954,9 @@ getFilesAndDirectories
 (
 )
 ;
+[
+ChromeOnly
+]
 boolean
 mozIsTextField
 (

@@ -740,13 +740,6 @@ html
 ]
 [
 "
-test_mozistextfield
-.
-html
-"
-]
-[
-"
 test_novalidate_attribute
 .
 html
