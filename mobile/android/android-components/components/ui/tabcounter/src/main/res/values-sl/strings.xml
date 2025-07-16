@@ -58,7 +58,9 @@ name
 mozac_tab_counter_open_tab_tray
 "
 >
-Odprtih
+t
+.
+odprtih
 zavihkov
 :
 %
@@ -116,7 +118,9 @@ name
 mozac_open_tab_counter_tab_tray
 "
 >
-Odprtih
+t
+.
+odprtih
 nezasebnih
 zavihkov
 :
@@ -182,7 +186,9 @@ name
 mozac_tab_counter_private
 "
 >
-Odprtih
+t
+.
+odprtih
 zasebnih
 zavihkov
 :
