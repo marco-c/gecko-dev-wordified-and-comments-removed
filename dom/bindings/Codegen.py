@@ -90512,9 +90512,14 @@ self
         
 names
 =
-set
-(
-)
+{
+"
+constructor
+"
+"
+__proto__
+"
+}
         
 iface
 =
