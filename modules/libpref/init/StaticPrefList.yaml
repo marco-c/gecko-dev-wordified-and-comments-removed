@@ -24278,12 +24278,6 @@ NIGHTLY_BUILD
 )
 &
 &
-defined
-(
-XP_LINUX
-)
-&
-&
 !
 defined
 (
@@ -25312,12 +25306,6 @@ if
 defined
 (
 NIGHTLY_BUILD
-)
-&
-&
-defined
-(
-XP_LINUX
 )
 &
 &
