@@ -86,6 +86,14 @@ prefix
 +
 res_num
 }
+-
+{
+Math
+.
+random
+(
+)
+}
 ;
 }
 self
