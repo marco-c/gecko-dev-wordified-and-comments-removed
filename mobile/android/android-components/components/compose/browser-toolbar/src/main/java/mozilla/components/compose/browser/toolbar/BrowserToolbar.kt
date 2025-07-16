@@ -600,8 +600,6 @@ store
 =
 BrowserToolbarStore
 (
-initialState
-=
 toolbarState
 )
 AcornTheme
@@ -717,8 +715,6 @@ store
 =
 BrowserToolbarStore
 (
-initialState
-=
 toolbarState
 )
 AcornTheme
