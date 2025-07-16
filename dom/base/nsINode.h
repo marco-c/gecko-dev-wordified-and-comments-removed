@@ -2186,6 +2186,15 @@ aIndex
 )
 const
 ;
+nsINode
+*
+GetChildAtInFlatTree
+(
+uint32_t
+aIndex
+)
+const
+;
 mozilla
 :
 :

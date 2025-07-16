@@ -1543,7 +1543,7 @@ aAncestorOffsets
 ;
 static
 nsresult
-GetShadowIncludingAncestorsAndOffsets
+GetFlattenedTreeAncestorsAndOffsets
 (
 nsINode
 *
