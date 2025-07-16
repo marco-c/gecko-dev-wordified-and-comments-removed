@@ -1084,6 +1084,12 @@ VIEW_MODES
 .
 LIST
 ;
+this
+.
+notification
+=
+null
+;
 }
 #
 onSaveLoginForm
