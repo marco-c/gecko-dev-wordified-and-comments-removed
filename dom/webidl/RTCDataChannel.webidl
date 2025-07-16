@@ -96,7 +96,7 @@ EventTarget
 {
 readonly
 attribute
-DOMString
+USVString
 label
 ;
 readonly
@@ -108,11 +108,6 @@ readonly
 attribute
 boolean
 ordered
-;
-readonly
-attribute
-boolean
-reliable
 ;
 readonly
 attribute
