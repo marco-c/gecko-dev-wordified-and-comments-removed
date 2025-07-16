@@ -740,4 +740,7 @@ ToolbarDropHandler
 "
 ProfilesDatastoreService
 "
+"
+gTrustPanelHandler
+"
 ]
