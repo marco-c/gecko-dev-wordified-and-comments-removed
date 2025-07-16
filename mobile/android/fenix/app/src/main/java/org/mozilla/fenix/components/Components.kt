@@ -912,6 +912,11 @@ BackgroundServices
 (
 context
 push
+context
+.
+settings
+(
+)
 analytics
 .
 crashReporter
