@@ -203,8 +203,8 @@ bidi_session
     
 data_to_cleanup
 =
-{
-}
+[
+]
     
 async
 def
@@ -232,7 +232,9 @@ context
 )
         
 data_to_cleanup
-=
+.
+append
+(
 {
             
 "
@@ -248,6 +250,7 @@ user_context
 user_context
         
 }
+)
         
 await
 bidi_session
@@ -288,6 +291,12 @@ user_context
 yield
 set_geolocation_permission
     
+for
+item
+in
+data_to_cleanup
+:
+        
 await
 bidi_session
 .
@@ -295,7 +304,7 @@ permissions
 .
 set_permission
 (
-        
+            
 descriptor
 =
 {
@@ -307,29 +316,29 @@ name
 geolocation
 "
 }
-        
+            
 state
 =
 "
 prompt
 "
-        
+            
 origin
 =
-data_to_cleanup
+item
 [
 "
 origin
 "
 ]
-        
+            
 user_context
 =
-data_to_cleanup
+item
 [
 "
 user_context
 "
 ]
-    
+        
 )
