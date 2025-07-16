@@ -305,14 +305,6 @@ org
 .
 robolectric
 .
-Robolectric
-.
-buildAttributeSet
-import
-org
-.
-robolectric
-.
 annotation
 .
 Config
@@ -326,17 +318,6 @@ class
 class
 InlineAutocompleteEditTextTest
 {
-private
-val
-attributes
-=
-buildAttributeSet
-(
-)
-.
-build
-(
-)
 Test
 fun
 autoCompleteResult
@@ -464,7 +445,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -536,7 +517,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 val
 searchStates
@@ -673,7 +654,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -779,7 +760,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -829,7 +810,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -935,7 +916,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -1013,7 +994,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -1080,7 +1061,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 doReturn
@@ -1167,7 +1148,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invokedWithParams
@@ -1240,7 +1221,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invokedWithParams
@@ -1297,7 +1278,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -1373,7 +1354,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invokedWithParams
@@ -1426,7 +1407,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invoked
@@ -1479,7 +1460,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invoked
@@ -1529,7 +1510,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 var
 invokedWithParams
@@ -1596,7 +1577,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -1671,7 +1652,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -1970,7 +1951,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -2042,7 +2023,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 val
@@ -2285,7 +2266,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 val
 ic
@@ -2459,7 +2440,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 val
 ic
@@ -2631,7 +2612,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -2721,7 +2702,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -2805,7 +2786,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -2892,7 +2873,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -2989,7 +2970,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
@@ -3087,7 +3068,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 et
@@ -3157,7 +3138,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3273,7 +3254,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3349,7 +3330,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3445,7 +3426,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3538,7 +3519,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3603,7 +3584,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3671,7 +3652,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 editText
@@ -3749,7 +3730,7 @@ spy
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 )
 (
@@ -3833,7 +3814,7 @@ et
 InlineAutocompleteEditText
 (
 testContext
-attributes
+null
 )
 et
 .
