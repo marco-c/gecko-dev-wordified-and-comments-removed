@@ -279,9 +279,9 @@ INITIAL_STATE
 Messages
 :
 {
-isVisible
+isHidden
 :
-true
+false
 messageData
 :
 {
@@ -417,9 +417,9 @@ render
 if
 Messages
 .
-isVisible
+isHidden
 is
-false
+true
 and
 hiddenOverride
 is
@@ -447,9 +447,9 @@ INITIAL_STATE
 Messages
 :
 {
-isVisible
+isHidden
 :
-false
+true
 messageData
 :
 {
