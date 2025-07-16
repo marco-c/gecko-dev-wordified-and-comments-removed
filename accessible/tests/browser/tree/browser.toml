@@ -238,3 +238,10 @@ browser_view_transition
 js
 "
 ]
+[
+"
+browser_root_element
+.
+js
+"
+]
