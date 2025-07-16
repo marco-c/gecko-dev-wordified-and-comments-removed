@@ -628,6 +628,11 @@ mHoldByFFmpeg
 =
 false
 ;
+if
+(
+aForFrameRecycle
+)
+{
 mSurface
 -
 >
@@ -635,6 +640,7 @@ ReleaseSurface
 (
 )
 ;
+}
 if
 (
 aForFrameRecycle
