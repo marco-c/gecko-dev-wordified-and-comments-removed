@@ -101,6 +101,10 @@ sctsWithInvalidTimestamps
 =
 0
 ;
+sctsWithDistrustedTimestamps
+=
+0
+;
 embeddedSCTs
 =
 0

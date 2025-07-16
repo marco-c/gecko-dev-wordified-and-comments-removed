@@ -126,6 +126,9 @@ size_t
 sctsWithInvalidTimestamps
 ;
 size_t
+sctsWithDistrustedTimestamps
+;
+size_t
 embeddedSCTs
 ;
 size_t
