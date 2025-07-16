@@ -384,6 +384,9 @@ BackPressed
 WebCompatReporterAction
 .
 SendMoreInfoClicked
+WebCompatReporterAction
+.
+LearnMoreClicked
 -
 >
 appStore
