@@ -277,6 +277,15 @@ aPath
 const
 ;
 void
+SetMozRelativePath
+(
+const
+nsAString
+&
+aPath
+)
+;
+void
 GetMozFullPath
 (
 nsAString

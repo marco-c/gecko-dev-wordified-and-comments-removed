@@ -545,6 +545,13 @@ html
 ]
 [
 "
+test_setMozRelativePath
+.
+html
+"
+]
+[
+"
 test_title
 .
 xhtml

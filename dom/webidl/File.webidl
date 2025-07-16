@@ -272,6 +272,16 @@ attribute
 DOMString
 mozFullPath
 ;
+[
+ChromeOnly
+]
+undefined
+setMozRelativePath
+(
+DOMString
+name
+)
+;
 }
 ;
 /
