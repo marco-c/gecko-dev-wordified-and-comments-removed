@@ -450,9 +450,6 @@ Element
 class
 Document
 ;
-class
-ImageTracker
-;
 }
 template
 <
@@ -684,14 +681,6 @@ T
 mRaw
 ;
 }
-;
-using
-StyleImageTracker
-=
-dom
-:
-:
-ImageTracker
 ;
 using
 StyleLoader

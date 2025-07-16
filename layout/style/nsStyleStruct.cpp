@@ -155,17 +155,6 @@ include
 "
 mozilla
 /
-dom
-/
-ImageTracker
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CORSMode
 .
 h
