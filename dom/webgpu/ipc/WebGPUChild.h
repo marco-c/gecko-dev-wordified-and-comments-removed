@@ -405,10 +405,7 @@ ResolveLostForDeviceId
 (
 RawId
 aDeviceId
-Maybe
-<
 uint8_t
->
 aReason
 const
 nsAString
@@ -488,10 +485,7 @@ RecvDeviceLost
 (
 RawId
 aDeviceId
-Maybe
-<
 uint8_t
->
 aReason
 const
 nsACString
