@@ -59,10 +59,10 @@ Callback
 EnableCycleCollectionIf
 <
 Container
-mozilla
+std
 :
 :
-UniquePtr
+unique_ptr
 >
 =
 nullptr

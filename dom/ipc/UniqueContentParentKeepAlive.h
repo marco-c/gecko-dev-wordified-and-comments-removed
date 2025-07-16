@@ -51,6 +51,8 @@ operator
 (
 ContentParent
 *
+const
+&
 aProcess
 )
 ;
@@ -61,6 +63,8 @@ operator
 (
 ThreadsafeContentParentHandle
 *
+const
+&
 aHandle
 )
 ;
