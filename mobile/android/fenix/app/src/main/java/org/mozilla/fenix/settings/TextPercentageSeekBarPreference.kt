@@ -2940,6 +2940,6 @@ const
 val
 SEEK_BAR_MAX
 =
-100
+200
 }
 }
