@@ -505,7 +505,11 @@ value
 (
 )
 .
-metricsEnabled
+gleanMetricConfiguration
+.
+toJSONObject
+(
+)
 .
 toString
 (
