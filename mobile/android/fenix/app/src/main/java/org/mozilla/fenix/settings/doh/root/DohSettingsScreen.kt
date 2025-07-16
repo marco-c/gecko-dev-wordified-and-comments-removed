@@ -2366,13 +2366,6 @@ FirefoxTheme
 typography
 .
 headline7
-color
-=
-FirefoxTheme
-.
-colors
-.
-textPrimary
 )
 }
 text
@@ -2504,13 +2497,6 @@ upperCaseText
 false
 )
 }
-backgroundColor
-=
-FirefoxTheme
-.
-colors
-.
-layer2
 )
 }
 Composable
