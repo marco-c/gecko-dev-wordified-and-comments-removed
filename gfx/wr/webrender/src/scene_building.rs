@@ -13349,13 +13349,6 @@ reverse_stops
 nine_patch
 cached
 edge_aa_mask
-enable_dithering
-:
-self
-.
-config
-.
-enable_dithering
 }
 )
 }
