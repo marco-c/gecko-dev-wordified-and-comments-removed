@@ -16156,14 +16156,14 @@ dismiss
 -
 button
 -
-bg
+background
 "
 "
 dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -16172,7 +16172,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -16857,7 +16857,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -16918,7 +16918,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -17001,7 +17001,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -17309,7 +17309,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -17323,7 +17323,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -17338,10 +17338,7 @@ srgb
 currentColor
 14
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 "
@@ -17349,7 +17346,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -17364,10 +17361,7 @@ srgb
 currentColor
 21
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 }
@@ -17616,7 +17610,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -17628,7 +17622,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -17652,7 +17646,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -17778,7 +17772,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -17790,7 +17784,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -17814,7 +17808,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -17965,7 +17959,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -17979,7 +17973,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -17994,10 +17988,7 @@ srgb
 currentColor
 14
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 "
@@ -18005,7 +17996,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -18020,10 +18011,7 @@ srgb
 currentColor
 21
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 }
@@ -18406,7 +18394,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -18461,7 +18449,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -18538,7 +18526,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -18860,7 +18848,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -18915,7 +18903,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -18992,7 +18980,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -19240,7 +19228,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -19254,7 +19242,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -19269,10 +19257,7 @@ srgb
 currentColor
 14
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 "
@@ -19280,7 +19265,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -19295,10 +19280,7 @@ srgb
 currentColor
 21
 %
--
-moz
--
-dialog
+SelectedItem
 )
 "
 }
@@ -20128,7 +20110,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -20160,7 +20142,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -20196,7 +20178,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -20248,7 +20230,7 @@ dismiss
 -
 button
 -
-bg
+background
 "
 :
 "
@@ -20266,7 +20248,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 hover
 "
@@ -20281,14 +20263,7 @@ srgb
 currentColor
 14
 %
-var
-(
--
--
-arrowpanel
--
-background
-)
+SelectedItem
 )
 "
 "
@@ -20296,7 +20271,7 @@ dismiss
 -
 button
 -
-bg
+background
 -
 active
 "
@@ -20311,14 +20286,7 @@ srgb
 currentColor
 21
 %
-var
-(
--
--
-arrowpanel
--
-background
-)
+SelectedItem
 )
 "
 }
