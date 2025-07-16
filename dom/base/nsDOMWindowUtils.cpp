@@ -4842,6 +4842,8 @@ int32_t
 aTwists
 int32_t
 aModifiers
+AsyncEnabledOption
+aAsyncEnabled
 bool
 *
 aPreventDefault
@@ -4864,6 +4866,7 @@ aTwists
 aModifiers
 false
 false
+aAsyncEnabled
 aPreventDefault
 )
 ;
@@ -4900,6 +4903,8 @@ int32_t
 aTwist
 int32_t
 aModifier
+AsyncEnabledOption
+aAsyncEnabled
 bool
 *
 aPreventDefault
@@ -4952,6 +4957,7 @@ aTwist
 aModifier
 true
 false
+aAsyncEnabled
 aPreventDefault
 )
 ;
@@ -5060,6 +5066,10 @@ aTwists
 aModifiers
 false
 true
+AsyncEnabledOption
+:
+:
+ASYNC_DISABLED
 aPreventDefault
 )
 ;
@@ -5150,6 +5160,8 @@ bool
 aIsPen
 bool
 aToWindow
+AsyncEnabledOption
+aAsyncEnabled
 bool
 *
 aPreventDefault
@@ -5602,6 +5614,15 @@ status
 }
 if
 (
+aAsyncEnabled
+=
+=
+AsyncEnabledOption
+:
+:
+ASYNC_ENABLED
+|
+|
 StaticPrefs
 :
 :
