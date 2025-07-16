@@ -379,6 +379,11 @@ states
 :
 :
 SELECTABLE
+|
+states
+:
+:
+FOCUSABLE
 ;
 }
 Relation
