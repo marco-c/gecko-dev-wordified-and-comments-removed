@@ -2941,7 +2941,7 @@ nsILoadInfo
 IPAddressSpace
 :
 :
-Unknown
+Public
 ;
 fields
 .
