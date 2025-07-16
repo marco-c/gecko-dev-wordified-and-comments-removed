@@ -1574,6 +1574,7 @@ SizeUpdate
 update
 )
 )
+;
 }
 }
 }

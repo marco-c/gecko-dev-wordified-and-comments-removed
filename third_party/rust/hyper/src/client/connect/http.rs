@@ -2531,7 +2531,8 @@ map
 t
 |
 t
-/
+.
+checked_div
 (
 addrs
 .
@@ -2541,6 +2542,10 @@ len
 as
 u32
 )
+)
+.
+flatten
+(
 )
 ;
 Self

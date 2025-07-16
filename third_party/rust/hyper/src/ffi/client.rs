@@ -619,6 +619,13 @@ hyper_clientconn_options_new
 mut
 hyper_clientconn_options
 {
+#
+[
+allow
+(
+deprecated
+)
+]
 let
 builder
 =
