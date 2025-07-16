@@ -959,7 +959,7 @@ MDefinition
 *
 def
 bool
-showHashedPointers
+showDetails
 =
 false
 )
@@ -975,7 +975,7 @@ MDefinition
 *
 def
 bool
-showHashedPointers
+showDetails
 =
 false
 )
@@ -991,7 +991,7 @@ MBasicBlock
 *
 block
 bool
-showHashedPointers
+showDetails
 =
 false
 )
@@ -1006,7 +1006,7 @@ MBasicBlock
 *
 block
 bool
-showHashedPointers
+showDetails
 =
 false
 )
@@ -1021,7 +1021,7 @@ MIRGraph
 &
 graph
 bool
-showHashedPointers
+showDetails
 =
 false
 )
@@ -1044,7 +1044,7 @@ char
 *
 phase
 bool
-showHashedPointers
+showDetails
 =
 false
 )
