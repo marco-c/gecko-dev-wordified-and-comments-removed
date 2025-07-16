@@ -1207,6 +1207,15 @@ eventCallback
 this
 .
 infobarCallback
+style
+:
+content
+.
+style
+|
+|
+{
+}
 }
 content
 .
