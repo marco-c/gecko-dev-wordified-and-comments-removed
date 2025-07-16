@@ -17997,9 +17997,12 @@ isEmpty
 )
 )
 {
-(
-void
-)
+RefPtr
+<
+ScriptLoadRequest
+>
+request
+=
 mBytecodeEncodableDependencyModules
 .
 StealFirst
