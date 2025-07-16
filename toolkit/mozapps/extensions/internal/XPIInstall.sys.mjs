@@ -11316,12 +11316,6 @@ onInstallFailed
 "
 )
 ;
-this
-.
-removeTemporaryFile
-(
-)
-;
 }
 else
 {
@@ -11373,6 +11367,12 @@ true
 )
 ;
 }
+this
+.
+removeTemporaryFile
+(
+)
+;
 return
 ;
 }
