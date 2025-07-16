@@ -45,7 +45,6 @@ breakpad
 :
 :
 {
-AncillaryData
 BreakpadChar
 BreakpadData
 BreakpadRawData
@@ -71,8 +70,10 @@ ipc_connector
 :
 :
 {
+AncillaryData
 IPCConnector
 IPCEvent
+INVALID_ANCILLARY_DATA
 }
 ;
 pub

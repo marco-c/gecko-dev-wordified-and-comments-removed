@@ -41,7 +41,11 @@ use
 windows
 :
 :
+{
+AncillaryData
 IPCConnector
+INVALID_ANCILLARY_DATA
+}
 ;
 #
 [
@@ -90,7 +94,11 @@ use
 unix
 :
 :
+{
+AncillaryData
 IPCConnector
+INVALID_ANCILLARY_DATA
+}
 ;
 #
 [

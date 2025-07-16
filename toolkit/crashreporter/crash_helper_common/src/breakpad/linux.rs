@@ -40,12 +40,6 @@ c_char
 ;
 pub
 type
-AncillaryData
-=
-RawFd
-;
-pub
-type
 BreakpadRawData
 =
 RawFd

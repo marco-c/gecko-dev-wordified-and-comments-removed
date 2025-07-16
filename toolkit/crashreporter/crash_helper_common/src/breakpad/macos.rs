@@ -42,13 +42,6 @@ c_char
 ;
 pub
 type
-AncillaryData
-=
-(
-)
-;
-pub
-type
 BreakpadRawData
 =
 *

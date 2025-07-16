@@ -30,13 +30,6 @@ u16
 ;
 pub
 type
-AncillaryData
-=
-(
-)
-;
-pub
-type
 BreakpadRawData
 =
 *
