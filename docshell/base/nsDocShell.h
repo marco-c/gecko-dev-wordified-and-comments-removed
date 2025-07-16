@@ -590,12 +590,6 @@ Initialize
 (
 )
 ;
-using
-nsIWebNavigation
-:
-:
-Stop
-;
 NS_IMETHOD
 Stop
 (
