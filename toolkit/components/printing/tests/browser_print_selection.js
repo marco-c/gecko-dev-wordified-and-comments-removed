@@ -157,7 +157,7 @@ document
 .
 body
 .
-textContent
+innerText
 ;
 }
 )
