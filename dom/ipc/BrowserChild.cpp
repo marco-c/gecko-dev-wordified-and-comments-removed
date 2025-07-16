@@ -7896,6 +7896,15 @@ eMouseRawUpdate
 ;
 mouseRawUpdateEvent
 .
+mButton
+=
+MouseButton
+:
+:
+eNotPressed
+;
+mouseRawUpdateEvent
+.
 mCoalescedWidgetEvents
 =
 nullptr
