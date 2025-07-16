@@ -7414,7 +7414,6 @@ DE
 "
 |
 apartamento
-|
 "
 +
 /
@@ -7423,6 +7422,17 @@ pt
 "
 |
 adresse
+|
+maison
+|
+b
+timent
+|
+immeuble
+|
+appartement
+|
+tage
 "
 +
 /
