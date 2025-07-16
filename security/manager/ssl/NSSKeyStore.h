@@ -104,7 +104,7 @@ encrypt
 override
 ;
 virtual
-nsresult
+bool
 SecretAvailable
 (
 const

@@ -106,7 +106,7 @@ AbstractOSKeyStore
 default
 ;
 virtual
-nsresult
+bool
 SecretAvailable
 (
 const
