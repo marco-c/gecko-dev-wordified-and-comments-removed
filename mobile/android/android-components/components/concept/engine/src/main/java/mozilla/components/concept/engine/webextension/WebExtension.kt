@@ -4574,13 +4574,6 @@ null
 throwable
 :
 Throwable
-override
-val
-isRecoverable
-:
-Boolean
-=
-true
 )
 :
 WebExtensionException
