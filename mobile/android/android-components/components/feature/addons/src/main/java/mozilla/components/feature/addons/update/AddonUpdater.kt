@@ -1109,7 +1109,7 @@ UpdateStatusStorage
 )
 internal
 var
-updateAttempStorage
+updateAttemptStorage
 =
 UpdateAttemptStorage
 (
@@ -1228,7 +1228,7 @@ scope
 .
 launch
 {
-updateAttempStorage
+updateAttemptStorage
 .
 remove
 (

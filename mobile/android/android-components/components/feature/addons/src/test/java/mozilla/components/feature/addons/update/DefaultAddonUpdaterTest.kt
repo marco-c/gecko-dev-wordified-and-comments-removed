@@ -1848,7 +1848,7 @@ addonId
 "
 updater
 .
-updateAttempStorage
+updateAttemptStorage
 =
 mock
 (
@@ -1960,7 +1960,7 @@ verify
 (
 updater
 .
-updateAttempStorage
+updateAttemptStorage
 )
 .
 remove
