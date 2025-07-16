@@ -2407,10 +2407,10 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 *
@@ -2453,9 +2453,9 @@ aDragStartData
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 aCookieJarSettings

@@ -300,7 +300,7 @@ interface
 nsIChannel
 ;
 interface
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 interface
 nsIDocumentViewer
@@ -2745,9 +2745,9 @@ document
 .
 *
 param
-aCsp
+aPolicyContainer
 the
-CSP
+policyContainer
 to
 use
 for
@@ -2770,8 +2770,8 @@ aPartitionedPrincipal
 optional
 ]
 in
-nsIContentSecurityPolicy
-aCSP
+nsIPolicyContainer
+aPolicyContainer
 )
 ;
 /

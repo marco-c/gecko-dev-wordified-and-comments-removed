@@ -34962,14 +34962,14 @@ NodePrincipal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-csp
+policyContainer
 =
 aContent
 -
 >
-GetCsp
+GetPolicyContainer
 (
 )
 ;
@@ -35027,7 +35027,7 @@ IsHandlingUserInput
 )
 aUserInvolvement
 triggeringPrincipal
-csp
+policyContainer
 )
 ;
 }

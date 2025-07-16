@@ -9554,8 +9554,8 @@ nullable
 nsIPrincipal
 aTriggeringPrincipal
 nullable
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+aPolicyContainer
 nullable
 nsIReferrerInfo
 aReferrerInfo
@@ -9598,8 +9598,8 @@ nullable
 nsIPrincipal
 aTriggeringPrincipal
 nullable
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+aPolicyContainer
 nullable
 nsIReferrerInfo
 aReferrerInfo

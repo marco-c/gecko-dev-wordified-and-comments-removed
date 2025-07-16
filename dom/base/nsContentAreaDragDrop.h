@@ -19,7 +19,7 @@ nsITransferable
 h
 "
 class
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 class
 nsICookieJarSettings
@@ -95,10 +95,10 @@ nsIContent
 *
 *
 aDragNode
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 *

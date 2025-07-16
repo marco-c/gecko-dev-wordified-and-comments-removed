@@ -284,11 +284,11 @@ frameType
 ;
 CSPInfo
 ?
-cspInfo
-;
-CSPInfo
-?
 preloadCspInfo
+;
+PolicyContainerArgs
+?
+policyContainerArgs
 ;
 }
 ;

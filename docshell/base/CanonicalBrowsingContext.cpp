@@ -3466,7 +3466,7 @@ aInfo
 >
 mInfo
 .
-GetCsp
+GetPolicyContainer
 (
 )
 )

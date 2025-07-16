@@ -57,7 +57,7 @@ MPL
 *
 /
 interface
-ContentSecurityPolicy
+PolicyContainer
 ;
 interface
 Principal
@@ -116,7 +116,7 @@ null
 *
 *
 The
-CSP
+policyContainer
 to
 be
 used
@@ -130,10 +130,10 @@ is
 not
 *
 the
-CSP
+policyContainer
+*
 that
 will
-*
 be
 applied
 to
@@ -144,8 +144,8 @@ that
 document
 but
 the
-CSP
 *
+policyContainer
 for
 the
 document
@@ -158,9 +158,12 @@ g
 .
 if
 that
+policyContainer
+'
+s
+*
 CSP
 includes
-*
 upgrade
 -
 insecure
@@ -182,9 +185,9 @@ HTTPS
 .
 *
 /
-ContentSecurityPolicy
+PolicyContainer
 ?
-csp
+policyContainer
 =
 null
 ;

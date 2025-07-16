@@ -891,9 +891,9 @@ nsAString
 aPrincipalURISpec
 )
 ;
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-GetMozCSP
+GetPolicyContainer
 (
 )
 ;

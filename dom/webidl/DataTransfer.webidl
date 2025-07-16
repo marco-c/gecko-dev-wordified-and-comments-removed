@@ -129,7 +129,7 @@ interface
 *
 /
 interface
-ContentSecurityPolicy
+PolicyContainer
 ;
 [
 Exposed
@@ -1164,9 +1164,9 @@ ChromeOnly
 ]
 readonly
 attribute
-ContentSecurityPolicy
+PolicyContainer
 ?
-mozCSP
+policyContainer
 ;
 /
 *

@@ -1177,9 +1177,9 @@ SetInitialPrincipal
 nsIPrincipal
 *
 aNewWindowPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCSP
+aPolicyContainer
 const
 mozilla
 :

@@ -27116,9 +27116,9 @@ nsIReferrerInfo
 aReferrerInfo
 bool
 aLoadURI
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 const
 OriginAttributes
 &
@@ -27807,9 +27807,9 @@ aTriggeringPrincipal
 params
 -
 >
-SetCsp
+SetPolicyContainer
 (
-aCsp
+aPolicyContainer
 )
 ;
 RefPtr
@@ -28323,7 +28323,7 @@ nsIBrowserDOMWindow
 :
 OPEN_NEW
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 getter_AddRefs
 (
 bc
@@ -28399,9 +28399,9 @@ aModifiers
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -28958,7 +28958,7 @@ openLocation
 aTriggeringPrincipal
 aReferrerInfo
 false
-aCsp
+aPolicyContainer
 aOriginAttributes
 aUserActivation
 aTextDirectiveUserActivation
@@ -29178,9 +29178,9 @@ aName
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -29420,7 +29420,7 @@ openLocation
 aTriggeringPrincipal
 aReferrerInfo
 true
-aCsp
+aPolicyContainer
 aOriginAttributes
 aUserActivation
 aTextDirectiveUserActivation

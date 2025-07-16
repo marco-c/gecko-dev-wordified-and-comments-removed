@@ -110,13 +110,6 @@ nsIDragSession
 .
 idl
 "
-#
-include
-"
-nsIContentPolicy
-.
-idl
-"
 webidl
 DragEvent
 ;
@@ -584,8 +577,8 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+aPolicyContainer
 in
 nsICookieJarSettings
 aCookieJarSettings
@@ -655,8 +648,8 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+aPolicyContainer
 in
 nsICookieJarSettings
 aCookieJarSettings
@@ -748,8 +741,8 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+aPolicyContainer
 in
 nsICookieJarSettings
 aCookieJarSettings

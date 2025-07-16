@@ -2101,9 +2101,9 @@ aModifiers
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -2173,9 +2173,9 @@ aName
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -3224,9 +3224,9 @@ nsIReferrerInfo
 aReferrerInfo
 bool
 aLoadUri
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 const
 OriginAttributes
 &

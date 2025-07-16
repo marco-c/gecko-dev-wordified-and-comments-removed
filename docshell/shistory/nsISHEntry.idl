@@ -6,7 +6,7 @@ nsISupports
 idl
 "
 interface
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 interface
 nsIMutableArray
@@ -347,8 +347,8 @@ partitionedPrincipalToInherit
 infallible
 ]
 attribute
-nsIContentSecurityPolicy
-csp
+nsIPolicyContainer
+policyContainer
 ;
 [
 infallible
@@ -560,8 +560,8 @@ in
 nsIPrincipal
 partitionedPrincipalToInherit
 in
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+policyContainer
 in
 nsIDRef
 docshellID

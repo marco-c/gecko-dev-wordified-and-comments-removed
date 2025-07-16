@@ -275,9 +275,9 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aPartitionedPrincipalToInherit
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 const
 nsACString
 &
@@ -289,7 +289,7 @@ SHEntrySharedState
 aTriggeringPrincipal
 aPrincipalToInherit
 aPartitionedPrincipalToInherit
-aCsp
+aPolicyContainer
 aContentType
 )
 {
@@ -485,12 +485,12 @@ aEntry
 >
 mPartitionedPrincipalToInherit
 ;
-mCsp
+mPolicyContainer
 =
 aEntry
 -
 >
-mCsp
+mPolicyContainer
 ;
 mSaveLayoutState
 =

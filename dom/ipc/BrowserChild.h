@@ -1609,9 +1609,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 )
 ;
 mozilla
@@ -3505,9 +3505,9 @@ aDragAction
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY

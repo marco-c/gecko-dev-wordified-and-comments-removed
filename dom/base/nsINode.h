@@ -240,6 +240,9 @@ class
 nsINodeList
 ;
 class
+nsIPolicyContainer
+;
+class
 nsIPrincipal
 ;
 class
@@ -3350,9 +3353,9 @@ DocumentPrincipal
 )
 ;
 }
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-GetCsp
+GetPolicyContainer
 (
 )
 const

@@ -166,7 +166,7 @@ mozilla
 %
 }
 interface
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 interface
 nsIFile
@@ -657,7 +657,7 @@ triggeringPrincipal
 *
 the
 triggering
-csp
+policyContainer
 .
 This
 may
@@ -668,7 +668,7 @@ sourceNode
 '
 s
 *
-csp
+policyContainer
 when
 sourceNode
 is
@@ -691,8 +691,8 @@ it
 *
 /
 attribute
-nsIContentSecurityPolicy
-csp
+nsIPolicyContainer
+policyContainer
 ;
 /
 *

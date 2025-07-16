@@ -8511,9 +8511,9 @@ SetInitialPrincipal
 nsIPrincipal
 *
 aNewWindowPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCSP
+aPolicyContainer
 const
 Maybe
 <
@@ -8640,7 +8640,7 @@ CreateAboutBlankDocumentViewer
 (
 aNewWindowPrincipal
 aNewWindowPrincipal
-aCSP
+aPolicyContainer
 nullptr
 true
 aCOEP

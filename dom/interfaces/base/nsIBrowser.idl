@@ -67,6 +67,9 @@ interface
 nsIContentSecurityPolicy
 ;
 interface
+nsIPolicyContainer
+;
+interface
 nsIPrincipal
 ;
 interface
@@ -792,8 +795,8 @@ in
 nsIPrincipal
 aContentPartitionedPrincipal
 in
-nsIContentSecurityPolicy
-aCSP
+nsIPolicyContainer
+aPolicyContainer
 in
 nsIReferrerInfo
 aReferrerInfo

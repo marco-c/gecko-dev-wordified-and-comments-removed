@@ -797,9 +797,9 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 bool
 aOriginalSrc
 bool
@@ -1245,10 +1245,10 @@ nsIPrincipal
 *
 *
 aTriggeringPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 )
 ;
 nsresult
@@ -1643,9 +1643,9 @@ mTriggeringPrincipal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-mCsp
+mPolicyContainer
 ;
 nsCOMPtr
 <

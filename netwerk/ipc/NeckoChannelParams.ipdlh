@@ -774,9 +774,9 @@ cookieJarSettings
 uint32_t
 requestBlockingReason
 ;
-CSPInfo
+PolicyContainerArgs
 ?
-cspToInheritInfo
+policyContainerToInherit
 ;
 StoragePermissionState
 storagePermission

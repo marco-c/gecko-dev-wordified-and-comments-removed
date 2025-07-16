@@ -137,9 +137,9 @@ mTriggeringPrincipal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-mCsp
+mPolicyContainer
 ;
 }
 ;
