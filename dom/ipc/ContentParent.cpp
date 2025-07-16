@@ -9284,13 +9284,6 @@ QOS_PRIORITY_NORMAL
 )
 ;
 }
-Unused
-<
-<
-SendShutdownConfirmedHP
-(
-)
-;
 if
 (
 SendShutdown

@@ -2338,17 +2338,6 @@ ipc
 :
 :
 IPCResult
-RecvShutdownConfirmedHP
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvShutdown
 (
 )
