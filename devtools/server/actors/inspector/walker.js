@@ -1533,9 +1533,6 @@ null
 traits
 :
 {
-getSuggestionsForQueryWithoutCount
-:
-true
 }
 }
 ;
