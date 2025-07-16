@@ -186,11 +186,13 @@ nullptr
 ;
 mStart
 =
+RangeBoundaryType
 {
 }
 ;
 mEnd
 =
+RangeBoundaryType
 {
 }
 ;

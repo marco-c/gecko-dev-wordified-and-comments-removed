@@ -176,6 +176,8 @@ nsINode
 aNode
 bool
 aIsDynamicRange
+TreeKind
+aBoundaryTreeKind
 )
 ;
 virtual
