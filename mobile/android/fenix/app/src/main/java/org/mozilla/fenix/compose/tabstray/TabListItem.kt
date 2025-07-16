@@ -921,6 +921,11 @@ isSwipingToStart
 =
 swipeState
 .
+swipingActive
+&
+&
+swipeState
+.
 isSwipingToStart
 )
 }
