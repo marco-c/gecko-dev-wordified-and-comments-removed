@@ -11847,7 +11847,6 @@ UnusedResources
 >
 Jo
 jedna
-zadnja
 stvar
 <
 /
@@ -16882,15 +16881,16 @@ files
 s
 is
 the
-brand
+name
 of
 the
-phone
+app
 (
 for
 example
-:
-Samsung
+"
+Firefox
+"
 )
 .
 -
@@ -17400,7 +17400,7 @@ Ovaj
 pro
 irenje
 ne
-zahtjeva
+zahtijeva
 dozvole
 .
 <
@@ -41131,7 +41131,7 @@ preference_doh_default_protection_info_1
 "
 >
 Koristi
-tvog
+svog
 odabranog
 pru
 atelja
@@ -41172,7 +41172,7 @@ preference_doh_default_protection_info_2
 "
 >
 Koristi
-tvog
+svog
 standarnog
 DNS
 prevoditelja
@@ -41513,7 +41513,7 @@ preference_doh_increased_protection_info_1
 "
 >
 Koristi
-tvog
+svog
 odabranog
 pru
 atelja
@@ -41876,7 +41876,7 @@ preference_doh_off_summary
 "
 >
 Koristi
-tvog
+svog
 standarnog
 DNS
 prevoditelja
@@ -43704,10 +43704,10 @@ sinkronizira
 u
 %
 s
+prikazat
 e
 se
 ovdje
-prikazati
 .
 Sve
 spremljene
@@ -57971,8 +57971,7 @@ connection_security_panel_verified_by
 "
 >
 Potvr
-eno
-od
+uje
 %
 s
 <
