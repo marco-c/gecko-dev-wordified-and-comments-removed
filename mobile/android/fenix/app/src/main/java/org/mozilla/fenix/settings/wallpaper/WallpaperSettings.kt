@@ -1799,7 +1799,7 @@ large
 border
 =
 border
-elevation
+shadowElevation
 =
 FirefoxTheme
 .
