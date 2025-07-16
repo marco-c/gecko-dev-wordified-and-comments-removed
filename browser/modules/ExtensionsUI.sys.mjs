@@ -546,9 +546,7 @@ webextension
 -
 update
 -
-permission
--
-prompt
+permissions
 "
 )
 ;
@@ -1757,9 +1755,7 @@ webextension
 -
 update
 -
-permission
--
-prompt
+permissions
 "
 )
 {
