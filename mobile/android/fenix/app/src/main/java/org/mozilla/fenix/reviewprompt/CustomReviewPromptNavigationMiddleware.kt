@@ -286,13 +286,6 @@ PositivePrePromptButtonClicked
 >
 {
 }
-CustomReviewPromptAction
-.
-Displayed
--
->
-{
-}
 }
 next
 (
