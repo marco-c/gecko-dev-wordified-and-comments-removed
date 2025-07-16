@@ -18582,8 +18582,6 @@ GetWritingMode
 (
 )
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if

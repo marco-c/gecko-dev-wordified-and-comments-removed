@@ -1157,8 +1157,6 @@ MaxISize
 (
 mWritingMode
 anchorResolutionParams
-.
-mPosition
 )
 )
 )
@@ -2634,8 +2632,6 @@ MaxBSize
 (
 mWritingMode
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -2754,8 +2750,6 @@ MaxBSize
 (
 mWritingMode
 containingBlkAnchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -3608,8 +3602,6 @@ wm
 anchorResolutionParams
 .
 mBaseParams
-.
-mPosition
 )
 ;
 if
@@ -14476,8 +14468,6 @@ MaxISize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -14504,8 +14494,6 @@ MaxBSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 LogicalSize
