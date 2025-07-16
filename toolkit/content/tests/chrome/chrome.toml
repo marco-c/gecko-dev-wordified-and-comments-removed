@@ -1752,6 +1752,13 @@ xhtml
 ]
 [
 "
+test_popup_triggerEvent
+.
+xhtml
+"
+]
+[
+"
 test_popuphidden
 .
 xhtml
