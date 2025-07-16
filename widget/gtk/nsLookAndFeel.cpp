@@ -6051,9 +6051,7 @@ aResult
 =
 int32_t
 (
-EffectiveTheme
-(
-)
+mSystemTheme
 .
 mFamily
 )
