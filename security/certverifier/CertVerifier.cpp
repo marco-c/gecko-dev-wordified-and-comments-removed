@@ -1089,9 +1089,6 @@ log
 state
 log
 .
-format
-log
-.
 timestamp
 )
 ;

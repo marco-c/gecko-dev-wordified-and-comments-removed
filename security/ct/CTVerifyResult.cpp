@@ -33,8 +33,6 @@ CTLogOperatorId
 logOperatorId
 CTLogState
 logState
-CTLogFormat
-logFormat
 uint64_t
 logTimestamp
 )
@@ -60,10 +58,6 @@ logOperatorId
 logState
 (
 logState
-)
-logFormat
-(
-logFormat
 )
 logTimestamp
 (
