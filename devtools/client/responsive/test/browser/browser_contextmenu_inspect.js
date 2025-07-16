@@ -270,11 +270,6 @@ Element
 "
 )
 ;
-await
-closeToolbox
-(
-)
-;
 }
 )
 ;

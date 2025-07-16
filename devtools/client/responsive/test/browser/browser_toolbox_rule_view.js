@@ -157,7 +157,7 @@ inspector
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

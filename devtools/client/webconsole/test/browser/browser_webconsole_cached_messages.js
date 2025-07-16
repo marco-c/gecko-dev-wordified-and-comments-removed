@@ -218,7 +218,7 @@ tab
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -303,7 +303,7 @@ toolbox
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

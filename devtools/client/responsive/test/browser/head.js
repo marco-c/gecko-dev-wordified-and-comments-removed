@@ -694,6 +694,11 @@ onlyPrefAndTask
 )
 {
 await
+closeToolboxIfOpen
+(
+)
+;
+await
 closeRDM
 (
 tab

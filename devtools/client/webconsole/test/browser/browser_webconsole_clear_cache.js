@@ -99,7 +99,7 @@ console
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -220,7 +220,7 @@ console
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -421,7 +421,7 @@ console
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -623,7 +623,7 @@ console
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

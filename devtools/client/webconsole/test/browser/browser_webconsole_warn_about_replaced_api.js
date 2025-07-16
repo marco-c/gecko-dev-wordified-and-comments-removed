@@ -126,7 +126,7 @@ hud
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

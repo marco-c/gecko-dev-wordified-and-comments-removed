@@ -388,7 +388,7 @@ activated
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

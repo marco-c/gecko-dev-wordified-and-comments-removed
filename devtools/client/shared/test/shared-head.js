@@ -5140,7 +5140,7 @@ options
 }
 async
 function
-closeToolbox
+closeToolboxIfOpen
 (
 )
 {

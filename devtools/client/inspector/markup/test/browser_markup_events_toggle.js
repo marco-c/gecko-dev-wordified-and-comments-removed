@@ -1509,7 +1509,7 @@ enabled
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
