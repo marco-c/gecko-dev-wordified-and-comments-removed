@@ -405,6 +405,13 @@ defined
 (
 JS_SIMULATOR_ARM
 )
+|
+|
+\
+defined
+(
+JS_SIMULATOR_RISCV64
+)
 void
 switchSimulatorToMain
 (
