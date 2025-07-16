@@ -3614,14 +3614,6 @@ mMode
 (
 aMode
 )
-mContainsBlendMode
-(
-false
-)
-mContainsBackdropFilter
-(
-false
-)
 mIsBuildingScrollbar
 (
 false
