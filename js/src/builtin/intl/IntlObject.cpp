@@ -3615,10 +3615,9 @@ auto
 *
 timeZone
 =
-intl
-:
-:
-CanonicalizeTimeZone
+sharedIntlData
+.
+canonicalizeTimeZone
 (
 cx
 validatedTimeZone
