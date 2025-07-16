@@ -39,7 +39,7 @@ throughput
 because
 of
 #
-overlayfs
+AUFS
 slowness
 .
 VOLUME
@@ -85,13 +85,6 @@ builds
 worker
 /
 checkouts
-VOLUME
-/
-builds
-/
-worker
-/
-fetches
 VOLUME
 /
 builds
