@@ -454,7 +454,6 @@ hasNotBeenPromptedLastFourMonths
 companion
 object
 {
-private
 const
 val
 APPRX_MONTH_IN_MILLIS
@@ -470,13 +469,11 @@ Long
 24L
 *
 30L
-private
 const
 val
 NUMBER_OF_LAUNCHES_REQUIRED
 =
 5
-private
 const
 val
 NUMBER_OF_MONTHS_TO_PASS

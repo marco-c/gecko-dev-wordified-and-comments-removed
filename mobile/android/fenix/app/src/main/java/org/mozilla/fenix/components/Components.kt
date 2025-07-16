@@ -765,6 +765,16 @@ mozilla
 .
 fenix
 .
+reviewprompt
+.
+ReviewPromptMiddleware
+import
+org
+.
+mozilla
+.
+fenix
+.
 utils
 .
 Settings
@@ -1804,6 +1814,10 @@ context
 )
 SetupChecklistTelemetryMiddleware
 (
+)
+ReviewPromptMiddleware
+(
+settings
 )
 )
 )
