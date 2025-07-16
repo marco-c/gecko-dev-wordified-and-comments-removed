@@ -5717,16 +5717,6 @@ DRAINING
 :
 while
 (
-mOutputs
-.
-Length
-(
-)
-=
-=
-0
-&
-&
 mDrainState
 !
 =
