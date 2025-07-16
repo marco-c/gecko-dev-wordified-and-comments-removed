@@ -1545,6 +1545,9 @@ distinctUntilChangedBy
 {
 it
 .
+selectedSearchEngine
+?
+.
 shortcutSearchEngine
 }
 .
@@ -1552,7 +1555,7 @@ collect
 {
 it
 .
-shortcutSearchEngine
+selectedSearchEngine
 ?
 .
 let
@@ -1561,6 +1564,8 @@ updateStartPageActions
 (
 store
 it
+.
+shortcutSearchEngine
 )
 }
 }

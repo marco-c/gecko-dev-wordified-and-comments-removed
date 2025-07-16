@@ -484,6 +484,9 @@ SearchStarted
 selectedSearchEngine
 =
 null
+isUserSelected
+=
+true
 inPrivateMode
 =
 environment

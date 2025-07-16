@@ -1157,6 +1157,9 @@ appStore
 .
 state
 .
+selectedSearchEngine
+?
+.
 shortcutSearchEngine
 ?
 :
@@ -1318,6 +1321,7 @@ SearchEngineSelected
 action
 .
 searchEngine
+true
 )
 )
 refreshConfigurationAfterSearchEngineChange
@@ -1685,6 +1689,9 @@ distinctUntilChangedBy
 {
 it
 .
+selectedSearchEngine
+?
+.
 shortcutSearchEngine
 }
 .
@@ -1692,7 +1699,7 @@ collect
 {
 it
 .
-shortcutSearchEngine
+selectedSearchEngine
 ?
 .
 let
@@ -1701,6 +1708,8 @@ refreshConfigurationAfterSearchEngineChange
 (
 store
 it
+.
+shortcutSearchEngine
 )
 }
 }

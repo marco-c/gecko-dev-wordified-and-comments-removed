@@ -3733,6 +3733,7 @@ dispatch
 SearchEngineSelected
 (
 newSearchEngine
+true
 )
 )
 .

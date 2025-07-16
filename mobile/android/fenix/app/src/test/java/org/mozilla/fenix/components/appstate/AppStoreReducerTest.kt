@@ -713,7 +713,7 @@ initialState
 =
 AppState
 (
-shortcutSearchEngine
+selectedSearchEngine
 =
 mockk
 (
@@ -740,7 +740,7 @@ assertNull
 (
 updatedState
 .
-shortcutSearchEngine
+selectedSearchEngine
 )
 }
 Test
@@ -771,7 +771,7 @@ assertNull
 (
 initialState
 .
-shortcutSearchEngine
+selectedSearchEngine
 )
 val
 newSearchEngineSelection
@@ -794,14 +794,19 @@ AppAction
 SearchEngineSelected
 (
 newSearchEngineSelection
+true
 )
 )
 assertEquals
 (
+SelectedSearchEngine
+(
 newSearchEngineSelection
+true
+)
 updatedState
 .
-shortcutSearchEngine
+selectedSearchEngine
 )
 }
 Test
