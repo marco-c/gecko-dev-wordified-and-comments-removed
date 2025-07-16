@@ -129,6 +129,10 @@ CTLogState
 :
 :
 Admissible
+CTLogFormat
+:
+:
+RFC6962
 0
 )
 ;
@@ -1047,6 +1051,10 @@ CTLogState
 :
 :
 Retired
+CTLogFormat
+:
+:
+RFC6962
 retiredTime
 )
 ;

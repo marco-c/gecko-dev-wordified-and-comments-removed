@@ -523,6 +523,8 @@ CTLogOperatorId
 operatorId
 CTLogState
 state
+CTLogFormat
+format
 uint64_t
 timestamp
 )
@@ -544,6 +546,10 @@ operatorId
 mState
 (
 state
+)
+mFormat
+(
+format
 )
 mTimestamp
 (
