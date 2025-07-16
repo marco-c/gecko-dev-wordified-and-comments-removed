@@ -8367,6 +8367,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 neg
@@ -8402,6 +8403,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 add
@@ -8449,6 +8451,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 add
@@ -8484,6 +8487,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 sub
@@ -8531,6 +8535,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 sub
@@ -8566,6 +8571,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 mul
@@ -8613,6 +8619,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 mul

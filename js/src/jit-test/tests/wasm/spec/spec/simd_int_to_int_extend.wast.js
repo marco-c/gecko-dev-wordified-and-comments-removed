@@ -10592,6 +10592,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extend_high_i8x16_s
@@ -10627,6 +10628,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extend_high_i8x16_u
@@ -10662,6 +10664,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extend_low_i8x16_s
@@ -10697,6 +10700,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extend_low_i8x16_u
@@ -10732,6 +10736,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 extend_high_i16x8_s
@@ -10767,6 +10772,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 extend_high_i16x8_u
@@ -10802,6 +10808,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 extend_low_i16x8_s
@@ -10837,6 +10844,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 extend_low_i16x8_u
@@ -10872,6 +10880,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extend_high_i32x4_s
@@ -10907,6 +10916,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extend_high_i32x4_u
@@ -10942,6 +10952,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extend_low_i32x4_s
@@ -10977,6 +10988,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extend_low_i32x4_u

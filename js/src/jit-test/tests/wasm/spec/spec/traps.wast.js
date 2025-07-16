@@ -19,11 +19,13 @@ div_s
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -37,12 +39,14 @@ div_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -62,11 +66,13 @@ div_u
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -80,12 +86,14 @@ div_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -105,11 +113,13 @@ div_s
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -123,12 +133,14 @@ div_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -148,11 +160,13 @@ div_u
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -166,12 +180,14 @@ div_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -351,11 +367,13 @@ rem_s
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -369,12 +387,14 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -394,11 +414,13 @@ rem_u
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -412,12 +434,14 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -437,11 +461,13 @@ rem_s
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -455,12 +481,14 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -480,11 +508,13 @@ rem_u
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -498,12 +528,14 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )
@@ -633,6 +665,7 @@ trunc_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -646,6 +679,7 @@ trunc_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -665,6 +699,7 @@ trunc_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -678,6 +713,7 @@ trunc_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -697,6 +733,7 @@ trunc_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -710,6 +747,7 @@ trunc_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -729,6 +767,7 @@ trunc_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -742,6 +781,7 @@ trunc_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -761,6 +801,7 @@ trunc_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -774,6 +815,7 @@ trunc_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -793,6 +835,7 @@ trunc_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -806,6 +849,7 @@ trunc_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -825,6 +869,7 @@ trunc_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -838,6 +883,7 @@ trunc_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -857,6 +903,7 @@ trunc_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -870,6 +917,7 @@ trunc_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -1199,6 +1247,7 @@ load
 )
 (
 param
+\
 i
 i32
 )
@@ -1212,6 +1261,7 @@ load
 local
 .
 get
+\
 i
 )
 )
@@ -1231,6 +1281,7 @@ load16_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1244,6 +1295,7 @@ load16_s
 local
 .
 get
+\
 i
 )
 )
@@ -1263,6 +1315,7 @@ load16_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1276,6 +1329,7 @@ load16_u
 local
 .
 get
+\
 i
 )
 )
@@ -1295,6 +1349,7 @@ load8_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1308,6 +1363,7 @@ load8_s
 local
 .
 get
+\
 i
 )
 )
@@ -1327,6 +1383,7 @@ load8_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1340,6 +1397,7 @@ load8_u
 local
 .
 get
+\
 i
 )
 )
@@ -1359,6 +1417,7 @@ load
 )
 (
 param
+\
 i
 i32
 )
@@ -1372,6 +1431,7 @@ load
 local
 .
 get
+\
 i
 )
 )
@@ -1391,6 +1451,7 @@ load32_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1404,6 +1465,7 @@ load32_s
 local
 .
 get
+\
 i
 )
 )
@@ -1423,6 +1485,7 @@ load32_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1436,6 +1499,7 @@ load32_u
 local
 .
 get
+\
 i
 )
 )
@@ -1455,6 +1519,7 @@ load16_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1468,6 +1533,7 @@ load16_s
 local
 .
 get
+\
 i
 )
 )
@@ -1487,6 +1553,7 @@ load16_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1500,6 +1567,7 @@ load16_u
 local
 .
 get
+\
 i
 )
 )
@@ -1519,6 +1587,7 @@ load8_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1532,6 +1601,7 @@ load8_s
 local
 .
 get
+\
 i
 )
 )
@@ -1551,6 +1621,7 @@ load8_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1564,6 +1635,7 @@ load8_u
 local
 .
 get
+\
 i
 )
 )
@@ -1583,6 +1655,7 @@ load
 )
 (
 param
+\
 i
 i32
 )
@@ -1596,6 +1669,7 @@ load
 local
 .
 get
+\
 i
 )
 )
@@ -1615,6 +1689,7 @@ load
 )
 (
 param
+\
 i
 i32
 )
@@ -1628,6 +1703,7 @@ load
 local
 .
 get
+\
 i
 )
 )

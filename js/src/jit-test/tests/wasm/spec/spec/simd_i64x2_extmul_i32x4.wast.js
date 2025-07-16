@@ -4912,6 +4912,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_low_i32x4_s
@@ -4957,6 +4958,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_low_i32x4_s
@@ -4992,6 +4994,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_high_i32x4_s
@@ -5037,6 +5040,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_high_i32x4_s
@@ -5072,6 +5076,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_low_i32x4_u
@@ -5117,6 +5122,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_low_i32x4_u
@@ -5152,6 +5158,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_high_i32x4_u
@@ -5197,6 +5204,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extmul_high_i32x4_u

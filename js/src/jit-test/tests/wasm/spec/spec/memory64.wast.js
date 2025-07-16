@@ -1102,6 +1102,7 @@ i32_load8_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1123,6 +1124,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1148,6 +1150,7 @@ i32_load8_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1169,6 +1172,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1194,6 +1198,7 @@ i32_load16_s
 )
 (
 param
+\
 i
 i32
 )
@@ -1215,6 +1220,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1240,6 +1246,7 @@ i32_load16_u
 )
 (
 param
+\
 i
 i32
 )
@@ -1261,6 +1268,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1286,6 +1294,7 @@ i64_load8_s
 )
 (
 param
+\
 i
 i64
 )
@@ -1307,6 +1316,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1332,6 +1342,7 @@ i64_load8_u
 )
 (
 param
+\
 i
 i64
 )
@@ -1353,6 +1364,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1378,6 +1390,7 @@ i64_load16_s
 )
 (
 param
+\
 i
 i64
 )
@@ -1399,6 +1412,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1424,6 +1438,7 @@ i64_load16_u
 )
 (
 param
+\
 i
 i64
 )
@@ -1445,6 +1460,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1470,6 +1486,7 @@ i64_load32_s
 )
 (
 param
+\
 i
 i64
 )
@@ -1491,6 +1508,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1516,6 +1534,7 @@ i64_load32_u
 )
 (
 param
+\
 i
 i64
 )
@@ -1537,6 +1556,7 @@ const
 local
 .
 get
+\
 i
 )
 )

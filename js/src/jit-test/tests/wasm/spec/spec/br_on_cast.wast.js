@@ -7,6 +7,7 @@ instantiate
 module
 (
 type
+\
 ft
 (
 func
@@ -18,6 +19,7 @@ i32
 )
 (
 type
+\
 st
 (
 struct
@@ -29,6 +31,7 @@ i16
 )
 (
 type
+\
 at
 (
 array
@@ -44,10 +47,12 @@ anyref
 elem
 declare
 func
+\
 f
 )
 (
 func
+\
 f
 (
 result
@@ -70,6 +75,7 @@ init
 )
 (
 param
+\
 x
 externref
 )
@@ -126,6 +132,7 @@ const
 struct
 .
 new
+\
 st
 (
 i32
@@ -149,6 +156,7 @@ const
 array
 .
 new
+\
 at
 (
 i32
@@ -182,6 +190,7 @@ convert_extern
 local
 .
 get
+\
 x
 )
 )
@@ -197,6 +206,7 @@ br_on_null
 )
 (
 param
+\
 i
 i32
 )
@@ -206,9 +216,11 @@ i32
 )
 (
 block
+\
 l
 (
 br_on_null
+\
 l
 (
 table
@@ -218,6 +230,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -250,6 +263,7 @@ br_on_i31
 )
 (
 param
+\
 i
 i32
 )
@@ -259,6 +273,7 @@ i32
 )
 (
 block
+\
 l
 (
 result
@@ -269,6 +284,7 @@ i31
 )
 (
 br_on_cast
+\
 l
 anyref
 (
@@ -283,6 +299,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -314,6 +331,7 @@ br_on_struct
 )
 (
 param
+\
 i
 i32
 )
@@ -323,6 +341,7 @@ i32
 )
 (
 block
+\
 l
 (
 result
@@ -333,6 +352,7 @@ struct
 )
 (
 br_on_cast
+\
 l
 anyref
 (
@@ -347,6 +367,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -364,6 +385,7 @@ const
 )
 (
 block
+\
 l2
 (
 param
@@ -373,11 +395,13 @@ structref
 result
 (
 ref
+\
 st
 )
 )
 (
 block
+\
 l3
 (
 param
@@ -387,24 +411,29 @@ structref
 result
 (
 ref
+\
 at
 )
 )
 (
 br_on_cast
+\
 l2
 structref
 (
 ref
+\
 st
 )
 )
 (
 br_on_cast
+\
 l3
 anyref
 (
 ref
+\
 at
 )
 )
@@ -425,6 +454,7 @@ return
 array
 .
 get_u
+\
 at
 (
 i32
@@ -439,6 +469,7 @@ const
 struct
 .
 get_s
+\
 st
 0
 )
@@ -453,6 +484,7 @@ br_on_array
 )
 (
 param
+\
 i
 i32
 )
@@ -462,6 +494,7 @@ i32
 )
 (
 block
+\
 l
 (
 result
@@ -472,6 +505,7 @@ array
 )
 (
 br_on_cast
+\
 l
 anyref
 (
@@ -486,6 +520,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -519,6 +554,7 @@ diff
 )
 (
 param
+\
 i
 i32
 )
@@ -528,6 +564,7 @@ i32
 )
 (
 block
+\
 l
 (
 result
@@ -548,6 +585,7 @@ any
 )
 (
 br_on_cast
+\
 l
 (
 ref
@@ -567,6 +605,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -1267,6 +1306,7 @@ instantiate
 module
 (
 type
+\
 t0
 (
 sub
@@ -1277,9 +1317,11 @@ struct
 )
 (
 type
+\
 t1
 (
 sub
+\
 t0
 (
 struct
@@ -1292,10 +1334,12 @@ i32
 )
 (
 type
+\
 t1
 '
 (
 sub
+\
 t0
 (
 struct
@@ -1308,9 +1352,11 @@ i32
 )
 (
 type
+\
 t2
 (
 sub
+\
 t1
 (
 struct
@@ -1324,10 +1370,12 @@ i32
 )
 (
 type
+\
 t2
 '
 (
 sub
+\
 t1
 '
 (
@@ -1342,9 +1390,11 @@ i32
 )
 (
 type
+\
 t3
 (
 sub
+\
 t0
 (
 struct
@@ -1358,10 +1408,12 @@ i32
 )
 (
 type
+\
 t0
 '
 (
 sub
+\
 t0
 (
 struct
@@ -1370,9 +1422,11 @@ struct
 )
 (
 type
+\
 t4
 (
 sub
+\
 t0
 '
 (
@@ -1392,6 +1446,7 @@ structref
 )
 (
 func
+\
 init
 (
 table
@@ -1407,6 +1462,7 @@ const
 struct
 .
 new_default
+\
 t0
 )
 )
@@ -1424,6 +1480,7 @@ const
 struct
 .
 new_default
+\
 t0
 '
 )
@@ -1442,6 +1499,7 @@ const
 struct
 .
 new_default
+\
 t1
 )
 )
@@ -1459,6 +1517,7 @@ const
 struct
 .
 new_default
+\
 t1
 '
 )
@@ -1477,6 +1536,7 @@ const
 struct
 .
 new_default
+\
 t2
 )
 )
@@ -1494,6 +1554,7 @@ const
 struct
 .
 new_default
+\
 t2
 '
 )
@@ -1512,6 +1573,7 @@ const
 struct
 .
 new_default
+\
 t3
 )
 )
@@ -1529,6 +1591,7 @@ const
 struct
 .
 new_default
+\
 t4
 )
 )
@@ -1545,10 +1608,12 @@ sub
 )
 (
 call
+\
 init
 )
 (
 block
+\
 l
 (
 result
@@ -1572,6 +1637,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1597,6 +1663,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1627,6 +1694,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1657,6 +1725,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1687,6 +1756,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1717,6 +1787,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -1747,6 +1818,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 )
 (
@@ -1772,6 +1844,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 )
 (
@@ -1802,6 +1875,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 )
 (
@@ -1832,6 +1906,7 @@ br_on_cast
 structref
 (
 ref
+\
 t2
 )
 (
@@ -1857,6 +1932,7 @@ br_on_cast
 structref
 (
 ref
+\
 t2
 )
 (
@@ -1887,6 +1963,7 @@ br_on_cast
 structref
 (
 ref
+\
 t3
 )
 (
@@ -1912,6 +1989,7 @@ br_on_cast
 structref
 (
 ref
+\
 t3
 )
 (
@@ -1942,6 +2020,7 @@ br_on_cast
 structref
 (
 ref
+\
 t4
 )
 (
@@ -1967,6 +2046,7 @@ br_on_cast
 structref
 (
 ref
+\
 t4
 )
 (
@@ -1990,10 +2070,12 @@ not
 succeed
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t1
 )
 (
@@ -2010,10 +2092,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t1
 )
 (
@@ -2030,10 +2114,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t1
 )
 (
@@ -2050,10 +2136,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t2
 )
 (
@@ -2070,10 +2158,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t2
 )
 (
@@ -2090,10 +2180,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t2
 )
 (
@@ -2110,10 +2202,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t2
 )
 (
@@ -2130,10 +2224,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t3
 )
 (
@@ -2150,10 +2246,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t3
 )
 (
@@ -2170,10 +2268,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t3
 )
 (
@@ -2190,10 +2290,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t3
 )
 (
@@ -2210,10 +2312,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t4
 )
 (
@@ -2230,10 +2334,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t4
 )
 (
@@ -2250,10 +2356,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t4
 )
 (
@@ -2270,10 +2378,12 @@ const
 )
 (
 br_on_cast
+\
 l
 anyref
 (
 ref
+\
 t4
 )
 (
@@ -2308,10 +2418,12 @@ canon
 )
 (
 call
+\
 init
 )
 (
 block
+\
 l
 (
 drop
@@ -2327,6 +2439,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 '
 )
@@ -2358,6 +2471,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 '
 )
@@ -2389,6 +2503,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 '
 )
@@ -2420,6 +2535,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 '
 )
@@ -2451,6 +2567,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 '
 )
@@ -2482,6 +2599,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -2512,6 +2630,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -2542,6 +2661,7 @@ br_on_cast
 structref
 (
 ref
+\
 t0
 )
 (
@@ -2572,6 +2692,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 '
 )
@@ -2603,6 +2724,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 '
 )
@@ -2634,6 +2756,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 )
 (
@@ -2664,6 +2787,7 @@ br_on_cast
 structref
 (
 ref
+\
 t1
 )
 (
@@ -2694,6 +2818,7 @@ br_on_cast
 structref
 (
 ref
+\
 t2
 '
 )
@@ -2725,6 +2850,7 @@ br_on_cast
 structref
 (
 ref
+\
 t2
 )
 (
@@ -2781,6 +2907,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 struct
@@ -2799,6 +2926,7 @@ any
 result
 (
 ref
+\
 t
 )
 )
@@ -2820,6 +2948,7 @@ any
 )
 (
 ref
+\
 t
 )
 (
@@ -2848,6 +2977,7 @@ any
 result
 (
 ref
+\
 t
 )
 )
@@ -2871,6 +3001,7 @@ any
 )
 (
 ref
+\
 t
 )
 (
@@ -2900,6 +3031,7 @@ result
 (
 ref
 null
+\
 t
 )
 )
@@ -2924,6 +3056,7 @@ any
 (
 ref
 null
+\
 t
 )
 (
@@ -2953,6 +3086,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 struct
@@ -2971,6 +3105,7 @@ any
 result
 (
 ref
+\
 t
 )
 )
@@ -2994,6 +3129,7 @@ any
 (
 ref
 null
+\
 t
 )
 (
@@ -3026,6 +3162,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 struct
@@ -3045,6 +3182,7 @@ result
 (
 ref
 null
+\
 t
 )
 )
@@ -3067,6 +3205,7 @@ any
 (
 ref
 null
+\
 t
 )
 (
@@ -3099,6 +3238,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 struct
@@ -3118,6 +3258,7 @@ any
 result
 (
 ref
+\
 t
 )
 )
@@ -3140,6 +3281,7 @@ any
 )
 (
 ref
+\
 t
 )
 (
@@ -3236,6 +3378,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3243,12 +3386,14 @@ func
 )
 (
 func
+\
 f
 (
 param
 (
 ref
 null
+\
 t
 )
 )
@@ -3278,6 +3423,7 @@ funcref
 ref
 .
 null
+\
 t
 )
 (
@@ -3292,6 +3438,7 @@ br_on_cast
 funcref
 (
 ref
+\
 t
 )
 )
@@ -3311,6 +3458,7 @@ drop
 )
 (
 call
+\
 f
 )
 (

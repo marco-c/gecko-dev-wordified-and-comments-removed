@@ -169,6 +169,7 @@ load8x8_s
 )
 (
 param
+\
 0
 i32
 )
@@ -184,6 +185,7 @@ load8x8_s
 local
 .
 get
+\
 0
 )
 )
@@ -200,6 +202,7 @@ load8x8_u
 )
 (
 param
+\
 0
 i32
 )
@@ -215,6 +218,7 @@ load8x8_u
 local
 .
 get
+\
 0
 )
 )
@@ -231,6 +235,7 @@ load16x4_s
 )
 (
 param
+\
 0
 i32
 )
@@ -246,6 +251,7 @@ load16x4_s
 local
 .
 get
+\
 0
 )
 )
@@ -262,6 +268,7 @@ load16x4_u
 )
 (
 param
+\
 0
 i32
 )
@@ -277,6 +284,7 @@ load16x4_u
 local
 .
 get
+\
 0
 )
 )
@@ -293,6 +301,7 @@ load32x2_s
 )
 (
 param
+\
 0
 i32
 )
@@ -308,6 +317,7 @@ load32x2_s
 local
 .
 get
+\
 0
 )
 )
@@ -324,6 +334,7 @@ load32x2_u
 )
 (
 param
+\
 0
 i32
 )
@@ -339,6 +350,7 @@ load32x2_u
 local
 .
 get
+\
 0
 )
 )
@@ -531,6 +543,7 @@ load8x8_s_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -549,6 +562,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -565,6 +579,7 @@ load8x8_s_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -583,6 +598,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -599,6 +615,7 @@ load8x8_s_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -620,6 +637,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -636,6 +654,7 @@ load8x8_s_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -657,6 +676,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -673,6 +693,7 @@ load8x8_s_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -694,6 +715,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -710,6 +732,7 @@ load8x8_s_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -731,6 +754,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -747,6 +771,7 @@ load8x8_u_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -765,6 +790,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -781,6 +807,7 @@ load8x8_u_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -799,6 +826,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -815,6 +843,7 @@ load8x8_u_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -836,6 +865,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -852,6 +882,7 @@ load8x8_u_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -873,6 +904,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -889,6 +921,7 @@ load8x8_u_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -910,6 +943,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -926,6 +960,7 @@ load8x8_u_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -947,6 +982,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -966,6 +1002,7 @@ load16x4_s_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -984,6 +1021,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -1000,6 +1038,7 @@ load16x4_s_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1018,6 +1057,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1034,6 +1074,7 @@ load16x4_s_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1055,6 +1096,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1071,6 +1113,7 @@ load16x4_s_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1092,6 +1135,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1108,6 +1152,7 @@ load16x4_s_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -1129,6 +1174,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1145,6 +1191,7 @@ load16x4_s_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -1166,6 +1213,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1182,6 +1230,7 @@ load16x4_u_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -1200,6 +1249,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -1216,6 +1266,7 @@ load16x4_u_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1234,6 +1285,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1250,6 +1302,7 @@ load16x4_u_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1271,6 +1324,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1287,6 +1341,7 @@ load16x4_u_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1308,6 +1363,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1324,6 +1380,7 @@ load16x4_u_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -1345,6 +1402,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1361,6 +1419,7 @@ load16x4_u_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -1382,6 +1441,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1401,6 +1461,7 @@ load32x2_s_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -1419,6 +1480,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -1435,6 +1497,7 @@ load32x2_s_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1453,6 +1516,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1469,6 +1533,7 @@ load32x2_s_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1490,6 +1555,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1506,6 +1572,7 @@ load32x2_s_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1527,6 +1594,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1543,6 +1611,7 @@ load32x2_s_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -1564,6 +1633,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1580,6 +1650,7 @@ load32x2_s_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -1601,6 +1672,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1617,6 +1689,7 @@ load32x2_u_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -1635,6 +1708,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -1651,6 +1725,7 @@ load32x2_u_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1669,6 +1744,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1685,6 +1761,7 @@ load32x2_u_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1706,6 +1783,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1722,6 +1800,7 @@ load32x2_u_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -1743,6 +1822,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1759,6 +1839,7 @@ load32x2_u_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -1780,6 +1861,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1796,6 +1878,7 @@ load32x2_u_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -1817,6 +1900,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -3956,6 +4040,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load8x8_s
@@ -3995,6 +4080,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load8x8_u
@@ -4034,6 +4120,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load16x4_s
@@ -4073,6 +4160,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load16x4_u
@@ -4112,6 +4200,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load32x2_s
@@ -4151,6 +4240,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load32x2_u

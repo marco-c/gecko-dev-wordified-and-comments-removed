@@ -11,10 +11,12 @@ Auxiliary
 definitions
 (
 func
+\
 dummy
 )
 (
 func
+\
 3
 -
 ary
@@ -95,6 +97,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -125,6 +128,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -161,6 +165,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -575,6 +580,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -615,6 +621,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -658,6 +665,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -734,6 +742,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -771,6 +780,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -814,6 +824,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -864,6 +875,7 @@ if
 then
 (
 call
+\
 dummy
 )
 )
@@ -903,6 +915,7 @@ nop
 else
 (
 call
+\
 dummy
 )
 )
@@ -936,6 +949,7 @@ get
 then
 (
 call
+\
 dummy
 )
 )
@@ -1642,6 +1656,7 @@ get
 )
 (
 call
+\
 3
 -
 ary
@@ -1692,6 +1707,7 @@ get
 )
 (
 call
+\
 3
 -
 ary
@@ -1742,6 +1758,7 @@ get
 )
 (
 call
+\
 3
 -
 ary
@@ -1792,6 +1809,7 @@ nop
 )
 (
 call
+\
 3
 -
 ary
@@ -1863,6 +1881,7 @@ nop
 )
 (
 call
+\
 3
 -
 ary
@@ -2568,6 +2587,7 @@ grow
 )
 (
 func
+\
 func
 (
 param
@@ -2587,6 +2607,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -2606,6 +2627,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -2656,6 +2678,7 @@ const
 call_indirect
 (
 type
+\
 check
 )
 )
@@ -2708,6 +2731,7 @@ const
 call_indirect
 (
 type
+\
 check
 )
 )
@@ -2760,6 +2784,7 @@ const
 call_indirect
 (
 type
+\
 check
 )
 )
@@ -2812,6 +2837,7 @@ nop
 call_indirect
 (
 type
+\
 check
 )
 )
@@ -2885,6 +2911,7 @@ nop
 call_indirect
 (
 type
+\
 check
 )
 )
@@ -3156,6 +3183,7 @@ tee
 )
 (
 global
+\
 a
 (
 mut
@@ -3199,12 +3227,14 @@ const
 global
 .
 set
+\
 a
 )
 (
 global
 .
 get
+\
 a
 )
 )
@@ -3239,12 +3269,14 @@ nop
 global
 .
 set
+\
 a
 )
 (
 global
 .
 get
+\
 a
 )
 )
@@ -3294,6 +3326,7 @@ set
 global
 .
 get
+\
 a
 )
 )
@@ -5930,6 +5963,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 i32
@@ -5959,6 +5993,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 i64
@@ -5988,6 +6023,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 f32
@@ -6017,6 +6053,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 f64

@@ -105238,6 +105238,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 neg
@@ -105273,6 +105274,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 sqrt
@@ -105308,6 +105310,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 add
@@ -105353,6 +105356,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 add
@@ -105388,6 +105392,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 sub
@@ -105433,6 +105438,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 sub
@@ -105468,6 +105474,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 mul
@@ -105513,6 +105520,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 mul
@@ -105548,6 +105556,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 div
@@ -105593,6 +105602,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 div

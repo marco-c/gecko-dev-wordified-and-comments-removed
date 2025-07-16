@@ -163,11 +163,13 @@ i32
 )
 (
 local
+\
 t
 i32
 )
 (
 local
+\
 s
 i32
 )
@@ -175,6 +177,7 @@ i32
 local
 .
 set
+\
 t
 (
 i32
@@ -209,6 +212,7 @@ const
 local
 .
 set
+\
 s
 (
 i32
@@ -230,12 +234,14 @@ add
 local
 .
 get
+\
 t
 )
 (
 local
 .
 get
+\
 s
 )
 )
@@ -254,6 +260,7 @@ f32
 )
 (
 local
+\
 t
 f32
 )
@@ -278,6 +285,7 @@ const
 local
 .
 set
+\
 t
 (
 f32
@@ -312,6 +320,7 @@ const
 local
 .
 get
+\
 t
 )
 )
@@ -339,6 +348,7 @@ malloc
 .
 (
 func
+\
 malloc
 (
 export
@@ -348,6 +358,7 @@ malloc
 )
 (
 param
+\
 size
 i64
 )
@@ -395,11 +406,13 @@ i32
 )
 (
 local
+\
 x
 i64
 )
 (
 local
+\
 y
 i64
 )
@@ -407,9 +420,11 @@ i64
 local
 .
 set
+\
 x
 (
 call
+\
 malloc
 (
 i64
@@ -423,9 +438,11 @@ const
 local
 .
 set
+\
 y
 (
 call
+\
 malloc
 (
 i64
@@ -443,6 +460,7 @@ store
 local
 .
 get
+\
 x
 )
 (
@@ -460,6 +478,7 @@ store
 local
 .
 get
+\
 y
 )
 (
@@ -477,6 +496,7 @@ load
 local
 .
 get
+\
 x
 )
 )

@@ -140,6 +140,7 @@ load_data_1
 )
 (
 param
+\
 i
 i32
 )
@@ -158,6 +159,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -190,6 +192,7 @@ load_data_2
 )
 (
 param
+\
 i
 i32
 )
@@ -208,6 +211,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -240,6 +244,7 @@ load_data_3
 )
 (
 param
+\
 i
 i32
 )
@@ -261,6 +266,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -293,6 +299,7 @@ load_data_4
 )
 (
 param
+\
 i
 i32
 )
@@ -314,6 +321,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -346,6 +354,7 @@ load_data_5
 )
 (
 param
+\
 i
 i32
 )
@@ -367,6 +376,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -739,6 +749,7 @@ store_data_6
 )
 (
 param
+\
 i
 i32
 )
@@ -756,6 +767,7 @@ align
 local
 .
 get
+\
 i
 )
 (

@@ -1499,6 +1499,7 @@ memory
 )
 (
 data
+\
 p
 "
 x
@@ -1506,6 +1507,7 @@ x
 )
 (
 data
+\
 a
 (
 memory
@@ -1533,6 +1535,7 @@ drop_passive
 data
 .
 drop
+\
 p
 )
 )
@@ -1546,6 +1549,7 @@ init_passive
 )
 (
 param
+\
 len
 i32
 )
@@ -1553,6 +1557,7 @@ i32
 memory
 .
 init
+\
 p
 (
 i32
@@ -1570,6 +1575,7 @@ const
 local
 .
 get
+\
 len
 )
 )
@@ -1586,6 +1592,7 @@ drop_active
 data
 .
 drop
+\
 a
 )
 )
@@ -1599,6 +1606,7 @@ init_active
 )
 (
 param
+\
 len
 i32
 )
@@ -1606,6 +1614,7 @@ i32
 memory
 .
 init
+\
 a
 (
 i32
@@ -1623,6 +1632,7 @@ const
 local
 .
 get
+\
 len
 )
 )
@@ -2170,29 +2180,34 @@ funcref
 ref
 .
 func
+\
 zero
 )
 (
 ref
 .
 func
+\
 one
 )
 (
 ref
 .
 func
+\
 zero
 )
 (
 ref
 .
 func
+\
 one
 )
 )
 (
 func
+\
 zero
 (
 result
@@ -2207,6 +2222,7 @@ const
 )
 (
 func
+\
 one
 (
 result
@@ -2505,21 +2521,25 @@ funcref
 )
 (
 func
+\
 f
 )
 (
 elem
+\
 p
 funcref
 (
 ref
 .
 func
+\
 f
 )
 )
 (
 elem
+\
 a
 (
 table
@@ -2532,6 +2552,7 @@ const
 0
 )
 func
+\
 f
 )
 (
@@ -2546,6 +2567,7 @@ drop_passive
 elem
 .
 drop
+\
 p
 )
 )
@@ -2559,6 +2581,7 @@ init_passive
 )
 (
 param
+\
 len
 i32
 )
@@ -2566,6 +2589,7 @@ i32
 table
 .
 init
+\
 p
 (
 i32
@@ -2583,6 +2607,7 @@ const
 local
 .
 get
+\
 len
 )
 )
@@ -2599,6 +2624,7 @@ drop_active
 elem
 .
 drop
+\
 a
 )
 )
@@ -2612,6 +2638,7 @@ init_active
 )
 (
 param
+\
 len
 i32
 )
@@ -2619,6 +2646,7 @@ i32
 table
 .
 init
+\
 a
 (
 i32
@@ -2636,6 +2664,7 @@ const
 local
 .
 get
+\
 len
 )
 )
@@ -3123,12 +3152,16 @@ i32
 const
 0
 )
+\
 zero
+\
 one
+\
 two
 )
 (
 func
+\
 zero
 (
 result
@@ -3143,6 +3176,7 @@ const
 )
 (
 func
+\
 one
 (
 result
@@ -3157,6 +3191,7 @@ const
 )
 (
 func
+\
 two
 (
 result

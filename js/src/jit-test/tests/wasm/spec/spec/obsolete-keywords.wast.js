@@ -70,6 +70,7 @@ instantiate
 func
 (
 local
+\
 i
 i32
 )
@@ -77,6 +78,7 @@ i32
 drop
 (
 get_local
+\
 i
 )
 )
@@ -99,11 +101,13 @@ instantiate
 func
 (
 local
+\
 i
 i32
 )
 (
 set_local
+\
 i
 (
 i32
@@ -131,6 +135,7 @@ instantiate
 func
 (
 local
+\
 i
 i32
 )
@@ -138,6 +143,7 @@ i32
 drop
 (
 tee_local
+\
 i
 (
 i32
@@ -164,6 +170,7 @@ instantiate
 (
 (
 global
+\
 g
 anyfunc
 (
@@ -189,6 +196,7 @@ instantiate
 (
 (
 global
+\
 g
 i32
 (
@@ -204,6 +212,7 @@ func
 drop
 (
 get_global
+\
 g
 )
 )
@@ -224,6 +233,7 @@ instantiate
 (
 (
 global
+\
 g
 (
 mut
@@ -240,6 +250,7 @@ const
 func
 (
 set_global
+\
 g
 (
 i32

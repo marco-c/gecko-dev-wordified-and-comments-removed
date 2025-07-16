@@ -24,14 +24,17 @@ endian
 format
 (
 func
+\
 i16_store_little
 (
 param
+\
 address
 i64
 )
 (
 param
+\
 value
 i32
 )
@@ -43,12 +46,14 @@ store8
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 value
 )
 )
@@ -64,6 +69,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -81,6 +87,7 @@ shr_u
 local
 .
 get
+\
 value
 )
 (
@@ -105,35 +112,42 @@ endian
 format
 (
 func
+\
 i32_store_little
 (
 param
+\
 address
 i64
 )
 (
 param
+\
 value
 i32
 )
 (
 call
+\
 i16_store_little
 (
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 value
 )
 )
 (
 call
+\
 i16_store_little
 (
 i64
@@ -143,6 +157,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -160,6 +175,7 @@ shr_u
 local
 .
 get
+\
 value
 )
 (
@@ -184,24 +200,29 @@ endian
 format
 (
 func
+\
 i64_store_little
 (
 param
+\
 address
 i64
 )
 (
 param
+\
 value
 i64
 )
 (
 call
+\
 i32_store_little
 (
 local
 .
 get
+\
 address
 )
 (
@@ -212,12 +233,14 @@ wrap_i64
 local
 .
 get
+\
 value
 )
 )
 )
 (
 call
+\
 i32_store_little
 (
 i64
@@ -227,6 +250,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -248,6 +272,7 @@ shr_u
 local
 .
 get
+\
 value
 )
 (
@@ -273,9 +298,11 @@ endian
 format
 (
 func
+\
 i16_load_little
 (
 param
+\
 address
 i64
 )
@@ -295,6 +322,7 @@ load8_u
 local
 .
 get
+\
 address
 )
 )
@@ -314,6 +342,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -346,9 +375,11 @@ endian
 format
 (
 func
+\
 i32_load_little
 (
 param
+\
 address
 i64
 )
@@ -362,11 +393,13 @@ i32
 or
 (
 call
+\
 i16_load_little
 (
 local
 .
 get
+\
 address
 )
 )
@@ -376,6 +409,7 @@ i32
 shl
 (
 call
+\
 i16_load_little
 (
 i64
@@ -385,6 +419,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -417,9 +452,11 @@ endian
 format
 (
 func
+\
 i64_load_little
 (
 param
+\
 address
 i64
 )
@@ -437,11 +474,13 @@ i64
 extend_i32_u
 (
 call
+\
 i32_load_little
 (
 local
 .
 get
+\
 address
 )
 )
@@ -456,6 +495,7 @@ i64
 extend_i32_u
 (
 call
+\
 i32_load_little
 (
 i64
@@ -465,6 +505,7 @@ add
 local
 .
 get
+\
 address
 )
 (
@@ -495,6 +536,7 @@ i32_load16_s
 )
 (
 param
+\
 value
 i32
 )
@@ -504,6 +546,7 @@ i32
 )
 (
 call
+\
 i16_store_little
 (
 i64
@@ -515,6 +558,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -540,6 +584,7 @@ i32_load16_u
 )
 (
 param
+\
 value
 i32
 )
@@ -549,6 +594,7 @@ i32
 )
 (
 call
+\
 i16_store_little
 (
 i64
@@ -560,6 +606,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -585,6 +632,7 @@ i32_load
 )
 (
 param
+\
 value
 i32
 )
@@ -594,6 +642,7 @@ i32
 )
 (
 call
+\
 i32_store_little
 (
 i64
@@ -605,6 +654,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -630,6 +680,7 @@ i64_load16_s
 )
 (
 param
+\
 value
 i64
 )
@@ -639,6 +690,7 @@ i64
 )
 (
 call
+\
 i16_store_little
 (
 i64
@@ -654,6 +706,7 @@ wrap_i64
 local
 .
 get
+\
 value
 )
 )
@@ -680,6 +733,7 @@ i64_load16_u
 )
 (
 param
+\
 value
 i64
 )
@@ -689,6 +743,7 @@ i64
 )
 (
 call
+\
 i16_store_little
 (
 i64
@@ -704,6 +759,7 @@ wrap_i64
 local
 .
 get
+\
 value
 )
 )
@@ -730,6 +786,7 @@ i64_load32_s
 )
 (
 param
+\
 value
 i64
 )
@@ -739,6 +796,7 @@ i64
 )
 (
 call
+\
 i32_store_little
 (
 i64
@@ -754,6 +812,7 @@ wrap_i64
 local
 .
 get
+\
 value
 )
 )
@@ -780,6 +839,7 @@ i64_load32_u
 )
 (
 param
+\
 value
 i64
 )
@@ -789,6 +849,7 @@ i64
 )
 (
 call
+\
 i32_store_little
 (
 i64
@@ -804,6 +865,7 @@ wrap_i64
 local
 .
 get
+\
 value
 )
 )
@@ -830,6 +892,7 @@ i64_load
 )
 (
 param
+\
 value
 i64
 )
@@ -839,6 +902,7 @@ i64
 )
 (
 call
+\
 i64_store_little
 (
 i64
@@ -850,6 +914,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -875,6 +940,7 @@ f32_load
 )
 (
 param
+\
 value
 f32
 )
@@ -884,6 +950,7 @@ f32
 )
 (
 call
+\
 i32_store_little
 (
 i64
@@ -899,6 +966,7 @@ reinterpret_f32
 local
 .
 get
+\
 value
 )
 )
@@ -925,6 +993,7 @@ f64_load
 )
 (
 param
+\
 value
 f64
 )
@@ -934,6 +1003,7 @@ f64
 )
 (
 call
+\
 i64_store_little
 (
 i64
@@ -949,6 +1019,7 @@ reinterpret_f64
 local
 .
 get
+\
 value
 )
 )
@@ -975,6 +1046,7 @@ i32_store16
 )
 (
 param
+\
 value
 i32
 )
@@ -996,11 +1068,13 @@ const
 local
 .
 get
+\
 value
 )
 )
 (
 call
+\
 i16_load_little
 (
 i64
@@ -1020,6 +1094,7 @@ i32_store
 )
 (
 param
+\
 value
 i32
 )
@@ -1041,11 +1116,13 @@ const
 local
 .
 get
+\
 value
 )
 )
 (
 call
+\
 i32_load_little
 (
 i64
@@ -1065,6 +1142,7 @@ i64_store16
 )
 (
 param
+\
 value
 i64
 )
@@ -1086,6 +1164,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -1095,6 +1174,7 @@ i64
 extend_i32_u
 (
 call
+\
 i16_load_little
 (
 i64
@@ -1115,6 +1195,7 @@ i64_store32
 )
 (
 param
+\
 value
 i64
 )
@@ -1136,6 +1217,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -1145,6 +1227,7 @@ i64
 extend_i32_u
 (
 call
+\
 i32_load_little
 (
 i64
@@ -1165,6 +1248,7 @@ i64_store
 )
 (
 param
+\
 value
 i64
 )
@@ -1186,11 +1270,13 @@ const
 local
 .
 get
+\
 value
 )
 )
 (
 call
+\
 i64_load_little
 (
 i64
@@ -1210,6 +1296,7 @@ f32_store
 )
 (
 param
+\
 value
 f32
 )
@@ -1231,6 +1318,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -1240,6 +1328,7 @@ f32
 reinterpret_i32
 (
 call
+\
 i32_load_little
 (
 i64
@@ -1260,6 +1349,7 @@ f64_store
 )
 (
 param
+\
 value
 f64
 )
@@ -1281,6 +1371,7 @@ const
 local
 .
 get
+\
 value
 )
 )
@@ -1290,6 +1381,7 @@ f64
 reinterpret_i64
 (
 call
+\
 i64_load_little
 (
 i64

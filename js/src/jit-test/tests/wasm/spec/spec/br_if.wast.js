@@ -7,6 +7,7 @@ instantiate
 module
 (
 func
+\
 dummy
 )
 (
@@ -414,6 +415,7 @@ i32
 block
 (
 call
+\
 dummy
 )
 (
@@ -463,10 +465,12 @@ i32
 block
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -569,6 +573,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -631,10 +636,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -733,6 +740,7 @@ block
 loop
 (
 call
+\
 dummy
 )
 (
@@ -783,6 +791,7 @@ i32
 loop
 (
 call
+\
 dummy
 )
 (
@@ -1312,6 +1321,7 @@ get
 else
 (
 call
+\
 dummy
 )
 )
@@ -1349,6 +1359,7 @@ get
 then
 (
 call
+\
 dummy
 )
 )
@@ -1543,6 +1554,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -1586,6 +1598,7 @@ i32
 )
 (
 call
+\
 f
 (
 br_if
@@ -1642,6 +1655,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1698,6 +1712,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1732,6 +1747,7 @@ const
 )
 (
 func
+\
 func
 (
 param
@@ -1752,6 +1768,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -1772,6 +1789,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -1801,6 +1819,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1866,6 +1885,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1931,6 +1951,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1996,6 +2017,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -2162,6 +2184,7 @@ const
 )
 (
 global
+\
 a
 (
 mut
@@ -2206,6 +2229,7 @@ i32
 global
 .
 set
+\
 a
 (
 br_if
@@ -5928,6 +5952,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -5970,6 +5995,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6012,6 +6038,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6054,6 +6081,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6096,6 +6124,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6138,6 +6167,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6180,6 +6210,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6222,6 +6253,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6264,6 +6296,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6321,6 +6354,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6378,6 +6412,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6427,6 +6462,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6476,6 +6512,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6536,6 +6573,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6596,6 +6634,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 false
@@ -6662,6 +6701,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 true
@@ -6728,6 +6768,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 cond
@@ -6763,6 +6804,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 cond
@@ -6801,6 +6843,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 cond
@@ -6842,6 +6885,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6902,6 +6946,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6962,6 +7007,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7025,6 +7071,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -7092,6 +7139,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -7165,6 +7213,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -7217,6 +7266,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -7275,6 +7325,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 label
@@ -7307,6 +7358,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 nested
@@ -7347,6 +7399,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 label
@@ -7379,6 +7432,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -7386,12 +7440,14 @@ func
 )
 (
 func
+\
 f
 (
 param
 (
 ref
 null
+\
 t
 )
 )
@@ -7416,6 +7472,7 @@ funcref
 ref
 .
 null
+\
 t
 )
 (
@@ -7438,6 +7495,7 @@ the
 stack
 (
 call
+\
 f
 )
 )

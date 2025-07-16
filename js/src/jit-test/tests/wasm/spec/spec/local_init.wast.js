@@ -19,6 +19,7 @@ set
 )
 (
 param
+\
 p
 (
 ref
@@ -34,6 +35,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -44,11 +46,13 @@ extern
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -56,6 +60,7 @@ p
 local
 .
 get
+\
 x
 )
 )
@@ -73,6 +78,7 @@ tee
 )
 (
 param
+\
 p
 (
 ref
@@ -88,6 +94,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -100,11 +107,13 @@ drop
 local
 .
 tee
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -113,6 +122,7 @@ p
 local
 .
 get
+\
 x
 )
 )
@@ -134,6 +144,7 @@ set
 )
 (
 param
+\
 p
 (
 ref
@@ -149,6 +160,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -159,11 +171,13 @@ extern
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -180,6 +194,7 @@ extern
 local
 .
 get
+\
 x
 )
 )
@@ -293,9 +308,11 @@ instantiate
 module
 (
 func
+\
 uninit
 (
 local
+\
 x
 (
 ref
@@ -308,6 +325,7 @@ drop
 local
 .
 get
+\
 x
 )
 )
@@ -330,6 +348,7 @@ instantiate
 module
 (
 func
+\
 uninit
 -
 after
@@ -337,6 +356,7 @@ after
 end
 (
 param
+\
 p
 (
 ref
@@ -345,6 +365,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -357,11 +378,13 @@ block
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -371,11 +394,13 @@ drop
 local
 .
 tee
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -387,6 +412,7 @@ drop
 local
 .
 get
+\
 x
 )
 )
@@ -409,6 +435,7 @@ instantiate
 module
 (
 func
+\
 uninit
 -
 in
@@ -416,6 +443,7 @@ in
 else
 (
 param
+\
 p
 (
 ref
@@ -424,6 +452,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -444,11 +473,13 @@ then
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -459,6 +490,7 @@ else
 local
 .
 get
+\
 x
 )
 )
@@ -482,6 +514,7 @@ instantiate
 module
 (
 func
+\
 uninit
 -
 from
@@ -489,6 +522,7 @@ from
 if
 (
 param
+\
 p
 (
 ref
@@ -497,6 +531,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -517,11 +552,13 @@ then
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -532,11 +569,13 @@ else
 local
 .
 set
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -548,6 +587,7 @@ drop
 local
 .
 get
+\
 x
 )
 )
@@ -577,6 +617,7 @@ init
 )
 (
 param
+\
 p
 (
 ref
@@ -592,6 +633,7 @@ extern
 )
 (
 local
+\
 x
 (
 ref
@@ -604,11 +646,13 @@ drop
 local
 .
 tee
+\
 x
 (
 local
 .
 get
+\
 p
 )
 )
@@ -617,6 +661,7 @@ p
 local
 .
 get
+\
 x
 )
 )

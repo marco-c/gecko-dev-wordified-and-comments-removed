@@ -69,6 +69,7 @@ memory
 )
 (
 memory
+\
 m
 (
 import
@@ -109,6 +110,7 @@ i32
 memory
 .
 grow
+\
 m
 (
 local
@@ -254,6 +256,7 @@ instantiate
 (
 (
 module
+\
 Mgm
 (
 memory
@@ -265,6 +268,7 @@ memory
 )
 (
 memory
+\
 m
 (
 export
@@ -296,6 +300,7 @@ i32
 memory
 .
 grow
+\
 m
 (
 i32
@@ -352,6 +357,7 @@ instantiate
 (
 (
 module
+\
 Mgim1
 ;
 ;
@@ -386,6 +392,7 @@ memory
 )
 (
 memory
+\
 m
 (
 export
@@ -430,6 +437,7 @@ i32
 memory
 .
 grow
+\
 m
 (
 i32
@@ -488,6 +496,7 @@ instantiate
 (
 (
 module
+\
 Mgim2
 ;
 ;
@@ -522,6 +531,7 @@ memory
 )
 (
 memory
+\
 m
 (
 import
@@ -562,6 +572,7 @@ i32
 memory
 .
 size
+\
 m
 )
 )

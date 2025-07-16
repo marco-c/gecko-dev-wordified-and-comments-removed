@@ -15,6 +15,7 @@ new
 )
 (
 param
+\
 i
 i32
 )
@@ -33,6 +34,7 @@ i31
 local
 .
 get
+\
 i
 )
 )
@@ -47,6 +49,7 @@ get_u
 )
 (
 param
+\
 i
 i32
 )
@@ -66,6 +69,7 @@ i31
 local
 .
 get
+\
 i
 )
 )
@@ -81,6 +85,7 @@ get_s
 )
 (
 param
+\
 i
 i32
 )
@@ -100,6 +105,7 @@ i31
 local
 .
 get
+\
 i
 )
 )
@@ -159,6 +165,7 @@ i31
 )
 (
 global
+\
 i
 (
 ref
@@ -178,6 +185,7 @@ const
 )
 (
 global
+\
 m
 (
 mut
@@ -219,6 +227,7 @@ get_u
 global
 .
 get
+\
 i
 )
 )
@@ -230,6 +239,7 @@ get_u
 global
 .
 get
+\
 m
 )
 )
@@ -250,6 +260,7 @@ i32
 global
 .
 set
+\
 m
 (
 ref
@@ -820,9 +831,11 @@ instantiate
 (
 (
 module
+\
 tables_of_i31ref
 (
 table
+\
 table
 3
 10
@@ -832,6 +845,7 @@ i31ref
 elem
 (
 table
+\
 table
 )
 (
@@ -899,6 +913,7 @@ i32
 table
 .
 size
+\
 table
 )
 (
@@ -925,6 +940,7 @@ get_u
 table
 .
 get
+\
 table
 (
 local
@@ -956,6 +972,7 @@ i32
 table
 .
 grow
+\
 table
 (
 ref
@@ -994,6 +1011,7 @@ i32
 table
 .
 fill
+\
 table
 (
 local
@@ -1038,7 +1056,9 @@ i32
 table
 .
 copy
+\
 table
+\
 table
 (
 local
@@ -1062,6 +1082,7 @@ get
 )
 (
 elem
+\
 elem
 i31ref
 (
@@ -1125,7 +1146,9 @@ i32
 table
 .
 init
+\
 table
+\
 elem
 (
 local
@@ -1569,6 +1592,7 @@ instantiate
 (
 (
 module
+\
 env
 (
 global
@@ -1607,9 +1631,11 @@ instantiate
 (
 (
 module
+\
 i31ref_of_global_table_initializer
 (
 global
+\
 g
 (
 import
@@ -1624,6 +1650,7 @@ i32
 )
 (
 table
+\
 t
 3
 3
@@ -1639,6 +1666,7 @@ i31
 global
 .
 get
+\
 g
 )
 )
@@ -1673,6 +1701,7 @@ get
 table
 .
 get
+\
 t
 )
 )
@@ -1767,9 +1796,11 @@ instantiate
 (
 (
 module
+\
 i31ref_of_global_global_initializer
 (
 global
+\
 g0
 (
 import
@@ -1784,6 +1815,7 @@ i32
 )
 (
 global
+\
 g1
 i31ref
 (
@@ -1794,6 +1826,7 @@ i31
 global
 .
 get
+\
 g0
 )
 )
@@ -1818,6 +1851,7 @@ get_u
 global
 .
 get
+\
 g1
 )
 )
@@ -1861,9 +1895,11 @@ instantiate
 (
 (
 module
+\
 anyref_global_of_i31ref
 (
 global
+\
 c
 anyref
 (
@@ -1880,6 +1916,7 @@ const
 )
 (
 global
+\
 m
 (
 mut
@@ -1923,6 +1960,7 @@ i31ref
 global
 .
 get
+\
 c
 )
 )
@@ -1940,6 +1978,7 @@ i31ref
 global
 .
 get
+\
 m
 )
 )
@@ -1961,6 +2000,7 @@ i32
 global
 .
 set
+\
 m
 (
 ref
@@ -2061,9 +2101,11 @@ instantiate
 (
 (
 module
+\
 anyref_table_of_i31ref
 (
 table
+\
 table
 3
 10
@@ -2073,6 +2115,7 @@ anyref
 elem
 (
 table
+\
 table
 )
 (
@@ -2140,6 +2183,7 @@ i32
 table
 .
 size
+\
 table
 )
 (
@@ -2171,6 +2215,7 @@ i31ref
 table
 .
 get
+\
 table
 (
 local
@@ -2203,6 +2248,7 @@ i32
 table
 .
 grow
+\
 table
 (
 ref
@@ -2241,6 +2287,7 @@ i32
 table
 .
 fill
+\
 table
 (
 local
@@ -2285,7 +2332,9 @@ i32
 table
 .
 copy
+\
 table
+\
 table
 (
 local
@@ -2309,6 +2358,7 @@ get
 )
 (
 elem
+\
 elem
 i31ref
 (
@@ -2372,7 +2422,9 @@ i32
 table
 .
 init
+\
 table
+\
 elem
 (
 local

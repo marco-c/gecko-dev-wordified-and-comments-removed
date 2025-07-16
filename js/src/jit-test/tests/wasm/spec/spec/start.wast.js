@@ -33,6 +33,7 @@ instantiate
 module
 (
 func
+\
 main
 (
 result
@@ -50,6 +51,7 @@ const
 )
 (
 start
+\
 main
 )
 )
@@ -70,15 +72,18 @@ instantiate
 module
 (
 func
+\
 main
 (
 param
+\
 a
 i32
 )
 )
 (
 start
+\
 main
 )
 )
@@ -105,6 +110,7 @@ A
 )
 (
 func
+\
 inc
 (
 i32
@@ -142,6 +148,7 @@ const
 )
 (
 func
+\
 get
 (
 result
@@ -164,22 +171,27 @@ const
 )
 (
 func
+\
 main
 (
 call
+\
 inc
 )
 (
 call
+\
 inc
 )
 (
 call
+\
 inc
 )
 )
 (
 start
+\
 main
 )
 (
@@ -189,6 +201,7 @@ inc
 "
 (
 func
+\
 inc
 )
 )
@@ -199,6 +212,7 @@ get
 "
 (
 func
+\
 get
 )
 )
@@ -311,6 +325,7 @@ A
 )
 (
 func
+\
 inc
 (
 i32
@@ -348,6 +363,7 @@ const
 )
 (
 func
+\
 get
 (
 result
@@ -370,17 +386,21 @@ const
 )
 (
 func
+\
 main
 (
 call
+\
 inc
 )
 (
 call
+\
 inc
 )
 (
 call
+\
 inc
 )
 )
@@ -395,6 +415,7 @@ inc
 "
 (
 func
+\
 inc
 )
 )
@@ -405,6 +426,7 @@ get
 "
 (
 func
+\
 get
 )
 )
@@ -508,6 +530,7 @@ instantiate
 module
 (
 func
+\
 print_i32
 (
 import
@@ -525,9 +548,11 @@ i32
 )
 (
 func
+\
 main
 (
 call
+\
 print_i32
 (
 i32
@@ -553,6 +578,7 @@ instantiate
 module
 (
 func
+\
 print_i32
 (
 import
@@ -570,9 +596,11 @@ i32
 )
 (
 func
+\
 main
 (
 call
+\
 print_i32
 (
 i32
@@ -584,6 +612,7 @@ const
 )
 (
 start
+\
 main
 )
 )
@@ -598,6 +627,7 @@ instantiate
 module
 (
 func
+\
 print
 (
 import
@@ -611,6 +641,7 @@ print
 )
 (
 start
+\
 print
 )
 )
@@ -628,6 +659,7 @@ instantiate
 module
 (
 func
+\
 main
 (
 unreachable
@@ -635,6 +667,7 @@ unreachable
 )
 (
 start
+\
 main
 )
 )
@@ -654,6 +687,7 @@ instantiate
 module
 (
 func
+\
 a
 (
 unreachable
@@ -661,6 +695,7 @@ unreachable
 )
 (
 func
+\
 b
 (
 unreachable
@@ -668,10 +703,12 @@ unreachable
 )
 (
 start
+\
 a
 )
 (
 start
+\
 b
 )
 )

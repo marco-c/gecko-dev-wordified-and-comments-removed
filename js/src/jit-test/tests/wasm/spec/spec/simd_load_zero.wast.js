@@ -169,6 +169,7 @@ load32_zero
 )
 (
 param
+\
 0
 i32
 )
@@ -184,6 +185,7 @@ load32_zero
 local
 .
 get
+\
 0
 )
 )
@@ -200,6 +202,7 @@ load64_zero
 )
 (
 param
+\
 0
 i32
 )
@@ -215,6 +218,7 @@ load64_zero
 local
 .
 get
+\
 0
 )
 )
@@ -303,6 +307,7 @@ load32_zero_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -321,6 +326,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -337,6 +343,7 @@ load32_zero_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -355,6 +362,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -371,6 +379,7 @@ load32_zero_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -392,6 +401,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -408,6 +418,7 @@ load32_zero_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -429,6 +440,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -445,6 +457,7 @@ load32_zero_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -466,6 +479,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -482,6 +496,7 @@ load64_zero_offset0
 )
 (
 param
+\
 0
 i32
 )
@@ -500,6 +515,7 @@ offset
 local
 .
 get
+\
 0
 )
 )
@@ -516,6 +532,7 @@ load64_zero_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -534,6 +551,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -550,6 +568,7 @@ load64_zero_offset0_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -571,6 +590,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -587,6 +607,7 @@ load64_zero_offset1_align1
 )
 (
 param
+\
 0
 i32
 )
@@ -608,6 +629,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -624,6 +646,7 @@ load64_zero_offset10_align4
 )
 (
 param
+\
 0
 i32
 )
@@ -645,6 +668,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -661,6 +685,7 @@ load64_zero_offset20_align8
 )
 (
 param
+\
 0
 i32
 )
@@ -682,6 +707,7 @@ align
 local
 .
 get
+\
 0
 )
 )
@@ -1350,6 +1376,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load32_zero
@@ -1389,6 +1416,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load64_zero

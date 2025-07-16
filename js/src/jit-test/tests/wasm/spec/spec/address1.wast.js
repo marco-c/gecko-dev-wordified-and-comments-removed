@@ -7,26 +7,31 @@ instantiate
 module
 (
 memory
+\
 mem0
 0
 )
 (
 memory
+\
 mem1
 0
 )
 (
 memory
+\
 mem2
 0
 )
 (
 memory
+\
 mem3
 0
 )
 (
 memory
+\
 mem4
 1
 )
@@ -34,6 +39,7 @@ mem4
 data
 (
 memory
+\
 mem4
 )
 (
@@ -56,6 +62,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -67,6 +74,7 @@ i64
 i64
 .
 load8_u
+\
 mem4
 offset
 =
@@ -75,6 +83,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -95,6 +104,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -106,6 +116,7 @@ i64
 i64
 .
 load8_u
+\
 mem4
 align
 =
@@ -114,6 +125,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -134,6 +146,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -145,6 +158,7 @@ i64
 i64
 .
 load8_u
+\
 mem4
 offset
 =
@@ -156,6 +170,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -176,6 +191,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -187,6 +203,7 @@ i64
 i64
 .
 load8_u
+\
 mem4
 offset
 =
@@ -198,6 +215,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -218,6 +236,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -229,6 +248,7 @@ i64
 i64
 .
 load8_u
+\
 mem4
 offset
 =
@@ -240,6 +260,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -260,6 +281,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -271,6 +293,7 @@ i64
 i64
 .
 load8_s
+\
 mem4
 offset
 =
@@ -279,6 +302,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -299,6 +323,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -310,6 +335,7 @@ i64
 i64
 .
 load8_s
+\
 mem4
 align
 =
@@ -318,6 +344,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -338,6 +365,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -349,6 +377,7 @@ i64
 i64
 .
 load8_s
+\
 mem4
 offset
 =
@@ -360,6 +389,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -380,6 +410,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -391,6 +422,7 @@ i64
 i64
 .
 load8_s
+\
 mem4
 offset
 =
@@ -402,6 +434,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -422,6 +455,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -433,6 +467,7 @@ i64
 i64
 .
 load8_s
+\
 mem4
 offset
 =
@@ -444,6 +479,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -464,6 +500,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -475,6 +512,7 @@ i64
 i64
 .
 load16_u
+\
 mem4
 offset
 =
@@ -483,6 +521,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -503,6 +542,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -514,6 +554,7 @@ i64
 i64
 .
 load16_u
+\
 mem4
 align
 =
@@ -522,6 +563,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -542,6 +584,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -553,6 +596,7 @@ i64
 i64
 .
 load16_u
+\
 mem4
 offset
 =
@@ -564,6 +608,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -584,6 +629,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -595,6 +641,7 @@ i64
 i64
 .
 load16_u
+\
 mem4
 offset
 =
@@ -606,6 +653,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -626,6 +674,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -637,6 +686,7 @@ i64
 i64
 .
 load16_u
+\
 mem4
 offset
 =
@@ -648,6 +698,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -671,6 +722,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -682,6 +734,7 @@ i64
 i64
 .
 load16_s
+\
 mem4
 offset
 =
@@ -690,6 +743,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -710,6 +764,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -721,6 +776,7 @@ i64
 i64
 .
 load16_s
+\
 mem4
 align
 =
@@ -729,6 +785,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -749,6 +806,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -760,6 +818,7 @@ i64
 i64
 .
 load16_s
+\
 mem4
 offset
 =
@@ -771,6 +830,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -791,6 +851,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -802,6 +863,7 @@ i64
 i64
 .
 load16_s
+\
 mem4
 offset
 =
@@ -813,6 +875,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -833,6 +896,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -844,6 +908,7 @@ i64
 i64
 .
 load16_s
+\
 mem4
 offset
 =
@@ -855,6 +920,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -878,6 +944,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -889,6 +956,7 @@ i64
 i64
 .
 load32_u
+\
 mem4
 offset
 =
@@ -897,6 +965,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -917,6 +986,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -928,6 +998,7 @@ i64
 i64
 .
 load32_u
+\
 mem4
 align
 =
@@ -936,6 +1007,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -956,6 +1028,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -967,6 +1040,7 @@ i64
 i64
 .
 load32_u
+\
 mem4
 offset
 =
@@ -978,6 +1052,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -998,6 +1073,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1009,6 +1085,7 @@ i64
 i64
 .
 load32_u
+\
 mem4
 offset
 =
@@ -1020,6 +1097,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1040,6 +1118,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1051,6 +1130,7 @@ i64
 i64
 .
 load32_u
+\
 mem4
 offset
 =
@@ -1062,6 +1142,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1091,6 +1172,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1102,6 +1184,7 @@ i64
 i64
 .
 load32_s
+\
 mem4
 offset
 =
@@ -1110,6 +1193,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1130,6 +1214,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1141,6 +1226,7 @@ i64
 i64
 .
 load32_s
+\
 mem4
 align
 =
@@ -1149,6 +1235,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1169,6 +1256,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1180,6 +1268,7 @@ i64
 i64
 .
 load32_s
+\
 mem4
 offset
 =
@@ -1191,6 +1280,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1211,6 +1301,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1222,6 +1313,7 @@ i64
 i64
 .
 load32_s
+\
 mem4
 offset
 =
@@ -1233,6 +1325,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1253,6 +1346,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1264,6 +1358,7 @@ i64
 i64
 .
 load32_s
+\
 mem4
 offset
 =
@@ -1275,6 +1370,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1304,6 +1400,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1315,6 +1412,7 @@ i64
 i64
 .
 load
+\
 mem4
 offset
 =
@@ -1323,6 +1421,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1343,6 +1442,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1354,6 +1454,7 @@ i64
 i64
 .
 load
+\
 mem4
 align
 =
@@ -1362,6 +1463,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1382,6 +1484,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1393,6 +1496,7 @@ i64
 i64
 .
 load
+\
 mem4
 offset
 =
@@ -1404,6 +1508,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1424,6 +1529,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1435,6 +1541,7 @@ i64
 i64
 .
 load
+\
 mem4
 offset
 =
@@ -1446,6 +1553,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1466,6 +1574,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1477,6 +1586,7 @@ i64
 i64
 .
 load
+\
 mem4
 offset
 =
@@ -1488,6 +1598,7 @@ align
 local
 .
 get
+\
 i
 )
 )
@@ -1529,6 +1640,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1538,6 +1650,7 @@ drop
 i64
 .
 load8_u
+\
 mem4
 offset
 =
@@ -1546,6 +1659,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1561,6 +1675,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1570,6 +1685,7 @@ drop
 i64
 .
 load8_s
+\
 mem4
 offset
 =
@@ -1578,6 +1694,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1593,6 +1710,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1602,6 +1720,7 @@ drop
 i64
 .
 load16_u
+\
 mem4
 offset
 =
@@ -1610,6 +1729,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1625,6 +1745,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1634,6 +1755,7 @@ drop
 i64
 .
 load16_s
+\
 mem4
 offset
 =
@@ -1642,6 +1764,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1657,6 +1780,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1666,6 +1790,7 @@ drop
 i64
 .
 load32_u
+\
 mem4
 offset
 =
@@ -1674,6 +1799,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1689,6 +1815,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1698,6 +1825,7 @@ drop
 i64
 .
 load32_s
+\
 mem4
 offset
 =
@@ -1706,6 +1834,7 @@ offset
 local
 .
 get
+\
 i
 )
 )
@@ -1721,6 +1850,7 @@ export
 )
 (
 param
+\
 i
 i32
 )
@@ -1730,6 +1860,7 @@ drop
 i64
 .
 load
+\
 mem4
 offset
 =
@@ -1738,6 +1869,7 @@ offset
 local
 .
 get
+\
 i
 )
 )

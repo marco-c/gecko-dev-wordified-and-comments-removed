@@ -7,18 +7,21 @@ instantiate
 module
 (
 table
+\
 t0
 0
 externref
 )
 (
 table
+\
 t1
 1
 externref
 )
 (
 table
+\
 t2
 0
 2
@@ -26,6 +29,7 @@ externref
 )
 (
 table
+\
 t3
 3
 8
@@ -33,6 +37,7 @@ externref
 )
 (
 table
+\
 t64
 i64
 42
@@ -75,6 +80,7 @@ i32
 table
 .
 size
+\
 t1
 )
 )
@@ -96,6 +102,7 @@ i32
 table
 .
 size
+\
 t2
 )
 )
@@ -117,6 +124,7 @@ i32
 table
 .
 size
+\
 t3
 )
 )
@@ -138,6 +146,7 @@ i64
 table
 .
 size
+\
 t64
 )
 )
@@ -153,6 +162,7 @@ t0
 )
 (
 param
+\
 sz
 i32
 )
@@ -162,6 +172,7 @@ drop
 table
 .
 grow
+\
 t0
 (
 ref
@@ -173,6 +184,7 @@ extern
 local
 .
 get
+\
 sz
 )
 )
@@ -190,6 +202,7 @@ t1
 )
 (
 param
+\
 sz
 i32
 )
@@ -199,6 +212,7 @@ drop
 table
 .
 grow
+\
 t1
 (
 ref
@@ -210,6 +224,7 @@ extern
 local
 .
 get
+\
 sz
 )
 )
@@ -227,6 +242,7 @@ t2
 )
 (
 param
+\
 sz
 i32
 )
@@ -236,6 +252,7 @@ drop
 table
 .
 grow
+\
 t2
 (
 ref
@@ -247,6 +264,7 @@ extern
 local
 .
 get
+\
 sz
 )
 )
@@ -264,6 +282,7 @@ t3
 )
 (
 param
+\
 sz
 i32
 )
@@ -273,6 +292,7 @@ drop
 table
 .
 grow
+\
 t3
 (
 ref
@@ -284,6 +304,7 @@ extern
 local
 .
 get
+\
 sz
 )
 )
@@ -1170,12 +1191,14 @@ instantiate
 module
 (
 table
+\
 t
 1
 externref
 )
 (
 func
+\
 type
 -
 result
@@ -1189,6 +1212,7 @@ empty
 table
 .
 size
+\
 t
 )
 )
@@ -1210,12 +1234,14 @@ instantiate
 module
 (
 table
+\
 t
 1
 externref
 )
 (
 func
+\
 type
 -
 result
@@ -1233,6 +1259,7 @@ f32
 table
 .
 size
+\
 t
 )
 )

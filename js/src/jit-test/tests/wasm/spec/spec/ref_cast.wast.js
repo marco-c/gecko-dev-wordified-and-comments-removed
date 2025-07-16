@@ -7,6 +7,7 @@ instantiate
 module
 (
 type
+\
 ft
 (
 func
@@ -14,6 +15,7 @@ func
 )
 (
 type
+\
 st
 (
 struct
@@ -21,6 +23,7 @@ struct
 )
 (
 type
+\
 at
 (
 array
@@ -36,10 +39,12 @@ anyref
 elem
 declare
 func
+\
 f
 )
 (
 func
+\
 f
 )
 (
@@ -52,6 +57,7 @@ init
 )
 (
 param
+\
 x
 externref
 )
@@ -108,6 +114,7 @@ const
 struct
 .
 new_default
+\
 st
 )
 )
@@ -125,6 +132,7 @@ const
 array
 .
 new_default
+\
 at
 (
 i32
@@ -152,6 +160,7 @@ convert_extern
 local
 .
 get
+\
 x
 )
 )
@@ -218,6 +227,7 @@ ref_cast_non_null
 )
 (
 param
+\
 i
 i32
 )
@@ -235,6 +245,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -259,6 +270,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -275,6 +287,7 @@ ref_cast_null
 )
 (
 param
+\
 i
 i32
 )
@@ -293,6 +306,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -313,6 +327,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -333,6 +348,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -353,6 +369,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -373,6 +390,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -389,6 +407,7 @@ ref_cast_i31
 )
 (
 param
+\
 i
 i32
 )
@@ -410,6 +429,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -430,6 +450,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -446,6 +467,7 @@ ref_cast_struct
 )
 (
 param
+\
 i
 i32
 )
@@ -467,6 +489,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -487,6 +510,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -503,6 +527,7 @@ ref_cast_array
 )
 (
 param
+\
 i
 i32
 )
@@ -524,6 +549,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -544,6 +570,7 @@ get
 local
 .
 get
+\
 i
 )
 )
@@ -1294,6 +1321,7 @@ instantiate
 module
 (
 type
+\
 t0
 (
 sub
@@ -1304,9 +1332,11 @@ struct
 )
 (
 type
+\
 t1
 (
 sub
+\
 t0
 (
 struct
@@ -1319,10 +1349,12 @@ i32
 )
 (
 type
+\
 t1
 '
 (
 sub
+\
 t0
 (
 struct
@@ -1335,9 +1367,11 @@ i32
 )
 (
 type
+\
 t2
 (
 sub
+\
 t1
 (
 struct
@@ -1351,10 +1385,12 @@ i32
 )
 (
 type
+\
 t2
 '
 (
 sub
+\
 t1
 '
 (
@@ -1369,9 +1405,11 @@ i32
 )
 (
 type
+\
 t3
 (
 sub
+\
 t0
 (
 struct
@@ -1385,10 +1423,12 @@ i32
 )
 (
 type
+\
 t0
 '
 (
 sub
+\
 t0
 (
 struct
@@ -1397,9 +1437,11 @@ struct
 )
 (
 type
+\
 t4
 (
 sub
+\
 t0
 '
 (
@@ -1423,6 +1465,7 @@ struct
 )
 (
 func
+\
 init
 (
 table
@@ -1438,6 +1481,7 @@ const
 struct
 .
 new_default
+\
 t0
 )
 )
@@ -1455,6 +1499,7 @@ const
 struct
 .
 new_default
+\
 t0
 )
 )
@@ -1472,6 +1517,7 @@ const
 struct
 .
 new_default
+\
 t1
 )
 )
@@ -1489,6 +1535,7 @@ const
 struct
 .
 new_default
+\
 t1
 '
 )
@@ -1507,6 +1554,7 @@ const
 struct
 .
 new_default
+\
 t2
 )
 )
@@ -1524,6 +1572,7 @@ const
 struct
 .
 new_default
+\
 t2
 '
 )
@@ -1542,6 +1591,7 @@ const
 struct
 .
 new_default
+\
 t3
 )
 )
@@ -1559,6 +1609,7 @@ const
 struct
 .
 new_default
+\
 t4
 )
 )
@@ -1575,6 +1626,7 @@ sub
 )
 (
 call
+\
 init
 )
 (
@@ -1586,6 +1638,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1605,6 +1658,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1629,6 +1683,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1653,6 +1708,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1677,6 +1733,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1701,6 +1758,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1725,6 +1783,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1744,6 +1803,7 @@ cast
 (
 ref
 null
+\
 t1
 )
 (
@@ -1768,6 +1828,7 @@ cast
 (
 ref
 null
+\
 t1
 )
 (
@@ -1792,6 +1853,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1811,6 +1873,7 @@ cast
 (
 ref
 null
+\
 t2
 )
 (
@@ -1835,6 +1898,7 @@ cast
 (
 ref
 null
+\
 t0
 )
 (
@@ -1854,6 +1918,7 @@ cast
 (
 ref
 null
+\
 t3
 )
 (
@@ -1878,6 +1943,7 @@ cast
 (
 ref
 null
+\
 t4
 )
 (
@@ -1901,6 +1967,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -1924,6 +1991,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -1947,6 +2015,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -1970,6 +2039,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -1993,6 +2063,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2016,6 +2087,7 @@ ref
 cast
 (
 ref
+\
 t1
 )
 (
@@ -2039,6 +2111,7 @@ ref
 cast
 (
 ref
+\
 t1
 )
 (
@@ -2062,6 +2135,7 @@ ref
 cast
 (
 ref
+\
 t2
 )
 (
@@ -2085,6 +2159,7 @@ ref
 cast
 (
 ref
+\
 t3
 )
 (
@@ -2108,6 +2183,7 @@ ref
 cast
 (
 ref
+\
 t4
 )
 (
@@ -2136,6 +2212,7 @@ canon
 )
 (
 call
+\
 init
 )
 (
@@ -2146,6 +2223,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2169,6 +2247,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2192,6 +2271,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2215,6 +2295,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2238,6 +2319,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2261,6 +2343,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2284,6 +2367,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2307,6 +2391,7 @@ ref
 cast
 (
 ref
+\
 t0
 )
 (
@@ -2330,6 +2415,7 @@ ref
 cast
 (
 ref
+\
 t1
 '
 )
@@ -2354,6 +2440,7 @@ ref
 cast
 (
 ref
+\
 t1
 '
 )
@@ -2378,6 +2465,7 @@ ref
 cast
 (
 ref
+\
 t1
 )
 (
@@ -2401,6 +2489,7 @@ ref
 cast
 (
 ref
+\
 t1
 )
 (
@@ -2424,6 +2513,7 @@ ref
 cast
 (
 ref
+\
 t2
 '
 )
@@ -2448,6 +2538,7 @@ ref
 cast
 (
 ref
+\
 t2
 )
 (

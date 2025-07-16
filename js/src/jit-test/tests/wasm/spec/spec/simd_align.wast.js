@@ -3542,6 +3542,7 @@ align
 )
 (
 param
+\
 address
 i32
 )
@@ -3560,6 +3561,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -3579,11 +3581,13 @@ align
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 value
 v128
 )
@@ -3598,12 +3602,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 value
 )
 )

@@ -7,11 +7,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -35,6 +37,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -64,6 +67,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -77,6 +81,7 @@ get
 data
 (
 memory
+\
 mem1
 )
 (
@@ -95,6 +100,7 @@ const
 data
 (
 memory
+\
 mem2
 )
 (
@@ -169,6 +175,7 @@ instantiate
 (
 (
 module
+\
 M
 (
 memory
@@ -231,6 +238,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -245,6 +253,7 @@ mem
 )
 (
 memory
+\
 mem2
 3
 )
@@ -252,6 +261,7 @@ mem2
 data
 (
 memory
+\
 mem1
 )
 (
@@ -282,6 +292,7 @@ const
 data
 (
 memory
+\
 mem2
 )
 (
@@ -328,6 +339,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -357,6 +369,7 @@ i32
 i32
 .
 load8_u
+\
 mem2
 (
 local
@@ -1406,6 +1419,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -1443,6 +1457,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1487,6 +1502,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1531,6 +1547,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1559,6 +1576,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -1579,6 +1597,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -1602,6 +1621,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1655,6 +1675,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1708,6 +1729,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1761,6 +1783,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1872,6 +1895,7 @@ const
 )
 (
 global
+\
 g
 (
 mut
@@ -1906,6 +1930,7 @@ i32
 global
 .
 set
+\
 g
 (
 i32
@@ -3912,6 +3937,7 @@ memory
 )
 (
 func
+\
 load_i32
 (
 i32
@@ -3947,6 +3973,7 @@ memory
 )
 (
 func
+\
 load8_s_i32
 (
 i32
@@ -3982,6 +4009,7 @@ memory
 )
 (
 func
+\
 load8_u_i32
 (
 i32
@@ -4017,6 +4045,7 @@ memory
 )
 (
 func
+\
 load16_s_i32
 (
 i32
@@ -4052,6 +4081,7 @@ memory
 )
 (
 func
+\
 load16_u_i32
 (
 i32
@@ -4087,6 +4117,7 @@ memory
 )
 (
 func
+\
 load_i64
 (
 i64
@@ -4122,6 +4153,7 @@ memory
 )
 (
 func
+\
 load8_s_i64
 (
 i64
@@ -4157,6 +4189,7 @@ memory
 )
 (
 func
+\
 load8_u_i64
 (
 i64
@@ -4192,6 +4225,7 @@ memory
 )
 (
 func
+\
 load16_s_i64
 (
 i64
@@ -4227,6 +4261,7 @@ memory
 )
 (
 func
+\
 load16_u_i64
 (
 i64
@@ -4262,6 +4297,7 @@ memory
 )
 (
 func
+\
 load32_s_i64
 (
 i64
@@ -4297,6 +4333,7 @@ memory
 )
 (
 func
+\
 load32_u_i64
 (
 i64
@@ -4332,6 +4369,7 @@ memory
 )
 (
 func
+\
 load_f32
 (
 f32
@@ -4367,6 +4405,7 @@ memory
 )
 (
 func
+\
 load_f64
 (
 f64
@@ -4934,6 +4973,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4970,6 +5010,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5019,6 +5060,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5068,6 +5110,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5126,6 +5169,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5197,6 +5241,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5250,6 +5295,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5309,6 +5355,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5362,6 +5409,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5405,6 +5453,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5460,6 +5509,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5521,6 +5571,7 @@ memory
 )
 (
 func
+\
 f
 (
 param
@@ -5539,6 +5590,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -5557,11 +5609,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 address
@@ -5581,6 +5635,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -5622,6 +5677,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5680,6 +5736,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5732,6 +5789,7 @@ memory
 )
 (
 global
+\
 x
 (
 mut
@@ -5746,6 +5804,7 @@ const
 )
 (
 func
+\
 type
 -
 address
@@ -5761,6 +5820,7 @@ set
 global
 .
 set
+\
 x
 (
 i32
@@ -5772,6 +5832,7 @@ load
 global
 .
 get
+\
 x
 )
 (
@@ -5800,6 +5861,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5847,6 +5909,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5892,6 +5955,7 @@ memory
 )
 (
 func
+\
 type
 -
 address

@@ -9028,6 +9028,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 ceil
@@ -9063,6 +9064,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 floor
@@ -9098,6 +9100,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 trunc
@@ -9133,6 +9136,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 nearest

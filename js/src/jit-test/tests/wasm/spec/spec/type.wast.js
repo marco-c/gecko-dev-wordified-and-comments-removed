@@ -13,6 +13,7 @@ func
 )
 (
 type
+\
 t
 (
 func
@@ -34,6 +35,7 @@ type
 func
 (
 param
+\
 x
 i32
 )
@@ -69,6 +71,7 @@ type
 func
 (
 param
+\
 x
 i32
 )
@@ -136,6 +139,7 @@ type
 func
 (
 param
+\
 x
 f32
 )
@@ -155,6 +159,7 @@ f32
 )
 (
 param
+\
 y
 f64
 )
@@ -166,11 +171,13 @@ type
 func
 (
 param
+\
 x
 f32
 )
 (
 param
+\
 y
 f64
 )
@@ -218,11 +225,13 @@ type
 func
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i64
 )
@@ -247,6 +256,7 @@ f64
 )
 (
 param
+\
 x
 i32
 )
@@ -310,6 +320,7 @@ param
 )
 (
 param
+\
 x
 f32
 )
@@ -375,6 +386,7 @@ param
 )
 (
 param
+\
 x
 i32
 )
@@ -443,6 +455,7 @@ type
 func
 (
 result
+\
 x
 i32
 )

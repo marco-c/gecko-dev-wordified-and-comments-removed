@@ -232714,6 +232714,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 pmin
@@ -232759,6 +232760,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 pmin
@@ -232794,6 +232796,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 pmax
@@ -232839,6 +232842,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 pmax

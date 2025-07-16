@@ -118,6 +118,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 nop
@@ -186,6 +187,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -196,6 +198,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -310,6 +313,7 @@ instantiate
 module
 (
 func
+\
 f
 ;
 ;
@@ -366,6 +370,7 @@ module
 func
 (
 block
+\
 l
 (
 i32
@@ -376,6 +381,7 @@ const
 (
 br_table
 0
+\
 l
 )
 )
@@ -395,6 +401,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -405,6 +412,7 @@ const
 (
 br_table
 0
+\
 l
 )
 )
@@ -426,6 +434,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -436,6 +445,7 @@ const
 (
 br_table
 0
+\
 "
 l
 "
@@ -458,6 +468,7 @@ module
 func
 (
 block
+\
 l
 (
 i32
@@ -467,6 +478,7 @@ const
 )
 (
 br_table
+\
 l
 0
 )
@@ -487,6 +499,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -496,6 +509,7 @@ const
 )
 (
 br_table
+\
 l0
 )
 )
@@ -517,6 +531,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -526,6 +541,7 @@ const
 )
 (
 br_table
+\
 "
 l
 "
@@ -549,6 +565,7 @@ module
 func
 (
 block
+\
 l
 (
 i32
@@ -558,7 +575,9 @@ const
 )
 (
 br_table
+\
 l
+\
 l
 )
 )
@@ -578,6 +597,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -587,7 +607,9 @@ const
 )
 (
 br_table
+\
 l
+\
 l
 )
 )
@@ -609,6 +631,7 @@ instantiate
 func
 (
 block
+\
 l
 (
 i32
@@ -618,9 +641,11 @@ const
 )
 (
 br_table
+\
 "
 l
 "
+\
 l
 )
 )
@@ -641,6 +666,7 @@ module
 func
 (
 block
+\
 l0
 (
 i32
@@ -650,6 +676,7 @@ const
 )
 (
 br_table
+\
 l0
 )
 )
@@ -668,7 +695,9 @@ module
 func
 (
 block
+\
 l
+\
 l
 (
 i32
@@ -678,7 +707,9 @@ const
 )
 (
 br_table
+\
 l
+\
 l
 )
 )
@@ -730,6 +761,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 a
@@ -748,6 +780,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 a
@@ -767,6 +800,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 a
@@ -785,6 +819,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 a
@@ -804,6 +839,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 a
@@ -822,6 +858,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 a
@@ -841,6 +878,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 a
@@ -862,6 +900,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 a
@@ -884,6 +923,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 \
@@ -911,6 +951,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 \
@@ -939,6 +980,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 \
@@ -966,6 +1008,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 \
@@ -994,6 +1037,7 @@ instantiate
 module
 (
 data
+\
 l
 "
 \
@@ -1021,6 +1065,7 @@ instantiate
 (
 (
 data
+\
 l
 "
 \
@@ -1467,6 +1512,7 @@ func
 "
 a
 "
+\
 x
 )
 )

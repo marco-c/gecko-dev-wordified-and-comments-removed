@@ -15,6 +15,7 @@ print_i32_f32
 "
 (
 func
+\
 print_i32_f32
 (
 param
@@ -29,6 +30,7 @@ Auxiliary
 definitions
 (
 func
+\
 const
 -
 i32
@@ -45,6 +47,7 @@ const
 )
 (
 func
+\
 const
 -
 i64
@@ -61,6 +64,7 @@ const
 )
 (
 func
+\
 const
 -
 f32
@@ -77,6 +81,7 @@ const
 )
 (
 func
+\
 const
 -
 f64
@@ -93,6 +98,7 @@ const
 )
 (
 func
+\
 id
 -
 i32
@@ -113,6 +119,7 @@ get
 )
 (
 func
+\
 id
 -
 i64
@@ -133,6 +140,7 @@ get
 )
 (
 func
+\
 id
 -
 f32
@@ -153,6 +161,7 @@ get
 )
 (
 func
+\
 id
 -
 f64
@@ -173,6 +182,7 @@ get
 )
 (
 func
+\
 f32
 -
 i32
@@ -194,6 +204,7 @@ get
 )
 (
 func
+\
 i32
 -
 i64
@@ -215,6 +226,7 @@ get
 )
 (
 func
+\
 f64
 -
 f32
@@ -236,6 +248,7 @@ get
 )
 (
 func
+\
 i64
 -
 f64
@@ -274,6 +287,7 @@ i32
 )
 (
 return_call
+\
 const
 -
 i32
@@ -295,6 +309,7 @@ i64
 )
 (
 return_call
+\
 const
 -
 i64
@@ -316,6 +331,7 @@ f32
 )
 (
 return_call
+\
 const
 -
 f32
@@ -337,6 +353,7 @@ f64
 )
 (
 return_call
+\
 const
 -
 f64
@@ -360,6 +377,7 @@ i32
 )
 (
 return_call
+\
 id
 -
 i32
@@ -389,6 +407,7 @@ i64
 )
 (
 return_call
+\
 id
 -
 i64
@@ -418,6 +437,7 @@ f32
 )
 (
 return_call
+\
 id
 -
 f32
@@ -449,6 +469,7 @@ f64
 )
 (
 return_call
+\
 id
 -
 f64
@@ -480,6 +501,7 @@ i32
 )
 (
 return_call
+\
 f32
 -
 i32
@@ -517,6 +539,7 @@ i64
 )
 (
 return_call
+\
 i32
 -
 i64
@@ -552,6 +575,7 @@ f32
 )
 (
 return_call
+\
 f64
 -
 f32
@@ -587,6 +611,7 @@ f64
 )
 (
 return_call
+\
 i64
 -
 f64
@@ -611,6 +636,7 @@ const
 Recursion
 (
 func
+\
 fac
 -
 acc
@@ -661,6 +687,7 @@ get
 else
 (
 return_call
+\
 fac
 -
 acc
@@ -704,6 +731,7 @@ get
 )
 (
 func
+\
 count
 (
 export
@@ -749,6 +777,7 @@ get
 else
 (
 return_call
+\
 count
 (
 i64
@@ -773,6 +802,7 @@ const
 )
 (
 func
+\
 even
 (
 export
@@ -818,6 +848,7 @@ const
 else
 (
 return_call
+\
 odd
 (
 i64
@@ -842,6 +873,7 @@ const
 )
 (
 func
+\
 odd
 (
 export
@@ -887,6 +919,7 @@ const
 else
 (
 return_call
+\
 even
 (
 i64
@@ -933,6 +966,7 @@ f32
 )
 (
 return_call
+\
 print_i32_f32
 (
 local
@@ -950,6 +984,7 @@ get
 )
 (
 func
+\
 swizzle
 (
 param
@@ -1014,6 +1049,7 @@ f32
 )
 (
 return_call
+\
 swizzle
 (
 local
@@ -1943,6 +1979,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 void
@@ -1986,6 +2023,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -2039,6 +2077,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -2076,6 +2115,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -2111,6 +2151,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 1
@@ -2144,6 +2185,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 2
@@ -2186,6 +2228,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -2235,6 +2278,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -2284,6 +2328,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -2336,6 +2381,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -2388,6 +2434,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 result
@@ -2403,6 +2450,7 @@ result
 i32
 )
 return_call
+\
 f
 )
 )
@@ -2423,6 +2471,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 func
@@ -2449,6 +2498,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 func

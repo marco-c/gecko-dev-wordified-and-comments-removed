@@ -1548,6 +1548,7 @@ memory
 )
 (
 func
+\
 v128
 .
 store
@@ -1595,6 +1596,7 @@ memory
 )
 (
 func
+\
 v128
 .
 store
@@ -1638,6 +1640,7 @@ memory
 )
 (
 func
+\
 v128
 .
 store

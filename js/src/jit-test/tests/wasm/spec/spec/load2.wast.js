@@ -19,6 +19,7 @@ memory
 )
 (
 memory
+\
 m
 1
 )
@@ -51,6 +52,7 @@ br
 i32
 .
 load
+\
 m
 (
 i32
@@ -83,6 +85,7 @@ br_if
 i32
 .
 load
+\
 m
 (
 i32
@@ -125,6 +128,7 @@ br_if
 i32
 .
 load
+\
 m
 (
 i32
@@ -188,6 +192,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -229,6 +234,7 @@ br_table
 i32
 .
 load
+\
 m
 (
 i32
@@ -271,6 +277,7 @@ br_table
 i32
 .
 load
+\
 m
 (
 i32
@@ -332,6 +339,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -371,6 +379,7 @@ return
 i32
 .
 load
+\
 m
 (
 i32
@@ -407,6 +416,7 @@ i32
 i32
 .
 load
+\
 m
 (
 i32
@@ -469,6 +479,7 @@ then
 i32
 .
 load
+\
 m
 (
 i32
@@ -532,6 +543,7 @@ else
 i32
 .
 load
+\
 m
 (
 i32
@@ -570,6 +582,7 @@ select
 i32
 .
 load
+\
 m
 (
 i32
@@ -625,6 +638,7 @@ get
 i32
 .
 load
+\
 m
 (
 i32
@@ -675,6 +689,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -687,6 +702,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -724,11 +740,13 @@ i32
 )
 (
 call
+\
 f
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -769,6 +787,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -780,6 +799,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -814,6 +834,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -831,6 +852,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -843,6 +865,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -863,6 +886,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -886,12 +910,14 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -940,6 +966,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -952,6 +979,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -994,6 +1022,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1012,6 +1041,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1048,6 +1078,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1072,6 +1103,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1109,6 +1141,7 @@ set
 i32
 .
 load
+\
 m
 (
 i32
@@ -1150,6 +1183,7 @@ tee
 i32
 .
 load
+\
 m
 (
 i32
@@ -1162,6 +1196,7 @@ const
 )
 (
 global
+\
 g
 (
 mut
@@ -1196,11 +1231,13 @@ i32
 global
 .
 set
+\
 g
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -1231,11 +1268,13 @@ i32
 i32
 .
 load
+\
 m
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -1266,11 +1305,13 @@ i32
 i32
 .
 load8_s
+\
 m
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -1297,11 +1338,13 @@ address
 i32
 .
 store
+\
 m
 (
 i32
 .
 load
+\
 m
 (
 i32
@@ -1334,6 +1377,7 @@ value
 i32
 .
 store
+\
 m
 (
 i32
@@ -1345,6 +1389,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1371,11 +1416,13 @@ address
 i32
 .
 store8
+\
 m
 (
 i32
 .
 load8_s
+\
 m
 (
 i32
@@ -1408,6 +1455,7 @@ value
 i32
 .
 store16
+\
 m
 (
 i32
@@ -1419,6 +1467,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1453,6 +1502,7 @@ clz
 i32
 .
 load
+\
 m
 (
 i32
@@ -1487,6 +1537,7 @@ add
 i32
 .
 load
+\
 m
 (
 i32
@@ -1533,6 +1584,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1567,6 +1619,7 @@ eqz
 i32
 .
 load
+\
 m
 (
 i32
@@ -1601,6 +1654,7 @@ le_s
 i32
 .
 load
+\
 m
 (
 i32
@@ -1647,6 +1701,7 @@ const
 i32
 .
 load
+\
 m
 (
 i32
@@ -1679,11 +1734,13 @@ i32
 memory
 .
 grow
+\
 m
 (
 i32
 .
 load
+\
 m
 (
 i32

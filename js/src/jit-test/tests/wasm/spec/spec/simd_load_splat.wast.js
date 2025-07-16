@@ -139,6 +139,7 @@ load8_splat
 )
 (
 param
+\
 address
 i32
 )
@@ -154,6 +155,7 @@ load8_splat
 local
 .
 get
+\
 address
 )
 )
@@ -170,6 +172,7 @@ load16_splat
 )
 (
 param
+\
 address
 i32
 )
@@ -185,6 +188,7 @@ load16_splat
 local
 .
 get
+\
 address
 )
 )
@@ -201,6 +205,7 @@ load32_splat
 )
 (
 param
+\
 address
 i32
 )
@@ -216,6 +221,7 @@ load32_splat
 local
 .
 get
+\
 address
 )
 )
@@ -232,6 +238,7 @@ load64_splat
 )
 (
 param
+\
 address
 i32
 )
@@ -247,6 +254,7 @@ load64_splat
 local
 .
 get
+\
 address
 )
 )
@@ -273,6 +281,7 @@ offset0
 )
 (
 param
+\
 address
 i32
 )
@@ -291,6 +300,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -307,6 +317,7 @@ align1
 )
 (
 param
+\
 address
 i32
 )
@@ -325,6 +336,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -341,6 +353,7 @@ offset1_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -362,6 +375,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -378,6 +392,7 @@ offset2_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -399,6 +414,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -415,6 +431,7 @@ offset15_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -436,6 +453,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -452,6 +470,7 @@ offset0
 )
 (
 param
+\
 address
 i32
 )
@@ -470,6 +489,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -486,6 +506,7 @@ align1
 )
 (
 param
+\
 address
 i32
 )
@@ -504,6 +525,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -520,6 +542,7 @@ offset1_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -541,6 +564,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -557,6 +581,7 @@ offset2_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -578,6 +603,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -594,6 +620,7 @@ offset15_align2
 )
 (
 param
+\
 address
 i32
 )
@@ -615,6 +642,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -631,6 +659,7 @@ offset0
 )
 (
 param
+\
 address
 i32
 )
@@ -649,6 +678,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -665,6 +695,7 @@ align1
 )
 (
 param
+\
 address
 i32
 )
@@ -683,6 +714,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -699,6 +731,7 @@ offset1_align1
 )
 (
 param
+\
 address
 i32
 )
@@ -720,6 +753,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -736,6 +770,7 @@ offset2_align2
 )
 (
 param
+\
 address
 i32
 )
@@ -757,6 +792,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -773,6 +809,7 @@ offset15_align4
 )
 (
 param
+\
 address
 i32
 )
@@ -794,6 +831,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -810,6 +848,7 @@ offset0
 )
 (
 param
+\
 address
 i32
 )
@@ -828,6 +867,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -844,6 +884,7 @@ align1
 )
 (
 param
+\
 address
 i32
 )
@@ -862,6 +903,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -878,6 +920,7 @@ offset1_align2
 )
 (
 param
+\
 address
 i32
 )
@@ -899,6 +942,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -915,6 +959,7 @@ offset2_align4
 )
 (
 param
+\
 address
 i32
 )
@@ -936,6 +981,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -952,6 +998,7 @@ offset15_align8
 )
 (
 param
+\
 address
 i32
 )
@@ -973,6 +1020,7 @@ align
 local
 .
 get
+\
 address
 )
 )
@@ -989,6 +1037,7 @@ offset65536
 )
 (
 param
+\
 address
 i32
 )
@@ -1007,6 +1056,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -1023,6 +1073,7 @@ offset65535
 )
 (
 param
+\
 address
 i32
 )
@@ -1041,6 +1092,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -1057,6 +1109,7 @@ offset65533
 )
 (
 param
+\
 address
 i32
 )
@@ -1075,6 +1128,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -1091,6 +1145,7 @@ offset65529
 )
 (
 param
+\
 address
 i32
 )
@@ -1109,6 +1164,7 @@ offset
 local
 .
 get
+\
 address
 )
 )
@@ -5352,6 +5408,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load8_splat
@@ -5391,6 +5448,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load16_splat
@@ -5430,6 +5488,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load32_splat
@@ -5469,6 +5528,7 @@ memory
 )
 (
 func
+\
 v128
 .
 load64_splat

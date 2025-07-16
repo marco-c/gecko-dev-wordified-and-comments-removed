@@ -5,9 +5,11 @@ instantiate
 (
 (
 module
+\
 Mm
 (
 memory
+\
 mem0
 (
 export
@@ -20,6 +22,7 @@ mem0
 )
 (
 memory
+\
 mem1
 (
 export
@@ -32,6 +35,7 @@ mem1
 )
 (
 memory
+\
 mem2
 (
 export
@@ -97,6 +101,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -108,6 +113,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -138,6 +144,7 @@ instantiate
 (
 (
 module
+\
 Pm
 (
 memory
@@ -163,6 +170,7 @@ grow
 )
 (
 param
+\
 a
 i32
 )

@@ -15,6 +15,7 @@ abs
 )
 (
 param
+\
 x
 f32
 )
@@ -30,6 +31,7 @@ abs
 local
 .
 get
+\
 x
 )
 )
@@ -44,6 +46,7 @@ neg
 )
 (
 param
+\
 x
 f32
 )
@@ -59,6 +62,7 @@ neg
 local
 .
 get
+\
 x
 )
 )
@@ -73,11 +77,13 @@ copysign
 )
 (
 param
+\
 x
 f32
 )
 (
 param
+\
 y
 f32
 )
@@ -93,12 +99,14 @@ copysign
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )

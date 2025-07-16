@@ -1630,6 +1630,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -1645,6 +1646,7 @@ mem1
 )
 (
 memory
+\
 mem2
 (
 import
@@ -1659,11 +1661,13 @@ mem2
 )
 (
 memory
+\
 mem3
 3
 )
 (
 memory
+\
 mem4
 4
 5
@@ -1684,6 +1688,7 @@ i32
 memory
 .
 size
+\
 mem1
 )
 )
@@ -1703,6 +1708,7 @@ i32
 memory
 .
 size
+\
 mem2
 )
 )
@@ -1722,6 +1728,7 @@ i32
 memory
 .
 size
+\
 mem3
 )
 )
@@ -1741,6 +1748,7 @@ i32
 memory
 .
 size
+\
 mem4
 )
 )
@@ -1764,6 +1772,7 @@ i32
 memory
 .
 grow
+\
 mem1
 (
 local
@@ -1793,6 +1802,7 @@ i32
 memory
 .
 grow
+\
 mem2
 (
 local
@@ -1822,6 +1832,7 @@ i32
 memory
 .
 grow
+\
 mem3
 (
 local
@@ -1851,6 +1862,7 @@ i32
 memory
 .
 grow
+\
 mem4
 (
 local
@@ -3496,6 +3508,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -3533,6 +3546,7 @@ i32
 )
 (
 call
+\
 f
 (
 memory
@@ -3577,6 +3591,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -3621,6 +3636,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -3649,6 +3665,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -3669,6 +3686,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -3692,6 +3710,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -3745,6 +3764,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -3798,6 +3818,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -3851,6 +3872,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -3962,6 +3984,7 @@ const
 )
 (
 global
+\
 g
 (
 mut
@@ -3996,6 +4019,7 @@ i32
 global
 .
 set
+\
 g
 (
 memory
@@ -5478,6 +5502,7 @@ instantiate
 (
 (
 module
+\
 Mgm
 (
 memory
@@ -5566,6 +5591,7 @@ instantiate
 (
 (
 module
+\
 Mgim1
 ;
 ;
@@ -5675,6 +5701,7 @@ instantiate
 (
 (
 module
+\
 Mgim2
 ;
 ;
@@ -5766,11 +5793,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 2
 )
@@ -5794,6 +5823,7 @@ i32
 memory
 .
 grow
+\
 mem1
 (
 local
@@ -5823,6 +5853,7 @@ i32
 memory
 .
 grow
+\
 mem2
 (
 local
@@ -5848,6 +5879,7 @@ i32
 memory
 .
 size
+\
 mem1
 )
 )
@@ -5867,6 +5899,7 @@ i32
 memory
 .
 size
+\
 mem2
 )
 )
@@ -6062,6 +6095,7 @@ memory
 )
 (
 func
+\
 type
 -
 i32
@@ -6107,6 +6141,7 @@ memory
 )
 (
 func
+\
 type
 -
 size
@@ -6148,6 +6183,7 @@ memory
 )
 (
 func
+\
 type
 -
 size
@@ -6206,6 +6242,7 @@ memory
 )
 (
 func
+\
 type
 -
 size
@@ -6264,6 +6301,7 @@ memory
 )
 (
 func
+\
 type
 -
 size
@@ -6331,6 +6369,7 @@ memory
 )
 (
 func
+\
 type
 -
 result
@@ -6374,6 +6413,7 @@ memory
 )
 (
 func
+\
 type
 -
 size
@@ -6421,6 +6461,7 @@ memory
 )
 (
 func
+\
 type
 -
 result
@@ -6464,6 +6505,7 @@ memory
 )
 (
 func
+\
 type
 -
 result

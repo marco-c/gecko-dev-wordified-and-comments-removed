@@ -1461,6 +1461,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -1504,6 +1505,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -1550,6 +1552,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -1596,6 +1599,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -1643,6 +1647,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1686,6 +1691,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1732,6 +1738,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1778,6 +1785,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1825,6 +1833,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1865,6 +1874,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1918,6 +1928,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -1971,6 +1982,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2033,6 +2045,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2108,6 +2121,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2165,6 +2179,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2222,6 +2237,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2279,6 +2295,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2326,6 +2343,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2385,6 +2403,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -2450,6 +2469,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 param
@@ -2468,6 +2488,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -2486,11 +2507,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 param
@@ -2520,6 +2543,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2555,6 +2579,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -2605,6 +2630,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -2656,6 +2682,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -2707,6 +2734,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -2753,6 +2781,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -2799,6 +2828,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -2845,6 +2875,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -2891,6 +2922,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 local
@@ -2930,6 +2962,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 local
@@ -2969,6 +3002,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 param
@@ -3008,6 +3042,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 param
@@ -3047,6 +3082,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 mixed
@@ -3090,6 +3126,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 mixed

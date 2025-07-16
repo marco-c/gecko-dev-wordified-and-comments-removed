@@ -17,11 +17,13 @@ no_fold_cmp_s_offset
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -41,6 +43,7 @@ add
 local
 .
 get
+\
 x
 )
 (
@@ -58,6 +61,7 @@ add
 local
 .
 get
+\
 y
 )
 (
@@ -81,11 +85,13 @@ no_fold_cmp_u_offset
 )
 (
 param
+\
 x
 i32
 )
 (
 param
+\
 y
 i32
 )
@@ -105,6 +111,7 @@ add
 local
 .
 get
+\
 x
 )
 (
@@ -122,6 +129,7 @@ add
 local
 .
 get
+\
 y
 )
 (
@@ -145,11 +153,13 @@ no_fold_cmp_s_offset
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -169,6 +179,7 @@ add
 local
 .
 get
+\
 x
 )
 (
@@ -186,6 +197,7 @@ add
 local
 .
 get
+\
 y
 )
 (
@@ -209,11 +221,13 @@ no_fold_cmp_u_offset
 )
 (
 param
+\
 x
 i64
 )
 (
 param
+\
 y
 i64
 )
@@ -233,6 +247,7 @@ add
 local
 .
 get
+\
 x
 )
 (
@@ -250,6 +265,7 @@ add
 local
 .
 get
+\
 y
 )
 (
@@ -397,6 +413,7 @@ no_fold_wrap_extend_s
 )
 (
 param
+\
 x
 i64
 )
@@ -416,6 +433,7 @@ wrap_i64
 local
 .
 get
+\
 x
 )
 )
@@ -498,6 +516,7 @@ no_fold_wrap_extend_u
 )
 (
 param
+\
 x
 i64
 )
@@ -517,6 +536,7 @@ wrap_i64
 local
 .
 get
+\
 x
 )
 )
@@ -571,6 +591,7 @@ no_fold_shl_shr_s
 )
 (
 param
+\
 x
 i32
 )
@@ -590,6 +611,7 @@ shl
 local
 .
 get
+\
 x
 )
 (
@@ -619,6 +641,7 @@ no_fold_shl_shr_u
 )
 (
 param
+\
 x
 i32
 )
@@ -638,6 +661,7 @@ shl
 local
 .
 get
+\
 x
 )
 (
@@ -667,6 +691,7 @@ no_fold_shl_shr_s
 )
 (
 param
+\
 x
 i64
 )
@@ -686,6 +711,7 @@ shl
 local
 .
 get
+\
 x
 )
 (
@@ -715,6 +741,7 @@ no_fold_shl_shr_u
 )
 (
 param
+\
 x
 i64
 )
@@ -734,6 +761,7 @@ shl
 local
 .
 get
+\
 x
 )
 (
@@ -885,6 +913,7 @@ no_fold_shr_s_shl
 )
 (
 param
+\
 x
 i32
 )
@@ -904,6 +933,7 @@ shr_s
 local
 .
 get
+\
 x
 )
 (
@@ -933,6 +963,7 @@ no_fold_shr_u_shl
 )
 (
 param
+\
 x
 i32
 )
@@ -952,6 +983,7 @@ shr_u
 local
 .
 get
+\
 x
 )
 (
@@ -981,6 +1013,7 @@ no_fold_shr_s_shl
 )
 (
 param
+\
 x
 i64
 )
@@ -1000,6 +1033,7 @@ shr_s
 local
 .
 get
+\
 x
 )
 (
@@ -1029,6 +1063,7 @@ no_fold_shr_u_shl
 )
 (
 param
+\
 x
 i64
 )
@@ -1048,6 +1083,7 @@ shr_u
 local
 .
 get
+\
 x
 )
 (
@@ -1195,6 +1231,7 @@ no_fold_div_s_mul
 )
 (
 param
+\
 x
 i32
 )
@@ -1214,6 +1251,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -1243,6 +1281,7 @@ no_fold_div_u_mul
 )
 (
 param
+\
 x
 i32
 )
@@ -1262,6 +1301,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -1291,6 +1331,7 @@ no_fold_div_s_mul
 )
 (
 param
+\
 x
 i64
 )
@@ -1310,6 +1351,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -1339,6 +1381,7 @@ no_fold_div_u_mul
 )
 (
 param
+\
 x
 i64
 )
@@ -1358,6 +1401,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -1505,6 +1549,7 @@ no_fold_div_s_self
 )
 (
 param
+\
 x
 i32
 )
@@ -1520,12 +1565,14 @@ div_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1542,6 +1589,7 @@ no_fold_div_u_self
 )
 (
 param
+\
 x
 i32
 )
@@ -1557,12 +1605,14 @@ div_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1579,6 +1629,7 @@ no_fold_div_s_self
 )
 (
 param
+\
 x
 i64
 )
@@ -1594,12 +1645,14 @@ div_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1616,6 +1669,7 @@ no_fold_div_u_self
 )
 (
 param
+\
 x
 i64
 )
@@ -1631,12 +1685,14 @@ div_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1751,6 +1807,7 @@ no_fold_rem_s_self
 )
 (
 param
+\
 x
 i32
 )
@@ -1766,12 +1823,14 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1788,6 +1847,7 @@ no_fold_rem_u_self
 )
 (
 param
+\
 x
 i32
 )
@@ -1803,12 +1863,14 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1825,6 +1887,7 @@ no_fold_rem_s_self
 )
 (
 param
+\
 x
 i64
 )
@@ -1840,12 +1903,14 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1862,6 +1927,7 @@ no_fold_rem_u_self
 )
 (
 param
+\
 x
 i64
 )
@@ -1877,12 +1943,14 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1997,6 +2065,7 @@ no_fold_mul_div_s
 )
 (
 param
+\
 x
 i32
 )
@@ -2016,6 +2085,7 @@ mul
 local
 .
 get
+\
 x
 )
 (
@@ -2045,6 +2115,7 @@ no_fold_mul_div_u
 )
 (
 param
+\
 x
 i32
 )
@@ -2064,6 +2135,7 @@ mul
 local
 .
 get
+\
 x
 )
 (
@@ -2093,6 +2165,7 @@ no_fold_mul_div_s
 )
 (
 param
+\
 x
 i64
 )
@@ -2112,6 +2185,7 @@ mul
 local
 .
 get
+\
 x
 )
 (
@@ -2141,6 +2215,7 @@ no_fold_mul_div_u
 )
 (
 param
+\
 x
 i64
 )
@@ -2160,6 +2235,7 @@ mul
 local
 .
 get
+\
 x
 )
 (
@@ -2311,6 +2387,7 @@ no_fold_div_s_2
 )
 (
 param
+\
 x
 i32
 )
@@ -2326,6 +2403,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2348,6 +2426,7 @@ no_fold_div_s_2
 )
 (
 param
+\
 x
 i64
 )
@@ -2363,6 +2442,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2453,6 +2533,7 @@ no_fold_rem_s_2
 )
 (
 param
+\
 x
 i32
 )
@@ -2468,6 +2549,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -2490,6 +2572,7 @@ no_fold_rem_s_2
 )
 (
 param
+\
 x
 i64
 )
@@ -2505,6 +2588,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -2595,6 +2679,7 @@ div_s_0
 )
 (
 param
+\
 x
 i32
 )
@@ -2610,6 +2695,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2632,6 +2718,7 @@ div_u_0
 )
 (
 param
+\
 x
 i32
 )
@@ -2647,6 +2734,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -2669,6 +2757,7 @@ div_s_0
 )
 (
 param
+\
 x
 i64
 )
@@ -2684,6 +2773,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2706,6 +2796,7 @@ div_u_0
 )
 (
 param
+\
 x
 i64
 )
@@ -2721,6 +2812,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -2841,6 +2933,7 @@ div_s_3
 )
 (
 param
+\
 x
 i32
 )
@@ -2856,6 +2949,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2878,6 +2972,7 @@ div_u_3
 )
 (
 param
+\
 x
 i32
 )
@@ -2893,6 +2988,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -2915,6 +3011,7 @@ div_s_3
 )
 (
 param
+\
 x
 i64
 )
@@ -2930,6 +3027,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -2952,6 +3050,7 @@ div_u_3
 )
 (
 param
+\
 x
 i64
 )
@@ -2967,6 +3066,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -3217,6 +3317,7 @@ div_s_5
 )
 (
 param
+\
 x
 i32
 )
@@ -3232,6 +3333,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -3254,6 +3356,7 @@ div_u_5
 )
 (
 param
+\
 x
 i32
 )
@@ -3269,6 +3372,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -3291,6 +3395,7 @@ div_s_5
 )
 (
 param
+\
 x
 i64
 )
@@ -3306,6 +3411,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -3328,6 +3434,7 @@ div_u_5
 )
 (
 param
+\
 x
 i64
 )
@@ -3343,6 +3450,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -3593,6 +3701,7 @@ div_s_7
 )
 (
 param
+\
 x
 i32
 )
@@ -3608,6 +3717,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -3630,6 +3740,7 @@ div_u_7
 )
 (
 param
+\
 x
 i32
 )
@@ -3645,6 +3756,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -3667,6 +3779,7 @@ div_s_7
 )
 (
 param
+\
 x
 i64
 )
@@ -3682,6 +3795,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -3704,6 +3818,7 @@ div_u_7
 )
 (
 param
+\
 x
 i64
 )
@@ -3719,6 +3834,7 @@ div_u
 local
 .
 get
+\
 x
 )
 (
@@ -3969,6 +4085,7 @@ rem_s_3
 )
 (
 param
+\
 x
 i32
 )
@@ -3984,6 +4101,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4006,6 +4124,7 @@ rem_u_3
 )
 (
 param
+\
 x
 i32
 )
@@ -4021,6 +4140,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -4043,6 +4163,7 @@ rem_s_3
 )
 (
 param
+\
 x
 i64
 )
@@ -4058,6 +4179,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4080,6 +4202,7 @@ rem_u_3
 )
 (
 param
+\
 x
 i64
 )
@@ -4095,6 +4218,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -4345,6 +4469,7 @@ rem_s_5
 )
 (
 param
+\
 x
 i32
 )
@@ -4360,6 +4485,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4382,6 +4508,7 @@ rem_u_5
 )
 (
 param
+\
 x
 i32
 )
@@ -4397,6 +4524,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -4419,6 +4547,7 @@ rem_s_5
 )
 (
 param
+\
 x
 i64
 )
@@ -4434,6 +4563,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4456,6 +4586,7 @@ rem_u_5
 )
 (
 param
+\
 x
 i64
 )
@@ -4471,6 +4602,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -4721,6 +4853,7 @@ rem_s_7
 )
 (
 param
+\
 x
 i32
 )
@@ -4736,6 +4869,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4758,6 +4892,7 @@ rem_u_7
 )
 (
 param
+\
 x
 i32
 )
@@ -4773,6 +4908,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -4795,6 +4931,7 @@ rem_s_7
 )
 (
 param
+\
 x
 i64
 )
@@ -4810,6 +4947,7 @@ rem_s
 local
 .
 get
+\
 x
 )
 (
@@ -4832,6 +4970,7 @@ rem_u_7
 )
 (
 param
+\
 x
 i64
 )
@@ -4847,6 +4986,7 @@ rem_u
 local
 .
 get
+\
 x
 )
 (
@@ -5097,6 +5237,7 @@ no_fold_div_neg1
 )
 (
 param
+\
 x
 i32
 )
@@ -5112,6 +5253,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (
@@ -5135,6 +5277,7 @@ no_fold_div_neg1
 )
 (
 param
+\
 x
 i64
 )
@@ -5150,6 +5293,7 @@ div_s
 local
 .
 get
+\
 x
 )
 (

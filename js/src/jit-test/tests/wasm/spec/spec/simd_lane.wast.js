@@ -23921,6 +23921,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 mut
@@ -23947,6 +23948,7 @@ f32x4
 )
 (
 global
+\
 h
 (
 mut
@@ -24159,6 +24161,7 @@ v128
 global
 .
 set
+\
 g
 (
 f32x4
@@ -24185,6 +24188,7 @@ return
 global
 .
 get
+\
 g
 )
 )
@@ -24260,6 +24264,7 @@ v128
 global
 .
 set
+\
 h
 (
 i8x16
@@ -24301,6 +24306,7 @@ return
 global
 .
 get
+\
 h
 )
 )
@@ -24386,6 +24392,7 @@ v128
 global
 .
 set
+\
 g
 (
 f64x2
@@ -24412,6 +24419,7 @@ return
 global
 .
 get
+\
 g
 )
 )
@@ -25532,6 +25540,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 extract_lane_s
@@ -25590,6 +25599,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 extract_lane_s
@@ -25626,6 +25636,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 extract_lane_s
@@ -25658,6 +25669,7 @@ instantiate
 (
 (
 func
+\
 i16x8
 .
 extract_lane_u
@@ -25708,6 +25720,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extract_lane_u
@@ -25744,6 +25757,7 @@ instantiate
 (
 (
 func
+\
 i16x8
 .
 extract_lane_u
@@ -25776,6 +25790,7 @@ instantiate
 (
 (
 func
+\
 i32x4
 .
 extract_lane
@@ -25822,6 +25837,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 extract_lane
@@ -25858,6 +25874,7 @@ instantiate
 (
 (
 func
+\
 i32x4
 .
 extract_lane
@@ -25890,6 +25907,7 @@ instantiate
 (
 (
 func
+\
 i64x2
 .
 extract_lane
@@ -25934,6 +25952,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 extract_lane
@@ -25970,6 +25989,7 @@ instantiate
 (
 (
 func
+\
 i64x2
 .
 extract_lane
@@ -26002,6 +26022,7 @@ instantiate
 (
 (
 func
+\
 f32x4
 .
 extract_lane
@@ -26048,6 +26069,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 extract_lane
@@ -26084,6 +26106,7 @@ instantiate
 (
 (
 func
+\
 f32x4
 .
 extract_lane
@@ -26116,6 +26139,7 @@ instantiate
 (
 (
 func
+\
 f64x2
 .
 extract_lane
@@ -26160,6 +26184,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 extract_lane
@@ -26196,6 +26221,7 @@ instantiate
 (
 (
 func
+\
 f64x2
 .
 extract_lane
@@ -26228,6 +26254,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 replace_lane
@@ -26292,6 +26319,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 replace_lane
@@ -26336,6 +26364,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 replace_lane
@@ -26394,6 +26423,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 replace_lane
@@ -26426,6 +26456,7 @@ instantiate
 (
 (
 func
+\
 i16x8
 .
 replace_lane
@@ -26482,6 +26513,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 replace_lane
@@ -26526,6 +26558,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 replace_lane
@@ -26576,6 +26609,7 @@ instantiate
 (
 (
 func
+\
 i16x8
 .
 replace_lane
@@ -26608,6 +26642,7 @@ instantiate
 (
 (
 func
+\
 i32x4
 .
 replace_lane
@@ -26660,6 +26695,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 replace_lane
@@ -26704,6 +26740,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 replace_lane
@@ -26750,6 +26787,7 @@ instantiate
 (
 (
 func
+\
 i32x4
 .
 replace_lane
@@ -26782,6 +26820,7 @@ instantiate
 (
 (
 func
+\
 f32x4
 .
 replace_lane
@@ -26836,6 +26875,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 replace_lane
@@ -26882,6 +26922,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 replace_lane
@@ -26928,6 +26969,7 @@ instantiate
 (
 (
 func
+\
 f32x4
 .
 replace_lane
@@ -26960,6 +27002,7 @@ instantiate
 (
 (
 func
+\
 i64x2
 .
 replace_lane
@@ -27010,6 +27053,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 replace_lane
@@ -27054,6 +27098,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 replace_lane
@@ -27098,6 +27143,7 @@ instantiate
 (
 (
 func
+\
 i64x2
 .
 replace_lane
@@ -27130,6 +27176,7 @@ instantiate
 (
 (
 func
+\
 f64x2
 .
 replace_lane
@@ -27182,6 +27229,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 replace_lane
@@ -27228,6 +27276,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 replace_lane
@@ -27272,6 +27321,7 @@ instantiate
 (
 (
 func
+\
 f64x2
 .
 replace_lane
@@ -27304,6 +27354,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 shuffle
@@ -27385,6 +27436,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 shuffle
@@ -27458,6 +27510,7 @@ instantiate
 (
 (
 func
+\
 i8x16
 .
 shuffle

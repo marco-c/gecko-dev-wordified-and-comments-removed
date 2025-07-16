@@ -15,6 +15,7 @@ memory
 )
 (
 func
+\
 dummy
 )
 (
@@ -58,6 +59,7 @@ else
 )
 (
 if
+\
 l
 (
 local
@@ -71,6 +73,7 @@ then
 )
 (
 if
+\
 l
 (
 local
@@ -199,14 +202,17 @@ get
 then
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -226,14 +232,17 @@ then
 else
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -254,10 +263,12 @@ get
 then
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -268,6 +279,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -275,10 +287,12 @@ dummy
 else
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -289,6 +303,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -311,10 +326,12 @@ get
 then
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -325,14 +342,17 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -343,14 +363,17 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -361,6 +384,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -368,10 +392,12 @@ dummy
 else
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -383,14 +409,17 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -402,14 +431,17 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -421,6 +453,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -475,6 +508,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -500,6 +534,7 @@ then
 else
 (
 call
+\
 dummy
 )
 (
@@ -526,6 +561,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -539,6 +575,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -564,6 +601,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -589,6 +627,7 @@ then
 else
 (
 call
+\
 dummy
 )
 (
@@ -615,6 +654,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -628,6 +668,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -679,6 +720,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -692,6 +734,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -760,6 +803,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -773,6 +817,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -841,6 +886,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -854,6 +900,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -908,6 +955,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -921,6 +969,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -933,10 +982,12 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -969,6 +1020,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -987,6 +1039,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1000,6 +1053,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1012,6 +1066,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -1044,10 +1099,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -1066,6 +1123,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1079,6 +1137,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1152,6 +1211,7 @@ const
 then
 (
 call
+\
 dummy
 )
 (
@@ -1165,6 +1225,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1221,6 +1282,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1234,6 +1296,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1313,6 +1376,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1326,6 +1390,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1390,6 +1455,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1403,6 +1469,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1474,6 +1541,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1487,6 +1555,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1506,6 +1575,7 @@ br_table
 )
 (
 func
+\
 func
 (
 param
@@ -1525,6 +1595,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -1544,6 +1615,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -1577,6 +1649,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1595,6 +1668,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1608,6 +1682,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1663,6 +1738,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1687,6 +1763,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1700,6 +1777,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1749,6 +1827,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1779,6 +1858,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1792,6 +1872,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1837,6 +1918,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1850,6 +1932,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1910,6 +1993,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -1923,6 +2007,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2000,6 +2085,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -2038,6 +2124,7 @@ i32
 )
 (
 call
+\
 f
 (
 if
@@ -2373,6 +2460,7 @@ const
 )
 (
 global
+\
 a
 (
 mut
@@ -2411,6 +2499,7 @@ i32
 global
 .
 set
+\
 a
 (
 if
@@ -2448,6 +2537,7 @@ const
 global
 .
 get
+\
 a
 )
 )
@@ -2548,6 +2638,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2561,6 +2652,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2615,6 +2707,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2628,6 +2721,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2655,6 +2749,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2668,6 +2763,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2721,6 +2817,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2734,6 +2831,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2787,6 +2885,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2800,6 +2899,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2827,6 +2927,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2840,6 +2941,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2894,6 +2996,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2904,6 +3007,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -2917,6 +3021,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -2927,6 +3032,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -2981,6 +3087,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -2991,6 +3098,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -3004,6 +3112,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -3015,6 +3124,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -3065,6 +3175,7 @@ get
 then
 (
 call
+\
 dummy
 )
 (
@@ -3075,6 +3186,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -3088,6 +3200,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -3099,6 +3212,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -4255,6 +4369,7 @@ get
 Examples
 (
 func
+\
 add64_u_with_carry
 (
 export
@@ -4264,16 +4379,19 @@ add64_u_with_carry
 )
 (
 param
+\
 i
 i64
 )
 (
 param
+\
 j
 i64
 )
 (
 param
+\
 c
 i32
 )
@@ -4284,6 +4402,7 @@ i32
 )
 (
 local
+\
 k
 i64
 )
@@ -4291,6 +4410,7 @@ i64
 local
 .
 set
+\
 k
 (
 i64
@@ -4304,12 +4424,14 @@ add
 local
 .
 get
+\
 i
 )
 (
 local
 .
 get
+\
 j
 )
 )
@@ -4321,6 +4443,7 @@ extend_i32_u
 local
 .
 get
+\
 c
 )
 )
@@ -4332,6 +4455,7 @@ return
 local
 .
 get
+\
 k
 )
 (
@@ -4342,12 +4466,14 @@ lt_u
 local
 .
 get
+\
 k
 )
 (
 local
 .
 get
+\
 i
 )
 )
@@ -4355,6 +4481,7 @@ i
 )
 (
 func
+\
 add64_u_saturated
 (
 export
@@ -4373,6 +4500,7 @@ i64
 )
 (
 call
+\
 add64_u_with_carry
 (
 local
@@ -4425,6 +4553,7 @@ signature
 syntax
 (
 type
+\
 block
 -
 sig
@@ -4436,6 +4565,7 @@ func
 )
 (
 type
+\
 block
 -
 sig
@@ -4451,6 +4581,7 @@ i32
 )
 (
 type
+\
 block
 -
 sig
@@ -4460,6 +4591,7 @@ sig
 func
 (
 param
+\
 x
 i32
 )
@@ -4467,6 +4599,7 @@ i32
 )
 (
 type
+\
 block
 -
 sig
@@ -4502,6 +4635,7 @@ use
 if
 (
 type
+\
 block
 -
 sig
@@ -4522,6 +4656,7 @@ then
 if
 (
 type
+\
 block
 -
 sig
@@ -4557,6 +4692,7 @@ const
 if
 (
 type
+\
 block
 -
 sig
@@ -4604,6 +4740,7 @@ const
 if
 (
 type
+\
 block
 -
 sig
@@ -4633,6 +4770,7 @@ drop
 if
 (
 type
+\
 block
 -
 sig
@@ -4672,6 +4810,7 @@ const
 if
 (
 type
+\
 block
 -
 sig
@@ -4723,6 +4862,7 @@ const
 if
 (
 type
+\
 block
 -
 sig
@@ -8358,6 +8498,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8383,6 +8524,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -8419,6 +8561,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8448,6 +8591,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8480,6 +8624,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8513,6 +8658,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8541,6 +8687,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8570,6 +8717,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8602,6 +8750,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8635,49 +8784,8 @@ i32
 )
 (
 type
+\
 sig
-)
-(
-i32
-.
-const
-1
-)
-(
-then
-)
-)
-)
-)
-unexpected
-token
-)
-;
-assert_malformed
-(
-(
-)
-=
->
-instantiate
-(
-(
-func
-(
-i32
-.
-const
-0
-)
-(
-if
-(
-result
-i32
-)
-(
-param
-i32
 )
 (
 i32
@@ -8712,6 +8820,48 @@ const
 0
 )
 (
+if
+(
+result
+i32
+)
+(
+param
+i32
+)
+(
+i32
+.
+const
+1
+)
+(
+then
+)
+)
+)
+)
+unexpected
+token
+)
+;
+assert_malformed
+(
+(
+)
+=
+>
+instantiate
+(
+(
+func
+(
+i32
+.
+const
+0
+)
+(
 i32
 .
 const
@@ -8721,6 +8871,7 @@ const
 if
 (
 param
+\
 x
 i32
 )
@@ -8753,6 +8904,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8770,6 +8922,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -8815,6 +8968,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8840,6 +8994,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -8885,6 +9040,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8916,6 +9072,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -8955,6 +9112,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8987,6 +9145,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -9023,6 +9182,7 @@ instantiate
 module
 (
 type
+\
 sig
 (
 func
@@ -9040,6 +9200,7 @@ const
 if
 (
 type
+\
 sig
 )
 (
@@ -9071,6 +9232,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9111,6 +9273,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9151,6 +9314,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9191,6 +9355,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9231,6 +9396,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9274,6 +9440,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9317,6 +9484,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9360,6 +9528,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9403,6 +9572,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -9451,6 +9621,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -9504,6 +9675,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -9555,6 +9727,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -9612,6 +9785,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -9666,6 +9840,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -9725,6 +9900,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -9782,6 +9958,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -9851,6 +10028,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -9910,6 +10088,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -9969,6 +10148,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -10022,6 +10202,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -10089,6 +10270,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -10156,6 +10338,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -10211,6 +10394,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 no
@@ -10265,6 +10449,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 no
@@ -10327,6 +10512,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -10389,6 +10575,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -10451,6 +10638,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -10510,6 +10698,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -10580,6 +10769,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -10650,6 +10840,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -10711,6 +10902,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -10776,6 +10968,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -10841,6 +11034,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -10906,6 +11100,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -10979,6 +11174,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -11052,6 +11248,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -11119,6 +11316,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -11198,6 +11396,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -11277,6 +11476,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -11350,6 +11550,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -11421,6 +11622,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -11492,6 +11694,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -11569,6 +11772,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -11636,6 +11840,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 both
@@ -11717,6 +11922,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -11786,6 +11992,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -11855,6 +12062,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -11930,6 +12138,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -11995,6 +12204,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12060,6 +12270,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12133,6 +12344,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12206,6 +12418,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12275,6 +12488,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12344,6 +12558,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12427,6 +12642,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12510,6 +12726,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12582,6 +12799,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12654,6 +12872,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12740,6 +12959,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12826,6 +13046,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -12901,6 +13122,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -12976,98 +13198,10 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
--
-break
--
-num
--
-vs
--
-nums
-(
-result
-i32
-i32
-)
-(
-if
-(
-result
-i32
-i32
-)
-(
-i32
-.
-const
-1
-)
-(
-then
-(
-br
-0
-(
-i64
-.
-const
-1
-)
-)
-(
-i32
-.
-const
-1
-)
-(
-i32
-.
-const
-1
-)
-)
-(
-else
-(
-i32
-.
-const
-1
-)
-(
-i32
-.
-const
-1
-)
-)
-)
-)
-)
-)
-type
-mismatch
-)
-;
-assert_invalid
-(
-(
-)
-=
->
-instantiate
-(
-(
-module
-(
-func
-type
--
-else
 -
 break
 -
@@ -13097,6 +13231,96 @@ const
 (
 then
 (
+br
+0
+(
+i64
+.
+const
+1
+)
+)
+(
+i32
+.
+const
+1
+)
+(
+i32
+.
+const
+1
+)
+)
+(
+else
+(
+i32
+.
+const
+1
+)
+(
+i32
+.
+const
+1
+)
+)
+)
+)
+)
+)
+type
+mismatch
+)
+;
+assert_invalid
+(
+(
+)
+=
+>
+instantiate
+(
+(
+module
+(
+func
+\
+type
+-
+else
+-
+break
+-
+num
+-
+vs
+-
+nums
+(
+result
+i32
+i32
+)
+(
+if
+(
+result
+i32
+i32
+)
+(
+i32
+.
+const
+1
+)
+(
+then
+(
 i32
 .
 const
@@ -13154,6 +13378,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 then
@@ -13237,6 +13462,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 else
@@ -13320,6 +13546,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13350,6 +13577,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13393,6 +13621,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13436,6 +13665,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13488,6 +13718,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13562,6 +13793,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13612,6 +13844,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13668,6 +13901,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13718,6 +13952,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13758,6 +13993,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13810,6 +14046,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -13868,6 +14105,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 param
@@ -13886,6 +14124,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -13904,11 +14143,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 condition
@@ -13928,6 +14169,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -13966,6 +14208,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -14021,6 +14264,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 condition
@@ -14070,6 +14314,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -14084,6 +14329,7 @@ const
 )
 (
 func
+\
 type
 -
 condition
@@ -14099,6 +14345,7 @@ set
 global
 .
 set
+\
 x
 (
 if
@@ -14111,6 +14358,7 @@ then
 global
 .
 get
+\
 x
 )
 (
@@ -14139,6 +14387,7 @@ memory
 )
 (
 func
+\
 type
 -
 condition
@@ -14187,6 +14436,7 @@ memory
 )
 (
 func
+\
 type
 -
 condition
@@ -14233,6 +14483,7 @@ memory
 )
 (
 func
+\
 type
 -
 condition
@@ -14278,6 +14529,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14325,6 +14577,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14376,6 +14629,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14429,6 +14683,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14486,6 +14741,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14538,6 +14794,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14592,6 +14849,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14648,6 +14906,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -14717,6 +14976,7 @@ i32
 if
 (
 param
+\
 x
 i32
 )
@@ -14749,6 +15009,7 @@ i32
 if
 (
 param
+\
 x
 i32
 )
@@ -14778,6 +15039,7 @@ const
 0
 if
 end
+\
 l
 )
 )
@@ -14800,8 +15062,10 @@ i32
 const
 0
 if
+\
 a
 end
+\
 l
 )
 )
@@ -14825,6 +15089,7 @@ const
 0
 if
 else
+\
 l
 end
 )
@@ -14848,8 +15113,10 @@ i32
 const
 0
 if
+\
 a
 else
+\
 l
 end
 )
@@ -14875,6 +15142,7 @@ const
 if
 else
 end
+\
 l
 )
 )
@@ -14898,8 +15166,10 @@ const
 0
 if
 else
+\
 l
 end
+\
 l
 )
 )
@@ -14923,8 +15193,10 @@ const
 0
 if
 else
+\
 l1
 end
+\
 l2
 )
 )
@@ -14947,9 +15219,11 @@ i32
 const
 0
 if
+\
 a
 else
 end
+\
 l
 )
 )
@@ -14972,10 +15246,13 @@ i32
 const
 0
 if
+\
 a
 else
+\
 a
 end
+\
 l
 )
 )
@@ -14998,10 +15275,13 @@ i32
 const
 0
 if
+\
 a
 else
+\
 l
 end
+\
 l
 )
 )

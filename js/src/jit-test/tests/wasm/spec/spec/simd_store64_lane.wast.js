@@ -11,6 +11,7 @@ memory
 )
 (
 global
+\
 zero
 (
 mut
@@ -39,11 +40,13 @@ store64_lane_0
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -53,6 +56,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -65,12 +69,14 @@ store64_lane
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -78,6 +84,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -87,6 +94,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -99,12 +107,14 @@ store
 local
 .
 get
+\
 address
 )
 (
 global
 .
 get
+\
 zero
 )
 )
@@ -112,6 +122,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -127,11 +138,13 @@ store64_lane_1
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -141,6 +154,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -153,12 +167,14 @@ store64_lane
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -166,6 +182,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -175,6 +192,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -187,12 +205,14 @@ store
 local
 .
 get
+\
 address
 )
 (
 global
 .
 get
+\
 zero
 )
 )
@@ -200,6 +220,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -215,6 +236,7 @@ store64_lane_0_offset_0
 )
 (
 param
+\
 x
 v128
 )
@@ -224,6 +246,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -245,6 +268,7 @@ const
 local
 .
 get
+\
 x
 )
 )
@@ -252,6 +276,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -285,6 +310,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -292,6 +318,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -307,6 +334,7 @@ store64_lane_1_offset_1
 )
 (
 param
+\
 x
 v128
 )
@@ -316,6 +344,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -337,6 +366,7 @@ const
 local
 .
 get
+\
 x
 )
 )
@@ -344,6 +374,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -377,6 +408,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -384,6 +416,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -399,11 +432,13 @@ store64_lane_0_align_1
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -413,6 +448,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -428,12 +464,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -441,6 +479,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -450,6 +489,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -471,6 +511,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -478,6 +519,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -493,11 +535,13 @@ store64_lane_0_align_2
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -507,6 +551,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -522,12 +567,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -535,6 +582,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -544,6 +592,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -565,6 +614,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -572,6 +622,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -587,11 +638,13 @@ store64_lane_0_align_4
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -601,6 +654,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -616,12 +670,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -629,6 +685,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -638,6 +695,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -659,6 +717,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -666,6 +725,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -681,11 +741,13 @@ store64_lane_0_align_8
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -695,6 +757,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -710,12 +773,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -723,6 +788,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -732,6 +798,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -753,6 +820,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -760,6 +828,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -775,11 +844,13 @@ store64_lane_1_align_1
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -789,6 +860,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -804,12 +876,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -817,6 +891,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -826,6 +901,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -847,6 +923,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -854,6 +931,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -869,11 +947,13 @@ store64_lane_1_align_2
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -883,6 +963,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -898,12 +979,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -911,6 +994,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -920,6 +1004,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -941,6 +1026,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -948,6 +1034,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -963,11 +1050,13 @@ store64_lane_1_align_4
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -977,6 +1066,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -992,12 +1082,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1005,6 +1097,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -1014,6 +1107,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -1035,6 +1129,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -1042,6 +1137,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -1057,11 +1153,13 @@ store64_lane_1_align_8
 )
 (
 param
+\
 address
 i32
 )
 (
 param
+\
 x
 v128
 )
@@ -1071,6 +1169,7 @@ i64
 )
 (
 local
+\
 ret
 i64
 )
@@ -1086,12 +1185,14 @@ align
 local
 .
 get
+\
 address
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -1099,6 +1200,7 @@ x
 local
 .
 set
+\
 ret
 (
 i64
@@ -1108,6 +1210,7 @@ load
 local
 .
 get
+\
 address
 )
 )
@@ -1129,6 +1232,7 @@ const
 global
 .
 get
+\
 zero
 )
 )
@@ -1136,6 +1240,7 @@ zero
 local
 .
 get
+\
 ret
 )
 )
@@ -1566,6 +1671,7 @@ memory
 func
 (
 param
+\
 x
 v128
 )
@@ -1582,6 +1688,7 @@ store64_lane
 local
 .
 get
+\
 x
 )
 (
@@ -1616,6 +1723,7 @@ memory
 func
 (
 param
+\
 x
 v128
 )
@@ -1638,6 +1746,7 @@ const
 local
 .
 get
+\
 x
 )
 )
@@ -1667,6 +1776,7 @@ memory
 func
 (
 param
+\
 x
 v128
 )
@@ -1692,6 +1802,7 @@ const
 local
 .
 get
+\
 x
 )
 )

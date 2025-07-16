@@ -33,6 +33,7 @@ i64
 )
 (
 global
+\
 a
 i32
 (
@@ -77,6 +78,7 @@ const
 )
 (
 global
+\
 b
 i64
 (
@@ -89,6 +91,7 @@ const
 )
 (
 global
+\
 x
 (
 mut
@@ -142,6 +145,7 @@ const
 )
 (
 global
+\
 y
 (
 mut
@@ -157,6 +161,7 @@ const
 )
 (
 global
+\
 z1
 i32
 (
@@ -168,6 +173,7 @@ get
 )
 (
 global
+\
 z2
 i64
 (
@@ -179,6 +185,7 @@ get
 )
 (
 global
+\
 z3
 i32
 (
@@ -223,6 +230,7 @@ const
 )
 (
 global
+\
 z4
 i64
 (
@@ -267,6 +275,7 @@ const
 )
 (
 global
+\
 z5
 i32
 (
@@ -289,6 +298,7 @@ const
 )
 (
 global
+\
 z6
 i64
 (
@@ -311,6 +321,7 @@ const
 )
 (
 global
+\
 r
 externref
 (
@@ -322,6 +333,7 @@ extern
 )
 (
 global
+\
 mr
 (
 mut
@@ -362,6 +374,7 @@ i32
 global
 .
 get
+\
 a
 )
 )
@@ -383,6 +396,7 @@ i64
 global
 .
 get
+\
 b
 )
 )
@@ -404,6 +418,7 @@ externref
 global
 .
 get
+\
 r
 )
 )
@@ -425,6 +440,7 @@ externref
 global
 .
 get
+\
 mr
 )
 )
@@ -446,6 +462,7 @@ i32
 global
 .
 get
+\
 x
 )
 )
@@ -467,6 +484,7 @@ i64
 global
 .
 get
+\
 y
 )
 )
@@ -488,6 +506,7 @@ i32
 global
 .
 get
+\
 z1
 )
 )
@@ -509,6 +528,7 @@ i64
 global
 .
 get
+\
 z2
 )
 )
@@ -530,6 +550,7 @@ i32
 global
 .
 get
+\
 z3
 )
 )
@@ -551,6 +572,7 @@ i64
 global
 .
 get
+\
 z4
 )
 )
@@ -572,6 +594,7 @@ i32
 global
 .
 get
+\
 z5
 )
 )
@@ -593,6 +616,7 @@ i64
 global
 .
 get
+\
 z6
 )
 )
@@ -614,6 +638,7 @@ i32
 global
 .
 set
+\
 x
 (
 local
@@ -641,6 +666,7 @@ i64
 global
 .
 set
+\
 y
 (
 local
@@ -668,6 +694,7 @@ externref
 global
 .
 set
+\
 mr
 (
 local
@@ -831,6 +858,7 @@ memory
 )
 (
 func
+\
 dummy
 )
 (
@@ -855,6 +883,7 @@ select
 global
 .
 get
+\
 x
 )
 (
@@ -899,6 +928,7 @@ const
 global
 .
 get
+\
 x
 )
 (
@@ -943,6 +973,7 @@ const
 global
 .
 get
+\
 x
 )
 )
@@ -973,14 +1004,17 @@ i32
 global
 .
 get
+\
 x
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -1009,16 +1043,19 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 global
 .
 get
+\
 x
 )
 (
 call
+\
 dummy
 )
 )
@@ -1047,16 +1084,19 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 global
 .
 get
+\
 x
 )
 )
@@ -1087,12 +1127,14 @@ i32
 global
 .
 get
+\
 x
 )
 (
 then
 (
 call
+\
 dummy
 )
 (
@@ -1106,6 +1148,7 @@ const
 else
 (
 call
+\
 dummy
 )
 (
@@ -1151,6 +1194,7 @@ then
 global
 .
 get
+\
 x
 )
 )
@@ -1208,6 +1252,7 @@ else
 global
 .
 get
+\
 x
 )
 )
@@ -1242,6 +1287,7 @@ br_if
 global
 .
 get
+\
 x
 )
 (
@@ -1297,6 +1343,7 @@ const
 global
 .
 get
+\
 x
 )
 )
@@ -1337,6 +1384,7 @@ i32
 global
 .
 get
+\
 x
 )
 (
@@ -1384,6 +1432,7 @@ const
 global
 .
 get
+\
 x
 )
 (
@@ -1395,6 +1444,7 @@ br_table
 )
 (
 func
+\
 func
 (
 param
@@ -1414,6 +1464,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -1433,6 +1484,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -1462,12 +1514,14 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
 global
 .
 get
+\
 x
 )
 (
@@ -1511,6 +1565,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1523,6 +1578,7 @@ const
 global
 .
 get
+\
 x
 )
 (
@@ -1560,6 +1616,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1578,6 +1635,7 @@ const
 global
 .
 get
+\
 x
 )
 )
@@ -1599,6 +1657,7 @@ first
 global
 .
 get
+\
 x
 )
 (
@@ -1635,6 +1694,7 @@ const
 global
 .
 get
+\
 x
 )
 (
@@ -1667,6 +1727,7 @@ load
 global
 .
 get
+\
 x
 )
 )
@@ -1697,12 +1758,14 @@ grow
 global
 .
 get
+\
 x
 )
 )
 )
 (
 func
+\
 f
 (
 param
@@ -1737,11 +1800,13 @@ i32
 )
 (
 call
+\
 f
 (
 global
 .
 get
+\
 x
 )
 )
@@ -1766,6 +1831,7 @@ i32
 global
 .
 get
+\
 x
 )
 (
@@ -1790,6 +1856,7 @@ drop
 global
 .
 get
+\
 x
 )
 )
@@ -1823,6 +1890,7 @@ br
 global
 .
 get
+\
 x
 )
 )
@@ -1859,6 +1927,7 @@ set
 global
 .
 get
+\
 x
 )
 )
@@ -1900,6 +1969,7 @@ tee
 global
 .
 get
+\
 x
 )
 )
@@ -1926,11 +1996,13 @@ i32
 global
 .
 set
+\
 x
 (
 global
 .
 get
+\
 x
 )
 )
@@ -1938,6 +2010,7 @@ x
 global
 .
 get
+\
 x
 )
 )
@@ -1965,6 +2038,7 @@ eqz
 global
 .
 get
+\
 x
 )
 )
@@ -1993,12 +2067,14 @@ mul
 global
 .
 get
+\
 x
 )
 (
 global
 .
 get
+\
 x
 )
 )
@@ -4367,6 +4443,7 @@ instantiate
 module
 (
 global
+\
 g
 i32
 (
@@ -4383,6 +4460,7 @@ i32
 global
 .
 get
+\
 g
 )
 )
@@ -5375,6 +5453,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5389,6 +5468,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5402,6 +5482,7 @@ empty
 global
 .
 set
+\
 x
 )
 )
@@ -5423,6 +5504,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5437,6 +5519,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5462,6 +5545,7 @@ block
 global
 .
 set
+\
 x
 )
 )
@@ -5484,6 +5568,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5498,6 +5583,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5523,6 +5609,7 @@ loop
 global
 .
 set
+\
 x
 )
 )
@@ -5545,6 +5632,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5559,6 +5647,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5592,6 +5681,7 @@ then
 global
 .
 set
+\
 x
 )
 )
@@ -5615,6 +5705,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5629,6 +5720,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5675,6 +5767,7 @@ else
 global
 .
 set
+\
 x
 )
 )
@@ -5698,6 +5791,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5712,6 +5806,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5740,6 +5835,7 @@ br
 global
 .
 set
+\
 x
 )
 )
@@ -5763,6 +5859,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5777,6 +5874,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5805,6 +5903,7 @@ br_if
 global
 .
 set
+\
 x
 )
 )
@@ -5828,6 +5927,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5842,6 +5942,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5870,6 +5971,7 @@ br_table
 global
 .
 set
+\
 x
 )
 )
@@ -5893,6 +5995,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5907,6 +6010,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5926,6 +6030,7 @@ return
 global
 .
 set
+\
 x
 )
 )
@@ -5948,6 +6053,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -5962,6 +6068,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -5981,6 +6088,7 @@ select
 global
 .
 set
+\
 x
 )
 (
@@ -6015,6 +6123,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -6029,6 +6138,7 @@ const
 )
 (
 func
+\
 type
 -
 global
@@ -6049,6 +6159,7 @@ call
 global
 .
 set
+\
 x
 )
 )
@@ -6088,6 +6199,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -6102,6 +6214,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -6120,6 +6233,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -6138,11 +6252,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 global
@@ -6166,12 +6282,14 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
 global
 .
 set
+\
 x
 )
 (
@@ -6230,6 +6348,7 @@ instantiate
 module
 (
 global
+\
 g0
 (
 import
@@ -6244,6 +6363,7 @@ i32
 )
 (
 global
+\
 g1
 i32
 (
@@ -6255,43 +6375,51 @@ const
 )
 (
 global
+\
 g2
 i32
 (
 global
 .
 get
+\
 g0
 )
 )
 (
 global
+\
 g3
 i32
 (
 global
 .
 get
+\
 g1
 )
 )
 (
 global
+\
 gf
 funcref
 (
 ref
 .
 func
+\
 f
 )
 )
 (
 func
+\
 f
 )
 (
 table
+\
 t
 10
 funcref
@@ -6306,12 +6434,14 @@ func
 elem
 (
 table
+\
 t
 )
 (
 global
 .
 get
+\
 g2
 )
 funcref
@@ -6319,6 +6449,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 )
@@ -6326,12 +6457,14 @@ f
 elem
 (
 table
+\
 t
 )
 (
 global
 .
 get
+\
 g3
 )
 funcref
@@ -6339,11 +6472,13 @@ funcref
 global
 .
 get
+\
 gf
 )
 )
 (
 memory
+\
 m
 1
 )
@@ -6353,6 +6488,7 @@ data
 global
 .
 get
+\
 g2
 )
 "
@@ -6376,6 +6512,7 @@ data
 global
 .
 get
+\
 g3
 )
 "
@@ -6405,6 +6542,7 @@ elem
 )
 (
 param
+\
 i
 i32
 )
@@ -6416,11 +6554,13 @@ funcref
 table
 .
 get
+\
 t
 (
 local
 .
 get
+\
 i
 )
 )
@@ -6437,6 +6577,7 @@ data
 )
 (
 param
+\
 i
 i32
 )
@@ -6452,6 +6593,7 @@ load
 local
 .
 get
+\
 i
 )
 )
@@ -6601,17 +6743,20 @@ instantiate
 module
 (
 global
+\
 g1
 i32
 (
 global
 .
 get
+\
 g2
 )
 )
 (
 global
+\
 g2
 i32
 (
@@ -6639,6 +6784,7 @@ instantiate
 module
 (
 global
+\
 g
 funcref
 (
@@ -6650,6 +6796,7 @@ func
 )
 (
 table
+\
 t
 10
 funcref
@@ -6657,6 +6804,7 @@ funcref
 global
 .
 get
+\
 g
 )
 )
@@ -6676,6 +6824,7 @@ instantiate
 (
 (
 global
+\
 foo
 i32
 (
@@ -6687,42 +6836,7 @@ const
 )
 (
 global
-foo
-i32
-(
-i32
-.
-const
-0
-)
-)
-)
-duplicate
-global
-)
-;
-assert_malformed
-(
-(
-)
-=
->
-instantiate
-(
-(
-import
-"
-"
-"
-"
-(
-global
-foo
-i32
-)
-)
-(
-global
+\
 foo
 i32
 (
@@ -6753,6 +6867,45 @@ import
 "
 (
 global
+\
+foo
+i32
+)
+)
+(
+global
+\
+foo
+i32
+(
+i32
+.
+const
+0
+)
+)
+)
+duplicate
+global
+)
+;
+assert_malformed
+(
+(
+)
+=
+>
+instantiate
+(
+(
+import
+"
+"
+"
+"
+(
+global
+\
 foo
 i32
 )
@@ -6765,6 +6918,7 @@ import
 "
 (
 global
+\
 foo
 i32
 )

@@ -996,6 +996,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extadd_pairwise_i8x16_s
@@ -1031,6 +1032,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extadd_pairwise_i8x16_u

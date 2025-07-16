@@ -47939,6 +47939,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 abs
@@ -47974,6 +47975,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 min
@@ -48019,6 +48021,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 min
@@ -48054,6 +48057,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 max
@@ -48099,6 +48103,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 max

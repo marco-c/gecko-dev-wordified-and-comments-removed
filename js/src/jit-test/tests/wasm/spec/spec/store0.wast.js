@@ -7,11 +7,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -35,6 +37,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -64,6 +67,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -90,6 +94,7 @@ i64
 i64
 .
 store
+\
 mem1
 (
 local
@@ -122,6 +127,7 @@ i64
 i64
 .
 store
+\
 mem2
 (
 local

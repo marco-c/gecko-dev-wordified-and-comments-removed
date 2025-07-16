@@ -4530,6 +4530,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 trunc_sat_f32x4_s
@@ -4565,6 +4566,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 trunc_sat_f32x4_u

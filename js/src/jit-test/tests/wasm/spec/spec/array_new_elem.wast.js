@@ -7,6 +7,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -15,6 +16,7 @@ i31ref
 )
 (
 elem
+\
 e
 i31ref
 (
@@ -83,6 +85,7 @@ i32
 result
 (
 ref
+\
 arr
 )
 )
@@ -90,7 +93,9 @@ arr
 array
 .
 new_elem
+\
 arr
+\
 e
 (
 local
@@ -342,6 +347,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -350,6 +356,7 @@ i31ref
 )
 (
 elem
+\
 e
 i31ref
 (
@@ -420,6 +427,7 @@ i32
 local
 (
 ref
+\
 arr
 )
 )
@@ -432,7 +440,9 @@ set
 array
 .
 new_elem
+\
 arr
+\
 e
 (
 i32
@@ -456,6 +466,7 @@ get_u
 array
 .
 get
+\
 arr
 (
 local
@@ -479,6 +490,7 @@ get_u
 array
 .
 get
+\
 arr
 (
 local
@@ -544,6 +556,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -552,15 +565,21 @@ funcref
 )
 (
 elem
+\
 e
 func
+\
 aa
+\
 bb
+\
 cc
+\
 dd
 )
 (
 func
+\
 aa
 (
 result
@@ -575,6 +594,7 @@ const
 )
 (
 func
+\
 bb
 (
 result
@@ -589,6 +609,7 @@ const
 )
 (
 func
+\
 cc
 (
 result
@@ -603,6 +624,7 @@ const
 )
 (
 func
+\
 dd
 (
 result
@@ -636,6 +658,7 @@ i32
 result
 (
 ref
+\
 arr
 )
 )
@@ -643,7 +666,9 @@ arr
 array
 .
 new_elem
+\
 arr
+\
 e
 (
 local
@@ -895,6 +920,7 @@ instantiate
 module
 (
 type
+\
 f
 (
 func
@@ -906,6 +932,7 @@ i32
 )
 (
 type
+\
 arr
 (
 array
@@ -914,15 +941,21 @@ funcref
 )
 (
 elem
+\
 e
 func
+\
 aa
+\
 bb
+\
 cc
+\
 dd
 )
 (
 func
+\
 aa
 (
 result
@@ -937,6 +970,7 @@ const
 )
 (
 func
+\
 bb
 (
 result
@@ -951,6 +985,7 @@ const
 )
 (
 func
+\
 cc
 (
 result
@@ -965,6 +1000,7 @@ const
 )
 (
 func
+\
 dd
 (
 result
@@ -979,6 +1015,7 @@ const
 )
 (
 table
+\
 t
 2
 2
@@ -1007,6 +1044,7 @@ i32
 local
 (
 ref
+\
 arr
 )
 )
@@ -1019,7 +1057,9 @@ set
 array
 .
 new_elem
+\
 arr
+\
 e
 (
 i32
@@ -1039,6 +1079,7 @@ const
 table
 .
 set
+\
 t
 (
 i32
@@ -1050,6 +1091,7 @@ const
 array
 .
 get
+\
 arr
 (
 local
@@ -1069,6 +1111,7 @@ const
 table
 .
 set
+\
 t
 (
 i32
@@ -1080,6 +1123,7 @@ const
 array
 .
 get
+\
 arr
 (
 local
@@ -1099,6 +1143,7 @@ const
 call_indirect
 (
 type
+\
 f
 )
 (
@@ -1112,6 +1157,7 @@ const
 call_indirect
 (
 type
+\
 f
 )
 (

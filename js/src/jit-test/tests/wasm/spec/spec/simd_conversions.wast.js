@@ -16281,6 +16281,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 convert_i32x4_s
@@ -16316,6 +16317,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 convert_i32x4_u
@@ -16351,6 +16353,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 narrow_i16x8_s
@@ -16402,6 +16405,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 narrow_i16x8_s
@@ -16437,6 +16441,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 narrow_i16x8_u
@@ -16488,6 +16493,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 narrow_i16x8_u
@@ -16523,6 +16529,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 narrow_i32x4_s
@@ -16570,6 +16577,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 narrow_i32x4_s
@@ -16605,6 +16613,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 narrow_i32x4_u
@@ -16652,6 +16661,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 narrow_i32x4_u

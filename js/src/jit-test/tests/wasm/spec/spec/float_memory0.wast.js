@@ -22,6 +22,7 @@ memory
 )
 (
 memory
+\
 m
 (
 data
@@ -69,6 +70,7 @@ f32
 f32
 .
 load
+\
 m
 (
 i32
@@ -96,6 +98,7 @@ i32
 i32
 .
 load
+\
 m
 (
 i32
@@ -119,6 +122,7 @@ store
 f32
 .
 store
+\
 m
 (
 i32
@@ -150,6 +154,7 @@ store
 i32
 .
 store
+\
 m
 (
 i32
@@ -177,6 +182,7 @@ reset
 i32
 .
 store
+\
 m
 (
 i32
@@ -520,6 +526,7 @@ memory
 )
 (
 memory
+\
 m
 (
 data
@@ -569,6 +576,7 @@ f64
 f64
 .
 load
+\
 m
 (
 i32
@@ -596,6 +604,7 @@ i64
 i64
 .
 load
+\
 m
 (
 i32
@@ -619,6 +628,7 @@ store
 f64
 .
 store
+\
 m
 (
 i32
@@ -650,6 +660,7 @@ store
 i64
 .
 store
+\
 m
 (
 i32
@@ -677,6 +688,7 @@ reset
 i64
 .
 store
+\
 m
 (
 i32

@@ -22,6 +22,7 @@ skip
 "
 (
 func
+\
 test
 -
 guard
@@ -33,6 +34,7 @@ skip
 )
 (
 func
+\
 test
 -
 guard
@@ -42,6 +44,7 @@ page
 skip
 (
 param
+\
 depth
 i32
 )
@@ -55,6 +58,7 @@ eq
 local
 .
 get
+\
 depth
 )
 (
@@ -68,6 +72,7 @@ const
 then
 (
 call
+\
 function
 -
 with
@@ -81,6 +86,7 @@ locals
 else
 (
 call
+\
 test
 -
 guard
@@ -96,6 +102,7 @@ sub
 local
 .
 get
+\
 depth
 )
 (
@@ -111,6 +118,7 @@ const
 )
 (
 func
+\
 function
 -
 with
@@ -5041,6 +5049,7 @@ initialized
 .
 (
 call
+\
 function
 -
 with

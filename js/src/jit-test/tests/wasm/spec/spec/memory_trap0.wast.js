@@ -15,11 +15,13 @@ memory
 )
 (
 memory
+\
 m
 1
 )
 (
 func
+\
 addr_limit
 (
 result
@@ -33,6 +35,7 @@ mul
 memory
 .
 size
+\
 m
 )
 (
@@ -53,11 +56,13 @@ store
 )
 (
 param
+\
 i
 i32
 )
 (
 param
+\
 v
 i32
 )
@@ -65,6 +70,7 @@ i32
 i32
 .
 store
+\
 m
 (
 i32
@@ -72,12 +78,14 @@ i32
 add
 (
 call
+\
 addr_limit
 )
 (
 local
 .
 get
+\
 i
 )
 )
@@ -85,6 +93,7 @@ i
 local
 .
 get
+\
 v
 )
 )
@@ -99,6 +108,7 @@ load
 )
 (
 param
+\
 i
 i32
 )
@@ -110,6 +120,7 @@ i32
 i32
 .
 load
+\
 m
 (
 i32
@@ -117,12 +128,14 @@ i32
 add
 (
 call
+\
 addr_limit
 )
 (
 local
 .
 get
+\
 i
 )
 )
@@ -150,6 +163,7 @@ i32
 memory
 .
 grow
+\
 m
 (
 local
