@@ -131,6 +131,11 @@ font
 -
 weight
 "
+Heading
+:
+"
+heading
+"
 Icon
 :
 "
