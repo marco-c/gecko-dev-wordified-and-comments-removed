@@ -3638,6 +3638,9 @@ length
 ;
 if
 (
+lowerStart
+&
+&
 MapMemoryAt
 (
 lowerStart
