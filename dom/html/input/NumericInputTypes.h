@@ -91,10 +91,9 @@ bool
 ConvertNumberToString
 (
 Decimal
-aValue
+Localized
 nsAString
 &
-aResultString
 )
 const
 override
@@ -196,10 +195,9 @@ bool
 ConvertNumberToString
 (
 Decimal
-aValue
+Localized
 nsAString
 &
-aResultString
 )
 const
 override
