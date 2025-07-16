@@ -136,6 +136,13 @@ js
 ]
 [
 "
+browser_ml_thompson_sample
+.
+js
+"
+]
+[
+"
 browser_ml_utils
 .
 js

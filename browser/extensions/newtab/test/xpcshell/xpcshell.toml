@@ -213,3 +213,10 @@ test_WeatherFeed
 js
 "
 ]
+[
+"
+test_ShortcutRanker
+.
+js
+"
+]
