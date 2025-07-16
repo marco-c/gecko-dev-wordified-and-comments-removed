@@ -915,6 +915,9 @@ MediaSourceSamples
 Autoplay
 :
 5
+GVAutoplay
+:
+5
 MFMediaEngine
 :
 5
