@@ -97,6 +97,10 @@ aDocument
 AbstractRange
 *
 aInputRange
+const
+TimeoutWatchdog
+*
+aWatchdog
 )
 ;
 virtual
@@ -117,6 +121,10 @@ aDocument
 AbstractRange
 *
 aRange
+const
+TimeoutWatchdog
+*
+aWatchdog
 )
 ;
 static
@@ -165,6 +173,10 @@ aDocument
 AbstractRange
 *
 aRange
+const
+TimeoutWatchdog
+*
+aWatchdog
 )
 ;
 virtual
@@ -406,7 +418,11 @@ AbstractRange
 >
 mRange
 ;
+RefPtr
+<
+const
 TimeoutWatchdog
+>
 mWatchdog
 ;
 nsContentUtils

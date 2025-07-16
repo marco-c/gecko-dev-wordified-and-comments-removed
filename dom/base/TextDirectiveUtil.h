@@ -430,6 +430,11 @@ final
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+TimeoutWatchdog
+)
+;
 TimeoutWatchdog
 (
 )
@@ -481,6 +486,13 @@ mDuration
 }
 private
 :
+~
+TimeoutWatchdog
+(
+)
+=
+default
+;
 TimeStamp
 mStartTime
 ;
