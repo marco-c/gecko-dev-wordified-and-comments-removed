@@ -7935,7 +7935,7 @@ D
 >
 :
 :
-pointer
+Pointer
 release
 (
 )
