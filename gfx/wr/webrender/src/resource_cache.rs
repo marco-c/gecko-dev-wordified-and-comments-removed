@@ -3349,6 +3349,11 @@ flags
 )
 ;
 let
+force_standalone_texture
+=
+true
+;
+let
 user_data
 =
 [
@@ -3396,6 +3401,7 @@ TargetShader
 :
 :
 Default
+force_standalone_texture
 )
 ;
 let
@@ -8109,6 +8115,7 @@ TargetShader
 :
 :
 Text
+false
 )
 ;
 GlyphCacheEntry
@@ -8298,6 +8305,7 @@ TargetShader
 :
 :
 Default
+false
 )
 ;
 }
@@ -8921,6 +8929,7 @@ TargetShader
 :
 :
 Default
+false
 )
 ;
 }
