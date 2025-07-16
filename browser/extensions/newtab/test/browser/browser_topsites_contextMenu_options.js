@@ -222,6 +222,10 @@ search
 shortcut
 .
 placeholder
+.
+add
+-
+button
 )
 "
 ;
