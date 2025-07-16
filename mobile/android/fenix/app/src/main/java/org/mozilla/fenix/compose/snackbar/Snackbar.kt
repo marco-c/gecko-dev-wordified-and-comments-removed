@@ -1206,6 +1206,17 @@ settings
 )
 .
 toolbarPosition
+shouldUseSimpleToolbar
+=
+snackBarParentView
+.
+context
+.
+settings
+(
+)
+.
+shouldUseSimpleToolbar
 )
 }
 }
