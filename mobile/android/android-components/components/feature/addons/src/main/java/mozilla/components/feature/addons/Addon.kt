@@ -5236,7 +5236,7 @@ else
 fun
 addExtraEntriesIfNeeded
 (
-count
+collapsedPermissions
 :
 Int
 oneExtraPermission
@@ -5247,12 +5247,6 @@ multiplePermissions
 Int
 )
 {
-val
-collapsedPermissions
-=
-count
--
-maxShownPermissionsEntries
 if
 (
 collapsedPermissions
@@ -5284,7 +5278,6 @@ context
 getString
 (
 multiplePermissions
-collapsedPermissions
 )
 )
 }
@@ -5454,7 +5447,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_one_extra_domain_description
+mozac_feature_addons_permissions_one_extra_domain_description_2
 }
 val
 multiplePermissions
@@ -5476,11 +5469,13 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_extra_domains_description_plural
+mozac_feature_addons_permissions_extra_domains_description_plural_2
 }
 addExtraEntriesIfNeeded
 (
 domainCount
+-
+maxShownPermissionsEntries
 onePermission
 multiplePermissions
 )
@@ -5512,7 +5507,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_one_extra_site_description
+mozac_feature_addons_permissions_one_extra_site_description_2
 }
 val
 multiplePermissions
@@ -5534,11 +5529,13 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_extra_sites_description
+mozac_feature_addons_permissions_extra_sites_description_2
 }
 addExtraEntriesIfNeeded
 (
 siteCount
+-
+maxShownPermissionsEntries
 onePermission
 multiplePermissions
 )

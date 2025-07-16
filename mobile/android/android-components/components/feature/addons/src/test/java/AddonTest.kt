@@ -1746,7 +1746,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_one_extra_domain_description
+mozac_feature_addons_permissions_one_extra_domain_description_2
 )
 var
 permissions
@@ -1904,8 +1904,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_extra_domains_description_plural
-2
+mozac_feature_addons_permissions_extra_domains_description_plural_2
 )
 permissions
 =
@@ -2160,7 +2159,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_one_extra_site_description
+mozac_feature_addons_permissions_one_extra_site_description_2
 )
 result
 =
@@ -2336,8 +2335,7 @@ R
 .
 string
 .
-mozac_feature_addons_permissions_extra_sites_description
-2
+mozac_feature_addons_permissions_extra_sites_description_2
 )
 result
 =
