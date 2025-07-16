@@ -260,6 +260,16 @@ HTMLEditorEventListener
 cpp
 "
 "
+HTMLEditorInsertLineBreakHandler
+.
+cpp
+"
+"
+HTMLEditorInsertParagraphHandler
+.
+cpp
+"
+"
 HTMLEditorObjectResizer
 .
 cpp
