@@ -2785,7 +2785,7 @@ wlbuffer
 waylandBuffer
 -
 >
-CreateAndTakeWLBuffer
+CreateWlBuffer
 (
 )
 ;

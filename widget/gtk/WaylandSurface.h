@@ -67,6 +67,9 @@ class
 WaylandBuffer
 ;
 class
+BufferTransaction
+;
+class
 WaylandSurface
 final
 {
@@ -442,7 +445,7 @@ RefPtr
 <
 WaylandBuffer
 >
-aWaylandBuffer
+aBuffer
 )
 ;
 void
@@ -452,15 +455,6 @@ const
 WaylandSurfaceLock
 &
 aProofOfLock
-)
-;
-void
-BufferFreeCallbackHandler
-(
-uintptr_t
-aWlBufferID
-bool
-aWlBufferDelete
 )
 ;
 void
@@ -1036,7 +1030,7 @@ aForceDisplayFlush
 )
 ;
 void
-ReleaseAllWaylandBuffersLocked
+ReleaseAllWaylandTransactionsLocked
 (
 WaylandSurfaceLock
 &
@@ -1224,11 +1218,11 @@ AutoTArray
 <
 RefPtr
 <
-WaylandBuffer
+BufferTransaction
 >
 3
 >
-mAttachedBuffers
+mBufferTransactions
 ;
 mozilla
 :
