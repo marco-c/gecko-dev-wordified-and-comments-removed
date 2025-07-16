@@ -365,6 +365,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 "
 )
@@ -578,6 +580,8 @@ contains
 urlbarView
 -
 button
+-
+result
 -
 menu
 "
@@ -835,6 +839,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 "
 )
@@ -938,6 +944,8 @@ contains
 urlbarView
 -
 button
+-
+result
 -
 menu
 "

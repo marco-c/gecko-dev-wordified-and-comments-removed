@@ -4107,6 +4107,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 {
 background
@@ -4385,6 +4387,8 @@ not
 urlbarView
 -
 button
+-
+result
 -
 menu
 )

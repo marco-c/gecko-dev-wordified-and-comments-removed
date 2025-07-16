@@ -1970,6 +1970,8 @@ getButtonForResultIndex
 (
 win
 "
+result
+-
 menu
 "
 resultIndex

@@ -365,6 +365,8 @@ _buttons
 get
 (
 "
+result
+-
 menu
 "
 )
@@ -1750,6 +1752,8 @@ _buttons
 get
 (
 "
+result
+-
 menu
 "
 )
@@ -1951,6 +1955,8 @@ expectedSelectedElementIndex
 urlbarView
 -
 button
+-
+result
 -
 menu
 "
