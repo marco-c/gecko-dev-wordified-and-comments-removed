@@ -60037,8 +60037,6 @@ pos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 maxWidth
@@ -60073,8 +60071,6 @@ pos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 maxHeight
