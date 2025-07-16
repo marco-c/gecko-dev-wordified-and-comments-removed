@@ -3739,7 +3739,7 @@ source
 :
 "
 nimbus
-:
+-
 newtabTrainhopAddon
 "
 }
