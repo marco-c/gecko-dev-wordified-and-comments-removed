@@ -76500,6 +76500,19 @@ newtab
 abouthome
 "
 ;
+const
+searchSource
+=
+IS_NEWTAB
+?
+"
+newtab
+"
+:
+"
+homepage
+"
+;
 window
 .
 gContentSearchController
@@ -76512,6 +76525,7 @@ input
 .
 parentNode
 healthReportKey
+searchSource
 )
 ;
 addEventListener

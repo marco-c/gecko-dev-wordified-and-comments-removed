@@ -1203,6 +1203,9 @@ searchString
 "
 healthReportKey
 "
+"
+searchPurpose
+"
 ]
 )
 ;
@@ -1232,6 +1235,9 @@ data
 searchString
 "
 "
+data
+.
+searchPurpose
 )
 ;
 let
