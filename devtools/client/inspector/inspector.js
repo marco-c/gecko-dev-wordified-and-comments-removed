@@ -3314,6 +3314,17 @@ _clearSearchResultsLabel
 result
 )
 {
+this
+.
+emit
+(
+"
+search
+-
+cleared
+"
+)
+;
 return
 this
 .
