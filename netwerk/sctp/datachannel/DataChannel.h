@@ -2005,9 +2005,6 @@ SetListener
 DataChannelListener
 *
 aListener
-nsISupports
-*
-aContext
 )
 ;
 static
@@ -2247,12 +2244,6 @@ DataChannelListener
 mListener
 =
 nullptr
-;
-nsCOMPtr
-<
-nsISupports
->
-mContext
 ;
 bool
 mEverOpened

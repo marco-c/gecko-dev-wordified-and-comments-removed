@@ -414,9 +414,6 @@ virtual
 nsresult
 OnMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -428,9 +425,6 @@ virtual
 nsresult
 OnBinaryMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -442,9 +436,6 @@ virtual
 nsresult
 OnSimpleEvent
 (
-nsISupports
-*
-aContext
 const
 nsAString
 &
@@ -455,9 +446,6 @@ virtual
 nsresult
 OnChannelConnected
 (
-nsISupports
-*
-aContext
 )
 override
 ;
@@ -465,9 +453,6 @@ virtual
 nsresult
 OnChannelClosed
 (
-nsISupports
-*
-aContext
 )
 override
 ;
@@ -475,9 +460,6 @@ virtual
 nsresult
 OnBufferLow
 (
-nsISupports
-*
-aContext
 )
 override
 ;
@@ -485,9 +467,6 @@ virtual
 nsresult
 NotBuffered
 (
-nsISupports
-*
-aContext
 )
 override
 ;

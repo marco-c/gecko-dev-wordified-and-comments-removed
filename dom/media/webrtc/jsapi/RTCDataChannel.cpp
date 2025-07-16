@@ -232,7 +232,6 @@ mDataChannel
 SetListener
 (
 nullptr
-nullptr
 )
 ;
 mDataChannel
@@ -422,7 +421,6 @@ mDataChannel
 SetListener
 (
 this
-nullptr
 )
 ;
 nsCOMPtr
@@ -1724,9 +1722,6 @@ RTCDataChannel
 :
 OnMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -1754,9 +1749,6 @@ RTCDataChannel
 :
 OnBinaryMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -1784,9 +1776,6 @@ RTCDataChannel
 :
 OnSimpleEvent
 (
-nsISupports
-*
-aContext
 const
 nsAString
 &
@@ -1880,9 +1869,6 @@ RTCDataChannel
 :
 OnChannelConnected
 (
-nsISupports
-*
-aContext
 )
 {
 DC_DEBUG
@@ -1916,7 +1902,6 @@ __FUNCTION__
 return
 OnSimpleEvent
 (
-aContext
 u
 "
 open
@@ -1931,9 +1916,6 @@ RTCDataChannel
 :
 OnChannelClosed
 (
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -1984,7 +1966,6 @@ rv
 =
 OnSimpleEvent
 (
-aContext
 u
 "
 close
@@ -2018,9 +1999,6 @@ RTCDataChannel
 :
 OnBufferLow
 (
-nsISupports
-*
-aContext
 )
 {
 DC_DEBUG
@@ -2054,7 +2032,6 @@ __FUNCTION__
 return
 OnSimpleEvent
 (
-aContext
 u
 "
 bufferedamountlow
@@ -2069,9 +2046,6 @@ RTCDataChannel
 :
 NotBuffered
 (
-nsISupports
-*
-aContext
 )
 {
 UpdateMustKeepAlive
