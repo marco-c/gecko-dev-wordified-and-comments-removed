@@ -46,7 +46,6 @@ BuiltinObjectKind
 uint8_t
 {
 Array
-ListFormat
 Map
 Promise
 RegExp
