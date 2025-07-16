@@ -222,6 +222,14 @@ aIndex
 )
 const
 ;
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 protected
 :
 virtual

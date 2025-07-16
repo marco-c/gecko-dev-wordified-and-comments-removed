@@ -150,6 +150,9 @@ Element
 class
 PopoverData
 ;
+class
+StylePropertyMapReadOnly
+;
 }
 }
 class
@@ -816,6 +819,12 @@ RefPtr
 nsDOMTokenList
 >
 mClassList
+;
+RefPtr
+<
+StylePropertyMapReadOnly
+>
+mComputedStyleMap
 ;
 }
 ;

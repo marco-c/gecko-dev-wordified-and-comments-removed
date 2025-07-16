@@ -628,6 +628,9 @@ class
 ShadowRoot
 ;
 class
+StylePropertyMapReadOnly
+;
+class
 TrustedHTMLOrString
 ;
 class
@@ -6194,6 +6197,12 @@ aOptions
 nsAString
 &
 aResult
+)
+;
+StylePropertyMapReadOnly
+*
+ComputedStyleMap
+(
 )
 ;
 void
