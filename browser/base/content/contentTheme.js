@@ -354,8 +354,6 @@ value
 "
 -
 -
-lwt
--
 sidebar
 -
 background
@@ -412,8 +410,6 @@ b
 [
 "
 -
--
-lwt
 -
 sidebar
 -

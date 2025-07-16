@@ -125,8 +125,6 @@ getPropertyValue
 "
 -
 -
-lwt
--
 sidebar
 -
 background
@@ -147,8 +145,6 @@ getPropertyValue
 (
 "
 -
--
-lwt
 -
 sidebar
 -
@@ -247,8 +243,6 @@ getPropertyValue
 "
 -
 -
-lwt
--
 sidebar
 -
 background
@@ -287,8 +281,6 @@ getPropertyValue
 (
 "
 -
--
-lwt
 -
 sidebar
 -
