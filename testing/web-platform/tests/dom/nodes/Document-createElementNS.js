@@ -197,7 +197,9 @@ null
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 null
@@ -322,7 +324,9 @@ null
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -393,7 +397,9 @@ undefined
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 undefined
@@ -425,7 +431,7 @@ f
 oo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -641,7 +647,9 @@ com
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -717,7 +725,9 @@ f
 :
 oo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -1330,7 +1340,9 @@ prefix
 :
 local
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -1916,7 +1928,9 @@ null
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -2123,7 +2137,9 @@ namespace
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
@@ -2496,7 +2512,7 @@ xmlns
 foo
 "
 "
-NAMESPACE_ERR
+INVALID_CHARACTER_ERR
 "
 ]
 [
@@ -2773,7 +2789,9 @@ foo
 :
 foo
 "
-null
+"
+INVALID_CHARACTER_ERR
+"
 ]
 [
 "
