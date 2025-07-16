@@ -4368,7 +4368,7 @@ UpdateChain
 (
 )
 ;
-UpdateSourceRect
+UpdateRenderRect
 (
 )
 ;
@@ -4723,7 +4723,7 @@ if
 aIndex
 !
 =
-ATT_CONVOLVE_MATRIX_SOURCE_RECT
+ATT_CONVOLVE_MATRIX_RENDER_RECT
 )
 {
 MOZ_ASSERT
@@ -4734,11 +4734,11 @@ false
 return
 ;
 }
-mSourceRect
+mRenderRect
 =
 aValue
 ;
-UpdateSourceRect
+UpdateRenderRect
 (
 )
 ;
@@ -4821,7 +4821,7 @@ void
 FilterNodeConvolveD2D1
 :
 :
-UpdateSourceRect
+UpdateRenderRect
 (
 )
 {
@@ -4838,7 +4838,7 @@ Vector4F
 (
 Float
 (
-mSourceRect
+mRenderRect
 .
 X
 (
@@ -4846,7 +4846,7 @@ X
 )
 Float
 (
-mSourceRect
+mRenderRect
 .
 Y
 (
@@ -4854,7 +4854,7 @@ Y
 )
 Float
 (
-mSourceRect
+mRenderRect
 .
 XMost
 (
@@ -4862,7 +4862,7 @@ XMost
 )
 Float
 (
-mSourceRect
+mRenderRect
 .
 YMost
 (

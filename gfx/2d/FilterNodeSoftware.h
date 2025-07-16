@@ -1967,7 +1967,7 @@ IntPoint
 mTarget
 ;
 IntRect
-mSourceRect
+mRenderRect
 ;
 ConvolveMatrixEdgeMode
 mEdgeMode
