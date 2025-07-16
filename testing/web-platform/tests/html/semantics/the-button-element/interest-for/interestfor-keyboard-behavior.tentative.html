@@ -219,7 +219,7 @@ testcase
 button
 >
 "
-interesttarget
+interestfor
 =
 target
 >
@@ -242,7 +242,7 @@ a
 href
 =
 foo
-interesttarget
+interestfor
 =
 target
 >
@@ -287,7 +287,7 @@ testcase
 area
 >
 "
-interesttarget
+interestfor
 =
 target
 href
@@ -353,7 +353,7 @@ a
 href
 =
 foo
-interesttarget
+interestfor
 =
 target
 >
@@ -413,7 +413,7 @@ id
 "
 another
 "
-interesttarget
+interestfor
 =
 anothertarget
 >
@@ -440,12 +440,10 @@ div
 style
 >
 [
-interesttarget
+interestfor
 ]
 {
 interest
--
-target
 -
 delay
 :
@@ -453,14 +451,12 @@ delay
 ;
 }
 [
-interesttarget
+interestfor
 ]
 .
 longhide
 {
 interest
--
-target
 -
 hide
 -
@@ -477,7 +473,7 @@ style
 script
 >
 const
-allInterestTargetElements
+allInterestForElements
 =
 document
 .
@@ -494,7 +490,7 @@ testcase
 ;
 assert_true
 (
-allInterestTargetElements
+allInterestForElements
 .
 length
 >
@@ -529,7 +525,7 @@ onlyElements
 .
 .
 .
-allInterestTargetElements
+allInterestForElements
 another
 ]
 .
@@ -592,7 +588,7 @@ interest
 }
 )
 }
-allInterestTargetElements
+allInterestForElements
 .
 forEach
 (

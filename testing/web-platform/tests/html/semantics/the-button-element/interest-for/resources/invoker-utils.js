@@ -750,7 +750,7 @@ button
 ;
 invoker
 .
-interestTargetElement
+interestForElement
 =
 popover
 ;
@@ -763,8 +763,6 @@ style
 '
 interest
 -
-target
--
 show
 -
 delay
@@ -775,8 +773,6 @@ showdelayMs
 ms
 ;
 interest
--
-target
 -
 hide
 -
@@ -836,7 +832,7 @@ getComputedStyle
 invoker
 )
 .
-interestTargetShowDelay
+interestShowDelay
 .
 slice
 (
@@ -854,8 +850,6 @@ actualShowDelay
 showdelayMs
 '
 interest
--
-target
 -
 show
 -
@@ -875,7 +869,7 @@ getComputedStyle
 invoker
 )
 .
-interestTargetHideDelay
+interestHideDelay
 .
 slice
 (
@@ -893,8 +887,6 @@ actualHideDelay
 hideDelayMs
 '
 interest
--
-target
 -
 hide
 -

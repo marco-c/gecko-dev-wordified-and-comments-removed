@@ -246,7 +246,7 @@ testcase
 button
 >
 "
-interesttarget
+interestfor
 =
 target
 >
@@ -269,7 +269,7 @@ a
 href
 =
 foo
-interesttarget
+interestfor
 =
 target
 >
@@ -324,7 +324,7 @@ hover
 "
 areatarget
 "
-interesttarget
+interestfor
 =
 target
 href
@@ -390,7 +390,7 @@ a
 href
 =
 foo
-interesttarget
+interestfor
 =
 target
 >
@@ -444,12 +444,10 @@ button
 style
 >
 [
-interesttarget
+interestfor
 ]
 {
 interest
--
-target
 -
 delay
 :
@@ -464,7 +462,7 @@ style
 script
 >
 const
-allInterestTargetElements
+allInterestForElements
 =
 document
 .
@@ -481,7 +479,7 @@ testcase
 ;
 assert_true
 (
-allInterestTargetElements
+allInterestForElements
 .
 length
 >
@@ -516,7 +514,7 @@ onlyElements
 .
 .
 .
-allInterestTargetElements
+allInterestForElements
 another
 ]
 .
@@ -731,7 +729,7 @@ cancelEvent
 =
 >
 {
-allInterestTargetElements
+allInterestForElements
 .
 forEach
 (

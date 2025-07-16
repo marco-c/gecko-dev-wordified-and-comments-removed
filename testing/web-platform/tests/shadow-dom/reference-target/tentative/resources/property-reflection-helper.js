@@ -1105,10 +1105,10 @@ test_name_suffix
 referencing_element_type
 referenced_element_type
 "
-interesttarget
+interestfor
 "
 "
-interestTargetElement
+interestForElement
 "
 Behavior
 .

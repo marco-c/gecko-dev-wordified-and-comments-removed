@@ -6,12 +6,12 @@ InterestInvokerElement
 CEReactions
 Reflect
 =
-interesttarget
+interestfor
 ]
 attribute
 Element
 ?
-interestTargetElement
+interestForElement
 ;
 }
 ;

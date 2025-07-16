@@ -134,7 +134,7 @@ id
 "
 buttonInvoker
 "
-interesttarget
+interestfor
 =
 "
 interestee
@@ -151,7 +151,7 @@ id
 "
 aInvoker
 "
-interesttarget
+interestfor
 =
 "
 interestee
@@ -186,7 +186,7 @@ assert_equals
 (
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 interestee
 )
 ;
@@ -194,13 +194,13 @@ assert_equals
 (
 aInvoker
 .
-interestTargetElement
+interestForElement
 interestee
 )
 ;
 }
 "
-interestTargetElement
+interestForElement
 reflects
 interestee
 HTML
@@ -235,13 +235,13 @@ div
 ;
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 =
 div
 ;
 aInvoker
 .
-interestTargetElement
+interestForElement
 =
 div
 ;
@@ -249,7 +249,7 @@ assert_equals
 (
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 div
 )
 ;
@@ -260,7 +260,7 @@ buttonInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -271,7 +271,7 @@ assert_equals
 (
 aInvoker
 .
-interestTargetElement
+interestForElement
 div
 )
 ;
@@ -282,7 +282,7 @@ aInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -291,7 +291,7 @@ interesttarget
 ;
 }
 "
-interestTargetElement
+interestForElement
 reflects
 set
 value
@@ -358,7 +358,7 @@ button
 ;
 button
 .
-interestTargetElement
+interestForElement
 =
 interestee
 ;
@@ -366,7 +366,7 @@ assert_equals
 (
 button
 .
-interestTargetElement
+interestForElement
 interestee
 )
 ;
@@ -377,7 +377,7 @@ buttonInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -386,7 +386,7 @@ interesttarget
 ;
 }
 "
-interestTargetElement
+interestForElement
 reflects
 set
 value
@@ -459,7 +459,7 @@ div
 ;
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 =
 div
 ;
@@ -467,7 +467,7 @@ assert_equals
 (
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 null
 )
 ;
@@ -478,7 +478,7 @@ buttonInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -487,7 +487,7 @@ interesttarget
 ;
 }
 "
-interestTargetElement
+interestForElement
 does
 not
 reflect
@@ -509,7 +509,7 @@ buttonInvoker
 setAttribute
 (
 '
-interesttarget
+interestfor
 '
 '
 invalid
@@ -520,7 +520,7 @@ assert_equals
 (
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 null
 )
 ;
@@ -531,7 +531,7 @@ buttonInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -544,7 +544,7 @@ aInvoker
 setAttribute
 (
 '
-interesttarget
+interestfor
 '
 '
 invalid
@@ -555,7 +555,7 @@ assert_equals
 (
 aInvoker
 .
-interestTargetElement
+interestForElement
 null
 )
 ;
@@ -566,7 +566,7 @@ aInvoker
 getAttribute
 (
 "
-interesttarget
+interestfor
 "
 )
 "
@@ -576,7 +576,7 @@ invalid
 ;
 }
 "
-interestTargetElement
+interestForElement
 does
 not
 reflect
@@ -600,14 +600,14 @@ function
 {
 buttonInvoker
 .
-interestTargetElement
+interestForElement
 =
 {
 }
 ;
 }
 "
-interestTargetElement
+interestForElement
 attribute
 value
 must
@@ -628,14 +628,14 @@ function
 {
 aInvoker
 .
-interestTargetElement
+interestForElement
 =
 {
 }
 ;
 }
 "
-interestTargetElement
+interestForElement
 attribute
 value
 must
@@ -649,7 +649,7 @@ Element
 ;
 }
 "
-interestTargetElement
+interestForElement
 throws
 error
 on
