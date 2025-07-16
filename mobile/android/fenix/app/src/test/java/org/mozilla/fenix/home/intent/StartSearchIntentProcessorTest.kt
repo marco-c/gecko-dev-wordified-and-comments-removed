@@ -209,16 +209,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-nav
-import
-org
-.
-mozilla
-.
-fenix
-.
 helpers
 .
 FenixGleanTestRule
@@ -469,9 +459,8 @@ verify
 {
 navController
 .
-nav
+navigate
 (
-null
 NavGraphDirections
 .
 actionGlobalSearchDialog
@@ -597,9 +586,8 @@ verify
 {
 navController
 .
-nav
+navigate
 (
-null
 NavGraphDirections
 .
 actionGlobalHome
@@ -615,6 +603,7 @@ Source
 .
 WIDGET
 )
+null
 )
 }
 verify
