@@ -3059,7 +3059,7 @@ R
 .
 drawable
 .
-mozac_ic_device_mobile_24
+mozac_ic_device_desktop_24
 )
 state
 =
