@@ -5396,10 +5396,17 @@ LonghandId
 ViewTransitionName
 =
 >
+{
 WillChangeBits
 :
 :
 VIEW_TRANSITION_NAME
+|
+WillChangeBits
+:
+:
+BACKDROP_ROOT
+}
 LonghandId
 :
 :
