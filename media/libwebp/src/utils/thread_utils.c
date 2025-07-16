@@ -77,13 +77,13 @@ typedef
 struct
 {
 HANDLE
-waiting_sem_
+waiting_sem
 ;
 HANDLE
-received_sem_
+received_sem
 ;
 HANDLE
-signal_event_
+signal_event
 ;
 }
 pthread_cond_t
@@ -133,13 +133,13 @@ typedef
 struct
 {
 pthread_mutex_t
-mutex_
+mutex
 ;
 pthread_cond_t
-condition_
+condition
 ;
 pthread_t
-thread_
+thread
 ;
 }
 WebPWorkerImpl
@@ -471,7 +471,7 @@ CloseHandle
 condition
 -
 >
-waiting_sem_
+waiting_sem
 )
 !
 =
@@ -487,7 +487,7 @@ CloseHandle
 condition
 -
 >
-received_sem_
+received_sem
 )
 !
 =
@@ -503,7 +503,7 @@ CloseHandle
 condition
 -
 >
-signal_event_
+signal_event
 )
 !
 =
@@ -548,7 +548,7 @@ else
 condition
 -
 >
-waiting_sem_
+waiting_sem
 =
 CreateSemaphore
 (
@@ -561,7 +561,7 @@ NULL
 condition
 -
 >
-received_sem_
+received_sem
 =
 CreateSemaphore
 (
@@ -574,7 +574,7 @@ NULL
 condition
 -
 >
-signal_event_
+signal_event
 =
 CreateEvent
 (
@@ -589,7 +589,7 @@ if
 condition
 -
 >
-waiting_sem_
+waiting_sem
 =
 =
 NULL
@@ -598,7 +598,7 @@ NULL
 condition
 -
 >
-received_sem_
+received_sem
 =
 =
 NULL
@@ -607,7 +607,7 @@ NULL
 condition
 -
 >
-signal_event_
+signal_event
 =
 =
 NULL
@@ -660,7 +660,7 @@ WaitForSingleObject
 condition
 -
 >
-waiting_sem_
+waiting_sem
 0
 )
 =
@@ -675,7 +675,7 @@ SetEvent
 condition
 -
 >
-signal_event_
+signal_event
 )
 ;
 ok
@@ -687,7 +687,7 @@ WaitForSingleObject
 condition
 -
 >
-received_sem_
+received_sem
 INFINITE
 )
 !
@@ -742,7 +742,7 @@ ReleaseSemaphore
 condition
 -
 >
-waiting_sem_
+waiting_sem
 1
 NULL
 )
@@ -763,7 +763,7 @@ WaitForSingleObject
 condition
 -
 >
-signal_event_
+signal_event
 INFINITE
 )
 =
@@ -779,7 +779,7 @@ ReleaseSemaphore
 condition
 -
 >
-received_sem_
+received_sem
 1
 NULL
 )
@@ -844,7 +844,7 @@ WebPWorkerImpl
 worker
 -
 >
-impl_
+impl
 ;
 int
 done
@@ -863,7 +863,7 @@ pthread_mutex_lock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 while
@@ -871,7 +871,7 @@ while
 worker
 -
 >
-status_
+status
 =
 =
 OK
@@ -883,12 +883,12 @@ pthread_cond_wait
 impl
 -
 >
-condition_
+condition
 &
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 }
@@ -897,7 +897,7 @@ if
 worker
 -
 >
-status_
+status
 =
 =
 WORK
@@ -916,7 +916,7 @@ worker
 worker
 -
 >
-status_
+status
 =
 OK
 ;
@@ -927,7 +927,7 @@ if
 worker
 -
 >
-status_
+status
 =
 =
 NOT_OK
@@ -944,7 +944,7 @@ pthread_mutex_unlock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 pthread_cond_signal
@@ -953,7 +953,7 @@ pthread_cond_signal
 impl
 -
 >
-condition_
+condition
 )
 ;
 }
@@ -988,7 +988,7 @@ WebPWorkerImpl
 worker
 -
 >
-impl_
+impl
 ;
 if
 (
@@ -1005,7 +1005,7 @@ pthread_mutex_lock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 if
@@ -1013,7 +1013,7 @@ if
 worker
 -
 >
-status_
+status
 >
 =
 OK
@@ -1024,7 +1024,7 @@ while
 worker
 -
 >
-status_
+status
 !
 =
 OK
@@ -1036,12 +1036,12 @@ pthread_cond_wait
 impl
 -
 >
-condition_
+condition
 &
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 }
@@ -1056,7 +1056,7 @@ OK
 worker
 -
 >
-status_
+status
 =
 new_status
 ;
@@ -1066,7 +1066,7 @@ pthread_mutex_unlock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 pthread_cond_signal
@@ -1075,7 +1075,7 @@ pthread_cond_signal
 impl
 -
 >
-condition_
+condition
 )
 ;
 return
@@ -1088,7 +1088,7 @@ pthread_mutex_unlock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 }
@@ -1118,7 +1118,7 @@ worker
 worker
 -
 >
-status_
+status
 =
 NOT_OK
 ;
@@ -1149,7 +1149,7 @@ assert
 worker
 -
 >
-status_
+status
 <
 =
 OK
@@ -1190,7 +1190,7 @@ if
 worker
 -
 >
-status_
+status
 <
 OK
 )
@@ -1219,7 +1219,7 @@ WebPWorkerImpl
 worker
 -
 >
-impl_
+impl
 =
 (
 void
@@ -1232,7 +1232,7 @@ if
 worker
 -
 >
-impl_
+impl
 =
 =
 NULL
@@ -1250,7 +1250,7 @@ pthread_mutex_init
 impl
 -
 >
-mutex_
+mutex
 NULL
 )
 )
@@ -1267,7 +1267,7 @@ pthread_cond_init
 impl
 -
 >
-condition_
+condition
 NULL
 )
 )
@@ -1278,7 +1278,7 @@ pthread_mutex_destroy
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 goto
@@ -1291,7 +1291,7 @@ pthread_mutex_lock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 ok
@@ -1303,7 +1303,7 @@ pthread_create
 impl
 -
 >
-thread_
+thread
 NULL
 ThreadLoop
 worker
@@ -1316,7 +1316,7 @@ ok
 worker
 -
 >
-status_
+status
 =
 OK
 ;
@@ -1326,7 +1326,7 @@ pthread_mutex_unlock
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 if
@@ -1341,7 +1341,7 @@ pthread_mutex_destroy
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 pthread_cond_destroy
@@ -1350,7 +1350,7 @@ pthread_cond_destroy
 impl
 -
 >
-condition_
+condition
 )
 ;
 Error
@@ -1363,7 +1363,7 @@ impl
 worker
 -
 >
-impl_
+impl
 =
 NULL
 ;
@@ -1376,7 +1376,7 @@ else
 worker
 -
 >
-status_
+status
 =
 OK
 ;
@@ -1389,7 +1389,7 @@ if
 worker
 -
 >
-status_
+status
 >
 OK
 )
@@ -1412,7 +1412,7 @@ ok
 worker
 -
 >
-status_
+status
 =
 =
 OK
@@ -1515,7 +1515,7 @@ if
 worker
 -
 >
-impl_
+impl
 !
 =
 NULL
@@ -1533,7 +1533,7 @@ WebPWorkerImpl
 worker
 -
 >
-impl_
+impl
 ;
 ChangeState
 (
@@ -1546,7 +1546,7 @@ pthread_join
 impl
 -
 >
-thread_
+thread
 NULL
 )
 ;
@@ -1556,7 +1556,7 @@ pthread_mutex_destroy
 impl
 -
 >
-mutex_
+mutex
 )
 ;
 pthread_cond_destroy
@@ -1565,7 +1565,7 @@ pthread_cond_destroy
 impl
 -
 >
-condition_
+condition
 )
 ;
 WebPSafeFree
@@ -1576,7 +1576,7 @@ impl
 worker
 -
 >
-impl_
+impl
 =
 NULL
 ;
@@ -1586,7 +1586,7 @@ else
 worker
 -
 >
-status_
+status
 =
 NOT_OK
 ;
@@ -1595,7 +1595,7 @@ assert
 worker
 -
 >
-impl_
+impl
 =
 =
 NULL
@@ -1608,7 +1608,7 @@ assert
 worker
 -
 >
-status_
+status
 =
 =
 NOT_OK

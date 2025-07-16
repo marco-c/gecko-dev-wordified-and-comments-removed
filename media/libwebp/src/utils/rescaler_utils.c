@@ -42,6 +42,17 @@ include
 "
 src
 /
+webp
+/
+types
+.
+h
+"
+#
+include
+"
+src
+/
 utils
 /
 rescaler_utils

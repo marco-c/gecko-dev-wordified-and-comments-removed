@@ -506,6 +506,16 @@ filters_mips_dsp_r2
 c
 '
 '
+lossless_avx2
+.
+c
+'
+'
+lossless_enc_avx2
+.
+c
+'
+'
 lossless_enc_mips32
 .
 c

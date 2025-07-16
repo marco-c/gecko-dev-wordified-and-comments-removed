@@ -6,6 +6,13 @@ define
 WEBP_DEC_VP8_DEC_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 src
 /

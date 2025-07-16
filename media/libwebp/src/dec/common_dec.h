@@ -106,5 +106,12 @@ NUM_PROBAS
 11
 }
 ;
+int
+IsValidColorspace
+(
+int
+webp_csp_mode
+)
+;
 #
 endif

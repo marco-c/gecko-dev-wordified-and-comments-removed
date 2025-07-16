@@ -6,6 +6,13 @@ define
 WEBP_WEBP_ENCODE_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 .
 /

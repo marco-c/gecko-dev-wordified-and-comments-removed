@@ -2069,13 +2069,13 @@ __msa_fill_w
 m
 -
 >
-green_to_blue_
+green_to_blue
 |
 (
 m
 -
 >
-green_to_red_
+green_to_red
 <
 <
 16
@@ -2094,7 +2094,7 @@ __msa_fill_w
 m
 -
 >
-red_to_blue_
+red_to_blue
 )
 ;
 const

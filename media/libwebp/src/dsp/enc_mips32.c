@@ -2715,7 +2715,7 @@ ppsharpen
 mtx
 -
 >
-sharpen_
+sharpen
 [
 0
 ]
@@ -2729,7 +2729,7 @@ ppzthresh
 mtx
 -
 >
-zthresh_
+zthresh
 [
 0
 ]
@@ -2743,7 +2743,7 @@ ppq
 mtx
 -
 >
-q_
+q
 [
 0
 ]
@@ -2757,7 +2757,7 @@ ppiq
 mtx
 -
 >
-iq_
+iq
 [
 0
 ]
@@ -2771,7 +2771,7 @@ ppbias
 mtx
 -
 >
-bias_
+bias
 [
 0
 ]

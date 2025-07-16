@@ -6979,7 +6979,7 @@ LD_SH2
 mtx
 -
 >
-sharpen_
+sharpen
 [
 0
 ]
@@ -7054,7 +7054,7 @@ LD_SH2
 mtx
 -
 >
-iq_
+iq
 [
 0
 ]
@@ -7085,7 +7085,7 @@ LD_SW4
 mtx
 -
 >
-bias_
+bias
 [
 0
 ]
@@ -7263,7 +7263,7 @@ LD_SW4
 mtx
 -
 >
-zthresh_
+zthresh
 [
 0
 ]
@@ -7364,7 +7364,7 @@ LD_SH2
 mtx
 -
 >
-q_
+q
 [
 0
 ]

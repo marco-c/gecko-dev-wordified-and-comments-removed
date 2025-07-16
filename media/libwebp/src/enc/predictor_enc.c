@@ -4655,21 +4655,21 @@ m
 m
 -
 >
-green_to_red_
+green_to_red
 =
 0
 ;
 m
 -
 >
-green_to_blue_
+green_to_blue
 =
 0
 ;
 m
 -
 >
-red_to_blue_
+red_to_blue
 =
 0
 ;
@@ -4690,7 +4690,7 @@ m
 m
 -
 >
-green_to_red_
+green_to_red
 =
 (
 color_code
@@ -4704,7 +4704,7 @@ color_code
 m
 -
 >
-green_to_blue_
+green_to_blue
 =
 (
 color_code
@@ -4718,7 +4718,7 @@ color_code
 m
 -
 >
-red_to_blue_
+red_to_blue
 =
 (
 color_code
@@ -4753,7 +4753,7 @@ uint32_t
 m
 -
 >
-red_to_blue_
+red_to_blue
 )
 <
 <
@@ -4768,7 +4768,7 @@ uint32_t
 m
 -
 >
-green_to_blue_
+green_to_blue
 )
 <
 <
@@ -4778,7 +4778,7 @@ green_to_blue_
 m
 -
 >
-green_to_red_
+green_to_red
 ;
 }
 static
@@ -4893,7 +4893,7 @@ green_to_red
 =
 prev_x
 .
-green_to_red_
+green_to_red
 )
 {
 cur_diff
@@ -4915,7 +4915,7 @@ green_to_red
 =
 prev_y
 .
-green_to_red_
+green_to_red
 )
 {
 cur_diff
@@ -5110,7 +5110,7 @@ green_to_red_cur
 best_tx
 -
 >
-green_to_red_
+green_to_red
 =
 (
 green_to_red_best
@@ -5191,7 +5191,7 @@ green_to_blue
 =
 prev_x
 .
-green_to_blue_
+green_to_blue
 )
 {
 cur_diff
@@ -5213,7 +5213,7 @@ green_to_blue
 =
 prev_y
 .
-green_to_blue_
+green_to_blue
 )
 {
 cur_diff
@@ -5235,7 +5235,7 @@ red_to_blue
 =
 prev_x
 .
-red_to_blue_
+red_to_blue
 )
 {
 cur_diff
@@ -5257,7 +5257,7 @@ red_to_blue
 =
 prev_y
 .
-red_to_blue_
+red_to_blue
 )
 {
 cur_diff
@@ -5621,7 +5621,7 @@ break
 best_tx
 -
 >
-green_to_blue_
+green_to_blue
 =
 green_to_blue_best
 &
@@ -5630,7 +5630,7 @@ green_to_blue_best
 best_tx
 -
 >
-red_to_blue_
+red_to_blue
 =
 red_to_blue_best
 &

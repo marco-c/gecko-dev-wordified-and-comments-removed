@@ -70,10 +70,10 @@ struct
 {
 void
 *
-impl_
+impl
 ;
 WebPWorkerStatus
-status_
+status
 ;
 WebPWorkerHook
 hook

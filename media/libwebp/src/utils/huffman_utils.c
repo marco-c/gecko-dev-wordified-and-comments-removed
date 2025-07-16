@@ -53,6 +53,17 @@ format_constants
 h
 "
 #
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
+#
 define
 MAX_HTREE_GROUPS
 0x10000
