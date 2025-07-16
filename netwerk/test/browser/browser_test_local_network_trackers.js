@@ -283,6 +283,16 @@ connections
 "
 1000
 ]
+[
+"
+network
+.
+lna
+.
+block_trackers
+"
+true
+]
 ]
 }
 )
