@@ -265,6 +265,14 @@ _valid
 true
 }
 {
+bindTextureResource
+:
+true
+_valid
+:
+true
+}
+{
 colorAttachmentSamples
 :
 1
@@ -465,6 +473,9 @@ t
 {
 const
 {
+bindTextureResource
+=
+false
 colorAttachmentFormat
 =
 '
@@ -691,6 +702,10 @@ getErrorTextureView
 (
 t
 )
+:
+bindTextureResource
+?
+resolveTarget
 :
 resolveTarget
 .
