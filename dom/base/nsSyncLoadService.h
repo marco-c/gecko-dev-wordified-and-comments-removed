@@ -86,6 +86,15 @@ nsIURI
 aURI
 nsContentPolicyType
 aContentPolicyType
+mozilla
+:
+:
+dom
+:
+:
+Document
+*
+aLoaderDoc
 nsIPrincipal
 *
 aLoaderPrincipal

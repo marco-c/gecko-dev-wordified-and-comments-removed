@@ -371,6 +371,7 @@ nsIContentPolicy
 :
 :
 TYPE_XSLT
+nullptr
 nsContentUtils
 :
 :
