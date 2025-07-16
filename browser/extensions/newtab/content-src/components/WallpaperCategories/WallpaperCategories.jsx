@@ -1063,7 +1063,7 @@ rtl
 /
 returns
 true
-is
+if
 page
 language
 is
