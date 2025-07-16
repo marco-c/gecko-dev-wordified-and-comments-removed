@@ -3625,6 +3625,10 @@ mContainsBlendMode
 (
 false
 )
+mContainsBackdropFilter
+(
+false
+)
 mIsBuildingScrollbar
 (
 false
