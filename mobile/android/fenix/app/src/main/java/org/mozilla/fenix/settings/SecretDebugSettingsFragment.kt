@@ -113,7 +113,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Button
 import
@@ -121,7 +121,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

@@ -139,7 +139,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 FloatingActionButton
 import
@@ -147,7 +147,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 FloatingActionButtonDefaults
 import
@@ -155,7 +155,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 FloatingActionButtonElevation
 import
@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -455,7 +455,7 @@ onClick
 modifier
 =
 modifier
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -509,13 +509,6 @@ icon
 contentDescription
 =
 contentDescription
-tint
-=
-FirefoxTheme
-.
-colors
-.
-iconOnColor
 )
 if
 (

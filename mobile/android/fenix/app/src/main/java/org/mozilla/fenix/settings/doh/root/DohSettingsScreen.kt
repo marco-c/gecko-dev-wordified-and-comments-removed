@@ -195,7 +195,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 AlertDialog
 import
@@ -203,7 +203,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -211,7 +211,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -2366,13 +2366,6 @@ FirefoxTheme
 typography
 .
 headline7
-color
-=
-FirefoxTheme
-.
-colors
-.
-textPrimary
 )
 }
 text
@@ -2504,13 +2497,6 @@ upperCaseText
 false
 )
 }
-backgroundColor
-=
-FirefoxTheme
-.
-colors
-.
-layer2
 )
 }
 Composable

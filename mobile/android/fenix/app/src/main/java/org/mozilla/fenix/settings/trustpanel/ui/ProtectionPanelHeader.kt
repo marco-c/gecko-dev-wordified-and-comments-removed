@@ -175,7 +175,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -183,7 +183,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 IconButton
 import
@@ -191,7 +191,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import

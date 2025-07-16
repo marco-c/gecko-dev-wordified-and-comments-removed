@@ -71,7 +71,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Snackbar
 import
@@ -79,7 +79,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SnackbarData
 import
@@ -129,7 +129,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SnackbarHost
 as
@@ -284,6 +284,8 @@ message
 =
 snackbarData
 .
+visuals
+.
 message
 type
 =
@@ -323,6 +325,8 @@ message
 =
 snackbarData
 .
+visuals
+.
 message
 type
 =
@@ -350,6 +354,8 @@ get
 (
 )
 =
+visuals
+.
 actionLabel
 ?
 .

@@ -139,7 +139,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 RadioButtonDefaults
 import
@@ -147,7 +147,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -317,7 +317,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 RadioButton
 (
@@ -350,7 +350,14 @@ FirefoxTheme
 colors
 .
 formDefault
-disabledColor
+disabledSelectedColor
+=
+FirefoxTheme
+.
+colors
+.
+formDisabled
+disabledUnselectedColor
 =
 FirefoxTheme
 .

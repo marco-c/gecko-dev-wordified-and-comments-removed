@@ -167,7 +167,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SwitchDefaults
 import
@@ -175,7 +175,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -311,7 +311,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Switch
 as

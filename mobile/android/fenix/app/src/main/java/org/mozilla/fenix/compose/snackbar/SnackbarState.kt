@@ -71,7 +71,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 SnackbarDuration
 import
