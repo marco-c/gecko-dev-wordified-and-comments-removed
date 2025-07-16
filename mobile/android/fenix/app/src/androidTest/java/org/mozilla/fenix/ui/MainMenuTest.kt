@@ -2871,7 +2871,8 @@ clickUsageAndTechnicalDataToggle
 )
 verifyUsageAndTechnicalDataToggle
 (
-enabled
+composeTestRule
+isChecked
 =
 false
 )

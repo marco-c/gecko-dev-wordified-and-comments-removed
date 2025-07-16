@@ -4668,7 +4668,8 @@ clickUsageAndTechnicalDataToggle
 )
 verifyUsageAndTechnicalDataToggle
 (
-enabled
+composeTestRule
+isChecked
 =
 false
 )
@@ -5616,7 +5617,8 @@ clickUsageAndTechnicalDataToggle
 )
 verifyUsageAndTechnicalDataToggle
 (
-enabled
+composeTestRule
+isChecked
 =
 false
 )
