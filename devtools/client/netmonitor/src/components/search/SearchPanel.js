@@ -737,6 +737,15 @@ provider
 =
 SearchProvider
 ;
+this
+.
+expandedNodes
+=
+new
+Set
+(
+)
+;
 }
 componentDidMount
 (
@@ -1242,6 +1251,11 @@ provider
 expandableStrings
 :
 false
+expandedNodes
+:
+this
+.
+expandedNodes
 renderLabelCell
 :
 this
