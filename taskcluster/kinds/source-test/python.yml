@@ -457,6 +457,16 @@ glean
 *
 *
 '
+-
+'
+browser
+/
+config
+/
+version
+.
+txt
+'
 mach
 :
 description
