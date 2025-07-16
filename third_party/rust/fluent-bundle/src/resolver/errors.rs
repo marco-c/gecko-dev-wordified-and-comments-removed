@@ -20,9 +20,10 @@ Error
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub
@@ -263,9 +264,10 @@ unreachable
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub

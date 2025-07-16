@@ -24,6 +24,7 @@ LanguageIdentifier
 derive
 (
 Debug
+Eq
 PartialEq
 )
 ]

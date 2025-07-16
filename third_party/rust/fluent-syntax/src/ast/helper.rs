@@ -28,9 +28,10 @@ Comment
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -89,8 +90,6 @@ S
 }
 impl
 <
-'
-s
 S
 >
 From

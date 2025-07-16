@@ -29,9 +29,10 @@ Error
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub
@@ -136,9 +137,10 @@ function
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub

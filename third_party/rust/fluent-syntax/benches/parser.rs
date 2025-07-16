@@ -168,9 +168,7 @@ file
 )
 ;
 }
-return
 ftl_strings
-;
 }
 fn
 get_ctxs
@@ -318,9 +316,7 @@ strings
 )
 ;
 }
-return
 ftl_strings
-;
 }
 fn
 parse_bench
@@ -634,6 +630,7 @@ failed
 }
 }
 )
+;
 }
 )
 ;

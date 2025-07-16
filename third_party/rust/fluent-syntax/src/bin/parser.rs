@@ -135,7 +135,12 @@ expect
 (
 "
 Pass
-an
+a
+file
+path
+as
+the
+first
 argument
 "
 )

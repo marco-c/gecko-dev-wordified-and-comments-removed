@@ -256,10 +256,6 @@ locales
 }
 fn
 resolve_app_locales
-<
-'
-l
->
 (
 args
 :
@@ -335,8 +331,8 @@ arg
 .
 split
 (
-"
-"
+'
+'
 )
 .
 map
@@ -632,7 +628,6 @@ isize
 :
 from_str
 (
-&
 input
 )
 {

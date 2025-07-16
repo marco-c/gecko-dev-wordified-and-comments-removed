@@ -111,10 +111,6 @@ as_ref
 (
 )
 .
-as_bytes
-(
-)
-.
 len
 (
 )

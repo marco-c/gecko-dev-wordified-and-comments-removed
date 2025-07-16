@@ -192,10 +192,6 @@ FxHashSet
 from_iter
 (
 res_ids
-.
-into_iter
-(
-)
 )
 }
 }
@@ -280,10 +276,6 @@ FxHashSet
 from_iter
 (
 res_ids
-.
-into_iter
-(
-)
 )
 }
 }
@@ -641,6 +633,7 @@ prefetch_async
 )
 .
 await
+;
 }
 }
 impl

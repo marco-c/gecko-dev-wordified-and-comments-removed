@@ -18,9 +18,6 @@ generator
 mod
 localization
 ;
-mod
-pin_cell
-;
 pub
 mod
 types
