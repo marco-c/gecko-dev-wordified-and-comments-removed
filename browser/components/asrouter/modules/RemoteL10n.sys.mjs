@@ -1103,6 +1103,13 @@ asrouter
 ftl
 "
 "
+browser
+/
+termsofuse
+.
+ftl
+"
+"
 toolkit
 /
 branding

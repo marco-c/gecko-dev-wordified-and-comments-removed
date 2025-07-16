@@ -176,6 +176,13 @@ defaultBrowserNotification
 ftl
 "
 "
+browser
+/
+termsofuse
+.
+ftl
+"
+"
 preview
 /
 termsOfUse

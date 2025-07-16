@@ -540,6 +540,13 @@ asrouter
 ftl
 "
 "
+browser
+/
+termsofuse
+.
+ftl
+"
+"
 toolkit
 /
 branding
@@ -699,6 +706,13 @@ browser
 newtab
 /
 asrouter
+.
+ftl
+"
+"
+browser
+/
+termsofuse
 .
 ftl
 "
