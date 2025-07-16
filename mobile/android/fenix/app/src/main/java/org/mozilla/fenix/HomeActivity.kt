@@ -1802,6 +1802,11 @@ HomeActivity
 fragmentManager
 =
 supportFragmentManager
+navController
+=
+navHost
+.
+navController
 onLinkClicked
 =
 {
