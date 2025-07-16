@@ -247,6 +247,15 @@ frecency
 accelerateRecalculation
 "
 "
+privacy
+.
+trackingprotection
+.
+allow_list
+.
+hasMigratedCategoryPrefs
+"
+"
 security
 .
 webauthn
