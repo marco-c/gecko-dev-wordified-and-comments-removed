@@ -5308,6 +5308,7 @@ scope
 )
 ;
 }
+else
 if
 (
 apiMethodTracker
