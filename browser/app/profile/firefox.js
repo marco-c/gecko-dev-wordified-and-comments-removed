@@ -19834,7 +19834,7 @@ screenshots
 .
 folderList
 "
-4
+1
 )
 ;
 pref
