@@ -25695,7 +25695,9 @@ name
 tabs_header_private_tabs_title
 "
 >
-Privado
+Privadas
+\
+u0020
 <
 /
 string
@@ -25750,7 +25752,7 @@ name
 tabs_header_synced_tabs_title
 "
 >
-Sync
+Sincronizadas
 <
 /
 string

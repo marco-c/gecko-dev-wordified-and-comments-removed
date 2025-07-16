@@ -16029,9 +16029,7 @@ name
 preferences_app_icon
 "
 >
-App
--
-ikon
+Appikon
 <
 /
 string
@@ -25421,7 +25419,7 @@ ppna
 1
 s
 .
-Peka
+Tryck
 h
 r
 f
@@ -25645,7 +25643,7 @@ name
 tabs_header_synced_tabs_title
 "
 >
-Sync
+Synkronisera
 <
 /
 string
@@ -40283,9 +40281,7 @@ att
 undvika
 st
 rre
-brott
-p
-webbplatsen
+webbplatsfel
 .
 <
 /
@@ -40332,10 +40328,11 @@ name
 preference_enhanced_tracking_protection_allow_list_convenience
 "
 >
-Applicera
-ocks
-automatiskt
+Till
+mpa
+ven
 undantag
+automatiskt
 som
 bara
 kr
