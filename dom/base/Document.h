@@ -12052,6 +12052,13 @@ IsErrorPage
 const
 ;
 void
+AnimatedImageStateMaybeChanged
+(
+bool
+aAnimating
+)
+;
+void
 SetCssUseCounterBits
 (
 )

@@ -276,6 +276,14 @@ decrementAnimationConsumers
 (
 )
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+hasAnimationConsumers
+;
 const
 uint32_t
 CATEGORY_FRAME_INIT
