@@ -93,13 +93,6 @@ from
 react
 "
 ;
-const
-FEATURE_ID
-=
-"
-FEATURE_FOLLOW_SECTION_BUTTON
-"
-;
 export
 function
 FollowSectionButtonHighlight
@@ -112,9 +105,15 @@ dispatch
 handleDismiss
 handleBlock
 isIntersecting
+feature
 }
 )
 {
+const
+FEATURE_ID
+=
+feature
+;
 const
 onDismiss
 =
@@ -197,6 +196,7 @@ handleBlock
 }
 [
 dispatch
+FEATURE_ID
 handleDismiss
 handleBlock
 ]
@@ -279,6 +279,7 @@ FEATURE_ID
 }
 [
 dispatch
+FEATURE_ID
 isIntersecting
 ]
 )

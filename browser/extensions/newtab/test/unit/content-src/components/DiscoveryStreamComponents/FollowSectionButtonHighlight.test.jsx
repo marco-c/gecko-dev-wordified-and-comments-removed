@@ -169,6 +169,11 @@ inline
 -
 end
 "
+feature
+=
+"
+FEATURE_FOLLOW_SECTION_BUTTON
+"
 /
 >
 )
