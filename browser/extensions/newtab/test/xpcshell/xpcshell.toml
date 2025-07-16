@@ -134,6 +134,13 @@ js
 ]
 [
 "
+test_SmartShortcutsFeed
+.
+js
+"
+]
+[
+"
 test_StartupCacheInit
 .
 js
