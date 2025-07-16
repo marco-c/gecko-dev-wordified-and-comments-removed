@@ -58,12 +58,12 @@ add_task
 (
 async
 function
-click_toolbar_dropmarker
+click_toolbar_button
 (
 )
 {
 let
-dropmarker
+button
 =
 document
 .
@@ -74,11 +74,6 @@ lazy
 IPProtectionWidget
 .
 WIDGET_ID
-+
-"
--
-dropmarker
-"
 )
 ;
 let
@@ -107,7 +102,7 @@ popupshown
 "
 )
 ;
-dropmarker
+button
 .
 click
 (

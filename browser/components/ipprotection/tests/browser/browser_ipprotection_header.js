@@ -63,7 +63,7 @@ test_header_content
 )
 {
 let
-dropmarker
+button
 =
 document
 .
@@ -74,11 +74,6 @@ lazy
 IPProtectionWidget
 .
 WIDGET_ID
-+
-"
--
-dropmarker
-"
 )
 ;
 let
@@ -107,7 +102,7 @@ popupshown
 "
 )
 ;
-dropmarker
+button
 .
 click
 (
