@@ -135,6 +135,13 @@ new
 >
 Self
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 trait
 AssertSync
 :

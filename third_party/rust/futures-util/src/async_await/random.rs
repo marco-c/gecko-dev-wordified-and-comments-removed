@@ -121,6 +121,9 @@ random
 >
 u64
 {
+std
+:
+:
 thread_local
 !
 {

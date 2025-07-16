@@ -41,6 +41,15 @@ use
 std
 :
 :
+boxed
+:
+:
+Box
+;
+use
+std
+:
+:
 panic
 :
 :

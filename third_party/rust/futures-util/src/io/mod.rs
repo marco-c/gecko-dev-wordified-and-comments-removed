@@ -68,6 +68,14 @@ pin
 :
 Pin
 ptr
+string
+:
+:
+String
+vec
+:
+:
+Vec
 }
 ;
 #
@@ -141,6 +149,8 @@ u8
 ]
 )
 {
+unsafe
+{
 ptr
 :
 :
@@ -158,6 +168,7 @@ len
 (
 )
 )
+}
 }
 mod
 allow_std

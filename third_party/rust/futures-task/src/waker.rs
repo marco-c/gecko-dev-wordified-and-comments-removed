@@ -45,6 +45,9 @@ waker_vtable
 W
 :
 ArcWake
++
+'
+static
 >
 (
 )
@@ -175,6 +178,9 @@ increase_refcount
 T
 :
 ArcWake
++
+'
+static
 >
 (
 data
@@ -196,6 +202,8 @@ ManuallyDrop
 :
 new
 (
+unsafe
+{
 Arc
 :
 :
@@ -217,6 +225,7 @@ T
 (
 )
 )
+}
 )
 ;
 let
@@ -237,6 +246,13 @@ clone
 )
 ;
 }
+#
+[
+inline
+(
+always
+)
+]
 unsafe
 fn
 clone_arc_raw
@@ -244,6 +260,9 @@ clone_arc_raw
 T
 :
 ArcWake
++
+'
+static
 >
 (
 data
@@ -257,6 +276,8 @@ const
 >
 RawWaker
 {
+unsafe
+{
 increase_refcount
 :
 :
@@ -266,7 +287,7 @@ T
 (
 data
 )
-;
+}
 RawWaker
 :
 :
@@ -290,6 +311,9 @@ wake_arc_raw
 T
 :
 ArcWake
++
+'
+static
 >
 (
 data
@@ -308,6 +332,8 @@ Arc
 T
 >
 =
+unsafe
+{
 Arc
 :
 :
@@ -324,6 +350,7 @@ T
 (
 )
 )
+}
 ;
 ArcWake
 :
@@ -341,6 +368,9 @@ wake_by_ref_arc_raw
 T
 :
 ArcWake
++
+'
+static
 >
 (
 data
@@ -362,6 +392,8 @@ ManuallyDrop
 :
 new
 (
+unsafe
+{
 Arc
 :
 :
@@ -383,6 +415,7 @@ T
 (
 )
 )
+}
 )
 ;
 ArcWake
@@ -402,6 +435,9 @@ drop_arc_raw
 T
 :
 ArcWake
++
+'
+static
 >
 (
 data
@@ -414,6 +450,8 @@ const
 {
 drop
 (
+unsafe
+{
 Arc
 :
 :
@@ -435,5 +473,6 @@ T
 (
 )
 )
+}
 )
 }

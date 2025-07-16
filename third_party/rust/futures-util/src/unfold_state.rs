@@ -168,7 +168,7 @@ match
 *
 self
 {
-UnfoldState
+Self
 :
 :
 Value
@@ -183,7 +183,7 @@ self
 .
 project_replace
 (
-UnfoldState
+Self
 :
 :
 Empty

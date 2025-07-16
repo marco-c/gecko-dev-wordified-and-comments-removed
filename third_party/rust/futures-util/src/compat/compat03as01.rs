@@ -151,6 +151,16 @@ Context
 ;
 #
 [
+allow
+(
+clippy
+:
+:
+too_long_first_doc_paragraph
+)
+]
+#
+[
 derive
 (
 Debug
@@ -1018,6 +1028,8 @@ const
 a
 Current
 {
+unsafe
+{
 &
 *
 (
@@ -1027,6 +1039,7 @@ as
 const
 Current
 )
+}
 }
 fn
 current_to_ptr
@@ -1069,6 +1082,8 @@ const
 >
 RawWaker
 {
+unsafe
+{
 mem
 :
 :
@@ -1105,6 +1120,7 @@ clone
 )
 )
 }
+}
 unsafe
 fn
 drop
@@ -1130,6 +1146,8 @@ const
 )
 )
 {
+unsafe
+{
 ptr_to_current
 (
 ptr
@@ -1140,6 +1158,7 @@ ptr
 notify
 (
 )
+}
 }
 let
 ptr

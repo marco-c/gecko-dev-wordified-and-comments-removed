@@ -208,9 +208,9 @@ u8
 )
 -
 >
-SharedPollState
+Self
 {
-SharedPollState
+Self
 {
 state
 :
@@ -249,7 +249,7 @@ impl
 FnOnce
 (
 &
-SharedPollState
+Self
 )
 -
 >
@@ -313,7 +313,7 @@ PollStateBomb
 new
 (
 self
-SharedPollState
+Self
 :
 :
 reset
@@ -350,7 +350,7 @@ impl
 FnOnce
 (
 &
-SharedPollState
+Self
 )
 -
 >
@@ -452,7 +452,7 @@ PollStateBomb
 new
 (
 self
-SharedPollState
+Self
 :
 :
 stop_waking
@@ -873,6 +873,8 @@ _
 >
 )
 {
+unsafe
+{
 *
 self_arc
 .
@@ -895,7 +897,7 @@ clone
 into
 (
 )
-;
+}
 }
 fn
 start_waking
@@ -1178,10 +1180,7 @@ St
 :
 :
 Item
-PollStreamFut
-<
-St
->
+Self
 )
 >
 ;
@@ -1267,7 +1266,7 @@ None
 let
 next_item_fut
 =
-PollStreamFut
+Self
 :
 :
 new
@@ -1628,11 +1627,7 @@ usize
 )
 -
 >
-FlattenUnorderedWithFlowController
-<
-St
-Fc
->
+Self
 {
 let
 poll_state
@@ -1645,7 +1640,7 @@ new
 NEED_TO_POLL_STREAM
 )
 ;
-FlattenUnorderedWithFlowController
+Self
 {
 inner_streams
 :

@@ -186,9 +186,7 @@ usize
 usize
 :
 :
-max_value
-(
-)
+MAX
 None
 )
 }

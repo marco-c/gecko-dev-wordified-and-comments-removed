@@ -1018,7 +1018,7 @@ new
 -
 >
 (
-TestTask
+Self
 mpsc
 :
 :
@@ -1048,7 +1048,7 @@ TestRx
 )
 ;
 (
-TestTask
+Self
 {
 command_rx
 test_rx

@@ -50,6 +50,10 @@ any
 :
 :
 Any
+boxed
+:
+:
+Box
 fmt
 panic
 :
