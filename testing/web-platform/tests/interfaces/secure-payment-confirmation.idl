@@ -330,6 +330,9 @@ iconMustBeShown
 =
 true
 ;
+USVString
+details
+;
 }
 ;
 dictionary
