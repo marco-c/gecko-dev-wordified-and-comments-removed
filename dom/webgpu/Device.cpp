@@ -437,12 +437,12 @@ move
 aAdapterInfo
 )
 )
-mSupportExternalTextureInSwapChain
+mSupportSharedTextureInSwapChain
 (
 aParent
 -
 >
-SupportExternalTextureInSwapChain
+SupportSharedTextureInSwapChain
 (
 )
 )
@@ -6598,7 +6598,7 @@ const
 >
 aBufferIds
 bool
-aUseExternalTextureInSwapChain
+aUseSharedTextureInSwapChain
 gfx
 :
 :
@@ -6706,7 +6706,7 @@ Length
 aOwnerId
 .
 mId
-aUseExternalTextureInSwapChain
+aUseSharedTextureInSwapChain
 )
 ;
 return
