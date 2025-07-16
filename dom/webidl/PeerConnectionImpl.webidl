@@ -688,9 +688,9 @@ Throws
 RTCDataChannel
 createDataChannel
 (
-DOMString
+UTF8String
 label
-DOMString
+UTF8String
 protocol
 unsigned
 short

@@ -912,7 +912,7 @@ DataChannel
 >
 aChannel
 const
-nsAString
+nsACString
 &
 aLabel
 bool
@@ -934,7 +934,7 @@ uint16_t
 >
 aMaxRetransmits
 const
-nsAString
+nsACString
 &
 aProtocol
 bool
@@ -2047,11 +2047,11 @@ ErrorResult
 &
 rv
 const
-nsAString
+nsACString
 &
 aLabel
 const
-nsAString
+nsACString
 &
 aProtocol
 uint16_t

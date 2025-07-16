@@ -343,7 +343,7 @@ unsigned
 short
 maxRetransmits
 ;
-USVString
+UTF8String
 protocol
 =
 "
@@ -930,7 +930,7 @@ channel
 RTCDataChannel
 createDataChannel
 (
-USVString
+UTF8String
 label
 optional
 RTCDataChannelInit

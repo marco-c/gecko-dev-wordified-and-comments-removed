@@ -96,7 +96,7 @@ EventTarget
 {
 readonly
 attribute
-USVString
+UTF8String
 label
 ;
 readonly
@@ -125,7 +125,7 @@ maxRetransmits
 ;
 readonly
 attribute
-USVString
+UTF8String
 protocol
 ;
 readonly
