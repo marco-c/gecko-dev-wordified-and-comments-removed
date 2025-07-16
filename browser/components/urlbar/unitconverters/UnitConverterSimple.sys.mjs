@@ -1200,8 +1200,6 @@ regexResult
 const
 outputNumber
 =
-parseFloat
-(
 (
 inputNumber
 /
@@ -1215,7 +1213,6 @@ group
 [
 outputUnit
 ]
-)
 ;
 let
 formattedUnit
