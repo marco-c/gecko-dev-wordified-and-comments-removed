@@ -298,11 +298,8 @@ already_AddRefed
 <
 Promise
 >
-CreateTextDirective
+CreateTextDirectiveForSelection
 (
-nsRange
-&
-aRange
 )
 ;
 private
