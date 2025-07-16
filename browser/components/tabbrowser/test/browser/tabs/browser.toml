@@ -3143,6 +3143,13 @@ tabs
 "
 [
 "
+browser_tab_group_preview
+.
+js
+"
+]
+[
+"
 browser_tab_groups
 .
 js
