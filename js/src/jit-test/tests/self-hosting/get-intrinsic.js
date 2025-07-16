@@ -9,7 +9,7 @@ IsConstructor
 ArrayMap
 "
 "
-localeCache
+globalMapIterationResultPair
 "
 ]
 ;
