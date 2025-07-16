@@ -477,7 +477,7 @@ None
 )
 Test
 fun
-startupPartialWithBaselineProfiles
+startup
 (
 )
 =
