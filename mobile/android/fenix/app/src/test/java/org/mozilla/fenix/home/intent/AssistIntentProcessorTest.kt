@@ -450,9 +450,6 @@ null
 sessionToStartSearchFor
 =
 null
-scrollToCollection
-=
-false
 focusOnAddressBar
 =
 true
