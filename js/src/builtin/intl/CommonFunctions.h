@@ -449,7 +449,7 @@ JS
 :
 Handle
 <
-JSString
+JSLinearString
 *
 >
 timeZone
