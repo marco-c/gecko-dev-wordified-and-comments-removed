@@ -992,7 +992,7 @@ ic_add_on_private_browsing_label
 VisibleForTesting
 internal
 fun
-provideAddonManger
+provideAddonManager
 (
 )
 :
@@ -1071,7 +1071,7 @@ fx_mobile_private_layer_color_3
 val
 installOperation
 =
-provideAddonManger
+provideAddonManager
 (
 )
 .
