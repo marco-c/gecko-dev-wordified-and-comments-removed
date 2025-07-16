@@ -179,11 +179,15 @@ sealed
 class
 IconItem
 (
+param
+:
 StringRes
 val
 textResource
 :
 Int
+param
+:
 DrawableRes
 val
 drawableRes

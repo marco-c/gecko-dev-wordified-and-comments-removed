@@ -287,6 +287,8 @@ enum
 class
 BrokenSiteReason
 (
+param
+:
 StringRes
 val
 displayStringId

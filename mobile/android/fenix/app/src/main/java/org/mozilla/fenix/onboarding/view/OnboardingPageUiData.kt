@@ -113,6 +113,8 @@ val
 type
 :
 Type
+param
+:
 DrawableRes
 val
 imageRes

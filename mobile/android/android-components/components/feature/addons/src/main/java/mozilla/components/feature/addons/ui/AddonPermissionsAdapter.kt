@@ -401,6 +401,8 @@ data
 class
 Style
 (
+param
+:
 ColorRes
 val
 itemsTextColor

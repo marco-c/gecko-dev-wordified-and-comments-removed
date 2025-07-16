@@ -144,6 +144,8 @@ sealed
 class
 ChecklistItem
 (
+param
+:
 StringRes
 open
 val
@@ -226,12 +228,16 @@ val
 type
 :
 Type
+param
+:
 StringRes
 override
 val
 title
 :
 Int
+param
+:
 DrawableRes
 val
 icon
@@ -379,6 +385,8 @@ data
 class
 Group
 (
+param
+:
 StringRes
 override
 val

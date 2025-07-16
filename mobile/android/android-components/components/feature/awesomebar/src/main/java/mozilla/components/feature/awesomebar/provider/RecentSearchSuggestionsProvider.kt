@@ -73,6 +73,12 @@ graphics
 .
 Bitmap
 import
+androidx
+.
+annotation
+.
+IntRange
+import
 kotlinx
 .
 coroutines
@@ -467,10 +473,8 @@ searchEngine
 :
 SearchEngine
 ?
-androidx
-.
-annotation
-.
+param
+:
 IntRange
 (
 from

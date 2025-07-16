@@ -998,6 +998,8 @@ data
 class
 Section
 (
+param
+:
 StringRes
 val
 title

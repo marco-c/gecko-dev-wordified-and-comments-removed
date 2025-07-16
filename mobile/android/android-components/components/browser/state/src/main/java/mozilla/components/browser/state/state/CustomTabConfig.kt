@@ -317,6 +317,8 @@ data
 class
 CustomTabConfig
 (
+param
+:
 ColorScheme
 val
 colorScheme
@@ -628,6 +630,8 @@ data
 class
 ColorSchemeParams
 (
+param
+:
 ColorInt
 val
 toolbarColor
@@ -636,6 +640,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 secondaryToolbarColor
@@ -644,6 +650,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 navigationBarColor
@@ -652,6 +660,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 navigationBarDividerColor

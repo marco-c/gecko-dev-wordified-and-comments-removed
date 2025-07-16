@@ -704,6 +704,8 @@ open
 class
 Button
 (
+param
+:
 DrawableRes
 val
 imageResource
@@ -713,6 +715,8 @@ val
 contentDescription
 :
 String
+param
+:
 ColorRes
 val
 iconTintColorResource
@@ -1100,6 +1104,8 @@ open
 class
 TwoStateButton
 (
+param
+:
 DrawableRes
 val
 primaryImageResource
@@ -1109,6 +1115,8 @@ val
 primaryContentDescription
 :
 String
+param
+:
 ColorRes
 val
 primaryImageTintResource
@@ -1116,6 +1124,8 @@ primaryImageTintResource
 Int
 =
 NO_ID
+param
+:
 DrawableRes
 val
 secondaryImageResource
@@ -1129,6 +1139,8 @@ secondaryContentDescription
 String
 =
 primaryContentDescription
+param
+:
 ColorRes
 val
 secondaryImageTintResource

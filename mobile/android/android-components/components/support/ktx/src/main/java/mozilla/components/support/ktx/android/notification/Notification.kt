@@ -341,6 +341,8 @@ val
 id
 :
 String
+param
+:
 StringRes
 val
 name

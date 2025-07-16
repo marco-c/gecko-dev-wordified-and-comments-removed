@@ -138,6 +138,8 @@ data
 class
 TextStyle
 (
+param
+:
 Dimension
 (
 unit
@@ -153,6 +155,8 @@ Float
 ?
 =
 null
+param
+:
 ColorInt
 val
 color
@@ -161,6 +165,8 @@ Int
 ?
 =
 null
+param
+:
 TypefaceStyle
 val
 textStyle
@@ -170,6 +176,8 @@ Int
 Typeface
 .
 NORMAL
+param
+:
 TextAlignment
 val
 textAlignment

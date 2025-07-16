@@ -263,11 +263,15 @@ data
 class
 ActionButtonRes
 (
+param
+:
 DrawableRes
 val
 drawableResId
 :
 Int
+param
+:
 StringRes
 val
 contentDescription
@@ -779,6 +783,8 @@ value
 class
 DrawableResIcon
 (
+param
+:
 DrawableRes
 val
 resourceId
@@ -858,6 +864,8 @@ value
 class
 StringResText
 (
+param
+:
 StringRes
 val
 resourceId
@@ -938,6 +946,8 @@ value
 class
 StringResContentDescription
 (
+param
+:
 StringRes
 val
 resourceId

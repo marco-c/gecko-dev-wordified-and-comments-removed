@@ -100,6 +100,8 @@ enum
 class
 DeleteBrowsingDataOnQuitType
 (
+param
+:
 StringRes
 private
 val

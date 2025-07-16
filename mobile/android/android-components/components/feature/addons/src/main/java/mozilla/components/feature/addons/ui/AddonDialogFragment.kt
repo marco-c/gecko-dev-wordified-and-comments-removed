@@ -300,6 +300,8 @@ shouldWidthMatchParent
 Boolean
 =
 false
+param
+:
 ColorRes
 val
 confirmButtonBackgroundColor
@@ -308,6 +310,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 confirmButtonTextColor
@@ -316,6 +320,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 confirmButtonDisabledBackgroundColor
@@ -324,6 +330,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 confirmButtonDisabledTextColor
@@ -332,6 +340,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 learnMoreLinkTextColor

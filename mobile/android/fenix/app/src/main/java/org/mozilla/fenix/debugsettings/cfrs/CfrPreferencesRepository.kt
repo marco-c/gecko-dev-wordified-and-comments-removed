@@ -202,6 +202,8 @@ enum
 class
 CfrPreference
 (
+param
+:
 StringRes
 val
 preferenceKey

@@ -219,6 +219,8 @@ data
 class
 OnboardingPageState
 (
+param
+:
 DrawableRes
 val
 imageRes
@@ -380,6 +382,8 @@ val
 toolbarType
 :
 ToolbarOptionType
+param
+:
 DrawableRes
 val
 imageRes

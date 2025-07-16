@@ -316,6 +316,8 @@ enum
 class
 SetupChecklistPreference
 (
+param
+:
 StringRes
 val
 preferenceKey

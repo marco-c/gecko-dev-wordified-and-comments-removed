@@ -3035,6 +3035,8 @@ shouldWidthMatchParent
 Boolean
 =
 false
+param
+:
 ColorRes
 val
 positiveButtonBackgroundColor
@@ -3043,6 +3045,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 positiveButtonTextColor

@@ -417,6 +417,8 @@ enum
 class
 ContentTypeFilter
 (
+param
+:
 StringRes
 val
 stringRes
@@ -955,6 +957,8 @@ data
 class
 Downloading
 (
+param
+:
 FloatRange
 (
 from
@@ -1040,6 +1044,8 @@ data
 class
 Paused
 (
+param
+:
 FloatRange
 (
 from
@@ -1387,6 +1393,8 @@ enum
 class
 TimeCategory
 (
+param
+:
 StringRes
 val
 stringRes

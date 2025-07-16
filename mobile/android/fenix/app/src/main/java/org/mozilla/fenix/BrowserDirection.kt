@@ -128,6 +128,8 @@ enum
 class
 BrowserDirection
 (
+param
+:
 IdRes
 val
 fragmentId

@@ -341,6 +341,8 @@ NO_ID
 toFloat
 (
 )
+param
+:
 ColorRes
 private
 val
@@ -349,6 +351,8 @@ textColorResource
 Int
 =
 NO_ID
+param
+:
 ColorRes
 private
 val
@@ -357,6 +361,8 @@ backgroundColorResource
 Int
 =
 NO_ID
+param
+:
 TypefaceStyle
 private
 val
@@ -367,6 +373,8 @@ Int
 Typeface
 .
 BOLD
+param
+:
 TextAlignment
 private
 val

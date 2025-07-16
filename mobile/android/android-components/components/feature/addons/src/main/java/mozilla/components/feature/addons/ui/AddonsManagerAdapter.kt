@@ -2573,6 +2573,8 @@ data
 class
 Section
 (
+param
+:
 StringRes
 val
 title
@@ -2598,6 +2600,8 @@ data
 class
 NotYetSupportedSection
 (
+param
+:
 StringRes
 val
 title
@@ -2645,6 +2649,8 @@ data
 class
 Style
 (
+param
+:
 ColorRes
 val
 sectionsTextColor
@@ -2653,6 +2659,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 addonNameTextColor
@@ -2661,6 +2669,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 addonSummaryTextColor
@@ -2676,6 +2686,8 @@ Typeface
 ?
 =
 null
+param
+:
 DrawableRes
 val
 addonAllowPrivateBrowsingLabelDrawableRes
@@ -2690,6 +2702,8 @@ visibleDividers
 Boolean
 =
 true
+param
+:
 ColorRes
 val
 dividerColor
@@ -2698,6 +2712,8 @@ Int
 ?
 =
 null
+param
+:
 DimenRes
 val
 dividerHeight

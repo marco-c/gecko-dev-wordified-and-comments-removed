@@ -246,6 +246,8 @@ URL
 class
 DefaultIconGenerator
 (
+param
+:
 DimenRes
 private
 val
@@ -259,6 +261,8 @@ R
 dimen
 .
 mozac_browser_icons_generator_default_corner_radius
+param
+:
 ColorRes
 private
 val
@@ -271,6 +275,8 @@ R
 color
 .
 mozac_browser_icons_generator_default_text_color
+param
+:
 ArrayRes
 private
 val

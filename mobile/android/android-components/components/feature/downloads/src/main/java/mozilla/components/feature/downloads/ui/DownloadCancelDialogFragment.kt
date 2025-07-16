@@ -1152,6 +1152,8 @@ shouldWidthMatchParent
 Boolean
 =
 true
+param
+:
 ColorRes
 val
 positiveButtonBackgroundColor
@@ -1160,6 +1162,8 @@ Int
 ?
 =
 null
+param
+:
 ColorRes
 val
 positiveButtonTextColor
@@ -1204,6 +1208,8 @@ data
 class
 PromptText
 (
+param
+:
 StringRes
 val
 titleText
@@ -1215,6 +1221,8 @@ R
 string
 .
 mozac_feature_downloads_cancel_active_downloads_warning_content_title
+param
+:
 StringRes
 val
 bodyText
@@ -1226,6 +1234,8 @@ R
 string
 .
 mozac_feature_downloads_cancel_active_private_downloads_warning_content_body
+param
+:
 StringRes
 val
 acceptText
@@ -1237,6 +1247,8 @@ R
 string
 .
 mozac_feature_downloads_cancel_active_downloads_accept
+param
+:
 StringRes
 val
 denyText

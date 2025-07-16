@@ -1031,6 +1031,8 @@ data
 class
 Style
 (
+param
+:
 ColorRes
 val
 webExtIconTintColorResource
@@ -1038,6 +1040,8 @@ webExtIconTintColorResource
 Int
 =
 NO_ID
+param
+:
 DrawableRes
 val
 backPressMenuItemDrawableRes
@@ -1049,6 +1053,8 @@ iconsR
 drawable
 .
 mozac_ic_back_24
+param
+:
 DrawableRes
 val
 addonsManagerMenuItemDrawableRes

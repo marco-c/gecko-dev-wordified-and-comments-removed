@@ -152,11 +152,15 @@ val
 activityAlias
 :
 ActivityAlias
+param
+:
 StringRes
 val
 titleId
 :
 Int
+param
+:
 StringRes
 val
 subtitleId
@@ -739,6 +743,8 @@ data
 class
 SettingsGroupTitle
 (
+param
+:
 StringRes
 val
 titleId

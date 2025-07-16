@@ -3625,6 +3625,8 @@ Boolean
 {
 true
 }
+param
+:
 ColorRes
 val
 primaryImageTintResource
@@ -3632,6 +3634,8 @@ primaryImageTintResource
 Int
 =
 NO_ID
+param
+:
 ColorRes
 val
 secondaryImageTintResource

@@ -389,6 +389,8 @@ val
 store
 :
 BrowserStore
+param
+:
 UiContext
 private
 val

@@ -221,6 +221,8 @@ data
 class
 LowPriorityHighlightEffect
 (
+param
+:
 ColorInt
 val
 notificationTint
@@ -282,6 +284,8 @@ data
 class
 HighPriorityHighlightEffect
 (
+param
+:
 ColorInt
 val
 backgroundTint

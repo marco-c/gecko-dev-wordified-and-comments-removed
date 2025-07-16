@@ -188,6 +188,8 @@ val
 id
 :
 String
+param
+:
 ColorRes
 val
 iconTintColorResource

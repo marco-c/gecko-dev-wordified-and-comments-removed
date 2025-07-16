@@ -215,6 +215,8 @@ val
 promptTitle
 :
 String
+param
+:
 DrawableRes
 val
 icon

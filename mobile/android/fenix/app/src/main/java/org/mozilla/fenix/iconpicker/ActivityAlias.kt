@@ -793,6 +793,8 @@ data
 class
 Color
 (
+param
+:
 ColorRes
 val
 colorResId
@@ -828,6 +830,8 @@ data
 class
 Drawable
 (
+param
+:
 DrawableRes
 val
 drawableResId

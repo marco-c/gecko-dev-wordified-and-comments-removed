@@ -593,6 +593,8 @@ value
 class
 DrawableResIcon
 (
+param
+:
 DrawableRes
 val
 resourceId
@@ -675,6 +677,8 @@ value
 class
 StringResText
 (
+param
+:
 StringRes
 val
 resourceId
@@ -757,6 +761,8 @@ value
 class
 StringResContentDescription
 (
+param
+:
 StringRes
 val
 resourceId

@@ -283,6 +283,8 @@ data
 class
 CustomTabColors
 (
+param
+:
 ColorInt
 val
 toolbarColor
@@ -291,6 +293,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 systemBarsColor
@@ -299,6 +303,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 navigationBarDividerColor
@@ -307,6 +313,8 @@ Int
 ?
 =
 null
+param
+:
 ColorInt
 val
 readableColor

@@ -791,6 +791,8 @@ data
 class
 BulletPoint
 (
+param
+:
 StringRes
 val
 textRes
@@ -853,6 +855,8 @@ enum
 class
 InfoScreenTopic
 (
+param
+:
 StringRes
 val
 titleId

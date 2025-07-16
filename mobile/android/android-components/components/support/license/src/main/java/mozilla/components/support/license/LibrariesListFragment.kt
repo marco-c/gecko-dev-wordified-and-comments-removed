@@ -348,11 +348,15 @@ data
 class
 LicenseData
 (
+param
+:
 RawRes
 val
 licenses
 :
 Int
+param
+:
 RawRes
 val
 metadata

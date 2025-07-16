@@ -173,6 +173,8 @@ drawable
 :
 Drawable
 ?
+param
+:
 ColorInt
 override
 val
@@ -289,6 +291,8 @@ drawable
 :
 Drawable
 ?
+param
+:
 ColorInt
 override
 val
@@ -459,6 +463,8 @@ Drawable
 ?
 =
 null
+param
+:
 ColorInt
 val
 tint
@@ -534,6 +540,8 @@ val
 text
 :
 String
+param
+:
 ColorInt
 val
 backgroundTint

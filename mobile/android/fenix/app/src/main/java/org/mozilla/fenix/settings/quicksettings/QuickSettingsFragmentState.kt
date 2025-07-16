@@ -537,11 +537,15 @@ enum
 class
 WebsiteInfoUiValues
 (
+param
+:
 StringRes
 val
 siteInfoRes
 :
 Int
+param
+:
 DrawableRes
 val
 iconRes

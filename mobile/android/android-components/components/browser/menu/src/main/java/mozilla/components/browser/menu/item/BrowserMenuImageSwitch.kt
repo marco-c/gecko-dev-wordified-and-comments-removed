@@ -267,6 +267,8 @@ Modifier
 .
 PRIVATE
 )
+param
+:
 DrawableRes
 val
 imageResource

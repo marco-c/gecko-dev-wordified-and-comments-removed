@@ -428,6 +428,8 @@ sealed
 class
 AdapterItem
 (
+param
+:
 LayoutRes
 val
 viewType

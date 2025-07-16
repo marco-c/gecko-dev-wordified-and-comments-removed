@@ -338,6 +338,8 @@ val
 label
 :
 String
+param
+:
 ColorRes
 private
 val
@@ -357,6 +359,8 @@ NO_ID
 toFloat
 (
 )
+param
+:
 ColorInt
 val
 backgroundTint

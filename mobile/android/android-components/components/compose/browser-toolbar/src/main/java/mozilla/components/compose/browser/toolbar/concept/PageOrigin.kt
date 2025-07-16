@@ -327,6 +327,8 @@ data
 class
 PageOrigin
 (
+param
+:
 StringRes
 val
 hint

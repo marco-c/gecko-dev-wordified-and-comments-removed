@@ -223,6 +223,8 @@ data
 class
 Resource
 (
+param
+:
 StringRes
 val
 value

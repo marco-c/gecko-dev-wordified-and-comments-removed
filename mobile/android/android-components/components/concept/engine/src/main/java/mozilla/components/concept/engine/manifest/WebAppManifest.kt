@@ -727,6 +727,8 @@ DisplayMode
 DisplayMode
 .
 BROWSER
+param
+:
 ColorInt
 val
 backgroundColor
@@ -783,6 +785,8 @@ String
 ?
 =
 null
+param
+:
 ColorInt
 val
 themeColor

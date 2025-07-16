@@ -132,6 +132,8 @@ data
 class
 Padding
 (
+param
+:
 Dimension
 (
 unit
@@ -142,6 +144,8 @@ val
 left
 :
 Int
+param
+:
 Dimension
 (
 unit
@@ -152,6 +156,8 @@ val
 top
 :
 Int
+param
+:
 Dimension
 (
 unit
@@ -162,6 +168,8 @@ val
 right
 :
 Int
+param
+:
 Dimension
 (
 unit

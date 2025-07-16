@@ -170,6 +170,8 @@ ColorStateList
 ?
 =
 null
+param
+:
 Px
 val
 minWidth
@@ -178,6 +180,8 @@ Int
 ?
 =
 null
+param
+:
 Px
 val
 maxWidth
@@ -186,6 +190,8 @@ Int
 ?
 =
 null
+param
+:
 Px
 val
 horizontalOffset
@@ -194,6 +200,8 @@ Int
 ?
 =
 null
+param
+:
 Px
 val
 verticalOffset

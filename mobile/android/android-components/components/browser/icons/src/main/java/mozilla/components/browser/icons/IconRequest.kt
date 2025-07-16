@@ -224,6 +224,8 @@ Resource
 emptyList
 (
 )
+param
+:
 ColorInt
 val
 color
@@ -277,6 +279,8 @@ enum
 class
 Size
 (
+param
+:
 DimenRes
 val
 dimen

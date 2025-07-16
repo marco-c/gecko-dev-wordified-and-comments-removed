@@ -77,7 +77,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DropdownMenuItem
 import
@@ -85,7 +85,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -96,16 +96,6 @@ compose
 runtime
 .
 Composable
-import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-Divider
 import
 mozilla
 .
@@ -752,6 +742,8 @@ val
 text
 :
 Text
+param
+:
 DrawableRes
 val
 drawableRes

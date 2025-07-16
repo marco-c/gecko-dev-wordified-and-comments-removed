@@ -363,6 +363,8 @@ val
 displayName
 :
 String
+param
+:
 StringRes
 val
 subregionTitleResource

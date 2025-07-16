@@ -440,6 +440,8 @@ val
 secondaryLabel
 :
 String
+param
+:
 ColorRes
 internal
 val
@@ -453,11 +455,15 @@ enabled
 Boolean
 =
 true
+param
+:
 DrawableRes
 val
 primaryStateIconResource
 :
 Int
+param
+:
 DrawableRes
 val
 secondaryStateIconResource

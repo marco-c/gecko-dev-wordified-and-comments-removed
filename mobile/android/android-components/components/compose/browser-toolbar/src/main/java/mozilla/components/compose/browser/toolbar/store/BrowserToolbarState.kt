@@ -852,6 +852,8 @@ data
 class
 ProgressBarConfig
 (
+param
+:
 IntRange
 (
 from

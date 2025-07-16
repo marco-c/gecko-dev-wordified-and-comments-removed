@@ -438,12 +438,16 @@ val
 label
 :
 String
+param
+:
 DrawableRes
 internal
 val
 imageResource
 :
 Int
+param
+:
 ColorRes
 open
 var
@@ -452,6 +456,8 @@ iconTintColorResource
 Int
 =
 NO_ID
+param
+:
 ColorRes
 private
 val
