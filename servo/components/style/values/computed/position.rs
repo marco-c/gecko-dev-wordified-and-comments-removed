@@ -313,7 +313,7 @@ k
 Percentage
 :
 :
-hundred
+zero
 (
 )
 )
