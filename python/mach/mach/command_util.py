@@ -1694,6 +1694,23 @@ py
 )
     
 "
+nss
+-
+uplift
+"
+:
+MachCommandReference
+(
+"
+security
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 package
 "
 :
