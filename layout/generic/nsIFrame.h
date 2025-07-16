@@ -11694,6 +11694,13 @@ IsColumnSpanInMulticolSubtree
 )
 const
 ;
+inline
+bool
+HasAnchorPosReference
+(
+)
+const
+;
 Maybe
 <
 mozilla

@@ -603,6 +603,12 @@ IS_IN_OPACITY_ZERO_SUBTREE
 )
 ;
 }
+bool
+HasAnchorPosReference
+(
+)
+const
+;
 ComputedStyle
 *
 GetCachedInheritingAnonBoxStyle
