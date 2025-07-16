@@ -218,12 +218,6 @@ scratch2
 )
 ;
 }
-masm
-.
-checkStackAlignment
-(
-)
-;
 }
 inline
 void
