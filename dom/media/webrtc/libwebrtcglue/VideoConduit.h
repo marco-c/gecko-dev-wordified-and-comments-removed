@@ -1073,6 +1073,7 @@ OnRtcpReceived
 )
 ;
 }
+const
 std
 :
 :
@@ -1083,6 +1084,7 @@ webrtc
 :
 RtpSource
 >
+&
 GetUpstreamRtpSources
 (
 )
@@ -1861,6 +1863,8 @@ dom
 RTCVideoFrameHistoryInternal
 mReceivedFrameHistory
 ;
+Canonical
+<
 std
 :
 :
@@ -1870,6 +1874,22 @@ webrtc
 :
 :
 RtpSource
+>
+>
+mCanonicalRtpSources
+;
+Mirror
+<
+std
+:
+:
+vector
+<
+webrtc
+:
+:
+RtpSource
+>
 >
 mRtpSources
 ;
