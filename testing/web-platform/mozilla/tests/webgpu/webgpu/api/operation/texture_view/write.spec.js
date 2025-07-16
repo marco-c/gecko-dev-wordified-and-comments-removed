@@ -2053,8 +2053,13 @@ fragment
 :
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+write
+-
+only
+'
 format
 )
 ;

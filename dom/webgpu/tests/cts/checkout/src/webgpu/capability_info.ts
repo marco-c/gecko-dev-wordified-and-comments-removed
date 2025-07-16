@@ -5360,6 +5360,16 @@ tier1
 :
 {
 }
+'
+texture
+-
+formats
+-
+tier2
+'
+:
+{
+}
 }
 ;
 export

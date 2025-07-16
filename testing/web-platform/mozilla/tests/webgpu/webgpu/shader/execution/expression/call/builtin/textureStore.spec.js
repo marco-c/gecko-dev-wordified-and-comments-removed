@@ -916,8 +916,16 @@ params
 ;
 t
 .
-skipIfTextureFormatNotUsableAsReadWriteStorageTexture
+skipIfTextureFormatNotSupported
 (
+format
+)
+;
+t
+.
+skipIfTextureFormatNotUsableWithStorageAccessMode
+(
+access
 format
 )
 ;

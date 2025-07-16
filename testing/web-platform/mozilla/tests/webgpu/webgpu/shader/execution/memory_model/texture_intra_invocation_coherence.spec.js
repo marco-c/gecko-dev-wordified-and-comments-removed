@@ -920,8 +920,13 @@ format
 ;
 t
 .
-skipIfTextureFormatNotUsableAsReadWriteStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+read
+-
+write
+'
 t
 .
 params

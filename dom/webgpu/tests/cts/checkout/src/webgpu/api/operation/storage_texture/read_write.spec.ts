@@ -1936,8 +1936,13 @@ format
 ;
 t
 .
-skipIfTextureFormatNotUsableAsReadWriteStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+read
+-
+write
+'
 format
 )
 ;

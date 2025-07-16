@@ -3145,8 +3145,13 @@ format
 ;
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+read
+-
+only
+'
 format
 )
 ;

@@ -2825,8 +2825,13 @@ format
 ;
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+t
+.
+params
+.
+access
 t
 .
 params
