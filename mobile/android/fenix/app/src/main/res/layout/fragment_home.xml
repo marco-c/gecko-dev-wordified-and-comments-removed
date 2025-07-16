@@ -253,13 +253,6 @@ layout_height
 "
 match_parent
 "
-android
-:
-visibility
-=
-"
-gone
-"
 app
 :
 layout_behavior
