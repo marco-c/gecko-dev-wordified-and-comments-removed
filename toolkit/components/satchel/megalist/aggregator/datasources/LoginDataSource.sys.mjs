@@ -2575,6 +2575,19 @@ catch
 e
 )
 {
+if
+(
+e
+.
+result
+!
+=
+=
+Cr
+.
+NS_ERROR_ABORT
+)
+{
 this
 .
 setNotification
@@ -2602,6 +2615,7 @@ Import
 }
 )
 ;
+}
 }
 }
 }
