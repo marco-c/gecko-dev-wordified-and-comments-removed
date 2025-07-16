@@ -1876,6 +1876,8 @@ once
 "
 )
 ;
+return
+;
 }
 RENDEZVOUS_FAILED
 .
