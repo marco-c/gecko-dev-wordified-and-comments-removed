@@ -3103,7 +3103,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 options
@@ -3287,7 +3287,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 options
@@ -3492,7 +3492,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 options
@@ -3691,7 +3691,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 options
