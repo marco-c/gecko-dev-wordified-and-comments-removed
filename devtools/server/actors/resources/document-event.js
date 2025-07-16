@@ -61,6 +61,17 @@ isWorker
 return
 ;
 }
+if
+(
+!
+targetActor
+.
+window
+)
+{
+return
+;
+}
 const
 onDocumentEvent
 =
