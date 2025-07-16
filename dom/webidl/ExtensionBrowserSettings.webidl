@@ -425,6 +425,14 @@ attribute
 ExtensionSetting
 zoomSiteSpecific
 ;
+[
+Replaceable
+]
+readonly
+attribute
+ExtensionSetting
+verticalTabs
+;
 /
 /
 API
