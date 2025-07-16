@@ -6,6 +6,6 @@ pushState
 }
 '
 '
-URL
+DEFAULTURL
 )
 ;

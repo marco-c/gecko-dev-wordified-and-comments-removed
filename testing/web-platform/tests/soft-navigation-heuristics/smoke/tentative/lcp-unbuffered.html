@@ -459,7 +459,7 @@ timeout_ms
 )
 ;
 const
-lcpPromise
+icpPromise
 =
 SoftNavigationTestHelper
 .
@@ -472,7 +472,7 @@ type
 *
 /
 "
-largest
+interaction
 -
 contentful
 -
@@ -568,9 +568,9 @@ helper
 .
 withTimeoutMessage
 (
-lcpPromise
+icpPromise
 "
-LCP
+ICP
 entry
 never
 arrived
@@ -748,7 +748,7 @@ LCP
 entry
 .
 const
-lcps
+icps
 =
 results
 [
@@ -759,7 +759,7 @@ value
 ;
 assert_equals
 (
-lcps
+icps
 .
 length
 1
@@ -775,7 +775,7 @@ click
 ;
 assert_equals
 (
-lcps
+icps
 [
 0
 ]
@@ -838,7 +838,7 @@ softNavs
 ]
 .
 startTime
-lcps
+icps
 [
 0
 ]
@@ -863,7 +863,7 @@ ids
 .
 assert_equals
 (
-lcps
+icps
 [
 0
 ]
@@ -892,7 +892,7 @@ navigation
 ;
 assert_not_equals
 (
-lcps
+icps
 [
 0
 ]
