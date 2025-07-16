@@ -1381,7 +1381,7 @@ SearchBarVisibilityRequest
 )
 }
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .

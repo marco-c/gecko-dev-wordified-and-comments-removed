@@ -67,12 +67,6 @@ webcompat
 .
 ui
 import
-android
-.
-annotation
-.
-SuppressLint
-import
 androidx
 .
 activity
@@ -675,12 +669,6 @@ Suppress
 LongMethod
 "
 )
-SuppressLint
-(
-"
-UnusedMaterialScaffoldPaddingParameter
-"
-)
 Composable
 fun
 WebCompatReporter
@@ -736,7 +724,7 @@ BackPressed
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -745,6 +733,9 @@ colors
 layer2
 )
 {
+paddingValues
+-
+>
 Column
 (
 modifier
@@ -756,6 +747,11 @@ verticalScroll
 rememberScrollState
 (
 )
+)
+.
+padding
+(
+paddingValues
 )
 .
 imePadding

@@ -1687,7 +1687,7 @@ store
 store
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -3556,7 +3556,7 @@ null
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -5481,7 +5481,7 @@ DeleteClicked
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -5887,7 +5887,7 @@ BackClicked
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -6288,7 +6288,7 @@ DeleteClicked
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .

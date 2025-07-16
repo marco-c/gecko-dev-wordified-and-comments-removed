@@ -516,7 +516,7 @@ LoginsDetailBackClicked
 }
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .

@@ -892,7 +892,7 @@ searchText
 "
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .

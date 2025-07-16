@@ -511,7 +511,7 @@ colors
 layer1
 )
 }
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
