@@ -3395,11 +3395,6 @@ StatusBarColorManager
 (
 themeManager
 this
-settings
-(
-)
-.
-isTabStripEnabled
 )
 true
 )

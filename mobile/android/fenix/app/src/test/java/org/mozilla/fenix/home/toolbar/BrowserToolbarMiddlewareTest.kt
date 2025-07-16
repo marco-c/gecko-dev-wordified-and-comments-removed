@@ -1135,16 +1135,6 @@ TabManagementFeatureHelper
 import
 org
 .
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
-import
-org
-.
 robolectric
 .
 Shadows
@@ -1225,26 +1215,6 @@ SimpleBrowsingModeManager
 (
 Normal
 )
-private
-val
-settings
-:
-Settings
-=
-mockk
-(
-relaxed
-=
-true
-)
-{
-every
-{
-isTabStripEnabled
-}
-returns
-false
-}
 Before
 fun
 setup
@@ -1295,7 +1265,6 @@ mockk
 mockk
 (
 )
-settings
 tabManagementFeatureHelper
 =
 object
@@ -1446,7 +1415,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -1521,7 +1489,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -1694,7 +1661,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -1821,7 +1787,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -1921,7 +1886,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -1979,7 +1943,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 store
@@ -2066,7 +2029,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -2219,7 +2181,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -2376,7 +2337,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -2618,7 +2578,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -2768,7 +2727,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -2886,7 +2844,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3034,7 +2991,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3155,7 +3111,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3278,7 +3233,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3495,7 +3449,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3712,7 +3665,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3811,7 +3763,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -3923,7 +3874,6 @@ clipboard
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -4137,7 +4087,6 @@ appStore
 browserStore
 clipboard
 useCases
-settings
 )
 val
 toolbarStore
@@ -4269,7 +4218,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 toolbarStore
@@ -4460,7 +4408,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 store
@@ -4566,7 +4513,6 @@ mockk
 mockk
 (
 )
-settings
 )
 val
 store
