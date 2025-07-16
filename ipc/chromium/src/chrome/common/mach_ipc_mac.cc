@@ -601,6 +601,9 @@ bootstrap_look_up
 (
 bootstrap_port
 bootstrap_service_name
+mozilla
+:
+:
 getter_Transfers
 (
 task_sender
@@ -652,6 +655,9 @@ mach_task_self
 (
 )
 MACH_PORT_RIGHT_RECEIVE
+mozilla
+:
+:
 getter_Transfers
 (
 reply_port
