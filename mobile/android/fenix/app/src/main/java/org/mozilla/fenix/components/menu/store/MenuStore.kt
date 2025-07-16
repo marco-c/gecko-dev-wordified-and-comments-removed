@@ -215,6 +215,14 @@ FindInPage
 is
 MenuAction
 .
+MenuBanner
+is
+MenuAction
+.
+DismissMenuBanner
+is
+MenuAction
+.
 OpenInApp
 is
 MenuAction
