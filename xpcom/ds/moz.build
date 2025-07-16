@@ -238,6 +238,11 @@ nsEnumeratorUtils
 h
 "
 "
+nsExpirationState
+.
+h
+"
+"
 nsExpirationTracker
 .
 h
