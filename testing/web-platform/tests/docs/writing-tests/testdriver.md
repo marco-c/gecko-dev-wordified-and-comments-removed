@@ -2438,3 +2438,17 @@ bidi
 emulation
 .
 set_geolocation_override
+.
+.
+js
+:
+autofunction
+:
+:
+test_driver
+.
+bidi
+.
+emulation
+.
+set_locale_override
