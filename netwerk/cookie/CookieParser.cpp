@@ -2104,7 +2104,7 @@ nsACString
 &
 aMaxage
 int64_t
-aCurrentTime
+aCurrentTimeInMSec
 const
 nsACString
 &
@@ -2163,7 +2163,7 @@ int64_t
 >
 value
 (
-aCurrentTime
+aCurrentTimeInMSec
 )
 ;
 value
@@ -2222,7 +2222,7 @@ IsEmpty
 )
 {
 PRTime
-expiresTime
+expiresTimeInUSec
 ;
 if
 (
@@ -2235,7 +2235,7 @@ BeginReading
 )
 true
 &
-expiresTime
+expiresTimeInUSec
 )
 !
 =
@@ -2247,9 +2247,9 @@ true
 ;
 }
 int64_t
-expires
+expiresInMSec
 =
-expiresTime
+expiresTimeInUSec
 /
 int64_t
 (
@@ -2272,7 +2272,7 @@ aFromHttp
 )
 ;
 PRTime
-dateHeaderTime
+dateHeaderTimeInUSec
 ;
 if
 (
@@ -2285,7 +2285,7 @@ BeginReading
 )
 true
 &
-dateHeaderTime
+dateHeaderTimeInUSec
 )
 =
 =
@@ -2301,9 +2301,9 @@ network_cookie_useServerTime
 )
 {
 int64_t
-serverTime
+serverTimeInMSec
 =
-dateHeaderTime
+dateHeaderTimeInUSec
 /
 int64_t
 (
@@ -2313,11 +2313,11 @@ PR_USEC_PER_MSEC
 int64_t
 delta
 =
-aCurrentTime
+aCurrentTimeInMSec
 -
-serverTime
+serverTimeInMSec
 ;
-expires
+expiresInMSec
 +
 =
 delta
@@ -2335,8 +2335,8 @@ CookieCommons
 :
 MaybeCapExpiry
 (
-aCurrentTime
-expires
+aCurrentTimeInMSec
+expiresInMSec
 )
 ;
 return
@@ -2655,6 +2655,8 @@ bool
 aIsInPrivateBrowsing
 bool
 aOn3pcbException
+int64_t
+aCurrentTimeInMSec
 )
 {
 MOZ_ASSERT
@@ -2720,13 +2722,6 @@ acceptedByParser
 return
 ;
 }
-int64_t
-currentTimeInUsec
-=
-PR_Now
-(
-)
-;
 mCookieData
 .
 isSession
@@ -2738,9 +2733,7 @@ GetExpiry
 mCookieData
 expires
 maxage
-currentTimeInUsec
-/
-PR_USEC_PER_MSEC
+aCurrentTimeInMSec
 aDateHeader
 aFromHttp
 )

@@ -655,6 +655,15 @@ nsACString
 b
 )
 ;
+static
+int64_t
+GetCurrentTimeFromChannel
+(
+nsIChannel
+*
+aChannel
+)
+;
 }
 ;
 }
