@@ -11810,8 +11810,6 @@ MaxISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -12180,8 +12178,6 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if

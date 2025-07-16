@@ -12890,8 +12890,6 @@ pos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -12916,8 +12914,6 @@ pos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -32216,8 +32212,6 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -32367,8 +32361,6 @@ MaxISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 nscoord
@@ -33933,8 +33925,6 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 aCBSize
 .
@@ -34736,8 +34726,6 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
-.
-mPosition
 )
 aCBSize
 .
@@ -35532,8 +35520,6 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 aCBSize
 .

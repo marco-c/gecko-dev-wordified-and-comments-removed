@@ -419,8 +419,6 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 cbBSize
 contentEdgeToBoxSizingBSize
@@ -797,8 +795,6 @@ MaxISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
