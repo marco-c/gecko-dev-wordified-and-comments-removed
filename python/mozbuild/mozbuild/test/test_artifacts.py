@@ -2,6 +2,7 @@ from
 unittest
 import
 TestCase
+mock
 import
 buildconfig
 import
@@ -51,23 +52,35 @@ expected_trees
 )
 :
         
-buildconfig
+with
+mock
 .
+patch
+.
+object
+(
+            
+buildconfig
+"
 substs
-[
+"
+{
 "
 MOZ_APP_VERSION_DISPLAY
 "
-]
-=
+:
 version_display
+}
         
+)
+:
+            
 job
 =
 FakeArtifactJob
 (
 )
-        
+            
 self
 .
 assertGreater
@@ -80,7 +93,7 @@ candidate_trees
 )
 0
 )
-        
+            
 self
 .
 assertEqual
