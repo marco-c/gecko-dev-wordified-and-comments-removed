@@ -1253,6 +1253,21 @@ py
 )
     
 "
+intermittents
+"
+:
+MachCommandReference
+(
+"
+testing
+/
+intermittents_mach_commands
+.
+py
+"
+)
+    
+"
 install
 -
 moz
