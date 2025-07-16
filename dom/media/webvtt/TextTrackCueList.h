@@ -239,6 +239,7 @@ TextTrackCue
 *
 aCue
 )
+const
 ;
 nsTArray
 <
