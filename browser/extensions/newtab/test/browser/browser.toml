@@ -193,6 +193,13 @@ newtab
 "
 [
 "
+browser_TrendingSearch
+.
+js
+"
+]
+[
+"
 browser_as_load_location
 .
 js
