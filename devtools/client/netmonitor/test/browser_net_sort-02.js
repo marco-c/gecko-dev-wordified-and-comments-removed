@@ -2819,6 +2819,7 @@ title
 )
 ;
 }
+await
 verifyRequestItemTarget
 (
 document
@@ -2905,6 +2906,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -2991,6 +2993,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -3077,6 +3080,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -3163,6 +3167,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document

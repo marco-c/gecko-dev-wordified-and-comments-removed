@@ -1344,6 +1344,11 @@ testContents
 visibility
 )
 {
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 const
 requestItems
 =
@@ -1718,6 +1723,7 @@ j
 ]
 )
 {
+await
 verifyRequestItemTarget
 (
 document

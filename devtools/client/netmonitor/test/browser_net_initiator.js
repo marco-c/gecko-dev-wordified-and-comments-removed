@@ -738,6 +738,7 @@ recorded
 "
 )
 ;
+await
 validateRequests
 (
 EXPECTED_REQUESTS

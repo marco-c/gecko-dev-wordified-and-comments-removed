@@ -599,6 +599,11 @@ performRequestsAndWait
 (
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 let
 index
 =

@@ -870,6 +870,11 @@ KEY_Enter
 )
 ;
 await
+waitForAllNetworkUpdateEvents
+(
+)
+;
+await
 waitForDOMIfNeeded
 (
 document

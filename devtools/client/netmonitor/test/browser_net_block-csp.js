@@ -273,6 +273,7 @@ error
 "
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -346,6 +347,7 @@ error
 "
 )
 ;
+await
 verifyRequestItemTarget
 (
 document

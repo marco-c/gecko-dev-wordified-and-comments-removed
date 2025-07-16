@@ -477,6 +477,11 @@ message1
 data
 :
 {
+securityState
+:
+"
+insecure
+"
 securityInfo
 }
 }

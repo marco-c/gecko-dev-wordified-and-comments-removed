@@ -273,6 +273,11 @@ true
 )
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 ok
 (
 document

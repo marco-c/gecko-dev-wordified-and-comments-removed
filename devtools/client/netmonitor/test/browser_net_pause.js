@@ -162,11 +162,11 @@ panelWin
 .
 api
 .
-once
+on
 (
-TEST_EVENTS
+EVENTS
 .
-NETWORK_EVENT_UPDATED
+PAYLOAD_READY
 (
 )
 =

@@ -407,6 +407,7 @@ stackTrace
 )
 )
 ;
+await
 validateRequests
 (
 expectedRequests

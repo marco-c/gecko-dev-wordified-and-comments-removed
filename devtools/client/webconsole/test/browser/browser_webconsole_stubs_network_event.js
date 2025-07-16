@@ -532,6 +532,7 @@ for
 const
 {
 resource
+update
 }
 of
 updates
@@ -540,6 +541,7 @@ updates
 addNetworkUpdateStub
 (
 resource
+update
 )
 ;
 }
@@ -633,7 +635,10 @@ resolve
 {
 addNetworkUpdateStub
 =
+(
 resource
+update
+)
 =
 >
 {
@@ -675,10 +680,20 @@ resource
 )
 )
 ;
+if
+(
+update
+.
+resourceUpdates
+.
+responseEndAvailable
+)
+{
 resolve
 (
 )
 ;
+}
 }
 ;
 }
