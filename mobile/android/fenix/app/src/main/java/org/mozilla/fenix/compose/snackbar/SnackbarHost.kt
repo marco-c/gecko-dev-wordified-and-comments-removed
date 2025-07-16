@@ -284,6 +284,8 @@ message
 =
 snackbarData
 .
+visuals
+.
 message
 type
 =
@@ -323,6 +325,8 @@ message
 =
 snackbarData
 .
+visuals
+.
 message
 type
 =
@@ -350,6 +354,8 @@ get
 (
 )
 =
+visuals
+.
 actionLabel
 ?
 .
