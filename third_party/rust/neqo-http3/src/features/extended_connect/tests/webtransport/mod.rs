@@ -59,6 +59,8 @@ neqo_transport
 :
 :
 {
+recv_stream
+send_stream
 ConnectionParameters
 Pmtud
 StreamId
@@ -101,8 +103,6 @@ Http3Parameters
 Http3Server
 Http3ServerEvent
 Http3State
-RecvStreamStats
-SendStreamStats
 WebTransportEvent
 WebTransportRequest
 WebTransportServerEvent
@@ -1373,7 +1373,7 @@ wt_stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -1562,7 +1562,7 @@ cancel_fetch
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -1789,7 +1789,10 @@ StreamId
 >
 Result
 <
-SendStreamStats
+send_stream
+:
+:
+Stats
 Error
 >
 {
@@ -1816,7 +1819,10 @@ StreamId
 >
 Result
 <
-RecvStreamStats
+recv_stream
+:
+:
+Stats
 Error
 >
 {
@@ -2073,7 +2079,7 @@ wt_stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2135,7 +2141,7 @@ error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2186,7 +2192,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2247,7 +2253,7 @@ error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2869,7 +2875,7 @@ stream_reset_send
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2906,7 +2912,7 @@ stream_stop_sending
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (

@@ -42,7 +42,7 @@ NO_PREFIX
 qpack_send_buf
 :
 :
-QpackData
+Data
 reader
 :
 :
@@ -197,7 +197,7 @@ enc
 :
 &
 mut
-QpackData
+Data
 use_huffman
 :
 bool
@@ -1667,9 +1667,9 @@ super
 :
 :
 {
+Data
 EncoderInstruction
 EncoderInstructionReader
-QpackData
 }
 ;
 use
@@ -1703,7 +1703,7 @@ let
 mut
 buf
 =
-QpackData
+Data
 :
 :
 default
@@ -2101,7 +2101,7 @@ let
 mut
 buf
 =
-QpackData
+Data
 :
 :
 default
@@ -2740,7 +2740,7 @@ Err
 Error
 :
 :
-HuffmanDecompressionFailed
+HuffmanDecompression
 )
 )
 ;

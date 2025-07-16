@@ -13,8 +13,8 @@ neqo_common
 :
 {
 Datagram
-IpTos
-IpTosEcn
+Ecn
+Tos
 }
 ;
 use
@@ -74,9 +74,6 @@ DEFAULT_RTT
 }
 ecn
 packet
-:
-:
-PacketType
 path
 :
 :
@@ -91,7 +88,7 @@ assert_ecn_enabled
 (
 tos
 :
-IpTos
+Tos
 )
 {
 assert
@@ -110,7 +107,7 @@ assert_ecn_disabled
 (
 tos
 :
-IpTos
+Tos
 )
 {
 assert
@@ -134,7 +131,7 @@ d
 Datagram
 ecn
 :
-IpTosEcn
+Ecn
 )
 -
 >
@@ -197,7 +194,7 @@ Some
 set_tos
 (
 d
-IpTosEcn
+Ecn
 :
 :
 NotEct
@@ -241,7 +238,7 @@ Some
 set_tos
 (
 d
-IpTosEcn
+Ecn
 :
 :
 Ect1
@@ -294,7 +291,7 @@ Some
 set_tos
 (
 d
-IpTosEcn
+Ecn
 :
 :
 Ce
@@ -789,6 +786,8 @@ lateack
 0
 ptoack
 0
+unackdrop
+0
 pmtud
 :
 0
@@ -1156,7 +1155,10 @@ count
 for
 packet_type
 in
-PacketType
+packet
+:
+:
+Type
 :
 :
 iter
@@ -1167,11 +1169,11 @@ for
 codepoint
 in
 [
-IpTosEcn
+Ecn
 :
 :
 Ect1
-IpTosEcn
+Ecn
 :
 :
 Ce
@@ -1228,7 +1230,10 @@ codepoint
 for
 packet_type
 in
-PacketType
+packet
+:
+:
+Type
 :
 :
 iter
@@ -1249,7 +1254,7 @@ ecn_tx_acked
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1267,7 +1272,7 @@ ecn_rx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1288,7 +1293,7 @@ ecn_tx_acked
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1306,7 +1311,7 @@ ecn_rx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1327,7 +1332,7 @@ ecn_tx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1343,7 +1348,7 @@ ecn_rx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1364,7 +1369,7 @@ ecn_tx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1380,7 +1385,7 @@ ecn_rx
 packet_type
 ]
 [
-IpTosEcn
+Ecn
 :
 :
 Ect0
@@ -1632,8 +1637,8 @@ usize
 -
 >
 (
-IpTos
-IpTos
+Tos
+Tos
 bool
 )
 {

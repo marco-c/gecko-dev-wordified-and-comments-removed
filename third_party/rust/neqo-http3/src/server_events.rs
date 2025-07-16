@@ -1478,6 +1478,14 @@ session_id
 pub
 fn
 send_datagram
+<
+I
+:
+Into
+<
+DatagramTracking
+>
+>
 (
 &
 self
@@ -1489,11 +1497,7 @@ u8
 ]
 id
 :
-impl
-Into
-<
-DatagramTracking
->
+I
 )
 -
 >

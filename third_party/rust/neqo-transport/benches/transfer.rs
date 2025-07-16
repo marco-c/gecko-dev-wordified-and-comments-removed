@@ -50,7 +50,7 @@ connection
 :
 :
 {
-ConnectionNode
+Node
 ReachState
 ReceiveData
 SendData
@@ -214,7 +214,7 @@ nodes
 boxed
 !
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -282,7 +282,7 @@ ZERO
 .
 JITTER
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -508,7 +508,7 @@ Duration
 :
 from_secs
 (
-60
+15
 )
 )
 ;

@@ -30,9 +30,6 @@ crate
 :
 :
 recovery
-:
-:
-RecoveryToken
 ;
 #
 [
@@ -512,10 +509,10 @@ tokens
 :
 &
 mut
-Vec
-<
-RecoveryToken
->
+recovery
+:
+:
+Tokens
 )
 -
 >
@@ -549,7 +546,10 @@ tokens
 .
 push
 (
-RecoveryToken
+recovery
+:
+:
+Token
 :
 :
 KeepAlive

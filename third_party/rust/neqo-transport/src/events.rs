@@ -1800,7 +1800,7 @@ Transport
 Error
 :
 :
-StreamStateError
+StreamState
 )
 )
 )

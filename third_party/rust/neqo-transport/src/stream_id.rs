@@ -494,7 +494,6 @@ const
 fn
 index
 (
-&
 self
 )
 -

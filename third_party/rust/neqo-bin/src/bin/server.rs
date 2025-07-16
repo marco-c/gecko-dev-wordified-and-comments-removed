@@ -66,6 +66,11 @@ server
 (
 args
 )
+?
+.
+run
+(
+)
 .
 await
 }

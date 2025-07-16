@@ -279,8 +279,6 @@ const
 fn
 expansion
 (
-&
-self
 )
 -
 >
@@ -615,8 +613,9 @@ len
 (
 )
 -
-self
-.
+Self
+:
+:
 expansion
 (
 )
@@ -935,8 +934,9 @@ len
 (
 )
 -
-self
-.
+Self
+:
+:
 expansion
 (
 )

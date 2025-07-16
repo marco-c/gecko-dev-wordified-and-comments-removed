@@ -250,7 +250,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -314,7 +314,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -436,7 +436,7 @@ stream_stop_sending
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -471,7 +471,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -517,7 +517,7 @@ stream_reset_send
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -552,7 +552,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (

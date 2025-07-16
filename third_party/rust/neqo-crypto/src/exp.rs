@@ -302,7 +302,7 @@ err
 Error
 :
 :
-InternalError
+Internal
 )
 ;
 }

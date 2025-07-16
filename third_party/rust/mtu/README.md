@@ -329,6 +329,8 @@ Platforms
 *
 Linux
 *
+Android
+*
 macOS
 *
 Windows

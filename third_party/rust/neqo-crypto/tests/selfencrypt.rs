@@ -362,7 +362,7 @@ unwrap_err
 Error
 :
 :
-SelfEncryptFailure
+SelfEncrypt
 )
 ;
 }
@@ -417,7 +417,7 @@ unwrap_err
 Error
 :
 :
-SelfEncryptFailure
+SelfEncrypt
 )
 ;
 }
@@ -443,7 +443,7 @@ Err
 Error
 :
 :
-NssError
+Nss
 {
 name
 .

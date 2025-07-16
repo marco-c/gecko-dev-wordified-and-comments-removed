@@ -49,6 +49,9 @@ SECStatus
 SSLAeadContext
 "
 "
+SSLCertificateCompressionAlgorithm
+"
+"
 SSLExtensionHandler
 "
 "
@@ -550,6 +553,12 @@ PK11_ReadRawAttribute
 "
 "
 PK11_ReferenceSymKey
+"
+"
+SECITEM_AllocItem
+"
+"
+SECITEM_ReallocItemV2
 "
 "
 SECITEM_FreeArray

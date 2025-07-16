@@ -109,7 +109,7 @@ version
 "
 1
 .
-82
+81
 .
 0
 "
@@ -125,9 +125,9 @@ version
 "
 0
 .
-13
+14
 .
-4
+1
 "
 authors
 =
@@ -962,11 +962,6 @@ absolute_paths_not_starting_with_crate
 "
 warn
 "
-ambiguous_negative_literals
-=
-"
-warn
-"
 explicit_outlives_requirements
 =
 "
@@ -983,11 +978,6 @@ missing_abi
 warn
 "
 non_ascii_idents
-=
-"
-warn
-"
-redundant_imports
 =
 "
 warn

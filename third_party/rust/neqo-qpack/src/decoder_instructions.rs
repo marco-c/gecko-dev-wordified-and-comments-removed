@@ -45,7 +45,7 @@ DECODER_STREAM_CANCELLATION
 qpack_send_buf
 :
 :
-QpackData
+Data
 reader
 :
 :
@@ -195,7 +195,7 @@ enc
 :
 &
 mut
-QpackData
+Data
 )
 {
 match
@@ -686,9 +686,9 @@ super
 :
 :
 {
+Data
 DecoderInstruction
 DecoderInstructionReader
-QpackData
 }
 ;
 use
@@ -718,7 +718,7 @@ let
 mut
 buf
 =
-QpackData
+Data
 :
 :
 default
@@ -909,7 +909,7 @@ let
 mut
 buf
 =
-QpackData
+Data
 :
 :
 default

@@ -859,6 +859,14 @@ clone
 pub
 fn
 webtransport_send_datagram
+<
+I
+:
+Into
+<
+DatagramTracking
+>
+>
 (
 &
 mut
@@ -879,11 +887,7 @@ u8
 ]
 id
 :
-impl
-Into
-<
-DatagramTracking
->
+I
 )
 -
 >

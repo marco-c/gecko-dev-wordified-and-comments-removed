@@ -7,7 +7,7 @@ hex
 qlog
 :
 :
-NeqoQlog
+Qlog
 }
 ;
 use
@@ -37,7 +37,7 @@ qpack_read_insert_count_increment_instruction
 qlog
 :
 &
-NeqoQlog
+Qlog
 increment
 :
 u64

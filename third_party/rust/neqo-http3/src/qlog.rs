@@ -5,7 +5,7 @@ neqo_common
 qlog
 :
 :
-NeqoQlog
+Qlog
 ;
 use
 neqo_transport
@@ -32,7 +32,7 @@ h3_data_moved_up
 qlog
 :
 &
-NeqoQlog
+Qlog
 stream_id
 :
 StreamId
@@ -141,7 +141,7 @@ h3_data_moved_down
 qlog
 :
 &
-NeqoQlog
+Qlog
 stream_id
 :
 StreamId

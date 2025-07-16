@@ -63,7 +63,7 @@ Http3ClientEvents
 >
 }
 Negotiated
-NegotiationFailed
+Failed
 }
 impl
 NegotiationState
@@ -247,7 +247,7 @@ else
 Self
 :
 :
-NegotiationFailed
+Failed
 }
 ;
 if

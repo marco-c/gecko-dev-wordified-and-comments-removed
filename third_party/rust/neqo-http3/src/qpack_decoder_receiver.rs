@@ -15,9 +15,8 @@ Rc
 ;
 use
 neqo_qpack
-:
-:
-QPackDecoder
+as
+qpack
 ;
 use
 neqo_transport
@@ -62,7 +61,10 @@ Rc
 <
 RefCell
 <
-QPackDecoder
+qpack
+:
+:
+Decoder
 >
 >
 }
@@ -83,7 +85,10 @@ Rc
 <
 RefCell
 <
-QPackDecoder
+qpack
+:
+:
+Decoder
 >
 >
 )

@@ -55,7 +55,7 @@ NO_PREFIX
 qpack_send_buf
 :
 :
-QpackData
+Data
 reader
 :
 :
@@ -87,7 +87,7 @@ HeaderEncoder
 {
 buf
 :
-QpackData
+Data
 base
 :
 u64
@@ -162,7 +162,7 @@ Self
 {
 buf
 :
-QpackData
+Data
 :
 :
 default
@@ -1002,7 +1002,7 @@ total_num_of_inserts
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 ;
@@ -1056,7 +1056,7 @@ total_num_of_inserts
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 ;
@@ -1154,7 +1154,7 @@ peek
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 ;
@@ -1183,7 +1183,7 @@ read_indexed_static
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1216,7 +1216,7 @@ table
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1249,7 +1249,7 @@ table
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1281,7 +1281,7 @@ read_literal_with_name_ref_static
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1314,7 +1314,7 @@ table
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1346,7 +1346,7 @@ read_literal_with_name_literal
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1379,7 +1379,7 @@ table
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 )
@@ -1543,7 +1543,7 @@ Err
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ;
 }
@@ -1571,7 +1571,7 @@ ok_or
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ?
 }
@@ -1654,7 +1654,7 @@ Err
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 }
 else
@@ -1677,7 +1677,7 @@ Err
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ;
 }
@@ -1726,7 +1726,7 @@ Err
 Error
 :
 :
-DecompressionFailed
+Decompression
 )
 ;
 }
@@ -5328,7 +5328,7 @@ assert_eq
 Error
 :
 :
-DecompressionFailed
+Decompression
 decoder_h
 .
 decode_header_block
@@ -5408,7 +5408,7 @@ assert_eq
 Error
 :
 :
-DecompressionFailed
+Decompression
 decoder_h
 .
 decode_header_block

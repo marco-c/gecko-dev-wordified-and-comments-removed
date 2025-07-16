@@ -30,7 +30,7 @@ neqo_common
 qlog
 :
 :
-NeqoQlog
+Qlog
 ;
 use
 crate
@@ -40,7 +40,7 @@ crate
 recovery
 :
 :
-SentPacket
+sent
 rtt
 :
 :
@@ -109,7 +109,7 @@ mut
 self
 qlog
 :
-NeqoQlog
+Qlog
 )
 ;
 #
@@ -231,7 +231,10 @@ acked_pkts
 :
 &
 [
-SentPacket
+sent
+:
+:
+Packet
 ]
 rtt_est
 :
@@ -267,7 +270,10 @@ lost_packets
 :
 &
 [
-SentPacket
+sent
+:
+:
+Packet
 ]
 now
 :
@@ -286,7 +292,10 @@ self
 largest_acked_pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 now
 :
 Instant
@@ -318,7 +327,10 @@ self
 pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 now
 :
 Instant
@@ -333,7 +345,10 @@ self
 pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 now
 :
 Instant

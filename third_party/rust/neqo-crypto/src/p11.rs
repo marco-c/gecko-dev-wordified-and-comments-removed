@@ -938,7 +938,7 @@ Err
 Error
 :
 :
-InternalError
+Internal
 )
 Some
 (

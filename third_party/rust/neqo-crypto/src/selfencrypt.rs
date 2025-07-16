@@ -410,8 +410,9 @@ len
 (
 )
 +
-cipher
-.
+Aead
+:
+:
 expansion
 (
 )
@@ -701,7 +702,7 @@ Err
 Error
 :
 :
-SelfEncryptFailure
+SelfEncrypt
 )
 ;
 }
@@ -728,7 +729,7 @@ Err
 Error
 :
 :
-SelfEncryptFailure
+SelfEncrypt
 )
 ;
 }

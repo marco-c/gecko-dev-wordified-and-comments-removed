@@ -43,10 +43,9 @@ header_protection
 :
 :
 {
-apply_header_protection
+self
 decode_initial_header
 initial_aead_and_hp
-remove_header_protection
 }
 now
 split_datagram
@@ -740,7 +739,10 @@ header
 pn
 )
 =
-remove_header_protection
+header_protection
+:
+:
+remove
 (
 &
 hp
@@ -957,7 +959,10 @@ unwrap
 (
 )
 ;
-apply_header_protection
+header_protection
+:
+:
+apply
 (
 &
 hp

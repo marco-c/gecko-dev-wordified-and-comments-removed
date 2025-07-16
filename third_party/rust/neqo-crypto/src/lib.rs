@@ -653,7 +653,7 @@ Err
 Error
 :
 :
-InternalError
+Internal
 )
 ;
 }
@@ -671,7 +671,7 @@ ok_or
 Error
 :
 :
-InternalError
+Internal
 )
 ?
 ;
@@ -933,7 +933,7 @@ ok_or
 Error
 :
 :
-InternalError
+Internal
 )
 ?
 .

@@ -260,7 +260,7 @@ let
 Error
 :
 :
-NssError
+Nss
 {
 code
 :
@@ -303,7 +303,7 @@ return
 Error
 :
 :
-InternalError
+Internal
 ;
 }
 let
@@ -428,7 +428,7 @@ ok_or
 Error
 :
 :
-InternalError
+Internal
 )
 ?
 ;

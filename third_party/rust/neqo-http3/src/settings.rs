@@ -12,6 +12,7 @@ neqo_common
 :
 :
 {
+Buffer
 Decoder
 Encoder
 }
@@ -342,6 +343,11 @@ value
 pub
 fn
 encode_frame_contents
+<
+B
+:
+Buffer
+>
 (
 &
 self
@@ -350,6 +356,9 @@ enc
 &
 mut
 Encoder
+<
+B
+>
 )
 {
 enc

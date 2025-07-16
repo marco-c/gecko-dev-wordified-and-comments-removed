@@ -59,9 +59,6 @@ OVERWRITE_INVOCATIONS
 UPDATE_WRITE_KEYS_AT
 }
 packet
-:
-:
-PacketNumber
 }
 ;
 fn
@@ -213,7 +210,10 @@ overwrite_invocations
 (
 n
 :
-PacketNumber
+packet
+:
+:
+Number
 )
 {
 OVERWRITE_INVOCATIONS
@@ -2073,7 +2073,7 @@ Transport
 Error
 :
 :
-PeerError
+Peer
 (
 ERROR_AEAD_LIMIT_REACHED
 )
