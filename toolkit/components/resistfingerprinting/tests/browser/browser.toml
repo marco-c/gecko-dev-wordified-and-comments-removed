@@ -311,6 +311,13 @@ js
 ]
 [
 "
+browser_navigator_online
+.
+js
+"
+]
+[
+"
 browser_rfp_canvasplaceholder_pdfjs
 .
 js
