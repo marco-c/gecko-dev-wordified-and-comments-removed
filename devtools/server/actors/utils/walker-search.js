@@ -1427,8 +1427,6 @@ type
 }
 )
 ;
-break
-;
 }
 }
 const
