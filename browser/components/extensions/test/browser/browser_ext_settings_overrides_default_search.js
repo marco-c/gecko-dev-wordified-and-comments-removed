@@ -440,7 +440,6 @@ testResetFOG
 )
 ;
 }
-async
 function
 checkTelemetry
 (
@@ -452,7 +451,6 @@ newEngine
 let
 snapshot
 =
-await
 Glean
 .
 searchEngineDefault
@@ -665,7 +663,6 @@ name
 }
 )
 ;
-await
 checkTelemetry
 (
 "
@@ -715,7 +712,6 @@ name
 }
 )
 ;
-await
 checkTelemetry
 (
 "
@@ -1282,7 +1278,6 @@ prompt
 "
 )
 ;
-await
 checkTelemetry
 (
 "
@@ -1400,7 +1395,6 @@ after
 disabling
 )
 ;
-await
 checkTelemetry
 (
 "
@@ -1533,7 +1527,6 @@ after
 enabling
 )
 ;
-await
 checkTelemetry
 (
 "
