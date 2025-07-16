@@ -3172,6 +3172,13 @@ steam
 )
 )
 ;
+delete
+enginePing
+.
+validation
+.
+took
+;
 deepEqual
 (
 enginePing
@@ -4856,7 +4863,7 @@ greaterOrEqual
 e
 .
 took
-1
+0
 )
 ;
 ok
