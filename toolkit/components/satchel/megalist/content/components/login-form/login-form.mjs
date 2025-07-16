@@ -746,7 +746,7 @@ preventDefault
 )
 ;
 const
-loginForm
+loginFromForm
 =
 {
 origin
@@ -789,7 +789,7 @@ this
 .
 onClose
 (
-loginForm
+loginFromForm
 )
 ;
 }
@@ -819,7 +819,7 @@ return
 ;
 }
 const
-loginForm
+loginFromForm
 =
 {
 origin
@@ -862,7 +862,7 @@ this
 .
 onSaveClick
 (
-loginForm
+loginFromForm
 )
 ;
 }
