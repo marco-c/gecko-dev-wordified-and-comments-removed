@@ -477,7 +477,7 @@ customTabPage
 .
 content
 )
-verifyPageURL
+verifyCustomTabUrl
 (
 customTabPage
 .
@@ -568,7 +568,7 @@ waitUntilGone
 (
 waitingTime
 )
-verifyPageURL
+verifyCustomTabUrl
 (
 customTabPage
 .
@@ -581,7 +581,7 @@ openCustomTabMenu
 .
 clickOpenInFocusButton
 {
-verifyPageURL
+verifyCustomTabUrl
 (
 customTabPage
 .
@@ -639,7 +639,7 @@ Tab
 2
 "
 )
-verifyPageURL
+verifyCustomTabUrl
 (
 secondPage
 .
@@ -659,7 +659,7 @@ waitUntilGone
 (
 waitingTime
 )
-verifyPageURL
+verifyCustomTabUrl
 (
 firstPage
 .
@@ -673,7 +673,7 @@ openMainMenu
 .
 pressForward
 {
-verifyPageURL
+verifyCustomTabUrl
 (
 secondPage
 .
