@@ -198,7 +198,7 @@ AudioSampleRate
 number
 ;
 let
-NavigatorConnection
+NetworkConnection
 :
 number
 ;
@@ -339,6 +339,16 @@ number
 ;
 let
 ScreenAvailToResolution
+:
+number
+;
+let
+UseHardcodedFontSubstitutes
+:
+number
+;
+let
+DiskStorageLimit
 :
 number
 ;
