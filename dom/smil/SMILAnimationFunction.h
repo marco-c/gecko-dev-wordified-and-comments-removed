@@ -226,7 +226,7 @@ SMILValue
 aResult
 )
 ;
-int8_t
+int32_t
 CompareTo
 (
 const
