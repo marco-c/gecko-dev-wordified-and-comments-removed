@@ -342,9 +342,9 @@ toggle
 "
 devtools
 -
-tooltip
+checkered
 -
-tiles
+background
 "
 !
 hideCheckeredBackground
