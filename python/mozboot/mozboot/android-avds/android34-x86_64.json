@@ -12,7 +12,7 @@ android
 -
 34
 ;
-default
+google_apis
 ;
 x86_64
 "
@@ -80,7 +80,7 @@ cores
 skin
 "
 "
-800x1280
+1080x1920
 "
 "
 -
@@ -153,7 +153,7 @@ size
 "
 :
 "
-4000MB
+8192MB
 "
 "
 sdcard

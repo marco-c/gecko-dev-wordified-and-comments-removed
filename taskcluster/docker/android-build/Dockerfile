@@ -109,6 +109,10 @@ jq
 \
 less
 \
+libnss3
+\
+libpulse0
+\
 openssh
 -
 client
