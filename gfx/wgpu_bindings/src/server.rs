@@ -1164,7 +1164,7 @@ unused_variables
 )
 ]
 fn
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 (
 global
 :
@@ -1227,7 +1227,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1264,7 +1264,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1328,7 +1328,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1518,7 +1518,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1593,7 +1593,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1630,7 +1630,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -1719,7 +1719,7 @@ concat
 WebGPU
 :
 disabling
-ExternalTexture
+SharedTexture
 swapchain
 :
 \
@@ -6914,7 +6914,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_use_external_texture_for_swap_chain
+wgpu_server_use_shared_texture_for_swap_chain
 (
 param
 :
@@ -6937,7 +6937,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_disable_external_texture_for_swap_chain
+wgpu_server_disable_shared_texture_for_swap_chain
 (
 param
 :
@@ -6957,7 +6957,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_ensure_external_texture_for_swap_chain
+wgpu_server_ensure_shared_texture_for_swap_chain
 (
 param
 :
@@ -7010,7 +7010,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_ensure_external_texture_for_readback
+wgpu_server_ensure_shared_texture_for_readback
 (
 param
 :
@@ -7060,7 +7060,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_get_external_texture_handle
+wgpu_server_get_shared_texture_handle
 (
 param
 :
@@ -7186,7 +7186,7 @@ dead_code
 )
 ]
 fn
-wgpu_server_remove_external_texture
+wgpu_server_remove_shared_texture
 (
 param
 :
@@ -7486,7 +7486,7 @@ crate
 :
 :
 RemoteTextureOwnerId
-use_external_texture_in_swap_chain
+use_shared_texture_in_swap_chain
 :
 bool
 )
@@ -8200,7 +8200,7 @@ windows
 )
 ]
 fn
-create_texture_with_external_texture_d3d11
+create_texture_with_shared_texture_d3d11
 (
 &
 self
@@ -8350,7 +8350,7 @@ ret
 =
 unsafe
 {
-wgpu_server_ensure_external_texture_for_swap_chain
+wgpu_server_ensure_shared_texture_for_swap_chain
 (
 self
 .
@@ -8395,7 +8395,7 @@ c
 Failed
 to
 create
-external
+shared
 texture
 "
 ;
@@ -8420,7 +8420,7 @@ handle
 =
 unsafe
 {
-wgpu_server_get_external_texture_handle
+wgpu_server_get_shared_texture_handle
 (
 self
 .
@@ -8444,7 +8444,7 @@ c
 Failed
 to
 get
-external
+shared
 texture
 handle
 "
@@ -8701,7 +8701,7 @@ linux
 )
 ]
 fn
-create_texture_with_external_texture_dmabuf
+create_texture_with_shared_texture_dmabuf
 (
 &
 self
@@ -8743,7 +8743,7 @@ ret
 =
 unsafe
 {
-wgpu_server_ensure_external_texture_for_swap_chain
+wgpu_server_ensure_shared_texture_for_swap_chain
 (
 self
 .
@@ -8788,7 +8788,7 @@ c
 Failed
 to
 create
-external
+shared
 texture
 "
 ;
@@ -9862,7 +9862,7 @@ macos
 )
 ]
 fn
-create_texture_with_external_texture_iosurface
+create_texture_with_shared_texture_iosurface
 (
 &
 self
@@ -9904,7 +9904,7 @@ ret
 =
 unsafe
 {
-wgpu_server_ensure_external_texture_for_swap_chain
+wgpu_server_ensure_shared_texture_for_swap_chain
 (
 self
 .
@@ -9949,7 +9949,7 @@ c
 Failed
 to
 create
-external
+shared
 texture
 "
 ;
@@ -10953,7 +10953,7 @@ return
 ;
 }
 let
-use_external_texture
+use_shared_texture
 =
 if
 let
@@ -10966,7 +10966,7 @@ swap_chain_id
 {
 unsafe
 {
-wgpu_server_use_external_texture_for_swap_chain
+wgpu_server_use_shared_texture_for_swap_chain
 (
 self
 .
@@ -10981,7 +10981,7 @@ false
 }
 ;
 if
-use_external_texture
+use_shared_texture
 {
 let
 limits
@@ -11179,7 +11179,7 @@ is_created
 =
 self
 .
-create_texture_with_external_texture_d3d11
+create_texture_with_shared_texture_d3d11
 (
 device_id
 id
@@ -11212,7 +11212,7 @@ is_created
 =
 self
 .
-create_texture_with_external_texture_dmabuf
+create_texture_with_shared_texture_dmabuf
 (
 device_id
 id
@@ -11245,7 +11245,7 @@ is_created
 =
 self
 .
-create_texture_with_external_texture_iosurface
+create_texture_with_shared_texture_iosurface
 (
 device_id
 id
@@ -11263,7 +11263,7 @@ return
 }
 unsafe
 {
-wgpu_server_disable_external_texture_for_swap_chain
+wgpu_server_disable_shared_texture_for_swap_chain
 (
 self
 .
@@ -11288,7 +11288,7 @@ swap_chain_id
 {
 unsafe
 {
-wgpu_server_ensure_external_texture_for_readback
+wgpu_server_ensure_shared_texture_for_readback
 (
 self
 .
@@ -14045,9 +14045,9 @@ device_type
 ;
 }
 let
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 =
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 (
 global
 adapter_id
@@ -14115,7 +14115,7 @@ Owned
 driver_info
 )
 backend
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 }
 ;
 Some
@@ -14893,7 +14893,7 @@ height
 format
 buffer_ids
 remote_texture_owner_id
-use_external_texture_in_swap_chain
+use_shared_texture_in_swap_chain
 }
 =
 >
@@ -14919,7 +14919,7 @@ len
 (
 )
 remote_texture_owner_id
-use_external_texture_in_swap_chain
+use_shared_texture_in_swap_chain
 )
 ;
 }
@@ -15006,7 +15006,7 @@ id
 =
 >
 {
-wgpu_server_remove_external_texture
+wgpu_server_remove_shared_texture
 (
 global
 .
@@ -15340,7 +15340,7 @@ id
 =
 >
 {
-wgpu_server_remove_external_texture
+wgpu_server_remove_shared_texture
 (
 global
 .

@@ -4086,7 +4086,7 @@ id
 limits
 name
 vendor
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 }
 )
 =
@@ -4156,7 +4156,7 @@ nss
 name
 )
 vendor
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 }
 ;
 resolve_request_adapter_promise
@@ -5077,7 +5077,7 @@ crate
 :
 :
 RemoteTextureOwnerId
-use_external_texture_in_swap_chain
+use_shared_texture_in_swap_chain
 :
 bool
 )
@@ -5123,7 +5123,7 @@ Borrowed
 buffer_ids
 )
 remote_texture_owner_id
-use_external_texture_in_swap_chain
+use_shared_texture_in_swap_chain
 }
 ;
 client
@@ -11525,7 +11525,7 @@ extern
 C
 "
 fn
-wgpu_client_use_external_texture_in_swapChain
+wgpu_client_use_shared_texture_in_swapChain
 (
 format
 :
