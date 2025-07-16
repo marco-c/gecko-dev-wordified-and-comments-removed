@@ -18252,6 +18252,9 @@ BROWSER_NEW_TAB_URL
 skipAnimation
 :
 true
+tabIndex
+:
+0
 }
 )
 ;
