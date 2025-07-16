@@ -733,16 +733,6 @@ setupPersistentInsets
 (
 )
 {
-if
-(
-SDK_INT
->
-=
-VERSION_CODES
-.
-TIRAMISU
-)
-{
 WindowCompat
 .
 setDecorFitsSystemWindows
@@ -893,6 +883,5 @@ change
 return
 setOnApplyWindowInsetsListener
 windowInsets
-}
 }
 }
