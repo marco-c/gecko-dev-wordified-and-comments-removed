@@ -431,7 +431,7 @@ aCue
 )
 ;
 void
-GetCurrentCuesAndOtherCues
+GetOverlappingCurrentAndOtherCues
 (
 nsTArray
 <
