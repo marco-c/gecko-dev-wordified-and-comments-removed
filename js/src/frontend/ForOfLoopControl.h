@@ -213,11 +213,6 @@ BytecodeEmitter
 bce
 CompletionKind
 completionKind
-=
-CompletionKind
-:
-:
-Normal
 )
 ;
 [
@@ -236,11 +231,6 @@ EmitterScope
 currentScope
 CompletionKind
 completionKind
-=
-CompletionKind
-:
-:
-Normal
 )
 ;
 [
