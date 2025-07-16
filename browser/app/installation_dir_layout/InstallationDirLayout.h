@@ -13,6 +13,10 @@ Single
 Versioned
 }
 ;
+extern
+"
+C
+"
 InstallationDirLayoutType
 GetInstallationDirLayoutType
 (
