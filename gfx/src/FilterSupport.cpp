@@ -884,7 +884,7 @@ glinearRGBTosRGBMap
 000f
 }
 ;
-extern
+static
 const
 float
 gsRGBToLinearRGBMap
@@ -2036,7 +2036,6 @@ return
 nullptr
 ;
 }
-static
 sRGBColor
 SRGBToLinearRGB
 (
