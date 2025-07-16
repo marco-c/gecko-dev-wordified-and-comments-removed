@@ -3039,7 +3039,7 @@ Before
 removal
 prompts
 via
-SiteDataManger
+SiteDataManager
 .
 promptSiteDataRemoval
 -
