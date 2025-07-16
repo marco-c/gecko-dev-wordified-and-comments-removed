@@ -2720,7 +2720,7 @@ test
 webnn_conformance_test
 (
 buildAndExecuteGraph
-getPrecisionTolerance
+getZeroULPTolerance
 test
 true
 )
