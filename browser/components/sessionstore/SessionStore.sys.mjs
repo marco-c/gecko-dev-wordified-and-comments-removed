@@ -26117,6 +26117,11 @@ aTab
 linkedBrowser
 .
 remoteType
+tabGroup
+:
+aTab
+.
+group
 }
 ;
 let
