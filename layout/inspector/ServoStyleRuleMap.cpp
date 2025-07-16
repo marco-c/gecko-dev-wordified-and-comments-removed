@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerRange
 .
 h

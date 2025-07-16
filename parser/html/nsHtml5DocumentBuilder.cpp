@@ -34,6 +34,13 @@ nsNameSpaceManager
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 using
 mozilla
 :
