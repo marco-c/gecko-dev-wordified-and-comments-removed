@@ -680,14 +680,6 @@ AdapterItem
 PocketStoriesItem
 )
 }
-items
-.
-add
-(
-AdapterItem
-.
-BottomSpacer
-)
 return
 items
 }
