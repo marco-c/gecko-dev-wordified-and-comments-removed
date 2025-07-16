@@ -586,7 +586,6 @@ LoginHelper
 .
 setOSAuthEnabled
 (
-PASSWORDS_OS_REAUTH_PREF
 oldPrefValue
 )
 ;
