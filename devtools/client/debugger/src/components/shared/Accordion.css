@@ -435,6 +435,12 @@ height
 :
 10px
 ;
+flex
+-
+shrink
+:
+0
+;
 background
 -
 image
@@ -457,6 +463,14 @@ arrow
 .
 svg
 )
+;
+background
+-
+repeat
+:
+no
+-
+repeat
 ;
 background
 -
