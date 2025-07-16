@@ -1575,7 +1575,7 @@ kSpotLightNumAttributes
 8
 ;
 struct
-DiffuseLightingAttributes
+LightingAttributes
 {
 LightType
 mLightType
@@ -1604,7 +1604,7 @@ operator
 =
 (
 const
-DiffuseLightingAttributes
+LightingAttributes
 &
 aOther
 )
@@ -1654,10 +1654,18 @@ mColor
 }
 ;
 struct
+DiffuseLightingAttributes
+:
+public
+LightingAttributes
+{
+}
+;
+struct
 SpecularLightingAttributes
 :
 public
-DiffuseLightingAttributes
+LightingAttributes
 {
 }
 ;
