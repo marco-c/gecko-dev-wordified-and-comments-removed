@@ -921,6 +921,8 @@ menu
 no
 -
 provider
+-
+2
 =
 .
 label
@@ -929,6 +931,10 @@ Ask
 an
 AI
 Chatbot
+.
+accesskey
+=
+h
 genai
 -
 menu
@@ -951,6 +957,8 @@ menu
 ask
 -
 generic
+-
+2
 =
 .
 label
@@ -958,6 +966,10 @@ label
 Ask
 AI
 Chatbot
+.
+accesskey
+=
+h
 #
 provider
 (
@@ -975,6 +987,8 @@ menu
 ask
 -
 provider
+-
+2
 =
 .
 label
@@ -983,6 +997,10 @@ Ask
 {
 provider
 }
+.
+accesskey
+=
+h
 genai
 -
 menu
