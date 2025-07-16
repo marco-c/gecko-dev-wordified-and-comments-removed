@@ -1230,6 +1230,14 @@ delete
 }
 )
 ;
+GleanPings
+.
+profiles
+.
+submit
+(
+)
+;
 }
 else
 if
