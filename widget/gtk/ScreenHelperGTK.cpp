@@ -1251,6 +1251,11 @@ ImageDescriptionDone
 this
 )
 ;
+if
+(
+mScreenGetter
+)
+{
 mScreenGetter
 -
 >
@@ -1263,6 +1268,7 @@ mIsHDR
 )
 )
 ;
+}
 }
 void
 WaylandMonitor
