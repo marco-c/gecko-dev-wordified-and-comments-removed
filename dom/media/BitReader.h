@@ -113,6 +113,13 @@ ReadULEB128
 )
 ;
 size_t
+AdvanceBits
+(
+size_t
+aNum
+)
+;
+size_t
 BitCount
 (
 )
