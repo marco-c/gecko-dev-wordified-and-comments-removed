@@ -707,7 +707,6 @@ InspectorUtils
 colorToRGBA
 (
 colorStr
-document
 )
 |
 |
@@ -719,7 +718,6 @@ colorToRGBA
 #
 888
 "
-document
 )
 ;
 return

@@ -4259,7 +4259,6 @@ null
 ;
 }
 return
-(
 doc
 .
 defaultView
@@ -4269,12 +4268,10 @@ InspectorUtils
 colorToRGBA
 (
 cssColor
-doc
 )
 |
 |
 kInvalidColor
-)
 ;
 }
 function

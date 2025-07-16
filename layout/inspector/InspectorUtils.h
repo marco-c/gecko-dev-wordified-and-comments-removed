@@ -326,9 +326,6 @@ const
 nsACString
 &
 aColorString
-const
-Document
-*
 Nullable
 <
 InspectorRGBATuple
