@@ -4911,6 +4911,14 @@ ToThebesRect
 if
 (
 hasClip
+&
+&
+!
+(
+aFlags
+&
+eDoNotClipToBBoxOfContentInsideClipPath
+)
 )
 {
 bbox
