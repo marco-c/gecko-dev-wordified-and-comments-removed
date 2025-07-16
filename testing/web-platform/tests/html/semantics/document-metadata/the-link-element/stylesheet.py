@@ -82,7 +82,28 @@ count
 )
 )
     
+headers
+=
+[
+(
+b
+"
+Content
+-
+Type
+"
+b
+"
+text
+/
+css
+"
+)
+]
+    
 return
+200
+headers
 u
 '
 body
@@ -90,5 +111,6 @@ body
 color
 :
 red
+;
 }
 '
