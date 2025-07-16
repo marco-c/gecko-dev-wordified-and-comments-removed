@@ -111,7 +111,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Icon
 import

@@ -99,7 +99,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Text
 import

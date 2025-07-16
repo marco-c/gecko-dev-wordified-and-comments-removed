@@ -198,7 +198,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 TextButton
 ]

@@ -253,7 +253,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 CircularProgressIndicator
 import
@@ -261,7 +261,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Surface
 import
@@ -269,7 +269,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Text
 import
@@ -1799,7 +1799,7 @@ large
 border
 =
 border
-shadowElevation
+elevation
 =
 FirefoxTheme
 .

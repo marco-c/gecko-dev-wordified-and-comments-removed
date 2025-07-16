@@ -155,7 +155,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Icon
 import
@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 IconButton
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 LinearProgressIndicator
 import
@@ -1356,7 +1356,7 @@ FirefoxTheme
 colors
 .
 borderAccent
-trackColor
+backgroundColor
 =
 FirefoxTheme
 .
@@ -1378,9 +1378,7 @@ clearAndSetSemantics
 }
 progress
 =
-{
 progress
-}
 color
 =
 FirefoxTheme
@@ -1388,17 +1386,13 @@ FirefoxTheme
 colors
 .
 borderAccent
-trackColor
+backgroundColor
 =
 FirefoxTheme
 .
 colors
 .
 borderPrimary
-drawStopIndicator
-=
-{
-}
 )
 }
 }

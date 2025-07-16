@@ -187,7 +187,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Icon
 import
@@ -195,7 +195,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 IconToggleButton
 import

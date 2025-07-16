@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Scaffold
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 Surface
 import
@@ -532,7 +532,7 @@ false
 }
 Scaffold
 (
-containerColor
+backgroundColor
 =
 FirefoxTheme
 .

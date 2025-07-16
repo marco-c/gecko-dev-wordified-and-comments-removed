@@ -71,7 +71,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 SnackbarHostState
 import
@@ -79,7 +79,7 @@ androidx
 .
 compose
 .
-material3
+material
 .
 SnackbarResult
 import
