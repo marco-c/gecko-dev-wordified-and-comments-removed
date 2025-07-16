@@ -700,9 +700,6 @@ if
 =
 [
 "
-verify
-"
-"
 os
 =
 =
@@ -729,6 +726,7 @@ os_version
 &
 asan
 "
+]
 #
 this
 only
@@ -740,7 +738,6 @@ e10s
 multi
 Bug
 1651357
-]
 [
 "
 browser_form_validity_popup_submit
@@ -1135,15 +1132,6 @@ js
 browser_use_counters
 .
 js
-"
-]
-skip
--
-if
-=
-[
-"
-verify
 "
 ]
 [

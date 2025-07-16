@@ -19,12 +19,3 @@ browser_registerProtocolHandler_notification
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]

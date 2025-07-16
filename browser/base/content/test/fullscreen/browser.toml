@@ -550,10 +550,10 @@ x11
 &
 opt
 "
+]
 #
 Bug
 1972541
-]
 [
 "
 browser_fullscreen_warning
@@ -585,10 +585,10 @@ os
 mac
 '
 "
+]
 #
 Bug
 1848423
-]
 [
 "
 browser_fullscreen_window_focus

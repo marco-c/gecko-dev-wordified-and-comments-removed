@@ -91,10 +91,10 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1456997
-]
 [
 "
 test_docload_shutdown
@@ -133,7 +133,7 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1456997
-]

@@ -318,18 +318,6 @@ js
 https_first_disabled
 =
 true
-skip
--
-if
-=
-[
-"
-verify
-&
-&
-debug
-"
-]
 [
 "
 browser_UsageTelemetry_toolbars
@@ -427,7 +415,7 @@ debug
 &
 swgl
 "
+]
 #
 Bug
 1775794
-]

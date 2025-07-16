@@ -337,9 +337,6 @@ if
 =
 [
 "
-verify
-"
-"
 os
 =
 =
@@ -348,7 +345,7 @@ android
 '
 "
 #
-bug
+Bug
 1468434
 for
 android
@@ -356,7 +353,6 @@ android
 condprof
 "
 #
-:
 "
 The
 opaque

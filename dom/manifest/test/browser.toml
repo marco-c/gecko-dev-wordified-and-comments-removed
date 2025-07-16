@@ -179,12 +179,3 @@ browser_Manifest_install
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]

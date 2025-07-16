@@ -62,6 +62,13 @@ thunderbird
 ]
 [
 "
+browser_SharedDataMap
+.
+js
+"
+]
+[
+"
 browser_experiment_evaluate_jexl
 .
 js
@@ -112,13 +119,6 @@ js
 [
 "
 browser_remotesettingsexperimentloader_remote_defaults
-.
-js
-"
-]
-[
-"
-browser_SharedDataMap
 .
 js
 "

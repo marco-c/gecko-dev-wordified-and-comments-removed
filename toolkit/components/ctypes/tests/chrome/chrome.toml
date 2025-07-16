@@ -36,12 +36,3 @@ test_ctypes
 xhtml
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]

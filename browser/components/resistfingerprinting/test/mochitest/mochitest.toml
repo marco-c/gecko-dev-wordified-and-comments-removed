@@ -188,10 +188,10 @@ display
 x11
 '
 "
+]
 #
 Bug
 1792846
-]
 [
 "
 test_geolocation
@@ -280,14 +280,5 @@ js
 test_speech_synthesis
 .
 html
-"
-]
-skip
--
-if
-=
-[
-"
-verify
 "
 ]

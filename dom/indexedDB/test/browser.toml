@@ -97,15 +97,6 @@ browser_forgetThisSite
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 browser_private_idb

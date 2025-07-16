@@ -295,6 +295,13 @@ http
 "
 [
 "
+test_dataChannel_dcsctp_interop
+.
+html
+"
+]
+[
+"
 test_dataChannel_dtlsVersions
 .
 html
@@ -343,10 +350,10 @@ arch
 aarch64
 '
 "
+]
 #
 Bug
 1961560
-]
 [
 "
 test_dataChannel_id
@@ -383,10 +390,3 @@ scheme
 "
 http
 "
-[
-"
-test_dataChannel_dcsctp_interop
-.
-html
-"
-]

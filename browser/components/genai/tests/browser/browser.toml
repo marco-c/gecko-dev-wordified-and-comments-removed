@@ -170,7 +170,7 @@ js
 ]
 [
 "
-browser_link_preview_optin
+browser_link_preview_onboarding
 .
 js
 "
@@ -197,7 +197,7 @@ html
 ]
 [
 "
-browser_link_preview_onboarding
+browser_link_preview_optin
 .
 js
 "

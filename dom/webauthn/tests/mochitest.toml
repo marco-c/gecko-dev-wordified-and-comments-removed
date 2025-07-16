@@ -227,6 +227,7 @@ os
 android
 '
 "
+]
 #
 Test
 sets
@@ -244,7 +245,6 @@ t
 applicable
 to
 android
-]
 [
 "
 test_webauthn_attestation_conveyance
@@ -520,6 +520,7 @@ os
 android
 '
 "
+]
 #
 Test
 sets
@@ -537,7 +538,6 @@ t
 applicable
 to
 android
-]
 [
 "
 test_webauthn_get_assertion_dead_object
@@ -655,6 +655,7 @@ if
 "
 xorigin
 "
+]
 #
 Hangs
 JavaScript
@@ -687,7 +688,6 @@ not
 be
 cloned
 .
-]
 [
 "
 test_webauthn_make_credential
@@ -951,6 +951,7 @@ if
 "
 xorigin
 "
+]
 #
 this
 test
@@ -961,7 +962,6 @@ cross
 -
 origin
 setup
-]
 [
 "
 test_webauthn_serialization

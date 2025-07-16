@@ -279,10 +279,10 @@ aarch64
 &
 opt
 "
+]
 #
 Bug
 1494843
-]
 [
 "
 browser_fullscreen
@@ -349,10 +349,10 @@ aarch64
 !
 debug
 "
+]
 #
 Bug
 1877642
-]
 [
 "
 browser_fullscreen
@@ -399,10 +399,10 @@ aarch64
 !
 debug
 "
+]
 #
 Bug
 1809365
-]
 [
 "
 browser_fullscreen
@@ -479,7 +479,7 @@ aarch64
 &
 opt
 "
+]
 #
 Bug
 1910580
-]

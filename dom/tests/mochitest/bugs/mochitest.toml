@@ -463,7 +463,6 @@ condprof
 "
 ]
 #
-:
 "
 The
 focus
@@ -1188,14 +1187,14 @@ test_no_find_showDialog
 html
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

@@ -103,15 +103,6 @@ js
 https_first_disabled
 =
 true
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 browser_test_select_visibility

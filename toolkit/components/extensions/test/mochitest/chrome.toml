@@ -186,15 +186,6 @@ test_chrome_ext_webrequest_host_permissions
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 test_chrome_ext_webrequest_mozextension

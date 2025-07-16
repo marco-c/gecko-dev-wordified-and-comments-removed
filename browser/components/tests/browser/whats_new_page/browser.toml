@@ -29,15 +29,6 @@ have
 no
 meaning
 .
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 reason
 =
 "

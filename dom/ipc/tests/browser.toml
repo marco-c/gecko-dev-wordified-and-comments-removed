@@ -269,9 +269,6 @@ if
 =
 [
 "
-verify
-"
-"
 os
 =
 =
@@ -448,9 +445,6 @@ skip
 if
 =
 [
-"
-verify
-"
 "
 asan
 "

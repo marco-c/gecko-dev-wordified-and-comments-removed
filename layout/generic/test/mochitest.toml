@@ -1712,10 +1712,10 @@ display
 x11
 '
 "
+]
 #
 Bug
 1968678
-]
 [
 "
 test_selection_multiclick_drag

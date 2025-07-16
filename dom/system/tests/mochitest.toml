@@ -35,7 +35,12 @@ if
 =
 [
 "
+os
+=
+=
+'
 android
+'
 "
 ]
 #
@@ -70,7 +75,6 @@ android
 condprof
 "
 #
-:
 "
 Only
 focused

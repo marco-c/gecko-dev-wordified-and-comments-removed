@@ -479,6 +479,11 @@ test_peerConnection_basicAudioNATRelayTCPWithStun300
 html
 "
 ]
+scheme
+=
+"
+http
+"
 skip
 -
 if
@@ -505,11 +510,6 @@ android
 bug
 1266217
 )
-scheme
-=
-"
-http
-"
 [
 "
 test_peerConnection_basicAudioNATRelayTLS

@@ -152,15 +152,6 @@ js
 https_first_disabled
 =
 true
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 browser_smartblockembeds

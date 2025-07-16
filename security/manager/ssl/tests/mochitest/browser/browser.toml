@@ -78,15 +78,6 @@ browser_certViewer
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 browser_certificateManager
@@ -146,9 +137,6 @@ skip
 if
 =
 [
-"
-verify
-"
 "
 socketprocess_networking
 "

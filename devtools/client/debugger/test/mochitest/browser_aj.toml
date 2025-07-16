@@ -1824,6 +1824,8 @@ browser_dbg
 es
 -
 module
+-
+worker
 .
 js
 "
@@ -1835,8 +1837,6 @@ browser_dbg
 es
 -
 module
--
-worker
 .
 js
 "
@@ -1929,10 +1929,10 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1959062
-]
 [
 "
 browser_dbg

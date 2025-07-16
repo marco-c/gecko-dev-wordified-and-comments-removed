@@ -401,6 +401,7 @@ os
 win
 '
 "
+]
 #
 only
 Windows
@@ -416,7 +417,6 @@ mouse
 down
 event
 .
-]
 skip
 -
 if

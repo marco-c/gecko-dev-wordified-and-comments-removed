@@ -397,10 +397,10 @@ x86_64
 &
 xorigin
 "
+]
 #
 Bug
 1929419
-]
 [
 "
 test_mousecapture_area
@@ -644,7 +644,6 @@ if
 "
 xorigin
 "
-]
 #
 Rendering
 of
@@ -665,6 +664,7 @@ fails
 /
 passes
 inconsistently
+]
 [
 "
 test_videocontrols_clickToPlay_ariaLabel

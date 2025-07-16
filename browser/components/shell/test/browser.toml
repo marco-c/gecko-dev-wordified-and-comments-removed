@@ -44,9 +44,6 @@ if
 =
 [
 "
-verify
-"
-"
 os
 =
 =
@@ -72,10 +69,10 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1869703
-]
 [
 "
 browser_420786

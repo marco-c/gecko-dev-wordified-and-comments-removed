@@ -638,10 +638,10 @@ x11
 &
 socketprocess_networking
 "
+]
 #
 bug
 1784652
-]
 [
 "
 browser_cornerSnapping
@@ -829,10 +829,10 @@ linux
 &
 ccov
 "
+]
 #
 Bug
 1678091
-]
 [
 "
 browser_fontSize_change
@@ -1634,10 +1634,10 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1869710
-]
 [
 "
 browser_togglePositionChange

@@ -8,15 +8,6 @@ test_add_remove_dictionaries
 xhtml
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 support
 -
 files

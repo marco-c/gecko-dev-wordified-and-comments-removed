@@ -492,10 +492,10 @@ x11
 &
 a11y_checks
 "
+]
 #
 bug
 1924676
-]
 [
 "
 browser_test_reset_scaling_zoom
@@ -537,15 +537,6 @@ html
 browser_test_scrollbar_in_extension_popup_window
 .
 js
-"
-]
-skip
--
-if
-=
-[
-"
-verify
 "
 ]
 [

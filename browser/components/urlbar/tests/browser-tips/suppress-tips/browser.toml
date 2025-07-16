@@ -47,9 +47,7 @@ if
 verify
 "
 ]
-reason
-=
-"
+#
 This
 is
 a
@@ -64,7 +62,6 @@ times
 after
 startup
 .
-"
 support
 -
 files

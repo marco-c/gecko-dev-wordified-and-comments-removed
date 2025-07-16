@@ -243,15 +243,6 @@ test_bug549682
 xhtml
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 test_bug571390

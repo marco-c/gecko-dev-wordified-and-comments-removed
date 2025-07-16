@@ -2578,10 +2578,10 @@ x86_64
 &
 opt
 "
+]
 #
 Bug
 1781577
-]
 [
 "
 test_SeekTwice_mp4

@@ -242,10 +242,10 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1929441
-]
 [
 "
 test_input_color_picker_datalist
@@ -515,10 +515,10 @@ x86_64
 &
 debug
 "
+]
 #
 Bug
 1484442
-]
 [
 "
 test_input_number_placeholder_shown

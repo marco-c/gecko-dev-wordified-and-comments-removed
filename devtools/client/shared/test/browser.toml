@@ -613,6 +613,9 @@ if
 verify
 "
 ]
+#
+Bug
+1975963
 [
 "
 browser_filter
@@ -783,6 +786,7 @@ opt
 &
 a11y_checks
 "
+]
 #
 Bug
 1849028
@@ -796,7 +800,6 @@ and
 /
 or
 labeled
-]
 [
 "
 browser_filter
@@ -1321,15 +1324,6 @@ browser_layoutHelpers_getBoxQuads1
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 browser_layoutHelpers_getBoxQuads2
@@ -1618,6 +1612,7 @@ opt
 &
 a11y_checks
 "
+]
 #
 Bug
 1849028
@@ -1631,7 +1626,6 @@ and
 /
 or
 labeled
-]
 [
 "
 browser_treeWidget_mouse_interaction
@@ -1732,6 +1726,7 @@ opt
 &
 a11y_checks
 "
+]
 #
 Bug
 1849028
@@ -1745,4 +1740,3 @@ and
 /
 or
 labeled
-]

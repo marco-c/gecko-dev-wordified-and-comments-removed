@@ -88,10 +88,10 @@ x11
 &
 opt
 "
+]
 #
 Bug
 1962438
-]
 [
 "
 test_bug428405
@@ -877,15 +877,6 @@ mac
 Cocoa
 widget
 test
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 test_native_menus

@@ -8,12 +8,3 @@ test_bug544442_checkCert
 xhtml
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]

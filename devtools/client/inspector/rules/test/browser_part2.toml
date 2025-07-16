@@ -1898,6 +1898,7 @@ processor
 x86_64
 '
 "
+]
 #
 Bug
 1945519
@@ -1906,7 +1907,6 @@ failing
 on
 windows
 .
-]
 [
 "
 browser_rules_shadowdom_slot_rules

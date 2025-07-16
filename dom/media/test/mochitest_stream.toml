@@ -7501,6 +7501,7 @@ mac
 &
 debug
 "
+]
 #
 Bug
 1756880
@@ -7512,7 +7513,6 @@ high
 frequency
 shutdown
 hang
-]
 [
 "
 test_streams_tracks

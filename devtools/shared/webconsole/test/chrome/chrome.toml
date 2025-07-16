@@ -239,15 +239,6 @@ test_network_get
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 test_network_post

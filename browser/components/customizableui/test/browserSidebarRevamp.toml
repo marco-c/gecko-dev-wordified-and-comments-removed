@@ -90,12 +90,3 @@ browser_sidebar_toggle
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]

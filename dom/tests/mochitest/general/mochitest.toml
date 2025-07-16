@@ -850,9 +850,6 @@ if
 =
 [
 "
-verify
-"
-"
 http3
 "
 "
@@ -1027,9 +1024,6 @@ skip
 if
 =
 [
-"
-verify
-"
 "
 http3
 "

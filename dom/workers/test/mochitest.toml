@@ -1604,6 +1604,7 @@ os
 android
 '
 "
+]
 #
 since
 geckoview
@@ -1612,7 +1613,6 @@ not
 support
 multiple
 tabs
-]
 [
 "
 test_worker_interfaces

@@ -128,15 +128,6 @@ test_bug746272
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 [
 "
 test_cookieBlock

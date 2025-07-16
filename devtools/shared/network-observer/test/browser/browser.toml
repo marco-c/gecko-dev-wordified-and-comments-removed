@@ -159,6 +159,7 @@ x86_64
 &
 debug
 "
+]
 #
 Disabled
 for
@@ -168,7 +169,6 @@ in
 Bug
 1873571
 .
-]
 [
 "
 browser_networkobserver_data_url

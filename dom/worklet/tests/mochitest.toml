@@ -284,15 +284,6 @@ test_import_with_cache
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
-"
-]
 support
 -
 files
