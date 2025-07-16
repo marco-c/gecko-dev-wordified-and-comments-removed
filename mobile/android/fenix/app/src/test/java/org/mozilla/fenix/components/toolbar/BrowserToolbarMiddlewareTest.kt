@@ -2061,6 +2061,12 @@ shouldUseSimpleToolbar
 }
 returns
 true
+every
+{
+isTabStripEnabled
+}
+returns
+false
 }
 private
 val
