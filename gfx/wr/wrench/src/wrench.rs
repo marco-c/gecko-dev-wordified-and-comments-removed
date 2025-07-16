@@ -1370,6 +1370,17 @@ DISABLE_BATCHING
 no_batch
 )
 ;
+debug_flags
+.
+set
+(
+DebugFlags
+:
+:
+MISSING_SNAPSHOT_PINK
+true
+)
+;
 let
 callbacks
 =
