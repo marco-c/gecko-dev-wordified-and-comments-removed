@@ -195,7 +195,6 @@ src
 ;
 [
 Throws
-ChromeOnly
 ]
 readonly
 attribute
