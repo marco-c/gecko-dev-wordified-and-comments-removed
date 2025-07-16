@@ -629,12 +629,6 @@ xlarge
 -
 noscratch
 "
-                
-"
-large
--
-dw
-"
             
 )
         
