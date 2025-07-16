@@ -289,6 +289,10 @@ fuzzy
 if
 (
 Android
+&
+&
+!
+isolated_process
 25
 -
 255
@@ -467,6 +471,11 @@ webm
 #
 Bug
 1934894
+Bug
+1709923
+for
+isolated
+process
 fuzzy
 -
 if
@@ -541,6 +550,12 @@ winWidget
 &
 &
 isCoverageBuild
+)
+skip
+-
+if
+(
+isolated_process
 )
 fuzzy
 (
@@ -710,6 +725,11 @@ webm
 #
 Bug
 1934894
+Bug
+1709923
+for
+isolated
+process
 skip
 -
 if
