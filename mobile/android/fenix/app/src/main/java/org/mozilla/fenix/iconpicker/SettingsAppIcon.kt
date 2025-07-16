@@ -191,7 +191,6 @@ object
 companion
 object
 {
-private
 val
 appDefault
 =
