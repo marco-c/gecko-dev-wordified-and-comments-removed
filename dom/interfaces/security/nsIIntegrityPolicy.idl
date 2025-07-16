@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsISupports
+nsISerializable
 .
 idl
 "
@@ -82,7 +82,7 @@ uuid
 interface
 nsIIntegrityPolicy
 :
-nsISupports
+nsISerializable
 {
 }
 ;

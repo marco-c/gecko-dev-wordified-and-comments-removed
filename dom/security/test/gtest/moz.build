@@ -13,6 +13,11 @@ TestFilenameEvalParser
 cpp
 "
 "
+TestIntegrityPolicy
+.
+cpp
+"
+"
 TestSecureContext
 .
 cpp
