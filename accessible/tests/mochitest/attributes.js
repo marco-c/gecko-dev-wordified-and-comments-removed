@@ -1077,6 +1077,7 @@ InspectorUtils
 colorToRGBA
 (
 aColor
+document
 )
 ;
 return
