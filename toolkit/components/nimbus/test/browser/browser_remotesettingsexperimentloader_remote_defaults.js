@@ -2708,11 +2708,6 @@ flushStore
 (
 )
 ;
-delete
-NimbusFeatures
-.
-bar
-;
 featureCleanup
 (
 )
