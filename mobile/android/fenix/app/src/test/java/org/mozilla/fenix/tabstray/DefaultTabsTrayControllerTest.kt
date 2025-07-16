@@ -7427,11 +7427,12 @@ spyk
 (
 DefaultBrowsingModeManager
 (
-initialMode
+intent
 =
-BrowsingMode
-.
-Private
+null
+store
+=
+browserStore
 settings
 =
 settings
