@@ -1595,7 +1595,7 @@ addonId
 val
 constraints
 =
-getWorkerConstrains
+getWorkerConstraints
 (
 )
 return
@@ -1657,7 +1657,7 @@ addonId
 val
 constraints
 =
-getWorkerConstrains
+getWorkerConstraints
 (
 )
 return
@@ -1704,7 +1704,7 @@ build
 VisibleForTesting
 internal
 fun
-getWorkerConstrains
+getWorkerConstraints
 (
 )
 =

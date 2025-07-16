@@ -2051,7 +2051,7 @@ assertEquals
 (
 updater
 .
-getWorkerConstrains
+getWorkerConstraints
 (
 )
 workRequest
