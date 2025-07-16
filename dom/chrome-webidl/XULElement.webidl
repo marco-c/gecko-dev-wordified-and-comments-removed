@@ -276,6 +276,10 @@ open
 ;
 XULElement
 includes
+ElementOffsetAttributes
+;
+XULElement
+includes
 GlobalEventHandlers
 ;
 XULElement
