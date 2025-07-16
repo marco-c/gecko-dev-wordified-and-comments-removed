@@ -270,7 +270,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 config
@@ -416,7 +416,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 config
@@ -570,7 +570,7 @@ b
 -
 linux
 -
-gcp
+amd
 run
 :
 config

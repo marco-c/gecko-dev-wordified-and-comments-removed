@@ -68,7 +68,7 @@ b
 -
 linux
 -
-gcp
+amd
 linux64
 /
 opt
@@ -2401,7 +2401,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -3700,7 +3700,9 @@ b
 -
 linux
 -
-gcp
+xlarge
+-
+amd
 worker
 :
 max
@@ -3924,15 +3926,6 @@ Bpgo
 B
 )
 worker
--
-type
-:
-b
--
-linux
--
-gcp
-worker
 :
 max
 -
@@ -4129,15 +4122,6 @@ Bpgo
 (
 repr
 )
-worker
--
-type
-:
-b
--
-linux
--
-gcp
 worker
 :
 max
@@ -4606,7 +4590,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -7703,7 +7687,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 env
@@ -8196,7 +8180,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -8449,7 +8433,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -10462,7 +10446,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
@@ -10758,7 +10742,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 max
