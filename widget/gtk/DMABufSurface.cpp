@@ -723,6 +723,7 @@ StaticMutex
 sSnapshotContextMutex
 MOZ_UNANNOTATED
 ;
+MOZ_RUNINIT
 static
 Atomic
 <
@@ -730,7 +731,9 @@ int
 >
 gNewSurfaceUID
 (
-1
+getpid
+(
+)
 )
 ;
 RefPtr
