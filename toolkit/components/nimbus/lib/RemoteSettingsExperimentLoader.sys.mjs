@@ -527,6 +527,9 @@ disallowedFeatureIds
 "
 prefFlips
 "
+"
+newtabTrainhopAddon
+"
 ]
 }
 [
@@ -539,6 +542,9 @@ allowedFeatureIds
 [
 "
 prefFlips
+"
+"
+newtabTrainhopAddon
 "
 ]
 }

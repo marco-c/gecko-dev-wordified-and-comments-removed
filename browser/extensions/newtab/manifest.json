@@ -61,6 +61,11 @@ strict_min_version
 }
 }
 "
+hidden
+"
+:
+true
+"
 background
 "
 :
