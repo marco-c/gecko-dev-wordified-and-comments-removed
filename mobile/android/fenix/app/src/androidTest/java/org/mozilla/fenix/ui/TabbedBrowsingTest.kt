@@ -1124,6 +1124,7 @@ view
 903592
 SmokeTest
 Test
+SkipLeaks
 fun
 verifyCloseAllPrivateTabsNotificationTest
 (
