@@ -528,6 +528,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -606,6 +609,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -687,6 +693,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -766,6 +775,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -857,6 +869,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -935,6 +950,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -1016,6 +1034,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -1096,6 +1117,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 false
 )
 verify
@@ -1152,6 +1176,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 true
 )
 verify
@@ -1211,6 +1238,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 true
 )
 verify
@@ -1259,6 +1289,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 true
 )
 verify
@@ -1321,6 +1354,9 @@ toolbarViewSpy
 .
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 true
 )
 verify

@@ -632,6 +632,18 @@ position
 *
 *
 param
+toolbarPosition
+[
+ToolbarPosition
+]
+to
+set
+the
+toolbar
+to
+.
+*
+param
 shouldDisableScroll
 force
 disable
@@ -650,6 +662,9 @@ checks
 fun
 setToolbarBehavior
 (
+toolbarPosition
+:
+ToolbarPosition
 shouldDisableScroll
 :
 Boolean
@@ -659,8 +674,6 @@ false
 {
 when
 (
-settings
-.
 toolbarPosition
 )
 {

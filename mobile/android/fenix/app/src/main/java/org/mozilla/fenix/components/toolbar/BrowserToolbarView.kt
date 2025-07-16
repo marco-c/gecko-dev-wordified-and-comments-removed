@@ -719,6 +719,9 @@ apply
 {
 setToolbarBehavior
 (
+settings
+.
+toolbarPosition
 )
 setDisplayToolbarColors
 (

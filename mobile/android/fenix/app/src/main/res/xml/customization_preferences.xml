@@ -527,7 +527,7 @@ app
 sharedPreferenceKey
 =
 "
-pref_key_toolbar_expanded
+pref_key_toolbar_simple
 "
 app
 :
