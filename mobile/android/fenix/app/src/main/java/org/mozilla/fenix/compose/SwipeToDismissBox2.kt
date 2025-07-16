@@ -1631,7 +1631,7 @@ state
 .
 anchoredDraggableState
 .
-currentValue
+settledValue
 )
 {
 val
@@ -1641,7 +1641,7 @@ state
 .
 anchoredDraggableState
 .
-currentValue
+settledValue
 when
 (
 value
