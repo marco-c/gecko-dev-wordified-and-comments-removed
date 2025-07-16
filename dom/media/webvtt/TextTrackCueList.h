@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -266,6 +273,13 @@ TextTrackCue
 >
 >
 mList
+;
+nsTHashSet
+<
+TextTrackCue
+*
+>
+mCueSet
 ;
 }
 ;
