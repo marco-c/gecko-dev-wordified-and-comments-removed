@@ -162,4 +162,13 @@ RECOMMENDED_ADDON_ITEM
 .
 title
 "
+const
+val
+WEB_EXTENSION_ITEM
+=
+"
+webExtension
+.
+item
+"
 }
