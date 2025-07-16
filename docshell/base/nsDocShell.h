@@ -2159,7 +2159,6 @@ aPrincipalToInherit
 ;
 private
 :
-MOZ_CAN_RUN_SCRIPT
 nsresult
 DoURILoad
 (
@@ -2179,19 +2178,6 @@ nsIRequest
 *
 aRequest
 )
-;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-PerformTrustedTypesPreNavigationCheck
-(
-nsDocShellLoadState
-*
-aLoadState
-nsGlobalWindowInner
-*
-aWindow
-)
-const
 ;
 static
 nsresult
