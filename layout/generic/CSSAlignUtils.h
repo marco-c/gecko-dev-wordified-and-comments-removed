@@ -58,6 +58,12 @@ AligningMarginBox
 <
 <
 3
+LastBaselineSharingGroup
+=
+1
+<
+<
+4
 }
 ;
 static
