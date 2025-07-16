@@ -4016,8 +4016,6 @@ ISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -4084,8 +4082,6 @@ MinISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -4264,8 +4260,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 -
 >

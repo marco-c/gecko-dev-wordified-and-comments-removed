@@ -808,12 +808,13 @@ StylePosition
 ISize
 (
 wm
-StyleDisplay
+AnchorPosResolutionParams
+:
+:
+From
 (
+this
 )
--
->
-mPosition
 )
 -
 >
