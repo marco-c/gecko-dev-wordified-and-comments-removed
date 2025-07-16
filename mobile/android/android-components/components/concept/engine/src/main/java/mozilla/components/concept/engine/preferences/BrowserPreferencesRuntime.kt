@@ -66,12 +66,6 @@ concept
 engine
 .
 preferences
-import
-mozilla
-.
-components
-.
-ExperimentalAndroidComponentsApi
 private
 const
 val
@@ -246,7 +240,6 @@ occurs
 .
 *
 /
-ExperimentalAndroidComponentsApi
 fun
 getBrowserPref
 (
@@ -392,7 +385,6 @@ occurs
 .
 *
 /
-ExperimentalAndroidComponentsApi
 fun
 setBrowserPref
 (
@@ -540,7 +532,6 @@ occurs
 .
 *
 /
-ExperimentalAndroidComponentsApi
 fun
 setBrowserPref
 (
@@ -688,7 +679,6 @@ occurs
 .
 *
 /
-ExperimentalAndroidComponentsApi
 fun
 setBrowserPref
 (
@@ -799,7 +789,6 @@ occurs
 .
 *
 /
-ExperimentalAndroidComponentsApi
 fun
 clearBrowserUserPref
 (
