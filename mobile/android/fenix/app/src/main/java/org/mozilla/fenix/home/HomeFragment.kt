@@ -3590,11 +3590,6 @@ sessionControlView
 =
 SessionControlView
 (
-containerView
-=
-binding
-.
-sessionControlRecyclerView
 interactor
 =
 sessionControlInteractor
