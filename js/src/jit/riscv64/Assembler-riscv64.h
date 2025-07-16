@@ -2978,7 +2978,7 @@ rm_
 (
 freg
 .
-code
+encoding
 (
 )
 )
@@ -3417,7 +3417,7 @@ FromCode
 (
 fa0
 .
-code
+encoding
 (
 )
 +

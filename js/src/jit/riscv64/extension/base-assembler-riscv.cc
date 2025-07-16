@@ -322,7 +322,7 @@ opcode
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -340,7 +340,7 @@ kFunct3Shift
 (
 rs1
 .
-code
+encoding
 (
 )
 <
@@ -351,7 +351,7 @@ kRs1Shift
 (
 rs2
 .
-code
+encoding
 (
 )
 <
@@ -432,7 +432,7 @@ kFunct3Shift
 (
 rs1
 .
-code
+encoding
 (
 )
 <
@@ -506,7 +506,7 @@ opcode
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -598,7 +598,7 @@ opcode
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -616,7 +616,7 @@ kFunct3Shift
 (
 rs1
 .
-code
+encoding
 (
 )
 <
@@ -708,7 +708,7 @@ kFunct3Shift
 (
 rs1
 .
-code
+encoding
 (
 )
 <
@@ -719,7 +719,7 @@ kRs1Shift
 (
 rs2
 .
-code
+encoding
 (
 )
 <
@@ -889,7 +889,7 @@ opcode
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -907,7 +907,7 @@ kFunct3Shift
 (
 rs1
 .
-code
+encoding
 (
 )
 <
@@ -918,7 +918,7 @@ kRs1Shift
 (
 rs2
 .
-code
+encoding
 (
 )
 <
@@ -936,7 +936,7 @@ kFunct2Shift
 (
 rs3
 .
-code
+encoding
 (
 )
 <
@@ -1280,7 +1280,7 @@ opcode
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -1659,7 +1659,7 @@ kRs1Shift
 (
 rs2
 .
-code
+encoding
 (
 )
 <
@@ -2328,7 +2328,7 @@ uimm6
 (
 rd
 .
-code
+encoding
 (
 )
 <
@@ -2543,7 +2543,7 @@ uimm6
 (
 rs2
 .
-code
+encoding
 (
 )
 <
@@ -2718,7 +2718,7 @@ uimm5
 (
 rd
 .
-code
+encoding
 (
 )
 &
@@ -2969,7 +2969,7 @@ uimm5
 (
 rs2
 .
-code
+encoding
 (
 )
 &

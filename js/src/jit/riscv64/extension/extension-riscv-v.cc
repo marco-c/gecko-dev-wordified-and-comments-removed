@@ -2775,7 +2775,7 @@ kRvvVmShift
 (
 fd
 .
-code
+encoding
 (
 )
 &
@@ -2992,7 +2992,7 @@ kRvvVdShift
 (
 fs1
 .
-code
+encoding
 (
 )
 &
