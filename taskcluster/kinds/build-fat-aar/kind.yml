@@ -169,7 +169,7 @@ b
 -
 linux
 -
-gcp
+amd
 use
 -
 python
@@ -1037,7 +1037,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 env
@@ -1306,7 +1306,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 worker
 :
 env

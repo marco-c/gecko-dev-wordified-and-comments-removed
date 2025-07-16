@@ -307,7 +307,7 @@ b
 -
 linux
 -
-gcp
+amd
 worker
 :
 env

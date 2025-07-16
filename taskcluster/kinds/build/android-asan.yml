@@ -479,7 +479,7 @@ linux
 -
 large
 -
-gcp
+amd
 worker
 :
 env
