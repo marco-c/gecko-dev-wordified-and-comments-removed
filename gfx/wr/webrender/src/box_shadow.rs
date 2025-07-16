@@ -194,6 +194,7 @@ gpu_types
 BoxShadowStretchMode
 TransformPaletteId
 UvRectKind
+BlurEdgeMode
 }
 ;
 use
@@ -805,6 +806,12 @@ Color
 blur_region
 :
 task_size
+edge_mode
+:
+BlurEdgeMode
+:
+:
+Duplicate
 }
 )
 )
@@ -858,6 +865,12 @@ Color
 blur_region
 :
 task_size
+edge_mode
+:
+BlurEdgeMode
+:
+:
+Duplicate
 }
 )
 )

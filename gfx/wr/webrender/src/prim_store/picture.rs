@@ -46,6 +46,15 @@ use
 crate
 :
 :
+gpu_types
+:
+:
+BlurEdgeMode
+;
+use
+crate
+:
+:
 intern
 :
 :
@@ -3475,6 +3484,7 @@ Blur
 Au
 Au
 bool
+BlurEdgeMode
 )
 Brightness
 (
@@ -3816,9 +3826,11 @@ Blur
 width
 height
 should_inflate
+edge_mode
 }
 =
 >
+{
 PictureCompositeKey
 :
 :
@@ -3839,7 +3851,9 @@ from_f32_px
 height
 )
 should_inflate
+edge_mode
 )
+}
 Filter
 :
 :

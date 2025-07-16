@@ -295,6 +295,7 @@ gpu_types
 {
 UvRectKind
 ZBufferId
+BlurEdgeMode
 }
 ;
 use
@@ -17149,6 +17150,8 @@ Blur
 width
 height
 should_inflate
+.
+.
 }
 )
 =
@@ -17951,6 +17954,8 @@ Blur
 width
 height
 should_inflate
+.
+.
 }
 )
 =
@@ -25269,6 +25274,7 @@ Blur
 {
 width
 height
+edge_mode
 .
 .
 }
@@ -25496,6 +25502,7 @@ original_size
 to_i32
 (
 )
+edge_mode
 )
 }
 )
@@ -25740,6 +25747,10 @@ size
 to_i32
 (
 )
+BlurEdgeMode
+:
+:
+Duplicate
 )
 ;
 }
