@@ -2090,7 +2090,7 @@ ipc
 .
 processCount
 "
-4
+2
 )
 ;
 final
