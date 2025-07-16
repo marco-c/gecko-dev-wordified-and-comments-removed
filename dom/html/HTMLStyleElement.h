@@ -413,6 +413,14 @@ nsIContent
 aContent
 )
 ;
+nsresult
+CopyInnerTo
+(
+HTMLStyleElement
+*
+aDest
+)
+;
 RefPtr
 <
 nsDOMTokenList
