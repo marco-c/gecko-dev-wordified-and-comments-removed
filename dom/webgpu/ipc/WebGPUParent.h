@@ -775,10 +775,7 @@ LoseDevice
 const
 RawId
 aDeviceId
-Maybe
-<
 uint8_t
->
 aReason
 const
 nsACString
