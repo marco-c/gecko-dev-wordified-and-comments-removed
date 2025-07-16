@@ -357,7 +357,7 @@ assertion
 .
 PositionAssertions
 .
-isPartiallyBelow
+isCompletelyAbove
 import
 androidx
 .
@@ -369,7 +369,7 @@ assertion
 .
 PositionAssertions
 .
-isTopAlignedWith
+isPartiallyBelow
 import
 androidx
 .
@@ -4538,7 +4538,7 @@ homepageView
 }
 else
 {
-isTopAlignedWith
+isCompletelyAbove
 (
 withId
 (
@@ -4546,7 +4546,7 @@ R
 .
 id
 .
-homeLayout
+homeAppBar
 )
 )
 }
