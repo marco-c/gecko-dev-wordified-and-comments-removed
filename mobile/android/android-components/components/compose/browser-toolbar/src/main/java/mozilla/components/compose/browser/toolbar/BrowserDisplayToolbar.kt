@@ -1168,11 +1168,6 @@ url
 pageOrigin
 .
 url
-registrableDomainIndexRange
-=
-pageOrigin
-.
-registrableDomainIndexRange
 title
 =
 pageOrigin
