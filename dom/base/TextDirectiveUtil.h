@@ -96,6 +96,9 @@ class
 nsINode
 ;
 class
+nsFind
+;
+class
 nsRange
 ;
 struct
@@ -228,6 +231,9 @@ nsRange
 >
 FindStringInRange
 (
+nsFind
+*
+aFinder
 const
 RangeBoundary
 &
@@ -244,14 +250,6 @@ bool
 aWordStartBounded
 bool
 aWordEndBounded
-nsContentUtils
-:
-:
-NodeIndexCache
-*
-aCache
-=
-nullptr
 )
 ;
 static

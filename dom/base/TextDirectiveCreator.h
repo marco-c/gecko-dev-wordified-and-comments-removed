@@ -108,8 +108,6 @@ virtual
 TextDirectiveCreator
 (
 )
-=
-default
 ;
 protected
 :
@@ -421,6 +419,15 @@ AbstractRange
 >
 >
 mRange
+;
+NotNull
+<
+RefPtr
+<
+nsFind
+>
+>
+mFinder
 ;
 RefPtr
 <
