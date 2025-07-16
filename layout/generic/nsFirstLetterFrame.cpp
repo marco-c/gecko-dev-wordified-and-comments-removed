@@ -815,8 +815,6 @@ LogicalSide
 BStart
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -858,8 +856,6 @@ LogicalSide
 BEnd
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 return
