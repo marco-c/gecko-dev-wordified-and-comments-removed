@@ -36,6 +36,7 @@ operator
 (
 ContentParent
 *
+&
 aProcess
 )
 {
@@ -57,6 +58,10 @@ aProcess
 )
 )
 {
+aProcess
+=
+nullptr
+;
 process
 -
 >
@@ -77,6 +82,7 @@ operator
 (
 ThreadsafeContentParentHandle
 *
+&
 aHandle
 )
 {
@@ -94,6 +100,10 @@ aHandle
 )
 )
 {
+aHandle
+=
+nullptr
+;
 NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
