@@ -9530,6 +9530,12 @@ add_logging_group
 (
 self
 )
+        
+self
+.
+build_args
+(
+)
     
 property
     
@@ -9616,9 +9622,6 @@ build_args
 (
 self
 args
-=
-None
-namespae
 =
 None
 )
@@ -9895,12 +9898,6 @@ namespace
 None
 )
 :
-        
-self
-.
-build_args
-(
-)
         
 return
 super

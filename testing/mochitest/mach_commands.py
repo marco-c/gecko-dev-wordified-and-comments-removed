@@ -1116,12 +1116,6 @@ MochitestArgumentParser
 (
 )
     
-parser
-.
-build_args
-(
-)
-    
 return
 parser
 def
