@@ -4273,6 +4273,17 @@ String
 return
 when
 {
+args
+.
+accesspoint
+=
+=
+MenuAccessPoint
+.
+Home
+-
+>
+null
 isExtensionsProcessDisabled
 -
 >

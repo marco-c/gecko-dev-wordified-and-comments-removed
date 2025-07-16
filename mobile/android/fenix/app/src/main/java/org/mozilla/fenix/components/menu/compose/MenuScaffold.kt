@@ -629,7 +629,7 @@ Arrangement
 .
 spacedBy
 (
-16
+12
 .
 dp
 )
