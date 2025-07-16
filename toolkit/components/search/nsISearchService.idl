@@ -2948,7 +2948,7 @@ t
 ship
 any
 search
-plugin
+engine
 this
 should
 never
@@ -3003,6 +3003,7 @@ engine
 .
 *
 /
+readonly
 attribute
 nsISearchEngine
 defaultEngine
@@ -3044,6 +3045,7 @@ defaultEngine
 .
 *
 /
+readonly
 attribute
 nsISearchEngine
 defaultPrivateEngine

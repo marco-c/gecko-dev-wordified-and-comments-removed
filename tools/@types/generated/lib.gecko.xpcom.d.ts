@@ -62369,6 +62369,7 @@ appPrivateDefaultEngine
 :
 nsISearchEngine
 ;
+readonly
 defaultEngine
 :
 nsISearchEngine
@@ -62397,6 +62398,7 @@ Promise
 any
 >
 ;
+readonly
 defaultPrivateEngine
 :
 nsISearchEngine
