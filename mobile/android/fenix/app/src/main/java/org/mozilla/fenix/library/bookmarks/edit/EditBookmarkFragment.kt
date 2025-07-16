@@ -1184,10 +1184,6 @@ context
 "
 "
 }
-showUrlCopiedSnackbar
-=
-{
-}
 getBrowsingMode
 =
 {
