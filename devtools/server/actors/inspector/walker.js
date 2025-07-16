@@ -2910,9 +2910,7 @@ true
 }
 inlineTextChild
 (
-{
 rawNode
-}
 )
 {
 if
@@ -8674,6 +8672,8 @@ this
 inlineTextChild
 (
 targetActor
+.
+rawNode
 )
 ;
 if
@@ -8804,6 +8804,8 @@ this
 inlineTextChild
 (
 parentActor
+.
+rawNode
 )
 ;
 this
