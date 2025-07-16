@@ -728,7 +728,7 @@ Provides
 a
 type
 to
-diferentiate
+differentiate
 between
 the
 two
