@@ -5923,9 +5923,6 @@ const
 uint32_t
 &
 aCacheKey
-nsIPrincipal
-*
-aPartitionedPrincipal
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
