@@ -319,9 +319,13 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 "
 FEATURE_FOLLOW_SECTION_BUTTON
 "
+}
 }
 )
 )
@@ -394,9 +398,13 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 "
 FEATURE_FOLLOW_SECTION_BUTTON
 "
+}
 }
 )
 )

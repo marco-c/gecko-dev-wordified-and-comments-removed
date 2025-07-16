@@ -177,7 +177,11 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 FEATURE_ID
+}
 }
 )
 )
@@ -262,7 +266,11 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 FEATURE_ID
+}
 }
 )
 )
