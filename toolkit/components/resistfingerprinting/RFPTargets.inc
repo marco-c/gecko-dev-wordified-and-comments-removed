@@ -350,6 +350,11 @@ DiskStorageLimit
 )
 ITEM_VALUE
 (
+WebCodecs
+71
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

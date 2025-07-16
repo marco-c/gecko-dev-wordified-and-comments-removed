@@ -15349,6 +15349,11 @@ false
 }
 if
 (
+NS_IsMainThread
+(
+)
+&
+&
 BasePrincipal
 :
 :
