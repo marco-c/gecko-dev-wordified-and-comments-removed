@@ -575,6 +575,18 @@ mozilla
 org
 /
 1874963
+-
+https
+:
+/
+/
+bugzilla
+.
+mozilla
+.
+org
+/
+1974141
 notification_emails
 :
 -
@@ -584,7 +596,7 @@ mozilla
 com
 expires
 :
-143
+149
 labels
 :
 -
