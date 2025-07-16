@@ -7516,7 +7516,7 @@ replace
 tabGroup
 targetTab
 triggeringPrincipal
-csp
+policyContainer
 userContextId
 fromExternal
 }
@@ -7785,7 +7785,7 @@ postDatas
 0
 ]
 triggeringPrincipal
-csp
+policyContainer
 }
 )
 ;
@@ -7825,7 +7825,7 @@ triggeringPrincipal
 bulkOrderedOpen
 :
 multiple
-csp
+policyContainer
 fromExternal
 tabGroup
 }
@@ -7920,7 +7920,7 @@ triggeringPrincipal
 bulkOrderedOpen
 :
 true
-csp
+policyContainer
 fromExternal
 tabGroup
 }
@@ -10740,7 +10740,7 @@ skipBackgroundNotify
 tabGroup
 triggeringPrincipal
 userContextId
-csp
+policyContainer
 skipLoad
 =
 createLazyBrowser
@@ -11300,7 +11300,7 @@ skipLoad
 referrerInfo
 charset
 postData
-csp
+policyContainer
 globalHistoryOptions
 triggeringRemoteType
 schemelessInput
@@ -13026,7 +13026,7 @@ skipLoad
 referrerInfo
 charset
 postData
-csp
+policyContainer
 globalHistoryOptions
 triggeringRemoteType
 schemelessInput
@@ -13215,7 +13215,7 @@ triggeringPrincipal
 referrerInfo
 charset
 postData
-csp
+policyContainer
 globalHistoryOptions
 triggeringRemoteType
 schemelessInput

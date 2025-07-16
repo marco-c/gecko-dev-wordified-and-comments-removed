@@ -14042,9 +14042,6 @@ getSystemPrincipal
 {
 }
 )
-csp
-:
-null
 resolveOnContentBrowserCreated
 opener
 :

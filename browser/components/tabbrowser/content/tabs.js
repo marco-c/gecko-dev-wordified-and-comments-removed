@@ -6793,13 +6793,13 @@ url
 )
 ;
 let
-csp
+policyContainer
 =
 Services
 .
 droppedLinkHandler
 .
-getCsp
+getPolicyContainer
 (
 event
 )
@@ -6911,7 +6911,7 @@ newIndex
 tabGroup
 userContextId
 triggeringPrincipal
-csp
+policyContainer
 }
 )
 ;

@@ -329,7 +329,7 @@ postData
 originPrincipal
 originStoragePrincipal
 triggeringPrincipal
-csp
+policyContainer
 resolveOnContentBrowserCreated
 }
 =
@@ -798,7 +798,7 @@ sa
 .
 appendElement
 (
-csp
+policyContainer
 )
 ;
 let
@@ -1314,7 +1314,7 @@ originStoragePrincipal
 let
 {
 triggeringPrincipal
-csp
+policyContainer
 referrerInfo
 postData
 userContextId
@@ -1333,7 +1333,7 @@ fixupAndLoadURIString
 url
 {
 triggeringPrincipal
-csp
+policyContainer
 loadFlags
 referrerInfo
 postData
@@ -2321,14 +2321,14 @@ load
 *
 param
 {
-nsIContentSecurityPolicy
+nsIPolicyContainer
 }
 params
 .
-csp
+policyContainer
 *
 The
-CSP
+policyContainer
 that
 should
 apply
@@ -2580,7 +2580,7 @@ triggeringPrincipal
 originPrincipal
 originStoragePrincipal
 triggeringRemoteType
-csp
+policyContainer
 resolveOnNewTabCreated
 resolveOnContentBrowserCreated
 globalHistoryOptions
@@ -3382,7 +3382,7 @@ originStoragePrincipal
 triggeringPrincipal
 allowInheritPrincipal
 triggeringRemoteType
-csp
+policyContainer
 forceAllowDataURI
 focusUrlBar
 openerBrowser

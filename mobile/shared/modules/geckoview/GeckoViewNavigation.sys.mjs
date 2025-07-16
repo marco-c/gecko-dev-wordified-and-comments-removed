@@ -1173,7 +1173,7 @@ LOAD_FLAGS_BYPASS_LOAD_URI_DELEGATE
 let
 triggeringPrincipal
 referrerInfo
-csp
+policyContainer
 ;
 if
 (
@@ -1200,13 +1200,13 @@ browser
 .
 contentPrincipal
 ;
-csp
+policyContainer
 =
 referrerWindow
 .
 browser
 .
-csp
+policyContainer
 ;
 const
 {
@@ -1785,7 +1785,7 @@ null
 /
 /
 /
-csp
+policyContainer
 is
 only
 present
@@ -1814,7 +1814,7 @@ triggeringPrincipal
 headers
 :
 additionalHeaders
-csp
+policyContainer
 textDirectiveUserActivation
 schemelessInput
 }
@@ -2338,6 +2338,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
+aPolicyContainer
 )
 {
 debug
@@ -2833,7 +2834,7 @@ openWindowInfo
 where
 flags
 triggeringPrincipal
-csp
+policyContainer
 referrerInfo
 =
 null
@@ -3000,7 +3001,7 @@ loadURI
 uri
 {
 triggeringPrincipal
-csp
+policyContainer
 referrerInfo
 hasValidUserGestureActivation
 :
@@ -3036,7 +3037,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 )
 {
 const
@@ -3062,9 +3063,9 @@ aFlags
 triggeringPrincipal
 :
 aTriggeringPrincipal
-csp
+policyContainer
 :
-aCsp
+aPolicyContainer
 }
 )
 ;
@@ -3117,11 +3118,11 @@ triggeringPrincipal
 aParams
 .
 triggeringPrincipal
-csp
+policyContainer
 :
 aParams
 .
-csp
+policyContainer
 referrerInfo
 :
 aParams

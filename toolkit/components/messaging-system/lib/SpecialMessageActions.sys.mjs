@@ -2078,9 +2078,6 @@ createNullPrincipal
 {
 }
 )
-csp
-:
-null
 resolveOnContentBrowserCreated
 :
 resolve
@@ -3801,9 +3798,6 @@ createNullPrincipal
 {
 }
 )
-csp
-:
-null
 }
 )
 ;
@@ -4413,9 +4407,6 @@ createNullPrincipal
 {
 }
 )
-csp
-:
-null
 }
 )
 ;

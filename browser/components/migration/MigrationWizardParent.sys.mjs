@@ -4992,9 +4992,6 @@ createNullPrincipal
 {
 }
 )
-csp
-:
-null
 }
 )
 ;

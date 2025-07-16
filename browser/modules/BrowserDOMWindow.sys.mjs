@@ -436,7 +436,7 @@ aName
 =
 "
 "
-aCsp
+aPolicyContainer
 =
 null
 aSkipLoad
@@ -759,9 +759,9 @@ aOpenerBrowser
 name
 :
 aName
-csp
+policyContainer
 :
-aCsp
+aPolicyContainer
 skipLoad
 :
 aSkipLoad
@@ -812,7 +812,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 )
 {
 return
@@ -825,7 +825,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 true
 )
 ;
@@ -837,7 +837,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 )
 {
 if
@@ -886,7 +886,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 false
 )
 ;
@@ -898,7 +898,7 @@ aOpenWindowInfo
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
+aPolicyContainer
 aSkipLoad
 )
 {
@@ -1435,7 +1435,7 @@ null
 null
 aTriggeringPrincipal
 null
-aCsp
+aPolicyContainer
 aOpenWindowInfo
 )
 ;
@@ -1690,7 +1690,7 @@ embedderElement
 aTriggeringPrincipal
 "
 "
-aCsp
+aPolicyContainer
 aSkipLoad
 aWhere
 )
@@ -1903,9 +1903,9 @@ spec
 triggeringPrincipal
 :
 aTriggeringPrincipal
-csp
+policyContainer
 :
-aCsp
+aPolicyContainer
 loadFlags
 referrerInfo
 }
@@ -2170,7 +2170,7 @@ triggeringPrincipal
 aName
 aParams
 .
-csp
+policyContainer
 aSkipLoad
 aWhere
 )

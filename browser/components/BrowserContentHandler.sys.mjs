@@ -2624,7 +2624,7 @@ gBrowser
 .
 selectedBrowser
 .
-csp
+policyContainer
 )
 .
 catch

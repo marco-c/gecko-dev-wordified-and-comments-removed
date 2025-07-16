@@ -1473,7 +1473,7 @@ true
 )
 ;
 }
-getCsp
+getPolicyContainer
 (
 aEvent
 )
@@ -1493,7 +1493,7 @@ aEvent
 .
 dataTransfer
 .
-mozCSP
+policyContainer
 !
 =
 =
@@ -1505,7 +1505,7 @@ aEvent
 .
 dataTransfer
 .
-mozCSP
+policyContainer
 ;
 }
 if
@@ -1563,7 +1563,7 @@ Use
 sourceNode
 '
 s
-csp
+policyContainer
 only
 if
 the
@@ -1583,7 +1583,7 @@ browser
 the
 actual
 triggering
-csp
+policyContainer
 may
 be
 differ
@@ -1591,14 +1591,14 @@ than
 sourceNode
 '
 s
-csp
+policyContainer
 /
 /
 since
 sourceNode
 '
 s
-csp
+policyContainer
 is
 top
 level
@@ -1619,12 +1619,12 @@ a
 frame
 with
 different
-csp
+policyContainer
 .
 return
 sourceNode
 .
-csp
+policyContainer
 ;
 }
 return

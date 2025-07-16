@@ -73,7 +73,7 @@ idl
 #
 include
 "
-nsIContentSecurityPolicy
+nsIPolicyContainer
 .
 idl
 "
@@ -603,7 +603,7 @@ event
 aEvent
 determines
 the
-CSP
+policyContainer
 for
 the
 event
@@ -613,8 +613,8 @@ it
 .
 *
 /
-nsIContentSecurityPolicy
-getCsp
+nsIPolicyContainer
+getPolicyContainer
 (
 in
 DragEvent

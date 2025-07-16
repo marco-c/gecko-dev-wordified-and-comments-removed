@@ -1277,6 +1277,8 @@ contentPage
 .
 browser
 .
+policyContainer
+.
 csp
 .
 policyCount
@@ -1293,6 +1295,8 @@ equal
 contentPage
 .
 browser
+.
+policyContainer
 .
 csp
 .
@@ -1344,6 +1348,8 @@ contentPage
 .
 browser
 .
+policyContainer
+.
 csp
 .
 policyCount
@@ -1360,6 +1366,8 @@ equal
 contentPage
 .
 browser
+.
+policyContainer
 .
 csp
 .
@@ -1394,6 +1402,8 @@ equal
 contentPage
 .
 browser
+.
+policyContainer
 .
 csp
 .

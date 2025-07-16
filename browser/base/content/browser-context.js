@@ -1315,7 +1315,7 @@ let
 searchTerms
 usePrivate
 principal
-csp
+policyContainer
 }
 =
 event
@@ -1330,7 +1330,7 @@ window
 searchTerms
 usePrivate
 principal
-csp
+policyContainer
 event
 )
 ;
@@ -1351,7 +1351,7 @@ let
 {
 searchTerms
 principal
-csp
+policyContainer
 }
 =
 event
@@ -1366,7 +1366,7 @@ window
 searchTerms
 true
 principal
-csp
+policyContainer
 event
 )
 ;
