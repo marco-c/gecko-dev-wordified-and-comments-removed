@@ -432,6 +432,7 @@ tuple
 <
 IdentityProviderAPIConfig
 IdentityProviderAccount
+bool
 >
 nsresult
 true
@@ -650,6 +651,9 @@ const
 IdentityProviderAccount
 &
 aAccount
+const
+bool
+aIsAutoSelected
 )
 ;
 RefPtr

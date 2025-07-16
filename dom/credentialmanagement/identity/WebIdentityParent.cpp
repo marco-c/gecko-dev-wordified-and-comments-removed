@@ -2786,6 +2786,7 @@ reauthenticatingAccount
 extract
 (
 )
+true
 )
 __func__
 )
@@ -2871,6 +2872,8 @@ tuple
 <
 IdentityProviderAPIConfig
 IdentityProviderAccount
+const
+bool
 >
 &
 promiseResult
@@ -2882,6 +2885,9 @@ currentManifest
 IdentityProviderAccount
 account
 ;
+bool
+isAutoSelected
+;
 std
 :
 :
@@ -2889,6 +2895,7 @@ tie
 (
 currentManifest
 account
+isAutoSelected
 )
 =
 promiseResult
@@ -2901,6 +2908,7 @@ relyingParty
 aProvider
 currentManifest
 account
+isAutoSelected
 )
 ;
 }
@@ -4065,6 +4073,9 @@ const
 IdentityProviderAccount
 &
 aAccount
+const
+bool
+isAutoSelected
 )
 {
 MOZ_ASSERT
@@ -4282,6 +4293,21 @@ false
 _ns
 )
 ;
+nsCString
+serializedIsAutoSelected
+=
+isAutoSelected
+?
+"
+true
+"
+_ns
+:
+"
+false
+"
+_ns
+;
 bodyValue
 .
 Set
@@ -4290,10 +4316,7 @@ Set
 is_auto_selected
 "
 _ns
-"
-false
-"
-_ns
+serializedIsAutoSelected
 )
 ;
 nsAutoCString
@@ -6457,6 +6480,7 @@ make_tuple
 (
 aManifest
 resolved
+false
 )
 __func__
 )
