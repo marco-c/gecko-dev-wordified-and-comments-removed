@@ -10026,10 +10026,6 @@ custom_properties
 :
 ComputedCustomProperties
 pub
-writing_mode
-:
-WritingMode
-pub
 effective_zoom
 :
 computed
@@ -10040,6 +10036,10 @@ pub
 flags
 :
 ComputedValueFlags
+pub
+writing_mode
+:
+WritingMode
 pub
 rules
 :
@@ -16499,7 +16499,7 @@ size_of_test
 !
 (
 ComputedValues
-240
+248
 )
 ;
 #
