@@ -370,12 +370,9 @@ prompt
 .
 *
 /
+const
 val
-customReviewPromptEnabled
+CUSTOM_REVIEW_PROMPT_ENABLED
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
+true
 }

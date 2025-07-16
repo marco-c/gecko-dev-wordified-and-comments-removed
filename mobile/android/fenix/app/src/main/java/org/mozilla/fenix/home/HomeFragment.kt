@@ -6566,7 +6566,7 @@ if
 (
 FeatureFlags
 .
-customReviewPromptEnabled
+CUSTOM_REVIEW_PROMPT_ENABLED
 )
 {
 requireComponents
