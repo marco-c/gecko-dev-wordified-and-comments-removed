@@ -11845,6 +11845,10 @@ message
 }
 "
 )
+.
+into
+(
+)
 r
 #
 type
@@ -12462,6 +12466,12 @@ init
 ErrMsg
 {
 message
+:
+message
+.
+into
+(
+)
 r
 #
 type
