@@ -98,7 +98,7 @@ const
 RFP_TARGET
 =
 "
-NavigatorConnection
+NetworkConnection
 "
 ;
 const

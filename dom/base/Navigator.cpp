@@ -9231,7 +9231,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-NavigatorConnection
+NetworkConnection
 )
 )
 ;

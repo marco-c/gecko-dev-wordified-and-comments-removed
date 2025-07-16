@@ -195,7 +195,7 @@ AudioSampleRate
 )
 ITEM_VALUE
 (
-NavigatorConnection
+NetworkConnection
 40
 )
 ITEM_VALUE
