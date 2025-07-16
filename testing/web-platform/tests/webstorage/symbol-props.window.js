@@ -280,7 +280,7 @@ storage
 key
 )
 ;
-assert_true
+assert_false
 (
 desc
 .
@@ -290,7 +290,7 @@ configurable
 "
 )
 ;
-assert_true
+assert_false
 (
 delete
 storage
@@ -305,7 +305,9 @@ storage
 [
 key
 ]
-undefined
+"
+test
+"
 )
 ;
 }
