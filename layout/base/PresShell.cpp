@@ -59969,8 +59969,6 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 styleMinWidth
@@ -60005,8 +60003,6 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 styleMinHeight

@@ -9106,8 +9106,6 @@ myPosition
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9155,8 +9153,6 @@ myPosition
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9344,8 +9340,6 @@ myPosition
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9387,8 +9381,6 @@ myPosition
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9758,8 +9750,6 @@ myPosition
 GetMinHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9797,8 +9787,6 @@ myPosition
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -9991,8 +9979,6 @@ myPosition
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -13062,8 +13048,6 @@ stylePosition
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -16532,8 +16516,6 @@ stylePosition
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -16582,8 +16564,6 @@ stylePosition
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
