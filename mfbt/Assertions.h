@@ -1107,6 +1107,7 @@ aLine
 ;
 #
 elif
+(
 defined
 (
 __riscv
@@ -1118,6 +1119,13 @@ __riscv_xlen
 =
 =
 64
+)
+)
+|
+|
+defined
+(
+__mips64
 )
 asm
 volatile
