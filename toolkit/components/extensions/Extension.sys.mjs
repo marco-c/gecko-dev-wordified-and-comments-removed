@@ -5815,7 +5815,11 @@ data
 let
 childID
 =
+parseInt
+(
 data
+10
+)
 ;
 switch
 (
