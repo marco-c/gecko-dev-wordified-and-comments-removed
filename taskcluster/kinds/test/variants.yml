@@ -2283,11 +2283,6 @@ mozinfo
 "
 wmfme
 "
-replace
-:
-tier
-:
-2
 merge
 :
 worker
@@ -2491,11 +2486,6 @@ mozinfo
 "
 emewmf
 "
-replace
-:
-tier
-:
-2
 merge
 :
 worker
