@@ -311,6 +311,12 @@ self
 refresh_endpoint_unavailable
 =
 False
+        
+self
+.
+response_session_id_override
+=
+None
     
 def
 next_session_id
@@ -819,6 +825,30 @@ self
 refresh_endpoint_unavailable
 =
 refresh_endpoint_unavailable
+        
+response_session_id_override
+=
+configuration
+.
+get
+(
+"
+responseSessionIdOverride
+"
+)
+        
+if
+response_session_id_override
+is
+not
+None
+:
+            
+self
+.
+response_session_id_override
+=
+response_session_id_override
     
 def
 get_should_refresh_end_session
@@ -1126,6 +1156,25 @@ request
 )
 :
         
+response_session_id
+=
+session_id
+        
+if
+self
+.
+response_session_id_override
+is
+not
+None
+:
+            
+response_session_id
+=
+self
+.
+response_session_id_override
+        
 scope_origin
 =
 "
@@ -1156,7 +1205,7 @@ session_identifier
 :
 str
 (
-session_id
+response_session_id
 )
             
 "
