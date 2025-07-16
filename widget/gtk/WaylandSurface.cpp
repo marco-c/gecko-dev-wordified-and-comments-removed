@@ -6506,9 +6506,9 @@ aMsg
 RefPtr
 waylandSurface
 =
-already_AddRefed
+dont_AddRef
 (
-reinterpret_cast
+static_cast
 <
 WaylandSurface
 *
