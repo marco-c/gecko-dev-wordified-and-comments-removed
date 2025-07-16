@@ -117,6 +117,16 @@ mips64
 simulator
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+riscv64
+-
+simulator
+"
+)
 )
 {
 if
