@@ -9717,6 +9717,11 @@ this
 .
 _maybeReloadEngines
 (
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_ENGINE_IGNORE_LIST_UPDATED
 )
 .
 catch
@@ -15110,6 +15115,10 @@ _extensionID
 if
 (
 existingEngine
+instanceof
+lazy
+.
+AddonSearchEngine
 &
 &
 existingEngine
