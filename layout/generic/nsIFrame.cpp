@@ -12821,6 +12821,8 @@ pos
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -12832,6 +12834,8 @@ pos
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -12878,6 +12882,8 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -12890,6 +12896,8 @@ pos
 GetMaxWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -12902,6 +12910,8 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -12914,6 +12924,8 @@ pos
 GetMaxHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -12925,6 +12937,8 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -12938,6 +12952,8 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -30599,6 +30615,8 @@ GetMargin
 (
 eSideTop
 anchorResolutionParams
+.
+mPosition
 )
 aPercentageBasis
 )
@@ -30617,6 +30635,8 @@ GetMargin
 (
 eSideBottom
 anchorResolutionParams
+.
+mPosition
 )
 aPercentageBasis
 )
@@ -30638,6 +30658,8 @@ GetMargin
 (
 eSideLeft
 anchorResolutionParams
+.
+mPosition
 )
 aPercentageBasis
 )
@@ -30656,6 +30678,8 @@ GetMargin
 (
 eSideRight
 anchorResolutionParams
+.
+mPosition
 )
 aPercentageBasis
 )
@@ -31160,12 +31184,10 @@ ShouldApplyAutomaticMinimumOnInlineAxis
 (
 WritingMode
 aWM
-bool
-aIsScrollableOverflow
 const
-AnchorPosResolutionParams
-&
-aParams
+nsStyleDisplay
+*
+aDisplay
 const
 nsStylePosition
 *
@@ -31174,7 +31196,12 @@ aPosition
 {
 return
 !
-aIsScrollableOverflow
+aDisplay
+-
+>
+IsScrollableOverflow
+(
+)
 &
 &
 aPosition
@@ -31183,7 +31210,10 @@ aPosition
 MinISize
 (
 aWM
-aParams
+aDisplay
+-
+>
+mPosition
 )
 -
 >
@@ -31395,6 +31425,8 @@ ISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -31432,6 +31464,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -31877,6 +31911,8 @@ HasInlineAxisAuto
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 &
 &
@@ -32141,6 +32177,8 @@ MinBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -32154,6 +32192,8 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -32303,6 +32343,8 @@ MaxISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 nscoord
@@ -32439,6 +32481,8 @@ MinISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 nscoord
@@ -32614,12 +32658,6 @@ ShouldApplyAutomaticMinimumOnInlineAxis
 (
 aWM
 disp
--
->
-IsScrollableOverflow
-(
-)
-anchorResolutionParams
 stylePos
 )
 )
@@ -32863,6 +32901,8 @@ HasBlockAxisAuto
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 )
 {
@@ -33748,6 +33788,8 @@ ISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -33818,6 +33860,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -33858,6 +33902,8 @@ MinBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 *
 stylePos
@@ -33867,6 +33913,8 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 aCBSize
 .
@@ -34125,6 +34173,8 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
+.
+mPosition
 )
 ;
 const
@@ -34156,6 +34206,8 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
+.
+mPosition
 )
 ;
 const
@@ -34657,6 +34709,8 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
+.
+mPosition
 )
 *
 stylePos
@@ -34668,6 +34722,8 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
+.
+mPosition
 )
 aCBSize
 .
@@ -35453,6 +35509,8 @@ MinBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 *
 stylePos
@@ -35462,6 +35520,8 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 aCBSize
 .
@@ -36053,13 +36113,13 @@ aReflowInput
 GetWritingMode
 (
 )
-AnchorPosResolutionParams
-:
-:
-From
-(
 aReflowInput
-)
+-
+>
+mStyleDisplay
+-
+>
+mPosition
 )
 ;
 if

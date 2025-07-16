@@ -6270,6 +6270,8 @@ pos
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -6285,6 +6287,8 @@ pos
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >

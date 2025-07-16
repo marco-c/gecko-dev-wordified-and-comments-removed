@@ -260,6 +260,8 @@ GetMargin
 (
 startSide
 anchorResolutionParams
+.
+mPosition
 )
 )
 ;
@@ -330,6 +332,8 @@ GetMargin
 (
 endSide
 anchorResolutionParams
+.
+mPosition
 )
 )
 ;

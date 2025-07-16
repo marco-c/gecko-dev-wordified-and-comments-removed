@@ -8674,13 +8674,12 @@ BSize
 GetWritingMode
 (
 )
-AnchorPosResolutionParams
-:
-:
-From
+StyleDisplay
 (
-this
 )
+-
+>
+mPosition
 )
 ;
 return
