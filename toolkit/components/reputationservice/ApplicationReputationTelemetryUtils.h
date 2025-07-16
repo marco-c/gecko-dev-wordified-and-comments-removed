@@ -56,13 +56,7 @@ uint32_t
 aStatus
 )
 ;
-mozilla
-:
-:
-Telemetry
-:
-:
-LABELS_APPLICATION_REPUTATION_SERVER_VERDICT_2
+nsLiteralCString
 VerdictToLabel
 (
 uint32_t
