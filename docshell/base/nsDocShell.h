@@ -2910,15 +2910,6 @@ CheckLoadingPermissions
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-MaybeFireTraverseHistory
-(
-nsDocShellLoadState
-*
-aLoadState
-)
-;
 nsresult
 LoadHistoryEntry
 (
@@ -2950,7 +2941,6 @@ bool
 aUserActivation
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 LoadHistoryEntry
 (

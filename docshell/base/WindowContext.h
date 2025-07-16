@@ -307,7 +307,7 @@ handler
 \
 FIELD
 (
-NeedsBeforeUnload
+HasBeforeUnload
 bool
 )
 \
@@ -813,13 +813,13 @@ mIsInProcess
 ;
 }
 bool
-NeedsBeforeUnload
+HasBeforeUnload
 (
 )
 const
 {
 return
-GetNeedsBeforeUnload
+GetHasBeforeUnload
 (
 )
 ;
@@ -1315,7 +1315,7 @@ CanSet
 (
 FieldIndex
 <
-IDX_NeedsBeforeUnload
+IDX_HasBeforeUnload
 >
 const
 bool
