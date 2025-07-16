@@ -6954,7 +6954,9 @@ webextension
 -
 update
 -
-permissions
+permission
+-
+prompt
 "
 )
 ;
