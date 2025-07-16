@@ -5079,10 +5079,6 @@ char
 argv
 )
 {
-PR_STDIO_INIT
-(
-)
-;
 output
 =
 PR_GetSpecialFD

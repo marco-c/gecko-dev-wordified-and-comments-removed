@@ -454,10 +454,6 @@ PR_SetError
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 #
 ifdef
 _PR_PTHREADS

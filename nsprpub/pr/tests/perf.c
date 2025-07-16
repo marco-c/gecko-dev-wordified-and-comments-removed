@@ -1702,10 +1702,6 @@ PR_UnblockClockInterrupts
 (
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 lock
 =
 PR_NewLock

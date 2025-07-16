@@ -103,10 +103,6 @@ return
 ;
 #
 endif
-PR_STDIO_INIT
-(
-)
-;
 err01
 =
 PR_Open

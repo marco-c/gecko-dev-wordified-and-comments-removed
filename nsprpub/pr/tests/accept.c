@@ -1889,10 +1889,6 @@ output
 =
 PR_STDERR
 ;
-PR_STDIO_INIT
-(
-)
-;
 timeoutTime
 =
 PR_SecondsToInterval

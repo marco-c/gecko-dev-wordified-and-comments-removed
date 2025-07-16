@@ -227,7 +227,7 @@ MOD_MAJOR_VERSION
 4
 MOD_MINOR_VERSION
 =
-36
+37
 MOD_PATCH_VERSION
 =
 0
@@ -13235,6 +13235,8 @@ in
 i
 *
 86
+|
+x86_64
 )
 if
 test
@@ -13308,17 +13310,6 @@ IA32
 "
 fi
 fi
-;
-;
-x86_64
-)
-AC_DEFINE
-(
-_AMD64_
-)
-USE_64
-=
-1
 ;
 ;
 aarch64

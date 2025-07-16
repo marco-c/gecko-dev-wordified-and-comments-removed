@@ -472,10 +472,6 @@ argv
 PRIntn
 rv
 ;
-PR_STDIO_INIT
-(
-)
-;
 rv
 =
 PR_Initialize

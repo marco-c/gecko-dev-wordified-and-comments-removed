@@ -138,10 +138,6 @@ TOO_LONG
 =
 0
 ;
-PR_STDIO_INIT
-(
-)
-;
 t1
 =
 PR_Open

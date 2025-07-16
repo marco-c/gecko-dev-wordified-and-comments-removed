@@ -254,10 +254,6 @@ PR_GetSpecialFD
 PR_StandardError
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 if
 (
 NULL

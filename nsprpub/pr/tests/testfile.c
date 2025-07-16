@@ -5000,10 +5000,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 mon
 =
 PR_NewMonitor

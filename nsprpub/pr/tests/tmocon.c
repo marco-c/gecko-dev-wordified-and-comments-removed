@@ -1439,10 +1439,6 @@ message_length
 =
 DEFAULT_MESSAGESIZE
 ;
-PR_STDIO_INIT
-(
-)
-;
 memset
 (
 &

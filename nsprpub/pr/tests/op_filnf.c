@@ -59,10 +59,6 @@ char
 argv
 )
 {
-PR_STDIO_INIT
-(
-)
-;
 t1
 =
 PR_Open

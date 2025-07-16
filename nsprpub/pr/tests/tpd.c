@@ -1593,10 +1593,6 @@ PL_DestroyOptState
 opt
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 return
 PR_Initialize
 (

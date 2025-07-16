@@ -20,13 +20,6 @@ h
 "
 #
 include
-"
-prwin
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -45,7 +38,8 @@ PR_VERSION
 "
 4
 .
-36
+37
+Beta
 "
 #
 define
@@ -54,7 +48,7 @@ PR_VMAJOR
 #
 define
 PR_VMINOR
-36
+37
 #
 define
 PR_VPATCH
@@ -62,7 +56,7 @@ PR_VPATCH
 #
 define
 PR_BETA
-PR_FALSE
+PR_TRUE
 typedef
 PRBool
 (

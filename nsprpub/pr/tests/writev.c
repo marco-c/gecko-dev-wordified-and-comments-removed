@@ -185,10 +185,6 @@ f
 "
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 rv
 =
 PR_InitializeNetAddr

@@ -259,7 +259,7 @@ elapsed_ms
 >
 LONG_TIMEOUT
 +
-100
+200
 )
 {
 printf

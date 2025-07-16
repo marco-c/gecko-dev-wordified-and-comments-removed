@@ -3304,10 +3304,6 @@ char
 argv
 )
 {
-PR_STDIO_INIT
-(
-)
-;
 TestI
 (
 )

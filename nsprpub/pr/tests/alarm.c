@@ -2510,10 +2510,6 @@ argv
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 if
 (
 failed_already

@@ -1689,10 +1689,6 @@ PL_DestroyOptState
 opt
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 intrupt
 =
 PR_CreateThread

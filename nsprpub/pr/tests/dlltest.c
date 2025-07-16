@@ -146,10 +146,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 libName
 =
 PR_GetLibraryName

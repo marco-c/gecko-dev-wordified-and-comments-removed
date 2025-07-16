@@ -394,10 +394,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 if
 (
 debug_mode
@@ -469,10 +465,6 @@ argv
 {
 PRIntn
 rv
-;
-PR_STDIO_INIT
-(
-)
 ;
 rv
 =

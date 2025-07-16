@@ -77,10 +77,6 @@ buf
 PRStatus
 rv
 ;
-PR_STDIO_INIT
-(
-)
-;
 rv
 =
 PR_GetProtoByName

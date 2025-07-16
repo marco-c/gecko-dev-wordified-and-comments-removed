@@ -2329,10 +2329,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 fprintf
 (
 stdout

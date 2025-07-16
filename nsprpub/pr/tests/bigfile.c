@@ -825,10 +825,6 @@ PR_GetSpecialFD
 PR_StandardError
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 while
 (
 PL_OPT_EOL

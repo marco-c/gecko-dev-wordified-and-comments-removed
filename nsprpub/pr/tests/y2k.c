@@ -6925,10 +6925,6 @@ PLOptState
 *
 opt
 ;
-PR_STDIO_INIT
-(
-)
-;
 opt
 =
 PL_CreateOptState
