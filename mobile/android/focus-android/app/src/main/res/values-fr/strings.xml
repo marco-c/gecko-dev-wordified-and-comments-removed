@@ -2177,6 +2177,8 @@ comme
 un
 navigateur
 priv
+\
+u00a0
 :
 <
 ul
@@ -3365,6 +3367,8 @@ saisie
 semi
 -
 automatique
+\
+u00a0
 :
 <
 /
@@ -8379,11 +8383,14 @@ rapidement
 S
 lectionnez
 simplement
-Ajouter
+\
+u00a0Ajouter
 l
 cran
 d
 accueil
+\
+u00a0
 depuis
 le
 menu

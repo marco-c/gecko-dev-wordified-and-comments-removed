@@ -4316,6 +4316,8 @@ est
 n
 cessaire
 pour
+\
+u00a0
 :
 <
 /
@@ -4510,6 +4512,8 @@ UnusedResources
 L
 extension
 souhaite
+\
+u00a0
 :
 <
 /
@@ -4939,6 +4943,8 @@ mozac_feature_addons_user_rating_count_2
 "
 >
 Avis
+\
+u00a0
 :
 %
 1
@@ -4988,6 +4994,8 @@ mozac_feature_addons_rating_content_description_2
 "
 >
 Note
+\
+u00a0
 :
 %
 1
@@ -7673,6 +7681,8 @@ mozac_feature_addons_updater_dialog_last_attempt
 Derni
 re
 tentative
+\
+u00a0
 :
 <
 /
@@ -7713,6 +7723,8 @@ mozac_feature_addons_updater_dialog_status
 "
 >
 tat
+\
+u00a0
 :
 <
 /
