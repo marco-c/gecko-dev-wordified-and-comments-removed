@@ -28,9 +28,6 @@ mod
 ipc_listener
 ;
 mod
-ipc_poller
-;
-mod
 platform
 ;
 use
@@ -87,16 +84,6 @@ ipc_listener
 :
 :
 IPCListener
-;
-pub
-use
-crate
-:
-:
-ipc_poller
-:
-:
-wait_for_events
 ;
 pub
 trait
