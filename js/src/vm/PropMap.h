@@ -25,6 +25,15 @@ h
 #
 include
 "
+gc
+/
+Policy
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
