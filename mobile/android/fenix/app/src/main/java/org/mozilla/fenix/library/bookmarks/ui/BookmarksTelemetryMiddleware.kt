@@ -718,6 +718,8 @@ BookmarksListMenuAction
 SelectAll
 is
 BookmarksLoaded
+is
+SearchDismissed
 EditBookmarkAction
 .
 DeleteClicked

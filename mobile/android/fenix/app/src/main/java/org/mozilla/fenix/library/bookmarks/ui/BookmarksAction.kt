@@ -591,6 +591,12 @@ BookmarksAction
 internal
 data
 object
+SearchDismissed
+:
+BookmarksAction
+internal
+data
+object
 AddFolderClicked
 :
 BookmarksAction
