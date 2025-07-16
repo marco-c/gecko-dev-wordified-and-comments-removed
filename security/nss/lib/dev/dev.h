@@ -1091,6 +1091,9 @@ sessionOpt
 NSSItem
 *
 sha1_hash
+CK_MECHANISM_TYPE
+*
+hashMech
 nssTrustLevel
 *
 serverAuth
