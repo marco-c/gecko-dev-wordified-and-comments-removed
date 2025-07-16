@@ -81,12 +81,6 @@ GENERATED_DIRS
 (
 OUTPUT_DIR
 )
-XPI_PKGNAME
-=
-mozscreenshots
-mozilla
-.
-org
 include
 (
 topsrcdir

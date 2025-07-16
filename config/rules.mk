@@ -7210,12 +7210,8 @@ sets
 the
 variable
 .
-ifneq
-(
-(
+ifdef
 XPI_PKGNAME
-)
-)
 (
 eval
 (

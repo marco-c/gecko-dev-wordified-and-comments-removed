@@ -25,6 +25,14 @@ XPI_NAME
 "
 webcompat
 "
+XPI_PKGNAME
+=
+"
+webcompat
+mozilla
+.
+org
+"
 DIST_SUBDIR
 =
 "

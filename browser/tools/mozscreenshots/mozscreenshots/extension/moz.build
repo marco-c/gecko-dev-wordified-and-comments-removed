@@ -3,6 +3,14 @@ XPI_NAME
 "
 mozscreenshots
 "
+XPI_PKGNAME
+=
+"
+mozscreenshots
+mozilla
+.
+org
+"
 USE_EXTENSION_MANIFEST
 =
 True

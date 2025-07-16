@@ -24,6 +24,14 @@ XPI_NAME
 "
 newtab
 "
+XPI_PKGNAME
+=
+"
+newtab
+mozilla
+.
+org
+"
 DIST_SUBDIR
 =
 "

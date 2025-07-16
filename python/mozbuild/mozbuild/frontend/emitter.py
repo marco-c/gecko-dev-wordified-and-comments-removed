@@ -7770,6 +7770,10 @@ USE_EXTENSION_MANIFEST
 "
 WASM_LIBS
 "
+            
+"
+XPI_PKGNAME
+"
         
 ]
         
