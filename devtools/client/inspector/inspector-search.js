@@ -572,9 +572,6 @@ reason
 "
 inspectorsearch
 "
-searchQuery
-:
-query
 }
 )
 ;
