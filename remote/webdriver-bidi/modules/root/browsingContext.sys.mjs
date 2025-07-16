@@ -4226,9 +4226,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-null
 )
 ;
 let
