@@ -719,14 +719,6 @@ it
 in
 the
 adapter
-items
-.
-add
-(
-AdapterItem
-.
-CollectionHeader
-)
 collections
 .
 map
