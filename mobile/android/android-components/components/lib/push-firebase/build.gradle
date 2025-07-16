@@ -121,12 +121,6 @@ pro
 '
 }
 }
-compileOptions
-{
-coreLibraryDesugaringEnabled
-=
-true
-}
 namespace
 =
 '
@@ -143,14 +137,6 @@ firebase
 }
 dependencies
 {
-coreLibraryDesugaring
-libs
-.
-desugar
-.
-jdk
-.
-libs
 implementation
 libs
 .
