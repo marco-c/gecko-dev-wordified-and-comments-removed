@@ -1344,6 +1344,10 @@ name
 :
 String
 pub
+js_class_name
+:
+String
+pub
 object_id
 :
 u64
