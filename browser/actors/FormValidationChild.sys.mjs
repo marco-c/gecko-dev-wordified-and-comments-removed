@@ -386,7 +386,7 @@ HTMLButtonElement
 |
 element
 .
-isFormAssociatedCustomElements
+isFormAssociatedCustomElement
 )
 )
 {
@@ -398,7 +398,7 @@ validationMessage
 =
 element
 .
-isFormAssociatedCustomElements
+isFormAssociatedCustomElement
 ?
 element
 .
@@ -414,7 +414,7 @@ if
 (
 element
 .
-isFormAssociatedCustomElements
+isFormAssociatedCustomElement
 )
 {
 /

@@ -2097,7 +2097,7 @@ GetInternals
 const
 ;
 bool
-IsFormAssociatedCustomElements
+IsFormAssociatedCustomElement
 (
 )
 const

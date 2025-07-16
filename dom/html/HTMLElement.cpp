@@ -306,11 +306,13 @@ const
 {
 if
 (
-IsFormAssociatedCustomElements
+IsFormAssociatedCustomElement
 (
 )
 )
 {
+if
+(
 auto
 *
 form
@@ -318,10 +320,6 @@ form
 GetFormInternal
 (
 )
-;
-if
-(
-form
 )
 {
 return

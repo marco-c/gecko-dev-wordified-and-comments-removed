@@ -650,7 +650,7 @@ ChromeOnly
 readonly
 attribute
 boolean
-isFormAssociatedCustomElements
+isFormAssociatedCustomElement
 ;
 }
 ;
