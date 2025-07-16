@@ -455,7 +455,7 @@ onClick
 modifier
 =
 modifier
-backgroundColor
+containerColor
 =
 FirefoxTheme
 .
@@ -509,13 +509,6 @@ icon
 contentDescription
 =
 contentDescription
-tint
-=
-FirefoxTheme
-.
-colors
-.
-iconOnColor
 )
 if
 (
