@@ -1600,8 +1600,10 @@ return
 0
 ;
 }
+RefPtr
+<
 SVGDocument
-*
+>
 doc
 =
 mSVGDocumentWrapper
