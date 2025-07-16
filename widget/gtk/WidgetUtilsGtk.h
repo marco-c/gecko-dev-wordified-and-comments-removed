@@ -119,7 +119,7 @@ GdkGetPointer
 )
 ;
 void
-SetLastMousePressEvent
+SetLastPointerDownEvent
 (
 GdkEvent
 *
@@ -127,7 +127,7 @@ GdkEvent
 ;
 GdkEvent
 *
-GetLastMousePressEvent
+GetLastPointerDownEvent
 (
 )
 ;
