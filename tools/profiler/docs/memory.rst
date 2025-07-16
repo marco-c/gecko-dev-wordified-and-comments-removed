@@ -296,7 +296,7 @@ Linux
 .
 Turning
 off
-thee
+the
 "
 Native
 Stacks
