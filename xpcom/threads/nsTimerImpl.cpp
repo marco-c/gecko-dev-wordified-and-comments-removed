@@ -1939,7 +1939,7 @@ mType
 (
 0
 )
-mGeneration
+mTimerSeq
 (
 0
 )
@@ -2149,10 +2149,6 @@ swap
 mCallback
 newCallback
 )
-;
-+
-+
-mGeneration
 ;
 mType
 =
@@ -2596,10 +2592,6 @@ swap
 cbTrash
 mCallback
 )
-;
-+
-+
-mGeneration
 ;
 if
 (
@@ -3098,8 +3090,8 @@ nsTimerImpl
 :
 Fire
 (
-int32_t
-aGeneration
+uint64_t
+aTimerSeq
 )
 {
 uint8_t
@@ -3134,10 +3126,10 @@ mMutex
 ;
 if
 (
-aGeneration
+aTimerSeq
 !
 =
-mGeneration
+mTimerSeq
 )
 {
 return
@@ -3530,10 +3522,10 @@ mMutex
 ;
 if
 (
-aGeneration
+aTimerSeq
 =
 =
-mGeneration
+mTimerSeq
 )
 {
 if
