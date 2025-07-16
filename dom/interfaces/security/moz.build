@@ -39,6 +39,11 @@ nsIIntegrityPolicy
 idl
 "
 "
+nsIPolicyContainer
+.
+idl
+"
+"
 nsIReferrerInfo
 .
 idl

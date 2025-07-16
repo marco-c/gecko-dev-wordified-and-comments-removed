@@ -131,6 +131,11 @@ nsMixedContentBlocker
 h
 "
 "
+PolicyContainer
+.
+h
+"
+"
 PolicyTokenizer
 .
 h
@@ -262,6 +267,11 @@ cpp
 "
 "
 nsMixedContentBlocker
+.
+cpp
+"
+"
+PolicyContainer
 .
 cpp
 "
