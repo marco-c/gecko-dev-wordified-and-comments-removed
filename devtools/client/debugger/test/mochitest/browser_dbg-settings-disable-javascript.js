@@ -102,7 +102,7 @@ menu
 )
 ;
 await
-toggleDebbuggerSettingsMenuItem
+toggleDebuggerSettingsMenuItem
 (
 dbg
 {
@@ -177,7 +177,7 @@ JavaScript
 )
 ;
 await
-toggleDebbuggerSettingsMenuItem
+toggleDebuggerSettingsMenuItem
 (
 dbg
 {
