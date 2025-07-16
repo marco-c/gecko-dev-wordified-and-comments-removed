@@ -7,6 +7,13 @@ GFX_QUATERNION_H
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
