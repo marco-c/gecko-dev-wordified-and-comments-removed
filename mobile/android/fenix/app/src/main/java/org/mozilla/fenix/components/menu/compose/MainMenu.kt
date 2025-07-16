@@ -2377,7 +2377,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 shape
 =
 RoundedCornerShape
@@ -2889,7 +2889,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 menuItemState
 =
 if
@@ -3240,7 +3240,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 shape
 =
 RoundedCornerShape

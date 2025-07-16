@@ -1695,7 +1695,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 )
 }
 Divider
