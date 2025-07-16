@@ -4408,6 +4408,13 @@ gdkWin
 return
 ;
 }
+gdkWin
+=
+gdk_window_get_toplevel
+(
+gdkWin
+)
+;
 #
 ifdef
 MOZ_WAYLAND
