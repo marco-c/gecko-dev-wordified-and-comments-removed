@@ -139,7 +139,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -176,7 +176,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -213,7 +213,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -250,7 +250,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -287,7 +287,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -324,7 +324,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
@@ -334,15 +334,6 @@ R
 string
 .
 browser_menu_sign_in
-)
-+
-getStringResource
-(
-R
-.
-string
-.
-browser_menu_sign_in_caption_3
 )
 description
 =
@@ -371,7 +362,7 @@ strategy
 =
 SelectorStrategy
 .
-COMPOSE_BY_CONTENT_DESCRIPTION
+COMPOSE_BY_TEXT
 value
 =
 getStringResource
