@@ -5639,9 +5639,6 @@ enum
 GPUDeviceLostReason
 {
 "
-unknown
-"
-"
 destroyed
 "
 }
@@ -5674,9 +5671,14 @@ GPUDeviceLostInfo
 {
 readonly
 attribute
-GPUDeviceLostReason
+any
 reason
 ;
+/
+/
+GPUDeviceLostReason
+or
+undefined
 readonly
 attribute
 DOMString
