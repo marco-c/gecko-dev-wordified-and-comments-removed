@@ -2140,6 +2140,9 @@ true
 Messages
 :
 {
+isVisible
+:
+true
 messageData
 :
 fakeMessageData
