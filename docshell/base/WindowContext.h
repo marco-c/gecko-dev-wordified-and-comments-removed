@@ -1769,6 +1769,17 @@ bool
 aOldValue
 )
 ;
+void
+DidSet
+(
+FieldIndex
+<
+IDX_HasActivePeerConnections
+>
+bool
+aOldValue
+)
+;
 bool
 CanSet
 (
