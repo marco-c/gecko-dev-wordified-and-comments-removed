@@ -121,7 +121,7 @@ IdentityCredentialErrorInit
 DOMString
 error
 ;
-DOMString
+USVString
 url
 ;
 }
@@ -160,7 +160,7 @@ error
 ;
 readonly
 attribute
-DOMString
+USVString
 url
 ;
 }
