@@ -5930,6 +5930,9 @@ b
 "
 "
         
+try
+:
+            
 for
 line
 in
@@ -5941,7 +5944,7 @@ readline
 sentinel
 )
 :
-            
+                
 queue
 .
 put
@@ -5951,6 +5954,36 @@ line
 callback
 )
 )
+        
+except
+ValueError
+as
+e
+:
+            
+if
+"
+I
+/
+O
+operation
+on
+closed
+file
+"
+in
+str
+(
+e
+)
+:
+                
+pass
+            
+else
+:
+                
+raise
         
 queue
 .
@@ -5964,11 +5997,20 @@ None
 )
 )
         
+try
+:
+            
 stream
 .
 close
 (
 )
+        
+except
+ValueError
+:
+            
+pass
     
 def
 start
