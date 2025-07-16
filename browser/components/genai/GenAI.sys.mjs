@@ -448,7 +448,6 @@ providers
 claude
 chatgpt
 gemini
-huggingchat
 lechat
 "
 reorderChatProviders
