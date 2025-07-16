@@ -476,16 +476,13 @@ FirefoxTheme
 colors
 .
 textSecondary
-maxLines
-=
-1
 style
 =
 FirefoxTheme
 .
 typography
 .
-caption
+body2
 )
 }
 }
