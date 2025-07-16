@@ -220,3 +220,17 @@ test_ShortcutRanker
 js
 "
 ]
+[
+"
+test_ListsFeed
+.
+js
+"
+]
+[
+"
+test_TimerFeed
+.
+js
+"
+]
