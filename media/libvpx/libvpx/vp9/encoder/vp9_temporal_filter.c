@@ -8563,14 +8563,11 @@ arnr_strength_adjustment
 ;
 base_strength
 =
-VPXMIN
+clamp
 (
-6
-VPXMAX
-(
-0
 base_strength
-)
+0
+6
 )
 ;
 }

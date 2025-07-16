@@ -14082,7 +14082,7 @@ interval
 ;
 range
 =
-VPXMAX
+clamp
 (
 range
 (
@@ -14106,13 +14106,6 @@ col
 )
 /
 4
-)
-;
-range
-=
-VPXMIN
-(
-range
 MAX_RANGE
 )
 ;
@@ -18993,7 +18986,7 @@ interval
 ;
 range
 =
-VPXMAX
+clamp
 (
 range
 (
@@ -19017,13 +19010,6 @@ col
 )
 /
 4
-)
-;
-range
-=
-VPXMIN
-(
-range
 MAX_RANGE
 )
 ;

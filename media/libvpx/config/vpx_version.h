@@ -15,7 +15,7 @@ VERSION_MINOR
 #
 define
 VERSION_PATCH
-1
+2
 #
 define
 VERSION_EXTRA
@@ -51,7 +51,7 @@ v1
 .
 15
 .
-1
+2
 "
 #
 define
@@ -61,7 +61,7 @@ v1
 .
 15
 .
-1
+2
 "
 #
 endif
