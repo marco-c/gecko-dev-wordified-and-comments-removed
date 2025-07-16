@@ -523,13 +523,6 @@ js
 ]
 [
 "
-browser_allowListPreference
-.
-js
-"
-]
-[
-"
 browser_allowListSeparationInPrivateAndNormalWindows
 .
 js

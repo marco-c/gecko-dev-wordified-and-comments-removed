@@ -842,13 +842,6 @@ js
 ]
 [
 "
-browser_privacy_allowListPreference
-.
-js
-"
-]
-[
-"
 browser_privacy_cookieBannerHandling
 .
 js
