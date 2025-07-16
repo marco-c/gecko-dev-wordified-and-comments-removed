@@ -345,11 +345,6 @@ UseHardcodedFontSubstitutes
 )
 ITEM_VALUE
 (
-DiskStorageLimit
-70
-)
-ITEM_VALUE
-(
 IsAlwaysEnabledForPrecompute
 0
 )

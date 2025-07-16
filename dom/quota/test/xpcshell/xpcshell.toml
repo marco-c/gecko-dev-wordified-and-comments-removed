@@ -872,10 +872,3 @@ test_validOrigins
 js
 "
 ]
-[
-"
-test_temporaryStorageRFP
-.
-js
-"
-]
