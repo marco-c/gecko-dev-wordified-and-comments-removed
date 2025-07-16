@@ -574,6 +574,10 @@ pub
 max_shared_surface_size
 :
 i32
+pub
+enable_dithering
+:
+bool
 }
 #
 [

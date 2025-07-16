@@ -1569,7 +1569,7 @@ LinearGradientKey
 >
 (
 )
-88
+96
 "
 LinearGradientKey
 size
