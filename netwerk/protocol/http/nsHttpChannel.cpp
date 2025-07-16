@@ -50122,7 +50122,9 @@ cacheStorage
 AsyncDoomURI
 (
 aURI
-mCacheIdExtension
+"
+"
+_ns
 nullptr
 )
 ;
