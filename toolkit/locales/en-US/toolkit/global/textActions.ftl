@@ -614,13 +614,10 @@ action
 -
 remove
 -
-all
--
-highlights
+highlight
 =
 .
 label
 =
 Remove
-All
-Highlights
+Highlight

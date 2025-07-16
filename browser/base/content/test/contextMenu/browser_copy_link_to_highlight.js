@@ -862,9 +862,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 )
 ;
@@ -874,8 +872,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -895,8 +892,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -1172,9 +1168,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 )
 ;
@@ -1184,8 +1178,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -1205,8 +1198,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item

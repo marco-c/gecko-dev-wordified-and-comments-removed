@@ -2827,9 +2827,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 this
 .
