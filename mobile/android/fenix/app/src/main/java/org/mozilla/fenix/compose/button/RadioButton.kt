@@ -350,7 +350,14 @@ FirefoxTheme
 colors
 .
 formDefault
-disabledColor
+disabledSelectedColor
+=
+FirefoxTheme
+.
+colors
+.
+formDisabled
+disabledUnselectedColor
 =
 FirefoxTheme
 .
