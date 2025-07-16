@@ -1356,7 +1356,7 @@ FirefoxTheme
 colors
 .
 borderAccent
-backgroundColor
+trackColor
 =
 FirefoxTheme
 .
@@ -1378,7 +1378,9 @@ clearAndSetSemantics
 }
 progress
 =
+{
 progress
+}
 color
 =
 FirefoxTheme
@@ -1386,13 +1388,17 @@ FirefoxTheme
 colors
 .
 borderAccent
-backgroundColor
+trackColor
 =
 FirefoxTheme
 .
 colors
 .
 borderPrimary
+drawStopIndicator
+=
+{
+}
 )
 }
 }
