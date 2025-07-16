@@ -641,6 +641,10 @@ mozilla
 :
 TimeStamp
 mTimeout
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 RefPtr
 <
