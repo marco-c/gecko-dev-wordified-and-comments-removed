@@ -6899,6 +6899,11 @@ addon
 info
 .
 addon
+existingAddon
+:
+info
+.
+existingAddon
 permissions
 :
 difference
