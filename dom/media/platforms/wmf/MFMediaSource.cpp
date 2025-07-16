@@ -221,7 +221,7 @@ nsISerialEventTarget
 *
 aManagerThread
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 {
 MutexAutoLock
@@ -293,7 +293,7 @@ streamId
 +
 *
 aAudio
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 this
 )
 )
@@ -366,7 +366,7 @@ streamId
 +
 *
 aVideo
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 this
 )
 )

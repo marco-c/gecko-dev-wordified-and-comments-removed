@@ -817,7 +817,7 @@ TrackInfo
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -845,9 +845,9 @@ mStreamId
 =
 aStreamId
 ;
-mIsEncrytpedCustomInit
+mIsEncryptedCustomInit
 =
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 ;
 auto
 errorExit

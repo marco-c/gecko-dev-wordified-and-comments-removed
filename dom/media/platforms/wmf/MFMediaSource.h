@@ -175,7 +175,7 @@ nsISerialEventTarget
 *
 aManagerThread
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 ;
 IFACEMETHODIMP

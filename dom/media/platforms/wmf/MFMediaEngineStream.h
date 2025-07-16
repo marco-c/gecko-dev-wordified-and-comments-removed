@@ -153,7 +153,7 @@ TrackInfo
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -729,7 +729,7 @@ bool
 mReceivedEOS
 ;
 bool
-mIsEncrytpedCustomInit
+mIsEncryptedCustomInit
 ;
 }
 ;
