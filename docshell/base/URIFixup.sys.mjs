@@ -3544,9 +3544,6 @@ getSubmission
 (
 keyword
 responseType
-"
-keyword
-"
 )
 ;
 if

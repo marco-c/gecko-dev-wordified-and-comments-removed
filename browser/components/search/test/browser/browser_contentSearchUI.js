@@ -5573,11 +5573,6 @@ healthReportKey
 "
 test
 "
-searchPurpose
-:
-"
-test
-"
 originalEvent
 :
 modifiers

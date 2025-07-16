@@ -56,7 +56,6 @@ ContentSearchUIController
 inputElement
 tableParent
 healthReportKey
-searchPurpose
 idPrefix
 =
 "
@@ -80,12 +79,6 @@ this
 _healthReportKey
 =
 healthReportKey
-;
-this
-.
-_searchPurpose
-=
-searchPurpose
 ;
 this
 .
@@ -1371,11 +1364,6 @@ healthReportKey
 this
 .
 _healthReportKey
-searchPurpose
-:
-this
-.
-_searchPurpose
 originalEvent
 :
 {
