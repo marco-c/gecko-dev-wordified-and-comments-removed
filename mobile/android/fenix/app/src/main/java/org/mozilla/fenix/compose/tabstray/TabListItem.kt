@@ -183,6 +183,16 @@ foundation
 .
 layout
 .
+fillMaxSize
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 fillMaxWidth
 import
 androidx
@@ -1789,7 +1799,7 @@ modifier
 =
 Modifier
 .
-matchParentSize
+fillMaxSize
 (
 )
 .
