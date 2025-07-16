@@ -390,13 +390,6 @@ entry
 icon
 =
 icon
-onShowSnackbarAfterLoginChange
-=
-{
-_
--
->
-}
 )
 )
 doReturn
@@ -771,13 +764,6 @@ entry
 icon
 =
 icon
-onShowSnackbarAfterLoginChange
-=
-{
-_
--
->
-}
 )
 )
 val
