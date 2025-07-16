@@ -3779,8 +3779,6 @@ WaylandPopupSetDirectPosition
 bool
 WaylandPopupFitsToplevelWindow
 (
-bool
-aMove
 )
 ;
 const
