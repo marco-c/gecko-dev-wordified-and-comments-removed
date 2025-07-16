@@ -38,11 +38,8 @@ requestCount
 }
 )
 ;
-Services
-.
-prefs
-.
-setBoolPref
+await
+pushPref
 (
 "
 network
