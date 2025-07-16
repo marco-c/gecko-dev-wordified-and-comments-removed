@@ -1270,6 +1270,9 @@ PhysicalSide
 "
 QueryFontMetricsFlags
 "
+"
+AllowAnchorPosResolutionInCalcPercentage
+"
 ]
 item_types
 =
