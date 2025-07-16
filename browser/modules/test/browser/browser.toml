@@ -34,6 +34,13 @@ min_interval
 ]
 [
 "
+browser_BrowserDOMWindow_openURI
+.
+js
+"
+]
+[
+"
 browser_BrowserWindowTracker
 .
 js
