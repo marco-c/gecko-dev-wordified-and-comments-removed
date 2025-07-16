@@ -2091,7 +2091,7 @@ R
 .
 string
 .
-browser_main_menu_handlebar_content_description
+browser_close_main_menu_handlebar_content_description
 )
 }
 )
@@ -3006,7 +3006,7 @@ R
 .
 string
 .
-browser_main_menu_handlebar_content_description
+browser_close_main_menu_handlebar_content_description
 )
 val
 account

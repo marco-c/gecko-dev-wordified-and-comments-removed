@@ -727,7 +727,7 @@ R
 .
 string
 .
-browser_menu_default_banner_dismiss
+browser_menu_default_banner_dismiss_promotion
 )
 modifier
 =
