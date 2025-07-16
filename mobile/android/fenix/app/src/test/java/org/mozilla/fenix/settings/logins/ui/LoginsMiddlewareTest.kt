@@ -518,6 +518,8 @@ store
 .
 dispatch
 (
+AddLoginAction
+.
 InitAdd
 )
 store

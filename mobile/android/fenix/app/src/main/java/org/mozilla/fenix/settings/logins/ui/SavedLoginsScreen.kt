@@ -753,11 +753,15 @@ store
 .
 dispatch
 (
-AddLoginAction
-.
-BackAddClicked
+AddLoginBackClicked
 )
 }
+AddLoginScreen
+(
+store
+=
+store
+)
 }
 composable
 (
@@ -1052,6 +1056,8 @@ store
 .
 dispatch
 (
+AddLoginAction
+.
 InitAdd
 )
 }
@@ -1296,6 +1302,8 @@ onAddPasswordClicked
 {
 dispatcher
 (
+AddLoginAction
+.
 InitAdd
 )
 }
