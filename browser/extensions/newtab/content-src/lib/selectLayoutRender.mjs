@@ -425,6 +425,9 @@ Signup
 Navigation
 "
 "
+Widgets
+"
+"
 CardGrid
 "
 "
