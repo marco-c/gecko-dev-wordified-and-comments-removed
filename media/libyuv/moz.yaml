@@ -341,7 +341,7 @@ patch
 .
 patch
 -
-04_fix_loongarch64_link_failed
+04_fix_loongarch_build
 .
 patch
 -
