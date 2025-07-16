@@ -62,3 +62,10 @@ test_skipfails
 .
 txt
 "
+[
+"
+test_wpt_path_utils
+.
+py
+"
+]

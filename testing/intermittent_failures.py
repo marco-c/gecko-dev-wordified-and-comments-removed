@@ -29,6 +29,10 @@ Optional
 TypedDict
 import
 requests
+from
+wpt_path_utils
+import
+resolve_wpt_path
 USER_AGENT
 =
 "
@@ -540,6 +544,31 @@ if
 match
 :
                         
+test_path
+=
+match
+[
+0
+]
+                        
+if
+test_path
+.
+startswith
+(
+"
+/
+"
+)
+:
+                            
+test_path
+=
+resolve_wpt_path
+(
+test_path
+)
+                        
 result
 [
 "
@@ -547,10 +576,7 @@ test_path
 "
 ]
 =
-match
-[
-0
-]
+test_path
                 
 results
 .
