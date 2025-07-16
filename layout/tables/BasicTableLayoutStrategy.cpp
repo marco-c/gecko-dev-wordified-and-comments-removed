@@ -401,6 +401,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 *
 stylePos
@@ -410,6 +412,8 @@ MinBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 *
 stylePos
@@ -419,6 +423,8 @@ MaxBSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 cbBSize
 contentEdgeToBoxSizingBSize
@@ -561,6 +567,8 @@ ISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -795,6 +803,8 @@ MaxISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -913,6 +923,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 aFrame
 -
@@ -991,6 +1003,8 @@ MinISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
@@ -1102,6 +1116,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 aFrame
 -

@@ -1507,6 +1507,8 @@ StylePosition
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -1523,6 +1525,8 @@ StylePosition
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 -
 >

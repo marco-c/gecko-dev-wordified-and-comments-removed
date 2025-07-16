@@ -1492,6 +1492,8 @@ ISize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1508,6 +1510,8 @@ MinISize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1524,6 +1528,8 @@ MaxISize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1578,6 +1584,8 @@ LogicalSide
 IStart
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1596,6 +1604,8 @@ LogicalSide
 IEnd
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 )
@@ -1629,6 +1639,8 @@ BSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -1718,6 +1730,8 @@ MinBSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1734,6 +1748,8 @@ MaxBSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1788,6 +1804,8 @@ LogicalSide
 BStart
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -1806,6 +1824,8 @@ LogicalSide
 BEnd
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 )
@@ -3548,6 +3568,8 @@ LogicalSide
 IStart
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -3565,6 +3587,8 @@ LogicalSide
 IEnd
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -3596,6 +3620,8 @@ LogicalSide
 BStart
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -3613,6 +3639,8 @@ LogicalSide
 BEnd
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -3668,6 +3696,8 @@ HasInlineAxisAuto
 (
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 |
 |
@@ -3678,6 +3708,8 @@ HasBlockAxisAuto
 (
 outerWM
 anchorResolutionParams
+.
+mPosition
 )
 propValue
 )
