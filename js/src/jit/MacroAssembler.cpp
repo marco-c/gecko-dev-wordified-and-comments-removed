@@ -41903,6 +41903,13 @@ defined
 (
 JS_CODEGEN_LOONG64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_RISCV64
+)
 Label
 ok
 ;
