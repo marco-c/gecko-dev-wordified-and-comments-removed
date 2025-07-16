@@ -1,7 +1,3 @@
-import
-os
-import
-sys
 from
 marionette_driver
 .
@@ -26,28 +22,19 @@ import
 MarionetteTestCase
 parameterized
 WindowManagerMixin
-sys
-.
-path
-.
-append
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-)
-from
-chrome_handler_mixin
-import
-ChromeHandlerMixin
 PAGE_XHTML
 =
 "
+chrome
+:
+/
+/
+remote
+/
+content
+/
+marionette
+/
 test
 .
 xhtml
@@ -55,6 +42,16 @@ xhtml
 PAGE_XUL
 =
 "
+chrome
+:
+/
+/
+remote
+/
+content
+/
+marionette
+/
 test_xul
 .
 xhtml
@@ -62,7 +59,6 @@ xhtml
 class
 TestElementIDChrome
 (
-ChromeHandlerMixin
 WindowManagerMixin
 MarionetteTestCase
 )
@@ -149,10 +145,6 @@ self
 .
 open_chrome_window
 (
-self
-.
-chrome_base_url
-+
 chrome_url
 )
         
@@ -250,10 +242,6 @@ self
 .
 open_chrome_window
 (
-self
-.
-chrome_base_url
-+
 chrome_url
 )
         
@@ -395,10 +383,6 @@ self
 .
 open_chrome_window
 (
-self
-.
-chrome_base_url
-+
 chrome_url
 )
         
@@ -503,10 +487,6 @@ self
 .
 open_chrome_window
 (
-self
-.
-chrome_base_url
-+
 chrome_url
 )
         
