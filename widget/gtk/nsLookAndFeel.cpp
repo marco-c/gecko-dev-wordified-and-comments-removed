@@ -2558,6 +2558,10 @@ NULL
 ;
 }
 }
+FcInit
+(
+)
+;
 }
 nsLookAndFeel
 :
