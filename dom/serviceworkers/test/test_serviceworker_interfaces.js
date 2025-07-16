@@ -1173,16 +1173,9 @@ Request
 "
 Response
 "
-{
-name
-:
 "
 Scheduler
 "
-nightly
-:
-true
-}
 "
 ServiceWorker
 "
