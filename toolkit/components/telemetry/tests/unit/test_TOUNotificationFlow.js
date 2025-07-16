@@ -923,7 +923,7 @@ equal
 (
 TelemetryReportingPolicy
 .
-testUserHasAcceptedTOU
+userHasAcceptedTOU
 (
 )
 false
@@ -1020,7 +1020,7 @@ equal
 (
 TelemetryReportingPolicy
 .
-testUserHasAcceptedTOU
+userHasAcceptedTOU
 (
 )
 true

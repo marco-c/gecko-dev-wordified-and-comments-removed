@@ -1245,10 +1245,7 @@ isUserNotifiedOfCurrentPolicy
 *
 *
 *
-Test
-only
-method
-used
+Used
 to
 check
 if
@@ -1257,12 +1254,10 @@ has
 accepted
 the
 TOU
-in
-tests
 .
 *
 /
-testUserHasAcceptedTOU
+userHasAcceptedTOU
 (
 )
 {
