@@ -257,13 +257,6 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 )
 ;
-sRGBColor
-ToAttributeColor
-(
-nscolor
-aColor
-)
-;
 Size
 BlurRadiusToFilterSpace
 (
