@@ -2376,7 +2376,10 @@ serializable
 false
 ;
 CustomElementRegistry
+?
 customElementRegistry
+=
+null
 ;
 }
 ;
