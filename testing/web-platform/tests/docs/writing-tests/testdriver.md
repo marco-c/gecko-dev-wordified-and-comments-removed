@@ -2452,3 +2452,17 @@ bidi
 emulation
 .
 set_locale_override
+.
+.
+js
+:
+autofunction
+:
+:
+test_driver
+.
+bidi
+.
+emulation
+.
+set_screen_orientation_override
