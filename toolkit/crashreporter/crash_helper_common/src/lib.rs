@@ -59,7 +59,10 @@ crate
 ipc_channel
 :
 :
+{
 IPCChannel
+IPCClientChannel
+}
 ;
 pub
 use
@@ -94,7 +97,10 @@ crate
 platform
 :
 :
+{
+server_addr
 ProcessHandle
+}
 ;
 pub
 trait

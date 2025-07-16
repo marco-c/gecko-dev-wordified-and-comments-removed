@@ -254,9 +254,6 @@ _res
 )
 }
 pub
-(
-crate
-)
 fn
 server_addr
 (

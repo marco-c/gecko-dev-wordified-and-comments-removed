@@ -14,7 +14,10 @@ use
 windows
 :
 :
+{
+server_addr
 ProcessHandle
+}
 ;
 #
 [
@@ -58,7 +61,10 @@ use
 linux
 :
 :
+{
+server_addr
 ProcessHandle
+}
 ;
 #
 [
@@ -102,7 +108,10 @@ use
 macos
 :
 :
+{
+server_addr
 ProcessHandle
+}
 ;
 #
 [

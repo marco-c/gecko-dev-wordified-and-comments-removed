@@ -14,7 +14,10 @@ use
 windows
 :
 :
+{
 IPCChannel
+IPCClientChannel
+}
 ;
 #
 [
@@ -63,7 +66,10 @@ use
 unix
 :
 :
+{
 IPCChannel
+IPCClientChannel
+}
 ;
 #
 [
