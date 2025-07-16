@@ -71,6 +71,11 @@ IsHTMLHeadingElement
 )
 )
 ;
+UpdateLevel
+(
+false
+)
+;
 }
 bool
 ParseAttribute
@@ -174,8 +179,8 @@ aAlign
 )
 ;
 }
-int32_t
-AccessibilityLevel
+uint32_t
+ComputedLevel
 (
 )
 const
@@ -283,6 +288,13 @@ return
 6
 ;
 }
+void
+UpdateLevel
+(
+bool
+aNotify
+)
+;
 NS_IMPL_FROMNODE_HELPER
 (
 HTMLHeadingElement
