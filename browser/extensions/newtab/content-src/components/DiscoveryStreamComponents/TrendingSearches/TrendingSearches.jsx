@@ -273,10 +273,10 @@ TRENDING_SEARCH_CONTEXT_MENU_OPTIONS
 =
 [
 "
-TrendingSearchLearnMore
-"
-"
 TrendingSearchDismiss
+"
+"
+TrendingSearchLearnMore
 "
 ]
 ;
@@ -866,11 +866,11 @@ searches
 collapsed
 ?
 "
-hide
+show
 "
 :
 "
-show
+hide
 "
 }
 -
