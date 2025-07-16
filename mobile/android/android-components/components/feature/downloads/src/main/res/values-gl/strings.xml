@@ -169,9 +169,9 @@ name
 mozac_feature_downloads_time_remaining_unknown
 "
 >
-hora
+tempo
 desco
-ecida
+ecido
 <
 /
 string
@@ -347,10 +347,11 @@ ignore
 UnusedResources
 "
 >
-Volver
-descargar
+Descargar
 o
-ficheiro
+arquivo
+de
+novo
 ?
 (
 %
@@ -402,6 +403,7 @@ mozac_feature_downloads_dialog_title_3
 "
 >
 Descargar
+o
 ficheiro
 ?
 (
@@ -451,6 +453,7 @@ mozac_feature_downloads_dialog_title_with_unknown_size
 "
 >
 Descargar
+o
 ficheiro
 ?
 <
