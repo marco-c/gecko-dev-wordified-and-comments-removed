@@ -716,6 +716,14 @@ StrokeOptions
 >
 mStrokeOptions
 ;
+UniquePtr
+<
+Float
+[
+]
+>
+mDashPatternStorage
+;
 }
 ;
 class
