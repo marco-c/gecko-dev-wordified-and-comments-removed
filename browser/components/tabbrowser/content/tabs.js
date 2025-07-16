@@ -10609,6 +10609,22 @@ tab
 _dragData
 ;
 let
+movingTabsOffsetX
+=
+window
+.
+windowUtils
+.
+getBoundsWithoutFlushing
+(
+tab
+.
+offsetParent
+)
+.
+x
+;
+let
 movingTabsIndex
 =
 movingTabs
@@ -10735,6 +10751,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 "
 px
@@ -10789,6 +10807,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 position
 +
@@ -10859,6 +10879,8 @@ rect
 .
 left
 -
+movingTabsOffsetX
+-
 position
 +
 "
@@ -10884,6 +10906,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 position
 +
@@ -11040,6 +11064,8 @@ rect
 .
 left
 -
+movingTabsOffsetX
+-
 position
 +
 "
@@ -11065,6 +11091,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 position
 +
