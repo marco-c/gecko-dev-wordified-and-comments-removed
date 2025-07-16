@@ -257,6 +257,17 @@ startsWith
 -
 "
 )
+|
+|
+decl
+.
+prop
+.
+startsWith
+(
+"
+"
+)
 ;
 let
 ruleFunction
