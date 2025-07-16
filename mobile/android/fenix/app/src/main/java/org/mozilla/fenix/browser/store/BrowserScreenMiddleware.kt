@@ -227,18 +227,6 @@ mozilla
 .
 fenix
 .
-components
-.
-toolbar
-.
-BrowserToolbarMiddleware
-import
-org
-.
-mozilla
-.
-fenix
-.
 theme
 .
 ThemeManager
@@ -548,7 +536,7 @@ functionalities
 of
 the
 [
-BrowserToolbarMiddleware
+BrowserScreenMiddleware
 ]
 .
 *
