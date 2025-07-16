@@ -488,6 +488,14 @@ option
 ;
 [
 '
+__HostHttp
+-
+'
+'
+__hosthttp
+-
+'
+'
 __Http
 -
 '
