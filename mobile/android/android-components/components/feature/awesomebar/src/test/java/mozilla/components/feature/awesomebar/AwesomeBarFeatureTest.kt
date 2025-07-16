@@ -836,7 +836,6 @@ feature
 .
 addSearchProvider
 (
-testContext
 store
 =
 store
@@ -937,7 +936,8 @@ feature
 .
 addSearchProvider
 (
-testContext
+searchEngine
+=
 mock
 (
 )
@@ -986,6 +986,8 @@ feature
 .
 addSearchProvider
 (
+searchEngine
+=
 mock
 (
 )

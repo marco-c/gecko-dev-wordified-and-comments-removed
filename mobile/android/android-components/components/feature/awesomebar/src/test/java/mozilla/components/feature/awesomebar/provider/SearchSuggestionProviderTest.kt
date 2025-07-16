@@ -2283,6 +2283,8 @@ provider
 =
 SearchSuggestionProvider
 (
+searchEngine
+=
 mock
 (
 )
@@ -2783,6 +2785,8 @@ than
 {
 SearchSuggestionProvider
 (
+searchEngine
+=
 mock
 (
 )

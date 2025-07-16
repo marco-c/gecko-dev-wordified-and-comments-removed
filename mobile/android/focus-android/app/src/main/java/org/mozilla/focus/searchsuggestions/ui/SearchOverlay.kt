@@ -608,13 +608,9 @@ val
 provider
 =
 remember
-(
-context
-)
 {
 SearchSuggestionProvider
 (
-context
 components
 .
 store

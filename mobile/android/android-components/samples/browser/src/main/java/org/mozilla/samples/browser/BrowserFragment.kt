@@ -511,9 +511,6 @@ defaultSearch
 .
 addSearchProvider
 (
-requireContext
-(
-)
 components
 .
 store
