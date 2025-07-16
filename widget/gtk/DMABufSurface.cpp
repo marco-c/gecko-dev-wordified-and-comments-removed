@@ -730,7 +730,9 @@ int
 >
 gNewSurfaceUID
 (
-1
+getpid
+(
+)
 )
 ;
 RefPtr
