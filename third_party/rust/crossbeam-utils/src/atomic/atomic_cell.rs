@@ -4550,16 +4550,6 @@ usize
 =
 67
 ;
-#
-[
-allow
-(
-clippy
-:
-:
-declare_interior_mutable_const
-)
-]
 const
 L
 :

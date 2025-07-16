@@ -28,12 +28,6 @@ bencher
 Bencher
 ;
 use
-getrandom
-:
-:
-getrandom
-;
-use
 zip
 :
 :
@@ -156,6 +150,9 @@ options
 ?
 ;
 getrandom
+:
+:
+fill
 (
 &
 mut

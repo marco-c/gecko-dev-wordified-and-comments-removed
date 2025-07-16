@@ -43,6 +43,9 @@ mod
 extended_timestamp
 ;
 mod
+ntfs
+;
+mod
 zipinfo_utf8
 ;
 pub
@@ -51,6 +54,13 @@ extended_timestamp
 :
 :
 *
+;
+pub
+use
+ntfs
+:
+:
+Ntfs
 ;
 pub
 use
@@ -71,6 +81,10 @@ pub
 enum
 ExtraField
 {
+Ntfs
+(
+Ntfs
+)
 ExtendedTimestamp
 (
 ExtendedTimestamp

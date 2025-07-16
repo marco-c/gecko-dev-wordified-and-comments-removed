@@ -47,6 +47,11 @@ aarch64
 target_arch
 =
 "
+arm64ec
+"
+target_arch
+=
+"
 powerpc64
 "
 )
@@ -163,6 +168,11 @@ target_arch
 =
 "
 aarch64
+"
+target_arch
+=
+"
+arm64ec
 "
 target_arch
 =
