@@ -468,6 +468,14 @@ iphone_deployment_target
 "
 doesntmatter
 "
+gyp_vars
+[
+"
+use_pkcs5_pbkd2_params2_only
+"
+]
+=
+1
 if
 (
 CONFIG
