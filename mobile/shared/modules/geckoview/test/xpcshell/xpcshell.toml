@@ -42,6 +42,13 @@ js
 ]
 [
 "
+test_GeckoViewAppConstants
+.
+js
+"
+]
+[
+"
 test_RemoteSettingsCrashPull
 .
 js

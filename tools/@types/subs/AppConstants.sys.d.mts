@@ -849,6 +849,15 @@ boolean
 ;
 /
 /
+#
+ifdef
+MOZ_WIDGET_ANDROID
+MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
+:
+boolean
+;
+/
+/
 Returns
 true
 for
