@@ -1006,6 +1006,7 @@ UiSelector
 description
 (
 "
+Private
 Tabs
 Open
 :

@@ -498,6 +498,12 @@ toggleCounterMask
 (
 isPrivate
 )
+tabCounter
+.
+updateContentDescription
+(
+isPrivate
+)
 }
 /
 *
