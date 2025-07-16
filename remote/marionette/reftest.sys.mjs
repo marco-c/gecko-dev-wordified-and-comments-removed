@@ -1329,6 +1329,10 @@ content
 marionette
 /
 reftest
+-
+chrome
+/
+reftest
 .
 xhtml
 "
