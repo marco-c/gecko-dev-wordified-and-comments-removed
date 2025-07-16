@@ -187,9 +187,6 @@ Sampler
 ShaderModule
 "
 "
-SharedTexture
-"
-"
 SupportedFeatures
 "
 "
@@ -339,7 +336,7 @@ webgpu
 =
 [
 "
-SharedTextureD3D11
+ExternalTextureD3D11
 .
 h
 "
@@ -349,7 +346,7 @@ UNIFIED_SOURCES
 =
 [
 "
-SharedTextureD3D11
+ExternalTextureD3D11
 .
 cpp
 "
@@ -376,7 +373,7 @@ webgpu
 =
 [
 "
-SharedTextureDMABuf
+ExternalTextureDMABuf
 .
 h
 "
@@ -386,7 +383,7 @@ UNIFIED_SOURCES
 =
 [
 "
-SharedTextureDMABuf
+ExternalTextureDMABuf
 .
 cpp
 "
@@ -417,7 +414,7 @@ webgpu
 =
 [
 "
-SharedTextureMacIOSurface
+ExternalTextureMacIOSurface
 .
 h
 "
@@ -427,7 +424,7 @@ UNIFIED_SOURCES
 =
 [
 "
-SharedTextureMacIOSurface
+ExternalTextureMacIOSurface
 .
 cpp
 "

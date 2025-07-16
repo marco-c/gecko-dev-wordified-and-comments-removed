@@ -582,7 +582,7 @@ FwdTransactionTracker
 mFwdTransactionTracker
 ;
 bool
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 false
 ;

@@ -512,7 +512,7 @@ Info
 const
 ;
 bool
-SupportSharedTextureInSwapChain
+SupportExternalTextureInSwapChain
 (
 )
 const
