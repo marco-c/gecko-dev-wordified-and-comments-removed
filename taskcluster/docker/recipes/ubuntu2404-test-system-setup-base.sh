@@ -296,14 +296,6 @@ apt_packages
 =
 (
 '
-ffmpeg
-'
-)
-apt_packages
-+
-=
-(
-'
 fontconfig
 '
 )
