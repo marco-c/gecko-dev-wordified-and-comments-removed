@@ -4123,13 +4123,6 @@ ClearCachedWebrenderResources
 {
 }
 virtual
-void
-ClearWebrenderAnimationResources
-(
-)
-{
-}
-virtual
 bool
 SetNeedFastSnaphot
 (
