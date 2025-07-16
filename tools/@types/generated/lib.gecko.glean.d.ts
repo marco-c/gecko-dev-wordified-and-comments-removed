@@ -52536,10 +52536,6 @@ globalPrivacyControlEnabled
 :
 GleanBoolean
 ;
-h1InSectionUseragentStylesEnabled
-:
-GleanBoolean
-;
 installtriggerEnabled
 :
 GleanBoolean
