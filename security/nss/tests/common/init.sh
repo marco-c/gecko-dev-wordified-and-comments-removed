@@ -1837,6 +1837,8 @@ failures
 .
 local
 successes
+failures
+successes
 =
 (
 gtest_parse_report_xpath
@@ -1863,7 +1865,6 @@ count
 "
 "
 )
-local
 failures
 =
 (

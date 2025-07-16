@@ -720,10 +720,6 @@ PORT_ArenaMark
 arena
 )
 ;
-nextChunk
-=
-data
-;
 currData
 =
 data

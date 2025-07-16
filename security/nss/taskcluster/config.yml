@@ -211,9 +211,7 @@ t
 -
 linux
 -
-xlarge
--
-gcp
+docker
 taskgraph
 :
 repositories

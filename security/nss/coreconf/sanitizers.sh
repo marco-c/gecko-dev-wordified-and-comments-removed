@@ -146,9 +146,15 @@ Dno_zdefs
 fi
 local
 cflags
+cflags
 =
 (
+{
 python
+:
+-
+python
+}
 cwd
 /
 coreconf
@@ -171,6 +177,7 @@ enable_sancov
 )
 {
 local
+clang_version
 clang_version
 =
 (

@@ -755,10 +755,6 @@ bufp
 >
 page
 ;
-pageno
-=
-0
-;
 key_done
 =
 0

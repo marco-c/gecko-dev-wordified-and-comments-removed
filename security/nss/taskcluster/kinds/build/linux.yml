@@ -171,6 +171,12 @@ clang
 +
 +
 "
+CFLAGS
+:
+"
+-
+O2
+"
 allow
 -
 ptrace
