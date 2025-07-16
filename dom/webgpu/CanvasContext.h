@@ -593,6 +593,17 @@ false
 ;
 }
 ;
+typedef
+AutoTArray
+<
+WeakPtr
+<
+CanvasContext
+>
+1
+>
+CanvasContextArray
+;
 }
 }
 #
