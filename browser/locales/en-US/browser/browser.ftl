@@ -3031,9 +3031,13 @@ quickactions
 -
 cmd
 -
-extensions
+extensions2
 =
 extensions
+addons
+add
+-
+ons
 #
 Opens
 Firefox

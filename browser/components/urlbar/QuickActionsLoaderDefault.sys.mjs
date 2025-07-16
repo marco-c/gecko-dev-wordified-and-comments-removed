@@ -709,7 +709,7 @@ quickactions
 -
 cmd
 -
-extensions
+extensions2
 "
 ]
 icon
