@@ -7182,14 +7182,6 @@ androidx
 .
 compose
 .
-material
-implementation
-libs
-.
-androidx
-.
-compose
-.
 ui
 implementation
 libs
