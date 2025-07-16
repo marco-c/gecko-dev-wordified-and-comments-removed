@@ -438,8 +438,8 @@ MediaTrackSettings
 &
 aResult
 )
-{
-}
+=
+0
 ;
 virtual
 void

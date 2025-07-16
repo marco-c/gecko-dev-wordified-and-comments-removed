@@ -212,6 +212,16 @@ AudioCapture
 ;
 }
 void
+GetSettings
+(
+MediaTrackSettings
+&
+aSettings
+)
+override
+{
+}
+void
 Stop
 (
 )
