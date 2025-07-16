@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
 #
 include
 "
-nsContainerFrame
+nsIFrame
 .
 h
 "

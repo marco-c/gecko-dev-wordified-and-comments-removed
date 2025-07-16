@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsContainerFrame
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsTextControlFrame
+nsContainerFrame
 .
 h
 "
@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsTextControlFrame
 .
 h
 "

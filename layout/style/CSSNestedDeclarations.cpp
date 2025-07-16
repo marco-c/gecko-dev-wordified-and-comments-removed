@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSNestedDeclarationsBinding
+DeclarationBlock
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-DeclarationBlock
+dom
+/
+CSSNestedDeclarationsBinding
 .
 h
 "

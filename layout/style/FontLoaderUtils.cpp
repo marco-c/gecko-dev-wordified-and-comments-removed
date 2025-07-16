@@ -10,6 +10,13 @@ h
 #
 include
 "
+gfxUserFontSet
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -37,13 +44,6 @@ mozilla
 dom
 /
 WorkerPrivate
-.
-h
-"
-#
-include
-"
-gfxUserFontSet
 .
 h
 "

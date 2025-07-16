@@ -1,6 +1,13 @@
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CaretAssociationHint
@@ -33,13 +40,6 @@ mozilla
 dom
 /
 HTMLBRElement
-.
-h
-"
-#
-include
-"
-gfxContext
 .
 h
 "

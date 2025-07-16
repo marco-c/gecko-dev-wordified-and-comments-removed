@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsCSSProps
+nsCSSPropertyIDSet
 .
 h
 "
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSProps
 .
 h
 "

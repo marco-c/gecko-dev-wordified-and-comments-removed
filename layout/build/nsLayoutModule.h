@@ -7,7 +7,9 @@ nsLayoutModule_h
 #
 include
 "
-nscore
+mozilla
+/
+AlreadyAddRefed
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-AlreadyAddRefed
+nscore
 .
 h
 "

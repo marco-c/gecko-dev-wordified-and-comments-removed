@@ -17,14 +17,14 @@ h
 #
 include
 "
-nsGkAtoms
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsGkAtoms
 .
 h
 "

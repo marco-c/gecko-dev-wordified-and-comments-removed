@@ -6,6 +6,11 @@ define
 ContainStyleScopeManager_h_
 #
 include
+<
+memory
+>
+#
+include
 "
 nsClassHashtable
 .
@@ -14,7 +19,7 @@ h
 #
 include
 "
-nsTHashSet
+nsCounterManager
 .
 h
 "
@@ -28,15 +33,10 @@ h
 #
 include
 "
-nsCounterManager
+nsTHashSet
 .
 h
 "
-#
-include
-<
-memory
->
 class
 nsIContent
 ;

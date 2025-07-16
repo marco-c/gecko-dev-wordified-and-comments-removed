@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-FlexBinding
+IntrinsicISizesCache
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-IntrinsicISizesCache
+dom
+/
+FlexBinding
 .
 h
 "

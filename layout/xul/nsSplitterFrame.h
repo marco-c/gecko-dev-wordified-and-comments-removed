@@ -7,6 +7,13 @@ nsSplitterFrame_h__
 #
 include
 "
+SimpleXULLeafFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -19,13 +26,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-SimpleXULLeafFrame
 .
 h
 "

@@ -7,13 +7,6 @@ nsDOMCSSDeclaration_h___
 #
 include
 "
-nsICSSDeclaration
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -56,6 +49,13 @@ h
 include
 "
 nsCompatibility
+.
+h
+"
+#
+include
+"
+nsICSSDeclaration
 .
 h
 "

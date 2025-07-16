@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsContainerFrameInlines
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -75,13 +82,6 @@ h
 include
 "
 nsPresContext
-.
-h
-"
-#
-include
-"
-nsContainerFrameInlines
 .
 h
 "

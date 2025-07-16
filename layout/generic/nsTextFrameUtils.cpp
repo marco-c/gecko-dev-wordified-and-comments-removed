@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -65,11 +70,6 @@ nsUnicodeProperties
 .
 h
 "
-#
-include
-<
-algorithm
->
 using
 namespace
 mozilla

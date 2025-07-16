@@ -8,11 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-PaintWorkletGlobalScopeBinding
+PaintWorkletImpl
 .
 h
 "
@@ -30,7 +26,11 @@ h
 #
 include
 "
-PaintWorkletImpl
+mozilla
+/
+dom
+/
+PaintWorkletGlobalScopeBinding
 .
 h
 "

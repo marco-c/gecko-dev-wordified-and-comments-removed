@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGElement
+PresShell
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-PresShell
+dom
+/
+SVGElement
 .
 h
 "

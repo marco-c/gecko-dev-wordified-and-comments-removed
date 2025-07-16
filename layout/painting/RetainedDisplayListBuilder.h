@@ -7,7 +7,9 @@ RETAINEDDISPLAYLISTBUILDER_H_
 #
 include
 "
-nsDisplayList
+mozilla
+/
+EnumSet
 .
 h
 "
@@ -23,9 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-EnumSet
+nsDisplayList
 .
 h
 "

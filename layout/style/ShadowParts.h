@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsTHashtable
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -36,6 +29,13 @@ h
 include
 "
 nsStringFwd
+.
+h
+"
+#
+include
+"
+nsTHashtable
 .
 h
 "

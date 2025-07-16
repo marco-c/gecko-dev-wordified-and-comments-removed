@@ -27,9 +27,7 @@ include
 "
 mozilla
 /
-dom
-/
-Element
+ServoBindings
 .
 h
 "
@@ -38,7 +36,9 @@ include
 "
 mozilla
 /
-ServoBindings
+dom
+/
+Element
 .
 h
 "

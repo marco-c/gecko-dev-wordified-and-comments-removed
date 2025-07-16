@@ -16,7 +16,9 @@ h
 #
 include
 "
-nscore
+mozilla
+/
+WritingModes
 .
 h
 "
@@ -37,9 +39,7 @@ h
 #
 include
 "
-mozilla
-/
-WritingModes
+nscore
 .
 h
 "

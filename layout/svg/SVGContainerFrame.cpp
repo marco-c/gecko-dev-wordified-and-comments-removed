@@ -15,6 +15,13 @@ h
 #
 include
 "
+SVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PresShell
@@ -72,13 +79,6 @@ h
 include
 "
 nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
-SVGAnimatedTransformList
 .
 h
 "

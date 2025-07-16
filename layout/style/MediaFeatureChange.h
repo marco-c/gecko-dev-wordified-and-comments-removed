@@ -7,7 +7,9 @@ mozilla_MediaFeatureChange_h__
 #
 include
 "
-nsChangeHint
+mozilla
+/
+Attributes
 .
 h
 "
@@ -16,7 +18,7 @@ include
 "
 mozilla
 /
-Attributes
+ServoStyleConsts
 .
 h
 "
@@ -32,9 +34,7 @@ h
 #
 include
 "
-mozilla
-/
-ServoStyleConsts
+nsChangeHint
 .
 h
 "

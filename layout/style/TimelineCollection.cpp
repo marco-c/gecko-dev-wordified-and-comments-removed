@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -47,11 +52,6 @@ ViewTimeline
 .
 h
 "
-#
-include
-<
-type_traits
->
 namespace
 mozilla
 {

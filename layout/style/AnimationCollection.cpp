@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsDOMMutationObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -56,6 +49,13 @@ mozilla
 dom
 /
 CSSTransition
+.
+h
+"
+#
+include
+"
+nsDOMMutationObserver
 .
 h
 "

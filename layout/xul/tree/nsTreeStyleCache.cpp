@@ -19,9 +19,7 @@ include
 "
 mozilla
 /
-dom
-/
-Element
+ServoStyleSet
 .
 h
 "
@@ -30,7 +28,9 @@ include
 "
 mozilla
 /
-ServoStyleSet
+dom
+/
+Element
 .
 h
 "

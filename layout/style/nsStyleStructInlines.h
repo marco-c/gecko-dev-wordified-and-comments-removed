@@ -7,6 +7,13 @@ nsStyleStructInlines_h_
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsStyleStruct
-.
-h
-"
-#
-include
-"
-nsIContent
 .
 h
 "

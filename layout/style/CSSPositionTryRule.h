@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-css
-/
-Rule
+ServoBindingTypes
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-ServoBindingTypes
+css
+/
+Rule
 .
 h
 "

@@ -7,7 +7,7 @@ nsLayoutDebuggingTools_h
 #
 include
 "
-nsILayoutDebuggingTools
+nsCOMPtr
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsILayoutDebuggingTools
 .
 h
 "

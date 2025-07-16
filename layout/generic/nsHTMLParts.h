@@ -7,13 +7,6 @@ nsHTMLParts_h___
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsFrameState
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsISupports
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

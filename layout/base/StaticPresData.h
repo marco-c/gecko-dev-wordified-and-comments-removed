@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsCoord
+nsAtom
 .
 h
 "
@@ -39,14 +39,14 @@ h
 #
 include
 "
-nsFont
+nsCoord
 .
 h
 "
 #
 include
 "
-nsAtom
+nsFont
 .
 h
 "

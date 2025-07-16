@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-ComputedStyle
+CSSOrderAwareFrameIterator
 .
 h
 "
@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-CSSOrderAwareFrameIterator
+ComputedStyle
 .
 h
 "

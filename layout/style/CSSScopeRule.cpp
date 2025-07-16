@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSScopeRuleBinding
+ServoBindings
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-ServoBindings
+dom
+/
+CSSScopeRuleBinding
 .
 h
 "

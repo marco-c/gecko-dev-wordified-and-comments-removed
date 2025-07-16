@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-ServoStyleSet
+ServoBindings
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-ServoBindings
+ServoStyleSet
 .
 h
 "

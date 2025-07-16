@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-DocGroup
+ServoTypes
 .
 h
 "
@@ -29,7 +27,9 @@ include
 "
 mozilla
 /
-ServoTypes
+dom
+/
+DocGroup
 .
 h
 "

@@ -6,6 +6,11 @@ define
 mozilla_SurfaceFromElementResult_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 ImageContainer
 .
@@ -36,11 +41,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-<
-cstdint
->
 class
 imgIContainer
 ;

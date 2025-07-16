@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-ScrollTypes
+Maybe
 .
 h
 "
@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-Maybe
+ScrollTypes
 .
 h
 "

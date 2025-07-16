@@ -7,6 +7,13 @@ mozilla_layout_ScrollAnimationPhysics_h_
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimeStamp
@@ -17,13 +24,6 @@ h
 include
 "
 nsPoint
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

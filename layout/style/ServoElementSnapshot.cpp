@@ -30,14 +30,14 @@ h
 #
 include
 "
-nsIContentInlines
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsIContentInlines
 .
 h
 "

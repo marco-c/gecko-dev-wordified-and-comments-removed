@@ -28,14 +28,14 @@ h
 #
 include
 "
-nsPresContext
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsPresContext
 .
 h
 "

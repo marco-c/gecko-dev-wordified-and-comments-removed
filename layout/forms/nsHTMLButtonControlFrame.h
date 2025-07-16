@@ -7,14 +7,14 @@ nsHTMLButtonControlFrame_h___
 #
 include
 "
-nsContainerFrame
+nsCSSRenderingBorders
 .
 h
 "
 #
 include
 "
-nsCSSRenderingBorders
+nsContainerFrame
 .
 h
 "

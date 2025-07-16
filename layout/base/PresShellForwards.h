@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-TypedEnumBits
+Maybe
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-Maybe
+TypedEnumBits
 .
 h
 "

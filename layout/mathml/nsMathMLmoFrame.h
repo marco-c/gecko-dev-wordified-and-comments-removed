@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsMathMLTokenFrame
+nsMathMLChar
 .
 h
 "
 #
 include
 "
-nsMathMLChar
+nsMathMLTokenFrame
 .
 h
 "

@@ -7,7 +7,9 @@ mozilla_OverflowChangedTracker_h
 #
 include
 "
-nsIFrame
+mozilla
+/
+SplayTree
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-SplayTree
+nsIFrame
 .
 h
 "

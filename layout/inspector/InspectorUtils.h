@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-InspectorUtilsBinding
+UniquePtr
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+InspectorUtilsBinding
 .
 h
 "

@@ -7,13 +7,6 @@ StackArena_h
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -26,6 +19,13 @@ include
 mozilla
 /
 MemoryReporting
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

@@ -15,6 +15,13 @@ h
 #
 include
 "
+SVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
@@ -154,13 +161,6 @@ h
 include
 "
 nsIFrameInlines
-.
-h
-"
-#
-include
-"
-SVGAnimatedTransformList
 .
 h
 "

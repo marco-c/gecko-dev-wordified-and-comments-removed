@@ -27,9 +27,7 @@ include
 "
 mozilla
 /
-dom
-/
-Selection
+StaticPrefs_clipboard
 .
 h
 "
@@ -38,7 +36,9 @@ include
 "
 mozilla
 /
-StaticPrefs_clipboard
+dom
+/
+Selection
 .
 h
 "

@@ -7,11 +7,7 @@ mozilla_dom_FontFaceImpl_h
 #
 include
 "
-mozilla
-/
-dom
-/
-FontFaceBinding
+gfxUserFontSet
 .
 h
 "
@@ -45,7 +41,11 @@ h
 #
 include
 "
-gfxUserFontSet
+mozilla
+/
+dom
+/
+FontFaceBinding
 .
 h
 "

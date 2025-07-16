@@ -7,6 +7,13 @@ mozilla_DottedCornerFinder_h_
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -23,13 +30,6 @@ mozilla
 gfx
 /
 BezierUtils
-.
-h
-"
-#
-include
-"
-gfxRect
 .
 h
 "
