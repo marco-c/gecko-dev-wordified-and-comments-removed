@@ -1806,9 +1806,6 @@ serp
 history
 "
 null
-"
-keyword
-"
 )
 .
 uri
@@ -1894,9 +1891,6 @@ serp
 history
 "
 null
-"
-keyword
-"
 )
 .
 uri

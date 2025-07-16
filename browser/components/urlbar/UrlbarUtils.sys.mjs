@@ -2290,6 +2290,15 @@ mayInheritPrincipal
 }
 ;
 }
+/
+*
+*
+type
+{
+nsISearchEngine
+}
+*
+/
 let
 engine
 =
@@ -2317,9 +2326,6 @@ getSubmission
 (
 param
 null
-"
-keyword
-"
 )
 ;
 return

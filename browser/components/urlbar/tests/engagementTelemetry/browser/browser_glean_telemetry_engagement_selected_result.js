@@ -4260,9 +4260,6 @@ getSubmission
 semantic
 "
 null
-"
-keyword
-"
 )
 .
 uri
