@@ -2620,9 +2620,6 @@ UseLayerCompositor
 )
 const
 {
-#
-ifdef
-NIGHTLY_BUILD
 return
 UseNativeCompositor
 (
@@ -2636,13 +2633,6 @@ gfx_webrender_layer_compositor_AtStartup
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 DCLayerTree
