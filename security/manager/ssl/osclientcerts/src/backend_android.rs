@@ -2262,6 +2262,7 @@ fn
 find_objects
 (
 &
+mut
 self
 )
 -
