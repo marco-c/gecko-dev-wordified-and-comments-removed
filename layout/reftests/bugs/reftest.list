@@ -778,6 +778,17 @@ skip
 if
 (
 isDebugBuild
+|
+|
+(
+winWidget
+&
+&
+(
+!
+is64Bit
+)
+)
 )
 =
 =
