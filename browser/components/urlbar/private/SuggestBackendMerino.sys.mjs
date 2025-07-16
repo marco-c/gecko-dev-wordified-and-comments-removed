@@ -337,6 +337,11 @@ MerinoClient
 this
 .
 name
+{
+allowOhttp
+:
+true
+}
 )
 ;
 }
