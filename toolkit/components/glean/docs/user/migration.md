@@ -3333,9 +3333,7 @@ mozilla
 com
 expires
 :
-"
 100
-"
 *
 *
 GIFFT
