@@ -2019,7 +2019,7 @@ equivalent_block_display
 (
 &
 self
-_is_root_element
+is_root_element
 :
 bool
 )
@@ -2027,9 +2027,8 @@ bool
 >
 Self
 {
-{
 if
-_is_root_element
+is_root_element
 &
 &
 (
@@ -2053,7 +2052,6 @@ Display
 :
 Block
 ;
-}
 }
 match
 self

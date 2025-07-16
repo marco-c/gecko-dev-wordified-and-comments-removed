@@ -9271,12 +9271,6 @@ LineParticipant
 ;
 CLASS_FLAG_METHOD
 (
-IsReplaced
-Replaced
-)
-;
-CLASS_FLAG_METHOD
-(
 HasReplacedSizing
 ReplacedSizing
 )
@@ -9466,6 +9460,12 @@ diagnostic
 pop
 #
 endif
+bool
+IsReplaced
+(
+)
+const
+;
 enum
 {
 IN_CSS_UNITS
