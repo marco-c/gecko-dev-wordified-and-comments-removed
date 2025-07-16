@@ -2051,6 +2051,8 @@ const
 StrokeOptions
 *
 aStrokeOptions
+SurfaceFormat
+aFormat
 )
 {
 if
@@ -2063,10 +2065,7 @@ aSourceRect
 Size
 (
 )
-SurfaceFormat
-:
-:
-B8G8R8A8
+aFormat
 )
 )
 {
@@ -2087,10 +2086,7 @@ aSourceRect
 Size
 (
 )
-SurfaceFormat
-:
-:
-B8G8R8A8
+aFormat
 )
 ;
 if
