@@ -14719,11 +14719,10 @@ atomicPause
 (
 )
 {
-MOZ_CRASH
+fence
 (
-"
-NYI
-"
+0b0001
+0b0000
 )
 ;
 }
