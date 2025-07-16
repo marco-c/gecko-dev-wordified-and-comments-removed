@@ -2743,6 +2743,9 @@ texture
 GPUStorageTextureBindingLayout
 storageTexture
 ;
+GPUExternalTextureBindingLayout
+externalTexture
+;
 }
 ;
 typedef
@@ -2956,6 +2959,11 @@ viewDimension
 2d
 "
 ;
+}
+;
+dictionary
+GPUExternalTextureBindingLayout
+{
 }
 ;
 [

@@ -987,6 +987,7 @@ SampledTexture
 ReadonlyStorageTexture
 WriteonlyStorageTexture
 ReadWriteStorageTexture
+ExternalTexture
 }
 #
 [
@@ -8601,6 +8602,19 @@ unwrap
 (
 )
 }
+RawBindingType
+:
+:
+ExternalTexture
+=
+>
+wgt
+:
+:
+BindingType
+:
+:
+ExternalTexture
 }
 }
 )
