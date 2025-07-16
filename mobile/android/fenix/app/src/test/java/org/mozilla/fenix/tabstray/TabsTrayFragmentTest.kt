@@ -1668,16 +1668,6 @@ false
 }
 override
 fun
-onTabUnselected
-(
-tab
-:
-TabSessionState
-)
-{
-}
-override
-fun
 onSyncedTabClicked
 (
 tab
