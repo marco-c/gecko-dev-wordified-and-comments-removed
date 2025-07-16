@@ -407,6 +407,7 @@ MediaByteBuffer
 >
 ParseH264Parameters
 (
+const
 nsTArray
 <
 uint8_t
