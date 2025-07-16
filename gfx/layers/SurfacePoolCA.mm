@@ -451,11 +451,6 @@ F
 aFn
 )
 {
-[
-[
-maybe_unused
-]
-]
 size_t
 inUseCountBefore
 =
@@ -465,11 +460,6 @@ size
 (
 )
 ;
-[
-[
-maybe_unused
-]
-]
 size_t
 pendingCountBefore
 =
@@ -479,11 +469,6 @@ Length
 (
 )
 ;
-[
-[
-maybe_unused
-]
-]
 size_t
 availableCountBefore
 =
@@ -493,11 +478,6 @@ Length
 (
 )
 ;
-[
-[
-maybe_unused
-]
-]
 TimeStamp
 before
 =
