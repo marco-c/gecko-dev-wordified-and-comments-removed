@@ -893,6 +893,15 @@ TemporalDisambiguation
 ;
 JSLinearString
 *
+ComputeSystemTimeZoneIdentifier
+(
+JSContext
+*
+cx
+)
+;
+JSLinearString
+*
 SystemTimeZoneIdentifier
 (
 JSContext
