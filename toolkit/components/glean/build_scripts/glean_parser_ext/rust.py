@@ -1556,6 +1556,11 @@ objects_by_id
 {
 }
     
+dual_labeled_counters_by_id
+=
+{
+}
+    
 labeleds_by_id_by_type
 =
 {
@@ -1733,6 +1738,29 @@ object
 :
                     
 objects_by_id
+[
+get_metric_id
+(
+metric
+)
+]
+=
+full_path
+                    
+continue
+                
+if
+metric
+.
+type
+=
+=
+"
+dual_labeled_counter
+"
+:
+                    
+dual_labeled_counters_by_id
 [
 get_metric_id
 (
@@ -1958,6 +1986,10 @@ events_by_id
 objects_by_id
 =
 objects_by_id
+            
+dual_labeled_counters_by_id
+=
+dual_labeled_counters_by_id
             
 labeleds_by_id_by_type
 =
