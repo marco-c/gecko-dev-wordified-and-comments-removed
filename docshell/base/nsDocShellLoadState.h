@@ -126,6 +126,14 @@ mozilla
 class
 OriginAttributes
 ;
+template
+<
+typename
+class
+>
+class
+UniquePtr
+;
 namespace
 dom
 {

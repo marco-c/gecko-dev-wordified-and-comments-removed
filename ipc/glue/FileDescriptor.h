@@ -63,7 +63,7 @@ PlatformHandleType
 UniquePlatformHandle
 :
 :
-element_type
+ElementType
 ;
 struct
 IPDLPrivate
