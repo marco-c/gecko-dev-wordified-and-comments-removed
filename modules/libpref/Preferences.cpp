@@ -28834,6 +28834,13 @@ services
 PREF_LIST_ENTRY
 (
 "
+termsofuse
+.
+"
+)
+PREF_LIST_ENTRY
+(
+"
 app
 .
 normandy

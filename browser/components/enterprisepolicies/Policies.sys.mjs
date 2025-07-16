@@ -14098,11 +14098,9 @@ param
 setAndLockPref
 (
 "
-datareporting
+termsofuse
 .
-policy
-.
-dataSubmissionPolicyAcceptedVersion
+acceptedVersion
 "
 999
 )
@@ -14110,11 +14108,9 @@ dataSubmissionPolicyAcceptedVersion
 setAndLockPref
 (
 "
-datareporting
+termsofuse
 .
-policy
-.
-dataSubmissionPolicyNotifiedTime
+acceptedDate
 "
 Date
 .

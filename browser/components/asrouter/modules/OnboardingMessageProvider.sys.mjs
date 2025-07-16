@@ -9012,12 +9012,12 @@ true
 requireAction
 :
 true
-currentPolicyVersion
+currentVersion
 :
-3
-minimumPolicyVersion
+4
+minimumVersion
 :
-3
+4
 firstRunURL
 :
 "
@@ -9626,7 +9626,7 @@ actions
 type
 :
 "
-DATAREPORTING_NOTIFY_DATA_POLICY_INTERACTED
+SET_TERMS_OF_USE_INTERACTED
 "
 }
 ]

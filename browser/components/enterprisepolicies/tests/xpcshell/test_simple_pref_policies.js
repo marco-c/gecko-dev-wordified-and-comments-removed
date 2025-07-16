@@ -4824,11 +4824,9 @@ lockedPrefs
 :
 {
 "
-datareporting
+termsofuse
 .
-policy
-.
-dataSubmissionPolicyAcceptedVersion
+acceptedVersion
 "
 :
 999

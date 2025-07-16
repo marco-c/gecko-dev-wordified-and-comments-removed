@@ -982,6 +982,14 @@ rememberSignons
 False
         
 "
+termsofuse
+.
+bypassNotification
+"
+:
+True
+        
+"
 toolkit
 .
 startup

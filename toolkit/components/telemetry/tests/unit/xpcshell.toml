@@ -291,6 +291,13 @@ android
 ]
 [
 "
+test_PrefMigrationForTOU
+.
+js
+"
+]
+[
+"
 test_RDDScalars
 .
 js
@@ -374,6 +381,13 @@ os
 '
 android
 '
+"
+]
+[
+"
+test_TOUNotificationFlow
+.
+js
 "
 ]
 [

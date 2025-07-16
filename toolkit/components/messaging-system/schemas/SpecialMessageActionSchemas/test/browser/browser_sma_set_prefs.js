@@ -40,11 +40,9 @@ const
 TIMESTAMP_PREF
 =
 "
-datareporting
+termsofuse
 .
-policy
-.
-dataSubmissionPolicyNotifiedTime
+acceptedDate
 "
 ;
 const
