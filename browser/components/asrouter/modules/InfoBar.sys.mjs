@@ -1192,7 +1192,12 @@ formatButtonConfig
 b
 )
 )
-false
+true
+/
+/
+Disables
+clickjacking
+protections
 content
 .
 dismissable
