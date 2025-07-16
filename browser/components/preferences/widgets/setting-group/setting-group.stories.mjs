@@ -243,6 +243,12 @@ visible
 =
 >
 true
+getControlConfig
+:
+c
+=
+>
+c
 }
 ;
 }
