@@ -80,6 +80,9 @@ SUPPORTED_CSS
 is_displayed
 =
 True
+timeout
+=
+45
 )
     
 assert

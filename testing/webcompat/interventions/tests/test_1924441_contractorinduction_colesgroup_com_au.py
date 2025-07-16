@@ -179,6 +179,16 @@ pytest
 .
 mark
 .
+skip_platforms
+(
+"
+android
+"
+)
+pytest
+.
+mark
+.
 asyncio
 pytest
 .

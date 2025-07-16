@@ -67,6 +67,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 no_skip
 =
 True

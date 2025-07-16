@@ -19,6 +19,15 @@ LOGIN_CSS
 "
 #
 userID
+[
+data
+-
+testid
+=
+'
+emailInput_TextInput
+'
+]
 "
 UNSUPPORTED_CSS
 =
@@ -158,6 +167,7 @@ pytest
 .
 skip
 (
+            
 "
 Region
 -
@@ -171,9 +181,15 @@ a
 VPN
 set
 to
+a
+different
+region
+in
+the
 USA
 .
 "
+        
 )
         
 return

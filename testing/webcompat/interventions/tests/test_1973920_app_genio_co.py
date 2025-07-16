@@ -97,16 +97,21 @@ USERNAME_CSS
 is_displayed
 =
 True
+timeout
+=
+60
 )
 .
 send_keys
 (
+        
 credentials
 [
 "
 username
 "
 ]
+    
 )
     
 client

@@ -55,6 +55,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 hero

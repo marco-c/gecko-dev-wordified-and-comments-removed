@@ -610,11 +610,14 @@ use_strict_etp
 ]
         
 if
+test_config
+.
+get
+(
 "
 no_overlay_scrollbars
 "
-in
-test_config
+)
 :
             
 prefs
@@ -652,11 +655,14 @@ enabled
 False
         
 if
+test_config
+.
+get
+(
 "
 enable_moztransform
 "
-in
-test_config
+)
 :
             
 prefs
@@ -675,11 +681,14 @@ transforms
 True
         
 elif
+test_config
+.
+get
+(
 "
 disable_moztransform
 "
-in
-test_config
+)
 :
             
 prefs
@@ -3026,6 +3035,53 @@ get_closest_marker
 "
 actual_platform_required
 "
+)
+    
+if
+actualPlatformRequired
+and
+request
+.
+config
+.
+getoption
+(
+"
+platform_override
+"
+)
+:
+        
+pytest
+.
+skip
+(
+            
+f
+"
+Bug
+#
+{
+bug_number
+}
+skipped
+;
+needs
+to
+be
+run
+on
+the
+actual
+platform
+won
+'
+t
+work
+while
+overriding
+"
+        
 )
     
 if
