@@ -416,7 +416,9 @@ Backend
 error
 :
 {
-String
+JSON
+.
+stringify
 (
 backendError
 )
