@@ -17643,7 +17643,7 @@ network
 .
 send_OnDataFinished
 "
-sendOnDataFinshedFromInputStreamPump
+sendOnDataFinishedFromInputStreamPump
 :
 description
 :
