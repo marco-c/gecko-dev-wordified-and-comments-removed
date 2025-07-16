@@ -76,6 +76,11 @@ NotificationChild
 h
 "
 "
+NotificationHandler
+.
+h
+"
+"
 NotificationParent
 .
 h
@@ -97,6 +102,11 @@ cpp
 "
 "
 NotificationChild
+.
+cpp
+"
+"
+NotificationHandler
 .
 cpp
 "
