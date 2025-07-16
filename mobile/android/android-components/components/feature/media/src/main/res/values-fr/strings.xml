@@ -402,6 +402,8 @@ mozac_feature_media_sharing_camera_reminder_text
 "
 >
 Rappel
+\
+u00a0
 :
 %
 1
@@ -471,6 +473,8 @@ mozac_feature_media_sharing_microphone_reminder_text_2
 "
 >
 Rappel
+\
+u00a0
 :
 %
 1
@@ -541,6 +545,8 @@ mozac_feature_media_sharing_camera_and_microphone_reminder_text_2
 "
 >
 Rappel
+\
+u00a0
 :
 %
 1

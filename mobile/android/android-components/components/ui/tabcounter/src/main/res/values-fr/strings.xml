@@ -61,7 +61,8 @@ mozac_tab_counter_open_tab_tray
 %
 1
 s
-onglets
+\
+u00a0onglets
 ouverts
 .
 Appuyez
@@ -119,7 +120,8 @@ mozac_open_tab_counter_tab_tray
 %
 1
 s
-onglets
+\
+u00a0onglets
 non
 priv
 s

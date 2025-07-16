@@ -83,7 +83,8 @@ mozac_feature_applinks_confirm_dialog_title
 >
 Otworzy
 w
-aplikacji
+\
+u00a0aplikacji
 ?
 Twoje
 dzia
@@ -139,7 +140,8 @@ mozac_feature_applinks_confirm_dialog_title_with_app_name
 >
 Otworzy
 w
-aplikacji
+\
+u00a0aplikacji
 %
 s
 ?
@@ -192,7 +194,8 @@ mozac_feature_applinks_normal_confirm_dialog_title
 Otw
 rz
 w
-innej
+\
+u00a0innej
 aplikacji
 <
 /
@@ -247,7 +250,8 @@ mozac_feature_applinks_normal_confirm_dialog_title_with_app_name
 Otw
 rz
 w
-aplikacji
+\
+u00a0aplikacji
 %
 s
 <
@@ -405,7 +409,8 @@ otwieraj
 odno
 niki
 w
-aplikacjach
+\
+u00a0aplikacjach
 <
 /
 string

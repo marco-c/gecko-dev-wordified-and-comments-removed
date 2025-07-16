@@ -75,6 +75,8 @@ page
 %
 1
 s
+\
+u00a0
 :
 <
 /
@@ -165,10 +167,16 @@ passe
 Le
 site
 indique
+\
+u00a0
 :
+\
+u00a0
 %
 1
 s
+\
+u00a0
 <
 /
 string

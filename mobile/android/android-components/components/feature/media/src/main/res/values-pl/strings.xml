@@ -190,7 +190,8 @@ mozac_feature_media_sharing_camera_and_microphone
 >
 Aparat
 i
-mikrofon
+\
+u00a0mikrofon
 s
 w
 czone
@@ -238,7 +239,8 @@ kart
 korzystaj
 c
 z
-aparatu
+\
+u00a0aparatu
 .
 <
 /
@@ -284,7 +286,8 @@ kart
 korzystaj
 c
 z
-mikrofonu
+\
+u00a0mikrofonu
 .
 <
 /
@@ -332,9 +335,11 @@ kart
 korzystaj
 c
 z
-mikrofonu
+\
+u00a0mikrofonu
 i
-aparatu
+\
+u00a0aparatu
 .
 <
 /
@@ -397,7 +402,8 @@ s
 nadal
 korzysta
 z
-aparatu
+\
+u00a0aparatu
 .
 Stuknij
 aby
@@ -464,7 +470,8 @@ s
 nadal
 korzysta
 z
-mikrofonu
+\
+u00a0mikrofonu
 .
 Stuknij
 aby
@@ -533,9 +540,11 @@ s
 nadal
 korzysta
 z
-mikrofonu
+\
+u00a0mikrofonu
 i
-aparatu
+\
+u00a0aparatu
 .
 Stuknij
 aby
