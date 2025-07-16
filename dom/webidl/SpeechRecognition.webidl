@@ -165,14 +165,6 @@ enable
 LegacyFactoryFunction
 =
 webkitSpeechRecognition
-Func
-=
-"
-SpeechRecognition
-:
-:
-IsAuthorized
-"
 Exposed
 =
 Window
