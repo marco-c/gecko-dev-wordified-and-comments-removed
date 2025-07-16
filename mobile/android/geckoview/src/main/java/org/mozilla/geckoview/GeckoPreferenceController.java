@@ -106,6 +106,7 @@ util
 .
 GeckoBundle
 ;
+ExperimentalGeckoViewApi
 public
 class
 GeckoPreferenceController
