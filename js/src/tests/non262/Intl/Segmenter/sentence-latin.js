@@ -710,7 +710,7 @@ string
 ]
 .
 length
-1
+2
 )
 ;
 }
