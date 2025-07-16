@@ -194,7 +194,6 @@ aIsSupportGetFromCachedTransferable
 {
 add_task
 (
-async
 function
 test_clipboard_get
 (
@@ -734,7 +733,6 @@ clipboard
 data
 )
 ;
-await
 cleanupAllClipboard
 (
 )
@@ -757,7 +755,6 @@ setup
 (
 )
 {
-await
 cleanupAllClipboard
 (
 )
@@ -819,7 +816,6 @@ return
 }
 add_task
 (
-async
 function
 test_clipboard_hasDataMatchingFlavors
 (
@@ -1486,7 +1482,6 @@ Clean
 clipboard
 data
 .
-await
 cleanupAllClipboard
 (
 )
@@ -1792,12 +1787,14 @@ clipboard
 type
 )
 ;
-for
-(
-let
-otherType
-of
 clipboardTypes
+.
+forEach
+(
+async
+function
+(
+otherType
 )
 {
 if
@@ -1840,6 +1837,8 @@ otherType
 ;
 }
 }
+)
+;
 info
 (
 Check
