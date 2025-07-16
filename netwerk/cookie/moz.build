@@ -112,6 +112,11 @@ CookiePersistentStorage
 h
 "
 "
+CookiePrefixes
+.
+h
+"
+"
 CookiePrivateStorage
 .
 h
@@ -183,6 +188,11 @@ cpp
 "
 "
 CookiePersistentStorage
+.
+cpp
+"
+"
+CookiePrefixes
 .
 cpp
 "
