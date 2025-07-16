@@ -619,7 +619,7 @@ false
 }
 ;
 void
-GetOverlappingCurrentAndOtherCues
+GetOverlappingCurrentOtherAndMissCues
 (
 CueBuckets
 *
@@ -627,6 +627,9 @@ aCurrentCues
 CueBuckets
 *
 aOtherCues
+CueBuckets
+*
+aMissCues
 const
 media
 :
@@ -634,6 +637,13 @@ media
 TimeInterval
 &
 aInterval
+const
+Maybe
+<
+double
+>
+&
+aLastTime
 )
 const
 ;
