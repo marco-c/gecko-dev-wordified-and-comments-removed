@@ -35,13 +35,6 @@ ipprotection
 =
 [
 "
-GuardianClient
-.
-sys
-.
-mjs
-"
-"
 IPProtection
 .
 sys
