@@ -4187,14 +4187,6 @@ cinfo
 SECOidTag
 kind
 ;
-PORT_Assert
-(
-src_or_dest
-!
-=
-NULL
-)
-;
 if
 (
 src_or_dest
