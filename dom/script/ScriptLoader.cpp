@@ -21840,6 +21840,11 @@ _empty
 aRequest
 -
 >
+AsModuleRequest
+(
+)
+-
+>
 UpdateReferrerPolicy
 (
 policy
