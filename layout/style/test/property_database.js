@@ -17764,9 +17764,6 @@ domProp
 "
 MozAppearance
 "
-domPropDisabled
-:
-true
 inherited
 :
 false
