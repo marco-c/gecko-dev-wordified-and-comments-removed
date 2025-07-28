@@ -7129,7 +7129,7 @@ mozilla
 StyleContainerType
 :
 :
-Normal
+NORMAL
 ;
 }
 inline

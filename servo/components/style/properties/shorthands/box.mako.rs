@@ -355,6 +355,7 @@ ContainerType
 :
 parse
 (
+context
 input
 )
 ?
@@ -364,7 +365,7 @@ else
 ContainerType
 :
 :
-Normal
+NORMAL
 }
 ;
 Ok
