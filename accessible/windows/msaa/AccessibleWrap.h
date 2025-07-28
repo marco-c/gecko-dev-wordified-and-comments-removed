@@ -101,15 +101,6 @@ Shutdown
 )
 override
 ;
-static
-void
-UpdateSystemCaretFor
-(
-Accessible
-*
-aAccessible
-)
-;
 public
 :
 bool
