@@ -438,7 +438,7 @@ uint32_t
 ;
 public
 :
-PreBarriered
+HeapPtr
 <
 Value
 >
@@ -450,7 +450,7 @@ constants
 return
 offsetToPointer
 <
-PreBarriered
+HeapPtr
 <
 Value
 >
@@ -471,7 +471,7 @@ const
 return
 numElements
 <
-PreBarriered
+HeapPtr
 <
 Value
 >
@@ -1446,7 +1446,7 @@ this
 )
 ;
 }
-PreBarriered
+HeapPtr
 <
 Value
 >
