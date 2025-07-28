@@ -184,4 +184,17 @@ h
 openssl
 "
 ]
+"
+base64_benchmark
+\
+.
+cc
+"
+:
+[
+"
++
+benchmark
+"
+]
 }
