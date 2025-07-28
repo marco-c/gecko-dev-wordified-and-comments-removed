@@ -427,13 +427,6 @@ https_first_disabled
 true
 [
 "
-browser_devices_get_user_media_camera_preview
-.
-js
-"
-]
-[
-"
 browser_devices_get_user_media_default_permissions
 .
 js
