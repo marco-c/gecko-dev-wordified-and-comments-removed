@@ -2331,6 +2331,9 @@ this
 #
 recordTrendingBlockedTelemetry
 (
+details
+.
+selType
 )
 ;
 this
