@@ -4489,8 +4489,8 @@ MFTEncoder
 :
 Encode
 (
-const
 InputSample
+&
 &
 aInput
 )
@@ -4515,7 +4515,13 @@ hr
 =
 PushInput
 (
+std
+:
+:
+move
+(
 aInput
+)
 )
 ;
 if
@@ -4718,8 +4724,8 @@ MFTEncoder
 :
 PushInput
 (
-const
 InputSample
+&
 &
 aInput
 )
@@ -4743,7 +4749,13 @@ mPendingInputs
 .
 push_back
 (
+std
+:
+:
+move
+(
 aInput
+)
 )
 ;
 if
