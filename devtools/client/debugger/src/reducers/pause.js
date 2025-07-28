@@ -502,10 +502,15 @@ REMOVE_THREAD
 "
 :
 {
+const
+{
+threadActorID
+}
+=
+action
+;
 if
 (
-action
-.
 threadActorID
 in
 state
@@ -513,8 +518,6 @@ state
 threads
 |
 |
-action
-.
 threadActorID
 =
 =
@@ -540,8 +543,6 @@ threads
 delete
 threads
 [
-action
-.
 threadActorID
 ]
 ;
@@ -561,8 +562,6 @@ threadcx
 thread
 =
 =
-action
-.
 threadActorID
 )
 {
