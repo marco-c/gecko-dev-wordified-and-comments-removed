@@ -193,7 +193,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 .
 h
 "

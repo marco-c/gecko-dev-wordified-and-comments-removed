@@ -1,9 +1,9 @@
 #
 ifndef
-_include_ipc_glue_UtilityAudioDecoderChild_h__
+_include_ipc_glue_UtilityMediaServiceChild_h__
 #
 define
-_include_ipc_glue_UtilityAudioDecoderChild_h__
+_include_ipc_glue_UtilityMediaServiceChild_h__
 #
 include
 "
@@ -71,7 +71,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoder
+UtilityMediaService
 .
 h
 "
@@ -82,7 +82,7 @@ mozilla
 /
 ipc
 /
-PUtilityAudioDecoderChild
+PUtilityMediaServiceChild
 .
 h
 "
@@ -127,7 +127,7 @@ mozilla
 ipc
 {
 class
-UtilityAudioDecoderChildShutdownObserver
+UtilityMediaServiceChildShutdownObserver
 :
 public
 nsIObserver
@@ -135,7 +135,7 @@ nsIObserver
 public
 :
 explicit
-UtilityAudioDecoderChildShutdownObserver
+UtilityMediaServiceChildShutdownObserver
 (
 SandboxingKind
 aKind
@@ -170,7 +170,7 @@ private
 :
 virtual
 ~
-UtilityAudioDecoderChildShutdownObserver
+UtilityMediaServiceChildShutdownObserver
 (
 )
 =
@@ -183,11 +183,11 @@ mSandbox
 }
 ;
 class
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 final
 :
 public
-PUtilityAudioDecoderChild
+PUtilityMediaServiceChild
 #
 ifdef
 MOZ_WMF_MEDIA_ENGINE
@@ -208,7 +208,7 @@ public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 override
 )
 ;
@@ -269,7 +269,7 @@ Bind
 (
 Endpoint
 <
-PUtilityAudioDecoderChild
+PUtilityMediaServiceChild
 >
 &
 &
@@ -287,7 +287,7 @@ aKind
 static
 RefPtr
 <
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 >
 GetSingleton
 (
@@ -354,14 +354,14 @@ endif
 private
 :
 explicit
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 (
 SandboxingKind
 aKind
 )
 ;
 ~
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 (
 )
 =

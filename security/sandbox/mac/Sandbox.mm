@@ -1670,7 +1670,7 @@ profile
 .
 append
 (
-SandboxPolicyUtilityAudioDecoderAppleMediaAddend
+SandboxPolicyUtilityMediaServiceAppleMediaAddend
 )
 ;
 params

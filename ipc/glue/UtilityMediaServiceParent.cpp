@@ -1,7 +1,7 @@
 #
 include
 "
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 .
 h
 "
@@ -194,10 +194,10 @@ mozilla
 :
 ipc
 {
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 (
 nsTArray
 <
@@ -360,11 +360,11 @@ AudioDecoder
 ;
 }
 }
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 ~
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 (
 )
 {
@@ -441,7 +441,7 @@ Shutdown
 endif
 }
 void
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 GenericPreloadForSandbox
@@ -490,7 +490,7 @@ dll
 endif
 }
 void
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 WMFPreloadForSandbox
@@ -571,14 +571,14 @@ return
 endif
 }
 void
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 Start
 (
 Endpoint
 <
-PUtilityAudioDecoderParent
+PUtilityMediaServiceParent
 >
 &
 &
@@ -667,7 +667,7 @@ supported
 PROFILER_MARKER_UNTYPED
 (
 "
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 Start
@@ -693,7 +693,7 @@ ipc
 :
 :
 IPCResult
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 RecvNewContentRemoteMediaManager
@@ -760,7 +760,7 @@ ipc
 :
 :
 IPCResult
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 RecvInitVideoBridge
@@ -924,7 +924,7 @@ IPC_OK
 ;
 }
 IPCResult
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 RecvUpdateVar
@@ -956,7 +956,7 @@ self
 =
 RefPtr
 <
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 >
 {
 this
@@ -1044,7 +1044,7 @@ endif
 ifdef
 MOZ_WMF_CDM
 IPCResult
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 RecvGetKeySystemCapabilities
@@ -1132,7 +1132,7 @@ IPC_OK
 ;
 }
 IPCResult
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 RecvUpdateWidevineL1Path

@@ -93,7 +93,7 @@ ChildProc
 Parent
 ]
 protocol
-PUtilityAudioDecoder
+PUtilityMediaService
 {
 parent
 :

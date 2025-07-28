@@ -5588,7 +5588,7 @@ ReportNoTests
 endif
 }
 void
-RunTestsUtilityAudioDecoder
+RunTestsUtilityMediaService
 (
 SandboxTestingChild
 *
