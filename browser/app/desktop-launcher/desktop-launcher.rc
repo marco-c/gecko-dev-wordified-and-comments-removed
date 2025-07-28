@@ -73,3 +73,14 @@ h
 IDI_APPICON
 ICON
 FIREFOX_ICO
+IDR_COMCTL32_MANIFEST
+RT_MANIFEST
+"
+desktop
+-
+launcher
+.
+exe
+.
+manifest
+"
