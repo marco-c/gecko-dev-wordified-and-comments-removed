@@ -85,6 +85,13 @@ kCpuHasSME
 static
 const
 int
+kCpuHasSME2
+=
+0x4000
+;
+static
+const
+int
 kCpuHasRISCV
 =
 0x4

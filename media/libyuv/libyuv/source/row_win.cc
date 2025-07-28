@@ -1066,9 +1066,6 @@ width
 endif
 #
 else
-#
-ifdef
-HAS_ARGBTOUVROW_SSSE3
 static
 const
 ulvec8
@@ -1333,8 +1330,6 @@ kARGBToYJ
 0
 }
 ;
-#
-endif
 static
 const
 lvec32
@@ -5347,6 +5342,9 @@ convertloop
 ret
 }
 }
+#
+ifdef
+HAS_ARGBTOUVROW_SSSE3
 __declspec
 (
 naked
@@ -5486,6 +5484,8 @@ convertloop
 ret
 }
 }
+#
+endif
 #
 ifdef
 HAS_ARGBTOYROW_AVX2
@@ -6220,6 +6220,9 @@ convertloop
 ret
 }
 }
+#
+ifdef
+HAS_ARGBTOUVROW_SSSE3
 __declspec
 (
 naked
@@ -6767,6 +6770,8 @@ esi
 ret
 }
 }
+#
+endif
 #
 ifdef
 HAS_ARGBTOUVROW_AVX2

@@ -555,6 +555,13 @@ sanitize
 cfi
 :
 true
+config
+:
+{
+cfi_assembly_support
+:
+true
+}
 }
 }
 /

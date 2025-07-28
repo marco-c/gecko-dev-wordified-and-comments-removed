@@ -1439,7 +1439,6 @@ libyuv_unittest
 #
 MIPS
 Linux
-mips
 gn
 gen
 out
