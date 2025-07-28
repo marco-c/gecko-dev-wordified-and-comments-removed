@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_guardian_client
+.
+js
+"
+]
+[
+"
 browser_ipprotection_content
 .
 js

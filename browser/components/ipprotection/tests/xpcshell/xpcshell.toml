@@ -23,6 +23,13 @@ true
 ]
 [
 "
+test_GuardianClient
+.
+js
+"
+]
+[
+"
 test_IPProtectionPanel
 .
 js
