@@ -7,6 +7,11 @@ dom
 =
 [
 "
+HTMLTrackElement
+.
+h
+"
+"
 TextTrack
 .
 h
@@ -23,6 +28,11 @@ h
 "
 "
 TextTrackList
+.
+h
+"
+"
+TextTrackManager
 .
 h
 "
@@ -42,6 +52,11 @@ UNIFIED_SOURCES
 =
 [
 "
+HTMLTrackElement
+.
+cpp
+"
+"
 TextTrack
 .
 cpp
@@ -58,6 +73,11 @@ cpp
 "
 "
 TextTrackList
+.
+cpp
+"
+"
+TextTrackManager
 .
 cpp
 "

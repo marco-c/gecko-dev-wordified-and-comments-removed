@@ -2216,3 +2216,9 @@ true
 }
 }
 }
+#
+undef
+WEBVTT_LOG
+#
+undef
+WEBVTT_LOGV
