@@ -116,15 +116,6 @@ use_ozone
 is_chromeos
 |
 |
-(
-is_castos
-&
-&
-!
-is_android
-)
-|
-|
 is_fuchsia
 |
 |
@@ -488,10 +479,6 @@ else
 if
 (
 is_castos
-&
-&
-!
-is_fuchsia
 )
 {
 #
