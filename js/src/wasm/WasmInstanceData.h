@@ -335,7 +335,7 @@ isShared
 struct
 TableInstanceData
 {
-uint32_t
+uint64_t
 length
 ;
 void

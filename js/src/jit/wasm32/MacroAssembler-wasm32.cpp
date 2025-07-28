@@ -355,7 +355,7 @@ Register
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH
@@ -377,7 +377,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH
@@ -399,7 +399,7 @@ Register64
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH
@@ -421,7 +421,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 MOZ_CRASH

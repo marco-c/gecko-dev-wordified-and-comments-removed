@@ -9691,7 +9691,7 @@ Register64
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 cmpPtr
@@ -9707,7 +9707,7 @@ reg
 j
 (
 cond
-ok
+label
 )
 ;
 if
@@ -9747,7 +9747,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 cmpPtr
@@ -9764,7 +9764,7 @@ boundsCheckLimit
 j
 (
 cond
-ok
+label
 )
 ;
 if

@@ -6568,7 +6568,7 @@ table
 callIndirectId_
 ;
 }
-uint32_t
+uint64_t
 wasmTableMinLength
 (
 )
@@ -6595,7 +6595,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 wasmTableMaxLength
 (

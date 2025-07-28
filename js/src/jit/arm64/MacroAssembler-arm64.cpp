@@ -9805,7 +9805,7 @@ Register
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 branch32
@@ -9813,7 +9813,7 @@ branch32
 cond
 index
 boundsCheckLimit
-ok
+label
 )
 ;
 if
@@ -9858,7 +9858,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 branch32
@@ -9866,7 +9866,7 @@ branch32
 cond
 index
 boundsCheckLimit
-ok
+label
 )
 ;
 if
@@ -9911,7 +9911,7 @@ Register64
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 branchPtr
@@ -9923,7 +9923,7 @@ reg
 boundsCheckLimit
 .
 reg
-ok
+label
 )
 ;
 if
@@ -9972,7 +9972,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 branchPtr
@@ -9985,7 +9985,7 @@ boundsCheckLimit
 index
 .
 reg
-ok
+label
 )
 ;
 if
