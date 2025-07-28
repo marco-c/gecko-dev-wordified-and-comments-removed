@@ -406,6 +406,16 @@ NotifyVideoResizing
 (
 )
 ;
+#
+ifdef
+MOZ_WMF_CDM
+void
+NotifyDisableHWDRM
+(
+)
+;
+#
+endif
 static
 inline
 uint64_t
