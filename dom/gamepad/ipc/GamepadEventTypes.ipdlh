@@ -200,9 +200,6 @@ GamepadHand
 hand
 ;
 uint32_t
-display_id
-;
-uint32_t
 num_buttons
 ;
 uint32_t

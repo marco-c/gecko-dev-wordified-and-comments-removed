@@ -899,8 +899,6 @@ aMapping
 GamepadHand
 aHand
 uint32_t
-aDisplayID
-uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -927,7 +925,6 @@ aId
 aHandle
 aMapping
 aHand
-aDisplayID
 aNumButtons
 aNumAxes
 aNumHaptics
@@ -2181,11 +2178,6 @@ a
 hand
 (
 )
-)
-a
-.
-display_id
-(
 )
 a
 .
@@ -3536,11 +3528,6 @@ mapping
 addedGamepad
 .
 hand
-(
-)
-addedGamepad
-.
-display_id
 (
 )
 addedGamepad

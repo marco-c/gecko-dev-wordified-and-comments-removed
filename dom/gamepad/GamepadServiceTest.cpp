@@ -603,7 +603,6 @@ aID
 )
 aMapping
 aHand
-0
 aNumButtons
 aNumAxes
 aNumHaptics
