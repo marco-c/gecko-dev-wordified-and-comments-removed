@@ -1024,11 +1024,6 @@ hasActiveEnterprisePolicies
 typeAssertions
 .
 boolean
-hasPinnedTabs
-:
-typeAssertions
-.
-boolean
 homePageSettings
 :
 pick
