@@ -104,6 +104,21 @@ client
 )
 :
     
+await
+client
+.
+make_preload_script
+(
+"
+delete
+navigator
+.
+__proto__
+.
+webdriver
+"
+)
+    
 client
 .
 set_screen_size

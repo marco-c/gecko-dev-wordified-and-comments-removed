@@ -53,7 +53,7 @@ pytest
 .
 mark
 .
-skip_platforms
+only_platforms
 (
 "
 android
@@ -88,7 +88,7 @@ pytest
 .
 mark
 .
-skip_platforms
+only_platforms
 (
 "
 android
