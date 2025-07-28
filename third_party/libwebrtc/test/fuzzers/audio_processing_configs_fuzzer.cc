@@ -295,14 +295,9 @@ std
 string
 *
 field_trial_string
-absl
-:
-:
-Nonnull
-<
 TaskQueueBase
 *
->
+absl_nonnull
 worker_queue
 )
 {

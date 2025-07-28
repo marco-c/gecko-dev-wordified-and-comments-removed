@@ -88,15 +88,10 @@ h
 namespace
 webrtc
 {
-absl
-:
-:
-Nullable
-<
+absl_nullable
 scoped_refptr
 <
 AudioProcessing
->
 >
 BuiltinAudioProcessingBuilder
 :

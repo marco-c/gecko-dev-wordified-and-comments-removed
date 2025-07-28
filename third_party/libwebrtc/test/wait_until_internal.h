@@ -73,11 +73,6 @@ const
 T
 &
 value
-absl
-:
-:
-Nonnull
-<
 :
 :
 testing
@@ -85,7 +80,7 @@ testing
 :
 StringMatchResultListener
 *
->
+absl_nonnull
 listener
 absl
 :

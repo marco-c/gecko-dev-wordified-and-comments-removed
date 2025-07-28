@@ -443,14 +443,9 @@ generator
 )
 override
 ;
-absl
-:
-:
-Nonnull
-<
 EmulatedNetworkManagerInterface
 *
->
+absl_nonnull
 CreateEmulatedNetworkManagerInterface
 (
 const

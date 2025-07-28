@@ -497,14 +497,9 @@ const
 Environment
 &
 env
-absl
-:
-:
-Nonnull
-<
 TaskQueueBase
 *
->
+absl_nonnull
 transport_queue
 const
 std

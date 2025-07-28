@@ -170,14 +170,9 @@ CreateAttachedToTaskQueue
 (
 bool
 alive
-absl
-:
-:
-Nonnull
-<
 TaskQueueBase
 *
->
+absl_nonnull
 attached_queue
 )
 {

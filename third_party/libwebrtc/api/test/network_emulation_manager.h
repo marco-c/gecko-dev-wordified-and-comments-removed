@@ -922,14 +922,9 @@ generator
 0
 ;
 virtual
-absl
-:
-:
-Nonnull
-<
 EmulatedNetworkManagerInterface
 *
->
+absl_nonnull
 CreateEmulatedNetworkManagerInterface
 (
 const

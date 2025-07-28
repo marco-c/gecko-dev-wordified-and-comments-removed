@@ -49,11 +49,7 @@ EnableFakeMedia
 PeerConnectionFactoryDependencies
 &
 deps
-absl
-:
-:
-Nonnull
-<
+absl_nonnull
 std
 :
 :
@@ -63,7 +59,6 @@ cricket
 :
 :
 FakeMediaEngine
->
 >
 fake_media_engine
 )

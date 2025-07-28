@@ -5381,11 +5381,7 @@ std
 nullopt
 ;
 }
-absl
-:
-:
-Nullable
-<
+absl_nullable
 std
 :
 :
@@ -5395,7 +5391,6 @@ webrtc
 :
 :
 AudioEncoder
->
 >
 Create
 (
@@ -5549,11 +5544,7 @@ return
 false
 ;
 }
-absl
-:
-:
-Nullable
-<
+absl_nullable
 std
 :
 :
@@ -5563,7 +5554,6 @@ webrtc
 :
 :
 AudioDecoder
->
 >
 Create
 (
