@@ -5851,6 +5851,7 @@ workerPrivate
 >
 SendNotificationClickEvent
 (
+aScope
 aNotification
 aAction
 )
@@ -5934,6 +5935,7 @@ workerPrivate
 >
 SendNotificationCloseEvent
 (
+aScope
 aNotification
 )
 ;
