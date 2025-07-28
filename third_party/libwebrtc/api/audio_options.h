@@ -26,7 +26,7 @@ rtc_export
 h
 "
 namespace
-cricket
+webrtc
 {
 struct
 RTC_EXPORT
@@ -214,6 +214,18 @@ bool
 init_recording_on_send
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+AudioOptions
 ;
 }
 #

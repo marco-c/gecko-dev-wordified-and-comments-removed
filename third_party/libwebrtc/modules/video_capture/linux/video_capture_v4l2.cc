@@ -908,9 +908,6 @@ pixelformat
 "
 <
 <
-cricket
-:
-:
 GetFourccName
 (
 fmt
@@ -1023,9 +1020,6 @@ format
 "
 <
 <
-cricket
-:
-:
 GetFourccName
 (
 fmts

@@ -122,7 +122,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 IceControllerInterface
@@ -145,7 +145,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 BasicIceController
@@ -171,9 +171,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 P2PTransportChannel
 >
 internal
@@ -251,9 +248,6 @@ make_ref_counted
 DefaultIceTransport
 >
 (
-cricket
-:
-:
 P2PTransportChannel
 :
 :

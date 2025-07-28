@@ -49,7 +49,7 @@ transport_description
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 ActiveIceControllerInterface
@@ -69,9 +69,6 @@ void
 SetIceConfig
 (
 const
-webrtc
-:
-:
 IceConfig
 &
 config
@@ -147,9 +144,6 @@ const
 Connection
 *
 connection
-webrtc
-:
-:
 NominationMode
 mode
 IceMode
@@ -204,6 +198,18 @@ FindNextPingableConnection
 0
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+ActiveIceControllerInterface
 ;
 }
 #

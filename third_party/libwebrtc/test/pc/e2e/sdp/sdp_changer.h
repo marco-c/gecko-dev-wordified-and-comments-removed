@@ -389,9 +389,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -442,9 +439,6 @@ webrtc
 RtpExtension
 rrid_extension
 ;
-cricket
-:
-:
 TransportDescription
 transport_description
 ;

@@ -882,7 +882,7 @@ GetAndAddUserMedia
 (
 )
 {
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -902,7 +902,7 @@ GetAndAddUserMedia
 bool
 audio
 const
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -5116,7 +5116,7 @@ i
 i
 <
 =
-cricket
+webrtc
 :
 :
 kMaxSctpStreams
@@ -5193,7 +5193,7 @@ testing
 :
 SizeIs
 (
-cricket
+webrtc
 :
 :
 kMaxSctpStreams
@@ -5233,7 +5233,7 @@ kOpen
 channels
 [
 (
-cricket
+webrtc
 :
 :
 kMaxSctpStreams
@@ -5258,7 +5258,7 @@ DataChannelInterface
 kClosed
 channels
 [
-cricket
+webrtc
 :
 :
 kMaxSctpStreams

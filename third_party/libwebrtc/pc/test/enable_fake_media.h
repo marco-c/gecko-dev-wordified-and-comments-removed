@@ -55,9 +55,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 fake_media_engine

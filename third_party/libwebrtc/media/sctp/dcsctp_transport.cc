@@ -627,9 +627,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 SctpErrorCauseCode
 >
 ToErrorCauseCode
@@ -656,9 +653,6 @@ ErrorKind
 kParseFailed
 :
 return
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :
@@ -674,9 +668,6 @@ ErrorKind
 kPeerReported
 :
 return
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :
@@ -701,9 +692,6 @@ ErrorKind
 kProtocolViolation
 :
 return
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :
@@ -719,9 +707,6 @@ ErrorKind
 kResourceExhaustion
 :
 return
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :
@@ -830,9 +815,6 @@ env
 Thread
 *
 network_thread
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -870,9 +852,6 @@ env
 Thread
 *
 network_thread
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -1103,9 +1082,6 @@ DcSctpTransport
 :
 SetDtlsTransport
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -4610,9 +4586,6 @@ DcSctpTransport
 :
 OnDtlsTransportState
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport

@@ -132,9 +132,6 @@ c
 component
 (
 )
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_DEFAULT
 )
 ;
@@ -142,9 +139,6 @@ c
 .
 set_component
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 )
 ;
@@ -155,9 +149,6 @@ c
 component
 (
 )
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 )
 ;

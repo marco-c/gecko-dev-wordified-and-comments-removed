@@ -39,7 +39,7 @@ webrtc
 RTCErrorType
 ;
 namespace
-cricket
+webrtc
 {
 TEST
 (

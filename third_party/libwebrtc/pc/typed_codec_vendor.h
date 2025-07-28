@@ -59,9 +59,6 @@ TypedCodecVendor
 }
 TypedCodecVendor
 (
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

@@ -8562,9 +8562,6 @@ desc
 >
 GetGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -8602,9 +8599,6 @@ desc
 >
 RemoveGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -11867,9 +11861,6 @@ desc
 >
 RemoveGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;

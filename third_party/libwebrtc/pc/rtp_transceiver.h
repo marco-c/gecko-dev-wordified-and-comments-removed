@@ -476,9 +476,6 @@ Call
 *
 call_ptr
 const
-cricket
-:
-:
 MediaConfig
 &
 media_config
@@ -487,16 +484,10 @@ srtp_required
 CryptoOptions
 crypto_options
 const
-cricket
-:
-:
 AudioOptions
 &
 audio_options
 const
-cricket
-:
-:
 VideoOptions
 &
 video_options
@@ -1041,9 +1032,6 @@ content
 )
 ;
 private
-:
-cricket
-:
 :
 MediaEngineInterface
 *

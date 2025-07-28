@@ -121,9 +121,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 DtlsTransportInternal
 >
 internal
@@ -167,9 +164,6 @@ Clear
 (
 )
 ;
-cricket
-:
-:
 DtlsTransportInternal
 *
 internal
@@ -190,9 +184,6 @@ get
 ;
 }
 const
-cricket
-:
-:
 DtlsTransportInternal
 *
 internal
@@ -225,9 +216,6 @@ private
 void
 OnInternalDtlsState
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -297,9 +285,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 DtlsTransportInternal
 >
 internal_dtls_transport_

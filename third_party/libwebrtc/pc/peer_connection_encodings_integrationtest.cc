@@ -1501,9 +1501,6 @@ local
 GetUserMedia
 (
 false
-cricket
-:
-:
 AudioOptions
 (
 )

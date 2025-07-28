@@ -599,9 +599,6 @@ CreateAudio
 "
 AUDIO
 "
-cricket
-:
-:
 AudioOptions
 (
 )

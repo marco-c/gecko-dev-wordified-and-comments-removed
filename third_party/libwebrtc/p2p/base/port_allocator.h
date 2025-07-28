@@ -383,9 +383,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 ProtocolAddress
 >
 PortList
@@ -908,9 +905,6 @@ signal2
 PortAllocatorSession
 *
 const
-cricket
-:
-:
 IceCandidateErrorEvent
 &
 >
@@ -1430,9 +1424,6 @@ PortAllocatorSession
 GetPooledSession
 (
 const
-cricket
-:
-:
 IceParameters
 *
 ice_credentials
@@ -1747,9 +1738,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 IceParameters
 >
 GetPooledIceCredentials
@@ -1994,9 +1982,6 @@ const_iterator
 FindPooledSession
 (
 const
-cricket
-:
-:
 IceParameters
 *
 ice_credentials

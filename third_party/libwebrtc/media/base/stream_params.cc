@@ -92,7 +92,7 @@ unique_id_generator
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -108,9 +108,6 @@ const
 uint32_t
 >
 ssrcs
-rtc
-:
-:
 SimpleStringBuilder
 *
 sb
@@ -178,9 +175,6 @@ const
 SsrcGroup
 >
 ssrc_groups
-rtc
-:
-:
 SimpleStringBuilder
 *
 sb
@@ -248,9 +242,6 @@ std
 string
 >
 stream_ids
-rtc
-:
-:
 SimpleStringBuilder
 *
 sb
@@ -314,9 +305,6 @@ const
 RidDescription
 >
 rids
-rtc
-:
-:
 SimpleStringBuilder
 *
 sb
@@ -343,6 +331,9 @@ delimiter
 for
 (
 const
+cricket
+:
+:
 RidDescription
 &
 rid
@@ -616,9 +607,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -833,9 +821,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -997,9 +982,6 @@ bool
 generate_fid
 bool
 generate_fec_fr
-rtc
-:
-:
 UniqueRandomIdGenerator
 *
 ssrc_generator

@@ -885,9 +885,6 @@ IsCurrent
 )
 ;
 return
-cricket
-:
-:
 ComputeStunCredentialHash
 (
 std

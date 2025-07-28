@@ -10,7 +10,7 @@ include
 optional
 >
 namespace
-cricket
+webrtc
 {
 struct
 IceFieldTrials
@@ -117,6 +117,18 @@ answer_goog_delta
 true
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+IceFieldTrials
 ;
 }
 #

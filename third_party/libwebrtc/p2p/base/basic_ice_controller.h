@@ -144,7 +144,7 @@ network_constants
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 BasicIceController
@@ -158,9 +158,6 @@ explicit
 BasicIceController
 (
 const
-webrtc
-:
-:
 IceControllerFactoryArgs
 &
 args
@@ -176,9 +173,6 @@ void
 SetIceConfig
 (
 const
-webrtc
-:
-:
 IceConfig
 &
 config
@@ -305,9 +299,6 @@ const
 Connection
 *
 conn
-webrtc
-:
-:
 NominationMode
 mode
 IceMode
@@ -451,6 +442,9 @@ std
 :
 max
 (
+webrtc
+:
+:
 MIN_CHECK_RECEIVING_INTERVAL
 config_
 .
@@ -568,9 +562,6 @@ std
 map
 <
 const
-webrtc
-:
-:
 Network
 *
 const
@@ -632,9 +623,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 AdapterType
 >
 network_preference
@@ -721,6 +709,9 @@ std
 :
 function
 <
+cricket
+:
+:
 IceTransportState
 (
 )
@@ -752,9 +743,6 @@ Connection
 >
 is_connection_pruned_func_
 ;
-webrtc
-:
-:
 IceConfig
 config_
 ;
@@ -809,6 +797,18 @@ initial_select_timestamp_ms_
 0
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+BasicIceController
 ;
 }
 #

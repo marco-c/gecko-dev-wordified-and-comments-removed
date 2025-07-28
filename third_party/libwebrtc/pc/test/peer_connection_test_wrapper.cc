@@ -1156,7 +1156,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 FakePortAllocator
@@ -2919,7 +2919,7 @@ GetAndAddUserMedia
 bool
 audio
 const
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -3045,7 +3045,7 @@ GetUserMedia
 bool
 audio
 const
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -3103,7 +3103,7 @@ if
 audio
 )
 {
-cricket
+webrtc
 :
 :
 AudioOptions

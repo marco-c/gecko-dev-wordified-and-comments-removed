@@ -123,9 +123,6 @@ on_audio_channel_gone_action
 void
 Start
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel
@@ -142,9 +139,6 @@ ssrc
 void
 Stop
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel

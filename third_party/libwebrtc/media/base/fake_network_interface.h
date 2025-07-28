@@ -212,9 +212,6 @@ class
 FakeNetworkInterface
 :
 public
-cricket
-:
-:
 MediaChannelNetworkInterface
 {
 public
@@ -262,9 +259,6 @@ DSCP_NO_CHANGE
 void
 SetDestination
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 dest
@@ -1211,9 +1205,6 @@ TaskQueueBase
 *
 thread_
 ;
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 dest_

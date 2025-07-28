@@ -307,9 +307,6 @@ return
 GetFmtpParameterOrDefault
 (
 params
-cricket
-:
-:
 kH264FmtpPacketizationMode
 "
 0
@@ -359,9 +356,6 @@ return
 GetFmtpParameterOrDefault
 (
 params
-cricket
-:
-:
 kAv1FmtpTier
 "
 0
@@ -411,9 +405,6 @@ return
 GetFmtpParameterOrDefault
 (
 params
-cricket
-:
-:
 kAv1FmtpLevelIdx
 "
 5
@@ -466,9 +457,6 @@ return
 GetFmtpParameterOrDefault
 (
 params
-cricket
-:
-:
 kH265FmtpTxMode
 "
 SRST
@@ -576,9 +564,6 @@ if
 (
 either_name_matches
 (
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -600,9 +585,6 @@ if
 (
 either_name_matches
 (
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -617,9 +599,6 @@ if
 (
 either_name_matches
 (
-cricket
-:
-:
 kAv1CodecName
 )
 )
@@ -651,9 +630,6 @@ if
 (
 either_name_matches
 (
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -844,9 +820,6 @@ codec_to_match
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 &
 apt_value_1
@@ -858,9 +831,6 @@ potential_match
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 &
 apt_value_2
@@ -926,9 +896,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 )
 ;
@@ -941,9 +908,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 )
 ;
@@ -1223,9 +1187,6 @@ absl
 EqualsIgnoreCase
 (
 name
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -1283,9 +1244,6 @@ absl
 EqualsIgnoreCase
 (
 name
-cricket
-:
-:
 kAv1CodecName
 )
 )
@@ -1296,9 +1254,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kAv1FmtpProfile
 )
 )
@@ -1326,9 +1281,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kAv1FmtpProfile
 AV1ProfileToString
 (
@@ -1350,9 +1302,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kAv1FmtpTier
 )
 )
@@ -1362,9 +1311,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kAv1FmtpTier
 AV1GetTierOrDefault
 (
@@ -1381,9 +1327,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kAv1FmtpLevelIdx
 )
 )
@@ -1393,9 +1336,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kAv1FmtpLevelIdx
 AV1GetLevelIdxOrDefault
 (
@@ -1415,9 +1355,6 @@ absl
 EqualsIgnoreCase
 (
 name
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -1428,9 +1365,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kH264FmtpPacketizationMode
 )
 )
@@ -1440,9 +1374,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 H264GetPacketizationModeOrDefault
 (
@@ -1465,9 +1396,6 @@ absl
 EqualsIgnoreCase
 (
 name
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -1496,9 +1424,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kH265FmtpProfileId
 )
 )
@@ -1508,9 +1433,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kH265FmtpProfileId
 H265ProfileToString
 (
@@ -1529,9 +1451,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kH265FmtpLevelId
 )
 )
@@ -1541,9 +1460,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kH265FmtpLevelId
 H265LevelToString
 (
@@ -1562,9 +1478,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kH265FmtpTierFlag
 )
 )
@@ -1574,9 +1487,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kH265FmtpTierFlag
 H265TierToString
 (
@@ -1596,9 +1506,6 @@ if
 HasParameter
 (
 params
-cricket
-:
-:
 kH265FmtpTxMode
 )
 )
@@ -1608,9 +1515,6 @@ updated_params
 insert
 (
 {
-cricket
-:
-:
 kH265FmtpTxMode
 GetH265TxModeOrDefault
 (
@@ -2355,9 +2259,6 @@ rtp_codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {

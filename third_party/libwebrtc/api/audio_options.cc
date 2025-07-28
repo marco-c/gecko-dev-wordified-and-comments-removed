@@ -38,7 +38,7 @@ string_builder
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -50,9 +50,6 @@ T
 void
 ToStringIfSet
 (
-rtc
-:
-:
 SimpleStringBuilder
 *
 result
@@ -428,9 +425,6 @@ buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 result
 (

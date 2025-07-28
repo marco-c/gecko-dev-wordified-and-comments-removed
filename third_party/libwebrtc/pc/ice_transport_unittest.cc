@@ -205,9 +205,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeIceTransport
 >
 (
@@ -280,9 +277,6 @@ IceTransportTest
 CreateSelfDeletingTransport
 )
 {
-cricket
-:
-:
 FakePortAllocator
 port_allocator
 (

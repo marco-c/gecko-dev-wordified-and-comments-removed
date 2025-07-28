@@ -958,9 +958,6 @@ num_temporal_layers
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 kDefaultVideoMaxFramerate
 streams
 [
@@ -1214,9 +1211,6 @@ num_temporal_layers
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 kDefaultVideoMaxFramerate
 streams
 [

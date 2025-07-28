@@ -241,7 +241,7 @@ empty
 ;
 }
 namespace
-cricket
+webrtc
 {
 using
 :

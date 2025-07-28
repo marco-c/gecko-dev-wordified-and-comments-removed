@@ -365,9 +365,6 @@ RemoteAudioSource
 :
 Start
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel
@@ -436,9 +433,6 @@ RemoteAudioSource
 :
 Stop
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel

@@ -470,9 +470,6 @@ get
 }
 protected
 :
-cricket
-:
-:
 FakeMediaEngine
 *
 media_engine
@@ -482,9 +479,6 @@ media_engine
 return
 static_cast
 <
-cricket
-:
-:
 FakeMediaEngine
 *
 >
@@ -589,9 +583,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (

@@ -128,10 +128,10 @@ video_capture_v4l2
 .
 cc
 index
-7f851fd7bd
+ccb6b79630
 .
 .
-00fccf2c11
+c4b22bfca5
 100644
 -
 -
@@ -162,10 +162,10 @@ video_capture_v4l2
 .
 cc
 -
-303
+301
 8
 +
-303
+301
 8
 int32_t
 VideoCaptureModuleV4L2

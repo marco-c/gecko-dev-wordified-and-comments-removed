@@ -509,9 +509,6 @@ EqualsIgnoreCase
 format
 .
 name
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -531,9 +528,6 @@ EqualsIgnoreCase
 format
 .
 name
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -555,9 +549,6 @@ EqualsIgnoreCase
 format
 .
 name
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -579,9 +570,6 @@ EqualsIgnoreCase
 format
 .
 name
-cricket
-:
-:
 kAv1CodecName
 )
 &

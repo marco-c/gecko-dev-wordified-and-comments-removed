@@ -41,7 +41,7 @@ async_packet_socket
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 TurnPortFactory
@@ -70,9 +70,6 @@ const
 CreateRelayPortArgs
 &
 args
-webrtc
-:
-:
 AsyncPacketSocket
 *
 udp_socket
@@ -100,6 +97,18 @@ max_port
 override
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+TurnPortFactory
 ;
 }
 #

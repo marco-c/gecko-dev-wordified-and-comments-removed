@@ -52,7 +52,7 @@ transport_description
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 IceAgentInterface
@@ -174,6 +174,18 @@ connections
 0
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+IceAgentInterface
 ;
 }
 #

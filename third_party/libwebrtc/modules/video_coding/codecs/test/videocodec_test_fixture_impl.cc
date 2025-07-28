@@ -1566,9 +1566,6 @@ codec_params
 =
 {
 {
-cricket
-:
-:
 kH264FmtpProfileLevelId
 *
 H264ProfileLevelIdToString
@@ -1588,16 +1585,10 @@ kLevel3_1
 )
 }
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 packetization_mode
 }
 {
-cricket
-:
-:
 kH264FmtpLevelAsymmetryAllowed
 "
 1
@@ -1660,9 +1651,6 @@ EqualsIgnoreCase
 config
 .
 codec_name
-cricket
-:
-:
 kAv1CodecName
 )
 )

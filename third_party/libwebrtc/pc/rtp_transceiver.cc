@@ -1283,9 +1283,6 @@ Call
 *
 call_ptr
 const
-cricket
-:
-:
 MediaConfig
 &
 media_config
@@ -1294,16 +1291,10 @@ srtp_required
 CryptoOptions
 crypto_options
 const
-cricket
-:
-:
 AudioOptions
 &
 audio_options
 const
-cricket
-:
-:
 VideoOptions
 &
 video_options
@@ -1447,9 +1438,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 >
 media_send_channel
@@ -1477,9 +1465,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 >
 media_receive_channel
@@ -1654,9 +1639,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VideoMediaSendChannelInterface
 >
 media_send_channel
@@ -1684,9 +1666,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 >
 media_receive_channel

@@ -2074,9 +2074,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -2097,9 +2094,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -2352,9 +2346,6 @@ IceCandidateInterface
 candidate
 )
 ;
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine
@@ -2471,9 +2462,6 @@ network_thread
 )
 ;
 const
-cricket
-:
-:
 AudioOptions
 &
 audio_options
@@ -2485,9 +2473,6 @@ audio_options_
 ;
 }
 const
-cricket
-:
-:
 VideoOptions
 &
 video_options
@@ -2883,9 +2868,6 @@ signaling_thread
 )
 )
 ;
-cricket
-:
-:
 AudioOptions
 audio_options_
 RTC_GUARDED_BY
@@ -2895,9 +2877,6 @@ signaling_thread
 )
 )
 ;
-cricket
-:
-:
 VideoOptions
 video_options_
 RTC_GUARDED_BY

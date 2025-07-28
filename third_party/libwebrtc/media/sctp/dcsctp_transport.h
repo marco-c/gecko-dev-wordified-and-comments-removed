@@ -312,9 +312,6 @@ class
 DcSctpTransport
 :
 public
-cricket
-:
-:
 SctpTransportInternal
 public
 dcsctp
@@ -340,9 +337,6 @@ env
 Thread
 *
 network_thread
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -357,9 +351,6 @@ env
 Thread
 *
 network_thread
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -410,9 +401,6 @@ override
 void
 SetDtlsTransport
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -775,9 +763,6 @@ packet
 void
 OnDtlsTransportState
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -796,9 +781,6 @@ Thread
 *
 network_thread_
 ;
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport_

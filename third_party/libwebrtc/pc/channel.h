@@ -328,9 +328,6 @@ BaseChannel
 public
 ChannelInterface
 public
-cricket
-:
-:
 MediaChannelNetworkInterface
 public
 RtpPacketSinkInterface
@@ -353,9 +350,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaSendChannelInterface
 >
 media_send_channel
@@ -364,9 +358,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaReceiveChannelInterface
 >
 media_receive_channel
@@ -576,9 +567,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -598,9 +586,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -678,9 +663,6 @@ packet
 )
 override
 ;
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -710,9 +692,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -742,9 +721,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
@@ -774,9 +750,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -1110,9 +1083,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -1294,9 +1264,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaSendChannelInterface
 >
 media_send_channel_
@@ -1307,9 +1274,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaReceiveChannelInterface
 >
 media_receive_channel_
@@ -1551,9 +1515,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 local_streams_
@@ -1569,9 +1530,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 remote_streams_
@@ -1665,9 +1623,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 >
 send_channel_impl
@@ -1676,9 +1631,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 >
 receive_channel_impl
@@ -1727,9 +1679,6 @@ return
 this
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 send_channel
@@ -1745,9 +1694,6 @@ AsVoiceSendChannel
 )
 ;
 }
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 receive_channel
@@ -1763,9 +1709,6 @@ AsVoiceReceiveChannel
 )
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 media_send_channel
@@ -1779,9 +1722,6 @@ send_channel
 )
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -1795,9 +1735,6 @@ send_channel
 )
 ;
 }
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_receive_channel
@@ -1811,9 +1748,6 @@ receive_channel
 )
 ;
 }
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -1903,9 +1837,6 @@ worker_thread
 )
 override
 ;
-cricket
-:
-:
 AudioSenderParameter
 last_send_params_
 RTC_GUARDED_BY
@@ -1915,9 +1846,6 @@ worker_thread
 )
 )
 ;
-cricket
-:
-:
 AudioReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY
@@ -1953,9 +1881,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VideoMediaSendChannelInterface
 >
 media_send_channel
@@ -1964,9 +1889,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 >
 media_receive_channel
@@ -2015,9 +1937,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 send_channel
@@ -2033,9 +1952,6 @@ AsVideoSendChannel
 )
 ;
 }
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 receive_channel
@@ -2051,9 +1967,6 @@ AsVideoReceiveChannel
 )
 ;
 }
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 media_send_channel
@@ -2067,9 +1980,6 @@ send_channel
 )
 ;
 }
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -2083,9 +1993,6 @@ send_channel
 )
 ;
 }
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 media_receive_channel
@@ -2099,9 +2006,6 @@ receive_channel
 )
 ;
 }
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
@@ -2191,9 +2095,6 @@ worker_thread
 )
 override
 ;
-cricket
-:
-:
 VideoSenderParameters
 last_send_params_
 RTC_GUARDED_BY
@@ -2203,9 +2104,6 @@ worker_thread
 )
 )
 ;
-cricket
-:
-:
 VideoReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY

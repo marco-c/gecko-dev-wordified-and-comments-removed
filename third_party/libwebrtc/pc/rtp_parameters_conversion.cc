@@ -107,9 +107,6 @@ id
 )
 =
 =
-cricket
-:
-:
 kRtcpFbParamCcm
 )
 {
@@ -122,9 +119,6 @@ param
 )
 =
 =
-cricket
-:
-:
 kRtcpFbCcmParamFir
 )
 {
@@ -185,9 +179,6 @@ id
 )
 =
 =
-cricket
-:
-:
 kRtcpFbParamLntf
 )
 {
@@ -257,9 +248,6 @@ id
 )
 =
 =
-cricket
-:
-:
 kRtcpFbParamNack
 )
 {
@@ -300,9 +288,6 @@ param
 )
 =
 =
-cricket
-:
-:
 kRtcpFbNackParamPli
 )
 {
@@ -363,9 +348,6 @@ id
 )
 =
 =
-cricket
-:
-:
 kRtcpFbParamRemb
 )
 {
@@ -436,9 +418,6 @@ id
 )
 =
 =
-cricket
-:
-:
 kRtcpFbParamTransportCc
 )
 {
@@ -794,9 +773,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {
@@ -821,9 +797,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kUlpfecCodecName
 )
 {
@@ -840,9 +813,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kFlexfecCodecName
 )
 {
@@ -859,9 +829,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 )
 {
@@ -893,9 +860,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 |
 |
@@ -904,9 +868,6 @@ cricket_codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {

@@ -20,7 +20,7 @@ include
 optional
 >
 namespace
-cricket
+webrtc
 {
 class
 AudioSource
@@ -109,6 +109,18 @@ AudioSource
 {
 }
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+AudioSource
 ;
 }
 #

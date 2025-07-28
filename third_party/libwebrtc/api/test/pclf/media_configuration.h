@@ -1040,9 +1040,6 @@ string
 >
 output_dump_file_name
 ;
-cricket
-:
-:
 AudioOptions
 audio_options
 ;

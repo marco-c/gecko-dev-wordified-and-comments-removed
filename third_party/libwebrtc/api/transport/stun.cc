@@ -199,7 +199,7 @@ webrtc
 ByteBufferWriter
 ;
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -240,9 +240,6 @@ length
 )
 =
 =
-cricket
-:
-:
 kStunTransactionIdLength
 |
 |
@@ -253,9 +250,6 @@ length
 )
 =
 =
-cricket
-:
-:
 kStunLegacyTransactionIdLength
 )
 <
@@ -3995,15 +3989,9 @@ other
 nullptr
 )
 ;
-webrtc
-:
-:
 ByteBufferWriter
 tmp_buffer_ptr1
 ;
-webrtc
-:
-:
 ByteBufferWriter
 tmp_buffer_ptr2
 ;
@@ -4300,9 +4288,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -4670,9 +4655,6 @@ StunAddressAttribute
 uint16_t
 type
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -4847,9 +4829,6 @@ return
 false
 ;
 }
-webrtc
-:
-:
 IPAddress
 ipaddr
 (
@@ -4858,9 +4837,6 @@ v4addr
 ;
 SetAddress
 (
-webrtc
-:
-:
 SocketAddress
 (
 ipaddr
@@ -4929,9 +4905,6 @@ return
 false
 ;
 }
-webrtc
-:
-:
 IPAddress
 ipaddr
 (
@@ -4940,9 +4913,6 @@ v6addr
 ;
 SetAddress
 (
-webrtc
-:
-:
 SocketAddress
 (
 ipaddr
@@ -5068,9 +5038,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -5118,9 +5085,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -5159,9 +5123,6 @@ StunXorAddressAttribute
 uint16_t
 type
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -5232,9 +5193,6 @@ owner_
 owner
 ;
 }
-webrtc
-:
-:
 IPAddress
 StunXorAddressAttribute
 :
@@ -5249,9 +5207,6 @@ if
 owner_
 )
 {
-webrtc
-:
-:
 IPAddress
 ip
 =
@@ -5300,9 +5255,6 @@ kStunMagicCookie
 )
 ;
 return
-webrtc
-:
-:
 IPAddress
 (
 v4addr
@@ -5462,9 +5414,6 @@ transactionid_as_ints
 )
 ;
 return
-webrtc
-:
-:
 IPAddress
 (
 v6addr
@@ -5477,9 +5426,6 @@ break
 }
 }
 return
-webrtc
-:
-:
 IPAddress
 (
 )
@@ -5524,9 +5470,6 @@ kStunMagicCookie
 16
 )
 ;
-webrtc
-:
-:
 IPAddress
 xored_ip
 =
@@ -5536,9 +5479,6 @@ GetXoredIP
 ;
 SetAddress
 (
-webrtc
-:
-:
 SocketAddress
 (
 xored_ip
@@ -5600,9 +5540,6 @@ return
 false
 ;
 }
-webrtc
-:
-:
 IPAddress
 xored_ip
 =
@@ -5688,9 +5625,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -5735,9 +5669,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -6470,9 +6401,6 @@ buf
 >
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -7681,9 +7609,6 @@ password
 char
 digest
 [
-webrtc
-:
-:
 MessageDigest
 :
 :
@@ -7760,9 +7685,6 @@ const
 StunAttribute
 &
 attribute
-webrtc
-:
-:
 ByteBufferWriter
 *
 tmp_buffer_ptr
@@ -7856,9 +7778,6 @@ return
 nullptr
 ;
 }
-webrtc
-:
-:
 ByteBufferReader
 reader
 (
@@ -8102,9 +8021,6 @@ return
 nullptr
 ;
 }
-webrtc
-:
-:
 ByteBufferWriter
 buf
 ;
@@ -8122,9 +8038,6 @@ return
 nullptr
 ;
 }
-webrtc
-:
-:
 ByteBufferReader
 reader
 (

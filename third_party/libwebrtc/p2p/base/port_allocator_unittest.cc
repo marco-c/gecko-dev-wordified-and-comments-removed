@@ -278,7 +278,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 FakePortAllocator
@@ -385,7 +385,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -417,7 +417,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -425,7 +425,7 @@ FakePortAllocatorSession
 (
 static_cast
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -451,7 +451,7 @@ release
 ;
 }
 const
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -465,7 +465,7 @@ return
 static_cast
 <
 const
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -486,7 +486,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -501,7 +501,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -509,7 +509,7 @@ FakePortAllocatorSession
 (
 static_cast
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -586,7 +586,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocator
@@ -1481,7 +1481,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession
@@ -1490,7 +1490,7 @@ session
 (
 static_cast
 <
-cricket
+webrtc
 :
 :
 FakePortAllocatorSession

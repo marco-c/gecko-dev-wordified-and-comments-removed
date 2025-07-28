@@ -261,9 +261,6 @@ virtual
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel
@@ -516,9 +513,6 @@ OnSetStreams
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel
@@ -1160,9 +1154,6 @@ Codec
 >
 send_codecs_
 ;
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel_
@@ -1288,9 +1279,6 @@ LocalAudioSinkAdapter
 public
 AudioTrackSinkInterface
 public
-cricket
-:
-:
 AudioSource
 {
 public
@@ -1379,9 +1367,6 @@ num_preferred_channels_
 void
 SetSink
 (
-cricket
-:
-:
 AudioSource
 :
 :
@@ -1391,9 +1376,6 @@ sink
 )
 override
 ;
-cricket
-:
-:
 AudioSource
 :
 :
@@ -1614,9 +1596,6 @@ RemoveTrackFromStats
 override
 ;
 private
-:
-cricket
-:
 :
 VoiceMediaSendChannelInterface
 *
@@ -1869,9 +1848,6 @@ AttachTrack
 override
 ;
 private
-:
-cricket
-:
 :
 VideoMediaSendChannelInterface
 *

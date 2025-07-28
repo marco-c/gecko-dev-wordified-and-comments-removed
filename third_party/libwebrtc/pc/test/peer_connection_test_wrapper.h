@@ -791,7 +791,7 @@ GetAndAddUserMedia
 bool
 audio
 const
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -864,7 +864,7 @@ GetUserMedia
 bool
 audio
 const
-cricket
+webrtc
 :
 :
 AudioOptions

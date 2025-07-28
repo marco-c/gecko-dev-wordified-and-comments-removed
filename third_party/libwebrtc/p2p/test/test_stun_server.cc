@@ -288,9 +288,6 @@ TestStunServer
 :
 OnBindingRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg
@@ -327,15 +324,9 @@ remote_addr
 }
 else
 {
-cricket
-:
-:
 StunMessage
 response
 (
-cricket
-:
-:
 STUN_BINDING_RESPONSE
 msg
 -

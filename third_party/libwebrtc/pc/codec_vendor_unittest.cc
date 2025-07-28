@@ -143,9 +143,6 @@ red
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 std
 :

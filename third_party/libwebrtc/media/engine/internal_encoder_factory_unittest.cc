@@ -321,9 +321,6 @@ SdpVideoFormat
 :
 :
 name
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -396,9 +393,6 @@ SdpVideoFormat
 :
 :
 name
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -434,9 +428,6 @@ CreateEnvironment
 )
 SdpVideoFormat
 (
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -471,9 +462,6 @@ SdpVideoFormat
 :
 :
 name
-cricket
-:
-:
 kH265CodecName
 )
 )

@@ -1298,9 +1298,6 @@ PeerConnectionFactory
 CreateAudioSource
 (
 const
-cricket
-:
-:
 AudioOptions
 &
 options
@@ -1410,9 +1407,6 @@ StopAecDump
 )
 ;
 }
-cricket
-:
-:
 MediaEngineInterface
 *
 PeerConnectionFactory
@@ -1778,9 +1772,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 BasicPortAllocator
 >
 (

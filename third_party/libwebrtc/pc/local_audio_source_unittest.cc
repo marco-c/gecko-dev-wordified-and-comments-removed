@@ -51,7 +51,7 @@ LocalAudioSourceTest
 InitWithAudioOptions
 )
 {
-cricket
+webrtc
 :
 :
 AudioOptions

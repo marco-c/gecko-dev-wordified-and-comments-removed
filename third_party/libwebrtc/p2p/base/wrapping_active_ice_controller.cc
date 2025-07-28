@@ -190,7 +190,7 @@ TimeDelta
 ;
 }
 namespace
-cricket
+webrtc
 {
 WrappingActiveIceController
 :
@@ -212,9 +212,6 @@ wrapped
 :
 network_thread_
 (
-webrtc
-:
-:
 Thread
 :
 :
@@ -255,16 +252,10 @@ WrappingActiveIceController
 IceAgentInterface
 *
 ice_agent
-webrtc
-:
-:
 IceControllerFactoryInterface
 *
 wrapped_factory
 const
-webrtc
-:
-:
 IceControllerFactoryArgs
 &
 wrapped_factory_args
@@ -272,9 +263,6 @@ wrapped_factory_args
 :
 network_thread_
 (
-webrtc
-:
-:
 Thread
 :
 :
@@ -345,9 +333,6 @@ WrappingActiveIceController
 SetIceConfig
 (
 const
-webrtc
-:
-:
 IceConfig
 &
 config
@@ -377,9 +362,6 @@ const
 Connection
 *
 connection
-webrtc
-:
-:
 NominationMode
 mode
 IceMode

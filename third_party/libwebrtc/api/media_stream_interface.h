@@ -752,9 +752,6 @@ AudioTrackSinkInterface
 }
 virtual
 const
-cricket
-:
-:
 AudioOptions
 options
 (

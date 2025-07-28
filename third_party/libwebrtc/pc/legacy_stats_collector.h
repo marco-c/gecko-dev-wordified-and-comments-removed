@@ -572,9 +572,6 @@ StatsReport
 AddCandidateReport
 (
 const
-cricket
-:
-:
 CandidateStats
 &
 candidate_stats
@@ -619,9 +616,6 @@ Id
 &
 channel_report_id
 const
-cricket
-:
-:
 ConnectionInfo
 &
 info

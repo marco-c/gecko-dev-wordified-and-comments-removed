@@ -120,9 +120,6 @@ public
 :
 CodecVendor
 (
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

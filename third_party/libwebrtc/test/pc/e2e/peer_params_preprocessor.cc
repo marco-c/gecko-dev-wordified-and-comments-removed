@@ -622,9 +622,6 @@ push_back
 (
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp8CodecName
 )
 )

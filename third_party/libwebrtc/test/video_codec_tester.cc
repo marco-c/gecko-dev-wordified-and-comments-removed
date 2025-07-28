@@ -7659,9 +7659,6 @@ vc
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 break
@@ -7689,9 +7686,6 @@ vc
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 break
@@ -7703,9 +7697,6 @@ vc
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpAv1
 ;
 break
@@ -7745,9 +7736,6 @@ vc
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpH26x
 ;
 break
@@ -7759,9 +7747,6 @@ vc
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpH26x
 ;
 break

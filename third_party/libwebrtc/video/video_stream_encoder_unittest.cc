@@ -4273,9 +4273,6 @@ TimeController
 const
 time_controller_
 ;
-cricket
-:
-:
 VideoAdapter
 adapter_
 ;

@@ -317,9 +317,6 @@ component
 )
 !
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 {
@@ -1249,9 +1246,6 @@ mid
 )
 ;
 const
-cricket
-:
-:
 TransportInfo
 *
 transport_info

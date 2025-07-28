@@ -2387,6 +2387,10 @@ ice_transport_internal
 "
 "
 :
+p2p_transport_channel_ice_field_trials
+"
+"
+:
 transport_description
 "
 "
@@ -6007,6 +6011,10 @@ h
 deps
 =
 [
+"
+:
+port
+"
 "
 :
 port_allocator

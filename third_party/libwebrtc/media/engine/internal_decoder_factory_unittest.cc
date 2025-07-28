@@ -504,9 +504,6 @@ SdpVideoFormat
 :
 :
 name
-cricket
-:
-:
 kAv1CodecName
 )
 )
@@ -549,9 +546,6 @@ SdpVideoFormat
 :
 :
 name
-cricket
-:
-:
 kAv1CodecName
 )
 )
@@ -593,9 +587,6 @@ Create
 env
 SdpVideoFormat
 (
-cricket
-:
-:
 kH265CodecName
 )
 )

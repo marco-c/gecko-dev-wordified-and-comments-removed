@@ -187,9 +187,6 @@ AudioSourceInterface
 >
 CreateAudioSource
 const
-cricket
-:
-:
 AudioOptions
 &
 )

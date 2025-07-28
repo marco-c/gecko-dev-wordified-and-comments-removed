@@ -1397,9 +1397,6 @@ description
 >
 GetContentByName
 (
-cricket
-:
-:
 CN_DATA
 )
 )
@@ -1416,9 +1413,6 @@ description
 >
 GetTransportInfoByName
 (
-cricket
-:
-:
 CN_DATA
 )
 )

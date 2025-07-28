@@ -523,9 +523,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp8CodecName
 )
 }

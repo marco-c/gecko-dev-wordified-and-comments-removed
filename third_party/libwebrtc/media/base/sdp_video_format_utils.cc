@@ -926,9 +926,6 @@ kv
 first
 =
 =
-cricket
-:
-:
 kCodecParamPerLayerPictureLossIndication
 &
 &

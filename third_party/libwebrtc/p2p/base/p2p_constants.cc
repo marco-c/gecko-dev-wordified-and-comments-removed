@@ -20,7 +20,7 @@ include
 cstdint
 >
 namespace
-cricket
+webrtc
 {
 const
 char

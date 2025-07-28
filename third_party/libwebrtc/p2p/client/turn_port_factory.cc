@@ -73,7 +73,7 @@ async_packet_socket
 h
 "
 namespace
-cricket
+webrtc
 {
 TurnPortFactory
 :
@@ -100,9 +100,6 @@ const
 CreateRelayPortArgs
 &
 args
-webrtc
-:
-:
 AsyncPacketSocket
 *
 udp_socket

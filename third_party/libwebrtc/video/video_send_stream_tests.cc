@@ -1269,7 +1269,7 @@ Seconds
 )
 ;
 enum
-VideoFormat
+TestVideoFormat
 {
 kGeneric
 kVP8
@@ -1428,7 +1428,7 @@ retransmit_payload_type
 void
 TestPacketFragmentationSize
 (
-VideoFormat
+TestVideoFormat
 format
 bool
 with_fec
@@ -6527,7 +6527,7 @@ VideoSendStreamTest
 :
 TestPacketFragmentationSize
 (
-VideoFormat
+TestVideoFormat
 format
 bool
 with_fec

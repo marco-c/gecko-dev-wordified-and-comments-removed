@@ -5796,15 +5796,9 @@ value
 (
 )
 ;
-cricket
-:
-:
 StunMessage
 ping
 (
-cricket
-:
-:
 STUN_BINDING_REQUEST
 )
 ;

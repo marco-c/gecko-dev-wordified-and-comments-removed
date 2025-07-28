@@ -51,9 +51,6 @@ ActiveIceControllerFactoryArgs
 IceControllerFactoryArgs
 legacy_args
 ;
-cricket
-:
-:
 IceAgentInterface
 *
 ice_agent
@@ -79,9 +76,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ActiveIceControllerInterface
 >
 Create

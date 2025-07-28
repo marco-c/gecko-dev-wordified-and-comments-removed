@@ -850,6 +850,14 @@ media_channel
 /
 media
 :
+rtc_media_config
+"
+"
+.
+.
+/
+media
+:
 stream_params
 "
 "

@@ -489,9 +489,6 @@ return
 observer_
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 RtpTransmissionManager
@@ -556,9 +553,6 @@ nullptr
 ;
 }
 }
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 RtpTransmissionManager
@@ -623,9 +617,6 @@ nullptr
 ;
 }
 }
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 RtpTransmissionManager
@@ -690,9 +681,6 @@ nullptr
 ;
 }
 }
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 RtpTransmissionManager
@@ -4957,9 +4945,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 MediaEngineInterface
 *
 RtpTransmissionManager

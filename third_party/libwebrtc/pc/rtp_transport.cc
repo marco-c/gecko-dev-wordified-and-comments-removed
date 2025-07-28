@@ -1644,15 +1644,9 @@ OnReadPacket
 "
 )
 ;
-cricket
-:
-:
 RtpPacketType
 packet_type
 =
-cricket
-:
-:
 InferRtpPacketType
 (
 received_packet
@@ -1667,9 +1661,6 @@ if
 packet_type
 =
 =
-cricket
-:
-:
 RtpPacketType
 :
 :
@@ -1682,9 +1673,6 @@ return
 if
 (
 !
-cricket
-:
-:
 IsValidRtpPacketSize
 (
 packet_type
@@ -1712,9 +1700,6 @@ incoming
 "
 <
 <
-cricket
-:
-:
 RtpPacketTypeToString
 (
 packet_type
@@ -1748,9 +1733,6 @@ if
 packet_type
 =
 =
-cricket
-:
-:
 RtpPacketType
 :
 :

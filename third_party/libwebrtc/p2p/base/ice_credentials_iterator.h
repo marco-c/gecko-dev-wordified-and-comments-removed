@@ -21,7 +21,7 @@ transport_description
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 IceCredentialsIterator
@@ -71,6 +71,18 @@ IceParameters
 pooled_ice_credentials_
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+IceCredentialsIterator
 ;
 }
 #

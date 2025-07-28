@@ -10,7 +10,7 @@ connection_info
 h
 "
 namespace
-cricket
+webrtc
 {
 ConnectionInfo
 :

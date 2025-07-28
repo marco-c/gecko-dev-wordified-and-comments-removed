@@ -168,7 +168,7 @@ time_utils
 h
 "
 namespace
-cricket
+webrtc
 {
 using
 :
@@ -201,9 +201,6 @@ StunRequestManager
 :
 StunRequestManager
 (
-webrtc
-:
-:
 TaskQueueBase
 *
 thread
@@ -218,6 +215,9 @@ const
 void
 *
 size_t
+webrtc
+:
+:
 StunRequest
 *
 )
@@ -377,9 +377,6 @@ request
 >
 Send
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -449,9 +446,6 @@ request
 >
 Send
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1146,9 +1140,6 @@ end
 return
 false
 ;
-webrtc
-:
-:
 ByteBufferReader
 buf
 (
@@ -1549,9 +1540,6 @@ TimeMillis
 (
 )
 ;
-webrtc
-:
-:
 ByteBufferWriter
 buf
 ;
@@ -1587,9 +1575,6 @@ OnSent
 ;
 SendDelayed
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1608,9 +1593,6 @@ StunRequest
 :
 SendDelayed
 (
-webrtc
-:
-:
 TimeDelta
 delay
 )
@@ -1651,9 +1633,6 @@ StunRequest
 :
 Send
 (
-webrtc
-:
-:
 TimeDelta
 delay
 )
@@ -1744,9 +1723,6 @@ task_safety_
 .
 reset
 (
-webrtc
-:
-:
 PendingTaskSafetyFlag
 :
 :

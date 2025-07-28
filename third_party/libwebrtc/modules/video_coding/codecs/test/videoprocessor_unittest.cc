@@ -246,9 +246,6 @@ config_
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 1
 1

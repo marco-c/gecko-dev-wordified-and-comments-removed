@@ -591,9 +591,6 @@ override
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -635,9 +632,6 @@ optional
 uint32_t
 >
 ssrc
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -703,9 +697,6 @@ worker_thread_
 void
 SetMediaChannel_w
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -831,9 +822,6 @@ std
 string
 id_
 ;
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 media_channel_

@@ -313,9 +313,6 @@ tcptype
 )
 =
 =
-cricket
-:
-:
 TCPTYPE_ACTIVE_STR
 |
 |
@@ -683,9 +680,6 @@ receiving_timeout
 .
 value_or
 (
-cricket
-:
-:
 RECEIVING_TIMEOUT
 )
 ;
@@ -704,9 +698,6 @@ backup_connection_ping_interval
 .
 value_or
 (
-cricket
-:
-:
 BACKUP_CONNECTION_PING_INTERVAL
 )
 ;
@@ -725,9 +716,6 @@ stable_writable_connection_ping_interval
 .
 value_or
 (
-cricket
-:
-:
 STRONG_AND_STABLE_WRITABLE_CONNECTION_PING_INTERVAL
 )
 ;
@@ -746,9 +734,6 @@ regather_on_failed_networks_interval
 .
 value_or
 (
-cricket
-:
-:
 REGATHER_ON_FAILED_NETWORKS_INTERVAL
 )
 ;
@@ -767,9 +752,6 @@ receiving_switching_delay
 .
 value_or
 (
-cricket
-:
-:
 RECEIVING_SWITCHING_DELAY
 )
 ;
@@ -788,9 +770,6 @@ ice_check_interval_strong_connectivity
 .
 value_or
 (
-cricket
-:
-:
 STRONG_PING_INTERVAL
 )
 ;
@@ -809,9 +788,6 @@ ice_check_interval_weak_connectivity
 .
 value_or
 (
-cricket
-:
-:
 WEAK_PING_INTERVAL
 )
 ;
@@ -849,9 +825,6 @@ ice_unwritable_timeout
 .
 value_or
 (
-cricket
-:
-:
 CONNECTION_WRITE_CONNECT_TIMEOUT
 )
 ;
@@ -870,9 +843,6 @@ ice_unwritable_min_checks
 .
 value_or
 (
-cricket
-:
-:
 CONNECTION_WRITE_CONNECT_FAILURES
 )
 ;
@@ -891,9 +861,6 @@ ice_inactive_timeout
 .
 value_or
 (
-cricket
-:
-:
 CONNECTION_WRITE_TIMEOUT
 )
 ;
@@ -912,9 +879,6 @@ stun_keepalive_interval
 .
 value_or
 (
-cricket
-:
-:
 STUN_KEEPALIVE_INTERVAL
 )
 ;
@@ -938,9 +902,6 @@ ice_check_interval_weak_connectivity
 .
 value_or
 (
-cricket
-:
-:
 WEAK_PING_INTERVAL
 )
 )
@@ -1206,9 +1167,6 @@ ice_pwd
 {
 SetIceParameters
 (
-cricket
-:
-:
 IceParameters
 (
 ice_ufrag
@@ -1238,9 +1196,6 @@ ice_pwd
 {
 SetRemoteIceParameters
 (
-cricket
-:
-:
 IceParameters
 (
 ice_ufrag

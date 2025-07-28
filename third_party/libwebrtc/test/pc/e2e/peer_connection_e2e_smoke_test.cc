@@ -1007,9 +1007,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {
@@ -1169,9 +1166,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {
@@ -2020,9 +2014,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {
@@ -2088,9 +2079,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {
@@ -3020,9 +3008,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 )
 }
@@ -3052,9 +3037,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 )
 }
@@ -3304,9 +3286,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {
@@ -3348,9 +3327,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp9CodecName
 {
 {

@@ -312,9 +312,6 @@ true
 VideoBroadcaster
 broadcaster_
 ;
-cricket
-:
-:
 VideoAdapter
 video_adapter_
 ;

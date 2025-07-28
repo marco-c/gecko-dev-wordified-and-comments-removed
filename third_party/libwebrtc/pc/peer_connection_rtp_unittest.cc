@@ -5995,9 +5995,6 @@ clear
 (
 )
 ;
-cricket
-:
-:
 StreamParams
 new_stream
 ;

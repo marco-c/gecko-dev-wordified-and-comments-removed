@@ -88,9 +88,6 @@ std
 :
 function
 <
-cricket
-:
-:
 IceRole
 (
 )
@@ -105,7 +102,7 @@ function
 bool
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -115,9 +112,6 @@ Connection
 is_connection_pruned_func
 ;
 const
-cricket
-:
-:
 IceFieldTrials
 *
 ice_field_trials
@@ -149,9 +143,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 IceControllerInterface
 >
 Create

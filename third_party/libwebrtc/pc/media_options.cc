@@ -80,9 +80,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -241,9 +238,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -346,9 +340,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &

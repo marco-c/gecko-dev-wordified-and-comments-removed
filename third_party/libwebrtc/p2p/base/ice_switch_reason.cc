@@ -15,7 +15,7 @@ include
 string
 >
 namespace
-cricket
+webrtc
 {
 std
 :

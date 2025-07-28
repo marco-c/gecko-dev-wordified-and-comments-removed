@@ -26,7 +26,7 @@ rtc_export
 h
 "
 namespace
-cricket
+webrtc
 {
 bool
 RTC_EXPORT
@@ -45,6 +45,18 @@ size_t
 *
 content_size
 )
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+UnwrapTurnPacket
 ;
 }
 #

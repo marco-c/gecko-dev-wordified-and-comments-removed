@@ -370,9 +370,6 @@ EqualsIgnoreCase
 capability
 .
 name
-cricket
-:
-:
 kRtxCodecName
 )
 ;
@@ -395,9 +392,6 @@ EqualsIgnoreCase
 capability
 .
 name
-cricket
-:
-:
 kRedCodecName
 )
 ;
@@ -420,9 +414,6 @@ EqualsIgnoreCase
 codec
 .
 name
-cricket
-:
-:
 kComfortNoiseCodecName
 )
 ;
@@ -601,9 +592,6 @@ rtx_codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 &
 associated_pt_str
@@ -792,9 +780,6 @@ red_codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 &
 fmtp
@@ -1271,9 +1256,6 @@ rtx_codec
 .
 params
 [
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 ]
 =
@@ -1460,9 +1442,6 @@ red_codec
 .
 params
 [
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 ]
 =
@@ -2222,9 +2201,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 )
 ;
@@ -2294,9 +2270,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 )
 ;
@@ -2561,9 +2534,6 @@ EqualsIgnoreCase
 supported_codec
 .
 name
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -2643,9 +2613,6 @@ EqualsIgnoreCase
 filtered_codec
 .
 name
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -2719,9 +2686,6 @@ filtered_codec
 .
 params
 [
-cricket
-:
-:
 kH265FmtpLevelId
 ]
 =
@@ -2863,9 +2827,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamRtxTime
 )
 ;
@@ -2888,9 +2849,6 @@ negotiated
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamRtxTime
 rtx_time_it
 -
@@ -2930,9 +2888,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 )
 ;
@@ -2955,9 +2910,6 @@ negotiated
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 red_it
 -
@@ -2977,9 +2929,6 @@ EqualsIgnoreCase
 ours
 .
 name
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -3016,9 +2965,6 @@ EqualsIgnoreCase
 ours
 .
 name
-cricket
-:
-:
 kH265CodecName
 )
 )
@@ -3141,9 +3087,6 @@ negotiated
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 &
 apt_str
@@ -3232,9 +3175,6 @@ negotiated
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 pt_mapping_table
 .
@@ -3499,9 +3439,6 @@ EqualsIgnoreCase
 codec
 .
 name
-cricket
-:
-:
 kOpusCodecName
 )
 &
@@ -3567,9 +3504,6 @@ EqualsIgnoreCase
 codec
 .
 name
-cricket
-:
-:
 kRedCodecName
 )
 )
@@ -3614,9 +3548,6 @@ codec
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 param
 .
@@ -4123,9 +4054,6 @@ found_codec
 >
 SetParam
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 changed_referenced_codec
 -
@@ -4223,9 +4151,6 @@ codec
 .
 packetization
 =
-cricket
-:
-:
 kPacketizationParamRaw
 ;
 }
@@ -4741,9 +4666,6 @@ codec
 .
 packetization
 =
-cricket
-:
-:
 kPacketizationParamRaw
 ;
 }
@@ -4869,9 +4791,6 @@ CodecVendor
 :
 CodecVendor
 (
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

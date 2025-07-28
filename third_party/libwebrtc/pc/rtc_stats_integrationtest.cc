@@ -537,9 +537,6 @@ caller_
 GetAndAddUserMedia
 (
 true
-cricket
-:
-:
 AudioOptions
 (
 )
@@ -552,9 +549,6 @@ callee_
 GetAndAddUserMedia
 (
 true
-cricket
-:
-:
 AudioOptions
 (
 )

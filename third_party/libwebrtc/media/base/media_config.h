@@ -5,7 +5,7 @@ MEDIA_BASE_MEDIA_CONFIG_H_
 define
 MEDIA_BASE_MEDIA_CONFIG_H_
 namespace
-cricket
+webrtc
 {
 struct
 MediaConfig
@@ -213,6 +213,18 @@ o
 ;
 }
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+MediaConfig
 ;
 }
 #

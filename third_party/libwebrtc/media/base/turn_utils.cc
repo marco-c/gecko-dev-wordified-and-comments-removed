@@ -40,7 +40,7 @@ byte_order
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {

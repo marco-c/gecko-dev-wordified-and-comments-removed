@@ -228,12 +228,6 @@ scoped_key_value_config
 h
 "
 using
-cricket
-:
-:
-FakeIceTransport
-;
-using
 webrtc
 :
 :
@@ -246,6 +240,14 @@ webrtc
 :
 :
 FakeDtlsTransport
+;
+using
+:
+:
+webrtc
+:
+:
+FakeIceTransport
 ;
 using
 webrtc
@@ -1637,7 +1639,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1657,7 +1659,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1694,7 +1696,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1714,7 +1716,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1785,7 +1787,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1805,7 +1807,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -1825,7 +1827,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1845,7 +1847,7 @@ FakeDtlsTransport
 "
 video
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -1890,7 +1892,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1910,7 +1912,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -1930,7 +1932,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -1950,7 +1952,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2043,7 +2045,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2063,7 +2065,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2083,7 +2085,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2103,7 +2105,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2189,7 +2191,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2209,7 +2211,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2229,7 +2231,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2249,7 +2251,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2353,7 +2355,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2373,7 +2375,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2444,7 +2446,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2464,7 +2466,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2555,7 +2557,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2575,7 +2577,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2595,7 +2597,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2615,7 +2617,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2721,7 +2723,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2741,7 +2743,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2860,7 +2862,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2880,7 +2882,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2954,7 +2956,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -2974,7 +2976,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -2994,7 +2996,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -3014,7 +3016,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -3126,7 +3128,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -3146,7 +3148,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -3166,7 +3168,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -3186,7 +3188,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -3287,7 +3289,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -3307,7 +3309,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP
@@ -3327,7 +3329,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTP
@@ -3347,7 +3349,7 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
+webrtc
 :
 :
 ICE_CANDIDATE_COMPONENT_RTCP

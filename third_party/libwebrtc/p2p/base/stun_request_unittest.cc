@@ -135,7 +135,7 @@ wait_until
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -261,9 +261,6 @@ StunRequestTest
 :
 manager_
 (
-webrtc
-:
-:
 Thread
 :
 :
@@ -383,9 +380,6 @@ true
 ;
 }
 protected
-:
-webrtc
-:
 :
 AutoThread
 main_thread_
@@ -777,9 +771,6 @@ StunRequestTest
 TestBackoff
 )
 {
-webrtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -867,9 +858,6 @@ i
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -995,9 +983,6 @@ StunRequestTest
 TestTimeout
 )
 {
-webrtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -1039,9 +1024,6 @@ request
 SIMULATED_WAIT
 (
 false
-cricket
-:
-:
 STUN_TOTAL_TIMEOUT
 fake_clock
 )

@@ -119,7 +119,7 @@ string_encode
 h
 "
 namespace
-cricket
+webrtc
 {
 DtlsStunPiggybackController
 :
@@ -260,6 +260,9 @@ sequence_checker_
 if
 (
 !
+webrtc
+:
+:
 IsDtlsPacket
 (
 data
@@ -863,6 +866,9 @@ uint16_t
 >
 new_message_sequences
 =
+webrtc
+:
+:
 GetDtlsHandshakeAcks
 (
 data

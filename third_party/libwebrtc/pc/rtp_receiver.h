@@ -96,9 +96,6 @@ virtual
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel

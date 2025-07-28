@@ -245,9 +245,6 @@ class
 FakeCricketSctpTransport
 :
 public
-cricket
-:
-:
 SctpTransportInternal
 {
 public
@@ -292,9 +289,6 @@ override
 void
 SetDtlsTransport
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -719,9 +713,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 DtlsTransportInternal
 >
 cricket_transport
@@ -737,9 +728,6 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;
@@ -896,9 +884,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 DtlsTransportInternal
 >
 cricket_transport
@@ -914,9 +899,6 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;
@@ -951,9 +933,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SctpTransportInternal
 >
 fake_cricket_sctp_transport

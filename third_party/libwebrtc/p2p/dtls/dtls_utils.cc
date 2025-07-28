@@ -91,7 +91,7 @@ kLengthPresentBitmask
 ;
 }
 namespace
-cricket
+webrtc
 {
 bool
 IsDtlsPacket
@@ -307,9 +307,6 @@ uint16_t
 >
 acks
 ;
-webrtc
-:
-:
 ByteBufferReader
 record_buf
 (
@@ -548,9 +545,6 @@ len
 continue
 ;
 }
-webrtc
-:
-:
 ByteBufferReader
 handshake_buf
 (

@@ -107,7 +107,7 @@ message_digest
 h
 "
 namespace
-cricket
+webrtc
 {
 static
 const
@@ -265,9 +265,6 @@ rtp
 size_t
 length
 const
-webrtc
-:
-:
 PacketTimeUpdateParams
 &
 packet_time_params
@@ -1225,9 +1222,6 @@ data
 size_t
 length
 const
-webrtc
-:
-:
 PacketTimeUpdateParams
 &
 packet_time_params
@@ -1278,6 +1272,9 @@ rtp_length
 if
 (
 !
+webrtc
+:
+:
 UnwrapTurnPacket
 (
 data

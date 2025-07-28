@@ -765,14 +765,6 @@ webrtc
 using
 :
 :
-cricket
-:
-:
-StreamParams
-;
-using
-:
-:
 testing
 :
 :
@@ -1702,9 +1694,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 CandidatePairChangeEvent
 >
 ice_candidate_pair_change_history
@@ -1804,9 +1793,6 @@ CreateLocalAudioTrack
 (
 )
 {
-cricket
-:
-:
 AudioOptions
 options
 ;
@@ -3406,9 +3392,6 @@ get
 ;
 }
 const
-cricket
-:
-:
 IceCandidateErrorEvent
 &
 error_event
@@ -5787,9 +5770,6 @@ void
 OnIceSelectedCandidatePairChanged
 (
 const
-cricket
-:
-:
 CandidatePairChangeEvent
 &
 event
@@ -6115,9 +6095,6 @@ override
 {
 error_event_
 =
-cricket
-:
-:
 IceCandidateErrorEvent
 (
 address
@@ -6335,9 +6312,6 @@ IceCandidateInterface
 >
 last_gathered_ice_candidate_
 ;
-cricket
-:
-:
 IceCandidateErrorEvent
 error_event_
 ;
@@ -6551,9 +6525,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 CandidatePairChangeEvent
 >
 ice_candidate_pair_change_history_
@@ -6998,9 +6969,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeIceTransport
 >
 (
@@ -7039,9 +7007,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeIceTransport
 >
 internal_

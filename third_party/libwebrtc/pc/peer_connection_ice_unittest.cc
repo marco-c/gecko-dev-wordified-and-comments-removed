@@ -1454,9 +1454,6 @@ candidate
 .
 set_component
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_DEFAULT
 )
 ;
@@ -1587,9 +1584,6 @@ SessionDescriptionInterface
 *
 sdesc
 const
-cricket
-:
-:
 IceMode
 ice_mode
 )
@@ -1647,9 +1641,6 @@ ice_mode
 ;
 }
 }
-cricket
-:
-:
 TransportDescription
 *
 GetFirstTransportDescription
@@ -1723,9 +1714,6 @@ description
 ;
 }
 const
-cricket
-:
-:
 TransportDescription
 *
 GetFirstTransportDescription
@@ -1799,9 +1787,6 @@ transport_info
 description
 ;
 }
-cricket
-:
-:
 IceRole
 GetIceRole
 (
@@ -1935,9 +1920,6 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-cricket
-:
-:
 ICEROLE_UNKNOWN
 ;
 }
@@ -3535,9 +3517,6 @@ jsep_candidate
 =
 CreateIceCandidate
 (
-cricket
-:
-:
 CN_AUDIO
 0
 candidate
@@ -6016,9 +5995,6 @@ jsep_candidate
 =
 CreateIceCandidate
 (
-cricket
-:
-:
 CN_AUDIO
 0
 candidate
@@ -9522,9 +9498,6 @@ offer
 get
 (
 )
-cricket
-:
-:
 IceMode
 :
 :
@@ -9583,9 +9556,6 @@ answer
 get
 (
 )
-cricket
-:
-:
 IceMode
 :
 :
@@ -9629,9 +9599,6 @@ answer
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 ICEROLE_CONTROLLED
 GetIceRole
 (
@@ -9641,9 +9608,6 @@ caller
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 ICEROLE_CONTROLLING
 GetIceRole
 (
@@ -9689,9 +9653,6 @@ offer
 get
 (
 )
-cricket
-:
-:
 IceMode
 :
 :
@@ -9750,9 +9711,6 @@ answer
 get
 (
 )
-cricket
-:
-:
 IceMode
 :
 :
@@ -9796,9 +9754,6 @@ answer
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 ICEROLE_CONTROLLING
 GetIceRole
 (
@@ -9808,9 +9763,6 @@ caller
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 ICEROLE_CONTROLLED
 GetIceRole
 (
@@ -9963,9 +9915,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -10076,9 +10025,6 @@ pc_
 =
 nullptr
 ;
-cricket
-:
-:
 FakePortAllocator
 *
 port_allocator_

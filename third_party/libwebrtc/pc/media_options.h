@@ -144,9 +144,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 rids
@@ -251,9 +248,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -351,9 +345,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -482,9 +473,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 IceParameters
 >
 pooled_ice_credentials

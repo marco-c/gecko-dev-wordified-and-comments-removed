@@ -2313,9 +2313,6 @@ codec_params
 .
 count
 (
-cricket
-:
-:
 kH264FmtpSpsPpsIdrInKeyframe
 )
 >
@@ -8089,9 +8086,6 @@ second
 .
 find
 (
-cricket
-:
-:
 kH264FmtpSpropParameterSets
 )
 ;

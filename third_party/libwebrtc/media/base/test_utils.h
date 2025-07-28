@@ -161,9 +161,6 @@ arraysize
 a
 )
 )
-cricket
-:
-:
 StreamParams
 CreateSimStreamParams
 (
@@ -186,9 +183,6 @@ uint32_t
 ssrcs
 )
 ;
-cricket
-:
-:
 StreamParams
 CreateSimWithRtxStreamParams
 (
@@ -221,9 +215,6 @@ uint32_t
 rtx_ssrcs
 )
 ;
-cricket
-:
-:
 StreamParams
 CreatePrimaryWithFecFrStreamParams
 (

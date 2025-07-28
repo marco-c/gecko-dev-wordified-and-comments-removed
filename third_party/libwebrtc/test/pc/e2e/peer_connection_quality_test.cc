@@ -3661,9 +3661,6 @@ video_codecs
 name
 =
 =
-cricket
-:
-:
 kVp8CodecName
 )
 {

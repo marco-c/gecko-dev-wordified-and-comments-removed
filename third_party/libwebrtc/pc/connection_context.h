@@ -222,9 +222,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine
@@ -495,9 +492,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaEngineInterface
 >
 media_engine_

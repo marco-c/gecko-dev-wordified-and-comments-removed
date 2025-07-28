@@ -814,9 +814,6 @@ AudioTrackInterface
 CreateLocalAudioTrack
 (
 const
-cricket
-:
-:
 AudioOptions
 options
 )
@@ -1329,9 +1326,6 @@ clock_
 )
 )
 ;
-cricket
-:
-:
 AudioOptions
 options
 ;

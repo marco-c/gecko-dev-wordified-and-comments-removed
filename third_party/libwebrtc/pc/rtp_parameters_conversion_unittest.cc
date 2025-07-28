@@ -985,9 +985,6 @@ red
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 101

@@ -1710,9 +1710,6 @@ prioritize_most_likely_ice_candidate_pairs
 false
 ;
 struct
-cricket
-:
-:
 MediaConfig
 media_config
 ;
@@ -3314,9 +3311,6 @@ void
 OnIceSelectedCandidatePairChanged
 (
 const
-cricket
-:
-:
 CandidatePairChangeEvent
 &
 )
@@ -3982,9 +3976,6 @@ AudioSourceInterface
 CreateAudioSource
 (
 const
-cricket
-:
-:
 AudioOptions
 &
 options

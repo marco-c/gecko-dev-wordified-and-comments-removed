@@ -168,7 +168,7 @@ webrtc
 RtpTransceiverDirection
 ;
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -375,9 +375,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
@@ -402,14 +399,8 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
-webrtc
-:
-:
 AudioState
 >
 GetAudioState
@@ -428,9 +419,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Codec
 >
 &
@@ -450,9 +438,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Codec
 >
 &
@@ -470,9 +455,6 @@ MOCK_METHOD
 bool
 StartAecDump
 (
-webrtc
-:
-:
 FileWrapper
 file
 int64_t
@@ -501,9 +483,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 AudioDeviceModule
 :
 :

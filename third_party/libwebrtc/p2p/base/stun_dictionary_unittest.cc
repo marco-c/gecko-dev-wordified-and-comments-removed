@@ -82,13 +82,13 @@ namespace
 void
 Sync
 (
-cricket
+webrtc
 :
 :
 StunDictionaryView
 &
 dictionary
-cricket
+webrtc
 :
 :
 StunDictionaryWriter
@@ -238,7 +238,7 @@ Pending
 void
 XorToggle
 (
-cricket
+webrtc
 :
 :
 StunByteStringAttribute
@@ -298,7 +298,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 StunByteStringAttribute
@@ -306,7 +306,7 @@ StunByteStringAttribute
 Crop
 (
 const
-cricket
+webrtc
 :
 :
 StunByteStringAttribute
@@ -324,7 +324,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 StunByteStringAttribute
@@ -376,7 +376,7 @@ new_attr
 }
 }
 namespace
-cricket
+webrtc
 {
 constexpr
 int
@@ -1963,9 +1963,6 @@ writer
 StunDictionaryView
 dictionary
 ;
-webrtc
-:
-:
 SocketAddress
 addr
 (
@@ -2167,9 +2164,6 @@ writer
 StunDictionaryView
 dictionary
 ;
-webrtc
-:
-:
 SocketAddress
 addr
 (

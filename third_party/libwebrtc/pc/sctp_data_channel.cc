@@ -754,9 +754,6 @@ static_cast
 int
 >
 (
-cricket
-:
-:
 kMaxSctpSid
 )
 )

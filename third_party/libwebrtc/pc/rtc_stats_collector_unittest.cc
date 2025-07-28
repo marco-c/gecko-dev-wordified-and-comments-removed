@@ -1414,9 +1414,6 @@ candidate
 new
 Candidate
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 protocol
 SocketAddress
@@ -3548,9 +3545,6 @@ pair
 <
 MediaStreamTrackInterface
 *
-cricket
-:
-:
 VoiceSenderInfo
 >
 >
@@ -3567,9 +3561,6 @@ pair
 <
 MediaStreamTrackInterface
 *
-cricket
-:
-:
 VoiceReceiverInfo
 >
 >
@@ -3586,9 +3577,6 @@ pair
 <
 MediaStreamTrackInterface
 *
-cricket
-:
-:
 VideoSenderInfo
 >
 >
@@ -3605,9 +3593,6 @@ pair
 <
 MediaStreamTrackInterface
 *
-cricket
-:
-:
 VideoReceiverInfo
 >
 >
@@ -3639,15 +3624,9 @@ MediaStreamInterface
 remote_streams
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -3669,9 +3648,6 @@ pair
 first
 ;
 const
-cricket
-:
-:
 VoiceSenderInfo
 &
 voice_sender_info
@@ -3815,9 +3791,6 @@ pair
 first
 ;
 const
-cricket
-:
-:
 VoiceReceiverInfo
 &
 voice_receiver_info
@@ -3951,9 +3924,6 @@ pair
 first
 ;
 const
-cricket
-:
-:
 VideoSenderInfo
 &
 video_sender_info
@@ -4106,9 +4076,6 @@ pair
 first
 ;
 const
-cricket
-:
-:
 VideoReceiverInfo
 &
 video_receiver_info
@@ -4812,9 +4779,6 @@ send_codec_id
 COTTransportName1_1
 "
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -4906,9 +4870,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -4925,9 +4886,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -4990,9 +4948,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VideoReceiverInfo
 (
 )
@@ -5009,9 +4964,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -5451,9 +5403,6 @@ send_codec_id
 COTTransportName1_1
 "
 ;
-cricket
-:
-:
 VoiceMediaInfo
 media_info
 ;
@@ -5545,9 +5494,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VoiceSenderInfo
 (
 )
@@ -5564,9 +5510,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -5615,9 +5558,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VoiceReceiverInfo
 (
 )
@@ -5634,9 +5574,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -7160,9 +7097,6 @@ RTCStatsCollectorTest
 ValidSsrcCollisionDoesNotCrash
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 mid1_info
 ;
@@ -7220,9 +7154,6 @@ Transport1
 mid1_info
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 mid2_info
 ;
@@ -7280,9 +7211,6 @@ Transport1
 mid2_info
 )
 ;
-cricket
-:
-:
 VoiceMediaInfo
 mid3_info
 ;
@@ -7340,9 +7268,6 @@ Transport2
 mid3_info
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 mid4_info
 ;
@@ -7470,9 +7395,6 @@ RTCStatsCollectorTest
 InvalidSsrcCollisionDoesNotCrash
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 mid1_info
 ;
@@ -7530,9 +7452,6 @@ BundledTransport
 mid1_info
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 mid2_info
 ;
@@ -7590,9 +7509,6 @@ BundledTransport
 mid2_info
 )
 ;
-cricket
-:
-:
 VoiceMediaInfo
 mid3_info
 ;
@@ -7650,9 +7566,6 @@ BundledTransport
 mid3_info
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 mid4_info
 ;
@@ -7724,9 +7637,6 @@ RTCStatsCollectorTest
 CollectRTCCodecStatsOnlyIfReferenced
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -7871,9 +7781,6 @@ outbound_audio_codec
 )
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -8024,9 +7931,6 @@ outbound_video_codec
 )
 )
 ;
-cricket
-:
-:
 VoiceReceiverInfo
 inbound_audio_info
 ;
@@ -8052,9 +7956,6 @@ push_back
 inbound_audio_info
 )
 ;
-cricket
-:
-:
 VoiceSenderInfo
 outbound_audio_info
 ;
@@ -8080,9 +7981,6 @@ push_back
 outbound_audio_info
 )
 ;
-cricket
-:
-:
 VideoReceiverInfo
 inbound_video_info
 ;
@@ -8108,9 +8006,6 @@ push_back
 inbound_video_info
 )
 ;
-cricket
-:
-:
 VideoSenderInfo
 outbound_video_info
 ;
@@ -8831,9 +8726,6 @@ clock_rate
 =
 9000
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_pt10
 ;
@@ -8888,9 +8780,6 @@ outbound_codec_pt10
 .
 payload_type
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_pt11
 ;
@@ -8945,9 +8834,6 @@ outbound_codec_pt11
 .
 payload_type
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_pt10_pt11
 ;
@@ -9309,9 +9195,6 @@ useinbandfec
 )
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_nofec
 ;
@@ -9366,9 +9249,6 @@ inbound_codec_pt111_nofec
 .
 payload_type
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_fec
 ;
@@ -9649,9 +9529,6 @@ useinbandfec
 )
 )
 ;
-cricket
-:
-:
 VideoMediaInfo
 info_fec_pt112
 ;
@@ -13368,9 +13245,6 @@ connection_infos
 .
 push_back
 (
-cricket
-:
-:
 ConnectionInfo
 (
 )
@@ -13412,9 +13286,6 @@ connection_infos
 .
 push_back
 (
-cricket
-:
-:
 ConnectionInfo
 (
 )
@@ -13456,9 +13327,6 @@ connection_infos
 .
 push_back
 (
-cricket
-:
-:
 ConnectionInfo
 (
 )
@@ -13500,9 +13368,6 @@ connection_infos
 .
 push_back
 (
-cricket
-:
-:
 ConnectionInfo
 (
 )
@@ -13544,9 +13409,6 @@ candidate_stats_list
 .
 push_back
 (
-cricket
-:
-:
 CandidateStats
 (
 *
@@ -13589,9 +13451,6 @@ connection_infos
 .
 push_back
 (
-cricket
-:
-:
 ConnectionInfo
 (
 )
@@ -14164,9 +14023,6 @@ remote_iceusernamefragment
 "
 )
 ;
-cricket
-:
-:
 ConnectionInfo
 connection_info
 ;
@@ -14281,9 +14137,6 @@ connection_info
 .
 state
 =
-cricket
-:
-:
 IceCandidatePairState
 :
 :
@@ -14332,9 +14185,6 @@ transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 ;
 transport_channel_stats
@@ -14430,9 +14280,6 @@ absl
 :
 StrCat
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;
@@ -16028,9 +15875,6 @@ RTCStatsCollectorTest
 CollectRTCInboundRtpStreamStats_Audio
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -16040,9 +15884,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VoiceReceiverInfo
 (
 )
@@ -16059,9 +15900,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -17017,9 +16855,6 @@ RTCStatsCollectorTest
 CollectRTCInboundRtpStreamStats_Audio_PlayoutId
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -17029,9 +16864,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VoiceReceiverInfo
 (
 )
@@ -17048,9 +16880,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -17314,9 +17143,6 @@ RTCStatsCollectorTest
 CollectRTCInboundRtpStreamStats_Video
 )
 {
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -17326,9 +17152,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VideoReceiverInfo
 (
 )
@@ -17345,9 +17168,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -17870,9 +17690,6 @@ ssrc_groups
 push_back
 (
 {
-cricket
-:
-:
 kFidSsrcGroupSemantics
 {
 1
@@ -17893,9 +17710,6 @@ ssrc_groups
 push_back
 (
 {
-cricket
-:
-:
 kFecFrSsrcGroupSemantics
 {
 1
@@ -18862,9 +18676,6 @@ RTCStatsCollectorTest
 CollectGoogTimingFrameInfo
 )
 {
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -18874,9 +18685,6 @@ receivers
 .
 push_back
 (
-cricket
-:
-:
 VideoReceiverInfo
 (
 )
@@ -18893,9 +18701,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -19141,9 +18946,6 @@ RTCStatsCollectorTest
 CollectRTCOutboundRtpStreamStats_Audio
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -19153,9 +18955,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VoiceSenderInfo
 (
 )
@@ -19172,9 +18971,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -19651,9 +19447,6 @@ RTCStatsCollectorTest
 CollectRTCOutboundRtpStreamStats_Video
 )
 {
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -19663,9 +19456,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -19682,9 +19472,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -20077,9 +19864,6 @@ ssrc_groups
 push_back
 (
 {
-cricket
-:
-:
 kFidSsrcGroupSemantics
 {
 1
@@ -20976,9 +20760,6 @@ kHost
 42
 )
 ;
-cricket
-:
-:
 ConnectionInfo
 rtp_connection_info
 ;
@@ -21039,9 +20820,6 @@ rtp_transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 ;
 rtp_transport_channel_stats
@@ -21154,9 +20932,6 @@ absl
 :
 StrCat
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 report
@@ -21276,9 +21051,6 @@ RTCTransportStats
 )
 )
 ;
-cricket
-:
-:
 ConnectionInfo
 rtcp_connection_info
 ;
@@ -21339,9 +21111,6 @@ rtcp_transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 ;
 rtcp_transport_channel_stats
@@ -21450,9 +21219,6 @@ absl
 :
 StrCat
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 )
 report
@@ -22139,9 +21905,6 @@ kHost
 42
 )
 ;
-cricket
-:
-:
 ConnectionInfo
 rtp_connection_info
 ;
@@ -22172,9 +21935,6 @@ rtp_transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 ;
 rtp_transport_channel_stats
@@ -22303,9 +22063,6 @@ absl
 :
 StrCat
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 report
@@ -22464,9 +22221,6 @@ RTCStatsCollectorTest
 CollectNoStreamRTCOutboundRtpStreamStats_Audio
 )
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -22476,9 +22230,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VoiceSenderInfo
 (
 )
@@ -22495,9 +22246,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -22926,9 +22674,6 @@ kAttachmentId
 =
 42
 ;
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -22938,9 +22683,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VoiceSenderInfo
 (
 )
@@ -22957,9 +22699,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -23239,9 +22978,6 @@ kVideoSourceHeight
 =
 34
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -23251,9 +22987,6 @@ aggregated_senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -23265,9 +22998,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -23284,9 +23014,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -23332,9 +23059,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -23629,9 +23353,6 @@ kVideoSourceHeight
 =
 34
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -23641,9 +23362,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -23660,9 +23378,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -23879,9 +23594,6 @@ kAttachmentId
 =
 42
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -23891,9 +23603,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -23910,9 +23619,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -24133,9 +23839,6 @@ kAttachmentId
 =
 42
 ;
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -24145,9 +23848,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VoiceSenderInfo
 (
 )
@@ -24164,9 +23864,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -24506,9 +24203,6 @@ MediaType
 AUDIO
 :
 {
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info
 ;
@@ -24522,9 +24216,6 @@ report_block_data
 report_block_datas
 )
 {
-cricket
-:
-:
 VoiceSenderInfo
 sender
 ;
@@ -24534,9 +24225,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -24640,9 +24328,6 @@ MediaType
 VIDEO
 :
 {
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -24656,9 +24341,6 @@ report_block_data
 report_block_datas
 )
 {
-cricket
-:
-:
 VideoSenderInfo
 sender
 ;
@@ -24668,9 +24350,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -25861,9 +25540,6 @@ rtp_transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 ;
 rtp_transport_channel_stats
@@ -25882,9 +25558,6 @@ rtcp_transport_channel_stats
 .
 component
 =
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 ;
 rtcp_transport_channel_stats
@@ -26288,9 +25961,6 @@ kAttachmentId
 =
 42
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info
 ;
@@ -26300,9 +25970,6 @@ senders
 .
 push_back
 (
-cricket
-:
-:
 VideoSenderInfo
 (
 )
@@ -26319,9 +25986,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -26557,9 +26221,6 @@ get
 )
 )
 ;
-cricket
-:
-:
 VoiceSenderInfo
 voice_sender_info_ssrc1
 ;
@@ -26569,9 +26230,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )

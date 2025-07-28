@@ -28,7 +28,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 TEST
 (

@@ -122,9 +122,6 @@ Config
 int
 regather_on_failed_networks_interval
 =
-cricket
-:
-:
 REGATHER_ON_FAILED_NETWORKS_INTERVAL
 ;
 }

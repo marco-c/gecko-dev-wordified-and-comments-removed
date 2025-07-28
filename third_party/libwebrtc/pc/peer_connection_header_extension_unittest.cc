@@ -434,9 +434,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -574,9 +571,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (

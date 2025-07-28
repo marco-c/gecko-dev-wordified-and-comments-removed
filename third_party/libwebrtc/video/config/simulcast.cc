@@ -1860,9 +1860,6 @@ s
 .
 max_framerate
 =
-cricket
-:
-:
 kDefaultVideoMaxFramerate
 ;
 }
@@ -2090,9 +2087,6 @@ layers
 .
 max_framerate
 =
-cricket
-:
-:
 kDefaultVideoMaxFramerate
 ;
 layers

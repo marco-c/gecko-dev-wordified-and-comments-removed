@@ -2557,9 +2557,6 @@ video_codec
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 break
@@ -2620,9 +2617,6 @@ video_codec
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 break
@@ -2667,9 +2661,6 @@ video_codec
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpH26x
 ;
 break
@@ -2740,9 +2731,6 @@ video_codec
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpAv1
 ;
 break
@@ -2754,9 +2742,6 @@ video_codec
 .
 qpMax
 =
-cricket
-:
-:
 kDefaultVideoMaxQpH26x
 ;
 break

@@ -26,7 +26,7 @@ ice_switch_reason
 h
 "
 namespace
-cricket
+webrtc
 {
 std
 :
@@ -46,6 +46,9 @@ std
 string
 str
 =
+webrtc
+:
+:
 IceSwitchReasonToString
 (
 reason

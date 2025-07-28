@@ -971,9 +971,6 @@ return
 transceivers_
 ;
 }
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -981,9 +978,6 @@ voice_media_send_channel
 )
 const
 ;
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -991,9 +985,6 @@ video_media_send_channel
 )
 const
 ;
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -1001,9 +992,6 @@ voice_media_receive_channel
 )
 const
 ;
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
@@ -1230,9 +1218,6 @@ OnNegotiationNeeded
 (
 )
 ;
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

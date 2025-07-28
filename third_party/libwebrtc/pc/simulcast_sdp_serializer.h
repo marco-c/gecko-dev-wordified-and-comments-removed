@@ -104,9 +104,6 @@ MediaContentDescription
 &
 media_desc
 const
-cricket
-:
-:
 RidDescription
 &
 rid_description
@@ -115,9 +112,6 @@ const
 ;
 RTCErrorOr
 <
-cricket
-:
-:
 RidDescription
 >
 DeserializeRidDescription

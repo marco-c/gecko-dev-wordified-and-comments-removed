@@ -65,9 +65,6 @@ LocalAudioSource
 Create
 (
 const
-cricket
-:
-:
 AudioOptions
 *
 audio_options
@@ -105,9 +102,6 @@ LocalAudioSource
 Initialize
 (
 const
-cricket
-:
-:
 AudioOptions
 *
 audio_options
