@@ -2256,6 +2256,11 @@ set
 %
 d
 ]
+fullscreen
+[
+%
+d
+]
 "
 layersNum
 layersMapped
@@ -2264,6 +2269,7 @@ layersVisible
 layersRendered
 layersMappedOpaque
 layersMappedOpaqueSet
+mIsFullscreen
 )
 ;
 }
