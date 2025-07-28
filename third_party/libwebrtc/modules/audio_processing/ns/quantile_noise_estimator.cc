@@ -120,9 +120,6 @@ QuantileNoiseEstimator
 :
 Estimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -130,9 +127,6 @@ float
 kFftSizeBy2Plus1
 >
 signal_spectrum
-rtc
-:
-:
 ArrayView
 <
 float
@@ -451,9 +445,6 @@ quantile_index_to_return
 {
 ExpApproximation
 (
-rtc
-:
-:
 ArrayView
 <
 const

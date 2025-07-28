@@ -97,9 +97,6 @@ bool
 stationary_block
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

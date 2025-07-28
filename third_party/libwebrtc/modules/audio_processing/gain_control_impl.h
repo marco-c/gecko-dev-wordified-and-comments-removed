@@ -106,9 +106,6 @@ override
 void
 ProcessRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

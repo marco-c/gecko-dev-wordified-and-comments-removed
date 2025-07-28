@@ -139,9 +139,6 @@ PitchEstimator
 int
 Estimate
 (
-rtc
-:
-:
 ArrayView
 <
 const

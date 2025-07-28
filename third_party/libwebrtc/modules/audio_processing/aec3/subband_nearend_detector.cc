@@ -112,9 +112,6 @@ SubbandNearendDetector
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -128,9 +125,6 @@ kFftLengthBy2Plus1
 >
 >
 nearend_spectrum
-rtc
-:
-:
 ArrayView
 <
 const
@@ -143,9 +137,6 @@ float
 kFftLengthBy2Plus1
 >
 >
-rtc
-:
-:
 ArrayView
 <
 const

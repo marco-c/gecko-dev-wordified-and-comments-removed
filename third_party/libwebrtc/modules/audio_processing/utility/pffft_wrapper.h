@@ -68,9 +68,6 @@ FloatBuffer
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -81,9 +78,6 @@ GetConstView
 )
 const
 ;
-rtc
-:
-:
 ArrayView
 <
 float

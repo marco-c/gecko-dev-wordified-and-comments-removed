@@ -208,9 +208,6 @@ sample_rate_hz
 ;
 samples_per_channel_
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -1309,9 +1306,6 @@ const
 SimulationSettings
 settings_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

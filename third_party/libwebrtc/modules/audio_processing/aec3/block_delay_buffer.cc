@@ -218,9 +218,6 @@ size
 num_bands
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float

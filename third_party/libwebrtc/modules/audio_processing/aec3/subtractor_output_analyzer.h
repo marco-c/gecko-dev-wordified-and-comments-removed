@@ -47,9 +47,6 @@ default
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const

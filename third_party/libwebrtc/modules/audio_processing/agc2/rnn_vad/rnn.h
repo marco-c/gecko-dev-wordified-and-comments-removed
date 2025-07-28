@@ -151,9 +151,6 @@ Reset
 float
 ComputeVadProbability
 (
-rtc
-:
-:
 ArrayView
 <
 const

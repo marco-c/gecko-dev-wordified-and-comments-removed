@@ -133,10 +133,10 @@ echo_canceller3
 .
 cc
 index
-2a60377364
+92a4d7baf7
 .
 .
-069bd30bf5
+c0b6a30da6
 100644
 -
 -
@@ -167,10 +167,10 @@ echo_canceller3
 .
 cc
 -
-795
+794
 7
 +
-795
+794
 7
 EchoCanceller3
 :
@@ -246,9 +246,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -262,9 +259,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -275,3 +269,4 @@ num_capture_channels_
 )
 )
 ;
+}

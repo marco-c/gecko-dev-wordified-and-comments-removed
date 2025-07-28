@@ -900,9 +900,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -925,9 +922,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -950,9 +944,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float

@@ -46,9 +46,6 @@ virtual
 size_t
 ReadFloatSamples
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -62,9 +59,6 @@ virtual
 size_t
 ReadInt16Samples
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

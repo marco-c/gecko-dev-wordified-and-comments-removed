@@ -1695,9 +1695,6 @@ ChannelBuffer
 float
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz

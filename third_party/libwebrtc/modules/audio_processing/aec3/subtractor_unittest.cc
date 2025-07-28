@@ -764,9 +764,6 @@ num_capture_channels
 capture_ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float

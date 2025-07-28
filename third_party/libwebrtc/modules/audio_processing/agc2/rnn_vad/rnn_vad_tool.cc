@@ -221,17 +221,11 @@ argc
 argv
 )
 ;
-rtc
-:
-:
 LogMessage
 :
 :
 LogToDebug
 (
-rtc
-:
-:
 LS_INFO
 )
 ;
@@ -425,9 +419,6 @@ const
 int
 frame_size_10ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 wav_reader
@@ -524,9 +515,6 @@ data
 ;
 if
 (
-rtc
-:
-:
 SafeLt
 (
 read_samples

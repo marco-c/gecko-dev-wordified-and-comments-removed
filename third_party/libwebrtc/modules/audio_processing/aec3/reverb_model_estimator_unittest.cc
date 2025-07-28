@@ -731,9 +731,6 @@ j
 ;
 }
 }
-rtc
-:
-:
 ArrayView
 <
 float

@@ -36,9 +36,6 @@ FftData
 :
 SpectrumAVX2
 (
-rtc
-:
-:
 ArrayView
 <
 float

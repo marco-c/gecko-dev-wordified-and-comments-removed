@@ -615,9 +615,6 @@ clipped_level_step
 void
 Process
 (
-rtc
-:
-:
 ArrayView
 <
 const

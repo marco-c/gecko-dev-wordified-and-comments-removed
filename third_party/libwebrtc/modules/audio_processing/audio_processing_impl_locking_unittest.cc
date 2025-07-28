@@ -967,9 +967,6 @@ AecType
 :
 BasicWebRtcAecSettingsWithAecMobile
 ?
-rtc
-:
-:
 ArrayView
 <
 const
@@ -979,9 +976,6 @@ int
 sample_rates
 2
 )
-:
-rtc
-:
 :
 ArrayView
 <
@@ -1741,9 +1735,6 @@ const
 TestConfig
 test_config_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing
@@ -1886,9 +1877,6 @@ size_t
 num_channels
 size_t
 samples_per_channel
-rtc
-:
-:
 ArrayView
 <
 int16_t

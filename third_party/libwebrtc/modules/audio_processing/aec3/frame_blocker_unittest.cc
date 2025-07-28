@@ -294,9 +294,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -372,9 +369,6 @@ band
 channel
 ]
 =
-rtc
-:
-:
 ArrayView
 <
 float
@@ -431,9 +425,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -842,9 +833,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -859,9 +847,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1140,9 +1125,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1157,9 +1139,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1180,9 +1159,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1197,9 +1173,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1471,7 +1444,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1492,7 +1465,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1636,7 +1609,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1657,7 +1630,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1827,7 +1800,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1848,7 +1821,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2526,7 +2499,7 @@ num_calls
 num_calls
 )
 {
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -2695,7 +2668,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView

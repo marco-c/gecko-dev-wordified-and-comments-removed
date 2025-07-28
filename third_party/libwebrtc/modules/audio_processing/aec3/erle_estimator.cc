@@ -171,9 +171,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -193,9 +190,6 @@ kFftLengthBy2Plus1
 >
 >
 filter_frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -203,9 +197,6 @@ float
 kFftLengthBy2Plus1
 >
 avg_render_spectrum_with_reverb
-rtc
-:
-:
 ArrayView
 <
 const
@@ -219,9 +210,6 @@ kFftLengthBy2Plus1
 >
 >
 capture_spectra
-rtc
-:
-:
 ArrayView
 <
 const

@@ -100,9 +100,6 @@ const
 Block
 &
 x
-rtc
-:
-:
 ArrayView
 <
 float
@@ -178,9 +175,6 @@ const
 Block
 &
 x
-rtc
-:
-:
 ArrayView
 <
 float

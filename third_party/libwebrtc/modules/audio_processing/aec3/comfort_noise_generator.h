@@ -178,9 +178,6 @@ Compute
 (
 bool
 saturated_capture
-rtc
-:
-:
 ArrayView
 <
 const
@@ -194,17 +191,11 @@ kFftLengthBy2Plus1
 >
 >
 capture_spectrum
-rtc
-:
-:
 ArrayView
 <
 FftData
 >
 lower_band_noise
-rtc
-:
-:
 ArrayView
 <
 FftData
@@ -212,9 +203,6 @@ FftData
 upper_band_noise
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

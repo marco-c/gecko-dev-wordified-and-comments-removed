@@ -287,9 +287,6 @@ decimator
 .
 Decimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -341,9 +338,6 @@ kNumBlocks
 kNumStartupBlocks
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -367,9 +361,6 @@ kNumStartupBlocks
 kBlockSize
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

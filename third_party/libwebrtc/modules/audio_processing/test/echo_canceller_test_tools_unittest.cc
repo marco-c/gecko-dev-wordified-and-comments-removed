@@ -145,9 +145,6 @@ k
 ;
 k
 <
-rtc
-:
-:
 CheckedDivExact
 (
 v
@@ -167,9 +164,6 @@ delay_buffer
 .
 Delay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -185,9 +179,6 @@ kBlockSize
 ]
 kBlockSize
 )
-rtc
-:
-:
 ArrayView
 <
 float
@@ -329,9 +320,6 @@ k
 ;
 k
 <
-rtc
-:
-:
 CheckedDivExact
 (
 v
@@ -351,9 +339,6 @@ delay_buffer
 .
 Delay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -369,9 +354,6 @@ kBlockSize
 ]
 kBlockSize
 )
-rtc
-:
-:
 ArrayView
 <
 int

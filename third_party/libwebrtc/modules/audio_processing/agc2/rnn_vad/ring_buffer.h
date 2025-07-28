@@ -142,9 +142,6 @@ fill
 void
 Push
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -198,9 +195,6 @@ tail_
 0
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

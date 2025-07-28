@@ -80,9 +80,6 @@ delete
 void
 Estimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -90,9 +87,6 @@ float
 kFftSizeBy2Plus1
 >
 signal_spectrum
-rtc
-:
-:
 ArrayView
 <
 float

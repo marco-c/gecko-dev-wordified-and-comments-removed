@@ -189,9 +189,6 @@ reverb_decay
 ReverbModel
 *
 reverb_model
-rtc
-:
-:
 ArrayView
 <
 float
@@ -253,9 +250,6 @@ kFftLengthBy2Plus1
 >
 X2_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -278,9 +272,6 @@ average_channels
 (
 size_t
 num_render_channels
-rtc
-:
-:
 ArrayView
 <
 const
@@ -294,9 +285,6 @@ kFftLengthBy2Plus1
 >
 >
 spectrum_band_0
-rtc
-:
-:
 ArrayView
 <
 float
@@ -486,9 +474,6 @@ idx_at_delay
 ]
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -563,9 +548,6 @@ AecState
 :
 GetResidualEchoScaling
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -924,9 +906,6 @@ DelayEstimate
 >
 &
 external_delay
-rtc
-:
-:
 ArrayView
 <
 const
@@ -946,9 +925,6 @@ kFftLengthBy2Plus1
 >
 >
 adaptive_filter_frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -965,9 +941,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -981,9 +954,6 @@ kFftLengthBy2Plus1
 >
 >
 E2_refined
-rtc
-:
-:
 ArrayView
 <
 const
@@ -997,9 +967,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1960,9 +1927,6 @@ FilterDelay
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2347,9 +2311,6 @@ bool
 saturated_capture
 bool
 usable_linear_estimate
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2463,9 +2424,6 @@ NumChannels
 ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

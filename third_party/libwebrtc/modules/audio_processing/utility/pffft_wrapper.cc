@@ -147,9 +147,6 @@ data_
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -173,9 +170,6 @@ size_
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 float

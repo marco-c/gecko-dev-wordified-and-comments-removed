@@ -112,9 +112,6 @@ ReverbModelEstimator
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -127,9 +124,6 @@ float
 >
 >
 impulse_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -149,9 +143,6 @@ kFftLengthBy2Plus1
 >
 >
 frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -164,9 +155,6 @@ float
 >
 >
 linear_filter_qualities
-rtc
-:
-:
 ArrayView
 <
 const
@@ -208,9 +196,6 @@ mild
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

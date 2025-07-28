@@ -80,9 +80,6 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
-:
-:
 ArrayView
 <
 float
@@ -116,7 +113,7 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
+webrtc
 :
 :
 ArrayView
@@ -154,9 +151,6 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
-:
-:
 ArrayView
 <
 float
@@ -184,9 +178,6 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
-:
-:
 ArrayView
 <
 float
@@ -221,9 +212,6 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
-:
-:
 ArrayView
 <
 float

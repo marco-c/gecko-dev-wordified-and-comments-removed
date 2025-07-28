@@ -174,9 +174,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -190,9 +187,6 @@ kFftLengthBy2Plus1
 >
 >
 S2_linear
-rtc
-:
-:
 ArrayView
 <
 const
@@ -208,9 +202,6 @@ kFftLengthBy2Plus1
 Y2
 bool
 dominant_nearend
-rtc
-:
-:
 ArrayView
 <
 std
@@ -223,9 +214,6 @@ kFftLengthBy2Plus1
 >
 >
 R2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -284,9 +272,6 @@ dominant_nearend
 void
 AddReverb
 (
-rtc
-:
-:
 ArrayView
 <
 std

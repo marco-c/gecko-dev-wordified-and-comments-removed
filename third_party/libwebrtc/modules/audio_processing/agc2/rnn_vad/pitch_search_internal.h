@@ -67,9 +67,6 @@ rnn_vad
 void
 Decimate2x
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -77,9 +74,6 @@ float
 kBufSize24kHz
 >
 src
-rtc
-:
-:
 ArrayView
 <
 float
@@ -91,9 +85,6 @@ dst
 void
 ComputeSlidingFrameSquareEnergies24kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -101,9 +92,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 float
@@ -128,9 +116,6 @@ second_best
 CandidatePitchPeriods
 ComputePitchPeriod12kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -138,9 +123,6 @@ float
 kBufSize12kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -155,9 +137,6 @@ cpu_features
 int
 ComputePitchPeriod48kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -165,9 +144,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -195,9 +171,6 @@ strength
 PitchInfo
 ComputeExtendedPitchPeriod48kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -205,9 +178,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const

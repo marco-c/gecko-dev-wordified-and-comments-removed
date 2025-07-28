@@ -84,7 +84,7 @@ MOCK_METHOD
 size_t
 ReadFloatSamples
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -102,7 +102,7 @@ MOCK_METHOD
 size_t
 ReadInt16Samples
 (
-rtc
+webrtc
 :
 :
 ArrayView

@@ -381,9 +381,6 @@ channels_
 void
 AggregateWienerFilters
 (
-rtc
-:
-:
 ArrayView
 <
 float

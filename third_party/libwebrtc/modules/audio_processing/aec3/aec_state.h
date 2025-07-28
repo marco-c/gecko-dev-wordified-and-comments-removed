@@ -310,9 +310,6 @@ blocks_with_active_render_
 void
 GetResidualEchoScaling
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -335,9 +332,6 @@ echo_audibility
 use_stationarity_properties
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -366,9 +360,6 @@ onset_compensated
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -539,9 +530,6 @@ mild
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -587,9 +575,6 @@ DelayEstimate
 >
 &
 external_delay
-rtc
-:
-:
 ArrayView
 <
 const
@@ -609,9 +594,6 @@ kFftLengthBy2Plus1
 >
 >
 adaptive_filter_frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -628,9 +610,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -644,9 +623,6 @@ kFftLengthBy2Plus1
 >
 >
 E2_refined
-rtc
-:
-:
 ArrayView
 <
 const
@@ -660,9 +636,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -827,9 +800,6 @@ return
 external_delay_reported_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -857,9 +827,6 @@ min_filter_delay_
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1059,9 +1026,6 @@ bool
 saturated_capture
 bool
 usable_linear_estimate
-rtc
-:
-:
 ArrayView
 <
 const

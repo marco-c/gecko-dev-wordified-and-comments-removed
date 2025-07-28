@@ -329,9 +329,6 @@ const
 SubtractorOutput
 &
 subtractor_output
-rtc
-:
-:
 ArrayView
 <
 const

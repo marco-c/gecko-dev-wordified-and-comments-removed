@@ -720,9 +720,6 @@ audiotracks_map
 void
 PadLeftWriteChunk
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -896,9 +893,6 @@ padding_size
 void
 ScaleSignal
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -907,9 +901,6 @@ int16_t
 source_samples
 int
 gain
-rtc
-:
-:
 ArrayView
 <
 int16_t

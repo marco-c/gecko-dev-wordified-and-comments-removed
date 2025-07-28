@@ -311,9 +311,6 @@ int
 analog_level_max
 int
 achieved_stream_analog_level_reference
-rtc
-:
-:
 ArrayView
 <
 const
@@ -343,9 +340,6 @@ const
 int
 samples_per_channel
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz

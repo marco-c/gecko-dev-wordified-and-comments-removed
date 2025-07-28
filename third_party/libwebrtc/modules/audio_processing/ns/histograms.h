@@ -97,9 +97,6 @@ SignalModel
 features_
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -115,9 +112,6 @@ return
 lrt_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -133,9 +127,6 @@ return
 spectral_flatness_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

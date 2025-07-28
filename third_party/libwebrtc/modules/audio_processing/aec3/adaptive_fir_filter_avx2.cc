@@ -370,9 +370,6 @@ FftData
 H
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -996,9 +993,6 @@ fill
 f
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

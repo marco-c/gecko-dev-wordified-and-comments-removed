@@ -190,9 +190,6 @@ gain
 ;
 MultiEndCall
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -354,9 +351,6 @@ CheckTiming
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

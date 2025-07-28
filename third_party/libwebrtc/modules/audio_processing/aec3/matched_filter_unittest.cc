@@ -2035,9 +2035,6 @@ kBlockSize
 >
 downsampled_capture_data
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -2552,9 +2549,6 @@ kBlockSize
 >
 downsampled_capture_data
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -2755,9 +2749,6 @@ kBlockSize
 >
 capture_data
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -3186,9 +3177,6 @@ kBlockSize
 >
 downsampled_capture_data
 ;
-rtc
-:
-:
 ArrayView
 <
 float

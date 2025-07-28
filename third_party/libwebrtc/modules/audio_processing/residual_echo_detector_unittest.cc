@@ -44,9 +44,6 @@ Echo
 auto
 echo_detector
 =
-rtc
-:
-:
 make_ref_counted
 <
 ResidualEchoDetector
@@ -229,9 +226,6 @@ NoEcho
 auto
 echo_detector
 =
-rtc
-:
-:
 make_ref_counted
 <
 ResidualEchoDetector
@@ -378,9 +372,6 @@ EchoWithRenderClockDrift
 auto
 echo_detector
 =
-rtc
-:
-:
 make_ref_counted
 <
 ResidualEchoDetector
@@ -579,9 +570,6 @@ EchoWithCaptureClockDrift
 auto
 echo_detector
 =
-rtc
-:
-:
 make_ref_counted
 <
 ResidualEchoDetector

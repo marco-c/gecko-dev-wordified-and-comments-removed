@@ -145,9 +145,6 @@ Reset
 bool
 CheckSilenceComputeFeatures
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -155,9 +152,6 @@ float
 kFrameSize10ms24kHz
 >
 samples
-rtc
-:
-:
 ArrayView
 <
 float
@@ -184,9 +178,6 @@ kFrameSize20ms24kHz
 >
 pitch_buf_24kHz_
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -204,9 +195,6 @@ float
 >
 lp_residual_
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -217,9 +205,6 @@ lp_residual_view_
 PitchEstimator
 pitch_estimator_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

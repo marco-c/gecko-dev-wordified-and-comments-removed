@@ -131,9 +131,6 @@ f
 void
 VerifyErleBands
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -264,9 +261,6 @@ a
 void
 VerifyErle
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -308,9 +302,6 @@ erle_time_domain
 void
 VerifyErleGreaterOrEqual
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -324,9 +315,6 @@ kFftLengthBy2Plus1
 >
 >
 erle1
-rtc
-:
-:
 ArrayView
 <
 const
@@ -700,9 +688,6 @@ kFftLengthBy2Plus1
 >
 *
 X2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -715,9 +700,6 @@ kFftLengthBy2Plus1
 >
 >
 E2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -959,9 +941,6 @@ kFftLengthBy2Plus1
 >
 *
 X2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -974,9 +953,6 @@ kFftLengthBy2Plus1
 >
 >
 E2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -1134,9 +1110,6 @@ GetFilterFreq
 (
 size_t
 delay_headroom_samples
-rtc
-:
-:
 ArrayView
 <
 std

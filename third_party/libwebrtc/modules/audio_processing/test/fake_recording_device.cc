@@ -163,9 +163,6 @@ virtual
 void
 ModifyBufferInt16
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -241,9 +238,6 @@ default
 void
 ModifyBufferInt16
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -300,9 +294,6 @@ default
 void
 ModifyBufferInt16
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -590,9 +581,6 @@ default
 void
 ModifyBufferInt16
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -985,9 +973,6 @@ FakeRecordingDevice
 :
 SimulateAnalogGain
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

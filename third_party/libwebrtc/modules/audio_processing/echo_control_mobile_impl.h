@@ -96,9 +96,6 @@ const
 void
 ProcessRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -159,9 +159,6 @@ SubtractorOutput
 :
 ComputeMetrics
 (
-rtc
-:
-:
 ArrayView
 <
 const

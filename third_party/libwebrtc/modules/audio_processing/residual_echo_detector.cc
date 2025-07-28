@@ -101,7 +101,7 @@ namespace
 float
 Power
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -271,9 +271,6 @@ ResidualEchoDetector
 :
 AnalyzeRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -367,9 +364,6 @@ ResidualEchoDetector
 :
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

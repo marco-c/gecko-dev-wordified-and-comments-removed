@@ -525,9 +525,6 @@ GainControlImpl
 :
 ProcessRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -626,9 +623,6 @@ kMaxSplitFrameLength
 >
 mixed_16_kHz_render_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const

@@ -277,9 +277,6 @@ kFrameDurationMs
 ;
 if
 (
-rtc
-:
-:
 SafeGt
 (
 state

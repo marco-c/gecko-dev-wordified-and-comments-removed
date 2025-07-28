@@ -298,9 +298,6 @@ const
 AecState
 &
 aec_state
-rtc
-:
-:
 ArrayView
 <
 SubtractorOutput
@@ -390,9 +387,6 @@ DumpRaw
 "
 aec3_subtractor_h_refined
 "
-rtc
-:
-:
 ArrayView
 <
 const
@@ -450,9 +444,6 @@ DumpRaw
 "
 aec3_subtractor_h_coarse
 "
-rtc
-:
-:
 ArrayView
 <
 const

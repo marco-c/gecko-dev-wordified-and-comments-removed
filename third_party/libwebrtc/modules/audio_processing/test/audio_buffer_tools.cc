@@ -134,9 +134,6 @@ const
 StreamConfig
 &
 stream_config
-rtc
-:
-:
 ArrayView
 <
 const

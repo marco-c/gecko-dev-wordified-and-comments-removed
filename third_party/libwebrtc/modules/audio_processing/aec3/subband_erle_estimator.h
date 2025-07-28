@@ -118,9 +118,6 @@ Reset
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -128,9 +125,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -144,9 +138,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -172,9 +163,6 @@ bool
 converged_filters
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -205,9 +193,6 @@ erle_onset_compensated_
 erle_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -229,9 +214,6 @@ return
 erle_unbounded_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -361,9 +343,6 @@ num_points
 void
 UpdateAccumulatedSpectra
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -371,9 +350,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -387,9 +363,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const

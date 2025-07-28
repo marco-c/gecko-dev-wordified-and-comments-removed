@@ -521,9 +521,6 @@ samples_per_channel
 ;
 samples_in_sub_frame_
 =
-rtc
-:
-:
 CheckedDivExact
 (
 samples_in_frame_

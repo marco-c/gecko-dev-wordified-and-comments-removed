@@ -114,9 +114,6 @@ Update
 (
 int32_t
 num_analyzed_frames
-rtc
-:
-:
 ArrayView
 <
 const
@@ -124,9 +121,6 @@ float
 kFftSizeBy2Plus1
 >
 noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const
@@ -134,9 +128,6 @@ float
 kFftSizeBy2Plus1
 >
 prev_noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const
@@ -144,9 +135,6 @@ float
 kFftSizeBy2Plus1
 >
 parametric_noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const

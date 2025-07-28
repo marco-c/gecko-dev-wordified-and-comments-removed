@@ -134,9 +134,6 @@ fill
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -399,9 +396,6 @@ NumChannels
 channel
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

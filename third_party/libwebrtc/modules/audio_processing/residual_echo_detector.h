@@ -116,9 +116,6 @@ override
 void
 AnalyzeRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -131,9 +128,6 @@ override
 void
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

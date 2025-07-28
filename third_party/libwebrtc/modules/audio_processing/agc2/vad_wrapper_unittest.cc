@@ -209,7 +209,7 @@ MOCK_METHOD
 float
 Analyze
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -440,9 +440,6 @@ sample_rate_hz
 :
 samples
 (
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -565,9 +562,6 @@ i
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 i
@@ -975,9 +969,6 @@ Truly
 this
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -987,9 +978,6 @@ frame
 )
 {
 return
-rtc
-:
-:
 SafeEq
 (
 frame
@@ -997,9 +985,6 @@ frame
 size
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 vad_sample_rate_hz

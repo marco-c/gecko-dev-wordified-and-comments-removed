@@ -274,9 +274,6 @@ const
 Block
 &
 x
-rtc
-:
-:
 ArrayView
 <
 float
@@ -380,9 +377,6 @@ const
 Block
 &
 x
-rtc
-:
-:
 ArrayView
 <
 float
@@ -646,9 +640,6 @@ x2_sum
 .
 f
 ;
-rtc
-:
-:
 ArrayView
 <
 const

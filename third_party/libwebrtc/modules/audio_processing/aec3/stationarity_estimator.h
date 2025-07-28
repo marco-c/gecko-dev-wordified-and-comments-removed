@@ -101,9 +101,6 @@ Reset
 void
 UpdateNoiseEstimator
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -126,9 +123,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -206,9 +200,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -268,9 +259,6 @@ Reset
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -286,9 +274,6 @@ kFftLengthBy2Plus1
 spectrum
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

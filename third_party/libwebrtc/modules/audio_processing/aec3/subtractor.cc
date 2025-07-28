@@ -148,9 +148,6 @@ const
 FftData
 &
 S
-rtc
-:
-:
 ArrayView
 <
 const
@@ -305,9 +302,6 @@ kFftLengthBy2
 void
 ScaleFilterOutput
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -316,17 +310,11 @@ float
 y
 float
 factor
-rtc
-:
-:
 ArrayView
 <
 float
 >
 e
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1178,9 +1166,6 @@ const
 AecState
 &
 aec_state
-rtc
-:
-:
 ArrayView
 <
 SubtractorOutput
@@ -1385,9 +1370,6 @@ outputs
 ch
 ]
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2106,9 +2088,6 @@ a
 {
 a
 =
-rtc
-:
-:
 SafeClamp
 (
 a

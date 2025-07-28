@@ -175,9 +175,6 @@ band
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 band
@@ -209,9 +206,6 @@ j
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 j
@@ -310,9 +304,6 @@ i
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 i
@@ -390,9 +381,6 @@ SCOPED_TRACE
 band_size
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float

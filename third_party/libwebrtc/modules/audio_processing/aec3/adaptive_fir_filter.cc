@@ -1008,9 +1008,6 @@ FftData
 H
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1260,7 +1257,7 @@ FftData
 H
 )
 {
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1836,9 +1833,6 @@ FftData
 H
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2448,9 +2442,6 @@ fill
 f
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2736,7 +2727,7 @@ Clear
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3354,9 +3345,6 @@ fill
 f
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

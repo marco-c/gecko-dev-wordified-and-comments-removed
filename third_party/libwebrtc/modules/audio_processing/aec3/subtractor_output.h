@@ -179,9 +179,6 @@ Reset
 void
 ComputeMetrics
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -42,9 +42,6 @@ kFftSizeBy2Plus1
 float
 ComputeSpectralDiff
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -52,9 +49,6 @@ float
 kFftSizeBy2Plus1
 >
 conservative_noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const
@@ -241,9 +235,6 @@ diff_normalization
 void
 UpdateSpectralFlatness
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -399,9 +390,6 @@ spectral_flatness
 void
 UpdateSpectralLrt
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -409,9 +397,6 @@ float
 kFftSizeBy2Plus1
 >
 prior_snr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -419,9 +404,6 @@ float
 kFftSizeBy2Plus1
 >
 post_snr
-rtc
-:
-:
 ArrayView
 <
 float
@@ -622,9 +604,6 @@ SignalModelEstimator
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -632,9 +611,6 @@ float
 kFftSizeBy2Plus1
 >
 prior_snr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -642,9 +618,6 @@ float
 kFftSizeBy2Plus1
 >
 post_snr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -652,9 +625,6 @@ float
 kFftSizeBy2Plus1
 >
 conservative_noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const

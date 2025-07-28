@@ -402,9 +402,6 @@ SubbandErleEstimator
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -412,9 +409,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -428,9 +422,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1414,9 +1405,6 @@ SubbandErleEstimator
 :
 UpdateAccumulatedSpectra
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1424,9 +1412,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1440,9 +1425,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const

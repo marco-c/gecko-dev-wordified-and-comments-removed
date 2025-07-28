@@ -417,9 +417,6 @@ unique_ptr
 EchoControlFactory
 >
 echo_control_factory
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector
@@ -589,9 +586,6 @@ override
 bool
 GetLinearAecOutput
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -1556,9 +1550,6 @@ unique_ptr
 CustomProcessing
 >
 render_pre_processor
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector
@@ -1617,9 +1608,6 @@ capture_analyzer
 {
 }
 const
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector

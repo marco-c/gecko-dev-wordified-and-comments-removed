@@ -112,9 +112,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 float

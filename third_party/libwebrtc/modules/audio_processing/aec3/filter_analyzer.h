@@ -135,9 +135,6 @@ Reset
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -162,9 +159,6 @@ float
 max_echo_path_gain
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -204,9 +198,6 @@ filter_analysis_states_
 filter_length_blocks
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -242,9 +233,6 @@ FilterAnalysisState
 void
 AnalyzeRegion
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -266,9 +254,6 @@ render_buffer
 void
 UpdateFilterGain
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -283,9 +268,6 @@ st
 void
 PreProcessFilters
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -338,9 +320,6 @@ Reset
 bool
 Detect
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -192,9 +192,6 @@ position
 ]
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -239,9 +236,6 @@ position
 ]
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

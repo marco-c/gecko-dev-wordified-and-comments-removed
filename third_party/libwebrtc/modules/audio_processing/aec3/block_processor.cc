@@ -892,9 +892,6 @@ if
 delay_change
 )
 {
-rtc
-:
-:
 LoggingSeverity
 log_level
 =
@@ -904,13 +901,7 @@ delay
 .
 log_warning_on_delay_changes
 ?
-rtc
-:
-:
 LS_WARNING
-:
-rtc
-:
 :
 LS_INFO
 ;

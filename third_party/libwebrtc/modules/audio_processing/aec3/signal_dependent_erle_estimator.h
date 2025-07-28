@@ -101,9 +101,6 @@ Reset
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -141,9 +138,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -163,9 +157,6 @@ kFftLengthBy2Plus1
 >
 >
 filter_frequency_response
-rtc
-:
-:
 ArrayView
 <
 const
@@ -173,9 +164,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -189,9 +177,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -205,9 +190,6 @@ kFftLengthBy2Plus1
 >
 >
 E2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -221,9 +203,6 @@ kFftLengthBy2Plus1
 >
 >
 average_erle
-rtc
-:
-:
 ArrayView
 <
 const
@@ -281,9 +260,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -308,9 +284,6 @@ filter_frequency_responses
 void
 UpdateCorrectionFactors
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -318,9 +291,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -334,9 +304,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -369,9 +336,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const

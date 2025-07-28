@@ -172,9 +172,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -194,9 +191,6 @@ kFftLengthBy2Plus1
 >
 >
 filter_frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -204,9 +198,6 @@ float
 kFftLengthBy2Plus1
 >
 avg_render_spectrum_with_reverb
-rtc
-:
-:
 ArrayView
 <
 const
@@ -220,9 +211,6 @@ kFftLengthBy2Plus1
 >
 >
 capture_spectra
-rtc
-:
-:
 ArrayView
 <
 const
@@ -248,9 +236,6 @@ bool
 converged_filters
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -289,9 +274,6 @@ onset_compensated
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -328,9 +310,6 @@ false
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -370,9 +349,6 @@ FullbandErleLog2
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

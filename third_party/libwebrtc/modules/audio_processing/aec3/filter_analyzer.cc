@@ -89,9 +89,6 @@ namespace
 size_t
 FindPeakIndex
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -348,9 +345,6 @@ FilterAnalyzer
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -542,9 +536,6 @@ FilterAnalyzer
 :
 AnalyzeRegion
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -808,9 +799,6 @@ FilterAnalyzer
 :
 UpdateFilterGain
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -935,9 +923,6 @@ FilterAnalyzer
 :
 PreProcessFilters
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1427,9 +1412,6 @@ ConsistentFilterDetector
 :
 Detect
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1728,9 +1710,6 @@ NumChannels
 ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

@@ -209,9 +209,6 @@ end
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -234,9 +231,6 @@ S
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -293,9 +287,6 @@ M
 void
 Push
 (
-rtc
-:
-:
 ArrayView
 <
 const

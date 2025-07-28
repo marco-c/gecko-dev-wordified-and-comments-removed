@@ -121,9 +121,6 @@ AutoCorrelationCalculator
 :
 ComputeOnPitchBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -131,9 +128,6 @@ float
 kBufSize12kHz
 >
 pitch_buf
-rtc
-:
-:
 ArrayView
 <
 float

@@ -2407,9 +2407,6 @@ test_complete_
 Random
 rand_gen_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

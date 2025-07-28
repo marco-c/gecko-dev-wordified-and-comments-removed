@@ -407,7 +407,7 @@ MOCK_METHOD
 void
 AnalyzeRenderAudio
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -427,7 +427,7 @@ MOCK_METHOD
 void
 AnalyzeCaptureAudio
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -771,7 +771,7 @@ bool
 GetLinearAecOutput
 (
 (
-rtc
+webrtc
 :
 :
 ArrayView

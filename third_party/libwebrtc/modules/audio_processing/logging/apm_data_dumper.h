@@ -327,7 +327,7 @@ size
 kOutputDirMaxLength
 )
 ;
-rtc
+webrtc
 :
 :
 strcpyn
@@ -547,9 +547,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
@@ -799,9 +796,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1071,9 +1065,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1323,9 +1314,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1746,9 +1734,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1817,9 +1802,6 @@ absl
 :
 string_view
 name
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1996,9 +1978,6 @@ name
 maybe_unused
 ]
 ]
-rtc
-:
-:
 ArrayView
 <
 const
