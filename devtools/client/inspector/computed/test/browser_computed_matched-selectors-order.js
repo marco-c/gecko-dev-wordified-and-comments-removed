@@ -431,9 +431,7 @@ expectedMatchedSelectors
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -1944,9 +1942,7 @@ important
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -2100,9 +2096,7 @@ expectedMatchedSelectors
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -3944,9 +3938,7 @@ expectedMatchedSelectors
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
