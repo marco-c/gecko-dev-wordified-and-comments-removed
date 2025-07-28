@@ -1331,6 +1331,9 @@ ffi
 WGPUPowerPreference_LowPower
 ;
 }
+RawId
+adapter_id
+=
 ffi
 :
 :
@@ -1364,6 +1367,7 @@ RefPtr
 (
 this
 )
+adapter_id
 }
 ;
 bridge

@@ -7376,6 +7376,12 @@ wgpu_parent_build_submitted_work_done_closure
 parent
 :
 WebGPUParentPtr
+queue_id
+:
+id
+:
+:
+QueueId
 )
 -
 >
@@ -11408,6 +11414,7 @@ ServerMessage
 :
 CreateShaderModuleResponse
 (
+id
 compilation_messages
 )
 )
@@ -12071,6 +12078,7 @@ ServerMessage
 :
 PopErrorScopeResponse
 (
+device_id
 ty
 message
 )
@@ -12853,6 +12861,12 @@ bb
 &
 mut
 ByteBuf
+queue_id
+:
+id
+:
+:
+QueueId
 )
 {
 *
@@ -12865,6 +12879,9 @@ ServerMessage
 :
 :
 QueueOnSubmittedWorkDoneResponse
+(
+queue_id
+)
 )
 ;
 }
@@ -14354,6 +14371,7 @@ wgpu_parent_build_submitted_work_done_closure
 global
 .
 owner
+queue_id
 )
 ;
 let
