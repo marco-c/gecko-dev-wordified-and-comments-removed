@@ -86,9 +86,9 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_static_library
 :
-test_mixed_source_set_rs
+test_mixed_static_library_rs
 "
 "
 /
@@ -127,7 +127,7 @@ rust
 /
 tests
 /
-test_rust_source_set
+test_rust_static_library
 "
 "
 /
@@ -140,7 +140,7 @@ rust
 /
 tests
 /
-test_rust_source_set_non_standard_arrangement
+test_rust_static_library_non_standard_arrangement
 "
 ]
 }

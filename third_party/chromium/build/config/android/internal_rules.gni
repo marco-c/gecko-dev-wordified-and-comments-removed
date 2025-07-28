@@ -6128,15 +6128,13 @@ _rebased_robolectric_runtime_deps_dir
 rebase_path
 (
 "
-root_build_dir
 /
-lib
-.
-java
 /
 third_party
 /
 robolectric
+/
+lib
 "
 root_build_dir
 )

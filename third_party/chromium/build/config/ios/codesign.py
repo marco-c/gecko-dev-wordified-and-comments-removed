@@ -2586,7 +2586,7 @@ check_call
 [
       
 '
-python
+python3
 '
       
 plist_compiler

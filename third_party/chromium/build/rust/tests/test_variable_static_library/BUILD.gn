@@ -44,7 +44,7 @@ build
 /
 rust
 /
-mixed_source_set
+mixed_static_library
 .
 gni
 "
@@ -58,7 +58,7 @@ show
 that
 a
 '
-mixed_source_set
+mixed_static_library
 '
 can
 work
@@ -121,10 +121,10 @@ in
 -
 process
 .
-mixed_source_set
+mixed_static_library
 (
 "
-test_variable_source_set
+test_variable_static_library
 "
 )
 {
@@ -132,12 +132,12 @@ sources
 =
 [
 "
-test_variable_source_set
+test_variable_static_library
 .
 cc
 "
 "
-test_variable_source_set
+test_variable_static_library
 .
 h
 "
@@ -168,7 +168,7 @@ rs
 executable
 (
 "
-test_variable_source_set_demo
+test_variable_static_library_demo
 "
 )
 {
@@ -186,7 +186,7 @@ deps
 [
 "
 :
-test_variable_source_set
+test_variable_static_library
 "
 "
 /

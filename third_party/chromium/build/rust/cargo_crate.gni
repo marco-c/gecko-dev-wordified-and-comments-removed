@@ -142,7 +142,7 @@ build
 /
 rust
 /
-rust_source_set
+rust_static_library
 .
 gni
 or
@@ -238,7 +238,7 @@ All
 just
 as
 in
-rust_source_set
+rust_static_library
 .
 gni
 #
@@ -262,7 +262,7 @@ meaning
 as
 test_deps
 in
-rust_source_set
+rust_static_library
 .
 gni
 but

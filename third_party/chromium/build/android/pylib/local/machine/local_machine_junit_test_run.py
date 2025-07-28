@@ -1226,6 +1226,27 @@ s
 %
 resource_apk
 )
+    
+z
+.
+writestr
+(
+'
+robolectric
+.
+properties
+'
+               
+'
+application
+=
+android
+.
+app
+.
+Application
+'
+)
   
 for
 cmd

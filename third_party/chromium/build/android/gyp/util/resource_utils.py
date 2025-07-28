@@ -4640,7 +4640,6 @@ resource_type
         
 public
 static
-final
 {
 {
 e

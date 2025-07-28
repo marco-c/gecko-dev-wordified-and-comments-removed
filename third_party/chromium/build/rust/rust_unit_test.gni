@@ -157,7 +157,7 @@ optional
 All
 as
 in
-rust_source_set
+rust_static_library
 .
 #
 #

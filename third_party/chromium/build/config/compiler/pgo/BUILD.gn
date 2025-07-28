@@ -606,8 +606,6 @@ cflags
 -
 fprofile
 -
-instr
--
 use
 =
 "

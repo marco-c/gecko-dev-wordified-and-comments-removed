@@ -1,7 +1,7 @@
 #
 include
 "
-test_mixed_source_set
+test_mixed_shared_library
 .
 h
 "
@@ -19,7 +19,7 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_shared_library
 /
 src
 /

@@ -44,7 +44,7 @@ build
 /
 rust
 /
-rust_source_set
+rust_static_library
 .
 gni
 "
@@ -61,7 +61,7 @@ test
 gni
 "
 )
-rust_source_set
+rust_static_library
 (
 "
 test_serde_jsonrc_rs

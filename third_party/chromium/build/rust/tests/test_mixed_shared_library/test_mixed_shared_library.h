@@ -1,9 +1,9 @@
 #
 ifndef
-BUILD_RUST_TESTS_TEST_MIXED_SOURCE_SET_TEST_MIXED_SOURCE_SET_H_
+BUILD_RUST_TESTS_TEST_MIXED_SHARED_LIBRARY_TEST_MIXED_SHARED_LIBRARY_H_
 #
 define
-BUILD_RUST_TESTS_TEST_MIXED_SOURCE_SET_TEST_MIXED_SOURCE_SET_H_
+BUILD_RUST_TESTS_TEST_MIXED_SHARED_LIBRARY_TEST_MIXED_SHARED_LIBRARY_H_
 #
 include
 <
@@ -20,7 +20,7 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_shared_library
 /
 dependency_header
 .
@@ -35,7 +35,7 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_shared_library
 /
 src
 /

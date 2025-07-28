@@ -84,6 +84,22 @@ emulator
 proto
 import
 avd_pb2
+COMMON_CIPD_ROOT
+=
+os
+.
+path
+.
+join
+(
+constants
+.
+DIR_SOURCE_ROOT
+'
+.
+android_emulator
+'
+)
 _ALL_PACKAGES
 =
 object
@@ -1014,9 +1030,7 @@ path
 .
 join
 (
-constants
-.
-DIR_SOURCE_ROOT
+COMMON_CIPD_ROOT
                                        
 self
 .
@@ -1038,9 +1052,7 @@ path
 join
 (
         
-constants
-.
-DIR_SOURCE_ROOT
+COMMON_CIPD_ROOT
 self
 .
 _config
@@ -2970,9 +2982,7 @@ path
 .
 join
 (
-constants
-.
-DIR_SOURCE_ROOT
+COMMON_CIPD_ROOT
 pkg_dir
 )
       

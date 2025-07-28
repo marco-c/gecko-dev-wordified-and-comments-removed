@@ -44,12 +44,12 @@ build
 /
 rust
 /
-rust_source_set
+rust_static_library
 .
 gni
 "
 )
-rust_source_set
+rust_static_library
 (
 "
 test_lib

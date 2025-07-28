@@ -26,9 +26,9 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_shared_library
 /
-test_mixed_source_set
+test_mixed_shared_library
 .
 h
 "

@@ -1,7 +1,7 @@
 #
 include
 "
-test_variable_source_set
+test_variable_static_library
 .
 h
 "
@@ -25,7 +25,7 @@ rust
 /
 tests
 /
-test_variable_source_set
+test_variable_static_library
 /
 src
 /

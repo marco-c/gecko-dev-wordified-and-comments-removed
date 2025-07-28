@@ -60,7 +60,7 @@ build
 /
 rust
 /
-rust_source_set
+rust_static_library
 .
 gni
 "
@@ -152,7 +152,7 @@ test_lib
 "
 ]
 }
-rust_source_set
+rust_static_library
 (
 "
 transitive_v2
