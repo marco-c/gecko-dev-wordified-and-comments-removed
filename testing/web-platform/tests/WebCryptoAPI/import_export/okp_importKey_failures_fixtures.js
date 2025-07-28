@@ -10,6 +10,9 @@ validKeyData
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
@@ -25,6 +28,9 @@ badKeyLengthData
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
@@ -40,6 +46,9 @@ missingJWKFieldKeyData
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
@@ -55,6 +64,9 @@ mismatchedJWKKeyData
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
@@ -70,6 +82,9 @@ mismatchedKtyField
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
@@ -85,6 +100,9 @@ mismatchedCrvField
 algorithm
 .
 name
+|
+|
+algorithm
 ]
 ;
 }
