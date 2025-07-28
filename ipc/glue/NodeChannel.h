@@ -378,13 +378,11 @@ const
 NodeName
 &
 aName
-UniquePtr
-<
 IPC
 :
 :
 Channel
->
+*
 aChannel
 Listener
 *
@@ -620,10 +618,7 @@ ProcessId
 mOtherPid
 ;
 const
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 IPC
 :
