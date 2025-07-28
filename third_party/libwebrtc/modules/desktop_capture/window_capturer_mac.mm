@@ -239,7 +239,7 @@ public
 explicit
 WindowCapturerMac
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -247,7 +247,7 @@ scoped_refptr
 FullScreenWindowDetector
 >
 full_screen_window_detector
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -345,7 +345,7 @@ window_id_
 =
 0
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -355,7 +355,7 @@ FullScreenWindowDetector
 full_screen_window_detector_
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -379,7 +379,7 @@ WindowCapturerMac
 :
 WindowCapturerMac
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -387,7 +387,7 @@ scoped_refptr
 FullScreenWindowDetector
 >
 full_screen_window_detector
-rtc
+webrtc
 :
 :
 scoped_refptr

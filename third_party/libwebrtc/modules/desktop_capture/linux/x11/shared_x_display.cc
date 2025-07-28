@@ -123,9 +123,6 @@ display_
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -193,9 +190,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -209,9 +203,6 @@ display
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -394,9 +385,6 @@ ProcessPendingXEvents
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

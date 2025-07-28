@@ -55,7 +55,7 @@ DesktopFrameIOSurface
 :
 Wrap
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -619,7 +619,7 @@ DesktopFrameIOSurface
 :
 DesktopFrameIOSurface
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

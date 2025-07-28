@@ -533,7 +533,7 @@ return
 int64_t
 capture_start_time_nanos
 =
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -947,7 +947,7 @@ int
 capture_time_ms
 =
 (
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -957,7 +957,7 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec

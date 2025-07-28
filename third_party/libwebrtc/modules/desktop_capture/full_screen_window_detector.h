@@ -65,9 +65,6 @@ class
 FullScreenWindowDetector
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 FullScreenWindowDetector
@@ -162,9 +159,6 @@ get_sources
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 FullScreenWindowDetector

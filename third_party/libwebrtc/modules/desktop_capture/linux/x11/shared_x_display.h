@@ -92,9 +92,6 @@ RTC_EXPORT
 SharedXDisplay
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 SharedXDisplay
@@ -129,9 +126,6 @@ event
 }
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -146,9 +140,6 @@ display_name
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

@@ -91,7 +91,7 @@ bool
 RTC_EXPORT
 GetWindowList
 (
-rtc
+webrtc
 :
 :
 FunctionView

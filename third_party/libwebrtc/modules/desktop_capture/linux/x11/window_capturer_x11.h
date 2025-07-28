@@ -322,9 +322,6 @@ callback_
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

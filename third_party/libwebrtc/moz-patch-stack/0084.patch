@@ -154,10 +154,10 @@ shared_screencast_stream
 .
 cc
 index
-ded541a467
+7a72f6c771
 .
 .
-be7cdf9c2a
+1a8ff9da9e
 100644
 -
 -
@@ -350,10 +350,10 @@ empty
 )
 {
 -
-942
+943
 7
 +
-945
+946
 7
 bool
 SharedScreenCastStreamPrivate

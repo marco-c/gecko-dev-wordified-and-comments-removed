@@ -576,7 +576,7 @@ window_height
 {
 window_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -1392,7 +1392,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -1713,7 +1713,7 @@ start_time
 ;
 start_time
 =
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -1731,7 +1731,7 @@ int
 capture_time_ms
 =
 (
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -1741,7 +1741,7 @@ TimeNanos
 start_time
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec

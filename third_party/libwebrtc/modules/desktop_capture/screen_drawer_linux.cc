@@ -198,9 +198,6 @@ BringToFront
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

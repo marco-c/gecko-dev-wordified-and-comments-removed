@@ -133,10 +133,10 @@ window_capturer_mac
 .
 mm
 index
-7454e54c3a
+a1e6157b87
 .
 .
-561c3d469d
+6dd310682b
 100644
 -
 -
@@ -163,10 +163,10 @@ window_capturer_mac
 .
 mm
 -
-167
+169
 9
 +
-167
+169
 10
 explicit
 WindowCapturerMac

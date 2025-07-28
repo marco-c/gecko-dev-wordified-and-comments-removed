@@ -497,7 +497,7 @@ window_capture_helper_
 bool
 enumerate_current_process_windows_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

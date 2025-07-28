@@ -5364,10 +5364,10 @@ window_capturer_x11
 .
 h
 index
-ac591c272e
+2605c54650
 .
 .
-cfd29eca66
+53aabb46fe
 100644
 -
 -
@@ -5570,9 +5570,6 @@ callback_
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

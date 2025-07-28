@@ -93,7 +93,7 @@ DesktopFrameCGImage
 >
 CreateFromCGImage
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -141,7 +141,7 @@ stride
 uint8_t
 *
 data
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -149,7 +149,7 @@ ScopedCFTypeRef
 CGImageRef
 >
 cg_image
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -160,7 +160,7 @@ cg_data
 )
 ;
 const
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -170,7 +170,7 @@ CGImageRef
 cg_image_
 ;
 const
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

@@ -55,7 +55,7 @@ CGDirectDisplayID
 display_id
 )
 {
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -106,7 +106,7 @@ CGWindowID
 window_id
 )
 {
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -156,7 +156,7 @@ DesktopFrameCGImage
 :
 CreateFromCGImage
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -246,7 +246,7 @@ RTC_DCHECK
 cg_provider
 )
 ;
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -374,7 +374,7 @@ MAC_OS_X_VERSION_10_13
 MAC_OS_X_VERSION_MIN_REQUIRED
 <
 MAC_OS_X_VERSION_10_13
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -391,7 +391,7 @@ cg_color_space
 ;
 #
 else
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -497,7 +497,7 @@ stride
 uint8_t
 *
 data
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -505,7 +505,7 @@ ScopedCFTypeRef
 CGImageRef
 >
 cg_image
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

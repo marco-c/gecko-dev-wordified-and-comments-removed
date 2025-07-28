@@ -28,7 +28,7 @@ DesktopFrame
 >
 CreateDesktopFrameFromCGImage
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

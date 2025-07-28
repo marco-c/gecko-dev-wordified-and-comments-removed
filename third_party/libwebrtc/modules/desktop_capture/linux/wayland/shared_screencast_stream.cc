@@ -3342,7 +3342,7 @@ buffer
 int64_t
 capture_start_time_nanos
 =
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -4475,7 +4475,7 @@ frame
 set_capture_time_ms
 (
 (
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -4485,7 +4485,7 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -5191,7 +5191,7 @@ SharedScreenCastStream
 )
 {
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5206,7 +5206,7 @@ CreateDefault
 )
 {
 return
-rtc
+webrtc
 :
 :
 scoped_refptr

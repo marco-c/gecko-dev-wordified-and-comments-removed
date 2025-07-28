@@ -167,7 +167,7 @@ defined
 (
 WEBRTC_IOS
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
