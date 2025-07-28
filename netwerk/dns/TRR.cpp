@@ -1860,10 +1860,6 @@ UseDefaultServer
 )
 &
 &
-!
-useOHTTP
-&
-&
 StaticPrefs
 :
 :
