@@ -52,15 +52,6 @@ h
 #
 include
 "
-gc
-/
-Cell
-.
-h
-"
-#
-include
-"
 js
 /
 HeapAPI
