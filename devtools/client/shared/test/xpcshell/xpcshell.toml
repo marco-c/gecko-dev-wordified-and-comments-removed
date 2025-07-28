@@ -173,7 +173,7 @@ js
 ]
 [
 "
-test_hasCSSVariable
+test_getCSSVariables
 .
 js
 "
