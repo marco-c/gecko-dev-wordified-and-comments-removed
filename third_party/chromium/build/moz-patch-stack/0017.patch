@@ -16,9 +16,9 @@ Jul
 2025
 20
 :
-12
+13
 :
-22
+31
 -
 0500
 Subject
@@ -28462,10 +28462,10 @@ BUILD
 .
 gn
 index
-e6d80a8d4
+fcca59b0f
 .
 .
-b0e1fd675
+80e420e0d
 100644
 -
 -
@@ -28920,10 +28920,10 @@ BUILD
 .
 gn
 index
-1e00d84eb
+d3d7682d9
 .
 .
-ce1ffa8ab
+c204eb969
 100644
 -
 -
@@ -30923,7 +30923,8 @@ if
 is_clang
 &
 &
-toolchain_has_rust
+!
+is_nacl
 )
 {
 -

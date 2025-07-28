@@ -14066,7 +14066,8 @@ if
 is_clang
 &
 &
-toolchain_has_rust
+!
+is_nacl
 )
 {
 configs
