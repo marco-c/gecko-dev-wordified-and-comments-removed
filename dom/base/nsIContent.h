@@ -329,6 +329,11 @@ UnbindContext
 void
 UnbindFromTree
 (
+nsINode
+*
+aNewParent
+=
+nullptr
 )
 ;
 enum

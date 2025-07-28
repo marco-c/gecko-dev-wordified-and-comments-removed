@@ -781,6 +781,10 @@ if
 IsInComposedDoc
 (
 )
+&
+&
+!
+mFrameLoader
 )
 {
 NS_ASSERTION
@@ -839,6 +843,14 @@ aContext
 if
 (
 mFrameLoader
+&
+&
+!
+aContext
+.
+IsMove
+(
+)
 )
 {
 mFrameLoader
