@@ -77,9 +77,6 @@ false
 ;
 }
 return
-rtc
-:
-:
 FromString
 (
 string_value
