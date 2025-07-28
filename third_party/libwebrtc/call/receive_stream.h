@@ -127,9 +127,6 @@ virtual
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -146,9 +143,6 @@ virtual
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

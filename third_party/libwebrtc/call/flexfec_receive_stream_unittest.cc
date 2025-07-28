@@ -297,9 +297,6 @@ config
 RtpPacketReceived
 ParsePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

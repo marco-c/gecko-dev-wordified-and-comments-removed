@@ -619,9 +619,6 @@ SendCodecSpec
 >
 send_codec_spec
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -649,9 +646,6 @@ webrtc
 CryptoOptions
 crypto_options
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -661,9 +655,6 @@ FrameEncryptorInterface
 >
 frame_encryptor
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

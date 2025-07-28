@@ -3708,9 +3708,6 @@ const
 Adaptation
 &
 adaptation
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3912,9 +3909,6 @@ const
 VideoStreamInputState
 &
 const
-rtc
-:
-:
 scoped_refptr
 <
 Resource

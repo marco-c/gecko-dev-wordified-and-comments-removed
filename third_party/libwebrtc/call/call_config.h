@@ -207,9 +207,6 @@ env
 BitrateConstraints
 bitrate_config
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioState

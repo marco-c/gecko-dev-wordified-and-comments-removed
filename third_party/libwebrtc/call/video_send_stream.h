@@ -774,9 +774,6 @@ periodic_alr_bandwidth_probing
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -798,9 +795,6 @@ nullptr
 CryptoOptions
 crypto_options
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -849,9 +843,6 @@ virtual
 void
 AddAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -867,9 +858,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource

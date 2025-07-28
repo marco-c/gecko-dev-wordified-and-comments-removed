@@ -267,9 +267,6 @@ FecController
 const
 RtpSenderFrameEncryptionConfig
 &
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -523,10 +520,7 @@ void
 OnSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 )
 (

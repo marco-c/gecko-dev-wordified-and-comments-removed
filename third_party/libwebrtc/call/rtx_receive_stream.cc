@@ -273,9 +273,6 @@ rtx_packet
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -436,9 +433,6 @@ arrival_time
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

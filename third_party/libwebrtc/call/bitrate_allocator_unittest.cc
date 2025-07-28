@@ -373,9 +373,6 @@ bps
 ;
 last_fraction_loss_
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t

@@ -1095,9 +1095,6 @@ std
 string
 sync_group
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1110,9 +1107,6 @@ frame_decryptor
 CryptoOptions
 crypto_options
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

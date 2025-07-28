@@ -63,9 +63,6 @@ public
 explicit
 BroadcastResourceListener
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -79,9 +76,6 @@ BroadcastResourceListener
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -101,9 +95,6 @@ StopListening
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -115,9 +106,6 @@ CreateAdapterResource
 void
 RemoveAdapterResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -130,9 +118,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -145,9 +130,6 @@ GetAdapterResources
 void
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -168,9 +150,6 @@ class
 AdapterResource
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -192,9 +171,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 AdapterResource

@@ -414,9 +414,6 @@ virtual
 void
 AddAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -563,10 +560,7 @@ void
 OnSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

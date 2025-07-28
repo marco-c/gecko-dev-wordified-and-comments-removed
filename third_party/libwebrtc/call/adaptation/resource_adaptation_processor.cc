@@ -260,9 +260,6 @@ ResourceListenerDelegate
 :
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -291,9 +288,6 @@ PostTask
 [
 this_ref
 =
-rtc
-:
-:
 scoped_refptr
 <
 ResourceListenerDelegate
@@ -411,9 +405,6 @@ Current
 )
 resource_listener_delegate_
 (
-rtc
-:
-:
 make_ref_counted
 <
 ResourceListenerDelegate
@@ -624,9 +615,6 @@ ResourceAdaptationProcessor
 :
 AddResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -745,9 +733,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -778,9 +763,6 @@ ResourceAdaptationProcessor
 :
 RemoveResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -914,9 +896,6 @@ ResourceAdaptationProcessor
 :
 RemoveLimitationsImposedByResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1154,9 +1133,6 @@ ResourceAdaptationProcessor
 :
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1413,9 +1389,6 @@ ResourceAdaptationProcessor
 :
 OnResourceUnderuse
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1504,9 +1477,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1768,9 +1738,6 @@ ResourceAdaptationProcessor
 :
 OnResourceOveruse
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1983,9 +1950,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2009,9 +1973,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2138,9 +2099,6 @@ ResourceAdaptationProcessor
 :
 UpdateResourceLimitations
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2198,9 +2156,6 @@ std
 :
 map
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2270,9 +2225,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource

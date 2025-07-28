@@ -367,9 +367,6 @@ const
 RtpSenderFrameEncryptionConfig
 &
 frame_encryption_config
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

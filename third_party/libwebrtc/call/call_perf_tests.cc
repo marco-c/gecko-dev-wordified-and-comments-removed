@@ -1438,9 +1438,6 @@ Reset
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -3503,9 +3500,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3824,9 +3818,6 @@ TaskQueueBase
 *
 task_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -4415,9 +4406,6 @@ encoder_config
 >
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoStreamFactory
@@ -5898,9 +5886,6 @@ kAllowedFpsDiff
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

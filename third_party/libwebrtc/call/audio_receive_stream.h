@@ -682,9 +682,6 @@ SdpAudioFormat
 >
 decoder_map
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -706,9 +703,6 @@ webrtc
 CryptoOptions
 crypto_options
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -718,9 +712,6 @@ FrameDecryptorInterface
 >
 frame_decryptor
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

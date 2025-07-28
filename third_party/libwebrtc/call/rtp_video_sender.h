@@ -557,9 +557,6 @@ const
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -854,9 +851,6 @@ GetSentRtpPacketInfos
 (
 uint32_t
 ssrc
-rtc
-:
-:
 ArrayView
 <
 const
