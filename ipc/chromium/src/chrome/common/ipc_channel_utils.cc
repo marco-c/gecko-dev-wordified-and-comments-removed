@@ -141,11 +141,6 @@ profiler_is_locked_on_current_thread
 return
 ;
 }
-[
-[
-maybe_unused
-]
-]
 const
 mozilla
 :

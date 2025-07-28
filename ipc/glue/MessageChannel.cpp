@@ -10569,11 +10569,6 @@ profiler_is_locked_on_current_thread
 )
 )
 {
-[
-[
-maybe_unused
-]
-]
 const
 TimeStamp
 now

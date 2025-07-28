@@ -2490,11 +2490,6 @@ nsIThread
 aResult
 )
 {
-[
-[
-maybe_unused
-]
-]
 TimeStamp
 startTime
 =

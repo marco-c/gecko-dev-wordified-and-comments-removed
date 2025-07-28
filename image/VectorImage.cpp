@@ -1145,11 +1145,6 @@ GetDocument
 (
 )
 ;
-[
-[
-maybe_unused
-]
-]
 nsIURI
 *
 uri
