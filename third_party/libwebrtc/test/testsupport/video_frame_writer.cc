@@ -84,9 +84,6 @@ test
 {
 namespace
 {
-rtc
-:
-:
 Buffer
 ExtractI420BufferWithSize
 (
@@ -173,9 +170,6 @@ epsilon
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -233,9 +227,6 @@ height
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -283,9 +274,6 @@ height
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -388,9 +376,6 @@ VideoFrame
 frame
 )
 {
-rtc
-:
-:
 Buffer
 frame_buffer
 =
@@ -518,9 +503,6 @@ VideoFrame
 frame
 )
 {
-rtc
-:
-:
 Buffer
 frame_buffer
 =

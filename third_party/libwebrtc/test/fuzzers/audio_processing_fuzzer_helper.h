@@ -43,9 +43,6 @@ test
 FuzzDataHelper
 *
 fuzz_data
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

@@ -134,9 +134,6 @@ uint16_t
 frame_id
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

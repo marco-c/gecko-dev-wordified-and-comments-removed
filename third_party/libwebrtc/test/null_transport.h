@@ -35,9 +35,6 @@ public
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -54,9 +51,6 @@ override
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

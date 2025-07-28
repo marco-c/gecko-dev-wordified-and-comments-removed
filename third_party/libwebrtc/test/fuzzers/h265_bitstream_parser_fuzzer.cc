@@ -51,7 +51,7 @@ h265_bitstream_parser
 .
 ParseBitstream
 (
-rtc
+webrtc
 :
 :
 ArrayView

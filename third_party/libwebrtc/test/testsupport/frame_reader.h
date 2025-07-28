@@ -110,9 +110,6 @@ FrameReader
 {
 }
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -124,9 +121,6 @@ PullFrame
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -141,9 +135,6 @@ frame_num
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -157,9 +148,6 @@ frame_num
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -178,9 +166,6 @@ framerate_scale
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -248,9 +233,6 @@ Init
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -260,9 +242,6 @@ PullFrame
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -275,9 +254,6 @@ frame_num
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -294,9 +270,6 @@ framerate_scale
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -308,9 +281,6 @@ frame_num
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

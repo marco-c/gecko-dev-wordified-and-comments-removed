@@ -176,9 +176,6 @@ WaitUntilTest
 ReturnsWhenConditionIsMet
 )
 {
-rtc
-:
-:
 AutoThread
 thread
 ;
@@ -227,9 +224,6 @@ WaitUntilTest
 ReturnsErrorWhenTimeoutIsReached
 )
 {
-rtc
-:
-:
 AutoThread
 thread
 ;
@@ -320,9 +314,6 @@ WaitUntilTest
 ErrorContainsMatcherExplanation
 )
 {
-rtc
-:
-:
 AutoThread
 thread
 ;

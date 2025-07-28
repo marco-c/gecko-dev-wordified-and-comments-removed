@@ -496,9 +496,6 @@ ce_
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -517,9 +514,6 @@ client
 auto
 stats_collector
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc
@@ -583,9 +577,6 @@ DataRate
 GetAvailableSendBitrate
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -1986,9 +1977,6 @@ endpoints
 .
 type
 =
-rtc
-:
-:
 AdapterType
 :
 :
@@ -2019,9 +2007,6 @@ endpoints
 .
 type
 =
-rtc
-:
-:
 AdapterType
 :
 :
@@ -2034,9 +2019,6 @@ ADAPTER_TYPE_WIFI
 .
 type
 =
-rtc
-:
-:
 AdapterType
 :
 :

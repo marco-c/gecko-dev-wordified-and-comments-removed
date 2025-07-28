@@ -117,7 +117,7 @@ test
 FuzzDataHelper
 fuzz_input
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

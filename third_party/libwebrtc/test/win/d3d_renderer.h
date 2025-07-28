@@ -156,7 +156,7 @@ height_
 HWND
 hwnd_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -165,7 +165,7 @@ IDirect3D9
 >
 d3d_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -174,7 +174,7 @@ IDirect3DDevice9
 >
 d3d_device_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -183,7 +183,7 @@ IDirect3DTexture9
 >
 texture_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

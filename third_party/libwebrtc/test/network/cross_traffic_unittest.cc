@@ -295,9 +295,6 @@ EmulatedEndpointImpl
 Options
 {
 1
-rtc
-:
-:
 IPAddress
 (
 kTestIpAddress

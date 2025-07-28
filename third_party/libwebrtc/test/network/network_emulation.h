@@ -1184,9 +1184,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_data
 uint16_t
@@ -1756,9 +1753,6 @@ next_packet_id_
 packet
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buf
 (

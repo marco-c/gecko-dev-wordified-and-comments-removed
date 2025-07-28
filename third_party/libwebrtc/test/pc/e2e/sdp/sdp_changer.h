@@ -119,9 +119,6 @@ RtpCodecCapability
 >
 FilterVideoCodecCapabilities
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -134,9 +131,6 @@ bool
 use_ulpfec
 bool
 use_flexfec
-rtc
-:
-:
 ArrayView
 <
 const
@@ -326,9 +320,6 @@ IceCandidateInterface
 >
 PatchOffererIceCandidates
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -354,9 +345,6 @@ IceCandidateInterface
 >
 PatchAnswererIceCandidates
 (
-rtc
-:
-:
 ArrayView
 <
 const

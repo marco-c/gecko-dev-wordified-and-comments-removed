@@ -49,7 +49,7 @@ MOCK_METHOD
 bool
 SendRtp
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -71,7 +71,7 @@ MOCK_METHOD
 bool
 SendRtcp
 (
-rtc
+webrtc
 :
 :
 ArrayView

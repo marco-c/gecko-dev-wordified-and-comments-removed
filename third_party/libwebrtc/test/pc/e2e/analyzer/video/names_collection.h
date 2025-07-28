@@ -66,9 +66,6 @@ default
 explicit
 NamesCollection
 (
-rtc
-:
-:
 ArrayView
 <
 const

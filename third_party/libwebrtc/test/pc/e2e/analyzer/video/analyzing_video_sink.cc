@@ -1159,9 +1159,6 @@ height
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

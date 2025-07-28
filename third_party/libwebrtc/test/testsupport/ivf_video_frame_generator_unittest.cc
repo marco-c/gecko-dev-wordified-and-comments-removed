@@ -1430,9 +1430,6 @@ kHeight
 2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

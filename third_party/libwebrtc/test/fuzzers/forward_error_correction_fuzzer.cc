@@ -153,13 +153,13 @@ kFecSsrc
 kMediaSsrc
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
 fuzz_buffer
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -267,7 +267,7 @@ recovered_packet
 >
 pkt
 =
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -351,7 +351,7 @@ received_packet
 .
 pkt
 =
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -434,7 +434,7 @@ fuzz_buffer
 .
 ReadBytes
 (
-rtc
+webrtc
 :
 :
 ArrayView

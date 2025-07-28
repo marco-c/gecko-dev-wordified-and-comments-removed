@@ -42,7 +42,7 @@ defined
 (
 WEBRTC_CHROMIUM_BUILD
 )
-rtc
+webrtc
 :
 :
 LogMessage
@@ -50,7 +50,7 @@ LogMessage
 :
 LogToDebug
 (
-rtc
+webrtc
 :
 :
 LS_NONE

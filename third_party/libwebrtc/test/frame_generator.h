@@ -205,9 +205,6 @@ nullopt
 }
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -239,9 +236,6 @@ void
 Draw
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -475,9 +469,6 @@ frame_display_count_
 int
 current_display_count_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -632,9 +623,6 @@ frame_display_count_
 int
 current_display_count_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -745,9 +733,6 @@ current_display_count_
 Random
 random_generator_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

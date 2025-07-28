@@ -79,9 +79,6 @@ webrtc
 void
 FuzzAudioEncoder
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -154,9 +151,6 @@ block_size_bytes
 return
 ;
 }
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -166,9 +160,6 @@ input_aligned
 block_size_samples
 )
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;

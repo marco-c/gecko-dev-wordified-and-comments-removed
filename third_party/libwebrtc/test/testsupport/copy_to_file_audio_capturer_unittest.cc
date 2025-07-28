@@ -186,9 +186,6 @@ CopyToFileAudioCapturerTest
 Capture
 )
 {
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -245,9 +242,6 @@ temp_filename_
 48000
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t

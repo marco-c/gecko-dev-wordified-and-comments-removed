@@ -729,9 +729,6 @@ sampling_frequency_in_hz
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -1124,9 +1121,6 @@ pcf_dependencies
 TimeController
 &
 time_controller
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -1771,9 +1765,6 @@ SdpSemantics
 :
 kUnifiedPlan
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -1933,9 +1924,6 @@ components
 network_thread
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -2033,9 +2021,6 @@ params
 >
 port_allocator_flags
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface

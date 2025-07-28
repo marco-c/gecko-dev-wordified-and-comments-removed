@@ -1732,9 +1732,6 @@ StartBlocking
 ;
 #
 else
-rtc
-:
-:
 tracing
 :
 :
@@ -1742,9 +1739,6 @@ SetupInternalTracer
 (
 )
 ;
-rtc
-:
-:
 tracing
 :
 :
@@ -1903,9 +1897,6 @@ file
 }
 #
 else
-rtc
-:
-:
 tracing
 :
 :

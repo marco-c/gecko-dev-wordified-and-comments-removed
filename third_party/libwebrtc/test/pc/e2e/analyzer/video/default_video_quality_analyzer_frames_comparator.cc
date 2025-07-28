@@ -2068,9 +2068,6 @@ DefaultVideoQualityAnalyzerFramesComparator
 :
 RegisterParticipantInCall
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -2804,9 +2801,6 @@ has_value
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2827,9 +2821,6 @@ ToI420
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

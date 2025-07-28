@@ -156,9 +156,6 @@ kFrameHeaderSize
 =
 6
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -171,9 +168,6 @@ int
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -333,9 +327,6 @@ buffer
 void
 AssertI420BuffersEq
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -344,9 +335,6 @@ webrtc
 I420BufferInterface
 >
 actual
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -827,9 +815,6 @@ Y4mVideoFrameWriterTest
 WriteFrame
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -967,9 +952,6 @@ YuvVideoFrameWriterTest
 WriteFrame
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

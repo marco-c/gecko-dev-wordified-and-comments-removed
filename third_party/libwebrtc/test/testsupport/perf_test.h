@@ -157,9 +157,6 @@ absl
 :
 string_view
 user_story
-rtc
-:
-:
 ArrayView
 <
 const

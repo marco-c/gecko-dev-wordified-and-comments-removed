@@ -1311,9 +1311,6 @@ std
 :
 string
 test_case_name
-rtc
-:
-:
 ArrayView
 <
 const

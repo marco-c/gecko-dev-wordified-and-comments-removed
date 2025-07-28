@@ -1468,7 +1468,7 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
+webrtc
 :
 :
 kH264CodecName
@@ -1624,7 +1624,7 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
+webrtc
 :
 :
 kH264CodecName

@@ -276,7 +276,7 @@ uint64_t
 )
 {
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -310,7 +310,7 @@ num_samples
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -370,7 +370,7 @@ output
 {
 x
 =
-rtc
+webrtc
 :
 :
 saturated_cast
@@ -992,7 +992,7 @@ return
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 ArrayView

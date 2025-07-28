@@ -325,9 +325,6 @@ std
 string
 SupportedCodecsToString
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -444,9 +441,6 @@ RtpCodecCapability
 >
 FilterVideoCodecCapabilities
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -459,9 +453,6 @@ bool
 use_ulpfec
 bool
 use_flexfec
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1849,9 +1840,6 @@ this
 ]
 (
 const
-cricket
-:
-:
 TransportInfo
 &
 ti
@@ -3518,9 +3506,6 @@ SignalingInterceptor
 :
 PatchOffererIceCandidates
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3688,9 +3673,6 @@ SignalingInterceptor
 :
 PatchAnswererIceCandidates
 (
-rtc
-:
-:
 ArrayView
 <
 const

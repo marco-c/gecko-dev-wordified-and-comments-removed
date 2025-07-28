@@ -334,9 +334,6 @@ yielding_from
 private
 :
 const
-rtc
-:
-:
 PlatformThreadId
 thread_id_
 ;

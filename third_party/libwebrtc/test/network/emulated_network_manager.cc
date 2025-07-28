@@ -637,9 +637,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 &

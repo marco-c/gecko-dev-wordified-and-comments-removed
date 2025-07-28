@@ -51,9 +51,6 @@ public
 :
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -68,9 +65,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -87,9 +81,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -108,9 +99,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -126,9 +114,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

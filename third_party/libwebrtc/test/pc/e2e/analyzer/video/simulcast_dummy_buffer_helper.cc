@@ -68,9 +68,6 @@ Dummy
 "
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -82,9 +79,6 @@ CreateDummyFrameBuffer
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -209,9 +203,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

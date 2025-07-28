@@ -950,9 +950,6 @@ return
 WEBRTC_VIDEO_CODEC_OK
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

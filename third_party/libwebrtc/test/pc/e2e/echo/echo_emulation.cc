@@ -172,9 +172,6 @@ EchoEmulatingCapturer
 :
 OnAudioRendered
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -286,9 +283,6 @@ EchoEmulatingCapturer
 :
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -579,9 +573,6 @@ EchoEmulatingRenderer
 :
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const

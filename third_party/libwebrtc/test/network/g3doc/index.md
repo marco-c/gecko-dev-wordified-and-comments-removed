@@ -830,12 +830,12 @@ test
 EmulatedNetworkManager
 and
 provides
-rtc
+webrtc
 :
 :
 Thread
 and
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -850,7 +850,7 @@ for
 PeerConnection
 and
 for
-cricket
+webrtc
 :
 :
 BasicPortAllocator
@@ -860,7 +860,7 @@ represent
 framework
 endpoints
 as
-rtc
+webrtc
 :
 :
 Network
@@ -1001,7 +1001,7 @@ network
 thread
 the
 custom
-rtc
+webrtc
 :
 :
 SocketServer

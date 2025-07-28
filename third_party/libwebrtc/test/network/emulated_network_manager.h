@@ -180,9 +180,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 SocketFactory
 *
 absl_nonnull
@@ -267,9 +264,6 @@ absl_nonnull
 const
 endpoints_container_
 ;
-rtc
-:
-:
 SocketServer
 *
 absl_nonnull

@@ -386,9 +386,6 @@ YuvFrameReaderTest
 PullFrame_frameContent
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -445,9 +442,6 @@ YuvFrameReaderTest
 ReadFrame_randomOrder
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -525,9 +519,6 @@ YuvFrameReaderTest
 PullFrame_scale
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -645,9 +636,6 @@ expected_frame
 expected_frames
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -847,9 +835,6 @@ expected_frames
 int
 pulled_frame
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -661,9 +661,6 @@ frame_lock
 frame_decode_lock_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -745,9 +742,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

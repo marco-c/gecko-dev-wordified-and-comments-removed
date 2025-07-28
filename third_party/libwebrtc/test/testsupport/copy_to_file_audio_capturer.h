@@ -119,9 +119,6 @@ override
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t

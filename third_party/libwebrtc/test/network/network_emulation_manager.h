@@ -465,9 +465,6 @@ override
 void
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedEndpoint
@@ -492,9 +489,6 @@ override
 void
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedNetworkNode

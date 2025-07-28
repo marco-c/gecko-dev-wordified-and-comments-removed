@@ -39,7 +39,7 @@ class
 FakeIPseudoTcpNotify
 :
 public
-cricket
+webrtc
 :
 :
 IPseudoTcpNotify
@@ -49,7 +49,7 @@ public
 void
 OnTcpOpen
 (
-cricket
+webrtc
 :
 :
 PseudoTcp
@@ -61,7 +61,7 @@ tcp
 void
 OnTcpReadable
 (
-cricket
+webrtc
 :
 :
 PseudoTcp
@@ -73,7 +73,7 @@ tcp
 void
 OnTcpWriteable
 (
-cricket
+webrtc
 :
 :
 PseudoTcp
@@ -85,7 +85,7 @@ tcp
 void
 OnTcpClosed
 (
-cricket
+webrtc
 :
 :
 PseudoTcp
@@ -96,7 +96,7 @@ error
 )
 {
 }
-cricket
+webrtc
 :
 :
 IPseudoTcpNotify
@@ -105,7 +105,7 @@ IPseudoTcpNotify
 WriteResult
 TcpWritePacket
 (
-cricket
+webrtc
 :
 :
 PseudoTcp
@@ -120,7 +120,7 @@ len
 )
 {
 return
-cricket
+webrtc
 :
 :
 IPseudoTcpNotify
@@ -140,7 +140,7 @@ Environment
 explicit
 Environment
 (
-cricket
+webrtc
 :
 :
 IPseudoTcpNotify
@@ -155,13 +155,13 @@ notifier
 )
 {
 }
-rtc
+webrtc
 :
 :
 AutoThread
 thread
 ;
-cricket
+webrtc
 :
 :
 PseudoTcp

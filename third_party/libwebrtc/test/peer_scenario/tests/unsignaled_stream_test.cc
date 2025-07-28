@@ -673,9 +673,6 @@ offer
 {
 for
 (
-cricket
-:
-:
 ContentInfo
 &
 content_info
@@ -1046,9 +1043,6 @@ RtpMid
 break
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 updated_buffer
 =

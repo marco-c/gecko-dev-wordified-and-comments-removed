@@ -341,9 +341,6 @@ std
 :
 string
 test_case_name
-rtc
-:
-:
 ArrayView
 <
 const
@@ -613,9 +610,6 @@ absl
 string_view
 pc_label
 const
-rtc
-:
-:
 scoped_refptr
 <
 const

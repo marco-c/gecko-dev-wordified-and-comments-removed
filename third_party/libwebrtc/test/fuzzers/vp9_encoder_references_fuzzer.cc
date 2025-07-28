@@ -757,7 +757,7 @@ temporal_id
 void
 CheckGenericReferences
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -822,7 +822,7 @@ temporal_id
 void
 CheckGenericAndCodecSpecificReferencesAreConsistent
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -886,7 +886,7 @@ temporal_id
 auto
 picture_id_diffs
 =
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -2903,7 +2903,7 @@ size
 FuzzDataHelper
 helper
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

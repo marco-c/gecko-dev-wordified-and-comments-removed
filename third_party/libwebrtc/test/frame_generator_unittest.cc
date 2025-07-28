@@ -627,9 +627,6 @@ uint8_t
 v
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -767,9 +764,6 @@ hash
 =
 19
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

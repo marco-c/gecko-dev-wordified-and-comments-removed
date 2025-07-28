@@ -641,9 +641,6 @@ Hertz
 90000
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -664,9 +661,6 @@ v
 0
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -860,9 +854,6 @@ frame_num
 &
 255
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1259,9 +1250,6 @@ size
 &
 255
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

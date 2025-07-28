@@ -569,9 +569,6 @@ Thread
 const
 network_thread_
 ;
-rtc
-:
-:
 Buffer
 payload_
 ;
@@ -960,9 +957,6 @@ GetPeerLocalAddress
 )
 r_e1_e2_port
 )
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 10
@@ -994,9 +988,6 @@ GetPeerLocalAddress
 )
 r_e2_e1_port
 )
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 10
@@ -1028,9 +1019,6 @@ GetPeerLocalAddress
 )
 r_e1_e3_port
 )
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 10
@@ -1062,9 +1050,6 @@ GetPeerLocalAddress
 )
 r_e3_e1_port
 )
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 10
@@ -1538,9 +1523,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 (
@@ -3113,9 +3095,6 @@ OPT_SEND_ECN
 1
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 (
@@ -3598,9 +3577,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 (
@@ -4427,9 +4403,6 @@ kUdpPayloadSize
 +
 kOverheadIpv4Udp
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 (
@@ -5813,9 +5786,6 @@ Write
 buf
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 (
@@ -6120,9 +6090,6 @@ SocketAddress
 kEndpointIp
 79
 )
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 10

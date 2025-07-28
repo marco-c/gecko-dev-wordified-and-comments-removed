@@ -72,9 +72,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 -
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )
@@ -105,9 +102,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 +
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )

@@ -556,9 +556,6 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1141,9 +1138,6 @@ return
 1
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 (

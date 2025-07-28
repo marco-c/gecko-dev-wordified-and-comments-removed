@@ -115,7 +115,7 @@ FuzzSocket
 (
 socket
 cb
-rtc
+webrtc
 :
 :
 ArrayView

@@ -325,9 +325,6 @@ testing
 :
 WithParamInterface
 ;
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -346,9 +343,6 @@ client
 auto
 stats_collector
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc
@@ -412,9 +406,6 @@ DataRate
 GetAvailableSendBitrate
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const

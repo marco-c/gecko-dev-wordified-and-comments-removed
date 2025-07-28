@@ -300,9 +300,6 @@ height_
 )
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -369,9 +366,6 @@ update_rect
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

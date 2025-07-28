@@ -32,9 +32,6 @@ webrtc
 namespace
 webrtc_pc_e2e
 {
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

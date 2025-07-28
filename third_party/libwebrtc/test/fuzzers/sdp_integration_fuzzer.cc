@@ -166,7 +166,7 @@ CreatePeerConnectionWrappers
 auto
 srd_observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -261,7 +261,7 @@ IsRtcOk
 auto
 sld_observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

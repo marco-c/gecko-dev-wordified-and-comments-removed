@@ -470,9 +470,6 @@ FrameGeneratorInterface
 >
 frame_generator_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

@@ -368,9 +368,6 @@ Timestamp
 at_time
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 DecodedFrame

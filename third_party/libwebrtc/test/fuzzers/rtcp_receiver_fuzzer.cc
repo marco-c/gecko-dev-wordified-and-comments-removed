@@ -178,7 +178,7 @@ override
 void
 OnReceivedRtcpReportBlocks
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -277,7 +277,7 @@ receiver
 .
 IncomingPacket
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

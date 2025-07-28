@@ -100,9 +100,6 @@ class
 FakeNetworkSocketServer
 :
 public
-rtc
-:
-:
 SocketServer
 {
 public

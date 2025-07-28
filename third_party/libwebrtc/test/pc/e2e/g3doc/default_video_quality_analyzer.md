@@ -373,7 +373,7 @@ requried
 .
 *
 [
-rtc
+webrtc
 :
 :
 VideoSinkInterface
