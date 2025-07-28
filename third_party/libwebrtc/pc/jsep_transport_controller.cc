@@ -1413,9 +1413,6 @@ GetDtlsRole
 }
 RTCErrorOr
 <
-webrtc
-:
-:
 PayloadType
 >
 JsepTransportController
@@ -1491,7 +1488,10 @@ if
 transport
 )
 {
-auto
+RTCErrorOr
+<
+PayloadType
+>
 local_result
 =
 transport
@@ -1519,7 +1519,10 @@ return
 local_result
 ;
 }
-auto
+RTCErrorOr
+<
+PayloadType
+>
 remote_result
 =
 transport
@@ -1547,7 +1550,7 @@ RTCErrorOr
 <
 Codec
 >
-local_result
+local_codec
 =
 transport
 -
