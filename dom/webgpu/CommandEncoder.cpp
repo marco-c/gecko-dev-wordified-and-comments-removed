@@ -597,6 +597,17 @@ GetClient
 mId
 )
 ;
+wgpu_client_free_command_encoder_id
+(
+mBridge
+-
+>
+GetClient
+(
+)
+mId
+)
+;
 }
 RefPtr
 <

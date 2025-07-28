@@ -164,7 +164,6 @@ GetClient
 )
 mId
 mImplicitPipelineLayoutId
-{
 mImplicitBindGroupLayoutIds
 .
 Elements
@@ -175,7 +174,6 @@ mImplicitBindGroupLayoutIds
 Length
 (
 )
-}
 )
 ;
 if
@@ -284,6 +282,7 @@ BindGroupLayout
 (
 mParent
 bglId
+false
 )
 ;
 return

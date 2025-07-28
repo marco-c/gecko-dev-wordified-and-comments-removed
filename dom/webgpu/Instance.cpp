@@ -1337,6 +1337,19 @@ adapter_id
 ffi
 :
 :
+wgpu_client_make_adapter_id
+(
+bridge
+-
+>
+GetClient
+(
+)
+)
+;
+ffi
+:
+:
 wgpu_client_request_adapter
 (
 bridge
@@ -1345,6 +1358,7 @@ bridge
 GetClient
 (
 )
+adapter_id
 power_preference
 aOptions
 .
@@ -1367,7 +1381,6 @@ RefPtr
 (
 this
 )
-adapter_id
 }
 ;
 bridge

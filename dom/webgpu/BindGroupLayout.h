@@ -68,11 +68,17 @@ const
 aParent
 RawId
 aId
+bool
+aOwning
 )
 ;
 const
 RawId
 mId
+;
+const
+bool
+mOwning
 ;
 private
 :

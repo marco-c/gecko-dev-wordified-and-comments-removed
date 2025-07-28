@@ -190,5 +190,16 @@ GetClient
 mId
 )
 ;
+wgpu_client_free_texture_view_id
+(
+bridge
+-
+>
+GetClient
+(
+)
+mId
+)
+;
 }
 }

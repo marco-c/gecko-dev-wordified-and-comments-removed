@@ -279,6 +279,8 @@ final
 :
 public
 DOMEventTargetHelper
+public
+SupportsWeakPtr
 {
 public
 :
@@ -367,14 +369,6 @@ RefPtr
 AdapterInfo
 >
 aAdapterInfo
-RefPtr
-<
-dom
-:
-:
-Promise
->
-aLostPromise
 )
 ;
 RefPtr
@@ -957,7 +951,7 @@ uncapturederror
 )
 }
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 reportCompilationMessagesToConsole
 (

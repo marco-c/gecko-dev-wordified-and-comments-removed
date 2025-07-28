@@ -623,12 +623,6 @@ RawId
 aDeviceId
 )
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 static
 Maybe
 <
@@ -641,8 +635,6 @@ GetCompositorDeviceLuid
 (
 )
 ;
-#
-endif
 struct
 MapRequest
 {
@@ -700,12 +692,6 @@ WeakPtr
 WebGPUParent
 >
 mParent
-;
-ffi
-:
-:
-WGPUDeviceId
-mQueueId
 ;
 }
 ;
