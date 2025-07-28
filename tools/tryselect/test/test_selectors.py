@@ -4856,19 +4856,6 @@ tests
 "
 "
     
-mocker
-.
-patch
-(
-"
-tryselect
-.
-push
-.
-display_push_estimates
-"
-)
-    
 capfd
 .
 readouterr
