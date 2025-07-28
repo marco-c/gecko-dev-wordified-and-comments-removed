@@ -198,7 +198,7 @@ true
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -385,7 +385,7 @@ standard
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -583,7 +583,7 @@ strict
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -786,7 +786,7 @@ custom
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -998,7 +998,7 @@ false
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1156,7 +1156,7 @@ standard
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1357,13 +1357,13 @@ idempotency
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;

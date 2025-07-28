@@ -1447,17 +1447,6 @@ false
 )
 ;
 }
-testRunCategoryPrefsMigration
-(
-)
-{
-this
-.
-maybeMigrateCategoryPrefs
-(
-)
-;
-}
 onUpdateEntries
 (
 entries
