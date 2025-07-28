@@ -431,7 +431,7 @@ const
 int
 sCacheIndexPrecisionBits
 =
-7
+8
 ;
 inline
 bool
