@@ -473,8 +473,10 @@ propertyvalue
 dragging
 "
 ;
-function
+class
 TextPropertyEditor
+{
+constructor
 (
 ruleEditor
 property
@@ -873,11 +875,6 @@ update
 )
 ;
 }
-TextPropertyEditor
-.
-prototype
-=
-{
 get
 editing
 (
@@ -8117,7 +8114,6 @@ join
 ;
 }
 }
-;
 module
 .
 exports
