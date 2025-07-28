@@ -1685,9 +1685,12 @@ TabRow
 (
 selectedTabIndex
 =
-selectedPage
+Page
 .
-ordinal
+pageToPosition
+(
+selectedPage
+)
 modifier
 =
 Modifier
