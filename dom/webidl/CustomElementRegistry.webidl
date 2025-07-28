@@ -240,6 +240,16 @@ newDocment
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
+LifecycleConnectedMoveCallback
+=
+undefined
+(
+)
+;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
+callback
 LifecycleAttributeChangedCallback
 =
 undefined
@@ -362,6 +372,9 @@ connectedCallback
 ;
 LifecycleDisconnectedCallback
 disconnectedCallback
+;
+LifecycleConnectedMoveCallback
+connectedMoveCallback
 ;
 LifecycleAdoptedCallback
 adoptedCallback

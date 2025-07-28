@@ -88,6 +88,12 @@ aNotify
 const
 BatchRemovalState
 *
+aState
+nsINode
+*
+aNewParent
+=
+nullptr
 )
 override
 ;
@@ -105,6 +111,11 @@ aNotify
 ErrorResult
 &
 aRv
+nsINode
+*
+aOldParent
+=
+nullptr
 )
 override
 ;
