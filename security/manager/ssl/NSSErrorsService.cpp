@@ -740,15 +740,6 @@ mozilla
 pkix
 :
 :
-MOZILLA_PKIX_ERROR_ADDITIONAL_POLICY_CONSTRAINT_FAILED
-:
-case
-mozilla
-:
-:
-pkix
-:
-:
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
 :
 case

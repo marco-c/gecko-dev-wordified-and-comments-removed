@@ -929,12 +929,6 @@ GetIsBuiltChainRootBuiltInRoot
 )
 const
 ;
-bool
-GetIsErrorDueToDistrustedCAPolicy
-(
-)
-const
-;
 OCSPFetchStatus
 GetOCSPFetchStatus
 (
@@ -1297,9 +1291,6 @@ mNetscapeStepUpPolicy
 ;
 CRLiteMode
 mCRLiteMode
-;
-bool
-mSawDistrustedCAByPolicyError
 ;
 const
 OriginAttributes
