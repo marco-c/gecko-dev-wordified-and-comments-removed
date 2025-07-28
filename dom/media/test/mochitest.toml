@@ -9323,7 +9323,6 @@ os
 android
 '
 "
-]
 #
 bug
 1533534
@@ -9333,6 +9332,18 @@ android
 bug
 1232305
 )
+"
+os
+=
+=
+'
+linux
+'
+&
+&
+mda_gpu
+"
+]
 [
 "
 test_videoPlaybackQuality_totalFrames
