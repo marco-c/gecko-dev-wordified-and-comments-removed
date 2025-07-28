@@ -12977,6 +12977,10 @@ maxInitializedGlobalsIndexPlus1_
 (
 0
 )
+allocationMetadataBuilder_
+(
+nullptr
+)
 addressOfLastBufferedWholeCell_
 (
 cx

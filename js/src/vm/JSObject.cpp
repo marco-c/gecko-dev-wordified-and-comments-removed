@@ -20515,13 +20515,6 @@ clasp
 shouldDelayMetadataBuilder
 (
 )
-&
-&
-!
-IsWasmGcObjectClass
-(
-clasp
-)
 shape
 -
 >
