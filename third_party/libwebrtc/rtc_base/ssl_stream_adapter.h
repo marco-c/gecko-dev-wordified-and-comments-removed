@@ -764,6 +764,15 @@ const
 =
 0
 ;
+virtual
+uint16_t
+GetSslGroupIdForTesting
+(
+)
+const
+=
+0
+;
 private
 :
 bool

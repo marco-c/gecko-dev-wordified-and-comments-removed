@@ -573,6 +573,13 @@ return
 retransmission_count_
 ;
 }
+uint16_t
+GetSslGroupIdForTesting
+(
+)
+const
+override
+;
 private
 :
 enum
@@ -868,6 +875,12 @@ int
 retransmission_count_
 =
 0
+;
+const
+bool
+enable_dtls_pqc_
+=
+false
 ;
 }
 ;
