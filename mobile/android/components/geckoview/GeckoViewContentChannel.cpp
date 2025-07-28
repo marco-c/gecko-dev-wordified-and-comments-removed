@@ -66,6 +66,13 @@ nsIChannel
 aChannel
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIURI
