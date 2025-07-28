@@ -3783,6 +3783,17 @@ common_audio_c
 .
 .
 /
+common_audio
+:
+common_audio_cc
+"
+"
+.
+.
+/
+.
+.
+/
 rtc_base
 :
 buffer

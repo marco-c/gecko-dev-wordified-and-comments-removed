@@ -59,6 +59,17 @@ vector
 #
 include
 "
+absl
+/
+strings
+/
+str_cat
+.
+h
+"
+#
+include
+"
 api
 /
 array_view
@@ -6607,8 +6618,6 @@ timestamp_
 =
 end_timestamp
 ;
-const
-uint64_t
 generated_noise_samples
 =
 generated_noise_stopwatch_

@@ -1168,6 +1168,10 @@ common_audio_cc
 "
 )
 {
+visibility
++
+=
+webrtc_default_visibility
 sources
 =
 [
