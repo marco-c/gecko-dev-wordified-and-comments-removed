@@ -32,9 +32,9 @@ println
 Now
 :
 {
+start
 }
 "
-start
 )
 ;
 thread

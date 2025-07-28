@@ -242,12 +242,6 @@ api_resources
 ApiResources
 ;
 use
-crate
-:
-:
-precise_time_ns
-;
-use
 glyph_rasterizer
 :
 :
@@ -1072,7 +1066,10 @@ GenerateFrame
 No
 creation_time
 :
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 invalidate_rendered_frame
@@ -1315,7 +1312,10 @@ display_list
 .
 set_send_time_ns
 (
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 )

@@ -191,13 +191,6 @@ serde_bytes
 .
 11
 "
-time
-=
-"
-0
-.
-3
-"
 malloc_size_of
 =
 {
@@ -262,4 +255,13 @@ channel
 0
 .
 5
+"
+zeitstempel
+=
+"
+0
+.
+1
+.
+2
 "

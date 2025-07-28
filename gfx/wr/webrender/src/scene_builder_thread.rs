@@ -359,10 +359,7 @@ use
 crate
 :
 :
-{
-precise_time_ns
 SceneBuilderHooks
-}
 ;
 use
 std
@@ -3164,7 +3161,10 @@ take
 let
 scene_build_start
 =
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 ;
@@ -3314,7 +3314,10 @@ profiler
 :
 ns_to_ms
 (
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 -
@@ -3763,7 +3766,10 @@ profiler
 :
 ns_to_ms
 (
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 -
