@@ -1548,7 +1548,7 @@ const
 uint32_t
 *
 aDynamicOffsets
-uint64_t
+size_t
 aDynamicOffsetsLength
 )
 {
@@ -1601,8 +1601,10 @@ get
 )
 aSlot
 bindGroup
+{
 aDynamicOffsets
 aDynamicOffsetsLength
+}
 )
 ;
 }
@@ -2496,6 +2498,7 @@ mPass
 get
 (
 )
+{
 renderBundles
 .
 Elements
@@ -2506,6 +2509,7 @@ renderBundles
 Length
 (
 )
+}
 )
 ;
 }

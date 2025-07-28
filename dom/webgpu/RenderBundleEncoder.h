@@ -179,7 +179,7 @@ const
 uint32_t
 *
 aDynamicOffsets
-uint64_t
+size_t
 aDynamicOffsetsLength
 )
 ;

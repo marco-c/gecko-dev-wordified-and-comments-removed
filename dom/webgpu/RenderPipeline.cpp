@@ -164,6 +164,7 @@ GetClient
 )
 mId
 mImplicitPipelineLayoutId
+{
 mImplicitBindGroupLayoutIds
 .
 Elements
@@ -174,6 +175,7 @@ mImplicitBindGroupLayoutIds
 Length
 (
 )
+}
 )
 ;
 if
