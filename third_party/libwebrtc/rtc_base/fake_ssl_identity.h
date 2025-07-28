@@ -162,15 +162,9 @@ absl
 :
 string_view
 algorithm
-unsigned
-char
-*
+Buffer
+&
 digest
-size_t
-size
-size_t
-*
-length
 )
 const
 override
