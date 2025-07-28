@@ -815,6 +815,13 @@ html
 ]
 [
 "
+test_bug1847329
+.
+html
+"
+]
+[
+"
 test_crash_on_mouse_move
 .
 html
