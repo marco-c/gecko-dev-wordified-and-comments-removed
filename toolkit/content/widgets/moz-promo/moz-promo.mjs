@@ -300,17 +300,6 @@ updated
 changedProperties
 )
 {
-/
-/
-super
-.
-updated
-?
-.
-(
-changedProperties
-)
-;
 if
 (
 changedProperties
