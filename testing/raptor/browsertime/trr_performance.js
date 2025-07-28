@@ -85,9 +85,9 @@ https
 :
 /
 /
-httpstat
+httpbin
 .
-us
+org
 /
 "
 ;
