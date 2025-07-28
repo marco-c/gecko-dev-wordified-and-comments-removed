@@ -67,7 +67,7 @@ mismatchedKtyField
 [
 algorithm
 .
-name
+namedCurve
 ]
 ;
 }
@@ -82,7 +82,7 @@ mismatchedCrvField
 [
 algorithm
 .
-name
+namedCurve
 ]
 ;
 }
