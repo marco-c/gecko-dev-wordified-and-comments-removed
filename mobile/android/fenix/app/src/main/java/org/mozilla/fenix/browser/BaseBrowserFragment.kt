@@ -7131,6 +7131,11 @@ toolbarStore
 browserScreenStore
 =
 browserScreenStore
+appStore
+=
+requireComponents
+.
+appStore
 browserStore
 =
 store
