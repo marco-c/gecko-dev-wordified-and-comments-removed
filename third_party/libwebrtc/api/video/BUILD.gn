@@ -1074,6 +1074,17 @@ video_frame
 .
 .
 /
+common_video
+:
+frame_instrumentation_data
+"
+"
+.
+.
+/
+.
+.
+/
 modules
 /
 rtp_rtcp

@@ -1633,6 +1633,12 @@ av1
 :
 dav1d_decoder
 "
+"
+.
+.
+/
+environment
+"
 ]
 }
 rtc_source_set

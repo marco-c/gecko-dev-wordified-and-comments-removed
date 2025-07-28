@@ -9,6 +9,11 @@ tick_timer
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

@@ -41,11 +41,6 @@ optional
 #
 include
 <
-utility
->
-#
-include
-<
 vector
 >
 #

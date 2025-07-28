@@ -6,6 +6,11 @@ define
 API_TEST_METRICS_STDOUT_METRICS_EXPORTER_H_
 #
 include
+<
+cstdio
+>
+#
+include
 "
 api
 /

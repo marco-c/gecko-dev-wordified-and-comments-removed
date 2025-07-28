@@ -7,6 +7,11 @@ API_AUDIO_CODECS_OPUS_AUDIO_DECODER_MULTI_CHANNEL_OPUS_CONFIG_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 vector
 >
 #

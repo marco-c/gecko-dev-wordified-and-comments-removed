@@ -6,6 +6,16 @@ define
 API_AUDIO_AUDIO_VIEW_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+iterator
+>
+#
+include
 "
 api
 /

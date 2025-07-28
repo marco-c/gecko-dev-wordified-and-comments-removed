@@ -44,6 +44,14 @@ video_coding_defines
 .
 h
 "
+"
++
+common_video
+/
+frame_instrumentation_data
+.
+h
+"
 ]
 "
 encoded_image

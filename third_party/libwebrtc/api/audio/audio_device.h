@@ -7,6 +7,11 @@ API_AUDIO_AUDIO_DEVICE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 optional
 >
 #

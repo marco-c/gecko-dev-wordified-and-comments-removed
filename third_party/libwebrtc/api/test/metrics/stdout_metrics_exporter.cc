@@ -26,6 +26,11 @@ cmath
 #
 include
 <
+cstdint
+>
+#
+include
+<
 optional
 >
 #
