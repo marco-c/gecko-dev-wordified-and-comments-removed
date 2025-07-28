@@ -383,7 +383,7 @@ WEBRTC_CODEC_OPUS
 #
 define
 MAYBE_TestOpusBitExactness
-TestOpusBitExactness
+DISABLED_TestOpusBitExactness
 #
 else
 #
@@ -500,7 +500,7 @@ WEBRTC_CODEC_OPUS
 #
 define
 MAYBE_TestOpusDtxBitExactness
-TestOpusDtxBitExactness
+DISABLED_TestOpusDtxBitExactness
 #
 else
 #

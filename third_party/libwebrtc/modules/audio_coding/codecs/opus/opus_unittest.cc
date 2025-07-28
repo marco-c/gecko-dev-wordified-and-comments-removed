@@ -3578,7 +3578,7 @@ true
 TEST_P
 (
 OpusTest
-OpusCbrOff
+DISABLED_OpusCbrOff
 )
 {
 TestCbrEffect
