@@ -485,10 +485,17 @@ mId
 auto
 pending_promise
 =
+WebGPUChild
+:
+:
+PendingOnSubmittedWorkDonePromise
+{
 RefPtr
 (
 promise
 )
+mId
+}
 ;
 mBridge
 -
