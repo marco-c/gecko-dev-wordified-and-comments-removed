@@ -455,7 +455,7 @@ VideoCaptureImpl
 :
 DeRegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

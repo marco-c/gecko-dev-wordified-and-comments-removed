@@ -438,7 +438,7 @@ virtual
 void
 DeRegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

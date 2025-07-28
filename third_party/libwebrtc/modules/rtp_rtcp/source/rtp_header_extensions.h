@@ -1761,7 +1761,7 @@ static
 bool
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1789,7 +1789,7 @@ static
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ArrayView
