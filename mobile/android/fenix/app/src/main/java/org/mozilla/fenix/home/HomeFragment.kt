@@ -3137,6 +3137,13 @@ components
 useCases
 .
 marsUseCases
+fenixBrowserUseCases
+=
+components
+.
+useCases
+.
+fenixBrowserUseCases
 appStore
 =
 components
