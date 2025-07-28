@@ -22415,12 +22415,6 @@ profilePath
 =
 None
             
-options
-.
-comparePrefs
-=
-True
-            
 result
 =
 self
