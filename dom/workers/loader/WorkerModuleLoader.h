@@ -250,11 +250,6 @@ aCx
 nsIURI
 *
 aURI
-JS
-:
-:
-ModuleType
-aModuleType
 LoadedScript
 *
 aMaybeActiveScript
@@ -263,10 +258,10 @@ JS
 :
 Handle
 <
-JSString
+JSObject
 *
 >
-aSpecifier
+aModuleRequestObj
 JS
 :
 :
