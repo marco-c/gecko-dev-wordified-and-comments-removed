@@ -4336,6 +4336,16 @@ video_frame
 /
 api
 /
+video
+:
+video_frame_type
+"
+"
+.
+.
+/
+api
+/
 video_codecs
 :
 builtin_video_decoder_factory

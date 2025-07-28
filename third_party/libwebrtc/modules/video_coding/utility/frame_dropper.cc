@@ -16,6 +16,16 @@ include
 <
 algorithm
 >
+#
+include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

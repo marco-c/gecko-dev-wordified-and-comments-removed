@@ -7,12 +7,12 @@ MODULES_VIDEO_CODING_VIDEO_RECEIVER2_H_
 #
 include
 <
-memory
+cstdint
 >
 #
 include
 <
-vector
+memory
 >
 #
 include

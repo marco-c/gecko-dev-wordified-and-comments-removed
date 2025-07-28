@@ -13,6 +13,17 @@ vp8_scalability
 .
 h
 "
+#
+include
+"
+api
+/
+video_codecs
+/
+scalability_mode
+.
+h
+"
 namespace
 webrtc
 {

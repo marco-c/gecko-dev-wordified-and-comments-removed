@@ -42,15 +42,6 @@ include
 "
 api
 /
-scoped_refptr
-.
-h
-"
-#
-include
-"
-api
-/
 sequence_checker
 .
 h
@@ -93,7 +84,9 @@ include
 "
 rtc_base
 /
-ref_count
+system
+/
+no_unique_address
 .
 h
 "
@@ -102,9 +95,7 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
+thread_annotations
 .
 h
 "

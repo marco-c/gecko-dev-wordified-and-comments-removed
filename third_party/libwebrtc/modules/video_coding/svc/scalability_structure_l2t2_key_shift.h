@@ -7,6 +7,11 @@ MODULES_VIDEO_CODING_SVC_SCALABILITY_STRUCTURE_L2T2_KEY_SHIFT_H_
 #
 include
 <
+bitset
+>
+#
+include
+<
 vector
 >
 #

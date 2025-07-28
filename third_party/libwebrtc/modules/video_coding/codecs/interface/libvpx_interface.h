@@ -48,6 +48,15 @@ include
 "
 vpx
 /
+vpx_ext_ratectrl
+.
+h
+"
+#
+include
+"
+vpx
+/
 vpx_image
 .
 h

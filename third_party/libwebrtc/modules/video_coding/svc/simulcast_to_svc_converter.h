@@ -39,7 +39,7 @@ api
 /
 video_codecs
 /
-spatial_layer
+scalability_mode
 .
 h
 "

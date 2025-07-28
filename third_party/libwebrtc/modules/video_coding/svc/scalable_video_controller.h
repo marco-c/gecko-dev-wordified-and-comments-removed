@@ -47,6 +47,17 @@ h
 #
 include
 "
+api
+/
+video
+/
+video_codec_constants
+.
+h
+"
+#
+include
+"
 common_video
 /
 generic_frame_descriptor

@@ -68,6 +68,15 @@ generic_decoder
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread_annotations
+.
+h
+"
 namespace
 webrtc
 {

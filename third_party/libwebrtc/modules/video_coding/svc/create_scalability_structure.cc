@@ -18,6 +18,11 @@ memory
 >
 #
 include
+<
+optional
+>
+#
+include
 "
 api
 /
@@ -102,15 +107,6 @@ video_coding
 svc
 /
 scalable_video_controller_no_layering
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-checks
 .
 h
 "

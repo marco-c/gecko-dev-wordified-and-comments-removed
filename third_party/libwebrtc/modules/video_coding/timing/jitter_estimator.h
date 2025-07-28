@@ -7,7 +7,12 @@ MODULES_VIDEO_CODING_TIMING_JITTER_ESTIMATOR_H_
 #
 include
 <
-algorithm
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include
@@ -18,11 +23,6 @@ memory
 include
 <
 optional
->
-#
-include
-<
-queue
 >
 #
 include

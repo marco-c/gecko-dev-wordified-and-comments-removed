@@ -7,6 +7,16 @@ MODULES_VIDEO_CODING_INCLUDE_VIDEO_CODING_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -25,9 +35,7 @@ include
 "
 api
 /
-video
-/
-video_frame
+rtp_headers
 .
 h
 "

@@ -18,11 +18,6 @@ stdint
 .
 h
 >
-#
-include
-<
-string
->
 namespace
 webrtc
 {

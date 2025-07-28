@@ -14,7 +14,7 @@ h
 #
 include
 <
-bitset
+cstddef
 >
 #
 include
@@ -26,17 +26,6 @@ include
 <
 vector
 >
-#
-include
-"
-api
-/
-video
-/
-encoded_frame
-.
-h
-"
 namespace
 webrtc
 {

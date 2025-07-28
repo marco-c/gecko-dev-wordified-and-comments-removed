@@ -39,6 +39,17 @@ include
 "
 api
 /
+units
+/
+data_rate
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_bitrate_allocation
