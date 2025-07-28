@@ -6022,11 +6022,14 @@ nsNameSpaceManager_sInstance
 mRawPtr
 ;
 (
+&
+(
 *
 namespace_manager
 )
 .
 mURIArray
+)
 [
 id
 as
