@@ -1087,6 +1087,12 @@ this
 setting
 .
 locked
+.
+.
+.
+config
+.
+controlAttrs
 }
 ;
 if
