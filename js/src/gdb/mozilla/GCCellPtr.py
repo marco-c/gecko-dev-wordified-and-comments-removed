@@ -227,6 +227,17 @@ JSString
 "
             
 "
+GetterSetter
+"
+:
+"
+js
+:
+:
+GetterSetter
+"
+            
+"
 Symbol
 "
 :
@@ -249,17 +260,6 @@ Shape
 "
             
 "
-BaseShape
-"
-:
-"
-js
-:
-:
-BaseShape
-"
-            
-"
 Null
 "
 :
@@ -268,6 +268,17 @@ std
 :
 :
 nullptr_t
+"
+            
+"
+BaseShape
+"
+:
+"
+js
+:
+:
+BaseShape
 "
             
 "
@@ -318,17 +329,6 @@ RegExpShared
 "
             
 "
-GetterSetter
-"
-:
-"
-js
-:
-:
-GetterSetter
-"
-            
-"
 PropMap
 "
 :
@@ -344,6 +344,14 @@ PropMap
 alloc_map
 =
 {
+            
+"
+BASE_SHAPE
+"
+:
+"
+BaseShape
+"
             
 "
 JITCODE
@@ -375,14 +383,6 @@ REGEXP_SHARED
 :
 "
 RegExpShared
-"
-            
-"
-GETTER_SETTER
-"
-:
-"
-GetterSetter
 "
             
 "
