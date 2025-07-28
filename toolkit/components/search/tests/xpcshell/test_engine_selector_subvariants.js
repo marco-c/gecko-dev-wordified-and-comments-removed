@@ -52,6 +52,9 @@ searchTermParamName
 "
 q
 "
+displayName
+:
+null
 }
 }
 }

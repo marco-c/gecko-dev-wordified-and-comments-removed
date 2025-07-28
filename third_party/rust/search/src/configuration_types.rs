@@ -172,6 +172,13 @@ Option
 <
 String
 >
+pub
+display_name
+:
+Option
+<
+String
+>
 }
 #
 [
@@ -229,6 +236,13 @@ JSONEngineUrl
 >
 pub
 search_form
+:
+Option
+<
+JSONEngineUrl
+>
+pub
+visual_search
 :
 Option
 <

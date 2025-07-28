@@ -375,6 +375,13 @@ Option
 <
 String
 >
+pub
+display_name
+:
+Option
+<
+String
+>
 }
 #
 [
@@ -415,6 +422,13 @@ SearchEngineUrl
 >
 pub
 search_form
+:
+Option
+<
+SearchEngineUrl
+>
+pub
+visual_search
 :
 Option
 <
