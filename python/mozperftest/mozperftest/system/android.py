@@ -1449,16 +1449,7 @@ uninstall_app
 (
 self
 .
-get_arg
-(
-"
-android
--
-app
--
-name
-"
-)
+app_name
 )
             
 self
