@@ -368,7 +368,7 @@ http
 :
 /
 /
-deb
+archive
 .
 debian
 .
