@@ -5061,6 +5061,16 @@ wdk_path
 "
 /
 "
+                
+"
+windows_sdk_version
+"
+:
+"
+n
+/
+a
+"
             
 }
         
