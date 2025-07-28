@@ -183,6 +183,17 @@ IOThreadParent
 (
 )
 ;
+const
+IPC
+:
+:
+Channel
+:
+:
+ChannelKind
+*
+mChannelKind
+;
 }
 ;
 class
