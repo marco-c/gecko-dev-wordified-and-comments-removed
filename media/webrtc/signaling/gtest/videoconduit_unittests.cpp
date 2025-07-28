@@ -3983,6 +3983,9 @@ mVideoSendConfig
 rtp
 .
 max_packet_size
+mozilla
+:
+:
 kVideoMtu
 )
 ;
@@ -10882,6 +10885,9 @@ mVideoSendConfig
 rtp
 .
 max_packet_size
+mozilla
+:
+:
 kVideoMtu
 )
 ;
@@ -12186,6 +12192,9 @@ mVideoSendConfig
 rtp
 .
 max_packet_size
+mozilla
+:
+:
 kVideoMtu
 )
 ;
