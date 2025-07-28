@@ -41,7 +41,7 @@ point2
 }
 ;
 use
-crate
+time
 :
 :
 precise_time_ns
