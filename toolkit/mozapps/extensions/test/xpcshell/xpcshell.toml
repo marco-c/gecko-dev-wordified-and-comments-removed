@@ -1238,6 +1238,13 @@ require_signing
 ]
 [
 "
+test_recordException
+.
+js
+"
+]
+[
+"
 test_registerchrome
 .
 js

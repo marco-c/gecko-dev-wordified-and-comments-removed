@@ -20112,6 +20112,17 @@ lineNumber
 ;
 }
 }
+Glean
+.
+addonsManager
+.
+exception
+.
+set
+(
+report
+)
+;
 this
 .
 _simpleMeasures
