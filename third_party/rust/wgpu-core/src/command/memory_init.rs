@@ -53,7 +53,6 @@ resource
 {
 DestroyedResourceError
 ParentDevice
-RawResourceAccess
 Texture
 Trackable
 }
