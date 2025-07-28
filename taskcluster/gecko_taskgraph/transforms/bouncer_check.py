@@ -186,6 +186,12 @@ release_config
 partial_versions
 "
 ]
+.
+split
+(
+"
+"
+)
 :
             
 extra_params
