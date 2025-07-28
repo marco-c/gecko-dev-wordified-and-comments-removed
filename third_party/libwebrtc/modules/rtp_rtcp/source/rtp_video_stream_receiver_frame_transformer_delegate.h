@@ -146,9 +146,6 @@ receiver
 Clock
 *
 clock
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -246,9 +243,6 @@ RTC_GUARDED_BY
 network_sequence_checker_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

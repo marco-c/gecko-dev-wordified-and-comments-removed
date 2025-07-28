@@ -455,9 +455,6 @@ PacketMaskTable
 =
 default
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -966,9 +963,6 @@ num_fec_for_imp_packets
 num_fec_remaining
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1017,9 +1011,6 @@ mode
 kModeBiasFirstPacket
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1140,9 +1131,6 @@ PacketMaskSize
 num_imp_packets
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1328,9 +1316,6 @@ mask_table
 ;
 }
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1583,9 +1568,6 @@ num_imp_packets
 0
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

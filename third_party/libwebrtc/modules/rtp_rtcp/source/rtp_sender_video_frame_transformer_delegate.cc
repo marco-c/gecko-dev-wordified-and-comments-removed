@@ -403,9 +403,6 @@ override
 =
 default
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -425,9 +422,6 @@ encoded_data_
 void
 SetData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -810,9 +804,6 @@ rid_
 }
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBufferInterface
@@ -899,9 +890,6 @@ RTPSenderVideoFrameTransformerDelegate
 RTPVideoFrameSenderInterface
 *
 sender
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -977,9 +965,6 @@ frame_transformer_
 >
 RegisterTransformedFrameSinkCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -1136,9 +1121,6 @@ sender_
 return
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RTPSenderVideoFrameTransformerDelegate

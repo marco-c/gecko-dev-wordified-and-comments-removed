@@ -781,9 +781,6 @@ VideoRtpDepacketizerVp9
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
@@ -868,9 +865,6 @@ VideoRtpDepacketizerVp9
 :
 ParseRtpPayload
 (
-rtc
-:
-:
 ArrayView
 <
 const

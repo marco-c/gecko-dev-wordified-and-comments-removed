@@ -496,9 +496,6 @@ field_trials
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -545,9 +542,6 @@ uint32_t
 rtp_timestamp
 Timestamp
 capture_time
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1008,9 +1002,6 @@ ActiveDecodeTargetsHelper
 active_decode_targets_tracker_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 RTPSenderVideoFrameTransformerDelegate

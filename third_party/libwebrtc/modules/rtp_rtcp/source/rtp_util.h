@@ -24,9 +24,6 @@ webrtc
 bool
 IsRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -38,9 +35,6 @@ packet
 bool
 IsRtpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -52,9 +46,6 @@ packet
 int
 ParseRtpPayloadType
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -66,9 +57,6 @@ rtp_packet
 uint16_t
 ParseRtpSequenceNumber
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -80,9 +68,6 @@ rtp_packet
 uint32_t
 ParseRtpSsrc
 (
-rtc
-:
-:
 ArrayView
 <
 const

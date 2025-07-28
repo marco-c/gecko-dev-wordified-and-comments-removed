@@ -261,9 +261,6 @@ SetBitrateBps
 kBitrateBps
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -381,9 +378,6 @@ SetBitrateBps
 kBitrateBps
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -458,9 +452,6 @@ SetBitrateBps
 kBitrateBps64bit
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

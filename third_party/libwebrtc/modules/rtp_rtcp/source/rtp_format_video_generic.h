@@ -87,9 +87,6 @@ public
 :
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -106,9 +103,6 @@ rtp_video_header
 ;
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -182,9 +176,6 @@ header_
 size_t
 header_size_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

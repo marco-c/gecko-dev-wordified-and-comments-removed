@@ -540,9 +540,6 @@ TransmittedPacket
 {
 TransmittedPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -634,9 +631,6 @@ options
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -686,9 +680,6 @@ true
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5756,9 +5747,6 @@ kPayloadSize
 1000
 ;
 const
-rtc
-:
-:
 ArrayView
 <
 const

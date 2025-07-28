@@ -69,9 +69,6 @@ public
 :
 RtpPacketizerAv1
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -131,9 +128,6 @@ header
 uint8_t
 extension_header
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -195,9 +189,6 @@ Obu
 >
 ParseObus
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -226,9 +217,6 @@ Packet
 >
 PacketizeInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -249,9 +237,6 @@ Packet
 >
 Packetize
 (
-rtc
-:
-:
 ArrayView
 <
 const

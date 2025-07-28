@@ -393,9 +393,6 @@ SetName
 kName
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -531,9 +528,6 @@ kData
 )
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =

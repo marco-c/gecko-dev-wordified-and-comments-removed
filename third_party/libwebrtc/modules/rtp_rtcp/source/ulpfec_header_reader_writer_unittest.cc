@@ -420,9 +420,6 @@ read_packet
 >
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -705,9 +702,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -855,9 +849,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet

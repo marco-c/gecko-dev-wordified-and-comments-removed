@@ -281,9 +281,6 @@ RtpDependencyDescriptorWriter
 :
 RtpDependencyDescriptorWriter
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -335,9 +332,6 @@ size
 {
 if
 (
-rtc
-:
-:
 SafeNe
 (
 descriptor
@@ -364,9 +358,6 @@ return
 }
 if
 (
-rtc
-:
-:
 SafeNe
 (
 descriptor

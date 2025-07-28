@@ -67,9 +67,6 @@ webrtc
 namespace
 rtcp
 {
-rtc
-:
-:
 Buffer
 RtcpPacket
 :
@@ -79,9 +76,6 @@ Build
 )
 const
 {
-rtc
-:
-:
 Buffer
 packet
 (
@@ -252,9 +246,6 @@ supported
 ;
 callback
 (
-rtc
-:
-:
 ArrayView
 <
 const

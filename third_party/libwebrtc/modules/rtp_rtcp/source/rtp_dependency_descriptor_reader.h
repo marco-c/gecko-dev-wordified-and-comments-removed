@@ -50,9 +50,6 @@ public
 :
 RtpDependencyDescriptorReader
 (
-rtc
-:
-:
 ArrayView
 <
 const

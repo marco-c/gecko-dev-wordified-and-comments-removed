@@ -123,9 +123,6 @@ RtpPacketizerH265
 :
 RtpPacketizerH265
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -404,9 +401,6 @@ size_t
 fragment_index
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -772,9 +766,6 @@ fragment_headers_length
 =
 0
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1253,9 +1244,6 @@ packet
 aggregated
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1597,9 +1585,6 @@ kFu
 |
 layer_id_h
 ;
-rtc
-:
-:
 ArrayView
 <
 const

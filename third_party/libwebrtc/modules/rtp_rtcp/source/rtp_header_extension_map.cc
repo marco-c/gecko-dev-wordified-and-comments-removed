@@ -404,9 +404,6 @@ RtpHeaderExtensionMap
 :
 RtpHeaderExtensionMap
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -446,9 +443,6 @@ RtpHeaderExtensionMap
 :
 Reset
 (
-rtc
-:
-:
 ArrayView
 <
 const

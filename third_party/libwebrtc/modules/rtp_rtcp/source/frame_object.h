@@ -240,9 +240,6 @@ FrameInstrumentationData
 frame_instrumentation_data
 RtpPacketInfos
 packet_infos
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -382,9 +379,6 @@ metadata
 )
 ;
 private
-:
-rtc
-:
 :
 scoped_refptr
 <

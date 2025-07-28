@@ -337,9 +337,6 @@ unused_bytes
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 unused_bytes

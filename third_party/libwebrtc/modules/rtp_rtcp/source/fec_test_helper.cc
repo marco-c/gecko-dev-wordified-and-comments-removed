@@ -1114,9 +1114,6 @@ bool
 is_recovered
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 red_buffer
 ;

@@ -557,16 +557,10 @@ VideoRtpDepacketizerVp8
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -666,9 +660,6 @@ VideoRtpDepacketizerVp8
 :
 ParseRtpPayload
 (
-rtc
-:
-:
 ArrayView
 <
 const

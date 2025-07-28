@@ -198,9 +198,6 @@ expected_packet
 0xff
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -236,9 +233,6 @@ parsed
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -404,9 +398,6 @@ expected_packet
 0x82
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -442,9 +433,6 @@ parsed
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -531,9 +519,6 @@ packet
 0x02
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -790,9 +775,6 @@ idr
 0xc0
 }
 ;
-rtc
-:
-:
 Buffer
 packet
 ;
@@ -859,9 +841,6 @@ AppendData
 idr
 )
 ;
-rtc
-:
-:
 Buffer
 expected_packet
 ;
@@ -921,9 +900,6 @@ AppendData
 idr
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -959,9 +935,6 @@ parsed
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -1245,9 +1218,6 @@ idr
 0xc0
 }
 ;
-rtc
-:
-:
 Buffer
 packet
 ;
@@ -1314,9 +1284,6 @@ AppendData
 idr
 )
 ;
-rtc
-:
-:
 Buffer
 expected_packet
 ;
@@ -1376,9 +1343,6 @@ AppendData
 idr
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -1414,9 +1378,6 @@ parsed
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -1589,9 +1550,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 lone_empty_packet
@@ -1605,9 +1563,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 leading_empty_packet
@@ -1621,9 +1576,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 middle_empty_packet
@@ -1637,9 +1589,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 trailing_empty_packet
@@ -1715,9 +1664,6 @@ expected_packet
 0x11
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -1753,9 +1699,6 @@ parsed
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -1931,9 +1874,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet1
@@ -1947,9 +1887,6 @@ parsed1
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed1
@@ -2017,9 +1954,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet2
@@ -2028,9 +1962,6 @@ packet2
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed2
@@ -2098,9 +2029,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet3
@@ -2109,9 +2037,6 @@ packet3
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed3
@@ -2179,9 +2104,6 @@ VideoRtpDepacketizerH265Test
 EmptyPayload
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 empty
 ;
@@ -2224,9 +2146,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2262,9 +2181,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2301,9 +2217,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2340,9 +2253,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2378,9 +2288,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2427,9 +2334,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2469,9 +2373,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -2738,9 +2639,6 @@ idr_slice2
 0xff
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 ;
@@ -2821,9 +2719,6 @@ AppendData
 idr_slice2
 )
 ;
-rtc
-:
-:
 Buffer
 expected_packet
 ;
@@ -2930,9 +2825,6 @@ has_value
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -3057,9 +2949,6 @@ non_idr_slice2
 0xe0
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 ;
@@ -3098,9 +2987,6 @@ AppendData
 non_idr_slice2
 )
 ;
-rtc
-:
-:
 Buffer
 expected_packet
 ;
@@ -3165,9 +3051,6 @@ has_value
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -3292,9 +3175,6 @@ non_idr_slice2
 0xdf
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 ;
@@ -3333,9 +3213,6 @@ AppendData
 non_idr_slice2
 )
 ;
-rtc
-:
-:
 Buffer
 expected_packet
 ;
@@ -3400,9 +3277,6 @@ has_value
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 parsed
@@ -3511,9 +3385,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -3612,9 +3483,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -3704,9 +3572,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -3796,9 +3661,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -3876,9 +3738,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -3989,9 +3848,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -4058,9 +3914,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload
@@ -4123,9 +3976,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPayload

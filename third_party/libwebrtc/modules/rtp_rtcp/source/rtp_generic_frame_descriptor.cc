@@ -308,9 +308,6 @@ frame_id_
 frame_id
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -332,9 +329,6 @@ FirstPacketInSubFrame
 )
 ;
 return
-rtc
-:
-:
 MakeArrayView
 (
 frame_deps_id_diffs_

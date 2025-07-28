@@ -499,9 +499,6 @@ fields
 )
 {
 }
-rtc
-:
-:
 Buffer
 Serialize
 (
@@ -529,9 +526,6 @@ size
 =
 0
 ;
-rtc
-:
-:
 Buffer
 buf
 (
@@ -586,9 +580,6 @@ buf
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const

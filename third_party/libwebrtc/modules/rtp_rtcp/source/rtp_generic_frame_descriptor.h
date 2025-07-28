@@ -193,9 +193,6 @@ uint16_t
 frame_id
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

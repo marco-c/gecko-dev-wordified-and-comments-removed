@@ -466,9 +466,6 @@ kNackItemLength
 size_t
 payload_size_32bits
 =
-rtc
-:
-:
 CheckedDivExact
 <
 size_t

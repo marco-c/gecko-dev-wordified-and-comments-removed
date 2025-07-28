@@ -1448,9 +1448,6 @@ DEPRECATED_RtpSenderEgress
 :
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const

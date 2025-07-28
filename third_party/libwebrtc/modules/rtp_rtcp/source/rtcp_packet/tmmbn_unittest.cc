@@ -198,9 +198,6 @@ kOverhead
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -356,9 +353,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -451,9 +445,6 @@ kBitrateBps
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

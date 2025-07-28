@@ -410,9 +410,6 @@ populate_network2_timestamp
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -551,9 +548,6 @@ virtual
 void
 IncomingRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1068,9 +1062,6 @@ virtual
 void
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1085,9 +1076,6 @@ virtual
 void
 OnPacketsAcknowledged
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1133,9 +1121,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const

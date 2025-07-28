@@ -291,9 +291,6 @@ ParsedRtpPayload
 >
 ProcessApOrSingleNalu
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
@@ -440,9 +437,6 @@ size_t
 >
 nalu_start_offsets
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 video_payload
 ;
@@ -691,9 +685,6 @@ start_offset
 =
 kH265NalHeaderSizeBytes
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1175,9 +1166,6 @@ ParsedRtpPayload
 >
 ParseFuNalu
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
@@ -1375,9 +1363,6 @@ H265BitstreamParser
 :
 IsFirstSliceSegmentInPic
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1464,9 +1449,6 @@ layer_id_l_unshifted
 |
 tid
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 video_payload
 ;
@@ -1628,9 +1610,6 @@ VideoRtpDepacketizerH265
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )

@@ -1235,9 +1235,6 @@ config
 .
 frame_transformer
 ?
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -2822,9 +2819,6 @@ uint32_t
 rtp_timestamp
 Timestamp
 capture_time
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3645,9 +3639,6 @@ video_header
 )
 ;
 }
-rtc
-:
-:
 Buffer
 encrypted_video_payload
 ;

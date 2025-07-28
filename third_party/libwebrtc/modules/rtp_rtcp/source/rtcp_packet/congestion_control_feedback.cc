@@ -277,9 +277,6 @@ ato
 uint16_t
 To2BitEcn
 (
-rtc
-:
-:
 EcnMarking
 ecn_marking
 )
@@ -290,9 +287,6 @@ ecn_marking
 )
 {
 case
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -302,9 +296,6 @@ return
 0
 ;
 case
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -317,9 +308,6 @@ kEcnEct1
 13
 ;
 case
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -332,9 +320,6 @@ kEcnEct0
 13
 ;
 case
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -348,9 +333,6 @@ kEcnCe
 ;
 }
 }
-rtc
-:
-:
 EcnMarking
 ToEcnMarking
 (
@@ -380,9 +362,6 @@ kEcnEct1
 )
 {
 return
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -398,9 +377,6 @@ kEcnEct0
 )
 {
 return
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -416,9 +392,6 @@ kEcnCe
 )
 {
 return
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -426,9 +399,6 @@ kCe
 ;
 }
 return
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -568,9 +538,6 @@ write_report_for_ssrc
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -849,9 +816,6 @@ position
 }
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const

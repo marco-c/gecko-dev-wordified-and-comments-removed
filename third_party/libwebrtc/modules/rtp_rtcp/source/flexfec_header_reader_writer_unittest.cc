@@ -279,9 +279,6 @@ FecPacketStreamReadProperties
 ProtectedStream
 stream
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -300,9 +297,6 @@ byte_index
 uint16_t
 seq_num_base
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -539,9 +533,6 @@ packet_mask_size
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 read_packet
@@ -700,9 +691,6 @@ seq_num_base
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 packet
@@ -772,9 +760,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -981,9 +966,6 @@ packet_mask_offset
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 read_mask_ptr
@@ -1002,9 +984,6 @@ packet_mask
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 read_mask_ptr
@@ -1023,9 +1002,6 @@ Each
 }
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 read_packet
@@ -1183,9 +1159,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -1412,9 +1385,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -1691,9 +1661,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -1937,9 +1904,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -2274,9 +2238,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -2711,9 +2672,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -3210,9 +3168,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -3477,9 +3432,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -3569,9 +3521,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -3689,9 +3638,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -3831,9 +3777,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -4005,9 +3948,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet
@@ -4201,9 +4141,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 make_ref_counted
 <
 Packet

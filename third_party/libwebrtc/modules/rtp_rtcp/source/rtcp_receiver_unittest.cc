@@ -951,9 +951,6 @@ MOCK_METHOD
 void
 OnReceivedRtcpReportBlocks
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5497,9 +5494,6 @@ kReceiverMainSsrc
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -11749,9 +11743,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 built_packet
 =
@@ -12255,9 +12246,6 @@ remb
 )
 )
 ;
-rtc
-:
-:
 Buffer
 built_packet
 =

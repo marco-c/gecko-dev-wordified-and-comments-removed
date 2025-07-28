@@ -1313,9 +1313,6 @@ packet
 )
 ;
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 =
@@ -2347,9 +2344,6 @@ RtpSenderEgress
 :
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2553,9 +2547,6 @@ RtpSenderEgress
 :
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const

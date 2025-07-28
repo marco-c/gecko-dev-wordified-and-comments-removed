@@ -2244,9 +2244,6 @@ VideoRtpDepacketizerVp9Test
 ParseFailsForNoPayloadLength
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2461,9 +2458,6 @@ packet
 =
 0x0C
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (

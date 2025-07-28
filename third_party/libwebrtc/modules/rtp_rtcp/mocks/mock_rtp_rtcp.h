@@ -205,9 +205,6 @@ MOCK_METHOD
 void
 IncomingRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -824,9 +821,6 @@ MOCK_METHOD
 void
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -843,9 +837,6 @@ MOCK_METHOD
 void
 OnPacketsAcknowledged
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -896,9 +887,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const

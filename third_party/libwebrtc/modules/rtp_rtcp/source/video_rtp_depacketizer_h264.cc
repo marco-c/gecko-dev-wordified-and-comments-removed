@@ -240,9 +240,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -251,9 +248,6 @@ uint8_t
 >
 ParseStapA
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -267,9 +261,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -388,16 +379,10 @@ ParsedRtpPayload
 >
 ProcessStapAOrSingleNalu
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -431,9 +416,6 @@ modified_buffer
 =
 false
 ;
-rtc
-:
-:
 Buffer
 output_buffer
 ;
@@ -522,9 +504,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -641,9 +620,6 @@ kVideoFrameDelta
 for
 (
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -683,9 +659,6 @@ pps_id
 -
 1
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1462,9 +1435,6 @@ ParsedRtpPayload
 >
 ParseFuaNalu
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )
@@ -1647,9 +1617,6 @@ PpsParser
 :
 ParseSliceHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1956,9 +1923,6 @@ VideoRtpDepacketizerH264
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )

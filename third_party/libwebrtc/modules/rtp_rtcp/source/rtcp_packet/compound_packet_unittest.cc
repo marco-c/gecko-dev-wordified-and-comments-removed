@@ -366,9 +366,6 @@ fir
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -617,9 +614,6 @@ leaf
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -843,9 +837,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -872,9 +863,6 @@ Invoke
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1078,9 +1066,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1107,9 +1092,6 @@ Invoke
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1189,9 +1171,6 @@ Invoke
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const

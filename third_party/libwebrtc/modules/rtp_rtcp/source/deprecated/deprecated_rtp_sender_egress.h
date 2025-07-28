@@ -431,9 +431,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const

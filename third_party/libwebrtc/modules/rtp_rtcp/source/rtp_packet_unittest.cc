@@ -3192,9 +3192,6 @@ kPaddingSize
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 packet
@@ -3407,9 +3404,6 @@ RtpPacketTest
 ParseBuffer
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 unparsed
 (
@@ -3670,9 +3664,6 @@ packet
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPaddingHeader
@@ -3786,9 +3777,6 @@ packet
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPaddingHeader
@@ -3887,9 +3875,6 @@ packet
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPaddingHeader
@@ -3968,9 +3953,6 @@ packet
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 kPaddingHeader
@@ -5849,9 +5831,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -5869,9 +5848,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6035,9 +6011,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -6071,9 +6044,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const

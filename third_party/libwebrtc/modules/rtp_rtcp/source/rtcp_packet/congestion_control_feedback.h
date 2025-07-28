@@ -117,15 +117,9 @@ MinusInfinity
 (
 )
 ;
-rtc
-:
-:
 EcnMarking
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -169,9 +163,6 @@ CommonHeader
 packet
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

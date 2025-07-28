@@ -154,9 +154,6 @@ RtpPacketizerH264
 :
 RtpPacketizerH264
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -245,9 +242,6 @@ input_fragments_
 ]
 (
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -522,9 +516,6 @@ size_t
 fragment_index
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -812,9 +803,6 @@ fragment_headers_length
 =
 0
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1126,9 +1114,6 @@ limits_
 .
 last_packet_reduction_len
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1495,9 +1480,6 @@ packet
 aggregated
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1720,9 +1702,6 @@ fu_header
 =
 type
 ;
-rtc
-:
-:
 ArrayView
 <
 const

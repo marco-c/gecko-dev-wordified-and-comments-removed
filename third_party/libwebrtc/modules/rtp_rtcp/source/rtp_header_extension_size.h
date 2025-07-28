@@ -56,9 +56,6 @@ value_size
 int
 RtpHeaderExtensionSize
 (
-rtc
-:
-:
 ArrayView
 <
 const

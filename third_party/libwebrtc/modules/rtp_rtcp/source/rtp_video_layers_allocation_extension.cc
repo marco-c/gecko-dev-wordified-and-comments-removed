@@ -533,9 +533,6 @@ RtpVideoLayersAllocationExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -932,9 +929,6 @@ RtpVideoLayersAllocationExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const

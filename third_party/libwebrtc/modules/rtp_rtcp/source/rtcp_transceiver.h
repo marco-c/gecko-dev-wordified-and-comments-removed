@@ -219,9 +219,6 @@ ready
 void
 ReceivePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )

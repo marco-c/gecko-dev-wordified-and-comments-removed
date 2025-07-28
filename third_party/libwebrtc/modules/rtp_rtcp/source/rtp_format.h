@@ -118,9 +118,6 @@ optional
 VideoCodecType
 >
 type
-rtc
-:
-:
 ArrayView
 <
 const

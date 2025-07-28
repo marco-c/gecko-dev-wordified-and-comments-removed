@@ -225,9 +225,6 @@ AudioFrameType
 :
 kAudioFrameSpeech
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -264,9 +261,6 @@ int
 >
 audio_level_dbov
 ;
-rtc
-:
-:
 ArrayView
 <
 const

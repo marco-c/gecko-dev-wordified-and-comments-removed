@@ -411,9 +411,6 @@ RtpPacket
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -444,9 +441,6 @@ RtpPacket
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 )
@@ -1164,9 +1158,6 @@ RtpPacket
 :
 SetCsrcs
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1300,9 +1291,6 @@ payload_offset_
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1380,9 +1368,6 @@ length
 length
 )
 return
-rtc
-:
-:
 MakeArrayView
 (
 WriteAt
@@ -1973,9 +1958,6 @@ payload_offset_
 )
 ;
 return
-rtc
-:
-:
 MakeArrayView
 (
 WriteAt
@@ -3370,9 +3352,6 @@ back
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3436,9 +3415,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -3456,9 +3432,6 @@ length
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 uint8_t

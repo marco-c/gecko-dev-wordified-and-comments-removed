@@ -191,9 +191,6 @@ SetMediaSsrc
 kRemoteSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

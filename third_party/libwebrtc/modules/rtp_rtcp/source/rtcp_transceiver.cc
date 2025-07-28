@@ -523,9 +523,6 @@ RtcpTransceiver
 :
 ReceivePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )

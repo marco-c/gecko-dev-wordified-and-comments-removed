@@ -371,9 +371,6 @@ encapsulate
 void
 CullAcknowledgedPackets
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -220,9 +220,6 @@ GetAllPacketsAndCheck
 RtpPacketizerVp8
 *
 packetizer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -404,9 +401,6 @@ RtpFormatVp8TestHelper
 :
 CheckHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -595,9 +589,6 @@ RtpFormatVp8TestHelper
 :
 CheckPictureID
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -723,9 +714,6 @@ RtpFormatVp8TestHelper
 :
 CheckTl0PicIdx
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -801,9 +789,6 @@ RtpFormatVp8TestHelper
 :
 CheckTIDAndKeyIdx
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -211,9 +211,6 @@ RtpPayload
 using
 value_type
 =
-rtc
-:
-:
 ArrayView
 <
 const
@@ -226,9 +223,6 @@ value_type
 using
 const_iterator
 =
-rtc
-:
-:
 ArrayView
 <
 const
@@ -385,9 +379,6 @@ uint8_t
 explicit
 Av1Frame
 (
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -456,9 +447,6 @@ nullptr
 }
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -476,9 +464,6 @@ RtpPayload
 >
 Packetize
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -558,9 +543,6 @@ result
 Av1Frame
 ReassembleFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -574,9 +556,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const

@@ -600,9 +600,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -655,9 +652,6 @@ first
 log_prefix
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -858,9 +852,6 @@ index_
 {
 callback_
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1369,9 +1360,6 @@ RtcpTransceiverImpl
 :
 ReceivePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1762,9 +1750,6 @@ RtcpTransceiverImpl
 :
 SendFullIntraRequest
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2272,9 +2257,6 @@ uint32_t
 sender_ssrc
 Timestamp
 now
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3504,9 +3486,6 @@ ProcessReportBlocks
 (
 Timestamp
 now
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5126,9 +5105,6 @@ has_value
 )
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

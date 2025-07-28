@@ -201,9 +201,6 @@ fec_payload_type
 bool
 marker_bit
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 data

@@ -291,9 +291,6 @@ sub_type_
 uint32_t
 name_
 ;
-rtc
-:
-:
 Buffer
 data_
 ;

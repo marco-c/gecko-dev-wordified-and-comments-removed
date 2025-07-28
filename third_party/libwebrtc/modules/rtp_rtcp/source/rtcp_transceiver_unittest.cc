@@ -485,7 +485,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -600,7 +600,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -743,7 +743,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -972,7 +972,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1089,7 +1089,7 @@ queue
 )
 ;
 }
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1124,7 +1124,7 @@ SetRtpTimestamp
 rtp_time
 )
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -1137,7 +1137,7 @@ Build
 )
 ;
 return
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1518,7 +1518,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1691,7 +1691,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1842,7 +1842,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1922,7 +1922,7 @@ WillOnce
 &
 ]
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2143,7 +2143,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2226,7 +2226,7 @@ WillOnce
 &
 ]
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2306,7 +2306,7 @@ WillOnce
 &
 ]
 (
-rtc
+webrtc
 :
 :
 ArrayView

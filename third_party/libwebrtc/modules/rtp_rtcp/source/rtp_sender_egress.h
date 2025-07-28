@@ -489,9 +489,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -534,9 +531,6 @@ FetchFecPackets
 void
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const

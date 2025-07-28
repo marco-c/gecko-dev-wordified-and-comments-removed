@@ -63,9 +63,6 @@ FunctionView
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -105,9 +102,6 @@ return
 sender_ssrc_
 ;
 }
-rtc
-:
-:
 Buffer
 Build
 (

@@ -92,9 +92,6 @@ KilobitsPerSec
 1000000
 )
 ;
-rtc
-:
-:
 Buffer
 data
 =
@@ -182,9 +179,6 @@ PlusInfinity
 (
 )
 ;
-rtc
-:
-:
 Buffer
 data
 =
@@ -270,9 +264,6 @@ MinusInfinity
 (
 )
 ;
-rtc
-:
-:
 Buffer
 data
 =

@@ -110,9 +110,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -132,9 +129,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -195,9 +189,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -227,9 +218,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

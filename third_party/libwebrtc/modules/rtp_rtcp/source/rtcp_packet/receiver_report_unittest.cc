@@ -366,9 +366,6 @@ RtcpPacketReceiverReportTest
 ParseFailsOnIncorrectSize
 )
 {
-rtc
-:
-:
 Buffer
 damaged_packet
 (
@@ -474,9 +471,6 @@ AddReportBlock
 rb
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -524,9 +518,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -633,9 +624,6 @@ rb2
 )
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =

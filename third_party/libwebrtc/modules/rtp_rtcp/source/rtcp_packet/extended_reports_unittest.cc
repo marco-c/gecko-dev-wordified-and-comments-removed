@@ -394,9 +394,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -513,9 +510,6 @@ SetRrtr
 kRrtr
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -603,9 +597,6 @@ AddDlrrItem
 kTimeInfo
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -718,9 +709,6 @@ AddDlrrItem
 kTimeInfo2
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -925,9 +913,6 @@ ReceiveTimeInfo
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

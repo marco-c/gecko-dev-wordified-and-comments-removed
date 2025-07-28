@@ -71,9 +71,6 @@ LastSendOnChain
 (
 int
 frame_diff
-rtc
-:
-:
 ArrayView
 <
 const
@@ -182,9 +179,6 @@ bitset
 >
 ActiveChains
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -288,9 +282,6 @@ ActiveDecodeTargetsHelper
 :
 OnFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -309,9 +300,6 @@ bool
 is_keyframe
 int64_t
 frame_id
-rtc
-:
-:
 ArrayView
 <
 const

@@ -273,9 +273,6 @@ kRemoteSsrc
 kSeqNr
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -343,9 +340,6 @@ kSeqNr
 1
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

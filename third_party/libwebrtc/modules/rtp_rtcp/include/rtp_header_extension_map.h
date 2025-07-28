@@ -98,9 +98,6 @@ extmap_allow_mixed
 explicit
 RtpHeaderExtensionMap
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -112,9 +109,6 @@ extensions
 void
 Reset
 (
-rtc
-:
-:
 ArrayView
 <
 const

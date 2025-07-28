@@ -290,9 +290,6 @@ RtpPacketizerVp8
 :
 RtpPacketizerVp8
 (
-rtc
-:
-:
 ArrayView
 <
 const

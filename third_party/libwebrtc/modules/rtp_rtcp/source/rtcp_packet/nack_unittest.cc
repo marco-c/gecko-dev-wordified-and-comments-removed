@@ -360,9 +360,6 @@ kList
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -488,9 +485,6 @@ kWrapList
 kWrapListLength
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -642,9 +636,6 @@ kUnorderedList
 kUnorderedListLength
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -771,9 +762,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -800,9 +788,6 @@ Invoke
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -874,9 +859,6 @@ Invoke
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1012,9 +994,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const

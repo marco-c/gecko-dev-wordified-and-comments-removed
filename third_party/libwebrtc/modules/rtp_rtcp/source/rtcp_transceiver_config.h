@@ -395,9 +395,6 @@ void
 OnNack
 (
 uint32_t
-rtc
-:
-:
 ArrayView
 <
 const
@@ -504,9 +501,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const

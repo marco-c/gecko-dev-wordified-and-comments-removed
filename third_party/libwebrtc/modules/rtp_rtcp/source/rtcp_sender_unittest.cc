@@ -532,9 +532,6 @@ TestTransport
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -553,9 +550,6 @@ false
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5998,9 +5992,6 @@ Invoke
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const

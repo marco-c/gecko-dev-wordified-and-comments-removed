@@ -106,9 +106,6 @@ RtpPacketizerGeneric
 :
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -166,9 +163,6 @@ RtpPacketizerGeneric
 :
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const

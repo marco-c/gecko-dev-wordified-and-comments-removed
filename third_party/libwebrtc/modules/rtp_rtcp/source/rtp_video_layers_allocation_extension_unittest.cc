@@ -70,9 +70,6 @@ WriteEmptyLayersAllocationReturnsTrue
 VideoLayersAllocation
 written_allocation
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -119,9 +116,6 @@ rtp_stream_index
 =
 0
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -237,9 +231,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -357,9 +348,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -461,9 +449,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -565,9 +550,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -676,9 +658,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -800,9 +779,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -865,9 +841,6 @@ rtp_stream_index
 =
 1
 ;
-rtc
-:
-:
 Buffer
 buffer
 (
@@ -990,9 +963,6 @@ KilobitsPerSec
 }
 }
 ;
-rtc
-:
-:
 Buffer
 buffer
 (

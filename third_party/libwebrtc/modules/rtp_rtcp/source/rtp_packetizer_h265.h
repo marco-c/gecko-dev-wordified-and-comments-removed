@@ -72,9 +72,6 @@ public
 :
 RtpPacketizerH265
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -133,9 +130,6 @@ private
 struct
 PacketUnit
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -170,9 +164,6 @@ std
 :
 deque
 <
-rtc
-:
-:
 ArrayView
 <
 const

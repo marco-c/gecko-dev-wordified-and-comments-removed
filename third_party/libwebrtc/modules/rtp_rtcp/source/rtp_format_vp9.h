@@ -88,9 +88,6 @@ public
 :
 RtpPacketizerVp9
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -157,9 +154,6 @@ bool
 layer_begin
 bool
 layer_end
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -180,9 +174,6 @@ const
 int
 first_packet_extra_header_size_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

@@ -952,9 +952,6 @@ RTPSender
 )
 {
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -968,9 +965,6 @@ FecExtensionSizes
 )
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 kFecOrPaddingExtensionSizes
@@ -981,9 +975,6 @@ kFecOrPaddingExtensionSizes
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -997,9 +988,6 @@ VideoExtensionSizes
 )
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 kVideoExtensionSizes
@@ -1010,9 +998,6 @@ kVideoExtensionSizes
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1026,9 +1011,6 @@ AudioExtensionSizes
 )
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 kAudioExtensionSizes
@@ -2610,9 +2592,6 @@ RTPSender
 :
 AllocatePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3154,9 +3133,6 @@ extension
 continue
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3171,9 +3147,6 @@ FindExtension
 extension
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

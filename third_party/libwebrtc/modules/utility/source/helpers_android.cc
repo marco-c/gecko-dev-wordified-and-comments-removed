@@ -559,9 +559,6 @@ tid
 d
 ]
 "
-rtc
-:
-:
 CurrentThreadId
 (
 )
@@ -633,9 +630,6 @@ tid
 d
 ]
 "
-rtc
-:
-:
 CurrentThreadId
 (
 )

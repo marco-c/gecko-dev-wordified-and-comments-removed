@@ -1389,9 +1389,6 @@ RtpPacketizerVp9
 :
 RtpPacketizerVp9
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1628,9 +1625,6 @@ WriteHeader
 (
 layer_begin
 layer_end
-rtc
-:
-:
 MakeArrayView
 (
 buffer
@@ -1708,9 +1702,6 @@ bool
 layer_begin
 bool
 layer_end
-rtc
-:
-:
 ArrayView
 <
 uint8_t

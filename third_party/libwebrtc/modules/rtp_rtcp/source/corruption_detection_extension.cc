@@ -91,9 +91,6 @@ CorruptionDetectionExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -271,9 +268,6 @@ CorruptionDetectionExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -420,9 +414,6 @@ chroma_error_threshold
 0xF
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

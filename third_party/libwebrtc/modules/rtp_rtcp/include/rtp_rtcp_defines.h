@@ -543,9 +543,6 @@ void
 OnReport
 (
 Timestamp
-rtc
-:
-:
 ArrayView
 <
 const

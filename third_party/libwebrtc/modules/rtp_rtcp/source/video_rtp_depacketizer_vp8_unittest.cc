@@ -1297,9 +1297,6 @@ packet
 =
 15
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -1378,9 +1375,6 @@ VideoRtpDepacketizerVp8Test
 FailsOnEmptyPayload
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

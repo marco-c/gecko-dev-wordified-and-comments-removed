@@ -569,9 +569,6 @@ send_mutex_
 )
 ;
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -586,9 +583,6 @@ send_mutex_
 )
 ;
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -603,9 +597,6 @@ send_mutex_
 )
 ;
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -628,9 +619,6 @@ RtpPacketToSend
 >
 AllocatePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

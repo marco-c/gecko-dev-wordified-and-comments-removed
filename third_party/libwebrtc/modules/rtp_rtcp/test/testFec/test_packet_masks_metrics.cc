@@ -3699,9 +3699,6 @@ num_media_packets
 mask_bytes_fec_packet
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

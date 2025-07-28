@@ -190,9 +190,6 @@ kOverhead
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -378,9 +375,6 @@ kOverhead
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

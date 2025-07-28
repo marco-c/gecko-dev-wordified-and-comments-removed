@@ -65,9 +65,6 @@ public
 :
 RtpDependencyDescriptorWriter
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
