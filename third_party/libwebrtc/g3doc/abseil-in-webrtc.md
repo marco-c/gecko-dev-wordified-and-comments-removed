@@ -245,15 +245,9 @@ absl
 :
 InlinedVector
 *
-absl
-:
-:
-Nonnull
+absl_nonnull
 and
-absl
-:
-:
-Nullable
+absl_nullable
 *
 absl
 :
