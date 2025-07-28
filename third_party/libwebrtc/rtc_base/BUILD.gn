@@ -7458,6 +7458,10 @@ deps
 [
 "
 :
+base64
+"
+"
+:
 buffer
 "
 "
@@ -7524,11 +7528,6 @@ scoped_refptr
 system
 :
 rtc_export
-"
-"
-third_party
-/
-base64
 "
 "
 /
@@ -9981,13 +9980,6 @@ mutex
 task_utils
 :
 repeating_task
-"
-"
-third_party
-/
-base64
-:
-base64_unittest
 "
 "
 third_party
