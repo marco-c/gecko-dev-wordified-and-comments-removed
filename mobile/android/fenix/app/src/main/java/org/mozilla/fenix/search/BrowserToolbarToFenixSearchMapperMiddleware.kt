@@ -390,8 +390,6 @@ environment
 syncSearchStatus
 (
 context
-.
-store
 )
 if
 (
@@ -407,8 +405,6 @@ isEditMode
 syncUserQuery
 (
 context
-.
-store
 )
 }
 }
@@ -433,9 +429,9 @@ private
 fun
 syncSearchStatus
 (
-store
+context
 :
-Store
+MiddlewareContext
 <
 SearchFragmentState
 SearchFragmentAction
@@ -475,7 +471,7 @@ Mode
 EDIT
 )
 {
-store
+context
 .
 dispatch
 (
@@ -506,7 +502,7 @@ true
 )
 syncUserQuery
 (
-store
+context
 )
 }
 else
@@ -522,9 +518,9 @@ private
 fun
 syncUserQuery
 (
-store
+context
 :
-Store
+MiddlewareContext
 <
 SearchFragmentState
 SearchFragmentAction
@@ -561,7 +557,7 @@ collect
 query
 -
 >
-store
+context
 .
 dispatch
 (
