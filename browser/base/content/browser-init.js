@@ -1876,6 +1876,12 @@ init
 (
 )
 ;
+gTrustPanelHandler
+.
+init
+(
+)
+;
 let
 safeMode
 =
@@ -4668,6 +4674,12 @@ uninit
 )
 ;
 gProtectionsHandler
+.
+uninit
+(
+)
+;
+gTrustPanelHandler
 .
 uninit
 (
