@@ -38,6 +38,12 @@ EchoCanceller3Config
 config
 )
 ;
+static
+EchoCanceller3Config
+CreateDefaultMultichannelConfig
+(
+)
+;
 EchoCanceller3Config
 (
 )

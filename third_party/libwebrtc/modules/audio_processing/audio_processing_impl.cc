@@ -9421,7 +9421,7 @@ use_setup_specific_default_aec3_config_
 {
 multichannel_config
 =
-EchoCanceller3
+EchoCanceller3Config
 :
 :
 CreateDefaultMultichannelConfig

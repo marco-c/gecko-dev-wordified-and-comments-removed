@@ -570,12 +570,6 @@ leakage_detected
 )
 ;
 }
-static
-EchoCanceller3Config
-CreateDefaultMultichannelConfig
-(
-)
-;
 private
 :
 friend
