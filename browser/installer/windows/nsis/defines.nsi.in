@@ -733,6 +733,14 @@ MOZ_MAINTENANCE_SERVICE
 endif
 #
 ifdef
+DESKTOP_LAUNCHER_APP
+!
+define
+DESKTOP_LAUNCHER_APP
+#
+endif
+#
+ifdef
 MOZ_BITS_DOWNLOAD
 !
 define
