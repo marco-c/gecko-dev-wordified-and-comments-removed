@@ -1124,7 +1124,7 @@ android
 /
 proguard
 /
-chromium_code
+chromium_apk
 .
 flags
 :

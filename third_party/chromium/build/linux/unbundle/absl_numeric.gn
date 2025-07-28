@@ -168,3 +168,11 @@ system_absl_int128
 "
 ]
 }
+source_set
+(
+"
+int128_test
+"
+)
+{
+}

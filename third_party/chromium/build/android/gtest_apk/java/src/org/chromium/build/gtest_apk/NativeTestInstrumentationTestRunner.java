@@ -392,13 +392,6 @@ Bundle
 arguments
 )
 {
-Context
-context
-=
-getContext
-(
-)
-;
 mTransparentArguments
 =
 new

@@ -56,38 +56,10 @@ append
 (
 THIS_DIR
 )
-sys
-.
-path
-.
-append
-(
-os
-.
-path
-.
-join
-(
-CHROMIUM_SRC_DIR
-'
-build
-'
-'
-android
-'
-'
-gyp
-'
-)
-)
 from
 run_bindgen
 import
 filter_clang_args
-from
-util
-import
-build_utils
 RUST_TOOLCHAIN_DIR
 =
 os
@@ -246,7 +218,7 @@ add_argument
 "
 -
 -
-targets_and_headers_from_gn
+targets_and_args_from_gn
 "
                       
 metavar
@@ -263,7 +235,7 @@ parsed
 into
 -
 -
-targets_and_headers
+targets_and_args
 Crubit
 arg
 "
@@ -571,7 +543,7 @@ open
 (
 args
 .
-targets_and_headers_from_gn
+targets_and_args_from_gn
 "
 r
 "
@@ -580,7 +552,7 @@ as
 f
 :
     
-targets_and_headers
+targets_and_args
 =
 json
 .
@@ -592,8 +564,21 @@ f
 for
 entry
 in
-targets_and_headers
+targets_and_args
 :
+    
+entry
+[
+"
+f
+"
+]
+=
+[
+"
+supported
+"
+]
     
 hdrs
 =
@@ -640,7 +625,7 @@ append
 "
 -
 -
-targets_and_headers
+targets_and_args
 =
 {
 0
@@ -654,7 +639,7 @@ json
 .
 dumps
 (
-targets_and_headers
+targets_and_args
 )
 )
 )

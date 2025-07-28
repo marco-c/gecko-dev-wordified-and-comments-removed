@@ -44,7 +44,9 @@ TOOLCHAIN
 /
 third_party
 /
-android_ndk
+android_toolchain
+/
+ndk
 /
 toolchains
 /

@@ -476,22 +476,6 @@ not
 None
 :
     
-if
-thin_lto_type
-=
-=
-'
-goma
-'
-:
-      
-cpu_cap
-=
-1
-    
-else
-:
-      
 assert
 thin_lto_type
 =
@@ -499,7 +483,7 @@ thin_lto_type
 '
 local
 '
-      
+    
 cpu_cap
 =
 min

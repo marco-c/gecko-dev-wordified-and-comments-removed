@@ -26,6 +26,9 @@ build
 protoc_java
 .
 py
+action_helpers
+.
+py
 android
 /
 gyp
@@ -48,5 +51,8 @@ gn_helpers
 .
 py
 protoc_java
+.
+py
+zip_helpers
 .
 py

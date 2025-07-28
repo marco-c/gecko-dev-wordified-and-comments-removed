@@ -79,6 +79,15 @@ main
 .
 rs
 "
+"
+crate
+/
+src
+/
+more
+.
+rs
+"
 ]
 build_sources
 =

@@ -147,7 +147,7 @@ breakpad
 :
 dump_syms
 (
-host_toolchain
+host_system_allocator_toolchain
 )
 "
 dump_syms_binary

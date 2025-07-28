@@ -1,10 +1,6 @@
 import
 difflib
 import
-distutils
-.
-dir_util
-import
 filecmp
 import
 os
@@ -241,17 +237,23 @@ header_dir
 )
 )
   
-distutils
+shutil
 .
-dir_util
-.
-copy_tree
+copytree
 (
 source
+                  
 header_dir
-preserve_times
+                  
+copy_function
 =
-False
+shutil
+.
+copy
+                  
+dirs_exist_ok
+=
+True
 )
   
 if

@@ -32,6 +32,10 @@ from
 util
 import
 resource_utils
+import
+action_helpers
+import
+zip_helpers
 sys
 .
 path
@@ -611,11 +615,22 @@ info
 '
 )
     
-build_utils
+with
+action_helpers
 .
-ZipDir
+atomic_output
 (
 outputs_zip
+)
+as
+f
+:
+      
+zip_helpers
+.
+zip_directory
+(
+f
 temp_dir
 )
 def
@@ -634,9 +649,9 @@ variables
 for
 v
 in
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 variables_arg
 )
@@ -1051,9 +1066,9 @@ parse_args
   
 inputs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1062,9 +1077,9 @@ inputs
   
 includes
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .

@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -230,7 +225,7 @@ gclient_entries
 shared_library
 (
 "
-private_code_test_lib
+private_code_test_inputs
 "
 )
 {
@@ -281,7 +276,7 @@ linker_inputs_dep
 =
 "
 :
-private_code_test_lib
+private_code_test_inputs
 "
 private_paths_dep
 =

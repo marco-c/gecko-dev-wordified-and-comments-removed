@@ -190,7 +190,7 @@ crbug
 .
 com
 /
-1056328
+40120290
 )
 Because
 we
@@ -245,6 +245,9 @@ forward_variables_from
 invoker
 [
 "
+clones
+"
+"
 data
 "
 "
@@ -258,9 +261,6 @@ executable_args
 "
 "
 retries
-"
-"
-shards
 "
 "
 xcode_test_application_name

@@ -27,8 +27,12 @@ from
 common
 import
 REPO_ALIAS
+catch_sigterm
 register_device_args
+\
+                   
 run_ffx_command
+wait_for_sigterm
 _REPO_NAME
 =
 '
@@ -72,6 +76,9 @@ repository
     
 run_ffx_command
 (
+        
+cmd
+=
 [
 '
 target
@@ -88,9 +95,11 @@ r
 '
 repo_name
 ]
-                    
+        
+target_id
+=
 target
-                    
+        
 check
 =
 False
@@ -98,6 +107,8 @@ False
     
 run_ffx_command
 (
+cmd
+=
 [
 '
 repository
@@ -114,6 +125,8 @@ False
     
 run_ffx_command
 (
+cmd
+=
 [
 '
 repository
@@ -200,6 +213,8 @@ to
     
 run_ffx_command
 (
+cmd
+=
 (
 '
 config
@@ -226,6 +241,8 @@ ffx
     
 run_ffx_command
 (
+cmd
+=
 [
 '
 repository
@@ -241,6 +258,9 @@ start
     
 run_ffx_command
 (
+        
+cmd
+=
 [
 '
 repository
@@ -263,6 +283,8 @@ repo_name
     
 run_ffx_command
 (
+cmd
+=
 [
         
 '
@@ -288,6 +310,9 @@ alias
 REPO_ALIAS
     
 ]
+                    
+target_id
+=
 target
 )
 def
@@ -444,7 +469,13 @@ args
 target_id
 )
     
-else
+elif
+cmd
+=
+=
+'
+stop
+'
 :
         
 _stop_serving
@@ -455,6 +486,50 @@ repo_name
 args
 .
 target_id
+)
+    
+else
+:
+        
+assert
+cmd
+=
+=
+'
+run
+'
+        
+catch_sigterm
+(
+)
+        
+with
+serve_repository
+(
+args
+)
+:
+            
+print
+(
+args
+.
+repo_name
+flush
+=
+True
+)
+            
+wait_for_sigterm
+(
+'
+shutting
+down
+the
+repo
+server
+.
+'
 )
 contextlib
 .
@@ -561,6 +636,9 @@ start
 '
 stop
 '
+'
+run
+'
 ]
                         
 help
@@ -571,8 +649,50 @@ to
 start
 |
 stop
+|
+run
 repository
 serving
+.
+'
+\
+                             
+'
+"
+start
+"
+command
+will
+start
+the
+repo
+and
+exit
+;
+'
+\
+                             
+'
+"
+run
+"
+command
+will
+start
+the
+repo
+and
+wait
+'
+\
+                             
+'
+until
+ctrl
+-
+c
+or
+sigterm
 .
 '
 )
@@ -596,6 +716,7 @@ parse_args
 )
     
 if
+(
 args
 .
 cmd
@@ -604,6 +725,16 @@ cmd
 '
 start
 '
+or
+args
+.
+cmd
+=
+=
+'
+run
+'
+)
 and
 not
 args

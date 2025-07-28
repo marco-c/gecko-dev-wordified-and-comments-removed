@@ -37,6 +37,8 @@ from
 util
 import
 jar_info_utils
+import
+action_helpers
 _AAR_VERSION_PATTERN
 =
 re
@@ -125,17 +127,11 @@ info_paths
 :
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 res_info_path
-only_if_changed
-=
-False
-                                
-mode
-=
 '
 w
 +
@@ -260,15 +256,16 @@ src_info_file
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 merged_path
+                                    
 only_if_changed
 =
 False
-                                
+                                    
 mode
 =
 '
@@ -618,9 +615,9 @@ name
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 output
 only_if_changed
@@ -722,9 +719,9 @@ description
 __doc__
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -999,9 +996,9 @@ options
 .
 jar_files
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1012,9 +1009,9 @@ options
 .
 assets
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1025,9 +1022,9 @@ options
 .
 uncompressed_assets
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1099,18 +1096,18 @@ pak_inputs
 +
 res_inputs
   
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .
 depfile
-                           
+                               
 options
 .
 jar_info_path
-                           
+                               
 inputs
 =
 all_inputs

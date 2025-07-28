@@ -47,7 +47,7 @@ gni
 rust_static_library
 (
 "
-test_rust_static_library_non_standard_arrangement
+lib
 "
 )
 {

@@ -454,6 +454,26 @@ file
 else
 :
     
+if
+remote_args
+[
+0
+]
+=
+=
+'
+-
+-
+'
+:
+      
+remote_args
+.
+pop
+(
+0
+)
+    
 action
 =
 '

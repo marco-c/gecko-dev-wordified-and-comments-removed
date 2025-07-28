@@ -15,8 +15,6 @@ import
 argparse
 import
 logging
-import
-time
 from
 typing
 import
@@ -25,7 +23,9 @@ Optional
 from
 common
 import
+catch_sigterm
 run_continuous_ffx_command
+wait_for_sigterm
 from
 test_runner
 import
@@ -189,6 +189,10 @@ self
 )
 :
         
+catch_sigterm
+(
+)
+        
 browser_cmd
 =
 [
@@ -309,41 +313,19 @@ _packages
 ]
 )
         
-try
-:
-            
 browser_proc
 =
 run_continuous_ffx_command
 (
 browser_cmd
 )
-            
-while
-True
-:
-                
-time
-.
-sleep
-(
-10000
-)
         
-except
-KeyboardInterrupt
+try
 :
             
-logging
-.
-info
+wait_for_sigterm
 (
 '
-Ctrl
--
-C
-received
-;
 shutting
 down
 the
@@ -351,38 +333,12 @@ webpage
 .
 '
 )
-            
-browser_proc
-.
-kill
-(
-)
         
-except
-SystemExit
+finally
 :
             
-logging
-.
-info
-(
-'
-SIGTERM
-received
-;
-shutting
-down
-the
-webpage
-.
-'
-)
-            
 browser_proc
 .
 kill
 (
 )
-        
-return
-browser_proc

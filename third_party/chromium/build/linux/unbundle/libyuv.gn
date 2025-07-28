@@ -33,7 +33,7 @@ gni
 pkg_config
 (
 "
-system_yuv
+libyuv_config
 "
 )
 {
@@ -220,7 +220,7 @@ public_configs
 [
 "
 :
-system_yuv
+libyuv_config
 "
 ]
 }

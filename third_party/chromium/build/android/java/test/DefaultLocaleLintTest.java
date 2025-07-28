@@ -10,7 +10,7 @@ Application
 ;
 public
 class
-LintTest
+DefaultLocaleLintTest
 extends
 Application
 {

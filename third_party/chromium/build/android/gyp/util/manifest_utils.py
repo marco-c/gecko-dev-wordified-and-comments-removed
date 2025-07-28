@@ -32,15 +32,17 @@ minidom
 as
 minidom
 from
-util
-import
-build_utils
-from
 xml
 .
 etree
 import
 ElementTree
+from
+util
+import
+build_utils
+import
+action_helpers
 ANDROID_NAMESPACE
 =
 '
@@ -459,9 +461,9 @@ path
 :
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 path
 )

@@ -835,12 +835,18 @@ Initialize
 output_directory
 =
 None
+               
 custom_deps
 =
 None
+               
 adb_path
 =
 None
+               
+use_local_devil_tools
+=
+False
 )
 :
   
@@ -1014,6 +1020,19 @@ the
 Android
 SDK
 .
+    
+use_local_devil_tools
+:
+Use
+locally
+built
+versions
+of
+md5sum
+      
+forwarder_dist
+etc
+.
   
 "
 "
@@ -1047,9 +1066,7 @@ dependencies
 }
   
 if
-build_with_chromium
-and
-output_directory
+use_local_devil_tools
 :
     
 _UseLocalBuildProducts

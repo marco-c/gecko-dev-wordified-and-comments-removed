@@ -1,6 +1,3 @@
-USE_PYTHON3
-=
-True
 def
 _RunTests
 (
@@ -19,13 +16,10 @@ RunUnitTestsInDirectory
 (
       
 input_api
-      
 output_api
-      
 '
 .
 '
-      
 files_to_check
 =
 [
@@ -38,14 +32,6 @@ _test
 py
 '
 ]
-      
-run_on_python2
-=
-False
-      
-skip_shebang_check
-=
-True
 )
 )
 def

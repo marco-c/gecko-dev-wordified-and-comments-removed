@@ -7,9 +7,6 @@ PRESUBMIT_VERSION
 .
 0
 '
-USE_PYTHON3
-=
-True
 import
 textwrap
 def
@@ -64,6 +61,21 @@ r
 \
 .
 gni
+'
+  
+]
+  
+exclude_file_patterns
+=
+[
+      
+r
+'
+build
+/
+rust
+/
+tests
 '
   
 ]
@@ -261,6 +273,10 @@ affected_file
 files_to_check
 =
 build_file_patterns
+                                      
+files_to_skip
+=
+exclude_file_patterns
 )
   
 problems
@@ -415,13 +431,5 @@ test
 py
 '
 ]
-          
-run_on_python2
-=
-False
-          
-run_on_python3
-=
-True
 )
 )

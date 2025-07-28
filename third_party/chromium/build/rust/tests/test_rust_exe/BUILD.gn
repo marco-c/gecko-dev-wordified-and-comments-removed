@@ -123,6 +123,8 @@ rust
 tests
 /
 test_rust_static_library_non_standard_arrangement
+:
+lib
 "
 ]
 build_native_rust_unit_tests

@@ -583,9 +583,15 @@ datetime
 .
 datetime
 .
-utcfromtimestamp
+fromtimestamp
 (
 last_commit_timestamp
+                                               
+datetime
+.
+timezone
+.
+utc
 )
   
 offset

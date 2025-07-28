@@ -543,6 +543,12 @@ ash
 -
 data
 '
+'
+/
+tmp
+/
+unique
+'
 ]
 )
   
@@ -841,6 +847,20 @@ window
 -
 disable
 -
+input
+-
+event
+-
+activation
+-
+protection
+'
+          
+'
+-
+-
+disable
+-
 lacros
 -
 keep
@@ -870,6 +890,16 @@ field
 trial
 -
 config
+'
+          
+'
+-
+-
+enable
+-
+logging
+=
+stderr
 '
           
 '
@@ -1084,7 +1114,6 @@ assertListEqual
 [
             
 command
-            
 '
 -
 -
@@ -1144,6 +1173,21 @@ ash_chrome_args
 [
 0
 ]
+            
+'
+-
+-
+unique
+-
+ash
+-
+dir
+=
+/
+tmp
+/
+unique
+'
         
 ]
 test_args
@@ -2005,6 +2049,12 @@ tmp
 ash
 -
 data
+'
+'
+/
+tmp
+/
+unique
 '
 ]
 )

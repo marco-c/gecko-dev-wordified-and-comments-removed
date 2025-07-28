@@ -303,7 +303,7 @@ crbug
 .
 com
 /
-1329611
+40226863
 )
 :
 Internal
@@ -316,7 +316,7 @@ included
 in
 #
 the
-targets_and_headers
+targets_and_args
 metadata
 .
 .
@@ -1087,7 +1087,7 @@ crbug
 .
 com
 /
-1329611
+40226863
 )
 :
 Can
@@ -1234,7 +1234,7 @@ Calculating
 the
 -
 -
-targets_and_headers
+targets_and_args
 snippet
 for
 the
@@ -1298,13 +1298,13 @@ inside
 #
 -
 -
-targets_and_headers
+targets_and_args
 cmdline
 argument
 of
 rs_bindings_from_cc
 .
-crubit_target_and_headers
+crubit_target_and_args
 =
 [
 {
@@ -1387,7 +1387,7 @@ targets
 -
 and
 -
-headers
+args
 data
 from
 *
@@ -1454,7 +1454,7 @@ data_keys
 =
 [
 "
-crubit_target_and_headers
+crubit_target_and_args
 "
 ]
 #
@@ -1827,7 +1827,7 @@ _rebased_public_headers
 "
 -
 -
-targets_and_headers_from_gn
+targets_and_args_from_gn
 "
 rebase_path
 (

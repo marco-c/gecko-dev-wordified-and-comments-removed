@@ -151,6 +151,10 @@ from
 util
 import
 resource_utils
+import
+action_helpers
+import
+zip_helpers
 _TEMPLATE
 =
 "
@@ -273,16 +277,18 @@ strings
 xml
 '
   
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-      
 out_zip
+                                  
 zip_path
+                                  
 data
 =
 locale_data
+                                  
 compress
 =
 False
@@ -379,9 +385,9 @@ parse_args
   
 locale_list
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
@@ -407,9 +413,9 @@ empty
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 args
 .

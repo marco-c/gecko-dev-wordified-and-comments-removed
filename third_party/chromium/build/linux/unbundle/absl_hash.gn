@@ -102,6 +102,14 @@ system_absl_hash
 source_set
 (
 "
+hash_instantiated_test
+"
+)
+{
+}
+source_set
+(
+"
 hash_test
 "
 )

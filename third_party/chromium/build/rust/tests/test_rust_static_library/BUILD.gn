@@ -51,6 +51,9 @@ test_rust_static_library
 "
 )
 {
+allow_unsafe
+=
+true
 sources
 =
 [

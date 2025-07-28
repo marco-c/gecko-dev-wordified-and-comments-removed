@@ -31,6 +31,10 @@ from
 util
 import
 build_utils
+import
+action_helpers
+import
+zip_helpers
 _ANDROID_BUILD_DIR
 =
 os
@@ -428,9 +432,9 @@ ArgumentParser
 (
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -833,9 +837,9 @@ options
 .
 jars
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -846,9 +850,9 @@ options
 .
 dependencies_res_zips
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -860,9 +864,9 @@ options
 .
 r_text_files
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -873,10 +877,11 @@ options
 .
 proguard_configs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
+      
 options
 .
 proguard_configs
@@ -886,10 +891,11 @@ options
 .
 native_libraries
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
+      
 options
 .
 native_libraries
@@ -899,9 +905,9 @@ options
 .
 jar_excluded_globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -913,9 +919,9 @@ options
 .
 jar_included_globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -927,9 +933,9 @@ options
 .
 resource_included_globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -969,17 +975,18 @@ as
 z
 :
         
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-            
 z
+                                        
 '
 AndroidManifest
 .
 xml
 '
+                                        
 src_path
 =
 options
@@ -1012,32 +1019,35 @@ as
 jar_file
 :
           
-build_utils
+zip_helpers
 .
-MergeZips
+merge_zips
 (
-              
 jar_file
 .
 name
+                                 
 options
 .
 jars
+                                 
 path_transform
 =
 path_transform
 )
           
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
 z
+                                          
 '
 classes
 .
 jar
 '
+                                          
 src_path
 =
 jar_file
@@ -1045,36 +1055,36 @@ jar_file
 name
 )
         
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-            
 z
-            
+                                        
 '
 R
 .
 txt
 '
-            
+                                        
 data
 =
 _MergeRTxt
 (
+                                            
 options
 .
 r_text_files
-                            
+                                            
 options
 .
 resource_included_globs
 )
 )
         
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
 z
 '
@@ -1094,22 +1104,23 @@ options
 proguard_configs
 :
           
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-              
 z
+                                          
 '
 proguard
 .
 txt
 '
-              
+                                          
 data
 =
 _MergeProguardConfigs
 (
+                                              
 options
 .
 proguard_configs
@@ -1147,12 +1158,12 @@ basename
 native_library
 )
           
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-              
 z
+                                          
 os
 .
 path
@@ -1165,9 +1176,10 @@ jni
 options
 .
 abi
+                                                       
 libname
 )
-              
+                                          
 src_path
 =
 native_library
@@ -1226,9 +1238,9 @@ options
 proguard_configs
 )
     
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .

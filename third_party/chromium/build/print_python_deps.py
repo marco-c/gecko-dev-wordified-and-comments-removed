@@ -42,7 +42,7 @@ argparse
 import
 os
 import
-pipes
+shlex
 import
 sys
 _SRC_ROOT
@@ -522,7 +522,7 @@ return
 .
 join
 (
-pipes
+shlex
 .
 quote
 (

@@ -178,7 +178,7 @@ build
 /
 config
 /
-mac
+apple
 :
 strip_all
 config

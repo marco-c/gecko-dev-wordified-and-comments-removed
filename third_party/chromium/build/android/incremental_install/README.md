@@ -458,6 +458,16 @@ bin
 /
 chrome_public_apk
 uninstall
+*
+AppComponentFactory
+.
+instantiateClassLoader
+(
+)
+is
+not
+supported
+.
 #
 #
 The

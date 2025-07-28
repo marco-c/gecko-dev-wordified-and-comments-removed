@@ -86,6 +86,11 @@ main
 .
 rs
 "
+sources
+=
+[
+crate_root
+]
 deps
 =
 [
@@ -99,8 +104,6 @@ build
 rust
 /
 std
-:
-prebuilt_std_for_rustc
 "
 ]
 }

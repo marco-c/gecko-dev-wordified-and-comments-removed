@@ -8,6 +8,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 sys
 .
 path
@@ -114,9 +116,9 @@ m
 for
 p
 in
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 m
 .

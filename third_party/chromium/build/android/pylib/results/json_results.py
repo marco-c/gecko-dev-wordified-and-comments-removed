@@ -8,8 +8,6 @@ import
 logging
 import
 time
-import
-six
 from
 pylib
 .
@@ -220,20 +218,10 @@ GetDuration
 output_snippet
 '
 :
-six
-.
-ensure_text
-(
 r
 .
 GetLog
 (
-)
-errors
-=
-'
-replace
-'
 )
           
 '
@@ -283,11 +271,10 @@ union
 (
 set
 (
-six
-.
-iterkeys
-(
 iteration_data
+.
+keys
+(
 )
 )
 )
@@ -1127,11 +1114,10 @@ for
 test
 test_runs
 in
-six
-.
-iteritems
-(
 testsuite_run
+.
+items
+(
 )
 :
       

@@ -165,10 +165,7 @@ libs
 =
 [
 "
-:
-libffi_pic
-.
-a
+ffi_pic
 "
 ]
 }

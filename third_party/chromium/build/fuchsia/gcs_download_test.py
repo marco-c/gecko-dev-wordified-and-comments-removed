@@ -3,8 +3,6 @@ os
 import
 subprocess
 import
-sys
-import
 tarfile
 import
 unittest
@@ -427,7 +425,8 @@ r
 '
 .
 *
-python
+python3
+?
 \
 s
 .

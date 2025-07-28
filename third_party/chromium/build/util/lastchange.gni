@@ -51,7 +51,8 @@ declare_args
 {
 use_dummy_lastchange
 =
-false
+!
+is_official_build
 }
 if
 (

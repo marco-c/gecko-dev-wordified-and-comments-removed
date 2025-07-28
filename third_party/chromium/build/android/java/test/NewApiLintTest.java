@@ -10,7 +10,7 @@ Application
 ;
 public
 class
-NewApiTest
+NewApiLintTest
 extends
 Application
 {

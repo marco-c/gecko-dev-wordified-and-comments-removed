@@ -5,6 +5,8 @@ json
 import
 os
 import
+pathlib
+import
 socket
 SOCKET_ADDRESS
 =
@@ -223,6 +225,17 @@ False
       
 raise
 e
+  
+pathlib
+.
+Path
+(
+stamp_file
+)
+.
+touch
+(
+)
   
 return
 True

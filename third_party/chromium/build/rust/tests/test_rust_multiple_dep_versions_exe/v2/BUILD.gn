@@ -51,6 +51,11 @@ test_lib
 "
 )
 {
+crate_name
+=
+"
+test_lib
+"
 #
 This
 crate

@@ -129,10 +129,10 @@ textwrap
 .
 dedent
 (
+r
 "
 "
 "
-\
     
 import
 os
@@ -215,7 +215,7 @@ m
 =
 _WRAPPED_PATH_RE
 .
-match
+search
 (
 arg
 )
@@ -223,6 +223,30 @@ arg
 if
 m
 :
+        
+head
+=
+arg
+[
+:
+m
+.
+start
+(
+)
+]
+        
+tail
+=
+arg
+[
+m
+.
+end
+(
+)
+:
+]
         
 relpath
 =
@@ -483,6 +507,8 @@ this
 .
           
 return
+head
++
 '
 .
 '
@@ -494,9 +520,15 @@ path
 sep
 +
 npath
++
+tail
         
 return
+head
++
 npath
++
+tail
       
 return
 arg

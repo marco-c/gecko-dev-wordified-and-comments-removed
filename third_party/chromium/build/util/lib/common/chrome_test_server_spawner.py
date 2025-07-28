@@ -63,13 +63,20 @@ import
 threading
 import
 time
-from
-six
-.
-moves
 import
-BaseHTTPServer
 urllib
+from
+http
+.
+server
+import
+BaseHTTPRequestHandler
+from
+http
+.
+server
+import
+HTTPServer
 SERVER_TYPES
 =
 {
@@ -1771,8 +1778,6 @@ wait
 class
 SpawningServerRequestHandler
 (
-BaseHTTPServer
-.
 BaseHTTPRequestHandler
 )
 :
@@ -2962,8 +2967,6 @@ self
 .
 server
 =
-BaseHTTPServer
-.
 HTTPServer
 (
 (
@@ -2971,7 +2974,7 @@ HTTPServer
 '
 test_server_spawner_port
 )
-                                            
+                             
 SpawningServerRequestHandler
 )
     

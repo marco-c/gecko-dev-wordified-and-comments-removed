@@ -722,7 +722,7 @@ exec_script
 pkg_config_script
 args
 "
-value
+json
 "
 )
 cflags
@@ -738,11 +738,6 @@ pkgresult
 [
 0
 ]
-)
-{
-if
-(
-use_sysroot
 )
 {
 #
@@ -768,6 +763,11 @@ in
 those
 headers
 .
+if
+(
+use_sysroot
+)
+{
 include_relativized
 =
 rebase_path
@@ -794,7 +794,7 @@ cflags
 [
 "
 -
-I
+isystem
 include
 "
 ]

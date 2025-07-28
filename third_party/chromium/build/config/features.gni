@@ -231,7 +231,7 @@ build
 /
 config
 /
-chrome_build
+cast
 .
 gni
 "
@@ -247,7 +247,7 @@ build
 /
 config
 /
-chromecast_build
+chrome_build
 .
 gni
 "
@@ -363,6 +363,9 @@ is_castos
 |
 |
 is_cast_android
+|
+|
+is_chrome_for_testing_branded
 #
 libudev
 usage

@@ -43,6 +43,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 _FLAGS_PATH
 =
 (
@@ -275,28 +277,11 @@ ArgumentParser
 (
 )
   
-parser
+action_helpers
 .
-add_argument
+add_depfile_arg
 (
-      
-'
--
--
-depfile
-'
-required
-=
-True
-help
-=
-'
-Path
-to
-output
-depfile
-.
-'
+parser
 )
   
 parser
@@ -606,9 +591,9 @@ args
 stamp
 )
   
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 args
 .

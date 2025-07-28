@@ -109,3 +109,11 @@ system_absl_time
 "
 ]
 }
+source_set
+(
+"
+time_test
+"
+)
+{
+}

@@ -10,6 +10,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 def
 _ParseArgs
 (
@@ -359,9 +361,9 @@ options
 .
 resources_config_paths
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options

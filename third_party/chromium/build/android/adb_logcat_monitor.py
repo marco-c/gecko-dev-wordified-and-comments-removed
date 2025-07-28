@@ -249,13 +249,27 @@ process
 stderr
 :
       
+line_str
+=
+line
+.
+decode
+(
+'
+utf8
+'
+'
+replace
+'
+)
+      
 if
 not
 error_filter
 .
 match
 (
-line
+line_str
 )
 :
         
@@ -269,7 +283,7 @@ device_id
 :
 '
 +
-line
+line_str
 )
   
 logging
@@ -965,17 +979,6 @@ __name__
 __main__
 '
 :
-  
-logging
-.
-basicConfig
-(
-level
-=
-logging
-.
-INFO
-)
   
 if
 2

@@ -19,8 +19,6 @@ import
 subprocess
 import
 sys
-import
-time
 from
 contextlib
 import
@@ -34,6 +32,7 @@ TextIO
 from
 common
 import
+catch_sigterm
 read_package_paths
 register_common_args
 \
@@ -42,7 +41,12 @@ register_device_args
 run_continuous_ffx_command
 \
                    
-run_ffx_command
+stop_ffx_daemon
+wait_for_sigterm
+from
+compatible_utils
+import
+running_unattended
 from
 ffx_integration
 import
@@ -157,19 +161,15 @@ __enter__
 (
 )
             
-run_ffx_command
+if
+not
+running_unattended
 (
-(
-'
-daemon
-'
-'
-stop
-'
 )
-check
-=
-False
+:
+                
+stop_ffx_daemon
+(
 )
         
 return
@@ -427,19 +427,15 @@ exc_value
 traceback
 )
             
-run_ffx_command
+if
+not
+running_unattended
 (
-(
-'
-daemon
-'
-'
-stop
-'
 )
-check
-=
-False
+:
+                
+stop_ffx_daemon
+(
 )
 def
 start_system_log
@@ -671,7 +667,17 @@ log
 '
 -
 -
-raw
+symbolize
+'
+'
+off
+'
+'
+-
+-
+no
+-
+color
 '
 ]
     
@@ -791,6 +797,10 @@ C
 "
 "
 "
+    
+catch_sigterm
+(
+)
     
 parser
 =
@@ -920,40 +930,21 @@ as
 log_manager
 :
         
-try
-:
-            
 start_system_log
 (
 log_manager
 True
 package_paths
 system_log_args
-                             
+                         
 manager_args
 .
 target_id
 )
-            
-while
-True
-:
-                
-time
-.
-sleep
-(
-10000
-)
         
-except
+wait_for_sigterm
 (
-KeyboardInterrupt
-SystemExit
 )
-:
-            
-pass
 if
 __name__
 =

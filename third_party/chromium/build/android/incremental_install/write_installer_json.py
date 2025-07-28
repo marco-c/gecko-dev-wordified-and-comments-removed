@@ -60,6 +60,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 def
 _ParseArgs
 (
@@ -317,9 +319,9 @@ options
 .
 dex_files
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -330,9 +332,9 @@ options
 .
 native_libs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -402,9 +404,9 @@ split_globs
 }
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 options
 .

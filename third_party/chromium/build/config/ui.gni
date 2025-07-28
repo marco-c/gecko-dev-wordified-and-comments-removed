@@ -255,7 +255,7 @@ build
 /
 config
 /
-chromecast_build
+cast
 .
 gni
 "

@@ -5,17 +5,11 @@ os
 import
 shutil
 import
-subprocess
-import
 tempfile
 import
 unittest
 import
 binary_sizes
-from
-common
-import
-DIR_SOURCE_ROOT
 _EXAMPLE_BLOBS
 =
 "

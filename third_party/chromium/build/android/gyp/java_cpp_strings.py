@@ -16,6 +16,10 @@ from
 util
 import
 java_cpp_utils
+import
+action_helpers
+import
+zip_helpers
 class
 StringParserDelegate
 (
@@ -38,7 +42,19 @@ r
 \
 s
 *
+(
+?
+:
+inline
+)
+?
 const
+(
+?
+:
+expr
+)
+?
 char
 k
 (
@@ -581,9 +597,9 @@ argv
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 args
 .
@@ -623,9 +639,9 @@ args
 template
 )
       
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
 srcjar
 path

@@ -41,9 +41,6 @@ depot_tools
 "
 "
 "
-USE_PYTHON3
-=
-True
 import
 os
 def
@@ -180,18 +177,6 @@ output_api
 unit_tests
 =
 unit_tests
-                                           
-run_on_python2
-=
-False
-                                           
-run_on_python3
-=
-True
-                                           
-skip_shebang_check
-=
-True
 )
 )
   

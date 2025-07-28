@@ -1,7 +1,5 @@
 import
 unittest
-import
-six
 from
 pylib
 .
@@ -915,14 +913,13 @@ for
 test_name
 iteration_result
 in
-six
-.
-iteritems
-(
 iterations
 [
 0
 ]
+.
+items
+(
 )
 :
       

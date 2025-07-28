@@ -42,6 +42,6 @@ symbol_level
 =
 2
 #
-use_goma
+use_remoteexec
 =
 false

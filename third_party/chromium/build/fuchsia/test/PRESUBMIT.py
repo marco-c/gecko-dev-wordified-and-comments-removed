@@ -49,9 +49,6 @@ depot_tools
 "
 "
 "
-USE_PYTHON3
-=
-True
 _EXTRA_PATHS_COMPONENTS
 =
 [
@@ -68,6 +65,16 @@ input_api
 output_api
 )
 :
+    
+if
+input_api
+.
+is_windows
+:
+        
+return
+[
+]
     
 tests
 =

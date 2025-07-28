@@ -92,7 +92,7 @@ using
 distributed
 build
 like
-goma
+rbe
 )
 .
 bundle_pool_depth

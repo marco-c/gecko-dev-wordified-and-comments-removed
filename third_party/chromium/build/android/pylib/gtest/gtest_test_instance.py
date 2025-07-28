@@ -1,4 +1,8 @@
 import
+html
+.
+parser
+import
 json
 import
 logging
@@ -16,8 +20,6 @@ xml
 etree
 .
 ElementTree
-import
-six
 from
 devil
 .
@@ -65,10 +67,14 @@ SysPath
 (
 host_paths
 .
-BUILD_COMMON_PATH
+BUILD_UTIL_PATH
 )
 :
   
+from
+lib
+.
+common
 import
 unittest_util
 BROWSER_TEST_SUITES
@@ -89,6 +95,10 @@ components_browsertests
     
 '
 content_browsertests
+'
+    
+'
+weblayer_browsertests
 '
 ]
 MAX_SHARDS
@@ -533,6 +543,8 @@ r
 '
 \
 [
+.
+*
 ERROR
 :
 .
@@ -594,6 +606,27 @@ compile
 r
 '
 FLAKY_
+'
+)
+_RE_ANY_TESTS_FAILED
+=
+re
+.
+compile
+(
+r
+'
+\
+[
++
+FAILED
++
+\
+]
+.
+*
+listed
+below
 '
 )
 _STACK_LINE_RE
@@ -1304,6 +1337,17 @@ l
 )
     
 if
+_RE_ANY_TESTS_FAILED
+.
+match
+(
+l
+)
+:
+      
+break
+    
+if
 result_type
 and
 test_name
@@ -1353,6 +1397,9 @@ test_name
 =
 None
   
+else
+:
+    
 handle_possibly_unknown_test
 (
 )
@@ -1391,13 +1438,11 @@ xml_content
 return
 results
   
-html
-=
-six
-.
-moves
-.
 html_parser
+=
+html
+.
+parser
 .
 HTMLParser
 (
@@ -1481,7 +1526,7 @@ log
 .
 append
 (
-html
+html_parser
 .
 unescape
 (
@@ -1789,11 +1834,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 value
+.
+items
+(
 )
 ]
   
@@ -1940,6 +1984,13 @@ gtest
 suite
 '
 )
+    
+self
+.
+_additional_apks
+=
+[
+]
     
 self
 .
@@ -2295,6 +2346,28 @@ GetActivityName
 }
       
 if
+args
+.
+timeout_scale
+and
+args
+.
+timeout_scale
+!
+=
+1
+:
+        
+self
+.
+_extras
+[
+_EXTRA_RUN_IN_SUB_THREAD
+]
+=
+1
+      
+if
 self
 .
 _suite
@@ -2403,6 +2476,60 @@ self
 _suite
 )
     
+for
+x
+in
+args
+.
+additional_apks
+:
+      
+if
+not
+os
+.
+path
+.
+exists
+(
+x
+)
+:
+        
+error_func
+(
+'
+Could
+not
+find
+additional
+APK
+:
+%
+s
+'
+%
+x
+)
+      
+apk
+=
+apk_helper
+.
+ToHelper
+(
+x
+)
+      
+self
+.
+_additional_apks
+.
+append
+(
+apk
+)
+    
 self
 .
 _data_deps
@@ -2428,6 +2555,14 @@ _run_disabled
 args
 .
 run_disabled
+    
+self
+.
+_run_pre_tests
+=
+args
+.
+run_pre_tests
     
 self
 .
@@ -2677,6 +2812,20 @@ _apk_helper
 GetActivityName
 (
 )
+  
+property
+  
+def
+additional_apks
+(
+self
+)
+:
+    
+return
+self
+.
+_additional_apks
   
 property
   
@@ -3100,6 +3249,20 @@ self
 .
 _use_existing_test_data
   
+property
+  
+def
+run_pre_tests
+(
+self
+)
+:
+    
+return
+self
+.
+_run_pre_tests
+  
 def
 TestType
 (
@@ -3489,9 +3652,6 @@ disabled_prefixes
 '
 FAILS_
 '
-'
-PRE_
-'
 ]
       
 if
@@ -3534,6 +3694,22 @@ DISABLED_
 '
 '
 FLAKY_
+'
+]
+      
+if
+not
+self
+.
+_run_pre_tests
+:
+        
+disabled_prefixes
++
+=
+[
+'
+PRE_
 '
 ]
     

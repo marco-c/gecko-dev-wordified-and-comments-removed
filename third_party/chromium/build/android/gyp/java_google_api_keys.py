@@ -12,6 +12,8 @@ from
 util
 import
 build_utils
+import
+zip_helpers
 sys
 .
 path
@@ -461,9 +463,9 @@ GenerateOutput
 constant_definition
 )
     
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
 srcjar
 path

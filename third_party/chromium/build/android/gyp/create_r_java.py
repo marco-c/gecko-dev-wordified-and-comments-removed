@@ -32,6 +32,10 @@ from
 util
 import
 resource_utils
+import
+action_helpers
+import
+zip_helpers
 def
 _ConcatRTxts
 (
@@ -193,11 +197,22 @@ ignore_mismatched_values
 True
 )
     
-build_utils
+with
+action_helpers
 .
-ZipDir
+atomic_output
 (
 srcjar_out
+)
+as
+f
+:
+      
+zip_helpers
+.
+zip_directory
+(
+f
 build
 .
 srcjar_dir
@@ -228,9 +243,9 @@ srcjar
 '
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -338,9 +353,9 @@ options
 .
 deps_rtxts
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -360,18 +375,18 @@ options
 srcjar_out
 )
   
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .
 depfile
-                           
+                               
 options
 .
 srcjar_out
-                           
+                               
 inputs
 =
 options

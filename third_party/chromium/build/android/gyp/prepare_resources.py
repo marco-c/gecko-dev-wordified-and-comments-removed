@@ -50,6 +50,10 @@ from
 util
 import
 resource_utils
+import
+action_helpers
+import
+zip_helpers
 def
 _ParseArgs
 (
@@ -97,9 +101,9 @@ description
 __doc__
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -733,9 +737,9 @@ resource_utils
 .
 MULTIPLE_RES_MAGIC_STRING
     
-build_utils
+zip_helpers
 .
-DoZip
+add_files_to_zip
 (
 files_to_zip
 z

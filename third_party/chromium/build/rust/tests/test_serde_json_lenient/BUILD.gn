@@ -70,6 +70,9 @@ lib
 .
 rs
 "
+allow_unsafe
+=
+true
 sources
 =
 [
@@ -100,7 +103,7 @@ rust
 /
 serde_json_lenient
 /
-v0_1
+v0_2
 :
 lib
 "
@@ -109,15 +112,11 @@ lib
 #
 TODO
 (
-https
-:
-/
-/
 crbug
 .
 com
 /
-1278030
+40809974
 )
 -
 convert

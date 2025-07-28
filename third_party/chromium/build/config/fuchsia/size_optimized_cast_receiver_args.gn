@@ -202,7 +202,7 @@ true
 enable_dav1d_decoder
 =
 false
-enable_v8_compile_hints
+produce_v8_compile_hints
 =
 false
 #
@@ -224,7 +224,7 @@ crbug
 .
 com
 /
-1363742
+40238815
 )
 :
 Fix
@@ -257,9 +257,6 @@ false
 enable_plugins
 =
 false
-optimize_for_size
-=
-true
 optional_trace_events_enabled
 =
 false

@@ -95,6 +95,10 @@ import
 subprocess
 import
 sys
+import
+action_helpers
+import
+zip_helpers
 sys
 .
 path
@@ -233,9 +237,9 @@ ArgumentParser
 (
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -685,13 +689,24 @@ java_out_dir
 else
 :
       
-build_utils
+with
+action_helpers
 .
-ZipDir
+atomic_output
 (
 options
 .
 srcjar
+)
+as
+f
+:
+        
+zip_helpers
+.
+zip_directory
+(
+f
 temp_dir
 )
   
@@ -718,9 +733,9 @@ options
 protoc
 ]
     
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .

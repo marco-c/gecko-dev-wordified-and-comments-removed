@@ -23,6 +23,10 @@ from
 util
 import
 build_utils
+import
+action_helpers
+import
+zip_helpers
 def
 main
 (
@@ -124,9 +128,9 @@ output
 '
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 option_parser
 )
@@ -149,9 +153,9 @@ options
 .
 includes
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -224,7 +228,7 @@ aidl_cmd
 +
 =
 [
-        
+          
 '
 -
 p
@@ -234,9 +238,9 @@ s
 for
 s
 in
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -282,9 +286,9 @@ aidl_cmd
 )
     
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 options
 .
@@ -411,9 +415,9 @@ path
 )
 )
           
-build_utils
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
 srcjar
 arcname
@@ -456,9 +460,9 @@ java
 '
 )
     
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .

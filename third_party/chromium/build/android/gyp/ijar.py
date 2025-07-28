@@ -10,6 +10,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 _EMPTY_JAR_SIZE
 =
 22
@@ -73,9 +75,9 @@ argv
 ]
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 out_jar
 )

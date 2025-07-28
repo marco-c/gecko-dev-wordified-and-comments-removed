@@ -262,6 +262,15 @@ remoting_me2me_host_static
 remoting
 /
 host
+:
+x11_display_utils
+"
+"
+/
+/
+remoting
+/
+host
 /
 file_transfer
 "

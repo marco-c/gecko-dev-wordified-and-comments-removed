@@ -15,10 +15,6 @@ import
 binary_size_differ
 import
 binary_sizes
-from
-common
-import
-DIR_SOURCE_ROOT
 _EXAMPLE_BLOBS_BEFORE
 =
 "

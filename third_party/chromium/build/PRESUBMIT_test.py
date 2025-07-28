@@ -41,9 +41,6 @@ PRESUBMIT_test_mocks
 import
 MockInputApi
 MockOutputApi
-USE_PYTHON3
-=
-True
 def
 _fails_deps_check
 (

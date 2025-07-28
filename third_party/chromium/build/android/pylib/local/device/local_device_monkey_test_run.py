@@ -1,12 +1,6 @@
 import
 logging
 from
-six
-.
-moves
-import
-range
-from
 devil
 .
 android

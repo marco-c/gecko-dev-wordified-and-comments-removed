@@ -142,6 +142,13 @@ sysmem
 .
 Allocator
 "
+"
+fuchsia
+.
+sysmem2
+.
+Allocator
+"
 ]
 from
 :

@@ -455,6 +455,14 @@ optional_test
 source_set
 (
 "
+span_test
+"
+)
+{
+}
+source_set
+(
+"
 variant_test
 "
 )

@@ -47,9 +47,6 @@ depot_tools
 "
 "
 "
-USE_PYTHON3
-=
-True
 PRESUBMIT_VERSION
 =
 '
@@ -198,14 +195,6 @@ _GetSkiaGoldEnv
 (
 input_api
 )
-      
-run_on_python2
-=
-False
-      
-skip_shebang_check
-=
-True
 )
 def
 CheckPylint

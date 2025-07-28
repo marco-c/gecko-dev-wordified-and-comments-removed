@@ -27,6 +27,8 @@ from
 util
 import
 build_utils
+import
+action_helpers
 SCRIPT_TEMPLATE
 =
 string
@@ -246,6 +248,12 @@ default_modules
 =
 {
 DEFAULT_MODULES
+}
+                              
+is_official_build
+=
+{
+IS_OFFICIAL_BUILD
 }
 )
 if
@@ -570,6 +578,26 @@ default
 ]
 )
   
+parser
+.
+add_argument
+(
+'
+-
+-
+is
+-
+official
+-
+build
+'
+action
+=
+'
+store_true
+'
+)
+  
 args
 =
 parser
@@ -865,9 +893,9 @@ SYSTEM_IMAGE_LOCALES
         
 repr
 (
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
@@ -885,6 +913,18 @@ repr
 args
 .
 default_modules
+)
+        
+'
+IS_OFFICIAL_BUILD
+'
+:
+        
+repr
+(
+args
+.
+is_official_build
 )
     
 }

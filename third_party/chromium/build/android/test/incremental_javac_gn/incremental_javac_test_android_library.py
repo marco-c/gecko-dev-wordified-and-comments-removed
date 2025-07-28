@@ -770,7 +770,7 @@ true
 '
       
 '
-use_goma
+use_remoteexec
 =
 false
 '
