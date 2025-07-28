@@ -1487,6 +1487,9 @@ searchTermParamName
 "
 test2
 "
+displayName
+=
+null
 )
 searchEngineDefinition
 .
@@ -1555,6 +1558,9 @@ searchTermParamName
 "
 test3
 "
+displayName
+=
+null
 )
 val
 searchEngine
@@ -2432,6 +2438,9 @@ emptyList
 searchTermParamName
 =
 null
+displayName
+=
+null
 )
 suggestions
 =
@@ -2440,6 +2449,9 @@ trending
 =
 null
 searchForm
+=
+null
+visualSearch
 =
 null
 )
