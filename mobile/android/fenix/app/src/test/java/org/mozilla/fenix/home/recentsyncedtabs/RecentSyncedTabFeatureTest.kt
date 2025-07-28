@@ -305,7 +305,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -916,7 +916,7 @@ coVerify
 {
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 refreshDevices
 (

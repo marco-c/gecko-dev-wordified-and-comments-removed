@@ -215,7 +215,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -593,7 +593,7 @@ constellation
 state
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 refreshDevices
 (

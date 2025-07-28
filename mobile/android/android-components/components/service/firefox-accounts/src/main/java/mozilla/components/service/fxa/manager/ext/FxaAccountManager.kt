@@ -128,7 +128,7 @@ inline
 fun
 FxaAccountManager
 .
-withConstellation
+withConstellationIfExists
 (
 block
 :

@@ -267,7 +267,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -740,7 +740,7 @@ Device
 {
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 return
 state

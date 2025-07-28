@@ -125,7 +125,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -356,7 +356,7 @@ mock
 )
 accountManager
 .
-withConstellation
+withConstellationIfExists
 (
 block
 )
@@ -400,7 +400,7 @@ constellation
 )
 accountManager
 .
-withConstellation
+withConstellationIfExists
 (
 block
 )

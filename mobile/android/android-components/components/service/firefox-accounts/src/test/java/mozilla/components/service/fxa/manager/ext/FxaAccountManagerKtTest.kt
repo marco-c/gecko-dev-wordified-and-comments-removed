@@ -195,7 +195,7 @@ mock
 )
 accountManager
 .
-withConstellation
+withConstellationIfExists
 (
 block
 )
@@ -239,7 +239,7 @@ constellation
 )
 accountManager
 .
-withConstellation
+withConstellationIfExists
 (
 block
 )

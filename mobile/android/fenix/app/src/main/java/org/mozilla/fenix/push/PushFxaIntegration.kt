@@ -187,7 +187,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 org
 .
@@ -919,7 +919,7 @@ lazyAccount
 .
 value
 .
-withConstellation
+withConstellationIfExists
 {
 MainScope
 (

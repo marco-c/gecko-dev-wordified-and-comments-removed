@@ -299,7 +299,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -1805,7 +1805,7 @@ message
 return
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 CoroutineScope
 (

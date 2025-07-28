@@ -157,7 +157,7 @@ manager
 .
 ext
 .
-withConstellation
+withConstellationIfExists
 import
 mozilla
 .
@@ -234,7 +234,7 @@ launch
 {
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 val
 syncedDeviceTabs
@@ -374,7 +374,7 @@ launch
 {
 accountManager
 .
-withConstellation
+withConstellationIfExists
 {
 refreshDevices
 (
