@@ -26,7 +26,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -1071,7 +1071,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -1513,7 +1513,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -1854,7 +1854,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -2374,6 +2374,7 @@ action
 target_name
 }
 __helper
+"
 )
 {
 forward_variables_from
@@ -2472,7 +2473,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /

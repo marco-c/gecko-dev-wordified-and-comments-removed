@@ -7,18 +7,10 @@ bash
 #
 #
 Copyright
-(
-c
-)
 2012
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -2322,7 +2314,7 @@ CHROMIUM_SRC
 build
 /
 android
-python
+python3
 -
 c
 \
@@ -2335,7 +2327,9 @@ import
 ANDROID_NDK_ROOT
 ;
 print
+(
 ANDROID_NDK_ROOT
+)
 '
 )
 else

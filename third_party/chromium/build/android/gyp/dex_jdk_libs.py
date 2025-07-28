@@ -382,7 +382,7 @@ cmd
                             
 print_stdout
 =
-True
+False
                             
 fail_on_output
 =

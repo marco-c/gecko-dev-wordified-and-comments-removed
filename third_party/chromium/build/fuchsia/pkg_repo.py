@@ -1216,7 +1216,6 @@ format
 rule
 )
 ]
-silent
 )
     
 if

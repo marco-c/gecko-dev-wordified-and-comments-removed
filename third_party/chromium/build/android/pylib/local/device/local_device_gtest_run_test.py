@@ -145,25 +145,33 @@ self
 .
 assertEqual
 (
-[
         
+set
+(
+[
+            
+'
+m4e3
+'
+            
+'
+p51
+'
+            
 '
 b17
 '
         
-'
-m4e3
-'
-        
-'
-p51
-'
-    
 ]
+)
+        
+set
+(
 local_device_gtest_run
 .
-_ExtractTestsFromFilter
+_ExtractTestsFromFilters
 (
+[
 '
 b17
 :
@@ -171,6 +179,8 @@ m4e3
 :
 p51
 '
+]
+)
 )
 )
     
@@ -180,12 +190,14 @@ assertIsNone
 (
 local_device_gtest_run
 .
-_ExtractTestsFromFilter
+_ExtractTestsFromFilters
 (
+[
 '
 -
 mk2
 '
+]
 )
 )
     
@@ -196,8 +208,9 @@ assertIsNone
         
 local_device_gtest_run
 .
-_ExtractTestsFromFilter
+_ExtractTestsFromFilters
 (
+[
 '
 .
 mk2
@@ -207,6 +220,7 @@ mk2
 M67
 *
 '
+]
 )
 )
     
@@ -216,12 +230,14 @@ assertIsNone
 (
 local_device_gtest_run
 .
-_ExtractTestsFromFilter
+_ExtractTestsFromFilters
 (
+[
 '
 M67
 *
 '
+]
 )
 )
     
@@ -239,13 +255,52 @@ M67
                      
 local_device_gtest_run
 .
-_ExtractTestsFromFilter
+_ExtractTestsFromFilters
 (
+[
 '
 .
 M67
 *
 '
+]
+)
+)
+    
+self
+.
+assertEqual
+(
+[
+'
+m4e3
+'
+]
+                     
+local_device_gtest_run
+.
+_ExtractTestsFromFilters
+(
+                         
+[
+'
+b17
+:
+m4e3
+:
+p51
+'
+'
+b17
+:
+m4e3
+'
+'
+m4e3
+:
+p51
+'
+]
 )
 )
   

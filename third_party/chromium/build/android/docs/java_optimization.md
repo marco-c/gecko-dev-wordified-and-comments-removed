@@ -762,7 +762,7 @@ checkdiscard
 ]
 :
 /
-base
+build
 /
 android
 /
@@ -774,7 +774,7 @@ org
 /
 chromium
 /
-base
+build
 /
 annotations
 /

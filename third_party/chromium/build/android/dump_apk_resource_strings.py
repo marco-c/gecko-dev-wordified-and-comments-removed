@@ -582,6 +582,7 @@ result
 (
 count
 /
+/
 2
 )
     
@@ -2422,7 +2423,6 @@ _RE_BUNDLE_STRING_LOCALIZED_VALUE
 match
 (
     
-u
 '
 locale
 :
@@ -2438,15 +2438,6 @@ STR
 u200c
 "
 '
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
 def
 ParseBundleResources
@@ -3490,6 +3481,9 @@ while
 True
 :
     
+try
+:
+      
 line
 =
 p
@@ -3503,6 +3497,19 @@ readline
 rstrip
 (
 )
+.
+decode
+(
+'
+utf8
+'
+)
+    
+except
+UnicodeDecodeError
+:
+      
+continue
     
 if
 not

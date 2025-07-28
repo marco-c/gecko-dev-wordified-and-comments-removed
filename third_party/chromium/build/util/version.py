@@ -102,9 +102,7 @@ open
 "
 "
   
-for
-line
-in
+with
 open
 (
 file_name
@@ -112,12 +110,20 @@ file_name
 r
 '
 )
+as
+f
+:
+    
+for
+line
+in
+f
 .
 readlines
 (
 )
 :
-    
+      
 key
 val
 =
@@ -140,7 +146,7 @@ split
 '
 1
 )
-    
+      
 values_dict
 [
 key
@@ -976,19 +982,18 @@ parser
 .
 add_argument
 (
-      
 '
 -
 -
 next
 '
-      
+                      
 action
 =
 '
 store_true
 '
-      
+                      
 help
 =
 '
@@ -1003,7 +1008,7 @@ a
 next
 "
 '
-      
+                      
 '
 build
 which
@@ -1013,10 +1018,8 @@ pre
 release
 versions
 of
-'
-      
-'
 Android
+.
 '
 )
   

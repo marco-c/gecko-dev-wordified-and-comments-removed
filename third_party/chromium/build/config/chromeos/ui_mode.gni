@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -58,7 +53,7 @@ declare_args
 #
 Deprecated
 use
-is_lacros
+is_chromeos_lacros
 .
 #
 #
@@ -128,7 +123,7 @@ variables
 as
 :
 #
-is_lacros
+is_chromeos_lacros
 =
 chromeos_product
 =
@@ -137,7 +132,7 @@ chromeos_product
 browser
 "
 #
-is_ash
+is_chromeos_ash
 =
 chromeos_product
 =

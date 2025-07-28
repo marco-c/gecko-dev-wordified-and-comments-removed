@@ -159,10 +159,10 @@ setup_toolchain
 .
 py
 index
-e680ba07e
+112690a7f
 .
 .
-a5ed5163d
+284438278
 100644
 -
 -
@@ -597,6 +597,11 @@ environment_block_name
 '
 w
 '
+encoding
+=
+'
+utf8
+'
 )
 as
 f
@@ -917,6 +922,11 @@ open
 environment_block_name
 '
 w
+'
+encoding
+=
+'
+utf8
 '
 )
 as

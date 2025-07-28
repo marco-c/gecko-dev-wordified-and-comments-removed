@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -297,7 +292,7 @@ read
 this
 define
 .
-sysroot_hash
+sysroot_key
 =
 exec_script
 (
@@ -324,7 +319,7 @@ py
 -
 print
 -
-hash
+key
 =
 target_cpu
 "
@@ -356,9 +351,9 @@ defines
 =
 [
 "
-CR_SYSROOT_HASH
+CR_SYSROOT_KEY
 =
-sysroot_hash
+sysroot_key
 "
 ]
 }

@@ -43,11 +43,6 @@ from
 util
 import
 zipalign
-zipalign
-.
-ApplyZipFileZipAlignFix
-(
-)
 _NO_COMPRESS_EXTENSIONS
 =
 (

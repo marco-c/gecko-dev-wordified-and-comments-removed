@@ -3076,13 +3076,6 @@ pylib
 /
 utils
 /
-proguard
-.
-py
-pylib
-/
-utils
-/
 repo_utils
 .
 py

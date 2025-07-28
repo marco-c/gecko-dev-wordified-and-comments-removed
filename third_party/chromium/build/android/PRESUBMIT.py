@@ -884,7 +884,7 @@ pylib
 utils
 '
 '
-proguard_test
+test_filter_test
 .
 py
 '
@@ -893,13 +893,10 @@ py
 J
 (
 '
-pylib
+gyp
 '
 '
-utils
-'
-'
-test_filter_test
+dex_test
 .
 py
 '

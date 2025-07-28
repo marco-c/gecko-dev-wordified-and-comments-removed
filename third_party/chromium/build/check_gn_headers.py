@@ -41,10 +41,6 @@ GN
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -742,7 +738,7 @@ targets
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -2137,7 +2133,7 @@ v
 in
 d
 .
-iteritems
+items
 (
 )
 }

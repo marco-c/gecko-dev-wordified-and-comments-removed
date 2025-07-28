@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -452,6 +447,7 @@ rebase_path
 invoker
 .
 generated_dir
+root_build_dir
 )
 }
 else
@@ -483,6 +479,7 @@ third_party
 /
 win_build_output
 "
+root_build_dir
 )
 +
 "

@@ -229,11 +229,6 @@ from
 util
 import
 build_utils
-  
-from
-util
-import
-zipalign
 with
 host_paths
 .
@@ -257,11 +252,6 @@ lib
 results
 import
 result_types
-zipalign
-.
-ApplyZipFileZipAlignFix
-(
-)
 _AAPT_CONFIG_PATTERN
 =
 r

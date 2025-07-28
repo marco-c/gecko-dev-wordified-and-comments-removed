@@ -111,7 +111,15 @@ MissingApplicationIcon
 "
     
 "
+ObsoleteLintCustomCheck
+"
+    
+"
 SwitchIntDef
+"
+    
+"
+Typos
 "
     
 "
@@ -120,10 +128,6 @@ UniqueConstants
     
 "
 UnusedAttribute
-"
-    
-"
-ObsoleteLintCustomCheck
 "
 ]
 _DISABLED_FOR_TESTS
@@ -1047,6 +1051,8 @@ _RunLint
 (
 create_cache
              
+custom_lint_jar_path
+             
 lint_jar_path
              
 backported_methods_path
@@ -1154,6 +1160,10 @@ baseline
 )
 :
     
+creating_baseline
+=
+True
+    
 lint_xmx
 =
 '
@@ -1162,6 +1172,10 @@ lint_xmx
   
 else
 :
+    
+creating_baseline
+=
+False
     
 lint_xmx
 =
@@ -1220,18 +1234,28 @@ lint_xmx
 cp
 '
       
+'
+{
+}
+:
+{
+}
+'
+.
+format
+(
 lint_jar_path
+custom_lint_jar_path
+)
       
 '
-com
+org
 .
-android
+chromium
 .
-tools
+build
 .
-lint
-.
-Main
+CustomLint
 '
       
 '
@@ -1243,6 +1267,18 @@ home
 '
       
 android_sdk_root
+      
+'
+-
+-
+jdk
+-
+home
+'
+      
+build_utils
+.
+JAVA_HOME
       
 '
 -
@@ -1265,6 +1301,12 @@ pathvar_src
 -
 -
 quiet
+'
+      
+'
+-
+-
+stacktrace
 '
       
 '
@@ -1816,38 +1858,6 @@ project
 project_xml_path
 ]
   
-logging
-.
-info
-(
-'
-Preparing
-environment
-variables
-'
-)
-  
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
-  
-env
-[
-'
-LINT_PRINT_STACKTRACE
-'
-]
-=
-'
-true
-'
-  
 stderr_filter
 =
 build_utils
@@ -1902,6 +1912,41 @@ failed
 =
 True
   
+if
+creating_baseline
+and
+not
+warnings_as_errors
+:
+    
+fail_func
+=
+lambda
+returncode
+_
+:
+returncode
+not
+in
+(
+0
+6
+)
+  
+else
+:
+    
+fail_func
+=
+lambda
+returncode
+_
+:
+returncode
+!
+=
+0
+  
 try
 :
     
@@ -1915,10 +1960,6 @@ build_utils
 CheckOutput
 (
 cmd
-                                
-env
-=
-env
                                 
 print_stdout
 =
@@ -1935,6 +1976,10 @@ stderr_filter
 fail_on_output
 =
 warnings_as_errors
+                                
+fail_func
+=
+fail_func
 )
 )
   
@@ -2242,6 +2287,39 @@ help
 Path
 to
 the
+lint
+jar
+.
+'
+)
+  
+parser
+.
+add_argument
+(
+'
+-
+-
+custom
+-
+lint
+-
+jar
+-
+path
+'
+                      
+required
+=
+True
+                      
+help
+=
+'
+Path
+to
+our
+custom
 lint
 jar
 .
@@ -2993,6 +3071,77 @@ args
 classpath
 )
   
+if
+args
+.
+baseline
+:
+    
+assert
+os
+.
+path
+.
+basename
+(
+args
+.
+baseline
+)
+=
+=
+'
+lint
+-
+baseline
+.
+xml
+'
+(
+        
+'
+The
+baseline
+file
+needs
+to
+be
+named
+"
+lint
+-
+baseline
+.
+xml
+"
+in
+order
+for
+'
+        
+'
+the
+autoroller
+to
+find
+and
+update
+it
+whenever
+lint
+is
+rolled
+to
+a
+new
+'
+        
+'
+version
+.
+'
+)
+  
 return
 args
 def
@@ -3165,6 +3314,10 @@ _RunLint
 args
 .
 create_cache
+           
+args
+.
+custom_lint_jar_path
            
 args
 .

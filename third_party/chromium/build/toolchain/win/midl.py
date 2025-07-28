@@ -11,10 +11,6 @@ array
 import
 difflib
 import
-distutils
-.
-dir_util
-import
 filecmp
 import
 io

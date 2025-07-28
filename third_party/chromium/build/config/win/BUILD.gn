@@ -1,17 +1,9 @@
 #
 Copyright
-(
-c
-)
 2013
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of

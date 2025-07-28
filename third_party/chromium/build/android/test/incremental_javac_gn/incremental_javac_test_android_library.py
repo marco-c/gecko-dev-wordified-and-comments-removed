@@ -779,12 +779,21 @@ false
   
 _copy_and_append_gn_args
 (
+      
 options
 .
 gn_args_path
 out_gn_args_path
-                           
+      
 extra_gn_args
++
+[
+'
+incremental_javac_test_toggle_gn
+=
+false
+'
+]
 )
   
 _run_gn
@@ -883,7 +892,7 @@ ninja_output
 raise
 Exception
 (
-"
+'
 Incorrectly
 using
 partial
@@ -892,7 +901,7 @@ for
 clean
 compile
 .
-"
+'
 )
   
 _copy_and_append_gn_args
@@ -934,7 +943,7 @@ ninja_output
 raise
 Exception
 (
-"
+'
 Not
 using
 partial
@@ -943,31 +952,31 @@ for
 incremental
 compile
 .
-"
+'
 )
   
 expected_output_path
 =
-"
+'
 {
 }
 /
-lib
+obj
+/
+{
+}
 .
-java
-/
-{
-}
+javac
 .
 jar
-"
+'
 .
 format
 (
 options
 .
 out_dir
-                                                     
+                                                      
 gn_path
 .
 replace
@@ -996,13 +1005,13 @@ expected_output_path
 raise
 Exception
 (
-"
+'
 {
 }
 not
 created
 .
-"
+'
 .
 format
 (

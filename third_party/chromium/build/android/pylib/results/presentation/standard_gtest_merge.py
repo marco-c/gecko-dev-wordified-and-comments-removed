@@ -1182,7 +1182,7 @@ open
 (
 output_json
 '
-wb
+w
 '
 )
 as

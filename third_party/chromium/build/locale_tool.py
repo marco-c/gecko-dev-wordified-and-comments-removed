@@ -3203,7 +3203,7 @@ self
 .
 TEST_DATA
 .
-iteritems
+items
 (
 )
 :

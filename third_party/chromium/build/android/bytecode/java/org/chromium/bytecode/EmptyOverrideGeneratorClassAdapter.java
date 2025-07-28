@@ -340,6 +340,12 @@ String
 descriptor
 )
 {
+assert
+access
+!
+=
+0
+;
 Type
 [
 ]

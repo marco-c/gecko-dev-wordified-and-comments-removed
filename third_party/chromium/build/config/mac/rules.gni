@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -312,7 +307,7 @@ extra_substitutions
 "
 MAC_SDK_BUILD
 =
-mac_sdk_version
+mac_sdk_build_version
 "
 "
 MAC_SDK_NAME

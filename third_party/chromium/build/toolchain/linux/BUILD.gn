@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -1777,6 +1772,8 @@ toolprefix
 =
 "
 loongarch64
+-
+unknown
 -
 linux
 -

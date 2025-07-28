@@ -294,8 +294,7 @@ def
 GetTargetFile
 (
 filename
-target_arch
-target_type
+image_path
 )
 :
   
@@ -319,11 +318,7 @@ specific
   
 to
 |
-target_type
-|
-and
-|
-target_arch
+image_path
 |
 .
 "
@@ -340,8 +335,7 @@ join
 common
 .
 IMAGES_ROOT
-target_arch
-target_type
+image_path
 filename
 )
 def
@@ -366,8 +360,8 @@ def
 GetBootImage
 (
 output_dir
-target_arch
-target_type
+image_path
+image_name
 )
 :
   
@@ -421,15 +415,8 @@ image_source_path
 =
 GetTargetFile
 (
-'
-zircon
--
-a
-.
-zbi
-'
-target_arch
-target_type
+image_name
+image_path
 )
   
 image_dest_path
@@ -555,8 +542,7 @@ UNCOMPRESSED
 def
 AssertBootImagesExist
 (
-arch
-platform
+image_path
 )
 :
   
@@ -570,14 +556,11 @@ exists
 GetTargetFile
 (
 '
-zircon
--
-a
+fuchsia
 .
 zbi
 '
-arch
-platform
+image_path
 )
 )
 \
@@ -650,9 +633,6 @@ checkout_fuchsia_boot_images
 "
 %
 s
-.
-%
-s
 "
 \
 n
@@ -662,7 +642,4 @@ n
 %
 \
            
-(
-platform
-arch
-)
+image_path

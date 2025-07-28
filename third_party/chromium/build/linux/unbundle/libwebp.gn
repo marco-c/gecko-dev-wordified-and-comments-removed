@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -96,6 +91,8 @@ libwebp_shim
 root_path
 =
 "
+src
+/
 src
 "
 headers

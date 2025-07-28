@@ -939,6 +939,17 @@ link
 stdout
 :
       
+line
+=
+line
+.
+decode
+(
+'
+utf8
+'
+)
+      
 if
 (
 not
@@ -946,7 +957,6 @@ line
 .
 startswith
 (
-b
 '
 Creating
 library
@@ -959,7 +969,6 @@ line
 .
 startswith
 (
-b
 '
 Generating
 code
@@ -972,7 +981,6 @@ line
 .
 startswith
 (
-b
 '
 Finished
 generating
@@ -985,6 +993,10 @@ code
 print
 (
 line
+.
+rstrip
+(
+)
 )
     
 return

@@ -909,13 +909,6 @@ util
 build_utils
 .
 py
-gyp
-/
-util
-/
-zipalign
-.
-py
 method_count
 .
 py

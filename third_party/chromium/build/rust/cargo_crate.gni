@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -1879,6 +1874,9 @@ invoker
 .
 build_deps
 }
+rustenv
+=
+_rustenv
 forward_variables_from
 (
 invoker

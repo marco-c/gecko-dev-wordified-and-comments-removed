@@ -90,10 +90,6 @@ components_browsertests
 '
 content_browsertests
 '
-    
-'
-weblayer_browsertests
-'
 ]
 MAX_SHARDS
 =
@@ -2416,11 +2412,11 @@ _data_deps
     
 self
 .
-_gtest_filter
+_gtest_filters
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -2859,7 +2855,7 @@ _gs_test_artifacts_bucket
 property
   
 def
-gtest_filter
+gtest_filters
 (
 self
 )
@@ -2868,7 +2864,7 @@ self
 return
 self
 .
-_gtest_filter
+_gtest_filters
   
 property
   
@@ -3333,16 +3329,16 @@ disabled_prefixes
 if
 self
 .
-_gtest_filter
+_gtest_filters
 :
       
 gtest_filter_strings
 .
-append
+extend
 (
 self
 .
-_gtest_filter
+_gtest_filters
 )
     
 filtered_test_list
@@ -3394,7 +3390,7 @@ _run_disabled
 and
 self
 .
-_gtest_filter
+_gtest_filters
 :
         
 out_filtered_test_list
@@ -3427,21 +3423,34 @@ test
           
 if
 test_name_no_disabled
-!
+=
 =
 test
-and
+:
+            
+continue
+          
+if
+all
+(
+              
 unittest_util
 .
 FilterTestNames
 (
-              
 [
 test_name_no_disabled
 ]
+                                            
+gtest_filter
+)
+              
+for
+gtest_filter
+in
 self
 .
-_gtest_filter
+_gtest_filters
 )
 :
             

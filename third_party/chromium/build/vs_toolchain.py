@@ -3532,18 +3532,11 @@ toolchain_dir
 )
 :
       
-import
-distutils
-.
-spawn
-      
 ciopfs
 =
-distutils
+shutil
 .
-spawn
-.
-find_executable
+which
 (
 '
 ciopfs

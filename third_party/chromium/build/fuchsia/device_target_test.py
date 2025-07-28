@@ -38,9 +38,9 @@ device_target
 import
 DeviceTarget
 from
-ermine_ctl
+legacy_ermine_ctl
 import
-ErmineCtl
+LegacyErmineCtl
 from
 ffx_session
 import
@@ -1199,12 +1199,11 @@ mock_connect
 mock
 .
 patch
-.
-object
 (
-DeviceTarget
 '
-_GetSdkHash
+device_target
+.
+get_sdk_hash
 '
 )
 as
@@ -1387,12 +1386,11 @@ mock_ready
 mock
 .
 patch
-.
-object
 (
-DeviceTarget
 '
-_GetSdkHash
+device_target
+.
+get_sdk_hash
 '
 )
 as
@@ -1511,7 +1509,7 @@ patch
 object
 (
              
-ErmineCtl
+LegacyErmineCtl
 '
 exists
 '
@@ -1532,9 +1530,9 @@ patch
 .
 object
 (
-ErmineCtl
+LegacyErmineCtl
 '
-TakeToShell
+take_to_shell
 '
 )
 as
@@ -1585,7 +1583,7 @@ patch
 object
 (
              
-ErmineCtl
+LegacyErmineCtl
 '
 exists
 '
@@ -1606,9 +1604,9 @@ patch
 .
 object
 (
-ErmineCtl
+LegacyErmineCtl
 '
-TakeToShell
+take_to_shell
 '
 )
 as

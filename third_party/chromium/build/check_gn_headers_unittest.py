@@ -533,7 +533,7 @@ o
     
 self
 .
-assertEquals
+assertEqual
 (
 headers
 expected
@@ -619,7 +619,7 @@ h
     
 self
 .
-assertEquals
+assertEqual
 (
 headers
 expected
@@ -692,7 +692,7 @@ c
     
 self
 .
-assertEquals
+assertEqual
 (
 output
 expected

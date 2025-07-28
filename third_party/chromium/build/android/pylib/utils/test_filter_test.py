@@ -323,6 +323,7 @@ testBar
     
 expected
 =
+[
 '
 FooTest
 .
@@ -332,12 +333,13 @@ BarTest
 .
 testBar
 '
+]
     
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -402,6 +404,7 @@ testBar
     
 expected
 =
+[
 '
 FooTest
 .
@@ -411,12 +414,13 @@ BarTest
 .
 testBar
 '
+]
     
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -486,6 +490,7 @@ testBar
     
 expected
 =
+[
 '
 FooTest
 .
@@ -495,12 +500,13 @@ BarTest
 .
 testBar
 '
+]
     
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -647,23 +653,27 @@ name
       
 expected
 =
+[
+'
+-
+negative1
+'
 '
 positive1
 :
 positive2
 -
-negative1
-:
 negative2
 :
 negative3
 '
+]
       
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -810,23 +820,27 @@ name
       
 expected
 =
+[
 '
 positive1
 :
 positive2
 -
 negative1
-:
+'
+'
+-
 negative2
 :
 negative3
 '
+]
       
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -911,7 +925,9 @@ tmp_file
 write
 (
 '
-positive1
+positive2
+-
+negative2
 \
 n
 '
@@ -939,11 +955,11 @@ test
 -
 filter
 '
-          
 '
-positive2
+positive1
+-
+negative1
 '
-          
 '
 -
 -
@@ -959,25 +975,40 @@ file
 tmp_file
 .
 name
+      
 ]
 )
       
-with
-self
-.
-assertRaises
-(
+expected
+=
+[
+'
+positive1
+-
+negative1
+'
+'
+positive2
+-
+negative2
+'
+]
+      
+actual
+=
 test_filter
 .
-ConflictingPositiveFiltersException
-)
-:
-        
-test_filter
-.
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
+)
+      
+self
+.
+assertEqual
+(
+actual
+expected
 )
   
 unittest
@@ -1111,22 +1142,26 @@ name
       
 expected
 =
+[
 '
 -
 negative1
 :
 negative2
-:
+'
+'
+-
 negative3
 :
 negative4
 '
+]
       
 actual
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )

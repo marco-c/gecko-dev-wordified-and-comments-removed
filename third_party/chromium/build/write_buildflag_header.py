@@ -524,6 +524,12 @@ buildflag
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 \
 n
 \

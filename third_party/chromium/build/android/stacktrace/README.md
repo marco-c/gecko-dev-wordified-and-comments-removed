@@ -85,7 +85,7 @@ C
 out
 /
 Release
-java_deobfuscate
+java_deobfuscate_java
 cp
 out
 /
@@ -101,7 +101,7 @@ android
 /
 stacktrace
 /
-java_deobfuscate
+java_deobfuscate_java
 .
 jar
 build

@@ -170,6 +170,17 @@ is_mac
 )
 ;
 }
+let
+_
+=
+env
+!
+(
+"
+BUILD_SCRIPT_TEST_VARIABLE
+"
+)
+;
 }
 fn
 rustc_minor_version

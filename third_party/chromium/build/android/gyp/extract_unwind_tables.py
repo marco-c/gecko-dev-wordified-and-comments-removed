@@ -88,7 +88,7 @@ breakpad
 /
 blob
 /
-master
+main
 /
 docs
 /

@@ -2805,6 +2805,7 @@ date_format
     
 tdelta
 =
+abs
 (
 correct_time
 -

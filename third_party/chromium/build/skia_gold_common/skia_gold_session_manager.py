@@ -14,10 +14,30 @@ import
 json
 import
 tempfile
+from
+typing
+import
+Optional
+Type
+Union
+from
+skia_gold_common
+import
+skia_gold_properties
+from
+skia_gold_common
+import
+skia_gold_session
+KeysInputType
+=
+Union
+[
+dict
+str
+]
 class
 SkiaGoldSessionManager
 (
-object
 )
 :
   
@@ -26,7 +46,14 @@ __init__
 (
 self
 working_dir
+:
+str
+               
 gold_properties
+:
+skia_gold_properties
+.
+SkiaGoldProperties
 )
 :
     
@@ -137,16 +164,33 @@ GetSkiaGoldSession
 self
                          
 keys_input
+:
+KeysInputType
                          
 corpus
+:
+Optional
+[
+str
+]
 =
 None
                          
 instance
+:
+Optional
+[
+str
+]
 =
 None
                          
 bucket
+:
+Optional
+[
+str
+]
 =
 None
 )
@@ -434,6 +478,9 @@ def
 _GetDefaultInstance
 (
 )
+-
+>
+str
 :
     
 "
@@ -473,6 +520,14 @@ def
 GetSessionClass
 (
 )
+-
+>
+Type
+[
+skia_gold_session
+.
+SkiaGoldSession
+]
 :
     
 "
@@ -510,7 +565,12 @@ def
 _GetKeysAsDict
 (
 keys_input
+:
+KeysInputType
 )
+-
+>
+dict
 :
   
 "
@@ -609,8 +669,15 @@ def
 _GetKeysAsJson
 (
 keys_input
+:
+KeysInputType
 session_work_dir
+:
+str
 )
+-
+>
+str
 :
   
 "
@@ -655,6 +722,25 @@ Skia
 Gold
 config
 data
+.
+    
+session_work_dir
+:
+The
+working
+directory
+under
+which
+each
+individual
+        
+SkiaGoldSessions
+'
+working
+directory
+will
+be
+created
 .
   
 Returns

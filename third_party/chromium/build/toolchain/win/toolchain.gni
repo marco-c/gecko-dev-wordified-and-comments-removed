@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -2009,6 +2004,10 @@ else
 if
 (
 toolchain_is_clang
+&
+&
+!
+disable_llvm_ml
 )
 {
 prefix
@@ -2172,8 +2171,13 @@ if
 use_lld
 &
 &
+(
 !
 toolchain_is_clang
+|
+|
+disable_llvm_ml
+)
 )
 {
 #

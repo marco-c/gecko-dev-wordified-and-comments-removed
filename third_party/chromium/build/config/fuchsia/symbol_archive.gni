@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -72,10 +67,6 @@ deps
 Must
 all
 be
-cr_fuchsia_package
-(
-)
-or
 fuchsia_package
 (
 )

@@ -602,7 +602,7 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -622,10 +622,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -643,7 +642,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -663,7 +662,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -683,10 +682,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -704,7 +702,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -724,7 +722,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -872,10 +870,9 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -893,10 +890,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -914,10 +910,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -935,10 +930,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1084,10 +1078,9 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1105,10 +1098,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1126,10 +1118,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1147,10 +1138,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1218,6 +1208,16 @@ SystemExit
 )
 as
 cm
+mock
+.
+patch
+(
+'
+sys
+.
+stderr
+'
+)
 :
       
 self

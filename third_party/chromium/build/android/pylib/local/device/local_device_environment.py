@@ -482,6 +482,12 @@ place_nomedia_on_device
 (
 dev
 device_root
+run_as
+=
+None
+as_root
+=
+False
 )
 :
   
@@ -556,6 +562,15 @@ p
 '
 device_root
 ]
+                      
+run_as
+=
+run_as
+                      
+as_root
+=
+as_root
+                      
 check_return
 =
 True
@@ -574,6 +589,7 @@ nomedia
 '
 %
 device_root
+                
 '
 https
 :
@@ -585,6 +601,14 @@ com
 /
 796640
 '
+                
+run_as
+=
+run_as
+                
+as_root
+=
+as_root
 )
 class
 LocalDeviceEnvironment
@@ -794,6 +818,14 @@ _trace_all
 args
 .
 trace_all
+    
+self
+.
+_use_persistent_shell
+=
+args
+.
+use_persistent_shell
     
 devil_chromium
 .
@@ -1051,6 +1083,12 @@ abis
 self
 .
 _preferred_abis
+        
+persistent_shell
+=
+self
+.
+_use_persistent_shell
 )
     
 if

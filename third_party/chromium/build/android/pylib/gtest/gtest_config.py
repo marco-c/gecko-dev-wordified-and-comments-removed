@@ -52,10 +52,6 @@ blink_unittests
 '
     
 '
-breakpad_unittests
-'
-    
-'
 cc_unittests
 '
     
@@ -138,10 +134,6 @@ unit_tests_apk
 ASAN_EXCLUDED_TEST_SUITES
 =
 [
-    
-'
-breakpad_unittests
-'
     
 '
 sandbox_linux_unittests
