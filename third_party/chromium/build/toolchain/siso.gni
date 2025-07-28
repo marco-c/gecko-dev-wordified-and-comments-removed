@@ -53,6 +53,13 @@ _is_google_corp_machine
 false
 if
 (
+false
+)
+{
+#
+Mozilla
+if
+(
 path_exists
 (
 "
@@ -160,6 +167,7 @@ _is_ninja_used
 use_siso_default
 =
 true
+}
 }
 declare_args
 (
