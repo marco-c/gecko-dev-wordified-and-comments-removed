@@ -1456,6 +1456,12 @@ highlight
 #
 Strings
 for
+shortcuts
+highlight
+#
+#
+Strings
+for
 reporting
 ads
 and
