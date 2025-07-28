@@ -147,9 +147,10 @@ s
 |
 .
 *
-{
-ARCHIVE_URL
-}
+/
+archive
+/
+debian
 /
 \
 (
@@ -195,9 +196,13 @@ ARCHIVE_TIMESTAMP
 /
 ARCHIVE_TIMESTAMP
 =
+\
+"
 {
 TIMESTAMP
 }
+\
+"
 /
 "
 \

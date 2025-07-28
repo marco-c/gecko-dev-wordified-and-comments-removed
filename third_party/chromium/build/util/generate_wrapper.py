@@ -73,6 +73,9 @@ ENABLEDELAYEDEXPANSION
 \
       
 &
+CMD
+/
+C
 vpython3
 .
 bat

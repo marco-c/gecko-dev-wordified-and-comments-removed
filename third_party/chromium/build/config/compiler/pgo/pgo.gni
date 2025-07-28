@@ -333,14 +333,6 @@ target_environment
 device
 "
 )
-|
-|
-(
-is_chromeos_lacros
-&
-&
-is_chromeos_device
-)
 )
 )
 {

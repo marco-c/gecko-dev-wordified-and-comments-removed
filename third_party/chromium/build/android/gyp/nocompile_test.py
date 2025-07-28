@@ -1117,6 +1117,20 @@ use_remoteexec
 =
 false
 '
+      
+'
+use_reclient
+=
+false
+'
+      
+'
+android_static_analysis
+=
+"
+on
+"
+'
   
 ]
   

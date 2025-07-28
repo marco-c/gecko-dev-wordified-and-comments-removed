@@ -679,6 +679,24 @@ return
 watchos
 '
     
+if
+platform
+in
+(
+'
+appletvos
+'
+'
+appletvsimulator
+'
+)
+:
+      
+return
+'
+tvos
+'
+    
 raise
 ValueError
 (

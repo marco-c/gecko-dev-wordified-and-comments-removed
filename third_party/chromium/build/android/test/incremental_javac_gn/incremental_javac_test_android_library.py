@@ -801,6 +801,14 @@ use_remoteexec
 =
 false
 '
+      
+'
+android_static_analysis
+=
+"
+on
+"
+'
   
 ]
   

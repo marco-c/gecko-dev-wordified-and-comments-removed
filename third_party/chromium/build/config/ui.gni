@@ -472,15 +472,6 @@ necessary
 use_xvfb_in_this_config
 =
 is_linux
-|
-|
-(
-is_chromeos_lacros
-&
-&
-!
-is_chromeos_device
-)
 #
 #
 =

@@ -99,6 +99,8 @@ main
 /
 java
 /
+stub
+/
 dalvik
 /
 system
@@ -160,7 +162,7 @@ lsposed
 /
 hiddenapibypass
 /
-HiddenApiBypass
+LSPass
 .
 java
 "

@@ -514,6 +514,14 @@ jvm_args
         
 '
 -
+XX
+:
++
+EnableDynamicAgentLoading
+'
+        
+'
+-
 Drobolectric
 .
 dependency

@@ -1238,6 +1238,14 @@ clang_unix
 .
 handlers
 )
+__handlers
+.
+update
+(
+clang_all
+.
+handlers
+)
 def
 __step_config
 (

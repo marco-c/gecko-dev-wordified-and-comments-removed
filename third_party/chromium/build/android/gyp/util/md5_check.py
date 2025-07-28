@@ -687,6 +687,28 @@ input_paths
 :
     
 if
+os
+.
+path
+.
+isabs
+(
+path
+)
+:
+      
+path
+=
+os
+.
+path
+.
+relpath
+(
+path
+)
+    
+if
 path
 in
 zip_allowlist
@@ -721,10 +743,6 @@ path
 )
 )
   
-old_metadata
-=
-None
-  
 force
 =
 force
@@ -753,10 +771,9 @@ x
 )
 ]
   
-too_new
+old_metadata
 =
-[
-]
+None
   
 if
 not
@@ -772,43 +789,6 @@ record_path
 )
 :
     
-record_mtime
-=
-os
-.
-path
-.
-getmtime
-(
-record_path
-)
-    
-too_new
-=
-[
-x
-for
-x
-in
-output_paths
-if
-os
-.
-path
-.
-getmtime
-(
-x
-)
->
-record_mtime
-]
-    
-if
-not
-too_new
-:
-      
 with
 open
 (
@@ -820,10 +800,10 @@ r
 as
 jsonfile
 :
-        
+      
 try
 :
-          
+        
 old_metadata
 =
 _Metadata
@@ -832,10 +812,10 @@ FromFile
 (
 jsonfile
 )
-        
+      
 except
 :
-          
+        
 pass
   
 changes
@@ -846,7 +826,6 @@ old_metadata
 new_metadata
 force
 missing_outputs
-too_new
 )
   
 if
@@ -969,8 +948,6 @@ old_metadata
 new_metadata
 force
 missing_outputs
-               
-too_new
 )
 :
     
@@ -997,12 +974,6 @@ self
 missing_outputs
 =
 missing_outputs
-    
-self
-.
-too_new
-=
-too_new
   
 def
 _GetOldTag
@@ -1815,36 +1786,6 @@ join
 self
 .
 missing_outputs
-)
-    
-if
-self
-.
-too_new
-:
-      
-return
-'
-Outputs
-newer
-than
-stamp
-file
-:
-\
-n
-'
-+
-'
-\
-n
-'
-.
-join
-(
-self
-.
-too_new
 )
     
 if

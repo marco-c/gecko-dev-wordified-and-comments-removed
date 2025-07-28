@@ -1,4 +1,6 @@
 package
+stub
+.
 dalvik
 .
 system

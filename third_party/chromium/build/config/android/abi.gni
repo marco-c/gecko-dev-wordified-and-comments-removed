@@ -737,6 +737,12 @@ only
 .
 if
 (
+!
+skip_secondary_abi_for_cq
+)
+{
+if
+(
 target_cpu
 =
 =
@@ -828,4 +834,5 @@ android_clang_
 android_secondary_abi_cpu
 }
 "
+}
 }

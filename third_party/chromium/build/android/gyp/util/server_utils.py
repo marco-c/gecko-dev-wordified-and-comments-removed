@@ -107,6 +107,35 @@ fast_local_dev_server
 py
 '
 def
+AssertEnvironmentVariables
+(
+)
+:
+  
+assert
+os
+.
+environ
+.
+get
+(
+'
+AUTONINJA_BUILD_ID
+'
+)
+  
+assert
+os
+.
+environ
+.
+get
+(
+'
+AUTONINJA_STDOUT_NAME
+'
+)
+def
 MaybeRunCommand
 (
 name
@@ -139,6 +168,9 @@ server
 "
   
 if
+not
+use_build_server
+or
 platform
 .
 system
@@ -146,9 +178,9 @@ system
 )
 =
 =
-"
+'
 Darwin
-"
+'
 :
     
 return
@@ -165,15 +197,45 @@ environ
 return
 False
   
+build_id
+=
+os
+.
+environ
+.
+get
+(
+'
+AUTONINJA_BUILD_ID
+'
+)
+  
 if
 not
-use_build_server
+build_id
 :
     
-return
-False
+raise
+Exception
+(
+        
+'
+AUTONINJA_BUILD_ID
+is
+not
+set
+.
+Should
+have
+been
+set
+by
+autoninja
+.
+'
+)
   
-autoninja_tty
+stdout_name
 =
 os
 .
@@ -186,18 +248,23 @@ AUTONINJA_STDOUT_NAME
 '
 )
   
-autoninja_build_id
-=
+if
+not
+stdout_name
+or
+not
 os
 .
-environ
+path
 .
-get
+exists
 (
-'
-AUTONINJA_BUILD_ID
-'
+stdout_name
 )
+:
+    
+return
+False
   
 with
 contextlib
@@ -303,6 +370,12 @@ ADD_TASK
 cmd
 '
 :
+[
+sys
+.
+executable
+]
++
 argv
             
 '
@@ -316,16 +389,10 @@ getcwd
 )
             
 '
-tty
-'
-:
-autoninja_tty
-            
-'
 build_id
 '
 :
-autoninja_build_id
+build_id
             
 '
 stamp_file

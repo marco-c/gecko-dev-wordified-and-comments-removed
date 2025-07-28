@@ -75,6 +75,11 @@ defines
 =
 [
 "
+CHROMIUM_ZLIB_NO_CHROMECONF
+=
+1
+"
+"
 USE_SYSTEM_ZLIB
 =
 1

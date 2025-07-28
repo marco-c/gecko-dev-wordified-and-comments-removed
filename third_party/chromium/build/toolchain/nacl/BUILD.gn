@@ -1677,7 +1677,7 @@ toolchain
 lib
 if
 (
-is_chromeos_ash
+is_chromeos
 &
 &
 use_remoteexec
@@ -1761,6 +1761,12 @@ false
 is_nacl_saigo
 =
 true
+host_toolchain_is_msan
+=
+is_msan
+host_toolchain_msan_track_origins
+=
+msan_track_origins
 }
 #
 TODO

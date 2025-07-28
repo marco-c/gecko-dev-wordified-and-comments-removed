@@ -314,14 +314,6 @@ PdfDocumentService
 '
     
 '
-androidx
-.
-room
-.
-MultiInstanceInvalidationService
-'
-    
-'
 com
 .
 google

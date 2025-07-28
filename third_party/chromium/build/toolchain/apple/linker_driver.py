@@ -989,6 +989,23 @@ in
 self
 .
 _linker_driver_pre_actions
+\
+                    
+f
+"
+Name
+'
+{
+pre_name
+}
+'
+found
+in
+linker
+driver
+pre
+actions
+"
                 
 self
 .
@@ -1050,6 +1067,22 @@ in
 self
 .
 _linker_driver_actions
+\
+                    
+f
+"
+Name
+'
+{
+name
+}
+'
+found
+in
+linker
+driver
+actions
+"
                 
 self
 .

@@ -148,4 +148,7 @@ helper
 /
 unused_resources
 "
+enable_errorprone
+=
+false
 }
