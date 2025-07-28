@@ -13000,9 +13000,6 @@ send_encodings
 .
 codec
 =
-cricket
-:
-:
 CreateVideoCodec
 (
 SdpVideoFormat
@@ -13082,9 +13079,6 @@ send_encodings
 .
 codec
 =
-cricket
-:
-:
 CreateVideoCodec
 (
 SdpVideoFormat
@@ -13164,9 +13158,6 @@ send_encodings
 .
 codec
 =
-cricket
-:
-:
 CreateVideoCodec
 (
 SdpVideoFormat

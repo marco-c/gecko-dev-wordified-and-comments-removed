@@ -12831,7 +12831,7 @@ audio
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -12850,7 +12850,7 @@ audio
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -12869,7 +12869,7 @@ audio
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -13262,7 +13262,7 @@ video
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateVideoCodec
@@ -17247,7 +17247,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -17390,7 +17390,7 @@ max_ptime
 )
 ;
 }
-cricket
+webrtc
 :
 :
 Codec
@@ -17512,7 +17512,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -17546,7 +17546,7 @@ vp8
 id
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -17593,7 +17593,7 @@ vp8
 id
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -17983,7 +17983,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -18013,7 +18013,7 @@ opus
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -18067,7 +18067,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -18107,7 +18107,7 @@ vp8
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -18130,7 +18130,7 @@ vp8
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -18153,7 +18153,7 @@ vp8
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -18176,7 +18176,7 @@ vp8
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -18199,7 +18199,7 @@ vp8
 .
 HasFeedbackParam
 (
-cricket
+webrtc
 :
 :
 FeedbackParam
@@ -20446,13 +20446,13 @@ WebRtcSdpTest
 SerializeSessionDescriptionWithH264
 )
 {
-cricket
+webrtc
 :
 :
 Codec
 h264_codec
 =
-cricket
+webrtc
 :
 :
 CreateVideoCodec
@@ -21224,7 +21224,7 @@ description
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -21234,7 +21234,7 @@ ref_codecs
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -21252,7 +21252,7 @@ ref_codecs
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -21270,7 +21270,7 @@ ref_codecs
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -21436,7 +21436,7 @@ description
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -21523,7 +21523,7 @@ yes
 "
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -27299,7 +27299,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -27609,7 +27609,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -27917,7 +27917,7 @@ empty
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -28294,7 +28294,7 @@ SizeIs
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -28367,7 +28367,7 @@ SizeIs
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -28411,7 +28411,7 @@ raw
 "
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -28456,7 +28456,7 @@ std
 nullopt
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
@@ -28521,7 +28521,7 @@ GetFirstAudioContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -28674,7 +28674,7 @@ GetFirstAudioContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -28819,7 +28819,7 @@ GetFirstAudioContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -28986,7 +28986,7 @@ GetFirstAudioContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -28999,13 +28999,13 @@ codecs
 (
 )
 ;
-cricket
+webrtc
 :
 :
 Codec
 dtmf
 =
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -29192,7 +29192,7 @@ GetFirstVideoContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -29347,7 +29347,7 @@ GetFirstVideoContentDescription
 desc_
 )
 ;
-cricket
+webrtc
 :
 :
 Codecs
@@ -43579,7 +43579,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Codec

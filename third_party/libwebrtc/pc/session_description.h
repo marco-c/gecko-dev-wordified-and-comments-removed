@@ -1065,9 +1065,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -1089,9 +1086,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -1138,9 +1132,6 @@ id
 ]
 (
 const
-cricket
-:
-:
 Codec
 codec
 )
@@ -1168,9 +1159,6 @@ void
 AddCodec
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -1188,9 +1176,6 @@ void
 AddOrReplaceCodec
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -1258,9 +1243,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -1401,9 +1383,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs_

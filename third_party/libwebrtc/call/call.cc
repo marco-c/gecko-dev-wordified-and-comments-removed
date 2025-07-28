@@ -877,9 +877,6 @@ std
 :
 string
 &
-cricket
-:
-:
 Codec
 codec
 )
@@ -906,9 +903,6 @@ string
 &
 PayloadType
 const
-cricket
-:
-:
 Codec
 &
 )

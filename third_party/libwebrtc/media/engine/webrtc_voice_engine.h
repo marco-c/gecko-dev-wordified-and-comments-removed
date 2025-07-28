@@ -762,6 +762,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -777,6 +780,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1059,6 +1065,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 send_codecs_
@@ -1068,6 +1077,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 recv_codecs_
@@ -1235,6 +1247,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 GetSendCodec
@@ -1647,6 +1662,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1656,6 +1674,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 preferred_codec
@@ -1743,6 +1764,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 send_codecs_
@@ -2398,6 +2422,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -2511,6 +2538,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 recv_codecs_

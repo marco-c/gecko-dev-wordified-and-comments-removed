@@ -125,9 +125,6 @@ PayloadType
 >
 SuggestMapping
 (
-cricket
-:
-:
 Codec
 codec
 const
@@ -141,9 +138,6 @@ AddMapping
 (
 PayloadType
 payload_type
-cricket
-:
-:
 Codec
 codec
 )
@@ -159,9 +153,6 @@ MapEntry
 (
 PayloadType
 payload_type
-cricket
-:
-:
 Codec
 codec
 )
@@ -186,9 +177,6 @@ return
 payload_type_
 ;
 }
-cricket
-:
-:
 Codec
 codec
 (
@@ -204,9 +192,6 @@ private
 PayloadType
 payload_type_
 ;
-cricket
-:
-:
 Codec
 codec_
 ;
@@ -324,9 +309,6 @@ AddMapping
 (
 PayloadType
 payload_type
-cricket
-:
-:
 Codec
 codec
 )
@@ -342,9 +324,6 @@ std
 pair
 <
 PayloadType
-cricket
-:
-:
 Codec
 >
 >
@@ -359,9 +338,6 @@ PayloadType
 >
 LookupPayloadType
 (
-cricket
-:
-:
 Codec
 codec
 )
@@ -369,9 +345,6 @@ const
 ;
 RTCErrorOr
 <
-cricket
-:
-:
 Codec
 >
 LookupCodec
@@ -413,9 +386,6 @@ std
 map
 <
 PayloadType
-cricket
-:
-:
 Codec
 >
 payload_type_to_codec_
@@ -426,9 +396,6 @@ std
 map
 <
 PayloadType
-cricket
-:
-:
 Codec
 >
 checkpoint_payload_type_to_codec_

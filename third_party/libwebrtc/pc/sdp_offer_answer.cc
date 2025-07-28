@@ -5202,9 +5202,6 @@ GetSendCodecs
 for
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -30857,9 +30854,6 @@ media_description
 for
 (
 const
-cricket
-:
-:
 Codec
 &
 codec

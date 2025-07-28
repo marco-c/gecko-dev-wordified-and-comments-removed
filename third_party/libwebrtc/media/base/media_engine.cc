@@ -186,7 +186,7 @@ bool
 SupportsMode
 (
 const
-cricket
+webrtc
 :
 :
 Codec
@@ -585,7 +585,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -596,7 +596,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -673,7 +673,7 @@ false
 for
 (
 const
-cricket
+webrtc
 :
 :
 Codec
@@ -786,7 +786,7 @@ false
 for
 (
 const
-cricket
+webrtc
 :
 :
 Codec
@@ -989,7 +989,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -1000,7 +1000,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -1642,7 +1642,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -1653,7 +1653,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec

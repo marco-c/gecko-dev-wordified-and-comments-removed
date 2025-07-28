@@ -199,12 +199,6 @@ webrtc
 {
 namespace
 {
-using
-cricket
-:
-:
-Codec
-;
 std
 :
 :

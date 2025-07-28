@@ -78,9 +78,6 @@ trials
 )
 ;
 const
-cricket
-:
-:
 CodecList
 &
 codecs
@@ -96,9 +93,6 @@ void
 set_codecs
 (
 const
-cricket
-:
-:
 CodecList
 &
 codecs
@@ -133,9 +127,6 @@ from
 default
 ;
 private
-:
-cricket
-:
 :
 CodecList
 codecs_

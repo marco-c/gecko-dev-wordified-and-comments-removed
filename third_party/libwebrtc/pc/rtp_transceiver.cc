@@ -493,9 +493,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -506,9 +503,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -520,9 +514,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codec_capabilities
@@ -627,9 +618,6 @@ codec
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 codec_capability
@@ -2480,9 +2468,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 send_codecs
@@ -3861,9 +3846,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 send_codecs
@@ -4061,9 +4043,6 @@ codec
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 send_codec
@@ -4094,9 +4073,6 @@ codec
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 recv_codec

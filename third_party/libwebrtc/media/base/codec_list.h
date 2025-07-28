@@ -35,7 +35,7 @@ codec
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 CodecList
@@ -145,9 +145,6 @@ codecs_
 ;
 }
 static
-webrtc
-:
-:
 RTCErrorOr
 <
 CodecList
@@ -502,6 +499,18 @@ Codec
 codecs_
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+CodecList
 ;
 }
 #

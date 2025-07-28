@@ -515,6 +515,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1106,6 +1109,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1372,6 +1378,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1392,6 +1401,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 FakeVoiceMediaSendChannel
@@ -1672,6 +1684,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 :
@@ -1827,6 +1842,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -2098,6 +2116,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -2119,6 +2140,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -2222,6 +2246,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 FakeVideoMediaSendChannel
@@ -2404,6 +2431,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -2538,6 +2568,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3058,6 +3091,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3217,7 +3253,7 @@ this
 SetCodecs
 (
 {
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -3415,6 +3451,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3436,6 +3475,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3463,6 +3505,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3490,6 +3535,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3513,6 +3561,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3657,7 +3708,7 @@ send_codecs_
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 CreateVideoCodec
@@ -3673,7 +3724,7 @@ recv_codecs_
 .
 push_back
 (
-cricket
+webrtc
 :
 :
 CreateVideoCodec
@@ -3842,6 +3893,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 FakeVideoEngine
@@ -3862,6 +3916,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 FakeVideoEngine
@@ -3889,6 +3946,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -3912,6 +3972,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4072,6 +4135,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4099,6 +4165,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4126,6 +4195,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4153,6 +4225,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4188,6 +4263,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -4215,6 +4293,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &

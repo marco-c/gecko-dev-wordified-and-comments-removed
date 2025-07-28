@@ -1040,6 +1040,9 @@ BitrateConstraints
 GetBitrateConfigForCodec
 (
 const
+webrtc
+:
+:
 Codec
 &
 codec

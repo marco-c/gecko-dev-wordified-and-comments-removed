@@ -83,7 +83,7 @@ string_encode
 h
 "
 namespace
-cricket
+webrtc
 {
 using
 webrtc
@@ -218,6 +218,9 @@ list
 for
 (
 const
+webrtc
+:
+:
 Codec
 &
 codec
@@ -265,6 +268,9 @@ params
 .
 find
 (
+cricket
+:
+:
 kCodecParamAssociatedPayloadType
 )
 ;

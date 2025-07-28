@@ -7012,9 +7012,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs

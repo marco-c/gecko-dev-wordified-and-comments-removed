@@ -2383,7 +2383,7 @@ std
 :
 :
 string
-Codec
+CodecName
 (
 )
 {
@@ -3031,7 +3031,7 @@ screenshare_idx
 .
 codec
 =
-Codec
+CodecName
 (
 )
 ;
@@ -3203,7 +3203,7 @@ camera_idx
 .
 codec
 =
-Codec
+CodecName
 (
 )
 ;
