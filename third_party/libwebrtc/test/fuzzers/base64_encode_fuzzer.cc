@@ -16,7 +16,7 @@ optional
 #
 include
 <
-vector
+string
 >
 #
 include
@@ -67,10 +67,7 @@ optional
 std
 :
 :
-vector
-<
-uint8_t
->
+string
 >
 decoded_encoded_data
 =
