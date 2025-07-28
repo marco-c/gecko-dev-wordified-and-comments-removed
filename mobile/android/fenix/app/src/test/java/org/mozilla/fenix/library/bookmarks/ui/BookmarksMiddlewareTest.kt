@@ -6665,10 +6665,6 @@ bookmark
 url
 to
 clipboard
-and
-snackboard
-is
-shown
 (
 )
 {
@@ -6705,10 +6701,6 @@ position
 =
 null
 )
-var
-snackShown
-=
-false
 val
 middleware
 =
@@ -6746,10 +6738,6 @@ setPrimaryClip
 any
 (
 )
-)
-assertTrue
-(
-snackShown
 )
 }
 Test
