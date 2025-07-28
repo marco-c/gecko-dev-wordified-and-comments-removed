@@ -1362,6 +1362,12 @@ type
 icon
 ghost
 "
+tabindex
+=
+"
+-
+1
+"
 data
 -
 l10n
