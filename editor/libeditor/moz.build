@@ -43,6 +43,14 @@ browser
 toml
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 EXPORTS
 .
 mozilla
