@@ -271,6 +271,13 @@ js
 ]
 [
 "
+test_ext_background_early_quit
+.
+js
+"
+]
+[
+"
 test_ext_background_early_shutdown
 .
 js
@@ -291,6 +298,13 @@ Bug
 [
 "
 test_ext_background_empty
+.
+js
+"
+]
+[
+"
+test_ext_background_file_invalid
 .
 js
 "
