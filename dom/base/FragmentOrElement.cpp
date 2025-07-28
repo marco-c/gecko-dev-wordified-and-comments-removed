@@ -881,9 +881,6 @@ nsIContent
 :
 UnbindFromTree
 (
-nsINode
-*
-aNewParent
 )
 {
 UnbindContext
@@ -891,16 +888,6 @@ context
 (
 *
 this
-)
-;
-context
-.
-SetIsMove
-(
-aNewParent
-!
-=
-nullptr
 )
 ;
 UnbindFromTree

@@ -191,7 +191,6 @@ ElementCallbackType
 eConnected
 eDisconnected
 eAdopted
-eConnectedMove
 eAttributeChanged
 eFormAssociated
 eFormReset
