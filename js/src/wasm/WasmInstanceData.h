@@ -305,6 +305,9 @@ access
 "
 )
 ;
+bool
+isFunctionCallBind
+;
 }
 ;
 struct
