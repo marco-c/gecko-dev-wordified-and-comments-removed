@@ -933,6 +933,9 @@ FFmpegLib
 VideoFrameContainer
 :
 5
+CompositableTextureParent
+:
+5
 "
 l10nIds
 :
