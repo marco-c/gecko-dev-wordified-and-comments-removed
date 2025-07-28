@@ -1782,6 +1782,10 @@ openBookmarksMenu
 composeTestRule
 )
 {
+verifyFolderTitle
+(
+bookmarkFolderName
+)
 selectFolder
 (
 bookmarkFolderName
