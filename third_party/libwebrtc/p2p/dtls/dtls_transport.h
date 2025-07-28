@@ -150,6 +150,17 @@ include
 "
 p2p
 /
+base
+/
+packet_transport_internal
+.
+h
+"
+#
+include
+"
+p2p
+/
 dtls
 /
 dtls_stun_piggyback_controller
@@ -301,13 +312,6 @@ thread_annotations
 .
 h
 "
-namespace
-rtc
-{
-class
-PacketTransportInternal
-;
-}
 namespace
 cricket
 {
@@ -1014,7 +1018,7 @@ ConnectToIceTransport
 void
 OnWritableState
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1025,7 +1029,7 @@ transport
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1045,7 +1049,7 @@ piggybacked
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1063,7 +1067,7 @@ sent_packet
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1074,7 +1078,7 @@ transport
 void
 OnReceivingState
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1180,7 +1184,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -1354,7 +1358,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal

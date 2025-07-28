@@ -105,7 +105,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -144,7 +144,7 @@ WillOnce
 [
 ]
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal

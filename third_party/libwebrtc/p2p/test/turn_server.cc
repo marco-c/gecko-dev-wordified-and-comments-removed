@@ -2311,9 +2311,6 @@ std
 string
 nonce
 =
-rtc
-:
-:
 hex_encode
 (
 input
@@ -2395,9 +2392,6 @@ then
 size_t
 len
 =
-rtc
-:
-:
 hex_decode
 (
 rtc

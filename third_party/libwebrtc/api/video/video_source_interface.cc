@@ -10,7 +10,7 @@ video_source_interface
 h
 "
 namespace
-rtc
+webrtc
 {
 VideoSinkWants
 :

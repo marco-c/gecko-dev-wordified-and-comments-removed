@@ -117,9 +117,6 @@ void
 GenerateCertificateAsync
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params
@@ -158,9 +155,6 @@ RTCCertificate
 GenerateCertificate
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params
@@ -197,9 +191,6 @@ void
 GenerateCertificateAsync
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params

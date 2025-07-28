@@ -359,9 +359,6 @@ is_screencast
 }
 protected
 :
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

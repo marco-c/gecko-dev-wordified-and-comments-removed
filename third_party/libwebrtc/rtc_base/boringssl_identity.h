@@ -83,9 +83,6 @@ BoringSSLIdentity
 final
 :
 public
-rtc
-:
-:
 SSLIdentity
 {
 public
@@ -106,9 +103,6 @@ absl
 string_view
 common_name
 const
-rtc
-:
-:
 KeyParams
 &
 key_params
@@ -127,9 +121,6 @@ BoringSSLIdentity
 CreateForTest
 (
 const
-rtc
-:
-:
 SSLIdentityParams
 &
 params
@@ -141,9 +132,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 CreateFromPEMStrings
@@ -166,9 +154,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 CreateFromPEMChainStrings
@@ -329,9 +314,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 CloneInternal
@@ -351,9 +333,6 @@ BoringSSLIdentity
 CreateInternal
 (
 const
-rtc
-:
-:
 SSLIdentityParams
 &
 params

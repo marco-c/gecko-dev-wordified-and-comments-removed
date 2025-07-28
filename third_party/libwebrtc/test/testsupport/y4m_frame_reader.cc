@@ -217,9 +217,6 @@ string_view
 >
 header
 =
-rtc
-:
-:
 split
 (
 h

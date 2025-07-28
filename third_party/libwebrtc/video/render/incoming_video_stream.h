@@ -105,9 +105,6 @@ class
 IncomingVideoStream
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -122,9 +119,6 @@ TaskQueueFactory
 task_queue_factory
 int32_t
 delay_ms
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -169,9 +163,6 @@ RTC_GUARDED_BY
 incoming_render_queue_
 )
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

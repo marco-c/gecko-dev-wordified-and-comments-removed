@@ -5118,9 +5118,6 @@ VideoStreamEncoder
 :
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -5421,9 +5418,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -7545,9 +7539,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :

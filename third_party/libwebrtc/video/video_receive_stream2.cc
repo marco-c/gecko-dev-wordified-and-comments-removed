@@ -2035,9 +2035,6 @@ Enable
 (
 )
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

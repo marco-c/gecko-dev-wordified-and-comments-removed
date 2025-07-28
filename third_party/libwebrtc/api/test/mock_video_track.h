@@ -226,7 +226,7 @@ MOCK_METHOD
 void
 AddOrUpdateSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -236,7 +236,7 @@ VideoFrame
 *
 sink
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -253,7 +253,7 @@ MOCK_METHOD
 void
 RemoveSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

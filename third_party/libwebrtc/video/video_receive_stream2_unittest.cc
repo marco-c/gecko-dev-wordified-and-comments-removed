@@ -731,9 +731,6 @@ class
 FakeVideoRenderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

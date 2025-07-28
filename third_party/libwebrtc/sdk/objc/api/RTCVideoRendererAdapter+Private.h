@@ -47,7 +47,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 VideoSinkInterface

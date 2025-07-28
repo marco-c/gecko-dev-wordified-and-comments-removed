@@ -1909,9 +1909,6 @@ VideoReceiveStreamInterface
 :
 Decoder
 decoder
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -3660,9 +3657,6 @@ num_streams
 i
 )
 {
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

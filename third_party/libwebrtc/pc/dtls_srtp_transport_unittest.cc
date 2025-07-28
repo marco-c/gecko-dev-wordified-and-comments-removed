@@ -583,7 +583,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -594,7 +594,7 @@ Create
 "
 session1
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -620,7 +620,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -631,7 +631,7 @@ Create
 "
 session1
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT

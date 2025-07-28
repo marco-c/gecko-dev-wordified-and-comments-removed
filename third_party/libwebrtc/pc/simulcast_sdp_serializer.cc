@@ -544,9 +544,6 @@ string_view
 >
 tokens
 =
-rtc
-:
-:
 split
 (
 str
@@ -628,9 +625,6 @@ string_view
 >
 rid_tokens
 =
-rtc
-:
-:
 split
 (
 token
@@ -902,9 +896,6 @@ string
 >
 string_payloads
 ;
-rtc
-:
-:
 tokenize
 (
 payload_list
@@ -1181,9 +1172,6 @@ string
 >
 tokens
 ;
-rtc
-:
-:
 tokenize
 (
 std
@@ -1859,9 +1847,6 @@ string
 >
 tokens
 ;
-rtc
-:
-:
 tokenize
 (
 std
@@ -2070,9 +2055,6 @@ string
 >
 restrictions
 ;
-rtc
-:
-:
 tokenize
 (
 tokens
@@ -2136,9 +2118,6 @@ string
 >
 parts
 ;
-rtc
-:
-:
 tokenize
 (
 restriction

@@ -315,7 +315,7 @@ void
 OnSinkWants
 (
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants

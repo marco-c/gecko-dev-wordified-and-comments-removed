@@ -688,9 +688,6 @@ worker_thread_
 void
 SetSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

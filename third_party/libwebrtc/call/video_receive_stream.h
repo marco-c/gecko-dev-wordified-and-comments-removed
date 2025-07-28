@@ -1070,9 +1070,6 @@ rtcp_send_transport
 =
 nullptr
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

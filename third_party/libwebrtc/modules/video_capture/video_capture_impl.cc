@@ -388,9 +388,6 @@ VideoCaptureImpl
 :
 RegisterCaptureDataCallback
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -135,9 +135,6 @@ absl
 string_view
 algorithm
 const
-rtc
-:
-:
 SSLIdentity
 *
 identity
@@ -174,9 +171,6 @@ absl
 string_view
 algorithm
 const
-rtc
-:
-:
 SSLIdentity
 &
 identity
@@ -377,9 +371,6 @@ kMaxSize
 size_t
 value_len
 =
-rtc
-:
-:
 hex_decode_with_delimiter
 (
 rtc
@@ -669,9 +660,6 @@ std
 string
 fingerprint
 =
-rtc
-:
-:
 hex_encode_with_delimiter
 (
 absl

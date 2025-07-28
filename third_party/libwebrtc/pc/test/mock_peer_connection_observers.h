@@ -2977,9 +2977,6 @@ v
 *
 value
 =
-rtc
-:
-:
 FromString
 <
 int
@@ -3042,9 +3039,6 @@ v
 *
 value
 =
-rtc
-:
-:
 FromString
 <
 int64_t

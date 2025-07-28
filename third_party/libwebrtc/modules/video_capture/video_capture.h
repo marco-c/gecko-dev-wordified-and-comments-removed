@@ -413,9 +413,6 @@ virtual
 void
 RegisterCaptureDataCallback
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

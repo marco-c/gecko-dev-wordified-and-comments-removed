@@ -65,7 +65,7 @@ ssl_identity
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 OpenSSLIdentity
@@ -346,6 +346,18 @@ SSLCertChain
 cert_chain_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+OpenSSLIdentity
 ;
 }
 #

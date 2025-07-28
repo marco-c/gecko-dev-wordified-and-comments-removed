@@ -128,9 +128,6 @@ source_
 }
 protected
 :
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

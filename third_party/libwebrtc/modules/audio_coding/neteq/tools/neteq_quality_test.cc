@@ -561,9 +561,6 @@ string_view
 >
 name_parts
 =
-rtc
-:
-:
 split
 (
 file_name

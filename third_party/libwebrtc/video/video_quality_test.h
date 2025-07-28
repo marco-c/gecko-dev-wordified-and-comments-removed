@@ -564,9 +564,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

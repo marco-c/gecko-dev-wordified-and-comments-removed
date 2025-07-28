@@ -145,7 +145,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 openssl
@@ -665,6 +665,9 @@ expiration_time
 *
 expiration_time
 =
+webrtc
+:
+:
 ASN1TimeToSec
 (
 CBS_data

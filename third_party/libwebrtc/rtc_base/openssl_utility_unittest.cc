@@ -185,7 +185,7 @@ gmock
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {

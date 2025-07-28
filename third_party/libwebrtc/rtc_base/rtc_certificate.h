@@ -185,9 +185,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
@@ -229,9 +226,6 @@ GetSSLCertificateChain
 )
 const
 ;
-rtc
-:
-:
 SSLIdentity
 *
 identity
@@ -295,9 +289,6 @@ protected
 explicit
 RTCCertificate
 (
-rtc
-:
-:
 SSLIdentity
 *
 identity
@@ -323,9 +314,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity_

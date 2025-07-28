@@ -530,9 +530,6 @@ override
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 webrtc

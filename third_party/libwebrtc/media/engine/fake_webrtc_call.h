@@ -1131,9 +1131,6 @@ final
 public
 VideoSendStream
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1307,17 +1304,11 @@ void
 InjectVideoSinkWants
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
 )
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1436,9 +1427,6 @@ override
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1504,9 +1492,6 @@ VideoStream
 >
 video_streams_
 ;
-rtc
-:
-:
 VideoSinkWants
 sink_wants_
 ;
@@ -1537,9 +1522,6 @@ resolution_scaling_enabled_
 bool
 framerate_scaling_enabled_
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

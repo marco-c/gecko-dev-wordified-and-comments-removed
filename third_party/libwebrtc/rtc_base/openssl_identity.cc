@@ -132,7 +132,7 @@ openssl_utility
 h
 "
 namespace
-rtc
+webrtc
 {
 OpenSSLIdentity
 :

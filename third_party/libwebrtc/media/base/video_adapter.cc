@@ -2101,7 +2101,7 @@ VideoAdapter
 OnSinkWants
 (
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants

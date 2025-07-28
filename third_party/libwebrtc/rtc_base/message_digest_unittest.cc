@@ -136,9 +136,6 @@ EXPECT_EQ
 "
 900150983cd24fb0d6963f7d28e17f72
 "
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -255,9 +252,6 @@ EXPECT_EQ
 "
 a9993e364706816aba3e25717850c26c9cd0d89d
 "
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -678,9 +672,6 @@ EXPECT_EQ
 "
 9294727a3638bb1c13f48ef8158bfc9d
 "
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -1076,9 +1067,6 @@ EXPECT_EQ
 "
 b617318655057264e28bc0b6fb378c8ef146be00
 "
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -1240,9 +1228,6 @@ EXPECT_EQ
 "
 47b4b1169912ba4f53684b22
 "
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -1334,9 +1319,6 @@ b0344c61d8db38535ca8afceaf0bf12b
 "
 881dc200c9833da726e9376c2e32cff7
 "
-rtc
-:
-:
 hex_encode
 (
 absl

@@ -716,9 +716,6 @@ pair
 -
 >
 capture_tap_
-rtc
-:
-:
 VideoSinkWants
 (
 )

@@ -166,9 +166,6 @@ FakePeriodicVideoSource
 final
 :
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -365,9 +362,6 @@ frame_interval
 )
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 wants
 (
@@ -430,9 +424,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -534,9 +525,6 @@ mutable
 Mutex
 mutex_
 ;
-rtc
-:
-:
 VideoSinkWants
 wants_
 RTC_GUARDED_BY

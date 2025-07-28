@@ -409,9 +409,6 @@ return
 track_with_source
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 TriggerOveruseAndGetSinkWants
 (

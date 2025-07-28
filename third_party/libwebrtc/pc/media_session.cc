@@ -3532,9 +3532,6 @@ UniqueRandomIdGenerator
 *
 ssrc_generator
 const
-cricket
-:
-:
 TransportDescriptionFactory
 *
 transport_desc_factory
@@ -5589,9 +5586,6 @@ string
 &
 content_name
 const
-cricket
-:
-:
 TransportOptions
 &
 transport_options
@@ -5725,9 +5719,6 @@ SessionDescription
 *
 offer_desc
 const
-cricket
-:
-:
 TransportOptions
 &
 transport_options

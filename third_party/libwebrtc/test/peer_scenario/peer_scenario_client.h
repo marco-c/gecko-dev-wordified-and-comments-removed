@@ -720,9 +720,6 @@ std
 :
 string
 track_id
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -919,9 +916,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

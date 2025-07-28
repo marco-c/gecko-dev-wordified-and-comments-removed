@@ -2957,9 +2957,6 @@ VideoSendStreamImpl
 :
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 webrtc

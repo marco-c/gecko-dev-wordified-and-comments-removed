@@ -567,9 +567,6 @@ nack_count_
 RttFilter
 rtt_filter_
 ;
-rtc
-:
-:
 RollingAccumulator
 <
 uint64_t

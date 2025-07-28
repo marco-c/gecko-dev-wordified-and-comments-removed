@@ -144,9 +144,6 @@ MediaStreamTrack
 VideoTrackInterface
 >
 public
-rtc
-:
-:
 VideoSourceBaseGuarded
 public
 ObserverInterface
@@ -184,9 +181,6 @@ worker_thread
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -194,9 +188,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -206,9 +197,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

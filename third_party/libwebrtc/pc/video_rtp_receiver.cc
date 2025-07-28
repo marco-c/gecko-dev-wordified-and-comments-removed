@@ -861,9 +861,6 @@ VideoRtpReceiver
 :
 SetSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

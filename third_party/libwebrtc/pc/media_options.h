@@ -287,6 +287,9 @@ direction
 bool
 stopped
 ;
+webrtc
+:
+:
 TransportOptions
 transport_options
 ;

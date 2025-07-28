@@ -437,9 +437,6 @@ network_route
 void
 OnSentPacket
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 packet_transport

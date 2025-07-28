@@ -178,9 +178,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -200,9 +197,6 @@ sink
 wants
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 modified_wants
 =
@@ -460,9 +454,6 @@ sink_pairs
 )
 )
 {
-rtc
-:
-:
 VideoSinkWants
 modified_wants
 =

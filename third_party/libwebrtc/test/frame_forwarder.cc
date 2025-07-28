@@ -82,9 +82,6 @@ FrameForwarder
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -92,9 +89,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -120,9 +114,6 @@ FrameForwarder
 :
 AddOrUpdateSinkLocked
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -130,9 +121,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -165,9 +153,6 @@ FrameForwarder
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -194,9 +179,6 @@ sink_
 nullptr
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 FrameForwarder
 :
@@ -217,9 +199,6 @@ return
 sink_wants_
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 FrameForwarder
 :

@@ -2726,9 +2726,6 @@ if
 restrictions_
 )
 {
-rtc
-:
-:
 VideoSinkWants
 wants
 ;
@@ -2791,9 +2788,6 @@ aggregates
 .
 emplace
 (
-rtc
-:
-:
 VideoSinkWants
 :
 :

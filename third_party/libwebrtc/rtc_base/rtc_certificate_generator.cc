@@ -85,9 +85,6 @@ RTCCertificateGenerator
 GenerateCertificate
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params
@@ -122,9 +119,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
@@ -137,9 +131,6 @@ expires_ms
 {
 identity
 =
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -184,9 +175,6 @@ expires_s
 ;
 identity
 =
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -264,9 +252,6 @@ RTCCertificateGenerator
 GenerateCertificateAsync
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params

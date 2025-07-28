@@ -3345,15 +3345,9 @@ std
 string
 &
 transport_name
-rtc
-:
-:
 PacketTransportInternal
 *
 rtp_packet_transport
-rtc
-:
-:
 PacketTransportInternal
 *
 rtcp_packet_transport
@@ -7469,9 +7463,6 @@ JsepTransportController
 :
 OnTransportWritableState_n
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -7526,9 +7517,6 @@ JsepTransportController
 :
 OnTransportReceivingState_n
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport

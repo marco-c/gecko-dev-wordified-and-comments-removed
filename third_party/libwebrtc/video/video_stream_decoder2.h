@@ -134,9 +134,6 @@ video_receiver
 ReceiveStatisticsProxy
 *
 receive_statistics_proxy
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -202,9 +199,6 @@ ReceiveStatisticsProxy
 const
 receive_stats_callback_
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

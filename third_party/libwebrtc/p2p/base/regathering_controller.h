@@ -195,9 +195,6 @@ IceTransportInternal
 void
 OnIceTransportWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 )
@@ -206,9 +203,6 @@ PacketTransportInternal
 void
 OnIceTransportReceivingState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 )

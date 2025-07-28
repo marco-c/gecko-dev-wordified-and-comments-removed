@@ -82,9 +82,6 @@ VideoWriter
 final
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

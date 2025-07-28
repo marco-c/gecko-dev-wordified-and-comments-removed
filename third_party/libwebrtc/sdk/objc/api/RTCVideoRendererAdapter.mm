@@ -43,9 +43,6 @@ class
 VideoRendererAdapter
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 webrtc
@@ -258,7 +255,7 @@ self
 }
 -
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

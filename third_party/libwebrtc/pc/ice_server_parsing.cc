@@ -882,9 +882,6 @@ string_view
 >
 tokens
 =
-rtc
-:
-:
 split
 (
 url
@@ -928,9 +925,6 @@ string_view
 >
 transport_tokens
 =
-rtc
-:
-:
 split
 (
 tokens

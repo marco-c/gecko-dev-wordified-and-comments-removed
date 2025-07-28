@@ -923,9 +923,6 @@ clock
 VideoFrameMatcher
 *
 matcher
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1026,9 +1023,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants

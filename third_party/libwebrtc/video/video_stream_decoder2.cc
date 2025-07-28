@@ -96,9 +96,6 @@ video_receiver
 ReceiveStatisticsProxy
 *
 receive_statistics_proxy
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

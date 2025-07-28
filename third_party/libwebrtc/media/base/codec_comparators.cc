@@ -1043,9 +1043,6 @@ string_view
 >
 redundant_payloads_1
 =
-rtc
-:
-:
 split
 (
 red_parameters_1
@@ -1069,9 +1066,6 @@ string_view
 >
 redundant_payloads_2
 =
-rtc
-:
-:
 split
 (
 red_parameters_2
@@ -1127,9 +1121,6 @@ red_value_2
 ;
 if
 (
-rtc
-:
-:
 FromString
 (
 redundant_payloads_1
@@ -1141,9 +1132,6 @@ red_value_1
 )
 &
 &
-rtc
-:
-:
 FromString
 (
 redundant_payloads_2

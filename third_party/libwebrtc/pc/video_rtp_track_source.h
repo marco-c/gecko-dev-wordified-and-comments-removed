@@ -201,9 +201,6 @@ frame
 )
 const
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -214,9 +211,6 @@ source
 )
 override
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -242,9 +236,6 @@ override
 void
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -257,9 +248,6 @@ override
 void
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -281,9 +269,6 @@ SequenceChecker
 kDetached
 }
 ;
-rtc
-:
-:
 VideoBroadcaster
 broadcaster_
 ;
@@ -296,9 +281,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

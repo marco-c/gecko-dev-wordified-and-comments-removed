@@ -256,13 +256,6 @@ rtp_rtcp_defines
 h
 "
 namespace
-rtc
-{
-class
-TimestampWrapAroundHandler
-;
-}
-namespace
 webrtc
 {
 class

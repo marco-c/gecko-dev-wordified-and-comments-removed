@@ -829,9 +829,6 @@ content
 "
 <
 <
-rtc
-:
-:
 hex_encode_with_delimiter
 (
 absl

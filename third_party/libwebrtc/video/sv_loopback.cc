@@ -2351,9 +2351,6 @@ GetFlag
 FLAGS_slides
 )
 ;
-rtc
-:
-:
 tokenize
 (
 slides_list

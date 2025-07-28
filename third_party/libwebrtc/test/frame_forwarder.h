@@ -47,9 +47,6 @@ class
 FrameForwarder
 :
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -81,9 +78,6 @@ RTC_LOCKS_EXCLUDED
 mutex_
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 sink_wants
 (
@@ -106,9 +100,6 @@ mutex_
 ;
 protected
 :
-rtc
-:
-:
 VideoSinkWants
 sink_wants_locked
 (
@@ -122,9 +113,6 @@ mutex_
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -132,9 +120,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -148,9 +133,6 @@ override
 void
 AddOrUpdateSinkLocked
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -158,9 +140,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -173,9 +152,6 @@ mutex_
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -193,9 +169,6 @@ mutable
 Mutex
 mutex_
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -207,9 +180,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 sink_wants_
 RTC_GUARDED_BY

@@ -3863,9 +3863,6 @@ leftpart
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 message
@@ -6244,9 +6241,6 @@ candidate_value
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 first_line
@@ -6336,9 +6330,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 candidate_value
@@ -7284,9 +7275,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 ice_options
@@ -7363,9 +7351,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -7390,9 +7375,6 @@ expected_min_fields
 {
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -7428,9 +7410,6 @@ error
 if
 (
 !
-rtc
-:
-:
 FromString
 (
 fields
@@ -7494,9 +7473,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -7531,9 +7507,6 @@ error
 if
 (
 !
-rtc
-:
-:
 FromString
 (
 fields
@@ -7592,9 +7565,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -7681,9 +7651,6 @@ string_view
 >
 sub_fields
 =
-rtc
-:
-:
 split
 (
 value_direction
@@ -10718,9 +10685,6 @@ false
 if
 (
 !
-rtc
-:
-:
 FromString
 (
 found
@@ -11847,9 +11811,6 @@ rightpart
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 line
@@ -11881,9 +11842,6 @@ error
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 rightpart
@@ -11931,9 +11889,6 @@ error
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 rightpart
@@ -12238,9 +12193,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -12970,9 +12922,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -13094,9 +13043,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -13253,9 +13199,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -13397,9 +13340,6 @@ fields
 size_t
 num_fields
 =
-rtc
-:
-:
 tokenize
 (
 line
@@ -15428,9 +15368,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 mline
@@ -15499,9 +15436,6 @@ port
 if
 (
 !
-rtc
-:
-:
 FromString
 <
 int
@@ -15849,9 +15783,6 @@ p
 ;
 if
 (
-rtc
-:
-:
 FromString
 (
 fields
@@ -17552,9 +17483,6 @@ bandwidth_type
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 line
@@ -19808,9 +19736,6 @@ field2
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 line
@@ -19902,9 +19827,6 @@ value
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 field2
@@ -20080,9 +20002,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 value
@@ -20248,9 +20167,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -20609,9 +20525,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -20758,9 +20671,6 @@ string_view
 >
 codec_params
 =
-rtc
-:
-:
 split
 (
 fields
@@ -21225,9 +21135,6 @@ error
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 line
@@ -21288,9 +21195,6 @@ absl
 :
 string_view
 param
-:
-rtc
-:
 :
 split
 (
@@ -21459,9 +21363,6 @@ line_params
 if
 (
 !
-rtc
-:
-:
 tokenize_first
 (
 line
@@ -21645,9 +21546,6 @@ string_view
 >
 packetization_fields
 =
-rtc
-:
-:
 split
 (
 line
@@ -21806,9 +21704,6 @@ string_view
 >
 rtcp_fb_fields
 =
-rtc
-:
-:
 split
 (
 line

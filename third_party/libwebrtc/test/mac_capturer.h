@@ -87,9 +87,6 @@ MacCapturer
 public
 TestVideoCapturer
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

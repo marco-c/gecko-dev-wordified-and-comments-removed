@@ -1607,17 +1607,11 @@ der
 )
 {
 return
-rtc
-:
-:
 SSLIdentity
 :
 :
 DerToPem
 (
-rtc
-:
-:
 kPemTypeCertificate
 reinterpret_cast
 <

@@ -84,9 +84,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
@@ -115,9 +112,6 @@ RTCCertificate
 :
 RTCCertificate
 (
-rtc
-:
-:
 SSLIdentity
 *
 identity
@@ -295,16 +289,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
 (
-rtc
-:
-:
 SSLIdentity
 :
 :

@@ -393,9 +393,6 @@ Size
 )
 ;
 return
-rtc
-:
-:
 hex_encode
 (
 absl
@@ -994,9 +991,6 @@ Size
 )
 ;
 return
-rtc
-:
-:
 hex_encode
 (
 absl

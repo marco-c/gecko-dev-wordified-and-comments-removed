@@ -1666,9 +1666,6 @@ string
 >
 tokens
 ;
-rtc
-:
-:
 tokenize
 (
 params

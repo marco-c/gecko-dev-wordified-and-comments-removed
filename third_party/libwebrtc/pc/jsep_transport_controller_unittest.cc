@@ -3831,9 +3831,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -3842,9 +3839,6 @@ Create
 "
 session1
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )
@@ -4002,9 +3996,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -4013,9 +4004,6 @@ Create
 "
 session2
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )
@@ -4203,9 +4191,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -4214,9 +4199,6 @@ Create
 "
 offer
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )
@@ -4229,9 +4211,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -4240,9 +4219,6 @@ Create
 "
 answer
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )

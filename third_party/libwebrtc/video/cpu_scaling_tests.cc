@@ -325,9 +325,6 @@ kHeight
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -335,9 +332,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants

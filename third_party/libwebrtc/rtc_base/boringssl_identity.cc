@@ -361,9 +361,6 @@ BoringSSLIdentity
 CreateInternal
 (
 const
-rtc
-:
-:
 SSLIdentityParams
 &
 params
@@ -481,9 +478,6 @@ absl
 string_view
 common_name
 const
-rtc
-:
-:
 KeyParams
 &
 key_params
@@ -491,9 +485,6 @@ time_t
 certificate_lifetime
 )
 {
-rtc
-:
-:
 SSLIdentityParams
 params
 ;
@@ -529,9 +520,6 @@ not_before
 =
 now
 +
-rtc
-:
-:
 kCertificateWindowInSeconds
 ;
 params
@@ -575,9 +563,6 @@ BoringSSLIdentity
 CreateForTest
 (
 const
-rtc
-:
-:
 SSLIdentityParams
 &
 params
@@ -595,9 +580,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 BoringSSLIdentity
@@ -733,9 +715,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 BoringSSLIdentity
@@ -1224,9 +1203,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 BoringSSLIdentity

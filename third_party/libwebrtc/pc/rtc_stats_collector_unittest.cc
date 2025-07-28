@@ -1107,9 +1107,6 @@ pems
 .
 push_back
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -1901,9 +1898,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -2125,9 +2119,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants

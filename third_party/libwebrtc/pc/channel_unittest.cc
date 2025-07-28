@@ -1455,7 +1455,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1466,7 +1466,7 @@ Create
 "
 session1
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -1621,7 +1621,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1632,7 +1632,7 @@ Create
 "
 session2
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -1928,13 +1928,13 @@ RtpTransportInternal
 >
 CreateRtpTransportBasedOnFlags
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
 *
 rtp_packet_transport
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -2099,13 +2099,13 @@ RtpTransport
 >
 CreateUnencryptedTransport
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
 *
 rtp_packet_transport
-rtc
+webrtc
 :
 :
 PacketTransportInternal

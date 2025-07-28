@@ -156,9 +156,6 @@ class
 FrameObserver
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -197,7 +197,7 @@ webrtc
 :
 Resolution
 ;
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -221,7 +221,7 @@ sink_alignment
 1
 )
 {
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -263,7 +263,7 @@ aggregates
 .
 emplace
 (
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -287,7 +287,7 @@ return
 wants
 ;
 }
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -308,7 +308,7 @@ bool
 any_active_without_requested_resolution
 )
 {
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -343,7 +343,7 @@ requested_resolution
 .
 emplace
 (
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -369,7 +369,7 @@ aggregates
 .
 emplace
 (
-rtc
+webrtc
 :
 :
 VideoSinkWants

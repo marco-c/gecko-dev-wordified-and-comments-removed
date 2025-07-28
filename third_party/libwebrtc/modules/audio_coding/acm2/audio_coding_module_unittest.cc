@@ -3853,9 +3853,6 @@ size
 ;
 checksum_string
 =
-rtc
-:
-:
 hex_encode
 (
 checksum_result

@@ -70,9 +70,6 @@ VideoFrame
 >
 *
 sink
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -117,9 +114,6 @@ VideoSourceSinkController
 :
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -134,9 +128,6 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -256,9 +247,6 @@ source_
 )
 return
 ;
-rtc
-:
-:
 VideoSinkWants
 wants
 =
@@ -389,9 +377,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -440,9 +425,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -612,9 +594,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -672,9 +651,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -700,9 +676,6 @@ scale_resolution_down_to
 )
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 VideoSourceSinkController
 :
@@ -712,9 +685,6 @@ CurrentSettingsToSinkWants
 )
 const
 {
-rtc
-:
-:
 VideoSinkWants
 wants
 ;

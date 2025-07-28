@@ -69,7 +69,7 @@ ssl_identity
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 OpenSSLCertificate
@@ -291,6 +291,18 @@ X509
 x509_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+OpenSSLCertificate
 ;
 }
 #

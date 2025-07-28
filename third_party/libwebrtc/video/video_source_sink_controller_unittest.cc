@@ -77,9 +77,6 @@ namespace
 using
 FrameSize
 =
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -106,9 +103,6 @@ class
 MockVideoSinkWithVideoFrame
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -155,9 +149,6 @@ class
 MockVideoSourceWithVideoFrame
 :
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -177,7 +168,7 @@ MOCK_METHOD
 void
 AddOrUpdateSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -186,7 +177,7 @@ VideoFrame
 >
 *
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -202,7 +193,7 @@ MOCK_METHOD
 void
 RemoveSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -346,9 +337,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -502,9 +490,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -584,9 +569,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -680,9 +662,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -768,9 +747,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -946,9 +922,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -1039,9 +1012,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants

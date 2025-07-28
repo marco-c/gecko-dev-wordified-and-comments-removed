@@ -2310,9 +2310,6 @@ Field
 max_framerate_fps
 "
 &
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -2338,9 +2335,6 @@ Field
 max_pixel_count
 "
 &
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -2388,9 +2382,6 @@ Field
 target_pixel_count
 "
 &
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -2650,9 +2641,6 @@ Field
 max_framerate_fps
 "
 &
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -2665,9 +2653,6 @@ auto
 FpsEqResolutionEqTo
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2701,9 +2686,6 @@ auto
 FpsMaxResolutionLt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2731,9 +2713,6 @@ auto
 FpsUnlimitedResolutionLt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2761,9 +2740,6 @@ auto
 FpsMaxResolutionGt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2791,9 +2767,6 @@ auto
 FpsUnlimitedResolutionGt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2821,9 +2794,6 @@ auto
 FpsLtResolutionEq
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2857,9 +2827,6 @@ auto
 FpsGtResolutionEq
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2893,9 +2860,6 @@ auto
 FpsEqResolutionLt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -2929,9 +2893,6 @@ auto
 FpsEqResolutionGt
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 other_wants
@@ -3125,9 +3086,6 @@ fake_adaptation_constraint_
 void
 SetSourceAndWaitForRestrictionsUpdated
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -3183,9 +3141,6 @@ listener
 void
 SetSourceAndWaitForFramerateUpdated
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -3749,9 +3704,6 @@ return
 adaptation_enabled_
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 last_wants
 (
@@ -4216,9 +4168,6 @@ max_fps
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -4226,9 +4175,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -4242,9 +4188,6 @@ lock
 mutex_
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 prev_wants
 =
@@ -4343,9 +4286,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants_
 RTC_GUARDED_BY
@@ -5407,9 +5347,6 @@ class
 MockVideoSourceInterface
 :
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -5422,7 +5359,7 @@ MOCK_METHOD
 void
 AddOrUpdateSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5431,7 +5368,7 @@ VideoFrame
 >
 *
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -5447,7 +5384,7 @@ MOCK_METHOD
 void
 RemoveSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -16000,9 +15937,6 @@ sink_wants
 )
 .
 requested_resolution
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -16063,9 +15997,6 @@ sink_wants
 )
 .
 requested_resolution
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -17351,9 +17282,6 @@ GetStats
 number_of_cpu_adapt_changes
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants
 ;
@@ -25570,9 +25498,6 @@ i
 kFrameIntervalMs
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants
 =
@@ -29158,9 +29083,6 @@ last_wants
 )
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants
 =
@@ -41293,9 +41215,6 @@ CurrentTimeMs
 (
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants
 ;
@@ -42161,9 +42080,6 @@ last_wants
 )
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 last_wants
 =
@@ -50688,9 +50604,6 @@ testing
 ElementsAreArray
 (
 {
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -50754,9 +50667,6 @@ kFrameHeight
 720
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -50778,9 +50688,6 @@ kDownscaleFactors
 )
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -50802,9 +50709,6 @@ kDownscaleFactors
 )
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -54816,9 +54720,6 @@ kFrameHeight
 720
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -54840,9 +54741,6 @@ kDownscaleFactors
 )
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :
@@ -54864,9 +54762,6 @@ kDownscaleFactors
 )
 ;
 const
-rtc
-:
-:
 VideoSinkWants
 :
 :

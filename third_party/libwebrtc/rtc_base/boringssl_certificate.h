@@ -132,9 +132,6 @@ OpenSSLKeyPair
 *
 key_pair
 const
-rtc
-:
-:
 SSLIdentityParams
 &
 params

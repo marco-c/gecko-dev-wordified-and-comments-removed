@@ -885,9 +885,6 @@ virtual
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 webrtc

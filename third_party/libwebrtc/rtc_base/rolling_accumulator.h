@@ -42,7 +42,7 @@ running_statistics
 h
 "
 namespace
-rtc
+webrtc
 {
 template
 <
@@ -146,9 +146,6 @@ Reset
 {
 stats_
 =
-webrtc
-:
-:
 webrtc_impl
 :
 :
@@ -684,9 +681,6 @@ value_or
 }
 private
 :
-webrtc
-:
-:
 webrtc_impl
 :
 :
@@ -725,6 +719,18 @@ T
 samples_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+RollingAccumulator
 ;
 }
 #
