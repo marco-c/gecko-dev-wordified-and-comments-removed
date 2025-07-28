@@ -95,15 +95,3 @@ browser_taskbarTabs_windowTracker
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-msix
-"
-]
-#
-Bug
-1979243
