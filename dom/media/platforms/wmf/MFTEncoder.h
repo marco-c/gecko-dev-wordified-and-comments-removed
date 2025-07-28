@@ -617,6 +617,11 @@ GUID
 aSubtype
 )
 ;
+HRESULT
+UpdateOutputType
+(
+)
+;
 using
 AsyncMFTResult
 =
