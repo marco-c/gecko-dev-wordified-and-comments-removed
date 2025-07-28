@@ -716,6 +716,11 @@ a
 .
 o
 "
+"
+cfi_ignorelist
+.
+txt
+"
 ]
 }
 fg

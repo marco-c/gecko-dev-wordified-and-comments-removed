@@ -129,7 +129,7 @@ BUILD
 .
 gn
 index
-716b48be1
+a71603fb1
 .
 .
 e656a35e2
@@ -194,7 +194,7 @@ defines
 "
 NTDDI_VERSION
 =
-NTDDI_WIN10_NI
+NTDDI_WIN11_GE
 "
 +
 "

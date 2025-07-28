@@ -2096,6 +2096,10 @@ clang_unsafe_buffers_paths
 =
 "
 "
+clang_warning_suppression_file
+=
+"
+"
 }
 #
 =
@@ -3651,6 +3655,14 @@ current_os
 =
 "
 nacl
+"
+is_wasm
+=
+current_os
+=
+=
+"
+emscripten
 "
 is_watchos
 =

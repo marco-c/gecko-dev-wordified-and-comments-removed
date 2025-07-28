@@ -7,7 +7,7 @@ mock
 import
 test_runner
 class
-UploadExceptionTest
+UploadTestScriptRecordsTest
 (
 unittest
 .
@@ -41,9 +41,19 @@ mock
 MagicMock
 (
 )
+    
+self
+.
+mm_recorder
+=
+mock
+.
+MagicMock
+(
+)
   
 def
-testNoExceptions
+testNoRecords
 (
 self
 )
@@ -59,9 +69,19 @@ return_value
 =
 0
     
+self
+.
+mm_recorder
+.
+size
+.
+return_value
+=
+0
+    
 test_runner
 .
-UploadExceptions
+UploadTestScriptRecords
 (
 self
 .
@@ -69,11 +89,25 @@ sink_client
 self
 .
 exc_recorder
+                                        
+self
+.
+mm_recorder
 )
     
 self
 .
 exc_recorder
+.
+to_dict
+.
+assert_not_called
+(
+)
+    
+self
+.
+mm_recorder
 .
 to_dict
 .
@@ -100,7 +134,7 @@ self
     
 test_runner
 .
-UploadExceptions
+UploadTestScriptRecords
 (
 self
 .
@@ -108,11 +142,25 @@ sink_client
 self
 .
 exc_recorder
+                                        
+self
+.
+mm_recorder
 )
     
 self
 .
 exc_recorder
+.
+to_dict
+.
+assert_called_once
+(
+)
+    
+self
+.
+mm_recorder
 .
 to_dict
 .
@@ -133,6 +181,16 @@ assert_called_once
 self
 .
 exc_recorder
+.
+clear
+.
+assert_called_once
+(
+)
+    
+self
+.
+mm_recorder
 .
 clear
 .
@@ -170,7 +228,7 @@ None
     
 test_runner
 .
-UploadExceptions
+UploadTestScriptRecords
 (
 self
 .
@@ -178,6 +236,10 @@ sink_client
 self
 .
 exc_recorder
+                                        
+self
+.
+mm_recorder
 )
     
 self
@@ -187,6 +249,20 @@ assertEqual
 self
 .
 exc_recorder
+.
+to_dict
+.
+call_count
+2
+)
+    
+self
+.
+assertEqual
+(
+self
+.
+mm_recorder
 .
 to_dict
 .
@@ -222,6 +298,16 @@ assert_called_once
 self
 .
 exc_recorder
+.
+clear
+.
+assert_called_once
+(
+)
+    
+self
+.
+mm_recorder
 .
 clear
 .
@@ -266,7 +352,7 @@ None
     
 test_runner
 .
-UploadExceptions
+UploadTestScriptRecords
 (
 self
 .
@@ -274,6 +360,10 @@ sink_client
 self
 .
 exc_recorder
+                                        
+self
+.
+mm_recorder
 )
     
 self
@@ -283,6 +373,20 @@ assertEqual
 self
 .
 exc_recorder
+.
+to_dict
+.
+call_count
+3
+)
+    
+self
+.
+assertEqual
+(
+self
+.
+mm_recorder
 .
 to_dict
 .
@@ -334,6 +438,16 @@ self
 exc_recorder
 .
 register
+.
+assert_called_once
+(
+)
+    
+self
+.
+mm_recorder
+.
+clear
 .
 assert_called_once
 (
@@ -366,7 +480,7 @@ Error
     
 test_runner
 .
-UploadExceptions
+UploadTestScriptRecords
 (
 self
 .
@@ -374,6 +488,10 @@ sink_client
 self
 .
 exc_recorder
+                                        
+self
+.
+mm_recorder
 )
     
 self
@@ -383,6 +501,20 @@ assertEqual
 self
 .
 exc_recorder
+.
+to_dict
+.
+call_count
+3
+)
+    
+self
+.
+assertEqual
+(
+self
+.
+mm_recorder
 .
 to_dict
 .
@@ -434,6 +566,16 @@ self
 exc_recorder
 .
 register
+.
+assert_called_once
+(
+)
+    
+self
+.
+mm_recorder
+.
+clear
 .
 assert_called_once
 (

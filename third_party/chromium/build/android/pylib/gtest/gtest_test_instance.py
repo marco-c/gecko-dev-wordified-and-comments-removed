@@ -1329,6 +1329,13 @@ not
 launcher_main_start_match
 :
       
+log
+.
+append
+(
+l
+)
+      
 if
 not
 matcher
@@ -1342,16 +1349,6 @@ l
 :
         
 stack
-.
-append
-(
-l
-)
-      
-else
-:
-        
-log
 .
 append
 (

@@ -25,7 +25,7 @@ ToGNString
 TOOLCHAIN_HASH
 =
 '
-7393122652
+076960eda6
 '
 SDK_VERSION
 =
@@ -34,7 +34,7 @@ SDK_VERSION
 .
 0
 .
-22621
+26100
 .
 0
 '

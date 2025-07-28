@@ -63,6 +63,18 @@ MockNotUsedInProduction
 '
     
 '
+PatternMatchingInstanceof
+'
+    
+'
+AssignmentExpression
+'
+    
+'
+RuleNotRun
+'
+    
+'
 JdkObsolete
 '
     
@@ -231,11 +243,19 @@ StringCharset
 '
     
 '
+StringConcatToTextBlock
+'
+    
+'
 StringCaseLocaleUsage
 '
     
 '
 RedundantControlFlow
+'
+    
+'
+StatementSwitchToExpressionSwitch
 '
 ]
 ERRORPRONE_WARNINGS_TO_ENABLE

@@ -32,6 +32,13 @@ this
 message
 .
 -
+Werror
+Treat
+warnings
+as
+errors
+.
+-
 I
 <
 dir
@@ -249,6 +256,10 @@ show_includes
 =
 False
   
+werror
+=
+False
+  
 for
 flag
 in
@@ -454,6 +465,20 @@ show_includes
 True
     
 elif
+flag
+=
+=
+'
+-
+Werror
+'
+:
+      
+werror
+=
+True
+    
+elif
 (
 flag
 .
@@ -652,6 +677,9 @@ input
 '
 show_includes
 '
+'
+werror
+'
   
 ]
 )
@@ -686,6 +714,10 @@ input
 show_includes
 =
 show_includes
+               
+werror
+=
+werror
 )
 def
 ReadInput
@@ -1042,6 +1074,22 @@ append
 '
 /
 showIncludes
+'
+)
+  
+if
+flags
+.
+werror
+:
+    
+clang_cmd
+.
+append
+(
+'
+/
+WX
 '
 )
   

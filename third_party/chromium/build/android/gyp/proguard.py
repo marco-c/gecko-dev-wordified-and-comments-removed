@@ -251,6 +251,25 @@ IgnoreJRERequirement
     
 r
 '
+Missing
+class
+.
+*
+androidx
+.
+appsearch
+.
+platformstorage
+.
+converter
+.
+*
+\
+ApiHelperForB
+'
+    
+r
+'
 Warning
 :
 Invalid
@@ -2717,7 +2736,7 @@ tools
 .
 r8
 .
-experimentalTraceEnumReflection
+experimentalTraceAndroidEnumSerialization
 =
 1
 '

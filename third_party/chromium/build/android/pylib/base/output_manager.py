@@ -135,7 +135,7 @@ TEXT
 Archive
 file
 contents
-asynchonously
+asynchronously
 and
 then
 deletes

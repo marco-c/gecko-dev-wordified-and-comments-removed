@@ -686,7 +686,7 @@ AppleTVSimulator
 else
 if
 (
-target_environement
+target_environment
 =
 =
 "
@@ -697,7 +697,7 @@ device
 ios_sdk_name
 =
 "
-appletv
+appletvos
 "
 ios_sdk_platform
 =

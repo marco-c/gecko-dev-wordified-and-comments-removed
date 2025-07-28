@@ -68,14 +68,10 @@ offer
 :
 [
 {
-protocol
+dictionary
 :
 "
-fuchsia
-.
-logger
-.
-LogSink
+diagnostics
 "
 from
 :

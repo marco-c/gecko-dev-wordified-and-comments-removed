@@ -202,12 +202,12 @@ flags
 "
 CHROMIUM_BRANDING
 =
-0
+false
 "
 "
 GOOGLE_CHROME_BRANDING
 =
-1
+true
 "
 ]
 }
@@ -219,12 +219,12 @@ flags
 "
 CHROMIUM_BRANDING
 =
-1
+true
 "
 "
 GOOGLE_CHROME_BRANDING
 =
-0
+false
 "
 ]
 }
@@ -252,7 +252,7 @@ flags
 "
 CHROME_FOR_TESTING
 =
-1
+true
 "
 ]
 }
@@ -265,7 +265,7 @@ flags
 "
 CHROME_FOR_TESTING
 =
-0
+false
 "
 ]
 }
@@ -302,7 +302,7 @@ flags
 "
 GOOGLE_CHROME_FOR_TESTING_BRANDING
 =
-1
+true
 "
 ]
 }
@@ -315,7 +315,7 @@ flags
 "
 GOOGLE_CHROME_FOR_TESTING_BRANDING
 =
-0
+false
 "
 ]
 }

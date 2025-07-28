@@ -165,14 +165,10 @@ isolated_archivist
 "
 }
 {
-protocol
+dictionary
 :
 "
-fuchsia
-.
-logger
-.
-LogSink
+diagnostics
 "
 from
 :

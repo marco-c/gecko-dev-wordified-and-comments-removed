@@ -66,10 +66,6 @@ _IGNORED_JAR_PATHS
 [
     
 '
-third_party
-/
-android_deps
-/
 cipd
 /
 libs

@@ -102,6 +102,15 @@ gio
 .
 0
 "
+"
+gio
+-
+unix
+-
+2
+.
+0
+"
 ]
 defines
 =
