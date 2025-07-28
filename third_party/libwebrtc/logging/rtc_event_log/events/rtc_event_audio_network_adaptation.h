@@ -274,9 +274,6 @@ std
 string
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const

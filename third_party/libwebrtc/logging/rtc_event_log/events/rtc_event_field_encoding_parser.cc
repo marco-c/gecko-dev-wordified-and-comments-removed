@@ -1948,9 +1948,6 @@ Success
 }
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 absl
@@ -1977,9 +1974,6 @@ StatusOr
 =
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 absl
@@ -2023,9 +2017,6 @@ StatusOr
 status
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 absl
@@ -2083,9 +2074,6 @@ strings
 }
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 uint64_t
@@ -2109,9 +2097,6 @@ StatusOr
 =
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 uint64_t
@@ -2152,9 +2137,6 @@ StatusOr
 status
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint64_t

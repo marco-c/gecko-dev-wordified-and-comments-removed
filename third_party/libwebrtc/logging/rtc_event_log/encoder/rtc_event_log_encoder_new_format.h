@@ -274,9 +274,6 @@ private
 void
 EncodeAlrState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -295,9 +292,6 @@ event_stream
 void
 EncodeAudioNetworkAdaptation
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -316,9 +310,6 @@ event_stream
 void
 EncodeAudioPlayout
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -337,9 +328,6 @@ event_stream
 void
 EncodeAudioRecvStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -358,9 +346,6 @@ event_stream
 void
 EncodeAudioSendStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -379,9 +364,6 @@ event_stream
 void
 EncodeBweUpdateDelayBased
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -400,9 +382,6 @@ event_stream
 void
 EncodeBweUpdateLossBased
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -421,9 +400,6 @@ event_stream
 void
 EncodeDtlsTransportState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -442,9 +418,6 @@ event_stream
 void
 EncodeDtlsWritableState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -463,9 +436,6 @@ event_stream
 void
 EncodeFramesDecoded
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -485,9 +455,6 @@ event_stream
 void
 EncodeGenericAcksReceived
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -506,9 +473,6 @@ event_stream
 void
 EncodeGenericPacketsReceived
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -527,9 +491,6 @@ event_stream
 void
 EncodeGenericPacketsSent
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -548,9 +509,6 @@ event_stream
 void
 EncodeIceCandidatePairConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -569,9 +527,6 @@ event_stream
 void
 EncodeIceCandidatePairEvent
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -590,9 +545,6 @@ event_stream
 void
 EncodeLoggingStarted
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -611,9 +563,6 @@ event_stream
 void
 EncodeLoggingStopped
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -632,9 +581,6 @@ event_stream
 void
 EncodeNetEqSetMinimumDelay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -653,9 +599,6 @@ event_stream
 void
 EncodeProbeClusterCreated
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -674,9 +617,6 @@ event_stream
 void
 EncodeProbeResultFailure
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -695,9 +635,6 @@ event_stream
 void
 EncodeProbeResultSuccess
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -716,9 +653,6 @@ event_stream
 void
 EncodeRouteChange
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -737,9 +671,6 @@ event_stream
 void
 EncodeRemoteEstimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -758,9 +689,6 @@ event_stream
 void
 EncodeRtcpPacketIncoming
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -779,9 +707,6 @@ event_stream
 void
 EncodeRtcpPacketOutgoing
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -860,9 +785,6 @@ event_stream
 void
 EncodeVideoRecvStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -881,9 +803,6 @@ event_stream
 void
 EncodeVideoSendStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const

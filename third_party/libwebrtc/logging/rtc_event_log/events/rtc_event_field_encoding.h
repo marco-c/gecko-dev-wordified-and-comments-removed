@@ -183,9 +183,6 @@ EventEncoder
 (
 EventParameters
 params
-rtc
-:
-:
 ArrayView
 <
 const
@@ -313,9 +310,6 @@ FixedLengthEncodingParametersV3
 params
 uint64_t
 base
-rtc
-:
-:
 ArrayView
 <
 const
@@ -359,9 +353,6 @@ uint64_t
 >
 ExtractRtcEventMember
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -483,9 +474,6 @@ true
 ValuesWithPositions
 ExtractRtcEventMember
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -663,9 +651,6 @@ uint64_t
 >
 ExtractRtcEventMember
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -781,9 +766,6 @@ string_view
 >
 ExtractRtcEventMember
 (
-rtc
-:
-:
 ArrayView
 <
 const

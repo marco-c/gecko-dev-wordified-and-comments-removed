@@ -60,9 +60,6 @@ RtcEventRtcpPacketIncoming
 :
 RtcEventRtcpPacketIncoming
 (
-rtc
-:
-:
 ArrayView
 <
 const

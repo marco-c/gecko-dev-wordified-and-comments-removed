@@ -109,9 +109,6 @@ CalculateParameters
 (
 uint64_t
 base
-rtc
-:
-:
 ArrayView
 <
 const

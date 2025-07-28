@@ -198,9 +198,6 @@ size
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -212,9 +209,6 @@ RawHeader
 const
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 packet_
@@ -350,9 +344,6 @@ template
 typename
 ExtensionTrait
 >
-rtc
-:
-:
 ArrayView
 <
 const
@@ -455,9 +446,6 @@ std
 string
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -146,9 +146,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -229,9 +226,6 @@ DependencyDescriptorsWireInfo
 res
 ;
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -248,9 +242,6 @@ raw_dd_data
 auto
 delta_dds
 =
-rtc
-:
-:
 MakeArrayView
 (
 raw_dd_data
