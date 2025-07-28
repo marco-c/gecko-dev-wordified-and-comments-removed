@@ -2559,8 +2559,6 @@ requireComponents
 performance
 .
 visualCompletenessQueue
-.
-queue
 )
 owner
 =
@@ -4238,8 +4236,6 @@ requireComponents
 performance
 .
 visualCompletenessQueue
-.
-queue
 )
 owner
 =

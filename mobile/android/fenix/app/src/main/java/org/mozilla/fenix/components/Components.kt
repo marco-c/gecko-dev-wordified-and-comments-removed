@@ -962,6 +962,9 @@ analytics
 .
 crashReporter
 strictMode
+performance
+.
+visualCompletenessQueue
 )
 }
 val
@@ -1324,8 +1327,6 @@ nimbus
 performance
 .
 visualCompletenessQueue
-.
-queue
 )
 }
 val
@@ -1802,6 +1803,12 @@ SetupChecklistTelemetryMiddleware
 ReviewPromptMiddleware
 (
 settings
+)
+AppVisualCompletenessMiddleware
+(
+performance
+.
+visualCompletenessQueue
 )
 )
 )

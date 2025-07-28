@@ -1165,6 +1165,16 @@ locale
 .
 LocaleManager
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+RunWhenReadyQueue
+import
 org
 .
 mozilla
@@ -1526,6 +1536,9 @@ CrashReporting
 strictMode
 :
 StrictModeManager
+visualCompletenessQueue
+:
+RunWhenReadyQueue
 )
 {
 /
@@ -2649,6 +2662,10 @@ string
 .
 tab_tray_homepage_tab
 )
+)
+BrowserVisualCompletenessMiddleware
+(
+visualCompletenessQueue
 )
 )
 BrowserStore

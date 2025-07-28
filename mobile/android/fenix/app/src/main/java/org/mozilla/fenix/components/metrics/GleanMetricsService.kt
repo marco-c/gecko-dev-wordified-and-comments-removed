@@ -425,8 +425,6 @@ components
 performance
 .
 visualCompletenessQueue
-.
-queue
 )
 :
 MetricsService
