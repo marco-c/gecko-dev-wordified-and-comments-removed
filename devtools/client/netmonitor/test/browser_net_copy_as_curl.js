@@ -123,6 +123,7 @@ data
 buildTestData
 (
 QUOTE_WIN
+true
 )
 }
 {
@@ -148,6 +149,7 @@ data
 buildTestData
 (
 QUOTE_POSIX
+false
 )
 }
 ]
@@ -174,6 +176,7 @@ data
 buildTestData
 (
 QUOTE_POSIX
+false
 )
 }
 ]
@@ -199,6 +202,7 @@ function
 buildTestData
 (
 QUOTE
+isWin
 )
 {
 function
@@ -251,12 +255,25 @@ h
 ;
 }
 const
-SIMPLE_BASE
+CMD
 =
-[
+isWin
+?
+"
+curl
+.
+exe
+"
+:
 "
 curl
 "
+;
+const
+SIMPLE_BASE
+=
+[
+CMD
 +
 quote
 (
@@ -268,9 +285,7 @@ const
 SLOW_BASE
 =
 [
-"
-curl
-"
+CMD
 +
 quote
 (
@@ -1159,6 +1174,8 @@ matchRe
 /
 [
 -
+\
+.
 A
 -
 Za
@@ -1175,7 +1192,6 @@ z1
 [
 \
 ^
-\
 \
 "
 '
