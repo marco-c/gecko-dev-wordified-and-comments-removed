@@ -94,6 +94,16 @@ lib
 state
 .
 Store
+import
+mozilla
+.
+components
+.
+lib
+.
+state
+.
+UiStore
 /
 *
 *
@@ -139,7 +149,7 @@ listOf
 )
 )
 :
-Store
+UiStore
 <
 MenuState
 MenuAction
