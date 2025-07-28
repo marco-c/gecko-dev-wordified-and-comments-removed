@@ -861,6 +861,10 @@ class
 StencilXDR
 ;
 friend
+struct
+ScopeStencilRef
+;
+friend
 class
 InputScope
 ;
