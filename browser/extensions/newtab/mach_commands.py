@@ -1266,7 +1266,10 @@ report
 file
 indent
 =
-4
+2
+sort_keys
+=
+True
 )
         
 display_report
@@ -1352,7 +1355,7 @@ supported_locales
 file
 indent
 =
-4
+2
 )
     
 print
