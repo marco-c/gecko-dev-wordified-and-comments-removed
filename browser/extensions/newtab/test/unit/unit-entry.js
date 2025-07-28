@@ -2265,9 +2265,6 @@ pocketNewtab
 newtabSmartShortcuts
 "
 "
-newtabWidgets
-"
-"
 cookieBannerHandling
 "
 ]
