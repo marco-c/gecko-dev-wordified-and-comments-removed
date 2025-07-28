@@ -5101,15 +5101,6 @@ codecs
 /
 vp8
 /
-temporal_layers
-.
-h
-"
-"
-codecs
-/
-vp8
-/
 temporal_layers_checker
 .
 cc
