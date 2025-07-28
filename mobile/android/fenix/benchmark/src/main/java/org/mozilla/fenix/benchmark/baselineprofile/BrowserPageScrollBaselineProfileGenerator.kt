@@ -492,6 +492,8 @@ mozilla
 .
 org
 /
+credits
+/
 "
 )
 intent

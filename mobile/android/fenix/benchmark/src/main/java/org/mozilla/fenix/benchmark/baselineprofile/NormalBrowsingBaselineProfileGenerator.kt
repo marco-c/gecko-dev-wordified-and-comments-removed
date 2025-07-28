@@ -536,9 +536,9 @@ packageName
 url
 =
 "
-mozilla
+example
 .
-org
+com
 "
 )
 }
