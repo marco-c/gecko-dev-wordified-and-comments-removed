@@ -8740,7 +8740,7 @@ in
 the
 WarpSnapshot
 .
-nurseryIndex
+nurseryObjectIndex
 :
 uint32_t
 result_type
