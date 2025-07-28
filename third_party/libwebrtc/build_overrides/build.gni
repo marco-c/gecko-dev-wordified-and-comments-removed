@@ -142,10 +142,6 @@ builds
 build_with_chromium
 =
 false
-use_cxx17
-=
-!
-is_android
 #
 Use
 our
