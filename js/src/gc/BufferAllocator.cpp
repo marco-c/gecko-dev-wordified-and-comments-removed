@@ -1708,9 +1708,19 @@ getFirstAvailableSizeClass
 (
 size_t
 minSizeClass
+size_t
+maxSizeClass
 )
 const
 {
+MOZ_ASSERT
+(
+maxSizeClass
+<
+=
+MaxMediumAllocClass
+)
+;
 size_t
 result
 =
@@ -1746,6 +1756,17 @@ isEmpty
 )
 )
 ;
+if
+(
+result
+>
+maxSizeClass
+)
+{
+return
+SIZE_MAX
+;
+}
 return
 result
 ;
@@ -9258,6 +9279,7 @@ bumpAlloc
 (
 bytes
 sizeClass
+MaxMediumAllocClass
 )
 ;
 if
@@ -9271,7 +9293,7 @@ alloc
 {
 alloc
 =
-retryBumpAlloc
+retryMediumAlloc
 (
 bytes
 sizeClass
@@ -9307,7 +9329,7 @@ void
 BufferAllocator
 :
 :
-retryBumpAlloc
+retryMediumAlloc
 (
 size_t
 bytes
@@ -9334,6 +9356,7 @@ bumpAlloc
 (
 bytes
 sizeClass
+MaxMediumAllocClass
 )
 ;
 if
@@ -9367,6 +9390,7 @@ bumpAlloc
 (
 bytes
 sizeClass
+MaxMediumAllocClass
 )
 ;
 MOZ_ASSERT
@@ -9389,6 +9413,8 @@ size_t
 bytes
 size_t
 sizeClass
+size_t
+maxSizeClass
 )
 {
 mediumFreeLists
@@ -9412,6 +9438,7 @@ ref
 getFirstAvailableSizeClass
 (
 sizeClass
+maxSizeClass
 )
 ;
 if
@@ -9798,6 +9825,7 @@ ref
 getFirstAvailableSizeClass
 (
 sizeClass
+MaxMediumAllocClass
 )
 ;
 MOZ_ASSERT
@@ -9887,6 +9915,7 @@ getFirstAvailableSizeClass
 sizeClass
 +
 1
+MaxMediumAllocClass
 )
 ;
 if
