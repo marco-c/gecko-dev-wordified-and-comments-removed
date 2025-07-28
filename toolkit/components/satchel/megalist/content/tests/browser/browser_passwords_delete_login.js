@@ -45,6 +45,12 @@ true
 }
 )
 ;
+LoginTestUtils
+.
+clearData
+(
+)
+;
 registerCleanupFunction
 (
 LoginTestUtils

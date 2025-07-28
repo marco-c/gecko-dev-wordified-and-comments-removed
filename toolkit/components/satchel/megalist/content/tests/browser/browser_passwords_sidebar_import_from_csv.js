@@ -358,6 +358,11 @@ setupCsvFileWithLines
 linesInFile
 )
 ;
+if
+(
+isFromMenuDropdown
+)
+{
 await
 BrowserTestUtils
 .
@@ -387,6 +392,7 @@ render
 "
 )
 ;
+}
 if
 (
 isFromMenuDropdown
@@ -502,6 +508,11 @@ Services
 fog
 .
 testFlushAllChildren
+(
+)
+;
+await
+addMockPasswords
 (
 )
 ;
@@ -674,6 +685,11 @@ Services
 fog
 .
 testFlushAllChildren
+(
+)
+;
+await
+addMockPasswords
 (
 )
 ;
