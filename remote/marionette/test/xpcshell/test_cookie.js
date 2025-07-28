@@ -110,6 +110,17 @@ push
 newCookie
 )
 ;
+return
+{
+result
+:
+Ci
+.
+nsICookieValidation
+.
+eOK
+}
+;
 }
 remove
 (
