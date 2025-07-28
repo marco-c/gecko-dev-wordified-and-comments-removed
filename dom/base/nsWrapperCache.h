@@ -978,6 +978,11 @@ aScriptObjectHolder
 )
 ;
 void
+ReleaseWrapperWithoutDrop
+(
+)
+;
+void
 TraceWrapper
 (
 JSTracer
@@ -1040,6 +1045,14 @@ SetWrapperJSObject
 JSObject
 *
 aWrapper
+)
+;
+void
+ReleaseWrapperAndMaybeDropHolder
+(
+void
+*
+aScriptObjectHolderToDrop
 )
 ;
 FlagsType
