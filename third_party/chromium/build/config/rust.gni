@@ -283,10 +283,9 @@ false
 .
 use_chromium_rust_toolchain
 =
-target_os
-=
-=
-host_os
+false
+#
+Mozilla
 #
 Build
 libstd
