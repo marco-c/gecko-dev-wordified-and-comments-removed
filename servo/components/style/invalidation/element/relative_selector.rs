@@ -1494,7 +1494,7 @@ b
 :
 &
 Dependency
-invalidations_in_subtree
+allow_indexed_selectors
 :
 bool
 )
@@ -1766,7 +1766,7 @@ true
 ;
 if
 !
-invalidations_in_subtree
+allow_indexed_selectors
 &
 &
 component
@@ -1911,6 +1911,16 @@ self
 .
 top
 ;
+let
+same_element
+=
+element
+=
+=
+entry
+.
+element
+;
 invalidation_can_collapse
 (
 dependency
@@ -1918,6 +1928,9 @@ entry
 .
 dependency
 both_in_subtree
+|
+|
+same_element
 )
 }
 )
