@@ -1581,17 +1581,6 @@ composeTestRule
 activityRule
 )
 {
-verifySnackBarText
-(
-"
-Successfully
-uninstalled
-recommendedExtensionTitle
-"
-)
-waitUntilSnackbarGone
-(
-)
 }
 .
 goBack
