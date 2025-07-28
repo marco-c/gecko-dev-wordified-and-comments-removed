@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-f2812e793ca6cd373254a97abe2839e7012cf9af
+c6ae2d7757a4d9c45da7b0ad7bcd47d8133cc419
 '
 #
 Fetch
@@ -666,7 +666,7 @@ chromium
 src
 /
 ios
-9b26cef2c0fb976771d3655f9d7ad838419e390f
+579ee5ef12b3d14a3396c6014bc5e93fb561f34c
 '
 '
 condition
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-576e7554b916950e7f15c60f0105d2c50c88f505
+3854c0d55c80119ab1977b4be7b17cac85031dd5
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-c22170aab3489da4da6367437841009396e050f6
+e85daf0384b82b8ab18d6c4baae93ca405188836
 '
 '
 src
@@ -2306,7 +2306,7 @@ com
 catapult
 .
 git
-8010a1b2f59fe654ca2a5966902a5ebd38d00cb7
+7236fd6c03b5c8f0e31e37207419cfdbe7bfee98
 '
 '
 src
@@ -2708,7 +2708,7 @@ harfbuzz
 harfbuzz
 .
 git
-8efd2d85c78fbba6ca09a3e454f77525f3b296ce
+9f83bbbe64654b45ba5bb06927ff36c2e7588495
 '
 '
 src
@@ -4090,7 +4090,7 @@ chromium
 src
 /
 tools
-a3c5fe0e54a006bbebc2d54cdeeb1de12cf8986c
+30615716efc95f6152b125f9f58c72c51d1bb6e5
 '
 '
 src
