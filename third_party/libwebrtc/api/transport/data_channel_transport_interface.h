@@ -111,9 +111,6 @@ channel_id
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -205,9 +202,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer

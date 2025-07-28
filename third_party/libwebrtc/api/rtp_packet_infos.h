@@ -493,9 +493,6 @@ Data
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 Data
@@ -504,9 +501,6 @@ Data
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 Data
@@ -533,9 +527,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 Data
@@ -546,9 +537,6 @@ entries
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 Data
@@ -575,9 +563,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 Data
@@ -714,9 +699,6 @@ empty_entries
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 Data

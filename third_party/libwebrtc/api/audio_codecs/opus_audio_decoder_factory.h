@@ -27,9 +27,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

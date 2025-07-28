@@ -330,9 +330,6 @@ int
 temporal_index
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -346,9 +343,6 @@ const
 void
 SetFrameDependencies
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -357,9 +351,6 @@ int64_t
 frame_dependencies
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -373,9 +364,6 @@ const
 void
 SetDecodeTargetIndications
 (
-rtc
-:
-:
 ArrayView
 <
 const

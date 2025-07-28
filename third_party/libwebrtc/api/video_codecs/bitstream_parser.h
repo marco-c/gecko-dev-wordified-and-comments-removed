@@ -52,9 +52,6 @@ virtual
 void
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const

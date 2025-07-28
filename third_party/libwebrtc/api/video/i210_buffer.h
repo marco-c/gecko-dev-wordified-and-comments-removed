@@ -70,9 +70,6 @@ I210BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -86,9 +83,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -102,9 +96,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -118,9 +109,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -135,9 +123,6 @@ VideoRotation
 rotation
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

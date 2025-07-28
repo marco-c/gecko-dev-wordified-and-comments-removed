@@ -161,9 +161,6 @@ total_samples_count
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -178,9 +175,6 @@ task_queue_factory
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest

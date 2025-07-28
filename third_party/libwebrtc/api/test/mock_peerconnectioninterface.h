@@ -293,9 +293,6 @@ PeerConnectionInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockPeerConnectionInterface
@@ -305,9 +302,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 MockPeerConnectionInterface
@@ -318,9 +312,6 @@ MockPeerConnectionInterface
 }
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -335,9 +326,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -380,9 +368,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -390,7 +375,7 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -419,9 +404,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -429,7 +411,7 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -468,7 +450,7 @@ MOCK_METHOD
 RTCError
 RemoveTrackOrError
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -485,9 +467,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -495,7 +474,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -512,9 +491,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -522,7 +498,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -542,9 +518,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -566,9 +539,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -591,9 +561,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -625,9 +592,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -649,9 +613,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -673,9 +634,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -724,14 +682,14 @@ MOCK_METHOD
 void
 GetStats
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
 RtpSenderInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -749,14 +707,14 @@ MOCK_METHOD
 void
 GetStats
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
 RtpReceiverInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -782,9 +740,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 SctpTransportInterface
@@ -802,9 +757,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -996,7 +948,7 @@ unique_ptr
 <
 SessionDescriptionInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1144,9 +1096,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -1225,7 +1174,7 @@ MOCK_METHOD
 void
 AddAdaptationResource
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1367,7 +1316,7 @@ std
 :
 is_abstract_v
 <
-rtc
+webrtc
 :
 :
 RefCountedObject

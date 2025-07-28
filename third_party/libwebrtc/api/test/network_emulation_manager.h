@@ -946,9 +946,6 @@ virtual
 void
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedEndpoint
@@ -975,9 +972,6 @@ virtual
 void
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedNetworkNode

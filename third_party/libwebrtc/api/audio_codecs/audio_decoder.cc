@@ -106,9 +106,6 @@ OldStyleEncodedFrame
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -184,9 +181,6 @@ DecodeResult
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -287,9 +281,6 @@ const
 decoder_
 ;
 const
-rtc
-:
-:
 Buffer
 payload_
 ;
@@ -438,9 +429,6 @@ AudioDecoder
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -539,9 +527,6 @@ Decode
 ;
 MsanCheckInitialized
 (
-rtc
-:
-:
 MakeArrayView
 (
 encoded
@@ -635,9 +620,6 @@ DecodeRedundant
 ;
 MsanCheckInitialized
 (
-rtc
-:
-:
 MakeArrayView
 (
 encoded
@@ -760,9 +742,6 @@ AudioDecoder
 GeneratePlc
 (
 size_t
-rtc
-:
-:
 BufferT
 <
 int16_t

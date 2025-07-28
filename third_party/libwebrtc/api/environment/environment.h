@@ -196,9 +196,6 @@ Environment
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 storage
@@ -252,9 +249,6 @@ event_log
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 storage_

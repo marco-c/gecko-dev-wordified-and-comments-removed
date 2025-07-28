@@ -303,9 +303,6 @@ bool
 Equals
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 IdBase
@@ -375,9 +372,6 @@ _
 }
 ;
 typedef
-rtc
-:
-:
 scoped_refptr
 <
 IdBase
@@ -798,9 +792,6 @@ value_
 }
 ;
 typedef
-rtc
-:
-:
 scoped_refptr
 <
 Value

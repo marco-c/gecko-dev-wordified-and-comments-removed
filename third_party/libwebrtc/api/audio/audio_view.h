@@ -54,9 +54,6 @@ T
 using
 MonoView
 =
-rtc
-:
-:
 ArrayView
 <
 T
@@ -237,9 +234,6 @@ return
 samples_per_channel_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 T
@@ -600,9 +594,6 @@ samples_per_channel_
 =
 0u
 ;
-rtc
-:
-:
 ArrayView
 <
 T
@@ -763,9 +754,6 @@ return
 samples_per_channel_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 T
@@ -846,9 +834,6 @@ samples_per_channel_
 =
 0u
 ;
-rtc
-:
-:
 ArrayView
 <
 T

@@ -429,9 +429,6 @@ size
 ByteBufferReader
 buf
 (
-rtc
-:
-:
 MakeArrayView
 (
 testcase
@@ -5745,9 +5742,6 @@ msg
 ByteBufferReader
 buf
 (
-rtc
-:
-:
 MakeArrayView
 (
 testcase

@@ -281,9 +281,6 @@ fps
 void
 Encode
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

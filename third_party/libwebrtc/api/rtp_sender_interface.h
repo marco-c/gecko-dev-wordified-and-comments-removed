@@ -221,9 +221,6 @@ track
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -236,9 +233,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -380,9 +374,6 @@ RtpSenderObserverInterface
 {
 }
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -398,9 +389,6 @@ virtual
 void
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -411,9 +399,6 @@ frame_encryptor
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -429,9 +414,6 @@ virtual
 void
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -473,9 +455,6 @@ encoder_selector
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

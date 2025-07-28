@@ -82,9 +82,6 @@ I420BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -98,9 +95,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -120,9 +114,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -136,9 +127,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -164,9 +152,6 @@ GetI420
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -198,9 +183,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -216,9 +198,6 @@ rotation
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

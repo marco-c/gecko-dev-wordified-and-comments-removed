@@ -354,9 +354,6 @@ double
 percentile
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

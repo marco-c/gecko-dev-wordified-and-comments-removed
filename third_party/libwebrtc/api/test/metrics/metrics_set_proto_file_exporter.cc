@@ -878,9 +878,6 @@ MetricsSetProtoFileExporter
 :
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -89,9 +89,6 @@ virtual
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -110,9 +107,6 @@ virtual
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

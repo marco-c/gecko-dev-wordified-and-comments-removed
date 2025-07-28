@@ -66,9 +66,6 @@ class
 MockAudioSource
 :
 public
-rtc
-:
-:
 RefCountedObject
 <
 AudioSourceInterface
@@ -77,9 +74,6 @@ AudioSourceInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioSource
@@ -89,9 +83,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioSource
@@ -252,9 +243,6 @@ class
 MockAudioTrack
 :
 public
-rtc
-:
-:
 RefCountedObject
 <
 AudioTrackInterface
@@ -263,9 +251,6 @@ AudioTrackInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioTrack
@@ -275,9 +260,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioTrack
@@ -442,9 +424,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessorInterface
@@ -514,9 +493,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -538,9 +514,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -565,7 +538,7 @@ MOCK_METHOD
 bool
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -584,7 +557,7 @@ MOCK_METHOD
 bool
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -603,7 +576,7 @@ MOCK_METHOD
 bool
 RemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -622,7 +595,7 @@ MOCK_METHOD
 bool
 RemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -674,7 +647,7 @@ std
 :
 is_abstract_v
 <
-rtc
+webrtc
 :
 :
 RefCountedObject

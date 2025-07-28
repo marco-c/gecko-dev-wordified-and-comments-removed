@@ -94,9 +94,6 @@ kVValue
 int
 GetY
 (
-rtc
-:
-:
 scoped_refptr
 <
 I410BufferInterface
@@ -132,9 +129,6 @@ col
 int
 GetU
 (
-rtc
-:
-:
 scoped_refptr
 <
 I410BufferInterface
@@ -170,9 +164,6 @@ col
 int
 GetV
 (
-rtc
-:
-:
 scoped_refptr
 <
 I410BufferInterface
@@ -208,9 +199,6 @@ col
 void
 FillI410Buffer
 (
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -351,9 +339,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -466,9 +451,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -624,9 +606,6 @@ height
 /
 2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -688,9 +667,6 @@ kVValue
 size_v
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -779,9 +755,6 @@ row
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

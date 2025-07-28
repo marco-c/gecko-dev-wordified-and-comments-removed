@@ -49,9 +49,6 @@ virtual
 bool
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

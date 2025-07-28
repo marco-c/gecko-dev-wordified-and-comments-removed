@@ -143,9 +143,6 @@ TransformableFrameInterface
 default
 ;
 virtual
-rtc
-:
-:
 ArrayView
 <
 const
@@ -162,9 +159,6 @@ virtual
 void
 SetData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -440,9 +434,6 @@ TransformableAudioFrameInterface
 default
 ;
 virtual
-rtc
-:
-:
 ArrayView
 <
 const
@@ -597,9 +588,6 @@ virtual
 void
 RegisterTransformedFrameCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -611,9 +599,6 @@ virtual
 void
 RegisterTransformedFrameSinkCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -665,9 +650,6 @@ virtual
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

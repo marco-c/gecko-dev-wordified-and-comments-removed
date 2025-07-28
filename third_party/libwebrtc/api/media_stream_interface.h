@@ -857,9 +857,6 @@ level
 )
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessorInterface
@@ -886,9 +883,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -902,9 +896,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -954,9 +945,6 @@ GetVideoTracks
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -975,9 +963,6 @@ track_id
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -999,9 +984,6 @@ virtual
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -1017,9 +999,6 @@ virtual
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -1035,9 +1014,6 @@ virtual
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -1053,9 +1029,6 @@ virtual
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface

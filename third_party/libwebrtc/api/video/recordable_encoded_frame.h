@@ -124,9 +124,6 @@ RecordableEncodedFrame
 default
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 const

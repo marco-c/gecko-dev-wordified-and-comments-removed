@@ -259,9 +259,6 @@ field_trials
 }
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory

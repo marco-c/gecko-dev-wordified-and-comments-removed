@@ -48,9 +48,6 @@ namespace
 webrtc
 {
 RTC_EXPORT
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -63,9 +60,6 @@ port_allocator
 )
 ;
 RTC_EXPORT
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

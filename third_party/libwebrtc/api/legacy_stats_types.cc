@@ -3464,9 +3464,6 @@ NewBandwidthEstimationId
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 BandwidthEstimationId
@@ -3496,9 +3493,6 @@ id
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 TypedId
@@ -3525,9 +3519,6 @@ id
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 TypedIntId
@@ -3564,9 +3555,6 @@ direction
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 IdWithDirection
@@ -3599,9 +3587,6 @@ id
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 CandidateId
@@ -3633,9 +3618,6 @@ component
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 ComponentId
@@ -3669,9 +3651,6 @@ index
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 CandidatePairId

@@ -93,9 +93,6 @@ SctpTransportInformation
 (
 SctpTransportState
 state
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -124,9 +121,6 @@ SctpTransportInformation
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -192,9 +186,6 @@ SctpTransportState
 :
 kNew
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -260,9 +251,6 @@ RefCountInterface
 public
 :
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface

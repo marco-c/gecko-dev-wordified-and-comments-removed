@@ -843,9 +843,6 @@ typename
 .
 Ts
 >
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -879,9 +876,6 @@ parameter
 )
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 audio_encoder_factory_template_impl

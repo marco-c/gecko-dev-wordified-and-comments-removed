@@ -202,9 +202,6 @@ thread_checker_
 }
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -239,9 +236,6 @@ init
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -253,9 +247,6 @@ init
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 IceTransportWithTransportChannel

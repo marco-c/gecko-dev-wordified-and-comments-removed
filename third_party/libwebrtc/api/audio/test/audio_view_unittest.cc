@@ -109,9 +109,6 @@ T
 void
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 T
@@ -169,9 +166,6 @@ kArraySize
 ;
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -310,9 +304,6 @@ kArraySize
 ;
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -830,9 +821,6 @@ kArraySize
 ;
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -981,9 +969,6 @@ samples
 ;
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1038,9 +1023,6 @@ samples_f
 ;
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1086,9 +1068,6 @@ s
 }
 FillBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

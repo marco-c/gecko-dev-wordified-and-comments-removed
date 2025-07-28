@@ -333,9 +333,6 @@ IceTransportFactory
 default
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

@@ -2609,9 +2609,6 @@ ArrayViewTest
 TestRtcBuffer
 )
 {
-rtc
-:
-:
 Buffer
 b
 =
@@ -2713,9 +2710,6 @@ data
 )
 ;
 const
-rtc
-:
-:
 Buffer
 cb
 =

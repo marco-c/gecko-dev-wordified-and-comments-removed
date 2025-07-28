@@ -936,9 +936,6 @@ sample_rate_hz_
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -965,9 +962,6 @@ kMaxDataSizeSamples
 )
 ;
 return
-rtc
-:
-:
 ArrayView
 <
 const

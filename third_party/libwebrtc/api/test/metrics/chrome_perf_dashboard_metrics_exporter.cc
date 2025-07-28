@@ -535,9 +535,6 @@ ChromePerfDashboardMetricsExporter
 :
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

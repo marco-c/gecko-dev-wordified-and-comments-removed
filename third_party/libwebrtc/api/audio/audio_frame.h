@@ -461,9 +461,6 @@ packet_infos_
 private
 :
 static
-rtc
-:
-:
 ArrayView
 <
 const

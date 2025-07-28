@@ -270,9 +270,6 @@ override
 void
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -285,9 +282,6 @@ override
 void
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

@@ -211,9 +211,6 @@ std
 :
 :
 string
-rtc
-:
-:
 ArrayView
 <
 const
@@ -383,9 +380,6 @@ absl
 :
 string_view
 const
-rtc
-:
-:
 scoped_refptr
 <
 const

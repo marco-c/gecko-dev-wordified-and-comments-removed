@@ -370,9 +370,6 @@ VideoDecoderFactory
 >
 video_decoder_factory
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -382,9 +379,6 @@ AudioEncoderFactory
 >
 audio_encoder_factory
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -403,9 +397,6 @@ FieldTrialsView
 >
 trials
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -415,9 +406,6 @@ AudioProcessing
 >
 audio_processing
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

@@ -396,9 +396,6 @@ Builder
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -580,9 +577,6 @@ id_
 =
 kNotSetId
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -659,9 +653,6 @@ packet_infos_
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -680,9 +671,6 @@ timestamp_us
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1026,9 +1014,6 @@ render_time_ms
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1045,9 +1030,6 @@ void
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1263,9 +1245,6 @@ VideoFrame
 uint16_t
 id
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1331,9 +1310,6 @@ packet_infos
 uint16_t
 id_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

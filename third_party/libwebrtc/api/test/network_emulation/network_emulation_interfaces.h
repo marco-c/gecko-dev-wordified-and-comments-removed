@@ -147,9 +147,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 Timestamp
@@ -266,9 +263,6 @@ from
 SocketAddress
 to
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 ;
@@ -738,9 +732,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_data
 uint16_t

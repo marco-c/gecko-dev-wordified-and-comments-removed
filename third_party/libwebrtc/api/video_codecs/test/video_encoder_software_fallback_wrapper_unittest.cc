@@ -1043,9 +1043,6 @@ int
 expected_ret
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

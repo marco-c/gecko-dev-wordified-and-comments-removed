@@ -308,9 +308,6 @@ NV12Buffer
 =
 default
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -327,9 +324,6 @@ height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 NV12Buffer
@@ -340,9 +334,6 @@ height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -363,9 +354,6 @@ stride_uv
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 NV12Buffer
@@ -378,9 +366,6 @@ stride_uv
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -396,9 +381,6 @@ I420BufferInterface
 i420_buffer
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -499,9 +481,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -513,9 +492,6 @@ ToI420
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

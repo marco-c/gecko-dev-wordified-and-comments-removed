@@ -647,9 +647,6 @@ return
 VideoFrame
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -800,9 +797,6 @@ VideoEncoderInterface
 FrameOutput
 {
 public
-:
-rtc
-:
 :
 ArrayView
 <
@@ -1157,9 +1151,6 @@ e
 )
 {
 }
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1185,9 +1176,6 @@ bytes
 )
 ;
 return
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1497,9 +1485,6 @@ double
 Psnr
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2319,9 +2304,6 @@ kCbrEncoderSettings
 }
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2391,9 +2373,6 @@ tu0
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2461,9 +2440,6 @@ tu1
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2650,9 +2626,6 @@ kCbrEncoderSettings
 }
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2722,9 +2695,6 @@ tu0
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2801,9 +2771,6 @@ tu1
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3264,9 +3231,6 @@ tu1_s2
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3793,9 +3757,6 @@ tu2_s0
 EncOut
 tu2_s1
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -4299,9 +4260,6 @@ tu2_s1
 EncOut
 tu2_s2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

@@ -263,9 +263,6 @@ length
 ByteBufferReader
 reader
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -2867,9 +2864,6 @@ StunMessage
 :
 IsStunMethod
 (
-rtc
-:
-:
 ArrayView
 <
 int
@@ -4803,9 +4797,6 @@ buf
 >
 ReadBytes
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -4879,9 +4870,6 @@ buf
 >
 ReadBytes
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -6337,9 +6325,6 @@ buf
 >
 ReadBytes
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

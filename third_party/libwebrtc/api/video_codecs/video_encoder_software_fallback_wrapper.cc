@@ -2062,9 +2062,6 @@ to
 I420
 "
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2107,9 +2104,6 @@ return
 WEBRTC_VIDEO_CODEC_ENCODER_FAILURE
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

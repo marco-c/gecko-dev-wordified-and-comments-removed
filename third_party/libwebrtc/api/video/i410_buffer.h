@@ -82,9 +82,6 @@ I410BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -98,9 +95,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -120,9 +114,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -136,9 +127,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -170,9 +158,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -187,9 +172,6 @@ VideoRotation
 rotation
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

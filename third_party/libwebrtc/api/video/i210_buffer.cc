@@ -348,9 +348,6 @@ I210Buffer
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -367,9 +364,6 @@ height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I210Buffer
@@ -395,9 +389,6 @@ width
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -433,9 +424,6 @@ height
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -531,9 +519,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -580,9 +565,6 @@ Copy
 source
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -684,9 +666,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -779,9 +758,6 @@ rotated_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -901,9 +877,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -915,9 +888,6 @@ ToI420
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

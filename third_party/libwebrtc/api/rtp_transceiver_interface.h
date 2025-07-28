@@ -220,9 +220,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -235,9 +232,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -358,9 +352,6 @@ virtual
 RTCError
 SetCodecPreferences
 (
-rtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -422,9 +413,6 @@ webrtc
 RTCError
 SetHeaderExtensionsToNegotiate
 (
-rtc
-:
-:
 ArrayView
 <
 const

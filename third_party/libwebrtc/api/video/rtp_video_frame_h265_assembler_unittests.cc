@@ -257,9 +257,6 @@ PacketBuilder
 &
 WithPayload
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -568,9 +565,6 @@ end
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 int64_t
@@ -590,9 +584,6 @@ frame
 )
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 frame
@@ -606,9 +597,6 @@ num_references
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -628,9 +616,6 @@ frame
 )
 {
 return
-rtc
-:
-:
 ArrayView
 <
 uint8_t

@@ -46,9 +46,6 @@ MediaStreamTrackInterface
 :
 kVideoKind
 =
-cricket
-:
-:
 kMediaTypeVideo
 ;
 const
@@ -60,9 +57,6 @@ MediaStreamTrackInterface
 :
 kAudioKind
 =
-cricket
-:
-:
 kMediaTypeAudio
 ;
 VideoTrackInterface
@@ -98,9 +92,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessorInterface

@@ -267,9 +267,6 @@ SdpAudioFormat
 saf
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 (

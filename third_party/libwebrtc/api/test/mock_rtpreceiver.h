@@ -113,9 +113,6 @@ class
 MockRtpReceiver
 :
 public
-rtc
-:
-:
 RefCountedObject
 <
 RtpReceiverInterface
@@ -125,9 +122,6 @@ public
 :
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -148,9 +142,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -279,7 +270,7 @@ MOCK_METHOD
 void
 SetFrameDecryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -297,9 +288,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

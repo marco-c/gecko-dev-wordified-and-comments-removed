@@ -76,9 +76,6 @@ namespace
 int
 GetY
 (
-rtc
-:
-:
 scoped_refptr
 <
 I210BufferInterface
@@ -114,9 +111,6 @@ col
 int
 GetU
 (
-rtc
-:
-:
 scoped_refptr
 <
 I210BufferInterface
@@ -152,9 +146,6 @@ col
 int
 GetV
 (
-rtc
-:
-:
 scoped_refptr
 <
 I210BufferInterface
@@ -190,9 +181,6 @@ col
 void
 FillI210Buffer
 (
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -421,9 +409,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -549,9 +534,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -734,9 +716,6 @@ height
 /
 2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -789,9 +768,6 @@ MutableDataV
 quartersize
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -914,9 +890,6 @@ row
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

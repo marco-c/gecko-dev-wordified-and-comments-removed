@@ -52,9 +52,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector
@@ -64,9 +61,6 @@ CreateEchoDetector
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 ResidualEchoDetector

@@ -59,9 +59,6 @@ IsValidTestDependencyFactoryThread
 )
 {
 const
-rtc
-:
-:
 PlatformThreadRef
 main_thread
 =

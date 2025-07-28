@@ -448,9 +448,6 @@ RefCountInterface
 public
 :
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

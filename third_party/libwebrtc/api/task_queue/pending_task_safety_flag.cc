@@ -61,9 +61,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -78,9 +75,6 @@ alive
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -94,9 +88,6 @@ alive
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -115,9 +106,6 @@ true
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -129,9 +117,6 @@ CreateDetached
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -156,9 +141,6 @@ return
 safety_flag
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -189,9 +171,6 @@ provided
 "
 ;
 return
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -206,9 +185,6 @@ attached_queue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -220,9 +196,6 @@ CreateDetachedInactive
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

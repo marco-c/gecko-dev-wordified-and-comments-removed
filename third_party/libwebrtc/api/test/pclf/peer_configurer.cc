@@ -605,9 +605,6 @@ PeerConfigurer
 :
 SetAudioEncoderFactory
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -639,9 +636,6 @@ PeerConfigurer
 :
 SetAudioDecoderFactory
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1194,9 +1188,6 @@ PeerConfigurer
 :
 SetAudioProcessing
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1228,9 +1219,6 @@ PeerConfigurer
 :
 SetAudioMixer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

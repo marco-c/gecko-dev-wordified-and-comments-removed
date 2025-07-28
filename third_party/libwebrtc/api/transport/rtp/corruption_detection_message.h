@@ -129,9 +129,6 @@ return
 chroma_error_threshold_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -143,9 +140,6 @@ sample_values
 const
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 sample_values_
@@ -522,9 +516,6 @@ Builder
 WithSampleValues
 (
 const
-rtc
-:
-:
 ArrayView
 <
 const

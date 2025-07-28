@@ -84,9 +84,6 @@ PendingTaskSafetyFlagTest
 Basic
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -118,9 +115,6 @@ SetNotAlive
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -183,9 +177,6 @@ PendingTaskSafetyFlagTest
 BasicScoped
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -320,9 +311,6 @@ IsCurrent
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -393,9 +381,6 @@ stuff_done_
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1028,9 +1013,6 @@ PendingTaskSafetyFlagTest
 SafeTask
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

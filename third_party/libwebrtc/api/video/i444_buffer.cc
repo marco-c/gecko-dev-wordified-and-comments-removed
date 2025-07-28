@@ -351,9 +351,6 @@ I444Buffer
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -370,9 +367,6 @@ height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I444Buffer
@@ -383,9 +377,6 @@ height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -408,9 +399,6 @@ stride_v
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I444Buffer
@@ -424,9 +412,6 @@ stride_v
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -488,9 +473,6 @@ StrideV
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -524,9 +506,6 @@ int
 stride_v
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -598,9 +577,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -693,9 +669,6 @@ rotated_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -815,9 +788,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -829,9 +799,6 @@ ToI420
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

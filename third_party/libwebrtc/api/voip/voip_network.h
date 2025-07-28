@@ -43,9 +43,6 @@ ReceivedRTPPacket
 (
 ChannelId
 channel_id
-rtc
-:
-:
 ArrayView
 <
 const
@@ -62,9 +59,6 @@ ReceivedRTCPPacket
 (
 ChannelId
 channel_id
-rtc
-:
-:
 ArrayView
 <
 const

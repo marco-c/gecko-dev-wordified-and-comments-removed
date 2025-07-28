@@ -973,9 +973,6 @@ SdpVideoFormat
 :
 IsCodecInList
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1324,9 +1321,6 @@ SdpVideoFormat
 >
 FuzzyMatchSdpVideoFormat
 (
-rtc
-:
-:
 ArrayView
 <
 const

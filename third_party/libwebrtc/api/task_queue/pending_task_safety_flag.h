@@ -100,9 +100,6 @@ PendingTaskSafetyFlag
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 PendingTaskSafetyFlag
@@ -111,9 +108,6 @@ PendingTaskSafetyFlag
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -123,9 +117,6 @@ Create
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -135,9 +126,6 @@ CreateDetached
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -153,9 +141,6 @@ attached_queue
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -225,9 +210,6 @@ attached_queue
 private
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -265,9 +247,6 @@ default
 explicit
 ScopedTaskSafety
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -300,9 +279,6 @@ SetNotAlive
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -319,9 +295,6 @@ flag_
 void
 reset
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -355,9 +328,6 @@ new_flag
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -400,9 +370,6 @@ SetNotAlive
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -417,9 +384,6 @@ flag_
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -450,9 +414,6 @@ void
 >
 SafeTask
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

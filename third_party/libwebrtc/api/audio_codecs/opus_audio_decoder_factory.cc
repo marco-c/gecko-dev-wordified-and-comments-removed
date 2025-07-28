@@ -220,9 +220,6 @@ codec_pair_id
 }
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

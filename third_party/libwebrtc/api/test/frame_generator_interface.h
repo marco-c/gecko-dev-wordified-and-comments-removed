@@ -77,9 +77,6 @@ VideoFrameData
 {
 VideoFrameData
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -114,9 +111,6 @@ update_rect
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

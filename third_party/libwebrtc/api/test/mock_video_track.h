@@ -85,9 +85,6 @@ class
 MockVideoTrack
 :
 public
-rtc
-:
-:
 RefCountedObject
 <
 webrtc
@@ -99,9 +96,6 @@ VideoTrackInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockVideoTrack
@@ -111,9 +105,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 MockVideoTrack

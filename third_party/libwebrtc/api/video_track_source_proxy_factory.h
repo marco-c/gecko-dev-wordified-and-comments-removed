@@ -45,9 +45,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface

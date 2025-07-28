@@ -88,9 +88,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -114,9 +111,6 @@ int
 scaled_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -421,9 +415,6 @@ this
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -433,9 +424,6 @@ VideoFrameBuffer
 :
 GetMappedFrameBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 Type
@@ -689,9 +677,6 @@ height
 2
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -704,9 +689,6 @@ ToI420
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -799,9 +781,6 @@ height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -825,9 +804,6 @@ int
 scaled_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -915,9 +891,6 @@ height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -941,9 +914,6 @@ int
 scaled_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -1202,9 +1172,6 @@ height
 2
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1228,9 +1195,6 @@ int
 scaled_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer

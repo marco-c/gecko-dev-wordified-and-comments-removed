@@ -166,7 +166,7 @@ value
 scoped_refptr
 <
 const
-rtc
+webrtc
 :
 :
 RefCountedBase
@@ -179,9 +179,6 @@ class
 StorageNode
 :
 public
-rtc
-:
-:
 RefCountedBase
 {
 public
@@ -191,9 +188,6 @@ StorageNode
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 parent
@@ -264,9 +258,6 @@ private
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 parent_
@@ -285,9 +276,6 @@ value_
 ;
 leaf
 =
-rtc
-:
-:
 make_ref_counted
 <
 StorageNode

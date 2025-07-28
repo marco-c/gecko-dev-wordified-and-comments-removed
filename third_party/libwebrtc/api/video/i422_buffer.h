@@ -82,9 +82,6 @@ I422BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -98,9 +95,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -120,9 +114,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -136,9 +127,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -152,9 +140,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -186,9 +171,6 @@ stride_v
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -203,9 +185,6 @@ VideoRotation
 rotation
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
