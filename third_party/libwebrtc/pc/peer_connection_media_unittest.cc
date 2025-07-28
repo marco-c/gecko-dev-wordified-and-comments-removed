@@ -508,9 +508,6 @@ RtpTransceiver
 *
 RtpTransceiverInternal
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -565,9 +562,6 @@ MediaSendChannelInterface
 *
 SendChannelInternal
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -601,9 +595,6 @@ MediaReceiveChannelInterface
 *
 ReceiveChannelInternal
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -637,9 +628,6 @@ FakeVideoMediaSendChannel
 *
 VideoMediaSendChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -665,9 +653,6 @@ FakeVideoMediaReceiveChannel
 *
 VideoMediaReceiveChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -693,9 +678,6 @@ FakeVoiceMediaSendChannel
 *
 VoiceMediaSendChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -721,9 +703,6 @@ FakeVoiceMediaReceiveChannel
 *
 VoiceMediaReceiveChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface

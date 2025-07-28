@@ -199,9 +199,6 @@ clear
 for
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 new_bundle_group
@@ -269,9 +266,6 @@ kOffer
 for
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 new_bundle_group
@@ -595,9 +589,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ContentGroup
 >
 &
@@ -718,9 +709,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ContentGroup
 >
 &

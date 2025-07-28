@@ -52,9 +52,6 @@ MediaSourceInterface
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 LocalAudioSource
@@ -73,9 +70,6 @@ audio_options
 auto
 source
 =
-rtc
-:
-:
 make_ref_counted
 <
 LocalAudioSource

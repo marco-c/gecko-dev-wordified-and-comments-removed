@@ -694,9 +694,6 @@ description
 .
 connection_role
 =
-cricket
-:
-:
 CONNECTIONROLE_ACTIVE
 ;
 }
@@ -746,9 +743,6 @@ description
 .
 connection_role
 =
-cricket
-:
-:
 CONNECTIONROLE_PASSIVE
 ;
 }
@@ -3003,9 +2997,6 @@ back
 binary
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 empty_buffer
 ;
@@ -11229,9 +11220,6 @@ addTurn
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_internal_address
 {
@@ -11249,9 +11237,6 @@ turn_server_1_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_external_address
 {

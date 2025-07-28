@@ -168,9 +168,6 @@ ConnectionContext
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext

@@ -131,9 +131,6 @@ DtmfSenderInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSender
@@ -352,9 +349,6 @@ RTC_GUARDED_BY
 signaling_thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

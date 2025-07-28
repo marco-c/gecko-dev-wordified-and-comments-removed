@@ -292,9 +292,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -310,9 +307,6 @@ VideoRtpReceiver
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -326,9 +320,6 @@ return
 track_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -343,9 +334,6 @@ return
 track_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -377,9 +365,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -435,9 +420,6 @@ override
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -446,9 +428,6 @@ frame_decryptor
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -462,9 +441,6 @@ override
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -532,9 +508,6 @@ override
 void
 set_transport
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -552,9 +525,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -846,9 +816,6 @@ worker_thread_
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoRtpTrackSource
@@ -856,9 +823,6 @@ VideoRtpTrackSource
 source_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackProxyWithInternal
@@ -873,9 +837,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -913,9 +874,6 @@ const
 int
 attachment_id_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -926,9 +884,6 @@ RTC_GUARDED_BY
 worker_thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -940,9 +895,6 @@ RTC_GUARDED_BY
 signaling_thread_checker_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

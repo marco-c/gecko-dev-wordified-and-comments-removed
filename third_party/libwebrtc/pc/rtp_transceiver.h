@@ -353,9 +353,6 @@ codec_lookup_helper
 ;
 RtpTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -364,9 +361,6 @@ RtpSenderInternal
 >
 >
 sender
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -549,9 +543,6 @@ ClearChannel
 void
 AddSender
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -575,9 +566,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -598,9 +586,6 @@ senders_
 void
 AddReceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -624,9 +609,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -644,9 +626,6 @@ return
 receivers_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInternal
@@ -656,9 +635,6 @@ sender_internal
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInternal
@@ -847,9 +823,6 @@ mid
 const
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -860,9 +833,6 @@ sender
 const
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -943,9 +913,6 @@ override
 RTCError
 SetCodecPreferences
 (
-rtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -1008,9 +975,6 @@ override
 RTCError
 SetHeaderExtensionsToNegotiate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1154,9 +1118,6 @@ webrtc
 MediaType
 media_type_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1168,9 +1129,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -1186,9 +1144,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -1350,9 +1305,6 @@ RtpHeaderExtensionCapability
 >
 header_extensions_to_negotiate_
 ;
-cricket
-:
-:
 RtpHeaderExtensions
 negotiated_header_extensions_
 RTC_GUARDED_BY
@@ -1405,9 +1357,6 @@ mid
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1416,9 +1365,6 @@ sender
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -1482,9 +1428,6 @@ PROXY_METHOD1
 (
 RTCError
 SetCodecPreferences
-rtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -1527,9 +1470,6 @@ PROXY_METHOD1
 (
 RTCError
 SetHeaderExtensionsToNegotiate
-rtc
-:
-:
 ArrayView
 <
 const

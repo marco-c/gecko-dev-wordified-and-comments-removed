@@ -1256,7 +1256,7 @@ FakeDtmfProvider
 >
 provider_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

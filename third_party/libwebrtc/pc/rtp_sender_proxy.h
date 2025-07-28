@@ -56,9 +56,6 @@ MediaStreamTrackInterface
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -67,9 +64,6 @@ track
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -146,9 +140,6 @@ SetParametersCallback
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -159,9 +150,6 @@ PROXY_METHOD1
 (
 void
 SetFrameEncryptor
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -176,9 +164,6 @@ RtpSenderObserverInterface
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -206,9 +191,6 @@ PROXY_METHOD1
 (
 void
 SetFrameTransformer
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

@@ -232,7 +232,7 @@ Stop
 ;
 }
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -249,7 +249,7 @@ Create
 auto
 capture_module
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

@@ -74,9 +74,6 @@ PeerConnectionInterface
 IceServers
 &
 servers
-cricket
-:
-:
 ServerAddresses
 *
 stun_servers
@@ -102,9 +99,6 @@ PeerConnectionInterface
 RTCConfiguration
 &
 configuration
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers

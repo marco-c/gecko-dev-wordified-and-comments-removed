@@ -714,9 +714,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -727,9 +724,6 @@ observer
 void
 SetLocalDescription
 (
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -767,9 +761,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetRemoteDescriptionObserverInterface
@@ -947,9 +938,6 @@ DestroyMediaChannels
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -958,9 +946,6 @@ local_streams
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1274,9 +1259,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 options
-rtc
-:
-:
 scoped_refptr
 <
 CreateSessionDescriptionObserver
@@ -1294,9 +1276,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 options
-rtc
-:
-:
 scoped_refptr
 <
 CreateSessionDescriptionObserver
@@ -1315,9 +1294,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -1479,9 +1455,6 @@ OnOperationsChainEmpty
 void
 SetAssociatedRemoteStreams
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInternal
@@ -1505,9 +1478,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -1520,9 +1490,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -1612,9 +1579,6 @@ bundle_groups_by_mid
 ;
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1670,9 +1634,6 @@ const
 RTCError
 UpdateTransceiverChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1740,9 +1701,6 @@ SessionDescription
 remote_description
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1967,9 +1925,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1997,9 +1952,6 @@ void
 ProcessRemovalOfRemoteTrack
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2013,9 +1965,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -2028,9 +1977,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2049,9 +1995,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2064,9 +2007,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2675,9 +2615,6 @@ signaling_thread
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -2691,9 +2628,6 @@ signaling_thread
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -2727,9 +2661,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 OperationsChain
@@ -2857,9 +2788,6 @@ signaling_thread
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

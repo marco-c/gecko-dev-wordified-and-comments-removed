@@ -687,9 +687,6 @@ rtp_header_extensions_set_
 ;
 }
 const
-cricket
-:
-:
 StreamParamsVec
 &
 streams
@@ -701,9 +698,6 @@ return
 send_streams_
 ;
 }
-cricket
-:
-:
 StreamParamsVec
 &
 mutable_streams
@@ -1305,9 +1299,6 @@ rtp_header_extensions_set_
 =
 false
 ;
-cricket
-:
-:
 StreamParamsVec
 send_streams_
 ;
@@ -2561,9 +2552,6 @@ name
 )
 ;
 const
-cricket
-:
-:
 TransportInfos
 &
 transport_infos
@@ -2575,9 +2563,6 @@ return
 transport_infos_
 ;
 }
-cricket
-:
-:
 TransportInfos
 &
 transport_infos
@@ -2657,9 +2642,6 @@ void
 set_transport_infos
 (
 const
-cricket
-:
-:
 TransportInfos
 &
 transport_infos
@@ -2901,9 +2883,6 @@ SessionDescription
 ContentInfos
 contents_
 ;
-cricket
-:
-:
 TransportInfos
 transport_infos_
 ;

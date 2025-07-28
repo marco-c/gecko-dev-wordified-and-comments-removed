@@ -55,9 +55,6 @@ AudioSourceInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 LocalAudioSource

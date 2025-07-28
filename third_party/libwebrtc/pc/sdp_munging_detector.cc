@@ -146,16 +146,10 @@ SdpMungingType
 DetermineTransportModification
 (
 const
-cricket
-:
-:
 TransportInfos
 &
 last_created_transport_infos
 const
-cricket
-:
-:
 TransportInfos
 &
 transport_infos_to_set
@@ -2039,9 +2033,6 @@ ssrc_groups
 ]
 (
 const
-cricket
-:
-:
 SsrcGroup
 group
 )
@@ -2097,9 +2088,6 @@ ssrc_groups
 ]
 (
 const
-cricket
-:
-:
 SsrcGroup
 group
 )

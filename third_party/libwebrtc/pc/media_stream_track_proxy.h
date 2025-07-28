@@ -92,9 +92,6 @@ int
 )
 PROXY_METHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessorInterface

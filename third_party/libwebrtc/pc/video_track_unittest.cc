@@ -192,7 +192,7 @@ track_id
 ;
 video_track_source_
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -232,7 +232,7 @@ webrtc
 AutoThread
 main_thread_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -241,7 +241,7 @@ FakeVideoTrackSource
 >
 video_track_source_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

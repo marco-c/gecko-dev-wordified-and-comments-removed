@@ -123,9 +123,6 @@ SetSend
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -150,9 +147,6 @@ UpdateSend
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -177,9 +171,6 @@ SetReceive
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -204,9 +195,6 @@ UpdateReceive
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -452,9 +440,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -481,9 +466,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -510,9 +492,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t

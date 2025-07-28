@@ -833,9 +833,6 @@ RtpTransceiver
 :
 RtpTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -844,9 +841,6 @@ RtpSenderInternal
 >
 >
 sender
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2381,9 +2375,6 @@ RtpTransceiver
 :
 AddSender
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -2605,9 +2596,6 @@ RtpTransceiver
 :
 AddReceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2806,9 +2794,6 @@ return
 true
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInternal
@@ -2837,9 +2822,6 @@ size
 )
 ;
 return
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInternal
@@ -2857,9 +2839,6 @@ internal
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInternal
@@ -2888,9 +2867,6 @@ size
 )
 ;
 return
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInternal
@@ -3010,9 +2986,6 @@ NotifyFirstPacketSent
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -3047,9 +3020,6 @@ senders_
 ]
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -3692,9 +3662,6 @@ RtpTransceiver
 :
 SetCodecPreferences
 (
-rtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -4431,9 +4398,6 @@ RtpTransceiver
 :
 SetHeaderExtensionsToNegotiate
 (
-rtc
-:
-:
 ArrayView
 <
 const

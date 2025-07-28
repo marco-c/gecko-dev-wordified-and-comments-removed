@@ -165,9 +165,6 @@ class
 MockVoiceMediaReceiveChannelInterface
 :
 public
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 {
 public
@@ -201,7 +198,7 @@ bool
 SetReceiverParameters
 (
 const
-cricket
+webrtc
 :
 :
 AudioReceiverParameters
@@ -345,7 +342,7 @@ MOCK_METHOD
 bool
 GetStats
 (
-cricket
+webrtc
 :
 :
 VoiceMediaReceiveInfo
@@ -422,9 +419,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 AsVideoReceiveChannel
@@ -437,9 +431,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 AsVoiceReceiveChannel
@@ -468,7 +459,7 @@ bool
 AddRecvStream
 (
 const
-cricket
+webrtc
 :
 :
 StreamParams
@@ -509,7 +500,7 @@ MOCK_METHOD
 void
 SetInterface
 (
-cricket
+webrtc
 :
 :
 MediaChannelNetworkInterface

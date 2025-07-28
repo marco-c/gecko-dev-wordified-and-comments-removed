@@ -425,9 +425,6 @@ VideoOptions
 )
 receiver_
 (
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpReceiver
@@ -591,9 +588,6 @@ MockVideoMediaReceiveChannel
 >
 channel_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoRtpReceiver

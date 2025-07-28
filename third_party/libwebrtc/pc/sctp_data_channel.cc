@@ -874,9 +874,6 @@ ObserverAdapter
 SctpDataChannel
 *
 channel
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1551,9 +1548,6 @@ signaling_thread_
 ScopedTaskSafety
 safety_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1574,9 +1568,6 @@ nullptr
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -1622,9 +1613,6 @@ IsValid
 )
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 SctpDataChannel
@@ -1645,9 +1633,6 @@ network_thread
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -1657,17 +1642,11 @@ SctpDataChannel
 :
 CreateProxy
 (
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
 >
 channel
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -2088,9 +2067,6 @@ prepare_observer
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -3321,9 +3297,6 @@ OnDataReceived
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -3837,9 +3810,6 @@ handshake_state_
 kHandshakeShouldSendOpen
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -3870,9 +3840,6 @@ handshake_state_
 kHandshakeShouldSendAck
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -4527,9 +4494,6 @@ SctpDataChannel
 SendControlMessage
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer

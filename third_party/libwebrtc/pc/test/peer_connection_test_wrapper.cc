@@ -1091,7 +1091,7 @@ PeerConnectionInterface
 RTCConfiguration
 &
 config
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1102,7 +1102,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1219,7 +1219,7 @@ Thread
 Current
 (
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1383,7 +1383,7 @@ PeerConnectionInterface
 RTCConfiguration
 &
 config
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1394,7 +1394,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1485,7 +1485,7 @@ field_trials
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1782,7 +1782,7 @@ PeerConnectionTestWrapper
 :
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1796,7 +1796,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1939,7 +1939,7 @@ PeerConnectionTestWrapper
 :
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2284,7 +2284,7 @@ sdp
 auto
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -2374,7 +2374,7 @@ sdp
 auto
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -2929,7 +2929,7 @@ bool
 video
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3027,7 +3027,7 @@ ok
 ;
 }
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3078,7 +3078,7 @@ num_get_user_media_calls_
 +
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3117,7 +3117,7 @@ highpass_filter
 =
 false
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3137,7 +3137,7 @@ CreateAudioSource
 options
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3222,7 +3222,7 @@ height
 auto
 source
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3254,7 +3254,7 @@ stream_id
 +
 kVideoTrackLabelBase
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

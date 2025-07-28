@@ -930,10 +930,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -946,10 +943,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -984,10 +978,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -1306,10 +1297,7 @@ void
 SignalSentPacket_n
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

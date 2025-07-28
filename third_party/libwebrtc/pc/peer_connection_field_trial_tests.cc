@@ -543,9 +543,6 @@ socket_server_
 AutoSocketServerThread
 main_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -674,9 +671,6 @@ type
 )
 ;
 const
-cricket
-:
-:
 RtpHeaderExtensions
 &
 rtp_header_extensions1
@@ -810,9 +804,6 @@ CreateOffer
 (
 )
 ;
-cricket
-:
-:
 ContentInfos
 &
 contents1
@@ -869,9 +860,6 @@ type
 )
 )
 ;
-cricket
-:
-:
 RtpHeaderExtensions
 rtp_header_extensions1
 =
@@ -1078,9 +1066,6 @@ CreateAnswer
 (
 )
 ;
-cricket
-:
-:
 ContentInfos
 &
 contents2
@@ -1137,9 +1122,6 @@ type
 )
 )
 ;
-cricket
-:
-:
 RtpHeaderExtensions
 rtp_header_extensions2
 =

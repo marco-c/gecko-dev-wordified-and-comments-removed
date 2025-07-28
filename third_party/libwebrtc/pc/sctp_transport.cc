@@ -180,9 +180,6 @@ unique_ptr
 SctpTransportInternal
 >
 internal
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -262,9 +259,6 @@ SubscribeDtlsTransportState
 this
 ]
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -487,9 +481,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -691,9 +682,6 @@ bytes
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface

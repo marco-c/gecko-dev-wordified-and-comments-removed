@@ -620,9 +620,6 @@ bundle_groups_by_mid
 virtual
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -635,9 +632,6 @@ webrtc
 :
 MediaType
 media_type
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -843,9 +837,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -898,9 +889,6 @@ const
 0
 ;
 virtual
-cricket
-:
-:
 CandidateStatsList
 GetPooledCandidateStats
 (
@@ -979,9 +967,6 @@ std
 string
 &
 transport_name
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate

@@ -180,9 +180,6 @@ internal
 )
 ice_transport_
 (
-rtc
-:
-:
 make_ref_counted
 <
 IceTransportWithPointer
@@ -215,9 +212,6 @@ SubscribeDtlsTransportState
 this
 ]
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -325,9 +319,6 @@ observer_
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

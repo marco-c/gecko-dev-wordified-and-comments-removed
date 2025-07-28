@@ -132,9 +132,6 @@ namespace
 webrtc
 {
 typedef
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -582,9 +579,6 @@ end
 RtpTransceiverProxyRefPtr
 FindBySender
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface

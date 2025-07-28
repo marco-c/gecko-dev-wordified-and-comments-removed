@@ -892,9 +892,6 @@ absl
 :
 string_view
 url
-cricket
-:
-:
 ServerAddresses
 *
 stun_servers
@@ -1750,9 +1747,6 @@ PeerConnectionInterface
 IceServers
 &
 servers
-cricket
-:
-:
 ServerAddresses
 *
 stun_servers
@@ -1944,9 +1938,6 @@ PeerConnectionInterface
 RTCConfiguration
 &
 configuration
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -2064,9 +2055,6 @@ kMaxTurnServers
 }
 for
 (
-cricket
-:
-:
 RelayServerConfig
 &
 turn_server

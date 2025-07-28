@@ -399,9 +399,6 @@ nullptr
 endif
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext
@@ -421,9 +418,6 @@ dependencies
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext

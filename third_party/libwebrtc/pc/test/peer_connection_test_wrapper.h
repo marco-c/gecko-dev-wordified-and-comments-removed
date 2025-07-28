@@ -345,7 +345,7 @@ PeerConnectionInterface
 RTCConfiguration
 &
 config
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -356,7 +356,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -395,7 +395,7 @@ PeerConnectionInterface
 RTCConfiguration
 &
 config
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -406,7 +406,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -454,7 +454,7 @@ field_trials
 nullptr
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -490,7 +490,7 @@ get
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -567,7 +567,7 @@ override
 void
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -584,7 +584,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -603,7 +603,7 @@ override
 void
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -849,7 +849,7 @@ DataChannelInterface
 >
 SignalOnDataChannel
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -994,7 +994,7 @@ webrtc
 SequenceChecker
 pc_thread_checker_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1006,7 +1006,7 @@ PeerConnectionInterface
 >
 peer_connection_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1018,7 +1018,7 @@ PeerConnectionFactoryInterface
 >
 peer_connection_factory_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1052,7 +1052,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr

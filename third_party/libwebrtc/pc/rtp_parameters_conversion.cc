@@ -725,9 +725,6 @@ Codec
 &
 cricket_codecs
 const
-cricket
-:
-:
 RtpHeaderExtensions
 &
 cricket_extensions

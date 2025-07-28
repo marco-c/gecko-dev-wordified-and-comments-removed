@@ -947,9 +947,6 @@ override
 void
 OnAddStream
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -962,9 +959,6 @@ override
 void
 OnRemoveStream
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -977,9 +971,6 @@ override
 void
 OnDataChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -1175,9 +1166,6 @@ Thread
 Current
 (
 )
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -1276,9 +1264,6 @@ protected
 void
 VerifyStunServers
 (
-cricket
-:
-:
 ServerAddresses
 stun_servers
 )
@@ -1883,9 +1868,6 @@ socket_server_
 AutoSocketServerThread
 main_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -1910,9 +1892,6 @@ raw_port_allocator_
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -2036,9 +2015,6 @@ EnableMedia
 pcf_dependencies
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext
@@ -2066,9 +2042,6 @@ false
 )
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 PeerConnectionFactory
@@ -2095,9 +2068,6 @@ InitializeAndroidObjects
 ;
 #
 endif
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -3143,9 +3113,6 @@ ok
 )
 )
 ;
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -3196,9 +3163,6 @@ com
 1234
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_UDP
 )
 ;
@@ -3220,9 +3184,6 @@ com
 kDefaultStunPort
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TCP
 )
 ;
@@ -3374,9 +3335,6 @@ ok
 )
 )
 ;
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -3427,9 +3385,6 @@ com
 1234
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_UDP
 )
 ;
@@ -3451,9 +3406,6 @@ com
 kDefaultStunPort
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TCP
 )
 ;
@@ -3619,9 +3571,6 @@ com
 1234
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_UDP
 )
 ;
@@ -3772,9 +3721,6 @@ com
 kDefaultStunPort
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TCP
 )
 ;
@@ -3979,9 +3925,6 @@ com
 kDefaultStunTlsPort
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TLS
 )
 ;
@@ -4003,9 +3946,6 @@ com
 443
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TLS
 )
 ;
@@ -4027,9 +3967,6 @@ com
 kDefaultStunTlsPort
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_TLS
 )
 ;
@@ -4220,9 +4157,6 @@ ok
 )
 )
 ;
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -4343,9 +4277,6 @@ fa00
 1234
 kTurnUsername
 kTurnPassword
-cricket
-:
-:
 PROTO_UDP
 )
 ;
@@ -4368,9 +4299,6 @@ PeerConnectionFactoryTest
 LocalRendering
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 FakeVideoTrackSource
@@ -4407,9 +4335,6 @@ get
 NULL
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -4657,9 +4582,6 @@ move
 mock_network_manager
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -4818,9 +4740,6 @@ move
 mock_socket_factory
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface

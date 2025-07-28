@@ -274,16 +274,10 @@ pred
 ]
 (
 const
-cricket
-:
-:
 ContentInfo
 *
 content_info
 const
-cricket
-:
-:
 TransportInfo
 *
 transport_info

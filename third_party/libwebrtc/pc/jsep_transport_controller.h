@@ -546,9 +546,6 @@ mid
 RtpTransportInternal
 *
 rtp_transport
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -637,7 +634,7 @@ AnyInvocable
 void
 (
 const
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -819,9 +816,6 @@ mid
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -837,9 +831,6 @@ string
 mid
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpTransport
@@ -943,9 +934,6 @@ bool
 SetLocalCertificate
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -954,9 +942,6 @@ RTCCertificate
 certificate
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -1394,9 +1379,6 @@ private
 :
 CallbackList
 <
-cricket
-:
-:
 IceConnectionState
 >
 signal_ice_connection_state_
@@ -1838,9 +1820,6 @@ IceTransportInternal
 ice
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -2029,9 +2008,6 @@ IceTransportInternal
 *
 transport
 const
-cricket
-:
-:
 Candidates
 &
 candidates
@@ -2090,9 +2066,6 @@ network_thread_
 void
 OnRtcpPacketReceived_n
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 packet
@@ -2171,15 +2144,9 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-cricket
-:
-:
 IceConnectionState
 ice_connection_state_
 =
-cricket
-:
-:
 kIceConnectionConnecting
 ;
 PeerConnectionInterface
@@ -2240,9 +2207,6 @@ ice_role_
 =
 ICEROLE_CONTROLLING
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate

@@ -480,9 +480,6 @@ default
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -497,9 +494,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -542,9 +536,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -552,7 +543,7 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -581,9 +572,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -591,7 +579,7 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -630,7 +618,7 @@ MOCK_METHOD
 RTCError
 RemoveTrackOrError
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -647,9 +635,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -657,7 +642,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -674,9 +659,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -684,7 +666,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -704,9 +686,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -728,9 +707,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -753,9 +729,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -787,9 +760,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -811,9 +781,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -835,9 +802,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -886,14 +850,14 @@ MOCK_METHOD
 void
 GetStats
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
 RtpSenderInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -911,14 +875,14 @@ MOCK_METHOD
 void
 GetStats
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
 RtpReceiverInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -946,9 +910,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -1134,7 +1095,7 @@ unique_ptr
 <
 SessionDescriptionInterface
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1216,7 +1177,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate
@@ -1282,9 +1243,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -1305,9 +1263,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 SctpTransportInterface
@@ -1381,7 +1336,7 @@ MOCK_METHOD
 void
 AddAdaptationResource
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1701,9 +1656,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 PortAllocator
 *
 port_allocator
@@ -1827,7 +1779,7 @@ bool
 ValidateBundleSettings
 (
 const
-cricket
+webrtc
 :
 :
 SessionDescription
@@ -1844,7 +1796,7 @@ std
 :
 string
 const
-cricket
+webrtc
 :
 :
 ContentGroup
@@ -1862,9 +1814,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1876,7 +1825,7 @@ webrtc
 :
 :
 MediaType
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1917,7 +1866,7 @@ absl
 :
 string_view
 const
-cricket
+webrtc
 :
 :
 Candidate
@@ -2039,9 +1988,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2100,9 +2046,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 CandidateStatsList
 GetPooledCandidateStats
 (
@@ -2125,9 +2068,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 )
@@ -2196,12 +2136,12 @@ std
 :
 string
 &
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -2220,9 +2160,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetRemoteSSLCertChain

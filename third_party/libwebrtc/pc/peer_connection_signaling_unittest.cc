@@ -797,9 +797,6 @@ Thread
 Current
 (
 )
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -1229,9 +1226,6 @@ vss_
 AutoSocketServerThread
 main_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -3515,9 +3509,6 @@ RTCOfferAnswerOptions
 :
 kOfferToReceiveMediaTrue
 ;
-rtc
-:
-:
 scoped_refptr
 <
 MockCreateSessionDescriptionObserver
@@ -3538,9 +3529,6 @@ observers
 {
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -3647,9 +3635,6 @@ CreatePeerConnection
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -3817,9 +3802,6 @@ CreatePeerConnection
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -3958,9 +3940,6 @@ CreatePeerConnection
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -4111,9 +4090,6 @@ CreatePeerConnection
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -4207,9 +4183,6 @@ RTCOfferAnswerOptions
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -4459,9 +4432,6 @@ move
 (
 offer
 )
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetRemoteDescriptionObserver
@@ -4547,9 +4517,6 @@ size
 auto
 offer_observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -4594,9 +4561,6 @@ move
 (
 offer
 )
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetRemoteDescriptionObserver
@@ -8345,9 +8309,6 @@ pc
 >
 SetLocalDescription
 (
-rtc
-:
-:
 make_ref_counted
 <
 MockSetSessionDescriptionObserver
@@ -8464,9 +8425,6 @@ move
 (
 offer
 )
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -8532,9 +8490,6 @@ RTCOfferAnswerOptions
 auto
 offer_observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 ExecuteFunctionOnCreateSessionDescriptionObserver
@@ -8584,9 +8539,6 @@ pc
 >
 SetLocalDescription
 (
-rtc
-:
-:
 make_ref_counted
 <
 MockSetSessionDescriptionObserver
@@ -9337,9 +9289,6 @@ has_negotiation_needed_event
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver

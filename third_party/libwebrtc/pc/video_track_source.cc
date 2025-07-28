@@ -129,9 +129,6 @@ VideoTrackSource
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -171,9 +168,6 @@ VideoTrackSource
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

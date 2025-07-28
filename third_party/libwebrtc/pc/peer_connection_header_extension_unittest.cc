@@ -4441,9 +4441,6 @@ param
 ;
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 "

@@ -423,7 +423,7 @@ transport_observer1_
 this
 ]
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -480,7 +480,7 @@ transport_observer2_
 this
 ]
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -707,7 +707,7 @@ rtp_len
 +
 kRtpAuthTagLen
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -756,7 +756,7 @@ rtp_packet_data
 sequence_number_
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -767,7 +767,7 @@ rtp_len
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -778,10 +778,10 @@ rtp_len
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
-PacketOptions
+AsyncSocketPacketOptions
 options
 ;
 int
@@ -803,7 +803,7 @@ SendRtpPacket
 &
 rtp_packet1to2
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -872,7 +872,7 @@ SendRtpPacket
 &
 rtp_packet2to1
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -946,7 +946,7 @@ rtcp_len
 +
 kRtpAuthTagLen
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -955,7 +955,7 @@ rtcp_packet_buffer
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -966,7 +966,7 @@ rtcp_len
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -977,10 +977,10 @@ rtcp_len
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
-PacketOptions
+AsyncSocketPacketOptions
 options
 ;
 int
@@ -1002,7 +1002,7 @@ SendRtcpPacket
 &
 rtcp_packet1to2
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -1071,7 +1071,7 @@ SendRtcpPacket
 &
 rtcp_packet2to1
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -1183,7 +1183,7 @@ rtp_len
 +
 kRtpAuthTagLen
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -1232,7 +1232,7 @@ rtp_packet_data
 sequence_number_
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1243,7 +1243,7 @@ rtp_len
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1270,10 +1270,10 @@ rtp_packet_data
 rtp_len
 )
 ;
-rtc
+webrtc
 :
 :
-PacketOptions
+AsyncSocketPacketOptions
 options
 ;
 ASSERT_TRUE
@@ -1286,7 +1286,7 @@ SendRtpPacket
 &
 rtp_packet1to2
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -1425,7 +1425,7 @@ SendRtpPacket
 &
 rtp_packet2to1
 options
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS
@@ -3463,7 +3463,7 @@ rtcp_len
 +
 kRtpAuthTagLen
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -3472,7 +3472,7 @@ rtcp_packet_buffer
 packet_size
 )
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -3501,13 +3501,13 @@ SendRtcpPacket
 (
 &
 rtcp_packet
-rtc
+webrtc
 :
 :
-PacketOptions
+AsyncSocketPacketOptions
 (
 )
-cricket
+webrtc
 :
 :
 PF_SRTP_BYPASS

@@ -284,9 +284,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -323,9 +320,6 @@ volume
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -339,9 +333,6 @@ return
 track_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -356,9 +347,6 @@ return
 track_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -390,9 +378,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -448,9 +433,6 @@ override
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -459,9 +441,6 @@ frame_decryptor
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -531,9 +510,6 @@ override
 void
 set_transport
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -551,9 +527,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -623,9 +596,6 @@ attachment_id_
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -717,9 +687,6 @@ string
 id_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 RemoteAudioSource
@@ -727,9 +694,6 @@ RemoteAudioSource
 source_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackProxyWithInternal
@@ -767,9 +731,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -826,9 +787,6 @@ const
 int
 attachment_id_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -839,9 +797,6 @@ RTC_GUARDED_BY
 worker_thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -860,9 +815,6 @@ RTC_GUARDED_BY
 worker_thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -874,9 +826,6 @@ worker_thread_
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

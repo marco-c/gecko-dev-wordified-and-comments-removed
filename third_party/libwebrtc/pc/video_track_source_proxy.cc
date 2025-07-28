@@ -46,9 +46,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface
@@ -74,9 +71,6 @@ Create
 (
 signaling_thread
 worker_thread
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface

@@ -367,9 +367,6 @@ kNonsenseCipherSuite
 ;
 transport_
 =
-rtc
-:
-:
 make_ref_counted
 <
 DtlsTransport
@@ -496,9 +493,6 @@ get
 AutoThread
 main_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -536,9 +530,6 @@ ICE_CANDIDATE_COMPONENT_RTP
 auto
 webrtc_transport
 =
-rtc
-:
-:
 make_ref_counted
 <
 DtlsTransport

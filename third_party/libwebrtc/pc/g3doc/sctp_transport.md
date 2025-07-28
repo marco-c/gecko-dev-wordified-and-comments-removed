@@ -277,7 +277,7 @@ a
 wrapper
 around
 a
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -338,12 +338,12 @@ PeerConnection
 .
 #
 #
-cricket
+webrtc
 :
 :
 SctpTransportInternal
 [
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -383,7 +383,7 @@ h
 ?
 q
 =
-cricket
+webrtc
 :
 :
 SctpTransportInternal

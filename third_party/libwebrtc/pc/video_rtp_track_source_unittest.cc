@@ -182,9 +182,6 @@ override
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoRtpTrackSource
@@ -200,9 +197,6 @@ callback
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpTrackSource
@@ -647,9 +641,6 @@ public
 RecordableEncodedFrame
 {
 public
-:
-rtc
-:
 :
 scoped_refptr
 <

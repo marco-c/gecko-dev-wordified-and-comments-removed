@@ -244,9 +244,6 @@ return
 true
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSender
@@ -275,9 +272,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 DtmfSender

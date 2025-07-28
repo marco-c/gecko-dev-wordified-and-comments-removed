@@ -253,9 +253,6 @@ audio
 private
 :
 const
-rtc
-:
-:
 scoped_refptr
 <
 RemoteAudioSource
@@ -862,9 +859,6 @@ kEnd
 return
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RemoteAudioSource

@@ -945,9 +945,6 @@ RtpSenderBase
 :
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -2593,9 +2590,6 @@ can_send_track
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -3348,9 +3342,6 @@ RtpSenderBase
 :
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3569,9 +3560,6 @@ sink_
 sink
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioRtpSender
@@ -3607,9 +3595,6 @@ set_streams_observer
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 AudioRtpSender
@@ -4133,9 +4118,6 @@ ssrc_
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -4527,9 +4509,6 @@ ssrc_
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoRtpSender
@@ -4559,9 +4538,6 @@ set_streams_observer
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpSender
@@ -4715,9 +4691,6 @@ content_hint
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface

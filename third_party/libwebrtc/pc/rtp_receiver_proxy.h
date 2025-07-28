@@ -127,9 +127,6 @@ PROXY_PRIMARY_THREAD_DESTRUCTOR
 )
 BYPASS_PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -138,9 +135,6 @@ track
 )
 PROXY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -168,9 +162,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -233,9 +224,6 @@ PROXY_SECONDARY_METHOD1
 (
 void
 SetFrameDecryptor
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -243,9 +231,6 @@ FrameDecryptorInterface
 )
 PROXY_SECONDARY_CONSTMETHOD0
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -256,9 +241,6 @@ PROXY_SECONDARY_METHOD1
 (
 void
 SetFrameTransformer
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

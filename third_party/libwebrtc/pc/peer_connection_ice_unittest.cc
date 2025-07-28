@@ -1219,14 +1219,8 @@ modified_config
 .
 set_port_allocator_flags
 (
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_TCP
 |
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_RELAY
 )
 ;
@@ -5826,9 +5820,6 @@ CreateOfferAndSetAsLocal
 auto
 answer_observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -6182,9 +6173,6 @@ CreateOfferAndSetAsLocal
 auto
 answer_observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -10015,9 +10003,6 @@ socket_server_
 AutoSocketServerThread
 main_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -10026,9 +10011,6 @@ pc_factory_
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface

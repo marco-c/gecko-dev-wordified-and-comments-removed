@@ -160,9 +160,6 @@ unique_ptr
 SctpTransportInternal
 >
 internal
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -170,9 +167,6 @@ DtlsTransport
 dtls_transport
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -225,9 +219,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -426,9 +417,6 @@ owner_thread_
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport

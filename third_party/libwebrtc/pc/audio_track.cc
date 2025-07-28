@@ -71,9 +71,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrack
@@ -89,9 +86,6 @@ absl
 string_view
 id
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -101,9 +95,6 @@ source
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 AudioTrack
@@ -125,9 +116,6 @@ absl
 string_view
 label
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface

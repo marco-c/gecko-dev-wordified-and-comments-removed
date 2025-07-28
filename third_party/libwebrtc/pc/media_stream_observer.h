@@ -132,9 +132,6 @@ override
 ;
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

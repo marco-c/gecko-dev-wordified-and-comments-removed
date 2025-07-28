@@ -41,9 +41,6 @@ webrtc
 {
 static
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -58,9 +55,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ1234
 ;
 static
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t

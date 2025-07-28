@@ -447,9 +447,6 @@ override
 ;
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -457,9 +454,6 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -490,9 +484,6 @@ RtpEncodingParameters
 init_send_encodings
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -514,9 +505,6 @@ std
 string
 &
 id
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -547,9 +535,6 @@ RtpEncodingParameters
 send_encodings
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -573,9 +558,6 @@ string
 receiver_id
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -585,9 +567,6 @@ RtpTransceiver
 >
 CreateAndAddTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -596,9 +575,6 @@ RtpSenderInternal
 >
 >
 sender
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -609,9 +585,6 @@ RtpReceiverInternal
 receiver
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -621,9 +594,6 @@ RtpTransceiver
 >
 FindFirstTransceiverForAddedTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -646,9 +616,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -667,9 +634,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -683,9 +647,6 @@ GetReceiversInternal
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -698,9 +659,6 @@ GetAudioTransceiver
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -885,9 +843,6 @@ sender_id
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -903,9 +858,6 @@ track
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -925,9 +877,6 @@ sender_id
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -1061,9 +1010,6 @@ event
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1071,9 +1017,6 @@ RtpSenderInterface
 >
 AddTrackUnifiedPlan
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1106,9 +1049,6 @@ init_send_encodings
 ;
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1116,9 +1056,6 @@ RtpSenderInterface
 >
 AddTrackPlanB
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1185,9 +1122,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface

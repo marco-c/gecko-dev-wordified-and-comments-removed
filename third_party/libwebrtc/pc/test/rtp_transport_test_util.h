@@ -110,9 +110,6 @@ this
 this
 ]
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 buffer
@@ -184,10 +181,7 @@ this
 ]
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 packet
 )
@@ -246,9 +240,6 @@ un_demuxable_rtp_count_
 void
 OnRtcpPacketReceived
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 packet
@@ -317,9 +308,6 @@ return
 last_recv_rtp_packet_
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 last_recv_rtcp_packet
 (
@@ -462,9 +450,6 @@ ready_to_send_signal_count_
 RtpPacketReceived
 last_recv_rtp_packet_
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 last_recv_rtcp_packet_
 ;

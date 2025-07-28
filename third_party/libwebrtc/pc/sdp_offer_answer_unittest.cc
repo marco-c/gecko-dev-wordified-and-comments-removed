@@ -936,9 +936,6 @@ Thread
 >
 signaling_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -20595,7 +20592,7 @@ codec
 name
 =
 =
-cricket
+webrtc
 :
 :
 kH264CodecName
@@ -20605,11 +20602,11 @@ codec
 .
 SetParam
 (
-cricket
+webrtc
 :
 :
 kH264FmtpSpsPpsIdrInKeyframe
-cricket
+webrtc
 :
 :
 kParamValueTrue

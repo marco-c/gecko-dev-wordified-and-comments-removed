@@ -213,7 +213,7 @@ webrtc
 namespace
 {
 using
-cricket
+webrtc
 :
 :
 FakeMediaEngine

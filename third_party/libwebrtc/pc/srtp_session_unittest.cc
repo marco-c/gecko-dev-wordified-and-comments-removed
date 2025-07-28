@@ -663,9 +663,6 @@ webrtc
 :
 :
 kSrtpAes128CmSha1_80
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -695,9 +692,6 @@ webrtc
 :
 :
 kSrtpAes128CmSha1_80
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t

@@ -275,7 +275,7 @@ GetWeakPtr
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -299,7 +299,7 @@ InternalDataChannelInit
 init
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -345,7 +345,7 @@ RTC_CHECK
 my_weak_ptr
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -510,7 +510,7 @@ SendDataParams
 &
 params
 const
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer

@@ -287,17 +287,11 @@ PeerConnectionWrapper
 :
 PeerConnectionWrapper
 (
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
 >
 pc_factory
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -864,9 +858,6 @@ error_out
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockCreateSessionDescriptionObserver
@@ -1026,9 +1017,6 @@ error_out
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetLocalDescriptionObserver
@@ -1200,9 +1188,6 @@ error_out
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 FakeSetRemoteDescriptionObserver
@@ -1322,9 +1307,6 @@ error_out
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockSetSessionDescriptionObserver
@@ -1656,9 +1638,6 @@ return
 set_remote_answer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1677,9 +1656,6 @@ media_type
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1722,9 +1698,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1747,9 +1720,6 @@ init
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1793,9 +1763,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1805,9 +1772,6 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1817,9 +1781,6 @@ track
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1862,9 +1823,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1874,9 +1832,6 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1890,9 +1845,6 @@ init
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1936,9 +1888,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -1970,9 +1919,6 @@ nullptr
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2009,9 +1955,6 @@ label
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2021,9 +1964,6 @@ PeerConnectionWrapper
 :
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -2046,9 +1986,6 @@ stream_ids
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2092,9 +2029,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2104,9 +2038,6 @@ PeerConnectionWrapper
 :
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -2139,9 +2070,6 @@ init_send_encodings
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2186,9 +2114,6 @@ MoveValue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2231,9 +2156,6 @@ stream_ids
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -2276,9 +2198,6 @@ stream_ids
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -2459,9 +2378,6 @@ observer
 ice_connected_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -2477,9 +2393,6 @@ GetStats
 auto
 callback
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockRTCStatsCollectorCallback

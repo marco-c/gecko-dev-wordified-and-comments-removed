@@ -126,9 +126,6 @@ DtlsTransportInternal
 internal
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -294,9 +291,6 @@ owner_thread_
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportWithPointer

@@ -420,9 +420,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -864,9 +861,6 @@ channel_id
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -1172,9 +1166,6 @@ end
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -1304,9 +1295,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -1689,9 +1677,6 @@ channel_id
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -1898,9 +1883,6 @@ DataChannelController
 :
 OnDataChannelOpenMessage
 (
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2154,9 +2136,6 @@ OK
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2291,9 +2270,6 @@ stream_id_int
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2370,9 +2346,6 @@ channel
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -2466,9 +2439,6 @@ BlockingCall
 >
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2667,9 +2637,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -3195,9 +3162,6 @@ message
 .
 set_unix_timestamp_ms
 (
-rtc
-:
-:
 TimeUTCMillis
 (
 )

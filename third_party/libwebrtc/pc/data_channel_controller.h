@@ -279,9 +279,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -356,9 +353,6 @@ channel_id
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -445,9 +439,6 @@ const
 ;
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -528,9 +519,6 @@ channel
 ;
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -564,9 +552,6 @@ channel_id
 DataMessageType
 type
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -581,9 +566,6 @@ network_thread
 void
 OnDataChannelOpenMessage
 (
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -705,9 +687,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel

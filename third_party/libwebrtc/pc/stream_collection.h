@@ -40,9 +40,6 @@ StreamCollectionInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -52,9 +49,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 StreamCollection
@@ -64,9 +58,6 @@ StreamCollection
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -79,9 +70,6 @@ streams
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 StreamCollection
@@ -343,9 +331,6 @@ NULL
 void
 AddStream
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -527,9 +512,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

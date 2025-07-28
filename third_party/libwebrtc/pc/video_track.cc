@@ -157,9 +157,6 @@ absl
 :
 string_view
 label
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceProxyWithInternal
@@ -268,9 +265,6 @@ VideoTrack
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -330,9 +324,6 @@ VideoTrack
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -711,9 +702,6 @@ kLive
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrack
@@ -728,9 +716,6 @@ absl
 :
 string_view
 id
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface
@@ -741,9 +726,6 @@ Thread
 worker_thread
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceProxyWithInternal
@@ -775,9 +757,6 @@ source
 )
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoTrack

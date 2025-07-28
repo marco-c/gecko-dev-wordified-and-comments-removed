@@ -193,9 +193,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -223,9 +220,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -313,7 +307,7 @@ MOCK_METHOD
 void
 set_transport
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -474,9 +468,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -495,7 +486,7 @@ MOCK_METHOD
 void
 SetFrameEncryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -510,9 +501,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -531,7 +519,7 @@ MOCK_METHOD
 void
 SetFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

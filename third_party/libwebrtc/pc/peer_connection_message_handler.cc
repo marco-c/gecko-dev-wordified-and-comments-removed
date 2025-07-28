@@ -121,9 +121,6 @@ template
 typename
 T
 >
-rtc
-:
-:
 scoped_refptr
 <
 T
@@ -136,9 +133,6 @@ ptr
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 T

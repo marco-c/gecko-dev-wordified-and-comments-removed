@@ -217,9 +217,6 @@ Current
 )
 receiver_
 (
-rtc
-:
-:
 make_ref_counted
 <
 AudioRtpReceiver
@@ -300,9 +297,6 @@ Thread
 *
 worker_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioRtpReceiver
@@ -572,9 +566,6 @@ receive_channel
 auto
 receiver
 =
-rtc
-:
-:
 make_ref_counted
 <
 AudioRtpReceiver

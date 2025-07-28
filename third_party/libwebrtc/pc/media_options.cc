@@ -107,9 +107,6 @@ rids
 ]
 (
 const
-cricket
-:
-:
 SimulcastLayer
 &
 layer
@@ -128,9 +125,6 @@ layer
 ]
 (
 const
-cricket
-:
-:
 RidDescription
 &
 rid

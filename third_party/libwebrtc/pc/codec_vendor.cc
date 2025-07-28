@@ -1739,9 +1739,6 @@ rtx_codec
 .
 params
 [
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 ]
 =
@@ -1878,9 +1875,6 @@ red_codec
 .
 params
 [
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 ]
 =
