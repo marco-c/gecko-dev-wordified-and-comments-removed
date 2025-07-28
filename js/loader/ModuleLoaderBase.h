@@ -854,6 +854,11 @@ aGlobalObject
 )
 ;
 void
+CancelFetchingModules
+(
+)
+;
+void
 Shutdown
 (
 )
