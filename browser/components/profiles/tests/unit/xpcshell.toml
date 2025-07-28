@@ -65,6 +65,13 @@ false
 ]
 [
 "
+test_TelemetryLockCount
+.
+js
+"
+]
+[
+"
 test_command_line_handler
 .
 js
