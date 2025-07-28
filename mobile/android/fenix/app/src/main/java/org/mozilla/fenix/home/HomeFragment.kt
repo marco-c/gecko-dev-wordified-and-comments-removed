@@ -3664,6 +3664,11 @@ activity
 homeBinding
 =
 binding
+navController
+=
+findNavController
+(
+)
 toolbarStore
 =
 toolbarStore
