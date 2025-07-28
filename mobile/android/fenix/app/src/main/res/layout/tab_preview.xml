@@ -582,7 +582,7 @@ background
 "
 drawable
 /
-home_search_background
+search_url_background
 "
 android
 :
@@ -1239,7 +1239,7 @@ background
 "
 drawable
 /
-home_search_background
+search_url_background
 "
 /
 >
