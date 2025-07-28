@@ -149,14 +149,6 @@ compose
 .
 ui
 .
-ExperimentalComposeUiApi
-import
-androidx
-.
-compose
-.
-ui
-.
 Modifier
 import
 androidx
@@ -358,13 +350,6 @@ column
 .
 *
 /
-OptIn
-(
-ExperimentalComposeUiApi
-:
-:
-class
-)
 Composable
 fun
 PocketSection
@@ -523,7 +508,7 @@ height
 dp
 )
 )
-PocketStories
+Stories
 (
 stories
 =
