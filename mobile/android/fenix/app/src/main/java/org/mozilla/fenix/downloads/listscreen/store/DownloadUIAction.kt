@@ -631,8 +631,9 @@ DownloadUIAction
 ]
 to
 cancel
-a
-downloading
+an
+incomplete
+download
 file
 .
 *

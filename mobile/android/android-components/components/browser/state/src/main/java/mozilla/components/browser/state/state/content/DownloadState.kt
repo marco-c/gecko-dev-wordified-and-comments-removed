@@ -732,12 +732,6 @@ Indicates
 that
 the
 download
-that
-has
-been
-[
-DOWNLOADING
-]
 has
 been
 cancelled
