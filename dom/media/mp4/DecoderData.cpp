@@ -976,6 +976,12 @@ codecType
 =
 =
 MP4PARSE_CODEC_AAC
+|
+|
+codecType
+=
+=
+MP4PARSE_CODEC_XHEAAC
 )
 {
 mMimeType
