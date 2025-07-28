@@ -3816,7 +3816,16 @@ browser_menu_account_settings
 )
 description
 =
-null
+stringResource
+(
+id
+=
+R
+.
+string
+.
+browser_menu_signed_in_caption
+)
 }
 is
 Authenticating
