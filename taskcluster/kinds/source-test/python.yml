@@ -2497,16 +2497,12 @@ changed
 '
 testing
 /
-performance
-/
 *
 *
 '
 -
 '
 python
-/
-mozperftest
 /
 *
 *
