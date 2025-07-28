@@ -491,7 +491,7 @@ PropTypes
 object
 .
 isRequired
-groupWarnings
+groupSimilar
 :
 PropTypes
 .
@@ -703,7 +703,7 @@ displayMode
 enableNetworkMonitoring
 filter
 filteredMessagesCount
-groupWarnings
+groupSimilar
 persistLogs
 timestampsVisible
 eagerEvaluation
@@ -754,11 +754,11 @@ filter
 |
 nextProps
 .
-groupWarnings
+groupSimilar
 !
 =
 =
-groupWarnings
+groupSimilar
 |
 |
 nextProps
@@ -1692,7 +1692,7 @@ const
 dispatch
 enableNetworkMonitoring
 eagerEvaluation
-groupWarnings
+groupSimilar
 persistLogs
 timestampsVisible
 webConsoleUI
@@ -1710,7 +1710,7 @@ ConsoleSettings
 dispatch
 enableNetworkMonitoring
 eagerEvaluation
-groupWarnings
+groupSimilar
 persistLogs
 timestampsVisible
 webConsoleUI
@@ -2089,11 +2089,11 @@ getFilteredMessagesCount
 (
 state
 )
-groupWarnings
+groupSimilar
 :
 prefsState
 .
-groupWarnings
+groupSimilar
 persistLogs
 :
 uiState

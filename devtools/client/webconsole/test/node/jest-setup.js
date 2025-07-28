@@ -379,9 +379,9 @@ devtools
 .
 webconsole
 .
-groupWarningMessages
+groupSimilarMessages
 "
-false
+true
 )
 ;
 pref

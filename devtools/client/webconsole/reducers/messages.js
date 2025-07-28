@@ -607,6 +607,11 @@ size
 {
 if
 (
+prefsState
+.
+groupSimilar
+&
+&
 lastMessage
 .
 groupId
@@ -711,7 +716,7 @@ if
 (
 prefsState
 .
-groupWarnings
+groupSimilar
 &
 &
 warningGroupType
@@ -2664,14 +2669,14 @@ frontsToRelease
 case
 constants
 .
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 :
 if
 (
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 &
 &
 state
@@ -2837,7 +2842,7 @@ forceTimestampSort
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 }
 )
 ;
@@ -3293,7 +3298,7 @@ maybeSortVisibleMessages
 newState
 prefsState
 .
-groupWarnings
+groupSimilar
 forceTimestampSort
 )
 ;
@@ -6296,7 +6301,7 @@ if
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 )
 {
 return

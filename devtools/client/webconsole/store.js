@@ -511,7 +511,7 @@ EAGER_EVALUATION
 )
 ;
 const
-groupWarnings
+groupSimilar
 =
 getBoolPref
 (
@@ -519,7 +519,7 @@ PREFS
 .
 FEATURES
 .
-GROUP_WARNINGS
+GROUP_SIMILAR_MESSAGES
 )
 ;
 const
@@ -548,7 +548,7 @@ sidebarToggle
 autocomplete
 eagerEvaluation
 historyCount
-groupWarnings
+groupSimilar
 }
 )
 filters

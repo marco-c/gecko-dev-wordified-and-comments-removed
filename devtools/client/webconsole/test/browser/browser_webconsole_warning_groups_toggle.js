@@ -127,7 +127,7 @@ devtools
 .
 webconsole
 .
-groupWarningMessages
+groupSimilarMessages
 "
 ;
 const
