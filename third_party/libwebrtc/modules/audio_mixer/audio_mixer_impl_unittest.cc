@@ -552,9 +552,6 @@ audio_frame
 >
 samples_per_channel_
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -609,9 +606,6 @@ rate
 int
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -640,9 +634,6 @@ native_sample_rate
 AudioFrame
 *
 mix_frame
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer
@@ -1660,9 +1651,6 @@ init
 "
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer
@@ -2834,9 +2822,6 @@ kDefaultFrequency
 int
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const

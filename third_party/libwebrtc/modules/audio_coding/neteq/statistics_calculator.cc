@@ -1235,9 +1235,6 @@ const
 int
 time_step_ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 static_cast

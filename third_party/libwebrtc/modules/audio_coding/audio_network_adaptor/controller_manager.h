@@ -157,9 +157,6 @@ string_view
 config_string
 size_t
 num_encoder_channels
-rtc
-:
-:
 ArrayView
 <
 const
@@ -197,9 +194,6 @@ string_view
 config_string
 size_t
 num_encoder_channels
-rtc
-:
-:
 ArrayView
 <
 const

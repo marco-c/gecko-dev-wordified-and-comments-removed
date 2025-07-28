@@ -486,9 +486,6 @@ neteq_
 InsertPacket
 (
 rtp_header_
-rtc
-:
-:
 ArrayView
 <
 const

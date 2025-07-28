@@ -86,9 +86,6 @@ Reset
 void
 UpdateSid
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -100,9 +97,6 @@ sid
 bool
 Generate
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -223,9 +217,6 @@ quality
 size_t
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -234,9 +225,6 @@ int16_t
 speech
 bool
 force_sid
-rtc
-:
-:
 Buffer
 *
 output

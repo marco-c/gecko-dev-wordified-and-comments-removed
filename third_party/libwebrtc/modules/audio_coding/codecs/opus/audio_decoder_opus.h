@@ -128,9 +128,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -204,9 +201,6 @@ GeneratePlc
 (
 size_t
 requested_samples_per_channel
-rtc
-:
-:
 BufferT
 <
 int16_t

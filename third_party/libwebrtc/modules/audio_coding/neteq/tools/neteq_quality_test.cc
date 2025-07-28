@@ -1029,9 +1029,6 @@ SdpAudioFormat
 &
 format
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -2455,9 +2452,6 @@ neteq_
 InsertPacket
 (
 rtp_header_
-rtc
-:
-:
 ArrayView
 <
 const

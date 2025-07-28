@@ -245,9 +245,6 @@ dummy_packet
 >
 payload
 =
-rtc
-:
-:
 Buffer
 (
 first_packet_

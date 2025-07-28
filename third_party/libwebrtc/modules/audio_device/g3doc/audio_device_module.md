@@ -347,7 +347,7 @@ be
 injected
 using
 [
-rtc
+webrtc
 :
 :
 CreatePeerConnectionFactory

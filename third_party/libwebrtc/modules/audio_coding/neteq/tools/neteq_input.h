@@ -98,9 +98,6 @@ const
 RTPHeader
 header
 ;
-rtc
-:
-:
 Buffer
 payload
 ;

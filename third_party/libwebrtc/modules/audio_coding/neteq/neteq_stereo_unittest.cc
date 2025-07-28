@@ -896,9 +896,6 @@ neteq_mono_
 InsertPacket
 (
 rtp_header_mono_
-rtc
-:
-:
 ArrayView
 <
 const
@@ -930,9 +927,6 @@ neteq_
 InsertPacket
 (
 rtp_header_
-rtc
-:
-:
 ArrayView
 <
 const

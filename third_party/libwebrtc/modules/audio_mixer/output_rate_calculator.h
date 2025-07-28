@@ -30,9 +30,6 @@ virtual
 int
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const

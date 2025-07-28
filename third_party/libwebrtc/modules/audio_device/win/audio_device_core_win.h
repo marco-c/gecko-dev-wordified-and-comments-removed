@@ -1180,7 +1180,7 @@ ISimpleAudioVolume
 *
 _ptrRenderSimpleVolume
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1189,7 +1189,7 @@ IMediaObject
 >
 _dmo
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

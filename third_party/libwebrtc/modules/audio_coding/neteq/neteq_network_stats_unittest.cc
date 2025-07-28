@@ -295,9 +295,6 @@ DecodeResult
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -428,9 +425,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -793,9 +787,6 @@ decoder
 )
 decoder_factory_
 (
-rtc
-:
-:
 make_ref_counted
 <
 AudioDecoderProxyFactory
@@ -1479,9 +1470,6 @@ MockAudioDecoder
 *
 decoder_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderProxyFactory

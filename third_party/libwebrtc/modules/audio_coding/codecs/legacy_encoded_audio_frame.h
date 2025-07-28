@@ -77,9 +77,6 @@ LegacyEncodedAudioFrame
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -108,9 +105,6 @@ SplitBySamples
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -139,9 +133,6 @@ DecodeResult
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -152,9 +143,6 @@ const
 override
 ;
 const
-rtc
-:
-:
 Buffer
 &
 payload
@@ -174,9 +162,6 @@ const
 decoder_
 ;
 const
-rtc
-:
-:
 Buffer
 payload_
 ;

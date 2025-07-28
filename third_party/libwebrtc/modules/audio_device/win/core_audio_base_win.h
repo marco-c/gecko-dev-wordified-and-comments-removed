@@ -537,7 +537,7 @@ bool
 >
 is_restarting_
 ;
-rtc
+webrtc
 :
 :
 PlatformThread

@@ -66,9 +66,6 @@ FrameLengthControllerV2
 :
 FrameLengthControllerV2
 (
-rtc
-:
-:
 ArrayView
 <
 const

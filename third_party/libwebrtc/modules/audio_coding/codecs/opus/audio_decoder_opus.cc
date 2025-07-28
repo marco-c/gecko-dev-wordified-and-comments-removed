@@ -195,9 +195,6 @@ AudioDecoderOpusImpl
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -256,9 +253,6 @@ duration
 0
 )
 ;
-rtc
-:
-:
 Buffer
 payload_copy
 (
@@ -678,9 +672,6 @@ AudioDecoderOpusImpl
 GeneratePlc
 (
 size_t
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -718,9 +709,6 @@ plc_size
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

@@ -866,9 +866,6 @@ frame_length_ms
 int
 current_bitrate
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -934,9 +931,6 @@ frame_length_ms
 current_bitrate
 +
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -1014,9 +1008,6 @@ frame_length_ms
 current_bitrate
 -
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -1072,9 +1063,6 @@ frame_length_ms
 current_bitrate
 +
 =
-rtc
-:
-:
 checked_cast
 <
 int

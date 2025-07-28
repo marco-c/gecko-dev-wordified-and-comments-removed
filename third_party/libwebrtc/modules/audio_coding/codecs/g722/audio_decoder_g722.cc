@@ -206,9 +206,6 @@ AudioDecoderG722Impl
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -680,9 +677,6 @@ AudioDecoderG722StereoImpl
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &

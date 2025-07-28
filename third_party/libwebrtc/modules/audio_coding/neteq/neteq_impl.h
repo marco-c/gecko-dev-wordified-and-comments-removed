@@ -569,9 +569,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -606,9 +603,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -905,9 +899,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1823,9 +1814,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t

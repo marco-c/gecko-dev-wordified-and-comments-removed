@@ -200,9 +200,6 @@ Environment
 env_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -210,9 +207,6 @@ AudioEncoderFactory
 encoder_factory_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

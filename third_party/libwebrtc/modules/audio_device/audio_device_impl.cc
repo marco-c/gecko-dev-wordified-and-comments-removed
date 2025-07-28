@@ -327,9 +327,6 @@ false
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -365,9 +362,6 @@ task_queue_factory
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest
@@ -502,9 +496,6 @@ nullptr
 auto
 audio_device
 =
-rtc
-:
-:
 make_ref_counted
 <
 AudioDeviceModuleImpl

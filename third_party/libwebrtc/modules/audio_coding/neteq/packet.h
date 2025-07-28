@@ -322,9 +322,6 @@ sequence_number
 uint8_t
 payload_type
 ;
-rtc
-:
-:
 Buffer
 payload
 ;

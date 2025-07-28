@@ -400,9 +400,6 @@ SdpAudioFormat
 &
 format
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -439,9 +436,6 @@ int16_t
 in_data
 size_t
 block_size_samples
-rtc
-:
-:
 Buffer
 *
 payload
@@ -585,9 +579,6 @@ int16_t
 >
 in_data_
 ;
-rtc
-:
-:
 Buffer
 payload_
 ;

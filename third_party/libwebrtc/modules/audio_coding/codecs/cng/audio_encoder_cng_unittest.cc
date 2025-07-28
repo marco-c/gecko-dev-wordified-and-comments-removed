@@ -451,9 +451,6 @@ cng_
 Encode
 (
 timestamp_
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1063,9 +1060,6 @@ kMaxNumSamples
 size_t
 num_audio_samples_10ms_
 ;
-rtc
-:
-:
 Buffer
 encoded_
 ;

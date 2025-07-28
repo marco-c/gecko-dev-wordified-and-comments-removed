@@ -427,9 +427,6 @@ size_t
 num_bytes
 )
 {
-rtc
-:
-:
 Buffer
 payload
 (
@@ -610,9 +607,6 @@ timestamp
 )
 ;
 const
-rtc
-:
-:
 Buffer
 &
 payload

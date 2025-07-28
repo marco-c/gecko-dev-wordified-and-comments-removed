@@ -194,9 +194,6 @@ namespace
 void
 SetAudioFrameFields
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -431,9 +428,6 @@ packet_infos
 void
 MixFewFramesWithNoLimiter
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -521,9 +515,6 @@ data_view
 void
 MixToFloatFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -549,9 +540,6 @@ NumChannels
 mixing_buffer
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -904,9 +892,6 @@ FrameCombiner
 :
 Combine
 (
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

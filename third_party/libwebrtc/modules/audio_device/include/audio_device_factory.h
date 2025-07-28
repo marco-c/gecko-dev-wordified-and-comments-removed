@@ -34,7 +34,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -52,7 +52,7 @@ automatic_restart
 true
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

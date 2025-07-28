@@ -249,9 +249,6 @@ MessageDigest
 >
 checksum_
 ;
-rtc
-:
-:
 Buffer
 checksum_result_
 ;

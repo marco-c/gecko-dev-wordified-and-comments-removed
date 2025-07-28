@@ -345,9 +345,6 @@ GeneratePlc
 (
 size_t
 requested_samples_per_channel
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -513,9 +510,6 @@ Generator
 {
 public
 :
-rtc
-:
-:
 ArrayView
 <
 const
@@ -536,9 +530,6 @@ num_samples
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1136,9 +1127,6 @@ NetEqTest
 neteq_test
 (
 config
-rtc
-:
-:
 make_ref_counted
 <
 test

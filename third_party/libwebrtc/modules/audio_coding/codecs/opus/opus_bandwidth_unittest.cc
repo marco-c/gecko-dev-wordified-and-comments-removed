@@ -492,9 +492,6 @@ kBufferSize
 =
 500
 ;
-rtc
-:
-:
 Buffer
 encoded
 (

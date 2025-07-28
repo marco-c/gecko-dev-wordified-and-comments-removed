@@ -321,9 +321,6 @@ FineAudioBuffer
 :
 GetPlayoutData
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -396,9 +393,6 @@ num_elements_10ms
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -568,9 +562,6 @@ FineAudioBuffer
 :
 DeliverRecordedData
 (
-rtc
-:
-:
 ArrayView
 <
 const

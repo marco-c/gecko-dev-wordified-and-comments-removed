@@ -361,9 +361,6 @@ red_
 Encode
 (
 timestamp_
-rtc
-:
-:
 ArrayView
 <
 const
@@ -424,9 +421,6 @@ sample_rate_hz_
 size_t
 num_audio_samples_10ms
 ;
-rtc
-:
-:
 Buffer
 encoded_
 ;

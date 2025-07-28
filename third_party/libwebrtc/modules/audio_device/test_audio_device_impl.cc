@@ -938,9 +938,6 @@ renderer_
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -144,9 +144,6 @@ int
 output_freq_hz
 NumOutputChannels
 exptected_output_channels
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -772,9 +769,6 @@ packet
 header
 (
 )
-rtc
-:
-:
 ArrayView
 <
 const

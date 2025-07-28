@@ -2115,9 +2115,6 @@ StandardDecoderMap
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -2344,9 +2341,6 @@ forbidden_types
 ;
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 FunctionAudioDecoderFactory

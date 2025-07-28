@@ -70,9 +70,6 @@ kRtpDumpHeaderLength
 =
 8
 ;
-rtc
-:
-:
 Buffer
 ReadNextPacket
 (
@@ -81,9 +78,6 @@ FILE
 file
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -96,9 +90,6 @@ kRtpDumpHeaderLength
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -139,9 +130,6 @@ kRtpDumpHeaderLength
 )
 {
 return
-rtc
-:
-:
 Buffer
 (
 )
@@ -183,9 +171,6 @@ kRtpDumpHeaderLength
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -239,9 +224,6 @@ buffer
 struct
 PacketAndTime
 {
-rtc
-:
-:
 Buffer
 packet
 ;

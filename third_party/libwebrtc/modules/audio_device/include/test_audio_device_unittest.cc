@@ -342,9 +342,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -976,9 +973,6 @@ kInputSamples
 ;
 static
 const
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1098,9 +1092,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1154,9 +1145,6 @@ output_filename
 true
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1378,9 +1366,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1436,9 +1421,6 @@ output_filename
 false
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1452,9 +1434,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2054,9 +2033,6 @@ kInputSamples
 ;
 static
 const
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2228,9 +2204,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2286,9 +2259,6 @@ output_filename
 true
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2382,9 +2352,6 @@ kAmplitude
 8000
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -3064,9 +3031,6 @@ CreatePulsedNoiseCapturer
 2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -3312,9 +3276,6 @@ CreateDiscardRenderer
 2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

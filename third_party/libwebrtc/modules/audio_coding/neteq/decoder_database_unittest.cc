@@ -426,9 +426,6 @@ GetDecoderInfo
 auto
 factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDecoderFactory

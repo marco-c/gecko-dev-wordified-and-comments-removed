@@ -998,9 +998,6 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t

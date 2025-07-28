@@ -954,9 +954,6 @@ _neteq
 InsertPacket
 (
 _rtpHeader
-rtc
-:
-:
 ArrayView
 <
 const

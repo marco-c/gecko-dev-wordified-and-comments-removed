@@ -134,9 +134,6 @@ kFrameDurationInMs
 10
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -146,9 +143,6 @@ Create
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -257,9 +251,6 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 mutex_
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

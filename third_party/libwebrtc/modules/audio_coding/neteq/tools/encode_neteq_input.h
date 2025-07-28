@@ -63,9 +63,6 @@ Generator
 default
 ;
 virtual
-rtc
-:
-:
 ArrayView
 <
 const

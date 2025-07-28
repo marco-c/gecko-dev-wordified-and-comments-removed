@@ -62,9 +62,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -118,9 +115,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -266,9 +260,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -414,9 +405,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -537,9 +525,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -638,9 +623,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -849,9 +831,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

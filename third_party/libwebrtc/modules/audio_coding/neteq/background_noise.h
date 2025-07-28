@@ -97,9 +97,6 @@ sync_buffer
 void
 GenerateBackgroundNoise
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -169,9 +166,6 @@ SetFilterState
 (
 size_t
 channel
-rtc
-:
-:
 ArrayView
 <
 const

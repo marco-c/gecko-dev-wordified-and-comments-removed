@@ -122,9 +122,6 @@ const
 void
 PushBackInterleaved
 (
-rtc
-:
-:
 ArrayView
 <
 const

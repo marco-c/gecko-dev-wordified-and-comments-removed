@@ -910,7 +910,7 @@ name_str
 guid_str
 )
 ;
-rtc
+webrtc
 :
 :
 strcpyn
@@ -941,7 +941,7 @@ nullptr
 )
 ;
 }
-rtc
+webrtc
 :
 :
 strcpyn
@@ -1031,7 +1031,7 @@ name_str
 guid_str
 )
 ;
-rtc
+webrtc
 :
 :
 strcpyn
@@ -1062,7 +1062,7 @@ nullptr
 )
 ;
 }
-rtc
+webrtc
 :
 :
 strcpyn
@@ -2544,7 +2544,7 @@ false
 }
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2583,7 +2583,7 @@ LS_INFO
 __FUNCTION__
 ;
 return
-rtc
+webrtc
 :
 :
 make_ref_counted

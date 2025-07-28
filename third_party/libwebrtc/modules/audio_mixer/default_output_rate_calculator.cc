@@ -48,9 +48,6 @@ DefaultOutputRateCalculator
 :
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const

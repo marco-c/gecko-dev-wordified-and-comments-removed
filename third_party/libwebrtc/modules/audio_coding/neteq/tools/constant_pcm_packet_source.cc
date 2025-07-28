@@ -157,9 +157,6 @@ packet_len_bytes_
 kHeaderLenBytes
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_buffer
 (

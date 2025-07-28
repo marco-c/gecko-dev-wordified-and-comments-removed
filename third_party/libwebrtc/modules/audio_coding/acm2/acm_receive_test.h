@@ -130,9 +130,6 @@ int
 output_freq_hz
 NumOutputChannels
 exptected_output_channels
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

@@ -50,9 +50,6 @@ kDefaultFrequency
 int
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const

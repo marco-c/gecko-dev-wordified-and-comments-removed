@@ -105,9 +105,6 @@ size_t
 block_length_samples
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

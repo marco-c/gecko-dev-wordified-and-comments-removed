@@ -64,9 +64,6 @@ Packet
 :
 Packet
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 size_t
@@ -429,9 +426,6 @@ if
 padding
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 (
@@ -539,9 +533,6 @@ false
 }
 rtp_payload_
 =
-rtc
-:
-:
 MakeArrayView
 (
 packet_

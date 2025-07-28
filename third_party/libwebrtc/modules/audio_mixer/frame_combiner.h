@@ -73,9 +73,6 @@ FrameCombiner
 void
 Combine
 (
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

@@ -115,9 +115,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -202,9 +199,6 @@ size_t
 samples
 size_t
 original_payload_size_bytes
-rtc
-:
-:
 ArrayView
 <
 uint8_t

@@ -149,9 +149,6 @@ virtual
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -198,9 +195,6 @@ virtual
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -241,9 +235,6 @@ amplitude
 }
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

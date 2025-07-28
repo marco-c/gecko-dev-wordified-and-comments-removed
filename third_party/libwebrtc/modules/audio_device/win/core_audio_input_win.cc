@@ -682,7 +682,7 @@ ticks_per_sec
 double
 qpc_ticks_per_second
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -1558,7 +1558,7 @@ flags
 AUDCLNT_BUFFERFLAGS_SILENT
 )
 {
-rtc
+webrtc
 :
 :
 ExplicitZeroMemory
@@ -1596,7 +1596,7 @@ fine_audio_buffer_
 >
 DeliverRecordedData
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

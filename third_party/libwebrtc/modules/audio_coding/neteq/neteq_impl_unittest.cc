@@ -1996,9 +1996,6 @@ CreateEnvironment
 auto
 mock_decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDecoderFactory
@@ -3081,9 +3078,6 @@ decoder_
 auto
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -3381,9 +3375,6 @@ mock_decoder
 ;
 CreateInstance
 (
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -6286,9 +6277,6 @@ mock_decoder
 ;
 CreateInstance
 (
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -6904,9 +6892,6 @@ decoder
 ;
 CreateInstance
 (
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -7642,9 +7627,6 @@ mock_decoder
 ;
 CreateInstance
 (
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -8019,9 +8001,6 @@ mock_decoder
 ;
 CreateInstance
 (
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -9364,9 +9343,6 @@ CreateEnvironment
 auto
 mock_decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDecoderFactory
@@ -10164,9 +10140,6 @@ sample_rate_hz
 size_t
 decoded_len
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -10389,9 +10362,6 @@ timestamp_diff_between_packets
 const
 {
 return
-rtc
-:
-:
 CheckedDivExact
 (
 kSamplingFreq_
@@ -10549,9 +10519,6 @@ kSamplingFreq_
 ;
 decoder_factory_
 =
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -10606,9 +10573,6 @@ decoder
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

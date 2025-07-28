@@ -301,9 +301,6 @@ ComfortNoiseDecoder
 :
 UpdateSid
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -553,9 +550,6 @@ ComfortNoiseDecoder
 :
 Generate
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1085,9 +1079,6 @@ ComfortNoiseEncoder
 :
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1096,9 +1087,6 @@ int16_t
 speech
 bool
 force_sid
-rtc
-:
-:
 Buffer
 *
 output
@@ -1799,9 +1787,6 @@ output_coefs
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

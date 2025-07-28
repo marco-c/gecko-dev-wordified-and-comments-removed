@@ -483,9 +483,6 @@ UpdateFrame
 (
 0
 nullptr
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -1920,9 +1917,6 @@ change_calculator
 .
 CalculateGainChange
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1936,9 +1930,6 @@ data
 )
 number_of_samples
 )
-rtc
-:
-:
 ArrayView
 <
 const

@@ -53,9 +53,6 @@ AudioDeviceModule
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioDeviceModule
@@ -65,9 +62,6 @@ CreateNice
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 :
@@ -85,9 +79,6 @@ MockAudioDeviceModule
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockAudioDeviceModule
@@ -97,9 +88,6 @@ CreateStrict
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 :

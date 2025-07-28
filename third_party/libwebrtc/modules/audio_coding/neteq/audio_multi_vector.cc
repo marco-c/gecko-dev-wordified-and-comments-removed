@@ -339,9 +339,6 @@ AudioMultiVector
 :
 PushBackInterleaved
 (
-rtc
-:
-:
 ArrayView
 <
 const

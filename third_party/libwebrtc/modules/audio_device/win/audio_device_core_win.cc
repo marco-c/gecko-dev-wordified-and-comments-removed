@@ -6879,7 +6879,7 @@ wFormatTag
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -7378,7 +7378,7 @@ wFormatTag
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -8109,7 +8109,7 @@ start
 }
 _mediaBuffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -8403,7 +8403,7 @@ wFormatTag
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -8955,7 +8955,7 @@ wFormatTag
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -10572,7 +10572,7 @@ return
 1
 ;
 }
-rtc
+webrtc
 :
 :
 SetCurrentThreadName
@@ -11753,7 +11753,7 @@ _hMmTask
 =
 NULL
 ;
-rtc
+webrtc
 :
 :
 SetCurrentThreadName
@@ -13369,7 +13369,7 @@ hr
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -13697,7 +13697,7 @@ RTC_DCHECK
 _dmo
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -15186,7 +15186,7 @@ szDeviceID
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -15439,7 +15439,7 @@ hr
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -15501,7 +15501,7 @@ hr
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -15557,7 +15557,7 @@ hr
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -15612,7 +15612,7 @@ hr
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16332,7 +16332,7 @@ state
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16368,7 +16368,7 @@ state
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16402,7 +16402,7 @@ state
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16436,7 +16436,7 @@ state
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16518,7 +16518,7 @@ hwmask
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16552,7 +16552,7 @@ hwmask
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -16586,7 +16586,7 @@ hwmask
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex

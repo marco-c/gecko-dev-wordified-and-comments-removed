@@ -277,9 +277,6 @@ int16_t
 *
 in_data
 size_t
-rtc
-:
-:
 Buffer
 *
 payload
@@ -319,9 +316,6 @@ encoder_
 Encode
 (
 dummy_timestamp
-rtc
-:
-:
 ArrayView
 <
 const

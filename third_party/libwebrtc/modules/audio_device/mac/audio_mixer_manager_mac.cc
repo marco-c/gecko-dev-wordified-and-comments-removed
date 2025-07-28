@@ -58,7 +58,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -116,7 +116,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -169,7 +169,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -4213,7 +4213,7 @@ AudioMixerManagerMac
 logCAMsg
 (
 const
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -4249,7 +4249,7 @@ RTC_DCHECK
 sev
 =
 =
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -4258,7 +4258,7 @@ LS_ERROR
 sev
 =
 =
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -4273,7 +4273,7 @@ sev
 )
 {
 case
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -4318,7 +4318,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -4375,7 +4375,7 @@ sev
 )
 {
 case
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -4420,7 +4420,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_WARNING
