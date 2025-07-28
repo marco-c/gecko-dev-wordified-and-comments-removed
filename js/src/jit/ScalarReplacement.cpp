@@ -13467,11 +13467,6 @@ ins
 end
 )
 ;
-bool
-isMax
-=
-false
-;
 auto
 *
 beginMin
@@ -13479,7 +13474,7 @@ beginMin
 MMinMax
 :
 :
-New
+NewMin
 (
 alloc
 (
@@ -13490,7 +13485,6 @@ MIRType
 :
 :
 Int32
-isMax
 )
 ;
 ins
@@ -16016,11 +16010,6 @@ ins
 zero
 )
 ;
-bool
-isMax
-=
-true
-;
 auto
 *
 minmax
@@ -16028,7 +16017,7 @@ minmax
 MMinMax
 :
 :
-New
+NewMax
 (
 alloc
 (
@@ -16039,7 +16028,6 @@ MIRType
 :
 :
 Int32
-isMax
 )
 ;
 ins
