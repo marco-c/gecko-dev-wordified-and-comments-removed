@@ -587,9 +587,6 @@ std
 vector
 <
 const
-rtc
-:
-:
 Network
 *
 >
@@ -1630,9 +1627,6 @@ candidate
 .
 set_protocol
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 ;

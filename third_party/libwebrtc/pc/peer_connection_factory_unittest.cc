@@ -1037,9 +1037,6 @@ class
 MockNetworkManager
 :
 public
-rtc
-:
-:
 NetworkManager
 {
 public
@@ -1074,9 +1071,6 @@ std
 vector
 <
 const
-rtc
-:
-:
 Network
 *
 >
@@ -1097,9 +1091,6 @@ std
 vector
 <
 const
-rtc
-:
-:
 Network
 *
 >
@@ -1132,9 +1123,6 @@ PeerConnectionFactoryTest
 :
 socket_server_
 (
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )

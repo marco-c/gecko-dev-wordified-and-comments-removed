@@ -695,7 +695,7 @@ wow64access_
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 rtc_win
@@ -1283,7 +1283,7 @@ wServicePackMinor
 ;
 service_pack_str_
 =
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -1768,7 +1768,7 @@ value
 ;
 processor_model_name_
 =
-rtc
+webrtc
 :
 :
 ToUtf8

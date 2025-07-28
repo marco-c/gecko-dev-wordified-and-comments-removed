@@ -23,7 +23,7 @@ rtc_export
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 RTC_EXPORT
@@ -126,6 +126,18 @@ double
 period_end_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+DataRateLimiter
 ;
 }
 #

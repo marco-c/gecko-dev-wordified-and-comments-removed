@@ -49,7 +49,7 @@ ifa_netmask
 }
 ;
 namespace
-rtc
+webrtc
 {
 int
 getifaddrs

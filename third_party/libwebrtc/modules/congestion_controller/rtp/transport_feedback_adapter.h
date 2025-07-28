@@ -174,9 +174,6 @@ PlusInfinity
 (
 )
 ;
-rtc
-:
-:
 NetworkRoute
 network_route
 ;
@@ -219,9 +216,6 @@ DataSize
 GetOutstandingData
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route
@@ -239,16 +233,10 @@ operator
 )
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 a
 const
-rtc
-:
-:
 NetworkRoute
 &
 b
@@ -262,9 +250,6 @@ std
 :
 map
 <
-rtc
-:
-:
 NetworkRoute
 DataSize
 NetworkRouteComparator
@@ -361,9 +346,6 @@ void
 SetNetworkRoute
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route
@@ -529,9 +511,6 @@ last_ack_seq_num_
 InFlightBytesTracker
 in_flight_
 ;
-rtc
-:
-:
 NetworkRoute
 network_route_
 ;

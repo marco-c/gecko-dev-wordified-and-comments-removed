@@ -5953,7 +5953,7 @@ queueConnectMessage
 (
 )
 {
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -6060,7 +6060,7 @@ uint8_t
 >
 options_specified
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader

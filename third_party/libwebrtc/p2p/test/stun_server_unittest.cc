@@ -246,9 +246,6 @@ StunMessage
 msg
 )
 {
-rtc
-:
-:
 ByteBufferWriter
 buf
 ;
@@ -373,9 +370,6 @@ if
 packet
 )
 {
-rtc
-:
-:
 ByteBufferReader
 buf
 (

@@ -277,7 +277,7 @@ const
 void
 SetPreferredDscp
 (
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -431,7 +431,7 @@ enable_dscp_
 void
 SetPreferredDscp
 (
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -440,7 +440,7 @@ new_dscp
 ;
 private
 :
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -530,7 +530,7 @@ network_thread_
 =
 nullptr
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -540,7 +540,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 =
-rtc
+webrtc
 :
 :
 DSCP_DEFAULT

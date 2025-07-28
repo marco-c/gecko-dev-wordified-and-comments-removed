@@ -301,7 +301,7 @@ relay_protocol
 )
 =
 =
-cricket
+webrtc
 :
 :
 UDP_PROTOCOL_NAME
@@ -2037,7 +2037,7 @@ std
 map
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2060,7 +2060,7 @@ std
 map
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2100,7 +2100,7 @@ connections_
 )
 {
 const
-rtc
+webrtc
 :
 :
 Network

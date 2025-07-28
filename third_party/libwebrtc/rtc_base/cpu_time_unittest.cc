@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /
@@ -121,7 +126,7 @@ counter
 int64_t
 stop_cpu_time
 =
-rtc
+webrtc
 :
 :
 GetThreadCpuTimeNanos
@@ -137,7 +142,7 @@ kNumNanosecsPerMillisec
 ;
 while
 (
-rtc
+webrtc
 :
 :
 GetThreadCpuTimeNanos
@@ -158,7 +163,7 @@ counter
 }
 }
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -243,9 +248,6 @@ counter2
 auto
 thread1
 =
-webrtc
-:
-:
 PlatformThread
 :
 :
@@ -271,9 +273,6 @@ Thread1
 auto
 thread2
 =
-webrtc
-:
-:
 PlatformThread
 :
 :

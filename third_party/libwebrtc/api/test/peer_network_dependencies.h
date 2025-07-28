@@ -107,9 +107,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 >

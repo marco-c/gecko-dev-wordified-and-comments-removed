@@ -90,6 +90,15 @@ include
 "
 rtc_base
 /
+socket_factory
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 socket_server
 .
 h
@@ -221,9 +230,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 >

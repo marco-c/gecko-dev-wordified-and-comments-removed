@@ -387,7 +387,7 @@ ice_mode
 ConnectionRole
 role
 const
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -505,7 +505,7 @@ ICE_OPTION_RENOMINATION
 ;
 }
 static
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -513,7 +513,7 @@ SSLFingerprint
 CopyFingerprint
 (
 const
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -531,7 +531,7 @@ NULL
 ;
 return
 new
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -576,7 +576,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint

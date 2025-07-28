@@ -435,9 +435,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route

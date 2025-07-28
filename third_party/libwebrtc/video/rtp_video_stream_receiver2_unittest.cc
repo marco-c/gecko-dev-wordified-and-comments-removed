@@ -1115,9 +1115,6 @@ size_in_bytes
 )
 ;
 }
-rtc
-:
-:
 ByteBufferWriter
 buffer_
 ;

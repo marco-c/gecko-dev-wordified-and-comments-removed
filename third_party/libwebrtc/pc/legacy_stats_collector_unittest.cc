@@ -1854,9 +1854,6 @@ std
 string
 sha_1_str
 =
-rtc
-:
-:
 DIGEST_SHA_1
 ;
 EXPECT_EQ
@@ -8228,9 +8225,6 @@ local
 .
 set_protocol
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 ;
@@ -8286,9 +8280,6 @@ remote
 .
 set_protocol
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 ;
@@ -8454,9 +8445,6 @@ kStatsValueNameCandidatePortNumber
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 ExtractStatsValue
 (
@@ -8603,9 +8591,6 @@ kStatsValueNameCandidatePortNumber
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 ExtractStatsValue
 (

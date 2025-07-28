@@ -37,11 +37,9 @@ h
 #
 include
 "
-p2p
+rtc_base
 /
-base
-/
-port_interface
+async_packet_socket
 .
 h
 "
@@ -50,7 +48,7 @@ include
 "
 rtc_base
 /
-async_packet_socket
+network
 .
 h
 "
@@ -63,13 +61,6 @@ thread
 .
 h
 "
-namespace
-rtc
-{
-class
-Network
-;
-}
 namespace
 webrtc
 {
@@ -107,7 +98,7 @@ PacketSocketFactory
 socket_factory
 ;
 const
-rtc
+webrtc
 :
 :
 Network

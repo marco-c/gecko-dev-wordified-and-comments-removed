@@ -8,7 +8,7 @@ network_route
 h
 "
 namespace
-rtc
+webrtc
 {
 bool
 RouteEndpoint

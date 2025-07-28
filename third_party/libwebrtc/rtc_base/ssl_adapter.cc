@@ -31,7 +31,7 @@ socket
 h
 "
 namespace
-rtc
+webrtc
 {
 std
 :
@@ -66,9 +66,6 @@ SSLAdapter
 :
 Create
 (
-webrtc
-:
-:
 Socket
 *
 socket

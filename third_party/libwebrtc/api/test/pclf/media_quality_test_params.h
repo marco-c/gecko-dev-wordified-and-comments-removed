@@ -270,6 +270,15 @@ include
 "
 rtc_base
 /
+socket_factory
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_certificate
 .
 h
@@ -297,9 +306,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 network_manager
@@ -452,9 +458,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertificateVerifier
 >
 tls_cert_verifier
@@ -483,9 +486,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 network_manager

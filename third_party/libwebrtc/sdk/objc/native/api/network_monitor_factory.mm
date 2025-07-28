@@ -45,9 +45,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkMonitorFactory
 >
 CreateNetworkMonitorFactory

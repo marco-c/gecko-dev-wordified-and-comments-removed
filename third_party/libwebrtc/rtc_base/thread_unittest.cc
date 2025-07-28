@@ -2949,9 +2949,6 @@ clock
 Thread
 q
 (
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )

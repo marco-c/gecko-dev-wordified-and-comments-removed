@@ -118,6 +118,15 @@ include
 "
 rtc_base
 /
+thread
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -157,9 +166,6 @@ EmulatedNetworkManager
 NetworkManagerImpl
 :
 public
-rtc
-:
-:
 NetworkManagerBase
 {
 public
@@ -225,9 +231,6 @@ std
 vector
 <
 const
-rtc
-:
-:
 Network
 *
 >
@@ -385,9 +388,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 >
@@ -655,9 +655,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 >

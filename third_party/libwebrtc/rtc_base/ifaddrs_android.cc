@@ -145,7 +145,7 @@ kMaxReadSize
 ;
 }
 namespace
-rtc
+webrtc
 {
 int
 set_ifname

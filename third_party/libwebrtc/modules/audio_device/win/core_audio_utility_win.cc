@@ -903,7 +903,7 @@ LS_INFO
 )
 <
 <
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -978,7 +978,7 @@ LS_INFO
 )
 <
 <
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -1439,7 +1439,7 @@ device_enum
 >
 GetDevice
 (
-rtc
+webrtc
 :
 :
 ToUtf16
@@ -1583,7 +1583,7 @@ std
 string
 device_id_utf8
 =
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -1721,7 +1721,7 @@ pwszVal
 )
 {
 return
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -3510,7 +3510,7 @@ version
 ;
 if
 (
-rtc
+webrtc
 :
 :
 rtc_win
@@ -3521,7 +3521,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win
@@ -3538,7 +3538,7 @@ version
 else
 if
 (
-rtc
+webrtc
 :
 :
 rtc_win
@@ -3549,7 +3549,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win
@@ -4507,7 +4507,7 @@ name
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToUtf8

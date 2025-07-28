@@ -432,7 +432,7 @@ window
 .
 title
 =
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -688,7 +688,7 @@ false
 }
 if
 (
-rtc
+webrtc
 :
 :
 rtc_win
@@ -699,7 +699,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1416,7 +1416,7 @@ DwmGetWindowAttribute
 }
 if
 (
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1427,7 +1427,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win

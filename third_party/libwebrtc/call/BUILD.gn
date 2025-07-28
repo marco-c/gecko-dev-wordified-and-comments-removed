@@ -940,6 +940,14 @@ checks
 /
 rtc_base
 :
+network_route
+"
+"
+.
+.
+/
+rtc_base
+:
 stringutils
 "
 "

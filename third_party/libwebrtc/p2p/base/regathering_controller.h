@@ -222,9 +222,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 )

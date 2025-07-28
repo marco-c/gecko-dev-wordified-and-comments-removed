@@ -7,8 +7,13 @@ data_rate_limiter
 .
 h
 "
+#
+include
+<
+cstddef
+>
 namespace
-rtc
+webrtc
 {
 bool
 DataRateLimiter

@@ -1811,6 +1811,9 @@ webrtc
 PhysicalSocketServer
 socket_server
 ;
+webrtc
+:
+:
 BasicNetworkManager
 network_manager
 (
@@ -1849,6 +1852,9 @@ std
 vector
 <
 const
+webrtc
+:
+:
 Network
 *
 >
@@ -1883,7 +1889,7 @@ end
 ]
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1892,7 +1898,7 @@ network
 )
 {
 return
-rtc
+webrtc
 :
 :
 kDefaultNetworkIgnoreMask
@@ -2223,6 +2229,9 @@ TestPhysicalIPv6
 {
 if
 (
+webrtc
+:
+:
 HasIPv6Enabled
 (
 )
@@ -2498,6 +2507,9 @@ TestVirtualIPv6
 {
 if
 (
+webrtc
+:
+:
 HasIPv6Enabled
 (
 )

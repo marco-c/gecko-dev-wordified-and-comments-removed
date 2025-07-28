@@ -835,9 +835,6 @@ class
 NATProxyServer
 :
 public
-rtc
-:
-:
 ProxyServer
 {
 public
@@ -859,9 +856,6 @@ SocketAddress
 &
 ext_ip
 )
-:
-rtc
-:
 :
 ProxyServer
 (

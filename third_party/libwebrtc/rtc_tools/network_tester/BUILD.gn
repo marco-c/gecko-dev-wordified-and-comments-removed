@@ -373,6 +373,17 @@ macromagic
 /
 rtc_base
 :
+net_helpers
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 protobuf_utils
 "
 "

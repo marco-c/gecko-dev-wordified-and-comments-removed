@@ -866,7 +866,7 @@ PacketSocketFactory
 socket_factory
 ;
 const
-rtc
+webrtc
 :
 :
 Network
@@ -950,7 +950,7 @@ const
 override
 ;
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1868,7 +1868,7 @@ SocketAddress
 addr
 )
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1895,7 +1895,7 @@ DestroyAllConnections
 void
 CopyPortInformationToPacketInfo
 (
-rtc
+webrtc
 :
 :
 PacketInfo
@@ -2009,7 +2009,7 @@ void
 OnNetworkTypeChanged
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2061,7 +2061,7 @@ bool
 send_retransmit_count_attribute_
 ;
 const
-rtc
+webrtc
 :
 :
 Network

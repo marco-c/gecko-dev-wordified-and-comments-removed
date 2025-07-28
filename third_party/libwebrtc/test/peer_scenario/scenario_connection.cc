@@ -671,9 +671,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 network_manager_
@@ -916,9 +913,6 @@ ConnectionRole
 :
 :
 CONNECTIONROLE_PASSIVE
-rtc
-:
-:
 SSLFingerprint
 :
 :

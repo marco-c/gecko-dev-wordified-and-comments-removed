@@ -439,9 +439,6 @@ desktop
 "
 <
 <
-rtc
-:
-:
 ToUtf8
 (
 desktop_name

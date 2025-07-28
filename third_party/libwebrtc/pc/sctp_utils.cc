@@ -26,6 +26,11 @@ optional
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -196,9 +201,6 @@ DataChannelInit
 config
 )
 {
-rtc
-:
-:
 ByteBufferReader
 buffer
 (
@@ -915,9 +917,6 @@ DCOMCT_UNORDERED_RELIABLE
 ;
 }
 }
-rtc
-:
-:
 ByteBufferWriter
 buffer
 (

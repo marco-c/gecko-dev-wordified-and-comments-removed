@@ -53,7 +53,7 @@ ssl_identity
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 OpenSSLKeyPair
@@ -94,6 +94,9 @@ OpenSSLKeyPair
 Generate
 (
 const
+rtc
+:
+:
 KeyParams
 &
 key_params
@@ -218,6 +221,18 @@ EVP_PKEY
 pkey_
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+OpenSSLKeyPair
 ;
 }
 #

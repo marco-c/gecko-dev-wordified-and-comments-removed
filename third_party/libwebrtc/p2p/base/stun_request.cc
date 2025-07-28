@@ -1146,7 +1146,7 @@ end
 return
 false
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -1549,7 +1549,7 @@ TimeMillis
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter

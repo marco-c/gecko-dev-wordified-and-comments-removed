@@ -327,7 +327,7 @@ absl
 :
 Nonnull
 <
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -375,7 +375,7 @@ nullptr
 ;
 BasicPortAllocator
 (
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -452,7 +452,7 @@ GetNetworkIgnoreMask
 )
 const
 ;
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -553,7 +553,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 NetworkMask
@@ -620,7 +620,7 @@ FieldTrialBasedConfig
 >
 field_trials_
 ;
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -638,7 +638,7 @@ socket_factory_
 int
 network_ignore_mask_
 =
-rtc
+webrtc
 :
 :
 kDefaultNetworkIgnoreMask
@@ -876,7 +876,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -890,7 +890,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1268,7 +1268,7 @@ void
 DisableEquivalentPhases
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1385,7 +1385,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1401,7 +1401,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1421,7 +1421,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1485,7 +1485,7 @@ std
 vector
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1832,7 +1832,7 @@ BasicPortAllocatorSession
 *
 session
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1881,7 +1881,7 @@ state_
 ;
 }
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1919,7 +1919,7 @@ void
 DisableEquivalentPhases
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2058,7 +2058,7 @@ network_failed_
 false
 ;
 const
-rtc
+webrtc
 :
 :
 Network

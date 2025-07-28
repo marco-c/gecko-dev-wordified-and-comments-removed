@@ -66,6 +66,15 @@ h
 #
 include
 "
+api
+/
+field_trials_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 openssl_stream_adapter
@@ -336,9 +345,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 OpenSSLStreamAdapter
 >
 (
@@ -369,9 +375,6 @@ IsBoringSsl
 )
 {
 return
-rtc
-:
-:
 OpenSSLStreamAdapter
 :
 :
@@ -396,9 +399,6 @@ key_type
 )
 {
 return
-rtc
-:
-:
 OpenSSLStreamAdapter
 :
 :
@@ -428,9 +428,6 @@ key_type
 )
 {
 return
-rtc
-:
-:
 OpenSSLStreamAdapter
 :
 :
@@ -525,9 +522,6 @@ EnableTimeCallbackForTesting
 (
 )
 {
-rtc
-:
-:
 OpenSSLStreamAdapter
 :
 :
@@ -545,9 +539,6 @@ GetMaxSupportedDTLSProtocolVersion
 )
 {
 return
-rtc
-:
-:
 OpenSSLStreamAdapter
 :
 :

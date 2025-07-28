@@ -2567,9 +2567,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLFingerprint
 >
 *
@@ -4800,9 +4797,6 @@ protocol
 )
 !
 =
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 {
@@ -11557,9 +11551,6 @@ protocol
 )
 =
 =
-cricket
-:
-:
 TCP_PROTOCOL_NAME
 &
 &
@@ -12755,9 +12746,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLFingerprint
 >
 fingerprint
@@ -13085,9 +13073,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLFingerprint
 >
 *
@@ -13195,9 +13180,6 @@ tolower
 *
 fingerprint
 =
-rtc
-:
-:
 SSLFingerprint
 :
 :
@@ -18134,9 +18116,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLFingerprint
 >
 fingerprint

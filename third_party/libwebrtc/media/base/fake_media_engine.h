@@ -1226,7 +1226,7 @@ return
 transport_overhead_per_packet_
 ;
 }
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -1538,7 +1538,7 @@ rtcp_cname_
 int
 transport_overhead_per_packet_
 ;
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -2541,7 +2541,7 @@ return
 transport_overhead_per_packet_
 ;
 }
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -2831,7 +2831,7 @@ absl
 :
 string_view
 const
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -2961,7 +2961,7 @@ ready_to_send_
 int
 transport_overhead_per_packet_
 ;
-rtc
+webrtc
 :
 :
 NetworkRoute

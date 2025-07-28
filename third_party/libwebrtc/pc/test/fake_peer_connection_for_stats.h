@@ -2348,9 +2348,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 chain
@@ -2860,9 +2857,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetRemoteSSLCertChain
@@ -3280,9 +3274,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 >

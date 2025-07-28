@@ -753,9 +753,6 @@ ip6
 if
 (
 !
-rtc
-:
-:
 inet_ntop
 (
 family_
@@ -1274,9 +1271,6 @@ flags
 0x
 "
 +
-rtc
-:
-:
 ToHex
 (
 ipv6_flags
@@ -1692,9 +1686,6 @@ addr
 ;
 if
 (
-rtc
-:
-:
 inet_pton
 (
 AF_INET
@@ -1712,9 +1703,6 @@ addr6
 ;
 if
 (
-rtc
-:
-:
 inet_pton
 (
 AF_INET6

@@ -7,6 +7,15 @@ race_checker
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+platform_thread_types
+.
+h
+"
 namespace
 webrtc
 {
@@ -34,9 +43,6 @@ rtc
 PlatformThreadRef
 current_thread
 =
-rtc
-:
-:
 CurrentThreadRef
 (
 )
@@ -74,9 +80,6 @@ accessing_thread
 accessing_thread_
 ;
 return
-rtc
-:
-:
 IsThreadRefEqual
 (
 accessing_thread

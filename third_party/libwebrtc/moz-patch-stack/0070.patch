@@ -119,10 +119,10 @@ platform_thread
 .
 cc
 index
-cc1c9c1c76
+33bfa7848a
 .
 .
-98c081f9a9
+b31804dc22
 100644
 -
 -
@@ -145,10 +145,10 @@ platform_thread
 .
 cc
 -
-52
+58
 6
 +
-52
+58
 9
 bool
 SetPriority

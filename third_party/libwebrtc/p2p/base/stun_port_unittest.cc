@@ -886,7 +886,7 @@ class
 FakeMdnsResponderProvider
 :
 public
-rtc
+webrtc
 :
 :
 MdnsResponderProvider
@@ -1989,7 +1989,7 @@ stun_keepalive_lifetime_
 lifetime
 ;
 }
-rtc
+webrtc
 :
 :
 Network
@@ -2113,14 +2113,14 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 Network
 >
 networks_
 ;
-rtc
+webrtc
 :
 :
 Network
@@ -2201,7 +2201,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 MdnsResponderProvider

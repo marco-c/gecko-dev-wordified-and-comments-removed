@@ -304,6 +304,15 @@ include
 "
 rtc_base
 /
+ssl_certificate
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_fingerprint
 .
 h
@@ -515,14 +524,14 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint
 >
 fingerprint
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -4573,7 +4582,7 @@ if
 packet_type
 =
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -4585,7 +4594,7 @@ kIceConnectivityCheck
 packet_type
 =
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -4704,7 +4713,7 @@ if
 packet_type
 =
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -4716,7 +4725,7 @@ kIceConnectivityCheck
 packet_type
 =
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -5998,7 +6007,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -6062,7 +6071,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain

@@ -24,7 +24,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (

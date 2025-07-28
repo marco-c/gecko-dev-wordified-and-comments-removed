@@ -416,7 +416,7 @@ address
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 {

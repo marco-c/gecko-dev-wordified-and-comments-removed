@@ -462,7 +462,7 @@ RTC_GUARDED_BY
 callback_sequence_
 )
 ;
-rtc
+webrtc
 :
 :
 BufferQueue
@@ -781,7 +781,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -847,7 +847,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -1099,7 +1099,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute

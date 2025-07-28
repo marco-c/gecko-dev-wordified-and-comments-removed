@@ -218,9 +218,6 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
-rtc
-:
-:
 ByteBufferReader
 bbuf
 (
@@ -475,9 +472,6 @@ SocketAddress
 addr
 )
 {
-rtc
-:
-:
 ByteBufferWriter
 buf
 ;

@@ -1965,9 +1965,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetRemoteSSLCertChain
@@ -3598,9 +3595,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertificateVerifier
 >
 tls_cert_verifier_

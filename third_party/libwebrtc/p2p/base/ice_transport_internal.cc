@@ -302,9 +302,6 @@ protocol
 )
 =
 =
-cricket
-:
-:
 TCP_PROTOCOL_NAME
 &
 &

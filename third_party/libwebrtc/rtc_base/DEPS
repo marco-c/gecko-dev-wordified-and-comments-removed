@@ -171,4 +171,17 @@ h
 openssl
 "
 ]
+"
+openssl_session_cache
+\
+.
+h
+"
+:
+[
+"
++
+openssl
+"
+]
 }

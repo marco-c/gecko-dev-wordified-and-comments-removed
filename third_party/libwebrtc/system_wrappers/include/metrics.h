@@ -2022,9 +2022,6 @@ unique_ptr
 <
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 *

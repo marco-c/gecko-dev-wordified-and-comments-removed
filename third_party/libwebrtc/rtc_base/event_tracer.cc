@@ -1959,9 +1959,6 @@ TimeMicros
 (
 )
 1
-rtc
-:
-:
 CurrentThreadId
 (
 )

@@ -22,7 +22,7 @@ void
 HANDLE
 ;
 namespace
-rtc
+webrtc
 {
 namespace
 rtc_win

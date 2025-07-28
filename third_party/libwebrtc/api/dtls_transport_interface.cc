@@ -109,9 +109,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates
@@ -185,9 +182,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates

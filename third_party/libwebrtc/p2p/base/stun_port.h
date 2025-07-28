@@ -384,7 +384,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network
@@ -580,7 +580,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network
@@ -962,7 +962,7 @@ UpdateNetworkCost
 )
 override
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1380,7 +1380,7 @@ stun_keepalive_lifetime_
 =
 INFINITE_LIFETIME
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1474,7 +1474,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network

@@ -551,9 +551,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetPeerSSLCertChain

@@ -1666,10 +1666,10 @@ receive_statistics_proxy
 .
 h
 index
-0800e84103
+023f4fa5f2
 .
 .
-7c4ae845fa
+9c4df5c5ea
 100644
 -
 -
@@ -1692,10 +1692,10 @@ receive_statistics_proxy
 .
 h
 -
-95
+103
 6
 +
-95
+103
 7
 class
 ReceiveStatisticsProxy

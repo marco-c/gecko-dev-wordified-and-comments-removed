@@ -561,7 +561,7 @@ StunByteStringAttribute
 delta
 )
 {
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -2043,7 +2043,7 @@ return
 nullptr
 ;
 }
-rtc
+webrtc
 :
 :
 ByteBufferWriter

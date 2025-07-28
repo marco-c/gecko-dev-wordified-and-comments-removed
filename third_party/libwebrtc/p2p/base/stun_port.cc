@@ -1258,7 +1258,7 @@ STUN_KEEPALIVE_INTERVAL
 )
 dscp_
 (
-rtc
+webrtc
 :
 :
 DSCP_NO_CHANGE
@@ -1345,7 +1345,7 @@ STUN_KEEPALIVE_INTERVAL
 )
 dscp_
 (
-rtc
+webrtc
 :
 :
 DSCP_NO_CHANGE
@@ -1920,7 +1920,7 @@ GetStunKeepaliveLifetime
 )
 ;
 }
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1972,7 +1972,7 @@ dscp_
 =
 static_cast
 <
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -2084,6 +2084,9 @@ return
 protocol
 =
 =
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 ;
 }
@@ -2201,6 +2204,9 @@ webrtc
 SocketAddress
 (
 )
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 "
 "
@@ -3171,6 +3177,9 @@ GetLocalAddress
 (
 )
 related_address
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 "
 "
@@ -3464,7 +3473,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -3763,7 +3772,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network

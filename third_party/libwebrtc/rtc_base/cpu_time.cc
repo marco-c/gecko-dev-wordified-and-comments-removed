@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /
@@ -184,7 +189,7 @@ kNanosecsPerFiletime
 #
 endif
 namespace
-rtc
+webrtc
 {
 int64_t
 GetProcessCpuTimeNanos

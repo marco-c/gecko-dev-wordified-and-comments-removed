@@ -636,9 +636,6 @@ absl
 string_view
 transport_name
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route
@@ -974,16 +971,10 @@ bool
 IsRelevantRouteChange
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 old_route
 const
-rtc
-:
-:
 NetworkRoute
 &
 new_route
@@ -1139,9 +1130,6 @@ std
 :
 :
 string
-rtc
-:
-:
 NetworkRoute
 >
 network_routes_

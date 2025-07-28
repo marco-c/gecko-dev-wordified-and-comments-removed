@@ -209,9 +209,6 @@ size
 MAX_FILENAME_LEN
 )
 ;
-rtc
-:
-:
 strcpyn
 (
 _inputAudioFilename
@@ -219,9 +216,6 @@ MAX_FILENAME_LEN
 inputAudioFilename
 )
 ;
-rtc
-:
-:
 strcpyn
 (
 _outputAudioFilename

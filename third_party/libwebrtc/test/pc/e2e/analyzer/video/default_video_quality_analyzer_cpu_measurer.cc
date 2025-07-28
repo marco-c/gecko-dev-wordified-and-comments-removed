@@ -65,9 +65,6 @@ mutex_
 cpu_time_
 -
 =
-rtc
-:
-:
 GetProcessCpuTimeNanos
 (
 )
@@ -101,9 +98,6 @@ mutex_
 cpu_time_
 +
 =
-rtc
-:
-:
 GetProcessCpuTimeNanos
 (
 )
@@ -137,9 +131,6 @@ mutex_
 cpu_time_
 +
 =
-rtc
-:
-:
 GetThreadCpuTimeNanos
 (
 )
@@ -163,9 +154,6 @@ mutex_
 cpu_time_
 -
 =
-rtc
-:
-:
 GetThreadCpuTimeNanos
 (
 )

@@ -1772,7 +1772,7 @@ return
 socket
 ;
 }
-rtc
+webrtc
 :
 :
 Network
@@ -1902,7 +1902,7 @@ bool
 CreateTurnPortWithNetwork
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1938,7 +1938,7 @@ bool
 CreateTurnPortWithAllParams
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -4806,7 +4806,7 @@ BuildPingRequestForTest
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -6106,7 +6106,7 @@ std
 :
 list
 <
-rtc
+webrtc
 :
 :
 Network
@@ -7616,7 +7616,7 @@ ipaddr
 )
 )
 ;
-rtc
+webrtc
 :
 :
 Network
@@ -11084,6 +11084,9 @@ PROTO_UDP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 turn_port_
 -
@@ -11135,6 +11138,9 @@ PROTO_TCP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 turn_port_
 -
@@ -11186,6 +11192,9 @@ PROTO_TLS
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 turn_port_
 -
@@ -12393,7 +12402,7 @@ attr_counter_
 nullptr
 )
 {
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -12599,6 +12608,9 @@ PROTO_TLS
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 turn_port_
 -
@@ -12767,6 +12779,9 @@ PROTO_TLS
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 turn_port_
 -
@@ -12937,6 +12952,9 @@ PROTO_TLS
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 turn_port_
 -

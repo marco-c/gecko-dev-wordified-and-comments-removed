@@ -8,6 +8,15 @@ ssl_stream_adapter
 h
 "
 #
+include
+"
+rtc_base
+/
+ssl_certificate
+.
+h
+"
+#
 ifdef
 OPENSSL_IS_BORINGSSL
 #
@@ -2520,7 +2529,7 @@ webrtc
 ScopedTaskSafety
 task_safety_
 ;
-rtc
+webrtc
 :
 :
 BufferQueue
@@ -2626,7 +2635,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -4934,7 +4943,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -4950,7 +4959,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -6465,7 +6474,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -6575,7 +6584,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -6687,7 +6696,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -7022,7 +7031,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -7066,7 +7075,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -7121,7 +7130,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_1
@@ -7132,7 +7141,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_224
@@ -7143,7 +7152,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -7154,7 +7163,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_384
@@ -7165,7 +7174,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_512
@@ -7220,7 +7229,7 @@ std
 :
 make_pair
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -8476,7 +8485,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -8517,7 +8526,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -8582,7 +8591,7 @@ client_ssl_
 >
 SetPeerCertificateDigest
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256

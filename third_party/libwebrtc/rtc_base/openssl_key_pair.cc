@@ -118,7 +118,7 @@ openssl_utility
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 EVP_PKEY
@@ -126,6 +126,9 @@ EVP_PKEY
 MakeKey
 (
 const
+rtc
+:
+:
 KeyParams
 &
 key_params
@@ -160,6 +163,9 @@ type
 )
 =
 =
+rtc
+:
+:
 KT_RSA
 )
 {
@@ -286,6 +292,9 @@ type
 )
 =
 =
+rtc
+:
+:
 KT_ECDSA
 )
 {
@@ -298,6 +307,9 @@ ec_curve
 )
 =
 =
+rtc
+:
+:
 EC_NIST_P256
 )
 {
@@ -481,6 +493,9 @@ OpenSSLKeyPair
 Generate
 (
 const
+rtc
+:
+:
 KeyParams
 &
 key_params
@@ -501,6 +516,9 @@ if
 pkey
 )
 {
+rtc
+:
+:
 openssl
 :
 :

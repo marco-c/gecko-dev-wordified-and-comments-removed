@@ -370,12 +370,12 @@ output
 size_t
 result
 =
-rtc
+webrtc
 :
 :
 ComputeHmac
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_1

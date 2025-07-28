@@ -98,7 +98,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 PlatformThreadId
 CurrentThreadId

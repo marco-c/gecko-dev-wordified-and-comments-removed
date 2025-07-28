@@ -709,16 +709,10 @@ OPT_TLS_INSECURE
 )
 )
 {
-rtc
-:
-:
 SSLAdapter
 *
 ssl_adapter
 =
-rtc
-:
-:
 SSLAdapter
 :
 :

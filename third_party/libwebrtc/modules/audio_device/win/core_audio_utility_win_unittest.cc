@@ -1613,7 +1613,7 @@ DevicesAvailable
 )
 &
 &
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1624,7 +1624,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1736,7 +1736,7 @@ DevicesAvailable
 )
 &
 &
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1747,7 +1747,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1885,7 +1885,7 @@ DevicesAvailable
 )
 &
 &
-rtc
+webrtc
 :
 :
 rtc_win
@@ -1896,7 +1896,7 @@ GetVersion
 )
 >
 =
-rtc
+webrtc
 :
 :
 rtc_win

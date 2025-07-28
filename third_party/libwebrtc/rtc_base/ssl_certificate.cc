@@ -110,7 +110,7 @@ base64
 h
 "
 namespace
-rtc
+webrtc
 {
 SSLCertificateStats
 :
@@ -345,9 +345,6 @@ std
 string
 der_base64
 ;
-webrtc
-:
-:
 Base64
 :
 :
@@ -737,6 +734,9 @@ pem_string
 #
 else
 return
+rtc
+:
+:
 OpenSSLCertificate
 :
 :

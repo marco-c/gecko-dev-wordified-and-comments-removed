@@ -60,7 +60,7 @@ thread_annotations
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 BufferQueue
@@ -186,9 +186,6 @@ empty
 private
 :
 RTC_NO_UNIQUE_ADDRESS
-webrtc
-:
-:
 SequenceChecker
 sequence_checker_
 ;
@@ -229,6 +226,18 @@ sequence_checker_
 )
 ;
 }
+;
+}
+namespace
+rtc
+{
+using
+:
+:
+webrtc
+:
+:
+BufferQueue
 ;
 }
 #

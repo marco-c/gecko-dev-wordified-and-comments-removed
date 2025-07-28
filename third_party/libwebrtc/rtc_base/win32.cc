@@ -63,7 +63,7 @@ string_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const

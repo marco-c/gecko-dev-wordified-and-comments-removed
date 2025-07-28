@@ -449,7 +449,7 @@ override
 ;
 virtual
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1688,13 +1688,13 @@ remote_candidate_
 ConnectionInfo
 stats_
 ;
-rtc
+webrtc
 :
 :
 RateTracker
 recv_rate_tracker_
 ;
-rtc
+webrtc
 :
 :
 RateTracker

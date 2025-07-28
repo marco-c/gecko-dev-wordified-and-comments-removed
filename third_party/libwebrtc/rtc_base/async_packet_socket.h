@@ -155,15 +155,6 @@ thread_annotations
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-time_utils
-.
-h
-"
 namespace
 webrtc
 {
@@ -779,9 +770,6 @@ const
 AsyncPacketSocket
 &
 socket_from
-rtc
-:
-:
 PacketInfo
 *
 info

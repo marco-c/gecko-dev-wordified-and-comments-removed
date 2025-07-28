@@ -429,7 +429,7 @@ size_t
 size
 )
 {
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3721,13 +3721,13 @@ ipaddr
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
 correct_buf
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3779,7 +3779,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -4011,13 +4011,13 @@ ipaddr
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
 correct_buf
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -4069,7 +4069,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -4502,7 +4502,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -4547,7 +4547,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -4692,7 +4692,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -4737,7 +4737,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -4882,7 +4882,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -4927,7 +4927,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -5072,7 +5072,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5117,7 +5117,7 @@ Length
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -5671,7 +5671,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5815,7 +5815,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5874,7 +5874,7 @@ length
 StunMessage
 msg
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -6457,7 +6457,7 @@ AddMessageIntegrity
 IceMessage
 msg
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -6533,7 +6533,7 @@ kCalculatedHmac1
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -6582,7 +6582,7 @@ kRfc5769SampleMsgPassword
 IceMessage
 msg2
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -6658,7 +6658,7 @@ kCalculatedHmac2
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -7054,7 +7054,7 @@ AddMessageIntegrity32
 IceMessage
 msg
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -7130,7 +7130,7 @@ kCalculatedHmac1_32
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -7179,7 +7179,7 @@ kRfc5769SampleMsgPassword
 IceMessage
 msg2
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -7255,7 +7255,7 @@ kCalculatedHmac2_32
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -7369,7 +7369,7 @@ password2
 "
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -7771,7 +7771,7 @@ AddFingerprint
 IceMessage
 msg
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -7800,7 +7800,7 @@ AddFingerprint
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -8288,13 +8288,13 @@ StunTest
 CopyAttribute
 )
 {
-rtc
+webrtc
 :
 :
 ByteBufferWriter
 buf
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -8786,7 +8786,7 @@ get
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -8803,7 +8803,7 @@ out1
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -9489,7 +9489,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -9746,7 +9746,7 @@ long_username
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -9783,7 +9783,7 @@ Reset
 StunMessage
 message
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader

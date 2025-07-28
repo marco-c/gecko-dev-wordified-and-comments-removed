@@ -261,9 +261,6 @@ GetRealTimeClock
 )
 socket_server_
 (
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )

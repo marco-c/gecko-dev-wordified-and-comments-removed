@@ -17081,9 +17081,6 @@ LS_ERROR
 )
 <
 <
-rtc
-:
-:
 ToUtf8
 (
 buf

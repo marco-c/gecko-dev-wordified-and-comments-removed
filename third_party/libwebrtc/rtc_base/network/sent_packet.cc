@@ -9,8 +9,13 @@ sent_packet
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
-rtc
+webrtc
 {
 PacketInfo
 :
@@ -44,6 +49,10 @@ PacketInfo
 =
 default
 ;
+}
+namespace
+rtc
+{
 SentPacket
 :
 :
@@ -84,9 +93,6 @@ packet_id
 int64_t
 send_time_ms
 const
-rtc
-:
-:
 PacketInfo
 &
 info

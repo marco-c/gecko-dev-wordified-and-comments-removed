@@ -28944,9 +28944,6 @@ KT_DEFAULT
 auto
 new_fingerprint
 =
-rtc
-:
-:
 SSLFingerprint
 :
 :
@@ -28992,9 +28989,6 @@ absl
 WrapUnique
 (
 new
-rtc
-:
-:
 SSLFingerprint
 (
 *

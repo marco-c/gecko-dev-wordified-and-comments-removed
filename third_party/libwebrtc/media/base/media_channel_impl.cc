@@ -526,7 +526,7 @@ MediaChannelUtil
 :
 SetPreferredDscp
 (
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1338,7 +1338,7 @@ UpdateDscp
 (
 )
 {
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -1348,7 +1348,7 @@ enable_dscp_
 ?
 preferred_dscp_
 :
-rtc
+webrtc
 :
 :
 DSCP_DEFAULT
@@ -1556,7 +1556,7 @@ TransportForMediaChannels
 :
 SetPreferredDscp
 (
-rtc
+webrtc
 :
 :
 DiffServCodePoint

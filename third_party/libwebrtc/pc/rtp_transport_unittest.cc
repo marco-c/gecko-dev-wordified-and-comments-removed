@@ -100,6 +100,15 @@ include
 "
 rtc_base
 /
+copy_on_write_buffer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 network
 /
 ecn_marking
@@ -397,9 +406,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -418,9 +424,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -532,9 +535,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route_
@@ -963,9 +963,6 @@ network_route
 )
 )
 ;
-rtc
-:
-:
 NetworkRoute
 network_route
 ;
@@ -979,9 +976,6 @@ network_route
 .
 local
 =
-rtc
-:
-:
 RouteEndpoint
 :
 :
@@ -994,9 +988,6 @@ network_route
 .
 remote
 =
-rtc
-:
-:
 RouteEndpoint
 :
 :
@@ -1026,9 +1017,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 (
@@ -1183,9 +1171,6 @@ network_route
 )
 )
 ;
-rtc
-:
-:
 NetworkRoute
 network_route
 ;
@@ -1199,9 +1184,6 @@ network_route
 .
 local
 =
-rtc
-:
-:
 RouteEndpoint
 :
 :
@@ -1214,9 +1196,6 @@ network_route
 .
 remote
 =
-rtc
-:
-:
 RouteEndpoint
 :
 :
@@ -1246,9 +1225,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 (

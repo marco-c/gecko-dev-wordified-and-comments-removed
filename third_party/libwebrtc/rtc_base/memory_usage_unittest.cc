@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 test
 /
@@ -17,7 +22,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (

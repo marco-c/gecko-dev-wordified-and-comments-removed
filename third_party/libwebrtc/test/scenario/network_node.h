@@ -444,9 +444,6 @@ Zero
 (
 )
 ;
-rtc
-:
-:
 NetworkRoute
 current_network_route_
 RTC_GUARDED_BY

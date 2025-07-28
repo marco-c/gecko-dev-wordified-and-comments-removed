@@ -10,11 +10,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 string
 >
 #
@@ -75,7 +70,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 const
 char

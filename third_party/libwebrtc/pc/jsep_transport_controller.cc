@@ -2013,9 +2013,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 JsepTransportController

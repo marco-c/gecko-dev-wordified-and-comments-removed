@@ -46,6 +46,15 @@ include
 "
 rtc_base
 /
+openssl_key_pair
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_certificate
 .
 h
@@ -62,9 +71,6 @@ h
 namespace
 rtc
 {
-class
-OpenSSLKeyPair
-;
 class
 OpenSSLCertificate
 final

@@ -11,13 +11,6 @@ h
 "
 #
 include
-<
-time
-.
-h
->
-#
-include
 "
 rtc_base
 /
@@ -39,9 +32,9 @@ include
 "
 rtc_base
 /
-synchronization
+system
 /
-yield
+unused
 .
 h
 "
@@ -50,9 +43,7 @@ include
 "
 rtc_base
 /
-system
-/
-unused
+thread_annotations
 .
 h
 "
@@ -77,7 +68,7 @@ x
 #
 endif
 namespace
-rtc
+webrtc
 {
 RecursiveCriticalSection
 :

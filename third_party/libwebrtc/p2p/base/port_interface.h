@@ -114,6 +114,15 @@ include
 rtc_base
 /
 network
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+network
 /
 sent_packet
 .
@@ -153,9 +162,6 @@ h
 namespace
 rtc
 {
-class
-Network
-;
 struct
 PacketOptions
 ;
@@ -213,9 +219,6 @@ const
 ;
 virtual
 const
-rtc
-:
-:
 Network
 *
 Network
@@ -705,9 +708,6 @@ UpdateNetworkCost
 0
 ;
 virtual
-rtc
-:
-:
 DiffServCodePoint
 StunDscpValue
 (

@@ -4452,9 +4452,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertificateStats
 >
 cert_stats
@@ -4484,9 +4481,6 @@ nullptr
 ;
 for
 (
-rtc
-:
-:
 SSLCertificateStats
 *
 stats
@@ -5926,9 +5920,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_cert_chain

@@ -162,9 +162,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates
@@ -213,9 +210,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates
@@ -338,9 +332,6 @@ srtp_cipher_suite_
 ;
 }
 const
-rtc
-:
-:
 SSLCertChain
 *
 remote_ssl_certificates
@@ -402,9 +393,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates_

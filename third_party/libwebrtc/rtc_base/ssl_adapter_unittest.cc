@@ -300,7 +300,7 @@ class
 MockCertVerifier
 :
 public
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -321,7 +321,7 @@ bool
 Verify
 (
 const
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -388,7 +388,7 @@ ssl_adapter_
 .
 reset
 (
-rtc
+webrtc
 :
 :
 SSLAdapter
@@ -466,7 +466,7 @@ ignore_bad_cert
 void
 SetCertVerifier
 (
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -784,7 +784,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLAdapter
@@ -1279,7 +1279,7 @@ ignore_bad_cert
 void
 SetCertVerifier
 (
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1395,7 +1395,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1841,7 +1841,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier

@@ -141,9 +141,6 @@ allow_wgc_capturer_fallback
 )
 &
 &
-rtc
-:
-:
 rtc_win
 :
 :
@@ -152,9 +149,6 @@ GetVersion
 )
 >
 =
-rtc
-:
-:
 rtc_win
 :
 :
