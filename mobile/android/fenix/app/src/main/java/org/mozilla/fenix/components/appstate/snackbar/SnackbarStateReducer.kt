@@ -150,6 +150,11 @@ snackbarState
 SnackbarState
 .
 Dismiss
+(
+state
+.
+snackbarState
+)
 )
 is
 SnackbarAction
@@ -170,6 +175,11 @@ snackbarState
 SnackbarState
 .
 None
+(
+state
+.
+snackbarState
+)
 )
 }
 }
