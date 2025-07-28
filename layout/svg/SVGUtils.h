@@ -652,6 +652,13 @@ gfxRect
 &
 aRect
 const
+dom
+:
+:
+UserSpaceMetrics
+&
+aMetrics
+const
 SVGAnimatedLength
 *
 aLength
@@ -1005,6 +1012,10 @@ const
 gfxRect
 &
 aBBox
+const
+SVGElement
+*
+aElement
 const
 dom
 :

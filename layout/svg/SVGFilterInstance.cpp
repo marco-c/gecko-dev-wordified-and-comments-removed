@@ -428,6 +428,7 @@ GetRelativeRect
 filterUnits
 XYWH
 mTargetBBox
+mFilterElement
 mMetrics
 )
 ;
@@ -586,6 +587,10 @@ SVGUtils
 ObjectSpace
 (
 mTargetBBox
+SVGElementMetrics
+(
+nullptr
+)
 &
 val
 )
@@ -724,6 +729,7 @@ GetRelativeRect
 mPrimitiveUnits
 val
 mTargetBBox
+nullptr
 mMetrics
 )
 ;
@@ -996,6 +1002,7 @@ SVGFilterPrimitiveElement
 ATTR_X
 ]
 mTargetBBox
+fE
 mMetrics
 )
 ;
