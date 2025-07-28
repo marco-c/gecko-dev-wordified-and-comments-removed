@@ -92,7 +92,7 @@ VideoCaptureAvFoundation
 )
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

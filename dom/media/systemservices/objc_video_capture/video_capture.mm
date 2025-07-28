@@ -84,7 +84,7 @@ using
 namespace
 videocapturemodule
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -191,7 +191,7 @@ nil
 ;
 }
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -222,7 +222,7 @@ return
 NULL
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -232,7 +232,7 @@ VideoCaptureIos
 capture_module
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject

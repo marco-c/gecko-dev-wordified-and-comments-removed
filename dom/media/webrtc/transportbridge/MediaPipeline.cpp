@@ -3169,7 +3169,7 @@ webrtc
 RTPHeader
 header
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -3730,7 +3730,7 @@ mRtcpReceiveEvent
 .
 Notify
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -8513,7 +8513,7 @@ Type
 kI420
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

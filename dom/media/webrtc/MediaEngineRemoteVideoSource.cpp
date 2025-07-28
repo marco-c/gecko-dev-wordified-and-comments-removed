@@ -3109,7 +3109,7 @@ callback_unused
 {
 }
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3238,7 +3238,7 @@ dst_width
 dst_height
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -98,7 +98,7 @@ class
 FrameListener
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -210,7 +210,7 @@ void
 SetWants
 (
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -287,7 +287,7 @@ class
 DebugVideoFrameConverter
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -315,7 +315,7 @@ RTCStatsTimestampMaker
 aTimestampMaker
 )
 :
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -5359,7 +5359,7 @@ SetActive
 true
 )
 ;
-rtc
+webrtc
 :
 :
 VideoSinkWants

@@ -193,7 +193,7 @@ void
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -209,7 +209,7 @@ void
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -389,7 +389,7 @@ MOCK_METHOD2
 DeliverPacket
 void
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer

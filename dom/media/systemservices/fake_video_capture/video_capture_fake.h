@@ -72,7 +72,7 @@ aTarget
 )
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

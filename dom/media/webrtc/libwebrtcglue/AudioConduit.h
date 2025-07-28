@@ -117,7 +117,7 @@ aHeader
 void
 OnRtcpReceived
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -228,7 +228,7 @@ ConnectReceiverRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -259,7 +259,7 @@ ConnectSenderRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -427,7 +427,7 @@ override
 void
 DeliverPacket
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer

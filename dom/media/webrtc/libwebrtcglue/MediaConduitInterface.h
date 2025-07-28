@@ -486,7 +486,7 @@ ConnectReceiverRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -503,7 +503,7 @@ ConnectSenderRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -681,7 +681,7 @@ virtual
 void
 DeliverPacket
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1015,7 +1015,7 @@ aConduit
 bool
 SendRtp
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1056,7 +1056,7 @@ aOptions
 bool
 SendRtcp
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1120,7 +1120,7 @@ aConduit
 bool
 SendRtp
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1151,7 +1151,7 @@ packet
 bool
 SendRtcp
 (
-rtc
+webrtc
 :
 :
 ArrayView

@@ -54,7 +54,7 @@ ThreadSafety
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 PlatformUIThread

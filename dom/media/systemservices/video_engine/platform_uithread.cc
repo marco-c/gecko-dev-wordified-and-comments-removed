@@ -12,7 +12,7 @@ platform_uithread
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const

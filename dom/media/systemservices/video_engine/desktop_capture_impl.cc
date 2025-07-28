@@ -310,7 +310,7 @@ aType
 {
 return
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -1431,7 +1431,7 @@ DesktopCaptureImpl
 :
 RegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -1466,7 +1466,7 @@ DesktopCaptureImpl
 :
 DeRegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -2277,7 +2277,7 @@ Timestamp
 :
 Micros
 (
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -2548,7 +2548,7 @@ height
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2735,7 +2735,7 @@ Timestamp
 :
 Micros
 (
-rtc
+webrtc
 :
 :
 TimeMicros

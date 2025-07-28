@@ -236,7 +236,7 @@ class
 RecvSinkProxy
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -289,7 +289,7 @@ class
 SendSinkProxy
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -756,7 +756,7 @@ uint32_t
 aRtxSsrc
 )
 ;
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -909,7 +909,7 @@ aHeader
 void
 OnRtcpReceived
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1020,7 +1020,7 @@ ConnectReceiverRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1051,7 +1051,7 @@ ConnectSenderRtcpEvent
 (
 MediaEventSourceExc
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1212,7 +1212,7 @@ SetIsShutdown
 void
 DeliverPacket
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1792,7 +1792,7 @@ DataMutex
 <
 RefPtr
 <
-rtc
+webrtc
 :
 :
 RefCountedObject

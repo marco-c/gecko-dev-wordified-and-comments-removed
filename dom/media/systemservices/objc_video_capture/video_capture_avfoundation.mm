@@ -627,7 +627,7 @@ StopCapture
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -687,7 +687,7 @@ uniqueID
 uniqueId
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -697,7 +697,7 @@ VideoCaptureModule
 module
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -1546,7 +1546,7 @@ aFrame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
@@ -1569,7 +1569,7 @@ Record
 0
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

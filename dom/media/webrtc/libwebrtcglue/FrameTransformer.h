@@ -123,7 +123,7 @@ aFrame
 void
 RegisterTransformedFrameCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -146,7 +146,7 @@ override
 void
 RegisterTransformedFrameSinkCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -189,7 +189,7 @@ mVideo
 Mutex
 mCallbacksMutex
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -211,7 +211,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 scoped_refptr

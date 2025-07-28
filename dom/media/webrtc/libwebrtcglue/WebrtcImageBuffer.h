@@ -79,7 +79,7 @@ aImage
 )
 {
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -140,7 +140,7 @@ GetData
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

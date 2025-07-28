@@ -847,7 +847,7 @@ LOGTAG
 vcLogTag
 using
 namespace
-cricket
+webrtc
 ;
 using
 LocalDirection
@@ -1097,7 +1097,7 @@ kVideoCodecGeneric
 ;
 }
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1543,7 +1543,7 @@ true
 denoising
 ;
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1558,7 +1558,7 @@ EncoderSpecificSettings
 >
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -1632,7 +1632,7 @@ false
 denoising
 ;
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1647,7 +1647,7 @@ EncoderSpecificSettings
 >
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -5634,7 +5634,7 @@ mSendStreamConfig
 frame_transformer
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -5723,7 +5723,7 @@ mRecvStreamConfig
 frame_transformer
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -9015,7 +9015,7 @@ nullptr
 ;
 }
 }
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -9046,7 +9046,7 @@ Lock
 videoStreamFactory
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -9514,7 +9514,7 @@ WebrtcVideoConduit
 :
 DeliverPacket
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -9922,7 +9922,7 @@ WebrtcVideoConduit
 :
 OnRtcpReceived
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -9971,7 +9971,7 @@ std
 :
 forward
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer

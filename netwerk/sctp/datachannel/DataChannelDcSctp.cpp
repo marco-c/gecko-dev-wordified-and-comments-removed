@@ -936,7 +936,7 @@ mDcSctp
 return
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1067,7 +1067,7 @@ mDcSctp
 >
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1194,7 +1194,7 @@ DataChannelConnectionDcSctp
 :
 SendPacketWithStatus
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2225,7 +2225,7 @@ DataChannelConnectionDcSctp
 :
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2283,7 +2283,7 @@ DataChannelConnectionDcSctp
 :
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2331,7 +2331,7 @@ DataChannelConnectionDcSctp
 :
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView

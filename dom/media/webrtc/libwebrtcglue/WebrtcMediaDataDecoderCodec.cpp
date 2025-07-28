@@ -598,7 +598,7 @@ mImage
 continue
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -608,7 +608,7 @@ ImageBuffer
 image
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
