@@ -3289,6 +3289,7 @@ extractall
 (
         
 path
+        
 members
 =
 _files
@@ -3296,14 +3297,35 @@ _files
 tar
 path
 )
+        
 numeric_owner
 =
 numeric_owner
+        
+*
+*
+(
+{
+}
+if
+sys
+.
+version_info
+<
+(
+3
+12
+)
+else
+dict
+(
 filter
 =
 "
 tar
 "
+)
+)
     
 )
 def
