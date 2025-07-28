@@ -3647,6 +3647,13 @@ navigationBarContainer
 toolbarStore
 =
 toolbarStore
+settings
+=
+activity
+.
+settings
+(
+)
 hideWhenKeyboardShown
 =
 true
