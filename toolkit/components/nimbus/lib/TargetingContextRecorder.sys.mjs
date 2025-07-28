@@ -1603,6 +1603,15 @@ PREF_BOOL
 "
 browser
 .
+startup
+.
+page
+"
+:
+PREF_INT
+"
+browser
+.
 toolbars
 .
 bookmarks
