@@ -136,6 +136,9 @@ prev_time_offset_us_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -148,5 +151,7 @@ webrtc
 TimestampAligner
 ;
 }
+#
+endif
 #
 endif

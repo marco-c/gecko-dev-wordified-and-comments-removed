@@ -194,6 +194,9 @@ ConnectionInfo
 ConnectionInfos
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -222,5 +225,7 @@ webrtc
 IceCandidatePairState
 ;
 }
+#
+endif
 #
 endif

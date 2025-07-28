@@ -137,6 +137,9 @@ codec
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -165,5 +168,7 @@ webrtc
 ValidateRtpExtensions
 ;
 }
+#
+endif
 #
 endif

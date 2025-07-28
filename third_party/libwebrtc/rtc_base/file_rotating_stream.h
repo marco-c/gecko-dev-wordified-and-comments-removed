@@ -441,6 +441,9 @@ dir_path
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -477,5 +480,7 @@ webrtc
 FileRotatingStreamReader
 ;
 }
+#
+endif
 #
 endif

@@ -286,6 +286,9 @@ networks_changed_callback_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -330,5 +333,7 @@ webrtc
 NetworkPreferenceToString
 ;
 }
+#
+endif
 #
 endif

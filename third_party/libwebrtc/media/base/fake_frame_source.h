@@ -125,6 +125,9 @@ next_timestamp_us_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -137,5 +140,7 @@ webrtc
 FakeFrameSource
 ;
 }
+#
+endif
 #
 endif

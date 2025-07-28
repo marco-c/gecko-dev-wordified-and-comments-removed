@@ -208,6 +208,9 @@ max_port
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -228,5 +231,7 @@ webrtc
 RelayPortFactoryInterface
 ;
 }
+#
+endif
 #
 endif

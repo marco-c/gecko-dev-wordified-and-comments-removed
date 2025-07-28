@@ -122,6 +122,9 @@ override
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -142,5 +145,7 @@ webrtc
 AsyncSSLServerSocket
 ;
 }
+#
+endif
 #
 endif

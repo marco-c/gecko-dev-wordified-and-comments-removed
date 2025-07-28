@@ -364,6 +364,9 @@ recv_data_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -376,5 +379,7 @@ webrtc
 DtlsStunPiggybackCallbacks
 ;
 }
+#
+endif
 #
 endif

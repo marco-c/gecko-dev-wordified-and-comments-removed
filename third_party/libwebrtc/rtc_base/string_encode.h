@@ -401,6 +401,9 @@ val
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -725,5 +728,7 @@ value
 ;
 }
 }
+#
+endif
 #
 endif

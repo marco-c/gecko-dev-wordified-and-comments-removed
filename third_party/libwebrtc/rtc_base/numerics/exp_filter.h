@@ -87,6 +87,9 @@ max_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -99,5 +102,7 @@ webrtc
 ExpFilter
 ;
 }
+#
+endif
 #
 endif

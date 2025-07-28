@@ -2396,6 +2396,9 @@ voice_media_info
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -2424,5 +2427,7 @@ webrtc
 WebRtcVoiceSendChannel
 ;
 }
+#
+endif
 #
 endif

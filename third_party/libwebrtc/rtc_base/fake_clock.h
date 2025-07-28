@@ -243,6 +243,9 @@ prev_clock_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -279,5 +282,7 @@ webrtc
 ThreadProcessingFakeClock
 ;
 }
+#
+endif
 #
 endif

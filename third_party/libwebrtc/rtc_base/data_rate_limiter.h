@@ -128,6 +128,9 @@ period_end_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -140,5 +143,7 @@ webrtc
 DataRateLimiter
 ;
 }
+#
+endif
 #
 endif

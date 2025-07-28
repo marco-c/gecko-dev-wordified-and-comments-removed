@@ -452,6 +452,9 @@ PruneConnections
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -472,5 +475,7 @@ webrtc
 IceRecheckEvent
 ;
 }
+#
+endif
 #
 endif

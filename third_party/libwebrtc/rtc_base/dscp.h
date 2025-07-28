@@ -83,6 +83,9 @@ DSCP_CS7
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -279,5 +282,7 @@ webrtc
 DSCP_NO_CHANGE
 ;
 }
+#
+endif
 #
 endif

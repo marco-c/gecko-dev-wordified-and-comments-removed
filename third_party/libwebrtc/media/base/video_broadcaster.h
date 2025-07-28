@@ -264,6 +264,9 @@ sinks_and_wants_lock_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -276,5 +279,7 @@ webrtc
 VideoBroadcaster
 ;
 }
+#
+endif
 #
 endif

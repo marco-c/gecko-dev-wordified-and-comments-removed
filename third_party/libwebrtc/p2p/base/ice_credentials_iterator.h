@@ -73,6 +73,9 @@ pooled_ice_credentials_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -85,5 +88,7 @@ webrtc
 IceCredentialsIterator
 ;
 }
+#
+endif
 #
 endif

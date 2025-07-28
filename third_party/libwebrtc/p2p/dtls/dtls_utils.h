@@ -317,6 +317,9 @@ packets_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -369,5 +372,7 @@ webrtc
 kMaxDtlsPacketLen
 ;
 }
+#
+endif
 #
 endif

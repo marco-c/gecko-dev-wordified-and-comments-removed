@@ -730,6 +730,9 @@ vp8_factory_mode_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -766,5 +769,7 @@ webrtc
 FakeWebRtcVideoEncoderFactory
 ;
 }
+#
+endif
 #
 endif

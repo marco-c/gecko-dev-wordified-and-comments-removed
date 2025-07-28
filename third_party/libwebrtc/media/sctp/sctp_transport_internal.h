@@ -408,6 +408,9 @@ debug_name
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -468,5 +471,7 @@ webrtc
 SctpTransportInternal
 ;
 }
+#
+endif
 #
 endif

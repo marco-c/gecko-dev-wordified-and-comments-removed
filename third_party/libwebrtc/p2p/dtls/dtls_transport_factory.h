@@ -93,6 +93,9 @@ max_version
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -105,5 +108,7 @@ webrtc
 DtlsTransportFactory
 ;
 }
+#
+endif
 #
 endif

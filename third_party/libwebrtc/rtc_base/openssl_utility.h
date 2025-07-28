@@ -103,6 +103,9 @@ GetBufferPool
 endif
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -176,5 +179,7 @@ ParseCertificate
 endif
 }
 }
+#
+endif
 #
 endif

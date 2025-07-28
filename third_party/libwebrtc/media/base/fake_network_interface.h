@@ -1268,6 +1268,9 @@ safety_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -1280,5 +1283,7 @@ webrtc
 FakeNetworkInterface
 ;
 }
+#
+endif
 #
 endif

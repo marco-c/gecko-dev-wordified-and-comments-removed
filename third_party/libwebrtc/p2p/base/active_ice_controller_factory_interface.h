@@ -90,6 +90,9 @@ ActiveIceControllerFactoryArgs
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -110,5 +113,7 @@ webrtc
 ActiveIceControllerFactoryInterface
 ;
 }
+#
+endif
 #
 endif

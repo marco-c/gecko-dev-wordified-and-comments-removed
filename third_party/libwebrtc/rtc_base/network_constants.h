@@ -184,6 +184,9 @@ ADAPTER_TYPE_CELLULAR_5G
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -388,5 +391,7 @@ webrtc
 kNetworkCostVpn
 ;
 }
+#
+endif
 #
 endif

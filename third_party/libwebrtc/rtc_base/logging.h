@@ -3656,6 +3656,9 @@ RTC_DLOG_EAT_STREAM_PARAMS
 #
 endif
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -3732,6 +3735,8 @@ webrtc
 LS_WARNING
 ;
 }
+#
+endif
 #
 pragma
 GCC

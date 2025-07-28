@@ -234,6 +234,9 @@ bit_offset_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -246,5 +249,7 @@ webrtc
 BitBufferWriter
 ;
 }
+#
+endif
 #
 endif

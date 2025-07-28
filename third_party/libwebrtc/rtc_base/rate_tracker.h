@@ -148,6 +148,9 @@ initialization_time_milliseconds_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -160,5 +163,7 @@ webrtc
 RateTracker
 ;
 }
+#
+endif
 #
 endif

@@ -1089,6 +1089,9 @@ query_interface
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -1181,5 +1184,7 @@ webrtc
 VoiceEngineInterface
 ;
 }
+#
+endif
 #
 endif

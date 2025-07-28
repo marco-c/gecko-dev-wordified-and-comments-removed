@@ -756,6 +756,9 @@ info
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -802,5 +805,7 @@ webrtc
 AsyncSocketPacketOptions
 ;
 }
+#
+endif
 #
 endif

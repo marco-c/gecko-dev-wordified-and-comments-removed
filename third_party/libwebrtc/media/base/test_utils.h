@@ -232,6 +232,9 @@ flexfec_ssrc
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -268,5 +271,7 @@ webrtc
 MakeVector
 ;
 }
+#
+endif
 #
 endif

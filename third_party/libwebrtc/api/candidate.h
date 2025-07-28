@@ -1152,6 +1152,9 @@ url_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -1204,5 +1207,7 @@ webrtc
 STUN_PORT_TYPE
 ;
 }
+#
+endif
 #
 endif

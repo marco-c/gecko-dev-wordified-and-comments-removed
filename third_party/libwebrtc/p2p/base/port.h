@@ -2009,6 +2009,9 @@ weak_factory_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -2133,5 +2136,7 @@ webrtc
 TCPTYPE_SIMOPEN_STR
 ;
 }
+#
+endif
 #
 endif

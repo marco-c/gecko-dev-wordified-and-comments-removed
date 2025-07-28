@@ -179,6 +179,9 @@ channel_stats
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -207,5 +210,7 @@ webrtc
 TransportStats
 ;
 }
+#
+endif
 #
 endif

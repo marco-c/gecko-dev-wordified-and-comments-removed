@@ -22,6 +22,9 @@ SystemTimeNanos
 define
 RTC_SYSTEM_TIME_IN_WEBRTC_NAMESPACE
 1
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -34,5 +37,7 @@ webrtc
 SystemTimeNanos
 ;
 }
+#
+endif
 #
 endif

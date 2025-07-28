@@ -344,6 +344,9 @@ source_sequence_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -364,5 +367,7 @@ webrtc
 VideoSourceBaseGuarded
 ;
 }
+#
+endif
 #
 endif

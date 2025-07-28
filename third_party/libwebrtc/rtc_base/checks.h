@@ -2668,6 +2668,9 @@ b
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -2680,6 +2683,8 @@ webrtc
 CheckedDivExact
 ;
 }
+#
+endif
 #
 else
 #

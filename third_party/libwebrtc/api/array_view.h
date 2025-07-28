@@ -1671,6 +1671,9 @@ size
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -1723,5 +1726,7 @@ webrtc
 reinterpret_array_view
 ;
 }
+#
+endif
 #
 endif

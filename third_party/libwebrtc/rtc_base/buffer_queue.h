@@ -228,6 +228,9 @@ sequence_checker_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -240,5 +243,7 @@ webrtc
 BufferQueue
 ;
 }
+#
+endif
 #
 endif

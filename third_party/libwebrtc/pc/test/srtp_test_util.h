@@ -173,6 +173,9 @@ RTC_CHECK_NOTREACHED
 }
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -209,5 +212,7 @@ webrtc
 rtp_auth_tag_len
 ;
 }
+#
+endif
 #
 endif

@@ -82,6 +82,9 @@ protocol
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -142,5 +145,7 @@ webrtc
 UDP_PROTOCOL_NAME
 ;
 }
+#
+endif
 #
 endif

@@ -893,6 +893,9 @@ m_support_wnd_scale
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -913,5 +916,7 @@ webrtc
 PseudoTcp
 ;
 }
+#
+endif
 #
 endif

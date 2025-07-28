@@ -170,6 +170,9 @@ connections
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -182,5 +185,7 @@ webrtc
 IceAgentInterface
 ;
 }
+#
+endif
 #
 endif

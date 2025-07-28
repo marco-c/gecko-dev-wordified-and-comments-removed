@@ -667,6 +667,9 @@ next_extension_id_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -695,5 +698,7 @@ webrtc
 UsedRtpHeaderExtensionIds
 ;
 }
+#
+endif
 #
 endif

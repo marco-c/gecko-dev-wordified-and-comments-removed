@@ -949,6 +949,9 @@ get
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -961,5 +964,7 @@ webrtc
 scoped_refptr
 ;
 }
+#
+endif
 #
 endif

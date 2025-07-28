@@ -325,6 +325,9 @@ handler_
 #
 endif
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -353,5 +356,7 @@ webrtc
 ScopedAllowBaseSyncPrimitivesForTesting
 ;
 }
+#
+endif
 #
 endif

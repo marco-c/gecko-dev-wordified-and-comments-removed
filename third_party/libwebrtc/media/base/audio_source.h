@@ -111,6 +111,9 @@ AudioSource
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -123,5 +126,7 @@ webrtc
 AudioSource
 ;
 }
+#
+endif
 #
 endif

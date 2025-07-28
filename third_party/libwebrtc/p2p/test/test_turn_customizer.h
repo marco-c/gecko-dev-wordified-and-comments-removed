@@ -189,6 +189,9 @@ allow_channel_data_cnt_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -201,5 +204,7 @@ webrtc
 TestTurnCustomizer
 ;
 }
+#
+endif
 #
 endif

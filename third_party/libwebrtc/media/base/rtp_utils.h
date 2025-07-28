@@ -222,6 +222,9 @@ time_us
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -394,5 +397,7 @@ webrtc
 ValidateRtpHeader
 ;
 }
+#
+endif
 #
 endif

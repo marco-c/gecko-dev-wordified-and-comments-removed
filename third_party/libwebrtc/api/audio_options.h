@@ -216,6 +216,9 @@ init_recording_on_send
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -228,5 +231,7 @@ webrtc
 AudioOptions
 ;
 }
+#
+endif
 #
 endif

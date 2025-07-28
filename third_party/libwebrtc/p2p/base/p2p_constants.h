@@ -276,6 +276,9 @@ ICE_TYPE_PREFERENCE_HOST
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -648,5 +651,7 @@ webrtc
 WEAK_PING_INTERVAL
 ;
 }
+#
+endif
 #
 endif

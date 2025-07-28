@@ -2911,6 +2911,9 @@ CS_REMOTE
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -3099,5 +3102,7 @@ webrtc
 VideoContentDescription
 ;
 }
+#
+endif
 #
 endif

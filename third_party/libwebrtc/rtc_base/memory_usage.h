@@ -20,6 +20,9 @@ GetProcessResidentSizeBytes
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -32,5 +35,7 @@ webrtc
 GetProcessResidentSizeBytes
 ;
 }
+#
+endif
 #
 endif

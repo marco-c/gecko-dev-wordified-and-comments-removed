@@ -113,6 +113,9 @@ offer_enable_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -125,5 +128,7 @@ webrtc
 RtcpMuxFilter
 ;
 }
+#
+endif
 #
 endif

@@ -349,6 +349,9 @@ PlatformUIThread
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -377,5 +380,7 @@ webrtc
 ThreadPriority
 ;
 }
+#
+endif
 #
 endif

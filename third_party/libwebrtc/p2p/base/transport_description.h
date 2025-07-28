@@ -537,6 +537,9 @@ identity_fingerprint
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -693,5 +696,7 @@ webrtc
 TransportDescription
 ;
 }
+#
+endif
 #
 endif

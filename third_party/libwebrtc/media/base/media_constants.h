@@ -659,6 +659,9 @@ kTransportSpecificBandwidth
 ]
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -1431,5 +1434,7 @@ webrtc
 kVP9ProfileId
 ;
 }
+#
+endif
 #
 endif

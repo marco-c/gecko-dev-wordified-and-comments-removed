@@ -69,6 +69,9 @@ RTC_PRINTF_FORMAT
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -81,5 +84,7 @@ webrtc
 StringFormat
 ;
 }
+#
+endif
 #
 endif

@@ -160,6 +160,9 @@ kMediaTypeData
 ]
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -267,5 +270,7 @@ MediaType
 UNSUPPORTED
 ;
 }
+#
+endif
 #
 endif

@@ -102,6 +102,9 @@ remote
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -122,5 +125,7 @@ webrtc
 CandidatePairInterface
 ;
 }
+#
+endif
 #
 endif

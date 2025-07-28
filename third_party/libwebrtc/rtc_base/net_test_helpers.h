@@ -31,6 +31,9 @@ HasIPv6Enabled
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -47,5 +50,7 @@ webrtc
 HasIPv6Enabled
 ;
 }
+#
+endif
 #
 endif

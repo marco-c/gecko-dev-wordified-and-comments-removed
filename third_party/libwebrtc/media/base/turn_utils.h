@@ -47,6 +47,9 @@ content_size
 )
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -59,5 +62,7 @@ webrtc
 UnwrapTurnPacket
 ;
 }
+#
+endif
 #
 endif

@@ -2091,6 +2091,9 @@ task_safety_flag_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -2191,5 +2194,7 @@ webrtc
 NetworkMask
 ;
 }
+#
+endif
 #
 endif

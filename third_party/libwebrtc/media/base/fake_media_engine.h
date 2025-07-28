@@ -5759,6 +5759,9 @@ video_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -5843,5 +5846,7 @@ webrtc
 RtpSendChannelHelper
 ;
 }
+#
+endif
 #
 endif

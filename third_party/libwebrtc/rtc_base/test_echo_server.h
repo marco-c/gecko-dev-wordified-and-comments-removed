@@ -413,6 +413,9 @@ client_sockets_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -425,5 +428,7 @@ webrtc
 TestEchoServer
 ;
 }
+#
+endif
 #
 endif

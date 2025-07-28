@@ -543,6 +543,9 @@ mutex_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -555,5 +558,7 @@ webrtc
 VideoAdapter
 ;
 }
+#
+endif
 #
 endif

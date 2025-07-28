@@ -1149,6 +1149,9 @@ n
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -1321,5 +1324,7 @@ webrtc
 SetLE64
 ;
 }
+#
+endif
 #
 endif

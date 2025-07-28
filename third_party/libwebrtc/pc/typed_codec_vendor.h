@@ -131,6 +131,9 @@ codecs_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -143,5 +146,7 @@ webrtc
 TypedCodecVendor
 ;
 }
+#
+endif
 #
 endif

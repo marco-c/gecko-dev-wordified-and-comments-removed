@@ -912,6 +912,9 @@ Ge
 undef
 RTC_SAFECMP_MAKE_FUN
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -964,5 +967,7 @@ webrtc
 SafeNe
 ;
 }
+#
+endif
 #
 endif

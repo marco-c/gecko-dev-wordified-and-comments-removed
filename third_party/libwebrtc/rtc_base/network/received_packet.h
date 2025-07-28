@@ -320,6 +320,9 @@ decryption_info_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -334,5 +337,7 @@ webrtc
 ReceivedIpPacket
 ;
 }
+#
+endif
 #
 endif

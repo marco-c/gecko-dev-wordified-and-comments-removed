@@ -787,6 +787,9 @@ initial_select_timestamp_ms_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -799,5 +802,7 @@ webrtc
 BasicIceController
 ;
 }
+#
+endif
 #
 endif

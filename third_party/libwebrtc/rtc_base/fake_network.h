@@ -779,6 +779,9 @@ mdns_responder_
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -807,5 +810,7 @@ webrtc
 kFakeIPv6NetworkPrefixLength
 ;
 }
+#
+endif
 #
 endif

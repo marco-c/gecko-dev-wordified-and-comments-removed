@@ -166,6 +166,9 @@ pad_bytes
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -178,5 +181,7 @@ webrtc
 AsyncStunTCPSocket
 ;
 }
+#
+endif
 #
 endif

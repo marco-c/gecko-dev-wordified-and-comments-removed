@@ -264,6 +264,9 @@ delete
 }
 ;
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -284,5 +287,7 @@ webrtc
 PacketSocketTcpOptions
 ;
 }
+#
+endif
 #
 endif

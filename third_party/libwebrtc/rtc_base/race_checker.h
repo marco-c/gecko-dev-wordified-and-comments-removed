@@ -175,6 +175,9 @@ RTC_UNLOCK_FUNCTION
 ;
 }
 }
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -187,6 +190,8 @@ webrtc
 RaceChecker
 ;
 }
+#
+endif
 #
 define
 RTC_CHECK_RUNS_SERIALIZED
