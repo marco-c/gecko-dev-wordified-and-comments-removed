@@ -250,6 +250,11 @@ ELEMENT_STYLE
 100
 ;
 const
+PRES_HINTS
+=
+200
+;
+const
 MESSAGE_CATEGORY
 =
 {
@@ -432,6 +437,7 @@ style
 :
 {
 ELEMENT_STYLE
+PRES_HINTS
 }
 }
 ;
