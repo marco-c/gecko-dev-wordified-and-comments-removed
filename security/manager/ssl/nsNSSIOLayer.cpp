@@ -3480,7 +3480,7 @@ in_flags
 socketInfo
 -
 >
-MaybeDispatchSelectClientAuthCertificate
+MaybeSelectClientAuthCertificate
 (
 )
 ;
