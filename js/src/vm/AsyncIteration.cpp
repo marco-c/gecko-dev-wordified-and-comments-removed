@@ -1464,13 +1464,6 @@ completionKind
 (
 )
 ;
-generator
--
->
-setSuspendedYield
-(
-)
-;
 RootedValue
 completionValue
 (
