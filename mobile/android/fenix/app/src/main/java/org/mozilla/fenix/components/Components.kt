@@ -1320,6 +1320,7 @@ lazyMonitored
 Analytics
 (
 context
+nimbus
 performance
 .
 visualCompletenessQueue
