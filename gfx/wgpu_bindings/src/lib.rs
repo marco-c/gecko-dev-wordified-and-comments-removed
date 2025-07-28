@@ -888,6 +888,17 @@ Clone
 Debug
 )
 ]
+#
+[
+cfg
+(
+target_os
+=
+"
+windows
+"
+)
+]
 pub
 struct
 FfiLUID
