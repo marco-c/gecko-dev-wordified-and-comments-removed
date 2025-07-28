@@ -94,8 +94,6 @@ Storage
     
 super
 (
-RemoteOutputManager
-self
 )
 .
 __init__
@@ -207,8 +205,6 @@ datatype
     
 super
 (
-LogdogArchivedFile
-self
 )
 .
 __init__
@@ -307,13 +303,10 @@ bucket
     
 super
 (
-GoogleStorageArchivedFile
-self
 )
 .
 __init__
 (
-        
 out_filename
 out_subdir
 datatype

@@ -90,6 +90,19 @@ available
 .
 '
 )
+          
+raise
+RuntimeError
+(
+'
+error_func
+must
+call
+exit
+inside
+.
+'
+)
         
 return
 local_emulator_environment
@@ -113,15 +126,12 @@ output_manager
 error_func
 )
     
-else
-:
-      
 return
 local_machine_environment
 .
 LocalMachineEnvironment
 (
-          
+        
 args
 output_manager
 error_func
@@ -142,4 +152,17 @@ environment
 args
 .
 environment
+)
+  
+raise
+RuntimeError
+(
+'
+error_func
+must
+call
+exit
+inside
+.
+'
 )

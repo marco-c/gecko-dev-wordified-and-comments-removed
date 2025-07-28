@@ -1235,8 +1235,6 @@ output
     
 super
 (
-CalledProcessError
-self
 )
 .
 __init__
@@ -2527,7 +2525,14 @@ ZipInfo
   
 date_time
 =
-None
+kwargs
+.
+get
+(
+'
+date_time
+'
+)
   
 if
 len
@@ -2544,23 +2549,6 @@ date_time
 args
 [
 1
-]
-  
-elif
-'
-date_time
-'
-in
-kwargs
-:
-    
-date_time
-=
-kwargs
-[
-'
-date_time
-'
 ]
   
 if

@@ -33,8 +33,6 @@ _
     
 super
 (
-MonkeyTestInstance
-self
 )
 .
 __init__

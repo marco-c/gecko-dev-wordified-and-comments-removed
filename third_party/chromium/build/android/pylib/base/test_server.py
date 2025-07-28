@@ -1,8 +1,5 @@
 class
 TestServer
-(
-object
-)
 :
   
 "

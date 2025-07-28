@@ -1240,7 +1240,7 @@ i
       
 break
     
-elif
+if
 not
 tag_closed
 and
@@ -1398,8 +1398,9 @@ idx
 /
 '
   
-assert
-False
+raise
+RuntimeError
+(
 '
 Did
 not
@@ -1410,8 +1411,10 @@ tag
 :
 \
 n
+%
+s
 '
-+
+%
 '
 \
 n
@@ -1420,6 +1423,7 @@ n
 join
 (
 lines
+)
 )
 def
 _AddDiffTags

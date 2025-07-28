@@ -122,7 +122,7 @@ googletest
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -944,7 +944,7 @@ return
 test_filter
   
 for
-test_filter_file
+test_filter_files
 in
 args
 .
@@ -954,7 +954,7 @@ test_filter_files
 for
 test_filter_file
 in
-test_filter_file
+test_filter_files
 .
 split
 (

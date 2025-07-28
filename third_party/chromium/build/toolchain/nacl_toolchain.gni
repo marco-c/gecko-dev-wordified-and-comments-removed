@@ -327,10 +327,11 @@ false
 We
 do
 not
-support
-tcmalloc
-in
+replace
 the
+allocator
+when
+using
 NaCl
 toolchains
 .

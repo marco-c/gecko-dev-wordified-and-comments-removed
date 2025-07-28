@@ -146,13 +146,10 @@ color
     
 super
 (
-_ColorFormatter
-self
 )
 .
 __init__
 (
-self
 )
     
 self
@@ -337,8 +334,6 @@ False
     
 super
 (
-ColorStreamHandler
-self
 )
 .
 __init__
@@ -371,6 +366,9 @@ self
 )
 :
     
+try
+:
+      
 isatty
 =
 getattr
@@ -381,12 +379,16 @@ stream
 '
 isatty
 '
-None
 )
     
+except
+AttributeError
+:
+      
 return
-isatty
-and
+False
+    
+return
 isatty
 (
 )
@@ -395,7 +397,7 @@ def
 setFormatter
 (
 self
-formatter
+fmt
 )
 :
     
@@ -409,22 +411,20 @@ self
 is_tty
 :
       
-formatter
+fmt
 =
 _ColorFormatter
 (
-formatter
+fmt
 )
     
 super
 (
-ColorStreamHandler
-self
 )
 .
 setFormatter
 (
-formatter
+fmt
 )
   
 staticmethod

@@ -102,11 +102,11 @@ file
 "
 "
 import
+argparse
+import
 io
 import
 logging
-import
-optparse
 import
 os
 import
@@ -968,31 +968,17 @@ argv
   
 parser
 =
-optparse
+argparse
 .
-OptionParser
+ArgumentParser
 (
-usage
-=
-'
-Usage
-:
-%
-prog
-[
-options
-]
-<
-log
-dir
->
-'
 )
   
 parser
 .
-add_option
+add_argument
 (
+      
 '
 -
 -
@@ -1000,7 +986,7 @@ output
 -
 path
 '
-                    
+      
 help
 =
 '
@@ -1017,7 +1003,15 @@ stdout
 '
 )
   
-options
+parser
+.
+add_argument
+(
+'
+log_dir
+'
+)
+  
 args
 =
 parser
@@ -1027,35 +1021,11 @@ parse_args
 argv
 )
   
-if
-len
-(
-args
-)
-!
-=
-1
-:
-    
-parser
-.
-error
-(
-'
-Wrong
-number
-of
-unparsed
-args
-'
-)
-  
 base_dir
 =
 args
-[
-0
-]
+.
+log_dir
   
 log_stringio
 =
@@ -1133,7 +1103,7 @@ sh
 )
   
 if
-options
+args
 .
 output_path
 :
@@ -1152,7 +1122,7 @@ path
 .
 dirname
 (
-options
+args
 .
 output_path
 )
@@ -1178,14 +1148,14 @@ Creating
 it
 .
 '
-                      
+                     
 os
 .
 path
 .
 dirname
 (
-options
+args
 .
 output_path
 )
@@ -1201,7 +1171,7 @@ path
 .
 dirname
 (
-options
+args
 .
 output_path
 )
@@ -1211,7 +1181,7 @@ output_file
 =
 open
 (
-options
+args
 .
 output_path
 '
@@ -1223,6 +1193,7 @@ logger
 .
 info
 (
+        
 '
 Dumping
 logcat
@@ -1238,7 +1209,7 @@ in
 a
 build
 '
-                
+        
 '
 this
 file
@@ -1251,7 +1222,7 @@ to
 google
 storage
 '
-                
+        
 '
 in
 a
@@ -1266,8 +1237,7 @@ from
 there
 .
 '
-                
-options
+args
 .
 output_path
 )

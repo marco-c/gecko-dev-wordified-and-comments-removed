@@ -503,6 +503,10 @@ pkg_config_args
 =
 [
 ]
+common_pkg_config_args
+=
+[
+]
 if
 (
 sysroot
@@ -531,7 +535,7 @@ arch
 also
 )
 .
-pkg_config_args
+common_pkg_config_args
 +
 =
 [
@@ -682,6 +686,8 @@ current_toolchain
 {
 args
 =
+common_pkg_config_args
++
 host_pkg_config_args
 +
 invoker
@@ -692,6 +698,8 @@ else
 {
 args
 =
+common_pkg_config_args
++
 pkg_config_args
 +
 invoker

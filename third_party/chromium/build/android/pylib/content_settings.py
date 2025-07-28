@@ -49,8 +49,6 @@ device
     
 super
 (
-ContentSettings
-self
 )
 .
 __init__

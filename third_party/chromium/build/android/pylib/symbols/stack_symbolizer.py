@@ -149,9 +149,6 @@ device_abi
 )
 class
 Symbolizer
-(
-object
-)
 :
   
 "

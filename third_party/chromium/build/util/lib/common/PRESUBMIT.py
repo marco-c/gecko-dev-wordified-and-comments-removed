@@ -19,10 +19,13 @@ RunUnitTestsInDirectory
 (
       
 input_api
+      
 output_api
+      
 '
 .
 '
+      
 files_to_check
 =
 [
@@ -35,6 +38,10 @@ _test
 py
 '
 ]
+      
+skip_shebang_check
+=
+True
 )
 )
 def

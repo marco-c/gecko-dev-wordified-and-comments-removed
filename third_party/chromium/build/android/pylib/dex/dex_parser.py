@@ -403,9 +403,6 @@ static_values_off
 )
 class
 _MemoryItemList
-(
-object
-)
 :
   
 "
@@ -782,8 +779,6 @@ ReadUInt
     
 super
 (
-_TypeIdItemList
-self
 )
 .
 __init__
@@ -836,8 +831,6 @@ ReadUInt
     
 super
 (
-_ProtoIdItemList
-self
 )
 .
 __init__
@@ -893,8 +886,6 @@ ReadUInt
     
 super
 (
-_MethodIdItemList
-self
 )
 .
 __init__
@@ -983,8 +974,6 @@ string
     
 super
 (
-_StringItemList
-self
 )
 .
 __init__
@@ -1049,25 +1038,22 @@ Tell
     
 super
 (
-_TypeListItem
-self
 )
 .
 __init__
 (
-        
 reader
-        
+                     
 offset
-        
+                     
 size
-        
+                     
 factory
-        
+                     
 alignment
 =
 4
-        
+                     
 first_item_offset
 =
 first_item_offset
@@ -1091,8 +1077,6 @@ size
     
 super
 (
-_TypeListItemList
-self
 )
 .
 __init__
@@ -1161,8 +1145,6 @@ _fields
     
 super
 (
-_ClassDefItemList
-self
 )
 .
 __init__
@@ -1174,9 +1156,6 @@ factory
 )
 class
 _DexMapItem
-(
-object
-)
 :
   
 def
@@ -1267,9 +1246,6 @@ offset
 )
 class
 _DexMapList
-(
-object
-)
 :
   
 TYPE_TYPE_LIST
@@ -1402,9 +1378,6 @@ _map
 )
 class
 _DexReader
-(
-object
-)
 :
   
 def
@@ -2231,8 +2204,6 @@ offset
     
 super
 (
-_MUTf8DecodeError
-self
 )
 .
 __init__
@@ -2241,9 +2212,6 @@ message
 )
 class
 DexFile
-(
-object
-)
 :
   
 "
@@ -3035,9 +3003,6 @@ items
 )
 class
 _DumpCommand
-(
-object
-)
 :
   
 def

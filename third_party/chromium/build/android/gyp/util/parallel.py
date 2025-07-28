@@ -87,9 +87,6 @@ _fork_kwargs
 None
 class
 _ImmediateResult
-(
-object
-)
 :
   
 def
@@ -148,9 +145,6 @@ return
 True
 class
 _ExceptionWrapper
-(
-object
-)
 :
   
 "
@@ -229,9 +223,6 @@ msg
 )
 class
 _FuncWrapper
-(
-object
-)
 :
   
 "
@@ -290,8 +281,22 @@ None
 )
 :
     
+global
+_fork_kwargs
+    
 try
 :
+      
+if
+_fork_kwargs
+is
+None
+:
+        
+_fork_kwargs
+=
+{
+}
       
 return
 self
@@ -365,9 +370,6 @@ format_exc
 )
 class
 _WrappedResult
-(
-object
-)
 :
   
 "

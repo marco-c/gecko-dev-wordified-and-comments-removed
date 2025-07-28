@@ -18,9 +18,6 @@ import
 dex_parser
 class
 DexStatsCollector
-(
-object
-)
 :
   
 "

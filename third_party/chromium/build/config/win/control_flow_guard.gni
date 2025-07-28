@@ -73,7 +73,12 @@ guards
 .
 win_enable_cfg_guards
 =
-false
+!
+is_debug
+&
+&
+!
+is_asan
 }
 if
 (

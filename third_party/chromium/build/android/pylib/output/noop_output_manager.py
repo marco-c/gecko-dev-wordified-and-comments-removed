@@ -14,23 +14,6 @@ OutputManager
 :
   
 def
-__init__
-(
-self
-)
-:
-    
-super
-(
-NoopOutputManager
-self
-)
-.
-__init__
-(
-)
-  
-def
 _CreateArchivedFile
 (
 self
@@ -67,8 +50,6 @@ self
     
 super
 (
-NoopArchivedFile
-self
 )
 .
 __init__
@@ -128,8 +109,6 @@ retained
 "
 "
 "
-    
-pass
   
 def
 _Archive

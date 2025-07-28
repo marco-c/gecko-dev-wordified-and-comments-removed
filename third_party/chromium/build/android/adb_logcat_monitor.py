@@ -142,8 +142,6 @@ timeout
 "
 "
 "
-  
-pass
 class
 SigtermError
 (
@@ -164,8 +162,6 @@ sigterm
 "
 "
 "
-  
-pass
 def
 StartLogcatIfNecessary
 (
@@ -218,9 +214,6 @@ None
       
 return
     
-else
-:
-      
 logging
 .
 info
@@ -236,7 +229,7 @@ died
 '
 device_id
 )
-      
+    
 error_filter
 =
 re
@@ -251,7 +244,7 @@ device
 -
 '
 )
-      
+    
 for
 line
 in
@@ -259,7 +252,7 @@ process
 .
 stderr
 :
-        
+      
 if
 not
 error_filter
@@ -269,7 +262,7 @@ match
 line
 )
 :
-          
+        
 logging
 .
 error
@@ -994,20 +987,50 @@ Initializing
 '
 )
     
+if
+len
+(
+sys
+.
+argv
+)
+=
+=
+2
+:
+      
 sys
 .
 exit
 (
 main
 (
-*
 sys
 .
 argv
 [
 1
-:
-3
+]
+)
+)
+  
+sys
+.
+exit
+(
+main
+(
+sys
+.
+argv
+[
+1
+]
+sys
+.
+argv
+[
+2
 ]
 )
 )

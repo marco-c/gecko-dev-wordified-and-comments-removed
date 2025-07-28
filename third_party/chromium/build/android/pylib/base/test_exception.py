@@ -21,5 +21,3 @@ runner
 "
 "
 "
-  
-pass

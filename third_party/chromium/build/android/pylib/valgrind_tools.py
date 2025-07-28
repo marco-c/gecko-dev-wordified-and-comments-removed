@@ -154,8 +154,6 @@ device
     
 super
 (
-AddressSanitizerTool
-self
 )
 .
 __init__
@@ -438,9 +436,6 @@ ctor
 device
 )
   
-else
-:
-    
 print
 (
 '
@@ -455,6 +450,7 @@ tools
 s
 '
 %
+        
 (
 tool_name
 '
@@ -462,7 +458,6 @@ tool_name
 .
 join
 (
-        
 sorted
 (
 TOOL_REGISTRY
@@ -474,7 +469,7 @@ keys
 )
 )
 )
-    
+  
 sys
 .
 exit

@@ -99,9 +99,6 @@ path
 raise
 class
 MavenDownloader
-(
-object
-)
 :
   
 '
@@ -391,9 +388,6 @@ self
 _debug
 class
 _SingleArtifactDownloader
-(
-object
-)
 :
   
 '
@@ -804,8 +798,6 @@ e
 errno
 =
 =
-os
-.
 errno
 .
 ENOENT
@@ -826,6 +818,8 @@ Maven
 .
 '
 )
+from
+e
       
 raise
     

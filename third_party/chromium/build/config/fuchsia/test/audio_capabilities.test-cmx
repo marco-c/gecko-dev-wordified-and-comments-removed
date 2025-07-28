@@ -60,6 +60,13 @@ media
 .
 Audio
 "
+"
+fuchsia
+.
+media
+.
+AudioDeviceEnumerator
+"
 ]
 }
 }
@@ -79,6 +86,13 @@ fuchsia
 media
 .
 Audio
+"
+"
+fuchsia
+.
+media
+.
+AudioDeviceEnumerator
 "
 "
 fuchsia

@@ -204,6 +204,16 @@ sections
 "
 "
 -
+fno
+-
+extern
+-
+tls
+-
+init
+"
+"
+-
 O3
 "
 #

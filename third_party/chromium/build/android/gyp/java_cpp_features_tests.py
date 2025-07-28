@@ -677,9 +677,9 @@ base
 Feature
 #
 if
-defined
+BUILDFLAG
 (
-OS_ANDROID
+IS_ANDROID
 )
 const
 base
@@ -719,9 +719,9 @@ MaybeEnabled
 "
 #
 if
-defined
+BUILDFLAG
 (
-OS_ANDROID
+IS_ANDROID
 )
     
 base
@@ -979,9 +979,9 @@ kNameDependsOnOs
 {
 #
 if
-defined
+BUILDFLAG
 (
-OS_ANDROID
+IS_ANDROID
 )
     
 "

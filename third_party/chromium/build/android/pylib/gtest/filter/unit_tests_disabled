@@ -193,9 +193,6 @@ TestUpgradeV1
 SQLiteServerBoundCertStoreTest
 .
 TestUpgradeV2
-ProfileSyncComponentsFactoryImplTest
-.
-*
 PermissionsTest
 .
 GetWarningMessages_Plugins

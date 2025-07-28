@@ -9,6 +9,10 @@ boot_data
 import
 _SSH_CONFIG_DIR
 _SSH_DIR
+_GetAuthorizedKeysPath
+\
+                      
+GetSSHConfigPath
 class
 TestBootData
 (
@@ -27,17 +31,8 @@ self
     
 fuchsia_authorized_keys_path
 =
-os
-.
-path
-.
-join
+_GetAuthorizedKeysPath
 (
-_SSH_DIR
-                                                
-'
-fuchsia_authorized_keys
-'
 )
     
 fuchsia_id_key_path
@@ -54,7 +49,7 @@ fuchsia_ed25519
 '
 )
     
-pub_keys_path
+fuchsia_pub_key_path
 =
 os
 .
@@ -72,16 +67,8 @@ pub
     
 ssh_config_path
 =
-os
-.
-path
-.
-join
+GetSSHConfigPath
 (
-_SSH_CONFIG_DIR
-'
-ssh_config
-'
 )
     
 authorized_key_before
@@ -114,7 +101,7 @@ path
 .
 exists
 (
-pub_keys_path
+fuchsia_pub_key_path
 )
     
 ssh_config_before
@@ -211,7 +198,7 @@ os
 .
 remove
 (
-pub_keys_path
+fuchsia_pub_key_path
 )
     
 if

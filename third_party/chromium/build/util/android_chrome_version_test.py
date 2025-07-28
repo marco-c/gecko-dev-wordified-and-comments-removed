@@ -574,7 +574,7 @@ assertEqual
 (
 chrome_version_code
 '
-372000050
+372050000
 '
 )
     
@@ -584,7 +584,7 @@ assertEqual
 (
 monochrome_version_code
 '
-372000070
+372050020
 '
 )
     
@@ -594,7 +594,7 @@ assertEqual
 (
 webview_stable_version_code
 '
-372000050
+372050000
 '
 )
     
@@ -604,7 +604,7 @@ assertEqual
 (
 webview_beta_version_code
 '
-372000060
+372050010
 '
 )
   

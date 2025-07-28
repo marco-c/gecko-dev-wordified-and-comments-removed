@@ -28,6 +28,8 @@ import
 subprocess
 import
 sys
+import
+six
 _SRC_PATH
 =
 os
@@ -188,6 +190,26 @@ CommandParser
 )
 :
   
+if
+six
+.
+PY3
+:
+    
+parser
+=
+argparse
+.
+ArgumentParser
+(
+allow_abbrev
+=
+False
+)
+  
+else
+:
+    
 parser
 =
 argparse

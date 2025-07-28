@@ -106,7 +106,7 @@ not
 support
 gcc
 .
-use_rbe
+use_remoteexec
 =
 false
 is_clang

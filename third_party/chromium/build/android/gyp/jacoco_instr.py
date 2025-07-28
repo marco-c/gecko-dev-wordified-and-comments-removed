@@ -666,6 +666,9 @@ dump
 data
 f
 )
+  
+return
+0
 def
 _GetAffectedClasses
 (
@@ -1273,9 +1276,6 @@ DIR_SOURCE_ROOT
 return
 0
       
-else
-:
-        
 _InstrumentClassFiles
 (
 instrument_cmd
@@ -1285,7 +1285,7 @@ input_path
 args
 .
 output_path
-                              
+                            
 temp_dir
 affected_source_files
 )

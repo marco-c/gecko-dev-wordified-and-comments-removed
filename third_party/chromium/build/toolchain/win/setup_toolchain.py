@@ -1084,6 +1084,16 @@ VSINSTALLDIR
 '
 ]
         
+if
+'
+INCLUDE
+'
+in
+os
+.
+environ
+:
+          
 del
 os
 .
@@ -1094,6 +1104,16 @@ INCLUDE
 '
 ]
         
+if
+'
+LIB
+'
+in
+os
+.
+environ
+:
+          
 del
 os
 .
@@ -1104,6 +1124,16 @@ LIB
 '
 ]
         
+if
+'
+LIBPATH
+'
+in
+os
+.
+environ
+:
+          
 del
 os
 .

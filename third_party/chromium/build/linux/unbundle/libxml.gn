@@ -136,7 +136,7 @@ services
 /
 data_decoder
 :
-xml_parser_fuzzer
+xml_parser_fuzzer_deps
 "
 ]
 sources

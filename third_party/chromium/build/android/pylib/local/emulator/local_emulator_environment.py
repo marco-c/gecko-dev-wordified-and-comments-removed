@@ -19,12 +19,6 @@ device_errors
 from
 devil
 .
-android
-import
-device_utils
-from
-devil
-.
 utils
 import
 parallelizer
@@ -338,22 +332,6 @@ instance
 return
 None
         
-try
-:
-          
-device_utils
-.
-DeviceUtils
-(
-e
-.
-serial
-)
-.
-WaitUntilFullyBooted
-(
-)
-        
 except
 base_error
 .
@@ -379,19 +357,15 @@ exc
 :
         
 return
-(
 isinstance
 (
+            
 exc
+            
+(
 device_errors
 .
 CommandTimeoutError
-)
-                
-or
-isinstance
-(
-exc
 reraiser_thread
 .
 TimeoutError
@@ -510,7 +484,7 @@ emulator
 '
 )
     
-elif
+if
 len
 (
 self

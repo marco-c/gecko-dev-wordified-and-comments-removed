@@ -135,6 +135,10 @@ check_call
 (
 [
 dumpsyms
+'
+-
+d
+'
 infile
 ]
 stdout

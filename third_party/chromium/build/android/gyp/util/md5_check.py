@@ -965,9 +965,6 @@ f
 )
 class
 Changes
-(
-object
-)
 :
   
 "
@@ -1814,7 +1811,7 @@ force
 True
 '
     
-elif
+if
 self
 .
 missing_outputs
@@ -1843,7 +1840,7 @@ self
 missing_outputs
 )
     
-elif
+if
 self
 .
 too_new
@@ -1873,7 +1870,7 @@ self
 too_new
 )
     
-elif
+if
 self
 .
 old_metadata
@@ -2185,9 +2182,6 @@ bug
 '
 class
 _Metadata
-(
-object
-)
 :
   
 "

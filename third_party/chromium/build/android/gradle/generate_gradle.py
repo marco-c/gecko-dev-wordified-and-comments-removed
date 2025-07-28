@@ -937,9 +937,6 @@ splitlines
 )
 class
 _ProjectEntry
-(
-object
-)
 :
   
 "
@@ -1871,9 +1868,6 @@ self
 _all_entries
 class
 _ProjectContextGenerator
-(
-object
-)
 :
   
 "
@@ -2190,26 +2184,20 @@ logging
 .
 debug
 (
+          
 '
 Target
-'
-+
-entry
-.
-GnTarget
-(
-)
-+
-'
+%
+s
 includes
 resources
 from
-'
-          
-'
 unknown
 package
 .
+'
+          
+'
 Unable
 to
 process
@@ -2217,12 +2205,17 @@ with
 gradle
 .
 '
+entry
+.
+GnTarget
+(
+)
 )
       
 return
 _DEFAULT_ANDROID_MANIFEST_PATH
     
-elif
+if
 len
 (
 resource_packages
@@ -2235,26 +2228,20 @@ logging
 .
 debug
 (
+          
 '
 Target
-'
-+
-entry
-.
-GnTarget
-(
-)
-+
-'
+%
+s
 includes
 resources
 from
-'
-          
-'
 multiple
 packages
 .
+'
+          
+'
 Unable
 to
 process
@@ -2262,6 +2249,11 @@ with
 gradle
 .
 '
+entry
+.
+GnTarget
+(
+)
 )
       
 return
@@ -3643,7 +3635,7 @@ sdk_dir
 ]
 )
 def
-_GenerateGradleWrapperPropertiesCanary
+_GenerateGradleWrapperProperties
 (
 )
 :
@@ -3718,12 +3710,10 @@ distributions
 '
 gradle
 -
-6
+7
 .
-5
--
-rc
--
+3
+.
 1
 -
 all
@@ -4052,7 +4042,7 @@ gradle_treat_as_prebuilt
 return
 None
     
-elif
+if
 deps_info
 [
 '
@@ -6987,16 +6977,10 @@ unlink
 wrapper_properties
 )
   
-if
-args
-.
-canary
-:
-    
 _WriteFile
 (
 wrapper_properties
-_GenerateGradleWrapperPropertiesCanary
+_GenerateGradleWrapperProperties
 (
 )
 )

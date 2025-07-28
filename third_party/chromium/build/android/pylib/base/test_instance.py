@@ -1,8 +1,5 @@
 class
 TestInstance
-(
-object
-)
 :
   
 "

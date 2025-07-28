@@ -92,10 +92,6 @@ content_browsertests
 '
     
 '
-hybrid_browsertest
-'
-    
-'
 weblayer_browsertests
 '
 ]
@@ -1917,8 +1913,6 @@ error_func
     
 super
 (
-GtestTestInstance
-self
 )
 .
 __init__
@@ -3703,5 +3697,3 @@ nothing
 "
 "
 "
-    
-pass

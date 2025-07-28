@@ -606,13 +606,6 @@ cros_target_extra_ldflags
 =
 "
 "
-#
-is_clang
-is
-used
-instead
-of
-cros_target_is_clang
 cros_host_ar
 =
 "
@@ -650,9 +643,6 @@ clang
 +
 +
 "
-cros_host_is_clang
-=
-true
 cros_host_nm
 =
 "
@@ -718,9 +708,6 @@ clang
 +
 +
 "
-cros_v8_snapshot_is_clang
-=
-true
 cros_v8_snapshot_nm
 =
 "

@@ -1363,11 +1363,10 @@ compress_dex
     
 uncompressed_globs
 .
-extend
+append
 (
 '
-classes
-*
+classesX
 .
 dex
 '

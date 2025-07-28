@@ -281,9 +281,6 @@ upper
 )
 class
 JavaString
-(
-object
-)
 :
   
 def
@@ -484,9 +481,6 @@ package
 class_name
 class
 CppConstantParser
-(
-object
-)
 :
   
 "
@@ -567,9 +561,6 @@ n
   
 class
 Delegate
-(
-object
-)
 :
     
 def
@@ -1084,15 +1075,12 @@ True
 return
 True
     
-else
-:
-      
 self
 .
 _in_comment
 =
 False
-      
+    
 return
 False
   
@@ -1170,15 +1158,12 @@ True
 return
 True
     
-else
-:
-      
 self
 .
 _in_variable
 =
 False
-      
+    
 return
 False
   

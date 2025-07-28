@@ -1,6 +1,8 @@
 import
 fnmatch
 import
+hashlib
+import
 logging
 import
 posixpath
@@ -133,7 +135,7 @@ device_path
 return
 device_root
   
-elif
+if
 isinstance
 (
 device_path
@@ -160,9 +162,6 @@ device_path
 )
 )
   
-else
-:
-    
 return
 device_path
 class
@@ -191,8 +190,6 @@ total_shards
     
 super
 (
-InvalidShardingSettings
-self
 )
 .
 __init__
@@ -212,8 +209,8 @@ total_shards
 %
 d
 '
-            
 %
+        
 (
 shard_index
 total_shards
@@ -239,8 +236,6 @@ test_instance
     
 super
 (
-LocalDeviceTestRun
-self
 )
 .
 __init__
@@ -1556,6 +1551,15 @@ sharded_tests
 [
 ]
     
+tests
+=
+self
+.
+_SortTests
+(
+tests
+)
+    
 grouped_tests
 =
 self
@@ -1634,35 +1638,28 @@ return
 sharded_tests
   
 def
-_PartitionTests
+_SortTests
 (
 self
 tests
-num_desired_partitions
-max_partition_size
 )
 :
     
-partitions
-=
-[
-]
-    
-tests
-=
+return
 sorted
 (
-        
 tests
-        
+                  
 key
 =
 lambda
 t
 :
-hash
+hashlib
+.
+sha256
 (
-            
+                      
 self
 .
 _GetUniqueTestName
@@ -1679,9 +1676,33 @@ list
 )
 else
 t
+                                              
+)
+.
+encode
+(
 )
 )
+.
+hexdigest
+(
 )
+)
+  
+def
+_PartitionTests
+(
+self
+tests
+num_desired_partitions
+max_partition_size
+)
+:
+    
+partitions
+=
+[
+]
     
 def
 CountTestsIndividually

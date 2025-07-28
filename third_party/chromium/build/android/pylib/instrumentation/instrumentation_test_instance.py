@@ -279,12 +279,11 @@ class_name
     
 super
 (
-MissingSizeAnnotationError
-self
 )
 .
 __init__
 (
+        
 class_name
 +
         
@@ -329,24 +328,7 @@ TestException
 )
 :
   
-def
-__init__
-(
-self
-msg
-)
-:
-    
-super
-(
-CommandLineParameterizationException
-self
-)
-.
-__init__
-(
-msg
-)
+pass
 class
 TestListPickleException
 (
@@ -2467,7 +2449,7 @@ None
 return
 True
     
-elif
+if
 isinstance
 (
 av
@@ -2501,15 +2483,12 @@ filter_av
 =
 tav_from_dict
       
-else
-:
-        
 return
 filter_av
 in
 tav_from_dict
     
-elif
+if
 isinstance
 (
 av
@@ -2862,7 +2841,7 @@ open
 (
 pickle_path
 '
-r
+rb
 '
 )
 as
@@ -3392,8 +3371,6 @@ self
     
 super
 (
-MissingJUnit4RunnerException
-self
 )
 .
 __init__
@@ -3991,8 +3968,6 @@ error_func
     
 super
 (
-InstrumentationTestInstance
-self
 )
 .
 __init__
@@ -4232,9 +4207,9 @@ False
     
 self
 .
-_enable_java_deobfuscation
+_proguard_mapping_path
 =
-False
+None
     
 self
 .
@@ -5135,8 +5110,8 @@ logging
 .
 warning
 (
-(
-"
+          
+'
 Unable
 to
 find
@@ -5146,10 +5121,9 @@ for
 %
 s
 .
-"
-+
-                       
-"
+'
+          
+'
 (
 This
 may
@@ -5160,18 +5134,15 @@ the
 test
 package
 is
-"
-+
-                       
-"
+'
+          
+'
 currently
 being
 installed
 .
 )
-"
-)
-                       
+'
 self
 .
 _test_package
@@ -5702,11 +5673,11 @@ enable_breakpad_dump
     
 self
 .
-_enable_java_deobfuscation
+_proguard_mapping_path
 =
 args
 .
-enable_java_deobfuscation
+proguard_mapping_path
     
 self
 .
@@ -6557,7 +6528,7 @@ _runtime_deps_path
 if
 self
 .
-_enable_java_deobfuscation
+_proguard_mapping_path
 :
       
 self
@@ -6571,14 +6542,7 @@ DeobfuscatorPool
           
 self
 .
-test_apk
-.
-path
-+
-'
-.
-mapping
-'
+_proguard_mapping_path
 )
   
 def
@@ -7006,7 +6970,7 @@ value
 ]
 ]
       
-elif
+if
 clazz
 =
 =
@@ -7030,8 +6994,8 @@ value
 :
           
 for
-clazz
-methods
+c
+m
 in
 six
 .
@@ -7046,16 +7010,13 @@ list_of_switches
 =
 _annotationToSwitches
 (
-clazz
-methods
+c
+m
 )
         
 return
 list_of_switches
       
-else
-:
-        
 return
 [
 ]

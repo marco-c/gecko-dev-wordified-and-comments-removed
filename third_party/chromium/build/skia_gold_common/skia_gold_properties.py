@@ -329,7 +329,7 @@ _bypass_skia_gold_functionality
 staticmethod
   
 def
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 (
 )
 :
@@ -387,7 +387,7 @@ revision
 =
 self
 .
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 (
 )
       

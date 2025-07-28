@@ -1035,6 +1035,10 @@ test_modules
 [
             
 '
+create_unwind_table_tests
+'
+            
+'
 java_cpp_enum_tests
 '
             
@@ -1355,7 +1359,14 @@ CHROMIUM_OUTPUT_DIR
 '
 ]
 =
+os
+.
+path
+.
+abspath
+(
 output_directory
+)
 _MISSING_OUTPUT_DIR_MESSAGE
 =
 '

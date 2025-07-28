@@ -55,15 +55,12 @@ GetOutDirectory
 )
 )
   
-else
-:
-    
 return
 remote_output_manager
 .
 RemoteOutputManager
 (
-        
+      
 bucket
 =
 args

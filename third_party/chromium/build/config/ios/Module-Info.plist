@@ -119,13 +119,7 @@ key
 string
 >
 {
-IOS_BUNDLE_ID_PREFIX
-}
-.
-{
-MODULE_BUNDLE_ID
-:
-rfc1034identifier
+BUNDLE_IDENTIFIER
 }
 <
 /

@@ -137,15 +137,7 @@ key
 string
 >
 {
-IOS_BUNDLE_ID_PREFIX
-}
-.
-test
-.
-{
-EXECUTABLE_NAME
-:
-rfc1034identifier
+BUNDLE_IDENTIFIER
 }
 <
 /

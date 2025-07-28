@@ -635,8 +635,14 @@ chrome_200_percent
 .
 pak
 '
+        
 '
-headless_lib
+headless_lib_data
+.
+pak
+'
+'
+headless_lib_strings
 .
 pak
 '
@@ -1632,7 +1638,7 @@ open
 (
 histogram_path
 '
-w
+wb
 '
 )
 as

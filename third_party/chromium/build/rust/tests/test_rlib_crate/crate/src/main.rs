@@ -1,0 +1,14 @@
+pub
+fn
+main
+(
+)
+{
+test_rlib_crate
+:
+:
+say_hello_from_crate
+(
+)
+;
+}

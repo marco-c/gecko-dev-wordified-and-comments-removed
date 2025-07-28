@@ -30,8 +30,6 @@ _
     
 super
 (
-JunitTestInstance
-self
 )
 .
 __init__

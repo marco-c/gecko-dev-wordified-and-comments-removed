@@ -823,7 +823,7 @@ missing
 index
 )
   
-elif
+if
 len
 (
 matching_json_files

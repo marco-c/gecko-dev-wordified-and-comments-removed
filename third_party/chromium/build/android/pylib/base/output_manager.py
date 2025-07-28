@@ -14,9 +14,6 @@ import
 reraiser_thread
 class
 Datatype
-(
-object
-)
 :
   
 HTML
@@ -52,9 +49,6 @@ plain
 '
 class
 OutputManager
-(
-object
-)
 :
   
 def
@@ -495,9 +489,6 @@ TearDown
 )
 class
 ArchivedFile
-(
-object
-)
 :
   
 def
@@ -528,6 +519,30 @@ _datatype
 =
 datatype
     
+mode
+=
+'
+w
++
+'
+    
+if
+datatype
+=
+=
+Datatype
+.
+PNG
+:
+      
+mode
+=
+'
+w
++
+b
+'
+    
 self
 .
 _f
@@ -536,6 +551,9 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+mode
 delete
 =
 False
@@ -872,8 +890,6 @@ begun
 "
 "
 "
-    
-pass
   
 def
 Archive

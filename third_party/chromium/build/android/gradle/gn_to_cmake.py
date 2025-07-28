@@ -324,9 +324,6 @@ _
 return
 c
     
-else
-:
-      
 return
 '
 __
@@ -451,7 +448,6 @@ not
 values
 :
     
-return
 SetVariable
 (
 out
@@ -459,6 +455,8 @@ variable_name
 "
 "
 )
+    
+return
   
 if
 len
@@ -470,7 +468,6 @@ values
 1
 :
     
-return
 SetVariable
 (
 out
@@ -480,6 +477,8 @@ values
 0
 ]
 )
+    
+return
   
 out
 .
@@ -885,9 +884,6 @@ obj
 }
 class
 CMakeTargetType
-(
-object
-)
 :
   
 def
@@ -1311,9 +1307,6 @@ cmake_target_name
 )
 class
 Project
-(
-object
-)
 :
   
 def
@@ -1421,9 +1414,6 @@ path
 :
 ]
     
-else
-:
-      
 return
 path
   
@@ -1661,9 +1651,6 @@ object_dependencies
 )
 class
 Target
-(
-object
-)
 :
   
 def
@@ -5192,6 +5179,8 @@ json_file_name
 '
 )
     
+sys
+.
 exit
 (
 1

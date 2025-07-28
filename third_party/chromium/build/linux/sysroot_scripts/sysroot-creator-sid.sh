@@ -244,7 +244,7 @@ debian
 "
 ARCHIVE_TIMESTAMP
 =
-20210309T203820Z
+20210819T144544Z
 APT_SOURCES_LIST
 =
 "
@@ -459,6 +459,7 @@ libcap
 -
 ng0
 libcap2
+libcloudproviders0
 libcolord2
 libcom
 -
@@ -519,6 +520,9 @@ gtk3
 libdbusmenu
 -
 gtk4
+libdeflate
+-
+dev
 libdeflate0
 libdrm
 -
@@ -573,6 +577,7 @@ libffi
 dev
 libffi6
 libffi7
+libffi8
 libflac
 -
 dev
@@ -773,6 +778,9 @@ libinput
 -
 dev
 libinput10
+libjbig
+-
+dev
 libjbig0
 libjpeg62
 -
@@ -1088,7 +1096,11 @@ libthai
 -
 dev
 libthai0
+libtiff
+-
+dev
 libtiff5
+libtiffxx5
 libtinfo6
 libtirpc3
 libudev
@@ -1118,10 +1130,6 @@ x11
 libva2
 libvorbis0a
 libvorbisenc2
-libvpx
--
-dev
-libvpx6
 libvulkan
 -
 dev
@@ -1330,9 +1338,6 @@ shared
 mime
 -
 info
-speech
--
-dispatcher
 uuid
 -
 dev
@@ -1440,6 +1445,7 @@ libitm1
 libmpx2
 libquadmath0
 libubsan1
+valgrind
 "
 DEBIAN_PACKAGES_ARM
 =
@@ -1471,6 +1477,7 @@ libgtk
 -
 dev
 libubsan1
+valgrind
 "
 DEBIAN_PACKAGES_ARM64
 =
@@ -1501,6 +1508,7 @@ liblsan0
 libthai0
 libtsan0
 libubsan1
+valgrind
 "
 DEBIAN_PACKAGES_ARMEL
 =
@@ -1533,6 +1541,7 @@ libubsan1
 DEBIAN_PACKAGES_MIPS64EL
 =
 "
+valgrind
 "
 .
 "

@@ -1488,6 +1488,9 @@ histogram_result
 .
 stdout
 )
+  
+return
+0
 if
 __name__
 =

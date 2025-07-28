@@ -672,6 +672,17 @@ return
 '
 render
 '
+  
+raise
+ValueError
+(
+'
+got
+no
+matching
+thread_name
+'
+)
 def
 _GetSpecifiedTID
 (

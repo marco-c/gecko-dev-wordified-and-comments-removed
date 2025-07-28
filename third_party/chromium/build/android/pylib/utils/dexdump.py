@@ -223,6 +223,10 @@ GetCmdOutput
 DEXDUMP_PATH
 '
 -
+j
+'
+'
+-
 l
 '
 '

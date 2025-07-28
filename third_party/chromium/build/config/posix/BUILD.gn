@@ -197,6 +197,14 @@ sysroot
 =
 "
 "
+&
+&
+current_os
+!
+=
+"
+zos
+"
 )
 {
 #

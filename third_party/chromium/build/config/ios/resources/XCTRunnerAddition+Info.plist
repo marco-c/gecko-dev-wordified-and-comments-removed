@@ -84,14 +84,8 @@ key
 <
 string
 >
-com
-.
-apple
-.
-test
-.
 {
-EXECUTABLE_NAME
+BUNDLE_IDENTIFIER
 }
 <
 /

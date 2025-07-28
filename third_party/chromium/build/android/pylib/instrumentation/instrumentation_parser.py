@@ -67,9 +67,6 @@ Z_
 )
 class
 InstrumentationParser
-(
-object
-)
 :
   
 def

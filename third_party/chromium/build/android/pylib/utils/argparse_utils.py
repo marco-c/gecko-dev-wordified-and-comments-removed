@@ -150,8 +150,6 @@ None
     
 super
 (
-CustomHelpAction
-self
 )
 .
 __init__
@@ -159,19 +157,19 @@ __init__
 option_strings
 =
 option_strings
-                                           
+                     
 dest
 =
 dest
-                                           
+                     
 default
 =
 default
-                                           
+                     
 nargs
 =
 0
-                                           
+                     
 help
 =
 help

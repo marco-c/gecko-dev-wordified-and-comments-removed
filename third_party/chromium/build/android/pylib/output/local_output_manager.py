@@ -81,8 +81,6 @@ output_dir
     
 super
 (
-LocalOutputManager
-self
 )
 .
 __init__
@@ -188,13 +186,10 @@ out_root
     
 super
 (
-LocalArchivedFile
-self
 )
 .
 __init__
 (
-        
 out_filename
 out_subdir
 datatype

@@ -356,9 +356,6 @@ TestCase
   
 class
 FakeArchivedFile
-(
-object
-)
 :
     
 def
@@ -396,9 +393,6 @@ name
   
 class
 FakeOutputManager
-(
-object
-)
 :
     
 def

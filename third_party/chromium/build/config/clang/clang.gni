@@ -112,8 +112,12 @@ is_clang
 is_nacl
 &
 &
+current_os
 !
-use_xcode_clang
+=
+"
+zos
+"
 &
 &
 default_toolchain

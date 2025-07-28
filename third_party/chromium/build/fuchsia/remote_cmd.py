@@ -369,7 +369,7 @@ command
     
 logging
 .
-warning
+debug
 (
 ssh_command
 )
@@ -599,7 +599,7 @@ command
     
 logging
 .
-warning
+debug
 (
 ssh_command
 )

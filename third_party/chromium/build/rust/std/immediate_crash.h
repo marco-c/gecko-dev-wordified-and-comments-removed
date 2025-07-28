@@ -21,9 +21,9 @@ COMPILER_GCC
 )
 #
 if
-defined
+BUILDFLAG
 (
-OS_NACL
+IS_NACL
 )
 #
 define
@@ -64,9 +64,9 @@ int3
 )
 #
 if
-defined
+BUILDFLAG
 (
-OS_APPLE
+IS_APPLE
 )
 #
 define
@@ -306,6 +306,12 @@ if
 defined
 (
 COMPILER_GCC
+)
+|
+|
+defined
+(
+__clang__
 )
 #
 define

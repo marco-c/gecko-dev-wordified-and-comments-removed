@@ -39,9 +39,6 @@ _MAX_RESTARTS
 10
 class
 Deobfuscator
-(
-object
-)
 :
   
 def
@@ -751,9 +748,6 @@ Close
 )
 class
 DeobfuscatorPool
-(
-object
-)
 :
   
 def

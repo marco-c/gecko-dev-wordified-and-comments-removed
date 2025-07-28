@@ -31,8 +31,6 @@ _error_func
     
 super
 (
-LocalMachineEnvironment
-self
 )
 .
 __init__

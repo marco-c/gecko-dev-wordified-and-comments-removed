@@ -952,8 +952,6 @@ kwargs
     
 super
 (
-JavaDeobfuscateTest
-self
 )
 .
 __init__

@@ -79,6 +79,10 @@ ERRORPRONE_WARNINGS_TO_DISABLE
 [
     
 '
+InlineMeInliner
+'
+    
+'
 InvalidParam
 '
     
@@ -123,6 +127,10 @@ AlmostJavadoc
 '
     
 '
+ReturnValueIgnored
+'
+    
+'
 InlineMeSuggester
 '
     
@@ -164,6 +172,10 @@ MissingSuperCall
     
 '
 ToStringReturnsNull
+'
+    
+'
+MalformedInlineTag
 '
     
 '
@@ -396,6 +408,10 @@ RemoveUnusedImports
     
 '
 UnnecessaryParentheses
+'
+    
+'
+UnicodeEscape
 '
 ]
 ERRORPRONE_WARNINGS_TO_ENABLE
@@ -818,6 +834,28 @@ s
 l
 )
       
+l
+=
+re
+.
+sub
+(
+'
+(
+?
+:
+"
+.
+*
+?
+"
+)
+'
+'
+'
+l
+)
+      
 m
 =
 re
@@ -938,9 +976,6 @@ package_name
 class_names
 class
 _InfoFileContext
-(
-object
-)
 :
   
 "
@@ -1432,19 +1467,11 @@ fully_qualified_name
 =
 java_file
     
-self
-.
-_pool
-.
-terminate
-(
-)
-    
 return
 ret
   
 def
-__del__
+Close
 (
 self
 )
@@ -2241,6 +2268,10 @@ makedirs
 temp_dir
 )
   
+info_file_context
+=
+None
+  
 try
 :
     
@@ -2293,7 +2324,6 @@ all_changed_paths_are_java
 all
 (
             
-[
 p
 .
 endswith
@@ -2311,7 +2341,6 @@ changes
 IterChangedPaths
 (
 )
-]
 )
         
 if
@@ -2840,6 +2869,16 @@ _RunCompiler
 finally
 :
     
+if
+info_file_context
+:
+      
+info_file_context
+.
+Close
+(
+)
+    
 shutil
 .
 rmtree
@@ -2916,6 +2955,38 @@ help
 '
 Avoid
 using
+the
+build
+server
+.
+'
+)
+  
+parser
+.
+add_option
+(
+'
+-
+-
+use
+-
+build
+-
+server
+'
+                    
+action
+=
+'
+store_true
+'
+                    
+help
+=
+'
+Always
+use
 the
 build
 server
@@ -3864,6 +3935,12 @@ stamp_file
 options
 .
 jar_path
+                                       
+force
+=
+options
+.
+use_build_server
 )
 )
 :

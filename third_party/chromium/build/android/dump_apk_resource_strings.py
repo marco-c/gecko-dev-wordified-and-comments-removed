@@ -1049,9 +1049,6 @@ return
 result
 class
 ResourceStringValues
-(
-object
-)
 :
   
 "
@@ -1471,9 +1468,6 @@ return
 result
 class
 ResourceStringMap
-(
-object
-)
 :
   
 "
@@ -3481,7 +3475,8 @@ None
   
 current_resource_id
 =
-None
+-
+1
   
 current_resource_name
 =

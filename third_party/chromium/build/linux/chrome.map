@@ -79,6 +79,8 @@ export
 these
 symbols
 .
+aligned_alloc
+;
 calloc
 ;
 cfree

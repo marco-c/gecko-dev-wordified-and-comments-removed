@@ -60,27 +60,6 @@ LocalDeviceTestRun
 :
   
 def
-__init__
-(
-self
-env
-test_instance
-)
-:
-    
-super
-(
-LocalDeviceMonkeyTestRun
-self
-)
-.
-__init__
-(
-env
-test_instance
-)
-  
-def
 TestPackage
 (
 self

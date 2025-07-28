@@ -113,6 +113,8 @@ atspi_version
 exec_script
 (
 pkg_config_script
+common_pkg_config_args
++
 pkg_config_args
 +
 [

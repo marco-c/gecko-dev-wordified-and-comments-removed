@@ -404,20 +404,6 @@ args
 .
 unstripped_file
     
-with
-open
-(
-os
-.
-devnull
-"
-w
-"
-)
-as
-devnull
-:
-      
 dwp_proc
 =
 subprocess
@@ -428,7 +414,7 @@ wrapper_utils
 .
 CommandToRun
 (
-          
+        
 [
 args
 .
@@ -450,16 +436,12 @@ dwp
 '
 ]
 )
-                                  
-stdout
-=
-devnull
-                                  
+                                
 stderr
 =
 subprocess
 .
-STDOUT
+DEVNULL
 )
   
 if

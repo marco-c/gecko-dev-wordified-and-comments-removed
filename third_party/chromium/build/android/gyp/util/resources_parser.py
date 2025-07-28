@@ -79,9 +79,6 @@ resource_name
 )
 class
 RTxtGenerator
-(
-object
-)
 :
   
 def
@@ -491,15 +488,17 @@ return
 ret
   
 def
-_ExtractNewIdsFromXml
+_ParseXml
 (
 self
 xml_path
 )
 :
     
-root
-=
+try
+:
+      
+return
 ElementTree
 .
 parse
@@ -511,12 +510,52 @@ getroot
 (
 )
     
+except
+Exception
+as
+e
+:
+      
+raise
+RuntimeError
+(
+'
+Failure
+parsing
+{
+}
+:
+\
+n
+'
+.
+format
+(
+xml_path
+)
+)
+from
+e
+  
+def
+_ExtractNewIdsFromXml
+(
+self
+xml_path
+)
+:
+    
 return
 self
 .
 _ExtractNewIdsFromNode
 (
-root
+self
+.
+_ParseXml
+(
+xml_path
+)
 )
   
 def
@@ -535,15 +574,11 @@ set
     
 root
 =
-ElementTree
+self
 .
-parse
+_ParseXml
 (
 xml_path
-)
-.
-getroot
-(
 )
     
 assert

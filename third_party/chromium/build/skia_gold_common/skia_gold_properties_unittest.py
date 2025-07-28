@@ -1039,7 +1039,7 @@ skia_gold_properties
 SkiaGoldProperties
                            
 '
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 '
 )
 as
@@ -1157,7 +1157,7 @@ skia_gold_properties
 SkiaGoldProperties
                            
 '
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 '
 )
 as
@@ -1223,7 +1223,7 @@ skia_gold_properties
 SkiaGoldProperties
                            
 '
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 '
 )
 as

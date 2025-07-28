@@ -7,6 +7,8 @@ base64
 import
 json
 import
+logging
+import
 os
 import
 six
@@ -343,6 +345,10 @@ None
 failure_reason
 =
 None
+           
+html_artifact
+=
+None
 )
 :
     
@@ -481,6 +487,49 @@ did
 not
 fail
 .
+      
+html_artifact
+:
+An
+optional
+html
+-
+formatted
+string
+to
+prepend
+to
+the
+test
+'
+s
+          
+log
+.
+Useful
+to
+encode
+click
+-
+able
+URL
+links
+in
+the
+test
+log
+since
+that
+          
+won
+'
+t
+be
+formatted
+in
+the
+test_log
+.
     
 Returns
 :
@@ -610,6 +659,20 @@ or
 {
 }
     
+tr
+[
+'
+summaryHtml
+'
+]
+=
+html_artifact
+if
+html_artifact
+else
+'
+'
+    
 if
 test_log
 :
@@ -659,6 +722,7 @@ tr
 summaryHtml
 '
 ]
++
 =
 '
 <
@@ -1072,6 +1136,9 @@ to
 "
 "
   
+try
+:
+    
 encoded
 =
 s
@@ -1084,6 +1151,14 @@ utf
 8
 '
 )
+  
+except
+UnicodeDecodeError
+:
+    
+encoded
+=
+s
   
 if
 len

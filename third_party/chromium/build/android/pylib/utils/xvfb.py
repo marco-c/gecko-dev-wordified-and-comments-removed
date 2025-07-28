@@ -43,9 +43,6 @@ linux
 )
 class
 Xvfb
-(
-object
-)
 :
   
 "

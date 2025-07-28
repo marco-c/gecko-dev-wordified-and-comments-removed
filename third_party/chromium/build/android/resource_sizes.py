@@ -110,6 +110,28 @@ aapt
 '
 )
 )
+_ANDROID_UTILS_PATH
+=
+os
+.
+path
+.
+join
+(
+host_paths
+.
+DIR_SOURCE_ROOT
+'
+build
+'
+                                   
+'
+android
+'
+'
+gyp
+'
+)
 _BUILD_UTILS_PATH
 =
 os
@@ -118,7 +140,6 @@ path
 .
 join
 (
-    
 host_paths
 .
 DIR_SOURCE_ROOT
@@ -126,35 +147,44 @@ DIR_SOURCE_ROOT
 build
 '
 '
-android
-'
-'
-gyp
+util
 '
 )
-with
-host_paths
-.
-SysPath
-(
+_READOBJ_PATH
+=
 os
 .
 path
 .
 join
 (
-host_paths
+constants
 .
-DIR_SOURCE_ROOT
+ANDROID_NDK_ROOT
 '
-build
+toolchains
+'
+'
+llvm
+'
+                             
+'
+prebuilt
+'
+'
+linux
+-
+x86_64
+'
+'
+bin
+'
+'
+llvm
+-
+readobj
 '
 )
-)
-:
-  
-import
-gn_helpers
 with
 host_paths
 .
@@ -190,7 +220,7 @@ host_paths
 .
 SysPath
 (
-_BUILD_UTILS_PATH
+_ANDROID_UTILS_PATH
 0
 )
 :
@@ -204,6 +234,29 @@ from
 util
 import
 zipalign
+with
+host_paths
+.
+SysPath
+(
+_BUILD_UTILS_PATH
+0
+)
+:
+  
+from
+lib
+.
+results
+import
+result_sink
+  
+from
+lib
+.
+results
+import
+result_types
 zipalign
 .
 ApplyZipFileZipAlignFix
@@ -662,9 +715,6 @@ gcc_except_table
 }
 class
 _AccumulatingReporter
-(
-object
-)
 :
   
 def
@@ -763,8 +813,6 @@ chartjson
     
 super
 (
-_ChartJsonReporter
-self
 )
 .
 __init__
@@ -797,8 +845,6 @@ units
     
 super
 (
-_ChartJsonReporter
-self
 )
 .
 __call__
@@ -806,7 +852,6 @@ __call__
 graph_title
 trace_title
 value
-                                             
 units
 )
     
@@ -1221,14 +1266,10 @@ start_of_central_directory
 -
 end_of_last_file
 def
-_RunReadelf
+_RunReadobj
 (
 so_path
 options
-tool_prefix
-=
-'
-'
 )
 :
   
@@ -1237,15 +1278,22 @@ cmd_helper
 .
 GetCmdOutput
 (
-      
 [
-tool_prefix
-+
+_READOBJ_PATH
 '
-readelf
+-
+-
+elf
+-
+output
+-
+style
+=
+GNU
 '
 ]
 +
+                                 
 options
 +
 [
@@ -1257,7 +1305,6 @@ _ExtractLibSectionSizesFromApk
 (
 apk_path
 lib_path
-tool_prefix
 )
 :
   
@@ -1289,7 +1336,6 @@ _CreateSectionNameSizeMap
 (
         
 extracted_lib_path
-tool_prefix
 )
     
 for
@@ -1392,13 +1438,12 @@ def
 _CreateSectionNameSizeMap
 (
 so_path
-tool_prefix
 )
 :
   
 stdout
 =
-_RunReadelf
+_RunReadobj
 (
 so_path
 [
@@ -1412,7 +1457,6 @@ S
 wide
 '
 ]
-tool_prefix
 )
   
 section_sizes
@@ -2154,9 +2198,6 @@ return
 output
 class
 _FileGroup
-(
-object
-)
 :
   
 "
@@ -2441,8 +2482,6 @@ report_func
 dex_stats_collector
                      
 out_dir
-                     
-tool_prefix
                      
 apks_path
 =
@@ -2817,6 +2856,14 @@ Library
 in
 orig_filename
   
+is_trichrome
+=
+'
+TrichromeChrome
+'
+in
+orig_filename
+  
 is_shared_apk
 =
 sdk_version
@@ -2831,6 +2878,8 @@ is_webview
                                          
 or
 is_library
+or
+is_trichrome
 )
   
 if
@@ -2962,6 +3011,15 @@ should_extract_lib
 elif
 filename
 .
+startswith
+(
+'
+classes
+'
+)
+and
+filename
+.
 endswith
 (
 '
@@ -2971,6 +3029,36 @@ dex
 )
 :
       
+compressed
+=
+member
+.
+compress_type
+!
+=
+zipfile
+.
+ZIP_STORED
+      
+multiplier
+=
+dex_multiplier
+      
+if
+not
+compressed
+and
+sdk_version
+>
+=
+28
+:
+        
+multiplier
+-
+=
+1
+      
 java_code
 .
 AddZipInfo
@@ -2978,7 +3066,7 @@ AddZipInfo
 member
 extracted_multiplier
 =
-dex_multiplier
+multiplier
 )
     
 elif
@@ -3496,9 +3584,33 @@ if
 group
 is
 java_code
-and
-is_shared_apk
 :
+      
+multiplier
+=
+speed_profile_dex_multiplier
+      
+compressed
+=
+uncompressed_size
+!
+=
+actual_size
+      
+if
+not
+compressed
+and
+sdk_version
+>
+=
+28
+:
+        
+multiplier
+-
+=
+1
       
 extracted_size
 =
@@ -3506,7 +3618,7 @@ int
 (
 uncompressed_size
 *
-speed_profile_dex_multiplier
+multiplier
 )
       
 total_install_size_android_go
@@ -3606,10 +3718,6 @@ bytes
 '
 )
   
-if
-is_shared_apk
-:
-    
 report_func
 (
 '
@@ -3624,7 +3732,7 @@ Android
 Go
 )
 '
-                
+              
 int
 (
 total_install_size_android_go
@@ -3754,8 +3862,6 @@ apk_path
 lib_info
 .
 filename
-                                                   
-tool_prefix
 )
     
 native_code_unaligned_size
@@ -4366,7 +4472,7 @@ unzipped_files
 0
 ]
 def
-_ConfigOutDirAndToolsPrefix
+_ConfigOutDir
 (
 out_dir
 )
@@ -4407,40 +4513,10 @@ except
 Exception
 :
       
-return
-out_dir
-'
-'
-  
-build_vars
-=
-gn_helpers
-.
-ReadBuildVars
-(
-out_dir
-)
-  
-tool_prefix
-=
-os
-.
-path
-.
-join
-(
-out_dir
-build_vars
-[
-'
-android_tool_prefix
-'
-]
-)
+pass
   
 return
 out_dir
-tool_prefix
 def
 _IterSplits
 (
@@ -4572,7 +4648,7 @@ _AnalyzeApkOrApks
 (
 report_func
 apk_path
-args
+out_dir
 )
 :
   
@@ -4582,16 +4658,6 @@ method_count
 .
 DexStatsCollector
 (
-)
-  
-out_dir
-tool_prefix
-=
-_ConfigOutDirAndToolsPrefix
-(
-args
-.
-out_dir
 )
   
 if
@@ -4623,7 +4689,6 @@ report_func
 dex_stats_collector
                      
 out_dir
-tool_prefix
 )
   
 elif
@@ -4804,8 +4869,6 @@ inner_report_func
 inner_dex_stats_collector
                                   
 out_dir
-                                  
-tool_prefix
                                   
 apks_path
 =
@@ -5086,7 +5149,10 @@ _AnalyzeApkOrApks
 (
 reporter
 path
+                                                    
 args
+.
+out_dir
 )
       
 dex_stats_collector
@@ -5130,6 +5196,8 @@ args
 .
 input
 args
+.
+out_dir
 )
   
 if
@@ -5341,7 +5409,7 @@ open
 (
 histogram_path
 '
-w
+wb
 '
 )
 as
@@ -5903,6 +5971,17 @@ parse_args
 (
 )
   
+args
+.
+out_dir
+=
+_ConfigOutDir
+(
+args
+.
+out_dir
+)
+  
 devil_chromium
 .
 Initialize
@@ -5927,6 +6006,14 @@ output_format
 '
 chartjson
 '
+  
+result_sink_client
+=
+result_sink
+.
+TryInitClient
+(
+)
   
 isolated_script_output
 =
@@ -6112,6 +6199,58 @@ dump
 (
 isolated_script_output
 output_file
+)
+    
+if
+result_sink_client
+:
+      
+status
+=
+result_types
+.
+PASS
+      
+if
+not
+isolated_script_output
+[
+'
+valid
+'
+]
+:
+        
+status
+=
+result_types
+.
+UNKNOWN
+      
+elif
+isolated_script_output
+[
+'
+failures
+'
+]
+:
+        
+status
+=
+result_types
+.
+FAIL
+      
+result_sink_client
+.
+Post
+(
+test_name
+status
+None
+None
+None
 )
 if
 __name__

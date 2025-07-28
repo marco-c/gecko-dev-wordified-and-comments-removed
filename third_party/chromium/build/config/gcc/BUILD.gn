@@ -620,6 +620,10 @@ if
 is_android
 &
 &
+!
+is_chromecast
+&
+&
 current_os
 !
 =
