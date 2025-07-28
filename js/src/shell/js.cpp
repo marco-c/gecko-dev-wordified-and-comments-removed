@@ -80319,6 +80319,10 @@ enableWasm
 =
 false
 ;
+enableAsmJS
+=
+false
+;
 }
 else
 if
