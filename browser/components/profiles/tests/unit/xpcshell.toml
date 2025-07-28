@@ -72,6 +72,13 @@ js
 ]
 [
 "
+test_create_profile
+.
+js
+"
+]
+[
+"
 test_delete_last_profile
 .
 js
