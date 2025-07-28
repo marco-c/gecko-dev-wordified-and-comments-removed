@@ -1,3 +1,10 @@
+unsetgczeal
+(
+"
+CheckHeapBeforeMinorGC
+"
+)
+;
 let
 state
 =

@@ -3331,12 +3331,6 @@ forceDiscardJitCode
 gcx
 )
 ;
-bufferAllocator
-.
-prepareForMovingGC
-(
-)
-;
 }
 void
 Zone
@@ -3358,12 +3352,6 @@ shapeZone
 )
 .
 fixupPropMapShapeTableAfterMovingGC
-(
-)
-;
-bufferAllocator
-.
-fixupAfterMovingGC
 (
 )
 ;
