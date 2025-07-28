@@ -2688,6 +2688,12 @@ jstests
 :
 [
 ]
+"
+gdb
+"
+:
+[
+]
 }
 extra_args
 .
@@ -3886,16 +3892,24 @@ use_minidump
 :
     
 for
-extra
+suite
 in
-extra_args
-.
-values
 (
+"
+jstests
+"
+"
+jit
+-
+test
+"
 )
 :
         
-extra
+extra_args
+[
+suite
+]
 .
 append
 (
@@ -3914,16 +3928,24 @@ injector_lib
 "
 )
 for
-extra
+suite
 in
-extra_args
-.
-values
 (
+"
+jstests
+"
+"
+jit
+-
+test
+"
 )
 :
     
-extra
+extra_args
+[
+suite
+]
 .
 append
 (
@@ -4270,25 +4292,6 @@ else
 [
 ]
     
-extra_args
-=
-env
-.
-get
-(
-"
-GDBTEST_EXTRA_ARGS
-"
-"
-"
-)
-.
-split
-(
-"
-"
-)
-    
 results
 .
 append
@@ -4302,6 +4305,7 @@ gdb
             
 run_test_command
 (
+                
 [
 PYTHON
 test_script
@@ -4309,8 +4313,14 @@ test_script
 auto_args
 *
 extra_args
+[
+"
+gdb
+"
+]
 OBJDIR
 ]
+            
 )
         
 )

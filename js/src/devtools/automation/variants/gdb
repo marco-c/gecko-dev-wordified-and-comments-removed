@@ -72,14 +72,17 @@ gdb
 ]
 }
 "
-env
+extra
+-
+args
 "
 :
 {
 "
-GDBTEST_EXTRA_ARGS
+gdb
 "
 :
+[
 "
 -
 -
@@ -87,6 +90,7 @@ exclude
 =
 unwind
 "
+]
 }
 "
 use_minidump
