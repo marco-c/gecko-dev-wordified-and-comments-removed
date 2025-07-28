@@ -28,10 +28,6 @@ the
 LICENSE
 file
 .
-assert
-(
-is_fuchsia
-)
 import
 (
 "
@@ -131,6 +127,10 @@ generate_wrapper
 .
 gni
 "
+)
+assert
+(
+is_fuchsia
 )
 declare_args
 (

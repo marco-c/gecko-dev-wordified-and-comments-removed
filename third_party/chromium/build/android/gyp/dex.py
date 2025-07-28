@@ -1181,6 +1181,8 @@ r
 ?
 =
 Warning
+|
+Error
 )
 '
 output

@@ -110,6 +110,13 @@ assert
 (
 !
 is_posix
+"
+Fuchsia
+is
+not
+POSIX
+.
+"
 )
 config
 (

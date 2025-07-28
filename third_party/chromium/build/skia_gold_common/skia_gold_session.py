@@ -728,6 +728,12 @@ bool
 =
 True
                     
+disable_auth
+:
+bool
+=
+False
+                    
 service_account
 :
 Optional
@@ -942,6 +948,29 @@ local
 runs
 .
       
+disable_auth
+:
+If
+true
+goldctl
+will
+be
+explicitly
+told
+not
+to
+try
+to
+          
+authenticate
+instead
+of
+using
+LUCI
+or
+gsutil
+.
+      
 service_account
 :
 If
@@ -1096,6 +1125,10 @@ Authenticate
 use_luci
 =
 use_luci
+                                             
+disable_auth
+=
+disable_auth
                                              
 service_account
 =
@@ -1284,6 +1317,12 @@ bool
 =
 True
                    
+disable_auth
+:
+bool
+=
+False
+                   
 service_account
 :
 Optional
@@ -1350,6 +1389,29 @@ supported
 for
 local
 runs
+.
+      
+disable_auth
+:
+If
+true
+goldctl
+will
+be
+explicitly
+told
+not
+to
+try
+to
+          
+authenticate
+instead
+of
+using
+LUCI
+or
+gsutil
 .
       
 service_account
@@ -1495,6 +1557,23 @@ _working_dir
 ]
     
 if
+disable_auth
+:
+      
+auth_cmd
+.
+append
+(
+'
+-
+-
+no
+-
+auth
+'
+)
+    
+elif
 use_luci
 :
       

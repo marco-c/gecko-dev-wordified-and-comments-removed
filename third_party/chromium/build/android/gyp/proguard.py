@@ -2215,9 +2215,6 @@ none
 '
 ]
     
-else
-:
-      
 cmd
 +
 =
@@ -2236,7 +2233,7 @@ info
 warning
 '
 ]
-      
+    
 cmd
 +
 =

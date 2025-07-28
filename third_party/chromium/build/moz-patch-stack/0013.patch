@@ -784,10 +784,10 @@ visual_studio_version
 .
 gni
 index
-2314ab505
+1da479dd5
 .
 .
-417aef1b3
+8bb39c987
 100644
 -
 -
@@ -814,10 +814,10 @@ visual_studio_version
 .
 gni
 -
-36
+40
 5
 +
-36
+40
 5
 if
 (
@@ -833,7 +833,7 @@ You
 must
 set
 the
-visual_studio_version
+windows_sdk_version
 if
 you
 set

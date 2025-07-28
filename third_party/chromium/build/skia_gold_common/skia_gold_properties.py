@@ -150,6 +150,12 @@ None
     
 self
 .
+_disable_auth
+=
+None
+    
+self
+.
 _service_account
 =
 None
@@ -350,6 +356,23 @@ return
 self
 .
 _no_luci_auth
+  
+property
+  
+def
+disable_auth
+(
+self
+)
+-
+>
+bool
+:
+    
+return
+self
+.
+_disable_auth
   
 property
   
@@ -890,6 +913,36 @@ _no_luci_auth
 args
 .
 no_luci_auth
+    
+if
+hasattr
+(
+args
+'
+disable_auth
+'
+)
+:
+      
+self
+.
+_disable_auth
+=
+args
+.
+disable_auth
+      
+if
+self
+.
+_disable_auth
+:
+        
+self
+.
+_no_luci_auth
+=
+True
     
 if
 hasattr

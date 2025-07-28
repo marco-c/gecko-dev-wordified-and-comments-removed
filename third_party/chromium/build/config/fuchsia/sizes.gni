@@ -28,6 +28,10 @@ the
 LICENSE
 file
 .
+assert
+(
+is_fuchsia
+)
 import
 (
 "

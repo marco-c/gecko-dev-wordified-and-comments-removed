@@ -44,6 +44,10 @@ devtools
 gni
 "
 )
+assert
+(
+is_fuchsia
+)
 #
 List
 of

@@ -3838,12 +3838,20 @@ s
 device_trace_dir
           
 '
-su
+sudo
+-
+E
+-
+u
 chronos
 -
+-
+/
+bin
+/
+bash
+-
 c
--
--
 "
 mkdir
 -
@@ -3918,13 +3926,23 @@ ui
       
 test_invocation
 =
+(
+          
 '
-su
+sudo
+-
+E
+-
+u
 chronos
 -
+-
+/
+bin
+/
+bash
+-
 c
--
--
 "
 %
 s
@@ -3932,6 +3950,7 @@ s
 '
 %
 test_invocation
+)
       
 device_test_script_contents
 .
