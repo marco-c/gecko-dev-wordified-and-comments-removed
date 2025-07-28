@@ -1593,17 +1593,6 @@ SearchStarted
 (
 )
 )
-context
-.
-store
-.
-dispatch
-(
-ToggleEditMode
-(
-true
-)
-)
 }
 is
 PasteFromClipboardClicked
