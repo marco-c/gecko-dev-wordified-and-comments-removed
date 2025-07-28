@@ -2070,6 +2070,17 @@ set
 true
 )
 ;
+Glean
+.
+newtab
+.
+addonXpiUsed
+.
+set
+(
+isXPI
+)
+;
 this
 .
 logger
