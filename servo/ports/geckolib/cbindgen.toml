@@ -788,6 +788,9 @@ LengthPercentage
 LetterSpacing
 "
 "
+LikelyBaseUriDependency
+"
+"
 NonNegativeLengthPercentage
 "
 "

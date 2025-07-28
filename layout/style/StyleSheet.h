@@ -187,6 +187,12 @@ StyleRuleChangeKind
 :
 uint32_t
 ;
+enum
+class
+StyleLikelyBaseUriDependency
+:
+uint8_t
+;
 struct
 StyleRuleChange
 {
@@ -579,6 +585,12 @@ dom
 :
 Document
 *
+)
+const
+;
+StyleLikelyBaseUriDependency
+OriginalContentsBaseUriDependency
+(
 )
 const
 ;

@@ -1818,6 +1818,9 @@ nsAString
 &
 nsIPrincipal
 *
+nsIURI
+*
+aBaseURI
 )
 ;
 void

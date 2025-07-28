@@ -146,6 +146,10 @@ pub
 enum
 CustomUseCounter
 {
+MaybeHasPathBaseUriDependency
+=
+0
+MaybeHasFullBaseUriDependency
 Last
 }
 impl
