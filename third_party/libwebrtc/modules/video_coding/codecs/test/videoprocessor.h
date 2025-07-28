@@ -1025,9 +1025,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

@@ -800,9 +800,6 @@ height
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1814,9 +1811,6 @@ maxFramerate
 }
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2004,9 +1998,6 @@ reference_height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2228,9 +2219,6 @@ codec_settings
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3468,9 +3456,6 @@ codec_settings
 .
 height
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3866,9 +3851,6 @@ analyze_frame_quality_
 decoded_frame_writers_
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -292,9 +292,6 @@ times_nacked
 -
 1
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 video_payload
 ;

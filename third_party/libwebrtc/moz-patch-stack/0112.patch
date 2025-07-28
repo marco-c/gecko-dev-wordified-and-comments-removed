@@ -420,10 +420,10 @@ pipewire_session
 .
 cc
 index
-a5c568240b
+990bfde912
 .
 .
-6e7e407358
+25c4dfae4e
 100644
 -
 -
@@ -1062,10 +1062,10 @@ pipewire_session
 .
 h
 index
-5420a7f150
+aec268e008
 .
 .
-aed3fbb1bf
+7dbba23691
 100644
 -
 -
@@ -1127,7 +1127,7 @@ class
 PipeWireSession
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual
@@ -1323,7 +1323,7 @@ class
 PipeWireSession
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual
@@ -1369,7 +1369,7 @@ class
 PipeWireSession
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual

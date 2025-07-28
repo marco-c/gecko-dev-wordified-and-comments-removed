@@ -332,7 +332,7 @@ return
 S_OK
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -620,7 +620,7 @@ AM_SAMPLE2_PROPERTIES
 props
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1006,7 +1006,7 @@ Compression
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -3831,7 +3831,7 @@ GetCurrentThreadId
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SetCurrentThreadName
@@ -4415,7 +4415,7 @@ info_
 pGraph
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

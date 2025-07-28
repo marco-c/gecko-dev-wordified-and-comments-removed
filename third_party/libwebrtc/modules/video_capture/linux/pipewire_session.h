@@ -392,7 +392,7 @@ class
 PipeWireSession
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual

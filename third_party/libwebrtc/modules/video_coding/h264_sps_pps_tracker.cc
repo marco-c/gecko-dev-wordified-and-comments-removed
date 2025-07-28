@@ -175,9 +175,6 @@ H264SpsPpsTracker
 :
 CopyAndFixBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1282,9 +1279,6 @@ SpsParser
 :
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1317,9 +1311,6 @@ PpsParser
 :
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -3211,9 +3211,6 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -3256,9 +3253,6 @@ Type
 kNV12
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -3349,9 +3343,6 @@ kI420A
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

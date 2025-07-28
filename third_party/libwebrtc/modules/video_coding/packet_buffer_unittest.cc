@@ -252,9 +252,6 @@ uint16_t
 >
 StartSeqNums
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -742,9 +739,6 @@ IsFirst
 first
 IsLast
 last
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2708,9 +2702,6 @@ IsLast
 last
 uint32_t
 timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2968,9 +2959,6 @@ IsLast
 last
 uint32_t
 timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3424,9 +3412,6 @@ Rand
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 =

@@ -1401,9 +1401,6 @@ temporal_id
 auto
 all_frames
 =
-rtc
-:
-:
 MakeArrayView
 (
 frames

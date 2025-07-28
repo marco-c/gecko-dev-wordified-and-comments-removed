@@ -1009,9 +1009,6 @@ frame_info
 =
 ParseUncompressedVp9Header
 (
-rtc
-:
-:
 MakeArrayView
 (
 input_image
@@ -1310,9 +1307,6 @@ return
 WEBRTC_VIDEO_CODEC_NO_OUTPUT
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBufferPool
@@ -1338,9 +1332,6 @@ fb_priv
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

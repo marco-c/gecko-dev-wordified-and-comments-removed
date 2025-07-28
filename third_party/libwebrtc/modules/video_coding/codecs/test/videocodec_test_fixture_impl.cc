@@ -801,9 +801,6 @@ encoder_info
 auto
 stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory
@@ -3264,9 +3261,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 -
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )
@@ -3295,9 +3289,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 +
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )
@@ -4188,9 +4179,6 @@ ImprovementDirection
 improvement_direction
 )
 {
-rtc
-:
-:
 StringBuilder
 metric_name
 (

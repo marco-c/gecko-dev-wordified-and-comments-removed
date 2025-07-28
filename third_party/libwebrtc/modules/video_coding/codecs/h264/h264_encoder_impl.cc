@@ -2429,7 +2429,7 @@ return
 WEBRTC_VIDEO_CODEC_UNINITIALIZED
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -87,9 +87,6 @@ is_keyframe
 int64_t
 frame_id
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -134,9 +131,6 @@ int64_t
 frame_id
 bool
 discardable
-rtc
-:
-:
 ArrayView
 <
 const
@@ -155,9 +149,6 @@ DiscardOldInformation
 bool
 AllDependenciesDecodable
 (
-rtc
-:
-:
 ArrayView
 <
 const

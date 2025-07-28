@@ -6424,9 +6424,6 @@ encoded_frame
 codec_specific_info
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 test
@@ -6449,9 +6446,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

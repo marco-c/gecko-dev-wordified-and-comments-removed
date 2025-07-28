@@ -378,9 +378,6 @@ ScalabilityStructureWrapper
 :
 FrameReferencesAreValid
 (
-rtc
-:
-:
 ArrayView
 <
 const

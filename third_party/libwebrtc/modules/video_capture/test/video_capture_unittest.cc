@@ -732,7 +732,7 @@ incoming_frames_
 int
 timing_warnings_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -818,7 +818,7 @@ number_of_devices_
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -872,7 +872,7 @@ unique_name
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1062,7 +1062,7 @@ TimeMillis
 TestVideoCaptureCallback
 capture_observer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1296,7 +1296,7 @@ MAYBE_Capabilities
 TestVideoCaptureCallback
 capture_observer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1662,7 +1662,7 @@ return
 TestVideoCaptureCallback
 capture_observer1
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1756,7 +1756,7 @@ capability1
 TestVideoCaptureCallback
 capture_observer2
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2014,7 +2014,7 @@ MAYBE_ConcurrentAccess
 TestVideoCaptureCallback
 capture_observer1
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2071,7 +2071,7 @@ capability
 TestVideoCaptureCallback
 capture_observer2
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

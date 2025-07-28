@@ -256,9 +256,6 @@ SetSpatialIndex
 spatial_layers_count
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

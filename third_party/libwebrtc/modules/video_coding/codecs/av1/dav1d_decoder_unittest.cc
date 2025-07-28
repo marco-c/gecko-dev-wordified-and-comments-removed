@@ -217,9 +217,6 @@ kAv1FrameWith36x20EncodededAnd32x16RenderResolution
 EncodedImage
 CreateEncodedImage
 (
-rtc
-:
-:
 ArrayView
 <
 const

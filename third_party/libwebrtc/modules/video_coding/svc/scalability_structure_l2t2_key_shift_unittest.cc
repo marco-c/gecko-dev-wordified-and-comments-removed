@@ -1308,9 +1308,6 @@ wrapper
 .
 FrameReferencesAreValid
 (
-rtc
-:
-:
 MakeArrayView
 (
 frames

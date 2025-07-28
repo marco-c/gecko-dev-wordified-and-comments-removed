@@ -455,7 +455,7 @@ capture_thread_id_
 =
 0
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -468,7 +468,7 @@ RTC_GUARDED_BY
 main_checker_
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -735,7 +735,7 @@ SequenceChecker
 main_checker_
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

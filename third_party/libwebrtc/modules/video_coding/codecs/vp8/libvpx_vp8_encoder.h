@@ -536,9 +536,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -546,9 +543,6 @@ VideoFrameBuffer
 >
 PrepareBuffers
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

@@ -135,9 +135,6 @@ start_code
 1
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const

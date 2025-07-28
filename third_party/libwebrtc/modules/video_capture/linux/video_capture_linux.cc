@@ -224,9 +224,6 @@ webrtc
 namespace
 videocapturemodule
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule
@@ -245,9 +242,6 @@ deviceUniqueId
 auto
 implementation
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoCaptureModuleV4L2
@@ -275,9 +269,6 @@ return
 implementation
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule
@@ -315,7 +306,7 @@ allow_pipewire
 auto
 implementation
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -358,9 +349,6 @@ allow_v4l2
 auto
 implementation
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoCaptureModuleV4L2

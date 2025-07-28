@@ -47,7 +47,7 @@ Create
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -78,7 +78,7 @@ nullptr
 auto
 capture
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

@@ -519,7 +519,7 @@ return
 ret
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -528,7 +528,7 @@ PlanarYuvBuffer
 >
 frame_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -537,7 +537,7 @@ I444Buffer
 >
 i444_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -546,7 +546,7 @@ I420Buffer
 >
 i420_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -555,7 +555,7 @@ I422Buffer
 >
 i422_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -564,7 +564,7 @@ I010Buffer
 >
 i010_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -573,7 +573,7 @@ I210Buffer
 >
 i210_buffer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2356,7 +2356,7 @@ RTC_DCHECK
 input_frame
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3231,7 +3231,7 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr

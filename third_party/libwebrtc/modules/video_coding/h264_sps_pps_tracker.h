@@ -89,9 +89,6 @@ FixedBitstream
 PacketAction
 action
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 bitstream
 ;
@@ -136,9 +133,6 @@ default
 FixedBitstream
 CopyAndFixBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -186,9 +180,6 @@ sps_id
 -
 1
 ;
-rtc
-:
-:
 Buffer
 data
 ;
@@ -209,9 +200,6 @@ height
 -
 1
 ;
-rtc
-:
-:
 Buffer
 data
 ;

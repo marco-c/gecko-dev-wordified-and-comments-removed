@@ -201,9 +201,6 @@ return
 true
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBufferPool
@@ -226,9 +223,6 @@ min_size
 0
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer
@@ -642,9 +636,6 @@ Vp9FrameBufferPool
 user_priv
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer

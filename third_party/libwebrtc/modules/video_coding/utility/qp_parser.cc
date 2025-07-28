@@ -305,9 +305,6 @@ bitstream_parser_
 .
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -364,9 +361,6 @@ bitstream_parser_
 .
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -962,9 +962,6 @@ decoded_image
 )
 override
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1203,9 +1200,6 @@ void
 CreateImage
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

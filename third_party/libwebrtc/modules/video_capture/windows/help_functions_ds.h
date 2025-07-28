@@ -187,7 +187,7 @@ GetComInterface
 IUnknown
 *
 object
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -308,9 +308,6 @@ state
 VCMFrameBufferStateEnum
 _state
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

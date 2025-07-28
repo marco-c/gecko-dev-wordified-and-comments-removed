@@ -239,7 +239,7 @@ pipewire_fd_
 fd
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -292,7 +292,7 @@ pipewire_fd_
 =
 kInvalidPipeWireFd
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

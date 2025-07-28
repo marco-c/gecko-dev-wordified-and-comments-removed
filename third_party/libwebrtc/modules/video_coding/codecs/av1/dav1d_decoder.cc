@@ -376,9 +376,6 @@ class
 ScopedDav1dPicture
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 ScopedDav1dPicture
@@ -409,9 +406,6 @@ picture_
 ;
 }
 using
-rtc
-:
-:
 RefCountedNonVirtual
 <
 ScopedDav1dPicture
@@ -777,9 +771,6 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 ScopedDav1dPicture
@@ -1006,9 +997,6 @@ render_height
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

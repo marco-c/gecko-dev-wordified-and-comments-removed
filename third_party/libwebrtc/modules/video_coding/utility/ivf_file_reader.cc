@@ -856,9 +856,6 @@ std
 nullopt
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

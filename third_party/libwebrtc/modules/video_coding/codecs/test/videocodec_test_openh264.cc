@@ -205,7 +205,7 @@ config
 .
 SetCodecSettings
 (
-cricket
+webrtc
 :
 :
 kH264CodecName
@@ -368,7 +368,7 @@ config
 .
 SetCodecSettings
 (
-cricket
+webrtc
 :
 :
 kH264CodecName

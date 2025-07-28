@@ -371,7 +371,7 @@ error
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -604,7 +604,7 @@ error
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -675,6 +675,9 @@ productUniqueIdUTF8Length
 pid_t
 *
 pid
+bool
+*
+deviceIsPlaceholder
 )
 {
 MutexLock
@@ -781,7 +784,7 @@ error
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -1363,7 +1366,7 @@ error
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex

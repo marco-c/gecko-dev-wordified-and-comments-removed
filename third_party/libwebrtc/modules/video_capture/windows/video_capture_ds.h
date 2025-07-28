@@ -171,7 +171,7 @@ RTC_GUARDED_BY
 api_checker_
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

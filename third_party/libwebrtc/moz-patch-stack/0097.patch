@@ -130,10 +130,10 @@ video_capture_factory
 .
 cc
 index
-127bb06a2e
+6e884f0d91
 .
 .
-0d12966c2e
+4241afe21f
 100644
 -
 -
@@ -165,9 +165,6 @@ cc
 +
 24
 7
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule

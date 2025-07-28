@@ -461,9 +461,6 @@ int64_t
 *
 GetContinuousSequence
 (
-rtc
-:
-:
 ArrayView
 <
 int64_t
@@ -2053,9 +2050,6 @@ SpsParser
 :
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2088,9 +2082,6 @@ PpsParser
 :
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2413,9 +2404,6 @@ video_header
 video_type_header
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 result
 ;

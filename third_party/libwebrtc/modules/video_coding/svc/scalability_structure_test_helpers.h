@@ -170,9 +170,6 @@ frames
 bool
 FrameReferencesAreValid
 (
-rtc
-:
-:
 ArrayView
 <
 const

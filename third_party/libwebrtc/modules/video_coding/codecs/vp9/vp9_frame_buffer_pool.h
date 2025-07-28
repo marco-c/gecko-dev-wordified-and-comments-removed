@@ -94,9 +94,6 @@ Vp9FrameBuffer
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 Vp9FrameBuffer
@@ -124,9 +121,6 @@ size
 )
 ;
 using
-rtc
-:
-:
 RefCountedNonVirtual
 <
 Vp9FrameBuffer
@@ -136,9 +130,6 @@ Vp9FrameBuffer
 HasOneRef
 ;
 private
-:
-rtc
-:
 :
 Buffer
 data_
@@ -153,9 +144,6 @@ vpx_codec_ctx
 vpx_codec_context
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer
@@ -221,9 +209,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer
