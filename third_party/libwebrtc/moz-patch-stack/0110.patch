@@ -100,10 +100,10 @@ b
 .
 gn
 index
-e58101388b
+e18f9eed57
 .
 .
-72c42e9202
+391eadb382
 100644
 -
 -
@@ -128,11 +128,11 @@ gn
 no_check_targets
 =
 [
-exec_script_whitelist
+exec_script_allowlist
 =
 build_dotfile_settings
 .
-exec_script_whitelist
+exec_script_allowlist
 +
 [
 "

@@ -147,10 +147,10 @@ b
 .
 gn
 index
-72c42e9202
+391eadb382
 .
 .
-fe7020cb97
+940244f9af
 100644
 -
 -
@@ -298,11 +298,11 @@ for
 gypi_to_gn
 calls
 .
-exec_script_whitelist
+exec_script_allowlist
 =
 build_dotfile_settings
 .
-exec_script_whitelist
+exec_script_allowlist
 +
 -
 [
