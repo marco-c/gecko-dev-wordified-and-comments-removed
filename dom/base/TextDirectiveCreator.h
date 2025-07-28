@@ -180,7 +180,7 @@ aWatchdog
 virtual
 Result
 <
-Ok
+bool
 ErrorResult
 >
 CollectContextTerms
@@ -208,7 +208,7 @@ CollectSuffixContextTerm
 )
 ;
 virtual
-bool
+void
 CollectContextTermWordBoundaryDistances
 (
 )
@@ -460,7 +460,7 @@ TextDirectiveCreator
 ;
 Result
 <
-Ok
+bool
 ErrorResult
 >
 CollectContextTerms
@@ -468,7 +468,7 @@ CollectContextTerms
 )
 override
 ;
-bool
+void
 CollectContextTermWordBoundaryDistances
 (
 )
@@ -605,7 +605,7 @@ TextDirectiveCreator
 ;
 Result
 <
-Ok
+bool
 ErrorResult
 >
 CollectContextTerms
@@ -613,7 +613,7 @@ CollectContextTerms
 )
 override
 ;
-bool
+void
 CollectContextTermWordBoundaryDistances
 (
 )
