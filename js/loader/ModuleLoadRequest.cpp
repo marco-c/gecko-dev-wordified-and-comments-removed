@@ -481,14 +481,6 @@ ModuleErrored
 return
 ;
 }
-mLoader
--
->
-StartFetchingModuleDependencies
-(
-this
-)
-;
 }
 void
 ModuleLoadRequest
