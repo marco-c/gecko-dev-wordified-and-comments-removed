@@ -677,6 +677,13 @@ html
 ]
 [
 "
+test_ext_browserAction_onUserSettingsChanged
+.
+html
+"
+]
+[
+"
 test_ext_browserAction_openPopup
 .
 html

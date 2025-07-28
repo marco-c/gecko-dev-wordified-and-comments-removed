@@ -574,6 +574,13 @@ js
 ]
 [
 "
+browser_ext_browserAction_onUserSettingsChanged
+.
+js
+"
+]
+[
+"
 browser_ext_browserAction_pageAction_icon
 .
 js
