@@ -537,6 +537,13 @@ pub
 environment
 :
 JSONVariantEnvironment
+pub
+is_new_until
+:
+Option
+<
+String
+>
 #
 [
 serde
