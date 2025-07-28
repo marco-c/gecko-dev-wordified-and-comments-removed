@@ -15,7 +15,7 @@ re
 compile
 (
 r
-'
+"
 ^
 \
 [
@@ -37,7 +37,7 @@ f0
 40
 }
 )
-'
+"
 )
 class
 MissingApiVersionError
@@ -145,9 +145,9 @@ jsonString
 )
     
 if
-'
+"
 failures
-'
+"
 not
 in
 results
@@ -155,9 +155,9 @@ results
         
 results
 [
-'
+"
 failures
-'
+"
 ]
 =
 [
@@ -180,6 +180,7 @@ argparse
 .
 ArgumentParser
 (
+        
 description
 =
 "
@@ -193,12 +194,14 @@ been
 updated
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -206,23 +209,25 @@ api
 -
 file
 "
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
+        
 help
 =
 "
@@ -231,12 +236,14 @@ API
 file
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -244,23 +251,25 @@ changelog
 -
 file
 "
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
+        
 help
 =
 "
@@ -271,12 +280,14 @@ the
 API
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -284,24 +295,26 @@ result
 -
 json
 "
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
 +
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
+        
 help
 =
 "
@@ -312,6 +325,7 @@ this
 file
 .
 "
+    
 )
     
 args
@@ -344,11 +358,11 @@ read
 .
 encode
 (
-'
+"
 UTF
 -
 8
-'
+"
 )
 )
     
@@ -395,15 +409,16 @@ None
             
 results
 [
-'
+"
 failures
-'
+"
 ]
 .
 append
 (
-{
                 
+{
+                    
 "
 column
 "
@@ -414,7 +429,7 @@ info
 column
 "
 ]
-                
+                    
 "
 file
 "
@@ -424,7 +439,7 @@ args
 changelog_file
 .
 name
-                
+                    
 "
 line
 "
@@ -435,7 +450,7 @@ info
 line
 "
 ]
-                
+                    
 "
 msg
 "
@@ -446,7 +461,7 @@ info
 message
 "
 ]
-                
+                    
 "
 rule
 "
@@ -457,14 +472,15 @@ info
 rule
 "
 ]
-                
+                    
 "
 error
 "
 :
 True
-            
+                
 }
+            
 )
         
 args
@@ -516,20 +532,21 @@ MissingApiVersionError
         
 dumpJsonError
 (
-{
             
+{
+                
 "
 column
 "
 :
 0
-            
+                
 "
 line
 "
 :
 1
-            
+                
 "
 message
 "
@@ -547,7 +564,7 @@ version
 pin
 .
 "
-                       
+                
 "
 Please
 update
@@ -560,7 +577,8 @@ following
 line
 :
 "
-                       
+                
+f
 "
 [
 api
@@ -569,14 +587,10 @@ version
 ]
 :
 {
+currentApiVersion
 }
 "
-.
-format
-(
-currentApiVersion
-)
-            
+                
 "
 rule
 "
@@ -584,12 +598,14 @@ rule
 "
 missing_api_version
 "
-        
+            
 }
+        
 )
         
 print
 (
+            
 "
 ERROR
 :
@@ -607,6 +623,7 @@ pin
 Please
 update
 "
+        
 )
         
 print
@@ -669,6 +686,7 @@ print
         
 print
 (
+f
 "
 [
 api
@@ -677,13 +695,9 @@ version
 ]
 :
 {
+currentApiVersion
 }
 "
-.
-format
-(
-currentApiVersion
-)
 )
         
 print
@@ -712,20 +726,21 @@ expectedApiVersion
         
 dumpJsonError
 (
-{
             
+{
+                
 "
 column
 "
 :
 14
-            
+                
 "
 line
 "
 :
 lineNumber
-            
+                
 "
 message
 "
@@ -744,7 +759,7 @@ Please
 update
 the
 "
-                       
+                
 "
 file
 and
@@ -760,7 +775,8 @@ as
 follows
 :
 "
-                       
+                
+f
 "
 [
 api
@@ -769,14 +785,10 @@ version
 ]
 :
 {
+currentApiVersion
 }
 "
-.
-format
-(
-currentApiVersion
-)
-            
+                
 "
 rule
 "
@@ -784,8 +796,9 @@ rule
 "
 wrong_api_version
 "
-        
+            
 }
+        
 )
         
 print
@@ -868,6 +881,7 @@ print
         
 print
 (
+f
 "
 [
 api
@@ -876,13 +890,9 @@ version
 ]
 :
 {
+currentApiVersion
 }
 "
-.
-format
-(
-currentApiVersion
-)
 )
         
 print

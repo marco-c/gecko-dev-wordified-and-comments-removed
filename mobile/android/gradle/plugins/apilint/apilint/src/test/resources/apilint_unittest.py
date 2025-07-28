@@ -1,9 +1,9 @@
 import
-unittest
+os
 import
 sys
 import
-os
+unittest
 sys
 .
 path
@@ -24,7 +24,7 @@ dirname
 (
 __file__
 )
-'
+"
 .
 .
 /
@@ -35,17 +35,14 @@ main
 /
 resources
 /
-'
+"
 )
 )
-from
-apilint
-import
-collect_chunks
 from
 apilint
 import
 Type
+collect_chunks
 class
 ApilintUnittest
 (
@@ -78,7 +75,6 @@ len
 separator
 )
 )
-                         
 expected
 )
     
@@ -115,6 +111,7 @@ self
 .
 collect_chunks
 (
+            
 "
 java
 .
@@ -128,9 +125,11 @@ F
 K
 >
 "
+            
 "
 extends
 "
+            
 [
 "
 java
@@ -146,12 +145,14 @@ K
 >
 "
 ]
+        
 )
         
 self
 .
 collect_chunks
 (
+            
 "
 java
 .
@@ -167,9 +168,11 @@ extends
 G
 >
 "
+            
 "
 extends
 "
+            
 [
 "
 java
@@ -187,6 +190,7 @@ G
 >
 "
 ]
+        
 )
         
 self
@@ -341,41 +345,41 @@ imports
 =
 {
             
-'
+"
 Map
-'
+"
 :
-'
+"
 java
 .
 lang
 .
 Map
-'
+"
             
-'
+"
 F
-'
+"
 :
-'
+"
 a
 .
 b
 .
 F
-'
+"
             
-'
+"
 G
-'
+"
 :
-'
+"
 a
 .
 d
 .
 G
-'
+"
         
 }
         
@@ -601,6 +605,7 @@ typ
 =
 Type
 (
+            
 None
 None
 "
@@ -622,6 +627,7 @@ None
 None
 {
 }
+        
 )
         
 self
@@ -786,11 +792,11 @@ D
 None
 None
 {
-'
+"
 D
-'
+"
 :
-'
+"
 a
 .
 b
@@ -798,7 +804,7 @@ b
 c
 .
 D
-'
+"
 }
 )
         
@@ -861,11 +867,11 @@ E
 None
 None
 {
-'
+"
 D
-'
+"
 :
-'
+"
 a
 .
 b
@@ -873,7 +879,7 @@ b
 c
 .
 D
-'
+"
 }
 )
         
@@ -919,11 +925,11 @@ D
 None
 None
 {
-'
+"
 D
-'
+"
 :
-'
+"
 a
 .
 b
@@ -931,7 +937,7 @@ b
 c
 .
 D
-'
+"
 }
 )
         
@@ -1018,11 +1024,11 @@ D
 None
 None
 {
-'
+"
 D
-'
+"
 :
-'
+"
 a
 .
 b
@@ -1030,7 +1036,7 @@ b
 d
 .
 D
-'
+"
 }
 )
         
@@ -1379,9 +1385,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest
