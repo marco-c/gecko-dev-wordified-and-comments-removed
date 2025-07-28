@@ -159,8 +159,6 @@ IsUpgradableContentType
 (
 nsContentPolicyType
 aType
-bool
-aConsiderPrefs
 )
 ;
 static
