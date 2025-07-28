@@ -843,6 +843,13 @@ rtc_event_begin_end
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
