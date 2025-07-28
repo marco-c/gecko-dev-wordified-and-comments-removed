@@ -7917,6 +7917,14 @@ if
 mir
 -
 >
+compilingWasm
+(
+)
+&
+&
+mir
+-
+>
 optimizationInfo
 (
 )
