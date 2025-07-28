@@ -409,6 +409,9 @@ protocols
 [
 ]
 ;
+DatagramsReadableMode
+datagramsReadableMode
+;
 }
 ;
 enum
@@ -424,6 +427,14 @@ throughput
 low
 -
 latency
+"
+}
+;
+enum
+DatagramsReadableMode
+{
+"
+bytes
 "
 }
 ;

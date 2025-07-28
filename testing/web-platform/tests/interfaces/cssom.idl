@@ -1014,7 +1014,7 @@ cssText
 ]
 readonly
 attribute
-CSSStyleDeclaration
+CSSStyleProperties
 style
 ;
 }
@@ -1038,7 +1038,7 @@ Window
 [
 NewObject
 ]
-CSSStyleDeclaration
+CSSStyleProperties
 getComputedStyle
 (
 Element
