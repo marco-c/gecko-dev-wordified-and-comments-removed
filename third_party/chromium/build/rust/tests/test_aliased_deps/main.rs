@@ -1,0 +1,16 @@
+fn
+main
+(
+)
+{
+test_aliased_deps
+:
+:
+other_name
+:
+:
+hello_world
+(
+)
+;
+}

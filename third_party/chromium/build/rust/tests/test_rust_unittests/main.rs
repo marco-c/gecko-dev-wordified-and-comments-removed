@@ -17,10 +17,10 @@ test
 Bencher
 ;
 use
-test_mixed_static_library
+test_rust_static_library
 :
 :
-add_two_ints_using_cpp
+add_two_ints_via_rust
 ;
 #
 [
@@ -34,7 +34,7 @@ test_call_into_mixed_static_library
 assert_eq
 !
 (
-add_two_ints_using_cpp
+add_two_ints_via_rust
 (
 5
 7

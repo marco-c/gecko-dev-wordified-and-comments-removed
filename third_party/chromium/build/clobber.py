@@ -124,37 +124,19 @@ as
 f
 :
     
-num_blank_lines
+found_build_dot_ninja_target
 =
-0
+False
     
-while
-num_blank_lines
-<
-3
-:
-      
+for
 line
-=
+in
 f
 .
-readline
+readlines
 (
 )
-      
-if
-len
-(
-line
-)
-=
-=
-0
 :
-        
-return
-'
-'
       
 result
 +
@@ -162,6 +144,27 @@ result
 line
       
 if
+line
+.
+startswith
+(
+'
+build
+build
+.
+ninja
+:
+'
+)
+:
+        
+found_build_dot_ninja_target
+=
+True
+      
+if
+found_build_dot_ninja_target
+and
 line
 [
 0
@@ -174,33 +177,18 @@ n
 '
 :
         
-num_blank_lines
-=
-num_blank_lines
-+
-1
-  
 return
 result
-def
-delete_dir
-(
-build_dir
-)
-:
   
-if
-os
-.
-path
-.
-islink
+return
+'
+'
+def
+_rmtree
 (
-build_dir
+d
 )
 :
-    
-return
   
 if
 sys
@@ -231,7 +219,7 @@ s
 /
 q
 '
-build_dir
+d
 ]
 shell
 =
@@ -245,7 +233,51 @@ shutil
 .
 rmtree
 (
+d
+)
+def
+_clean_dir
+(
 build_dir
+)
+:
+  
+for
+e
+in
+os
+.
+scandir
+(
+build_dir
+)
+:
+    
+if
+e
+.
+is_dir
+(
+)
+:
+      
+_rmtree
+(
+e
+.
+path
+)
+    
+else
+:
+      
+os
+.
+remove
+(
+e
+.
+path
 )
 def
 delete_build_dir
@@ -284,7 +316,7 @@ build_ninja_d_file
 )
 :
     
-delete_dir
+_clean_dir
 (
 build_dir
 )
@@ -362,21 +394,14 @@ args_contents
 '
 '
   
-e
+exception_during_rm
 =
 None
   
 try
 :
     
-delete_dir
-(
-build_dir
-)
-    
-os
-.
-mkdir
+_clean_dir
 (
 build_dir
 )
@@ -387,7 +412,9 @@ as
 e
 :
     
-pass
+exception_during_rm
+=
+e
   
 if
 args_contents
@@ -561,11 +588,11 @@ n
 )
   
 if
-e
+exception_during_rm
 :
     
 raise
-e
+exception_during_rm
 def
 clobber
 (

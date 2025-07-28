@@ -18,6 +18,8 @@ importlib
 import
 io
 import
+os
+import
 sys
 import
 unittest
@@ -28,10 +30,21 @@ COVERED_FILES
 [
     
 '
+compatible_utils
+.
+py
+'
+'
+deploy_to_fuchsia
+.
+py
+'
+'
 flash_device
 .
 py
 '
+    
 '
 log_manager
 .
@@ -47,7 +60,6 @@ serve_repo
 .
 py
 '
-    
 '
 test_server
 .
@@ -77,6 +89,20 @@ covered
 "
 "
 "
+    
+if
+os
+.
+name
+=
+=
+'
+nt
+'
+:
+        
+return
+0
     
 cov
 =

@@ -132,7 +132,6 @@ build_utils
 .
 JavaCmd
 (
-warnings_as_errors
 )
 +
 [

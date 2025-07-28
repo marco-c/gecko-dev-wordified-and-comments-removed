@@ -267,11 +267,6 @@ ENV_VAR_FOR_BUILD_SCRIPT
 "
 ]
 }
-if
-(
-rustc_can_link
-)
-{
 #
 Exists
 to
@@ -398,5 +393,4 @@ deps
 target1
 "
 ]
-}
 }

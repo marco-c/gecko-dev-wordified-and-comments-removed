@@ -53,10 +53,6 @@ jar
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -67,8 +63,6 @@ import
 shutil
 import
 sys
-import
-tempfile
 import
 zipfile
 from
@@ -258,7 +252,7 @@ add_argument
 '
 -
 -
-java
+target
 -
 sources
 -
@@ -279,6 +273,9 @@ newline
 separated
 .
 java
+and
+.
+kt
 paths
 '
 )
@@ -844,6 +841,8 @@ source_file
 .
 endswith
 (
+          
+(
 member
 [
 :
@@ -854,6 +853,17 @@ index
 .
 java
 '
+member
+[
+:
+index
+]
++
+'
+.
+kt
+'
+)
 )
 :
         
@@ -1146,7 +1156,7 @@ source_files
 if
 args
 .
-java_sources_file
+target_sources_file
 :
     
 source_files
@@ -1159,7 +1169,7 @@ ReadSourcesList
 (
 args
 .
-java_sources_file
+target_sources_file
 )
 )
   

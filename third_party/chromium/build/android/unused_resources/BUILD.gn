@@ -127,9 +127,9 @@ com_google_guava_guava_java
 /
 third_party
 /
-android_deps
+kotlin_stdlib
 :
-org_jetbrains_kotlin_kotlin_stdlib_java
+kotlin_stdlib_java
 "
 "
 /

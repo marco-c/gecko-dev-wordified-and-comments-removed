@@ -884,6 +884,9 @@ s
 image_to_download
 images_tarball_url
 )
+      
+raise
+e
 def
 _GetImageOverrideInfo
 (
@@ -1589,6 +1592,27 @@ output
 else
 '
 '
+)
+      
+raise
+e
+  
+else
+:
+    
+logging
+.
+info
+(
+'
+Signatures
+matched
+!
+Got
+%
+s
+'
+new_signature
 )
   
 return

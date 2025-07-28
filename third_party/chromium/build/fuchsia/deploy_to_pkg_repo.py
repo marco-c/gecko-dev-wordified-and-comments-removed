@@ -155,22 +155,6 @@ args
 fuchsia_out_dir
 )
   
-fuchsia_amber_files_dir
-=
-os
-.
-path
-.
-join
-(
-fuchsia_out_dir
-'
-amber
--
-files
-'
-)
-  
 assert
 os
 .
@@ -178,7 +162,7 @@ path
 .
 exists
 (
-fuchsia_amber_files_dir
+fuchsia_out_dir
 )
 \
      
@@ -223,7 +207,7 @@ default
 .
 format
 (
-fuchsia_amber_files_dir
+fuchsia_out_dir
 )
   
 repo
@@ -232,7 +216,7 @@ pkg_repo
 .
 ExternalPkgRepo
 (
-fuchsia_amber_files_dir
+fuchsia_out_dir
                                   
 os
 .

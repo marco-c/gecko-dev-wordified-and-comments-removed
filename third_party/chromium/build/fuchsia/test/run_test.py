@@ -38,7 +38,6 @@ register_device_args
                    
 register_log_args
 resolve_packages
-resolve_v1_packages
 \
                    
 set_ffx_isolate_dir
@@ -81,6 +80,10 @@ from
 run_telemetry_test
 import
 TelemetryTestRunner
+from
+run_webpage_test
+import
+WebpageTestRunner
 from
 serve_repo
 import
@@ -183,6 +186,31 @@ runner_args
 out_dir
                                    
 test_args
+runner_args
+.
+target_id
+)
+    
+if
+runner_args
+.
+test_type
+in
+[
+'
+webpage
+'
+]
+:
+        
+return
+WebpageTestRunner
+(
+runner_args
+.
+out_dir
+test_args
+                                 
 runner_args
 .
 target_id
@@ -432,12 +460,12 @@ TemporaryDirectory
 )
 )
 )
-        
+            
 stack
 .
 enter_context
 (
-            
+                
 ScopedFfxConfig
 (
 '
@@ -534,13 +562,11 @@ runner_args
 test_args
 )
         
-package_paths
+package_deps
 =
 test_runner
 .
-get_package_paths
-(
-)
+package_deps
         
 if
 not
@@ -567,7 +593,11 @@ TemporaryDirectory
         
 publish_packages
 (
-package_paths
+package_deps
+.
+values
+(
+)
 runner_args
 .
 repo
@@ -592,7 +622,12 @@ start_system_log
 (
 log_manager
 False
-package_paths
+package_deps
+.
+values
+(
+)
+                         
 (
 '
 -
@@ -603,7 +638,6 @@ since
 now
 '
 )
-                         
 runner_args
 .
 target_id
@@ -630,32 +664,13 @@ take_to_shell
 (
 )
         
-if
-test_runner
-.
-is_cfv2
-(
-)
-:
-            
 resolve_packages
 (
-test_runner
+package_deps
 .
-packages
-runner_args
-.
-target_id
-)
-        
-else
-:
-            
-resolve_v1_packages
+keys
 (
-test_runner
-.
-packages
+)
 runner_args
 .
 target_id

@@ -3434,10 +3434,6 @@ grandparent_custom_package_name
 =
 None
                      
-extra_main_r_text_files
-=
-None
-                     
 ignore_mismatched_values
 =
 False
@@ -3645,24 +3641,6 @@ base
 "
 )
     
-extra_main_r_text_files
-:
-R
-.
-txt
-files
-to
-be
-added
-to
-the
-root
-R
-.
-java
-file
-.
-    
 ignore_mismatched_values
 :
 If
@@ -3761,17 +3739,6 @@ main_r_text_files
 [
 main_r_txt_file
 ]
-  
-if
-extra_main_r_text_files
-:
-    
-main_r_text_files
-.
-extend
-(
-extra_main_r_text_files
-)
   
 for
 r_txt_file

@@ -899,6 +899,9 @@ if
 (
 !
 is_a_target_toolchain
+|
+|
+toolchain_disables_sanitizers
 )
 {
 is_asan

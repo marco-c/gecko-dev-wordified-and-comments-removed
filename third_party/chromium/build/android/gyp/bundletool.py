@@ -111,25 +111,11 @@ def
 RunBundleTool
 (
 args
-warnings_as_errors
-=
-(
-)
 print_stdout
 =
 False
 )
 :
-  
-verify
-=
-warnings_as_errors
-=
-=
-(
-)
-or
-warnings_as_errors
   
 cmd
 =
@@ -137,7 +123,6 @@ build_utils
 .
 JavaCmd
 (
-verify
 xmx
 =
 '

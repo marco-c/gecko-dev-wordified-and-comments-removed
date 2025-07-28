@@ -129,10 +129,10 @@ BUILD
 .
 gn
 index
-a5075393b
+a542f3369
 .
 .
-d4aafc685
+e69b65002
 100644
 -
 -
@@ -159,10 +159,10 @@ BUILD
 .
 gn
 -
-293
+294
 7
 +
-293
+294
 7
 config
 (
@@ -194,7 +194,7 @@ defines
 "
 NTDDI_VERSION
 =
-NTDDI_WIN10_FE
+NTDDI_WIN10_NI
 "
 +
 "

@@ -237,3 +237,11 @@ system_absl_function_ref
 "
 ]
 }
+source_set
+(
+"
+any_invocable_test
+"
+)
+{
+}

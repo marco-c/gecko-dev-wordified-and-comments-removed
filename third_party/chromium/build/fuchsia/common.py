@@ -65,20 +65,6 @@ sdk
 images
 '
 )
-PRODUCT_BUNDLE_SIGNATURE_FILE
-=
-os
-.
-path
-.
-join
-(
-IMAGES_ROOT
-'
-.
-product_bundle
-'
-)
 SDK_ROOT
 =
 os
@@ -259,11 +245,15 @@ x64
   
 elif
 host_arch
-=
-=
+in
+[
 '
 aarch64
 '
+'
+arm64
+'
+]
 :
     
 return

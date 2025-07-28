@@ -122,6 +122,15 @@ headless_use_embedded_resources
 =
 true
 #
+Disable
+headless
+commands
+support
+.
+headless_enable_commands
+=
+false
+#
 Don
 '
 t

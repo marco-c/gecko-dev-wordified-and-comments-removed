@@ -521,6 +521,14 @@ system_absl_node_hash_set
 source_set
 (
 "
+common_policy_traits_test
+"
+)
+{
+}
+source_set
+(
+"
 inlined_vector_test
 "
 )

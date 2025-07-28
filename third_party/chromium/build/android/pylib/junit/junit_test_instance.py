@@ -121,6 +121,21 @@ args
     
 self
 .
+_has_literal_filters
+=
+(
+args
+.
+isolated_script_test_filters
+                                 
+or
+args
+.
+test_filters
+)
+    
+self
+.
 _test_suite
 =
 args
@@ -282,6 +297,20 @@ return
 self
 .
 _test_filters
+  
+property
+  
+def
+has_literal_filters
+(
+self
+)
+:
+    
+return
+self
+.
+_has_literal_filters
   
 property
   

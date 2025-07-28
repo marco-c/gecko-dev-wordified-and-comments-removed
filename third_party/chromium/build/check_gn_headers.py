@@ -147,13 +147,20 @@ NinjaSource
 cmd
 =
 [
+        
 os
 .
 path
 .
 join
 (
-DEPOT_TOOLS_DIR
+SRC_DIR
+'
+third_party
+'
+'
+ninja
+'
 '
 ninja
 '
@@ -163,6 +170,7 @@ ninja
 C
 '
 out_dir
+        
 '
 -
 t
@@ -170,6 +178,7 @@ t
 '
 deps
 '
+    
 ]
     
 popen

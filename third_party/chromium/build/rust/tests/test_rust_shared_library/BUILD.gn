@@ -44,11 +44,6 @@ rust_shared_library
 gni
 "
 )
-if
-(
-rustc_can_link
-)
-{
 rust_shared_library
 (
 "
@@ -81,5 +76,4 @@ rs
 build_native_rust_unit_tests
 =
 true
-}
 }

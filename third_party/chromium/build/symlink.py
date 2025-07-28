@@ -550,6 +550,25 @@ options
 touch
 :
     
+os
+.
+makedirs
+(
+os
+.
+path
+.
+dirname
+(
+options
+.
+touch
+)
+exist_ok
+=
+True
+)
+    
 with
 open
 (

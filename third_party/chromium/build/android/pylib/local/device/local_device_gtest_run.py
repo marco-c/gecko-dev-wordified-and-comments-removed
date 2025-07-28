@@ -3019,6 +3019,18 @@ dev
 )
 :
         
+with
+self
+.
+_ArchiveLogcat
+(
+dev
+'
+install_apk
+'
+)
+:
+          
 self
 .
 _delegate

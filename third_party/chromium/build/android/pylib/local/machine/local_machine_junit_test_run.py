@@ -180,7 +180,7 @@ def
 _GetFilterArgs
 (
 self
-test_filter_override
+shard_test_filter
 =
 None
 )
@@ -192,7 +192,7 @@ ret
 ]
     
 if
-test_filter_override
+shard_test_filter
 :
       
 ret
@@ -211,18 +211,10 @@ filter
 .
 join
 (
-test_filter_override
+shard_test_filter
 )
 ]
     
-elif
-self
-.
-_test_instance
-.
-test_filters
-:
-      
 for
 test_filter
 in
@@ -232,7 +224,7 @@ _test_instance
 .
 test_filters
 :
-        
+      
 ret
 +
 =
@@ -340,7 +332,7 @@ jar_args_list
 )
 :
       
-test_filter_override
+shard_test_filter
 =
 group_test_list
 [
@@ -360,7 +352,7 @@ self
 .
 _GetFilterArgs
 (
-test_filter_override
+shard_test_filter
 )
     
 return
@@ -583,14 +575,6 @@ path
 '
 )
       
-if
-self
-.
-_test_instance
-.
-coverage_on_the_fly
-:
-        
 jacoco_coverage_file
 =
 os
@@ -599,13 +583,12 @@ path
 .
 join
 (
-            
 self
 .
 _test_instance
 .
 coverage_dir
-            
+                                          
 '
 %
 s
@@ -619,6 +602,14 @@ _test_instance
 .
 suite
 )
+      
+if
+self
+.
+_test_instance
+.
+coverage_on_the_fly
+:
         
 jacoco_agent_path
 =
@@ -700,32 +691,7 @@ destfile
 s
 '
 %
-                        
-os
-.
-path
-.
-join
-(
-self
-.
-_test_instance
-.
-coverage_dir
-                                     
-'
-%
-s
-.
-exec
-'
-%
-self
-.
-_test_instance
-.
-suite
-)
+jacoco_coverage_file
 )
     
 return
@@ -934,14 +900,15 @@ shards
 =
 =
 1
+        
 or
 self
 .
 _test_instance
 .
-test_filters
-        
+has_literal_filters
 or
+        
 self
 .
 _test_instance

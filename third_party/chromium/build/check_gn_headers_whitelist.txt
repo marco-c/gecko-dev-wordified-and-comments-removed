@@ -127,13 +127,6 @@ scrollbar
 h
 cc
 /
-input
-/
-scroller_size_metrics
-.
-h
-cc
-/
 layers
 /
 performance_properties
@@ -398,7 +391,7 @@ chrome
 /
 browser
 /
-ui
+ash
 /
 app_list
 /

@@ -87,9 +87,6 @@ py
 dex
 .
 py
-dex_jdk_libs
-.
-py
 proguard
 .
 py

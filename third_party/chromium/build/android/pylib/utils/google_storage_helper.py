@@ -120,17 +120,16 @@ path
 .
 join
 (
-    
 host_paths
 .
 DIR_SOURCE_ROOT
 '
 third_party
 '
+                            
 '
 catapult
 '
-    
 '
 third_party
 '
@@ -139,8 +138,6 @@ gsutil
 '
 '
 gsutil
-.
-py
 '
 )
 _PUBLIC_URL

@@ -42,6 +42,10 @@ no_luci_auth
 '
     
 '
+service_account
+'
+    
+'
 code_review_system
 '
     
@@ -91,6 +95,15 @@ no_luci_auth
 Optional
 [
 bool
+]
+=
+None
+                       
+service_account
+:
+Optional
+[
+str
 ]
 =
 None
@@ -189,12 +202,13 @@ _SkiaGoldArgs
 (
 local_pixel_tests
 no_luci_auth
-code_review_system
+service_account
                     
+code_review_system
 continuous_integration_system
+                    
 git_revision
 gerrit_issue
-                    
 gerrit_patchset
 buildbucket_id
                     

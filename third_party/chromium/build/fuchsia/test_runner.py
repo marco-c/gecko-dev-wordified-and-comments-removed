@@ -109,11 +109,6 @@ test_summary
 .
 json
 '
-TEST_REALM_NAME
-=
-'
-chromium_tests
-'
 class
 CustomArtifactsTestOutputs
 (

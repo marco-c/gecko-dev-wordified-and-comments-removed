@@ -187,9 +187,6 @@ packages
 =
 [
 '
-web_engine_with_webui
-'
-'
 web_engine_shell
 '
 ]
@@ -233,9 +230,6 @@ shell
 packages
 =
 [
-'
-web_engine_with_webui
-'
 '
 cast_streaming_shell
 '

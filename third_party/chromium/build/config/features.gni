@@ -400,6 +400,10 @@ is_linux
 &
 !
 is_castos
+use_blink
+=
+!
+is_ios
 }
 #
 #

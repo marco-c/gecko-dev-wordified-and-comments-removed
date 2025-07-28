@@ -205,6 +205,11 @@ visual_studio_path
 toolchain_data
 .
 vs_path
+windows_sdk_version
+=
+toolchain_data
+.
+sdk_version
 windows_sdk_path
 =
 toolchain_data

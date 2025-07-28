@@ -8038,6 +8038,7 @@ args
 rebase_path
 (
 _header_map_filename
+root_build_dir
 )
 rebase_path
 (

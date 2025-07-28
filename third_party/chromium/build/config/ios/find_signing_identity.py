@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -334,6 +330,16 @@ None
       
 continue
     
+identifier
+developer_name
+team
+=
+res
+.
+groups
+(
+)
+    
 if
 pattern
 is
@@ -341,11 +347,18 @@ None
 or
 pattern
 in
-res
-.
-group
+'
+%
+s
 (
-2
+%
+s
+)
+'
+%
+(
+developer_name
+team
 )
 :
       
@@ -355,12 +368,9 @@ append
 (
 Identity
 (
-*
-res
-.
-groups
-(
-)
+identifier
+developer_name
+team
 )
 )
   
