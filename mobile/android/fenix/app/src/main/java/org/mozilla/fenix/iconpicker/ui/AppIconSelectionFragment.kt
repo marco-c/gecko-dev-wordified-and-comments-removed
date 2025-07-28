@@ -193,7 +193,7 @@ fenix
 .
 utils
 .
-ShortcutInfoWrapperDefault
+ShortcutManagerWrapperDefault
 import
 org
 .
@@ -203,7 +203,7 @@ fenix
 .
 utils
 .
-ShortcutManagerWrapperDefault
+ShortcutsUpdaterDefault
 import
 org
 .
@@ -356,7 +356,7 @@ this
 )
 shortcutInfo
 =
-ShortcutInfoWrapperDefault
+ShortcutsUpdaterDefault
 (
 this
 )
