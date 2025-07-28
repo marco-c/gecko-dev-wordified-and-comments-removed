@@ -3280,7 +3280,7 @@ R
 .
 dimen
 .
-browser_toolbar_height
+composable_browser_toolbar_height
 )
 }
 searchLayout

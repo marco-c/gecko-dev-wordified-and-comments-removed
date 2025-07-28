@@ -1106,7 +1106,7 @@ dp
 .
 height
 (
-40
+48
 .
 dp
 )
@@ -1230,7 +1230,7 @@ Modifier
 .
 height
 (
-48
+56
 .
 dp
 )
