@@ -3144,26 +3144,6 @@ WebRTC
 -
 Bwe
 -
-PaceAtMaxOfBweAndLowerLinkCapacity
-'
-               
-NO_BUG
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Bwe
--
 ProbingBehavior
 '
                
@@ -5007,7 +4987,7 @@ str
 \
     
 '
-936929707bc1d3db75b6702394ca3b69ef328410
+e10a1af33d0a4cf81a6dc87d963b82cf6092ada3
 '
 REGISTERED_FIELD_TRIALS
 :
