@@ -75,9 +75,6 @@ OveruseFrameDetectorObserverInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 EncodeUsageResource

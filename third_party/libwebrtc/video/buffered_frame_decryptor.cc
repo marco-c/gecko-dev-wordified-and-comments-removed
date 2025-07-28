@@ -182,9 +182,6 @@ BufferedFrameDecryptor
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -412,9 +409,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

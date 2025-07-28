@@ -1530,9 +1530,6 @@ VideoStream
 >
 GetNormalSimulcastLayers
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2462,9 +2459,6 @@ VideoStream
 >
 GetSimulcastConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const

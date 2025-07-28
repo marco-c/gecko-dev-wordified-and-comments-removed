@@ -170,9 +170,6 @@ delete
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -247,9 +244,6 @@ Status
 :
 kUnknown
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface

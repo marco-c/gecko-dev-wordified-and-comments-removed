@@ -1679,9 +1679,6 @@ private
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1893,9 +1890,6 @@ kAbsSendTimeExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2187,9 +2181,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2465,9 +2456,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2671,9 +2659,6 @@ kVideoRotationExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2906,9 +2891,6 @@ kVideoContentTypeExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3158,9 +3140,6 @@ kVideoTimingExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3526,9 +3505,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4805,9 +4781,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5851,9 +5824,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5913,9 +5883,6 @@ retransmit_ssrc_
 media_ssrc_
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6688,9 +6655,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -7687,9 +7651,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -7826,9 +7787,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8124,9 +8082,6 @@ sender_call
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8454,9 +8409,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8889,9 +8841,6 @@ stream_
 bool
 bitrate_capped_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -9173,9 +9122,6 @@ kExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9698,9 +9644,6 @@ sender_call
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10159,9 +10102,6 @@ sender_call
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10645,9 +10585,6 @@ sender_call
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -12785,9 +12722,6 @@ config
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -13091,9 +13025,6 @@ encoder_settings
 template
 <
 >
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -13239,9 +13170,6 @@ encoder_settings_
 template
 <
 >
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -13261,9 +13189,6 @@ GetEncoderSpecificSettings
 const
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -13401,9 +13326,6 @@ encoder_settings_
 template
 <
 >
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -13423,9 +13345,6 @@ GetEncoderSpecificSettings
 const
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -13587,9 +13506,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -13639,9 +13555,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -14087,9 +14000,6 @@ encoder_config
 >
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoStreamFactory
@@ -16159,9 +16069,6 @@ encoder_config
 >
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -16278,9 +16185,6 @@ frames_sent_
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -16313,9 +16217,6 @@ PayloadType
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -20038,9 +19939,6 @@ empty
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -20921,9 +20819,6 @@ true
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -21795,9 +21690,6 @@ encoder_config
 >
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -21969,9 +21861,6 @@ temporal_idx
 bool
 ParsePayload
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -22147,9 +22036,6 @@ true
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

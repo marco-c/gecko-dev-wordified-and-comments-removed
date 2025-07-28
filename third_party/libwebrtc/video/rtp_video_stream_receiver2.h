@@ -833,9 +833,6 @@ override
 bool
 OnReceivedPayloadData
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 codec_payload
 const
@@ -932,9 +929,6 @@ override
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -945,9 +939,6 @@ frame_decryptor
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1947,9 +1938,6 @@ last_completed_picture_id_
 =
 0
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpVideoStreamReceiverFrameTransformerDelegate

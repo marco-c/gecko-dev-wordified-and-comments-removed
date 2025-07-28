@@ -498,9 +498,6 @@ override
 void
 AddAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -514,9 +511,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource

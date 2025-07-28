@@ -2520,9 +2520,6 @@ argc
 argv
 )
 ;
-rtc
-:
-:
 LogMessage
 :
 :

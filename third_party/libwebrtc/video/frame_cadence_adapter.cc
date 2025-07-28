@@ -966,9 +966,6 @@ clock
 TaskQueueBase
 *
 queue
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1188,9 +1185,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 queue_sequence_checker_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

@@ -176,9 +176,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -306,9 +303,6 @@ num_frames_received_
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

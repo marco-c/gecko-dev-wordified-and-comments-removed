@@ -4400,9 +4400,6 @@ encoder_config
 .
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory
@@ -6104,9 +6101,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6240,9 +6234,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6364,9 +6355,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6461,9 +6449,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6527,9 +6512,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6656,9 +6638,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6712,9 +6691,6 @@ video_idx
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -7178,9 +7154,6 @@ thumbnail_encoder_config
 .
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoStreamFactory
@@ -7407,9 +7380,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -9971,9 +9941,6 @@ analyzer_
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -10104,9 +10071,6 @@ bool
 use_real_adm
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -10977,9 +10941,6 @@ num_streams
 stream_id
 )
 {
-rtc
-:
-:
 StringBuilder
 oss
 ;
@@ -11110,9 +11071,6 @@ kSyncGroup
 }
 else
 {
-rtc
-:
-:
 StringBuilder
 oss
 ;

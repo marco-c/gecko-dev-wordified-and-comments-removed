@@ -429,10 +429,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-030e7ba89f
+e2cbe58517
 .
 .
-0ed16256d8
+db5b65666f
 100644
 -
 -
@@ -467,9 +467,6 @@ RtpVideoStreamReceiver2
 (
 frame_transformer_delegate_
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate

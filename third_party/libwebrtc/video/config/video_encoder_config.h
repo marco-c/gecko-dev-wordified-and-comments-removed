@@ -516,9 +516,6 @@ codec_type
 SdpVideoFormat
 video_format
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoStreamFactoryInterface
@@ -540,9 +537,6 @@ content_type
 bool
 frame_drop_enabled
 ;
-rtc
-:
-:
 scoped_refptr
 <
 const

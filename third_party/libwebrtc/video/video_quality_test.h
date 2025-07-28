@@ -484,9 +484,6 @@ DestroyThumbnailStreams
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

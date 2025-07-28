@@ -462,9 +462,6 @@ private
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -596,9 +593,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

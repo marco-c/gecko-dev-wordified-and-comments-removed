@@ -337,9 +337,6 @@ OutputInterface
 void
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -381,9 +378,6 @@ timestamp
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -400,9 +394,6 @@ override
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

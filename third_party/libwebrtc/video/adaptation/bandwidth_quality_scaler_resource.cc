@@ -55,9 +55,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 BandwidthQualityScalerResource
@@ -70,9 +67,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 BandwidthQualityScalerResource

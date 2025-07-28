@@ -43,7 +43,7 @@ MOCK_METHOD
 void
 AddAdaptationResource
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -63,9 +63,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -84,7 +81,7 @@ MOCK_METHOD
 void
 SetSource
 (
-rtc
+webrtc
 :
 :
 VideoSourceInterface

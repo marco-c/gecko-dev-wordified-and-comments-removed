@@ -121,9 +121,6 @@ test
 namespace
 {
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

@@ -31,9 +31,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 EncodeUsageResource
@@ -54,9 +51,6 @@ overuse_detector
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 EncodeUsageResource

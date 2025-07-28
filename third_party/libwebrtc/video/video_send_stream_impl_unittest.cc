@@ -881,7 +881,7 @@ GetSentRtpPacketInfos
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 ArrayView

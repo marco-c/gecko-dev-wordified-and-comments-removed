@@ -77,9 +77,6 @@ Resource
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 PixelLimitResource

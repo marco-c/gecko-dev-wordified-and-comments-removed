@@ -558,9 +558,6 @@ public
 explicit
 InitialFrameDropper
 (
-rtc
-:
-:
 scoped_refptr
 <
 QualityScalerResource
@@ -1112,9 +1109,6 @@ kMaxInitialFramedrop
 4
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 QualityScalerResource
@@ -1855,9 +1849,6 @@ VideoStreamEncoderResourceManager
 :
 AddResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1940,9 +1931,6 @@ VideoStreamEncoderResourceManager
 :
 RemoveResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3089,9 +3077,6 @@ VideoStreamEncoderResourceManager
 :
 GetReasonFromResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3280,9 +3265,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3346,9 +3328,6 @@ VideoStreamEncoderResourceManager
 :
 OnResourceLimitationChanged
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3360,9 +3339,6 @@ std
 :
 map
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource

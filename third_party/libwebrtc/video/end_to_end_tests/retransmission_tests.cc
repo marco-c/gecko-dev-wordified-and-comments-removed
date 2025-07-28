@@ -318,9 +318,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -485,9 +482,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -754,9 +748,6 @@ return
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -858,9 +849,6 @@ nack_list
 1
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1119,9 +1107,6 @@ receive_streams
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1489,9 +1474,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1565,9 +1547,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1999,9 +1978,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

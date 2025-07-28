@@ -277,9 +277,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -339,9 +336,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -966,9 +960,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1050,9 +1041,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1482,9 +1470,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2174,9 +2159,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2471,9 +2453,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

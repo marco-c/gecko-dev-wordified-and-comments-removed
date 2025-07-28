@@ -124,9 +124,6 @@ QualityScalerQpUsageHandlerInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 QualityScalerResource

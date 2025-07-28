@@ -67,9 +67,6 @@ Seconds
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PixelLimitResource
@@ -88,9 +85,6 @@ input_state_provider
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 PixelLimitResource
@@ -330,9 +324,6 @@ listener_
 >
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -360,9 +351,6 @@ listener_
 >
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

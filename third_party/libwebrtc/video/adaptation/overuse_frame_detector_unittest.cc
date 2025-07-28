@@ -583,9 +583,6 @@ int
 width
 int
 height
-rtc
-:
-:
 ArrayView
 <
 const

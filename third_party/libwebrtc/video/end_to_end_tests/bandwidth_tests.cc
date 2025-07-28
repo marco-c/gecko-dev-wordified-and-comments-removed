@@ -354,9 +354,6 @@ kAbsSendTimeExtensionId
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -770,9 +767,6 @@ kMaxBitrateBps
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
