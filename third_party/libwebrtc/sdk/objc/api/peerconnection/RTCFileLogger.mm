@@ -95,7 +95,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FileRotatingLogSink
@@ -370,7 +370,7 @@ _logSink
 reset
 (
 new
-rtc
+webrtc
 :
 :
 FileRotatingLogSink
@@ -396,7 +396,7 @@ _logSink
 reset
 (
 new
-rtc
+webrtc
 :
 :
 CallSessionFileRotatingLogSink
@@ -466,7 +466,7 @@ DisableBuffering
 )
 ;
 }
-rtc
+webrtc
 :
 :
 LogMessage
@@ -477,7 +477,7 @@ LogThreads
 true
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -488,7 +488,7 @@ LogTimestamps
 true
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -532,7 +532,7 @@ RTC_DCHECK
 _logSink
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -589,7 +589,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FileRotatingStreamReader
@@ -611,7 +611,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 FileRotatingStreamReader
@@ -635,7 +635,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 CallSessionFileRotatingStreamReader
@@ -741,7 +741,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -757,7 +757,7 @@ case
 RTCFileLoggerSeverityVerbose
 :
 return
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -766,7 +766,7 @@ case
 RTCFileLoggerSeverityInfo
 :
 return
-rtc
+webrtc
 :
 :
 LS_INFO
@@ -775,7 +775,7 @@ case
 RTCFileLoggerSeverityWarning
 :
 return
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -784,7 +784,7 @@ case
 RTCFileLoggerSeverityError
 :
 return
-rtc
+webrtc
 :
 :
 LS_ERROR

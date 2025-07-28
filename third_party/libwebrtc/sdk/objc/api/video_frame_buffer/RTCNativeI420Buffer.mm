@@ -274,7 +274,7 @@ instancetype
 initWithFrameBuffer
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -511,7 +511,7 @@ int
 )
 scaleHeight
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -556,7 +556,7 @@ Type
 kI420
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -622,7 +622,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -856,7 +856,7 @@ disregard_next_render_error_
 SequenceChecker
 io_thread_checker_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -891,7 +891,7 @@ FineAudioBuffer
 >
 fine_audio_buffer_
 ;
-rtc
+webrtc
 :
 :
 BufferT
@@ -981,7 +981,7 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

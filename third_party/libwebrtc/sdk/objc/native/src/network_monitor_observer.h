@@ -73,11 +73,11 @@ std
 :
 :
 string
-rtc
+webrtc
 :
 :
 AdapterType
-rtc
+webrtc
 :
 :
 AbslStringViewCmp

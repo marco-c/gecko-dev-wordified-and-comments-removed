@@ -312,7 +312,7 @@ return
 height_
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -327,7 +327,7 @@ ToI420
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -342,7 +342,7 @@ toI420
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -393,7 +393,7 @@ scaleHeight
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -469,7 +469,7 @@ RTCVideoFrameBuffer
 ToObjCVideoFrameBuffer
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -229,7 +229,7 @@ if
 self
 )
 {
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -402,7 +402,7 @@ RTCPeerConnectionFactory
 *
 _factory
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -791,7 +791,7 @@ factory
 nativeDataChannel
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

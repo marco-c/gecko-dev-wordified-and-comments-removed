@@ -365,7 +365,7 @@ XCTestCase
 bool
 _testEnabled
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -986,7 +986,7 @@ XCTSkipIf
 _testEnabled
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

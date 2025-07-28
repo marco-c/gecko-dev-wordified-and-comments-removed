@@ -72,7 +72,7 @@ class
 ObjCVideoTrackSource
 :
 public
-rtc
+webrtc
 :
 :
 AdaptedVideoTrackSource
@@ -156,13 +156,13 @@ fps
 ;
 private
 :
-rtc
+webrtc
 :
 :
 VideoBroadcaster
 broadcaster_
 ;
-rtc
+webrtc
 :
 :
 TimestampAligner

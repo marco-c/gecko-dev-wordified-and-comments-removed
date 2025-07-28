@@ -61,7 +61,7 @@ instancetype
 initWithAudioDeviceModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -2519,7 +2519,7 @@ frame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -2588,7 +2588,7 @@ frame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -4070,7 +4070,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Buffer
@@ -4082,7 +4082,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 Buffer

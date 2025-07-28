@@ -56,7 +56,7 @@ override
 void
 OnAddStream
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -70,7 +70,7 @@ override
 void
 OnRemoveStream
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -84,7 +84,7 @@ override
 void
 OnTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -98,7 +98,7 @@ override
 void
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -209,7 +209,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate
@@ -223,7 +223,7 @@ void
 OnIceSelectedCandidatePairChanged
 (
 const
-cricket
+webrtc
 :
 :
 CandidatePairChangeEvent
@@ -235,7 +235,7 @@ override
 void
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -249,7 +249,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -265,7 +265,7 @@ override
 void
 OnRemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -319,7 +319,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr

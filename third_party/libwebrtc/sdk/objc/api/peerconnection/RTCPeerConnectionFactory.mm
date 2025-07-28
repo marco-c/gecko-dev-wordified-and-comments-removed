@@ -418,7 +418,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -430,7 +430,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -442,7 +442,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -460,7 +460,7 @@ _nativeFactory
 ;
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -835,7 +835,7 @@ self
 {
 _networkThread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -887,7 +887,7 @@ thread
 ;
 _workerThread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -938,7 +938,7 @@ thread
 ;
 _signalingThread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -1144,7 +1144,7 @@ instancetype
 initWithNativeAudioEncoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1159,7 +1159,7 @@ audioEncoderFactory
 nativeAudioDecoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1214,7 +1214,7 @@ audioDeviceModule
 audioProcessingModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1339,7 +1339,7 @@ instancetype
 initWithNativeAudioEncoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1354,7 +1354,7 @@ audioEncoderFactory
 nativeAudioDecoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1409,7 +1409,7 @@ audioDeviceModule
 audioProcessingModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1849,7 +1849,7 @@ constraints
 nativeConstraints
 ;
 }
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -1866,7 +1866,7 @@ get
 options
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2568,7 +2568,7 @@ NO
 }
 -
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -2586,7 +2586,7 @@ get
 }
 -
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -2604,7 +2604,7 @@ get
 }
 -
 (
-rtc
+webrtc
 :
 :
 Thread

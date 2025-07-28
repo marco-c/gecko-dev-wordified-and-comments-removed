@@ -38,7 +38,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -53,7 +53,7 @@ bypass_voice_processing
 false
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -73,7 +73,7 @@ bypass_voice_processing
 false
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

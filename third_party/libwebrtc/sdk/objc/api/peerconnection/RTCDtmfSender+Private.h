@@ -42,7 +42,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -68,7 +68,7 @@ instancetype
 initWithNativeDtmfSender
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

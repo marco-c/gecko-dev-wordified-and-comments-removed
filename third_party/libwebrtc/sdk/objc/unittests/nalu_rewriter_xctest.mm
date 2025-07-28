@@ -1635,7 +1635,7 @@ expected_annex_b_data
 0xFF
 }
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -1775,7 +1775,7 @@ expected_annex_b_data
 0xFF
 }
 ;
-rtc
+webrtc
 :
 :
 Buffer

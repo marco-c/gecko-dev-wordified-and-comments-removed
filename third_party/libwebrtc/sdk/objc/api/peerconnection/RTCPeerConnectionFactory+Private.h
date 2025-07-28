@@ -45,7 +45,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -62,7 +62,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 Thread
@@ -74,7 +74,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 Thread
@@ -86,7 +86,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 Thread

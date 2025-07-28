@@ -461,7 +461,7 @@ alloc
 ]
 initWithAudioDeviceModule
 :
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1212,7 +1212,7 @@ static_cast
 uint16_t
 >
 (
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -2058,7 +2058,7 @@ static_cast
 int
 >
 (
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -2451,7 +2451,7 @@ record_fine_audio_buffer_
 >
 DeliverRecordedData
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2789,7 +2789,7 @@ playout_fine_audio_buffer_
 >
 GetPlayoutData
 (
-rtc
+webrtc
 :
 :
 ArrayView

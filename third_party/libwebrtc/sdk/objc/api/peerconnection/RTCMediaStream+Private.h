@@ -27,7 +27,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -78,7 +78,7 @@ factory
 nativeMediaStream
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

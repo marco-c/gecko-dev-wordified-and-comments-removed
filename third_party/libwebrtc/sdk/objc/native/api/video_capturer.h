@@ -43,7 +43,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -61,13 +61,13 @@ RTCVideoCapturer
 )
 *
 objc_video_capturer
-rtc
+webrtc
 :
 :
 Thread
 *
 signaling_thread
-rtc
+webrtc
 :
 :
 Thread

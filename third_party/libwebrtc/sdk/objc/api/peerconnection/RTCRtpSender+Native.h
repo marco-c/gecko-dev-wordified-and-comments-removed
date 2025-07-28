@@ -40,7 +40,7 @@ void
 setFrameEncryptor
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

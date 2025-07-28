@@ -47,20 +47,20 @@ kFramerate
 30
 ;
 static
-cricket
+webrtc
 :
 :
 VideoFormat
 expectedFormat
 =
-cricket
+webrtc
 :
 :
 VideoFormat
 (
 kFormatWidth
 kFormatHeight
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -70,7 +70,7 @@ FpsToInterval
 (
 kFramerate
 )
-cricket
+webrtc
 :
 :
 FOURCC_NV12
@@ -445,7 +445,7 @@ std
 :
 set
 <
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -516,7 +516,7 @@ std
 :
 set
 <
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -587,7 +587,7 @@ std
 :
 set
 <
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -854,7 +854,7 @@ SetFormatForCaptureDevice
 (
 mockDevice
 nil
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -980,7 +980,7 @@ SetFormatForCaptureDevice
 (
 mockDevice
 nil
-cricket
+webrtc
 :
 :
 VideoFormat

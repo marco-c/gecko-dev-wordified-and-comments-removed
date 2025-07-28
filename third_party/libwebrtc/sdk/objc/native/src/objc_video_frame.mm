@@ -96,7 +96,7 @@ timestamp_us
 (
 )
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec

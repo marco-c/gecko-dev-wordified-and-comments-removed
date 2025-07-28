@@ -26,7 +26,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -55,7 +55,7 @@ factory
 nativeAudioSource
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -86,7 +86,7 @@ factory
 nativeMediaSource
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

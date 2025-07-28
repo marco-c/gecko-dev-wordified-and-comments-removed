@@ -82,7 +82,7 @@ XCTestCase
 bool
 _testEnabled
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -505,7 +505,7 @@ audioSession
 notifyDidBeginInterruption
 ]
 ;
-rtc
+webrtc
 :
 :
 ThreadManager
@@ -541,7 +541,7 @@ notifyDidEndInterruptionWithShouldResumeSession
 YES
 ]
 ;
-rtc
+webrtc
 :
 :
 ThreadManager

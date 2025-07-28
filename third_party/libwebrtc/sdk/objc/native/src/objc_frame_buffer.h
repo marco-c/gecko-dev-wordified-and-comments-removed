@@ -93,7 +93,7 @@ height
 const
 override
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -105,7 +105,7 @@ ToI420
 )
 override
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -170,7 +170,7 @@ RTCVideoFrameBuffer
 ToObjCVideoFrameBuffer
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

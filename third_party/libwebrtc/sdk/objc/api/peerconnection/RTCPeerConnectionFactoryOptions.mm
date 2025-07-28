@@ -30,7 +30,7 @@ PeerConnectionFactoryInterface
 Options
 *
 options
-rtc
+webrtc
 :
 :
 AdapterType
@@ -161,7 +161,7 @@ setNetworkBit
 (
 &
 options
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_LOOPBACK
@@ -174,7 +174,7 @@ setNetworkBit
 (
 &
 options
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_VPN
@@ -187,7 +187,7 @@ setNetworkBit
 (
 &
 options
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_CELLULAR
@@ -200,7 +200,7 @@ setNetworkBit
 (
 &
 options
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_WIFI
@@ -213,7 +213,7 @@ setNetworkBit
 (
 &
 options
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_ETHERNET

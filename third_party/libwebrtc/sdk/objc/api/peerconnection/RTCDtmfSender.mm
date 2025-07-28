@@ -51,7 +51,7 @@ RTC_OBJC_TYPE
 RTCDtmfSender
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -122,7 +122,7 @@ int
 (
 duration
 *
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -138,7 +138,7 @@ int
 (
 interToneGap
 *
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -203,7 +203,7 @@ duration
 )
 )
 /
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -229,7 +229,7 @@ inter_tone_gap
 )
 )
 /
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -300,7 +300,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -324,7 +324,7 @@ instancetype
 initWithNativeDtmfSender
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

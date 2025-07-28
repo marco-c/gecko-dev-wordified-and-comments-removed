@@ -761,7 +761,7 @@ Detach
 ;
 thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -2546,7 +2546,7 @@ const
 int64_t
 now_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2761,7 +2761,7 @@ fine_audio_buffer_
 >
 GetPlayoutData
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3746,7 +3746,7 @@ last_output_volume_change_time_
 0
 &
 &
-rtc
+webrtc
 :
 :
 TimeSince
@@ -3878,7 +3878,7 @@ detected
 ;
 last_output_volume_change_time_
 =
-rtc
+webrtc
 :
 :
 TimeMillis

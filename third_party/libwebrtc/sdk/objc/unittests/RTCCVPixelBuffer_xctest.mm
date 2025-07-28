@@ -1008,7 +1008,7 @@ NULL
 pixelBufferRef
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1378,7 +1378,7 @@ NULL
 pixelBufferRef
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1919,7 +1919,7 @@ OSType
 )
 pixelFormat
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2059,7 +2059,7 @@ ToI420WithCropAndScaleSetting
 )
 setting
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

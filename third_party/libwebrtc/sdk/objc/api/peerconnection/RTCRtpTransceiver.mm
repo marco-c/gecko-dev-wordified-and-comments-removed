@@ -243,7 +243,7 @@ RTCPeerConnectionFactory
 *
 _factory
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1161,7 +1161,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1195,7 +1195,7 @@ factory
 nativeRtpTransceiver
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

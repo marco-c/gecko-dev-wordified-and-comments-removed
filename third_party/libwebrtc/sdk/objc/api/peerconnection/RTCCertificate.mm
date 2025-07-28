@@ -172,13 +172,13 @@ NSDictionary
 )
 params
 {
-rtc
+webrtc
 :
 :
 KeyType
 keyType
 =
-rtc
+webrtc
 :
 :
 KT_ECDSA
@@ -217,7 +217,7 @@ v1_5
 {
 keyType
 =
-rtc
+webrtc
 :
 :
 KT_RSA
@@ -236,12 +236,12 @@ expires
 "
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -268,7 +268,7 @@ unsignedLongLongValue
 ;
 cc_certificate
 =
-rtc
+webrtc
 :
 :
 RTCCertificateGenerator
@@ -276,7 +276,7 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
+webrtc
 :
 :
 KeyParams
@@ -291,7 +291,7 @@ else
 {
 cc_certificate
 =
-rtc
+webrtc
 :
 :
 RTCCertificateGenerator
@@ -299,7 +299,7 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
+webrtc
 :
 :
 KeyParams
@@ -334,7 +334,7 @@ return
 nullptr
 ;
 }
-rtc
+webrtc
 :
 :
 RTCCertificatePEM

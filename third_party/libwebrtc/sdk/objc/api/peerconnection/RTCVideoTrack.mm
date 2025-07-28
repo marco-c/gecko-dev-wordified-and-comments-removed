@@ -62,7 +62,7 @@ RTC_OBJC_TYPE
 RTCVideoTrack
 )
 {
-rtc
+webrtc
 :
 :
 Thread
@@ -141,7 +141,7 @@ stdStringForString
 trackId
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -212,7 +212,7 @@ factory
 nativeTrack
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -332,7 +332,7 @@ if
 _source
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -508,7 +508,7 @@ AddOrUpdateSink
 adapter
 .
 nativeVideoRenderer
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -684,7 +684,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -698,7 +698,7 @@ VideoTrackInterface
 nativeVideoTrack
 {
 return
-rtc
+webrtc
 :
 :
 scoped_refptr

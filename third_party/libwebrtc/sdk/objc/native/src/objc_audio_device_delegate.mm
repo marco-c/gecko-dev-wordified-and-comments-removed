@@ -114,7 +114,7 @@ AudioDeviceDelegateImpl
 final
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual
@@ -126,7 +126,7 @@ public
 :
 AudioDeviceDelegateImpl
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -140,7 +140,7 @@ objc_adm
 ObjCAudioDeviceModule
 >
 audio_device_module
-rtc
+webrtc
 :
 :
 Thread
@@ -189,7 +189,7 @@ get
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -215,7 +215,7 @@ nullptr
 }
 private
 :
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -230,7 +230,7 @@ ObjCAudioDeviceModule
 >
 audio_device_module_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -243,7 +243,7 @@ thread_
 implementation
 ObjCAudioDeviceDelegate
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -290,7 +290,7 @@ instancetype
 initWithAudioDeviceModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -308,7 +308,7 @@ audioDeviceModule
 audioDeviceThread
 :
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -335,7 +335,7 @@ self
 {
 impl_
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -363,7 +363,7 @@ preferredOutputIOBufferDuration_
 =
 kPeferredOutputIOBufferDuration
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -461,7 +461,7 @@ noErr
 }
 }
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -769,7 +769,7 @@ dispatch_block_t
 )
 block
 {
-rtc
+webrtc
 :
 :
 Thread
@@ -819,7 +819,7 @@ dispatch_block_t
 )
 block
 {
-rtc
+webrtc
 :
 :
 Thread

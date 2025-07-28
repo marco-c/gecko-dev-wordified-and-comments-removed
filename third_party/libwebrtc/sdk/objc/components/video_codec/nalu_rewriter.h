@@ -74,7 +74,7 @@ CMSampleBufferRef
 avcc_sample_buffer
 bool
 is_keyframe
-rtc
+webrtc
 :
 :
 Buffer

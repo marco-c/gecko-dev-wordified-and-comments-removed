@@ -858,7 +858,7 @@ FineAudioBuffer
 >
 playout_fine_audio_buffer_
 ;
-rtc
+webrtc
 :
 :
 BufferT

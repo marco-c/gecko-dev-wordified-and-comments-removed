@@ -43,7 +43,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -71,7 +71,7 @@ defined
 WEBRTC_IOS
 )
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -117,7 +117,7 @@ nullptr
 #
 endif
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -152,7 +152,7 @@ bypass_voice_processing
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -187,7 +187,7 @@ defined
 WEBRTC_IOS
 )
 return
-rtc
+webrtc
 :
 :
 make_ref_counted

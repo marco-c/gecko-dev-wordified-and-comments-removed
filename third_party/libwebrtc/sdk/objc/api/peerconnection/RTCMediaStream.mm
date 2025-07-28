@@ -67,7 +67,7 @@ RTCPeerConnectionFactory
 *
 _factory
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -82,7 +82,7 @@ NSMutableArray
 *
 _videoTracks
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -142,7 +142,7 @@ stdStringForString
 streamId
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -742,7 +742,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -776,7 +776,7 @@ factory
 nativeMediaStream
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
