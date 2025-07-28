@@ -582,9 +582,6 @@ num_samples_
 1
 &
 &
-rtc
-:
-:
 SafeLt
 (
 active_window_size

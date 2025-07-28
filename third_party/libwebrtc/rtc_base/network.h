@@ -1484,9 +1484,6 @@ static
 bool
 IsVpnMacAddress
 (
-rtc
-:
-:
 ArrayView
 <
 const

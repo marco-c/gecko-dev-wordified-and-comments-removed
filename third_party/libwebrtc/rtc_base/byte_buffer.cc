@@ -93,9 +93,6 @@ ByteBufferReader
 :
 ByteBufferReader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -707,9 +704,6 @@ ByteBufferReader
 :
 ReadBytes
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

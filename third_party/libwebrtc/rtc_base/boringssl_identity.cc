@@ -1003,9 +1003,6 @@ CRYPTO_BUFFER_new
 (
 data
 len
-rtc
-:
-:
 openssl
 :
 :
@@ -1336,9 +1333,6 @@ nullptr
 )
 )
 {
-rtc
-:
-:
 openssl
 :
 :

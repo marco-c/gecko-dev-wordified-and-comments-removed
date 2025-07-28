@@ -965,9 +965,6 @@ Thread
 *
 current
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1264,9 +1261,6 @@ thread
 ;
 }
 void
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -4555,9 +4549,6 @@ CurrentThread
 (
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -4571,9 +4562,6 @@ SetCurrentThread
 nullptr
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -4636,9 +4624,6 @@ DoDestroy
 (
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -4652,9 +4637,6 @@ SetCurrentThread
 nullptr
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

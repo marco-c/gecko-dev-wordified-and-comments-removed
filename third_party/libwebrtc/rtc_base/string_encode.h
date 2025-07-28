@@ -159,9 +159,6 @@ delimiter
 size_t
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -177,9 +174,6 @@ source
 size_t
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char

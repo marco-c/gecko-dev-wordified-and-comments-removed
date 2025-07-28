@@ -517,9 +517,6 @@ arg_values
 uint64_t
 timestamp
 int
-rtc
-:
-:
 PlatformThreadId
 thread_id
 )
@@ -1363,9 +1360,6 @@ timestamp
 int
 pid
 ;
-rtc
-:
-:
 PlatformThreadId
 tid
 ;

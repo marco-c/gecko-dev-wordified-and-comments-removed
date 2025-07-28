@@ -89,9 +89,6 @@ kSrtpEncrypted
 ;
 ReceivedIpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -157,9 +154,6 @@ return
 source_address_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -289,9 +283,6 @@ SocketAddress
 )
 ;
 private
-:
-rtc
-:
 :
 ArrayView
 <

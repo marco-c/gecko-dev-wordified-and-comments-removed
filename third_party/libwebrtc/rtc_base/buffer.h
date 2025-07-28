@@ -1850,9 +1850,6 @@ written_elements
 =
 setter
 (
-rtc
-:
-:
 ArrayView
 <
 U

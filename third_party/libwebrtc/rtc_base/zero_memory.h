@@ -82,9 +82,6 @@ nullptr
 void
 ExplicitZeroMemory
 (
-rtc
-:
-:
 ArrayView
 <
 T

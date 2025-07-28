@@ -149,9 +149,6 @@ override
 StreamResult
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -169,9 +166,6 @@ override
 StreamResult
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const

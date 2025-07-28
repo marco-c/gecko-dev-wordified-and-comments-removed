@@ -100,7 +100,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 IPAddress
@@ -418,9 +418,6 @@ AsyncDnsResolver
 State
 :
 public
-rtc
-:
-:
 RefCountedBase
 {
 public
@@ -435,9 +432,6 @@ kDead
 }
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AsyncDnsResolver
@@ -450,9 +444,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 AsyncDnsResolver

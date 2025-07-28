@@ -297,9 +297,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 PlatformThreadId
 >
 thread_id
@@ -438,9 +435,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 PlatformThreadId
 >
 thread_id
@@ -512,9 +506,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 PlatformThreadId
 >
 thread_id_

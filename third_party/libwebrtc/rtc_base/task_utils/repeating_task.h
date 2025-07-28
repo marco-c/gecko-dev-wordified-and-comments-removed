@@ -282,9 +282,6 @@ private
 explicit
 RepeatingTaskHandle
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -304,9 +301,6 @@ alive_flag
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

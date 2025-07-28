@@ -818,9 +818,6 @@ class
 FakeNetworkMonitorFactory
 :
 public
-rtc
-:
-:
 NetworkMonitorFactory
 {
 public
@@ -1385,17 +1382,11 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 IfAddrsConverter
 >
 ifaddrs_converter
 (
 new
-rtc
-:
-:
 IfAddrsConverter
 (
 )
@@ -11863,9 +11854,6 @@ NetworkManagerBase
 :
 IsVpnMacAddress
 (
-rtc
-:
-:
 ArrayView
 <
 const

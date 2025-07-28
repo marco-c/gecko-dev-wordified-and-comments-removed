@@ -242,7 +242,7 @@ overflows
 "
 ;
 return
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -426,7 +426,7 @@ ticks
 =
 ticks
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec

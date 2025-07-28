@@ -1339,7 +1339,7 @@ WrapUnique
 (
 static_cast
 <
-rtc
+webrtc
 :
 :
 OpenSSLIdentity
@@ -3564,9 +3564,6 @@ host
 bool
 is_valid_cert_name
 =
-rtc
-:
-:
 openssl
 :
 :
@@ -4426,9 +4423,6 @@ CRYPTO_BUFFER_new
 (
 data
 length
-rtc
-:
-:
 openssl
 :
 :
@@ -4478,7 +4472,7 @@ crypto_buffer
 #
 else
 const
-rtc
+webrtc
 :
 :
 OpenSSLCertificate
@@ -4756,9 +4750,6 @@ WEBRTC_EXCLUDE_BUILT_IN_SSL_ROOT_CERTS
 if
 (
 !
-rtc
-:
-:
 openssl
 :
 :
@@ -4824,9 +4815,6 @@ OPENSSL_IS_BORINGSSL
 SSL_CTX_set0_buffer_pool
 (
 ctx
-rtc
-:
-:
 openssl
 :
 :

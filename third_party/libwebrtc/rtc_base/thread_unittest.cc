@@ -520,17 +520,11 @@ RegisterReceivedPacketCallback
 &
 ]
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )
@@ -577,10 +571,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )
@@ -1087,7 +1078,7 @@ RTC_LOG_THREAD_BLOCK_COUNT
 #
 if
 RTC_DCHECK_IS_ON
-rtc
+webrtc
 :
 :
 Thread
@@ -1306,7 +1297,7 @@ ThreadTest
 CountBlockingCallsOneCallback
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -1318,7 +1309,7 @@ was_called_back
 false
 ;
 {
-rtc
+webrtc
 :
 :
 Thread
@@ -1369,7 +1360,7 @@ ThreadTest
 CountBlockingCallsSkipCallback
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -1381,7 +1372,7 @@ was_called_back
 false
 ;
 {
-rtc
+webrtc
 :
 :
 Thread
@@ -1671,7 +1662,7 @@ ThreadTest
 InvokeToThreadAllowedReturnsTrueWithoutPolicies
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -1740,7 +1731,7 @@ ThreadTest
 InvokeAllowedWhenThreadsAdded
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -1883,7 +1874,7 @@ ThreadTest
 InvokesDisallowedWhenDisallowAllInvokes
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -3519,9 +3510,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3585,9 +3573,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3671,9 +3656,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3763,9 +3745,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3855,9 +3834,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3934,9 +3910,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4019,9 +3992,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4104,9 +4074,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4202,9 +4169,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4281,9 +4245,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4412,9 +4373,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4501,9 +4459,6 @@ Thread
 >
 background_thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -4682,9 +4637,6 @@ Thread
 >
 thread
 (
-rtc
-:
-:
 Thread
 :
 :

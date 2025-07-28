@@ -366,9 +366,6 @@ value_len
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -400,9 +397,6 @@ SSLFingerprint
 >
 (
 algorithm
-rtc
-:
-:
 ArrayView
 <
 const
@@ -544,9 +538,6 @@ absl
 :
 string_view
 algorithm
-rtc
-:
-:
 ArrayView
 <
 const

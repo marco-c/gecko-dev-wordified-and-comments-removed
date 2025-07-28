@@ -70,9 +70,6 @@ public
 explicit
 SimpleStringBuilder
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -311,9 +308,6 @@ size_
 ;
 }
 const
-rtc
-:
-:
 ArrayView
 <
 char

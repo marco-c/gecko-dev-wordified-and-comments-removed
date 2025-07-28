@@ -20,9 +20,6 @@ class
 TestCertificateVerifier
 :
 public
-rtc
-:
-:
 SSLCertificateVerifier
 {
 public
@@ -45,9 +42,6 @@ bool
 Verify
 (
 const
-rtc
-:
-:
 SSLCertificate
 &
 certificate

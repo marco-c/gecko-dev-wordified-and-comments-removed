@@ -87,9 +87,6 @@ access_count_
 ;
 mutable
 volatile
-rtc
-:
-:
 PlatformThreadRef
 accessing_thread_
 ;

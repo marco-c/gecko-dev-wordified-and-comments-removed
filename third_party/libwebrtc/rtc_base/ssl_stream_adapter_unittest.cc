@@ -1567,7 +1567,7 @@ webrtc
 StreamResult
 Read
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1602,7 +1602,7 @@ webrtc
 StreamResult
 Write
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1818,7 +1818,7 @@ webrtc
 StreamResult
 Read
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2059,7 +2059,7 @@ webrtc
 StreamResult
 WriteData
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2094,7 +2094,7 @@ webrtc
 StreamResult
 Write
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2285,7 +2285,7 @@ webrtc
 StreamResult
 Read
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2361,7 +2361,7 @@ webrtc
 StreamResult
 Write
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -4671,7 +4671,7 @@ from
 >
 WriteData
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -4694,7 +4694,7 @@ from
 >
 WriteData
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -5609,7 +5609,7 @@ client_ssl_
 >
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -6142,7 +6142,7 @@ SSLDummyStream
 :
 Write
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -8281,7 +8281,7 @@ salt_len
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ZeroOnFreeBuffer
@@ -8299,7 +8299,7 @@ salt_len
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ZeroOnFreeBuffer
@@ -9095,7 +9095,7 @@ pqc_trial
 auto
 client_identity
 =
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -9112,7 +9112,7 @@ client_key_type_
 auto
 server_identity
 =
-rtc
+webrtc
 :
 :
 SSLIdentity

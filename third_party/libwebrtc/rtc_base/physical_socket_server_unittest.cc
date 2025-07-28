@@ -507,9 +507,6 @@ private
 NetworkBindingResult
 result_
 =
-rtc
-:
-:
 NetworkBindingResult
 :
 :

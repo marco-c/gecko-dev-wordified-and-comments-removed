@@ -280,9 +280,6 @@ OperationsChain
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 OperationsChain

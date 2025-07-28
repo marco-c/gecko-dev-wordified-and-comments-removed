@@ -574,9 +574,6 @@ kSslClientHello
 0xea
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -688,9 +685,6 @@ kSslServerHello
 0x00
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const

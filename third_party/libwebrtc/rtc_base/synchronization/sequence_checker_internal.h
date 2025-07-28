@@ -134,9 +134,6 @@ lock_
 )
 ;
 mutable
-rtc
-:
-:
 PlatformThreadRef
 valid_thread_
 RTC_GUARDED_BY

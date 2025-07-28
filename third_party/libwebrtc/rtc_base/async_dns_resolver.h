@@ -216,9 +216,6 @@ State
 ScopedTaskSafety
 safety_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 State

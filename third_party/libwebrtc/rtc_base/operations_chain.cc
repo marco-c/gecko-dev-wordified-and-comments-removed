@@ -277,9 +277,6 @@ return
 [
 handle
 =
-rtc
-:
-:
 make_ref_counted
 <
 CallbackHandle

@@ -597,9 +597,6 @@ PlusInfinityVal
 return
 Unit_T
 (
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -704,9 +701,6 @@ else
 return
 FromValue
 (
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -793,9 +787,6 @@ denominator
 return
 Unit_T
 (
-rtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -898,9 +889,6 @@ IsFinite
 )
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 T
@@ -1049,9 +1037,6 @@ IsFinite
 )
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 T
@@ -1227,9 +1212,6 @@ Factor
 )
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 T

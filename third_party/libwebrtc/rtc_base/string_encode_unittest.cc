@@ -160,9 +160,6 @@ dec_res_
 =
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -244,9 +241,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -305,9 +299,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -364,9 +355,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -428,9 +416,6 @@ dec_res_
 =
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -479,9 +464,6 @@ dec_res_
 =
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -533,9 +515,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -566,9 +545,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -609,9 +585,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -642,9 +615,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -675,9 +645,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -720,9 +687,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -763,9 +727,6 @@ dec_res_
 =
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char

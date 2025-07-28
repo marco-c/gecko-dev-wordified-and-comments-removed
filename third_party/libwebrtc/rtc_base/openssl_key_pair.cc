@@ -501,9 +501,6 @@ if
 pkey
 )
 {
-rtc
-:
-:
 openssl
 :
 :

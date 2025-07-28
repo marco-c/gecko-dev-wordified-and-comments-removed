@@ -66,9 +66,6 @@ protected
 explicit
 SocketTest
 (
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -489,9 +486,6 @@ IPAddress
 loopback
 )
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory_

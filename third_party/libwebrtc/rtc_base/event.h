@@ -310,7 +310,7 @@ RTC_DCHECK_NOTREACHED
 }
 handler_
 ;
-rtc
+webrtc
 :
 :
 ScopedYieldPolicy

@@ -1052,9 +1052,6 @@ WriteBits
 BitstreamReader
 reader
 (
-rtc
-:
-:
 MakeArrayView
 (
 bytes

@@ -37,9 +37,6 @@ Acquire
 const
 {
 const
-rtc
-:
-:
 PlatformThreadRef
 current_thread
 =
@@ -71,9 +68,6 @@ accessing_thread_
 current_thread
 ;
 const
-rtc
-:
-:
 PlatformThreadRef
 accessing_thread
 =

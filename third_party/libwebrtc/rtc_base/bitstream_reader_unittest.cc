@@ -1229,9 +1229,6 @@ ReadZeroBits
 BitstreamReader
 reader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1273,9 +1270,6 @@ ReadBitFromEmptyArray
 BitstreamReader
 reader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1316,9 +1310,6 @@ ReadBitsFromEmptyArray
 BitstreamReader
 reader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2100,9 +2091,6 @@ bytes
 BitstreamReader
 reader1
 (
-rtc
-:
-:
 MakeArrayView
 (
 bytes
@@ -2128,9 +2116,6 @@ Ok
 BitstreamReader
 reader2
 (
-rtc
-:
-:
 MakeArrayView
 (
 bytes

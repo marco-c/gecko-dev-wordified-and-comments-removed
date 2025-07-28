@@ -75,9 +75,6 @@ task
 Clock
 *
 clock
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -167,9 +164,6 @@ RTC_GUARDED_BY
 task_queue_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -210,9 +204,6 @@ task
 Clock
 *
 clock
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

@@ -207,9 +207,6 @@ divisor
 ;
 if
 (
-rtc
-:
-:
 SafeGt
 (
 -
@@ -254,9 +251,6 @@ divisor
 ;
 if
 (
-rtc
-:
-:
 SafeGt
 (
 remainder
