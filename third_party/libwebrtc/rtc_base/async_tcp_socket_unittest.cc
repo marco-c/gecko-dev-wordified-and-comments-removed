@@ -36,7 +36,7 @@ virtual_socket_server
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 AsyncTCPSocketTest

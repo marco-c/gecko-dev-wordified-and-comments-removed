@@ -638,7 +638,7 @@ dip_to_pixel_scale
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -713,7 +713,7 @@ height
 )
 ;
 return
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -736,7 +736,7 @@ ScreenCapturerMac
 :
 ScreenCapturerMac
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -997,9 +997,6 @@ CaptureFrame
 int64_t
 capture_start_time_nanos
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1360,7 +1357,7 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -1822,7 +1819,7 @@ top
 DesktopRect
 excluded_window_bounds
 ;
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -2026,7 +2023,7 @@ get
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -2478,7 +2475,7 @@ frame_surface
 }
 }
 ;
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -2781,7 +2778,7 @@ desktop_frame_provider_
 InvalidateIOSurface
 (
 display_id
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -2790,7 +2787,7 @@ IOSurfaceRef
 >
 (
 io_surface
-rtc
+webrtc
 :
 :
 RetainPolicy

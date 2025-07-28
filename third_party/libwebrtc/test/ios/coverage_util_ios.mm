@@ -26,7 +26,7 @@ name
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 test

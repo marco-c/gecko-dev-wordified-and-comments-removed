@@ -140,13 +140,6 @@ class
 VideoCaptureModule
 ;
 }
-namespace
-cricket
-{
-class
-VideoRenderer
-;
-}
 class
 Conductor
 :

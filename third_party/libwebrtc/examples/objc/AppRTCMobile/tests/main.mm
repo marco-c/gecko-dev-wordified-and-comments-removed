@@ -30,7 +30,7 @@ argv
 ]
 )
 {
-rtc
+webrtc
 :
 :
 test

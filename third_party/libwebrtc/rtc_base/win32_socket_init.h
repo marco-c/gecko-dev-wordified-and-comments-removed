@@ -31,7 +31,7 @@ win32
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 WinsockInitializer

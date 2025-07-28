@@ -160,13 +160,6 @@ sigslot
 h
 "
 namespace
-rtc
-{
-struct
-PacketOptions
-;
-}
-namespace
 webrtc
 {
 class

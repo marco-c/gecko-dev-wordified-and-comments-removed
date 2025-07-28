@@ -176,9 +176,6 @@ public
 :
 ScreenCapturerMac
 (
-rtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -365,9 +362,6 @@ helper_
 DesktopRegion
 last_invalid_region_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor

@@ -20,7 +20,7 @@ include
 vector
 >
 namespace
-rtc
+webrtc
 {
 namespace
 test

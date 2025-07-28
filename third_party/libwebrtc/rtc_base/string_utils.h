@@ -78,17 +78,6 @@ include
 <
 string
 >
-#
-include
-"
-absl
-/
-strings
-/
-string_view
-.
-h
-"
 namespace
 webrtc
 {

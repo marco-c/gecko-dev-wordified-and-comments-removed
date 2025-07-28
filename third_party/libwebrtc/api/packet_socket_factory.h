@@ -72,13 +72,6 @@ rtc_export
 h
 "
 namespace
-rtc
-{
-class
-AsyncResolverInterface
-;
-}
-namespace
 webrtc
 {
 struct

@@ -120,16 +120,6 @@ thread_annotations
 h
 "
 namespace
-rtc
-{
-struct
-PacketOptions
-;
-struct
-SentPacket
-;
-}
-namespace
 webrtc
 {
 class

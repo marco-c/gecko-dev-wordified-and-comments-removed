@@ -45,7 +45,7 @@ Windows
 #
 endif
 namespace
-rtc
+webrtc
 {
 class
 Win32Test

@@ -381,7 +381,7 @@ init
 if
 (
 !
-rtc
+webrtc
 :
 :
 test
@@ -422,7 +422,7 @@ BOOL
 supportsRunningGoogleTests
 {
 return
-rtc
+webrtc
 :
 :
 test
@@ -439,7 +439,7 @@ int
 )
 runGoogleTests
 {
-rtc
+webrtc
 :
 :
 test
@@ -881,7 +881,7 @@ runTests
 RTC_DCHECK
 (
 !
-rtc
+webrtc
 :
 :
 test
@@ -892,7 +892,7 @@ ShouldRunIOSUnittestsWithXCTest
 )
 )
 ;
-rtc
+webrtc
 :
 :
 test
@@ -948,7 +948,7 @@ exitStatus
 }
 end
 namespace
-rtc
+webrtc
 {
 namespace
 test

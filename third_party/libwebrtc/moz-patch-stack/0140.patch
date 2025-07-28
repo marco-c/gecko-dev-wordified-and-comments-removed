@@ -339,10 +339,10 @@ screen_capturer_sck
 .
 mm
 index
-ecd818ee91
+ba1d7cf169
 .
 .
-080ab23395
+4c98e17aa7
 100644
 -
 -
@@ -1163,9 +1163,6 @@ IOSurfaceRef
 scoped_io_surface
 (
 io_surface
-rtc
-:
-:
 RetainPolicy
 :
 :

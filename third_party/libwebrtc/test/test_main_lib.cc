@@ -835,9 +835,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 WinsockInitializer
 >
 (
@@ -1082,9 +1079,6 @@ defined
 (
 WEBRTC_IOS
 )
-rtc
-:
-:
 test
 :
 :
@@ -1117,9 +1111,6 @@ FLAGS_webrtc_test_metrics_output_path
 metrics_to_plot
 )
 ;
-rtc
-:
-:
 test
 :
 :
@@ -1529,9 +1520,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 WinsockInitializer
 >
 winsock_init_
