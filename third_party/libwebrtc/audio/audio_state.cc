@@ -486,7 +486,6 @@ StartPlayout
 )
 ;
 }
-}
 else
 {
 RTC_DLOG_F
@@ -503,6 +502,7 @@ playout
 .
 "
 ;
+}
 }
 }
 UpdateNullAudioPollerState
@@ -795,7 +795,6 @@ StartRecording
 )
 ;
 }
-}
 else
 {
 RTC_DLOG_F
@@ -812,6 +811,7 @@ recording
 .
 "
 ;
+}
 }
 }
 }
