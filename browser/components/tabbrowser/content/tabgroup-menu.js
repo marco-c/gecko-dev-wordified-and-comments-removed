@@ -5208,6 +5208,16 @@ then
 =
 >
 {
+if
+(
+this
+.
+activeGroup
+?
+.
+tabs
+)
+{
 saveAndCloseGroup
 .
 disabled
@@ -5224,6 +5234,7 @@ activeGroup
 tabs
 )
 ;
+}
 }
 )
 ;
