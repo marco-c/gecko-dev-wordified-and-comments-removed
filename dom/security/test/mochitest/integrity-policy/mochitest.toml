@@ -13,6 +13,17 @@ enabled
 =
 true
 "
+"
+security
+.
+integrity_policy
+.
+stylesheet
+.
+enabled
+=
+true
+"
 ]
 [
 "
