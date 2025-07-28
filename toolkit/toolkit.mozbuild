@@ -331,6 +331,14 @@ OS_TARGET
 Android
 "
 :
+if
+CONFIG
+[
+"
+MOZ_BSPATCH
+"
+]
+:
 DIRS
 +
 =
