@@ -223,7 +223,7 @@ LeaveFeedbackButtonClicked
 {
 CustomReviewPrompt
 .
-openMozillaConnectClicked
+leaveFeedbackClicked
 .
 record
 (

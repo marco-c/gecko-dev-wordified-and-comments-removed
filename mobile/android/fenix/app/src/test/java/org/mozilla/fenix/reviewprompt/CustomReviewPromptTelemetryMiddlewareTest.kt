@@ -435,7 +435,7 @@ LeaveFeedbackButtonClicked
 is
 dispatched
 THEN
-openMozillaConnectClicked
+leaveFeedbackClicked
 event
 is
 recorded
@@ -446,7 +446,7 @@ assertNull
 (
 CustomReviewPrompt
 .
-openMozillaConnectClicked
+leaveFeedbackClicked
 .
 testGetValue
 (
@@ -476,13 +476,13 @@ joinBlocking
 assertEventRecorded
 (
 "
-open_mozilla_connect_clicked
+leave_feedback_clicked
 "
 )
 {
 CustomReviewPrompt
 .
-openMozillaConnectClicked
+leaveFeedbackClicked
 .
 testGetValue
 (
