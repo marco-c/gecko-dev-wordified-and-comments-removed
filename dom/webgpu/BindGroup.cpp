@@ -156,16 +156,5 @@ GetClient
 mId
 )
 ;
-wgpu_client_free_bind_group_id
-(
-bridge
--
->
-GetClient
-(
-)
-mId
-)
-;
 }
 }

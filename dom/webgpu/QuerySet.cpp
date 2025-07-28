@@ -105,17 +105,6 @@ GetClient
 mId
 )
 ;
-wgpu_client_free_query_set_id
-(
-bridge
--
->
-GetClient
-(
-)
-mId
-)
-;
 }
 GPU_IMPL_CYCLE_COLLECTION
 (
