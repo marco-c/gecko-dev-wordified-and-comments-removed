@@ -33,6 +33,11 @@ TestScheduler
 cpp
 "
 "
+TestTextDirective
+.
+cpp
+"
+"
 TestXMLSerializerNoBreakLink
 .
 cpp
