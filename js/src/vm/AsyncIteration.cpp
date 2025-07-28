@@ -1432,7 +1432,7 @@ Rooted
 AsyncGeneratorRequest
 *
 >
-next
+toYield
 (
 cx
 AsyncGeneratorObject
@@ -1447,7 +1447,7 @@ generator
 if
 (
 !
-next
+toYield
 )
 {
 return
@@ -1457,7 +1457,7 @@ false
 CompletionKind
 completionKind
 =
-next
+toYield
 -
 >
 completionKind
@@ -1475,7 +1475,7 @@ RootedValue
 completionValue
 (
 cx
-next
+toYield
 -
 >
 completionValue
