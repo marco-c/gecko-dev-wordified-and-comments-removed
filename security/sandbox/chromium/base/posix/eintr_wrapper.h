@@ -15,9 +15,9 @@ h
 "
 #
 if
-defined
+BUILDFLAG
 (
-OS_POSIX
+IS_POSIX
 )
 #
 include

@@ -56,15 +56,6 @@ static
 bool
 GenerateRules
 (
-const
-wchar_t
-*
-type_name
-TargetPolicy
-:
-:
-Semantics
-semantics
 LowLevelPolicy
 *
 policy

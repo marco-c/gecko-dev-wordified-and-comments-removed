@@ -1,9 +1,9 @@
 #
 ifndef
-SANDBOX_SRC_INTERCEPTION_INTERNAL_H_
+SANDBOX_WIN_SRC_INTERCEPTION_INTERNAL_H_
 #
 define
-SANDBOX_SRC_INTERCEPTION_INTERNAL_H_
+SANDBOX_WIN_SRC_INTERCEPTION_INTERNAL_H_
 #
 include
 <
@@ -11,6 +11,17 @@ stddef
 .
 h
 >
+#
+include
+"
+base
+/
+memory
+/
+raw_ptr_exclusion
+.
+h
+"
 #
 include
 "
@@ -65,6 +76,7 @@ type
 InterceptorId
 id
 ;
+RAW_PTR_EXCLUSION
 const
 void
 *
@@ -87,7 +99,7 @@ record_bytes
 size_t
 offset_to_functions
 ;
-int
+size_t
 num_functions
 ;
 bool
@@ -104,9 +116,10 @@ dll_name
 struct
 SharedMemory
 {
-int
+size_t
 num_intercepted_dlls
 ;
+RAW_PTR_EXCLUSION
 void
 *
 interceptor_base
@@ -139,6 +152,7 @@ data_bytes
 size_t
 used_bytes
 ;
+RAW_PTR_EXCLUSION
 void
 *
 base

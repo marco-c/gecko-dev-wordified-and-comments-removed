@@ -1,9 +1,9 @@
 #
 ifndef
-SANDBOX_SRC_POLICY_BROKER_H_
+SANDBOX_WIN_SRC_POLICY_BROKER_H_
 #
 define
-SANDBOX_SRC_POLICY_BROKER_H_
+SANDBOX_WIN_SRC_POLICY_BROKER_H_
 #
 include
 "
@@ -24,11 +24,6 @@ class
 TargetProcess
 ;
 bool
-InitGlobalNt
-(
-)
-;
-bool
 SetupBasicInterceptions
 (
 InterceptionManager
@@ -42,7 +37,7 @@ bool
 SetupNtdllImports
 (
 TargetProcess
-*
+&
 child
 )
 ;

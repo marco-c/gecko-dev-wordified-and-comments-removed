@@ -52,9 +52,9 @@ h
 "
 #
 if
-defined
+BUILDFLAG
 (
-OS_AIX
+IS_AIX
 )
 #
 if
@@ -99,9 +99,11 @@ geteuid
 =
 0
 )
+{
 return
 true
 ;
+}
 struct
 rlimit
 rlim
@@ -118,9 +120,11 @@ rlim
 =
 0
 )
+{
 return
 false
 ;
+}
 const
 int
 lowest_nice_allowed

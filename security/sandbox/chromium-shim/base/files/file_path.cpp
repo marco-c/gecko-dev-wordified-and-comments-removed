@@ -397,6 +397,7 @@ FilePath
 &
 that
 )
+noexcept
 =
 default
 ;

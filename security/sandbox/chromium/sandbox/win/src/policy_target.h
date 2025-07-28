@@ -84,7 +84,7 @@ NtSetInformationThreadFunction
 orig_SetInformationThread
 HANDLE
 thread
-NT_THREAD_INFORMATION_CLASS
+THREADINFOCLASS
 thread_info_class
 PVOID
 thread_information

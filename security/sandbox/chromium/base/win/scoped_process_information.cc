@@ -190,7 +190,7 @@ process_id_
 |
 process_handle_
 .
-Get
+get
 (
 )
 |
@@ -200,7 +200,7 @@ thread_id_
 |
 thread_handle_
 .
-Get
+get
 (
 )
 ;
@@ -404,7 +404,7 @@ hProcess
 =
 process_handle_
 .
-Take
+release
 (
 )
 ;
@@ -414,7 +414,7 @@ hThread
 =
 thread_handle_
 .
-Take
+release
 (
 )
 ;
@@ -461,7 +461,7 @@ process_id_
 return
 process_handle_
 .
-Take
+release
 (
 )
 ;
@@ -481,7 +481,7 @@ thread_id_
 return
 thread_handle_
 .
-Take
+release
 (
 )
 ;

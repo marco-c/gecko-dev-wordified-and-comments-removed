@@ -11,10 +11,15 @@ h
 "
 #
 include
+<
+ostream
+>
+#
+include
 "
 base
 /
-logging
+notreached
 .
 h
 "

@@ -2769,9 +2769,6 @@ Trap
 ]
 (
 const
-sandbox
-:
-:
 arch_seccomp_data
 &
 void

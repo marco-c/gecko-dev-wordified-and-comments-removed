@@ -19,17 +19,6 @@ stdint
 h
 >
 #
-if
-defined
-(
-_WIN32_WINNT_WIN8
-)
-#
-undef
-FACILITY_VISUALCPP
-#
-endif
-#
 include
 <
 delayimp
@@ -251,7 +240,7 @@ const
 PIMAGE_SECTION_HEADER
 GetSectionHeader
 (
-UINT
+WORD
 section
 )
 const

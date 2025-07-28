@@ -19,7 +19,6 @@ template
 typename
 T
 >
-static
 inline
 uintptr_t
 get_uintptr

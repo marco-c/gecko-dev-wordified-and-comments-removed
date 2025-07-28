@@ -66,6 +66,11 @@ string
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 base
 /
@@ -437,8 +442,11 @@ msg
 n
 "
 ;
-ignore_result
-(
+std
+:
+:
+ignore
+=
 HANDLE_EINTR
 (
 Syscall
@@ -457,7 +465,6 @@ s
 .
 length
 (
-)
 )
 )
 )

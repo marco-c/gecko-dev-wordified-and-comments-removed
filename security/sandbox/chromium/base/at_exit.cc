@@ -29,6 +29,17 @@ include
 "
 base
 /
+check_op
+.
+h
+"
+#
+include
+"
+base
+/
+functional
+/
 bind
 .
 h
@@ -37,6 +48,8 @@ h
 include
 "
 base
+/
+functional
 /
 callback
 .
@@ -47,7 +60,7 @@ include
 "
 base
 /
-logging
+notreached
 .
 h
 "

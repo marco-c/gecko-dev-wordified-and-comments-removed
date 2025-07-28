@@ -1,9 +1,9 @@
 #
 ifndef
-SANDBOX_SRC_POLICY_ENGINE_PARAMS_H__
+SANDBOX_WIN_SRC_POLICY_ENGINE_PARAMS_H_
 #
 define
-SANDBOX_SRC_POLICY_ENGINE_PARAMS_H__
+SANDBOX_WIN_SRC_POLICY_ENGINE_PARAMS_H_
 #
 include
 <
@@ -11,6 +11,17 @@ stdint
 .
 h
 >
+#
+include
+"
+base
+/
+memory
+/
+raw_ptr
+.
+h
+"
 #
 include
 "
@@ -243,6 +254,10 @@ T
 >
 (
 address_
+.
+get
+(
+)
 )
 )
 ;
@@ -250,9 +265,11 @@ address_
 ArgType
 real_type_
 ;
+raw_ptr
+<
 const
 void
-*
+>
 address_
 ;
 }
@@ -270,6 +287,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -296,6 +314,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -328,6 +347,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -360,6 +380,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -393,6 +414,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -424,6 +446,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const
@@ -455,6 +478,7 @@ ParameterSet
 {
 public
 :
+explicit
 ParameterSetEx
 (
 const

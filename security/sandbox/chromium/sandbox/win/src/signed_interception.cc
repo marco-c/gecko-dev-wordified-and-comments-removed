@@ -14,6 +14,13 @@ h
 #
 include
 <
+ntstatus
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -275,8 +282,11 @@ out_buffer_size
 NTSTATUS
 status
 =
-g_nt
-.
+GetNtExports
+(
+)
+-
+>
 QueryObject
 (
 file_handle

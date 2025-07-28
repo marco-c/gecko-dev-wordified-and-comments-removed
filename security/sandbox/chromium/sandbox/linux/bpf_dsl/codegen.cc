@@ -33,6 +33,11 @@ limits
 #
 include
 <
+ostream
+>
+#
+include
+<
 utility
 >
 #
@@ -40,7 +45,7 @@ include
 "
 base
 /
-logging
+check_op
 .
 h
 "

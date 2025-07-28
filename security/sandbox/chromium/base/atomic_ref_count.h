@@ -12,6 +12,13 @@ atomic
 namespace
 base
 {
+namespace
+subtle
+{
+class
+RefCountedOverflowTest
+;
+}
 class
 AtomicRefCount
 {
@@ -157,6 +164,12 @@ memory_order_relaxed
 }
 private
 :
+friend
+subtle
+:
+:
+RefCountedOverflowTest
+;
 std
 :
 :
