@@ -1,6 +1,6 @@
 async
 function
-AsyncDisposableStackDisposeAsync
+AsyncDisposableStackDisposeAsyncImpl
 (
 )
 {
@@ -135,6 +135,19 @@ length
 ;
 return
 undefined
+;
+}
+function
+AsyncDisposableStackDisposeAsync
+(
+)
+{
+return
+callFunction
+(
+AsyncDisposableStackDisposeAsyncImpl
+this
+)
 ;
 }
 SetCanonicalName
