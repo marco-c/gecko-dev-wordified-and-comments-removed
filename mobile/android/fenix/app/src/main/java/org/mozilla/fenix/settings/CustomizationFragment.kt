@@ -1001,12 +1001,6 @@ shouldUseComposableToolbar
 settings
 .
 toolbarRedesignEnabled
-isEnabled
-=
-!
-settings
-.
-isTabStripEnabled
 }
 updateToolbarLayoutIcons
 (
