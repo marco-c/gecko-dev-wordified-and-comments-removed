@@ -4731,6 +4731,13 @@ eventType
 "
 ;
 static
+constexpr
+bool
+IsStackBased
+=
+true
+;
+static
 void
 StreamJSONMarkerData
 (
