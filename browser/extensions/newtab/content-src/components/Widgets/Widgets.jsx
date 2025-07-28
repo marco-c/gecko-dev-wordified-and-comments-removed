@@ -65,7 +65,6 @@ react
 ;
 import
 {
-useDispatch
 useSelector
 }
 from
@@ -170,13 +169,6 @@ values
 )
 ;
 const
-dispatch
-=
-useDispatch
-(
-)
-;
-const
 listsEnabled
 =
 prefs
@@ -222,11 +214,6 @@ listsEnabled
 &
 <
 Lists
-dispatch
-=
-{
-dispatch
-}
 /
 >
 }
