@@ -809,15 +809,6 @@ local_ssrc
 =
 0
 ;
-virtual
-uint32_t
-GetLocalSsrc
-(
-)
-const
-=
-0
-;
 }
 ;
 std
