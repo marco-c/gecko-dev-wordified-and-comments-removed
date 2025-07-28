@@ -179,6 +179,12 @@ android
 .
 view
 .
+Window
+import
+android
+.
+view
+.
 WindowManager
 import
 android
@@ -1502,7 +1508,7 @@ true
 {
 setStyle
 (
-STYLE_NO_TITLE
+STYLE_NORMAL
 R
 .
 style
@@ -1514,7 +1520,7 @@ else
 {
 setStyle
 (
-STYLE_NO_TITLE
+STYLE_NORMAL
 R
 .
 style
@@ -1775,6 +1781,12 @@ onBackPressed
 )
 }
 }
+requestWindowFeature
+(
+Window
+.
+FEATURE_NO_TITLE
+)
 window
 ?
 .
