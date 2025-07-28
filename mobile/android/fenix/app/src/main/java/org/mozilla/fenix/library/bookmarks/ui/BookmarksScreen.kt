@@ -866,6 +866,18 @@ components
 .
 compose
 .
+base
+.
+utils
+.
+BackInvokedHandler
+import
+mozilla
+.
+components
+.
+compose
+.
 browser
 .
 awesomebar
@@ -2209,7 +2221,7 @@ hide
 }
 }
 }
-BackHandler
+BackInvokedHandler
 (
 state
 .
