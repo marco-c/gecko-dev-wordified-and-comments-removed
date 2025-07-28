@@ -802,7 +802,7 @@ kind
 ChunkKind
 :
 :
-MediumBuffers
+Buffers
 )
 ;
 return
@@ -2952,7 +2952,7 @@ runtimeFromMainThread
 ChunkKind
 :
 :
-MediumBuffers
+Buffers
 )
 {
 mozilla
@@ -4530,25 +4530,25 @@ zone
 (
 zone
 )
-sweptMediumMixedChunks
+sweptMixedChunks
 (
 lock
 (
 )
 )
-sweptMediumTenuredChunks
+sweptTenuredChunks
 (
 lock
 (
 )
 )
-sweptMediumNurseryFreeLists
+sweptNurseryFreeLists
 (
 lock
 (
 )
 )
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 (
 lock
 (
@@ -4605,7 +4605,7 @@ checkGCStateNotInUse
 ;
 MOZ_ASSERT
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -4618,7 +4618,7 @@ isEmpty
 ;
 MOZ_ASSERT
 (
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -4629,7 +4629,7 @@ isEmpty
 )
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -4719,7 +4719,7 @@ NotCollecting
 )
 ;
 return
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -4730,7 +4730,7 @@ isEmpty
 )
 &
 &
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -5610,7 +5610,7 @@ getKind
 ChunkKind
 :
 :
-MediumBuffers
+Buffers
 ;
 }
 size_t
@@ -7159,7 +7159,7 @@ minorSweepingFinished
 ;
 MOZ_ASSERT
 (
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -7219,7 +7219,7 @@ isNurseryOwned
 endif
 if
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -7252,7 +7252,7 @@ return
 false
 ;
 }
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -7283,7 +7283,7 @@ hasNurseryOwnedAllocs
 }
 )
 ;
-mediumMixedChunksToSweep
+mixedChunksToSweep
 .
 ref
 (
@@ -7294,7 +7294,7 @@ std
 :
 move
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -7463,7 +7463,7 @@ this
 ;
 MOZ_ASSERT
 (
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -7537,7 +7537,7 @@ lock
 while
 (
 !
-mediumMixedChunksToSweep
+mixedChunksToSweep
 .
 ref
 (
@@ -7552,7 +7552,7 @@ BufferChunk
 *
 chunk
 =
-mediumMixedChunksToSweep
+mixedChunksToSweep
 .
 ref
 (
@@ -7586,7 +7586,7 @@ lock
 this
 )
 ;
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -7605,7 +7605,7 @@ chunk
 hasNurseryOwnedAllocsAfterSweep
 )
 {
-sweptMediumNurseryFreeLists
+sweptNurseryFreeLists
 .
 ref
 (
@@ -7625,7 +7625,7 @@ sweptFreeLists
 }
 else
 {
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 .
 ref
 (
@@ -7715,7 +7715,7 @@ lock
 ;
 MOZ_ASSERT
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -7741,7 +7741,7 @@ isEmpty
 ;
 #
 endif
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -7752,7 +7752,7 @@ std
 :
 move
 (
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -7777,7 +7777,7 @@ ref
 )
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -7808,7 +7808,7 @@ ifdef
 DEBUG
 MOZ_ASSERT
 (
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -7819,7 +7819,7 @@ isEmpty
 )
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -8027,7 +8027,7 @@ lock
 while
 (
 !
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -8042,7 +8042,7 @@ BufferChunk
 *
 chunk
 =
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -8076,7 +8076,7 @@ lock
 this
 )
 ;
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -8087,7 +8087,7 @@ pushBack
 chunk
 )
 ;
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 .
 ref
 (
@@ -8310,7 +8310,7 @@ Marking
 ;
 MOZ_ASSERT
 (
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -8332,7 +8332,7 @@ BufferChunk
 *
 chunk
 :
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -8349,7 +8349,7 @@ SweepKind
 :
 RebuildFreeLists
 false
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -8358,7 +8358,7 @@ ref
 )
 ;
 }
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -8371,7 +8371,7 @@ std
 :
 move
 (
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -8422,7 +8422,7 @@ lock
 {
 ClearAllocatedDuringCollection
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -8431,7 +8431,7 @@ ref
 ;
 ClearAllocatedDuringCollection
 (
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -8623,7 +8623,7 @@ true
 while
 (
 !
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -8638,7 +8638,7 @@ BufferChunk
 *
 chunk
 =
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -8707,7 +8707,7 @@ chunk
 hasNurseryOwnedAllocs
 )
 {
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -8725,7 +8725,7 @@ if
 majorStartedWhileMinorSweeping
 )
 {
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -8739,7 +8739,7 @@ chunk
 }
 else
 {
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -8761,7 +8761,7 @@ BufferChunk
 *
 chunk
 :
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -8798,7 +8798,7 @@ allocatedDuringCollection
 }
 #
 endif
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -8811,7 +8811,7 @@ std
 :
 move
 (
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -8819,7 +8819,7 @@ ref
 )
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -8832,7 +8832,7 @@ std
 :
 move
 (
-sweptMediumNurseryFreeLists
+sweptNurseryFreeLists
 .
 ref
 (
@@ -8846,7 +8846,7 @@ if
 majorStartedWhileMinorSweeping
 )
 {
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -8859,7 +8859,7 @@ std
 :
 move
 (
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 .
 ref
 (
@@ -8870,7 +8870,7 @@ ref
 }
 else
 {
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 .
 ref
 (
@@ -8950,7 +8950,7 @@ BufferChunk
 *
 chunk
 :
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -8970,7 +8970,7 @@ BufferChunk
 *
 chunk
 :
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -9016,7 +9016,7 @@ false
 ;
 MOZ_ASSERT
 (
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -9082,13 +9082,13 @@ chunks
 :
 {
 &
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
 )
 &
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -9195,13 +9195,13 @@ chunks
 :
 {
 &
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
 )
 &
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -9253,7 +9253,7 @@ auto
 *
 chunk
 :
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -9686,7 +9686,7 @@ Sweeping
 ;
 checkChunkListGCStateNotInUse
 (
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -9697,7 +9697,7 @@ false
 ;
 checkChunkListGCStateNotInUse
 (
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -9713,7 +9713,7 @@ isNurserySweeping
 {
 checkChunkListGCStateNotInUse
 (
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -9724,7 +9724,7 @@ majorFinishedWhileMinorSweeping
 ;
 checkChunkListGCStateNotInUse
 (
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -9738,7 +9738,7 @@ else
 {
 MOZ_ASSERT
 (
-mediumMixedChunksToSweep
+mixedChunksToSweep
 .
 ref
 (
@@ -9764,7 +9764,7 @@ isEmpty
 ;
 MOZ_ASSERT
 (
-sweptMediumMixedChunks
+sweptMixedChunks
 .
 ref
 (
@@ -9777,7 +9777,7 @@ isEmpty
 ;
 MOZ_ASSERT
 (
-sweptMediumTenuredChunks
+sweptTenuredChunks
 .
 ref
 (
@@ -9788,7 +9788,7 @@ isEmpty
 )
 )
 ;
-sweptMediumNurseryFreeLists
+sweptNurseryFreeLists
 .
 ref
 (
@@ -9798,7 +9798,7 @@ assertEmpty
 (
 )
 ;
-sweptMediumTenuredFreeLists
+sweptTenuredFreeLists
 .
 ref
 (
@@ -9841,7 +9841,7 @@ majorSweepingFinished
 }
 MOZ_ASSERT
 (
-mediumTenuredChunksToSweep
+tenuredChunksToSweep
 .
 ref
 (
@@ -10811,7 +10811,7 @@ chunk
 hasNurseryOwnedAllocs
 )
 {
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -10829,7 +10829,7 @@ hasNurseryOwnedAllocs
 =
 true
 ;
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -11085,7 +11085,7 @@ getEnd
 freeEnd
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11349,7 +11349,7 @@ size_t
 maxSizeClass
 )
 {
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11361,7 +11361,7 @@ checkAvailable
 ;
 sizeClass
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11389,7 +11389,7 @@ FreeRegion
 *
 region
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11414,7 +11414,7 @@ sizeClass
 updateFreeListsAfterAlloc
 (
 &
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11797,7 +11797,7 @@ size_t
 sizeClass
 )
 {
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11810,7 +11810,7 @@ checkAvailable
 size_t
 allocClass
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11846,7 +11846,7 @@ FreeRegion
 *
 region
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11875,7 +11875,7 @@ ptr
 updateFreeListsAfterAlloc
 (
 &
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11898,7 +11898,7 @@ sizeClass
 ;
 allocClass
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11926,7 +11926,7 @@ nullptr
 }
 region
 =
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -11953,7 +11953,7 @@ ptr
 updateFreeListsAfterAlloc
 (
 &
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -12127,7 +12127,7 @@ hasDecommittedPages
 addFreeRegion
 (
 &
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -12273,7 +12273,7 @@ chunk
 hasNurseryOwnedAllocs
 )
 {
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -12291,7 +12291,7 @@ hasNurseryOwnedAllocs
 =
 true
 ;
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -12864,7 +12864,7 @@ State
 :
 NotCollecting
 ;
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -12962,7 +12962,7 @@ getEnd
 freeEnd
 )
 ;
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -15911,7 +15911,7 @@ nullptr
 }
 return
 &
-mediumFreeLists
+freeLists
 .
 ref
 (
@@ -17833,33 +17833,33 @@ _
 _
 (
 "
-MNCs
+MixdCs
 "
 6
 "
 %
 6zu
 "
-mediumMixedChunks
+mixedChunks
 )
 \
 _
 (
 "
-MTCs
+TnrCs
 "
 6
 "
 %
 6zu
 "
-mediumTenuredChunks
+tenuredChunks
 )
 \
 _
 (
 "
-FRs
+FreeRs
 "
 6
 "
@@ -17872,7 +17872,7 @@ freeRegions
 _
 (
 "
-LNAs
+LNurAs
 "
 6
 "
@@ -17885,7 +17885,7 @@ largeNurseryAllocs
 _
 (
 "
-LTAs
+LTnrAs
 "
 6
 "
@@ -18119,12 +18119,12 @@ adminBytes
 0
 ;
 size_t
-mediumMixedChunks
+mixedChunks
 =
 0
 ;
 size_t
-mediumTenuredChunks
+tenuredChunks
 =
 0
 ;
@@ -18179,8 +18179,8 @@ getStats
 usedBytes
 freeBytes
 adminBytes
-mediumMixedChunks
-mediumTenuredChunks
+mixedChunks
+tenuredChunks
 freeRegions
 largeNurseryAllocs
 largeTenuredAllocs
@@ -18310,7 +18310,7 @@ BufferChunk
 *
 chunk
 :
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -18455,12 +18455,12 @@ adminBytes
 0
 ;
 size_t
-mediumMixedChunks
+mixedChunks
 =
 0
 ;
 size_t
-mediumTenuredChunks
+tenuredChunks
 =
 0
 ;
@@ -18484,8 +18484,8 @@ getStats
 usedBytes
 freeBytes
 adminBytes
-mediumMixedChunks
-mediumTenuredChunks
+mixedChunks
+tenuredChunks
 freeRegions
 largeNurseryAllocs
 largeTenuredAllocs
@@ -18527,10 +18527,10 @@ size_t
 adminBytes
 size_t
 &
-mediumNurseryChunkCount
+nurseryChunkCount
 size_t
 &
-mediumTenuredChunkCount
+tenuredChunkCount
 size_t
 &
 freeRegions
@@ -18564,7 +18564,7 @@ BufferChunk
 *
 chunk
 :
-mediumMixedChunks
+mixedChunks
 .
 ref
 (
@@ -18576,7 +18576,7 @@ void
 )
 chunk
 ;
-mediumNurseryChunkCount
+nurseryChunkCount
 +
 +
 ;
@@ -18600,7 +18600,7 @@ BufferChunk
 *
 chunk
 :
-mediumTenuredChunks
+tenuredChunks
 .
 ref
 (
@@ -18612,7 +18612,7 @@ void
 )
 chunk
 ;
-mediumTenuredChunkCount
+tenuredChunkCount
 +
 +
 ;
@@ -18710,7 +18710,7 @@ FreeList
 &
 freeList
 :
-mediumFreeLists
+freeLists
 .
 ref
 (
