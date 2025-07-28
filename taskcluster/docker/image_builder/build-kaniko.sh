@@ -41,7 +41,9 @@ github
 .
 com
 /
-GoogleContainerTools
+chainguard
+-
+dev
 /
 kaniko
 .
