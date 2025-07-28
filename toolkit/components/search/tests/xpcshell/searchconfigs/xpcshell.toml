@@ -328,13 +328,6 @@ js
 ]
 [
 "
-test_rakuten
-.
-js
-"
-]
-[
-"
 test_searchconfig_ui_schemas_valid
 .
 js
