@@ -106,6 +106,13 @@ nr_socket_buffered_stun
 .
 h
 "
+#
+include
+"
+addrs
+.
+h
+"
 }
 #
 include
@@ -855,9 +862,11 @@ R_INTERNAL
 }
 r
 =
-nr_stun_filter_local_addresses
+nr_stun_filter_addrs
 (
 addrs
+true
+true
 &
 addr_ct
 )

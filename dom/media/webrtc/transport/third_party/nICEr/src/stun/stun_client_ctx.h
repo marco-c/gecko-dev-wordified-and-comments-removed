@@ -376,6 +376,18 @@ rtt_ms
 ;
 }
 ;
+#
+define
+NR_STUN_TRANSPORT_ADDR_CHECK_WILDCARD
+1
+#
+define
+NR_STUN_TRANSPORT_ADDR_CHECK_LOOPBACK
+2
+#
+define
+NR_STUN_TRANSPORT_ADDR_CHECK_LINK_LOCAL
+4
 int
 nr_stun_client_ctx_create
 (
@@ -390,6 +402,8 @@ nr_transport_addr
 peer
 UINT4
 RTO
+int
+flags
 nr_stun_client_ctx
 *
 *
