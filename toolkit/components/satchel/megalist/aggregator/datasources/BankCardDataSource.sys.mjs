@@ -208,6 +208,9 @@ number
 encrypted
 "
 ]
+"
+megalist_cc
+"
 false
 )
 ;
