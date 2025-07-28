@@ -2885,6 +2885,11 @@ codec_lookup_helper_
 =
 nullptr
 ;
+bool
+has_sdp_munged_ufrag_
+=
+false
+;
 WeakPtrFactory
 <
 SdpOfferAnswerHandler
