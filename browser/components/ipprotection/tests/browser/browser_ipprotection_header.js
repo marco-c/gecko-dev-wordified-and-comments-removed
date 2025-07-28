@@ -122,10 +122,8 @@ lazy
 .
 IPProtectionPanel
 .
-CONTENT_TAGNAME
+HEADER_TAGNAME
 )
-.
-headerEl
 ;
 Assert
 .
@@ -298,10 +296,8 @@ lazy
 .
 IPProtectionPanel
 .
-CONTENT_TAGNAME
+HEADER_TAGNAME
 )
-.
-headerEl
 ;
 Assert
 .
