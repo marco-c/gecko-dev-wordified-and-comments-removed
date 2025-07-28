@@ -1683,9 +1683,13 @@ definition
 *
 param
 {
+Values
+<
+typeof
 UrlbarUtils
 .
 RESULT_GROUP
+>
 }
 group
 The
@@ -4964,9 +4968,13 @@ resultsByGroup
 *
 param
 {
+Values
+<
+typeof
 UrlbarUtils
 .
 RESULT_GROUP
+>
 }
 groupConst
 *
