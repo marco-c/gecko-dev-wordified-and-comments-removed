@@ -89,7 +89,9 @@ appstate
 .
 AppAction
 .
-UpdateSearchBeingActiveState
+SearchAction
+.
+SearchEnded
 /
 *
 *
@@ -190,10 +192,7 @@ appStore
 .
 dispatch
 (
-UpdateSearchBeingActiveState
-(
-false
-)
+SearchEnded
 )
 }
 }

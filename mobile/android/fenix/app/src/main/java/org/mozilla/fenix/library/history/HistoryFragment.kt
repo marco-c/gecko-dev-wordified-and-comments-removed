@@ -3135,6 +3135,8 @@ dispatch
 (
 AppAction
 .
+SearchAction
+.
 SearchEngineSelected
 (
 it
@@ -3148,9 +3150,10 @@ dispatch
 (
 AppAction
 .
-UpdateSearchBeingActiveState
+SearchAction
+.
+SearchStarted
 (
-true
 )
 )
 }

@@ -107,7 +107,9 @@ appstate
 .
 AppAction
 .
-UpdateSearchBeingActiveState
+SearchAction
+.
+SearchEnded
 class
 DefaultHomeSearchControllerTest
 {
@@ -163,10 +165,7 @@ appStore
 .
 dispatch
 (
-UpdateSearchBeingActiveState
-(
-false
-)
+SearchEnded
 )
 }
 }

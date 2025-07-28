@@ -2084,6 +2084,8 @@ dispatch
 (
 AppAction
 .
+SearchAction
+.
 SearchEngineSelected
 (
 it
@@ -2097,9 +2099,10 @@ dispatch
 (
 AppAction
 .
-UpdateSearchBeingActiveState
+SearchAction
+.
+SearchStarted
 (
-true
 )
 )
 }
@@ -2113,10 +2116,9 @@ dispatch
 (
 AppAction
 .
-UpdateSearchBeingActiveState
-(
-false
-)
+SearchAction
+.
+SearchEnded
 )
 toolbarStore
 .

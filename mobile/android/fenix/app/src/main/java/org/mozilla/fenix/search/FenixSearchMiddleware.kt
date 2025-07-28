@@ -417,6 +417,8 @@ appstate
 .
 AppAction
 .
+SearchAction
+.
 SearchEngineSelected
 import
 org
@@ -1373,15 +1375,19 @@ distinctUntilChangedBy
 {
 it
 .
+searchState
+.
 selectedSearchEngine
 ?
 .
-shortcutSearchEngine
+searchEngine
 }
 .
 collect
 {
 it
+.
+searchState
 .
 selectedSearchEngine
 ?
@@ -1403,7 +1409,7 @@ handleSearchShortcutEngineSelectedByUser
 store
 it
 .
-shortcutSearchEngine
+searchEngine
 )
 false
 -
@@ -1413,7 +1419,7 @@ handleSearchShortcutEngineSelected
 store
 it
 .
-shortcutSearchEngine
+searchEngine
 )
 }
 }

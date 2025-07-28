@@ -1174,6 +1174,8 @@ firstFrameDrawn
 firstFrameDrawn
 isSearchInProgress
 =
+searchState
+.
 isSearchActive
 bottomSpacerHeight
 =
@@ -1403,6 +1405,8 @@ getBottomSpace
 )
 isSearchInProgress
 =
+searchState
+.
 isSearchActive
 )
 }
@@ -1594,6 +1598,8 @@ AppState
 =
 !
 appState
+.
+searchState
 .
 isSearchActive
 private
