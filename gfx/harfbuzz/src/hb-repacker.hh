@@ -1117,7 +1117,7 @@ unsigned
 1
 )
 return
-result
+false
 ;
 if
 (
@@ -1143,7 +1143,7 @@ give_max_priority
 ;
 }
 return
-result
+true
 ;
 }
 static
@@ -1233,7 +1233,6 @@ is_shared
 {
 if
 (
-!
 _resolve_shared_overflow
 (
 overflows
@@ -1241,8 +1240,6 @@ i
 sorted_graph
 )
 )
-continue
-;
 return
 true
 ;

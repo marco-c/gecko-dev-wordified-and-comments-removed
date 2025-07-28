@@ -163,8 +163,16 @@ _ZN17compiler_builtins
 *
 "
     
+"
+.
+*
+__rustc
+.
+*
+"
+    
 '
-_hb_harfruzz_
+_hb_harfrust_
 .
 *
 _rs

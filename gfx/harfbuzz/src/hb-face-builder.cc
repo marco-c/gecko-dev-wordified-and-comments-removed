@@ -777,10 +777,6 @@ population
 )
 )
 {
-if
-(
-table_count
-)
 *
 table_count
 =

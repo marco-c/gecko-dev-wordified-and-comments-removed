@@ -2994,10 +2994,7 @@ ItemVariationStore
 &
 var_store
 ;
-ItemVariationStore
-:
-:
-cache_t
+hb_scalar_cache_t
 *
 var_store_cache
 ;
@@ -3091,10 +3088,7 @@ buffer_
 hb_blob_t
 *
 table_blob_
-ItemVariationStore
-:
-:
-cache_t
+hb_scalar_cache_t
 *
 var_store_cache_
 =

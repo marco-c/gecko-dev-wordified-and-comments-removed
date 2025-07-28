@@ -123,6 +123,7 @@ to_int
 )
 ;
 }
+HB_ALWAYS_INLINE
 int
 get_y_origin
 (

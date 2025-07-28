@@ -171,7 +171,7 @@ conf
 get
 (
 '
-HAVE_HARFRUZZ
+HAVE_HARFRUST
 '
 0
 )
@@ -557,7 +557,7 @@ warnings
 ]
 timeout
 :
-120
+300
 )
 endif
 #

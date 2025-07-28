@@ -166,6 +166,7 @@ v
 1
 ;
 }
+HB_HOT
 bool
 get
 (
@@ -273,7 +274,8 @@ return
 true
 ;
 }
-bool
+HB_HOT
+void
 set
 (
 unsigned
@@ -305,7 +307,6 @@ value_bits
 )
 )
 return
-false
 ;
 unsigned
 int
@@ -348,9 +349,6 @@ k
 ]
 =
 v
-;
-return
-true
 ;
 }
 private

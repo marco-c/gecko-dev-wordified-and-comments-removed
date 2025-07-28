@@ -318,9 +318,6 @@ do_blend
 num_coords
 &
 &
-coords
-&
-&
 varStore
 -
 >

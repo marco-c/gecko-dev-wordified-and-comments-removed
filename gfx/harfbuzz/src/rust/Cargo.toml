@@ -11,6 +11,17 @@ edition
 "
 2021
 "
+rust
+-
+version
+=
+"
+1
+.
+75
+.
+0
+"
 [
 dependencies
 ]
@@ -28,7 +39,7 @@ optional
 =
 true
 }
-harfruzz
+harfrust
 =
 {
 git
@@ -44,7 +55,7 @@ com
 /
 harfbuzz
 /
-harfruzz
+harfrust
 "
 optional
 =
@@ -92,7 +103,7 @@ shape
 "
 dep
 :
-harfruzz
+harfrust
 "
 ]
 [

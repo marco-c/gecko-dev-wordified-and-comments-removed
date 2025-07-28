@@ -855,6 +855,7 @@ face
 ;
 }
 static
+const
 struct
 supported_face_loaders_t
 {
