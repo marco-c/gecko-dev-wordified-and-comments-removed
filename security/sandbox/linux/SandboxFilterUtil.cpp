@@ -515,6 +515,17 @@ SYS_SENDMMSG
 )
 ;
 #
+ifdef
+__NR_recvmmsg_time64
+DISPATCH_SOCKETCALL
+(
+__NR_recvmmsg_time64
+SYS_RECVMMSG
+)
+;
+#
+endif
+#
 undef
 DISPATCH_SOCKETCALL
 #
