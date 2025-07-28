@@ -625,13 +625,6 @@ js
 ]
 [
 "
-browser_ml_model
-.
-js
-"
-]
-[
-"
 browser_nested_forms
 .
 js

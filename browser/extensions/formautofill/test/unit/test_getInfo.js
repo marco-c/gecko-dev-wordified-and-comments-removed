@@ -1067,13 +1067,6 @@ cc
 number
 "
 {
-fathomLabel
-:
-"
-cc
--
-number
-"
 fathomConfidence
 :
 1
@@ -2016,13 +2009,6 @@ cc
 number
 "
 {
-fathomLabel
-:
-"
-cc
--
-number
-"
 fathomConfidence
 :
 1
