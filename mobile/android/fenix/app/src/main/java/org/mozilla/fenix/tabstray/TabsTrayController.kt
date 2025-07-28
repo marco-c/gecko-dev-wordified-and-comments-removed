@@ -1940,6 +1940,8 @@ private
 isPrivate
 )
 }
+else
+{
 navController
 .
 navigate
@@ -1953,6 +1955,7 @@ focusOnAddressBar
 true
 )
 )
+}
 navigationInteractor
 .
 onTabTrayDismissed
