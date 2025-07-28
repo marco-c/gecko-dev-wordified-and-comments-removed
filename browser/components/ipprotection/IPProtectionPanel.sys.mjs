@@ -992,6 +992,16 @@ panel
 =
 contentEl
 ;
+contentEl
+.
+dataset
+.
+capturesFocus
+=
+"
+true
+"
+;
 this
 .
 #

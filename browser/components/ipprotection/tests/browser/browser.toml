@@ -48,6 +48,13 @@ js
 ]
 [
 "
+browser_ipprotection_keyboard_navigation
+.
+js
+"
+]
+[
+"
 browser_ipprotection_panel
 .
 js
