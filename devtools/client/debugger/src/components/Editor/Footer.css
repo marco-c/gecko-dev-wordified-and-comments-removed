@@ -772,6 +772,16 @@ overflow
 :
 ellipsis
 ;
+display
+:
+flex
+;
+align
+-
+items
+:
+center
+;
 }
 .
 source
