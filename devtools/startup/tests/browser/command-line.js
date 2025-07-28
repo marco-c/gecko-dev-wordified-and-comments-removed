@@ -14,3 +14,17 @@ script
 "
 )
 ;
+console
+.
+log
+(
+"
+Something
+to
+select
+on
+line
+6
+"
+)
+;
