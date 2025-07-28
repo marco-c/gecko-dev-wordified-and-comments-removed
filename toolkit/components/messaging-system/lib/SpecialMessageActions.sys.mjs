@@ -1489,6 +1489,13 @@ enabled
 "
 browser
 .
+ipProtection
+.
+enabled
+"
+"
+browser
+.
 migrate
 .
 content
