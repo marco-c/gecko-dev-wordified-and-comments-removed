@@ -537,7 +537,7 @@ fenix
 .
 iconpicker
 .
-AliasSuffix
+AppIcon
 import
 org
 .
@@ -13608,11 +13608,11 @@ pref_key_selected_app_icon
 )
 default
 =
-AliasSuffix
+AppIcon
 .
 AppDefault
 .
-suffix
+aliasSuffix
 )
 /
 *

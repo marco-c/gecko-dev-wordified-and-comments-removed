@@ -109,7 +109,7 @@ AppGradientSunset
 val
 result
 =
-AliasSuffix
+AppIcon
 .
 fromString
 (
@@ -117,7 +117,7 @@ input
 )
 assertEquals
 (
-AliasSuffix
+AppIcon
 .
 AppGradientSunset
 result
@@ -150,7 +150,7 @@ NonExistentAlias
 val
 result
 =
-AliasSuffix
+AppIcon
 .
 fromString
 (
@@ -158,7 +158,7 @@ input
 )
 assertEquals
 (
-AliasSuffix
+AppIcon
 .
 AppDefault
 result
@@ -189,7 +189,7 @@ for
 (
 value
 in
-AliasSuffix
+AppIcon
 .
 entries
 )
@@ -197,13 +197,13 @@ entries
 assertEquals
 (
 value
-AliasSuffix
+AppIcon
 .
 fromString
 (
 value
 .
-suffix
+aliasSuffix
 )
 )
 }

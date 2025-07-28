@@ -165,7 +165,7 @@ fenix
 .
 iconpicker
 .
-DefaultSettingsAppIconRepository
+AppIconRepository
 import
 org
 .
@@ -175,7 +175,7 @@ fenix
 .
 iconpicker
 .
-SettingsAppIconRepository
+DefaultAppIconRepository
 import
 org
 .
@@ -244,11 +244,11 @@ private
 val
 appIconRepository
 :
-SettingsAppIconRepository
+AppIconRepository
 by
 lazy
 {
-DefaultSettingsAppIconRepository
+DefaultAppIconRepository
 (
 requireContext
 (
@@ -296,8 +296,6 @@ currentAppIcon
 appIconRepository
 .
 selectedAppIcon
-.
-activityAlias
 groupedIconOptions
 =
 appIconRepository
@@ -316,11 +314,7 @@ appIconRepository
 .
 selectedAppIcon
 .
-activityAlias
-.
 aliasSuffix
-.
-suffix
 appIconRepository
 .
 selectedAppIcon
@@ -335,11 +329,7 @@ updateAliasSuffix
 =
 selectedAppIcon
 .
-activityAlias
-.
 aliasSuffix
-.
-suffix
 )
 }
 )

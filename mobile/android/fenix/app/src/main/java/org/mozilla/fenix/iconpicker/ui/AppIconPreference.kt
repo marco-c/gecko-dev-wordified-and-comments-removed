@@ -283,7 +283,7 @@ fenix
 .
 iconpicker
 .
-DefaultSettingsAppIconRepository
+AppIcon
 import
 org
 .
@@ -293,7 +293,7 @@ fenix
 .
 iconpicker
 .
-SettingsAppIcon
+AppIconRepository
 import
 org
 .
@@ -303,7 +303,7 @@ fenix
 .
 iconpicker
 .
-SettingsAppIconRepository
+DefaultAppIconRepository
 import
 org
 .
@@ -390,11 +390,11 @@ private
 val
 appIconRepository
 :
-SettingsAppIconRepository
+AppIconRepository
 by
 lazy
 {
-DefaultSettingsAppIconRepository
+DefaultAppIconRepository
 (
 context
 .
@@ -490,11 +490,11 @@ SelectAppIcon
 (
 appIcon
 :
-SettingsAppIcon
+AppIcon
 onClick
 :
 (
-SettingsAppIcon
+AppIcon
 )
 -
 >
@@ -647,9 +647,9 @@ FirefoxTheme
 {
 SelectAppIcon
 (
-SettingsAppIcon
+AppIcon
 .
-appDefault
+AppDefault
 )
 {
 }
