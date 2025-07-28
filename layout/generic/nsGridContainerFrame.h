@@ -2026,10 +2026,7 @@ StoreUsedTrackSizes
 LogicalAxis
 aAxis
 const
-nsTArray
-<
-TrackSize
->
+TrackPlan
 &
 aSizes
 )
