@@ -85,6 +85,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 res
@@ -264,6 +272,7 @@ value
 :
 String
 Composable
+ReadOnlyComposable
 get
 (
 )

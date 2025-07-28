@@ -235,7 +235,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -243,7 +243,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -251,7 +251,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MenuDefaults
 import
@@ -259,7 +259,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -286,6 +286,14 @@ compose
 runtime
 .
 LaunchedEffect
+import
+androidx
+.
+compose
+.
+runtime
+.
+ReadOnlyComposable
 import
 androidx
 .
@@ -545,7 +553,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DropdownMenu
 as
@@ -555,7 +563,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 DropdownMenuItem
 as
@@ -1359,7 +1367,7 @@ contentPadding
 interactionSource
 =
 interactionSource
-content
+text
 =
 {
 Row
@@ -1527,6 +1535,7 @@ levelColors
 :
 LevelColors
 Composable
+ReadOnlyComposable
 get
 (
 )

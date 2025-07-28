@@ -81,6 +81,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 platform
@@ -794,6 +802,7 @@ containerMaxWidth
 :
 Dp
 Composable
+ReadOnlyComposable
 get
 (
 )

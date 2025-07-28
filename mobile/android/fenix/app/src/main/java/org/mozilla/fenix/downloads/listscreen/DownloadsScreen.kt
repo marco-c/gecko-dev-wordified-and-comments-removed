@@ -291,6 +291,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 getValue
 import
 androidx
@@ -2973,6 +2981,7 @@ body2
 }
 }
 Composable
+ReadOnlyComposable
 private
 fun
 getToolbarConfig

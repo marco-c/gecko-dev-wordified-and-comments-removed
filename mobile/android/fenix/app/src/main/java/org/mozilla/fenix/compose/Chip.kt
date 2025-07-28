@@ -167,6 +167,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 Modifier
@@ -601,6 +609,7 @@ SelectableChipColors
 *
 /
 Composable
+ReadOnlyComposable
 fun
 buildColors
 (

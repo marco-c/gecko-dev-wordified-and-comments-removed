@@ -183,6 +183,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 derivedStateOf
 import
 androidx
@@ -2721,6 +2729,7 @@ horizontalMargin
 :
 Dp
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -2739,6 +2748,7 @@ verticalMargin
 :
 Dp
 Composable
+ReadOnlyComposable
 get
 (
 )

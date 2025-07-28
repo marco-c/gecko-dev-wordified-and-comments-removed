@@ -97,6 +97,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 Stable
 import
 androidx
@@ -4459,6 +4467,7 @@ information
 :
 Color
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -4485,6 +4494,7 @@ surfaceDimVariant
 :
 Color
 Composable
+ReadOnlyComposable
 get
 (
 )

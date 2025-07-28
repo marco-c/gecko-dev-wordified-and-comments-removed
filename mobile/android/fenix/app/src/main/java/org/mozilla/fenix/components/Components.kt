@@ -95,6 +95,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 platform
@@ -2018,6 +2026,7 @@ components
 :
 Components
 Composable
+ReadOnlyComposable
 get
 (
 )

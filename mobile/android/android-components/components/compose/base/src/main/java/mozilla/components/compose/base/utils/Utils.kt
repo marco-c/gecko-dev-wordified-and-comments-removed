@@ -85,6 +85,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 platform
@@ -123,6 +131,7 @@ inComposePreview
 :
 Boolean
 Composable
+ReadOnlyComposable
 get
 (
 )

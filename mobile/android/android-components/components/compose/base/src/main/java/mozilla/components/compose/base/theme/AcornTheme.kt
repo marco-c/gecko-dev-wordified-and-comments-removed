@@ -121,6 +121,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 remember
 import
 androidx
@@ -247,6 +255,7 @@ content
 }
 }
 Composable
+ReadOnlyComposable
 private
 fun
 getAcornColors
@@ -267,6 +276,7 @@ else
 lightColorPalette
 }
 Composable
+ReadOnlyComposable
 private
 fun
 getAcornColorScheme
@@ -315,6 +325,7 @@ colors
 :
 AcornColors
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -336,6 +347,7 @@ layout
 :
 AcornLayout
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -348,6 +360,7 @@ windowSize
 :
 AcornWindowSize
 Composable
+ReadOnlyComposable
 get
 (
 )

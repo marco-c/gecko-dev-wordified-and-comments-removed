@@ -271,6 +271,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 getValue
 import
 androidx
@@ -1878,6 +1886,7 @@ errorTrailingIconColor
 *
 /
 Composable
+ReadOnlyComposable
 fun
 default
 (

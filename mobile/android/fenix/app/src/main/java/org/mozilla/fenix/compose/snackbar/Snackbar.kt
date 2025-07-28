@@ -275,6 +275,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 getValue
 import
 androidx
@@ -2090,6 +2098,7 @@ default
 :
 SnackbarColors
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -2123,6 +2132,7 @@ warning
 :
 SnackbarColors
 Composable
+ReadOnlyComposable
 get
 (
 )

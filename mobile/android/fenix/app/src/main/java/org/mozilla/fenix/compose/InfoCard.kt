@@ -201,6 +201,14 @@ compose
 .
 runtime
 .
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
+runtime
+.
 remember
 import
 androidx
@@ -1050,6 +1058,7 @@ cardBackgroundColor
 :
 Color
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -1103,6 +1112,7 @@ buttonBackgroundColor
 :
 Color
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -1158,6 +1168,7 @@ buttonTextColor
 :
 Color
 Composable
+ReadOnlyComposable
 get
 (
 )

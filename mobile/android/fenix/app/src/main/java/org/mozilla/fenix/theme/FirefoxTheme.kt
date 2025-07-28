@@ -93,6 +93,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 platform
@@ -473,6 +481,7 @@ displayed
 *
 /
 Composable
+ReadOnlyComposable
 fun
 getTheme
 (
@@ -546,6 +555,7 @@ colors
 :
 AcornColors
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -569,6 +579,7 @@ layout
 :
 AcornLayout
 Composable
+ReadOnlyComposable
 get
 (
 )
@@ -581,6 +592,7 @@ windowSize
 :
 AcornWindowSize
 Composable
+ReadOnlyComposable
 get
 (
 )

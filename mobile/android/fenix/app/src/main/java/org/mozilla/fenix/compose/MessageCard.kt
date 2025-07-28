@@ -231,6 +231,14 @@ androidx
 .
 compose
 .
+runtime
+.
+ReadOnlyComposable
+import
+androidx
+.
+compose
+.
 ui
 .
 Modifier
@@ -1238,6 +1246,7 @@ MessageCardColors
 *
 /
 Composable
+ReadOnlyComposable
 fun
 buildMessageCardColors
 (
@@ -1722,6 +1731,7 @@ used
 *
 /
 Composable
+ReadOnlyComposable
 fun
 build
 (
