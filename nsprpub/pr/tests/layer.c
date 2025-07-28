@@ -49,13 +49,6 @@ h
 "
 #
 include
-"
-prwin
-.
-h
-"
-#
-include
 <
 stdlib
 .
