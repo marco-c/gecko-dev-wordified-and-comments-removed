@@ -2083,6 +2083,15 @@ decl
 .
 isValid
 =
+this
+.
+ruleClassName
+=
+=
+=
+PRES_HINTS
+|
+|
 InspectorUtils
 .
 supports
