@@ -13648,6 +13648,9 @@ string
 titleL10n
 :
 L10N_SCHEMA
+descriptionL10n
+:
+L10N_SCHEMA
 type
 :
 {
