@@ -8890,11 +8890,11 @@ MOZ_ASSERT
 mEncoder
 )
 ;
+RefPtr
+<
 IMFMediaType
-*
+>
 outputType
-=
-nullptr
 ;
 MFT_RETURN_IF_FAILED
 (
@@ -8905,8 +8905,10 @@ GetOutputAvailableType
 (
 mOutputStreamID
 0
-&
+getter_AddRefs
+(
 outputType
+)
 )
 )
 ;
