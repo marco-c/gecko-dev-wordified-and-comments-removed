@@ -483,6 +483,12 @@ lazy
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+false
+responseBodyLimit
+:
+0
 ignoreChannelFunction
 :
 this
