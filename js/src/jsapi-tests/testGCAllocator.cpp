@@ -2137,8 +2137,11 @@ SomeAllocSizes
 600
 *
 1024
-983040
-990
+MaxMediumAllocSize
+MaxMediumAllocSize
++
+1
+1020
 *
 1024
 1
@@ -4022,7 +4025,8 @@ MinMediumAllocSize
 ;
 requestSize
 <
-MaxMediumAllocSize
+=
+MaxAlignedAllocSize
 ;
 requestSize
 *
@@ -4608,9 +4612,9 @@ MinMediumAllocSize
 bytes
 <
 =
-MaxMediumAllocSize
+ChunkSize
 /
-2
+4
 )
 {
 bytes
