@@ -353,6 +353,11 @@ DiskStorageLimit
 number
 ;
 let
+WebCodecs
+:
+number
+;
+let
 IsAlwaysEnabledForPrecompute
 :
 number
