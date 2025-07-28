@@ -2336,12 +2336,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-DESKTOP_LAUNCHER_APP
-)
 BINPATH
 /
 desktop
