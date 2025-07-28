@@ -1807,6 +1807,8 @@ SetKeyPointsErrorFlag
 false
 )
 ;
+return
+;
 }
 if
 (
@@ -1832,6 +1834,11 @@ true
 return
 ;
 }
+SetKeyPointsErrorFlag
+(
+false
+)
+;
 }
 nsresult
 SVGMotionSMILAnimationFunction
