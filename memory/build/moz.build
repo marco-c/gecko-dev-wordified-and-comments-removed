@@ -364,16 +364,3 @@ MOZJEMALLOC_PROFILING_CALLBACKS
 ]
 =
 True
-include
-(
-"
-/
-mozglue
-/
-misc
-/
-timestamp
-.
-mozbuild
-"
-)
