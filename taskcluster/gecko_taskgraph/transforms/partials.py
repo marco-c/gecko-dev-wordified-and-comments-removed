@@ -1083,7 +1083,7 @@ b
 -
 linux
 -
-gcp
+amd
 "
             
 "
