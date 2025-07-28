@@ -696,7 +696,7 @@ install_fonts
 "
 ]
 =
-False
+True
         
 if
 kwargs
@@ -1078,7 +1078,7 @@ install_fonts
 "
 ]
 =
-False
+True
         
 if
 not

@@ -2764,8 +2764,6 @@ cmd
 "
 -
 -
-no
--
 install
 -
 fonts
