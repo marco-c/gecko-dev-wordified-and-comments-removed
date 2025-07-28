@@ -751,6 +751,9 @@ mSet
 class
 MOZ_RAII
 AutoPrepareTraversal
+:
+public
+AutoSetInServoTraversal
 {
 public
 :
@@ -762,7 +765,7 @@ ServoStyleSet
 aSet
 )
 :
-mSetInServoTraversal
+AutoSetInServoTraversal
 (
 aSet
 )
@@ -779,11 +782,6 @@ StylistNeedsUpdate
 )
 ;
 }
-private
-:
-AutoSetInServoTraversal
-mSetInServoTraversal
-;
 }
 ;
 ServoStyleSet
@@ -4329,6 +4327,12 @@ GetNextStyleRoot
 )
 )
 {
+AutoPrepareTraversal
+guard
+(
+this
+)
+;
 postTraversalRequired
 |
 =
