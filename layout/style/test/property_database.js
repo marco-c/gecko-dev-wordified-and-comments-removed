@@ -17759,11 +17759,6 @@ appearance
 "
 :
 {
-domProp
-:
-"
-MozAppearance
-"
 inherited
 :
 false
