@@ -10712,7 +10712,11 @@ rect
 top
 -
 (
-isPinned
+gBrowser
+.
+pinnedTabCount
+>
+0
 ?
 pinnedRect
 .
@@ -10907,7 +10911,11 @@ rect
 top
 -
 (
-isPinned
+gBrowser
+.
+pinnedTabCount
+>
+0
 ?
 pinnedRect
 .
