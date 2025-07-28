@@ -884,6 +884,11 @@ IPv4Parser
 cpp
 "
 "
+LNAPermissionRequest
+.
+cpp
+"
+"
 LoadContextInfo
 .
 cpp

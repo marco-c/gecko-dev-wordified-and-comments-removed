@@ -86978,8 +86978,12 @@ always
 This
 preference
 controls
-blocking
-requests
+if
+we
+need
+to
+fail
+transactions
 for
 Local
 Network
@@ -87002,7 +87006,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
