@@ -7396,6 +7396,7 @@ class
 AncestorType
 {
 ClosestBlockElement
+ClosestContainerElement
 MostDistantInlineElementInBlock
 IgnoreHRElement
 ButtonElement
