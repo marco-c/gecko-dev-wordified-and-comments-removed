@@ -602,6 +602,7 @@ of
 existingTargets
 )
 {
+await
 actions
 .
 removeTarget
@@ -971,6 +972,7 @@ targetFront
 )
 ;
 }
+async
 function
 onTargetDestroyed
 (
@@ -979,6 +981,7 @@ targetFront
 }
 )
 {
+await
 actions
 .
 removeTarget

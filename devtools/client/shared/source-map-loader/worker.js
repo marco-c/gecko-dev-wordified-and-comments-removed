@@ -37,6 +37,7 @@ getFileGeneratedRange
 loadSourceMap
 clearSourceMaps
 setSourceMapForGeneratedSources
+clearSourceMapForGeneratedSources
 }
 =
 require
@@ -144,6 +145,7 @@ getGeneratedRangesForOriginal
 getFileGeneratedRange
 loadSourceMap
 setSourceMapForGeneratedSources
+clearSourceMapForGeneratedSources
 clearSourceMaps
 }
 )

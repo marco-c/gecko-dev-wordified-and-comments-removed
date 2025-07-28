@@ -72,6 +72,7 @@ targetFront
 )
 {
 return
+async
 (
 {
 getState
@@ -116,6 +117,7 @@ threadActorID
 }
 )
 ;
+await
 dispatch
 (
 removeSources
