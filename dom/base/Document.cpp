@@ -85654,8 +85654,9 @@ aModifiers
 }
 )
 ;
-SetUserHasInteracted
+SetSHEntryHasUserInteraction
 (
+true
 )
 ;
 }
