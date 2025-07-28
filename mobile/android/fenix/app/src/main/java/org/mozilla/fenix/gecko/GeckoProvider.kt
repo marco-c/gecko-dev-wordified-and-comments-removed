@@ -487,9 +487,13 @@ CrashActionWrapper
 (
 CrashAction
 .
-PullCrashes
+CheckDeferred
 (
 crashIDs
+.
+toList
+(
+)
 )
 )
 )

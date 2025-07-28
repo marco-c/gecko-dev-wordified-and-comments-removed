@@ -118,9 +118,11 @@ action
 CrashAction
 .
 Initialize
+is
 CrashAction
 .
 CheckDeferred
+is
 CrashAction
 .
 CheckForCrashes
@@ -181,6 +183,7 @@ now
 +
 FIVE_DAYS_IN_MILLIS
 )
+is
 CrashAction
 .
 ShowPrompt
@@ -189,15 +192,6 @@ ShowPrompt
 CrashState
 .
 Reporting
-is
-CrashAction
-.
-PullCrashes
--
->
-CrashState
-.
-ReportingPull
 (
 action
 .

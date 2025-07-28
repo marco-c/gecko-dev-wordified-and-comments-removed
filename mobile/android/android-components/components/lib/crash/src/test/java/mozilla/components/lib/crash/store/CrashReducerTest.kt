@@ -131,9 +131,13 @@ Initialize
 CrashAction
 .
 CheckDeferred
+(
+)
 CrashAction
 .
 CheckForCrashes
+(
+)
 CrashAction
 .
 FinishCheckingForCrashes
@@ -363,6 +367,8 @@ Idle
 CrashAction
 .
 ShowPrompt
+(
+)
 )
 assertEquals
 (
@@ -370,6 +376,8 @@ state
 CrashState
 .
 Reporting
+(
+)
 )
 }
 Test
@@ -408,7 +416,9 @@ automaticallySendChecked
 true
 crashIDs
 =
-null
+listOf
+(
+)
 )
 )
 .
@@ -421,6 +431,8 @@ crashReducer
 CrashState
 .
 Reporting
+(
+)
 it
 )
 CrashState
@@ -456,9 +468,9 @@ crashReducer
 (
 CrashState
 .
-ReportingPull
+Reporting
 (
-arrayOf
+listOf
 (
 "
 1
