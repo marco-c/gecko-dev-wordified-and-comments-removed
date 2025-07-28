@@ -812,6 +812,12 @@ readInputStream
 input
 )
 ;
+input
+.
+close
+(
+)
+;
 const
 file
 =
