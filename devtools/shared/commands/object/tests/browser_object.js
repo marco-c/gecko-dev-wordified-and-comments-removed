@@ -363,17 +363,6 @@ testMultiTargetObjectRelease
 (
 )
 {
-if
-(
-!
-isEveryFrameTargetEnabled
-(
-)
-)
-{
-return
-;
-}
 const
 tab
 =

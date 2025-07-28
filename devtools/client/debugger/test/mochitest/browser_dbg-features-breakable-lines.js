@@ -449,13 +449,6 @@ html
 "
 )
 ;
-if
-(
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 is
 (
 getEditorContent
@@ -472,7 +465,6 @@ reload
 .
 )
 ;
-}
 }
 )
 ;

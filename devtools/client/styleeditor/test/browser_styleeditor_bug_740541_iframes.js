@@ -477,18 +477,6 @@ sheets
 "
 )
 ;
-if
-(
-isFissionEnabled
-(
-)
-|
-|
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 info
 (
 "
@@ -579,7 +567,6 @@ one
 "
 )
 ;
-}
 }
 )
 ;

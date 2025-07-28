@@ -121,18 +121,6 @@ js
 )
 )
 ;
-if
-(
-isFissionEnabled
-(
-)
-|
-|
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 is
 (
 rootNodes
@@ -175,7 +163,6 @@ rootNodes
 ]
 )
 ;
-}
 info
 (
 "

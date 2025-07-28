@@ -947,9 +947,6 @@ sessionContext
 acceptNoWindowGlobal
 :
 true
-acceptSameProcessIframes
-:
-true
 }
 )
 )
@@ -1431,11 +1428,6 @@ watcherActor
 .
 getAllBrowsingContexts
 (
-{
-acceptSameProcessIframes
-:
-true
-}
 )
 .
 map
@@ -1565,11 +1557,6 @@ watcherActor
 .
 getAllBrowsingContexts
 (
-{
-acceptSameProcessIframes
-:
-true
-}
 )
 .
 find
@@ -1645,11 +1632,6 @@ watcherActor
 .
 getAllBrowsingContexts
 (
-{
-acceptSameProcessIframes
-:
-true
-}
 )
 .
 filter
@@ -1727,9 +1709,6 @@ watcherActor
 sessionContext
 {
 acceptNoWindowGlobal
-:
-true
-acceptSameProcessIframes
 :
 true
 }

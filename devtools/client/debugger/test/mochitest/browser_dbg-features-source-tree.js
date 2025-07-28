@@ -1588,13 +1588,7 @@ Thread
 const
 expectedSameUrlSources
 =
-isEveryFrameTargetEnabled
-(
-)
-?
 3
-:
-4
 ;
 is
 (
@@ -1634,13 +1628,6 @@ main
 thread
 )
 ;
-if
-(
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 const
 iframeThread
 =
@@ -1712,7 +1699,6 @@ thread
 "
 )
 ;
-}
 const
 workerThread
 =
