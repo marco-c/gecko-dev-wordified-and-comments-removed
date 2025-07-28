@@ -385,6 +385,13 @@ return
 (
 <
 article
+id
+=
+"
+widget
+-
+timer
+"
 className
 =
 "
