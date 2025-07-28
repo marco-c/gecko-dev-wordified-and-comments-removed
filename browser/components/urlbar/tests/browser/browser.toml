@@ -3269,13 +3269,6 @@ js
 ]
 [
 "
-browser_trust_panel
-.
-js
-"
-]
-[
-"
 browser_typed_value
 .
 js
