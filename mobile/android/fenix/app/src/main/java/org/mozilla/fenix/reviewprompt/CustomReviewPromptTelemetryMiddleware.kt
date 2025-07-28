@@ -234,7 +234,7 @@ NoExtras
 }
 CustomReviewPromptAction
 .
-DismissRequested
+Dismissed
 -
 >
 {

@@ -1728,14 +1728,6 @@ promptState
 onRequestDismiss
 =
 {
-store
-.
-dispatch
-(
-CustomReviewPromptAction
-.
-DismissRequested
-)
 }
 onNegativePrePromptButtonClick
 =

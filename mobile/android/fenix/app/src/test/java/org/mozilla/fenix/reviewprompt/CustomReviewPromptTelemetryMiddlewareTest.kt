@@ -492,7 +492,7 @@ testGetValue
 Test
 fun
 WHEN
-DismissRequested
+Dismissed
 is
 dispatched
 THEN
@@ -525,7 +525,7 @@ dispatch
 (
 CustomReviewPromptAction
 .
-DismissRequested
+Dismissed
 )
 .
 joinBlocking
