@@ -127,7 +127,7 @@ uint8_t
 type
 uint8_t
 flags
-rtc
+webrtc
 :
 :
 ArrayView
@@ -158,7 +158,7 @@ type
 uint8_t
 flags
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -332,7 +332,7 @@ SctpPacket
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -359,7 +359,7 @@ return
 common_header_
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView

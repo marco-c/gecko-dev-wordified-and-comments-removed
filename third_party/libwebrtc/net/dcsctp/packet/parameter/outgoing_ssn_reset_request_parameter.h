@@ -219,7 +219,7 @@ OutgoingSSNResetRequestParameter
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -286,7 +286,7 @@ return
 sender_last_assigned_tsn_
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView

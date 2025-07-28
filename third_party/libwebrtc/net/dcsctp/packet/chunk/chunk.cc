@@ -336,7 +336,7 @@ ParseAndPrint
 (
 uint8_t
 chunk_type
-rtc
+webrtc
 :
 :
 ArrayView
@@ -433,7 +433,7 @@ std
 string
 DebugConvertChunkToString
 (
-rtc
+webrtc
 :
 :
 ArrayView

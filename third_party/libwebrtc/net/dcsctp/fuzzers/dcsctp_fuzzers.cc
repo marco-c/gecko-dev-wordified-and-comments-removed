@@ -324,7 +324,7 @@ public
 explicit
 FuzzState
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -435,7 +435,7 @@ mid_
 =
 0
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2591,7 +2591,7 @@ socket
 FuzzerCallbacks
 &
 cb
-rtc
+webrtc
 :
 :
 ArrayView

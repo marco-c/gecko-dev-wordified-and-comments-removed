@@ -265,7 +265,7 @@ HandleForwardTsn
 (
 TSN
 new_cumulative_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -282,7 +282,7 @@ skipped_streams
 void
 ResetStreamsAndLeaveDeferredReset
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -298,7 +298,7 @@ EnterDeferredReset
 (
 TSN
 sender_last_assigned_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -466,7 +466,7 @@ const
 void
 AddReassembledMessage
 (
-rtc
+webrtc
 :
 :
 ArrayView

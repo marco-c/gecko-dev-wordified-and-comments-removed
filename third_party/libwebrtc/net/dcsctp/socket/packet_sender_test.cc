@@ -155,7 +155,7 @@ MockFunction
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView

@@ -363,7 +363,7 @@ descriptors
 )
 const
 {
-rtc
+webrtc
 :
 :
 ArrayView
@@ -490,7 +490,7 @@ Parameters
 :
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -501,7 +501,7 @@ uint8_t
 data
 )
 {
-rtc
+webrtc
 :
 :
 ArrayView

@@ -614,7 +614,7 @@ SctpPacket
 :
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -909,7 +909,7 @@ reserve
 kExpectedDescriptorCount
 )
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -919,7 +919,7 @@ uint8_t
 >
 descriptor_data
 =
-rtc
+webrtc
 :
 :
 ArrayView

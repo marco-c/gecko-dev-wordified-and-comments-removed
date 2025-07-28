@@ -129,7 +129,7 @@ public
 explicit
 BoundedByteReader
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -363,7 +363,7 @@ size
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -409,7 +409,7 @@ size
 FixedSize
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -441,7 +441,7 @@ FixedSize
 private
 :
 const
-rtc
+webrtc
 :
 :
 ArrayView

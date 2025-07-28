@@ -221,7 +221,7 @@ kRandomValue
 void
 SendPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -381,7 +381,7 @@ override
 void
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -400,7 +400,7 @@ override
 void
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -416,7 +416,7 @@ override
 void
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -582,7 +582,7 @@ socket
 FuzzerCallbacks
 &
 cb
-rtc
+webrtc
 :
 :
 ArrayView

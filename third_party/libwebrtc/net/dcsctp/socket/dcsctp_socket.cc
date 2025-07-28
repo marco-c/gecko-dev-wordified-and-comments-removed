@@ -1406,7 +1406,7 @@ tie_tag_lower
 SctpImplementation
 DeterminePeerImplementation
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3494,7 +3494,7 @@ DcSctpSocket
 :
 SendMany
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3941,7 +3941,7 @@ DcSctpSocket
 :
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -5209,7 +5209,7 @@ DcSctpSocket
 :
 ReceivePacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -5487,7 +5487,7 @@ DcSctpSocket
 :
 DebugPrintOutgoing
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -6533,7 +6533,7 @@ DcSctpSocket
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView

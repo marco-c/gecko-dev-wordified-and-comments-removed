@@ -1466,7 +1466,7 @@ InterleavedReassemblyStreams
 HandleForwardTsn
 (
 UnwrappedTSN
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1529,7 +1529,7 @@ InterleavedReassemblyStreams
 :
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

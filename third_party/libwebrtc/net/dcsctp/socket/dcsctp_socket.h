@@ -629,7 +629,7 @@ delete
 void
 ReceivePacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -698,7 +698,7 @@ SendStatus
 >
 SendMany
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -716,7 +716,7 @@ override
 ResetStreamsStatus
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1017,7 +1017,7 @@ OnShutdownTimerExpiry
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1089,7 +1089,7 @@ packet
 void
 DebugPrintOutgoing
 (
-rtc
+webrtc
 :
 :
 ArrayView

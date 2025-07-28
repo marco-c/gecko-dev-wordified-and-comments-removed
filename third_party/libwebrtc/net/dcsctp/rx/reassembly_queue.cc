@@ -360,7 +360,7 @@ log_prefix_
 this
 ]
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -682,7 +682,7 @@ ReassemblyQueue
 :
 ResetStreamsAndLeaveDeferredReset
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -847,7 +847,7 @@ EnterDeferredReset
 (
 TSN
 sender_last_assigned_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -976,7 +976,7 @@ ReassemblyQueue
 :
 AddReassembledMessage
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1117,7 +1117,7 @@ HandleForwardTsn
 (
 TSN
 new_cumulative_tsn
-rtc
+webrtc
 :
 :
 ArrayView

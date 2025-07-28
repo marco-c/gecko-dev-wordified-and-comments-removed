@@ -133,7 +133,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -173,7 +173,7 @@ HandleForwardTsn
 (
 UnwrappedTSN
 new_cumulative_ack_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -193,7 +193,7 @@ virtual
 void
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

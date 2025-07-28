@@ -133,7 +133,7 @@ CallbackDeferrer
 :
 SendPacketWithStatus
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -595,7 +595,7 @@ CallbackDeferrer
 :
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -696,7 +696,7 @@ CallbackDeferrer
 :
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -782,7 +782,7 @@ CallbackDeferrer
 :
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView

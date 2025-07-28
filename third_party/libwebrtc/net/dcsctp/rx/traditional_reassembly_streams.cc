@@ -1681,7 +1681,7 @@ HandleForwardTsn
 (
 UnwrappedTSN
 new_cumulative_ack_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1774,7 +1774,7 @@ TraditionalReassemblyStreams
 :
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

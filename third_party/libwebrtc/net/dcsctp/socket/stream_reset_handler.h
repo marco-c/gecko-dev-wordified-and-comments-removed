@@ -419,7 +419,7 @@ kSuccessNothingToDo
 void
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

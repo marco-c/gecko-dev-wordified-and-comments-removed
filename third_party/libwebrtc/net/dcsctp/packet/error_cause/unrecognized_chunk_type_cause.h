@@ -176,7 +176,7 @@ UnrecognizedChunkTypeCause
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -213,7 +213,7 @@ ToString
 const
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView
