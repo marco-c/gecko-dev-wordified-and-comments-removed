@@ -14277,7 +14277,7 @@ LOAD_START
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheHit
@@ -14309,7 +14309,7 @@ LOAD_STOP
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
@@ -14401,7 +14401,7 @@ LOAD_REDIRECT
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
@@ -14457,7 +14457,7 @@ LOAD_REDIRECT
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
@@ -14515,7 +14515,7 @@ LOAD_REDIRECT
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
@@ -14578,7 +14578,7 @@ LOAD_REDIRECT
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
@@ -14651,7 +14651,7 @@ LOAD_START
 ts1
 ts2
 56
-nsICacheInfoChannel
+net
 :
 :
 kCacheUnresolved
