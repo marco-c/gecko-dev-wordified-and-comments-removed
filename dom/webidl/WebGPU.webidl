@@ -3024,6 +3024,8 @@ GPUTexture
 or
 GPUTextureView
 or
+GPUBuffer
+or
 GPUBufferBinding
 )
 GPUBindingResource
