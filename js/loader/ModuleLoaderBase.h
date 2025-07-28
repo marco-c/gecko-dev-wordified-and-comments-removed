@@ -1919,6 +1919,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+OnFetchFailed
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 enum
 class
 ImportMetaSlots
