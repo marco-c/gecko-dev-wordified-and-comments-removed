@@ -175,7 +175,7 @@ input
 >
 input
 .
-id
+name
 =
 =
 =
@@ -228,7 +228,7 @@ if
 (
 toolInput
 .
-id
+name
 =
 =
 "
@@ -268,7 +268,7 @@ get
 (
 toolInput
 .
-id
+name
 )
 ;
 return
@@ -670,7 +670,7 @@ input
 >
 input
 .
-id
+name
 =
 =
 =

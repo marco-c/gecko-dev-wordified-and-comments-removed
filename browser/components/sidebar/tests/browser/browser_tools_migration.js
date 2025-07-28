@@ -395,7 +395,7 @@ input
 >
 input
 .
-id
+name
 =
 =
 =
@@ -722,7 +722,7 @@ input
 >
 input
 .
-id
+name
 =
 =
 =
@@ -777,7 +777,7 @@ input
 >
 input
 .
-id
+name
 =
 =
 =
