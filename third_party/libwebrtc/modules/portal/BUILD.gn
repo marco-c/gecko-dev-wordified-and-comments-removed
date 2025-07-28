@@ -663,6 +663,17 @@ sanitizer
 .
 /
 rtc_base
+:
+stringutils
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 system
 :
@@ -680,8 +691,6 @@ cpp
 absl
 /
 strings
-:
-string_view
 "
 ]
 if
