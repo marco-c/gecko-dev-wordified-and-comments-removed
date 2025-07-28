@@ -23709,9 +23709,6 @@ data_sensitivity
 :
 -
 interaction
-lifetime
-:
-application
 notification_emails
 :
 -
