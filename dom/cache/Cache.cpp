@@ -2622,7 +2622,7 @@ void
 Cache
 :
 :
-DestroyInternal
+OnActorDestroy
 (
 CacheChild
 *

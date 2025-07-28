@@ -128,6 +128,8 @@ public
 nsWrapperCache
 public
 TypeUtils
+public
+CacheStorageChildListener
 {
 using
 PBackgroundChild
@@ -340,12 +342,13 @@ aGivenProto
 override
 ;
 void
-DestroyInternal
+OnActorDestroy
 (
 CacheStorageChild
 *
 aActor
 )
+override
 ;
 virtual
 nsIGlobalObject

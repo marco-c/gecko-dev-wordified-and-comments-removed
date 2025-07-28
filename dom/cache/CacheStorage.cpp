@@ -2727,7 +2727,7 @@ void
 CacheStorage
 :
 :
-DestroyInternal
+OnActorDestroy
 (
 CacheStorageChild
 *

@@ -98,7 +98,7 @@ CacheStorageChild
 :
 CacheStorageChild
 (
-CacheStorage
+CacheStorageChildListener
 *
 aListener
 SafeRefPtr
@@ -264,10 +264,8 @@ DestroyInternal
 (
 )
 {
-RefPtr
-<
-CacheStorage
->
+CacheStorageChildListener
+*
 listener
 =
 mListener
@@ -284,7 +282,7 @@ return
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )
@@ -381,10 +379,8 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-RefPtr
-<
-CacheStorage
->
+CacheStorageChildListener
+*
 listener
 =
 mListener
@@ -397,7 +393,7 @@ listener
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )

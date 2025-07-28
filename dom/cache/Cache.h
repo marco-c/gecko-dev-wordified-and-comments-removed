@@ -126,6 +126,8 @@ public
 nsWrapperCache
 public
 TypeUtils
+public
+CacheChildListener
 {
 public
 :
@@ -338,12 +340,13 @@ aGivenProto
 override
 ;
 void
-DestroyInternal
+OnActorDestroy
 (
 CacheChild
 *
 aActor
 )
+override
 ;
 virtual
 nsIGlobalObject

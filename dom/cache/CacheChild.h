@@ -105,7 +105,7 @@ CacheChild
 void
 SetListener
 (
-Cache
+CacheChildListener
 *
 aListener
 )
@@ -216,7 +216,7 @@ Unlock
 (
 )
 ;
-Cache
+CacheChildListener
 *
 MOZ_NON_OWNING_REF
 mListener

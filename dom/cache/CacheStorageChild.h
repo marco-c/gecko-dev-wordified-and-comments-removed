@@ -87,7 +87,7 @@ public
 :
 CacheStorageChild
 (
-CacheStorage
+CacheStorageChildListener
 *
 aListener
 SafeRefPtr
@@ -198,7 +198,7 @@ Count
 )
 ;
 }
-CacheStorage
+CacheStorageChildListener
 *
 MOZ_NON_OWNING_REF
 mListener
