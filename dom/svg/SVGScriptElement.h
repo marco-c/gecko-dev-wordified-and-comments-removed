@@ -439,7 +439,9 @@ GetAsyncState
 override
 {
 return
-false
+Async
+(
+)
 ;
 }
 nsIContent
