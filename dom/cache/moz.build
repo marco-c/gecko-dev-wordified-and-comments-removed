@@ -351,6 +351,11 @@ CacheTypes
 ipdlh
 "
 "
+PBoundStorageKey
+.
+ipdl
+"
+"
 PCache
 .
 ipdl
