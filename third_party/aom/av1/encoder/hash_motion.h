@@ -122,14 +122,11 @@ hash_value_buffer
 hash_table
 intrabc_hash_table
 ;
-CRC_CALCULATOR
-crc_calculator1
-;
-CRC_CALCULATOR
-crc_calculator2
+CRC32C
+crc_calculator
 ;
 int
-g_crc_initialized
+crc_initialized
 ;
 }
 IntraBCHashInfo

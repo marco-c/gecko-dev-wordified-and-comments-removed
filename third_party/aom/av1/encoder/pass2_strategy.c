@@ -12759,9 +12759,6 @@ cpi
 int
 lookahead_size
 =
-(
-int
-)
 av1_lookahead_depth
 (
 cpi

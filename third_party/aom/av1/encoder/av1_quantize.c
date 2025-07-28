@@ -7014,6 +7014,9 @@ y_dc_delta_q
 if
 (
 enable_chroma_deltaq
+&
+&
+q
 )
 {
 if
@@ -7286,6 +7289,9 @@ v_ac_delta_q
 if
 (
 enable_hdr_deltaq
+&
+&
+q
 )
 {
 int

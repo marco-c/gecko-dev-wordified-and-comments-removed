@@ -9351,8 +9351,8 @@ bitrate_array
 ]
 =
 {
-80
-90
+50
+70
 }
 ;
 cfg_
@@ -9481,9 +9481,9 @@ target_layer_bitrate_
 i
 ]
 *
-1
+2
 .
-60
+0
 )
 <
 <

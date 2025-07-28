@@ -1452,6 +1452,9 @@ struct
 int
 sharpness
 ;
+bool
+enable_adaptive_sharpness
+;
 int
 disable_trellis_quant
 ;

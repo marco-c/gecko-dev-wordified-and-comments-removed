@@ -4974,6 +4974,7 @@ av1_get_crc32c_value
 void
 *
 crc_calculator
+const
 uint8_t
 *
 p
@@ -7810,6 +7811,7 @@ ssse3
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7817,6 +7819,7 @@ qw
 /
 av1_highbd_convolve_2d_sr_intrabc
 neon
+rvv
 /
 ;
 specialize
@@ -7827,6 +7830,7 @@ ssse3
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7834,6 +7838,7 @@ qw
 /
 av1_highbd_convolve_x_sr_intrabc
 neon
+rvv
 /
 ;
 specialize
@@ -7844,6 +7849,7 @@ ssse3
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7851,6 +7857,7 @@ qw
 /
 av1_highbd_convolve_y_sr_intrabc
 neon
+rvv
 /
 ;
 specialize

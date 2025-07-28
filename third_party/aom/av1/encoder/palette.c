@@ -3608,7 +3608,7 @@ sf
 .
 rt_sf
 .
-use_nonrd_pick_mode
+discount_color_cost
 ;
 int
 unused

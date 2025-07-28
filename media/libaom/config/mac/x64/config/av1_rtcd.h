@@ -5819,6 +5819,7 @@ av1_get_crc32c_value_c
 void
 *
 crc_calculator
+const
 uint8_t
 *
 p
@@ -5832,6 +5833,7 @@ av1_get_crc32c_value_sse4_2
 void
 *
 crc_calculator
+const
 uint8_t
 *
 p
@@ -5849,6 +5851,7 @@ av1_get_crc32c_value
 void
 *
 crc_calculator
+const
 uint8_t
 *
 p

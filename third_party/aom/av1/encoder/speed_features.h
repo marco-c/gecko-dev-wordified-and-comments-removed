@@ -1289,6 +1289,9 @@ allow_sub_blk_me_in_tf
 int
 ref_frame_mvs_lvl
 ;
+int
+screen_detection_mode2_fast_detection
+;
 }
 HIGH_LEVEL_SPEED_FEATURES
 ;
@@ -1569,6 +1572,15 @@ full_pixel_search_level
 ;
 int
 use_intrabc
+;
+int
+prune_intrabc_candidate_block_hash_search
+;
+int
+intrabc_search_level
+;
+int
+hash_max_8x8_intrabc_blocks
 ;
 int
 use_downsampled_sad
@@ -2045,6 +2057,9 @@ nonrd_prune_ref_frame_search
 ;
 int
 use_nonrd_pick_mode
+;
+int
+discount_color_cost
 ;
 int
 use_nonrd_altref_frame

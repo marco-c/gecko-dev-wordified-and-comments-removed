@@ -661,7 +661,6 @@ av1_arg_ctrl_map
 {
 AOME_SET_CPUUSED
 AOME_SET_ENABLEAUTOALTREF
-AOME_SET_SHARPNESS
 AOME_SET_STATIC_THRESHOLD
 AV1E_SET_ROW_MT
 AV1E_SET_FP_MT
@@ -1161,10 +1160,6 @@ auto_altref
 &
 g_av1_codec_arg_defs
 .
-sharpness
-&
-g_av1_codec_arg_defs
-.
 static_thresh
 &
 g_av1_codec_arg_defs
@@ -1657,6 +1652,14 @@ auto_tiles
 g_av1_codec_arg_defs
 .
 screen_detection_mode
+&
+g_av1_codec_arg_defs
+.
+sharpness
+&
+g_av1_codec_arg_defs
+.
+enable_adaptive_sharpness
 NULL
 }
 ;

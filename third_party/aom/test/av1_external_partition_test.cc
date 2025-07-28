@@ -532,7 +532,7 @@ ext_part_decision
 >
 partition_decision
 [
-0
+i
 ]
 =
 PARTITION_SPLIT
@@ -692,7 +692,7 @@ ext_part_decision
 >
 partition_decision
 [
-0
+i
 ]
 =
 PARTITION_SPLIT
@@ -852,7 +852,7 @@ ext_part_decision
 >
 partition_decision
 [
-0
+i
 ]
 =
 PARTITION_SPLIT

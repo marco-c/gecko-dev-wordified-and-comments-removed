@@ -310,6 +310,9 @@ arg_def_t
 sharpness
 ;
 arg_def_t
+enable_adaptive_sharpness
+;
+arg_def_t
 static_thresh
 ;
 arg_def_t
