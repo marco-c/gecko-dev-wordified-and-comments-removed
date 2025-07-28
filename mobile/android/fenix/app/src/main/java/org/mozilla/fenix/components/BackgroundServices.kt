@@ -531,9 +531,7 @@ fenix
 .
 GleanMetrics
 .
-Metrics
-.
-clientAssociation
+ClientAssociation
 import
 org
 .
@@ -1823,7 +1821,9 @@ accountUid
 null
 )
 {
-clientAssociation
+ClientAssociation
+.
+uid
 .
 set
 (
