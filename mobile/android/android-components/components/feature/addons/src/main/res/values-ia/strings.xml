@@ -6865,7 +6865,7 @@ name
 mozac_feature_addons_permissions_dialog_heading_required_permissions
 "
 >
-Permissos
+Permissiones
 necessari
 :
 <
@@ -8332,7 +8332,7 @@ mozac_feature_addons_updater_notification_heading_permissions
 "
 >
 Nove
-permissos
+permissiones
 necessari
 :
 %
@@ -10857,13 +10857,16 @@ name
 mozac_feature_addons_installed_dialog_description_3
 "
 >
-Actualisar
-permissos
+Actualisa
+le
+permissiones
 e
 preferentias
 de
 datos
-quandocunque
+in
+qualcunque
+momento
 in
 le
 %
