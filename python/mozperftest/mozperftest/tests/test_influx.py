@@ -71,23 +71,6 @@ influxdb
 ping
 "
         
-body
-=
-json
-.
-dumps
-(
-{
-"
-version
-"
-:
-"
-1
-"
-}
-)
-        
 headers
 =
 {
@@ -128,23 +111,6 @@ influxdb
 /
 write
 "
-        
-body
-=
-json
-.
-dumps
-(
-{
-"
-version
-"
-:
-"
-1
-"
-}
-)
         
 headers
 =
