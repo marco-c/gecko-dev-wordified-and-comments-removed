@@ -978,6 +978,11 @@ target
 =
 this
 .
+lastAnchorNode
+|
+|
+this
+.
 getTargetForEvent
 (
 this
