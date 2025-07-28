@@ -1837,6 +1837,8 @@ context
 state
 .
 downloadState
+.
+filePath
 )
 duration
 =
