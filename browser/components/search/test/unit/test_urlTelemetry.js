@@ -1494,7 +1494,7 @@ other
 &
 ia
 =
-news
+shopping
 "
 expectedSearchCountEntry
 :
@@ -1595,7 +1595,7 @@ h_
 &
 ia
 =
-news
+shopping
 "
 expectedSearchCountEntry
 :
@@ -1697,7 +1697,7 @@ hz
 &
 ia
 =
-news
+shopping
 "
 expectedSearchCountEntry
 :
@@ -1794,7 +1794,7 @@ test
 &
 ia
 =
-news
+shopping
 "
 expectedSearchCountEntry
 :
