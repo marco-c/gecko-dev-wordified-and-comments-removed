@@ -78,6 +78,9 @@ a
 nutshell
 raptor
 talos
+telemetry
+-
+alerting
 Performance
 tests
 are
@@ -210,6 +213,13 @@ raptor
 doc
 :
 talos
+*
+:
+doc
+:
+telemetry
+-
+alerting
 Here
 are
 the
