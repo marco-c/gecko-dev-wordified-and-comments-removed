@@ -2750,6 +2750,13 @@ tabs
 "
 [
 "
+browser_switchtab_when_minimized
+.
+js
+"
+]
+[
+"
 browser_tabCloseProbes
 .
 js
