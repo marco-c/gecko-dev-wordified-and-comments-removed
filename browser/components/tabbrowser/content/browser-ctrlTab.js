@@ -2434,6 +2434,12 @@ updatePreviews
 ;
 this
 .
+_trackMouseOver
+=
+false
+;
+this
+.
 _selectedIndex
 =
 1
@@ -2677,12 +2683,6 @@ _selectedIndex
 =
 -
 1
-;
-this
-.
-_trackMouseOver
-=
-false
 ;
 requestAnimationFrame
 (
