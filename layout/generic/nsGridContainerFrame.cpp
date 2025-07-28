@@ -29596,7 +29596,9 @@ GridReflowInput
 aGridRI
 LogicalAxis
 aAxis
+const
 LogicalSize
+&
 aPercentageBasis
 IntrinsicISizeType
 aConstraint
@@ -30979,7 +30981,9 @@ GridReflowInput
 aGridRI
 LogicalAxis
 aAxis
+const
 LogicalSize
+&
 aPercentageBasis
 nscoord
 aMinSizeClamp
