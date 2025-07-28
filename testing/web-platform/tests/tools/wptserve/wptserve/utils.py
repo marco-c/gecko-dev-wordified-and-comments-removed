@@ -851,8 +851,6 @@ Skipping
 HTTP
 /
 2
-.
-0
 compatibility
 check
 as

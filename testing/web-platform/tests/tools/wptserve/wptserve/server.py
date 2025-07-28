@@ -2543,8 +2543,6 @@ main
 HTTP
 /
 2
-.
-0
 Handler
 .
         
@@ -2563,8 +2561,6 @@ the
 HTTP
 /
 2
-.
-0
 port
 the
 server
