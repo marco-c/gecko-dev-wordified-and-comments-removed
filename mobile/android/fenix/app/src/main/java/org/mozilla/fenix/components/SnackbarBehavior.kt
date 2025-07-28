@@ -228,10 +228,10 @@ toolbar
 .
 *
 param
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 Whether
 the
-simple
+expanded
 toolbar
 layout
 should
@@ -261,7 +261,7 @@ toolbarPosition
 ToolbarPosition
 private
 val
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 :
 Boolean
 )
@@ -353,8 +353,7 @@ ToolbarPosition
 TOP
 &
 &
-!
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 )
 )
 {

@@ -2782,7 +2782,7 @@ string
 name
 =
 "
-pref_key_toolbar_simple
+pref_key_toolbar_expanded
 "
 translatable
 =
@@ -2790,7 +2790,7 @@ translatable
 false
 "
 >
-pref_key_toolbar_simple
+pref_key_toolbar_expanded
 <
 /
 string

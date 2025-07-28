@@ -2057,7 +2057,7 @@ emptyList
 (
 )
 val
-isSimpleOrLandScape
+isExpandedAndPortrait
 =
 environment
 .
@@ -2067,9 +2067,9 @@ settings
 (
 )
 .
-shouldUseSimpleToolbar
-|
-|
+shouldUseExpandedToolbar
+&
+&
 appStore
 .
 state
@@ -2079,7 +2079,7 @@ orientation
 =
 OrientationMode
 .
-Landscape
+Portrait
 return
 listOf
 (
@@ -2102,7 +2102,8 @@ settings
 isTabStripEnabled
 &
 &
-isSimpleOrLandScape
+!
+isExpandedAndPortrait
 }
 HomeToolbarActionConfig
 (
@@ -2111,7 +2112,8 @@ HomeToolbarAction
 Menu
 )
 {
-isSimpleOrLandScape
+!
+isExpandedAndPortrait
 }
 )
 .
@@ -2189,7 +2191,6 @@ emptyList
 val
 isExpandedAndPortrait
 =
-!
 environment
 .
 context
@@ -2198,7 +2199,7 @@ settings
 (
 )
 .
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 &
 &
 appStore

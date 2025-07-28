@@ -1214,7 +1214,7 @@ settings
 )
 .
 toolbarPosition
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 =
 snackBarParentView
 .
@@ -1224,7 +1224,7 @@ settings
 (
 )
 .
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 )
 }
 }

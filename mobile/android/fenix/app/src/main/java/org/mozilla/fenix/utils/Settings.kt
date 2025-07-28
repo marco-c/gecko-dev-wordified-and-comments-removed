@@ -6335,7 +6335,7 @@ persistDefaultIfNotExists
 true
 )
 var
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 by
 booleanPreference
 (
@@ -6349,11 +6349,11 @@ R
 .
 string
 .
-pref_key_toolbar_simple
+pref_key_toolbar_expanded
 )
 default
 =
-true
+false
 persistDefaultIfNotExists
 =
 true
@@ -11893,8 +11893,7 @@ navBarHeight
 =
 if
 (
-!
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 )
 {
 appContext
@@ -12108,8 +12107,7 @@ navBarHeight
 =
 if
 (
-!
-shouldUseSimpleToolbar
+shouldUseExpandedToolbar
 )
 {
 appContext
