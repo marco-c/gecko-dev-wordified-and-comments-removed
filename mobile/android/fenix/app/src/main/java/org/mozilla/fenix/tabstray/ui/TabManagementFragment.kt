@@ -1495,9 +1495,6 @@ Theme
 .
 getTheme
 (
-allowPrivateTheme
-=
-false
 )
 )
 {
