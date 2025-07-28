@@ -347,6 +347,14 @@ timeout_ms
 )
 override
 ;
+void
+SetMTU
+(
+int
+mtu
+)
+override
+;
 StreamResult
 Read
 (
@@ -852,6 +860,11 @@ int
 dtls_handshake_timeout_ms_
 =
 50
+;
+int
+dtls_mtu_
+=
+1200
 ;
 const
 int

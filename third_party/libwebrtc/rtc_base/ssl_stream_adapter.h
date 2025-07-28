@@ -473,6 +473,16 @@ timeout_ms
 0
 ;
 virtual
+void
+SetMTU
+(
+int
+mtu
+)
+=
+0
+;
+virtual
 int
 StartSSL
 (
