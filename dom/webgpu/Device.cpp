@@ -2836,7 +2836,6 @@ BindGroupLayout
 (
 this
 id
-true
 )
 ;
 object
