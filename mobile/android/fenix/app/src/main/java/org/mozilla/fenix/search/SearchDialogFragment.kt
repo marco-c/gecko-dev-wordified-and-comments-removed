@@ -3799,6 +3799,12 @@ onDestroyView
 (
 )
 _awesomeBarView
+?
+.
+dispose
+(
+)
+_awesomeBarView
 =
 null
 nullableInteractor
