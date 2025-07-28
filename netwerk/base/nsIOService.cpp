@@ -1092,13 +1092,6 @@ allow_hijacking_localhost
 "
 network
 .
-proxy
-.
-testing_localhost_is_secure_when_hijacked
-"
-"
-network
-.
 connectivity
 -
 service
