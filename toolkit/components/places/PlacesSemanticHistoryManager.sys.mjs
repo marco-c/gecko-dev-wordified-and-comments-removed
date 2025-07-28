@@ -531,7 +531,7 @@ options
 .
 rowLimit
 =
-600
+10000
 ]
 -
 Maximum
@@ -636,7 +636,7 @@ embeddingSize
 384
 rowLimit
 =
-600
+10000
 samplingAttrib
 =
 "
