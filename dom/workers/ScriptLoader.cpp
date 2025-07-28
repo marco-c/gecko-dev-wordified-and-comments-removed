@@ -5810,6 +5810,17 @@ mModuleScript
 HasParseError
 (
 )
+|
+|
+request
+-
+>
+mModuleScript
+-
+>
+HasErrorToRethrow
+(
+)
 )
 {
 mRv
