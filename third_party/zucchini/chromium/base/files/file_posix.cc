@@ -2236,6 +2236,13 @@ length
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 bool
 File
 :
@@ -2313,6 +2320,8 @@ times
 )
 ;
 }
+#
+endif
 bool
 File
 :

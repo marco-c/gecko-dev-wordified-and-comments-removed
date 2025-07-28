@@ -164,6 +164,8 @@ notreached
 h
 "
 #
+endif
+#
 include
 "
 base
@@ -174,6 +176,13 @@ eintr_wrapper
 .
 h
 "
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 #
 include
 "
@@ -2294,6 +2303,8 @@ path
 )
 ;
 }
+#
+endif
 bool
 CreateDirectory
 (
@@ -2311,6 +2322,13 @@ nullptr
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 bool
 GetFileSize
 (
