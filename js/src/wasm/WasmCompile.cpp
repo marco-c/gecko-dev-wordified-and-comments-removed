@@ -841,7 +841,10 @@ this
 >
 jsStringConstantsNamespace
 =
-js_new
+cx
+-
+>
+new_
 <
 ShareableChars
 >
