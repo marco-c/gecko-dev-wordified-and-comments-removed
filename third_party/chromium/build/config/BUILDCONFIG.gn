@@ -5578,6 +5578,13 @@ deps
 }
 if
 (
+false
+)
+{
+#
+Mozilla
+if
+(
 !
 defined
 (
@@ -5620,6 +5627,7 @@ libc
 std
 "
 ]
+}
 }
 #
 Consumed
@@ -6181,6 +6189,13 @@ deps
 }
 if
 (
+false
+)
+{
+#
+Mozilla
+if
+(
 !
 defined
 (
@@ -6327,6 +6342,7 @@ libc
 std
 "
 ]
+}
 }
 #
 On
