@@ -1128,12 +1128,6 @@ aReflowInput
 aStatus
 )
 ;
-aStatus
-.
-Reset
-(
-)
-;
 }
 void
 nsComboboxControlFrame
