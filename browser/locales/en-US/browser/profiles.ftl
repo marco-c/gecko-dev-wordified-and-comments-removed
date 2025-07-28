@@ -1581,7 +1581,11 @@ avatar
 -
 alt
 =
+.
+alt
+=
 Custom
+avatar
 #
 Default
 favicon
