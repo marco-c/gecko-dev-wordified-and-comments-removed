@@ -358,9 +358,6 @@ verifyNoCollectionsText
 (
 activityTestRule
 )
-scrollToPocketProvokingStories
-(
-)
 verifyThoughtProvokingStories
 (
 true
