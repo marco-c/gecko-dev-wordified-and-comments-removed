@@ -4682,6 +4682,9 @@ index
 GPUBindGroup
 ?
 bindGroup
+[
+AllowShared
+]
 Uint32Array
 dynamicOffsetsData
 GPUSize64
