@@ -190,6 +190,7 @@ DuplicateTransitionNameCapturingNewState
 PseudoUpdateFailure
 Resize
 PageSwap
+ResetRendering
 }
 ;
 enum
