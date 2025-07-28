@@ -388,6 +388,10 @@ Touch
 aOther
 )
 :
+WidgetPointerHelper
+(
+aOther
+)
 mOriginalTarget
 (
 aOther
