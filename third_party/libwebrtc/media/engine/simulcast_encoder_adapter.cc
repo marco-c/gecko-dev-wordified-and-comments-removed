@@ -824,9 +824,6 @@ maxFramerate
 void
 GetLowestAndHighestQualityStreamIndixes
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1824,9 +1821,6 @@ is_legacy_singlecast
 {
 GetLowestAndHighestQualityStreamIndixes
 (
-rtc
-:
-:
 ArrayView
 <
 SimulcastStream
@@ -2719,9 +2713,6 @@ break
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -3116,9 +3107,6 @@ video_frame_buffer
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

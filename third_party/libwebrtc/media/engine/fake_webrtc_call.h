@@ -2271,10 +2271,7 @@ GetFlexfecReceiveStreams
 (
 )
 ;
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 last_sent_packet
 (
 )
@@ -2700,10 +2697,7 @@ void
 OnSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
@@ -2740,10 +2734,7 @@ audio_network_state_
 NetworkState
 video_network_state_
 ;
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 last_sent_packet_
 ;
 RtpPacketReceived

@@ -1729,9 +1729,6 @@ buf
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (

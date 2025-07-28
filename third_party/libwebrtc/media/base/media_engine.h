@@ -224,9 +224,6 @@ const
 RtpParameters
 &
 new_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
@@ -249,9 +246,6 @@ const
 RtpParameters
 &
 new_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
@@ -282,9 +276,6 @@ const
 RtpParameters
 &
 new_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
@@ -478,9 +469,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -507,9 +495,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -723,9 +708,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 send_codecs
@@ -750,9 +732,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 recv_codecs
@@ -807,9 +786,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 send_codecs
@@ -871,9 +847,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 recv_codecs

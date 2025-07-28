@@ -714,9 +714,6 @@ RTC_CHECK_NOTREACHED
 RtpPacketType
 InferRtpPacketType
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1297,9 +1294,6 @@ false
 auto
 packet
 =
-rtc
-:
-:
 MakeArrayView
 (
 data

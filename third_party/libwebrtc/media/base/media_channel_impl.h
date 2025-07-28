@@ -185,10 +185,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -200,10 +197,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -295,9 +289,6 @@ TransportForMediaChannels
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -314,9 +305,6 @@ override
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -360,10 +348,7 @@ packet
 bool
 rtcp
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )

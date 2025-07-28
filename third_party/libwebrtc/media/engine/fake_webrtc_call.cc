@@ -1462,9 +1462,6 @@ encoder_info
 auto
 factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory
@@ -1650,9 +1647,6 @@ encoder_info
 auto
 factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory
@@ -4056,10 +4050,7 @@ FakeCall
 OnSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

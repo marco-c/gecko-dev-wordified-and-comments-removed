@@ -332,7 +332,7 @@ OnDataReceived
 int
 DataMessageType
 const
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1639,9 +1639,6 @@ max_message_size
 SendDataParams
 params
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -1748,9 +1745,6 @@ ResetStream
 SendDataParams
 params
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -1873,9 +1867,6 @@ max_message_size
 SendDataParams
 params
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;

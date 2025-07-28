@@ -3271,9 +3271,6 @@ config
 .
 async_audio_processing_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 AsyncAudioProcessing
@@ -9244,10 +9241,7 @@ WebRtcVoiceSendChannel
 OnPacketSent
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

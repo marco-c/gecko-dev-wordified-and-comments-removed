@@ -1778,7 +1778,7 @@ true
 }
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1815,7 +1815,7 @@ get
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1837,7 +1837,7 @@ use_null_apm
 ?
 nullptr
 :
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -2074,7 +2074,7 @@ use_null_apm_
 ?
 nullptr
 :
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -6244,7 +6244,7 @@ const
 Environment
 env_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -6259,7 +6259,7 @@ MockAudioDeviceModule
 >
 adm_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -21854,7 +21854,7 @@ network_interface
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_DEFAULT
@@ -21923,7 +21923,7 @@ network_interface
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_DEFAULT
@@ -22011,7 +22011,7 @@ ok
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_EF
@@ -22058,7 +22058,7 @@ ok
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_CS1
@@ -22105,7 +22105,7 @@ kData
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_CS1
@@ -22176,7 +22176,7 @@ network_interface
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 DSCP_DEFAULT
@@ -23333,7 +23333,7 @@ kAudioSsrc
 =
 1
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -23389,7 +23389,7 @@ kRtcp
 0x00
 }
 ;
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -24628,7 +24628,7 @@ CreateEnvironment
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -24891,7 +24891,7 @@ CreateEnvironment
 auto
 adm
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -25164,7 +25164,7 @@ true
 }
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -25620,7 +25620,7 @@ CreateEnvironment
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -25880,7 +25880,7 @@ CreateEnvironment
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -26083,7 +26083,7 @@ CreateEnvironment
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -26648,7 +26648,7 @@ codec4
 }
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -26670,7 +26670,7 @@ CreateUnusedFactory
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -26682,7 +26682,7 @@ MockAudioDecoderFactory
 >
 mock_decoder_factory
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -26716,7 +26716,7 @@ specs
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -27443,7 +27443,7 @@ codec4
 }
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -27465,7 +27465,7 @@ CreateUnusedFactory
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -27477,7 +27477,7 @@ MockAudioDecoderFactory
 >
 mock_decoder_factory
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -27511,7 +27511,7 @@ specs
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

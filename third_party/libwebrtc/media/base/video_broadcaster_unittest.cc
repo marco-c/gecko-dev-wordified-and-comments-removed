@@ -363,7 +363,7 @@ kHeight
 =
 50
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1222,7 +1222,7 @@ sink2
 wants2
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

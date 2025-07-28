@@ -1131,10 +1131,7 @@ void
 OnPacketSent
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
@@ -1642,9 +1639,6 @@ static
 void
 ExtractCodecInformation
 (
-rtc
-:
-:
 ArrayView
 <
 const

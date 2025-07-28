@@ -4690,9 +4690,6 @@ Release
 void
 ExtractCodecInformation
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6194,9 +6191,6 @@ true
 denoising
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6501,9 +6495,6 @@ kOn
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -6559,9 +6550,6 @@ false
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -9396,9 +9384,6 @@ transport
 for
 (
 const
-cricket
-:
-:
 RidDescription
 &
 rid
@@ -10131,10 +10116,7 @@ WebRtcVideoSendChannel
 OnPacketSent
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
