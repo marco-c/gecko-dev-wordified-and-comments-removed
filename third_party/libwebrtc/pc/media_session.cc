@@ -5464,9 +5464,8 @@ error_or_filtered_codecs
 codec_lookup_helper_
 -
 >
-CodecVendor
+GetCodecVendor
 (
-mid
 )
 -
 >
@@ -6276,11 +6275,8 @@ error_or_filtered_codecs
 codec_lookup_helper_
 -
 >
-CodecVendor
+GetCodecVendor
 (
-media_description_options
-.
-mid
 )
 -
 >
