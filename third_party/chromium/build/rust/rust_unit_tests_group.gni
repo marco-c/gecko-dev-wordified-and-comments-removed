@@ -530,6 +530,11 @@ generate_bash_script
 .
 py
 "
+inputs
+=
+[
+_metadata_filepath
+]
 outputs
 =
 [

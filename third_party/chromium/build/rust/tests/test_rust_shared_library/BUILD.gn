@@ -83,5 +83,8 @@ lib
 rs
 "
 ]
+build_native_rust_unit_tests
+=
+true
 }
 }

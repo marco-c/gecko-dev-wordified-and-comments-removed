@@ -665,8 +665,17 @@ tool_prefix
 expect_no_initializers
 )
   
+assert
+init_array_size
+%
+word_size
+=
+=
+0
+  
 return
 init_array_size
+/
 /
 word_size
 def

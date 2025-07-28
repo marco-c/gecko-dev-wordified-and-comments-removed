@@ -18,9 +18,6 @@ BUILTIN_TARGET_NAMES
 =
 [
 '
-aemu
-'
-'
 qemu
 '
 '
@@ -188,8 +185,6 @@ run
 on
 fvdl
 |
-aemu
-|
 qemu
 |
 device
@@ -203,7 +198,7 @@ Fuchsia
 will
 run
 on
-AEMU
+Fvdl
 on
 x64
 '
@@ -340,13 +335,10 @@ if
 device
 specific
 operations
-such
-as
+is
 '
                            
 '
-paving
-is
 required
 .
 '

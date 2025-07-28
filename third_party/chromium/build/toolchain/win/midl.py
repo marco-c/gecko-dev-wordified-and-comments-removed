@@ -1710,21 +1710,6 @@ communicate
 (
 )
     
-if
-popen
-.
-returncode
-!
-=
-0
-:
-      
-return
-popen
-.
-returncode
-midl_output_dir
-    
 lines
 =
 out
@@ -1797,6 +1782,21 @@ print
 (
 line
 )
+    
+if
+popen
+.
+returncode
+!
+=
+0
+:
+      
+return
+popen
+.
+returncode
+midl_output_dir
     
 for
 f

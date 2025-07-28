@@ -548,10 +548,7 @@ mkdtemp
 )
 )
     
-self
-.
-_triage_link_file
-=
+with
 tempfile
 .
 NamedTemporaryFile
@@ -562,15 +559,24 @@ suffix
 .
 txt
 '
-                                                         
+                                     
 dir
 =
 working_dir
-                                                         
+                                     
 delete
 =
 False
 )
+as
+triage_link_file
+:
+      
+self
+.
+_triage_link_file
+=
+triage_link_file
 .
 name
     

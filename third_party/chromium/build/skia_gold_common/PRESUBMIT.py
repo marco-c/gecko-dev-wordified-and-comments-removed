@@ -152,6 +152,10 @@ env
 =
 skia_gold_env
           
+run_on_python2
+=
+False
+          
 skip_shebang_check
 =
 True
@@ -162,6 +166,7 @@ output
 .
 extend
 (
+      
 input_api
 .
 canned_checks
@@ -170,6 +175,13 @@ RunPylint
 (
 input_api
 output_api
+version
+=
+'
+2
+.
+7
+'
 )
 )
   

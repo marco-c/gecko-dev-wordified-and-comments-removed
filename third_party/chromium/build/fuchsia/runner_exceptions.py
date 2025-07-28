@@ -55,6 +55,10 @@ sys
 import
 traceback
 from
+device_target
+import
+ProvisionDeviceException
+from
 target
 import
 FuchsiaTargetException
@@ -541,6 +545,27 @@ return
     
 return
 80
+  
+elif
+type
+is
+ProvisionDeviceException
+:
+    
+print
+(
+'
+Error
+:
+Failed
+to
+pave
+device
+'
+)
+    
+return
+90
   
 else
 :

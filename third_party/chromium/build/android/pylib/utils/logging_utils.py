@@ -86,6 +86,13 @@ CYAN
     
 logging
 .
+INFO
+:
+(
+)
+    
+logging
+.
 WARNING
 :
 (

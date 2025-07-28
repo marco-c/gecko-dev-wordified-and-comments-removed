@@ -16,3 +16,6 @@ chromium
 .
 org
 "
+os
+:
+FUCHSIA

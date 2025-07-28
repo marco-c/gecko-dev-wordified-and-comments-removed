@@ -87,8 +87,6 @@ rust
 tests
 /
 test_mixed_static_library
-:
-test_mixed_static_library_rs
 "
 ]
 }

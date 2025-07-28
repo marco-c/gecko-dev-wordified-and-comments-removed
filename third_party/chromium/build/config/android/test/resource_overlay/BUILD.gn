@@ -213,7 +213,7 @@ root_tagged_dependency_resources
 android_library
 (
 "
-javatests
+unit_device_javatests
 "
 )
 {

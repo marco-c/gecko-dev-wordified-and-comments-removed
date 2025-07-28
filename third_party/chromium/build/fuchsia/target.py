@@ -438,33 +438,6 @@ False
     
 self
 .
-_ffx_path
-=
-os
-.
-path
-.
-join
-(
-common
-.
-SDK_ROOT
-'
-tools
-'
-                                  
-common
-.
-GetHostArchFromPlatform
-(
-)
-'
-ffx
-'
-)
-    
-self
-.
 _log_manager
 =
 LogManager
@@ -530,7 +503,29 @@ exc_tb
 )
 :
     
+try
+:
+      
 self
+.
+Stop
+(
+)
+    
+finally
+:
+      
+self
+.
+_ffx_runner
+.
+daemon_stop
+(
+)
+      
+self
+.
+_log_manager
 .
 Stop
 (
@@ -562,6 +557,11 @@ instance
 "
 "
 "
+    
+raise
+NotImplementedError
+(
+)
   
 def
 IsStarted
@@ -674,14 +674,6 @@ self
 _log_listener_proc
 .
 kill
-(
-)
-    
-self
-.
-_log_manager
-.
-Stop
 (
 )
   
@@ -2706,6 +2698,14 @@ communicate
 (
 )
         
+pkgctl_out
+=
+pkgctl_out
+.
+strip
+(
+)
+        
 meta_far_path
 =
 os
@@ -2729,7 +2729,7 @@ far
 '
 )
         
-meta_far_merkel
+meta_far_merkle
 =
 subprocess
 .
@@ -2761,7 +2761,7 @@ if
 pkgctl_out
 !
 =
-meta_far_merkel
+meta_far_merkle
 :
           
 raise
@@ -2789,7 +2789,7 @@ s
 (
 package_name
 pkgctl_out
-meta_far_merkel
+meta_far_merkle
 )
 )
   
@@ -2798,9 +2798,6 @@ RunFFXCommand
 (
 self
 ffx_args
-*
-*
-kwargs
 )
 :
     
@@ -2822,18 +2819,10 @@ the
 arguments
 provided
 .
-Extra
-args
-can
-be
-added
-to
-be
-used
-with
-Popen
-.
     
+Args
+:
+      
 ffx_args
 :
 The
@@ -2844,52 +2833,27 @@ ffx
 command
 .
     
-kwargs
-:
-A
-dictionary
-of
-parameters
-to
-be
-passed
-to
-subprocess
-.
-Popen
-(
-)
-.
-    
 Returns
-a
+:
+      
+A
 Popen
 object
 for
 the
 command
 .
-"
-"
-"
     
-command
-=
-[
-self
-.
-_ffx_path
-]
-+
-ffx_args
+"
+"
+"
     
 return
-subprocess
+self
 .
-Popen
+_ffx_runner
+.
+open_ffx
 (
-command
-*
-*
-kwargs
+ffx_args
 )

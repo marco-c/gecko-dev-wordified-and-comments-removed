@@ -36,10 +36,25 @@ argparse
 import
 Namespace
 from
+ffx_session
+import
+FfxRunner
+from
 fvdl_target
 import
 FvdlTarget
 _SSH_KEY_DIR
+mock
+.
+patch
+.
+object
+(
+FfxRunner
+'
+daemon_stop
+'
+)
 class
 TestBuildCommandFvdlTarget
 (
@@ -138,7 +153,7 @@ MagicMock
     
 FvdlTarget
 .
-Shutdown
+_Shutdown
 =
 mock
 .
@@ -150,6 +165,7 @@ def
 testBasicEmuCommand
 (
 self
+mock_daemon_stop
 )
 :
     
@@ -363,11 +379,19 @@ assertTrue
 (
 correct_ram_amount
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckIfNotRequireKVMSetNoAcceleration
 (
+      
 self
+mock_daemon_stop
 )
 :
     
@@ -407,11 +431,19 @@ _BuildCommand
 (
 )
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckIfNotEnableGraphicsSetHeadless
 (
+      
 self
+mock_daemon_stop
 )
 :
     
@@ -451,11 +483,18 @@ _BuildCommand
 (
 )
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckIfHardwareGpuSetHostGPU
 (
 self
+mock_daemon_stop
 )
 :
     
@@ -497,11 +536,18 @@ _BuildCommand
 (
 )
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckIfWithNetworkSetTunTap
 (
 self
+mock_daemon_stop
 )
 :
     
@@ -540,11 +586,18 @@ _BuildCommand
 (
 )
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckRamSizeNot8192SetRamSize
 (
 self
+mock_daemon_stop
 )
 :
     
@@ -653,11 +706,18 @@ readlines
 (
 )
 )
+    
+mock_daemon_stop
+.
+assert_called_once
+(
+)
   
 def
 testBuildCommandCheckEmulatorLogSetup
 (
 self
+mock_daemon_stop
 )
 :
     
@@ -724,6 +784,12 @@ assertIn
 envs
 '
 build_command
+)
+      
+mock_daemon_stop
+.
+assert_called_once
+(
 )
 if
 __name__

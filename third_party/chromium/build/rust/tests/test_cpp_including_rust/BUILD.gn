@@ -103,8 +103,6 @@ rust
 tests
 /
 test_rust_static_library
-:
-test_rust_static_library_cpp_bindings
 "
 ]
 }
@@ -175,8 +173,6 @@ rust
 tests
 /
 test_rust_static_library
-:
-test_rust_static_library_cpp_bindings
 "
 "
 /

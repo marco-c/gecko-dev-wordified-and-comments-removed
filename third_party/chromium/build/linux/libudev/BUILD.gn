@@ -66,6 +66,9 @@ udev_device_get_parent
 udev_device_get_parent_with_subsystem_devtype
 "
 "
+udev_device_get_properties_list_entry
+"
+"
 udev_device_get_property_value
 "
 "

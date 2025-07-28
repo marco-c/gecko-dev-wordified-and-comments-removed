@@ -346,7 +346,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_amd64
+debian_bullseye_amd64
 -
 sysroot
 "
@@ -367,7 +367,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_i386
+debian_bullseye_i386
 -
 sysroot
 "
@@ -388,7 +388,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_mips
+debian_bullseye_mips
 -
 sysroot
 "
@@ -409,7 +409,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_mips64el
+debian_bullseye_mips64el
 -
 sysroot
 "
@@ -430,7 +430,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_arm
+debian_bullseye_arm
 -
 sysroot
 "
@@ -451,7 +451,7 @@ sysroot
 "
 target_sysroot_dir
 /
-debian_sid_arm64
+debian_bullseye_arm64
 -
 sysroot
 "

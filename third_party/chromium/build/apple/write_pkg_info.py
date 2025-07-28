@@ -102,17 +102,7 @@ parse_args
 (
 )
   
-if
-os
-.
-path
-.
-exists
-(
-args
-.
-output
-)
+try
 :
     
 os
@@ -123,6 +113,12 @@ args
 .
 output
 )
+  
+except
+FileNotFoundError
+:
+    
+pass
   
 plist
 =
@@ -268,35 +264,6 @@ __name__
 __main__
 '
 :
-  
-if
-sys
-.
-version_info
-[
-0
-]
-<
-3
-:
-    
-os
-.
-execvp
-(
-'
-python3
-'
-[
-'
-python3
-'
-]
-+
-sys
-.
-argv
-)
   
 sys
 .

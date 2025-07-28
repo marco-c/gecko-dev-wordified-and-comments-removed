@@ -102,6 +102,8 @@ file
 :
 /
 /
+build
+/
 fuchsia
 /
 SECURITY_OWNERS
@@ -117,6 +119,8 @@ cml
 file
 :
 /
+/
+build
 /
 fuchsia
 /

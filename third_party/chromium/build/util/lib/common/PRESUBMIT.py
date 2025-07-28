@@ -39,6 +39,10 @@ py
 '
 ]
       
+run_on_python2
+=
+False
+      
 skip_shebang_check
 =
 True

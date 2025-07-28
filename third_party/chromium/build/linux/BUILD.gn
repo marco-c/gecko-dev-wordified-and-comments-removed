@@ -141,7 +141,7 @@ use_system_freetype
 assert
 (
 !
-is_chromecast
+is_castos
 )
 #
 Only

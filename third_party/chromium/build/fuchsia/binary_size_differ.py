@@ -13,14 +13,6 @@ differ
 '
 '
 '
-from
-__future__
-import
-division
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -64,37 +56,52 @@ DIR_SOURCE_ROOT
 from
 binary_sizes
 import
-GetPackageSizes
-ReadPackageBlobsJson
+ReadPackageSizesJson
 from
 binary_sizes
 import
-PACKAGES_SIZE_FILE
+PACKAGES_SIZES_FILE
 _MAX_DELTA_BYTES
 =
 12
 *
 1024
-def
-GetPackageBlobsFromFile
-(
-blob_file_path
-)
+_TRYBOT_DOC
+=
+'
+https
 :
-  
-return
-GetPackageSizes
-(
-ReadPackageBlobsJson
-(
-blob_file_path
-)
-)
+/
+/
+chromium
+.
+googlesource
+.
+com
+/
+chromium
+/
+src
+/
++
+/
+main
+/
+docs
+/
+speed
+/
+binary_size
+/
+fuchsia_binary_size_trybot
+.
+md
+'
 def
 ComputePackageDiffs
 (
-before_blobs_file
-after_blobs_file
+before_sizes_file
+after_sizes_file
 )
 :
   
@@ -116,29 +123,29 @@ package
 '
 '
   
-before_blobs
+before_sizes
 =
-GetPackageBlobsFromFile
+ReadPackageSizesJson
 (
-before_blobs_file
+before_sizes_file
 )
   
-after_blobs
+after_sizes
 =
-GetPackageBlobsFromFile
+ReadPackageSizesJson
 (
-after_blobs_file
+after_sizes_file
 )
   
 assert
-before_blobs
+before_sizes
 .
 keys
 (
 )
 =
 =
-after_blobs
+after_sizes
 .
 keys
 (
@@ -169,12 +176,12 @@ s
 '
 %
 (
-before_blobs
+before_sizes
 .
 keys
 (
 )
-after_blobs
+after_sizes
 .
 keys
 (
@@ -211,7 +218,7 @@ summary
 for
 package_name
 in
-before_blobs
+before_sizes
 :
     
 growth
@@ -225,7 +232,7 @@ package_name
 ]
 =
 (
-after_blobs
+after_sizes
 [
 package_name
 ]
@@ -233,7 +240,7 @@ package_name
 compressed
 -
                                           
-before_blobs
+before_sizes
 [
 package_name
 ]
@@ -253,7 +260,7 @@ package_name
 =
 (
         
-after_blobs
+after_sizes
 [
 package_name
 ]
@@ -261,7 +268,7 @@ package_name
 uncompressed
 -
         
-before_blobs
+before_sizes
 [
 package_name
 ]
@@ -289,13 +296,29 @@ status_code
 =
 =
 1
+and
+not
+summary
 :
         
 summary
 =
 '
-Failed
+Size
+check
+failed
 !
+The
+following
+package
+(
+s
+)
+are
+affected
+:
+\
+n
 '
       
 status_code
@@ -307,6 +330,7 @@ summary
 =
 (
 '
+-
 %
 s
 grew
@@ -314,6 +338,8 @@ by
 %
 d
 bytes
+\
+n
 '
 %
                   
@@ -340,6 +366,35 @@ status_code
 =
 status_code
   
+summary
++
+=
+(
+'
+\
+nSee
+the
+following
+document
+for
+more
+information
+about
+'
+              
+'
+this
+trybot
+:
+\
+n
+%
+s
+'
+%
+_TRYBOT_DOC
+)
+  
 growth
 [
 '
@@ -348,6 +403,19 @@ summary
 ]
 =
 summary
+.
+replace
+(
+'
+\
+n
+'
+'
+<
+br
+>
+'
+)
   
 growth
 [
@@ -676,7 +744,7 @@ test_name
 sizes
 '
   
-before_blobs_file
+before_sizes_file
 =
 os
 .
@@ -689,10 +757,10 @@ args
 before_dir
 test_name
                                    
-PACKAGES_SIZE_FILE
+PACKAGES_SIZES_FILE
 )
   
-after_blobs_file
+after_sizes_file
 =
 os
 .
@@ -704,7 +772,8 @@ args
 .
 after_dir
 test_name
-PACKAGES_SIZE_FILE
+                                  
+PACKAGES_SIZES_FILE
 )
   
 if
@@ -715,7 +784,7 @@ path
 .
 isfile
 (
-before_blobs_file
+before_sizes_file
 )
 :
     
@@ -727,7 +796,7 @@ Could
 not
 find
 before
-blobs
+sizes
 file
 :
 "
@@ -738,7 +807,7 @@ s
 %
                     
 (
-before_blobs_file
+before_sizes_file
 )
 )
   
@@ -750,7 +819,7 @@ path
 .
 isfile
 (
-after_blobs_file
+after_sizes_file
 )
 :
     
@@ -762,7 +831,7 @@ Could
 not
 find
 after
-blobs
+sizes
 file
 :
 "
@@ -773,7 +842,7 @@ s
 %
                     
 (
-after_blobs_file
+after_sizes_file
 )
 )
   
@@ -788,8 +857,8 @@ growth
 =
 ComputePackageDiffs
 (
-before_blobs_file
-after_blobs_file
+before_sizes_file
+after_sizes_file
 )
     
 test_completed

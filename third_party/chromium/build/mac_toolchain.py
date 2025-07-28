@@ -101,10 +101,6 @@ g
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -148,25 +144,6 @@ dictionary
 "
 "
   
-if
-sys
-.
-version_info
-.
-major
-=
-=
-2
-:
-    
-return
-plistlib
-.
-readPlist
-(
-path
-)
-  
 with
 open
 (
@@ -204,11 +181,9 @@ amd64
 MAC_BINARIES_TAG
 =
 '
-fE3bk9
+OzUNvLYw4Z
 -
-nINNxwK4pUcZYcJlGZ
--
-9KSirXzoQuzuvoHV8C
+9XcbsXRKaDWo3rbJtcD1B7BbGPqEQ8a0C
 '
 MAC_MINIMUM_OS_VERSION
 =
@@ -1119,7 +1094,7 @@ bin
 /
 xcode_accept_license
 .
-py
+sh
 '
   
 if
@@ -1141,22 +1116,7 @@ args
 sudo
 '
 license_accept_script
-'
--
--
-xcode
--
-version
-'
 cipd_xcode_version
-        
-'
--
--
-license
--
-version
-'
 cipd_license_version
     
 ]

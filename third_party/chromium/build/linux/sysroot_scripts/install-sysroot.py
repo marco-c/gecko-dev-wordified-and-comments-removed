@@ -152,7 +152,7 @@ mips64el
 DEFAULT_TARGET_PLATFORM
 =
 '
-sid
+bullseye
 '
 class
 Error

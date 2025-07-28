@@ -106,6 +106,17 @@ data_deps
 "
 /
 /
+chromium
+/
+build
+/
+util
+:
+test_results
+"
+"
+/
+/
 third_party
 /
 catapult

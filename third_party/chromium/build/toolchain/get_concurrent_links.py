@@ -576,6 +576,22 @@ reason
 RAM
 '
   
+if
+num_links
+>
+30
+:
+    
+num_links
+=
+30
+    
+reason
+=
+'
+nofile
+'
+  
 explanation
 .
 append

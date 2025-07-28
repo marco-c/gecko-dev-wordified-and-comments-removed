@@ -195,7 +195,10 @@ assert
 is_official_build
 |
 |
-is_chromecast
+is_castos
+|
+|
+is_cast_android
 "
 Linker
 map
@@ -212,7 +215,11 @@ is_official_build
 "
 true
 or
-is_chromecast
+is_castos
+=
+true
+or
+is_cast_android
 =
 true
 "

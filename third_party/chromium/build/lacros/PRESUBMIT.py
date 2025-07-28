@@ -25,6 +25,16 @@ output_api
 )
 :
   
+if
+input_api
+.
+is_windows
+:
+    
+return
+[
+]
+  
 tests
 =
 input_api

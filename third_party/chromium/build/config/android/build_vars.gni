@@ -125,9 +125,15 @@ rebase_path
 android_tool_prefix
 root_build_dir
 )
+default_min_sdk_version
+=
+default_min_sdk_version
 final_android_sdk
 =
 final_android_sdk
+public_android_sdk_version
+=
+public_android_sdk_version
 if
 (
 defined

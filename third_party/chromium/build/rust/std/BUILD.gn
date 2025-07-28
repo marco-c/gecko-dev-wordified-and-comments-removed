@@ -318,6 +318,11 @@ rust
 gni
 "
 )
+if
+(
+toolchain_has_rust
+)
+{
 #
 List
 of
@@ -575,11 +580,6 @@ rustc_std_workspace_std
 "
 ]
 }
-if
-(
-toolchain_has_rust
-)
-{
 action
 (
 "

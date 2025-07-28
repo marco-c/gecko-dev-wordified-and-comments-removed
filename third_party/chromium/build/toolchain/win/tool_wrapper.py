@@ -1078,7 +1078,14 @@ Popen
 args
 shell
 =
-True
+sys
+.
+platform
+=
+=
+'
+win32
+'
 env
 =
 env

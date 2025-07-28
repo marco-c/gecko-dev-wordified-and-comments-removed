@@ -857,12 +857,7 @@ use_cfi_cast
 is_cfi
 &
 &
-(
-is_chromeos_ash
-|
-|
-is_chromeos_lacros
-)
+is_chromeos
 #
 Compile
 for

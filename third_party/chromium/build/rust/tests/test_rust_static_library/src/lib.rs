@@ -160,3 +160,17 @@ a
 }
 )
 }
+mod
+tests
+{
+#
+[
+test
+]
+fn
+test_in_mod
+(
+)
+{
+}
+}

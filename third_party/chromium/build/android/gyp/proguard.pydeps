@@ -59,12 +59,6 @@ py
 .
 .
 /
-convert_dex_profile
-.
-py
-.
-.
-/
 pylib
 /
 __init__

@@ -56,12 +56,6 @@ py
 print_python_deps
 .
 py
-.
-.
-/
-convert_dex_profile
-.
-py
 dex
 .
 py

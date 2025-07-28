@@ -140,9 +140,6 @@ crate_type
 "
 cdylib
 "
-create_cpp_groups
-=
-true
 }
 }
 set_defaults

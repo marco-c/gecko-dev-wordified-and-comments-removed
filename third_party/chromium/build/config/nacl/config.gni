@@ -100,9 +100,6 @@ is_nacl_saigo
 =
 false
 }
-is_nacl_irt
-=
-false
 nacl_toolchain_dir
 =
 "

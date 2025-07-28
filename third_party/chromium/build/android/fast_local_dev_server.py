@@ -613,6 +613,9 @@ proc
 /
 stat
 '
+    
+return
+0
   
 def
 _maybe_start_tasks
@@ -1904,6 +1907,9 @@ _process_requests
 (
 sock
 )
+  
+return
+0
 if
 __name__
 =

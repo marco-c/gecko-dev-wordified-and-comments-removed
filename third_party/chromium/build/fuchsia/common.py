@@ -231,11 +231,15 @@ machine
   
 if
 host_arch
-=
-=
+in
+[
 '
 x86_64
 '
+'
+AMD64
+'
+]
 :
     
 return
@@ -308,6 +312,33 @@ GetEmuRootForPlatform
 emulator
 )
 :
+  
+if
+GetHostArchFromPlatform
+(
+)
+=
+=
+'
+x64
+'
+:
+    
+return
+GetHostToolPathFromPlatform
+(
+'
+{
+0
+}
+_internal
+'
+.
+format
+(
+emulator
+)
+)
   
 return
 os

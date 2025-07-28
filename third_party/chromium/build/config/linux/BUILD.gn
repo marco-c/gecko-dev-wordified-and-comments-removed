@@ -416,12 +416,7 @@ if
 (
 (
 !
-(
-is_chromeos_ash
-|
-|
-is_chromeos_lacros
-)
+is_chromeos
 |
 |
 default_toolchain

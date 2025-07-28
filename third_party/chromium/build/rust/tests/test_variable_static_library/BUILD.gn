@@ -164,6 +164,9 @@ lib
 rs
 "
 ]
+rs_build_native_rust_unit_tests
+=
+true
 }
 executable
 (

@@ -1541,9 +1541,6 @@ py
 apk_operations
 .
 py
-convert_dex_profile
-.
-py
 devil_chromium
 .
 py

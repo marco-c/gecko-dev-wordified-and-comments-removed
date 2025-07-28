@@ -120,13 +120,13 @@ file
 to
 build
 /
-mac
+mac_files
 /
 xcode_binaries
+#
 -
 -
 your
-#
 build
 /
 xcode_binaries
@@ -143,9 +143,9 @@ isn
 t
 used
 as
+#
 part
 of
-#
 the
 Chromium
 build
