@@ -246,12 +246,6 @@ i
 )
 ;
 }
-#
-if
-ABSL_INTERNAL_CPLUSPLUS_LANG
->
-=
-201703L
 ABSL_CONST_INIT
 const
 auto
@@ -309,8 +303,6 @@ i
 global_var_check
 )
 ;
-#
-endif
 TEST
 (
 CHECKTest
@@ -349,12 +341,6 @@ ABSL_TEST_CHECK
 true
 )
 ;
-#
-if
-ABSL_INTERNAL_CPLUSPLUS_LANG
->
-=
-201703L
 constexpr
 auto
 var
@@ -388,8 +374,6 @@ void
 )
 var
 ;
-#
-endif
 }
 TEST
 (
@@ -2139,12 +2123,6 @@ a
 "
 )
 ;
-#
-if
-ABSL_INTERNAL_CPLUSPLUS_LANG
->
-=
-201703L
 constexpr
 auto
 var
@@ -2243,8 +2221,6 @@ void
 )
 var4
 ;
-#
-endif
 #
 endif
 }
@@ -2538,12 +2514,6 @@ ABSL_TEST_QCHECK
 true
 )
 ;
-#
-if
-ABSL_INTERNAL_CPLUSPLUS_LANG
->
-=
-201703L
 constexpr
 auto
 var
@@ -2611,8 +2581,6 @@ void
 )
 var2
 ;
-#
-endif
 #
 endif
 }

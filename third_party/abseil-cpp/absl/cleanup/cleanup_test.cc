@@ -544,12 +544,6 @@ cleanup
 ;
 }
 }
-#
-if
-defined
-(
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
-)
 TYPED_TEST
 (
 CleanupTest
@@ -949,8 +943,6 @@ deduction_cleanup
 ;
 }
 }
-#
-endif
 TYPED_TEST
 (
 CleanupTest

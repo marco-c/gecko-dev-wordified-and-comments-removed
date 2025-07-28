@@ -232,12 +232,6 @@ storage_
 ;
 }
 ;
-#
-if
-defined
-(
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
-)
 template
 <
 typename
@@ -259,8 +253,6 @@ Tag
 Callback
 >
 ;
-#
-endif
 template
 <
 typename

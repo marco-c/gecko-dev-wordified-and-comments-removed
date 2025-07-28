@@ -662,9 +662,6 @@ impl_
 ;
 }
 ;
-#
-ifdef
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 template
 <
 typename
@@ -681,8 +678,6 @@ NoDestructor
 T
 >
 ;
-#
-endif
 ABSL_NAMESPACE_END
 }
 #

@@ -811,15 +811,6 @@ name
 "
 log_entry
 "
-srcs
-=
-[
-"
-log_entry
-.
-cc
-"
-]
 hdrs
 =
 [

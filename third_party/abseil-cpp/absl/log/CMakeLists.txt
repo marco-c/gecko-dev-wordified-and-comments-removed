@@ -1104,6 +1104,10 @@ absl
 :
 :
 config
+absl
+:
+:
+core_headers
 )
 absl_cc_library
 (
@@ -1558,12 +1562,6 @@ absl_cc_library
 (
 NAME
 log_entry
-SRCS
-"
-log_entry
-.
-cc
-"
 HDRS
 "
 log_entry

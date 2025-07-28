@@ -7,6 +7,11 @@ ABSL_RANDOM_RANDOM_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 random
 >
 #

@@ -644,9 +644,6 @@ m
 }
 }
 ;
-#
-ifdef
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 template
 <
 typename
@@ -694,8 +691,6 @@ AsStructuredValueImpl
 T
 >
 ;
-#
-endif
 }
 ABSL_NAMESPACE_END
 }

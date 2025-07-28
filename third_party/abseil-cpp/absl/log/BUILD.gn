@@ -769,15 +769,6 @@ log_entry
 "
 )
 {
-sources
-=
-[
-"
-log_entry
-.
-cc
-"
-]
 public
 =
 [

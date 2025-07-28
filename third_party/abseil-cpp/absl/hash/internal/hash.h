@@ -976,6 +976,7 @@ uint64_t
 v
 ;
 if
+constexpr
 (
 sizeof
 (
@@ -994,6 +995,7 @@ start
 }
 else
 if
+constexpr
 (
 sizeof
 (
@@ -1020,6 +1022,7 @@ start
 }
 else
 if
+constexpr
 (
 sizeof
 (
@@ -1046,7 +1049,7 @@ start
 }
 else
 {
-assert
+static_assert
 (
 sizeof
 (
@@ -1777,6 +1780,7 @@ defined
 _MSC_VER
 )
 if
+constexpr
 (
 alignof
 (
@@ -6339,6 +6343,7 @@ n
 )
 {
 if
+constexpr
 (
 sizeof
 (

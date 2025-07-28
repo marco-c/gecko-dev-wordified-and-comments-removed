@@ -151,10 +151,6 @@ DEPS
 absl
 :
 :
-base_internal
-absl
-:
-:
 config
 absl
 :
@@ -199,10 +195,6 @@ any_invocable
 absl
 :
 :
-base_internal
-absl
-:
-:
 config
 absl
 :
@@ -244,10 +236,6 @@ COPTS
 ABSL_DEFAULT_COPTS
 }
 DEPS
-absl
-:
-:
-base_internal
 absl
 :
 :
@@ -305,10 +293,6 @@ COPTS
 ABSL_DEFAULT_COPTS
 }
 DEPS
-absl
-:
-:
-base_internal
 absl
 :
 :

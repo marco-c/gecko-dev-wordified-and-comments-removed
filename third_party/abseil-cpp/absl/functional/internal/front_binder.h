@@ -24,19 +24,6 @@ include
 "
 absl
 /
-base
-/
-internal
-/
-invoke
-.
-h
-"
-#
-include
-"
-absl
-/
 container
 /
 internal
@@ -118,7 +105,7 @@ free
 )
 {
 return
-base_internal
+std
 :
 :
 invoke
@@ -268,7 +255,7 @@ FreeArgs
 class
 R
 =
-base_internal
+std
 :
 :
 invoke_result_t
@@ -342,7 +329,7 @@ FreeArgs
 class
 R
 =
-base_internal
+std
 :
 :
 invoke_result_t
@@ -419,7 +406,7 @@ FreeArgs
 class
 R
 =
-base_internal
+std
 :
 :
 invoke_result_t
@@ -502,7 +489,7 @@ FreeArgs
 class
 R
 =
-base_internal
+std
 :
 :
 invoke_result_t

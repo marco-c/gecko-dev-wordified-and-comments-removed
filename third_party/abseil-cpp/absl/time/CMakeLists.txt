@@ -641,6 +641,10 @@ core_headers
 absl
 :
 :
+hash_testing
+absl
+:
+:
 strings
 absl
 :

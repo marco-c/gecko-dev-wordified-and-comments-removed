@@ -421,6 +421,10 @@ int128
 absl
 :
 :
+iterator_traits_internal
+absl
+:
+:
 memory
 absl
 :
@@ -2127,10 +2131,6 @@ DEPS
 absl
 :
 :
-base_internal
-absl
-:
-:
 compressed_tuple
 absl
 :
@@ -2956,11 +2956,6 @@ cc
 cord_analysis
 .
 h
-"
-"
-cord_buffer
-.
-cc
 "
 COPTS
 {

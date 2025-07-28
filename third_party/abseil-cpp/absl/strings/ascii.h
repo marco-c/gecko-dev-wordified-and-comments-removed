@@ -804,6 +804,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 {
 auto
@@ -923,6 +924,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 {
 auto
@@ -1050,6 +1052,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 {
 return

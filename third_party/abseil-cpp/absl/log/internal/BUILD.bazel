@@ -2064,6 +2064,15 @@ base
 :
 config
 "
+"
+/
+/
+absl
+/
+base
+:
+core_headers
+"
 ]
 )
 cc_library

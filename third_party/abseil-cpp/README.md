@@ -1098,7 +1098,7 @@ contains
 functions
 for
 generating
-psuedorandom
+pseudorandom
 values
 .
 *

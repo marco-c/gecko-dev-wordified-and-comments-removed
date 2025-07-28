@@ -815,12 +815,6 @@ absl
 \
 -
 -
-enable_bzlmod
-=
-false
-\
--
--
 features
 =
 external_include_paths

@@ -1213,9 +1213,6 @@ Int
 )
 ;
 }
-#
-ifdef
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 TEST
 (
 NoDestructorTest
@@ -1265,6 +1262,4 @@ int
 )
 ;
 }
-#
-endif
 }
