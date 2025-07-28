@@ -152,7 +152,7 @@ _MSVC_LANG
 if
 _MSVC_LANG
 <
-201402L
+201703L
 #
 error
 "
@@ -165,7 +165,7 @@ than
 C
 +
 +
-14
+17
 are
 not
 supported
@@ -183,7 +183,7 @@ __cplusplus
 if
 __cplusplus
 <
-201402L
+201703L
 #
 error
 "
@@ -196,7 +196,7 @@ than
 C
 +
 +
-14
+17
 are
 not
 supported

@@ -290,7 +290,11 @@ char
 >
 absl_log_internal_check_op_result
 \
-ABSL_LOG_INTERNAL_ATTRIBUTE_UNUSED_IF_STRIP_LOG
+[
+[
+maybe_unused
+]
+]
 =
 \
 :

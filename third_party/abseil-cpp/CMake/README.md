@@ -439,10 +439,6 @@ supports
 C
 +
 +
-14
-C
-+
-+
 17
 and
 C
@@ -453,7 +449,7 @@ C
 set
 (
 CMAKE_CXX_STANDARD
-14
+17
 )
 set
 (

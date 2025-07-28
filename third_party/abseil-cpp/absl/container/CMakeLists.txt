@@ -2164,6 +2164,10 @@ endian
 absl
 :
 :
+function_ref
+absl
+:
+:
 hash
 absl
 :
@@ -2928,6 +2932,10 @@ absl
 :
 :
 node_hash_set
+absl
+:
+:
+hashtablez_sampler
 GTest
 :
 :

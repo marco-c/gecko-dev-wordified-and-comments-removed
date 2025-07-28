@@ -3272,6 +3272,15 @@ raw_logging_internal
 /
 absl
 /
+functional
+:
+function_ref
+"
+"
+/
+/
+absl
+/
 hash
 "
 "
@@ -4695,6 +4704,10 @@ flat_hash_map
 "
 :
 flat_hash_set
+"
+"
+:
+hashtablez_sampler
 "
 "
 :

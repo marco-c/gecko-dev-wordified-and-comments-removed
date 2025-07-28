@@ -12,6 +12,11 @@ h
 #
 include
 <
+cerrno
+>
+#
+include
+<
 cstdlib
 >
 #

@@ -194,7 +194,6 @@ then
 ABSL_CMAKE_CXX_STANDARDS
 =
 "
-14
 17
 "
 fi
