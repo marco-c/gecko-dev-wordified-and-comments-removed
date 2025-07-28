@@ -775,9 +775,6 @@ media_type
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -873,9 +870,6 @@ receiver
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -1397,9 +1391,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ChannelInterface
 >
 new_channel
@@ -1568,9 +1559,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 VoiceChannel
 >
 (
@@ -1777,9 +1765,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 VideoChannel
 >
 (
@@ -1870,9 +1855,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ChannelInterface
 >
 channel

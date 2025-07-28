@@ -562,9 +562,6 @@ media_engine
 )
 const
 ;
-cricket
-:
-:
 CodecVendor
 &
 CodecVendorForTesting
@@ -685,9 +682,6 @@ signaling_thread
 )
 )
 ;
-cricket
-:
-:
 CodecVendor
 codec_vendor_
 ;

@@ -14,7 +14,7 @@ session_description
 h
 "
 namespace
-cricket
+webrtc
 {
 class
 RtcpMuxFilter
@@ -53,9 +53,6 @@ SetOffer
 (
 bool
 offer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -65,9 +62,6 @@ SetProvisionalAnswer
 (
 bool
 answer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -77,9 +71,6 @@ SetAnswer
 (
 bool
 answer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -91,9 +82,6 @@ ExpectOffer
 (
 bool
 offer_enable
-webrtc
-:
-:
 ContentSource
 source
 )
@@ -101,9 +89,6 @@ source
 bool
 ExpectAnswer
 (
-webrtc
-:
-:
 ContentSource
 source
 )
@@ -126,6 +111,18 @@ bool
 offer_enable_
 ;
 }
+;
+}
+namespace
+cricket
+{
+using
+:
+:
+webrtc
+:
+:
+RtcpMuxFilter
 ;
 }
 #

@@ -979,9 +979,6 @@ empty
 )
 ;
 }
-cricket
-:
-:
 SimulcastDescription
 &
 simulcast_description
@@ -993,9 +990,6 @@ simulcast_
 ;
 }
 const
-cricket
-:
-:
 SimulcastDescription
 &
 simulcast_description
@@ -1011,9 +1005,6 @@ void
 set_simulcast_description
 (
 const
-cricket
-:
-:
 SimulcastDescription
 &
 simulcast
@@ -1380,9 +1371,6 @@ extmap_allow_mixed_enum_
 =
 kMedia
 ;
-cricket
-:
-:
 SimulcastDescription
 simulcast_
 ;
@@ -1451,9 +1439,6 @@ override
 {
 RTC_DCHECK
 (
-cricket
-:
-:
 IsRtpProtocol
 (
 protocol
@@ -1557,9 +1542,6 @@ override
 {
 RTC_DCHECK
 (
-cricket
-:
-:
 IsRtpProtocol
 (
 protocol
@@ -1755,9 +1737,6 @@ override
 {
 RTC_DCHECK
 (
-cricket
-:
-:
 IsSctpProtocol
 (
 protocol

@@ -380,7 +380,9 @@ std
 :
 string
 transport_name
-cricket
+:
+:
+webrtc
 :
 :
 TransportStats
@@ -433,7 +435,9 @@ std
 string
 name
 ;
-cricket
+:
+:
+webrtc
 :
 :
 TransportStats

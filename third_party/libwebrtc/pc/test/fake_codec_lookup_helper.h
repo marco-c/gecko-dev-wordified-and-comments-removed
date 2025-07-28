@@ -57,9 +57,6 @@ class
 FakeCodecLookupHelper
 :
 public
-cricket
-:
-:
 CodecLookupHelper
 {
 public
@@ -83,7 +80,9 @@ std
 :
 make_unique
 <
-cricket
+:
+:
+webrtc
 :
 :
 CodecVendor
@@ -133,7 +132,9 @@ return
 nullptr
 ;
 }
-cricket
+:
+:
+webrtc
 :
 :
 CodecVendor
@@ -170,7 +171,9 @@ std
 :
 make_unique
 <
-cricket
+:
+:
+webrtc
 :
 :
 CodecVendor
@@ -212,7 +215,9 @@ std
 :
 unique_ptr
 <
-cricket
+:
+:
+webrtc
 :
 :
 CodecVendor

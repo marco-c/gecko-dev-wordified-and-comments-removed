@@ -309,9 +309,6 @@ AudioRtpReceiver
 >
 receiver_
 ;
-cricket
-:
-:
 MockVoiceMediaReceiveChannelInterface
 receive_channel_
 ;
@@ -569,9 +566,6 @@ Current
 (
 )
 ;
-cricket
-:
-:
 MockVoiceMediaReceiveChannelInterface
 receive_channel
 ;

@@ -520,9 +520,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SrtpSession
 >
 send_session_
@@ -532,9 +529,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SrtpSession
 >
 recv_session_
@@ -544,9 +538,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SrtpSession
 >
 send_rtcp_session_
@@ -556,9 +547,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SrtpSession
 >
 recv_rtcp_session_

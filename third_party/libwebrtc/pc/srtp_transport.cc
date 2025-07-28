@@ -1383,9 +1383,6 @@ send_rtcp_session_
 reset
 (
 new
-cricket
-:
-:
 SrtpSession
 (
 field_trials_
@@ -1415,9 +1412,6 @@ recv_rtcp_session_
 reset
 (
 new
-cricket
-:
-:
 SrtpSession
 (
 field_trials_
@@ -1582,9 +1576,6 @@ send_session_
 reset
 (
 new
-cricket
-:
-:
 SrtpSession
 (
 field_trials_
@@ -1596,9 +1587,6 @@ recv_session_
 reset
 (
 new
-cricket
-:
-:
 SrtpSession
 (
 field_trials_

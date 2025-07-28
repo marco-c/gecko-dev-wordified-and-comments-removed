@@ -422,15 +422,6 @@ include
 "
 rtc_base
 /
-string_encode
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread
 .
 h
@@ -5696,9 +5687,6 @@ transceiver
 transceivers
 )
 {
-cricket
-:
-:
 ChannelInterface
 *
 channel
@@ -5812,7 +5800,7 @@ std
 :
 :
 string
-cricket
+webrtc
 :
 :
 TransportStats
@@ -6870,9 +6858,6 @@ public
 explicit
 VoiceChannelStatsGatherer
 (
-cricket
-:
-:
 VoiceChannel
 *
 voice_channel
@@ -7061,9 +7046,6 @@ empty
 }
 private
 :
-cricket
-:
-:
 VoiceChannel
 *
 voice_channel_
@@ -7088,9 +7070,6 @@ public
 explicit
 VideoChannelStatsGatherer
 (
-cricket
-:
-:
 VideoChannel
 *
 video_channel
@@ -7227,9 +7206,6 @@ false
 }
 private
 :
-cricket
-:
-:
 VideoChannel
 *
 video_channel_
@@ -7251,9 +7227,6 @@ ChannelStatsGatherer
 >
 CreateChannelStatsGatherer
 (
-cricket
-:
-:
 ChannelInterface
 *
 channel
@@ -7417,9 +7390,6 @@ transceiver
 transceivers
 )
 {
-cricket
-:
-:
 ChannelInterface
 *
 channel
@@ -7609,9 +7579,6 @@ transceiver
 transceivers
 )
 {
-cricket
-:
-:
 ChannelInterface
 *
 channel

@@ -1647,9 +1647,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 GetTransportStatsByNames

@@ -1891,9 +1891,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 GetTransportStatsByNames
@@ -3275,9 +3272,6 @@ void
 ReportBestConnectionState
 (
 const
-cricket
-:
-:
 TransportStats
 &
 stats
@@ -3290,9 +3284,6 @@ ReportNegotiatedCiphers
 bool
 dtls_enabled
 const
-cricket
-:
-:
 TransportStats
 &
 stats
@@ -3817,9 +3808,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 CodecLookupHelper
 >
 codec_lookup_helper_

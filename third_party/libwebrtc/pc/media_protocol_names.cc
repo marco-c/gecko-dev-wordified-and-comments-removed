@@ -27,7 +27,7 @@ include
 string
 >
 namespace
-cricket
+webrtc
 {
 const
 char
@@ -320,9 +320,6 @@ protocol
 .
 find
 (
-cricket
-:
-:
 kMediaProtocolRtpPrefix
 )
 ;

@@ -323,13 +323,6 @@ thread_annotations
 h
 "
 namespace
-cricket
-{
-class
-MediaEngineInterface
-;
-}
-namespace
 webrtc
 {
 class
@@ -353,9 +346,6 @@ media_type
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -388,9 +378,6 @@ receiver
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -462,9 +449,6 @@ RtpTransceiver
 =
 delete
 ;
-cricket
-:
-:
 ChannelInterface
 *
 channel
@@ -544,9 +528,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ChannelInterface
 >
 channel
@@ -1091,9 +1072,6 @@ return
 context_
 ;
 }
-cricket
-:
-:
 CodecVendor
 &
 codec_vendor
@@ -1323,9 +1301,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ChannelInterface
 >
 channel_
@@ -1337,9 +1312,6 @@ ConnectionContext
 const
 context_
 ;
-cricket
-:
-:
 CodecLookupHelper
 *
 const

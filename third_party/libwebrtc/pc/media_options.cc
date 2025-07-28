@@ -67,7 +67,7 @@ checks
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -80,6 +80,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 RidDescription
 >
 &
@@ -107,6 +110,9 @@ rids
 ]
 (
 const
+cricket
+:
+:
 SimulcastLayer
 &
 layer
@@ -125,6 +131,9 @@ layer
 ]
 (
 const
+cricket
+:
+:
 RidDescription
 &
 rid
@@ -181,9 +190,6 @@ RTC_DCHECK
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -235,6 +241,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 RidDescription
 >
 &
@@ -252,9 +261,6 @@ RTC_DCHECK
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -340,6 +346,9 @@ std
 :
 vector
 <
+cricket
+:
+:
 RidDescription
 >
 &
@@ -411,9 +420,6 @@ MediaSessionOptions
 :
 HasMediaDescription
 (
-webrtc
-:
-:
 MediaType
 type
 )

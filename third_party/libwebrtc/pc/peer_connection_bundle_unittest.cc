@@ -801,9 +801,6 @@ nullptr
 )
 ;
 }
-cricket
-:
-:
 VoiceChannel
 *
 voice_channel
@@ -854,9 +851,6 @@ AUDIO
 return
 static_cast
 <
-cricket
-:
-:
 VoiceChannel
 *
 >
@@ -905,9 +899,6 @@ nullptr
 )
 ;
 }
-cricket
-:
-:
 VideoChannel
 *
 video_channel
@@ -958,9 +949,6 @@ VIDEO
 return
 static_cast
 <
-cricket
-:
-:
 VideoChannel
 *
 >

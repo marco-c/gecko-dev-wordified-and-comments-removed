@@ -8,7 +8,7 @@ transport_stats
 h
 "
 namespace
-cricket
+webrtc
 {
 TransportChannelStats
 :

@@ -897,9 +897,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 JsepTransport
 >
 transport
@@ -947,9 +944,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -971,9 +965,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1011,9 +1002,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1035,9 +1023,6 @@ std
 :
 set
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1069,9 +1054,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1137,9 +1119,6 @@ IsConsistent
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1197,9 +1176,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1256,9 +1232,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1310,9 +1283,6 @@ second
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1364,9 +1334,6 @@ it
 second
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1422,9 +1389,6 @@ second
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportCollection
@@ -1493,9 +1457,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1890,9 +1851,6 @@ JsepTransportCollection
 :
 TransportInUse
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1940,9 +1898,6 @@ JsepTransportCollection
 :
 TransportNeededForRollback
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1990,9 +1945,6 @@ JsepTransportCollection
 :
 MaybeDestroyJsepTransport
 (
-cricket
-:
-:
 JsepTransport
 *
 transport

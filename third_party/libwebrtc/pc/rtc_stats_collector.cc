@@ -7800,9 +7800,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 transport_stats_by_name
@@ -7901,9 +7898,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -8611,9 +8605,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -8665,9 +8656,6 @@ entry
 first
 ;
 const
-cricket
-:
-:
 TransportStats
 &
 transport_stats
@@ -11249,9 +11237,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -11310,9 +11295,6 @@ entry
 first
 ;
 const
-cricket
-:
-:
 TransportStats
 &
 transport_stats
@@ -11872,9 +11854,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -12287,9 +12266,6 @@ media_type
 =
 media_type
 ;
-cricket
-:
-:
 ChannelInterface
 *
 channel

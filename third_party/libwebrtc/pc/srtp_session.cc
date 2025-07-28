@@ -233,7 +233,7 @@ SRTP_SRCTP_INDEX_LEN
 #
 endif
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -306,9 +306,6 @@ LibSrtpInitializer
 =
 default
 ;
-webrtc
-:
-:
 Mutex
 mutex_
 ;
@@ -456,9 +453,6 @@ ProhibitLibsrtpInitialization
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -482,9 +476,6 @@ srtp_event_handler_func_t
 event_handler
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -687,9 +678,6 @@ DecrementLibsrtpUsageCountAndMaybeDeinit
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -806,9 +794,6 @@ SrtpSession
 SrtpSession
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 &
 field_trials
@@ -1039,9 +1024,6 @@ SrtpSession
 :
 ProtectRtp
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -1486,9 +1468,6 @@ SrtpSession
 :
 ProtectRtp
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -1545,9 +1524,6 @@ int64_t
 index
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (
@@ -1605,9 +1581,6 @@ SrtpSession
 :
 ProtectRtcp
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -1979,9 +1952,6 @@ SrtpSession
 :
 UnprotectRtp
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -2330,9 +2300,6 @@ SrtpSession
 :
 UnprotectRtcp
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -2859,9 +2826,6 @@ SrtpSession
 :
 GetSendStreamPacketIndex
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -3820,9 +3784,6 @@ SrtpSession
 DumpPacket
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -4089,9 +4050,6 @@ outbound
 )
 {
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (

@@ -421,9 +421,6 @@ string
 >
 rids
 ;
-cricket
-:
-:
 SimulcastDescription
 simulcast_description
 ;

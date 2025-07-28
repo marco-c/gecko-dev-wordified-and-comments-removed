@@ -13355,9 +13355,6 @@ username_fragment
 iceusernamefragment
 "
 ;
-cricket
-:
-:
 TransportChannelStats
 a_transport_channel_stats
 ;
@@ -13579,9 +13576,6 @@ a
 a_transport_channel_stats
 )
 ;
-cricket
-:
-:
 TransportChannelStats
 b_transport_channel_stats
 ;
@@ -14329,9 +14323,6 @@ Millis
 5200
 )
 ;
-cricket
-:
-:
 TransportChannelStats
 transport_channel_stats
 ;
@@ -21039,9 +21030,6 @@ packets_received
 =
 4
 ;
-cricket
-:
-:
 TransportChannelStats
 rtp_transport_channel_stats
 ;
@@ -21342,9 +21330,6 @@ packets_received
 =
 4
 ;
-cricket
-:
-:
 TransportChannelStats
 rtcp_transport_channel_stats
 ;
@@ -22178,9 +22163,6 @@ remote_candidate
 *
 rtp_remote_candidate
 ;
-cricket
-:
-:
 TransportChannelStats
 rtp_transport_channel_stats
 ;
@@ -25870,9 +25852,6 @@ kReportBlockTimestampUtc
 kReportBlockTimestamp
 )
 ;
-cricket
-:
-:
 TransportChannelStats
 rtp_transport_channel_stats
 ;
@@ -25894,9 +25873,6 @@ DtlsTransportState
 :
 kNew
 ;
-cricket
-:
-:
 TransportChannelStats
 rtcp_transport_channel_stats
 ;
@@ -28155,9 +28131,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &

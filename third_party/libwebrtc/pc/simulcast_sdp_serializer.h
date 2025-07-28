@@ -73,9 +73,6 @@ string
 SerializeSimulcastDescription
 (
 const
-cricket
-:
-:
 SimulcastDescription
 &
 simulcast
@@ -84,9 +81,6 @@ const
 ;
 RTCErrorOr
 <
-cricket
-:
-:
 SimulcastDescription
 >
 DeserializeSimulcastDescription

@@ -512,9 +512,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
