@@ -311,10 +311,6 @@ this
 aParent
 -
 >
-mVisitedSet
-aParent
--
->
 GetRootModule
 (
 )
