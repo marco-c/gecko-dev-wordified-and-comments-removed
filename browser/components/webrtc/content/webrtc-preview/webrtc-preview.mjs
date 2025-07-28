@@ -831,6 +831,13 @@ stream
 =
 null
 ;
+if
+(
+this
+.
+videoEl
+)
+{
 this
 .
 videoEl
@@ -839,6 +846,7 @@ srcObject
 =
 null
 ;
+}
 this
 .
 _previewActive
