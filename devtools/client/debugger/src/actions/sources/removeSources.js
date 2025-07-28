@@ -23,6 +23,14 @@ removeSources
 (
 sources
 actors
+{
+resetSelectedLocation
+=
+true
+}
+=
+{
+}
 )
 {
 return
@@ -47,6 +55,7 @@ REMOVE_SOURCES
 "
 sources
 actors
+resetSelectedLocation
 }
 )
 ;

@@ -42,7 +42,7 @@ js
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )

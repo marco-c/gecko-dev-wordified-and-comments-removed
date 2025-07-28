@@ -508,9 +508,6 @@ source
 sourceActor
 }
 )
-forTab
-:
-true
 }
 )
 div

@@ -83,7 +83,6 @@ source
 import
 {
 isSourceBlackBoxed
-hasPrettyTab
 }
 from
 "
@@ -128,11 +127,6 @@ iconClass
 PropTypes
 .
 string
-forTab
-:
-PropTypes
-.
-bool
 }
 ;
 }
@@ -219,7 +213,6 @@ props
 {
 const
 {
-forTab
 location
 }
 =
@@ -237,21 +230,6 @@ source
 )
 ;
 const
-hasMatchingPrettyTab
-=
-!
-forTab
-&
-&
-hasPrettyTab
-(
-state
-location
-.
-source
-)
-;
-const
 iconClass
 =
 getSourceClassnames
@@ -260,7 +238,6 @@ location
 .
 source
 isBlackBoxed
-hasMatchingPrettyTab
 )
 ;
 return
