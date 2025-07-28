@@ -462,10 +462,6 @@ nsresult
 SendNotificationClickEvent
 (
 const
-nsAString
-&
-aScope
-const
 IPCNotification
 &
 aNotification
@@ -478,10 +474,6 @@ aAction
 nsresult
 SendNotificationCloseEvent
 (
-const
-nsAString
-&
-aScope
 const
 IPCNotification
 &
