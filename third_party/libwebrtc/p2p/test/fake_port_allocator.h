@@ -643,6 +643,10 @@ Create
 (
 {
 .
+env
+=
+env_
+.
 network_thread
 =
 network_thread_
@@ -665,15 +669,6 @@ username
 ice_password
 =
 password
-(
-)
-.
-field_trials
-=
-&
-env_
-.
-field_trials
 (
 )
 }
