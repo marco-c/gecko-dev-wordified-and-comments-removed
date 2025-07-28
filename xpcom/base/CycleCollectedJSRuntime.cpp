@@ -11071,6 +11071,7 @@ nsCycleCollector_prepareForGarbageCollection
 ;
 PrepareWaitingZonesForGC
 (
+aReason
 )
 ;
 break
@@ -11292,6 +11293,11 @@ CycleCollectedJSRuntime
 :
 PrepareWaitingZonesForGC
 (
+JS
+:
+:
+GCReason
+aReason
 )
 {
 JSContext
@@ -11322,6 +11328,18 @@ Count
 0
 )
 {
+if
+(
+!
+JS
+:
+:
+InternalGCReason
+(
+aReason
+)
+)
+{
 JS
 :
 :
@@ -11330,6 +11348,7 @@ PrepareForFullGC
 cx
 )
 ;
+}
 }
 else
 {

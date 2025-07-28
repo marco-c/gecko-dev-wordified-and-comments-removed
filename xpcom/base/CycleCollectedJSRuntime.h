@@ -2446,6 +2446,11 @@ aZone
 void
 PrepareWaitingZonesForGC
 (
+JS
+:
+:
+GCReason
+aReason
 )
 ;
 static
