@@ -4749,14 +4749,6 @@ scalability_mode_util
 /
 rtc_base
 :
-audio_format_to_string
-"
-"
-.
-.
-/
-rtc_base
-:
 buffer
 "
 "

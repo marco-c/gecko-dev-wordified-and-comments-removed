@@ -3421,10 +3421,10 @@ env_
 )
 session_id_
 (
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 CreateRandomId64
 (

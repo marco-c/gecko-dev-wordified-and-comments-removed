@@ -2723,10 +2723,10 @@ num_video_streams_
 str
 +
 =
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 num_video_streams_
 )
@@ -2772,10 +2772,10 @@ num_audio_streams_
 str
 +
 =
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 num_audio_streams_
 )

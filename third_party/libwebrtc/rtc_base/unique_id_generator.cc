@@ -275,10 +275,10 @@ GenerateString
 )
 {
 return
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 unique_number_generator_
 .

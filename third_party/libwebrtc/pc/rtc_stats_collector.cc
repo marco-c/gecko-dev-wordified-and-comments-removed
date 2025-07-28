@@ -8467,10 +8467,10 @@ RTCDataChannelStats
 D
 "
 +
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 stats
 .

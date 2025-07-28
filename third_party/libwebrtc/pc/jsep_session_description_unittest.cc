@@ -651,10 +651,10 @@ std
 string
 session_id
 =
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 webrtc
 :
@@ -671,10 +671,10 @@ std
 string
 session_version
 =
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 webrtc
 :

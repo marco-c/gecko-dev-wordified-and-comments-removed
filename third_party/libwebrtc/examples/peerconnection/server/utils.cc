@@ -28,10 +28,10 @@ string_encode
 h
 "
 using
-rtc
+absl
 :
 :
-ToString
+StrCat
 ;
 std
 :
@@ -44,7 +44,10 @@ i
 )
 {
 return
-ToString
+absl
+:
+:
+StrCat
 (
 i
 )
@@ -61,7 +64,10 @@ i
 )
 {
 return
-ToString
+absl
+:
+:
+StrCat
 (
 i
 )

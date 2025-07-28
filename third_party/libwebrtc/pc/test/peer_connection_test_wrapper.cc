@@ -3068,10 +3068,10 @@ stream_id
 =
 kStreamIdBase
 +
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 num_get_user_media_calls_
 +
