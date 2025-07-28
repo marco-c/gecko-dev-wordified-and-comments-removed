@@ -2469,9 +2469,7 @@ HomeNavigationBar
 (
 context
 =
-requireContext
-(
-)
+activity
 container
 =
 binding
@@ -2482,6 +2480,13 @@ toolbarStore
 buildToolbarStore
 (
 activity
+)
+settings
+=
+activity
+.
+settings
+(
 )
 hideWhenKeyboardShown
 =
