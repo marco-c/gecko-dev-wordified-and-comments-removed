@@ -87,9 +87,6 @@ ConstIterator
 ConstIterator
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -311,9 +308,6 @@ other
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -328,9 +322,6 @@ timestamp
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -359,9 +350,6 @@ timestamp
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -374,9 +362,6 @@ Copy
 )
 const
 {
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -688,9 +673,6 @@ RTCStatsReport
 :
 TakeMembersFrom
 (
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -780,9 +762,6 @@ const
 return
 ConstIterator
 (
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -814,9 +793,6 @@ const
 return
 ConstIterator
 (
-rtc
-:
-:
 scoped_refptr
 <
 const
