@@ -3853,6 +3853,13 @@ pat
 .
 mMatrix
 ;
+if
+(
+pat
+.
+mSurface
+)
+{
 offsetMatrix
 .
 PreTranslate
@@ -3871,6 +3878,7 @@ TopLeft
 )
 )
 ;
+}
 sk_sp
 <
 SkImage
