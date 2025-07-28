@@ -341,10 +341,6 @@ patch
 .
 patch
 -
-04_fix_loongarch_build
-.
-patch
--
-05_disable_sme
+04_disable_sme
 .
 patch
