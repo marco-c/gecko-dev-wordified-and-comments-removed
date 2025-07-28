@@ -2443,7 +2443,7 @@ when
 the
 QR
 Scanner
-Request
+request
 is
 consumed
 .
