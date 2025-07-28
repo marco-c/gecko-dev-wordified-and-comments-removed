@@ -104,7 +104,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -126,9 +126,6 @@ ChannelReceiveFrameTransformerDelegate
 (
 ReceiveFrameCallback
 receive_frame_callback
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -152,9 +149,6 @@ Reset
 void
 Transform
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -212,9 +206,6 @@ frame
 )
 const
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -246,9 +237,6 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

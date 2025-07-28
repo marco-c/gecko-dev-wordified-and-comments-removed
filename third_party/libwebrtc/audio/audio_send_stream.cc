@@ -707,9 +707,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -809,9 +806,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -3659,9 +3653,6 @@ format
 .
 name
 =
-cricket
-:
-:
 kRedCodecName
 ;
 }

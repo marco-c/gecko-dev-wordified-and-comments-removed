@@ -207,9 +207,6 @@ rtp_rtcp
 ReceiveStatistics
 *
 receive_statistics
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -706,9 +703,6 @@ AudioIngress
 :
 ReceivedRTPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -976,9 +970,6 @@ paddingLength
 auto
 data_view
 =
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1062,9 +1053,6 @@ AudioIngress
 :
 ReceivedRTCPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

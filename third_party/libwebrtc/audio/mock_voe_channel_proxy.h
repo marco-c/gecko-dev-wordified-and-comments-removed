@@ -749,7 +749,7 @@ MOCK_METHOD
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -771,7 +771,7 @@ MOCK_METHOD
 void
 SetFrameDecryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1145,7 +1145,7 @@ MOCK_METHOD
 void
 SetFrameEncryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1164,7 +1164,7 @@ MOCK_METHOD
 void
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

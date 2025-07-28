@@ -531,9 +531,6 @@ virtual
 void
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -547,9 +544,6 @@ virtual
 void
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -624,9 +618,6 @@ int
 rtcp_report_interval_ms
 uint32_t
 ssrc
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

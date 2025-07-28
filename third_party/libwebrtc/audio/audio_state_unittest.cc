@@ -434,9 +434,6 @@ audio_frame_processor_
 FakeTaskQueueFactory
 task_queue_factory_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AsyncAudioProcessing
@@ -449,9 +446,6 @@ CreateFactory
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 AsyncAudioProcessing
@@ -516,9 +510,6 @@ use_null_audio_processing
 ?
 nullptr
 :
-rtc
-:
-:
 make_ref_counted
 <
 testing
@@ -536,9 +527,6 @@ audio_state_config
 .
 audio_device_module
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -581,9 +569,6 @@ return
 audio_state_config
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer
@@ -622,9 +607,6 @@ AudioState
 Config
 audio_state_config
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer
@@ -978,9 +960,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -990,9 +969,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -1064,9 +1040,6 @@ SinkCleared
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -1076,9 +1049,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -1408,9 +1378,6 @@ SinkCleared
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -1420,9 +1387,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -1862,9 +1826,6 @@ SinkCleared
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -1874,9 +1835,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2204,9 +2162,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2216,9 +2171,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2331,9 +2283,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2343,9 +2292,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2457,9 +2403,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2469,9 +2412,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2629,9 +2569,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2641,9 +2578,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2723,9 +2657,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2735,9 +2666,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -2850,9 +2778,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -2862,9 +2787,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -3044,9 +2966,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -3056,9 +2975,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal
@@ -3138,9 +3054,6 @@ GetParam
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 internal
@@ -3150,9 +3063,6 @@ AudioState
 >
 audio_state
 (
-rtc
-:
-:
 make_ref_counted
 <
 internal

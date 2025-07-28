@@ -765,9 +765,6 @@ virtual
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -784,9 +781,6 @@ virtual
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -845,9 +839,6 @@ int
 jitter_buffer_min_delay_ms
 bool
 enable_non_sender_rtt
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -861,9 +852,6 @@ optional
 AudioCodecPairId
 >
 codec_pair_id
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -876,9 +864,6 @@ webrtc
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

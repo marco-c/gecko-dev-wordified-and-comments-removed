@@ -103,7 +103,7 @@ uint8_t
 payloadType
 uint32_t
 rtp_timestamp_with_offset
-rtc
+webrtc
 :
 :
 ArrayView
@@ -114,7 +114,7 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
-rtc
+webrtc
 :
 :
 ArrayView
@@ -138,9 +138,6 @@ ChannelSendFrameTransformerDelegate
 (
 SendFrameCallback
 send_frame_callback
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -254,9 +251,6 @@ RTC_GUARDED_BY
 send_lock_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

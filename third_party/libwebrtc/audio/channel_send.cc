@@ -922,9 +922,6 @@ int
 rtcp_report_interval_ms
 uint32_t
 ssrc
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1162,9 +1159,6 @@ override
 void
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -1176,9 +1170,6 @@ override
 void
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1298,9 +1289,6 @@ uint8_t
 payloadType
 uint32_t
 rtp_timestamp_without_offset
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1309,9 +1297,6 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1342,9 +1327,6 @@ rtt_ms
 void
 InitFrameTransformerDelegate
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1553,9 +1535,6 @@ first_frame_
 =
 true
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -1573,9 +1552,6 @@ webrtc
 CryptoOptions
 crypto_options_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ChannelSendFrameTransformerDelegate
@@ -1829,9 +1805,6 @@ RTC_DCHECK_RUN_ON
 encoder_queue_checker_
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1976,9 +1949,6 @@ uint8_t
 payloadType
 uint32_t
 rtp_timestamp_without_offset
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1987,9 +1957,6 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2006,9 +1973,6 @@ uint8_t
 audio_level_dbov
 )
 {
-rtc
-:
-:
 Buffer
 encrypted_audio_payload
 ;
@@ -2361,9 +2325,6 @@ int
 rtcp_report_interval_ms
 uint32_t
 ssrc
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3338,9 +3299,6 @@ rtp_rtcp_
 >
 IncomingRtcpPacket
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -4473,9 +4431,6 @@ rms_level_
 .
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4622,9 +4577,6 @@ ChannelSend
 :
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -4677,9 +4629,6 @@ ChannelSend
 :
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -4784,9 +4733,6 @@ ChannelSend
 :
 InitFrameTransformerDelegate
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -4830,9 +4776,6 @@ uint8_t
 payloadType
 uint32_t
 rtp_timestamp_with_offset
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4841,9 +4784,6 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4889,9 +4829,6 @@ audio_level_dbov
 ;
 frame_transformer_delegate_
 =
-rtc
-:
-:
 make_ref_counted
 <
 ChannelSendFrameTransformerDelegate
@@ -4962,9 +4899,6 @@ int
 rtcp_report_interval_ms
 uint32_t
 ssrc
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

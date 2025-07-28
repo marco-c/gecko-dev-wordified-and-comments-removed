@@ -919,9 +919,6 @@ int
 jitter_buffer_min_delay_ms
 bool
 enable_non_sender_rtt
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -935,9 +932,6 @@ optional
 AudioCodecPairId
 >
 codec_pair_id
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -950,9 +944,6 @@ webrtc
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1269,9 +1260,6 @@ override
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1286,9 +1274,6 @@ override
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1376,9 +1361,6 @@ const
 void
 OnReceivedPayloadData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1400,9 +1382,6 @@ worker_thread_checker_
 void
 InitFrameTransformerDelegate
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1671,9 +1650,6 @@ nullptr
 SequenceChecker
 construction_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1710,9 +1686,6 @@ RTC_GUARDED_BY
 ts_stats_lock_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ChannelReceiveFrameTransformerDelegate
@@ -1764,9 +1737,6 @@ ChannelReceive
 :
 OnReceivedPayloadData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1982,9 +1952,6 @@ ChannelReceive
 :
 InitFrameTransformerDelegate
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -2026,9 +1993,6 @@ receive_audio_callback
 this
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2060,9 +2024,6 @@ receive_time
 ;
 frame_transformer_delegate_
 =
-rtc
-:
-:
 make_ref_counted
 <
 ChannelReceiveFrameTransformerDelegate
@@ -2920,9 +2881,6 @@ int
 jitter_buffer_min_delay_ms
 bool
 enable_non_sender_rtt
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -2936,9 +2894,6 @@ optional
 AudioCodecPairId
 >
 codec_pair_id
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -2951,9 +2906,6 @@ webrtc
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3684,9 +3636,6 @@ header
 .
 paddingLength
 ;
-rtc
-:
-:
 Buffer
 decrypted_audio_payload
 ;
@@ -3767,9 +3716,6 @@ MediaType
 AUDIO
 csrcs
 nullptr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3859,9 +3805,6 @@ payload_data_length
 0
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4010,9 +3953,6 @@ rtp_rtcp_
 >
 IncomingRtcpPacket
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -4812,9 +4752,6 @@ ChannelReceive
 :
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -4890,9 +4827,6 @@ ChannelReceive
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -6026,9 +5960,6 @@ int
 jitter_buffer_min_delay_ms
 bool
 enable_non_sender_rtt
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -6042,9 +5973,6 @@ optional
 AudioCodecPairId
 >
 codec_pair_id
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -6057,9 +5985,6 @@ webrtc
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

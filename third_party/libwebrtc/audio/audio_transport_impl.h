@@ -385,9 +385,6 @@ int16_t
 >
 capture_resampler_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer

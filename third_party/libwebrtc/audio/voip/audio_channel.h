@@ -126,9 +126,6 @@ local_ssrc
 AudioMixer
 *
 audio_mixer
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -343,9 +340,6 @@ IsPlaying
 void
 ReceivedRTPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -366,9 +360,6 @@ rtp_packet
 void
 ReceivedRTCPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
