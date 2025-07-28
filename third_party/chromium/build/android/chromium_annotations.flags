@@ -482,7 +482,7 @@ build
 .
 annotations
 .
-AssumeNonNull
+OptimizeAsNonNull
 *
 *
 *
@@ -510,7 +510,7 @@ build
 .
 annotations
 .
-AssumeNonNull
+OptimizeAsNonNull
 *
 *
 *
@@ -536,7 +536,7 @@ build
 .
 annotations
 .
-AssumeNonNull
+OptimizeAsNonNull
 *
 *
 *
@@ -559,7 +559,7 @@ build
 .
 annotations
 .
-AssumeNonNull
+OptimizeAsNonNull
 *
 *
 *

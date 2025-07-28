@@ -2107,10 +2107,16 @@ o
 output
 }
 }
+show_includes
 "
 is_msvc_assembler
 =
 false
+depsformat
+=
+"
+msvc
+"
 }
 else
 {

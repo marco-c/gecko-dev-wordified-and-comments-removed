@@ -406,12 +406,13 @@ if
 version
 !
 =
+b
 '
 10
 .
 0
 .
-15063
+22621
 '
 :
       
@@ -587,12 +588,14 @@ line
 .
 startswith
 (
+b
 '
 /
 /
 '
 )
 and
+b
 '
 ?
 '
@@ -607,6 +610,7 @@ line
 .
 startswith
 (
+b
 '
 #
 define
@@ -695,6 +699,7 @@ f
 .
 write
 (
+b
 '
 '
 .
@@ -827,9 +832,6 @@ unified_diff
 open
 (
 fromfile
-'
-U
-'
 )
 .
 readlines
@@ -839,9 +841,6 @@ readlines
 open
 (
 tofile
-'
-U
-'
 )
 .
 readlines

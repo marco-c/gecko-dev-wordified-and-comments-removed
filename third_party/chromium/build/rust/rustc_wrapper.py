@@ -780,6 +780,19 @@ arg
 in
 rsp_args
 ]
+    
+rustc_args
+=
+[
+remove_lib_suffix_from_l_args
+(
+arg
+)
+for
+arg
+in
+rustc_args
+]
   
 out_rsp
 =

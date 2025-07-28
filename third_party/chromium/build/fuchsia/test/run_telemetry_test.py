@@ -318,20 +318,6 @@ packages
 target_id
 )
     
-staticmethod
-    
-def
-is_cfv2
-(
-)
--
->
-bool
-:
-        
-return
-False
-    
 def
 run_test
 (

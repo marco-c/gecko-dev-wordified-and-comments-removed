@@ -365,7 +365,7 @@ visibility
 '
 '
 )
-whitelist
+allowlist
 =
 r
 '
@@ -626,7 +626,7 @@ expected
 )
   
 def
-testWhitelist
+testAllowlist
 (
 self
 )
@@ -636,9 +636,9 @@ output
 =
 check_gn_headers
 .
-ParseWhiteList
+ParseAllowlist
 (
-whitelist
+allowlist
 )
     
 expected

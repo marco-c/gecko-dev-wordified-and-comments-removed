@@ -51,7 +51,7 @@ asm
 .
 Opcodes
 .
-ASM7
+ASM9
 ;
 import
 org
@@ -181,7 +181,7 @@ jarClassLoader
 {
 super
 (
-ASM7
+ASM9
 )
 ;
 mMethodsToCheck

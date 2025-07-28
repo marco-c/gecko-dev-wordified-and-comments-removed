@@ -67,10 +67,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 chrome_version_code
@@ -128,10 +124,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 chrome_modern_version_code
@@ -189,10 +181,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 monochrome_version_code
@@ -250,10 +238,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 trichrome_version_code
@@ -330,10 +314,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_stable_version_code
@@ -391,10 +371,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_beta_version_code
@@ -452,10 +428,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_dev_version_code
@@ -474,122 +446,6 @@ assertEqual
 webview_dev_version_code
 '
 484400020
-'
-)
-  
-def
-testGenerateVersionCodesAndroidNextBuild
-(
-self
-)
-:
-    
-"
-"
-"
-Assert
-it
-handles
-"
-next
-"
-builds
-correctly
-"
-"
-"
-    
-output
-=
-GenerateVersionCodes
-(
-4844
-0
-                                  
-arch
-=
-'
-arm
-'
-                                  
-is_next_build
-=
-True
-)
-    
-chrome_version_code
-=
-output
-[
-'
-CHROME_VERSION_CODE
-'
-]
-    
-monochrome_version_code
-=
-output
-[
-'
-MONOCHROME_VERSION_CODE
-'
-]
-    
-webview_stable_version_code
-=
-output
-[
-'
-WEBVIEW_STABLE_VERSION_CODE
-'
-]
-    
-webview_beta_version_code
-=
-output
-[
-'
-WEBVIEW_BETA_VERSION_CODE
-'
-]
-    
-self
-.
-assertEqual
-(
-chrome_version_code
-'
-484450000
-'
-)
-    
-self
-.
-assertEqual
-(
-monochrome_version_code
-'
-484450020
-'
-)
-    
-self
-.
-assertEqual
-(
-webview_stable_version_code
-'
-484450000
-'
-)
-    
-self
-.
-assertEqual
-(
-webview_beta_version_code
-'
-484450010
 '
 )
   
@@ -655,10 +511,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -742,10 +594,6 @@ arch
 '
 x86
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -829,10 +677,6 @@ arch
 '
 arm64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -918,10 +762,6 @@ arch
 '
 arm64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_monochrome_version_code
@@ -1313,10 +1153,6 @@ arch
 '
 x64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -1402,10 +1238,6 @@ arch
 '
 x64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_monochrome_32_version_code
@@ -1784,10 +1616,6 @@ arch
 '
 arm
 '
-                                      
-is_next_build
-=
-False
 )
     
 arm64_output
@@ -1802,10 +1630,6 @@ arch
 '
 arm64
 '
-                                        
-is_next_build
-=
-False
 )
     
 arm_chrome_version_code
@@ -1903,10 +1727,6 @@ arch
 '
 x86
 '
-                                      
-is_next_build
-=
-False
 )
     
 x64_output
@@ -1921,10 +1741,6 @@ arch
 '
 x64
 '
-                                      
-is_next_build
-=
-False
 )
     
 x86_chrome_version_code
@@ -2052,10 +1868,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_stable_version_code
@@ -2183,10 +1995,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_beta_version_code
@@ -2320,10 +2128,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 trichrome_stable_version_code
@@ -2414,10 +2218,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 chrome_version_code
@@ -2475,10 +2275,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 chrome_modern_version_code
@@ -2536,10 +2332,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 monochrome_version_code
@@ -2597,10 +2389,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 trichrome_version_code
@@ -2658,10 +2446,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_stable_version_code
@@ -2719,10 +2503,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_beta_version_code
@@ -2780,10 +2560,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_dev_version_code
@@ -2802,122 +2578,6 @@ assertEqual
 webview_dev_version_code
 '
 575000020
-'
-)
-  
-def
-testGenerateVersionCodesAndroidNextBuild
-(
-self
-)
-:
-    
-"
-"
-"
-Assert
-it
-handles
-"
-next
-"
-builds
-correctly
-"
-"
-"
-    
-output
-=
-GenerateVersionCodes
-(
-5750
-0
-                                  
-arch
-=
-'
-arm
-'
-                                  
-is_next_build
-=
-True
-)
-    
-chrome_version_code
-=
-output
-[
-'
-CHROME_VERSION_CODE
-'
-]
-    
-monochrome_version_code
-=
-output
-[
-'
-MONOCHROME_VERSION_CODE
-'
-]
-    
-webview_stable_version_code
-=
-output
-[
-'
-WEBVIEW_STABLE_VERSION_CODE
-'
-]
-    
-webview_beta_version_code
-=
-output
-[
-'
-WEBVIEW_BETA_VERSION_CODE
-'
-]
-    
-self
-.
-assertEqual
-(
-chrome_version_code
-'
-575050000
-'
-)
-    
-self
-.
-assertEqual
-(
-monochrome_version_code
-'
-575050020
-'
-)
-    
-self
-.
-assertEqual
-(
-webview_stable_version_code
-'
-575050000
-'
-)
-    
-self
-.
-assertEqual
-(
-webview_beta_version_code
-'
-575050010
 '
 )
   
@@ -2983,10 +2643,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -3070,10 +2726,6 @@ arch
 '
 x86
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -3157,10 +2809,6 @@ arch
 '
 arm64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -3246,10 +2894,6 @@ arch
 '
 arm64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_monochrome_version_code
@@ -3661,10 +3305,6 @@ arch
 '
 x64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -3750,10 +3390,6 @@ arch
 '
 x64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_monochrome_32_version_code
@@ -4144,10 +3780,6 @@ arch
 '
 riscv64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -4233,10 +3865,6 @@ arch
 '
 riscv64
 '
-                                  
-is_next_build
-=
-False
 )
     
 arch_chrome_version_code
@@ -4702,10 +4330,6 @@ arch
 '
 arm
 '
-                                      
-is_next_build
-=
-False
 )
     
 arm64_output
@@ -4720,10 +4344,6 @@ arch
 '
 arm64
 '
-                                        
-is_next_build
-=
-False
 )
     
 arm_chrome_version_code
@@ -4821,10 +4441,6 @@ arch
 '
 x86
 '
-                                      
-is_next_build
-=
-False
 )
     
 x64_output
@@ -4839,10 +4455,6 @@ arch
 '
 x64
 '
-                                      
-is_next_build
-=
-False
 )
     
 x86_chrome_version_code
@@ -4970,10 +4582,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_stable_version_code
@@ -5101,10 +4709,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 webview_beta_version_code
@@ -5238,10 +4842,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 trichrome_stable_version_code
@@ -5318,10 +4918,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 version_code
@@ -7120,10 +6716,6 @@ arch
 '
 arm
 '
-                                  
-is_next_build
-=
-False
 )
     
 version_code

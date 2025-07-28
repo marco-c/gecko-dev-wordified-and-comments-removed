@@ -608,6 +608,19 @@ r
 FLAKY_
 '
 )
+_RE_LAUNCHER_MAIN_START
+=
+re
+.
+compile
+(
+r
+'
+>
+>
+ScopedMainEntryLogger
+'
+)
 _RE_ANY_TESTS_FAILED
 =
 re
@@ -1067,6 +1080,15 @@ match
 l
 )
     
+launcher_main_start_match
+=
+_RE_LAUNCHER_MAIN_START
+.
+match
+(
+l
+)
+    
 if
 matcher
 :
@@ -1286,6 +1308,8 @@ None
       
 elif
 dcheck_matcher
+or
+launcher_main_start_match
 :
         
 result_type
@@ -1301,10 +1325,8 @@ duration
 None
     
 if
-log
-is
 not
-None
+launcher_main_start_match
 :
       
 if
@@ -2129,6 +2151,14 @@ args
 .
 use_existing_test_data
     
+self
+.
+_deploy_mock_openxr_runtime
+=
+args
+.
+deploy_mock_openxr_runtime
+    
 if
 args
 .
@@ -2902,6 +2932,20 @@ return
 self
 .
 _coverage_dir
+  
+property
+  
+def
+deploy_mock_openxr_runtime
+(
+self
+)
+:
+    
+return
+self
+.
+_deploy_mock_openxr_runtime
   
 property
   

@@ -42,6 +42,7 @@ ElementType
 CONSTRUCTOR
 }
 )
+UsedReflectively
 public
 interface
 UsedByReflection

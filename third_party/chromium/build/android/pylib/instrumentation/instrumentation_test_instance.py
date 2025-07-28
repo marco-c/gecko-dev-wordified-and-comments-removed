@@ -3480,6 +3480,12 @@ None
     
 self
 .
+_use_native_coverage_listener
+=
+None
+    
+self
+.
 _test_support_apk
 =
 None
@@ -3801,6 +3807,14 @@ _webview_process_mode
 args
 .
 webview_process_mode
+    
+self
+.
+_webview_rebaseline_mode
+=
+args
+.
+webview_rebaseline_mode
     
 self
 .
@@ -4349,6 +4363,27 @@ org
 chromium
 .
 hasTestRunListener
+'
+)
+)
+    
+self
+.
+_use_native_coverage_listener
+=
+bool
+(
+        
+test_apk_metadata
+.
+get
+(
+'
+org
+.
+chromium
+.
+useNativeCoverageListener
 '
 )
 )
@@ -5777,6 +5812,20 @@ _uses_base_instrumentation
 property
   
 def
+use_native_coverage_listener
+(
+self
+)
+:
+    
+return
+self
+.
+_use_native_coverage_listener
+  
+property
+  
+def
 package_info
 (
 self
@@ -6182,6 +6231,20 @@ return
 self
 .
 _webview_process_mode
+  
+property
+  
+def
+webview_rebaseline_mode
+(
+self
+)
+:
+    
+return
+self
+.
+_webview_rebaseline_mode
   
 property
   

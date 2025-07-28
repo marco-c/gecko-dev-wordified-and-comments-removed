@@ -138,7 +138,16 @@ NOP_INSTRUCTION_SIZE
 ;
 indirect_call
 (
+std
+:
+:
+hint
+:
+:
+black_box
+(
 fptr
+)
 )
 ;
 eprintln

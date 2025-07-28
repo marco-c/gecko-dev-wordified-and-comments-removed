@@ -820,6 +820,12 @@ deps
 [
 host_tool
 ]
+inputs
++
+=
+[
+host_executable
+]
 #
 The
 script

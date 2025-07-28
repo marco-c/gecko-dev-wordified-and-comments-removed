@@ -369,6 +369,12 @@ parameter
 .
 #
 #
+testonly
+(
+optional
+)
+#
+#
 visibility
 (
 optional
@@ -1021,6 +1027,9 @@ invoker
 "
 deps
 "
+"
+testonly
+"
 ]
 )
 }
@@ -1033,6 +1042,9 @@ forward_variables_from
 (
 invoker
 [
+"
+testonly
+"
 "
 visibility
 "

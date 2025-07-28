@@ -198,6 +198,7 @@ def
 _ProcessOtherManifest
 (
 manifest_path
+min_sdk_version
 target_sdk_version
                           
 seen_package_names
@@ -250,6 +251,31 @@ GetPackage
 (
 manifest
 )
+  
+if
+package_name
+.
+startswith
+(
+'
+androidx
+.
+pdf
+'
+)
+:
+    
+manifest_utils
+.
+OverrideMinSdkVersionIfPresent
+(
+manifest
+min_sdk_version
+)
+    
+changed_api
+=
+True
   
 package_count
 =
@@ -824,6 +850,10 @@ enter_context
 _ProcessOtherManifest
 (
 e
+args
+.
+min_sdk_version
+                                      
 args
 .
 target_sdk_version

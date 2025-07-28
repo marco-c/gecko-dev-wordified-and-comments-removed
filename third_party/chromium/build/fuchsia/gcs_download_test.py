@@ -105,6 +105,8 @@ mock
 patch
 (
 '
+gs_util_wrapper
+.
 subprocess
 .
 run
@@ -316,30 +318,9 @@ Run
 mock
 .
 ANY
-                      
-stderr
-=
-subprocess
-.
-PIPE
-                      
-stdout
-=
-subprocess
-.
-PIPE
-                      
 check
 =
 True
-                      
-encoding
-=
-'
-utf
--
-8
-'
 )
         
 mock
@@ -421,6 +402,7 @@ assertRegex
 (
         
 cmd
+        
 r
 '
 .
@@ -495,9 +477,9 @@ self
 .
 assertRaises
 (
-subprocess
+tarfile
 .
-CalledProcessError
+ReadError
 )
 :
       

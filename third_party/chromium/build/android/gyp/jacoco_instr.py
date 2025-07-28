@@ -118,15 +118,56 @@ add_argument
 '
 -
 -
-input
+root
 -
-path
+build
+-
+dir
 '
       
 required
 =
 True
       
+help
+=
+'
+Path
+to
+build
+directory
+rooted
+at
+checkout
+dir
+e
+.
+g
+.
+/
+/
+out
+/
+Release
+'
+)
+  
+parser
+.
+add_argument
+(
+'
+-
+-
+input
+-
+path
+'
+                      
+required
+=
+True
+                      
 help
 =
 '
@@ -142,7 +183,7 @@ Either
 the
 classes
 '
-      
+                      
 '
 directory
 or
@@ -159,7 +200,6 @@ parser
 .
 add_argument
 (
-      
 '
 -
 -
@@ -167,11 +207,11 @@ output
 -
 path
 '
-      
+                      
 required
 =
 True
-      
+                      
 help
 =
 '
@@ -188,7 +228,7 @@ to
 Either
 the
 '
-      
+                      
 '
 final
 classes
@@ -198,7 +238,7 @@ the
 directory
 in
 '
-      
+                      
 '
 which
 to
@@ -216,7 +256,6 @@ parser
 .
 add_argument
 (
-      
 '
 -
 -
@@ -226,11 +265,11 @@ json
 -
 file
 '
-      
+                      
 required
 =
 True
-      
+                      
 help
 =
 '
@@ -244,7 +283,7 @@ of
 source
 directories
 '
-      
+                      
 '
 and
 input
@@ -419,8 +458,9 @@ _CreateSourcesJsonFile
 source_dirs
 input_path
 sources_json_file
-                           
 src_root
+                           
+root_build_dir
 )
 :
   
@@ -478,7 +518,7 @@ list
 of
 source
 directories
-    
+      
 and
 input
 path
@@ -498,6 +538,29 @@ be
 relative
 to
 .
+    
+root_build_dir
+:
+Build
+directory
+path
+rooted
+at
+checkout
+where
+      
+sources_json_file
+is
+generated
+e
+.
+g
+.
+/
+/
+out
+/
+Release
   
 Returns
 :
@@ -630,6 +693,22 @@ input_path
 [
 ]
   
+build_dir
+=
+os
+.
+path
+.
+join
+(
+src_root
+root_build_dir
+[
+2
+:
+]
+)
+  
 data
 [
 '
@@ -637,7 +716,7 @@ output_dir
 '
 ]
 =
-src_root
+build_dir
   
 if
 input_path
@@ -1327,6 +1406,10 @@ sources_json_file
 build_utils
 .
 DIR_SOURCE_ROOT
+                                 
+args
+.
+root_build_dir
 )
           
 return
@@ -1366,6 +1449,9 @@ sources_json_file
 build_utils
 .
 DIR_SOURCE_ROOT
+args
+.
+root_build_dir
 )
   
 return

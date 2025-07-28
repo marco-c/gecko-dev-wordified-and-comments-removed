@@ -338,6 +338,9 @@ dll
 if
 (
 is_component_build
+|
+|
+is_asan
 )
 {
 #

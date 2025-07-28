@@ -1575,6 +1575,9 @@ parse_attr
 (
 namespace
 name
+default
+=
+None
 )
 :
     
@@ -1633,9 +1636,16 @@ w
 output
 )
     
-return
+if
 m
-and
+is
+None
+:
+      
+return
+default
+    
+return
 int
 (
 m
@@ -1649,8 +1659,7 @@ group
   
 skip_extract_lib
 =
-bool
-(
+not
 parse_attr
 (
 '
@@ -1659,7 +1668,9 @@ android
 '
 extractNativeLibs
 '
-)
+default
+=
+1
 )
   
 sdk_version
@@ -2713,16 +2724,6 @@ metadata
 '
 )
   
-unknown
-=
-make_group
-(
-'
-Unknown
-files
-'
-)
-  
 notices
 =
 make_group
@@ -2747,6 +2748,27 @@ and
 canary
 only
 )
+'
+)
+  
+assets
+=
+make_group
+(
+'
+Other
+Android
+Assets
+'
+)
+  
+unknown
+=
+make_group
+(
+'
+Unknown
+files
 '
 )
   
@@ -2837,6 +2859,12 @@ is_webview
 =
 '
 WebView
+'
+in
+orig_filename
+or
+'
+Webview
 '
 in
 orig_filename
@@ -2946,6 +2974,51 @@ filename
 member
 .
 filename
+    
+if
+filename
+.
+endswith
+(
+'
++
+'
+)
+:
+      
+suffix_idx
+=
+filename
+.
+rfind
+(
+'
++
+'
+0
+len
+(
+filename
+)
+-
+1
+)
+      
+if
+suffix_idx
+!
+=
+-
+1
+:
+        
+filename
+=
+filename
+[
+:
+suffix_idx
+]
     
 if
 filename
@@ -3371,6 +3444,25 @@ AddZipInfo
 member
 )
     
+elif
+filename
+.
+startswith
+(
+'
+assets
+/
+'
+)
+:
+      
+assets
+.
+AddZipInfo
+(
+member
+)
+    
 else
 :
       
@@ -3440,7 +3532,9 @@ hindi_apk_info
 .
 file_size
       
-else
+elif
+not
+is_shared_apk
 :
         
 assert

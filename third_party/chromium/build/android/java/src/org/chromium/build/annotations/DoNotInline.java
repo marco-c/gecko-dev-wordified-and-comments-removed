@@ -66,6 +66,7 @@ RetentionPolicy
 .
 CLASS
 )
+UsedReflectively
 public
 interface
 DoNotInline

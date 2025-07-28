@@ -162,9 +162,15 @@ hidden_api_bypass_java
 jacoco_never_instrument
 =
 true
-no_build_hooks
+chromium_code
 =
-true
+false
+#
+Disable
+build_java
+default
+dep
+.
 }
 dist_dex
 (

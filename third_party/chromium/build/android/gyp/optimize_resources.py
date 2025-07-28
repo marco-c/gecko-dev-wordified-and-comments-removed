@@ -175,7 +175,7 @@ add_argument
 '
 -
 -
-proto
+input
 -
 path
 '
@@ -188,8 +188,6 @@ help
 =
 '
 Input
-proto
-format
 resources
 APK
 .
@@ -328,7 +326,7 @@ add_argument
 -
 optimized
 -
-proto
+output
 -
 path
 '
@@ -1014,13 +1012,13 @@ _OptimizeApk
 (
 options
 .
-optimized_proto_path
+optimized_output_path
 options
 temp_dir
                  
 options
 .
-proto_path
+input_path
 options
 .
 r_text_in

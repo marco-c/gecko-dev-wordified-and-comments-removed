@@ -15,7 +15,7 @@ asm
 .
 Opcodes
 .
-ASM7
+ASM9
 ;
 import
 org
@@ -72,7 +72,7 @@ methodsToTrace
 {
 super
 (
-ASM7
+ASM9
 visitor
 )
 ;

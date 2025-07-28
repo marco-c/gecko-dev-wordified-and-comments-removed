@@ -113,8 +113,12 @@ third_party
 r8
 '
 '
+cipd
+'
+'
 lib
 '
+                   
 '
 r8
 .

@@ -38,5 +38,7 @@ directory
 /
 RUST_SRC_ROOT
 /
+library
+/
 vendor
 '

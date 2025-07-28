@@ -89,6 +89,10 @@ AppCompatResource
 "
     
 "
+AppLinkUrlError
+"
+    
+"
 Assert
 "
     
@@ -1103,6 +1107,8 @@ lint_gen_dir
              
 baseline
              
+create_cache
+             
 warnings_as_errors
 =
 False
@@ -1182,7 +1188,7 @@ False
 lint_xmx
 =
 '
-2G
+3G
 '
   
 partials_dir
@@ -1347,13 +1353,25 @@ quiet
 -
 stacktrace
 '
-      
+  
+]
+  
+if
+not
+create_cache
+:
+    
+cmd
++
+=
+[
+        
 '
 -
 -
 disable
 '
-      
+        
 '
 '
 .
@@ -1361,7 +1379,7 @@ join
 (
 _DISABLED_ALWAYS
 )
-  
+    
 ]
   
 if
@@ -1520,6 +1538,14 @@ lint_gen_dir
 _RES_ZIP_DIR
 )
   
+shutil
+.
+rmtree
+(
+resource_root_dir
+True
+)
+  
 logging
 .
 info
@@ -1547,14 +1573,6 @@ join
 (
 resource_root_dir
 resource_zip
-)
-    
-shutil
-.
-rmtree
-(
-resource_dir
-True
 )
     
 os
@@ -1602,6 +1620,14 @@ lint_gen_dir
 _AAR_DIR
 )
   
+shutil
+.
+rmtree
+(
+aar_root_dir
+True
+)
+  
 custom_lint_jars
 =
 [
@@ -1646,14 +1672,6 @@ aar
 [
 0
 ]
-)
-      
-shutil
-.
-rmtree
-(
-aar_dir
-True
 )
       
 os
@@ -1743,6 +1761,14 @@ lint_gen_dir
 _SRCJAR_DIR
 )
   
+shutil
+.
+rmtree
+(
+srcjar_root_dir
+True
+)
+  
 srcjar_sources
 =
 [
@@ -1778,14 +1804,6 @@ srcjar
 [
 0
 ]
-)
-      
-shutil
-.
-rmtree
-(
-srcjar_dir
-True
 )
       
 os
@@ -1876,21 +1894,62 @@ project
 project_xml_path
 ]
   
+def
 stdout_filter
-=
-lambda
-x
-:
-build_utils
-.
-FilterLines
 (
-x
+output
+)
+:
+    
+filter_patterns
+=
+[
+        
 '
 No
 issues
 found
 '
+        
+r
+'
+\
+[
+UnknownIssueId
+\
+]
+'
+        
+r
+'
+\
+d
++
+errors
+?
+\
+d
++
+warnings
+?
+'
+    
+]
+    
+return
+build_utils
+.
+FilterLines
+(
+output
+'
+|
+'
+.
+join
+(
+filter_patterns
+)
 )
   
 def
@@ -2124,6 +2183,17 @@ ignore_errors
 True
 )
       
+if
+os
+.
+path
+.
+exists
+(
+project_xml_path
+)
+:
+        
 os
 .
 unlink
@@ -3346,7 +3416,7 @@ args
 .
 stamp
                                        
-force
+use_build_server
 =
 args
 .
@@ -3427,6 +3497,10 @@ args
 .
 baseline
            
+args
+.
+create_cache
+           
 warnings_as_errors
 =
 args
@@ -3445,9 +3519,9 @@ file
 '
 )
   
-build_utils
+server_utils
 .
-Touch
+MaybeTouch
 (
 args
 .

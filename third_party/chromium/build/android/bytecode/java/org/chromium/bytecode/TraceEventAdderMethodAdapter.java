@@ -15,7 +15,7 @@ asm
 .
 Opcodes
 .
-ASM7
+ASM9
 ;
 import
 static
@@ -151,7 +151,7 @@ methodName
 {
 super
 (
-ASM7
+ASM9
 methodVisitor
 )
 ;

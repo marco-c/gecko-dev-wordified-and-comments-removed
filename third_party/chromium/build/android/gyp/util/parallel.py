@@ -85,6 +85,14 @@ None
 _fork_kwargs
 =
 None
+multiprocessing
+.
+set_start_method
+(
+'
+fork
+'
+)
 class
 _ImmediateResult
 :

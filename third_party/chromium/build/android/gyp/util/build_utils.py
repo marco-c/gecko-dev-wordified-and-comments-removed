@@ -1280,6 +1280,10 @@ fail_on_output
 =
 True
                 
+before_join_callback
+=
+None
+                
 fail_func
 =
 lambda
@@ -1349,6 +1353,14 @@ cwd
 env
 =
 env
+)
+  
+if
+before_join_callback
+:
+    
+before_join_callback
+(
 )
   
 stdout

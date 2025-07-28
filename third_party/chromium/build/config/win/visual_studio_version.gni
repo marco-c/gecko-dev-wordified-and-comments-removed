@@ -310,3 +310,14 @@ visual_studio_runtime_dirs
 "
 "
 }
+visual_studio_version_logs
+=
+[
+"
+windows_sdk_version
+=
+{
+windows_sdk_version
+}
+"
+]

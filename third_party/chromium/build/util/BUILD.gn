@@ -70,6 +70,15 @@ in
 inputs
 =
 [
+"
+android_chrome_version
+.
+py
+"
+]
+sources
+=
+[
 lastchange_file
 template_file
 ]

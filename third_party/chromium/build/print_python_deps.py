@@ -116,15 +116,14 @@ s
 src
 /
 .
-The
+  
+Returns
+:
+    
+List
+of
+absolute
 paths
-will
-be
-relative
-to
-the
-current
-directory
 .
   
 "
@@ -162,6 +161,16 @@ and
 m
 .
 __file__
+                  
+and
+m
+.
+__name__
+!
+=
+'
+__main__
+'
 )
   
 src_paths
@@ -175,15 +184,6 @@ path
 in
 module_paths
 :
-    
-if
-path
-=
-=
-__file__
-:
-      
-continue
     
 path
 =

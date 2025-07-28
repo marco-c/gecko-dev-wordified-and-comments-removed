@@ -1,14 +1,4 @@
 [
-FORMAT
-]
-max
--
-line
--
-length
-=
-80
-[
 MESSAGES
 CONTROL
 ]
@@ -34,6 +24,11 @@ fixme
 invalid
 -
 name
+line
+-
+too
+-
+long
 locally
 -
 disabled

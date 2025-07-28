@@ -133,15 +133,6 @@ py
 J
 (
 '
-update_images_test
-.
-py
-'
-)
-      
-J
-(
-'
 update_product_bundles_test
 .
 py

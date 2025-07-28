@@ -143,3 +143,16 @@ true
 use_official_google_api_keys
 =
 false
+#
+ThinLTO
+is
+enabled
+to
+reduce
+the
+binary
+size
+.
+use_thin_lto
+=
+true

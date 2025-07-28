@@ -199,15 +199,12 @@ f
 in
 assets
 if
-f
-.
-endswith
-(
 '
 .
 pak
 '
-)
+in
+f
 ]
 def
 _MergePakInfoFiles

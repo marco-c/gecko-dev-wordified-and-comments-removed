@@ -336,11 +336,15 @@ llvm
 .
 org
 /
-doxygen
+docs
 /
-classclang_1_1VerifyDiagnosticConsumer
+InternalsManual
 .
 html
+#
+specifying
+-
+diagnostics
 .
 #
 #

@@ -1376,13 +1376,13 @@ arch
 '
 /
 '
-"
+'
 /
 {
 target_cpu
 }
 /
-"
+'
 )
     
 target
@@ -1853,7 +1853,7 @@ s
 api
 -
 %
-d
+s
 /
 '
 %
@@ -1948,7 +1948,8 @@ converted
 def
 ConvertNoOp
 (
-json
+*
+_
 )
 :
   
@@ -1973,19 +1974,6 @@ generated
   
 return
 None
-"
-"
-"
-Maps
-manifest
-types
-to
-conversion
-functions
-.
-"
-"
-"
 _CONVERSION_FUNCTION_MAP
 =
 {
@@ -2064,6 +2052,12 @@ ConvertNoOp
     
 '
 documentation
+'
+:
+ConvertNoOp
+    
+'
+experimental_python_e2e_test
 '
 :
 ConvertNoOp
@@ -2451,9 +2445,9 @@ build_path
 gn_file
 )
          
-"
+'
 w
-"
+'
 )
 .
 write

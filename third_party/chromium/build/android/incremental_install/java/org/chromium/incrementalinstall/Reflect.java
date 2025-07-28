@@ -850,6 +850,7 @@ isPrimitive
 )
 {
 return
+(
 left
 =
 =
@@ -864,8 +865,10 @@ rightClazz
 Boolean
 .
 class
+)
 |
 |
+(
 left
 =
 =
@@ -880,6 +883,7 @@ rightClazz
 Integer
 .
 class
+)
 ;
 }
 return

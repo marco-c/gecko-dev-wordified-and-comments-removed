@@ -424,7 +424,7 @@ llvm_force_head_revision
 clang_version
 =
 "
-20
+21
 "
 }
 else
@@ -436,7 +436,7 @@ crbug
 .
 com
 /
-355031922
+392929930
 )
 :
 Remove
@@ -449,7 +449,7 @@ roll
 clang_version
 =
 "
-19
+20
 "
 }
 }

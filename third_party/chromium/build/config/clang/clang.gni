@@ -199,6 +199,9 @@ is_cast_android
 is_mac
 |
 |
+is_ios
+|
+|
 is_win
 |
 |
@@ -265,6 +268,9 @@ is_win
 |
 |
 is_mac
+|
+|
+is_ios
 |
 |
 is_chromeos_lacros

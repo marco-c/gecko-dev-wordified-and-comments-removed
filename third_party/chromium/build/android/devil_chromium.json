@@ -438,6 +438,8 @@ android_build_tools
 /
 bundletool
 /
+cipd
+/
 bundletool
 .
 jar

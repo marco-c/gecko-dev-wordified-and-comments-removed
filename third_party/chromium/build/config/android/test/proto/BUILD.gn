@@ -433,7 +433,7 @@ absolute_root
 proto
 "
 ]
-link_deps
+deps
 =
 [
 "
@@ -489,7 +489,7 @@ relative_root
 proto
 "
 ]
-link_deps
+deps
 =
 [
 "

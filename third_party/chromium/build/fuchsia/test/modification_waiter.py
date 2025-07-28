@@ -112,6 +112,16 @@ traceback
 bool
 :
         
+if
+not
+self
+.
+_path
+:
+            
+return
+False
+        
 last_mod_time
 =
 time

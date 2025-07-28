@@ -211,15 +211,6 @@ deployment
 v8_use_external_startup_data
 =
 false
-enable_nacl
-=
-false
-enable_print_preview
-=
-false
-enable_remoting
-=
-false
 use_alsa
 =
 false
