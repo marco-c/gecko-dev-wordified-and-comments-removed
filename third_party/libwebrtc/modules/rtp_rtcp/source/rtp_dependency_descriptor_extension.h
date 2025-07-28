@@ -12,6 +12,11 @@ bitset
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #

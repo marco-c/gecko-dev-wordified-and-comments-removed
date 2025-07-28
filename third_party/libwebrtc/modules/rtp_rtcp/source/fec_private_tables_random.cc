@@ -11,6 +11,11 @@ fec_private_tables_random
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 {
 #

@@ -6,6 +6,16 @@ define
 MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_PLI_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

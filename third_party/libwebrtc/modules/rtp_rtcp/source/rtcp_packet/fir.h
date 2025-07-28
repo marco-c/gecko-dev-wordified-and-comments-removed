@@ -7,6 +7,16 @@ MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_FIR_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 vector
 >
 #

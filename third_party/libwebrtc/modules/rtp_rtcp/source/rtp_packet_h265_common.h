@@ -7,12 +7,12 @@ MODULES_RTP_RTCP_SOURCE_RTP_PACKET_H265_COMMON_H_
 #
 include
 <
-string
+cstddef
 >
 #
 include
 <
-vector
+cstdint
 >
 namespace
 webrtc

@@ -6,6 +6,11 @@ define
 MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /

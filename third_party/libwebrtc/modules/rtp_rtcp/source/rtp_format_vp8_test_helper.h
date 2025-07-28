@@ -6,6 +6,16 @@ define
 MODULES_RTP_RTCP_SOURCE_RTP_FORMAT_VP8_TEST_HELPER_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /

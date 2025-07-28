@@ -6,6 +6,16 @@ define
 MODULES_RTP_RTCP_SOURCE_ABSOLUTE_CAPTURE_TIME_SENDER_H_
 #
 include
+<
+cstdint
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 api
 /

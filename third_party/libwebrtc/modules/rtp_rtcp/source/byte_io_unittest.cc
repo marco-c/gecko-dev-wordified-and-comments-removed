@@ -14,6 +14,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #

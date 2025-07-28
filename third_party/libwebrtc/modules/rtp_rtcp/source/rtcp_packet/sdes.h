@@ -7,6 +7,16 @@ MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_SDES_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 string
 >
 #

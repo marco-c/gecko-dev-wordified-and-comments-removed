@@ -13,7 +13,7 @@ rtp_rtcp
 /
 include
 /
-flexfec_receiver
+recovered_packet_receiver
 .
 h
 "

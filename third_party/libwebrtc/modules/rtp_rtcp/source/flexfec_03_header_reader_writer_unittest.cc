@@ -21,6 +21,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -73,15 +78,6 @@ rtp_rtcp
 source
 /
 forward_error_correction_internal
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-checks
 .
 h
 "

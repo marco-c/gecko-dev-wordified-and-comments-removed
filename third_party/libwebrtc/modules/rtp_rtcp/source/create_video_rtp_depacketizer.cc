@@ -106,6 +106,15 @@ video_rtp_depacketizer_vp9
 h
 "
 #
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
+#
 ifdef
 RTC_ENABLE_H265
 #

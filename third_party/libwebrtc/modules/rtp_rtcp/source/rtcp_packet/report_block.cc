@@ -15,6 +15,16 @@ h
 "
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

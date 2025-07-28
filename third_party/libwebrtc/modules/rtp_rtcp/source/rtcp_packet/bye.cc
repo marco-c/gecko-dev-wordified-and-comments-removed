@@ -28,7 +28,17 @@ cstdint
 #
 include
 <
+string
+>
+#
+include
+<
 utility
+>
+#
+include
+<
+vector
 >
 #
 include
