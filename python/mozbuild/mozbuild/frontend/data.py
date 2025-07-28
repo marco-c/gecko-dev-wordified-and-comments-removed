@@ -7224,12 +7224,14 @@ required_before_export
 [
                 
 f
+                
 for
 f
 in
 self
 .
-inputs
+outputs
+                
 if
 f
 .
@@ -7237,7 +7239,23 @@ endswith
 (
 "
 .
-jinja
+java
+"
+)
+or
+mozpath
+.
+match
+(
+f
+"
+*
+*
+/
+AndroidManifest
+*
+.
+xml
 "
 )
             
