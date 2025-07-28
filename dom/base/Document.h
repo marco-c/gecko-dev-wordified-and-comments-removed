@@ -974,9 +974,6 @@ class
 nsIPolicyContainer
 ;
 class
-nsIRadioVisitor
-;
-class
 nsIRequest
 ;
 class
