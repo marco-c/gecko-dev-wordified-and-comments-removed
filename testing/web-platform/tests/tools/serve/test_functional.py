@@ -224,9 +224,9 @@ with
 open
 (
 tempfile_name
-'
+"
 w
-'
+"
 )
 as
 handle
