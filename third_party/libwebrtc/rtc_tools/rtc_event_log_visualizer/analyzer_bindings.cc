@@ -664,7 +664,7 @@ SerializeAsString
 ;
 if
 (
-rtc
+webrtc
 :
 :
 checked_cast
@@ -748,7 +748,7 @@ size
 *
 output_size
 =
-rtc
+webrtc
 :
 :
 checked_cast

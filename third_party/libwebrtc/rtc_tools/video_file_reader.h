@@ -105,9 +105,6 @@ iterator_category
 Iterator
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -160,9 +157,6 @@ Iterator
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -214,9 +208,6 @@ operator
 )
 ;
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -270,9 +261,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -288,9 +276,6 @@ const
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -306,9 +291,6 @@ string
 file_name
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -328,9 +310,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video

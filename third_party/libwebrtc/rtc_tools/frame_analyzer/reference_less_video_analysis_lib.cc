@@ -499,7 +499,7 @@ void
 compute_metrics
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -558,7 +558,7 @@ i
 )
 {
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -579,7 +579,7 @@ i
 )
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -679,7 +679,7 @@ double
 >
 ssim_per_frame
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

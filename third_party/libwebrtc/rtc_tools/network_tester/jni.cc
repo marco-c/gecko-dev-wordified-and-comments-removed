@@ -71,7 +71,7 @@ jni
 jclass
 )
 {
-rtc
+webrtc
 :
 :
 ThreadManager
@@ -222,7 +222,7 @@ jlong
 native_pointer
 )
 {
-rtc
+webrtc
 :
 :
 Thread
@@ -284,7 +284,7 @@ delete
 test_controller
 ;
 }
-rtc
+webrtc
 :
 :
 ThreadManager

@@ -612,7 +612,7 @@ test
 ResultsContainer
 results
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -640,7 +640,7 @@ width
 height
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -718,7 +718,7 @@ test_video
 )
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -856,7 +856,7 @@ str
 )
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

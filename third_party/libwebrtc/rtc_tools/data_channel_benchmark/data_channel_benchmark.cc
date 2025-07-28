@@ -475,7 +475,7 @@ result
 auto
 parameters
 =
-rtc
+webrtc
 :
 :
 split
@@ -927,7 +927,7 @@ webrtc
 :
 DataBuffer
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1582,7 +1582,7 @@ Create
 [
 factory
 =
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2057,7 +2057,7 @@ DataChannelClientObserverImpl
 >
 observer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2083,7 +2083,7 @@ SetOnDataChannel
 &
 ]
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2330,7 +2330,7 @@ std
 max
 (
 0
-rtc
+webrtc
 :
 :
 LS_NONE
@@ -2344,7 +2344,7 @@ FLAGS_verbose
 )
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -2354,7 +2354,7 @@ LogToDebug
 (
 static_cast
 <
-rtc
+webrtc
 :
 :
 LoggingSeverity

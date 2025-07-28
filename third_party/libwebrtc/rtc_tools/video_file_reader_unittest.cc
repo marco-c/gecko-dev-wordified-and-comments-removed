@@ -254,9 +254,6 @@ video
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -332,9 +329,6 @@ cnt
 for
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -623,9 +617,6 @@ video
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -701,9 +692,6 @@ cnt
 for
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -175,7 +175,7 @@ void
 CompareFiles
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -191,7 +191,7 @@ Video
 &
 reference_video
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -264,7 +264,7 @@ i
 )
 {
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -285,7 +285,7 @@ i
 )
 ;
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -453,7 +453,7 @@ argc
 argv
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -485,7 +485,7 @@ FLAGS_reference_file
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

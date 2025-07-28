@@ -1330,9 +1330,6 @@ encoder_config
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -1372,9 +1369,6 @@ encoder_config
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -1802,9 +1796,6 @@ RtpGenerator
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1859,9 +1850,6 @@ RtpGenerator
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

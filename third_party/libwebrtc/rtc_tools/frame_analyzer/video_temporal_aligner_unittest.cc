@@ -101,9 +101,6 @@ reference_video
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -118,9 +115,6 @@ VideoTemporalAlignerTest
 FindMatchingFrameIndicesEmpty
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -256,9 +250,6 @@ indices
 2
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -345,9 +336,6 @@ number_of_frames
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -584,9 +572,6 @@ number_of_frames
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -693,9 +678,6 @@ number_of_frames
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -708,9 +690,6 @@ reference_video
 indices
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video

@@ -280,9 +280,6 @@ reference_video_
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -298,9 +295,6 @@ AdjustColorsFrameIdentity
 )
 {
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -396,9 +390,6 @@ data_v
 }
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -421,9 +412,6 @@ data_v
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -582,9 +570,6 @@ data_v
 }
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -607,9 +592,6 @@ data_v
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -738,9 +720,6 @@ data_v
 }
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -763,9 +742,6 @@ data_v
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1010,9 +986,6 @@ small_data_v
 }
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1134,9 +1107,6 @@ i
 10
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -170,9 +170,6 @@ AnalysisResult
 RunAnalysis
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -186,9 +183,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -217,9 +211,6 @@ double
 Psnr
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -227,9 +218,6 @@ I420BufferInterface
 &
 ref_buffer
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -242,9 +230,6 @@ double
 Ssim
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -252,9 +237,6 @@ I420BufferInterface
 &
 ref_buffer
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

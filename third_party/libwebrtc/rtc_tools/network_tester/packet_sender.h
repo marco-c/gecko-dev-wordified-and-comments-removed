@@ -113,9 +113,6 @@ webrtc
 TaskQueueBase
 *
 worker_queue
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -248,9 +245,6 @@ TaskQueueBase
 *
 worker_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

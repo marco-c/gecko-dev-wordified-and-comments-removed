@@ -55,9 +55,6 @@ bottom
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -69,9 +66,6 @@ CropRegion
 &
 crop_region
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -84,9 +78,6 @@ CropRegion
 CalculateCropRegion
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -94,9 +85,6 @@ I420BufferInterface
 &
 reference_frame
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -105,9 +93,6 @@ I420BufferInterface
 test_frame
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -115,9 +100,6 @@ I420BufferInterface
 AdjustCropping
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -125,9 +107,6 @@ I420BufferInterface
 &
 reference_frame
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -136,9 +115,6 @@ I420BufferInterface
 test_frame
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -146,9 +122,6 @@ Video
 AdjustCropping
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -156,9 +129,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video

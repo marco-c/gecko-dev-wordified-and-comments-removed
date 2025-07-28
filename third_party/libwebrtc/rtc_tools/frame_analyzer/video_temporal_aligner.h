@@ -50,9 +50,6 @@ size_t
 FindMatchingFrameIndices
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -60,9 +57,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -71,9 +65,6 @@ Video
 test_video
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -81,9 +72,6 @@ Video
 ReorderVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -102,9 +90,6 @@ size_t
 indices
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -112,9 +97,6 @@ Video
 GenerateAlignedReferenceVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -122,9 +104,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -133,9 +112,6 @@ Video
 test_video
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -143,9 +119,6 @@ Video
 GenerateAlignedReferenceVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
