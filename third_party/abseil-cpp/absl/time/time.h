@@ -6290,6 +6290,8 @@ kTicksPerNanosecond
 )
 ;
 }
+else
+{
 return
 d
 /
@@ -6298,6 +6300,7 @@ Nanoseconds
 1
 )
 ;
+}
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
 constexpr
@@ -6372,6 +6375,8 @@ kTicksPerNanosecond
 )
 ;
 }
+else
+{
 return
 d
 /
@@ -6380,6 +6385,7 @@ Microseconds
 1
 )
 ;
+}
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
 constexpr
@@ -6454,6 +6460,8 @@ kTicksPerNanosecond
 )
 ;
 }
+else
+{
 return
 d
 /
@@ -6462,6 +6470,7 @@ Milliseconds
 1
 )
 ;
+}
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
 constexpr
