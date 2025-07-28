@@ -11667,10 +11667,9 @@ arguments
 propId
 :
 jsid
-getterSetter
+getterSetterValue
 :
-GetterSetter
-*
+ValueOrNurseryValueIndex
 result_type
 :
 Object
