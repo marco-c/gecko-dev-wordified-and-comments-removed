@@ -80,9 +80,6 @@ override
 void
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -118,9 +115,6 @@ kUnsupportedStream
 void
 ParseSlice
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -132,9 +126,6 @@ slice
 Result
 ParseNonParameterSetNalu
 (
-rtc
-:
-:
 ArrayView
 <
 const

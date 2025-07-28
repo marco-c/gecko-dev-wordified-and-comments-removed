@@ -114,9 +114,6 @@ int
 ExtractBuffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -160,9 +157,6 @@ uint8_t
 dst_frame
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -39,9 +39,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -82,9 +79,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I422BufferInterface
@@ -125,9 +119,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I444BufferInterface
@@ -168,9 +159,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420ABufferInterface
@@ -217,9 +205,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PlanarYuvBuffer
@@ -265,9 +250,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I010BufferInterface
@@ -308,9 +290,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210BufferInterface
@@ -351,9 +330,6 @@ void
 no_longer_used
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I410BufferInterface

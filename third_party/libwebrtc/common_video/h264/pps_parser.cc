@@ -98,9 +98,6 @@ PpsParser
 :
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -128,9 +125,6 @@ PpsParser
 :
 ParsePpsIds
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -219,9 +213,6 @@ PpsParser
 :
 ParseSliceHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -321,9 +312,6 @@ PpsParser
 :
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

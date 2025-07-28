@@ -130,9 +130,6 @@ SpsState
 >
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const

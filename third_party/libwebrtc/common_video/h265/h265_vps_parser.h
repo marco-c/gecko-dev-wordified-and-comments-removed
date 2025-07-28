@@ -63,9 +63,6 @@ VpsState
 >
 ParseVps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -96,9 +93,6 @@ length
 return
 ParseVps
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -119,9 +113,6 @@ VpsState
 >
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -276,9 +276,6 @@ int
 ExtractBuffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -724,9 +721,6 @@ uint8_t
 dst_frame
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -805,9 +799,6 @@ dst_video_type
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420ABufferInterface
@@ -824,9 +815,6 @@ int
 target_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -850,9 +838,6 @@ ScaleFrom
 buffer
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -913,9 +898,6 @@ libyuv
 kFilterBox
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420ABufferInterface
@@ -996,9 +978,6 @@ return
 merged_buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1015,9 +994,6 @@ int
 dst_height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1348,9 +1324,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420ABufferInterface
@@ -1805,9 +1778,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2071,9 +2041,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2420,9 +2387,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420ABufferInterface
@@ -2772,9 +2736,6 @@ height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

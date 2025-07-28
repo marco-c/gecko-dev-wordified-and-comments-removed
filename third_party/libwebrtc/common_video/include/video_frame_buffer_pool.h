@@ -143,9 +143,6 @@ VideoFrameBufferPool
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -158,9 +155,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I422Buffer
@@ -173,9 +167,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -188,9 +179,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -203,9 +191,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I210Buffer
@@ -218,9 +203,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I410Buffer
@@ -233,9 +215,6 @@ int
 height
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -262,9 +241,6 @@ Release
 ;
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -290,9 +266,6 @@ std
 :
 list
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

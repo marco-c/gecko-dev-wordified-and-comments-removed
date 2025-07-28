@@ -81,9 +81,6 @@ bool
 sub_layer_ordering_info_present_flag
 bool
 long_term_ref_pics_present_flag
-rtc
-:
-:
 Buffer
 *
 out_buffer
@@ -1511,9 +1508,6 @@ H265
 :
 WriteRbsp
 (
-rtc
-:
-:
 MakeArrayView
 (
 rbsp
@@ -1860,9 +1854,6 @@ H265SpsParserTest
 TestSyntheticSPSQvgaLandscape
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -1941,9 +1932,6 @@ H265SpsParserTest
 TestSyntheticSPSWeirdResolution
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -2022,9 +2010,6 @@ H265SpsParserTest
 TestLog2MaxSubLayersMinus1
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -2230,9 +2215,6 @@ H265SpsParserTest
 TestSubLayerOrderingInfoPresentFlag
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -2397,9 +2379,6 @@ H265SpsParserTest
 TestLongTermRefPicsPresentFlag
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;

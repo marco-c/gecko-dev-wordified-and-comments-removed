@@ -107,9 +107,6 @@ H264BitstreamParser
 :
 ParseNonParameterSetNalu
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1393,9 +1390,6 @@ H264BitstreamParser
 :
 ParseSlice
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1644,9 +1638,6 @@ H264BitstreamParser
 :
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const

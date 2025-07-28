@@ -407,9 +407,6 @@ H265PpsParser
 :
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -445,9 +442,6 @@ H265PpsParser
 :
 ParsePpsIds
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -552,9 +546,6 @@ H265PpsParser
 :
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const
