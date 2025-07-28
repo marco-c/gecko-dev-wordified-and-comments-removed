@@ -2569,6 +2569,12 @@ size_t
 length
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+worker_thread_checker_
+)
+;
 channel_receive_
 -
 >
