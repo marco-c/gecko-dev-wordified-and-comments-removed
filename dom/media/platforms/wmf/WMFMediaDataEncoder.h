@@ -345,6 +345,14 @@ VideoData
 aSample
 )
 ;
+RefPtr
+<
+EncodePromise
+>
+ProcessDrain
+(
+)
+;
 already_AddRefed
 <
 IMFSample
