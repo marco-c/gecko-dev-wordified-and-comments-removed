@@ -456,14 +456,17 @@ org
 mozilla
 "
 minSdkVersion
+=
 config
 .
 minSdkVersion
 compileSdk
+=
 config
 .
 compileSdkVersion
 targetSdkVersion
+=
 config
 .
 targetSdkVersion
@@ -8238,6 +8241,7 @@ buildTypes
 debug
 {
 testCoverageEnabled
+=
 true
 }
 }

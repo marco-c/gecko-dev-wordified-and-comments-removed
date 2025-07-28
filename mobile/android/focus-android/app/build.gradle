@@ -6173,6 +6173,7 @@ buildTypes
 debug
 {
 testCoverageEnabled
+=
 true
 applicationIdSuffix
 "

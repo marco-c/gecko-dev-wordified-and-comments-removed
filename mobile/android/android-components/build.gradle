@@ -1438,6 +1438,7 @@ buildTypes
 debug
 {
 testCoverageEnabled
+=
 true
 }
 }
