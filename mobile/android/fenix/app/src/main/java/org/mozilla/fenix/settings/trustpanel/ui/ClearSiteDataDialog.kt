@@ -261,7 +261,7 @@ FirefoxTheme
 .
 typography
 .
-headline7
+headline5
 )
 }
 text
