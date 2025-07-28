@@ -1783,9 +1783,6 @@ uint8_t
 >
 ToVector
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -6757,9 +6757,6 @@ input_image_
 &
 input_image
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

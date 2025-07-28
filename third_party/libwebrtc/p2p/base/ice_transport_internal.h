@@ -795,9 +795,6 @@ ice_pwd
 ;
 virtual
 const
-cricket
-:
-:
 IceParameters
 *
 local_ice_parameters
@@ -812,9 +809,6 @@ RTC_CHECK_NOTREACHED
 }
 virtual
 const
-cricket
-:
-:
 IceParameters
 *
 remote_ice_parameters

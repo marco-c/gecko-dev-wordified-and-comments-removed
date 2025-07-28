@@ -7669,9 +7669,6 @@ expected_final_state
 |
 (
 !
-rtc
-:
-:
 SSLStreamAdapter
 :
 :
