@@ -3895,6 +3895,16 @@ displayed
 }
 else
 {
+composeTestRule
+.
+waitUntilDoesNotExist
+(
+hasText
+(
+title
+)
+waitingTime
+)
 Log
 .
 i
