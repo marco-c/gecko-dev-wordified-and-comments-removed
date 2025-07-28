@@ -2874,8 +2874,12 @@ nullptr
 mClosed
 -
 >
-MaybeResolveWithUndefined
+MaybeResolve
 (
+MediaKeySessionClosedReason
+:
+:
+Closed_by_application
 )
 ;
 }
