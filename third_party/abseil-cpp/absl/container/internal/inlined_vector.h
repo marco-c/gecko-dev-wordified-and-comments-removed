@@ -1352,7 +1352,11 @@ result
 data
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 Allocation
 <
 A
@@ -2957,6 +2961,7 @@ ValueType
 A
 >
 )
+unsigned
 char
 inlined_data
 [

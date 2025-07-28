@@ -2457,6 +2457,15 @@ scoped_mock_log
 /
 absl
 /
+base
+:
+config
+"
+"
+/
+/
+absl
+/
 log
 /
 internal

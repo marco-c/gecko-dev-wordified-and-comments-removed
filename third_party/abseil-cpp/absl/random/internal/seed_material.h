@@ -36,7 +36,7 @@ absl
 /
 base
 /
-attributes
+config
 .
 h
 "
@@ -136,7 +136,11 @@ nonzero
 "
 )
 ;
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 ReadSeedMaterialFromOSEntropy
 (
@@ -155,7 +159,11 @@ template
 typename
 URBG
 >
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 ReadSeedMaterialFromURBG
 (

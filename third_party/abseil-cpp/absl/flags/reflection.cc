@@ -1713,6 +1713,7 @@ char
 name
 FlagFastTypeId
 type_id
+unsigned
 char
 *
 buf
@@ -1752,14 +1753,7 @@ flag
 :
 new
 (
-static_cast
-<
-void
-*
->
-(
 buf
-)
 )
 flags_internal
 :

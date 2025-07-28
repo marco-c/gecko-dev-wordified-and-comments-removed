@@ -104,6 +104,7 @@ char
 name
 FlagFastTypeId
 type_id
+unsigned
 char
 *
 buf
@@ -175,6 +176,7 @@ alignas
 (
 kRetiredFlagObjAlignment
 )
+unsigned
 char
 buf_
 [

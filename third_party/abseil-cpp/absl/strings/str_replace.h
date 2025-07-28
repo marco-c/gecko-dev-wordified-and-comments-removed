@@ -56,7 +56,11 @@ namespace
 absl
 {
 ABSL_NAMESPACE_BEGIN
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 std
 :
 :

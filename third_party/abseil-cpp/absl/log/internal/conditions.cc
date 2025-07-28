@@ -297,6 +297,11 @@ next_log_time_cycles_
 .
 store
 (
+static_cast
+<
+int64_t
+>
+(
 now_cycles
 +
 seconds
@@ -306,6 +311,7 @@ CycleClock
 :
 Frequency
 (
+)
 )
 std
 :
@@ -343,6 +349,11 @@ next_log_time_cycles_
 compare_exchange_weak
 (
 next_cycles
+static_cast
+<
+int64_t
+>
+(
 now_cycles
 +
 seconds
@@ -352,6 +363,7 @@ CycleClock
 :
 Frequency
 (
+)
 )
 std
 :

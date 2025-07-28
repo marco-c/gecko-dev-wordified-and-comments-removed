@@ -107,7 +107,11 @@ template
 typename
 T
 >
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 T
 DieIfNull
 (

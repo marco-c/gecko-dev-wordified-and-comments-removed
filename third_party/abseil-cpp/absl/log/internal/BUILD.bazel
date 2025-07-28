@@ -2264,6 +2264,10 @@ deps
 =
 [
 "
+:
+fnmatch
+"
+"
 /
 /
 absl
@@ -2302,11 +2306,9 @@ no_destructor
 /
 absl
 /
-log
-/
-internal
+base
 :
-fnmatch
+nullability
 "
 "
 /

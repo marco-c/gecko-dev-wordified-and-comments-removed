@@ -670,13 +670,16 @@ gtest_main
 "
 ]
 )
-cc_test
+cc_binary
 (
 name
 =
 "
 time_benchmark
 "
+testonly
+=
+True
 srcs
 =
 [

@@ -719,7 +719,7 @@ base_internal
 :
 :
 FastTypeIdType
-type
+key_id
 void
 *
 args_tuple
@@ -735,7 +735,7 @@ mocks_
 .
 find
 (
-type
+key_id
 )
 ;
 if

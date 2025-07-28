@@ -374,6 +374,7 @@ alignas
 (
 Callback
 )
+unsigned
 char
 callback_buffer_
 [

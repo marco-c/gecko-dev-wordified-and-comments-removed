@@ -313,11 +313,6 @@ urbg
 >
 InvokeMock
 (
-:
-:
-absl
-:
-:
 base_internal
 :
 :
@@ -361,7 +356,7 @@ URBG
 *
 urbg
 IdType
-type
+key_id
 void
 *
 args_tuple
@@ -376,7 +371,7 @@ urbg
 >
 InvokeMock
 (
-type
+key_id
 args_tuple
 result
 )

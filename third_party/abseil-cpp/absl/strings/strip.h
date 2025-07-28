@@ -196,7 +196,11 @@ return
 true
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 inline
 constexpr
 absl
@@ -244,7 +248,11 @@ return
 str
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 inline
 constexpr
 absl

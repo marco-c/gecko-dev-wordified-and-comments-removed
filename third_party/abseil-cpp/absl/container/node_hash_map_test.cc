@@ -2603,18 +2603,6 @@ i
 ;
 }
 }
-#
-if
-defined
-(
-__cpp_lib_launder
-)
-&
-&
-__cpp_lib_launder
->
-=
-201606
 TEST
 (
 NodeHashMap
@@ -2704,8 +2692,6 @@ mapped
 )
 ;
 }
-#
-endif
 TEST
 (
 NodeHashMap

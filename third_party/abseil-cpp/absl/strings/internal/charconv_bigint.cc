@@ -1102,6 +1102,10 @@ end
 exponent_adjust
 +
 =
+static_cast
+<
+int
+>
 (
 decimal_point
 -

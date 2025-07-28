@@ -218,7 +218,13 @@ interval
 value
 ;
 return
+static_cast
+<
+int64_t
+>
+(
 value
+)
 ;
 }
 int64_t

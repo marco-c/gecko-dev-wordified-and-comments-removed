@@ -103,7 +103,6 @@ ExplicitBarrier
 typename
 Container
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -129,7 +128,6 @@ Container
 typename
 Eq
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -154,7 +152,6 @@ int
 typename
 T
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -183,7 +180,6 @@ T
 typename
 Eq
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -349,7 +345,6 @@ Container
 typename
 Eq
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -1571,7 +1566,6 @@ int
 typename
 Container
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -1624,7 +1618,6 @@ Container
 typename
 Eq
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -1672,7 +1665,6 @@ int
 typename
 T
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :
@@ -1735,7 +1727,6 @@ T
 typename
 Eq
 >
-ABSL_MUST_USE_RESULT
 testing
 :
 :

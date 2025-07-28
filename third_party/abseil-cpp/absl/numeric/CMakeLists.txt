@@ -150,7 +150,15 @@ DEPS
 absl
 :
 :
+config
+absl
+:
+:
 core_headers
+absl
+:
+:
+endian
 PUBLIC
 )
 absl_cc_test

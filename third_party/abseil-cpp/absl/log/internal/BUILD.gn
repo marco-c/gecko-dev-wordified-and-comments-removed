@@ -2505,6 +2505,10 @@ deps
 =
 [
 "
+:
+fnmatch
+"
+"
 /
 /
 third_party
@@ -2573,11 +2577,9 @@ cpp
 /
 absl
 /
-log
-/
-internal
+base
 :
-fnmatch
+nullability
 "
 "
 /

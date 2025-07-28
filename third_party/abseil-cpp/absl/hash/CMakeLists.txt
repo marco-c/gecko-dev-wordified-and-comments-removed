@@ -572,6 +572,10 @@ config
 absl
 :
 :
+core_headers
+absl
+:
+:
 endian
 absl
 :

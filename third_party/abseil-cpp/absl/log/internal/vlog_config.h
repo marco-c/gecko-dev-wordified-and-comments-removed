@@ -58,6 +58,17 @@ absl
 /
 base
 /
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 optimization
 .
 h
@@ -102,6 +113,7 @@ RegisterAndInitialize
 (
 VLogSite
 *
+absl_nonnull
 v
 )
 ;
@@ -142,6 +154,7 @@ VLogSite
 const
 char
 *
+absl_nonnull
 f
 )
 :
@@ -335,6 +348,7 @@ RegisterAndInitialize
 (
 VLogSite
 *
+absl_nonnull
 v
 )
 ;
@@ -435,6 +449,7 @@ stale_v
 const
 char
 *
+absl_nonnull
 const
 file_
 ;
@@ -495,6 +510,7 @@ RegisterAndInitialize
 (
 VLogSite
 *
+absl_nonnull
 v
 )
 ;
@@ -549,10 +565,12 @@ cb
 ;
 VLogSite
 *
+absl_nullable
 SetVModuleListHeadForTestOnly
 (
 VLogSite
 *
+absl_nullable
 v
 )
 ;

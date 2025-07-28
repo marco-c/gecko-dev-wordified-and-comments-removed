@@ -98,6 +98,13 @@ size
 size_
 )
 ;
+if
+(
+to_write
+>
+0
+)
+{
 std
 :
 :
@@ -122,6 +129,7 @@ size_
 =
 to_write
 ;
+}
 total_written_
 +
 =
