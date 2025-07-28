@@ -173,6 +173,11 @@ DominatorTree
 cpp
 "
 "
+EdgeCaseAnalysis
+.
+cpp
+"
+"
 EffectiveAddressAnalysis
 .
 cpp

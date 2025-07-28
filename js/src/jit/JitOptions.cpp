@@ -372,6 +372,12 @@ false
 ;
 SET_DEFAULT
 (
+disableEdgeCaseAnalysis
+false
+)
+;
+SET_DEFAULT
+(
 disableGvn
 false
 )
