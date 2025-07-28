@@ -143,6 +143,11 @@ clearHistoryAndBookmarks
 (
 )
 ;
+await
+clearHighlightsBookmarks
+(
+)
+;
 }
 }
 )
