@@ -525,6 +525,17 @@ clearEssentialDomainMapping
 (
 )
 ;
+[
+implicit_jscontext
+]
+jsval
+parseCacheControlHeader
+(
+in
+ACString
+aCacheControlHeader
+)
+;
 }
 ;
 %
