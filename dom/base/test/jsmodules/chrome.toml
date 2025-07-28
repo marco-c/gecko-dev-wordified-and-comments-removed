@@ -228,13 +228,6 @@ html
 ]
 [
 "
-test_dynamicImport_link_failure
-.
-html
-"
-]
-[
-"
 test_dynamicImportErrorMessage
 .
 html
