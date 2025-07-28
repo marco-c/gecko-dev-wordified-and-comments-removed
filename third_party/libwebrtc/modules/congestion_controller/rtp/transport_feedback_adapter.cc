@@ -1008,10 +1008,7 @@ TransportFeedbackAdapter
 ProcessSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

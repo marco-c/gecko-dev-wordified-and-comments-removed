@@ -1097,9 +1097,6 @@ LossBasedBweV2
 :
 UpdateBandwidthEstimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6748,9 +6745,6 @@ LossBasedBweV2
 :
 PushBackObservation
 (
-rtc
-:
-:
 ArrayView
 <
 const

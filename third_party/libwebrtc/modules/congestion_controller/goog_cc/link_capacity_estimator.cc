@@ -313,9 +313,6 @@ norm
 ;
 deviation_kbps_
 =
-rtc
-:
-:
 SafeClamp
 (
 deviation_kbps_

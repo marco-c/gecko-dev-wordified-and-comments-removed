@@ -685,9 +685,6 @@ SizeIs
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =

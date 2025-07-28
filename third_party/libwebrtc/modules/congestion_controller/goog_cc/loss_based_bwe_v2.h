@@ -239,9 +239,6 @@ max_bitrate
 void
 UpdateBandwidthEstimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -909,9 +906,6 @@ const
 bool
 PushBackObservation
 (
-rtc
-:
-:
 ArrayView
 <
 const
