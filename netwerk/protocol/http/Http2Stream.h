@@ -25,10 +25,10 @@ Http2StreamBase
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 Http2Stream
-override
+Http2StreamBase
 )
 Http2Stream
 (
