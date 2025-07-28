@@ -739,6 +739,11 @@ firefoxVersion
 89
 &
 &
+firefoxVersion
+<
+138
+&
+&
 source
 =
 =
