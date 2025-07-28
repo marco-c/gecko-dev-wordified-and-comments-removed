@@ -144,6 +144,8 @@ ipc
 IPCResult
 RecvInitTRRConnectionInfo
 (
+bool
+aForceReinit
 )
 ;
 mozilla

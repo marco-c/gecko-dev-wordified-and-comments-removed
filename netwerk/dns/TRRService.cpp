@@ -7485,6 +7485,8 @@ TRRService
 :
 InitTRRConnectionInfo
 (
+bool
+aForceReinit
 )
 {
 if
@@ -7499,6 +7501,7 @@ TRRServiceBase
 :
 InitTRRConnectionInfo
 (
+aForceReinit
 )
 ;
 return
@@ -7562,6 +7565,7 @@ child
 >
 SendInitTRRConnectionInfo
 (
+aForceReinit
 )
 ;
 }

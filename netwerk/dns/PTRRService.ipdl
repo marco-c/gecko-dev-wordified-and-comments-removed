@@ -33,6 +33,8 @@ aTopic
 async
 InitTRRConnectionInfo
 (
+bool
+aForceReinit
 )
 ;
 async

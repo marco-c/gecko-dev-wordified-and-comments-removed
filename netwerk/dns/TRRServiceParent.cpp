@@ -1048,10 +1048,13 @@ TRRServiceParent
 :
 RecvInitTRRConnectionInfo
 (
+bool
+aForceReinit
 )
 {
 InitTRRConnectionInfo
 (
+aForceReinit
 )
 ;
 return

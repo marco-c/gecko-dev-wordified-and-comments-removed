@@ -147,6 +147,10 @@ virtual
 void
 InitTRRConnectionInfo
 (
+bool
+aForceReinit
+=
+false
 )
 ;
 bool
