@@ -59,6 +59,7 @@ BufferAccessError
 BufferAccessResult
 BufferMapOperation
 Labeled
+RawResourceAccess
 ResourceErrorIdent
 }
 snatch

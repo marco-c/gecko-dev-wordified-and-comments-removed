@@ -20,6 +20,7 @@ resource
 :
 :
 {
+RawResourceAccess
 Texture
 TextureInner
 TextureView

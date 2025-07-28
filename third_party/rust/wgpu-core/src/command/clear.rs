@@ -90,6 +90,7 @@ InvalidResourceError
 Labeled
 MissingBufferUsageError
 ParentDevice
+RawResourceAccess
 ResourceErrorIdent
 Texture
 TextureClearMode
