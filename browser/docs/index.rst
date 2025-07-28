@@ -312,3 +312,10 @@ sidebar
 docs
 /
 index
+components
+/
+mozcachedohttp
+/
+docs
+/
+index
