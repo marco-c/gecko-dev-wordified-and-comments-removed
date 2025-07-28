@@ -3600,16 +3600,6 @@ UsePrivateBrowsing
 )
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_security_setdocumenturi
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -3633,6 +3623,8 @@ GetIsNullPrincipal
 )
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIPrincipal
@@ -3645,10 +3637,6 @@ mDocumentPrincipal
 GetPrecursorPrincipal
 (
 )
-;
-if
-(
-precursor
 )
 {
 principalURI
@@ -3688,7 +3676,6 @@ URI
 "
 )
 ;
-}
 mDocumentURI
 =
 aDocumentURI
