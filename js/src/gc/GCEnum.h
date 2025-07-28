@@ -412,11 +412,6 @@ MapObjectData
 \
 _
 (
-BigIntDigits
-)
-\
-_
-(
 ScopeData
 )
 \

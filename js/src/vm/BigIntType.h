@@ -576,17 +576,6 @@ next
 )
 ;
 }
-void
-finalize
-(
-JS
-:
-:
-GCContext
-*
-gcx
-)
-;
 js
 :
 :

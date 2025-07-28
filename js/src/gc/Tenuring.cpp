@@ -8179,7 +8179,7 @@ nursery
 (
 )
 .
-maybeMoveNurseryOrMallocBufferOnPromotion
+maybeMoveBufferOnPromotion
 (
 &
 dst
@@ -8188,10 +8188,6 @@ dst
 heapDigits_
 dst
 nbytes
-MemoryUse
-:
-:
-BigIntDigits
 )
 ;
 if
