@@ -2798,11 +2798,15 @@ aNeedle
 .
 generatedColumn
 -
+(
 section
 .
 generatedOffset
 .
 generatedColumn
+-
+1
+)
 )
 ;
 }
