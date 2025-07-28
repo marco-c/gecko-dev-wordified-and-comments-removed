@@ -178,6 +178,12 @@ gfxContext
 *
 mRenderingContext
 ;
+AnchorPosReferencedAnchors
+*
+mReferencedAnchors
+=
+nullptr
+;
 nsMargin
 ComputedPhysicalMargin
 (
@@ -424,6 +430,11 @@ aFrame
 gfxContext
 *
 aRenderingContext
+AnchorPosReferencedAnchors
+*
+aReferencedAnchors
+=
+nullptr
 )
 ;
 SizeComputationInput
@@ -1724,6 +1735,11 @@ aComputeSizeFlags
 =
 {
 }
+AnchorPosReferencedAnchors
+*
+aReferencedAnchors
+=
+nullptr
 )
 ;
 void
@@ -2425,6 +2441,10 @@ mStyleDisplay
 -
 >
 mPosition
+aRI
+-
+>
+mReferencedAnchors
 }
 ;
 }

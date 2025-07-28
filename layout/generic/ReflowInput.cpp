@@ -487,6 +487,9 @@ aFrame
 gfxContext
 *
 aRenderingContext
+AnchorPosReferencedAnchors
+*
+aReferencedAnchors
 )
 :
 mFrame
@@ -496,6 +499,10 @@ aFrame
 mRenderingContext
 (
 aRenderingContext
+)
+mReferencedAnchors
+(
+aReferencedAnchors
 )
 mWritingMode
 (
@@ -872,6 +879,9 @@ StyleSizeOverrides
 aSizeOverrides
 ComputeSizeFlags
 aComputeSizeFlags
+AnchorPosReferencedAnchors
+*
+aReferencedAnchors
 )
 :
 SizeComputationInput
@@ -880,6 +890,7 @@ aFrame
 aParentReflowInput
 .
 mRenderingContext
+aReferencedAnchors
 )
 mParentReflowInput
 (
@@ -1819,6 +1830,7 @@ AnchorPosResolutionParams
 From
 (
 mFrame
+mReferencedAnchors
 )
 )
 mFrame
@@ -14125,6 +14137,7 @@ AnchorPosResolutionParams
 From
 (
 mFrame
+mReferencedAnchors
 )
 ;
 for
