@@ -874,10 +874,10 @@ desktop_capture_options
 .
 h
 index
-4ebd4ccab9
+e9737b4159
 .
 .
-ddf12637a8
+dca0c6386f
 100644
 -
 -
@@ -1021,10 +1021,10 @@ full_screen_window_detector
 (
 )
 -
-242
+248
 6
 +
-250
+256
 7
 class
 RTC_EXPORT

@@ -142,10 +142,10 @@ wgc_capture_session
 .
 cc
 index
-bcdd365189
+b4f9425699
 .
 .
-326bdb5175
+b4a8cbbc29
 100644
 -
 -
@@ -342,7 +342,11 @@ session3
 >
 put_IsBorderRequired
 (
-false
+options
+.
+wgc_require_border
+(
+)
 )
 ;
 }
