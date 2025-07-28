@@ -1351,7 +1351,6 @@ e
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 void
 wgpu_child_resolve_create_shader_module_promise
 (
