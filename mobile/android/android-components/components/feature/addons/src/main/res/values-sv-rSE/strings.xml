@@ -2289,7 +2289,7 @@ mozac_feature_addons_permissions_privacy_description_for_update
 "
 >
 L
-s
+sa
 och
 ndra
 sekretessinst
@@ -2417,7 +2417,8 @@ name
 mozac_feature_addons_permissions_tabs_description_for_update
 "
 >
-ppna
+tkomst
+till
 webbl
 sarens
 flikar
@@ -2543,7 +2544,7 @@ mozac_feature_addons_permissions_bookmarks_description_for_update
 "
 >
 L
-s
+sa
 och
 ndra
 bokm
@@ -2606,7 +2607,7 @@ mozac_feature_addons_permissions_browser_settings_description_for_update
 "
 >
 L
-s
+sa
 och
 ndra
 webbl
@@ -2672,7 +2673,7 @@ mozac_feature_addons_permissions_browsing_data_description_for_update
 >
 Rensa
 senaste
-webbhistoriken
+webbhistorik
 kakor
 och
 relaterad
@@ -2739,7 +2740,7 @@ mta
 data
 fr
 n
-Urklipp
+urklipp
 .
 <
 /
@@ -2923,9 +2924,9 @@ mozac_feature_addons_permissions_declarative_net_request_feedback_description_fo
 "
 >
 L
-s
+sa
 din
-surfhistorik
+webbhistorik
 .
 <
 /
@@ -3120,7 +3121,7 @@ mozac_feature_addons_permissions_find_description_for_update
 >
 L
 sa
-texten
+text
 p
 alla
 ppna
@@ -3245,7 +3246,7 @@ mozac_feature_addons_permissions_history_description_for_update
 >
 tkomst
 till
-webbhistoriken
+webbhistorik
 .
 <
 /
@@ -3304,8 +3305,8 @@ mozac_feature_addons_permissions_management_description_for_update
 "
 >
 vervaka
-ut
-kningsanv
+till
+ggsanv
 ndning
 och
 hantera
@@ -3434,7 +3435,7 @@ mozac_feature_addons_permissions_notifications_description_for_update
 "
 >
 Visa
-avisering
+aviseringar
 till
 dig
 .
