@@ -3510,6 +3510,17 @@ wrapping
 disabled
 '
 '
+ktlint_standard_expression
+-
+operand
+-
+wrapping
+'
+:
+'
+disabled
+'
+'
 ktlint_standard_function
 -
 expression
