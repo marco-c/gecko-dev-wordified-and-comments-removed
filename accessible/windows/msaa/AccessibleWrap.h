@@ -103,11 +103,6 @@ override
 ;
 public
 :
-bool
-IsRootForHWND
-(
-)
-;
 MsaaAccessible
 *
 GetMsaa
