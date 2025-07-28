@@ -835,7 +835,7 @@ return
 aThis
 -
 >
-link_dirty
+mLinkDirty
 ;
 }
 static
@@ -903,7 +903,7 @@ return
 aThis
 -
 >
-chunks_madvised_elem
+mChunksMavisedElim
 ;
 }
 }
@@ -4413,7 +4413,7 @@ old_ndirty
 chunk
 -
 >
-ndirty
+mNumDirty
 ;
 size_t
 run_ind
@@ -4445,7 +4445,7 @@ total_pages
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -4497,7 +4497,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -4532,7 +4532,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4553,7 +4553,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4585,7 +4585,7 @@ need_pages
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4610,7 +4610,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4668,7 +4668,7 @@ extra_commit
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4693,7 +4693,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4773,7 +4773,7 @@ k
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4788,7 +4788,7 @@ bits
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4837,7 +4837,7 @@ Remove
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -4853,7 +4853,7 @@ rem_pages
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4873,7 +4873,7 @@ gPageSize2Pow
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4888,7 +4888,7 @@ gPageSizeMask
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4910,7 +4910,7 @@ gPageSize2Pow
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4932,7 +4932,7 @@ Insert
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -4968,7 +4968,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5018,7 +5018,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5033,7 +5033,7 @@ CHUNK_MAP_DIRTY
 chunk
 -
 >
-ndirty
+mNumDirty
 -
 -
 ;
@@ -5048,7 +5048,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5076,7 +5076,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5106,7 +5106,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5127,7 +5127,7 @@ aLarge
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5146,7 +5146,7 @@ else
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -5172,7 +5172,7 @@ aLarge
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -5188,7 +5188,7 @@ if
 chunk
 -
 >
-ndirty
+mNumDirty
 =
 =
 0
@@ -5270,7 +5270,7 @@ i
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5314,7 +5314,7 @@ gPageSize
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 +
@@ -5377,7 +5377,7 @@ j
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 +
@@ -5460,7 +5460,7 @@ i
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5492,7 +5492,7 @@ gChunkHeaderNumPages
 aChunk
 -
 >
-map
+mPageMap
 [
 gChunkHeaderNumPages
 ]
@@ -5505,7 +5505,7 @@ gMaxLargeClass
 aChunk
 -
 >
-map
+mPageMap
 [
 gChunkNumPages
 -
@@ -5525,7 +5525,7 @@ Insert
 aChunk
 -
 >
-map
+mPageMap
 [
 gChunkHeaderNumPages
 ]
@@ -5567,7 +5567,7 @@ if
 aChunk
 -
 >
-ndirty
+mNumDirty
 >
 0
 )
@@ -5577,7 +5577,7 @@ MOZ_ASSERT
 aChunk
 -
 >
-arena
+mArena
 =
 =
 this
@@ -5596,7 +5596,7 @@ mNumDirty
 aChunk
 -
 >
-ndirty
+mNumDirty
 ;
 mStats
 .
@@ -5606,7 +5606,7 @@ committed
 aChunk
 -
 >
-ndirty
+mNumDirty
 ;
 }
 size_t
@@ -5642,7 +5642,7 @@ MOZ_ASSERT
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5662,7 +5662,7 @@ MOZ_ASSERT
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5681,7 +5681,7 @@ if
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5702,7 +5702,7 @@ if
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -5781,7 +5781,7 @@ IsEmpty
 {
 return
 (
-map
+mPageMap
 [
 gChunkHeaderNumPages
 ]
@@ -5938,7 +5938,7 @@ uintptr_t
 chunk
 -
 >
-map
+mPageMap
 )
 )
 /
@@ -5953,7 +5953,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -6037,7 +6037,7 @@ MOZ_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 gChunkHeaderNumPages
 ]
@@ -6059,7 +6059,7 @@ Insert
 chunk
 -
 >
-map
+mPageMap
 [
 gChunkHeaderNumPages
 ]
@@ -6485,7 +6485,7 @@ ndirty
 chunk
 -
 >
-ndirty
+mNumDirty
 ;
 }
 MOZ_ASSERT
@@ -6542,7 +6542,7 @@ MOZ_ASSERT
 chunk
 -
 >
-ndirty
+mNumDirty
 >
 0
 )
@@ -7128,7 +7128,7 @@ if
 mChunk
 -
 >
-ndirty
+mNumDirty
 =
 =
 0
@@ -7178,7 +7178,7 @@ bits
 mChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -7248,7 +7248,7 @@ MOZ_ASSERT
 mChunk
 -
 >
-map
+mPageMap
 [
 i
 ]
@@ -7332,7 +7332,7 @@ bits
 mChunk
 -
 >
-map
+mPageMap
 [
 mDirtyInd
 +
@@ -7401,7 +7401,7 @@ mDirtyNPages
 mChunk
 -
 >
-ndirty
+mNumDirty
 )
 ;
 MOZ_ASSERT
@@ -7419,7 +7419,7 @@ mDirtyNPages
 mChunk
 -
 >
-map
+mPageMap
 [
 mFreeRunInd
 ]
@@ -7432,7 +7432,7 @@ CHUNK_MAP_BUSY
 mChunk
 -
 >
-map
+mPageMap
 [
 FreeRunLastInd
 (
@@ -7447,7 +7447,7 @@ CHUNK_MAP_BUSY
 mChunk
 -
 >
-ndirty
+mNumDirty
 -
 =
 mDirtyNPages
@@ -7479,7 +7479,7 @@ Remove
 mChunk
 -
 >
-map
+mPageMap
 [
 mFreeRunInd
 ]
@@ -7531,7 +7531,7 @@ MOZ_ASSERT
 mChunk
 -
 >
-map
+mPageMap
 [
 mDirtyInd
 +
@@ -7573,7 +7573,7 @@ endif
 mChunk
 -
 >
-map
+mPageMap
 [
 mDirtyInd
 +
@@ -7594,7 +7594,7 @@ MOZ_ASSERT
 mChunk
 -
 >
-map
+mPageMap
 [
 mFreeRunInd
 ]
@@ -7609,7 +7609,7 @@ MOZ_ASSERT
 mChunk
 -
 >
-map
+mPageMap
 [
 FreeRunLastInd
 (
@@ -7626,7 +7626,7 @@ endif
 mChunk
 -
 >
-map
+mPageMap
 [
 mFreeRunInd
 ]
@@ -7640,7 +7640,7 @@ CHUNK_MAP_BUSY
 mChunk
 -
 >
-map
+mPageMap
 [
 FreeRunLastInd
 (
@@ -7798,7 +7798,7 @@ Insert
 mChunk
 -
 >
-map
+mPageMap
 [
 mFreeRunInd
 ]
@@ -7814,7 +7814,7 @@ make_pair
 mChunk
 -
 >
-ndirty
+mNumDirty
 !
 =
 0
@@ -7866,7 +7866,7 @@ mNumDirty
 mChunk
 -
 >
-ndirty
+mNumDirty
 ;
 mArena
 .
@@ -7878,12 +7878,12 @@ committed
 mChunk
 -
 >
-ndirty
+mNumDirty
 ;
 mChunk
 -
 >
-ndirty
+mNumDirty
 =
 0
 ;
@@ -7913,7 +7913,7 @@ if
 mChunk
 -
 >
-ndirty
+mNumDirty
 !
 =
 0
@@ -8015,7 +8015,7 @@ gChunkNumPages
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8041,7 +8041,7 @@ nrun_size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8061,7 +8061,7 @@ Remove
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8087,7 +8087,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8109,7 +8109,7 @@ nrun_size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8122,7 +8122,7 @@ size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8135,7 +8135,7 @@ gPageSizeMask
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8152,7 +8152,7 @@ size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8178,7 +8178,7 @@ gChunkHeaderNumPages
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 -
@@ -8204,7 +8204,7 @@ prun_size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 -
@@ -8232,7 +8232,7 @@ Remove
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8256,7 +8256,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8274,7 +8274,7 @@ prun_size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8287,7 +8287,7 @@ size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8300,7 +8300,7 @@ gPageSizeMask
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8317,7 +8317,7 @@ size
 aChunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8411,7 +8411,7 @@ if
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8430,7 +8430,7 @@ size
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8499,7 +8499,7 @@ MOZ_DIAGNOSTIC_ASSERT
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8518,7 +8518,7 @@ CHUNK_MAP_DIRTY
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8535,7 +8535,7 @@ if
 chunk
 -
 >
-ndirty
+mNumDirty
 =
 =
 0
@@ -8559,7 +8559,7 @@ chunk
 chunk
 -
 >
-ndirty
+mNumDirty
 +
 =
 run_pages
@@ -8593,7 +8593,7 @@ i
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8615,7 +8615,7 @@ CHUNK_MAP_ALLOCATED
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8628,7 +8628,7 @@ size
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8641,7 +8641,7 @@ gPageSizeMask
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8658,7 +8658,7 @@ size
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 +
@@ -8716,7 +8716,7 @@ Insert
 chunk
 -
 >
-map
+mPageMap
 [
 run_ind
 ]
@@ -8785,7 +8785,7 @@ aNewSize
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -8805,7 +8805,7 @@ CHUNK_MAP_ALLOCATED
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 +
@@ -8896,7 +8896,7 @@ aNewSize
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -8912,7 +8912,7 @@ CHUNK_MAP_ALLOCATED
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 +
@@ -10922,7 +10922,7 @@ MOZ_DIAGNOSTIC_ASSERT
 chunk
 -
 >
-arena
+mArena
 -
 >
 mMagic
@@ -11035,7 +11035,7 @@ mapbits
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -11249,7 +11249,7 @@ return
 mChunk
 -
 >
-arena
+mArena
 ;
 }
 MOZ_RELEASE_ASSERT
@@ -11465,7 +11465,7 @@ MOZ_DIAGNOSTIC_ASSERT
 chunk
 -
 >
-arena
+mArena
 -
 >
 mMagic
@@ -11520,7 +11520,7 @@ mapbits
 chunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -11565,7 +11565,7 @@ gPageSize
 chunk
 -
 >
-arena
+mArena
 -
 >
 mId
@@ -11644,7 +11644,7 @@ mapbits
 chunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -11711,7 +11711,7 @@ size
 chunk
 -
 >
-arena
+mArena
 -
 >
 mId
@@ -11902,7 +11902,7 @@ size
 chunk
 -
 >
-arena
+mArena
 -
 >
 mId
@@ -12229,7 +12229,7 @@ size
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -12325,7 +12325,7 @@ arena
 chunk
 -
 >
-arena
+mArena
 ;
 MOZ_ASSERT
 (
@@ -12440,7 +12440,7 @@ mapelm
 chunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -12923,7 +12923,7 @@ aOldSize
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -12957,7 +12957,7 @@ gChunkNumPages
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 +
@@ -12981,7 +12981,7 @@ CHUNK_MAP_BUSY
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 +
@@ -13045,7 +13045,7 @@ false
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 ]
@@ -13061,7 +13061,7 @@ CHUNK_MAP_ALLOCATED
 aChunk
 -
 >
-map
+mPageMap
 [
 pageind
 +
@@ -17473,7 +17473,7 @@ MOZ_RELEASE_ASSERT
 chunk
 -
 >
-arena
+mArena
 =
 =
 arena
@@ -18058,7 +18058,7 @@ npages
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 +
@@ -18088,7 +18088,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 +
@@ -18108,7 +18108,7 @@ CHUNK_MAP_DECOMMITTED
 aChunk
 -
 >
-map
+mPageMap
 [
 i
 +
