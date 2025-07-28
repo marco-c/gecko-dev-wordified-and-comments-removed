@@ -71,10 +71,6 @@ dependencies
 classpath
 libs
 .
-apilint
-classpath
-libs
-.
 tools
 .
 androidgradle
