@@ -411,12 +411,6 @@ targets
 TOLERATED_DUPES
 =
 {
-    
-"
-time
-"
-:
-2
 }
 class
 VendorRust

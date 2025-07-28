@@ -41,12 +41,6 @@ point2
 }
 ;
 use
-time
-:
-:
-precise_time_ns
-;
-use
 malloc_size_of
 :
 :
@@ -154,7 +148,10 @@ use
 crate
 :
 :
+{
+precise_time_ns
 profiler
+}
 ;
 use
 crate

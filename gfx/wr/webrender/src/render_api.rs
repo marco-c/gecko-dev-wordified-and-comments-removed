@@ -64,12 +64,6 @@ SnapshotImageKey
 }
 ;
 use
-time
-:
-:
-precise_time_ns
-;
-use
 crate
 :
 :
@@ -246,6 +240,12 @@ api_resources
 :
 :
 ApiResources
+;
+use
+crate
+:
+:
+precise_time_ns
 ;
 use
 glyph_rasterizer

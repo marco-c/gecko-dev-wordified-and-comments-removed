@@ -427,7 +427,7 @@ u8
 {
 self
 as
-_
+u8
 }
 pub
 const

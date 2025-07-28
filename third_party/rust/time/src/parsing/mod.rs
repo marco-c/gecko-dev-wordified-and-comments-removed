@@ -285,12 +285,7 @@ bool
 >
 Option
 <
-ParsedItem
-<
-'
-a
-T
->
+Self
 >
 {
 f

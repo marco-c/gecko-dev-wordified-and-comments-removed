@@ -86,7 +86,10 @@ use
 crate
 :
 :
+{
+precise_time_ns
 AsyncPropertySampler
+}
 ;
 use
 crate
@@ -683,12 +686,6 @@ frame_builder
 :
 :
 Frame
-;
-use
-time
-:
-:
-precise_time_ns
 ;
 use
 core

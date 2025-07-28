@@ -633,7 +633,7 @@ per
 Minute
 )
 as
-_
+f64
 {
 Err
 (
@@ -685,7 +685,7 @@ trunc
 (
 )
 as
-_
+u8
 nanosecond
 :
 (
@@ -710,7 +710,7 @@ round
 (
 )
 as
-_
+u32
 }
 )
 }

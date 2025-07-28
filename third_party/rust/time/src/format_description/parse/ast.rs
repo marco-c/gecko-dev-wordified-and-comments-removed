@@ -1074,9 +1074,8 @@ None
 >
 opening_bracket
 .
-to
+to_self
 (
-opening_bracket
 )
 }
 ;
@@ -1121,7 +1120,7 @@ start
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1204,7 +1203,7 @@ end
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1282,7 +1281,7 @@ opening_bracket
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1400,7 +1399,7 @@ end
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1500,7 +1499,7 @@ opening_bracket
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1604,9 +1603,8 @@ unused
 (
 location
 .
-to
+to_self
 (
-location
 )
 .
 error
@@ -1654,7 +1652,7 @@ location
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1773,7 +1771,7 @@ start
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1864,7 +1862,7 @@ start
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1934,7 +1932,7 @@ start
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -1964,7 +1962,7 @@ shrink_to_before
 (
 colon_index
 as
-_
+u32
 )
 )
 _colon
@@ -1979,7 +1977,7 @@ offset
 (
 colon_index
 as
-_
+u32
 )
 )
 value
@@ -1994,7 +1992,7 @@ shrink_to_after
 (
 colon_index
 as
-_
+u32
 )
 )
 }
@@ -2053,7 +2051,7 @@ opening_bracket
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -2223,7 +2221,7 @@ last_location
 .
 byte
 as
-_
+usize
 }
 }
 )
@@ -2310,7 +2308,7 @@ opening_bracket
 .
 byte
 as
-_
+usize
 }
 }
 )
