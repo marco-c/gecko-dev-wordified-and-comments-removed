@@ -2763,13 +2763,6 @@ xhtml
 ]
 [
 "
-test_overscroll_behavior_pref
-.
-html
-"
-]
-[
-"
 test_page_parser
 .
 html
