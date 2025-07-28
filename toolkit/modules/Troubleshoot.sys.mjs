@@ -605,7 +605,6 @@ layout
 .
 css
 .
-dpi
 "
 "
 layout
