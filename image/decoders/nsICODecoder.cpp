@@ -2325,13 +2325,7 @@ mMaskBuffer
 get
 (
 )
-gfx
-:
-:
-SurfaceFormat
-:
-:
-B8G8R8A8
+true
 true
 )
 ;
