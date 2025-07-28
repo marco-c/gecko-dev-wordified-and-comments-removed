@@ -302,7 +302,7 @@ body
 }
 "
 Check
-orginal
+original
 response
 '
 s
@@ -841,7 +841,7 @@ ArrayBuffer
 Cloned
 buffer
 is
-ArrayBufer
+ArrayBuffer
 "
 )
 ;
