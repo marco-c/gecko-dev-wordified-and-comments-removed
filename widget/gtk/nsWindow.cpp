@@ -12015,6 +12015,12 @@ WaylandPopupConfigure
 if
 (
 aMove
+|
+|
+!
+mPopupMoveToRectParams
+.
+mAnchorSet
 )
 {
 mPopupMoveToRectParams
