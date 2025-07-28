@@ -655,6 +655,9 @@ false
 isHTML
 =
 false
+generatedSource
+=
+null
 }
 )
 {
@@ -712,6 +715,7 @@ isWasm
 isHTML
 isPrettyPrinted
 isOriginal
+generatedSource
 }
 ;
 }
@@ -721,6 +725,7 @@ createSourceMapOriginalSource
 (
 id
 url
+generatedSource
 )
 {
 return
@@ -732,6 +737,7 @@ url
 isOriginal
 :
 true
+generatedSource
 }
 )
 ;
@@ -742,6 +748,7 @@ createPrettyPrintOriginalSource
 (
 id
 url
+generatedSource
 )
 {
 return
@@ -756,6 +763,7 @@ true
 isPrettyPrinted
 :
 true
+generatedSource
 }
 )
 ;
