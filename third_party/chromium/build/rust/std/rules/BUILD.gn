@@ -1570,7 +1570,7 @@ compiler_builtins
 .
 1
 .
-85
+87
 /
 src
 /
@@ -1650,7 +1650,7 @@ compiler_builtins
 .
 1
 .
-85
+87
 /
 src
 /
@@ -1671,7 +1671,7 @@ cargo_pkg_version
 .
 1
 .
-85
+87
 "
 cargo_pkg_authors
 =
@@ -6922,19 +6922,11 @@ deps
 [
 "
 :
-cfg_if
-"
-"
-:
 core
 "
 "
 :
 getopts
-"
-"
-:
-libc
 "
 "
 :
