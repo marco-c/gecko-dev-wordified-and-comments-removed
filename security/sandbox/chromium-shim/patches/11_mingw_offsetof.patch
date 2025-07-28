@@ -291,11 +291,6 @@ NUMBER_PARAMS
 )
 ]
 ;
-DISALLOW_COPY_AND_ASSIGN
-(
-ActualCallParams
-)
-;
 +
 +
 friend
