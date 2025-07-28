@@ -463,7 +463,7 @@ fenix
 .
 iconpicker
 .
-GroupTitle
+IconBackground
 import
 org
 .
@@ -473,7 +473,7 @@ fenix
 .
 iconpicker
 .
-IconBackground
+IconGroupTitle
 import
 org
 .
@@ -629,7 +629,7 @@ groupedIconOptions
 :
 Map
 <
-GroupTitle
+IconGroupTitle
 List
 <
 AppIcon
@@ -814,7 +814,7 @@ AppIconGroupHeader
 (
 title
 :
-GroupTitle
+IconGroupTitle
 )
 {
 Text

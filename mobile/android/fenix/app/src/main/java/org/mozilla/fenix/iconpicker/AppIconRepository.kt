@@ -151,7 +151,7 @@ groupedAppIcons
 :
 Map
 <
-GroupTitle
+IconGroupTitle
 List
 <
 AppIcon
@@ -233,7 +233,7 @@ groupedAppIcons
 :
 Map
 <
-GroupTitle
+IconGroupTitle
 List
 <
 AppIcon
@@ -245,7 +245,7 @@ get
 =
 mapOf
 (
-GroupTitle
+IconGroupTitle
 (
 R
 .
@@ -281,7 +281,7 @@ AppIcon
 .
 AppSolidPurpleDark
 )
-GroupTitle
+IconGroupTitle
 (
 R
 .
@@ -314,7 +314,7 @@ AppIcon
 .
 AppGradientNorthernLights
 )
-GroupTitle
+IconGroupTitle
 (
 R
 .

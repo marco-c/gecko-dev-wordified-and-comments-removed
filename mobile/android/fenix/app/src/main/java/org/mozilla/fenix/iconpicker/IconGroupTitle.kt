@@ -77,7 +77,8 @@ StringRes
 Type
 that
 represents
-a
+an
+icon
 group
 title
 in
@@ -102,7 +103,7 @@ title
 /
 data
 class
-GroupTitle
+IconGroupTitle
 (
 param
 :
