@@ -286,12 +286,6 @@ rules
             
 continue
         
-pref
-=
-p
-.
-pref
-        
 if
 p
 .
@@ -306,33 +300,6 @@ alias
 :
             
 if
-p
-.
-method
-=
-=
-"
-MozAppearance
-"
-:
-                
-pref
-=
-"
-layout
-.
-css
-.
-moz
--
-appearance
-.
-webidl
-.
-enabled
-"
-            
-elif
 p
 .
 pref
@@ -403,6 +370,8 @@ NonSystem
 ]
         
 if
+p
+.
 pref
 !
 =
@@ -447,7 +416,20 @@ IsBackdropFilterAvailable
 '
 )
             
-else
+elif
+p
+.
+method
+not
+in
+[
+"
+MozTransform
+"
+"
+MozTransformOrigin
+"
+]
 :
                 
 extendedAttrs
@@ -463,6 +445,8 @@ s
 "
 '
 %
+p
+.
 pref
 )
         
