@@ -74,10 +74,7 @@ std
 :
 function
 <
-cricket
-:
-:
-IceTransportState
+IceTransportStateInternal
 (
 )
 >

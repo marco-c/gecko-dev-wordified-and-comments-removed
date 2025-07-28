@@ -1714,10 +1714,7 @@ ice_transport_state_func_
 )
 =
 =
-cricket
-:
-:
-IceTransportState
+IceTransportStateInternal
 :
 :
 STATE_COMPLETED

@@ -495,9 +495,6 @@ msg
 void
 HandleChannelData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -616,10 +613,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )
@@ -880,9 +874,6 @@ virtual
 void
 ReceivedChannelData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1280,10 +1271,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )
@@ -1328,9 +1316,6 @@ HandleStunMessage
 TurnServerConnection
 *
 conn
-rtc
-:
-:
 ArrayView
 <
 const

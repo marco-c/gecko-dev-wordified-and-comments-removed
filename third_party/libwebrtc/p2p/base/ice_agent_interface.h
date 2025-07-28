@@ -113,9 +113,6 @@ virtual
 void
 ForgetLearnedStateForConnections
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -158,9 +155,6 @@ virtual
 bool
 PruneConnections
 (
-rtc
-:
-:
 ArrayView
 <
 const

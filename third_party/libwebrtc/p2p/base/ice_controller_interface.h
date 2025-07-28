@@ -309,9 +309,6 @@ connection
 0
 ;
 virtual
-rtc
-:
-:
 ArrayView
 <
 const
@@ -334,9 +331,6 @@ return
 ;
 }
 virtual
-rtc
-:
-:
 ArrayView
 <
 const

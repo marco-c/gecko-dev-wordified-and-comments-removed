@@ -155,9 +155,6 @@ DefaultIceTransportFactory
 =
 default
 ;
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

@@ -291,10 +291,7 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -416,10 +413,7 @@ return
 res
 ;
 }
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 sent_packet
 (
 options
@@ -452,9 +446,6 @@ AsyncStunTCPSocket
 :
 ProcessInput
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -541,10 +532,7 @@ return
 processed_bytes
 ;
 }
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 received_packet
 (
 data

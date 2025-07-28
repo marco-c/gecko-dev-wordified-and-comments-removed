@@ -575,9 +575,6 @@ server_
 .
 AddInternalSocket
 (
-rtc
-:
-:
 AsyncUDPSocket
 :
 :
@@ -656,16 +653,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLAdapterFactory
 >
 ssl_adapter_factory
 =
-rtc
-:
-:
 SSLAdapterFactory
 :
 :

@@ -280,15 +280,9 @@ kIceConnectionCompleted
 struct
 IceTransportStats
 {
-cricket
-:
-:
 CandidateStatsList
 candidate_stats_list
 ;
-cricket
-:
-:
 ConnectionInfos
 connection_infos
 ;
@@ -1364,9 +1358,6 @@ IceTransportInternal
 const
 StunDictionaryView
 &
-rtc
-:
-:
 ArrayView
 <
 uint16_t
