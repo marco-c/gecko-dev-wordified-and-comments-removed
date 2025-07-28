@@ -1779,6 +1779,7 @@ MOZ_UPDATE_CHANNEL
 return
 suffix
 }
+abstract
 class
 MachExec
 extends
