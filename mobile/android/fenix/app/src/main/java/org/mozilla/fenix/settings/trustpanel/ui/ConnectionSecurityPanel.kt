@@ -368,16 +368,6 @@ isNotEmpty
 )
 )
 {
-Divider
-(
-color
-=
-FirefoxTheme
-.
-colors
-.
-borderSecondary
-)
 MenuTextItem
 (
 label
@@ -425,7 +415,7 @@ FirefoxTheme
 .
 colors
 .
-layer3
+layer2
 )
 )
 {
