@@ -2305,7 +2305,7 @@ R
 .
 string
 .
-browser_menu_default_banner_subtitle
+browser_menu_default_banner_subtitle_2
 )
 )
 .
