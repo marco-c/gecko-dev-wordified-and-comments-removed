@@ -2253,7 +2253,13 @@ resolver
 (
 IPCProfileAndAdditionalInformation
 {
+std
+:
+:
+move
+(
 shmem
+)
 Some
 (
 ProfileGenerationAdditionalInformation
