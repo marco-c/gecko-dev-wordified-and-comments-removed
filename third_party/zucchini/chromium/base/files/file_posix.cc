@@ -327,6 +327,13 @@ length
 #
 endif
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 int
 CallFutimes
 (
@@ -429,6 +436,8 @@ times
 #
 endif
 }
+#
+endif
 #
 if
 !
@@ -2236,6 +2245,13 @@ length
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 bool
 File
 :
@@ -2313,6 +2329,8 @@ times
 )
 ;
 }
+#
+endif
 bool
 File
 :

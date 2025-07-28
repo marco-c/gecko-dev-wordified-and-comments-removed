@@ -1,0 +1,17 @@
+#
+ifndef
+TESTING_GTEST_INCLUDE_GTEST_GTEST_H_
+#
+define
+TESTING_GTEST_INCLUDE_GTEST_GTEST_H_
+#
+include
+"
+gtest
+/
+gtest
+.
+h
+"
+#
+endif
