@@ -274,9 +274,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-rtc
-:
-:
 ArrayView
 <
 const
@@ -460,9 +457,6 @@ packet
 void
 CreateProbeClusters
 (
-rtc
-:
-:
 ArrayView
 <
 const

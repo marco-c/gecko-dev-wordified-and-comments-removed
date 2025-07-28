@@ -141,15 +141,9 @@ unwrapped_sequence_number
 Timestamp
 arrival_time
 ;
-rtc
-:
-:
 EcnMarking
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :

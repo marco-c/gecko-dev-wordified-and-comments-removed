@@ -244,14 +244,8 @@ uint16_t
 seq
 =
 1
-rtc
-:
-:
 EcnMarking
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -1628,9 +1622,6 @@ SizeIs
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1924,9 +1915,6 @@ CurrentTime
 false
 1
 2
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -1962,9 +1950,6 @@ packet_2
 .
 set_ecn
 (
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -2092,9 +2077,6 @@ packets
 ]
 .
 ecn
-rtc
-:
-:
 EcnMarking
 :
 :
