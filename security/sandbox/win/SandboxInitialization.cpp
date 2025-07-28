@@ -524,7 +524,14 @@ DEBUG
 )
 )
 return
-false
+!
+!
+getenv
+(
+"
+MOZ_RUN_GTEST
+"
+)
 ;
 #
 else
