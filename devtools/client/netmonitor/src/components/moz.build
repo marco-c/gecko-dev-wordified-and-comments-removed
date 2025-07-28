@@ -120,11 +120,6 @@ SecurityState
 js
 "
 "
-SourceEditor
-.
-js
-"
-"
 StatisticsPanel
 .
 js
