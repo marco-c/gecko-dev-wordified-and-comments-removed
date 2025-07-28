@@ -152,6 +152,10 @@ FrontendContext
 *
 fc
 const
+InitialStencilAndDelazifications
+&
+stencils
+const
 frontend
 :
 :
@@ -172,6 +176,7 @@ frontend
 ScriptStencilRef
 scriptRef
 {
+stencils
 stencil
 index
 }
@@ -279,6 +284,7 @@ toFunction
 ScriptStencilRef
 innerScriptRef
 {
+stencils
 stencil
 innerScriptIndex
 }
@@ -332,6 +338,7 @@ if
 add
 (
 fc
+stencils
 stencil
 innerScriptIndex
 )
@@ -974,6 +981,8 @@ add
 (
 &
 fc_
+*
+stencils
 borrow
 topLevel
 )
@@ -1204,6 +1213,8 @@ add
 (
 &
 fc_
+*
+stencils_
 borrow
 scriptIndex
 )

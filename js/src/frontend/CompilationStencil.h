@@ -414,6 +414,9 @@ namespace
 frontend
 {
 struct
+InitialStencilAndDelazifications
+;
+struct
 CompilationInput
 ;
 struct
@@ -442,6 +445,11 @@ FakeStencilGlobalScope
 struct
 ScopeStencilRef
 {
+const
+InitialStencilAndDelazifications
+&
+stencils_
+;
 const
 CompilationStencil
 &
@@ -514,6 +522,10 @@ global
 InputScope
 (
 const
+InitialStencilAndDelazifications
+&
+stencils
+const
 CompilationStencil
 &
 context
@@ -525,6 +537,7 @@ scope_
 (
 ScopeStencilRef
 {
+stencils
 context
 scopeIndex
 }
@@ -958,6 +971,9 @@ ScopeStencilRef
 {
 ref
 .
+stencils_
+ref
+.
 context_
 scope
 .
@@ -1143,6 +1159,9 @@ ScopeStencilRef
 {
 ref
 .
+stencils_
+ref
+.
 context_
 scope
 .
@@ -1294,6 +1313,11 @@ struct
 ScriptStencilRef
 {
 const
+InitialStencilAndDelazifications
+&
+stencils_
+;
+const
 CompilationStencil
 &
 context_
@@ -1360,6 +1384,10 @@ ptr
 InputScript
 (
 const
+InitialStencilAndDelazifications
+&
+stencils
+const
 CompilationStencil
 &
 context
@@ -1371,6 +1399,7 @@ script_
 (
 ScriptStencilRef
 {
+stencils
 context
 scriptIndex
 }
@@ -1716,6 +1745,9 @@ lazyFunctionEnclosingScopeIndex
 return
 InputScope
 (
+ref
+.
+stencils_
 ref
 .
 context_
@@ -3335,6 +3367,11 @@ enclosingScope
 void
 initFromStencil
 (
+const
+InitialStencilAndDelazifications
+&
+stencils
+const
 CompilationStencil
 &
 context
@@ -3356,6 +3393,7 @@ lazy_
 =
 InputScript
 (
+stencils
 context
 scriptIndex
 )
@@ -8903,6 +8941,9 @@ hasEnclosing
 return
 InputScope
 (
+ref
+.
+stencils_
 ref
 .
 context_

@@ -8868,6 +8868,9 @@ inner
 {
 lazy
 .
+stencils_
+lazy
+.
 context_
 lazy
 .

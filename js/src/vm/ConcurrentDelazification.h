@@ -107,6 +107,14 @@ frontend
 :
 ScriptIndex
 ;
+using
+InitialStencilAndDelazifications
+=
+frontend
+:
+:
+InitialStencilAndDelazifications
+;
 virtual
 ~
 DelazifyStrategy
@@ -172,6 +180,10 @@ add
 FrontendContext
 *
 fc
+const
+InitialStencilAndDelazifications
+&
+stencils
 const
 frontend
 :
