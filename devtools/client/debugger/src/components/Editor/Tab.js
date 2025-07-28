@@ -124,6 +124,7 @@ import
 getDisplayPath
 getFileURL
 getTruncatedFileName
+isPretty
 }
 from
 "
@@ -350,6 +351,14 @@ source
 .
 id
 ;
+const
+isPrettyCode
+=
+isPretty
+(
+source
+)
+;
 function
 onClickClose
 (
@@ -410,9 +419,7 @@ active
 isActive
 pretty
 :
-source
-.
-isPrettyPrinted
+isPrettyCode
 blackboxed
 :
 this
@@ -508,6 +515,9 @@ source
 sourceActor
 }
 )
+forTab
+:
+true
 }
 )
 div

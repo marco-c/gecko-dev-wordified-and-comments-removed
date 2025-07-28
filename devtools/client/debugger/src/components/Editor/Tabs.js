@@ -136,6 +136,7 @@ tabs
 ;
 import
 {
+isPretty
 getFileURL
 }
 from
@@ -726,9 +727,10 @@ source
 {
 if
 (
+isPretty
+(
 source
-.
-isPrettyPrinted
+)
 )
 {
 return

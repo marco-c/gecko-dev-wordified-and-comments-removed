@@ -99,11 +99,6 @@ prettyPrint
 js
 "
 "
-removeSources
-.
-js
-"
-"
 select
 .
 js
