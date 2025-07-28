@@ -279,15 +279,7 @@ ev
 TimeStamp
 when
 )
-{
-sStartupTimeline
-[
-ev
-]
-=
-when
 ;
-}
 static
 void
 RecordOnce
