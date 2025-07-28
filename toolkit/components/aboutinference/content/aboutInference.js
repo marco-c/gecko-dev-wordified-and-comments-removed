@@ -4660,7 +4660,7 @@ detail
 ;
 const
 {
-model
+name
 revision
 }
 =
@@ -4675,6 +4675,8 @@ deleteModels
 (
 {
 model
+:
+name
 revision
 }
 )
