@@ -352,7 +352,7 @@ class
 VideoRenderer
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -397,7 +397,7 @@ frame
 )
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -445,7 +445,7 @@ int
 height
 )
 ;
-rtc
+webrtc
 :
 :
 Buffer
@@ -461,7 +461,7 @@ GtkMainWnd
 *
 main_wnd_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -551,7 +551,7 @@ height_
 =
 0
 ;
-rtc
+webrtc
 :
 :
 Buffer

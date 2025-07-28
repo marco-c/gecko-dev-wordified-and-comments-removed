@@ -577,7 +577,7 @@ SetSessionDescriptionObserver
 public
 :
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -589,7 +589,7 @@ Create
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -864,7 +864,7 @@ VideoTrackSource
 public
 :
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -908,7 +908,7 @@ Start
 )
 ;
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -963,7 +963,7 @@ capturer
 }
 private
 :
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -1130,7 +1130,7 @@ get
 {
 signaling_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -1387,7 +1387,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1727,7 +1727,7 @@ Conductor
 :
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1744,7 +1744,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1804,7 +1804,7 @@ Conductor
 :
 OnRemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2463,7 +2463,7 @@ std
 string
 json_object
 ;
-rtc
+webrtc
 :
 :
 GetStringFromJsonObject
@@ -2597,7 +2597,7 @@ sdp
 if
 (
 !
-rtc
+webrtc
 :
 :
 GetStringFromJsonObject
@@ -2789,7 +2789,7 @@ sdp
 if
 (
 !
-rtc
+webrtc
 :
 :
 GetStringFromJsonObject
@@ -2802,7 +2802,7 @@ sdp_mid
 |
 |
 !
-rtc
+webrtc
 :
 :
 GetIntFromJsonObject
@@ -2815,7 +2815,7 @@ sdp_mlineindex
 |
 |
 !
-rtc
+webrtc
 :
 :
 GetStringFromJsonObject
@@ -3231,7 +3231,7 @@ empty
 return
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3254,7 +3254,7 @@ peer_connection_factory_
 >
 CreateAudioSource
 (
-cricket
+webrtc
 :
 :
 AudioOptions
@@ -3321,7 +3321,7 @@ message
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3344,7 +3344,7 @@ if
 video_device
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

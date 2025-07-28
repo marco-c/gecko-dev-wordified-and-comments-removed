@@ -83,7 +83,7 @@ jvm
 ;
 RTC_CHECK
 (
-rtc
+webrtc
 :
 :
 InitializeSSL
@@ -123,7 +123,7 @@ reserved
 {
 RTC_CHECK
 (
-rtc
+webrtc
 :
 :
 CleanupSSL

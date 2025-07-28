@@ -2408,7 +2408,7 @@ rendered_track_
 AddOrUpdateSink
 (
 this
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -2519,7 +2519,7 @@ gdk_threads_enter
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

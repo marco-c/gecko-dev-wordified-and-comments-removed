@@ -3738,7 +3738,7 @@ rendered_track_
 AddOrUpdateSink
 (
 this
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -3906,7 +3906,7 @@ lock
 this
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

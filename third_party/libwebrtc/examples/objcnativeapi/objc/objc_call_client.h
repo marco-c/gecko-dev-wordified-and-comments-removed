@@ -151,7 +151,7 @@ override
 void
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -271,7 +271,7 @@ PCObserver
 >
 pc_observer_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -292,7 +292,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -308,7 +308,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -324,7 +324,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -340,7 +340,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -357,7 +357,7 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -379,7 +379,7 @@ webrtc
 Mutex
 pc_mutex_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

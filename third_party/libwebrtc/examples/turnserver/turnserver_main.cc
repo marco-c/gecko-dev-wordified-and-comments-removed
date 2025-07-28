@@ -593,7 +593,7 @@ server
 AddInternalSocket
 (
 int_socket
-cricket
+webrtc
 :
 :
 PROTO_UDP

@@ -249,7 +249,7 @@ override
 void
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -266,7 +266,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -285,7 +285,7 @@ override
 void
 OnRemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -302,7 +302,7 @@ override
 void
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -534,7 +534,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -550,7 +550,7 @@ task_queue_factory_
 =
 nullptr
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -562,7 +562,7 @@ PeerConnectionInterface
 >
 peer_connection_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
