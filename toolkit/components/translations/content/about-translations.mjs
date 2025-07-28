@@ -70,6 +70,8 @@ actor
 .
 /
 /
+about
+-
 translations
 .
 mjs
