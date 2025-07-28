@@ -346,7 +346,6 @@ Record
 PartialEq
 Deserialize
 Clone
-Default
 )
 ]
 pub
@@ -375,6 +374,15 @@ Option
 <
 String
 >
+#
+[
+uniffi
+(
+default
+=
+None
+)
+]
 pub
 display_name
 :
