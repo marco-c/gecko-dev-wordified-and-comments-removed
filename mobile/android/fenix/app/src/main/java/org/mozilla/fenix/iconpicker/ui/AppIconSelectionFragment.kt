@@ -314,7 +314,7 @@ updateAppIcon
 currentAliasSuffix
 =
 currentAliasSuffix
-updateAliasSuffix
+newAliasSuffix
 =
 selectedAppIcon
 .
@@ -331,7 +331,7 @@ updateAppIcon
 currentAliasSuffix
 :
 String
-updateAliasSuffix
+newAliasSuffix
 :
 String
 )
@@ -379,7 +379,7 @@ this
 "
 packageName
 .
-updateAliasSuffix
+newAliasSuffix
 "
 )
 )
