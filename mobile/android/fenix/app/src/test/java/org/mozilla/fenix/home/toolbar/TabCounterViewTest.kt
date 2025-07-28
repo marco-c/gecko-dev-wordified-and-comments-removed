@@ -387,7 +387,7 @@ AppStore
 private
 lateinit
 var
-modeDidChange
+onModeChange
 :
 (
 BrowsingMode
@@ -437,7 +437,7 @@ relaxed
 =
 true
 )
-modeDidChange
+onModeChange
 =
 mockk
 (
@@ -469,13 +469,9 @@ BrowserStore
 settings
 =
 settings
-modeDidChange
+onModeChange
 =
-modeDidChange
-updateAppStateMode
-=
-{
-}
+onModeChange
 )
 }
 Test

@@ -6892,15 +6892,7 @@ browserStore
 settings
 =
 settings
-modeDidChange
-=
-mockk
-(
-relaxed
-=
-true
-)
-updateAppStateMode
+onModeChange
 =
 {
 updatedMode
