@@ -1,11 +1,11 @@
 import
 os
 import
-os
-.
-path
-import
 sys
+from
+pathlib
+import
+Path
 from
 subprocess
 import
@@ -43,6 +43,18 @@ MOZ_AUTOMATION
 1
 "
 )
+MOZ_FETCHES_DIR
+=
+os
+.
+getenv
+(
+"
+MOZ_FETCHES_DIR
+"
+"
+"
+)
 pytest
 .
 mark
@@ -53,9 +65,24 @@ skip_mozinfo
 tsan
 "
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+relaunch
+"
+[
+1
+5
+]
+)
 def
 test_grizzly_smoke
 (
+relaunch
 )
 :
     
@@ -76,25 +103,85 @@ replace
 "
 MOZ_FETCHES_DIR
 "
+MOZ_FETCHES_DIR
+)
+.
+strip
+(
+'
+"
+'
+)
+    
+mdsw_path
+=
+Path
+(
+MOZ_FETCHES_DIR
+)
+/
+"
+minidump
+-
+stackwalk
+"
+    
+if
+MOZ_FETCHES_DIR
+and
+mdsw_path
+.
+is_dir
+(
+)
+:
+        
+path
+=
 os
 .
 getenv
 (
 "
-MOZ_FETCHES_DIR
+PATH
 "
 "
 "
-)
 )
 .
-strip
+split
 (
+os
+.
+pathsep
+)
         
-'
+path
+.
+append
+(
+str
+(
+mdsw_path
+)
+)
+        
+os
+.
+environ
+[
 "
-'
-    
+PATH
+"
+]
+=
+os
+.
+pathsep
+.
+join
+(
+path
 )
     
 if
@@ -116,22 +203,13 @@ mozinstall
 install
 (
             
-os
-.
-path
-.
-join
+str
 (
-os
-.
-getenv
+Path
 (
-"
 MOZ_FETCHES_DIR
-"
-"
-"
 )
+/
 "
 target
 .
@@ -139,16 +217,7 @@ dmg
 "
 )
             
-os
-.
-getenv
-(
-"
 MOZ_FETCHES_DIR
-"
-"
-"
-)
         
 )
     
@@ -157,15 +226,15 @@ MOZ_AUTOMATION
 :
         
 assert
-os
-.
-path
-.
-exists
+Path
 (
             
 ffbin
         
+)
+.
+exists
+(
 )
 "
 Missing
@@ -181,13 +250,13 @@ GECKO_BINARY_PATH
     
 elif
 not
-os
-.
-path
+Path
+(
+ffbin
+)
 .
 exists
 (
-ffbin
 )
 :
         
@@ -274,9 +343,10 @@ limit
 relaunch
 "
             
-"
-5
-"
+str
+(
+relaunch
+)
         
 ]
     
