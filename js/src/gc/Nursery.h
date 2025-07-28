@@ -2186,6 +2186,9 @@ allocStringsOut
 bool
 *
 allocBigIntsOut
+bool
+*
+allocGetterSettersOut
 )
 ;
 void

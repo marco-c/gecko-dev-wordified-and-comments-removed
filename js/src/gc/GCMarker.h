@@ -1950,7 +1950,7 @@ source
 gc
 :
 :
-TenuredCell
+Cell
 *
 target
 )

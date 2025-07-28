@@ -1003,6 +1003,10 @@ allocNurseryBigInts_
 (
 true
 )
+allocNurseryGetterSetters_
+(
+true
+)
 pretenuring
 (
 this

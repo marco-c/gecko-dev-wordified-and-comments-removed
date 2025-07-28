@@ -59,7 +59,7 @@ constexpr
 size_t
 NurseryTraceKinds
 =
-3
+4
 ;
 static
 constexpr
