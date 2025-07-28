@@ -391,7 +391,7 @@ dns
 -
 https
 -
-rr
+rrs
 -
 lookup
 -
@@ -399,7 +399,7 @@ table
 -
 column
 =
-HTTP
+HTTPS
 RRs
 about
 -
