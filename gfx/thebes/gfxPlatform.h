@@ -2818,6 +2818,13 @@ InitPlatformHardwareVideoConfig
 )
 {
 }
+virtual
+void
+InitPlatformHardwarDRMConfig
+(
+)
+{
+}
 static
 void
 ReportTelemetry
