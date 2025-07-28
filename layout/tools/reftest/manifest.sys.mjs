@@ -4190,8 +4190,14 @@ sandbox
 .
 xulRuntime
 =
+Cu
+.
+cloneInto
+(
 {
 }
+sandbox
+)
 ;
 /
 /
