@@ -288,6 +288,16 @@ pub
 mod
 option
 {
+#
+[
+allow
+(
+clippy
+:
+:
+wildcard_imports
+)
+]
 use
 super
 :

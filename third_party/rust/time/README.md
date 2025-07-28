@@ -9,8 +9,6 @@ rustc
 1
 .
 67
-.
-1
 ]
 (
 https
@@ -32,8 +30,6 @@ minimum
 1
 .
 67
-.
-1
 -
 yellowgreen
 ?

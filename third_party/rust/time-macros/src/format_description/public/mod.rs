@@ -39,6 +39,13 @@ to_tokens
 :
 ToTokenStream
 ;
+#
+[
+allow
+(
+variant_size_differences
+)
+]
 pub
 (
 crate

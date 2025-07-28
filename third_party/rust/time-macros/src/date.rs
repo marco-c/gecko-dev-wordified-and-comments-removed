@@ -574,6 +574,16 @@ chars
 )
 ?
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+branches_sharing_code
+)
+]
 if
 consume_punct
 (

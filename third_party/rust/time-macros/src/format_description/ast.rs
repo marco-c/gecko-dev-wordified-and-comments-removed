@@ -1589,7 +1589,7 @@ shrink_to_before
 (
 colon_index
 as
-u32
+_
 )
 )
 _colon
@@ -1604,7 +1604,7 @@ offset
 (
 colon_index
 as
-u32
+_
 )
 )
 value
@@ -1619,7 +1619,7 @@ shrink_to_after
 (
 colon_index
 as
-u32
+_
 )
 )
 }

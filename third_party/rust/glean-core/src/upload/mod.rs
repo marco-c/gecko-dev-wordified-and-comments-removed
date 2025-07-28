@@ -3074,10 +3074,10 @@ UploadResult
 let
 stop_time
 =
-zeitstempel
+time
 :
 :
-now
+precise_time_ns
 (
 )
 ;

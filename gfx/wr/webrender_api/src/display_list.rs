@@ -117,6 +117,12 @@ collections
 HashMap
 ;
 use
+time
+:
+:
+precise_time_ns
+;
+use
 malloc_size_of
 :
 :
@@ -129,12 +135,9 @@ use
 crate
 :
 :
-{
 display_item
 as
 di
-precise_time_ns
-}
 ;
 use
 crate

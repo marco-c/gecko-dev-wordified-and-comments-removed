@@ -972,7 +972,6 @@ input
 ]
 =
 >
-{
 ParsedItem
 (
 input
@@ -996,7 +995,6 @@ b
 '
 )
 )
-}
 _
 =
 >

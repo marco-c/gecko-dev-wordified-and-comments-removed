@@ -119,6 +119,17 @@ Option
 UtcOffset
 >
 {
+if
+cfg
+!
+(
+miri
+)
+{
+None
+}
+else
+{
 imp
 :
 :
@@ -126,4 +137,5 @@ local_offset_at
 (
 datetime
 )
+}
 }
