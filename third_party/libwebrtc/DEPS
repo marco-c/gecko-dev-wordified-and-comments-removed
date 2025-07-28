@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-479c058ca2d23d2f71640a4a816dcda8487efa5f
+f2812e793ca6cd373254a97abe2839e7012cf9af
 '
 #
 Fetch
@@ -238,7 +238,7 @@ version
 :
 27
 .
-20250326
+20250402
 .
 5
 .
@@ -546,7 +546,7 @@ chromium
 src
 /
 build
-2950487dcd103d8ed1022ebed91ebe2c44e01d5a
+26ff83f04895841b0a22ce0009ab56d15782fc1d
 '
 '
 src
@@ -698,7 +698,7 @@ chromium
 src
 /
 testing
-31101839b3b56d782701d9db174ea022b201edef
+576e7554b916950e7f15c60f0105d2c50c88f505
 '
 '
 src
@@ -722,7 +722,7 @@ chromium
 src
 /
 third_party
-61b45617a8ffc0aaa16d24913991c4cfb65d15de
+c22170aab3489da4da6367437841009396e050f6
 '
 '
 src
@@ -2584,7 +2584,7 @@ grpc
 grpc
 .
 git
-2b149599d9365cae8bdb9c5b8900b67a936c3ff4
+4eacaf78be4b533160cb3ff479eac8405316d699
 '
 }
 #
@@ -4090,7 +4090,7 @@ chromium
 src
 /
 tools
-252128f6c36f9f2eb52eba52e845ecb78bcc03d6
+a3c5fe0e54a006bbebc2d54cdeeb1de12cf8986c
 '
 '
 src
