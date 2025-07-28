@@ -169,14 +169,9 @@ video_rotation
 (
 )
 const
-{
-return
-std
-:
-:
-nullopt
+=
+0
 ;
-}
 virtual
 VideoCodecType
 codec
