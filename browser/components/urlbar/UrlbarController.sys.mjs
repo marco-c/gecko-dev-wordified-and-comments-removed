@@ -6155,7 +6155,13 @@ isSessionOngoing
 dismiss
 "
 "
+dismiss_all
+"
+"
 inaccurate_location
+"
+"
+not_now
 "
 "
 show_less_frequently

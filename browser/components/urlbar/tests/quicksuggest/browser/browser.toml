@@ -211,6 +211,13 @@ telemetry
 "
 [
 "
+browser_quicksuggest_realtime_optin
+.
+js
+"
+]
+[
+"
 browser_quicksuggest_yelp
 .
 js
