@@ -1275,7 +1275,7 @@ to
 a
 function
 use
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1425,7 +1425,7 @@ the
 source
 code
 for
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1483,7 +1483,7 @@ webrtc
 :
 StrJoin
 or
-rtc
+webrtc
 :
 :
 SimpleStringBuilder
@@ -1871,7 +1871,7 @@ makes
 sense
 and
 consider
-rtc
+webrtc
 :
 :
 FunctionView

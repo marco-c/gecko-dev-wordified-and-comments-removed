@@ -64,7 +64,7 @@ default
 .
 *
 Call
-rtc
+webrtc
 :
 :
 LogMessage
@@ -72,7 +72,7 @@ LogMessage
 :
 LogToDebug
 (
-rtc
+webrtc
 :
 :
 LS_INFO

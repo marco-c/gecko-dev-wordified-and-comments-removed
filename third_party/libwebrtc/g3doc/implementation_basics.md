@@ -265,7 +265,7 @@ parts
 use
 the
 [
-rtc
+webrtc
 :
 :
 Thread
@@ -399,7 +399,7 @@ std
 :
 unique_ptr
 or
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -541,7 +541,7 @@ function
 that
 returns
 an
-rtc
+webrtc
 :
 :
 scoped_refptr
