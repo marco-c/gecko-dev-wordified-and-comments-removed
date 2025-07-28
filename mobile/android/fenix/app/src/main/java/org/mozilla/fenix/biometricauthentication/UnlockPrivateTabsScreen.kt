@@ -307,7 +307,7 @@ base
 .
 utils
 .
-getAttr
+getResolvedAttrResId
 import
 org
 .
@@ -667,7 +667,7 @@ dp
 .
 height
 (
-60
+62
 .
 dp
 )
@@ -696,7 +696,7 @@ painter
 =
 painterResource
 (
-getAttr
+getResolvedAttrResId
 (
 R
 .
@@ -725,7 +725,7 @@ painter
 =
 painterResource
 (
-getAttr
+getResolvedAttrResId
 (
 R
 .
