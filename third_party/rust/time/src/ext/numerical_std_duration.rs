@@ -411,7 +411,7 @@ from_nanos
 (
 self
 as
-_
+u64
 )
 }
 fn
@@ -452,7 +452,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -493,7 +493,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -534,7 +534,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -575,7 +575,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -616,7 +616,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -657,7 +657,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 fn
@@ -698,7 +698,7 @@ as
 Self
 )
 as
-_
+u64
 )
 }
 }

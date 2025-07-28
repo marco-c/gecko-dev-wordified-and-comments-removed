@@ -537,6 +537,16 @@ weekday
 Weekday
 ;
 mod
+weekday_set
+;
+pub
+use
+weekday_set
+:
+:
+WeekdaySet
+;
+mod
 month
 ;
 #

@@ -1515,6 +1515,21 @@ warning
 show_verbose
 )
                     
+exclusions
+=
+config
+.
+get
+(
+"
+exclude
+-
+error
+"
+[
+]
+)
+                    
 if
 not
 is_excluded

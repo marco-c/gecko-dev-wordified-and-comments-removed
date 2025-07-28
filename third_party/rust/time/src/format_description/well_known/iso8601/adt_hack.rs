@@ -383,7 +383,7 @@ self
 .
 use_separators
 as
-_
+u8
 ;
 bytes
 [
@@ -394,7 +394,7 @@ self
 .
 year_is_six_digits
 as
-_
+u8
 ;
 bytes
 [

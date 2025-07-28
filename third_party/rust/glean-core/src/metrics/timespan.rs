@@ -210,10 +210,10 @@ self
 let
 start_time
 =
-time
+zeitstempel
 :
 :
-precise_time_ns
+now
 (
 )
 ;
@@ -342,10 +342,10 @@ self
 let
 stop_time
 =
-time
+zeitstempel
 :
 :
-precise_time_ns
+now
 (
 )
 ;
