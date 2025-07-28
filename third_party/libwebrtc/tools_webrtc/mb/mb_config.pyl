@@ -2880,6 +2880,11 @@ target_os
 "
 android
 "
+android_static_analysis
+=
+"
+off
+"
 '
 }
 '
