@@ -346,6 +346,14 @@ areUntrustedModuleLoadEventsReady
 [
 implicit_jscontext
 ]
+readonly
+attribute
+jsval
+lateWrites
+;
+[
+implicit_jscontext
+]
 jsval
 getHistogramById
 (

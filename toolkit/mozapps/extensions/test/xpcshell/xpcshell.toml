@@ -1238,13 +1238,6 @@ require_signing
 ]
 [
 "
-test_recordException
-.
-js
-"
-]
-[
-"
 test_registerchrome
 .
 js
@@ -1681,13 +1674,6 @@ by
 design
 for
 now
-]
-[
-"
-test_startupTimeline
-.
-js
-"
 ]
 [
 "
