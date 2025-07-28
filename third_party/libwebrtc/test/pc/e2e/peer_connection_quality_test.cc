@@ -5290,13 +5290,6 @@ params
 .
 name
 }
-{
-MetricMetadataKey
-:
-:
-kExperimentalTestNameMetadataKey
-test_case_name_
-}
 }
 )
 ;
@@ -5343,13 +5336,6 @@ params
 )
 .
 name
-}
-{
-MetricMetadataKey
-:
-:
-kExperimentalTestNameMetadataKey
-test_case_name_
 }
 }
 )
