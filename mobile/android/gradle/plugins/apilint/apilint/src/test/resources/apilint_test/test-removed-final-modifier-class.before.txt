@@ -1,0 +1,17 @@
+package
+test
+{
+public
+final
+class
+TestClass
+{
+method
+public
+void
+testMethod
+(
+)
+;
+}
+}
