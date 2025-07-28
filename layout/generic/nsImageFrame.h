@@ -1242,7 +1242,7 @@ Maybe
 <
 nsSize
 >
-GetViewTransitionSnapshotSize
+GetViewTransitionBorderBoxSize
 (
 )
 const
@@ -1573,6 +1573,12 @@ final
 ;
 nsRect
 GetDestRect
+(
+)
+const
+;
+nsRect
+GetDestRectViewTransition
 (
 )
 const
