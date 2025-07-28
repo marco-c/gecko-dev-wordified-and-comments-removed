@@ -317,6 +317,14 @@ id
 .
 tabsTrayFragment
 )
+FromTabManager
+(
+R
+.
+id
+.
+tabManagementFragment
+)
 FromRecentlyClosed
 (
 R
