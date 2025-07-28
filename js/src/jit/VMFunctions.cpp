@@ -5099,7 +5099,7 @@ const
 size_t
 MAX_WHOLE_CELL_BUFFER_SIZE
 =
-4096
+256
 ;
 void
 PostWriteElementBarrier
