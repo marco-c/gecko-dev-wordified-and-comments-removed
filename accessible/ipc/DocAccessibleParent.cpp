@@ -2562,6 +2562,7 @@ proxy
 aOffset
 aIsSelectionCollapsed
 aGranularity
+aCaretRect
 aFromUser
 )
 ;
@@ -6095,6 +6096,7 @@ aCaretRect
 PlatformFocusEvent
 (
 proxy
+aCaretRect
 )
 ;
 if
