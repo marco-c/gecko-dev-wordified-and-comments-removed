@@ -401,6 +401,14 @@ Thread
 network_thread
 =
 nullptr
+absl
+:
+:
+string_view
+field_trials_string
+=
+"
+"
 )
 :
 name_
@@ -426,8 +434,7 @@ Current
 )
 field_trials_
 (
-"
-"
+field_trials_string
 )
 {
 RTC_DCHECK
