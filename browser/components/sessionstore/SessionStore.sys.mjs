@@ -23184,6 +23184,14 @@ tab
 let
 index
 =
+tabData
+.
+closedInTabGroupId
+?
+closedTabs
+.
+length
+:
 closedTabs
 .
 findIndex
