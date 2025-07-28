@@ -801,6 +801,18 @@ fenix
 .
 search
 .
+EditPageEndActionsInteractions
+.
+QrScannerClicked
+import
+org
+.
+mozilla
+.
+fenix
+.
+search
+.
 SearchSelectorEvents
 .
 SearchSelectorClicked
@@ -1231,7 +1243,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 )
 }
 Test
@@ -1305,7 +1317,7 @@ last
 (
 )
 as
-ActionButton
+ActionButtonRes
 assertEquals
 (
 expectedClearButton
