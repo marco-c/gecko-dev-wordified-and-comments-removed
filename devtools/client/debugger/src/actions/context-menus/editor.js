@@ -36,7 +36,6 @@ clipboard
 ;
 import
 {
-isPretty
 getRawSourceURL
 shouldBlackbox
 findBlackBoxRange
@@ -341,10 +340,9 @@ id
 )
 |
 |
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 )
 &
 &

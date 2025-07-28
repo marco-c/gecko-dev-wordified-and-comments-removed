@@ -128,7 +128,6 @@ index
 ;
 import
 {
-isPretty
 shouldBlackbox
 }
 from
@@ -498,10 +497,9 @@ sourceLoaded
 canPrettyPrint
 pretty
 :
-isPretty
-(
 selectedSource
-)
+.
+isPrettyPrinted
 }
 )
 key

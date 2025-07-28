@@ -113,7 +113,6 @@ tabs
 import
 {
 getRawSourceURL
-isPretty
 shouldBlackbox
 }
 from
@@ -581,10 +580,9 @@ tabMenuItems
 prettyPrint
 disabled
 :
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 click
 :
 (

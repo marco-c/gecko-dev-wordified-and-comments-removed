@@ -29,7 +29,6 @@ png
 ;
 import
 {
-isPretty
 getRawSourceURL
 }
 from
@@ -1424,10 +1423,9 @@ url
 &
 &
 !
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 &
 &
 (
