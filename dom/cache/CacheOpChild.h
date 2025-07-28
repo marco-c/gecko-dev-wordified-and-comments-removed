@@ -74,7 +74,7 @@ final
 public
 PCacheOpChild
 public
-ActorChild
+CacheActorChild
 public
 TypeUtils
 {

@@ -77,7 +77,7 @@ final
 public
 PCacheStorageChild
 public
-ActorChild
+CacheActorChild
 {
 friend
 class
