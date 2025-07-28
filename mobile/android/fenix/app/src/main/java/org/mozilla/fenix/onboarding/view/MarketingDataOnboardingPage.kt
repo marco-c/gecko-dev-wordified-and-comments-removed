@@ -1174,7 +1174,7 @@ R
 .
 string
 .
-onboarding_marketing_opt_in_checkbox
+onboarding_marketing_opt_out_checkbox
 )
 )
 )
