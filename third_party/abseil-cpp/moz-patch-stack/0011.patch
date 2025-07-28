@@ -117,10 +117,10 @@ randen_detect
 .
 cc
 index
-bdeab877b98
+828db4790ae
 .
 .
-e23cdb32a51
+7a1a1c0c801
 100644
 -
 -
@@ -159,10 +159,10 @@ randen_detect
 .
 cc
 -
-63
+74
 7
 +
-63
+74
 7
 static
 void

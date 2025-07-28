@@ -23100,6 +23100,15 @@ MultiKeyComp
 }
 }
 ;
+EXPECT_TRUE
+(
+set
+.
+empty
+(
+)
+)
+;
 }
 TEST
 (

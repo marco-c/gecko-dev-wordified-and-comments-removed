@@ -22,7 +22,7 @@ cstdlib
 #
 include
 <
-iostream
+istream
 >
 #
 include
@@ -33,6 +33,11 @@ iterator
 include
 <
 limits
+>
+#
+include
+<
+ostream
 >
 #
 include

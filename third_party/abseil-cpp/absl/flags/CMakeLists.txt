@@ -218,6 +218,10 @@ core_headers
 absl
 :
 :
+no_destructor
+absl
+:
+:
 flags_path_util
 absl
 :
@@ -275,6 +279,10 @@ absl
 :
 :
 core_headers
+absl
+:
+:
+no_destructor
 absl
 :
 :
@@ -633,6 +641,10 @@ flags_marshalling
 absl
 :
 :
+no_destructor
+absl
+:
+:
 synchronization
 absl
 :
@@ -822,6 +834,10 @@ flags_usage_internal
 absl
 :
 :
+no_destructor
+absl
+:
+:
 raw_logging_internal
 absl
 :
@@ -912,6 +928,10 @@ absl
 :
 :
 flags_usage
+absl
+:
+:
+no_destructor
 absl
 :
 :

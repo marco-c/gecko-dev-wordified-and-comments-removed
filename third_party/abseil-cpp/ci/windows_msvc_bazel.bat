@@ -379,7 +379,7 @@ KOKORO_GFILE_DIR
 \
 bazel
 -
-7
+8
 .
 0
 .

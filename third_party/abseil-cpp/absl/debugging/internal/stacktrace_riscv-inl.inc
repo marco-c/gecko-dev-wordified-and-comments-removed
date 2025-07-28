@@ -169,9 +169,15 @@ low
 <
 high
 ?
+static_cast
+<
+ptrdiff_t
+>
+(
 high_char_ptr
 -
 low_char_ptr
+)
 :
 kUnknownFrameSize
 ;

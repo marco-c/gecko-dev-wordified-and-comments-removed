@@ -209,6 +209,10 @@ inlined_vector
 absl
 :
 :
+leak_check
+absl
+:
+:
 memory
 absl
 :
@@ -237,11 +241,11 @@ stacktrace
 absl
 :
 :
-strerror
+str_format
 absl
 :
 :
-str_format
+strerror
 absl
 :
 :

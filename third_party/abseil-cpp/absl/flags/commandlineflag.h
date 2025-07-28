@@ -485,6 +485,16 @@ const
 =
 0
 ;
+virtual
+absl
+:
+:
+string_view
+TypeName
+(
+)
+const
+;
 }
 ;
 #

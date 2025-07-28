@@ -271,6 +271,9 @@ i
 ;
 }
 }
+#
+ifdef
+__AVX__
 TEST_P
 (
 NonTemporalMemcpyTest
@@ -360,6 +363,8 @@ i
 ;
 }
 }
+#
+endif
 constexpr
 TestParam
 params

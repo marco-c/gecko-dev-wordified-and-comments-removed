@@ -17,7 +17,7 @@ cstdint
 #
 include
 <
-iostream
+ostream
 >
 #
 include

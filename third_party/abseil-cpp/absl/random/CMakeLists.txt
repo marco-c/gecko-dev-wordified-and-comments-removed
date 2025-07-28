@@ -657,6 +657,10 @@ absl
 :
 :
 config
+absl
+:
+:
+raw_logging_internal
 )
 absl_cc_library
 (
@@ -1921,6 +1925,10 @@ DEPS
 absl
 :
 :
+config
+absl
+:
+:
 int128
 absl
 :
@@ -2441,6 +2449,10 @@ absl
 :
 :
 config
+absl
+:
+:
+optional
 )
 #
 Internal
@@ -2971,11 +2983,7 @@ random_distributions
 absl
 :
 :
-random_seed_sequences
-absl
-:
-:
-strings
+type_traits
 GTest
 :
 :

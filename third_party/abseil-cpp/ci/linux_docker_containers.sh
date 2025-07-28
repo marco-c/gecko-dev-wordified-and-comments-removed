@@ -188,7 +188,7 @@ linux_hybrid
 -
 latest
 :
-20240523
+20241218
 "
 readonly
 LINUX_ARM_CLANG_LATEST_CONTAINER
@@ -232,7 +232,7 @@ linux_hybrid
 -
 latest
 :
-20240523
+20241218
 "
 readonly
 LINUX_GCC_FLOOR_CONTAINER
@@ -254,5 +254,5 @@ linux_gcc
 -
 floor
 :
-20240717
+20241218
 "

@@ -1120,6 +1120,10 @@ str_format
 absl
 :
 :
+config
+absl
+:
+:
 core_headers
 GTest
 :

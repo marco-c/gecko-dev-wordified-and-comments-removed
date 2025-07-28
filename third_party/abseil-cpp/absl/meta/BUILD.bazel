@@ -283,14 +283,14 @@ absl
 time
 "
 "
-com_google_googletest
+googletest
 /
 /
 :
 gtest
 "
 "
-com_google_googletest
+googletest
 /
 /
 :

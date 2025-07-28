@@ -695,6 +695,9 @@ Milliseconds
 )
 )
 ;
+#
+ifndef
+_MSC_VER
 EXPECT_LT
 (
 waited
@@ -707,6 +710,8 @@ Seconds
 )
 )
 ;
+#
+endif
 }
 TYPED_TEST_P
 (

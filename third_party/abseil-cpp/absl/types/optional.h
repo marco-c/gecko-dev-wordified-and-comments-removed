@@ -2028,7 +2028,6 @@ const
 &
 ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
-return
 ABSL_HARDENING_ASSERT
 (
 this
@@ -2036,6 +2035,8 @@ this
 >
 engaged_
 )
+;
+return
 reference
 (
 )
@@ -2078,7 +2079,6 @@ const
 &
 ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
-return
 ABSL_HARDENING_ASSERT
 (
 this
@@ -2086,6 +2086,8 @@ this
 >
 engaged_
 )
+;
+return
 std
 :
 :

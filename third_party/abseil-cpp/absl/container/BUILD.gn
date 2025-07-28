@@ -2779,6 +2779,10 @@ common
 "
 "
 :
+common_policy_traits
+"
+"
+:
 compressed_tuple
 "
 "

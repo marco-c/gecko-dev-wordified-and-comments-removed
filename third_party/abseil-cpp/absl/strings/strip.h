@@ -74,6 +74,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 inline
+constexpr
 bool
 ConsumePrefix
 (
@@ -129,6 +130,7 @@ true
 ;
 }
 inline
+constexpr
 bool
 ConsumeSuffix
 (
@@ -185,6 +187,7 @@ true
 }
 ABSL_MUST_USE_RESULT
 inline
+constexpr
 absl
 :
 :
@@ -231,6 +234,7 @@ str
 }
 ABSL_MUST_USE_RESULT
 inline
+constexpr
 absl
 :
 :

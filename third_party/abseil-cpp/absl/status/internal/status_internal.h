@@ -493,10 +493,8 @@ absl
 :
 Nonnull
 <
-std
-:
-:
-string
+const
+char
 *
 >
 MakeCheckFailString

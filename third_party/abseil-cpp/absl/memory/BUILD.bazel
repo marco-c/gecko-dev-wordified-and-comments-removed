@@ -284,14 +284,14 @@ base
 core_headers
 "
 "
-com_google_googletest
+googletest
 /
 /
 :
 gtest
 "
 "
-com_google_googletest
+googletest
 /
 /
 :

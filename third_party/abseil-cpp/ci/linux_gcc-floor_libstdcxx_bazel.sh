@@ -815,17 +815,6 @@ absl
 \
 -
 -
-distdir
-=
-"
-/
-bazel
--
-distdir
-"
-\
--
--
 enable_bzlmod
 =
 false
