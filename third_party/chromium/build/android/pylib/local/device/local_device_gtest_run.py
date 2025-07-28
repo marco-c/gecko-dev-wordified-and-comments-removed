@@ -3194,6 +3194,34 @@ SetupEnvironment
 (
 )
         
+if
+self
+.
+_env
+.
+disable_test_server
+:
+          
+logging
+.
+warning
+(
+'
+Not
+starting
+test
+server
+.
+Some
+tests
+may
+fail
+.
+'
+)
+          
+return
+        
 try
 :
           

@@ -1582,7 +1582,7 @@ arsc
 .
 enable_unused_resource_stripping
 =
-is_official_build
+true
 #
 The
 target
