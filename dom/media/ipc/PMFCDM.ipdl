@@ -647,6 +647,13 @@ MFCDMKeyExpiration
 expiration
 )
 ;
+async
+OnSessionClosed
+(
+nsString
+sessionId
+)
+;
 }
 ;
 }
