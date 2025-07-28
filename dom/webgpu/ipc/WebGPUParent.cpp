@@ -4428,6 +4428,7 @@ get
 )
 aDeviceId
 aQueueId
+{
 aCommandBuffers
 .
 Elements
@@ -4438,6 +4439,7 @@ aCommandBuffers
 Length
 (
 )
+}
 error
 .
 ToFFI
@@ -7116,9 +7118,11 @@ data
 -
 >
 mQueueId
+{
 &
 aCommandEncoderId
 1
+}
 error
 .
 ToFFI
@@ -8197,9 +8201,11 @@ data
 -
 >
 mQueueId
+{
 &
 aCommandEncoderId
 1
+}
 error
 .
 ToFFI

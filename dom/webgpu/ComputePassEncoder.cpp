@@ -380,8 +380,10 @@ get
 )
 aSlot
 bindGroup
+{
 aDynamicOffsets
 aDynamicOffsetsLength
+}
 )
 ;
 }

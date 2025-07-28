@@ -3293,6 +3293,7 @@ GetClient
 )
 aDeviceId
 aSelfId
+{
 aCommandBuffers
 .
 Elements
@@ -3303,6 +3304,8 @@ aCommandBuffers
 Length
 (
 )
+}
+{
 mSwapChainTexturesWaitingForSubmit
 .
 Elements
@@ -3313,6 +3316,7 @@ mSwapChainTexturesWaitingForSubmit
 Length
 (
 )
+}
 )
 ;
 mSwapChainTexturesWaitingForSubmit
