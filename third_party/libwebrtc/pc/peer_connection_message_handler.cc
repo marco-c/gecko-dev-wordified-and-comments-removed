@@ -10,6 +10,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 utility
 >
 #
@@ -53,7 +58,7 @@ include
 "
 api
 /
-scoped_refptr
+rtc_error
 .
 h
 "
@@ -62,7 +67,7 @@ include
 "
 api
 /
-sequence_checker
+scoped_refptr
 .
 h
 "
@@ -74,6 +79,17 @@ api
 task_queue
 /
 pending_task_safety_flag
+.
+h
+"
+#
+include
+"
+api
+/
+units
+/
+time_delta
 .
 h
 "

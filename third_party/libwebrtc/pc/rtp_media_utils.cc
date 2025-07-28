@@ -10,6 +10,15 @@ h
 #
 include
 "
+api
+/
+rtp_transceiver_direction
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
