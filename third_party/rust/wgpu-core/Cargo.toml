@@ -123,7 +123,7 @@ core
 version
 =
 "
-26
+25
 .
 0
 .
@@ -923,7 +923,7 @@ naga
 version
 =
 "
-26
+25
 .
 0
 .
@@ -983,10 +983,6 @@ profiling
 version
 =
 "
-1
-.
-0
-.
 1
 "
 default
@@ -1127,7 +1123,7 @@ hal
 version
 =
 "
-26
+25
 .
 0
 .
@@ -1153,7 +1149,7 @@ types
 version
 =
 "
-26
+25
 .
 0
 .
@@ -1228,7 +1224,7 @@ wasm
 version
 =
 "
-26
+25
 .
 0
 .
@@ -1286,7 +1282,7 @@ android
 version
 =
 "
-26
+25
 .
 0
 .
@@ -1368,7 +1364,7 @@ emscripten
 version
 =
 "
-26
+25
 .
 0
 .
@@ -1413,7 +1409,7 @@ apple
 version
 =
 "
-26
+25
 .
 0
 .

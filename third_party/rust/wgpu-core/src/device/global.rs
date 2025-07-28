@@ -1123,15 +1123,6 @@ u8
 >
 BufferAccessResult
 {
-use
-crate
-:
-:
-resource
-:
-:
-RawResourceAccess
-;
 let
 hub
 =
@@ -2414,8 +2405,6 @@ buffer
 err
 )
 =
-unsafe
-{
 device
 .
 create_buffer_from_hal
@@ -2429,7 +2418,6 @@ hal_buffer
 )
 desc
 )
-}
 ;
 let
 id
