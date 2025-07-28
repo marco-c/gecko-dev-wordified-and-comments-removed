@@ -820,20 +820,6 @@ gecko
 profile
 "
 )
-or
-os
-.
-getenv
-(
-"
-MOZ_PROFILER_STARTUP
-"
-)
-=
-=
-"
-1
-"
 :
             
 gecko_profile_args
