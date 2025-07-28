@@ -2083,11 +2083,6 @@ tabManagerInteractor
 :
 :
 onForceSelectedTabsAsInactiveClicked
-onTabsTrayDismiss
-=
-:
-:
-onTabsTrayDismissed
 onTabsTrayPbmLockedClick
 =
 :
