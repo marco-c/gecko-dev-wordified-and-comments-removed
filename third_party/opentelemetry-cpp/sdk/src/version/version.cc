@@ -28,7 +28,7 @@ const
 int
 minor_version
 =
-21
+22
 ;
 const
 int
@@ -62,7 +62,7 @@ short_version
 "
 1
 .
-21
+22
 .
 0
 "
@@ -75,7 +75,7 @@ full_version
 "
 1
 .
-21
+22
 .
 0
 -
@@ -90,14 +90,14 @@ char
 build_date
 =
 "
-Wed
-May
-28
+Fri
+Jul
+11
 08
 :
-08
+13
 :
-27
+24
 PM
 UTC
 2025

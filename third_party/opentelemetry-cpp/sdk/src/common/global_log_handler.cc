@@ -42,6 +42,12 @@ handler
 ;
 LogLevel
 log_level
+{
+LogLevel
+:
+:
+Warning
+}
 ;
 GlobalLogHandlerData
 (
@@ -60,13 +66,6 @@ LogHandler
 new
 DefaultLogHandler
 )
-)
-log_level
-(
-LogLevel
-:
-:
-Warning
 )
 {
 }
