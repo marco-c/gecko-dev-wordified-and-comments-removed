@@ -546,7 +546,7 @@ ROUNDED_CORNER_SHAPE
 =
 RoundedCornerShape
 (
-8
+90
 .
 dp
 )
