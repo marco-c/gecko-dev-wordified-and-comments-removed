@@ -636,6 +636,24 @@ get
 obj_path
 "
 )
+            
+self
+.
+upload_dir
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_UPLOAD_DIR
+"
+self
+.
+mozproxy_dir
+)
         
 else
 :
@@ -668,6 +686,21 @@ MOZ_UPLOAD_DIR
 )
             
 )
+            
+self
+.
+upload_dir
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_INTERNAL_UPLOAD_DIR
+"
+)
         
 self
 .
@@ -688,24 +721,6 @@ testing
 "
 mozproxy
 "
-)
-        
-self
-.
-upload_dir
-=
-os
-.
-environ
-.
-get
-(
-"
-MOZ_UPLOAD_DIR
-"
-self
-.
-mozproxy_dir
 )
         
 LOG
