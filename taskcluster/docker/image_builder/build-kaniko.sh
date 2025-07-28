@@ -30,7 +30,7 @@ branch
 =
 v1
 .
-25
+23
 .
 0
 https
@@ -41,15 +41,13 @@ github
 .
 com
 /
-chainguard
--
-dev
+GoogleContainerTools
 /
 kaniko
 .
 git
 checkout
-37afb27d847300f5baeef648b0bafcf31e35a178
+98df8ebfc7834a720c83b81bd0b1d54f4f480477
 if
 [
 "
