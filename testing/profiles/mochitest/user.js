@@ -108,3 +108,17 @@ open_system_prefs
 false
 )
 ;
+user_pref
+(
+"
+messaging
+-
+system
+.
+log
+"
+"
+all
+"
+)
+;
