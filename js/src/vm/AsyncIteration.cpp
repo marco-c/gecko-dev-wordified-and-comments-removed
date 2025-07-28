@@ -3005,6 +3005,16 @@ isQueueEmpty
 )
 )
 {
+MOZ_ASSERT
+(
+generator
+-
+>
+isQueueEmpty
+(
+)
+)
+;
 JSObject
 *
 resultObj
