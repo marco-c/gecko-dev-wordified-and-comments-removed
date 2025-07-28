@@ -121,6 +121,12 @@ pro
 '
 }
 }
+testFixtures
+{
+enable
+=
+true
+}
 namespace
 =
 '
@@ -205,6 +211,14 @@ support
 test
 '
 )
+testFixturesImplementation
+libs
+.
+androidx
+.
+test
+.
+junit
 }
 apply
 from
