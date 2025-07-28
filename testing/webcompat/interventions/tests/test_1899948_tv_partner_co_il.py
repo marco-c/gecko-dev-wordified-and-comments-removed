@@ -67,7 +67,7 @@ no_skip
 True
 timeout
 =
-30
+10
 )
     
 except

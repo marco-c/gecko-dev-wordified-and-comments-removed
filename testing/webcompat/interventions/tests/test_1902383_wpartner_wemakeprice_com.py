@@ -90,6 +90,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 assert

@@ -35,8 +35,6 @@ portals
 ga
 /
 ott1
-?
-adminId
 '
 ]
 "

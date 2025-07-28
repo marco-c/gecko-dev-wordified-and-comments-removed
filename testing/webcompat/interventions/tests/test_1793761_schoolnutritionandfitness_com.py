@@ -27,6 +27,15 @@ siteCode
 =
 1641
 "
+POPUP_CLOSE_CSS
+=
+"
+.
+modal
+-
+dialog
+button
+"
 ELEM_CSS
 =
 "
@@ -116,6 +125,21 @@ client
 navigate
 (
 URL
+)
+    
+client
+.
+soft_click
+(
+client
+.
+await_css
+(
+POPUP_CLOSE_CSS
+is_displayed
+=
+True
+)
 )
     
 assert

@@ -169,6 +169,10 @@ INTRO_BUTTON_CSS
 is_displayed
 =
 True
+        
+timeout
+=
+20
     
 )
     
