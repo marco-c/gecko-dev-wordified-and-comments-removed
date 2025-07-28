@@ -4537,7 +4537,6 @@ GetCompatibilityMode
 (
 )
 nullptr
-nullptr
 StyleAllowImportRules
 :
 :

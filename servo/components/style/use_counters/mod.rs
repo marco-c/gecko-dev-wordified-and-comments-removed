@@ -60,7 +60,9 @@ usize
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
@@ -93,7 +95,9 @@ BITS_PER_ENTRY
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
@@ -431,7 +435,9 @@ NonCustomPropertyId
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
