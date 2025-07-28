@@ -260,6 +260,16 @@ libs
 androidx
 .
 swiperefreshlayout
+implementation
+libs
+.
+androidx
+.
+ui
+.
+text
+.
+android
 testImplementation
 project
 (

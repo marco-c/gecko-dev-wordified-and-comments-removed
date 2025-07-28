@@ -277,6 +277,16 @@ androidx
 core
 .
 ktx
+implementation
+libs
+.
+androidx
+.
+ui
+.
+text
+.
+android
 testImplementation
 libs
 .
