@@ -123,7 +123,7 @@ hal
 version
 =
 "
-25
+26
 .
 0
 .
@@ -1110,7 +1110,7 @@ naga
 version
 =
 "
-25
+26
 .
 0
 .
@@ -1176,6 +1176,10 @@ profiling
 version
 =
 "
+1
+.
+0
+.
 1
 "
 optional
@@ -1260,7 +1264,7 @@ types
 version
 =
 "
-25
+26
 .
 0
 .
@@ -1324,7 +1328,7 @@ naga
 version
 =
 "
-25
+26
 .
 0
 .
