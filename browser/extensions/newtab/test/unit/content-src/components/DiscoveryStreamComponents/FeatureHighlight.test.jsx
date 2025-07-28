@@ -303,10 +303,9 @@ wrapper
 find
 (
 "
-.
-icon
+moz
 -
-dismiss
+button
 "
 )
 .
