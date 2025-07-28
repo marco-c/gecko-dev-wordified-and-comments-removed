@@ -5904,6 +5904,9 @@ onDestroyView
 nullableToolbarView
 =
 null
+homeNavigationBar
+=
+null
 _sessionControlController
 ?
 .

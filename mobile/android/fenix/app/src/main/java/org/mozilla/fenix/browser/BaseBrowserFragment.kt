@@ -12150,6 +12150,9 @@ null
 _browserToolbarView
 =
 null
+browserNavigationBar
+=
+null
 _browserToolbarInteractor
 =
 null
