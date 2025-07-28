@@ -166,6 +166,13 @@ js
 ]
 [
 "
+browser_history_keyboard_navigation
+.
+js
+"
+]
+[
+"
 browser_history_sidebar
 .
 js

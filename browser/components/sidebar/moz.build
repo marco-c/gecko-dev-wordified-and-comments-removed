@@ -54,6 +54,13 @@ sys
 .
 mjs
 "
+"
+SidebarTreeView
+.
+sys
+.
+mjs
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
