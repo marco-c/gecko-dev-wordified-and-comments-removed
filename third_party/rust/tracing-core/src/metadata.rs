@@ -266,6 +266,10 @@ fields
 kind
 }
 }
+#
+[
+inline
+]
 pub
 fn
 fields

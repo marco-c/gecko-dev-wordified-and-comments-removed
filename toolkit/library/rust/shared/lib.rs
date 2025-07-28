@@ -474,6 +474,10 @@ extern
 crate
 gecko_logger
 ;
+extern
+crate
+gecko_tracing
+;
 #
 [
 cfg
@@ -674,6 +678,13 @@ GeckoLogger
 :
 :
 init
+(
+)
+;
+gecko_tracing
+:
+:
+initialize_tracing
 (
 )
 ;

@@ -223,7 +223,7 @@ core
 .
 1
 .
-30
+33
 [
 docs
 -
@@ -267,7 +267,7 @@ core
 .
 1
 .
-30
+33
 [
 docs
 -
@@ -609,7 +609,7 @@ requires
 rustc
 1
 .
-49
+63
 +
 ]
 [
@@ -773,7 +773,7 @@ version
 .
 1
 .
-30
+33
 "
 default
 -
@@ -828,7 +828,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -859,7 +859,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -890,7 +890,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -921,7 +921,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -952,7 +952,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -983,7 +983,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -1014,7 +1014,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -1045,7 +1045,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -1076,7 +1076,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -1107,7 +1107,7 @@ core
 .
 1
 .
-30
+33
 /
 tracing_core
 /
@@ -1139,7 +1139,7 @@ version
 is
 1
 .
-49
+63
 .
 The
 current
@@ -1205,7 +1205,7 @@ version
 is
 1
 .
-45
+69
 the
 minimum
 supported
@@ -1217,7 +1217,7 @@ increased
 past
 1
 .
-42
+69
 three
 minor
 versions

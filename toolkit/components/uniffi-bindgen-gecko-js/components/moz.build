@@ -77,6 +77,15 @@ mjs
 "
 generated
 /
+RustTracing
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustWebextstorage
 .
 sys
