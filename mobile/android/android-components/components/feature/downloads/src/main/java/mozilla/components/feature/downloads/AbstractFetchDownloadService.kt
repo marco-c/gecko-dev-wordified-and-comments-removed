@@ -2764,9 +2764,13 @@ state
 .
 foregroundServiceId
 )
-cancelDownloadJob
-(
 state
+.
+job
+?
+.
+cancel
+(
 )
 }
 if
