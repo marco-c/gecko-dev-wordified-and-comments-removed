@@ -95,20 +95,6 @@ timeout
 10
 )
     
-if
-alert
-:
-        
-alert
-=
-await
-client
-.
-await_alert
-(
-alert
-)
-    
 try
 :
         
@@ -143,7 +129,12 @@ alert
         
 assert
 await
+client
+.
+await_alert
+(
 alert
+)
     
 assert
 await
@@ -171,6 +162,15 @@ do_test
 (
 client
 SUPPORTED_URL
+)
+    
+assert
+not
+await
+client
+.
+find_alert
+(
 )
 pytest
 .

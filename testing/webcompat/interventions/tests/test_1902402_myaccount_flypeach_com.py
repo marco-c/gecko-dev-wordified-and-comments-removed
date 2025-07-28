@@ -1,11 +1,5 @@
 import
 pytest
-from
-webdriver
-.
-error
-import
-UnexpectedAlertOpenException
 URL
 =
 "
@@ -33,7 +27,7 @@ email
 "
 async
 def
-check_saw_message
+visit_site
 (
 client
 )
@@ -151,6 +145,14 @@ alert
 found
 "
 )
+;
+            
+observer
+.
+disconnect
+(
+)
+;
           
 }
         
@@ -184,9 +186,6 @@ true
     
 )
     
-try
-:
-        
 await
 client
 .
@@ -199,27 +198,6 @@ wait
 none
 "
 )
-        
-assert
-client
-.
-await_css
-(
-LOGIN_CSS
-is_displayed
-=
-True
-)
-        
-return
-False
-    
-except
-UnexpectedAlertOpenException
-:
-        
-return
-True
 pytest
 .
 mark
@@ -238,12 +216,32 @@ client
 )
 :
     
+await
+visit_site
+(
+client
+)
+    
+client
+.
+await_css
+(
+LOGIN_CSS
+is_displayed
+=
+True
+timeout
+=
+20
+)
+    
 assert
 not
 await
-check_saw_message
-(
 client
+.
+find_alert
+(
 )
 pytest
 .
@@ -263,9 +261,19 @@ client
 )
 :
     
-assert
 await
-check_saw_message
+visit_site
 (
 client
+)
+    
+assert
+await
+client
+.
+await_alert
+(
+"
+found
+"
 )

@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -74,11 +72,15 @@ is_displayed
 True
 )
     
+assert
+not
 await
-asyncio
+client
 .
-sleep
+find_alert
 (
+delay
+=
 3
 )
 pytest
@@ -99,16 +101,6 @@ client
 )
 :
     
-alert
-=
-await
-client
-.
-await_alert
-(
-UNSUPPORTED_ALERT
-)
-    
 await
 client
 .
@@ -124,4 +116,9 @@ none
     
 assert
 await
-alert
+client
+.
+await_alert
+(
+UNSUPPORTED_ALERT
+)

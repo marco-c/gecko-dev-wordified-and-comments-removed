@@ -22,7 +22,7 @@ SUPPORTED_CSS
 #
 userid
 "
-UNSUPPORTED_ALERT_MSG
+UNSUPPORTED_ALERT
 =
 "
 use
@@ -81,6 +81,18 @@ is_displayed
 =
 True
 )
+    
+assert
+not
+await
+client
+.
+find_alert
+(
+delay
+=
+3
+)
 pytest
 .
 mark
@@ -99,16 +111,6 @@ client
 )
 :
     
-alert
-=
-await
-client
-.
-await_alert
-(
-UNSUPPORTED_ALERT_MSG
-)
-    
 await
 client
 .
@@ -119,7 +121,12 @@ URL
     
 assert
 await
-alert
+client
+.
+await_alert
+(
+UNSUPPORTED_ALERT
+)
     
 assert
 client

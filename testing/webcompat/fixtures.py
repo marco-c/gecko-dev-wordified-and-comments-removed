@@ -2220,6 +2220,14 @@ webSocketUrl
 "
 :
 True
+            
+"
+unhandledPromptBehavior
+"
+:
+"
+dismiss
+"
         
 }
     

@@ -42,30 +42,17 @@ shouldPass
 )
 :
     
-if
-not
-shouldPass
-:
-        
-alert
-=
-await
-client
-.
-await_alert
-(
-UNSUPPORTED_ALERT
-timeout
-=
-10
-)
-    
 await
 client
 .
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 if
@@ -75,7 +62,12 @@ shouldPass
         
 assert
 await
-alert
+client
+.
+await_alert
+(
+UNSUPPORTED_ALERT
+)
     
 assert
 client
@@ -83,6 +75,12 @@ client
 await_css
 (
 LOGIN_CSS
+is_displayed
+=
+True
+timeout
+=
+30
 )
     
 warningFound
@@ -148,6 +146,19 @@ false
 "
 "
     
+)
+    
+if
+shouldPass
+:
+        
+assert
+not
+await
+client
+.
+find_alert
+(
 )
     
 assert

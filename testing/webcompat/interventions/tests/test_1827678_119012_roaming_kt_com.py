@@ -104,19 +104,6 @@ simplepay_view
     
 )
     
-which_alert
-=
-await
-client
-.
-await_alert
-(
-[
-SUPPORTED_ALERT
-UNSUPPORTED_ALERT
-]
-)
-    
 await
 client
 .
@@ -130,10 +117,22 @@ none
 "
 )
     
+which_alert
+=
+await
+client
+.
+await_alert
+(
+[
+SUPPORTED_ALERT
+UNSUPPORTED_ALERT
+]
+)
+    
 return
 UNSUPPORTED_ALERT
 in
-await
 which_alert
 pytest
 .

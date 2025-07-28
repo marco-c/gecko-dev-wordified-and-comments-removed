@@ -80,6 +80,18 @@ is_displayed
 =
 True
 )
+    
+assert
+not
+await
+client
+.
+find_alert
+(
+delay
+=
+3
+)
 pytest
 .
 mark
@@ -116,16 +128,6 @@ function
 "
 )
     
-alert
-=
-await
-client
-.
-await_alert
-(
-UNSUPPORTED_ALERT
-)
-    
 await
 client
 .
@@ -141,4 +143,9 @@ none
     
 assert
 await
-alert
+client
+.
+await_alert
+(
+UNSUPPORTED_ALERT
+)
