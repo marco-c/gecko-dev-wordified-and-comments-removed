@@ -285,6 +285,11 @@ timer
 =
 cachedData
 ;
+if
+(
+timer
+)
+{
 this
 .
 update
@@ -293,6 +298,7 @@ timer
 isStartup
 )
 ;
+}
 }
 update
 (
@@ -421,7 +427,12 @@ break
 case
 at
 .
-WIDGETS_TIMER_END
+WIDGETS_TIMER_SET_DURATION
+:
+case
+at
+.
+WIDGETS_TIMER_PLAY
 :
 case
 at
@@ -436,12 +447,7 @@ WIDGETS_TIMER_RESET
 case
 at
 .
-WIDGETS_TIMER_SET_DURATION
-:
-case
-at
-.
-WIDGETS_TIMER_START
+WIDGETS_TIMER_END
 :
 {
 const

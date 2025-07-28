@@ -266,6 +266,11 @@ timerEnabled
 &
 <
 FocusTimer
+dispatch
+=
+{
+dispatch
+}
 /
 >
 }
