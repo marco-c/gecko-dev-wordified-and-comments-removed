@@ -1362,6 +1362,12 @@ mIsInEdgeTrack
 ;
 }
 ;
+class
+TrackPlan
+;
+class
+ItemPlan
+;
 nsGridContainerFrame
 *
 ParentGridContainerForSubgrid
