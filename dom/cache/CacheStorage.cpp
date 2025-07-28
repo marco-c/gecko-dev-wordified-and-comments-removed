@@ -485,8 +485,6 @@ mRequest
 ;
 }
 ;
-namespace
-{
 bool
 IsTrusted
 (
@@ -726,7 +724,6 @@ hostLen
 )
 )
 ;
-}
 }
 already_AddRefed
 <
