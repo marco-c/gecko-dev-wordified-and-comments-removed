@@ -152,6 +152,10 @@ optimizationInfo_
 (
 optimizationInfo
 )
+wasmCodeMeta_
+(
+wasmCodeMeta
+)
 alloc_
 (
 alloc
@@ -225,10 +229,6 @@ canNurseryAllocateBigInts
 )
 :
 false
-)
-minWasmMemory0Length_
-(
-0
 )
 options
 (

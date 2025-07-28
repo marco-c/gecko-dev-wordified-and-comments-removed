@@ -390,7 +390,7 @@ memoryIndex
 )
 ]
 .
-initialLength32
+initialLength
 (
 )
 +
@@ -576,7 +576,7 @@ memoryIndex
 )
 ]
 .
-initialLength64
+initialLength
 (
 )
 )
