@@ -441,11 +441,6 @@ WebNotification
 notificationShown
 =
 notification
-notification
-.
-show
-(
-)
 notificationResult
 .
 complete

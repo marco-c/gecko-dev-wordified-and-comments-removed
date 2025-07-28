@@ -1158,11 +1158,6 @@ js
 "
 )
 )
-notification
-.
-show
-(
-)
 notificationResult
 .
 complete
