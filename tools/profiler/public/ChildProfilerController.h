@@ -253,15 +253,6 @@ GrabShutdownProfileAndShutdown
 return
 ProfileAndAdditionalInformation
 (
-std
-:
-:
-move
-(
-EmptyCString
-(
-)
-)
 )
 ;
 }
