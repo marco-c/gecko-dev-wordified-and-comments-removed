@@ -597,6 +597,7 @@ enum
 class
 PostBarrierKind
 {
+None
 Imprecise
 Precise
 WholeCell
@@ -7450,6 +7451,8 @@ AnyReg
 value
 PreBarrierKind
 preBarrierKind
+PostBarrierKind
+postBarrierKind
 )
 ;
 #
