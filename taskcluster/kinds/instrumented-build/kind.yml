@@ -607,9 +607,6 @@ ac_add_options
 target
 =
 aarch64
--
-unset
-MOZ_STDCXX_COMPAT
 tooltool
 -
 downloads

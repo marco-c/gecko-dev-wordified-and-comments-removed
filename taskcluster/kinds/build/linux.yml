@@ -10006,9 +10006,6 @@ ac_add_options
 target
 =
 aarch64
--
-unset
-MOZ_STDCXX_COMPAT
 script
 :
 "
@@ -10226,9 +10223,6 @@ ac_add_options
 target
 =
 aarch64
--
-unset
-MOZ_STDCXX_COMPAT
 script
 :
 "
@@ -10542,9 +10536,6 @@ ac_add_options
 target
 =
 aarch64
--
-unset
-MOZ_STDCXX_COMPAT
 script
 :
 "
@@ -10850,9 +10841,6 @@ ac_add_options
 target
 =
 aarch64
--
-unset
-MOZ_STDCXX_COMPAT
 script
 :
 "
