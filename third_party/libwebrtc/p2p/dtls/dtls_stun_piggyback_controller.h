@@ -208,6 +208,11 @@ ClearCachedPacketForTesting
 (
 )
 ;
+void
+Flush
+(
+)
+;
 std
 :
 :
@@ -276,6 +281,15 @@ State
 :
 :
 TENTATIVE
+;
+bool
+writing_packets_
+RTC_GUARDED_BY
+(
+sequence_checker_
+)
+=
+false
 ;
 rtc
 :
