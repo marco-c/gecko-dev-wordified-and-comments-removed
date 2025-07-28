@@ -105,6 +105,13 @@ partition_alloc
 namespace
 internal
 {
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 constexpr
 size_t
 kAlignment
@@ -152,6 +159,8 @@ bytes
 "
 )
 ;
+#
+endif
 struct
 SlotSpanMetadata
 ;

@@ -2914,6 +2914,13 @@ parsed_time
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 void
 UTCExplode
 (
@@ -2972,6 +2979,8 @@ true
 )
 ;
 }
+#
+endif
 static
 constexpr
 Time

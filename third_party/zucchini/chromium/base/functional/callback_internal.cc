@@ -76,6 +76,17 @@ NOTREACHED
 (
 )
 ;
+#
+if
+defined
+(
+MOZ_ZUCCHINI
+)
+return
+false
+;
+#
+endif
 }
 }
 void
