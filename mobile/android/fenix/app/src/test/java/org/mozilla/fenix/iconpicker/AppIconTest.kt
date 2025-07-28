@@ -79,7 +79,7 @@ junit
 .
 Test
 class
-AliasSuffixTest
+AppIconTest
 {
 Test
 fun

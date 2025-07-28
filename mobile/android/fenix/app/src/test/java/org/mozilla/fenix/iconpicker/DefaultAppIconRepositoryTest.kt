@@ -150,7 +150,7 @@ AndroidJUnit4
 class
 )
 class
-DefaultSettingsAppIconRepositoryTest
+DefaultAppIconRepositoryTest
 {
 private
 lateinit
