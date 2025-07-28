@@ -1500,10 +1500,7 @@ nsSupportsWeakReference
 public
 LinkedListElement
 <
-RefPtr
-<
 SessionHistoryEntry
->
 >
 {
 public
