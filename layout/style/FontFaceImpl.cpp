@@ -2167,6 +2167,15 @@ mLineGapOverride
 )
 |
 |
+(
+StaticPrefs
+:
+:
+layout_css_size_adjust_enabled
+(
+)
+&
+&
 !
 setDesc
 (
@@ -2174,6 +2183,7 @@ eCSSFontDesc_SizeAdjust
 aDescriptors
 .
 mSizeAdjust
+)
 )
 )
 {
