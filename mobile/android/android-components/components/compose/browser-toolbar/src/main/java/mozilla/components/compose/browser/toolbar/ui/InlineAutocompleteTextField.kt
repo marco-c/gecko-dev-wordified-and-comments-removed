@@ -1063,12 +1063,9 @@ isNotBlank
 )
 )
 {
-post
-{
 selectAll
 (
 )
-}
 }
 setOnCommitListener
 {
