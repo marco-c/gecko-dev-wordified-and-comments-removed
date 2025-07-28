@@ -865,6 +865,19 @@ state
 {
 it
 }
+if
+(
+uiState
+.
+displayState
+.
+navigationActions
+.
+isNotEmpty
+(
+)
+)
+{
 FirefoxTheme
 {
 NavigationBar
@@ -890,6 +903,7 @@ it
 )
 }
 )
+}
 }
 }
 }
