@@ -50,6 +50,9 @@ struct
 SelectorWarning
 ;
 class
+StylePropertyMap
+;
+class
 CSSStyleRuleDeclaration
 final
 :
@@ -350,6 +353,12 @@ return
 mDecls
 ;
 }
+StylePropertyMap
+*
+StyleMap
+(
+)
+;
 StyleLockedStyleRule
 *
 Raw
@@ -468,6 +477,12 @@ RefPtr
 StyleLockedStyleRule
 >
 mRawRule
+;
+RefPtr
+<
+StylePropertyMap
+>
+mStyleMap
 ;
 CSSStyleRuleDeclaration
 mDecls
