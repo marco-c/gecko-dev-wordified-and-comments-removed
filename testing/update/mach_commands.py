@@ -553,6 +553,20 @@ minor_versions
 0
 ]
         
+valid_versions
+.
+append
+(
+f
+"
+{
+major
+}
+.
+0
+"
+)
+        
 for
 minor
 in
