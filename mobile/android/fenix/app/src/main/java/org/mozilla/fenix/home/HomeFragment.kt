@@ -2476,6 +2476,9 @@ appStore
 browserStore
 =
 store
+hideWhenKeyboardShown
+=
+true
 )
 if
 (

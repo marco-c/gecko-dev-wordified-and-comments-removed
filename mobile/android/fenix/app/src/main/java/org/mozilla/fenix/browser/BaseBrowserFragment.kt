@@ -7240,6 +7240,9 @@ activity
 settings
 (
 )
+hideWhenKeyboardShown
+=
+true
 customTabSession
 =
 customTabSessionId
