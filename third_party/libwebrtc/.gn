@@ -699,7 +699,9 @@ in
 WebRTC
 enable_rust
 =
-true
+false
+#
+Mozilla
 enable_rust_cxx
 =
 true
