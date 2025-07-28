@@ -58,7 +58,7 @@ golang
 :
 1
 .
-22
+24
 as
 skopeo
 ARG
@@ -96,7 +96,7 @@ golang
 :
 1
 .
-22
+24
 as
 kaniko
 ARG
