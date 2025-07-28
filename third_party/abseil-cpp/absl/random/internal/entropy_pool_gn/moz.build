@@ -184,9 +184,11 @@ cpp
 /
 absl
 /
-types
+random
 /
-bad_variant_access
+internal
+/
+entropy_pool
 .
 cc
 "
@@ -661,6 +663,14 @@ __STD_C
 ]
 =
 True
+OS_LIBS
++
+=
+[
+"
+bcrypt
+"
+]
 if
 CONFIG
 [
@@ -1188,6 +1198,6 @@ True
 Library
 (
 "
-bad_variant_access_gn
+entropy_pool_gn
 "
 )
