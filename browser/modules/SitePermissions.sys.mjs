@@ -7377,6 +7377,17 @@ exactHostMatch
 :
 true
 }
+"
+local
+-
+network
+"
+:
+{
+exactHostMatch
+:
+true
+}
 microphone
 :
 {
