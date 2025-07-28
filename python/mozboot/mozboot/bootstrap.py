@@ -74,6 +74,12 @@ Version
 from
 mozboot
 .
+aerynos
+import
+AerynOsBootstrapper
+from
+mozboot
+.
 archlinux
 import
 ArchlinuxBootstrapper
@@ -1641,6 +1647,20 @@ exists
 cls
 =
 ArchlinuxBootstrapper
+            
+elif
+dist_id
+in
+(
+"
+aerynos
+"
+)
+:
+                
+cls
+=
+AerynOsBootstrapper
             
 elif
 dist_id
