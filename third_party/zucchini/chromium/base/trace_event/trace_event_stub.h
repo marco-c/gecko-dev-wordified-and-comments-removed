@@ -736,13 +736,6 @@ capacity
 )
 {
 }
-#
-if
-!
-defined
-(
-MOZ_ZUCCHINI
-)
 std
 :
 :
@@ -762,8 +755,6 @@ return
 nullptr
 ;
 }
-#
-endif
 std
 :
 :
