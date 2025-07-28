@@ -3673,6 +3673,11 @@ sessionId
 args
 .
 sessionToStartSearchFor
+source
+=
+args
+.
+searchAccessPoint
 )
 tabStripContent
 =
