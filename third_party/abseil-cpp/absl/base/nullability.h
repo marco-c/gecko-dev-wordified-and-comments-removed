@@ -51,6 +51,10 @@ ABSL_HAVE_FEATURE
 (
 nullability_on_classes
 )
+&
+&
+\
+0
 #
 define
 absl_nonnull
