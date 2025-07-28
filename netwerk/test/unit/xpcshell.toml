@@ -3258,6 +3258,13 @@ js
 ]
 [
 "
+test_cookies_chips_purge_crash
+.
+js
+"
+]
+[
+"
 test_cookies_partition_counting
 .
 js
