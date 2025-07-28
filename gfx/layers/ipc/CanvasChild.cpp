@@ -3920,6 +3920,7 @@ mRecorder
 >
 RecordEvent
 (
+aTarget
 RecordedResolveExternalSnapshot
 (
 syncId
@@ -3930,6 +3931,8 @@ ReferencePtr
 (
 surface
 )
+size
+format
 )
 )
 ;

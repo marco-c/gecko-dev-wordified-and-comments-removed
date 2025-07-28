@@ -1530,7 +1530,7 @@ actor
 }
 already_AddRefed
 <
-DataSourceSurface
+SourceSurface
 >
 CanvasManagerParent
 :
@@ -1548,6 +1548,15 @@ ActorId
 aCanvasId
 uintptr_t
 aSurfaceId
+Maybe
+<
+layers
+:
+:
+SurfaceDescriptor
+>
+*
+aDesc
 )
 {
 IProtocol
@@ -1604,6 +1613,7 @@ actor
 WaitForSurface
 (
 aSurfaceId
+aDesc
 )
 ;
 default

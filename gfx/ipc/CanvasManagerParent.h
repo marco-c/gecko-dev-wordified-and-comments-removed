@@ -284,7 +284,7 @@ aCanvasId
 static
 already_AddRefed
 <
-DataSourceSurface
+SourceSurface
 >
 GetCanvasSurface
 (
@@ -299,6 +299,17 @@ ActorId
 aCanvasId
 uintptr_t
 aSurfaceId
+Maybe
+<
+layers
+:
+:
+SurfaceDescriptor
+>
+*
+aDesc
+=
+nullptr
 )
 ;
 private

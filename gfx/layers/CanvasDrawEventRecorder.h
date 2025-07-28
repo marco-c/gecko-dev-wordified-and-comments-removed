@@ -327,6 +327,12 @@ Helpers
 aHelpers
 )
 ;
+using
+DrawEventRecorderPrivate
+:
+:
+RecordEvent
+;
 void
 RecordEvent
 (

@@ -10584,7 +10584,7 @@ mFormat
 SurfaceFormat
 :
 :
-A8R8G8B8_UINT32
+B8G8R8A8
 SurfaceFormat
 :
 :
@@ -11149,7 +11149,7 @@ mFormat
 SurfaceFormat
 :
 :
-A8R8G8B8_UINT32
+B8G8R8A8
 SurfaceFormat
 :
 :
@@ -11659,7 +11659,7 @@ mFormat
 SurfaceFormat
 :
 :
-A8R8G8B8_UINT32
+B8G8R8A8
 SurfaceFormat
 :
 :
@@ -11801,7 +11801,7 @@ mFormat
 SurfaceFormat
 :
 :
-A8R8G8B8_UINT32
+B8G8R8A8
 SurfaceFormat
 :
 :
@@ -18350,7 +18350,7 @@ mFormat
 SurfaceFormat
 :
 :
-A8R8G8B8_UINT32
+B8G8R8A8
 SurfaceFormat
 :
 :
