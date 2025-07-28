@@ -1549,6 +1549,16 @@ appPermissionRequest
 else
 {
 it
+.
+appPermissionRequestsList
+.
+mergePermissions
+(
+action
+.
+appPermissionRequest
+)
+it
 }
 }
 is
