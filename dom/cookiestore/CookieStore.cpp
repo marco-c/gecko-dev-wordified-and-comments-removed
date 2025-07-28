@@ -624,6 +624,9 @@ const
 nsAString
 &
 aDomain
+nsAString
+&
+aRetDomain
 Promise
 *
 aPromise
@@ -634,9 +637,21 @@ MOZ_ASSERT
 aPromise
 )
 ;
-if
+aRetDomain
+.
+Assign
 (
 aDomain
+)
+;
+ToLowerCase
+(
+aRetDomain
+)
+;
+if
+(
+aRetDomain
 .
 IsEmpty
 (
@@ -704,7 +719,7 @@ aName
 &
 &
 !
-aDomain
+aRetDomain
 .
 IsEmpty
 (
@@ -738,7 +753,7 @@ false
 }
 if
 (
-aDomain
+aRetDomain
 [
 0
 ]
@@ -781,7 +796,7 @@ if
 host
 !
 =
-aDomain
+aRetDomain
 )
 {
 if
@@ -793,7 +808,7 @@ Length
 (
 )
 <
-aDomain
+aRetDomain
 .
 Length
 (
@@ -807,7 +822,7 @@ Length
 StringEndsWith
 (
 host
-aDomain
+aRetDomain
 )
 |
 |
@@ -819,7 +834,7 @@ Length
 (
 )
 -
-aDomain
+aRetDomain
 .
 Length
 (
@@ -858,7 +873,7 @@ false
 }
 if
 (
-aDomain
+aRetDomain
 .
 Length
 (
@@ -2174,6 +2189,9 @@ promise
 return
 ;
 }
+nsString
+domain
+;
 if
 (
 !
@@ -2186,6 +2204,7 @@ mName
 aOptions
 .
 mDomain
+domain
 promise
 )
 )
@@ -2219,9 +2238,7 @@ mName
 aOptions
 .
 mValue
-aOptions
-.
-mDomain
+domain
 aOptions
 .
 mPath
@@ -2434,9 +2451,7 @@ ComputeExpiry
 (
 aOptions
 )
-aOptions
-.
-mDomain
+domain
 aOptions
 .
 mPath
@@ -2778,6 +2793,9 @@ get
 (
 )
 {
+nsString
+domain
+;
 if
 (
 !
@@ -2790,6 +2808,7 @@ mName
 aOptions
 .
 mDomain
+domain
 promise
 )
 )
@@ -2824,9 +2843,7 @@ u
 "
 "
 _ns
-aOptions
-.
-mDomain
+domain
 aOptions
 .
 mPath
@@ -3025,9 +3042,7 @@ isOn3PCBExceptionList
 aOptions
 .
 mName
-aOptions
-.
-mDomain
+domain
 aOptions
 .
 mPath
