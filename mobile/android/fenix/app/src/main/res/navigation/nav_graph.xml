@@ -1682,7 +1682,7 @@ TabsTrayAccessPoint
 dialog
 >
 <
-fragment
+dialog
 android
 :
 id
@@ -1804,7 +1804,7 @@ TabsTrayAccessPoint
 >
 <
 /
-fragment
+dialog
 >
 <
 fragment
