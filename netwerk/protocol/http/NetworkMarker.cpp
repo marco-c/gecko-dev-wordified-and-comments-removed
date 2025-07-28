@@ -102,7 +102,7 @@ int32_t
 aPri
 int64_t
 aCount
-net
+nsICacheInfoChannel
 :
 :
 CacheDisposition
@@ -773,7 +773,7 @@ char
 >
 GetCacheState
 (
-net
+nsICacheInfoChannel
 :
 :
 CacheDisposition
@@ -786,7 +786,7 @@ aCacheDisposition
 )
 {
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheUnresolved
@@ -800,7 +800,7 @@ Unresolved
 )
 ;
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheHit
@@ -814,7 +814,7 @@ Hit
 )
 ;
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheHitViaReval
@@ -828,7 +828,7 @@ HitViaReval
 )
 ;
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheMissedViaReval
@@ -842,7 +842,7 @@ MissedViaReval
 )
 ;
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheMissed
@@ -856,7 +856,7 @@ Missed
 )
 ;
 case
-net
+nsICacheInfoChannel
 :
 :
 kCacheUnknown
@@ -1378,10 +1378,7 @@ net
 NetworkLoadType
 int32_t
 int64_t
-mozilla
-:
-:
-net
+nsICacheInfoChannel
 :
 :
 CacheDisposition
@@ -1479,10 +1476,7 @@ int64_t
 &
 aCount
 const
-mozilla
-:
-:
-net
+nsICacheInfoChannel
 :
 :
 CacheDisposition
@@ -2583,10 +2577,7 @@ TimeStamp
 aEnd
 int64_t
 aCount
-mozilla
-:
-:
-net
+nsICacheInfoChannel
 :
 :
 CacheDisposition
