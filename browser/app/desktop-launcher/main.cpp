@@ -328,7 +328,11 @@ value
 c_str
 (
 )
-nullptr
+L
+"
+/
+Prompt
+"
 nullptr
 SW_SHOWNORMAL
 )
