@@ -458,17 +458,6 @@ aProofOfLock
 )
 ;
 void
-RemoveFinishedWaylandTransactionLocked
-(
-WaylandSurfaceLock
-&
-aSurfaceLock
-BufferTransaction
-*
-aTransaction
-)
-;
-void
 CommitLocked
 (
 const
