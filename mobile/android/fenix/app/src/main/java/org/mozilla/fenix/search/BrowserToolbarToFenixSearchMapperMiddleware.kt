@@ -375,10 +375,6 @@ action
 SearchFragmentAction
 )
 {
-next
-(
-action
-)
 if
 (
 action

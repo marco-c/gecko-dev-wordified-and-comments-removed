@@ -2003,9 +2003,11 @@ setText
 }
 dismissDialogAndGoBack
 =
-:
-:
+{
 dismissDialogAndGoBack
+(
+)
+}
 )
 nullableInteractor
 =

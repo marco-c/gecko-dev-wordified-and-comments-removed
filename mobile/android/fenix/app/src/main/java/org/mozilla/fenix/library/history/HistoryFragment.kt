@@ -4412,6 +4412,10 @@ middleware
 =
 listOf
 (
+BrowserToolbarSyncToHistoryMiddleware
+(
+historyStore
+)
 BrowserToolbarSearchStatusSyncMiddleware
 (
 requireComponents
