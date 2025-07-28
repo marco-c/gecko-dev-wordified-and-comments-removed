@@ -696,6 +696,7 @@ NS_ERROR_EDITOR_UNEXPECTED_DOM_TREE
 ;
 }
 }
+{
 AutoTrackDOMPoint
 trackAfterRightBlockChild
 (
@@ -819,6 +820,7 @@ propagateErr
 (
 )
 ;
+}
 }
 if
 (
