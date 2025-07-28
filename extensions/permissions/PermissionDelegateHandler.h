@@ -108,7 +108,7 @@ constexpr
 size_t
 DELEGATED_PERMISSION_COUNT
 =
-13
+14
 ;
 typedef
 struct

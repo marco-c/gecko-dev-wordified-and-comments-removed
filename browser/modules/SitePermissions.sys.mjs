@@ -7370,6 +7370,13 @@ exactHostMatch
 :
 true
 }
+localhost
+:
+{
+exactHostMatch
+:
+true
+}
 microphone
 :
 {

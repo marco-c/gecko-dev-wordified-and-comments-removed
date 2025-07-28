@@ -1288,6 +1288,13 @@ nsPIDOMWindowInner
 aWindow
 )
 {
+if
+(
+XRE_IsContentProcess
+(
+)
+)
+{
 NS_ENSURE_STATE
 (
 aWindow
@@ -1301,13 +1308,6 @@ IsCurrentInnerWindow
 )
 )
 ;
-if
-(
-XRE_IsContentProcess
-(
-)
-)
-{
 RefPtr
 <
 RemotePermissionRequest
