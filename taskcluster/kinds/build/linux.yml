@@ -10264,7 +10264,7 @@ projects
 :
 [
 '
-integration
+trunk
 '
 ]
 use
