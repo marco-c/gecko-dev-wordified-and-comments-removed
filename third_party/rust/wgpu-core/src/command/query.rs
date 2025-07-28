@@ -85,6 +85,7 @@ InvalidResourceError
 MissingBufferUsageError
 ParentDevice
 QuerySet
+RawResourceAccess
 Trackable
 }
 track
