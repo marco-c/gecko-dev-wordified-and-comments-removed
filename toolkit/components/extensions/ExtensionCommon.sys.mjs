@@ -10743,6 +10743,17 @@ assign
 (
 global
 {
+global
+/
+/
+This
+must
+be
+first
+see
+bug
+1977694
+.
 AppConstants
 Cc
 ChromeWorker
@@ -10770,7 +10781,6 @@ XPCOMUtils
 extensions
 :
 this
-global
 }
 )
 ;
