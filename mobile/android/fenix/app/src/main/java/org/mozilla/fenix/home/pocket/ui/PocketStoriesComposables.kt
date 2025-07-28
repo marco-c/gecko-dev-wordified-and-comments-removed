@@ -581,16 +581,6 @@ fenix
 .
 compose
 .
-ListItemTabLarge
-import
-org
-.
-mozilla
-.
-fenix
-.
-compose
-.
 ListItemTabSurface
 import
 org
@@ -909,7 +899,7 @@ timeToRead
 >
 =
 0
-ListItemTabLarge
+ListItemTabSurface
 (
 imageUrl
 =
@@ -925,8 +915,7 @@ onStoryClick
 story
 )
 }
-title
-=
+)
 {
 Text
 (
@@ -977,10 +966,6 @@ typography
 .
 body2
 )
-}
-subtitle
-=
-{
 if
 (
 isValidPublisher
@@ -1122,7 +1107,6 @@ caption
 )
 }
 }
-)
 }
 /
 *
@@ -1897,7 +1881,7 @@ roundToInt
 "
 }
 )
-ListItemTabLarge
+ListItemTabSurface
 (
 imageUrl
 =
@@ -1913,8 +1897,7 @@ onClick
 recommendation
 )
 }
-title
-=
+)
 {
 Text
 (
@@ -1965,10 +1948,6 @@ typography
 .
 body2
 )
-}
-subtitle
-=
-{
 Text
 (
 text
@@ -2019,7 +1998,6 @@ typography
 caption
 )
 }
-)
 }
 /
 *
