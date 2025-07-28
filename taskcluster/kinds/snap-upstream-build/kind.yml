@@ -126,7 +126,7 @@ linux
 -
 xlarge
 -
-gcp
+amd
 run
 :
 checkout
