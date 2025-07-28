@@ -223,6 +223,14 @@ aIndex
 const
 ;
 size_t
+SizeOfExcludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
+size_t
 SizeOfIncludingThis
 (
 MallocSizeOf

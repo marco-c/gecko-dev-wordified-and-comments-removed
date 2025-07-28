@@ -151,6 +151,9 @@ class
 PopoverData
 ;
 class
+StylePropertyMap
+;
+class
 StylePropertyMapReadOnly
 ;
 }
@@ -825,6 +828,12 @@ RefPtr
 StylePropertyMapReadOnly
 >
 mComputedStyleMap
+;
+RefPtr
+<
+StylePropertyMap
+>
+mAttributeStyleMap
 ;
 }
 ;

@@ -174,6 +174,14 @@ Clear
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 virtual
