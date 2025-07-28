@@ -930,6 +930,9 @@ FFmpegAudio
 FFmpegLib
 :
 4
+VideoFrameContainer
+:
+5
 "
 l10nIds
 :
