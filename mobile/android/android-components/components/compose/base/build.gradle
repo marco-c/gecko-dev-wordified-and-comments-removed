@@ -220,6 +220,14 @@ libs
 .
 androidx
 .
+navigation
+.
+compose
+implementation
+libs
+.
+androidx
+.
 compose
 .
 ui
