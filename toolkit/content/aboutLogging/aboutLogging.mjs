@@ -930,12 +930,6 @@ FFmpegAudio
 FFmpegLib
 :
 4
-VideoFrameContainer
-:
-5
-CompositableTextureParent
-:
-5
 "
 l10nIds
 :
