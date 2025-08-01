@@ -281,8 +281,7 @@ Terminated
 (
 )
 override
-{
-}
+;
 void
 OnSetSessionId
 (
