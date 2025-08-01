@@ -733,6 +733,13 @@ js
 ]
 [
 "
+browser_downloads_taskbar
+.
+js
+"
+]
+[
+"
 browser_first_download_panel
 .
 js
