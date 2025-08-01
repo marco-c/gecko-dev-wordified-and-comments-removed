@@ -40441,15 +40441,6 @@ PseudoStyleType
 NotPseudo
 |
 |
-pseudo
-=
-=
-PseudoStyleType
-:
-:
-detailsContent
-|
-|
 (
 pseudo
 =
