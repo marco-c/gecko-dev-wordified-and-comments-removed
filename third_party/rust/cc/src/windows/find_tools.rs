@@ -929,6 +929,7 @@ VisualStudio
 version
 :
 {
+vers
 }
 \
 n
@@ -954,7 +955,6 @@ crate
 n
 \
 "
-vers
 )
 )
 }
