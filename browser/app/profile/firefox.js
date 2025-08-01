@@ -2506,7 +2506,7 @@ deduplication
 .
 enabled
 "
-false
+true
 )
 ;
 pref
