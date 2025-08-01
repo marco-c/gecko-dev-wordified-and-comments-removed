@@ -2422,13 +2422,11 @@ replacement
 MConstant
 :
 :
-New
+NewInt32
 (
 alloc
 (
 )
-Int32Value
-(
 as
 -
 >
@@ -2439,7 +2437,6 @@ toConstant
 >
 toBoolean
 (
-)
 )
 )
 ;

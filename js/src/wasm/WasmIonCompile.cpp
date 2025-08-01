@@ -2930,15 +2930,12 @@ constant
 MConstant
 :
 :
-New
+NewInt32
 (
 alloc
 (
 )
-Int32Value
-(
 i
-)
 )
 ;
 curBlock_
