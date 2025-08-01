@@ -3252,11 +3252,7 @@ fileHasPossibleExtension
 {
 return
 "
-{
 file
-.
-nameWithoutExtension
-}
 .
 extensionFromMimeType
 "
