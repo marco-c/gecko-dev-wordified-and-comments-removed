@@ -56833,8 +56833,6 @@ printf
 (
 "
 auto
--
-min
 "
 )
 ;
