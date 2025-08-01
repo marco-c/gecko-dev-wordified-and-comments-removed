@@ -6510,12 +6510,9 @@ constant
 MConstant
 :
 :
-New
+NewNull
 (
 alloc
-(
-)
-NullValue
 (
 )
 )
