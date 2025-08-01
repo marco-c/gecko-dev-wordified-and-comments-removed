@@ -369,6 +369,14 @@ ktx
 implementation
 libs
 .
+androidx
+.
+fragment
+.
+compose
+implementation
+libs
+.
 google
 .
 material
