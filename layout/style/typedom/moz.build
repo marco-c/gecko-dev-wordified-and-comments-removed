@@ -34,6 +34,11 @@ CSSStyleValue
 h
 "
 "
+CSSUnparsedValue
+.
+h
+"
+"
 StylePropertyMap
 .
 h
@@ -50,6 +55,11 @@ UNIFIED_SOURCES
 [
 "
 CSSStyleValue
+.
+cpp
+"
+"
+CSSUnparsedValue
 .
 cpp
 "

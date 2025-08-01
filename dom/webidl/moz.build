@@ -3504,6 +3504,11 @@ CSSTransition
 webidl
 "
 "
+CSSUnparsedValue
+.
+webidl
+"
+"
 CustomElementRegistry
 .
 webidl
