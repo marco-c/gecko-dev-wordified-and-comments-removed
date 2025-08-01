@@ -62,6 +62,10 @@ topSitesEnabled
 :
 true
 }
+enabledWidgets
+:
+{
+}
 mayHaveSponsoredTopSites
 :
 true
