@@ -1868,12 +1868,14 @@ newtab
 #
 #
 #
-DATAREPORTING_NOTIFY_DATA_POLICY_INTERACTED
+SET_TERMS_OF_USE_INTERACTED
 Notify
 Firefox
 that
 the
-notification
+Terms
+of
+Use
 policy
 was
 interacted
