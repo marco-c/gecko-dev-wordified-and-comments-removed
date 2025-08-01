@@ -597,7 +597,7 @@ activityRule
 {
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .
@@ -763,7 +763,7 @@ closeAddonInstallCompletePrompt
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .
@@ -906,7 +906,7 @@ closeAddonInstallCompletePrompt
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 navigationToolbar
@@ -1017,7 +1017,7 @@ closeAddonInstallCompletePrompt
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 navigationToolbar

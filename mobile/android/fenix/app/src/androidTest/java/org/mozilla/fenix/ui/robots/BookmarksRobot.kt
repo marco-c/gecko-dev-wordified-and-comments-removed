@@ -2529,7 +2529,7 @@ i
 (
 TAG
 "
-goBackToBrowserScreen
+goBackToHomeScreen
 :
 Trying
 to
@@ -2562,7 +2562,7 @@ i
 (
 TAG
 "
-goBackToBrowserScreen
+goBackToHomeScreen
 :
 Clicked
 go

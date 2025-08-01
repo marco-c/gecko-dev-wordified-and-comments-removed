@@ -2493,7 +2493,7 @@ Transition
 )
 }
 fun
-goBack
+goBackToHomeScreen
 (
 composeTestRule
 :
@@ -2519,7 +2519,7 @@ i
 (
 TAG
 "
-goBack
+goBackToHomeScreen
 :
 Trying
 to
@@ -2554,7 +2554,7 @@ i
 (
 TAG
 "
-goBack
+goBackToHomeScreen
 :
 Clicked
 the

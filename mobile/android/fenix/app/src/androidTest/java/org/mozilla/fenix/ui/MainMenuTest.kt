@@ -615,7 +615,7 @@ composeTestRule
 )
 }
 .
-goBack
+goBackToHomeScreen
 (
 composeTestRule
 )
@@ -655,7 +655,7 @@ true
 )
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .

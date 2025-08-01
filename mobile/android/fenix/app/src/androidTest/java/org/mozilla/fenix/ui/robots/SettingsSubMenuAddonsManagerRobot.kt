@@ -1178,7 +1178,7 @@ addonsMenu
 {
 }
 .
-goBack
+goBackToHomeScreen
 {
 }
 .
@@ -3637,7 +3637,7 @@ class
 Transition
 {
 fun
-goBack
+goBackToHomeScreen
 (
 interact
 :
@@ -3660,7 +3660,7 @@ i
 (
 TAG
 "
-goBack
+goBackToHomeScreen
 :
 Trying
 to
@@ -3694,7 +3694,7 @@ i
 (
 TAG
 "
-goBack
+goBackToHomeScreen
 :
 Clicked
 the
