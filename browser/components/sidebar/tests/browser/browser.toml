@@ -384,6 +384,13 @@ js
 ]
 [
 "
+browser_sidebar_pinned_tabs
+.
+js
+"
+]
+[
+"
 browser_sidebar_position
 .
 js

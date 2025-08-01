@@ -63,6 +63,17 @@ closedTabsFromClosedWindows
 =
 true
 "
+"
+sidebar
+.
+verticalTabs
+.
+dragToPinPromo
+.
+dismissed
+=
+true
+"
 ]
 [
 "
