@@ -855,6 +855,10 @@ SFTKObject
 *
 key
 ;
+SECItem
+*
+signature
+;
 }
 ;
 struct
@@ -1400,6 +1404,10 @@ id
 SFTK_MIN_FIPS_USER_SLOT_ID
 )
 )
+#
+define
+SFTK_VALIDATION_FIPS_FLAG
+0x00000001L
 #
 define
 SHMULTIPLIER
