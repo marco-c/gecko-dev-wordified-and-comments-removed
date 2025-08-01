@@ -6107,6 +6107,12 @@ isLoopHeader
 )
 ;
 }
+LBlock
+*
+isMoveGroupsThenGoto
+(
+)
+;
 #
 ifdef
 JS_JITSPEW
