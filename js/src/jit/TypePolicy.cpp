@@ -5715,13 +5715,13 @@ value
 MConstant
 :
 :
-New
+NewDouble
 (
 alloc
 JS
 :
 :
-NaNValue
+GenericNaN
 (
 )
 )
