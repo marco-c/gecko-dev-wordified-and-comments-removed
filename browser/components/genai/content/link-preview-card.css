@@ -721,6 +721,8 @@ var
 icon
 -
 size
+-
+default
 )
 ;
 margin
@@ -762,6 +764,8 @@ var
 icon
 -
 size
+-
+default
 )
 ;
 }
