@@ -24249,6 +24249,12 @@ SetScrollGeneration
 oldScrollGeneration
 )
 ;
+if
+(
+!
+isDefault
+)
+{
 Metrics
 (
 )
@@ -24267,6 +24273,7 @@ SetVisualScrollOffset
 oldVisualScrollOffset
 )
 ;
+}
 }
 mExpectedGeckoMetrics
 .
