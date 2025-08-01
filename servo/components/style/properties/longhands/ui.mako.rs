@@ -264,6 +264,11 @@ animation_type
 "
 discrete
 "
+enabled_in
+=
+"
+chrome
+"
 spec
 =
 "
