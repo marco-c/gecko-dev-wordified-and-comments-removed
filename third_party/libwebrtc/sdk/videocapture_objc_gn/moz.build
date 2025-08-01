@@ -250,15 +250,6 @@ LOCAL_INCLUDES
 "
 !
 /
-dist
-/
-include
-/
-libwebrtc_overrides
-"
-"
-!
-/
 ipc
 /
 ipdl

@@ -23,12 +23,6 @@ moz_build_flag
 build_mozilla_absl
 "
 "
-mozilla_add_override_dir
-"
-:
-"
-"
-"
 gn_target
 "
 :

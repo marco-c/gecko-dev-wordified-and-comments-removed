@@ -292,14 +292,14 @@ v
 )
         
 return
-f
 '
 "
-{
+%
+s
+"
+'
+%
 v
-}
-"
-'
     
 def
 finalize
@@ -334,11 +334,15 @@ self
 .
 write_ln
 (
-f
+                    
 "
 SharedLibrary
 (
-{
+%
+s
+)
+"
+%
 self
 .
 mb_serialize
@@ -347,9 +351,7 @@ self
 .
 _library_name
 )
-}
-)
-"
+                
 )
             
 else
@@ -359,11 +361,14 @@ self
 .
 write_ln
 (
-f
 "
 Library
 (
-{
+%
+s
+)
+"
+%
 self
 .
 mb_serialize
@@ -372,9 +377,6 @@ self
 .
 _library_name
 )
-}
-)
-"
 )
     
 def
@@ -669,21 +671,23 @@ self
 .
 write_ln
 (
-f
 "
-{
-key
-}
+%
+s
 =
-{
+%
+s
+"
+%
+(
+key
 self
 .
 mb_serialize
 (
 value
 )
-}
-"
+)
 )
                 
 self
@@ -796,17 +800,19 @@ self
 .
 write_ln
 (
-f
 "
-{
+%
+s
+"
+%
+(
 self
 .
 mb_serialize
 (
 o
 )
-}
-"
+)
 )
                 
 for
@@ -838,21 +844,23 @@ self
 .
 write_ln
 (
-f
 "
-{
-k
-}
+%
+s
 =
-{
+%
+s
+"
+%
+(
+k
 self
 .
 mb_serialize
 (
 v
 )
-}
-"
+)
 )
                 
 self
@@ -954,33 +962,19 @@ self
 .
 write_ln
 (
-                        
-f
 "
-{
-key
-}
+%
+s
 [
-{
-self
-.
-mb_serialize
-(
-k
-)
-}
+%
+s
 ]
 =
-{
-self
-.
-mb_serialize
-(
-v
-)
-}
+%
+s
 "
-                    
+%
+subst_vals
 )
     
 def
@@ -1005,41 +999,43 @@ v
 :
                 
 return
-f
 '
 not
 CONFIG
 [
 "
-{
-k
-}
+%
+s
 "
 ]
 '
+%
+k
             
 return
-f
 '
 CONFIG
 [
 "
-{
-k
-}
+%
+s
 "
 ]
 =
 =
-{
+%
+s
+'
+%
+(
+k
 self
 .
 mb_serialize
 (
 v
 )
-}
-'
+)
         
 self
 .
@@ -1719,14 +1715,6 @@ d
                     
 and
 "
-CR_SYSROOT_KEY
-"
-not
-in
-d
-                    
-and
-"
 _FORTIFY_SOURCE
 "
 not
@@ -1796,18 +1784,11 @@ process_gn_config
 (
     
 gn_config
-    
 topsrcdir
-    
 srcdir
-    
 non_unified_sources
-    
 sandbox_vars
-    
 mozilla_flags
-    
-mozilla_add_override_dir
 )
 :
     
@@ -1948,17 +1929,19 @@ startswith
             
 path
 =
-f
 "
 /
-{
+%
+s
+/
+%
+s
+"
+%
+(
 project_relsrcdir
-}
-/
-{
 path
-}
-"
+)
         
 return
 path
@@ -2064,7 +2047,6 @@ not
 currently
 "
                 
-f
 '
 consumed
 by
@@ -2073,14 +2055,8 @@ moz
 build
 :
 "
-{
-spec
-[
-"
-type
-"
-]
-}
+%
+s
 "
 .
 It
@@ -2108,6 +2084,13 @@ GnConfigGen
 step
 .
 "
+%
+spec
+[
+"
+type
+"
+]
             
 )
         
@@ -2274,19 +2257,6 @@ False
 for
 f
 in
-[
-item
-.
-lstrip
-(
-"
-/
-/
-"
-)
-for
-item
-in
 spec
 .
 get
@@ -2297,8 +2267,19 @@ sources
 [
 ]
 )
-]
 :
+            
+f
+=
+f
+.
+lstrip
+(
+"
+/
+/
+"
+)
             
 ext
 =
@@ -2322,30 +2303,35 @@ ext
             
 src
 =
-f
 "
-{
-project_relsrcdir
-}
+%
+s
 /
-{
-f
-}
+%
+s
 "
+%
+(
+project_relsrcdir
+f
+)
             
 if
 ext
-in
-{
+=
+=
 "
 .
 h
 "
+or
+ext
+=
+=
 "
 .
 inc
 "
-}
 :
                 
 continue
@@ -2388,13 +2374,13 @@ unified_sources
 .
 append
 (
-f
 "
 /
-{
-src
-}
+%
+s
 "
+%
+src
 )
             
 else
@@ -2404,13 +2390,13 @@ sources
 .
 append
 (
-f
 "
 /
-{
-src
-}
+%
+s
 "
+%
+src
 )
             
 if
@@ -2629,15 +2615,13 @@ gen
 print
 (
                             
-f
 "
 Included
 path
 :
 '
-{
-resolved
-}
+%
+s
 '
 does
 not
@@ -2652,6 +2636,8 @@ GN
 configuration
 .
 "
+%
+resolved
                             
 file
 =
@@ -3021,26 +3007,6 @@ OS_LIBS
 =
 [
 lib_name
-]
-        
-if
-mozilla_add_override_dir
-!
-=
-"
-"
-:
-            
-context_attrs
-[
-"
-LOCAL_INCLUDES
-"
-]
-+
-=
-[
-mozilla_add_override_dir
 ]
         
 context_attrs
@@ -4863,13 +4829,13 @@ write_mozbuild_list
 DIRS
 "
 [
-f
 "
 /
-{
-d
-}
+%
+s
 "
+%
+d
 for
 d
 in
@@ -4962,8 +4928,6 @@ moz_build_flag
 non_unified_sources
     
 mozilla_flags
-    
-mozilla_add_override_dir
 )
 :
     
@@ -4994,14 +4958,14 @@ lower
 )
         
 return
-f
 '
 "
-{
+%
+s
+"
+'
+%
 v
-}
-"
-'
     
 build_root_dir
 =
@@ -5147,32 +5111,37 @@ mac_sdk_path
     
 gn_args
 =
-f
-'
+"
 -
 -
 args
 =
-{
+%
+s
+"
+%
 "
 "
 .
 join
 (
+        
 [
-f
 "
-{
-k
-}
+%
+s
 =
-{
+%
+s
+"
+%
+(
+k
 str_for_arg
 (
 v
 )
-}
-"
+)
 for
 k
 v
@@ -5183,9 +5152,8 @@ items
 (
 )
 ]
+    
 )
-}
-'
     
 with
 tempfile
@@ -5260,11 +5228,14 @@ gn
         
 print
 (
-f
 '
 Running
 "
-{
+%
+s
+"
+'
+%
 "
 "
 .
@@ -5272,9 +5243,6 @@ join
 (
 gen_args
 )
-}
-"
-'
 file
 =
 sys
@@ -5406,8 +5374,6 @@ sandbox_vars
 ]
                 
 mozilla_flags
-                
-mozilla_add_override_dir
             
 )
             
@@ -5888,13 +5854,6 @@ config
 [
 "
 mozilla_flags
-"
-]
-                
-config
-[
-"
-mozilla_add_override_dir
 "
 ]
             
