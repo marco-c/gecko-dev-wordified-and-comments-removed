@@ -39,6 +39,11 @@ CSSMathInvert
 h
 "
 "
+CSSMathMax
+.
+h
+"
+"
 CSSMathMin
 .
 h
@@ -110,6 +115,11 @@ cpp
 "
 "
 CSSMathInvert
+.
+cpp
+"
+"
+CSSMathMax
 .
 cpp
 "
