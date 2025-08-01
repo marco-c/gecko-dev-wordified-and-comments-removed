@@ -1390,8 +1390,6 @@ leftOffset
 offsetParentRect
 .
 left
-+
-winScrollX
 }
 px
 ;
@@ -1407,8 +1405,6 @@ topOffset
 offsetParentRect
 .
 top
-+
-winScrollY
 }
 px
 ;
