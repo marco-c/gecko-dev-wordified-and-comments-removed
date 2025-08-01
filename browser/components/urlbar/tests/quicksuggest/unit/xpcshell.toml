@@ -103,6 +103,13 @@ Bug
 1880214
 [
 "
+test_quicksuggest_market
+.
+js
+"
+]
+[
+"
 test_quicksuggest_mdn
 .
 js
@@ -167,13 +174,6 @@ js
 [
 "
 test_quicksuggest_scoreMap
-.
-js
-"
-]
-[
-"
-test_quicksuggest_stocks
 .
 js
 "

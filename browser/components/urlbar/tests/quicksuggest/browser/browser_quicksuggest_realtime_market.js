@@ -354,7 +354,7 @@ prefs
 "
 suggest
 .
-stocks
+market
 "
 true
 ]
@@ -420,7 +420,7 @@ urlbarView
 -
 dynamic
 -
-stocks
+market
 -
 item
 "
@@ -526,7 +526,7 @@ prefs
 "
 suggest
 .
-stocks
+market
 "
 true
 ]
@@ -592,7 +592,7 @@ urlbarView
 -
 dynamic
 -
-stocks
+market
 -
 item
 "
@@ -729,7 +729,7 @@ prefs
 "
 suggest
 .
-stocks
+market
 "
 true
 ]
@@ -827,7 +827,7 @@ urlbarView
 -
 dynamic
 -
-stocks
+market
 -
 item
 "
@@ -974,7 +974,7 @@ querySelector
 .
 urlbarView
 -
-stocks
+market
 -
 image
 "
@@ -1013,7 +1013,7 @@ querySelector
 .
 urlbarView
 -
-stocks
+market
 -
 name
 "
@@ -1047,7 +1047,7 @@ querySelector
 .
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1109,7 +1109,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1144,7 +1144,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1189,7 +1189,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1224,7 +1224,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1262,7 +1262,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1298,7 +1298,7 @@ contains
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -1332,7 +1332,7 @@ querySelector
 .
 urlbarView
 -
-stocks
+market
 -
 last
 -

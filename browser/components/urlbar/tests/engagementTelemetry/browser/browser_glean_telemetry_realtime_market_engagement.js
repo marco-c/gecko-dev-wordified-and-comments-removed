@@ -109,7 +109,7 @@ prefs
 "
 suggest
 .
-stocks
+market
 "
 true
 ]
@@ -184,7 +184,7 @@ urlbarView
 -
 dynamic
 -
-stocks
+market
 -
 item
 "
@@ -224,7 +224,7 @@ click
 selected_result
 :
 "
-merino_stocks
+merino_market
 "
 selected_position
 :
@@ -238,7 +238,7 @@ results
 :
 "
 search_engine
-merino_stocks
+merino_market
 "
 }
 ]
@@ -327,7 +327,7 @@ enter
 selected_result
 :
 "
-merino_stocks
+merino_market
 "
 selected_position
 :
@@ -341,7 +341,7 @@ results
 :
 "
 search_engine
-merino_stocks
+merino_market
 "
 }
 ]

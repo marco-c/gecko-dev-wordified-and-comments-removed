@@ -38,7 +38,7 @@ QuickSuggest
 getFeature
 (
 "
-StocksSuggestions
+MarketSuggestions
 "
 )
 .
@@ -48,7 +48,7 @@ getSuggestionTelemetryType
 }
 )
 "
-stocks
+market
 "
 "
 Telemetry
@@ -56,7 +56,7 @@ type
 should
 be
 '
-stocks
+market
 '
 "
 )

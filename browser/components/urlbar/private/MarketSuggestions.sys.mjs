@@ -135,14 +135,19 @@ A
 feature
 that
 supports
-Stocks
+Market
 suggestions
+like
+stocks
+indexes
+and
+funds
 .
 *
 /
 export
 class
-StocksSuggestions
+MarketSuggestions
 extends
 SuggestProvider
 {
@@ -156,7 +161,7 @@ return
 "
 suggest
 .
-stocks
+market
 "
 "
 suggest
@@ -178,7 +183,7 @@ return
 "
 suggest
 .
-stocks
+market
 "
 ]
 ;
@@ -200,7 +205,7 @@ getSuggestionTelemetryType
 {
 return
 "
-stocks
+market
 "
 ;
 }
@@ -237,7 +242,7 @@ todaysChangePercClassList
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -271,7 +276,7 @@ push
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -299,7 +304,7 @@ push
 "
 urlbarView
 -
-stocks
+market
 -
 todays
 -
@@ -367,7 +372,7 @@ classList
 "
 urlbarView
 -
-stocks
+market
 -
 image
 "
@@ -385,7 +390,7 @@ classList
 "
 urlbarView
 -
-stocks
+market
 -
 description
 "
@@ -411,7 +416,7 @@ classList
 "
 urlbarView
 -
-stocks
+market
 -
 name
 "
@@ -451,7 +456,7 @@ classList
 "
 urlbarView
 -
-stocks
+market
 -
 last
 -
@@ -620,7 +625,7 @@ custom_details
 dynamicType
 :
 "
-stocks
+market
 "
 }
 )

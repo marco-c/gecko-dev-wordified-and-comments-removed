@@ -414,14 +414,14 @@ js
 ]
 [
 "
-browser_glean_telemetry_realtime_optin_engagement
+browser_glean_telemetry_realtime_market_engagement
 .
 js
 "
 ]
 [
 "
-browser_glean_telemetry_realtime_stocks_engagement
+browser_glean_telemetry_realtime_optin_engagement
 .
 js
 "

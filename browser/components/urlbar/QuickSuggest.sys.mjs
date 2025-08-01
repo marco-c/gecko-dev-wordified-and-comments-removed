@@ -1178,7 +1178,7 @@ sys
 .
 mjs
 "
-MDNSuggestions
+MarketSuggestions
 :
 "
 resource
@@ -1192,13 +1192,13 @@ urlbar
 /
 private
 /
-MDNSuggestions
+MarketSuggestions
 .
 sys
 .
 mjs
 "
-StocksSuggestions
+MDNSuggestions
 :
 "
 resource
@@ -1212,7 +1212,7 @@ urlbar
 /
 private
 /
-StocksSuggestions
+MDNSuggestions
 .
 sys
 .
