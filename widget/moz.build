@@ -1280,6 +1280,11 @@ InputData
 cpp
 "
 "
+NativeMenu
+.
+cpp
+"
+"
 nsAutoRollup
 .
 cpp

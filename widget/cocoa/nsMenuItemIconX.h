@@ -145,17 +145,6 @@ nsIContent
 aContent
 )
 ;
-already_AddRefed
-<
-nsIURI
->
-GetIconURI
-(
-nsIContent
-*
-aContent
-)
-;
 Listener
 *
 mListener

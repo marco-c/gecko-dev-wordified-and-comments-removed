@@ -618,7 +618,7 @@ name
 ;
 is
 (
-getListStyleImage
+getMenuitemImage
 (
 menu
 )

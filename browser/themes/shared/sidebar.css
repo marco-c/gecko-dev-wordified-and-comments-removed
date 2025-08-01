@@ -1711,11 +1711,11 @@ webextension
 -
 menuitem
 {
-list
 -
-style
 -
-image
+menuitem
+-
+icon
 :
 var
 (
@@ -1726,10 +1726,7 @@ webextension
 menuitem
 -
 image
-inherit
 )
-!
-important
 ;
 }
 /
