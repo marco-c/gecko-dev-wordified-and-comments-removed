@@ -5189,6 +5189,11 @@ toggleOffset
 )
 ;
 }
+template
+<
+typename
+Handler
+>
 static
 void
 MaybeIncrementCodeCoverageCounter
@@ -5202,6 +5207,10 @@ script
 jsbytecode
 *
 pc
+const
+Handler
+&
+handler
 )
 {
 if
@@ -5211,6 +5220,13 @@ script
 -
 >
 hasScriptCounts
+(
+)
+|
+|
+handler
+.
+realmIndependentJitcode
 (
 )
 )
@@ -5316,6 +5332,7 @@ MaybeIncrementCodeCoverageCounter
 masm
 script
 main
+handler
 )
 ;
 }
@@ -34626,6 +34643,7 @@ handler
 pc
 (
 )
+handler
 )
 ;
 }
