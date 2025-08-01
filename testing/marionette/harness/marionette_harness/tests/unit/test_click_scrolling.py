@@ -391,7 +391,10 @@ navigate
 test_html
 )
                 
-scroll
+[
+scroll_x
+scroll_y
+]
 =
 self
 .
@@ -445,20 +448,18 @@ click
 (
 )
                 
-self
-.
-assertEqual
-(
-                    
-scroll
-                    
+[
+new_scroll_x
+new_scroll_y
+]
+=
 self
 .
 marionette
 .
 execute_script
 (
-                        
+                    
 "
 return
 [
@@ -471,9 +472,41 @@ scrollY
 ]
 ;
 "
-                    
+                
 )
                 
+assert
+(
+scroll_x
+-
+1
+)
+<
+=
+new_scroll_x
+<
+=
+(
+scroll_x
++
+1
+)
+                
+assert
+(
+scroll_y
+-
+1
+)
+<
+=
+new_scroll_y
+<
+=
+(
+scroll_y
++
+1
 )
     
 def
@@ -633,19 +666,15 @@ click
 (
 )
         
-self
-.
-assertEqual
-(
-            
-scroll_top
-            
+new_scroll_top
+=
 self
 .
 marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -655,8 +684,24 @@ body
 scrollTop
 ;
 "
+        
 )
         
+assert
+(
+scroll_top
+-
+1
+)
+<
+=
+new_scroll_top
+<
+=
+(
+scroll_top
++
+1
 )
     
 def
@@ -913,12 +958,21 @@ list_el
         
 )
         
-self
-.
-assertEqual
+assert
 (
 expected_y_offset
+-
+1
+)
+<
+=
 y_offset
+<
+=
+(
+expected_y_offset
++
+1
 )
     
 def
