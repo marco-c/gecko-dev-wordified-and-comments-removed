@@ -34,6 +34,11 @@ CSSKeywordValue
 h
 "
 "
+CSSMathClamp
+.
+h
+"
+"
 CSSMathInvert
 .
 h
@@ -110,6 +115,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSMathClamp
 .
 cpp
 "
