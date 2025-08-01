@@ -6971,6 +6971,16 @@ Shape
 s
 )
 ;
+static
+MConstant
+*
+NewUndefined
+(
+TempAllocator
+&
+alloc
+)
+;
 [
 [
 nodiscard
