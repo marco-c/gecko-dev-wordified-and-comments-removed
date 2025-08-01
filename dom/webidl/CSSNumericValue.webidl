@@ -418,8 +418,6 @@ CSSNumberish
 value
 )
 ;
-/
-/
 [
 NewObject
 Throws
