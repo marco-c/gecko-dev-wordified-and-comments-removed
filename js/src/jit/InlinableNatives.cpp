@@ -1979,6 +1979,12 @@ case
 InlinableNative
 :
 :
+TypedArrayFill
+:
+case
+InlinableNative
+:
+:
 TypedArraySet
 :
 case
