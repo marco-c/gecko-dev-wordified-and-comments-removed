@@ -29,6 +29,11 @@ dom
 =
 [
 "
+CSSKeywordValue
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -58,6 +63,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+CSSKeywordValue
+.
+cpp
+"
 "
 CSSStyleValue
 .
