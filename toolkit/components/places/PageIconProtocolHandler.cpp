@@ -1426,7 +1426,6 @@ AsyncGetFaviconForPage
 (
 pageURI
 preferredSize
-true
 )
 ;
 }
