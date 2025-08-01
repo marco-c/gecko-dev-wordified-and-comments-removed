@@ -71,6 +71,12 @@ os
 .
 Build
 import
+android
+.
+os
+.
+SystemClock
+import
 androidx
 .
 annotation
@@ -534,6 +540,12 @@ pressHome
 {
 startActivityAndWait
 (
+)
+SystemClock
+.
+sleep
+(
+1000
 )
 killProcess
 (
