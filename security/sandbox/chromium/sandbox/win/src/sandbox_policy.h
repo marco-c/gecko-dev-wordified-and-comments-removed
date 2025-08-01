@@ -172,7 +172,15 @@ GetUseRestrictingSIDs
 ;
 virtual
 void
-SetForceKnownDllLoadingFallback
+SetAllowEveryoneForUserRestricted
+(
+)
+=
+0
+;
+virtual
+bool
+GetAllowEveryoneForUserRestricted
 (
 )
 =

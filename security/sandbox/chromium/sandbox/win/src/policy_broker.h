@@ -30,8 +30,6 @@ InterceptionManager
 *
 manager
 bool
-force_known_dll_loading_fallback
-bool
 is_csrss_connected
 )
 ;
