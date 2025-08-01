@@ -40,6 +40,7 @@ f
 def
 inner
 (
+session
 *
 args
 *
@@ -48,12 +49,23 @@ kwargs
 )
 :
         
+if
+session
+.
+session_id
+is
+None
+:
+            
+return
+        
 try
 :
             
 return
 f
 (
+session
 *
 args
 *
@@ -459,16 +471,6 @@ session
 window_handle
 =
 current_window
-    
-if
-session
-.
-session_id
-is
-None
-:
-        
-return
     
 _restore_timeouts
 (
