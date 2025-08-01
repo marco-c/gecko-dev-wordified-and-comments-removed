@@ -1,6 +1,10 @@
 include
 HeadlessWidgetTypes
 ;
+include
+protocol
+PNativeLayerRemote
+;
 using
 mozilla
 :
@@ -24,6 +28,12 @@ CocoaCompositorWidgetInitData
 {
 LayoutDeviceIntSize
 clientSize
+;
+Endpoint
+<
+PNativeLayerRemoteChild
+>
+childEndpoint
 ;
 }
 ;
