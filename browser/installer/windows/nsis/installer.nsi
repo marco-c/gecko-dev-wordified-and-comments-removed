@@ -4223,6 +4223,15 @@ current
 {
 EndIf
 }
+!
+ifdef
+DESKTOP_LAUNCHER_APP
+Call
+InstallDesktopLauncherApp
+Call
+DeleteDesktopShortcuts
+!
+else
 {
 If
 }
@@ -4481,6 +4490,8 @@ EndIf
 {
 EndIf
 }
+!
+endif
 !
 ifdef
 MOZ_OPTIONAL_EXTENSIONS
