@@ -6238,6 +6238,30 @@ url_base
 _mozilla
 /
 "
+                          
+"
+testdriver
+"
+:
+True
+if
+test
+.
+test_type
+=
+=
+"
+testharness
+"
+else
+getattr
+(
+test
+"
+testdriver
+"
+False
+)
 }
         
 return
@@ -6445,6 +6469,19 @@ supports_window_resize
 "
 :
 True
+                                 
+"
+testdriver
+"
+:
+self
+.
+_settings
+[
+"
+testdriver
+"
+]
 }
     
 def
@@ -7344,6 +7381,12 @@ and
 test
 .
 mozleak_threshold
+                
+"
+testdriver
+"
+:
+False
 }
     
 property
