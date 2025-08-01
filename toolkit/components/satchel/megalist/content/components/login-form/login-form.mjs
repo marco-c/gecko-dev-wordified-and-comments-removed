@@ -1686,7 +1686,7 @@ manager
 -
 passwords
 -
-update
+edit
 -
 label
 "
