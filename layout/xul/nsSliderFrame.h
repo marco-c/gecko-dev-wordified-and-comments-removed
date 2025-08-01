@@ -465,15 +465,6 @@ content
 ;
 static
 int32_t
-GetIncrement
-(
-nsIContent
-*
-content
-)
-;
-static
-int32_t
 GetPageIncrement
 (
 nsIContent
