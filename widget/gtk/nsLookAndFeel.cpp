@@ -12013,8 +12013,8 @@ if
 (
 !
 headerBarHasBackground
-&
-&
+|
+|
 !
 GetBorderRadius
 (
