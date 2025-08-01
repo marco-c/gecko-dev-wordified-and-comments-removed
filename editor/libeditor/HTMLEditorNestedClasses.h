@@ -2984,6 +2984,10 @@ const
 EditorDOMPoint
 &
 aPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 [
