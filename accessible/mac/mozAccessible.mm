@@ -4524,7 +4524,7 @@ name
 }
 else
 {
-MOZ_ASSERT_UNREACHABLE
+NS_WARNING
 (
 "
 A11yUtil
@@ -4534,7 +4534,6 @@ but
 no
 announcement
 found
-?
 "
 )
 ;
