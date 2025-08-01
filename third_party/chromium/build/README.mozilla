@@ -395,6 +395,15 @@ build
 \
 &
 &
+rm
+-
+rf
+DEST_PATH
+/
+sanitizers
+\
+&
+&
 (
 hg
 revert
