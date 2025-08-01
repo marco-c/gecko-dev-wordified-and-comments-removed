@@ -287,6 +287,11 @@ const
 nsAString
 &
 aSessionId
+dom
+:
+:
+MediaKeySessionClosedReason
+aReason
 )
 override
 ;

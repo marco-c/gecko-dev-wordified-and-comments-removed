@@ -1205,6 +1205,11 @@ const
 nsAString
 &
 aSessionId
+dom
+:
+:
+MediaKeySessionClosedReason
+aReason
 )
 {
 MOZ_ASSERT
@@ -1254,6 +1259,7 @@ session
 >
 OnClosed
 (
+aReason
 )
 ;
 }

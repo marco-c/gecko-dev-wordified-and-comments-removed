@@ -388,6 +388,13 @@ NS_ConvertUTF8toUTF16
 (
 aSessionId
 )
+dom
+:
+:
+MediaKeySessionClosedReason
+:
+:
+Closed_by_application
 )
 ;
 }
