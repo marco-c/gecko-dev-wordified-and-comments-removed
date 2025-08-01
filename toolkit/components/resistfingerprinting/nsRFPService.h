@@ -290,7 +290,7 @@ armv81
 #
 define
 SPOOFED_MAX_TOUCH_POINTS
-10
+5
 #
 else
 #
@@ -318,7 +318,7 @@ x86_64
 #
 define
 SPOOFED_MAX_TOUCH_POINTS
-10
+0
 #
 endif
 #
@@ -1435,6 +1435,14 @@ IsWebCodecsRFPTargetEnabled
 JSContext
 *
 aCx
+)
+;
+static
+uint32_t
+CollapseMaxTouchPoints
+(
+uint32_t
+aMaxTouchPoints
 )
 ;
 private
