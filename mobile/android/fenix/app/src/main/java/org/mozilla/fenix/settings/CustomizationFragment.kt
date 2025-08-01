@@ -1199,9 +1199,13 @@ apply
 {
 isVisible
 =
-FeatureFlags
+context
 .
-alternativeAppIconFeatureEnabled
+settings
+(
+)
+.
+appIconSelection
 }
 }
 override
