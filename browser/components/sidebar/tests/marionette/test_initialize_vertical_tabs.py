@@ -353,7 +353,6 @@ assertEqual
 h_collapsed
                 
 "
-true
 "
                 
 "
@@ -376,9 +375,7 @@ assertEqual
                 
 v_collapsed
                 
-"
-false
-"
+None
                 
 "
 Vertical
@@ -472,7 +469,6 @@ assertEqual
 v_collapsed
                 
 "
-true
 "
                 
 "
