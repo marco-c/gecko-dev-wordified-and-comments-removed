@@ -147,7 +147,7 @@ win
 ;
 requestLongerTimeout
 (
-250
+10
 )
 ;
 add_task

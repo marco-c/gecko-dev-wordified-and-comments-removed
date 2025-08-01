@@ -418,7 +418,7 @@ win
 ;
 requestLongerTimeout
 (
-120
+20
 )
 ;
 async

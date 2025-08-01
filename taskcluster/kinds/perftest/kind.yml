@@ -218,7 +218,7 @@ run
 -
 time
 :
-10800
+2400
 env
 :
 USE_ARTIFACT

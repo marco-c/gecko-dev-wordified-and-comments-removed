@@ -108,7 +108,7 @@ win
 ;
 requestLongerTimeout
 (
-300
+10
 )
 ;
 const
