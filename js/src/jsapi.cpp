@@ -6432,6 +6432,13 @@ use
 )
 )
 ;
+zone
+-
+>
+maybeTriggerGCOnMalloc
+(
+)
+;
 }
 JS_PUBLIC_API
 void
