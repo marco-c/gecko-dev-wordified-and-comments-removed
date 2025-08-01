@@ -70,16 +70,6 @@ aParent
 )
 {
 }
-NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
-(
-StylePropertyMap
-StylePropertyMapReadOnly
-)
-NS_IMPL_CYCLE_COLLECTION_INHERITED
-(
-StylePropertyMap
-StylePropertyMapReadOnly
-)
 JSObject
 *
 StylePropertyMap
