@@ -93,6 +93,7 @@ util
 .
 List
 ;
+abstract
 public
 class
 PythonExec

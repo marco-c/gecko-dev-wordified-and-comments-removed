@@ -124,6 +124,7 @@ tasks
 javadoc
 .
 Javadoc
+abstract
 class
 ApiCompatLintTask
 extends

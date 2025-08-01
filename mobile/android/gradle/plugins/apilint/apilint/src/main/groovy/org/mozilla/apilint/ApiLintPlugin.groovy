@@ -702,6 +702,7 @@ workingDir
 .
 '
 scriptPath
+=
 '
 apilint
 .
@@ -871,6 +872,7 @@ workingDir
 .
 '
 scriptPath
+=
 '
 apilint
 .
@@ -1118,6 +1120,7 @@ workingDir
 .
 '
 scriptPath
+=
 '
 changelog
 -
@@ -1262,6 +1265,7 @@ workingDir
 .
 '
 scriptPath
+=
 '
 diff
 .
@@ -1310,6 +1314,7 @@ files
 are
 different
 ignoreExitValue
+=
 true
 }
 apiCompatLint
