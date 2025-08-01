@@ -34,6 +34,11 @@ CSSKeywordValue
 h
 "
 "
+CSSMathInvert
+.
+h
+"
+"
 CSSMathNegate
 .
 h
@@ -95,6 +100,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSMathInvert
 .
 cpp
 "
