@@ -1210,7 +1210,7 @@ buttons
 command
 :
 "
-allow
+opt_in
 "
 l10n
 :
@@ -1244,7 +1244,7 @@ menu
 name
 :
 "
-dismiss_all
+not_interested
 "
 l10n
 :
@@ -1441,7 +1441,7 @@ selType
 {
 case
 "
-allow
+opt_in
 "
 :
 lazy
@@ -1665,7 +1665,7 @@ break
 ;
 case
 "
-dismiss_all
+not_interested
 "
 :
 {

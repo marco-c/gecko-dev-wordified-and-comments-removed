@@ -414,6 +414,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_realtime_optin_engagement
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_record_preferences
 .
 js
