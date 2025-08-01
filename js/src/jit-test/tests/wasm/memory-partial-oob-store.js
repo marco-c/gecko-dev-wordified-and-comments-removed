@@ -35,6 +35,14 @@ arm
 simulator
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+riscv64
+"
+)
 ;
 var
 thirtytwobit
