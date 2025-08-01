@@ -226,8 +226,6 @@ find
 focus
 -
 timer
--
-wrapper
 "
 )
 .
