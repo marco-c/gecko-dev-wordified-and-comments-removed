@@ -13369,6 +13369,7 @@ aTrackPlan
 ItemPlan
 &
 aItemPlan
+const
 nsTArray
 <
 uint32_t
@@ -13386,6 +13387,7 @@ FitContentClamper
 &
 aFitContentClamper
 )
+const
 {
 aItemPlan
 .
@@ -13789,6 +13791,7 @@ FindUsedFlexFraction
 GridReflowInput
 &
 aGridRI
+const
 nsTArray
 <
 GridItemInfo
@@ -13817,6 +13820,7 @@ StretchFlexibleTracks
 GridReflowInput
 &
 aGridRI
+const
 nsTArray
 <
 GridItemInfo
@@ -38156,6 +38160,7 @@ FindUsedFlexFraction
 GridReflowInput
 &
 aGridRI
+const
 nsTArray
 <
 GridItemInfo
@@ -38485,6 +38490,7 @@ StretchFlexibleTracks
 GridReflowInput
 &
 aGridRI
+const
 nsTArray
 <
 GridItemInfo
