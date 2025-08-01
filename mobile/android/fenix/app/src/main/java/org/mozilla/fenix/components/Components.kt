@@ -1820,6 +1820,14 @@ SetupChecklistTelemetryMiddleware
 ReviewPromptMiddleware
 (
 settings
+=
+settings
+createJexlHelper
+=
+nimbus
+:
+:
+createJexlHelper
 )
 AppVisualCompletenessMiddleware
 (
