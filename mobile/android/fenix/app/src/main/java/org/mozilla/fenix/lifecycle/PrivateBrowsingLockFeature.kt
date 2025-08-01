@@ -1256,11 +1256,10 @@ if
 shouldLockFocusedWindow
 &
 &
+!
 activity
 .
-hasWindowFocus
-(
-)
+isFinishing
 )
 return
 /
