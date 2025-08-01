@@ -331,7 +331,7 @@ androidx
 .
 compose
 .
-material
+material3
 implementation
 libs
 .
@@ -366,6 +366,14 @@ androidx
 core
 .
 ktx
+implementation
+libs
+.
+androidx
+.
+fragment
+.
+compose
 implementation
 libs
 .
