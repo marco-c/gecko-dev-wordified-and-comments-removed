@@ -97,11 +97,6 @@ redirect
 sjs
 "
 "
-slowinstall
-.
-sjs
-"
-"
 startsoftwareupdate
 .
 html
