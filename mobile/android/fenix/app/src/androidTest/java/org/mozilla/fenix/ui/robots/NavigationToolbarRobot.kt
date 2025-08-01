@@ -1858,7 +1858,7 @@ packageName
 :
 id
 /
-toolbar_navbar_container
+navigation_bar
 "
 )
 )
@@ -1989,7 +1989,7 @@ packageName
 :
 id
 /
-toolbar_navbar_container
+navigation_bar
 "
 if
 (
@@ -2183,7 +2183,7 @@ R
 .
 id
 .
-toolbar_navbar_container
+navigation_bar
 )
 isCompletelyDisplayed
 (

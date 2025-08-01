@@ -424,7 +424,7 @@ R
 .
 id
 .
-toolbar_navbar_container
+navigation_bar
 val
 behavior
 =
@@ -876,7 +876,7 @@ R
 .
 id
 .
-toolbar_navbar_container
+navigation_bar
 }
 .
 also
