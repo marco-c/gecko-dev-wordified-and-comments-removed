@@ -173,6 +173,13 @@ js
 ]
 [
 "
+test_quicksuggest_stocks
+.
+js
+"
+]
+[
+"
 test_quicksuggest_topPicks
 .
 js

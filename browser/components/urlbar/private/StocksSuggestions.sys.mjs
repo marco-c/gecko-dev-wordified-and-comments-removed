@@ -194,6 +194,16 @@ polygon
 "
 ;
 }
+getSuggestionTelemetryType
+(
+)
+{
+return
+"
+stocks
+"
+;
+}
 getViewTemplate
 (
 result

@@ -421,6 +421,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_realtime_stocks_engagement
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_record_preferences
 .
 js
