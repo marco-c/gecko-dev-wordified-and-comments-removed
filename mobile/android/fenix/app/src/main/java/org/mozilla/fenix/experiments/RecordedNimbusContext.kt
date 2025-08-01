@@ -469,6 +469,10 @@ String
 Build
 .
 MODEL
+val
+userAcceptedTou
+:
+Boolean
 )
 :
 RecordedContext
@@ -669,6 +673,9 @@ deviceManufacturer
 deviceModel
 =
 deviceModel
+userAcceptedTou
+=
+userAcceptedTou
 )
 )
 Pings
@@ -929,6 +936,11 @@ device_model
 "
 to
 deviceModel
+"
+user_accepted_tou
+"
+to
+userAcceptedTou
 )
 )
 return
@@ -1103,6 +1115,11 @@ region
 calculatedAttributes
 .
 region
+userAcceptedTou
+=
+settings
+.
+hasAcceptedTermsOfService
 )
 }
 /
@@ -1212,6 +1229,9 @@ region
 "
 US
 "
+userAcceptedTou
+=
+true
 )
 }
 }

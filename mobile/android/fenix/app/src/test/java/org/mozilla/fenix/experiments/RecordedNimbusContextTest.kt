@@ -518,6 +518,13 @@ Build
 .
 MODEL
 )
+put
+(
+"
+user_accepted_tou
+"
+true
+)
 }
 contextAsJson
 )
@@ -745,6 +752,13 @@ region
 "
 US
 "
+)
+put
+(
+"
+userAcceptedTou
+"
+true
 )
 }
 recordedValue
