@@ -1369,7 +1369,7 @@ bar
 *
 /
 fun
-removeCollectionWithUndo
+removeCollection
 (
 tabCollection
 :
@@ -1838,7 +1838,7 @@ size
 callback
 ?
 .
-removeCollectionWithUndo
+removeCollection
 (
 collection
 )
@@ -1917,7 +1917,7 @@ TabCollection
 callback
 ?
 .
-removeCollectionWithUndo
+removeCollection
 (
 collection
 )

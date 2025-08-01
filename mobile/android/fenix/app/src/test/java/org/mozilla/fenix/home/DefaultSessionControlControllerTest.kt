@@ -9417,7 +9417,7 @@ registerCollectionStorageObserver
 }
 override
 fun
-removeCollectionWithUndo
+removeCollection
 (
 tabCollection
 :
