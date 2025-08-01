@@ -6285,6 +6285,17 @@ MOZ_RUN_GTEST
 True
 "
     
+gtest_env
+[
+"
+PYTHON
+"
+]
+=
+sys
+.
+executable
+    
 if
 shuffle
 :
