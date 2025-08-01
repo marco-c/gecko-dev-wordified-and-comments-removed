@@ -137,7 +137,7 @@ aGlobal
 const
 Sequence
 <
-nsCString
+OwningUTF8StringOrCSSVariableReferenceValue
 >
 &
 aMembers
@@ -181,7 +181,7 @@ aIndex
 bool
 &
 aFound
-nsCString
+OwningUTF8StringOrCSSVariableReferenceValue
 &
 aRetVal
 )
@@ -196,10 +196,10 @@ IndexedSetter
 uint32_t
 aIndex
 const
-nsACString
+UTF8StringOrCSSVariableReferenceValue
 &
 aVal
-nsCString
+OwningUTF8StringOrCSSVariableReferenceValue
 &
 aRetVal
 ErrorResult
