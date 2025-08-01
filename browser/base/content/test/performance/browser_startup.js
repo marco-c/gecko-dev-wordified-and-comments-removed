@@ -646,6 +646,7 @@ blankWindow
 )
 &
 &
+(
 Services
 .
 prefs
@@ -676,6 +677,12 @@ mozilla
 .
 org
 "
+|
+|
+AppConstants
+.
+MOZ_DEV_EDITION
+)
 )
 {
 startupPhases
