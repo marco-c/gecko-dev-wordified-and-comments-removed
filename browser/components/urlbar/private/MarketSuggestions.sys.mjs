@@ -200,7 +200,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 ]
 ;
