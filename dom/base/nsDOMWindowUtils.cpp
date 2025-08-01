@@ -19854,18 +19854,6 @@ targetFrame
 }
 )
 ;
-const
-RefPtr
-<
-nsPresContext
->
-pinnedPresContext
-{
-GetPresContext
-(
-)
-}
-;
 nsresult
 rv
 =
@@ -19874,7 +19862,6 @@ targetFrame
 >
 SelectByTypeAtPoint
 (
-pinnedPresContext
 relPoint
 amount
 amount

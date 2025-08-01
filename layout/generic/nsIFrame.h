@@ -6763,9 +6763,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectByTypeAtPoint
 (
-nsPresContext
-*
-aPresContext
 const
 nsPoint
 &
@@ -6970,8 +6967,8 @@ TableSelectionMode
 aTarget
 )
 ;
-int16_t
-DetermineDisplaySelection
+bool
+ShouldHandleSelectionMovementEvents
 (
 )
 ;
