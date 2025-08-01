@@ -2247,6 +2247,10 @@ updateEndBrowserActions
 (
 context
 )
+updateEndPageActions
+(
+context
+)
 environment
 ?
 .
@@ -5112,6 +5116,10 @@ updateStartBrowserActions
 context
 )
 updateEndBrowserActions
+(
+context
+)
+updateEndPageActions
 (
 context
 )
