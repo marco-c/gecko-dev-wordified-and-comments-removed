@@ -30,6 +30,13 @@ true
 ]
 [
 "
+test_IPProtection
+.
+js
+"
+]
+[
+"
 test_IPProtectionPanel
 .
 js
