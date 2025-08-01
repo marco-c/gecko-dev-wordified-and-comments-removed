@@ -86,6 +86,13 @@ js
 ]
 [
 "
+test_backgroundupdate_actions
+.
+js
+"
+]
+[
+"
 test_backgroundupdate_exitcodes
 .
 js
