@@ -664,13 +664,6 @@ aEvent
 )
 ;
 void
-PageUpDown
-(
-nscoord
-change
-)
-;
-void
 SetCurrentThumbPosition
 (
 nsIContent

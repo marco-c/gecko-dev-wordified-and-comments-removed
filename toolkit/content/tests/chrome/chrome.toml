@@ -1035,13 +1035,6 @@ xhtml
 ]
 [
 "
-test_bug1048178
-.
-xhtml
-"
-]
-[
-"
 test_button
 .
 xhtml

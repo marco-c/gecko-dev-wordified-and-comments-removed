@@ -8464,13 +8464,6 @@ aScrollbar
 >
 MoveToNewPosition
 (
-nsScrollbarFrame
-:
-:
-ImplementsScrollByUnit
-:
-:
-Yes
 )
 ;
 }
