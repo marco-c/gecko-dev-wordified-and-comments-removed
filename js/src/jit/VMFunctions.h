@@ -114,6 +114,9 @@ class
 DateObject
 ;
 class
+FixedLengthTypedArrayObject
+;
+class
 GlobalObject
 ;
 class
@@ -2543,11 +2546,13 @@ AllocateAndInitTypedArrayBuffer
 JSContext
 *
 cx
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 obj
 int32_t
 count
+size_t
+inlineCapacity
 )
 ;
 #
