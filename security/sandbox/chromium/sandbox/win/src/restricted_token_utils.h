@@ -132,8 +132,6 @@ Sid
 unique_restricted_sid
 bool
 use_restricting_sids
-bool
-allow_everyone_for_user_restricted
 )
 ;
 DWORD
