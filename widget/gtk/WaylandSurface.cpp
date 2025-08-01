@@ -106,13 +106,6 @@ Units
 h
 "
 #
-include
-"
-nsWindow
-.
-h
-"
-#
 undef
 LOGWAYLAND
 #
@@ -124,13 +117,6 @@ mozilla
 :
 LazyLogModule
 gWidgetWaylandLog
-;
-extern
-mozilla
-:
-:
-LazyLogModule
-gWidgetLog
 ;
 #
 define
