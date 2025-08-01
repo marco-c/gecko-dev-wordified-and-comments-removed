@@ -1268,6 +1268,16 @@ while
 activation
 )
 {
+if
+(
+activation
+-
+>
+hasWasmExitFP
+(
+)
+)
+{
 WasmFrameIter
 iter
 (
@@ -1299,6 +1309,7 @@ frame
 return
 activation
 ;
+}
 }
 activation
 =
