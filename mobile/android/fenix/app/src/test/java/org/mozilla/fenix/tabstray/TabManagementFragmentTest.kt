@@ -1443,16 +1443,6 @@ onRecentlyClosedClicked
 }
 override
 fun
-onMediaClicked
-(
-tab
-:
-TabSessionState
-)
-{
-}
-override
-fun
 onTabLongClicked
 (
 tab

@@ -1644,12 +1644,6 @@ tab
 TAB_MANAGER_FEATURE_NAME
 )
 }
-onTabMediaClick
-=
-tabManagerInteractor
-:
-:
-onMediaClicked
 onTabClick
 =
 {
