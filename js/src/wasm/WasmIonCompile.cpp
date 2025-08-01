@@ -2939,10 +2939,6 @@ Int32Value
 (
 i
 )
-MIRType
-:
-:
-Int32
 )
 ;
 curBlock_
