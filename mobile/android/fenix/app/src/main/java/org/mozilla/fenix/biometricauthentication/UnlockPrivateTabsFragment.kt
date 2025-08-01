@@ -991,9 +991,11 @@ record
 )
 requireComponents
 .
-privateBrowsingLockFeature
+useCases
 .
-onSuccessfulAuthentication
+privateBrowsingLockUseCases
+.
+authenticatedUseCase
 (
 )
 findNavController
