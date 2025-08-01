@@ -131,9 +131,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 "
             
 {

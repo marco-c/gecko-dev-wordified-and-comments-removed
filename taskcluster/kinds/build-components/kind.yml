@@ -397,9 +397,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 attributes
 :
 build_platform

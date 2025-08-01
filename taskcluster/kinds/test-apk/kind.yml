@@ -191,9 +191,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 run
 :
 using

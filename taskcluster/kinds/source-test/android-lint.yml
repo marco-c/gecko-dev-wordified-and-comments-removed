@@ -172,9 +172,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 platform
 :
 '

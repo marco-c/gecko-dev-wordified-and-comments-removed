@@ -178,9 +178,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 path
 :
 /
@@ -200,9 +198,7 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 type
 :
 file

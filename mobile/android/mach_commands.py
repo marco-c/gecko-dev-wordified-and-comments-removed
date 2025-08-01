@@ -11,9 +11,9 @@ shutil
 import
 sys
 import
-tarfile
-import
 time
+import
+zipfile
 import
 mozpack
 .
@@ -810,10 +810,11 @@ maven
 )
     
 with
-tarfile
+zipfile
 .
-open
+ZipFile
 (
+        
 os
 .
 path
@@ -826,17 +827,16 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 "
 )
 "
 w
 "
+    
 )
 as
-tar
+target_zip
 :
         
 for
@@ -848,9 +848,9 @@ maven_folder
 )
 :
             
-tar
+target_zip
 .
-add
+write
 (
                 
 abs_path
