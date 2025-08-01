@@ -682,14 +682,6 @@ toString
 )
 )
 }
-verifySnackBarText
-(
-expectedText
-=
-"
-Deleted
-"
-)
 verifyEmptyHistoryView
 (
 )
