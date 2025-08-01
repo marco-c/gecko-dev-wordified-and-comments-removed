@@ -254,6 +254,16 @@ promisePostInstallNotificationShown
 win
 )
 ;
+const
+readyPromise
+=
+AddonTestUtils
+.
+promiseWebExtensionStartup
+(
+addonId
+)
+;
 win
 .
 gURLBar
@@ -430,6 +440,9 @@ toolbar
 checkbox
 "
 )
+;
+await
+readyPromise
 ;
 await
 verifyPostInstallCheckbox
