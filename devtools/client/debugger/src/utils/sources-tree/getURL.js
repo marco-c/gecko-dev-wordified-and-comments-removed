@@ -403,9 +403,17 @@ return
 def
 path
 :
+host
++
 pathname
 search
 filename
+:
+filename
+?
+filename
+:
+host
 fileExtension
 :
 getFileExtension
