@@ -126,6 +126,11 @@ shipping
 phase
 :
 promote
+index
+:
+product
+:
+firefox
 worker
 -
 type
