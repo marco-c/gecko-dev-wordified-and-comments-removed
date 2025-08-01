@@ -43,6 +43,9 @@ ERR_HEADER
 ERR_SERVER
 ERR_CONTENT
 ERR_ENVIRON
+ERR_FILE_NOT_FOUND
+ERR_CLIENT_REQUEST
+ERR_REQUEST_INVALID
 UNKNOWN
 }
 ;
@@ -57,6 +60,10 @@ std
 :
 wstring
 server
+int
+server_port
+bool
+is_https
 std
 :
 :
