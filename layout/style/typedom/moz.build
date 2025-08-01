@@ -34,6 +34,11 @@ CSSKeywordValue
 h
 "
 "
+CSSMathValue
+.
+h
+"
+"
 CSSNumericValue
 .
 h
@@ -75,6 +80,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSMathValue
 .
 cpp
 "
