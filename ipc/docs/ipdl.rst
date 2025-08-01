@@ -5083,10 +5083,11 @@ is
 one
 of
 :
+low
 normal
+mediumhigh
 input
 vsync
-mediumhigh
 or
 control
 .
@@ -7540,10 +7541,11 @@ is
 one
 of
 :
+low
 normal
+mediumhigh
 input
 vsync
-mediumhigh
 or
 control
 .

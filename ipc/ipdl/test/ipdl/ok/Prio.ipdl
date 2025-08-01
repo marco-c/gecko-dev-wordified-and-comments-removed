@@ -60,6 +60,16 @@ ControlPrio
 )
 ;
 [
+Priority
+=
+low
+]
+async
+LowPrio
+(
+)
+;
+[
 ReplyPriority
 =
 control
