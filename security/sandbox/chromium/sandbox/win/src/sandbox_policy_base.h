@@ -369,6 +369,12 @@ GetAllowEveryoneForUserRestricted
 )
 final
 ;
+void
+SetForceKnownDllLoadingFallback
+(
+)
+final
+;
 ResultCode
 SetJobLevel
 (
@@ -800,6 +806,11 @@ true
 ;
 bool
 allow_everyone_for_user_restricted_
+=
+false
+;
+bool
+force_known_dll_loading_fallback_
 =
 false
 ;

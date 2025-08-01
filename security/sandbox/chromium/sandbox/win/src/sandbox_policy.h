@@ -186,6 +186,14 @@ GetAllowEveryoneForUserRestricted
 =
 0
 ;
+virtual
+void
+SetForceKnownDllLoadingFallback
+(
+)
+=
+0
+;
 [
 [
 nodiscard
