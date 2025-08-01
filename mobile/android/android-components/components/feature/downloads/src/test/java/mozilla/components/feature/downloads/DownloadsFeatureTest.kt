@@ -9526,6 +9526,11 @@ test
 -
 tab
 "
+id
+=
+"
+downloadId
+"
 )
 doReturn
 (
@@ -9622,7 +9627,7 @@ onDownloadStartedListener
 invoke
 (
 "
-id
+downloadId
 "
 )
 }

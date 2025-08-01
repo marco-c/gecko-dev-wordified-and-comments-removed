@@ -1050,7 +1050,6 @@ onDownloadStartedListener
 (
 (
 String
-?
 )
 -
 >
@@ -1879,7 +1878,9 @@ onDownloadStartedListener
 .
 invoke
 (
-tabId
+download
+.
+id
 )
 true
 }

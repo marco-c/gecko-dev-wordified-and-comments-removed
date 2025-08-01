@@ -4697,6 +4697,9 @@ toFloat
 onDownloadStartedListener
 =
 {
+downloadId
+-
+>
 context
 .
 components
@@ -4711,12 +4714,7 @@ DownloadAction
 .
 DownloadInProgress
 (
-getCurrentTab
-(
-)
-?
-.
-id
+downloadId
 )
 )
 }

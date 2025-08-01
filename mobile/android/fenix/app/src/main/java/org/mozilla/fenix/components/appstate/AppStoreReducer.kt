@@ -1588,7 +1588,7 @@ DownloadInProgress
 (
 action
 .
-sessionId
+downloadId
 )
 )
 is

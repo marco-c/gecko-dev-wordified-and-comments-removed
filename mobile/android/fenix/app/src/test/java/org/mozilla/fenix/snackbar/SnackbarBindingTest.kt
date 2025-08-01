@@ -4026,7 +4026,7 @@ DownloadAction
 .
 DownloadInProgress
 (
-sessionId
+downloadId
 =
 "
 id
