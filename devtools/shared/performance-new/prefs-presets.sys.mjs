@@ -1916,6 +1916,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 throw
