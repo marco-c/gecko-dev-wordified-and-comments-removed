@@ -152,6 +152,17 @@ GetTopLevelPrincipal
 (
 )
 ;
+if
+(
+!
+mTopLevelPrincipal
+)
+{
+mTopLevelPrincipal
+=
+mPrincipal
+;
+}
 mLoadInfo
 =
 aLoadInfo
