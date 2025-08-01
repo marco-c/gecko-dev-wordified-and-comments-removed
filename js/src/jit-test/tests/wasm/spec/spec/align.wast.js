@@ -8863,6 +8863,14 @@ get
 )
 )
 ;
+if
+(
+!
+partialOobWriteMayWritePartialData
+(
+)
+)
+{
 assert_trap
 (
 (
@@ -8911,6 +8919,7 @@ i32
 ]
 )
 ;
+}
 assert_invalid
 (
 (
