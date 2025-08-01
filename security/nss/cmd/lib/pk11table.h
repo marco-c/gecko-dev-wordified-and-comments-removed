@@ -150,10 +150,6 @@ ConstMechanism
 ConstResult
 ConstTrust
 ConstAvailableSizes
-ConstCertCategory
-ConstSecurityDomain
-ConstOTPFormat
-ConstOTPParam
 ConstCurrentSize
 }
 ConstType

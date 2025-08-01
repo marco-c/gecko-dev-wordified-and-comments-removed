@@ -4891,7 +4891,7 @@ pkcsTrustAttrs
 i
 ]
 ;
-sourceTemplate
+targetTemplate
 .
 type
 =
