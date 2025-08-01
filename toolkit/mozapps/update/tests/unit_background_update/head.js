@@ -90,7 +90,7 @@ false
 ;
 const
 {
-maybeSubmitBackgroundUpdatePing
+Actions
 }
 =
 ChromeUtils
@@ -204,6 +204,8 @@ retval
 )
 ;
 await
+Actions
+.
 maybeSubmitBackgroundUpdatePing
 (
 )

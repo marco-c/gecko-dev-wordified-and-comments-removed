@@ -84,7 +84,7 @@ mjs
 ;
 const
 {
-maybeSubmitBackgroundUpdatePing
+Actions
 }
 =
 ChromeUtils
@@ -441,6 +441,8 @@ testGetValue
 )
 ;
 await
+Actions
+.
 maybeSubmitBackgroundUpdatePing
 (
 )
@@ -636,6 +638,8 @@ reason
 )
 ;
 await
+Actions
+.
 maybeSubmitBackgroundUpdatePing
 (
 )
