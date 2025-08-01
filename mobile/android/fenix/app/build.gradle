@@ -485,13 +485,13 @@ useSupportLibrary
 true
 testInstrumentationRunner
 "
-androidx
+org
 .
-test
+mozilla
 .
-runner
+fenix
 .
-AndroidJUnitRunner
+FenixTestRunner
 "
 testInstrumentationRunnerArguments
 clearPackageData
