@@ -430,6 +430,14 @@ moz
 -
 window
 -
+dragging
+"
+"
+-
+moz
+-
+window
+-
 opacity
 "
 "
