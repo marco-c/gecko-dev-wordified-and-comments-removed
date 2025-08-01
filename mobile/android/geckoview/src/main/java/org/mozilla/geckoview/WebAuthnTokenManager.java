@@ -2248,6 +2248,7 @@ challBytes
 algs
 excludeList
 authenticatorSelection
+extensions
 clientDataHashBytes
 )
 .

@@ -455,6 +455,9 @@ final
 GeckoBundle
 authenticatorSelection
 final
+GeckoBundle
+extensions
+final
 byte
 [
 ]
@@ -477,6 +480,7 @@ challenge
 algs
 excludeList
 authenticatorSelection
+extensions
 )
 ;
 final
@@ -777,6 +781,9 @@ final
 GeckoBundle
 authenticatorSelection
 final
+GeckoBundle
+extensions
+final
 byte
 [
 ]
@@ -887,6 +894,7 @@ challenge
 algs
 excludeList
 authenticatorSelection
+extensions
 clientDataHash
 )
 ;
