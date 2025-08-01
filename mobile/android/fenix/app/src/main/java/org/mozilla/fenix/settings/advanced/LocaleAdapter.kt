@@ -204,6 +204,9 @@ SystemLocaleViewHolder
 view
 selectedLocale
 interactor
+DefaultLocaleSelectionChecker
+(
+)
 )
 ItemType
 .
@@ -217,6 +220,9 @@ LocaleViewHolder
 view
 selectedLocale
 interactor
+DefaultLocaleSelectionChecker
+(
+)
 )
 else
 -
