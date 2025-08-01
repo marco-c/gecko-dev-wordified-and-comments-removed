@@ -92,6 +92,8 @@ mozilla
 {
 enum
 MemoryOrdering
+:
+uint8_t
 {
 Relaxed
 ReleaseAcquire
