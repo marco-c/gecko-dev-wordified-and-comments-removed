@@ -9586,6 +9586,8 @@ false
 )
 expectedTranslateButton
 expectedShareButton
+(
+)
 )
 toolbarStore
 .
