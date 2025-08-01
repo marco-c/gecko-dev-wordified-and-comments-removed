@@ -592,6 +592,9 @@ endif
 #
 !
 MOZ_ANDROID_FAT_AAR_ARCHITECTURES
+#
+ifdef
+MOZ_PREF_EXTENSIONS
 BINPATH
 /
 defaults
@@ -601,6 +604,8 @@ autoconfig
 prefcalls
 .
 js
+#
+endif
 ;
 [
 Layout
