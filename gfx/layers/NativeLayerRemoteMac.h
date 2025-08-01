@@ -170,6 +170,15 @@ aSamplingFilter
 )
 override
 ;
+gfx
+:
+:
+SamplingFilter
+SamplingFilter
+(
+)
+override
+;
 RefPtr
 <
 gfx
