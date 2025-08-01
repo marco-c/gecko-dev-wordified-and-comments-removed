@@ -197,6 +197,36 @@ backend
 "
 "
     
+HEAD_REVSET
+=
+"
+latest
+(
+(
+~
+(
+empty
+(
+)
+&
+description
+(
+exact
+:
+'
+'
+)
+)
+~
+bookmarks
+(
+)
+)
+|
+-
+)
+"
+    
 def
 __init__
 (
@@ -694,8 +724,9 @@ self
 .
 _resolve_to_change
 (
-"
-"
+self
+.
+HEAD_REVSET
 )
     
 def
@@ -1357,19 +1388,9 @@ None
             
 rev
 =
-"
-latest
-(
-(
-~
-empty
-(
-)
-)
-|
--
-)
-"
+self
+.
+HEAD_REVSET
         
 rev
 =
@@ -2764,19 +2785,9 @@ new
 m
 "
 commit_message
-"
-latest
-(
-(
-~
-empty
-(
-)
-)
-|
--
-)
-"
+self
+.
+HEAD_REVSET
 )
             
 for

@@ -280,9 +280,10 @@ jj
         
 vcs
 .
-edit
+update
 (
 "
+-
 -
 "
 )
@@ -295,39 +296,12 @@ head_ref
 =
 rev0
     
-if
-repo
-.
-vcs
-!
-=
-"
-jj
-"
-:
-        
 vcs
 .
 update
 (
 rev1
 )
-    
-else
-:
-        
-vcs
-.
-update
-(
-rev0
-)
-        
-rev1
-=
-vcs
-.
-head_ref
     
 assert
 vcs
