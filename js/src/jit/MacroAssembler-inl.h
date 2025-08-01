@@ -1130,6 +1130,12 @@ Args_Double_DoubleDoubleDoubleDouble
 case
 Args_Int64_GeneralGeneral
 :
+case
+Args_General_GeneralInt64GeneralGeneral
+:
+case
+Args_General_GeneralFloat32GeneralGeneral
+:
 break
 ;
 default
