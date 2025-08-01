@@ -3,6 +3,11 @@ UNIFIED_SOURCES
 =
 [
 "
+PageloadEvent
+.
+cpp
+"
+"
 PerfStats
 .
 cpp
@@ -14,6 +19,11 @@ mozilla
 +
 =
 [
+"
+PageloadEvent
+.
+h
+"
 "
 Perfetto
 .
