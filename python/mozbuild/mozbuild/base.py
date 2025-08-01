@@ -1,6 +1,8 @@
 import
 errno
 import
+functools
+import
 io
 import
 json
@@ -5673,7 +5675,169 @@ MachCommandBase
 "
 "
     
+def
+requires_configure
+(
+func
+)
+:
+        
+"
+"
+"
+Decorator
+to
+run
+mach
+configure
+if
+config
+.
+status
+is
+missing
+.
+"
+"
+"
+        
+functools
+.
+wraps
+(
+func
+)
+        
+def
+wrapper
+(
+cls
+*
+args
+*
+*
+kwargs
+)
+:
+            
+config_file
+=
+Path
+(
+cls
+.
+topobjdir
+)
+/
+"
+config
+.
+status
+"
+            
+if
+not
+config_file
+.
+is_file
+(
+)
+:
+                
+cls
+.
+log
+(
+                    
+logging
+.
+INFO
+                    
+"
+MachCommandConditions
+"
+                    
+{
+"
+path
+"
+:
+cls
+.
+topsrcdir
+}
+                    
+f
+"
+Cannot
+evaluate
+condition
+with
+'
+{
+config_file
+}
+'
+missing
+running
+|
+mach
+configure
+|
+to
+generate
+it
+.
+"
+                
+)
+                
+cls
+.
+run_process
+(
+                    
+[
+sys
+.
+executable
+"
+mach
+"
+"
+configure
+"
+]
+                    
+pass_thru
+=
+True
+                    
+cwd
+=
+cls
+.
+topsrcdir
+                
+)
+            
+return
+func
+(
+cls
+*
+args
+*
+*
+kwargs
+)
+        
+return
+wrapper
+    
 staticmethod
+    
+requires_configure
     
 def
 is_firefox
@@ -5695,16 +5859,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 cls
 .
@@ -5721,11 +5875,10 @@ MOZ_BUILD_APP
 "
 browser
 "
-        
-return
-False
     
 staticmethod
+    
+requires_configure
     
 def
 is_jsshell
@@ -5747,16 +5900,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 cls
 .
@@ -5773,11 +5916,10 @@ MOZ_BUILD_APP
 "
 js
 "
-        
-return
-False
     
 staticmethod
+    
+requires_configure
     
 def
 is_thunderbird
@@ -5799,16 +5941,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 cls
 .
@@ -5827,9 +5959,6 @@ comm
 /
 mail
 "
-        
-return
-False
     
 staticmethod
     
@@ -5874,6 +6003,8 @@ cls
     
 staticmethod
     
+requires_configure
+    
 def
 is_android
 (
@@ -5894,16 +6025,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 cls
 .
@@ -5920,11 +6041,10 @@ MOZ_WIDGET_TOOLKIT
 "
 android
 "
-        
-return
-False
     
 staticmethod
+    
+requires_configure
     
 def
 is_not_android
@@ -5947,16 +6067,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 cls
 .
@@ -5973,11 +6083,10 @@ MOZ_WIDGET_TOOLKIT
 "
 android
 "
-        
-return
-False
     
 staticmethod
+    
+requires_configure
     
 def
 is_android_cpu
@@ -5997,16 +6106,6 @@ CPU
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 "
 ANDROID_CPU_ARCH
@@ -6015,9 +6114,6 @@ in
 cls
 .
 substs
-        
-return
-False
     
 staticmethod
     
@@ -6268,6 +6364,8 @@ False
     
 staticmethod
     
+requires_configure
+    
 def
 is_artifact_build
 (
@@ -6288,16 +6386,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 getattr
 (
@@ -6315,11 +6403,10 @@ get
 MOZ_ARTIFACT_BUILDS
 "
 )
-        
-return
-False
     
 staticmethod
+    
+requires_configure
     
 def
 is_non_artifact_build
@@ -6342,16 +6429,6 @@ build
 "
 "
         
-if
-hasattr
-(
-cls
-"
-substs
-"
-)
-:
-            
 return
 not
 MachCommandConditions
@@ -6360,9 +6437,6 @@ is_artifact_build
 (
 cls
 )
-        
-return
-False
     
 staticmethod
     
