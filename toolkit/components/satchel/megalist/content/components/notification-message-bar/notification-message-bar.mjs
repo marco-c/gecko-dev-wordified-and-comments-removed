@@ -682,7 +682,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
@@ -957,7 +957,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
@@ -1066,7 +1066,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
@@ -1200,7 +1200,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
@@ -1311,6 +1311,8 @@ username
 success
 -
 heading
+-
+2
 "
 :
 "
@@ -1358,7 +1360,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
@@ -1474,7 +1476,7 @@ primaryAction
 type
 :
 "
-primary
+default
 "
 telemetryType
 :
