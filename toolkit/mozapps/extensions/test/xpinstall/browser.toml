@@ -82,6 +82,11 @@ installtrigger_frame
 html
 "
 "
+mozaddonmanager
+.
+html
+"
+"
 navigate
 .
 html
@@ -338,12 +343,6 @@ browser_containers
 js
 "
 ]
-https_first_disabled
-=
-true
-#
-Bug
-1737265
 [
 "
 browser_cookies
@@ -684,12 +683,6 @@ browser_privatebrowsing
 js
 "
 ]
-https_first_disabled
-=
-true
-#
-Bug
-1737265
 [
 "
 browser_relative
