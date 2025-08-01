@@ -78,6 +78,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 :
@@ -148,6 +157,8 @@ public
 mozIStorageCompletionCallback
 public
 mozIStorageStatementCallback
+public
+SupportsWeakPtr
 {
 using
 StatementCache
