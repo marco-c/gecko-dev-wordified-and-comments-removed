@@ -208,8 +208,17 @@ ID
 uint32_t
 SurfaceID
 ;
+bool
+IsDRM
+;
+bool
+IsHDR
+;
 IntPoint
 Position
+;
+IntSize
+Size
 ;
 IntRect
 DisplayRect
