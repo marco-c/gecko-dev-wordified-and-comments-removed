@@ -155,8 +155,9 @@ android
 fillColor
 =
 "
-#
-FFFFFF
+color
+/
+photonWhite
 "
 /
 >
@@ -264,8 +265,9 @@ android
 strokeColor
 =
 "
-#
-E0E0E6
+color
+/
+photonLightGrey30
 "
 android
 :
@@ -374,8 +376,9 @@ android
 fillColor
 =
 "
-#
-E0E0E6
+color
+/
+photonLightGrey30
 "
 /
 >
