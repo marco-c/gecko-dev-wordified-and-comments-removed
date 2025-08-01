@@ -48,6 +48,13 @@ sys
 .
 mjs
 "
+"
+IPProtectionService
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

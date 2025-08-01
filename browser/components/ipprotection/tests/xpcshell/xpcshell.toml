@@ -1,6 +1,13 @@
 [
 DEFAULT
 ]
+head
+=
+"
+head
+.
+js
+"
 firefox
 -
 appdir
@@ -24,6 +31,13 @@ true
 [
 "
 test_IPProtectionPanel
+.
+js
+"
+]
+[
+"
+test_IPProtectionService
 .
 js
 "
