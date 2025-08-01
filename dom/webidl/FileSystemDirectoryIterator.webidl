@@ -109,8 +109,7 @@ use
 a
 natively
 supported
-async
-iterable
+async_iterable
 .
 [
 Exposed

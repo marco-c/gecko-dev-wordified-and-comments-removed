@@ -145,8 +145,7 @@ FileSystemDirectoryHandle
 :
 FileSystemHandle
 {
-async
-iterable
+async_iterable
 <
 USVString
 FileSystemHandle

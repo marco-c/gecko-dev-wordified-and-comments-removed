@@ -689,7 +689,7 @@ append
 (
 (
 "
-__iterable
+__async_iterable
 "
 WebIDL
 .
@@ -743,7 +743,7 @@ valueAsyncIterableMembers
 [
 (
 "
-__iterable
+__async_iterable
 "
 WebIDL
 .
@@ -1210,8 +1210,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -1270,8 +1269,7 @@ Foo1
 Foo2
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -1332,8 +1330,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -1393,8 +1390,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 long
@@ -1455,8 +1451,7 @@ Foo1
 Foo2
 {
                
-async
-iterable
+async_iterable
 <
 long
 long
@@ -1519,8 +1514,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 long
@@ -2443,8 +2437,7 @@ long
 >
 ;
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -2478,15 +2471,13 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
 ;
                
-async
-iterable
+async_iterable
 <
 long
 long
@@ -2523,8 +2514,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -2564,8 +2554,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 >
@@ -2608,8 +2597,7 @@ interface
 Foo1
 {
                
-async
-iterable
+async_iterable
 <
 long
 long
@@ -4762,11 +4750,10 @@ long
         
 (
 "
-iterable
+async_iterable
 "
 "
-async
-iterable
+async_iterable
 <
 long
 long

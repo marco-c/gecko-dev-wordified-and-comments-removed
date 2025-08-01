@@ -797,8 +797,7 @@ interface
 Foo
 {
               
-async
-iterable
+async_iterable
 (
 undefined
 name
@@ -863,8 +862,7 @@ the
 argument
 of
 an
-async
-iterable
+async_iterable
 "
         
 "

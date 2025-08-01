@@ -245,8 +245,7 @@ tee
 [
 GenerateReturnMethod
 ]
-async
-iterable
+async_iterable
 <
 any
 >

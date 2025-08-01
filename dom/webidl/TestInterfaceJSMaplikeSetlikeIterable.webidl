@@ -500,8 +500,7 @@ options
 }
 )
 ;
-async
-iterable
+async_iterable
 <
 long
 >
@@ -577,8 +576,7 @@ constructor
 [
 GenerateReturnMethod
 ]
-async
-iterable
+async_iterable
 <
 long
 >
@@ -625,8 +623,7 @@ constructor
 (
 )
 ;
-async
-iterable
+async_iterable
 <
 DOMString
 DOMString
@@ -656,8 +653,7 @@ constructor
 (
 )
 ;
-async
-iterable
+async_iterable
 <
 DOMString
 (
