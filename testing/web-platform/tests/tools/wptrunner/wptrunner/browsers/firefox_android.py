@@ -32,7 +32,7 @@ import
 (
 MarionetteTestharnessExecutor
                                             
-MarionetteRefTestExecutorAndroid
+MarionetteRefTestExecutor
                                             
 MarionetteCrashtestExecutor
                                             
@@ -129,7 +129,7 @@ reftest
 "
 :
 "
-MarionetteRefTestExecutorAndroid
+MarionetteRefTestExecutor
 "
                               
 "
@@ -1888,19 +1888,6 @@ url_base
 _mozilla
 /
 "
-                          
-"
-testdriver
-"
-:
-test
-.
-test_type
-=
-=
-"
-testharness
-"
 }
         
 return
@@ -2640,19 +2627,6 @@ supports_window_resize
 "
 :
 False
-                                 
-"
-testdriver
-"
-:
-self
-.
-_settings
-[
-"
-testdriver
-"
-]
 }
     
 def
