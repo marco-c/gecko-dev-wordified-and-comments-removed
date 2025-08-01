@@ -1,5 +1,9 @@
 import
 json
+from
+textwrap
+import
+dedent
 import
 attr
 import
@@ -278,6 +282,19 @@ baz
 (
 baz
 )
+      
+|
+    
+4
+|
+if
+baz
+:
+      
+|
+^
+^
+^
   
 5
 error
@@ -822,11 +839,39 @@ column
             
 source
 =
+dedent
+(
+                
 "
+"
+"
+                  
+|
+                
+4
+|
 if
 baz
 :
+                  
+|
+^
+^
+^
+            
 "
+"
+"
+            
+)
+.
+lstrip
+(
+"
+\
+n
+"
+)
         
 )
         
@@ -866,14 +911,6 @@ diff
 lineno
 =
 5
-            
-source
-=
-"
-if
-baz
-:
-"
             
 diff
 =
