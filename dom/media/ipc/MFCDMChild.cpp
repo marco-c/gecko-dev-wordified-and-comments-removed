@@ -2993,9 +2993,9 @@ MFCDMChild
 RecvOnSessionClosed
 (
 const
-nsString
+MFCDMSessionClosedResult
 &
-aSessionId
+aResult
 )
 {
 LOG
@@ -3009,7 +3009,11 @@ s
 "
 NS_ConvertUTF16toUTF8
 (
-aSessionId
+aResult
+.
+sessionId
+(
+)
 )
 .
 get
@@ -3032,7 +3036,7 @@ mProxyCallback
 >
 OnSessionClosed
 (
-aSessionId
+aResult
 )
 ;
 return

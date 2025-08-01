@@ -657,7 +657,7 @@ mExpirationEvents
 ;
 MediaEventForwarder
 <
-nsString
+MFCDMSessionClosedResult
 >
 mClosedEvents
 ;
