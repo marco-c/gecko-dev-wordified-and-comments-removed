@@ -677,6 +677,11 @@ break
 case
 at
 .
+WIDGETS_TIMER_SET_TYPE
+:
+case
+at
+.
 WIDGETS_TIMER_SET_DURATION
 :
 case
