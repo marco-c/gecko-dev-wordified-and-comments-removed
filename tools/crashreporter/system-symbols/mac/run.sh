@@ -32,13 +32,6 @@ PATH
 "
 PATH
 :
-/
-builds
-/
-worker
-/
-bin
-:
 base
 :
 {
