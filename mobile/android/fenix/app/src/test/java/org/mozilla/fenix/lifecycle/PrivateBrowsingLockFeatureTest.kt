@@ -415,6 +415,9 @@ AppState
 mode
 =
 mode
+isPrivateScreenLocked
+=
+true
 )
 )
 val
@@ -1081,6 +1084,9 @@ AppState
 mode
 =
 mode
+isPrivateScreenLocked
+=
+true
 )
 )
 val
@@ -1222,6 +1228,9 @@ AppState
 mode
 =
 mode
+isPrivateScreenLocked
+=
+true
 )
 )
 val
@@ -5028,6 +5037,9 @@ AppState
 mode
 =
 mode
+isPrivateScreenLocked
+=
+true
 )
 )
 val
@@ -5751,6 +5763,9 @@ AppState
 mode
 =
 mode
+isPrivateScreenLocked
+=
+true
 )
 )
 val
