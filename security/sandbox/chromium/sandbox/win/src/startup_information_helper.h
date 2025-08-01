@@ -7,7 +7,7 @@ SANDBOX_WIN_SRC_STARTUP_INFORMATION_HELPER_H_
 #
 include
 <
-Windows
+windows
 .
 h
 >
