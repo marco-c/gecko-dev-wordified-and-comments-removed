@@ -3983,7 +3983,7 @@ clippy
 )
 run
 :
-prefix
+prepend
 -
 env
 :
@@ -3996,7 +3996,13 @@ rustc
 /
 bin
 /
+{
+PATH
 :
++
+:
+PATH
+}
 "
 mach
 :
@@ -4140,7 +4146,7 @@ audit
 )
 run
 :
-prefix
+prepend
 -
 env
 :
@@ -4164,7 +4170,13 @@ cargo
 /
 bin
 /
+{
+PATH
 :
++
+:
+PATH
+}
 "
 mach
 :

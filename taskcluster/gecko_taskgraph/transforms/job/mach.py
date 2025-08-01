@@ -111,7 +111,7 @@ bool
 Optional
 (
 "
-prefix
+prepend
 -
 env
 "
@@ -267,7 +267,7 @@ UTF
 ]
     
 if
-prefix_env
+prepend_env
 :
 =
 run
@@ -275,7 +275,7 @@ run
 pop
 (
 "
-prefix
+prepend
 -
 env
 "
@@ -285,9 +285,9 @@ None
         
 for
 name
-prefix
+value
 in
-prefix_env
+prepend_env
 .
 items
 (
@@ -305,10 +305,7 @@ name
 }
 =
 {
-prefix
-}
-{
-name
+value
 }
 "
 )
