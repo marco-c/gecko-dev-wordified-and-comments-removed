@@ -20,6 +20,15 @@ LOCAL_INCLUDES
 =
 [
 "
+!
+/
+dist
+/
+include
+/
+libwebrtc_overrides
+"
+"
 /
 dom
 /
