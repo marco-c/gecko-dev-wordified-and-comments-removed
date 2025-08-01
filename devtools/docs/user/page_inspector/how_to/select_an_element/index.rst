@@ -387,11 +387,7 @@ to
 select
 it
 :
-Starting
-in
-Firefox
-52
-if
+If
 you
 :
 kbd

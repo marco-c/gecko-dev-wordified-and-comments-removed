@@ -31,16 +31,6 @@ The
 Tree
 map
 view
-is
-new
-in
-Firefox
-48
-.
-The
-Tree
-map
-view
 provides
 a
 visual

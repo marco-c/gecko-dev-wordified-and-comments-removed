@@ -45,10 +45,7 @@ sockets
 =
 =
 =
-Since
-Firefox
-71
-the
+The
 :
 doc
 :
@@ -61,7 +58,6 @@ Monitor
 index
 >
 has
-had
 the
 ability
 to
@@ -642,14 +638,6 @@ Control
 *
 *
 -
-(
-Available
-starting
-in
-Firefox
-76
-)
-.
 Displays
 messages
 for

@@ -116,10 +116,7 @@ png
 class
 :
 center
-From
-Firefox
-41
-if
+If
 you
 right
 -

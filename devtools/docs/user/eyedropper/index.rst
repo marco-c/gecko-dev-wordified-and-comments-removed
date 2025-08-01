@@ -430,10 +430,7 @@ inspect_and_select_colors
 index
 >
 .
-From
-Firefox
-31
-the
+The
 popup
 contains
 an

@@ -50,13 +50,6 @@ DOM
 Property
 Viewer
 is
-new
-in
-Firefox
-48
-.
-It
-is
 disabled
 by
 default

@@ -624,10 +624,7 @@ clipboard
 *
 *
 *
-From
-Firefox
-53
-you
+You
 can
 also
 copy
@@ -819,10 +816,6 @@ your
 own
 file
 name
-starting
-in
-Firefox
-62
 you
 can
 use

@@ -315,11 +315,7 @@ preview
 *
 *
 *
-New
-in
-Firefox
-71
-the
+The
 :
 ref
 :
@@ -328,7 +324,6 @@ pane
 <
 debugger_ui_tour_source_pane
 >
-now
 gives
 you
 an

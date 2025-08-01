@@ -479,10 +479,7 @@ across
 different
 browsers
 .
-From
-Firefox
-81
-compatibility
+Compatibility
 tooltips
 may
 be
@@ -2719,10 +2716,7 @@ the
 Rules
 toolbar
 .
-From
-Firefox
-81
-autocompletions
+Autocompletions
 based
 on
 existing

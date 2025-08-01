@@ -206,10 +206,6 @@ under
 *
 Application
 *
-in
-Firefox
-79
-+
 .
 If
 you

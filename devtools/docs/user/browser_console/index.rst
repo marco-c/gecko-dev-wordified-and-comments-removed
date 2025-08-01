@@ -321,12 +321,6 @@ on
 debugging
 toolboxes
 "
-(
-Firefox
-40
-and
-later
-)
 option
 in
 the
@@ -627,11 +621,7 @@ evaluate
 JavaScript
 expressions
 .
-Beginning
-with
-Firefox
-68
-the
+The
 Browser
 Console
 allows

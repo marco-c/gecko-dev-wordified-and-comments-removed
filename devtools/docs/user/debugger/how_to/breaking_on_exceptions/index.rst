@@ -166,11 +166,7 @@ describes
 the
 exception
 .
-Starting
-in
-Firefox
-80
-a
+A
 disclosure
 triangle
 within

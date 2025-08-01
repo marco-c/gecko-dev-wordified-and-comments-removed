@@ -309,14 +309,7 @@ API
 Web_Animations_API
 >
 _
-.
-Starting
-in
-Firefox
-48
-it
-will
-show
+including
 animations
 applied
 to
@@ -2186,10 +2179,6 @@ in
 the
 Animation
 Inspector
-in
-Firefox
-49
-+
 you
 '
 ll

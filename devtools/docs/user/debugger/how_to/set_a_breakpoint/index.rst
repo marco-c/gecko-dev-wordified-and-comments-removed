@@ -1108,11 +1108,7 @@ preview
 *
 *
 *
-New
-in
-Firefox
-71
-the
+The
 :
 ref
 :

@@ -1435,15 +1435,7 @@ clip
 path
 >
 _
-;
-it
-will
-also
-work
-for
-shapes
-generated
-via
+and
 shape
 -
 outside
@@ -1473,8 +1465,4 @@ shape
 outside
 >
 _
-as
-of
-Firefox
-62
 .

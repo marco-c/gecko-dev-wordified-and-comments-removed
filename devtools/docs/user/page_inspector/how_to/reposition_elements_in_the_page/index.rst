@@ -65,11 +65,7 @@ page
 =
 =
 =
-Starting
-in
-Firefox
-48
-you
+You
 can
 move
 absolutely

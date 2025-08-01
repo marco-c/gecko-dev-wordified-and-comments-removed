@@ -121,11 +121,7 @@ by
 pushing
 messages
 .
-From
-Firefox
-82
-onwards
-you
+You
 can
 inspect
 server

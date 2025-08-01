@@ -535,11 +535,7 @@ by
 the
 result
 .
-Starting
-in
-Firefox
-76
-if
+If
 the
 code
 snippet

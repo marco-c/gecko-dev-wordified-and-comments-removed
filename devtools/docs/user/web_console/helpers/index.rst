@@ -497,12 +497,6 @@ used
 .
 :
 block
-(
-Starting
-in
-Firefox
-80
-)
 Followed
 by
 an
@@ -1162,12 +1156,6 @@ screenshot
 .
 :
 unblock
-(
-Starting
-in
-Firefox
-80
-)
 Followed
 by
 an

@@ -272,11 +272,7 @@ presets
 *
 *
 *
-From
-Firefox
-42
-onwards
-you
+You
 can
 also
 add

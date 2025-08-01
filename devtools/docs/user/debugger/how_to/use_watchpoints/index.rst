@@ -567,7 +567,6 @@ with
 watchpoints
 in
 Firefox
-72
 <
 https
 :
