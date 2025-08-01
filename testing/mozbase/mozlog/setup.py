@@ -39,6 +39,10 @@ mozterm
 "
 mozfile
 "
+    
+"
+mozsystemmonitor
+"
 ]
 setup
 (

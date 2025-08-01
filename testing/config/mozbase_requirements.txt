@@ -129,6 +129,12 @@ mozscreenshot
 /
 mozbase
 /
+mozsystemmonitor
+.
+.
+/
+mozbase
+/
 moztest
 .
 .

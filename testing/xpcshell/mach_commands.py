@@ -1449,6 +1449,13 @@ building
 import
 BuildDriver
     
+from
+mozlog
+.
+handlers
+import
+ResourceHandler
+    
 if
 test_objects
 is
@@ -1508,6 +1515,10 @@ _ensure_state_subdir_exists
 .
 "
 )
+    
+created_logger
+=
+False
     
 if
 not
@@ -1600,6 +1611,25 @@ params
 log_defaults
 fmt_defaults
         
+)
+        
+created_logger
+=
+True
+        
+params
+[
+"
+log
+"
+]
+.
+add_handler
+(
+ResourceHandler
+(
+command_context
+)
 )
     
 if
@@ -2008,3 +2038,21 @@ e
         
 return
 1
+    
+finally
+:
+        
+if
+created_logger
+:
+            
+params
+[
+"
+log
+"
+]
+.
+shutdown
+(
+)

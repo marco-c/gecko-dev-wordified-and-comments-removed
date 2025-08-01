@@ -1542,6 +1542,7 @@ mozlog
 .
 handlers
 import
+ResourceHandler
 StreamHandler
     
 from
@@ -1878,12 +1879,7 @@ format
 "
 ]
         
-kwargs
-[
-"
 log
-"
-]
 =
 setup_logging
 (
@@ -1905,15 +1901,19 @@ format_args
         
 )
         
-for
-handler
-in
 kwargs
 [
 "
 log
 "
 ]
+=
+log
+        
+for
+handler
+in
+log
 .
 handlers
 :
@@ -1935,6 +1935,16 @@ inner
 summary_on_shutdown
 =
 True
+        
+log
+.
+add_handler
+(
+ResourceHandler
+(
+command_context
+)
+)
     
 driver
 =
