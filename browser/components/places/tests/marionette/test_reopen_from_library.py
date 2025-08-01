@@ -313,9 +313,9 @@ _
             
 return
 "
-true
 "
-in
+=
+=
 star_image
 .
 get_attribute
