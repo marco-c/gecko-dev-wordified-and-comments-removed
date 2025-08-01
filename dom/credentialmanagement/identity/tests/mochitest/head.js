@@ -39,11 +39,6 @@ net
 "
 )
 {
-await
-clearIdentityCredentialStorage
-(
-)
-;
 let
 idp_api
 =
