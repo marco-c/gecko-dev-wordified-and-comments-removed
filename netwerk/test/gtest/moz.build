@@ -23,6 +23,11 @@ TestCacheControlParser
 cpp
 "
 "
+TestCacheIndex
+.
+cpp
+"
+"
 TestCapsule
 .
 cpp
@@ -243,6 +248,12 @@ LOCAL_INCLUDES
 netwerk
 /
 base
+"
+"
+/
+netwerk
+/
+cache2
 "
 "
 /
