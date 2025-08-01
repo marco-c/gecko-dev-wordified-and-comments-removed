@@ -677,6 +677,7 @@ focusableElementsList
 [
 newIndex
 ]
+?
 .
 focus
 (
@@ -1982,6 +1983,12 @@ args
 {
 alertCountArg
 }
+tabindex
+=
+"
+-
+1
+"
 slot
 =
 "
