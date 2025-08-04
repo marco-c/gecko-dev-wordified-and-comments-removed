@@ -2088,7 +2088,7 @@ quickactions
 .
 timesToShowOnboardingLabel
 "
-0
+3
 ]
 /
 /
