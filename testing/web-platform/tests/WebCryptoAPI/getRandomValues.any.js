@@ -419,14 +419,12 @@ ctor
 .
 BYTES_PER_ELEMENT
 ;
-assert_throws_dom
+assert_throws_quotaexceedederror
 (
-"
-QuotaExceededError
-"
-function
 (
 )
+=
+>
 {
 self
 .
@@ -442,7 +440,10 @@ maxlength
 1
 )
 )
+;
 }
+null
+null
 "
 crypto
 .
@@ -452,6 +453,7 @@ over
 65536
 "
 )
+;
 }
 "
 Large

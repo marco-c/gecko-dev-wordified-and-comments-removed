@@ -6163,11 +6163,6 @@ URL_MISMATCH_ERR
 '
 URLMismatchError
 '
-QUOTA_EXCEEDED_ERR
-:
-'
-QuotaExceededError
-'
 TIMEOUT_ERR
 :
 '
@@ -6257,9 +6252,6 @@ AbortError
 URLMismatchError
 :
 21
-QuotaExceededError
-:
-22
 TimeoutError
 :
 23
