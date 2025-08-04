@@ -143,9 +143,10 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 WebGLSync
 override
 )
-const
 GLsync
 mGLName
+=
+0
 ;
 const
 uint64_t
