@@ -207,7 +207,6 @@ size
 ;
 margin
 :
-0
 var
 (
 -
@@ -216,6 +215,15 @@ space
 -
 small
 )
+var
+(
+-
+-
+space
+-
+small
+)
+0
 ;
 background
 -
