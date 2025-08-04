@@ -778,8 +778,15 @@ menuitem
 .
 style
 .
-listStyleImage
-=
+setProperty
+(
+"
+-
+-
+menuitem
+-
+icon
+"
 url
 (
 {
@@ -791,6 +798,7 @@ getAvatarURL
 48
 )
 }
+)
 )
 ;
 menuitem
