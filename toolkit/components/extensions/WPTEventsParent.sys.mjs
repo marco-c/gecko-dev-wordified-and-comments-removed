@@ -143,9 +143,7 @@ start
 "
 :
 "
-test
--
-started
+onTestStarted
 testName
 "
 "
@@ -157,9 +155,7 @@ done
 "
 :
 "
-test
--
-finished
+onTestFinished
 remainingTests
 "
 "
@@ -169,9 +165,7 @@ eq
 "
 :
 "
-assert
--
-equality
+onAssertEquality
 result
 message
 expectedValue
@@ -184,7 +178,7 @@ result
 "
 :
 "
-assert
+onAssert
 result
 message
 "
@@ -389,8 +383,6 @@ name
 {
 case
 "
-onMessage
-.
 addListener
 "
 :
@@ -406,8 +398,6 @@ break
 ;
 case
 "
-onMessage
-.
 removeListener
 "
 :
