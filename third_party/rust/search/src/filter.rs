@@ -2488,12 +2488,6 @@ sync
 :
 Lazy
 ;
-use
-pretty_assertions
-:
-:
-assert_eq
-;
 #
 [
 test

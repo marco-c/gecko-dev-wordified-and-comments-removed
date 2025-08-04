@@ -163,7 +163,7 @@ UniFFIScaffolding
 .
 callSync
 (
-91
+89
 /
 /
 uniffi_tracing_support_fn_func_register_event_sink
@@ -233,7 +233,7 @@ UniFFIScaffolding
 .
 callSync
 (
-92
+90
 /
 /
 uniffi_tracing_support_fn_func_unregister_event_sink
@@ -1718,7 +1718,7 @@ UniFFICallbackHandler
 "
 EventSink
 "
-3
+2
 [
 new
 UniFFICallbackMethodHandler

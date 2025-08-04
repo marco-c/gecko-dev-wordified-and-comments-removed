@@ -57,6 +57,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+error_support
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 tracing_support
 :
 :

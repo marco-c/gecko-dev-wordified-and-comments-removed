@@ -157,7 +157,7 @@ UniFFIScaffolding
 .
 callSync
 (
-199
+198
 /
 /
 uniffi_uniffi_bindings_tests_collision_fn_func_invoke_collision_callback
@@ -349,7 +349,7 @@ UniFFICallbackHandler
 "
 TestCallbackInterface
 "
-8
+7
 [
 new
 UniFFICallbackMethodHandler
