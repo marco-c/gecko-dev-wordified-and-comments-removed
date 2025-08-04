@@ -303,6 +303,13 @@ in
 -
 vpn
 "
+class
+=
+"
+vpn
+-
+button
+"
 data
 -
 l10n
