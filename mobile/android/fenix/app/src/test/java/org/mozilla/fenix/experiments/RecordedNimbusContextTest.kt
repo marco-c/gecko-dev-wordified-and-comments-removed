@@ -525,6 +525,13 @@ user_accepted_tou
 "
 true
 )
+put
+(
+"
+no_shortcuts_stories_mkt
+"
+true
+)
 }
 contextAsJson
 )
@@ -757,6 +764,13 @@ put
 (
 "
 userAcceptedTou
+"
+true
+)
+put
+(
+"
+noShortcutsStoriesMkt
 "
 true
 )
