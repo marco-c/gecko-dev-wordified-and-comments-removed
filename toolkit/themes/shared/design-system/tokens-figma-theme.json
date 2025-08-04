@@ -367,8 +367,14 @@ dark
 "
 :
 "
-#
-3A3944
+{
+Colors
+color
+/
+gray
+/
+70
+}
 "
 "
 forcedColors
