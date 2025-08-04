@@ -101,11 +101,7 @@ domain
 /
 data
 /
-file_browser
-.
-test
-.
-onMessage
+file_wpt_events
 .
 html
 ?

@@ -15106,7 +15106,7 @@ NIGHTLY_BUILD
 {
 const
 {
-WPTMessagesParent
+WPTEventsParent
 }
 =
 ChromeUtils
@@ -15122,7 +15122,7 @@ gre
 /
 modules
 /
-WPTMessagesParent
+WPTEventsParent
 .
 sys
 .
@@ -15130,7 +15130,7 @@ mjs
 "
 )
 ;
-WPTMessagesParent
+WPTEventsParent
 .
 init
 (

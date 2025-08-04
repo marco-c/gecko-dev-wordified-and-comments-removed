@@ -207,7 +207,7 @@ actors
 .
 export
 class
-WPTMessagesParent
+WPTEventsParent
 extends
 JSWindowActorParent
 {
@@ -254,7 +254,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-WPTMessages
+WPTEvents
 "
 {
 matches
@@ -285,7 +285,7 @@ gre
 /
 modules
 /
-WPTMessagesChild
+WPTEventsChild
 .
 sys
 .
@@ -319,7 +319,7 @@ gre
 /
 modules
 /
-WPTMessagesParent
+WPTEventsParent
 .
 sys
 .
@@ -394,7 +394,7 @@ onMessage
 addListener
 "
 :
-WPTMessagesParent
+WPTEventsParent
 .
 #
 setListener
@@ -411,7 +411,7 @@ onMessage
 removeListener
 "
 :
-WPTMessagesParent
+WPTEventsParent
 .
 #
 removeListener
@@ -427,7 +427,7 @@ didDestroy
 (
 )
 {
-WPTMessagesParent
+WPTEventsParent
 .
 #
 removeListener
@@ -564,7 +564,7 @@ ext
 on
 (
 ev
-WPTMessagesParent
+WPTEventsParent
 .
 #
 onEvent
@@ -598,7 +598,7 @@ ext
 off
 (
 ev
-WPTMessagesParent
+WPTEventsParent
 .
 #
 onEvent
@@ -659,7 +659,7 @@ i
 ]
 )
 ;
-WPTMessagesParent
+WPTEventsParent
 .
 #
 emit

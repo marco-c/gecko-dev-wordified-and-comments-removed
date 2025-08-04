@@ -327,14 +327,14 @@ EXTRA_JS_MODULES
 =
 [
 "
-WPTMessagesChild
+WPTEventsChild
 .
 sys
 .
 mjs
 "
 "
-WPTMessagesParent
+WPTEventsParent
 .
 sys
 .

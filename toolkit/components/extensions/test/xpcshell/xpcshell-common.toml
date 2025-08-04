@@ -3960,7 +3960,7 @@ js
 ]
 [
 "
-test_wpt_test_onMessage
+test_wpt_test_events
 .
 js
 "

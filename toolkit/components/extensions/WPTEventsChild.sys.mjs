@@ -82,7 +82,7 @@ pages
 .
 export
 class
-WPTMessagesChild
+WPTEventsChild
 extends
 JSWindowActorChild
 {
