@@ -451,14 +451,6 @@ sEventLoopDepth
 ;
 }
 ;
-static
-bool
-IsTextFlavor
-(
-GdkAtom
-aFlavor
-)
-;
 protected
 :
 enum

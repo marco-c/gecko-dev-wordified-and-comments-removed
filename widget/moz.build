@@ -1185,11 +1185,6 @@ ThemeChangeKind
 h
 "
 "
-WidgetLogging
-.
-h
-"
-"
 WidgetMessageUtils
 .
 h

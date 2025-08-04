@@ -113,6 +113,9 @@ constructor
 aBrowsingContext
 aParams
 aSpecialPowers
+aOk
+aIs
+aInfo
 )
 {
 super
@@ -123,6 +126,9 @@ dragTarget
 aBrowsingContext
 aParams
 aSpecialPowers
+aOk
+aIs
+aInfo
 )
 ;
 }
