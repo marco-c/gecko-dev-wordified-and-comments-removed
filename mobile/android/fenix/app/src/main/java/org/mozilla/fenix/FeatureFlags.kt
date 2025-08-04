@@ -256,11 +256,14 @@ Panel
 .
 *
 /
-const
 val
 UNIFIED_TRUST_PANEL
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 /
 *
 *
