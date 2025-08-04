@@ -24616,6 +24616,14 @@ dismiss
 (
 )
 ;
+method
+UiThread
+public
+void
+show
+(
+)
+;
 field
 public
 static
