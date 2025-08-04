@@ -77,17 +77,3 @@ BASE_INCLUDES
 =
 [
 ]
-XPCSHELL_TESTS_MANIFESTS
-+
-=
-[
-"
-tests
-/
-xpcshell
-/
-xpcshell
-.
-toml
-"
-]
