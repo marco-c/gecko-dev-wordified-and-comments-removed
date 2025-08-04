@@ -767,7 +767,7 @@ selfURL
 =
 this
 .
-_getURLOfType
+getURLOfType
 (
 lazy
 .
@@ -830,7 +830,7 @@ updateURL
 =
 this
 .
-_getURLOfType
+getURLOfType
 (
 lazy
 .

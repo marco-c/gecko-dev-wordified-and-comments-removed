@@ -1262,7 +1262,7 @@ searchUrl
 =
 this
 .
-_getURLOfType
+getURLOfType
 (
 lazy
 .

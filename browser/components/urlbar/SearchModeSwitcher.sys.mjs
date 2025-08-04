@@ -2309,7 +2309,7 @@ if
 (
 engine
 .
-isNewEngineOrURL
+isNew
 (
 )
 &

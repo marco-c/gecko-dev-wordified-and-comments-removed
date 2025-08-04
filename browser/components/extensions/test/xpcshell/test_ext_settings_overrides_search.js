@@ -1128,7 +1128,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 "
 text
@@ -1388,7 +1388,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 "
 text
@@ -1964,7 +1964,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 "
 text
@@ -2248,7 +2248,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 "
 text
