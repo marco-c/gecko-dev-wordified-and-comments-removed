@@ -114,15 +114,6 @@ BrowserTestUtils
 browserLoaded
 (
 browser
-{
-wantLoad
-:
-"
-about
-:
-blank
-"
-}
 )
 promiseLocationChange
 (

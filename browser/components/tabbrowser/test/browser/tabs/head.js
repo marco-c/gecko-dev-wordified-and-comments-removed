@@ -410,11 +410,6 @@ BrowserTestUtils
 browserLoaded
 (
 browser
-{
-wantLoad
-:
-url
-}
 )
 ;
 return

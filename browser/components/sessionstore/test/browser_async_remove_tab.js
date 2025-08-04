@@ -29,16 +29,9 @@ tab
 linkedBrowser
 ;
 await
-BrowserTestUtils
-.
-browserLoaded
+promiseBrowserLoaded
 (
 browser
-{
-wantLoad
-:
-url
-}
 )
 ;
 let

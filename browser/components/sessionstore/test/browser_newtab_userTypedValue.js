@@ -420,11 +420,6 @@ win
 gBrowser
 .
 selectedBrowser
-{
-wantLoad
-:
-url
-}
 )
 ;
 await

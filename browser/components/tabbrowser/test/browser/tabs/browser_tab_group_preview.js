@@ -285,7 +285,6 @@ https
 example
 .
 com
-/
 "
 )
 ;

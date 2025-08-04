@@ -2394,13 +2394,10 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
-{
-wantLoad
-:
+null
 expected
 .
 url
-}
 )
 ;
 }

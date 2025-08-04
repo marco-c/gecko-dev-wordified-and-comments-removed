@@ -348,15 +348,6 @@ browserLoaded
 tab
 .
 linkedBrowser
-{
-wantLoad
-:
-"
-about
-:
-blank
-"
-}
 )
 ;
 BrowserTestUtils

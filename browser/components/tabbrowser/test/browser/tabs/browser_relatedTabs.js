@@ -105,11 +105,6 @@ browserLoaded
 tab
 .
 linkedBrowser
-{
-wantLoad
-:
-aURL
-}
 )
 ;
 }
@@ -342,11 +337,6 @@ currentURI
 await
 addTab
 (
-"
-about
-:
-blank
-"
 )
 ;
 await
