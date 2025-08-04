@@ -67,6 +67,11 @@ browserLoaded
 tab
 .
 linkedBrowser
+{
+wantLoad
+:
+uri
+}
 )
 ;
 let

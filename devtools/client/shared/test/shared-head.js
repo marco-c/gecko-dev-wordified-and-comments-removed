@@ -2424,6 +2424,15 @@ browserLoaded
 tab
 .
 linkedBrowser
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+}
 )
 ;
 await

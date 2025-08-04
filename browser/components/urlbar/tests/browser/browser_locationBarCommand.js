@@ -15,9 +15,14 @@ const
 START_VALUE
 =
 "
+http
+:
+/
+/
 example
 .
 org
+/
 "
 ;
 add_setup
@@ -1839,6 +1844,11 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+url
+}
 )
 ;
 await

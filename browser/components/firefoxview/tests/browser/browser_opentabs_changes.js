@@ -787,8 +787,11 @@ browserLoaded
 newTab
 .
 linkedBrowser
-null
+{
+wantLoad
+:
 navigateUrl
+}
 )
 ;
 changeEvent

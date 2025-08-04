@@ -49,6 +49,15 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 info
