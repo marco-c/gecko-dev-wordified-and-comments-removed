@@ -80,9 +80,6 @@ Child
 ChildMetricMeta
 )
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -90,9 +87,6 @@ NumeratorMetric
 NUMERATOR_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

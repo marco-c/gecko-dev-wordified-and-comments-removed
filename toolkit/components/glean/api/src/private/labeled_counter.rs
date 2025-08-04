@@ -96,9 +96,6 @@ label
 String
 }
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -108,9 +105,6 @@ COUNTER_MAP
 LABELED_COUNTER_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

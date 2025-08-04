@@ -92,9 +92,6 @@ pub
 struct
 QuantityMetricIpc
 ;
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -103,9 +100,6 @@ QUANTITY_MAP
 LABELED_QUANTITY_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

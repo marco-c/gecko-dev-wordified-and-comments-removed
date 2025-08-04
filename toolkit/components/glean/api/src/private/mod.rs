@@ -16,6 +16,13 @@ TimeUnit
 TimerId
 }
 ;
+#
+[
+macro_use
+]
+mod
+metric_getter
+;
 mod
 boolean
 ;
@@ -60,9 +67,6 @@ labeled_timing_distribution
 ;
 mod
 memory_distribution
-;
-mod
-metric_getter
 ;
 mod
 numerator
