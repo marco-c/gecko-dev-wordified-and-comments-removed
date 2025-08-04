@@ -1275,6 +1275,11 @@ gfxVars
 CanUseHardwareVideoDecoding
 (
 )
+|
+|
+XRE_IsUtilityProcess
+(
+)
 )
 {
 return

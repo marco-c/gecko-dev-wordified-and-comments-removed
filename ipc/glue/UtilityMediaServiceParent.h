@@ -181,6 +181,8 @@ ContentDeviceData
 aContentDeviceData
 )
 ;
+#
+endif
 IPCResult
 RecvUpdateVar
 (
@@ -199,8 +201,6 @@ GfxVarUpdate
 aUpdate
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_WMF_CDM
