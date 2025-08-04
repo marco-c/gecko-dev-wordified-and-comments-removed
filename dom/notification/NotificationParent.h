@@ -63,6 +63,7 @@ Settings
 Click
 Show
 Finished
+Closed
 }
 ;
 struct
