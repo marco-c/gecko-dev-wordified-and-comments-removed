@@ -687,10 +687,7 @@ nullptr
 "
 alertfinished
 "
-u
-"
-close
-"
+nullptr
 )
 ;
 }
@@ -869,10 +866,7 @@ nullptr
 "
 alertfinished
 "
-u
-"
-close
-"
+nullptr
 )
 ;
 }
