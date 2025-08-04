@@ -69,47 +69,47 @@ AssertsProtocolPart
                        
 BaseProtocolPart
                        
-TestharnessProtocolPart
-                       
-PrefsProtocolPart
-                       
-Protocol
-                       
-StorageProtocolPart
-                       
-SelectorProtocolPart
-                       
 ClickProtocolPart
                        
 CookiesProtocolPart
                        
-SendKeysProtocolPart
-                       
-TestDriverProtocolPart
-                       
 CoverageProtocolPart
-                       
-GenerateTestReportProtocolPart
-                       
-VirtualAuthenticatorProtocolPart
-                       
-WindowProtocolPart
-                       
-SetPermissionProtocolPart
-                       
-PrintProtocolPart
                        
 DebugProtocolPart
                        
-VirtualSensorProtocolPart
-                       
 DevicePostureProtocolPart
-                       
-VirtualPressureSourceProtocolPart
                        
 DisplayFeaturesProtocolPart
                        
+GenerateTestReportProtocolPart
+                       
+PrefsProtocolPart
+                       
+PrintProtocolPart
+                       
+Protocol
+                       
+SelectorProtocolPart
+                       
+SendKeysProtocolPart
+                       
+SetPermissionProtocolPart
+                       
+StorageProtocolPart
+                       
+TestDriverProtocolPart
+                       
+TestharnessProtocolPart
+                       
+VirtualAuthenticatorProtocolPart
+                       
+VirtualPressureSourceProtocolPart
+                       
+VirtualSensorProtocolPart
+                       
 WebExtensionsProtocolPart
+                       
+WindowProtocolPart
                        
 merge_dicts
 )
