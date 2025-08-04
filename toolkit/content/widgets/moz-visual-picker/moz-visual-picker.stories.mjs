@@ -680,8 +680,6 @@ var
 icon
 -
 size
--
-default
 )
 ;
 width
@@ -693,8 +691,6 @@ var
 icon
 -
 size
--
-default
 )
 ;
 -

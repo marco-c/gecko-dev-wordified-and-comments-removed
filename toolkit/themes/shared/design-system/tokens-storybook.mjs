@@ -9254,8 +9254,6 @@ name
 icon
 -
 size
--
-default
 "
 }
 {
@@ -17322,8 +17320,6 @@ red
 icon
 -
 size
--
-default
 "
 :
 "
