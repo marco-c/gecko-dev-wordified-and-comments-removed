@@ -556,6 +556,10 @@ Destroy
 (
 )
 ;
+mIconLoader
+=
+nullptr
+;
 return
 NS_OK
 ;
