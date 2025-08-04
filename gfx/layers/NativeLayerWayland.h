@@ -305,12 +305,12 @@ widget
 :
 WaylandSurface
 >
-GetWaylandSurface
+GetRootWaylandSurface
 (
 )
 {
 return
-mSurface
+mRootSurface
 ;
 }
 RefPtr
@@ -487,7 +487,7 @@ widget
 :
 WaylandSurface
 >
-mSurface
+mRootSurface
 ;
 RefPtr
 <
