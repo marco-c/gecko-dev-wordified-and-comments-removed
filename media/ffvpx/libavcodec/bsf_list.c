@@ -29,6 +29,13 @@ CONFIG_AV1_VAAPI_HWACCEL
 ff_av1_frame_split_bsf
 #
 endif
+#
+if
+CONFIG_MEDIACODEC
+&
+ff_aac_adtstoasc_bsf
+#
+endif
 &
 ff_null_bsf
 NULL

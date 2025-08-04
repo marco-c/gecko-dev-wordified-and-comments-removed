@@ -27,6 +27,11 @@ SOURCES
 =
 [
 '
+aac_adtstoasc
+.
+c
+'
+'
 null
 .
 c

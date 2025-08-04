@@ -24,6 +24,15 @@ h
 #
 include
 "
+libavutil
+/
+internal
+.
+h
+"
+#
+include
+"
 libavcodec
 /
 packet
