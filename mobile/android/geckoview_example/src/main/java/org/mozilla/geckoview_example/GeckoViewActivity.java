@@ -952,6 +952,12 @@ String
 [
 ]
 origins
+NonNull
+final
+String
+[
+]
+dataCollectionPermissions
 )
 {
 return
