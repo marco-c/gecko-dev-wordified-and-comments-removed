@@ -2776,6 +2776,17 @@ if
 engine
 )
 {
+/
+/
+TODO
+do
+we
+really
+need
+to
+distinguish
+here
+?
 Glean
 .
 urlbarUnifiedsearchbutton
@@ -2784,7 +2795,7 @@ picked
 [
 engine
 .
-isAppProvided
+isConfigEngine
 ?
 "
 builtin_search

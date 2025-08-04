@@ -401,7 +401,7 @@ add_task
 (
 async
 function
-test_persist_searchmode_non_app_provided_engine
+test_persist_searchmode_non_config_engine
 (
 )
 {
@@ -583,9 +583,7 @@ search
 mode
 for
 non
-app
--
-provided
+config
 engines
 "
 )

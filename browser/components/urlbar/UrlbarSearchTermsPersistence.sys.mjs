@@ -700,11 +700,10 @@ the
 URIs
 represent
 an
-application
-provided
+config
 search
-*
 engine
+*
 results
 page
 (
@@ -936,7 +935,7 @@ result
 engine
 ?
 .
-isAppProvided
+isConfigEngine
 |
 |
 !
@@ -985,7 +984,7 @@ result
 engine
 ?
 .
-isAppProvided
+isConfigEngine
 )
 {
 return
@@ -2452,7 +2451,7 @@ result
 engine
 ?
 .
-isAppProvided
+isConfigEngine
 )
 {
 return

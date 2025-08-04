@@ -9,7 +9,7 @@ defineESModuleGetters
 (
 this
 {
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 :
 "
 moz
@@ -25,7 +25,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -2118,7 +2118,7 @@ sinon
 .
 spy
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "
@@ -2205,7 +2205,7 @@ sinon
 .
 spy
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "

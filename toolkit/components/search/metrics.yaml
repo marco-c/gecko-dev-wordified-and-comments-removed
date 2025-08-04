@@ -1211,10 +1211,9 @@ app
 ]
 appDefault
 for
-an
-app
--
-provided
+a
+config
+search
 engine
 .
 [
@@ -3055,10 +3054,9 @@ app
 ]
 appDefault
 for
-an
-app
--
-provided
+a
+config
+search
 engine
 .
 [
@@ -5215,8 +5213,7 @@ engine
 .
 Only
 records
-app
-provided
+config
 engines
 using
 their
@@ -5314,8 +5311,7 @@ engine
 .
 Only
 records
-app
-provided
+config
 engines
 using
 their
@@ -5413,8 +5409,7 @@ engine
 .
 Only
 records
-app
-provided
+config
 engines
 using
 their

@@ -1730,9 +1730,7 @@ searchUrlDomain
 /
 /
 For
-built
--
-in
+config
 engines
 sanitize
 the
@@ -1754,7 +1752,7 @@ if
 !
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 scalarKey

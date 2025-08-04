@@ -62095,6 +62095,11 @@ isAppProvided
 boolean
 ;
 readonly
+isConfigEngine
+:
+boolean
+;
+readonly
 inMemory
 :
 boolean

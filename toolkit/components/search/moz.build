@@ -63,7 +63,7 @@ sys
 mjs
 "
 "
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .

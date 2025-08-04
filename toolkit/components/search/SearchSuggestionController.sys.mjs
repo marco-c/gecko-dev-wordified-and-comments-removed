@@ -2654,7 +2654,7 @@ context
 .
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 if

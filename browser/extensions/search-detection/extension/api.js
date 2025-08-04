@@ -115,7 +115,7 @@ sys
 .
 mjs
 "
-AppProvidedSearchEngine
+ConfigSearchEngine
 :
 "
 moz
@@ -131,7 +131,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -307,7 +307,7 @@ engine
 instanceof
 lazy
 .
-AppProvidedSearchEngine
+ConfigSearchEngine
 )
 )
 {

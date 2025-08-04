@@ -888,7 +888,7 @@ if
 (
 defaultEngine
 .
-isAppProvided
+isConfigEngine
 )
 {
 await

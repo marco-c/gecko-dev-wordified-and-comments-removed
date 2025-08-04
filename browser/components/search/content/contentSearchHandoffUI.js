@@ -255,7 +255,7 @@ if
 !
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 this
@@ -506,7 +506,7 @@ if
 !
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 document

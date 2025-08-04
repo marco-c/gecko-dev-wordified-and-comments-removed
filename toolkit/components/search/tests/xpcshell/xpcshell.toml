@@ -1202,6 +1202,13 @@ ico
 ]
 [
 "
+test_settings_migrate_13
+.
+js
+"
+]
+[
+"
 test_settings_migrate_id_format
 .
 js
@@ -1395,7 +1402,7 @@ js
 ]
 [
 "
-test_userInstalledAppEngine
+test_userInstalledConfigEngine
 .
 js
 "

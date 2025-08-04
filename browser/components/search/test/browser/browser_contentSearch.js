@@ -2442,11 +2442,11 @@ name
 =
 =
 hiddenEngine
-isAppProvided
+isConfigEngine
 :
 engine
 .
-isAppProvided
+isConfigEngine
 }
 )
 ;
@@ -2488,11 +2488,11 @@ iconDataFromURI
 (
 uriFavicon
 )
-isAppProvided
+isConfigEngine
 :
 engine
 .
-isAppProvided
+isConfigEngine
 }
 ;
 }

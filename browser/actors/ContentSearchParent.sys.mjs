@@ -2200,11 +2200,11 @@ hidden
 engine
 .
 hideOneOffButton
-isAppProvided
+isConfigEngine
 :
 engine
 .
-isAppProvided
+isConfigEngine
 }
 )
 ;
@@ -3207,11 +3207,11 @@ _getEngineIconURL
 (
 engine
 )
-isAppProvided
+isConfigEngine
 :
 engine
 .
-isAppProvided
+isConfigEngine
 }
 ;
 return
