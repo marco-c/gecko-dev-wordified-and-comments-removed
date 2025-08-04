@@ -371,7 +371,7 @@ R
 .
 string
 .
-pref_key_search_widget_installed_2
+pref_key_setup_step_install_search_widget
 )
 ShowSetupChecklist
 (
@@ -551,6 +551,16 @@ settings
 showSetupChecklist
 =
 value
+SetupChecklistPreference
+.
+InstallSearchWidget
+-
+>
+settings
+.
+hasCompletedSetupStepInstallSearchWidget
+=
+value
 /
 /
 no
@@ -576,9 +586,6 @@ SetToDefault
 SetupChecklistPreference
 .
 SignIn
-SetupChecklistPreference
-.
-InstallSearchWidget
 -
 >
 {

@@ -421,6 +421,13 @@ Task
 Type
 .
 EXPLORE_EXTENSION
+ChecklistItem
+.
+Task
+.
+Type
+.
+INSTALL_SEARCH_WIDGET
 -
 >
 assertTrue
@@ -443,13 +450,6 @@ Task
 Type
 .
 SIGN_IN
-ChecklistItem
-.
-Task
-.
-Type
-.
-INSTALL_SEARCH_WIDGET
 -
 >
 assertFalse
