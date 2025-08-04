@@ -697,12 +697,6 @@ nsIAsyncBoolCallback
 callback
 )
 ;
-unsigned
-long
-countTrustObjects
-(
-)
-;
 [
 must_use
 ]
