@@ -2063,25 +2063,11 @@ abs_test_install_dir
 ]
             
 "
-web
--
-platform
+config
 "
             
 "
-tests
-"
-            
-"
-tools
-"
-            
-"
-webtransport
-"
-            
-"
-requirements
+wpt_ci_requirements
 .
 txt
 "
