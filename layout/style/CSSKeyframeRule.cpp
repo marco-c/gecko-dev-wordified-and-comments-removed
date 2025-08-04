@@ -879,7 +879,7 @@ aCssText
 )
 ;
 }
-nsDOMCSSDeclaration
+nsICSSDeclaration
 *
 CSSKeyframeRule
 :

@@ -161,7 +161,7 @@ cssText
 ]
 readonly
 attribute
-CSSStyleProperties
+CSSStyleDeclaration
 style
 ;
 [

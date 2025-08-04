@@ -998,7 +998,7 @@ COMPILE_ENVIRONMENT
 GeneratedFile
 (
 "
-CSSStyleProperties
+CSS2Properties
 .
 webidl
 "
@@ -1012,7 +1012,7 @@ py
 entry_point
 =
 "
-generateCSSStyleProperties
+generateCSS2Properties
 "
 inputs
 =
