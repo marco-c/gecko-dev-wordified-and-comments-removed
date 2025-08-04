@@ -618,6 +618,10 @@ GLenum
 *
 const
 out_error
+bool
+allowFallback
+=
+false
 )
 const
 ;
