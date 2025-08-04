@@ -15329,6 +15329,9 @@ XRE_IsParentProcess
 return
 ;
 }
+gfxVarsCollectUpdates
+collect
+;
 FeatureState
 &
 featureDec

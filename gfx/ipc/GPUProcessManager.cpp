@@ -1646,6 +1646,13 @@ return
 true
 ;
 }
+bool
+wantRestart
+;
+{
+gfxVarsCollectUpdates
+collect
+;
 if
 (
 !
@@ -1677,9 +1684,6 @@ false
 )
 ;
 }
-bool
-wantRestart
-;
 if
 (
 mLastError
@@ -1804,6 +1808,7 @@ DisableGPUProcess
 (
 )
 ;
+}
 mozilla
 :
 :
@@ -3699,6 +3704,12 @@ reset
 ;
 bool
 wantRestart
+;
+{
+gfxVarsCollectUpdates
+collect
+;
+wantRestart
 =
 FallbackFromAcceleration
 (
@@ -3722,6 +3733,7 @@ SetUseWebRenderDCompVideoSwOverlayWin
 false
 )
 ;
+}
 if
 (
 wantRestart
@@ -3844,6 +3856,9 @@ WebRenderError
 VIDEO_OVERLAY
 )
 {
+gfxVarsCollectUpdates
+collect
+;
 gfxVars
 :
 :

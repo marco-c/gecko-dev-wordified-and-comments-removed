@@ -157,7 +157,10 @@ void
 OnVarChanged
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

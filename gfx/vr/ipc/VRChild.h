@@ -148,12 +148,14 @@ EnsureVRReady
 (
 )
 ;
-virtual
 void
 OnVarChanged
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

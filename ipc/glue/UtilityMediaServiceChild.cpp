@@ -835,10 +835,13 @@ UtilityMediaServiceChild
 OnVarChanged
 (
 const
+nsTArray
+<
 gfx
 :
 :
 GfxVarUpdate
+>
 &
 aVar
 )

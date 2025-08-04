@@ -313,10 +313,13 @@ void
 OnVarChanged
 (
 const
+nsTArray
+<
 gfx
 :
 :
 GfxVarUpdate
+>
 &
 aVar
 )

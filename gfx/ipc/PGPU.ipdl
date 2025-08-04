@@ -588,6 +588,8 @@ async
 UpdateVar
 (
 GfxVarUpdate
+[
+]
 var
 )
 ;

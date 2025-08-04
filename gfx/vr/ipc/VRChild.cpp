@@ -1018,7 +1018,10 @@ VRChild
 OnVarChanged
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

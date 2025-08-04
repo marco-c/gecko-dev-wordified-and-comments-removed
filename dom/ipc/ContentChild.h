@@ -1521,9 +1521,12 @@ IPCResult
 RecvVarUpdate
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
-pref
+var
 )
 ;
 mozilla
