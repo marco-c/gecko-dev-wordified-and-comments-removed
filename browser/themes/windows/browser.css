@@ -1804,8 +1804,6 @@ lwtheme
 ]
 )
 {
-#
-urlbar
 :
 not
 (
@@ -1814,7 +1812,7 @@ focused
 ]
 )
 >
-#
+.
 urlbar
 -
 background
