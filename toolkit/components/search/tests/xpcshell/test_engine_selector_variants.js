@@ -30,6 +30,12 @@ q
 displayName
 :
 null
+isNewUntil
+:
+null
+excludePartnerCodeFromTelemetry
+:
+false
 }
 ;
 const
