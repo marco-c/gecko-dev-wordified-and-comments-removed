@@ -571,12 +571,6 @@ BulletTextWithOptionalLink
 text
 :
 String
-learnMoreUrl
-:
-String
-?
-=
-null
 onLearnMoreClicked
 :
 (
@@ -590,6 +584,12 @@ modifier
 Modifier
 =
 Modifier
+learnMoreUrl
+:
+String
+?
+=
+null
 color
 :
 Color
