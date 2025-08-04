@@ -284,6 +284,11 @@ gBrowser
 LINKS
 .
 PRODUCT_URL
++
+"
+#
+pricing
+"
 )
 ;
 let

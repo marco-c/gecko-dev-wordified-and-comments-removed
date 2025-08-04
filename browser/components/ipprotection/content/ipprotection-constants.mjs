@@ -146,8 +146,6 @@ freevpnpilot
 utm_content
 =
 vpnpanel
-#
-pricing
 "
 SIGNIN_URL
 :
