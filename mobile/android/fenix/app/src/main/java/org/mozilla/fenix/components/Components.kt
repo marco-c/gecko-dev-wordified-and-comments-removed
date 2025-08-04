@@ -1391,6 +1391,10 @@ lazyMonitored
 StrictModeManager
 (
 Config
+.
+channel
+.
+isDebug
 this
 BuildManufacturerChecker
 (
