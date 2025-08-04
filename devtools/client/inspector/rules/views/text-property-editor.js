@@ -2916,6 +2916,13 @@ rule
 isInStartingStyle
 (
 )
+isValid
+:
+this
+.
+isValid
+(
+)
 }
 ;
 if
