@@ -245,7 +245,14 @@ extends
 SearchEngine
 {
 /
-/
+*
+*
+*
+type
+{
+string
+}
+*
 The
 extension
 ID
@@ -255,9 +262,9 @@ by
 an
 extension
 .
+*
+/
 _extensionID
-=
-null
 ;
 /
 *
