@@ -81,9 +81,6 @@ PopupBlockerObserver
 gKeywordURIFixup
 "
 "
-_createNullPrincipalFromTabUserContextId
-"
-"
 HandleAppCommandEvent
 "
 "
