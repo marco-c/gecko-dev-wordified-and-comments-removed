@@ -802,6 +802,15 @@ background
 )
 )
 {
+if
+(
+groups
+.
+isEmpty
+(
+)
+)
+return
 val
 fetcher
 =
