@@ -15852,15 +15852,6 @@ base
 :
 {
 "
-charset
-"
-:
-"
-EUC
--
-JP
-"
-"
 classification
 "
 :
@@ -15940,7 +15931,7 @@ rakuten
 last_modified
 "
 :
-1753280249778
+1753710379308
 "
 recordType
 "
@@ -15952,7 +15943,7 @@ engine
 schema
 "
 :
-1753236937885
+1753668939392
 "
 variants
 "
@@ -38361,5 +38352,5 @@ schema
 timestamp
 "
 :
-1753280249778
+1753710379308
 }
