@@ -42,6 +42,7 @@ js
 import
 {
 getTextureFormatType
+isTextureFormatUsableAsStorageFormatInCreateShaderModule
 kAllTextureFormats
 kPossibleStorageTextureFormats
 }
@@ -781,16 +782,11 @@ params
 const
 isFormatValid
 =
+isTextureFormatUsableAsStorageFormatInCreateShaderModule
 (
-kPossibleStorageTextureFormats
-as
-string
-[
-]
-)
+t
 .
-includes
-(
+device
 format
 )
 ;
