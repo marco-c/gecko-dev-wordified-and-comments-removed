@@ -8,9 +8,7 @@ kScope
 =
 '
 /
-cookie
--
-store
+cookiestore
 /
 does
 /
@@ -64,11 +62,8 @@ resolve
 {
 self
 .
-addEventListener
-(
-'
-cookiechange
-'
+oncookiechange
+=
 event
 =
 >
@@ -79,7 +74,6 @@ event
 )
 ;
 }
-)
 ;
 }
 )

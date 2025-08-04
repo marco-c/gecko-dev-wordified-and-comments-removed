@@ -54,9 +54,7 @@ scope
 =
 '
 /
-cookie
--
-store
+cookiestore
 /
 resources
 /
@@ -124,9 +122,7 @@ scope
 =
 '
 /
-cookie
--
-store
+cookiestore
 /
 does
 /
