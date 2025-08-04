@@ -107,6 +107,11 @@ aCodec
 {
 ENUM_TO_STR
 (
+AV_CODEC_ID_AAC
+)
+;
+ENUM_TO_STR
+(
 AV_CODEC_ID_H264
 )
 ;
