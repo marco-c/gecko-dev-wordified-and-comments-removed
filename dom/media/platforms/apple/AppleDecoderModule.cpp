@@ -66,15 +66,6 @@ include
 "
 mozilla
 /
-GeckoProcessTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h
@@ -1282,11 +1273,6 @@ gfxVars
 :
 :
 CanUseHardwareVideoDecoding
-(
-)
-|
-|
-XRE_IsUtilityProcess
 (
 )
 )
