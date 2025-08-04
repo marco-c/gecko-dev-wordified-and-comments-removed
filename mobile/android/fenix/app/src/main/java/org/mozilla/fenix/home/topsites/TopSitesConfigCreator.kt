@@ -348,6 +348,18 @@ TopSitesConfig
 {
 return
 {
+val
+limit
+=
+if
+(
+settings
+.
+suppressSponsoredTopSitesEnabled
+)
+0
+else
+TOP_SITES_PROVIDER_LIMIT
 TopSitesConfig
 (
 totalSites
@@ -413,7 +425,7 @@ settings
 showContileFeature
 limit
 =
-TOP_SITES_PROVIDER_LIMIT
+limit
 maxThreshold
 =
 TOP_SITES_PROVIDER_MAX_THRESHOLD
