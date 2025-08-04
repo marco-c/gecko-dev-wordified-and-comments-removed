@@ -1622,6 +1622,17 @@ input
 )
 ?
 )
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 "
 -
 moz
