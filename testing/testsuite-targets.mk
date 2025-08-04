@@ -918,6 +918,8 @@ perftests
 \
 fuzztest
 \
+trainhop
+\
 (
 NULL
 )

@@ -79,6 +79,10 @@ perftests
 "
 fuzztest
 "
+    
+"
+trainhop
+"
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -142,6 +146,10 @@ perftests
     
 "
 fuzztest
+"
+    
+"
+trainhop
 "
 ]
 OPTIONAL_PACKAGES
