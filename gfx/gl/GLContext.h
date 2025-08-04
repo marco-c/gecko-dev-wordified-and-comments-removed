@@ -9088,6 +9088,11 @@ ret
 =
 0
 ;
+MOZ_ASSERT
+(
+sync
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
