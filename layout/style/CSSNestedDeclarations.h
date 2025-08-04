@@ -241,7 +241,7 @@ aCssText
 const
 final
 ;
-nsDOMCSSDeclaration
+nsICSSDeclaration
 *
 Style
 (

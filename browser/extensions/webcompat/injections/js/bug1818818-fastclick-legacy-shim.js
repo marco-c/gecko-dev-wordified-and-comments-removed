@@ -3,16 +3,7 @@ use
 strict
 "
 ;
-(
-window
-.
-CSSStyleProperties
-?
-?
-window
-.
 CSS2Properties
-)
 .
 prototype
 .

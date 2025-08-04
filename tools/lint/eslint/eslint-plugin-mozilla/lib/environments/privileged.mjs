@@ -392,6 +392,11 @@ CSS
 "
 readonly
 "
+CSS2Properties
+:
+"
+readonly
+"
 CSSAnimation
 :
 "
@@ -473,11 +478,6 @@ CSSRuleList
 readonly
 "
 CSSStyleDeclaration
-:
-"
-readonly
-"
-CSSStyleProperties
 :
 "
 readonly
