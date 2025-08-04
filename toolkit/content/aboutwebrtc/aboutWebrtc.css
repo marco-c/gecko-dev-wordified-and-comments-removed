@@ -933,10 +933,6 @@ var
 (
 -
 -
-in
--
-content
--
 button
 -
 text
@@ -958,10 +954,6 @@ var
 (
 -
 -
-in
--
-content
--
 button
 -
 text
@@ -977,13 +969,11 @@ var
 (
 -
 -
-in
--
-content
--
 button
 -
 background
+-
+color
 -
 active
 )
