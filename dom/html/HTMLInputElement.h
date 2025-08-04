@@ -4243,16 +4243,6 @@ FindTreeRadioGroupContainer
 const
 ;
 bool
-IsValidSimpleColor
-(
-const
-nsAString
-&
-aValue
-)
-const
-;
-bool
 IsValidWeek
 (
 const
