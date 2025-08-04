@@ -196,8 +196,14 @@ hr
 -
 color
 :
-#
-cfcfd8
+var
+(
+-
+-
+border
+-
+color
+)
 ;
 margin
 -

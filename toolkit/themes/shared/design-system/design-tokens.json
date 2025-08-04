@@ -433,8 +433,13 @@ light
 "
 :
 "
-#
-CFCFD8
+{
+color
+.
+gray
+.
+50
+}
 "
 "
 dark

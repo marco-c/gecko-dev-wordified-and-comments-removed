@@ -353,8 +353,14 @@ light
 "
 :
 "
-#
-CFCFD8
+{
+Colors
+color
+/
+gray
+/
+50
+}
 "
 "
 dark
