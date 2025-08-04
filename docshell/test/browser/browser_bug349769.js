@@ -145,6 +145,15 @@ BrowserTestUtils
 browserLoaded
 (
 newBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 BrowserTestUtils

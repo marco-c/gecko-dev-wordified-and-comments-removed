@@ -100,6 +100,15 @@ browserLoaded
 tab
 .
 linkedBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 const

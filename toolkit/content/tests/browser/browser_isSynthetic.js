@@ -174,6 +174,15 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 let

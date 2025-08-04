@@ -913,6 +913,11 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+secondLocation
+}
 )
 ;
 BrowserTestUtils
@@ -3141,6 +3146,9 @@ delay
 const
 testUrl
 =
+new
+URL
+(
 data
 :
 text
@@ -3231,6 +3239,9 @@ iframe
 /
 iframe
 >
+)
+.
+href
 ;
 const
 tab

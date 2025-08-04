@@ -62,6 +62,15 @@ aWindow
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+}
 )
 .
 then
