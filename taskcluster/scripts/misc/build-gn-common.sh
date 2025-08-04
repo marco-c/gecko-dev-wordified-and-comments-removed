@@ -50,6 +50,11 @@ last
 commit
 -
 position
+-
+-
+allow
+-
+warnings
 else
 python3
 build
@@ -66,6 +71,11 @@ last
 commit
 -
 position
+-
+-
+allow
+-
+warnings
 fi
 cat
 >
