@@ -147,6 +147,17 @@ VisitedHandlingMode
 }
 ;
 use
+selectors
+:
+:
+parser
+:
+:
+PseudoElement
+as
+PseudoElementTrait
+;
+use
 servo_arc
 :
 :
