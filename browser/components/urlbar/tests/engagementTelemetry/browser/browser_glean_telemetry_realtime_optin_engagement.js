@@ -98,9 +98,9 @@ titleL10n
 id
 :
 "
-firefox
+urlbar
 -
-suggest
+result
 -
 market
 -
@@ -117,9 +117,9 @@ descriptionL10n
 id
 :
 "
-firefox
+urlbar
 -
-suggest
+result
 -
 market
 -
