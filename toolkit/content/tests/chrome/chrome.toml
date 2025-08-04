@@ -1858,13 +1858,6 @@ xhtml
 ]
 [
 "
-test_scrollbar
-.
-xhtml
-"
-]
-[
-"
 test_showcaret
 .
 xhtml

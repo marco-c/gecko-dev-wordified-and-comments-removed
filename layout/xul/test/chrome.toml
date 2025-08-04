@@ -98,13 +98,6 @@ xhtml
 ]
 [
 "
-test_bug703150
-.
-xhtml
-"
-]
-[
-"
 test_bug987230
 .
 xhtml
