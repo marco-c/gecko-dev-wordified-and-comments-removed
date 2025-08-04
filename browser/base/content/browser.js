@@ -8367,8 +8367,15 @@ item
 .
 style
 .
-listStyleImage
-=
+setProperty
+(
+"
+-
+-
+menuitem
+-
+icon
+"
 url
 (
 page
@@ -8378,6 +8385,7 @@ icon
 {
 uri
 }
+)
 )
 ;
 }
