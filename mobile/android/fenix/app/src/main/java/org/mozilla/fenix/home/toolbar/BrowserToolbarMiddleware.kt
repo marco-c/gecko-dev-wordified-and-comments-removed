@@ -827,6 +827,18 @@ mozilla
 .
 fenix
 .
+components
+.
+toolbar
+.
+BrowserToolbarEnvironment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 nav
@@ -1262,7 +1274,7 @@ internal
 var
 environment
 :
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 ?
 =
 null
@@ -1350,7 +1362,7 @@ action
 environment
 as
 ?
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 if
 (
 context
@@ -2578,7 +2590,7 @@ runWithinEnvironment
 (
 block
 :
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 .
 (
 )

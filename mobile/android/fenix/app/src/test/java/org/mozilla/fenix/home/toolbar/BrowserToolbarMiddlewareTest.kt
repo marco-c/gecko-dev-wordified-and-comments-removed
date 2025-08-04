@@ -1013,6 +1013,18 @@ components
 .
 toolbar
 .
+BrowserToolbarEnvironment
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
+toolbar
+.
 ToolbarPosition
 import
 org
@@ -4906,7 +4918,7 @@ dispatch
 (
 EnvironmentRehydrated
 (
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 (
 context
 =

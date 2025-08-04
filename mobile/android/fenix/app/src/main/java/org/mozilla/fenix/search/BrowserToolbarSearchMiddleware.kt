@@ -943,9 +943,11 @@ mozilla
 .
 fenix
 .
-ext
+components
 .
-toolbarHintRes
+toolbar
+.
+BrowserToolbarEnvironment
 import
 org
 .
@@ -953,11 +955,9 @@ mozilla
 .
 fenix
 .
-home
+ext
 .
-toolbar
-.
-HomeToolbarEnvironment
+toolbarHintRes
 import
 org
 .
@@ -1441,7 +1441,7 @@ internal
 var
 environment
 :
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 ?
 =
 null
@@ -1540,7 +1540,7 @@ action
 environment
 as
 ?
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 if
 (
 context

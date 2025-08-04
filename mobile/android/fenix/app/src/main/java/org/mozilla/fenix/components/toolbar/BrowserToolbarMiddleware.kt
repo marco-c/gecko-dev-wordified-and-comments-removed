@@ -3330,6 +3330,7 @@ NoExtras
 )
 )
 readerModeController
+?
 .
 hideReaderView
 (
@@ -3350,6 +3351,7 @@ NoExtras
 )
 )
 readerModeController
+?
 .
 showReaderView
 (

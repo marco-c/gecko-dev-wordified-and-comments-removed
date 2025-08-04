@@ -291,11 +291,11 @@ mozilla
 .
 fenix
 .
-home
+components
 .
 toolbar
 .
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 import
 mozilla
 .
@@ -374,7 +374,7 @@ internal
 var
 environment
 :
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 ?
 =
 null
@@ -428,7 +428,7 @@ action
 environment
 as
 ?
-HomeToolbarEnvironment
+BrowserToolbarEnvironment
 syncSearchActive
 (
 context
