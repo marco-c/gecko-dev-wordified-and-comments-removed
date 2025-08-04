@@ -1441,6 +1441,15 @@ PortalKind
 :
 FilePicker
 :
+#
+ifdef
+EARLY_BETA_OR_EARLIER
+autoBehavior
+=
+true
+;
+#
+endif
 return
 StaticPrefs
 :
