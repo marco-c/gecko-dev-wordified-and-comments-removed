@@ -685,7 +685,7 @@ write
 "
 )
 def
-generateCSS2Properties
+generateCSSStyleProperties
 (
 output
 dataFile
@@ -700,7 +700,7 @@ dataFile
 Style
 "
 "
-CSS2Properties
+CSSStyleProperties
 "
 "
 CSS2Property

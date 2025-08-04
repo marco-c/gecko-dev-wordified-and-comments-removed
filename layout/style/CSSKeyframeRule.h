@@ -25,7 +25,7 @@ Rule
 h
 "
 class
-nsICSSDeclaration
+nsDOMCSSDeclaration
 ;
 namespace
 mozilla
@@ -161,7 +161,7 @@ nsACString
 aKey
 )
 ;
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 Style
 (
