@@ -401,7 +401,7 @@ sessionStoreJson
 byteLength
 ;
 let
-sessionStoreNearestTenthKb
+sessionStoreNearestTenKb
 =
 bytesToFuzzyKilobytes
 (
@@ -416,7 +416,7 @@ sessionStoreSize
 .
 set
 (
-sessionStoreNearestTenthKb
+sessionStoreNearestTenKb
 )
 ;
 let
