@@ -3462,6 +3462,16 @@ invalidation_kind
 DependencyInvalidationKind
 :
 :
+FullSelector
+=
+>
+unreachable
+!
+(
+)
+DependencyInvalidationKind
+:
+:
 Normal
 (
 _
