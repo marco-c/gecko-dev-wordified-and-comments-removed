@@ -317,6 +317,16 @@ self
 response_session_id_override
 =
 None
+        
+self
+.
+allowed_refresh_initiators
+=
+[
+"
+*
+"
+]
     
 def
 next_session_id
@@ -849,6 +859,30 @@ self
 response_session_id_override
 =
 response_session_id_override
+        
+allowed_refresh_initiators
+=
+configuration
+.
+get
+(
+"
+allowedRefreshInitiators
+"
+)
+        
+if
+allowed_refresh_initiators
+is
+not
+None
+:
+            
+self
+.
+allowed_refresh_initiators
+=
+allowed_refresh_initiators
     
 def
 get_should_refresh_end_session
@@ -1409,6 +1443,14 @@ get_sessions_instructions_response_credentials
 session_id
 request
 )
+            
+"
+allowed_refresh_initiators
+"
+:
+self
+.
+allowed_refresh_initiators
         
 }
         
