@@ -13710,6 +13710,12 @@ Array
 <
 String
 >
+dataCollectionPermissions
+:
+Array
+<
+String
+>
 )
 :
 GeckoResult
