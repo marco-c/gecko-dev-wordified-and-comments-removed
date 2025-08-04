@@ -7569,6 +7569,9 @@ findNavController
 lifecycleOwner
 =
 this
+showScrimWhenNoSuggestions
+=
+true
 )
 .
 also
