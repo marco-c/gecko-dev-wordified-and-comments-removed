@@ -5629,6 +5629,17 @@ RemoveElement
 aTransaction
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mBufferTransactions
+.
+Contains
+(
+aTransaction
+)
+)
+;
 }
 BufferTransaction
 *
