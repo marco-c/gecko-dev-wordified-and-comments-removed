@@ -464,6 +464,12 @@ this
 .
 value
 =
+this
+.
+inputEl
+.
+value
+=
 "
 "
 ;
