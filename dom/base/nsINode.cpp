@@ -17785,7 +17785,7 @@ popover
 el
 -
 >
-GetEffectiveInvokeTargetElement
+GetEffectiveCommandForElement
 (
 )
 )
@@ -17860,7 +17860,7 @@ nsGenericHTMLElement
 nsINode
 :
 :
-GetEffectiveInvokeTargetElement
+GetEffectiveCommandForElement
 (
 )
 const

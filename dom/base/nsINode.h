@@ -1707,7 +1707,7 @@ const
 ;
 nsGenericHTMLElement
 *
-GetEffectiveInvokeTargetElement
+GetEffectiveCommandForElement
 (
 )
 const
