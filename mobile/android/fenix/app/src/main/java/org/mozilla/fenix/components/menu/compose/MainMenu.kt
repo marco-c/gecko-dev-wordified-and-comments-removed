@@ -1808,6 +1808,14 @@ scrollState
 if
 (
 isReaderViewActive
+&
+&
+accessPoint
+!
+=
+MenuAccessPoint
+.
+Home
 )
 {
 MenuGroup
