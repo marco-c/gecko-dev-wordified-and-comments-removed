@@ -370,6 +370,16 @@ aSD
 )
 override
 ;
+void
+OnSetCurrent
+(
+const
+SurfaceDescriptorGPUVideo
+&
+aSD
+)
+override
+;
 bool
 AllocShmem
 (

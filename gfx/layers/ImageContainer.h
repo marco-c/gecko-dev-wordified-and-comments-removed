@@ -591,6 +591,13 @@ OnAbandonForwardToHost
 {
 }
 virtual
+void
+OnSetCurrent
+(
+)
+{
+}
+virtual
 already_AddRefed
 <
 gfx

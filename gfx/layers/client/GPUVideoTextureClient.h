@@ -134,6 +134,11 @@ GetAsSourceSurface
 (
 )
 ;
+void
+OnSetCurrent
+(
+)
+;
 GPUVideoTextureData
 *
 AsGPUVideoTextureData
