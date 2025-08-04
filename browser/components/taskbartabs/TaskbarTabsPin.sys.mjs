@@ -917,9 +917,6 @@ Ci
 nsIFile
 )
 ;
-const
-absolutePath
-=
 await
 lazy
 .
@@ -1015,7 +1012,7 @@ relativePath
 )
 ;
 return
-absolutePath
+relativePath
 ;
 }
 /
