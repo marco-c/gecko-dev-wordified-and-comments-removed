@@ -1129,6 +1129,15 @@ WindowContext
 aRequestingWindowContext
 )
 ;
+static
+nsresult
+SanitizeForClipboard
+(
+nsITransferable
+*
+aTransferable
+)
+;
 mozilla
 :
 :
