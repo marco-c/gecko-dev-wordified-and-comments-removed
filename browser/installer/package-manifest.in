@@ -2334,7 +2334,7 @@ endif
 if
 defined
 (
-XP_WIN
+DESKTOP_LAUNCHER_ENABLED
 )
 BINPATH
 /
