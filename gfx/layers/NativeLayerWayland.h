@@ -561,6 +561,11 @@ mRootMutatedStackingOrder
 false
 ;
 bool
+mRootAllLayersRendered
+=
+false
+;
+bool
 mMainThreadUpdateQueued
 =
 false
