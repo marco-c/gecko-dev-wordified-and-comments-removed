@@ -1833,6 +1833,8 @@ Enabled
 ;
 int
 stackVar
+=
+0
 ;
 phc
 :
