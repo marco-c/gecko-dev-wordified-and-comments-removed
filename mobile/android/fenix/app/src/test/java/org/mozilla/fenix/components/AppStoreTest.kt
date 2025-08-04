@@ -5324,7 +5324,7 @@ R
 .
 string
 .
-setup_checklist_task_search_widget
+setup_checklist_task_search_widget_2
 icon
 =
 R
@@ -5859,7 +5859,7 @@ R
 .
 string
 .
-setup_checklist_task_search_widget
+setup_checklist_task_search_widget_2
 icon
 =
 R
