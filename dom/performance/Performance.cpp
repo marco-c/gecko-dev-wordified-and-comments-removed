@@ -5464,7 +5464,7 @@ MakeBackInserter
 interestedObservers
 )
 [
-aEntry
+&
 ]
 (
 PerformanceObserver
