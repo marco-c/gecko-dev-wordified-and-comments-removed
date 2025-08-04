@@ -939,6 +939,17 @@ lang_arg
 )
 ;
 }
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 NonTSPseudoClass
 :
 :
