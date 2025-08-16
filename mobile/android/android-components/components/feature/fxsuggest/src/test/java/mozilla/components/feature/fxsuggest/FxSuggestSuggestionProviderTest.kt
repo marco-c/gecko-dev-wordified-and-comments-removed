@@ -661,6 +661,11 @@ Food
 &
 Drink
 "
+categories
+=
+emptyList
+(
+)
 impressionUrl
 =
 "
@@ -1294,6 +1299,11 @@ Food
 &
 Drink
 "
+categories
+=
+emptyList
+(
+)
 impressionUrl
 =
 "
@@ -1802,6 +1812,11 @@ Food
 &
 Drink
 "
+categories
+=
+emptyList
+(
+)
 impressionUrl
 =
 "
