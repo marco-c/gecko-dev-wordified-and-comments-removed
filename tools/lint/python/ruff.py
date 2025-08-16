@@ -755,8 +755,19 @@ error
 }
         
 if
+issue
+[
+"
+code
+"
+]
+is
+not
+None
+and
 any
 (
+            
 issue
 [
 "
@@ -772,6 +783,7 @@ for
 w
 in
 warning_rules
+        
 )
 :
             
