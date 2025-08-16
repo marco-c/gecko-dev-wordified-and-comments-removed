@@ -297,11 +297,10 @@ aStatus
 override
 ;
 void
-SetScrollbarMediatorContent
+SetOverrideScrollbarMediator
 (
-nsIContent
+nsIScrollbarMediator
 *
-aMediator
 )
 ;
 nsIScrollbarMediator
@@ -543,11 +542,8 @@ false
 ;
 private
 :
-nsCOMPtr
-<
-nsIContent
->
-mScrollbarMediator
+WeakFrame
+mOverriddenScrollbarMediator
 ;
 nsCOMPtr
 <
