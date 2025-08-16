@@ -938,6 +938,12 @@ hiding
 (
 )
 {
+this
+.
+destroy
+(
+)
+;
 }
 /
 *
