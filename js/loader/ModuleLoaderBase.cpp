@@ -737,7 +737,7 @@ JSContext
 aCx
 Handle
 <
-JSObject
+JSScript
 *
 >
 aReferrer
@@ -1409,7 +1409,7 @@ module
 ;
 Rooted
 <
-JSObject
+JSScript
 *
 >
 referrer
@@ -1418,7 +1418,7 @@ aCx
 aRequest
 -
 >
-mReferrerObj
+mReferrerScript
 )
 ;
 Rooted
@@ -1539,7 +1539,7 @@ aCx
 aRequest
 -
 >
-mReferrerObj
+mReferrerScript
 =
 nullptr
 ;
@@ -4197,7 +4197,7 @@ error
 aRequest
 -
 >
-mReferrerObj
+mReferrerScript
 =
 nullptr
 ;
@@ -6537,7 +6537,7 @@ ModuleMapKey
 aRequestedModule
 Handle
 <
-JSObject
+JSScript
 *
 >
 aReferrer
@@ -6576,7 +6576,7 @@ Value
 referrerPrivate
 (
 aCx
-GetModulePrivate
+GetScriptPrivate
 (
 aReferrer
 )
@@ -6712,7 +6712,7 @@ root
 childRequest
 -
 >
-mReferrerObj
+mReferrerScript
 =
 aReferrer
 ;

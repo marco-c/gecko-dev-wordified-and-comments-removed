@@ -113,7 +113,7 @@ setUndefined
 tmp
 -
 >
-mReferrerObj
+mReferrerScript
 =
 nullptr
 ;
@@ -166,7 +166,7 @@ ScriptLoadRequest
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
-mReferrerObj
+mReferrerScript
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
@@ -368,7 +368,7 @@ mModuleScript
 =
 nullptr
 ;
-mReferrerObj
+mReferrerScript
 =
 nullptr
 ;

@@ -96,7 +96,7 @@ ModuleLoadRequest
 MOZ_ASSERT
 (
 !
-mReferrerObj
+mReferrerScript
 )
 ;
 MOZ_ASSERT
@@ -536,10 +536,10 @@ mModuleScript
 ;
 Heap
 <
-JSObject
+JSScript
 *
 >
-mReferrerObj
+mReferrerScript
 ;
 Heap
 <
