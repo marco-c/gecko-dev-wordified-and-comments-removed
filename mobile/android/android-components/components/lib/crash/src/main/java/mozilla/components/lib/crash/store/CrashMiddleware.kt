@@ -1320,6 +1320,10 @@ sendUnsentCrashReports
 is
 CrashAction
 .
+PromptShown
+is
+CrashAction
+.
 ShowPrompt
 -
 >

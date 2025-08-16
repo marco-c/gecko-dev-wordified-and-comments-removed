@@ -197,6 +197,15 @@ action
 .
 crashIDs
 )
+is
+CrashAction
+.
+PromptShown
+-
+>
+CrashState
+.
+Idle
 CrashAction
 .
 CancelTapped
