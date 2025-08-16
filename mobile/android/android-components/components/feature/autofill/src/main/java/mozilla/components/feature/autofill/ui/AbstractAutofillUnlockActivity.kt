@@ -117,6 +117,12 @@ InlinePresentationSpec
 import
 androidx
 .
+annotation
+.
+RequiresApi
+import
+androidx
+.
 fragment
 .
 app
@@ -275,6 +281,14 @@ mechanism
 .
 *
 /
+RequiresApi
+(
+Build
+.
+VERSION_CODES
+.
+O
+)
 abstract
 class
 AbstractAutofillUnlockActivity
