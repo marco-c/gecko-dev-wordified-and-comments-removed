@@ -474,6 +474,7 @@ root
 root
 .
 classList
+?
 .
 toggle
 (

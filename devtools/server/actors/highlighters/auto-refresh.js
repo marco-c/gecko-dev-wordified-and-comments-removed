@@ -1270,6 +1270,7 @@ return
 root
 .
 classList
+?
 .
 toggle
 (
