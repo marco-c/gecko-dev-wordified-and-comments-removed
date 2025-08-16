@@ -938,6 +938,12 @@ toolbarLayout
 browserToolbarView
 .
 layout
+navBarLayout
+=
+browserNavigationBar
+?
+.
+layout
 store
 =
 components
