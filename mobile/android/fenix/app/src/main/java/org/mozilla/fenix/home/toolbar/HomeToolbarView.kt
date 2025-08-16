@@ -85,14 +85,6 @@ view
 .
 ViewGroup
 import
-android
-.
-view
-.
-animation
-.
-AnimationUtils
-import
 androidx
 .
 annotation
@@ -499,6 +491,9 @@ build
 browserState
 :
 BrowserState
+middleSearchEnabled
+:
+Boolean
 )
 {
 initLayoutParameters
@@ -581,6 +576,11 @@ TOOLBAR_WRAPPER_INCREASE_HEIGHT_DPS
 updateButtonVisibility
 (
 browserState
+)
+updateAddressBarVisibility
+(
+!
+middleSearchEnabled
 )
 }
 override

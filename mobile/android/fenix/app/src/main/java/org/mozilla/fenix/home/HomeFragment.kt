@@ -5039,6 +5039,15 @@ core
 store
 .
 state
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+enableHomepageSearchBar
 )
 if
 (

@@ -738,6 +738,9 @@ build
 browserState
 :
 BrowserState
+middleSearchEnabled
+:
+Boolean
 )
 {
 /
