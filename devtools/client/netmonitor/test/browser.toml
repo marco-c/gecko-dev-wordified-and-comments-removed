@@ -3504,6 +3504,15 @@ Bug
 "
 browser_net_statistics
 -
+content
+.
+js
+"
+]
+[
+"
+browser_net_statistics
+-
 edge
 -
 case
