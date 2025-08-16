@@ -163,9 +163,6 @@ CardGrid
 firstVisibleTimeStamp
 :
 null
-is_collection
-:
-true
 spocMessageVariant
 :
 "

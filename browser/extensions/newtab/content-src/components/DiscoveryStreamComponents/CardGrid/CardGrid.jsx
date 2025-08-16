@@ -2649,15 +2649,6 @@ rec
 .
 bookmarkGuid
 }
-is_collection
-=
-{
-this
-.
-props
-.
-is_collection
-}
 ctaButtonSponsors
 =
 {

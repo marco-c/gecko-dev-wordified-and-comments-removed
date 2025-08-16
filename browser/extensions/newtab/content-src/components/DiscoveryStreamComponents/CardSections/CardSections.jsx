@@ -1084,7 +1084,6 @@ section
 dispatch
 type
 firstVisibleTimestamp
-is_collection
 spocMessageVariant
 ctaButtonVariant
 ctaButtonSponsors
@@ -2436,11 +2435,6 @@ availableTopics
 {
 availableTopics
 }
-is_collection
-=
-{
-is_collection
-}
 ctaButtonSponsors
 =
 {
@@ -2557,7 +2551,6 @@ feed
 dispatch
 type
 firstVisibleTimestamp
-is_collection
 spocMessageVariant
 ctaButtonVariant
 ctaButtonSponsors
@@ -2842,11 +2835,6 @@ firstVisibleTimestamp
 =
 {
 firstVisibleTimestamp
-}
-is_collection
-=
-{
-is_collection
 }
 spocMessageVariant
 =

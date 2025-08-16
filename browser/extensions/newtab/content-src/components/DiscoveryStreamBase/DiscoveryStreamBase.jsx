@@ -1432,11 +1432,6 @@ props
 .
 firstVisibleTimestamp
 }
-is_collection
-=
-{
-true
-}
 ctaButtonSponsors
 =
 {
