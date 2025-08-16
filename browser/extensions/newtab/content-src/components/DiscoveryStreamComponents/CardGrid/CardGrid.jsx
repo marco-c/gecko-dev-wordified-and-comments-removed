@@ -2219,7 +2219,6 @@ props
 ;
 const
 {
-saveToPocketCard
 topicsLoading
 }
 =
@@ -2725,11 +2724,6 @@ this
 props
 .
 is_collection
-}
-saveToPocketCard
-=
-{
-saveToPocketCard
 }
 ctaButtonSponsors
 =

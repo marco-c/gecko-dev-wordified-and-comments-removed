@@ -688,7 +688,6 @@ context
 context_type
 sponsor
 sponsored_by_override
-saveToPocketCard
 ctaButtonVariant
 dispatch
 spocMessageVariant
@@ -1281,11 +1280,6 @@ context
 =
 {
 null
-}
-saveToPocketCard
-=
-{
-saveToPocketCard
 }
 /
 >
@@ -4143,7 +4137,6 @@ const
 isRecentSave
 DiscoveryStream
 Prefs
-saveToPocketCard
 isListCard
 isFakespot
 mayHaveSectionsCards
@@ -5640,11 +5633,6 @@ this
 props
 .
 sponsored_by_override
-}
-saveToPocketCard
-=
-{
-saveToPocketCard
 }
 ctaButtonVariant
 =

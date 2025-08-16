@@ -4299,13 +4299,6 @@ action
 data
 .
 pocketButtonEnabled
-saveToPocketCard
-:
-action
-.
-data
-.
-saveToPocketCard
 hideDescriptions
 :
 action
