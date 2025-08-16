@@ -858,11 +858,6 @@ dispatch
 {
 dispatch
 }
-isSponsored
-=
-{
-true
-}
 >
 <
 ImpressionStats

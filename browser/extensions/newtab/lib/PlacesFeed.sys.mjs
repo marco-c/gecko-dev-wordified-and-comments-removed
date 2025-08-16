@@ -1528,7 +1528,7 @@ action
 .
 data
 .
-is_sponsored
+sponsored_tile_id
 ?
 action
 .
@@ -1537,11 +1537,6 @@ data
 url
 :
 undefined
-triggeringSource
-:
-"
-newtab
-"
 }
 }
 ;

@@ -3306,17 +3306,6 @@ ctrlKey
 metaKey
 shiftKey
 }
-is_sponsored
-:
-!
-!
-this
-.
-props
-.
-link
-.
-sponsored_tile_id
 }
 )
 }
