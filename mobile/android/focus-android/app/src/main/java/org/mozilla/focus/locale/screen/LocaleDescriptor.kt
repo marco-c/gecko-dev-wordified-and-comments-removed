@@ -320,6 +320,16 @@ Aimara
 languageCodeAndNameMap
 [
 "
+bqi
+"
+]
+=
+"
+Bakhtiari
+"
+languageCodeAndNameMap
+[
+"
 cak
 "
 ]
