@@ -560,6 +560,11 @@ nsIURI
 aDomain
 )
 ;
+readonly
+attribute
+ACString
+firstUnexpectedJavaScriptLoad
+;
 }
 ;
 %
