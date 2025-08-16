@@ -3479,6 +3479,11 @@ CSSNestedDeclarations
 webidl
 "
 "
+CSSNumericArray
+.
+webidl
+"
+"
 CSSNumericValue
 .
 webidl

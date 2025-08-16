@@ -74,6 +74,11 @@ CSSMathValue
 h
 "
 "
+CSSNumericArray
+.
+h
+"
+"
 CSSNumericValue
 .
 h
@@ -155,6 +160,11 @@ cpp
 "
 "
 CSSMathValue
+.
+cpp
+"
+"
+CSSNumericArray
 .
 cpp
 "
