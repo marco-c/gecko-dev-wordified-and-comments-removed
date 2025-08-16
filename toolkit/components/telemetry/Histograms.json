@@ -103647,6 +103647,7 @@ bug_numbers
 :
 [
 1635489
+1977614
 ]
 "
 description
@@ -103669,9 +103670,6 @@ labels
 "
 :
 [
-"
-success
-"
 "
 failure
 "
@@ -103770,6 +103768,7 @@ bug_numbers
 :
 [
 1635489
+1977614
 ]
 "
 description
@@ -103792,9 +103791,6 @@ labels
 "
 :
 [
-"
-success
-"
 "
 failure
 "
