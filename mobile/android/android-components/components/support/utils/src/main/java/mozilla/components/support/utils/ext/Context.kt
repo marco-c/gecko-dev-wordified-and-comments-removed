@@ -143,12 +143,6 @@ Window
 import
 androidx
 .
-annotation
-.
-RequiresApi
-import
-androidx
-.
 core
 .
 content
@@ -249,14 +243,6 @@ browser
 .
 *
 /
-RequiresApi
-(
-Build
-.
-VERSION_CODES
-.
-N
-)
 fun
 Context
 .

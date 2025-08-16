@@ -112,14 +112,6 @@ API
 .
 *
 /
-RequiresApi
-(
-Build
-.
-VERSION_CODES
-.
-O
-)
 internal
 class
 AudioFocusControllerV26

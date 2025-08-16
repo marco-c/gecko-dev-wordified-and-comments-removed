@@ -411,7 +411,7 @@ intent
 )
 IntentUtils
 .
-defaultIntentPendingFlags
+DEFAULT_PENDING_INTENT_FLAGS
 or
 PendingIntent
 .

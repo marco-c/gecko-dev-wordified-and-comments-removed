@@ -354,13 +354,6 @@ ignore
 "
 VectorRaster
 "
-tools
-:
-targetApi
-=
-"
-n
-"
 /
 >
 <

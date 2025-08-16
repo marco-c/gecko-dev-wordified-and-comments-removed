@@ -791,7 +791,7 @@ target_sdk_version
 min_sdk_version
 =
 "
-21
+26
 "
 )
 option

@@ -398,13 +398,6 @@ ignore
 "
 VectorRaster
 "
-tools
-:
-targetApi
-=
-"
-n
-"
 /
 >
 <
@@ -527,13 +520,6 @@ ignore
 =
 "
 VectorRaster
-"
-tools
-:
-targetApi
-=
-"
-n
 "
 /
 >

@@ -301,13 +301,6 @@ paddingBottom
 "
 8dp
 "
-tools
-:
-targetApi
-=
-"
-o
-"
 /
 >
 <

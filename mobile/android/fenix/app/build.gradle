@@ -456,7 +456,6 @@ org
 mozilla
 "
 minSdkVersion
-=
 config
 .
 minSdkVersion
@@ -466,7 +465,6 @@ config
 .
 compileSdkVersion
 targetSdkVersion
-=
 config
 .
 targetSdkVersion
