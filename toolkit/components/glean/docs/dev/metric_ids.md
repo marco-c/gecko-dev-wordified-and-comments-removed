@@ -2162,7 +2162,7 @@ wide
 uint64_t
 with
 a
-typdef
+typedef
 )
 *
 Top
