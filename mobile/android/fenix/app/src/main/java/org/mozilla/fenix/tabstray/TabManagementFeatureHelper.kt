@@ -215,7 +215,7 @@ get
 (
 )
 =
-false
+true
 override
 val
 enhancementsEnabledBeta

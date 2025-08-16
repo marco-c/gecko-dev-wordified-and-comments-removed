@@ -1689,12 +1689,7 @@ Page
 .
 pageToPosition
 (
-page
-=
 selectedPage
-enhancementsEnabled
-=
-false
 )
 modifier
 =
