@@ -452,22 +452,6 @@ SHELL_OPTIONS
 {
     
 "
-import
--
-attributes
-"
-:
-"
--
--
-enable
--
-import
--
-attributes
-"
-    
-"
 ShadowRealm
 "
 :
