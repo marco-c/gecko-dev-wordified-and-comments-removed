@@ -1061,16 +1061,6 @@ GPUTextureDescriptor
 descriptor
 )
 ;
-[
-Throws
-]
-GPUExternalTexture
-importExternalTexture
-(
-GPUExternalTextureDescriptor
-descriptor
-)
-;
 GPUSampler
 createSampler
 (
