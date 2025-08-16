@@ -100619,7 +100619,7 @@ masm
 .
 computeEffectiveAddress
 (
-BaseValueIndex
+BaseObjectElementIndex
 (
 elements
 lengthReg
@@ -134395,7 +134395,7 @@ spectreTemp
 notDense
 )
 ;
-BaseValueIndex
+BaseObjectElementIndex
 element
 (
 temp
