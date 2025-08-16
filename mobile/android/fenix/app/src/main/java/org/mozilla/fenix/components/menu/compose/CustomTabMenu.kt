@@ -913,7 +913,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 menuItemState
 =
 if
