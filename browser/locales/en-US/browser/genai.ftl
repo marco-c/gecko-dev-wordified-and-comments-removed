@@ -934,7 +934,7 @@ Chatbot
 .
 accesskey
 =
-z
+h
 genai
 -
 menu
@@ -969,7 +969,7 @@ Chatbot
 .
 accesskey
 =
-z
+h
 #
 provider
 (
@@ -1000,7 +1000,7 @@ provider
 .
 accesskey
 =
-z
+h
 genai
 -
 menu

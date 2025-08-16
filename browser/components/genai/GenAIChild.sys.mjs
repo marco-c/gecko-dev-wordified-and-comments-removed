@@ -960,10 +960,8 @@ textContent
 |
 |
 doc
-?
 .
 body
-?
 .
 innerText
 |
