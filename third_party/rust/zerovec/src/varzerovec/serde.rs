@@ -103,7 +103,7 @@ VarZeroVecFormat
 {
 #
 [
-allow
+expect
 (
 clippy
 :

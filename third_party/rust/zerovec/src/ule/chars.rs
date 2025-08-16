@@ -254,7 +254,7 @@ chunks_exact
 {
 #
 [
-allow
+expect
 (
 clippy
 :

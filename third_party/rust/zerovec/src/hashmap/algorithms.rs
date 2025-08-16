@@ -225,7 +225,7 @@ usize
 }
 #
 [
-allow
+expect
 (
 clippy
 :

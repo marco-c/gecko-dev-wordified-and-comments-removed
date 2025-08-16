@@ -415,7 +415,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -502,7 +502,7 @@ get_range
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -608,7 +608,7 @@ get_range
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -704,7 +704,7 @@ else
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -732,7 +732,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -903,7 +903,7 @@ get_range
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -993,7 +993,7 @@ get_range
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1103,7 +1103,7 @@ v
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1215,7 +1215,7 @@ key1
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1283,7 +1283,7 @@ predicate
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1378,7 +1378,7 @@ start
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1490,7 +1490,7 @@ start
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

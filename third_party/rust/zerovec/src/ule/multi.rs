@@ -93,7 +93,7 @@ inline
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

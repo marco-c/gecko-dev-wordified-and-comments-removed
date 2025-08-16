@@ -802,7 +802,7 @@ usize
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1105,7 +1105,7 @@ start
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1303,7 +1303,7 @@ end
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1509,7 +1509,7 @@ None
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1558,7 +1558,7 @@ last_key0
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1674,7 +1674,7 @@ _
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1721,7 +1721,7 @@ ZeroMap2d
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1837,7 +1837,7 @@ debug_assertions
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2388,7 +2388,7 @@ len
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

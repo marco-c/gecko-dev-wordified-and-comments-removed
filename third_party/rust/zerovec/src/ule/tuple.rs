@@ -420,7 +420,7 @@ t
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -407,7 +407,7 @@ get_indices_size
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

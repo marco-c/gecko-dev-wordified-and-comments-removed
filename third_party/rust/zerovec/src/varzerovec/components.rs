@@ -91,16 +91,6 @@ IntegerULE
 }
 #
 [
-allow
-(
-clippy
-:
-:
-missing_safety_doc
-)
-]
-#
-[
 doc
 (
 hidden
@@ -1960,7 +1950,7 @@ inline
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3497,7 +3487,7 @@ SIZE
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3544,7 +3534,7 @@ usize
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3607,7 +3597,7 @@ element_len
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3765,7 +3755,7 @@ usize
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3804,7 +3794,7 @@ TOO_LARGE_ERROR
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3842,7 +3832,7 @@ num_elements_ule
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

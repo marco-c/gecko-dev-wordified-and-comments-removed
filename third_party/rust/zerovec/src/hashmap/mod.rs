@@ -307,7 +307,7 @@ len
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -361,7 +361,7 @@ u32
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -621,7 +621,7 @@ index
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -643,7 +643,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -706,7 +706,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -783,7 +783,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :

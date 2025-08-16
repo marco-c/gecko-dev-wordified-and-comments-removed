@@ -341,16 +341,6 @@ len
 [
 inline
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-wrong_self_convention
-)
-]
 fn
 slice_as_bytes
 (

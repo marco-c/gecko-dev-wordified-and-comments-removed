@@ -773,7 +773,7 @@ Sized
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1249,16 +1249,6 @@ K1
 V
 >
 {
-#
-[
-allow
-(
-clippy
-:
-:
-type_complexity
-)
-]
 marker
 :
 PhantomData

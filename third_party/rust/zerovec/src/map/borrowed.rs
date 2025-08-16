@@ -814,7 +814,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -887,7 +887,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1126,7 +1126,7 @@ idx
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1148,7 +1148,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1231,16 +1231,6 @@ Copy
 '
 static
 {
-#
-[
-allow
-(
-clippy
-:
-:
-needless_lifetimes
-)
-]
 pub
 fn
 iter_copied
@@ -1291,7 +1281,7 @@ idx
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1315,7 +1305,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :

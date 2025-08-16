@@ -319,7 +319,7 @@ size
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -845,7 +845,7 @@ len
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1107,7 +1107,7 @@ else
 }
 #
 [
-allow
+expect
 (
 clippy
 :

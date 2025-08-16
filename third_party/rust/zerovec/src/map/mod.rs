@@ -6,7 +6,7 @@ kv
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
