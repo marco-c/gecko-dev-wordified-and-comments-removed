@@ -76,6 +76,13 @@ js
 ]
 [
 "
+browser_ipprotection_message_bar
+.
+js
+"
+]
+[
+"
 browser_ipprotection_panel
 .
 js
