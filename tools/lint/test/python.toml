@@ -29,6 +29,13 @@ py
 ]
 [
 "
+test_clippy
+.
+py
+"
+]
+[
+"
 test_codespell
 .
 py
