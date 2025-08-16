@@ -794,10 +794,10 @@ lazy
 .
 DAPVisitCounter
 .
-dapReportContoller
+dapReportController
 null
 "
-dapReportContoller
+dapReportController
 should
 not
 exist
@@ -886,10 +886,10 @@ lazy
 .
 DAPVisitCounter
 .
-dapReportContoller
+dapReportController
 null
 "
-dapReportContoller
+dapReportController
 should
 be
 active
@@ -1004,7 +1004,7 @@ lazy
 .
 DAPVisitCounter
 .
-dapReportContoller
+dapReportController
 .
 submit
 (
@@ -1176,10 +1176,10 @@ lazy
 .
 DAPVisitCounter
 .
-dapReportContoller
+dapReportController
 null
 "
-dapReportContoller
+dapReportController
 should
 not
 exist

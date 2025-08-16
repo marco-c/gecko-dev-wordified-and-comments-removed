@@ -284,6 +284,7 @@ taskId
 vdaf
 bits
 length
+timePrecision
 defaultMeasurement
 }
 )
@@ -311,6 +312,12 @@ this
 _length
 =
 length
+;
+this
+.
+_timePrecision
+=
+timePrecision
 ;
 this
 .
@@ -1186,7 +1193,9 @@ metadata
 _length
 time_precision
 :
-60
+metadata
+.
+_timePrecision
 }
 ;
 let

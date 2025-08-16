@@ -171,7 +171,7 @@ counters
 =
 null
 ;
-dapReportContoller
+dapReportController
 =
 null
 ;
@@ -285,7 +285,7 @@ removed
 await
 this
 .
-dapReportContoller
+dapReportController
 .
 deleteState
 (
@@ -390,7 +390,7 @@ matched
 await
 this
 .
-dapReportContoller
+dapReportController
 .
 recordMeasurement
 (
@@ -443,7 +443,7 @@ null
 await
 this
 .
-dapReportContoller
+dapReportController
 .
 cleanup
 (
@@ -465,7 +465,7 @@ null
 ;
 this
 .
-dapReportContoller
+dapReportController
 =
 null
 ;
@@ -639,6 +639,9 @@ counter
 experiment
 .
 task_veclen
+timePrecision
+:
+60
 defaultMeasurement
 :
 0
@@ -659,7 +662,7 @@ task
 }
 this
 .
-dapReportContoller
+dapReportController
 =
 new
 DAPReportController
@@ -681,7 +684,7 @@ submissionIntervalMins
 ;
 this
 .
-dapReportContoller
+dapReportController
 .
 startTimedSubmission
 (
