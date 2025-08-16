@@ -3629,7 +3629,9 @@ gtk30
 _Cancel
 "
 )
+GTK_RESPONSE_CANCEL
 accept_button
+GTK_RESPONSE_ACCEPT
 nullptr
 )
 )
@@ -4060,6 +4062,10 @@ TRUE
 mFileChooser
 =
 file_chooser
+;
+NS_ADDREF_THIS
+(
+)
 ;
 g_signal_connect
 (
