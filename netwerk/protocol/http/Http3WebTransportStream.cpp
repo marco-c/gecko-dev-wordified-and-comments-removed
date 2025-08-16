@@ -3244,6 +3244,15 @@ int64_t
 aSendOrder
 )
 {
+if
+(
+!
+mSession
+)
+{
+return
+;
+}
 mSession
 -
 >
