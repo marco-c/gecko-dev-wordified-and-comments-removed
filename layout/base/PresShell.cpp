@@ -58707,12 +58707,11 @@ StickyScrollContainer
 *
 ssc
 =
-StickyScrollContainer
-:
-:
-GetStickyScrollContainerForScrollFrame
-(
 sc
+-
+>
+GetStickyContainer
+(
 )
 ;
 if
