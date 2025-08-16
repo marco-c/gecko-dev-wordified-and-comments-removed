@@ -5133,7 +5133,9 @@ lazy
 .
 TabManager
 .
-browsers
+getBrowsers
+(
+)
 .
 map
 (

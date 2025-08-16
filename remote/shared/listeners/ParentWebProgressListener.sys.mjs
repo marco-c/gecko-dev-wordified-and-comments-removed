@@ -1410,7 +1410,9 @@ lazy
 .
 TabManager
 .
-browsers
+getBrowsers
+(
+)
 .
 flatMap
 (
