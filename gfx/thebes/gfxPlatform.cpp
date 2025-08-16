@@ -16227,6 +16227,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+defined
+(
+XP_WIN
+)
 CODEC_HW_FEATURE_SETUP
 (
 H264
