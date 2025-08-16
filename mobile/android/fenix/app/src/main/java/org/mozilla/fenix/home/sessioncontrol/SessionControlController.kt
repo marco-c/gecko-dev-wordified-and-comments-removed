@@ -3264,9 +3264,9 @@ Boolean
 return
 if
 (
-activity
+appStore
 .
-browsingModeManager
+state
 .
 mode
 .
