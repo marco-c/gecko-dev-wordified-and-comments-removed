@@ -1512,6 +1512,16 @@ aResult
 )
 ;
 void
+HandleLoadErrorAndProcessPendingRequests
+(
+ScriptLoadRequest
+*
+aRequest
+nsresult
+aResult
+)
+;
+void
 ProcessPendingRequestsAsync
 (
 )
