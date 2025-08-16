@@ -2089,6 +2089,14 @@ hasTextFragments
 ;
 this
 .
+textDirectiveTarget
+=
+context
+.
+textDirectiveTarget
+;
+this
+.
 textFragmentURL
 =
 null
@@ -2806,7 +2814,7 @@ source
 &
 this
 .
-isContentSelected
+textDirectiveTarget
 ;
 this
 .

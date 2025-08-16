@@ -635,6 +635,13 @@ socketprocess_networking
 ]
 [
 "
+browser_copy_link_to_existing_highlight
+.
+js
+"
+]
+[
+"
 browser_copy_link_to_highlight
 .
 js

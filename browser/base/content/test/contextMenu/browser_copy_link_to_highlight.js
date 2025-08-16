@@ -1749,7 +1749,7 @@ synthesizeMouseAtCenter
 (
 "
 #
-text
+span
 "
 {
 type
