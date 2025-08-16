@@ -6280,6 +6280,17 @@ more
 =
 Learn
 more
+newtab
+-
+widget
+-
+keep
+-
+scrolling
+=
+Scroll
+for
+more
 #
 Strings
 for

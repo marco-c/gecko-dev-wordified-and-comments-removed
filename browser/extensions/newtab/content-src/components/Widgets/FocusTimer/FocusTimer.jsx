@@ -3599,6 +3599,15 @@ div
 showSystemNotifications
 &
 &
+!
+timerData
+[
+timerType
+]
+.
+isRunning
+&
+&
 (
 <
 p
