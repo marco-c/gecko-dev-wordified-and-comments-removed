@@ -256,6 +256,9 @@ mediaEngineId
 TrackingId
 ?
 trackingId
+nullable
+PRemoteCDM
+cdm
 )
 ;
 async
