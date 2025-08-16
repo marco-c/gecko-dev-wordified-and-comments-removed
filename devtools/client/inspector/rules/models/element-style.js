@@ -1748,7 +1748,7 @@ textProp
 .
 editor
 .
-updateUI
+updatePropertyState
 (
 )
 ;

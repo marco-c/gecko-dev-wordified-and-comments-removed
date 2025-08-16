@@ -366,10 +366,11 @@ element
 ;
 ok
 (
-!
 textPropEditor
 .
 filterProperty
+.
+hidden
 "
 Overridden
 search
