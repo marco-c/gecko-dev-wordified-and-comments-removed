@@ -22619,7 +22619,7 @@ DidDeleteText
 this
 begin
 .
-To
+RefOrTo
 <
 EditorRawDOMPoint
 >
@@ -22637,7 +22637,7 @@ DidInsertText
 this
 begin
 .
-To
+RefOrTo
 <
 EditorRawDOMPoint
 >
@@ -22645,7 +22645,7 @@ EditorRawDOMPoint
 )
 end
 .
-To
+RefOrTo
 <
 EditorRawDOMPoint
 >
