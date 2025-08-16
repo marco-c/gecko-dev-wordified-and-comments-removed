@@ -435,16 +435,6 @@ e
 {
 for
 (
-typename
-Base
-:
-:
-Enum
-e
-(
-*
-this
-)
 ;
 !
 e
