@@ -14,7 +14,7 @@ true
 schema
 "
 :
-1754014537720
+1754273750939
 "
 subframes
 "
@@ -234,8 +234,15 @@ selector
 "
 :
 "
-.
-cW9uh
+[
+data
+-
+testid
+=
+'
+shoppingNavItem
+'
+]
 "
 "
 inspectRegexpInSERP
@@ -631,7 +638,7 @@ d173
 last_modified
 "
 :
-1754069571469
+1754676198505
 }
 {
 "
@@ -4810,5 +4817,5 @@ last_modified
 timestamp
 "
 :
-1754069571469
+1754676198505
 }
