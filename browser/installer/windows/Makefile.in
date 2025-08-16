@@ -212,6 +212,12 @@ nsh
 \
 nsis
 /
+postupdate_helper
+.
+nsh
+\
+nsis
+/
 test_stub
 .
 nsi
