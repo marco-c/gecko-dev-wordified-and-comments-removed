@@ -30,6 +30,13 @@ true
 ]
 [
 "
+test_GuardianClient
+.
+js
+"
+]
+[
+"
 test_IPProtection
 .
 js
