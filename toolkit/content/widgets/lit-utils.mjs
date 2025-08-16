@@ -2611,12 +2611,15 @@ class
 "
 text
 "
->
+.
+textContent
+=
 {
 this
 .
 label
 }
+>
 <
 /
 span
