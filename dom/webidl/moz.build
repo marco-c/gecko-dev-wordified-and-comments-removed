@@ -3524,6 +3524,11 @@ CSSRuleList
 webidl
 "
 "
+CSSScale
+.
+webidl
+"
+"
 CSSScopeRule
 .
 webidl

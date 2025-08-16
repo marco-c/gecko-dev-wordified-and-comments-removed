@@ -89,6 +89,11 @@ CSSRotate
 h
 "
 "
+CSSScale
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -190,6 +195,11 @@ cpp
 "
 "
 CSSRotate
+.
+cpp
+"
+"
+CSSScale
 .
 cpp
 "
