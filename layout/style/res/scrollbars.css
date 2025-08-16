@@ -913,9 +913,8 @@ vertical
 ;
 }
 scrollbar
-[
+:
 disabled
-]
 thumb
 {
 visibility
@@ -1074,9 +1073,8 @@ active
 ]
 )
 scrollbar
-[
+:
 disabled
-]
 {
 pointer
 -
