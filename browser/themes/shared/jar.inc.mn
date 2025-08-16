@@ -5902,6 +5902,8 @@ classic
 /
 browser
 /
+sidebar
+/
 firefox
 .
 svg
@@ -5922,6 +5924,8 @@ skin
 classic
 /
 browser
+/
+sidebar
 /
 foxy
 -
@@ -5948,6 +5952,8 @@ classic
 /
 browser
 /
+sidebar
+/
 foxy
 -
 light
@@ -5973,6 +5979,8 @@ classic
 /
 browser
 /
+sidebar
+/
 gmail
 .
 svg
@@ -5993,6 +6001,8 @@ skin
 classic
 /
 browser
+/
+sidebar
 /
 slack
 .

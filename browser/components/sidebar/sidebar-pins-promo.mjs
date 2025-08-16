@@ -347,6 +347,8 @@ browser
 /
 skin
 /
+sidebar
+/
 firefox
 .
 svg
@@ -360,6 +362,8 @@ browser
 /
 skin
 /
+sidebar
+/
 slack
 .
 svg
@@ -372,6 +376,8 @@ chrome
 browser
 /
 skin
+/
+sidebar
 /
 foxy
 -
@@ -388,6 +394,8 @@ browser
 /
 skin
 /
+sidebar
+/
 foxy
 -
 dark
@@ -402,6 +410,8 @@ chrome
 browser
 /
 skin
+/
+sidebar
 /
 gmail
 .
