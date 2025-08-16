@@ -41,6 +41,13 @@ js
 ]
 [
 "
+browser_ipprotection_flag
+.
+js
+"
+]
+[
+"
 browser_ipprotection_header
 .
 js
