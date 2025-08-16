@@ -467,7 +467,9 @@ enum
 ConcurrencyMode
 {
 Sync
+Async
 AsyncWrapped
+FireAndForget
 }
 #
 [
