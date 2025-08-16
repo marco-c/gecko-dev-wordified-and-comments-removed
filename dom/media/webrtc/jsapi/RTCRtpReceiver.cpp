@@ -6912,8 +6912,9 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mPipeline
 mPipeline
 -
 >
