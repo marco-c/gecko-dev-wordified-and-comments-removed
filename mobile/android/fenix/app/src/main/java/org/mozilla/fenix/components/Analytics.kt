@@ -915,9 +915,14 @@ ReleaseRuntimeTagProvider
 )
 NimbusExperimentsRuntimeTagProvider
 (
+nimbusApi
+=
+lazyMonitored
+{
 nimbusComponents
 .
 sdk
+}
 )
 )
 )

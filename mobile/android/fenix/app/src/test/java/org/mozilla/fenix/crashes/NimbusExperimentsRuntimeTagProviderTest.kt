@@ -155,7 +155,10 @@ runtimeTagProvider
 =
 NimbusExperimentsRuntimeTagProvider
 (
+lazy
+{
 fakeNimbusApi
+}
 )
 Test
 fun

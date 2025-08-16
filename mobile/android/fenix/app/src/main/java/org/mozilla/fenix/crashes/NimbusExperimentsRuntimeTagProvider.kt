@@ -128,7 +128,10 @@ private
 val
 nimbusApi
 :
+Lazy
+<
 NimbusApi
+>
 )
 :
 RuntimeTagProvider
@@ -149,6 +152,8 @@ val
 activeExperiments
 =
 nimbusApi
+.
+value
 .
 getActiveExperiments
 (
