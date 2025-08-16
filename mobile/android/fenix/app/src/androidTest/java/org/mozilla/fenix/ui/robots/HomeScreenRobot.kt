@@ -7712,7 +7712,7 @@ UiSelector
 (
 )
 .
-textContains
+descriptionContains
 (
 getStringResource
 (
@@ -7720,7 +7720,7 @@ R
 .
 string
 .
-recent_tabs_show_all
+recent_tabs_show_all_content_description_2
 )
 )
 )
