@@ -2265,6 +2265,9 @@ pocketNewtab
 newtabSmartShortcuts
 "
 "
+newtabInferredPersonalization
+"
+"
 newtabWidgets
 "
 "
