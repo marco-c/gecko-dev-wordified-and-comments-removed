@@ -19804,10 +19804,6 @@ cssMozUserFocus
 :
 GleanCounter
 ;
-cssMozUserInput
-:
-GleanCounter
-;
 cssMozUserSelect
 :
 GleanCounter
@@ -22625,10 +22621,6 @@ cssMozTransitionTimingFunction
 GleanCounter
 ;
 cssMozUserFocus
-:
-GleanCounter
-;
-cssMozUserInput
 :
 GleanCounter
 ;
