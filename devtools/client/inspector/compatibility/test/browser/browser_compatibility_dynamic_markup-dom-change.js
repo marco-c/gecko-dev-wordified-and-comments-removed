@@ -55,7 +55,7 @@ js
 )
 ;
 const
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 =
 {
 type
@@ -71,7 +71,7 @@ moz
 -
 user
 -
-input
+focus
 "
 url
 :
@@ -97,7 +97,7 @@ moz
 -
 user
 -
-input
+focus
 "
 deprecated
 :
@@ -167,7 +167,7 @@ moz
 -
 user
 -
-input
+focus
 :
 none
 ;
@@ -289,7 +289,7 @@ assertIssueList
 (
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ISSUE_SCROLLBAR_COLOR
 ]
 )
@@ -319,7 +319,7 @@ parent
 inspector
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 )
 ;
@@ -370,7 +370,7 @@ div
 inspector
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 )
 ;

@@ -54,7 +54,7 @@ js
 )
 ;
 const
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 =
 {
 type
@@ -70,7 +70,7 @@ moz
 -
 user
 -
-input
+focus
 "
 url
 :
@@ -96,7 +96,7 @@ moz
 -
 user
 -
-input
+focus
 "
 deprecated
 :
@@ -167,7 +167,7 @@ moz
 -
 user
 -
-input
+focus
 :
 none
 ;
@@ -408,11 +408,11 @@ selectedElementPane
 allElementsPane
 [
 ISSUE_SCROLLBAR_COLOR
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 [
 ISSUE_SCROLLBAR_COLOR
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 async
 function

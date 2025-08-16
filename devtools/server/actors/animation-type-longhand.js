@@ -1070,14 +1070,6 @@ user
 focus
 "
 "
--
-moz
--
-user
--
-input
-"
-"
 user
 -
 select
