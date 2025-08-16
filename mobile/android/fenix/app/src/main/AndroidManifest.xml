@@ -6675,6 +6675,13 @@ exported
 "
 true
 "
+tools
+:
+ignore
+=
+"
+ExportedReceiver
+"
 >
 <
 intent
