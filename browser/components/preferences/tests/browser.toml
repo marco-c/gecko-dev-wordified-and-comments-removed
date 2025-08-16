@@ -1277,6 +1277,13 @@ js
 ]
 [
 "
+browser_usage_telemetry
+.
+js
+"
+]
+[
+"
 browser_warning_permanent_private_browsing
 .
 js
