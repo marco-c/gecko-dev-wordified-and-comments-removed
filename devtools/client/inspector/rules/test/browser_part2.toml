@@ -839,17 +839,6 @@ js
 "
 browser_rules_highlight
 -
-element
--
-rule
-.
-js
-"
-]
-[
-"
-browser_rules_highlight
--
 property
 .
 js
