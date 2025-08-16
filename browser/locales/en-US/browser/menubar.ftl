@@ -1498,7 +1498,7 @@ profiles
 label
 =
 Manage
-profiles
+Profiles
 menu
 -
 profiles
@@ -1511,7 +1511,7 @@ profile
 label
 =
 New
-profile
+Profile
 #
 Variables
 :
