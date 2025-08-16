@@ -4760,7 +4760,7 @@ type
 Boolean
 default
 :
-false
+true
 autoselect
 -
 enabled
