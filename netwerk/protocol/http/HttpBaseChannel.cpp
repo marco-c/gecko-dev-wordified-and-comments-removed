@@ -16266,6 +16266,15 @@ NS_OK
 ;
 if
 (
+!
+StaticPrefs
+:
+:
+network_cookie_skip_browsing_context_check_in_parent_for_testing
+(
+)
+&
+&
 IsBrowsingContextDiscarded
 (
 )

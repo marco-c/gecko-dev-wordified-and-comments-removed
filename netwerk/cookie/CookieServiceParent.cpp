@@ -1698,9 +1698,11 @@ null
 )
 ;
 }
-mProcessingCookie
-=
-true
+CookieProcessingGuard
+guard
+(
+this
+)
 ;
 bool
 ok
@@ -1718,10 +1720,6 @@ aIsThirdParty
 aCookies
 aBrowsingContext
 )
-;
-mProcessingCookie
-=
-false
 ;
 return
 ok

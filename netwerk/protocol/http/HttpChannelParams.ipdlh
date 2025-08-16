@@ -178,10 +178,10 @@ altDataLength
 nsCString
 altDataType
 ;
-nsCString
+CookieChange
 [
 ]
-cookieHeaders
+cookieChanges
 ;
 NetAddr
 selfAddr
