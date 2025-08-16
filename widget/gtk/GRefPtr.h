@@ -223,6 +223,10 @@ GOBJECT_TRAITS
 (
 GIcon
 )
+GOBJECT_TRAITS
+(
+GSettings
+)
 #
 undef
 GOBJECT_TRAITS
