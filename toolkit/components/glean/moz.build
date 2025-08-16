@@ -128,6 +128,13 @@ h
 "
 bindings
 /
+GleanWebIDL
+.
+h
+"
+"
+bindings
+/
 HistogramGIFFTMap
 .
 h
@@ -491,6 +498,13 @@ cpp
 bindings
 /
 GleanPings
+.
+cpp
+"
+"
+bindings
+/
+GleanWebIDL
 .
 cpp
 "
