@@ -391,6 +391,8 @@ defined
 only
 for
 Android
+/
+iOS
 so
 most
 builds
@@ -402,7 +404,7 @@ it
 up
 .
 "
-androidBridge
+geckoviewBridge
 "
 /
 /

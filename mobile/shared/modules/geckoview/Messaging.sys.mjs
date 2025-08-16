@@ -1191,7 +1191,7 @@ IS_PARENT_PROCESS
 ?
 Services
 .
-androidBridge
+geckoviewBridge
 :
 undefined
 )
@@ -1415,7 +1415,7 @@ dispatcher
 =
 Services
 .
-androidBridge
+geckoviewBridge
 .
 getDispatcherByName
 (
