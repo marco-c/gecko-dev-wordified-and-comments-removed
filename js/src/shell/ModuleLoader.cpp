@@ -411,11 +411,6 @@ referrer
 JS
 :
 :
-HandleValue
-referencingPrivate
-JS
-:
-:
 Handle
 <
 JSObject

@@ -1414,11 +1414,6 @@ JSScript
 aReferrer
 Handle
 <
-Value
->
-aReferencingPrivate
-Handle
-<
 JSObject
 *
 >
