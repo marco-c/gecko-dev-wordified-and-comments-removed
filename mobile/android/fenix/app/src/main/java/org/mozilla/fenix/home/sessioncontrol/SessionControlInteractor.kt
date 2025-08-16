@@ -367,6 +367,20 @@ mozilla
 .
 fenix
 .
+home
+.
+topsites
+.
+controller
+.
+TopSiteController
+import
+org
+.
+mozilla
+.
+fenix
+.
 search
 .
 toolbar
@@ -1239,6 +1253,11 @@ val
 homeSearchController
 :
 HomeSearchController
+private
+val
+topSiteController
+:
+TopSiteController
 )
 :
 HomepageInteractor
@@ -1352,7 +1371,7 @@ topSite
 TopSite
 )
 {
-controller
+topSiteController
 .
 handleOpenInPrivateTabClicked
 (
@@ -1368,7 +1387,7 @@ topSite
 TopSite
 )
 {
-controller
+topSiteController
 .
 handleEditTopSiteClicked
 (
@@ -1384,7 +1403,7 @@ topSite
 TopSite
 )
 {
-controller
+topSiteController
 .
 handleRemoveTopSiteClicked
 (
@@ -1419,7 +1438,7 @@ position
 Int
 )
 {
-controller
+topSiteController
 .
 handleSelectTopSite
 (
@@ -1441,7 +1460,7 @@ position
 Int
 )
 {
-controller
+topSiteController
 .
 handleTopSiteImpression
 (
@@ -1455,7 +1474,7 @@ onSettingsClicked
 (
 )
 {
-controller
+topSiteController
 .
 handleTopSiteSettingsClicked
 (
@@ -1467,7 +1486,7 @@ onSponsorPrivacyClicked
 (
 )
 {
-controller
+topSiteController
 .
 handleSponsorPrivacyClicked
 (
@@ -1482,7 +1501,7 @@ topSite
 TopSite
 )
 {
-controller
+topSiteController
 .
 handleTopSiteLongClicked
 (
