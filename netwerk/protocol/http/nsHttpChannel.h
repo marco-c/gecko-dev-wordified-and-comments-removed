@@ -1579,6 +1579,11 @@ nsACString
 aPermissionType
 )
 ;
+void
+MaybeUpdateDocumentIPAddressSpaceFromCache
+(
+)
+;
 nsresult
 ProcessLNAActions
 (
