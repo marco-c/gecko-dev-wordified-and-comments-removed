@@ -286,12 +286,6 @@ EmailCA
 ;
 enum
 class
-NetscapeStepUpPolicy
-:
-uint32_t
-;
-enum
-class
 IssuerSource
 {
 TLSHandshake
@@ -1032,8 +1026,6 @@ TimeDuration
 ocspTimeoutHard
 uint32_t
 certShortLifetimeInDays
-NetscapeStepUpPolicy
-netscapeStepUpPolicy
 CertificateTransparencyConfig
 &
 &
@@ -1106,10 +1098,6 @@ mOCSPTimeoutHard
 const
 uint32_t
 mCertShortLifetimeInDays
-;
-const
-NetscapeStepUpPolicy
-mNetscapeStepUpPolicy
 ;
 const
 CertificateTransparencyConfig

@@ -336,8 +336,6 @@ TimeDuration
 ocspTimeoutHard
 uint32_t
 certShortLifetimeInDays
-NetscapeStepUpPolicy
-netscapeStepUpPolicy
 CertificateTransparencyConfig
 &
 &
@@ -375,10 +373,6 @@ ocspTimeoutHard
 mCertShortLifetimeInDays
 (
 certShortLifetimeInDays
-)
-mNetscapeStepUpPolicy
-(
-netscapeStepUpPolicy
 )
 mCTConfig
 (
@@ -3047,10 +3041,6 @@ ValidityCheckingMode
 :
 :
 CheckingOff
-NetscapeStepUpPolicy
-:
-:
-NeverMatch
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -3203,7 +3193,6 @@ ValidityCheckingMode
 :
 :
 CheckForEV
-mNetscapeStepUpPolicy
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -3496,7 +3485,6 @@ ValidityCheckingMode
 :
 :
 CheckingOff
-mNetscapeStepUpPolicy
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -3783,7 +3771,6 @@ ValidityCheckingMode
 :
 :
 CheckingOff
-mNetscapeStepUpPolicy
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -3874,10 +3861,6 @@ ValidityCheckingMode
 :
 :
 CheckingOff
-NetscapeStepUpPolicy
-:
-:
-NeverMatch
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4009,10 +3992,6 @@ ValidityCheckingMode
 :
 :
 CheckingOff
-NetscapeStepUpPolicy
-:
-:
-NeverMatch
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs

@@ -85,8 +85,6 @@ TimeDuration
 ocspHardTimeout
 uint32_t
 certShortLifetimeInDays
-NetscapeStepUpPolicy
-netscapeStepUpPolicy
 CertificateTransparencyConfig
 &
 &
@@ -115,7 +113,6 @@ osc
 ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays
-netscapeStepUpPolicy
 std
 :
 :
