@@ -543,6 +543,10 @@ pub
 rendering
 :
 ImageRendering
+pub
+is_composited
+:
+bool
 }
 #
 [

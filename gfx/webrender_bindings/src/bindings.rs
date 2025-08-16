@@ -2086,6 +2086,9 @@ ExternalImageId
 channel_index
 :
 u8
+is_composited
+:
+bool
 )
 -
 >
@@ -2151,6 +2154,9 @@ ExternalImageId
 channel_index
 :
 u8
+is_composited
+:
+bool
 )
 -
 >
@@ -2168,6 +2174,7 @@ self
 external_image_obj
 id
 channel_index
+is_composited
 )
 }
 ;

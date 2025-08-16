@@ -106,6 +106,9 @@ FrameVec
 <
 DeferredResolve
 >
+is_composited
+:
+bool
 )
 -
 >
@@ -282,6 +285,7 @@ rendering
 request
 .
 rendering
+is_composited
 }
 )
 ;

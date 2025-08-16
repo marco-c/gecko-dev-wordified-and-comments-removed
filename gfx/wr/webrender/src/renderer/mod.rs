@@ -22486,6 +22486,9 @@ id
 ext_image
 .
 channel_index
+deferred_resolve
+.
+is_composited
 )
 ;
 let
@@ -30053,6 +30056,7 @@ lock
 (
 id
 channel_index
+false
 )
 ;
 let
