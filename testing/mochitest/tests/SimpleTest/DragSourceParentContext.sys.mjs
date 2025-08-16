@@ -113,9 +113,6 @@ constructor
 aBrowsingContext
 aParams
 aSpecialPowers
-aOk
-aIs
-aInfo
 )
 {
 super
@@ -126,9 +123,6 @@ dragSource
 aBrowsingContext
 aParams
 aSpecialPowers
-aOk
-aIs
-aInfo
 )
 ;
 }
