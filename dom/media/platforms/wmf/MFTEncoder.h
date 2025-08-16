@@ -7,13 +7,6 @@ DOM_MEDIA_PLATFORM_WMF_MFTENCODER_H
 #
 include
 <
-wrl
-.
-h
->
-#
-include
-<
 deque
 >
 #
@@ -25,6 +18,13 @@ functional
 include
 <
 queue
+>
+#
+include
+<
+wrl
+.
+h
 >
 #
 include
