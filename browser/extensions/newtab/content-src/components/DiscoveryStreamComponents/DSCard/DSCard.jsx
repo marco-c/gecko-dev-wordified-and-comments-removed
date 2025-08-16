@@ -5175,6 +5175,17 @@ props
 .
 title
 }
+isSponsored
+=
+{
+!
+!
+this
+.
+props
+.
+flightId
+}
 >
 {
 this

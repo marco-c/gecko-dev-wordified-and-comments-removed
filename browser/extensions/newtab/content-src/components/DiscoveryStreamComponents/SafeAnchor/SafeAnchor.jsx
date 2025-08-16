@@ -364,6 +364,7 @@ const
 url
 className
 title
+isSponsored
 }
 =
 this
@@ -402,6 +403,19 @@ onClick
 this
 .
 onClick
+}
+data
+-
+is
+-
+sponsored
+-
+link
+=
+{
+!
+!
+isSponsored
 }
 {
 .
