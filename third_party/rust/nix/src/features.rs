@@ -12,15 +12,7 @@ os
 [
 cfg
 (
-any
-(
 linux_android
-target_os
-=
-"
-emscripten
-"
-)
 )
 ]
 mod
@@ -462,6 +454,7 @@ false
 [
 test
 ]
+pub
 fn
 test_parsing_kernel_version
 (
@@ -505,11 +498,6 @@ target_os
 =
 "
 redox
-"
-target_os
-=
-"
-cygwin
 "
 )
 )

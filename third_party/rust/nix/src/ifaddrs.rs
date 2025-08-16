@@ -509,7 +509,7 @@ to_string_lossy
 (
 )
 .
-into_owned
+to_string
 (
 )
 flags
