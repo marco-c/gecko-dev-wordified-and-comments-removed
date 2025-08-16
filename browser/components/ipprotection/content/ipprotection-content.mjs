@@ -1051,6 +1051,16 @@ true
 )
 )
 ;
+Glean
+.
+ipprotection
+.
+clickUpgradeButton
+.
+record
+(
+)
+;
 }
 handleDownload
 (
