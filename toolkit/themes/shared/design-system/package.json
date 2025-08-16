@@ -75,7 +75,7 @@ prettier
 /
 tokens
 -
-table
+storybook
 .
 mjs
 .
