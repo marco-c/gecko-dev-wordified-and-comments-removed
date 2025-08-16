@@ -343,10 +343,6 @@ BYTES_PER_KIBIBYTE
 1024
 #
 define
-DATABASE_BUSY_TIMEOUT_MS
-100
-#
-define
 LAST_USED_ANNO
 "
 bookmarkPropertiesDialog
