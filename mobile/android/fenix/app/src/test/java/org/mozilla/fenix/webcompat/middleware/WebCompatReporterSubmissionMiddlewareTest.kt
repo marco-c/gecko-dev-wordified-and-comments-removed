@@ -1079,6 +1079,14 @@ testGetValue
 )
 )
 }
+store
+.
+dispatch
+(
+WebCompatReporterAction
+.
+SendReportClicked
+)
 }
 fun
 WHEN
