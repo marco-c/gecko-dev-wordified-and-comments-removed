@@ -133,6 +133,17 @@ bind
 (
 this
 )
+{
+contentRootHostClassName
+:
+"
+devtools
+-
+highlighter
+-
+rulers
+"
+}
 )
 ;
 this

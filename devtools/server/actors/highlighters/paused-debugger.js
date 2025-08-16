@@ -126,6 +126,17 @@ bind
 this
 )
 {
+contentRootHostClassName
+:
+"
+devtools
+-
+highlighter
+-
+paused
+-
+debugger
+"
 waitForDocumentToLoad
 :
 false

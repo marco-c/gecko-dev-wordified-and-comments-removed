@@ -273,6 +273,17 @@ bind
 (
 this
 )
+{
+contentRootHostClassName
+:
+"
+devtools
+-
+highlighter
+-
+flexbox
+"
+}
 )
 ;
 this
