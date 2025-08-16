@@ -541,17 +541,6 @@ formats
 "
 )
 \
-_
-(
-WEBGPU_EXTERNAL_TEXTURE
-Feature
-"
-WebGPU
-external
-textures
-"
-)
-\
 /
 *
 Add

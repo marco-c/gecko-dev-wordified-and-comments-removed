@@ -790,17 +790,3 @@ HARDWARE_VIDEO_ENCODING
 hardwarevideoencoding
 "
 )
-GFXINFO_FEATURE
-(
-WEBGPU_EXTERNAL_TEXTURE
-"
-WEBGPU_EXTERNAL_TEXTURE
-"
-"
-webgpu
-.
-external
--
-texture
-"
-)
