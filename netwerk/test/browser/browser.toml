@@ -1340,14 +1340,6 @@ page_with_non_trackers
 html
 "
 "
-page_with_non_trackers
-.
-html
-^
-headers
-^
-"
-"
 fetch_from_tracker
 .
 sjs
