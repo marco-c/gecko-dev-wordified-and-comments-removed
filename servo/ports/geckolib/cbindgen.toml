@@ -815,6 +815,9 @@ TextDecorationSkipInk
 TextDecorationLength
 "
 "
+TextDecorationTrim
+"
+"
 Time
 "
 "

@@ -1060,6 +1060,7 @@ text
 {
 TextDecorationLength
 TextDecorationSkipInk
+TextDecorationTrim
 TextJustify
 TextTransform
 }

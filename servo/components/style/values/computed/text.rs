@@ -11,7 +11,10 @@ computed
 length
 :
 :
+{
+Length
 LengthPercentage
+}
 ;
 use
 crate
@@ -30,6 +33,7 @@ text
 GenericHyphenateLimitChars
 GenericInitialLetter
 GenericTextDecorationLength
+GenericTextDecorationTrim
 GenericTextIndent
 }
 ;
@@ -164,6 +168,15 @@ TextDecorationLength
 GenericTextDecorationLength
 <
 LengthPercentage
+>
+;
+pub
+type
+TextDecorationTrim
+=
+GenericTextDecorationTrim
+<
+Length
 >
 ;
 pub

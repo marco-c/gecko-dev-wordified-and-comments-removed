@@ -5139,6 +5139,12 @@ mozilla
 StyleTextDecorationLength
 mTextDecorationThickness
 ;
+mozilla
+:
+:
+StyleTextDecorationTrim
+mTextDecorationTrim
+;
 }
 ;
 struct
