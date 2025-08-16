@@ -139,11 +139,12 @@ waitForCondition
 )
 =
 >
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
+.
 searchmode
 -
 switcher

@@ -1683,13 +1683,12 @@ switcher
 =
 win
 .
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
-urlbar
--
+.
 searchmode
 -
 switcher

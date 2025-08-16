@@ -3960,7 +3960,7 @@ mode
 indicator
 -
 close
-#
+.
 searchmode
 -
 switcher
@@ -8754,9 +8754,7 @@ opacity
 7
 ;
 }
-#
-urlbar
--
+.
 searchmode
 -
 switcher
@@ -8977,7 +8975,7 @@ rule
 should
 match
 to
-#
+.
 searchmode
 -
 switcher
@@ -9083,7 +9081,7 @@ invalid
 *
 /
 }
-#
+.
 searchmode
 -
 switcher
@@ -9156,7 +9154,7 @@ svg
 )
 ;
 }
-#
+.
 searchmode
 -
 switcher
@@ -9353,7 +9351,7 @@ bgcolor
 ;
 }
 }
-#
+.
 searchmode
 -
 switcher
@@ -9415,7 +9413,7 @@ none
 ;
 }
 }
-#
+.
 searchmode
 -
 switcher
@@ -9464,7 +9462,7 @@ flex
 ;
 }
 }
-#
+.
 searchmode
 -
 switcher
@@ -9483,7 +9481,7 @@ display
 none
 ;
 }
-#
+.
 urlbar
 -
 searchmode
@@ -9503,7 +9501,7 @@ rotate
 ;
 }
 }
-#
+.
 searchmode
 -
 switcher
@@ -9624,7 +9622,7 @@ top
 }
 }
 }
-#
+.
 searchmode
 -
 switcher
@@ -9653,7 +9651,7 @@ padding
 )
 ;
 }
-#
+.
 searchmode
 -
 switcher
@@ -9800,9 +9798,7 @@ always
 "
 )
 {
-#
-urlbar
--
+.
 searchmode
 -
 switcher
@@ -9866,7 +9862,7 @@ top
 ;
 }
 }
-#
+.
 searchmode
 -
 switcher

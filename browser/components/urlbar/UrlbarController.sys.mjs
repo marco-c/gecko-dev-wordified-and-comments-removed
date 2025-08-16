@@ -4408,13 +4408,10 @@ this
 .
 input
 .
-document
-.
-getElementById
+querySelector
 (
 "
-urlbar
--
+.
 searchmode
 -
 switcher

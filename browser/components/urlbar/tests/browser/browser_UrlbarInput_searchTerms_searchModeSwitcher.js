@@ -139,9 +139,7 @@ urlbar
 querySelector
 (
 "
-#
-urlbar
--
+.
 searchmode
 -
 switcher
