@@ -2667,7 +2667,7 @@ building
 the
 minidump
 analyzer
-tests
+binary
 .
 ^
 toolkit
@@ -2677,10 +2677,6 @@ crashreporter
 minidump
 -
 analyzer
-/
-analyzer
--
-test
 /
 target
 /
