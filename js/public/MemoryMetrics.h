@@ -2603,6 +2603,13 @@ MACRO
 (
 Other
 MallocHeap
+objectFuses
+)
+\
+MACRO
+(
+Other
+MallocHeap
 uniqueIdMap
 )
 \

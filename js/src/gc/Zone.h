@@ -2500,6 +2500,9 @@ size_t
 cacheIRStubs
 size_t
 *
+objectFusesArg
+size_t
+*
 uniqueIdMap
 size_t
 *

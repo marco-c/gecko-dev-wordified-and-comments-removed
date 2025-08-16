@@ -3696,7 +3696,7 @@ const
 return
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
