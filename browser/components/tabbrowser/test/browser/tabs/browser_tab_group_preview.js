@@ -159,6 +159,10 @@ synthesizeMouse
 (
 tabs
 0
+tabs
+.
+outerHeight
++
 1
 {
 type
