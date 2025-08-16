@@ -255,9 +255,9 @@ url
 =
 window
 .
-location
+document
 .
-href
+URL
 ;
 const
 payload
