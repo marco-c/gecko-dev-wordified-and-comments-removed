@@ -1832,7 +1832,7 @@ if
 (
 gContextMenu
 .
-textDirectiveTarget
+isContentSelected
 )
 {
 gContextMenu
