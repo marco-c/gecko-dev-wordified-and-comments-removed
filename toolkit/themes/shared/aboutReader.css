@@ -6706,7 +6706,16 @@ label
 {
 height
 :
-48px
+var
+(
+-
+-
+size
+-
+item
+-
+xlarge
+)
 ;
 width
 :
