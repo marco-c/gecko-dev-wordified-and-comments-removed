@@ -1513,6 +1513,14 @@ IsFrontBufferChanged
 )
 override
 ;
+RefPtr
+<
+DMABufSurface
+>
+GetSurface
+(
+)
+;
 NativeLayerWaylandExternal
 (
 NativeLayerRootWayland
