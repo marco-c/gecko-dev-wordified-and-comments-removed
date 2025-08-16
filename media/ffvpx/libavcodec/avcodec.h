@@ -2220,6 +2220,10 @@ decoded_side_data
 int
 nb_decoded_side_data
 ;
+void
+*
+moz_ndk_crypto
+;
 }
 AVCodecContext
 ;
