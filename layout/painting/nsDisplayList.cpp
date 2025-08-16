@@ -3606,10 +3606,6 @@ mDirtyRect
 -
 1
 )
-mBuildingExtraPagesForPageNum
-(
-0
-)
 mMode
 (
 aMode
