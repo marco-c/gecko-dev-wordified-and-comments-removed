@@ -37868,6 +37868,17 @@ s
 pretty
 close
 .
+pref
+(
+gfx
+.
+font_rendering
+.
+fallback
+.
+async
+false
+)
 =
 =
 1743560
