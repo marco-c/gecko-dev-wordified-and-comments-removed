@@ -1303,11 +1303,11 @@ HTMLCanvasElementObserver
 >
 mContextObserver
 ;
-public
-:
 bool
 mWriteOnly
 ;
+public
+:
 RefPtr
 <
 nsIPrincipal
