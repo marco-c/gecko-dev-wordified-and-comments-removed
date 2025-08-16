@@ -262,7 +262,7 @@ uint32_t
 GetCanvasExtractDataPermission
 (
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;
@@ -279,7 +279,7 @@ JSContext
 *
 aCx
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;
@@ -296,7 +296,7 @@ JSContext
 *
 aCx
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;
@@ -304,7 +304,7 @@ uint32_t
 GetCanvasExtractDataPermission
 (
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;
@@ -330,7 +330,7 @@ JSContext
 *
 aCx
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;
@@ -347,7 +347,7 @@ JSContext
 *
 aCx
 nsIPrincipal
-&
+*
 aPrincipal
 )
 ;

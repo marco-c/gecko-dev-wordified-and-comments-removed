@@ -7560,7 +7560,6 @@ CanvasUtils
 :
 GetCanvasExtractDataPermission
 (
-*
 aPrincipal
 )
 =

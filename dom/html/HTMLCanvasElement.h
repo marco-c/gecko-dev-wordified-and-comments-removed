@@ -1103,6 +1103,11 @@ uint8_t
 >
 GetImageBuffer
 (
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 int32_t
 *
 aOutFormat

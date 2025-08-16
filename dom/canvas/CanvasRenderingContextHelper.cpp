@@ -179,8 +179,11 @@ JS
 Value
 >
 aParams
-bool
-aUsePlaceholder
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 ErrorResult
 &
 aRv
@@ -234,7 +237,7 @@ aCallback
 type
 params
 usingCustomParseOptions
-aUsePlaceholder
+aExtractionBehavior
 aRv
 )
 ;
@@ -257,8 +260,11 @@ nsAString
 aEncodeOptions
 bool
 aUsingCustomOptions
-bool
-aUsePlaceholder
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 ErrorResult
 &
 aRv
@@ -393,6 +399,7 @@ imageBuffer
 =
 GetImageBuffer
 (
+aExtractionBehavior
 &
 format
 &
@@ -432,7 +439,7 @@ FromUnknownSize
 (
 imageSize
 )
-aUsePlaceholder
+aExtractionBehavior
 callback
 )
 ;
@@ -448,6 +455,11 @@ CanvasRenderingContextHelper
 :
 GetImageBuffer
 (
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 int32_t
 *
 aOutFormat
@@ -470,6 +482,7 @@ mCurrentContext
 >
 GetImageBuffer
 (
+aExtractionBehavior
 aOutFormat
 aOutImageSize
 )
