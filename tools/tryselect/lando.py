@@ -2682,6 +2682,15 @@ name
     
 lando_config_section
 =
+os
+.
+getenv
+(
+"
+LANDO_TRY_CONFIG
+"
+)
+or
 (
         
 "
