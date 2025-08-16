@@ -273,9 +273,15 @@ self
 return
 hash
 (
+"
+"
+.
+join
+(
 self
 .
 version
+)
 )
     
 def
