@@ -74,6 +74,11 @@ CSSMathValue
 h
 "
 "
+CSSMatrixComponent
+.
+h
+"
+"
 CSSNumericArray
 .
 h
@@ -200,6 +205,11 @@ cpp
 "
 "
 CSSMathValue
+.
+cpp
+"
+"
+CSSMatrixComponent
 .
 cpp
 "
