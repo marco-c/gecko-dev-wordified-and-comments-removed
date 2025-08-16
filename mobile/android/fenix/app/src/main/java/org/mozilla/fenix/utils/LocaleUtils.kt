@@ -484,6 +484,13 @@ to
 "
 "
 "
+bqi
+"
+to
+"
+Bakhtiari
+"
+"
 br
 "
 to
@@ -1279,6 +1286,13 @@ bn
 to
 "
 Bengali
+"
+"
+bqi
+"
+to
+"
+Bakhtiari
 "
 "
 br
