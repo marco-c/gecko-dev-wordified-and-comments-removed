@@ -8683,7 +8683,7 @@ Text
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 const
 textFragment
@@ -9340,7 +9340,7 @@ Text
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -10254,7 +10254,7 @@ IsEmpty
 )
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -10767,7 +10767,7 @@ IsEmpty
 )
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -11048,7 +11048,7 @@ aChar
 }
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =

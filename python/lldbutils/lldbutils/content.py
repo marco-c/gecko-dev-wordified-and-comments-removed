@@ -3,7 +3,7 @@ lldbutils
 import
 utils
 def
-summarize_text_fragment
+summarize_character_data_buffer
 (
 valobj
 internal_dict
@@ -166,14 +166,14 @@ HandleCommand
 type
 summary
 add
-nsTextFragment
+CharacterDataBuffer
 -
 F
 lldbutils
 .
 content
 .
-summarize_text_fragment
+summarize_character_data_buffer
 "
     
 )

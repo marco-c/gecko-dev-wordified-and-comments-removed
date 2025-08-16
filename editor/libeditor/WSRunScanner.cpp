@@ -97,13 +97,6 @@ nsRange
 .
 h
 "
-#
-include
-"
-nsTextFragment
-.
-h
-"
 namespace
 mozilla
 {

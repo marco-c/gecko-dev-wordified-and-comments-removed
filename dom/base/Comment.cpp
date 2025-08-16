@@ -153,9 +153,9 @@ aCloneText
 it
 -
 >
-mText
+mBuffer
 =
-mText
+mBuffer
 ;
 }
 return
@@ -244,7 +244,7 @@ ToCString
 (
 tmp
 0
-mText
+mBuffer
 .
 GetLength
 (

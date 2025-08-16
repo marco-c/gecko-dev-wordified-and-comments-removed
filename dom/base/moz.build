@@ -495,11 +495,6 @@ nsStyledElement
 h
 "
 "
-nsTextFragment
-.
-h
-"
-"
 nsTextNode
 .
 h
@@ -739,6 +734,11 @@ h
 "
 "
 CharacterData
+.
+h
+"
+"
+CharacterDataBuffer
 .
 h
 "
@@ -1622,6 +1622,11 @@ CharacterData
 cpp
 "
 "
+CharacterDataBuffer
+.
+cpp
+"
+"
 ChildIterator
 .
 cpp
@@ -2127,11 +2132,6 @@ nsSyncLoadService
 cpp
 "
 "
-nsTextFragment
-.
-cpp
-"
-"
 nsTextNode
 .
 cpp
@@ -2593,7 +2593,7 @@ SOURCES
 =
 [
 "
-nsTextFragmentSSE2
+CharacterDataBufferSSE2
 .
 cpp
 "
@@ -2601,7 +2601,7 @@ cpp
 SOURCES
 [
 "
-nsTextFragmentSSE2
+CharacterDataBufferSSE2
 .
 cpp
 "
@@ -2636,7 +2636,7 @@ SOURCES
 =
 [
 "
-nsTextFragmentVMX
+CharacterDataBufferVMX
 .
 cpp
 "
@@ -2644,7 +2644,7 @@ cpp
 SOURCES
 [
 "
-nsTextFragmentVMX
+CharacterDataBufferVMX
 .
 cpp
 "

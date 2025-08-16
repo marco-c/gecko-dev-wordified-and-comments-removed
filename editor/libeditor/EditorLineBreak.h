@@ -113,13 +113,6 @@ nsIContent
 .
 h
 "
-#
-include
-"
-nsTextFragment
-.
-h
-"
 namespace
 mozilla
 {

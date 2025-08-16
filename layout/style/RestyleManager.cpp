@@ -1816,7 +1816,7 @@ return
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 *
 text
 =

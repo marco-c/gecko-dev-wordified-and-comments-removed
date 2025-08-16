@@ -120,6 +120,17 @@ mozilla
 /
 dom
 /
+CharacterDataBuffer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentInlines
 .
 h
@@ -347,13 +358,6 @@ h
 include
 "
 nsStyleUtil
-.
-h
-"
-#
-include
-"
-nsTextFragment
 .
 h
 "
@@ -4263,7 +4267,7 @@ EditorDOMPoint
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 &
 fragment
 =
@@ -4337,7 +4341,7 @@ if
 inclusiveNextVisibleCharOffset
 !
 =
-nsTextFragment
+CharacterDataBuffer
 :
 :
 kNotFound
@@ -5341,7 +5345,7 @@ if
 nonWhiteSpaceOffset
 !
 =
-nsTextFragment
+CharacterDataBuffer
 :
 :
 kNotFound
@@ -5775,7 +5779,7 @@ continue
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -6156,7 +6160,7 @@ continue
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -6667,7 +6671,7 @@ aText
 )
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -6778,7 +6782,7 @@ aText
 )
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -6985,7 +6989,7 @@ aLength
 )
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =

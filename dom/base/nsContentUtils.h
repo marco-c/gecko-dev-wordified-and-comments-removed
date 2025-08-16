@@ -537,9 +537,6 @@ class
 nsPresContext
 ;
 class
-nsTextFragment
-;
-class
 nsView
 ;
 class

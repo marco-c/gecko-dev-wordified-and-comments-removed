@@ -27949,7 +27949,7 @@ aCaretPoint
 void
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -28145,7 +28145,7 @@ return
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =
@@ -35646,7 +35646,7 @@ nullptr
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 &
 textFragment
 =

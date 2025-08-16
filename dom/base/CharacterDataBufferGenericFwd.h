@@ -1,9 +1,9 @@
 #
 ifndef
-nsTextFragmentGenericFwd_h__
+mozilla_dom_CharacterDataBufferGenericFwd_h
 #
 define
-nsTextFragmentGenericFwd_h__
+mozilla_dom_CharacterDataBufferGenericFwd_h
 #
 include
 <

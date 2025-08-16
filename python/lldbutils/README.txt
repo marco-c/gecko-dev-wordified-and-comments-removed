@@ -1953,7 +1953,7 @@ mHdr
 }
 *
 nsTextNode
-nsTextFragment
+CharacterDataBuffer
 Text
 nodes
 have
@@ -1963,7 +1963,7 @@ summary
 that
 shows
 the
-nsTextFragment
+CharacterDataBuffer
 in
 the
 nsTextNode

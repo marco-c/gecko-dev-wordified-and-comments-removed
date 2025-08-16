@@ -690,7 +690,7 @@ HasTextForTranslation
 {
 if
 (
-mText
+mBuffer
 .
 Is2b
 (
@@ -724,7 +724,7 @@ char
 *
 cp
 =
-mText
+mBuffer
 .
 Get1b
 (
@@ -737,7 +737,7 @@ end
 =
 cp
 +
-mText
+mBuffer
 .
 GetLength
 (

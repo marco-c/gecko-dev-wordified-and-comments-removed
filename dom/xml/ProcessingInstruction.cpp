@@ -302,7 +302,7 @@ aNodeInfo
 SetTextInternal
 (
 0
-mText
+mBuffer
 .
 GetLength
 (
@@ -582,7 +582,7 @@ ToCString
 (
 tmp
 0
-mText
+mBuffer
 .
 GetLength
 (

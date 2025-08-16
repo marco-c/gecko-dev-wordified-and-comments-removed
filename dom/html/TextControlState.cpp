@@ -12830,7 +12830,7 @@ child
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 text
 =

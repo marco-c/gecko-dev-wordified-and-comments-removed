@@ -310,7 +310,7 @@ DocumentType
 default
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 DocumentType
 :

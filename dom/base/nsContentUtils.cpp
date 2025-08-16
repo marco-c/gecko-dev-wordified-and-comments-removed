@@ -55,6 +55,13 @@ h
 #
 include
 "
+CharacterDataBuffer
+.
+h
+"
+#
+include
+"
 DecoderTraits
 .
 h
@@ -3204,13 +3211,6 @@ h
 include
 "
 nsTStringRepr
-.
-h
-"
-#
-include
-"
-nsTextFragment
 .
 h
 "
@@ -51379,9 +51379,9 @@ nsString
 mString
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
-mTextFragment
+mCharacterDataBuffer
 ;
 }
 ;
@@ -51738,9 +51738,9 @@ void
 Append
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aTextFragment
+aCharacterDataBuffer
 )
 {
 Unit
@@ -51754,9 +51754,9 @@ AddUnit
 u
 -
 >
-mTextFragment
+mCharacterDataBuffer
 =
-aTextFragment
+aCharacterDataBuffer
 ;
 u
 -
@@ -51774,7 +51774,7 @@ TextFragment
 uint32_t
 len
 =
-aTextFragment
+aCharacterDataBuffer
 -
 >
 GetLength
@@ -51791,9 +51791,9 @@ void
 AppendWithEncode
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aTextFragment
+aCharacterDataBuffer
 CheckedInt
 <
 uint32_t
@@ -51812,9 +51812,9 @@ AddUnit
 u
 -
 >
-mTextFragment
+mCharacterDataBuffer
 =
-aTextFragment
+aCharacterDataBuffer
 ;
 u
 -
@@ -52064,7 +52064,7 @@ if
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Is2b
@@ -52080,7 +52080,7 @@ Span
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Get2b
@@ -52088,7 +52088,7 @@ Get2b
 )
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 GetLength
@@ -52108,7 +52108,7 @@ Span
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Get1b
@@ -52116,7 +52116,7 @@ Get1b
 )
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 GetLength
@@ -52141,7 +52141,7 @@ if
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Is2b
@@ -52155,7 +52155,7 @@ Span
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Get2b
@@ -52163,7 +52163,7 @@ Get2b
 )
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 GetLength
@@ -52182,7 +52182,7 @@ Span
 (
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 Get1b
@@ -52190,7 +52190,7 @@ Get1b
 )
 u
 .
-mTextFragment
+mCharacterDataBuffer
 -
 >
 GetLength
@@ -52872,7 +52872,7 @@ void
 AppendEncodedCharacters
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
 aText
 StringBuilder
@@ -54656,7 +54656,7 @@ CDATA_SECTION_NODE
 :
 {
 const
-nsTextFragment
+CharacterDataBuffer
 *
 text
 =

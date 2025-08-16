@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsTextFragment
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

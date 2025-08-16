@@ -2570,7 +2570,7 @@ textContent
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 *
 textData
 =

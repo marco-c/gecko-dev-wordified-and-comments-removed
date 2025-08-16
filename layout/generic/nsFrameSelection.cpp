@@ -333,13 +333,6 @@ h
 #
 include
 "
-nsTextFragment
-.
-h
-"
-#
-include
-"
 nsTextFrame
 .
 h

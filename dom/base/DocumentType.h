@@ -128,7 +128,7 @@ override
 }
 virtual
 const
-nsTextFragment
+CharacterDataBuffer
 *
 GetText
 (

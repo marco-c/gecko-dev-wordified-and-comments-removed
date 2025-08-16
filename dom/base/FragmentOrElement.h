@@ -315,7 +315,7 @@ aError
 override
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 GetText
 (
