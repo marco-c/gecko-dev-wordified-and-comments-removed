@@ -9714,7 +9714,11 @@ rt
 ;
 if
 (
-aborted
+slices_
+.
+empty
+(
+)
 )
 {
 return
