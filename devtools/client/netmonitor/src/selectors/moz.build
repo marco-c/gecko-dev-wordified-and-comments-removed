@@ -76,6 +76,11 @@ search
 js
 "
 "
+statistics
+.
+js
+"
+"
 timing
 -
 markers

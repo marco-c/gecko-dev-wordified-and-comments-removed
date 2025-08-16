@@ -98,6 +98,11 @@ sort
 js
 "
 "
+statistics
+.
+js
+"
+"
 timing
 -
 markers
