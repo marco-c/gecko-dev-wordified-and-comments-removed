@@ -18917,9 +18917,6 @@ bindings
 "
 rsclientcerts
 "
-"
-sha2
-"
 ]
 [
 [
@@ -27241,9 +27238,6 @@ bindings
 "
 "
 rsclientcerts
-"
-"
-sha2
 "
 "
 winapi

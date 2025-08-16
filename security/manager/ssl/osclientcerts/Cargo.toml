@@ -193,15 +193,6 @@ path
 rsclientcerts
 "
 }
-sha2
-=
-"
-0
-.
-10
-.
-2
-"
 xpcom
 =
 {

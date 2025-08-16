@@ -111,10 +111,6 @@ extern
 crate
 rsclientcerts
 ;
-extern
-crate
-sha2
-;
 #
 [
 cfg
