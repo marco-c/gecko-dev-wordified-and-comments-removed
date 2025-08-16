@@ -652,6 +652,9 @@ mut
 [
 GradientStopKey
 ]
+enable_dithering
+:
+bool
 callback
 :
 &
@@ -925,6 +928,11 @@ false
 ;
 }
 if
+!
+enable_dithering
+&
+&
+(
 (
 horizontal
 &
@@ -950,6 +958,7 @@ height
 256
 .
 0
+)
 )
 {
 return
