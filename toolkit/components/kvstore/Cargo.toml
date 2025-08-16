@@ -270,15 +270,9 @@ thiserror
 rusqlite
 =
 {
-version
+workspace
 =
-"
-0
-.
-33
-.
-0
-"
+true
 features
 =
 [

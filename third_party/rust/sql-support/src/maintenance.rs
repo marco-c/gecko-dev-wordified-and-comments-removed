@@ -90,7 +90,7 @@ u32
 =
 conn
 .
-query_one
+conn_ext_query_one
 (
 "
 PRAGMA

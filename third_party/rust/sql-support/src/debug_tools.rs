@@ -729,7 +729,7 @@ assert_eq
 (
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <
@@ -760,7 +760,7 @@ assert_eq
 (
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <
@@ -792,7 +792,7 @@ assert_eq
 (
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <

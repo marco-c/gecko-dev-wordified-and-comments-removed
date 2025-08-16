@@ -345,7 +345,7 @@ params
 )
 }
 fn
-query_one
+conn_ext_query_one
 <
 T
 :
@@ -1194,7 +1194,7 @@ u32
 =
 self
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
@@ -1214,7 +1214,7 @@ u32
 =
 self
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
@@ -1234,7 +1234,7 @@ u32
 =
 self
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT

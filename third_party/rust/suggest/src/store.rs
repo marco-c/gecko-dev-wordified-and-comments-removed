@@ -4729,7 +4729,7 @@ u32
 =
 conn
 .
-query_one
+conn_ext_query_one
 (
 &
 format
@@ -4835,7 +4835,7 @@ lock
 ;
 conn
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
@@ -5362,7 +5362,7 @@ dao
 .
 conn
 .
-query_one
+conn_ext_query_one
 (
 &
 sql
@@ -14370,7 +14370,7 @@ dao
 .
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <
@@ -14398,7 +14398,7 @@ dao
 .
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <

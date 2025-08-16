@@ -91,7 +91,7 @@ sqlite
 -
 amalgamation
 -
-3450000
+3500200
 curl
 -
 O
@@ -103,7 +103,7 @@ sqlite
 .
 org
 /
-2024
+2025
 /
 SQLITE
 .
@@ -211,6 +211,9 @@ rs
 "
 cargo
 update
+-
+-
+quiet
 #
 Just
 to
@@ -477,6 +480,9 @@ exit
 }
 cargo
 update
+-
+-
+quiet
 cargo
 test
 -
