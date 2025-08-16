@@ -1114,7 +1114,7 @@ reference
 "
 test_pdf_navigation_base
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1131,7 +1131,7 @@ reference
 "
 test_pdf_navigation_next
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1148,7 +1148,7 @@ reference
 "
 test_pdf_navigation_previous
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1165,7 +1165,7 @@ reference
 "
 test_pdf_navigation_down
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1182,7 +1182,7 @@ reference
 "
 test_pdf_navigation_up
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1199,7 +1199,7 @@ reference
 "
 test_pdf_navigation_right
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1216,7 +1216,7 @@ reference
 "
 test_pdf_navigation_left
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1233,7 +1233,7 @@ reference
 "
 test_pdf_navigation_pagedown
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1250,7 +1250,7 @@ reference
 "
 test_pdf_navigation_pageup
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1267,7 +1267,7 @@ reference
 "
 test_pdf_navigation_end
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1284,7 +1284,7 @@ reference
 "
 test_pdf_navigation_home
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1301,7 +1301,7 @@ reference
 "
 test_pdf_navigation_firstPage
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1318,7 +1318,7 @@ reference
 "
 test_pdf_navigation_lastPage
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1335,7 +1335,7 @@ reference
 "
 test_pdf_navigation_pageRotateCw
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1352,7 +1352,7 @@ reference
 "
 test_pdf_navigation_pageRotateCcw
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1369,7 +1369,7 @@ reference
 "
 test_pdf_navigation_documentProperties
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1386,7 +1386,7 @@ reference
 "
 test_pdf_navigation_select_text_with_highlight
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1403,7 +1403,7 @@ reference
 "
 test_pdf_navigation_select_text_without_highlight
 -
-nightly_2404
+beta_2404
 .
 png
 "
@@ -1420,7 +1420,7 @@ reference
 "
 test_pdf_navigation_hand_tool
 -
-nightly_2404
+beta_2404
 .
 png
 "
