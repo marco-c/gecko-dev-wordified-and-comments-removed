@@ -388,7 +388,7 @@ heading
 return
 html
 <
-strong
+h2
 class
 =
 "
@@ -405,7 +405,7 @@ heading
 }
 <
 /
-strong
+h2
 >
 ;
 }
