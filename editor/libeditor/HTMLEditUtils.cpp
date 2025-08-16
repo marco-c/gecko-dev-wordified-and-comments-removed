@@ -3596,6 +3596,7 @@ HTMLEditUtils
 :
 IsMozDiv
 (
+const
 nsINode
 *
 aNode
