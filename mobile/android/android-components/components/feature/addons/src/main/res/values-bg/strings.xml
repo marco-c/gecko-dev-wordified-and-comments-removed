@@ -3392,7 +3392,6 @@ name
 mozac_feature_addons_permissions_trial_ml_description_for_update
 "
 >
-AI
 .
 <
 /
@@ -9608,6 +9607,8 @@ name
 mozac_feature_addons_installed_dialog_title_2
 "
 >
+\
+u0020
 %
 1
 s
