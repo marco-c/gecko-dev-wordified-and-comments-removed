@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_IPPChannelFilter
+.
+js
+"
+]
+[
+"
 browser_guardian_client
 .
 js
