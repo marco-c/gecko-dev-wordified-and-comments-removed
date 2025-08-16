@@ -3324,13 +3324,9 @@ not
 (
 [
 autohide
-=
-true
 ]
 [
 collapsed
-=
-true
 ]
 )
 "
@@ -4333,8 +4329,6 @@ not
 (
 [
 autohide
-=
-true
 ]
 )
 "

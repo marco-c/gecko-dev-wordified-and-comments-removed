@@ -615,15 +615,12 @@ not
 (
 [
 collapsed
-=
-true
 ]
 )
 "
 ;
 if
 (
-!
 Services
 .
 appinfo
