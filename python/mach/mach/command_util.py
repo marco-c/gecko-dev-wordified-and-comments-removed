@@ -2461,6 +2461,25 @@ py
     
 "
 update
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+update
+-
+programs
+/
+mach_commands
+.
+py
+"
+)
+    
+"
+update
 -
 glean
 "
