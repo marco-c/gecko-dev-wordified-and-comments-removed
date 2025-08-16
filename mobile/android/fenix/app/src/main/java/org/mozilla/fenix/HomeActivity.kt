@@ -4322,6 +4322,13 @@ profiler
 getProfilerTime
 (
 )
+components
+.
+termsOfUseManager
+.
+onStart
+(
+)
 super
 .
 onStart
