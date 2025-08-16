@@ -352,9 +352,15 @@ rv
 )
 ;
 }
-else
 if
 (
+lang
+.
+IsEmpty
+(
+)
+&
+&
 aContext
 -
 >
