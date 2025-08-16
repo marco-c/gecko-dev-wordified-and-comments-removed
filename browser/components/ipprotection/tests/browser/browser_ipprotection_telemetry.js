@@ -831,13 +831,10 @@ true
 "
 )
 ;
-lazy
-.
-IPProtectionService
+IPProtection
 .
 uninit
 (
-true
 )
 ;
 toggledEvents
@@ -942,9 +939,7 @@ testResetFOG
 (
 )
 ;
-lazy
-.
-IPProtectionService
+IPProtection
 .
 init
 (
