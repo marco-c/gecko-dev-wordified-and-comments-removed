@@ -6841,13 +6841,13 @@ addListener
 this
 )
 ;
-}
 this
 .
 _hoverBlockerCount
 -
 -
 ;
+}
 }
 _showToolbarButtonBadge
 (
@@ -10874,6 +10874,12 @@ launcherExpanded
 }
 else
 {
+this
+.
+_removeHoverStateBlocker
+(
+)
+;
 MousePosTracker
 .
 removeListener
