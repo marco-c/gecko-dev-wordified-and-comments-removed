@@ -100,6 +100,8 @@ referencingPrivate
 HandleObject
 moduleRequest
 HandleValue
+hostDefined
+HandleValue
 payload
 )
 ;
