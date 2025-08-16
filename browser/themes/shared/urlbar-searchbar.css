@@ -397,7 +397,7 @@ urlbar
 go
 -
 button
-#
+.
 urlbar
 -
 revert
@@ -6812,8 +6812,16 @@ urlbar
 [
 persistsearchterms
 ]
+>
+.
+urlbar
+-
+input
+-
+container
 {
-#
+>
+.
 urlbar
 -
 revert
@@ -6827,6 +6835,7 @@ display
 inherit
 ;
 }
+>
 .
 urlbar
 -
