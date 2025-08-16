@@ -4745,7 +4745,7 @@ null
 "
 "
 Inferred
-Intrests
+Interests
 :
 "
 external_React_default

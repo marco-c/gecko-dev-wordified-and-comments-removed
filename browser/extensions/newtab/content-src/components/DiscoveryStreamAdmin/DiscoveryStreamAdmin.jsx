@@ -2608,7 +2608,7 @@ div
 "
 }
 Inferred
-Intrests
+Interests
 :
 <
 pre
