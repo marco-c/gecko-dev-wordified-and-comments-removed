@@ -3994,11 +3994,6 @@ updateRecipes
 "
 timer
 "
-{
-forceSync
-:
-true
-}
 )
 this
 .
