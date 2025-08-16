@@ -13196,10 +13196,6 @@ for
 dxcompiler
 .
 dll
-and
-dxil
-.
-dll
 "
 )
 imports
