@@ -2132,6 +2132,9 @@ sessionData
 relevantSessionData
 category
 contextDescriptor
+initial
+:
+false
 }
 destination
 }

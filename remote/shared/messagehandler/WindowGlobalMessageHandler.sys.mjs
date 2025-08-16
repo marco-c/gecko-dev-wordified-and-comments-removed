@@ -1059,6 +1059,9 @@ from
 (
 relevantSessionData
 )
+initial
+:
+true
 }
 destination
 }
