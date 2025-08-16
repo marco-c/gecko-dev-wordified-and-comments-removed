@@ -39,13 +39,6 @@ nsServiceManagerUtils
 .
 h
 "
-#
-include
-"
-nsIGSettingsService
-.
-h
-"
 using
 namespace
 mozilla

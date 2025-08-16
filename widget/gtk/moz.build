@@ -295,6 +295,11 @@ DMABufSurface
 h
 "
 "
+GSettings
+.
+h
+"
+"
 GtkCompositorWidget
 .
 h
@@ -361,6 +366,11 @@ cpp
 "
 "
 GfxInfo
+.
+cpp
+"
+"
+GSettings
 .
 cpp
 "
