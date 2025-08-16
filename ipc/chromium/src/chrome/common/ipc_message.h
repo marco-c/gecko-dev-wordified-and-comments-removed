@@ -1723,6 +1723,14 @@ Channel
 ;
 friend
 class
+ChannelPosix
+;
+friend
+class
+ChannelWin
+;
+friend
+class
 MessageReplyDeserializer
 ;
 friend

@@ -173,6 +173,17 @@ chrome
 /
 common
 /
+ipc_channel
+.
+cc
+"
+"
+src
+/
+chrome
+/
+common
+/
 ipc_channel_utils
 .
 cc

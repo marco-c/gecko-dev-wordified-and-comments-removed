@@ -298,13 +298,11 @@ const
 NodeName
 &
 aName
-UniquePtr
-<
 IPC
 :
 :
 Channel
->
+*
 aChannel
 Listener
 *
