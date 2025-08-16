@@ -68,6 +68,9 @@ a
 new
 -
 probe
+remove
+-
+telemetry
 report
 -
 gecko
