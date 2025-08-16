@@ -1260,16 +1260,6 @@ a
 )
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 program
 (
 [
@@ -1744,7 +1734,6 @@ type
 SyntaxError
 )
 ;
-}
 var
 loc
 =

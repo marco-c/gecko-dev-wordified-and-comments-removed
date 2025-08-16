@@ -424,16 +424,6 @@ columnNumber
 "
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 const
 e1
 =
@@ -772,7 +762,6 @@ firstUnsupportedAttributeKey
 "
 )
 ;
-}
 const
 f
 =

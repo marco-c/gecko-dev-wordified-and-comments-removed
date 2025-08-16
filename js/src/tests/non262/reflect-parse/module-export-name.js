@@ -524,16 +524,6 @@ false
 ]
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 assertModule
 (
 import
@@ -607,7 +597,6 @@ json
 ]
 )
 ;
-}
 if
 (
 typeof

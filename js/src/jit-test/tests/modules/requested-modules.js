@@ -395,16 +395,6 @@ js
 ]
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 testRequestedModules
 (
 "
@@ -1175,4 +1165,3 @@ unknown
 ]
 )
 ;
-}

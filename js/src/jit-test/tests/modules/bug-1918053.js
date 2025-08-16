@@ -1,13 +1,3 @@
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 let
 fooJs
 =
@@ -165,4 +155,3 @@ expectedModules
 length
 )
 ;
-}

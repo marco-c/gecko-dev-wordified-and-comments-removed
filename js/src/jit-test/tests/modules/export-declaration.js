@@ -1491,16 +1491,6 @@ default
 )
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 program
 (
 [
@@ -1810,7 +1800,6 @@ type
 SyntaxError
 )
 ;
-}
 assertThrowsInstanceOf
 (
 function

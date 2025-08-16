@@ -508,16 +508,6 @@ y
 ]
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 testImportEntries
 (
 '
@@ -715,4 +705,3 @@ v
 ]
 )
 ;
-}
