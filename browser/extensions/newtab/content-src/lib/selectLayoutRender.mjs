@@ -431,9 +431,6 @@ Widgets
 CardGrid
 "
 "
-CollectionCardGrid
-"
-"
 HorizontalRule
 "
 "
