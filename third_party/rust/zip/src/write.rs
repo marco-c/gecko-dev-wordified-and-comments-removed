@@ -124,7 +124,7 @@ S_IFLNK
 [
 cfg
 (
-any
+all
 (
 feature
 =
@@ -136,12 +136,9 @@ any
 feature
 =
 "
-bzip2
-"
-feature
-=
-"
-zstd
+deflate
+-
+zopfli
 "
 )
 )
