@@ -116,6 +116,7 @@ TextProperty
 {
 constructor
 (
+{
 rule
 name
 value
@@ -126,6 +127,7 @@ true
 invisible
 =
 false
+}
 )
 {
 this
