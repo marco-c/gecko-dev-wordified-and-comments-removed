@@ -3533,6 +3533,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 }
 }
