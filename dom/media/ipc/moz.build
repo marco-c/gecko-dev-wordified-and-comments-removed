@@ -50,6 +50,11 @@ MediaActorUtils
 h
 "
 "
+PRemoteCDMActor
+.
+h
+"
+"
 RDDChild
 .
 h
@@ -205,6 +210,11 @@ cpp
 "
 "
 RemoteCDMChild
+.
+cpp
+"
+"
+RemoteCDMParent
 .
 cpp
 "

@@ -157,6 +157,9 @@ CreateSession
 (
 uint32_t
 aCreateSessionToken
+dom
+:
+:
 MediaKeySessionType
 aSessionType
 PromiseId
@@ -522,6 +525,9 @@ aResult
 struct
 CreateSessionData
 {
+dom
+:
+:
 MediaKeySessionType
 mSessionType
 ;

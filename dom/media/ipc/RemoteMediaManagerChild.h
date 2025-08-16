@@ -594,6 +594,9 @@ TrackingId
 >
 &
 aTrackingId
+PRemoteCDMChild
+*
+aCDM
 )
 ;
 bool

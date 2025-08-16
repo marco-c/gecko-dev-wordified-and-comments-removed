@@ -61,6 +61,12 @@ aParams
 .
 mCrashHelper
 )
+mCDM
+(
+aParams
+.
+mCDM
+)
 mUseNullDecoder
 (
 aParams
