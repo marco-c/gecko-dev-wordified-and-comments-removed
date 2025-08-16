@@ -753,6 +753,18 @@ tar
 bz2
 dependencies
 :
+#
+Using
+libLLVM
+and
+headers
+for
+gallium
+which
+require
+an
+older
+version
 macosx64
 -
 clang
@@ -782,8 +794,6 @@ macos
 linux64
 -
 clang
--
-14
 -
 macosx64
 -
