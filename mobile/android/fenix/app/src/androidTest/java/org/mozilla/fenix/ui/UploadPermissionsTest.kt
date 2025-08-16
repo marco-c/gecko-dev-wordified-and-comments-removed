@@ -207,6 +207,9 @@ activityTestRule
 =
 HomeActivityIntentTestRule
 (
+isTermsOfServiceAccepted
+=
+true
 )
 get
 :
