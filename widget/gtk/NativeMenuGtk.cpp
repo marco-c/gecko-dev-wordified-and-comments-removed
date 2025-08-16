@@ -4549,7 +4549,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 true
 )
 ;
@@ -4647,7 +4647,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 true
 )
 ;
@@ -4706,7 +4706,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 false
 )
 ;
