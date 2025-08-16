@@ -7221,11 +7221,6 @@ mNeedsFocus
 1
 ;
 bool
-mHasFocus
-:
-1
-;
-bool
 mFocusByKeyOccurred
 :
 1
