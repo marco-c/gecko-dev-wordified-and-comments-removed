@@ -222,6 +222,15 @@ sMutex
 )
 {
 }
+void
+ReleaseCodecContext
+(
+)
+MOZ_REQUIRES
+(
+sMutex
+)
+;
 AVFrame
 *
 PrepareFrame
