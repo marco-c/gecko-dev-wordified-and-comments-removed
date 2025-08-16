@@ -19098,6 +19098,13 @@ name
 "
 alternative_app_icon_group_other
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Other
 <
