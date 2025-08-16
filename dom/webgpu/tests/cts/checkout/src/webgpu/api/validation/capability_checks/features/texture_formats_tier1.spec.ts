@@ -132,7 +132,7 @@ js
 ;
 import
 {
-kTextureFormatTier1AllowsRenderAttachmentBlendableMultisampleResolve
+kTextureFormatTier1AllowsRenderAttachmentBlendableMultisample
 kTextureFormatsTier1EnablesStorageReadOnlyWriteOnly
 }
 from
@@ -334,7 +334,7 @@ combine
 '
 format
 '
-kTextureFormatTier1AllowsRenderAttachmentBlendableMultisampleResolve
+kTextureFormatTier1AllowsRenderAttachmentBlendableMultisample
 )
 .
 combine
@@ -491,7 +491,7 @@ combine
 '
 format
 '
-kTextureFormatTier1AllowsRenderAttachmentBlendableMultisampleResolve
+kTextureFormatTier1AllowsRenderAttachmentBlendableMultisample
 )
 .
 combine
@@ -866,7 +866,7 @@ rgba8unorm
 .
 .
 .
-kTextureFormatTier1AllowsRenderAttachmentBlendableMultisampleResolve
+kTextureFormatTier1AllowsRenderAttachmentBlendableMultisample
 ]
 as
 const
