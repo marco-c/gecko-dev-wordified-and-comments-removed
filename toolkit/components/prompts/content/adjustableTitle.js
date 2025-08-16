@@ -237,13 +237,11 @@ var
 (
 -
 -
-in
--
-content
--
-page
--
 background
+-
+color
+-
+canvas
 )
 ;
 -

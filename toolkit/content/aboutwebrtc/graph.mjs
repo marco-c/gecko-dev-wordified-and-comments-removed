@@ -260,13 +260,11 @@ compStyle
 "
 -
 -
-in
--
-content
--
-page
--
 background
+-
+color
+-
+canvas
 "
 )
 ;
