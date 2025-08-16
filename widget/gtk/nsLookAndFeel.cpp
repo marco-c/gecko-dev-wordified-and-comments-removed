@@ -11429,9 +11429,10 @@ StringBeginsWith
 (
 mName
 "
-Adw
+adw
 "
 _ns
+nsCaseInsensitiveCStringComparator
 )
 )
 {
