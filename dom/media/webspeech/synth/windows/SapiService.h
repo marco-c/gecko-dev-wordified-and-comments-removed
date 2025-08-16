@@ -7,14 +7,14 @@ mozilla_dom_SapiService_h
 #
 include
 <
-sapi
+windows
 .
 h
 >
 #
 include
 <
-windows
+sapi
 .
 h
 >
