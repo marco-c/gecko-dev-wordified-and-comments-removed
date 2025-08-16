@@ -82,7 +82,9 @@ viewBox
 fill
 =
 "
-none
+context
+-
+fill
 "
 xmlns
 =
@@ -286,12 +288,6 @@ M7
 0
 .
 5Z
-"
-fill
-=
-"
-#
-5B5B66
 "
 /
 >
