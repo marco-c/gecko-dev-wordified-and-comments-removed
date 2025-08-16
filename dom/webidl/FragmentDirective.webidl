@@ -192,13 +192,8 @@ Promise
 <
 DOMString
 >
-createTextDirectiveForRanges
+createTextDirectiveForSelection
 (
-sequence
-<
-Range
->
-ranges
 )
 ;
 }
