@@ -9267,7 +9267,7 @@ eHTMLMediaType
 newAcc
 =
 new
-EnumRoleAccessible
+EnumRoleHyperTextAccessible
 <
 roles
 :

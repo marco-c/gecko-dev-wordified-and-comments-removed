@@ -183,6 +183,11 @@ videoAcc
 role
 :
 ROLE_GROUPING
+interfaces
+:
+[
+nsIAccessibleHyperText
+]
 children
 :
 [
