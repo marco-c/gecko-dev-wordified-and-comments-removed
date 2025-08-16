@@ -22785,7 +22785,12 @@ const
 override
 {
 return
-true
+IsTypeRepresentableAsDouble
+(
+type
+(
+)
+)
 ;
 }
 bool
