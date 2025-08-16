@@ -292,6 +292,10 @@ opaque_ref
 AVRational
 time_base
 ;
+void
+*
+moz_ndk_crypto_info
+;
 }
 AVPacket
 ;
