@@ -1070,6 +1070,13 @@ MOZ_SRC_FILES
 =
 [
 "
+CanvasPermissionPromptHelper
+.
+sys
+.
+mjs
+"
+"
 ContextId
 .
 sys
