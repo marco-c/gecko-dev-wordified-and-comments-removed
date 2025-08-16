@@ -65622,7 +65622,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+false
 mirror
 :
 always
@@ -66374,7 +66374,7 @@ type
 bool
 value
 :
-false
+IS_NOT_NIGHTLY_BUILD
 mirror
 :
 always
