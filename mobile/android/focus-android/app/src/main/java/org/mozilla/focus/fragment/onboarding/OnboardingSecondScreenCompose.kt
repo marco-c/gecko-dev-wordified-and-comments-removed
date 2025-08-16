@@ -149,7 +149,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Button
 import
@@ -157,7 +157,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 ButtonDefaults
 import
@@ -165,7 +165,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -717,7 +717,7 @@ ButtonDefaults
 .
 textButtonColors
 (
-backgroundColor
+containerColor
 =
 colorResource
 (
@@ -800,7 +800,7 @@ ButtonDefaults
 .
 textButtonColors
 (
-backgroundColor
+containerColor
 =
 colorResource
 (

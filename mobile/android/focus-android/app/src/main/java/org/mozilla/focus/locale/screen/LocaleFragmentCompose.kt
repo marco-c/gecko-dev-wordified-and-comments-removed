@@ -199,7 +199,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 RadioButton
 import
@@ -207,7 +207,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 RadioButtonDefaults
 import
@@ -215,7 +215,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
