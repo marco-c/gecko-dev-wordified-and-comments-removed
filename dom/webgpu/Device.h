@@ -492,6 +492,11 @@ Cleanup
 (
 )
 ;
+void
+ExpireExternalTextures
+(
+)
+;
 RefPtr
 <
 WebGPUChild
@@ -533,6 +538,15 @@ Buffer
 *
 >
 mTrackedBuffers
+;
+nsTArray
+<
+WeakPtr
+<
+ExternalTexture
+>
+>
+mExternalTexturesToExpire
 ;
 public
 :
