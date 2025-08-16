@@ -45,7 +45,7 @@ browser
 toml
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -85,7 +85,7 @@ FINAL_LIBRARY
 "
 browsercomps
 "
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
