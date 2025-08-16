@@ -83,7 +83,7 @@ mjs
 ;
 import
 {
-storybookTables
+tokensTable
 variableLookupTable
 }
 from
@@ -92,7 +92,7 @@ from
 /
 tokens
 -
-storybook
+table
 .
 mjs
 "
@@ -392,7 +392,7 @@ this
 .
 tokensData
 =
-storybookTables
+tokensTable
 ;
 }
 handleSurfaceChange
@@ -1111,7 +1111,7 @@ Object
 .
 keys
 (
-storybookTables
+tokensTable
 )
 .
 map
