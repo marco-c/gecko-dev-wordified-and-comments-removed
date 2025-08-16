@@ -3591,6 +3591,13 @@ unsupported
 -
 feature
 "
+featureIds
+:
+[
+"
+backgroundTaskMessage
+"
+]
 }
 )
 "

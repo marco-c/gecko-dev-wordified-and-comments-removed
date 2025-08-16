@@ -892,6 +892,7 @@ locale
 }
 UnsupportedFeatures
 (
+featureIds
 )
 {
 return
@@ -908,6 +909,7 @@ NimbusTelemetry
 ValidationFailureReason
 .
 UNSUPPORTED_FEATURES
+featureIds
 }
 ;
 }
@@ -4950,6 +4952,7 @@ CheckRecipeResult
 .
 UnsupportedFeatures
 (
+unsupportedFeatureIds
 )
 ;
 }
