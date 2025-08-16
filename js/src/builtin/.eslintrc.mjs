@@ -1183,17 +1183,7 @@ Iterator
 "
 off
 "
-Record
-:
-"
-off
-"
 Temporal
-:
-"
-off
-"
-Tuple
 :
 "
 off
