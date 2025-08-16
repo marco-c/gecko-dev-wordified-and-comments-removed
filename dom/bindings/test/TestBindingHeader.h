@@ -10852,7 +10852,7 @@ GetParentObject
 (
 )
 ;
-bool
+void
 NamedDeleter
 (
 const
@@ -10862,7 +10862,7 @@ bool
 &
 )
 ;
-bool
+void
 NamedDeleter
 (
 const
@@ -10882,7 +10882,7 @@ bool
 &
 )
 ;
-bool
+void
 DelNamedItem
 (
 const
@@ -10890,7 +10890,7 @@ nsAString
 &
 )
 ;
-bool
+void
 DelNamedItem
 (
 const

@@ -10279,7 +10279,7 @@ interface
 TestNamedDeleterWithRetvalInterface
 {
 deleter
-boolean
+undefined
 delNamedItem
 (
 DOMString
