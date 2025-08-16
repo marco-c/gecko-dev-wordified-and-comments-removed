@@ -2436,13 +2436,6 @@ fetchEngineConfiguration
 userEnv
 )
 ;
-if
-(
-SearchUtils
-.
-rustSelectorFeatureGate
-)
-{
 for
 (
 let
@@ -2692,7 +2685,6 @@ j
 ]
 }
 ;
-}
 }
 }
 Assert
