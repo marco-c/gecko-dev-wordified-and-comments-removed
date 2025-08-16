@@ -466,7 +466,9 @@ lazy
 .
 TabManager
 .
-browsers
+getBrowsers
+(
+)
 )
 {
 this
@@ -643,7 +645,9 @@ lazy
 .
 TabManager
 .
-browsers
+getBrowsers
+(
+)
 )
 {
 if
