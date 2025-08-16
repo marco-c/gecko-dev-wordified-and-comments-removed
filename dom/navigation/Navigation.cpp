@@ -262,6 +262,13 @@ h
 #
 include
 "
+nsISHistory
+.
+h
+"
+#
+include
+"
 nsIStructuredCloneContainer
 .
 h
