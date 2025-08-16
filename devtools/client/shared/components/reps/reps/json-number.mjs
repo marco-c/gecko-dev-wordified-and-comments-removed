@@ -333,7 +333,7 @@ value
 title
 :
 "
-Javacript
+JavaScript
 parsed
 value
 "
