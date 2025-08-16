@@ -89,6 +89,11 @@ CSSStyleValue
 h
 "
 "
+CSSTransformComponent
+.
+h
+"
+"
 CSSUnitValue
 .
 h
@@ -175,6 +180,11 @@ cpp
 "
 "
 CSSStyleValue
+.
+cpp
+"
+"
+CSSTransformComponent
 .
 cpp
 "
