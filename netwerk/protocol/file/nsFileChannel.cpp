@@ -1025,15 +1025,13 @@ GetInstance
 (
 )
 ;
-MOZ_ALWAYS_SUCCEEDS
-(
+mChannelId
+=
 handler
 -
 >
 NewChannelId
 (
-mChannelId
-)
 )
 ;
 nsCOMPtr

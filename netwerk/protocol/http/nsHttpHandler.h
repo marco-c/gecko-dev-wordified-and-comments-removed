@@ -2879,12 +2879,9 @@ public
 nodiscard
 ]
 ]
-nsresult
+uint64_t
 NewChannelId
 (
-uint64_t
-&
-channelId
 )
 ;
 void
