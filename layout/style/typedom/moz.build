@@ -129,6 +129,11 @@ CSSTransformComponent
 h
 "
 "
+CSSTransformValue
+.
+h
+"
+"
 CSSTranslate
 .
 h
@@ -260,6 +265,11 @@ cpp
 "
 "
 CSSTransformComponent
+.
+cpp
+"
+"
+CSSTransformValue
 .
 cpp
 "
