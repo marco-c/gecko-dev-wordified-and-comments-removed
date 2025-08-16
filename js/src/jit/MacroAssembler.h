@@ -1920,7 +1920,6 @@ Register
 reg
 )
 ;
-inline
 void
 passABIArg
 (
