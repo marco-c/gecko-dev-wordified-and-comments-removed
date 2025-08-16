@@ -318,9 +318,7 @@ firefox
 -
 nightly
 -
-latest
--
-ssl
+stub
 "
 ;
 #
@@ -341,9 +339,7 @@ firefox
 -
 beta
 -
-latest
--
-ssl
+stub
 "
 ;
 #
@@ -364,9 +360,7 @@ firefox
 -
 devedition
 -
-latest
--
-ssl
+stub
 "
 ;
 #
@@ -387,9 +381,7 @@ firefox
 -
 nightly
 -
-latest
--
-ssl
+stub
 "
 ;
 #
