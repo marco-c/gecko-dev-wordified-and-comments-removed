@@ -1551,7 +1551,7 @@ static200
 }
 vertical
 =
-16
+24
 .
 dp
 )
@@ -1563,9 +1563,13 @@ spacedBy
 (
 space
 =
-20
+FirefoxTheme
 .
-dp
+layout
+.
+space
+.
+static200
 )
 horizontalArrangement
 =
