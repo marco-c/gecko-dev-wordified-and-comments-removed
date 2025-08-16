@@ -551,10 +551,10 @@ positionedContainingBlock
 {
 return
 !
-parentContainingBlock
+it
 -
 >
-IsAbsPosContainingBlock
+IsAbsolutelyPositioned
 (
 )
 |
@@ -564,7 +564,7 @@ nsLayoutUtils
 :
 CompareTreePosition
 (
-parentContainingBlock
+it
 aPositionedFrame
 aPositionedFrameAncestors
 nullptr
