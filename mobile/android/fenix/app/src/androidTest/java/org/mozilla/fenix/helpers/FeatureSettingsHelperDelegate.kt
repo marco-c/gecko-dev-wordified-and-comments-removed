@@ -340,11 +340,6 @@ isMenuRedesignCFREnabled
 settings
 .
 shouldShowMenuCFR
-isNewBookmarksEnabled
-=
-settings
-.
-useNewBookmarks
 isMicrosurveyEnabled
 =
 settings
@@ -767,13 +762,6 @@ featureFlags
 isMenuRedesignCFREnabled
 settings
 .
-useNewBookmarks
-=
-featureFlags
-.
-isNewBookmarksEnabled
-settings
-.
 microsurveyFeatureEnabled
 =
 featureFlags
@@ -896,10 +884,6 @@ isMenuRedesignEnabled
 Boolean
 var
 isMenuRedesignCFREnabled
-:
-Boolean
-var
-isNewBookmarksEnabled
 :
 Boolean
 var
