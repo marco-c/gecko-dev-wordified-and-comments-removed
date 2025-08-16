@@ -510,6 +510,13 @@ AppIconSize
 dp
 private
 val
+AppIconPadding
+=
+6
+.
+dp
+private
+val
 AppIconBorderWidth
 =
 1
@@ -1236,6 +1243,11 @@ Modifier
 size
 (
 iconSize
+)
+.
+padding
+(
+AppIconPadding
 )
 )
 }
