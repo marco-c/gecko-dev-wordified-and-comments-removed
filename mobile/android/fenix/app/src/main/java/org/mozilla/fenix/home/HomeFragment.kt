@@ -3025,6 +3025,11 @@ requireComponents
 core
 .
 store
+appStore
+=
+components
+.
+appStore
 )
 owner
 =
