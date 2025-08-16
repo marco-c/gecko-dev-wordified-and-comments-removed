@@ -113,6 +113,17 @@ clear
 packageName
 "
 )
+}
+fun
+UiDevice
+.
+revokeNotificationPermission
+(
+packageName
+:
+String
+)
+{
 executeShellCommand
 (
 "
