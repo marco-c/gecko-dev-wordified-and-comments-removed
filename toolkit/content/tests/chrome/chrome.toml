@@ -1794,6 +1794,13 @@ html
 ]
 [
 "
+test_preferencesBindings_setting_setup_teardown
+.
+html
+"
+]
+[
+"
 test_preferences_beforeaccept
 .
 xhtml
