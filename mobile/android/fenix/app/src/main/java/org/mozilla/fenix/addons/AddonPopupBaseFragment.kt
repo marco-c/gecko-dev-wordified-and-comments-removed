@@ -1759,6 +1759,13 @@ applicationContext
 safeContext
 .
 applicationContext
+packageName
+=
+safeContext
+.
+applicationContext
+.
+packageName
 downloadFileName
 =
 downloadState
