@@ -25030,3 +25030,16 @@ enabled
 false
 )
 ;
+pref
+(
+"
+browser
+.
+ipProtection
+.
+variant
+"
+"
+"
+)
+;
