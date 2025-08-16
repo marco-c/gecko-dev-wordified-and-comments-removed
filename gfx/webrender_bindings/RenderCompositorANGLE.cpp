@@ -4537,6 +4537,7 @@ RenderCompositorANGLE
 ShouldUseLayerCompositor
 (
 )
+const
 {
 return
 UseLayerCompositor
@@ -5202,15 +5203,13 @@ return
 false
 ;
 }
+return
 mDCLayerTree
 -
 >
 EnableAsyncScreenshot
 (
 )
-;
-return
-true
 ;
 }
 bool

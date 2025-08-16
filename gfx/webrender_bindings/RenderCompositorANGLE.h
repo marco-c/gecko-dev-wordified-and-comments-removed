@@ -355,6 +355,14 @@ bool
 ShouldUseLayerCompositor
 (
 )
+const
+override
+;
+bool
+UseLayerCompositor
+(
+)
+const
 override
 ;
 void
@@ -705,12 +713,6 @@ protected
 :
 bool
 UseCompositor
-(
-)
-const
-;
-bool
-UseLayerCompositor
 (
 )
 const

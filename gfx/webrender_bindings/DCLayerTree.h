@@ -474,7 +474,7 @@ DisableNativeCompositor
 (
 )
 ;
-void
+bool
 EnableAsyncScreenshot
 (
 )
@@ -986,6 +986,11 @@ true
 ;
 bool
 mEnableAsyncScreenshot
+=
+false
+;
+bool
+mEnableAsyncScreenshotInNextFrame
 =
 false
 ;
