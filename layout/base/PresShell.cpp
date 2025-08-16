@@ -28108,7 +28108,6 @@ isNothing
 )
 &
 &
-!
 mPointerIds
 .
 IsEmpty
