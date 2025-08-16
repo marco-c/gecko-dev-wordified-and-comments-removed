@@ -1916,6 +1916,15 @@ value
 )
 .
 bannedPortList
+lnaBlockingEnabled
+=
+context
+.
+settings
+(
+)
+.
+isLnaBlockingEnabled
 )
 /
 /
