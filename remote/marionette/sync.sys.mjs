@@ -185,7 +185,7 @@ run
 at
 least
 once
-irregardless
+regardless
 of
 the
 timeout
@@ -1089,7 +1089,7 @@ init
 Bug
 1663880
 -
-Explicitely
+Explicitly
 cancel
 the
 timer
@@ -1468,7 +1468,7 @@ it
 can
 be
 used
-interchangably
+interchangeably
 with
 addEventHandler
 .

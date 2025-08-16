@@ -941,7 +941,7 @@ the
 event
 will
 be
-despatched
+dispatched
 to
 this
 subject
@@ -1118,7 +1118,7 @@ wantUntrusted
 Receive
 synthetic
 events
-despatched
+dispatched
 by
 web
 content
@@ -1640,7 +1640,7 @@ run
 at
 least
 once
-irregardless
+regardless
 of
 the
 timeout

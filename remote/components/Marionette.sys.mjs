@@ -1475,7 +1475,7 @@ trace
 Safe
 mode
 detected
-supressing
+suppressing
 dialog
 "
 )

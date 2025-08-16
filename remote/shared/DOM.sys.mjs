@@ -1186,7 +1186,7 @@ Where
 in
 the
 DOM
-hiearchy
+hierarchy
 to
 begin
 searching
@@ -1567,7 +1567,7 @@ Where
 in
 the
 DOM
-hierachy
+hierarchy
 to
 begin
 searching

@@ -396,7 +396,7 @@ the
 script
 will
 be
-evaluted
+evaluated
 in
 .
 *
@@ -1034,9 +1034,7 @@ timeout
 promise
 will
 be
-re
--
-used
+reused
 /
 /
 to
@@ -1155,7 +1153,7 @@ sandbox
 that
 *
 was
-assosciated
+associated
 with
 and
 extension

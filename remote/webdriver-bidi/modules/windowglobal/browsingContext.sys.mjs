@@ -2487,7 +2487,7 @@ called
 with
 params
 .
-inital
+initial
 =
 false
 .

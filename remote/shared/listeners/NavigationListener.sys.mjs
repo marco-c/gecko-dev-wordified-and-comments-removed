@@ -132,7 +132,7 @@ can
 t
 *
 be
-instanciated
+instantiated
 for
 each
 and

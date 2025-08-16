@@ -4969,7 +4969,7 @@ fieldName
 /
 The
 platform
-represantation
+representation
 of
 cookie
 doesn

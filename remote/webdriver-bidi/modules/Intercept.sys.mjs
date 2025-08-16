@@ -133,7 +133,7 @@ that
 needs
 to
 be
-transfered
+transferred
 and
 then
 processed

@@ -280,8 +280,6 @@ perfdocs
 -
 remote
 /
-doc
-/
 -
 security
 /
@@ -477,6 +475,13 @@ tools
 storage
 /
 -
+remote
+/
+test
+/
+puppeteer
+/
+-
 tools
 /
 lint
@@ -550,7 +555,7 @@ extensions
 -
 js
 -
-jxs
+jsx
 -
 mjs
 -

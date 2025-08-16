@@ -3297,7 +3297,7 @@ options
 as
 it
 would
-appar
+appear
 in
 a
 chrome

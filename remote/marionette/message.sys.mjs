@@ -139,7 +139,7 @@ Representation
 of
 the
 packets
-transproted
+transported
 over
 the
 wire

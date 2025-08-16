@@ -254,7 +254,7 @@ s
 state
 from
 the
-accessiblity
+accessibility
 API
 *
 perspective

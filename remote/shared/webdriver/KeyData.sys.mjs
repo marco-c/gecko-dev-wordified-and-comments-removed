@@ -2646,7 +2646,7 @@ SHIFT_DATA
 {
 /
 /
-Initalize
+Initialize
 the
 shift
 mapping

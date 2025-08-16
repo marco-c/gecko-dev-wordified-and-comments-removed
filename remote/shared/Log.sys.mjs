@@ -371,7 +371,7 @@ calls
 and
 avoid
 *
-instanciating
+instantiating
 logger
 instances
 unnecessarily
@@ -451,7 +451,7 @@ calls
 and
 avoid
 *
-instanciating
+instantiating
 logger
 instances
 unnecessarily

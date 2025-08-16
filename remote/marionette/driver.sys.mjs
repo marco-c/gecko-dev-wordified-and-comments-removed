@@ -5385,7 +5385,7 @@ options
 as
 it
 would
-appar
+appear
 in
 a
 chrome
@@ -6372,9 +6372,7 @@ is
 cached
 for
 later
-re
--
-use
+reuse
 on
 the
 same
@@ -6394,7 +6392,7 @@ is
 false
 .
 If
-he
+the
 parameter
 is
 undefined
@@ -6419,7 +6417,7 @@ system
 it
 will
 be
-evaluted
+evaluated
 in
 a
 sandbox
@@ -6468,7 +6466,7 @@ script
 will
 normally
 be
-evaluted
+evaluated
 in
 a
 fresh
@@ -7038,9 +7036,7 @@ is
 cached
 for
 later
-re
--
-use
+reuse
 on
 the
 same
@@ -7085,7 +7081,7 @@ system
 it
 will
 be
-evaluted
+evaluated
 in
 a
 sandbox
@@ -7134,7 +7130,7 @@ script
 will
 normally
 be
-evaluted
+evaluated
 in
 a
 fresh

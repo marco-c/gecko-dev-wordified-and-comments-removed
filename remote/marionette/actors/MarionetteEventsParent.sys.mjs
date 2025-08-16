@@ -240,7 +240,7 @@ actors
 have
 already
 been
-registed
+registered
 .
 let
 eventsActorRegistered

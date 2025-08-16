@@ -1649,7 +1649,7 @@ A
 boolean
 value
 which
-determins
+determines
 whether
 to
 focus

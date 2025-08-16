@@ -269,7 +269,7 @@ All
 id
 can
 be
-ommitted
+omitted
 .
 *
 For
@@ -1821,7 +1821,7 @@ the
 required
 initialization
 steps
-inlcluding
+including
 apply
 the
 initial

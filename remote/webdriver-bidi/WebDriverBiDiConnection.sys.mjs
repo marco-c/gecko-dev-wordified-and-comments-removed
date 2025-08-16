@@ -1139,7 +1139,7 @@ id
 to
 be
 a
-postive
+positive
 integer
 got
 {

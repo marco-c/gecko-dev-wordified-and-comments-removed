@@ -358,7 +358,7 @@ false
 info
 (
 "
-Attemps
+Attempts
 to
 restore
 again

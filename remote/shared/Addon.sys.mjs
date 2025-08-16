@@ -224,7 +224,7 @@ ERROR_NETWORK_FAILURE
 A
 network
 error
-occured
+occurred
 .
 "
 [

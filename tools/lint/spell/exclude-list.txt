@@ -26,3 +26,4 @@ inout
 manuel
 thirdparty
 checkin
+commitish

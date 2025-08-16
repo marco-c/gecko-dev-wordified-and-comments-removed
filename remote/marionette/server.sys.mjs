@@ -1900,7 +1900,7 @@ resp
 await
 this
 .
-despatch
+dispatch
 (
 cmd
 resp
@@ -1926,7 +1926,7 @@ report
 *
 *
 *
-Despatches
+Dispatches
 command
 to
 appropriate
@@ -1987,7 +1987,7 @@ time
 *
 /
 async
-despatch
+dispatch
 (
 cmd
 resp

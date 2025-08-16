@@ -394,7 +394,7 @@ they
 are
 registered
 when
-instanciating
+instantiating
 a
 RootTransport
 .
