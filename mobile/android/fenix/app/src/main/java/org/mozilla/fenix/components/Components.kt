@@ -1722,6 +1722,11 @@ metrics
 analytics
 .
 metrics
+nimbusEventStore
+=
+nimbus
+.
+events
 )
 CrashReportingAppMiddleware
 (

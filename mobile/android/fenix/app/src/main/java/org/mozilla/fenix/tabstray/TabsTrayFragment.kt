@@ -1295,6 +1295,11 @@ listOf
 (
 TabsTrayTelemetryMiddleware
 (
+requireComponents
+.
+nimbus
+.
+events
 )
 )
 )
