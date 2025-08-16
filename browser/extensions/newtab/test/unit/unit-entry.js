@@ -2268,6 +2268,9 @@ newtabSmartShortcuts
 newtabWidgets
 "
 "
+newtabOhttpImages
+"
+"
 cookieBannerHandling
 "
 ]
