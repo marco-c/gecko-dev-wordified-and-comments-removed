@@ -2091,8 +2091,6 @@ dom
 webIdlBindings
 /
 index
-.
-md
 )
 .
 If
@@ -2290,8 +2288,6 @@ dom
 webIdlBindings
 /
 index
-.
-html
 )
 for
 help
