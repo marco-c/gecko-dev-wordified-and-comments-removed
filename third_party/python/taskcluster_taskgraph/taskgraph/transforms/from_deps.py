@@ -69,8 +69,8 @@ dedent
 from
 voluptuous
 import
-ALLOW_EXTRA
 Any
+Extra
 Optional
 Required
 from
@@ -227,9 +227,7 @@ lstrip
             
 )
 :
-[
-str
-]
+list
             
 Optional
 (
@@ -650,13 +648,24 @@ fetches_schema
 }
         
 }
+        
+Extra
+:
+object
     
 }
-    
-extra
-=
-ALLOW_EXTRA
 )
+"
+"
+"
+Schema
+for
+from_deps
+transforms
+.
+"
+"
+"
 transforms
 =
 TransformSequence

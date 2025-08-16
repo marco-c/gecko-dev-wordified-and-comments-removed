@@ -2200,8 +2200,6 @@ tasks
 )
         
 return
-{
-}
     
 endpoint
 =
