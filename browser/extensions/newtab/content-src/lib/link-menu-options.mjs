@@ -529,10 +529,8 @@ url
 site
 .
 url
-is_sponsored
+sponsored_tile_id
 :
-!
-!
 site
 .
 sponsored_tile_id

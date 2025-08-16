@@ -628,9 +628,6 @@ utm_campaign
 =
 utmCampaign
 "
-is_sponsored
-:
-undefined
 }
 }
 )
@@ -881,9 +878,6 @@ utm_campaign
 =
 utmCampaign
 "
-is_sponsored
-:
-undefined
 }
 }
 )
@@ -1135,9 +1129,6 @@ utm_campaign
 =
 utmCampaign
 "
-is_sponsored
-:
-undefined
 }
 }
 )
