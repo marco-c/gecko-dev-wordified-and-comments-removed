@@ -166,17 +166,6 @@ aInputString
 can_run_script
 ]
 void
-rebuildDocumentFromSource
-(
-in
-AString
-aSourceString
-)
-;
-[
-can_run_script
-]
-void
 insertElementAtSelection
 (
 in

@@ -44,13 +44,6 @@ xhtml
 ]
 [
 "
-test_bug780908
-.
-xhtml
-"
-]
-[
-"
 test_bug1397412
 .
 xhtml

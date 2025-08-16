@@ -3509,12 +3509,6 @@ EditSubAction
 :
 eNone
 :
-case
-EditSubAction
-:
-:
-eReplaceHeadWithHTMLSource
-:
 MOZ_ASSERT
 (
 aDirection

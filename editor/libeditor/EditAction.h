@@ -142,7 +142,6 @@ eSetCharacterSet
 eSetWrapWidth
 eRewrap
 eSetText
-eSetHTML
 eInsertHTML
 eHidePassword
 eCreatePaddingBRElementForEmptyEditor
@@ -188,7 +187,6 @@ eInsertQuotation
 eInsertQuotedText
 ePasteHTMLContent
 eInsertHTMLSource
-eReplaceHeadWithHTMLSource
 eSetPositionToAbsolute
 eSetPositionToStatic
 eDecreaseZIndex
@@ -1848,12 +1846,6 @@ EditAction
 :
 :
 eSetText
-:
-case
-EditAction
-:
-:
-eSetHTML
 :
 case
 EditAction
