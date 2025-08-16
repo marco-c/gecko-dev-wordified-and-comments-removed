@@ -886,6 +886,11 @@ ResetAccumulatedState
 (
 )
 ;
+void
+ResetCandidateBuiltChainState
+(
+)
+;
 CertVerifier
 :
 :
