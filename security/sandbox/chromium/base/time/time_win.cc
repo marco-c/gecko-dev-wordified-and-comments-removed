@@ -2053,6 +2053,13 @@ Clock
 WIN_ROLLOVER_PROTECTED_TIME_GET_TIME
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 namespace
 subtle
 {
@@ -2084,6 +2091,8 @@ unbiased_interrupt_time
 ;
 }
 }
+#
+endif
 namespace
 subtle
 {

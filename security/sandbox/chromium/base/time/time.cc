@@ -178,6 +178,13 @@ subtle
 TimeTicksNowIgnoringOverride
 }
 ;
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 std
 :
 :
@@ -194,6 +201,8 @@ subtle
 LiveTicksNowIgnoringOverride
 }
 ;
+#
+endif
 std
 :
 :
@@ -1264,6 +1273,13 @@ microseconds
 "
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 LiveTicks
 LiveTicks
 :
@@ -1289,6 +1305,8 @@ memory_order_relaxed
 )
 ;
 }
+#
+endif
 #
 if
 !

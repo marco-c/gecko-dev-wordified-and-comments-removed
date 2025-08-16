@@ -1904,7 +1904,7 @@ OS_LIBS
 =
 [
 "
-mincore
+userenv
 "
 "
 usp10

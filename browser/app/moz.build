@@ -703,6 +703,11 @@ user32
 dll
 "
 "
+userenv
+.
+dll
+"
+"
 usp10
 .
 dll
