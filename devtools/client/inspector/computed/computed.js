@@ -1229,7 +1229,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 {
 this

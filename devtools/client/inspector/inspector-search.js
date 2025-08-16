@@ -989,7 +989,7 @@ AutocompletePopup
 (
 inspector
 .
-_toolbox
+toolbox
 .
 doc
 options

@@ -337,9 +337,9 @@ ok
 !
 inspector
 .
-_toolbox
+toolbox
 .
-_splitConsole
+splitConsole
 "
 Console
 is
@@ -362,7 +362,7 @@ onSplit
 =
 inspector
 .
-_toolbox
+toolbox
 .
 once
 (
@@ -389,9 +389,9 @@ ok
 (
 inspector
 .
-_toolbox
+toolbox
 .
-_splitConsole
+splitConsole
 "
 Console
 is
