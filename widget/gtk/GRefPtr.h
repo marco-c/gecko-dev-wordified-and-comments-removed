@@ -225,6 +225,8 @@ GIcon
 )
 GOBJECT_TRAITS
 (
+:
+:
 GSettings
 )
 #
