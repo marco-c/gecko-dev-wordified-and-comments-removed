@@ -524,6 +524,8 @@ linux64
 -
 gcc
 -
+10
+-
 sixgill
 :
 description
@@ -599,7 +601,7 @@ fetch
 -
 gcc
 -
-9
+10
 .
 5
 .
@@ -643,4 +645,4 @@ linux64
 -
 gcc
 -
-9
+10
