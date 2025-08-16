@@ -3649,6 +3649,13 @@ useCases
 tabsUseCases
 .
 selectTab
+fenixBrowserUseCases
+=
+components
+.
+useCases
+.
+fenixBrowserUseCases
 topSitesUseCases
 =
 components

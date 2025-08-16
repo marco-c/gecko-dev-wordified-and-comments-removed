@@ -364,6 +364,13 @@ useCases
 tabsUseCases
 .
 selectTab
+fenixBrowserUseCases
+=
+requireComponents
+.
+useCases
+.
+fenixBrowserUseCases
 topSitesUseCases
 =
 requireComponents
