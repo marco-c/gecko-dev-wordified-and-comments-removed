@@ -297,6 +297,8 @@ help
 The
 tagged
 release
+or
+commit
 to
 upgrade
 to
@@ -317,32 +319,6 @@ tag
 [
 0
 ]
-    
-if
-not
-tag
-.
-startswith
-(
-"
-NSS_
-"
-)
-:
-        
-raise
-UserError
-(
-"
-Tag
-must
-start
-with
-'
-NSS_
-'
-"
-)
     
 result
 =
@@ -446,6 +422,17 @@ True
     
 )
     
+if
+tag
+.
+startswith
+(
+"
+NSS_
+"
+)
+:
+        
 with
 open
 (
@@ -465,7 +452,7 @@ w
 as
 f
 :
-        
+            
 f
 .
 write
