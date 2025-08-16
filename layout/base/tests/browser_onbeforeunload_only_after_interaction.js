@@ -362,7 +362,7 @@ content
 .
 document
 .
-userHasInteracted
+hasBeenUserGestureActivated
 ;
 }
 )
