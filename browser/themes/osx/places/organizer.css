@@ -189,6 +189,10 @@ appearance
 :
 toolbarbutton
 ;
+color
+:
+inherit
+;
 padding
 :
 3px
