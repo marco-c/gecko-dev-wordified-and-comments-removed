@@ -28377,7 +28377,7 @@ version
 .
 1
 .
-5
+7
 "
 source
 =
@@ -28405,7 +28405,7 @@ index
 checksum
 =
 "
-d0fabbdbe64b22820753da90995b3a73d02907eaeeac6f2414962a566aaa18ea
+77f2b11de4fec7f1e085891d4a4bf16a8b1beb49978837a80d4e9e705b99295c
 "
 dependencies
 =
@@ -36007,6 +36007,9 @@ pkcs11
 bindings
 "
 "
+sha2
+"
+"
 smallvec
 "
 ]
@@ -37710,6 +37713,9 @@ nom
 pkcs11
 -
 bindings
+"
+"
+sha2
 "
 "
 smallvec
