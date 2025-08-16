@@ -1151,7 +1151,6 @@ FinishLoadingImportedModule
 (
 cx
 referrer
-referencingPrivate
 moduleRequest
 payload
 module
@@ -1925,7 +1924,6 @@ FinishLoadingImportedModule
 (
 cx
 nullptr
-referencingPrivate
 moduleRequest
 payload
 module
