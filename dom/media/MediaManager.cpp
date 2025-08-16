@@ -16741,6 +16741,7 @@ principalInfo
 aCallerType
 resistFingerprinting
 audioType
+forceFakes
 ]
 (
 RefPtr
@@ -17089,6 +17090,14 @@ focusSource
 &
 ]
 {
+if
+(
+forceFakes
+)
+{
+return
+;
+}
 if
 (
 audioType
