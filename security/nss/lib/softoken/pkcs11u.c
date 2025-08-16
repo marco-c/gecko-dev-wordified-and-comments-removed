@@ -3062,6 +3062,9 @@ case
 CKA_COEFFICIENT
 :
 case
+CKA_SEED
+:
+case
 CKA_VALUE_LEN
 :
 case
@@ -3251,6 +3254,9 @@ CKA_EXPONENT_2
 :
 case
 CKA_COEFFICIENT
+:
+case
+CKA_SEED
 :
 return
 PR_TRUE

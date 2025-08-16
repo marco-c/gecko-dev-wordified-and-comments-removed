@@ -240,6 +240,9 @@ case
 CKA_VALUE
 :
 case
+CKA_SEED
+:
+case
 CKA_PRIVATE_EXPONENT
 :
 case
