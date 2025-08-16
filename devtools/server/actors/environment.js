@@ -384,6 +384,17 @@ of
 parameterNames
 )
 {
+if
+(
+name
+=
+=
+undefined
+)
+{
+continue
+;
+}
 const
 arg
 =
