@@ -929,7 +929,7 @@ ok
 (
 dispatch
 .
-calledOnce
+calledTwice
 )
 ;
 const
@@ -1131,7 +1131,7 @@ ok
 (
 dispatch
 .
-calledOnce
+calledTwice
 "
 Expected
 dispatch
@@ -1445,7 +1445,7 @@ ok
 (
 dispatch
 .
-calledTwice
+calledThrice
 )
 ;
 assert
@@ -1616,7 +1616,7 @@ ok
 (
 dispatch
 .
-calledOnce
+calledTwice
 )
 ;
 const
@@ -1741,7 +1741,7 @@ ok
 (
 dispatch
 .
-calledTwice
+calledThrice
 )
 ;
 assert
