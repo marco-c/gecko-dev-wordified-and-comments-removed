@@ -499,7 +499,7 @@ x
 )
 (
 (
-CK_FUNCTION_LIST_3_0_PTR
+CK_FUNCTION_LIST_3_2_PTR
 )
 (
 (

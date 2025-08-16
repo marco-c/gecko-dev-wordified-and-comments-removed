@@ -1,0 +1,9 @@
+[
+libfuzzer
+]
+len_control
+=
+100
+max_len
+=
+327680

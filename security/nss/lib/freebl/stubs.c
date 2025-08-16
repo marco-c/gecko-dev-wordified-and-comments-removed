@@ -2439,7 +2439,7 @@ errno
 }
 extern
 void
-PORT_SafeZero
+PORT_SafeZero_stub
 (
 void
 *
