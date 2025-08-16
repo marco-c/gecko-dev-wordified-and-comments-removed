@@ -257,7 +257,7 @@ browser
 /
 performance
 /
-browser
+perftest
 .
 toml
 "
