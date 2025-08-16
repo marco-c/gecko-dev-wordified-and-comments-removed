@@ -2837,11 +2837,11 @@ access
 index
 of
 {
+other
 :
 ?
 }
 "
-other
 )
 ;
 return
@@ -10645,11 +10645,11 @@ error
 As
 source
 {
+other
 :
 ?
 }
 "
-other
 )
 ;
 return

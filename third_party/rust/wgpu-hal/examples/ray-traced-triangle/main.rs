@@ -1629,12 +1629,12 @@ Surface
 caps
 :
 {
+surface_caps
 :
 #
 ?
 }
 "
-surface_caps
 )
 ;
 let
@@ -3668,6 +3668,11 @@ acceleration_structures
 [
 &
 tlas
+]
+external_textures
+:
+&
+[
 ]
 entries
 :

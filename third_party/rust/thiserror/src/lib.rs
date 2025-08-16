@@ -25,7 +25,7 @@ thiserror
 .
 0
 .
-9
+12
 "
 )
 ]
@@ -34,6 +34,10 @@ thiserror
 [
 allow
 (
+clippy
+:
+:
+elidable_lifetime_names
 clippy
 :
 :

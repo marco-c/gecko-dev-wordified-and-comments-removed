@@ -74,6 +74,7 @@ global
 :
 :
 Global
+hal_label
 id
 :
 :
@@ -189,7 +190,7 @@ require_features
 Features
 :
 :
-EXPERIMENTAL_RAY_TRACING_ACCELERATION_STRUCTURE
+EXPERIMENTAL_RAY_QUERY
 )
 ?
 ;
@@ -957,7 +958,7 @@ require_features
 Features
 :
 :
-EXPERIMENTAL_RAY_TRACING_ACCELERATION_STRUCTURE
+EXPERIMENTAL_RAY_QUERY
 )
 ?
 ;
@@ -1216,6 +1217,8 @@ BufferDescriptor
 {
 label
 :
+hal_label
+(
 Some
 (
 "
@@ -1226,6 +1229,10 @@ core
 )
 instances_buffer
 "
+)
+self
+.
+instance_flags
 )
 size
 :

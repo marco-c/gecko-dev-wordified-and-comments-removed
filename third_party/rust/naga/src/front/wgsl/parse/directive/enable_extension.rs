@@ -338,6 +338,8 @@ Span
 >
 Result
 <
+'
+_
 Self
 >
 {

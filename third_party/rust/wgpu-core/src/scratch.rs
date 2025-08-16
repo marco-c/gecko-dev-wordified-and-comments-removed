@@ -44,7 +44,10 @@ use
 crate
 :
 :
+{
+hal_label
 resource_log
+}
 ;
 #
 [
@@ -130,6 +133,8 @@ BufferDescriptor
 {
 label
 :
+hal_label
+(
 Some
 (
 "
@@ -139,6 +144,10 @@ wgpu
 scratch
 buffer
 "
+)
+device
+.
+instance_flags
 )
 size
 :

@@ -255,6 +255,16 @@ offset
 limit
 )
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+sliced_string_as_bytes
+)
+]
 words
 .
 push

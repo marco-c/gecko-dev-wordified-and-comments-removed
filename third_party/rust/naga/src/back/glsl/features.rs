@@ -2535,6 +2535,11 @@ multi
 :
 false
 }
+|
+ImageClass
+:
+:
+External
 =
 >
 {

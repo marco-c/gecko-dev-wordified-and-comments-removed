@@ -587,11 +587,6 @@ spv
 -
 in
 "
-"
-dep
-:
-bytemuck
-"
 ]
 static
 -
@@ -648,11 +643,6 @@ wgpu
 types
 /
 trace
-"
-"
-dep
-:
-bytemuck
 "
 ]
 vulkan
@@ -834,9 +824,6 @@ extern_crate_alloc
 min_const_generics
 "
 ]
-optional
-=
-true
 [
 dependencies
 .
@@ -1096,7 +1083,9 @@ version
 "
 1
 .
-9
+13
+.
+1
 "
 [
 dependencies
@@ -1110,7 +1099,7 @@ version
 .
 0
 .
-3
+11
 "
 default
 -

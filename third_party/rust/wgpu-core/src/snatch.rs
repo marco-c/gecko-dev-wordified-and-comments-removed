@@ -780,6 +780,10 @@ self
 -
 >
 SnatchGuard
+<
+'
+_
+>
 {
 LockTrace
 :
@@ -816,6 +820,10 @@ self
 -
 >
 ExclusiveSnatchGuard
+<
+'
+_
+>
 {
 LockTrace
 :

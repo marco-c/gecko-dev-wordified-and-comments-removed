@@ -474,6 +474,7 @@ renderdoc
 library
 '
 {
+renderdoc_filename
 }
 '
 :
@@ -483,7 +484,6 @@ e
 ?
 }
 "
-renderdoc_filename
 )
 }
 }
@@ -571,14 +571,14 @@ renderdoc
 library
 '
 {
+renderdoc_filename
 }
 '
 :
 {
+return_value
 }
 "
-renderdoc_filename
-return_value
 )
 }
 }
@@ -736,9 +736,9 @@ frame
 capture
 :
 {
+reason
 }
 "
-reason
 )
 ;
 false
@@ -821,9 +821,9 @@ frame
 capture
 :
 {
+reason
 }
 "
-reason
 )
 }
 }

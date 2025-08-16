@@ -235,6 +235,8 @@ RawId
 aTextureId
 RawId
 aCommandEncoderId
+RawId
+aCommandBufferId
 const
 layers
 :
@@ -311,6 +313,10 @@ const
 RawId
 &
 aCommandEncoderId
+const
+RawId
+&
+aCommandBufferId
 Maybe
 <
 Shmem

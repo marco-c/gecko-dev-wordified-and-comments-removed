@@ -3939,6 +3939,10 @@ proc
 :
 :
 GlobalCtx
+<
+'
+_
+>
 {
 crate
 :
@@ -4556,11 +4560,11 @@ trace
 try_eval_and_append
 :
 {
+expr
 :
 ?
 }
 "
-expr
 )
 ;
 match

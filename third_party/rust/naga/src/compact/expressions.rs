@@ -250,11 +250,11 @@ tracing
 new
 expression
 {
+expr
 :
 ?
 }
 "
-expr
 )
 ;
 self

@@ -602,11 +602,11 @@ allocate
 descriptors
 :
 {
+err
 :
 ?
 }
 "
-err
 )
 ;
 crate

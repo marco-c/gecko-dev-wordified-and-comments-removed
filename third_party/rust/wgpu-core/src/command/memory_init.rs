@@ -171,6 +171,8 @@ self
 >
 Drain
 <
+'
+_
 TextureInitTrackerAction
 >
 {
@@ -583,6 +585,9 @@ as_ref
 (
 )
 snatch_guard
+device
+.
+instance_flags
 )
 .
 unwrap
@@ -1427,6 +1432,9 @@ as_ref
 (
 )
 snatch_guard
+device
+.
+instance_flags
 )
 ;
 if

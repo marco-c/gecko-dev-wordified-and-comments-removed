@@ -1090,12 +1090,12 @@ Sampler
 description
 :
 {
+desc
 :
 #
 ?
 }
 "
-desc
 )
 ;
 return

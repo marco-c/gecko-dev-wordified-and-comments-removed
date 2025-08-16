@@ -111,6 +111,8 @@ self
 >
 MutexGuard
 <
+'
+_
 T
 >
 {
@@ -395,6 +397,8 @@ self
 >
 RwLockReadGuard
 <
+'
+_
 T
 >
 {
@@ -420,6 +424,8 @@ self
 >
 RwLockWriteGuard
 <
+'
+_
 T
 >
 {

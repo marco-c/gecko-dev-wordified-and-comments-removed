@@ -553,9 +553,9 @@ log
 level
 "
 {
+message
 }
 "
-message
 )
 ;
 }

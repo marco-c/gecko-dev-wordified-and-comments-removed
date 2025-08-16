@@ -1094,12 +1094,10 @@ map
 |
 string
 |
-(
 AsciiUniCase
 (
 *
 string
-)
 )
 )
 )

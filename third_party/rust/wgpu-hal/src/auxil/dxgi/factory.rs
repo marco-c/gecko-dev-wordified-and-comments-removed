@@ -512,9 +512,9 @@ enumerating
 adapters
 :
 {
+e
 }
 "
-e
 )
 ;
 break

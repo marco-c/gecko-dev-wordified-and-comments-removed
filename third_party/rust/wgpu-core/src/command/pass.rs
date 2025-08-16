@@ -46,7 +46,7 @@ command
 :
 :
 {
-CommandBuffer
+CommandEncoder
 QueryResetMap
 QueryUseError
 }
@@ -379,7 +379,7 @@ scope
 '
 snatch_guard
 '
-cmd_buf
+cmd_enc
 '
 raw_encoder
 >
@@ -392,7 +392,7 @@ device
 :
 &
 '
-cmd_buf
+cmd_enc
 Arc
 <
 Device
@@ -420,7 +420,7 @@ tracker
 :
 &
 '
-cmd_buf
+cmd_enc
 mut
 Tracker
 pub
@@ -431,7 +431,7 @@ buffer_memory_init_actions
 :
 &
 '
-cmd_buf
+cmd_enc
 mut
 Vec
 <
@@ -445,7 +445,7 @@ texture_memory_actions
 :
 &
 '
-cmd_buf
+cmd_enc
 mut
 CommandBufferTextureMemoryActions
 pub
@@ -456,7 +456,7 @@ as_actions
 :
 &
 '
-cmd_buf
+cmd_enc
 mut
 Vec
 <
@@ -548,10 +548,10 @@ state
 &
 mut
 BaseState
-cmd_buf
+cmd_enc
 :
 &
-CommandBuffer
+CommandEncoder
 dynamic_offsets
 :
 &
@@ -781,7 +781,7 @@ bind_group
 .
 same_device_as
 (
-cmd_buf
+cmd_enc
 )
 ?
 ;
@@ -1555,10 +1555,10 @@ state
 &
 mut
 BaseState
-cmd_buf
+cmd_enc
 :
 &
-CommandBuffer
+CommandEncoder
 pending_query_resets
 :
 Option
@@ -1628,7 +1628,7 @@ query_set
 .
 same_device_as
 (
-cmd_buf
+cmd_enc
 )
 ?
 ;

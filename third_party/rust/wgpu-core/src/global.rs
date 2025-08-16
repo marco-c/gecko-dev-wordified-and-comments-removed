@@ -26,10 +26,6 @@ crate
 :
 :
 {
-hal_api
-:
-:
-HalApi
 hub
 :
 :
@@ -217,7 +213,10 @@ from_hal_instance
 <
 A
 :
-HalApi
+hal
+:
+:
+Api
 >
 (
 name
@@ -295,7 +294,10 @@ instance_as_hal
 <
 A
 :
-HalApi
+hal
+:
+:
+Api
 >
 (
 &

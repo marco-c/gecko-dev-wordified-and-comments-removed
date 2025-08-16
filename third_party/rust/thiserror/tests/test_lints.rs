@@ -155,6 +155,10 @@ deny
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 needless_lifetimes
 )
 ]

@@ -1,3 +1,15 @@
+#
+!
+[
+cfg
+(
+feature
+=
+"
+std
+"
+)
+]
 use
 core
 :

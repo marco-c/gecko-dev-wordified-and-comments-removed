@@ -1438,6 +1438,10 @@ unused_qualifications
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 needless_lifetimes
 )
 ]
@@ -3452,6 +3456,10 @@ allow
 (
 deprecated
 unused_qualifications
+clippy
+:
+:
+elidable_lifetime_names
 clippy
 :
 :
