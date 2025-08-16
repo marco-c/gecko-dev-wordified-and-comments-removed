@@ -816,13 +816,6 @@ AllowGLNorm16Textures
 bool
 false
 )
-\
-_
-(
-AllowWebGPUExternalTexture
-bool
-false
-)
 class
 gfxVars
 final
