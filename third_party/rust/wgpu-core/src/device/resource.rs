@@ -20032,7 +20032,7 @@ pipeline
 CreateRenderPipelineError
 :
 :
-TooManyVertexAttributes
+VertexAttributeLocationTooLarge
 {
 given
 :

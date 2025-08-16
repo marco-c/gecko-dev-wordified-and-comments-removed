@@ -76,7 +76,13 @@ use
 crate
 :
 :
+{
+error
+:
+:
+replace_control_chars
 SourceLocation
+}
 ;
 use
 crate
@@ -1027,7 +1033,10 @@ SimpleFile
 new
 (
 path
+replace_control_chars
+(
 source
+)
 )
 ;
 let

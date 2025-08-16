@@ -6136,6 +6136,14 @@ TextureFormat
 :
 :
 NV12
+|
+wgt
+:
+:
+TextureFormat
+:
+:
+P010
 =
 >
 Self

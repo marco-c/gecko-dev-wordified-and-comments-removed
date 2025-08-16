@@ -55,7 +55,10 @@ Handle
 error
 :
 :
+{
+replace_control_chars
 ErrorWrite
+}
 front
 :
 :
@@ -1484,7 +1487,10 @@ SimpleFile
 new
 (
 path
+replace_control_chars
+(
 source
+)
 )
 ;
 let

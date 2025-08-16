@@ -23,6 +23,15 @@ use
 crate
 :
 :
+error
+:
+:
+replace_control_chars
+;
+use
+crate
+:
+:
 proc
 :
 :
@@ -511,7 +520,10 @@ SimpleFile
 new
 (
 path
+replace_control_chars
+(
 source
+)
 )
 ;
 let
@@ -709,7 +721,10 @@ SimpleFile
 new
 (
 path
+replace_control_chars
+(
 source
+)
 )
 ;
 let

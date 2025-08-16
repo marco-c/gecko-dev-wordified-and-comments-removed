@@ -408,7 +408,7 @@ wgpu
 ?
 rev
 =
-1bf1671ed877a6a9ccf5f1a349ec167cd28af3d7
+54be6a2b5b780e356976ef7e30d00244f2bad651
 "
 ]
 git
@@ -431,7 +431,7 @@ wgpu
 rev
 =
 "
-1bf1671ed877a6a9ccf5f1a349ec167cd28af3d7
+54be6a2b5b780e356976ef7e30d00244f2bad651
 "
 replace
 -
