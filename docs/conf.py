@@ -675,6 +675,12 @@ toolkit
 components
 /
 search
+/
+SearchService
+.
+sys
+.
+mjs
 "
     
 "
