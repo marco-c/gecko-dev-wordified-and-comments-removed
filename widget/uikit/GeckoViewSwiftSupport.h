@@ -250,7 +250,8 @@ id
 SwiftEventDispatcher
 >
 aDispatcher
-id
+NSDictionary
+*
 aInitData
 bool
 aPrivateMode
