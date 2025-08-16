@@ -25,7 +25,10 @@ crate
 properties
 :
 :
+{
 ComputedValues
+NonCustomPropertyId
+}
 ;
 use
 crate
@@ -164,6 +167,10 @@ ResolvedElementInfo
 '
 a
 >
+pub
+for_property
+:
+NonCustomPropertyId
 }
 pub
 trait
