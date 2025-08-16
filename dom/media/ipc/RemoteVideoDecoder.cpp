@@ -987,6 +987,7 @@ WrapperSet
 )
 mMediaEngineId
 mTrackingId
+mCDM
 }
 ;
 mParent
