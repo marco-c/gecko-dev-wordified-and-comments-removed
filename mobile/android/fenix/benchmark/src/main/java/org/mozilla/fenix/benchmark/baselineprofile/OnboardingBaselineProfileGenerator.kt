@@ -466,17 +466,6 @@ device
 completeOnboarding
 (
 )
-pressHome
-(
-)
-device
-.
-clearPackageData
-(
-packageName
-=
-packageName
-)
 }
 }
 }
