@@ -1341,10 +1341,6 @@ Callback
 to
 remove
 collection
-with
-undo
-snack
-bar
 .
 *
 /
