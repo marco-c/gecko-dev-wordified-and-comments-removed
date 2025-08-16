@@ -1664,12 +1664,6 @@ const
 ;
 #
 endif
-uint32_t
-num_relayed_attachments
-(
-)
-const
-;
 #
 ifdef
 FUZZING_SNAPSHOT
