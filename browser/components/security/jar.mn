@@ -1,0 +1,13 @@
+browser
+.
+jar
+:
+content
+/
+browser
+/
+security
+/
+unexpectedScriptLoadDialog
+.
+xhtml
