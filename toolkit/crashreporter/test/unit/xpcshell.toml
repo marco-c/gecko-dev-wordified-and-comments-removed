@@ -972,6 +972,13 @@ parallel
 "
 [
 "
+test_crashreporter_omnijar_loading
+.
+js
+"
+]
+[
+"
 test_event_files
 .
 js
