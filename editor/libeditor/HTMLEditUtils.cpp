@@ -3176,6 +3176,7 @@ HTMLEditUtils
 :
 IsAnyTableElementButNotTable
 (
+const
 nsINode
 *
 aNode
