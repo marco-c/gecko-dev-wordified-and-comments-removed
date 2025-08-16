@@ -15,7 +15,8 @@ commands
 {
 this
 .
-_inspector
+#
+inspector
 =
 new
 iframeWindow
@@ -27,6 +28,9 @@ commands
 )
 ;
 }
+#
+inspector
+;
 open
 (
 options
@@ -38,7 +42,8 @@ options
 return
 this
 .
-_inspector
+#
+inspector
 .
 init
 (
@@ -52,7 +57,8 @@ destroy
 {
 this
 .
-_inspector
+#
+inspector
 .
 destroy
 (
