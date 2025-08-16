@@ -4225,11 +4225,9 @@ EndIf
 }
 !
 ifdef
-DESKTOP_LAUNCHER_APP
+DESKTOP_LAUNCHER_ENABLED
 Call
 InstallDesktopLauncherApp
-Call
-DeleteDesktopShortcuts
 !
 else
 {
