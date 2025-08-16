@@ -1042,13 +1042,6 @@ return
 mPresContext
 ;
 }
-PresShell
-*
-GetRootPresShell
-(
-)
-const
-;
 nsViewManager
 *
 GetViewManager
@@ -6977,6 +6970,13 @@ Element
 sLastKeyDownEventTargetElement
 ;
 }
+;
+PresShell
+*
+GetRootPresShell
+(
+)
+const
 ;
 bool
 IsTransparentContainerElement
