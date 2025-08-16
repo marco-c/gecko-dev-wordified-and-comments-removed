@@ -396,6 +396,17 @@ Init
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+WMFAudioMFTManager
+:
+:
+Init
+"
+MEDIA_PLAYBACK
+)
+;
 NS_ENSURE_TRUE
 (
 StreamTypeIsAudio
