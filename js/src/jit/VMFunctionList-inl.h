@@ -3720,6 +3720,15 @@ TypedArraySet
 \
 _
 (
+TypedArraySetFromSubarray
+js
+:
+:
+TypedArraySetFromSubarray
+)
+\
+_
+(
 TypedArraySubarray
 js
 :
