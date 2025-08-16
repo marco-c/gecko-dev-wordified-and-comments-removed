@@ -965,6 +965,11 @@ json
 globalHistoryOptions
 =
 {
+triggeringSource
+:
+"
+newtab
+"
 triggeringSponsoredURL
 :
 href
