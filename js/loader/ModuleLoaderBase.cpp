@@ -1305,7 +1305,7 @@ false
 }
 JS_SetPendingException
 (
-cx
+aCx
 error
 )
 ;
