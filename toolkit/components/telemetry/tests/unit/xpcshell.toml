@@ -839,6 +839,10 @@ win
 &
 !
 msix
+&
+&
+!
+artifact
 )
 "
 ]
@@ -865,6 +869,13 @@ cgi
 id
 =
 1807929
+disabled
+for
+artifact
+for
+bug
+1982870
+.
 [
 "
 test_UninstallPing
