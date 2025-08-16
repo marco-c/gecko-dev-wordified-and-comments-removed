@@ -23223,6 +23223,9 @@ unexpected
 isPrint
 =
 false
+cacheScreenshots
+=
+true
 }
 =
 cmd
@@ -23301,6 +23304,7 @@ setup
 urlCount
 screenshot
 isPrint
+cacheScreenshots
 )
 ;
 }

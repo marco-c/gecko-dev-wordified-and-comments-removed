@@ -589,6 +589,12 @@ AppInfo
 .
 fissionAutostart
 ;
+this
+.
+cacheScreenshots
+=
+true
+;
 }
 /
 *
@@ -695,6 +701,9 @@ screenshotMode
 isPrint
 =
 false
+cacheScreenshots
+=
+true
 )
 {
 this
@@ -800,6 +809,12 @@ loadPdfJs
 )
 ;
 }
+this
+.
+cacheScreenshots
+=
+cacheScreenshots
+;
 ChromeUtils
 .
 registerWindowActor
@@ -4613,6 +4628,11 @@ url
 let
 cache
 =
+this
+.
+cacheScreenshots
+&
+&
 remainingCount
 >
 1
