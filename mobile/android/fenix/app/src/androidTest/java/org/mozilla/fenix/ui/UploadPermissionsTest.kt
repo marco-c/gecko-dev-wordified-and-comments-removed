@@ -206,10 +206,9 @@ val
 activityTestRule
 =
 HomeActivityIntentTestRule
+.
+withDefaultSettingsOverrides
 (
-isTermsOfServiceAccepted
-=
-true
 )
 get
 :

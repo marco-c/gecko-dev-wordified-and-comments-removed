@@ -2920,6 +2920,17 @@ Boolean
 default
 :
 false
+defaults
+:
+-
+channel
+:
+developer
+value
+:
+enabled
+:
+true
 remote
 -
 tab
