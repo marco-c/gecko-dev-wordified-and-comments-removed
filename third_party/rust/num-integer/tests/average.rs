@@ -1,11 +1,3 @@
-extern
-crate
-num_integer
-;
-extern
-crate
-num_traits
-;
 macro_rules
 !
 test_average
@@ -83,9 +75,6 @@ I
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -193,9 +182,6 @@ I
 let
 min
 =
-crate
-:
-:
 std
 :
 :
@@ -207,9 +193,6 @@ MIN
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -294,9 +277,6 @@ I
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -404,9 +384,6 @@ I
 let
 min
 =
-crate
-:
-:
 std
 :
 :
@@ -418,9 +395,6 @@ MIN
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -520,9 +494,6 @@ overflow
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -648,9 +619,6 @@ overflow
 let
 max
 =
-crate
-:
-:
 std
 :
 :
@@ -739,13 +707,6 @@ i64
 u64
 )
 ;
-#
-[
-cfg
-(
-has_i128
-)
-]
 test_average
 !
 (

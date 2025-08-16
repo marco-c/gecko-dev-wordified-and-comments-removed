@@ -1,4 +1,10 @@
 use
+crate
+:
+:
+Integer
+;
+use
 core
 :
 :
@@ -11,9 +17,6 @@ BitOr
 BitXor
 Shr
 }
-;
-use
-Integer
 ;
 pub
 trait

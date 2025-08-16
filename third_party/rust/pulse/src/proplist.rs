@@ -1,7 +1,4 @@
 use
-ffi
-;
-use
 std
 :
 :
@@ -158,10 +155,8 @@ pa_proplist
 >
 Proplist
 {
-return
 Proplist
 (
 raw
 )
-;
 }

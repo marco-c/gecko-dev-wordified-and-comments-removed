@@ -97,6 +97,11 @@ contents
 [
 package
 ]
+edition
+=
+"
+2021
+"
 name
 =
 "

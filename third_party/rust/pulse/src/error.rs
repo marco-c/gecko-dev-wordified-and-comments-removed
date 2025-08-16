@@ -1,7 +1,4 @@
 use
-ffi
-;
-use
 std
 :
 :
@@ -138,8 +135,6 @@ err
 ;
 ErrorCode
 {
-err
-:
 err
 }
 }

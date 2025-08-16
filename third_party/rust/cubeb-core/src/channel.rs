@@ -20,9 +20,6 @@ ffi
 :
 cubeb_channel_layout
 {
-/
-/
-/
 const
 FRONT_LEFT
 =

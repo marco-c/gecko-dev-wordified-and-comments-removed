@@ -1,6 +1,3 @@
-use
-ffi
-;
 #
 [
 derive
@@ -23,6 +20,16 @@ pa_operation
 impl
 Operation
 {
+#
+[
+allow
+(
+clippy
+:
+:
+missing_safety_doc
+)
+]
 pub
 unsafe
 fn

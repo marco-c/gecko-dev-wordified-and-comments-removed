@@ -919,9 +919,7 @@ Err
 Error
 :
 :
-error
-(
-)
+Error
 )
 ;
 }
@@ -1181,8 +1179,6 @@ stream
 }
 impl
 <
-'
-a
 F
 >
 Default
@@ -1190,7 +1186,7 @@ for
 StreamBuilder
 <
 '
-a
+_
 F
 >
 {

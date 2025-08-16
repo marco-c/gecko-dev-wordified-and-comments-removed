@@ -42,7 +42,6 @@ DeviceRef
 DeviceState
 DeviceType
 Error
-ErrorCode
 LogLevel
 Result
 SampleFormat

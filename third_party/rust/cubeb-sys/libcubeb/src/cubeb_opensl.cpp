@@ -13,13 +13,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 dlfcn
 .
 h
@@ -37,6 +30,11 @@ include
 math
 .
 h
+>
+#
+include
+<
+memory
 >
 #
 include
@@ -511,7 +509,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 (
 r
@@ -592,7 +590,7 @@ d
 r
 )
 ;
-assert
+XASSERT
 (
 (
 r
@@ -626,7 +624,7 @@ not
 ;
 #
 endif
-assert
+XASSERT
 (
 value
 =
@@ -657,7 +655,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -674,7 +672,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -701,7 +699,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -752,7 +750,7 @@ opensl_stop_player
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -776,7 +774,7 @@ opensl_stop_recorder
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -811,7 +809,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 (
 r
@@ -892,7 +890,7 @@ d
 r
 )
 ;
-assert
+XASSERT
 (
 (
 r
@@ -926,7 +924,7 @@ not
 ;
 #
 endif
-assert
+XASSERT
 (
 value
 =
@@ -974,7 +972,7 @@ cubeb_stream
 user_ptr
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -1026,7 +1024,7 @@ cubeb_stream
 pContext
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -1051,7 +1049,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1078,7 +1076,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1119,7 +1117,7 @@ opensl_stop_recorder
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1143,7 +1141,7 @@ opensl_stop_player
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1361,7 +1359,7 @@ cubeb_stream
 user_ptr
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -1398,7 +1396,7 @@ bufq
 state
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -1476,7 +1474,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1511,7 +1509,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1633,7 +1631,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1658,7 +1656,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1688,7 +1686,7 @@ return
 ;
 }
 }
-assert
+XASSERT
 (
 static_cast
 <
@@ -1765,7 +1763,7 @@ stm
 queuebuf_len
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -1870,7 +1868,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1918,7 +1916,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1981,7 +1979,7 @@ void
 last_filled_buffer
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -2254,7 +2252,7 @@ void
 context
 )
 {
-assert
+XASSERT
 (
 context
 )
@@ -2272,7 +2270,7 @@ cubeb_stream
 context
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -2292,7 +2290,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2327,7 +2325,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2351,7 +2349,7 @@ stm
 nullptr
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2377,7 +2375,7 @@ stm
 input_buffer
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2385,7 +2383,7 @@ r
 CUBEB_OK
 )
 ;
-assert
+XASSERT
 (
 input_buffer
 )
@@ -2464,7 +2462,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2489,7 +2487,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2504,7 +2502,7 @@ opensl_stop_recorder
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2552,7 +2550,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2577,7 +2575,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2638,7 +2636,7 @@ void
 context
 )
 {
-assert
+XASSERT
 (
 context
 )
@@ -2656,7 +2654,7 @@ cubeb_stream
 context
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -2676,7 +2674,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2711,7 +2709,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2752,7 +2750,7 @@ stm
 nullptr
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2778,7 +2776,7 @@ stm
 input_buffer
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2786,12 +2784,12 @@ r
 CUBEB_OK
 )
 ;
-assert
+XASSERT
 (
 input_buffer
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -2884,7 +2882,7 @@ cubeb_stream
 user_ptr
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -2904,7 +2902,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2939,7 +2937,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2964,7 +2962,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3021,7 +3019,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3082,7 +3080,7 @@ stm
 queuebuf_len
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -3289,7 +3287,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3314,7 +3312,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3379,7 +3377,7 @@ stm
 queuebuf_len
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -3401,7 +3399,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3428,7 +3426,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3454,7 +3452,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3502,7 +3500,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -3584,7 +3582,7 @@ stm
 queuebuf_len
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -3939,7 +3937,7 @@ ctx
 )
 )
 ;
-assert
+XASSERT
 (
 ctx
 )
@@ -4691,7 +4689,7 @@ uint32_t
 max_channels
 )
 {
-assert
+XASSERT
 (
 ctx
 &
@@ -4835,12 +4833,12 @@ cubeb_stream_params
 params
 )
 {
-assert
+XASSERT
 (
 format
 )
 ;
-assert
+XASSERT
 (
 params
 )
@@ -5057,12 +5055,12 @@ cubeb_stream_params
 params
 )
 {
-assert
+XASSERT
 (
 format
 )
 ;
-assert
+XASSERT
 (
 params
 )
@@ -5169,7 +5167,7 @@ break
 ;
 default
 :
-assert
+XASSERT
 (
 false
 &
@@ -5366,12 +5364,12 @@ cubeb_stream_params
 params
 )
 {
-assert
+XASSERT
 (
 stm
 )
 ;
-assert
+XASSERT
 (
 params
 )
@@ -6513,7 +6511,7 @@ stm
 input_array_capacity
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -6535,7 +6533,7 @@ stm
 input_buffer_length
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -6591,12 +6589,12 @@ cubeb_stream_params
 params
 )
 {
-assert
+XASSERT
 (
 stm
 )
 ;
-assert
+XASSERT
 (
 params
 )
@@ -6803,7 +6801,7 @@ SL_BOOLEAN_TRUE
 ;
 #
 endif
-assert
+XASSERT
 (
 NELEMS
 (
@@ -7210,7 +7208,7 @@ stm
 queuebuf_len
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -8125,7 +8123,7 @@ stm
 framesize
 )
 ;
-assert
+XASSERT
 (
 res
 =
@@ -8309,7 +8307,7 @@ cubeb_async_log_reset_threads
 (
 )
 ;
-assert
+XASSERT
 (
 ctx
 )
@@ -8429,7 +8427,7 @@ stm
 )
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -8666,7 +8664,7 @@ nullptr
 ;
 #
 endif
-assert
+XASSERT
 (
 r
 =
@@ -8868,7 +8866,7 @@ rate
 }
 else
 {
-assert
+XASSERT
 (
 output_stream_params
 )
@@ -9015,7 +9013,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 -
@@ -9117,7 +9115,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 -
@@ -9219,7 +9217,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -9236,7 +9234,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -9267,7 +9265,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -9372,7 +9370,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 -
@@ -9380,7 +9378,7 @@ stm
 playerObj
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -9457,7 +9455,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 -
@@ -9465,7 +9463,7 @@ stm
 recorderObj
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -9542,7 +9540,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -9559,7 +9557,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -9584,7 +9582,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -9689,12 +9687,12 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -9869,7 +9867,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 -
@@ -9998,7 +9996,7 @@ opensl_destroy_recorder
 stm
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -10195,6 +10193,37 @@ stm
 >
 output_latency_ms
 ;
+XASSERT
+(
+stm
+-
+>
+written
+>
+=
+0
+)
+;
+XASSERT
+(
+stm
+-
+>
+user_output_rate
+>
+0
+)
+;
+XASSERT
+(
+stm
+-
+>
+output_configured_rate
+>
+0
+)
+;
 pthread_mutex_lock
 (
 &
@@ -10234,7 +10263,7 @@ stm
 mutex
 )
 ;
-assert
+XASSERT
 (
 maximum_position
 >
@@ -10342,12 +10371,12 @@ uint32_t
 latency
 )
 {
-assert
+XASSERT
 (
 stm
 )
 ;
-assert
+XASSERT
 (
 latency
 )

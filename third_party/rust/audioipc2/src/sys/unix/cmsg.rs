@@ -74,8 +74,6 @@ u8
 }
 impl
 <
-'
-a
 T
 :
 Sized
@@ -83,8 +81,6 @@ Sized
 AsBytes
 for
 &
-'
-a
 [
 T
 ]
@@ -582,17 +578,17 @@ Skipping
 cmsg
 level
 {
+level
 }
 type
 =
 {
+kind
 }
 .
 .
 .
 "
-level
-kind
 )
 ;
 }
