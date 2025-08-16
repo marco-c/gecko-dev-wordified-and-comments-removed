@@ -953,7 +953,7 @@ set_timerslack
 (
 ns
 :
-u64
+c_ulong
 )
 -
 >

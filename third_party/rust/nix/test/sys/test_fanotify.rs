@@ -17,6 +17,15 @@ use
 nix
 :
 :
+fcntl
+:
+:
+AT_FDCWD
+;
+use
+nix
+:
+:
 sys
 :
 :
@@ -224,7 +233,7 @@ MaskFlags
 :
 :
 FAN_CLOSE
-None
+AT_FDCWD
 Some
 (
 &
@@ -693,7 +702,7 @@ MaskFlags
 :
 :
 FAN_OPEN_PERM
-None
+AT_FDCWD
 Some
 (
 &
@@ -1253,7 +1262,7 @@ MaskFlags
 :
 :
 FAN_OPEN
-None
+AT_FDCWD
 Some
 (
 &
