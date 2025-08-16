@@ -358,6 +358,16 @@ WebCodecs
 number
 ;
 let
+MaxTouchPoints
+:
+number
+;
+let
+MaxTouchPointsCollapse
+:
+number
+;
+let
 IsAlwaysEnabledForPrecompute
 :
 number
