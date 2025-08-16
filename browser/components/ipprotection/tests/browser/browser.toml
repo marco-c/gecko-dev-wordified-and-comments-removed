@@ -62,6 +62,13 @@ js
 ]
 [
 "
+browser_ipprotection_telemetry
+.
+js
+"
+]
+[
+"
 browser_ipprotection_toolbar
 .
 js

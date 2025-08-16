@@ -470,6 +470,13 @@ init
 (
 )
 ;
+this
+.
+#
+destroyed
+=
+false
+;
 }
 /
 *
