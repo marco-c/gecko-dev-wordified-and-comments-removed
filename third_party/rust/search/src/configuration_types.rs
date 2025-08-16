@@ -210,6 +210,16 @@ pub
 exclude_partner_code_from_telemetry
 :
 bool
+pub
+accepted_content_types
+:
+Option
+<
+Vec
+<
+String
+>
+>
 }
 #
 [

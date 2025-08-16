@@ -61,6 +61,9 @@ null
 excludePartnerCodeFromTelemetry
 :
 false
+acceptedContentTypes
+:
+null
 }
 }
 }
