@@ -54746,7 +54746,7 @@ current
 )
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 )
@@ -54869,7 +54869,7 @@ current
 )
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 )

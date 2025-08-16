@@ -617,7 +617,7 @@ aNode
 const
 CharacterDataBuffer
 *
-frag
+characterDataBuffer
 =
 nullptr
 ;
@@ -629,12 +629,12 @@ content
 |
 !
 (
-frag
+characterDataBuffer
 =
 content
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 )
@@ -647,7 +647,7 @@ NS_ERROR_FAILURE
 int32_t
 fragLength
 =
-frag
+characterDataBuffer
 -
 >
 GetLength
@@ -736,7 +736,7 @@ NS_OK
 }
 if
 (
-frag
+characterDataBuffer
 -
 >
 Is2b
@@ -749,7 +749,7 @@ char16_t
 *
 strStart
 =
-frag
+characterDataBuffer
 -
 >
 Get2b
@@ -817,7 +817,7 @@ CopyASCIItoUTF16
 (
 Span
 (
-frag
+characterDataBuffer
 -
 >
 Get1b

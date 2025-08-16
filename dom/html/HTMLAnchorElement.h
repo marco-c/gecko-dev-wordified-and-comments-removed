@@ -78,7 +78,7 @@ using
 Element
 :
 :
-GetText
+GetCharacterDataBuffer
 ;
 explicit
 HTMLAnchorElement

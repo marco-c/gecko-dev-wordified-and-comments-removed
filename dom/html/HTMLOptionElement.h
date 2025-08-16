@@ -118,7 +118,7 @@ dom
 Element
 :
 :
-GetText
+GetCharacterDataBuffer
 ;
 bool
 Selected

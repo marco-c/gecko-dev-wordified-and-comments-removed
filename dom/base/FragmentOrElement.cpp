@@ -8885,7 +8885,7 @@ CharacterDataBuffer
 FragmentOrElement
 :
 :
-GetText
+GetCharacterDataBuffer
 (
 )
 {

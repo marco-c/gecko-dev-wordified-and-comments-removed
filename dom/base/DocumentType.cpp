@@ -315,7 +315,7 @@ CharacterDataBuffer
 DocumentType
 :
 :
-GetText
+GetCharacterDataBuffer
 (
 )
 {

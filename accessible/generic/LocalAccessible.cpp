@@ -20880,7 +20880,7 @@ contentChar
 mContent
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 -

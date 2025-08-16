@@ -23416,7 +23416,7 @@ int32_t
 aContent
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 -

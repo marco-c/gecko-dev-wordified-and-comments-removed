@@ -317,7 +317,7 @@ override
 const
 CharacterDataBuffer
 *
-GetText
+GetCharacterDataBuffer
 (
 )
 override
