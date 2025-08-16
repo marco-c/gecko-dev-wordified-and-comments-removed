@@ -2336,13 +2336,13 @@ NoExtras
 )
 )
 }
-onNormalTabsFabClicked
+onOpenNewNormalTabClicked
 =
 tabManagerInteractor
 :
 :
 onNormalTabsFabClicked
-onPrivateTabsFabClicked
+onOpenNewPrivateTabClicked
 =
 tabManagerInteractor
 :
