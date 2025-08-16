@@ -1864,6 +1864,12 @@ data
 :
 {
 timerType
+duration
+:
+initialTimerDuration
+initialDuration
+:
+initialTimerDuration
 }
 }
 )

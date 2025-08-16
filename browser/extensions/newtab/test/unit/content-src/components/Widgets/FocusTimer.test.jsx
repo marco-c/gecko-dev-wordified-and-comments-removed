@@ -1020,6 +1020,13 @@ WIDGETS_TIMER_RESET
 )
 ;
 const
+initialUserDuration
+=
+12
+*
+60
+;
+const
 resetState
 =
 {
@@ -1041,10 +1048,10 @@ focus
 {
 duration
 :
-0
+initialUserDuration
 initialDuration
 :
-0
+initialUserDuration
 startTime
 :
 null
@@ -1154,7 +1161,7 @@ equal
 (
 minutes
 "
-00
+12
 "
 )
 ;
