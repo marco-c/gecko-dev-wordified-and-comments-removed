@@ -431,7 +431,6 @@ LauncherMain
 (
 argc
 argv
-sAppData
 )
 ;
 if
