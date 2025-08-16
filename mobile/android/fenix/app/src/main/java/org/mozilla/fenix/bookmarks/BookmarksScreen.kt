@@ -3204,6 +3204,17 @@ suggestion
 onVisibilityStateUpdated
 =
 {
+browserStore
+.
+dispatch
+(
+AwesomeBarAction
+.
+VisibilityStateUpdated
+(
+it
+)
+)
 }
 onScroll
 =
