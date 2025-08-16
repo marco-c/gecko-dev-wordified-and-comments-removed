@@ -1966,6 +1966,11 @@ else
 {
 navController
 .
+popBackStack
+(
+)
+navController
+.
 navigate
 (
 TabManagementFragmentDirections
@@ -2145,6 +2150,11 @@ false
 {
 navController
 .
+popBackStack
+(
+)
+navController
+.
 navigate
 (
 R
@@ -2213,6 +2223,11 @@ false
 )
 )
 {
+navController
+.
+popBackStack
+(
+)
 navController
 .
 navigate
