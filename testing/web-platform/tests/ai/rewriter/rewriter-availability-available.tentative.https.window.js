@@ -167,7 +167,7 @@ expectedInputLanguages
 :
 [
 '
-es
+zu
 '
 ]
 expectedContextLanguages
@@ -180,7 +180,7 @@ en
 outputLanguage
 :
 '
-es
+zu
 '
 }
 )
