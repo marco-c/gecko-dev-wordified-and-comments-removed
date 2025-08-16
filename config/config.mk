@@ -949,17 +949,6 @@ TOUCH
 =
 touch
 #
-#
-Build
-using
-PIC
-by
-default
-#
-_ENABLE_PIC
-=
-1
-#
 Don
 '
 t
