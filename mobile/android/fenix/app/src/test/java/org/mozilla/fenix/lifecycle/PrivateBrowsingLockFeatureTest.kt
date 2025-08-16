@@ -2420,7 +2420,7 @@ returns
 false
 feature
 .
-onPause
+onStop
 (
 activity
 )
@@ -2648,7 +2648,7 @@ returns
 false
 feature
 .
-onPause
+onStop
 (
 activity
 )
