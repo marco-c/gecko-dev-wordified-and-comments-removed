@@ -403,8 +403,10 @@ isNodeValid
 =
 isNodeValid
 ;
-function
+class
 CanvasFrameAnonymousContentHelper
+{
+constructor
 (
 highlighterEnv
 nodeBuilder
@@ -486,11 +488,6 @@ Map
 )
 ;
 }
-CanvasFrameAnonymousContentHelper
-.
-prototype
-=
-{
 initialize
 (
 )
@@ -2063,7 +2060,6 @@ node
 ;
 }
 }
-;
 exports
 .
 CanvasFrameAnonymousContentHelper
