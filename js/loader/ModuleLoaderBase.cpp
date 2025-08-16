@@ -1456,7 +1456,7 @@ aCx
 aRequest
 -
 >
-mStatePrivate
+mPayload
 )
 ;
 Rooted
@@ -1469,7 +1469,7 @@ aCx
 aRequest
 -
 >
-mStatePrivate
+mPayload
 )
 ;
 if
@@ -1589,7 +1589,7 @@ nullptr
 aRequest
 -
 >
-mStatePrivate
+mPayload
 .
 setUndefined
 (
@@ -4115,7 +4115,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-mStatePrivate
+mPayload
 .
 isUndefined
 (
@@ -4132,7 +4132,7 @@ cx
 aRequest
 -
 >
-mStatePrivate
+mPayload
 )
 ;
 Rooted
@@ -4247,7 +4247,7 @@ nullptr
 aRequest
 -
 >
-mStatePrivate
+mPayload
 .
 setUndefined
 (
@@ -6760,7 +6760,7 @@ aModuleRequest
 childRequest
 -
 >
-mStatePrivate
+mPayload
 =
 aPayload
 ;

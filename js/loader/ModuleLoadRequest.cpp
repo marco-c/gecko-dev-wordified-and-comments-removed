@@ -127,7 +127,7 @@ nullptr
 tmp
 -
 >
-mStatePrivate
+mPayload
 .
 setUndefined
 (
@@ -184,7 +184,7 @@ mReferencingPrivate
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
-mStatePrivate
+mPayload
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 ModuleLoadRequest
