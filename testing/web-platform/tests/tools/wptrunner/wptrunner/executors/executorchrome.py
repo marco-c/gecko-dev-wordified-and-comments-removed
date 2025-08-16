@@ -1681,7 +1681,7 @@ reuse_window
 reuse_window
     
 def
-get_or_create_test_window
+create_test_window
 (
 self
 protocol
@@ -1793,7 +1793,7 @@ super
 (
 )
 .
-get_or_create_test_window
+create_test_window
 (
 protocol
 )
