@@ -23,13 +23,13 @@ vector
 >
 #
 ifdef
-MOZ_WIDGET_COCOA
+XP_DARWIN
 #
 include
 <
-ApplicationServices
+CoreGraphics
 /
-ApplicationServices
+CGColorSpace
 .
 h
 >
@@ -1226,7 +1226,7 @@ MOZ_UNANNOTATED
 ;
 #
 ifdef
-MOZ_WIDGET_COCOA
+XP_DARWIN
 friend
 class
 BorrowedCGContext
