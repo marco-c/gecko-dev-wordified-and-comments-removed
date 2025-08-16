@@ -2974,6 +2974,13 @@ SearchDismissed
 }
 )
 {
+if
+(
+searchState
+.
+shouldShowSearchSuggestions
+)
+{
 AwesomeBar
 (
 text
@@ -3086,6 +3093,7 @@ engine
 .
 profiler
 )
+}
 }
 }
 }
