@@ -105,12 +105,6 @@ kind
 void
 SetRequest
 (
-JS
-:
-:
-loader
-:
-:
 ScriptLoadRequest
 *
 aRequest
@@ -264,12 +258,6 @@ AsWorkletContext
 ;
 RefPtr
 <
-JS
-:
-:
-loader
-:
-:
 ScriptLoadRequest
 >
 mRequest

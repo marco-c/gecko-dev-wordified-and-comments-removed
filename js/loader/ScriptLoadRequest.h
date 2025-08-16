@@ -226,8 +226,8 @@ SyncLoadContext
 }
 namespace
 JS
-{
-namespace
+:
+:
 loader
 {
 class
@@ -355,9 +355,6 @@ T
 typename
 D
 =
-JS
-:
-:
 DeletePolicy
 <
 T
@@ -1087,9 +1084,6 @@ LoadedScript
 >
 mLoadedScript
 ;
-JS
-:
-:
 Heap
 <
 JSScript
@@ -1365,7 +1359,6 @@ aName
 aFlags
 )
 ;
-}
 }
 }
 }
