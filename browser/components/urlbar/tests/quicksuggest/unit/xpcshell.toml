@@ -84,6 +84,13 @@ js
 ]
 [
 "
+test_quicksuggest_importantDatesSuggestions
+.
+js
+"
+]
+[
+"
 test_quicksuggest_impressionCaps
 .
 js
