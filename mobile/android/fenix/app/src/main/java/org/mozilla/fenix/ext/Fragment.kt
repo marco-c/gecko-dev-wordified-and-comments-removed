@@ -545,12 +545,15 @@ ic_back_button
 (
 activity
 as
+?
 NavHostActivity
 )
+?
 .
 getSupportActionBarAndInflateIfNecessary
 (
 )
+?
 .
 show
 (
