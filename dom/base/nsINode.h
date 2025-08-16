@@ -1528,6 +1528,16 @@ aNode
 const
 ;
 bool
+IsShadowIncludingDescendantOf
+(
+const
+nsINode
+*
+aNode
+)
+const
+;
+bool
 IsShadowIncludingInclusiveDescendantOf
 (
 const
