@@ -14130,6 +14130,16 @@ break
 ;
 }
 }
+if
+(
+StaticPrefs
+:
+:
+network_predictor_enabled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -14201,6 +14211,7 @@ IsThirdPartyTrackingResource
 )
 )
 ;
+}
 }
 if
 (
