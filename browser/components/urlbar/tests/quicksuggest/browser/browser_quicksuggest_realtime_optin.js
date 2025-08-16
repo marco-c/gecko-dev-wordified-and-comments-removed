@@ -35,6 +35,9 @@ result
 isBestMatch
 :
 true
+hideRowLabel
+:
+true
 realtimeType
 :
 "
@@ -133,6 +136,9 @@ result
 :
 {
 isBestMatch
+:
+true
+hideRowLabel
 :
 true
 realtimeType
@@ -423,6 +429,15 @@ ok
 result
 .
 isBestMatch
+)
+;
+Assert
+.
+ok
+(
+result
+.
+hideRowLabel
 )
 ;
 Assert

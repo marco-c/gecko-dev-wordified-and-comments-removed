@@ -818,6 +818,10 @@ null
 ;
 }
 return
+Object
+.
+assign
+(
 new
 lazy
 .
@@ -849,6 +853,15 @@ dynamicType
 "
 market
 "
+}
+)
+{
+isBestMatch
+:
+true
+hideRowLabel
+:
+true
 }
 )
 ;
