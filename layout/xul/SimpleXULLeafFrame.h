@@ -45,7 +45,6 @@ aStatus
 )
 override
 ;
-explicit
 SimpleXULLeafFrame
 (
 ComputedStyle
@@ -66,7 +65,6 @@ aClassID
 )
 {
 }
-explicit
 SimpleXULLeafFrame
 (
 ComputedStyle

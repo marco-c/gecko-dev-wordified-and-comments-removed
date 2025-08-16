@@ -460,14 +460,6 @@ aFrame
 )
 ;
 bool
-IsHorizontal
-(
-nsIFrame
-*
-aFrame
-)
-;
-bool
 IsVerticalProgress
 (
 nsIFrame
