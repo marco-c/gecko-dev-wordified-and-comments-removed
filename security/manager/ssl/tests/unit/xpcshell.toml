@@ -692,6 +692,14 @@ test_crlite_filters
 js
 "
 ]
+run
+-
+sequentially
+=
+"
+hardcoded
+ports
+"
 tags
 =
 "
