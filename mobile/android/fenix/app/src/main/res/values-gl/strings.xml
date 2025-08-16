@@ -24696,7 +24696,7 @@ tab_manager_floating_action_button_new_normal_tab
 "
 >
 Nova
-lapela
+pestana
 <
 /
 string
@@ -24734,7 +24734,7 @@ tab_manager_floating_action_button_new_private_tab
 "
 >
 Nova
-lapela
+pestana
 privada
 <
 /
@@ -65478,7 +65478,7 @@ name
 terms_of_use_prompt_message_2
 "
 >
-Dedique
+Adica
 un
 momento
 a
