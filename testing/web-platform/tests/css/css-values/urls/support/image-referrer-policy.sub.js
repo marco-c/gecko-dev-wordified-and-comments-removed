@@ -59,7 +59,9 @@ support
 /
 image
 -
-referrerpolicy
+referrer
+-
+policy
 .
 py
 ?
@@ -89,7 +91,9 @@ URL
 {
 policy
 ?
-referrerpolicy
+referrer
+-
+policy
 (
 {
 policy
@@ -152,7 +156,9 @@ support
 /
 image
 -
-referrerpolicy
+referrer
+-
+policy
 .
 py
 ?
@@ -182,7 +188,9 @@ URL
 {
 policy
 ?
-referrerpolicy
+referrer
+-
+policy
 (
 {
 policy
