@@ -57,9 +57,7 @@ jar
 mn
 "
 ]
-EXTRA_JS_MODULES
-.
-pagedata
+MOZ_SRC_FILES
 +
 =
 [
