@@ -8,6 +8,15 @@ h
 #
 include
 <
+asm
+/
+termbits
+.
+h
+>
+#
+include
+<
 errno
 .
 h
@@ -7183,6 +7192,10 @@ request
 =
 =
 TIOCGWINSZ
+request
+=
+=
+TCGETS2
 )
 Error
 (
