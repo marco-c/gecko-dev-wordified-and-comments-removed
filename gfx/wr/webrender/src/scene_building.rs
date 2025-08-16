@@ -13909,14 +13909,6 @@ unwrap
 TextRun
 {
 glyphs
-:
-Arc
-:
-:
-new
-(
-glyphs
-)
 font
 shadow
 :
