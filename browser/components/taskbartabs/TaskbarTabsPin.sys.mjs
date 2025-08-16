@@ -1111,7 +1111,7 @@ brand
 ftl
 "
 "
-preview
+browser
 /
 taskbartabs
 .
