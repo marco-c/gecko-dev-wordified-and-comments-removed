@@ -295,7 +295,7 @@ mCodec
 aConfig
 .
 mHardwarePreference
-=
+!
 =
 HardwarePreference
 :
