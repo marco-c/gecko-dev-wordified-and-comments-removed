@@ -846,17 +846,11 @@ now
 nsresult
 DoPollIteration
 (
-TimeDuration
-*
-pollDuration
 )
 ;
 int32_t
 Poll
 (
-TimeDuration
-*
-pollDuration
 PRIntervalTime
 ts
 )
