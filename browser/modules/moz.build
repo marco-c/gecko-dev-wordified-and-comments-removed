@@ -1076,6 +1076,13 @@ sys
 .
 mjs
 "
+"
+ObserverForwarder
+.
+sys
+.
+mjs
+"
 ]
 if
 CONFIG
