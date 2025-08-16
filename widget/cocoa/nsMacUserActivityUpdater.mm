@@ -243,17 +243,11 @@ nsIWidget
 >
 widget
 =
-nullptr
-;
 aWindow
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 if

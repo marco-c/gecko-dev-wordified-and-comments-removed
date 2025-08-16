@@ -8736,6 +8736,8 @@ GetDocShell
 )
 )
 {
+widget
+=
 nsDocShell
 :
 :
@@ -8747,10 +8749,6 @@ docShell
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 }

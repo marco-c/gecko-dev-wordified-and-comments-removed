@@ -1023,16 +1023,12 @@ nsCOMPtr
 nsIWidget
 >
 mainWidget
-;
+=
 baseWindow
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-mainWidget
-)
 )
 ;
 if
