@@ -795,7 +795,7 @@ override
 void
 RenderLayer
 (
-int
+double
 aScale
 )
 ;
@@ -1034,7 +1034,7 @@ widget
 WaylandSurfaceLock
 &
 aProofOfLock
-int
+double
 aScale
 )
 ;
@@ -1171,10 +1171,12 @@ SamplingFilter
 :
 POINT
 ;
-int
+double
 mScale
 =
 1
+.
+0f
 ;
 LayerState
 mState
