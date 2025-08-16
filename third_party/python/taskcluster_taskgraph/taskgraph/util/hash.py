@@ -213,6 +213,7 @@ anything
 )
     
 for
+abs_path
 path
 in
 sorted
@@ -225,24 +226,12 @@ h
 .
 update
 (
-            
 f
 "
 {
 hash_path
 (
-mozpath
-.
-abspath
-(
-mozpath
-.
-join
-(
-base_path
-path
-)
-)
+abs_path
 )
 }
 {
@@ -260,7 +249,6 @@ n
 encode
 (
 )
-        
 )
     
 return
@@ -285,20 +273,46 @@ pattern
 )
 :
     
+repo
+=
+get_repository
+(
+os
+.
+getcwd
+(
+)
+)
+    
 files
 =
 _get_all_files
 (
 base_path
+repo
 )
     
 return
 [
+        
+(
+mozpath
+.
+join
+(
+repo
+.
 path
+path
+)
+path
+)
+        
 for
 path
 in
 files
+        
 if
 mozpath
 .
@@ -307,6 +321,7 @@ match
 path
 pattern
 )
+    
 ]
 functools
 .
@@ -320,19 +335,9 @@ def
 _get_all_files
 (
 base_path
+repo
 )
 :
-    
-repo
-=
-get_repository
-(
-os
-.
-getcwd
-(
-)
-)
     
 return
 repo

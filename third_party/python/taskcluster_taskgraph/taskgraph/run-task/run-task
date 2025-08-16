@@ -2326,8 +2326,15 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+tz
+=
+datetime
+.
+timezone
+.
+utc
 )
 .
 isoformat
@@ -2361,7 +2368,7 @@ b
 "
 [
 %
-sZ
+s
 %
 s
 ]

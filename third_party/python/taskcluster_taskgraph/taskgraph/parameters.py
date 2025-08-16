@@ -2537,22 +2537,11 @@ graph_config
 )
 :
         
-try
-:
-            
 repo_root
 =
 graph_config
 .
 vcs_root
-        
-except
-Exception
-:
-            
-repo_root
-=
-None
         
 parameters
 =
