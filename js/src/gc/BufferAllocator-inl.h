@@ -607,9 +607,7 @@ void
 *
 alloc
 size_t
-oldBytes
-size_t
-newBytes
+bytes
 bool
 nurseryOwned
 )
@@ -640,8 +638,7 @@ bufferAllocator
 realloc
 (
 alloc
-oldBytes
-newBytes
+bytes
 nurseryOwned
 )
 ;

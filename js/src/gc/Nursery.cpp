@@ -5215,7 +5215,6 @@ ReallocBuffer
 (
 zone
 oldBuffer
-oldBytes
 newBytes
 false
 )
@@ -5256,7 +5255,6 @@ ReallocBuffer
 (
 zone
 oldBuffer
-oldBytes
 newBytes
 true
 )
