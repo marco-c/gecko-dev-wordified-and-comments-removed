@@ -1135,13 +1135,11 @@ createNewProfile
 )
 ;
 }
-async
 updateView
 (
 target
 )
 {
-await
 this
 .
 populateSubView
@@ -1161,13 +1159,11 @@ target
 )
 ;
 }
-async
 updateFxAView
 (
 target
 )
 {
-await
 this
 .
 populateSubView
