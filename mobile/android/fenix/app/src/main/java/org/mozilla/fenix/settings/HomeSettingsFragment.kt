@@ -297,7 +297,7 @@ settings
 (
 )
 .
-showHomepageSectionToggleSettings
+showHomepageTopSitesSectionToggle
 isChecked
 =
 context
@@ -383,7 +383,7 @@ settings
 (
 )
 .
-showHomepageSectionToggleSettings
+showHomepageTopSitesSectionToggle
 isChecked
 =
 context
@@ -469,7 +469,7 @@ settings
 (
 )
 .
-showHomepageSectionToggleSettings
+showHomepageRecentTabsSectionToggle
 isChecked
 =
 context
@@ -555,7 +555,7 @@ settings
 (
 )
 .
-showHomepageSectionToggleSettings
+showHomepageBookmarksSectionToggle
 isChecked
 =
 context
@@ -846,7 +846,7 @@ settings
 (
 )
 .
-showHomepageSectionToggleSettings
+showHomepageRecentlyVisitedSectionToggle
 isChecked
 =
 context
