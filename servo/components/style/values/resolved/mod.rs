@@ -1,9 +1,3 @@
-use
-app_units
-:
-:
-Au
-;
 #
 [
 cfg
@@ -38,6 +32,12 @@ crate
 :
 :
 ArcSlice
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 servo_arc

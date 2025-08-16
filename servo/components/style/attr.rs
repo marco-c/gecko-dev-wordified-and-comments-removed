@@ -6,11 +6,11 @@ color
 :
 :
 {
-AbsoluteColor
 parsing
 :
 :
 parse_color_keyword
+AbsoluteColor
 }
 ;
 use
@@ -76,7 +76,10 @@ values
 specified
 :
 :
-Length
+color
+:
+:
+Color
 ;
 use
 crate
@@ -88,10 +91,7 @@ values
 specified
 :
 :
-color
-:
-:
-Color
+Length
 ;
 use
 crate

@@ -95,6 +95,7 @@ LayerStatementRule
 MarginRule
 MediaRule
 NamespaceRule
+NestedDeclarationsRule
 PageRule
 PositionTryRule
 PropertyRule
@@ -103,7 +104,6 @@ StartingStyleRule
 StyleRule
 StylesheetContents
 SupportsRule
-NestedDeclarationsRule
 }
 ;
 use

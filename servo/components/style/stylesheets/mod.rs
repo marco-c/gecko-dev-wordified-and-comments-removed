@@ -2490,6 +2490,7 @@ lock
 )
 =
 >
+{
 lock
 .
 read_with
@@ -2507,6 +2508,7 @@ guard
 is_empty
 (
 )
+}
 _
 =
 >

@@ -469,6 +469,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -1791,6 +1792,7 @@ _
 }
 =
 >
+{
 state
 .
 pos
@@ -1802,6 +1804,7 @@ pos
 state
 .
 last_control
+}
 _
 =
 >

@@ -3,14 +3,14 @@ super
 :
 :
 {
-Context
-Length
-Percentage
-ToComputedValue
 position
 :
 :
 AnchorSide
+Context
+Length
+Percentage
+ToComputedValue
 }
 ;
 #
@@ -5550,6 +5550,7 @@ k
 )
 =
 >
+{
 return
 if
 matches
@@ -5581,6 +5582,7 @@ k
 .
 0
 )
+}
 }
 }
 ;
@@ -5736,6 +5738,7 @@ side
 )
 =
 >
+{
 if
 matches
 !
@@ -5763,6 +5766,7 @@ PhysicalAxis
 :
 :
 Horizontal
+}
 }
 }
 }
@@ -6232,6 +6236,7 @@ Invalid
 |
 v
 |
+{
 AnchorResolutionResult
 :
 :
@@ -6257,6 +6262,7 @@ v
 )
 )
 )
+}
 )
 }
 fn
@@ -6377,6 +6383,7 @@ Invalid
 |
 v
 |
+{
 AnchorResolutionResult
 :
 :
@@ -6402,6 +6409,7 @@ v
 )
 )
 )
+}
 )
 }
 fn
@@ -6472,6 +6480,7 @@ _
 )
 =
 >
+{
 unreachable
 !
 (
@@ -6484,6 +6493,7 @@ where
 disallowed
 "
 )
+}
 }
 ;
 resolve_anchor_function
@@ -6502,6 +6512,7 @@ f
 )
 =
 >
+{
 resolve_anchor_size_function
 (
 f
@@ -6515,6 +6526,7 @@ params
 .
 mBaseParams
 )
+}
 _
 =
 >

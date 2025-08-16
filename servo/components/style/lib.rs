@@ -486,6 +486,9 @@ pub
 mod
 sharing
 ;
+mod
+simple_buckets_map
+;
 pub
 mod
 str
@@ -525,9 +528,6 @@ traversal_flags
 pub
 mod
 use_counters
-;
-mod
-simple_buckets_map
 ;
 #
 [

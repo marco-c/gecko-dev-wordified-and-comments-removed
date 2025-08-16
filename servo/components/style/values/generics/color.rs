@@ -22,6 +22,10 @@ values
 :
 :
 {
+computed
+:
+:
+ToComputedValue
 specified
 :
 :
@@ -29,12 +33,8 @@ percentage
 :
 :
 ToPercentage
-computed
-:
-:
-ToComputedValue
-Parser
 ParseError
+Parser
 }
 ;
 use

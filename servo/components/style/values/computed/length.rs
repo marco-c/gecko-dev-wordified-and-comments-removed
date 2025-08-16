@@ -2707,10 +2707,6 @@ PhysicalAxis
 values
 :
 :
-DashedIdent
-values
-:
-:
 generics
 :
 :
@@ -2718,6 +2714,10 @@ length
 :
 :
 AnchorSizeKeyword
+values
+:
+:
+DashedIdent
 }
 ;
 impl

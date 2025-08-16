@@ -101,8 +101,8 @@ cssparser
 :
 :
 {
-ToCss
 Parser
+ToCss
 }
 ;
 use
@@ -699,6 +699,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 let
 mut
@@ -2320,6 +2321,7 @@ clone
 )
 )
 )
+;
 }
 match
 input

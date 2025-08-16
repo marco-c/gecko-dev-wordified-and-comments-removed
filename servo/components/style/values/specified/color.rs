@@ -2032,6 +2032,7 @@ try_parse
 |
 i
 |
+{
 GenericLightDark
 :
 :
@@ -2041,6 +2042,7 @@ i
 |
 i
 |
+{
 Self
 :
 :
@@ -2050,7 +2052,9 @@ context
 i
 preserve_authored
 )
+}
 )
+}
 )
 {
 return

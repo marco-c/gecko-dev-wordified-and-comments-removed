@@ -56,6 +56,15 @@ use
 crate
 :
 :
+simple_buckets_map
+:
+:
+SimpleBucketsMap
+;
+use
+crate
+:
+:
 str
 :
 :
@@ -69,15 +78,6 @@ stylesheets
 :
 :
 CssRules
-;
-use
-crate
-:
-:
-simple_buckets_map
-:
-:
-SimpleBucketsMap
 ;
 use
 cssparser
@@ -1946,7 +1946,6 @@ id
 )
 =
 >
-{
 match
 self
 .
@@ -1990,7 +1989,6 @@ _
 =
 >
 true
-}
 }
 Component
 :
@@ -2369,6 +2367,7 @@ list
 )
 =
 >
+{
 if
 !
 scope_selector_list_is_trivial
@@ -2379,6 +2378,7 @@ list
 return
 false
 ;
+}
 }
 _
 =
@@ -2400,6 +2400,7 @@ c
 )
 =
 >
+{
 if
 c
 .
@@ -2410,6 +2411,7 @@ is_sibling
 return
 false
 ;
+}
 }
 None
 =

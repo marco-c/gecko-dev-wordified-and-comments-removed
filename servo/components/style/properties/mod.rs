@@ -2598,6 +2598,7 @@ non_custom_id
 None
 =
 >
+{
 return
 !
 context
@@ -2613,6 +2614,7 @@ CssRuleType
 :
 PositionTry
 )
+}
 Some
 (
 id

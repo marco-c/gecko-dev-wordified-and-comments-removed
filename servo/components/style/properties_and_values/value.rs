@@ -3424,7 +3424,6 @@ unwrap_or_else
 |
 _
 |
-{
 ComputedValue
 {
 v
@@ -3451,7 +3450,6 @@ url_data
 clone
 (
 )
-}
 }
 )
 }
