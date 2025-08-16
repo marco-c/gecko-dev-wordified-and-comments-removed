@@ -76,7 +76,7 @@ SetDeleteRequestPromise
 MozPromise
 <
 bool
-nsresult
+bool
 true
 >
 ;
@@ -440,7 +440,15 @@ CookieStruct
 aResults
 )
 ;
-bool
+enum
+SetReturnType
+{
+eFailure
+eSilentFailure
+eSuccess
+}
+;
+SetReturnType
 SetRequestOnMainThread
 (
 ThreadsafeContentParentHandle
@@ -492,6 +500,9 @@ const
 nsID
 &
 aOperationID
+bool
+&
+aWaitForNotification
 )
 ;
 bool
