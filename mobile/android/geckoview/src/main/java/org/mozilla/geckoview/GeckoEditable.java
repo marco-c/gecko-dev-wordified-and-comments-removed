@@ -929,6 +929,17 @@ unmodifiedUnicodeChar
 0
 ;
 final
+boolean
+waitingReply
+=
+GeckoInputConnection
+.
+isMediaKeyEvent
+(
+event
+)
+;
+final
 int
 keyPressMetaState
 =
@@ -998,6 +1009,7 @@ getFlags
 (
 )
 isSynthesizedImeKey
+waitingReply
 event
 )
 ;

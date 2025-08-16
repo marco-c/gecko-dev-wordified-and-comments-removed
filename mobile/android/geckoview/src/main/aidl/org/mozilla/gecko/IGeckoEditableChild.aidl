@@ -140,6 +140,8 @@ int
 flags
 boolean
 isSynthesizedImeKey
+boolean
+waitingReply
 in
 KeyEvent
 event

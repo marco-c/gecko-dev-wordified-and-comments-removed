@@ -180,6 +180,9 @@ final
 boolean
 isSynthesizedImeKey
 final
+boolean
+waitingReply
+final
 KeyEvent
 event
 )
@@ -200,6 +203,7 @@ domPrintableKeyValue
 repeatCount
 flags
 isSynthesizedImeKey
+waitingReply
 event
 )
 ;
@@ -605,6 +609,8 @@ int
 flags
 boolean
 isSynthesizedImeKey
+boolean
+waitingReply
 KeyEvent
 event
 )
