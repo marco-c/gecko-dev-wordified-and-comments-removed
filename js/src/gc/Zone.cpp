@@ -1047,6 +1047,10 @@ keptObjects
 (
 this
 )
+objectFuses
+(
+rt
+)
 {
 MOZ_ASSERT
 (

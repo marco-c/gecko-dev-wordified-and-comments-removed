@@ -11395,6 +11395,16 @@ NativeObject
 ;
 MOZ_RELEASE_ASSERT
 (
+nobj
+.
+is
+<
+GlobalObject
+>
+(
+)
+|
+|
 !
 Watchtower
 :
