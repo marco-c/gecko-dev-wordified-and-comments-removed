@@ -6650,7 +6650,7 @@ if
 HTMLFormElement_Binding
 :
 :
-InterfaceHasNonEventHandlerProperty
+InterfaceHasProperty
 (
 aName
 )
