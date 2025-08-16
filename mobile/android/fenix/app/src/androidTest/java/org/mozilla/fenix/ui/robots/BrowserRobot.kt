@@ -10207,6 +10207,9 @@ menu
 button
 "
 )
+waitForAppWindowToBeUpdated
+(
+)
 ThreeDotMenuMainRobotCompose
 (
 composeTestRule
