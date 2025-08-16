@@ -535,7 +535,7 @@ audioipc
 rev
 =
 "
-cff5afde0e93782765cf31c3c6d5d63778f3260d
+ec44d33e5924f6618467fdb18010d626701fd110
 "
 optional
 =
@@ -564,7 +564,7 @@ audioipc
 rev
 =
 "
-cff5afde0e93782765cf31c3c6d5d63778f3260d
+ec44d33e5924f6618467fdb18010d626701fd110
 "
 optional
 =
@@ -920,7 +920,7 @@ version
 "
 0
 .
-32
+34
 "
 default
 -
