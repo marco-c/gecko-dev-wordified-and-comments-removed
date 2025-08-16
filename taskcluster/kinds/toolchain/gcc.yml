@@ -163,10 +163,6 @@ linux64
 -
 gcc
 -
-linux64
--
-gcc
--
 base
 fetches
 :
@@ -322,6 +318,14 @@ gcc
 linux
 .
 sh
+toolchain
+-
+alias
+:
+-
+linux64
+-
+gcc
 fetches
 :
 fetch
