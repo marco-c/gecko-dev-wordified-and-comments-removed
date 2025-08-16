@@ -7723,7 +7723,7 @@ aContent
 static
 Element
 *
-GetClosestAncestorListItemElement
+GetClosestInclusiveAncestorListItemElement
 (
 const
 nsIContent
