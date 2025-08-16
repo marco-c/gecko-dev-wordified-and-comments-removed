@@ -61,6 +61,8 @@ explicit
 RemoteWorkerParent
 (
 UniqueThreadsafeContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 ;

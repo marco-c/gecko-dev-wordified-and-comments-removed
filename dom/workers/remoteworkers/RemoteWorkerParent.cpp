@@ -77,6 +77,8 @@ RemoteWorkerParent
 RemoteWorkerParent
 (
 UniqueThreadsafeContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 :
