@@ -7466,6 +7466,11 @@ false
 globalHistoryOptions
 :
 {
+triggeringSource
+:
+"
+urlbar
+"
 triggeringSearchEngine
 :
 result

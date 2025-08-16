@@ -226,6 +226,13 @@ event
 currentTarget
 .
 href
+is_sponsored
+:
+this
+.
+props
+.
+isSponsored
 }
 }
 )
