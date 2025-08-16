@@ -1096,6 +1096,9 @@ prefix
 )
 :
             
+try
+:
+                
 self
 .
 result_data
@@ -1112,6 +1115,35 @@ prefix
 )
 :
 ]
+)
+            
+except
+json
+.
+JSONDecodeError
+as
+error
+:
+                
+self
+.
+logger
+.
+error
+(
+f
+"
+Could
+not
+process
+test
+output
+JSON
+:
+{
+error
+}
+"
 )
             
 self
