@@ -1336,6 +1336,15 @@ action
 required
 )
 *
+param
+{
+object
+}
+options
+(
+optional
+)
+*
 return
 {
 object
@@ -1353,6 +1362,7 @@ function
 BroadcastToContent
 (
 action
+options
 )
 {
 return
@@ -1366,6 +1376,10 @@ MAIN_MESSAGE_TYPE
 to
 :
 CONTENT_MESSAGE_TYPE
+.
+.
+.
+options
 }
 )
 ;
