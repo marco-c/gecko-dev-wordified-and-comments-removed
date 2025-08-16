@@ -55,6 +55,14 @@ mozilla
 :
 hal_impl
 {
+using
+HeterogeneousCpuInfo
+=
+hal
+:
+:
+HeterogeneousCpuInfo
+;
 mozilla
 :
 :

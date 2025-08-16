@@ -13,14 +13,14 @@ C
 #
 include
 "
-r_log
+registry
 .
 h
 "
 #
 include
 "
-registry
+r_log
 .
 h
 "
