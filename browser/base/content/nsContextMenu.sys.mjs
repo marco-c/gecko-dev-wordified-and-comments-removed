@@ -9711,6 +9711,9 @@ frameID
 hasValidUserGestureActivation
 :
 true
+textDirectiveUserActivation
+:
+true
 }
 ;
 for
