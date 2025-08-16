@@ -483,7 +483,7 @@ mozilla
 .
 fenix
 .
-lifecycle
+pbmlock
 .
 registerForVerification
 import
@@ -493,7 +493,7 @@ mozilla
 .
 fenix
 .
-lifecycle
+pbmlock
 .
 verifyUser
 import

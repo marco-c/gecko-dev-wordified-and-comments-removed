@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-lifecycle
+pbmlock
 import
 androidx
 .

@@ -359,7 +359,7 @@ mozilla
 .
 fenix
 .
-lifecycle
+pbmlock
 .
 PrivateBrowsingLockUseCases
 import
