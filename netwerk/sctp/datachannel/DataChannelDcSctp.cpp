@@ -397,13 +397,6 @@ aLocalPort
 const
 uint16_t
 aNumStreams
-const
-Maybe
-<
-uint64_t
->
-&
-aMaxMessageSize
 )
 {
 return
