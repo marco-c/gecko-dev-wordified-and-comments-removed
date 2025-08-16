@@ -2986,6 +2986,11 @@ type
 CUSTOM
 if
 (
+settings
+.
+shouldShowVoiceSearch
+&
+&
 isSpeechRecognitionAvailable
 (
 )
