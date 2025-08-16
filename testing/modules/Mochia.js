@@ -568,7 +568,7 @@ skipIf
 configurable
 :
 false
-get
+value
 :
 MochiaImpl
 .
