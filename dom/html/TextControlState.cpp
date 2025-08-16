@@ -4445,8 +4445,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+RefPtr
+<
 nsPIDOMWindowOuter
-*
+>
 domWindow
 =
 doc
