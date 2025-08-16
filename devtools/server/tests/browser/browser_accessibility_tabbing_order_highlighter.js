@@ -390,6 +390,10 @@ nodeHighlighter
 getElement
 (
 "
+tabbing
+-
+order
+-
 infobar
 -
 text
@@ -479,6 +483,10 @@ nodeHighlighter
 getElement
 (
 "
+tabbing
+-
+order
+-
 root
 "
 )

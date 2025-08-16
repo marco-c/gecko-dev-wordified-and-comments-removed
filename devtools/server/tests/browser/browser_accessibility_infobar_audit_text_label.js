@@ -281,6 +281,8 @@ infobar
 getTextContent
 (
 "
+accessible
+-
 text
 -
 label
@@ -311,6 +313,8 @@ infobar
 getElement
 (
 "
+accessible
+-
 text
 -
 label

@@ -279,6 +279,8 @@ infobar
 getTextContent
 (
 "
+accessible
+-
 keyboard
 "
 )
@@ -306,6 +308,8 @@ infobar
 getElement
 (
 "
+accessible
+-
 keyboard
 "
 )

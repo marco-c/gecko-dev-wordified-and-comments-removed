@@ -345,6 +345,10 @@ highlighterTestFront
 getEyeDropperElementAttribute
 (
 "
+eye
+-
+dropper
+-
 root
 "
 "
