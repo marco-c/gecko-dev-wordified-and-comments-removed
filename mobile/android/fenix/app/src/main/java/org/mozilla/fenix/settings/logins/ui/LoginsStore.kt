@@ -193,8 +193,8 @@ initialState
 LoginsState
 =
 LoginsState
-(
-)
+.
+default
 reducer
 :
 Reducer

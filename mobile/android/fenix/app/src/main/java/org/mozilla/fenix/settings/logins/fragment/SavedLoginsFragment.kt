@@ -1109,8 +1109,8 @@ LoginsStore
 initialState
 =
 LoginsState
-(
-)
+.
+default
 .
 copy
 (
