@@ -581,13 +581,6 @@ js
 ]
 [
 "
-browser_ohttpImages
-.
-js
-"
-]
-[
-"
 browser_open_tab_focus
 .
 js
