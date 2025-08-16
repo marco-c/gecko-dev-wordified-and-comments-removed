@@ -235,7 +235,7 @@ this
 console
 ?
 .
-warn
+log
 (
 "
 UnexpectedScriptLoadPanel
@@ -834,7 +834,7 @@ this
 console
 ?
 .
-warn
+log
 (
 "
 UnexpectedScriptLoadPanel
@@ -1023,10 +1023,10 @@ onBlock
 {
 this
 .
-#
 console
+?
 .
-warn
+log
 (
 "
 UnexpectedScriptLoadPanel
@@ -1110,10 +1110,10 @@ onAllow
 {
 this
 .
-#
 console
+?
 .
-warn
+log
 (
 "
 UnexpectedScriptLoadPanel
