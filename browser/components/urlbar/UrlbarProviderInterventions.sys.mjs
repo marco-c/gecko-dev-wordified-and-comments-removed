@@ -5210,7 +5210,7 @@ help
 command
 (
 "
-help
+tiphelp
 "
 )
 which
