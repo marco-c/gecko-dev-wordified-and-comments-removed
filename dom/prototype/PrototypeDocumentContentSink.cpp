@@ -2242,6 +2242,11 @@ GetScriptIsModule
 )
 )
 {
+{
+nsAutoMicroTask
+mt
+;
+}
 DebugOnly
 <
 bool

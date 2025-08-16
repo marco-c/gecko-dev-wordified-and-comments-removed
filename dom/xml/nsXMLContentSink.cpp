@@ -2911,6 +2911,11 @@ FlushTags
 (
 )
 ;
+{
+nsAutoMicroTask
+mt
+;
+}
 bool
 block
 =

@@ -15,6 +15,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Encoding
 .
 h
@@ -1290,6 +1299,11 @@ if
 sele
 )
 {
+{
+nsAutoMicroTask
+mt
+;
+}
 bool
 block
 =
