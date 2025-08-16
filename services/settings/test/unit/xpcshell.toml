@@ -153,6 +153,13 @@ js
 ]
 [
 "
+test_remote_settings_older_than_local
+.
+js
+"
+]
+[
+"
 test_remote_settings_poll
 .
 js
