@@ -990,7 +990,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 &
 &
 settings
