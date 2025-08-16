@@ -63,7 +63,7 @@ mozilla
 .
 fenix
 .
-biometricauthentication
+pbmlock
 import
 android
 .

@@ -9681,7 +9681,7 @@ mozilla
 .
 fenix
 .
-biometricauthentication
+pbmlock
 .
 UnlockPrivateTabsFragment
 "
@@ -9706,7 +9706,7 @@ mozilla
 .
 fenix
 .
-biometricauthentication
+pbmlock
 .
 NavigationOrigin
 "
