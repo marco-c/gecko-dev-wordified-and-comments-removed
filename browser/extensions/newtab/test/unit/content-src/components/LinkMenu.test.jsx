@@ -2417,11 +2417,6 @@ url
 FAKE_SITE
 .
 url
-sponsored_tile_id
-:
-FAKE_SITE
-.
-sponsored_tile_id
 event_source
 :
 "
@@ -2460,6 +2455,9 @@ false
 is_list_card
 :
 undefined
+is_sponsored
+:
+true
 }
 "
 newtab
