@@ -1209,7 +1209,7 @@ allocEndBitmap
 ;
 MainThreadOrGCTaskData
 <
-PerAllocBitmap
+AtomicPerAllocBitmap
 >
 nurseryOwnedBitmap
 ;
