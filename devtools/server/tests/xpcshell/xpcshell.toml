@@ -1404,6 +1404,15 @@ js
 ]
 [
 "
+test_framebindings
+-
+08
+.
+js
+"
+]
+[
+"
 test_front_destroy
 .
 js
