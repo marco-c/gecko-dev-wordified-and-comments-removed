@@ -755,7 +755,7 @@ equal
 (
 content
 .
-connectionTitleEl
+statusCardEl
 ?
 .
 getAttribute
@@ -810,6 +810,9 @@ let
 locationName
 =
 content
+.
+locationEl
+?
 .
 shadowRoot
 .
@@ -867,7 +870,7 @@ equal
 (
 content
 .
-connectionTitleEl
+statusCardEl
 ?
 .
 getAttribute
@@ -926,7 +929,7 @@ equal
 (
 content
 .
-connectionTitleEl
+statusCardEl
 ?
 .
 getAttribute
