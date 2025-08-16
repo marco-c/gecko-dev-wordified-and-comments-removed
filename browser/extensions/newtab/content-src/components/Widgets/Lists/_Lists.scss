@@ -229,6 +229,7 @@ focus
 -
 outline
 )
+;
 }
 .
 add
@@ -560,6 +561,12 @@ align
 items
 :
 center
+;
+flex
+-
+grow
+:
+2
 ;
 span
 {
