@@ -633,8 +633,10 @@ if
 !
 hasEmail
 )
+{
 return
 ;
+}
 setTimeout
 (
 (
