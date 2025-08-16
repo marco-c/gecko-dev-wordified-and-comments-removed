@@ -1337,6 +1337,13 @@ js
 ]
 [
 "
+test_new_document_wrapper_preservation
+.
+js
+"
+]
+[
+"
 test_nuke_sandbox
 .
 js
