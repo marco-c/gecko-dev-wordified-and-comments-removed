@@ -601,10 +601,6 @@ enableNewSetMethods
 ;
 extern
 bool
-enableImportAttributes
-;
-extern
-bool
 enableDestructuringFuse
 ;
 #
