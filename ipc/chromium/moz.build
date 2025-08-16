@@ -712,6 +712,17 @@ chrome
 /
 common
 /
+ipc_channel_mach
+.
+cc
+"
+"
+src
+/
+chrome
+/
+common
+/
 mach_ipc_mac
 .
 cc
