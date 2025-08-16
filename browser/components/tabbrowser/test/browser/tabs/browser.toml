@@ -2425,6 +2425,13 @@ tabs
 "
 [
 "
+browser_pinned_and_hidden_tabs
+.
+js
+"
+]
+[
+"
 browser_positional_attributes
 .
 js
