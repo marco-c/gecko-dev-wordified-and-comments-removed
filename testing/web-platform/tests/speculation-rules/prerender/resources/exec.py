@@ -14,7 +14,7 @@ response
 )
 :
     
-purpose
+sec_purpose
 =
 request
 .
@@ -24,18 +24,22 @@ get
 (
 b
 "
+sec
+-
 purpose
 "
 )
     
 if
 (
-purpose
+sec_purpose
 =
 =
 b
 '
 prefetch
+;
+prerender
 '
 and
 b
