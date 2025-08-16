@@ -7893,12 +7893,12 @@ case
 ObjectFlag
 :
 :
-HasPreservedWrapper
+HasPreservedWrapperDummy
 :
 known
 (
 "
-HasPreservedWrapper
+HasPreservedWrapperDummy
 "
 )
 ;
