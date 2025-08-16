@@ -1681,16 +1681,12 @@ freebsd
 )
 ]
 impl
-<
-'
-a
->
 Drop
 for
 Nmount
 <
 '
-a
+_
 >
 {
 fn

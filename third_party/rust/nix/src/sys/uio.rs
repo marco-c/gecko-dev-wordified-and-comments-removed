@@ -260,6 +260,11 @@ target_os
 "
 solaris
 "
+target_os
+=
+"
+cygwin
+"
 )
 )
 )
@@ -397,6 +402,11 @@ target_os
 =
 "
 solaris
+"
+target_os
+=
+"
+cygwin
 "
 )
 )

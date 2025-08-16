@@ -34,7 +34,10 @@ crate
 poll_timeout
 :
 :
+{
 PollTimeout
+PollTimeoutTryFromError
+}
 ;
 use
 crate
@@ -54,7 +57,6 @@ transparent
 derive
 (
 Clone
-Copy
 Debug
 Eq
 Hash
@@ -177,6 +179,7 @@ pub
 fn
 revents
 (
+&
 self
 )
 -
@@ -202,6 +205,7 @@ pub
 fn
 any
 (
+&
 self
 )
 -
@@ -233,6 +237,7 @@ pub
 fn
 all
 (
+&
 self
 )
 -
@@ -269,6 +274,7 @@ pub
 fn
 events
 (
+&
 self
 )
 -
@@ -318,16 +324,12 @@ bits
 }
 }
 impl
-<
-'
-fd
->
 AsFd
 for
 PollFd
 <
 '
-fd
+_
 >
 {
 fn
@@ -1180,7 +1182,9 @@ html
 ppoll
 behaves
 like
+[
 poll
+]
 but
 let
 you
