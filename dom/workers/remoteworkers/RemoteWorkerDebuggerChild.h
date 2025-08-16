@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-PRemoteWorkerDebuggerChild
+RefPtr
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+PRemoteWorkerDebuggerChild
 .
 h
 "

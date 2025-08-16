@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaKeyStatusMapBinding
+CDMProxy
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 mozilla
 /
-CDMProxy
+dom
+/
+MediaKeyStatusMapBinding
 .
 h
 "

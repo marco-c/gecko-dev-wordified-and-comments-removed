@@ -21,6 +21,13 @@ h
 #
 include
 "
+MediaChannelStatistics
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Monitor
@@ -81,13 +88,6 @@ h
 include
 "
 nsTHashtable
-.
-h
-"
-#
-include
-"
-MediaChannelStatistics
 .
 h
 "

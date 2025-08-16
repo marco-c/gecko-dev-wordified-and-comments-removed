@@ -7,13 +7,6 @@ __TX_I_XPATH_CONTEXT
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsStringFwd
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

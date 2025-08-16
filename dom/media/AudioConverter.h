@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 AudioConverter_h
-)
 #
 define
 AudioConverter_h

@@ -53,6 +53,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -61,13 +68,6 @@ h
 include
 "
 nsUnicharUtils
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

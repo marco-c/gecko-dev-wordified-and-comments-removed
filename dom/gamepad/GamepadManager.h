@@ -20,6 +20,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -40,11 +45,6 @@ GamepadHandle
 .
 h
 "
-#
-include
-<
-utility
->
 class
 nsGlobalWindowInner
 ;

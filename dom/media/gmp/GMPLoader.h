@@ -14,13 +14,6 @@ h
 #
 include
 "
-prlink
-.
-h
-"
-#
-include
-"
 gmp
 -
 entrypoints
@@ -40,6 +33,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+prlink
 .
 h
 "

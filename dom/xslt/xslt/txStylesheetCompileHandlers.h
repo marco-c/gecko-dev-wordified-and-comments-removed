@@ -14,14 +14,14 @@ h
 #
 include
 "
-txNamespaceMap
+txExpandedNameMap
 .
 h
 "
 #
 include
 "
-txExpandedNameMap
+txNamespaceMap
 .
 h
 "

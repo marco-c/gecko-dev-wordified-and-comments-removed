@@ -12,6 +12,13 @@ h
 #
 include
 "
+DOMSVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -90,13 +97,6 @@ mozilla
 dom
 /
 SVGUnitTypesBinding
-.
-h
-"
-#
-include
-"
-DOMSVGAnimatedTransformList
 .
 h
 "

@@ -7,13 +7,6 @@ mozilla_SourceLocation_h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Variant
@@ -24,6 +17,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

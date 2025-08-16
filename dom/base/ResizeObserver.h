@@ -63,7 +63,7 @@ mozilla
 /
 dom
 /
-DOMRect
+BindingDeclarations
 .
 h
 "
@@ -74,7 +74,7 @@ mozilla
 /
 dom
 /
-BindingDeclarations
+DOMRect
 .
 h
 "

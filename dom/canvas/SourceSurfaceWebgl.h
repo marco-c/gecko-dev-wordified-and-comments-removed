@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+WeakPtr
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-WeakPtr
+gfx
+/
+2D
 .
 h
 "

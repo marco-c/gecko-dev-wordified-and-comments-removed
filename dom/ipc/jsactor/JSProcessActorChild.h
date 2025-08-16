@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSActor
 .
 h
@@ -135,7 +146,6 @@ override
 ;
 protected
 :
-virtual
 void
 SendRawMessage
 (

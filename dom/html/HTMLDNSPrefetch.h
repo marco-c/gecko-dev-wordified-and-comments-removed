@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIDNSService
+.
+h
+"
+#
+include
+"
 nsIRequest
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsIDNSService
 .
 h
 "

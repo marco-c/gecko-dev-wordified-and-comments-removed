@@ -6,6 +6,11 @@ define
 _MTRANSPORTHANDLER_PARENT_H__
 #
 include
+<
+memory
+>
+#
+include
 "
 mozilla
 /
@@ -15,11 +20,6 @@ PMediaTransportParent
 .
 h
 "
-#
-include
-<
-memory
->
 namespace
 mozilla
 {

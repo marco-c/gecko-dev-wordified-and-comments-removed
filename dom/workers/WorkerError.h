@@ -7,6 +7,13 @@ mozilla_dom_workers_WorkerError_h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -23,13 +30,6 @@ mozilla
 dom
 /
 WorkerCommon
-.
-h
-"
-#
-include
-"
-jsapi
 .
 h
 "

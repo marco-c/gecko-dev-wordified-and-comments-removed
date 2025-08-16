@@ -7,14 +7,14 @@ HRTFPanner_h
 #
 include
 "
-FFTConvolver
+DelayBuffer
 .
 h
 "
 #
 include
 "
-DelayBuffer
+FFTConvolver
 .
 h
 "

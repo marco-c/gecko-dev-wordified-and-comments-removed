@@ -3,9 +3,7 @@ include
 "
 mozilla
 /
-dom
-/
-PGamepadTestChannelParent
+WeakPtr
 .
 h
 "
@@ -14,7 +12,9 @@ include
 "
 mozilla
 /
-WeakPtr
+dom
+/
+PGamepadTestChannelParent
 .
 h
 "

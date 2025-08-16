@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLPreElementBinding
+MappedDeclarationsBuilder
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-MappedDeclarationsBuilder
+dom
+/
+HTMLPreElementBinding
 .
 h
 "

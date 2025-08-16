@@ -7,13 +7,6 @@ mozilla_dom_WindowFeatures_h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -26,6 +19,13 @@ include
 mozilla
 /
 HashTable
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

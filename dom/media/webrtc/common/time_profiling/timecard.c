@@ -1,5 +1,12 @@
 #
 include
+"
+timecard
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -12,13 +19,6 @@ string
 .
 h
 >
-#
-include
-"
-timecard
-.
-h
-"
 #
 include
 "

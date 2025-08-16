@@ -7,14 +7,14 @@ mozilla_dom_PrivateAttribution_h
 #
 include
 "
-nsWrapperCache
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsWrapperCache
 .
 h
 "

@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFEOffsetElementBinding
+SVGFilterInstance
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-SVGFilterInstance
+dom
+/
+BindContext
 .
 h
 "
@@ -47,7 +47,7 @@ mozilla
 /
 dom
 /
-BindContext
+SVGFEOffsetElementBinding
 .
 h
 "

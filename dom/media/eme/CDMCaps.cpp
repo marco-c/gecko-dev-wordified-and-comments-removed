@@ -10,6 +10,13 @@ h
 #
 include
 "
+SamplesWaitingForKey
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EMEUtils
@@ -20,13 +27,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-SamplesWaitingForKey
 .
 h
 "

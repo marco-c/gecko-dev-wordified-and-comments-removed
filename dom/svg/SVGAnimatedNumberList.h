@@ -7,6 +7,13 @@ DOM_SVG_SVGANIMATEDNUMBERLIST_H_
 #
 include
 "
+SVGNumberList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -28,13 +35,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-SVGNumberList
 .
 h
 "

@@ -12,9 +12,7 @@ include
 "
 mozilla
 /
-dom
-/
-SafeRefPtr
+RefCounted
 .
 h
 "
@@ -23,7 +21,9 @@ include
 "
 mozilla
 /
-RefCounted
+dom
+/
+SafeRefPtr
 .
 h
 "

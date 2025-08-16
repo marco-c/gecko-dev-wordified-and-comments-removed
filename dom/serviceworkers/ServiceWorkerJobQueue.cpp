@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 ServiceWorkerJob
 .
 h
@@ -27,6 +20,13 @@ mozilla
 dom
 /
 WorkerCommon
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

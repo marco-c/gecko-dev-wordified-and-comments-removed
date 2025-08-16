@@ -7,13 +7,6 @@ FFTConvolver_h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FFTBlock
@@ -26,6 +19,13 @@ include
 mozilla
 /
 MemoryReporting
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-ServiceWorkerDescriptor
+UniquePtr
 .
 h
 "
@@ -29,7 +27,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+ServiceWorkerDescriptor
 .
 h
 "

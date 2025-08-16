@@ -7,14 +7,14 @@ CLIENTWEBGLEXTENSIONS_H_
 #
 include
 "
-WebGLExtensions
+ClientWebGLContext
 .
 h
 "
 #
 include
 "
-ClientWebGLContext
+WebGLExtensions
 .
 h
 "

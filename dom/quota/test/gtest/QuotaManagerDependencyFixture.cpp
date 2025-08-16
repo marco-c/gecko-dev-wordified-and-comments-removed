@@ -15,6 +15,13 @@ h
 #
 include
 "
+QuotaManagerTestHelpers
+.
+h
+"
+#
+include
+"
 mozIStorageService
 .
 h
@@ -157,13 +164,6 @@ h
 include
 "
 nsScriptSecurityManager
-.
-h
-"
-#
-include
-"
-QuotaManagerTestHelpers
 .
 h
 "

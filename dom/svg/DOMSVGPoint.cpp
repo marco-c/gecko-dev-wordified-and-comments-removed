@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -45,6 +38,13 @@ mozilla
 dom
 /
 SVGPointBinding
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

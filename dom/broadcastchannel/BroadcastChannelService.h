@@ -7,7 +7,7 @@ mozilla_dom_BroadcastChannelService_h
 #
 include
 "
-nsISupportsImpl
+nsClassHashtable
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsISupportsImpl
 .
 h
 "

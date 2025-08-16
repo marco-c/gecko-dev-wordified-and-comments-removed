@@ -17,7 +17,9 @@ h
 #
 include
 "
-nsContentUtils
+mozilla
+/
+TextEvents
 .
 h
 "
@@ -31,9 +33,7 @@ h
 #
 include
 "
-mozilla
-/
-TextEvents
+nsContentUtils
 .
 h
 "

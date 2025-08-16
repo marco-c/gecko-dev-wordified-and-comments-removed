@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsTHashSet
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -52,7 +54,7 @@ mozilla
 /
 webgpu
 /
-WebGPUTypes
+PWebGPUTypes
 .
 h
 "
@@ -63,7 +65,7 @@ mozilla
 /
 webgpu
 /
-PWebGPUTypes
+WebGPUTypes
 .
 h
 "
@@ -81,9 +83,7 @@ h
 #
 include
 "
-mozilla
-/
-DOMEventTargetHelper
+nsTHashSet
 .
 h
 "

@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-mozalloc
+MemoryReporting
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+mozalloc
 .
 h
 "

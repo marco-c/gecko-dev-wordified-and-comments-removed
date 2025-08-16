@@ -12,6 +12,13 @@ functional
 #
 include
 "
+PlatformEncoderModule
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MediaActorUtils
@@ -42,13 +49,6 @@ include
 mozilla
 /
 ShmemRecycleAllocator
-.
-h
-"
-#
-include
-"
-PlatformEncoderModule
 .
 h
 "

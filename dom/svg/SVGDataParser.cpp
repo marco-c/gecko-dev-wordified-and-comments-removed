@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsContentUtils
+SVGContentUtils
 .
 h
 "
 #
 include
 "
-SVGContentUtils
+nsContentUtils
 .
 h
 "

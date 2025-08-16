@@ -8,6 +8,13 @@ h
 #
 include
 "
+MediaControlKeySource
+.
+h
+"
+#
+include
+"
 MediaControlService
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 MediaControlUtils
-.
-h
-"
-#
-include
-"
-MediaControlKeySource
 .
 h
 "

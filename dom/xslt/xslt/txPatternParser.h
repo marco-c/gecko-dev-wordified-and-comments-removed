@@ -7,14 +7,14 @@ TX_PATTERNPARSER_H
 #
 include
 "
-txXSLTPatterns
+txExprParser
 .
 h
 "
 #
 include
 "
-txExprParser
+txXSLTPatterns
 .
 h
 "

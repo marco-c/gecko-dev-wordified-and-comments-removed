@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsString
+nsContentUtils
 .
 h
 "
@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsContentUtils
+nsString
 .
 h
 "

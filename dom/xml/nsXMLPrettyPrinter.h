@@ -7,14 +7,14 @@ nsXMLPrettyPrinter_h__
 #
 include
 "
-nsStubDocumentObserver
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsStubDocumentObserver
 .
 h
 "

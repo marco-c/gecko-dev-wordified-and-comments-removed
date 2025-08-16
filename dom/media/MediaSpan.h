@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 MediaSpan_h
-)
 #
 define
 MediaSpan_h

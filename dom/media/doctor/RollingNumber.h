@@ -6,6 +6,11 @@ define
 mozilla_RollingNumber_h_
 #
 include
+<
+limits
+>
+#
+include
 "
 mozilla
 /
@@ -22,11 +27,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-limits
->
 namespace
 mozilla
 {

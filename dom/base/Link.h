@@ -7,7 +7,11 @@ mozilla_dom_Link_h__
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+RustTypes
 .
 h
 "
@@ -21,11 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-RustTypes
+nsWrapperCache
 .
 h
 "

@@ -7,11 +7,7 @@ DOM_SVG_SVGMOTIONSMILANIMATIONFUNCTION_H_
 #
 include
 "
-mozilla
-/
-gfx
-/
-2D
+SVGMotionSMILType
 .
 h
 "
@@ -36,7 +32,11 @@ h
 #
 include
 "
-SVGMotionSMILType
+mozilla
+/
+gfx
+/
+2D
 .
 h
 "

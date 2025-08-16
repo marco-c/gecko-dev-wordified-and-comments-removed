@@ -18,7 +18,7 @@ mozilla
 /
 dom
 /
-WaveShaperNodeBinding
+TypedArray
 .
 h
 "
@@ -29,7 +29,7 @@ mozilla
 /
 dom
 /
-TypedArray
+WaveShaperNodeBinding
 .
 h
 "

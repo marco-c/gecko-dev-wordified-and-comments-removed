@@ -71,14 +71,14 @@ h
 #
 include
 "
-nsStreamUtils
+nsMimeTypes
 .
 h
 "
 #
 include
 "
-nsMimeTypes
+nsStreamUtils
 .
 h
 "

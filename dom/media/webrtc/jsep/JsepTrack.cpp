@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsep
 /
@@ -25,11 +30,6 @@ JsepTrackEncoding
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

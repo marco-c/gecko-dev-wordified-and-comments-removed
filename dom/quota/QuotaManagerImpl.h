@@ -21,6 +21,13 @@ h
 #
 include
 "
+OriginInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -28,13 +35,6 @@ dom
 quota
 /
 QuotaManager
-.
-h
-"
-#
-include
-"
-OriginInfo
 .
 h
 "

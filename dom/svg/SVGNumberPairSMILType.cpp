@@ -17,14 +17,14 @@ h
 #
 include
 "
-nsMathUtils
+nsDebug
 .
 h
 "
 #
 include
 "
-nsDebug
+nsMathUtils
 .
 h
 "

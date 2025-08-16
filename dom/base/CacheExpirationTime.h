@@ -23,14 +23,14 @@ h
 #
 include
 "
-prtime
+nsICacheEntry
 .
 h
 "
 #
 include
 "
-nsICacheEntry
+prtime
 .
 h
 "

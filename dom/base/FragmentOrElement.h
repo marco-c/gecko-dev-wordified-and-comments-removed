@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -62,13 +69,6 @@ h
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-nsAtomHashKeys
 .
 h
 "

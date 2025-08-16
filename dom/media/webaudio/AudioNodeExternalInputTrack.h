@@ -7,14 +7,14 @@ MOZILLA_AUDIONODEEXTERNALINPUTTRACK_H_
 #
 include
 "
-MediaTrackGraph
+AudioNodeTrack
 .
 h
 "
 #
 include
 "
-AudioNodeTrack
+MediaTrackGraph
 .
 h
 "

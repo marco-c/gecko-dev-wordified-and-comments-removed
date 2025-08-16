@@ -8,14 +8,14 @@ h
 #
 include
 "
-GMPPlatform
+GMPChild
 .
 h
 "
 #
 include
 "
-GMPChild
+GMPPlatform
 .
 h
 "

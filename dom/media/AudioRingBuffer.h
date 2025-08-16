@@ -6,6 +6,11 @@ define
 MOZILLA_AUDIO_RING_BUFFER_H_
 #
 include
+<
+functional
+>
+#
+include
 "
 AudioSampleFormat
 .
@@ -20,11 +25,6 @@ Span
 .
 h
 "
-#
-include
-<
-functional
->
 namespace
 mozilla
 {

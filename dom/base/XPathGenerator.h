@@ -7,14 +7,14 @@ XPATHGENERATOR_H__
 #
 include
 "
-nsString
+nsINode
 .
 h
 "
 #
 include
 "
-nsINode
+nsString
 .
 h
 "

@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-PRemoteWorkerServiceChild
+PRemoteWorkerNonLifeCycleOpControllerChild
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-PRemoteWorkerNonLifeCycleOpControllerChild
+PRemoteWorkerServiceChild
 .
 h
 "

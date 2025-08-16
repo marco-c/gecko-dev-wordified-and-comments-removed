@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Assertions
 .
 h
 "
@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-Assertions
+UniquePtr
 .
 h
 "

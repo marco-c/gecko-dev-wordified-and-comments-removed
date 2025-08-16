@@ -7,13 +7,6 @@ DOM_SVG_SVGLENGTH_H_
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -30,6 +23,13 @@ mozilla
 dom
 /
 SVGLengthBinding
+.
+h
+"
+#
+include
+"
+nsDebug
 .
 h
 "

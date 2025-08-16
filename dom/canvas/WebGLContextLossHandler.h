@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-WeakPtr
+RefPtr
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
+WeakPtr
 .
 h
 "

@@ -6,6 +6,11 @@ define
 mozilla_GraphRunner_h
 #
 include
+<
+thread
+>
+#
+include
 "
 GraphDriver
 .
@@ -27,11 +32,6 @@ Monitor
 .
 h
 "
-#
-include
-<
-thread
->
 struct
 PRThread
 ;

@@ -13,13 +13,6 @@ utility
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -117,6 +110,13 @@ dom
 quota
 /
 QuotaManager
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

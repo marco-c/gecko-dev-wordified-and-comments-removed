@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-PlacesEventCounts
+PlacesEventBinding
 .
 h
 "
@@ -43,7 +43,7 @@ mozilla
 /
 dom
 /
-PlacesEventBinding
+PlacesEventCounts
 .
 h
 "

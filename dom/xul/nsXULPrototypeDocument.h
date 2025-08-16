@@ -6,6 +6,11 @@ define
 nsXULPrototypeDocument_h__
 #
 include
+<
+functional
+>
+#
+include
 "
 js
 /
@@ -39,7 +44,7 @@ h
 #
 include
 "
-nsTArray
+nsCycleCollectionParticipant
 .
 h
 "
@@ -53,15 +58,10 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
+nsTArray
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsAtom
 ;

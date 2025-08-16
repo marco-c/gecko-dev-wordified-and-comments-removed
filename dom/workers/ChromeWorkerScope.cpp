@@ -8,7 +8,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+MemoryFunctions
 .
 h
 "
@@ -35,9 +37,7 @@ h
 #
 include
 "
-js
-/
-MemoryFunctions
+jsapi
 .
 h
 "

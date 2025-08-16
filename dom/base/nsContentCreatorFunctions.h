@@ -7,7 +7,11 @@ nsContentCreatorFunctions_h__
 #
 include
 "
-nsError
+mozilla
+/
+dom
+/
+FromParser
 .
 h
 "
@@ -21,11 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-FromParser
+nsError
 .
 h
 "

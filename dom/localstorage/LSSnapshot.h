@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
@@ -94,6 +87,13 @@ h
 include
 "
 nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "

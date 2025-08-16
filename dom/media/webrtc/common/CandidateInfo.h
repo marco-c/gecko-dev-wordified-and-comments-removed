@@ -7,12 +7,12 @@ _CANDIDATE_INFO_H__
 #
 include
 <
-string
+cstdint
 >
 #
 include
 <
-cstdint
+string
 >
 namespace
 mozilla

@@ -14,14 +14,14 @@ h
 #
 include
 "
-MediaInfo
+MediaCodecsSupport
 .
 h
 "
 #
 include
 "
-MediaCodecsSupport
+MediaInfo
 .
 h
 "

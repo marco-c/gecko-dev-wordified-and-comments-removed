@@ -12,14 +12,14 @@ cstddef
 #
 include
 "
-nsStringFwd
+FFmpegLibWrapper
 .
 h
 "
 #
 include
 "
-FFmpegLibWrapper
+nsStringFwd
 .
 h
 "

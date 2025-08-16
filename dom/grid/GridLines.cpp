@@ -26,7 +26,7 @@ mozilla
 /
 dom
 /
-GridBinding
+GridArea
 .
 h
 "
@@ -37,7 +37,7 @@ mozilla
 /
 dom
 /
-GridArea
+GridBinding
 .
 h
 "

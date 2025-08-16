@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -24,13 +31,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

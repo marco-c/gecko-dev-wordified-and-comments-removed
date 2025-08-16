@@ -14,6 +14,13 @@ h
 #
 include
 "
+Point
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -24,13 +31,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-Point
 .
 h
 "

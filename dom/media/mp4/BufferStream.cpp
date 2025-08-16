@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 MediaData
 .
@@ -19,11 +24,6 @@ MediaResource
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

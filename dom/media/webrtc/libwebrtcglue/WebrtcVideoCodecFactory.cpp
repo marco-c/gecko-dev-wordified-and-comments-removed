@@ -88,7 +88,7 @@ codecs
 /
 av1
 /
-libaom_av1_encoder
+dav1d_decoder
 .
 h
 "
@@ -103,7 +103,7 @@ codecs
 /
 av1
 /
-dav1d_decoder
+libaom_av1_encoder
 .
 h
 "

@@ -12,7 +12,7 @@ mozilla
 /
 dom
 /
-WorkerScope
+TimeoutManager
 .
 h
 "
@@ -23,7 +23,7 @@ mozilla
 /
 dom
 /
-TimeoutManager
+WorkerScope
 .
 h
 "

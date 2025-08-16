@@ -7,6 +7,13 @@ mozilla_dom_XRSession_h_
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -28,13 +35,6 @@ h
 include
 "
 nsRefreshObservers
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

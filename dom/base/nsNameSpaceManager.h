@@ -7,7 +7,9 @@ nsNameSpaceManager_h___
 #
 include
 "
-nsTHashMap
+mozilla
+/
+StaticPtr
 .
 h
 "
@@ -28,9 +30,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPtr
+nsTHashMap
 .
 h
 "

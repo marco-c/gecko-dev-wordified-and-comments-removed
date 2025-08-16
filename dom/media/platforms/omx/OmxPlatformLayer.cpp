@@ -8,13 +8,6 @@ h
 #
 include
 "
-OmxDataDecoder
-.
-h
-"
-#
-include
-"
 OMX_Component
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 OMX_VideoExt
+.
+h
+"
+#
+include
+"
+OmxDataDecoder
 .
 h
 "

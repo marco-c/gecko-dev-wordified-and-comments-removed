@@ -7,11 +7,6 @@ mozilla_dom_PrimitiveConversions_h
 #
 include
 <
-limits
->
-#
-include
-<
 math
 .
 h
@@ -22,6 +17,11 @@ include
 stdint
 .
 h
+>
+#
+include
+<
+limits
 >
 #
 include

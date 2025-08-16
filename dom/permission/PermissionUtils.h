@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-PermissionsBinding
+Maybe
 .
 h
 "
@@ -33,7 +31,7 @@ mozilla
 /
 dom
 /
-WorkerPrivate
+PermissionsBinding
 .
 h
 "
@@ -42,7 +40,9 @@ include
 "
 mozilla
 /
-Maybe
+dom
+/
+WorkerPrivate
 .
 h
 "

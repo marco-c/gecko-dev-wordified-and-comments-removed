@@ -23,9 +23,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerPrivate
+Preferences
 .
 h
 "
@@ -34,7 +32,9 @@ include
 "
 mozilla
 /
-Preferences
+dom
+/
+WorkerPrivate
 .
 h
 "

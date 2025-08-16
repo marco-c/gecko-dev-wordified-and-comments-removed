@@ -35,13 +35,6 @@ h
 #
 include
 "
-stun_msg
-.
-h
-"
-#
-include
-"
 dummysocket
 .
 h
@@ -50,6 +43,13 @@ h
 include
 "
 nr_socket_prsock
+.
+h
+"
+#
+include
+"
+stun_msg
 .
 h
 "

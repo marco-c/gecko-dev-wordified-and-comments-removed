@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsIScriptLoaderObserver
+nsIScriptElement
 .
 h
 "
 #
 include
 "
-nsIScriptElement
+nsIScriptLoaderObserver
 .
 h
 "

@@ -27,9 +27,7 @@ mozilla
 /
 dom
 /
-cache
-/
-Types
+SafeRefPtr
 .
 h
 "
@@ -40,7 +38,9 @@ mozilla
 /
 dom
 /
-SafeRefPtr
+cache
+/
+Types
 .
 h
 "

@@ -22,6 +22,13 @@ h
 #
 include
 "
+VideoOutput
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -30,13 +37,6 @@ h
 include
 "
 nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
-VideoOutput
 .
 h
 "

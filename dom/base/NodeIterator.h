@@ -7,13 +7,6 @@ mozilla_dom_NodeIterator_h
 #
 include
 "
-nsTraversal
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsStubMutationObserver
+.
+h
+"
+#
+include
+"
+nsTraversal
 .
 h
 "
@@ -283,7 +283,7 @@ aNode
 )
 ;
 void
-AdjustAfterRemoval
+AdjustForRemoval
 (
 nsINode
 *
@@ -294,9 +294,6 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 ;
 void

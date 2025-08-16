@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-HTMLOptionsCollectionBinding
+HTMLOptionElement
 .
 h
 "
@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-HTMLOptionElement
+HTMLOptionsCollectionBinding
 .
 h
 "

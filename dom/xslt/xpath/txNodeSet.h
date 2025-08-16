@@ -7,14 +7,14 @@ txNodeSet_h__
 #
 include
 "
-txExprResult
+nsError
 .
 h
 "
 #
 include
 "
-nsError
+txExprResult
 .
 h
 "

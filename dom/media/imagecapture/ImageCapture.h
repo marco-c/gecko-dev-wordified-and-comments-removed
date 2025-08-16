@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-ImageCaptureBinding
+Logging
 .
 h
 "
@@ -29,7 +27,9 @@ include
 "
 mozilla
 /
-Logging
+dom
+/
+ImageCaptureBinding
 .
 h
 "

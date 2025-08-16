@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIFormControl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -96,7 +89,7 @@ mozilla
 /
 dom
 /
-HiddenInputType
+HTMLInputElement
 .
 h
 "
@@ -107,7 +100,7 @@ mozilla
 /
 dom
 /
-HTMLInputElement
+HiddenInputType
 .
 h
 "
@@ -137,6 +130,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsIFormControl
 .
 h
 "

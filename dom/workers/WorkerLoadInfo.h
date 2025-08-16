@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-StorageAccess
+OriginTrials
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-OriginTrials
+StorageAccess
 .
 h
 "
@@ -56,9 +56,9 @@ include
 "
 mozilla
 /
-net
+dom
 /
-NeckoChannelParams
+ServiceWorkerRegistrationDescriptor
 .
 h
 "
@@ -69,7 +69,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerRegistrationDescriptor
+WorkerCSPContext
 .
 h
 "
@@ -89,9 +89,9 @@ include
 "
 mozilla
 /
-dom
+net
 /
-WorkerCSPContext
+NeckoChannelParams
 .
 h
 "

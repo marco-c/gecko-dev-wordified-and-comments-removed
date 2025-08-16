@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 SMILBoolType
 .
 h
@@ -39,6 +32,13 @@ include
 mozilla
 /
 SMILValue
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

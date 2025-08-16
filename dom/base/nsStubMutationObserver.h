@@ -7,14 +7,14 @@ nsStubMutationObserver_h_
 #
 include
 "
-nsTHashMap
+nsIMutationObserver
 .
 h
 "
 #
 include
 "
-nsIMutationObserver
+nsTHashMap
 .
 h
 "

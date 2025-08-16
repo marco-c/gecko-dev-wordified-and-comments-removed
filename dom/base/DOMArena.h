@@ -7,7 +7,9 @@ DOM_Arena_h___
 #
 include
 "
-nsISupportsImpl
+mozilla
+/
+mozalloc_oom
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-mozalloc_oom
+nsISupportsImpl
 .
 h
 "

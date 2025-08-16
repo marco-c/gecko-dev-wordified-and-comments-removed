@@ -7,6 +7,13 @@ DOM_SVG_SVGNUMBERLIST_H_
 #
 include
 "
+SVGElement
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -36,13 +43,6 @@ h
 include
 "
 nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
-SVGElement
 .
 h
 "

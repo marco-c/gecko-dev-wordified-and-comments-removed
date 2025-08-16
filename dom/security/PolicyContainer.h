@@ -7,13 +7,6 @@ PolicyContainer_h___
 #
 include
 "
-nsIPolicyContainer
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -29,6 +22,13 @@ h
 include
 "
 nsIIntegrityPolicy
+.
+h
+"
+#
+include
+"
+nsIPolicyContainer
 .
 h
 "

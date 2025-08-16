@@ -12,11 +12,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-TimeRangesBinding
+TimeUnits
 .
 h
 "
@@ -34,7 +30,11 @@ h
 #
 include
 "
-TimeUnits
+mozilla
+/
+dom
+/
+TimeRangesBinding
 .
 h
 "

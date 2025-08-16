@@ -49,7 +49,7 @@ mozilla
 /
 dom
 /
-MediaKeys
+MediaKeySessionBinding
 .
 h
 "
@@ -60,7 +60,7 @@ mozilla
 /
 dom
 /
-MediaKeySessionBinding
+MediaKeys
 .
 h
 "

@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-Event
+AnimationEventBinding
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-AnimationEventBinding
+Event
 .
 h
 "

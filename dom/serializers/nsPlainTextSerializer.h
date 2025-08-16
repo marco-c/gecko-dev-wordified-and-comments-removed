@@ -6,6 +6,11 @@ define
 nsPlainTextSerializer_h__
 #
 include
+<
+stack
+>
+#
+include
 "
 mozilla
 /
@@ -55,11 +60,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-stack
->
 class
 nsIContent
 ;

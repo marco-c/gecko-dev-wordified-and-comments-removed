@@ -51,14 +51,14 @@ h
 #
 include
 "
-nsISupports
+nsCycleCollectionParticipant
 .
 h
 "
 #
 include
 "
-nsCycleCollectionParticipant
+nsISupports
 .
 h
 "

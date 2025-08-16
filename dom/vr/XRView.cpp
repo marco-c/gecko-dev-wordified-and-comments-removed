@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-XRRigidTransform
+Pose
 .
 h
 "
@@ -36,7 +36,7 @@ mozilla
 /
 dom
 /
-Pose
+XRRigidTransform
 .
 h
 "

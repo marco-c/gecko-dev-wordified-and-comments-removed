@@ -46,14 +46,14 @@ h
 #
 include
 "
-nsISupports
+nsError
 .
 h
 "
 #
 include
 "
-nsError
+nsISupports
 .
 h
 "

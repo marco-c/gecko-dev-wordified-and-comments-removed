@@ -7,13 +7,6 @@ DOM_QUOTA_CLIENTDIRECTORYLOCK_H_
 #
 include
 "
-nsStringFwd
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -47,6 +40,13 @@ dom
 quota
 /
 PersistenceType
+.
+h
+"
+#
+include
+"
+nsStringFwd
 .
 h
 "

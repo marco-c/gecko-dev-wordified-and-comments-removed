@@ -32,14 +32,14 @@ h
 #
 include
 "
-nsIWebBrowserPersistDocument
+nsIInputStream
 .
 h
 "
 #
 include
 "
-nsIInputStream
+nsIWebBrowserPersistDocument
 .
 h
 "

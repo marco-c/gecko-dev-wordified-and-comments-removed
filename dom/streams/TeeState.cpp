@@ -37,7 +37,7 @@ mozilla
 /
 dom
 /
-ReadableStream
+Promise
 .
 h
 "
@@ -48,7 +48,7 @@ mozilla
 /
 dom
 /
-Promise
+ReadableStream
 .
 h
 "

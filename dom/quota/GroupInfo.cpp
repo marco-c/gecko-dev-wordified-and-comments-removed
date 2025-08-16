@@ -8,6 +8,13 @@ h
 #
 include
 "
+OriginInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -15,13 +22,6 @@ dom
 quota
 /
 AssertionsImpl
-.
-h
-"
-#
-include
-"
-OriginInfo
 .
 h
 "

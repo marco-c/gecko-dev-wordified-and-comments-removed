@@ -7,7 +7,7 @@ DOM_SMIL_SMILPARSERUTILS_H_
 #
 include
 "
-nsTArray
+SMILTimeValue
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-SMILTimeValue
+nsTArray
 .
 h
 "

@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsTHashMap
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+nsTHashMap
 .
 h
 "

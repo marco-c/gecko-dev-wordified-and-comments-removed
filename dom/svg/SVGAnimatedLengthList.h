@@ -7,6 +7,13 @@ DOM_SVG_SVGANIMATEDLENGTHLIST_H_
 #
 include
 "
+SVGLengthList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -28,13 +35,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-SVGLengthList
 .
 h
 "

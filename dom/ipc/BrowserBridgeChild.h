@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-PBrowserBridgeChild
+BrowserChild
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-BrowserChild
+PBrowserBridgeChild
 .
 h
 "
@@ -415,6 +415,7 @@ int32_t
 aAppUnitsPerDevPixel
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

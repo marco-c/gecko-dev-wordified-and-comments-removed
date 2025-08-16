@@ -1,13 +1,6 @@
 #
 include
 "
-TCPServerSocket
-.
-h
-"
-#
-include
-"
 TCPServerSocketParent
 .
 h
@@ -15,7 +8,7 @@ h
 #
 include
 "
-nsJSUtils
+TCPServerSocket
 .
 h
 "
@@ -61,6 +54,13 @@ mozilla
 dom
 /
 TCPServerSocketEvent
+.
+h
+"
+#
+include
+"
+nsJSUtils
 .
 h
 "

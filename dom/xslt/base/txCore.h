@@ -7,13 +7,6 @@ __txCore_h__
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -29,6 +22,13 @@ h
 include
 "
 nsStringFwd
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

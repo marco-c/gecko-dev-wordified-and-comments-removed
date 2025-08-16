@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -39,6 +32,13 @@ mozilla
 ipc
 /
 DataPipe
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

@@ -7,7 +7,9 @@ mozilla_dom_MIDIAccessManager_h
 #
 include
 "
-nsPIDOMWindow
+mozilla
+/
+Observer
 .
 h
 "
@@ -25,9 +27,7 @@ h
 #
 include
 "
-mozilla
-/
-Observer
+nsPIDOMWindow
 .
 h
 "

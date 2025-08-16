@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLParagraphElementBinding
+MappedDeclarationsBuilder
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-MappedDeclarationsBuilder
+dom
+/
+HTMLParagraphElementBinding
 .
 h
 "

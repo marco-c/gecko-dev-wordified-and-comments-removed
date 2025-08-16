@@ -7,6 +7,13 @@ GPU_ComputePassEncoder_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -18,7 +25,11 @@ h
 #
 include
 "
-ObjectModel
+mozilla
+/
+webgpu
+/
+CanvasContext
 .
 h
 "

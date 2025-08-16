@@ -31,9 +31,7 @@ include
 "
 mozilla
 /
-dom
-/
-Promise
+StaticPrefs_media
 .
 h
 "
@@ -42,7 +40,9 @@ include
 "
 mozilla
 /
-StaticPrefs_media
+dom
+/
+Promise
 .
 h
 "

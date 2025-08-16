@@ -7,14 +7,14 @@ MOZILLA_AUDIONODEENGINEGENERICIMPL_H_
 #
 include
 "
-AudioNodeEngineGeneric
+AlignmentUtils
 .
 h
 "
 #
 include
 "
-AlignmentUtils
+AudioNodeEngineGeneric
 .
 h
 "

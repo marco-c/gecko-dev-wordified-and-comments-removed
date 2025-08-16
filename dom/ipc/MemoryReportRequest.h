@@ -6,6 +6,11 @@ define
 mozilla_dom_MemoryReportRequest_h_
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -33,11 +38,6 @@ nsISupports
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsMemoryReporterManager
 ;

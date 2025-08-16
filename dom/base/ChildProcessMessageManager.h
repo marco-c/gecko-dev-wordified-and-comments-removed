@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-SyncMessageSender
+HoldDropJSObjects
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+dom
+/
+SyncMessageSender
 .
 h
 "

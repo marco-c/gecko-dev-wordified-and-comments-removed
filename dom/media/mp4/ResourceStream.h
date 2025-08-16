@@ -7,14 +7,14 @@ RESOURCESTREAM_H_
 #
 include
 "
-MediaResource
+ByteStream
 .
 h
 "
 #
 include
 "
-ByteStream
+MediaResource
 .
 h
 "

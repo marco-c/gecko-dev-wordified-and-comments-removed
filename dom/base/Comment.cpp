@@ -1,7 +1,11 @@
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+dom
+/
+Comment
 .
 h
 "
@@ -10,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-Comment
+IntegerPrintfMacros
 .
 h
 "
@@ -41,9 +43,7 @@ h
 #
 include
 "
-mozilla
-/
-IntegerPrintfMacros
+nsCOMPtr
 .
 h
 "

@@ -7,6 +7,13 @@ DOM_SVG_SVGANIMATEDPOINTLIST_H_
 #
 include
 "
+SVGPointList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -28,13 +35,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-SVGPointList
 .
 h
 "

@@ -7,14 +7,14 @@ mozilla_dom_XULResizerElement_h
 #
 include
 "
-nsXULElement
+Units
 .
 h
 "
 #
 include
 "
-Units
+nsXULElement
 .
 h
 "

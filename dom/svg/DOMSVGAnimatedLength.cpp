@@ -8,11 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedLengthBinding
+DOMSVGLength
 .
 h
 "
@@ -26,7 +22,11 @@ h
 #
 include
 "
-DOMSVGLength
+mozilla
+/
+dom
+/
+SVGAnimatedLengthBinding
 .
 h
 "

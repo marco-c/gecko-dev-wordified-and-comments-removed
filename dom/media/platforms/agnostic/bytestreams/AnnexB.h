@@ -14,6 +14,13 @@ h
 #
 include
 "
+H264
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -26,13 +33,6 @@ include
 mozilla
 /
 Result
-.
-h
-"
-#
-include
-"
-H264
 .
 h
 "

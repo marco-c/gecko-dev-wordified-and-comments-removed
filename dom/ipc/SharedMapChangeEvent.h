@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-MozSharedMapBinding
+Event
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-Event
+MozSharedMapBinding
 .
 h
 "

@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-ReportingBinding
+JSONWriter
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-JSONWriter
+dom
+/
+ReportingBinding
 .
 h
 "

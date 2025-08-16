@@ -7,13 +7,6 @@ ContainerWriter_h_
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 EncodedFrame
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 TrackMetadataBase
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerRef
+Mutex
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-Mutex
+dom
+/
+WorkerRef
 .
 h
 "

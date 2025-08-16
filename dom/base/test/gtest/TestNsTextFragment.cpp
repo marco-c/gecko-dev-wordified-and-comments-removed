@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTextFragment
 .
 h
@@ -68,13 +75,6 @@ h
 include
 "
 nsTextNode
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

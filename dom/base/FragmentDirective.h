@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-BindingDeclarations
+UniquePtr
 .
 h
 "
@@ -29,7 +27,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+BindingDeclarations
 .
 h
 "

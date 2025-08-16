@@ -50,7 +50,7 @@ include
 "
 mozilla
 /
-Maybe
+EventTargetAndLockCapability
 .
 h
 "
@@ -59,7 +59,7 @@ include
 "
 mozilla
 /
-EventTargetAndLockCapability
+Maybe
 .
 h
 "

@@ -11,14 +11,14 @@ C
 #
 include
 "
-nr_api
+async_timer
 .
 h
 "
 #
 include
 "
-async_timer
+nr_api
 .
 h
 "

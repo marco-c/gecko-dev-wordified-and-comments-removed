@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerCommon
+DOMEventTargetHelper
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 mozilla
 /
-DOMEventTargetHelper
+dom
+/
+WorkerCommon
 .
 h
 "

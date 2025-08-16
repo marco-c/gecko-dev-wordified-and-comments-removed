@@ -7,14 +7,14 @@ mozilla_dom_XRNativeOriginLocalFloor_h_
 #
 include
 "
-gfxVR
+XRNativeOrigin
 .
 h
 "
 #
 include
 "
-XRNativeOrigin
+gfxVR
 .
 h
 "

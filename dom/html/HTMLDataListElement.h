@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsContentList
 .
 h
 "
 #
 include
 "
-nsContentList
+nsGenericHTMLElement
 .
 h
 "

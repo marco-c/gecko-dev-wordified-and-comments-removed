@@ -21,14 +21,14 @@ h
 #
 include
 "
-nsUnicharUtils
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsUnicharUtils
 .
 h
 "

@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSPViolationData
+StaticPrefs_security
 .
 h
 "
@@ -22,7 +20,7 @@ mozilla
 /
 dom
 /
-nsCSPUtils
+CSPViolationData
 .
 h
 "
@@ -42,7 +40,9 @@ include
 "
 mozilla
 /
-StaticPrefs_security
+dom
+/
+nsCSPUtils
 .
 h
 "

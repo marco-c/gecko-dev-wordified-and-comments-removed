@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 MediaData_h
-)
 #
 define
 MediaData_h

@@ -42,7 +42,7 @@ include
 "
 mozilla
 /
-TimeStamp
+Services
 .
 h
 "
@@ -60,9 +60,7 @@ include
 "
 mozilla
 /
-dom
-/
-Document
+TimeStamp
 .
 h
 "
@@ -71,7 +69,9 @@ include
 "
 mozilla
 /
-Services
+dom
+/
+Document
 .
 h
 "

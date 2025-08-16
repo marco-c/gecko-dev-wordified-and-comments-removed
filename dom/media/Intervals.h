@@ -17,7 +17,7 @@ type_traits
 #
 include
 "
-nsTArray
+nsPrintfCString
 .
 h
 "
@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsPrintfCString
+nsTArray
 .
 h
 "

@@ -17,6 +17,13 @@ cstring
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 js
 /
 StructuredClone
@@ -128,13 +135,6 @@ h
 include
 "
 secoidt
-.
-h
-"
-#
-include
-"
-ScopedNSSTypes
 .
 h
 "

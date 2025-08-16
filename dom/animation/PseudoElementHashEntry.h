@@ -7,11 +7,7 @@ mozilla_PseudoElementHashEntry_h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+PLDHashTable
 .
 h
 "
@@ -36,7 +32,11 @@ h
 #
 include
 "
-PLDHashTable
+mozilla
+/
+dom
+/
+Element
 .
 h
 "

@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 txLog
 .
@@ -19,11 +24,6 @@ txXPathTreeWalker
 .
 h
 "
-#
-include
-<
-algorithm
->
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING

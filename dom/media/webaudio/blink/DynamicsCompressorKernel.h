@@ -7,13 +7,6 @@ DynamicsCompressorKernel_h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting
@@ -26,6 +19,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

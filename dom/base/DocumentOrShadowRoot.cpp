@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsTHashtable
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -144,6 +137,13 @@ h
 include
 "
 nsNameSpaceManager
+.
+h
+"
+#
+include
+"
+nsTHashtable
 .
 h
 "

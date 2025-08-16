@@ -8,6 +8,13 @@ h
 #
 include
 "
+CacheLoadHandler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -15,13 +22,6 @@ dom
 workerinternals
 /
 ScriptLoader
-.
-h
-"
-#
-include
-"
-CacheLoadHandler
 .
 h
 "

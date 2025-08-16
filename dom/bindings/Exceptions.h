@@ -14,6 +14,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-jsapi
 .
 h
 "

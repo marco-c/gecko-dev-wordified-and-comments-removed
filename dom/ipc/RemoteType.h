@@ -7,14 +7,14 @@ mozilla_dom_RemoteType_h
 #
 include
 "
-nsString
+nsReadableUtils
 .
 h
 "
 #
 include
 "
-nsReadableUtils
+nsString
 .
 h
 "

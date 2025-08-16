@@ -8,6 +8,13 @@ h
 #
 include
 "
+mozIMozIntl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -24,13 +31,6 @@ mozilla
 intl
 /
 LocaleService
-.
-h
-"
-#
-include
-"
-mozIMozIntl
 .
 h
 "

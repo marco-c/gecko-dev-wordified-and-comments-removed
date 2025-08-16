@@ -33,9 +33,7 @@ mozilla
 /
 webgpu
 /
-ffi
-/
-wgpu
+WebGPUTypes
 .
 h
 "
@@ -46,7 +44,9 @@ mozilla
 /
 webgpu
 /
-WebGPUTypes
+ffi
+/
+wgpu
 .
 h
 "

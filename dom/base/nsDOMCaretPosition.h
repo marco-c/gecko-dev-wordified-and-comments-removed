@@ -7,14 +7,14 @@ nsDOMCaretPosition_h
 #
 include
 "
-nsCycleCollectionParticipant
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsCycleCollectionParticipant
 .
 h
 "

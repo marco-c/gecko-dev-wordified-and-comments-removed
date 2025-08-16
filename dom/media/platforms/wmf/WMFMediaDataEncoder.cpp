@@ -7,6 +7,13 @@ h
 "
 #
 include
+<
+comdef
+.
+h
+>
+#
+include
 "
 ImageContainer
 .
@@ -54,13 +61,6 @@ WMFUtils
 .
 h
 "
-#
-include
-<
-comdef
-.
-h
->
 #
 include
 "

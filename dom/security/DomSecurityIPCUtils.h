@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsILoadInfo
+nsIContentSecurityPolicy
 .
 h
 "
 #
 include
 "
-nsIContentSecurityPolicy
+nsILoadInfo
 .
 h
 "

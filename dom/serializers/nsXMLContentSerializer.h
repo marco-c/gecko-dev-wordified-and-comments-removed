@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIContentSerializer
 .
 h
@@ -30,7 +37,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsString
 .
 h
 "
@@ -38,13 +45,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

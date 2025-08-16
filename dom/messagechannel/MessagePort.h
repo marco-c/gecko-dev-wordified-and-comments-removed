@@ -27,9 +27,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMTypes
+UniquePtr
 .
 h
 "
@@ -38,7 +36,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+DOMTypes
 .
 h
 "

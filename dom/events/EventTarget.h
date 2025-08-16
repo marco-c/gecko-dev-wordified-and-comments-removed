@@ -18,6 +18,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -26,13 +33,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-nsAtom
 .
 h
 "

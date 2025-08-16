@@ -8,6 +8,13 @@ h
 #
 include
 "
+PlatformDecoderModule
+.
+h
+"
+#
+include
+"
 WMFUtils
 .
 h
@@ -18,13 +25,6 @@ include
 mozilla
 /
 Logging
-.
-h
-"
-#
-include
-"
-nsThreadUtils
 .
 h
 "
@@ -53,7 +53,7 @@ h
 #
 include
 "
-PlatformDecoderModule
+nsThreadUtils
 .
 h
 "

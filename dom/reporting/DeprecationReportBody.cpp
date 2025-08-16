@@ -12,11 +12,9 @@ h
 #
 include
 "
-mozilla
+js
 /
-dom
-/
-ReportingBinding
+Date
 .
 h
 "
@@ -32,9 +30,11 @@ h
 #
 include
 "
-js
+mozilla
 /
-Date
+dom
+/
+ReportingBinding
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+RemoteMediaManagerChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EMEUtils
@@ -54,13 +61,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-RemoteMediaManagerChild
 .
 h
 "

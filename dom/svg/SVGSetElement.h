@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGAnimationElement
+SMILSetAnimationFunction
 .
 h
 "
@@ -29,7 +27,9 @@ include
 "
 mozilla
 /
-SMILSetAnimationFunction
+dom
+/
+SVGAnimationElement
 .
 h
 "

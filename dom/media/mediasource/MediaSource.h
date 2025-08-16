@@ -14,6 +14,13 @@ h
 #
 include
 "
+TimeUnits
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI
@@ -106,13 +113,6 @@ h
 include
 "
 nscore
-.
-h
-"
-#
-include
-"
-TimeUnits
 .
 h
 "

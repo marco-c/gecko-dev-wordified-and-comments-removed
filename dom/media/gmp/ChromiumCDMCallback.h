@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-MediaKeyStatusMapBinding
+MediaKeyMessageEventBinding
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-MediaKeyMessageEventBinding
+MediaKeyStatusMapBinding
 .
 h
 "

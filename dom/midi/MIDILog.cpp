@@ -12,7 +12,7 @@ mozilla
 /
 dom
 /
-MIDITypes
+MIDIPortBinding
 .
 h
 "
@@ -23,7 +23,7 @@ mozilla
 /
 dom
 /
-MIDIPortBinding
+MIDITypes
 .
 h
 "

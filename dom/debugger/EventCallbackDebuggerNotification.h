@@ -23,9 +23,7 @@ include
 "
 mozilla
 /
-dom
-/
-Event
+RefPtr
 .
 h
 "
@@ -34,7 +32,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+Event
 .
 h
 "

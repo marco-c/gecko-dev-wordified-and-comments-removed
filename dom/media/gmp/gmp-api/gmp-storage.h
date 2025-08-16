@@ -6,6 +6,13 @@ define
 GMP_STORAGE_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 gmp
 -
@@ -13,13 +20,6 @@ errors
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 #
 define
 GMP_MAX_RECORD_SIZE

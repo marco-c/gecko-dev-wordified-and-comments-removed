@@ -6,6 +6,11 @@ define
 _PARSINGRESULTCOMPARER_H_
 #
 include
+<
+string
+>
+#
+include
 "
 sdp
 /
@@ -22,11 +27,6 @@ SdpPref
 .
 h
 "
-#
-include
-<
-string
->
 namespace
 mozilla
 {

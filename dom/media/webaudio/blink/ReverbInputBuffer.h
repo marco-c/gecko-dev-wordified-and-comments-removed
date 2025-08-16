@@ -7,13 +7,6 @@ ReverbInputBuffer_h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -26,6 +19,13 @@ include
 mozilla
 /
 MemoryReporting
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

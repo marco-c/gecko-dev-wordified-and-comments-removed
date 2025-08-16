@@ -17,14 +17,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsIThread
 .
 h
 "
 #
 include
 "
-nsIThread
+nsThreadUtils
 .
 h
 "

@@ -7,13 +7,6 @@ DelayBuffer_h_
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 AudioBlock
 .
 h
@@ -33,6 +26,13 @@ mozilla
 dom
 /
 AudioNodeBinding
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

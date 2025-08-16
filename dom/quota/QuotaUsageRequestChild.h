@@ -7,13 +7,6 @@ DOM_QUOTA_QUOTAUSAGEREQUESTCHILD_H_
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -30,6 +23,13 @@ dom
 quota
 /
 PQuotaUsageRequestChild
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

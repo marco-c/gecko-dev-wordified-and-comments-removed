@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-PMediaTransportChild
+Mutex
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-Mutex
+dom
+/
+PMediaTransportChild
 .
 h
 "

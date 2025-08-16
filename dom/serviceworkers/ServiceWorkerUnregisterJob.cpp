@@ -8,6 +8,13 @@ h
 #
 include
 "
+ServiceWorkerManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -54,13 +61,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-ServiceWorkerManager
 .
 h
 "

@@ -24,9 +24,7 @@ include
 "
 mozilla
 /
-dom
-/
-StorageBinding
+Preferences
 .
 h
 "
@@ -35,7 +33,9 @@ include
 "
 mozilla
 /
-Preferences
+dom
+/
+StorageBinding
 .
 h
 "

@@ -12,9 +12,7 @@ include
 "
 mozilla
 /
-dom
-/
-L10nOverlays
+NullPrincipal
 .
 h
 "
@@ -36,7 +34,7 @@ mozilla
 /
 dom
 /
-L10nOverlaysBinding
+Element
 .
 h
 "
@@ -47,7 +45,7 @@ mozilla
 /
 dom
 /
-Element
+L10nOverlays
 .
 h
 "
@@ -56,7 +54,9 @@ include
 "
 mozilla
 /
-NullPrincipal
+dom
+/
+L10nOverlaysBinding
 .
 h
 "

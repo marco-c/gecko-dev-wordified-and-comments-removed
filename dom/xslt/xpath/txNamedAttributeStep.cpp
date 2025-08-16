@@ -8,6 +8,13 @@ h
 #
 include
 "
+txExpr
+.
+h
+"
+#
+include
+"
 txIXPathContext
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 txNodeSet
-.
-h
-"
-#
-include
-"
-txExpr
 .
 h
 "

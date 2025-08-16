@@ -12,11 +12,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-GeolocationPositionErrorBinding
+Geolocation
 .
 h
 "
@@ -32,7 +28,11 @@ h
 #
 include
 "
-Geolocation
+mozilla
+/
+dom
+/
+GeolocationPositionErrorBinding
 .
 h
 "

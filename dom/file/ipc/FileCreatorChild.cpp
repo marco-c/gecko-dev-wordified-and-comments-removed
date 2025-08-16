@@ -23,7 +23,7 @@ mozilla
 /
 dom
 /
-Promise
+IPCBlobUtils
 .
 h
 "
@@ -34,7 +34,7 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+Promise
 .
 h
 "

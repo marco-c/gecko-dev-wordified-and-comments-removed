@@ -8,7 +8,7 @@ h
 #
 include
 "
-gfxPlatform
+ImageContainer
 .
 h
 "
@@ -16,6 +16,13 @@ h
 include
 "
 gfx2DGlue
+.
+h
+"
+#
+include
+"
+gfxPlatform
 .
 h
 "
@@ -52,13 +59,6 @@ h
 include
 "
 nsRegion
-.
-h
-"
-#
-include
-"
-ImageContainer
 .
 h
 "

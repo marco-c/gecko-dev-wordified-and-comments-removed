@@ -8,14 +8,14 @@ h
 #
 include
 "
-txXMLUtils
+txExpandedName
 .
 h
 "
 #
 include
 "
-txExpandedName
+txXMLUtils
 .
 h
 "

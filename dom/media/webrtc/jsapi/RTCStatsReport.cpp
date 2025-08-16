@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebrtcGlobal
+.
+h
+"
+#
+include
+"
 libwebrtcglue
 /
 SystemTime
@@ -29,13 +36,6 @@ h
 include
 "
 nsRFPService
-.
-h
-"
-#
-include
-"
-WebrtcGlobal
 .
 h
 "

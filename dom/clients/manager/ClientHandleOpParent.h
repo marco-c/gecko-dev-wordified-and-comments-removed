@@ -7,6 +7,13 @@ _mozilla_dom_ClientHandleOpParent_h
 #
 include
 "
+ClientHandleParent
+.
+h
+"
+#
+include
+"
 ClientOpPromise
 .
 h
@@ -19,13 +26,6 @@ mozilla
 dom
 /
 PClientHandleOpParent
-.
-h
-"
-#
-include
-"
-ClientHandleParent
 .
 h
 "

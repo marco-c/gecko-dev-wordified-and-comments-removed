@@ -20,13 +20,6 @@ utility
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 ForOfIterator
@@ -39,6 +32,13 @@ include
 js
 /
 PropertyAndElement
+.
+h
+"
+#
+include
+"
+jsapi
 .
 h
 "

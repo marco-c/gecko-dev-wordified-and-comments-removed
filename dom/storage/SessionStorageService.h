@@ -7,13 +7,6 @@ DOM_STORAGE_SESSIONSTORAGESERVICE_H_
 #
 include
 "
-nsISessionStorageService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Result
@@ -39,6 +32,13 @@ mozilla
 dom
 /
 PBackgroundSessionStorageServiceChild
+.
+h
+"
+#
+include
+"
+nsISessionStorageService
 .
 h
 "

@@ -14,14 +14,14 @@ h
 #
 include
 "
-nsStringFwd
+nsINotificationHandler
 .
 h
 "
 #
 include
 "
-nsINotificationHandler
+nsStringFwd
 .
 h
 "

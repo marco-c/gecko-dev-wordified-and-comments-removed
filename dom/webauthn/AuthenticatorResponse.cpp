@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-Base64
+dom
+/
+AuthenticatorResponse
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-AuthenticatorResponse
+Base64
 .
 h
 "

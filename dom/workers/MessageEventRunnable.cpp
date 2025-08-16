@@ -8,6 +8,13 @@ h
 #
 include
 "
+WorkerScope
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -42,13 +49,6 @@ h
 include
 "
 nsQueryObject
-.
-h
-"
-#
-include
-"
-WorkerScope
 .
 h
 "

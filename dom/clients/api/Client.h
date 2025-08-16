@@ -16,9 +16,7 @@ include
 "
 mozilla
 /
-dom
-/
-ClientBinding
+StorageAccess
 .
 h
 "
@@ -27,7 +25,9 @@ include
 "
 mozilla
 /
-StorageAccess
+dom
+/
+ClientBinding
 .
 h
 "

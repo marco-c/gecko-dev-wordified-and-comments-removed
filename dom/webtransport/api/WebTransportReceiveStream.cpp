@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-UnderlyingSourceCallbackHelpers
+ReadableStream
 .
 h
 "
@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-ReadableStream
+UnderlyingSourceCallbackHelpers
 .
 h
 "

@@ -7,14 +7,14 @@ AudioParamMap_h_
 #
 include
 "
-nsWrapperCache
+AudioWorkletNode
 .
 h
 "
 #
 include
 "
-AudioWorkletNode
+nsWrapperCache
 .
 h
 "

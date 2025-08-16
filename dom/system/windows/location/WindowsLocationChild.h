@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-PWindowsLocationChild
+WeakPtr
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-WeakPtr
+dom
+/
+PWindowsLocationChild
 .
 h
 "

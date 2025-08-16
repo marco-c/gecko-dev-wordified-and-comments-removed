@@ -8,6 +8,13 @@ h
 #
 include
 "
+PLDHashTable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting
@@ -17,7 +24,7 @@ h
 #
 include
 "
-PLDHashTable
+nsAtom
 .
 h
 "
@@ -25,13 +32,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsAtom
 .
 h
 "

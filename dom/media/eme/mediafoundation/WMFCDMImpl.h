@@ -43,9 +43,7 @@ include
 "
 mozilla
 /
-media
-/
-MediaUtils
+MFCDMChild
 .
 h
 "
@@ -54,7 +52,9 @@ include
 "
 mozilla
 /
-MFCDMChild
+media
+/
+MediaUtils
 .
 h
 "

@@ -8,7 +8,9 @@ h
 #
 include
 "
-nsPIDOMWindow
+mozilla
+/
+StaticPrefs_media
 .
 h
 "
@@ -37,9 +39,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_media
+nsPIDOMWindow
 .
 h
 "

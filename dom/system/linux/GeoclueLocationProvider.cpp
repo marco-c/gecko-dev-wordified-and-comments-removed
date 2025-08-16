@@ -24,6 +24,13 @@ h
 #
 include
 "
+MLSFallback
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FloatingPoint
@@ -132,13 +139,6 @@ mozilla
 glean
 /
 DomGeolocationMetrics
-.
-h
-"
-#
-include
-"
-MLSFallback
 .
 h
 "

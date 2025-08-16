@@ -16,6 +16,13 @@ h
 #
 include
 "
+AudioConverter
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -26,13 +33,6 @@ include
 mozilla
 /
 Vector
-.
-h
-"
-#
-include
-"
-AudioConverter
 .
 h
 "

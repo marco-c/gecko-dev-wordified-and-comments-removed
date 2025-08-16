@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaController
+MediaControlService
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-MediaControlService
+MediaController
 .
 h
 "

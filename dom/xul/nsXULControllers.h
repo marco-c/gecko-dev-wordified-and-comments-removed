@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsTArray
+nsCycleCollectionParticipant
 .
 h
 "
@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
+nsTArray
 .
 h
 "

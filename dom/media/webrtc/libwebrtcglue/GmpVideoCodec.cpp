@@ -1,14 +1,14 @@
 #
 include
 "
-WebrtcGmpVideoCodec
+GmpVideoCodec
 .
 h
 "
 #
 include
 "
-GmpVideoCodec
+WebrtcGmpVideoCodec
 .
 h
 "

@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -71,6 +64,13 @@ h
 include
 "
 nsIURI
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

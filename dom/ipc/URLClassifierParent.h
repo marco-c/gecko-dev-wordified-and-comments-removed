@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-PURLClassifierParent
+PURLClassifierLocalByNameParent
 .
 h
 "
@@ -44,7 +44,7 @@ mozilla
 /
 dom
 /
-PURLClassifierLocalByNameParent
+PURLClassifierParent
 .
 h
 "

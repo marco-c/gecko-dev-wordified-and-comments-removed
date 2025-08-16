@@ -7,7 +7,7 @@ TX_TXSTYLESHEET_H
 #
 include
 "
-txOutputFormat
+nsISupportsImpl
 .
 h
 "
@@ -28,14 +28,14 @@ h
 #
 include
 "
-txXSLTPatterns
+txOutputFormat
 .
 h
 "
 #
 include
 "
-nsISupportsImpl
+txXSLTPatterns
 .
 h
 "

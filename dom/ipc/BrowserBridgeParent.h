@@ -22,9 +22,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-IdType
+WindowGlobalTypes
 .
 h
 "
@@ -35,7 +33,9 @@ mozilla
 /
 dom
 /
-WindowGlobalTypes
+ipc
+/
+IdType
 .
 h
 "

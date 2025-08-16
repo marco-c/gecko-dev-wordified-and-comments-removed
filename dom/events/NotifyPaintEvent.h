@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-Event
+BindingDeclarations
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-BindingDeclarations
+Event
 .
 h
 "

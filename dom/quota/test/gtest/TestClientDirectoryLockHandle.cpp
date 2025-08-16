@@ -1,6 +1,13 @@
 #
 include
 "
+QuotaManagerDependencyFixture
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -21,13 +28,6 @@ dom
 quota
 /
 ConditionalCompilation
-.
-h
-"
-#
-include
-"
-QuotaManagerDependencyFixture
 .
 h
 "

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlertNotification
@@ -77,6 +70,13 @@ h
 include
 "
 nsIServiceWorkerManager
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

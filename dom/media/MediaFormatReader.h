@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-TimeStamp
+ThreadSafeWeakPtr
 .
 h
 "
@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-ThreadSafeWeakPtr
+TimeStamp
 .
 h
 "

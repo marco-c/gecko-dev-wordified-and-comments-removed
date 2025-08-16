@@ -43,7 +43,7 @@ mozilla
 /
 dom
 /
-ReadableStreamBYOBReader
+ReadableStream
 .
 h
 "
@@ -54,7 +54,7 @@ mozilla
 /
 dom
 /
-ReadableStream
+ReadableStreamBYOBReader
 .
 h
 "

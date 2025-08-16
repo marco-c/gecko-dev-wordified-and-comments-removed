@@ -7,14 +7,14 @@ TRANSFRMX_XML_EVENT_HANDLER_H
 #
 include
 "
-txCore
+nsAtom
 .
 h
 "
 #
 include
 "
-nsAtom
+txCore
 .
 h
 "

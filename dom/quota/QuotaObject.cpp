@@ -15,6 +15,13 @@ h
 #
 include
 "
+RemoteQuotaObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -99,13 +106,6 @@ h
 include
 "
 nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
-RemoteQuotaObject
 .
 h
 "

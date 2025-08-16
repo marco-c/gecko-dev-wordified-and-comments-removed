@@ -7,6 +7,13 @@ AudioDestinationNode_h_
 #
 include
 "
+AudioChannelAgent
+.
+h
+"
+#
+include
+"
 AudioChannelService
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 AudioNode
-.
-h
-"
-#
-include
-"
-AudioChannelAgent
 .
 h
 "

@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h
@@ -207,13 +214,6 @@ h
 include
 "
 nsPIDOMWindow
-.
-h
-"
-#
-include
-"
-nsGlobalWindowInner
 .
 h
 "

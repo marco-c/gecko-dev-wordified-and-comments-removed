@@ -94,9 +94,9 @@ include
 "
 mozilla
 /
-gfx
+dom
 /
-Rect
+MFCDMSerializers
 .
 h
 "
@@ -105,9 +105,9 @@ include
 "
 mozilla
 /
-dom
+gfx
 /
-MFCDMSerializers
+Rect
 .
 h
 "

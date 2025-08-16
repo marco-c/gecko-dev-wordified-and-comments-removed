@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsXHTMLContentSerializer
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsXHTMLContentSerializer
 .
 h
 "

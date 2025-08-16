@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsError
+.
+h
+"
+#
+include
+"
 nsIConstraintValidation
 .
 h
@@ -58,13 +65,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsError
 .
 h
 "

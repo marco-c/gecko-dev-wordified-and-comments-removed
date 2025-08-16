@@ -7,6 +7,13 @@ DOM_MEDIA_WEBRTC_LIBWEBRTCGLUE_WEBRTCENVIRONMENTWRAPPER_H_
 #
 include
 "
+SystemTime
+.
+h
+"
+#
+include
+"
 domstubs
 .
 h
@@ -24,13 +31,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-SystemTime
 .
 h
 "

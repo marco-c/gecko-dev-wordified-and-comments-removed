@@ -1,6 +1,13 @@
 #
 include
 "
+WebTaskSchedulerMainThread
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -13,13 +20,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-WebTaskSchedulerMainThread
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+ADTSDemuxer
+.
+h
+"
+#
+include
+"
 BitWriter
 .
 h
@@ -50,13 +57,6 @@ include
 mozilla
 /
 Logging
-.
-h
-"
-#
-include
-"
-ADTSDemuxer
 .
 h
 "

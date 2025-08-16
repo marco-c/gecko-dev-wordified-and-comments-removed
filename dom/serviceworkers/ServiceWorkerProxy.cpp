@@ -15,6 +15,13 @@ h
 #
 include
 "
+ServiceWorkerInfo
+.
+h
+"
+#
+include
+"
 ServiceWorkerManager
 .
 h
@@ -63,13 +70,6 @@ mozilla
 ipc
 /
 BackgroundParent
-.
-h
-"
-#
-include
-"
-ServiceWorkerInfo
 .
 h
 "

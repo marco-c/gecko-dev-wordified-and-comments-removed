@@ -8,6 +8,13 @@ h
 #
 include
 "
+AnimationUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -24,13 +31,6 @@ mozilla
 dom
 /
 DocumentTimelineBinding
-.
-h
-"
-#
-include
-"
-AnimationUtils
 .
 h
 "

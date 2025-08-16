@@ -234,6 +234,12 @@ bool
 aAbnormal
 )
 ;
+bool
+IsAllowedToClose
+(
+)
+const
+;
 void
 AllowToClose
 (

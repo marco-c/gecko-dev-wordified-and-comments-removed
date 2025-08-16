@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-StaticPrefs_media
+Preferences
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-Preferences
+StaticPrefs_media
 .
 h
 "

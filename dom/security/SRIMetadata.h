@@ -7,7 +7,7 @@ mozilla_dom_SRIMetadata_h
 #
 include
 "
-nsTArray
+SRICheck
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-SRICheck
+nsTArray
 .
 h
 "

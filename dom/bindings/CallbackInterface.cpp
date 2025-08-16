@@ -12,13 +12,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 CallAndConstruct
@@ -40,6 +33,13 @@ include
 js
 /
 PropertyAndElement
+.
+h
+"
+#
+include
+"
+jsapi
 .
 h
 "

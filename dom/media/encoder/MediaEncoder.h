@@ -42,6 +42,13 @@ h
 #
 include
 "
+TrackEncoder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -79,13 +86,6 @@ h
 include
 "
 nsIMemoryReporter
-.
-h
-"
-#
-include
-"
-TrackEncoder
 .
 h
 "

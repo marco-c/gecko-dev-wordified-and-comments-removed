@@ -7,7 +7,7 @@ mozilla_dom_audio_channel_agent_h__
 #
 include
 "
-nsIAudioChannelAgent
+nsCOMPtr
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIAudioChannelAgent
 .
 h
 "

@@ -7,13 +7,6 @@ DOM_SVG_SVGELEMENTFACTORY_H_
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlreadyAddRefed
@@ -39,6 +32,13 @@ mozilla
 dom
 /
 NodeInfo
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

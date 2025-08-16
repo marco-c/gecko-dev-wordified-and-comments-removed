@@ -10,6 +10,13 @@ h
 #
 include
 "
+ConsoleUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -26,13 +33,6 @@ mozilla
 net
 /
 NeckoChannelParams
-.
-h
-"
-#
-include
-"
-ConsoleUtils
 .
 h
 "

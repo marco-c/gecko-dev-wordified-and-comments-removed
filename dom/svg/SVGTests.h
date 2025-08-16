@@ -7,13 +7,6 @@ DOM_SVG_SVGTESTS_H_
 #
 include
 "
-nsStringFwd
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlreadyAddRefed
@@ -26,6 +19,13 @@ include
 mozilla
 /
 SVGStringList
+.
+h
+"
+#
+include
+"
+nsStringFwd
 .
 h
 "

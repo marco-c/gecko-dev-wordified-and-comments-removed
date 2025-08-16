@@ -55,7 +55,7 @@ h
 #
 include
 "
-MFMediaEngineVideoStream
+MFMediaEngineStream
 .
 h
 "
@@ -69,7 +69,7 @@ h
 #
 include
 "
-MFMediaEngineStream
+MFMediaEngineVideoStream
 .
 h
 "
@@ -162,9 +162,9 @@ include
 "
 mozilla
 /
-ipc
+gfx
 /
-UtilityProcessChild
+DeviceManagerDx
 .
 h
 "
@@ -184,9 +184,9 @@ include
 "
 mozilla
 /
-gfx
+ipc
 /
-DeviceManagerDx
+UtilityProcessChild
 .
 h
 "

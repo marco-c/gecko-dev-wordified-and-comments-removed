@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-CDATASectionBinding
+IntegerPrintfMacros
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-IntegerPrintfMacros
+dom
+/
+CDATASectionBinding
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_MediaChild_h
 #
 include
 "
+MediaUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 media
@@ -23,13 +30,6 @@ mozilla
 media
 /
 PMediaParent
-.
-h
-"
-#
-include
-"
-MediaUtils
 .
 h
 "

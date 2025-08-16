@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFESpotLightElementBinding
+SVGFilterInstance
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-SVGFilterInstance
+dom
+/
+SVGFESpotLightElementBinding
 .
 h
 "

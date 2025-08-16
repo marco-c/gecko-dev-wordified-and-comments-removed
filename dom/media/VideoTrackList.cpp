@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-VideoTrack
+VideoTrackList
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-VideoTrackList
+VideoTrack
 .
 h
 "

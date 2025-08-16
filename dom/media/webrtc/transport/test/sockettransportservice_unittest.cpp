@@ -6,7 +6,7 @@ iostream
 #
 include
 "
-prio
+nsASocketHandler
 .
 h
 "
@@ -20,13 +20,6 @@ h
 #
 include
 "
-nsNetCID
-.
-h
-"
-#
-include
-"
 nsISocketTransportService
 .
 h
@@ -34,7 +27,7 @@ h
 #
 include
 "
-nsASocketHandler
+nsNetCID
 .
 h
 "
@@ -49,6 +42,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+prio
 .
 h
 "

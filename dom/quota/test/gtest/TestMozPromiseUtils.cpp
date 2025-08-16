@@ -1,6 +1,13 @@
 #
 include
 "
+QuotaManagerDependencyFixture
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -8,13 +15,6 @@ dom
 quota
 /
 MozPromiseUtils
-.
-h
-"
-#
-include
-"
-QuotaManagerDependencyFixture
 .
 h
 "

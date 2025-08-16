@@ -7,13 +7,6 @@ MediaResult_h_
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ErrorNames
@@ -40,6 +33,13 @@ h
 include
 "
 nsPrintfCString
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

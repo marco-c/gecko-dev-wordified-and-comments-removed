@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-NavigationBinding
+NavigationUtils
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-NavigationUtils
+NavigationBinding
 .
 h
 "

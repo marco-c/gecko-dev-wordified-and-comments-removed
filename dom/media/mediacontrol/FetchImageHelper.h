@@ -23,9 +23,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaSessionBinding
+MozPromise
 .
 h
 "
@@ -34,7 +32,9 @@ include
 "
 mozilla
 /
-MozPromise
+dom
+/
+MediaSessionBinding
 .
 h
 "

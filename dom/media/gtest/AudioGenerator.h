@@ -14,14 +14,14 @@ h
 #
 include
 "
-prtime
+SineWaveGenerator
 .
 h
 "
 #
 include
 "
-SineWaveGenerator
+prtime
 .
 h
 "

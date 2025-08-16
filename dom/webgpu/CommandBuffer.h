@@ -7,6 +7,13 @@ GPU_CommandBuffer_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 WeakPtr
@@ -31,13 +38,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-ObjectModel
-.
-h
-"
 namespace
 mozilla
 :
@@ -46,6 +46,9 @@ webgpu
 {
 class
 CanvasContext
+;
+class
+CommandEncoder
 ;
 class
 Device

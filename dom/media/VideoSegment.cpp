@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 ImageContainer
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 VideoUtils
+.
+h
+"
+#
+include
+"
+gfx2DGlue
 .
 h
 "

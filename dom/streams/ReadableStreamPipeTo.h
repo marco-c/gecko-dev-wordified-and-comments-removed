@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-Attributes
+AlreadyAddRefed
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+Attributes
 .
 h
 "

@@ -26,9 +26,7 @@ include
 "
 mozilla
 /
-ipc
-/
-BackgroundParent
+StaticPtr
 .
 h
 "
@@ -37,7 +35,9 @@ include
 "
 mozilla
 /
-StaticPtr
+ipc
+/
+BackgroundParent
 .
 h
 "

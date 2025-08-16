@@ -53,7 +53,7 @@ include
 "
 mozilla
 /
-MozPromise
+Logging
 .
 h
 "
@@ -62,7 +62,7 @@ include
 "
 mozilla
 /
-Logging
+MozPromise
 .
 h
 "
@@ -185,9 +185,7 @@ include
 "
 mozilla
 /
-ipc
-/
-BackgroundParent
+StaticPrefs_dom
 .
 h
 "
@@ -196,7 +194,9 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+ipc
+/
+BackgroundParent
 .
 h
 "

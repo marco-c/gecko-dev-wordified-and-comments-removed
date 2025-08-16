@@ -14,6 +14,13 @@ h
 #
 include
 "
+SafeRefPtr
+.
+h
+"
+#
+include
+"
 js
 /
 StructuredClone
@@ -49,13 +56,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-SafeRefPtr
 .
 h
 "

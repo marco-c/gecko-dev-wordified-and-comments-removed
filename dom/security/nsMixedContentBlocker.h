@@ -45,7 +45,7 @@ eMixedDisplay
 #
 include
 "
-nsIContentPolicy
+imgRequest
 .
 h
 "
@@ -66,7 +66,7 @@ h
 #
 include
 "
-imgRequest
+nsIContentPolicy
 .
 h
 "

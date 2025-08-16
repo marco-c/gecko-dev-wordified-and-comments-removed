@@ -14,6 +14,13 @@ h
 #
 include
 "
+OriginParser
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SystemPrincipal
@@ -29,7 +36,7 @@ dom
 /
 quota
 /
-Constants
+CommonMetadata
 .
 h
 "
@@ -42,7 +49,7 @@ dom
 /
 quota
 /
-CommonMetadata
+Constants
 .
 h
 "
@@ -114,13 +121,6 @@ h
 include
 "
 nsPIDOMWindow
-.
-h
-"
-#
-include
-"
-OriginParser
 .
 h
 "

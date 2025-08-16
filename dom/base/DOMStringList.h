@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

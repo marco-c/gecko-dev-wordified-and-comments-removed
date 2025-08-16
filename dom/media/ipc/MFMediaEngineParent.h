@@ -28,13 +28,6 @@ h
 #
 include
 "
-MediaInfo
-.
-h
-"
-#
-include
-"
 MFMediaEngineExtra
 .
 h
@@ -57,6 +50,13 @@ h
 include
 "
 MFMediaSource
+.
+h
+"
+#
+include
+"
+MediaInfo
 .
 h
 "

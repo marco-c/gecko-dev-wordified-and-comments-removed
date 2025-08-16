@@ -50,9 +50,7 @@ include
 "
 mozilla
 /
-gmp
-/
-GMPTypes
+MozPromise
 .
 h
 "
@@ -61,7 +59,9 @@ include
 "
 mozilla
 /
-MozPromise
+gmp
+/
+GMPTypes
 .
 h
 "

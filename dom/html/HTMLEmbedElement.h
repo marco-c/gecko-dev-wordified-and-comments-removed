@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsError
 .
 h
 "
 #
 include
 "
-nsObjectLoadingContent
+nsGenericHTMLElement
 .
 h
 "
@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsError
+nsObjectLoadingContent
 .
 h
 "

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPrefs_dom
@@ -69,6 +62,13 @@ mozilla
 ipc
 /
 MessageChannel
+.
+h
+"
+#
+include
+"
+nsNetUtil
 .
 h
 "

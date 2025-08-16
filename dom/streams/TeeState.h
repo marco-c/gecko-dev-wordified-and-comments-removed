@@ -16,7 +16,11 @@ h
 #
 include
 "
-nsISupports
+mozilla
+/
+dom
+/
+Promise
 .
 h
 "
@@ -45,11 +49,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Promise
+nsISupports
 .
 h
 "

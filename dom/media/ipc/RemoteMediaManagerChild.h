@@ -62,9 +62,9 @@ include
 "
 mozilla
 /
-layers
+ipc
 /
-VideoBridgeUtils
+UtilityProcessSandboxing
 .
 h
 "
@@ -73,9 +73,9 @@ include
 "
 mozilla
 /
-ipc
+layers
 /
-UtilityProcessSandboxing
+VideoBridgeUtils
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+WrapperFactory
+.
+h
+"
+#
+include
+"
 js
 /
 Class
@@ -188,13 +195,6 @@ h
 include
 "
 nsTHashtable
-.
-h
-"
-#
-include
-"
-WrapperFactory
 .
 h
 "

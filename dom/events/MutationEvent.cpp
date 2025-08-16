@@ -1,13 +1,6 @@
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -22,6 +15,13 @@ include
 mozilla
 /
 InternalMutationEvent
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

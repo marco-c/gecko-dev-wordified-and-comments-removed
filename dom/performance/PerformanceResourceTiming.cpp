@@ -19,14 +19,14 @@ h
 #
 include
 "
-nsNetUtil
+nsArrayUtils
 .
 h
 "
 #
 include
 "
-nsArrayUtils
+nsNetUtil
 .
 h
 "

@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-StaticPtr
+Span
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-Span
+StaticPtr
 .
 h
 "

@@ -80,14 +80,14 @@ h
 #
 include
 "
-nsContentUtils
+nsCharSeparatedTokenizer
 .
 h
 "
 #
 include
 "
-nsCharSeparatedTokenizer
+nsContentUtils
 .
 h
 "

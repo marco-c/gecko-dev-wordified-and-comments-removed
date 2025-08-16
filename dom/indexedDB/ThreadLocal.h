@@ -14,6 +14,13 @@ h
 #
 include
 "
+ProfilerHelpers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -21,13 +28,6 @@ dom
 indexedDB
 /
 PBackgroundIDBSharedTypes
-.
-h
-"
-#
-include
-"
-ProfilerHelpers
 .
 h
 "

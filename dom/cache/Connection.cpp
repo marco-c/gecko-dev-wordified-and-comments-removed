@@ -14,6 +14,13 @@ h
 #
 include
 "
+mozStorageHelper
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -21,13 +28,6 @@ dom
 cache
 /
 DBSchema
-.
-h
-"
-#
-include
-"
-mozStorageHelper
 .
 h
 "

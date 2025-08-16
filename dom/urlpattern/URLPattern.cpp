@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-net
-/
-MozURL
+ErrorResult
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-ErrorResult
+net
+/
+MozURL
 .
 h
 "

@@ -16,9 +16,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaKeySystemAccess
+MozPromise
 .
 h
 "
@@ -27,7 +25,9 @@ include
 "
 mozilla
 /
-MozPromise
+dom
+/
+MediaKeySystemAccess
 .
 h
 "

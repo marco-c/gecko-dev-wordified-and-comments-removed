@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-UIEvent
+EventForwards
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 mozilla
 /
-EventForwards
+dom
+/
+UIEvent
 .
 h
 "

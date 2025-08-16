@@ -12,7 +12,7 @@ h
 #
 include
 "
-nsDebug
+WorkerPrivate
 .
 h
 "
@@ -26,7 +26,7 @@ h
 #
 include
 "
-WorkerPrivate
+nsDebug
 .
 h
 "

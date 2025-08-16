@@ -8,6 +8,13 @@ h
 #
 include
 "
+AppleUtils
+.
+h
+"
+#
+include
+"
 AppleVTEncoder
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 VideoUtils
-.
-h
-"
-#
-include
-"
-AppleUtils
 .
 h
 "

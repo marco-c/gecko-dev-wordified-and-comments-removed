@@ -6,6 +6,13 @@ define
 WMFMediaDataEncoder_h_
 #
 include
+<
+comdef
+.
+h
+>
+#
+include
 "
 MFTEncoder
 .
@@ -32,13 +39,6 @@ WMFUtils
 .
 h
 "
-#
-include
-<
-comdef
-.
-h
->
 #
 include
 "

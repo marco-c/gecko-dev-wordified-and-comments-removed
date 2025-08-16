@@ -18,11 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-locks
-/
-PLockManagerParent
+WeakPtr
 .
 h
 "
@@ -44,9 +40,11 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
-PBackgroundSharedTypes
+locks
+/
+PLockManagerParent
 .
 h
 "
@@ -55,7 +53,9 @@ include
 "
 mozilla
 /
-WeakPtr
+ipc
+/
+PBackgroundSharedTypes
 .
 h
 "

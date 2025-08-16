@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+string
+>
+#
+include
 "
 content_decryption_module
 .
@@ -31,11 +36,6 @@ storage
 .
 h
 "
-#
-include
-<
-string
->
 namespace
 mozilla
 {

@@ -7,14 +7,14 @@ GPU_OBJECT_MODEL_H_
 #
 include
 "
-nsWrapperCache
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsWrapperCache
 .
 h
 "

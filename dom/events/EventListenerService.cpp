@@ -95,6 +95,13 @@ h
 #
 include
 "
+nsArray
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h
@@ -124,13 +131,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-nsArray
 .
 h
 "

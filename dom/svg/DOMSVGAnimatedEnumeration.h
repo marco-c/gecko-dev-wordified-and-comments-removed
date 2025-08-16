@@ -7,14 +7,14 @@ DOM_SVG_DOMSVGANIMATEDENUMERATION_H_
 #
 include
 "
-nsWrapperCache
+SVGElement
 .
 h
 "
 #
 include
 "
-SVGElement
+nsWrapperCache
 .
 h
 "

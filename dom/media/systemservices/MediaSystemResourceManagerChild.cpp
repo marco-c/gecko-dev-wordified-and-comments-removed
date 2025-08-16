@@ -1,14 +1,14 @@
 #
 include
 "
-MediaSystemResourceManager
+MediaSystemResourceManagerChild
 .
 h
 "
 #
 include
 "
-MediaSystemResourceManagerChild
+MediaSystemResourceManager
 .
 h
 "

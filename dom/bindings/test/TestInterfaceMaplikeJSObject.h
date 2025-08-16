@@ -7,14 +7,14 @@ mozilla_dom_TestInterfaceMaplikeJSObject_h
 #
 include
 "
-nsWrapperCache
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsWrapperCache
 .
 h
 "

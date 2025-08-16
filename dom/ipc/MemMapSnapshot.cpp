@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ResultExtensions
@@ -29,6 +22,13 @@ mozilla
 ipc
 /
 SharedMemoryHandle
+.
+h
+"
+#
+include
+"
+nsDebug
 .
 h
 "

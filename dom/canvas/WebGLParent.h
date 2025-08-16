@@ -18,11 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-ipc
-/
-IdType
+WeakPtr
 .
 h
 "
@@ -42,7 +38,11 @@ include
 "
 mozilla
 /
-WeakPtr
+dom
+/
+ipc
+/
+IdType
 .
 h
 "

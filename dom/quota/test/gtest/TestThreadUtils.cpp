@@ -1,6 +1,13 @@
 #
 include
 "
+QuotaManagerDependencyFixture
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -32,13 +39,6 @@ mozilla
 gtest
 /
 MozAssertions
-.
-h
-"
-#
-include
-"
-QuotaManagerDependencyFixture
 .
 h
 "

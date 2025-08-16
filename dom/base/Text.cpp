@@ -12,14 +12,14 @@ h
 #
 include
 "
-nsTextNode
+mozAutoDocUpdate
 .
 h
 "
 #
 include
 "
-mozAutoDocUpdate
+nsTextNode
 .
 h
 "

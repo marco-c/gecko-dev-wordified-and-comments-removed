@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 NotNull
@@ -47,6 +40,13 @@ include
 mozilla
 /
 PodOperations
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

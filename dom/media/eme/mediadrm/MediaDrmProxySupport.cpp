@@ -8,6 +8,13 @@ h
 #
 include
 "
+MediaCodec
+.
+h
+"
+#
+include
+"
 MediaDrmCDMCallbackProxy
 .
 h
@@ -40,13 +47,6 @@ mozilla
 java
 /
 SessionKeyInfoWrappers
-.
-h
-"
-#
-include
-"
-MediaCodec
 .
 h
 "

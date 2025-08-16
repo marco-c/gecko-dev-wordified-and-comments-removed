@@ -7,13 +7,6 @@ mozilla_dom_TextTrackCueList_h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

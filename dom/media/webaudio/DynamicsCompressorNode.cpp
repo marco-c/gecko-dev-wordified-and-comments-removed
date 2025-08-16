@@ -8,11 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DynamicsCompressorNodeBinding
+AudioDestinationNode
 .
 h
 "
@@ -33,7 +29,7 @@ h
 #
 include
 "
-AudioDestinationNode
+Tracing
 .
 h
 "
@@ -56,7 +52,11 @@ h
 #
 include
 "
-Tracing
+mozilla
+/
+dom
+/
+DynamicsCompressorNodeBinding
 .
 h
 "

@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-HistoryBinding
+ChildSHistory
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-ChildSHistory
+HistoryBinding
 .
 h
 "

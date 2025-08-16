@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -14,11 +19,6 @@ Assertions
 .
 h
 "
-#
-include
-<
-algorithm
->
 using
 namespace
 mozilla

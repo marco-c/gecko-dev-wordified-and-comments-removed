@@ -83,6 +83,13 @@ h
 #
 include
 "
+ThreadLocal
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ContentEvents
@@ -221,13 +228,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-ThreadLocal
 .
 h
 "

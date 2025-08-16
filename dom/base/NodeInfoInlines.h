@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsINode
-.
-h
-"
-#
-include
-"
 nsDOMString
 .
 h
@@ -29,6 +22,13 @@ h
 include
 "
 nsGkAtoms
+.
+h
+"
+#
+include
+"
+nsINode
 .
 h
 "

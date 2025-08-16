@@ -7,13 +7,6 @@ mozilla_dom_SpiderMonkeyInterface_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI
@@ -26,6 +19,13 @@ include
 js
 /
 TracingAPI
+.
+h
+"
+#
+include
+"
+jsapi
 .
 h
 "

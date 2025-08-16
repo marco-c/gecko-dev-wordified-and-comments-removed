@@ -7,6 +7,13 @@ mozilla_dom_XRInputSourceArray_h_
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -21,13 +28,6 @@ mozilla
 dom
 /
 WebXRBinding
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

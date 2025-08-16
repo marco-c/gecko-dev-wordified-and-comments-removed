@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-GamepadLightIndicatorBinding
+GamepadHandle
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-GamepadHandle
+GamepadLightIndicatorBinding
 .
 h
 "

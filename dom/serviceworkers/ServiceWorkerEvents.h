@@ -115,14 +115,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsProxyRelease
 .
 h
 "

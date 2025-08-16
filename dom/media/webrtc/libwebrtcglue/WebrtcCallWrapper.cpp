@@ -8,6 +8,13 @@ h
 #
 include
 "
+MediaConduitInterface
+.
+h
+"
+#
+include
+"
 jsapi
 /
 PeerConnectionCtx
@@ -20,13 +27,6 @@ include
 libwebrtcglue
 /
 WebrtcEnvironmentWrapper
-.
-h
-"
-#
-include
-"
-MediaConduitInterface
 .
 h
 "

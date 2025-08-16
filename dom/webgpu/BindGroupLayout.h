@@ -7,13 +7,6 @@ GPU_BindGroupLayout_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 ObjectModel
 .
 h
@@ -26,6 +19,13 @@ mozilla
 webgpu
 /
 WebGPUTypes
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

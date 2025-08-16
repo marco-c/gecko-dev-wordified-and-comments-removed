@@ -10,6 +10,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ThreadLocal
@@ -20,13 +27,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-jsapi
 .
 h
 "

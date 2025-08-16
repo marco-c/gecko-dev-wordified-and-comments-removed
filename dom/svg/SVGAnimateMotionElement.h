@@ -7,6 +7,13 @@ DOM_SVG_SVGANIMATEMOTIONELEMENT_H_
 #
 include
 "
+SVGMotionSMILAnimationFunction
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -21,13 +28,6 @@ mozilla
 dom
 /
 SVGAnimationElement
-.
-h
-"
-#
-include
-"
-SVGMotionSMILAnimationFunction
 .
 h
 "

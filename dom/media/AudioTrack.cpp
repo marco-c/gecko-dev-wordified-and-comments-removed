@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-AudioStreamTrack
+AudioTrack
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-AudioTrack
+AudioStreamTrack
 .
 h
 "

@@ -7,14 +7,14 @@ MOZILLA_MEDIASOURCEUTILS_H_
 #
 include
 "
-nsString
+TimeUnits
 .
 h
 "
 #
 include
 "
-TimeUnits
+nsString
 .
 h
 "

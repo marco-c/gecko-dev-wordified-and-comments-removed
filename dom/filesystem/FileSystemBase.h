@@ -7,14 +7,14 @@ mozilla_dom_FileSystemBase_h
 #
 include
 "
-nsString
+Directory
 .
 h
 "
 #
 include
 "
-Directory
+nsString
 .
 h
 "

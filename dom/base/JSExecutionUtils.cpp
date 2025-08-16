@@ -35,9 +35,7 @@ include
 "
 js
 /
-experimental
-/
-JSStencil
+SourceText
 .
 h
 "
@@ -46,7 +44,9 @@ include
 "
 js
 /
-SourceText
+experimental
+/
+JSStencil
 .
 h
 "

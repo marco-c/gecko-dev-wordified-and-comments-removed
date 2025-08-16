@@ -7,7 +7,9 @@ mozilla_dom_CookieStoreNotifier_h
 #
 include
 "
-nsIObserver
+mozilla
+/
+MoveOnlyFunction
 .
 h
 "
@@ -23,9 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-MoveOnlyFunction
+nsIObserver
 .
 h
 "

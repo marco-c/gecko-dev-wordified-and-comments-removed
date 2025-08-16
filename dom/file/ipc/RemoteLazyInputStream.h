@@ -18,6 +18,13 @@ h
 #
 include
 "
+mozIRemoteLazyInputStream
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -27,7 +34,7 @@ h
 #
 include
 "
-mozIRemoteLazyInputStream
+nsCOMPtr
 .
 h
 "
@@ -63,13 +70,6 @@ h
 include
 "
 nsIInputStreamLength
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

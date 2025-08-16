@@ -7,14 +7,14 @@ DOM_SMIL_SMILATTR_H_
 #
 include
 "
-nscore
+nsStringFwd
 .
 h
 "
 #
 include
 "
-nsStringFwd
+nscore
 .
 h
 "

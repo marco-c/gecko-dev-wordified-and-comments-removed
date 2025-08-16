@@ -8,6 +8,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 api
 /
 task_queue
@@ -29,13 +36,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "

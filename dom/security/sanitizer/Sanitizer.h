@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsIGlobalObject
 .
 h
@@ -77,6 +70,13 @@ h
 include
 "
 nsIParserUtils
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

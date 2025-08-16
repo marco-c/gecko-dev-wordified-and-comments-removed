@@ -8,6 +8,13 @@ h
 #
 include
 "
+WorkerPrivate
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AppShutdown
@@ -47,13 +54,6 @@ h
 include
 "
 nsIXPConnect
-.
-h
-"
-#
-include
-"
-WorkerPrivate
 .
 h
 "

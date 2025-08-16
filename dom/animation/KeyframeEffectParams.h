@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-KeyframeEffectBinding
+PseudoStyleType
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-PseudoStyleType
+dom
+/
+KeyframeEffectBinding
 .
 h
 "

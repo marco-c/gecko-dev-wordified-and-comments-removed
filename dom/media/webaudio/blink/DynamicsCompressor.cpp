@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+cmath
+>
+#
+include
 "
 AlignmentUtils
 .
@@ -19,11 +24,6 @@ AudioBlock
 .
 h
 "
-#
-include
-<
-cmath
->
 #
 include
 "

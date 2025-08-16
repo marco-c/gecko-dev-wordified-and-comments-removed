@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 WMFPlatformDecoderModule_h_
-)
 #
 define
 WMFPlatformDecoderModule_h_

@@ -12,6 +12,13 @@ map
 #
 include
 "
+MediaEventSource
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -78,13 +85,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-MediaEventSource
 .
 h
 "

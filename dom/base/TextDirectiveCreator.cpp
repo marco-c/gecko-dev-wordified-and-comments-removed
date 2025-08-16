@@ -15,6 +15,13 @@ h
 #
 include
 "
+Document
+.
+h
+"
+#
+include
+"
 StaticRange
 .
 h
@@ -62,13 +69,6 @@ h
 include
 "
 nsRange
-.
-h
-"
-#
-include
-"
-Document
 .
 h
 "

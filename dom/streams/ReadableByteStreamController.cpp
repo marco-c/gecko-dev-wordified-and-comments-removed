@@ -11,6 +11,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ReadIntoRequest
 .
@@ -147,6 +152,8 @@ mozilla
 dom
 /
 Promise
+-
+inl
 .
 h
 "
@@ -158,8 +165,6 @@ mozilla
 dom
 /
 Promise
--
-inl
 .
 h
 "
@@ -258,7 +263,7 @@ mozilla
 /
 dom
 /
-ToJSValue
+ScriptSettings
 .
 h
 "
@@ -269,7 +274,7 @@ mozilla
 /
 dom
 /
-ScriptSettings
+ToJSValue
 .
 h
 "
@@ -305,11 +310,6 @@ nsISupports
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 :

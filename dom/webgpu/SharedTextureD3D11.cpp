@@ -41,7 +41,7 @@ mozilla
 /
 layers
 /
-FenceD3D11
+CompositeProcessD3D11FencesHolderMap
 .
 h
 "
@@ -52,7 +52,7 @@ mozilla
 /
 layers
 /
-CompositeProcessD3D11FencesHolderMap
+FenceD3D11
 .
 h
 "

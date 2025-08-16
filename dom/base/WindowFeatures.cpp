@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsINode
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsDependentSubstring
+.
+h
+"
+#
+include
+"
+nsINode
 .
 h
 "

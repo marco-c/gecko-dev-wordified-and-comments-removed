@@ -21,7 +21,7 @@ mozilla
 /
 dom
 /
-OffscreenCanvasRenderingContext2DBinding
+OffscreenCanvas
 .
 h
 "
@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-OffscreenCanvas
+OffscreenCanvasRenderingContext2DBinding
 .
 h
 "

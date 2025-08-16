@@ -15,14 +15,14 @@ h
 #
 include
 "
-nsString
+nsError
 .
 h
 "
 #
 include
 "
-nsError
+nsString
 .
 h
 "

@@ -107,7 +107,7 @@ include
 "
 mozilla
 /
-Atomics
+AppShutdown
 .
 h
 "
@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-AppShutdown
+Atomics
 .
 h
 "

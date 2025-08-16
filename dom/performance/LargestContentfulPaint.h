@@ -7,7 +7,7 @@ mozilla_dom_LargestContentfulPaint_h___
 #
 include
 "
-nsCycleCollectionParticipant
+imgRequestProxy
 .
 h
 "
@@ -47,7 +47,7 @@ h
 #
 include
 "
-imgRequestProxy
+nsCycleCollectionParticipant
 .
 h
 "

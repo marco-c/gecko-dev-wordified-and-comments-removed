@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-dom
-/
-CustomEventBinding
+HoldDropJSObjects
 .
 h
 "
@@ -32,7 +30,9 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+dom
+/
+CustomEventBinding
 .
 h
 "

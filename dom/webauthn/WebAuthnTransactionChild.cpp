@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-WebAuthnHandler
+WebAuthnTransactionChild
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-WebAuthnTransactionChild
+WebAuthnHandler
 .
 h
 "

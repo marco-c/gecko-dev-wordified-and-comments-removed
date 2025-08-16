@@ -22,6 +22,13 @@ type_traits
 #
 include
 "
+MediaSegment
+.
+h
+"
+#
+include
+"
 fdlibm
 .
 h
@@ -32,13 +39,6 @@ include
 mozilla
 /
 Logging
-.
-h
-"
-#
-include
-"
-MediaSegment
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_dom_indexeddb_reportinternalerror_h__
 #
 include
 "
+IndexedDatabase
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsPrintfCString
-.
-h
-"
-#
-include
-"
-IndexedDatabase
 .
 h
 "

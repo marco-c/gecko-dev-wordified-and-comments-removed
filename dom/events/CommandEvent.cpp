@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+MiscEvents
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-MiscEvents
+StaticPrefs_dom
 .
 h
 "

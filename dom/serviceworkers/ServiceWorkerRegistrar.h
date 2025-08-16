@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -42,13 +49,6 @@ h
 include
 "
 nsIObserver
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

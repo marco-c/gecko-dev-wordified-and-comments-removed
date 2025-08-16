@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h
@@ -31,13 +38,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-nsINamed
 .
 h
 "

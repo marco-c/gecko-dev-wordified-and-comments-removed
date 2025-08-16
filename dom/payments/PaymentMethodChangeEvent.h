@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-PaymentRequestUpdateEvent
+PaymentRequest
 .
 h
 "
@@ -33,7 +33,7 @@ mozilla
 /
 dom
 /
-PaymentRequest
+PaymentRequestUpdateEvent
 .
 h
 "

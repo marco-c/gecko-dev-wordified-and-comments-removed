@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -38,6 +31,13 @@ mozilla
 dom
 /
 FileSystemUtils
+.
+h
+"
+#
+include
+"
+nsIGlobalObject
 .
 h
 "

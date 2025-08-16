@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-IdentityCredential
+WebIdentityHandler
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-WebIdentityHandler
+IdentityCredential
 .
 h
 "

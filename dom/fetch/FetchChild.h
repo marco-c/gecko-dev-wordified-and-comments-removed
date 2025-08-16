@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-AbortSignal
+AbortFollower
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-AbortFollower
+AbortSignal
 .
 h
 "

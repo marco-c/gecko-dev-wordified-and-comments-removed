@@ -7,6 +7,13 @@ mozilla_dom_Headers_h
 #
 include
 "
+InternalHeaders
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -26,13 +33,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-InternalHeaders
 .
 h
 "

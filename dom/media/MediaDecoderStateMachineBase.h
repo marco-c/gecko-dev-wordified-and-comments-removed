@@ -72,9 +72,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaDebugInfoBinding
+Variant
 .
 h
 "
@@ -83,7 +81,9 @@ include
 "
 mozilla
 /
-Variant
+dom
+/
+MediaDebugInfoBinding
 .
 h
 "

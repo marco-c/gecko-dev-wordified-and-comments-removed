@@ -7,13 +7,6 @@ DecoderDoctorLogger_h_
 #
 include
 "
-DDLoggedTypeTraits
-.
-h
-"
-#
-include
-"
 DDLogCategory
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 DDLogValue
+.
+h
+"
+#
+include
+"
+DDLoggedTypeTraits
 .
 h
 "

@@ -7,7 +7,7 @@ mozilla_dom_AncestorIterator_h
 #
 include
 "
-nsINode
+FilteredNodeIterator
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-FilteredNodeIterator
+nsINode
 .
 h
 "

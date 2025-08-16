@@ -7,13 +7,6 @@ mozilla_dom_PaintRequest_h_
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -37,6 +30,13 @@ mozilla
 dom
 /
 Event
+.
+h
+"
+#
+include
+"
+nsPresContext
 .
 h
 "

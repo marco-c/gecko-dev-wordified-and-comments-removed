@@ -57,6 +57,13 @@ h
 #
 include
 "
+Tracing
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_dom
@@ -153,13 +160,6 @@ h
 include
 "
 nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
-Tracing
 .
 h
 "

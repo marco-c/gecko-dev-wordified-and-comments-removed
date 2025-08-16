@@ -7,14 +7,14 @@ PlayingRefChangeHandler_h__
 #
 include
 "
-nsThreadUtils
+AudioNodeTrack
 .
 h
 "
 #
 include
 "
-AudioNodeTrack
+nsThreadUtils
 .
 h
 "

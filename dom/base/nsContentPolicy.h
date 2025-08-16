@@ -7,14 +7,14 @@ __nsContentPolicy_h__
 #
 include
 "
-nsIContentPolicy
+nsCategoryCache
 .
 h
 "
 #
 include
 "
-nsCategoryCache
+nsIContentPolicy
 .
 h
 "

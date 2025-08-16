@@ -51,9 +51,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGElement
+UniquePtr
 .
 h
 "
@@ -62,7 +60,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+SVGElement
 .
 h
 "

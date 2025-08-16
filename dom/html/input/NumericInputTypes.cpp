@@ -12,6 +12,13 @@ h
 #
 include
 "
+ICUUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TextControlState
@@ -26,13 +33,6 @@ mozilla
 dom
 /
 HTMLInputElement
-.
-h
-"
-#
-include
-"
-ICUUtils
 .
 h
 "

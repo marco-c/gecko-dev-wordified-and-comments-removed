@@ -7,13 +7,6 @@ mozilla_dom_fetcheventopproxychild_h__
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 ServiceWorkerOp
 .
 h
@@ -62,6 +55,13 @@ mozilla
 dom
 /
 PFetchEventOpProxyChild
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

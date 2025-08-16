@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasePrincipal
@@ -84,7 +77,7 @@ mozilla
 /
 dom
 /
-ClientInfo
+ClientIPCTypes
 .
 h
 "
@@ -95,7 +88,7 @@ mozilla
 /
 dom
 /
-ClientIPCTypes
+ClientInfo
 .
 h
 "
@@ -169,6 +162,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsContentPolicyUtils
 .
 h
 "

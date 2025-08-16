@@ -7,6 +7,13 @@ mozilla_dom_XRReferenceSpace_h_
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -32,13 +39,6 @@ mozilla
 dom
 /
 XRSpace
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

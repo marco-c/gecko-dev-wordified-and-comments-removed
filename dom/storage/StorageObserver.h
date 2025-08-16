@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsWeakReference
+nsString
 .
 h
 "
@@ -55,7 +55,7 @@ h
 #
 include
 "
-nsString
+nsWeakReference
 .
 h
 "

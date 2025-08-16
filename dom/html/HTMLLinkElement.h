@@ -18,9 +18,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLDNSPrefetch
+WeakPtr
 .
 h
 "
@@ -31,7 +29,7 @@ mozilla
 /
 dom
 /
-LinkStyle
+HTMLDNSPrefetch
 .
 h
 "
@@ -51,7 +49,9 @@ include
 "
 mozilla
 /
-WeakPtr
+dom
+/
+LinkStyle
 .
 h
 "

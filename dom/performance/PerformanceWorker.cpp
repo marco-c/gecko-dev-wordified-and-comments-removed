@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerScope
+StaticPrefs_dom
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+dom
+/
+WorkerScope
 .
 h
 "

@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-HTMLPictureElementBinding
+HTMLImageElement
 .
 h
 "
@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-HTMLImageElement
+HTMLPictureElementBinding
 .
 h
 "

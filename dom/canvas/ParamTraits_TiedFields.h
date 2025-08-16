@@ -7,6 +7,13 @@ MOZILLA_PARAMTRAITS_TIEDFIELDS_H
 #
 include
 "
+TiedFields
+.
+h
+"
+#
+include
+"
 ipc
 /
 IPCMessageUtils
@@ -21,13 +28,6 @@ mozilla
 ipc
 /
 IPDLParamTraits
-.
-h
-"
-#
-include
-"
-TiedFields
 .
 h
 "

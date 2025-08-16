@@ -27,14 +27,14 @@ h
 #
 include
 "
-nsPIDOMWindow
+nsITimer
 .
 h
 "
 #
 include
 "
-nsITimer
+nsPIDOMWindow
 .
 h
 "

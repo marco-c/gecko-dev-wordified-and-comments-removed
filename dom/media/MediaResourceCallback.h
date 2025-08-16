@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-MediaResult
 .
 h
 "

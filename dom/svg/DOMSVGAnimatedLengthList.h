@@ -7,13 +7,6 @@ DOM_SVG_DOMSVGANIMATEDLENGTHLIST_H_
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 SVGElement
 .
 h
@@ -33,6 +26,13 @@ include
 mozilla
 /
 RefPtr
+.
+h
+"
+#
+include
+"
+nsCycleCollectionParticipant
 .
 h
 "

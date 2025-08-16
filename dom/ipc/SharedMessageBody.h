@@ -9,11 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-ipc
-/
-StructuredCloneData
+Maybe
 .
 h
 "
@@ -22,7 +18,11 @@ include
 "
 mozilla
 /
-Maybe
+dom
+/
+ipc
+/
+StructuredCloneData
 .
 h
 "

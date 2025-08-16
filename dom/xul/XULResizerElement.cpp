@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-XULResizerElementBinding
+EventDispatcher
 .
 h
 "
@@ -25,7 +23,7 @@ include
 "
 mozilla
 /
-EventDispatcher
+MouseEvents
 .
 h
 "
@@ -65,7 +63,9 @@ include
 "
 mozilla
 /
-MouseEvents
+dom
+/
+XULResizerElementBinding
 .
 h
 "

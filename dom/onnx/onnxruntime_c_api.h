@@ -336,6 +336,7 @@ _MSC_VER
 )
 |
 |
+\
 (
 defined
 (
@@ -380,6 +381,7 @@ NAME
 .
 .
 )
+\
 RETURN_TYPE
 ORT_API_CALL
 NAME
@@ -404,10 +406,12 @@ return
 =
 0
 )
+\
 _Check_return_
 _Ret_maybenull_
 OrtStatusPtr
 ORT_API_CALL
+\
 NAME
 (
 __VA_ARGS__
@@ -436,6 +440,7 @@ NAME
 (
 __VA_ARGS__
 )
+\
 NO_EXCEPTION
 ORT_MUST_USE_RESULT
 #
@@ -455,10 +460,12 @@ return
 =
 0
 )
+\
 _Check_return_
 _Ret_maybenull_
 OrtStatusPtr
 ORT_API_CALL
+\
 NAME
 (
 __VA_ARGS__
@@ -470,6 +477,7 @@ ORT_CLASS_RELEASE
 (
 X
 )
+\
 void
 (
 ORT_API_CALL

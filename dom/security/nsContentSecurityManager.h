@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIContentSecurityManager
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -31,6 +24,13 @@ h
 include
 "
 nsIChannelEventSink
+.
+h
+"
+#
+include
+"
+nsIContentSecurityManager
 .
 h
 "

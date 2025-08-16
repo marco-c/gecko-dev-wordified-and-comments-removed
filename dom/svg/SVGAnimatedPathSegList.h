@@ -7,6 +7,13 @@ DOM_SVG_SVGANIMATEDPATHSEGLIST_H_
 #
 include
 "
+SVGPathData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -37,13 +44,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-SVGPathData
 .
 h
 "

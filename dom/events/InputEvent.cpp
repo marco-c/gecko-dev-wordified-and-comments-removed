@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-TextEvents
+StaticPrefs_dom
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+TextEvents
 .
 h
 "

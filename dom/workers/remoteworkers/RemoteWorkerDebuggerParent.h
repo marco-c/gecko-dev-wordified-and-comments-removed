@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-PRemoteWorkerDebuggerParent
+PRemoteWorkerDebuggerChild
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-PRemoteWorkerDebuggerChild
+PRemoteWorkerDebuggerParent
 .
 h
 "

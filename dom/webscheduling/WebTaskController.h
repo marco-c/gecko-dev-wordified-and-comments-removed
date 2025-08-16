@@ -7,7 +7,11 @@ mozilla_dom_WebTaskController_h
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+AbortController
 .
 h
 "
@@ -25,11 +29,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-AbortController
+nsWrapperCache
 .
 h
 "

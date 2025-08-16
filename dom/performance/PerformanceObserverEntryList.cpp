@@ -8,6 +8,13 @@ h
 #
 include
 "
+PerformanceResourceTiming
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -31,13 +38,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-PerformanceResourceTiming
 .
 h
 "

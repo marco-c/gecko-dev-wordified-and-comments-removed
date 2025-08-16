@@ -7,13 +7,6 @@ nsWrapperCacheInline_h___
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI
@@ -26,6 +19,13 @@ include
 js
 /
 TracingAPI
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

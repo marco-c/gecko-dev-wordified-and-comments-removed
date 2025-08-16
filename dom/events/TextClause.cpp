@@ -14,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-TextClauseBinding
+TextEvents
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 mozilla
 /
-TextEvents
+dom
+/
+TextClauseBinding
 .
 h
 "

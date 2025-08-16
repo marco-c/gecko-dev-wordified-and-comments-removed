@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 nsAtomHashKeys
 .
 h
@@ -52,7 +45,7 @@ h
 #
 include
 "
-nsTHashSet
+nsCycleCollectionParticipant
 .
 h
 "
@@ -60,6 +53,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nsTHashSet
 .
 h
 "

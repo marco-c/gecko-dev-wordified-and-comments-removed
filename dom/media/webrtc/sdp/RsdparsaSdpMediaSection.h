@@ -18,7 +18,7 @@ include
 "
 sdp
 /
-RsdparsaSdpInc
+RsdparsaSdpAttributeList
 .
 h
 "
@@ -36,7 +36,7 @@ include
 "
 sdp
 /
-SdpMediaSection
+RsdparsaSdpInc
 .
 h
 "
@@ -45,7 +45,7 @@ include
 "
 sdp
 /
-RsdparsaSdpAttributeList
+SdpMediaSection
 .
 h
 "

@@ -38,9 +38,7 @@ include
 "
 mozilla
 /
-dom
-/
-ClientIPCTypes
+Unused
 .
 h
 "
@@ -49,7 +47,9 @@ include
 "
 mozilla
 /
-Unused
+dom
+/
+ClientIPCTypes
 .
 h
 "

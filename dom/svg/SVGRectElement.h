@@ -7,13 +7,6 @@ DOM_SVG_SVGRECTELEMENT_H_
 #
 include
 "
-nsCSSPropertyID
-.
-h
-"
-#
-include
-"
 SVGAnimatedLength
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 SVGGeometryElement
+.
+h
+"
+#
+include
+"
+nsCSSPropertyID
 .
 h
 "

@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsXMLContentSerializer
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -31,6 +24,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nsXMLContentSerializer
 .
 h
 "

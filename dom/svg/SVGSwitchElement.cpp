@@ -12,13 +12,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 SVGUtils
@@ -33,6 +26,13 @@ mozilla
 dom
 /
 SVGSwitchElementBinding
+.
+h
+"
+#
+include
+"
+nsLayoutUtils
 .
 h
 "

@@ -1,13 +1,6 @@
 #
 include
 "
-txExpr
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h
@@ -22,7 +15,7 @@ h
 #
 include
 "
-txXPathTreeWalker
+txExpr
 .
 h
 "
@@ -30,6 +23,13 @@ h
 include
 "
 txIXPathContext
+.
+h
+"
+#
+include
+"
+txXPathTreeWalker
 .
 h
 "

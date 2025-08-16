@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-origin_trials_ffi_generated
+EnumSet
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-EnumSet
+origin_trials_ffi_generated
 .
 h
 "

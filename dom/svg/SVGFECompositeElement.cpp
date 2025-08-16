@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-SVGFECompositeElementBinding
+BindContext
 .
 h
 "
@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-BindContext
+SVGFECompositeElementBinding
 .
 h
 "

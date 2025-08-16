@@ -41,6 +41,13 @@ h
 #
 include
 "
+YUVBufferGenerator
+.
+h
+"
+#
+include
+"
 gmock
 /
 gmock
@@ -69,13 +76,6 @@ h
 include
 "
 prtime
-.
-h
-"
-#
-include
-"
-YUVBufferGenerator
 .
 h
 "

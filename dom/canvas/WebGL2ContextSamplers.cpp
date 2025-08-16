@@ -1,6 +1,13 @@
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 WebGL2Context
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 WebGLSampler
-.
-h
-"
-#
-include
-"
-GLContext
 .
 h
 "

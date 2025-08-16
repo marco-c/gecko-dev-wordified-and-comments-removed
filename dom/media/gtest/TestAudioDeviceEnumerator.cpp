@@ -12,6 +12,13 @@ h
 #
 include
 "
+MockCubeb
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -62,13 +69,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-MockCubeb
 .
 h
 "

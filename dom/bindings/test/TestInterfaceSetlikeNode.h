@@ -7,14 +7,14 @@ mozilla_dom_TestInterfaceSetlikeNode_h
 #
 include
 "
-nsWrapperCache
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsWrapperCache
 .
 h
 "

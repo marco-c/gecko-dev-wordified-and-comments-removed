@@ -12,11 +12,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-XRRigidTransform
+VRDisplayClient
 .
 h
 "
@@ -34,7 +30,11 @@ h
 #
 include
 "
-VRDisplayClient
+mozilla
+/
+dom
+/
+XRRigidTransform
 .
 h
 "

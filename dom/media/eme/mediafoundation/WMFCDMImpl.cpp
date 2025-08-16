@@ -44,7 +44,7 @@ mozilla
 /
 dom
 /
-MediaKeySession
+KeySystemNames
 .
 h
 "
@@ -55,7 +55,7 @@ mozilla
 /
 dom
 /
-KeySystemNames
+MediaKeySession
 .
 h
 "

@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-MediaControllerBinding
+MediaControlKeySource
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-MediaControlKeySource
+MediaControllerBinding
 .
 h
 "

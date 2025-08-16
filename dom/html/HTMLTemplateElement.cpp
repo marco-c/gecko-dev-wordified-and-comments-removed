@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-HTMLTemplateElementBinding
+Document
 .
 h
 "
@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-Document
+HTMLTemplateElementBinding
 .
 h
 "
@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -71,13 +78,6 @@ h
 include
 "
 nsStyleConsts
-.
-h
-"
-#
-include
-"
-nsAtom
 .
 h
 "

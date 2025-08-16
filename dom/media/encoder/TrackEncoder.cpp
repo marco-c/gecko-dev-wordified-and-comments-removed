@@ -36,6 +36,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AbstractThread
@@ -66,13 +73,6 @@ include
 mozilla
 /
 RollingMean
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "

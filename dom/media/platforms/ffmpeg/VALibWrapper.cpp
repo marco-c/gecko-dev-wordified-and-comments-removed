@@ -22,13 +22,6 @@ h
 #
 include
 "
-prlink
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -45,6 +38,13 @@ mozilla
 widget
 /
 DMABufDevice
+.
+h
+"
+#
+include
+"
+prlink
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_dom_SpeechStreamListener_h
 #
 include
 "
+AudioSegment
+.
+h
+"
+#
+include
+"
 MediaTrackGraph
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 MediaTrackListener
-.
-h
-"
-#
-include
-"
-AudioSegment
 .
 h
 "

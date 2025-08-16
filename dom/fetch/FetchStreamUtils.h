@@ -6,6 +6,11 @@ define
 _mozilla_dom_fetch_FetchStreamUtils_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -40,11 +45,6 @@ nsIInputStream
 .
 h
 "
-#
-include
-<
-cstdint
->
 namespace
 mozilla
 {

@@ -7,11 +7,6 @@ DOM_MEDIA_PLATFORM_WMF_MFCDMSESSION_H
 #
 include
 <
-vector
->
-#
-include
-<
 wrl
 .
 h
@@ -24,6 +19,11 @@ wrl
 client
 .
 h
+>
+#
+include
+<
+vector
 >
 #
 include
@@ -44,7 +44,7 @@ include
 "
 mozilla
 /
-PMFCDM
+KeySystemConfig
 .
 h
 "
@@ -53,7 +53,7 @@ include
 "
 mozilla
 /
-KeySystemConfig
+PMFCDM
 .
 h
 "

@@ -15,6 +15,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -27,13 +34,6 @@ include
 mozilla
 /
 StaticPrefs_media
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "

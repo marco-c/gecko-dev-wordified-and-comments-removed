@@ -17,12 +17,12 @@ mozilla
 class
 ErrorResult
 ;
-class
-GlobalObject
-;
 namespace
 dom
 {
+class
+GlobalObject
+;
 class
 WorkerTestCallback
 ;

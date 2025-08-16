@@ -7,6 +7,13 @@ mozilla_dom_VREventObserver_h
 #
 include
 "
+VRManagerChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -19,13 +26,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-VRManagerChild
 .
 h
 "

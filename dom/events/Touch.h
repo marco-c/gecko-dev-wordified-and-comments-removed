@@ -7,6 +7,13 @@ mozilla_dom_Touch_h_
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -57,13 +64,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

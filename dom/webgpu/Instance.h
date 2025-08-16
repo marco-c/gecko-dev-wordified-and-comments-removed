@@ -7,6 +7,13 @@ GPU_INSTANCE_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -48,13 +55,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-ObjectModel
 .
 h
 "

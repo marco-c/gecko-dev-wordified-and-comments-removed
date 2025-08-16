@@ -7,13 +7,6 @@ __GMPTestMonitor_h__
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 SchedulerGroup
@@ -26,6 +19,13 @@ include
 mozilla
 /
 SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

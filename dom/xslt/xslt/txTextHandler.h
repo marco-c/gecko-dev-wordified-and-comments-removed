@@ -7,14 +7,14 @@ TRANSFRMX_TEXT_HANDLER_H
 #
 include
 "
-txXMLEventHandler
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+txXMLEventHandler
 .
 h
 "

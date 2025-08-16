@@ -3,7 +3,11 @@ include
 "
 mozilla
 /
-ThreadLocal
+dom
+/
+quota
+/
+StringifyUtils
 .
 h
 "
@@ -12,11 +16,7 @@ include
 "
 mozilla
 /
-dom
-/
-quota
-/
-StringifyUtils
+ThreadLocal
 .
 h
 "

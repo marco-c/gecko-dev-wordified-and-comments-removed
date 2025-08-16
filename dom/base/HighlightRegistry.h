@@ -50,14 +50,14 @@ h
 #
 include
 "
-nsTHashMap
+nsHashtablesFwd
 .
 h
 "
 #
 include
 "
-nsHashtablesFwd
+nsTHashMap
 .
 h
 "

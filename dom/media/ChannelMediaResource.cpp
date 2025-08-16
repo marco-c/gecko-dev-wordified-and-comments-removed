@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -82,13 +89,6 @@ h
 include
 "
 nsITimedChannel
-.
-h
-"
-#
-include
-"
-nsHttp
 .
 h
 "

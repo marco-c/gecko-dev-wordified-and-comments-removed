@@ -6,6 +6,11 @@ define
 MOZILLA_FORWARDEDINPUTTRACK_H_
 #
 include
+<
+algorithm
+>
+#
+include
 "
 MediaTrackGraph
 .
@@ -18,11 +23,6 @@ MediaTrackListener
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

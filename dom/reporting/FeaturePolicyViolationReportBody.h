@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-ReportBody
+Nullable
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-Nullable
+ReportBody
 .
 h
 "

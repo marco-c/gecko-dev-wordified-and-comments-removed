@@ -7,13 +7,6 @@ mozilla_dom_remoteworkercontrollerchild_h__
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 RemoteWorkerController
 .
 h
@@ -35,6 +28,13 @@ mozilla
 dom
 /
 PRemoteWorkerControllerChild
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

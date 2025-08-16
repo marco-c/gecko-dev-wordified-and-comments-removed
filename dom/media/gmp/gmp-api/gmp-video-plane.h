@@ -6,6 +6,13 @@ define
 GMP_VIDEO_PLANE_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 gmp
 -
@@ -13,13 +20,6 @@ errors
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 GMPPlane
 {

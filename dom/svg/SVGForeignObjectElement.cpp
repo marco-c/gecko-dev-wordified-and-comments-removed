@@ -12,6 +12,13 @@ h
 #
 include
 "
+SVGGeometryProperty
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -57,13 +64,6 @@ mozilla
 dom
 /
 SVGLengthBinding
-.
-h
-"
-#
-include
-"
-SVGGeometryProperty
 .
 h
 "

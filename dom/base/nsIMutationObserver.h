@@ -7,13 +7,6 @@ nsIMutationObserver_h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -26,6 +19,13 @@ include
 mozilla
 /
 DoublyLinkedList
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "

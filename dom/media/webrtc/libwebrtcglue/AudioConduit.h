@@ -7,6 +7,13 @@ AUDIO_SESSION_H_
 #
 include
 "
+MediaConduitInterface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -18,7 +25,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RWLock
 .
 h
 "
@@ -27,7 +34,7 @@ include
 "
 mozilla
 /
-RWLock
+ReentrantMonitor
 .
 h
 "
@@ -46,13 +53,6 @@ include
 mozilla
 /
 TimeStamp
-.
-h
-"
-#
-include
-"
-MediaConduitInterface
 .
 h
 "

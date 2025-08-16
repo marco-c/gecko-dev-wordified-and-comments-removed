@@ -11,6 +11,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -42,11 +47,6 @@ TrustedTypesBinding
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 :

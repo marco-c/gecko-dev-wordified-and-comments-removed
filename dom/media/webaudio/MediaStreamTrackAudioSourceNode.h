@@ -21,11 +21,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-MediaStreamTrack
+PrincipalChangeObserver
 .
 h
 "
@@ -41,7 +37,11 @@ h
 #
 include
 "
-PrincipalChangeObserver
+mozilla
+/
+dom
+/
+MediaStreamTrack
 .
 h
 "
