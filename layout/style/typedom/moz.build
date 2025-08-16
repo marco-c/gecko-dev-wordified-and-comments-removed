@@ -104,6 +104,11 @@ CSSSkewX
 h
 "
 "
+CSSSkewY
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -220,6 +225,11 @@ cpp
 "
 "
 CSSSkewX
+.
+cpp
+"
+"
+CSSSkewY
 .
 cpp
 "
