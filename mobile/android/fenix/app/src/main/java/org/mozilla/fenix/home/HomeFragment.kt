@@ -7548,6 +7548,11 @@ findNavController
 lifecycleOwner
 =
 this
+tabId
+=
+args
+.
+sessionToStartSearchFor
 searchAccessPoint
 =
 args
