@@ -642,6 +642,13 @@ js
 ]
 [
 "
+browser_copy_link_to_highlight_viewsource
+.
+js
+"
+]
+[
+"
 browser_save_image
 .
 js
