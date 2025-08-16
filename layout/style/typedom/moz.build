@@ -94,6 +94,11 @@ CSSScale
 h
 "
 "
+CSSSkew
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -200,6 +205,11 @@ cpp
 "
 "
 CSSScale
+.
+cpp
+"
+"
+CSSSkew
 .
 cpp
 "
