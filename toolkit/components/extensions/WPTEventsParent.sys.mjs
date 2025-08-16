@@ -157,6 +157,9 @@ done
 "
 onTestFinished
 remainingTests
+testName
+result
+assertionDescription
 "
 "
 test
