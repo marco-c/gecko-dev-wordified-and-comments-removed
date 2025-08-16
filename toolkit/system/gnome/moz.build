@@ -42,6 +42,11 @@ nsGIOService
 .
 cpp
 "
+"
+nsGSettingsService
+.
+cpp
+"
 ]
 XPCOM_MANIFESTS
 +
