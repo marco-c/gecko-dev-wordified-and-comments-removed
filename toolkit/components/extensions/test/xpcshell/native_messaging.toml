@@ -84,6 +84,13 @@ parallel
 "
 [
 "
+test_ext_native_messaging_concurrent
+.
+js
+"
+]
+[
+"
 test_ext_native_messaging_perf
 .
 js

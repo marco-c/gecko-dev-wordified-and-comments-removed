@@ -43,6 +43,11 @@ data_text_file
 txt
 "
 "
+data_test_child
+.
+py
+"
+"
 data_test_script
 .
 py
@@ -105,6 +110,13 @@ rate
 in
 parallel
 "
+[
+"
+test_subprocess_child
+.
+js
+"
+]
 [
 "
 test_subprocess_connectRunning
