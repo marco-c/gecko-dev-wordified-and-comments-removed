@@ -35437,6 +35437,8 @@ CacheIRCompiler
 :
 emitTypedArraySubarrayResult
 (
+uint32_t
+templateObjectOffset
 ObjOperandId
 objId
 IntPtrOperandId
