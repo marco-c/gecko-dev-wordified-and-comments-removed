@@ -347,7 +347,7 @@ dependencies
 .
 viaduct
 -
-dev
+reqwest
 ]
 path
 =
@@ -359,7 +359,7 @@ support
 /
 viaduct
 -
-dev
+reqwest
 "
 [
 build

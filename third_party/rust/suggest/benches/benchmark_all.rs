@@ -281,10 +281,10 @@ INIT
 .
 call_once
 (
-viaduct_dev
+viaduct_reqwest
 :
 :
-use_dev_backend
+use_reqwest_backend
 )
 ;
 }

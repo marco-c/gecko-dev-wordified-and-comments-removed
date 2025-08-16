@@ -237,10 +237,7 @@ use
 tracing_support
 :
 :
-{
 init_for_tests
-init_for_tests_with_level
-}
 ;
 mod
 macros

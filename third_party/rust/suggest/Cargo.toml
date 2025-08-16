@@ -186,7 +186,7 @@ tempfile
 "
 viaduct
 -
-dev
+reqwest
 "
 ]
 [
@@ -532,7 +532,7 @@ dependencies
 .
 viaduct
 -
-dev
+reqwest
 ]
 path
 =
@@ -544,7 +544,7 @@ support
 /
 viaduct
 -
-dev
+reqwest
 "
 optional
 =
@@ -559,7 +559,7 @@ criterion
 "
 0
 .
-7
+5
 "
 expect
 -

@@ -824,10 +824,10 @@ print_debug_ingestion_sizes
 (
 )
 {
-viaduct_dev
+viaduct_reqwest
 :
 :
-use_dev_backend
+use_reqwest_backend
 (
 )
 ;
