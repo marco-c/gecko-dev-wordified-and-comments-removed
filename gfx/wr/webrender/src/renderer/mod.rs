@@ -22486,6 +22486,9 @@ id
 ext_image
 .
 channel_index
+deferred_resolve
+.
+is_composited
 )
 ;
 let
@@ -29147,6 +29150,9 @@ ExternalImageId
 channel_index
 :
 u8
+_is_composited
+:
+bool
 )
 -
 >
@@ -30053,6 +30059,7 @@ lock
 (
 id
 channel_index
+false
 )
 ;
 let

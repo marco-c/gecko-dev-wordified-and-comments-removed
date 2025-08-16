@@ -384,6 +384,9 @@ ExternalImageId
 channel_index
 :
 u8
+is_composited
+:
+bool
 )
 -
 >
