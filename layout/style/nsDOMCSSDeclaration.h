@@ -59,6 +59,13 @@ nsICSSDeclaration
 .
 h
 "
+#
+include
+"
+nsCSSProps
+.
+h
+"
 class
 nsIPrincipal
 ;

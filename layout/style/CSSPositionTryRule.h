@@ -38,6 +38,13 @@ nsICSSDeclaration
 .
 h
 "
+#
+include
+"
+nsCSSProps
+.
+h
+"
 namespace
 mozilla
 {
