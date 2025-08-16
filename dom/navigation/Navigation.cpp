@@ -2878,6 +2878,9 @@ NodePrincipal
 IgnoreErrors
 (
 )
+aOptions
+.
+mHistory
 )
 ;
 if
