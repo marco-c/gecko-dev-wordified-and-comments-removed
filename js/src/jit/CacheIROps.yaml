@@ -4385,9 +4385,6 @@ cost_estimate
 5
 args
 :
-templateObject
-:
-ObjectField
 obj
 :
 ObjId
