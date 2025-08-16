@@ -3646,6 +3646,8 @@ NativeObject
 obj
 HandleId
 id
+PropertyInfo
+propInfo
 )
 {
 MOZ_ASSERT
