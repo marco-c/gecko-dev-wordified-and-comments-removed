@@ -1935,9 +1935,6 @@ true
 isBestMatch
 :
 true
-showFeedbackMenu
-:
-true
 hideRowLabel
 :
 true
