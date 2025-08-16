@@ -3518,6 +3518,10 @@ action
 sponsored
 "
 }
+categories
+=
+[
+]
 }
 =
 {
@@ -3682,6 +3686,7 @@ fullKeyword
 blockId
 advertiser
 iabCategory
+categories
 impressionUrl
 clickUrl
 rawClickUrl

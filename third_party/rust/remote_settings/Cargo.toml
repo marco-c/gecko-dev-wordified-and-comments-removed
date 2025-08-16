@@ -362,7 +362,7 @@ version
 "
 0
 .
-3
+4
 .
 0
 "
@@ -485,7 +485,7 @@ mockall
 "
 0
 .
-11
+12
 "
 mockito
 =
@@ -539,7 +539,7 @@ dependencies
 .
 viaduct
 -
-reqwest
+dev
 ]
 path
 =
@@ -551,7 +551,7 @@ support
 /
 viaduct
 -
-reqwest
+dev
 "
 [
 build
