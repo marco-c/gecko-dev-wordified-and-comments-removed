@@ -2011,7 +2011,12 @@ node
 if
 (
 !
+Element
+.
+isInstance
+(
 node
+)
 )
 {
 return
