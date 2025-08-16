@@ -49,6 +49,9 @@ class
 AppShellDelegate
 ;
 class
+nsWindow
+;
+class
 nsAppShell
 :
 public
@@ -56,6 +59,7 @@ nsBaseAppShell
 {
 public
 :
+NS_DECL_NSIOBSERVER
 NS_IMETHOD
 ResumeNative
 (
@@ -96,16 +100,6 @@ static
 nsAppShell
 *
 gAppShell
-;
-static
-UIWindow
-*
-gWindow
-;
-static
-NSMutableArray
-*
-gTopLevelViews
 ;
 protected
 :
