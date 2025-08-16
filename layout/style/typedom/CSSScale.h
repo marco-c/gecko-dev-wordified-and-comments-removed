@@ -124,17 +124,17 @@ GlobalObject
 &
 aGlobal
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aX
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aY
 const
 Optional
 <
-DoubleOrCSSNumericValue
+CSSNumberish
 >
 &
 aZ
@@ -146,7 +146,7 @@ aRv
 void
 GetX
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -156,7 +156,7 @@ void
 SetX
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -167,7 +167,7 @@ aRv
 void
 GetY
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -177,7 +177,7 @@ void
 SetY
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -188,7 +188,7 @@ aRv
 void
 GetZ
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -198,7 +198,7 @@ void
 SetZ
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult

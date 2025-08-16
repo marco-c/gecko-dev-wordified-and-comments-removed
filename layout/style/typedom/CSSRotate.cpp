@@ -181,15 +181,15 @@ GlobalObject
 &
 aGlobal
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aX
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aY
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aZ
 CSSNumericValue
@@ -220,7 +220,7 @@ CSSRotate
 :
 GetX
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -242,7 +242,7 @@ CSSRotate
 SetX
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -264,7 +264,7 @@ CSSRotate
 :
 GetY
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -286,7 +286,7 @@ CSSRotate
 SetY
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -308,7 +308,7 @@ CSSRotate
 :
 GetZ
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -330,7 +330,7 @@ CSSRotate
 SetZ
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult

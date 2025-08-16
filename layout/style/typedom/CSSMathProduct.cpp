@@ -137,7 +137,7 @@ aGlobal
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aArgs

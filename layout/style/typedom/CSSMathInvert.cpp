@@ -135,7 +135,7 @@ GlobalObject
 &
 aGlobal
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 )

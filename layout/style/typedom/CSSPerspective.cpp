@@ -142,7 +142,7 @@ GlobalObject
 &
 aGlobal
 const
-CSSNumericValueOrUTF8StringOrCSSKeywordValue
+CSSPerspectiveValue
 &
 aLength
 ErrorResult
@@ -170,7 +170,7 @@ CSSPerspective
 :
 GetLength
 (
-OwningCSSNumericValueOrUTF8StringOrCSSKeywordValue
+OwningCSSPerspectiveValue
 &
 aRetVal
 )
@@ -194,7 +194,7 @@ CSSPerspective
 SetLength
 (
 const
-CSSNumericValueOrUTF8StringOrCSSKeywordValue
+CSSPerspectiveValue
 &
 aArg
 ErrorResult

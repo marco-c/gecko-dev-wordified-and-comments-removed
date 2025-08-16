@@ -124,7 +124,7 @@ Add
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -156,7 +156,7 @@ Sub
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -188,7 +188,7 @@ Mul
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -220,7 +220,7 @@ Div
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -252,7 +252,7 @@ Min
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -284,7 +284,7 @@ Max
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValues
@@ -313,7 +313,7 @@ Equals
 const
 Sequence
 <
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 >
 &
 aValue

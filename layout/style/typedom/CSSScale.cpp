@@ -146,17 +146,17 @@ GlobalObject
 &
 aGlobal
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aX
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aY
 const
 Optional
 <
-DoubleOrCSSNumericValue
+CSSNumberish
 >
 &
 aZ
@@ -185,7 +185,7 @@ CSSScale
 :
 GetX
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -207,7 +207,7 @@ CSSScale
 SetX
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -229,7 +229,7 @@ CSSScale
 :
 GetY
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -251,7 +251,7 @@ CSSScale
 SetY
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
@@ -273,7 +273,7 @@ CSSScale
 :
 GetZ
 (
-OwningDoubleOrCSSNumericValue
+OwningCSSNumberish
 &
 aRetVal
 )
@@ -295,7 +295,7 @@ CSSScale
 SetZ
 (
 const
-DoubleOrCSSNumericValue
+CSSNumberish
 &
 aArg
 ErrorResult
