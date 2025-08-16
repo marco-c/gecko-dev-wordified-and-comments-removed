@@ -1852,6 +1852,9 @@ false
 otherwise
 *
 /
+[
+infallible
+]
 boolean
 isBeingDestroyed
 (
