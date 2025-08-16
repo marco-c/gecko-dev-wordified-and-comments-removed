@@ -63,8 +63,6 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
 import
 android

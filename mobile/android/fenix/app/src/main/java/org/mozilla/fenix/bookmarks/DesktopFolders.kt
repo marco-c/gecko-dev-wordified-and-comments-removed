@@ -63,8 +63,6 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
 import
 android
@@ -108,6 +106,12 @@ fenix
 ext
 .
 components
+import
+kotlin
+.
+collections
+.
+get
 class
 DesktopFolders
 (

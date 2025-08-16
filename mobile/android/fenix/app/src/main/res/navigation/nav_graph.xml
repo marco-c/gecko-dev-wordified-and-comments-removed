@@ -3429,8 +3429,6 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
 .
 BookmarkFragment
@@ -3536,11 +3534,7 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
-.
-edit
 .
 EditBookmarkFragment
 "

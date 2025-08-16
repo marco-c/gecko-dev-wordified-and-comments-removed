@@ -63,11 +63,7 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
-.
-ui
 import
 kotlinx
 .

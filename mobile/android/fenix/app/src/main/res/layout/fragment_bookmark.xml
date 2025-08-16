@@ -149,8 +149,6 @@ mozilla
 .
 fenix
 .
-library
-.
 bookmarks
 .
 BookmarkFragment
