@@ -424,10 +424,10 @@ FirefoxTheme
 {
 CustomReviewPrompt
 (
-state
+customReviewPromptState
 =
 state
-onRequestDismiss
+onDismissRequest
 =
 {
 dismissAllowingStateLoss
