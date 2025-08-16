@@ -68,9 +68,6 @@ uint64_t
 >
 &
 aMediaEngineId
-PRemoteCDMActor
-*
-aCDM
 )
 ;
 MediaResult
@@ -121,9 +118,6 @@ Maybe
 uint64_t
 >
 aMediaEngineId
-RemoteCDMParent
-*
-aCDM
 )
 ;
 protected

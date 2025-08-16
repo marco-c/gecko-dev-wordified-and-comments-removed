@@ -174,9 +174,6 @@ TrackingId
 >
 &
 aTrackingId
-PRemoteCDMActor
-*
-aCDM
 )
 ;
 MediaResult
@@ -260,9 +257,6 @@ Maybe
 TrackingId
 >
 aTrackingId
-RemoteCDMParent
-*
-aCDM
 )
 ;
 protected

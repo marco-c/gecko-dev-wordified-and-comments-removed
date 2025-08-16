@@ -8,13 +8,6 @@ h
 #
 include
 "
-RemoteCDMParent
-.
-h
-"
-#
-include
-"
 RemoteMediaManagerParent
 .
 h
@@ -64,9 +57,6 @@ Maybe
 TrackingId
 >
 aTrackingId
-RemoteCDMParent
-*
-aCDM
 )
 :
 ShmemRecycleAllocator
@@ -84,10 +74,6 @@ aOptions
 mDecodeTaskQueue
 (
 aDecodeTaskQueue
-)
-mCDM
-(
-aCDM
 )
 mTrackingId
 (

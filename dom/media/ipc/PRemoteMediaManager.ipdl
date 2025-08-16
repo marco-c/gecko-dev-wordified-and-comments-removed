@@ -22,10 +22,6 @@ PTexture
 ;
 include
 protocol
-PRemoteCDM
-;
-include
-protocol
 PRemoteDecoder
 ;
 include
@@ -192,9 +188,6 @@ protocol
 PRemoteMediaManager
 {
 manages
-PRemoteCDM
-;
-manages
 PRemoteDecoder
 ;
 manages
@@ -256,9 +249,6 @@ mediaEngineId
 TrackingId
 ?
 trackingId
-nullable
-PRemoteCDM
-cdm
 )
 ;
 async
@@ -266,13 +256,6 @@ PRemoteEncoder
 (
 EncoderConfig
 config
-)
-;
-async
-PRemoteCDM
-(
-nsString
-keySystem
 )
 ;
 sync

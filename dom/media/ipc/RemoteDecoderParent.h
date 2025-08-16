@@ -26,9 +26,6 @@ namespace
 mozilla
 {
 class
-RemoteCDMParent
-;
-class
 RemoteMediaManagerParent
 ;
 using
@@ -91,9 +88,6 @@ Maybe
 TrackingId
 >
 aTrackingId
-RemoteCDMParent
-*
-aCDM
 )
 ;
 void
@@ -238,13 +232,6 @@ RefPtr
 MediaDataDecoder
 >
 mDecoder
-;
-const
-RefPtr
-<
-RemoteCDMParent
->
-mCDM
 ;
 const
 Maybe

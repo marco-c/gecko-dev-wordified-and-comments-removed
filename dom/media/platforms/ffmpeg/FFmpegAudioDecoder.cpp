@@ -160,9 +160,6 @@ AudioConfig
 (
 )
 )
-aDecoderParams
-.
-mCDM
 )
 mAudioInfo
 (
