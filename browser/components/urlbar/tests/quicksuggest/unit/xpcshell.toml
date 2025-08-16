@@ -77,13 +77,6 @@ js
 ]
 [
 "
-test_quicksuggest_fakespot
-.
-js
-"
-]
-[
-"
 test_quicksuggest_importantDatesSuggestions
 .
 js
