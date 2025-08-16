@@ -3349,9 +3349,8 @@ static
 UINT
 sHookTimerId
 ;
-static
-POINT
-sLastMouseMovePoint
+class
+LastMouseMoveData
 ;
 nsClassHashtable
 <
