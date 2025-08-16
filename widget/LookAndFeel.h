@@ -226,6 +226,7 @@ GTKThemeFamily
 FullKeyboardAccess
 PointingDeviceKinds
 NativeMenubar
+HourCycle
 End
 }
 ;
