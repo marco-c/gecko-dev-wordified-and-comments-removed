@@ -606,11 +606,8 @@ SystemColorFilter
 {
 if
 (
-NS_WARN_IF
-(
 !
 mColorFilterWatcher
-)
 )
 {
 return
