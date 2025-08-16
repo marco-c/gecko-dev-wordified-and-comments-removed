@@ -131,7 +131,7 @@ classification
 "
 :
 "
-disable_recommended
+intermittent
 "
 "
 runs
@@ -169,7 +169,7 @@ W5uCyxXeQIa2dwJOZtLYgg
 result
 "
 :
-false
+true
 }
 "
 fyZfG_PJSse7jeiDteDJpQ
@@ -187,7 +187,7 @@ true
 runs_failed
 "
 :
-2
+1
 "
 runs_total
 "
@@ -201,7 +201,7 @@ sum_by_label
 :
 {
 "
-disable_recommended
+intermittent
 "
 :
 1
