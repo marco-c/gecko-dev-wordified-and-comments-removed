@@ -3059,6 +3059,8 @@ or
 GPUBuffer
 or
 GPUBufferBinding
+or
+GPUExternalTexture
 )
 GPUBindingResource
 ;

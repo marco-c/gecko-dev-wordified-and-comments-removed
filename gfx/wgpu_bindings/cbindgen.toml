@@ -283,6 +283,11 @@ WGPUOption_ExternalTextureSourceId
 uint64_t
 ;
 using
+WGPUOption_ExternalTextureId
+=
+uint64_t
+;
+using
 WGPUOption_QuerySetId
 =
 uint64_t
@@ -469,6 +474,9 @@ Option_TextureViewId
 "
 "
 Option_ExternalTextureSourceId
+"
+"
+Option_ExternalTextureId
 "
 "
 Option_BufferSize
