@@ -198,14 +198,6 @@ task_t
 override
 {
 }
-void
-StartAcceptingMachPorts
-(
-Mode
-)
-override
-{
-}
 static
 bool
 CreateRawPipe
