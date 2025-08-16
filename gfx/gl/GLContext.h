@@ -4807,7 +4807,8 @@ name
 GLint
 retval
 =
-0
+-
+1
 ;
 BEFORE_GL_CALL
 ;
