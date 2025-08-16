@@ -178,6 +178,16 @@ type
 "
 object
 "
+&
+&
+(
+!
+"
+additionalProperties
+"
+)
+in
+section
 )
 {
 section
