@@ -434,6 +434,13 @@ timeoutMS
 numThreads
 :
 2
+backend
+:
+"
+onnx
+-
+native
+"
 }
 ;
 constructor

@@ -5395,7 +5395,6 @@ chrome
 try
 -
 platform
-linux
 mac
 win
 *
