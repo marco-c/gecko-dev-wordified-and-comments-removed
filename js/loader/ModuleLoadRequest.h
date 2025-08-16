@@ -539,13 +539,6 @@ Heap
 JSObject
 *
 >
-mDynamicPromise
-;
-Heap
-<
-JSObject
-*
->
 mReferrerObj
 ;
 Heap
