@@ -47,6 +47,11 @@ view
 removeFromSuperview
 ]
 ;
+[
+view
+release
+]
+;
 }
 }
 bool
@@ -189,11 +194,6 @@ addSubview
 view
 ]
 ;
-[
-view
-release
-]
-;
 }
 if
 (
@@ -248,6 +248,11 @@ viewsRecycled
 [
 view
 removeFromSuperview
+]
+;
+[
+view
+release
 ]
 ;
 }
