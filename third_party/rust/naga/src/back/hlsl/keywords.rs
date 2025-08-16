@@ -2487,6 +2487,13 @@ super
 writer
 :
 :
+SAMPLE_EXTERNAL_TEXTURE_FUNCTION
+super
+:
+:
+writer
+:
+:
 ABS_FUNCTION
 super
 :
@@ -2537,6 +2544,13 @@ writer
 :
 :
 F2U64_FUNCTION
+super
+:
+:
+writer
+:
+:
+IMAGE_LOAD_EXTERNAL_FUNCTION
 super
 :
 :

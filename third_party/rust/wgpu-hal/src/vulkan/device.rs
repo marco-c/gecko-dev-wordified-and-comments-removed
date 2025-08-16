@@ -8424,7 +8424,8 @@ color
 ;
 }
 let
-raw
+mut
+sampler_cache_guard
 =
 self
 .
@@ -8435,6 +8436,11 @@ sampler_cache
 lock
 (
 )
+;
+let
+raw
+=
+sampler_cache_guard
 .
 create_sampler
 (
@@ -8473,6 +8479,11 @@ label
 }
 ;
 }
+drop
+(
+sampler_cache_guard
+)
+;
 self
 .
 counters

@@ -77,6 +77,7 @@ namer
 :
 {
 EntryPointIndex
+ExternalTextureNameKey
 NameKey
 Namer
 }

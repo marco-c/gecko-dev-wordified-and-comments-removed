@@ -1948,6 +1948,14 @@ Features
 :
 :
 TEXTURE_ATOMIC
+|
+wgt
+:
+:
+Features
+:
+:
+EXTERNAL_TEXTURE
 ;
 if
 max_feature_level
