@@ -14759,6 +14759,16 @@ return
 False
     
 def
+isInteger
+(
+self
+)
+:
+        
+return
+False
+    
+def
 isUndefined
 (
 self
