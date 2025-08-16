@@ -186,8 +186,9 @@ property
 "
 )
 ;
-is
+ok
 (
+!
 rule
 .
 textProps
@@ -198,13 +199,6 @@ textProps
 editor
 .
 expander
-.
-style
-.
-display
-"
-none
-"
 "
 Expander
 is
