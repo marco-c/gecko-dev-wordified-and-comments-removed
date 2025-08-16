@@ -3690,6 +3690,10 @@ TextAlignLast
 "
                 
 "
+TextAutospace
+"
+                
+"
 TextDecorationLine
 "
                 
