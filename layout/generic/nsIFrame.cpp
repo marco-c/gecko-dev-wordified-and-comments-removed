@@ -55416,6 +55416,16 @@ PseudoStyleType
 :
 :
 NotPseudo
+&
+&
+!
+PseudoStyle
+:
+:
+IsElementBackedPseudo
+(
+pseudo
+)
 )
 {
 MOZ_ASSERT
