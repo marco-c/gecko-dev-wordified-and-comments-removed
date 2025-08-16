@@ -4211,6 +4211,11 @@ mSourceDragContext
 =
 nullptr
 ;
+bool
+mSourceDragContextActive
+=
+false
+;
 mozilla
 :
 :
