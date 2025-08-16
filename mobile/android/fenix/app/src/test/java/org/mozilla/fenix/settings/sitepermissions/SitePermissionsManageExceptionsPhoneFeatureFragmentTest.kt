@@ -3027,5 +3027,15 @@ crossOriginStorageAccess
 Action
 .
 ASK_TO_ALLOW
+localDeviceAccess
+=
+Action
+.
+ASK_TO_ALLOW
+localNetworkAccess
+=
+Action
+.
+ASK_TO_ALLOW
 )
 }

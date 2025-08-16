@@ -356,6 +356,12 @@ ASK_TO_ALLOW
 crossOriginStorageAccess
 =
 ASK_TO_ALLOW
+localDeviceAccess
+=
+ASK_TO_ALLOW
+localNetworkAccess
+=
+ASK_TO_ALLOW
 )
 Before
 fun

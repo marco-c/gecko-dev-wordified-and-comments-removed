@@ -7943,6 +7943,16 @@ PhoneFeature
 .
 MEDIA_KEY_SYSTEM_ACCESS
 )
+localDeviceAccess
+=
+Action
+.
+ASK_TO_ALLOW
+localNetworkAccess
+=
+Action
+.
+ASK_TO_ALLOW
 )
 }
 fun
