@@ -575,6 +575,16 @@ getAttribute
 triggeringSponsoredURLVisitTimeMS
 "
 )
+triggeringSource
+:
+browser
+.
+getAttribute
+(
+"
+triggeringSource
+"
+)
 }
 ;
 }
