@@ -2991,6 +2991,9 @@ searchInfo
 .
 engine
 source
+{
+searchUrlType
+}
 )
 ;
 }

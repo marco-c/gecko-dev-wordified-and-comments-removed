@@ -212,6 +212,9 @@ searchTermParamName
 "
 url
 "
+excludePartnerCodeFromTelemetry
+:
+true
 }
 }
 }

@@ -4605,6 +4605,9 @@ displayName
 urlData
 .
 isNewUntil
+urlData
+.
+excludePartnerCodeFromTelemetry
 )
 ;
 if
