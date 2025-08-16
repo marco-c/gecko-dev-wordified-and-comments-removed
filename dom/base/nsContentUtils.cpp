@@ -54658,7 +54658,7 @@ CDATA_SECTION_NODE
 const
 CharacterDataBuffer
 *
-text
+characterDataBuffer
 =
 &
 current
@@ -54669,7 +54669,7 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -54694,7 +54694,7 @@ parent
 {
 AppendEncodedCharacters
 (
-text
+characterDataBuffer
 aBuilder
 )
 ;
@@ -54705,7 +54705,7 @@ aBuilder
 .
 Append
 (
-text
+characterDataBuffer
 )
 ;
 }

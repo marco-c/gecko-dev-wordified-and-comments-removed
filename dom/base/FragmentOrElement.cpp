@@ -8888,6 +8888,7 @@ FragmentOrElement
 GetCharacterDataBuffer
 (
 )
+const
 {
 return
 nullptr

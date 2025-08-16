@@ -17505,7 +17505,7 @@ TextFragmentBeginsWithStringAtOffset
 const
 CharacterDataBuffer
 &
-aTextFragment
+aCharacterDataBuffer
 const
 uint32_t
 aOffset
@@ -17531,7 +17531,7 @@ aOffset
 +
 stringLength
 >
-aTextFragment
+aCharacterDataBuffer
 .
 GetLength
 (
@@ -17544,7 +17544,7 @@ false
 }
 if
 (
-aTextFragment
+aCharacterDataBuffer
 .
 Is2b
 (
@@ -17556,7 +17556,7 @@ aString
 .
 Equals
 (
-aTextFragment
+aCharacterDataBuffer
 .
 Get2b
 (
@@ -17571,7 +17571,7 @@ aString
 .
 EqualsLatin1
 (
-aTextFragment
+aCharacterDataBuffer
 .
 Get1b
 (
@@ -17617,7 +17617,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 aInsertedPoint

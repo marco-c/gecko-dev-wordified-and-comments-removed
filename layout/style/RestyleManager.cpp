@@ -1829,7 +1829,7 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;

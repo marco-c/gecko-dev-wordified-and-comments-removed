@@ -722,6 +722,7 @@ CharacterDataBuffer
 GetCharacterDataBuffer
 (
 )
+const
 =
 0
 ;

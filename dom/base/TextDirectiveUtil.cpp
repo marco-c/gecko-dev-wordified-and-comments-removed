@@ -368,7 +368,7 @@ current
 text
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .
@@ -705,12 +705,12 @@ false
 const
 CharacterDataBuffer
 &
-frag
+characterDataBuffer
 =
 aText
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -725,7 +725,7 @@ char
 ;
 if
 (
-frag
+characterDataBuffer
 .
 Is2b
 (
@@ -737,7 +737,7 @@ char16_t
 *
 content
 =
-frag
+characterDataBuffer
 .
 Get2b
 (
@@ -770,7 +770,7 @@ char
 *
 content
 =
-frag
+characterDataBuffer
 .
 Get1b
 (

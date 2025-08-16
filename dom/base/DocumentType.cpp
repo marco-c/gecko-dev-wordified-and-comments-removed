@@ -318,6 +318,7 @@ DocumentType
 GetCharacterDataBuffer
 (
 )
+const
 {
 return
 nullptr

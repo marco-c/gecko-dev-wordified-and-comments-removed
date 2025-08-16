@@ -1346,7 +1346,7 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;

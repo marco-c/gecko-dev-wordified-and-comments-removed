@@ -2581,19 +2581,19 @@ L
 const
 CharacterDataBuffer
 &
-frag
+characterDataBuffer
 =
 text
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
 uint32_t
 len
 =
-frag
+characterDataBuffer
 .
 GetLength
 (
@@ -2624,7 +2624,7 @@ nullptr
 ;
 if
 (
-frag
+characterDataBuffer
 .
 Is2b
 (
@@ -2633,7 +2633,7 @@ Is2b
 {
 t2b
 =
-frag
+characterDataBuffer
 .
 Get2b
 (
@@ -2644,7 +2644,7 @@ else
 {
 t1b
 =
-frag
+characterDataBuffer
 .
 Get1b
 (
@@ -3264,7 +3264,7 @@ mFindBackward
 const
 CharacterDataBuffer
 *
-frag
+characterDataBuffer
 =
 nullptr
 ;
@@ -3410,7 +3410,7 @@ GetCurrentNode
 )
 )
 {
-frag
+characterDataBuffer
 =
 nullptr
 ;
@@ -3538,7 +3538,7 @@ pindex
 if
 (
 !
-frag
+characterDataBuffer
 )
 {
 current
@@ -3625,13 +3625,13 @@ c
 0
 ;
 }
-frag
+characterDataBuffer
 =
 &
 current
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -3639,7 +3639,7 @@ fragLen
 =
 int32_t
 (
-frag
+characterDataBuffer
 -
 >
 GetLength
@@ -3769,7 +3769,7 @@ n
 "
 )
 ;
-frag
+characterDataBuffer
 =
 nullptr
 ;
@@ -3778,7 +3778,7 @@ continue
 }
 if
 (
-frag
+characterDataBuffer
 -
 >
 Is2b
@@ -3788,7 +3788,7 @@ Is2b
 {
 t2b
 =
-frag
+characterDataBuffer
 -
 >
 Get2b
@@ -3838,7 +3838,7 @@ else
 {
 t1b
 =
-frag
+characterDataBuffer
 -
 >
 Get1b
@@ -3954,7 +3954,7 @@ matchAnchorOffset
 fragLen
 )
 ;
-frag
+characterDataBuffer
 =
 nullptr
 ;

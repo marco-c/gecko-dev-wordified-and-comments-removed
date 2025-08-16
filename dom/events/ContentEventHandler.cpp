@@ -2973,7 +2973,7 @@ Length
 ;
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -3034,7 +3034,7 @@ Length
 ;
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -3164,11 +3164,11 @@ aXPLength
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -3183,7 +3183,7 @@ UINT32_MAX
 aXPLength
 <
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -3209,7 +3209,7 @@ std
 min
 (
 aXPLength
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -3228,7 +3228,7 @@ return
 }
 if
 (
-textFragment
+characterDataBuffer
 .
 Is2b
 (
@@ -3238,7 +3238,7 @@ Is2b
 nsDependentSubstring
 str
 (
-textFragment
+characterDataBuffer
 .
 Get2b
 (
@@ -3256,7 +3256,7 @@ str
 nsDependentCSubstring
 str
 (
-textFragment
+characterDataBuffer
 .
 Get1b
 (
@@ -3408,11 +3408,11 @@ aNativeLength
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -3420,7 +3420,7 @@ const
 uint32_t
 xpLength
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -3438,7 +3438,7 @@ return
 }
 if
 (
-textFragment
+characterDataBuffer
 .
 Is2b
 (
@@ -3448,7 +3448,7 @@ Is2b
 nsDependentSubstring
 str
 (
-textFragment
+characterDataBuffer
 .
 Get2b
 (
@@ -3467,7 +3467,7 @@ aNativeLength
 nsDependentCSubstring
 str
 (
-textFragment
+characterDataBuffer
 .
 Get1b
 (
@@ -3664,7 +3664,7 @@ min
 (
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -5832,7 +5832,7 @@ if
 (
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
