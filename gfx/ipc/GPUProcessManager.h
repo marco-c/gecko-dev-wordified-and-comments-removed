@@ -754,6 +754,11 @@ false
 )
 ;
 void
+StopObserving
+(
+)
+;
+void
 CrashProcess
 (
 )
