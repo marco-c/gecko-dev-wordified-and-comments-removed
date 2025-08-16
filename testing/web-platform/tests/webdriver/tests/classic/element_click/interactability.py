@@ -881,7 +881,7 @@ intercepted
 "
 )
 def
-test_element_intercepted_no_pointer_events
+test_element_not_interactable_pointer_events_none
 (
 session
 inline
@@ -949,8 +949,8 @@ assert_error
 response
 "
 element
-click
-intercepted
+not
+interactable
 "
 )
 def
