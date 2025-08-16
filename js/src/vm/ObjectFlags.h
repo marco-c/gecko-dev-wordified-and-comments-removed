@@ -113,7 +113,7 @@ NeedsProxyGetSetResultValidation
 <
 <
 13
-HasFuseProperty
+HasRealmFuseProperty
 =
 1
 <

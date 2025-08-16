@@ -27087,7 +27087,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 ctor
@@ -27531,7 +27531,7 @@ return
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto

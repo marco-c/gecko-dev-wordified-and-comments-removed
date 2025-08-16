@@ -923,7 +923,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto
@@ -2307,7 +2307,7 @@ return
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 nativeProto
@@ -6540,7 +6540,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto
@@ -7681,7 +7681,7 @@ return
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 nativeProto

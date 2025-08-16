@@ -7879,12 +7879,12 @@ case
 ObjectFlag
 :
 :
-HasFuseProperty
+HasRealmFuseProperty
 :
 known
 (
 "
-HasFuseProperty
+HasRealmFuseProperty
 "
 )
 ;

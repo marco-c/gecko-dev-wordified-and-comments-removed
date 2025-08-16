@@ -234,7 +234,7 @@ UseWatchtowerTestingLog
 ObjectFlag
 :
 :
-HasFuseProperty
+HasRealmFuseProperty
 }
 )
 ;
@@ -290,7 +290,7 @@ hasAnyFlag
 ObjectFlag
 :
 :
-HasFuseProperty
+HasRealmFuseProperty
 ObjectFlag
 :
 :

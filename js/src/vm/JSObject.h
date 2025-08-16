@@ -850,7 +850,7 @@ GenerationCountedGlobal
 ;
 }
 bool
-hasFuseProperty
+hasRealmFuseProperty
 (
 )
 const
@@ -864,13 +864,13 @@ js
 ObjectFlag
 :
 :
-HasFuseProperty
+HasRealmFuseProperty
 )
 ;
 }
 static
 bool
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 JSContext
 *
@@ -893,7 +893,7 @@ js
 ObjectFlag
 :
 :
-HasFuseProperty
+HasRealmFuseProperty
 )
 ;
 }

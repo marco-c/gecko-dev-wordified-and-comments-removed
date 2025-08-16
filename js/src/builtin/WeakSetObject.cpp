@@ -810,7 +810,7 @@ WeakSetObject
 properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 Proto

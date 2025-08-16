@@ -27221,7 +27221,7 @@ promise_methods
 promise_properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 ProtoAndCtor

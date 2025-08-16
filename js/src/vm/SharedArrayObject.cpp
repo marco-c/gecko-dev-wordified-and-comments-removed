@@ -4690,7 +4690,7 @@ sharedarray_proto_functions
 sharedarray_proto_properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 ProtoAndCtor

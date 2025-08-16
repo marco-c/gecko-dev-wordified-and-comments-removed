@@ -1679,7 +1679,7 @@ arraybuffer_proto_functions
 arraybuffer_proto_properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 ProtoAndCtor
