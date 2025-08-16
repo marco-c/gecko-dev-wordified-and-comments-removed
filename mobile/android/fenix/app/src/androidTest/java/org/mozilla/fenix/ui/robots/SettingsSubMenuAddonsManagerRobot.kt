@@ -3371,6 +3371,9 @@ composeTestRule
 ComposeTestRule
 )
 {
+waitForAppWindowToBeUpdated
+(
+)
 Log
 .
 i
