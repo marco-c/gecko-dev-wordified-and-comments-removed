@@ -10372,7 +10372,8 @@ name
 onboarding_term_of_service_line_two_link_text
 "
 >
-Personvernbestemmelser
+Personvernerkl
+ring
 <
 /
 string
@@ -42532,7 +42533,8 @@ name
 about_privacy_notice
 "
 >
-Personvernbestemmelser
+Personvernerkl
+ring
 <
 /
 string
@@ -42601,10 +42603,8 @@ ignore
 UnusedResources
 "
 >
-Vilk
+Bruksvilk
 r
-for
-bruk
 <
 /
 string
@@ -58867,7 +58867,8 @@ name
 micro_survey_privacy_notice_2
 "
 >
-Personvernbestemmelser
+Personvernerkl
+ring
 <
 /
 string

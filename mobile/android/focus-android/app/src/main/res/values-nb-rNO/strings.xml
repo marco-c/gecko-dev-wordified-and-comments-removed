@@ -993,10 +993,8 @@ name
 menu_terms_of_use
 "
 >
-Vilk
+Bruksvilk
 r
-for
-bruk
 <
 /
 string
@@ -5103,7 +5101,8 @@ name
 preference_privacy_notice
 "
 >
-Personvernbestemmelser
+Personvernerkl
+ring
 <
 /
 string
@@ -7508,7 +7507,8 @@ ignore
 UnusedResources
 "
 >
-Personvernbestemmelser
+Personvernerkl
+ring
 .
 <
 /
