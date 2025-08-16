@@ -172,13 +172,6 @@ margin
 .
 editor
 ;
-const
-computed
-=
-ruleEditor
-.
-computed
-;
 info
 (
 "
@@ -333,6 +326,13 @@ highlighted
 .
 "
 )
+;
+const
+computed
+=
+ruleEditor
+.
+computed
 ;
 ok
 (
