@@ -1837,7 +1837,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-flags
+loadFlags
 :
 Ci
 .

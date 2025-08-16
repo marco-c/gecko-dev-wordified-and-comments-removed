@@ -663,7 +663,7 @@ loadURI
 (
 uri
 {
-flags
+loadFlags
 :
 Ci
 .

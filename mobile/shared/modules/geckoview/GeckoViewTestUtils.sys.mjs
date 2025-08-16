@@ -375,7 +375,7 @@ fixupAndLoadURIString
 (
 url
 {
-flags
+loadFlags
 :
 Ci
 .
