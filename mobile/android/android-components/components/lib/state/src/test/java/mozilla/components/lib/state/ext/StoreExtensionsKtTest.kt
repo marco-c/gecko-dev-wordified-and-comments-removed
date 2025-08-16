@@ -139,12 +139,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 GlobalScope
 import
 kotlinx
@@ -341,7 +335,6 @@ AndroidJUnit4
 :
 class
 )
-ExperimentalCoroutinesApi
 OptIn
 (
 DelicateCoroutinesApi
@@ -854,10 +847,6 @@ stateObserved
 }
 Test
 Synchronized
-ExperimentalCoroutinesApi
-/
-/
-Channel
 fun
 Reading
 state
@@ -1164,10 +1153,6 @@ IllegalArgumentException
 :
 class
 )
-ExperimentalCoroutinesApi
-/
-/
-Channel
 fun
 Creating
 channel
@@ -1245,7 +1230,6 @@ owner
 }
 Test
 Synchronized
-ExperimentalCoroutinesApi
 fun
 Reading
 state
@@ -1560,7 +1544,6 @@ receivedValue
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 Subscription
 is
@@ -1679,7 +1662,6 @@ isEmpty
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 Subscription
 is
@@ -1799,7 +1781,6 @@ isEmpty
 }
 Test
 Synchronized
-ExperimentalCoroutinesApi
 fun
 Reading
 state
@@ -2052,7 +2033,6 @@ receivedValue
 }
 Test
 Synchronized
-ExperimentalCoroutinesApi
 fun
 Reading
 state
@@ -2298,7 +2278,6 @@ receivedValue
 }
 Test
 Synchronized
-ExperimentalCoroutinesApi
 fun
 Reading
 state

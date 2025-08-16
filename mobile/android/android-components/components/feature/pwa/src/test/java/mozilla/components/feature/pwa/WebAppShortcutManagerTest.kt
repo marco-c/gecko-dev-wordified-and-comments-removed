@@ -145,12 +145,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -420,7 +414,6 @@ reflect
 jvm
 .
 javaField
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

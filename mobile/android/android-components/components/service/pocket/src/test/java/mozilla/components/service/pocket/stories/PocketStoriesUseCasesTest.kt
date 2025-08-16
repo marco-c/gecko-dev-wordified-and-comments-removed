@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -302,11 +296,6 @@ kotlin
 reflect
 .
 KVisibility
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 RunWith
 (
 AndroidJUnit4

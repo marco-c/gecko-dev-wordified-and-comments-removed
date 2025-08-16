@@ -67,12 +67,6 @@ accounts
 .
 push
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -270,7 +264,6 @@ java
 util
 .
 UUID
-ExperimentalCoroutinesApi
 class
 SendTabUseCasesTest
 {

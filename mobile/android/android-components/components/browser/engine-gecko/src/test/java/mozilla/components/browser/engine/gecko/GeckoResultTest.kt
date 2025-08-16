@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -190,7 +184,6 @@ LooperMode
 Mode
 .
 LEGACY
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

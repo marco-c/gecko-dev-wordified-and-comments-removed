@@ -65,12 +65,6 @@ feature
 .
 prompts
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -262,7 +256,6 @@ tabId
 }
 }
 Before
-ExperimentalCoroutinesApi
 fun
 setUp
 (

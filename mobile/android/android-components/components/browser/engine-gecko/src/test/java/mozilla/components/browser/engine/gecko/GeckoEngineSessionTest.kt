@@ -117,12 +117,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -1104,7 +1098,6 @@ GeckoCookieBehavior
 ContentBlocking
 .
 CookieBehavior
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

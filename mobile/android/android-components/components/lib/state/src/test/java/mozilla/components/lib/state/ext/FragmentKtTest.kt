@@ -329,7 +329,6 @@ AndroidJUnit4
 :
 class
 )
-ExperimentalCoroutinesApi
 class
 FragmentKtTest
 {
@@ -1761,6 +1760,10 @@ CountDownLatch
 )
 }
 Test
+ExperimentalCoroutinesApi
+/
+/
+setMain
 fun
 consumeFlow
 -

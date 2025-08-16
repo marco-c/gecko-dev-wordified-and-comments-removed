@@ -121,12 +121,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -326,7 +320,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

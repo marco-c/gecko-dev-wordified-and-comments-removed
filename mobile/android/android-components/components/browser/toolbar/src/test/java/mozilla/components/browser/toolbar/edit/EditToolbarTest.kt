@@ -95,12 +95,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -274,11 +268,6 @@ util
 concurrent
 .
 CountDownLatch
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 RunWith
 (
 AndroidJUnit4

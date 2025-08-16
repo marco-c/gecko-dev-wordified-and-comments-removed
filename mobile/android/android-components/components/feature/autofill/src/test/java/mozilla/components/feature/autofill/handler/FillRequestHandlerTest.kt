@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -362,11 +356,6 @@ java
 util
 .
 UUID
-ExperimentalCoroutinesApi
-/
-/
-for
-createTestCase
 RunWith
 (
 RobolectricTestRunner
@@ -1218,7 +1207,6 @@ needsConfirmation
 )
 }
 }
-ExperimentalCoroutinesApi
 private
 fun
 <

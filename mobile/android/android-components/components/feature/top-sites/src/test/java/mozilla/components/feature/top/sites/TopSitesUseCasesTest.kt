@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -104,11 +98,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 class
 TopSitesUseCasesTest
 {

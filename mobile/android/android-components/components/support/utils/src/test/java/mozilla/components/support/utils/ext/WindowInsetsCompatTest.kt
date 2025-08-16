@@ -119,12 +119,6 @@ Type
 .
 systemBars
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -214,7 +208,6 @@ Int
 =
 0
 Before
-ExperimentalCoroutinesApi
 fun
 setUp
 (

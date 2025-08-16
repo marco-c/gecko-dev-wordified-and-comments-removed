@@ -99,12 +99,6 @@ coroutines
 .
 CompletableDeferred
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -346,7 +340,6 @@ mockito
 Mockito
 .
 when
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

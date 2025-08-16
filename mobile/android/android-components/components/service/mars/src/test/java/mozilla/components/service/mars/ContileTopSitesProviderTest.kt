@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -380,11 +374,6 @@ java
 util
 .
 Date
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 RunWith
 (
 AndroidJUnit4

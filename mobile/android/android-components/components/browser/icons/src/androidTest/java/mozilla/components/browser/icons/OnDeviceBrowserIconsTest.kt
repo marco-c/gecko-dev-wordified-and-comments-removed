@@ -85,12 +85,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -186,13 +180,6 @@ ApplicationProvider
 .
 getApplicationContext
 (
-)
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
 )
 Test
 fun

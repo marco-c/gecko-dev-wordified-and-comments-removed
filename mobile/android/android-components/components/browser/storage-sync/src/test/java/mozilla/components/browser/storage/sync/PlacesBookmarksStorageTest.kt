@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -256,11 +250,6 @@ util
 concurrent
 .
 TimeUnit
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 RunWith
 (
 AndroidJUnit4

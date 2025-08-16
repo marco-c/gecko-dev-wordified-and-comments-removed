@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 runBlocking
 import
 mozilla
@@ -188,7 +182,6 @@ junit
 runner
 .
 RunWith
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

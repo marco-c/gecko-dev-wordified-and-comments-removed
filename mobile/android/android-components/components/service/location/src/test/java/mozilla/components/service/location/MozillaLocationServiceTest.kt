@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 currentTime
@@ -304,11 +298,6 @@ java
 io
 .
 IOException
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 RunWith
 (
 AndroidJUnit4

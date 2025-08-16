@@ -69,12 +69,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 asCoroutineDispatcher
 import
 kotlinx
@@ -222,11 +216,6 @@ util
 concurrent
 .
 Executor
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 class
 AsyncFilterListenerTest
 {

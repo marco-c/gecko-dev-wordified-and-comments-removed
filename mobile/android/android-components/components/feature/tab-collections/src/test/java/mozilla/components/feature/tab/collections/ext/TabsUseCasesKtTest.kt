@@ -69,12 +69,6 @@ collections
 .
 ext
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -349,13 +343,6 @@ var
 filesDir
 :
 File
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule

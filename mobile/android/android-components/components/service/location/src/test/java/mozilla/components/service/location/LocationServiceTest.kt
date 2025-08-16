@@ -103,8 +103,11 @@ Test
 class
 LocationServiceTest
 {
-ExperimentalCoroutinesApi
 Test
+ExperimentalCoroutinesApi
+/
+/
+UnconfinedTestDispatcher
 fun
 dummy
 implementation

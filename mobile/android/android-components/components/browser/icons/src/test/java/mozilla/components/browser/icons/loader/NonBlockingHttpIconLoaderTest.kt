@@ -79,12 +79,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -366,7 +360,6 @@ java
 io
 .
 InputStream
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

@@ -145,12 +145,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -2264,7 +2258,6 @@ restoreState
 bundle
 )
 }
-ExperimentalCoroutinesApi
 Test
 fun
 enableTrackingProtection

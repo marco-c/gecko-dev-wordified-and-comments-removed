@@ -101,12 +101,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 appservices
@@ -406,7 +400,6 @@ mockito
 Mockito
 .
 verifyNoMoreInteractions
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

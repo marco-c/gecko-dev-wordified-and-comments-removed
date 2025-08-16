@@ -65,12 +65,6 @@ support
 .
 utils
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -156,7 +150,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
 class
 RunWhenReadyQueueTest
 {

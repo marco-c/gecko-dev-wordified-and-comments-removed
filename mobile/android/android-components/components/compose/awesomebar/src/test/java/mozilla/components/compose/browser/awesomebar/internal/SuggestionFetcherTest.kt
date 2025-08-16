@@ -73,12 +73,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 Job
 import
 mozilla
@@ -202,11 +196,6 @@ mockito
 Mockito
 .
 spy
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 class
 SuggestionFetcherTest
 {

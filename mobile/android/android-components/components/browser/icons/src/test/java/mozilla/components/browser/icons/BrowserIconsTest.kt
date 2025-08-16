@@ -115,12 +115,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 Job
 import
 mozilla
@@ -384,11 +378,6 @@ java
 io
 .
 OutputStream
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 RunWith
 (
 AndroidJUnit4

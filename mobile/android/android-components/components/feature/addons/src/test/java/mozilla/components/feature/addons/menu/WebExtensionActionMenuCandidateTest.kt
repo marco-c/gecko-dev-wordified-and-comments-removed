@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -219,7 +213,6 @@ AndroidJUnit4
 :
 class
 )
-ExperimentalCoroutinesApi
 class
 WebExtensionActionMenuCandidateTest
 {

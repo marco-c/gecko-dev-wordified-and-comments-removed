@@ -99,12 +99,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -457,7 +451,6 @@ AndroidJUnit4
 :
 class
 )
-ExperimentalCoroutinesApi
 class
 TabIntentProcessorTest
 {

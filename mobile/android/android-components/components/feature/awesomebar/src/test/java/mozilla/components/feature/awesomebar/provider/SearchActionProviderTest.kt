@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -104,11 +98,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 class
 SearchActionProviderTest
 {

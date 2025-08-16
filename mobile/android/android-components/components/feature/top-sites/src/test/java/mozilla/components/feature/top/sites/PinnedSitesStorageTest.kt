@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -170,11 +164,6 @@ mockito
 Mockito
 .
 when
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 class
 PinnedSitesStorageTest
 {

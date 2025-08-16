@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -105,7 +99,6 @@ Mockito
 class
 GlobalAccountManagerTest
 {
-ExperimentalCoroutinesApi
 Test
 fun
 GlobalAccountManager

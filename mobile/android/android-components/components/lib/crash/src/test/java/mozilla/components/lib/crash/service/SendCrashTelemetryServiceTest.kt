@@ -91,12 +91,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -238,7 +232,6 @@ org
 robolectric
 .
 Robolectric
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

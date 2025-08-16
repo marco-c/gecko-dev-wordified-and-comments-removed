@@ -115,12 +115,6 @@ net
 .
 toUri
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -258,7 +252,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
 Suppress
 (
 "

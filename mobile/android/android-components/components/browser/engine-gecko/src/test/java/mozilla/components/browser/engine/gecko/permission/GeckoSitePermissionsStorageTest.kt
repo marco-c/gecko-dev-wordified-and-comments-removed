@@ -73,12 +73,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -500,7 +494,6 @@ geckoview
 StorageController
 .
 ClearFlags
-ExperimentalCoroutinesApi
 class
 GeckoSitePermissionsStorageTest
 {

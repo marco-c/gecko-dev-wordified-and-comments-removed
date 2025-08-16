@@ -67,12 +67,6 @@ accounts
 .
 push
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -250,11 +244,6 @@ mockito
 stubbing
 .
 OngoingStubbing
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 class
 AutoPushObserverTest
 {
@@ -303,7 +292,6 @@ AutoPushFeature
 mock
 (
 )
-ExperimentalCoroutinesApi
 Test
 fun
 messages
@@ -524,7 +512,6 @@ any
 )
 Unit
 }
-ExperimentalCoroutinesApi
 Test
 fun
 subscription

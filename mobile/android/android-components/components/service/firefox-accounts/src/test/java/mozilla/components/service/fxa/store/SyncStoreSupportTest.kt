@@ -351,6 +351,10 @@ ExperimentalCoroutinesApi
 :
 class
 )
+/
+/
+runCurrent
+setMain
 class
 SyncStoreSupportTest
 {

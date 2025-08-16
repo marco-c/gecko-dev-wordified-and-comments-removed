@@ -87,12 +87,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 first
@@ -286,11 +280,6 @@ java
 io
 .
 IOException
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 RunWith
 (
 AndroidJUnit4

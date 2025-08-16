@@ -105,12 +105,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -228,7 +222,6 @@ mozilla
 geckoview
 .
 StorageController
-ExperimentalCoroutinesApi
 class
 GeckoCookieBannersStorageTest
 {

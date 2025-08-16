@@ -427,11 +427,6 @@ AndroidJUnit4
 :
 class
 )
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
 class
 WebExtensionBrowserMenuTest
 {

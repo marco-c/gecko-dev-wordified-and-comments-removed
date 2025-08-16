@@ -99,12 +99,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 SupervisorJob
 import
 kotlinx
@@ -542,7 +536,6 @@ sync15
 DeviceType
 as
 RustDeviceType
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4
@@ -954,7 +947,6 @@ account
 }
 }
 Test
-ExperimentalCoroutinesApi
 fun
 updating
 device
@@ -1254,7 +1246,6 @@ testName
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 set
 device
@@ -1319,7 +1310,6 @@ key
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 process
 raw
@@ -2141,7 +2131,6 @@ TabsNotClosed
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 refreshing
 constellation
@@ -2737,7 +2726,6 @@ state
 )
 }
 Test
-ExperimentalCoroutinesApi
 fun
 polling
 for

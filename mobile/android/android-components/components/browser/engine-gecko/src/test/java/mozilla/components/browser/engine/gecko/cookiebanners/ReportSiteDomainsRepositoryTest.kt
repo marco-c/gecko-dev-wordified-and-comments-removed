@@ -131,12 +131,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -194,7 +188,6 @@ junit
 runner
 .
 RunWith
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

@@ -101,12 +101,6 @@ coroutines
 .
 CancellationException
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -208,7 +202,6 @@ kotlin
 reflect
 .
 KVisibility
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

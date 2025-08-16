@@ -67,12 +67,6 @@ findinpage
 .
 internal
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -312,7 +306,6 @@ store
 :
 BrowserStore
 Before
-ExperimentalCoroutinesApi
 fun
 setUp
 (

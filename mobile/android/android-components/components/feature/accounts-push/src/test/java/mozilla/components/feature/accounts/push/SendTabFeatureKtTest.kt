@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -184,7 +178,6 @@ mockito
 Mockito
 .
 when
-ExperimentalCoroutinesApi
 class
 SendTabFeatureKtTest
 {

@@ -167,12 +167,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -1081,7 +1075,6 @@ tabId
 }
 }
 Before
-ExperimentalCoroutinesApi
 fun
 setUp
 (

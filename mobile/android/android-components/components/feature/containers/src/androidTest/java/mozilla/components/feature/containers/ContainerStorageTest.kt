@@ -91,12 +91,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 first
@@ -119,7 +113,7 @@ state
 .
 state
 .
-Container
+ContainerState
 import
 mozilla
 .
@@ -188,7 +182,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 Suppress
 (
 "
@@ -692,7 +685,7 @@ getAllContainers
 :
 List
 <
-Container
+ContainerState
 >
 {
 return

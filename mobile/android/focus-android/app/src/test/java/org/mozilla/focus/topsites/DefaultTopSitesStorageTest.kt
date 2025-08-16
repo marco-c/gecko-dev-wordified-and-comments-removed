@@ -161,6 +161,9 @@ Mockito
 .
 verify
 ExperimentalCoroutinesApi
+/
+/
+UnconfinedTestDispatcher
 class
 DefaultTopSitesStorageTest
 {

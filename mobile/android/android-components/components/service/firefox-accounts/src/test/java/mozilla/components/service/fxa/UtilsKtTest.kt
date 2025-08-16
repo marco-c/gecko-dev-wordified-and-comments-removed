@@ -69,12 +69,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -202,11 +196,6 @@ mockito
 Mockito
 .
 verifyNoInteractions
-ExperimentalCoroutinesApi
-/
-/
-for
-runTest
 class
 UtilsKtTest
 {

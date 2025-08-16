@@ -73,12 +73,6 @@ content
 .
 Context
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -282,11 +276,6 @@ mockito
 stubbing
 .
 OngoingStubbing
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 class
 ConstellationObserverTest
 {

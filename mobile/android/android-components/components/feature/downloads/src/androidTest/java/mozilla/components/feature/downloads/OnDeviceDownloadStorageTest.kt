@@ -117,12 +117,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -242,7 +236,6 @@ migration
 -
 test
 "
-ExperimentalCoroutinesApi
 class
 OnDeviceDownloadStorageTest
 {

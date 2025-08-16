@@ -99,12 +99,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 TimeoutCancellationException
 import
 kotlinx
@@ -626,7 +620,6 @@ mockito
 Mockito
 .
 verify
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

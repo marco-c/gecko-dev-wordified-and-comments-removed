@@ -101,12 +101,6 @@ testing
 .
 TestListenableWorkerBuilder
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -244,11 +238,6 @@ reflect
 KVisibility
 .
 INTERNAL
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 RunWith
 (
 AndroidJUnit4

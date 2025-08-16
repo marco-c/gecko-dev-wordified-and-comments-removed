@@ -83,12 +83,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -168,7 +162,6 @@ apply
 (
 )
 }
-ExperimentalCoroutinesApi
 Test
 fun
 customListIsEmptyByDefault

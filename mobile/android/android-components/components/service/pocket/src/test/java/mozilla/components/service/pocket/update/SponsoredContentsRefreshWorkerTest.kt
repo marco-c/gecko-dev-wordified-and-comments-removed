@@ -101,12 +101,6 @@ testing
 .
 TestListenableWorkerBuilder
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -210,11 +204,6 @@ mockito
 Mockito
 .
 doReturn
-ExperimentalCoroutinesApi
-/
-/
-for
-runTestOnMain
 RunWith
 (
 AndroidJUnit4

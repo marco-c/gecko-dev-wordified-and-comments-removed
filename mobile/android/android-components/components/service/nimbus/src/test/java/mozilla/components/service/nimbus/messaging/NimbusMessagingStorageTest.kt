@@ -383,11 +383,6 @@ RobolectricTestRunner
 :
 class
 )
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
 class
 NimbusMessagingStorageTest
 {

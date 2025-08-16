@@ -69,12 +69,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 async
 import
 kotlinx
@@ -101,7 +95,6 @@ Test
 class
 ClientTest
 {
-ExperimentalCoroutinesApi
 Test
 fun
 Async

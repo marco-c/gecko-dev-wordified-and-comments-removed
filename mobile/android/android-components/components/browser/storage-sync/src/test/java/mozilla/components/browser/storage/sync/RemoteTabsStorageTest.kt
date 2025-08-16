@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -254,7 +248,6 @@ remotetabs
 TabsStore
 as
 RemoteTabsProvider
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

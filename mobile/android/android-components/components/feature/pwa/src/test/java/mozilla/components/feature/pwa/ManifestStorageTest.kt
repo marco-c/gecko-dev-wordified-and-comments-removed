@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -262,7 +256,6 @@ mockito
 Mockito
 .
 when
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4
