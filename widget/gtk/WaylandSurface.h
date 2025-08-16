@@ -205,6 +205,15 @@ false
 )
 ;
 void
+ClearFrameCallbackHandlerLocked
+(
+const
+WaylandSurfaceLock
+&
+aProofOfLock
+)
+;
+void
 SetFrameCallbackStateLocked
 (
 const

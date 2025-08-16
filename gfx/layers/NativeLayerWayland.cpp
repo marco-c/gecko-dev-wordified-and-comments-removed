@@ -5070,6 +5070,14 @@ UnmapLocked
 surfaceLock
 )
 ;
+mSurface
+-
+>
+ClearFrameCallbackHandlerLocked
+(
+surfaceLock
+)
+;
 mState
 .
 mMutatedStackingOrder
