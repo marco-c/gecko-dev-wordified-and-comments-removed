@@ -4882,6 +4882,15 @@ value
 enabled
 :
 true
+-
+channel
+:
+nightly
+value
+:
+enabled
+:
+true
 toolbar
 -
 redesign
