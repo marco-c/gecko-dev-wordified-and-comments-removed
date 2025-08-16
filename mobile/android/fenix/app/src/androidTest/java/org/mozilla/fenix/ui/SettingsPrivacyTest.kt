@@ -490,6 +490,7 @@ On
 )
 clickUsageAndTechnicalDataToggle
 (
+composeTestRule
 )
 verifyDataCollectionView
 (
