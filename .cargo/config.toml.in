@@ -570,7 +570,7 @@ chardetng
 ?
 rev
 =
-3484d3e3ebdc8931493aa5df4d7ee9360a90e76b
+a07d20273ce36146adaf76bd667dd57bd7b3508b
 "
 ]
 git
@@ -591,7 +591,7 @@ chardetng
 rev
 =
 "
-3484d3e3ebdc8931493aa5df4d7ee9360a90e76b
+a07d20273ce36146adaf76bd667dd57bd7b3508b
 "
 replace
 -
@@ -622,7 +622,7 @@ chardetng_c
 ?
 rev
 =
-ed8a4c6f900a90d4dbc1d64b856e61490a1c3570
+2f0aba284677d098de14f91ffe5a9e5b9a4922c2
 "
 ]
 git
@@ -643,7 +643,7 @@ chardetng_c
 rev
 =
 "
-ed8a4c6f900a90d4dbc1d64b856e61490a1c3570
+2f0aba284677d098de14f91ffe5a9e5b9a4922c2
 "
 replace
 -
