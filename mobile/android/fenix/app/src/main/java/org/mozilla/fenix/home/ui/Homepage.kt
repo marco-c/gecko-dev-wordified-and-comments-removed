@@ -2280,7 +2280,7 @@ true
 showHeader
 =
 false
-showSearchBar
+searchBarVisible
 =
 true
 searchBarEnabled
@@ -2434,7 +2434,7 @@ true
 showHeader
 =
 false
-showSearchBar
+searchBarVisible
 =
 true
 searchBarEnabled
