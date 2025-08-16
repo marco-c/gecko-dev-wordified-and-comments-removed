@@ -721,15 +721,6 @@ false
 "
 android
 :
-textColor
-=
-"
-color
-/
-primary_text_light_theme
-"
-android
-:
 textSize
 =
 "
