@@ -237,10 +237,7 @@ error
 ]
         
 if
-len
-(
 errors
-)
 :
             
 results
@@ -343,10 +340,7 @@ output
 if
 errors
 and
-len
-(
 errors
-)
 :
             
 return

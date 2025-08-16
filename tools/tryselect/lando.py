@@ -74,7 +74,6 @@ Path
 from
 typing
 import
-Optional
 Union
 import
 requests
@@ -209,10 +208,9 @@ load_token_from_disk
 )
 -
 >
-Optional
-[
 dict
-]
+|
+None
 :
     
 "
@@ -331,10 +329,9 @@ vcs
 SupportedVcsRepository
 head
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
@@ -1051,10 +1048,9 @@ dict
 )
 -
 >
-Optional
-[
 dict
-]
+|
+None
 :
         
 "
@@ -1910,10 +1906,9 @@ __init__
 self
 detail
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 )
