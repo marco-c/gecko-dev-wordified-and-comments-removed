@@ -8870,6 +8870,12 @@ fill
 attention
 )
 ;
+outline
+:
+1px
+dashed
+currentColor
+;
 media
 not
 (
@@ -8999,10 +9005,10 @@ interactive
 ]
 {
 outline
+-
+style
 :
-1px
 solid
-currentColor
 ;
 }
 }
