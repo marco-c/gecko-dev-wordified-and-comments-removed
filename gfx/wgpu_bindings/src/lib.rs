@@ -1597,6 +1597,13 @@ id
 :
 TextureId
 )
+DestroyExternalTexture
+(
+id
+:
+:
+ExternalTextureId
+)
 DestroyExternalTextureSource
 (
 crate

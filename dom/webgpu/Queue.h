@@ -306,6 +306,11 @@ WebGPUChild
 >
 mBridge
 ;
+uint64_t
+mNextExternalTextureSubmissionIndex
+=
+1
+;
 public
 :
 }
