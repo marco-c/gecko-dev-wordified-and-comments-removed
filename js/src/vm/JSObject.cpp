@@ -18045,7 +18045,10 @@ NativeObject
 {
 if
 (
-canHaveFixedElements
+is
+<
+ArrayObject
+>
 (
 )
 )

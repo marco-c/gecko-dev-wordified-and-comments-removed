@@ -1349,12 +1349,6 @@ nursery
 )
 const
 ;
-bool
-canHaveFixedElements
-(
-)
-const
-;
 size_t
 tenuredSizeOfThis
 (
