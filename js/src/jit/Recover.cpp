@@ -15198,7 +15198,7 @@ readIntPtr
 )
 ;
 intptr_t
-end
+length
 =
 iter
 .
@@ -15215,7 +15215,7 @@ TypedArraySubarrayRecover
 cx
 obj
 start
-end
+length
 )
 ;
 if

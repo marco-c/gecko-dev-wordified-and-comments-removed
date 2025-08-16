@@ -7074,7 +7074,7 @@ Object
 start
 :
 IntPtr
-end
+length
 :
 IntPtr
 result_type

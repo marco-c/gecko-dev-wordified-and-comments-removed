@@ -3729,6 +3729,15 @@ TypedArraySubarray
 \
 _
 (
+TypedArraySubarrayWithLength
+js
+:
+:
+TypedArraySubarrayWithLength
+)
+\
+_
+(
 ValueToIterator
 js
 :
