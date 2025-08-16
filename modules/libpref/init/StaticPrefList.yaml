@@ -82605,7 +82605,7 @@ type
 bool
 value
 :
-false
+true
 mirror
 :
 always
@@ -82861,7 +82861,7 @@ type
 bool
 value
 :
-false
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
