@@ -700,10 +700,19 @@ test_build_test_list
 )
 :
     
+http_filename
+=
+"
+perftest_one
+.
+js
+"
+    
 tests
 =
 [
 EXAMPLE_TESTS_DIR
+f
 "
 https
 :
@@ -713,9 +722,9 @@ some
 /
 location
 /
-perftest_one
-.
-js
+{
+http_filename
+}
 "
 ]
     
@@ -731,13 +740,39 @@ tests
 )
         
 assert
-len
+any
 (
+f
+.
+startswith
+(
+str
+(
+EXAMPLE_TESTS_DIR
+)
+)
+for
+f
+in
 files
 )
-=
-=
-2
+        
+assert
+any
+(
+http_filename
+in
+Path
+(
+f
+)
+.
+name
+for
+f
+in
+files
+)
     
 finally
 :
