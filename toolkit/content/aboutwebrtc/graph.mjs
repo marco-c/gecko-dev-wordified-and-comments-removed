@@ -367,11 +367,7 @@ compStyle
 "
 -
 -
-in
--
-content
--
-page
+text
 -
 color
 "

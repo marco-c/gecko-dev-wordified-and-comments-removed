@@ -3512,11 +3512,7 @@ var
 (
 -
 -
-in
--
-content
--
-page
+text
 -
 color
 )
@@ -7763,10 +7759,6 @@ color
 var
 (
 -
--
-in
--
-content
 -
 text
 -
