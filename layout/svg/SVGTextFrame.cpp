@@ -3147,7 +3147,7 @@ GetTrimmedOffsets
 mFrame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 )
@@ -6077,7 +6077,7 @@ GetTrimmedOffsets
 frame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 )
@@ -7250,7 +7250,7 @@ GetTrimmedOffsets
 mFrameForTrimCheck
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 (
@@ -7343,7 +7343,7 @@ mFrameForTrimCheck
 mFrameForTrimCheck
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 -
@@ -13161,7 +13161,7 @@ GetTrimmedOffsets
 frame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 nsTextFrame
@@ -16669,7 +16669,7 @@ GetTrimmedOffsets
 frame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 )

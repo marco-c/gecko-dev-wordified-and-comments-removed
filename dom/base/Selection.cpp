@@ -10003,7 +10003,7 @@ SelectionStateChanged
 textFrame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 -

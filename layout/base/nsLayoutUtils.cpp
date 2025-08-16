@@ -46801,7 +46801,7 @@ GetContentLength
 textFrame
 -
 >
-TextFragment
+CharacterDataBuffer
 (
 )
 -

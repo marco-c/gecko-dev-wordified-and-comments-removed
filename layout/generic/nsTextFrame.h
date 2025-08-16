@@ -541,13 +541,13 @@ dom
 :
 CharacterDataBuffer
 *
-GetFragment
+GetCharacterDataBuffer
 (
 )
 const
 {
 return
-mFrag
+mCharacterDataBuffer
 ;
 }
 gfxFontGroup
@@ -695,7 +695,7 @@ dom
 :
 CharacterDataBuffer
 *
-mFrag
+mCharacterDataBuffer
 ;
 const
 nsIFrame
@@ -1331,7 +1331,7 @@ dom
 :
 CharacterDataBuffer
 *
-TextFragment
+CharacterDataBuffer
 (
 )
 const
@@ -3843,7 +3843,9 @@ dom
 CharacterDataBuffer
 *
 const
-mTextFrag
+mCharacterDataBuffer
+=
+nullptr
 ;
 nsBlockFrame
 *
