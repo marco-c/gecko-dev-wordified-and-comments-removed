@@ -84,6 +84,11 @@ CSSNumericValue
 h
 "
 "
+CSSRotate
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -180,6 +185,11 @@ cpp
 "
 "
 CSSNumericValue
+.
+cpp
+"
+"
+CSSRotate
 .
 cpp
 "

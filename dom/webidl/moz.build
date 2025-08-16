@@ -3509,6 +3509,11 @@ CSSPseudoElement
 webidl
 "
 "
+CSSRotate
+.
+webidl
+"
+"
 CSSRule
 .
 webidl
