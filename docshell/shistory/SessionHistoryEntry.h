@@ -1142,6 +1142,12 @@ const
 SessionHistoryInfo
 mInfo
 ;
+CopyableTArray
+<
+SessionHistoryInfo
+>
+mContiguousEntries
+;
 uint64_t
 mLoadId
 =

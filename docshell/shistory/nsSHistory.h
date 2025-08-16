@@ -466,7 +466,7 @@ std
 :
 function
 <
-void
+bool
 (
 nsISHEntry
 *

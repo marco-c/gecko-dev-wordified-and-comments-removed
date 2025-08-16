@@ -2772,7 +2772,7 @@ std
 :
 function
 <
-void
+bool
 (
 nsISHEntry
 *
@@ -2879,6 +2879,9 @@ entry
 previousEntry
 ;
 }
+bool
+shouldContinue
+=
 aCallback
 (
 entry
@@ -2886,6 +2889,9 @@ entry
 ;
 while
 (
+shouldContinue
+&
+&
 (
 entry
 =
@@ -2936,6 +2942,8 @@ false
 break
 ;
 }
+shouldContinue
+=
 aCallback
 (
 entry
