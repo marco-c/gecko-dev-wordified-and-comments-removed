@@ -831,6 +831,7 @@ message
 text
 onClickPendingIntent
 onDismissPendingIntent
+true
 )
 }
 private
