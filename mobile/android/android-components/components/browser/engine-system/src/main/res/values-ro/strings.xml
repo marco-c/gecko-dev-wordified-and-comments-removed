@@ -149,7 +149,8 @@ mozac_browser_engine_system_auth_message
 %
 2
 s
-solicit
+i
+cere
 numele
 de
 utilizator
@@ -220,7 +221,7 @@ mozac_browser_engine_system_auth_no_realm_message
 1
 s
 i
-solicit
+cere
 numele
 de
 utilizator

@@ -979,10 +979,10 @@ i
 acceseze
 datele
 n
+alte
 %
 1
 d
-alte
 domenii
 <
 /
@@ -1058,7 +1058,6 @@ mozac_feature_addons_permissions_extra_domains_description_plural_2
 "
 >
 S
--
 i
 acceseze
 datele
@@ -2901,8 +2900,7 @@ name
 mozac_feature_addons_permissions_declarative_net_request_description_for_update
 "
 >
-Bloca
-i
+Blocheaz
 con
 inutul
 de
@@ -4320,7 +4318,6 @@ mozac_feature_addons_permissions_extra_domains_description_plural_for_update
 "
 >
 S
--
 i
 acceseze
 datele
