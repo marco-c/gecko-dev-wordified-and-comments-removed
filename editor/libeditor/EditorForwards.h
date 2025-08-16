@@ -355,6 +355,12 @@ class
 MoveNodeTransaction
 ;
 class
+MoveNodeTransactionBase
+;
+class
+MoveSiblingsTransaction
+;
+class
 PlaceholderTransaction
 ;
 class

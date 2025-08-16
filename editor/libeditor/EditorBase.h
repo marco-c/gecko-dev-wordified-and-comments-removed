@@ -7880,6 +7880,10 @@ MoveNodeTransaction
 ;
 friend
 class
+MoveSiblingsTransaction
+;
+friend
+class
 ParagraphStateAtSelection
 ;
 friend
