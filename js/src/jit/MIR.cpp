@@ -37909,7 +37909,7 @@ lhs
 if
 (
 !
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 other
 -
