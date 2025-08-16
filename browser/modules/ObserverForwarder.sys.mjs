@@ -328,7 +328,7 @@ CanvasPermissionPromptHelper
 "
 UnexpectedJavaScriptLoad
 -
-CheckInitialState
+Live
 "
 :
 [
@@ -339,7 +339,7 @@ UnexpectedScriptObserver
 "
 UnexpectedJavaScriptLoad
 -
-Live
+UserTookAction
 "
 :
 [
