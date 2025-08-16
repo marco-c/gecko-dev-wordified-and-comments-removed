@@ -619,9 +619,9 @@ fenix
 .
 home
 .
-sessioncontrol
+store
 .
-TopSiteInteractor
+NimbusMessageState
 import
 org
 .
@@ -631,9 +631,11 @@ fenix
 .
 home
 .
-store
+topsites
 .
-NimbusMessageState
+interactor
+.
+TopSiteInteractor
 import
 org
 .

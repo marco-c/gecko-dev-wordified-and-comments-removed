@@ -591,9 +591,11 @@ fenix
 .
 home
 .
-sessioncontrol
+topsites
 .
-TopSiteInteractor
+TopSitesTestTag
+.
+TOP_SITE_CARD_FAVICON
 import
 org
 .
@@ -605,9 +607,9 @@ home
 .
 topsites
 .
-TopSitesTestTag
+interactor
 .
-TOP_SITE_CARD_FAVICON
+TopSiteInteractor
 import
 org
 .
