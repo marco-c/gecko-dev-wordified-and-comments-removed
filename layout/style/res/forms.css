@@ -1665,7 +1665,6 @@ appearance
 :
 listbox
 ;
-}
 media
 (
 -
@@ -1675,17 +1674,6 @@ platform
 :
 macos
 )
-{
-select
-:
--
-moz
--
-select
--
-list
--
-box
 {
 scrollbar
 -
