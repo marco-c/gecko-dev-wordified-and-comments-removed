@@ -3718,10 +3718,6 @@ UserFocus
 "
                 
 "
-UserInput
-"
-                
-"
 UserSelect
 "
                 
