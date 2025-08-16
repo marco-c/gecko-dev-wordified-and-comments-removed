@@ -205,6 +205,14 @@ disposition
 =
 >
 {
+extension
+.
+tabManager
+.
+addActiveTabPermission
+(
+)
+;
 fire
 .
 sync
@@ -597,6 +605,9 @@ onInputEntered
 extensionApi
 :
 this
+inputHandling
+:
+true
 }
 )
 .

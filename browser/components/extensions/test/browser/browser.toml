@@ -1958,6 +1958,13 @@ js
 ]
 [
 "
+browser_ext_omnibox_activeTab
+.
+js
+"
+]
+[
+"
 browser_ext_openPanel
 .
 js
