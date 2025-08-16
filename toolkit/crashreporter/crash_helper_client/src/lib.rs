@@ -399,7 +399,7 @@ ancillary_data
 =
 server_endpoint
 .
-into_ancillary
+as_ancillary
 (
 &
 self
