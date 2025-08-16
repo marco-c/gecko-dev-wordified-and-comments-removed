@@ -491,10 +491,13 @@ UiSelector
 (
 )
 .
-text
+descriptionStartsWith
 (
 "
 Private
+Tabs
+Open
+:
 "
 )
 )
