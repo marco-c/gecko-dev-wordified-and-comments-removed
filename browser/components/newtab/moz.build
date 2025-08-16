@@ -74,3 +74,17 @@ xpcshell
 toml
 "
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+test
+/
+browser
+/
+browser
+.
+toml
+"
+]
