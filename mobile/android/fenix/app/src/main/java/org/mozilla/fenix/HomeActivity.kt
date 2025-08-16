@@ -8039,13 +8039,6 @@ DefaultBrowsingModeManager
 intent
 =
 intent
-store
-=
-components
-.
-core
-.
-store
 settings
 =
 components

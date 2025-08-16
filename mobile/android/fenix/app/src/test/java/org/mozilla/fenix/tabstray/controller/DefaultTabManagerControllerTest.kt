@@ -6815,9 +6815,6 @@ DefaultBrowsingModeManager
 intent
 =
 null
-store
-=
-browserStore
 settings
 =
 settings
