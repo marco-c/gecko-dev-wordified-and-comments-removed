@@ -235,6 +235,9 @@ nsIArray
 >
 gDraggedTransferables
 ;
+bool
+gCreatedPromisedFile
+;
 already_AddRefed
 <
 nsIDragSession
@@ -1131,6 +1134,10 @@ aTransferableArray
 gDraggedTransferables
 =
 aTransferableArray
+;
+gCreatedPromisedFile
+=
+false
 ;
 mNativeDragView
 =
