@@ -1361,7 +1361,7 @@ aForce
 override
 ;
 void
-HandlePartialUpdateLocked
+ReadBackFrontBuffer
 (
 const
 widget
