@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -180,7 +174,6 @@ org
 junit
 .
 Test
-ExperimentalCoroutinesApi
 class
 AbstractBindingTest
 {
@@ -423,7 +416,6 @@ joinBlocking
 )
 }
 }
-ExperimentalCoroutinesApi
 class
 TestBinding
 (

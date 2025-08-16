@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -183,13 +177,6 @@ Listener
 .
 *
 /
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 SyncButtonBinding
 (

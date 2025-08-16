@@ -165,6 +165,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 test
 .
 UnconfinedTestDispatcher
@@ -620,6 +626,10 @@ robolectric
 annotation
 .
 Config
+ExperimentalCoroutinesApi
+/
+/
+UnconfinedTestDispatcher
 RunWith
 (
 AndroidJUnit4

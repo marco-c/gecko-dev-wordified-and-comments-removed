@@ -71,12 +71,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -205,13 +199,6 @@ updated
 .
 *
 /
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 RecentTabsListFeature
 (

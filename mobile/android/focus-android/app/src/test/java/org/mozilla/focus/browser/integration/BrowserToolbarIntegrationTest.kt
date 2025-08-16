@@ -342,6 +342,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+ExperimentalCoroutinesApi
+/
+/
+resetMain
+setMain
+UnconfinedTestDispatcher
 RunWith
 (
 RobolectricTestRunner
@@ -399,7 +405,6 @@ store
 :
 BrowserStore
 Before
-ExperimentalCoroutinesApi
 fun
 setUp
 (
@@ -542,7 +547,6 @@ tabCounterListener
 )
 }
 After
-ExperimentalCoroutinesApi
 fun
 tearDown
 (

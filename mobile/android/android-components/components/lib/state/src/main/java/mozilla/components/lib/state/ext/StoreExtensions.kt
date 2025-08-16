@@ -119,12 +119,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 MainScope
 import
 kotlinx
@@ -873,7 +867,6 @@ received
 .
 *
 /
-ExperimentalCoroutinesApi
 MainThread
 fun
 <

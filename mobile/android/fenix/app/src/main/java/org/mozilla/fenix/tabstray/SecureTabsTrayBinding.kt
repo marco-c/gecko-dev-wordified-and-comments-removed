@@ -83,12 +83,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -176,13 +170,6 @@ selected
 .
 *
 /
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 SecureTabsTrayBinding
 (

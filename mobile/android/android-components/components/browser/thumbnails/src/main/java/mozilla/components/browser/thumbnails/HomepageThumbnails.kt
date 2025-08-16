@@ -87,12 +87,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -291,13 +285,6 @@ memory
 .
 *
 /
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 HomepageThumbnails
 (

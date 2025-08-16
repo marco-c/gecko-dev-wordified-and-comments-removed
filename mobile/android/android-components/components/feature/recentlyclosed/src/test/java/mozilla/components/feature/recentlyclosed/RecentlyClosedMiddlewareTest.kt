@@ -69,12 +69,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 flow
@@ -342,7 +336,6 @@ mockito
 Mockito
 .
 verifyNoMoreInteractions
-ExperimentalCoroutinesApi
 class
 RecentlyClosedMiddlewareTest
 {

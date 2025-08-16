@@ -101,6 +101,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 test
 .
 runTest
@@ -612,6 +618,10 @@ return
 testableStorageWrapper
 }
 }
+ExperimentalCoroutinesApi
+/
+/
+getCompleted
 RunWith
 (
 AndroidJUnit4

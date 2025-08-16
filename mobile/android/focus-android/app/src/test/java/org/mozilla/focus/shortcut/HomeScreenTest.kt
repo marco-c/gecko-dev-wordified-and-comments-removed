@@ -256,6 +256,10 @@ org
 robolectric
 .
 RobolectricTestRunner
+ExperimentalCoroutinesApi
+/
+/
+UnconfinedTestDispatcher
 RunWith
 (
 RobolectricTestRunner
@@ -300,7 +304,6 @@ var
 shortcutManager
 :
 ShortcutManager
-ExperimentalCoroutinesApi
 private
 val
 testDispatcher
