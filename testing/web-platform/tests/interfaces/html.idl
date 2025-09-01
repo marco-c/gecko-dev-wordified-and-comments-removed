@@ -4805,7 +4805,7 @@ members
 ;
 HTMLInputElement
 includes
-ElementPopover
+PopoverTargetAttributes
 ;
 [
 Exposed
@@ -4949,7 +4949,7 @@ labels
 ;
 HTMLButtonElement
 includes
-ElementPopover
+PopoverTargetAttributes
 ;
 [
 Exposed
@@ -9565,7 +9565,7 @@ null
 ;
 interface
 mixin
-ElementPopover
+PopoverTargetAttributes
 {
 [
 CEReactions
