@@ -1206,7 +1206,7 @@ CustomEvent
 "
 IPProtection
 :
-Close
+ClickUpgrade
 "
 {
 bubbles

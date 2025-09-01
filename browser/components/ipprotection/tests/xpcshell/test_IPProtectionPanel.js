@@ -140,6 +140,10 @@ function
 (
 )
 {
+do_get_profile
+(
+)
+;
 IPProtectionService
 .
 init
