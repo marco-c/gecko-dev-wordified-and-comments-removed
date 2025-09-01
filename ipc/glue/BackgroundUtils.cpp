@@ -4992,11 +4992,6 @@ overriddenFingerprintingSettings
 loadingContext
 loadInfoArgs
 .
-originTrialCoepCredentiallessEnabledForTopLevel
-(
-)
-loadInfoArgs
-.
 unstrippedURI
 (
 )
