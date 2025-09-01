@@ -31,14 +31,7 @@ xpcshell
 toml
 "
 ]
-EXTRA_JS_MODULES
-[
-"
-services
--
-crypto
-"
-]
+MOZ_SRC_FILES
 +
 =
 [
