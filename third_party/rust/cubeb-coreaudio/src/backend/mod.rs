@@ -20840,7 +20840,16 @@ p
 .
 channels
 =
+cmp
+:
+:
+min
+(
+input_hw_desc
+.
+mChannelsPerFrame
 device_channel_count
+)
 ;
 p
 .
