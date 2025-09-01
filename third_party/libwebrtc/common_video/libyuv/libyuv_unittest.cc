@@ -565,7 +565,7 @@ TestLibYuv
 :
 source_file_
 (
-NULL
+nullptr
 )
 orig_frame_
 (
@@ -667,7 +667,7 @@ ASSERT_TRUE
 source_file_
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -755,7 +755,7 @@ if
 source_file_
 !
 =
-NULL
+nullptr
 )
 {
 ASSERT_EQ
@@ -770,7 +770,7 @@ source_file_
 }
 source_file_
 =
-NULL
+nullptr
 ;
 }
 TEST_F
@@ -824,7 +824,7 @@ ASSERT_TRUE
 output_file
 !
 =
-NULL
+nullptr
 )
 ;
 double
@@ -2249,7 +2249,7 @@ ASSERT_TRUE
 output_file
 !
 =
-NULL
+nullptr
 )
 ;
 double
