@@ -4562,9 +4562,6 @@ OnDtlsTransportState
 DtlsTransportInternal
 *
 transport
-webrtc
-:
-:
 DtlsTransportState
 state
 )

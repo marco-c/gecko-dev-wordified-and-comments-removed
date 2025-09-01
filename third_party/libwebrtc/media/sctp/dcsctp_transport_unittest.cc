@@ -332,9 +332,6 @@ OnDataReceived
 int
 DataMessageType
 const
-webrtc
-:
-:
 CopyOnWriteBuffer
 &
 )
@@ -505,9 +502,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 DcSctpTransport
 >
 (
@@ -562,9 +556,6 @@ OnConnected
 FakeDtlsTransport
 fake_dtls_transport_
 ;
-webrtc
-:
-:
 SimulatedClock
 simulated_clock_
 ;
@@ -583,9 +574,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 DcSctpTransport
 >
 sctp_transport_
@@ -1910,9 +1898,6 @@ sink_
 OnDataReceived
 (
 1
-webrtc
-:
-:
 DataMessageType
 :
 :
