@@ -393,6 +393,13 @@ visibility
 *
 "
 ]
+allow_poison
+=
+[
+"
+environment_construction
+"
+]
 sources
 =
 [

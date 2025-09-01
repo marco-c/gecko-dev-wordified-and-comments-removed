@@ -1780,10 +1780,6 @@ fec_controller_api
 "
 "
 :
-field_trials
-"
-"
-:
 field_trials_view
 "
 "

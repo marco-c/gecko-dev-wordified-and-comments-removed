@@ -3130,17 +3130,6 @@ file_wrapper
 system_wrappers
 "
 "
-.
-.
-/
-.
-.
-/
-system_wrappers
-:
-field_trial
-"
-"
 /
 /
 third_party
