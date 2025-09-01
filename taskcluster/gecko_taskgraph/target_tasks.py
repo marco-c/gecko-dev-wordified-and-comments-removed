@@ -4221,6 +4221,26 @@ raptor_try_name
 )
         
 if
+"
+network
+-
+bench
+"
+in
+try_name
+and
+"
+linux
+"
+not
+in
+platform
+:
+            
+return
+False
+        
+if
 accept_raptor_desktop_build
 (
 platform
