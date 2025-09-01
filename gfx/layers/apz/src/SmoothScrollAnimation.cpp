@@ -546,6 +546,8 @@ SmoothScrollAnimation
 :
 CanExtend
 (
+ViewportType
+aViewportToScroll
 ScrollOrigin
 aOrigin
 )
@@ -571,6 +573,18 @@ ScrollAnimationKind
 SmoothMsd
 )
 ;
+if
+(
+aViewportToScroll
+!
+=
+mViewportToScroll
+)
+{
+return
+false
+;
+}
 if
 (
 mKind

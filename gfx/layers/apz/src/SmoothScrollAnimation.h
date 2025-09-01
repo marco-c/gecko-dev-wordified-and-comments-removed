@@ -206,6 +206,16 @@ return
 mKind
 ;
 }
+ViewportType
+ViewportToScroll
+(
+)
+const
+{
+return
+mViewportToScroll
+;
+}
 ScrollSnapTargetIds
 TakeSnapTargetIds
 (
@@ -313,6 +323,8 @@ mFinalDestination
 bool
 CanExtend
 (
+ViewportType
+aViewportToScroll
 ScrollOrigin
 aOrigin
 )
