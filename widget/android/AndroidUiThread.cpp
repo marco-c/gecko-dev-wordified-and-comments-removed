@@ -284,7 +284,7 @@ already_AddRefed
 nsIRunnable
 >
 aEvent
-uint32_t
+DispatchFlags
 aFlags
 )
 override
@@ -323,7 +323,7 @@ already_AddRefed
 nsIRunnable
 >
 aEvent
-uint32_t
+DispatchFlags
 aFlags
 )
 {

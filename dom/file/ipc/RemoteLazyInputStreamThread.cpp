@@ -348,7 +348,7 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-uint32_t
+DispatchFlags
 aFlags
 )
 {
@@ -378,7 +378,7 @@ DispatchFromScript
 nsIRunnable
 *
 aRunnable
-uint32_t
+DispatchFlags
 aFlags
 )
 {

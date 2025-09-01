@@ -240,6 +240,11 @@ MainThreadIdlePeriod
 h
 "
 "
+MaybeLeakRefPtr
+.
+h
+"
+"
 Monitor
 .
 h

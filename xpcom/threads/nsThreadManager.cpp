@@ -741,7 +741,7 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-uint32_t
+DispatchFlags
 aFlags
 )
 {
@@ -768,7 +768,7 @@ mIOPool
 :
 mPool
 ;
-uint32_t
+DispatchFlags
 flags
 =
 aFlags
@@ -825,7 +825,7 @@ DispatchFromScript
 nsIRunnable
 *
 aRunnable
-uint32_t
+DispatchFlags
 aFlags
 )
 {
@@ -2213,7 +2213,10 @@ DispatchToBackgroundThread
 nsIRunnable
 *
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 )
 {
@@ -3170,7 +3173,7 @@ forget
 )
 aPriority
 )
-0
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -3181,7 +3184,7 @@ mMainThread
 DispatchFromScript
 (
 aEvent
-0
+NS_DISPATCH_FALLIBLE
 )
 ;
 }

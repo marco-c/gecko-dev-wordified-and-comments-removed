@@ -463,7 +463,10 @@ GMPDispatch
 nsIRunnable
 *
 event
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 =
 NS_DISPATCH_NORMAL
@@ -477,7 +480,10 @@ already_AddRefed
 nsIRunnable
 >
 event
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 =
 NS_DISPATCH_NORMAL

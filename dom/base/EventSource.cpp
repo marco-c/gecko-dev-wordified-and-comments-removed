@@ -7770,7 +7770,7 @@ DispatchFromScript
 nsIRunnable
 *
 aEvent
-uint32_t
+DispatchFlags
 aFlags
 )
 {
@@ -7806,7 +7806,7 @@ already_AddRefed
 nsIRunnable
 >
 aEvent
-uint32_t
+DispatchFlags
 aFlags
 )
 {
@@ -7832,6 +7832,7 @@ event_ref
 forget
 (
 )
+aFlags
 )
 ;
 }

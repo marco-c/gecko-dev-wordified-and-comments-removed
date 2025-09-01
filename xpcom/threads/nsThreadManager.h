@@ -140,7 +140,10 @@ DispatchToBackgroundThread
 nsIRunnable
 *
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 )
 ;
