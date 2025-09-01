@@ -115,24 +115,6 @@ example
 "
    
 "
-picture
-"
-:
-"
-https
-:
-/
-/
-idp
-.
-example
-/
-profile
-/
-123
-"
-   
-"
 approved_clients
 "
 :
