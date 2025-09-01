@@ -127,6 +127,13 @@ js
 ]
 [
 "
+test_nsPrefOverrideMap
+.
+js
+"
+]
+[
+"
 test_parsePrefs
 .
 js

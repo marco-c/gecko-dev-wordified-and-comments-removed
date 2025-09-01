@@ -81,6 +81,11 @@ nsIPrefLocalizedString
 idl
 "
 "
+nsIPrefOverrideMap
+.
+idl
+"
+"
 nsIPrefService
 .
 idl
