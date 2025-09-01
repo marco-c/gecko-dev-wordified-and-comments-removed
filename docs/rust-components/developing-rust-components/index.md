@@ -433,7 +433,6 @@ example
 -
 component
 uniffi
-logging
 threading
 other
 -
