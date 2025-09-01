@@ -264,6 +264,13 @@ html
 ]
 [
 "
+browser_URILoadingHelper_chromeless
+.
+js
+"
+]
+[
+"
 browser_UnsubmittedCrashHandler
 .
 js
