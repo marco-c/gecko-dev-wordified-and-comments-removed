@@ -1229,6 +1229,12 @@ HasStoragePermission
 StoragePermissionAllowListed
 =
 2
+DisabledStoragePermission
+=
+3
+InactiveStoragePermission
+=
+4
 }
 ;
 cenum
