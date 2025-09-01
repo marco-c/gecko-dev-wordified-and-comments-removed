@@ -5787,7 +5787,7 @@ FirefoxTheme
 .
 colors
 .
-actionCritical
+textCritical
 onClick
 =
 {
