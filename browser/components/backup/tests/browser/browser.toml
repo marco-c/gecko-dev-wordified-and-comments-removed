@@ -196,6 +196,13 @@ Bug
 ]
 [
 "
+browser_settings_create_backup
+.
+js
+"
+]
+[
+"
 browser_settings_enable_backup_encryption
 .
 js

@@ -1341,6 +1341,17 @@ true
 "
 BackupUI
 :
+TriggerCreateBackup
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+BackupUI
+:
 EnableScheduledBackups
 "
 :

@@ -64,6 +64,13 @@ html
 ]
 [
 "
+test_trigger_create_backup
+.
+html
+"
+]
+[
+"
 test_turn_off_scheduled_backups
 .
 html
