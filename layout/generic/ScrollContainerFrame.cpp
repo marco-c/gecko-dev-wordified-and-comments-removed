@@ -9987,7 +9987,17 @@ MakeUnique
 ScrollAnimationMSDPhysics
 >
 (
+apz
+:
+:
+ScrollAnimationKind
+:
+:
+Smooth
 aInitialPosition
+1
+.
+0
 )
 ;
 }
