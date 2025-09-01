@@ -267,6 +267,13 @@ js
 ]
 [
 "
+test_PreferencesBackupResource_Nimbus
+.
+js
+"
+]
+[
+"
 test_PreferencesBackupResource_searchEngines
 .
 js

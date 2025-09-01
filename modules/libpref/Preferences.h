@@ -141,6 +141,9 @@ functional
 class
 nsIFile
 ;
+class
+nsIPrefOverrideMap
+;
 typedef
 void
 (
@@ -2033,6 +2036,12 @@ WritePrefFilePromise
 >
 >
 aPromise
+=
+nullptr
+const
+nsIPrefOverrideMap
+*
+aPrefOverrideMap
 =
 nullptr
 )
