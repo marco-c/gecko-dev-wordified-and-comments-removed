@@ -74673,6 +74673,10 @@ timerType
 isRunning
 &
 &
+!
+progressVisible
+&
+&
 external_React_default
 (
 )

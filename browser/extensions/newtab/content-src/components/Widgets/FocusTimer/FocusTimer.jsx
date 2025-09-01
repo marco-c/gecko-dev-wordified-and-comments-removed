@@ -3608,6 +3608,10 @@ timerType
 isRunning
 &
 &
+!
+progressVisible
+&
+&
 (
 <
 p
