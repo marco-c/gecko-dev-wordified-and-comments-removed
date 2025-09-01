@@ -1489,6 +1489,12 @@ mPrev
 !
 =
 aElm
+|
+|
+aElm
+=
+=
+mTail
 )
 {
 return
@@ -1544,6 +1550,12 @@ mNext
 !
 =
 aElm
+|
+|
+aElm
+=
+=
+mHead
 )
 {
 return
