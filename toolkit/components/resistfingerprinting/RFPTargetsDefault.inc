@@ -16,7 +16,7 @@ ScreenAvailToResolution
 )
 DESKTOP_DEFAULT
 (
-NavigatorHWConcurrency
+NavigatorHWConcurrencyTiered
 )
 DESKTOP_DEFAULT
 (
@@ -40,7 +40,7 @@ ScreenAvailToResolution
 )
 ANDROID_DEFAULT
 (
-NavigatorHWConcurrency
+NavigatorHWConcurrencyTiered
 )
 ANDROID_DEFAULT
 (
