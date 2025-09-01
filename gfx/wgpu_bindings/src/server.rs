@@ -5436,7 +5436,7 @@ vk
 Format
 :
 :
-R8G8B8A8_UNORM
+B8G8R8A8_UNORM
 &
 mut
 format_properties_2
@@ -5557,7 +5557,7 @@ vk
 Format
 :
 :
-R8G8B8A8_UNORM
+B8G8R8A8_UNORM
 &
 mut
 format_properties_2
@@ -5609,7 +5609,7 @@ vk
 Format
 :
 :
-R8G8B8A8_UNORM
+B8G8R8A8_UNORM
 modifier_prop
 .
 drm_format_modifier
@@ -5821,7 +5821,7 @@ vk
 Format
 :
 :
-R8G8B8A8_UNORM
+B8G8R8A8_UNORM
 )
 .
 extent
@@ -9483,7 +9483,7 @@ vk
 Format
 :
 :
-R8G8B8A8_UNORM
+B8G8R8A8_UNORM
 )
 .
 extent
