@@ -333,6 +333,10 @@ mFetchSourceOnly
 (
 false
 )
+mHasSourceMapURL_
+(
+false
+)
 mReferrerPolicy
 (
 aReferrerPolicy

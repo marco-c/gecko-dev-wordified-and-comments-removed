@@ -5554,7 +5554,9 @@ if
 aRequest
 -
 >
-mSourceMapURL
+HasSourceMapURL
+(
+)
 )
 {
 aOptions
@@ -5565,9 +5567,10 @@ setSourceMapURL
 aRequest
 -
 >
-mSourceMapURL
--
->
+GetSourceMapURL
+(
+)
+.
 get
 (
 )
