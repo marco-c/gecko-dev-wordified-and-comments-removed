@@ -16845,6 +16845,9 @@ aTargetA
 if
 (
 aTargetB
+&
+&
+aTargetB
 -
 >
 IsShadowIncludingInclusiveDescendantOf
