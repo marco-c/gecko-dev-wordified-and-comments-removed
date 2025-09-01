@@ -199,5 +199,5 @@ ToolbarFeature
 .
 RenderStyle
 .
-RegistrableDomain
+ColoredDomain
 )
