@@ -67,7 +67,7 @@ MozGTestBench
 h
 "
 ]
-DIRS
+TEST_DIRS
 +
 =
 [

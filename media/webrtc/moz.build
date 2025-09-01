@@ -128,14 +128,6 @@ source
 encoding
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
 TEST_DIRS
 +
 =
