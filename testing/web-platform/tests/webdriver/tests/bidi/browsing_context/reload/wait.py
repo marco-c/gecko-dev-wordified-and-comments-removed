@@ -488,14 +488,22 @@ async
 def
 test_slow_page
 (
+    
 bidi_session
+    
 new_tab
+    
 url
+    
 wait
+    
 expect_timeout
-                         
+    
 subscribe_events
+    
 wait_for_event
+    
+wait_for_future_safe
 )
 :
     
@@ -537,6 +545,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -545,16 +554,15 @@ new_tab
 context
 "
 ]
-                                                 
 url
 =
 url
-                                                 
 wait
 =
 "
 complete
 "
+    
 )
     
 await
@@ -586,6 +594,7 @@ context
 "
 ]
 ]
+    
 )
     
 events
@@ -622,6 +631,7 @@ browsingContext
 domContentLoaded
 "
 on_event
+    
 )
     
 remove_listener_2
@@ -637,6 +647,7 @@ browsingContext
 load
 "
 on_event
+    
 )
     
 assert
@@ -681,17 +692,25 @@ context
 "
 ]
 wait
-                          
 expect_timeout
 )
     
 await
-asyncio
-.
-gather
+wait_for_future_safe
 (
 on_load
+timeout
+=
+5
+)
+    
+await
+wait_for_future_safe
+(
 on_dom_content_load
+timeout
+=
+5
 )
     
 assert
@@ -751,19 +770,28 @@ async
 def
 test_slow_script_blocks_domContentLoaded
 (
+    
 bidi_session
+    
 inline
-                                                   
+    
 new_tab
+    
 wait
-                                                   
+    
 expect_timeout
-                                                   
+    
 subscribe_events
-                                                   
+    
 wait_for_event
+    
+wait_for_future_safe
 )
 :
+    
+delay_in_seconds
+=
+3
     
 script_url
 =
@@ -803,7 +831,10 @@ pipe
 =
 trickle
 (
-d3
+d
+{
+delay_in_seconds
+}
 )
 '
 >
@@ -821,6 +852,7 @@ browsing_context
 .
 navigate
 (
+        
 context
 =
 new_tab
@@ -829,16 +861,15 @@ new_tab
 context
 "
 ]
-                                                 
 url
 =
 url
-                                                 
 wait
 =
 "
 complete
 "
+    
 )
     
 await
@@ -870,6 +901,7 @@ context
 "
 ]
 ]
+    
 )
     
 events
@@ -906,6 +938,7 @@ browsingContext
 domContentLoaded
 "
 on_event
+    
 )
     
 remove_listener_2
@@ -921,6 +954,7 @@ browsingContext
 load
 "
 on_event
+    
 )
     
 assert
@@ -965,17 +999,29 @@ context
 "
 ]
 wait
-                          
 expect_timeout
 )
     
 await
-asyncio
-.
-gather
+wait_for_future_safe
 (
 on_dom_content_load
+timeout
+=
+delay_in_seconds
+*
+2
+)
+    
+await
+wait_for_future_safe
+(
 on_load
+timeout
+=
+delay_in_seconds
+*
+2
 )
     
 assert
@@ -1000,9 +1046,11 @@ mark
 .
 parametrize
 (
+    
 "
 wait
 "
+    
 [
 "
 none
@@ -1021,7 +1069,6 @@ mark
 .
 capabilities
 (
-    
 {
 "
 unhandledPromptBehavior
@@ -1042,14 +1089,22 @@ async
 def
 test_beforeunload_prompt
 (
+    
 bidi_session
+    
 new_tab
-        
+    
 setup_beforeunload_page
+    
 url
+    
 subscribe_events
+    
 wait
+    
 wait_for_event
+    
+wait_for_future_safe
 )
 :
     
@@ -1117,22 +1172,29 @@ new_tab
 context
 "
 ]
-                                             
 wait
 =
 wait
 )
+    
 )
     
 await
+wait_for_future_safe
+(
 on_prompt_opened
+)
     
 assert
+(
+        
 not
 reloaded_future
 .
 done
 (
+)
+    
 )
 "
 Reload
@@ -1166,6 +1228,7 @@ context
 accept
 =
 True
+    
 )
     
 reloaded_result
