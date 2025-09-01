@@ -206,11 +206,9 @@ x86_64
 /
 debug
 -
-linux1804
+linux2404
 -
 64
--
-qr
 /
 debug
 -
@@ -430,13 +428,11 @@ test
 test_platform
 :
 -
-linux1804
+linux2404
 -
 64
 -
 asan
--
-qr
 /
 opt
 unittest_suite
