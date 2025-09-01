@@ -53,8 +53,6 @@ TextureView
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -91,6 +89,10 @@ GetTargetContext
 )
 const
 ;
+const
+RawId
+mId
+;
 private
 :
 virtual
@@ -98,8 +100,11 @@ virtual
 TextureView
 (
 )
-=
-default
+;
+void
+Cleanup
+(
+)
 ;
 }
 ;

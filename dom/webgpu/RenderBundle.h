@@ -39,8 +39,6 @@ RenderBundle
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -72,6 +70,10 @@ CanvasContextArray
 aCanvasContexts
 )
 ;
+const
+RawId
+mId
+;
 mozilla
 :
 :
@@ -99,8 +101,11 @@ virtual
 RenderBundle
 (
 )
-=
-default
+;
+void
+Cleanup
+(
+)
 ;
 CanvasContextArray
 mUsedCanvasContexts
