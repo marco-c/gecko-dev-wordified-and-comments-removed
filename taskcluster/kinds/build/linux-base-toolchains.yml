@@ -366,9 +366,7 @@ wasi
 -
 clang
 -
-8
-.
-0
+base
 linux64
 -
 base
@@ -589,9 +587,7 @@ wasi
 -
 clang
 -
-8
-.
-0
+base
 linux64
 -
 base
@@ -803,9 +799,7 @@ wasi
 -
 clang
 -
-8
-.
-0
+base
 linux64
 -
 base
@@ -1027,6 +1021,4 @@ wasi
 -
 clang
 -
-8
-.
-0
+base
