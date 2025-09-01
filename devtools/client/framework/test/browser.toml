@@ -2167,6 +2167,13 @@ js
 ]
 [
 "
+browser_toolbox_visibility
+.
+js
+"
+]
+[
+"
 browser_toolbox_watchedByDevTools
 .
 js
