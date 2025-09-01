@@ -563,9 +563,6 @@ const
 Environment
 &
 env
-webrtc
-:
-:
 AudioState
 *
 audio_state
@@ -573,9 +570,6 @@ NetEqFactory
 *
 neteq_factory
 const
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -699,9 +693,6 @@ NetEqFactory
 *
 neteq_factory
 const
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -711,9 +702,6 @@ config
 const
 scoped_refptr
 <
-webrtc
-:
-:
 AudioState
 >
 &
@@ -752,9 +740,6 @@ PacketRouter
 *
 packet_router
 const
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -764,9 +749,6 @@ config
 const
 scoped_refptr
 <
-webrtc
-:
-:
 AudioState
 >
 &
@@ -1019,9 +1001,6 @@ AudioReceiveStreamImpl
 ReconfigureForTesting
 (
 const
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -1297,9 +1276,6 @@ SetDepacketizerToDecoderFrameTransformer
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer
@@ -1440,9 +1416,6 @@ AudioReceiveStreamImpl
 :
 SetRtcpMode
 (
-webrtc
-:
-:
 RtcpMode
 mode
 )
@@ -1522,9 +1495,6 @@ SetFrameDecryptor
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 frame_decryptor
@@ -1551,9 +1521,6 @@ frame_decryptor
 )
 ;
 }
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -1574,9 +1541,6 @@ RTC_DCHECK_RUN_ON
 worker_thread_checker_
 )
 ;
-webrtc
-:
-:
 AudioReceiveStreamInterface
 :
 :
@@ -1627,9 +1591,6 @@ receive_codec
 first
 ;
 }
-webrtc
-:
-:
 CallReceiveStatistics
 call_stats
 =

@@ -206,9 +206,6 @@ MOCK_METHOD
 void
 ReceiveFrame
 (
-webrtc
-:
-:
 ArrayView
 <
 const

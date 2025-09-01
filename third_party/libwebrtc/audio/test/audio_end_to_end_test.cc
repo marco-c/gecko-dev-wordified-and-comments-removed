@@ -250,9 +250,6 @@ Config
 )
 {
 const
-webrtc
-:
-:
 SdpAudioFormat
 kDefaultFormat
 (

@@ -910,9 +910,6 @@ FrameEncryptorInterface
 *
 frame_encryptor
 const
-webrtc
-:
-:
 CryptoOptions
 &
 crypto_options
@@ -1172,9 +1169,6 @@ SetEncoderToPacketizerFrameTransformer
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer
@@ -1329,9 +1323,6 @@ InitFrameTransformerDelegate
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer
@@ -1546,9 +1537,6 @@ encoder_queue_checker_
 )
 ;
 const
-webrtc
-:
-:
 CryptoOptions
 crypto_options_
 ;
@@ -1863,14 +1851,8 @@ buf
 mime_type
 <
 <
-webrtc
-:
-:
 MediaTypeToString
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2002,9 +1984,6 @@ frame_encryptor_
 >
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2036,9 +2015,6 @@ frame_encryptor_
 >
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2313,9 +2289,6 @@ FrameEncryptorInterface
 *
 frame_encryptor
 const
-webrtc
-:
-:
 CryptoOptions
 &
 crypto_options
@@ -4631,9 +4604,6 @@ SetEncoderToPacketizerFrameTransformer
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer
@@ -4735,9 +4705,6 @@ InitFrameTransformerDelegate
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 frame_transformer
@@ -4887,9 +4854,6 @@ FrameEncryptorInterface
 *
 frame_encryptor
 const
-webrtc
-:
-:
 CryptoOptions
 &
 crypto_options

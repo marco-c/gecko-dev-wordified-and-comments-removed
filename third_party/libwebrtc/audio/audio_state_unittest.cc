@@ -294,13 +294,7 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 TaskQueueBase
-webrtc
-:
-:
 TaskQueueDeleter
 >
 (
