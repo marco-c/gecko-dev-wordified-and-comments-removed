@@ -199,15 +199,6 @@ mjs
 "
 resources
 /
-CookiesBackupResource
-.
-sys
-.
-mjs
-"
-"
-resources
-/
 CredentialsAndSecurityBackupResource
 .
 sys
