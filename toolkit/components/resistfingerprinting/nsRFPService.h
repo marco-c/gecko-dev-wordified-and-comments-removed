@@ -1088,6 +1088,12 @@ GetSpoofedJSLocale
 )
 ;
 static
+nsCString
+GetSpoofedJSTimeZone
+(
+)
+;
+static
 bool
 GetSpoofedModifierStates
 (
