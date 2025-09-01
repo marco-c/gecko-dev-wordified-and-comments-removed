@@ -235,6 +235,9 @@ outputParserOptions
 colorSwatchReadOnly
 :
 true
+showJumpToVariableButton
+:
+false
 }
 )
 ;
