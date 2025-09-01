@@ -1619,6 +1619,12 @@ mOutput
 wp_color_management_output_v1_destroy
 )
 ;
+MozClearPointer
+(
+mDescription
+wp_image_description_v1_destroy
+)
+;
 AddRef
 (
 )
@@ -1689,12 +1695,6 @@ WaylandDisplayGetWLDisplay
 &
 listener
 this
-)
-;
-MozClearPointer
-(
-mDescription
-wp_image_description_v1_destroy
 )
 ;
 mScreenGetter
