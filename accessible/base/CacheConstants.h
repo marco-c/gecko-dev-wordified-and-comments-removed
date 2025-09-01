@@ -1113,6 +1113,17 @@ nsGkAtoms
 :
 viewport
 ;
+static
+constexpr
+nsStaticAtom
+*
+WritingMode
+=
+nsGkAtoms
+:
+:
+writing_mode
+;
 }
 ;
 bool

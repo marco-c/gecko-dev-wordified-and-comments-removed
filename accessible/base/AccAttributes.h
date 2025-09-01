@@ -58,6 +58,15 @@ Matrix
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WritingModes
+.
+h
+"
 class
 nsVariant
 ;
@@ -392,6 +401,7 @@ nsTArray
 <
 TextOffsetAttribute
 >
+WritingMode
 >
 ;
 static_assert
