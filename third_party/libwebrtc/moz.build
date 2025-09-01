@@ -5281,6 +5281,16 @@ libwebrtc
 /
 rtc_base
 /
+rtp_to_ntp_estimator_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 safe_compare_gn
 "
 "
