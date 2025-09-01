@@ -91,7 +91,7 @@ DOWN_TEXT
 )
 )
     
-good
+expected_message
 =
 await
 client
@@ -101,27 +101,31 @@ promise_console_message_listener
 message
 )
     
-down
-good
+done
+pending
 =
 await
 asyncio
 .
 wait
 (
+        
 [
 down
-good
+expected_message
 ]
 return_when
 =
 asyncio
 .
 FIRST_COMPLETED
+    
 )
     
 if
 down
+in
+done
 :
         
 pytest
@@ -143,8 +147,10 @@ order
 "
 )
     
-return
-good
+assert
+expected_message
+in
+done
 pytest
 .
 mark

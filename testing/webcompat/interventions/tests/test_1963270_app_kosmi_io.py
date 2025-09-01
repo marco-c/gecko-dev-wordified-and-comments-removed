@@ -103,11 +103,6 @@ client
 navigate
 (
 URL
-wait
-=
-"
-none
-"
 )
     
 client

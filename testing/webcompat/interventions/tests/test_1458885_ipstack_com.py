@@ -36,11 +36,6 @@ client
 navigate
 (
 URL
-wait
-=
-"
-none
-"
 )
     
 return

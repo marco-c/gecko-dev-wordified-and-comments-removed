@@ -59,11 +59,6 @@ client
 navigate
 (
 URL
-wait
-=
-"
-none
-"
 )
     
 assert
@@ -112,11 +107,6 @@ client
 navigate
 (
 URL
-wait
-=
-"
-none
-"
 )
     
 assert
@@ -128,6 +118,9 @@ ERROR_TEXT
 is_displayed
 =
 True
+timeout
+=
+20
 )
     
 assert
