@@ -8240,6 +8240,10 @@ Construct
 candPair
 .
 current_rtt_ms
+/
+1000
+.
+0
 )
 ;
 s
@@ -8251,6 +8255,10 @@ Construct
 candPair
 .
 total_rtt_ms
+/
+1000
+.
+0
 )
 ;
 s
