@@ -2787,6 +2787,14 @@ GetRtpSendParameters
 ssrc_
 )
 ;
+if
+(
+ssrc
+!
+=
+0
+)
+{
 RTC_CHECK_GE
 (
 current_parameters
@@ -2896,6 +2904,7 @@ current_parameters
 nullptr
 )
 ;
+}
 init_parameters_
 .
 encodings
