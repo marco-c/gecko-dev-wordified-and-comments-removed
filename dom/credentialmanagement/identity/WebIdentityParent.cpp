@@ -554,6 +554,11 @@ aResolver
 NS_ERROR_FAILURE
 )
 ;
+return
+IPC_OK
+(
+)
+;
 }
 nsIPrincipal
 *
