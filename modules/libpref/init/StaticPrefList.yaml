@@ -48607,7 +48607,7 @@ rust
 true
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 once
