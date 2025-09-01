@@ -407,11 +407,6 @@ ScriptPrivateData
 \
 _
 (
-MapObjectData
-)
-\
-_
-(
 ScopeData
 )
 \
