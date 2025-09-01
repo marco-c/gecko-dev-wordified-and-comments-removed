@@ -1152,13 +1152,6 @@ Handled
 Canceled
 )
 ;
-MOZ_DEFINE_BOOL_PRETTY_PRINTER
-(
-GetBoolName
-true
-false
-)
-;
 }
 #
 endif

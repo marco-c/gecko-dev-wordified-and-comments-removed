@@ -2017,7 +2017,7 @@ session
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 mSentLocalDropEvent
 )
@@ -2031,7 +2031,7 @@ DropEffectInt
 )
 :
 INT_MAX
-GetBoolName
+TrueOrFalse
 (
 mUserCancelled
 )
