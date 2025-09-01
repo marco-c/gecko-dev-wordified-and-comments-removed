@@ -1352,8 +1352,10 @@ useStereoOutput
 Override
 public
 long
-getNativeAudioDeviceModulePointer
+getNative
 (
+long
+webrtcEnvRef
 )
 {
 synchronized
@@ -1377,6 +1379,7 @@ context
 audioManager
 audioInput
 audioOutput
+webrtcEnvRef
 inputSampleRate
 outputSampleRate
 useStereoInput
@@ -1569,6 +1572,8 @@ WebRtcAudioRecord
 audioInput
 WebRtcAudioTrack
 audioOutput
+long
+webrtcEnvRef
 int
 inputSampleRate
 int
