@@ -147,17 +147,6 @@ h
 #
 include
 "
-api
-/
-video
-/
-video_source_interface
-.
-h
-"
-#
-include
-"
 media
 /
 base
@@ -376,9 +365,6 @@ streams
 const
 override
 ;
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -387,9 +373,6 @@ const
 override
 {
 return
-webrtc
-:
-:
 MediaType
 :
 :
