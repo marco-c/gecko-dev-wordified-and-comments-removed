@@ -330,6 +330,13 @@ RawId
 >
 &
 aCommandBuffers
+const
+nsTArray
+<
+RawId
+>
+&
+aUsedExternalTextureSources
 )
 ;
 void
