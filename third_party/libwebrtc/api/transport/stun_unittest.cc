@@ -50,15 +50,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 byte_buffer
 .
 h
@@ -2541,7 +2532,10 @@ i
 ;
 i
 <
-arraysize
+std
+:
+:
+size
 (
 types
 )

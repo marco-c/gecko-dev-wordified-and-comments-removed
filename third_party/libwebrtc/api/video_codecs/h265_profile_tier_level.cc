@@ -44,15 +44,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 string_to_number
 .
 h
@@ -1641,7 +1632,10 @@ for
 int
 i
 =
-arraysize
+std
+:
+:
+ssize
 (
 kLevelConstraints
 )

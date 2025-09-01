@@ -232,14 +232,6 @@ h
 +
 rtc_base
 /
-arraysize
-.
-h
-"
-"
-+
-rtc_base
-/
 checks
 .
 h

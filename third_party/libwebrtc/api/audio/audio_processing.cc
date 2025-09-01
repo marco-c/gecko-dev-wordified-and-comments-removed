@@ -283,15 +283,6 @@ RTC_CHECK_NOTREACHED
 ;
 }
 }
-constexpr
-int
-AudioProcessing
-:
-:
-kNativeSampleRatesHz
-[
-]
-;
 void
 CustomProcessing
 :
