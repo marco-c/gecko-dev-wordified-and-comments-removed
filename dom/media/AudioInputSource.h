@@ -413,8 +413,6 @@ explicit
 Data
 (
 AudioChunk
-&
-&
 aChunk
 )
 :
