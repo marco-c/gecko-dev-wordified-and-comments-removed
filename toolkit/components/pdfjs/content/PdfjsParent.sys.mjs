@@ -1951,7 +1951,7 @@ try
 const
 now
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2008,7 +2008,7 @@ request
 const
 time
 =
-Cu
+ChromeUtils
 .
 now
 (

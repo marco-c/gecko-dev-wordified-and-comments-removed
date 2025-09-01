@@ -1772,7 +1772,7 @@ engine
 const
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1797,7 +1797,7 @@ notificationsCallback
 const
 creationTime
 =
-Cu
+ChromeUtils
 .
 now
 (

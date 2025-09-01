@@ -12763,7 +12763,7 @@ name
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -12780,7 +12780,7 @@ func
 let
 elapsedTime
 =
-Cu
+ChromeUtils
 .
 now
 (

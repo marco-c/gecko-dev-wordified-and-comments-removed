@@ -344,7 +344,7 @@ openNewBrowserWindow
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -355,7 +355,7 @@ Assert
 greater
 (
 longTimeoutMs
-Cu
+ChromeUtils
 .
 now
 (

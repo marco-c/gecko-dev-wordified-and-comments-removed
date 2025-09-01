@@ -695,7 +695,7 @@ set
 using
 the
 monotonic
-Cu
+ChromeUtils
 .
 now
 (
@@ -704,7 +704,7 @@ helper
 .
 startDate
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -774,7 +774,7 @@ _lastQuery
 {
 startDate
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -1414,7 +1414,7 @@ _deferringTimeout
 let
 elapsed
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2005,7 +2005,7 @@ UrlbarEventBufferer
 DEFERRING_TIMEOUT_MS
 <
 =
-Cu
+ChromeUtils
 .
 now
 (

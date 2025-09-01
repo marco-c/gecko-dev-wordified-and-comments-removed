@@ -957,7 +957,7 @@ number
 /
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1349,7 +1349,7 @@ this
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1718,7 +1718,7 @@ this
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2640,7 +2640,7 @@ interaction
 totalViewTime
 +
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2652,7 +2652,7 @@ Interactions
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2886,7 +2886,7 @@ this
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -3092,7 +3092,7 @@ this
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -3464,7 +3464,7 @@ this
 .
 _pageViewStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (

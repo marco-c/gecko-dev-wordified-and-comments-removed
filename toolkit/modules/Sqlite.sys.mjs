@@ -7196,7 +7196,7 @@ this
 _timeoutPromise
 &
 &
-Cu
+ChromeUtils
 .
 now
 (
@@ -7319,7 +7319,7 @@ this
 .
 _timeoutPromiseExpires
 =
-Cu
+ChromeUtils
 .
 now
 (

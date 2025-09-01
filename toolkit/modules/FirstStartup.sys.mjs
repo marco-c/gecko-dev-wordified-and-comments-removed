@@ -493,7 +493,7 @@ seconds
 let
 startingTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -548,7 +548,7 @@ finally
 {
 normandyInitEndTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -629,7 +629,7 @@ finally
 {
 deleteTasksEndTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -701,7 +701,7 @@ Math
 .
 round
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -790,7 +790,7 @@ ceil
 normandyInitEndTime
 |
 |
-Cu
+ChromeUtils
 .
 now
 (
@@ -823,7 +823,7 @@ ceil
 deleteTasksEndTime
 |
 |
-Cu
+ChromeUtils
 .
 now
 (

@@ -27,7 +27,7 @@ start
 {
 now
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -41,7 +41,7 @@ stop
 accumulatedTime
 +
 =
-Cu
+ChromeUtils
 .
 now
 (

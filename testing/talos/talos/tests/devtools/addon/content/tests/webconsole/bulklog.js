@@ -180,7 +180,7 @@ function
 const
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -228,7 +228,7 @@ logs
 -
 done
 '
-Cu
+ChromeUtils
 .
 now
 (

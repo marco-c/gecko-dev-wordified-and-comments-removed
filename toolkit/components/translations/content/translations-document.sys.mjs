@@ -21465,7 +21465,7 @@ handleScrollEvent
 {
 if
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -21599,7 +21599,7 @@ this
 #
 mostRecentScrollTimestamp
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -21636,7 +21636,7 @@ hasUserScrolledRecently
 )
 {
 return
-Cu
+ChromeUtils
 .
 now
 (

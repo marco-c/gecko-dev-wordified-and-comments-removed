@@ -20285,7 +20285,7 @@ aName
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -20308,7 +20308,7 @@ Math
 .
 round
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -25666,7 +25666,7 @@ Math
 .
 round
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -25705,7 +25705,7 @@ Math
 .
 round
 (
-Cu
+ChromeUtils
 .
 now
 (

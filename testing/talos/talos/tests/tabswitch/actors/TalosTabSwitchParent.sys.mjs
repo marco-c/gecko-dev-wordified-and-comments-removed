@@ -570,7 +570,7 @@ gBrowser
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -911,7 +911,7 @@ onLayersReady
 let
 now
 =
-Cu
+ChromeUtils
 .
 now
 (

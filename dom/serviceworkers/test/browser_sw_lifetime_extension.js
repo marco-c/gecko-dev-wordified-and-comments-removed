@@ -262,7 +262,7 @@ Checks
 let
 testStart
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -855,7 +855,7 @@ TEST_ORIGIN
 let
 testStart
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1237,7 +1237,7 @@ TEST_ORIGIN
 let
 testStart
 =
-Cu
+ChromeUtils
 .
 now
 (

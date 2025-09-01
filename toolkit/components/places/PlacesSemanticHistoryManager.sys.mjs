@@ -2332,7 +2332,7 @@ startTime
 const
 updateStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2834,7 +2834,7 @@ completed
 const
 updateEndTime
 =
-Cu
+ChromeUtils
 .
 now
 (

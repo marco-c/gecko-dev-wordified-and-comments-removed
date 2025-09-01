@@ -2042,7 +2042,7 @@ defaultToolId
 const
 delay
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -529,7 +529,7 @@ store
 add
 (
 blob
-Cu
+ChromeUtils
 .
 now
 (

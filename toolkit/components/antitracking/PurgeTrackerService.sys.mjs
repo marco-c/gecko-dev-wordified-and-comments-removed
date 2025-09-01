@@ -2091,7 +2091,7 @@ let
 duration
 =
 [
-Cu
+ChromeUtils
 .
 now
 (
@@ -2768,7 +2768,7 @@ duration
 .
 push
 (
-Cu
+ChromeUtils
 .
 now
 (

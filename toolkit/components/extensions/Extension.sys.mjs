@@ -6103,7 +6103,7 @@ childID
 const
 now
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -1376,7 +1376,7 @@ this
 .
 activatedAt
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1521,7 +1521,7 @@ false
 let
 deactivatedAt
 =
-Cu
+ChromeUtils
 .
 now
 (

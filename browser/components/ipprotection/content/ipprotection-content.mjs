@@ -985,7 +985,7 @@ Math
 .
 ceil
 (
-Cu
+ChromeUtils
 .
 now
 (

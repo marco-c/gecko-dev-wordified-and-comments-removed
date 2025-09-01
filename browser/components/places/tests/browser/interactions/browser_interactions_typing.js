@@ -837,7 +837,7 @@ ef
 const
 testStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -956,7 +956,7 @@ length
 )
 typingTimeIsLessThan
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -988,7 +988,7 @@ reset
 const
 testStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1110,7 +1110,7 @@ typingTimeIsGreaterThan
 0
 typingTimeIsLessThan
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -1142,7 +1142,7 @@ reset
 const
 testStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1269,7 +1269,7 @@ typingTimeIsGreaterThan
 0
 typingTimeIsLessThan
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -1294,7 +1294,7 @@ typingTimeIsGreaterThan
 0
 typingTimeIsLessThan
 :
-Cu
+ChromeUtils
 .
 now
 (

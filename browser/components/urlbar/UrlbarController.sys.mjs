@@ -5365,7 +5365,7 @@ event
 timeStamp
 |
 |
-Cu
+ChromeUtils
 .
 now
 (
@@ -10480,7 +10480,7 @@ getCurrentTime
 )
 {
 return
-Cu
+ChromeUtils
 .
 now
 (

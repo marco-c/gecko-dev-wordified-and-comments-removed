@@ -491,7 +491,7 @@ onIdle
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -574,7 +574,7 @@ maybeInit
 ;
 time
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -712,7 +712,7 @@ init
 fn
 due
 :
-Cu
+ChromeUtils
 .
 now
 (

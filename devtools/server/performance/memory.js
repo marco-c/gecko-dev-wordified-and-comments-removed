@@ -1594,7 +1594,7 @@ now
 ;
 }
 return
-Cu
+ChromeUtils
 .
 now
 (
