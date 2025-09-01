@@ -485,6 +485,10 @@ verifyTabsMultiSelectionCounter
 )
 }
 .
+openThreeDotMenu
+{
+}
+.
 clickSaveCollection
 {
 typeCollectionNameAndSave
@@ -2372,6 +2376,10 @@ verifyTabsMultiSelectionCounter
 (
 2
 )
+}
+.
+openThreeDotMenu
+{
 }
 .
 clickSaveCollection
