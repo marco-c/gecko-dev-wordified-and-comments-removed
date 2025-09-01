@@ -1247,6 +1247,16 @@ int
 >
 srtp_ciphers_
 ;
+const
+std
+:
+:
+vector
+<
+uint16_t
+>
+ephemeral_key_exchange_cipher_groups_
+;
 bool
 dtls_active_
 =
