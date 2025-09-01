@@ -653,16 +653,6 @@ mozilla
 :
 gfx
 ;
-typedef
-mozilla
-:
-:
-layout
-:
-:
-TextDrawTarget
-TextDrawTarget
-;
 static
 bool
 NeedsToMaskPassword
