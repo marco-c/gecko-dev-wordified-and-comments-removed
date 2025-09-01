@@ -225,7 +225,7 @@ True
 )
     
 def
-test_deletion_request
+test_usage_reporting_independent_from_telemetry
 (
 self
 )
@@ -266,6 +266,7 @@ request
 "
 ping
 .
+        
 The
 "
 deletion
@@ -525,12 +526,6 @@ self
 .
 fog_ping_server
         
-)
-        
-self
-.
-enable_telemetry
-(
 )
         
 ping3
