@@ -4434,6 +4434,16 @@ ToolbarAction
 .
 SiteInfo
 )
+{
+!
+browserScreenStore
+.
+state
+.
+readerModeStatus
+.
+isActive
+}
 )
 .
 filter
@@ -5765,6 +5775,10 @@ readerModeStatus
 .
 collect
 {
+updateStartPageActions
+(
+context
+)
 updateEndPageActions
 (
 context
