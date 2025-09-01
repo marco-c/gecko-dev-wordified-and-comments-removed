@@ -470,7 +470,7 @@ next_rtcp_time_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 RtcpPacket
