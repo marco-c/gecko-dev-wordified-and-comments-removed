@@ -1627,9 +1627,11 @@ colors
 :
 host
 (
-[
+:
+state
+(
 disabled
-]
+)
 )
 .
 toggle
