@@ -3023,9 +3023,6 @@ is_started
 AddResource
 (
 bandwidth_quality_scaler_resource_
-webrtc
-:
-:
 VideoAdaptationReason
 :
 :

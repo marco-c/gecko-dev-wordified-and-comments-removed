@@ -496,9 +496,6 @@ height
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -644,9 +641,6 @@ height
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -802,9 +796,6 @@ int
 delay_us
 )
 {
-webrtc
-:
-:
 Random
 random
 (
@@ -835,9 +826,6 @@ height
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -2023,9 +2011,6 @@ kHeight
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -2212,9 +2197,6 @@ kHeight
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -3504,9 +3486,6 @@ height
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -3588,9 +3567,6 @@ delay_us
 )
 override
 {
-webrtc
-:
-:
 Random
 random
 (
@@ -3621,9 +3597,6 @@ height
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -4537,9 +4510,6 @@ kHeight
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -4726,9 +4696,6 @@ kHeight
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
