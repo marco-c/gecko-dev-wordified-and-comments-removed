@@ -904,8 +904,8 @@ Value
 ;
 }
 mFocusResetBehavior
-.
-emplace
+=
+Some
 (
 aOptions
 .
