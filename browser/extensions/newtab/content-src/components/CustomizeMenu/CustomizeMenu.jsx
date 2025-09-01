@@ -688,17 +688,6 @@ props
 .
 mayHaveInferredPersonalization
 }
-mayHaveRecentSaves
-=
-{
-this
-.
-props
-.
-DiscoveryStream
-.
-recentSavesEnabled
-}
 mayHaveWeather
 =
 {

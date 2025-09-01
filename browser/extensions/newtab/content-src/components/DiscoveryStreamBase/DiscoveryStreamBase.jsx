@@ -1581,17 +1581,6 @@ properties
 .
 spocMessageVariant
 }
-recentSavesEnabled
-=
-{
-this
-.
-props
-.
-DiscoveryStream
-.
-recentSavesEnabled
-}
 hideDescriptions
 =
 {

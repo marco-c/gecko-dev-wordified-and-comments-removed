@@ -3797,11 +3797,6 @@ prefs
 [
 PREF_INFERRED_PERSONALIZATION_USER
 ]
-showRecentSavesEnabled
-:
-prefs
-.
-showRecentSaves
 topSitesRowsCount
 :
 prefs
