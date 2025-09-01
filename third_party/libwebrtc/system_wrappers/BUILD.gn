@@ -280,6 +280,14 @@ checks
 /
 rtc_base
 :
+cpu_info
+"
+"
+.
+.
+/
+rtc_base
+:
 logging
 "
 "

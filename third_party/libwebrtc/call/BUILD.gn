@@ -2416,6 +2416,14 @@ copy_on_write_buffer
 /
 rtc_base
 :
+cpu_info
+"
+"
+.
+.
+/
+rtc_base
+:
 event_tracer
 "
 "
