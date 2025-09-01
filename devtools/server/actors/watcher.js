@@ -838,9 +838,6 @@ this
 sessionContext
 .
 supportedResources
-multipleNetworkEventUpdates
-:
-true
 }
 }
 ;
