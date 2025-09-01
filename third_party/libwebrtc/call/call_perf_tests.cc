@@ -1449,12 +1449,7 @@ TestAudioDeviceModule
 :
 Create
 (
-&
 env
-(
-)
-.
-task_queue_factory
 (
 )
 TestAudioDeviceModule
