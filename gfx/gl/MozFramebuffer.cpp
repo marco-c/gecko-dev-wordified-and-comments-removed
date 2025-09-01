@@ -262,6 +262,7 @@ bindTex
 (
 gl
 colorName
+colorTarget
 )
 ;
 gl
@@ -269,6 +270,7 @@ gl
 >
 TexParams_SetClampNoMips
 (
+colorTarget
 )
 ;
 gl

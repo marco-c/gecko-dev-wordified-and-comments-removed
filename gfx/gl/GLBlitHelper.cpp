@@ -6964,6 +6964,10 @@ kFragHeader_TexExt
 {
 kFragSample_OnePlane
 kFragConvert_None
+GetAlphaMixin
+(
+convertAlpha
+)
 }
 }
 )
@@ -7106,6 +7110,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+target
 )
 ;
 mGL
@@ -7124,7 +7129,7 @@ srcOrigin
 OriginPos
 :
 :
-TopLeft
+BottomLeft
 ;
 const
 bool
@@ -7156,6 +7161,10 @@ kFragHeader_TexExt
 {
 kFragSample_OnePlane
 kFragConvert_None
+GetAlphaMixin
+(
+convertAlpha
+)
 }
 }
 )
@@ -7381,6 +7390,7 @@ mYuvUploads
 [
 0
 ]
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -7388,6 +7398,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -7407,6 +7418,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -7426,6 +7438,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 }
@@ -10980,6 +10993,7 @@ mYuvUploads
 [
 0
 ]
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -10987,6 +11001,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -11006,6 +11021,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 mGL
@@ -11025,6 +11041,7 @@ mGL
 >
 TexParams_SetClampNoMips
 (
+LOCAL_GL_TEXTURE_2D
 )
 ;
 }
