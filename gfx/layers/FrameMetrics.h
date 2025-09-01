@@ -996,6 +996,15 @@ ScrollPositionUpdate
 aInfo
 )
 ;
+bool
+ScrollLayoutViewportTo
+(
+const
+CSSPoint
+&
+aDestination
+)
+;
 public
 :
 void
