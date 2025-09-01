@@ -277,16 +277,6 @@ case
 StyleGenericFontFamily
 :
 :
-Math
-:
-return
-&
-mDefaultSerifFont
-;
-case
-StyleGenericFontFamily
-:
-:
 SystemUi
 :
 return
