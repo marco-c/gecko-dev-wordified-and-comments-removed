@@ -175,6 +175,14 @@ mInitStatus
 =
 NS_ERROR_DOM_MEDIA_RANGE_ERR
 ;
+mRange
+=
+MediaByteRange
+(
+aOffset
+aOffset
+)
+;
 uint8_t
 header
 [
