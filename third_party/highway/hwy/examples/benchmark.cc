@@ -1,6 +1,13 @@
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -87,6 +94,8 @@ hwy
 {
 namespace
 HWY_NAMESPACE
+{
+namespace
 {
 #
 if
@@ -346,9 +355,8 @@ num_results
 kNumInputs
 )
 {
-fprintf
+HWY_WARN
 (
-stderr
 "
 MeasureClosure
 failed
@@ -947,9 +955,8 @@ dot_
 0f
 )
 {
-fprintf
+HWY_ABORT
 (
-stderr
 "
 Dot
 :
@@ -959,10 +966,6 @@ Verify
 after
 benchmark
 "
-)
-;
-abort
-(
 )
 ;
 }
@@ -1020,9 +1023,8 @@ rel_err
 6f
 )
 {
-fprintf
+HWY_ABORT
 (
-stderr
 "
 Dot
 :
@@ -1042,10 +1044,6 @@ n
 expected
 dot_
 rel_err
-)
-;
-abort
-(
 )
 ;
 }
@@ -1482,9 +1480,8 @@ err
 6f
 )
 {
-fprintf
+HWY_WARN
 (
-stderr
 "
 Delta
 :
@@ -1579,6 +1576,7 @@ delta
 }
 }
 }
+}
 HWY_AFTER_NAMESPACE
 (
 )
@@ -1588,6 +1586,8 @@ if
 HWY_ONCE
 namespace
 hwy
+{
+namespace
 {
 HWY_EXPORT
 (
@@ -1627,6 +1627,7 @@ SetSupportedTargetsForTest
 0
 )
 ;
+}
 }
 }
 int

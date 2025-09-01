@@ -95,6 +95,8 @@ hwy
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 struct
 TestAlignedT
 {
@@ -820,6 +822,7 @@ TestUnalignedT
 }
 }
 }
+}
 HWY_AFTER_NAMESPACE
 (
 )
@@ -829,6 +832,8 @@ if
 HWY_ONCE
 namespace
 hwy
+{
+namespace
 {
 HWY_BEFORE_TEST
 (
@@ -847,6 +852,15 @@ ImageTest
 TestUnaligned
 )
 ;
+HWY_AFTER_TEST
+(
+)
+;
 }
+}
+HWY_TEST_MAIN
+(
+)
+;
 #
 endif

@@ -48,6 +48,8 @@ libdir
 }
 -
 lhwy_contrib
+HWY_THREAD_LIBS
+HWY_PC_WIN32_SYNCHRONIZATION_LIBS
 Cflags
 :
 -
@@ -55,3 +57,5 @@ I
 {
 includedir
 }
+HWY_THREAD_FLAGS
+HWY_PC_DISABLE_FUTEX_CFLAGS

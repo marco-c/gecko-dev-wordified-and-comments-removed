@@ -44,6 +44,12 @@ VectorBytes
 ;
 HWY_DLLEXPORT
 bool
+HaveInteger64
+(
+)
+;
+HWY_DLLEXPORT
+bool
 HaveFloat16
 (
 )

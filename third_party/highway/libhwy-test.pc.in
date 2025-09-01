@@ -39,7 +39,7 @@ helpers
 .
 Requires
 :
-gtest
+HWY_PC_HWY_TEST_REQUIRES
 Version
 :
 HWY_LIBRARY_VERSION
@@ -59,3 +59,4 @@ I
 {
 includedir
 }
+HWY_PC_HWY_TEST_CFLAGS

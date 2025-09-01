@@ -60,6 +60,8 @@ namespace
 HWY_NAMESPACE
 {
 namespace
+{
+namespace
 hn
 =
 hwy
@@ -375,6 +377,7 @@ log2
 i
 )
 ;
+}
 }
 }
 }

@@ -19,6 +19,7 @@ base
 .
 h
 "
+static
 void
 PrintMergeNetwork
 (

@@ -132,6 +132,8 @@ hwy
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 template
 <
 typename
@@ -1318,6 +1320,7 @@ TestFindIf
 }
 }
 }
+}
 HWY_AFTER_NAMESPACE
 (
 )
@@ -1327,6 +1330,8 @@ if
 HWY_ONCE
 namespace
 hwy
+{
+namespace
 {
 HWY_BEFORE_TEST
 (
@@ -1345,6 +1350,15 @@ FindTest
 TestAllFindIf
 )
 ;
+HWY_AFTER_TEST
+(
+)
+;
 }
+}
+HWY_TEST_MAIN
+(
+)
+;
 #
 endif

@@ -104,6 +104,8 @@ hwy
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 template
 <
 typename
@@ -995,7 +997,7 @@ is_odd
 (
 const
 auto
-d
+d2
 const
 auto
 v
@@ -1008,12 +1010,12 @@ TestBit
 v
 Set
 (
-d
+d2
 TFromD
 <
 decltype
 (
-d
+d2
 )
 >
 {
@@ -1140,6 +1142,7 @@ TestCopyIf
 }
 }
 }
+}
 HWY_AFTER_NAMESPACE
 (
 )
@@ -1149,6 +1152,8 @@ if
 HWY_ONCE
 namespace
 hwy
+{
+namespace
 {
 HWY_BEFORE_TEST
 (
@@ -1173,6 +1178,15 @@ CopyTest
 TestAllCopyIf
 )
 ;
+HWY_AFTER_TEST
+(
+)
+;
 }
+}
+HWY_TEST_MAIN
+(
+)
+;
 #
 endif

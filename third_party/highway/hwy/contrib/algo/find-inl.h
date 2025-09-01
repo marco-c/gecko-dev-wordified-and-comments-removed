@@ -6,6 +6,7 @@ HIGHWAY_HWY_CONTRIB_ALGO_FIND_INL_H_
 )
 =
 =
+\
 defined
 (
 HWY_TARGET_TOGGLE
