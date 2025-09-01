@@ -25,6 +25,14 @@ modules
 script
 import
 ContextTarget
+from
+webdriver
+.
+bidi
+.
+undefined
+import
+UNDEFINED
 def
 get_invalid_cases
 (
