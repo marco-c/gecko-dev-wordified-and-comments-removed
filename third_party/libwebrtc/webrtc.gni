@@ -3027,6 +3027,9 @@ build_with_chromium
 rtc_use_perfetto
 =
 true
+rtc_allow_deprecated_namespaces
+=
+false
 }
 #
 Global
