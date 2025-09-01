@@ -6767,6 +6767,14 @@ LookupFlag
 :
 UseMarkFilteringSet
 ;
+new_flag
+|
+=
+LookupFlag
+:
+:
+IgnoreMarks
+;
 out
 -
 >
