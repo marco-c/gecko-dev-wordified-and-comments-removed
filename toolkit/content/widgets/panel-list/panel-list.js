@@ -1237,6 +1237,8 @@ bottomSpaceY
 anchorBottom
 +
 panelHeight
++
+VIEWPORT_PANEL_MIN_MARGIN
 >
 winHeight
 )
