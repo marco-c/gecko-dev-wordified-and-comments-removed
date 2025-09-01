@@ -30,7 +30,7 @@ FUZZING_INTERFACES
 "
 ]
 :
-DIRS
+TEST_DIRS
 +
 =
 [
