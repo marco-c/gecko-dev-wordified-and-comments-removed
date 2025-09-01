@@ -3368,6 +3368,7 @@ int
 width
 )
 {
+const
 int
 shift
 =
@@ -6427,6 +6428,7 @@ src_ptr
 +
 src_stride
 ;
+const
 int
 shift
 =
@@ -6935,11 +6937,13 @@ int
 source_y_fraction
 )
 {
+const
 int
 y1_fraction
 =
 source_y_fraction
 ;
+const
 int
 y0_fraction
 =
@@ -6995,6 +6999,7 @@ width
 return
 ;
 }
+const
 int
 shift
 =
@@ -7920,6 +7925,7 @@ int
 width
 )
 {
+const
 int
 shift
 =

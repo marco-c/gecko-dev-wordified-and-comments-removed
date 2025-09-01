@@ -33364,6 +33364,7 @@ int
 width
 )
 {
+const
 int
 shift
 =
