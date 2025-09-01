@@ -144,8 +144,12 @@ GetNextKeyframeTime
 ;
 private
 :
+Result
+<
 Sample
 *
+nsresult
+>
 Get
 (
 )
