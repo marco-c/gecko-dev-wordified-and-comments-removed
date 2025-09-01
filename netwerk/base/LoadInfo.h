@@ -359,6 +359,15 @@ BrowsingContextID
 browsingContextID
 0
 )
+\
+\
+GETTER
+(
+uint64_t
+FrameBrowsingContextID
+frameBrowsingContextID
+0
+)
 namespace
 net
 {
@@ -1004,8 +1013,6 @@ LOADINFO_DUMMY_SETTER
 #
 undef
 DEFINE_PARAMETER
-uint64_t
-aFrameBrowsingContextID
 bool
 aInitialSecurityCheckDone
 bool
@@ -1550,11 +1557,6 @@ undef
 DEFINE_FIELD
 uint64_t
 mWorkerAssociatedBrowsingContextID
-=
-0
-;
-uint64_t
-mFrameBrowsingContextID
 =
 0
 ;

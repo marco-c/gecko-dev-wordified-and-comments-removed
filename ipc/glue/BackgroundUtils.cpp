@@ -4910,11 +4910,6 @@ undef
 DEFINE_ARGUMENT
 loadInfoArgs
 .
-frameBrowsingContextID
-(
-)
-loadInfoArgs
-.
 initialSecurityCheckDone
 (
 )
