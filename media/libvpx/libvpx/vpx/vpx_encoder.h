@@ -412,6 +412,15 @@ a
 keyframe
 *
 /
+#
+define
+VPX_EFLAG_CALCULATE_PSNR
+(
+1
+<
+<
+1
+)
 typedef
 struct
 vpx_codec_enc_cfg

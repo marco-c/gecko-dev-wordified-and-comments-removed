@@ -216,7 +216,6 @@ VPX_ATOMIC_INIT
 (
 num
 )
-\
 {
 num
 }

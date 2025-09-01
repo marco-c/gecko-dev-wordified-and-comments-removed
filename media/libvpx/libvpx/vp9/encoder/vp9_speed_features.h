@@ -589,7 +589,6 @@ SEARCH_PARTITION
 FIXED_PARTITION
 REFERENCE_PARTITION
 VAR_BASED_PARTITION
-SOURCE_VAR_BASED_PARTITION
 ML_BASED_PARTITION
 }
 PARTITION_SEARCH_TYPE
@@ -973,9 +972,6 @@ recode_tolerance_high
 ;
 BLOCK_SIZE
 max_intra_bsize
-;
-int
-search_type_check_frequency
 ;
 int
 reuse_inter_pred_sby
