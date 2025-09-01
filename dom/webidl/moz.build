@@ -3424,6 +3424,11 @@ CSSKeywordValue
 webidl
 "
 "
+CSSLab
+.
+webidl
+"
+"
 CSSLayerBlockRule
 .
 webidl
