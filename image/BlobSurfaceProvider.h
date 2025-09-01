@@ -40,7 +40,7 @@ mozilla
 /
 gfx
 /
-DrawEventRecorder
+DrawEventRecorderTypes
 .
 h
 "
@@ -120,10 +120,7 @@ aScaledFonts
 gfx
 :
 :
-DrawEventRecorderPrivate
-:
-:
-ExternalSurfacesHolder
+DrawEventRecorderPrivate_ExternalSurfacesHolder
 &
 &
 aExternalSurfaces
@@ -341,10 +338,7 @@ mScaledFonts
 gfx
 :
 :
-DrawEventRecorderPrivate
-:
-:
-ExternalSurfacesHolder
+DrawEventRecorderPrivate_ExternalSurfacesHolder
 mExternalSurfaces
 ;
 bool
