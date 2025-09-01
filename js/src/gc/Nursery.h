@@ -856,16 +856,6 @@ size_t
 newBytes
 )
 ;
-void
-freeBuffer
-(
-void
-*
-buffer
-size_t
-nbytes
-)
-;
 static
 const
 size_t
