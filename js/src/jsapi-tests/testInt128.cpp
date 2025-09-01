@@ -85,14 +85,6 @@ defined
 __clang__
 )
 #
-if
-(
-__clang_major__
->
-=
-17
-)
-#
 define
 UINT128_PARSE_ERROR
 (
@@ -105,8 +97,6 @@ static_assert
 false
 __VA_ARGS__
 )
-#
-endif
 #
 elif
 MOZ_IS_GCC
