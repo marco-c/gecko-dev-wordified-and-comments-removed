@@ -292,11 +292,13 @@ NonParamInsideFunctionDeclChecker
 "
 non
 -
-memmovable
+param
 -
-template
+inside
 -
-arg
+function
+-
+decl
 "
 )
 CHECK
