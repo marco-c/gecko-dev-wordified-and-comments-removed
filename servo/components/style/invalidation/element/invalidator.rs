@@ -3482,6 +3482,16 @@ n
 DependencyInvalidationKind
 :
 :
+Scope
+(
+_
+)
+=
+>
+n
+DependencyInvalidationKind
+:
+:
 Relative
 (
 kind
