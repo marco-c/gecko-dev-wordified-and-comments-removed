@@ -7336,6 +7336,7 @@ return
 nullptr
 ;
 }
+const
 uint8_t
 *
 sourceData
@@ -7521,6 +7522,7 @@ GetStride
 (
 )
 ;
+const
 uint8_t
 *
 tmpData
@@ -8014,6 +8016,7 @@ return
 nullptr
 ;
 }
+const
 uint8_t
 *
 inputData

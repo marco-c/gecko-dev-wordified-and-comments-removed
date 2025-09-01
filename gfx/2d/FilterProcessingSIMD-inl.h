@@ -121,6 +121,7 @@ DataSourceSurface
 READ_WRITE
 )
 ;
+const
 uint8_t
 *
 inputData
@@ -849,6 +850,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -2125,6 +2127,7 @@ IntSize
 aSize
 )
 {
+const
 uint8_t
 *
 source1Data
@@ -2135,6 +2138,7 @@ GetData
 (
 )
 ;
+const
 uint8_t
 *
 source2Data
@@ -2735,6 +2739,7 @@ inline
 void
 ApplyMorphologyHorizontal_SIMD
 (
+const
 uint8_t
 *
 aSourceData
@@ -3162,6 +3167,7 @@ inline
 void
 ApplyMorphologyHorizontal_SIMD
 (
+const
 uint8_t
 *
 aSourceData
@@ -3238,6 +3244,7 @@ static
 void
 ApplyMorphologyVertical_SIMD
 (
+const
 uint8_t
 *
 aSourceData
@@ -3478,6 +3485,7 @@ inline
 void
 ApplyMorphologyVertical_SIMD
 (
+const
 uint8_t
 *
 aSourceData
@@ -3766,6 +3774,7 @@ DataSourceSurface
 READ_WRITE
 )
 ;
+const
 uint8_t
 *
 sourceData
@@ -5255,6 +5264,7 @@ DataSourceSurface
 READ_WRITE
 )
 ;
+const
 uint8_t
 *
 sourceData
@@ -5709,6 +5719,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -6219,12 +6230,15 @@ channelStride
 uint8_t
 *
 channel0Data
+const
 uint8_t
 *
 channel1Data
+const
 uint8_t
 *
 channel2Data
+const
 uint8_t
 *
 channel3Data
@@ -6586,6 +6600,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -7103,6 +7118,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -7454,6 +7470,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -8078,6 +8095,7 @@ Float
 aK4
 )
 {
+const
 uint8_t
 *
 source1Data
@@ -8088,6 +8106,7 @@ GetData
 (
 )
 ;
+const
 uint8_t
 *
 source2Data

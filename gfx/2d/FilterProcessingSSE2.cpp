@@ -51,6 +51,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -139,6 +140,7 @@ FilterProcessing
 :
 ApplyMorphologyHorizontal_SSE2
 (
+const
 uint8_t
 *
 aSourceData
@@ -181,6 +183,7 @@ FilterProcessing
 :
 ApplyMorphologyVertical_SSE2
 (
+const
 uint8_t
 *
 aSourceData
@@ -288,6 +291,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -387,6 +391,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -424,6 +429,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -460,6 +466,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
