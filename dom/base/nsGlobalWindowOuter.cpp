@@ -23310,15 +23310,8 @@ IsPreview
 :
 :
 Yes
-)
-{
-return
-!
-hasPrintCallbacks
-;
-}
-if
-(
+|
+|
 StaticPrefs
 :
 :
@@ -23328,7 +23321,8 @@ print_prefer_system_dialog
 )
 {
 return
-true
+!
+hasPrintCallbacks
 ;
 }
 return
