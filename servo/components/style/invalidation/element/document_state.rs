@@ -104,6 +104,12 @@ SelectorCaches
 VisitedHandlingMode
 }
 ;
+use
+selectors
+:
+:
+OpaqueElement
+;
 #
 [
 derive
@@ -392,6 +398,12 @@ Dependency
 _
 :
 E
+_
+:
+Option
+<
+OpaqueElement
+>
 )
 -
 >
@@ -514,6 +526,7 @@ new
 dependency
 .
 dependency
+None
 None
 )
 )

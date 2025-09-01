@@ -147,6 +147,7 @@ selectors
 :
 {
 Element
+OpaqueElement
 SelectorList
 }
 ;
@@ -818,6 +819,12 @@ Dependency
 _
 :
 E
+_
+:
+Option
+<
+OpaqueElement
+>
 )
 -
 >
@@ -951,6 +958,15 @@ self
 matching_context
 .
 current_host
+.
+clone
+(
+)
+self
+.
+matching_context
+.
+scope_element
 .
 clone
 (
