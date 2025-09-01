@@ -581,6 +581,9 @@ JsonElement
 ?
 =
 null
+val
+job
+=
 Pings
 .
 nimbus
@@ -621,6 +624,11 @@ to
 recordedContext
 .
 record
+(
+)
+job
+.
+join
 (
 )
 assertNotNull
