@@ -10,14 +10,6 @@ import
 mozcrash
 import
 pytest
-from
-py
-.
-_path
-.
-common
-import
-fspath
 pytest
 .
 fixture
@@ -102,7 +94,7 @@ wrapper
         
 dump_directory
 =
-fspath
+str
 (
 tmpdir
 )
@@ -115,7 +107,7 @@ symbols_path
         
 stackwalk_binary
 =
-fspath
+str
 (
 stackwalk
 )

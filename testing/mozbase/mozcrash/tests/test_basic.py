@@ -12,10 +12,6 @@ import
 mozunit
 import
 pytest
-from
-conftest
-import
-fspath
 def
 test_no_dump_files
 (
@@ -156,7 +152,7 @@ check_for_crashes
 (
 dump_directory
 =
-fspath
+str
 (
 tmpdir
 )
@@ -175,7 +171,7 @@ readouterr
 )
     
 assert
-fspath
+str
 (
 minidump_files
 [
@@ -335,7 +331,7 @@ check_for_crashes
 (
 dump_directory
 =
-fspath
+str
 (
 tmpdir
 )

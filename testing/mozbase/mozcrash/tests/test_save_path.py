@@ -4,10 +4,6 @@ import
 mozunit
 import
 pytest
-from
-conftest
-import
-fspath
 def
 test_save_path_not_present
 (
@@ -55,7 +51,7 @@ check_for_crashes
 (
 dump_save_path
 =
-fspath
+str
 (
 save_path
 )
@@ -144,7 +140,7 @@ check_for_crashes
 (
 dump_save_path
 =
-fspath
+str
 (
 save_path
 )
@@ -252,7 +248,7 @@ check_for_crashes
 (
 dump_save_path
 =
-fspath
+str
 (
 save_path
 )
@@ -345,7 +341,7 @@ MINIDUMP_SAVE_PATH
 "
 ]
 =
-fspath
+str
 (
 save_path
 )
@@ -478,7 +474,7 @@ check_for_crashes
 (
 dump_save_path
 =
-fspath
+str
 (
 save_path
 )
