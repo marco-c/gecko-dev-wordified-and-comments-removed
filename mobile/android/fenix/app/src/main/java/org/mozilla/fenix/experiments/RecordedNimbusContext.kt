@@ -484,7 +484,7 @@ userAcceptedTou
 :
 Boolean
 val
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 :
 Boolean
 val
@@ -700,7 +700,7 @@ userAcceptedTou
 userAcceptedTou
 noShortcutsStoriesMkt
 =
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 userClickedTouPromptLink
 =
 userClickedTouPromptLink
@@ -976,7 +976,7 @@ userAcceptedTou
 no_shortcuts_stories_mkt
 "
 to
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 "
 user_clicked_tou_prompt_link
 "
@@ -1166,11 +1166,11 @@ userAcceptedTou
 settings
 .
 hasAcceptedTermsOfService
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 =
 settings
 .
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 userClickedTouPromptLink
 =
 settings
@@ -1187,7 +1187,7 @@ private
 val
 Settings
 .
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 :
 Boolean
 get
@@ -1356,7 +1356,7 @@ US
 userAcceptedTou
 =
 true
-noShortcutsStoriesMkt
+noShortcutsStoriesMktOptOuts
 =
 true
 userClickedTouPromptLink
