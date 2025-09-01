@@ -42,7 +42,7 @@ DocAccessible
 aDoc
 )
 ;
-void
+EDescriptionValueFlag
 Description
 (
 nsString

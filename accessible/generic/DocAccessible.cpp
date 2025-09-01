@@ -1124,7 +1124,7 @@ roles
 PANE
 ;
 }
-void
+EDescriptionValueFlag
 DocAccessible
 :
 :
@@ -1176,6 +1176,9 @@ aDescription
 )
 ;
 }
+return
+eDescriptionFromARIA
+;
 }
 uint64_t
 DocAccessible

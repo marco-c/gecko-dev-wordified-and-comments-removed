@@ -102,6 +102,13 @@ eNameFromTooltip
 eNameFromRelations
 }
 ;
+enum
+EDescriptionValueFlag
+{
+eDescriptionOK
+eDescriptionFromARIA
+}
+;
 struct
 GroupPos
 {
@@ -961,7 +968,7 @@ NameIsEmpty
 const
 ;
 virtual
-void
+EDescriptionValueFlag
 Description
 (
 nsString

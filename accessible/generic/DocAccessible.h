@@ -227,7 +227,7 @@ const
 override
 ;
 virtual
-void
+EDescriptionValueFlag
 Description
 (
 nsString
