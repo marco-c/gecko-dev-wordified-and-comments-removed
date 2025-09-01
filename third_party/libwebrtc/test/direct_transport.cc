@@ -794,6 +794,9 @@ const
 uint8_t
 >
 data
+const
+PacketOptions
+&
 )
 {
 fake_network_

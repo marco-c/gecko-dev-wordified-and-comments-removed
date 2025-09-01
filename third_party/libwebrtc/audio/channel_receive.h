@@ -132,6 +132,17 @@ include
 "
 api
 /
+crypto
+/
+frame_decryptor_interface
+.
+h
+"
+#
+include
+"
+api
+/
 environment
 /
 environment
@@ -260,9 +271,6 @@ webrtc
 {
 class
 AudioDeviceModule
-;
-class
-FrameDecryptorInterface
 ;
 class
 PacketRouter

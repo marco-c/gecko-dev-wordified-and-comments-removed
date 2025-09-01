@@ -1904,6 +1904,10 @@ const
 uint8_t
 >
 packet
+const
+PacketOptions
+&
+options
 )
 {
 return
@@ -1913,6 +1917,7 @@ transport_
 SendRtcp
 (
 packet
+options
 )
 ;
 }

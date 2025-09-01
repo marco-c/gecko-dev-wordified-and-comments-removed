@@ -333,6 +333,9 @@ ArrayView
 const
 uint8_t
 >
+const
+PacketOptions
+&
 )
 override
 {

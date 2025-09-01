@@ -78,6 +78,17 @@ include
 "
 api
 /
+call
+/
+transport
+.
+h
+"
+#
+include
+"
+api
+/
 environment
 /
 environment
@@ -1554,6 +1565,8 @@ transport_
 SendRtcp
 (
 packet
+{
+}
 )
 ;
 error_code
@@ -3418,6 +3431,8 @@ transport_
 SendRtcp
 (
 packet
+{
+}
 )
 )
 {
@@ -4962,6 +4977,8 @@ transport_
 SendRtcp
 (
 packet
+{
+}
 )
 )
 {
