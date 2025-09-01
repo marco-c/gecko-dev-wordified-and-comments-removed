@@ -354,7 +354,7 @@ opt_in
 selected_result
 :
 "
-rust_market
+rust_market_opt_in
 "
 selected_position
 :
@@ -368,7 +368,7 @@ results
 :
 "
 search_engine
-rust_market
+rust_market_opt_in
 "
 }
 ]
@@ -495,7 +495,7 @@ not_now
 selected_result
 :
 "
-rust_market
+rust_market_opt_in
 "
 selected_position
 :
@@ -509,7 +509,7 @@ results
 :
 "
 search_engine
-rust_market
+rust_market_opt_in
 "
 }
 ]
@@ -680,7 +680,7 @@ dismiss
 selected_result
 :
 "
-rust_market
+rust_market_opt_in
 "
 selected_position
 :
@@ -694,7 +694,7 @@ results
 :
 "
 search_engine
-rust_market
+rust_market_opt_in
 "
 }
 ]
@@ -935,7 +935,7 @@ not_interested
 selected_result
 :
 "
-rust_market
+rust_market_opt_in
 "
 selected_position
 :
@@ -949,7 +949,7 @@ results
 :
 "
 search_engine
-rust_market
+rust_market_opt_in
 "
 }
 ]
