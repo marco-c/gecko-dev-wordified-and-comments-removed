@@ -1159,9 +1159,6 @@ out_len
 int
 seq_num
 =
-webrtc
-:
-:
 ParseRtpSequenceNumber
 (
 buffer
@@ -1369,9 +1366,6 @@ out_len
 int
 seq_num
 =
-webrtc
-:
-:
 ParseRtpSequenceNumber
 (
 MakeArrayView
@@ -2831,9 +2825,6 @@ IsCurrent
 uint32_t
 ssrc
 =
-webrtc
-:
-:
 ParseRtpSsrc
 (
 buffer
@@ -2863,9 +2854,6 @@ false
 uint16_t
 seq_num
 =
-webrtc
-:
-:
 ParseRtpSequenceNumber
 (
 buffer
@@ -2891,9 +2879,6 @@ static_cast
 int64_t
 >
 (
-webrtc
-:
-:
 NetworkToHost64
 (
 extended_seq_num
@@ -3160,9 +3145,6 @@ IsExternalAuthEnabled
 &
 &
 !
-webrtc
-:
-:
 IsGcmCryptoSuite
 (
 crypto_suite
@@ -3770,9 +3752,6 @@ outbound
 int64_t
 time_of_day
 =
-webrtc
-:
-:
 TimeUTCMillis
 (
 )
@@ -3974,9 +3953,6 @@ millis
 "
 <
 <
-webrtc
-:
-:
 hex_encode_with_delimiter
 (
 absl

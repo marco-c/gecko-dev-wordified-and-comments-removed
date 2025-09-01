@@ -3655,9 +3655,6 @@ callee
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3889,9 +3886,6 @@ size
 ;
 ASSERT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4969,9 +4963,6 @@ callee
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5144,9 +5135,6 @@ caller
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5236,9 +5224,6 @@ callee
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5411,9 +5396,6 @@ caller
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5846,9 +5828,6 @@ caller
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14154,9 +14133,6 @@ callee
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14296,9 +14272,6 @@ caller
 >
 GetFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14781,9 +14754,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14836,9 +14806,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15852,9 +15819,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -17847,9 +17811,6 @@ receiver
 media_type
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18056,9 +18017,6 @@ receiver
 media_type
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -22868,9 +22826,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -22970,9 +22925,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -23166,9 +23118,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -23268,9 +23217,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -23598,9 +23544,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -23804,9 +23747,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -23902,9 +23842,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24237,9 +24174,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24390,9 +24324,6 @@ callee
 >
 GetReceiversOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24448,9 +24379,6 @@ callee
 >
 GetReceiversOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24686,9 +24614,6 @@ caller
 >
 GetReceiversOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28756,9 +28681,6 @@ ConnectFakeSignaling
 (
 )
 ;
-webrtc
-:
-:
 RtpEncodingParameters
 init_send_encodings
 ;

@@ -456,9 +456,6 @@ callback
 =
 make_ref_counted
 <
-webrtc
-:
-:
 MockRTCStatsCollectorCallback
 >
 (

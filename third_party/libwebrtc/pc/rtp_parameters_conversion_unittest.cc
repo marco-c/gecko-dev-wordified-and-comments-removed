@@ -503,9 +503,6 @@ name
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -713,9 +710,6 @@ name
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :

@@ -3600,9 +3600,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -3710,9 +3707,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4354,9 +4348,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4628,9 +4619,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4774,9 +4762,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4983,9 +4968,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5140,9 +5122,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5273,9 +5252,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5389,9 +5365,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5526,9 +5499,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5692,9 +5662,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8626,9 +8593,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -9169,9 +9133,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9259,9 +9220,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9393,9 +9351,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -9508,9 +9463,6 @@ callee
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10307,9 +10259,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :

@@ -1148,9 +1148,6 @@ DemuxPacket
 (
 CopyOnWriteBuffer
 packet
-webrtc
-:
-:
 Timestamp
 arrival_time
 EcnMarking

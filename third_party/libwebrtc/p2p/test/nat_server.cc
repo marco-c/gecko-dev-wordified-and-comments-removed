@@ -439,9 +439,6 @@ use_ip
 h
 ^
 =
-webrtc
-:
-:
 HashIP
 (
 a
@@ -609,9 +606,6 @@ socket
 AsyncProxyServerSocket
 (
 socket
-webrtc
-:
-:
 kNATEncodedIPv6AddressSize
 )
 {
@@ -715,9 +709,6 @@ AF_INET
 *
 len
 <
-webrtc
-:
-:
 kNATEncodedIPv4AddressSize
 )
 |
@@ -732,9 +723,6 @@ AF_INET6
 *
 len
 <
-webrtc
-:
-:
 kNATEncodedIPv6AddressSize
 )
 )
@@ -748,9 +736,6 @@ dest_addr
 size_t
 address_length
 =
-webrtc
-:
-:
 UnpackAddressFromNAT
 (
 MakeArrayView
@@ -1121,9 +1106,6 @@ dest_addr
 size_t
 length
 =
-webrtc
-:
-:
 UnpackAddressFromNAT
 (
 packet
@@ -1411,9 +1393,6 @@ size
 (
 )
 +
-webrtc
-:
-:
 kNATEncodedIPv6AddressSize
 ]
 )
@@ -1421,9 +1400,6 @@ kNATEncodedIPv6AddressSize
 size_t
 addrlength
 =
-webrtc
-:
-:
 PackAddressForNAT
 (
 real_buf
@@ -1441,9 +1417,6 @@ size
 (
 )
 +
-webrtc
-:
-:
 kNATEncodedIPv6AddressSize
 packet
 .

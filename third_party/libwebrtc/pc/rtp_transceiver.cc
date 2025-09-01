@@ -755,9 +755,6 @@ RtpTransceiver
 :
 RtpTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 ConnectionContext
@@ -796,9 +793,6 @@ RTC_DCHECK
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -808,9 +802,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -933,9 +924,6 @@ RTC_DCHECK
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -945,9 +933,6 @@ AUDIO
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -988,9 +973,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1151,9 +1133,6 @@ ext
 direction
 !
 =
-webrtc
-:
-:
 RtpTransceiverDirection
 :
 :
@@ -1375,9 +1354,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1588,9 +1564,6 @@ else
 {
 RTC_DCHECK_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2447,9 +2420,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2884,9 +2854,6 @@ internal
 )
 ;
 }
-webrtc
-:
-:
 MediaType
 RtpTransceiver
 :
@@ -3802,9 +3769,6 @@ if
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3846,9 +3810,6 @@ if
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

@@ -784,9 +784,6 @@ RtpCodecCapability
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -906,9 +903,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5924,9 +5918,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6526,9 +6517,6 @@ vp8_codec_capability
 =
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6552,9 +6540,6 @@ vp9_codec_capability
 =
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6632,9 +6617,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16069,9 +16051,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16086,9 +16065,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16277,9 +16253,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16294,9 +16267,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16580,9 +16550,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16603,9 +16570,6 @@ pc_factory_
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16864,9 +16828,6 @@ pc_factory_
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :

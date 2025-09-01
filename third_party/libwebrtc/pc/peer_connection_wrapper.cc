@@ -1647,9 +1647,6 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -1707,9 +1704,6 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 const

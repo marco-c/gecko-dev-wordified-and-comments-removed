@@ -2267,9 +2267,6 @@ Gt
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

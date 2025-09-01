@@ -1054,9 +1054,6 @@ PeerConnectionFactory
 :
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )
@@ -1075,9 +1072,6 @@ kind
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1123,9 +1117,6 @@ extensions
 ;
 }
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1204,9 +1195,6 @@ PeerConnectionFactory
 :
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )
@@ -1225,9 +1213,6 @@ kind
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1273,9 +1258,6 @@ extensions
 ;
 }
 case
-webrtc
-:
-:
 MediaType
 :
 :

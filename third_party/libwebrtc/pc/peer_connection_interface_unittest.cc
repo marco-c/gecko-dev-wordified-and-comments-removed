@@ -7931,9 +7931,6 @@ RtpReceiverInterface
 >
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -8081,9 +8078,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8284,9 +8278,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8435,9 +8426,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8517,9 +8505,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -9162,9 +9147,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -9396,9 +9378,6 @@ stream_id
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -9443,9 +9422,6 @@ expected_num_tracks
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -10136,9 +10112,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -13774,9 +13747,6 @@ nullptr
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -13817,9 +13787,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -14539,9 +14506,6 @@ video_receiver
 =
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17426,9 +17390,6 @@ audio_receiver
 =
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17440,9 +17401,6 @@ video_receiver
 =
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17508,9 +17466,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -17563,9 +17518,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -18349,9 +18301,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -18399,9 +18348,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -18441,9 +18387,6 @@ audio_receiver
 =
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18460,9 +18403,6 @@ video_receiver
 =
 GetFirstReceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18747,9 +18687,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -18797,9 +18734,6 @@ kEnded
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -24434,9 +24368,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -24495,9 +24426,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -24556,9 +24484,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -24617,9 +24542,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -25028,9 +24950,6 @@ rtp_senders
 media_type
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :

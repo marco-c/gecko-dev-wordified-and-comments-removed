@@ -181,9 +181,6 @@ state_
 src
 =
 =
-webrtc
-:
-:
 CS_LOCAL
 )
 ?
@@ -263,9 +260,6 @@ if
 src
 =
 =
-webrtc
-:
-:
 CS_REMOTE
 )
 state_
@@ -285,9 +279,6 @@ if
 src
 =
 =
-webrtc
-:
-:
 CS_REMOTE
 )
 state_
@@ -492,9 +483,6 @@ ST_SENTOFFER
 source
 =
 =
-webrtc
-:
-:
 CS_LOCAL
 )
 |
@@ -509,9 +497,6 @@ ST_RECEIVEDOFFER
 source
 =
 =
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -539,9 +524,6 @@ ST_SENTOFFER
 source
 =
 =
-webrtc
-:
-:
 CS_REMOTE
 )
 |
@@ -556,9 +538,6 @@ ST_RECEIVEDOFFER
 source
 =
 =
-webrtc
-:
-:
 CS_LOCAL
 )
 |
@@ -573,9 +552,6 @@ ST_SENTPRANSWER
 source
 =
 =
-webrtc
-:
-:
 CS_LOCAL
 )
 |
@@ -590,9 +566,6 @@ ST_RECEIVEDPRANSWER
 source
 =
 =
-webrtc
-:
-:
 CS_REMOTE
 )
 )

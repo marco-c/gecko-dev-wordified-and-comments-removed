@@ -942,15 +942,9 @@ SimulcastLayer
 >
 &
 layers
-webrtc
-:
-:
 MediaType
 media_type
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1364,9 +1358,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1498,9 +1489,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1585,9 +1573,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3962,9 +3947,6 @@ get
 (
 )
 layers
-webrtc
-:
-:
 MediaType
 :
 :

@@ -46,9 +46,6 @@ std
 string
 str
 =
-webrtc
-:
-:
 IceSwitchReasonToString
 (
 reason

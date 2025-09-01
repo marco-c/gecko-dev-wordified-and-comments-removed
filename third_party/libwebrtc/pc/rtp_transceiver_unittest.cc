@@ -633,9 +633,6 @@ make_ref_counted
 RtpTransceiver
 >
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -677,9 +674,6 @@ WillRepeatedly
 (
 Return
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -836,9 +830,6 @@ WillRepeatedly
 (
 Return
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -941,9 +932,6 @@ make_ref_counted
 RtpTransceiver
 >
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -985,9 +973,6 @@ WillRepeatedly
 (
 Return
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1159,9 +1144,6 @@ MockRtpReceiverInternal
 >
 MockReceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -1211,9 +1193,6 @@ MockRtpSenderInternal
 >
 MockSender
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -1376,9 +1355,6 @@ receiver
 =
 MockReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1393,9 +1369,6 @@ sender
 =
 MockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1587,9 +1560,6 @@ CreateTransceiver
 (
 MockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1597,9 +1567,6 @@ VIDEO
 )
 MockReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1658,9 +1625,6 @@ CreateTransceiver
 (
 MockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1668,9 +1632,6 @@ VIDEO
 )
 MockReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3653,9 +3614,6 @@ receiver_
 =
 MockReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3670,9 +3628,6 @@ sender_
 =
 MockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4827,9 +4782,6 @@ WillRepeatedly
 (
 Return
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5141,9 +5093,6 @@ WillRepeatedly
 (
 Return
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5732,9 +5681,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpHeaderExtensionCapability
 >
 header_extensions
@@ -5989,9 +5935,6 @@ RtpTransceiverDirection
 kSendRecv
 )
 ;
-webrtc
-:
-:
 RtpParameters
 svc_parameters
 ;
@@ -6111,9 +6054,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpHeaderExtensionCapability
 >
 svc_extensions

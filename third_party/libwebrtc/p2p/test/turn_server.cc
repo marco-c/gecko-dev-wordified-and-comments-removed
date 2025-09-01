@@ -314,14 +314,6 @@ webrtc
 {
 namespace
 {
-using
-:
-:
-webrtc
-:
-:
-TimeDelta
-;
 constexpr
 TimeDelta
 kNonceTimeout
@@ -1107,9 +1099,6 @@ socket
 uint16_t
 msg_type
 =
-webrtc
-:
-:
 GetBE16
 (
 packet
@@ -2892,9 +2881,6 @@ iter
 second
 !
 =
-webrtc
-:
-:
 PROTO_UDP
 )
 {
@@ -4050,9 +4036,6 @@ server_
 reject_private_addresses_
 &
 &
-webrtc
-:
-:
 IPIsPrivate
 (
 peer_attr
@@ -4495,9 +4478,6 @@ payload
 uint16_t
 channel_id
 =
-webrtc
-:
-:
 GetBE16
 (
 payload

@@ -336,15 +336,9 @@ UsagePattern
 ;
 static
 constexpr
-webrtc
-:
-:
 TimeDelta
 kDefaultTimeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

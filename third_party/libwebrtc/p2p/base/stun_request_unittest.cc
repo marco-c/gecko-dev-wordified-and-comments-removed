@@ -805,9 +805,6 @@ STUN_BINDING_RESPONSE
 int64_t
 start
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -837,9 +834,6 @@ i
 {
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -872,9 +866,6 @@ clock
 fake_clock
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -883,9 +874,6 @@ IsRtcOk
 int64_t
 elapsed
 =
-webrtc
-:
-:
 TimeMillis
 (
 )

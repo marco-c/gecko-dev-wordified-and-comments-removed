@@ -380,9 +380,6 @@ rtp_sender
 rtp_senders
 )
 {
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -440,9 +437,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -537,9 +531,6 @@ rtp_receiver
 rtp_receivers
 )
 {
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -605,9 +596,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -634,9 +622,6 @@ RTC_DCHECK
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -664,9 +649,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

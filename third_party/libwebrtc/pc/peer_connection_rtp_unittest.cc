@@ -2431,9 +2431,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2460,9 +2457,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2924,9 +2918,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3169,9 +3160,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3666,9 +3654,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6151,9 +6136,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6166,9 +6148,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7222,9 +7201,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7305,9 +7281,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7316,9 +7289,6 @@ AUDIO
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7343,9 +7313,6 @@ sender
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7375,9 +7342,6 @@ receiver
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7468,9 +7432,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7479,9 +7440,6 @@ VIDEO
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7506,9 +7464,6 @@ sender
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7538,9 +7493,6 @@ receiver
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7631,9 +7583,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7768,9 +7717,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8094,9 +8040,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8191,9 +8134,6 @@ sender
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8262,9 +8202,6 @@ sender
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8398,9 +8335,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8514,9 +8448,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8736,9 +8667,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8753,9 +8681,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8836,9 +8761,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8930,9 +8852,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8944,9 +8863,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9060,9 +8976,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9237,9 +9150,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10911,9 +10821,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10926,9 +10833,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11253,9 +11157,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11394,9 +11295,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11492,9 +11390,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11595,9 +11490,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11667,9 +11559,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11747,9 +11636,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11827,9 +11713,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11887,9 +11770,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12004,9 +11884,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12611,9 +12488,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12697,9 +12571,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12749,9 +12620,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12812,9 +12680,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12864,9 +12729,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12916,9 +12778,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12996,9 +12855,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13075,9 +12931,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13154,9 +13007,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13239,9 +13089,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :

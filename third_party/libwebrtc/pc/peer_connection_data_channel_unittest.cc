@@ -1118,9 +1118,6 @@ contents
 ;
 ASSERT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1154,9 +1151,6 @@ mid
 ;
 ASSERT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :

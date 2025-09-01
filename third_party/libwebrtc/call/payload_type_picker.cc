@@ -168,9 +168,6 @@ kLastDynamicPayloadTypeUpperRange
 struct
 MapTableEntry
 {
-webrtc
-:
-:
 SdpAudioFormat
 format
 ;
