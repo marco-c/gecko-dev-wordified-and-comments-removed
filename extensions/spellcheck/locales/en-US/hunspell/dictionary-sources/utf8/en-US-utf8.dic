@@ -1,4 +1,4 @@
-53587
+53625
 0
 /
 nm
@@ -44746,6 +44746,9 @@ U
 authentication
 /
 M
+authenticator
+/
+S
 authenticity
 /
 M
@@ -54887,6 +54890,7 @@ christian
 /
 U
 christology
+chroma
 chromatic
 chromatically
 chromatin
@@ -54896,6 +54900,7 @@ chromatography
 chrome
 /
 MGDS
+chrominance
 chromium
 /
 M
@@ -57777,6 +57782,7 @@ DSG
 conclusion
 /
 MS
+conclusionary
 conclusive
 /
 IYP
@@ -59099,6 +59105,9 @@ convolution
 /
 MS
 convolutional
+convolve
+/
+GDS
 convoy
 /
 SMDG
@@ -59973,6 +59982,7 @@ SM
 counterrevolutionary
 /
 SM
+countershading
 countersign
 /
 GSMD
@@ -63126,6 +63136,9 @@ defy
 /
 GDS
 deg
+degauss
+/
+ZDRS
 degeneracy
 /
 M
@@ -71671,6 +71684,7 @@ MS
 external
 /
 MYS
+externality
 externalization
 /
 SM
@@ -71902,6 +71916,9 @@ M
 eyewash
 /
 M
+eyewear
+/
+M
 eyewitness
 /
 MS
@@ -71951,6 +71968,9 @@ SM
 facepalm
 /
 SDG
+faceplate
+/
+S
 facet
 /
 SMDG
@@ -74492,7 +74512,7 @@ fluidity
 M
 fluidize
 /
-GS
+GDS
 fluke
 /
 SM
@@ -75926,6 +75946,9 @@ frictional
 fridge
 /
 SM
+fried
+/
+A
 friedcake
 /
 MS
@@ -76358,6 +76381,9 @@ S
 functionality
 /
 S
+functionalize
+/
+GDS
 functionary
 /
 SM
@@ -78622,6 +78648,7 @@ DSMG
 googly
 /
 S
+googol
 gooier
 gooiest
 gook
@@ -81410,6 +81437,9 @@ headwaters
 /
 M
 headway
+/
+M
+headwear
 /
 M
 headwind
@@ -84368,9 +84398,9 @@ MS
 idealize
 /
 DSG
-ideation
+ideate
 /
-S
+DSXGN
 idem
 idempotent
 identical
@@ -85798,6 +85828,7 @@ SMY
 indicator
 /
 MS
+indicia
 indict
 /
 GDSBL
@@ -90051,6 +90082,8 @@ laggy
 lagniappe
 /
 SM
+lagomorph
+lagomorphs
 lagoon
 /
 SM
@@ -90764,10 +90797,13 @@ league
 DSMG
 leak
 /
-MDSG
+MDRSZG
 leakage
 /
 MS
+leaker
+/
+M
 leakiness
 /
 M
@@ -91703,6 +91739,10 @@ limestone
 /
 M
 limey
+/
+S
+liminal
+liminality
 /
 S
 limit
@@ -93006,6 +93046,7 @@ lumen
 /
 S
 lumina
+luminance
 luminary
 /
 SM
@@ -95376,6 +95417,7 @@ MS
 memento
 /
 MS
+memetic
 memo
 /
 MS
@@ -96882,6 +96924,7 @@ misfit
 SM
 misfitted
 misfitting
+misformed
 misfortune
 /
 SM
@@ -99887,6 +99930,11 @@ neuritis
 M
 neurocysticercoses
 neurocysticercosis
+neurodivergent
+neurodiverse
+neurodiversity
+/
+SM
 neurological
 /
 Y
@@ -100497,6 +100545,9 @@ nominee
 /
 MS
 non
+non
+-
+sequiturs
 nonabrasive
 nonabsorbent
 /
@@ -103659,6 +103710,9 @@ M
 overemphasize
 /
 GDS
+overengineer
+/
+DGS
 overenthusiastic
 overestimate
 /
@@ -103707,6 +103761,7 @@ overfly
 GS
 overfond
 overfull
+overgeneralization
 overgeneralize
 /
 DSG
@@ -105012,6 +105067,7 @@ S
 paregoric
 /
 M
+pareidolia
 parent
 /
 GMDS
@@ -105719,7 +105775,7 @@ payslip
 SM
 paywall
 /
-SM
+SMD
 payware
 pct
 pd
@@ -108309,8 +108365,14 @@ platen
 /
 M
 platform
+'
+s
+platform
 /
-SZGMDR
+CSGD
+platformer
+/
+S
 plating
 /
 M
@@ -110585,6 +110647,7 @@ Y
 preseason
 /
 SM
+preselected
 presence
 /
 SM
@@ -117792,6 +117855,7 @@ runic
 runlet
 /
 SM
+runnable
 runnel
 /
 SM
@@ -119333,6 +119397,9 @@ MS
 scissor
 /
 GDS
+sclera
+/
+SM
 scleroses
 sclerosis
 /
@@ -120774,6 +120841,8 @@ sequin
 SMD
 sequinned
 sequitur
+/
+S
 sequoia
 /
 MS
@@ -130288,6 +130357,7 @@ SM
 tadpole
 /
 MS
+taekwondo
 taffeta
 /
 M
@@ -136678,6 +136748,7 @@ unoffensive
 unofficial
 /
 Y
+unopenable
 unoriginal
 unpeople
 unperceptive
@@ -137052,6 +137123,7 @@ urban
 urbane
 /
 RYT
+urbanism
 urbanity
 /
 M

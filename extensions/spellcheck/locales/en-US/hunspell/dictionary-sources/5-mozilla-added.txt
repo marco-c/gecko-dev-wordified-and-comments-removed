@@ -10506,6 +10506,8 @@ auteur
 '
 s
 auteurs
+authenticator
+authenticators
 autocomplete
 autocompletes
 autocorrect
@@ -10732,6 +10734,8 @@ chorizo
 '
 s
 chorizos
+chroma
+chrominance
 ciphertext
 ciphertexts
 cisgendered
@@ -10797,6 +10801,7 @@ composable
 compositeness
 compressions
 comradery
+conclusionary
 concurrents
 conferable
 conferenced
@@ -10818,6 +10823,10 @@ contrabass
 s
 contrabasses
 convolutional
+convolve
+convolved
+convolves
+convolving
 coproduct
 coproduct
 '
@@ -10839,6 +10848,7 @@ cosplays
 counterintuitive
 counterintuitively
 counterproposal
+countershading
 counterstrike
 counterstrike
 '
@@ -10978,6 +10988,11 @@ s
 dedendums
 definitional
 definitionally
+degauss
+degaussed
+degausser
+degaussers
+degausses
 degenerations
 dehydrogenase
 '
@@ -10986,6 +11001,10 @@ demonization
 demonizations
 demonym
 demonyms
+deplatform
+deplatformed
+deplatforming
+deplatforms
 dequeuing
 desalinator
 desalinator
@@ -11195,10 +11214,17 @@ extensor
 '
 s
 extensors
+externality
 extortionary
 extrema
 extremum
 extremums
+eyewear
+eyewear
+'
+s
+faceplate
+faceplates
 facto
 fav
 favs
@@ -11241,6 +11267,7 @@ flexor
 s
 flexors
 fluidize
+fluidized
 fluidizes
 fluidizing
 flyer
@@ -11260,6 +11287,10 @@ freegans
 fugacious
 fugaciously
 fugaciousness
+functionalize
+functionalized
+functionalizes
+functionalizing
 funder
 funders
 gamification
@@ -11303,6 +11334,7 @@ gloming
 gloms
 gochujang
 golem
+googol
 gothic
 gothically
 gothicness
@@ -11357,6 +11389,10 @@ haptics
 harissa
 hatchling
 headspace
+headwear
+headwear
+'
+s
 helicities
 helicity
 heliocentrically
@@ -11385,6 +11421,10 @@ hypotheticals
 iPods
 iatrogenesis
 iatrogenic
+ideate
+ideated
+ideates
+ideating
 ideation
 ideations
 idolator
@@ -11414,6 +11454,7 @@ incongruently
 incorporator
 incorporators
 incorrigibleness
+indicia
 inductor
 inductor
 '
@@ -11523,6 +11564,8 @@ kombucha
 kryptonite
 labelled
 laggy
+lagomorph
+lagomorphs
 laissez
 -
 faire
@@ -11534,6 +11577,11 @@ langues
 lawyerly
 leachate
 leachates
+leaker
+leaker
+'
+s
+leakers
 learnt
 lector
 lector
@@ -11559,6 +11607,9 @@ lexicology
 s
 licensor
 lifecycle
+liminal
+liminalities
+liminality
 limnological
 limnologist
 limnologist
@@ -11579,6 +11630,7 @@ localizer
 localizers
 lumens
 lumina
+luminance
 mRNA
 macOS
 macOS
@@ -11608,6 +11660,7 @@ meerkats
 megajoule
 '
 s
+memetic
 merchantability
 merchanting
 mesothelioma
@@ -11650,6 +11703,7 @@ misclassifying
 misconfiguration
 mise
 mises
+misformed
 misgender
 misgendered
 misgendering
@@ -11727,6 +11781,13 @@ neato
 neoadjuvant
 neurocysticercoses
 neurocysticercosis
+neurodivergent
+neurodiverse
+neurodiversities
+neurodiversity
+neurodiversity
+'
+s
 neuropathic
 neuropathically
 neuropathies
@@ -11753,6 +11814,9 @@ nitty
 nitty
 -
 gritty
+non
+-
+sequiturs
 nonbinary
 nonnegative
 nonreal
@@ -11786,6 +11850,11 @@ outlier
 s
 outsized
 overbroad
+overengineer
+overengineered
+overengineering
+overengineers
+overgeneralization
 overinclusion
 overinclusive
 overrich
@@ -11809,12 +11878,14 @@ parallelizes
 parallelizing
 parametrize
 parametrized
+pareidolia
 paronychia
 parsers
 partygoers
 paver
 pavers
 pax
+paywalled
 pebibyte
 pebibyte
 '
@@ -11960,6 +12031,7 @@ preprocesses
 preprocessing
 preprogrammed
 preprogramming
+preselected
 prev
 proclaimable
 procreations
@@ -12060,6 +12132,7 @@ s
 refluxed
 refluxes
 refluxing
+refried
 refunder
 refunders
 reglet
@@ -12160,6 +12233,7 @@ romanizing
 rotatable
 rotatably
 rotator
+runnable
 salability
 sativa
 savoir
@@ -12170,6 +12244,11 @@ schemas
 schnaps
 schrod
 schrods
+sclera
+sclera
+'
+s
+scleras
 scooch
 scooched
 scooches
@@ -12203,6 +12282,7 @@ selfist
 selfists
 sensationalistic
 sentiently
+sequiturs
 sera
 seraphim
 severability
@@ -12405,6 +12485,7 @@ tRNA
 tRNA
 '
 s
+taekwondo
 tebibyte
 tebibyte
 '
@@ -12553,6 +12634,7 @@ unlinked
 unlinking
 unlinks
 unobservable
+unopenable
 unpressured
 unpressurized
 unredacted
@@ -12573,6 +12655,7 @@ uptime
 upvote
 upvoted
 upvotes
+urbanism
 usufruct
 usufruct
 '
