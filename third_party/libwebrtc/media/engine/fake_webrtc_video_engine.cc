@@ -260,14 +260,6 @@ webrtc
 {
 namespace
 {
-using
-:
-:
-webrtc
-:
-:
-Environment
-;
 static
 constexpr
 TimeDelta
@@ -520,9 +512,6 @@ formats
 for
 (
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 format
@@ -1084,9 +1073,6 @@ formats
 for
 (
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 format

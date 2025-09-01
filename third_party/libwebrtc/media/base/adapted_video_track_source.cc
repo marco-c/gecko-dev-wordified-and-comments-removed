@@ -232,9 +232,6 @@ rotation
 )
 !
 =
-webrtc
-:
-:
 kVideoRotation_0
 &
 &
@@ -289,9 +286,6 @@ rotated_frame
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 ;
@@ -508,9 +502,6 @@ width
 height
 time_us
 *
-webrtc
-:
-:
 kNumNanosecsPerMicrosec
 crop_width
 crop_height

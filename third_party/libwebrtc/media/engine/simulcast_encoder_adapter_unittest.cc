@@ -1651,9 +1651,6 @@ codec_specific_info
 .
 codecType
 =
-webrtc
-:
-:
 kVideoCodecVP8
 ;
 callback_
@@ -3410,9 +3407,6 @@ ref_codec
 .
 SetVideoEncoderComplexity
 (
-webrtc
-:
-:
 VideoCodecComplexity
 :
 :
@@ -8933,9 +8927,6 @@ ref_codec
 .
 SetVideoEncoderComplexity
 (
-webrtc
-:
-:
 VideoCodecComplexity
 :
 :
@@ -9142,9 +9133,6 @@ ref_codec
 .
 SetVideoEncoderComplexity
 (
-webrtc
-:
-:
 VideoCodecComplexity
 :
 :

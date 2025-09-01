@@ -367,14 +367,8 @@ output
 size_t
 result
 =
-webrtc
-:
-:
 ComputeHmac
 (
-webrtc
-:
-:
 DIGEST_SHA_1
 &
 packet_time_params
@@ -569,9 +563,6 @@ false
 *
 value
 =
-webrtc
-:
-:
 GetBE32
 (
 static_cast
@@ -724,9 +715,6 @@ packet
 {
 if
 (
-webrtc
-:
-:
 IsRtcpPacket
 (
 packet
@@ -742,9 +730,6 @@ kRtcp
 }
 if
 (
-webrtc
-:
-:
 IsRtpPacket
 (
 packet
@@ -878,9 +863,6 @@ false
 uint16_t
 extension_length_in_32bits
 =
-webrtc
-:
-:
 GetBE16
 (
 rtp
@@ -987,9 +969,6 @@ header_length_without_extension
 uint16_t
 profile_id
 =
-webrtc
-:
-:
 GetBE16
 (
 rtp
@@ -998,9 +977,6 @@ rtp
 uint16_t
 extension_length_in_32bits
 =
-webrtc
-:
-:
 GetBE16
 (
 rtp
@@ -1269,9 +1245,6 @@ rtp_length
 if
 (
 !
-webrtc
-:
-:
 UnwrapTurnPacket
 (
 data
@@ -1305,9 +1278,6 @@ rtp_length
 if
 (
 !
-webrtc
-:
-:
 IsRtpPacket
 (
 packet

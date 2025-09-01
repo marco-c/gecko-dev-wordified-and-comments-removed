@@ -735,9 +735,6 @@ codec_settings
 codecType
 =
 =
-webrtc
-:
-:
 kVideoCodecVP8
 &
 &
@@ -3199,9 +3196,6 @@ frame
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 ;
@@ -4315,9 +4309,6 @@ return
 encoder_context
 ;
 }
-webrtc
-:
-:
 VideoCodec
 SimulcastEncoderAdapter
 :
@@ -4325,9 +4316,6 @@ SimulcastEncoderAdapter
 MakeStreamCodec
 (
 const
-webrtc
-:
-:
 VideoCodec
 &
 codec
@@ -4341,9 +4329,6 @@ bool
 is_highest_quality_stream
 )
 {
-webrtc
-:
-:
 VideoCodec
 codec_params
 =
@@ -4566,9 +4551,6 @@ codec
 codecType
 =
 =
-webrtc
-:
-:
 kVideoCodecVP8
 )
 {
@@ -4615,9 +4597,6 @@ codec_params
 .
 SetVideoEncoderComplexity
 (
-webrtc
-:
-:
 VideoCodecComplexity
 :
 :
@@ -4646,9 +4625,6 @@ codec
 codecType
 =
 =
-webrtc
-:
-:
 kVideoCodecH264
 )
 {
@@ -4674,9 +4650,6 @@ codec
 codecType
 =
 =
-webrtc
-:
-:
 kVideoCodecVP9
 &
 &

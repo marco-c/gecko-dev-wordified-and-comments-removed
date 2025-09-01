@@ -24,12 +24,6 @@ h
 namespace
 webrtc
 {
-using
-webrtc
-:
-:
-RtpExtension
-;
 static
 const
 char

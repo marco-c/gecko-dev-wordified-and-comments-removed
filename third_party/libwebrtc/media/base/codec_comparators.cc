@@ -2208,9 +2208,6 @@ rtp_codec
 kind
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2245,9 +2242,6 @@ rtp_codec
 kind
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

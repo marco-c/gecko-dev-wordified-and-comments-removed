@@ -180,9 +180,6 @@ config
 override
 {
 return
-webrtc
-:
-:
 Call
 :
 :

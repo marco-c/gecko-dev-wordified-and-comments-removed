@@ -154,9 +154,6 @@ Factory
 =
 VideoEncoderFactoryTemplate
 <
-webrtc
-:
-:
 LibvpxVp8EncoderTemplateAdapter
 #
 if
@@ -182,9 +179,6 @@ webrtc
 LibaomAv1EncoderTemplateAdapter
 #
 endif
-webrtc
-:
-:
 LibvpxVp9EncoderTemplateAdapter
 >
 ;

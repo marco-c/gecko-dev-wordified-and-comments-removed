@@ -320,12 +320,6 @@ h
 namespace
 webrtc
 {
-using
-webrtc
-:
-:
-TaskQueueBase
-;
 FakeVoiceMediaReceiveChannel
 :
 :
@@ -3158,9 +3152,6 @@ FakeVoiceEngine
 :
 encoder_factory_
 (
-webrtc
-:
-:
 make_ref_counted
 <
 FakeVoiceEncoderFactory
@@ -3171,9 +3162,6 @@ this
 )
 decoder_factory_
 (
-webrtc
-:
-:
 make_ref_counted
 <
 FakeVoiceDecoderFactory
@@ -3186,9 +3174,6 @@ this
 SetCodecs
 (
 {
-webrtc
-:
-:
 CreateAudioCodec
 (
 101
@@ -3584,9 +3569,6 @@ send_codecs_
 .
 push_back
 (
-webrtc
-:
-:
 CreateVideoCodec
 (
 111
@@ -3600,9 +3582,6 @@ recv_codecs_
 .
 push_back
 (
-webrtc
-:
-:
 CreateVideoCodec
 (
 111
