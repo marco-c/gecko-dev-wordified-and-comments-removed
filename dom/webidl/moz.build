@@ -3389,6 +3389,11 @@ CSSGroupingRule
 webidl
 "
 "
+CSSHSL
+.
+webidl
+"
+"
 CSSImageValue
 .
 webidl
