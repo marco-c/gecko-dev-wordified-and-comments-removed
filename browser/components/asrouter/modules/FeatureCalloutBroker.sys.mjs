@@ -441,7 +441,6 @@ pref
 location
 browser
 theme
-suppressTransitions
 }
 =
 config
@@ -551,7 +550,6 @@ bind
 this
 )
 theme
-suppressTransitions
 }
 )
 cleanup

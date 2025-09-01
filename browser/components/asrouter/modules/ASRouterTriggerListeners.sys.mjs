@@ -7306,9 +7306,6 @@ simulateContent
 :
 true
 }
-suppressTransitions
-:
-true
 cleanup
 :
 (
@@ -8140,9 +8137,6 @@ simulateContent
 :
 true
 }
-suppressTransitions
-:
-true
 cleanup
 :
 (
