@@ -1687,6 +1687,11 @@ getAllVariables
 )
 {
 }
+getAllEnrollments
+(
+)
+{
+}
 onUpdate
 (
 )
