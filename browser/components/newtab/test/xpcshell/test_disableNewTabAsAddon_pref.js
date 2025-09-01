@@ -113,12 +113,12 @@ equal
 (
 AboutNewTabResourceMapping
 .
-_addonVersion
+addonVersion
 null
 "
 Expected
 AboutNewTabResourceMapping
-_addonVersion
+addonVersion
 to
 be
 null
