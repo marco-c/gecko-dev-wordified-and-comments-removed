@@ -6226,9 +6226,9 @@ CoreTextFontList
 :
 PlatformGlobalFontFallback
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 uint32_t
 aCh
@@ -6517,7 +6517,7 @@ family
 =
 FindSharedFamily
 (
-aPresContext
+aFontVisibilityProvider
 familyNameString
 )
 ;
@@ -6719,9 +6719,9 @@ CoreTextFontList
 :
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -6969,7 +6969,7 @@ family
 =
 FindFamily
 (
-aPresContext
+aFontVisibilityProvider
 key
 )
 ;
@@ -7194,9 +7194,9 @@ CoreTextFontList
 :
 FindAndAddFamiliesLocked
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 StyleGenericFontFamily
 aGeneric
 const
@@ -7265,7 +7265,7 @@ gfxPlatformFontList
 :
 FindAndAddFamiliesLocked
 (
-aPresContext
+aFontVisibilityProvider
 aGeneric
 aFamily
 aOutput
@@ -9184,9 +9184,9 @@ CoreTextFontList
 :
 GetDefaultFontForPlatform
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 gfxFontStyle
 *
@@ -9236,7 +9236,7 @@ familyName
 return
 FindFamily
 (
-aPresContext
+aFontVisibilityProvider
 NS_ConvertUTF16toUTF8
 (
 familyName

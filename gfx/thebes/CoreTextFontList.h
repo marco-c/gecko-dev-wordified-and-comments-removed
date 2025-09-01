@@ -587,9 +587,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -629,9 +629,9 @@ override
 bool
 FindAndAddFamiliesLocked
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 mozilla
 :
 :
@@ -749,9 +749,9 @@ mLock
 FontFamily
 GetDefaultFontForPlatform
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 gfxFontStyle
 *
@@ -851,9 +851,9 @@ gfxFontEntry
 *
 PlatformGlobalFontFallback
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 uint32_t
 aCh

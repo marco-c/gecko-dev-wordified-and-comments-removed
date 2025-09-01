@@ -10400,9 +10400,9 @@ gfxFontGroup
 :
 gfxFontGroup
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 StyleFontFamilyList
 &
@@ -10428,9 +10428,9 @@ StyleFontVariantEmoji
 aVariantEmoji
 )
 :
-mPresContext
+mFontVisibilityProvider
 (
-aPresContext
+aFontVisibilityProvider
 )
 mFamilyList
 (
@@ -10832,7 +10832,7 @@ pfl
 >
 AddGenericFonts
 (
-mPresContext
+mFontVisibilityProvider
 generic
 mLanguage
 fonts
@@ -10885,7 +10885,7 @@ pfl
 >
 AddGenericFonts
 (
-mPresContext
+mFontVisibilityProvider
 defaultLanguageGeneric
 mLanguage
 fonts
@@ -11040,7 +11040,7 @@ PlatformFontList
 >
 FindAndAddFamilies
 (
-mPresContext
+mFontVisibilityProvider
 StyleGenericFontFamily
 :
 :
@@ -11992,7 +11992,7 @@ pfl
 >
 GetDefaultFont
 (
-mPresContext
+mFontVisibilityProvider
 &
 mStyle
 )
@@ -16171,7 +16171,7 @@ matchedFont
 >
 InitFakeSmallCapsRun
 (
-mPresContext
+mFontVisibilityProvider
 aDrawTarget
 aTextRun
 aString
@@ -19176,9 +19176,9 @@ forget
 FontVisibility
 level
 =
-mPresContext
+mFontVisibilityProvider
 ?
-mPresContext
+mFontVisibilityProvider
 -
 >
 GetFontVisibility
@@ -21277,7 +21277,7 @@ pfl
 >
 GetPrefFontsLangGroup
 (
-mPresContext
+mFontVisibilityProvider
 generic
 currentLang
 )
@@ -21654,7 +21654,7 @@ PlatformFontList
 >
 SystemFindFontForChar
 (
-mPresContext
+mFontVisibilityProvider
 aCh
 aNextCh
 aRunScript

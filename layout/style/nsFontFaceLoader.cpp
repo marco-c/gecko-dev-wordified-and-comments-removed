@@ -1009,14 +1009,14 @@ fontSets
 {
 if
 (
-nsPresContext
+FontVisibilityProvider
 *
 ctx
 =
 FontFaceSetImpl
 :
 :
-GetPresContextFor
+GetFontVisibilityProviderFor
 (
 fontSet
 )

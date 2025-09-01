@@ -60903,7 +60903,7 @@ font
 visibility
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 3

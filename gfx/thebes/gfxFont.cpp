@@ -21282,9 +21282,9 @@ gfxFont
 :
 InitFakeSmallCapsRun
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 DrawTarget
 *
 aDrawTarget
@@ -22190,9 +22190,9 @@ gfxFont
 :
 InitFakeSmallCapsRun
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 DrawTarget
 *
 aDrawTarget
@@ -22243,7 +22243,7 @@ aLength
 return
 InitFakeSmallCapsRun
 (
-aPresContext
+aFontVisibilityProvider
 aDrawTarget
 aTextRun
 static_cast

@@ -2132,7 +2132,7 @@ IncrementGeneration
 ;
 if
 (
-nsPresContext
+FontVisibilityProvider
 *
 ctx
 =
@@ -2142,7 +2142,7 @@ dom
 FontFaceSetImpl
 :
 :
-GetPresContextFor
+GetFontVisibilityProviderFor
 (
 fontSet
 )
@@ -2453,7 +2453,7 @@ LookupLocalFont
 fontSet
 -
 >
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 currSrc

@@ -154,6 +154,9 @@ OverlayInfo
 h
 "
 class
+FontVisibilityProvider
+;
+class
 gfxASurface
 ;
 class
@@ -185,9 +188,6 @@ nsAtom
 ;
 class
 nsIObserver
-;
-class
-nsPresContext
 ;
 class
 SRGBOverrideObserver
@@ -1450,9 +1450,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &

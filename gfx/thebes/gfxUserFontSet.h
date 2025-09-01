@@ -1335,9 +1335,9 @@ const
 0
 ;
 virtual
-nsPresContext
+FontVisibilityProvider
 *
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 const

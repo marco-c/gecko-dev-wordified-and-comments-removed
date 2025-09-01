@@ -328,6 +328,9 @@ gfxFontFeatures
 h
 "
 class
+FontVisibilityProvider
+;
+class
 gfxContext
 ;
 class
@@ -6267,9 +6270,9 @@ T
 bool
 InitFakeSmallCapsRun
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 DrawTarget
 *
 aDrawTarget

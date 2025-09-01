@@ -10625,9 +10625,9 @@ gfxFcPlatformFontList
 :
 GetDefaultFontForPlatform
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 gfxFontStyle
 *
@@ -10643,7 +10643,7 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
+aFontVisibilityProvider
 "
 -
 moz
@@ -10710,9 +10710,9 @@ gfxFcPlatformFontList
 :
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -10752,7 +10752,7 @@ SharedFontList
 return
 LookupInSharedFaceNameList
 (
-aPresContext
+aFontVisibilityProvider
 aFontName
 aWeightForEntry
 aStretchForEntry
@@ -10960,9 +10960,9 @@ gfxFcPlatformFontList
 :
 FindAndAddFamiliesLocked
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 StyleGenericFontFamily
 aGeneric
 const
@@ -11109,7 +11109,7 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
+aFontVisibilityProvider
 familyName
 aLanguage
 )
@@ -11256,9 +11256,9 @@ familyName
 auto
 vis
 =
-aPresContext
+aFontVisibilityProvider
 ?
-aPresContext
+aFontVisibilityProvider
 -
 >
 GetFontVisibility
@@ -11584,7 +11584,7 @@ gfxPlatformFontList
 :
 FindAndAddFamiliesLocked
 (
-aPresContext
+aFontVisibilityProvider
 aGeneric
 nsDependentCString
 (
@@ -12074,9 +12074,9 @@ gfxFcPlatformFontList
 :
 AddGenericFonts
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 StyleGenericFontFamily
 aGenericType
 nsAtom
@@ -12282,7 +12282,7 @@ gfxPlatformFontList
 :
 AddGenericFonts
 (
-aPresContext
+aFontVisibilityProvider
 aGenericType
 aLanguage
 aFamilyList
@@ -12310,7 +12310,7 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
+aFontVisibilityProvider
 genericToLookup
 aLanguage
 )
@@ -12403,9 +12403,9 @@ gfxFcPlatformFontList
 :
 FindGenericFamilies
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsCString
 &
@@ -12763,7 +12763,7 @@ gfxPlatformFontList
 :
 FindAndAddFamiliesLocked
 (
-aPresContext
+aFontVisibilityProvider
 StyleGenericFontFamily
 :
 :

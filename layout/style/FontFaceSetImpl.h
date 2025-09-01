@@ -475,9 +475,9 @@ FlushUserFontSet
 0
 ;
 static
-nsPresContext
+FontVisibilityProvider
 *
-GetPresContextFor
+GetFontVisibilityProviderFor
 (
 gfxUserFontSet
 *
@@ -504,7 +504,7 @@ set
 set
 -
 >
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 :
