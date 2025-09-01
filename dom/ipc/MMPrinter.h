@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 DOMTypes
@@ -144,7 +135,7 @@ nsAString
 &
 aMessageName
 const
-UniquePtr
+Maybe
 <
 ClonedMessageData
 >
@@ -211,6 +202,10 @@ return
 if
 (
 aData
+.
+isSome
+(
+)
 )
 {
 MMPrinter

@@ -4204,10 +4204,7 @@ ClonedMessageData
 aData
 nsTArray
 <
-UniquePtr
-<
 StructuredCloneData
->
 >
 *
 aRetvals
@@ -5840,14 +5837,14 @@ JSActorMessageMeta
 &
 aMeta
 const
-UniquePtr
+Maybe
 <
 ClonedMessageData
 >
 &
 aData
 const
-UniquePtr
+Maybe
 <
 ClonedMessageData
 >

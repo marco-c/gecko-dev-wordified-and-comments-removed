@@ -2833,10 +2833,7 @@ XPCOMInitData
 &
 aXPCOMInit
 const
-UniquePtr
-<
 StructuredCloneData
->
 &
 aInitialData
 FullLookAndFeel
@@ -4351,14 +4348,14 @@ JSActorMessageMeta
 &
 aMeta
 const
-UniquePtr
+Maybe
 <
 ClonedMessageData
 >
 &
 aData
 const
-UniquePtr
+Maybe
 <
 ClonedMessageData
 >
