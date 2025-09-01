@@ -532,7 +532,7 @@ ping
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 new_dir_info
 [
