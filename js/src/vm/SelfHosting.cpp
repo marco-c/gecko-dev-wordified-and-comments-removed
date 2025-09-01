@@ -12216,7 +12216,7 @@ entries
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Map_get
@@ -12227,8 +12227,9 @@ MapObject
 get
 1
 0
+MapGet
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Map_has
@@ -12239,8 +12240,9 @@ MapObject
 has
 1
 0
+MapHas
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Map_set
@@ -12251,6 +12253,7 @@ MapObject
 set
 2
 0
+MapSet
 )
 JS_INLINABLE_FN
 (
@@ -12340,7 +12343,7 @@ obj_setProto
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Object_toString
@@ -12348,6 +12351,7 @@ std_Object_toString
 obj_toString
 0
 0
+ObjectToString
 )
 JS_INLINABLE_FN
 (
@@ -12377,7 +12381,7 @@ Reflect_ownKeys
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Set_add
@@ -12388,8 +12392,9 @@ SetObject
 add
 1
 0
+SetAdd
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Set_delete
@@ -12400,6 +12405,7 @@ SetObject
 delete_
 1
 0
+SetDelete
 )
 JS_INLINABLE_FN
 (
@@ -12489,7 +12495,7 @@ str_fromCodePoint
 0
 StringFromCodePoint
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_includes
@@ -12497,6 +12503,7 @@ std_String_includes
 str_includes
 1
 0
+StringIncludes
 )
 JS_INLINABLE_FN
 (
@@ -12531,7 +12538,7 @@ sort
 0
 TypedArraySort
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_WeakMap_get
@@ -12542,8 +12549,9 @@ WeakMapObject
 get
 1
 0
+WeakMapGet
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_WeakMap_has
@@ -12554,6 +12562,7 @@ WeakMapObject
 has
 1
 0
+WeakMapHas
 )
 JS_FN
 (
