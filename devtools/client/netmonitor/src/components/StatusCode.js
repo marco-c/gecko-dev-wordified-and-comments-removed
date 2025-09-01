@@ -170,9 +170,6 @@ status
 "
 statusText
 "
-"
-blockedReason
-"
 ]
 ;
 class

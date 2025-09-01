@@ -248,12 +248,6 @@ isRacing
 "
 fromServiceWorker
 "
-"
-blockedReason
-"
-"
-blockingExtension
-"
 ]
 ;
 class

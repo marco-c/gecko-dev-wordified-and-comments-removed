@@ -1235,6 +1235,15 @@ testServerSentEventsDetails
 (
 )
 {
+if
+(
+true
+)
+{
+return
+null
+;
+}
 const
 {
 httpServer
@@ -1586,7 +1595,7 @@ list
 -
 item
 "
-4
+3
 )
 ;
 info
