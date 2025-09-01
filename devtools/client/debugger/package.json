@@ -202,16 +202,6 @@ all
 yarn
 test
 "
-"
-watch
-"
-:
-"
-node
-bin
-/
-watch
-"
 }
 "
 dependencies
