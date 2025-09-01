@@ -740,6 +740,12 @@ mozilla
 StyleMathStyle
 "
 "
+mozilla
+:
+:
+StyleMathShift
+"
+"
 nsStyleImageLayers_Size_DimensionType
 "
 "
