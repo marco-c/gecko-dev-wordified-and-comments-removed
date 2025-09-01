@@ -10736,13 +10736,13 @@ RubyMetrics
 fm
 -
 >
-EmAscent
+TrimmedAscent
 (
 )
 fm
 -
 >
-EmDescent
+TrimmedDescent
 (
 )
 }

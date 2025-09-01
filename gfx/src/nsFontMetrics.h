@@ -283,13 +283,13 @@ EmHeight
 const
 ;
 nscoord
-EmAscent
+TrimmedAscent
 (
 )
 const
 ;
 nscoord
-EmDescent
+TrimmedDescent
 (
 )
 const
