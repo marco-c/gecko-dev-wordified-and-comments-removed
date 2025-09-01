@@ -978,7 +978,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )
@@ -1175,7 +1175,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )
@@ -1973,6 +1973,7 @@ async
 =
 >
 {
+await
 SetPermissionInFrame
 (
 iframe
@@ -2423,7 +2424,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 https_origin
 )
@@ -2672,7 +2673,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )
@@ -2950,7 +2951,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )
@@ -3227,7 +3228,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )
@@ -3495,7 +3496,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 cross_site
 )

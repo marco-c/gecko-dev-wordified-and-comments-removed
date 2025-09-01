@@ -386,7 +386,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 altWww
 )
@@ -520,7 +520,7 @@ blocked
 )
 ;
 await
-SetFirstPartyCookieAndUnsetStorageAccessPermission
+SetFirstPartyCookie
 (
 altWww
 )
