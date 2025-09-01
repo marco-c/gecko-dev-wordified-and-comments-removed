@@ -624,6 +624,12 @@ mozilla
 StyleMathStyle
 mMathStyle
 ;
+mozilla
+:
+:
+StyleMathShift
+mMathShift
+;
 bool
 mExplicitLanguage
 =
