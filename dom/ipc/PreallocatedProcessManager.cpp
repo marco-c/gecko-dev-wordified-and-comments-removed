@@ -259,10 +259,6 @@ CanAllocate
 void
 AllocateAfterDelay
 (
-bool
-aStartup
-=
-false
 )
 ;
 void
@@ -1175,7 +1171,6 @@ true
 ;
 AllocateAfterDelay
 (
-true
 )
 ;
 }
@@ -1371,8 +1366,6 @@ PreallocatedProcessManagerImpl
 :
 AllocateAfterDelay
 (
-bool
-aStartup
 )
 {
 if
@@ -1389,15 +1382,6 @@ return
 long
 delay
 =
-aStartup
-?
-StaticPrefs
-:
-:
-dom_ipc_processPrelaunch_startupDelayMs
-(
-)
-:
 StaticPrefs
 :
 :
