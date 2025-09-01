@@ -28293,6 +28293,13 @@ ToIntRect
 &
 roundedOutSourceRectInt
 )
+|
+|
+roundedOutSourceRectInt
+.
+IsEmpty
+(
+)
 )
 {
 RefPtr
