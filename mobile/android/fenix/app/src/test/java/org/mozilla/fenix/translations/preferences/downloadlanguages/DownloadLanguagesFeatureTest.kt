@@ -75,12 +75,6 @@ net
 .
 ConnectivityManager
 import
-android
-.
-os
-.
-Build
-import
 androidx
 .
 core
@@ -182,14 +176,6 @@ fenix
 wifi
 .
 WifiConnectionMonitor
-import
-org
-.
-robolectric
-.
-annotation
-.
-Config
 RunWith
 (
 AndroidJUnit4

@@ -461,16 +461,6 @@ support
 .
 test
 .
-argumentCaptor
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 eq
 import
 mozilla

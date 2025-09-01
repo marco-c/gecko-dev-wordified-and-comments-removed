@@ -83,12 +83,6 @@ content
 .
 Context
 import
-android
-.
-os
-.
-Build
-import
 org
 .
 mozilla

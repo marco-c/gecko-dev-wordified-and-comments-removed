@@ -75,12 +75,6 @@ Color
 import
 android
 .
-os
-.
-Build
-import
-android
-.
 view
 .
 View
@@ -420,14 +414,6 @@ mockito
 Mockito
 .
 verify
-import
-org
-.
-robolectric
-.
-util
-.
-ReflectionHelpers
 import
 mozilla
 .

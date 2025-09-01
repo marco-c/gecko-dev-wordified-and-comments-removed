@@ -67,12 +67,6 @@ base
 .
 ext
 import
-android
-.
-os
-.
-Build
-import
 androidx
 .
 core
@@ -144,14 +138,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-org
-.
-robolectric
-.
-util
-.
-ReflectionHelpers
 RunWith
 (
 RobolectricTestRunner

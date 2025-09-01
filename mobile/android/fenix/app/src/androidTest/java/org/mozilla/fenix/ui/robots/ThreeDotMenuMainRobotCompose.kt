@@ -151,16 +151,6 @@ ui
 .
 test
 .
-hasText
-import
-androidx
-.
-compose
-.
-ui
-.
-test
-.
 junit4
 .
 ComposeTestRule

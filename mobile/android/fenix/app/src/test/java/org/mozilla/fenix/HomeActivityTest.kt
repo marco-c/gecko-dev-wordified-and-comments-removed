@@ -115,16 +115,6 @@ mozilla
 .
 components
 .
-service
-.
-pocket
-.
-PocketStoriesService
-import
-mozilla
-.
-components
-.
 support
 .
 test

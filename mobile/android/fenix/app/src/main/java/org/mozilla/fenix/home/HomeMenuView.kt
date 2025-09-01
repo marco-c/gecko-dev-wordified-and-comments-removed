@@ -159,14 +159,6 @@ mozilla
 .
 fenix
 .
-BrowserDirection
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 Events

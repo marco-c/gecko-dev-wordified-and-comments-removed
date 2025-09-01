@@ -107,12 +107,6 @@ android
 .
 os
 .
-Build
-import
-android
-.
-os
-.
 LocaleList
 import
 android
@@ -196,14 +190,6 @@ mockito
 Mockito
 .
 spy
-import
-org
-.
-robolectric
-.
-annotation
-.
-Config
 import
 java
 .

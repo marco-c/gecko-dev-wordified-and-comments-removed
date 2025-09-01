@@ -165,16 +165,6 @@ ext
 .
 settings
 import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
-import
 java
 .
 lang

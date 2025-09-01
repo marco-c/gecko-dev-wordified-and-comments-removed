@@ -67,12 +67,6 @@ autofill
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -82,12 +76,6 @@ android
 content
 .
 Intent
-import
-android
-.
-os
-.
-Build
 import
 android
 .

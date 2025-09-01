@@ -539,16 +539,6 @@ mozilla
 .
 fenix
 .
-iconpicker
-.
-AppIcon
-import
-org
-.
-mozilla
-.
-fenix
-.
 nimbus
 .
 CookieBannersSection

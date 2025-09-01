@@ -110,14 +110,6 @@ org
 junit
 .
 Test
-import
-org
-.
-mockito
-.
-Mockito
-.
-spy
 class
 ToolbarInteractorTest
 {

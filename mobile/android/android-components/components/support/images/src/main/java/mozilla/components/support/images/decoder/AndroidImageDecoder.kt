@@ -137,12 +137,6 @@ kotlin
 .
 math
 .
-floor
-import
-kotlin
-.
-math
-.
 max
 import
 kotlin

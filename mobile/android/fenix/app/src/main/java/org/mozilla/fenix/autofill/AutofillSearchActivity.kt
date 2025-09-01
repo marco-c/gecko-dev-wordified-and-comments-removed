@@ -69,12 +69,6 @@ android
 .
 os
 .
-Build
-import
-android
-.
-os
-.
 Bundle
 import
 android
@@ -82,12 +76,6 @@ android
 view
 .
 ViewGroup
-import
-androidx
-.
-annotation
-.
-RequiresApi
 import
 mozilla
 .

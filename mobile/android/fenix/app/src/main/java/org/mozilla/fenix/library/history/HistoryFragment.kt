@@ -845,14 +845,6 @@ mozilla
 .
 fenix
 .
-BrowserDirection
-import
-org
-.
-mozilla
-.
-fenix
-.
 HomeActivity
 import
 org

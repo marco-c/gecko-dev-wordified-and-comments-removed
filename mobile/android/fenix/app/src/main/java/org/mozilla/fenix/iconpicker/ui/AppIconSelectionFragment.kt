@@ -153,16 +153,6 @@ fenix
 .
 ext
 .
-settings
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 showToolbar
 import
 org
