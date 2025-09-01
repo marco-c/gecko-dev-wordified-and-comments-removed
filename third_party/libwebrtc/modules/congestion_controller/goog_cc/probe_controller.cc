@@ -2132,9 +2132,6 @@ ProbeController
 :
 SetNetworkStateEstimate
 (
-webrtc
-:
-:
 NetworkStateEstimate
 estimate
 )

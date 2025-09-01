@@ -443,9 +443,6 @@ bool
 IsEnabled
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 &
 key_value_config

@@ -433,9 +433,6 @@ BandwidthLimitedCause
 kLossLimitedBwe
 ;
 case
-webrtc
-:
-:
 LossBasedState
 :
 :

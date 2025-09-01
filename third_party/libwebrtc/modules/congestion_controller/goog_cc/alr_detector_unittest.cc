@@ -662,9 +662,6 @@ AlrDetectorTest
 ParseControlFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -723,9 +720,6 @@ AlrDetectorTest
 ParseActiveFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -849,9 +843,6 @@ AlrDetectorTest
 ParseAlrSpecificFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
