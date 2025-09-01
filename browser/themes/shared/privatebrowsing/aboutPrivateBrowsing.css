@@ -94,14 +94,6 @@ private
 {
 -
 -
-text
--
-color
-:
-white
-;
--
--
 background
 -
 color
@@ -206,6 +198,12 @@ rgba
 .
 15
 )
+;
+color
+-
+scheme
+:
+dark
 ;
 }
 }
