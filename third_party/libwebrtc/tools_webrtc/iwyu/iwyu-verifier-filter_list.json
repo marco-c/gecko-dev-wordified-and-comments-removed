@@ -72,6 +72,12 @@ jni
 /
 "
 "
+sdk
+/
+objc
+/
+"
+"
 test
 /
 ios

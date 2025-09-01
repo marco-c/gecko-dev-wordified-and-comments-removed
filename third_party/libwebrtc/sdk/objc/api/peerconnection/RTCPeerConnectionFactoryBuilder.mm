@@ -128,13 +128,7 @@ alloc
 ]
 initWithMediaAndDependencies
 :
-std
-:
-:
-move
-(
 _dependencies
-)
 ]
 ;
 }
