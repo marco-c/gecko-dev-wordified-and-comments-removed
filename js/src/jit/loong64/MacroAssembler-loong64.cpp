@@ -237,12 +237,15 @@ asMasm
 (
 )
 .
-PushFrameDescriptor
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 IonJS
+)
 )
 ;
 asMasm
