@@ -212,13 +212,6 @@ suggest
 .
 importantDates
 "
-"
-suggest
-.
-quicksuggest
-.
-nonsponsored
-"
 ]
 ;
 }
