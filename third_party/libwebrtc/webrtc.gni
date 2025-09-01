@@ -2591,7 +2591,8 @@ testing
 .
 rtc_rusty_base64
 =
-true
+!
+build_with_mozilla
 }
 declare_args
 (
