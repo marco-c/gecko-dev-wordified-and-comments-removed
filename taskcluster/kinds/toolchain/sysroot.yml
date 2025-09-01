@@ -143,14 +143,14 @@ reference
 <
 gcc
 -
-8
+10
 >
 '
 }
 GCC_VERSION
 :
 '
-8
+10
 '
 treeherder
 :
@@ -164,7 +164,7 @@ dependencies
 :
 gcc
 -
-8
+10
 :
 packages
 -
@@ -174,7 +174,7 @@ deb8
 -
 gcc
 -
-8
+10
 run
 :
 toolchain
@@ -238,14 +238,14 @@ reference
 <
 gcc
 -
-8
+10
 >
 '
 }
 GCC_VERSION
 :
 '
-8
+10
 '
 treeherder
 :
@@ -259,7 +259,7 @@ dependencies
 :
 gcc
 -
-8
+10
 :
 packages
 -
@@ -267,7 +267,7 @@ deb8
 -
 gcc
 -
-8
+10
 run
 :
 toolchain
@@ -338,7 +338,7 @@ reference
 <
 gcc
 -
-8
+10
 >
 <
 gtk3
@@ -348,7 +348,7 @@ gtk3
 GCC_VERSION
 :
 '
-8
+10
 '
 treeherder
 :
@@ -364,7 +364,7 @@ dependencies
 :
 gcc
 -
-8
+10
 :
 packages
 -
@@ -372,7 +372,7 @@ deb8
 -
 gcc
 -
-8
+10
 gtk3
 :
 packages
