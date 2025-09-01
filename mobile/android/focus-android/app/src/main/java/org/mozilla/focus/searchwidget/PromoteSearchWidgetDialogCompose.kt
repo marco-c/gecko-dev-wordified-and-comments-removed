@@ -968,14 +968,10 @@ text
 =
 AnnotatedString
 (
-LocalContext
-.
-current
-.
-resources
-.
-getString
+stringResource
 (
+id
+=
 R
 .
 string
