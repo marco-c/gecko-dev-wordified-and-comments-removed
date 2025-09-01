@@ -6309,7 +6309,7 @@ false
 }
 /
 /
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 may
 add
 non
@@ -6319,10 +6319,10 @@ results
 in
 some
 cases
+/
+/
 but
 those
-/
-/
 should
 be
 retained
@@ -6349,7 +6349,7 @@ providerName
 =
 =
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 &
 &
@@ -6364,7 +6364,7 @@ providerName
 !
 =
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 {
@@ -6380,7 +6380,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -8462,7 +8462,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -9225,19 +9225,16 @@ result
 state
 .
 hasUnitConversionResult
+|
+|
 =
-state
-.
-hasUnitConversionResult
-|
-|
 result
 .
 providerName
 =
 =
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 ;
 /
@@ -9681,7 +9678,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -10306,7 +10303,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 |
 |
@@ -10334,7 +10331,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 |
 |

@@ -454,9 +454,9 @@ providers
 UrlbarProviderQuickSuggest
 .
 name
-"
-Autofill
-"
+UrlbarProviderAutofill
+.
+name
 ]
 isPrivate
 :

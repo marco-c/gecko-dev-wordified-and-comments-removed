@@ -2905,7 +2905,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -2957,7 +2957,7 @@ providerName
 =
 =
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 )
 {
@@ -3185,15 +3185,7 @@ providerName
 !
 =
 "
-AboutPages
-"
-&
-&
-providerName
-!
-=
-"
-PreloadedSites
+UrlbarProviderAboutPages
 "
 &
 &
@@ -4097,7 +4089,7 @@ providerName
 =
 =
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 {

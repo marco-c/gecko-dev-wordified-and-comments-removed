@@ -214,17 +214,6 @@ UrlbarProviderActionsSearchMode
 extends
 UrlbarProvider
 {
-get
-name
-(
-)
-{
-return
-"
-UrlbarProviderActionsSearchMode
-"
-;
-}
 /
 *
 *

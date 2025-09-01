@@ -275,7 +275,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -385,7 +385,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -532,7 +532,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -605,7 +605,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -674,7 +674,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -719,7 +719,7 @@ com
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )
@@ -783,7 +783,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -828,7 +828,7 @@ com
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )
@@ -896,7 +896,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -962,7 +962,7 @@ true
 providerName
 :
 "
-HistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 "
 }
 )
@@ -1154,7 +1154,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -1293,7 +1293,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -1399,7 +1399,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -1464,7 +1464,7 @@ null
 providerName
 :
 "
-AboutPages
+UrlbarProviderAboutPages
 "
 }
 )

@@ -374,17 +374,6 @@ UrlbarProviderGlobalActions
 extends
 UrlbarProvider
 {
-get
-name
-(
-)
-{
-return
-"
-UrlbarProviderGlobalActions
-"
-;
-}
 /
 *
 *

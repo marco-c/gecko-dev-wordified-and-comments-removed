@@ -2016,7 +2016,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 First

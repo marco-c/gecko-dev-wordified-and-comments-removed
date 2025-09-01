@@ -1280,7 +1280,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The

@@ -493,7 +493,7 @@ result
 .
 providerName
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 )
 ;
@@ -657,7 +657,7 @@ result
 .
 providerName
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 )
 ;
@@ -903,7 +903,7 @@ result
 .
 providerName
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 "
 Click

@@ -383,7 +383,7 @@ null
 providerName
 :
 "
-AboutPages
+UrlbarProviderAboutPages
 "
 }
 )
@@ -465,7 +465,7 @@ null
 providerName
 :
 "
-AboutPages
+UrlbarProviderAboutPages
 "
 }
 )
@@ -517,7 +517,7 @@ SUGGESTIONS_ENGINE_NAME
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 heuristic
 :
@@ -644,7 +644,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -757,7 +757,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -836,7 +836,7 @@ null
 providerName
 :
 "
-AboutPages
+UrlbarProviderAboutPages
 "
 }
 )

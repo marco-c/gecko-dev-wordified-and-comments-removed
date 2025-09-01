@@ -488,7 +488,7 @@ result
 .
 providerName
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 ;

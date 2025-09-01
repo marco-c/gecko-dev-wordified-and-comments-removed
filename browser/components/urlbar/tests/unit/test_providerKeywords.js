@@ -2448,7 +2448,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )

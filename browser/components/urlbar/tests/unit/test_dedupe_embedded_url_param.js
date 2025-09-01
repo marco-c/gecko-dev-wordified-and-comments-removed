@@ -276,7 +276,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )

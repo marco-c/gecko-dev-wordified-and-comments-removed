@@ -7,7 +7,7 @@ const
 HEURISTIC_FALLBACK_PROVIDERNAME
 =
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 ;
 const

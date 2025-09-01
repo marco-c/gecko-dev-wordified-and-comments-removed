@@ -25117,7 +25117,7 @@ break
 ;
 case
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 :
 if

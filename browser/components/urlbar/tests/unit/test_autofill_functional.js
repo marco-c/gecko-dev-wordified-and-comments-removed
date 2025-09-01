@@ -1092,7 +1092,7 @@ test
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )

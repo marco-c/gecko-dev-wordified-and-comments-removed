@@ -2608,7 +2608,7 @@ queryInstance
 getProvider
 (
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ?

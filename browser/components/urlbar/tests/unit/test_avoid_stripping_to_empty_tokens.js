@@ -441,7 +441,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -464,7 +464,7 @@ title
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )
@@ -617,7 +617,7 @@ title
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )

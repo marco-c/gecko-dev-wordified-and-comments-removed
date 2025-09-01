@@ -409,17 +409,6 @@ super
 )
 ;
 }
-get
-name
-(
-)
-{
-return
-"
-UrlbarProviderQuickSuggestContextualOptIn
-"
-;
-}
 /
 *
 *

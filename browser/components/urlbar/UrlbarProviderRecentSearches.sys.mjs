@@ -294,17 +294,6 @@ TOPIC_ENGINE_MODIFIED
 )
 ;
 }
-get
-name
-(
-)
-{
-return
-"
-RecentSearches
-"
-;
-}
 /
 *
 *

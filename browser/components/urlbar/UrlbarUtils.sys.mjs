@@ -3803,7 +3803,7 @@ providerName
 {
 case
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 :
 return
@@ -3815,7 +3815,7 @@ HEURISTIC_ENGINE_ALIAS
 ;
 case
 "
-Autofill
+UrlbarProviderAutofill
 "
 :
 return
@@ -3827,7 +3827,7 @@ HEURISTIC_AUTOFILL
 ;
 case
 "
-BookmarkKeywords
+UrlbarProviderBookmarkKeywords
 "
 :
 return
@@ -3839,7 +3839,7 @@ HEURISTIC_BOOKMARK_KEYWORD
 ;
 case
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 :
 return
@@ -3851,7 +3851,19 @@ HEURISTIC_FALLBACK
 ;
 case
 "
-Omnibox
+UrlbarProviderHistoryUrlHeuristic
+"
+:
+return
+this
+.
+RESULT_GROUP
+.
+HEURISTIC_HISTORY_URL
+;
+case
+"
+UrlbarProviderOmnibox
 "
 :
 return
@@ -3863,7 +3875,7 @@ HEURISTIC_OMNIBOX
 ;
 case
 "
-RestrictKeywordsAutofill
+UrlbarProviderRestrictKeywordsAutofill
 "
 :
 return
@@ -3875,7 +3887,7 @@ HEURISTIC_RESTRICT_KEYWORD_AUTOFILL
 ;
 case
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 :
 return
@@ -3896,18 +3908,6 @@ this
 RESULT_GROUP
 .
 HEURISTIC_SEARCH_TIP
-;
-case
-"
-HistoryUrlHeuristic
-"
-:
-return
-this
-.
-RESULT_GROUP
-.
-HEURISTIC_HISTORY_URL
 ;
 default
 :
@@ -3991,7 +3991,7 @@ providerName
 {
 case
 "
-AboutPages
+UrlbarProviderAboutPages
 "
 :
 return
@@ -4003,7 +4003,7 @@ ABOUT_PAGES
 ;
 case
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 :
 return
@@ -4065,7 +4065,7 @@ providerName
 =
 =
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 ?
 this
@@ -7537,13 +7537,13 @@ providers
 :
 [
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 "
-BookmarkKeywords
+UrlbarProviderBookmarkKeywords
 "
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 ]
 }
@@ -8841,7 +8841,7 @@ providerName
 =
 =
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 )
 {
@@ -8879,7 +8879,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -9099,7 +9099,7 @@ providerName
 =
 =
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 )
 {
@@ -9178,7 +9178,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -10290,7 +10290,7 @@ providerName
 !
 =
 "
-Omnibox
+UrlbarProviderOmnibox
 "
 )
 {
@@ -10324,7 +10324,7 @@ providerName
 =
 =
 "
-SemanticHistorySearch
+UrlbarProviderSemanticHistorySearch
 "
 )
 {
@@ -10395,7 +10395,7 @@ providerName
 {
 case
 "
-calculator
+UrlbarProviderCalculator
 "
 :
 return
@@ -10405,7 +10405,7 @@ calc
 ;
 case
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 :
 return
@@ -10415,7 +10415,7 @@ tab_to_search
 ;
 case
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 :
 return
@@ -10516,7 +10516,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -10547,7 +10547,7 @@ providerName
 =
 =
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 ?
 "

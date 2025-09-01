@@ -952,7 +952,7 @@ result
 .
 providerName
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;

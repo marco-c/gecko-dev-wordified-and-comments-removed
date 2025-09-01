@@ -393,7 +393,7 @@ await
 selectRowByProvider
 (
 "
-Places
+UrlbarProviderPlaces
 "
 )
 ;

@@ -581,7 +581,7 @@ await
 selectRowByProvider
 (
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;
@@ -978,7 +978,7 @@ await
 selectRowByProvider
 (
 "
-RemoteTabs
+UrlbarProviderRemoteTabs
 "
 )
 ;
@@ -1481,7 +1481,7 @@ await
 selectRowByProvider
 (
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 )
 ;

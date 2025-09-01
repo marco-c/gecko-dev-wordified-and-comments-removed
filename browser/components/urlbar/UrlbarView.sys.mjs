@@ -2363,7 +2363,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 &
 &
@@ -5725,7 +5725,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 &
 &
@@ -14429,7 +14429,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -14455,7 +14455,7 @@ providerName
 =
 =
 "
-SemanticHistorySearch
+UrlbarProviderSemanticHistorySearch
 "
 )
 {
@@ -14483,7 +14483,7 @@ providerName
 =
 =
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 )
 {
@@ -15106,7 +15106,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 {
@@ -15622,7 +15622,7 @@ providerName
 =
 =
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 ;
@@ -18363,7 +18363,7 @@ providerName
 =
 =
 "
-RecentSearches
+UrlbarProviderRecentSearches
 "
 )
 {
@@ -21130,7 +21130,7 @@ providerName
 =
 =
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 &
 &

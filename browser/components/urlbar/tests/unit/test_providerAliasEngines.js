@@ -136,7 +136,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -192,7 +192,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -250,7 +250,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -308,7 +308,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -366,7 +366,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -426,7 +426,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -486,7 +486,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )
@@ -546,7 +546,7 @@ true
 providerName
 :
 "
-AliasEngines
+UrlbarProviderAliasEngines
 "
 }
 )

@@ -196,17 +196,6 @@ super
 )
 ;
 }
-get
-name
-(
-)
-{
-return
-"
-RestrictKeywords
-"
-;
-}
 /
 *
 *

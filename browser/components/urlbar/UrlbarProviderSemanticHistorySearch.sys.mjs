@@ -524,17 +524,6 @@ lazy
 semanticManager
 ;
 }
-get
-name
-(
-)
-{
-return
-"
-SemanticHistorySearch
-"
-;
-}
 /
 *
 *

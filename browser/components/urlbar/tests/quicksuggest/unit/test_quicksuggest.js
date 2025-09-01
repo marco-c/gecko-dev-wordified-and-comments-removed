@@ -7289,7 +7289,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 satisfiesAutofillThreshold
 :

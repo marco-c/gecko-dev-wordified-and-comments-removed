@@ -440,7 +440,7 @@ result
 .
 providerName
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;
@@ -624,7 +624,7 @@ heuristicResult
 .
 providerName
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 ;
@@ -650,7 +650,7 @@ richResult
 .
 providerName
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;
