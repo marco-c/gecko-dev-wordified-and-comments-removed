@@ -648,10 +648,6 @@ clock
 rtp_rtcp_
 (
 env
-RtpRtcpInterface
-:
-:
-Configuration
 {
 .
 audio
