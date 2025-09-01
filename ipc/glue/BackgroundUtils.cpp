@@ -4966,16 +4966,6 @@ loadInfoArgs
 integrityMetadata
 (
 )
-loadInfoArgs
-.
-hasValidUserGestureActivation
-(
-)
-loadInfoArgs
-.
-textDirectiveUserActivation
-(
-)
 false
 loadInfoArgs
 .
