@@ -2587,14 +2587,6 @@ join
 (
 )
 }
-appStore
-.
-dispatch
-(
-ShortcutAction
-.
-ShortcutRemoved
-)
 }
 }
 is

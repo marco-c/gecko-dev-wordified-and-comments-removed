@@ -1973,16 +1973,6 @@ topSite
 =
 topSite
 )
-appStore
-.
-dispatch
-(
-AppAction
-.
-ShortcutAction
-.
-ShortcutRemoved
-)
 onDismiss
 (
 )
