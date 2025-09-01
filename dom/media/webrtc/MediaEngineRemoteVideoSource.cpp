@@ -2813,7 +2813,7 @@ cw
 ?
 cw
 :
-mImageSize
+mScaledImageSize
 .
 width
 .
@@ -2823,7 +2823,7 @@ ch
 ?
 ch
 :
-mImageSize
+mScaledImageSize
 .
 height
 .
@@ -4078,7 +4078,7 @@ renderTimeMs
 endif
 if
 (
-mImageSize
+mScaledImageSize
 !
 =
 dstSize
@@ -4180,7 +4180,7 @@ kStarted
 VideoSegment
 segment
 ;
-mImageSize
+mScaledImageSize
 =
 image
 -
@@ -4198,7 +4198,7 @@ image
 forget
 (
 )
-mImageSize
+mScaledImageSize
 mPrincipal
 false
 TimeStamp

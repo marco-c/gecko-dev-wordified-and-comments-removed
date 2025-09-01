@@ -594,7 +594,7 @@ gfx
 :
 :
 IntSize
-mImageSize
+mScaledImageSize
 =
 gfx
 :
