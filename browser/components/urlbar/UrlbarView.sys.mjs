@@ -421,6 +421,7 @@ button
 [
 selectable
 ]
+a
 "
 ;
 const
@@ -444,6 +445,7 @@ inaccessible
 [
 selectable
 ]
+a
 "
 ;
 const
@@ -17005,15 +17007,6 @@ if
 learnMoreLink
 )
 {
-learnMoreLink
-.
-toggleAttribute
-(
-"
-selectable
-"
-)
-;
 learnMoreLink
 .
 dataset
