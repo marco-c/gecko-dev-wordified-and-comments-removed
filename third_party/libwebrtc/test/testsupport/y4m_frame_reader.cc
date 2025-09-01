@@ -151,7 +151,7 @@ RTC_CHECK
 file
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -182,7 +182,7 @@ file
 )
 !
 =
-NULL
+nullptr
 )
 <
 <

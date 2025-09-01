@@ -143,7 +143,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 headers_only_file_
@@ -368,7 +368,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }

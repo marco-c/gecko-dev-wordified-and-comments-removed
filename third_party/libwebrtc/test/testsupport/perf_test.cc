@@ -1514,7 +1514,7 @@ if
 output
 =
 =
-NULL
+nullptr
 )
 {
 printf

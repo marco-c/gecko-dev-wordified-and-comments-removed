@@ -138,7 +138,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 test
@@ -237,7 +237,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 <
 <
@@ -289,7 +289,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 test

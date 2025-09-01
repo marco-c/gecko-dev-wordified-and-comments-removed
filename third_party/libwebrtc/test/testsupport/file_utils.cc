@@ -1765,7 +1765,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 if

@@ -92,7 +92,7 @@ max_frame_size
 :
 callback_
 (
-NULL
+nullptr
 )
 current_frame_size_
 (

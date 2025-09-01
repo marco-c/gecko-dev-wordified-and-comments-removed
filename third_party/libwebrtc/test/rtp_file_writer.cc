@@ -105,7 +105,7 @@ RTC_CHECK
 file_
 !
 =
-NULL
+nullptr
 )
 ;
 Init
@@ -124,7 +124,7 @@ if
 file_
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -134,7 +134,7 @@ file_
 ;
 file_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -537,7 +537,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -564,7 +564,7 @@ c_str
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 switch
@@ -589,7 +589,7 @@ file
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }

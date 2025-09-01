@@ -57,7 +57,7 @@ false
 )
 buffer_
 (
-NULL
+nullptr
 )
 width_
 (
@@ -123,7 +123,7 @@ buffer_
 ;
 buffer_
 =
-NULL
+nullptr
 ;
 glDeleteTextures
 (

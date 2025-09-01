@@ -67,7 +67,7 @@ if
 glx_renderer
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -75,7 +75,7 @@ glx_renderer
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 }
