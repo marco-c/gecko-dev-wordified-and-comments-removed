@@ -138,10 +138,10 @@ video_capture
 .
 h
 index
-70af8f3b05
+d0873f8105
 .
 .
-c9d277d69d
+b7e2587dc8
 100644
 -
 -
@@ -168,10 +168,10 @@ video_capture
 .
 h
 -
-154
+158
 6
 +
-154
+158
 9
 class
 VideoCaptureModule
