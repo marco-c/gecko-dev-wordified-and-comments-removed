@@ -574,9 +574,13 @@ house
 |
 building
 )
+[
 \
 \
 s
+\
+-
+]
 *
 number
 |
