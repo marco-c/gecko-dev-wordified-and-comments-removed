@@ -177,6 +177,13 @@ html
 ]
 [
 "
+browser_preview_tab_unload
+.
+js
+"
+]
+[
+"
 browser_print_bcg_id_overflow
 .
 js
