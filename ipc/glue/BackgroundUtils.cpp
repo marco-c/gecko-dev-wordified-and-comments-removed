@@ -4969,11 +4969,6 @@ integrityMetadata
 false
 loadInfoArgs
 .
-requestMode
-(
-)
-loadInfoArgs
-.
 storagePermission
 (
 )
