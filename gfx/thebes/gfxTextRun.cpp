@@ -4942,10 +4942,6 @@ accumulatedMetrics
 mDescent
 ;
 }
-#
-define
-MEASUREMENT_BUFFER_SIZE
-100
 void
 gfxTextRun
 :
@@ -5466,6 +5462,12 @@ range
 "
 )
 ;
+constexpr
+uint32_t
+kMeasurementBufferSize
+=
+100
+;
 Range
 bufferRange
 (
@@ -5476,12 +5478,9 @@ std
 :
 :
 min
-<
-uint32_t
->
 (
 aMaxLength
-MEASUREMENT_BUFFER_SIZE
+kMeasurementBufferSize
 )
 )
 ;
@@ -5491,7 +5490,7 @@ PropertyProvider
 Spacing
 spacingBuffer
 [
-MEASUREMENT_BUFFER_SIZE
+kMeasurementBufferSize
 ]
 ;
 bool
@@ -5813,7 +5812,7 @@ aStart
 aMaxLength
 i
 +
-MEASUREMENT_BUFFER_SIZE
+kMeasurementBufferSize
 )
 ;
 if
