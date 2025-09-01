@@ -2981,9 +2981,9 @@ publicSuffixList
 isPublicSuffix
 (
 "
-research
+researched
 .
-museum
+cx
 "
 )
 .
