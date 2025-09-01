@@ -1360,6 +1360,20 @@ head_ref
 12
 ]
         
+cur_ref_file
+=
+cur_ref
+.
+replace
+(
+"
+/
+"
+"
+_
+"
+)
+        
 diffdir
 =
 tempfile
@@ -1407,7 +1421,7 @@ graph_attr
 }
 _
 {
-cur_ref
+cur_ref_file
 }
 "
         
@@ -1817,6 +1831,20 @@ diff
 "
 ]
         
+base_ref_file
+=
+base_ref
+.
+replace
+(
+"
+/
+"
+"
+_
+"
+)
+        
 try
 :
             
@@ -1864,7 +1892,7 @@ graph_attr
 }
 _
 {
-base_ref
+base_ref_file
 }
 "
             
