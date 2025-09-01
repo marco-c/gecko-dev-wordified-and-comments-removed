@@ -2759,9 +2759,9 @@ c
 (
 ast
 .
-Str
+Constant
 (
-s
+value
 =
 node
 .
@@ -7350,7 +7350,7 @@ slice
 value
 ast
 .
-Str
+Constant
 )
                     
 key
@@ -7361,7 +7361,7 @@ slice
 .
 value
 .
-s
+value
             
 elif
 isinstance
@@ -7429,13 +7429,13 @@ isinstance
 v
 ast
 .
-Str
+Constant
 )
                     
 yield
 v
 .
-s
+value
             
 else
 :
@@ -7446,13 +7446,13 @@ isinstance
 value
 ast
 .
-Str
+Constant
 )
                 
 yield
 value
 .
-s
+value
         
 assignments
 =

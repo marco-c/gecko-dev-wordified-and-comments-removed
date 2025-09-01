@@ -2816,15 +2816,6 @@ ast
 .
 Constant
 )
-and
-not
-isinstance
-(
-f
-ast
-.
-Str
-)
 :
                 
 log
@@ -2857,22 +2848,9 @@ return
         
 return
 [
-            
 f
 .
 value
-if
-isinstance
-(
-f
-ast
-.
-Constant
-)
-else
-f
-.
-s
 for
 f
 in
@@ -2881,7 +2859,6 @@ node
 value
 .
 elts
-        
 ]
     
 elif
