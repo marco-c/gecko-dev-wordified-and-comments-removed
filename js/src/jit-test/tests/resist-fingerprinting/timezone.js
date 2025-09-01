@@ -133,9 +133,9 @@ global
 newGlobal
 (
 {
-forceUTC
+timeZone
 :
-true
+SPOOFED_TZ_NAME
 }
 )
 ;
