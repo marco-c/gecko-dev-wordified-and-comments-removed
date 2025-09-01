@@ -29404,6 +29404,9 @@ goblin
 libc
 "
 "
+log
+"
+"
 mach2
 "
 "
