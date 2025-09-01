@@ -243,6 +243,16 @@ dataSubmissionPolicyBypassNotification
 True
                 
 "
+datareporting
+.
+usage
+.
+uploadEnabled
+"
+:
+True
+                
+"
 toolkit
 .
 telemetry
