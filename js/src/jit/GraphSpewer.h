@@ -184,6 +184,11 @@ funcIndex
 )
 ;
 void
+beginAnonFunction
+(
+)
+;
+void
 spewPass
 (
 const
@@ -213,10 +218,6 @@ UniqueGraphSpewer
 UniquePtr
 <
 GraphSpewer
-JS
-:
-:
-FreePolicy
 >
 ;
 }

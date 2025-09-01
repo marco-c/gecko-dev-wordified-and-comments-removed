@@ -513,12 +513,6 @@ wasm
 Decoder
 *
 decoder
-jit
-:
-:
-IonPerfSpewer
-*
-spewer
 )
 ;
 [
@@ -1984,9 +1978,6 @@ endif
 IonScriptCounts
 *
 scriptCounts_
-;
-IonPerfSpewer
-perfSpewer_
 ;
 mozilla
 :
