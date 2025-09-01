@@ -144,7 +144,7 @@ DeviceInfoImpl
 :
 _lastUsedDeviceName
 (
-NULL
+nullptr
 )
 _lastUsedDeviceNameLength
 (

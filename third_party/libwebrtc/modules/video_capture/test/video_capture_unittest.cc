@@ -899,7 +899,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 return
 nullptr
@@ -1088,7 +1088,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 VideoCaptureCapability
@@ -1322,7 +1322,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 int
@@ -1688,7 +1688,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 VideoCaptureCapability
@@ -1782,7 +1782,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 VideoCaptureCapability
@@ -2040,7 +2040,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 VideoCaptureCapability
@@ -2097,7 +2097,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 capture_observer2

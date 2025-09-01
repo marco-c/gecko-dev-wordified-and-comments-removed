@@ -126,10 +126,10 @@ video_capture_v4l2
 .
 cc
 index
-dedbf68170
+b56a06f14b
 .
 .
-6b9da40aa3
+4c128cc7be
 100644
 -
 -
@@ -197,7 +197,7 @@ false
 )
 _pool
 (
-NULL
+nullptr
 )
 {
 }

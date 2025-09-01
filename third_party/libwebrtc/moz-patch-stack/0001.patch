@@ -8580,10 +8580,10 @@ device_info_impl
 .
 cc
 index
-dc49d8abb9
+1d3e3ee89e
 .
 .
-ba69a46334
+97039646f7
 100644
 -
 -
@@ -11165,10 +11165,10 @@ video_capture_impl
 .
 cc
 index
-eace423634
+6e205a215f
 .
 .
-d2cf053aa9
+98bf0c78cf
 100644
 -
 -
@@ -11224,11 +11224,11 @@ TimeNanos
 -
 _dataCallBack
 (
-NULL
+nullptr
 )
 _rawDataCallBack
 (
-NULL
+nullptr
 )
 _lastProcessFrameTimeNanos
 (
@@ -11406,7 +11406,7 @@ api_lock_
 -
 _dataCallBack
 =
-NULL
+nullptr
 ;
 +
 auto
@@ -11444,7 +11444,7 @@ it
 }
 _rawDataCallBack
 =
-NULL
+nullptr
 ;
 }
 +

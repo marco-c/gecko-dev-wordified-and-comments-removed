@@ -743,10 +743,10 @@ video_capture_v4l2
 .
 cc
 index
-33aa452a07
+243656e782
 .
 .
-ccb6b79630
+882928dcbb
 100644
 -
 -
@@ -1055,8 +1055,8 @@ _deviceFd
 1
 &
 rSet
-NULL
-NULL
+nullptr
+nullptr
 &
 timeout
 )
