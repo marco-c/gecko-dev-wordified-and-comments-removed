@@ -1264,6 +1264,9 @@ section
 const
 {
 responsiveLayouts
+name
+:
+layoutName
 }
 =
 section
@@ -1315,6 +1318,9 @@ sectionPosition
 is_section_followed
 :
 following
+layout_name
+:
+layoutName
 }
 }
 )
@@ -1326,6 +1332,7 @@ dispatch
 sectionKey
 sectionPosition
 following
+layoutName
 ]
 )
 ;
@@ -2474,6 +2481,11 @@ sectionFollowed
 =
 {
 following
+}
+sectionLayoutName
+=
+{
+layoutName
 }
 isTimeSensitive
 =

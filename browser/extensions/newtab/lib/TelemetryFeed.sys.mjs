@@ -4536,6 +4536,7 @@ firstVisibleTimestamp
 format
 is_list_card
 is_section_followed
+layout_name
 matches_selected_topic
 received_rank
 recommendation_id
@@ -4699,6 +4700,7 @@ section
 section
 section_position
 is_section_followed
+layout_name
 }
 :
 {
@@ -8096,6 +8098,7 @@ section
 section_position
 event_source
 is_section_followed
+layout_name
 }
 =
 action
@@ -8245,6 +8248,7 @@ session_id
 section
 section_position
 is_section_followed
+layout_name
 }
 )
 )
@@ -9853,6 +9857,11 @@ is_section_followed
 tile
 .
 is_section_followed
+layout_name
+:
+tile
+.
+layout_name
 }
 :
 {

@@ -2237,6 +2237,13 @@ this
 props
 .
 sectionFollowed
+layout_name
+:
+this
+.
+props
+.
+sectionLayoutName
 }
 :
 {
@@ -5442,6 +5449,13 @@ this
 props
 .
 sectionFollowed
+sectionLayoutName
+:
+this
+.
+props
+.
+sectionLayoutName
 }
 :
 {

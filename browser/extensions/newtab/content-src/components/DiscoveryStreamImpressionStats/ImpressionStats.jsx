@@ -855,6 +855,11 @@ is_section_followed
 link
 .
 is_section_followed
+layout_name
+:
+link
+.
+sectionLayoutName
 }
 :
 {
