@@ -393,7 +393,16 @@ border
 -
 radius
 :
-1000px
+var
+(
+-
+-
+border
+-
+radius
+-
+circle
+)
 ;
 width
 :
