@@ -2839,6 +2839,7 @@ IgnoreErrors
 aOptions
 .
 mHistory
+true
 )
 ;
 if
