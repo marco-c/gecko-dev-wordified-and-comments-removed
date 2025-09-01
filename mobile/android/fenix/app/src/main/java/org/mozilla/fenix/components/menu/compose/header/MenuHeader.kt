@@ -406,7 +406,7 @@ Alignment
 CenterVertically
 )
 {
-MozillaAccountMenuButton
+MozillaAccountMenuItem
 (
 account
 =
@@ -417,6 +417,9 @@ accountState
 onClick
 =
 onMozillaAccountButtonClick
+isPrivate
+=
+false
 modifier
 =
 Modifier
