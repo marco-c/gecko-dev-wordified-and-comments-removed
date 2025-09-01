@@ -368,6 +368,8 @@ Maybe
 uint32_t
 >
 numNewSlotsOffset
+bool
+preserveWrapper
 )
 ;
 template
