@@ -67,7 +67,9 @@ settings
 .
 address
 .
-view
+ui
+.
+list
 import
 androidx
 .
