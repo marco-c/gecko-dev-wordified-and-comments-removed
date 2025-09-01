@@ -2106,6 +2106,18 @@ true
 -
 >
 {
+if
+(
+!
+appStore
+.
+state
+.
+searchState
+.
+isSearchActive
+)
+{
 bookmarksSearchEngine
 ?
 .
@@ -2138,6 +2150,7 @@ SearchStarted
 (
 )
 )
+}
 }
 false
 -
