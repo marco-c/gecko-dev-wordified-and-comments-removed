@@ -5055,13 +5055,6 @@ Qunused
 -
 arguments
 "
-            
-"
--
-D_GLIBCXX_USE_CXX11_ABI
-=
-0
-"
         
 ]
         
