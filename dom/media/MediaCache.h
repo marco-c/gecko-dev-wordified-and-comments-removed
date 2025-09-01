@@ -763,8 +763,6 @@ FlushPartialBlockInternal
 (
 AutoLock
 &
-bool
-aNotifyAll
 )
 ;
 void
