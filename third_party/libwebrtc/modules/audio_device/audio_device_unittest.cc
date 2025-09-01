@@ -2628,9 +2628,6 @@ testing
 :
 TestWithParam
 <
-webrtc
-:
-:
 AudioDeviceModule
 :
 :
