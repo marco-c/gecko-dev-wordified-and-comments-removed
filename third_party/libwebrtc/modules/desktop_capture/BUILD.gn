@@ -1078,6 +1078,13 @@ rc
 "
 win
 /
+full_screen_win_application_handler_unittest
+.
+cc
+"
+"
+win
+/
 screen_capture_utils_unittest
 .
 cc
