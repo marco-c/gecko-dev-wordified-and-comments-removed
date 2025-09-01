@@ -80,6 +80,15 @@ types
 h
 '
 ]
+DEFINES
+[
+'
+WEBP_USE_THREAD
+'
+]
+=
+1
+;
 DIRS
 +
 =
