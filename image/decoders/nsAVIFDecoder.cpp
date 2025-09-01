@@ -602,7 +602,7 @@ mozFlip
 }
 ;
 }
-bool
+nsresult
 AVIFDecoderStream
 :
 :
@@ -650,7 +650,7 @@ size
 )
 {
 return
-false
+NS_ERROR_DOM_MEDIA_RANGE_ERR
 ;
 }
 memcpy
@@ -673,7 +673,7 @@ bytes_read
 size
 ;
 return
-true
+NS_OK
 ;
 }
 bool

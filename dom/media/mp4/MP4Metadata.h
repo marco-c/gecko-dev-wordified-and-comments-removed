@@ -166,7 +166,7 @@ StreamAdaptor
 =
 default
 ;
-bool
+nsresult
 Read
 (
 uint8_t

@@ -972,7 +972,7 @@ aStream
 )
 ;
 }
-bool
+nsresult
 ReadAt
 (
 int64_t
@@ -1001,7 +1001,7 @@ bytes_read
 )
 ;
 }
-bool
+nsresult
 CachedReadAt
 (
 int64_t
@@ -1541,7 +1541,7 @@ mSource
 size_t
 read
 ;
-bool
+nsresult
 rv
 =
 stream
@@ -1569,8 +1569,10 @@ read
 ;
 if
 (
-!
+NS_FAILED
+(
 rv
+)
 |
 |
 read

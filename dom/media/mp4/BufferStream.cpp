@@ -81,7 +81,7 @@ BufferStream
 =
 default
 ;
-bool
+nsresult
 BufferStream
 :
 :
@@ -119,7 +119,7 @@ Length
 )
 {
 return
-false
+NS_ERROR_DOM_MEDIA_RANGE_ERR
 ;
 }
 *
@@ -164,10 +164,10 @@ aBytesRead
 )
 ;
 return
-true
+NS_OK
 ;
 }
-bool
+nsresult
 BufferStream
 :
 :

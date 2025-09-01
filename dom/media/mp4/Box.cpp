@@ -299,7 +299,8 @@ bytes
 ;
 if
 (
-!
+NS_FAILED
+(
 mContext
 -
 >
@@ -316,6 +317,7 @@ header
 )
 &
 bytes
+)
 )
 |
 |
@@ -421,7 +423,8 @@ bigLengthRange
 )
 |
 |
-!
+NS_FAILED
+(
 mContext
 -
 >
@@ -443,6 +446,7 @@ bigLength
 )
 &
 bytes
+)
 )
 |
 |
@@ -774,7 +778,8 @@ bytesRead
 ;
 if
 (
-!
+NS_FAILED
+(
 mContext
 -
 >
@@ -794,6 +799,7 @@ Elements
 length
 &
 bytesRead
+)
 )
 |
 |
@@ -945,7 +951,8 @@ bytes
 ;
 if
 (
-!
+NS_FAILED
+(
 mContext
 -
 >
@@ -969,6 +976,7 @@ Length
 )
 &
 bytes
+)
 )
 |
 |
@@ -1146,7 +1154,8 @@ bytes
 ;
 if
 (
-!
+NS_FAILED
+(
 mContext
 -
 >
@@ -1160,6 +1169,7 @@ p
 length
 &
 bytes
+)
 )
 |
 |
