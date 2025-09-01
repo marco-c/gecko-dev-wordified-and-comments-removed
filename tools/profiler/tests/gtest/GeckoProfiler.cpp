@@ -13733,7 +13733,7 @@ FilePath
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 key
@@ -13750,18 +13750,11 @@ Format
 :
 :
 String
-MS
-:
-:
-Searchable
-:
-:
-NotSearchable
 )
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 key
@@ -13784,7 +13777,7 @@ Duration
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -13987,7 +13980,7 @@ UniqueString
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 key
@@ -14005,7 +13998,7 @@ SanitizedString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -21720,7 +21713,7 @@ string
 "
 )
 ;
-EXPECT_EQ_JSON
+EXPECT_TRUE
 (
 data
 [
@@ -21731,8 +21724,10 @@ data
 searchable
 "
 ]
-Bool
-false
+.
+isNull
+(
+)
 )
 ;
 ASSERT_TRUE

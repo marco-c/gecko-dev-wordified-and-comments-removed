@@ -2412,7 +2412,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 prefName
@@ -2430,7 +2430,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

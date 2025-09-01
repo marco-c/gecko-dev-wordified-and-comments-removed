@@ -1069,7 +1069,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 name
@@ -1088,7 +1088,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

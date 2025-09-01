@@ -6853,7 +6853,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 category
@@ -6871,7 +6871,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

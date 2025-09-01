@@ -16132,7 +16132,7 @@ name
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 name
@@ -16150,7 +16150,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -22954,7 +22954,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 Thread
@@ -22970,7 +22970,7 @@ Integer
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -22978,7 +22978,7 @@ Searchable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 Thread
@@ -22994,7 +22994,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -23222,7 +23222,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 Thread
@@ -23238,7 +23238,7 @@ Integer
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

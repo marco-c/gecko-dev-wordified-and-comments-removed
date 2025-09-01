@@ -189,7 +189,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 Name
@@ -204,7 +204,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

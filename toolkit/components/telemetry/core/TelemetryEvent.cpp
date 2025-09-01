@@ -547,7 +547,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 cat
@@ -565,7 +565,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -573,7 +573,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 met
@@ -591,7 +591,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -599,7 +599,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 obj
@@ -617,7 +617,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -625,7 +625,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 val
@@ -643,7 +643,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

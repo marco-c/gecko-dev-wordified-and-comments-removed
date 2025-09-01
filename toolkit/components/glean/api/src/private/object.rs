@@ -212,7 +212,7 @@ value
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -224,7 +224,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable

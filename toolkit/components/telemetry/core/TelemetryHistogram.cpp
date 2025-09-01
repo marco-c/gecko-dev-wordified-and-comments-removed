@@ -6340,7 +6340,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 id
@@ -6359,7 +6359,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

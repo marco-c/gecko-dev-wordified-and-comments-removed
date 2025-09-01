@@ -45,12 +45,12 @@ MarkerSchema_Format
 ;
 pub
 type
-Searchable
+PayloadFlags
 =
 mozilla
 :
 :
-MarkerSchema_Searchable
+MarkerSchema_PayloadFlags
 ;
 pub
 struct
@@ -446,7 +446,7 @@ self
 }
 pub
 fn
-add_key_format_searchable
+add_key_format_with_flags
 (
 &
 mut
@@ -458,9 +458,9 @@ str
 format
 :
 Format
-searchable
+payload_flags
 :
-Searchable
+PayloadFlags
 )
 -
 >
@@ -473,7 +473,7 @@ unsafe
 bindings
 :
 :
-gecko_profiler_marker_schema_add_key_format_searchable
+gecko_profiler_marker_schema_add_key_format_with_flags
 (
 self
 .
@@ -493,7 +493,7 @@ len
 (
 )
 format
-searchable
+payload_flags
 )
 ;
 }
@@ -501,7 +501,7 @@ self
 }
 pub
 fn
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 &
 mut
@@ -517,9 +517,9 @@ str
 format
 :
 Format
-searchable
+payload_flags
 :
-Searchable
+PayloadFlags
 )
 -
 >
@@ -532,7 +532,7 @@ unsafe
 bindings
 :
 :
-gecko_profiler_marker_schema_add_key_label_format_searchable
+gecko_profiler_marker_schema_add_key_label_format_with_flags
 (
 self
 .
@@ -566,7 +566,7 @@ len
 (
 )
 format
-searchable
+payload_flags
 )
 ;
 }

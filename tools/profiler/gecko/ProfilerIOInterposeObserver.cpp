@@ -206,7 +206,7 @@ TimelineFileIO
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 operation
@@ -224,7 +224,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -232,7 +232,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 source
@@ -250,7 +250,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -258,7 +258,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 filename
@@ -276,7 +276,7 @@ FilePath
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -284,7 +284,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 threadId
@@ -303,7 +303,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

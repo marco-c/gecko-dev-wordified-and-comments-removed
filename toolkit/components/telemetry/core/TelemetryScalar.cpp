@@ -730,7 +730,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 id
@@ -749,7 +749,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -757,7 +757,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 key
@@ -775,7 +775,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -783,7 +783,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 scalarType
@@ -801,7 +801,7 @@ UniqueString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -809,7 +809,7 @@ Searchable
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 val
@@ -827,7 +827,7 @@ String
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
