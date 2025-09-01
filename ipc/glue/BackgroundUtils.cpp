@@ -4969,16 +4969,6 @@ integrityMetadata
 false
 loadInfoArgs
 .
-isInDevToolsContext
-(
-)
-loadInfoArgs
-.
-parserCreatedScript
-(
-)
-loadInfoArgs
-.
 requestMode
 (
 )
