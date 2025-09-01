@@ -1124,6 +1124,12 @@ visibility
 .
 .
 :
+audio_processing
+"
+"
+.
+.
+:
 gain_controller2
 "
 "
