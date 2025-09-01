@@ -411,6 +411,13 @@ js
 ]
 [
 "
+browser_fullscreen_notification
+.
+js
+"
+]
+[
+"
 browser_fullscreen_permissions_prompt
 .
 js
