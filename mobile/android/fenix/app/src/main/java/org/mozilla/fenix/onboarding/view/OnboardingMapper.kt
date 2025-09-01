@@ -1222,6 +1222,9 @@ onNotificationPermissionButtonClick
 -
 >
 Unit
+=
+{
+}
 onNotificationPermissionSkipClick
 :
 (
@@ -1229,6 +1232,9 @@ onNotificationPermissionSkipClick
 -
 >
 Unit
+=
+{
+}
 onAddFirefoxWidgetClick
 :
 (
@@ -1257,6 +1263,9 @@ onCustomizeThemeClick
 -
 >
 Unit
+=
+{
+}
 onTermsOfServiceButtonClick
 :
 (
