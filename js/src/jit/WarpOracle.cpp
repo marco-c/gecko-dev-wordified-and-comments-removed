@@ -6618,6 +6618,7 @@ TrialInliner
 :
 canInline
 (
+cx_
 targetScript
 script_
 loc
