@@ -1265,6 +1265,16 @@ libasound2
 i386
 '
 )
+apt_packages
++
+=
+(
+'
+libnotify4
+:
+i386
+'
+)
 apt
 -
 get
