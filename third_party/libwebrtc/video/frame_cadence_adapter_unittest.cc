@@ -7887,9 +7887,6 @@ ZeroHertzQueueOverloadTest
 QueueOverloadIsDisabledForZeroHerzWhenKillSwitchIsEnabled
 )
 {
-webrtc
-:
-:
 test
 :
 :

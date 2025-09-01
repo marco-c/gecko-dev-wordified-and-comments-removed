@@ -1776,9 +1776,6 @@ BandwidthEndToEndTest
 ReportsSetEncoderRates
 )
 {
-webrtc
-:
-:
 test
 :
 :

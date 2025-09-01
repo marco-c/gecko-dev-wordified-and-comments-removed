@@ -7840,9 +7840,6 @@ LoggedRtpStreamView
 =
 default
 ;
-webrtc
-:
-:
 RtpHeaderExtensionMap
 ParsedRtcEventLog
 :
@@ -7905,9 +7902,6 @@ kDependencyDescriptorDefaultId
 =
 9
 ;
-webrtc
-:
-:
 RtpHeaderExtensionMap
 default_map
 (

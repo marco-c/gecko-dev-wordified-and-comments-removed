@@ -2288,9 +2288,6 @@ payload_type
 VideoCodecType
 video_codec
 const
-webrtc
-:
-:
 CodecParameterMap
 &
 codec_params

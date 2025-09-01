@@ -1730,9 +1730,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 internal
 :
 :
@@ -1868,9 +1865,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 internal
 :
 :
@@ -3925,15 +3919,9 @@ PassesRotation
 )
 {
 const
-webrtc
-:
-:
 VideoRotation
 kRotation
 =
-webrtc
-:
-:
 kVideoRotation_180
 ;
 std

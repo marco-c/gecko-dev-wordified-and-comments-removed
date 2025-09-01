@@ -1338,9 +1338,6 @@ DtlsTransportStateEvent
 DtlsTransportState
 ConvertToProtoFormat
 (
-webrtc
-:
-:
 DtlsTransportState
 state
 )
@@ -1351,9 +1348,6 @@ state
 )
 {
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :
@@ -1369,9 +1363,6 @@ DtlsTransportStateEvent
 DTLS_TRANSPORT_NEW
 ;
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :
@@ -1387,9 +1378,6 @@ DtlsTransportStateEvent
 DTLS_TRANSPORT_CONNECTING
 ;
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :
@@ -1405,9 +1393,6 @@ DtlsTransportStateEvent
 DTLS_TRANSPORT_CONNECTED
 ;
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :
@@ -1423,9 +1408,6 @@ DtlsTransportStateEvent
 DTLS_TRANSPORT_CLOSED
 ;
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :
@@ -1441,9 +1423,6 @@ DtlsTransportStateEvent
 DTLS_TRANSPORT_FAILED
 ;
 case
-webrtc
-:
-:
 DtlsTransportState
 :
 :

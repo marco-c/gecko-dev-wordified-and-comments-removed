@@ -256,14 +256,6 @@ testing
 :
 Values
 ;
-using
-:
-:
-webrtc
-:
-:
-EncoderStreamFactory
-;
 struct
 CreateVideoStreamParams
 {
@@ -3180,9 +3172,6 @@ Values
 #
 ifdef
 RTC_ENABLE_H265
-webrtc
-:
-:
 kVideoCodecH265
 #
 endif

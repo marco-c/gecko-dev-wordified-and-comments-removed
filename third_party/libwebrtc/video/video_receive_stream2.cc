@@ -971,9 +971,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 ColorSpace
 >
 color_space
@@ -991,9 +988,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 VideoRotation
 >
 video_rotation
@@ -1081,9 +1075,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 ColorSpace
 >
 color_space_
@@ -1093,9 +1084,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 VideoRotation
 >
 video_rotation_
@@ -1191,9 +1179,6 @@ class
 NullVideoDecoder
 :
 public
-webrtc
-:
-:
 VideoDecoder
 {
 public
@@ -1231,9 +1216,6 @@ int32_t
 Decode
 (
 const
-webrtc
-:
-:
 EncodedImage
 &
 input_image
@@ -1266,9 +1248,6 @@ WEBRTC_VIDEO_CODEC_OK
 int32_t
 RegisterDecodeCompleteCallback
 (
-webrtc
-:
-:
 DecodedImageCallback
 *
 callback
@@ -4102,9 +4081,6 @@ decode_timestamp
 )
 )
 ;
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -4271,9 +4247,6 @@ SetFrameDecryptor
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 frame_decryptor
@@ -5531,9 +5504,6 @@ frames
 .
 "
 ;
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -5758,9 +5728,6 @@ EncodedResolution
 pending_resolution
 ;
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -6421,9 +6388,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpSource
 >
 VideoReceiveStream2

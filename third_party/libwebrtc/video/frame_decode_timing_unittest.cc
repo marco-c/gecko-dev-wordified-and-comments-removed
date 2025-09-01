@@ -171,9 +171,6 @@ class
 FakeVCMTiming
 :
 public
-webrtc
-:
-:
 VCMTiming
 {
 public
@@ -189,9 +186,6 @@ FieldTrialsView
 &
 field_trials
 )
-:
-webrtc
-:
 :
 VCMTiming
 (

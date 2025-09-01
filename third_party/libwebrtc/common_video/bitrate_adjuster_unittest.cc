@@ -140,9 +140,6 @@ clock_
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :

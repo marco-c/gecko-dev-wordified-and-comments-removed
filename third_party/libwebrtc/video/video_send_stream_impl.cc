@@ -1347,9 +1347,6 @@ VideoCodecType
 kVideoCodecAV1
 )
 {
-webrtc
-:
-:
 FieldTrialParameter
 <
 int
@@ -1362,9 +1359,6 @@ bitrate
 0
 )
 ;
-webrtc
-:
-:
 ParseFieldTrial
 (
 {
@@ -1686,9 +1680,6 @@ field_trials
 {
 if
 (
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1699,9 +1690,6 @@ config
 rtp
 .
 extensions
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1929,9 +1917,6 @@ bitrate_allocation_callback_type
 Metronome
 *
 metronome
-webrtc
-:
-:
 VideoEncoderFactory
 :
 :
@@ -2941,9 +2926,6 @@ SetSource
 (
 VideoSourceInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *

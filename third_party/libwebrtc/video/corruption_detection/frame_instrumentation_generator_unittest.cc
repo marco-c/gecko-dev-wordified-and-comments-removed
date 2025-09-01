@@ -4011,9 +4011,6 @@ class
 TestBuffer
 :
 public
-webrtc
-:
-:
 I420Buffer
 {
 public
