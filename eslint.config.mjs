@@ -78,6 +78,8 @@ eslint
 config
 -
 prettier
+/
+flat
 "
 ;
 import

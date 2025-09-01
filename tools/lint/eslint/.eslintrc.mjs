@@ -86,13 +86,8 @@ default
 eslintPlugin
 .
 configs
-[
-"
-flat
-/
+.
 recommended
-"
-]
 languageOptions
 :
 {
