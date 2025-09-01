@@ -664,6 +664,13 @@ js
 ]
 [
 "
+test_reencrypt
+.
+js
+"
+]
+[
+"
 test_remote_recipes
 .
 js
