@@ -2616,8 +2616,13 @@ arguments
 -
 -
 chemspill
+"
+"
 -
-prio
+-
+chemspill
+-
+priority
 "
 ]
             
@@ -2629,6 +2634,14 @@ action
 :
 "
 store_true
+"
+                
+"
+dest
+"
+:
+"
+chemspill
 "
                 
 "
@@ -2662,7 +2675,7 @@ def
 try_config
 (
 self
-chemspill_prio
+chemspill
 *
 *
 kwargs
@@ -2670,18 +2683,18 @@ kwargs
 :
         
 if
-chemspill_prio
+chemspill
 :
             
 return
 {
 "
-chemspill
--
-prio
+priority
 "
 :
-True
+"
+low
+"
 }
 class
 GeckoProfile

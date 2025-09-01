@@ -15235,7 +15235,7 @@ transforms
 .
 add
 def
-try_task_config_chemspill_prio
+try_task_config_priority
 (
 config
 tasks
@@ -15245,28 +15245,18 @@ tasks
 "
 "
 "
-Increase
-the
+Change
 priority
-from
-lowest
-and
-very
--
-low
--
->
-low
-but
-leave
-others
-unchanged
+based
+on
+the
+try_task_config
 .
 "
 "
 "
     
-chemspill_prio
+priority
 =
 config
 .
@@ -15280,15 +15270,13 @@ try_task_config
 get
 (
 "
-chemspill
--
-prio
+priority
 "
 )
     
 if
 not
-chemspill_prio
+priority
 :
         
 yield
@@ -15303,29 +15291,6 @@ in
 tasks
 :
         
-if
-task
-.
-get
-(
-"
-priority
-"
-)
-in
-(
-None
-"
-lowest
-"
-"
-very
--
-low
-"
-)
-:
-            
 task
 [
 "
@@ -15333,9 +15298,7 @@ priority
 "
 ]
 =
-"
-low
-"
+priority
         
 yield
 task
