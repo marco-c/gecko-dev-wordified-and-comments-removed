@@ -14111,9 +14111,11 @@ pref_key_tab_manager_enhancements
 )
 default
 =
+{
 DefaultTabManagementFeatureHelper
 .
 enhancementsEnabled
+}
 )
 /
 *
