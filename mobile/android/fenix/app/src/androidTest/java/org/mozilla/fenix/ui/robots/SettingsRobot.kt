@@ -89,6 +89,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 core
 .
 net
@@ -5621,6 +5633,9 @@ Transition
 fun
 openAutofillSubMenu
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 SettingsSubMenuAutofillRobot
@@ -5759,6 +5774,7 @@ button
 }
 SettingsSubMenuAutofillRobot
 (
+composeTestRule
 )
 .
 interact
@@ -5769,6 +5785,7 @@ SettingsSubMenuAutofillRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

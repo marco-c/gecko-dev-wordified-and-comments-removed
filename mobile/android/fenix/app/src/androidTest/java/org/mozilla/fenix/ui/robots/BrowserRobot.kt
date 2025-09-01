@@ -12158,6 +12158,9 @@ Transition
 fun
 clickManageAddressButton
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 SettingsSubMenuAutofillRobot
@@ -12240,6 +12243,7 @@ window
 )
 SettingsSubMenuAutofillRobot
 (
+composeTestRule
 )
 .
 interact
@@ -12250,11 +12254,15 @@ SettingsSubMenuAutofillRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
 clickManageCreditCardsButton
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 SettingsSubMenuAutofillRobot
@@ -12339,6 +12347,7 @@ window
 )
 SettingsSubMenuAutofillRobot
 (
+composeTestRule
 )
 .
 interact
@@ -12349,6 +12358,7 @@ SettingsSubMenuAutofillRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
