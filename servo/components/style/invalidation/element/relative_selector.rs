@@ -1505,14 +1505,14 @@ bool
 if
 a
 .
-invalidation_kind
+relative_invalidation_kind
 (
 )
 !
 =
 b
 .
-invalidation_kind
+relative_invalidation_kind
 (
 )
 {
