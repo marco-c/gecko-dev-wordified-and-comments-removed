@@ -1379,11 +1379,6 @@ GetProxyDNSStrategy
 (
 )
 ;
-void
-AddStorageAccessHeadersToRequest
-(
-)
-;
 nsresult
 BeginConnect
 (
