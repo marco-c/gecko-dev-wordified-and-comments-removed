@@ -1912,6 +1912,14 @@ input
 queryContext
 .
 searchString
+attributes
+:
+{
+primary
+:
+"
+"
+}
 }
 {
 .
