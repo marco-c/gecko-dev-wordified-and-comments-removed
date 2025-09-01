@@ -328,6 +328,11 @@ isSignedIn
 =
 true
 ;
+await
+putServerInRemoteSettings
+(
+)
+;
 content
 .
 requestUpdate

@@ -1922,6 +1922,7 @@ creation
 .
 *
 /
+export
 class
 ProxyPass
 {
