@@ -212,11 +212,6 @@ nsAutoCString
 aType
 bool
 aIsInPrivateBrowsing
-uint32_t
-*
-aRejectedReason
-uint32_t
-aBlockedReason
 )
 ;
 static
