@@ -101,9 +101,9 @@ include
 "
 api
 /
-task_queue
+environment
 /
-default_task_queue_factory
+environment_factory
 .
 h
 "
@@ -857,12 +857,12 @@ CreateBuiltinAudioDecoderFactory
 ;
 config
 .
-task_queue_factory
+env
 =
 webrtc
 :
 :
-CreateDefaultTaskQueueFactory
+CreateEnvironment
 (
 )
 ;
@@ -875,6 +875,10 @@ webrtc
 :
 CreateJavaAudioDeviceModule
 (
+env
+*
+config
+.
 env
 application_context
 .
