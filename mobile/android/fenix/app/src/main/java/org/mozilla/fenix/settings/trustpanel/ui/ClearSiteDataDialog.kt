@@ -311,9 +311,6 @@ string
 .
 clear_site_data_dialog_positive_button_text
 )
-upperCaseText
-=
-false
 onClick
 =
 {
@@ -340,9 +337,6 @@ string
 .
 clear_site_data_dialog_negative_button_text
 )
-upperCaseText
-=
-false
 onClick
 =
 {

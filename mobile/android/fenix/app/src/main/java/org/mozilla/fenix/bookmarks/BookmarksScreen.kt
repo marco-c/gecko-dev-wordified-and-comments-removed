@@ -4216,9 +4216,6 @@ OpenTabsConfirmationDialogAction
 ConfirmTapped
 )
 }
-upperCaseText
-=
-false
 )
 }
 dismissButton
@@ -4248,9 +4245,6 @@ OpenTabsConfirmationDialogAction
 CancelTapped
 )
 }
-upperCaseText
-=
-false
 )
 }
 )

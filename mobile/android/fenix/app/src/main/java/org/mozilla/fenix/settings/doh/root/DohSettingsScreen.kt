@@ -2469,9 +2469,6 @@ onCustomAddClicked
 customProviderInput
 )
 }
-upperCaseText
-=
-false
 )
 }
 dismissButton
@@ -2492,9 +2489,6 @@ preference_doh_provider_custom_dialog_cancel
 onClick
 =
 onCustomCancelClicked
-upperCaseText
-=
-false
 )
 }
 )

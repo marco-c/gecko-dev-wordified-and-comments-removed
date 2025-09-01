@@ -1142,10 +1142,6 @@ string
 .
 bookmark_delete_negative
 )
-.
-uppercase
-(
-)
 )
 .
 performClick
@@ -2047,7 +2043,7 @@ composeTestRule
 onNodeWithText
 (
 "
-DELETE
+Delete
 "
 )
 .

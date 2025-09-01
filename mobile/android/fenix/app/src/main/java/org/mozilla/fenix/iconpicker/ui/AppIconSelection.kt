@@ -1427,9 +1427,6 @@ string
 .
 restart_warning_dialog_button_positive
 )
-upperCaseText
-=
-false
 onClick
 =
 {
@@ -1456,9 +1453,6 @@ string
 .
 restart_warning_dialog_button_negative
 )
-upperCaseText
-=
-false
 onClick
 =
 {

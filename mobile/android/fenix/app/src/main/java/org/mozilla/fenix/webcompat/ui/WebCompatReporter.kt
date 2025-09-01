@@ -1392,9 +1392,6 @@ WebCompatReporterAction
 CancelClicked
 )
 }
-upperCaseText
-=
-false
 )
 Spacer
 (
