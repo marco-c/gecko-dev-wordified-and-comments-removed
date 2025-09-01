@@ -13027,7 +13027,7 @@ reportAds
 .
 enabled
 "
-false
+true
 )
 ;
 pref
