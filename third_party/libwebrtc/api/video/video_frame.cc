@@ -1385,9 +1385,6 @@ VideoFrameBuffer
 >
 &
 buffer
-webrtc
-:
-:
 VideoRotation
 rotation
 int64_t

@@ -1460,9 +1460,6 @@ RTPVideoHeader
 video_header
 )
 {
-webrtc
-:
-:
 DependencyDescriptor
 dependency_descriptor
 ;

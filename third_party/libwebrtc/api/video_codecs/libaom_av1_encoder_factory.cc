@@ -706,9 +706,6 @@ Encode
 (
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 frame_buffer
@@ -1684,9 +1681,6 @@ bool
 ValidateEncodeParams
 (
 const
-webrtc
-:
-:
 VideoFrameBuffer
 &
 const
@@ -3435,9 +3429,6 @@ aom_svc_params_t
 GetSvcParams
 (
 const
-webrtc
-:
-:
 VideoFrameBuffer
 &
 frame_buffer
@@ -4027,9 +4018,6 @@ Encode
 (
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 frame_buffer
