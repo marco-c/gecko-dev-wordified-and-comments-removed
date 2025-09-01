@@ -5816,7 +5816,7 @@ allDownloads
 ;
 async
 function
-waitUntilScreenshot
+waitUntilDownload
 (
 {
 isWindowPrivate
@@ -6101,7 +6101,7 @@ Downloads
 const
 whenScreenshotSucceeded
 =
-waitUntilScreenshot
+waitUntilDownload
 (
 )
 ;
