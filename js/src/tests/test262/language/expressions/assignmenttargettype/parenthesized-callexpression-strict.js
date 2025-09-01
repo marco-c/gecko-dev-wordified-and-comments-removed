@@ -1,0 +1,17 @@
+'
+use
+strict
+'
+;
+DONOTEVALUATE
+(
+)
+;
+(
+f
+(
+)
+)
+=
+1
+;

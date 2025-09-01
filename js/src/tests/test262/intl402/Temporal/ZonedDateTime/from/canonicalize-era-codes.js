@@ -16,7 +16,7 @@ gregory
 era
 :
 "
-ce
+ad
 "
 eraYear
 :
@@ -46,11 +46,11 @@ date1
 .
 era
 "
-gregory
+ce
 "
 "
 '
-ce
+ad
 '
 is
 accepted
@@ -58,7 +58,7 @@ as
 alias
 for
 '
-gregory
+ce
 '
 "
 )
@@ -81,7 +81,7 @@ gregory
 era
 :
 "
-bce
+bc
 "
 eraYear
 :
@@ -114,13 +114,11 @@ date2
 .
 era
 "
-gregory
--
-inverse
+bce
 "
 "
 '
-bce
+bc
 '
 is
 accepted
@@ -128,9 +126,7 @@ as
 alias
 for
 '
-gregory
--
-inverse
+bce
 '
 "
 )

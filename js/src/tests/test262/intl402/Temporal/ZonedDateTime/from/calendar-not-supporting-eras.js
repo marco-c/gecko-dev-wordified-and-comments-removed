@@ -128,7 +128,7 @@ iso8601
 )
 ;
 const
-resultHebrew
+resultChinese
 =
 Temporal
 .
@@ -147,15 +147,15 @@ eraYear
 1
 year
 :
-5730
+1969
 monthCode
 :
 "
-M04
+M11
 "
 day
 :
-23
+24
 timeZone
 :
 "
@@ -164,7 +164,7 @@ UTC
 calendar
 :
 "
-hebrew
+chinese
 "
 }
 )
@@ -173,7 +173,7 @@ assert
 .
 sameValue
 (
-resultHebrew
+resultChinese
 .
 epochNanoseconds
 0n
@@ -189,7 +189,7 @@ not
 using
 eras
 (
-Hebrew
+Chinese
 )
 "
 )
@@ -198,11 +198,11 @@ assert
 .
 sameValue
 (
-resultHebrew
+resultChinese
 .
 calendarId
 "
-hebrew
+chinese
 "
 )
 ;
@@ -246,7 +246,7 @@ UTC
 calendar
 :
 "
-hebrew
+chinese
 "
 }
 )
@@ -263,7 +263,7 @@ not
 using
 eras
 (
-Hebrew
+Chinese
 )
 "
 )

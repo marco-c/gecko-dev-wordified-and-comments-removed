@@ -45,10 +45,10 @@ sameValue
 (
 result
 .
-timeZone
+timeZoneId
 orig
 .
-timeZone
+timeZoneId
 "
 time
 zone

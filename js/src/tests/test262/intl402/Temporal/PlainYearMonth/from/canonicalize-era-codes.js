@@ -16,7 +16,7 @@ gregory
 era
 :
 "
-ce
+ad
 "
 eraYear
 :
@@ -42,7 +42,7 @@ M01
 "
 "
 '
-ce
+ad
 '
 is
 accepted
@@ -50,11 +50,11 @@ as
 alias
 for
 '
-gregory
+ce
 '
 "
 "
-gregory
+ce
 "
 2024
 )
@@ -77,7 +77,7 @@ gregory
 era
 :
 "
-bce
+bc
 "
 eraYear
 :
@@ -105,7 +105,7 @@ M03
 "
 "
 '
-bce
+bc
 '
 is
 accepted
@@ -113,15 +113,11 @@ as
 alias
 for
 '
-gregory
--
-inverse
+bce
 '
 "
 "
-gregory
--
-inverse
+bce
 "
 44
 )

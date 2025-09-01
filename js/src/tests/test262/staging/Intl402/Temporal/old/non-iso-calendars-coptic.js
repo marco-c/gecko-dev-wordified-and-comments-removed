@@ -205,7 +205,7 @@ year2000
 era
 :
 "
-coptic
+am
 "
 eraYear
 :
@@ -231,13 +231,12 @@ year1
 era
 :
 "
-coptic
--
-inverse
+am
 "
 eraYear
 :
-284
+-
+283
 year
 :
 -
@@ -852,7 +851,7 @@ eraYear
 era
 :
 "
-coptic
+am
 "
 year
 :
@@ -902,7 +901,7 @@ eraYear
 era
 :
 "
-coptic
+am
 "
 year
 :
@@ -949,7 +948,7 @@ result
 era
 :
 "
-coptic
+am
 "
 eraYear
 :
@@ -1005,7 +1004,7 @@ result
 era
 :
 "
-coptic
+am
 "
 eraYear
 :
