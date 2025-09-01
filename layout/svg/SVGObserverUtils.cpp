@@ -2843,12 +2843,12 @@ expected
 if
 (
 !
-frame
--
->
-HasAnyStateBits
+SVGUtils
+:
+:
+OuterSVGIsCallingReflowSVG
 (
-NS_FRAME_IN_REFLOW
+frame
 )
 )
 {
