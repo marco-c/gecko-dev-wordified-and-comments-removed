@@ -653,6 +653,8 @@ double
 aProgress
 SMILCalcMode
 aCalcMode
+double
+aValueMultiplier
 )
 ;
 double
