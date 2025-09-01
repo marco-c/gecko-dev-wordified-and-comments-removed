@@ -1,8 +1,4 @@
 import
-cmakeparser
-as
-cp
-import
 copy
 import
 datetime
@@ -12,6 +8,14 @@ import
 re
 import
 subprocess
+import
+sys
+from
+mozcmakeparser
+import
+parse
+as
+cmake_parse
 AOM_DIR
 =
 '
@@ -52,12 +56,13 @@ now
 .
 year
     
-cp
-.
-parse
+cmake_parse
 (
 variables
 [
+]
+[
+AOM_DIR
 ]
 os
 .
@@ -72,13 +77,16 @@ build
 '
 cmake
 '
-          
+                
 '
 generate_aom_config_templates
 .
 cmake
 '
 )
+'
+libaom
+'
 )
     
 cache_variables
@@ -866,13 +874,14 @@ cache_variables
         
 sources
 =
-cp
-.
-parse
+cmake_parse
 (
 variables
 cache_variables
-                           
+[
+AOM_DIR
+]
+                              
 os
 .
 path
@@ -886,6 +895,9 @@ CMakeLists
 txt
 '
 )
+'
+libaom
+'
 )
         
 cache_variables
