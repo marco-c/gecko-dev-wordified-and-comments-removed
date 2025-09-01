@@ -861,11 +861,9 @@ const
 nsRect
 &
 aRect
-nscoord
+nsRectCornerRadii
+&
 aRadii
-[
-8
-]
 )
 {
 return
@@ -1509,11 +1507,8 @@ rect
 aRefBox
 )
 ;
-nscoord
+nsRectCornerRadii
 appUnitsRadii
-[
-8
-]
 ;
 const
 bool
@@ -1539,6 +1534,7 @@ BuildRectPath
 insetRect
 hasRadii
 ?
+&
 appUnitsRadii
 :
 nullptr
@@ -1565,11 +1561,9 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
+*
 aRadii
-[
-8
-]
 const
 nsRect
 &
@@ -1613,6 +1607,7 @@ nsCSSRendering
 :
 ComputePixelRadii
 (
+*
 aRadii
 aAppUnitsPerPixel
 &

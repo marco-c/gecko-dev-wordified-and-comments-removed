@@ -2495,11 +2495,8 @@ nsRect
 &
 aRoundedRect
 const
-nscoord
-aRadii
-[
-8
-]
+nsRectCornerRadii
+&
 const
 nsRect
 &
@@ -2533,11 +2530,8 @@ nsRect
 &
 aRoundedRect
 const
-nscoord
-aRadii
-[
-8
-]
+nsRectCornerRadii
+&
 const
 nsRect
 &
