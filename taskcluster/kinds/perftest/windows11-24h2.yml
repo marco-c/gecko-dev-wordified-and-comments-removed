@@ -2417,14 +2417,6 @@ smollm2
 instruct
 -
 gguf
--
-Qwen3
--
-0
-.
-6B
--
-GGUF
 description
 :
 Run

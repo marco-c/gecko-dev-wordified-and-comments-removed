@@ -955,9 +955,6 @@ mlEngineWorker
 .
 getModelFile
 (
-{
-url
-:
 createFileUrl
 (
 {
@@ -978,7 +975,6 @@ rootUrl
 modelHubRootUrl
 }
 )
-}
 )
 )
 .
