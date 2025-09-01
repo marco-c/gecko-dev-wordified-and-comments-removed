@@ -45,11 +45,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -2925,6 +2923,9 @@ i
 +
 )
 {
+Thread
+:
+:
 SleepMs
 (
 1000
@@ -3492,6 +3493,9 @@ i
 +
 )
 {
+Thread
+:
+:
 SleepMs
 (
 1000

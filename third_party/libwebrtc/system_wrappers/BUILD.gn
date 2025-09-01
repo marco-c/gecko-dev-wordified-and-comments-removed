@@ -180,13 +180,6 @@ ntp_time
 h
 "
 "
-include
-/
-sleep
-.
-h
-"
-"
 source
 /
 clock
@@ -204,13 +197,6 @@ cc
 source
 /
 cpu_info
-.
-cc
-"
-"
-source
-/
-sleep
 .
 cc
 "

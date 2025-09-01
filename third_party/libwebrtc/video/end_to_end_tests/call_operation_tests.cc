@@ -93,11 +93,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -407,6 +405,9 @@ video_frame
 )
 override
 {
+Thread
+:
+:
 SleepMs
 (
 kRenderDelayMs

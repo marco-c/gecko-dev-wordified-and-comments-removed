@@ -119,11 +119,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -523,6 +521,9 @@ BringToFront
 (
 )
 ;
+Thread
+:
+:
 SleepMs
 (
 200
@@ -764,6 +765,9 @@ WaitForPendingDraws
 (
 )
 {
+Thread
+:
+:
 SleepMs
 (
 50

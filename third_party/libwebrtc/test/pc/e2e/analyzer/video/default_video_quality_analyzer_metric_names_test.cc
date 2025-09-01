@@ -174,11 +174,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-clock
+thread
 .
 h
 "
@@ -189,7 +187,7 @@ system_wrappers
 /
 include
 /
-sleep
+clock
 .
 h
 "
@@ -769,6 +767,9 @@ interframe_delay_ms
 0
 )
 {
+Thread
+:
+:
 SleepMs
 (
 interframe_delay_ms

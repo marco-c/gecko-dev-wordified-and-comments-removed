@@ -12,11 +12,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -173,6 +171,9 @@ PerformTest
 )
 override
 {
+Thread
+:
+:
 SleepMs
 (
 kTestDurationMs
