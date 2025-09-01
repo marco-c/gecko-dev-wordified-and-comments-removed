@@ -11222,7 +11222,7 @@ refinedCardsLayout
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -14302,7 +14302,7 @@ publisherFavicon
 .
 enabled
 "
-false
+true
 )
 ;
 pref
