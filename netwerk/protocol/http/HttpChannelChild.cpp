@@ -1270,7 +1270,15 @@ dont_AddRef
 this
 )
 ;
-NS_DispatchToMainThread
+MOZ_ASSERT
+(
+mRefCnt
+=
+=
+1
+)
+;
+NS_DispatchToCurrentThread
 (
 NS_NewRunnableFunction
 (
@@ -1305,7 +1313,7 @@ false
 )
 ;
 return
-mRefCnt
+1
 ;
 }
 NS_LOG_RELEASE
