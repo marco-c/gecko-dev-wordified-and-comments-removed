@@ -616,6 +616,7 @@ nsUserIdleServiceDaily
 :
 Observe
 "
+_ns
 )
 ;
 return
@@ -940,6 +941,7 @@ nsUserIdleServiceDaily
 :
 Init
 "
+_ns
 )
 ;
 }
@@ -1239,6 +1241,7 @@ nsUserIdleServiceDaily
 :
 DailyCallback
 "
+_ns
 )
 ;
 return
@@ -3433,6 +3436,7 @@ nsUserIdleService
 :
 SetTimerExpiryIfBefore
 "
+_ns
 )
 ;
 }

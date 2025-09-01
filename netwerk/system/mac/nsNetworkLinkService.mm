@@ -4288,6 +4288,7 @@ nsNetworkLinkService
 :
 GetDnsSuffixListInternal
 "
+_ns
 target
 )
 )

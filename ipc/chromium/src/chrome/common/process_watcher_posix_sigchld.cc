@@ -691,6 +691,7 @@ ProcessWatcher
 :
 DelayedKill
 "
+_ns
 XRE_GetAsyncIOEventTarget
 (
 )

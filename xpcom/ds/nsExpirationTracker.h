@@ -182,8 +182,8 @@ ExpirationTrackerImpl
 uint32_t
 aTimerPeriod
 const
-char
-*
+nsACString
+&
 aName
 nsIEventTarget
 *
@@ -1274,9 +1274,7 @@ bool
 mInAgeOneGeneration
 ;
 const
-char
-*
-const
+nsCString
 mName
 ;
 const
@@ -1762,8 +1760,8 @@ nsExpirationTracker
 uint32_t
 aTimerPeriod
 const
-char
-*
+nsACString
+&
 aName
 nsIEventTarget
 *

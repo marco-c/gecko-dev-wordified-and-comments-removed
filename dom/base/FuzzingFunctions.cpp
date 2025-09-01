@@ -1751,6 +1751,7 @@ FuzzingFunctions
 :
 SpinEventLoopFor
 "
+_ns
 )
 ;
 if

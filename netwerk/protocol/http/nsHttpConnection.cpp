@@ -7496,6 +7496,7 @@ nsHttpConnection
 :
 MaybeForceSendIO
 "
+_ns
 )
 ;
 }
@@ -10926,6 +10927,7 @@ nsHttpConnection
 :
 StartShortLivedTCPKeepalives
 "
+_ns
 )
 ;
 }

@@ -3050,6 +3050,7 @@ nsNavHistory
 :
 GetNow
 "
+_ns
 )
 ;
 }

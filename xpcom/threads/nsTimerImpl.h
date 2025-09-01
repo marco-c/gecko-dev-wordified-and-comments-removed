@@ -582,8 +582,8 @@ aDelay
 uint32_t
 aType
 const
-char
-*
+nsACString
+&
 aNameString
 )
 ;
@@ -766,8 +766,8 @@ aDelay
 uint32_t
 aType
 const
-char
-*
+nsACString
+&
 aNameString
 )
 {
