@@ -680,6 +680,9 @@ lc_128k_enc_dashinit
 .
 mp4
 '
+sinfStart
+:
+0x02aa
 }
 video
 :
