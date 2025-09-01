@@ -124,6 +124,11 @@ CSSOKLab
 h
 "
 "
+CSSOKLCH
+.
+h
+"
+"
 CSSPerspective
 .
 h
@@ -300,6 +305,11 @@ cpp
 "
 "
 CSSOKLab
+.
+cpp
+"
+"
+CSSOKLCH
 .
 cpp
 "

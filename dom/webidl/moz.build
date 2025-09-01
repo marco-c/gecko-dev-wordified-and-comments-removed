@@ -3529,6 +3529,11 @@ CSSOKLab
 webidl
 "
 "
+CSSOKLCH
+.
+webidl
+"
+"
 CSSPageRule
 .
 webidl
