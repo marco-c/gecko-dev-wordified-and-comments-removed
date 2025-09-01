@@ -7606,7 +7606,7 @@ SwapElements
 b
 )
 ;
-CHECK_NOT_USING_AUTO
+CHECK_IS_USING_AUTO
 (
 a
 )
