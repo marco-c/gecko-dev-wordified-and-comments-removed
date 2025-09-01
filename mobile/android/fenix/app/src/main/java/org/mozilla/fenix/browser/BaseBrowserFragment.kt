@@ -3539,6 +3539,11 @@ profiler
 getProfilerTime
 (
 )
+browserScreenStore
+=
+buildBrowserScreenStore
+(
+)
 initializeUI
 (
 view
@@ -7221,11 +7226,6 @@ DefaultReaderModeController
 :
 BrowserToolbarComposable
 {
-browserScreenStore
-=
-buildBrowserScreenStore
-(
-)
 val
 toolbarStore
 =
