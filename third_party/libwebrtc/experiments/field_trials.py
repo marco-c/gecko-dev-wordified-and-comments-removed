@@ -926,6 +926,26 @@ FieldTrial
 '
 WebRTC
 -
+SimulcastEncoderAdapter
+-
+DropUnalignedResolution
+'
+               
+415329365
+               
+date
+(
+2025
+11
+2
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 SrtpRemoveReceiveStream
 '
                

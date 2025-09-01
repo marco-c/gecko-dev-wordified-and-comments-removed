@@ -966,6 +966,10 @@ bool
 per_layer_pli_
 ;
 const
+bool
+drop_unaligned_resolution_
+;
+const
 SimulcastEncoderAdapterEncoderInfoSettings
 encoder_info_override_
 ;
