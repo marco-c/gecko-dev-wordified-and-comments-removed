@@ -2206,6 +2206,15 @@ nsISelectionDisplay
 DISPLAY_FRAMES
 )
 ;
+mozilla
+:
+:
+RubyMetrics
+RubyMetricsIncludingChildren
+(
+)
+const
+;
 #
 ifdef
 DEBUG
