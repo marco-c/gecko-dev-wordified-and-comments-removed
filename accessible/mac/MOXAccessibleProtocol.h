@@ -842,6 +842,14 @@ moxKeyShortcutsValue
 ;
 -
 (
+NSArray
+*
+_Nullable
+)
+moxCustomContent
+;
+-
+(
 NSString
 *
 _Nullable

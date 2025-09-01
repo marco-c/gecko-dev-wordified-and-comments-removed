@@ -549,6 +549,13 @@ moxHelp
 ;
 -
 (
+NSArray
+*
+)
+moxCustomContent
+;
+-
+(
 NSNumber
 *
 )
