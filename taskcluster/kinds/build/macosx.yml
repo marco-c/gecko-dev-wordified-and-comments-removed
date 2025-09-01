@@ -87,7 +87,9 @@ build
 /
 security
 /
-browser
+{
+browser_entitlement
+}
 .
 xml
 path
