@@ -545,11 +545,6 @@ run
 using
 :
 mach
-python
--
-version
-:
-3
 extra
 -
 config
@@ -623,11 +618,6 @@ run
 using
 :
 mach
-python
--
-version
-:
-3
 extra
 -
 config
@@ -707,11 +697,6 @@ run
 using
 :
 mach
-python
--
-version
-:
-3
 extra
 -
 config
@@ -795,11 +780,6 @@ run
 using
 :
 mach
-python
--
-version
-:
-3
 extra
 -
 config

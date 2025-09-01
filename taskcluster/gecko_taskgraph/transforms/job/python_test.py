@@ -64,17 +64,6 @@ test
 Required
 (
 "
-python
--
-version
-"
-)
-:
-int
-        
-Required
-(
-"
 subsuite
 "
 )
@@ -127,14 +116,6 @@ str
 defaults
 =
 {
-    
-"
-python
--
-version
-"
-:
-3
     
 "
 subsuite

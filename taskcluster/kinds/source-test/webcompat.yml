@@ -190,13 +190,6 @@ I
 tier
 :
 3
-python
--
-version
-:
-[
-3
-]
 run
 :
 using
