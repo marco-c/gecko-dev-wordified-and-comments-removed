@@ -1979,6 +1979,17 @@ aRequest
 )
 ;
 void
+FinishCollectingDelazifications
+(
+JSContext
+*
+aCx
+ScriptLoadRequest
+*
+aRequest
+)
+;
+void
 GiveUpBytecodeEncoding
 (
 )
