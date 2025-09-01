@@ -1313,7 +1313,7 @@ break
 ;
 case
 "
-CSS2Properties
+CSSStyleProperties
 "
 :
 case
