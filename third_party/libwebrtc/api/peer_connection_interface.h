@@ -3704,17 +3704,6 @@ AudioMixer
 >
 audio_mixer
 ;
-[
-[
-deprecated
-]
-]
-scoped_refptr
-<
-AudioProcessing
->
-audio_processing
-;
 std
 :
 :
