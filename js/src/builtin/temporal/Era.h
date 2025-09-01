@@ -64,17 +64,6 @@ Calendar
 .
 h
 "
-#
-include
-"
-builtin
-/
-temporal
-/
-Crash
-.
-h
-"
 namespace
 js
 :
@@ -481,7 +470,7 @@ eras
 Japanese
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -902,7 +891,7 @@ ROCInverse
 ;
 }
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -1082,7 +1071,7 @@ return
 false
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid

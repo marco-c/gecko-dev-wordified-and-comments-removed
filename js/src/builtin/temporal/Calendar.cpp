@@ -227,17 +227,6 @@ builtin
 /
 temporal
 /
-Crash
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 Duration
 .
 h
@@ -4708,7 +4697,7 @@ broc
 ;
 }
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid

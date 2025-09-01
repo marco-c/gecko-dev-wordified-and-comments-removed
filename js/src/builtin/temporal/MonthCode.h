@@ -69,17 +69,6 @@ Calendar
 .
 h
 "
-#
-include
-"
-builtin
-/
-temporal
-/
-Crash
-.
-h
-"
 namespace
 js
 :
@@ -1025,7 +1014,7 @@ monthcodes
 Hebrew
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -1163,7 +1152,7 @@ return
 true
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -1301,7 +1290,7 @@ return
 true
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -1500,7 +1489,7 @@ return
 }
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
@@ -1973,7 +1962,7 @@ return
 ;
 }
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid

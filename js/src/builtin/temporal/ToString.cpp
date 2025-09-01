@@ -60,17 +60,6 @@ builtin
 /
 temporal
 /
-Crash
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 Instant
 .
 h
@@ -400,7 +389,7 @@ None
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid
