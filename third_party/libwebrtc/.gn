@@ -307,7 +307,7 @@ run
 exec_script
 .
 This
-whitelist
+allowlist
 exists
 #
 to
@@ -329,11 +329,11 @@ for
 gypi_to_gn
 calls
 .
-exec_script_whitelist
+exec_script_allowlist
 =
 build_dotfile_settings
 .
-exec_script_whitelist
+exec_script_allowlist
 +
 [
 "
