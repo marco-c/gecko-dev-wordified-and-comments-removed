@@ -223,7 +223,7 @@ nsRect
 AdjustReflowInputAsContainingBlock
 (
 ReflowInput
-*
+&
 aReflowInput
 )
 const
@@ -304,7 +304,7 @@ nsPoint
 AdjustReflowInputForScrollbars
 (
 ReflowInput
-*
+&
 aReflowInput
 )
 const
