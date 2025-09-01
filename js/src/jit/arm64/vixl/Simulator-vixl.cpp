@@ -4883,7 +4883,7 @@ ImmAddSub
 instr
 -
 >
-ShiftAddSub
+GetImmAddSubShift
 (
 )
 =
