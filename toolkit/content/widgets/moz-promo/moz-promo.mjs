@@ -184,11 +184,11 @@ property
 {
 string
 }
-iconAlignment
+imageAlignment
 -
 How
 the
-icon
+image
 should
 be
 aligned
