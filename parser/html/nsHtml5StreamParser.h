@@ -1374,6 +1374,12 @@ mURIToSendToDevtools
 nsString
 mUUIDForDevtools
 ;
+uint64_t
+mBrowserIdForDevtools
+;
+uint64_t
+mBrowsingContextIDForDevtools
+;
 bool
 mOnStopCalled
 {
