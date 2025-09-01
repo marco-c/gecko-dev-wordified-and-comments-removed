@@ -3661,6 +3661,8 @@ overrides
 -
 NavigatorHWConcurrency
 -
+NavigatorHWConcurrencyTiered
+-
 CanvasRandomization
 "
 ]
