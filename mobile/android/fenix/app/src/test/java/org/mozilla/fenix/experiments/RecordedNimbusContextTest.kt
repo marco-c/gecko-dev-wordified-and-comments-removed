@@ -528,7 +528,7 @@ true
 put
 (
 "
-no_shortcuts_stories_mkt
+no_shortcuts_or_stories_opt_out
 "
 true
 )
@@ -792,7 +792,7 @@ true
 put
 (
 "
-noShortcutsStoriesMkt
+noShortcutsOrStoriesOptOuts
 "
 true
 )
