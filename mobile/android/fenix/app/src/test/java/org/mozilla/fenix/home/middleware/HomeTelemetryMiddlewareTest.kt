@@ -312,6 +312,9 @@ var
 pingReceived
 =
 false
+val
+job
+=
 Pings
 .
 home
@@ -493,6 +496,11 @@ position
 joinBlocking
 (
 )
+job
+.
+join
+(
+)
 assertTrue
 (
 pingReceived
@@ -563,6 +571,9 @@ var
 pingReceived
 =
 false
+val
+job
+=
 Pings
 .
 home
@@ -757,6 +768,11 @@ impressions
 )
 .
 joinBlocking
+(
+)
+job
+.
+join
 (
 )
 assertTrue
