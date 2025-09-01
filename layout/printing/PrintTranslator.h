@@ -92,12 +92,6 @@ using
 gfx
 :
 :
-RecordedDependentSurface
-;
-using
-gfx
-:
-:
 ReferencePtr
 ;
 using

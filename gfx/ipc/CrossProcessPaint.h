@@ -42,17 +42,6 @@ mozilla
 /
 gfx
 /
-RecordedEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 Rect
 .
 h
@@ -302,6 +291,9 @@ uint64_t
 mDependencies
 ;
 }
+;
+struct
+RecordedDependentSurface
 ;
 class
 CrossProcessPaint

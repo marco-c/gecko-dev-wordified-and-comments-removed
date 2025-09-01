@@ -131,6 +131,17 @@ include
 "
 mozilla
 /
+gfx
+/
+RecordedEvent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
