@@ -301,7 +301,7 @@ bool
 Instance
 :
 :
-ExternalTextureEnabled
+ExternalTexturePrefEnabled
 (
 JSContext
 *
@@ -312,13 +312,10 @@ aObj
 )
 {
 return
-gfx
+StaticPrefs
 :
 :
-gfxVars
-:
-:
-GetAllowWebGPUExternalTextureOrDefault
+dom_webgpu_external_texture_enabled_AtStartup
 (
 )
 ;

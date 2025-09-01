@@ -1075,7 +1075,7 @@ webgpu
 Instance
 :
 :
-ExternalTextureEnabled
+ExternalTexturePrefEnabled
 "
 ]
 GPUExternalTexture
