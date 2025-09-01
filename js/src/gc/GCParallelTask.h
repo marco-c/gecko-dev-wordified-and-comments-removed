@@ -147,6 +147,13 @@ class
 GCRuntime
 ;
 static
+constexpr
+size_t
+MaxParallelWorkers
+=
+8
+;
+static
 inline
 mozilla
 :
