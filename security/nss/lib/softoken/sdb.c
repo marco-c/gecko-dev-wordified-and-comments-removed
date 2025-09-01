@@ -457,7 +457,7 @@ CKA_NSS_DB
 }
 ;
 const
-int
+size_t
 sftkdb_known_attributes_size
 =
 PR_ARRAY_SIZE
@@ -8198,7 +8198,7 @@ CKR_OK
 }
 for
 (
-int
+size_t
 i
 =
 0
@@ -8221,7 +8221,7 @@ sqlite3_mprintf
 "
 a
 %
-x
+lx
 "
 sftkdb_known_attributes
 [
@@ -8415,9 +8415,6 @@ SDB
 pSdb
 )
 {
-int
-i
-;
 char
 *
 initStr
@@ -8705,6 +8702,7 @@ sqlite3_mprintf
 ;
 for
 (
+size_t
 i
 =
 0
@@ -8730,7 +8728,7 @@ sqlite3_mprintf
 s
 a
 %
-x
+lx
 "
 initStr
 sftkdb_known_attributes

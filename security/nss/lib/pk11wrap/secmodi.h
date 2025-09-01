@@ -767,6 +767,13 @@ KeyType
 keyType
 )
 ;
+CK_MECHANISM_TYPE
+PK11_mapKemKeyType
+(
+KeyType
+keyType
+)
+;
 PK11SymKey
 *
 pk11_KeyExchange
