@@ -2818,6 +2818,14 @@ generator
 isSuspendedYield
 (
 )
+|
+|
+generator
+-
+>
+isCompleted
+(
+)
 )
 {
 if
