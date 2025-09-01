@@ -553,6 +553,11 @@ aOnConcurrentConn
 ;
 private
 :
+~
+AsyncGetFaviconForPageRunnable
+(
+)
+;
 nsCOMPtr
 <
 nsIURI
