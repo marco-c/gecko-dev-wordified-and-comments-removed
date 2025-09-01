@@ -34,7 +34,6 @@ dedent
 from
 voluptuous
 import
-ALLOW_EXTRA
 Extra
 Optional
 Required
@@ -300,13 +299,24 @@ str
 ]
         
 }
+        
+Extra
+:
+object
     
 }
-    
-extra
-=
-ALLOW_EXTRA
 )
+"
+"
+"
+Schema
+for
+matrix
+transforms
+.
+"
+"
+"
 transforms
 =
 TransformSequence

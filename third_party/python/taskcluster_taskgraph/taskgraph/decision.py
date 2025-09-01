@@ -598,18 +598,6 @@ decision_task_id
 write_artifacts
 =
 True
-        
-enable_verifications
-=
-options
-.
-get
-(
-"
-verify
-"
-True
-)
     
 )
     

@@ -380,24 +380,6 @@ schema
 obj
 )
     
-setattr
-(
-validator
-"
-schema
-"
-schema
-)
-    
-setattr
-(
-validator
-"
-fields
-"
-fields
-)
-    
 return
 validator
 def
