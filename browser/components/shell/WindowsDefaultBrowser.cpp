@@ -299,6 +299,9 @@ appDirStr
 bool
 success
 =
+mozilla
+:
+:
 GetInstallDirectory
 (
 appDirStr

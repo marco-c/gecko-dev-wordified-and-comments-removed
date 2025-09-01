@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+CycleCollectedUniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

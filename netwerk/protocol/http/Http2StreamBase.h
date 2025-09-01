@@ -1254,7 +1254,6 @@ false
 private
 :
 friend
-class
 mozilla
 :
 :
