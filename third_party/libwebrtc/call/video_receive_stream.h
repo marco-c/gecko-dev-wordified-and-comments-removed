@@ -100,6 +100,17 @@ include
 "
 api
 /
+crypto
+/
+frame_encryptor_interface
+.
+h
+"
+#
+include
+"
+api
+/
 frame_transformer_interface
 .
 h

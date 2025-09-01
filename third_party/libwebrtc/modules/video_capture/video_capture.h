@@ -56,6 +56,17 @@ include
 "
 modules
 /
+desktop_capture
+/
+desktop_capture_types
+.
+h
+"
+#
+include
+"
+modules
+/
 video_capture
 /
 raw_video_sink_interface
