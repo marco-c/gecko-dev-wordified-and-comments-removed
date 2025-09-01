@@ -778,6 +778,18 @@ login
 )
 }
 is
+BiometricAuthenticationAction
+.
+AuthenticationSucceeded
+is
+BiometricAuthenticationAction
+.
+AuthenticationInProgress
+is
+BiometricAuthenticationAction
+.
+AuthenticationFailed
+is
 LoginsLoaded
 is
 EditLoginAction
@@ -803,6 +815,8 @@ is
 AddLoginAction
 .
 PasswordChanged
+is
+BiometricAuthenticationDialogAction
 is
 DetailLoginMenuAction
 .
