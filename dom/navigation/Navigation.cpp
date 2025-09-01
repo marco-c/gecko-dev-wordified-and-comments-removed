@@ -5559,10 +5559,7 @@ apiMethodTracker
 apiMethodTracker
 -
 >
-mFinishedPromise
--
->
-MaybeReject
+RejectFinishedPromise
 (
 aRejectionReason
 )
