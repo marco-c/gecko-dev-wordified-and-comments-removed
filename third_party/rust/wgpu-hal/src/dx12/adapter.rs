@@ -1961,6 +1961,14 @@ wgt
 Features
 :
 :
+EXPERIMENTAL_PASSTHROUGH_SHADERS
+|
+wgt
+:
+:
+Features
+:
+:
 EXTERNAL_TEXTURE
 ;
 if

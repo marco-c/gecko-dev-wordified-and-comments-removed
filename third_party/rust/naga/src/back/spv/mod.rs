@@ -2,6 +2,9 @@ mod
 block
 ;
 mod
+f16_polyfill
+;
+mod
 helpers
 ;
 mod
@@ -2626,6 +2629,9 @@ ZeroInitializeWorkgroupMemoryMode
 force_loop_bounding
 :
 bool
+use_storage_input_output_16
+:
+bool
 void_type
 :
 Word
@@ -2732,6 +2738,12 @@ Option
 <
 Word
 >
+io_f16_polyfills
+:
+f16_polyfill
+:
+:
+F16IoPolyfill
 }
 bitflags
 :
@@ -3131,6 +3143,10 @@ force_loop_bounding
 :
 bool
 pub
+use_storage_input_output_16
+:
+bool
+pub
 debug_info
 :
 Option
@@ -3229,6 +3245,9 @@ ZeroInitializeWorkgroupMemoryMode
 :
 Polyfill
 force_loop_bounding
+:
+true
+use_storage_input_output_16
 :
 true
 debug_info
