@@ -15,6 +15,15 @@ audio_view
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 webrtc
 {
@@ -49,9 +58,6 @@ num_channels
 channel_size
 ?
 audio_samples
-[
-0
-]
 :
 nullptr
 channel_size
