@@ -978,6 +978,9 @@ text
 but
 the
 title
+and
+URL
+subdomain
 textPrimary
 =
 customColors
@@ -1003,6 +1006,9 @@ textPrimary
 /
 /
 Title
+and
+URL
+subdomain
 textSecondary
 =
 customColors
@@ -1010,7 +1016,7 @@ customColors
 value
 ?
 .
-readableColor
+secondaryReadableColor
 ?
 .
 let
