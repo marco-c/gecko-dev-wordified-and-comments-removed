@@ -16827,13 +16827,6 @@ return
 }
 if
 (
-(
-!
-UsesAutoArrayBuffer
-(
-)
-|
-|
 Capacity
 (
 )
@@ -16842,7 +16835,6 @@ aOther
 .
 Length
 (
-)
 )
 &
 &
