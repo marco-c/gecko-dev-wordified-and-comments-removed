@@ -9,6 +9,8 @@ emulator_avd_name
 "
 mozemulator
 -
+android34
+-
 x86_64
 "
     
