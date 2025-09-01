@@ -837,7 +837,6 @@ IPProtectionService
 .
 uninit
 (
-true
 )
 ;
 toggledEvents
