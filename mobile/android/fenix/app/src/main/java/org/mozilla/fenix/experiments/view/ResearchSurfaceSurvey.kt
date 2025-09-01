@@ -269,7 +269,7 @@ compose
 .
 runtime
 .
-mutableStateOf
+mutableIntStateOf
 import
 androidx
 .
@@ -549,7 +549,7 @@ offsetY
 by
 remember
 {
-mutableStateOf
+mutableIntStateOf
 (
 INITIAL_OFFSET
 )
