@@ -2987,7 +2987,7 @@ h
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 priority
@@ -3004,6 +3004,11 @@ visibility
 sources
 =
 [
+"
+priority
+.
+cc
+"
 "
 priority
 .
@@ -3028,6 +3033,16 @@ checks
 rtc_base
 :
 strong_alias
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
+rtc_export
 "
 ]
 }
