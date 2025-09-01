@@ -164,6 +164,16 @@ org
 junit
 .
 Test
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestSetup
 private
 const
 val
@@ -192,6 +202,10 @@ ON_SHOWN_NODE_COUNT
 30
 class
 ModifierTest
+:
+TestSetup
+(
+)
 {
 get
 :
