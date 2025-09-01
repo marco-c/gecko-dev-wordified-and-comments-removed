@@ -1864,7 +1864,7 @@ if
 nursery
 -
 >
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 const_cast
 <

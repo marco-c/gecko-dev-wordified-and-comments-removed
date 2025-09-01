@@ -946,7 +946,7 @@ true
 }
 ;
 WasBufferMoved
-maybeMoveRawBufferOnPromotion
+maybeMoveRawNurseryOrMallocBufferOnPromotion
 (
 void
 *
@@ -974,7 +974,7 @@ typename
 T
 >
 WasBufferMoved
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 T
 *
@@ -997,7 +997,7 @@ arena
 )
 {
 return
-maybeMoveRawBufferOnPromotion
+maybeMoveRawNurseryOrMallocBufferOnPromotion
 (
 reinterpret_cast
 <
@@ -1041,7 +1041,7 @@ use
 )
 {
 return
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 bufferp
 owner

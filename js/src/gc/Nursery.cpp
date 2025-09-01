@@ -10439,7 +10439,7 @@ js
 Nursery
 :
 :
-maybeMoveRawBufferOnPromotion
+maybeMoveRawNurseryOrMallocBufferOnPromotion
 (
 void
 *
