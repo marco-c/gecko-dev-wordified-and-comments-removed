@@ -3321,8 +3321,8 @@ FinishedContainerQueryUpdate
 (
 )
 ;
-void
-UpdateContainerQueryStylesAndAnchorPosLayout
+bool
+UpdateContainerQueryStyles
 (
 )
 ;

@@ -14143,7 +14143,7 @@ GetServoRestyleRoot
 presContext
 -
 >
-UpdateContainerQueryStylesAndAnchorPosLayout
+UpdateContainerQueryStyles
 (
 )
 ;
@@ -14530,7 +14530,7 @@ false
 presContext
 -
 >
-UpdateContainerQueryStylesAndAnchorPosLayout
+UpdateContainerQueryStyles
 (
 )
 ;
