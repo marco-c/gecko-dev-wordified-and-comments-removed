@@ -26,6 +26,11 @@ cached_resource
 .
 sjs
 "
+"
+sample
+.
+txt
+"
 ]
 prefs
 =
@@ -87,6 +92,13 @@ js
 [
 "
 browser_ContextualIdentityListener
+.
+js
+"
+]
+[
+"
+browser_DownloadListener
 .
 js
 "
