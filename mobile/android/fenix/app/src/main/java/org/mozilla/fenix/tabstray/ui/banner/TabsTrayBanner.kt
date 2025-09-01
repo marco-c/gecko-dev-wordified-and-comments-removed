@@ -106,7 +106,7 @@ foundation
 .
 layout
 .
-fillMaxSize
+fillMaxWidth
 import
 androidx
 .
@@ -1545,7 +1545,7 @@ modifier
 =
 Modifier
 .
-fillMaxSize
+fillMaxWidth
 (
 )
 contentColor
