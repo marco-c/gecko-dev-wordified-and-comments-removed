@@ -74,6 +74,12 @@ transforms
 .
 chunking
 -
+taskgraph
+.
+transforms
+.
+matrix
+-
 gecko_taskgraph
 .
 transforms
