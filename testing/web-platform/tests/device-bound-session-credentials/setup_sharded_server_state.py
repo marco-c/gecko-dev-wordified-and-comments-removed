@@ -73,25 +73,20 @@ initialize_test
 (
 )
     
-headers
+cookie_attributes
 =
-[
-(
-"
-Set
--
-Cookie
-"
 f
 "
-test_id
+Domain
 =
 {
-test_id
+request
+.
+url_parts
+.
+hostname
 }
 "
-)
-]
     
 cross_site
 =
@@ -113,6 +108,18 @@ and
 cross_site
 :
         
+cookie_attributes
++
+=
+"
+;
+SameSite
+=
+None
+;
+Secure
+"
+    
 headers
 =
 [
@@ -130,11 +137,9 @@ test_id
 test_id
 }
 ;
-SameSite
-=
-None
-;
-Secure
+{
+cookie_attributes
+}
 "
 )
 ]
