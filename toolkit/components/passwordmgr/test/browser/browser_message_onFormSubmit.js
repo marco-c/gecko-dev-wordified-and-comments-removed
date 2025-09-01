@@ -373,9 +373,14 @@ p2
 =
 listenForTestNotification
 (
+[
+"
+FormProcessed
+"
 "
 ShowDoorhanger
 "
+]
 )
 ;
 await
