@@ -686,16 +686,9 @@ arena_id_t
 arenaId
 )
 ;
-std
-:
-:
-tuple
-<
 void
 *
-bool
->
-allocateBuffer
+allocateInternalBuffer
 (
 JS
 :
