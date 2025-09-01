@@ -572,6 +572,17 @@ override
 MOCK_METHOD
 (
 void
+OnMessageReady
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
 OnError
 (
 ErrorKind

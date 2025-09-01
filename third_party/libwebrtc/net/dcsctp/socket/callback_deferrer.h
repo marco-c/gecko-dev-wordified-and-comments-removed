@@ -261,6 +261,12 @@ message
 override
 ;
 void
+OnMessageReady
+(
+)
+override
+;
+void
 OnError
 (
 ErrorKind
