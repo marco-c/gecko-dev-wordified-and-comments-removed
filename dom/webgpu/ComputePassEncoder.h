@@ -90,8 +90,6 @@ ComputePassEncoder
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -115,8 +113,6 @@ CommandEncoder
 *
 const
 aParent
-RawId
-aId
 const
 dom
 :
@@ -131,6 +127,11 @@ private
 virtual
 ~
 ComputePassEncoder
+(
+)
+;
+void
+Cleanup
 (
 )
 ;
@@ -182,11 +183,6 @@ mUsedCanvasContexts
 ;
 private
 :
-bool
-mValid
-=
-true
-;
 void
 SetBindGroup
 (

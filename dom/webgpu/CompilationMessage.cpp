@@ -102,14 +102,4 @@ aMessage
 )
 {
 }
-CompilationMessage
-:
-:
-~
-CompilationMessage
-(
-)
-=
-default
-;
 }

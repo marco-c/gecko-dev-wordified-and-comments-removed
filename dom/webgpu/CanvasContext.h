@@ -106,6 +106,11 @@ CanvasContext
 (
 )
 ;
+void
+Cleanup
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -537,7 +542,7 @@ RefPtr
 <
 WebGPUChild
 >
-mChild
+mBridge
 ;
 RefPtr
 <
