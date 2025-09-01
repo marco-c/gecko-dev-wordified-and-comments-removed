@@ -72,6 +72,15 @@ per_target
 .
 h
 "
+#
+include
+<
+mozilla
+/
+Attributes
+.
+h
+>
 namespace
 hwy
 {
@@ -1386,6 +1395,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 Span
 (
 U
@@ -1407,6 +1417,7 @@ size
 )
 {
 }
+MOZ_IMPLICIT
 Span
 (
 std
