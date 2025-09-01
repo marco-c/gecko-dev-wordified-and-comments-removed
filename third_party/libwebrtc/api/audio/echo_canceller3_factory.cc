@@ -94,6 +94,7 @@ EchoCanceller3Factory
 (
 const
 EchoCanceller3Config
+&
 config
 )
 :
@@ -117,6 +118,7 @@ EchoCanceller3Factory
 (
 const
 EchoCanceller3Config
+&
 config
 std
 :
