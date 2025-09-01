@@ -4004,7 +4004,7 @@ entry
 )
 -
 >
-isSelfHostedShared
+isRealmIndependentShared
 (
 )
 )

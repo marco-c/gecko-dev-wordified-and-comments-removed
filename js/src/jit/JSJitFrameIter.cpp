@@ -3136,7 +3136,7 @@ isDummy
 entry
 -
 >
-isSelfHostedShared
+isRealmIndependentShared
 (
 )
 )
@@ -3322,7 +3322,7 @@ if
 entry
 -
 >
-isSelfHostedShared
+isRealmIndependentShared
 (
 )
 )
