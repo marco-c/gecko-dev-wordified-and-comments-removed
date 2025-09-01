@@ -350,10 +350,6 @@ CookieStoreParent
 (
 )
 {
-AssertIsOnBackgroundThread
-(
-)
-;
 CookieStoreNotificationWatcher
 :
 :
