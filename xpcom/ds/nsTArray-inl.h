@@ -704,8 +704,6 @@ ShrinkCapacity
 (
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 if
@@ -913,8 +911,6 @@ ShrinkCapacityToZero
 (
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 MOZ_ASSERT
@@ -988,8 +984,6 @@ size_type
 aNewLen
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 if
@@ -1041,7 +1035,6 @@ mLength
 ShrinkCapacityToZero
 (
 aElemSize
-aElemAlign
 )
 ;
 }
@@ -1135,8 +1128,6 @@ size_type
 aCount
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 if
@@ -1180,7 +1171,6 @@ mLength
 ShrinkCapacityToZero
 (
 aElemSize
-aElemAlign
 )
 ;
 return
@@ -1332,8 +1322,6 @@ size_type
 aCount
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 if
@@ -1406,7 +1394,6 @@ aIndex
 0
 aCount
 aElemSize
-aElemAlign
 )
 ;
 return
@@ -1455,8 +1442,6 @@ RelocationStrategy
 aOther
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 if
@@ -2020,8 +2005,6 @@ RelocationStrategy
 aOther
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 MOZ_ASSERT
@@ -2281,8 +2264,6 @@ RelocationStrategy
 aOther
 size_type
 aElemSize
-size_t
-aElemAlign
 )
 {
 mHdr
