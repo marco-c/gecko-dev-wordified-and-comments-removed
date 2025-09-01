@@ -1149,16 +1149,6 @@ aResponseURI
 flags
 )
 ;
-ExtContentPolicyType
-contentPolicyType
-=
-redirectLoadInfo
--
->
-GetExternalContentPolicyType
-(
-)
-;
 rv
 =
 newChannel
@@ -1183,7 +1173,6 @@ get
 mProxyResolveFlags
 mProxyURI
 mChannelId
-contentPolicyType
 redirectLoadInfo
 )
 ;

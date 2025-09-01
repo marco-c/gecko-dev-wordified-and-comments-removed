@@ -1901,8 +1901,6 @@ nsIURI
 aProxyURI
 uint64_t
 aChannelId
-ExtContentPolicyType
-aContentPolicyType
 nsILoadInfo
 *
 aLoadInfo
@@ -2174,7 +2172,12 @@ AddStandardRequestHeaders
 &
 mRequestHead
 isHTTPS
-aContentPolicyType
+mLoadInfo
+-
+>
+GetExternalContentPolicyType
+(
+)
 nsContentUtils
 :
 :
