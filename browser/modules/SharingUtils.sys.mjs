@@ -1317,9 +1317,12 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 share
 .
 image
+)
 )
 ;
 if

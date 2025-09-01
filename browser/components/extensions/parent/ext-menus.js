@@ -2306,7 +2306,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 resolvedURL
+)
 )
 ;
 }

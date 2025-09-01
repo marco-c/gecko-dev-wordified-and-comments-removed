@@ -36303,9 +36303,6 @@ removeAttribute
 "
 image
 "
-engine
-.
-icon
 )
 ;
 }
@@ -36437,9 +36434,12 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 engine
 .
 icon
+)
 )
 ;
 }

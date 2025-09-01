@@ -1967,7 +1967,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 icon
+)
 )
 ;
 }
@@ -2233,9 +2236,12 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 aPlacesNode
 .
 icon
+)
 )
 ;
 }
@@ -5907,7 +5913,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 icon
+)
 )
 ;
 }
@@ -6285,7 +6294,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 icon
+)
 )
 ;
 }

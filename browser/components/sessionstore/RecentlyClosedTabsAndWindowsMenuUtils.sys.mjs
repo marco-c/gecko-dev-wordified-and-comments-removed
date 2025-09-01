@@ -2862,7 +2862,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 iconURL
+)
 )
 ;
 }
