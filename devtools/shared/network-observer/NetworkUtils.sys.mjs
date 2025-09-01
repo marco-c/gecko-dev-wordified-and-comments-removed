@@ -324,6 +324,11 @@ RESPONSE_CONTENT
 "
 responseContent
 "
+RESPONSE_CONTENT_COMPLETE
+:
+"
+responseContentComplete
+"
 RESPONSE_COOKIES
 :
 "
@@ -5041,6 +5046,12 @@ networkEventActor
 addResponseContent
 (
 response
+)
+;
+networkEventActor
+.
+addResponseContentComplete
+(
 {
 }
 )
