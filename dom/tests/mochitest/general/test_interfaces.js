@@ -7698,9 +7698,6 @@ ViewTransition
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
