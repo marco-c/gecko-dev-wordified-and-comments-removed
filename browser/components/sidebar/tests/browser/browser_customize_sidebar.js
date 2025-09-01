@@ -300,9 +300,9 @@ customizeComponent
 toolInputs
 .
 length
-5
+4
 "
-Five
+Four
 default
 tools
 are

@@ -4245,7 +4245,7 @@ manager
 .
 enabled
 "
-true
+false
 )
 ;
 pref
