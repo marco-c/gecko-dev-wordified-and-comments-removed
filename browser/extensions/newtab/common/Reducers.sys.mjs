@@ -4215,13 +4215,6 @@ return
 .
 .
 prevState
-pocketButtonEnabled
-:
-action
-.
-data
-.
-pocketButtonEnabled
 hideDescriptions
 :
 action
