@@ -9666,6 +9666,7 @@ nsMemoryReporterManager
 :
 StartGettingReports
 "
+_ns
 )
 ;
 if

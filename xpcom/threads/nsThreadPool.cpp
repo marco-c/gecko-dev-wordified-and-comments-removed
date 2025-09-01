@@ -2735,6 +2735,7 @@ nsThreadPool
 :
 ShutdownWithTimeout
 "
+_ns
 )
 ;
 }

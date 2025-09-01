@@ -543,6 +543,7 @@ TYPE_ONE_SHOT
 "
 LoadTimerCallback
 "
+_ns
 GetMainThreadSerialEventTarget
 (
 )
@@ -823,6 +824,7 @@ nsFontFaceLoader
 :
 LoadTimerCallback
 "
+_ns
 )
 ;
 updateUserFontSet

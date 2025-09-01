@@ -1069,6 +1069,7 @@ GENERATION_MS
 "
 ImageCache
 "
+_ns
 )
 {
 mImageCacheObserver

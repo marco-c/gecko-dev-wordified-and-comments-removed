@@ -682,6 +682,7 @@ nsExpirationTracker
 "
 PopupExpirationTracker
 "
+_ns
 )
 {
 }

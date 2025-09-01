@@ -6299,8 +6299,8 @@ aDelay
 uint32_t
 aType
 const
-char
-*
+nsACString
+&
 aName
 )
 override
@@ -6327,8 +6327,8 @@ aDelay
 uint32_t
 aType
 const
-char
-*
+nsACString
+&
 aName
 )
 override

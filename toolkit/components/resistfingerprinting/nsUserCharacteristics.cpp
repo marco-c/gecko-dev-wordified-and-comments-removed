@@ -5065,6 +5065,7 @@ TYPE_ONE_SHOT
 "
 UserCharacteristicsPromiseTimeout
 "
+_ns
 )
 ;
 if

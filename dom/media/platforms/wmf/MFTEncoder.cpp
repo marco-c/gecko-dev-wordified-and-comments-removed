@@ -6622,6 +6622,7 @@ TYPE_ONE_SHOT
 "
 EncodingProgressChecker
 "
+_ns
 GetCurrentSerialEventTarget
 (
 )

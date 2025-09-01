@@ -427,6 +427,7 @@ GENERATION_MS
 "
 LayerActivityTracker
 "
+_ns
 aEventTarget
 )
 {

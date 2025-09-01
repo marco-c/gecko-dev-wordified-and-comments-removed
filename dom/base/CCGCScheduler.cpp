@@ -1644,6 +1644,7 @@ TYPE_ONE_SHOT_LOW_PRIORITY
 "
 ShrinkingGCTimerFired
 "
+_ns
 )
 ;
 }
@@ -1775,6 +1776,7 @@ TYPE_ONE_SHOT_LOW_PRIORITY
 "
 FullGCTimerFired
 "
+_ns
 )
 ;
 }
@@ -2176,6 +2178,7 @@ CCGCScheduler
 :
 EnsureGCRunner
 "
+_ns
 aDelay
 TimeDuration
 :
@@ -2461,6 +2464,7 @@ EnsureCCRunner
 :
 CCRunnerFired
 "
+_ns
 0
 aDelay
 minimumBudget

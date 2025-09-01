@@ -1219,6 +1219,7 @@ TIMEOUT_MS
 "
 ScrollFrameActivityTracker
 "
+_ns
 aEventTarget
 )
 {
@@ -12404,6 +12405,7 @@ ScrollContainerFrame
 :
 ResetDisplayPortExpiryTimer
 "
+_ns
 )
 ;
 }
@@ -13058,6 +13060,7 @@ ScrollContainerFrame
 :
 ScheduleSyntheticMouseMove
 "
+_ns
 )
 ;
 }

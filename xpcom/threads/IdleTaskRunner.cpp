@@ -38,8 +38,8 @@ CallbackType
 &
 aCallback
 const
-char
-*
+nsACString
+&
 aRunnableName
 TimeDuration
 aStartDelay
@@ -261,13 +261,11 @@ GetName
 else
 {
 aName
-.
-Assign
-(
+=
 "
 ExpiredIdleTaskRunner
 "
-)
+_ns
 ;
 }
 return
@@ -318,8 +316,8 @@ CallbackType
 &
 aCallback
 const
-char
-*
+nsACString
+&
 aRunnableName
 TimeDuration
 aStartDelay

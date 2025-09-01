@@ -11709,6 +11709,7 @@ ContentParent
 :
 IdleMaybeBeginShutdown
 "
+_ns
 startDelay
 maxDelay
 TimeDuration
@@ -11872,6 +11873,7 @@ ContentParent
 :
 StartSendShutdownTimer
 "
+_ns
 )
 ;
 MOZ_ASSERT
@@ -11947,6 +11949,7 @@ ContentParent
 :
 StartForceKillTimer
 "
+_ns
 )
 ;
 MOZ_ASSERT

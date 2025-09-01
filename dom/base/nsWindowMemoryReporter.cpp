@@ -4637,6 +4637,7 @@ nsWindowMemoryReporter
 :
 AsyncCheckForGhostWindows_timer
 "
+_ns
 )
 ;
 }
