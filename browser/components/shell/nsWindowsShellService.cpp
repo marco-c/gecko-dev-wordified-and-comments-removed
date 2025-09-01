@@ -2600,8 +2600,13 @@ surface
 aImage
 -
 >
-GetFrame
+GetFrameAtSize
 (
+nsIntSize
+(
+256
+256
+)
 imgIContainer
 :
 :
@@ -2610,6 +2615,11 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
+|
+imgIContainer
+:
+:
+FLAG_HIGH_QUALITY_SCALING
 )
 ;
 NS_ENSURE_TRUE
