@@ -143,6 +143,15 @@ BANNER_ROOT
 .
 collections
 "
+const
+val
+SHARE_BUTTON
+=
+"
+BANNER_ROOT
+.
+share
+"
 /
 /
 Tabs
