@@ -144,9 +144,10 @@ pub
 enum
 CustomUseCounter
 {
-MaybeHasPathBaseUriDependency
+HasNonLocalUriDependency
 =
 0
+MaybeHasPathBaseUriDependency
 MaybeHasFullBaseUriDependency
 Last
 }
