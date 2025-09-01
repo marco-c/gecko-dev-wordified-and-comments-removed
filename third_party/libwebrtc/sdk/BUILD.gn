@@ -7107,6 +7107,16 @@ frame_encryptor_interface
 /
 api
 /
+environment
+:
+environment_factory
+"
+"
+.
+.
+/
+api
+/
 rtc_event_log
 :
 rtc_event_log_factory
