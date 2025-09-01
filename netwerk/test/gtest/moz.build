@@ -158,6 +158,11 @@ TestURIMutator
 cpp
 "
 "
+TestUriTemplate
+.
+cpp
+"
+"
 TestURLPatternGlue
 .
 cpp
