@@ -1,0 +1,16 @@
+#
+pragma
+once
+#
+include
+"
+libyuv
+/
+include
+/
+libyuv
+/
+compare
+.
+h
+"
