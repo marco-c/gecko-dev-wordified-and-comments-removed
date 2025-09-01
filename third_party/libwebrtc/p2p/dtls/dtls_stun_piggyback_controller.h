@@ -199,6 +199,11 @@ is_dtls13
 )
 ;
 void
+SetDtlsFailed
+(
+)
+;
+void
 CapturePacket
 (
 ArrayView
