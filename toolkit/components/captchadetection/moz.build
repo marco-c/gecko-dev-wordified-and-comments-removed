@@ -82,3 +82,15 @@ mochitest
 toml
 "
 ]
+SPHINX_TREES
+[
+"
+captcha
+-
+detection
+"
+]
+=
+"
+docs
+"
