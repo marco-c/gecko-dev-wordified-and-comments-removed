@@ -11,6 +11,16 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 test
 /

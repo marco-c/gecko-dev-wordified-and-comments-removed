@@ -12,7 +12,7 @@ bitset
 #
 include
 <
-initializer_list
+cstdint
 >
 #
 include

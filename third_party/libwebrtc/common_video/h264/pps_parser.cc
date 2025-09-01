@@ -22,6 +22,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -32,6 +37,15 @@ absl
 numeric
 /
 bits
+.
+h
+"
+#
+include
+"
+api
+/
+array_view
 .
 h
 "

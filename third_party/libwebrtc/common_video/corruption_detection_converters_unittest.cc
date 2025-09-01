@@ -42,6 +42,15 @@ h
 #
 include
 "
+rtc_base
+/
+checks
+.
+h
+"
+#
+include
+"
 test
 /
 gmock

@@ -28,6 +28,15 @@ include
 "
 api
 /
+array_view
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 bitstream_parser
