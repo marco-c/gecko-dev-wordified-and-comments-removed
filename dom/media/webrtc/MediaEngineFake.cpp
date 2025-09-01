@@ -260,13 +260,6 @@ VIDEO_HEIGHT_MAX
 2160
 ;
 static
-constexpr
-int
-DEFAULT_AUDIO_TIMER_MS
-=
-10
-;
-static
 nsString
 FakeVideoName
 (
