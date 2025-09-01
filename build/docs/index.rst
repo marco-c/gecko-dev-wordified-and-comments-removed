@@ -103,6 +103,11 @@ xpcom
 -
 components
 toolchains
+toolchains
+-
+update
+-
+policy
 locales
 unified
 -
