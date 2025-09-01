@@ -6,6 +6,11 @@ disable
 import
 /
 default
+no
+-
+unused
+-
+vars
 *
 /
 import
