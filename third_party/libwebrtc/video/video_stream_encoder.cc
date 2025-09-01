@@ -8803,14 +8803,13 @@ preferred_fallback_encoder
 {
 if
 (
-!
 env_
 .
 field_trials
 (
 )
 .
-IsDisabled
+IsEnabled
 (
 kSwitchEncoderFollowCodecPreferenceOrderFieldTrial
 )
