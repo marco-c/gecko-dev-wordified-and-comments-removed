@@ -37,7 +37,7 @@ suggestions
 suggestion_type
 :
 "
-realtime_opt_in
+market
 "
 attachment
 :
@@ -143,13 +143,11 @@ prefs
 [
 [
 "
-quicksuggest
+market
 .
-dynamicSuggestionTypes
+featureGate
 "
-"
-realtime_opt_in
-"
+true
 ]
 ]
 }
@@ -347,7 +345,7 @@ opt_in
 selected_result
 :
 "
-rust_realtime_opt_in
+rust_market
 "
 selected_position
 :
@@ -361,7 +359,7 @@ results
 :
 "
 search_engine
-rust_realtime_opt_in
+rust_market
 "
 }
 ]
@@ -488,7 +486,7 @@ not_now
 selected_result
 :
 "
-rust_realtime_opt_in
+rust_market
 "
 selected_position
 :
@@ -502,7 +500,7 @@ results
 :
 "
 search_engine
-rust_realtime_opt_in
+rust_market
 "
 }
 ]
@@ -673,7 +671,7 @@ dismiss
 selected_result
 :
 "
-rust_realtime_opt_in
+rust_market
 "
 selected_position
 :
@@ -687,7 +685,7 @@ results
 :
 "
 search_engine
-rust_realtime_opt_in
+rust_market
 "
 }
 ]
@@ -928,7 +926,7 @@ not_interested
 selected_result
 :
 "
-rust_realtime_opt_in
+rust_market
 "
 selected_position
 :
@@ -942,7 +940,7 @@ results
 :
 "
 search_engine
-rust_realtime_opt_in
+rust_market
 "
 }
 ]
