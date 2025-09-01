@@ -842,6 +842,11 @@ GetAssociatedDocument
 const
 ;
 void
+UpdateNeedsTraverse
+(
+)
+;
+void
 LogHistory
 (
 )
