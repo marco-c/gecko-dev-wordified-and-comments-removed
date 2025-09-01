@@ -745,13 +745,6 @@ onClearSiteDataMenuClick
 -
 >
 Unit
-onConnectionSecurityClick
-:
-(
-)
--
->
-Unit
 onPrivacySecuritySettingsClick
 :
 (
@@ -1025,9 +1018,9 @@ websiteInfoState
 .
 certificateName
 )
-onClick
+maxDescriptionLines
 =
-onConnectionSecurityClick
+2
 )
 }
 else
@@ -1063,9 +1056,6 @@ state
 MenuItemState
 .
 CRITICAL
-onClick
-=
-onConnectionSecurityClick
 )
 }
 }
@@ -2231,10 +2221,6 @@ onTrackingProtectionToggleClick
 {
 }
 onClearSiteDataMenuClick
-=
-{
-}
-onConnectionSecurityClick
 =
 {
 }
