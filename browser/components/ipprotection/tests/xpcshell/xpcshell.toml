@@ -56,3 +56,10 @@ test_IPProtectionService
 js
 "
 ]
+[
+"
+test_IPProtectionUsage
+.
+js
+"
+]
