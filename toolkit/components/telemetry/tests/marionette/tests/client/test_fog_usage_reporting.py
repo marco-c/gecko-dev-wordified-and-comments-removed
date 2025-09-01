@@ -236,6 +236,7 @@ self
 "
         
 Test
+that
 the
 "
 usage
@@ -244,16 +245,11 @@ reporting
 "
 ping
 behaviour
-and
-usage
--
-id
-cycling
-when
-disabling
-telemetry
-in
+is
+independent
+from
 general
+telemetry
 .
         
 We
@@ -286,6 +282,18 @@ usage
 id
 .
         
+The
+usage
+.
+profile_id
+stays
+the
+same
+across
+telemetry
+toggling
+.
+        
 "
 "
 "
@@ -297,9 +305,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -523,9 +540,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -599,7 +625,7 @@ usage_id2
         
 self
 .
-assertNotEqual
+assertEqual
 (
 usage_id1
 usage_id2
@@ -675,7 +701,7 @@ usage_group_id2
         
 self
 .
-assertNotEqual
+assertEqual
 (
 usage_group_id1
 usage_group_id2
@@ -751,9 +777,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -1073,9 +1108,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -1283,12 +1327,6 @@ browser
         
 self
 .
-disable_usage_reporting
-(
-)
-        
-self
-.
 enable_usage_reporting
 (
 )
@@ -1300,9 +1338,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -1431,9 +1478,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 FOG_USAGE_REPORTING
             
@@ -1734,9 +1790,18 @@ self
 wait_for_ping
 (
             
+lambda
+:
 self
 .
-restart_browser
+marionette
+.
+restart
+(
+in_app
+=
+True
+)
             
 BASELINE
             
