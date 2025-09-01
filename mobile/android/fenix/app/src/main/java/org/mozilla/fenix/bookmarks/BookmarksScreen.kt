@@ -3643,7 +3643,7 @@ R
 .
 string
 .
-content_description_menu
+bookmark_sort_menu_content_desc
 )
 tint
 =
