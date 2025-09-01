@@ -137,7 +137,7 @@ sys
 .
 mjs
 "
-UrlbarProvidersManager
+ProvidersManager
 :
 "
 resource
@@ -2287,7 +2287,7 @@ return
 await
 lazy
 .
-UrlbarProvidersManager
+ProvidersManager
 .
 runInCriticalSection
 (
@@ -2459,7 +2459,7 @@ return
 await
 lazy
 .
-UrlbarProvidersManager
+ProvidersManager
 .
 runInCriticalSection
 (

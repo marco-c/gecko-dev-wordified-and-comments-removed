@@ -854,7 +854,7 @@ sys
 .
 mjs
 "
-UrlbarProvidersManager
+ProvidersManager
 :
 "
 resource
@@ -4701,7 +4701,7 @@ if
 !
 lazy
 .
-UrlbarProvidersManager
+ProvidersManager
 .
 interruptLevel
 )
