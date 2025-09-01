@@ -290,11 +290,16 @@ toolbarColor
 Color
 .
 RED
-systemBarsColor
+statusBarColor
 =
 Color
 .
 BLUE
+navigationBarColor
+=
+Color
+.
+WHITE
 navigationBarDividerColor
 =
 Color

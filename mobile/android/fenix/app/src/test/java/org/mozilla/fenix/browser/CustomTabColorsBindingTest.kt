@@ -254,6 +254,7 @@ CustomTabColors
 2
 3
 4
+5
 )
 )
 )
@@ -271,7 +272,7 @@ window
 .
 navigationBarColor
 =
-2
+3
 }
 verify
 {
@@ -279,7 +280,7 @@ window
 .
 navigationBarDividerColor
 =
-3
+4
 }
 }
 Test
