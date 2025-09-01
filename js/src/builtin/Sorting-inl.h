@@ -243,7 +243,7 @@ return
 ComparatorKind
 :
 :
-JSSameRealmNoRectifier
+JSSameRealmNoUnderflow
 ;
 }
 return
@@ -513,13 +513,13 @@ ArraySortData
 ComparatorKind
 :
 :
-JSSameRealmNoRectifier
+JSSameRealmNoUnderflow
 )
 ?
 ArraySortResult
 :
 :
-CallJSSameRealmNoRectifier
+CallJSSameRealmNoUnderflow
 :
 ArraySortResult
 :
