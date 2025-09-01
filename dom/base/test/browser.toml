@@ -1150,6 +1150,13 @@ js
 ]
 [
 "
+browser_timezone_override
+.
+js
+"
+]
+[
+"
 browser_use_counters
 .
 js

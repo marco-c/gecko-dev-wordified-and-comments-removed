@@ -1582,6 +1582,15 @@ GetLanguageOverride
 ;
 txn
 .
+SetTimezoneOverride
+(
+GetTimezoneOverride
+(
+)
+)
+;
+txn
+.
 SetAllowJavascript
 (
 GetAllowJavascript
