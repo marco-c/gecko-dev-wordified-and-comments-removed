@@ -53,7 +53,7 @@ os_version
 '
 &
 &
-asan
+tsan
 "
 #
 long
@@ -72,9 +72,17 @@ os_version
 =
 =
 '
-18
+24
 .
 04
+'
+&
+&
+processor
+=
+=
+'
+x86_64
 '
 &
 &
