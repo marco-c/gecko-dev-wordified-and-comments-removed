@@ -1189,6 +1189,13 @@ enabled
 "
 browser
 .
+shell
+.
+checkDefaultBrowser
+"
+"
+browser
+.
 urlbar
 .
 quicksuggest
