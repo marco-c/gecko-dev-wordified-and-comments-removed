@@ -462,7 +462,7 @@ count_rtx_ssrc_
 )
 module_
 (
-NULL
+nullptr
 )
 {
 }
