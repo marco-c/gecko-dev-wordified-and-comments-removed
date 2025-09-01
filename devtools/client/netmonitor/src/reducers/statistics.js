@@ -167,9 +167,6 @@ Statistics
 {
 return
 {
-mutableStatisticsOpen
-:
-false
 mutableRequests
 :
 [
@@ -194,6 +191,9 @@ initStatisticsData
 (
 )
 }
+statisticsPanelOpen
+:
+false
 }
 ;
 }
@@ -223,7 +223,7 @@ if
 (
 state
 .
-mutableStatisticsOpen
+statisticsPanelOpen
 !
 =
 =
@@ -234,7 +234,7 @@ open
 {
 state
 .
-mutableStatisticsOpen
+statisticsPanelOpen
 =
 action
 .
@@ -254,7 +254,7 @@ if
 !
 state
 .
-mutableStatisticsOpen
+statisticsPanelOpen
 )
 {
 return
@@ -278,7 +278,7 @@ if
 !
 state
 .
-mutableStatisticsOpen
+statisticsPanelOpen
 )
 {
 return
@@ -385,11 +385,11 @@ return
 Statistics
 (
 )
-mutableStatisticsOpen
+statisticsPanelOpen
 :
 state
 .
-mutableStatisticsOpen
+statisticsPanelOpen
 }
 ;
 }
@@ -632,11 +632,6 @@ id
 ;
 return
 {
-mutableStatisticsOpen
-:
-state
-.
-mutableStatisticsOpen
 mutableRequests
 :
 state
@@ -657,6 +652,11 @@ primedCacheData
 :
 newPrimedCacheData
 }
+statisticsPanelOpen
+:
+state
+.
+statisticsPanelOpen
 }
 ;
 }
