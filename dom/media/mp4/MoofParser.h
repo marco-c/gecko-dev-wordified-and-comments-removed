@@ -1308,7 +1308,7 @@ Box
 aBox
 )
 ;
-bool
+nsresult
 BlockingReadNextMoof
 (
 )
