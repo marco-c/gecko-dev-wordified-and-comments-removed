@@ -17096,10 +17096,7 @@ rd
 vixl
 :
 :
-Register
-:
-:
-XRegFromCode
+XRegister
 (
 cur
 -
