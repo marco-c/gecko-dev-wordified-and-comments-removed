@@ -2576,10 +2576,6 @@ NavigationHistoryBehavior
 :
 :
 Auto
-bool
-aShouldNotForceReplaceInOnLoad
-=
-false
 )
 ;
 bool
