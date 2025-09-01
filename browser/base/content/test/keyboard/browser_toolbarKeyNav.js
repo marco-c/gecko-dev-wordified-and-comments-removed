@@ -602,6 +602,16 @@ enabled
 "
 true
 ]
+[
+"
+browser
+.
+taskbarTabs
+.
+enabled
+"
+false
+]
 ]
 }
 )
@@ -1542,6 +1552,7 @@ waitForCondition
 >
 {
 return
+!
 document
 .
 getElementById
@@ -1551,7 +1562,7 @@ PersonalToolbar
 "
 )
 .
-getAttribute
+hasAttribute
 (
 "
 collapsed
@@ -1704,7 +1715,7 @@ waitForCondition
 >
 toolbar
 .
-getAttribute
+hasAttribute
 (
 "
 collapsed
