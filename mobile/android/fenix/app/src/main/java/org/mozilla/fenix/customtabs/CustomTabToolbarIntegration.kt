@@ -71,6 +71,12 @@ content
 .
 Context
 import
+androidx
+.
+annotation
+.
+ColorInt
+import
 mozilla
 .
 components
@@ -168,6 +174,13 @@ String
 isPrivate
 :
 Boolean
+ColorInt
+backgroundColor
+:
+Int
+?
+=
+null
 )
 :
 ToolbarIntegration
@@ -200,4 +213,7 @@ ToolbarFeature
 RenderStyle
 .
 ColoredDomain
+backgroundColor
+=
+backgroundColor
 )
