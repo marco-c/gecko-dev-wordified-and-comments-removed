@@ -2942,6 +2942,13 @@ server
 "
 [
 "
+test_cache2_nostore
+.
+js
+"
+]
+[
+"
 test_cache_204_response
 .
 js
