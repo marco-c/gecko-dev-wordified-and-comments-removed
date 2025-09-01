@@ -2,6 +2,7 @@ var
 BLOCKED_PORTS_LIST
 =
 [
+0
 1
 7
 9
