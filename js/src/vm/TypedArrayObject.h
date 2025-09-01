@@ -889,6 +889,15 @@ elementsRaw
 )
 ;
 }
+bool
+hasMallocedElements
+(
+JSContext
+*
+cx
+)
+const
+;
 #
 ifdef
 DEBUG
