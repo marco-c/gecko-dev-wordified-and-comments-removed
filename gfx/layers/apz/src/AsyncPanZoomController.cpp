@@ -562,6 +562,17 @@ mozilla
 /
 layers
 /
+DoubleTapToZoom
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 APZPublicUtils
 .
 h

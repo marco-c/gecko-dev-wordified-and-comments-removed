@@ -70,6 +70,15 @@ include
 "
 mozilla
 /
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderAPI

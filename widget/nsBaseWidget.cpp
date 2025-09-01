@@ -345,6 +345,17 @@ mozilla
 /
 layers
 /
+AsyncDragMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TouchActionHelper
 .
 h
