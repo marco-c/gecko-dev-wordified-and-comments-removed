@@ -1232,11 +1232,6 @@ fillMaxWidth
 (
 )
 .
-aspectRatio
-(
-gridItemAspectRatio
-)
-.
 clip
 (
 tabContentCardShape
@@ -1702,6 +1697,14 @@ dp
 )
 Card
 (
+modifier
+=
+Modifier
+.
+aspectRatio
+(
+gridItemAspectRatio
+)
 shape
 =
 thumbnailShape
