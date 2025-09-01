@@ -791,6 +791,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 ;
 window
@@ -2475,6 +2480,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 .
 gBrowser

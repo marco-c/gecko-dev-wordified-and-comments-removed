@@ -6328,6 +6328,9 @@ private
 this
 .
 _isPrivate
+allowFromInactiveWorkspace
+:
+true
 }
 )
 ;

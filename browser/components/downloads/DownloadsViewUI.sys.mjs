@@ -3546,6 +3546,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 ;
 }

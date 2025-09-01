@@ -6179,6 +6179,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 ;
 if
@@ -6897,6 +6902,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 ;
 if

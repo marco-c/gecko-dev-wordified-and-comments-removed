@@ -736,6 +736,7 @@ getTopWindow
 if
 (
 win
+?
 .
 document
 .

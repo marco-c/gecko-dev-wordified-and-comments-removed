@@ -981,6 +981,11 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+{
+allowFromInactiveWorkspace
+:
+true
+}
 )
 ;
 let

@@ -9502,6 +9502,9 @@ getTopWindow
 private
 :
 allowPrivate
+allowFromInactiveWorkspace
+:
+true
 }
 )
 ;

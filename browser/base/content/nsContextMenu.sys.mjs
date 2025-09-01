@@ -10489,6 +10489,7 @@ this
 let
 openSelectionFn
 =
+async
 (
 )
 =
@@ -10640,6 +10641,18 @@ BrowserWindowTracker
 .
 getTopWindow
 (
+)
+?
+?
+(
+await
+lazy
+.
+BrowserWindowTracker
+.
+promiseOpenWindow
+(
+)
 )
 ;
 tabBrowser

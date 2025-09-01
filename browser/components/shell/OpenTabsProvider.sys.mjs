@@ -174,6 +174,9 @@ BrowserWindowTracker
 getTopWindow
 (
 {
+allowFromInactiveWorkspace
+:
+true
 private
 :
 false

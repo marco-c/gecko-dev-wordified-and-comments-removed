@@ -1326,6 +1326,12 @@ private
 false
 ;
 }
+options
+.
+allowFromInactiveWorkspace
+=
+true
+;
 return
 BrowserWindowTracker
 .

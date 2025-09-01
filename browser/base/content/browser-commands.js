@@ -1848,6 +1848,16 @@ BrowserWindowTracker
 getTopWindow
 (
 )
+?
+?
+(
+await
+BrowserWindowTracker
+.
+promiseOpenWindow
+(
+)
+)
 ;
 tabBrowser
 =

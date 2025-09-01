@@ -2481,6 +2481,7 @@ IsCloaked
 (
 )
 const
+override
 {
 return
 mIsCloaked

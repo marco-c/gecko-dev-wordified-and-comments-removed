@@ -2014,6 +2014,17 @@ workspaceID
 0
 ;
 virtual
+bool
+IsCloaked
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 SuppressAnimation
 (

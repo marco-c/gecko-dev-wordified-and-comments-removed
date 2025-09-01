@@ -447,8 +447,11 @@ this
 .
 getViewSourceActor
 (
+(
+await
 aGetBrowserFn
 (
+)
 )
 .
 browsingContext
