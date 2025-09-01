@@ -520,7 +520,7 @@ y
 apzc
 -
 >
-AssertStateIsSmoothMsdScroll
+AssertInSmoothMsdScroll
 (
 )
 ;

@@ -2808,9 +2808,6 @@ PINCHING
 ANIMATING_ZOOM
 OVERSCROLL_ANIMATION
 SMOOTH_SCROLL
-SMOOTHMSD_SCROLL
-WHEEL_SCROLL
-KEYBOARD_SCROLL
 AUTOSCROLL
 SCROLLBAR_DRAG
 }
@@ -2843,6 +2840,14 @@ SetDelayedTransformEnd
 bool
 aDelayedTransformEnd
 )
+;
+bool
+InScrollAnimation
+(
+ScrollAnimationKind
+aKind
+)
+const
 ;
 static
 bool
