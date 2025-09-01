@@ -2004,7 +2004,7 @@ listElement
 )
 ;
 }
-void
+EDescriptionValueFlag
 XULListitemAccessible
 :
 :
@@ -2016,6 +2016,7 @@ aDesc
 )
 const
 {
+return
 AccessibleWrap
 :
 :

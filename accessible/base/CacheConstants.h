@@ -683,6 +683,17 @@ static
 constexpr
 nsStaticAtom
 *
+DescriptionValueFlag
+=
+nsGkAtoms
+:
+:
+aria_description
+;
+static
+constexpr
+nsStaticAtom
+*
 DOMName
 =
 nsGkAtoms

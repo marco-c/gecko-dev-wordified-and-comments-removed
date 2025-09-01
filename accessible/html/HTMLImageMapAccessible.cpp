@@ -634,7 +634,7 @@ return
 eNameOK
 ;
 }
-void
+EDescriptionValueFlag
 HTMLAreaAccessible
 :
 :
@@ -683,6 +683,9 @@ GetShape
 (
 aDescription
 )
+;
+return
+eDescriptionOK
 ;
 }
 LocalAccessible

@@ -368,7 +368,7 @@ nullptr
 ;
 }
 virtual
-void
+EDescriptionValueFlag
 Description
 (
 nsString

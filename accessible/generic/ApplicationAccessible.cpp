@@ -310,7 +310,7 @@ return
 eNameOK
 ;
 }
-void
+EDescriptionValueFlag
 ApplicationAccessible
 :
 :
@@ -327,6 +327,9 @@ aDescription
 Truncate
 (
 )
+;
+return
+eDescriptionOK
 ;
 }
 void
