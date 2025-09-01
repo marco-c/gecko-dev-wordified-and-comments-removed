@@ -1068,7 +1068,7 @@ pgrep
 "
 "
 -
-fc
+f
 "
 process_name
 ]
