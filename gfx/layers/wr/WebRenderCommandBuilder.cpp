@@ -16421,6 +16421,16 @@ UsedImageRendering
 )
 )
 ;
+mHitTestInfoManager
+.
+ProcessItemAsImage
+(
+aItem
+dest
+aBuilder
+aDisplayListBuilder
+)
+;
 aBuilder
 .
 PushImage
