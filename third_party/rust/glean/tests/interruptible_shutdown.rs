@@ -64,15 +64,11 @@ use
 glean
 :
 :
-net
-;
-use
-glean
-:
-:
 {
+net
 ConfigurationBuilder
 PingRateLimit
+TestGetValue
 }
 ;
 mod
