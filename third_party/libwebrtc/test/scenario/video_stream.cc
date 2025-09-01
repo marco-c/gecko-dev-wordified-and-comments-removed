@@ -1235,9 +1235,6 @@ VideoStreamConfig
 config
 )
 {
-webrtc
-:
-:
 VideoEncoder
 :
 :
