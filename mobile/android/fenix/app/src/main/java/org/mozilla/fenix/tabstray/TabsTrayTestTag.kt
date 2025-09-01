@@ -285,6 +285,15 @@ PRIVATE_TABS_LIST
 .
 empty
 "
+const
+val
+UNAUTHENTICATED_SYNCED_TABS_PAGE
+=
+"
+SYNCED_TABS_LIST
+.
+unauthenticated
+"
 /
 /
 Tab

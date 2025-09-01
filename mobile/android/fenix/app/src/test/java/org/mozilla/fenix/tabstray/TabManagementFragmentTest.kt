@@ -1589,4 +1589,11 @@ onSyncedTabsFabClicked
 )
 {
 }
+override
+fun
+onSignInClicked
+(
+)
+{
+}
 }

@@ -1927,6 +1927,12 @@ tabManagerInteractor
 :
 :
 onSyncedTabClosed
+onSignInClick
+=
+tabManagerInteractor
+:
+:
+onSignInClicked
 onSaveToCollectionClick
 =
 tabManagerInteractor
