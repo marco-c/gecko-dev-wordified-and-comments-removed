@@ -1793,7 +1793,9 @@ emptyList
 )
 searchSuggestionsOrientedAtBottom
 =
-false
+settings
+.
+shouldUseBottomToolbar
 searchStartedForCurrentUrl
 =
 false
