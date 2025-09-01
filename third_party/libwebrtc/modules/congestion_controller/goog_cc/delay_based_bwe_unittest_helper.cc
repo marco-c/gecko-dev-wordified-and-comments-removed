@@ -280,7 +280,7 @@ RTC_CHECK
 packets
 !
 =
-NULL
+nullptr
 )
 ;
 size_t
@@ -748,7 +748,7 @@ RTC_CHECK
 packets
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_CHECK
