@@ -611,6 +611,11 @@ request_type
 "
 weather
 "
+source
+:
+"
+newtab
+"
 }
 }
 )
@@ -1226,6 +1231,11 @@ request_type
 :
 "
 location
+"
+source
+:
+"
+newtab
 "
 }
 }
