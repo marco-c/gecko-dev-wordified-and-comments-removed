@@ -709,6 +709,13 @@ version
 const
 override
 ;
+uint16_t
+GetSslGroupId
+(
+)
+const
+override
+;
 bool
 GetSrtpCryptoSuite
 (

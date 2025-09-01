@@ -260,6 +260,15 @@ const
 0
 ;
 virtual
+uint16_t
+GetSslGroupId
+(
+)
+const
+=
+0
+;
+virtual
 bool
 GetSrtpCryptoSuite
 (

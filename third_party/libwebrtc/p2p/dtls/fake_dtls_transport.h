@@ -1116,6 +1116,17 @@ return
 true
 ;
 }
+uint16_t
+GetSslGroupId
+(
+)
+const
+override
+{
+return
+0
+;
+}
 bool
 GetSrtpCryptoSuite
 (

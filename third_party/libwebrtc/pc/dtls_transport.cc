@@ -644,6 +644,12 @@ internal_dtls_transport_
 GetRemoteSSLCertChain
 (
 )
+internal_dtls_transport_
+-
+>
+GetSslGroupId
+(
+)
 )
 )
 ;
@@ -698,6 +704,10 @@ internal_dtls_transport_
 GetRemoteSSLCertChain
 (
 )
+std
+:
+:
+nullopt
 )
 )
 ;

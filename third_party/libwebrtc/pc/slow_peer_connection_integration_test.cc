@@ -2661,10 +2661,6 @@ SetCallerPcWrapperAndReturnCurrent
 CreatePeerConnectionWrapperWithAlternateKey
 (
 )
-.
-release
-(
-)
 )
 )
 ;
@@ -2832,10 +2828,6 @@ original_peer
 SetCalleePcWrapperAndReturnCurrent
 (
 CreatePeerConnectionWrapperWithAlternateKey
-(
-)
-.
-release
 (
 )
 )
