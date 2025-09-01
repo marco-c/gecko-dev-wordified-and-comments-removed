@@ -607,15 +607,6 @@ extra
 =
 ALLOW_EXTRA
 )
-"
-"
-"
-Notify
-schema
-.
-"
-"
-"
 transforms
 =
 TransformSequence

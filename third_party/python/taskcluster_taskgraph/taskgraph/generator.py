@@ -689,6 +689,12 @@ write_artifacts
 bool
 =
 False
+        
+enable_verifications
+:
+bool
+=
+True
     
 )
 :
@@ -784,6 +790,12 @@ self
 _write_artifacts
 =
 write_artifacts
+        
+self
+.
+_enable_verifications
+=
+enable_verifications
         
 self
 .
@@ -1425,7 +1437,9 @@ register
 (
 )
         
-verifications
+self
+.
+verify
 (
 "
 initial
@@ -1632,7 +1646,9 @@ target_kinds
         
 }
         
-verifications
+self
+.
+verify
 (
 "
 kinds
@@ -1778,9 +1794,68 @@ kind_name
 kind
 =
 kinds
-[
+.
+get
+(
 kind_name
-]
+)
+            
+if
+not
+kind
+:
+                
+message
+=
+f
+'
+Could
+not
+find
+the
+kind
+"
+{
+kind_name
+}
+"
+\
+nAvailable
+kinds
+:
+\
+n
+'
+                
+for
+k
+in
+sorted
+(
+kinds
+)
+:
+                    
+message
++
+=
+f
+'
+-
+"
+{
+k
+}
+"
+\
+n
+'
+                
+raise
+Exception
+(
+message
+)
             
 try
 :
@@ -2654,7 +2729,6 @@ verify
 (
 self
 name
-obj
 *
 args
 *
@@ -2663,10 +2737,15 @@ kwargs
 )
 :
         
+if
+self
+.
+_enable_verifications
+:
+            
 verifications
 (
 name
-obj
 *
 args
 *
@@ -2674,9 +2753,16 @@ args
 kwargs
 )
         
+if
+args
+:
+            
 return
 name
-obj
+args
+[
+0
+]
 def
 load_tasks_for_kind
 (

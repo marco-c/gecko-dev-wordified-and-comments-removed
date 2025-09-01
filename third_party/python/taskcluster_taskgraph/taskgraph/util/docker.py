@@ -1581,6 +1581,7 @@ None
 def
 image_paths
 (
+graph_config
 )
 :
     
@@ -1607,22 +1608,35 @@ config
 =
 load_yaml
 (
+        
+graph_config
+.
+kinds_dir
+        
+graph_config
+.
+get
+(
 "
-taskcluster
-"
-"
-kinds
+docker
+-
+image
+-
+kind
 "
 "
 docker
 -
 image
 "
+)
+        
 "
 kind
 .
 yml
 "
+    
 )
     
 return
@@ -1636,7 +1650,9 @@ path
 .
 join
 (
-IMAGE_DIR
+graph_config
+.
+docker_dir
 v
 .
 get
@@ -1668,6 +1684,7 @@ def
 image_path
 (
 name
+graph_config
 )
 :
     
@@ -1675,6 +1692,7 @@ paths
 =
 image_paths
 (
+graph_config
 )
     
 if
@@ -1696,7 +1714,9 @@ path
 .
 join
 (
-IMAGE_DIR
+graph_config
+.
+docker_dir
 name
 )
 functools
@@ -1711,6 +1731,7 @@ def
 parse_volumes
 (
 image
+graph_config
 )
 :
     
@@ -1742,6 +1763,7 @@ path
 image_path
 (
 image
+graph_config
 )
     
 with
