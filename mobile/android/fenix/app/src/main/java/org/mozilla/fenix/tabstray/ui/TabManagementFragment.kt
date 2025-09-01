@@ -2617,8 +2617,7 @@ observePrivateModeLock
 lockNormalMode
 =
 true
-onPrivateModeLocked
-=
+)
 {
 if
 (
@@ -2651,7 +2650,6 @@ TABS_TRAY
 )
 }
 }
-)
 }
 override
 fun

@@ -3617,9 +3617,6 @@ customTabSessionId
 null
 )
 observePrivateModeLock
-(
-onPrivateModeLocked
-=
 {
 findNavController
 (
@@ -3648,7 +3645,6 @@ TAB
 )
 )
 }
-)
 if
 (
 !

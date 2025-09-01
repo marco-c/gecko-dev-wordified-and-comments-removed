@@ -5006,9 +5006,6 @@ observeWallpaperUpdates
 (
 )
 observePrivateModeLock
-(
-onPrivateModeLocked
-=
 {
 findNavController
 (
@@ -5026,7 +5023,6 @@ HOME_PAGE
 )
 )
 }
-)
 toolbarView
 .
 build
