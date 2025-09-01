@@ -537,9 +537,6 @@ return
 received_count_
 ;
 }
-webrtc
-:
-:
 EcnMarking
 LastEcnMarking
 (
@@ -572,9 +569,6 @@ network_thread_
 Buffer
 payload_
 ;
-webrtc
-:
-:
 EcnMarking
 last_ecn_mark_
 ;
@@ -3158,9 +3152,6 @@ r2
 LastEcnMarking
 (
 )
-webrtc
-:
-:
 EcnMarking
 :
 :

@@ -2021,9 +2021,6 @@ std
 string
 GetProtocolAsString
 (
-webrtc
-:
-:
 IceCandidatePairProtocol
 protocol
 )
@@ -2034,9 +2031,6 @@ protocol
 )
 {
 case
-webrtc
-:
-:
 IceCandidatePairProtocol
 :
 :
@@ -2046,9 +2040,6 @@ return
 kProtocolUdp
 ;
 case
-webrtc
-:
-:
 IceCandidatePairProtocol
 :
 :
@@ -2058,9 +2049,6 @@ return
 kProtocolTcp
 ;
 case
-webrtc
-:
-:
 IceCandidatePairProtocol
 :
 :
@@ -2070,9 +2058,6 @@ return
 kProtocolSsltcp
 ;
 case
-webrtc
-:
-:
 IceCandidatePairProtocol
 :
 :
@@ -2094,9 +2079,6 @@ std
 string
 GetAddressFamilyAsString
 (
-webrtc
-:
-:
 IceCandidatePairAddressFamily
 family
 )
@@ -2107,9 +2089,6 @@ family
 )
 {
 case
-webrtc
-:
-:
 IceCandidatePairAddressFamily
 :
 :
@@ -2119,9 +2098,6 @@ return
 kAddressFamilyIpv4
 ;
 case
-webrtc
-:
-:
 IceCandidatePairAddressFamily
 :
 :
@@ -2143,9 +2119,6 @@ std
 string
 GetNetworkTypeAsString
 (
-webrtc
-:
-:
 IceCandidateNetworkType
 type
 )
@@ -2156,9 +2129,6 @@ type
 )
 {
 case
-webrtc
-:
-:
 IceCandidateNetworkType
 :
 :
@@ -2168,9 +2138,6 @@ return
 kNetworkTypeEthernet
 ;
 case
-webrtc
-:
-:
 IceCandidateNetworkType
 :
 :
@@ -2180,9 +2147,6 @@ return
 kNetworkTypeLoopback
 ;
 case
-webrtc
-:
-:
 IceCandidateNetworkType
 :
 :
@@ -2192,9 +2156,6 @@ return
 kNetworkTypeWifi
 ;
 case
-webrtc
-:
-:
 IceCandidateNetworkType
 :
 :
@@ -2204,9 +2165,6 @@ return
 kNetworkTypeVpn
 ;
 case
-webrtc
-:
-:
 IceCandidateNetworkType
 :
 :
@@ -2793,9 +2751,6 @@ float
 GetHighestSeqNumber
 (
 const
-webrtc
-:
-:
 rtcp
 :
 :
@@ -2816,9 +2771,6 @@ float
 GetFractionLost
 (
 const
-webrtc
-:
-:
 rtcp
 :
 :
@@ -2849,9 +2801,6 @@ float
 GetCumulativeLost
 (
 const
-webrtc
-:
-:
 rtcp
 :
 :
@@ -2872,9 +2821,6 @@ float
 DelaySinceLastSr
 (
 const
-webrtc
-:
-:
 rtcp
 :
 :
@@ -3409,9 +3355,6 @@ this
 >
 CreatePacketGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3440,9 +3383,6 @@ this
 >
 CreatePacketGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3471,9 +3411,6 @@ this
 >
 CreateRtcpTypeGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3502,9 +3439,6 @@ this
 >
 CreateRtcpTypeGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3533,9 +3467,6 @@ this
 >
 CreateAccumulatedPacketsGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3564,9 +3495,6 @@ this
 >
 CreateAccumulatedPacketsGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3595,9 +3523,6 @@ this
 >
 CreatePacketRateGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3626,9 +3551,6 @@ this
 >
 CreatePacketRateGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3657,9 +3579,6 @@ this
 >
 CreateTotalPacketRateGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3688,9 +3607,6 @@ this
 >
 CreateTotalPacketRateGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3773,9 +3689,6 @@ this
 >
 CreateAudioLevelGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -3804,9 +3717,6 @@ this
 >
 CreateAudioLevelGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -3976,9 +3886,6 @@ this
 >
 CreateStreamBitrateGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -4007,9 +3914,6 @@ this
 >
 CreateStreamBitrateGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -4038,9 +3942,6 @@ this
 >
 CreateBitrateAllocationGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -4069,9 +3970,6 @@ this
 >
 CreateBitrateAllocationGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -4316,9 +4214,6 @@ this
 >
 CreateTimestampGraph
 (
-webrtc
-:
-:
 kIncomingPacket
 plot
 )
@@ -4347,9 +4242,6 @@ this
 >
 CreateTimestampGraph
 (
-webrtc
-:
-:
 kOutgoingPacket
 plot
 )
@@ -4378,9 +4270,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kIncomingPacket
 GetFractionLost
 "
@@ -4425,9 +4314,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kOutgoingPacket
 GetFractionLost
 "
@@ -4472,9 +4358,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kIncomingPacket
 GetCumulativeLost
 "
@@ -4516,9 +4399,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kOutgoingPacket
 GetCumulativeLost
 "
@@ -4560,9 +4440,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kIncomingPacket
 GetHighestSeqNumber
 "
@@ -4605,9 +4482,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kOutgoingPacket
 GetHighestSeqNumber
 "
@@ -4650,9 +4524,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kIncomingPacket
 DelaySinceLastSr
 "
@@ -4700,9 +4571,6 @@ this
 >
 CreateSenderAndReceiverReportPlot
 (
-webrtc
-:
-:
 kOutgoingPacket
 DelaySinceLastSr
 "
@@ -11679,9 +11547,6 @@ ecn
 )
 {
 case
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -11694,9 +11559,6 @@ not_ect_count
 break
 ;
 case
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -11709,9 +11571,6 @@ ect_1_count
 break
 ;
 case
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -11734,9 +11593,6 @@ ect
 break
 ;
 case
-webrtc
-:
-:
 EcnMarking
 :
 :

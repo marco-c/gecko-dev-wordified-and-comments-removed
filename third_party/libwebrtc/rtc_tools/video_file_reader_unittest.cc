@@ -73,9 +73,6 @@ filename
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -237,9 +234,6 @@ file
 ;
 video
 =
-webrtc
-:
-:
 test
 :
 :
@@ -256,9 +250,6 @@ video
 }
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :
@@ -471,9 +462,6 @@ filename
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -598,9 +586,6 @@ file
 ;
 video
 =
-webrtc
-:
-:
 test
 :
 :
@@ -619,9 +604,6 @@ video
 }
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :
