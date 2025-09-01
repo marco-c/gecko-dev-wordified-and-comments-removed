@@ -3999,7 +3999,7 @@ pref_key_show_shortcuts_suggestions
 )
 default
 =
-true
+false
 )
 /
 *
