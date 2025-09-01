@@ -149,7 +149,7 @@ false
 shouldShowSearchSuggestions
 =
 false
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 false
 showSearchSuggestionsHint

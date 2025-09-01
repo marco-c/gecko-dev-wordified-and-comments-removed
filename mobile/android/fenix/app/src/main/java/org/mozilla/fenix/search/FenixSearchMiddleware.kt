@@ -1666,11 +1666,6 @@ value
 .
 enabled
 )
-&
-&
-isSearchSuggestionsFeatureEnabled
-(
-)
 }
 val
 shouldShowSearchSuggestions
@@ -1697,11 +1692,6 @@ isNotBlank
 |
 |
 showSearchShortcuts
-)
-&
-&
-isSearchSuggestionsFeatureEnabled
-(
 )
 }
 val

@@ -686,7 +686,7 @@ true
 showSearchShortcutsSetting
 =
 true
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 true
 showSearchTermHistory
@@ -3528,7 +3528,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -3803,7 +3803,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -4083,7 +4083,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -4269,7 +4269,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -4610,7 +4610,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -4924,7 +4924,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertTrue
 (
@@ -5700,7 +5700,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -5859,7 +5859,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -6018,7 +6018,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 assertFalse
 (
@@ -6218,7 +6218,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 store
 .
@@ -6241,7 +6241,7 @@ store
 .
 state
 .
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 )
 }
 Test

@@ -904,7 +904,7 @@ AwesomeBar
 .
 *
 property
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 Whether
 or
 not
@@ -913,6 +913,7 @@ show
 search
 suggestions
 from
+*
 the
 search
 engine
@@ -1380,7 +1381,7 @@ shouldShowSearchSuggestions
 :
 Boolean
 val
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 :
 Boolean
 val
@@ -1558,7 +1559,7 @@ false
 shouldShowSearchSuggestions
 =
 false
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 false
 showSearchSuggestionsHint
@@ -1805,7 +1806,7 @@ false
 defaultEngine
 =
 null
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 shouldShowSearchSuggestions
 (
@@ -2778,7 +2779,7 @@ action
 .
 engine
 )
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 shouldShowSearchSuggestions
 (
@@ -3003,7 +3004,7 @@ action
 .
 engine
 )
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 shouldShowSearchSuggestions
 (
@@ -3298,7 +3299,7 @@ action
 .
 engine
 )
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 false
 showSearchShortcuts
@@ -3370,7 +3371,7 @@ action
 .
 engine
 )
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 false
 showSearchShortcuts
@@ -3442,7 +3443,7 @@ action
 .
 engine
 )
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 false
 showSearchShortcuts
@@ -3536,7 +3537,7 @@ state
 .
 copy
 (
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 =
 action
 .

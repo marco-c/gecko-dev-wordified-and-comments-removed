@@ -143,7 +143,7 @@ showAllBookmarkSuggestions
 showAllBookmarkSuggestions
 showSearchSuggestions
 =
-showSearchSuggestions
+showSearchSuggestionsFromCurrentEngine
 showSyncedTabsSuggestionsForCurrentEngine
 =
 showSyncedTabsSuggestionsForCurrentEngine
