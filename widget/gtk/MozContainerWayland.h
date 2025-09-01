@@ -189,14 +189,6 @@ GtkWidget
 aWidget
 )
 ;
-void
-moz_container_wayland_update_opaque_region
-(
-MozContainer
-*
-container
-)
-;
 gboolean
 moz_container_wayland_can_draw
 (
