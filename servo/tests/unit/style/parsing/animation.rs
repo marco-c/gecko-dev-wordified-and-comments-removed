@@ -5,12 +5,6 @@ parsing
 parse
 ;
 use
-stylo_atoms
-:
-:
-Atom
-;
-use
 style
 :
 :
@@ -60,6 +54,12 @@ style_traits
 :
 :
 ToCss
+;
+use
+stylo_atoms
+:
+:
+Atom
 ;
 #
 [
