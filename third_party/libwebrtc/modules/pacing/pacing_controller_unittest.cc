@@ -786,9 +786,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -920,9 +917,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -1694,9 +1688,6 @@ false
 void
 AdvanceTimeUntil
 (
-webrtc
-:
-:
 Timestamp
 time
 )

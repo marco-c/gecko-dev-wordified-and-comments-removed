@@ -376,9 +376,6 @@ data
 =
 0x7f
 ;
-webrtc
-:
-:
 ByteWriter
 <
 uint16_t
@@ -395,9 +392,6 @@ data
 seq_num
 )
 ;
-webrtc
-:
-:
 ByteWriter
 <
 uint32_t
@@ -414,9 +408,6 @@ data
 time_stamp
 )
 ;
-webrtc
-:
-:
 ByteWriter
 <
 uint32_t

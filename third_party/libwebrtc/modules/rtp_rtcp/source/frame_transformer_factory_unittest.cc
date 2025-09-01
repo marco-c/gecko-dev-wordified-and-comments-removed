@@ -252,9 +252,6 @@ data_view
 )
 )
 ;
-webrtc
-:
-:
 VideoFrameMetadata
 metadata
 ;

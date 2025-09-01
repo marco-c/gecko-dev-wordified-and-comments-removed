@@ -3659,9 +3659,6 @@ frame_encryptor_
 >
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3714,9 +3711,6 @@ frame_encryptor_
 >
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 :
 :

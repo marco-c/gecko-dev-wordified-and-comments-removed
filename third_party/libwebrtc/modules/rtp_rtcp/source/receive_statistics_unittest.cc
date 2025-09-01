@@ -4037,9 +4037,6 @@ jitter
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
