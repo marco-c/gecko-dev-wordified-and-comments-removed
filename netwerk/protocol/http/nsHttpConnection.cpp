@@ -12791,7 +12791,7 @@ LOG
 (
 (
 "
-nsHttpConection
+nsHttpConnection
 :
 :
 HandshakeDone
