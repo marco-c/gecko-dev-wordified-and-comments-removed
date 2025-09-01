@@ -183,7 +183,7 @@ this
 onboardingType
 =
 "
-longpress
+shiftKey
 "
 ;
 }
