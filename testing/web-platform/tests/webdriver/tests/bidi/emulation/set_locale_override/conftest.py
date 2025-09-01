@@ -164,10 +164,6 @@ not
 equal
 to
 default_locale
-nor
-to
-    
-another_locale
 .
     
 "
@@ -209,6 +205,7 @@ default
 default_locale
 }
 "
+    
 )
 pytest
 .
@@ -260,7 +257,7 @@ and
 locale
 !
 =
-another_locale
+some_locale
 :
             
 return
@@ -284,5 +281,10 @@ default
 {
 default_locale
 }
+and
+{
+some_locale
+}
 "
+    
 )
