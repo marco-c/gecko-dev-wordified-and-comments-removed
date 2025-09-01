@@ -33,10 +33,6 @@ aarch64
 linux
 -
 androideabi
-export
-MOZILLA_OFFICIAL
-=
-1
 ac_add_options
 -
 -
