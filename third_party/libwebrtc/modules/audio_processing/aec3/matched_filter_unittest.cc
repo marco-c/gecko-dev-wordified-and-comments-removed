@@ -292,7 +292,6 @@ kDownSamplingFactors
 ]
 =
 {
-2
 4
 8
 }
