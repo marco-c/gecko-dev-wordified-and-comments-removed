@@ -2386,6 +2386,9 @@ provider
 "
 Dynamic
 "
+suggestionType
+:
+rsSuggestionType
 isSponsored
 :
 false
