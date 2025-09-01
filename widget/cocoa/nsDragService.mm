@@ -238,6 +238,9 @@ gDraggedTransferables
 bool
 gCreatedFileForFileURL
 ;
+bool
+gCreatedFileForFilePromise
+;
 already_AddRefed
 <
 nsIDragSession
@@ -1136,6 +1139,10 @@ gDraggedTransferables
 aTransferableArray
 ;
 gCreatedFileForFileURL
+=
+false
+;
+gCreatedFileForFilePromise
 =
 false
 ;
