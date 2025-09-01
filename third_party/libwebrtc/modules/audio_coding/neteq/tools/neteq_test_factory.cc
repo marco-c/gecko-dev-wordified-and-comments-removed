@@ -2303,9 +2303,6 @@ config
 red
 config
 .
-opus_red
-config
-.
 avt
 config
 .
