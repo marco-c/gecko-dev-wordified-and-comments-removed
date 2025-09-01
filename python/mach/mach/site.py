@@ -6312,7 +6312,7 @@ kwargs
 setdefault
 (
 "
-universal_newlines
+text
 "
 True
 )
@@ -6322,9 +6322,13 @@ kwargs
 setdefault
 (
 "
-text
+encoding
 "
-True
+"
+utf
+-
+8
+"
 )
         
 try
