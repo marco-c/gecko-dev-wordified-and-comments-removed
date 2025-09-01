@@ -66,7 +66,7 @@ PushResampler
 (
 )
 ;
-int
+void
 Resample
 (
 InterleavedView
@@ -82,7 +82,7 @@ T
 dst
 )
 ;
-int
+void
 Resample
 (
 MonoView

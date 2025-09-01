@@ -1131,9 +1131,6 @@ written_samples
 channels
 )
 ;
-EXPECT_EQ
-(
-480
 resampler_
 .
 Resample10Msec
@@ -1148,7 +1145,6 @@ audio_frame
 sample_rate_hz_
 dst
 48000
-)
 )
 ;
 written_samples
