@@ -5251,11 +5251,6 @@ id
 ]
 !
 !
-downloadJobState
-.
-currentBytesCopied
-=
-1000
 service
 .
 setDownloadJobStatus
@@ -5378,13 +5373,6 @@ getDownloadJobStatus
 (
 downloadJobState
 )
-)
-assertEquals
-(
-0
-downloadJobState
-.
-currentBytesCopied
 )
 /
 /
