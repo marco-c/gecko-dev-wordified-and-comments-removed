@@ -126,6 +126,18 @@ TimeUnits
 h
 "
 ;
+using
+mozilla
+:
+:
+NormalizedConstraints
+from
+"
+MediaTrackConstraints
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -451,6 +463,8 @@ int
 captureId
 VideoCaptureCapability
 capability
+NormalizedConstraints
+constraints
 )
 ;
 async

@@ -2168,6 +2168,9 @@ MOZ_ASSERT
 mTrack
 )
 ;
+NormalizedConstraints
+constraints
+;
 DesiredSizeInput
 input
 {
@@ -2190,6 +2193,11 @@ mMutex
 mState
 =
 kStarted
+;
+constraints
+=
+*
+mConstraints
 ;
 const
 int32_t
@@ -2229,8 +2237,7 @@ input
 .
 mConstraints
 =
-*
-mConstraints
+constraints
 .
 mCanCropAndScale
 =
@@ -2326,6 +2333,7 @@ StartCapture
 mCapEngine
 mCaptureId
 mCapability
+constraints
 this
 )
 )

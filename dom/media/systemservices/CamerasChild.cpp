@@ -2266,6 +2266,10 @@ webrtc
 VideoCaptureCapability
 &
 webrtcCaps
+const
+NormalizedConstraints
+&
+constraints
 FrameRelay
 *
 cb
@@ -2328,6 +2332,7 @@ NewRunnableMethod
 CaptureEngine
 int
 VideoCaptureCapability
+NormalizedConstraints
 >
 (
 "
@@ -2348,6 +2353,7 @@ SendStartCapture
 aCapEngine
 capture_id
 capCap
+constraints
 )
 ;
 LockAndDispatch
