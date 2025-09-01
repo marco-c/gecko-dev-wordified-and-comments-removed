@@ -30,11 +30,6 @@ nsIRunnable
 &
 &
 aRunnable
-nsIEventTarget
-:
-:
-DispatchFlags
-aFlags
 )
 {
 if
@@ -67,7 +62,6 @@ move
 (
 aRunnable
 )
-aFlags
 )
 ;
 }

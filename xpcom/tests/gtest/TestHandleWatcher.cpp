@@ -2260,7 +2260,7 @@ already_AddRefed
 <
 nsIRunnable
 >
-DispatchFlags
+uint32_t
 )
 {
 return
@@ -2272,7 +2272,7 @@ DispatchFromScript
 (
 nsIRunnable
 *
-DispatchFlags
+uint32_t
 )
 {
 return

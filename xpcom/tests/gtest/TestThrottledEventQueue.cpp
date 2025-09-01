@@ -306,7 +306,7 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-DispatchFlags
+uint32_t
 aFlags
 )
 override
@@ -344,7 +344,7 @@ DispatchFromScript
 nsIRunnable
 *
 aRunnable
-DispatchFlags
+uint32_t
 aFlags
 )
 override

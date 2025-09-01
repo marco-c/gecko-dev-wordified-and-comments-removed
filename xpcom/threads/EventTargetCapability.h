@@ -188,10 +188,7 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-nsIEventTarget
-:
-:
-DispatchFlags
+uint32_t
 aFlags
 =
 NS_DISPATCH_NORMAL
