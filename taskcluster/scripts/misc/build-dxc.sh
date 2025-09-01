@@ -159,9 +159,7 @@ tar
 dxc_src_dir
 =
 "
-HOME
-/
-fetches
+MOZ_FETCHES_DIR
 /
 DirectXShaderCompiler
 "
