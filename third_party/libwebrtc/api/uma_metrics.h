@@ -313,6 +313,9 @@ kSsrcs
 kIceOptionsRenomination
 =
 28
+kDirection
+=
+29
 kRtpHeaderExtensionRemoved
 =
 40
