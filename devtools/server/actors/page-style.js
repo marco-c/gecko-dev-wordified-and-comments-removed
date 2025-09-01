@@ -754,6 +754,9 @@ stretch
 %
 "
 )
+newInactiveCssDataShape
+:
+true
 }
 }
 ;

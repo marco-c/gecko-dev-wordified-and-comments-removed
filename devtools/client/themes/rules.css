@@ -1286,7 +1286,9 @@ warning
 .
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 .
@@ -3376,7 +3378,9 @@ warning
 .
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 .
@@ -3539,7 +3543,9 @@ color
 .
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 {
@@ -3659,7 +3665,9 @@ color
 .
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 :
@@ -4897,7 +4905,9 @@ property
 is
 (
 .
-unused
+inactive
+-
+css
 .
 ruleview
 -
@@ -5458,7 +5468,9 @@ property
 is
 (
 .
-unused
+inactive
+-
+css
 .
 ruleview
 -
