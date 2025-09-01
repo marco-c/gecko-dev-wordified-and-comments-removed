@@ -7736,6 +7736,11 @@ ml
 {
 quantizeLinearTests
 .
+filter
+(
+isTargetTest
+)
+.
 forEach
 (
 (
@@ -7749,7 +7754,6 @@ webnn_conformance_test
 buildAndExecuteGraph
 getQuantizeLinearPrecisionTolerance
 test
-true
 )
 ;
 }

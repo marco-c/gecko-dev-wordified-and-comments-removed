@@ -9303,6 +9303,11 @@ ml
 {
 dequantizeLinearTests
 .
+filter
+(
+isTargetTest
+)
+.
 forEach
 (
 (
@@ -9316,7 +9321,6 @@ webnn_conformance_test
 buildAndExecuteGraph
 getDequantizeLinearPrecisionTolerance
 test
-true
 )
 ;
 }

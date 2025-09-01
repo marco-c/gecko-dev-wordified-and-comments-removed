@@ -2709,6 +2709,11 @@ ml
 {
 logicalOrTests
 .
+filter
+(
+isTargetTest
+)
+.
 forEach
 (
 (
@@ -2722,7 +2727,6 @@ webnn_conformance_test
 buildAndExecuteGraph
 getZeroULPTolerance
 test
-true
 )
 ;
 }
