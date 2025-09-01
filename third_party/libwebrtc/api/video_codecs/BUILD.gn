@@ -137,7 +137,7 @@ gni
 "
 )
 }
-rtc_source_set
+rtc_library
 (
 "
 scalability_mode
@@ -209,7 +209,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 scalability_mode_helper

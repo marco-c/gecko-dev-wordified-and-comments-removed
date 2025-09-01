@@ -640,7 +640,7 @@ environment
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 stun_types
@@ -1022,7 +1022,7 @@ if
 rtc_include_tests
 )
 {
-rtc_source_set
+rtc_library
 (
 "
 stun_unittest

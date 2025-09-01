@@ -4981,7 +4981,7 @@ rtc_libvpx_dir
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 webrtc_vp8_scalability

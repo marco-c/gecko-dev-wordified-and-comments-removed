@@ -151,7 +151,7 @@ network_emulation
 /
 "
 }
-rtc_source_set
+rtc_library
 (
 "
 schedulable_network_node_builder

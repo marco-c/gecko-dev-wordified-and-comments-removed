@@ -183,7 +183,7 @@ protobuf_lite
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 bitstream_reader
@@ -330,7 +330,7 @@ assume
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 callback_list
@@ -3001,7 +3001,7 @@ h
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtc_operations_chain
@@ -5231,7 +5231,7 @@ win32
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 network_constants
@@ -7123,7 +7123,7 @@ win32
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 digest

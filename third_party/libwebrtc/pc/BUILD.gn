@@ -431,7 +431,7 @@ rtc_export
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 channel
@@ -877,7 +877,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 dtls_srtp_transport
@@ -979,7 +979,7 @@ ssl_adapter
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 dtls_transport
@@ -1123,7 +1123,7 @@ mutex
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 external_hmac
@@ -1191,7 +1191,7 @@ libsrtp
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 ice_transport
@@ -1265,7 +1265,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 jsep_transport
@@ -1537,7 +1537,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 jsep_transport_collection
@@ -1652,7 +1652,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 jsep_transport_controller
@@ -2174,7 +2174,7 @@ media_engine
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 media_session
@@ -3251,7 +3251,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtcp_mux_filter
@@ -3297,7 +3297,7 @@ logging
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtp_media_utils
@@ -3491,7 +3491,7 @@ libjingle_peerconnection_api
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtp_transport
@@ -3847,7 +3847,7 @@ any_invocable
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 sctp_transport
@@ -3999,7 +3999,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 sctp_utils
@@ -4129,7 +4129,7 @@ ssl_adapter
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 srtp_session
@@ -4332,7 +4332,7 @@ libsrtp
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 srtp_transport
@@ -4492,7 +4492,7 @@ received_packet
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 transport_stats
@@ -4626,7 +4626,7 @@ logging
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 video_track_source_proxy
@@ -4727,7 +4727,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 session_description
@@ -4947,7 +4947,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 simulcast_description
@@ -5595,7 +5595,7 @@ always_valid_pointer
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 data_channel_controller
@@ -6016,7 +6016,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtc_stats_collector
@@ -6539,7 +6539,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtc_stats_traversal
@@ -6597,7 +6597,7 @@ checks
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 sdp_munging_detector
@@ -6722,7 +6722,7 @@ container
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 sdp_offer_answer
@@ -7308,7 +7308,7 @@ visibility
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 local_audio_source
@@ -7374,7 +7374,7 @@ scoped_refptr
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 peer_connection
@@ -8111,7 +8111,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 simulcast_sdp_serializer
@@ -8249,7 +8249,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 sdp_utils
@@ -8313,7 +8313,7 @@ rtc_export
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 legacy_stats_collector
@@ -8682,7 +8682,7 @@ libjingle_peerconnection_api
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 track_media_info_map
@@ -8796,7 +8796,7 @@ threading
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 webrtc_sdp
@@ -9158,7 +9158,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 webrtc_session_description_factory
@@ -9612,7 +9612,7 @@ container
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 peer_connection_factory

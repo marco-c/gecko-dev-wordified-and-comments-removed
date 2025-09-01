@@ -708,7 +708,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 windows_core_audio_utility
@@ -917,7 +917,7 @@ supported
 on
 Windows
 .
-rtc_source_set
+rtc_library
 (
 "
 audio_device_module_from_input_and_output

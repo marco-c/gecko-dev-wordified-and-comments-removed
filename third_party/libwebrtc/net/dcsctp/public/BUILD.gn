@@ -173,7 +173,7 @@ h
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 socket
@@ -307,7 +307,7 @@ h
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 factory
@@ -415,7 +415,7 @@ test_support
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 utils

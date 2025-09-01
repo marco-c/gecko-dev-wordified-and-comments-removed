@@ -195,7 +195,7 @@ h
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 enable_media
@@ -321,7 +321,7 @@ media_factory
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 enable_media_with_defaults
@@ -2302,7 +2302,7 @@ rtc_export
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 frame_transformer_interface
@@ -3685,7 +3685,7 @@ string_view
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 frame_generator_api
@@ -4847,7 +4847,7 @@ network_emulation
 sub
 directory
 .
-rtc_source_set
+rtc_library
 (
 "
 network_emulation_manager_api
@@ -4998,7 +4998,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 time_controller
@@ -8617,7 +8617,7 @@ units_unittests
 ]
 }
 }
-rtc_source_set
+rtc_library
 (
 "
 field_trials_registry

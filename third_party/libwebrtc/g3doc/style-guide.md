@@ -2723,6 +2723,7 @@ everything
 else
 use
 rtc_library
+)
 |
 |
 static_library
@@ -2736,6 +2737,7 @@ you
 really
 need
 rtc_static_library
+)
 |
 |
 test

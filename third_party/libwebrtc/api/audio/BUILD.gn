@@ -434,7 +434,7 @@ refcount
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 audio_processing
@@ -738,7 +738,7 @@ nullability
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 audio_processing_statistics
@@ -1018,7 +1018,7 @@ nullability
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 echo_detector_creator

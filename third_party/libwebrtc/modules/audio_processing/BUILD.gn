@@ -462,7 +462,7 @@ cascaded_biquad_filter
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 aec_dump_interface
@@ -1442,7 +1442,7 @@ metrics
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rms_level

@@ -95,7 +95,7 @@ webrtc
 gni
 "
 )
-rtc_source_set
+rtc_library
 (
 "
 neteq_api
@@ -190,7 +190,7 @@ timestamp
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 default_neteq_factory
@@ -264,7 +264,7 @@ environment
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 custom_neteq_factory
@@ -385,7 +385,7 @@ environment
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 default_neteq_controller_factory
@@ -441,7 +441,7 @@ environment
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 tick_timer
@@ -485,7 +485,7 @@ checks
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 tick_timer_unittest

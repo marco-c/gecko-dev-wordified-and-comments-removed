@@ -2005,7 +2005,7 @@ video_codecs_api
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 video_frame_metadata

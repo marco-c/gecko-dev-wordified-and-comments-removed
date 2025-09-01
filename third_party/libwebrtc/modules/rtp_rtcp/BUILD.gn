@@ -3106,7 +3106,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtp_rtcp_legacy
@@ -4021,7 +4021,7 @@ inlined_vector
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rtp_video_header_unittest
@@ -6330,7 +6330,7 @@ string_view
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 frame_transformer_factory_unittest

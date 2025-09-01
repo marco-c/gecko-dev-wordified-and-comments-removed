@@ -527,7 +527,7 @@ safe_compare
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 rnn_vad_layers

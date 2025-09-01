@@ -186,7 +186,7 @@ checks
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 dependency_descriptor

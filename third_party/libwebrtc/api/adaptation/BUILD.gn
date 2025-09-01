@@ -95,7 +95,7 @@ webrtc
 gni
 "
 )
-rtc_source_set
+rtc_library
 (
 "
 resource_adaptation_api
