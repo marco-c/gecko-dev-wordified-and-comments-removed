@@ -377,14 +377,6 @@ UncaughtException
 extends
 RuntimeException
 {
-SuppressWarnings
-(
-"
-checkstyle
-:
-javadocmethod
-"
-)
 public
 UncaughtException
 (
