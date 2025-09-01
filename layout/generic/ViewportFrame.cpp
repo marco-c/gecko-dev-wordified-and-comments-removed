@@ -881,12 +881,6 @@ this
 aIndex
 &
 aTopLayerList
-aBuilder
--
->
-CurrentActiveScrolledRoot
-(
-)
 false
 )
 ;
