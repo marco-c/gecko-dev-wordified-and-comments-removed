@@ -21598,7 +21598,7 @@ if
 mPolicyContainer
 -
 >
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 )

@@ -204,7 +204,7 @@ aOtherContainer
 ;
 nsIContentSecurityPolicy
 *
-CSP
+GetCSP
 (
 )
 const
@@ -230,7 +230,7 @@ aPolicyContainer
 ;
 nsIIntegrityPolicy
 *
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 const

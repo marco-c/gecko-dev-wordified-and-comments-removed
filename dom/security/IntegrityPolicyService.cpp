@@ -885,7 +885,7 @@ policyContainer
 )
 -
 >
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 )
