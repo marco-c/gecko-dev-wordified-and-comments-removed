@@ -5566,6 +5566,7 @@ Element
 &
 aElement
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -7281,7 +7282,6 @@ AutoEditActionDataSetter
 *
 mEditActionData
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetTextDirectionTo
 (

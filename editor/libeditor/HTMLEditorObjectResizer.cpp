@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsICSSDeclaration
+.
+h
+"
+#
+include
+"
 nsID
 .
 h
@@ -3807,8 +3814,6 @@ CSSEditUtils
 SetCSSPropertyPixelsWithoutTransaction
 (
 *
-this
-*
 resizingShadowStyledElement
 *
 nsGkAtoms
@@ -3881,8 +3886,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 *
 resizingShadowStyledElement
 *
@@ -4826,8 +4829,6 @@ CSSEditUtils
 SetCSSPropertyPixelsWithoutTransaction
 (
 *
-this
-*
 resizingInfoStyledElement
 *
 nsGkAtoms
@@ -4904,8 +4905,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 *
 resizingInfoStyledElement
 *
@@ -6066,8 +6065,6 @@ CSSEditUtils
 SetCSSPropertyPixelsWithoutTransaction
 (
 *
-this
-*
 resizingShadowStyledElement
 *
 nsGkAtoms
@@ -6142,8 +6139,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 *
 resizingShadowStyledElement
 *
@@ -6220,8 +6215,6 @@ CSSEditUtils
 SetCSSPropertyPixelsWithoutTransaction
 (
 *
-this
-*
 resizingShadowStyledElement
 *
 nsGkAtoms
@@ -6296,8 +6289,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 *
 resizingShadowStyledElement
 *
@@ -6600,8 +6591,6 @@ CSSEditUtils
 SetCSSPropertyPixelsWithoutTransaction
 (
 *
-this
-*
 positioningShadowStyledElement
 *
 nsGkAtoms
@@ -6676,8 +6665,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 *
 positioningShadowStyledElement
 *

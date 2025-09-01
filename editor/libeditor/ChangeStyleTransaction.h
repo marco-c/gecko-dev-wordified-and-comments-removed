@@ -14,7 +14,7 @@ h
 #
 include
 "
-EditorForwards
+nsCOMPtr
 .
 h
 "
@@ -59,9 +59,6 @@ protected
 :
 ChangeStyleTransaction
 (
-HTMLEditor
-&
-aHTMLEditor
 nsStyledElement
 &
 aStyledElement
@@ -85,9 +82,6 @@ ChangeStyleTransaction
 >
 Create
 (
-HTMLEditor
-&
-aHTMLEditor
 nsStyledElement
 &
 aStyledElement
@@ -107,9 +101,6 @@ ChangeStyleTransaction
 >
 CreateToRemove
 (
-HTMLEditor
-&
-aHTMLEditor
 nsStyledElement
 &
 aStyledElement
@@ -242,12 +233,6 @@ nsACString
 &
 aValue
 )
-;
-RefPtr
-<
-HTMLEditor
->
-mHTMLEditor
 ;
 RefPtr
 <
