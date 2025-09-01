@@ -797,6 +797,13 @@ js
 ]
 [
 "
+test_ext_contentscript_css_origin
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_dynamic_registration
 .
 js

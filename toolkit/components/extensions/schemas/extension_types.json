@@ -623,6 +623,13 @@ the
 stylesheet
 .
 "
+"
+preprocess
+"
+:
+"
+stringToLowerCase
+"
 }
 {
 "
@@ -1095,6 +1102,13 @@ optional
 "
 :
 true
+"
+default
+"
+:
+"
+author
+"
 "
 description
 "

@@ -2903,6 +2903,11 @@ world
 "
 MAIN
 "
+cssOrigin
+:
+"
+USER
+"
 }
 )
 ;
@@ -3066,6 +3071,7 @@ matchAboutBlank
 matchOriginAsFallback
 runAt
 world
+cssOrigin
 originAttributesPatterns
 }
 =
@@ -3081,6 +3087,7 @@ matchAboutBlank
 matchOriginAsFallback
 runAt
 world
+cssOrigin
 originAttributesPatterns
 }
 {
@@ -3124,6 +3131,11 @@ world
 :
 "
 MAIN
+"
+cssOrigin
+:
+"
+user
 "
 originAttributesPatterns
 :

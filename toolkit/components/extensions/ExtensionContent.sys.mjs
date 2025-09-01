@@ -2262,7 +2262,6 @@ properties
 :
 wantReturnValue
 removeCSS
-cssOrigin
 *
 /
 constructor
@@ -9445,11 +9444,6 @@ removeCSS
 options
 .
 removeCSS
-cssOrigin
-:
-options
-.
-cssOrigin
 }
 )
 ;
