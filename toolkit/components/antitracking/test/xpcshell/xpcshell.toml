@@ -400,6 +400,13 @@ js
 ]
 [
 "
+test_user_interaction_pref
+.
+js
+"
+]
+[
+"
 test_validate_strip_on_share_list
 .
 js
