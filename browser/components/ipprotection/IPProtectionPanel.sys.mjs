@@ -1072,10 +1072,10 @@ IPProtectionService
 .
 updateHasUpgradedStatus
 (
-false
+true
 /
 *
-useCached
+refetchEntitlement
 *
 /
 )
