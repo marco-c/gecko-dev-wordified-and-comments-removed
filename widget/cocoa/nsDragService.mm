@@ -236,7 +236,7 @@ nsIArray
 gDraggedTransferables
 ;
 bool
-gCreatedFileForFileURL
+gCreatedPromisedFile
 ;
 already_AddRefed
 <
@@ -1135,7 +1135,7 @@ gDraggedTransferables
 =
 aTransferableArray
 ;
-gCreatedFileForFileURL
+gCreatedPromisedFile
 =
 false
 ;
