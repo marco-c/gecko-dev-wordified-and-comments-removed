@@ -115,14 +115,6 @@ compose
 .
 foundation
 .
-ExperimentalFoundationApi
-import
-androidx
-.
-compose
-.
-foundation
-.
 gestures
 .
 Orientation
@@ -1337,7 +1329,6 @@ displayed
 .
 *
 /
-ExperimentalFoundationApi
 Composable
 fun
 LazyItemScope

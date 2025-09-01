@@ -135,14 +135,6 @@ compose
 .
 foundation
 .
-ExperimentalFoundationApi
-import
-androidx
-.
-compose
-.
-foundation
-.
 gestures
 .
 detectDragGestures
@@ -1471,7 +1463,6 @@ displayed
 .
 *
 /
-ExperimentalFoundationApi
 Composable
 Suppress
 (

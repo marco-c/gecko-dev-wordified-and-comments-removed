@@ -165,7 +165,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -173,7 +173,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 IconButton
 import
@@ -181,7 +181,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Surface
 import
@@ -189,7 +189,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -208,14 +208,6 @@ compose
 ui
 .
 Alignment
-import
-androidx
-.
-compose
-.
-ui
-.
-ExperimentalComposeUiApi
 import
 androidx
 .
@@ -580,13 +572,6 @@ text
 .
 *
 /
-OptIn
-(
-ExperimentalComposeUiApi
-:
-:
-class
-)
 Composable
 Suppress
 (

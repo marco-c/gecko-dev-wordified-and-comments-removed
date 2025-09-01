@@ -73,14 +73,6 @@ compose
 .
 foundation
 .
-ExperimentalFoundationApi
-import
-androidx
-.
-compose
-.
-foundation
-.
 Indication
 import
 androidx
@@ -199,7 +191,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -207,7 +199,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -602,13 +594,6 @@ pressInteraction
 }
 }
 }
-)
-OptIn
-(
-ExperimentalFoundationApi
-:
-:
-class
 )
 Preview
 Composable
