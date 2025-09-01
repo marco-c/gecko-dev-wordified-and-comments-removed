@@ -471,13 +471,16 @@ debugger
 expects
 /
 /
-ANDROID_PACKAGE_NAME
+{
+package_name
+}
 /
 firefox
 -
 debugger
 -
 socket
+format
 .
 /
 /

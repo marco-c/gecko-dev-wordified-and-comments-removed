@@ -648,13 +648,6 @@ MOZ_ANDROID_MIN_SDK_VERSION
 manifestPlaceholders
 =
 [
-ANDROID_PACKAGE_NAME
-:
-mozconfig
-.
-substs
-.
-ANDROID_PACKAGE_NAME
 ANDROID_TARGET_SDK
 :
 mozconfig

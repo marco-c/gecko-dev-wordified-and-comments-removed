@@ -1868,9 +1868,6 @@ var
 in
 (
 "
-ANDROID_PACKAGE_NAME
-"
-"
 MOZ_APP_NAME
 "
 "
