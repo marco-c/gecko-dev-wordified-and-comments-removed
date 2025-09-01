@@ -466,7 +466,7 @@ rb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -509,7 +509,7 @@ wb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -552,7 +552,7 @@ wb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf

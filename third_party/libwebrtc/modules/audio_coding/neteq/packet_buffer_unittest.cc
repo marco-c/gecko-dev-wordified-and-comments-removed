@@ -2259,7 +2259,7 @@ temp_ts
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 buffer
 .
 PeekNextPacket

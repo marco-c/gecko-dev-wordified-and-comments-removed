@@ -103,7 +103,7 @@ PCMFile
 :
 pcm_file_
 (
-NULL
+nullptr
 )
 samples_10ms_
 (
@@ -175,7 +175,7 @@ timestamp
 :
 pcm_file_
 (
-NULL
+nullptr
 )
 samples_10ms_
 (
@@ -266,7 +266,7 @@ stdin
 )
 !
 =
-NULL
+nullptr
 )
 ;
 tmp_name
@@ -549,7 +549,7 @@ stdin
 )
 !
 =
-NULL
+nullptr
 )
 ;
 uint16_t
@@ -635,7 +635,7 @@ c_str
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -1175,7 +1175,7 @@ pcm_file_
 ;
 pcm_file_
 =
-NULL
+nullptr
 ;
 blocks_read_
 =

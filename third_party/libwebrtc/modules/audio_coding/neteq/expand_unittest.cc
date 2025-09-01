@@ -266,7 +266,7 @@ EXPECT_TRUE
 expand
 !
 =
-NULL
+nullptr
 )
 ;
 delete

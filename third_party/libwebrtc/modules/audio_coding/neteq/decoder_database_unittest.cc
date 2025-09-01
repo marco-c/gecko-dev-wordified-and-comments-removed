@@ -639,7 +639,7 @@ ASSERT_TRUE
 info
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -693,7 +693,7 @@ EXPECT_TRUE
 info
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -762,7 +762,7 @@ ASSERT_TRUE
 dec
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1318,7 +1318,7 @@ cn
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 db
 .
 GetActiveDecoder
@@ -1328,7 +1328,7 @@ GetActiveDecoder
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 db
 .
 GetActiveCngDecoder
@@ -1375,7 +1375,7 @@ ASSERT_FALSE
 decoder
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1412,7 +1412,7 @@ ASSERT_FALSE
 decoder
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1449,7 +1449,7 @@ ASSERT_FALSE
 decoder
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1468,7 +1468,7 @@ Remove
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 db
 .
 GetActiveDecoder
@@ -1505,7 +1505,7 @@ ASSERT_FALSE
 cng
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1524,7 +1524,7 @@ Remove
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 db
 .
 GetActiveCngDecoder

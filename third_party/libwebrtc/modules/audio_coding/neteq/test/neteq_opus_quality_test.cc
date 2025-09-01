@@ -414,11 +414,11 @@ opus
 )
 opus_encoder_
 (
-NULL
+nullptr
 )
 repacketizer_
 (
-NULL
+nullptr
 )
 sub_block_size_samples_
 (

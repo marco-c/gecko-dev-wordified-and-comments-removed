@@ -1551,7 +1551,7 @@ if
 inst
 !
 =
-NULL
+nullptr
 )
 {
 state
@@ -1577,7 +1577,7 @@ if
 state
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1715,7 +1715,7 @@ if
 inst
 !
 =
-NULL
+nullptr
 )
 {
 state
@@ -1741,7 +1741,7 @@ if
 state
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2183,7 +2183,7 @@ decoded_samples
 DecodeNative
 (
 inst
-NULL
+nullptr
 0
 plc_samples
 decoded
@@ -2738,7 +2738,7 @@ if
 payload
 =
 =
-NULL
+nullptr
 |
 |
 payload_length_bytes
@@ -2829,10 +2829,10 @@ opus_int32
 (
 payload_length_bytes
 )
-NULL
+nullptr
 frame_data
 frame_sizes
-NULL
+nullptr
 )
 <
 0
@@ -2927,7 +2927,7 @@ if
 payload
 =
 =
-NULL
+nullptr
 |
 |
 payload_length_bytes
@@ -3021,10 +3021,10 @@ opus_int32
 (
 payload_length_bytes
 )
-NULL
+nullptr
 frame_data
 frame_sizes
-NULL
+nullptr
 )
 ;
 if

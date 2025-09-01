@@ -322,7 +322,7 @@ Sender
 :
 _acm
 (
-NULL
+nullptr
 )
 _pcmFile
 (
@@ -332,7 +332,7 @@ _audioFrame
 )
 _packetization
 (
-NULL
+nullptr
 )
 {
 }

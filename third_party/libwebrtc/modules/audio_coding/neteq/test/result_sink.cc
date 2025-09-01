@@ -452,7 +452,7 @@ EXPECT_TRUE
 output_fp_
 !
 =
-NULL
+nullptr
 )
 ;
 }

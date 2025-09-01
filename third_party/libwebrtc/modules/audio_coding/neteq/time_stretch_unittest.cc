@@ -221,7 +221,7 @@ EXPECT_TRUE
 accelerate
 !
 =
-NULL
+nullptr
 )
 ;
 delete
@@ -249,7 +249,7 @@ EXPECT_TRUE
 preemptive_expand
 !
 =
-NULL
+nullptr
 )
 ;
 delete

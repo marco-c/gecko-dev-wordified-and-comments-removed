@@ -1302,7 +1302,7 @@ est_len
 WebRtcOpus_DurationEst
 (
 decoder
-NULL
+nullptr
 0
 )
 ;
@@ -1312,7 +1312,7 @@ act_len
 WebRtcOpus_Decode
 (
 decoder
-NULL
+nullptr
 0
 &
 output_audio
@@ -2360,7 +2360,7 @@ EXPECT_EQ
 1
 WebRtcOpus_EncoderCreate
 (
-NULL
+nullptr
 1
 0
 48000
@@ -2415,7 +2415,7 @@ EXPECT_EQ
 1
 WebRtcOpus_DecoderCreate
 (
-NULL
+nullptr
 1
 48000
 )
@@ -2460,7 +2460,7 @@ EXPECT_EQ
 1
 WebRtcOpus_EncoderFree
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2470,7 +2470,7 @@ EXPECT_EQ
 1
 WebRtcOpus_DecoderFree
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2505,7 +2505,7 @@ EXPECT_TRUE
 opus_encoder_
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2513,7 +2513,7 @@ EXPECT_TRUE
 opus_decoder_
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3969,7 +3969,7 @@ plc_samples
 WebRtcOpus_Decode
 (
 opus_decoder_
-NULL
+nullptr
 0
 plc_buffer
 &

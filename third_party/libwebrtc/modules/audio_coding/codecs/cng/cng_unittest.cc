@@ -219,7 +219,7 @@ ASSERT_TRUE
 input_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_EQ
@@ -250,7 +250,7 @@ input_file
 ;
 input_file
 =
-NULL
+nullptr
 ;
 }
 void

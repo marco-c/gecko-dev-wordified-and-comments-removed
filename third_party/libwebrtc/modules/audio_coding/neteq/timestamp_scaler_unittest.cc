@@ -1752,7 +1752,7 @@ Packet
 *
 packet
 =
-NULL
+nullptr
 ;
 scaler
 .

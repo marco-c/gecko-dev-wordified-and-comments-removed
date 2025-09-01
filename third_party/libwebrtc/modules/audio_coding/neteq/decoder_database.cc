@@ -1110,7 +1110,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1251,7 +1251,7 @@ active_decoder_type_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1343,7 +1343,7 @@ active_cng_decoder_type_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if

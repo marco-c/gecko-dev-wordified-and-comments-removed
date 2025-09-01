@@ -2636,7 +2636,7 @@ audio_coding_
 >
 RegisterTransportCallback
 (
-NULL
+nullptr
 )
 ;
 RTC_DCHECK_EQ

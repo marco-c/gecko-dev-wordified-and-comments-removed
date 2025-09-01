@@ -811,7 +811,7 @@ c_str
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -865,7 +865,7 @@ if
 _rtpFile
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -875,7 +875,7 @@ _rtpFile
 ;
 _rtpFile
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1015,7 +1015,7 @@ _rtpFile
 )
 !
 =
-0
+nullptr
 )
 ;
 EXPECT_EQ

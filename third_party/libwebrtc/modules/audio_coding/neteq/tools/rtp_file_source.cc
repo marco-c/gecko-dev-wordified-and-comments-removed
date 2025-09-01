@@ -318,7 +318,7 @@ temp_packet
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
