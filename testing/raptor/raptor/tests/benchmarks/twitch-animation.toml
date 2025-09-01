@@ -69,6 +69,9 @@ unit
 "
 ms
 "
+sparse_checkout
+=
+true
 #
 Bug
 1972620

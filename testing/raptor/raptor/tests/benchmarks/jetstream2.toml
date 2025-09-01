@@ -79,6 +79,9 @@ unit
 "
 score
 "
+sparse_checkout
+=
+true
 [
 "
 jetstream2

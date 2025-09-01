@@ -73,6 +73,9 @@ unit
 "
 score
 "
+sparse_checkout
+=
+true
 [
 "
 unity

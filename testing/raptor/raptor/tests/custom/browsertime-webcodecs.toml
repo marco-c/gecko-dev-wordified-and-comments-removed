@@ -107,6 +107,9 @@ benchmarks
 /
 webcodecs
 "
+sparse_checkout
+=
+true
 [
 "
 ve

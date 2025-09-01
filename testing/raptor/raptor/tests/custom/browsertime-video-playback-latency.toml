@@ -209,6 +209,9 @@ playback
 -
 latency
 "
+sparse_checkout
+=
+true
 [
 "
 vpl

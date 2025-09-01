@@ -70,6 +70,9 @@ unit
 "
 ms
 "
+sparse_checkout
+=
+true
 [
 "
 assorted

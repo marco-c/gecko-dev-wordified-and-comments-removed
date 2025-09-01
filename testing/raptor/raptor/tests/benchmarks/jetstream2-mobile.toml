@@ -10,6 +10,7 @@ apps
 =
 "
 fenix
+geckoview
 chrome
 -
 m
@@ -82,6 +83,9 @@ unit
 "
 score
 "
+sparse_checkout
+=
+true
 [
 "
 jetstream2
