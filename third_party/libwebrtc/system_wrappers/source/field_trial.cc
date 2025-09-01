@@ -112,7 +112,7 @@ char
 *
 trials_init_string
 =
-NULL
+nullptr
 ;
 namespace
 {
@@ -722,7 +722,7 @@ if
 trials_init_string
 =
 =
-NULL
+nullptr
 )
 return
 std

@@ -146,15 +146,15 @@ outputFilename
 :
 _ptrAudioBuffer
 (
-NULL
+nullptr
 )
 _recordingBuffer
 (
-NULL
+nullptr
 )
 _playoutBuffer
 (
-NULL
+nullptr
 )
 _recordingFramesLeft
 (
@@ -913,7 +913,7 @@ _playoutBuffer
 ;
 _playoutBuffer
 =
-NULL
+nullptr
 ;
 return
 -
@@ -1034,7 +1034,7 @@ _playoutBuffer
 ;
 _playoutBuffer
 =
-NULL
+nullptr
 ;
 _outputFile
 .
@@ -1173,7 +1173,7 @@ _recordingBuffer
 ;
 _recordingBuffer
 =
-NULL
+nullptr
 ;
 return
 -
@@ -1298,7 +1298,7 @@ _recordingBuffer
 ;
 _recordingBuffer
 =
-NULL
+nullptr
 ;
 }
 _inputFile
