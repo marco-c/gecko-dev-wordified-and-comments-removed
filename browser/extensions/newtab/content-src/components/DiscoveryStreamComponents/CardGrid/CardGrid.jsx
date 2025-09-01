@@ -655,7 +655,6 @@ const
 items
 ctaButtonSponsors
 ctaButtonVariant
-spocMessageVariant
 widgets
 DiscoveryStream
 }
@@ -1128,11 +1127,6 @@ ctaButtonVariant
 =
 {
 ctaButtonVariant
-}
-spocMessageVariant
-=
-{
-spocMessageVariant
 }
 recommendation_id
 =

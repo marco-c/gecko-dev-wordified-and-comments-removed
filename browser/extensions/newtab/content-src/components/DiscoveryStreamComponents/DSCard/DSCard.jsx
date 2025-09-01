@@ -690,7 +690,6 @@ sponsor
 sponsored_by_override
 ctaButtonVariant
 dispatch
-spocMessageVariant
 mayHaveSectionsCards
 mayHaveThumbsUpDown
 onThumbsUpClick
@@ -1206,11 +1205,6 @@ dispatch
 =
 {
 dispatch
-}
-spocMessageVariant
-=
-{
-spocMessageVariant
 }
 mayHaveSectionsCards
 =
@@ -5693,15 +5687,6 @@ this
 props
 .
 dispatch
-}
-spocMessageVariant
-=
-{
-this
-.
-props
-.
-spocMessageVariant
 }
 mayHaveThumbsUpDown
 =

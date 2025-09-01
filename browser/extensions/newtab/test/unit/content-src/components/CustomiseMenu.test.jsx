@@ -66,12 +66,6 @@ enabledWidgets
 :
 {
 }
-mayHaveSponsoredTopSites
-:
-true
-mayHaveSponsoredStories
-:
-true
 mayHaveWeather
 :
 true

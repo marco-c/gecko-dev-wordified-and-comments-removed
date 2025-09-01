@@ -1084,7 +1084,6 @@ section
 dispatch
 type
 firstVisibleTimestamp
-spocMessageVariant
 ctaButtonVariant
 ctaButtonSponsors
 anySectionsFollowed
@@ -2445,11 +2444,6 @@ ctaButtonVariant
 {
 ctaButtonVariant
 }
-spocMessageVariant
-=
-{
-spocMessageVariant
-}
 sectionsClassNames
 =
 {
@@ -2551,7 +2545,6 @@ feed
 dispatch
 type
 firstVisibleTimestamp
-spocMessageVariant
 ctaButtonVariant
 ctaButtonSponsors
 }
@@ -2835,11 +2828,6 @@ firstVisibleTimestamp
 =
 {
 firstVisibleTimestamp
-}
-spocMessageVariant
-=
-{
-spocMessageVariant
 }
 ctaButtonVariant
 =

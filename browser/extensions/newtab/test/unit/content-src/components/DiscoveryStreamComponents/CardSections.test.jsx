@@ -163,10 +163,6 @@ CardGrid
 firstVisibleTimeStamp
 :
 null
-spocMessageVariant
-:
-"
-"
 ctaButtonSponsors
 :
 [
