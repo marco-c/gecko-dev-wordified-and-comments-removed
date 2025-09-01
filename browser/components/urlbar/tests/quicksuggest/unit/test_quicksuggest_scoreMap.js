@@ -2477,6 +2477,10 @@ icon
 suggestion
 .
 icon
+suggestedIndex
+:
+-
+1
 }
 )
 ;

@@ -2621,6 +2621,10 @@ undefined
 displayUrl
 =
 undefined
+suggestedIndex
+=
+-
+1
 }
 )
 {
@@ -2636,6 +2640,7 @@ source
 provider
 originalUrl
 displayUrl
+suggestedIndex
 }
 )
 ;
