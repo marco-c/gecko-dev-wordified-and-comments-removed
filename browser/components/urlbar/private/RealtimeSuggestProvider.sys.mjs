@@ -1566,6 +1566,9 @@ in
 -
 dismiss
 "
+cacheable
+:
+true
 }
 }
 :
@@ -1595,6 +1598,9 @@ not
 -
 now
 "
+cacheable
+:
+true
 }
 }
 ;
@@ -1679,6 +1685,9 @@ in
 -
 allow
 "
+cacheable
+:
+true
 }
 }
 {
