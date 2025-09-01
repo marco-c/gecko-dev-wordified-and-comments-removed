@@ -901,7 +901,9 @@ aria
 -
 label
 "
-GetDynamicShortcutTooltipText
+DynamicShortcutTooltip
+.
+getText
 (
 "
 tabs
@@ -9602,6 +9604,8 @@ menu
 "
 )
 ;
+DynamicShortcutTooltip
+.
 nodeToTooltipMap
 [
 parent
@@ -9626,6 +9630,8 @@ tooltip
 }
 else
 {
+DynamicShortcutTooltip
+.
 nodeToTooltipMap
 [
 parent
@@ -9658,7 +9664,9 @@ popup
 )
 ;
 }
-gDynamicTooltipCache
+DynamicShortcutTooltip
+.
+cache
 .
 delete
 (

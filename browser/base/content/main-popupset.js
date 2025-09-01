@@ -2577,7 +2577,9 @@ shortcut
 tooltip
 "
 :
-UpdateDynamicShortcutTooltipText
+DynamicShortcutTooltip
+.
+updateText
 (
 event
 .

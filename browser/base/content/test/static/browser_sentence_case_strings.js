@@ -341,7 +341,9 @@ textContent
 toolbarbutton
 .
 toolTipText
-GetDynamicShortcutTooltipText
+DynamicShortcutTooltip
+.
+getText
 (
 toolbarbutton
 .
