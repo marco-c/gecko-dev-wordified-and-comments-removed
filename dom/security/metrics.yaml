@@ -3196,6 +3196,16 @@ bugzil
 la
 /
 1582512
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+1983112
 data_reviews
 :
 -
@@ -3301,9 +3311,6 @@ pref
 type
 :
 boolean
-telemetry_mirror
-:
-Security_Javascriptload_Parentprocess
 https_only_mode_upgrade_time
 :
 type
