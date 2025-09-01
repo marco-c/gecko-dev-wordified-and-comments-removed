@@ -48,6 +48,14 @@ NavigationType
 aNavigationType
 )
 ;
+static
+NavigationType
+NavigationTypeFromLoadType
+(
+uint32_t
+aLoadType
+)
+;
 }
 ;
 }
