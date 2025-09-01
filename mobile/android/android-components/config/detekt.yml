@@ -4771,3 +4771,12 @@ WildcardImport
 active
 :
 true
+mozilla
+-
+rules
+:
+ForbiddenSuppression
+:
+active
+:
+true

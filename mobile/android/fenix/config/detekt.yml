@@ -4910,3 +4910,12 @@ MozillaUseLazyMonitored
 active
 :
 true
+mozilla
+-
+rules
+:
+ForbiddenSuppression
+:
+active
+:
+true
