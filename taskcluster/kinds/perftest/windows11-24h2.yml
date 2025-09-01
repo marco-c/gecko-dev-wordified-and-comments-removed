@@ -2262,6 +2262,15 @@ ML
 Models
 Perf
 Tests
+worker
+:
+max
+-
+run
+-
+time
+:
+3000
 treeherder
 :
 symbol
