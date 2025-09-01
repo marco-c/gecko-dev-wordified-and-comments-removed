@@ -4955,7 +4955,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_do_not_ask_again_on_this_site3
+mozac_feature_sitepermissions_do_not_ask_again_on_this_site4
 shouldSelectRememberChoice
 =
 false
@@ -5001,7 +5001,7 @@ R
 .
 string
 .
-mozac_feature_sitepermissions_do_not_ask_again_on_this_site3
+mozac_feature_sitepermissions_do_not_ask_again_on_this_site4
 shouldSelectRememberChoice
 =
 false
