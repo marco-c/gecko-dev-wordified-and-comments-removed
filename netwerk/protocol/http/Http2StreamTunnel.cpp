@@ -435,6 +435,10 @@ aReason
 )
 ;
 }
+mClosed
+=
+true
+;
 }
 NS_IMETHODIMP
 Http2StreamTunnel
@@ -481,10 +485,6 @@ mCondition
 )
 )
 {
-mSession
-=
-nullptr
-;
 if
 (
 NS_SUCCEEDED
@@ -517,6 +517,10 @@ aReason
 mCondition
 =
 aReason
+;
+mSession
+=
+nullptr
 ;
 }
 return
