@@ -2577,7 +2577,6 @@ buffer_index
 =
 nullptr
 ;
-auto
 status
 =
 zx
