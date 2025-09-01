@@ -408,7 +408,7 @@ display
 )
 root_window_
 0
-NULL
+nullptr
 )
 ;
 if
@@ -416,7 +416,7 @@ if
 gc_
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -660,7 +660,7 @@ XFixesCreateRegion
 display
 (
 )
-0
+nullptr
 0
 )
 ;

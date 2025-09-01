@@ -311,7 +311,7 @@ x_display
 )
 callback_
 (
-NULL
+nullptr
 )
 mode_
 (
@@ -1155,7 +1155,7 @@ x_display
 )
 )
 return
-NULL
+nullptr
 ;
 window
 =
@@ -1182,7 +1182,7 @@ window
 None
 )
 return
-NULL
+nullptr
 ;
 return
 new
@@ -1218,7 +1218,7 @@ x_display
 )
 )
 return
-NULL
+nullptr
 ;
 return
 new

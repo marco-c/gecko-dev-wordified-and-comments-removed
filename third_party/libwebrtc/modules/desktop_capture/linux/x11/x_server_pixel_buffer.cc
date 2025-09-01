@@ -1006,7 +1006,7 @@ shm_segment_info_
 >
 shmid
 IPC_RMID
-0
+nullptr
 )
 ;
 delete
@@ -1263,7 +1263,7 @@ display_
 default_visual
 default_depth
 ZPixmap
-0
+nullptr
 shm_segment_info_
 window_rect_
 .
@@ -1326,7 +1326,7 @@ shm_segment_info_
 -
 >
 shmid
-0
+nullptr
 0
 )
 ;
@@ -1510,7 +1510,7 @@ shm_segment_info_
 >
 shmid
 IPC_RMID
-0
+nullptr
 )
 ;
 shm_segment_info_
@@ -1717,7 +1717,7 @@ shm_pixmap_
 ;
 shm_gc_
 =
-0
+nullptr
 ;
 return
 false

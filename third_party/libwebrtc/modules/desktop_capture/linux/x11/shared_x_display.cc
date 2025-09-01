@@ -151,7 +151,7 @@ empty
 (
 )
 ?
-NULL
+nullptr
 :
 std
 :

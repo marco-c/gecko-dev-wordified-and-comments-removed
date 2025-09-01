@@ -61,7 +61,7 @@ options
 )
 callback_
 (
-NULL
+nullptr
 )
 window_capturer_
 (

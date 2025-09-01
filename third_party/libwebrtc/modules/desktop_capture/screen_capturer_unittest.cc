@@ -683,7 +683,7 @@ shared_memory
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_FALSE
