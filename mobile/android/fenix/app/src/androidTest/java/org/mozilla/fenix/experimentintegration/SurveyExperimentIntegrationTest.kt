@@ -322,6 +322,7 @@ surveyScreen
 {
 verifyHomeScreenSurveyCloseButton
 (
+true
 )
 }
 .
