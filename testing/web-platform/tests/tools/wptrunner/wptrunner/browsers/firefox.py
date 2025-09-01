@@ -1808,6 +1808,23 @@ software
 )
           
 "
+useDrawSnapshot
+"
+:
+bool_pref
+(
+"
+reftest
+.
+use
+-
+draw
+-
+snapshot
+"
+)
+          
+"
 privateBrowsing
 "
 :
@@ -2022,6 +2039,10 @@ processor
         
 "
 swgl
+"
+        
+"
+useDrawSnapshot
 "
         
 "
