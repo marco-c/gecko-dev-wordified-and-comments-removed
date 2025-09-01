@@ -769,6 +769,16 @@ html
 ]
 [
 "
+browser_browsing_context_active_change
+.
+js
+"
+]
+https_first_disabled
+=
+true
+[
+"
 browser_browsing_context_attached
 .
 js
