@@ -193,9 +193,6 @@ constexpr
 DataRate
 kMaxFeedbackRate
 =
-webrtc
-:
-:
 DataRate
 :
 :

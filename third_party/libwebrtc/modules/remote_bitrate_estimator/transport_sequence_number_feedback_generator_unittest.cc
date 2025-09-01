@@ -671,9 +671,6 @@ packet
 .
 SetExtension
 <
-webrtc
-:
-:
 TransportSequenceNumberV2
 >
 (
