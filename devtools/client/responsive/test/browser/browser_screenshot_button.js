@@ -79,7 +79,7 @@ click
 const
 whenScreenshotSucceeded
 =
-waitUntilDownload
+waitUntilScreenshot
 (
 )
 ;

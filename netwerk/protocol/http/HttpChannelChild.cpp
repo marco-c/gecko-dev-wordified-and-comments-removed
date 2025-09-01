@@ -1270,7 +1270,7 @@ dont_AddRef
 this
 )
 ;
-NS_DispatchToCurrentThread
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
