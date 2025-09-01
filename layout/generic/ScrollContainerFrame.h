@@ -3377,6 +3377,8 @@ UniquePtr
 ScrollSnapTargetIds
 >
 aSnapTargetIds
+ViewportType
+aViewportToScroll
 )
 ;
 bool
