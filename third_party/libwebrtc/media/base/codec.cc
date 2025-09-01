@@ -2546,13 +2546,6 @@ kAudio
 id
 name
 clockrate
-=
-=
-0
-?
-kDefaultAudioClockRateHz
-:
-clockrate
 channels
 )
 ;
