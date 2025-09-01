@@ -876,7 +876,6 @@ webgpu
 WebGPUParent
 >
 (
-mContentId
 )
 ;
 }

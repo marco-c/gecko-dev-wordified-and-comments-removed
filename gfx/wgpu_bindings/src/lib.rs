@@ -1493,17 +1493,6 @@ id
 TextureId
 ]
 >
-Cow
-<
-'
-a
-[
-crate
-:
-:
-ExternalTextureSourceId
-]
->
 )
 QueueOnSubmittedWorkDone
 (
