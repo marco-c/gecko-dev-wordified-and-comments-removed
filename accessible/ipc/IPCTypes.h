@@ -89,6 +89,15 @@ IPCMessageUtilsSpecializations
 .
 h
 "
+#
+include
+"
+ipc
+/
+nsGUIEventIPC
+.
+h
+"
 namespace
 IPC
 {
