@@ -6194,6 +6194,16 @@ MOZ_ASSERT
 mTimerShouldTrigger
 )
 ;
+if
+(
+Telemetry
+:
+:
+CanRecordPrereleaseData
+(
+)
+)
+{
 auto
 now
 =
@@ -6242,6 +6252,7 @@ now
 mTimerShouldTrigger
 )
 ;
+}
 }
 mTimerShouldTrigger
 =
