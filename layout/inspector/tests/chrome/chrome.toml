@@ -47,6 +47,13 @@ html
 ]
 [
 "
+test_CSSStyleRule_querySelectorAll_scope
+.
+html
+"
+]
+[
+"
 test_bug467669
 .
 xhtml
