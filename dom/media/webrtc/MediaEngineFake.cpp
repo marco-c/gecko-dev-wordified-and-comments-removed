@@ -483,6 +483,8 @@ layers
 Image
 >
 aImage
+TimeStamp
+aTime
 )
 ;
 RefPtr
@@ -1597,6 +1599,8 @@ layers
 Image
 >
 aImage
+TimeStamp
+aTime
 )
 {
 VideoSegment
@@ -1624,6 +1628,8 @@ mOpts
 mHeight
 )
 mPrincipalHandle
+false
+aTime
 )
 ;
 mTrack
