@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-40a123ec1c34a54730b3ae9c8f4cbae364e73f66
+8bd819a6dc464c3568a8d35efaf73fc80ec58270
 '
 #
 Fetch
@@ -588,7 +588,7 @@ chromium
 src
 /
 base
-50dc228e3885dea149d3cee5e31f326c91c8649d
+4da407f0aca0d5cd6c5d4999eb9df3763486601d
 '
 '
 src
@@ -612,7 +612,7 @@ chromium
 src
 /
 build
-b228bdd41836c0fac86a729ef5ebbe3047999f7b
+57810addcdd7dfda8bf7c15f6456ea1ff9283815
 '
 '
 src
@@ -732,7 +732,7 @@ chromium
 src
 /
 ios
-0bbbe8c0b1a84a1d6d2a04efadfbb21170670898
+d29a81b816e460bb309200e18ac3ae5a641ce19d
 '
 '
 condition
@@ -764,7 +764,7 @@ chromium
 src
 /
 testing
-7221d98d9210df9d75561fb3fdb14618996b3c0f
+186b283e5e14d7e52347a7c7f851bda6201b1e2c
 '
 '
 src
@@ -788,7 +788,7 @@ chromium
 src
 /
 third_party
-f6339ec07d0642c32eb3bf18c8407785c08926b3
+9eaedc200b114025d63f87f2caeec4e571055766
 '
 '
 src
@@ -2791,7 +2791,7 @@ compiler
 rt
 .
 git
-a6f7c1ae19c301452a66fdfeceef4d7c47d86107
+689e2e2268b19ff47d6a7e3a0cedd6d5ac19d0a7
 '
 '
 src
@@ -3756,7 +3756,7 @@ com
 boringssl
 .
 git
-c5795a328880eadb879088fc59cd0087edc8dc20
+9295969e1dad2c31d0d99481734c1c68dcbc6403
 '
 '
 src
@@ -4086,7 +4086,7 @@ grpc
 grpc
 .
 git
-04edb99d08d7e47cd3562d1d64ef2de64e3bb1e1
+72ea42a9ed880182ae3a9e09cf633921398155d5
 '
 }
 #
@@ -5049,7 +5049,7 @@ git
 '
 +
 '
-82c60ea0d2b453aded71857c93b9e6a2637da79b
+dd35b295cd359ba094404218414955f961a0d6ae
 '
 '
 src
@@ -5592,7 +5592,7 @@ chromium
 src
 /
 tools
-f3c797385333da22bb2a7f2e9d10f163d61a8948
+2d74c1f5b933b37f292cfce591a5df00386e1ba9
 '
 '
 src
