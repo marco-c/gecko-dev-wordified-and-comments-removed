@@ -1393,12 +1393,6 @@ Clause
 "
 subtle
 "
-            
-"
-uritemplate
--
-next
-"
         
 ]
     
