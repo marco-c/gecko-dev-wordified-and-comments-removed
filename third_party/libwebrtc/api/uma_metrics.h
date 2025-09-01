@@ -385,6 +385,12 @@ kVideoCodecsFmtp
 kVideoCodecsRtcpFb
 =
 86
+kVideoCodecsAddedWithRawPacketization
+=
+87
+kVideoCodecsModifiedWithRawPacketization
+=
+88
 kMaxValue
 }
 ;
