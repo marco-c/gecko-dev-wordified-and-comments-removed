@@ -3567,6 +3567,10 @@ setup
 this
 .
 onChange
+this
+.
+deps
+this
 )
 ;
 }
@@ -3703,6 +3707,10 @@ config
 get
 (
 prefVal
+this
+.
+deps
+this
 )
 ;
 }
@@ -3732,6 +3740,10 @@ config
 set
 (
 val
+this
+.
+deps
+this
 )
 :
 val
@@ -3791,6 +3803,7 @@ visible
 this
 .
 deps
+this
 )
 :
 true
@@ -3817,6 +3830,7 @@ disabled
 this
 .
 deps
+this
 )
 :
 false
@@ -3844,6 +3858,10 @@ config
 getControlConfig
 (
 config
+this
+.
+deps
+this
 )
 ;
 }
@@ -3878,6 +3896,10 @@ config
 onUserChange
 (
 val
+this
+.
+deps
+this
 )
 ;
 }
