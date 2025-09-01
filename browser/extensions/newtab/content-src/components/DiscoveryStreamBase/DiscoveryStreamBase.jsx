@@ -1545,15 +1545,6 @@ properties
 .
 compactGrid
 }
-onboardingExperience
-=
-{
-component
-.
-properties
-.
-onboardingExperience
-}
 ctaButtonSponsors
 =
 {
