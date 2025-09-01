@@ -802,11 +802,6 @@ android
 -
 em
 -
-7
-.
-0
--
-x86
 "
 in
 test
