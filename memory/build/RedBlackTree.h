@@ -3695,17 +3695,6 @@ Get
 nullptr
 ;
 }
-bool
-NotDone
-(
-)
-{
-return
-!
-!
-mDepth
-;
-}
 }
 ;
 Iterator
