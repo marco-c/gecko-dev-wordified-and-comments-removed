@@ -1768,12 +1768,6 @@ mCancelable
 =
 true
 ;
-init
-.
-mComposed
-=
-true
-;
 RefPtr
 <
 Event
