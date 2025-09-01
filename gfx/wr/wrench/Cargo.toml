@@ -465,6 +465,15 @@ software
 swgl
 "
 ]
+debugger
+=
+[
+"
+webrender
+/
+debugger
+"
+]
 [
 target
 .
