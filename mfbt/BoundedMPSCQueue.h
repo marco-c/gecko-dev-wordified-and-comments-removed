@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_MPSCQueue_h
+mozilla_BoundedMPSCQueue_h
 #
 define
-mozilla_MPSCQueue_h
+mozilla_BoundedMPSCQueue_h
 #
 include
 "
@@ -998,7 +998,7 @@ typename
 T
 >
 using
-MPSCQueue
+BoundedMPSCQueue
 =
 MPSCRingBufferBase
 <

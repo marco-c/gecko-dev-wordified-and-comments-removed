@@ -98,7 +98,7 @@ include
 "
 mozilla
 /
-MPSCQueue
+BoundedMPSCQueue
 .
 h
 "
@@ -217,7 +217,7 @@ mType
 using
 SandboxProfilerQueue
 =
-MPSCQueue
+BoundedMPSCQueue
 <
 SandboxProfilerPayload
 >

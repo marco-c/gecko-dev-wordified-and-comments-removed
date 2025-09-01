@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-MPSCQueue
+BoundedMPSCQueue
 .
 h
 "
@@ -405,7 +405,7 @@ aStack
 void
 BasicAPITestWithStack
 (
-MPSCQueue
+BoundedMPSCQueue
 <
 NativeStack
 >
@@ -618,7 +618,7 @@ i
 void
 BasicAPITestMP
 (
-MPSCQueue
+BoundedMPSCQueue
 <
 NativeStack
 >
@@ -897,7 +897,7 @@ maxCap
 caps
 )
 {
-MPSCQueue
+BoundedMPSCQueue
 <
 NativeStack
 >
@@ -919,7 +919,7 @@ e
 {
 }
 ;
-MPSCQueue
+BoundedMPSCQueue
 <
 NativeStack
 >
@@ -1128,7 +1128,7 @@ threads
 nbThreads
 )
 {
-MPSCQueue
+BoundedMPSCQueue
 <
 NativeStack
 >
