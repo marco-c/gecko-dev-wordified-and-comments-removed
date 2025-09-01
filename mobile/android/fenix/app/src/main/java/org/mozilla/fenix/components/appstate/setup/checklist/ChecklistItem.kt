@@ -1092,7 +1092,7 @@ drawable
 ic_search
 isCompleted
 =
-searchWidgetInstalled
+hasCompletedSetupStepInstallSearchWidget
 )
 exploreExtensionTask
 (
