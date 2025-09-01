@@ -1298,7 +1298,7 @@ R
 .
 string
 .
-webcompat_reporter_send_more_info
+webcompat_reporter_add_more_info
 )
 modifier
 =
