@@ -2175,7 +2175,9 @@ at
 WALLPAPER_UPLOAD
 data
 :
+{
 file
+}
 }
 )
 )
