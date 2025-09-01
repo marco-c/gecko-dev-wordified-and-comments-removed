@@ -97,6 +97,7 @@ aMessage
 }
 private
 :
+virtual
 ~
 DeviceLostInfo
 (
@@ -104,12 +105,6 @@ DeviceLostInfo
 =
 default
 ;
-void
-Cleanup
-(
-)
-{
-}
 nsCOMPtr
 <
 nsIGlobalObject

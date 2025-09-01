@@ -76,6 +76,9 @@ WGPUByteBuf
 *
 ToFFI
 (
+mozilla
+:
+:
 ipc
 :
 :
@@ -108,6 +111,9 @@ WGPUByteBuf
 ToFFI
 (
 const
+mozilla
+:
+:
 ipc
 :
 :
@@ -132,6 +138,9 @@ x
 ;
 }
 inline
+mozilla
+:
+:
 ipc
 :
 :
@@ -150,6 +159,9 @@ x
 return
 reinterpret_cast
 <
+mozilla
+:
+:
 ipc
 :
 :
@@ -163,6 +175,9 @@ x
 }
 inline
 const
+mozilla
+:
+:
 ipc
 :
 :
@@ -183,6 +198,9 @@ return
 reinterpret_cast
 <
 const
+mozilla
+:
+:
 ipc
 :
 :

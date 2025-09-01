@@ -104,6 +104,7 @@ aMessages
 ;
 private
 :
+virtual
 ~
 CompilationInfo
 (
@@ -111,12 +112,6 @@ CompilationInfo
 =
 default
 ;
-void
-Cleanup
-(
-)
-{
-}
 nsTArray
 <
 RefPtr
