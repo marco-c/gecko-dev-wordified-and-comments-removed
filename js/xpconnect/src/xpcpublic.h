@@ -2947,6 +2947,10 @@ bool
 aAlwaysUseFdlibm
 bool
 aLocaleEnUS
+const
+nsACString
+&
+aLanguageOverride
 )
 ;
 class

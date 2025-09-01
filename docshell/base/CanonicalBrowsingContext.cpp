@@ -1555,6 +1555,15 @@ GetIPAddressSpace
 ;
 txn
 .
+SetLanguageOverride
+(
+GetLanguageOverride
+(
+)
+)
+;
+txn
+.
 SetAllowJavascript
 (
 GetAllowJavascript

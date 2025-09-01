@@ -1635,7 +1635,7 @@ PrefersColorSchemeOverride
 FIELD
 (
 LanguageOverride
-nsString
+nsCString
 )
 \
 /
@@ -4781,7 +4781,7 @@ GetMediumOverride
 void
 GetLanguageOverride
 (
-nsAString
+nsACString
 &
 aLanguageOverride
 )
@@ -5411,7 +5411,7 @@ FieldIndex
 IDX_LanguageOverride
 >
 const
-nsString
+nsCString
 &
 ContentParent
 *
@@ -5596,7 +5596,7 @@ FieldIndex
 <
 IDX_LanguageOverride
 >
-nsString
+nsCString
 &
 &
 aOldValue

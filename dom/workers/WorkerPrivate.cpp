@@ -12745,6 +12745,9 @@ RFPTarget
 :
 JSLocale
 )
+VoidCString
+(
+)
 )
 ;
 xpc
@@ -12777,6 +12780,9 @@ RFPTarget
 :
 :
 JSLocale
+)
+VoidCString
+(
 )
 )
 ;
