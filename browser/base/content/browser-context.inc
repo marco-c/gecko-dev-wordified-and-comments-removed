@@ -4041,15 +4041,6 @@ print
 >
 <
 menuseparator
-id
-=
-"
-print
--
-frame
--
-sep
-"
 /
 >
 <
