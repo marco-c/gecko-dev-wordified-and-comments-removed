@@ -171,8 +171,15 @@ io
 Error
 :
 :
-other
+new
 (
+io
+:
+:
+ErrorKind
+:
+:
+Other
 "
 path
 canonicalization
