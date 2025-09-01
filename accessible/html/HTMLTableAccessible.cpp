@@ -3449,7 +3449,7 @@ data
 )
 ;
 }
-EDescriptionValueFlag
+void
 HTMLTableAccessible
 :
 :
@@ -3467,9 +3467,6 @@ Truncate
 (
 )
 ;
-EDescriptionValueFlag
-descFlag
-=
 LocalAccessible
 :
 :
@@ -3489,7 +3486,6 @@ IsEmpty
 )
 {
 return
-descFlag
 ;
 }
 LocalAccessible
@@ -3612,9 +3608,6 @@ get
 ;
 #
 endif
-return
-eDescriptionOK
-;
 }
 nsTableWrapperFrame
 *

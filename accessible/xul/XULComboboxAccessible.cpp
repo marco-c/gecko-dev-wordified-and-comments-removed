@@ -250,7 +250,7 @@ IsText
 )
 ;
 }
-EDescriptionValueFlag
+void
 XULComboboxAccessible
 :
 :
@@ -289,7 +289,6 @@ if
 menuListElm
 )
 return
-eDescriptionOK
 ;
 nsCOMPtr
 <
@@ -335,8 +334,6 @@ if
 (
 focusedOptionAcc
 )
-{
-return
 focusedOptionAcc
 -
 >
@@ -346,10 +343,6 @@ aDescription
 )
 ;
 }
-}
-return
-eDescriptionOK
-;
 }
 void
 XULComboboxAccessible

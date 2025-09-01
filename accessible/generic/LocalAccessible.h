@@ -481,7 +481,7 @@ aLocale
 override
 ;
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString
@@ -2299,7 +2299,7 @@ aName
 )
 const
 ;
-bool
+void
 ARIADescription
 (
 nsString

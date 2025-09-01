@@ -1636,7 +1636,7 @@ return
 state
 ;
 }
-EDescriptionValueFlag
+void
 HTMLComboboxAccessible
 :
 :
@@ -1654,9 +1654,6 @@ Truncate
 (
 )
 ;
-EDescriptionValueFlag
-descFlag
-=
 LocalAccessible
 :
 :
@@ -1674,11 +1671,8 @@ IsEmpty
 (
 )
 )
-{
 return
-descFlag
 ;
-}
 LocalAccessible
 *
 option
@@ -1691,8 +1685,6 @@ if
 (
 option
 )
-{
-return
 option
 -
 >
@@ -1700,10 +1692,6 @@ Description
 (
 aDescription
 )
-;
-}
-return
-eDescriptionOK
 ;
 }
 void

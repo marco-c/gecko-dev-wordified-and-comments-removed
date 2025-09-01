@@ -429,7 +429,7 @@ aDoc
 )
 ;
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString

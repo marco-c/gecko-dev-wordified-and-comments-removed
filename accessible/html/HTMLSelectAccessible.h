@@ -568,7 +568,7 @@ Shutdown
 override
 ;
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString
