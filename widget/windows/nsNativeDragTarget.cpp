@@ -1805,7 +1805,7 @@ y
 *
 pdwEffect
 mEffectsAllowed
-GetBoolName
+TrueOrFalse
 (
 dragImageChanged
 )

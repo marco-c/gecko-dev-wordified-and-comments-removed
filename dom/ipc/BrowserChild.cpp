@@ -11137,11 +11137,11 @@ dragSession
 get
 (
 )
-GetBoolName
+TrueOrFalse
 (
 aDoneDrag
 )
-GetBoolName
+TrueOrFalse
 (
 aUserCancelled
 )
@@ -11592,7 +11592,7 @@ s
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 aShouldDrop
 )
