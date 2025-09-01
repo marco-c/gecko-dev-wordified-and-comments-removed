@@ -283,6 +283,12 @@ GetDefaultStreamPrefs
 CUBEB_DEVICE_TYPE_INPUT
 )
 ;
+params
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
+;
 if
 (
 aIsVoice
