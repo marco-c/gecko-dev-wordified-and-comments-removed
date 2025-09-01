@@ -35345,7 +35345,6 @@ DNS
 (
 )
 DNS
-.
 <
 /
 string
@@ -35544,7 +35543,6 @@ preference_doh_max_protection_info_3
 "
 >
 DNS
-.
 <
 /
 string
@@ -35612,7 +35610,6 @@ preference_doh_off_summary
 DNS
 (
 )
-.
 <
 /
 string
@@ -50179,6 +50176,20 @@ name
 =
 "
 clear_site_data_snackbar
+"
+moz
+:
+removedIn
+=
+"
+144
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 <
