@@ -1939,16 +1939,6 @@ dataSubmissionPolicyBypassNotification
 "
 true
 ]
-[
-"
-datareporting
-.
-usage
-.
-uploadEnabled
-"
-false
-]
 /
 /
 Disable

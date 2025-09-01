@@ -278,16 +278,6 @@ False
 "
 datareporting
 .
-usage
-.
-uploadEnabled
-"
-:
-False
-        
-"
-datareporting
-.
 policy
 .
 dataSubmissionEnabled
