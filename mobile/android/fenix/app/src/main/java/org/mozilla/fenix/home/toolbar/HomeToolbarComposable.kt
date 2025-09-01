@@ -1223,7 +1223,9 @@ ImeInsetsSynchronizer
 .
 setup
 (
-layout
+homeBinding
+.
+root
 )
 }
 updateHomeAppBarIntegration
