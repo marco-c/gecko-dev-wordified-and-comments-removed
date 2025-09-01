@@ -5735,6 +5735,8 @@ mozilla
 RubyMetrics
 RubyMetrics
 (
+float
+aRubyMetricsFactor
 )
 const
 ;

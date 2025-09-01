@@ -699,6 +699,8 @@ nsRubyTextContainerFrame
 :
 RubyMetrics
 (
+float
+aRubyMetricsFactor
 )
 const
 {
@@ -772,6 +774,7 @@ f
 >
 RubyMetrics
 (
+aRubyMetricsFactor
 )
 ;
 const
@@ -871,6 +874,7 @@ nsIFrame
 :
 RubyMetrics
 (
+aRubyMetricsFactor
 )
 ;
 }

@@ -71,6 +71,8 @@ mozilla
 RubyMetrics
 RubyMetrics
 (
+float
+aRubyMetricsFactor
 )
 const
 override
@@ -78,6 +80,7 @@ override
 return
 RubyMetricsIncludingChildren
 (
+aRubyMetricsFactor
 )
 ;
 }
