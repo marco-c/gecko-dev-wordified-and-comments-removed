@@ -1755,6 +1755,11 @@ icon
 isTrackingProtectionEnabled
 =
 isTrackingProtectionEnabled
+isLocalPdf
+=
+args
+.
+isLocalPdf
 numberOfTrackersBlocked
 =
 numberOfTrackersBlocked

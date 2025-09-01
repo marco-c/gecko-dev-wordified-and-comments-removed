@@ -4205,6 +4205,17 @@ tab
 content
 .
 title
+isLocalPdf
+=
+tab
+.
+content
+.
+url
+.
+isContentUrl
+(
+)
 isSecured
 =
 tab

@@ -1379,6 +1379,17 @@ customTab
 content
 .
 title
+isLocalPdf
+=
+customTab
+.
+content
+.
+url
+.
+isContentUrl
+(
+)
 isSecured
 =
 customTab
