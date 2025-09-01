@@ -4007,6 +4007,7 @@ const
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveAllChildren
 (
@@ -4024,6 +4025,7 @@ aPointToInsert
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveChildrenBetween
 (
@@ -4044,6 +4046,7 @@ aPointToInsert
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MovePreviousSiblings
 (
@@ -4061,6 +4064,7 @@ aPointToInsert
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveInclusiveNextSiblings
 (
@@ -8491,11 +8495,13 @@ bool
 aPreserveRatio
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HideAnonymousEditingUIs
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HideAnonymousEditingUIsIfUnnecessary
 (
@@ -8537,6 +8543,7 @@ RefreshGrabberInternal
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HideGrabberInternal
 (
