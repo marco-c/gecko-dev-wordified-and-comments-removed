@@ -1537,6 +1537,9 @@ is_software
 (
 )
 compositor_config
+enable_debugger
+:
+true
 .
 .
 Default
