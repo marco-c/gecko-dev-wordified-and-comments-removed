@@ -161,6 +161,7 @@ nullptr
 JSONPrinter
 (
 out
+false
 )
 wasmCodeMeta_
 (
