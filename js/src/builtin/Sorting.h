@@ -43,7 +43,7 @@ uint32_t
 Failure
 Done
 CallJS
-CallJSSameRealmNoUnderflow
+CallJSSameRealmNoRectifier
 }
 ;
 enum
@@ -71,7 +71,7 @@ uint8_t
 {
 Unoptimized
 JS
-JSSameRealmNoUnderflow
+JSSameRealmNoRectifier
 }
 ;
 static
