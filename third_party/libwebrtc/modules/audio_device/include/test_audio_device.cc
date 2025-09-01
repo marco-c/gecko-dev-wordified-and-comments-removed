@@ -2345,6 +2345,7 @@ audio_device
 >
 CreatePlatformSpecificObjects
 (
+env
 )
 =
 =
