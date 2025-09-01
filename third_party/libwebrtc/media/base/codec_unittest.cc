@@ -366,7 +366,7 @@ Codec
 kIdNotSet
 "
 "
-0
+kDefaultAudioClockRateHz
 )
 ;
 EXPECT_TRUE
@@ -506,7 +506,7 @@ CreateAudioCodec
 0
 "
 "
-0
+kDefaultAudioClockRateHz
 0
 )
 ;

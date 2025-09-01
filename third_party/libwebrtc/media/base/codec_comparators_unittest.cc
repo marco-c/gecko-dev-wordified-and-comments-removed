@@ -2289,23 +2289,6 @@ CreateAudioCodec
 )
 )
 ;
-EXPECT_TRUE
-(
-c0
-.
-Matches
-(
-CreateAudioCodec
-(
-34
-"
-"
-0
-0
-)
-)
-)
-;
 EXPECT_FALSE
 (
 c0
@@ -2434,7 +2417,7 @@ CreateAudioCodec
 "
 A
 "
-0
+44100
 0
 )
 )
@@ -2452,7 +2435,7 @@ CreateAudioCodec
 "
 A
 "
-0
+44100
 0
 )
 )
@@ -2470,7 +2453,7 @@ CreateAudioCodec
 "
 a
 "
-0
+44100
 0
 )
 )
@@ -2488,7 +2471,7 @@ CreateAudioCodec
 "
 a
 "
-0
+44100
 0
 )
 )
@@ -2506,7 +2489,7 @@ CreateAudioCodec
 "
 a
 "
-0
+44100
 0
 )
 )
@@ -2524,7 +2507,7 @@ CreateAudioCodec
 "
 a
 "
-0
+44100
 0
 )
 )
@@ -2542,7 +2525,7 @@ CreateAudioCodec
 "
 a
 "
-0
+44100
 0
 )
 )
@@ -2560,7 +2543,7 @@ CreateAudioCodec
 "
 A
 "
-0
+44100
 0
 )
 )
@@ -2578,7 +2561,7 @@ CreateAudioCodec
 "
 A
 "
-0
+44100
 0
 )
 )

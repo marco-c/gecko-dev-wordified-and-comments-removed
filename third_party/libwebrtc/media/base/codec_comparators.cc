@@ -1743,15 +1743,6 @@ kAudio
 return
 (
 (
-right_codec
-.
-clockrate
-=
-=
-0
-)
-|
-|
 left_codec
 .
 clockrate
@@ -1816,6 +1807,7 @@ channels
 right_codec
 .
 channels
+)
 )
 ;
 case

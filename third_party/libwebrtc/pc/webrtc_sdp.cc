@@ -16115,7 +16115,7 @@ CreateAudioCodec
 payload_type
 "
 "
-0
+kDefaultAudioClockRateHz
 0
 )
 ;
