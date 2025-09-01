@@ -9,6 +9,8 @@ emulator_avd_name
 "
 mozemulator
 -
+android34
+-
 x86_64
 "
     
@@ -80,7 +82,7 @@ memory
 "
         
 "
-3072
+4096
 "
         
 "
@@ -98,14 +100,7 @@ skin
 "
         
 "
-800x1280
-"
-        
-"
--
-no
--
-accel
+1080x1920
 "
         
 "
@@ -240,7 +235,7 @@ bogomips_minimum
 android_version
 "
 :
-24
+34
     
 "
 is_emulator
