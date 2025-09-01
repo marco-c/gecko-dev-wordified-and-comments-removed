@@ -409,13 +409,13 @@ uiState
 editState
 .
 query
-showQueryAsPreselected
+isQueryPrefilled
 =
 uiState
 .
 editState
 .
-showQueryAsPreselected
+isQueryPrefilled
 gravity
 =
 uiState

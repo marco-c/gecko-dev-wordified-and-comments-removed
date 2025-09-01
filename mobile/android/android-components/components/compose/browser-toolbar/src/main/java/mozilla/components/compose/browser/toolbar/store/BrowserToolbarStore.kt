@@ -629,11 +629,11 @@ query
 action
 .
 query
-showQueryAsPreselected
+isQueryPrefilled
 =
 action
 .
-showAsPreselected
+isQueryPrefilled
 )
 )
 is

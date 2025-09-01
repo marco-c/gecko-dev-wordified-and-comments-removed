@@ -1149,7 +1149,7 @@ SearchQueryUpdated
 query
 =
 url
-showAsPreselected
+isQueryPrefilled
 =
 false
 )

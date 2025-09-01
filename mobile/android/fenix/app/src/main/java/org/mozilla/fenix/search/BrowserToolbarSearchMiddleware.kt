@@ -3354,7 +3354,7 @@ SearchQueryUpdated
 query
 =
 voiceInputResult
-showAsPreselected
+isQueryPrefilled
 =
 true
 )
