@@ -689,10 +689,7 @@ BiQuadCoefficients
 kHighPassFilterCoefficients
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -714,6 +711,7 @@ BiQuadCoefficients
 0
 .
 94598f
+}
 }
 }
 }
