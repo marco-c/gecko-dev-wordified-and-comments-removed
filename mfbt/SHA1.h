@@ -70,7 +70,7 @@ SHA1Sum
 )
 ;
 static
-const
+constexpr
 size_t
 kHashSize
 =

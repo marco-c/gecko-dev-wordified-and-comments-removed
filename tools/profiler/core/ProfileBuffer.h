@@ -172,7 +172,7 @@ aCategoryPair
 )
 ;
 static
-const
+constexpr
 size_t
 kMaxFrameKeyLength
 =

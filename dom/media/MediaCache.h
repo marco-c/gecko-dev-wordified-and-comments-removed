@@ -141,7 +141,7 @@ MonitorAutoLock
 public
 :
 static
-const
+constexpr
 int64_t
 BLOCK_SIZE
 =
