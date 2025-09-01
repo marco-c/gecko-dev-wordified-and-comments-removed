@@ -3528,7 +3528,7 @@ rv
 =
 result
 .
-unwrapErr
+inspectErr
 (
 )
 ;
@@ -3538,6 +3538,12 @@ rv
 !
 =
 NS_ERROR_DOM_MEDIA_END_OF_STREAM
+&
+&
+rv
+!
+=
+NS_ERROR_DOM_MEDIA_WAITING_FOR_DATA
 )
 {
 WEBM_DEBUG
@@ -3929,7 +3935,11 @@ filed
 )
 ;
 return
-NS_ERROR_DOM_MEDIA_END_OF_STREAM
+result
+.
+unwrapErr
+(
+)
 ;
 }
 int64_t
