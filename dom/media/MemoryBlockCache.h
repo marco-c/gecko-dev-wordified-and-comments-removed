@@ -94,7 +94,6 @@ aData2
 )
 override
 ;
-virtual
 nsresult
 Read
 (
@@ -105,9 +104,6 @@ uint8_t
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 override
 ;

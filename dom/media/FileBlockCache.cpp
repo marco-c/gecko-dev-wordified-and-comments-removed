@@ -1734,9 +1734,6 @@ uint8_t
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 {
 MutexAutoLock
@@ -2042,13 +2039,6 @@ bytesToRead
 bytesRead
 ;
 }
-*
-aBytes
-=
-aLength
--
-bytesToRead
-;
 return
 NS_OK
 ;
