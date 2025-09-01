@@ -773,6 +773,11 @@ BASE_IMAGE
 ubuntu
 :
 noble
+-
+20250714
+SNAPSHOT
+:
+20250716T072533Z
 ubuntu2404
 -
 arm64
@@ -801,6 +806,11 @@ BASE_IMAGE
 ubuntu
 :
 noble
+-
+20250714
+SNAPSHOT
+:
+20250716T072533Z
 arch
 :
 arm64
