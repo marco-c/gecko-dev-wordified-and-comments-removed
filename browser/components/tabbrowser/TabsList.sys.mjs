@@ -4278,16 +4278,6 @@ getAttribute
 image
 "
 )
-iconloadingprincipal
-:
-tab
-.
-getAttribute
-(
-"
-iconloadingprincipal
-"
-)
 }
 )
 ;

@@ -671,7 +671,6 @@ setIcon
 tab
 iconURL
 originalURL
-null
 beforePageShow
 )
 ;

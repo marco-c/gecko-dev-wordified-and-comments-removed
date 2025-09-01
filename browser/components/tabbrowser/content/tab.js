@@ -759,9 +759,6 @@ image
 src
 =
 image
-triggeringprincipal
-=
-iconloadingprincipal
 requestcontextid
 fadein
 pinned

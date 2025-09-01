@@ -32044,10 +32044,6 @@ tab
 tabData
 .
 image
-undefined
-tabData
-.
-iconLoadingPrincipal
 )
 ;
 }
@@ -32062,9 +32058,6 @@ browser
 permanentKey
 {
 image
-:
-null
-iconLoadingPrincipal
 :
 null
 }
@@ -40636,14 +40629,6 @@ image
 |
 "
 "
-iconLoadingPrincipal
-:
-tabData
-.
-iconLoadingPrincipal
-|
-|
-null
 searchMode
 :
 tabData

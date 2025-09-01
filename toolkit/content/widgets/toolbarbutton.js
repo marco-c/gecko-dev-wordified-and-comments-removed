@@ -131,9 +131,6 @@ image
 label
 type
 consumeanchor
-triggeringprincipal
-=
-iconloadingprincipal
 "
 "
 .
