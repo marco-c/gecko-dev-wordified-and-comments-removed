@@ -2840,7 +2840,7 @@ private
 :
 friend
 class
-JSONSpewer
+GraphSpewer
 ;
 InstructionDataMap
 insData

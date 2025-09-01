@@ -859,12 +859,12 @@ options
 ;
 private
 :
-GraphSpewer
+JitSpewGraphSpewer
 gs_
 ;
 public
 :
-GraphSpewer
+JitSpewGraphSpewer
 &
 graphSpewer
 (
