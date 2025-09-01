@@ -5865,7 +5865,7 @@ GetStringFromName
 "
 localhost
 .
-remember
+remember2
 "
 )
 ;
@@ -6857,7 +6857,7 @@ GetStringFromName
 "
 localNetwork
 .
-remember
+remember2
 "
 )
 ;
