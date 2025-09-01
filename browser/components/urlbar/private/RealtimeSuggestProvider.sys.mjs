@@ -1410,6 +1410,7 @@ this
 .
 makeOptInResult
 (
+queryContext
 suggestion
 )
 ;
@@ -1509,6 +1510,7 @@ true
 }
 makeOptInResult
 (
+queryContext
 suggestion
 )
 {
@@ -1689,6 +1691,11 @@ cacheable
 :
 true
 }
+input
+:
+queryContext
+.
+searchString
 }
 {
 .

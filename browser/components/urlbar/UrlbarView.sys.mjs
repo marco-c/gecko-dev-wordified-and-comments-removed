@@ -12636,6 +12636,9 @@ attributes
 menu
 =
 null
+input
+=
+null
 }
 )
 {
@@ -12699,6 +12702,7 @@ dataset
 name
 command
 url
+input
 }
 }
 )

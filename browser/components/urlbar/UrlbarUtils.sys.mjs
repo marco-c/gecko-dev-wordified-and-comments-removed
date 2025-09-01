@@ -13588,6 +13588,15 @@ type
 string
 "
 }
+input
+:
+{
+type
+:
+"
+string
+"
+}
 menu
 :
 {
