@@ -3349,6 +3349,11 @@ CSSAnimation
 webidl
 "
 "
+CSSColor
+.
+webidl
+"
+"
 CSSColorValue
 .
 webidl
