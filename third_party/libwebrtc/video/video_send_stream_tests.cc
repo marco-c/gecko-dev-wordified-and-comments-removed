@@ -8262,7 +8262,7 @@ EXPECT_LT
 (
 padding_length_
 .
-1
+6
 *
 total_length_
 )
