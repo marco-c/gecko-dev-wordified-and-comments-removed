@@ -239,7 +239,7 @@ socket
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -281,7 +281,7 @@ delete
 socket
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -338,7 +338,7 @@ available
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -366,7 +366,7 @@ supported
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 Socket
@@ -393,7 +393,7 @@ socket
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -435,7 +435,7 @@ delete
 socket
 ;
 return
-NULL
+nullptr
 ;
 }
 RTC_CHECK
@@ -510,7 +510,7 @@ socket
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -601,7 +601,7 @@ delete
 socket
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -728,7 +728,7 @@ ssl_adapter
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -810,7 +810,7 @@ delete
 ssl_adapter
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -873,7 +873,7 @@ delete
 socket
 ;
 return
-NULL
+nullptr
 ;
 }
 AsyncPacketSocket

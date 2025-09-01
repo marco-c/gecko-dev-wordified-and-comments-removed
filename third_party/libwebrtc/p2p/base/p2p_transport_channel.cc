@@ -6904,7 +6904,7 @@ new_remote_candidate
 CreateConnections
 (
 new_remote_candidate
-NULL
+nullptr
 )
 ;
 ice_controller_
@@ -7149,7 +7149,7 @@ if
 origin_port
 !
 =
-NULL
+nullptr
 )
 &
 &

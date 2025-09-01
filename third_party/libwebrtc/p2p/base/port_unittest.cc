@@ -2339,7 +2339,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 Candidate
@@ -2600,7 +2600,7 @@ EXPECT_TRUE
 priority_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2608,7 +2608,7 @@ EXPECT_TRUE
 mi_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2616,7 +2616,7 @@ EXPECT_TRUE
 fingerprint_attr
 !
 =
-NULL
+nullptr
 )
 ;
 remote_address_
@@ -6730,7 +6730,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_THAT
@@ -6894,7 +6894,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ch2
@@ -7012,7 +7012,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ch2
@@ -7313,7 +7313,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ch2
@@ -7582,7 +7582,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -7594,7 +7594,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -7857,11 +7857,11 @@ FakePacketSocketFactory
 :
 next_udp_socket_
 (
-NULL
+nullptr
 )
 next_server_tcp_socket_
 (
-NULL
+nullptr
 )
 {
 }
@@ -7892,7 +7892,7 @@ EXPECT_TRUE
 next_udp_socket_
 !
 =
-NULL
+nullptr
 )
 ;
 AsyncPacketSocket
@@ -7903,7 +7903,7 @@ next_udp_socket_
 ;
 next_udp_socket_
 =
-NULL
+nullptr
 ;
 return
 result
@@ -7931,7 +7931,7 @@ EXPECT_TRUE
 next_server_tcp_socket_
 !
 =
-NULL
+nullptr
 )
 ;
 AsyncListenSocket
@@ -7942,7 +7942,7 @@ next_server_tcp_socket_
 ;
 next_server_tcp_socket_
 =
-NULL
+nullptr
 ;
 return
 result
@@ -11531,7 +11531,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_THAT
@@ -11632,7 +11632,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 option_value
@@ -12350,7 +12350,7 @@ ORIGIN_MESSAGE
 ;
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 c
@@ -12403,7 +12403,7 @@ ORIGIN_MESSAGE
 ;
 EXPECT_FALSE
 (
-NULL
+nullptr
 =
 =
 c
@@ -12481,7 +12481,7 @@ ORIGIN_MESSAGE
 ;
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 c
@@ -12534,7 +12534,7 @@ ORIGIN_MESSAGE
 ;
 EXPECT_FALSE
 (
-NULL
+nullptr
 =
 =
 c
@@ -12625,7 +12625,7 @@ can_connect
 {
 EXPECT_FALSE
 (
-NULL
+nullptr
 =
 =
 c
@@ -12651,7 +12651,7 @@ else
 {
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 c
@@ -13747,7 +13747,7 @@ ASSERT_TRUE
 username_attr
 !
 =
-NULL
+nullptr
 )
 ;
 const
@@ -13768,7 +13768,7 @@ ASSERT_TRUE
 priority_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -13808,7 +13808,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -13849,7 +13849,7 @@ ASSERT_TRUE
 ice_controlling_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -13879,7 +13879,7 @@ STUN_ATTR_ICE_CONTROLLED
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -13893,7 +13893,7 @@ STUN_ATTR_USE_CANDIDATE
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -13907,7 +13907,7 @@ STUN_ATTR_FINGERPRINT
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -13959,7 +13959,7 @@ STUN_ATTR_RETRANSMIT_COUNT
 )
 =
 =
-NULL
+nullptr
 )
 ;
 std
@@ -14014,7 +14014,7 @@ ASSERT_TRUE
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14144,7 +14144,7 @@ ASSERT_TRUE
 addr_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14181,7 +14181,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14215,7 +14215,7 @@ STUN_ATTR_FINGERPRINT
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14267,7 +14267,7 @@ STUN_ATTR_USERNAME
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14281,7 +14281,7 @@ STUN_ATTR_PRIORITY
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14295,7 +14295,7 @@ STUN_ATTR_MAPPED_ADDRESS
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14309,7 +14309,7 @@ STUN_ATTR_ICE_CONTROLLING
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14323,7 +14323,7 @@ STUN_ATTR_ICE_CONTROLLED
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14337,7 +14337,7 @@ STUN_ATTR_USE_CANDIDATE
 )
 =
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -14351,7 +14351,7 @@ STUN_ATTR_RETRANSMIT_COUNT
 )
 =
 =
-NULL
+nullptr
 )
 ;
 rport
@@ -14395,7 +14395,7 @@ ASSERT_TRUE
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14436,7 +14436,7 @@ ASSERT_TRUE
 error_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14478,7 +14478,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14512,7 +14512,7 @@ STUN_ATTR_FINGERPRINT
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14564,7 +14564,7 @@ STUN_ATTR_USERNAME
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -14578,7 +14578,7 @@ STUN_ATTR_PRIORITY
 )
 =
 =
-NULL
+nullptr
 )
 ;
 rport
@@ -14702,7 +14702,7 @@ ASSERT_TRUE
 ice_controlled_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14732,7 +14732,7 @@ STUN_ATTR_USE_CANDIDATE
 )
 =
 =
-NULL
+nullptr
 )
 ;
 const
@@ -14753,7 +14753,7 @@ ASSERT_TRUE
 retransmit_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -14952,7 +14952,7 @@ ASSERT_TRUE
 retransmit_attr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -16075,7 +16075,7 @@ ASSERT_TRUE
 ice_controlling_attr
 !
 =
-NULL
+nullptr
 )
 ;
 const
@@ -16096,7 +16096,7 @@ ASSERT_TRUE
 use_candidate_attr
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -16822,7 +16822,7 @@ ASSERT_TRUE
 network_info_attr
 !
 =
-NULL
+nullptr
 )
 ;
 uint32_t
@@ -16979,7 +16979,7 @@ ASSERT_TRUE
 network_info_attr
 !
 =
-NULL
+nullptr
 )
 ;
 network_info
@@ -17138,7 +17138,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17233,7 +17233,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17318,7 +17318,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17338,7 +17338,7 @@ GetErrorCode
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17501,7 +17501,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17590,7 +17590,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17680,7 +17680,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17772,7 +17772,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -17864,7 +17864,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -18002,7 +18002,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -18094,7 +18094,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -19485,7 +19485,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -23019,7 +23019,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -23675,7 +23675,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ch1
@@ -24056,7 +24056,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -24305,7 +24305,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -24398,7 +24398,7 @@ STUN_ATTR_USE_CANDIDATE
 )
 =
 =
-NULL
+nullptr
 )
 ;
 auto
@@ -24651,7 +24651,7 @@ STUN_ATTR_USE_CANDIDATE
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ch1
@@ -25082,7 +25082,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -25706,7 +25706,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -26180,7 +26180,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -27478,7 +27478,7 @@ conn
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

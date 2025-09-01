@@ -297,7 +297,7 @@ request_count_
 )
 response_
 (
-NULL
+nullptr
 )
 success_
 (
@@ -746,7 +746,7 @@ EXPECT_TRUE
 response_
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_FALSE
@@ -1035,7 +1035,7 @@ EXPECT_TRUE
 response_
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_FALSE

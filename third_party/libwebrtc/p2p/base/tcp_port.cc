@@ -455,7 +455,7 @@ protocol
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -508,7 +508,7 @@ port
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -519,7 +519,7 @@ origin
 ORIGIN_OTHER_PORT
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -544,7 +544,7 @@ ORIGIN_THIS_PORT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -561,14 +561,14 @@ address
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TCPConnection
 *
 conn
 =
-NULL
+nullptr
 ;
 if
 (
@@ -803,7 +803,7 @@ AsyncPacketSocket
 *
 socket
 =
-NULL
+nullptr
 ;
 TCPConnection
 *
@@ -1449,7 +1449,7 @@ AsyncPacketSocket
 *
 socket
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1634,7 +1634,7 @@ outgoing_
 socket
 =
 =
-NULL
+nullptr
 )
 connection_pending_
 (

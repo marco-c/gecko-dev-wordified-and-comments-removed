@@ -331,7 +331,7 @@ StunMessage
 *
 msg
 =
-NULL
+nullptr
 ;
 std
 :
@@ -466,7 +466,7 @@ ASSERT_TRUE
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -513,7 +513,7 @@ EXPECT_TRUE
 mapped_addr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -587,7 +587,7 @@ ASSERT_TRUE
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -634,7 +634,7 @@ EXPECT_TRUE
 mapped_addr
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -708,7 +708,7 @@ ASSERT_TRUE
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -755,7 +755,7 @@ EXPECT_TRUE
 mapped_addr
 =
 =
-NULL
+nullptr
 )
 ;
 delete
