@@ -135,6 +135,8 @@ repack
 "
 AVD_MANIFEST_X86_64
 =
+(
+    
 Path
 (
 __file__
@@ -151,10 +153,13 @@ android
 -
 avds
 /
+android34
+-
 x86_64
 .
 json
 "
+)
 AVD_MANIFEST_ARM64
 =
 Path

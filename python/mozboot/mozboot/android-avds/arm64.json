@@ -10,9 +10,9 @@ images
 ;
 android
 -
-30
+34
 ;
-default
+google_apis
 ;
 arm64
 -
@@ -80,7 +80,7 @@ cores
 skin
 "
 "
-800x1280
+1080x1920
 "
 "
 -
