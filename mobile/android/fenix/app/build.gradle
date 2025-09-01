@@ -504,7 +504,6 @@ org
 mozilla
 "
 minSdkVersion
-=
 config
 .
 minSdkVersion
@@ -514,7 +513,6 @@ config
 .
 compileSdkVersion
 targetSdkVersion
-=
 config
 .
 targetSdkVersion
@@ -1903,6 +1901,19 @@ false
 }
 packaging
 {
+if
+(
+!
+isAppBundle
+)
+{
+jniLibs
+{
+useLegacyPackaging
+=
+true
+}
+}
 resources
 {
 excludes
