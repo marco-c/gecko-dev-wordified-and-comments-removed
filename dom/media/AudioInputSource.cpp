@@ -1329,7 +1329,13 @@ NativeAudioCallback
 Data
 data
 (
+std
+:
+:
+move
+(
 c
+)
 )
 ;
 int
