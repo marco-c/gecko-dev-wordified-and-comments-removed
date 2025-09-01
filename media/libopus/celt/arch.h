@@ -848,6 +848,12 @@ defined
 (
 _WIN64
 )
+|
+|
+defined
+(
+__mips
+)
 #
 define
 OPUS_FAST_INT64
