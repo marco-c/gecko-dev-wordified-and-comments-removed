@@ -367,6 +367,8 @@ nsCString
 device_id
 bool
 scary
+bool
+placeholder
 )
 ;
 async

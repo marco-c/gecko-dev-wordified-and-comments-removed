@@ -241,6 +241,11 @@ final
 :
 public
 PCamerasParent
+private
+webrtc
+:
+:
+VideoInputFeedBack
 {
 public
 :
@@ -640,6 +645,7 @@ void
 OnDeviceChange
 (
 )
+override
 ;
 std
 :
@@ -754,14 +760,6 @@ VideoCaptureCapability
 >
 >
 mAllCandidateCapabilities
-;
-MediaEventListener
-mDeviceChangeEventListener
-;
-bool
-mDeviceChangeEventListenerConnected
-=
-false
 ;
 nsMainThreadPtrHandle
 <

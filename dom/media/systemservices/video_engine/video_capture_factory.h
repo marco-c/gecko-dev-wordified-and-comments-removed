@@ -205,11 +205,6 @@ UpdateCameraAvailability
 (
 )
 ;
-void
-Invalidate
-(
-)
-;
 private
 :
 ~
@@ -251,10 +246,8 @@ HasCameraDevice
 (
 )
 ;
-Maybe
-<
+const
 bool
->
 mUseFakeCamera
 ;
 std
