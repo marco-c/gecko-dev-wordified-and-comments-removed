@@ -7,9 +7,7 @@ SYSTEM_WRAPPERS_INCLUDE_CPU_FEATURES_WRAPPER_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 namespace
 webrtc
@@ -62,13 +60,6 @@ kCPUFeatureLDREXSTREX
 ;
 int
 GetCPUInfo
-(
-CPUFeature
-feature
-)
-;
-int
-GetCPUInfoNoASM
 (
 CPUFeature
 feature
