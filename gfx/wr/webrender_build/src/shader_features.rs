@@ -1747,6 +1747,12 @@ vec
 [
 base_prim_features
 .
+concat
+(
+&
+maybe_dithering
+)
+.
 finish
 (
 )
