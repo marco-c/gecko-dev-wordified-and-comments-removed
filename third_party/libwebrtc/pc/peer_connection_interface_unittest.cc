@@ -15352,7 +15352,7 @@ CreateDataChannelOrError
 "
 offer_channel
 "
-NULL
+nullptr
 )
 ;
 CreateOfferAsLocalDescription
@@ -17656,7 +17656,7 @@ CreateDataChannelOrError
 "
 test
 "
-NULL
+nullptr
 )
 .
 ok

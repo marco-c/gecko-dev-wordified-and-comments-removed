@@ -500,7 +500,7 @@ RTC_DCHECK
 tracks
 !
 =
-NULL
+nullptr
 )
 ;
 if

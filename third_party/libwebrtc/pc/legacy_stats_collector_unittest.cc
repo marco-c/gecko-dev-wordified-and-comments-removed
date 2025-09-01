@@ -736,7 +736,7 @@ const
 override
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -906,7 +906,7 @@ const
 override
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1778,7 +1778,7 @@ ASSERT_TRUE
 report
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -9748,7 +9748,7 @@ EXPECT_TRUE
 remote_report
 =
 =
-NULL
+nullptr
 )
 ;
 }

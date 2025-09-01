@@ -176,7 +176,7 @@ uint8_t
 (
 kExternalHmacFakeTag
 )
-NULL
+nullptr
 }
 ;
 static
@@ -285,7 +285,7 @@ if
 pointer
 =
 =
-NULL
+nullptr
 )
 return
 srtp_err_status_alloc_fail

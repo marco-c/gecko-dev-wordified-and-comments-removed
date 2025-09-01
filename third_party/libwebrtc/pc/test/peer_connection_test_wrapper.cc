@@ -2453,7 +2453,7 @@ CreateIceCandidate
 sdp_mid
 sdp_mline_index
 candidate
-NULL
+nullptr
 )
 )
 ;

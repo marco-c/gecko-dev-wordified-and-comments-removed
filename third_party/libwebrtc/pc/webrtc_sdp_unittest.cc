@@ -10252,7 +10252,7 @@ SdpDeserialize
 (
 message
 jdesc
-NULL
+nullptr
 )
 ;
 }
@@ -10277,7 +10277,7 @@ SdpDeserializeCandidate
 (
 message
 candidate
-NULL
+nullptr
 )
 ;
 }
@@ -14922,7 +14922,7 @@ content_name
 )
 !
 =
-NULL
+nullptr
 )
 ;
 TransportInfo
@@ -14997,7 +14997,7 @@ content_name
 )
 !
 =
-NULL
+nullptr
 )
 ;
 TransportInfo

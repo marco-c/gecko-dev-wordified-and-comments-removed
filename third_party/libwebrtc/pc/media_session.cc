@@ -3203,7 +3203,7 @@ TransportDescription
 *
 desc
 =
-NULL
+nullptr
 ;
 if
 (

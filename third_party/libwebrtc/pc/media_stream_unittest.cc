@@ -259,7 +259,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 video_track_
@@ -293,7 +293,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -330,7 +330,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

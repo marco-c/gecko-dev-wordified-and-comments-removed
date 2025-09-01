@@ -3460,7 +3460,7 @@ RTC_DCHECK
 stream
 !
 =
-NULL
+nullptr
 )
 ;
 CreateTrackReports
@@ -3619,7 +3619,7 @@ RTC_DCHECK
 audio_track
 !
 =
-NULL
+nullptr
 )
 ;
 #
@@ -3755,7 +3755,7 @@ RTC_DCHECK
 audio_track
 !
 =
-NULL
+nullptr
 )
 ;
 local_audio_tracks_
@@ -3846,7 +3846,7 @@ RTC_DCHECK
 reports
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -8271,7 +8271,7 @@ if
 report
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -8386,7 +8386,7 @@ RTC_DCHECK
 track
 !
 =
-NULL
+nullptr
 )
 ;
 int

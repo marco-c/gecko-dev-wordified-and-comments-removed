@@ -1940,7 +1940,7 @@ IsRtcOk
 ;
 dtmf_
 =
-NULL
+nullptr
 ;
 fake_clock_
 .

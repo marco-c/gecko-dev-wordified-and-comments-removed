@@ -96,7 +96,7 @@ delete
 jsep_ice
 ;
 return
-NULL
+nullptr
 ;
 }
 return
