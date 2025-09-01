@@ -3769,6 +3769,16 @@ builtin_audio_processing_builder
 /
 api
 /
+audio
+:
+create_audio_device_module
+"
+"
+.
+.
+/
+api
+/
 environment
 "
 "
