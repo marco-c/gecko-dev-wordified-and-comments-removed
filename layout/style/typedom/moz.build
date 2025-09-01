@@ -119,6 +119,11 @@ CSSNumericValue
 h
 "
 "
+CSSOKLab
+.
+h
+"
+"
 CSSPerspective
 .
 h
@@ -290,6 +295,11 @@ cpp
 "
 "
 CSSNumericValue
+.
+cpp
+"
+"
+CSSOKLab
 .
 cpp
 "
