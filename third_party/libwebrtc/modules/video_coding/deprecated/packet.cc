@@ -98,7 +98,7 @@ seqNum
 )
 dataPtr
 (
-NULL
+nullptr
 )
 sizeBytes
 (

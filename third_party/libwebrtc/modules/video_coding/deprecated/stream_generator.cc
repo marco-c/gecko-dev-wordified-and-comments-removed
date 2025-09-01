@@ -527,7 +527,7 @@ if
 packet
 !
 =
-NULL
+nullptr
 )
 *
 packet

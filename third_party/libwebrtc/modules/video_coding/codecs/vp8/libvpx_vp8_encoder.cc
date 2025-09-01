@@ -2961,7 +2961,7 @@ if
 inst
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4232,7 +4232,7 @@ inst
 >
 height
 1
-NULL
+nullptr
 )
 ;
 const
@@ -5984,7 +5984,7 @@ if
 encoded_complete_callback_
 =
 =
-NULL
+nullptr
 )
 return
 WEBRTC_VIDEO_CODEC_UNINITIALIZED
@@ -7280,7 +7280,7 @@ stream_idx
 vpx_codec_iter_t
 iter
 =
-NULL
+nullptr
 ;
 encoded_images_
 [
@@ -7312,7 +7312,7 @@ vpx_codec_cx_pkt_t
 *
 pkt
 =
-NULL
+nullptr
 ;
 size_t
 encoded_size
@@ -7340,7 +7340,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -7381,7 +7381,7 @@ encoded_size
 ;
 iter
 =
-NULL
+nullptr
 ;
 size_t
 encoded_pos
@@ -7409,7 +7409,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 switch
@@ -8601,7 +8601,7 @@ fmt
 d_w
 d_h
 1
-NULL
+nullptr
 )
 ;
 }

@@ -326,7 +326,7 @@ it
 dataPtr
 !
 =
-NULL
+nullptr
 )
 {
 RTC_DCHECK
@@ -334,13 +334,13 @@ RTC_DCHECK
 old_base_ptr
 !
 =
-NULL
+nullptr
 &
 &
 new_base_ptr
 !
 =
-NULL
+nullptr
 )
 ;
 (
@@ -1719,7 +1719,7 @@ it
 dataPtr
 !
 =
-NULL
+nullptr
 )
 (
 *
@@ -2033,7 +2033,7 @@ it
 .
 dataPtr
 =
-NULL
+nullptr
 ;
 }
 if

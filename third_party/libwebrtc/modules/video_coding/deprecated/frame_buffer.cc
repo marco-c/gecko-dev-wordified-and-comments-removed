@@ -449,7 +449,7 @@ RTC_DCHECK
 (
 !
 (
-NULL
+nullptr
 =
 =
 packet
@@ -472,7 +472,7 @@ packet
 dataPtr
 !
 =
-NULL
+nullptr
 )
 {
 _payloadType
