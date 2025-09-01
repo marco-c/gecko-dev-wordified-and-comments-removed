@@ -339,8 +339,6 @@ exec_script_whitelist
 "
 /
 /
-libwebrtc
-/
 build_overrides
 /
 build
