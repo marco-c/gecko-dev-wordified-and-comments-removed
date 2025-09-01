@@ -945,8 +945,6 @@ taskList
 label
 :
 "
-Task
-List
 "
 tasks
 :
