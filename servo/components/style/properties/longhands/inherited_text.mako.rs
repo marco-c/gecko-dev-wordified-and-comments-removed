@@ -72,6 +72,11 @@ color
 #
 color
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
@@ -141,7 +146,7 @@ transform
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -351,7 +356,7 @@ indent
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -427,7 +432,7 @@ wrap
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -496,7 +501,7 @@ break
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -565,7 +570,7 @@ justify
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -705,7 +710,7 @@ align
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -771,7 +776,7 @@ spacing
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -837,7 +842,7 @@ spacing
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -940,7 +945,7 @@ collapse
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -1977,7 +1982,7 @@ TextRenderingProperty
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -2532,7 +2537,7 @@ mode
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =

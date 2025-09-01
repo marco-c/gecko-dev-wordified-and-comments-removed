@@ -149,7 +149,7 @@ none
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -213,7 +213,7 @@ StyleDirection
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =

@@ -89,7 +89,7 @@ content
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -166,7 +166,7 @@ increment
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -245,7 +245,7 @@ reset
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -316,7 +316,7 @@ set
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =

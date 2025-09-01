@@ -75,7 +75,7 @@ collapse
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -141,7 +141,7 @@ cells
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -216,7 +216,7 @@ side
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -285,7 +285,7 @@ spacing
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =

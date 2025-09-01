@@ -97,7 +97,7 @@ family
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -185,7 +185,7 @@ style
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -345,7 +345,7 @@ discrete
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -433,7 +433,7 @@ weight
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -519,7 +519,7 @@ size
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -1041,7 +1041,7 @@ stretch
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -1775,7 +1775,9 @@ servo_pref
 "
 layout
 .
-unimplemented
+variable_fonts
+.
+enabled
 "
 gecko_pref
 =
@@ -2650,7 +2652,7 @@ height
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =

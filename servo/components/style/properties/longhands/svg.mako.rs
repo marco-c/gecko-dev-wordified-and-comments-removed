@@ -481,6 +481,11 @@ affects
 "
 paint
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 )
 }
 {

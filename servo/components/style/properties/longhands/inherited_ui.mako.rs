@@ -84,6 +84,11 @@ ui
 #
 cursor
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
@@ -144,6 +149,11 @@ interact
 html
 #
 PointerEventsProperty
+"
+servo_restyle_damage
+=
+"
+repaint
 "
 affects
 =
