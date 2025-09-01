@@ -87,6 +87,10 @@ txt
 "
 ansicon
 "
+    
+"
+jsonschema
+"
 }
 class
 VendorPython

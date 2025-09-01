@@ -5148,6 +5148,26 @@ in
 subschemas
 :
             
+id
+=
+subschema
+[
+"
+id
+"
+]
+            
+if
+not
+isinstance
+(
+id
+str
+)
+:
+                
+continue
+            
 target_uri
 =
 self
@@ -5158,12 +5178,7 @@ _urljoin_cache
 self
 .
 resolution_scope
-subschema
-[
-"
 id
-"
-]
             
 )
             
