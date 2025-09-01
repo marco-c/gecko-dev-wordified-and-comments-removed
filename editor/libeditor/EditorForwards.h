@@ -265,6 +265,9 @@ class
 AutoClonedSelectionRangeArray
 ;
 class
+AutoDOMAPIWrapperBase
+;
+class
 AutoSelectionRestorer
 ;
 class
