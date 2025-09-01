@@ -62,9 +62,6 @@ nsIURI
 namespace
 mozilla
 {
-class
-WritingMode
-;
 namespace
 a11y
 {
@@ -1130,15 +1127,6 @@ const
 virtual
 float
 Opacity
-(
-)
-const
-=
-0
-;
-virtual
-WritingMode
-GetWritingMode
 (
 )
 const
