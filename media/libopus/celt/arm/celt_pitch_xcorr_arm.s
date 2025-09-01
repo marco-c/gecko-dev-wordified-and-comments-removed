@@ -649,7 +649,7 @@ VAND
 is
 a
 data
-processsing
+processing
 instruction
 (
 and
