@@ -29,6 +29,11 @@ dom
 =
 [
 "
+CSSColorValue
+.
+h
+"
+"
 CSSImageValue
 .
 h
@@ -173,6 +178,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+CSSColorValue
+.
+cpp
+"
 "
 CSSImageValue
 .

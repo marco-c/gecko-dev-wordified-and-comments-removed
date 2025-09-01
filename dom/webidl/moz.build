@@ -3349,6 +3349,11 @@ CSSAnimation
 webidl
 "
 "
+CSSColorValue
+.
+webidl
+"
+"
 CSSConditionRule
 .
 webidl
