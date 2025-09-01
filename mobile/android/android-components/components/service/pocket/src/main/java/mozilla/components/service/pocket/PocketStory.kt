@@ -130,23 +130,6 @@ String
 *
 *
 *
-Image
-URL
-of
-the
-story
-.
-*
-/
-abstract
-val
-imageUrl
-:
-String
-/
-*
-*
-*
 A
 curated
 content
@@ -354,7 +337,6 @@ val
 isTimeSensitive
 :
 Boolean
-override
 val
 imageUrl
 :
@@ -532,7 +514,6 @@ val
 callbacks
 :
 SponsoredContentCallbacks
-override
 val
 imageUrl
 :
@@ -896,7 +877,6 @@ val
 url
 :
 String
-override
 val
 imageUrl
 :
@@ -1100,7 +1080,6 @@ val
 url
 :
 String
-override
 val
 imageUrl
 :
