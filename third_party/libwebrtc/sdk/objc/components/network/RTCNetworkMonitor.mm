@@ -499,7 +499,7 @@ webrtc
 :
 NetworkMonitorObserver
 *
-observer
+strongObserver
 =
 strongSelf
 -
@@ -508,10 +508,10 @@ _observer
 ;
 if
 (
-observer
+strongObserver
 )
 {
-observer
+strongObserver
 -
 >
 OnPathUpdate

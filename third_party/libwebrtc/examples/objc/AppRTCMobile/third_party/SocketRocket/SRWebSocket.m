@@ -2047,7 +2047,7 @@ _readUntilHeaderCompleteWithCallback
 (
 SRWebSocket
 *
-self
+socket
 NSData
 *
 data
@@ -2055,7 +2055,7 @@ data
 {
 CFHTTPMessageAppendBytes
 (
-self
+socket
 -
 >
 _receivedHTTPHeaders
@@ -2076,7 +2076,7 @@ if
 (
 CFHTTPMessageIsHeaderComplete
 (
-self
+socket
 -
 >
 _receivedHTTPHeaders
@@ -2095,7 +2095,7 @@ CFBridgingRelease
 (
 CFHTTPMessageCopyAllHeaderFields
 (
-self
+socket
 -
 >
 _receivedHTTPHeaders
@@ -2104,7 +2104,7 @@ _receivedHTTPHeaders
 )
 ;
 [
-self
+socket
 _HTTPHeadersDidFinish
 ]
 ;
@@ -2112,7 +2112,7 @@ _HTTPHeadersDidFinish
 else
 {
 [
-self
+socket
 _readHTTPHeader
 ]
 ;
@@ -4530,7 +4530,7 @@ callback
 (
 SRWebSocket
 *
-self
+socket
 NSData
 *
 newData
@@ -4542,7 +4542,7 @@ isControlFrame
 )
 {
 [
-self
+socket
 _handleFrameWithData
 :
 newData
@@ -4564,10 +4564,10 @@ fin
 )
 {
 [
-self
+socket
 _handleFrameWithData
 :
-self
+socket
 -
 >
 _currentFrameData
@@ -4582,7 +4582,7 @@ opcode
 else
 {
 [
-self
+socket
 _readFrameContinue
 ]
 ;
@@ -4683,7 +4683,7 @@ callback
 (
 SRWebSocket
 *
-self
+sself
 NSData
 *
 data
@@ -4727,7 +4727,7 @@ SRRsvMask
 )
 {
 [
-self
+sself
 _closeWithProtocolError
 :
 "
@@ -4787,7 +4787,7 @@ receivedOpcode
 0
 &
 &
-self
+sself
 -
 >
 _currentFrameCount
@@ -4796,7 +4796,7 @@ _currentFrameCount
 )
 {
 [
-self
+sself
 _closeWithProtocolError
 :
 "
@@ -4826,7 +4826,7 @@ receivedOpcode
 0
 &
 &
-self
+sself
 -
 >
 _currentFrameCount
@@ -4836,7 +4836,7 @@ _currentFrameCount
 )
 {
 [
-self
+sself
 _closeWithProtocolError
 :
 "
@@ -4859,7 +4859,7 @@ receivedOpcode
 =
 0
 ?
-self
+sself
 -
 >
 _currentFrameOpcode
@@ -4919,7 +4919,7 @@ masked
 )
 {
 [
-self
+sself
 _closeWithProtocolError
 :
 "
@@ -4941,7 +4941,7 @@ masked
 ?
 sizeof
 (
-self
+sself
 -
 >
 _currentReadMaskKey
@@ -4997,13 +4997,13 @@ extra_bytes_needed
 )
 {
 [
-self
+sself
 _handleFrameHeader
 :
 header
 curData
 :
-self
+sself
 -
 >
 _currentFrameData
@@ -5013,7 +5013,7 @@ _currentFrameData
 else
 {
 [
-self
+sself
 _addConsumerWithDataLength
 :
 extra_bytes_needed
@@ -5023,16 +5023,16 @@ callback
 (
 SRWebSocket
 *
-self
+eself
 NSData
 *
-data
+edata
 )
 {
 size_t
 mapped_size
 =
-data
+edata
 .
 length
 ;
@@ -5041,7 +5041,7 @@ void
 *
 mapped_buffer
 =
-data
+edata
 .
 bytes
 ;
@@ -5182,7 +5182,7 @@ mapped_size
 =
 sizeof
 (
-self
+eself
 -
 >
 _currentReadMaskOffset
@@ -5193,7 +5193,7 @@ offset
 ;
 memcpy
 (
-self
+eself
 -
 >
 _currentReadMaskKey
@@ -5208,7 +5208,7 @@ mapped_buffer
 offset
 sizeof
 (
-self
+eself
 -
 >
 _currentReadMaskKey
@@ -5217,13 +5217,13 @@ _currentReadMaskKey
 ;
 }
 [
-self
+eself
 _handleFrameHeader
 :
 header
 curData
 :
-self
+eself
 -
 >
 _currentFrameData

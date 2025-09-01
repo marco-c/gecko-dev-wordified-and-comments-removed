@@ -338,7 +338,7 @@ NSURLResponse
 response
 NSData
 *
-data
+responseData
 NSError
 *
 error
@@ -371,7 +371,7 @@ completionHandler
 completionHandler
 (
 NO
-data
+responseData
 )
 ;
 }
@@ -402,7 +402,7 @@ NSString
 *
 serverResponse
 =
-data
+responseData
 .
 length
 >
@@ -415,7 +415,7 @@ alloc
 ]
 initWithData
 :
-data
+responseData
 encoding
 :
 NSUTF8StringEncoding
@@ -443,7 +443,7 @@ completionHandler
 completionHandler
 (
 NO
-data
+responseData
 )
 ;
 }
@@ -458,7 +458,7 @@ completionHandler
 completionHandler
 (
 YES
-data
+responseData
 )
 ;
 }

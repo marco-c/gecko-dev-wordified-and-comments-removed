@@ -2637,9 +2637,9 @@ listSize
 0
 ;
 SIZE
-size
+requested_size
 ;
-size
+requested_size
 .
 cx
 =
@@ -2647,7 +2647,7 @@ capability
 .
 width
 ;
-size
+requested_size
 .
 cy
 =
@@ -2664,7 +2664,7 @@ GetFrameRateList
 (
 outputCapturePin
 tmp
-size
+requested_size
 &
 listSize
 &

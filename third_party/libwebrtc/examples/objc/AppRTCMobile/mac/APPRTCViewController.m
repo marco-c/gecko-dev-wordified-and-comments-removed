@@ -773,7 +773,7 @@ addConstraints
 NSArray
 *
 )
-constraints
+constraintFormats
 toView
 :
 (
@@ -802,7 +802,7 @@ NSString
 *
 constraintFormat
 in
-constraints
+constraintFormats
 )
 {
 NSArray
