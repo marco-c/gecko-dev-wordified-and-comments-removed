@@ -84,9 +84,6 @@ FakeFrameDecryptor
 :
 Decrypt
 (
-webrtc
-:
-:
 MediaType
 const
 std
@@ -227,9 +224,6 @@ FakeFrameDecryptor
 :
 GetMaxPlaintextByteSize
 (
-webrtc
-:
-:
 MediaType
 size_t
 encrypted_frame_size

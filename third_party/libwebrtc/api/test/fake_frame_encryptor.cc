@@ -76,9 +76,6 @@ FakeFrameEncryptor
 :
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 uint32_t
 ArrayView
@@ -208,9 +205,6 @@ FakeFrameEncryptor
 :
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 size_t
 frame_size

@@ -355,17 +355,11 @@ override
 {
 temp_filename_
 =
-webrtc
-:
-:
 test
 :
 :
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -386,9 +380,6 @@ override
 {
 ASSERT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :

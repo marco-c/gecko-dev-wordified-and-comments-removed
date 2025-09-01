@@ -107,9 +107,6 @@ SchedulableNetworkNodeBuilder
 :
 SchedulableNetworkNodeBuilder
 (
-webrtc
-:
-:
 NetworkEmulationManager
 &
 net
@@ -139,9 +136,6 @@ start_condition_
 [
 ]
 (
-webrtc
-:
-:
 Timestamp
 )
 {
@@ -165,9 +159,6 @@ AnyInvocable
 <
 bool
 (
-webrtc
-:
-:
 Timestamp
 )
 >
@@ -185,9 +176,6 @@ start_condition
 )
 ;
 }
-webrtc
-:
-:
 EmulatedNetworkNode
 *
 SchedulableNetworkNodeBuilder
