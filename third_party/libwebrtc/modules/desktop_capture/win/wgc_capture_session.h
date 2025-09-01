@@ -500,6 +500,15 @@ damage_region_
 intptr_t
 source_id_
 ;
+std
+:
+:
+optional
+<
+HMONITOR
+>
+monitor_
+;
 bool
 is_window_source_
 ;

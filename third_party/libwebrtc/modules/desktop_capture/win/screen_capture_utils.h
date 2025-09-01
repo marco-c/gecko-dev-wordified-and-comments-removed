@@ -175,7 +175,13 @@ const
 std
 :
 :
+optional
+<
+std
+:
+:
 wstring
+>
 &
 device_key
 )

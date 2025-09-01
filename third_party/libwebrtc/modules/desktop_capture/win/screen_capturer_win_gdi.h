@@ -219,7 +219,13 @@ kFullDesktopScreenId
 std
 :
 :
+optional
+<
+std
+:
+:
 wstring
+>
 current_device_key_
 ;
 ScopedThreadDesktop
