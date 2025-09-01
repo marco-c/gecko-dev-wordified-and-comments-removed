@@ -3161,6 +3161,7 @@ this
 #
 deferredNavigation
 =
+new
 lazy
 .
 Deferred
