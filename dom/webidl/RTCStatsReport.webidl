@@ -787,7 +787,9 @@ frozen
 waiting
 "
 "
-inprogress
+in
+-
+progress
 "
 "
 failed
