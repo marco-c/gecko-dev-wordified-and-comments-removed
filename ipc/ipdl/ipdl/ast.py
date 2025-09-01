@@ -2263,6 +2263,11 @@ __init__
 self
 loc
 spec
+nullable
+modifiers
+=
+[
+]
 )
 :
         
@@ -2289,42 +2294,47 @@ spec
         
 self
 .
-array
-=
-False
-        
-self
-.
-maybe
-=
-False
-        
-self
-.
 nullable
 =
-False
+nullable
         
 self
 .
-uniqueptr
+modifiers
 =
-False
+modifiers
     
 def
-basename
+withModifier
 (
 self
+modifier
 )
 :
         
 return
+TypeSpec
+(
+self
+.
+loc
 self
 .
 spec
+self
+.
+nullable
+self
+.
+modifiers
++
+[
+modifier
+]
+)
     
 def
-__str__
+basename
 (
 self
 )
