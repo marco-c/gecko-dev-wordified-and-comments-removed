@@ -578,7 +578,7 @@ b
 BIO_set_data
 (
 b
-0
+nullptr
 )
 ;
 return

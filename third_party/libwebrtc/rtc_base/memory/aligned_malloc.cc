@@ -133,7 +133,7 @@ pointer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -146,7 +146,7 @@ alignment
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uintptr_t
@@ -194,7 +194,7 @@ size
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -207,7 +207,7 @@ alignment
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -347,7 +347,7 @@ if
 mem_block
 =
 =
-NULL
+nullptr
 )
 {
 return
