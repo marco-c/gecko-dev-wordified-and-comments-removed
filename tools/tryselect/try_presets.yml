@@ -183,6 +183,10 @@ shippable
 '
 64
 '
+em
+-
+7
+'
 gtest
 |
 '
@@ -210,6 +214,8 @@ gli
 iso
 '
 em
+-
+7
 '
 media
 |
@@ -277,6 +283,10 @@ shippable
 !
 iso
 '
+em
+-
+7
+'
 geckoview
 -
 crashtest
@@ -303,6 +313,10 @@ shippable
 !
 headless
 '
+em
+-
+7
+'
 wdspec
 "
 -
@@ -317,6 +331,10 @@ shippable
 cf
 !
 iso
+'
+em
+-
+7
 '
 web
 -
@@ -342,6 +360,10 @@ cf
 iso
 !
 swr
+'
+em
+-
+7
 '
 web
 -
@@ -370,6 +392,10 @@ ship
 !
 swr
 '
+em
+-
+7
+'
 web
 -
 platform
@@ -392,6 +418,10 @@ back
 cf
 !
 iso
+'
+em
+-
+7
 '
 web
 -
@@ -422,6 +452,10 @@ iso
 !
 swr
 '
+em
+-
+7
+'
 web
 -
 platform
@@ -444,6 +478,10 @@ android
 shippable
 !
 iso
+'
+em
+-
+7
 '
 xpcshell
 "
