@@ -1651,11 +1651,7 @@ showShortcutsSuggestions
 &
 &
 (
-query
-.
-isNotEmpty
-(
-)
+searchStartedForCurrentUrl
 |
 |
 FxNimbus

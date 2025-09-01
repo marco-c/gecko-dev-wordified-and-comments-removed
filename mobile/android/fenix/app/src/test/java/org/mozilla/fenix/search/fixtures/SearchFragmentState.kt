@@ -143,6 +143,9 @@ emptyList
 searchSuggestionsOrientedAtBottom
 =
 false
+searchStartedForCurrentUrl
+=
+false
 shouldShowSearchSuggestions
 =
 false

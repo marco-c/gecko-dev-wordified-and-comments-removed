@@ -1653,6 +1653,7 @@ listOf
 BrowserToolbarToFenixSearchMapperMiddleware
 (
 toolbarStore
+browserStore
 )
 BrowserStoreToFenixSearchMapperMiddleware
 (
