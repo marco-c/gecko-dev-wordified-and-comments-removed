@@ -108,14 +108,6 @@ byte
 ]
 authSecret
 ;
-SuppressWarnings
-(
-"
-checkstyle
-:
-javadocmethod
-"
-)
 public
 WebPushSubscription
 (
