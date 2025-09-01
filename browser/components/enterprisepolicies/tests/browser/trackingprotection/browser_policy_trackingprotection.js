@@ -156,10 +156,11 @@ baseline
 enabled
 "
 )
-true
+false
 "
 Preference
 should
+NOT
 be
 locked
 "
@@ -185,10 +186,11 @@ convenience
 enabled
 "
 )
-true
+false
 "
 Preference
 should
+NOT
 be
 locked
 "
