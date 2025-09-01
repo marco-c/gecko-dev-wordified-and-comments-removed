@@ -270,7 +270,7 @@ afterPaintListener
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

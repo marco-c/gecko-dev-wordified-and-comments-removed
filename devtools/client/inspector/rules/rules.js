@@ -4863,7 +4863,7 @@ startTime
 =
 isProfilerActive
 ?
-Cu
+ChromeUtils
 .
 now
 (

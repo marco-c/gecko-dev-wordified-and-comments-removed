@@ -343,7 +343,7 @@ data
 const
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -1311,7 +1311,7 @@ innerWindowId
 const
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -1477,7 +1477,7 @@ units
 const
 endTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -2713,7 +2713,7 @@ break
 const
 now
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -2780,7 +2780,7 @@ addProfilerMarker
 ;
 lastTimeout
 =
-performance
+ChromeUtils
 .
 now
 (

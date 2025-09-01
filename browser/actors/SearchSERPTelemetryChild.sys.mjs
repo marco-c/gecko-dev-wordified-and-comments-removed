@@ -1375,7 +1375,7 @@ event
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9121,7 +9121,7 @@ measurements
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9360,7 +9360,7 @@ pageshow
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9507,7 +9507,7 @@ providerInfo
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (

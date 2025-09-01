@@ -549,7 +549,7 @@ maxTries
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -976,7 +976,7 @@ reject
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -2735,7 +2735,7 @@ _currentTestStartTimestamp
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 now
 (

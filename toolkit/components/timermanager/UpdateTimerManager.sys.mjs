@@ -1267,7 +1267,7 @@ try
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1528,7 +1528,7 @@ try
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

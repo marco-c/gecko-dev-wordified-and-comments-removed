@@ -7324,7 +7324,7 @@ args
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -7868,7 +7868,7 @@ listenerArgs
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

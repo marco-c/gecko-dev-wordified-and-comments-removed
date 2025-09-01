@@ -1771,7 +1771,7 @@ innerWindowId
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -4086,7 +4086,7 @@ cmdLine
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -4879,7 +4879,7 @@ win
 .
 openTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -6644,7 +6644,7 @@ shuttingDown
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -8501,7 +8501,7 @@ shuttingDown
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

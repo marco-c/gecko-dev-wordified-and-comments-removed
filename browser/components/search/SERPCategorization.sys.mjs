@@ -6599,7 +6599,7 @@ fileContents
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9647,7 +9647,7 @@ isDefault
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (

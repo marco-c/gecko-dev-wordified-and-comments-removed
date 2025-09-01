@@ -1103,7 +1103,7 @@ aPing
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -8702,7 +8702,7 @@ isPersisted
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

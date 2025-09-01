@@ -10462,7 +10462,7 @@ SERP
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -10956,7 +10956,7 @@ true
 let
 startFindComponent
 =
-Cu
+ChromeUtils
 .
 now
 (

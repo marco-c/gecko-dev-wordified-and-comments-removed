@@ -2468,7 +2468,7 @@ pagesRankChangedCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2561,7 +2561,7 @@ semanticHistoryFindChunksTime
 .
 accumulateSingleSample
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -4730,7 +4730,7 @@ queryContext
 const
 inferStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (

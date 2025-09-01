@@ -9567,7 +9567,7 @@ languagePair
 const
 wasmStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9639,7 +9639,7 @@ nothing
 const
 modelStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (

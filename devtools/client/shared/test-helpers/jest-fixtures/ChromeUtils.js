@@ -44,6 +44,17 @@ addProfilerMarker
 >
 {
 }
+now
+:
+(
+)
+=
+>
+performance
+.
+now
+(
+)
 defineESModuleGetters
 :
 (

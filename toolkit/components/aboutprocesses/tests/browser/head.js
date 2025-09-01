@@ -87,7 +87,7 @@ tabAboutProcesses
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

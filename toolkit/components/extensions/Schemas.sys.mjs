@@ -23343,7 +23343,7 @@ return
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -1651,7 +1651,7 @@ browserOpenNewtabStart
 let
 now
 =
-Cu
+ChromeUtils
 .
 now
 (

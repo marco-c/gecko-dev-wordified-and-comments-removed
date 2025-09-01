@@ -914,7 +914,7 @@ checkFn
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1875,7 +1875,7 @@ maxTries
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

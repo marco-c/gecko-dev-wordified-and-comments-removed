@@ -6192,7 +6192,7 @@ continue
 const
 readJSONStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -6781,7 +6781,7 @@ err
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -7922,7 +7922,7 @@ aborted
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -8410,7 +8410,7 @@ extension
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -10507,7 +10507,7 @@ saveCacheDataNow
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -10703,7 +10703,7 @@ extensionId
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

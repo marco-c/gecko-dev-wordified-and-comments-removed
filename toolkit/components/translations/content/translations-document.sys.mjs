@@ -8328,7 +8328,7 @@ exitedCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -8685,7 +8685,7 @@ exitedCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9131,7 +9131,7 @@ exitedCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9488,7 +9488,7 @@ exitedCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -9821,7 +9821,7 @@ waitForFirstIntersectionObservations
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -10687,7 +10687,7 @@ addRootElements
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -13006,7 +13006,7 @@ attributeRequestCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -15629,7 +15629,7 @@ return
 const
 contentStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -15681,7 +15681,7 @@ translations
 const
 attributeStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -18392,7 +18392,7 @@ updatedAttributeCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -20068,7 +20068,7 @@ elementCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -23047,7 +23047,7 @@ attributeRequestCount
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

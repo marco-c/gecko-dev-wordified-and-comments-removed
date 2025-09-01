@@ -170,7 +170,7 @@ destroyed
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -1166,7 +1166,7 @@ args
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2159,7 +2159,7 @@ tab
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2740,7 +2740,7 @@ options
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -6614,7 +6614,7 @@ options
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -7907,7 +7907,7 @@ wantsUntrusted
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -17442,7 +17442,7 @@ aMessageData
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

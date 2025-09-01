@@ -641,7 +641,7 @@ isWorker
 ?
 null
 :
-Cu
+ChromeUtils
 .
 now
 (

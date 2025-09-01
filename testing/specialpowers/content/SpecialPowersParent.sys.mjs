@@ -4969,7 +4969,7 @@ aMessage
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

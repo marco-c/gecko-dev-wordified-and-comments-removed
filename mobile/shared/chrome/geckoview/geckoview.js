@@ -3908,7 +3908,7 @@ InitializationTracker
 .
 onInitialized
 (
-performance
+ChromeUtils
 .
 now
 (

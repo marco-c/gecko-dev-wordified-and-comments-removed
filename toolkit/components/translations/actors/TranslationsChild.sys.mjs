@@ -689,7 +689,7 @@ undefined
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

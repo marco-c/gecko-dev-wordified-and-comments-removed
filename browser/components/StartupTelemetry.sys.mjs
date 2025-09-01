@@ -462,7 +462,7 @@ shuttingDown
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
