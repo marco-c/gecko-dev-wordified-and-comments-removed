@@ -1181,11 +1181,6 @@ end
 )
 const
 ;
-void
-DisableGlobally
-(
-)
-;
 private
 :
 uint64_t
