@@ -2929,7 +2929,6 @@ platform
 tests
 -
 reftest
-#
 -
 web
 -
@@ -2938,9 +2937,6 @@ platform
 tests
 -
 wdspec
-#
-Bug
-1981210
 -
 web
 -
