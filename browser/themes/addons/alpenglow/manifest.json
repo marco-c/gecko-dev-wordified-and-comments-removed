@@ -53,6 +53,13 @@ windows
 .
 "
 "
+author
+"
+:
+"
+Mozilla
+"
+"
 version
 "
 :
@@ -60,6 +67,8 @@ version
 1
 .
 5
+.
+1
 "
 "
 icons
