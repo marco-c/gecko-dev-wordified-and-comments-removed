@@ -1953,10 +1953,9 @@ Length
 {
 if
 (
-!
 mProxy
-|
-|
+&
+&
 !
 mProxy
 -
@@ -2225,10 +2224,9 @@ Length
 {
 if
 (
-!
 mProxy
-|
-|
+&
+&
 !
 mProxy
 -

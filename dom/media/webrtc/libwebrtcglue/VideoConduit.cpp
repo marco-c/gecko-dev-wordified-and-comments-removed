@@ -12188,10 +12188,6 @@ mSendStream
 |
 !
 mCurSendCodecConfig
-|
-|
-!
-mEngineTransmitting
 )
 {
 CopyableErrorResult

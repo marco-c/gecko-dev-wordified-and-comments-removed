@@ -12453,10 +12453,6 @@ mTransform
 |
 !
 mPipeline
-|
-|
-!
-mSenderTrack
 )
 {
 return
