@@ -857,7 +857,6 @@ ic
 =
 0
 ;
-unsigned
 int
 curradvx
 =

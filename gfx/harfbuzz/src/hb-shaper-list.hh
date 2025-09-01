@@ -73,6 +73,15 @@ harfrust
 #
 endif
 #
+ifdef
+HAVE_KBTS
+HB_SHAPER_IMPLEMENT
+(
+kbts
+)
+#
+endif
+#
 ifndef
 HB_NO_FALLBACK_SHAPE
 HB_SHAPER_IMPLEMENT

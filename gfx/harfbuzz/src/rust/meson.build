@@ -334,11 +334,6 @@ Cargo
 .
 toml
 '
-'
-Cargo
-.
-lock
-'
 ]
 output
 :

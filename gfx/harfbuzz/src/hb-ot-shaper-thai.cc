@@ -669,6 +669,7 @@ T3
 }
 ;
 static
+const
 enum
 thai_below_state_t
 {

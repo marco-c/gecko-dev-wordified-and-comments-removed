@@ -824,6 +824,9 @@ extents
 )
 const
 {
+#
+ifndef
+HB_NO_DRAW
 if
 (
 !
@@ -910,6 +913,13 @@ y_scale
 return
 ret
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 private
 :

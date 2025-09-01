@@ -5,7 +5,7 @@ OT_LAYOUT_TYPES_HH
 define
 OT_LAYOUT_TYPES_HH
 using
-hb_ot_lookup_cache_t
+hb_ot_layout_mapping_cache_t
 =
 hb_cache_t
 <
@@ -18,7 +18,7 @@ static_assert
 (
 sizeof
 (
-hb_ot_lookup_cache_t
+hb_ot_layout_mapping_cache_t
 )
 =
 =

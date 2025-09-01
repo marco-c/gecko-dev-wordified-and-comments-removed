@@ -291,6 +291,10 @@ fd
 .
 localSubrs
 )
+region_count
+(
+0
+)
 cached_scalars_vector
 (
 &

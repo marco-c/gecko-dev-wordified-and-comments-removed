@@ -160,9 +160,6 @@ bool
 successful
 ;
 bool
-shaping_failed
-;
-bool
 have_output
 ;
 bool
@@ -1398,9 +1395,10 @@ if
 unlikely
 (
 !
-make_room_for
+ensure
 (
-1
+out_len
++
 1
 )
 )

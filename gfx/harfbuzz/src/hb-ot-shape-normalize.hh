@@ -22,7 +22,7 @@ hh
 "
 #
 define
-glyph_index
+normalizer_glyph_index
 (
 )
 var1
