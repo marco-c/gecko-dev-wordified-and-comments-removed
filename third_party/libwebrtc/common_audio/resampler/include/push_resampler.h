@@ -7,6 +7,11 @@ COMMON_AUDIO_RESAMPLER_INCLUDE_PUSH_RESAMPLER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #
