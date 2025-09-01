@@ -2482,9 +2482,7 @@ createEngine
 backend
 :
 "
-best
--
-llama
+wllama
 "
 engineId
 :

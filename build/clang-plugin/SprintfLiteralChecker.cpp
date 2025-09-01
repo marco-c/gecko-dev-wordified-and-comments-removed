@@ -125,9 +125,6 @@ constant
 )
 )
 )
-isFirstParty
-(
-)
 )
 .
 bind
