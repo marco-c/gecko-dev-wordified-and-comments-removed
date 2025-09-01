@@ -10,6 +10,15 @@ include
 <
 asm
 /
+ioctls
+.
+h
+>
+#
+include
+<
+asm
+/
 termbits
 .
 h
