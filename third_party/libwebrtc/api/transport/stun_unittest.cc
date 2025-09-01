@@ -2977,7 +2977,7 @@ ASSERT_TRUE
 software
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3008,7 +3008,7 @@ ASSERT_TRUE
 username
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3032,7 +3032,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 const
@@ -3052,7 +3052,7 @@ ASSERT_TRUE
 fingerprint
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3117,7 +3117,7 @@ ASSERT_TRUE
 software
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3148,7 +3148,7 @@ ASSERT_TRUE
 mapped_address
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3172,7 +3172,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -3185,7 +3185,7 @@ STUN_ATTR_FINGERPRINT
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -3239,7 +3239,7 @@ ASSERT_TRUE
 software
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3270,7 +3270,7 @@ ASSERT_TRUE
 mapped_address
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3294,7 +3294,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -3307,7 +3307,7 @@ STUN_ATTR_FINGERPRINT
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -3361,7 +3361,7 @@ ASSERT_TRUE
 username
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3392,7 +3392,7 @@ ASSERT_TRUE
 nonce
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3423,7 +3423,7 @@ ASSERT_TRUE
 realm
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3447,7 +3447,7 @@ STUN_ATTR_MESSAGE_INTEGRITY
 )
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -3460,7 +3460,7 @@ STUN_ATTR_FINGERPRINT
 )
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -3635,7 +3635,7 @@ addr2
 (
 STUN_ATTR_XOR_MAPPED_ADDRESS
 20
-NULL
+nullptr
 )
 ;
 addr2
@@ -3794,7 +3794,7 @@ addr2
 .
 SetOwner
 (
-NULL
+nullptr
 )
 ;
 ASSERT_EQ
@@ -3913,7 +3913,7 @@ addr2
 (
 STUN_ATTR_XOR_MAPPED_ADDRESS
 20
-NULL
+nullptr
 )
 ;
 addr2
@@ -4051,7 +4051,7 @@ addr2
 .
 SetOwner
 (
-NULL
+nullptr
 )
 ;
 ASSERT_EQ
@@ -5078,7 +5078,7 @@ ASSERT_TRUE
 username
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -5149,7 +5149,7 @@ ASSERT_TRUE
 username
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -5213,7 +5213,7 @@ ASSERT_TRUE
 errorcode
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -5340,7 +5340,7 @@ ASSERT_TRUE
 types
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -5434,7 +5434,7 @@ ASSERT_TRUE
 username
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -9350,7 +9350,7 @@ ASSERT_TRUE
 types
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
