@@ -461,7 +461,7 @@ R
 .
 drawable
 .
-ic_new
+mozac_ic_plus_24
 )
 contentDescription
 =
@@ -567,7 +567,7 @@ R
 .
 drawable
 .
-ic_new
+mozac_ic_plus_24
 )
 contentDescription
 =
