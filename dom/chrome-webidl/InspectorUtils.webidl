@@ -397,6 +397,17 @@ float
 v
 )
 ;
+float
+relativeLuminance
+(
+float
+r
+float
+g
+float
+b
+)
+;
 InspectorRGBATuple
 ?
 colorToRGBA
