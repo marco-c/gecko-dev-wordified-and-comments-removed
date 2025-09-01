@@ -274,9 +274,7 @@ third_party
 /
 libwebrtc
 /
-system_wrappers
-/
-source
+rtc_base
 /
 denormal_disabler
 .
