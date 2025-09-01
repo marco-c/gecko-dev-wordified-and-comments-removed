@@ -19,6 +19,10 @@ clip
 :
 :
 ClipStore
+frame_builder
+:
+:
+FrameBuilderConfig
 render_task_graph
 :
 :
@@ -102,9 +106,12 @@ RadialGradient
 ConicGradient
 =
 2
-Mask
+Gradient
 =
 3
+Mask
+=
+4
 }
 pub
 const
@@ -112,7 +119,7 @@ NUM_PATTERNS
 :
 u32
 =
-4
+5
 ;
 impl
 PatternKind
@@ -342,6 +349,13 @@ spatial_tree
 '
 a
 SpatialTree
+pub
+fb_config
+:
+&
+'
+a
+FrameBuilderConfig
 }
 pub
 struct
