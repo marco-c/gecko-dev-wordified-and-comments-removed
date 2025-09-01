@@ -1,4 +1,8 @@
 #
+define
+ENABLE_SET_CUBEB_BACKEND
+1
+#
 include
 "
 CubebDeviceEnumerator
