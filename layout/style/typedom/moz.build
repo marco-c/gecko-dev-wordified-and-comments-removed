@@ -59,6 +59,11 @@ CSSLab
 h
 "
 "
+CSSLCH
+.
+h
+"
+"
 CSSMathClamp
 .
 h
@@ -225,6 +230,11 @@ cpp
 "
 "
 CSSLab
+.
+cpp
+"
+"
+CSSLCH
 .
 cpp
 "
