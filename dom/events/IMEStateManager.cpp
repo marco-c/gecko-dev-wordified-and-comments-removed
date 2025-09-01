@@ -685,7 +685,7 @@ Length
 )
 :
 0
-TrueOrFalse
+GetBoolName
 (
 sPendingFocusedBrowserSwitchingData
 .
@@ -1118,7 +1118,7 @@ request
 s
 )
 "
-TrueOrFalse
+GetBoolName
 (
 !
 oldWidget
@@ -1466,7 +1466,7 @@ sFocusedIMEWidget
 p
 "
 aWidget
-TrueOrFalse
+GetBoolName
 (
 aWidget
 &
@@ -3480,7 +3480,7 @@ restoringContextForRemoteContent
 s
 "
 aPresContext
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -3488,7 +3488,7 @@ aPresContext
 )
 )
 aElement
-TrueOrFalse
+GetBoolName
 (
 remoteHasFocus
 )
@@ -3517,7 +3517,7 @@ sFocusedPresContext
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -3530,7 +3530,7 @@ get
 (
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -3554,15 +3554,15 @@ sActiveIMEContentObserver
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 sInstalledMenuKeyboardListener
 )
-TrueOrFalse
+GetBoolName
 (
 sIsActive
 )
-TrueOrFalse
+GetBoolName
 (
 restoringContextForRemoteContent
 )
@@ -4929,11 +4929,11 @@ sPseudoFocusChangeRunnable
 %
 p
 "
-TrueOrFalse
+GetBoolName
 (
 aInstalling
 )
-TrueOrFalse
+GetBoolName
 (
 nsContentUtils
 :
@@ -4942,7 +4942,7 @@ IsSafeToRunScript
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 sInstalledMenuKeyboardListener
 )
@@ -5076,12 +5076,12 @@ sPseudoFocusChangeRunnable
 p
 "
 aCaller
-TrueOrFalse
+GetBoolName
 (
 aSetPseudoFocus
 )
 aFocusedPresContextAtRequested
-TrueOrFalse
+GetBoolName
 (
 sInstalledMenuKeyboardListener
 )
@@ -5310,7 +5310,7 @@ p
 "
 &
 aPresContext
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -5617,7 +5617,7 @@ s
 "
 &
 aPresContext
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -5639,7 +5639,7 @@ get
 (
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -6183,7 +6183,7 @@ p
 "
 &
 aPresContext
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -6696,7 +6696,7 @@ p
 "
 &
 aPresContext
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -7008,7 +7008,7 @@ sFocusedPresContext
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -7021,7 +7021,7 @@ get
 (
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -7039,7 +7039,7 @@ sActiveIMEContentObserver
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 sIsGettingNewIMEState
 )
@@ -7468,7 +7468,7 @@ sFocusedPresContext
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -7481,7 +7481,7 @@ get
 (
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -7499,7 +7499,7 @@ sActiveIMEContentObserver
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 sIsGettingNewIMEState
 )
@@ -8543,7 +8543,7 @@ s
 &
 aPresContext
 aElement
-TrueOrFalse
+GetBoolName
 (
 sInstalledMenuKeyboardListener
 )
@@ -9148,7 +9148,7 @@ sFocusedPresContext
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 CanHandleWith
 (
@@ -9156,7 +9156,7 @@ sFocusedPresContext
 )
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -9175,7 +9175,7 @@ BrowserParent
 GetFocused
 (
 )
-TrueOrFalse
+GetBoolName
 (
 sInstalledMenuKeyboardListener
 )
@@ -11219,7 +11219,7 @@ GetNativeIMEContext
 )
 .
 mOriginProcessID
-TrueOrFalse
+GetBoolName
 (
 aCompositionEvent
 -
@@ -11231,7 +11231,7 @@ Destroyed
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aCompositionEvent
 -
@@ -11240,7 +11240,7 @@ mFlags
 .
 mIsTrusted
 )
-TrueOrFalse
+GetBoolName
 (
 aCompositionEvent
 -
@@ -11249,7 +11249,7 @@ mFlags
 .
 mPropagationStopped
 )
-TrueOrFalse
+GetBoolName
 (
 aIsSynthesized
 )
@@ -11696,7 +11696,7 @@ aSelectionEvent
 >
 mMessage
 )
-TrueOrFalse
+GetBoolName
 (
 aSelectionEvent
 -
@@ -11928,7 +11928,7 @@ GetNativeIMEContext
 )
 .
 mOriginProcessID
-TrueOrFalse
+GetBoolName
 (
 aCompositionEvent
 -
@@ -11940,7 +11940,7 @@ Destroyed
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aCompositionEvent
 -
@@ -12196,7 +12196,7 @@ sFocusedIMEBrowserParent
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 aBrowserParent
 =
@@ -12208,14 +12208,14 @@ GetFocused
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aBrowserParent
 =
 =
 sFocusedIMEBrowserParent
 )
-TrueOrFalse
+GetBoolName
 (
 CanSendNotificationToWidget
 (
@@ -13763,7 +13763,7 @@ get
 (
 )
 sTextInputHandlingWidget
-TrueOrFalse
+GetBoolName
 (
 sTextInputHandlingWidget
 &
@@ -13781,7 +13781,7 @@ sActiveIMEContentObserver
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 sActiveIMEContentObserver
 &
