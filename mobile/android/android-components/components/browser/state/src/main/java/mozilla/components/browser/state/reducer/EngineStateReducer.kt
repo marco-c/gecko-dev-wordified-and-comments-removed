@@ -487,6 +487,10 @@ is
 EngineAction
 .
 ClearDataAction
+is
+EngineAction
+.
+FlushEngineSessionStateAction
 -
 >
 {

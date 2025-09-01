@@ -9811,6 +9811,14 @@ exitFullScreen
 )
 ;
 method
+AnyThread
+public
+void
+flushSessionState
+(
+)
+;
+method
 NonNull
 UiThread
 public
