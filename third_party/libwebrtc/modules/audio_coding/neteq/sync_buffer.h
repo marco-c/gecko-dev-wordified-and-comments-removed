@@ -74,6 +74,7 @@ webrtc
 {
 class
 SyncBuffer
+final
 :
 public
 AudioMultiVector
@@ -128,6 +129,14 @@ SyncBuffer
 =
 delete
 ;
+~
+SyncBuffer
+(
+)
+override
+=
+default
+;
 size_t
 FutureLength
 (
@@ -163,7 +172,6 @@ size_t
 length
 )
 ;
-virtual
 void
 InsertZerosAtIndex
 (
@@ -173,7 +181,6 @@ size_t
 position
 )
 ;
-virtual
 void
 ReplaceAtIndex
 (
@@ -187,7 +194,6 @@ size_t
 position
 )
 ;
-virtual
 void
 ReplaceAtIndex
 (

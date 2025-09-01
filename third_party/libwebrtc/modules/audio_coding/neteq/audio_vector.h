@@ -35,6 +35,7 @@ webrtc
 {
 class
 AudioVector
+final
 {
 public
 :
@@ -49,7 +50,6 @@ size_t
 initial_size
 )
 ;
-virtual
 ~
 AudioVector
 (
@@ -76,13 +76,11 @@ AudioVector
 =
 delete
 ;
-virtual
 void
 Clear
 (
 )
 ;
-virtual
 void
 CopyTo
 (
@@ -92,7 +90,6 @@ copy_to
 )
 const
 ;
-virtual
 void
 CopyTo
 (
@@ -106,7 +103,6 @@ copy_to
 )
 const
 ;
-virtual
 void
 PushFront
 (
@@ -116,7 +112,6 @@ AudioVector
 prepend_this
 )
 ;
-virtual
 void
 PushFront
 (
@@ -128,7 +123,6 @@ size_t
 length
 )
 ;
-virtual
 void
 PushBack
 (
@@ -138,7 +132,6 @@ AudioVector
 append_this
 )
 ;
-virtual
 void
 PushBack
 (
@@ -152,7 +145,6 @@ size_t
 position
 )
 ;
-virtual
 void
 PushBack
 (
@@ -164,7 +156,6 @@ size_t
 length
 )
 ;
-virtual
 void
 PopFront
 (
@@ -172,7 +163,6 @@ size_t
 length
 )
 ;
-virtual
 void
 PopBack
 (
@@ -180,7 +170,6 @@ size_t
 length
 )
 ;
-virtual
 void
 Extend
 (
@@ -188,7 +177,6 @@ size_t
 extra_length
 )
 ;
-virtual
 void
 InsertAt
 (
@@ -202,7 +190,6 @@ size_t
 position
 )
 ;
-virtual
 void
 InsertZerosAt
 (
@@ -212,7 +199,6 @@ size_t
 position
 )
 ;
-virtual
 void
 OverwriteAt
 (
@@ -226,7 +212,6 @@ size_t
 position
 )
 ;
-virtual
 void
 OverwriteAt
 (
@@ -240,7 +225,6 @@ size_t
 position
 )
 ;
-virtual
 void
 CrossFade
 (
@@ -252,14 +236,12 @@ size_t
 fade_length
 )
 ;
-virtual
 size_t
 Size
 (
 )
 const
 ;
-virtual
 bool
 Empty
 (
