@@ -801,6 +801,10 @@ pub
 max_shared_surface_size
 :
 i32
+pub
+precise_gradients
+:
+bool
 }
 impl
 WebRenderOptions
@@ -1029,6 +1033,9 @@ false
 max_shared_surface_size
 :
 2048
+precise_gradients
+:
+false
 }
 }
 }
@@ -2214,6 +2221,11 @@ enable_dithering
 options
 .
 enable_dithering
+precise_gradients
+:
+options
+.
+precise_gradients
 }
 ;
 info
