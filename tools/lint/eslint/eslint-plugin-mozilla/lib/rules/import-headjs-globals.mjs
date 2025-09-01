@@ -126,7 +126,7 @@ function
 importHead
 (
 context
-path
+filePath
 node
 )
 {
@@ -139,7 +139,7 @@ fs
 .
 statSync
 (
-path
+filePath
 )
 ;
 if
@@ -171,7 +171,9 @@ globals
 .
 getGlobalsForFile
 (
-path
+{
+filePath
+}
 )
 ;
 helpers

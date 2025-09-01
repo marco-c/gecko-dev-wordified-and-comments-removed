@@ -421,7 +421,7 @@ files
 )
 {
 const
-fileName
+filePath
 =
 path
 .
@@ -443,7 +443,9 @@ globals
 .
 getGlobalsForFile
 (
-fileName
+{
+filePath
+}
 )
 )
 ;
@@ -464,7 +466,7 @@ globals
 from
 file
 {
-fileName
+filePath
 }
 :
 {
@@ -502,7 +504,7 @@ globals
 from
 file
 {
-fileName
+filePath
 }
 :
 {

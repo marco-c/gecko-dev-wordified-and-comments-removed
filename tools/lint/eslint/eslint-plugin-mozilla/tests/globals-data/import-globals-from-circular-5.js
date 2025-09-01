@@ -1,0 +1,10 @@
+"
+use
+strict
+"
+;
+var
+circ5
+=
+5
+;
