@@ -592,7 +592,7 @@ load_time
 :
 description
 :
-"
+|
 Time
 between
 loadEventStart
@@ -601,7 +601,6 @@ navigationStart
 in
 ms
 .
-"
 type
 :
 quantity
@@ -612,7 +611,7 @@ dns_lookup_time
 :
 description
 :
-"
+|
 Time
 taken
 to
@@ -627,7 +626,6 @@ document
 in
 ms
 .
-"
 type
 :
 quantity
@@ -638,7 +636,7 @@ time_to_request_start
 :
 description
 :
-"
+|
 Time
 between
 requestStart
@@ -647,7 +645,6 @@ navigationStart
 in
 ms
 .
-"
 type
 :
 quantity
@@ -658,7 +655,7 @@ response_time
 :
 description
 :
-"
+|
 Time
 between
 responseStart
@@ -667,7 +664,6 @@ navigationStart
 in
 ms
 .
-"
 type
 :
 quantity
@@ -678,7 +674,7 @@ fcp_time
 :
 description
 :
-"
+|
 Time
 between
 firstContentfulPaint
@@ -687,7 +683,6 @@ navigationStart
 in
 ms
 .
-"
 type
 :
 quantity
@@ -698,7 +693,7 @@ lcp_time
 :
 description
 :
-"
+|
 Time
 between
 largestContentfulPaint
@@ -728,7 +723,6 @@ the
 LCP
 histogram
 .
-"
 type
 :
 quantity
@@ -739,7 +733,7 @@ js_exec_time
 :
 description
 :
-"
+|
 Time
 spent
 executing
@@ -750,7 +744,6 @@ load
 in
 ms
 .
-"
 type
 :
 quantity
@@ -761,7 +754,7 @@ delazify_time
 :
 description
 :
-"
+|
 Time
 spent
 delazifying
@@ -772,7 +765,6 @@ load
 in
 ms
 .
-"
 type
 :
 quantity
@@ -786,7 +778,7 @@ type
 quantity
 description
 :
-"
+|
 Time
 spent
 in
@@ -797,7 +789,6 @@ top
 level
 document
 .
-"
 unit
 :
 ms
@@ -808,7 +799,7 @@ type
 quantity
 description
 :
-"
+|
 Time
 spent
 in
@@ -820,7 +811,6 @@ top
 level
 document
 .
-"
 unit
 :
 ms
@@ -828,7 +818,7 @@ redirect_count
 :
 description
 :
-"
+|
 Number
 of
 redirections
@@ -838,7 +828,6 @@ top
 level
 document
 .
-"
 type
 :
 quantity
@@ -849,7 +838,7 @@ load_type
 :
 description
 :
-"
+|
 One
 of
 normal
@@ -861,7 +850,6 @@ error
 or
 other
 .
-"
 type
 :
 string
@@ -869,7 +857,7 @@ same_origin_nav
 :
 description
 :
-"
+|
 If
 true
 a
@@ -882,7 +870,6 @@ the
 same
 origin
 .
-"
 type
 :
 boolean
@@ -890,7 +877,7 @@ using_webdriver
 :
 description
 :
-"
+|
 If
 true
 a
@@ -901,7 +888,6 @@ on
 the
 client
 .
-"
 type
 :
 boolean
@@ -909,14 +895,13 @@ http_ver
 :
 description
 :
-"
+|
 Version
 of
 HTTP
 protocol
 used
 .
-"
 type
 :
 quantity
@@ -927,12 +912,11 @@ trr_domain
 :
 description
 :
-"
+|
 TRR
 domain
 used
 .
-"
 type
 :
 string
@@ -992,7 +976,7 @@ has_ssd
 :
 description
 :
-"
+|
 Whether
 the
 user
@@ -1016,7 +1000,6 @@ idle
 tasks
 are
 done
-"
 type
 :
 boolean
@@ -1024,7 +1007,7 @@ cache_disposition
 :
 description
 :
-"
+|
 cache
 disposition
 for
@@ -1032,7 +1015,6 @@ the
 top
 level
 document
-"
 type
 :
 quantity
@@ -1043,7 +1025,7 @@ network_type
 :
 description
 :
-"
+|
 Network
 link
 type
@@ -1075,7 +1057,6 @@ wifimax
 -
 9
 mobile
-"
 type
 :
 quantity
@@ -1176,7 +1157,7 @@ lcp_time
 :
 description
 :
-"
+|
 Time
 between
 largestContentfulPaint
@@ -1206,7 +1187,6 @@ the
 LCP
 histogram
 .
-"
 type
 :
 quantity
@@ -1217,7 +1197,7 @@ load_type
 :
 description
 :
-"
+|
 One
 of
 normal
@@ -1229,7 +1209,6 @@ error
 or
 other
 .
-"
 type
 :
 string
@@ -1237,7 +1216,7 @@ same_origin_nav
 :
 description
 :
-"
+|
 If
 true
 a
@@ -1250,7 +1229,6 @@ the
 same
 origin
 .
-"
 type
 :
 boolean
@@ -1258,14 +1236,13 @@ http_ver
 :
 description
 :
-"
+|
 Version
 of
 HTTP
 protocol
 used
 .
-"
 type
 :
 quantity
@@ -1303,7 +1280,7 @@ domain
 :
 description
 :
-"
+|
 ETLD
 +
 1
@@ -1312,7 +1289,6 @@ of
 website
 visited
 .
-"
 type
 :
 string
