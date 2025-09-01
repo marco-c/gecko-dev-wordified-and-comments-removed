@@ -2177,7 +2177,7 @@ main_wnd_
 QueueUIThreadCallback
 (
 PEER_CONNECTION_CLOSED
-NULL
+nullptr
 )
 ;
 }
@@ -2978,7 +2978,7 @@ main_wnd_
 QueueUIThreadCallback
 (
 SEND_MESSAGE_TO_PEER
-NULL
+nullptr
 )
 ;
 }

@@ -1125,7 +1125,7 @@ char
 *
 path
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1508,7 +1508,7 @@ if
 type_end
 =
 =
-NULL
+nullptr
 )
 type_end
 =
@@ -1777,7 +1777,7 @@ client
 INVALID_SOCKET
 )
 return
-NULL
+nullptr
 ;
 return
 new
