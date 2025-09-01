@@ -615,7 +615,7 @@ ICON_PADDING
 size
 =
 ICON_SIZE
-roundedCornerShape
+shape
 =
 INNER_ICON_SHAPE
 )
