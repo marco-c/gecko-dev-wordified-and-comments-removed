@@ -24,11 +24,11 @@ eshr
 reviewed
 :
 '
-2024
+2025
 -
-11
+05
 -
-06
+08
 '
 }
 *
@@ -499,12 +499,11 @@ method
 Adaptation
 When
 a
-a
 *
 resource
 *
 signals
-the
+that
 it
 is
 over
@@ -515,7 +514,7 @@ signal
 reaches
 the
 ResourceAdaptationProcessor
-who
+which
 requests
 an
 Adaptation
