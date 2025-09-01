@@ -1229,12 +1229,6 @@ GetDefaultStreamPrefs
 CUBEB_DEVICE_TYPE_OUTPUT
 )
 ;
-params
-.
-input_params
-=
-CUBEB_INPUT_PROCESSING_PARAM_NONE
-;
 mDumpFile
 .
 Open
