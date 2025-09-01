@@ -1766,6 +1766,14 @@ keyword
 )
 ;
 await
+UrlbarTestUtils
+.
+promiseSearchComplete
+(
+window
+)
+;
+await
 expectTabThroughResults
 (
 )
