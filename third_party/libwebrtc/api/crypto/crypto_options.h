@@ -261,7 +261,12 @@ uint16_t
 &
 groups
 )
+{
+enabled_
+=
+groups
 ;
+}
 void
 AddFirst
 (
