@@ -1,4 +1,10 @@
 /
+*
+global
+success
+*
+/
+/
 /
 Should
 be

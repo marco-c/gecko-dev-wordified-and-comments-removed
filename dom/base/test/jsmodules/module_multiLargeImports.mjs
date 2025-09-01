@@ -39,6 +39,12 @@ module_large3
 mjs
 "
 ;
+/
+*
+global
+results
+*
+/
 results
 .
 push

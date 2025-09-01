@@ -1,3 +1,9 @@
+/
+*
+global
+success
+*
+/
 success
 (
 "

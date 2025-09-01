@@ -1,3 +1,9 @@
+/
+*
+global
+results
+*
+/
 results
 .
 push

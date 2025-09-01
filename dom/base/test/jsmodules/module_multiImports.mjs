@@ -39,6 +39,12 @@ module_simple3
 mjs
 "
 ;
+/
+*
+global
+results
+*
+/
 results
 .
 push
