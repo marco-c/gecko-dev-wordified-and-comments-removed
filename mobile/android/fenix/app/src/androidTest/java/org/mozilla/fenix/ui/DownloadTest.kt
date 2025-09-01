@@ -1231,7 +1231,7 @@ clickSnackbarButton
 (
 activityTestRule
 "
-UNDO
+Undo
 "
 )
 verifyDownloadedFileExistsInDownloadsList
@@ -1402,7 +1402,7 @@ clickSnackbarButton
 (
 activityTestRule
 "
-UNDO
+Undo
 "
 )
 verifyDownloadedFileExistsInDownloadsList
