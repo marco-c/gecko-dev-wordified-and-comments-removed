@@ -24378,7 +24378,7 @@ backups
 -
 seconds
 "
-3600
+86400
 )
 ;
 pref

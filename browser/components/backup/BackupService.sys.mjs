@@ -1071,11 +1071,11 @@ lazy
 minimumTimeBetweenBackupsSeconds
 "
 MINIMUM_TIME_BETWEEN_BACKUPS_SECONDS_PREF_NAME
-3600
+86400
 /
 *
 1
-hour
+day
 *
 /
 )
