@@ -2882,6 +2882,17 @@ rtc_numerics
 /
 rtc_base
 :
+rtp_to_ntp_estimator
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 safe_conversions
 "
 "

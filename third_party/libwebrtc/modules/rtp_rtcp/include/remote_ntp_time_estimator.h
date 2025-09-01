@@ -52,11 +52,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-ntp_time
+rtp_to_ntp_estimator
 .
 h
 "
@@ -67,7 +65,7 @@ system_wrappers
 /
 include
 /
-rtp_to_ntp_estimator
+ntp_time
 .
 h
 "
