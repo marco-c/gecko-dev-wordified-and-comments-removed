@@ -4706,12 +4706,16 @@ nav
 bar
 &
 :
+where
+(
+:
 not
 (
 #
 vertical
 -
 spacer
+)
 )
 {
 flex
