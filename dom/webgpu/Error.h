@@ -64,8 +64,6 @@ Error
 :
 public
 nsWrapperCache
-public
-SupportsWeakPtr
 {
 protected
 :
@@ -118,13 +116,6 @@ Error
 =
 default
 ;
-virtual
-void
-Cleanup
-(
-)
-{
-}
 public
 :
 void
