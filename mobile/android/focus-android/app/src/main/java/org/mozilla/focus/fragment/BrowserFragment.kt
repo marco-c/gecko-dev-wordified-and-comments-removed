@@ -3288,7 +3288,7 @@ ToolbarFeature
 .
 RenderStyle
 .
-RegistrableDomain
+ColoredDomain
 }
 else
 {
