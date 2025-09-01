@@ -8266,7 +8266,6 @@ nsHtml5StreamParser
 :
 DoDataAvailable
 "
-_ns
 )
 ;
 }

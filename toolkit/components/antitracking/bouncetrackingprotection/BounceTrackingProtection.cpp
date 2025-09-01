@@ -978,7 +978,6 @@ TYPE_REPEATING_SLACK
 "
 mBounceTrackingPurgeTimer
 "
-_ns
 )
 ;
 }

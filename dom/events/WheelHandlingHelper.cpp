@@ -1861,7 +1861,6 @@ WheelTransaction
 :
 SetTimeout
 "
-_ns
 )
 ;
 NS_WARNING_ASSERTION

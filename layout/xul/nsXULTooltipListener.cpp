@@ -894,7 +894,6 @@ TYPE_ONE_SHOT
 "
 sTooltipCallback
 "
-_ns
 GetMainThreadSerialEventTarget
 (
 )

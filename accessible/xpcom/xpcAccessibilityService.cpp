@@ -380,7 +380,6 @@ xpcAccessibilityService
 :
 Release
 "
-_ns
 )
 ;
 }

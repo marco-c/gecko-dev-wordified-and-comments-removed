@@ -1770,7 +1770,6 @@ TYPE_ONE_SHOT_LOW_PRIORITY
 "
 StarvationCallback
 "
-_ns
 )
 ;
 }

@@ -3524,7 +3524,6 @@ DocAccessible
 :
 ScrollPositionDidChange
 "
-_ns
 )
 ;
 }

@@ -883,13 +883,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-MIDIPermissionRequest
-:
-:
-CancelWithRandomizedDelay
-"
-_ns
+__func__
 )
 ;
 }

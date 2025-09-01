@@ -2442,7 +2442,6 @@ DeferredDNSPrefetches
 :
 Tick
 "
-_ns
 )
 ;
 }

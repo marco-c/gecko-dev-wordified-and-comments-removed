@@ -3546,7 +3546,6 @@ nsEditingSession
 :
 EndDocumentLoad
 "
-_ns
 )
 ;
 NS_ENSURE_SUCCESS

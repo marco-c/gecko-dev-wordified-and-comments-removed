@@ -6712,7 +6712,6 @@ gfxFcPlatformFontList
 :
 gfxFcPlatformFontList
 "
-_ns
 )
 ;
 if

@@ -3454,7 +3454,6 @@ TYPE_ONE_SHOT
 "
 mClientBounceDetectionTimeout
 "
-_ns
 )
 ;
 NS_ENSURE_SUCCESS

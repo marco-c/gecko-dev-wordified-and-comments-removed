@@ -10061,7 +10061,6 @@ nsIWidget
 :
 SynthesizeNativeTouchTap
 "
-_ns
 )
 ;
 }

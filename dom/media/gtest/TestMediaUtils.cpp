@@ -1071,10 +1071,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-DoTwoTicketsWithSameNameBothBlockShutdown
-"
-_ns
+__func__
 )
 ;
 ASSERT_TRUE

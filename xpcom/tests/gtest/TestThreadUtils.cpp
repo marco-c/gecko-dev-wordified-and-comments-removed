@@ -3516,7 +3516,6 @@ IdleObject
 :
 Method3
 "
-_ns
 )
 ;
 NS_DispatchToCurrentThreadQueue
@@ -4043,7 +4042,6 @@ true
 "
 runner1
 "
-_ns
 0
 TimeDuration
 :
@@ -4098,7 +4096,6 @@ false
 "
 runner2
 "
-_ns
 0
 TimeDuration
 :
@@ -4153,7 +4150,6 @@ true
 "
 runner3
 "
-_ns
 0
 TimeDuration
 :
@@ -4219,7 +4215,6 @@ true
 "
 runner4
 "
-_ns
 0
 TimeDuration
 :

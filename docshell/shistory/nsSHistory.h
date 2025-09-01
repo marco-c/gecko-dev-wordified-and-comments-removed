@@ -174,7 +174,6 @@ aTimeout
 "
 HistoryTracker
 "
-_ns
 aEventTarget
 )
 {

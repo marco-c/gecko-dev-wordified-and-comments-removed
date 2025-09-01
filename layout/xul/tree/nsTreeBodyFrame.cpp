@@ -7276,8 +7276,8 @@ nsITimer
 *
 aTimer
 const
-nsACString
-&
+char
+*
 aName
 )
 {
@@ -10637,7 +10637,6 @@ nsTreeBodyFrame
 :
 LazyScrollCallback
 "
-_ns
 )
 ;
 }
@@ -10830,7 +10829,6 @@ nsTreeBodyFrame
 :
 OpenCallback
 "
-_ns
 )
 ;
 }
@@ -11210,7 +11208,6 @@ nsTreeBodyFrame
 :
 CloseCallback
 "
-_ns
 )
 ;
 }
@@ -18618,7 +18615,6 @@ nsTreeBodyFrame
 :
 ScrollCallback
 "
-_ns
 )
 ;
 self

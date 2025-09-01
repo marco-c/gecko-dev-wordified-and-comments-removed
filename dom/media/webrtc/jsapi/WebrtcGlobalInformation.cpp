@@ -3425,7 +3425,6 @@ WebrtcGlobalInformation
 :
 GatherHistory
 "
-_ns
 )
 ;
 }

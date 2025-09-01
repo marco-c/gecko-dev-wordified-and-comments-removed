@@ -586,7 +586,6 @@ ResourceCallback
 :
 TimerCallback
 "
-_ns
 )
 ;
 }

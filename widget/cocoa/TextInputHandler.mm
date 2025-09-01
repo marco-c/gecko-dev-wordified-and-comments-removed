@@ -15960,7 +15960,6 @@ IMEInputHandler
 :
 FlushPendingMethods
 "
-_ns
 )
 ;
 }

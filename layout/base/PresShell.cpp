@@ -8696,7 +8696,6 @@ PresShell
 :
 sPaintSuppressionCallback
 "
-_ns
 )
 ;
 }

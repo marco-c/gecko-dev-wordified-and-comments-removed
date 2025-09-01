@@ -667,7 +667,6 @@ gfxFontInfoLoader
 :
 StartLoader
 "
-_ns
 )
 ;
 mState

@@ -79,8 +79,8 @@ ActiveResourceTracker
 uint32_t
 aExpirationCycle
 const
-nsACString
-&
+char
+*
 aName
 nsIEventTarget
 *

@@ -15380,7 +15380,6 @@ CanonicalBrowsingContext
 :
 MaybeScheduleSessionStoreUpdate
 "
-_ns
 )
 ;
 if

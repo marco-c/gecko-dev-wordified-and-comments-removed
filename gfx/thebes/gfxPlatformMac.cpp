@@ -4368,7 +4368,6 @@ TYPE_ONE_SHOT
 "
 RetryCreateDisplayLink
 "
-_ns
 )
 ;
 return
@@ -4915,7 +4914,6 @@ TYPE_ONE_SHOT
 "
 RetryEnableVsync
 "
-_ns
 )
 ;
 }

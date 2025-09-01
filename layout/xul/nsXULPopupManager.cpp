@@ -8284,7 +8284,6 @@ TYPE_ONE_SHOT
 "
 KillMenuTimer
 "
-_ns
 target
 )
 ;
