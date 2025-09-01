@@ -7,6 +7,15 @@ dom_base_MessageManagerCallback_h__
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -94,7 +103,10 @@ StructuredCloneData
 aData
 nsTArray
 <
+UniquePtr
+<
 StructuredCloneData
+>
 >
 *
 aRetVal

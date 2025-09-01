@@ -1298,14 +1298,14 @@ JSActorMessageMeta
 &
 aMeta
 const
-Maybe
+UniquePtr
 <
 ClonedMessageData
 >
 &
 aData
 const
-Maybe
+UniquePtr
 <
 ClonedMessageData
 >
