@@ -157,11 +157,6 @@ false
 }
 if
 (
-num_channels
->
-255
-|
-|
 max_coded_channel
 >
 =

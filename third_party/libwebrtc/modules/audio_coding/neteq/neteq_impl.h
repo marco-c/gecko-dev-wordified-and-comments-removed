@@ -358,7 +358,9 @@ kCodecPLC
 }
 ;
 enum
-ErrorCodes
+Error
+:
+int
 {
 kNoError
 =
@@ -903,7 +905,7 @@ kMaxFrameSize
 *
 48
 ;
-int
+Error
 InsertPacketInternal
 (
 const

@@ -8923,6 +8923,16 @@ rtp_transceiver_direction
 .
 .
 /
+api
+/
+audio
+:
+audio_frame_api
+"
+"
+.
+.
+/
 media
 :
 codec

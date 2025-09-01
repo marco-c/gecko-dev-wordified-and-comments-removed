@@ -45,6 +45,17 @@ h
 #
 include
 "
+api
+/
+audio
+/
+audio_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 buffer
@@ -407,7 +418,7 @@ constexpr
 int
 kMaxNumberOfChannels
 =
-24
+kMaxNumberOfAudioChannels
 ;
 protected
 :

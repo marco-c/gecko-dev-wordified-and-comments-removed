@@ -155,7 +155,7 @@ layout
 RTC_DCHECK_LE
 (
 num_channels_
-kMaxConcurrentChannels
+kMaxNumberOfAudioChannels
 )
 ;
 RTC_DCHECK_GT
@@ -279,7 +279,7 @@ num_channels
 RTC_CHECK_LE
 (
 num_channels
-kMaxConcurrentChannels
+kMaxNumberOfAudioChannels
 )
 ;
 timestamp_
@@ -747,7 +747,7 @@ size
 RTC_CHECK_LE
 (
 num_channels
-kMaxConcurrentChannels
+kMaxNumberOfAudioChannels
 )
 ;
 RTC_DCHECK

@@ -155,6 +155,15 @@ num_channels
 1
 )
 ;
+RTC_DCHECK_LE
+(
+num_channels
+AudioDecoder
+:
+:
+kMaxNumberOfChannels
+)
+;
 }
 void
 AudioDecoderPcm16B

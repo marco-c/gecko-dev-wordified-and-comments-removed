@@ -68,6 +68,17 @@ include
 "
 api
 /
+audio
+/
+audio_view
+.
+h
+"
+#
+include
+"
+api
+/
 call
 /
 bitrate_allocation
@@ -647,7 +658,7 @@ constexpr
 int
 kMaxNumberOfChannels
 =
-24
+kMaxNumberOfAudioChannels
 ;
 protected
 :
