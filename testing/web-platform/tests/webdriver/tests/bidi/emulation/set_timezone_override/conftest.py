@@ -164,10 +164,6 @@ not
 equal
 to
 default_timezone
-nor
-to
-    
-another_timezone
 .
     
 "
@@ -260,7 +256,7 @@ and
 timezone
 !
 =
-another_timezone
+some_timezone
 :
             
 return
@@ -283,6 +279,10 @@ the
 default
 {
 default_timezone
+}
+and
+{
+some_timezone
 }
 "
 )
