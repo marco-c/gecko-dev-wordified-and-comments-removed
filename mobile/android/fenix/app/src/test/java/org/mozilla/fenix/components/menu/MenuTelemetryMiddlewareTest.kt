@@ -143,9 +143,9 @@ telemetry
 .
 glean
 .
-internal
+private
 .
-CounterMetric
+CounterMetricType
 import
 mozilla
 .
@@ -3905,7 +3905,7 @@ assertTelemetryRecorded
 (
 event
 :
-CounterMetric
+CounterMetricType
 )
 {
 assertNotNull

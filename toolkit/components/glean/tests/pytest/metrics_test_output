@@ -10986,10 +10986,6 @@ an_object
 test_get_value_as_str
 (
 ping_name
-.
-as_deref
-(
-)
 )
 47
 =
@@ -11005,10 +11001,6 @@ an_object
 test_get_value_as_str
 (
 ping_name
-.
-as_deref
-(
-)
 )
 _
 =
@@ -11601,10 +11593,6 @@ event_metric
 test_get_value
 (
 ping_name
-.
-as_deref
-(
-)
 )
 22
 =
@@ -11620,10 +11608,6 @@ event_metric_with_extra
 test_get_value
 (
 ping_name
-.
-as_deref
-(
-)
 )
 49
 =
@@ -11639,10 +11623,6 @@ event_metric
 test_get_value
 (
 ping_name
-.
-as_deref
-(
-)
 )
 50
 =
@@ -11658,10 +11638,6 @@ event_metric_with_extra
 test_get_value
 (
 ping_name
-.
-as_deref
-(
-)
 )
 _
 =
