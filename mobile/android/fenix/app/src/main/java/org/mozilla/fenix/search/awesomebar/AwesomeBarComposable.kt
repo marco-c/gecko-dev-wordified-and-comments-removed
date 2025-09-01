@@ -103,6 +103,16 @@ foundation
 .
 layout
 .
+Column
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 ExperimentalLayoutApi
 import
 androidx
@@ -1105,6 +1115,8 @@ hasUrl
 )
 }
 }
+Column
+{
 if
 (
 isSearchActive
@@ -1158,7 +1170,6 @@ false
 }
 )
 }
-else
 if
 (
 isSearchActive
@@ -1609,6 +1620,7 @@ SearchEnded
 )
 }
 )
+}
 }
 }
 private
