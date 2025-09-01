@@ -291,7 +291,7 @@ Maybe
 Span
 <
 const
-char16_t
+char
 >
 >
 aTimeZoneOverride
