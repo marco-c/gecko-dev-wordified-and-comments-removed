@@ -2141,11 +2141,6 @@ queryContext
 .
 tokens
 {
-title
-:
-site
-.
-title
 keyword
 :
 site

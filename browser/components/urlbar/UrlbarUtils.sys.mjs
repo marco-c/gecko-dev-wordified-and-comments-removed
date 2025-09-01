@@ -12697,6 +12697,9 @@ type
 string
 "
 }
+descriptionL10n
+:
+L10N_SCHEMA
 displayUrl
 :
 {
@@ -12743,6 +12746,15 @@ boolean
 "
 }
 isBlockable
+:
+{
+type
+:
+"
+boolean
+"
+}
+isManageable
 :
 {
 type
