@@ -383,9 +383,6 @@ BitBufferWriter
 &
 destination
 const
-webrtc
-:
-:
 ColorSpace
 *
 color_space
@@ -639,9 +636,6 @@ SpsState
 *
 sps
 const
-webrtc
-:
-:
 ColorSpace
 *
 color_space
@@ -1032,9 +1026,6 @@ SpsState
 *
 sps
 const
-webrtc
-:
-:
 ColorSpace
 *
 color_space
@@ -1079,9 +1070,6 @@ uint8_t
 >
 buffer
 const
-webrtc
-:
-:
 ColorSpace
 *
 color_space
@@ -1369,9 +1357,6 @@ BitBufferWriter
 &
 destination
 const
-webrtc
-:
-:
 ColorSpace
 *
 color_space

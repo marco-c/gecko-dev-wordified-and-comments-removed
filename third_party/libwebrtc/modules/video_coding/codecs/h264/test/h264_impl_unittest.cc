@@ -252,9 +252,6 @@ codec_settings
 )
 override
 {
-webrtc
-:
-:
 test
 :
 :

@@ -393,9 +393,6 @@ kVuiLimitedRangeBt709Color
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpaceH264Default
 (
@@ -431,9 +428,6 @@ kLimited
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpacePrimariesBt709
 (
@@ -469,9 +463,6 @@ kLimited
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpaceTransferBt709
 (
@@ -507,9 +498,6 @@ kLimited
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpaceMatrixBt709
 (
@@ -545,9 +533,6 @@ kLimited
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpaceFullRange
 (
@@ -583,9 +568,6 @@ kFull
 ;
 static
 const
-webrtc
-:
-:
 ColorSpace
 kColorSpaceBt709LimitedRange
 (
