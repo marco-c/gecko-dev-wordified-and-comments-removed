@@ -413,6 +413,7 @@ emplace
 this
 marker
 color
+i
 sliceBudget
 )
 ;
@@ -717,6 +718,8 @@ GCMarker
 marker
 MarkColor
 color
+uint32_t
+id
 const
 SliceBudget
 &
@@ -758,6 +761,10 @@ color
 budget
 (
 budget
+)
+id
+(
+id
 )
 {
 marker

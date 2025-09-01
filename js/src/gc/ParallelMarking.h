@@ -350,6 +350,8 @@ GCMarker
 marker
 MarkColor
 color
+uint32_t
+id
 const
 JS
 :
@@ -446,6 +448,10 @@ budget
 ;
 ConditionVariable
 resumed
+;
+const
+uint32_t
+id
 ;
 HelperThreadLockData
 <
