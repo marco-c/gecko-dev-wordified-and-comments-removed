@@ -658,6 +658,11 @@ AutoTraceSession
 :
 public
 AutoHeapSession
+public
+JS
+:
+:
+AutoCheckCannotGC
 {
 public
 :
