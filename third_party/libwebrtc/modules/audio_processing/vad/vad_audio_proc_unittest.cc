@@ -119,7 +119,7 @@ ASSERT_TRUE
 peak_file
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -166,7 +166,7 @@ ASSERT_TRUE
 pcm_file
 !
 =
-NULL
+nullptr
 )
 ;
 const

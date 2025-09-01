@@ -304,7 +304,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -336,7 +336,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -502,7 +502,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -631,7 +631,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -868,7 +868,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 return
 -
@@ -879,7 +879,7 @@ if
 farend
 =
 =
-NULL
+nullptr
 )
 return
 AECM_NULL_POINTER_ERROR
@@ -1060,7 +1060,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1073,7 +1073,7 @@ if
 nearendNoisy
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1085,7 +1085,7 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1201,7 +1201,7 @@ if
 nearendClean
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1575,7 +1575,7 @@ int16_t
 *
 farend_ptr
 =
-NULL
+nullptr
 ;
 nmbrOfFilledBuffers
 =
@@ -1745,7 +1745,7 @@ FRAME_LEN
 i
 ]
 :
-NULL
+nullptr
 )
 &
 out
@@ -1863,7 +1863,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2512,7 +2512,7 @@ if
 aecmInst
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2525,7 +2525,7 @@ if
 echo_path
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2618,7 +2618,7 @@ if
 aecmInst
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2631,7 +2631,7 @@ if
 echo_path
 =
 =
-NULL
+nullptr
 )
 {
 return

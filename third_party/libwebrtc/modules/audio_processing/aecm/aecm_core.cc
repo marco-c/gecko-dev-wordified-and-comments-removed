@@ -1604,7 +1604,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -1638,7 +1638,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -1672,7 +1672,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -1706,7 +1706,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -1728,7 +1728,7 @@ aecm
 delay_estimator_farend
 =
 =
-NULL
+nullptr
 )
 {
 WebRtcAecm_FreeCore
@@ -1737,7 +1737,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -1762,7 +1762,7 @@ aecm
 delay_estimator
 =
 =
-NULL
+nullptr
 )
 {
 WebRtcAecm_FreeCore
@@ -1771,7 +1771,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 WebRtc_enable_robust_validation
@@ -1801,7 +1801,7 @@ aecm
 real_fft
 =
 =
-NULL
+nullptr
 )
 {
 WebRtcAecm_FreeCore
@@ -1810,7 +1810,7 @@ aecm
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 aecm
@@ -3408,7 +3408,7 @@ if
 aecm
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3540,7 +3540,7 @@ int16_t
 *
 out_ptr
 =
-NULL
+nullptr
 ;
 int
 size
@@ -3590,7 +3590,7 @@ if
 nearendClean
 !
 =
-NULL
+nullptr
 )
 {
 WebRtc_WriteBuffer
@@ -3629,7 +3629,7 @@ int16_t
 *
 far_block_ptr
 =
-NULL
+nullptr
 ;
 int16_t
 near_noisy_block
@@ -3642,7 +3642,7 @@ int16_t
 *
 near_noisy_block_ptr
 =
-NULL
+nullptr
 ;
 WebRtc_ReadBuffer
 (
@@ -3683,7 +3683,7 @@ if
 nearendClean
 !
 =
-NULL
+nullptr
 )
 {
 int16_t
@@ -3697,7 +3697,7 @@ int16_t
 *
 near_clean_block_ptr
 =
-NULL
+nullptr
 ;
 WebRtc_ReadBuffer
 (
@@ -3747,7 +3747,7 @@ WebRtcAecm_ProcessBlock
 aecm
 far_block_ptr
 near_noisy_block_ptr
-NULL
+nullptr
 outBlock
 )
 =

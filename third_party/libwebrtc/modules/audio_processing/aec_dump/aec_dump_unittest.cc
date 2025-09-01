@@ -372,7 +372,7 @@ ASSERT_TRUE
 fid
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_EQ

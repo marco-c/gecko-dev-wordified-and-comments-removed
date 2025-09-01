@@ -105,7 +105,7 @@ buffer_size
 0
 )
 return
-NULL
+nullptr
 ;
 return
 new

@@ -1306,7 +1306,7 @@ if
 stt
 =
 =
-NULL
+nullptr
 )
 return
 -
@@ -4752,7 +4752,7 @@ if
 stt
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5106,7 +5106,7 @@ if
 stt
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5365,7 +5365,7 @@ if
 stt
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5378,7 +5378,7 @@ if
 config
 =
 =
-NULL
+nullptr
 )
 {
 stt

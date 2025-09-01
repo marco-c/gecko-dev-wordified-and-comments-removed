@@ -241,7 +241,7 @@ ASSERT_TRUE
 in_file
 !
 =
-NULL
+nullptr
 )
 ;
 if

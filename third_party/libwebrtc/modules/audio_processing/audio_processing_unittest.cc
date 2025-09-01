@@ -1218,7 +1218,7 @@ ASSERT_TRUE
 file
 !
 =
-NULL
+nullptr
 )
 ;
 int32_t
@@ -1786,7 +1786,7 @@ ASSERT_TRUE
 file
 !
 =
-NULL
+nullptr
 )
 ;
 ReadMessageFromFile
@@ -2727,15 +2727,15 @@ num_output_channels_
 )
 far_file_
 (
-NULL
+nullptr
 )
 near_file_
 (
-NULL
+nullptr
 )
 out_file_
 (
-NULL
+nullptr
 )
 {
 apm_
@@ -2808,7 +2808,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 Init
@@ -2848,7 +2848,7 @@ far_file_
 }
 far_file_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2867,7 +2867,7 @@ near_file_
 }
 near_file_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2886,7 +2886,7 @@ out_file_
 }
 out_file_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3060,7 +3060,7 @@ ASSERT_TRUE
 far_file_
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -3124,7 +3124,7 @@ ASSERT_TRUE
 near_file_
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -3201,7 +3201,7 @@ ASSERT_TRUE
 out_file_
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -3391,7 +3391,7 @@ ReadFrame
 (
 file
 frame
-NULL
+nullptr
 )
 ;
 }
@@ -3461,7 +3461,7 @@ ReadFrameWithRewind
 (
 file
 frame
-NULL
+nullptr
 )
 ;
 }
@@ -8966,7 +8966,7 @@ ASSERT_TRUE
 in_file
 !
 =
-NULL
+nullptr
 )
 ;
 audioproc
@@ -9852,7 +9852,7 @@ ASSERT_TRUE
 ref_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -9860,7 +9860,7 @@ ASSERT_TRUE
 out_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -9868,7 +9868,7 @@ ASSERT_TRUE
 limited_file
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -10424,7 +10424,7 @@ ASSERT_TRUE
 fid
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_EQ
@@ -10710,7 +10710,7 @@ ASSERT_TRUE
 fid
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_EQ
@@ -12522,7 +12522,7 @@ ASSERT_TRUE
 far_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -12530,7 +12530,7 @@ ASSERT_TRUE
 near_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -12538,7 +12538,7 @@ ASSERT_TRUE
 out_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -12546,7 +12546,7 @@ ASSERT_TRUE
 rev_out_file
 !
 =
-NULL
+nullptr
 )
 ;
 ChannelBuffer
@@ -13432,7 +13432,7 @@ ASSERT_TRUE
 out_file
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -13440,7 +13440,7 @@ ASSERT_TRUE
 ref_file
 !
 =
-NULL
+nullptr
 )
 ;
 const
