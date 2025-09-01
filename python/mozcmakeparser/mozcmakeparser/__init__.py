@@ -2,6 +2,12 @@ import
 logging
 import
 os
+import
+re
+from
+string
+import
+Template
 from
 colorama
 import
@@ -12,24 +18,27 @@ from
 pyparsing
 import
 (
+    
 CharsNotIn
-Group
+    
 Forward
+    
+Group
+    
 Literal
-Suppress
-Word
-                       
+    
 QuotedString
+    
+Suppress
+    
+Word
+    
 ZeroOrMore
-alphas
+    
 alphanums
+    
+alphas
 )
-from
-string
-import
-Template
-import
-re
 init
 (
 autoreset
@@ -323,19 +332,19 @@ comment
 =
 Literal
 (
-'
+"
 #
-'
+"
 )
 +
 ZeroOrMore
 (
 CharsNotIn
 (
-'
+"
 \
 n
-'
+"
 )
 )
 quoted_argument
@@ -343,13 +352,12 @@ quoted_argument
 QuotedString
 (
 '
-\
 "
 '
-'
+"
 \
 \
-'
+"
 multiline
 =
 True
@@ -364,7 +372,6 @@ n
 (
 )
 #
-\
 "
 \
 \
@@ -394,9 +401,9 @@ argument
 (
 Literal
 (
-'
+"
 (
-'
+"
 )
 +
 ZeroOrMore
@@ -406,9 +413,9 @@ arguments
 +
 Literal
 (
-'
+"
 )
-'
+"
 )
 )
 )
@@ -419,9 +426,9 @@ Word
 alphas
 alphanums
 +
-'
+"
 _
-'
+"
 )
 command
 =
@@ -431,9 +438,9 @@ identifier
 +
 Literal
 (
-'
+"
 (
-'
+"
 )
 +
 ZeroOrMore
@@ -443,9 +450,9 @@ arguments
 +
 Literal
 (
-'
+"
 )
-'
+"
 )
 )
 file_elements
@@ -532,9 +539,9 @@ start
     
 endcommand
 =
-'
+"
 end
-'
+"
 +
 command
     
@@ -703,9 +710,9 @@ end
 ]
 !
 =
-'
+"
 endif
-'
+"
 or
 depth
 >
@@ -726,9 +733,9 @@ if
 command
 =
 =
-'
+"
 if
-'
+"
 :
             
 depth
@@ -740,9 +747,9 @@ elif
 command
 =
 =
-'
+"
 else
-'
+"
 and
 depth
 =
@@ -779,9 +786,9 @@ condition
 =
 [
 [
-'
+"
 TRUE
-'
+"
 ]
 ]
         
@@ -789,9 +796,9 @@ elif
 command
 =
 =
-'
+"
 elseif
-'
+"
 and
 depth
 =
@@ -840,9 +847,9 @@ elif
 command
 =
 =
-'
+"
 endif
-'
+"
 :
             
 depth
@@ -868,7 +875,8 @@ parsed
             
 print
 (
-'
+f
+"
 error
 :
 eof
@@ -879,15 +887,13 @@ match
 if
 statement
 :
-%
-s
-'
-                  
-%
+{
 parsed
 [
 start
 ]
+}
+"
 )
     
 condition
@@ -967,7 +973,7 @@ re
 sub
 (
 r
-'
+"
 \
 \
 {
@@ -976,9 +982,9 @@ w
 +
 \
 }
-'
-'
-'
+"
+"
+"
 new_value
 )
 )
@@ -994,7 +1000,7 @@ pwd
 flavor
 )
 :
-     
+    
 if
 flavor
 =
@@ -1003,7 +1009,7 @@ flavor
 llama
 "
 :
-         
+        
 sources
 .
 append
@@ -1019,10 +1025,10 @@ pwd
 source_file
 )
 )
-     
+    
 else
 :
-         
+        
 sources
 .
 append
@@ -1103,9 +1109,9 @@ if
 command
 =
 =
-'
+"
 foreach
-'
+"
 :
             
 end
@@ -1127,23 +1133,23 @@ arguments
 ]
 :
                 
-argument
+cleaned_argument
 =
 argument
 .
 replace
 (
-'
+"
 ;
-'
-'
-'
+"
+"
+"
 )
                 
 for
 value
 in
-argument
+cleaned_argument
 .
 split
 (
@@ -1165,9 +1171,9 @@ new_sources
 =
 evaluate
 (
+                        
 variables
 cache_variables
-                                                      
 parsed
 [
 i
@@ -1178,6 +1184,7 @@ end
 ]
 pwd
 flavor
+                    
 )
                     
 sources
@@ -1200,9 +1207,9 @@ elif
 command
 =
 =
-'
+"
 function
-'
+"
 :
             
 pass
@@ -1211,9 +1218,9 @@ elif
 command
 =
 =
-'
+"
 if
-'
+"
 :
             
 i
@@ -1247,16 +1254,16 @@ new_sources
 =
 evaluate
 (
+                        
 variables
-                                                      
 cache_variables
-                                                      
 condition
 [
 1
 ]
 pwd
 flavor
+                    
 )
                     
 sources
@@ -1281,9 +1288,9 @@ elif
 command
 =
 =
-'
+"
 include
-'
+"
 :
             
 if
@@ -1295,23 +1302,24 @@ try
                     
 print
 (
-'
+f
+"
 including
 :
-%
-s
-'
-%
+{
 arguments
 [
 0
 ]
+}
+"
 )
                     
 sources
 .
 extend
 (
+                        
 parse
 (
 variables
@@ -1323,38 +1331,39 @@ arguments
 ]
 flavor
 )
+                    
 )
                 
 except
-IOError
+OSError
 :
                     
 warn
 (
-'
+f
+"
 warning
 :
 could
 not
 include
 :
-%
-s
-'
-%
+{
 arguments
 [
 0
 ]
+}
+"
 )
         
 elif
 command
 =
 =
-'
+"
 list
-'
+"
 :
             
 try
@@ -1386,9 +1395,9 @@ if
 action
 =
 =
-'
+"
 APPEND
-'
+"
 :
                     
 if
@@ -1403,8 +1412,8 @@ variables
 variable
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -1420,11 +1429,11 @@ variable
 ]
 +
 =
-'
-'
+"
+"
 +
-'
-'
+"
+"
 .
 join
 (
@@ -1444,9 +1453,9 @@ elif
 command
 =
 =
-'
+"
 option
-'
+"
 :
             
 variable
@@ -1481,9 +1490,9 @@ elif
 command
 =
 =
-'
+"
 return
-'
+"
 :
             
 return
@@ -1494,9 +1503,9 @@ elif
 command
 =
 =
-'
+"
 set
-'
+"
 :
             
 variable
@@ -1523,9 +1532,9 @@ values
 .
 index
 (
-'
+"
 CACHE
-'
+"
 )
                 
 values
@@ -1549,8 +1558,8 @@ variables
 variable
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -1573,8 +1582,8 @@ variables
 variable
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -1585,12 +1594,12 @@ elif
 command
 in
 [
-'
+"
 set_aom_config_var
-'
-'
+"
+"
 set_aom_detect_var
-'
+"
 ]
 :
             
@@ -1633,9 +1642,9 @@ elif
 command
 =
 =
-'
+"
 set_aom_option_var
-'
+"
 :
             
 variable
@@ -1797,9 +1806,9 @@ elif
 command
 =
 =
-'
+"
 add_asm_library
-'
+"
 :
             
 try
@@ -1819,8 +1828,8 @@ arguments
 .
 split
 (
-'
-'
+"
+"
 )
 )
             
@@ -1837,9 +1846,9 @@ elif
 command
 =
 =
-'
+"
 add_intrinsics_object_library
-'
+"
 :
             
 try
@@ -2065,24 +2074,22 @@ elif
 command
 =
 =
-'
+"
 MOZDEBUG
-'
+"
 :
             
 info
 (
-'
+f
+"
 >
 >
 >
 >
 MOZDEBUG
 :
-%
-s
-'
-%
+{
 '
 '
 .
@@ -2090,6 +2097,8 @@ join
 (
 arguments
 )
+}
+"
 )
         
 i
@@ -2138,9 +2147,9 @@ if
 argument
 =
 =
-'
+"
 NOT
-'
+"
 :
         
 return
@@ -2159,9 +2168,9 @@ if
 argument
 =
 =
-'
+"
 (
-'
+"
 :
         
 i
@@ -2197,9 +2206,9 @@ i
 ]
 =
 =
-'
+"
 (
-'
+"
 :
                 
 depth
@@ -2214,9 +2223,9 @@ i
 ]
 =
 =
-'
+"
 )
-'
+"
 :
                 
 depth
@@ -2285,18 +2294,18 @@ if
 upper
 in
 [
-'
+"
 ON
-'
-'
+"
+"
 YES
-'
-'
+"
+"
 TRUE
-'
-'
+"
+"
 Y
-'
+"
 ]
 :
                 
@@ -2307,26 +2316,26 @@ elif
 upper
 in
 [
-'
+"
 OFF
-'
-'
+"
+"
 NO
-'
-'
+"
+"
 FALSE
-'
-'
+"
+"
 N
-'
-'
+"
+"
 IGNORE
-'
-'
-'
-'
+"
+"
+"
+"
 NOTFOUND
-'
+"
 ]
 :
                 
@@ -2338,10 +2347,10 @@ upper
 .
 endswith
 (
-'
+"
 -
 NOTFOUND
-'
+"
 )
 :
                 
@@ -2367,7 +2376,7 @@ re
 search
 (
 r
-'
+"
 \
 \
 {
@@ -2376,7 +2385,7 @@ w
 +
 \
 }
-'
+"
 argument
 )
 :
@@ -2476,9 +2485,9 @@ if
 op
 =
 =
-'
+"
 AND
-'
+"
 :
             
 return
@@ -2501,9 +2510,9 @@ elif
 op
 =
 =
-'
+"
 MATCHES
-'
+"
 :
             
 rhs
@@ -2544,9 +2553,9 @@ elif
 op
 =
 =
-'
+"
 OR
-'
+"
 :
             
 return
@@ -2569,9 +2578,9 @@ elif
 op
 =
 =
-'
+"
 STREQUAL
-'
+"
 :
             
 rhs
