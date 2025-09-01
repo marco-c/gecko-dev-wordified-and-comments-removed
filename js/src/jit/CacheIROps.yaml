@@ -3590,9 +3590,6 @@ ValId
 newShape
 :
 ShapeField
-preserveWrapper
-:
-BoolImm
 -
 name
 :
@@ -3620,9 +3617,6 @@ ValId
 newShape
 :
 ShapeField
-preserveWrapper
-:
-BoolImm
 -
 name
 :
@@ -3653,9 +3647,6 @@ ShapeField
 numNewSlots
 :
 RawInt32Field
-preserveWrapper
-:
-BoolImm
 -
 name
 :

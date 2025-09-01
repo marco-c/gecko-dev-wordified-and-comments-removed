@@ -31067,6 +31067,7 @@ ArrayObject
 )
 &
 &
+(
 obj
 -
 >
@@ -31078,10 +31079,9 @@ getClass
 getAddProperty
 (
 )
-;
-bool
-preserveWrapper
-=
+|
+|
+(
 obj
 -
 >
@@ -31105,6 +31105,8 @@ ObjectFlag
 :
 :
 HasPreservedWrapper
+)
+)
 )
 ;
 if
@@ -31170,7 +31172,6 @@ objId
 offset
 rhsValId
 newShape
-preserveWrapper
 )
 ;
 trackAttached
@@ -31242,7 +31243,6 @@ objId
 offset
 rhsValId
 newShape
-preserveWrapper
 )
 ;
 trackAttached
@@ -31273,7 +31273,6 @@ offset
 rhsValId
 newShape
 numNewSlots
-preserveWrapper
 )
 ;
 trackAttached

@@ -1534,15 +1534,6 @@ hasReleasedWrapper
 )
 ;
 JS_PUBLIC_API
-void
-CommitPendingWrapperPreservations
-(
-JSContext
-*
-cx
-)
-;
-JS_PUBLIC_API
 bool
 IsObjectInContextCompartment
 (

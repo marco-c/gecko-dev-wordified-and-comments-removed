@@ -2569,17 +2569,6 @@ obj
 #
 endif
 bool
-PreserveWrapper
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-;
-bool
 DoStringToInt64
 (
 JSContext
