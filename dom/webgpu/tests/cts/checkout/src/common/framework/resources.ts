@@ -2,7 +2,10 @@ let
 baseResourcePath
 =
 '
-.
+/
+_mozilla
+/
+webgpu
 /
 resources
 '
