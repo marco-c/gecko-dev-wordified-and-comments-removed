@@ -2738,6 +2738,17 @@ SpecialPowers
 ChromeUtils
 .
 now
+?
+.
+(
+)
+|
+|
+SpecialPowers
+.
+Cu
+.
+now
 (
 )
 ;
