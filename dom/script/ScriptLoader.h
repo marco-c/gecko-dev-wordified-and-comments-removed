@@ -2120,7 +2120,7 @@ aRequest
 )
 ;
 void
-CalculateBytecodeCacheFlag
+CalculateCacheFlag
 (
 ScriptLoadRequest
 *
