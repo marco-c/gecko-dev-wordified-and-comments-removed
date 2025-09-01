@@ -17565,6 +17565,10 @@ Create
 *
 this
 aAnimationKind
+ViewportType
+:
+:
+Visual
 aOrigin
 )
 ;
