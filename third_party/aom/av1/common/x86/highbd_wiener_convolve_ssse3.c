@@ -613,7 +613,6 @@ maxval
 =
 _mm_set1_epi16
 (
-(
 WIENER_CLAMP_LIMIT
 (
 conv_params
@@ -621,7 +620,6 @@ conv_params
 >
 round_0
 bd
-)
 )
 -
 1

@@ -76,7 +76,6 @@ CNN_MAX_THREADS
 #
 define
 NO_BRANCH_CONFIG
-\
 {
 0
 0
@@ -85,7 +84,6 @@ NO_BRANCH_CONFIG
 #
 define
 NO_BN_PARAMS
-\
 {
 NULL
 NULL

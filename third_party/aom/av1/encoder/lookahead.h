@@ -157,7 +157,6 @@ int
 use_highbitdepth
 int
 depth
-const
 int
 border_in_pixels
 int

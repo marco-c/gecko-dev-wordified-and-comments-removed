@@ -294,6 +294,16 @@ wikipedia_420_360p_60f
 .
 y4m
 "
+"
+SDR_Animal_oqo7
+.
+y4m
+"
+"
+SDR_Health_rtd0_720p
+.
+y4m
+"
 )
 if
 (

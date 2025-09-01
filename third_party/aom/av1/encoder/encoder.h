@@ -1431,7 +1431,8 @@ aq_mode
 DELTAQ_MODE
 deltaq_mode
 ;
-DELTAQ_MODE
+unsigned
+int
 deltaq_strength
 ;
 bool
@@ -3032,9 +3033,6 @@ sms_root
 uint32_t
 *
 hash_value_buffer
-[
-2
-]
 [
 2
 ]

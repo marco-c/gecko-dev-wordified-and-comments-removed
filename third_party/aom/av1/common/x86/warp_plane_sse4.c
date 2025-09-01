@@ -2466,6 +2466,10 @@ WARPEDPIXEL_PREC_SHIFTS
 }
 }
 ;
+#
+if
+!
+CONFIG_HIGHWAY
 DECLARE_ALIGNED
 (
 16
@@ -7749,3 +7753,5 @@ offset_bits
 }
 }
 }
+#
+endif

@@ -8384,7 +8384,9 @@ string
 FIND
 "
 {
+{
 aom_source_var
+}
 }
 "
 "

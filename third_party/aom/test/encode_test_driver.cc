@@ -473,6 +473,9 @@ kOnePassGood
 case
 kTwoPassGood
 :
+case
+kLowComplexityDecode
+:
 break
 ;
 case
@@ -521,6 +524,12 @@ mode
 =
 =
 kTwoPassGood
+|
+|
+mode
+=
+=
+kLowComplexityDecode
 )
 ?
 2

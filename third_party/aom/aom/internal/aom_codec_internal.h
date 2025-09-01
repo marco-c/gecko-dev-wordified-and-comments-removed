@@ -177,7 +177,6 @@ aom_codec_ctrl_fn_map_t
 #
 define
 CTRL_MAP_END
-\
 {
 0
 NULL

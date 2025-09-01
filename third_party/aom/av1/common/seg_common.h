@@ -6,6 +6,13 @@ define
 AOM_AV1_COMMON_SEG_COMMON_H_
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 aom_dsp
 /

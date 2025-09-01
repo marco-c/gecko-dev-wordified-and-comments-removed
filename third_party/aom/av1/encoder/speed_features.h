@@ -1192,6 +1192,8 @@ SIMPLE_AGG_LVL0
 SIMPLE_AGG_LVL1
 SIMPLE_AGG_LVL2
 SIMPLE_AGG_LVL3
+SIMPLE_AGG_LVL4
+SIMPLE_AGG_LVL5
 QIDX_BASED_AGG_LVL1
 TOTAL_SIMPLE_AGG_LVLS
 =
@@ -1200,7 +1202,7 @@ TOTAL_QINDEX_BASED_AGG_LVLS
 =
 QIDX_BASED_AGG_LVL1
 -
-SIMPLE_AGG_LVL3
+SIMPLE_AGG_LVL5
 TOTAL_AGG_LVLS
 =
 TOTAL_SIMPLE_AGG_LVLS
@@ -1431,11 +1433,17 @@ partition_search_breakout_dist_thr
 int
 partition_search_breakout_rate_thr
 ;
-int
+float
 ml_partition_search_breakout_thresh
 [
 PARTITION_BLOCK_SIZES
 ]
+;
+int
+ml_partition_search_breakout_model_index
+;
+int
+ml_4_partition_search_level_index
 ;
 int
 simple_motion_search_prune_agg

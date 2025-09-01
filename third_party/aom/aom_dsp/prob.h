@@ -39,15 +39,6 @@ h
 #
 include
 "
-aom_dsp
-/
-entcode
-.
-h
-"
-#
-include
-"
 aom_ports
 /
 bitops

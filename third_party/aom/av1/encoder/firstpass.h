@@ -505,6 +505,9 @@ skip_frame_as_ref
 MAX_STATIC_GF_GROUP_LENGTH
 ]
 ;
+bool
+is_sframe_due
+;
 }
 GF_GROUP
 ;

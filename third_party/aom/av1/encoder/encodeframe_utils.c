@@ -10480,13 +10480,11 @@ use_rtc_tf
 1
 )
 ?
-(
 clamp
 (
 avg_q_step
 250
 1000
-)
 )
 *
 ac_q_step

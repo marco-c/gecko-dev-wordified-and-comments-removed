@@ -449,6 +449,15 @@ AOM_EFLAG_FORCE_KF
 <
 0
 )
+#
+define
+AOM_EFLAG_CALCULATE_PSNR
+(
+1
+<
+<
+1
+)
 typedef
 struct
 aom_codec_enc_cfg

@@ -8,6 +8,15 @@ h
 #
 include
 "
+aom_dsp
+/
+entcode
+.
+h
+"
+#
+include
+"
 av1
 /
 encoder
