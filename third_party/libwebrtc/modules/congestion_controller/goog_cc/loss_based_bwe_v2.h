@@ -251,12 +251,6 @@ bool
 in_alr
 )
 ;
-bool
-PaceAtLossBasedEstimate
-(
-)
-const
-;
 void
 SetBandwidthEstimate
 (
