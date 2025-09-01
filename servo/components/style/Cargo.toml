@@ -177,7 +177,7 @@ malloc_size_of
 servo
 "
 "
-markup5ever
+web_atoms
 "
 "
 serde
@@ -455,7 +455,7 @@ rust
 malloc_size_of_derive
 "
 }
-markup5ever
+web_atoms
 =
 {
 version
@@ -463,7 +463,7 @@ version
 "
 0
 .
-12
+1
 "
 optional
 =

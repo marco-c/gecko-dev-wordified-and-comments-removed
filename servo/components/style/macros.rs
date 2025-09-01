@@ -193,7 +193,7 @@ values
 :
 GenericAtomIdent
 (
-markup5ever
+web_atoms
 :
 :
 local_name
@@ -233,7 +233,7 @@ values
 :
 GenericAtomIdent
 (
-markup5ever
+web_atoms
 :
 :
 ns
@@ -259,7 +259,7 @@ values
 :
 GenericAtomIdent
 (
-markup5ever
+web_atoms
 :
 :
 ns

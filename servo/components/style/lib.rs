@@ -125,7 +125,7 @@ macro_use
 ]
 extern
 crate
-markup5ever
+web_atoms
 ;
 #
 [
@@ -700,7 +700,7 @@ values
 :
 GenericAtomIdent
 <
-markup5ever
+web_atoms
 :
 :
 LocalNameStaticSet
@@ -736,7 +736,7 @@ values
 :
 GenericAtomIdent
 <
-markup5ever
+web_atoms
 :
 :
 NamespaceStaticSet
@@ -772,7 +772,7 @@ values
 :
 GenericAtomIdent
 <
-markup5ever
+web_atoms
 :
 :
 PrefixStaticSet
