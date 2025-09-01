@@ -10553,7 +10553,7 @@ DownloadState
 id
 =
 "
-1
+2
 "
 url
 =
@@ -10588,7 +10588,7 @@ DownloadJobState
 (
 state
 =
-inProgressDownload
+pausedDownload
 foregroundServiceId
 =
 Random
@@ -10630,7 +10630,7 @@ DownloadState
 id
 =
 "
-1
+3
 "
 url
 =
@@ -10665,7 +10665,7 @@ DownloadJobState
 (
 state
 =
-inProgressDownload
+initiatedDownload
 foregroundServiceId
 =
 Random
@@ -10707,7 +10707,7 @@ DownloadState
 id
 =
 "
-1
+4
 "
 url
 =
@@ -10742,7 +10742,7 @@ DownloadJobState
 (
 state
 =
-inProgressDownload
+failedDownload
 foregroundServiceId
 =
 Random
