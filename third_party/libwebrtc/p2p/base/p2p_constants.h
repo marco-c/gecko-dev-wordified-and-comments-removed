@@ -275,6 +275,12 @@ ICE_TYPE_PREFERENCE_HOST
 126
 }
 ;
+const
+int
+kMaxTurnUsernameLength
+=
+509
+;
 }
 #
 ifdef
