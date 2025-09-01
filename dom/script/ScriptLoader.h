@@ -1880,7 +1880,7 @@ aRequest
 )
 ;
 void
-MaybePrepareForBytecodeEncodingBeforeExecute
+MaybePrepareForCacheBeforeExecute
 (
 ScriptLoadRequest
 *
@@ -1897,7 +1897,7 @@ aScript
 )
 ;
 nsresult
-MaybePrepareForBytecodeEncodingAfterExecute
+MaybePrepareForCacheAfterExecute
 (
 ScriptLoadRequest
 *
@@ -1907,7 +1907,7 @@ aRv
 )
 ;
 bool
-IsAlreadyHandledForBytecodeEncodingPreparation
+IsAlreadyHandledForCachePreparation
 (
 ScriptLoadRequest
 *
@@ -1915,7 +1915,7 @@ aRequest
 )
 ;
 void
-MaybePrepareModuleForBytecodeEncodingBeforeExecute
+MaybePrepareModuleForCacheBeforeExecute
 (
 JSContext
 *
@@ -1927,7 +1927,7 @@ aRequest
 override
 ;
 nsresult
-MaybePrepareModuleForBytecodeEncodingAfterExecute
+MaybePrepareModuleForCacheAfterExecute
 (
 ModuleLoadRequest
 *
@@ -1949,7 +1949,7 @@ aRequest
 )
 ;
 void
-RegisterForBytecodeEncoding
+RegisterForCache
 (
 ScriptLoadRequest
 *
@@ -1957,18 +1957,18 @@ aRequest
 )
 ;
 void
-MaybeTriggerBytecodeEncoding
+MaybeUpdateCache
 (
 )
 override
 ;
 void
-EncodeBytecode
+UpdateCache
 (
 )
 ;
 void
-EncodeRequestBytecode
+FinishCollectingDelazificationsAndEncodeBytecode
 (
 JSContext
 *
@@ -1990,7 +1990,7 @@ aRequest
 )
 ;
 void
-GiveUpBytecodeEncoding
+GiveUpCaching
 (
 )
 ;
@@ -2175,10 +2175,10 @@ ScriptLoadRequestList
 mOffThreadCompilingRequests
 ;
 ScriptLoadRequestList
-mBytecodeEncodableDependencyModules
+mCacheableDependencyModules
 ;
 ScriptLoadRequestList
-mBytecodeEncodingQueue
+mCachingQueue
 ;
 struct
 PreloadInfo
@@ -2337,7 +2337,7 @@ bool
 mLoadEventFired
 ;
 bool
-mGiveUpEncoding
+mGiveUpCaching
 ;
 bool
 mContinueParsingDocumentAfterCurrentScript

@@ -348,7 +348,7 @@ aIntroductionScript
 ;
 virtual
 void
-MaybePrepareModuleForBytecodeEncodingBeforeExecute
+MaybePrepareModuleForCacheBeforeExecute
 (
 JSContext
 *
@@ -361,7 +361,7 @@ aRequest
 }
 virtual
 nsresult
-MaybePrepareModuleForBytecodeEncodingAfterExecute
+MaybePrepareModuleForCacheAfterExecute
 (
 ModuleLoadRequest
 *
@@ -376,7 +376,7 @@ NS_OK
 }
 virtual
 void
-MaybeTriggerBytecodeEncoding
+MaybeUpdateCache
 (
 )
 {

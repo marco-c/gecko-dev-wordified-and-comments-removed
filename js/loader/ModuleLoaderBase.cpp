@@ -8200,7 +8200,7 @@ aCx
 mLoader
 -
 >
-MaybePrepareModuleForBytecodeEncodingBeforeExecute
+MaybePrepareModuleForCacheBeforeExecute
 (
 aCx
 aRequest
@@ -8334,7 +8334,7 @@ rv
 mLoader
 -
 >
-MaybePrepareModuleForBytecodeEncodingAfterExecute
+MaybePrepareModuleForCacheAfterExecute
 (
 aRequest
 NS_OK
@@ -8343,7 +8343,7 @@ NS_OK
 mLoader
 -
 >
-MaybeTriggerBytecodeEncoding
+MaybeUpdateCache
 (
 )
 ;
