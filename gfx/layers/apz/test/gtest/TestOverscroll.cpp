@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+RelativeTo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollPositionUpdate
 .
 h
@@ -14087,6 +14096,10 @@ ScrollTriggeredByScript
 :
 Yes
 nullptr
+ViewportType
+:
+:
+Visual
 )
 )
 ;

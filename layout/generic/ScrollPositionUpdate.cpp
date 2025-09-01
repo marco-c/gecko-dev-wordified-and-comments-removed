@@ -297,6 +297,8 @@ UniquePtr
 ScrollSnapTargetIds
 >
 aSnapTargetIds
+ViewportType
+aViewportToScroll
 )
 {
 MOZ_ASSERT
@@ -389,6 +391,12 @@ aDestination
 ;
 ret
 .
+mViewportType
+=
+aViewportToScroll
+;
+ret
+.
 mTriggeredByScript
 =
 aTriggeredByScript
@@ -475,6 +483,15 @@ ret
 mScrollMode
 =
 aMode
+;
+ret
+.
+mViewportType
+=
+ViewportType
+:
+:
+Visual
 ;
 ret
 .
