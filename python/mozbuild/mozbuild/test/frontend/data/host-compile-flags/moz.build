@@ -127,3 +127,17 @@ host
 arg
 "
 ]
+HOST_LDFLAGS
++
+=
+[
+"
+-
+Wl
+-
+-
+gc
+-
+sections
+"
+]
