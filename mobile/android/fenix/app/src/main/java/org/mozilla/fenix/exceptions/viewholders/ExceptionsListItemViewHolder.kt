@@ -69,6 +69,12 @@ viewholders
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -274,7 +280,7 @@ url
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

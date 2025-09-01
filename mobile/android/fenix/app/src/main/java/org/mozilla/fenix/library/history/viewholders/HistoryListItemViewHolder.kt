@@ -77,6 +77,12 @@ View
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 core
 .
 view
@@ -989,7 +995,7 @@ DISABLED_BUTTON_ALPHA
 0
 .
 7f
-const
+LayoutRes
 val
 LAYOUT_ID
 =

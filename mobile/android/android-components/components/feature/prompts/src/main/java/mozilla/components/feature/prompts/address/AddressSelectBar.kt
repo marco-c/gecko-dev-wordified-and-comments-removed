@@ -95,6 +95,12 @@ View
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 appcompat
 .
 widget
@@ -929,6 +935,7 @@ collapse
 companion
 object
 {
+LayoutRes
 val
 LAYOUT_ID
 =

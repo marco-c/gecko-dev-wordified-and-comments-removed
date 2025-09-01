@@ -83,6 +83,12 @@ androidx
 .
 annotation
 .
+LayoutRes
+import
+androidx
+.
+annotation
+.
 StringRes
 import
 androidx
@@ -185,7 +191,7 @@ description
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

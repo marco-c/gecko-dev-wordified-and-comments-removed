@@ -79,6 +79,12 @@ ViewGroup
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 core
 .
 view
@@ -662,7 +668,7 @@ shouldHideCheckBox
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

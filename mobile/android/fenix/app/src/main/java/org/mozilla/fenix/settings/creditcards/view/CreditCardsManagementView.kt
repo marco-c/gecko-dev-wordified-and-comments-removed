@@ -71,6 +71,12 @@ view
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 core
 .
 view
@@ -262,7 +268,7 @@ creditCards
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

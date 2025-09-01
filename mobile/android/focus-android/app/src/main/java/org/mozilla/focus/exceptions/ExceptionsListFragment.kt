@@ -139,6 +139,12 @@ TextView
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 core
 .
 content
@@ -1549,6 +1555,7 @@ handleView
 companion
 object
 {
+LayoutRes
 val
 LAYOUT_ID
 =

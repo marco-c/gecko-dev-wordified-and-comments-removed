@@ -87,6 +87,12 @@ TextView
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -288,6 +294,7 @@ creditCard
 companion
 object
 {
+LayoutRes
 val
 LAYOUT_ID
 =

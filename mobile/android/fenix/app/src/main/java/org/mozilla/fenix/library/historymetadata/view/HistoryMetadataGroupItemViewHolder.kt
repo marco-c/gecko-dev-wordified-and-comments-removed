@@ -77,6 +77,12 @@ View
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 core
 .
 view
@@ -458,7 +464,7 @@ item
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

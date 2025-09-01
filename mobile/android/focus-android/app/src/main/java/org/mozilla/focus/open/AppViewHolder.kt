@@ -85,6 +85,12 @@ TextView
 import
 androidx
 .
+annotation
+.
+LayoutRes
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -269,7 +275,7 @@ app
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

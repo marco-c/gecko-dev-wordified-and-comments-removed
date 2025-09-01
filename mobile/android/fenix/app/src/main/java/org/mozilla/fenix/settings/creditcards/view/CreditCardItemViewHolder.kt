@@ -75,6 +75,12 @@ view
 .
 View
 import
+androidx
+.
+annotation
+.
+LayoutRes
+import
 mozilla
 .
 components
@@ -379,7 +385,7 @@ time
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =

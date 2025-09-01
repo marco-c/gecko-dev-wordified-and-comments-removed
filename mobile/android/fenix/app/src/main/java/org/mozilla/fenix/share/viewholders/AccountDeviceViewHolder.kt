@@ -83,6 +83,12 @@ androidx
 .
 annotation
 .
+LayoutRes
+import
+androidx
+.
+annotation
+.
 VisibleForTesting
 import
 androidx
@@ -391,7 +397,7 @@ name
 companion
 object
 {
-const
+LayoutRes
 val
 LAYOUT_ID
 =
