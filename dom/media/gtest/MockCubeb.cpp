@@ -5,6 +5,15 @@ MockCubeb
 .
 h
 "
+#
+include
+"
+gtest
+/
+gtest
+.
+h
+"
 namespace
 mozilla
 {
@@ -2762,11 +2771,6 @@ mRunningMode
 aRunningMode
 )
 {
-(
-void
-)
-ops
-;
 }
 MockCubeb
 :
