@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-6e49907b7a85360123f20af8910539f0a91d97d9
+eaafcde8f79c4b1af5adfe758d16e3c7edc72f18
 '
 #
 Fetch
@@ -430,7 +430,7 @@ siso_version
 '
 git_revision
 :
-30ea210712239b874febcadf661f118fc2c0f6d7
+3753a55d0911b4ea3dd000263088f60edb8d947b
 '
 #
 ninja
@@ -588,7 +588,7 @@ chromium
 src
 /
 base
-3ca2b4045a996236ad96e5513aaf6bd07f20fe28
+70882196f16e1546cd859093b5c5a18060bc5a4e
 '
 '
 src
@@ -612,7 +612,7 @@ chromium
 src
 /
 build
-a2bd4bf2317610bf5d7f113828f94b16dca4f669
+a5b64529780d6282198069381f403a2baf28e1ef
 '
 '
 src
@@ -732,7 +732,7 @@ chromium
 src
 /
 ios
-9ec1fa771571a7eae57cc2f765d9950272cd943f
+459d90be1bb4f23bd33c528de5e8e7a5b9be748c
 '
 '
 condition
@@ -764,7 +764,7 @@ chromium
 src
 /
 testing
-f9e21d5658bc669e61f53ca2f5bfa6045bc8defe
+26a050e9cd2c2c69d85e40345343397e5e7ea0e0
 '
 '
 src
@@ -788,7 +788,7 @@ chromium
 src
 /
 third_party
-bd63626edb264c364b67e580191110da71641a30
+ef835c97f8c49a4587a5493d599a95231c4c3252
 '
 '
 src
@@ -4090,7 +4090,7 @@ grpc
 grpc
 .
 git
-0c155e4beb9c1706fdafce2326b618a5347c4510
+0483fbe63478b4868be671e91f61b7b855df6a3f
 '
 }
 #
@@ -4178,7 +4178,7 @@ third_party
 freetype2
 .
 git
-8082aba5f2ddc334b6dfe89a10db13a1b120f76e
+46edeb321ca346f98b9b744b49aaf2f8e95bd17a
 '
 '
 src
@@ -5596,7 +5596,7 @@ chromium
 src
 /
 tools
-2187342a4c9b1ddc5ab4b4df5784e9f5d76a6e2d
+312386a772d0a6a987078facd43d2ca4d17cf7f3
 '
 '
 src
