@@ -3693,6 +3693,15 @@ element
 }
 if
 (
+this
+.
+doc
+.
+hasFocus
+(
+)
+&
+&
 focusedElSelector
 )
 {

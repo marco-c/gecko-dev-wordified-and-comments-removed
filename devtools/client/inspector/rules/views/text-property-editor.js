@@ -4019,6 +4019,15 @@ this
 ;
 if
 (
+this
+.
+doc
+.
+hasFocus
+(
+)
+&
+&
 focusedElSelector
 )
 {
