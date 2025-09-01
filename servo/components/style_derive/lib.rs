@@ -50,10 +50,10 @@ proc_macro
 TokenStream
 ;
 mod
-cg
+animate
 ;
 mod
-animate
+cg
 ;
 mod
 compute_squared_distance

@@ -46,8 +46,8 @@ parser
 AncestorHashes
 Combinator
 Component
-MatchesFeaturelessHost
 LocalName
+MatchesFeaturelessHost
 NthSelectorData
 RelativeSelectorMatchHint
 }
@@ -90,6 +90,18 @@ tree
 Element
 ;
 use
+bitflags
+:
+:
+bitflags
+;
+use
+debug_unreachable
+:
+:
+debug_unreachable
+;
+use
 log
 :
 :
@@ -109,18 +121,6 @@ borrow
 :
 :
 Borrow
-;
-use
-bitflags
-:
-:
-bitflags
-;
-use
-debug_unreachable
-:
-:
-debug_unreachable
 ;
 pub
 use
@@ -1964,6 +1964,7 @@ iter
 |
 selector
 |
+{
 matches_complex_selector
 (
 selector
@@ -1975,6 +1976,7 @@ element
 context
 rightmost
 )
+}
 )
 }
 fn
@@ -3373,6 +3375,7 @@ Combinator
 LaterSibling
 =
 >
+{
 NextElement
 :
 :
@@ -3385,6 +3388,7 @@ prev_sibling_element
 )
 false
 )
+}
 Combinator
 :
 :
@@ -3496,6 +3500,7 @@ Combinator
 PseudoElement
 =
 >
+{
 NextElement
 :
 :
@@ -3508,6 +3513,7 @@ pseudo_element_originating_element
 )
 false
 )
+}
 }
 }
 fn
@@ -3699,11 +3705,14 @@ KleeneValue
 False
 =
 >
+{
 SelectorMatchingResult
 :
 :
 NotMatchedAndRestartFromClosestLaterSibling
 }
+}
+;
 }
 ;
 let
@@ -3999,8 +4008,10 @@ SelectorMatchingResult
 NotMatchedGlobally
 =
 >
+{
 return
 result
+}
 _
 =
 >
@@ -4506,6 +4517,7 @@ KleeneValue
 :
 :
 True
+;
 }
 ;
 context
@@ -4515,6 +4527,7 @@ nest
 |
 context
 |
+{
 context
 .
 with_featureless
@@ -4537,6 +4550,7 @@ rightmost
 )
 }
 )
+}
 )
 }
 fn
@@ -5150,6 +5164,7 @@ selector_iter
 |
 simple
 |
+{
 matches_simple_selector
 (
 simple
@@ -5158,6 +5173,7 @@ element
 mut
 local_context
 )
+}
 )
 }
 fn
@@ -5714,6 +5730,7 @@ Component
 ImplicitScope
 =
 >
+{
 match
 context
 .
@@ -5745,6 +5762,7 @@ element
 is_root
 (
 )
+}
 }
 Component
 :

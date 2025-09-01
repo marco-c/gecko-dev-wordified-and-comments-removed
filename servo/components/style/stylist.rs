@@ -11273,7 +11273,6 @@ map
 |
 _
 |
-{
 AncestorHashes
 {
 packed_hashes
@@ -11283,7 +11282,6 @@ packed_hashes
 0
 0
 ]
-}
 }
 )
 .

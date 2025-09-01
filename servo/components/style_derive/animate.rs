@@ -1,4 +1,10 @@
 use
+crate
+:
+:
+cg
+;
+use
 darling
 :
 :
@@ -6,12 +12,6 @@ util
 :
 :
 PathList
-;
-use
-crate
-:
-:
-cg
 ;
 use
 proc_macro2

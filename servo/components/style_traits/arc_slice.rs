@@ -60,8 +60,6 @@ std
 :
 :
 {
-iter
-mem
 hash
 :
 :
@@ -69,6 +67,8 @@ hash
 Hash
 Hasher
 }
+iter
+mem
 }
 ;
 use

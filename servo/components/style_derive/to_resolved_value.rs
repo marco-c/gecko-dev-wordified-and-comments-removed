@@ -5,6 +5,12 @@ crate
 cg
 ;
 use
+crate
+:
+:
+to_computed_value
+;
+use
 proc_macro2
 :
 :
@@ -21,12 +27,6 @@ synstructure
 :
 :
 BindStyle
-;
-use
-crate
-:
-:
-to_computed_value
 ;
 pub
 fn
