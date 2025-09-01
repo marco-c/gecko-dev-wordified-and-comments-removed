@@ -875,8 +875,6 @@ square
 padding
 -
 inline
--
-start
 :
 var
 (
@@ -885,6 +883,14 @@ var
 space
 -
 xlarge
+)
+var
+(
+-
+-
+space
+-
+xsmall
 )
 ;
 }
