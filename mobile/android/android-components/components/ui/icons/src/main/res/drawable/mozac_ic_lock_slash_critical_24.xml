@@ -501,13 +501,6 @@ evenOdd
 "
 tools
 :
-targetApi
-=
-"
-n
-"
-tools
-:
 ignore
 =
 "

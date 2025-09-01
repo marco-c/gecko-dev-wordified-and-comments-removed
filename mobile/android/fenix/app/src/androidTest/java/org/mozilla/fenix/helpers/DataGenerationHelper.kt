@@ -385,7 +385,7 @@ Intent
 )
 IntentUtils
 .
-defaultIntentPendingFlags
+DEFAULT_PENDING_INTENT_FLAGS
 )
 val
 customTabsIntent
