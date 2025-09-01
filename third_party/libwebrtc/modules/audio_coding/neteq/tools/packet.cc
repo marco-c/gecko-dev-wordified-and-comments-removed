@@ -435,9 +435,6 @@ RtpHeaderExtensionMap
 extension_map
 )
 {
-webrtc
-:
-:
 RtpPacketReceived
 rtp_packet
 (

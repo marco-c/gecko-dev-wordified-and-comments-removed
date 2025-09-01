@@ -372,9 +372,6 @@ std
 string
 file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -856,9 +853,6 @@ file_stream
 file_stream
 <
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1468,17 +1462,11 @@ std
 string
 fileName
 =
-webrtc
-:
-:
 test
 :
 :
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :

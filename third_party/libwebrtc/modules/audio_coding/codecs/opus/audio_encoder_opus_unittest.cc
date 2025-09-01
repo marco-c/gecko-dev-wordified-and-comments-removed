@@ -4054,9 +4054,6 @@ TestConfigFromInvalidParams
 )
 {
 const
-webrtc
-:
-:
 SdpAudioFormat
 format
 (
@@ -4546,9 +4543,6 @@ kDefaultOpusPayloadType
 auto
 ptime
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4567,13 +4561,7 @@ std
 :
 pair
 <
-webrtc
-:
-:
 TimeDelta
-webrtc
-:
-:
 TimeDelta
 >
 >
@@ -5165,9 +5153,6 @@ std
 string
 kInputFileName
 =
-webrtc
-:
-:
 test
 :
 :

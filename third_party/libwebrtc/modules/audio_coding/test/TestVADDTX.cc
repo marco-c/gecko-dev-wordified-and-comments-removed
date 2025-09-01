@@ -1304,9 +1304,6 @@ out_filename
 out_filename
 <
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1330,9 +1327,6 @@ pcm
 ;
 Run
 (
-webrtc
-:
-:
 test
 :
 :
@@ -1387,9 +1381,6 @@ std
 string
 out_filename
 =
-webrtc
-:
-:
 test
 :
 :
@@ -1453,9 +1444,6 @@ false
 ;
 Run
 (
-webrtc
-:
-:
 test
 :
 :
@@ -1544,9 +1532,6 @@ kAudioFrameCN
 ;
 Run
 (
-webrtc
-:
-:
 test
 :
 :

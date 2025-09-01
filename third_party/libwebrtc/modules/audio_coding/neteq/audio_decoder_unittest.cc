@@ -680,9 +680,6 @@ AudioDecoderTest
 :
 input_audio_
 (
-webrtc
-:
-:
 test
 :
 :

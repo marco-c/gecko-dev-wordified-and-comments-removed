@@ -716,11 +716,6 @@ std
 string
 path
 =
-:
-:
-webrtc
-:
-:
 test
 :
 :
@@ -763,11 +758,6 @@ std
 string
 path
 =
-:
-:
-webrtc
-:
-:
 test
 :
 :
@@ -1716,9 +1706,6 @@ output_
 reset
 (
 new
-webrtc
-:
-:
 test
 :
 :
@@ -1739,9 +1726,6 @@ output_
 reset
 (
 new
-webrtc
-:
-:
 test
 :
 :

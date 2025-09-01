@@ -765,9 +765,6 @@ output_frame
 speech_type_
 =
 =
-webrtc
-:
-:
 AudioFrame
 :
 :

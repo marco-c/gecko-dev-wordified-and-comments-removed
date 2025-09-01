@@ -893,9 +893,6 @@ std
 string
 kInputFileName
 =
-webrtc
-:
-:
 test
 :
 :
