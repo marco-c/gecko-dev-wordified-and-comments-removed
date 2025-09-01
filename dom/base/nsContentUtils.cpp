@@ -50069,6 +50069,11 @@ rv
 else
 if
 (
+aOptions
+.
+mIsAsyncEnabled
+|
+|
 StaticPrefs
 :
 :

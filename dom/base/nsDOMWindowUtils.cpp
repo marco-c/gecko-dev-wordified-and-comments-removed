@@ -25175,6 +25175,12 @@ mIsWidgetEventSynthesized
 =
 true
 ;
+options
+.
+mIsAsyncEnabled
+=
+false
+;
 auto
 result
 =
