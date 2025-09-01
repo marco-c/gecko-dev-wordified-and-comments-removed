@@ -69,13 +69,6 @@ sys
 .
 mjs
 "
-"
-IPProtectionUsage
-.
-sys
-.
-mjs
-"
 ]
 BROWSER_CHROME_MANIFESTS
 +
