@@ -616,6 +616,7 @@ ThreadLocal
 final
 {
 friend
+class
 mozilla
 :
 :

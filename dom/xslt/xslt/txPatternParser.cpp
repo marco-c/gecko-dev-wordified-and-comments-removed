@@ -126,9 +126,6 @@ createUnionPattern
 lexer
 aContext
 *
-mozilla
-:
-:
 getter_Transfers
 (
 pattern

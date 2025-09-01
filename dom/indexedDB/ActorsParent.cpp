@@ -7442,6 +7442,7 @@ DatabaseInfo
 final
 {
 friend
+class
 mozilla
 :
 :
@@ -7629,6 +7630,7 @@ DatabaseCompleteCallback
 final
 {
 friend
+class
 DefaultDelete
 <
 DatabaseCompleteCallback
@@ -7819,6 +7821,7 @@ TransactionInfo
 final
 {
 friend
+class
 mozilla
 :
 :
@@ -19619,6 +19622,7 @@ DatabaseActorInfo
 final
 {
 friend
+class
 mozilla
 :
 :

@@ -530,9 +530,6 @@ void
 *
 )
 aValue
-mozilla
-:
-:
 getter_Transfers
 (
 oldValue
