@@ -147,6 +147,10 @@ outsideClickCallback
 >
 {
 }
+modalClassName
+=
+"
+"
 }
 )
 {
@@ -480,6 +484,9 @@ position
 }
 {
 arrowPosition
+}
+{
+modalClassName
 }
 {
 openedClassname
