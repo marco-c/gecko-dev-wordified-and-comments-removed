@@ -191,9 +191,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 AsyncPacketSocket
 *
 int
@@ -262,15 +259,9 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 AsyncPacketSocket
 *
 const
-webrtc
-:
-:
 ReceivedIpPacket
 &
 )

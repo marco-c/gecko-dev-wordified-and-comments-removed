@@ -341,9 +341,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 SSLHandshakeError
 )
 >

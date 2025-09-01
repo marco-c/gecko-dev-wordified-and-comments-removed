@@ -310,9 +310,6 @@ uint32_t
 >
 int_value
 =
-webrtc
-:
-:
 StringToNumber
 <
 uint32_t

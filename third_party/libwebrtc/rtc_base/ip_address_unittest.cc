@@ -3668,9 +3668,6 @@ sin_addr
 .
 s_addr
 =
-webrtc
-:
-:
 HostToNetwork32
 (
 kIPv4PublicAddr

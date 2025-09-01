@@ -1912,9 +1912,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1943,9 +1940,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1981,9 +1975,6 @@ unblock_async_operation_event2
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2012,9 +2003,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -2039,9 +2027,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2070,9 +2055,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -2097,9 +2079,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2128,9 +2107,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )

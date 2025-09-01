@@ -665,9 +665,6 @@ expiration_time
 *
 expiration_time
 =
-webrtc
-:
-:
 ASN1TimeToSec
 (
 CBS_data
@@ -1220,9 +1217,6 @@ d2i_X509
 nullptr
 &
 cert_buffer
-webrtc
-:
-:
 checked_cast
 <
 long

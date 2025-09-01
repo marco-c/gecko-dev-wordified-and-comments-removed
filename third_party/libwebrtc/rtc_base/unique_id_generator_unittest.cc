@@ -979,9 +979,6 @@ auto
 *
 current_tq
 =
-webrtc
-:
-:
 TaskQueueBase
 :
 :
@@ -1001,9 +998,6 @@ fake_task_queue
 ASSERT_NE
 (
 current_tq
-webrtc
-:
-:
 TaskQueueBase
 :
 :

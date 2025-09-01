@@ -248,9 +248,6 @@ AF_INET
 )
 {
 return
-webrtc
-:
-:
 NetworkToHost32
 (
 u_
@@ -590,9 +587,6 @@ AF_INET
 :
 {
 return
-webrtc
-:
-:
 NetworkToHost32
 (
 u_
@@ -602,9 +596,6 @@ ip4
 s_addr
 )
 <
-webrtc
-:
-:
 NetworkToHost32
 (
 other
@@ -2179,9 +2170,6 @@ length
 uint32_t
 host_order_ip
 =
-webrtc
-:
-:
 NetworkToHost32
 (
 ip
@@ -2200,9 +2188,6 @@ masked
 .
 s_addr
 =
-webrtc
-:
-:
 HostToNetwork32
 (
 host_order_ip
@@ -2338,9 +2323,6 @@ position
 uint32_t
 host_order_inner
 =
-webrtc
-:
-:
 NetworkToHost32
 (
 v6_as_ints
@@ -2354,9 +2336,6 @@ v6_as_ints
 i
 ]
 =
-webrtc
-:
-:
 HostToNetwork32
 (
 host_order_inner
@@ -2429,9 +2408,6 @@ AF_INET
 {
 word_to_count
 =
-webrtc
-:
-:
 NetworkToHost32
 (
 mask
@@ -2518,9 +2494,6 @@ i
 {
 word_to_count
 =
-webrtc
-:
-:
 NetworkToHost32
 (
 v6_as_ints

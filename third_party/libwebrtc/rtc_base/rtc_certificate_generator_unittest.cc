@@ -485,9 +485,6 @@ certificate
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -517,9 +514,6 @@ timeout
 kGenerationTimeoutMs
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -718,9 +712,6 @@ OnGenerated
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -750,9 +741,6 @@ timeout
 kGenerationTimeoutMs
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )

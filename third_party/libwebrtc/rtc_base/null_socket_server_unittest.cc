@@ -157,9 +157,6 @@ true
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -202,9 +199,6 @@ Millis
 )
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )

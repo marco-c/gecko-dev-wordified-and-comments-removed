@@ -111,9 +111,6 @@ pv
 size_t
 cb
 const
-webrtc
-:
-:
 AsyncSocketPacketOptions
 &
 options
@@ -139,9 +136,6 @@ SocketAddress
 &
 addr
 const
-webrtc
-:
-:
 AsyncSocketPacketOptions
 &
 options
@@ -257,15 +251,9 @@ MockFunction
 <
 void
 (
-webrtc
-:
-:
 AsyncPacketSocket
 *
 const
-webrtc
-:
-:
 ReceivedIpPacket
 &
 )

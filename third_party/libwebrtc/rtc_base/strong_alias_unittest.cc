@@ -1719,9 +1719,6 @@ FooTag
 TypeParam
 >
 ;
-webrtc
-:
-:
 flat_map
 <
 FooAlias

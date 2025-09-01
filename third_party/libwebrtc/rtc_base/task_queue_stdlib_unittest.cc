@@ -103,9 +103,6 @@ TaskQueueFactory
 CreateTaskQueueFactory
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 )
