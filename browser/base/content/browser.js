@@ -2836,6 +2836,9 @@ getElementById
 urlbar
 "
 )
+isAddressbar
+:
+true
 eventTelemetryCategory
 :
 "

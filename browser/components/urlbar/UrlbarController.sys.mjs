@@ -2168,6 +2168,7 @@ this
 view
 .
 oneOffSearchButtons
+?
 .
 handleKeyDown
 (
@@ -3237,6 +3238,17 @@ searchMode
 =
 null
 ;
+if
+(
+this
+.
+input
+.
+view
+.
+oneOffSearchButtons
+)
+{
 this
 .
 input
@@ -3249,6 +3261,7 @@ selectedButton
 =
 null
 ;
+}
 this
 .
 input

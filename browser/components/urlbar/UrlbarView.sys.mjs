@@ -886,6 +886,20 @@ if
 !
 this
 .
+input
+.
+isAddressbar
+)
+{
+return
+null
+;
+}
+if
+(
+!
+this
+.
 #
 oneOffSearchButtons
 )
@@ -5131,6 +5145,7 @@ openPanelInstance
 this
 .
 oneOffSearchButtons
+?
 .
 willHide
 (
@@ -5403,6 +5418,7 @@ character
 this
 .
 oneOffSearchButtons
+?
 .
 enable
 (
@@ -5478,6 +5494,7 @@ selectedElement
 this
 .
 oneOffSearchButtons
+?
 .
 selectedButton
 )
@@ -5901,6 +5918,7 @@ selectedElement
 this
 .
 oneOffSearchButtons
+?
 .
 selectedButton
 )
@@ -22514,6 +22532,7 @@ wrap
 this
 .
 oneOffSearchButtons
+?
 .
 container
 .
