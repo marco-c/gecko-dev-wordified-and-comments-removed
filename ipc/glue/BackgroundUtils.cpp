@@ -4968,11 +4968,6 @@ integrityMetadata
 )
 loadInfoArgs
 .
-skipContentSniffing
-(
-)
-loadInfoArgs
-.
 httpsOnlyStatus
 (
 )
