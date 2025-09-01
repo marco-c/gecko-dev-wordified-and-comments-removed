@@ -713,6 +713,13 @@ Element
 element
 )
 ;
+boolean
+isBlockContainer
+(
+Element
+element
+)
+;
 /
 /
 If
