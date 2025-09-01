@@ -79,6 +79,9 @@ by
 user
 -
 activation
+allow
+-
+popups
 '
 ;
 RunTestsInIFrame
