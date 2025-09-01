@@ -122,6 +122,14 @@ framework
 .
 *
 /
+RequiresApi
+(
+Build
+.
+VERSION_CODES
+.
+O
+)
 class
 AutofillService
 :

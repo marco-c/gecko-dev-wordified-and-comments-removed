@@ -899,7 +899,7 @@ NOTIFICATION_PENDING_INTENT_TAG
 intent
 IntentUtils
 .
-DEFAULT_PENDING_INTENT_FLAGS
+defaultIntentPendingFlags
 )
 }
 private
@@ -959,7 +959,7 @@ NOTIFICATION_PENDING_INTENT_TAG
 intent
 IntentUtils
 .
-DEFAULT_PENDING_INTENT_FLAGS
+defaultIntentPendingFlags
 )
 }
 companion

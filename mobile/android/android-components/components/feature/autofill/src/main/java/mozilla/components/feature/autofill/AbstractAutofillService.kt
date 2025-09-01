@@ -125,6 +125,12 @@ inline
 .
 InlinePresentationSpec
 import
+androidx
+.
+annotation
+.
+RequiresApi
+import
 kotlinx
 .
 coroutines
@@ -200,6 +206,14 @@ framework
 .
 *
 /
+RequiresApi
+(
+Build
+.
+VERSION_CODES
+.
+O
+)
 abstract
 class
 AbstractAutofillService

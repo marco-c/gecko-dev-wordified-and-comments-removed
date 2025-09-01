@@ -1452,9 +1452,9 @@ Intent
 FLAG_ACTIVITY_NEW_TASK
 )
 }
-PendingIntent
+PendingIntentUtils
 .
-FLAG_IMMUTABLE
+defaultFlags
 )
 CrashReporter
 (

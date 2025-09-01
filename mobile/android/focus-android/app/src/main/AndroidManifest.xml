@@ -1249,6 +1249,13 @@ supportsPictureInPicture
 "
 true
 "
+tools
+:
+targetApi
+=
+"
+n
+"
 >
 <
 intent
@@ -1408,6 +1415,13 @@ theme
 style
 /
 AppTheme
+"
+tools
+:
+targetApi
+=
+"
+n
 "
 /
 >

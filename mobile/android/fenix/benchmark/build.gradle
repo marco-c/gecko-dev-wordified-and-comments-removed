@@ -111,9 +111,7 @@ defaultConfig
 {
 minSdk
 =
-config
-.
-minSdkVersion
+23
 targetSdk
 =
 config

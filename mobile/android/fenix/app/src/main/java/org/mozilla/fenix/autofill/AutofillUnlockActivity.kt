@@ -128,6 +128,14 @@ verify
 .
 *
 /
+RequiresApi
+(
+Build
+.
+VERSION_CODES
+.
+O
+)
 class
 AutofillUnlockActivity
 :

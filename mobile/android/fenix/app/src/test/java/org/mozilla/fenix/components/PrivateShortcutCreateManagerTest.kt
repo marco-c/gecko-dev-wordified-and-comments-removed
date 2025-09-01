@@ -432,7 +432,7 @@ flags
 =
 IntentUtils
 .
-DEFAULT_PENDING_INTENT_FLAGS
+defaultIntentPendingFlags
 or
 PendingIntent
 .
