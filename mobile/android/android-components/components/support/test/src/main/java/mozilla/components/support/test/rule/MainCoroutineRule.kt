@@ -67,6 +67,12 @@ test
 .
 rule
 import
+android
+.
+annotation
+.
+SuppressLint
+import
 kotlinx
 .
 coroutines
@@ -512,6 +518,12 @@ class
 resetMain
 setMain
 UnconfinedTestDispatcher
+SuppressLint
+(
+"
+NoDispatchersSetMainInTests
+"
+)
 class
 MainCoroutineRule
 (
