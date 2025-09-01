@@ -117,6 +117,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Rule
 import
 org
@@ -1225,7 +1231,7 @@ clickSnackbarButton
 (
 activityTestRule
 "
-Undo
+UNDO
 "
 )
 verifyDownloadedFileExistsInDownloadsList
@@ -1396,7 +1402,7 @@ clickSnackbarButton
 (
 activityTestRule
 "
-Undo
+UNDO
 "
 )
 verifyDownloadedFileExistsInDownloadsList

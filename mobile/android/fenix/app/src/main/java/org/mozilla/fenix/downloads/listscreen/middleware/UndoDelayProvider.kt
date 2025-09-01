@@ -182,12 +182,12 @@ const
 val
 UNDO_DELAY
 =
-4000L
+3000L
 private
 const
 val
 ACCESSIBLE_UNDO_DELAY
 =
-10000L
+15000L
 }
 }
