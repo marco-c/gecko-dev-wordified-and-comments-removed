@@ -35,15 +35,6 @@ stream_params
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-arraysize
-.
-h
-"
 namespace
 webrtc
 {
@@ -156,7 +147,10 @@ webrtc
 MakeVector
 (
 a
-arraysize
+std
+:
+:
+size
 (
 a
 )
