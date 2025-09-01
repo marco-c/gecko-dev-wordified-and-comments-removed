@@ -1113,6 +1113,9 @@ make_unique
 FakeNetworkManager
 >
 (
+pcf_deps
+.
+network_thread
 )
 ;
 auto

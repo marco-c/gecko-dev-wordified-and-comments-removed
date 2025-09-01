@@ -1056,6 +1056,9 @@ make_unique
 FakeNetworkManager
 >
 (
+network_thread
+(
+)
 )
 ;
 network_manager
