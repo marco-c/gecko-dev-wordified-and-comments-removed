@@ -1545,6 +1545,10 @@ earlyHints
 uint32_t
 earlyHintLinkType
 ;
+nullable
+nsIReferrerInfo
+referrerInfo
+;
 }
 ;
 struct
