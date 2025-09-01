@@ -497,9 +497,9 @@ this
 .
 previousScreenY
 =
-this
+evt
 .
-startY
+screenY
 ;
 type
 =
