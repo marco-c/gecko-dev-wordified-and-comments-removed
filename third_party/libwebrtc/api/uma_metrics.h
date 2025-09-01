@@ -398,15 +398,12 @@ enum
 class
 SdpMungingOutcome
 {
-kNoMunge
-=
-0
 kAccepted
 =
-1
+0
 kRejected
 =
-2
+1
 kMaxValue
 =
 kRejected
