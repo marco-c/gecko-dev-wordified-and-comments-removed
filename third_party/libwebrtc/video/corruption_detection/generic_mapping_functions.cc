@@ -21,6 +21,17 @@ api
 /
 video
 /
+corruption_detection_filter_settings
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
 video_codec_type
 .
 h

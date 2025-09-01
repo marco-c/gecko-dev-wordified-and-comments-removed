@@ -10,7 +10,7 @@ h
 #
 include
 <
-algorithm
+cstdint
 >
 namespace
 webrtc

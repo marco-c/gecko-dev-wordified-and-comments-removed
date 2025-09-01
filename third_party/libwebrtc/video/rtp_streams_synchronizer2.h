@@ -7,6 +7,11 @@ VIDEO_RTP_STREAMS_SYNCHRONIZER2_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -48,6 +53,15 @@ rtc_base
 task_utils
 /
 repeating_task
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "

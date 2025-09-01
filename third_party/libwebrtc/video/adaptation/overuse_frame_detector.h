@@ -7,7 +7,7 @@ VIDEO_ADAPTATION_OVERUSE_FRAME_DETECTOR_H_
 #
 include
 <
-list
+cstdint
 >
 #
 include
@@ -62,11 +62,11 @@ h
 #
 include
 "
-rtc_base
+api
 /
-experiments
+units
 /
-field_trial_parser
+time_delta
 .
 h
 "
@@ -75,9 +75,9 @@ include
 "
 rtc_base
 /
-numerics
+experiments
 /
-exp_filter
+field_trial_parser
 .
 h
 "

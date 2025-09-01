@@ -40,17 +40,6 @@ h
 #
 include
 "
-api
-/
-video
-/
-video_content_type
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 numerics

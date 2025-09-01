@@ -8725,10 +8725,10 @@ BUILD
 .
 gn
 index
-548442e193
+04ae5c23de
 .
 .
-3080b36b9f
+a75d992348
 100644
 -
 -
@@ -8834,10 +8834,10 @@ units
 data_rate
 "
 -
-423
+445
 7
 +
-423
+445
 7
 rtc_library
 (
@@ -8852,7 +8852,7 @@ video_stream_encoder_impl
 /
 api
 :
-make_ref_counted
+rtc_error
 "
 "
 .
@@ -8860,7 +8860,7 @@ make_ref_counted
 /
 api
 :
-rtc_error
+rtp_packet_info
 "
 "
 .

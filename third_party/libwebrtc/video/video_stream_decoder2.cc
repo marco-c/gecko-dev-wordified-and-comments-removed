@@ -44,6 +44,17 @@ include
 "
 api
 /
+video
+/
+video_sink_interface
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 video_decoder

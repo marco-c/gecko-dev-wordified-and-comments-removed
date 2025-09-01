@@ -46,6 +46,17 @@ api
 /
 video
 /
+corruption_detection_filter_settings
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
 i420_buffer
 .
 h

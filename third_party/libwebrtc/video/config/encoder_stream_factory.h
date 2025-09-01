@@ -7,7 +7,7 @@ VIDEO_CONFIG_ENCODER_STREAM_FACTORY_H_
 #
 include
 <
-string
+optional
 >
 #
 include
@@ -31,6 +31,17 @@ api
 units
 /
 data_rate
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
+resolution
 .
 h
 "

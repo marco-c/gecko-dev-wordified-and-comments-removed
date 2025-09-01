@@ -6,6 +6,16 @@ define
 VIDEO_ALIGNMENT_ADJUSTER_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 api
 /
