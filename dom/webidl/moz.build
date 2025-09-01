@@ -3384,6 +3384,11 @@ CSSGroupingRule
 webidl
 "
 "
+CSSImageValue
+.
+webidl
+"
+"
 CSSImportRule
 .
 webidl
