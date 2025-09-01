@@ -50,6 +50,13 @@ modules
 mod
 types
 ;
+pub
+use
+crate
+:
+:
+ConcurrencyMode
+;
 use
 crate
 :

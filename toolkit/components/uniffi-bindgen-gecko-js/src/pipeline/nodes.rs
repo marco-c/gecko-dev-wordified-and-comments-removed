@@ -215,6 +215,10 @@ field_name
 :
 String
 pub
+var_name
+:
+String
+pub
 ffi_value_class
 :
 String
@@ -433,6 +437,7 @@ pub
 enum
 CallbackMethodKind
 {
+Sync
 FireAndForget
 Async
 (
