@@ -226,7 +226,7 @@ MOZ_DXC_TARGET_ARCH
 -
 DCMAKE_BUILD_TYPE
 =
-Release
+RelWithDebInfo
 \
 -
 DLLVM_DISABLE_ASSEMBLY_FILES
@@ -356,6 +356,16 @@ the
 required
 target
 .
+#
+NOTE
+:
+This
+builds
+dxcompiler
+.
+pdb
+too
+.
 ninja
 dxcompiler
 .
@@ -375,6 +385,11 @@ bin
 dxcompiler
 .
 dll
+bin
+/
+dxcompiler
+.
+pdb
 dxc_folder
 mkdir
 -
