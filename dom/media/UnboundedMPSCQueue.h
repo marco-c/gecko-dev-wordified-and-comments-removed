@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_MPSCQueue_h
+mozilla_dom_UnboundedMPSCQueue_h
 #
 define
-mozilla_dom_MPSCQueue_h
+mozilla_dom_UnboundedMPSCQueue_h
 namespace
 mozilla
 {
@@ -29,7 +29,7 @@ typename
 T
 >
 class
-MPSCQueue
+UnboundedMPSCQueue
 {
 public
 :
@@ -89,7 +89,7 @@ data
 ;
 }
 ;
-MPSCQueue
+UnboundedMPSCQueue
 (
 )
 :
@@ -115,7 +115,7 @@ memory_order_relaxed
 {
 }
 ~
-MPSCQueue
+UnboundedMPSCQueue
 (
 )
 {
@@ -155,7 +155,7 @@ front
 void
 Push
 (
-MPSCQueue
+UnboundedMPSCQueue
 <
 T
 >
@@ -295,10 +295,10 @@ Message
 >
 mTail
 ;
-MPSCQueue
+UnboundedMPSCQueue
 (
 const
-MPSCQueue
+UnboundedMPSCQueue
 &
 )
 =
@@ -309,7 +309,7 @@ operator
 =
 (
 const
-MPSCQueue
+UnboundedMPSCQueue
 &
 )
 =
