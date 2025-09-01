@@ -296,7 +296,7 @@ reclient
 :
 reclient_props
 "
-biuld
+build
 /
 siso
 "
