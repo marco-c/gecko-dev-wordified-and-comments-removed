@@ -5,15 +5,6 @@ MockCubeb
 .
 h
 "
-#
-include
-"
-gtest
-/
-gtest
-.
-h
-"
 namespace
 mozilla
 {
@@ -2926,12 +2917,8 @@ aCollection
 #
 ifdef
 ANDROID
-EXPECT_TRUE
+MOZ_ASSERT_UNREACHABLE
 (
-false
-)
-<
-<
 "
 This
 is
@@ -2943,6 +2930,7 @@ on
 Android
 .
 "
+)
 ;
 #
 endif
