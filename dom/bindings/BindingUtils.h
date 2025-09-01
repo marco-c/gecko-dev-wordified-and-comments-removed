@@ -15442,9 +15442,8 @@ IsGlobalWithXPConnect
 std
 :
 :
-integral_constant
+disjunction
 <
-bool
 std
 :
 :
@@ -15453,11 +15452,6 @@ is_base_of
 nsGlobalWindowInner
 T
 >
-:
-:
-value
-|
-|
 std
 :
 :
@@ -15466,9 +15460,6 @@ is_base_of
 MessageManagerGlobal
 T
 >
-:
-:
-value
 >
 ;
 template
