@@ -643,9 +643,7 @@ uint32_t
 ClampedHardwareConcurrency
 (
 bool
-aRFPHardcoded
-bool
-aRFPTiered
+aShouldResistFingerprinting
 )
 const
 ;

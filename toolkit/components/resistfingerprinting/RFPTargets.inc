@@ -365,11 +365,6 @@ MaxTouchPointsCollapse
 )
 ITEM_VALUE
 (
-NavigatorHWConcurrencyTiered
-74
-)
-ITEM_VALUE
-(
 IsAlwaysEnabledForPrecompute
 0
 )
