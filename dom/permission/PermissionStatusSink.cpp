@@ -68,13 +68,6 @@ WorkerRef
 .
 h
 "
-#
-include
-"
-nsGlobalWindowInner
-.
-h
-"
 namespace
 mozilla
 :

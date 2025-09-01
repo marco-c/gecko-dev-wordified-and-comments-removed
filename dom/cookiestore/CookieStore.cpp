@@ -142,7 +142,11 @@ h
 #
 include
 "
-nsGlobalWindowInner
+mozilla
+/
+net
+/
+NeckoChannelParams
 .
 h
 "

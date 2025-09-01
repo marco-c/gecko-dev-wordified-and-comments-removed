@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsICookieNotification
 .
 h

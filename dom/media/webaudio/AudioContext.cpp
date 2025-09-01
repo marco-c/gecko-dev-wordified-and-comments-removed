@@ -616,13 +616,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

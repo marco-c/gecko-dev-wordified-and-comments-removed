@@ -64,7 +64,11 @@ h
 #
 include
 "
-nsGlobalWindowInner
+mozilla
+/
+net
+/
+CookieCommons
 .
 h
 "

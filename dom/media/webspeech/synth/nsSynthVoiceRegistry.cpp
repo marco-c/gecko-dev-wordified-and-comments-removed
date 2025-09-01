@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsISpeechService
 .
 h
@@ -166,13 +159,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsSynthVoiceRegistry
 .
 h
 "

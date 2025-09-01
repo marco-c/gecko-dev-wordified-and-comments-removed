@@ -23,13 +23,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsGlobalWindowInner
-.
-h
-"
 namespace
 mozilla
 :

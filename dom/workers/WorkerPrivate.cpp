@@ -693,17 +693,6 @@ mozilla
 /
 dom
 /
-TimeoutManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 UseCounterMetrics
 .
 h
