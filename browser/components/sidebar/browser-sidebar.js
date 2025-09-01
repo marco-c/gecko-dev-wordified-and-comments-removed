@@ -10847,7 +10847,7 @@ this
 .
 sidebarMain
 .
-buttonGroup
+buttonsWrapper
 .
 style
 .
