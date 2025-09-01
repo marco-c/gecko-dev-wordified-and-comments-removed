@@ -329,9 +329,7 @@ telemetry
 .
 glean
 .
-internal
-.
-TimerId
+GleanTimerId
 import
 org
 .
@@ -634,7 +632,7 @@ searchState
 MutableMap
 <
 String
-TimerId
+GleanTimerId
 >
 =
 mutableMapOf

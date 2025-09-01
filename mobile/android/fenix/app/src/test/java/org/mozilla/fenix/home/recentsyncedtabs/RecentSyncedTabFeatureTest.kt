@@ -389,7 +389,7 @@ telemetry
 .
 glean
 .
-internal
+testing
 .
 ErrorType
 import

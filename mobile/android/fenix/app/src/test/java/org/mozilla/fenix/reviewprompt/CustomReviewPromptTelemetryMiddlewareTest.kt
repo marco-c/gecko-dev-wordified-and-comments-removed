@@ -95,7 +95,7 @@ telemetry
 .
 glean
 .
-internal
+private
 .
 RecordedEvent
 import

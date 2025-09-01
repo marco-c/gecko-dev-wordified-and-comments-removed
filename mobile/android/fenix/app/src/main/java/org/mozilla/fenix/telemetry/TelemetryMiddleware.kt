@@ -303,9 +303,7 @@ telemetry
 .
 glean
 .
-internal
-.
-TimerId
+GleanTimerId
 import
 mozilla
 .
@@ -537,7 +535,7 @@ id
 ]
 &
 [
-TimerId
+GleanTimerId
 ]
 .
 *
@@ -545,7 +543,7 @@ param
 timerId
 The
 [
-TimerId
+GleanTimerId
 ]
 for
 the
@@ -607,7 +605,7 @@ searchState
 MutableMap
 <
 String
-TimerId
+GleanTimerId
 >
 =
 mutableMapOf
@@ -617,7 +615,7 @@ private
 val
 timerId
 :
-TimerId
+GleanTimerId
 =
 Metrics
 .
