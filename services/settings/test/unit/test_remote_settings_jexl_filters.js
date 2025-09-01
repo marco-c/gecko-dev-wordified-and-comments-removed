@@ -149,7 +149,7 @@ no
 jexl
 "
 {
-filterFunc
+filterCreator
 :
 null
 }

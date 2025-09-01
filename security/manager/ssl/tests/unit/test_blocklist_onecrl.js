@@ -173,7 +173,7 @@ deepEqual
 (
 OneCRLBlocklistClient
 .
-filterFunc
+filterCreator
 RemoteSettings
 (
 "
@@ -183,7 +183,7 @@ specified
 "
 )
 .
-filterFunc
+filterCreator
 )
 ;
 }
