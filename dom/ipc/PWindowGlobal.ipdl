@@ -540,11 +540,15 @@ RawMessage
 (
 JSActorMessageMeta
 aMetadata
+UniquePtr
+<
 ClonedMessageData
-?
+>
 aData
+UniquePtr
+<
 ClonedMessageData
-?
+>
 aStack
 )
 ;

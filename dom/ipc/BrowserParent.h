@@ -1273,10 +1273,13 @@ ClonedMessageData
 aData
 nsTArray
 <
+UniquePtr
+<
 ipc
 :
 :
 StructuredCloneData
+>
 >
 *
 aRetVal
@@ -3264,10 +3267,13 @@ StructuredCloneData
 aData
 nsTArray
 <
+UniquePtr
+<
 ipc
 :
 :
 StructuredCloneData
+>
 >
 *
 aJSONRetVal
