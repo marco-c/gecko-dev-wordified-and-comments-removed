@@ -1800,13 +1800,7 @@ VIXL_UNREACHABLE
 )
 ;
 return
-static_cast
-<
-float
->
-(
 value
-)
 ;
 }
 double

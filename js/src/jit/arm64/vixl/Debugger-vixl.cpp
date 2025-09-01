@@ -4990,7 +4990,10 @@ js_new
 RegisterToken
 >
 (
-XRegister
+Register
+:
+:
+XRegFromCode
 (
 i
 )
@@ -5041,7 +5044,10 @@ js_new
 RegisterToken
 >
 (
-WRegister
+Register
+:
+:
+WRegFromCode
 (
 i
 )
@@ -5222,7 +5228,10 @@ s
 :
 fpreg
 =
-SRegister
+VRegister
+:
+:
+SRegFromCode
 (
 static_cast
 <
@@ -5242,7 +5251,10 @@ d
 :
 fpreg
 =
-DRegister
+VRegister
+:
+:
+DRegFromCode
 (
 static_cast
 <
