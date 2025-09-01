@@ -38,6 +38,9 @@ neg
 reciprocal
 '
 '
+roundEven
+'
+'
 sign
 '
 '
