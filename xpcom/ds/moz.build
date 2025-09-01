@@ -329,13 +329,6 @@ h
 "
 "
 nsTArray
--
-inl
-.
-h
-"
-"
-nsTArray
 .
 h
 "
