@@ -36,6 +36,7 @@ visit_file_mut
 (
 file
 )
+;
 }
 struct
 Visitor
@@ -72,6 +73,7 @@ visit_file_mut
 self
 file
 )
+;
 }
 fn
 visit_item_mod_mut
@@ -113,6 +115,7 @@ visit_item_mod_mut
 self
 item_mod
 )
+;
 }
 }
 fn

@@ -213,9 +213,6 @@ BINDGEN_EXTRA_CLANG_ARGS_
 {
 }
 "
-std
-:
-:
 env
 :
 :
@@ -249,9 +246,6 @@ BINDGEN_EXTRA_CLANG_ARGS_
 {
 }
 "
-std
-:
-:
 env
 :
 :

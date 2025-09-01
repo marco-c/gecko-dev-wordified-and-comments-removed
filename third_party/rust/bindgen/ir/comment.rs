@@ -30,9 +30,6 @@ str
 String
 {
 match
-self
-:
-:
 kind
 (
 comment
@@ -319,9 +316,8 @@ last
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 l
 |

@@ -11,6 +11,9 @@ use
 crate
 :
 :
+regex_set
+:
+:
 RegexSet
 ;
 pub

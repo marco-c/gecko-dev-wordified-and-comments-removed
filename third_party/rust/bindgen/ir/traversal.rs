@@ -705,6 +705,7 @@ dangling
 id
 =
 {
+item
 :
 ?
 }
@@ -713,12 +714,11 @@ nvia
 path
 =
 {
+path
 :
 ?
 }
 "
-item
-path
 )
 ;
 }
@@ -939,6 +939,7 @@ self
 item
 kind
 )
+;
 }
 }
 pub
@@ -1249,6 +1250,7 @@ push
 (
 item
 )
+;
 }
 }
 }

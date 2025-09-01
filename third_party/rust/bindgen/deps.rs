@@ -179,11 +179,11 @@ format
 (
 "
 {
+buf
 }
 {
 }
 "
-buf
 escape
 (
 file

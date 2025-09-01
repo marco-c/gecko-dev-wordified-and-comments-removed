@@ -383,6 +383,8 @@ attr_array
 .
 mArray
 .
+0
+.
 as_ptr
 (
 )

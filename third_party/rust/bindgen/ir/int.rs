@@ -38,6 +38,7 @@ I8
 U8
 I16
 U16
+Char16
 I32
 U32
 I64
@@ -103,6 +104,8 @@ U8
 |
 U16
 |
+Char16
+|
 WChar
 |
 U32
@@ -139,9 +142,7 @@ Char
 {
 is_signed
 }
-=
->
-is_signed
+|
 Custom
 {
 is_signed
@@ -206,6 +207,8 @@ Char
 U16
 |
 I16
+|
+Char16
 =
 >
 2

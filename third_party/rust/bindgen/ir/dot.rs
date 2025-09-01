@@ -87,9 +87,6 @@ Result
 where
 W
 :
-io
-:
-:
 Write
 ;
 }
@@ -291,8 +288,6 @@ writeln
 &
 mut
 dot_file
-r
-#
 "
 <
 /
@@ -302,7 +297,6 @@ table
 ]
 ;
 "
-#
 )
 ?
 ;
@@ -348,6 +342,7 @@ dot_file
 label
 =
 {
+edge_kind
 :
 ?
 }
@@ -368,7 +363,6 @@ sub_id
 as_usize
 (
 )
-edge_kind
 if
 is_allowlisted
 {

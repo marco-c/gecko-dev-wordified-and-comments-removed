@@ -339,6 +339,7 @@ format
 }
 _
 {
+cat
 }
 "
 self
@@ -346,7 +347,6 @@ self
 name
 (
 )
-cat
 )
 }
 else
@@ -662,6 +662,7 @@ Interface
 conforms
 to
 {
+needle
 }
 find
 the
@@ -670,7 +671,6 @@ item
 interface
 .
 name
-needle
 )
 ;
 for
@@ -768,11 +768,11 @@ Found
 conforming
 protocol
 {
+item
 :
 ?
 }
 "
-item
 )
 ;
 interface
@@ -1219,10 +1219,10 @@ format
 (
 "
 {
+name
 }
 _
 "
-name
 )
 Span
 :
@@ -1294,9 +1294,9 @@ format
 r
 #
 {
+name
 }
 "
-name
 )
 )
 .
@@ -1332,10 +1332,10 @@ format
 (
 "
 {
+name
 }
 _
 "
-name
 )
 )
 .
@@ -1400,7 +1400,7 @@ name
 }
 ;
 }
-assert
+assert_eq
 !
 (
 args
@@ -1408,8 +1408,6 @@ args
 len
 (
 )
-=
-=
 split_name
 .
 len
@@ -1427,17 +1425,17 @@ for
 objc
 method
 {
+args
 :
 ?
 }
 vs
 {
+split_name
 :
 ?
 }
 "
-args
-split_name
 )
 ;
 let
@@ -1453,10 +1451,6 @@ for
 arg
 in
 args
-.
-iter
-(
-)
 {
 let
 arg
@@ -1514,6 +1508,7 @@ call_site
 )
 )
 )
+;
 }
 let
 args
