@@ -295,6 +295,18 @@ compose
 .
 base
 .
+snackbar
+.
+displaySnackbar
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
 utils
 .
 inComposePreview
@@ -693,7 +705,7 @@ launch
 {
 snackbarState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =

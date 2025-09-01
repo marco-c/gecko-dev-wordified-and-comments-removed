@@ -495,6 +495,18 @@ coroutines
 .
 launch
 import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
+snackbar
+.
+displaySnackbar
+import
 org
 .
 mozilla
@@ -1783,7 +1795,7 @@ launch
 {
 snackbarState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =
@@ -1828,7 +1840,7 @@ launch
 {
 snackbarState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =
@@ -1872,7 +1884,7 @@ launch
 {
 snackbarState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =
@@ -1891,7 +1903,7 @@ launch
 {
 snackbarState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =

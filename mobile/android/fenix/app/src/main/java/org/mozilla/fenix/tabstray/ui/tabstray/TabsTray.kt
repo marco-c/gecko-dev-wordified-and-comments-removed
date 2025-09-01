@@ -374,6 +374,18 @@ mozilla
 .
 components
 .
+compose
+.
+base
+.
+snackbar
+.
+displaySnackbar
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -2695,7 +2707,7 @@ launch
 {
 snackbarHostState
 .
-showSnackbar
+displaySnackbar
 (
 visuals
 =
@@ -2862,7 +2874,7 @@ launch
 {
 snackbarHostState
 .
-showSnackbar
+displaySnackbar
 (
 visuals
 =
@@ -2935,7 +2947,7 @@ launch
 {
 snackbarHostState
 .
-showSnackbar
+displaySnackbar
 (
 visuals
 =
@@ -2968,7 +2980,7 @@ launch
 {
 snackbarHostState
 .
-showSnackbar
+displaySnackbar
 (
 visuals
 =

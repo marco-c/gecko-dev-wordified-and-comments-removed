@@ -453,6 +453,18 @@ compose
 .
 base
 .
+snackbar
+.
+displaySnackbar
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
 textfield
 .
 TextField
@@ -1882,7 +1894,7 @@ launch
 {
 snackbarHostState
 .
-showSnackbar
+displaySnackbar
 (
 message
 =
