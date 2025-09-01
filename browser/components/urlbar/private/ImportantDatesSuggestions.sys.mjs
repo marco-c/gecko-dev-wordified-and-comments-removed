@@ -334,9 +334,10 @@ dynamicRustSuggestionTypes
 ]
 ;
 }
+async
 makeResult
 (
-queryContext
+_queryContext
 suggestion
 _searchString
 )
