@@ -25,6 +25,17 @@ flat_tree
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+containers
+/
+identity
+.
+h
+"
 namespace
 webrtc
 {
