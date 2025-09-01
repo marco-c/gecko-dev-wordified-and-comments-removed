@@ -663,7 +663,10 @@ to_string
 )
 ;
 let
+(
 server
+local_addrs
+)
 =
 runtime
 .
@@ -674,7 +677,7 @@ async
 server
 :
 :
-server
+run
 (
 args
 )
@@ -689,11 +692,7 @@ addr_sender
 .
 send
 (
-server
-.
-local_addresses
-(
-)
+local_addrs
 .
 into_iter
 (
@@ -732,10 +731,6 @@ Box
 pin
 (
 server
-.
-run
-(
-)
 )
 ;
 tokio

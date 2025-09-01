@@ -99,7 +99,7 @@ Negotiated
 (
 bool
 )
-Session
+NewSession
 {
 stream_id
 :
@@ -675,7 +675,7 @@ WebTransport
 WebTransportEvent
 :
 :
-Session
+NewSession
 {
 stream_id
 status

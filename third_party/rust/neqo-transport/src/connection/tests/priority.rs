@@ -1434,7 +1434,7 @@ stats_before
 .
 crypto
 +
-2
+1
 )
 ;
 assert_eq
@@ -1699,7 +1699,7 @@ stats_before
 .
 crypto
 +
-2
+1
 )
 ;
 assert_eq
@@ -1989,7 +1989,7 @@ stats_before
 .
 crypto
 +
-2
+1
 )
 ;
 assert_eq

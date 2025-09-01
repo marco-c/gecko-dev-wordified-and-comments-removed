@@ -139,7 +139,6 @@ Values
 for
 HTTP
 sfv
-crate
 is
 an
 implementation
@@ -156,7 +155,7 @@ specified
 in
 [
 RFC
-8941
+9651
 ]
 (
 https
@@ -169,7 +168,7 @@ org
 /
 specs
 /
-rfc8941
+rfc9651
 .
 html
 )

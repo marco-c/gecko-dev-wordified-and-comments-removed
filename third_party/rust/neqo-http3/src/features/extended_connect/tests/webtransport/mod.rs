@@ -1168,7 +1168,7 @@ WebTransport
 WebTransportEvent
 :
 :
-Session
+NewSession
 {
 stream_id
 status

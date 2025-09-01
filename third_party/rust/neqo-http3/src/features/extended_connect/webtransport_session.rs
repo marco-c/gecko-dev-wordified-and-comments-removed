@@ -118,7 +118,7 @@ PartialEq
 )
 ]
 enum
-SessionState
+State
 {
 Negotiating
 Active
@@ -126,7 +126,7 @@ FinPending
 Done
 }
 impl
-SessionState
+State
 {
 pub
 const
@@ -165,7 +165,7 @@ Debug
 ]
 pub
 struct
-WebTransportSession
+Session
 {
 control_stream_recv
 :
@@ -187,15 +187,15 @@ Rc
 <
 RefCell
 <
-WebTransportSessionListener
+Listener
 >
 >
-session_id
+id
 :
 StreamId
 state
 :
-SessionState
+State
 frame_reader
 :
 FrameReader
@@ -225,7 +225,7 @@ Role
 impl
 Display
 for
-WebTransportSession
+Session
 {
 fn
 fmt
@@ -258,12 +258,12 @@ session
 "
 self
 .
-session_id
+id
 )
 }
 }
 impl
-WebTransportSession
+Session
 {
 #
 [
@@ -328,7 +328,7 @@ RefCell
 :
 new
 (
-WebTransportSessionListener
+Listener
 :
 :
 default
@@ -443,10 +443,12 @@ stream_event_listener
 )
 )
 stream_event_listener
+id
+:
 session_id
 state
 :
-SessionState
+State
 :
 :
 Negotiating
@@ -532,7 +534,7 @@ RefCell
 :
 new
 (
-WebTransportSessionListener
+Listener
 :
 :
 default
@@ -614,10 +616,12 @@ Self
 control_stream_recv
 control_stream_send
 stream_event_listener
+id
+:
 session_id
 state
 :
-SessionState
+State
 :
 :
 Active
@@ -792,7 +796,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Done
@@ -889,7 +893,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Done
@@ -1041,7 +1045,7 @@ self
 .
 state
 =
-SessionState
+State
 :
 :
 Done
@@ -1086,7 +1090,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Done
@@ -1129,7 +1133,7 @@ self
 .
 state
 =
-SessionState
+State
 :
 :
 Done
@@ -1154,7 +1158,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1184,7 +1188,7 @@ Res
 >
 {
 if
-SessionState
+State
 :
 :
 Negotiating
@@ -1263,7 +1267,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1291,7 +1295,7 @@ self
 .
 state
 =
-SessionState
+State
 :
 :
 Done
@@ -1396,7 +1400,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1420,7 +1424,7 @@ headers
 )
 )
 ;
-SessionState
+State
 :
 :
 Done
@@ -1439,12 +1443,12 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 status
 headers
 )
 ;
-SessionState
+State
 :
 :
 Active
@@ -1464,7 +1468,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1478,7 +1482,7 @@ headers
 )
 )
 ;
-SessionState
+State
 :
 :
 Done
@@ -1517,7 +1521,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Active
@@ -1613,7 +1617,7 @@ get_stream_type
 (
 self
 .
-session_id
+id
 )
 )
 )
@@ -1695,7 +1699,7 @@ matches
 self
 .
 state
-SessionState
+State
 :
 :
 Active
@@ -1866,7 +1870,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1885,14 +1889,14 @@ state
 if
 fin
 {
-SessionState
+State
 :
 :
 Done
 }
 else
 {
-SessionState
+State
 :
 :
 FinPending
@@ -1915,7 +1919,7 @@ ExtendedConnectType
 WebTransport
 self
 .
-session_id
+id
 SessionCloseReason
 :
 :
@@ -1940,7 +1944,7 @@ self
 .
 state
 =
-SessionState
+State
 :
 :
 Done
@@ -1984,7 +1988,7 @@ self
 .
 state
 =
-SessionState
+State
 :
 :
 Done
@@ -2065,14 +2069,14 @@ done
 (
 )
 {
-SessionState
+State
 :
 :
 Done
 }
 else
 {
-SessionState
+State
 :
 :
 FinPending
@@ -2184,7 +2188,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Active
@@ -2206,7 +2210,7 @@ encode_varint
 (
 self
 .
-session_id
+id
 .
 as_u64
 (
@@ -2280,7 +2284,7 @@ self
 state
 =
 =
-SessionState
+State
 :
 :
 Active
@@ -2293,7 +2297,7 @@ new_datagram
 (
 self
 .
-session_id
+id
 datagram
 )
 ;
@@ -2307,7 +2311,7 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+Session
 >
 >
 {
@@ -2334,7 +2338,7 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+Session
 >
 >
 {
@@ -2442,7 +2446,7 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+Session
 >
 >
 >
@@ -2466,7 +2470,7 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+Session
 >
 >
 {
@@ -2588,7 +2592,7 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+Session
 >
 >
 {
@@ -2815,7 +2819,7 @@ Default
 )
 ]
 struct
-WebTransportSessionListener
+Listener
 {
 headers
 :
@@ -2832,7 +2836,7 @@ bool
 >
 }
 impl
-WebTransportSessionListener
+Listener
 {
 fn
 set_headers
@@ -2910,7 +2914,7 @@ Rc
 <
 RefCell
 <
-WebTransportSessionListener
+Listener
 >
 >
 {
@@ -2922,7 +2926,7 @@ Rc
 <
 RefCell
 <
-WebTransportSessionListener
+Listener
 >
 >
 {
@@ -2979,7 +2983,7 @@ Rc
 <
 RefCell
 <
-WebTransportSessionListener
+Listener
 >
 >
 {

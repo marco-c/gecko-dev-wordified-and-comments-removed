@@ -125,9 +125,9 @@ version
 "
 0
 .
-14
+15
 .
-1
+0
 "
 authors
 =
@@ -912,11 +912,6 @@ semicolon_inside_block
 warn
 "
 string_lit_chars_any
-=
-"
-warn
-"
-string_to_string
 =
 "
 warn

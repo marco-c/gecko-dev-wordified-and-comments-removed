@@ -107,9 +107,6 @@ extended_connect
 :
 {
 webtransport_session
-:
-:
-WebTransportSession
 webtransport_streams
 :
 :
@@ -620,6 +617,9 @@ role
 }
 }
 pub
+(
+crate
+)
 fn
 set_features_listener
 (
@@ -881,6 +881,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 stream_has_pending_data
 (
@@ -903,6 +906,9 @@ stream_id
 ;
 }
 pub
+(
+crate
+)
 fn
 has_data_to_send
 (
@@ -1065,6 +1071,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 process_sending
 (
@@ -1189,6 +1198,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 set_0rtt_settings
 (
@@ -1257,6 +1269,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 get_settings
 (
@@ -1300,6 +1315,9 @@ None
 }
 }
 pub
+(
+crate
+)
 fn
 add_new_stream
 (
@@ -1583,6 +1601,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 handle_stream_readable
 (
@@ -1800,6 +1821,9 @@ already
 }
 }
 pub
+(
+crate
+)
 fn
 handle_stream_reset
 (
@@ -1868,6 +1892,9 @@ conn
 )
 }
 pub
+(
+crate
+)
 fn
 handle_stream_stop_sending
 (
@@ -1958,6 +1985,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 handle_state_change
 (
@@ -2267,6 +2297,9 @@ false
 }
 }
 pub
+(
+crate
+)
 fn
 handle_zero_rtt_rejected
 (
@@ -2449,6 +2482,9 @@ HttpInternal
 }
 }
 pub
+(
+crate
+)
 fn
 handle_datagram
 (
@@ -5034,7 +5070,10 @@ RefCell
 :
 new
 (
-WebTransportSession
+webtransport_session
+:
+:
+Session
 :
 :
 new
@@ -5552,7 +5591,10 @@ RefCell
 :
 new
 (
-WebTransportSession
+webtransport_session
+:
+:
+Session
 :
 :
 new_with_http_streams
@@ -5823,6 +5865,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 webtransport_create_stream_local
 (
@@ -5996,6 +6041,9 @@ stream_id
 )
 }
 pub
+(
+crate
+)
 fn
 webtransport_create_stream_remote
 (
@@ -6118,7 +6166,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 stream_id
@@ -6972,6 +7023,9 @@ HttpFrameUnexpected
 }
 }
 pub
+(
+crate
+)
 fn
 add_streams
 (
@@ -7036,6 +7090,9 @@ recv_stream
 ;
 }
 pub
+(
+crate
+)
 fn
 add_recv_stream
 (
@@ -7066,6 +7123,9 @@ recv_stream
 ;
 }
 pub
+(
+crate
+)
 fn
 queue_control_frame
 (
@@ -7089,6 +7149,9 @@ frame
 ;
 }
 pub
+(
+crate
+)
 fn
 queue_update_priority
 (
@@ -7419,7 +7482,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 conn

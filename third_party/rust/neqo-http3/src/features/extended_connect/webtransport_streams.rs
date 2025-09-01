@@ -34,7 +34,7 @@ use
 super
 :
 :
-WebTransportSession
+webtransport_session
 ;
 use
 crate
@@ -99,7 +99,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 session_id
@@ -135,7 +138,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 )
@@ -643,7 +649,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 session_id
@@ -676,7 +685,10 @@ Rc
 <
 RefCell
 <
-WebTransportSession
+webtransport_session
+:
+:
+Session
 >
 >
 local

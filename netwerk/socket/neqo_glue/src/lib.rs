@@ -351,7 +351,7 @@ neqo_udp
 RecvBuf
 :
 :
-new
+default
 (
 )
 )
@@ -7305,6 +7305,16 @@ InvalidCertificateCompressionID
 =
 >
 21
+neqo_crypto
+:
+:
+Error
+:
+:
+InvalidAlpn
+=
+>
+22
 }
 }
 #
@@ -9104,7 +9114,7 @@ n
 WebTransportEvent
 :
 :
-Session
+NewSession
 {
 stream_id
 status

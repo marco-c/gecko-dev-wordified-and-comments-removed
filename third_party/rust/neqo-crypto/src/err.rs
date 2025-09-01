@@ -436,6 +436,7 @@ u8
 Hkdf
 Internal
 IntegerOverflow
+InvalidAlpn
 InvalidEpoch
 InvalidCertificateCompressionID
 MixedHandshakeMethod
