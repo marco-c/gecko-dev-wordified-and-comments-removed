@@ -4992,11 +4992,6 @@ overriddenFingerprintingSettings
 loadingContext
 loadInfoArgs
 .
-loadingEmbedderPolicy
-(
-)
-loadInfoArgs
-.
 originTrialCoepCredentiallessEnabledForTopLevel
 (
 )
