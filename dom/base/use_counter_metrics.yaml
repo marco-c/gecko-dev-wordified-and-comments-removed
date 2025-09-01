@@ -814,7 +814,7 @@ counters
 #
 Total
 of
-2397
+2399
 use
 counter
 metrics
@@ -91985,7 +91985,7 @@ counters
 #
 Total
 of
-706
+707
 '
 CSS
 (
@@ -97571,7 +97571,7 @@ send_in_pings
 use
 -
 counters
-css_math_style
+css_math_shift
 :
 type
 :
@@ -97588,7 +97588,7 @@ CSS
 property
 math
 -
-style
+shift
 .
 Compare
 against
@@ -97665,7 +97665,7 @@ send_in_pings
 use
 -
 counters
-css_math_shift
+css_math_style
 :
 type
 :
@@ -97682,7 +97682,7 @@ CSS
 property
 math
 -
-shift
+style
 .
 Compare
 against
@@ -160020,7 +160020,7 @@ counters
 #
 Total
 of
-706
+707
 '
 CSS
 (
@@ -165606,7 +165606,7 @@ send_in_pings
 use
 -
 counters
-css_math_style
+css_math_shift
 :
 type
 :
@@ -165623,7 +165623,7 @@ CSS
 property
 math
 -
-style
+shift
 .
 Compare
 against
@@ -165700,7 +165700,7 @@ send_in_pings
 use
 -
 counters
-css_math_shift
+css_math_style
 :
 type
 :
@@ -165717,7 +165717,7 @@ CSS
 property
 math
 -
-shift
+style
 .
 Compare
 against
