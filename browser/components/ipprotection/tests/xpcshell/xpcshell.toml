@@ -51,6 +51,13 @@ js
 ]
 [
 "
+test_IPProtectionServerlist
+.
+js
+"
+]
+[
+"
 test_IPProtectionService
 .
 js

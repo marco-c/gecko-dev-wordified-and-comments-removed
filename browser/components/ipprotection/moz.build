@@ -63,6 +63,13 @@ sys
 mjs
 "
 "
+IPProtectionServerlist
+.
+sys
+.
+mjs
+"
+"
 IPProtectionService
 .
 sys
