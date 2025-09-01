@@ -776,7 +776,7 @@ entries
 }
 void
 *
-RealmIndependentSharedEntry
+SelfHostedSharedEntry
 :
 :
 canonicalNativeAddrFor
@@ -792,7 +792,7 @@ ptr
 ;
 }
 bool
-RealmIndependentSharedEntry
+SelfHostedSharedEntry
 :
 :
 callStackAtAddr
@@ -833,7 +833,7 @@ true
 ;
 }
 uint32_t
-RealmIndependentSharedEntry
+SelfHostedSharedEntry
 :
 :
 callStackAtAddr
@@ -1105,7 +1105,7 @@ isDummy
 entry
 -
 >
-isRealmIndependentShared
+isSelfHostedShared
 (
 )
 )
@@ -1803,10 +1803,10 @@ case
 Kind
 :
 :
-RealmIndependentShared
+SelfHostedShared
 :
 return
-asRealmIndependentShared
+asSelfHostedShared
 (
 )
 .
@@ -1911,10 +1911,10 @@ case
 Kind
 :
 :
-RealmIndependentShared
+SelfHostedShared
 :
 return
-asRealmIndependentShared
+asSelfHostedShared
 (
 )
 .
@@ -2050,10 +2050,10 @@ case
 Kind
 :
 :
-RealmIndependentShared
+SelfHostedShared
 :
 return
-asRealmIndependentShared
+asSelfHostedShared
 (
 )
 .
@@ -2223,7 +2223,7 @@ JitcodeGlobalEntry
 Kind
 :
 :
-RealmIndependentShared
+SelfHostedShared
 :
 js_delete
 (
@@ -2231,7 +2231,7 @@ js_delete
 entry
 -
 >
-asRealmIndependentShared
+asSelfHostedShared
 (
 )
 )
@@ -5359,7 +5359,7 @@ if
 (
 entry_
 .
-isRealmIndependentShared
+isSelfHostedShared
 (
 )
 )
