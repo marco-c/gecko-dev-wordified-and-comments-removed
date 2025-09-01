@@ -1528,7 +1528,7 @@ unit
 ref
 .
 html
-fuzzy
+fails
 -
 if
 (
@@ -1543,12 +1543,6 @@ test
 (
 AndroidVersion
 )
-255
--
-255
-5167
--
-5167
 )
 fuzzy
 -
@@ -1580,7 +1574,7 @@ html
 Android
 Bug
 1983250
-fuzzy
+fails
 -
 if
 (
@@ -1595,12 +1589,6 @@ test
 (
 AndroidVersion
 )
-255
--
-255
-3623
--
-3632
 )
 =
 =
