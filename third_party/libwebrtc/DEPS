@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-079e22aa7b3daddaf84220019be50468ae1d5d7e
+a543dd4ebed1c7abc66739418691b8392fc9cca7
 '
 #
 Fetch
@@ -257,9 +257,9 @@ fuchsia_version
 '
 version
 :
-27
+28
 .
-20250501
+20250508
 .
 3
 .
@@ -588,7 +588,7 @@ chromium
 src
 /
 base
-d978a5cb7a04d54ae8ccfc2e15f77035cfe09e84
+d20957e106d7e5274e7d635c42844ed07651822f
 '
 '
 src
@@ -732,7 +732,7 @@ chromium
 src
 /
 ios
-90aa42cfb54d0b710925645ecff1e4e03876fe2b
+0ec92f3b3d6944e8c440720453be2d0ec4c79a3d
 '
 '
 condition
@@ -788,7 +788,7 @@ chromium
 src
 /
 third_party
-98759af37e9e2a993dbb134139ca0b059d27fa18
+cb05a5b3b1f60b4d4e2d60a9f4f8c1503122df94
 '
 '
 src
@@ -4088,7 +4088,7 @@ grpc
 grpc
 .
 git
-116820911e0a0775f3e1be92a6e0896d0c0d61d4
+e21fb6701eba9e55f33b427d82010b8f8ce857d7
 '
 }
 #
@@ -5047,7 +5047,7 @@ git
 '
 +
 '
-f4cde1b052fd591a5c50fe11dbcda61c51c4cccf
+e2d7750acd15d57c6c88e3c8fb8c5a45f424ba96
 '
 '
 src
@@ -5414,13 +5414,9 @@ version
 '
 :
 '
-Is
+UDiEQW04Q7U0lSlAQAik0xbIV
 -
-oa6b7OQ1cVHjvG42iz
--
-Lha
--
-F3MBxBBIyC_eTMTg4C
+AdjAnCHl7GcecroU4C
 '
 }
 ]
@@ -5596,7 +5592,7 @@ chromium
 src
 /
 tools
-db4ac9ca2d95f8cc419fdb252e583dae6f8b950e
+779ed26f147aae6da64703617484084a7db117db
 '
 '
 src
@@ -5789,9 +5785,7 @@ version
 '
 :
 '
-a1d
--
-sHWq2y1nFvYwrBfZHKtnwQXeYeyJXaK6H_dKEtQC
+0kpSWsOkTy_kz_7BrmXaMj0RWlcTCIC9WOKWl3eSM4cC
 '
 }
 ]
