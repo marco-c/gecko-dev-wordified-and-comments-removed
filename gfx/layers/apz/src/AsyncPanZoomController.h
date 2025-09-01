@@ -3055,7 +3055,7 @@ GenericScrollAnimation
 ;
 friend
 class
-WheelScrollAnimation
+SmoothScrollAnimation
 ;
 friend
 class
