@@ -1110,12 +1110,6 @@ DAY_IN_MINUTES
 24
 *
 60L
-SuppressLint
-(
-"
-NewApi
-"
-)
 Suppress
 (
 "

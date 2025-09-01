@@ -1467,14 +1467,6 @@ numberOfAppLaunches
 }
 )
 }
-delegate
-:
-SuppressLint
-(
-"
-NewApi
-"
-)
 val
 autofillConfiguration
 by
