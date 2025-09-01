@@ -2633,8 +2633,6 @@ wallpaper
 -
 error
 -
-upload
--
 file
 -
 type
@@ -2650,9 +2648,9 @@ Please
 try
 again
 with
-an
-image
+different
 file
+type
 .
 newtab
 -
