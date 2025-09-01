@@ -185,6 +185,11 @@ GetNavigationState
 )
 const
 ;
+void
+ResetIndexForDisposal
+(
+)
+;
 private
 :
 ~
