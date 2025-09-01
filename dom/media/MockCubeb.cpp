@@ -2762,6 +2762,11 @@ mRunningMode
 aRunningMode
 )
 {
+(
+void
+)
+ops
+;
 }
 MockCubeb
 :
