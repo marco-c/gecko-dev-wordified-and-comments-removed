@@ -104,13 +104,6 @@ webm
 ]
 [
 "
-browser_about_glean
-.
-js
-"
-]
-[
-"
 browser_about_logging
 .
 js
