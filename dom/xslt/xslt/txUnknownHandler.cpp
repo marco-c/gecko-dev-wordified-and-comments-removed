@@ -784,6 +784,9 @@ createHandlerWith
 format
 aName
 aNsID
+mozilla
+:
+:
 getter_Transfers
 (
 handler
