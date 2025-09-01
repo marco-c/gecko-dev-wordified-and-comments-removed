@@ -204,8 +204,9 @@ extension
 .
 *
 /
+export
 class
-ProviderOmnibox
+UrlbarProviderOmnibox
 extends
 UrlbarProvider
 {
@@ -749,9 +750,8 @@ queryContext
 isPrivate
 }
 ;
-this
-.
-_resultsPromise
+let
+resultsPromise
 =
 lazy
 .
@@ -988,9 +988,7 @@ race
 (
 [
 timeoutPromise
-this
-.
-_resultsPromise
+resultsPromise
 ]
 )
 .
@@ -1066,12 +1064,3 @@ result
 }
 }
 }
-export
-var
-UrlbarProviderOmnibox
-=
-new
-ProviderOmnibox
-(
-)
-;

@@ -181,8 +181,9 @@ provider
 .
 *
 /
+export
 class
-ProviderRestrictKeywords
+UrlbarProviderRestrictKeywords
 extends
 UrlbarProvider
 {
@@ -420,12 +421,3 @@ result
 }
 }
 }
-export
-var
-UrlbarProviderRestrictKeywords
-=
-new
-ProviderRestrictKeywords
-(
-)
-;

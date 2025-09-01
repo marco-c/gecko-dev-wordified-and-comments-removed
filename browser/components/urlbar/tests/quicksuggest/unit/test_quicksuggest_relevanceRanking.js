@@ -1885,6 +1885,18 @@ applyRanking
 suggestions
 )
 {
+let
+quickSuggestProviderInstance
+=
+UrlbarProvidersManager
+.
+getProvider
+(
+UrlbarProviderQuickSuggest
+.
+name
+)
+;
 for
 (
 let
@@ -1894,7 +1906,7 @@ suggestions
 )
 {
 await
-UrlbarProviderQuickSuggest
+quickSuggestProviderInstance
 .
 _test_applyRanking
 (

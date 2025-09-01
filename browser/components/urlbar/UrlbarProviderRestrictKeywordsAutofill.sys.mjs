@@ -183,8 +183,9 @@ provider
 .
 *
 /
+export
 class
-ProviderRestrictKeywordsAutofill
+UrlbarProviderRestrictKeywordsAutofill
 extends
 UrlbarProvider
 {
@@ -1080,12 +1081,3 @@ null
 ;
 }
 }
-export
-var
-UrlbarProviderRestrictKeywordsAutofill
-=
-new
-ProviderRestrictKeywordsAutofill
-(
-)
-;

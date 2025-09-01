@@ -265,8 +265,9 @@ user
 .
 *
 /
+export
 class
-ProviderRecentSearches
+UrlbarProviderRecentSearches
 extends
 UrlbarProvider
 {
@@ -922,12 +923,3 @@ break
 }
 }
 }
-export
-var
-UrlbarProviderRecentSearches
-=
-new
-ProviderRecentSearches
-(
-)
-;

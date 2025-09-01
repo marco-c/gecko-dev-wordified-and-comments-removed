@@ -179,8 +179,9 @@ provider
 .
 *
 /
+export
 class
-ProviderHistoryUrlHeuristic
+UrlbarProviderHistoryUrlHeuristic
 extends
 UrlbarProvider
 {
@@ -828,12 +829,3 @@ true
 ;
 }
 }
-export
-var
-UrlbarProviderHistoryUrlHeuristic
-=
-new
-ProviderHistoryUrlHeuristic
-(
-)
-;

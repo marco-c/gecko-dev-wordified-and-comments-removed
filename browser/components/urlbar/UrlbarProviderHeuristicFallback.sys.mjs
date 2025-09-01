@@ -220,8 +220,9 @@ provider
 .
 *
 /
+export
 class
-ProviderHeuristicFallback
+UrlbarProviderHeuristicFallback
 extends
 UrlbarProvider
 {
@@ -2327,12 +2328,3 @@ undefined
 ;
 }
 }
-export
-var
-UrlbarProviderHeuristicFallback
-=
-new
-ProviderHeuristicFallback
-(
-)
-;

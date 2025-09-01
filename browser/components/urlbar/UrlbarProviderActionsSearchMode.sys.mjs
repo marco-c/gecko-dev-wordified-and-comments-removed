@@ -208,8 +208,9 @@ searchMode
 .
 *
 /
+export
 class
-ProviderActionsSearchMode
+UrlbarProviderActionsSearchMode
 extends
 UrlbarProvider
 {
@@ -551,12 +552,3 @@ true
 ;
 }
 }
-export
-var
-UrlbarProviderActionsSearchMode
-=
-new
-ProviderActionsSearchMode
-(
-)
-;

@@ -155,8 +155,9 @@ provider
 .
 *
 /
+export
 class
-ProviderBookmarkKeywords
+UrlbarProviderBookmarkKeywords
 extends
 UrlbarProvider
 {
@@ -615,12 +616,3 @@ result
 ;
 }
 }
-export
-var
-UrlbarProviderBookmarkKeywords
-=
-new
-ProviderBookmarkKeywords
-(
-)
-;

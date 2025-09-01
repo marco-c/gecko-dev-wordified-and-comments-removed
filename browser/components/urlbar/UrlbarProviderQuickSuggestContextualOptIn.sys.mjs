@@ -394,8 +394,9 @@ provider
 .
 *
 /
+export
 class
-ProviderQuickSuggestContextualOptIn
+UrlbarProviderQuickSuggestContextualOptIn
 extends
 UrlbarProvider
 {
@@ -1776,15 +1777,6 @@ interaction
 ;
 }
 }
-export
-var
-UrlbarProviderQuickSuggestContextualOptIn
-=
-new
-ProviderQuickSuggestContextualOptIn
-(
-)
-;
 initializeDynamicResult
 (
 )

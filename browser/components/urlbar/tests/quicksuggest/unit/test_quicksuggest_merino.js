@@ -3960,7 +3960,14 @@ triggerCommand
 {
 feature
 :
+UrlbarProvidersManager
+.
+getProvider
+(
 UrlbarProviderQuickSuggest
+.
+name
+)
 command
 :
 "

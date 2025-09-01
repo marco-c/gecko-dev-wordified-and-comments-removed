@@ -415,8 +415,9 @@ units
 .
 *
 /
+export
 class
-ProviderUnitConversion
+UrlbarProviderUnitConversion
 extends
 UrlbarProvider
 {
@@ -929,12 +930,3 @@ textContent
 ;
 }
 }
-export
-const
-UrlbarProviderUnitConversion
-=
-new
-ProviderUnitConversion
-(
-)
-;

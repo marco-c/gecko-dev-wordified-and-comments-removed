@@ -368,8 +368,9 @@ query
 .
 *
 /
+export
 class
-ProviderGlobalActions
+UrlbarProviderGlobalActions
 extends
 UrlbarProvider
 {
@@ -1338,12 +1339,3 @@ viewUpdate
 ;
 }
 }
-export
-var
-UrlbarProviderGlobalActions
-=
-new
-ProviderGlobalActions
-(
-)
-;

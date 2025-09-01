@@ -450,7 +450,7 @@ class
 /
 export
 class
-ProviderSemanticHistorySearch
+UrlbarProviderSemanticHistorySearch
 extends
 UrlbarProvider
 {
@@ -463,6 +463,7 @@ boolean
 }
 *
 /
+static
 #
 exposureRecorded
 ;
@@ -1426,7 +1427,7 @@ off
 .
 if
 (
-this
+UrlbarProviderSemanticHistorySearch
 .
 #
 exposureRecorded
@@ -1548,7 +1549,7 @@ slug
 }
 )
 ;
-this
+UrlbarProviderSemanticHistorySearch
 .
 #
 exposureRecorded
@@ -1709,12 +1710,3 @@ result
 }
 }
 }
-export
-var
-UrlbarProviderSemanticHistorySearch
-=
-new
-ProviderSemanticHistorySearch
-(
-)
-;

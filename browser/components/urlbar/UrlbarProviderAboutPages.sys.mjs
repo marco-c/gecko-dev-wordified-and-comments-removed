@@ -154,8 +154,9 @@ provider
 .
 *
 /
+export
 class
-ProviderAboutPages
+UrlbarProviderAboutPages
 extends
 UrlbarProvider
 {
@@ -469,12 +470,3 @@ result
 }
 }
 }
-export
-var
-UrlbarProviderAboutPages
-=
-new
-ProviderAboutPages
-(
-)
-;

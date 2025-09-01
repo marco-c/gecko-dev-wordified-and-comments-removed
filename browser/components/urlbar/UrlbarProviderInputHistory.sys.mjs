@@ -520,8 +520,9 @@ provider
 .
 *
 /
+export
 class
-ProviderInputHistory
+UrlbarProviderInputHistory
 extends
 UrlbarProvider
 {
@@ -1684,12 +1685,3 @@ maxResults
 ;
 }
 }
-export
-var
-UrlbarProviderInputHistory
-=
-new
-ProviderInputHistory
-(
-)
-;

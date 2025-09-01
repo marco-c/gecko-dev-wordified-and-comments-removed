@@ -158,8 +158,9 @@ provider
 .
 *
 /
+export
 class
-ProviderAliasEngines
+UrlbarProviderAliasEngines
 extends
 UrlbarProvider
 {
@@ -511,12 +512,3 @@ result
 ;
 }
 }
-export
-var
-UrlbarProviderAliasEngines
-=
-new
-ProviderAliasEngines
-(
-)
-;

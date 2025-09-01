@@ -9,7 +9,7 @@ defineESModuleGetters
 (
 this
 {
-UrlbarProviderClipboard
+UrlbarProvidersManager
 :
 "
 resource
@@ -19,7 +19,7 @@ resource
 /
 modules
 /
-UrlbarProviderClipboard
+UrlbarProvidersManager
 .
 sys
 .
@@ -907,7 +907,14 @@ clipboardCopyString
 "
 )
 ;
+UrlbarProvidersManager
+.
+getProvider
+(
+"
 UrlbarProviderClipboard
+"
+)
 .
 setPreviousClipboardValue
 (

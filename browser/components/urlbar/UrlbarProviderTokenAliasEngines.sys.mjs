@@ -186,8 +186,9 @@ provider
 .
 *
 /
+export
 class
-ProviderTokenAliasEngines
+UrlbarProviderTokenAliasEngines
 extends
 UrlbarProvider
 {
@@ -272,6 +273,7 @@ PROVIDER_TYPE
 HEURISTIC
 ;
 }
+static
 get
 PRIORITY
 (
@@ -922,7 +924,7 @@ getPriority
 )
 {
 return
-this
+UrlbarProviderTokenAliasEngines
 .
 PRIORITY
 ;
@@ -1329,12 +1331,3 @@ null
 ;
 }
 }
-export
-var
-UrlbarProviderTokenAliasEngines
-=
-new
-ProviderTokenAliasEngines
-(
-)
-;

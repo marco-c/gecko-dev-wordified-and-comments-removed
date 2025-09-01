@@ -458,8 +458,9 @@ directly
 .
 *
 /
+export
 class
-ProviderCalculator
+UrlbarProviderCalculator
 extends
 UrlbarProvider
 {
@@ -3308,14 +3309,5 @@ num
 ;
 }
 }
-)
-;
-export
-var
-UrlbarProviderCalculator
-=
-new
-ProviderCalculator
-(
 )
 ;

@@ -847,6 +847,11 @@ DEFAULT_MUXER
 UnifiedComplete
 "
 ;
+const
+DEFAULT_CHUNK_RESULTS_DELAY_MS
+=
+16
+;
 /
 *
 *
@@ -1338,7 +1343,7 @@ this
 .
 CHUNK_RESULTS_DELAY_MS
 =
-16
+DEFAULT_CHUNK_RESULTS_DELAY_MS
 ;
 }
 /
@@ -5332,10 +5337,14 @@ time
 this
 .
 controller
+?
 .
 manager
 .
 CHUNK_RESULTS_DELAY_MS
+?
+?
+DEFAULT_CHUNK_RESULTS_DELAY_MS
 logger
 :
 provider
