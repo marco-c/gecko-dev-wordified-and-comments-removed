@@ -9663,6 +9663,9 @@ Shape
 numNewSlots
 :
 uint32_t
+preserveWrapper
+:
+bool
 possibly_calls
 :
 true
