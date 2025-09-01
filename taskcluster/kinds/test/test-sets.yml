@@ -2566,6 +2566,7 @@ x86_64
 -
 tests
 :
+#
 -
 cppunittest
 -
@@ -2576,14 +2577,9 @@ geckoview
 -
 junit
 #
-Bug
-1973794
-#
 -
 gtest
 #
-Bug
-1983881
 -
 mochitest
 -
@@ -2636,12 +2632,14 @@ mochitest
 webgl2
 -
 ext
+#
 -
 reftest
 -
 test
 -
 verify
+#
 -
 web
 -
@@ -2656,6 +2654,7 @@ platform
 tests
 -
 crashtest
+#
 -
 web
 -
@@ -2674,8 +2673,6 @@ tests
 -
 wdspec
 #
-Bug
-1981210
 -
 web
 -
@@ -2692,6 +2689,7 @@ platform
 tests
 -
 eme
+#
 -
 xpcshell
 android
