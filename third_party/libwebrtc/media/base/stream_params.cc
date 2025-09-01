@@ -1139,7 +1139,7 @@ if
 sim_group
 =
 =
-NULL
+nullptr
 )
 {
 primary_ssrcs

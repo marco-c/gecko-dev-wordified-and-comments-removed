@@ -10966,7 +10966,7 @@ if
 stream_
 !
 =
-NULL
+nullptr
 )
 {
 call_
@@ -15352,7 +15352,7 @@ if
 stream_
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -15749,7 +15749,7 @@ if
 stream_
 !
 =
-NULL
+nullptr
 )
 {
 VideoSendStream
@@ -15837,7 +15837,7 @@ encoder_config
 .
 encoder_specific_settings
 =
-NULL
+nullptr
 ;
 UpdateSendState
 (
@@ -15896,7 +15896,7 @@ if
 stream_
 !
 =
-NULL
+nullptr
 )
 {
 stream_
@@ -19726,7 +19726,7 @@ sp
 )
 stream_
 (
-NULL
+nullptr
 )
 default_stream_
 (
@@ -19752,7 +19752,7 @@ nullptr
 )
 sink_
 (
-NULL
+nullptr
 )
 first_frame_timestamp_
 (
@@ -21429,7 +21429,7 @@ if
 sink_
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG

@@ -2828,7 +2828,7 @@ first_ssrc
 )
 ]
 =
-NULL
+nullptr
 ;
 output_delays_
 [

@@ -774,7 +774,7 @@ kSsrcs2
 ;
 EXPECT_EQ
 (
-NULL
+nullptr
 sp
 .
 get_ssrc_group
