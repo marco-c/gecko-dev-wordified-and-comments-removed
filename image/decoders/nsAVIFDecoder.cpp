@@ -1008,6 +1008,11 @@ mColorSampleIter
 GetNext
 (
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 if
 (
@@ -1094,6 +1099,11 @@ mAlphaSampleIter
 >
 GetNext
 (
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 if

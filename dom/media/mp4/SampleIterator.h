@@ -111,12 +111,16 @@ GetNextHeader
 (
 )
 ;
+Result
+<
 already_AddRefed
 <
 mozilla
 :
 :
 MediaRawData
+>
+MediaResult
 >
 GetNext
 (
