@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_EXPAND_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 modules
 /

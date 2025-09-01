@@ -6,6 +6,16 @@ define
 MODULES_AUDIO_CODING_NETEQ_TOOLS_RTP_GENERATOR_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /

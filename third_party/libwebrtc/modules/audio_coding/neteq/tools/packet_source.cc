@@ -13,6 +13,11 @@ packet_source
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

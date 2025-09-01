@@ -7,7 +7,12 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_RESAMPLE_INPUT_AUDIO_FILE_H_
 #
 include
 <
-string
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include

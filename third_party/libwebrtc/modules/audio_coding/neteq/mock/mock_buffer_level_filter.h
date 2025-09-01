@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_BUFFER_LEVEL_FILTER_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 modules
 /

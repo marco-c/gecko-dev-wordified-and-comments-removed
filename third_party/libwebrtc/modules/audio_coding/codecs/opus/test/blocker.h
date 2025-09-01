@@ -7,6 +7,11 @@ MODULES_AUDIO_CODING_CODECS_OPUS_TEST_BLOCKER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

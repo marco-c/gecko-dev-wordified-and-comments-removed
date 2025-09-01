@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_PACKET_ARRIVAL_HISTORY_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /

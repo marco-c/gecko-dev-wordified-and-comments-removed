@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /
@@ -40,9 +45,11 @@ include
 "
 modules
 /
+audio_coding
+/
 include
 /
-module_common_types
+audio_coding_module_typedefs
 .
 h
 "

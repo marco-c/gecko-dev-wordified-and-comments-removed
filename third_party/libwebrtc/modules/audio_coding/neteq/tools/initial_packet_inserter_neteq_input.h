@@ -7,7 +7,7 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_INITIAL_PACKET_INSERTER_NETEQ_INPUT_H_
 #
 include
 <
-map
+cstdint
 >
 #
 include
@@ -17,8 +17,17 @@ memory
 #
 include
 <
-string
+optional
 >
+#
+include
+"
+api
+/
+rtp_headers
+.
+h
+"
 #
 include
 "

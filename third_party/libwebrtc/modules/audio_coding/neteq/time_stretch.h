@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /
@@ -21,6 +26,15 @@ audio_coding
 neteq
 /
 audio_multi_vector
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

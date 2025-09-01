@@ -7,7 +7,12 @@ MODULES_AUDIO_CODING_AUDIO_NETWORK_ADAPTOR_INCLUDE_AUDIO_NETWORK_ADAPTOR_H_
 #
 include
 <
-optional
+cstddef
+>
+#
+include
+<
+cstdio
 >
 #
 include

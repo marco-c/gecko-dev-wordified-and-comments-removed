@@ -132,10 +132,10 @@ audio_encoder_opus
 .
 cc
 index
-dbab35d4a8
+8f95fed01c
 .
 .
-399ad329fa
+bb9406fc75
 100644
 -
 -
@@ -170,10 +170,10 @@ audio_encoder_opus
 .
 cc
 -
-231
+245
 7
 +
-231
+245
 7
 AudioCodecInfo
 AudioEncoderOpusImpl

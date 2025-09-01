@@ -12,6 +12,11 @@ complex
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #
@@ -37,6 +42,15 @@ opus
 test
 /
 blocker
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

@@ -8,6 +8,11 @@ h
 #
 include
 <
+cstdlib
+>
+#
+include
+<
 memory
 >
 #

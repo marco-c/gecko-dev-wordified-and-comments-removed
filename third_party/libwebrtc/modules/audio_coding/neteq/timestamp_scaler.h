@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_CODING_NETEQ_TIMESTAMP_SCALER_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

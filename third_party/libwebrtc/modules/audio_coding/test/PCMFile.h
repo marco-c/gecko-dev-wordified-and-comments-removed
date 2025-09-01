@@ -21,6 +21,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 optional
 >
 #

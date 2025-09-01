@@ -6,6 +6,13 @@ define
 MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_STRUCTS_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 modules
 /

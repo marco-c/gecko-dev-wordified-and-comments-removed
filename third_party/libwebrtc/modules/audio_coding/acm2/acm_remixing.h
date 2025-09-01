@@ -7,6 +7,16 @@ MODULES_AUDIO_CODING_ACM2_ACM_REMIXING_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 vector
 >
 #

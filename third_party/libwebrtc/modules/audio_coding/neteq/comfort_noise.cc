@@ -14,6 +14,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -107,15 +112,6 @@ audio_coding
 neteq
 /
 sync_buffer
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-buffer
 .
 h
 "

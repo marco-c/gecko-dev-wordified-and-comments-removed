@@ -14,6 +14,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #
@@ -39,6 +44,15 @@ neteq
 tools
 /
 audio_sink
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

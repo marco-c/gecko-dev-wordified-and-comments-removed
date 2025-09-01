@@ -12,6 +12,11 @@ bitset
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
