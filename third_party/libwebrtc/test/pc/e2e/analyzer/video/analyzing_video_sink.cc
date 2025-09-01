@@ -778,9 +778,6 @@ AnalyzingVideoSink
 :
 LogMetrics
 (
-webrtc
-:
-:
 test
 :
 :

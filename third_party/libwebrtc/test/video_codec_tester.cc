@@ -903,9 +903,6 @@ decoded_frame
 >
 ;
 using
-webrtc
-:
-:
 test
 :
 :
@@ -3745,9 +3742,6 @@ const
 Frame
 &
 frame
-:
-webrtc
-:
 :
 ArrayView
 <

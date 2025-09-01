@@ -639,9 +639,6 @@ field_trials_
 VCMTiming
 timing_
 ;
-webrtc
-:
-:
 test
 :
 :

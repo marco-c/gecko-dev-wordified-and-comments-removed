@@ -232,9 +232,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfNoList
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -356,9 +353,6 @@ BalancedDegradationSettings
 GetsConfig
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -576,9 +570,6 @@ BalancedDegradationSettings
 GetsDefaultConfigForZeroFpsValue
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -634,9 +625,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfPixelsDecreases
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -692,9 +680,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfFramerateDecreases
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -750,9 +735,6 @@ BalancedDegradationSettings
 GetsConfigWithSpecificFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1000,9 +982,6 @@ BalancedDegradationSettings
 GetsDefaultConfigForZeroVp8FpsValue
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1065,9 +1044,6 @@ BalancedDegradationSettings
 GetsDefaultConfigForInvalidFpsValue
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1130,9 +1106,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfVp8FramerateDecreases
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1195,9 +1168,6 @@ BalancedDegradationSettings
 GetsMinFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1339,9 +1309,6 @@ BalancedDegradationSettings
 GetsVp8MinFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1490,9 +1457,6 @@ BalancedDegradationSettings
 GetsMaxFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1610,9 +1574,6 @@ BalancedDegradationSettings
 GetsVp8MaxFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1737,9 +1698,6 @@ BalancedDegradationSettings
 GetsVp9Fps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1817,9 +1775,6 @@ BalancedDegradationSettings
 GetsH264Fps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1897,9 +1852,6 @@ BalancedDegradationSettings
 GetsGenericFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1988,9 +1940,6 @@ BalancedDegradationSettings
 GetsUnlimitedForMaxValidFps
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2109,9 +2058,6 @@ BalancedDegradationSettings
 GetsConfigWithBitrate
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2416,9 +2362,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfBitrateDecreases
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2481,9 +2424,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfBitrateDecreasesWithUnsetValue
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2551,9 +2491,6 @@ vp8
 =
 kVideoCodecVP8
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -2708,9 +2645,6 @@ BalancedDegradationSettings
 CanAdaptUpWithCodecType
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2935,9 +2869,6 @@ vp8
 =
 kVideoCodecVP8
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -3092,9 +3023,6 @@ BalancedDegradationSettings
 CanAdaptUpResolutionWithCodecType
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3314,9 +3242,6 @@ BalancedDegradationSettings
 GetsFpsDiff
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3449,9 +3374,6 @@ BalancedDegradationSettings
 GetsNoFpsDiffIfValueBelowMinSetting
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3540,9 +3462,6 @@ BalancedDegradationSettings
 QpThresholdsNotSetByDefault
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3644,9 +3563,6 @@ BalancedDegradationSettings
 GetsConfigWithQpThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3933,9 +3849,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfOnlyHasLowThreshold
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3998,9 +3911,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfOnlyHasHighThreshold
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4063,9 +3973,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfLowEqualsHigh
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4137,9 +4044,6 @@ BalancedDegradationSettings
 GetsDefaultConfigIfLowGreaterThanHigh
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4211,9 +4115,6 @@ BalancedDegradationSettings
 GetsDefaultConfigForZeroQpValue
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4285,9 +4186,6 @@ BalancedDegradationSettings
 GetsVp8QpThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4470,9 +4368,6 @@ BalancedDegradationSettings
 GetsVp9QpThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4570,9 +4465,6 @@ BalancedDegradationSettings
 GetsH264QpThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4670,9 +4562,6 @@ BalancedDegradationSettings
 GetsGenericQpThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :

@@ -201,11 +201,6 @@ testing
 Test
 ;
 using
-:
-:
-webrtc
-:
-:
 webrtc_pc_e2e
 :
 :

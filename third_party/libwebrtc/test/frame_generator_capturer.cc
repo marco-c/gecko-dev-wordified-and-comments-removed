@@ -534,9 +534,6 @@ target_capture_fps_
 1
 &
 &
-webrtc
-:
-:
 test
 :
 :

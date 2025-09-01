@@ -496,9 +496,6 @@ OutputPath
 )
 {
 return
-webrtc
-:
-:
 test
 :
 :
@@ -524,9 +521,6 @@ std
 string
 path
 =
-webrtc
-:
-:
 test
 :
 :
@@ -590,9 +584,6 @@ WorkingDir
 )
 {
 return
-webrtc
-:
-:
 test
 :
 :
@@ -1590,9 +1581,6 @@ extension
 )
 {
 return
-webrtc
-:
-:
 test
 :
 :

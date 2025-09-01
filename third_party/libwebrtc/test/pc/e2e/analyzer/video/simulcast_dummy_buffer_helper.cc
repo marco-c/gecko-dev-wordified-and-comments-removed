@@ -70,9 +70,6 @@ Dummy
 }
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 CreateDummyFrameBuffer
@@ -81,16 +78,10 @@ CreateDummyFrameBuffer
 {
 scoped_refptr
 <
-webrtc
-:
-:
 I420Buffer
 >
 buffer
 =
-webrtc
-:
-:
 I420Buffer
 :
 :
@@ -169,9 +160,6 @@ bool
 IsDummyFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 video_frame
@@ -205,9 +193,6 @@ false
 }
 scoped_refptr
 <
-webrtc
-:
-:
 I420BufferInterface
 >
 buffer

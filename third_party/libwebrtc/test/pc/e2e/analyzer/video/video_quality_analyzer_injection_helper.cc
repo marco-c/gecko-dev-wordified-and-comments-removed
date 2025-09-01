@@ -246,9 +246,6 @@ webrtc_pc_e2e
 namespace
 {
 using
-webrtc
-:
-:
 webrtc_pc_e2e
 :
 :
@@ -257,11 +254,6 @@ VideoConfig
 using
 EmulatedSFUConfigMap
 =
-:
-:
-webrtc
-:
-:
 webrtc_pc_e2e
 :
 :

@@ -291,11 +291,6 @@ ValuesIn
 using
 StatsSample
 =
-:
-:
-webrtc
-:
-:
 SamplesStatsCounter
 :
 :

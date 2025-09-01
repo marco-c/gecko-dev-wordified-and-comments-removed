@@ -218,9 +218,6 @@ QualityScalingExperimentTest
 DefaultEnabledWithoutFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -284,9 +281,6 @@ QualityScalingExperimentTest
 EnabledWithFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -348,9 +342,6 @@ kExpected
 1
 }
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -423,9 +414,6 @@ QualityScalingExperimentTest
 ParseSettingsUsesDefaultsWithoutFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -489,9 +477,6 @@ QualityScalingExperimentTest
 ParseSettingsFailsWithInvalidFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -530,9 +515,6 @@ QualityScalingExperimentTest
 GetConfig
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -613,9 +595,6 @@ QualityScalingExperimentTest
 GetsDefaultConfigForInvalidFieldTrial
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -678,9 +657,6 @@ use_all_drop_reasons
 =
 true
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -740,9 +716,6 @@ QualityScalingExperimentTest
 GetVp8Thresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -820,9 +793,6 @@ QualityScalingExperimentTest
 GetThresholdsFailsForInvalidVp8Value
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -882,9 +852,6 @@ QualityScalingExperimentTest
 GetVp9Thresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -962,9 +929,6 @@ QualityScalingExperimentTest
 GetThresholdsFailsForInvalidVp9Value
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1024,9 +988,6 @@ QualityScalingExperimentTest
 GetH264Thresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1104,9 +1065,6 @@ QualityScalingExperimentTest
 GetThresholdsFailsForInvalidH264Value
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1166,9 +1124,6 @@ QualityScalingExperimentTest
 GetGenericThresholds
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1246,9 +1201,6 @@ QualityScalingExperimentTest
 GetThresholdsFailsForInvalidGenericValue
 )
 {
-webrtc
-:
-:
 test
 :
 :

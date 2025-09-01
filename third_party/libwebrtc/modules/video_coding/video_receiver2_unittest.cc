@@ -286,9 +286,6 @@ CreatePacketInfos
 void
 SetReceivedTime
 (
-webrtc
-:
-:
 Timestamp
 received_time
 )
@@ -326,15 +323,9 @@ _renderTimeMs
 }
 private
 :
-webrtc
-:
-:
 Timestamp
 received_time_
 =
-webrtc
-:
-:
 Timestamp
 :
 :

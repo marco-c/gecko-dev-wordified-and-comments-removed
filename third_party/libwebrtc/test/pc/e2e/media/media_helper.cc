@@ -197,9 +197,6 @@ value
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 AudioSourceInterface
 >
 source

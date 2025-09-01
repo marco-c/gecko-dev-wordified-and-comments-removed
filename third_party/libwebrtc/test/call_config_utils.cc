@@ -29,9 +29,6 @@ VideoReceiveStreamInterface
 Config
 ParseVideoReceiveStreamJsonConfig
 (
-webrtc
-:
-:
 Transport
 *
 transport

@@ -799,9 +799,6 @@ type
 )
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1203,9 +1200,6 @@ type
 )
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1515,9 +1509,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpExtension
 >
 extensions
@@ -2085,9 +2076,6 @@ type
 )
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2472,9 +2460,6 @@ type
 )
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2774,9 +2759,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 RtpExtension
 >
 extensions

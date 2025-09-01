@@ -1700,9 +1700,6 @@ const
 float
 bitRateRatio
 =
-webrtc
-:
-:
 SimulcastRateAllocator
 :
 :

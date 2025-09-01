@@ -1700,9 +1700,6 @@ allocation
 const
 VideoCodec
 &
-webrtc
-:
-:
 SimulcastRateAllocator
 :
 :

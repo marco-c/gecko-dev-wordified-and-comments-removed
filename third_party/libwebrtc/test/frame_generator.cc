@@ -1080,9 +1080,6 @@ kI420
 return
 ;
 const
-webrtc
-:
-:
 I420ABufferInterface
 *
 yuva_buffer

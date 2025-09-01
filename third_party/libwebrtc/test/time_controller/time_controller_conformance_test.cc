@@ -229,9 +229,6 @@ ParamsToString
 const
 TestParamInfo
 <
-webrtc
-:
-:
 TimeMode
 >
 &
@@ -246,9 +243,6 @@ param
 )
 {
 case
-webrtc
-:
-:
 TimeMode
 :
 :
@@ -260,9 +254,6 @@ RealTime
 "
 ;
 case
-webrtc
-:
-:
 TimeMode
 :
 :
@@ -366,9 +357,6 @@ SimulatedRealTimeControllerConformanceTest
 public
 TestWithParam
 <
-webrtc
-:
-:
 TimeMode
 >
 {
@@ -917,9 +905,6 @@ CreateTaskQueue
 "
 task_queue
 "
-webrtc
-:
-:
 TaskQueueFactory
 :
 :

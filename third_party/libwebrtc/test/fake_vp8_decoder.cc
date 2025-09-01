@@ -290,9 +290,6 @@ height_
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .

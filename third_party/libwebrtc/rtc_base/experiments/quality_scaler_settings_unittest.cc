@@ -38,9 +38,6 @@ QualityScalerSettingsTest
 ValuesNotSetByDefault
 )
 {
-webrtc
-:
-:
 test
 :
 :

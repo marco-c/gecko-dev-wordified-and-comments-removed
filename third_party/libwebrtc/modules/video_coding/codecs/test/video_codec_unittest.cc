@@ -500,9 +500,6 @@ SetUp
 (
 )
 {
-webrtc
-:
-:
 test
 :
 :

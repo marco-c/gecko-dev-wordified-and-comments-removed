@@ -523,9 +523,6 @@ encoder_config
 codec_type
 =
 =
-webrtc
-:
-:
 VideoCodecType
 :
 :
@@ -537,9 +534,6 @@ encoder_config
 codec_type
 =
 =
-webrtc
-:
-:
 VideoCodecType
 :
 :

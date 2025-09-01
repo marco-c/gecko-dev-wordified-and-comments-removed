@@ -515,9 +515,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 H264
 :
 :
@@ -525,9 +522,6 @@ NaluIndex
 >
 nalu_indices
 =
-webrtc
-:
-:
 H264
 :
 :
@@ -554,9 +548,6 @@ max_size
 for
 (
 const
-webrtc
-:
-:
 H264
 :
 :
@@ -1191,9 +1182,6 @@ const
 Environment
 &
 env
-webrtc
-:
-:
 VideoEncoder
 *
 encoder
@@ -1905,9 +1893,6 @@ kMsToRtpTimestamp
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -2595,16 +2580,10 @@ VideoProcessor
 FrameEncoded
 (
 const
-webrtc
-:
-:
 EncodedImage
 &
 encoded_image
 const
-webrtc
-:
-:
 CodecSpecificInfo
 &
 codec_specific
@@ -3013,9 +2992,6 @@ true
 ;
 }
 const
-webrtc
-:
-:
 EncodedImage
 *
 encoded_image_for_decode
@@ -4133,9 +4109,6 @@ encoded_image
 ;
 }
 const
-webrtc
-:
-:
 EncodedImage
 *
 VideoProcessor

@@ -166,17 +166,11 @@ override
 {
 file_name_
 =
-webrtc
-:
-:
 test
 :
 :
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -195,9 +189,6 @@ TearDown
 )
 override
 {
-webrtc
-:
-:
 test
 :
 :

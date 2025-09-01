@@ -881,15 +881,9 @@ uint32_t
 timestamp_ms
 )
 {
-webrtc
-:
-:
 VideoFrame
 dummy_frame
 =
-webrtc
-:
-:
 VideoFrame
 :
 :
@@ -952,9 +946,6 @@ WEBRTC_VIDEO_CODEC_OK
 }
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 QualityAnalyzingVideoDecoder

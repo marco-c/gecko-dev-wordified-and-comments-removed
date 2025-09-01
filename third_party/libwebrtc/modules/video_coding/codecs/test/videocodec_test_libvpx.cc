@@ -302,9 +302,6 @@ public
 void
 CheckEncodedFrame
 (
-webrtc
-:
-:
 VideoCodecType
 codec
 const
