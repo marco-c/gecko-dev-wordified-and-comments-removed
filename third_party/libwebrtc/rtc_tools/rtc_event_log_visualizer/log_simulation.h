@@ -39,9 +39,9 @@ include
 "
 api
 /
-rtc_event_log
+environment
 /
-rtc_event_log
+environment
 .
 h
 "
@@ -167,6 +167,10 @@ public
 explicit
 LogBasedNetworkControllerSimulation
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -283,8 +287,9 @@ LoggedIceCandidatePairConfig
 candidate
 )
 ;
-RtcEventLogNull
-null_event_log_
+const
+Environment
+env_
 ;
 const
 std
