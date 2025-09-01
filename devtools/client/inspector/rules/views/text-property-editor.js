@@ -5441,6 +5441,17 @@ createUnusedWarningIcon
 )
 ;
 }
+else
+{
+this
+.
+unusedState
+.
+hidden
+=
+false
+;
+}
 }
 }
 async
