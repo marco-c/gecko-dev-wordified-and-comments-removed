@@ -416,12 +416,6 @@ browserStore
 webCompatInfoDeserializer
 =
 webCompatInfoDeserializer
-nimbusExperimentsProvider
-=
-DefaultNimbusExperimentsProvider
-(
-nimbusApi
-)
 )
 return
 WebCompatReporterSubmissionMiddleware
@@ -446,6 +440,12 @@ webCompatReporterRetrievalService
 scope
 =
 scope
+nimbusExperimentsProvider
+=
+DefaultNimbusExperimentsProvider
+(
+nimbusApi
+)
 )
 }
 private
