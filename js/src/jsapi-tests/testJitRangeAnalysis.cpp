@@ -1556,7 +1556,7 @@ IncludesFractionalParts
 Range
 :
 :
-ExcludesNegativeZero
+IncludesNegativeZero
 Range
 :
 :
@@ -1593,7 +1593,7 @@ ExcludesFractionalParts
 Range
 :
 :
-ExcludesNegativeZero
+IncludesNegativeZero
 0
 )
 )
@@ -2109,6 +2109,7 @@ NewDoubleRange
 func
 .
 alloc
+-
 0
 .
 0
