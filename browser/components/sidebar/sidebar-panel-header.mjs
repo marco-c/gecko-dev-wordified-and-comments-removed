@@ -227,7 +227,7 @@ sidebar
 -
 panel
 -
-header
+heading
 "
 >
 <
@@ -329,6 +329,13 @@ button
 <
 /
 div
+>
+<
+slot
+>
+<
+/
+slot
 >
 ;
 }
