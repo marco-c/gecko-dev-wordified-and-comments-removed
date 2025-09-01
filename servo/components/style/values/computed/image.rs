@@ -219,7 +219,7 @@ size_of_test
 !
 (
 Image
-40
+24
 )
 ;
 pub
