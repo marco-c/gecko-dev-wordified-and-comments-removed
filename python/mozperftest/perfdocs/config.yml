@@ -617,6 +617,14 @@ engine
 tests
 :
 "
+browser_addManyIds
+.
+js
+"
+:
+"
+"
+"
 browser_addManyNodes
 .
 js
