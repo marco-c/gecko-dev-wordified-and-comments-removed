@@ -7093,6 +7093,7 @@ return
 false
 ;
 }
+return
 ContinueModuleLoading
 (
 cx
@@ -7104,9 +7105,6 @@ exception
 (
 )
 )
-;
-return
-true
 ;
 }
 static
