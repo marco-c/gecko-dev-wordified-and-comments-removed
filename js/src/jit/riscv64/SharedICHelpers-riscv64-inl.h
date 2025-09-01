@@ -155,12 +155,15 @@ masm
 {
 masm
 .
-pushFrameDescriptor
+push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 BaselineStub
+)
 )
 ;
 masm
