@@ -2758,6 +2758,15 @@ getDateTimeInfo
 (
 )
 ;
+void
+setTimeZone
+(
+const
+char
+*
+timeZone
+)
+;
 mozilla
 :
 :

@@ -53,7 +53,7 @@ UTC_TIME_SLOT
 static
 const
 uint32_t
-UTC_TIME_ZONE_OFFSET_SLOT
+TIME_ZONE_CACHE_KEY_SLOT
 =
 1
 ;
@@ -374,14 +374,14 @@ UTC_TIME_SLOT
 static
 constexpr
 size_t
-offsetOfUTCTimeZoneOffsetSlot
+offsetOfTimeZoneCacheKeySlot
 (
 )
 {
 return
 getFixedSlotOffset
 (
-UTC_TIME_ZONE_OFFSET_SLOT
+TIME_ZONE_CACHE_KEY_SLOT
 )
 ;
 }
