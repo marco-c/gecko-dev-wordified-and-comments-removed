@@ -2630,6 +2630,10 @@ numArenasFree
 -
 -
 ;
+verify
+(
+)
+;
 if
 (
 MOZ_UNLIKELY
@@ -3135,6 +3139,10 @@ numArenasFreeCommitted
 +
 =
 count
+;
+verify
+(
+)
 ;
 }
 ArenaChunk
