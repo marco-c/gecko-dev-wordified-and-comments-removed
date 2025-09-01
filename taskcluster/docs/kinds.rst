@@ -7903,6 +7903,7 @@ TestLab
 .
 update
 -
+test
 -
 -
 -
@@ -7920,6 +7921,7 @@ to
 see
 if
 the
+Firefox
 executable
 can
 be
