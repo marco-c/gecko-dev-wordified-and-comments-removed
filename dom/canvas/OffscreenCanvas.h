@@ -483,6 +483,7 @@ uint64_t
 GetWindowID
 (
 )
+const
 ;
 nsICanvasRenderingContextInternal
 *

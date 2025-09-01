@@ -2854,12 +2854,6 @@ mType
 eContext_PrintPreview
 ;
 }
-bool
-IsChrome
-(
-)
-const
-;
 gfxUserFontSet
 *
 GetUserFontSet

@@ -12,6 +12,13 @@ bitset
 #
 include
 "
+FontVisibilityProvider
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -747,6 +754,8 @@ CheckIf
 DiagnosticAssertEnabled
 >
 >
+public
+FontVisibilityProvider
 {
 public
 :
@@ -815,6 +824,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 WorkerPrivate
 )
+FONT_VISIBILITY_PROVIDER_IMPL
 static
 already_AddRefed
 <
@@ -3872,14 +3882,6 @@ mLoadInfo
 mWatchedByDevTools
 ;
 }
-bool
-ShouldResistFingerprinting
-(
-RFPTarget
-aTarget
-)
-const
-;
 const
 Maybe
 <
@@ -5797,6 +5799,9 @@ RefPtr
 WorkerParentRef
 >
 mParentRef
+;
+FontVisibility
+mFontVisibility
 ;
 }
 ;
