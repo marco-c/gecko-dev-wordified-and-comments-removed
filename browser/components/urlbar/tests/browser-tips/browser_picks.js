@@ -677,6 +677,14 @@ selected
 )
 ;
 }
+await
+UrlbarTestUtils
+.
+promisePopupClose
+(
+window
+)
+;
 UrlbarProvidersManager
 .
 unregisterProvider
