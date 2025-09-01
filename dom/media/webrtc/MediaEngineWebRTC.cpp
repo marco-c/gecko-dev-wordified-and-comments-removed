@@ -593,11 +593,6 @@ scarySource
 =
 false
 ;
-bool
-placeholder
-=
-false
-;
 deviceName
 [
 0
@@ -644,8 +639,6 @@ uniqueId
 )
 &
 scarySource
-&
-placeholder
 )
 ;
 if
@@ -863,13 +856,6 @@ OsPromptable
 :
 :
 No
-MediaDevice
-:
-:
-IsPlaceholder
-(
-placeholder
-)
 )
 )
 ;
