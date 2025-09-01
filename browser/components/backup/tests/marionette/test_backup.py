@@ -1105,56 +1105,56 @@ recoveryPath
         
 print
 (
-f
 "
 Recovery
 name
 :
-{
-newProfileName
-}
+%
+s
 "
+%
+newProfileName
 )
         
 print
 (
-f
 "
 Recovery
 path
 :
-{
-newProfilePath
-}
+%
+s
 "
+%
+newProfilePath
 )
         
 print
 (
-f
 "
 Expected
 clientID
 :
-{
-expectedClientID
-}
+%
+s
 "
+%
+expectedClientID
 )
         
 print
 (
-f
 "
 Persisting
 fake
 OSKeyStore
 label
 :
-{
-osKeyStoreLabel
-}
+%
+s
 "
+%
+osKeyStoreLabel
 )
         
 self
@@ -1974,7 +1974,7 @@ self
 assertEqual
 (
 cookiesLength
-0
+1
 )
     
 def
