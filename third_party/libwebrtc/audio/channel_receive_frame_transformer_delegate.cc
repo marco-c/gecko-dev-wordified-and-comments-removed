@@ -572,7 +572,7 @@ webrtc
 :
 AudioLevel
 (
-false
+true
 std
 :
 :
@@ -1259,7 +1259,7 @@ set_audio_level
 (
 AudioLevel
 (
-false
+true
 *
 transformed_frame
 -
