@@ -8,6 +8,7 @@ glean
 {
 ConfigurationBuilder
 ErrorType
+TestGetValue
 }
 ;
 mod
