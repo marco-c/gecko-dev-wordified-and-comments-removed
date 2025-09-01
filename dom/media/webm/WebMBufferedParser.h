@@ -428,11 +428,6 @@ mMutex
 WebMBufferedState
 "
 )
-mLastBlockOffset
-(
--
-1
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -501,11 +496,6 @@ GetInitEndOffset
 (
 )
 ;
-int64_t
-GetLastBlockOffset
-(
-)
-;
 bool
 GetStartTime
 (
@@ -538,13 +528,6 @@ nsTArray
 WebMTimeDataOffset
 >
 mTimeMapping
-MOZ_GUARDED_BY
-(
-mMutex
-)
-;
-int64_t
-mLastBlockOffset
 MOZ_GUARDED_BY
 (
 mMutex
