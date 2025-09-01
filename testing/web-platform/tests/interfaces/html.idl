@@ -749,6 +749,7 @@ metadata
 attributes
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -756,6 +757,7 @@ title
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -796,6 +798,7 @@ hidden
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -808,6 +811,7 @@ click
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -834,6 +838,7 @@ spellcheck
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -841,6 +846,7 @@ writingSuggestions
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -1000,6 +1006,7 @@ CEReactions
 ]
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -1007,6 +1014,7 @@ autofocus
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 long
@@ -1159,6 +1167,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 USVString
@@ -1166,6 +1175,7 @@ href
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1192,6 +1202,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -1207,6 +1218,7 @@ crossOrigin
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1224,6 +1236,11 @@ SameObject
 PutForwards
 =
 value
+Reflect
+=
+"
+rel
+"
 ]
 readonly
 attribute
@@ -1232,6 +1249,7 @@ relList
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1239,6 +1257,7 @@ media
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1246,6 +1265,7 @@ integrity
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1253,6 +1273,7 @@ hreflang
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1263,6 +1284,7 @@ SameObject
 PutForwards
 =
 value
+Reflect
 ]
 readonly
 attribute
@@ -1271,6 +1293,7 @@ sizes
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 USVString
@@ -1278,6 +1301,7 @@ imageSrcset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1295,6 +1319,7 @@ SameObject
 PutForwards
 =
 value
+Reflect
 ]
 readonly
 attribute
@@ -1303,6 +1328,7 @@ blocking
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -1346,6 +1372,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1353,6 +1380,13 @@ name
 ;
 [
 CEReactions
+Reflect
+=
+"
+http
+-
+equiv
+"
 ]
 attribute
 DOMString
@@ -1360,6 +1394,7 @@ httpEquiv
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1367,6 +1402,7 @@ content
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1403,6 +1439,7 @@ disabled
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1413,6 +1450,7 @@ SameObject
 PutForwards
 =
 value
+Reflect
 ]
 readonly
 attribute
@@ -1579,6 +1617,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -1605,6 +1644,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -1612,6 +1652,10 @@ reversed
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+1
 ]
 attribute
 long
@@ -1619,6 +1663,7 @@ start
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1701,6 +1746,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 long
@@ -1783,6 +1829,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1790,6 +1837,7 @@ target
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1797,6 +1845,7 @@ download
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 USVString
@@ -1804,6 +1853,7 @@ ping
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1814,6 +1864,11 @@ SameObject
 PutForwards
 =
 value
+Reflect
+=
+"
+rel
+"
 ]
 readonly
 attribute
@@ -1822,6 +1877,7 @@ relList
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1829,6 +1885,7 @@ hreflang
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1879,6 +1936,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1905,6 +1963,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -1962,6 +2021,7 @@ HTMLHyperlinkElementUtils
 {
 [
 CEReactions
+ReflectSetter
 ]
 stringifier
 attribute
@@ -2057,6 +2117,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2064,6 +2125,7 @@ cite
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2109,6 +2171,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2116,6 +2179,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2123,6 +2187,7 @@ type
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 USVString
@@ -2130,6 +2195,7 @@ srcset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2137,6 +2203,7 @@ sizes
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2144,6 +2211,7 @@ media
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -2152,6 +2220,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -2192,6 +2261,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2199,6 +2269,7 @@ alt
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2206,6 +2277,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 USVString
@@ -2213,6 +2285,7 @@ srcset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2228,6 +2301,7 @@ crossOrigin
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2235,6 +2309,7 @@ useMap
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -2242,6 +2317,7 @@ isMap
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 unsigned
@@ -2250,6 +2326,7 @@ width
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 unsigned
@@ -2341,6 +2418,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2359,6 +2437,7 @@ srcdoc
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2369,6 +2448,7 @@ SameObject
 PutForwards
 =
 value
+Reflect
 ]
 readonly
 attribute
@@ -2377,6 +2457,7 @@ sandbox
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2384,6 +2465,7 @@ allow
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -2391,6 +2473,7 @@ allowFullscreen
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2398,6 +2481,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2462,6 +2546,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2469,6 +2554,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2476,6 +2562,7 @@ type
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2483,6 +2570,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2521,6 +2609,7 @@ constructor
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2528,6 +2617,7 @@ data
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2535,6 +2625,7 @@ type
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2548,6 +2639,7 @@ form
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2555,6 +2647,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2637,6 +2730,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -2645,6 +2739,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -2665,6 +2760,7 @@ videoHeight
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2672,6 +2768,7 @@ poster
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -2732,6 +2829,7 @@ kind
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -2739,6 +2837,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2746,6 +2845,7 @@ srclang
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -2753,6 +2853,7 @@ label
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -2854,6 +2955,7 @@ network
 state
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -3045,6 +3147,7 @@ ended
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -3052,6 +3155,7 @@ autoplay
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -3075,6 +3179,7 @@ pause
 controls
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -3090,6 +3195,11 @@ muted
 ;
 [
 CEReactions
+Reflect
+=
+"
+muted
+"
 ]
 attribute
 boolean
@@ -3689,6 +3799,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3723,6 +3834,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3730,6 +3842,7 @@ alt
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3737,6 +3850,7 @@ coords
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3744,6 +3858,7 @@ shape
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3751,6 +3866,7 @@ target
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3758,6 +3874,7 @@ download
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 USVString
@@ -3765,6 +3882,7 @@ ping
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -3775,6 +3893,11 @@ SameObject
 PutForwards
 =
 value
+Reflect
+=
+"
+rel
+"
 ]
 readonly
 attribute
@@ -3974,6 +4097,16 @@ constructor
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+1
+ReflectRange
+=
+(
+1
+1000
+)
 ]
 attribute
 unsigned
@@ -4125,6 +4258,16 @@ constructor
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+1
+ReflectRange
+=
+(
+1
+1000
+)
 ]
 attribute
 unsigned
@@ -4133,6 +4276,16 @@ colSpan
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+1
+ReflectRange
+=
+(
+0
+65534
+)
 ]
 attribute
 unsigned
@@ -4141,6 +4294,7 @@ rowSpan
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4167,6 +4321,7 @@ th
 elements
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4208,6 +4363,13 @@ constructor
 ;
 [
 CEReactions
+Reflect
+=
+"
+accept
+-
+charset
+"
 ]
 attribute
 DOMString
@@ -4215,6 +4377,7 @@ acceptCharset
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 USVString
@@ -4250,6 +4413,7 @@ method
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4257,6 +4421,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4264,6 +4429,7 @@ noValidate
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4271,6 +4437,7 @@ target
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4281,6 +4448,11 @@ SameObject
 PutForwards
 =
 value
+Reflect
+=
+"
+rel
+"
 ]
 readonly
 attribute
@@ -4381,6 +4553,11 @@ form
 ;
 [
 CEReactions
+Reflect
+=
+"
+for
+"
 ]
 attribute
 DOMString
@@ -4413,6 +4590,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4420,6 +4598,7 @@ accept
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4427,6 +4606,7 @@ alpha
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4434,6 +4614,7 @@ alt
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -4441,6 +4622,11 @@ autocomplete
 ;
 [
 CEReactions
+Reflect
+=
+"
+checked
+"
 ]
 attribute
 boolean
@@ -4459,6 +4645,7 @@ colorSpace
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4466,6 +4653,7 @@ dirName
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4484,6 +4672,7 @@ files
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 USVString
@@ -4505,6 +4694,7 @@ formMethod
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4512,6 +4702,7 @@ formNoValidate
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4519,6 +4710,7 @@ formTarget
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 unsigned
@@ -4537,6 +4729,7 @@ list
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4544,6 +4737,7 @@ max
 ;
 [
 CEReactions
+ReflectNonNegative
 ]
 attribute
 long
@@ -4551,6 +4745,7 @@ maxLength
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4558,6 +4753,7 @@ min
 ;
 [
 CEReactions
+ReflectNonNegative
 ]
 attribute
 long
@@ -4565,6 +4761,7 @@ minLength
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4572,6 +4769,7 @@ multiple
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4579,6 +4777,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4586,6 +4785,7 @@ pattern
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4593,6 +4793,7 @@ placeholder
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4600,6 +4801,7 @@ readOnly
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4607,6 +4809,7 @@ required
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -4615,6 +4818,7 @@ size
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -4622,6 +4826,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4636,6 +4841,11 @@ type
 ;
 [
 CEReactions
+Reflect
+=
+"
+value
+"
 ]
 attribute
 DOMString
@@ -4663,6 +4873,7 @@ valueAsNumber
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 unsigned
@@ -4826,6 +5037,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -4833,6 +5045,7 @@ command
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 Element
@@ -4841,6 +5054,7 @@ commandForElement
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4854,6 +5068,7 @@ form
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 USVString
@@ -4875,6 +5090,7 @@ formMethod
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4882,6 +5098,7 @@ formNoValidate
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4889,6 +5106,7 @@ formTarget
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4896,6 +5114,7 @@ name
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -4903,6 +5122,7 @@ type
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -4970,6 +5190,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -4977,6 +5198,7 @@ autocomplete
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4990,6 +5212,7 @@ form
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -4997,6 +5220,7 @@ multiple
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5004,6 +5228,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5011,6 +5236,10 @@ required
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+0
 ]
 attribute
 unsigned
@@ -5222,6 +5451,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5229,6 +5459,7 @@ disabled
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5279,6 +5510,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5292,6 +5524,7 @@ form
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -5299,6 +5532,11 @@ label
 ;
 [
 CEReactions
+Reflect
+=
+"
+selected
+"
 ]
 attribute
 boolean
@@ -5310,6 +5548,7 @@ selected
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -5348,6 +5587,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -5355,6 +5595,10 @@ autocomplete
 ;
 [
 CEReactions
+ReflectPositiveWithFallback
+ReflectDefault
+=
+20
 ]
 attribute
 unsigned
@@ -5363,6 +5607,7 @@ cols
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5370,6 +5615,7 @@ dirName
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5383,6 +5629,7 @@ form
 ;
 [
 CEReactions
+ReflectNonNegative
 ]
 attribute
 long
@@ -5390,6 +5637,7 @@ maxLength
 ;
 [
 CEReactions
+ReflectNonNegative
 ]
 attribute
 long
@@ -5397,6 +5645,7 @@ minLength
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5404,6 +5653,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5411,6 +5661,7 @@ placeholder
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5418,6 +5669,7 @@ readOnly
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5425,6 +5677,10 @@ required
 ;
 [
 CEReactions
+ReflectPositiveWithFallback
+ReflectDefault
+=
+2
 ]
 attribute
 unsigned
@@ -5433,6 +5689,7 @@ rows
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5584,6 +5841,11 @@ SameObject
 PutForwards
 =
 value
+Reflect
+=
+"
+for
+"
 ]
 readonly
 attribute
@@ -5598,6 +5860,7 @@ form
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5680,6 +5943,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5687,6 +5951,12 @@ value
 ;
 [
 CEReactions
+ReflectPositive
+ReflectDefault
+=
+1
+.
+0
 ]
 attribute
 double
@@ -5723,6 +5993,7 @@ constructor
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5730,6 +6001,7 @@ value
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5737,6 +6009,7 @@ min
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5744,6 +6017,7 @@ max
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5751,6 +6025,7 @@ low
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5758,6 +6033,7 @@ high
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 double
@@ -5789,6 +6065,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -5802,6 +6079,7 @@ form
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -5886,6 +6164,25 @@ also
 has
 obsolete
 members
+}
+;
+[
+Exposed
+=
+Window
+]
+interface
+HTMLSelectedContentElement
+:
+HTMLElement
+{
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 enum
@@ -6071,6 +6368,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -6078,6 +6376,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6104,6 +6403,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6115,6 +6415,7 @@ returnValue
 ;
 [
 CEReactions
+ReflectSetter
 ]
 attribute
 DOMString
@@ -6179,6 +6480,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -6186,6 +6488,7 @@ type
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -6193,6 +6496,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6207,6 +6511,7 @@ async
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6217,6 +6522,7 @@ SameObject
 PutForwards
 =
 value
+Reflect
 ]
 readonly
 attribute
@@ -6240,6 +6546,7 @@ referrerPolicy
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -6306,6 +6613,7 @@ shadowRootMode
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6313,6 +6621,7 @@ shadowRootDelegatesFocus
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6320,6 +6629,7 @@ shadowRootClonable
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -6327,6 +6637,7 @@ shadowRootSerializable
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -6353,6 +6664,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -9569,6 +9881,7 @@ PopoverTargetAttributes
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 Element
@@ -13617,6 +13930,12 @@ options
 dictionary
 WorkerOptions
 {
+DOMString
+name
+=
+"
+"
+;
 WorkerType
 type
 =
@@ -13645,12 +13964,6 @@ is
 "
 module
 "
-DOMString
-name
-=
-"
-"
-;
 }
 ;
 enum
@@ -14106,6 +14419,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14113,6 +14427,7 @@ behavior
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14120,6 +14435,7 @@ bgColor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14127,6 +14443,7 @@ direction
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14134,6 +14451,7 @@ height
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14149,6 +14467,10 @@ loop
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+6
 ]
 attribute
 unsigned
@@ -14157,6 +14479,10 @@ scrollAmount
 ;
 [
 CEReactions
+Reflect
+ReflectDefault
+=
+85
 ]
 attribute
 unsigned
@@ -14165,6 +14491,7 @@ scrollDelay
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14172,6 +14499,7 @@ trueSpeed
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14180,6 +14508,7 @@ vspace
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14216,6 +14545,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14223,6 +14553,7 @@ cols
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14253,6 +14584,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14260,6 +14592,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14267,6 +14600,7 @@ scrolling
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -14274,6 +14608,7 @@ src
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14281,6 +14616,7 @@ frameBorder
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -14288,6 +14624,7 @@ longDesc
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14307,6 +14644,7 @@ contentWindow
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14317,6 +14655,7 @@ marginHeight
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14333,6 +14672,7 @@ HTMLAnchorElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14340,6 +14680,7 @@ coords
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14347,6 +14688,7 @@ charset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14354,6 +14696,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14361,6 +14704,7 @@ rev
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14374,6 +14718,7 @@ HTMLAreaElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14387,6 +14732,7 @@ HTMLBodyElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14397,6 +14743,7 @@ text
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14407,6 +14754,7 @@ link
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14417,6 +14765,7 @@ vLink
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14427,6 +14776,7 @@ aLink
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14437,6 +14787,7 @@ bgColor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14450,6 +14801,7 @@ HTMLBRElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14463,6 +14815,7 @@ HTMLTableCaptionElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14476,6 +14829,7 @@ HTMLTableColElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14483,6 +14837,11 @@ align
 ;
 [
 CEReactions
+Reflect
+=
+"
+char
+"
 ]
 attribute
 DOMString
@@ -14490,6 +14849,11 @@ ch
 ;
 [
 CEReactions
+Reflect
+=
+"
+charoff
+"
 ]
 attribute
 DOMString
@@ -14497,6 +14861,7 @@ chOff
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14504,6 +14869,7 @@ vAlign
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14530,6 +14896,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14543,6 +14910,7 @@ HTMLDivElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14556,6 +14924,7 @@ HTMLDListElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14569,6 +14938,7 @@ HTMLEmbedElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14576,6 +14946,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14602,6 +14973,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14612,6 +14984,7 @@ color
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14619,6 +14992,7 @@ face
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14632,6 +15006,7 @@ HTMLHeadingElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14645,6 +15020,7 @@ HTMLHRElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14652,6 +15028,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14659,6 +15036,7 @@ color
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14666,6 +15044,7 @@ noShade
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14673,6 +15052,7 @@ size
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14686,6 +15066,7 @@ HTMLHtmlElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14699,6 +15080,7 @@ HTMLIFrameElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14706,6 +15088,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14713,6 +15096,7 @@ scrolling
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14720,6 +15104,7 @@ frameBorder
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -14727,6 +15112,7 @@ longDesc
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14737,6 +15123,7 @@ marginHeight
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14753,6 +15140,7 @@ HTMLImageElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14760,6 +15148,7 @@ name
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -14767,6 +15156,7 @@ lowsrc
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14774,6 +15164,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14782,6 +15173,7 @@ hspace
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14790,6 +15182,7 @@ vspace
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 USVString
@@ -14797,6 +15190,7 @@ longDesc
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -14813,6 +15207,7 @@ HTMLInputElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14820,6 +15215,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14833,6 +15229,7 @@ HTMLLegendElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14846,6 +15243,7 @@ HTMLLIElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14859,6 +15257,7 @@ HTMLLinkElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14866,6 +15265,7 @@ charset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14873,6 +15273,7 @@ rev
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14886,6 +15287,7 @@ HTMLMenuElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14899,6 +15301,7 @@ HTMLMetaElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14912,6 +15315,7 @@ HTMLObjectElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14919,6 +15323,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14926,6 +15331,7 @@ archive
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14933,6 +15339,7 @@ code
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -14940,6 +15347,7 @@ declare
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14948,6 +15356,7 @@ hspace
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14955,6 +15364,7 @@ standby
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 unsigned
@@ -14963,6 +15373,7 @@ vspace
 ;
 [
 CEReactions
+ReflectURL
 ]
 attribute
 DOMString
@@ -14970,6 +15381,7 @@ codeBase
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14977,6 +15389,7 @@ codeType
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -14984,6 +15397,7 @@ useMap
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15000,6 +15414,7 @@ HTMLOListElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -15013,6 +15428,7 @@ HTMLParagraphElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15039,6 +15455,7 @@ constructor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15046,6 +15463,7 @@ name
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15053,6 +15471,7 @@ value
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15060,6 +15479,7 @@ type
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15073,6 +15493,7 @@ HTMLPreElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 long
@@ -15086,6 +15507,7 @@ HTMLStyleElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15099,6 +15521,7 @@ HTMLScriptElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15106,6 +15529,7 @@ charset
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15113,6 +15537,11 @@ event
 ;
 [
 CEReactions
+Reflect
+=
+"
+for
+"
 ]
 attribute
 DOMString
@@ -15126,6 +15555,7 @@ HTMLTableElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15133,6 +15563,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15140,6 +15571,7 @@ border
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15147,6 +15579,7 @@ frame
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15154,6 +15587,7 @@ rules
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15161,6 +15595,7 @@ summary
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15168,6 +15603,7 @@ width
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15178,6 +15614,7 @@ bgColor
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15188,6 +15625,7 @@ cellPadding
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15204,6 +15642,7 @@ HTMLTableSectionElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15211,6 +15650,11 @@ align
 ;
 [
 CEReactions
+Reflect
+=
+"
+char
+"
 ]
 attribute
 DOMString
@@ -15218,6 +15662,11 @@ ch
 ;
 [
 CEReactions
+Reflect
+=
+"
+charoff
+"
 ]
 attribute
 DOMString
@@ -15225,6 +15674,7 @@ chOff
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15238,6 +15688,7 @@ HTMLTableCellElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15245,6 +15696,7 @@ align
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15252,6 +15704,7 @@ axis
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15259,6 +15712,7 @@ height
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15266,6 +15720,11 @@ width
 ;
 [
 CEReactions
+Reflect
+=
+"
+char
+"
 ]
 attribute
 DOMString
@@ -15273,6 +15732,11 @@ ch
 ;
 [
 CEReactions
+Reflect
+=
+"
+charoff
+"
 ]
 attribute
 DOMString
@@ -15280,6 +15744,7 @@ chOff
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -15287,6 +15752,7 @@ noWrap
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15294,6 +15760,7 @@ vAlign
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15310,6 +15777,7 @@ HTMLTableRowElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15317,6 +15785,11 @@ align
 ;
 [
 CEReactions
+Reflect
+=
+"
+char
+"
 ]
 attribute
 DOMString
@@ -15324,6 +15797,11 @@ ch
 ;
 [
 CEReactions
+Reflect
+=
+"
+charoff
+"
 ]
 attribute
 DOMString
@@ -15331,6 +15809,7 @@ chOff
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString
@@ -15338,6 +15817,7 @@ vAlign
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 [
@@ -15354,6 +15834,7 @@ HTMLUListElement
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 boolean
@@ -15361,6 +15842,7 @@ compact
 ;
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString

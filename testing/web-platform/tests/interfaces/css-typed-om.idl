@@ -313,7 +313,7 @@ index
 )
 ;
 setter
-CSSUnparsedSegment
+undefined
 (
 unsigned
 long
@@ -1448,7 +1448,7 @@ index
 )
 ;
 setter
-CSSTransformComponent
+undefined
 (
 unsigned
 long

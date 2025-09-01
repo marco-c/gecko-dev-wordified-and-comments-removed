@@ -122,8 +122,12 @@ DOMString
 contents
 DOMString
 origin
+optional
 RTCIdentityProviderOptions
 options
+=
+{
+}
 )
 ;
 callback

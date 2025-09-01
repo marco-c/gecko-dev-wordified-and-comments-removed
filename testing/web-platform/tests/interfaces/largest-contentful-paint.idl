@@ -73,6 +73,11 @@ loadTime
 ;
 readonly
 attribute
+DOMHighResTimeStamp
+renderTime
+;
+readonly
+attribute
 unsigned
 long
 size

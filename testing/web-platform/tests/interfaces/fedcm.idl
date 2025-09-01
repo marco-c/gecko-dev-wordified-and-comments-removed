@@ -90,8 +90,7 @@ options
 ;
 readonly
 attribute
-USVString
-?
+any
 token
 ;
 readonly
@@ -246,9 +245,6 @@ IdentityProviderRequestOptions
 :
 IdentityProviderConfig
 {
-USVString
-nonce
-;
 DOMString
 loginHint
 ;
@@ -415,7 +411,7 @@ accounts
 dictionary
 IdentityAssertionResponse
 {
-USVString
+any
 token
 ;
 USVString
@@ -484,7 +480,7 @@ undefined
 >
 resolve
 (
-DOMString
+any
 token
 optional
 IdentityResolveOptions

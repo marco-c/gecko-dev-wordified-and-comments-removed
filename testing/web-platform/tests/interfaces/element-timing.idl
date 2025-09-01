@@ -132,6 +132,7 @@ Element
 {
 [
 CEReactions
+Reflect
 ]
 attribute
 DOMString

@@ -492,11 +492,6 @@ long
 long
 bytesSent
 ;
-unsigned
-long
-long
-packetsSentWithEct1
-;
 }
 ;
 dictionary
@@ -634,6 +629,11 @@ active
 ;
 DOMString
 scalabilityMode
+;
+unsigned
+long
+long
+packetsSentWithEct1
 ;
 }
 ;

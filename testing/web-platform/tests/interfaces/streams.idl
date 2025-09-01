@@ -145,8 +145,7 @@ tee
 (
 )
 ;
-async
-iterable
+async_iterable
 <
 any
 >
