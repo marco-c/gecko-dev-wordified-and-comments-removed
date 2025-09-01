@@ -541,12 +541,12 @@ is
 links
 .
 length
-2
+1
 "
 Should
 have
-2
-links
+1
+link
 to
 entries
 for
