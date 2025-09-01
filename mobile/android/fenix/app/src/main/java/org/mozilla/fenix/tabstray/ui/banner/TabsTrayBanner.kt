@@ -2449,9 +2449,6 @@ val
 menuItems
 =
 mutableListOf
-<
-MenuItem
->
 (
 MenuItem
 .
@@ -2529,7 +2526,7 @@ add
 (
 MenuItem
 .
-TextItem
+IconItem
 (
 text
 =
@@ -2541,8 +2538,15 @@ R
 .
 string
 .
-inactive_tabs_menu_item
+inactive_tabs_menu_item_2
 )
+drawableRes
+=
+R
+.
+drawable
+.
+mozac_ic_cross_circle_24
 onClick
 =
 onMakeSelectedTabsInactive
