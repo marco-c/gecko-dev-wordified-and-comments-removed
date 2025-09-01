@@ -98,15 +98,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 logging
 .
 h
@@ -761,7 +752,10 @@ i
 ;
 i
 <
-arraysize
+std
+:
+:
+size
 (
 roles
 )

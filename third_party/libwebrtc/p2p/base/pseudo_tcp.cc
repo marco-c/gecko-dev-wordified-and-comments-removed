@@ -556,7 +556,10 @@ len
 snprintf
 (
 buffer
-arraysize
+std
+:
+:
+size
 (
 buffer
 )
