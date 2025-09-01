@@ -1182,8 +1182,9 @@ mInitEndOffset
 mResource
 -
 >
-GetLength
+GetCachedDataEnd
 (
+0
 )
 )
 ;
@@ -3397,8 +3398,12 @@ mOffset
 mResource
 -
 >
-GetLength
+GetCachedDataEnd
 (
+mParser
+-
+>
+mOffset
 )
 )
 ;

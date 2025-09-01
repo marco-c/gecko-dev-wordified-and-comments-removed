@@ -728,8 +728,14 @@ IsMediaSource
 ?
 mResource
 .
-GetLength
+GetResource
 (
+)
+-
+>
+GetCachedDataEnd
+(
+0
 )
 :
 -
