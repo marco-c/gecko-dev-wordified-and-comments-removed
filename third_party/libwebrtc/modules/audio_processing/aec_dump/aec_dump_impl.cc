@@ -94,15 +94,9 @@ void
 CopyFromConfigToEvent
 (
 const
-webrtc
-:
-:
 InternalAPMConfig
 &
 config
-webrtc
-:
-:
 audioproc
 :
 :

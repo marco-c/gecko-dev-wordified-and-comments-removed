@@ -237,9 +237,6 @@ bool
 VerifyFixedBitExactness
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -361,9 +358,6 @@ bool
 VerifyFloatBitExactness
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -525,9 +519,6 @@ std
 stringstream
 &
 input
-webrtc
-:
-:
 audioproc
 :
 :
@@ -612,9 +603,6 @@ AecDumpBasedSimulator
 PrepareProcessStreamCall
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -1273,9 +1261,6 @@ AecDumpBasedSimulator
 VerifyProcessStreamBitExactness
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -1331,9 +1316,6 @@ AecDumpBasedSimulator
 PrepareReverseProcessStreamCall
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -1761,9 +1743,6 @@ value
 )
 ;
 }
-webrtc
-:
-:
 audioproc
 :
 :
@@ -1910,9 +1889,6 @@ value
 )
 ;
 }
-webrtc
-:
-:
 audioproc
 :
 :
@@ -1954,9 +1930,6 @@ type
 )
 =
 =
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2129,9 +2102,6 @@ type
 )
 =
 =
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2156,9 +2126,6 @@ type
 )
 =
 =
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2193,9 +2160,6 @@ AecDumpBasedSimulator
 HandleEvent
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2220,9 +2184,6 @@ type
 )
 {
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2261,9 +2222,6 @@ init_index
 break
 ;
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2297,9 +2255,6 @@ stream
 break
 ;
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2329,9 +2284,6 @@ reverse_stream
 break
 ;
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2361,9 +2313,6 @@ config
 break
 ;
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2384,9 +2333,6 @@ runtime_setting
 break
 ;
 case
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2408,9 +2354,6 @@ AecDumpBasedSimulator
 HandleMessage
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -2750,9 +2693,6 @@ has_aecm_routing_mode
 &
 static_cast
 <
-webrtc
-:
-:
 EchoControlMobileImpl
 :
 :
@@ -2917,9 +2857,6 @@ mode
 =
 static_cast
 <
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -3681,9 +3618,6 @@ AecDumpBasedSimulator
 HandleMessage
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -4025,9 +3959,6 @@ AecDumpBasedSimulator
 HandleMessage
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -4079,9 +4010,6 @@ AecDumpBasedSimulator
 HandleMessage
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
@@ -4128,9 +4056,6 @@ AecDumpBasedSimulator
 HandleMessage
 (
 const
-webrtc
-:
-:
 audioproc
 :
 :
