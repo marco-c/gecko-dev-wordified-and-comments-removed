@@ -165,8 +165,11 @@ const
 nsRect
 &
 aRect
-nsRectCornerRadii
-&
+nscoord
+aRadii
+[
+8
+]
 )
 ;
 static
@@ -312,8 +315,11 @@ nsRect
 &
 aRect
 const
-nsRectCornerRadii
-*
+nscoord
+aRadii
+[
+8
+]
 const
 nsRect
 &

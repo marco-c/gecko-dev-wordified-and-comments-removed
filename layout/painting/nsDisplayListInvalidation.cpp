@@ -229,8 +229,11 @@ aItem
 aBuilder
 )
 {
-nsRectCornerRadii
+nscoord
 radii
+[
+8
+]
 ;
 mHasRoundedCorners
 =

@@ -413,11 +413,9 @@ i
 i
 )
 {
-auto
+int
 c
 =
-Corner
-(
 aDrawClockwise
 ?
 (
@@ -438,7 +436,6 @@ i
 )
 %
 4
-)
 )
 ;
 int

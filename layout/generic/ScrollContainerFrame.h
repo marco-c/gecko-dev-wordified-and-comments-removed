@@ -368,8 +368,11 @@ nsIFrame
 :
 Sides
 aSkipSides
-nsRectCornerRadii
-&
+nscoord
+aRadii
+[
+8
+]
 )
 const
 final
@@ -2798,8 +2801,7 @@ const
 nsRect
 &
 aAsyncZoomClipRect
-const
-nsRectCornerRadii
+nscoord
 *
 aRadii
 )

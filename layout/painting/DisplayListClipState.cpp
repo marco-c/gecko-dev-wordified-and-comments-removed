@@ -259,7 +259,7 @@ nsRect
 &
 aRect
 const
-nsRectCornerRadii
+nscoord
 *
 aRadii
 DisplayItemClipChain
@@ -335,7 +335,7 @@ nsRect
 &
 aRect
 const
-nsRectCornerRadii
+nscoord
 *
 aRadii
 DisplayItemClipChain
@@ -415,7 +415,7 @@ nsRect
 &
 aRoundedRect
 const
-nsRectCornerRadii
+nscoord
 *
 aRadii
 DisplayItemClipChain
@@ -554,8 +554,11 @@ uint32_t
 aFlags
 )
 {
-nsRectCornerRadii
+nscoord
 radii
+[
+8
+]
 ;
 bool
 hasBorderRadius
@@ -608,7 +611,6 @@ aBuilder
 clipRect
 hasBorderRadius
 ?
-&
 radii
 :
 nullptr
