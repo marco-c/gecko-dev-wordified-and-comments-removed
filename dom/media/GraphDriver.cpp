@@ -3561,6 +3561,12 @@ CUBEB_STREAM_PREF_VOICE
 )
 ;
 }
+output
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
+;
 uint32_t
 latencyFrames
 =
@@ -3791,6 +3797,12 @@ CUBEB_STREAM_PREF_VOICE
 )
 ;
 }
+input
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
+;
 cubeb_stream
 *
 stream
