@@ -8227,7 +8227,6 @@ aSelectableProfile
 let
 profileObj
 =
-await
 aSelectableProfile
 .
 toDbObject
