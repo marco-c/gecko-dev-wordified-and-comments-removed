@@ -318,10 +318,10 @@ letterSpacing
 "
 android
 :
-padding
+paddingHorizontal
 =
 "
-10dp
+12dp
 "
 android
 :
