@@ -122,6 +122,17 @@ matching
 :
 SelectorCaches
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 selectors
 :
