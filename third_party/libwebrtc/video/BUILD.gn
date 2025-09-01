@@ -4109,6 +4109,14 @@ logging
 /
 rtc_base
 :
+macromagic
+"
+"
+.
+.
+/
+rtc_base
+:
 platform_thread
 "
 "
