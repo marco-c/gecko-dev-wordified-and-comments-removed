@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -53,6 +46,8 @@ RenderPipeline
 final
 :
 public
+nsWrapperCache
+public
 ObjectBase
 public
 ChildOf
@@ -70,10 +65,6 @@ GPU_DECL_JS_WRAP
 (
 RenderPipeline
 )
-const
-RawId
-mId
-;
 RenderPipeline
 (
 Device
@@ -100,11 +91,6 @@ private
 virtual
 ~
 RenderPipeline
-(
-)
-;
-void
-Cleanup
 (
 )
 ;

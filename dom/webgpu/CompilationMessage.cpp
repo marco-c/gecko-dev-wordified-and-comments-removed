@@ -102,4 +102,14 @@ aMessage
 )
 {
 }
+CompilationMessage
+:
+:
+~
+CompilationMessage
+(
+)
+=
+default
+;
 }
