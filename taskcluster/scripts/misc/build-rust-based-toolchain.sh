@@ -42,6 +42,21 @@ FEATURES
 =
 "
 "
+export
+CARGO_PROFILE_RELEASE_LTO
+=
+fat
+rust_lto_flags
+=
+"
+-
+C
+codegen
+-
+units
+=
+1
+"
 case
 "
 TARGET
@@ -106,6 +121,7 @@ fuse
 ld
 =
 lld
+rust_lto_flags
 "
 export
 CC
@@ -304,6 +320,7 @@ arg
 target
 =
 TARGET
+rust_lto_flags
 "
 export
 CC
@@ -496,6 +513,7 @@ arg
 target
 =
 TARGET
+rust_lto_flags
 "
 export
 CC
