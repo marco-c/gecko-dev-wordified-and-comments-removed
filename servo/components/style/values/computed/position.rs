@@ -330,7 +330,7 @@ AnchorFunction
 GenericAnchorFunction
 <
 Percentage
-LengthPercentage
+Inset
 >
 ;
 #
