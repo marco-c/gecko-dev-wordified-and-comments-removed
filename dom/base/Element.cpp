@@ -26553,6 +26553,7 @@ GetPresContext
 PresContextFor
 aFor
 )
+const
 {
 Document
 *

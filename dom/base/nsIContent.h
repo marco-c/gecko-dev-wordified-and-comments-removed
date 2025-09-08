@@ -1420,6 +1420,7 @@ Element
 GetEditingHost
 (
 )
+const
 ;
 bool
 SupportsLangAttr

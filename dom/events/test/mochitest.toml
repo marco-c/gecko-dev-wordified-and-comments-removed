@@ -3134,6 +3134,13 @@ html
 ]
 [
 "
+test_query_content_when_selection_in_text_control
+.
+html
+"
+]
+[
+"
 test_scroll_per_page
 .
 html

@@ -1207,6 +1207,7 @@ nsIContent
 GetEditingHost
 (
 )
+const
 {
 if
 (
@@ -1321,7 +1322,14 @@ Element
 :
 FromNode
 (
+const_cast
+<
+nsIContent
+*
+>
+(
 this
+)
 )
 ;
 }
