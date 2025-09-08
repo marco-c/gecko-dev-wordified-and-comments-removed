@@ -15,15 +15,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-TemplateLib
-.
-h
-"
-#
-include
 <
 limits
 .
