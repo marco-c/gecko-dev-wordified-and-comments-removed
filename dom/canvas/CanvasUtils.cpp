@@ -2012,7 +2012,7 @@ inner
 aWorkerPrivate
 -
 >
-GetWindow
+GetAncestorWindow
 (
 )
 ;
