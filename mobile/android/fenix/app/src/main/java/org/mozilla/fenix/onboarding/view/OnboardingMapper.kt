@@ -950,6 +950,15 @@ this
 {
 OnboardingTermsOfService
 (
+subheaderOneText
+=
+subheaderOneText
+subheaderTwoText
+=
+subheaderTwoText
+subheaderThreeText
+=
+subheaderThreeText
 lineOneText
 =
 lineOneText
