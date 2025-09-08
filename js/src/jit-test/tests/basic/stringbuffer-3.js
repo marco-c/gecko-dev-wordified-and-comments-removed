@@ -3,6 +3,11 @@ gczeal
 0
 )
 ;
+function
+test
+(
+)
+{
 let
 g
 =
@@ -92,5 +97,10 @@ s1
 .
 bufferRefCount
 3
+)
+;
+}
+test
+(
 )
 ;
