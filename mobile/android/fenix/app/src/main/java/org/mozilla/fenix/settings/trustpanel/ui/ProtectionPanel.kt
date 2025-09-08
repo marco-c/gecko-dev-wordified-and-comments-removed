@@ -1157,7 +1157,7 @@ isLocalPdf
 {
 MenuGroup
 {
-MenuTextItem
+MenuItem
 (
 label
 =
@@ -1174,6 +1174,18 @@ clear_site_data
 onClick
 =
 onClearSiteDataMenuClick
+beforeIconPainter
+=
+painterResource
+(
+id
+=
+R
+.
+drawable
+.
+mozac_ic_delete_24
+)
 )
 }
 }
