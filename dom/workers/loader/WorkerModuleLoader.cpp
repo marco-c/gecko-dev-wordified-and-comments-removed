@@ -346,7 +346,7 @@ SRIMetadata
 aReferrerScript
 -
 >
-GetURI
+BaseURL
 (
 )
 loadContext
