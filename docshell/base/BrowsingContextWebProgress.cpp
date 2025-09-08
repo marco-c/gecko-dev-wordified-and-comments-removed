@@ -103,13 +103,6 @@ RefPtr
 .
 h
 "
-namespace
-mozilla
-{
-namespace
-dom
-{
-static
 mozilla
 :
 :
@@ -121,6 +114,12 @@ BCWebProgress
 "
 )
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 static
 nsCString
 DescribeBrowsingContext
