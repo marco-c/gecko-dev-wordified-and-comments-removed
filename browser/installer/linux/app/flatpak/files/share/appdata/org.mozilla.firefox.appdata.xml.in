@@ -240,7 +240,7 @@ release
 version
 =
 "
-PKG_VERSION
+VERSION
 "
 date
 =
