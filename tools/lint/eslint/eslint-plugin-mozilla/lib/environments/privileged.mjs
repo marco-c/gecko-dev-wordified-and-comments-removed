@@ -1657,11 +1657,6 @@ InspectorUtils
 "
 readonly
 "
-InstallTriggerImpl
-:
-"
-readonly
-"
 IntersectionObserver
 :
 "

@@ -24437,13 +24437,6 @@ installTriggerDeprecation
 "
 extensions
 .
-InstallTriggerImpl
-.
-enabled
-"
-"
-extensions
-.
 InstallTrigger
 .
 enabled

@@ -60,10 +60,6 @@ expectFailure
 }
 )
 {
-setInstallTriggerPrefs
-(
-)
-;
 const
 deferredInstallCompleted
 =
