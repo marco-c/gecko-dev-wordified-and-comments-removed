@@ -15799,13 +15799,7 @@ aElement
 GetAttributeChangeHint
 (
 aAttribute
-static_cast
-<
-uint8_t
->
-(
 aModType
-)
 )
 ;
 MaybeRestyleForNthOfAttribute
