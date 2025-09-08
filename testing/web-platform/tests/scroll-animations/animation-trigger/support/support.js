@@ -508,7 +508,7 @@ let
 trigger
 =
 new
-AnimationTrigger
+TimelineTrigger
 (
 {
 behavior
