@@ -11349,11 +11349,6 @@ mClipboardCopyTriggered
 true
 ;
 }
-bool
-MutationEventsEnabled
-(
-)
-;
 void
 NotifyUserGestureActivation
 (
@@ -14632,12 +14627,6 @@ bool
 mClipboardCopyTriggered
 :
 1
-;
-Maybe
-<
-bool
->
-mMutationEventsEnabled
 ;
 Maybe
 <

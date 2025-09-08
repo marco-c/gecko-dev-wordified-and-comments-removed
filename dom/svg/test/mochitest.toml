@@ -7,11 +7,6 @@ files
 =
 [
 "
-MutationEventChecker
-.
-js
-"
-"
 a_href_destination
 .
 svg
@@ -386,13 +381,6 @@ html
 [
 "
 test_dataTypes
-.
-html
-"
-]
-[
-"
-test_dataTypesModEvents
 .
 html
 "
