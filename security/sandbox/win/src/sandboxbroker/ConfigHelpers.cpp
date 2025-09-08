@@ -8,14 +8,7 @@ h
 #
 include
 <
-winerror
-.
-h
->
-#
-include
-<
-winreg
+windows
 .
 h
 >
