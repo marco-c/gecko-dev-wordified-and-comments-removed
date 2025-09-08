@@ -24,10 +24,6 @@ DOMAttrModified
 )
 DEPRECATED_OPERATION
 (
-DOMCharacterDataModified
-)
-DEPRECATED_OPERATION
-(
 Components
 )
 DEPRECATED_OPERATION

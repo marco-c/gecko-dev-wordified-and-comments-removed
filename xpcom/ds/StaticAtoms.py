@@ -8400,16 +8400,6 @@ onDOMAttrModified
 Atom
 (
 "
-onDOMCharacterDataModified
-"
-"
-onDOMCharacterDataModified
-"
-)
-    
-Atom
-(
-"
 onDOMFocusIn
 "
 "

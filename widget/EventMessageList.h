@@ -417,15 +417,11 @@ NS_EVENT_MESSAGE
 (
 eLegacyAttrModified
 )
-NS_EVENT_MESSAGE
-(
-eLegacyCharacterDataModified
-)
 NS_EVENT_MESSAGE_FIRST_LAST
 (
 eLegacyMutationEvent
 eLegacySubtreeModified
-eLegacyCharacterDataModified
+eLegacyAttrModified
 )
 NS_EVENT_MESSAGE
 (

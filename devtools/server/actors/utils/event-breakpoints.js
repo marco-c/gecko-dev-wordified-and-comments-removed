@@ -799,17 +799,6 @@ dom
 mutation
 "
 "
-DOMCharacterDataModified
-"
-)
-nodeEvent
-(
-"
-dom
--
-mutation
-"
-"
 DOMNodeInserted
 "
 )
