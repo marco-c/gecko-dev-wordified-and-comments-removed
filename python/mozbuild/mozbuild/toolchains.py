@@ -14,7 +14,7 @@ taskgraph
 .
 generator
 import
-load_tasks_for_kind
+load_tasks_for_kinds
     
 params
 =
@@ -79,12 +79,17 @@ taskcluster
     
 toolchains
 =
-load_tasks_for_kind
+load_tasks_for_kinds
 (
 params
+[
+"
+fetch
+"
 "
 toolchain
 "
+]
 root_dir
 =
 root_dir
@@ -113,8 +118,13 @@ attributes
 .
 get
 (
+f
 "
-toolchain
+{
+t
+.
+kind
+}
 -
 alias
 "
@@ -154,7 +164,11 @@ aliased
 [
 f
 "
-toolchain
+{
+t
+.
+kind
+}
 -
 {
 alias
