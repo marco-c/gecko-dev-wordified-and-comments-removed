@@ -46607,13 +46607,9 @@ else
 {
 writer
 .
-mathFunctionNumberResult
+mathRoundNumberResult
 (
 numberId
-UnaryMathFunction
-:
-:
-Round
 )
 ;
 }
