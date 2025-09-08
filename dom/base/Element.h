@@ -2961,7 +2961,7 @@ aNotify
 nsAttrValue
 &
 aOldValue
-uint8_t
+AttrModType
 *
 aModType
 bool
@@ -2992,7 +2992,7 @@ aNotify
 nsAttrValue
 &
 aOldValue
-uint8_t
+AttrModType
 *
 aModType
 bool
@@ -7003,7 +7003,7 @@ aParsedValue
 nsIPrincipal
 *
 aSubjectPrincipal
-uint8_t
+AttrModType
 aModType
 bool
 aFireMutation

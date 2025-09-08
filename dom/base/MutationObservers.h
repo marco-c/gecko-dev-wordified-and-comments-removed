@@ -102,7 +102,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 ;
@@ -124,7 +124,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -298,7 +298,7 @@ aElement
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 ;
@@ -318,7 +318,7 @@ aElement
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 ;

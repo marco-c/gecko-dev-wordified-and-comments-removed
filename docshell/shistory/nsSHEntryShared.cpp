@@ -1497,8 +1497,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
-aModType
+AttrModType
 const
 nsAttrValue
 *

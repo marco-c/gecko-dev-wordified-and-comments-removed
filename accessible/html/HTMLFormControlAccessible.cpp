@@ -222,7 +222,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -522,7 +522,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -1482,7 +1482,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -2746,7 +2746,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -4862,7 +4862,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -5600,7 +5600,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue

@@ -75,6 +75,12 @@ JSContext
 class
 JSObject
 ;
+enum
+class
+AttrModType
+:
+uint8_t
+;
 namespace
 mozilla
 {
@@ -137,10 +143,11 @@ nsAttrValue
 >
 mOldValue
 ;
-uint8_t
+AttrModType
 mModType
-=
+{
 0
+}
 ;
 bool
 mWasCalled

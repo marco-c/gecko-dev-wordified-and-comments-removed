@@ -114,6 +114,12 @@ nsIFrame
 class
 nsAttrValue
 ;
+enum
+class
+AttrModType
+:
+uint8_t
+;
 namespace
 mozilla
 :
@@ -2102,7 +2108,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue

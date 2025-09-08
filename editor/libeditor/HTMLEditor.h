@@ -5274,7 +5274,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -5326,7 +5326,7 @@ Element
 int32_t
 nsAtom
 *
-int32_t
+AttrModType
 const
 nsAttrValue
 *
