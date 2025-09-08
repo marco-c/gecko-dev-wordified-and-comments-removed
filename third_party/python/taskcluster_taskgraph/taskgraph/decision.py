@@ -1496,6 +1496,8 @@ taskgraph
 ]
 :
         
+decision_params
+=
 find_object
 (
 graph_config
@@ -1512,11 +1514,17 @@ parameters
 "
 ]
 )
+        
+assert
+callable
 (
-            
+decision_params
+)
+        
+decision_params
+(
 graph_config
 parameters
-        
 )
     
 if

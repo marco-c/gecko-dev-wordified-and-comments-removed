@@ -1,4 +1,6 @@
 import
+importlib
+import
 inspect
 import
 os
@@ -6,6 +8,8 @@ def
 find_object
 (
 path
+:
+str
 )
 :
     
@@ -115,34 +119,11 @@ split
     
 obj
 =
-__import__
+importlib
+.
+import_module
 (
 modulepath
-)
-    
-for
-a
-in
-modulepath
-.
-split
-(
-"
-.
-"
-)
-[
-1
-:
-]
-:
-        
-obj
-=
-getattr
-(
-obj
-a
 )
     
 for

@@ -535,7 +535,19 @@ task
 -
 context
 "
+None
 )
+        
+if
+sub_config
+is
+None
+:
+            
+yield
+task
+            
+continue
         
 params_context
 =

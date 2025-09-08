@@ -855,10 +855,20 @@ if
 register_path
 :
             
+register
+=
 find_object
 (
 register_path
 )
+            
+assert
+callable
+(
+register
+)
+            
+register
 (
 self
 )
