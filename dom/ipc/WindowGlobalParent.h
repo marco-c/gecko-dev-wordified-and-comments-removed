@@ -629,6 +629,11 @@ const
 SessionHistoryInfo
 &
 aInfo
+nsIDocumentViewer
+:
+:
+PermitUnloadAction
+aAction
 std
 :
 :
@@ -647,6 +652,11 @@ aResolver
 void
 PermitUnloadChildNavigables
 (
+nsIDocumentViewer
+:
+:
+PermitUnloadAction
+aAction
 std
 :
 :
@@ -659,7 +669,7 @@ bool
 >
 &
 &
-aResolver
+aResolverm
 )
 ;
 already_AddRefed
