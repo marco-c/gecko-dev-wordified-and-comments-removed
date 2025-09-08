@@ -410,8 +410,6 @@ virtual
 nsresult
 ChildListChanged
 (
-int32_t
-aModType
 )
 ;
 void
