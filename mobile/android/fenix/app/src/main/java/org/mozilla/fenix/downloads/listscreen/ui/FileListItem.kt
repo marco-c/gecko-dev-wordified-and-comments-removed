@@ -461,6 +461,18 @@ mozilla
 .
 components
 .
+feature
+.
+media
+.
+R
+as
+mediaR
+import
+mozilla
+.
+components
+.
 ui
 .
 icons
@@ -1043,7 +1055,7 @@ painter
 =
 painterResource
 (
-R
+mediaR
 .
 drawable
 .
@@ -1098,7 +1110,7 @@ painter
 =
 painterResource
 (
-R
+mediaR
 .
 drawable
 .

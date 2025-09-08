@@ -246,6 +246,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+feature
+.
+media
+.
+R
+as
+mediaR
 /
 *
 *
@@ -386,7 +398,7 @@ drawable
 .
 media_state_play
 to
-R
+mediaR
 .
 string
 .
@@ -404,7 +416,7 @@ drawable
 .
 media_state_pause
 to
-R
+mediaR
 .
 string
 .
