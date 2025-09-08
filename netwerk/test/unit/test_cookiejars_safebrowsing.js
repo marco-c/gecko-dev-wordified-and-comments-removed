@@ -721,7 +721,12 @@ simple
 "
 "
 "
+"
+"
 true
+"
+test
+"
 URL
 +
 safebrowsingUpdatePath
