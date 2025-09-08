@@ -2195,7 +2195,7 @@ mach
 telemetry
 import
 MACH_METRICS_PATH
-resolve_is_employee
+resolve_is_employee_by_credentials
     
 from
 mozbuild
@@ -2372,7 +2372,7 @@ get_vscode_running
 )
     
 if
-resolve_is_employee
+resolve_is_employee_by_credentials
 (
 topsrcdir
 )
