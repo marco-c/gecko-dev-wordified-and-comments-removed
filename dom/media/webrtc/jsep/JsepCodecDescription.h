@@ -1819,7 +1819,7 @@ sdp
 Direction
 mDirection
 ;
-EncodingConstraints
+VideoEncodingConstraints
 mConstraints
 ;
 }

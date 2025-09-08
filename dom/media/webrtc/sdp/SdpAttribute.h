@@ -3485,7 +3485,7 @@ uint16_t
 >
 formats
 ;
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 std
@@ -3603,7 +3603,7 @@ uint16_t
 &
 formats
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 const

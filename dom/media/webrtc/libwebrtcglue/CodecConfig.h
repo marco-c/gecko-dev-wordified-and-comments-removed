@@ -482,7 +482,7 @@ mTias
 =
 0
 ;
-EncodingConstraints
+VideoEncodingConstraints
 mEncodingConstraints
 ;
 struct
@@ -494,7 +494,7 @@ std
 string
 rid
 ;
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 bool
@@ -773,7 +773,7 @@ CreateAv1Config
 int
 pt
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 const
@@ -815,7 +815,7 @@ CreateH264Config
 int
 pt
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 const
@@ -909,7 +909,7 @@ std
 string
 name
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 )
