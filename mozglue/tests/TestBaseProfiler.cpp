@@ -8050,7 +8050,11 @@ n
 #
 ifdef
 MOZ_GECKO_PROFILER
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 void
 SleepMilli
@@ -8166,7 +8170,11 @@ exit
 #
 endif
 }
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 void
 WaitUntilTimeStampChanges

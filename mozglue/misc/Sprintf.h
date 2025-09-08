@@ -178,7 +178,11 @@ MOZ_FORMAT_PRINTF
 3
 0
 )
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 int
 VsprintfBuf
@@ -295,7 +299,11 @@ MOZ_FORMAT_PRINTF
 3
 4
 )
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 int
 SprintfBuf
