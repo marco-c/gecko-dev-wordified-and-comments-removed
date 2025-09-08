@@ -9992,6 +9992,7 @@ arrowscrollbox
 if
 (
 arrowScrollbox
+?
 .
 overflowing
 )
