@@ -334,6 +334,10 @@ toolchain
 -
 linux64
 -
+libxml2
+-
+linux64
+-
 toolchain
 -
 sysroot
