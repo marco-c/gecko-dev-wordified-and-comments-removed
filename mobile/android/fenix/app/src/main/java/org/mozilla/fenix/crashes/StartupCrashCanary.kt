@@ -339,7 +339,11 @@ useNewCrashReporter
 :
 Boolean
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 )
 :
 StartupCrashCanary
@@ -365,6 +369,11 @@ createCanary
 (
 )
 {
+if
+(
+useNewCrashReporter
+)
+{
 canaryFile
 .
 touch
@@ -372,10 +381,8 @@ touch
 )
 startupCrashDetected
 =
-useNewCrashReporter
-&
-&
 true
+}
 }
 override
 suspend

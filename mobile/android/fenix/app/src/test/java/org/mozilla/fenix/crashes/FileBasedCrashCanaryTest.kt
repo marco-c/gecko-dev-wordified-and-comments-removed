@@ -321,6 +321,7 @@ createCanary
 THEN
 canary
 is
+not
 touched
 AND
 detection
@@ -361,12 +362,12 @@ createCanary
 )
 assertEquals
 (
-true
+false
 fake
 .
 touched
 )
-assertTrue
+assertFalse
 (
 fake
 .

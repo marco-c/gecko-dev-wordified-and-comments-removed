@@ -13234,7 +13234,11 @@ pref_key_use_new_crash_reporter
 )
 default
 =
-false
+Config
+.
+channel
+.
+isNightlyOrDebug
 )
 /
 *
