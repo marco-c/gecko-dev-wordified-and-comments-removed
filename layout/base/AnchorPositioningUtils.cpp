@@ -460,7 +460,7 @@ anchorContainingBlock
 aPossibleAnchorFrame
 -
 >
-GetParent
+GetContainingBlock
 (
 )
 ;
@@ -534,7 +534,7 @@ parentContainingBlock
 it
 -
 >
-GetParent
+GetContainingBlock
 (
 )
 ;
