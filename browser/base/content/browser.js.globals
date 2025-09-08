@@ -192,9 +192,6 @@ ToolbarContextMenu
 BrowserOffline
 "
 "
-WebAuthnPromptHelper
-"
-"
 CanCloseWindow
 "
 "
