@@ -1517,6 +1517,11 @@ mCanHaveClassABreakpoints
 :
 1
 ;
+bool
+mDeferAutoMarginComputation
+:
+1
+;
 }
 ;
 Flags
