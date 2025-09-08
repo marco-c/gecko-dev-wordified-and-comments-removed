@@ -180,7 +180,6 @@ MOZ_UNLIKELY
 !
 CanBeHeldWeakly
 (
-cx
 keyVal
 )
 )
@@ -387,7 +386,6 @@ if
 !
 CanBeHeldWeakly
 (
-cx
 args
 .
 get
@@ -580,7 +578,6 @@ if
 !
 CanBeHeldWeakly
 (
-cx
 args
 .
 get
