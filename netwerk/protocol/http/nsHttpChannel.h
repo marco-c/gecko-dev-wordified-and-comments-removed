@@ -3450,6 +3450,12 @@ mLNAPermission
 {
 }
 ;
+bool
+mWaitingForLNAPermission
+{
+false
+}
+;
 protected
 :
 virtual
