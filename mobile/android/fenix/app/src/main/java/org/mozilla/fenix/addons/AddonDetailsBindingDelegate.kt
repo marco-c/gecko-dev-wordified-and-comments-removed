@@ -244,6 +244,18 @@ java
 util
 .
 Locale
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 interface
 AddonDetailsInteractor
 {
@@ -412,7 +424,7 @@ resources
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -449,7 +461,7 @@ resources
 .
 getString
 (
-R
+addonsR
 .
 string
 .

@@ -184,6 +184,18 @@ fenix
 ext
 .
 showToolbar
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 private
 const
 val
@@ -383,7 +395,7 @@ showToolbar
 (
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -419,7 +431,7 @@ showSnackBar
 view
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -471,7 +483,7 @@ showSnackBar
 view
 getString
 (
-R
+addonsR
 .
 string
 .

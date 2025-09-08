@@ -342,6 +342,18 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 RunWith
 (
 RobolectricTestRunner
@@ -540,7 +552,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -571,7 +583,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -651,7 +663,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -717,7 +729,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -869,7 +881,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -951,7 +963,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1054,7 +1066,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1131,7 +1143,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1157,7 +1169,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1234,7 +1246,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1260,7 +1272,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1337,7 +1349,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -1391,7 +1403,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -2274,7 +2286,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -2352,7 +2364,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -2387,7 +2399,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -2465,7 +2477,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .
@@ -2531,7 +2543,7 @@ testContext
 .
 getString
 (
-R
+addonsR
 .
 string
 .

@@ -684,6 +684,18 @@ helpers
 ext
 .
 waitNotNull
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 /
 *
 *
@@ -895,7 +907,7 @@ optional_settings_title
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .
@@ -913,7 +925,7 @@ allow_in_private_browsing
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .
@@ -931,7 +943,7 @@ learn_more_link
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .
@@ -949,7 +961,7 @@ deny_button
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .
@@ -967,7 +979,7 @@ allow_button
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .
@@ -4444,7 +4456,7 @@ allow_button
 "
 getStringResource
 (
-R
+addonsR
 .
 string
 .

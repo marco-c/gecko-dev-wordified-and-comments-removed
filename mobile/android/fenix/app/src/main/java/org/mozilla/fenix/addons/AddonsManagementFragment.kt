@@ -334,6 +334,18 @@ fenix
 theme
 .
 ThemeManager
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 /
 *
 *
@@ -833,7 +845,7 @@ it
 root
 getString
 (
-R
+addonsR
 .
 string
 .

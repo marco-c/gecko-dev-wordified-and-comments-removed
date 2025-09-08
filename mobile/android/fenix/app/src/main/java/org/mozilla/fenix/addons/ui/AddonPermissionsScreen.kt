@@ -376,6 +376,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+feature
+.
+addons
+.
+R
+as
+addonsR
 /
 *
 *
@@ -1467,7 +1479,7 @@ learnMoreText
 =
 stringResource
 (
-R
+addonsR
 .
 string
 .
@@ -1778,7 +1790,7 @@ description
 =
 stringResource
 (
-R
+addonsR
 .
 string
 .
