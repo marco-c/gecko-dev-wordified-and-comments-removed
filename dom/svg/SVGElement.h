@@ -1802,16 +1802,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-void
-MaybeSerializeAttrBeforeRemoval
-(
-nsAtom
-*
-aName
-bool
-aNotify
-)
-;
 nsAtom
 *
 GetEventNameForAttr

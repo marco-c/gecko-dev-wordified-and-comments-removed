@@ -527,12 +527,6 @@ update
 "
 )
 ;
-const
-bool
-hasMutationEventListeners
-=
-false
-;
 nsAttrValue
 attrValue
 (
@@ -585,7 +579,6 @@ nullptr
 aData
 .
 mModType
-hasMutationEventListeners
 true
 kDontCallAfterSetAttr
 document
