@@ -1164,6 +1164,7 @@ win
 RefreshScale
 (
 true
+true
 )
 ;
 }

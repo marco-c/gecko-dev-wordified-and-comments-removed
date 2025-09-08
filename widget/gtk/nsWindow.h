@@ -1822,6 +1822,10 @@ RefreshScale
 (
 bool
 aRefreshScreen
+bool
+aForceRefresh
+=
+false
 )
 ;
 static

@@ -9552,6 +9552,11 @@ d
 hint
 %
 d
+"
+"
+permanent
+%
+d
 \
 n
 "
@@ -9560,6 +9565,9 @@ mPopupAnchored
 int
 (
 mPopupType
+)
+WaylandPopupIsPermanent
+(
 )
 )
 ;
@@ -11455,13 +11463,6 @@ else
 {
 if
 (
-IsPopupDirectionRTL
-(
-)
-)
-{
-if
-(
 mPopupPosition
 .
 x
@@ -11476,9 +11477,7 @@ x
 x
 ;
 }
-}
 else
-{
 if
 (
 mPopupPosition
@@ -11502,7 +11501,6 @@ x
 -
 popupWidth
 ;
-}
 }
 }
 LOG
@@ -27039,6 +27037,8 @@ RefreshScale
 (
 bool
 aRefreshScreen
+bool
+aForceRefresh
 )
 {
 if
@@ -27096,6 +27096,9 @@ const
 bool
 scaleChanged
 =
+aForceRefresh
+|
+|
 GdkCeiledScaleFactor
 (
 )
