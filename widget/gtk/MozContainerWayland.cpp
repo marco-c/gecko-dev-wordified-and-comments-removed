@@ -1134,7 +1134,7 @@ if
 StaticPrefs
 :
 :
-widget_wayland_fractional_scale_enabled_AtStartup
+widget_wayland_fractional_scale_enabled
 (
 )
 )
