@@ -246,6 +246,9 @@ trace
 JSTracer
 *
 trc
+ICFallbackStub
+*
+fallbackStub
 )
 ;
 bool
@@ -254,6 +257,9 @@ traceWeak
 JSTracer
 *
 trc
+ICFallbackStub
+*
+fallbackStub
 )
 ;
 }
