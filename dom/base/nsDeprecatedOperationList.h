@@ -8,14 +8,6 @@ DOMNodeRemoved
 )
 DEPRECATED_OPERATION
 (
-DOMNodeRemovedFromDocument
-)
-DEPRECATED_OPERATION
-(
-DOMNodeInsertedIntoDocument
-)
-DEPRECATED_OPERATION
-(
 Components
 )
 DEPRECATED_OPERATION
