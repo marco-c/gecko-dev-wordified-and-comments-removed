@@ -747,15 +747,6 @@ out
 screen
 .
 *
-on
-the
-marketing
-data
-opt
-out
-screen
-.
-*
 param
 onFinish
 Invoked
