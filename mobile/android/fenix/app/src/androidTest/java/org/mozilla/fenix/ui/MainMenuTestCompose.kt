@@ -3950,6 +3950,12 @@ genericURL
 url
 )
 {
+verifyPageContent
+(
+genericURL
+.
+content
+)
 }
 .
 openThreeDotMenu
@@ -3957,6 +3963,9 @@ openThreeDotMenu
 composeTestRule
 )
 {
+verifyTryRecommendedExtensionButton
+(
+)
 }
 .
 openExtensionsFromMainMenu
@@ -3995,6 +4004,10 @@ openThreeDotMenu
 composeTestRule
 )
 {
+verifyExtensionsButtonWithInstalledExtension
+(
+recommendedExtensionTitle
+)
 }
 .
 openExtensionsFromMainMenu
