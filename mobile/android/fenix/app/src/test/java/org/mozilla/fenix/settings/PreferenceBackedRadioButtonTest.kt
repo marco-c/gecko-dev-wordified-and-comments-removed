@@ -254,6 +254,14 @@ kotlin
 random
 .
 Random
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 RobolectricTestRunner
@@ -399,7 +407,7 @@ R
 styleable
 .
 PreferenceBackedRadioButton
-R
+appcompatR
 .
 attr
 .

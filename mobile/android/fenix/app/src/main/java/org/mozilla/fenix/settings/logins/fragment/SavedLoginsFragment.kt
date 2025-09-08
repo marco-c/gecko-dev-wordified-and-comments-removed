@@ -678,6 +678,14 @@ fenix
 theme
 .
 FirefoxTheme
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 SuppressWarnings
 (
 "
@@ -1813,7 +1821,7 @@ searchView
 .
 findViewById
 (
-R
+appcompatR
 .
 id
 .

@@ -95,12 +95,6 @@ androidx
 .
 appcompat
 .
-R
-import
-androidx
-.
-appcompat
-.
 widget
 .
 AppCompatImageView
@@ -274,6 +268,14 @@ mockito
 Mockito
 .
 verify
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 AndroidJUnit4
@@ -516,7 +518,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -531,7 +533,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -548,7 +550,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -560,7 +562,7 @@ TwoStatePrimary
 "
 secondaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -708,7 +710,7 @@ Button
 (
 imageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -720,7 +722,7 @@ Button01
 "
 iconTintColorResource
 =
-R
+appcompatR
 .
 color
 .
@@ -818,7 +820,7 @@ Button
 (
 imageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -934,7 +936,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -946,7 +948,7 @@ TwoStateEnabled
 "
 secondaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1041,7 +1043,7 @@ invoked
 val
 primaryResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1049,7 +1051,7 @@ abc_ic_go_search_api_material
 val
 secondaryResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1071,7 +1073,7 @@ primary
 "
 primaryImageTintResource
 =
-R
+appcompatR
 .
 color
 .
@@ -1086,7 +1088,7 @@ secondary
 "
 secondaryImageTintResource
 =
-R
+appcompatR
 .
 color
 .
@@ -1120,7 +1122,7 @@ primary
 "
 primaryImageTintResource
 =
-R
+appcompatR
 .
 color
 .
@@ -1135,7 +1137,7 @@ secondary
 "
 secondaryImageTintResource
 =
-R
+appcompatR
 .
 color
 .
@@ -1185,7 +1187,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1197,7 +1199,7 @@ TwoStateEnabled
 "
 secondaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1315,7 +1317,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1327,7 +1329,7 @@ TwoStateEnabled
 "
 secondaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1424,7 +1426,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -1552,7 +1554,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -1714,7 +1716,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -1735,7 +1737,7 @@ BrowserMenuItemToolbar
 .
 Button
 (
-R
+appcompatR
 .
 drawable
 .
@@ -1745,7 +1747,7 @@ Button02
 "
 iconTintColorResource
 =
-R
+appcompatR
 .
 color
 .
@@ -1760,7 +1762,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1772,7 +1774,7 @@ TwoStatePrimary
 "
 secondaryImageResource
 =
-R
+appcompatR
 .
 drawable
 .
@@ -1837,7 +1839,7 @@ tint
 getColor
 (
 testContext
-R
+appcompatR
 .
 color
 .
@@ -1953,7 +1955,7 @@ tint
 getColor
 (
 testContext
-R
+appcompatR
 .
 color
 .

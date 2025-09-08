@@ -266,6 +266,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+com
+.
+google
+.
+android
+.
+material
+.
+R
+as
+materialR
 /
 *
 *
@@ -351,7 +363,7 @@ View
 ?
 >
 (
-R
+materialR
 .
 id
 .

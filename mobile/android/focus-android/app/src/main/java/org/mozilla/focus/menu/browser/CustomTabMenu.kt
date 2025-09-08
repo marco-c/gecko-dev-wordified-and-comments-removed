@@ -255,7 +255,7 @@ appcompat
 .
 R
 as
-appCompatR
+appcompatR
 import
 mozilla
 .
@@ -1045,7 +1045,7 @@ theme
 .
 resolveAttribute
 (
-appCompatR
+appcompatR
 .
 attr
 .

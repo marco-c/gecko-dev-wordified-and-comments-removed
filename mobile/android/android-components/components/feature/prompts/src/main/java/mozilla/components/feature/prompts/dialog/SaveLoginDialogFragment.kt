@@ -431,7 +431,7 @@ material
 .
 R
 as
-MaterialR
+materialR
 private
 const
 val
@@ -851,7 +851,7 @@ findViewById
 View
 >
 (
-MaterialR
+materialR
 .
 id
 .

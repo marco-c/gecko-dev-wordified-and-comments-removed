@@ -352,6 +352,14 @@ kotlin
 math
 .
 roundToInt
+import
+androidx
+.
+preference
+.
+R
+as
+preferenceR
 /
 *
 *
@@ -540,7 +548,7 @@ defStyleAttr
 :
 Int
 =
-R
+preferenceR
 .
 attr
 .

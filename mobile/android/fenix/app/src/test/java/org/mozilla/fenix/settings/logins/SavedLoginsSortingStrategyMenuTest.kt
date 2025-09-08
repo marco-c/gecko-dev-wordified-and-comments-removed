@@ -226,6 +226,14 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 RunWith
 (
 RobolectricTestRunner
@@ -373,7 +381,7 @@ context
 .
 getColorFromAttr
 (
-R
+appcompatR
 .
 attr
 .
@@ -432,7 +440,7 @@ context
 .
 getColorFromAttr
 (
-R
+appcompatR
 .
 attr
 .

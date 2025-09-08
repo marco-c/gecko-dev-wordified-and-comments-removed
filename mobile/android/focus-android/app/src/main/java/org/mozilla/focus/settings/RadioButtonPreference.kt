@@ -210,6 +210,14 @@ mozilla
 focus
 .
 R
+import
+androidx
+.
+preference
+.
+R
+as
+preferenceR
 interface
 GroupableRadioButton
 {
@@ -483,11 +491,7 @@ RadioButtonPreference
 getAttr
 (
 context
-androidx
-.
-preference
-.
-R
+preferenceR
 .
 attr
 .

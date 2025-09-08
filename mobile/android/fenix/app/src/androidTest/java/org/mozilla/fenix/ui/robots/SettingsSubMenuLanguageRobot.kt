@@ -226,6 +226,14 @@ fenix
 helpers
 .
 click
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 class
 SettingsSubMenuLanguageRobot
 {
@@ -729,7 +737,7 @@ onView
 (
 withId
 (
-R
+appcompatR
 .
 id
 .

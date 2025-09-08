@@ -184,6 +184,14 @@ utils
 view
 .
 uncheckAll
+import
+androidx
+.
+preference
+.
+R
+as
+preferenceR
 Suppress
 (
 "
@@ -313,11 +321,7 @@ RadioButtonPreference
 getAttr
 (
 context
-androidx
-.
-preference
-.
-R
+preferenceR
 .
 attr
 .

@@ -71,12 +71,6 @@ androidx
 .
 appcompat
 .
-R
-import
-androidx
-.
-appcompat
-.
 view
 .
 ContextThemeWrapper
@@ -92,6 +86,14 @@ test
 robolectric
 .
 testContext
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 /
 *
 *
@@ -128,7 +130,7 @@ get
 ContextThemeWrapper
 (
 testContext
-R
+appcompatR
 .
 style
 .

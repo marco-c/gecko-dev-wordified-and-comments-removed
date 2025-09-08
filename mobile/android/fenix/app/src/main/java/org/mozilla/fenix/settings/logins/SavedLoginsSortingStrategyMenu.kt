@@ -160,6 +160,14 @@ logins
 interactor
 .
 SavedLoginsInteractor
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 class
 SavedLoginsSortingStrategyMenu
 (
@@ -286,7 +294,7 @@ context
 .
 getColorFromAttr
 (
-R
+appcompatR
 .
 attr
 .

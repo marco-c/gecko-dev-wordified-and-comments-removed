@@ -508,6 +508,18 @@ preferences
 downloadlanguages
 .
 DownloadLanguagesFeature
+import
+com
+.
+google
+.
+android
+.
+material
+.
+R
+as
+materialR
 /
 /
 Friction
@@ -700,7 +712,7 @@ View
 ?
 >
 (
-R
+materialR
 .
 id
 .

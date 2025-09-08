@@ -291,7 +291,7 @@ browser
 .
 R
 as
-androidxBrowserR
+browserR
 import
 mozilla
 .
@@ -547,7 +547,7 @@ Style
 (
 dividerColor
 =
-androidxBrowserR
+browserR
 .
 color
 .

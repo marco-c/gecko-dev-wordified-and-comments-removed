@@ -790,6 +790,18 @@ fenix
 utils
 .
 exitSubmenu
+import
+com
+.
+google
+.
+android
+.
+material
+.
+R
+as
+materialR
 /
 *
 *
@@ -965,7 +977,7 @@ View
 ?
 >
 (
-R
+materialR
 .
 id
 .

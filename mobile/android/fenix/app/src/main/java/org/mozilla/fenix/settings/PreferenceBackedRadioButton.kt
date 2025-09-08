@@ -132,6 +132,14 @@ fenix
 ext
 .
 settings
+import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
 /
 *
 *
@@ -240,7 +248,7 @@ defStyleAttr
 :
 Int
 =
-R
+appcompatR
 .
 attr
 .

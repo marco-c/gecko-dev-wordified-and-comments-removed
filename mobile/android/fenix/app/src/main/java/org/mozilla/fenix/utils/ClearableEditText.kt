@@ -165,6 +165,14 @@ fenix
 .
 R
 import
+androidx
+.
+appcompat
+.
+R
+as
+appcompatR
+import
 mozilla
 .
 components
@@ -213,7 +221,7 @@ defStyleAttr
 :
 Int
 =
-R
+appcompatR
 .
 attr
 .

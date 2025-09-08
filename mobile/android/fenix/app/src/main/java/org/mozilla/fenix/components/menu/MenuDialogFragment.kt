@@ -1138,6 +1138,18 @@ webcompat
 middleware
 .
 WebCompatInfoDeserializer
+import
+com
+.
+google
+.
+android
+.
+material
+.
+R
+as
+materialR
 /
 /
 EXPANDED_MIN_RATIO
@@ -1466,7 +1478,7 @@ View
 ?
 >
 (
-R
+materialR
 .
 id
 .
@@ -4838,7 +4850,7 @@ View
 ?
 >
 (
-R
+materialR
 .
 id
 .
