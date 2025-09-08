@@ -207,7 +207,7 @@ MailIntegration
 gRemoteControl
 "
 "
-gPrivateBrowsingUI
+PrivateBrowsingUI
 "
 "
 switchToTabHavingURI

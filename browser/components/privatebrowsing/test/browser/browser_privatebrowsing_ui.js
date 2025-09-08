@@ -81,13 +81,11 @@ function
 {
 ok
 (
-aWindow
-.
-gPrivateBrowsingUI
+PrivateBrowsingUI
 "
 The
-gPrivateBrowsingUI
-object
+PrivateBrowsingUI
+module
 exists
 "
 )
