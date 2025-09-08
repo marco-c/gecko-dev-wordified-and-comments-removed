@@ -192,15 +192,6 @@ include
 "
 mozilla
 /
-TemplateLib
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
