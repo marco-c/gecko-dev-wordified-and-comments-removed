@@ -5553,7 +5553,9 @@ param
 {
 object
 }
+[
 details
+]
 An
 object
 describing
@@ -5712,7 +5714,7 @@ element
 *
 param
 {
-DOMElement
+HTMLElement
 }
 [
 details

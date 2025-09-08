@@ -7781,7 +7781,7 @@ timing
 *
 returns
 {
-DOMElement
+HTMLElement
 }
 the
 selected

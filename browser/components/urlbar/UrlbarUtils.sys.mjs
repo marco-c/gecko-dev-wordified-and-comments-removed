@@ -4212,7 +4212,7 @@ object
 *
 param
 {
-Element
+HTMLElement
 }
 [
 options

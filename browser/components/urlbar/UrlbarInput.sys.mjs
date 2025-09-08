@@ -7066,7 +7066,7 @@ picked
 *
 param
 {
-Element
+HTMLElement
 }
 element
 The
@@ -7192,7 +7192,7 @@ result
 *
 param
 {
-DOMElement
+HTMLElement
 }
 element
 the
@@ -21415,7 +21415,7 @@ result
 *
 param
 {
-DOMElement
+HTMLElement
 }
 element
 the
