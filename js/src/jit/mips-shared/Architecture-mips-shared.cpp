@@ -88,15 +88,6 @@ endif
 endif
 #
 define
-HWCAP_MIPS
-(
-1
-<
-<
-28
-)
-#
-define
 HWCAP_LOONGSON
 (
 1
@@ -137,7 +128,7 @@ get_mips_flags
 uint32_t
 flags
 =
-HWCAP_MIPS
+0
 ;
 #
 if
