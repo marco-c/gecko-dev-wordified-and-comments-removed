@@ -109,3 +109,10 @@ test_site_compatibility
 py
 "
 ]
+[
+"
+test_telemetry_instrumentation
+.
+py
+"
+]
