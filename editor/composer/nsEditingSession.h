@@ -177,7 +177,7 @@ aControllerCreatorFn
 mozIDOMWindowProxy
 *
 aWindow
-nsISupports
+nsISupportsWeakReference
 *
 aContext
 uint32_t
@@ -191,7 +191,7 @@ SetContextOnControllerById
 nsIControllers
 *
 aControllers
-nsISupports
+nsISupportsWeakReference
 *
 aContext
 uint32_t
