@@ -70,6 +70,8 @@ kind
 dependencies
 :
 -
+fetch
+-
 toolchain
 transforms
 :
@@ -527,12 +529,14 @@ winchecksec
 -
 vs
 -
-windows
--
-rs
--
 sysroot
 -
 wasm32
 -
 wasi
+fetch
+:
+-
+windows
+-
+rs

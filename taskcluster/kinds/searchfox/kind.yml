@@ -1103,10 +1103,6 @@ wasi
 -
 vs
 -
-windows
--
-rs
--
 dxc
 -
 x86_64
@@ -1126,6 +1122,10 @@ upx
 95
 -
 win
+-
+windows
+-
+rs
 android
 -
 aarch64

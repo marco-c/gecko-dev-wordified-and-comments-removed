@@ -76,7 +76,7 @@ using
 mozharness
 fetches
 :
-toolchain
+fetch
 :
 -
 windows

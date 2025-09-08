@@ -3461,10 +3461,6 @@ wasm32
 wasi
 -
 vs
--
-windows
--
-rs
 fetch
 :
 -
@@ -3475,6 +3471,10 @@ upx
 95
 -
 win
+-
+windows
+-
+rs
 win64
 -
 nightlyasrelease
@@ -3657,10 +3657,6 @@ wasi
 -
 vs
 -
-windows
--
-rs
--
 dxc
 -
 x86_64
@@ -3680,6 +3676,10 @@ upx
 95
 -
 win
+-
+windows
+-
+rs
 win64
 -
 shippable
@@ -3851,10 +3851,6 @@ wasi
 -
 vs
 -
-windows
--
-rs
--
 dxc
 -
 x86_64
@@ -3874,6 +3870,10 @@ upx
 95
 -
 win
+-
+windows
+-
+rs
 win64
 -
 aarch64
@@ -4054,10 +4054,6 @@ wasi
 -
 vs
 -
-windows
--
-rs
--
 dxc
 -
 aarch64
@@ -4077,3 +4073,7 @@ upx
 95
 -
 win
+-
+windows
+-
+rs
