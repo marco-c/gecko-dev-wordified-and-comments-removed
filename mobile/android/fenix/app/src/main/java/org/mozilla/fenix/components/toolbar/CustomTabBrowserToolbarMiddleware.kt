@@ -837,6 +837,18 @@ mozilla
 .
 components
 .
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -2217,7 +2229,7 @@ drawable
 mozac_ic_page_portrait_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -2259,7 +2271,7 @@ drawable
 mozac_ic_shield_checkmark_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -2285,7 +2297,7 @@ drawable
 mozac_ic_shield_slash_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .

@@ -1016,6 +1016,18 @@ icons
 R
 as
 iconsR
+import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+R
+as
+tabcounterR
 private
 const
 val
@@ -2421,7 +2433,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -2431,7 +2443,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .
@@ -2466,7 +2478,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -2476,7 +2488,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .
@@ -2798,7 +2810,7 @@ context
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -2818,7 +2830,7 @@ context
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .

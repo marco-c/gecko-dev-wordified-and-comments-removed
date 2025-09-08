@@ -1073,6 +1073,18 @@ mozilla
 .
 components
 .
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
+import
+mozilla
+.
+components
+.
 compose
 .
 browser
@@ -3042,7 +3054,7 @@ drawable
 mozac_ic_cross_circle_fill_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .

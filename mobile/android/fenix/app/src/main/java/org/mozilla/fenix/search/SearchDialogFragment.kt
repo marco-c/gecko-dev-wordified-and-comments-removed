@@ -1060,6 +1060,18 @@ fenix
 settings
 .
 SupportUtils
+import
+mozilla
+.
+components
+.
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
 typealias
 SearchDialogFragmentStore
 =
@@ -2073,7 +2085,7 @@ view
 .
 findViewById
 (
-R
+toolbarR
 .
 id
 .

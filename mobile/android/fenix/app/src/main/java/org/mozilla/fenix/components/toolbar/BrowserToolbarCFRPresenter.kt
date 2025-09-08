@@ -428,6 +428,18 @@ fenix
 utils
 .
 Settings
+import
+mozilla
+.
+components
+.
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
 /
 *
 *
@@ -926,7 +938,7 @@ toolbar
 .
 findViewById
 (
-R
+toolbarR
 .
 id
 .
@@ -1202,7 +1214,7 @@ toolbar
 .
 findViewById
 (
-R
+toolbarR
 .
 id
 .
