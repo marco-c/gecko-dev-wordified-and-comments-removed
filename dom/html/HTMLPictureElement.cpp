@@ -186,6 +186,8 @@ aState
 nsINode
 *
 aNewParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 MOZ_ASSERT
@@ -315,6 +317,7 @@ aKid
 aNotify
 aState
 aNewParent
+aMutationEffectOnScript
 )
 ;
 }
@@ -338,6 +341,8 @@ aRv
 nsINode
 *
 aOldParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 nsGenericHTMLElement
@@ -350,6 +355,7 @@ aBeforeThis
 aNotify
 aRv
 aOldParent
+aMutationEffectOnScript
 )
 ;
 if

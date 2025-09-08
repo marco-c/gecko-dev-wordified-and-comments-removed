@@ -236,6 +236,8 @@ aNodeValue
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 CharacterData
@@ -245,6 +247,7 @@ SetNodeValueInternal
 (
 aNodeValue
 aError
+aMutationEffectOnScript
 )
 ;
 if

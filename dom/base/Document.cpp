@@ -37773,6 +37773,8 @@ aRv
 nsINode
 *
 aOldParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 const
@@ -37838,6 +37840,7 @@ aBeforeThis
 aNotify
 aRv
 aOldParent
+aMutationEffectOnScript
 )
 ;
 if
@@ -37877,6 +37880,8 @@ aState
 nsINode
 *
 aNewParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 Maybe
@@ -37962,6 +37967,7 @@ aKid
 aNotify
 nullptr
 aNewParent
+aMutationEffectOnScript
 )
 ;
 MOZ_ASSERT

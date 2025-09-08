@@ -5334,6 +5334,13 @@ nsAString
 aValue
 bool
 aTryReuse
+MutationEffectOnScript
+aMutationEffectOnScript
+=
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 )
 ;
 [

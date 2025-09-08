@@ -140,6 +140,13 @@ mozilla
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
+=
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 )
 override
 ;

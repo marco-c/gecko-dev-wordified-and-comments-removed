@@ -1711,6 +1711,17 @@ mozilla
 /
 dom
 /
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NameSpaceConstants
 .
 h
@@ -33793,6 +33804,8 @@ nsAString
 aValue
 bool
 aTryReuse
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 nsCOMPtr
@@ -33987,6 +34000,9 @@ RemoveChildNode
 (
 child
 true
+nullptr
+nullptr
+aMutationEffectOnScript
 )
 ;
 }
@@ -34066,6 +34082,9 @@ RemoveChildNode
 (
 lastChild
 true
+nullptr
+nullptr
+aMutationEffectOnScript
 )
 ;
 }
@@ -34179,6 +34198,7 @@ AppendChildTo
 textContent
 true
 rv
+aMutationEffectOnScript
 )
 ;
 mb

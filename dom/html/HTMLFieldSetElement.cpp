@@ -474,6 +474,8 @@ aRv
 nsINode
 *
 aOldParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 bool
@@ -595,6 +597,7 @@ aBeforeThis
 aNotify
 aRv
 aOldParent
+aMutationEffectOnScript
 )
 ;
 if
@@ -639,6 +642,8 @@ aState
 nsINode
 *
 aNewParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 bool
@@ -723,6 +728,7 @@ aKid
 aNotify
 aState
 aNewParent
+aMutationEffectOnScript
 )
 ;
 if

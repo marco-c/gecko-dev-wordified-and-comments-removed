@@ -2044,6 +2044,12 @@ RemoveChildNode
 (
 aNode
 true
+nullptr
+nullptr
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 }
@@ -2132,6 +2138,12 @@ RemoveChildNode
 (
 child
 true
+nullptr
+nullptr
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 ErrorResult

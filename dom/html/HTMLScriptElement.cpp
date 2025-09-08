@@ -934,6 +934,10 @@ this
 *
 compliantString
 true
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 }
@@ -1058,10 +1062,14 @@ return
 nsGenericHTMLElement
 :
 :
-SetInnerText
+SetInnerTextInternal
 (
 *
 compliantString
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 }
@@ -1224,6 +1232,10 @@ SetTextContentInternal
 compliantString
 aSubjectPrincipal
 aError
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 }

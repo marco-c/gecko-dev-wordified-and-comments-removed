@@ -171,6 +171,7 @@ aSubjectPrincipal
 ErrorResult
 &
 aError
+MutationEffectOnScript
 )
 override
 ;
@@ -212,6 +213,13 @@ aNodeValue
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
+=
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 )
 override
 ;

@@ -800,6 +800,7 @@ aScriptedPrincipal
 ErrorResult
 &
 aError
+MutationEffectOnScript
 )
 {
 if
