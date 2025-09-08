@@ -289,7 +289,16 @@ border
 -
 radius
 :
-8px
+var
+(
+-
+-
+border
+-
+radius
+-
+medium
+)
 ;
 border
 :
