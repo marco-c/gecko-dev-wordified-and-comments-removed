@@ -372,7 +372,6 @@ engines
 =
 "
 gecko
-servo
 "
 initial_specified_value
 =
