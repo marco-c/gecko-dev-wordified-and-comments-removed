@@ -3898,12 +3898,7 @@ WeakMap
 ;
 /
 /
-Start
-the
-asynchronous
-queries
-to
-retrieve
+Retrieve
 history
 and
 session
@@ -3914,13 +3909,6 @@ publicList
 addView
 (
 this
-)
-.
-catch
-(
-console
-.
-error
 )
 ;
 let

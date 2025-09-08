@@ -422,13 +422,6 @@ removeView
 (
 downloadListener
 )
-.
-catch
-(
-console
-.
-error
-)
 ;
 gBrowser
 .
@@ -464,7 +457,6 @@ onDownloadChanged
 downloadVerifier
 }
 ;
-return
 downloadList
 .
 addView
@@ -472,15 +464,6 @@ addView
 downloadListener
 )
 ;
-}
-)
-.
-then
-(
-function
-(
-)
-{
 BrowserTestUtils
 .
 startLoadingURIString
