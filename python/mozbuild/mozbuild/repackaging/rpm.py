@@ -823,10 +823,10 @@ CHANGELOG_DATE
 "
 ]
 =
-application_ini_data
+build_variables
 [
 "
-timestamp
+TIMESTAMP
 "
 ]
 .
