@@ -464,8 +464,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -495,7 +493,6 @@ mSVGElement
 >
 DidChangeViewBox
 (
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -538,9 +535,6 @@ Maybe
 mozAutoDocUpdate
 >
 mUpdateBatch
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 bool
 mDoSetAttr

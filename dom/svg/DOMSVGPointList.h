@@ -161,8 +161,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mValue
 -
 >
@@ -207,7 +205,6 @@ Element
 >
 DidChangePointList
 (
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -252,9 +249,6 @@ T
 *
 const
 mValue
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 }
 ;

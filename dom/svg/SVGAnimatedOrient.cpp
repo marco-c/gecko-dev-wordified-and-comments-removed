@@ -236,8 +236,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -272,7 +270,6 @@ mSVGElement
 >
 DidChangeOrient
 (
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -316,9 +313,6 @@ SVGElement
 *
 const
 mSVGElement
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 bool
 mDoSetAttr

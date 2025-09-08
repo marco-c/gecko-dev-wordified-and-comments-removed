@@ -140,8 +140,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mValue
 -
 >
@@ -186,7 +184,6 @@ Element
 >
 DidChangeTransformList
 (
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -231,9 +228,6 @@ Maybe
 mozAutoDocUpdate
 >
 mUpdateBatch
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 }
 ;

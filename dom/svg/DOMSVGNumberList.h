@@ -133,8 +133,6 @@ value
 "
 )
 ;
-mEmptyOrOldValue
-=
 mValue
 -
 >
@@ -177,7 +175,6 @@ mValue
 AttrEnum
 (
 )
-mEmptyOrOldValue
 *
 this
 )
@@ -212,9 +209,6 @@ T
 *
 const
 mValue
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 }
 ;

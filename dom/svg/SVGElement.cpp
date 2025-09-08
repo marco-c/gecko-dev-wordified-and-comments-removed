@@ -7540,7 +7540,7 @@ TakeDeclarationBlock
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -7555,9 +7555,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-nsAttrValue
-emptyOrOldAttrValue
-;
 const
 nsAttrValue
 *
@@ -7568,31 +7565,6 @@ GetParsedAttr
 aName
 )
 ;
-if
-(
-attrValue
-&
-&
-nsContentUtils
-:
-:
-WantMutationEvents
-(
-this
-NS_EVENT_BITS_MUTATION_ATTRMODIFIED
-this
-)
-)
-{
-emptyOrOldAttrValue
-.
-SetToSerialized
-(
-*
-attrValue
-)
-;
-}
 const
 AttrModType
 modType
@@ -7622,6 +7594,10 @@ modType
 ;
 const
 nsAttrValue
+emptyAttrValue
+;
+const
+nsAttrValue
 *
 value
 =
@@ -7630,7 +7606,7 @@ attrValue
 attrValue
 :
 &
-emptyOrOldAttrValue
+emptyAttrValue
 ;
 BeforeSetAttr
 (
@@ -7639,9 +7615,6 @@ aName
 value
 kNotifyDocumentObservers
 )
-;
-return
-emptyOrOldAttrValue
 ;
 }
 void
@@ -7653,10 +7626,6 @@ DidChangeValue
 nsAtom
 *
 aName
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 nsAttrValue
 &
 aNewValue
@@ -7695,13 +7664,17 @@ AttrModType
 :
 Addition
 ;
+const
+nsAttrValue
+emptyValue
+;
 SetAttrAndNotify
 (
 kNameSpaceID_None
 aName
 nullptr
 &
-aEmptyOrOldValue
+emptyValue
 aNewValue
 nullptr
 modType
@@ -8053,7 +8026,7 @@ set
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -8067,7 +8040,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 GetLengthInfo
@@ -8092,10 +8064,6 @@ DidChangeLength
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -8168,7 +8136,6 @@ aAttrEnum
 ]
 .
 mName
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -8540,7 +8507,7 @@ nullptr
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -8554,7 +8521,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 GetLengthListInfo
@@ -8579,10 +8545,6 @@ DidChangeLengthList
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -8660,7 +8622,6 @@ aAttrEnum
 ]
 .
 mName
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -8858,7 +8819,7 @@ nullptr
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -8872,7 +8833,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 GetNumberListInfo
@@ -8897,10 +8857,6 @@ DidChangeNumberList
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -8978,7 +8934,6 @@ aAttrEnum
 ]
 .
 mName
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -9112,7 +9067,7 @@ return
 nullptr
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -9140,7 +9095,6 @@ list
 "
 )
 ;
-return
 WillChangeValue
 (
 GetPointListAttrName
@@ -9156,10 +9110,6 @@ SVGElement
 :
 DidChangePointList
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -9205,7 +9155,6 @@ DidChangeValue
 GetPointListAttrName
 (
 )
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -9248,7 +9197,7 @@ GetPointListAttrName
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -9277,7 +9226,6 @@ list
 "
 )
 ;
-return
 WillChangeValue
 (
 GetPathDataAttrName
@@ -9293,10 +9241,6 @@ SVGElement
 :
 DidChangePathSegList
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -9343,7 +9287,6 @@ DidChangeValue
 GetPathDataAttrName
 (
 )
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -9676,7 +9619,7 @@ nullptr
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -9695,7 +9638,6 @@ GetComposedDoc
 kDontNotifyDocumentObservers
 )
 ;
-return
 WillChangeValue
 (
 GetNumberPairInfo
@@ -9720,10 +9662,6 @@ DidChangeNumberPair
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 )
 {
 NumberPairAttributesInfo
@@ -9802,7 +9740,6 @@ aAttrEnum
 ]
 .
 mName
-aEmptyOrOldValue
 newValue
 updateBatch
 )
@@ -10038,7 +9975,7 @@ nullptr
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -10052,7 +9989,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 GetIntegerPairInfo
@@ -10077,10 +10013,6 @@ DidChangeIntegerPair
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -10154,7 +10086,6 @@ aAttrEnum
 ]
 .
 mName
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -10378,7 +10309,7 @@ return
 nullptr
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -10390,7 +10321,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 nsGkAtoms
@@ -10407,10 +10337,6 @@ SVGElement
 :
 DidChangeOrient
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -10457,7 +10383,6 @@ nsGkAtoms
 :
 :
 orient
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -10476,7 +10401,7 @@ return
 nullptr
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -10488,7 +10413,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 nsGkAtoms
@@ -10505,10 +10429,6 @@ SVGElement
 :
 DidChangeViewBox
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -10555,7 +10475,6 @@ nsGkAtoms
 :
 :
 viewBox
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -10574,7 +10493,7 @@ return
 nullptr
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -10586,7 +10505,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 nsGkAtoms
@@ -10603,10 +10521,6 @@ SVGElement
 :
 DidChangePreserveAspectRatio
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -10655,13 +10569,12 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -10673,7 +10586,6 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 {
-return
 WillChangeValue
 (
 GetTransformListAttrName
@@ -10689,10 +10601,6 @@ SVGElement
 :
 DidChangeTransformList
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -10739,7 +10647,6 @@ DidChangeValue
 GetTransformListAttrName
 (
 )
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
@@ -10751,8 +10658,6 @@ SVGElement
 :
 DidAnimateTransformList
 (
-int32_t
-aModType
 )
 {
 MOZ_ASSERT
@@ -11043,7 +10948,7 @@ nullptr
 )
 ;
 }
-nsAttrValue
+void
 SVGElement
 :
 :
@@ -11107,7 +11012,6 @@ aAttrEnum
 mName
 ;
 }
-return
 WillChangeValue
 (
 name
@@ -11125,10 +11029,6 @@ bool
 aIsConditionalProcessingAttribute
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -11251,7 +11151,6 @@ nullptr
 DidChangeValue
 (
 name
-aEmptyOrOldValue
 newValue
 aProofOfUpdate
 )
