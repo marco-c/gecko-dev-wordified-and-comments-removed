@@ -1049,9 +1049,6 @@ onChangeViewportOrientation
 id
 type
 angle
-isViewportRotated
-=
-false
 )
 {
 window
@@ -1072,18 +1069,12 @@ orientationType
 :
 type
 angle
-isViewportRotated
 }
 "
 *
 "
 )
 ;
-if
-(
-isViewportRotated
-)
-{
 this
 .
 props
@@ -1097,7 +1088,6 @@ angle
 )
 )
 ;
-}
 }
 onDeviceListUpdate
 (

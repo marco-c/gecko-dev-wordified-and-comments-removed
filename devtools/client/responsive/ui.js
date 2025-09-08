@@ -3371,7 +3371,6 @@ orientationType
 :
 type
 angle
-isViewportRotated
 }
 =
 event
@@ -3385,7 +3384,6 @@ updateScreenOrientation
 (
 type
 angle
-isViewportRotated
 )
 ;
 }
@@ -4173,9 +4171,6 @@ updateScreenOrientation
 (
 type
 angle
-isViewportRotated
-=
-false
 )
 {
 await
@@ -4185,12 +4180,15 @@ commands
 .
 targetConfigurationCommand
 .
-simulateScreenOrientationChange
+updateConfiguration
 (
+{
+rdmPaneOrientation
+:
 {
 type
 angle
-isViewportRotated
+}
 }
 )
 ;
