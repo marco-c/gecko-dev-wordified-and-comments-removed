@@ -602,15 +602,6 @@ MutationEffectOnScript
 aMutationEffectOnScript
 )
 {
-mozAutoSubtreeModified
-subtree
-(
-OwnerDoc
-(
-)
-nullptr
-)
-;
 return
 SetNodeValueInternal
 (

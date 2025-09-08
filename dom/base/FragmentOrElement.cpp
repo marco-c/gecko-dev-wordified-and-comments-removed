@@ -9627,9 +9627,11 @@ false
 return
 ;
 }
-Document
-*
 const
+RefPtr
+<
+Document
+>
 doc
 =
 target
@@ -9637,13 +9639,6 @@ target
 >
 OwnerDoc
 (
-)
-;
-mozAutoSubtreeModified
-subtree
-(
-doc
-nullptr
 )
 ;
 target

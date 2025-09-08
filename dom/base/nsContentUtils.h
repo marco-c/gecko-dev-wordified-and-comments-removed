@@ -4352,9 +4352,6 @@ nsINode
 aNode
 uint32_t
 aType
-nsINode
-*
-aTargetForSubtreeModified
 IgnoreDevToolsMutationObserver
 aIgnoreDevToolsMutationObserver
 =

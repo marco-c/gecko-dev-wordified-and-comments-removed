@@ -23269,13 +23269,6 @@ sld
 doc
 )
 ;
-mozAutoSubtreeModified
-subtree
-(
-doc
-nullptr
-)
-;
 if
 (
 doc

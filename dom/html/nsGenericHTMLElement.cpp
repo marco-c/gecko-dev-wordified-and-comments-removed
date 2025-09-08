@@ -16737,15 +16737,6 @@ GetPreviousSibling
 (
 )
 ;
-mozAutoSubtreeModified
-subtree
-(
-OwnerDoc
-(
-)
-nullptr
-)
-;
 nsNodeInfoManager
 *
 nim

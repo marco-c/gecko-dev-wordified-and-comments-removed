@@ -8430,16 +8430,6 @@ onDOMNodeRemoved
 Atom
 (
 "
-onDOMSubtreeModified
-"
-"
-onDOMSubtreeModified
-"
-)
-    
-Atom
-(
-"
 ondata
 "
 "

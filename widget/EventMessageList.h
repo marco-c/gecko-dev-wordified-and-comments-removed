@@ -395,16 +395,12 @@ eScrollPortOverflow
 )
 NS_EVENT_MESSAGE
 (
-eLegacySubtreeModified
-)
-NS_EVENT_MESSAGE
-(
 eLegacyNodeRemoved
 )
 NS_EVENT_MESSAGE_FIRST_LAST
 (
 eLegacyMutationEvent
-eLegacySubtreeModified
+eLegacyNodeRemoved
 eLegacyNodeRemoved
 )
 NS_EVENT_MESSAGE

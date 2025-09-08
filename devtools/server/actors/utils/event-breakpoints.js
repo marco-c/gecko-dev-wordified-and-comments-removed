@@ -799,17 +799,6 @@ dom
 mutation
 "
 "
-DOMSubtreeModified
-"
-)
-nodeEvent
-(
-"
-dom
--
-mutation
-"
-"
 DOMContentLoaded
 "
 )
