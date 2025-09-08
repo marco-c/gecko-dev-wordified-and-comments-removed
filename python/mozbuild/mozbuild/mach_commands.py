@@ -14759,8 +14759,6 @@ CommandArgument
 "
 -
 -
-release
--
 product
 "
     
@@ -14845,7 +14843,7 @@ build_number
     
 templates
     
-release_product
+product
     
 release_type
 )
@@ -14937,7 +14935,7 @@ version
         
 build_number
         
-release_product
+product
         
 release_type
         
@@ -15163,8 +15161,6 @@ CommandArgument
 "
 -
 -
-release
--
 product
 "
     
@@ -15212,7 +15208,7 @@ build_number
     
 templates
     
-release_product
+product
 )
 :
     
@@ -15297,7 +15293,7 @@ version
         
 build_number
         
-release_product
+product
     
 )
 SubCommand
@@ -15562,8 +15558,6 @@ CommandArgument
 "
 -
 -
-release
--
 product
 "
     
@@ -15650,7 +15644,7 @@ build_number
     
 templates
     
-release_product
+product
     
 release_type
 )
@@ -15744,7 +15738,7 @@ version
         
 build_number
         
-release_product
+product
         
 release_type
         

@@ -448,7 +448,7 @@ arch
     
 version
     
-release_product
+product
     
 release_type
     
@@ -724,7 +724,7 @@ True
 )
         
 if
-release_product
+product
 =
 =
 "
@@ -840,7 +840,7 @@ d
 PKG_NAME
 "
 :
-release_product
+product
                 
 "
 DBusActivatable
@@ -895,7 +895,7 @@ log
             
 variables
             
-release_product
+product
             
 release_type
             
@@ -970,7 +970,7 @@ f
 )
         
 if
-release_product
+product
 =
 =
 "
@@ -995,7 +995,7 @@ default
 "
         
 elif
-release_product
+product
 =
 =
 "
@@ -1273,7 +1273,6 @@ os
 .
 makedirs
 (
-            
 app_dir
 /
 f
@@ -1281,7 +1280,7 @@ f
 lib
 /
 {
-release_product
+product
 }
 /
 distribution
@@ -1291,7 +1290,6 @@ extensions
 exist_ok
 =
 True
-        
 )
         
 for
@@ -1438,7 +1436,7 @@ f
 lib
 /
 {
-release_product
+product
 }
 /
 distribution

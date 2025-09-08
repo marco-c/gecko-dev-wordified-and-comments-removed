@@ -122,7 +122,7 @@ version
 build_number
 package_name_suffix
 description_suffix
-release_product
+product
 application_ini_data
 expected
 raises
@@ -1604,7 +1604,7 @@ package_name_suffix
     
 description_suffix
     
-release_product
+product
     
 application_ini_data
     
@@ -1633,9 +1633,9 @@ x86
             
 version
             
-release_product
+product
 =
-release_product
+product
             
 package_name_suffix
 =

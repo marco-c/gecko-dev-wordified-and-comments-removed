@@ -365,7 +365,7 @@ version
 build_number
 package_name_suffix
 description_suffix
-release_product
+product
 application_ini_data
 expected
 raises
@@ -1847,7 +1847,7 @@ package_name_suffix
     
 description_suffix
     
-release_product
+product
     
 application_ini_data
     
@@ -1884,9 +1884,9 @@ description_suffix
 =
 description_suffix
             
-release_product
+product
 =
-release_product
+product
             
 build_number
 =
@@ -3859,7 +3859,7 @@ nightly
     
 }
     
-release_product
+product
 =
 "
 firefox
@@ -3969,7 +3969,7 @@ log
         
 build_variables
         
-release_product
+product
         
 release_type
         
@@ -4027,7 +4027,7 @@ debian
             
 build_variables
             
-release_product
+product
             
 release_type
             
