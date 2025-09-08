@@ -557,6 +557,8 @@ config
 *
 param
 {
+URL
+|
 string
 }
 requestURL
@@ -767,6 +769,17 @@ obliviousHTTPRelay
 let
 requestURI
 =
+URL
+.
+isInstance
+(
+requestURL
+)
+?
+requestURL
+.
+URI
+:
 Services
 .
 io
