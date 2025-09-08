@@ -1473,6 +1473,9 @@ BeginUpdate
 (
 this
 aRequestTables
+"
+"
+_ns
 )
 ;
 if

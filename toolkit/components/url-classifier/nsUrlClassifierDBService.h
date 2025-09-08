@@ -648,6 +648,9 @@ ProtocolParser
 >
 mProtocolParser
 ;
+nsCString
+mProvider
+;
 nsCOMPtr
 <
 nsIFile
