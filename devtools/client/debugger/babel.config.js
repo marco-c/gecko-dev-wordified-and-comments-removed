@@ -108,13 +108,6 @@ js
 presets
 :
 [
-"
-babel
-/
-preset
--
-react
-"
 [
 "
 babel
