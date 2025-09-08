@@ -8352,6 +8352,9 @@ assign
 input
 :
 {
+isAddressbar
+:
+true
 isPrivate
 :
 false
