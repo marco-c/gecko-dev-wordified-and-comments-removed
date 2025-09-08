@@ -66,7 +66,7 @@ increment
 endif
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 FlatEmpty
 )
 {
@@ -104,7 +104,7 @@ FAIL
 }
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 NestedOuterEmpty
 )
 {
@@ -145,7 +145,7 @@ FAIL
 }
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 NestedInnerEmpty
 )
 {
@@ -202,7 +202,7 @@ pop
 endif
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 NestedInnerSingular
 )
 {
@@ -263,7 +263,7 @@ flattened
 }
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 NestedInnerSingulars
 )
 {
@@ -339,7 +339,7 @@ flattened
 }
 TEST
 (
-Flatten
+DOM_Quota_Flatten
 NestedInnerNonSingulars
 )
 {
