@@ -3791,22 +3791,6 @@ telemetry
 data
 .
 *
-param
-{
-boolean
-}
-config
-.
-returnFullPath
--
-Return
-the
-absolute
-path
-on
-disk
-.
-*
 returns
 {
 Promise
@@ -3845,7 +3829,6 @@ modelHubUrlTemplate
 featureId
 sessionId
 telemetryData
-returnFullPath
 }
 )
 {
@@ -3888,7 +3871,6 @@ MODEL_HUB_URL_TEMPLATE
 featureId
 sessionId
 telemetryData
-returnFullPath
 }
 )
 ;
@@ -4196,9 +4178,6 @@ sessionId
 =
 "
 "
-returnFullPath
-=
-false
 }
 =
 {
@@ -4236,7 +4215,6 @@ featureId
 pipelineOptions
 .
 featureId
-returnFullPath
 sessionId
 /
 /

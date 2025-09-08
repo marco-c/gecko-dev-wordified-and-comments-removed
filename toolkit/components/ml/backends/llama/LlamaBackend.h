@@ -205,6 +205,9 @@ const
 LlamaModelOptions
 &
 aOptions
+FILE
+*
+aFp
 )
 ;
 ChatMessageResult
