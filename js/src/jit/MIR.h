@@ -4192,7 +4192,7 @@ dependency
 )
 const
 {
-if
+MOZ_ASSERT_IF
 (
 getAliasSet
 (
@@ -4201,12 +4201,10 @@ getAliasSet
 isStore
 (
 )
+!
+loadDependency_
 )
-{
-return
-nullptr
 ;
-}
 return
 loadDependency_
 ;
