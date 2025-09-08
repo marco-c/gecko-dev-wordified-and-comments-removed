@@ -232,6 +232,18 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+mozilla
+.
+components
+.
+feature
+.
+readerview
+.
+R
+as
+readerviewR
 RunWith
 (
 RobolectricTestRunner
@@ -645,7 +657,7 @@ findViewById
 Button
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -663,7 +675,7 @@ findViewById
 Button
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -681,7 +693,7 @@ findViewById
 RadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -699,7 +711,7 @@ findViewById
 RadioButton
 >
 (
-R
+readerviewR
 .
 id
 .

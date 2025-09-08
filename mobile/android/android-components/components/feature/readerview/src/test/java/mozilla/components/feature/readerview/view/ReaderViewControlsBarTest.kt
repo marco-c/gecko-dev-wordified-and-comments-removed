@@ -198,6 +198,18 @@ mockito
 Mockito
 .
 verify
+import
+mozilla
+.
+components
+.
+feature
+.
+readerview
+.
+R
+as
+readerviewR
 RunWith
 (
 AndroidJUnit4
@@ -273,7 +285,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -289,7 +301,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -374,7 +386,7 @@ findViewById
 AppCompatButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -390,7 +402,7 @@ findViewById
 AppCompatButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -518,7 +530,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -534,7 +546,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -550,7 +562,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -829,7 +841,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -907,7 +919,7 @@ findViewById
 AppCompatButton
 >
 (
-R
+readerviewR
 .
 id
 .
@@ -979,7 +991,7 @@ findViewById
 AppCompatRadioButton
 >
 (
-R
+readerviewR
 .
 id
 .

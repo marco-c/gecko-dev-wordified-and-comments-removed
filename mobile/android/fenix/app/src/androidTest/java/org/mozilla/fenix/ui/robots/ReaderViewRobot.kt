@@ -202,6 +202,18 @@ fenix
 helpers
 .
 click
+import
+mozilla
+.
+components
+.
+feature
+.
+readerview
+.
+R
+as
+readerviewR
 /
 *
 *
@@ -256,7 +268,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -335,7 +347,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -414,7 +426,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -492,7 +504,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -570,7 +582,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -648,7 +660,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -726,7 +738,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -804,7 +816,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -882,7 +894,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1295,7 +1307,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1376,7 +1388,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1455,7 +1467,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1538,7 +1550,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1621,7 +1633,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1704,7 +1716,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
@@ -1787,7 +1799,7 @@ onView
 (
 withId
 (
-R
+readerviewR
 .
 id
 .
