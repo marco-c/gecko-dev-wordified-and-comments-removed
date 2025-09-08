@@ -136,6 +136,8 @@ uint32_t
 aGlyphID
 bool
 aVertical
+bool
+aRTL
 uint16_t
 aSize
 )
@@ -148,6 +150,8 @@ uint32_t
 aGlyphID
 bool
 aVertical
+bool
+aRTL
 uint32_t
 aGlyphs
 [
@@ -178,6 +182,9 @@ glyphID
 ;
 bool
 vertical
+;
+bool
+isRTL
 ;
 uint32_t
 sizes
@@ -213,6 +220,8 @@ uint32_t
 aGlyphID
 bool
 aVertical
+bool
+aRTL
 )
 const
 ;

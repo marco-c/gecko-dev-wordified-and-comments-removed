@@ -273,6 +273,16 @@ aOperator
 )
 ;
 static
+nsString
+GetMirroredOperator
+(
+const
+nsString
+&
+aOperator
+)
+;
+static
 bool
 IsIntegralOperator
 (
