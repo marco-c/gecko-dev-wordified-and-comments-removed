@@ -520,7 +520,7 @@ selectedSourceIsBlackBoxed
 PropTypes
 .
 bool
-closeTab
+closeTabForSource
 :
 PropTypes
 .
@@ -1322,12 +1322,9 @@ this
 .
 props
 .
-closeTab
+closeTabForSource
 (
 selectedSource
-"
-shortcut
-"
 )
 ;
 }
@@ -3749,11 +3746,11 @@ updateViewport
 actions
 .
 updateViewport
-closeTab
+closeTabForSource
 :
 actions
 .
-closeTab
+closeTabForSource
 showEditorContextMenu
 :
 actions
