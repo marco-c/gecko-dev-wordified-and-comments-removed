@@ -26889,7 +26889,7 @@ return
 nsDisplayWrapList
 :
 :
-CreateWebRenderCommands
+CreateWebRenderCommandsNewClipListOption
 (
 aBuilder
 aResources
@@ -26897,6 +26897,11 @@ aResources
 sc
 aManager
 aDisplayListBuilder
+layer
+.
+isSome
+(
+)
 )
 ;
 }
