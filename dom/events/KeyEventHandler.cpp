@@ -846,10 +846,6 @@ nsGlobalWindowCommands
 FindScrollCommand
 (
 commandText
-.
-get
-(
-)
 &
 action
 )

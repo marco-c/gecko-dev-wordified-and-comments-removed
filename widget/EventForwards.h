@@ -1362,8 +1362,8 @@ Command
 GetInternalCommand
 (
 const
-char
-*
+nsACString
+&
 aCommandName
 const
 nsCommandParams
