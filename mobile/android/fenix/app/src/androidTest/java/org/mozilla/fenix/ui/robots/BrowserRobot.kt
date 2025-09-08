@@ -901,6 +901,18 @@ java
 time
 .
 LocalDate
+import
+mozilla
+.
+components
+.
+feature
+.
+downloads
+.
+R
+as
+downloadsR
 class
 BrowserRobot
 {
@@ -7206,7 +7218,7 @@ title
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .
@@ -7259,7 +7271,7 @@ deny_button
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .
@@ -7277,7 +7289,7 @@ accept_button
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .
@@ -7326,7 +7338,7 @@ deny_button
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .
@@ -7398,7 +7410,7 @@ accept_button
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .

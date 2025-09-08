@@ -2500,6 +2500,18 @@ coroutines
 cancellation
 .
 CancellationException
+import
+mozilla
+.
+components
+.
+feature
+.
+downloads
+.
+R
+as
+downloadsR
 /
 *
 *
@@ -5110,7 +5122,7 @@ value
 )
 getString
 (
-R
+downloadsR
 .
 string
 .
@@ -5122,7 +5134,7 @@ else
 {
 getString
 (
-R
+downloadsR
 .
 string
 .
@@ -5154,7 +5166,7 @@ value
 .
 setPositiveButton
 (
-R
+downloadsR
 .
 string
 .
@@ -5181,7 +5193,7 @@ dismiss
 .
 setNegativeButton
 (
-R
+downloadsR
 .
 string
 .

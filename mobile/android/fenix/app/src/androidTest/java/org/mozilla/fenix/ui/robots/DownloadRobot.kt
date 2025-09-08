@@ -512,6 +512,18 @@ helpers
 ext
 .
 waitNotNull
+import
+mozilla
+.
+components
+.
+feature
+.
+downloads
+.
+R
+as
+downloadsR
 /
 *
 *
@@ -3107,7 +3119,7 @@ button1
 "
 getStringResource
 (
-R
+downloadsR
 .
 string
 .
