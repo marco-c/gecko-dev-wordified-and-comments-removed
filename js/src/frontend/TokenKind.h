@@ -775,16 +775,6 @@ accessor
 \
 MACRO
 (
-Assert
-"
-'
-assert
-'
-"
-)
-\
-MACRO
-(
 Async
 "
 '

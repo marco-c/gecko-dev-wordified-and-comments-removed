@@ -23906,17 +23906,6 @@ isCurrentTokenType
 TokenKind
 :
 :
-Assert
-)
-|
-|
-anyChars
-.
-isCurrentTokenType
-(
-TokenKind
-:
-:
 With
 )
 )
