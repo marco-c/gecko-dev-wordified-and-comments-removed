@@ -539,6 +539,12 @@ isGeneral
 Boolean
 =
 false
+var
+isOptional
+:
+Boolean
+=
+false
 fun
 toSearchEngine
 (
@@ -590,6 +596,9 @@ with
 builder
 .
 isGeneral
+isOptional
+=
+isOptional
 telemetrySuffix
 =
 telemetrySuffix
@@ -1835,6 +1844,13 @@ classification
 SearchEngineClassification
 .
 GENERAL
+builder
+.
+isOptional
+=
+engineDefinition
+.
+optional
 readUrlAPI
 (
 engineDefinition
