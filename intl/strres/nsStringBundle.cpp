@@ -3698,6 +3698,12 @@ flushBundleCache
 false
 )
 ;
+mBundleMap
+.
+Clear
+(
+)
+;
 }
 else
 if
