@@ -6130,10 +6130,16 @@ UnusedResources
 >
 Cyfieithwyd
 o
+\
+'
+r
 %
 1
 s
 i
+\
+'
+r
 %
 2
 s
@@ -6170,7 +6176,7 @@ translation_toolbar_expand_action
 "
 >
 Agor
-taflen
+dalen
 gyfieithu
 <
 /
@@ -17748,7 +17754,7 @@ Efallai
 y
 bydd
 yr
-app
+ap
 yn
 cau
 .
