@@ -127,6 +127,15 @@ aExecutable
 override
 ;
 NS_IMETHOD
+GetDefaultDescription
+(
+nsAString
+&
+aDescription
+)
+override
+;
+NS_IMETHOD
 GetPossibleLocalHandlers
 (
 nsIArray
