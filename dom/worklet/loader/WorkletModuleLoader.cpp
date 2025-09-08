@@ -302,7 +302,7 @@ referrer
 aReferrerScript
 -
 >
-GetURI
+BaseURL
 (
 )
 ;

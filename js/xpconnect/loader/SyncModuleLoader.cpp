@@ -352,7 +352,7 @@ SRIMetadata
 aReferrerScript
 -
 >
-GetURI
+BaseURL
 (
 )
 context
