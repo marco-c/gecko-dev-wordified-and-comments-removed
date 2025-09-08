@@ -7472,6 +7472,9 @@ aSandboxLevel
 >
 =
 2
+&
+&
+sLocalAppDataDir
 )
 {
 EnsureWindowsDirCached
