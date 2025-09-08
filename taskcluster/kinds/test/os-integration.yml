@@ -559,16 +559,6 @@ shippable
 /
 opt
 -
-windows10
--
-64
--
-shippable
--
-qr
-/
-opt
--
 windows11
 -
 64
