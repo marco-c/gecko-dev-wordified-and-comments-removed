@@ -1787,6 +1787,13 @@ xhtml
 ]
 [
 "
+test_preferencesBindings_async_setting
+.
+html
+"
+]
+[
+"
 test_preferencesBindings_setting
 .
 html
