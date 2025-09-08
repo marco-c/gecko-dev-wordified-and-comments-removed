@@ -8499,7 +8499,7 @@ factory
 Factory
 :
 :
-GetDWriteFactory
+EnsureDWriteFactory
 (
 )
 ;
