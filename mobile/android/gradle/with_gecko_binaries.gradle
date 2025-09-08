@@ -366,6 +366,14 @@ mozconfig
 substs
 .
 MOZILLA_OFFICIAL
+&
+&
+!
+mozconfig
+.
+substs
+.
+ENABLE_MOZSEARCH_PLUGIN
 )
 {
 assetGenTask
