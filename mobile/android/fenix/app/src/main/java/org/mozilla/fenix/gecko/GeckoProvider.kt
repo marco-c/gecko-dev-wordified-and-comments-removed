@@ -790,6 +790,17 @@ value
 forceDisableUri
 )
 .
+isolatedProcessEnabled
+(
+context
+.
+settings
+(
+)
+.
+isIsolatedProcessEnabled
+)
+.
 build
 (
 )
