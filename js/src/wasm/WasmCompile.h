@@ -222,18 +222,6 @@ UniqueCharsVector
 warnings
 )
 ;
-enum
-class
-IonDumpContents
-{
-UnoptimizedMIR
-OptimizedMIR
-LIR
-Default
-=
-UnoptimizedMIR
-}
-;
 bool
 DumpIonFunctionInModule
 (
@@ -243,8 +231,6 @@ ShareableBytes
 bytecode
 uint32_t
 targetFuncIndex
-IonDumpContents
-contents
 GenericPrinter
 &
 out

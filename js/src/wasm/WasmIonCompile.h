@@ -87,8 +87,6 @@ const
 FuncCompileInput
 &
 func
-IonDumpContents
-contents
 GenericPrinter
 &
 out
