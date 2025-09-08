@@ -255,6 +255,9 @@ Boolean
 translationInfo
 :
 TranslationInfo
+showShortcuts
+:
+Boolean
 onWebCompatReporterClick
 :
 (
@@ -386,6 +389,11 @@ onClick
 onWebCompatReporterClick
 )
 }
+if
+(
+showShortcuts
+)
+{
 ShortcutsMenuItem
 (
 isPinned
@@ -395,6 +403,7 @@ onShortcutsMenuClick
 =
 onShortcutsMenuClick
 )
+}
 MenuItem
 (
 label
@@ -966,6 +975,9 @@ onTranslatePageMenuClick
 {
 }
 )
+showShortcuts
+=
+true
 onWebCompatReporterClick
 =
 {
@@ -1084,6 +1096,9 @@ onTranslatePageMenuClick
 {
 }
 )
+showShortcuts
+=
+true
 onWebCompatReporterClick
 =
 {

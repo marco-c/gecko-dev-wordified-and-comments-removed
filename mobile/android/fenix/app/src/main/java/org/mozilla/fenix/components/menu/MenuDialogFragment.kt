@@ -3835,6 +3835,11 @@ isWebCompatReporterSupported
 translationInfo
 =
 translationInfo
+showShortcuts
+=
+settings
+.
+showTopSitesFeature
 onWebCompatReporterClick
 =
 {
