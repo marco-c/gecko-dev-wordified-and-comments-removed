@@ -5220,13 +5220,6 @@ the
 windows
 rust
 crate
-attributes
-:
-local
--
-fetch
-:
-true
 fetch
 :
 type
