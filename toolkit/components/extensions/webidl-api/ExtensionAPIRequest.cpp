@@ -21,6 +21,17 @@ include
 "
 mozilla
 /
+dom
+/
+FunctionBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 extensions
 /
 WebExtensionPolicy

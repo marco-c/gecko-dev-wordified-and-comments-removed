@@ -245,6 +245,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

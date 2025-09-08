@@ -242,13 +242,6 @@ h
 #
 include
 "
-nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -257,6 +250,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+nsGlobalWindowInner
 .
 h
 "

@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsICookieJarSettings
 .
 h

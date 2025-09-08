@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIContentPermissionPrompt
 .
 h
