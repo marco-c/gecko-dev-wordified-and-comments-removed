@@ -1302,6 +1302,7 @@ type
 text
 "
 readonly
+.
 value
 =
 {
@@ -1628,6 +1629,7 @@ checkbox
 -
 input
 "
+.
 value
 =
 {

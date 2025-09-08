@@ -237,6 +237,7 @@ type
 {
 type
 }
+.
 value
 =
 {

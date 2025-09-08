@@ -2369,6 +2369,7 @@ type
 text
 "
 readonly
+.
 value
 =
 {

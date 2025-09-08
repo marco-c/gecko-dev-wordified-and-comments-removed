@@ -1144,6 +1144,7 @@ type
 text
 "
 readonly
+.
 value
 =
 {

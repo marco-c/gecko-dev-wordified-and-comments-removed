@@ -580,6 +580,7 @@ id
 "
 input
 "
+.
 value
 =
 {
