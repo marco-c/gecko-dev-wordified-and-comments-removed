@@ -1117,6 +1117,13 @@ sjs
 ]
 [
 "
+browser_screen_orientation_override
+.
+js
+"
+]
+[
+"
 browser_set_focus_after_reuse_bcg
 .
 js
