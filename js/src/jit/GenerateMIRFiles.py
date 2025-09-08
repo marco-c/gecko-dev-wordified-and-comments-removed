@@ -627,6 +627,8 @@ movable
     
 folds_to
     
+value_hash
+    
 congruent_to
     
 alias_set
@@ -1516,6 +1518,35 @@ n
 )
     
 if
+value_hash
+:
+        
+assert
+value_hash
+=
+=
+"
+custom
+"
+        
+code
++
+=
+"
+HashNumber
+valueHash
+(
+)
+const
+override
+;
+\
+\
+\
+n
+"
+    
+if
 possibly_calls
 :
         
@@ -2161,6 +2192,28 @@ custom
 "
 )
             
+value_hash
+=
+op
+.
+get
+(
+"
+value_hash
+"
+None
+)
+            
+assert
+value_hash
+in
+(
+None
+"
+custom
+"
+)
+            
 congruent_to
 =
 op
@@ -2364,6 +2417,8 @@ guard
 movable
                 
 folds_to
+                
+value_hash
                 
 congruent_to
                 

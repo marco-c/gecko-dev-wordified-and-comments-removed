@@ -38179,6 +38179,13 @@ return
 slot_
 ;
 }
+HashNumber
+valueHash
+(
+)
+const
+override
+;
 bool
 congruentTo
 (
