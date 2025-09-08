@@ -4243,6 +4243,7 @@ HasAnchorName
 {
 for
 (
+const
 auto
 &
 name
@@ -4276,6 +4277,7 @@ this
 }
 for
 (
+const
 auto
 &
 name
@@ -4762,6 +4764,7 @@ HasAnchorPosName
 {
 for
 (
+const
 auto
 &
 name
