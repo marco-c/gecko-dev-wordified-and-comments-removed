@@ -799,6 +799,16 @@ test_platforms
 PREFIX_BY_KIND
 =
 {
+    
+"
+mochitest
+"
+:
+{
+"
+mochitest
+"
+}
 }
 memoize
 def
