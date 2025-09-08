@@ -3,7 +3,7 @@
 [
 allow
 (
-dangerous_implicit_autorefs
+warnings
 )
 ]
 #
