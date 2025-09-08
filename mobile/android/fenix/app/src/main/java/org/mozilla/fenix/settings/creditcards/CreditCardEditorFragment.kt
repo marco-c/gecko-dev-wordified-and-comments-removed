@@ -69,12 +69,6 @@ creditcards
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 DialogInterface
@@ -438,12 +432,6 @@ var
 interactor
 :
 CreditCardEditorInteractor
-SuppressLint
-(
-"
-ClickableViewAccessibility
-"
-)
 override
 fun
 onViewCreated

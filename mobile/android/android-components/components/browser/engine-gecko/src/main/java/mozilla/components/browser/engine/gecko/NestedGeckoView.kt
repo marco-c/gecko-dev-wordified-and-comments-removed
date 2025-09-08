@@ -222,12 +222,6 @@ in
 coordinatorlayout
 *
 /
-Suppress
-(
-"
-ClickableViewAccessibility
-"
-)
 open
 class
 NestedGeckoView
@@ -364,6 +358,12 @@ Suppress
 (
 "
 ComplexMethod
+"
+)
+SuppressLint
+(
+"
+ClickableViewAccessibility
 "
 )
 override

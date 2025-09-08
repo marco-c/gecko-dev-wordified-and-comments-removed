@@ -38,13 +38,6 @@ android
 .
 annotation
 .
-SuppressLint
-;
-import
-android
-.
-annotation
-.
 TargetApi
 ;
 import
@@ -3828,12 +3821,6 @@ canvas
 ;
 }
 }
-SuppressLint
-(
-"
-ClickableViewAccessibility
-"
-)
 Override
 public
 boolean

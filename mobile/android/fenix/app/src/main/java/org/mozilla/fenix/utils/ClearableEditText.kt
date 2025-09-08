@@ -67,12 +67,6 @@ utils
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -269,12 +263,6 @@ located
 .
 *
 /
-SuppressLint
-(
-"
-ClickableViewAccessibility
-"
-)
 override
 fun
 onTouchEvent
