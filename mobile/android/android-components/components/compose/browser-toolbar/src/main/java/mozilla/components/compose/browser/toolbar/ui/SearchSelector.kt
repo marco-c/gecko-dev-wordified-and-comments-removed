@@ -381,16 +381,6 @@ compose
 .
 ui
 .
-semantics
-.
-testTagsAsResourceId
-import
-androidx
-.
-compose
-.
-ui
-.
 tooling
 .
 preview
