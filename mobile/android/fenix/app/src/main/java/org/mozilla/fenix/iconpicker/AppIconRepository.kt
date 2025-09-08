@@ -364,13 +364,7 @@ AppIcon
 AppPixelated
 AppIcon
 .
-AppCuddling
-AppIcon
-.
 AppPride
-AppIcon
-.
-AppFlaming
 AppIcon
 .
 AppMinimal
