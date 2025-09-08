@@ -87,10 +87,7 @@ blob
 [
 Exposed
 =
-(
 Window
-DedicatedWorker
-)
 ]
 interface
 RTCDataChannel
@@ -161,10 +158,6 @@ onopen
 attribute
 EventHandler
 onerror
-;
-attribute
-EventHandler
-onclosing
 ;
 attribute
 EventHandler
