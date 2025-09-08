@@ -2169,6 +2169,13 @@ disable
 graphSpewer_
 -
 >
+begin
+(
+)
+;
+graphSpewer_
+-
+>
 beginAnonFunction
 (
 )
@@ -2197,6 +2204,13 @@ graphSpewer_
 -
 >
 endFunction
+(
+)
+;
+graphSpewer_
+-
+>
+end
 (
 )
 ;
