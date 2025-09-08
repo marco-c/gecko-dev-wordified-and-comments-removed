@@ -323,7 +323,6 @@ action
 .
 STOP_PROFILING
 "
-private
 const
 val
 PROFILING_CHANNEL_ID
@@ -335,7 +334,6 @@ perf
 .
 profiling
 "
-private
 const
 val
 PROFILING_NOTIFICATION_ID
