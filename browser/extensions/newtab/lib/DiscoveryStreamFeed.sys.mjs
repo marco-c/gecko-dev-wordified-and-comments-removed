@@ -12742,15 +12742,6 @@ prefs
 PREF_SURFACE_ID
 ]
 )
-coarse_os
-:
-lazy
-.
-NewTabUtils
-.
-normalizeOs
-(
-)
 surface_id
 :
 prefs
