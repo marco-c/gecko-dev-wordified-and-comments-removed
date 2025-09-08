@@ -39,6 +39,11 @@ test_taskbarTabs
 .
 json
 "
+"
+test_taskbarTabs_nonames
+.
+json
+"
 ]
 [
 "

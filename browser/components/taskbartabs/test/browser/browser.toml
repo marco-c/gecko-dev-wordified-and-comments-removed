@@ -62,6 +62,13 @@ js
 ]
 [
 "
+browser_taskbarTabs_manifest
+.
+js
+"
+]
+[
+"
 browser_taskbarTabs_nimbus
 .
 js
