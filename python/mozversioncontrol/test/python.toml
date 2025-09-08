@@ -29,6 +29,13 @@ py
 ]
 [
 "
+test_diff_stream
+.
+py
+"
+]
+[
+"
 test_get_commits
 .
 py

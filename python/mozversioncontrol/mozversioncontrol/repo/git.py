@@ -1764,6 +1764,13 @@ dot_extension
 "
 ]
         
+if
+exclude_file
+is
+not
+None
+:
+            
 with
 open
 (
@@ -1772,7 +1779,7 @@ exclude_file
 as
 exclude_pattern_file
 :
-            
+                
 for
 pattern
 in
@@ -1782,7 +1789,7 @@ readlines
 (
 )
 :
-                
+                    
 pattern
 =
 self
@@ -1795,14 +1802,14 @@ rstrip
 (
 )
 )
-                
+                    
 if
 pattern
 is
 not
 None
 :
-                    
+                        
 args
 .
 append
