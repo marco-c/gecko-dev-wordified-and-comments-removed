@@ -16974,10 +16974,11 @@ aDisplayListBuilder
 override
 ;
 bool
-isInvisible
+IsInvisible
 (
 )
 const
+override
 {
 return
 true
