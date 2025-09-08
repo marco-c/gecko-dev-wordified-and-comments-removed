@@ -11534,6 +11534,16 @@ GlobalObject
 )
 |
 |
+nobj
+.
+is
+<
+GlobalLexicalEnvironmentObject
+>
+(
+)
+|
+|
 !
 Watchtower
 :

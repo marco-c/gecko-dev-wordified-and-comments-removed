@@ -53949,6 +53949,11 @@ the
 global
 #
 object
+and
+its
+lexical
+environment
+object
 .
 -
 name
