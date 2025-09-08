@@ -24,7 +24,7 @@ mozilla
 firefox
 /
 {
-ARCH
+ARCH_NAME
 }
 /
 {
