@@ -172,7 +172,12 @@ new
 WeakRef
 (
 Symbol
+.
+for
 (
+"
+foo
+"
 )
 )
 )

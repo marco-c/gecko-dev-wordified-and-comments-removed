@@ -3679,7 +3679,7 @@ registerWeakRef
 JSContext
 *
 cx
-HandleObject
+HandleValue
 target
 Handle
 <
