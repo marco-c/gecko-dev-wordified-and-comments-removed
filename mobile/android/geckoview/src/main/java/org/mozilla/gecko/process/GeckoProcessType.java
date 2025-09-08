@@ -95,12 +95,6 @@ UTILITY
 utility
 "
 )
-CONTENT_ISOLATED
-(
-"
-isolatedTab
-"
-)
 ;
 private
 final

@@ -189,14 +189,6 @@ type
 GeckoProcessType
 .
 CONTENT
-|
-|
-type
-=
-=
-GeckoProcessType
-.
-CONTENT_ISOLATED
 )
 {
 return
