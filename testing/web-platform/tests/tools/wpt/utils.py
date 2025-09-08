@@ -862,7 +862,12 @@ def
 rmtree
 (
 path
+:
+str
 )
+-
+>
+None
 :
     
 def
