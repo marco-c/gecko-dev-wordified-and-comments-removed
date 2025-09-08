@@ -399,10 +399,6 @@ eLegacySubtreeModified
 )
 NS_EVENT_MESSAGE
 (
-eLegacyNodeInserted
-)
-NS_EVENT_MESSAGE
-(
 eLegacyNodeRemoved
 )
 NS_EVENT_MESSAGE
