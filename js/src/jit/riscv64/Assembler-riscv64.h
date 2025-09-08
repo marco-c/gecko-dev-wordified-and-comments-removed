@@ -1697,7 +1697,7 @@ uint64_t
 target
 )
 ;
-void
+bool
 target_at_put
 (
 BufferOffset
@@ -1710,7 +1710,6 @@ trampoline
 false
 )
 ;
-virtual
 int32_t
 branch_offset_helper
 (
