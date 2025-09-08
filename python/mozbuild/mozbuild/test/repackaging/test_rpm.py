@@ -30,7 +30,6 @@ mozbuild
 repackaging
 import
 rpm
-utils
 _APPLICATION_INI_CONTENT
 =
 "
@@ -1536,21 +1535,6 @@ expected
 raises
 )
 :
-    
-application_ini_data
-=
-utils
-.
-_parse_application_ini_data
-(
-        
-application_ini_data
-        
-version
-        
-build_number
-    
-)
     
 with
 raises
