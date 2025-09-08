@@ -584,6 +584,10 @@ enabled
 false
 }
 }
+Weather
+:
+{
+}
 dispatch
 :
 (
