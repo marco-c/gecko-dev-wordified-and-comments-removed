@@ -1767,7 +1767,7 @@ js
 HostLoadImportedModule
 (
 cx
-nullptr
+script
 moduleRequest
 JS
 :
