@@ -3135,6 +3135,12 @@ defined
 (
 _AIX
 )
+|
+|
+defined
+(
+__sun__
+)
 suggest
 =
 false
