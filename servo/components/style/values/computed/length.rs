@@ -68,7 +68,6 @@ length
 :
 :
 {
-GenericAnchorSizeFunction
 GenericLengthOrNumber
 GenericLengthPercentageOrNormal
 GenericMaxSize
@@ -2668,15 +2667,6 @@ GenericMaxSize
 NonNegativeLengthPercentage
 >
 ;
-pub
-type
-AnchorSizeFunction
-=
-GenericAnchorSizeFunction
-<
-LengthPercentage
->
-;
 #
 [
 cfg
@@ -2720,9 +2710,6 @@ values
 DashedIdent
 }
 ;
-impl
-AnchorSizeFunction
-{
 #
 [
 cfg
@@ -2736,7 +2723,7 @@ gecko
 ]
 pub
 fn
-resolve
+resolve_anchor_size
 (
 anchor_name
 :
@@ -2828,7 +2815,6 @@ Ok
 (
 offset
 )
-}
 }
 pub
 type
