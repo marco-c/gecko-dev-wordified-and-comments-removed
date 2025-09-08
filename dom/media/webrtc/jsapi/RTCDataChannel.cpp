@@ -1587,6 +1587,15 @@ RTCDataChannelState
 Closing
 )
 ;
+OnSimpleEvent
+(
+u
+"
+closing
+"
+_ns
+)
+;
 }
 if
 (
