@@ -645,9 +645,6 @@ PopoverData
 >
 mPopoverData
 ;
-nsWeakPtr
-mAssociatedPopover
-;
 nsTArray
 <
 RefPtr
