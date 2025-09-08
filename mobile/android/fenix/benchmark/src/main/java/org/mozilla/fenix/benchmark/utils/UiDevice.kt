@@ -1014,7 +1014,7 @@ true
 -
 >
 "
-ADDRESSBAR_URL
+ADDRESSBAR_URL_BOX
 "
 false
 -
