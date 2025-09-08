@@ -141,12 +141,6 @@ libstate
 dependencies
 {
 implementation
-libs
-.
-kotlin
-.
-coroutines
-implementation
 project
 (
 '
@@ -158,6 +152,12 @@ lib
 state
 '
 )
+implementation
+libs
+.
+kotlinx
+.
+coroutines
 testImplementation
 libs
 .

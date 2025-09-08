@@ -146,12 +146,6 @@ errorpages
 dependencies
 {
 implementation
-libs
-.
-androidx
-.
-annotation
-implementation
 project
 (
 '
@@ -175,6 +169,12 @@ ui
 icons
 '
 )
+implementation
+libs
+.
+androidx
+.
+annotation
 testImplementation
 project
 (
@@ -197,8 +197,6 @@ test
 junit
 testImplementation
 libs
-.
-testing
 .
 robolectric
 }

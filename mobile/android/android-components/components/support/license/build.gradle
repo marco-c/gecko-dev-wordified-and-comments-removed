@@ -172,7 +172,7 @@ fragment
 implementation
 libs
 .
-kotlin
+kotlinx
 .
 coroutines
 }

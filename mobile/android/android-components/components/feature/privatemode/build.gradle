@@ -206,7 +206,7 @@ ktx
 implementation
 libs
 .
-kotlin
+kotlinx
 .
 coroutines
 testImplementation
@@ -254,13 +254,13 @@ junit
 testImplementation
 libs
 .
-testing
+kotlinx
 .
 coroutines
+.
+test
 testImplementation
 libs
-.
-testing
 .
 robolectric
 }

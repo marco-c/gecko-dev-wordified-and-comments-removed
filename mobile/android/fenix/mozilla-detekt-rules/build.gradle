@@ -9,8 +9,6 @@ dependencies
 compileOnly
 libs
 .
-tools
-.
 detekt
 .
 api
@@ -23,15 +21,11 @@ annotation
 testImplementation
 libs
 .
-tools
-.
 detekt
 .
 api
 testImplementation
 libs
-.
-tools
 .
 detekt
 .

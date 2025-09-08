@@ -150,7 +150,7 @@ base
 implementation
 libs
 .
-kotlin
+kotlinx
 .
 coroutines
 }

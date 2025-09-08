@@ -139,13 +139,9 @@ dependencies
 implementation
 libs
 .
-thirdparty
-.
 okhttp
 implementation
 libs
-.
-thirdparty
 .
 okio
 }

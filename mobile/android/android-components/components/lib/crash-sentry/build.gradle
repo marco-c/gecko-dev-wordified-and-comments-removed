@@ -198,14 +198,6 @@ crash
 implementation
 libs
 .
-thirdparty
-.
-sentry
-testImplementation
-libs
-.
-thirdparty
-.
 sentry
 testImplementation
 project
@@ -237,8 +229,6 @@ test
 junit
 testImplementation
 libs
-.
-testing
 .
 robolectric
 }

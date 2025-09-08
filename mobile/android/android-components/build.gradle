@@ -138,9 +138,11 @@ dependencies
 classpath
 libs
 .
-tools
+android
 .
-androidgradle
+gradle
+.
+plugin
 }
 }
 plugins

@@ -194,7 +194,7 @@ ktx
 implementation
 libs
 .
-kotlin
+kotlinx
 .
 coroutines
 testImplementation
@@ -228,15 +228,15 @@ junit
 testImplementation
 libs
 .
-testing
+kotlinx
 .
-robolectric
+coroutines
+.
+test
 testImplementation
 libs
 .
-testing
-.
-coroutines
+robolectric
 androidTestImplementation
 libs
 .
@@ -252,7 +252,7 @@ androidx
 .
 test
 .
-runner
+rules
 androidTestImplementation
 libs
 .
@@ -260,7 +260,7 @@ androidx
 .
 test
 .
-rules
+runner
 }
 apply
 from

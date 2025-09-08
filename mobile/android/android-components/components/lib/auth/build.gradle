@@ -192,8 +192,6 @@ junit
 testImplementation
 libs
 .
-testing
-.
 robolectric
 }
 apply
