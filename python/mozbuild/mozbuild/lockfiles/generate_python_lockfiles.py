@@ -120,7 +120,7 @@ args
 virtualenv_name
 =
 "
-vendor
+uv
 "
 *
 *
