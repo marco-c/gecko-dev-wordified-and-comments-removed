@@ -2734,7 +2734,7 @@ const
 unsigned
 MaxMemories
 =
-100000
+100
 ;
 static
 const

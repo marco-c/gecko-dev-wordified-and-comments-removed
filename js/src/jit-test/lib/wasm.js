@@ -3264,6 +3264,10 @@ null
 WasmNonNullExternrefValues
 ]
 ;
+let
+MaxMemories
+=
+100
 function
 iota
 (
