@@ -3084,7 +3084,7 @@ aCSPEventListener
 const
 nsAString
 &
-aContentOfPseudoScript
+aSourceText
 uint32_t
 aLineNumber
 uint32_t
@@ -3285,7 +3285,7 @@ IsEmpty
 {
 if
 (
-aContentOfPseudoScript
+aSourceText
 .
 IsVoid
 (
@@ -3321,7 +3321,7 @@ else
 {
 content
 =
-aContentOfPseudoScript
+aSourceText
 ;
 }
 }

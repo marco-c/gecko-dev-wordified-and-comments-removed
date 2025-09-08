@@ -653,6 +653,10 @@ ProcessScriptElement
 nsIScriptElement
 *
 aElement
+const
+nsAString
+&
+aSourceText
 )
 ;
 nsIScriptElement
@@ -1122,6 +1126,10 @@ aURI
 nsIScriptElement
 *
 aElement
+const
+nsAString
+&
+aScriptContent
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -1249,6 +1257,10 @@ nsIScriptElement
 aElement
 ScriptKind
 aScriptKind
+const
+nsAString
+&
+aSourceText
 )
 ;
 enum
