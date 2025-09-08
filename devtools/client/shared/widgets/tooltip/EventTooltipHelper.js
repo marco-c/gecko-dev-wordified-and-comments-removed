@@ -282,7 +282,7 @@ Editor
 .
 modes
 .
-javascript
+js
 lineNumbers
 :
 false

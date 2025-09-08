@@ -88,7 +88,7 @@ SourceEditor
 .
 modes
 .
-javascript
+js
 foldGutter
 :
 features

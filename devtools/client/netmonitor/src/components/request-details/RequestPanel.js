@@ -1315,7 +1315,7 @@ componentProps
 text
 :
 postData
-mimeType
+mode
 :
 mimeType
 ?
