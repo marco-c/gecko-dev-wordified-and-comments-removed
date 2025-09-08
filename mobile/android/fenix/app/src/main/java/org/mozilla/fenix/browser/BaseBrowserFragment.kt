@@ -2512,6 +2512,18 @@ downloads
 R
 as
 downloadsR
+import
+mozilla
+.
+components
+.
+ui
+.
+widgets
+.
+R
+as
+widgetsR
 /
 *
 *
@@ -8037,7 +8049,7 @@ binding
 dynamicSnackbarContainer
 text
 =
-R
+widgetsR
 .
 string
 .

@@ -139,6 +139,18 @@ components
 .
 ui
 .
+colors
+.
+R
+as
+colorsR
+import
+mozilla
+.
+components
+.
+ui
+.
 icons
 .
 R
@@ -280,7 +292,7 @@ ContextCompat
 getColor
 (
 context
-R
+colorsR
 .
 color
 .
@@ -500,7 +512,7 @@ ContextCompat
 getColor
 (
 context
-R
+colorsR
 .
 color
 .

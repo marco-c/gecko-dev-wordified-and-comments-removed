@@ -266,10 +266,8 @@ ui
 colors
 .
 R
-.
-color
 as
-photonColors
+colorsR
 /
 *
 *
@@ -1549,7 +1547,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonWhite
 )
@@ -1560,7 +1560,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonWhite
 )
@@ -1571,7 +1573,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonWhite
 )
@@ -1582,7 +1586,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonWhite
 )
@@ -1593,7 +1599,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonWhite
 )
@@ -1628,7 +1636,9 @@ ContextCompat
 getColor
 (
 context
-photonColors
+colorsR
+.
+color
 .
 photonGrey80
 )

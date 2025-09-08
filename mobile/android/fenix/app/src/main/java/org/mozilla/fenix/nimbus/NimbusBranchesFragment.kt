@@ -274,6 +274,18 @@ nimbus
 view
 .
 NimbusBranchesView
+import
+mozilla
+.
+components
+.
+service
+.
+nimbus
+.
+R
+as
+nimbusR
 /
 *
 *
@@ -351,7 +363,7 @@ inflater
 .
 inflate
 (
-R
+nimbusR
 .
 layout
 .
@@ -460,7 +472,7 @@ view
 .
 findViewById
 (
-R
+nimbusR
 .
 id
 .

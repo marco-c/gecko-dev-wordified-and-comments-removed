@@ -90,6 +90,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+colors
+.
+R
+as
+colorsR
 /
 *
 *
@@ -306,7 +318,7 @@ Color
 (
 colorResId
 =
-R
+colorsR
 .
 color
 .
@@ -390,7 +402,7 @@ Color
 (
 colorResId
 =
-R
+colorsR
 .
 color
 .
@@ -925,7 +937,7 @@ Color
 (
 colorResId
 =
-R
+colorsR
 .
 color
 .

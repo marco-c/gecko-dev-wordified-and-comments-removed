@@ -657,7 +657,7 @@ colorResource
 (
 getAttr
 (
-R
+iconsR
 .
 attr
 .
@@ -716,7 +716,7 @@ colorResource
 (
 getAttr
 (
-R
+iconsR
 .
 attr
 .

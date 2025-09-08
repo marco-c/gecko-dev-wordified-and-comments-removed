@@ -849,6 +849,18 @@ mozilla
 .
 components
 .
+feature
+.
+customtabs
+.
+R
+as
+customtabsR
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -2166,7 +2178,7 @@ context
 .
 getString
 (
-R
+customtabsR
 .
 string
 .
@@ -2445,7 +2457,7 @@ drawable
 mozac_ic_share_android_24
 contentDescription
 =
-R
+customtabsR
 .
 string
 .

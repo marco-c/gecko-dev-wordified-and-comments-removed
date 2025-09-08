@@ -123,6 +123,12 @@ os
 .
 ConfigurationCompat
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -132,12 +138,8 @@ support
 base
 .
 R
-import
-java
-.
-util
-.
-Locale
+as
+supportBaseR
 /
 *
 *
@@ -888,7 +890,7 @@ context
 .
 getString
 (
-R
+supportBaseR
 .
 string
 .
@@ -937,7 +939,7 @@ context
 .
 getString
 (
-R
+supportBaseR
 .
 string
 .

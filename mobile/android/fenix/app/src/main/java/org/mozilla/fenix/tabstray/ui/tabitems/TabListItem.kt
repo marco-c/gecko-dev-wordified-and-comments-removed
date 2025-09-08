@@ -557,6 +557,18 @@ mozilla
 .
 components
 .
+browser
+.
+tabstray
+.
+R
+as
+tabstrayR
+import
+mozilla
+.
+components
+.
 ui
 .
 icons
@@ -1543,7 +1555,7 @@ stringResource
 (
 id
 =
-R
+tabstrayR
 .
 string
 .

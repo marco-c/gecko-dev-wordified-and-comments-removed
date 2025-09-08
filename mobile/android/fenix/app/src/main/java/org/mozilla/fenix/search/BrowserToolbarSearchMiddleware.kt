@@ -1261,6 +1261,18 @@ mozilla
 .
 components
 .
+feature
+.
+qr
+.
+R
+as
+qrR
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -3091,7 +3103,7 @@ drawable
 mozac_ic_qr_code_24
 contentDescription
 =
-R
+qrR
 .
 string
 .
