@@ -29,6 +29,13 @@ h
 #
 include
 "
+MediaDataDemuxer
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -60,13 +67,6 @@ Logging
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 LOG

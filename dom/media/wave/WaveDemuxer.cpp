@@ -92,13 +92,6 @@ media
 :
 TimeUnit
 ;
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 namespace
 mozilla
 {

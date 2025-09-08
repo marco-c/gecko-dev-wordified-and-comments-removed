@@ -129,13 +129,6 @@ nsError
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 OGG_DEBUG
