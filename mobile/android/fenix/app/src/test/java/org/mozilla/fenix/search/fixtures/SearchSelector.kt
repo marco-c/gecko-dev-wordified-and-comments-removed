@@ -328,6 +328,18 @@ BrowserToolbarMenuButton
 Text
 as
 MenuItemText
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -1044,7 +1056,7 @@ MenuItemIcon
 .
 DrawableResIcon
 (
-R
+iconsR
 .
 drawable
 .

@@ -254,6 +254,18 @@ helpers
 ext
 .
 waitNotNull
+import
+mozilla
+.
+components
+.
+feature
+.
+findinpage
+.
+R
+as
+findinpageR
 /
 *
 *
@@ -1037,7 +1049,7 @@ onView
 (
 withId
 (
-R
+findinpageR
 .
 id
 .
@@ -1054,7 +1066,7 @@ onView
 (
 withId
 (
-R
+findinpageR
 .
 id
 .
@@ -1071,7 +1083,7 @@ onView
 (
 withId
 (
-R
+findinpageR
 .
 id
 .
@@ -1088,7 +1100,7 @@ onView
 (
 withId
 (
-R
+findinpageR
 .
 id
 .
@@ -1105,7 +1117,7 @@ onView
 (
 withId
 (
-R
+findinpageR
 .
 id
 .

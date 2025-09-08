@@ -210,6 +210,18 @@ ui
 robots
 .
 navigationToolbar
+import
+mozilla
+.
+components
+.
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
 /
 *
 *
@@ -406,7 +418,7 @@ activity
 .
 findViewById
 (
-R
+toolbarR
 .
 id
 .
@@ -511,7 +523,7 @@ activity
 .
 findViewById
 (
-R
+toolbarR
 .
 id
 .

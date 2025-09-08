@@ -506,6 +506,18 @@ fenix
 nimbus
 .
 FxNimbus
+import
+mozilla
+.
+components
+.
+browser
+.
+menu
+.
+R
+as
+menuR
 /
 *
 *
@@ -1143,7 +1155,7 @@ onView
 (
 withId
 (
-R
+menuR
 .
 id
 .
@@ -1375,7 +1387,7 @@ onView
 (
 withId
 (
-R
+menuR
 .
 id
 .
@@ -6811,7 +6823,7 @@ onView
 (
 withId
 (
-R
+menuR
 .
 id
 .
@@ -7048,7 +7060,7 @@ onView
 (
 withId
 (
-R
+menuR
 .
 id
 .

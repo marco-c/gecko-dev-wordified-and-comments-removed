@@ -1166,6 +1166,18 @@ icons
 R
 as
 iconsR
+import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+R
+as
+tabcounterR
 RunWith
 (
 AndroidJUnit4
@@ -4384,7 +4396,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -4836,7 +4848,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -4854,7 +4866,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -4911,7 +4923,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -4921,7 +4933,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .
@@ -4956,7 +4968,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -4966,7 +4978,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .

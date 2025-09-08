@@ -1939,6 +1939,18 @@ mozilla
 .
 components
 .
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
+import
+mozilla
+.
+components
+.
 ui
 .
 icons
@@ -1946,6 +1958,18 @@ icons
 R
 as
 iconsR
+import
+mozilla
+.
+components
+.
+ui
+.
+tabcounter
+.
+R
+as
+tabcounterR
 RunWith
 (
 AndroidJUnit4
@@ -12605,7 +12629,7 @@ drawable
 mozac_ic_page_portrait_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -12735,7 +12759,7 @@ drawable
 mozac_ic_shield_checkmark_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -12845,7 +12869,7 @@ drawable
 mozac_ic_shield_slash_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -12979,7 +13003,7 @@ drawable
 mozac_ic_shield_checkmark_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -13004,7 +13028,7 @@ drawable
 mozac_ic_shield_slash_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -13273,7 +13297,7 @@ drawable
 mozac_ic_shield_slash_24
 contentDescription
 =
-R
+toolbarR
 .
 string
 .
@@ -14813,7 +14837,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -15925,7 +15949,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -15943,7 +15967,7 @@ testContext
 .
 getString
 (
-R
+tabcounterR
 .
 string
 .
@@ -15992,7 +16016,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -16002,7 +16026,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .
@@ -16031,7 +16055,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -16041,7 +16065,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .
@@ -16071,7 +16095,7 @@ text
 =
 StringResText
 (
-R
+tabcounterR
 .
 string
 .
@@ -16081,7 +16105,7 @@ contentDescription
 =
 StringResContentDescription
 (
-R
+tabcounterR
 .
 string
 .

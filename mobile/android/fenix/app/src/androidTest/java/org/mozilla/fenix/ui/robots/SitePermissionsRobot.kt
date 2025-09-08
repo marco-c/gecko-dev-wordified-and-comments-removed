@@ -250,6 +250,18 @@ fenix
 helpers
 .
 click
+import
+mozilla
+.
+components
+.
+feature
+.
+sitepermissions
+.
+R
+as
+sitepermissionsR
 class
 SitePermissionsRobot
 {
@@ -1340,7 +1352,7 @@ withText
 (
 getStringResource
 (
-R
+sitepermissionsR
 .
 string
 .
@@ -1710,7 +1722,7 @@ onView
 (
 withId
 (
-R
+sitepermissionsR
 .
 id
 .

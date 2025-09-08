@@ -809,7 +809,7 @@ onView
 (
 withText
 (
-R
+addonsR
 .
 string
 .
@@ -1610,7 +1610,7 @@ isDescendantOfA
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1865,7 +1865,7 @@ java
 )
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1877,7 +1877,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1894,7 +1894,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -2069,7 +2069,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -2167,7 +2167,7 @@ onView
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -4252,7 +4252,7 @@ isDescendantOfA
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -4307,7 +4307,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -4379,7 +4379,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -4841,7 +4841,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -4853,7 +4853,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .

@@ -148,6 +148,18 @@ ui
 robots
 .
 navigationToolbar
+import
+mozilla
+.
+components
+.
+feature
+.
+prompts
+.
+R
+as
+promptsR
 /
 *
 *
@@ -284,7 +296,7 @@ itemContainingText
 (
 getStringResource
 (
-R
+promptsR
 .
 string
 .

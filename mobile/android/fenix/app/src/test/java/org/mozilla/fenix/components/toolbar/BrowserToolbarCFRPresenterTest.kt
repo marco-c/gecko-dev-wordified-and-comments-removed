@@ -326,6 +326,18 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+mozilla
+.
+components
+.
+browser
+.
+toolbar
+.
+R
+as
+toolbarR
 RunWith
 (
 RobolectricTestRunner
@@ -1150,7 +1162,7 @@ findViewById
 View
 >
 (
-R
+toolbarR
 .
 id
 .
@@ -1166,7 +1178,7 @@ findViewById
 View
 >
 (
-R
+toolbarR
 .
 id
 .
@@ -1182,7 +1194,7 @@ findViewById
 View
 >
 (
-R
+toolbarR
 .
 id
 .
@@ -1198,7 +1210,7 @@ findViewById
 View
 >
 (
-R
+toolbarR
 .
 id
 .

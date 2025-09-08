@@ -306,6 +306,18 @@ fenix
 helpers
 .
 click
+import
+mozilla
+.
+components
+.
+lib
+.
+crash
+.
+R
+as
+crashR
 /
 *
 *
@@ -571,7 +583,7 @@ itemContainingText
 (
 getStringResource
 (
-R
+crashR
 .
 string
 .
@@ -582,7 +594,7 @@ itemContainingText
 (
 getStringResource
 (
-R
+crashR
 .
 string
 .
@@ -593,7 +605,7 @@ itemContainingText
 (
 getStringResource
 (
-R
+crashR
 .
 string
 .

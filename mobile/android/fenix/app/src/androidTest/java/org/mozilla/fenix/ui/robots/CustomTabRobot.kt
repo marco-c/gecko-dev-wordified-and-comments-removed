@@ -474,6 +474,18 @@ fenix
 helpers
 .
 click
+import
+mozilla
+.
+components
+.
+feature
+.
+customtabs
+.
+R
+as
+customtabsR
 /
 *
 *
@@ -520,7 +532,7 @@ itemWithDescription
 (
 getStringResource
 (
-R
+customtabsR
 .
 string
 .
@@ -968,7 +980,7 @@ onNodeWithContentDescription
 (
 getStringResource
 (
-R
+customtabsR
 .
 string
 .
@@ -2422,7 +2434,7 @@ itemWithDescription
 (
 getStringResource
 (
-R
+customtabsR
 .
 string
 .
@@ -2438,7 +2450,7 @@ itemWithDescription
 (
 getStringResource
 (
-R
+customtabsR
 .
 string
 .
