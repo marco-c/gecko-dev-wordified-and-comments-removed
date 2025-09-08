@@ -5847,6 +5847,12 @@ function
 aCond
 aCallback
 aErrorMsg
+interval
+=
+100
+maxTries
+=
+30
 )
 {
 this
@@ -5855,6 +5861,8 @@ promiseWaitForCondition
 (
 aCond
 aErrorMsg
+interval
+maxTries
 )
 .
 then
@@ -5879,6 +5887,12 @@ function
 (
 aCond
 aErrorMsg
+interval
+=
+100
+maxTries
+=
+30
 )
 {
 for
@@ -5890,7 +5904,7 @@ tries
 ;
 tries
 <
-30
+maxTries
 ;
 +
 +
@@ -5914,7 +5928,7 @@ apply
 window
 [
 resolve
-100
+interval
 ]
 )
 ;
