@@ -1323,13 +1323,6 @@ initialTarget
 )
 const
 {
-MOZ_ASSERT
-(
-isDead
-(
-)
-)
-;
 return
 initial_
 ;
