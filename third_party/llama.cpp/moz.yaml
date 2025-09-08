@@ -152,6 +152,14 @@ exclude
 *
 *
 "
+-
+src
+/
+llama
+-
+quant
+.
+cpp
 include
 :
 -
