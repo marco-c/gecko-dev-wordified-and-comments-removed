@@ -774,6 +774,11 @@ build
 "
 buildid_reader
 "
+]
+TEST_DIRS
++
+=
+[
 "
 gtest
 "
