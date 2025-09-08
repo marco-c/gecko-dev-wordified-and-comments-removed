@@ -61,8 +61,6 @@ org
 .
 mozilla
 .
-appservices
-.
 tooling
 .
 nimbus
