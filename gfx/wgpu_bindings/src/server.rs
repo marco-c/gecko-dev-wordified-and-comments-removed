@@ -15354,7 +15354,6 @@ external_texture_source_ids
 )
 =
 >
-{
 wgpu_parent_queue_submit
 (
 global
@@ -15393,7 +15392,6 @@ len
 (
 )
 )
-}
 Message
 :
 :
