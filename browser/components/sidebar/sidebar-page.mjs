@@ -732,6 +732,17 @@ getRootNode
 )
 .
 host
+e
+.
+originalTarget
+.
+flattenedTreeParentNode
+.
+getRootNode
+(
+)
+.
+host
 ]
 ;
 for
