@@ -758,7 +758,7 @@ lazy
 .
 ShellService
 .
-createWindowsIcon
+createIcon
 (
 iconFile
 imgContainer
@@ -1768,8 +1768,13 @@ id
 +
 "
 .
-ico
 "
++
+lazy
+.
+ShellService
+.
+iconExtension
 )
 ;
 return
