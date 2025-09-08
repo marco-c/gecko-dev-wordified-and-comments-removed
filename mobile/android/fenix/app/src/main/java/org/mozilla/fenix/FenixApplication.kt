@@ -5676,6 +5676,14 @@ settings
 .
 signedInFxaAccount
 )
+isolatedContentProcessesEnabled
+.
+set
+(
+settings
+.
+isIsolatedProcessEnabled
+)
 val
 syncedItems
 =
