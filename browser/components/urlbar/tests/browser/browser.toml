@@ -3352,16 +3352,6 @@ js
 ]
 [
 "
-browser_trust_panel_security_view
-.
-js
-"
-]
-https_first_disabled
-=
-true
-[
-"
 browser_typed_value
 .
 js
