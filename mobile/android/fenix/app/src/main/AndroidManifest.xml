@@ -3052,7 +3052,7 @@ name
 applicationId
 }
 .
-AppRetro2004_v2
+AppRetro2004
 "
 android
 :
@@ -3075,7 +3075,7 @@ icon
 "
 mipmap
 /
-ic_launcher_retro_2004_v2
+ic_launcher_retro_2004
 "
 android
 :
@@ -3084,7 +3084,7 @@ roundIcon
 "
 mipmap
 /
-ic_launcher_retro_2004_v2
+ic_launcher_retro_2004
 "
 android
 :
@@ -3184,7 +3184,7 @@ name
 applicationId
 }
 .
-AppPixelated_v2
+AppPixelated
 "
 android
 :
@@ -3207,7 +3207,7 @@ icon
 "
 mipmap
 /
-ic_launcher_pixelated_v2
+ic_launcher_pixelated
 "
 android
 :
@@ -3216,7 +3216,7 @@ roundIcon
 "
 mipmap
 /
-ic_launcher_pixelated_v2
+ic_launcher_pixelated
 "
 android
 :
@@ -3448,7 +3448,7 @@ name
 applicationId
 }
 .
-AppPride_v2
+AppPride
 "
 android
 :
@@ -3471,7 +3471,7 @@ icon
 "
 mipmap
 /
-ic_launcher_pride_v2
+ic_launcher_pride
 "
 android
 :
@@ -3480,7 +3480,7 @@ roundIcon
 "
 mipmap
 /
-ic_launcher_pride_v2
+ic_launcher_pride
 "
 android
 :
@@ -3712,7 +3712,7 @@ name
 applicationId
 }
 .
-AppMinimal_v2
+AppMinimal
 "
 android
 :
@@ -3735,7 +3735,7 @@ icon
 "
 mipmap
 /
-ic_launcher_minimal_v2
+ic_launcher_minimal
 "
 android
 :
@@ -3744,7 +3744,7 @@ roundIcon
 "
 mipmap
 /
-ic_launcher_minimal_v2
+ic_launcher_minimal
 "
 android
 :
@@ -3844,7 +3844,7 @@ name
 applicationId
 }
 .
-AppMomo_v2
+AppMomo
 "
 android
 :
@@ -3867,7 +3867,7 @@ icon
 "
 mipmap
 /
-ic_launcher_momo_v2
+ic_launcher_momo
 "
 android
 :
@@ -3876,7 +3876,7 @@ roundIcon
 "
 mipmap
 /
-ic_launcher_momo_v2
+ic_launcher_momo
 "
 android
 :
