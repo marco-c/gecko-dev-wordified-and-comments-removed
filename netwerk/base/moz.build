@@ -784,11 +784,6 @@ IPv4Parser
 h
 "
 "
-MemoryDownloader
-.
-h
-"
-"
 NetworkConnectivityService
 .
 h
@@ -905,11 +900,6 @@ cpp
 "
 "
 LoadInfo
-.
-cpp
-"
-"
-MemoryDownloader
 .
 cpp
 "
