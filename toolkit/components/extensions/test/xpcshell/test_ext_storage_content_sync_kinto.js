@@ -121,7 +121,7 @@ test_contentscript_storage_no_bytes_in_use
 )
 {
 await
-test_contentscript_storage_area_with_bytes_in_use
+test_contentscript_storage_sync_getBytesInUse
 (
 "
 sync
