@@ -1534,6 +1534,13 @@ remove
 TEST_NEW_BACKUP_PARENT_PATH
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 sandbox
 .
 restore
@@ -1541,6 +1548,13 @@ restore
 )
 ;
 }
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }
