@@ -117,6 +117,14 @@ coroutines
 .
 Dispatchers
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -171,30 +179,6 @@ robolectric
 .
 testContext
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-MainCoroutineRule
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-runTestOnMain
-import
 org
 .
 junit
@@ -234,12 +218,6 @@ junit
 Assert
 .
 assertTrue
-import
-org
-.
-junit
-.
-Rule
 import
 org
 .
@@ -299,15 +277,6 @@ class
 class
 URLRendererTest
 {
-get
-:
-Rule
-val
-coroutinesTestRule
-=
-MainCoroutineRule
-(
-)
 Test
 fun
 Lifecycle
@@ -388,7 +357,7 @@ configuration
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 renderedUrl
@@ -690,7 +659,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -751,7 +720,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -817,7 +786,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -876,7 +845,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -932,7 +901,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -987,7 +956,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 domainSpan
@@ -1035,7 +1004,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1101,7 +1070,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1172,7 +1141,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1242,7 +1211,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1312,7 +1281,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1381,7 +1350,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1438,7 +1407,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1488,7 +1457,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1547,7 +1516,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1622,7 +1591,7 @@ returned
 (
 )
 {
-runTestOnMain
+runTest
 {
 val
 span
@@ -1689,7 +1658,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1738,7 +1707,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1788,7 +1757,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1837,7 +1806,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1886,7 +1855,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1931,7 +1900,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredUrl
 (
@@ -1970,7 +1939,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithUncoloredUrl
 (
@@ -1998,7 +1967,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithUncoloredUrl
 (
@@ -2035,7 +2004,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2086,7 +2055,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2138,7 +2107,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2189,7 +2158,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2244,7 +2213,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2293,7 +2262,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2332,7 +2301,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2369,7 +2338,7 @@ set
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithRegistrableDomain
 (
@@ -2426,7 +2395,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2488,7 +2457,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2552,7 +2521,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2614,7 +2583,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2676,7 +2645,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2732,7 +2701,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2779,7 +2748,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2822,7 +2791,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
@@ -2882,7 +2851,7 @@ colored
 (
 )
 {
-runTestOnMain
+runTest
 {
 testRenderWithColoredDomain
 (
