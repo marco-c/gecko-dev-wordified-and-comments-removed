@@ -1049,9 +1049,7 @@ GECKO_PATH
 /
 taskcluster
 /
-kinds
-/
-test
+test_configs
 /
 variants
 .

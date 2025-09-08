@@ -72,6 +72,7 @@ from
 gecko_taskgraph
 import
 GECKO
+TEST_CONFIGS
 from
 gecko_taskgraph
 .
@@ -10763,23 +10764,13 @@ candidate_attrs
 =
 load_yaml
 (
-        
 os
 .
 path
 .
 join
 (
-GECKO
-"
-taskcluster
-"
-"
-kinds
-"
-"
-test
-"
+TEST_CONFIGS
 "
 os
 -
@@ -10788,7 +10779,6 @@ integration
 yml
 "
 )
-    
 )
     
 labels

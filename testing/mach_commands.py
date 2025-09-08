@@ -6791,9 +6791,7 @@ default
 /
 taskcluster
 /
-kinds
-/
-test
+test_configs
 /
 variants
 .

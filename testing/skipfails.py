@@ -8548,9 +8548,7 @@ variants_file
 "
 taskcluster
 /
-kinds
-/
-test
+test_configs
 /
 variants
 .
