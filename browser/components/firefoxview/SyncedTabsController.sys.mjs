@@ -950,7 +950,9 @@ true
 {
 ignoreFragment
 :
-true
+"
+whenComparingAndReplace
+"
 }
 )
 ;
