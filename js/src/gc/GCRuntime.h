@@ -2779,7 +2779,7 @@ registerWithFinalizationRegistry
 JSContext
 *
 cx
-HandleObject
+HandleValue
 target
 Handle
 <

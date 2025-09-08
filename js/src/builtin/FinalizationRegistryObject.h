@@ -443,6 +443,16 @@ SlotCount
 ;
 public
 :
+using
+RegistrationsWeakMap
+=
+WeakMap
+<
+Value
+JSObject
+*
+>
+;
 static
 const
 JSClass
@@ -460,7 +470,7 @@ queue
 )
 const
 ;
-ObjectWeakMap
+RegistrationsWeakMap
 *
 registrations
 (
@@ -590,7 +600,7 @@ JSContext
 cx
 HandleFinalizationRegistryObject
 registry
-HandleObject
+HandleValue
 unregisterToken
 HandleFinalizationRecordObject
 record
@@ -602,7 +612,7 @@ removeRegistrationOnError
 (
 HandleFinalizationRegistryObject
 registry
-HandleObject
+HandleValue
 unregisterToken
 HandleFinalizationRecordObject
 record
