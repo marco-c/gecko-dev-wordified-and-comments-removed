@@ -3829,6 +3829,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -3839,7 +3844,7 @@ mozilla
 com
 expires
 :
-145
+never
 cipher
 :
 type
@@ -3927,6 +3932,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -3937,7 +3947,7 @@ mozilla
 com
 expires
 :
-145
+never
 srtp_cipher
 :
 type
@@ -4030,6 +4040,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -4040,7 +4055,7 @@ mozilla
 com
 expires
 :
-145
+never
 client_handshake_result
 :
 type
@@ -4136,6 +4151,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -4146,7 +4166,7 @@ mozilla
 com
 expires
 :
-145
+never
 server_handshake_result
 :
 type
@@ -4240,6 +4260,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -4250,7 +4275,7 @@ mozilla
 com
 expires
 :
-145
+never
 client_handshake_started_counter
 :
 type
@@ -4321,6 +4346,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -4331,7 +4361,7 @@ mozilla
 com
 expires
 :
-145
+never
 server_handshake_started_counter
 :
 type
@@ -4402,6 +4432,11 @@ technical
 notification_emails
 :
 -
+bcampen
+mozilla
+.
+com
+-
 webrtc
 -
 telemetry
@@ -4412,7 +4447,7 @@ mozilla
 com
 expires
 :
-145
+never
 webrtc
 .
 signaling
