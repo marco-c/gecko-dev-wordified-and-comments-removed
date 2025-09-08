@@ -8235,6 +8235,17 @@ delazificationMode
 (
 )
 )
+.
+setEagerBaselineStrategy
+(
+JS
+:
+:
+EagerBaselineOption
+:
+:
+None
+)
 ;
 Rooted
 <
