@@ -723,6 +723,17 @@ Icon
 "
 :
 pkg_name
+        
+"
+REMOTING_NAME
+"
+:
+application_ini_data
+[
+"
+remoting_name
+"
+]
     
 }
 def
