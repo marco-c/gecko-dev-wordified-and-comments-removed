@@ -1086,7 +1086,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1097,7 +1097,7 @@ window
 setTimeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1280,7 +1280,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1472,7 +1472,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1551,7 +1551,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
