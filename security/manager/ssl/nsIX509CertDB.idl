@@ -604,12 +604,6 @@ in
 uint64_t
 aTime
 in
-Array
-<
-uint8_t
->
-aSctsFromTls
-in
 nsICertVerificationCallback
 aCallback
 )
