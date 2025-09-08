@@ -64,6 +64,8 @@ mozilla
 .
 org
 /
+try
+/
 "
 debug_dir
 =
@@ -355,6 +357,21 @@ path
 try
 :
         
+print
+(
+f
+"
+Trying
+to
+fetch
+symbols
+from
+{
+url
+}
+"
+)
+        
 u
 =
 urlopen
@@ -375,19 +392,6 @@ getcode
             
 return
 None
-        
-print
-(
-f
-"
-Fetching
-symbols
-from
-{
-url
-}
-"
-)
         
 with
 open
@@ -433,6 +437,19 @@ copyfileobj
 (
 z
 f
+)
+            
+print
+(
+f
+"
+Fetched
+symbols
+from
+{
+url
+}
+"
 )
             
 return
