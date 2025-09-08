@@ -11038,9 +11038,7 @@ enabled
 }
 featureFlag
 =
-FeatureFlags
-.
-composableToolbar
+true
 )
 /
 *

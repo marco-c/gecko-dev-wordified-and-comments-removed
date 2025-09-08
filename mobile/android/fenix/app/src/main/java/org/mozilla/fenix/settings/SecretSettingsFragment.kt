@@ -453,13 +453,6 @@ pref_key_enable_composable_toolbar
 .
 apply
 {
-isVisible
-=
-Config
-.
-channel
-.
-isNightlyOrDebug
 isChecked
 =
 context
