@@ -37,17 +37,6 @@ mozilla
 /
 dom
 /
-MutationEventBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGAElement
 .
 h

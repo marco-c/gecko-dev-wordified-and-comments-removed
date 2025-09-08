@@ -56,17 +56,6 @@ mozilla
 /
 dom
 /
-MutationEventBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGAnimationElement
 .
 h

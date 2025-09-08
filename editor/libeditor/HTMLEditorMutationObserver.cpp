@@ -121,17 +121,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-MutationEventBinding
-.
-h
-"
-#
-include
-"
 mozInlineSpellChecker
 .
 h

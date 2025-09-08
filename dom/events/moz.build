@@ -203,11 +203,6 @@ InputTypeList
 h
 "
 "
-InternalMutationEvent
-.
-h
-"
-"
 JSEventHandler
 .
 h
@@ -373,11 +368,6 @@ h
 "
 "
 MouseScrollEvent
-.
-h
-"
-"
-MutationEvent
 .
 h
 "
@@ -660,11 +650,6 @@ cpp
 "
 "
 MouseScrollEvent
-.
-cpp
-"
-"
-MutationEvent
 .
 cpp
 "

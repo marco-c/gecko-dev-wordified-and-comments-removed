@@ -580,17 +580,6 @@ UserActivation
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-MutationEventBinding
-.
-h
-"
 using
 namespace
 mozilla
