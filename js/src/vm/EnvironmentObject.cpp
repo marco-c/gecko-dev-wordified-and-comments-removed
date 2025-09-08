@@ -7251,6 +7251,11 @@ nullptr
 }
 if
 (
+ShouldUseObjectFuses
+(
+)
+&
+&
 JS
 :
 :

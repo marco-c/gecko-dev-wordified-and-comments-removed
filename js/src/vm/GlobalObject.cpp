@@ -2549,6 +2549,11 @@ GenerationCountedGlobal
 ;
 if
 (
+ShouldUseObjectFuses
+(
+)
+&
+&
 JS
 :
 :
