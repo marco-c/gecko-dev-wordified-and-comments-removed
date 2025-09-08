@@ -1335,7 +1335,7 @@ canvas
 :
 return
 "
-canvas
+picture
 -
 avatar
 "
@@ -1361,9 +1361,7 @@ favicon
 :
 return
 "
-default
--
-favicon
+globe
 -
 avatar
 "
@@ -1451,7 +1449,7 @@ history
 :
 return
 "
-history
+clock
 -
 avatar
 "
@@ -1592,6 +1590,8 @@ soccer
 return
 "
 soccer
+-
+ball
 -
 avatar
 "
