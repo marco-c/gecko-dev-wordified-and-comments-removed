@@ -9,6 +9,9 @@ mod
 index
 ;
 mod
+keyword_set
+;
+mod
 layouter
 ;
 mod
@@ -55,6 +58,16 @@ BoundsCheckPolicies
 BoundsCheckPolicy
 IndexableLength
 IndexableLengthError
+}
+;
+pub
+use
+keyword_set
+:
+:
+{
+CaseInsensitiveKeywordSet
+KeywordSet
 }
 ;
 pub

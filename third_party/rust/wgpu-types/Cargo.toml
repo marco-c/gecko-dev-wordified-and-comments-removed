@@ -416,13 +416,6 @@ version
 .
 9
 "
-features
-=
-[
-"
-serde
-"
-]
 [
 dependencies
 .
@@ -506,7 +499,7 @@ version
 .
 0
 .
-11
+12
 "
 optional
 =

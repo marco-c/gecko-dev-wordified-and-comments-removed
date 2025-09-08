@@ -4687,11 +4687,6 @@ F
 :
 :
 INDIRECT_FIRST_INSTANCE
-|
-F
-:
-:
-MULTI_DRAW_INDIRECT
 self
 .
 indirect_draw_dispatch

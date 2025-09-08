@@ -1609,6 +1609,9 @@ wgt
 :
 :
 BufferAddress
+multi_draw_indirect
+:
+bool
 robust_buffer_access
 :
 bool

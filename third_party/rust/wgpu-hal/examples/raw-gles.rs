@@ -177,7 +177,7 @@ new
 with_title
 (
 "
-WGPU
+wgpu
 raw
 GLES
 example
@@ -614,7 +614,7 @@ new
 with_title
 (
 "
-WGPU
+wgpu
 raw
 GLES
 example

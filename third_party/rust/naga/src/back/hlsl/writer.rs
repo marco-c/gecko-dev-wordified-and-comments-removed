@@ -866,13 +866,14 @@ keywords
 :
 :
 RESERVED_SET
+&
 super
 :
 :
 keywords
 :
 :
-RESERVED_CASE_INSENSITIVE
+RESERVED_CASE_INSENSITIVE_SET
 super
 :
 :
