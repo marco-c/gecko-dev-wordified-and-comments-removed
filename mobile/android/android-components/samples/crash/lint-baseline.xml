@@ -30,7 +30,7 @@ by
 lint
 8
 .
-12
+13
 .
 0
 "
@@ -56,7 +56,7 @@ AGP
 (
 8
 .
-12
+13
 .
 0
 )
@@ -71,7 +71,7 @@ version
 "
 8
 .
-12
+13
 .
 0
 "
@@ -452,8 +452,6 @@ res
 mipmap
 -
 anydpi
--
-v26
 /
 ic_launcher
 .
@@ -551,8 +549,6 @@ res
 mipmap
 -
 anydpi
--
-v26
 /
 ic_launcher_round
 .
