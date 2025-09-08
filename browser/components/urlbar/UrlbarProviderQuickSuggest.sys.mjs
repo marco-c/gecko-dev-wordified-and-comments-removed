@@ -2616,11 +2616,6 @@ UrlbarProviderSearchSuggestions
 isActive
 (
 queryContext
-this
-.
-queryInstance
-.
-controller
 )
 )
 &
