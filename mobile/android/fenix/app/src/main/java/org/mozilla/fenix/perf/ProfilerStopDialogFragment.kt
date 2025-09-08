@@ -97,12 +97,6 @@ Toast
 import
 androidx
 .
-annotation
-.
-StringRes
-import
-androidx
-.
 compose
 .
 material3

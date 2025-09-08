@@ -79,12 +79,6 @@ Context
 import
 android
 .
-content
-.
-Intent
-import
-android
-.
 os
 .
 Build
