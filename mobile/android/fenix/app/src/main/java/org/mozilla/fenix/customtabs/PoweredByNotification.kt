@@ -222,6 +222,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+feature
+.
+pwa
+.
+R
+as
+pwaR
 /
 *
 *
@@ -532,7 +544,7 @@ applicationContext
 .
 getString
 (
-R
+pwaR
 .
 string
 .
