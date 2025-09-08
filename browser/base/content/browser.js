@@ -8414,7 +8414,12 @@ page
 icon
 :
 {
+CSS
+.
+escape
+(
 uri
+)
 }
 )
 )
