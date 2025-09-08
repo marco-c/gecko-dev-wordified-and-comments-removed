@@ -4683,6 +4683,9 @@ aResult
 ;
 }
 bool
+nsExternalHelperAppService
+:
+:
 ExternalProtocolIsBlockedBySandbox
 (
 BrowsingContext
