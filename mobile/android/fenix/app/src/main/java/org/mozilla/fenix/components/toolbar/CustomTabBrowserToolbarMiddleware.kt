@@ -844,6 +844,18 @@ state
 Action
 as
 MVIAction
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -2114,7 +2126,7 @@ getDrawable
 environment
 .
 context
-R
+iconsR
 .
 drawable
 .
@@ -2198,7 +2210,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2240,7 +2252,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2266,7 +2278,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2414,7 +2426,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2438,7 +2450,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .

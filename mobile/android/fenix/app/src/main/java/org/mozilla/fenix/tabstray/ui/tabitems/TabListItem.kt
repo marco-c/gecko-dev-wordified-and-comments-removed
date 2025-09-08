@@ -552,6 +552,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 ThumbnailWidth
@@ -1374,7 +1386,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

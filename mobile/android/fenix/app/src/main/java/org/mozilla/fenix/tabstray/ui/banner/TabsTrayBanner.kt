@@ -551,6 +551,18 @@ kotlin
 math
 .
 max
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -2226,7 +2238,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2306,7 +2318,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2372,7 +2384,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2542,7 +2554,7 @@ inactive_tabs_menu_item_2
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .

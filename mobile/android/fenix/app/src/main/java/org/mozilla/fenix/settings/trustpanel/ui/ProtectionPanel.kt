@@ -656,6 +656,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 BANNER_ROUNDED_CORNER_SHAPE
@@ -926,7 +938,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -968,7 +980,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -999,7 +1011,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1014,7 +1026,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1051,7 +1063,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1087,7 +1099,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1135,7 +1147,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1180,7 +1192,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2165,7 +2177,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

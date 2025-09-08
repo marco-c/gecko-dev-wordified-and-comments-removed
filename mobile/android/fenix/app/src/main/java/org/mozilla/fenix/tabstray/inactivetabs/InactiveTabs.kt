@@ -518,6 +518,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 ROUNDED_CORNER_SHAPE
@@ -1010,7 +1022,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -1684,7 +1696,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

@@ -322,6 +322,18 @@ material3
 FloatingActionButtonDefaults
 as
 M3FloatingActionButtonDefaults
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -610,7 +622,7 @@ NormalTabs
 {
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -651,7 +663,7 @@ PrivateTabs
 {
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -692,7 +704,7 @@ SyncedTabs
 {
 icon
 =
-R
+iconsR
 .
 drawable
 .

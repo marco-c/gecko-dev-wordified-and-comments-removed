@@ -280,6 +280,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 searchBarShape
@@ -450,7 +462,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

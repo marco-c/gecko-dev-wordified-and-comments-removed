@@ -208,6 +208,18 @@ fenix
 theme
 .
 Theme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Suppress
 (
 "
@@ -350,7 +362,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -422,7 +434,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -452,7 +464,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -511,7 +523,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -549,7 +561,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -582,7 +594,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -612,7 +624,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -683,7 +695,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -741,7 +753,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -834,7 +846,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -847,7 +859,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

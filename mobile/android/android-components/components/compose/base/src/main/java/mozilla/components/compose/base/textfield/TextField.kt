@@ -516,6 +516,8 @@ ui
 icons
 .
 R
+as
+iconsR
 private
 val
 FocusedIndicatorLineThickness
@@ -1439,7 +1441,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

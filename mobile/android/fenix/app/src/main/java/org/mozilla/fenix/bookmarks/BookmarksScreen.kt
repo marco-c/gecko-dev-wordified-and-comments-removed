@@ -2401,7 +2401,7 @@ icon
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2660,7 +2660,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2749,7 +2749,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2821,7 +2821,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3044,7 +3044,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3647,7 +3647,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3708,7 +3708,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3782,7 +3782,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3830,7 +3830,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3894,7 +3894,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3939,7 +3939,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -3979,7 +3979,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4056,7 +4056,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4102,7 +4102,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4142,7 +4142,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4711,7 +4711,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4817,7 +4817,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4933,7 +4933,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4983,7 +4983,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6965,7 +6965,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7007,7 +7007,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7400,7 +7400,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -8155,7 +8155,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -8197,7 +8197,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

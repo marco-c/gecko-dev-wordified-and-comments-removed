@@ -466,6 +466,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 elevation
@@ -1039,7 +1051,7 @@ string
 setup_checklist_task_default_browser
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1076,7 +1088,7 @@ string
 setup_checklist_task_explore_extensions
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1113,7 +1125,7 @@ string
 setup_checklist_task_account_sync
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1193,7 +1205,7 @@ string
 setup_checklist_task_toolbar_selection
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1224,7 +1236,7 @@ string
 setup_checklist_task_theme_selection
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1275,7 +1287,7 @@ string
 setup_checklist_task_search_widget_2
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1306,7 +1318,7 @@ string
 setup_checklist_task_explore_extensions
 icon
 =
-R
+iconsR
 .
 drawable
 .

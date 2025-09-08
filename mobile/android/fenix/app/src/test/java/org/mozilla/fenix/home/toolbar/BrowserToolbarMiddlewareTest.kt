@@ -4483,7 +4483,7 @@ as
 ActionButtonRes
 assertEquals
 (
-R
+iconsR
 .
 drawable
 .
@@ -5000,7 +5000,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -5027,7 +5027,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -5058,7 +5058,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -5098,7 +5098,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .

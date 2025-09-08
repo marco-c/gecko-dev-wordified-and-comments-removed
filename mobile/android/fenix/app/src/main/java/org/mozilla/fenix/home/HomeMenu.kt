@@ -336,6 +336,18 @@ fenix
 whatsnew
 .
 WhatsNew
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Suppress
 (
 "
@@ -650,7 +662,7 @@ string
 .
 delete_browsing_data_on_quit_action
 )
-R
+iconsR
 .
 drawable
 .
@@ -833,7 +845,7 @@ string
 .
 preferences_sync_logins_2
 )
-R
+iconsR
 .
 drawable
 .
@@ -959,7 +971,7 @@ string
 .
 browser_menu_help
 )
-R
+iconsR
 .
 drawable
 .
@@ -1049,7 +1061,7 @@ BrowserMenuImageText
 nimbusValidation
 .
 settingsTitle
-R
+iconsR
 .
 drawable
 .

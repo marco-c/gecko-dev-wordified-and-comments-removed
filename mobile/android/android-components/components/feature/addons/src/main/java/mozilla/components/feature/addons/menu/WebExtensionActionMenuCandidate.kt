@@ -176,6 +176,8 @@ ui
 icons
 .
 R
+as
+iconsR
 /
 *
 *
@@ -257,7 +259,7 @@ defaultIcon
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

@@ -110,6 +110,18 @@ fenix
 utils
 .
 Settings
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -744,7 +756,7 @@ string
 setup_checklist_task_default_browser
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -951,7 +963,7 @@ string
 setup_checklist_task_theme_selection
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -1007,7 +1019,7 @@ string
 setup_checklist_task_toolbar_selection
 icon
 =
-R
+iconsR
 .
 drawable
 .

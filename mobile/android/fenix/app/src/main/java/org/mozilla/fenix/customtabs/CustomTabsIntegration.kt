@@ -330,6 +330,18 @@ fenix
 utils
 .
 getAppNightMode
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Suppress
 (
 "
@@ -798,7 +810,7 @@ primaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -822,7 +834,7 @@ secondaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -1005,7 +1017,7 @@ primaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -1029,7 +1041,7 @@ secondaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -1250,7 +1262,7 @@ primaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -1274,7 +1286,7 @@ secondaryDrawable
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

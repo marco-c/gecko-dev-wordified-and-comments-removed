@@ -344,6 +344,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -567,7 +579,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

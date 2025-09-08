@@ -188,6 +188,18 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 RobolectricTestRunner
@@ -277,7 +289,7 @@ icon
 getDrawable
 (
 testContext
-R
+iconsR
 .
 drawable
 .
@@ -355,7 +367,7 @@ icon
 getDrawable
 (
 testContext
-R
+iconsR
 .
 drawable
 .

@@ -428,6 +428,8 @@ ui
 icons
 .
 R
+as
+iconsR
 /
 *
 *
@@ -1176,7 +1178,7 @@ getDrawable
 LocalContext
 .
 current
-R
+iconsR
 .
 drawable
 .
@@ -1241,7 +1243,7 @@ getDrawable
 LocalContext
 .
 current
-R
+iconsR
 .
 drawable
 .

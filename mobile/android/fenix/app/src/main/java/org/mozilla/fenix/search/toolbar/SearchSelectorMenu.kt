@@ -208,6 +208,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 typealias
 MozSearchEngine
 =
@@ -495,7 +507,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

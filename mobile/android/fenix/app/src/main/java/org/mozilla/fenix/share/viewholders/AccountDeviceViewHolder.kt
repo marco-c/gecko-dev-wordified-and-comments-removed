@@ -158,6 +158,18 @@ share
 listadapters
 .
 SyncShareOption
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 class
 AccountDeviceViewHolder
 (
@@ -469,7 +481,7 @@ string
 .
 sync_sign_in
 )
-R
+iconsR
 .
 drawable
 .
@@ -497,7 +509,7 @@ string
 .
 sync_reconnect
 )
-R
+iconsR
 .
 drawable
 .
@@ -525,7 +537,7 @@ string
 .
 sync_offline
 )
-R
+iconsR
 .
 drawable
 .
@@ -553,7 +565,7 @@ string
 .
 sync_connect_device
 )
-R
+iconsR
 .
 drawable
 .
@@ -582,7 +594,7 @@ string
 .
 sync_send_to_all
 )
-R
+iconsR
 .
 drawable
 .
@@ -620,7 +632,7 @@ option
 device
 .
 displayName
-R
+iconsR
 .
 drawable
 .
@@ -641,7 +653,7 @@ option
 device
 .
 displayName
-R
+iconsR
 .
 drawable
 .

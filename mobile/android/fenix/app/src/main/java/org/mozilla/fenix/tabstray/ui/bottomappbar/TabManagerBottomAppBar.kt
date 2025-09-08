@@ -419,6 +419,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -714,7 +726,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -856,7 +868,7 @@ tabs_tray_select_tabs
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -891,7 +903,7 @@ tab_tray_menu_recently_closed
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -926,7 +938,7 @@ tab_tray_menu_tab_settings
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -961,7 +973,7 @@ tab_tray_menu_item_close
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -996,7 +1008,7 @@ tab_tray_menu_account_settings
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .

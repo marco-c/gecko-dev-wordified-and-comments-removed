@@ -132,6 +132,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -478,7 +490,7 @@ context
 .
 getDrawableWithTint
 (
-R
+iconsR
 .
 drawable
 .

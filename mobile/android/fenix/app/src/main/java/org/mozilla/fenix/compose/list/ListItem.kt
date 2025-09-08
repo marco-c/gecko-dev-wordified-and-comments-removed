@@ -606,6 +606,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 LIST_ITEM_HEIGHT
@@ -4554,7 +4566,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -5071,14 +5083,22 @@ padding
 (
 horizontal
 =
-16
+FirefoxTheme
 .
-dp
+layout
+.
+space
+.
+dynamic200
 vertical
 =
-6
+FirefoxTheme
 .
-dp
+layout
+.
+space
+.
+static100
 )
 verticalAlignment
 =
@@ -5579,7 +5599,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5629,7 +5649,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5699,7 +5719,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5737,7 +5757,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5778,7 +5798,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5794,7 +5814,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5831,7 +5851,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5847,7 +5867,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5922,7 +5942,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5935,7 +5955,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -5985,7 +6005,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6001,7 +6021,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6130,7 +6150,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6208,7 +6228,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6259,7 +6279,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -6324,7 +6344,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6530,7 +6550,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6577,7 +6597,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6629,7 +6649,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6682,7 +6702,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6721,7 +6741,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -6765,7 +6785,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -6846,7 +6866,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6881,7 +6901,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6922,7 +6942,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -6971,7 +6991,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7015,7 +7035,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7031,7 +7051,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7066,7 +7086,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7082,7 +7102,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7122,7 +7142,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7138,7 +7158,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7179,7 +7199,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7195,7 +7215,7 @@ afterIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -7248,7 +7268,7 @@ text
 "
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -7279,7 +7299,7 @@ action
 "
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -7310,7 +7330,7 @@ action
 "
 icon
 =
-R
+iconsR
 .
 drawable
 .
@@ -7343,7 +7363,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

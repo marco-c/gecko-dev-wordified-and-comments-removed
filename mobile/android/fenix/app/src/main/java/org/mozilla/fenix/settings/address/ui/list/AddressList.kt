@@ -242,6 +242,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -388,7 +400,7 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

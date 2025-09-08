@@ -694,6 +694,18 @@ robolectric
 annotation
 .
 Implements
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 RobolectricTestRunner
@@ -932,7 +944,7 @@ AppCompatResources
 getDrawable
 (
 testContext
-R
+iconsR
 .
 drawable
 .
@@ -1295,7 +1307,7 @@ testContext
 .
 getDrawable
 (
-R
+iconsR
 .
 drawable
 .
@@ -1481,7 +1493,7 @@ testContext
 .
 getDrawable
 (
-R
+iconsR
 .
 drawable
 .
@@ -1678,7 +1690,7 @@ testContext
 .
 getDrawable
 (
-R
+iconsR
 .
 drawable
 .
@@ -1894,7 +1906,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1985,7 +1997,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2076,7 +2088,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2245,7 +2257,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -2268,7 +2280,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -3242,7 +3254,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -3340,7 +3352,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -3363,7 +3375,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .

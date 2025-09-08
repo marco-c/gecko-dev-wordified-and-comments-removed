@@ -358,6 +358,18 @@ fenix
 settings
 .
 requirePreference
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -1246,7 +1258,7 @@ manageAddressesPreference
 .
 setIcon
 (
-R
+iconsR
 .
 drawable
 .
@@ -1376,7 +1388,7 @@ manageSavedCardsPreference
 .
 setIcon
 (
-R
+iconsR
 .
 drawable
 .

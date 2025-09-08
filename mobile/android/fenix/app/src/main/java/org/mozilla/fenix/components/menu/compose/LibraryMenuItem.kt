@@ -440,6 +440,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -969,7 +981,7 @@ isHighlighted
 isHighlighted
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -1017,7 +1029,7 @@ isHighlighted
 isHighlighted
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -1065,7 +1077,7 @@ isHighlighted
 isHighlighted
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -1113,7 +1125,7 @@ isHighlighted
 isHighlighted
 iconRes
 =
-R
+iconsR
 .
 drawable
 .

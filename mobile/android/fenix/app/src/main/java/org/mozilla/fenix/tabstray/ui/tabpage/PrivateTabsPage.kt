@@ -288,6 +288,18 @@ fenix
 theme
 .
 Theme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 EmptyPageWidth
@@ -667,7 +679,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

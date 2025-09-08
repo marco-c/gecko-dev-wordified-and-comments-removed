@@ -456,6 +456,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -693,7 +705,7 @@ Status
 .
 Failed
 )
-R
+iconsR
 .
 drawable
 .
@@ -1149,7 +1161,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -1235,7 +1247,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

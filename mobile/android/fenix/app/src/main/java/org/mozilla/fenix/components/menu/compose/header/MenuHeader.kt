@@ -334,6 +334,18 @@ fenix
 theme
 .
 Theme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Composable
 internal
 fun
@@ -490,7 +502,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -532,7 +544,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

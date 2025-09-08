@@ -530,6 +530,18 @@ sync
 Tab
 as
 SyncTab
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -1005,7 +1017,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

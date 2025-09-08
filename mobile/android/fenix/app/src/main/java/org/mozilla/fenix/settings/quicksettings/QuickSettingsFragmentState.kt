@@ -180,6 +180,18 @@ fenix
 utils
 .
 Settings
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -573,7 +585,7 @@ R
 string
 .
 quick_settings_sheet_insecure_connection_2
-R
+iconsR
 .
 drawable
 .
@@ -586,7 +598,7 @@ R
 string
 .
 quick_settings_sheet_local_page
-R
+iconsR
 .
 drawable
 .

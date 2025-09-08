@@ -240,6 +240,18 @@ permission
 CAMERA
 as
 CAMERA_PERMISSION
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Parcelize
 enum
 class
@@ -880,7 +892,7 @@ this
 CAMERA
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -888,7 +900,7 @@ mozac_ic_camera_24
 LOCATION
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -896,7 +908,7 @@ mozac_ic_location_24
 MICROPHONE
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -904,7 +916,7 @@ mozac_ic_microphone_24
 NOTIFICATION
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -912,7 +924,7 @@ mozac_ic_notification_24
 PERSISTENT_STORAGE
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -920,7 +932,7 @@ mozac_ic_storage_24
 CROSS_ORIGIN_STORAGE_ACCESS
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -928,7 +940,7 @@ mozac_ic_cookies_24
 MEDIA_KEY_SYSTEM_ACCESS
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -938,7 +950,7 @@ AUTOPLAY_AUDIBLE
 AUTOPLAY_INAUDIBLE
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -946,7 +958,7 @@ mozac_ic_autoplay_24
 LOCAL_DEVICE_ACCESS
 -
 >
-R
+iconsR
 .
 drawable
 .
@@ -954,7 +966,7 @@ mozac_ic_device_desktop_24
 LOCAL_NETWORK_ACCESS
 -
 >
-R
+iconsR
 .
 drawable
 .

@@ -761,6 +761,18 @@ theme
 .
 Theme
 import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
+import
 org
 .
 mozilla
@@ -1437,7 +1449,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2456,7 +2468,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

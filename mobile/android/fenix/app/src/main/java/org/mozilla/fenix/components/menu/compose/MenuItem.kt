@@ -554,6 +554,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 MENU_ITEM_HEIGHT_WITHOUT_DESC
@@ -1801,7 +1813,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2501,7 +2513,7 @@ iconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -2593,7 +2605,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2647,7 +2659,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2666,7 +2678,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2713,7 +2725,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2735,7 +2747,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

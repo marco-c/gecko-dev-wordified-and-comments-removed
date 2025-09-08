@@ -122,6 +122,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 fun
 togglePasswordReveal
 (
@@ -181,7 +193,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -225,7 +237,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

@@ -402,6 +402,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 cardShape
@@ -659,7 +671,7 @@ if
 isExpanded
 )
 {
-R
+iconsR
 .
 drawable
 .
@@ -667,7 +679,7 @@ mozac_ic_chevron_up_20
 }
 else
 {
-R
+iconsR
 .
 drawable
 .

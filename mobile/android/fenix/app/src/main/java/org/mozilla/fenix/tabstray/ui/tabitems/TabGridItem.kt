@@ -676,6 +676,18 @@ kotlin
 math
 .
 max
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 val
 ThumbnailPadding
@@ -1410,7 +1422,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -1555,7 +1567,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

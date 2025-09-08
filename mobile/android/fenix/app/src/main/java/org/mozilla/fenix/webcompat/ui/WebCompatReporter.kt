@@ -664,6 +664,18 @@ webcompat
 store
 .
 WebCompatReporterStore
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 private
 const
 val
@@ -1661,7 +1673,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

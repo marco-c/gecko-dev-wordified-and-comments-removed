@@ -110,6 +110,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -257,7 +269,7 @@ string
 add_tab
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -318,7 +330,7 @@ string
 add_private_tab
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -378,7 +390,7 @@ string
 close_tab
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .

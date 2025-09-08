@@ -202,6 +202,18 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 RunWith
 (
 RobolectricTestRunner
@@ -791,7 +803,7 @@ title
 "
 icon
 =
-R
+iconsR
 .
 drawable
 .

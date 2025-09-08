@@ -838,6 +838,18 @@ fenix
 utils
 .
 DURATION_MS_MAIN_MENU_ITEM
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -2012,7 +2024,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2216,7 +2228,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2377,7 +2389,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2394,7 +2406,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2407,7 +2419,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2493,7 +2505,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2629,7 +2641,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2642,7 +2654,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -2839,7 +2851,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3085,7 +3097,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3123,7 +3135,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3154,7 +3166,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3211,7 +3223,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3341,7 +3353,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3403,7 +3415,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3596,7 +3608,7 @@ fillMaxHeight
 )
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -3643,7 +3655,7 @@ fillMaxHeight
 )
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -3693,7 +3705,7 @@ isHighlighted
 isDownloadHighlighted
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -3740,7 +3752,7 @@ fillMaxHeight
 )
 iconRes
 =
-R
+iconsR
 .
 drawable
 .
@@ -3969,7 +3981,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -4251,7 +4263,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -4440,7 +4452,7 @@ asImageBitmap
 :
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
@@ -4587,7 +4599,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

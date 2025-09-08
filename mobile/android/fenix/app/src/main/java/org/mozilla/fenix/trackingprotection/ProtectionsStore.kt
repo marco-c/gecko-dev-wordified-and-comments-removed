@@ -152,6 +152,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -990,7 +1002,7 @@ R
 string
 .
 etp_social_media_trackers_description
-R
+iconsR
 .
 drawable
 .
@@ -1008,7 +1020,7 @@ R
 string
 .
 etp_cookies_description
-R
+iconsR
 .
 drawable
 .
@@ -1026,7 +1038,7 @@ R
 string
 .
 etp_cryptominers_description
-R
+iconsR
 .
 drawable
 .
@@ -1044,7 +1056,7 @@ R
 string
 .
 etp_known_fingerprinters_description
-R
+iconsR
 .
 drawable
 .
@@ -1062,7 +1074,7 @@ R
 string
 .
 etp_tracking_content_description
-R
+iconsR
 .
 drawable
 .
@@ -1080,7 +1092,7 @@ R
 string
 .
 etp_redirect_trackers_description
-R
+iconsR
 .
 drawable
 .
@@ -1098,7 +1110,7 @@ R
 string
 .
 etp_suspected_fingerprinters_description
-R
+iconsR
 .
 drawable
 .

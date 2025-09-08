@@ -498,6 +498,18 @@ lang
 ref
 .
 WeakReference
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -1220,7 +1232,7 @@ urlLayout
 .
 setErrorIconDrawable
 (
-R
+iconsR
 .
 drawable
 .

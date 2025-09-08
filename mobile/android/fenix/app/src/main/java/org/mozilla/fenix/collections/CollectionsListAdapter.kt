@@ -136,6 +136,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -339,7 +351,7 @@ holder
 textView
 .
 context
-R
+iconsR
 .
 drawable
 .

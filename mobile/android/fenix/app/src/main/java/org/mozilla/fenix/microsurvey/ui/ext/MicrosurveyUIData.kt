@@ -118,6 +118,18 @@ mozilla
 fenix
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -329,7 +341,7 @@ icon
 resourceId
 ?
 :
-R
+iconsR
 .
 drawable
 .

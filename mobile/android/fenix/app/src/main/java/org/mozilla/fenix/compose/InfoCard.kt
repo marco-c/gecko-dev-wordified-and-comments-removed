@@ -378,6 +378,18 @@ fenix
 theme
 .
 FirefoxTheme
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -600,7 +612,7 @@ InfoCardIcon
 (
 iconId
 =
-R
+iconsR
 .
 drawable
 .
@@ -617,7 +629,7 @@ InfoCardIcon
 (
 iconId
 =
-R
+iconsR
 .
 drawable
 .
@@ -634,7 +646,7 @@ InfoCardIcon
 (
 iconId
 =
-R
+iconsR
 .
 drawable
 .
@@ -654,7 +666,7 @@ InfoCardIcon
 (
 iconId
 =
-R
+iconsR
 .
 drawable
 .

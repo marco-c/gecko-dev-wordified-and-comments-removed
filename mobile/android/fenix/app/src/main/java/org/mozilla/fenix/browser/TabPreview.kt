@@ -568,6 +568,18 @@ kotlin
 math
 .
 min
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -791,7 +803,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -834,7 +846,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -893,7 +905,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -952,7 +964,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -981,7 +993,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1038,7 +1050,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1069,7 +1081,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1099,7 +1111,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1148,7 +1160,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1191,7 +1203,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
@@ -1218,7 +1230,7 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .

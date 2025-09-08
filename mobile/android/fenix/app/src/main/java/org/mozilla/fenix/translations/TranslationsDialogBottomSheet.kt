@@ -512,6 +512,18 @@ java
 util
 .
 Locale
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -2518,7 +2530,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -3098,7 +3110,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
