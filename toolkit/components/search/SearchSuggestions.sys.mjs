@@ -2287,7 +2287,7 @@ param
 {
 boolean
 }
-privacyMode
+inPrivateBrowsing
 *
 True
 if
@@ -2311,7 +2311,7 @@ triggerSearch
 searchString
 searchParam
 listener
-privacyMode
+inPrivateBrowsing
 )
 {
 this
@@ -2332,13 +2332,17 @@ suggestionController
 .
 fetch
 (
+{
 searchString
-privacyMode
+inPrivateBrowsing
+engine
+:
 Services
 .
 search
 .
 defaultEngine
+}
 )
 ;
 let
