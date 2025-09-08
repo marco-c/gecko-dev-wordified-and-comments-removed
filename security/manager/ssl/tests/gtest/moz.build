@@ -28,6 +28,11 @@ MD4Test
 cpp
 "
 "
+NSSBenchTest
+.
+cpp
+"
+"
 OCSPCacheTest
 .
 cpp
