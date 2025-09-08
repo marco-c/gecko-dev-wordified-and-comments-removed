@@ -63,6 +63,17 @@ clip
 -
 distances
 '
+chromium_experimental_primitive_id
+:
+'
+chromium
+-
+experimental
+-
+primitive
+-
+id
+'
 }
 ;
 const
