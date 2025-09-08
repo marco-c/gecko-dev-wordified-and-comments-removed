@@ -127,7 +127,16 @@ border
 -
 radius
 :
-4px
+var
+(
+-
+-
+border
+-
+radius
+-
+small
+)
 ;
 padding
 :
