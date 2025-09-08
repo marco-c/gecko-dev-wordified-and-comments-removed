@@ -1029,7 +1029,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 {
@@ -2949,7 +2949,7 @@ fixed
 element
 -
 >
-GetXULBoolAttr
+GetBoolAttr
 (
 nsGkAtoms
 :

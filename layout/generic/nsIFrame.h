@@ -435,6 +435,12 @@ nsViewManager
 class
 nsWindowSizes
 ;
+enum
+class
+AttrModType
+:
+uint8_t
+;
 struct
 CharacterDataChangeInfo
 ;
@@ -7465,7 +7471,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 ;
