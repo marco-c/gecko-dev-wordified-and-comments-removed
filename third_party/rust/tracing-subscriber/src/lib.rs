@@ -22,7 +22,7 @@ rs
 /
 tracing
 /
-master
+main
 /
 assets
 /
