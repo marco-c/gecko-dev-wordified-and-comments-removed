@@ -1082,6 +1082,12 @@ this
 supportLinkEl
 )
 {
+event
+.
+preventDefault
+(
+)
+;
 win
 .
 openWebLinkIn
