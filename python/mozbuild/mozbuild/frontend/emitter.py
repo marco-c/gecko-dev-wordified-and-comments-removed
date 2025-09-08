@@ -7761,10 +7761,6 @@ varlist
 [
             
 "
-DUMP_SYMBOLS_FLAGS
-"
-            
-"
 EXTRA_DSO_LDOPTS
 "
             
