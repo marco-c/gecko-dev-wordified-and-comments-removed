@@ -177,6 +177,13 @@ js
 ]
 [
 "
+browser_WallpaperThemeWorker
+.
+js
+"
+]
+[
+"
 browser_as_load_location
 .
 js

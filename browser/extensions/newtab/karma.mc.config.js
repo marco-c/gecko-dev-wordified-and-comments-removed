@@ -581,6 +581,8 @@ branches
 "
 lib
 /
+Wallpapers
+/
 WallpaperFeed
 .
 sys
