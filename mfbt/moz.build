@@ -350,6 +350,11 @@ MruCache
 h
 "
 "
+MulOverflowMask
+.
+h
+"
+"
 NeverDestroyed
 .
 h
@@ -521,11 +526,6 @@ h
 "
 "
 Tainting
-.
-h
-"
-"
-TemplateLib
 .
 h
 "

@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-OperatorNewExtensions
+MulOverflowMask
 .
 h
 "
@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-TemplateLib
+OperatorNewExtensions
 .
 h
 "
@@ -544,9 +544,6 @@ oldSize
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -554,9 +551,8 @@ sizeof
 T
 )
 >
-:
-:
-value
+(
+)
 )
 )
 ;

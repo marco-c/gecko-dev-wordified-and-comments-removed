@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryChecking
 .
 h
@@ -45,7 +36,7 @@ include
 "
 mozilla
 /
-PodOperations
+MulOverflowMask
 .
 h
 "
@@ -54,7 +45,7 @@ include
 "
 mozilla
 /
-TemplateLib
+PodOperations
 .
 h
 "
@@ -4541,9 +4532,6 @@ oldSize
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -4551,9 +4539,8 @@ sizeof
 T
 )
 >
-:
-:
-value
+(
+)
 )
 )
 ;
