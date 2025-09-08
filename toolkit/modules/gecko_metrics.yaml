@@ -607,6 +607,12 @@ interaction
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+events
 store_region_result
 :
 type
