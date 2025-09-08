@@ -1286,7 +1286,7 @@ stubs
 .
 isLinkedToGuardian
 .
-returns
+resolves
 (
 isEnrolled
 )
@@ -1307,7 +1307,7 @@ stubs
 .
 enroll
 .
-returns
+resolves
 (
 {
 ok
@@ -1332,7 +1332,7 @@ stubs
 .
 fetchUserInfo
 .
-returns
+resolves
 (
 entitlement
 )
@@ -1353,7 +1353,7 @@ stubs
 .
 fetchProxyPass
 .
-returns
+resolves
 (
 proxyPass
 )

@@ -1457,6 +1457,14 @@ onViewShowing
 event
 )
 {
+lazy
+.
+IPProtectionService
+.
+maybeEnroll
+(
+)
+;
 let
 {
 ownerGlobal
