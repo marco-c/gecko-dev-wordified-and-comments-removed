@@ -463,6 +463,17 @@ radius
 circle
 )
 ;
+border
+:
+var
+(
+-
+-
+card
+-
+border
+)
+;
 }
 #
 more
