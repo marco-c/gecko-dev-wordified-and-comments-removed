@@ -195,12 +195,6 @@ test_IPProtectionService_start
 (
 )
 {
-IPProtectionService
-.
-init
-(
-)
-;
 let
 sandbox
 =
@@ -254,6 +248,13 @@ world
 "
 }
 }
+)
+;
+await
+IPProtectionService
+.
+init
+(
 )
 ;
 Assert

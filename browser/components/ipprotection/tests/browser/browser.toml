@@ -16,6 +16,15 @@ prefs
 =
 [
 "
+browser
+.
+ipProtection
+.
+log
+=
+true
+"
+"
 dom
 .
 security
