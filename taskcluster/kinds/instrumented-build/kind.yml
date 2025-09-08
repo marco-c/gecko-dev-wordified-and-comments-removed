@@ -760,7 +760,9 @@ build
 /
 security
 /
-browser
+{
+browser_entitlement
+}
 .
 xml
 path
@@ -1062,7 +1064,9 @@ build
 /
 security
 /
-browser
+{
+browser_entitlement
+}
 .
 xml
 path
