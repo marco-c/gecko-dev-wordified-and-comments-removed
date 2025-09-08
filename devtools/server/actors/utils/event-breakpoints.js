@@ -788,17 +788,6 @@ dom
 mutation
 "
 "
-DOMNodeRemoved
-"
-)
-nodeEvent
-(
-"
-dom
--
-mutation
-"
-"
 DOMContentLoaded
 "
 )

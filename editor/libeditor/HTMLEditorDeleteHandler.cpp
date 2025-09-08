@@ -6443,9 +6443,8 @@ if
 (
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
-NS_EVENT_BITS_MUTATION_NODEREMOVED
 )
 )
 {
@@ -17362,7 +17361,7 @@ IsPositioned
 (
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 &
@@ -17663,9 +17662,8 @@ IsPositioned
 (
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
-NS_EVENT_BITS_MUTATION_NODEREMOVED
 )
 &
 &
@@ -27685,7 +27683,7 @@ if
 (
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 )
@@ -35064,7 +35062,7 @@ if
 (
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 &
@@ -35169,7 +35167,7 @@ if
 !
 aHTMLEditor
 .
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 |
@@ -37396,7 +37394,7 @@ rv
 if
 (
 !
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 )

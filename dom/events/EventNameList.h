@@ -1371,13 +1371,6 @@ eMouseEventClass
 )
 NON_IDL_EVENT
 (
-DOMNodeRemoved
-eLegacyNodeRemoved
-EventNameType_HTMLXUL
-eMutationEventClass
-)
-NON_IDL_EVENT
-(
 DOMActivate
 eLegacyDOMActivate
 EventNameType_HTMLXUL
