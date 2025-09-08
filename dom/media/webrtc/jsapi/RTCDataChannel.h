@@ -613,6 +613,12 @@ RTCDataChannelState
 :
 Connecting
 ;
+RefPtr
+<
+nsISerialEventTarget
+>
+mEventTarget
+;
 size_t
 mBufferedAmount
 =
