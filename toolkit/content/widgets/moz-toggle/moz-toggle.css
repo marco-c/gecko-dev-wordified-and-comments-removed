@@ -518,7 +518,7 @@ toggle
 width
 )
 -
-4
+2
 *
 var
 (
@@ -530,6 +530,8 @@ dot
 -
 margin
 )
+-
+2px
 -
 var
 (
