@@ -64,10 +64,8 @@ slotted
 :
 not
 (
-:
+.
 last
--
-child
 )
 )
 {
@@ -104,10 +102,8 @@ slotted
 :
 not
 (
-:
+.
 first
--
-child
 )
 )
 {
