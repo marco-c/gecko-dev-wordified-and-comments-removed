@@ -404,6 +404,12 @@ initial
 -
 state
 '
+-
+'
+captcha
+-
+detection
+'
 profile_group_id
 :
 type
