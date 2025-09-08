@@ -6744,11 +6744,9 @@ true
 Attempts
 to
 scroll
+el
 into
 view
-|
-el
-|
 .
 *
 *
@@ -6787,6 +6785,11 @@ el
 scrollIntoView
 (
 {
+behavior
+:
+"
+instant
+"
 block
 :
 "
