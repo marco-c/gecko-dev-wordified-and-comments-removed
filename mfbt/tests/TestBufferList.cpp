@@ -7,15 +7,6 @@ BufferList
 .
 h
 "
-#
-include
-"
-mozilla
-/
-MulOverflowMask
-.
-h
-"
 class
 InfallibleAllocPolicy
 {
@@ -41,6 +32,9 @@ aNumElems
 mozilla
 :
 :
+tl
+:
+:
 MulOverflowMask
 <
 sizeof
@@ -48,8 +42,9 @@ sizeof
 T
 )
 >
-(
-)
+:
+:
+value
 )
 {
 MOZ_CRASH

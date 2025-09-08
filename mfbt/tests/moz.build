@@ -117,9 +117,6 @@ TestMathAlgorithms
 TestMaybe
 "
 "
-TestMulOverflowMask
-"
-"
 TestNonDereferenceable
 "
 "
