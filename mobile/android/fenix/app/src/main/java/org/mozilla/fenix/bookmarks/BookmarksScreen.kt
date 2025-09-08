@@ -8399,6 +8399,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false
@@ -8644,6 +8647,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false
@@ -8845,6 +8851,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false
@@ -9011,6 +9020,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false
@@ -9208,6 +9220,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false
@@ -9694,6 +9709,9 @@ null
 bookmarksMultiselectMoveState
 =
 null
+bookmarksDeletionSnackbarQueueCount
+=
+0
 isLoading
 =
 false

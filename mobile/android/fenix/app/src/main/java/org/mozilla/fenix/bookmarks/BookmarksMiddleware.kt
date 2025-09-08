@@ -1851,6 +1851,16 @@ scope
 .
 launch
 {
+if
+(
+preReductionState
+.
+bookmarksDeletionSnackbarQueueCount
+<
+=
+1
+)
+{
 preReductionState
 .
 bookmarksSnackbarState
@@ -1865,6 +1875,7 @@ deleteNode
 (
 it
 )
+}
 }
 }
 else
