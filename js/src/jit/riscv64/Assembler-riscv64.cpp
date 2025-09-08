@@ -7894,7 +7894,7 @@ used
 )
 )
 {
-LabelCahe
+LabelCache
 :
 :
 Ptr
@@ -8351,7 +8351,7 @@ used
 )
 )
 {
-LabelCahe
+LabelCache
 :
 :
 Ptr

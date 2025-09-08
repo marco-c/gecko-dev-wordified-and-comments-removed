@@ -619,7 +619,7 @@ LabelOffset
 int32_t
 ;
 using
-LabelCahe
+LabelCache
 =
 HashMap
 <
@@ -638,7 +638,7 @@ js
 SystemAllocPolicy
 >
 ;
-LabelCahe
+LabelCache
 label_cache_
 ;
 void
