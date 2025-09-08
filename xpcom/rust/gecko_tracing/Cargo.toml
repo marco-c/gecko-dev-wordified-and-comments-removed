@@ -111,6 +111,11 @@ tracing
 -
 logging
 "
+"
+tracing
+-
+reporting
+"
 ]
 }
 tracing
