@@ -881,6 +881,11 @@ getToolboxes
 {
 if
 (
+toolbox
+.
+isDestroying
+|
+|
 !
 toolbox
 .
