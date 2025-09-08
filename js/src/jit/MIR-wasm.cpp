@@ -2081,7 +2081,7 @@ const
 HashNumber
 hash
 =
-MDefinition
+MUnaryInstruction
 :
 :
 valueHash

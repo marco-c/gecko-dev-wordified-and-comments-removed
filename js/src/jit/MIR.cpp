@@ -10389,7 +10389,7 @@ const
 HashNumber
 hash
 =
-MDefinition
+MNullaryInstruction
 :
 :
 valueHash
@@ -38503,7 +38503,7 @@ const
 HashNumber
 hash
 =
-MDefinition
+MUnaryInstruction
 :
 :
 valueHash
