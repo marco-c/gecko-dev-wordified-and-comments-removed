@@ -194,7 +194,11 @@ DOMString
 src
 ;
 [
-Throws
+BinaryName
+=
+"
+ensureControllers
+"
 ]
 readonly
 attribute
