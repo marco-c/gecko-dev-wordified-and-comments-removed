@@ -237,6 +237,13 @@ js
 ]
 [
 "
+test_quicksuggest_yelp_realtime
+.
+js
+"
+]
+[
+"
 test_rust_ingest
 .
 js
