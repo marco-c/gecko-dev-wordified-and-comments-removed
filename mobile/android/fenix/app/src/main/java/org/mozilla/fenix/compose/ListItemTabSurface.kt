@@ -567,7 +567,7 @@ shape
 =
 RoundedCornerShape
 (
-8
+16
 .
 dp
 )
@@ -645,7 +645,7 @@ clip
 (
 RoundedCornerShape
 (
-8
+16
 .
 dp
 )
