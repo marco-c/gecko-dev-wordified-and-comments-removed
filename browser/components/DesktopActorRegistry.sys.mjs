@@ -1451,6 +1451,17 @@ true
 "
 BackupUI
 :
+FindIfABackupFileExists
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+BackupUI
+:
 ShowBackupLocation
 "
 :
