@@ -147,16 +147,6 @@ ui
 .
 platform
 .
-LocalConfiguration
-import
-androidx
-.
-compose
-.
-ui
-.
-platform
-.
 LocalDensity
 import
 androidx

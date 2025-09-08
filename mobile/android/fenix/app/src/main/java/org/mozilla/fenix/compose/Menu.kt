@@ -383,14 +383,6 @@ mozilla
 .
 fenix
 .
-R
-import
-org
-.
-mozilla
-.
-fenix
-.
 theme
 .
 FirefoxTheme

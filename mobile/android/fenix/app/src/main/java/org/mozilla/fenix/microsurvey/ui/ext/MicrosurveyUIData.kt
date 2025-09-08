@@ -111,14 +111,6 @@ messaging
 .
 MicrosurveyConfig
 import
-org
-.
-mozilla
-.
-fenix
-.
-R
-import
 mozilla
 .
 components

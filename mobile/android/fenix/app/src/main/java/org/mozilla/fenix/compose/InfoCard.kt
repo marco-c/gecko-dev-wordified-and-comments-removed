@@ -353,14 +353,6 @@ mozilla
 .
 fenix
 .
-R
-import
-org
-.
-mozilla
-.
-fenix
-.
 shopping
 .
 ui

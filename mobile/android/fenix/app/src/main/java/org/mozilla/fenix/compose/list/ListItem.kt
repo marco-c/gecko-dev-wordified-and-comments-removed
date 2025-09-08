@@ -573,14 +573,6 @@ mozilla
 .
 fenix
 .
-R
-import
-org
-.
-mozilla
-.
-fenix
-.
 compose
 .
 Favicon

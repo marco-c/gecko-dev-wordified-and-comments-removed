@@ -118,16 +118,6 @@ fenix
 tabstray
 .
 TabsTrayState
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-TabsTrayState
 .
 Mode
 import
