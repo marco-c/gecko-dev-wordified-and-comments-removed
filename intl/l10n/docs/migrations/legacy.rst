@@ -2663,7 +2663,6 @@ brandShortName
 TERM_REFERENCE
 (
 "
--
 brand
 -
 short
