@@ -168,6 +168,18 @@ focus
 idlingResources
 .
 SessionLoadedIdlingResource
+import
+mozilla
+.
+components
+.
+feature
+.
+downloads
+.
+R
+as
+downloadsR
 class
 DownloadRobot
 {
@@ -540,7 +552,7 @@ downloadNotificationText
 =
 getStringResource
 (
-R
+downloadsR
 .
 string
 .

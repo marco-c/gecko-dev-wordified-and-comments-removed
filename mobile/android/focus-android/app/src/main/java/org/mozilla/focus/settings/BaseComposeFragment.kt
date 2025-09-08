@@ -328,6 +328,18 @@ ui
 theme
 .
 focusColors
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -764,7 +776,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

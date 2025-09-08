@@ -170,6 +170,18 @@ focus
 ext
 .
 components
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 SuppressWarnings
 (
 "
@@ -385,7 +397,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -399,7 +411,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

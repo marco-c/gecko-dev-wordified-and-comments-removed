@@ -102,6 +102,18 @@ mozilla
 focus
 .
 R
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -167,7 +179,7 @@ menu_help
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -202,7 +214,7 @@ menu_settings
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .

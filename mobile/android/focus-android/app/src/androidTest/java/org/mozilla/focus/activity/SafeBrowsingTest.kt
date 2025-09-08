@@ -200,6 +200,18 @@ focus
 testAnnotations
 .
 SmokeTest
+import
+mozilla
+.
+components
+.
+browser
+.
+errorpages
+.
+R
+as
+errorpagesR
 /
 /
 These
@@ -237,7 +249,7 @@ malwareWarning
 =
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .
@@ -249,7 +261,7 @@ phishingWarning
 =
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .
@@ -261,7 +273,7 @@ unwantedSoftwareWarning
 =
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .
@@ -273,7 +285,7 @@ harmfulSiteWarning
 =
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .
@@ -285,7 +297,7 @@ tryAgainButton
 =
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .

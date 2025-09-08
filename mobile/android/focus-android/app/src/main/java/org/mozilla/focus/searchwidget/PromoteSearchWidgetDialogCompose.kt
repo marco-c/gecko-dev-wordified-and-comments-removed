@@ -434,6 +434,18 @@ ui
 theme
 .
 focusTypography
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Composable
 Preview
 private
@@ -1063,7 +1075,7 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .

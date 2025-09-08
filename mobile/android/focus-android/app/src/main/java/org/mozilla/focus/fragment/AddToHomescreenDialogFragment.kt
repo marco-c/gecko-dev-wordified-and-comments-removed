@@ -226,6 +226,18 @@ focus
 shortcut
 .
 IconGenerator
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -433,7 +445,7 @@ blockIcon
 .
 setImageResource
 (
-R
+iconsR
 .
 drawable
 .

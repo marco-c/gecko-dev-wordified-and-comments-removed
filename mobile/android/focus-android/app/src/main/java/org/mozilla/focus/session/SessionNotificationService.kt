@@ -260,6 +260,18 @@ lang
 ref
 .
 WeakReference
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -858,7 +870,7 @@ NotificationCompat
 .
 Action
 (
-R
+iconsR
 .
 drawable
 .

@@ -182,6 +182,18 @@ focus
 helpers
 .
 TestSetup
+import
+mozilla
+.
+components
+.
+browser
+.
+errorpages
+.
+R
+as
+errorpagesR
 /
 /
 This
@@ -286,7 +298,7 @@ verifyPageContent
 (
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .
@@ -333,7 +345,7 @@ verifyPageContent
 (
 getStringResource
 (
-R
+errorpagesR
 .
 string
 .

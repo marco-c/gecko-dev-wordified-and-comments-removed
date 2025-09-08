@@ -140,6 +140,18 @@ focus
 databinding
 .
 SwitchWithDescriptionBinding
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 class
 SwitchWithDescription
 JvmOverloads
@@ -227,7 +239,7 @@ R
 styleable
 .
 SwitchWithDescription_switchIcon
-R
+iconsR
 .
 drawable
 .

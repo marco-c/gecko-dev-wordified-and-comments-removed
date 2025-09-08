@@ -178,6 +178,18 @@ focus
 state
 .
 AppAction
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 class
 SearchWidgetProvider
 :
@@ -298,7 +310,7 @@ drawable
 ic_splash_screen
 searchWidgetMicrophoneResource
 =
-R
+iconsR
 .
 drawable
 .

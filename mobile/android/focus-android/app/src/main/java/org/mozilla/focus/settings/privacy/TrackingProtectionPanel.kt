@@ -302,6 +302,18 @@ java
 util
 .
 Locale
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 SuppressWarnings
 (
 "
@@ -711,7 +723,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -730,7 +742,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -744,7 +756,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -817,7 +829,7 @@ if
 isTrackingProtectionOn
 )
 {
-R
+iconsR
 .
 drawable
 .
@@ -825,7 +837,7 @@ mozac_ic_shield_24
 }
 else
 {
-R
+iconsR
 .
 drawable
 .

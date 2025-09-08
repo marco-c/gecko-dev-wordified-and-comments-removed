@@ -300,6 +300,18 @@ ui
 theme
 .
 focusColors
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 Composable
 Preview
 (
@@ -616,7 +628,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
@@ -846,7 +858,7 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .

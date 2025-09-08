@@ -224,6 +224,18 @@ focus
 theme
 .
 resolveAttribute
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 class
 NavigationButtonsIntegration
 (
@@ -376,7 +388,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -470,7 +482,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -564,7 +576,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
@@ -579,7 +591,7 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .

@@ -416,6 +416,10 @@ allOf
 (
 withId
 (
+androidx
+.
+preference
+.
 R
 .
 id
@@ -446,6 +450,10 @@ allOf
 (
 withId
 (
+androidx
+.
+preference
+.
 R
 .
 id
@@ -551,6 +559,10 @@ allOf
 (
 withId
 (
+androidx
+.
+preference
+.
 R
 .
 id
@@ -581,6 +593,10 @@ allOf
 (
 withId
 (
+androidx
+.
+preference
+.
 R
 .
 id

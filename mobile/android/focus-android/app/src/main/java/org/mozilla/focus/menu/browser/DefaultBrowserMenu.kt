@@ -260,6 +260,18 @@ DefaultTopSitesStorage
 Companion
 .
 TOP_SITES_MAX_LIMIT
+import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
 /
 *
 *
@@ -371,7 +383,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -469,7 +481,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -567,7 +579,7 @@ TwoStateButton
 (
 primaryImageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -614,7 +626,7 @@ false
 }
 secondaryImageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -712,7 +724,7 @@ Button
 (
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -794,7 +806,7 @@ menu_add_to_shortcuts
 )
 primaryStateIconResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -813,7 +825,7 @@ menu_remove_from_shortcuts
 )
 secondaryStateIconResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -960,7 +972,7 @@ find_in_page
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -985,7 +997,7 @@ BrowserMenuImageSwitch
 (
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -1108,7 +1120,7 @@ menu_add_to_home_screen
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -1145,7 +1157,7 @@ menu_open_with_a_browser2
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
@@ -1196,7 +1208,7 @@ menu_settings
 )
 imageResource
 =
-R
+iconsR
 .
 drawable
 .
