@@ -17734,6 +17734,7 @@ TestAsyncCallbackInterface
 noop
 *
 /
+async
 noop
 (
 )
@@ -17757,10 +17758,15 @@ getValue
 *
 returns
 {
+Promise
+<
 number
+>
+}
 }
 *
 /
+async
 getValue
 (
 )
@@ -17789,6 +17795,7 @@ number
 value
 *
 /
+async
 setValue
 (
 value
@@ -17819,10 +17826,15 @@ numbers
 *
 returns
 {
+Promise
+<
 CallbackInterfaceNumbers
+>
+}
 }
 *
 /
+async
 throwIfEqual
 (
 numbers

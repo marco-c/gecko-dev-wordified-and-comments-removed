@@ -497,6 +497,15 @@ unregister_min_level_event_sink
 "
 Sync
 "
+"
+EventSink
+.
+on_event
+"
+=
+"
+FireAndForget
+"
 [
 uniffi_bindings_tests
 .
