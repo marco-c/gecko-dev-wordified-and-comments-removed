@@ -100,6 +100,7 @@ webidl
 Node
 ;
 [
+builtinclass
 scriptable
 uuid
 (
@@ -134,6 +135,9 @@ copySelection
 (
 )
 ;
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -144,6 +148,9 @@ copyLinkLocation
 (
 )
 ;
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -182,6 +189,9 @@ long
 aCopyFlags
 )
 ;
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -198,6 +208,9 @@ boolean
 aSelectionOnly
 )
 ;
+[
+infallible
+]
 readonly
 attribute
 boolean
