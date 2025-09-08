@@ -318,3 +318,7 @@ false
 include_info_sections
 :
 false
+uploader_capabilities
+:
+-
+ohttp
