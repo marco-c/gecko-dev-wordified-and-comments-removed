@@ -2004,6 +2004,17 @@ termsOfServiceEventHandler
 onCustomizeToolbarClick
 =
 {
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+hasCompletedSetupStepToolbar
+=
+true
 telemetryRecorder
 .
 onSelectToolbarPlacementClick
