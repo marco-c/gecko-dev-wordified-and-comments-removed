@@ -1599,11 +1599,11 @@ now
 let
 sessionLength
 =
+deactivatedAt
+-
 this
 .
 activatedAt
--
-deactivatedAt
 ;
 Glean
 .
