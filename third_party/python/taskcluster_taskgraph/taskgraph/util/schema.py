@@ -1,9 +1,13 @@
 import
-collections
-import
 pprint
 import
 re
+from
+collections
+.
+abc
+import
+Mapping
 import
 voluptuous
 import
@@ -1190,10 +1194,6 @@ if
 isinstance
 (
 sch
-collections
-.
-abc
-.
 Mapping
 )
 :

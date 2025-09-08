@@ -1932,6 +1932,11 @@ would
 have
 retrieved
 status
+and
+return
+an
+empty
+dict
 .
     
 Args
@@ -2024,6 +2029,10 @@ task_id
 .
 "
 )
+        
+return
+{
+}
     
 else
 :

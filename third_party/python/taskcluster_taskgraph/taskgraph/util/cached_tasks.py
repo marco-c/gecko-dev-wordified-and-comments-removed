@@ -354,9 +354,14 @@ digest_data
 "
 )
     
-if
+elif
 digest
 is
+None
+and
+digest_data
+is
+not
 None
 :
         

@@ -3899,10 +3899,10 @@ args
 tag
 "
 ]
+graph_config
 os
 .
 environ
-graph_config
 )
     
 else
@@ -3923,10 +3923,10 @@ args
 context_only
 "
 ]
+graph_config
 os
 .
 environ
-graph_config
         
 )
 command
