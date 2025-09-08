@@ -18631,6 +18631,10 @@ height
 100
 %
 ;
+display
+:
+none
+;
 position
 :
 fixed
@@ -18760,6 +18764,10 @@ exit
 -
 done
 {
+display
+:
+block
+;
 transition
 :
 transform
