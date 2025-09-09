@@ -161,6 +161,10 @@ onerror
 ;
 attribute
 EventHandler
+onclosing
+;
+attribute
+EventHandler
 onclose
 ;
 undefined
