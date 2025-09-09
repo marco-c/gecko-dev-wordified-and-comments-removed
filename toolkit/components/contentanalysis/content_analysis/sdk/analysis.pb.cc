@@ -1,10 +1,6 @@
 #
 include
 "
-content_analysis
-/
-sdk
-/
 analysis
 .
 pb

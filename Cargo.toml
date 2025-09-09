@@ -382,6 +382,15 @@ gkrust_utils
 "
 toolkit
 /
+components
+/
+protobuf
+/
+scripts
+"
+"
+toolkit
+/
 crashreporter
 /
 minidump
