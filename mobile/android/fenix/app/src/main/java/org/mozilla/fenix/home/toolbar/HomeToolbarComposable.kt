@@ -1015,6 +1015,7 @@ enableHomepageSearchBar
 BrowserSimpleToolbar
 (
 toolbarStore
+appStore
 )
 }
 this
