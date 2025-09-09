@@ -781,6 +781,11 @@ InitFontGroupAndFontMetrics
 )
 const
 ;
+void
+InitTextAutospace
+(
+)
+;
 const
 RefPtr
 <
@@ -854,6 +859,15 @@ mWordSpacing
 const
 gfxFloat
 mLetterSpacing
+;
+Maybe
+<
+mozilla
+:
+:
+TextAutospace
+>
+mTextAutospace
 ;
 mutable
 gfxFloat
