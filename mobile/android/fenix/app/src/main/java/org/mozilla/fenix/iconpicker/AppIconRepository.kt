@@ -367,6 +367,9 @@ AppIcon
 AppPride
 AppIcon
 .
+AppFlaming
+AppIcon
+.
 AppMinimal
 AppIcon
 .
