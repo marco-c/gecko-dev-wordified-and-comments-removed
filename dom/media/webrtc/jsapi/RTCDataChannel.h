@@ -574,6 +574,7 @@ RTCDataChannel
 >
 mSelfRef
 ;
+const
 RefPtr
 <
 DataChannel
