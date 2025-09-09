@@ -593,6 +593,8 @@ jsresource
 value
 :
 "
+events
+/
 lib_jquery_1
 .
 0

@@ -903,6 +903,8 @@ markup
 /
 test
 /
+events
+/
 events_bundle
 .
 js

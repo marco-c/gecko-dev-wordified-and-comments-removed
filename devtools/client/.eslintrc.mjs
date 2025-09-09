@@ -138,6 +138,8 @@ markup
 /
 test
 /
+events
+/
 doc_markup_events_
 *
 .

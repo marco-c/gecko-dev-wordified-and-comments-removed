@@ -11031,6 +11031,8 @@ markup
 /
 test
 /
+events
+/
 events_bundle
 .
 js
@@ -13940,6 +13942,8 @@ markup
 /
 test
 /
+events
+/
 lib_
 *
 devtools
@@ -14036,6 +14040,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 helper_diff
 .

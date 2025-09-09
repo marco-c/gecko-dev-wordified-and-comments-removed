@@ -48,6 +48,15 @@ toml
 "
 test
 /
+events
+/
+browser
+.
+toml
+"
+"
+test
+/
 shadowdom
 /
 browser

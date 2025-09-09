@@ -1793,6 +1793,8 @@ markup
 /
 test
 /
+events
+/
 doc_markup_events_react_development_15
 .
 4
@@ -1809,6 +1811,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 doc_markup_events_react_development_15
 .
@@ -1827,6 +1831,8 @@ markup
 /
 test
 /
+events
+/
 doc_markup_events_react_production_15
 .
 3
@@ -1843,6 +1849,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 doc_markup_events_react_production_15
 .
@@ -2039,6 +2047,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 doc_markup_events_react_
 *

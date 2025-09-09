@@ -750,6 +750,8 @@ markup
 /
 test
 /
+events
+/
 lib_babel_6
 .
 21
@@ -767,6 +769,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 lib_react_dom_15
 .

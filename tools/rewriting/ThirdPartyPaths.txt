@@ -64,6 +64,8 @@ markup
 /
 test
 /
+events
+/
 lib_
 *
 devtools
@@ -160,6 +162,8 @@ inspector
 markup
 /
 test
+/
+events
 /
 helper_diff
 .
