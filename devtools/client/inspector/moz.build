@@ -153,6 +153,15 @@ browser
 .
 toml
 "
+"
+test
+/
+highlighter
+/
+browser
+.
+toml
+"
 ]
 with
 Files

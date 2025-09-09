@@ -13798,6 +13798,8 @@ inspector
 /
 test
 /
+highlighter
+/
 browser_inspector_highlighter
 -
 eyedropper
