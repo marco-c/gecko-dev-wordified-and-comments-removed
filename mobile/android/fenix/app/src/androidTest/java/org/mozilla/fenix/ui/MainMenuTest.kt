@@ -2333,9 +2333,7 @@ browserScreen
 verifySnackBarText
 (
 "
-Your
-report
-was
+Report
 sent
 "
 )

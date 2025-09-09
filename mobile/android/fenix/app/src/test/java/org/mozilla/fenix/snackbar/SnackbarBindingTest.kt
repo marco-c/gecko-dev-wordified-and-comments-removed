@@ -4227,7 +4227,7 @@ R
 .
 string
 .
-webcompat_reporter_success_snackbar_text
+webcompat_reporter_success_snackbar_text_2
 )
 )
 subText
@@ -4250,9 +4250,6 @@ testContext
 .
 getSnackbarTimeout
 (
-hasAction
-=
-true
 )
 .
 value
@@ -4271,16 +4268,7 @@ action
 =
 eq
 (
-testContext
-.
-getString
-(
-R
-.
-string
-.
-webcompat_reporter_dismiss_success_snackbar_text
-)
+null
 )
 listener
 =
