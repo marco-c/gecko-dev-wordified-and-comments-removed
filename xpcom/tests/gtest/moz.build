@@ -258,6 +258,11 @@ TestStateWatching
 cpp
 "
 "
+TestStopGapEventTarget
+.
+cpp
+"
+"
 TestStorageStream
 .
 cpp
