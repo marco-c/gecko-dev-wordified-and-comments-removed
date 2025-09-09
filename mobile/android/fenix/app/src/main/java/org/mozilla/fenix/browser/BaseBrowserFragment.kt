@@ -4763,16 +4763,6 @@ binding
 .
 root
 )
-val
-allowScreenshotsInPrivateMode
-=
-context
-.
-settings
-(
-)
-.
-allowScreenshotsInPrivateMode
 secureWindowFeature
 .
 set
@@ -4797,10 +4787,6 @@ customTabSessionId
 isSecure
 =
 {
-!
-allowScreenshotsInPrivateMode
-&
-&
 it
 .
 content
