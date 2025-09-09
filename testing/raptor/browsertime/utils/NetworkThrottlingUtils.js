@@ -77,6 +77,11 @@ addResponseContent
 )
 {
 }
+addResponseContentComplete
+(
+)
+{
+}
 addServerTimings
 (
 )

@@ -1306,7 +1306,7 @@ at
 1
 )
 .
-hasResponseContent
+hasResponseContentComplete
 )
 ;
 }

@@ -278,14 +278,6 @@ function
 (
 )
 {
-if
-(
-true
-)
-{
-return
-;
-}
 const
 {
 httpServer
@@ -458,6 +450,7 @@ spawn
 tab
 .
 linkedBrowser
+[
 http
 :
 /
@@ -471,6 +464,7 @@ port
 chunked
 -
 data
+]
 async
 url
 =

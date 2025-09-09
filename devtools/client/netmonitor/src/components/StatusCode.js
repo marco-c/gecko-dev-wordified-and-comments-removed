@@ -170,6 +170,9 @@ status
 "
 statusText
 "
+"
+blockedReason
+"
 ]
 ;
 class
