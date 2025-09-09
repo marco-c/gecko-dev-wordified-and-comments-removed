@@ -1157,12 +1157,6 @@ getSecondsSinceTheLastNotificationUpdate
 =
 1
 }
-Suppress
-(
-"
-MagicNumber
-"
-)
 internal
 fun
 getSecondsSinceTheLastNotificationUpdate

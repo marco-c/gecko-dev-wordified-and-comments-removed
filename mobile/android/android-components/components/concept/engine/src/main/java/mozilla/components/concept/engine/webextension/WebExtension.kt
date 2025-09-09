@@ -3798,12 +3798,6 @@ disabled
 .
 *
 /
-Suppress
-(
-"
-MagicNumber
-"
-)
 enum
 class
 EnableSource

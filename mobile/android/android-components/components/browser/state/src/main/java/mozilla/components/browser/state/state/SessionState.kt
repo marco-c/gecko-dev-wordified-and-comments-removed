@@ -1068,12 +1068,6 @@ package
 .
 *
 /
-Suppress
-(
-"
-MagicNumber
-"
-)
 enum
 class
 PackageCategory

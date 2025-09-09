@@ -1358,12 +1358,6 @@ Firefox
 .
 *
 /
-Suppress
-(
-"
-MagicNumber
-"
-)
 enum
 class
 VisitType

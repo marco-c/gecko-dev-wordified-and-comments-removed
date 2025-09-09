@@ -413,12 +413,6 @@ RESET
 reset
 "
 }
-Suppress
-(
-"
-MagicNumber
-"
-)
 enum
 class
 Values
