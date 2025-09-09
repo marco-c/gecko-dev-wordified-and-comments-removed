@@ -852,6 +852,9 @@ id
 browserStore
 =
 browserStore
+appStore
+=
+appStore
 permissionsStorage
 =
 components
@@ -885,6 +888,13 @@ publicSuffixList
 components
 .
 publicSuffixList
+clipboard
+=
+activity
+.
+components
+.
+clipboardHandler
 settings
 =
 settings
