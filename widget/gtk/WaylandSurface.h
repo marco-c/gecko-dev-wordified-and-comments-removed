@@ -794,11 +794,6 @@ GetScale
 (
 )
 ;
-double
-GetScaleSafe
-(
-)
-;
 void
 SetCeiledScaleLocked
 (
