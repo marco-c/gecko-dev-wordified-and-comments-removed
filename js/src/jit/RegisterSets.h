@@ -5186,14 +5186,14 @@ JS_BITS_PER_WORD
 =
 =
 32
-take
+addUnchecked
 (
 reg
 .
 high
 )
 ;
-take
+addUnchecked
 (
 reg
 .
@@ -5202,7 +5202,7 @@ low
 ;
 #
 else
-take
+addUnchecked
 (
 reg
 .
