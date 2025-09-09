@@ -94,6 +94,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -128,6 +131,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -204,6 +210,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -237,6 +246,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -378,6 +390,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -411,6 +426,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -920,6 +938,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -954,6 +975,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -1030,6 +1054,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -1063,6 +1090,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -1204,6 +1234,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -1237,6 +1270,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -1795,6 +1831,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -1829,6 +1868,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -1905,6 +1947,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -1939,6 +1984,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -2080,6 +2128,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -2113,6 +2164,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -2648,6 +2702,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -2682,6 +2739,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -2759,6 +2819,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -2792,6 +2855,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -2933,6 +2999,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -2966,6 +3035,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -3504,6 +3576,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -3538,6 +3613,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -3617,6 +3695,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -3651,6 +3732,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -3688,6 +3772,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -3722,6 +3809,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -4230,6 +4320,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -4264,6 +4357,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -4346,6 +4442,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -4379,6 +4478,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -4520,6 +4622,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -4553,6 +4658,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -5176,6 +5284,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -5209,6 +5318,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -5284,6 +5394,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -5317,6 +5428,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -5354,6 +5466,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -5387,6 +5500,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -5825,6 +5939,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -5858,6 +5973,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -5933,6 +6049,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -5966,6 +6083,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -6003,6 +6121,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -6036,6 +6155,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -6477,6 +6597,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -6511,6 +6632,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -6586,6 +6708,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -6620,6 +6743,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -6657,6 +6781,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -6691,6 +6816,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -7128,6 +7254,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -7162,6 +7289,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -7237,6 +7365,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -7271,6 +7400,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -7308,6 +7438,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -7342,6 +7473,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -7819,6 +7951,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -7852,6 +7985,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -8267,6 +8401,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -8300,6 +8435,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -8715,6 +8851,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -8748,6 +8885,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -9163,6 +9301,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -9196,6 +9335,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -9611,6 +9751,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -9644,6 +9785,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -10059,6 +10201,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -10092,6 +10235,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -10469,6 +10613,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -10503,6 +10648,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -10997,6 +11143,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -11031,6 +11178,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -11108,6 +11256,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -11141,6 +11290,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -11283,6 +11433,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -11316,6 +11467,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -11819,6 +11971,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -11853,6 +12008,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -11890,6 +12048,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -11924,6 +12085,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -12315,6 +12479,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -12349,6 +12514,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -12386,6 +12552,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -12420,6 +12587,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -12809,6 +12977,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -12843,6 +13012,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -12880,6 +13050,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -12914,6 +13085,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -13307,6 +13479,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -13340,6 +13513,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -13377,6 +13551,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -13410,6 +13585,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -13823,6 +13999,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -13856,6 +14033,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -13930,6 +14108,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -13963,6 +14142,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -14000,6 +14180,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -14033,6 +14214,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -14502,6 +14684,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -14535,6 +14718,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -14572,6 +14756,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -14605,6 +14790,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -14995,6 +15181,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -15029,6 +15218,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -15066,6 +15258,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -15100,6 +15295,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -15489,6 +15687,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -15523,6 +15724,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -15560,6 +15764,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -15594,6 +15801,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -15988,6 +16198,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -16021,6 +16232,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -16058,6 +16270,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -16091,6 +16304,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -16496,6 +16710,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -16529,6 +16744,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -16566,6 +16782,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -16599,6 +16816,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -17286,6 +17504,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -17319,6 +17538,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -17356,6 +17576,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -17389,6 +17610,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -17786,6 +18008,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -17820,6 +18043,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -18177,6 +18401,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -18211,6 +18436,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -18248,6 +18474,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -18282,6 +18509,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -18681,6 +18909,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -18714,6 +18943,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -19179,6 +19409,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -19212,6 +19443,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -19677,6 +19909,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -19710,6 +19943,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -20175,6 +20409,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -20208,6 +20443,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -20675,6 +20911,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -20708,6 +20947,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -20745,6 +20987,9 @@ shape
 :
 [
 1
+1
+1
+1
 ]
 dataType
 :
@@ -20778,6 +21023,9 @@ descriptor
 shape
 :
 [
+1
+1
+1
 1
 ]
 dataType
@@ -21265,6 +21513,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -21298,6 +21547,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -21335,6 +21585,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -21368,6 +21619,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -21881,6 +22133,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -21914,6 +22167,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -22414,6 +22668,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -22447,6 +22702,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -22896,6 +23152,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -22929,6 +23186,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -23336,6 +23594,7 @@ shape
 :
 [
 1
+1
 ]
 dataType
 :
@@ -23369,6 +23628,7 @@ descriptor
 shape
 :
 [
+1
 1
 ]
 dataType
@@ -23687,54 +23947,10 @@ float32
 }
 ]
 ;
-if
-(
-navigator
-.
-ml
-)
-{
-subgraphTests
-.
-forEach
-(
-(
-test
-)
-=
->
-{
 webnn_conformance_test
 (
+subgraphTests
 buildAndExecuteGraph
 getPrecisionTolerance
-test
 )
 ;
-}
-)
-;
-}
-else
-{
-test
-(
-(
-)
-=
->
-assert_implements
-(
-navigator
-.
-ml
-'
-missing
-navigator
-.
-ml
-'
-)
-)
-;
-}
