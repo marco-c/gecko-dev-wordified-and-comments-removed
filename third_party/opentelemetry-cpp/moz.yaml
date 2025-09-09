@@ -534,6 +534,9 @@ opentelemetry
 config
 .
 mozbuild
+-
+third_party
+/
 patches
 :
 -
