@@ -1332,9 +1332,6 @@ OS_LIBS
 =
 [
 "
-mincore
-"
-"
 shell32
 "
 "
