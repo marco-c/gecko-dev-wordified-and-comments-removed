@@ -437,7 +437,6 @@ enum
 QueueSlot
 =
 0
-RecordsSlot
 RegistrationsSlot
 SlotCount
 }
@@ -467,13 +466,6 @@ protoClass_
 FinalizationQueueObject
 *
 queue
-(
-)
-const
-;
-FinalizationRecordVector
-*
-records
 (
 )
 const
