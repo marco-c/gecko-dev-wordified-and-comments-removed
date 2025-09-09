@@ -420,6 +420,17 @@ mozconfig
 variant
 :
 opt
+run
+-
+on
+-
+projects
+:
+[
+'
+integration
+'
+]
 fetches
 :
 toolchain
