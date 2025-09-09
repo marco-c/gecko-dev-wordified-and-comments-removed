@@ -324,7 +324,7 @@ getTheme
 (
 allowPrivateTheme
 =
-false
+true
 )
 )
 {
