@@ -17,6 +17,16 @@ aioquic
 2
 .
 0
+pypi
+:
+pillow
+=
+=
+11
+.
+3
+.
+0
 #
 Bug
 1823701
