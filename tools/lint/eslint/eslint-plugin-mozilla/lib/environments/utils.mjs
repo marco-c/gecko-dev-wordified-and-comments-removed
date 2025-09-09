@@ -257,9 +257,6 @@ meta
 .
 dirname
 "
-environments
-"
-"
 saved
 -
 globals
