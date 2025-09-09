@@ -2685,7 +2685,7 @@ dailyBriefSectionId
 =
 prefs
 .
-trainHopConfig
+trainhopConfig
 ?
 .
 dailyBriefing

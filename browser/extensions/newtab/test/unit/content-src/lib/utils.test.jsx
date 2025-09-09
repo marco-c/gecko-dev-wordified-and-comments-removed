@@ -1757,7 +1757,7 @@ prefs
 ;
 selector
 uses
-trainHopConfig
+trainhopConfig
 first
 falls
 back
@@ -1784,7 +1784,7 @@ sectionId
 /
 /
 include
-trainHopConfig
+trainhopConfig
 for
 parity
 with
@@ -1792,7 +1792,7 @@ production
 (
 optional
 )
-trainHopConfig
+trainhopConfig
 :
 {
 dailyBriefing
