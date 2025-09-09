@@ -336,6 +336,12 @@ SpaceWidth
 )
 const
 ;
+nscoord
+InterScriptSpacingWidth
+(
+)
+const
+;
 const
 nsFont
 &
