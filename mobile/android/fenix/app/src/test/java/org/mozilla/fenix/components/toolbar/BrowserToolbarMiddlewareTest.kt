@@ -16519,7 +16519,9 @@ browserAnimator
 browserAnimator
 thumbnailsFeature
 =
+{
 thumbnailsFeature
+}
 readerModeController
 =
 readerModeController

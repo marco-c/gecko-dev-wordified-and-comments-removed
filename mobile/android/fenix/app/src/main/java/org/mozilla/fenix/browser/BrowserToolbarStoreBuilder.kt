@@ -670,6 +670,10 @@ browserAnimator
 BrowserAnimator
 thumbnailsFeature
 :
+(
+)
+-
+>
 BrowserThumbnails
 ?
 readerModeController

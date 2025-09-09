@@ -7829,11 +7829,13 @@ browserAnimator
 browserAnimator
 thumbnailsFeature
 =
+{
 thumbnailsFeature
 .
 get
 (
 )
+}
 readerModeController
 =
 readerModeController

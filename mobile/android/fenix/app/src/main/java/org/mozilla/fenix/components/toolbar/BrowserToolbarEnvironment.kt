@@ -324,10 +324,16 @@ null
 val
 thumbnailsFeature
 :
+(
+)
+-
+>
 BrowserThumbnails
 ?
 =
+{
 null
+}
 val
 readerModeController
 :

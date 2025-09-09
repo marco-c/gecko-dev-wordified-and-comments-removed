@@ -2580,6 +2580,8 @@ TabCounterClicked
 runWithinEnvironment
 {
 thumbnailsFeature
+(
+)
 ?
 .
 requestScreenshot
