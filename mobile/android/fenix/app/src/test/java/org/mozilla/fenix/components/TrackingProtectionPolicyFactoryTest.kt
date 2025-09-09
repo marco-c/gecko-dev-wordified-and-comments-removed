@@ -3767,7 +3767,7 @@ strict
 convenience
 should
 be
-false
+unchanged
 (
 )
 {
@@ -3783,7 +3783,7 @@ allowListBaselineTrackingProtection
 false
 allowListConvenienceTrackingProtection
 =
-false
+true
 )
 val
 factory
