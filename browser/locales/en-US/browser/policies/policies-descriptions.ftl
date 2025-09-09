@@ -1096,6 +1096,15 @@ name
 .
 policy
 -
+GenerativeAI
+=
+Configure
+generative
+AI
+features
+.
+policy
+-
 GoToIntranetSiteForSingleWordEntryInAddressBar
 =
 Force
