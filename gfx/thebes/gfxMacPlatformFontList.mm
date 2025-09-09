@@ -278,9 +278,6 @@ dlfcn
 h
 >
 #
-define
-StandardFonts
-#
 include
 "
 StandardFonts
@@ -289,9 +286,6 @@ macos
 .
 inc
 "
-#
-undef
-StandardFonts
 using
 namespace
 mozilla

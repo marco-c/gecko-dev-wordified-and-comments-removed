@@ -1,6 +1,3 @@
-#
-ifdef
-StandardFonts
 static
 const
 char
@@ -4933,16 +4930,3 @@ Vazirmatn
 "
 }
 ;
-static
-const
-char
-*
-kLangPackFonts
-[
-]
-=
-{
-}
-;
-#
-endif

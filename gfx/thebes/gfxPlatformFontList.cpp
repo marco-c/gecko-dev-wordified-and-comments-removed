@@ -1977,13 +1977,6 @@ InSafeMode
 )
 )
 {
-nsRFPService
-:
-:
-CalculateFontLocaleAllowlist
-(
-)
-;
 sInitFontListThread
 =
 PR_CreateThread

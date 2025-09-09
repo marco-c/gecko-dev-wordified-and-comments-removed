@@ -192,9 +192,6 @@ impl
 h
 "
 #
-define
-StandardFonts
-#
 include
 "
 StandardFonts
@@ -203,9 +200,6 @@ android
 .
 inc
 "
-#
-undef
-StandardFonts
 #
 include
 "
