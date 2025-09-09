@@ -2579,6 +2579,16 @@ PushSubscriptionOptions
 name
 :
 "
+RTCDataChannel
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 RTCEncodedAudioFrame
 "
 insecureContext

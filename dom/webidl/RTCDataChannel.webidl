@@ -87,7 +87,10 @@ blob
 [
 Exposed
 =
+(
 Window
+DedicatedWorker
+)
 ]
 interface
 RTCDataChannel
