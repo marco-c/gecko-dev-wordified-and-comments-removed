@@ -3238,6 +3238,9 @@ nsPIDOMWindowInner
 >
 mWindow
 ;
+nsString
+mOrigin
+;
 std
 :
 :
