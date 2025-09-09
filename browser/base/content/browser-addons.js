@@ -4006,6 +4006,12 @@ addonId
 )
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 break
 ;
