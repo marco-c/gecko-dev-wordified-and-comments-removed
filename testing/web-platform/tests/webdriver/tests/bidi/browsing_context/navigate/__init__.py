@@ -18,6 +18,7 @@ async
 def
 navigate_and_assert
 (
+    
 bidi_session
 context
 url
@@ -29,8 +30,21 @@ complete
 expected_error
 =
 False
+expected_url
+=
+None
 )
 :
+    
+if
+expected_url
+is
+None
+:
+        
+expected_url
+=
+url
     
 if
 expected_error
@@ -109,7 +123,7 @@ url
 ]
 =
 =
-url
+expected_url
         
 any_string
 (
@@ -163,7 +177,7 @@ url
 ]
 =
 =
-url
+expected_url
         
 return
 contexts
