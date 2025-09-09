@@ -1001,6 +1001,8 @@ markup
 /
 test
 /
+shadowdom
+/
 shadowdom_open_debugger
 .
 min
