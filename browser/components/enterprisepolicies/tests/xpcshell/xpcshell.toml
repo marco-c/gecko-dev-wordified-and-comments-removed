@@ -153,6 +153,13 @@ js
 ]
 [
 "
+test_import_enterprise_roots
+.
+js
+"
+]
+[
+"
 test_macosparser_unflatten
 .
 js
