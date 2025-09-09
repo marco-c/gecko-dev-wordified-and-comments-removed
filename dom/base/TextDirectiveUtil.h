@@ -2305,7 +2305,7 @@ return
 0
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 nsContentUtils
@@ -2321,7 +2321,7 @@ First
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 nsContentUtils
