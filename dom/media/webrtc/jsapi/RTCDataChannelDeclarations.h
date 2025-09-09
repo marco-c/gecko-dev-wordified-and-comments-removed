@@ -58,10 +58,6 @@ const
 nsACString
 &
 aLabel
-const
-nsAString
-&
-aOrigin
 bool
 aOrdered
 Nullable

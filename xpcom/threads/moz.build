@@ -310,11 +310,6 @@ StaticString
 h
 "
 "
-StopGapEventTarget
-.
-h
-"
-"
 SynchronizedEventQueue
 .
 h
@@ -486,11 +481,6 @@ cpp
 "
 "
 SharedThreadPool
-.
-cpp
-"
-"
-StopGapEventTarget
 .
 cpp
 "

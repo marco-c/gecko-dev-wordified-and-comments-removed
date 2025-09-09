@@ -479,14 +479,6 @@ flags
 )
 ;
 bool
-HasQueuedData
-(
-uint16_t
-aStream
-)
-const
-;
-bool
 mSendInterleaved
 =
 false
