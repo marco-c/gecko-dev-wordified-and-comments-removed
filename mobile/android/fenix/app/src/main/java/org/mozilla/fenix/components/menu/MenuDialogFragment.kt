@@ -2315,6 +2315,12 @@ settings
 shouldUseBottomToolbar
 &
 &
+!
+settings
+.
+shouldUseExpandedToolbar
+&
+&
 (
 isExtensionsExpanded
 |
@@ -3323,6 +3329,11 @@ isBottomToolbar
 settings
 .
 shouldUseBottomToolbar
+isExpandedToolbarEnabled
+=
+settings
+.
+shouldUseExpandedToolbar
 isSiteLoading
 =
 isSiteLoading
