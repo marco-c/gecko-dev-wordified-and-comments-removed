@@ -20,6 +20,11 @@ Likely
 .
 h
 "
+#
+include
+<
+type_traits
+>
 enum
 {
 CycleCollectionEdgeNameArrayFlag
