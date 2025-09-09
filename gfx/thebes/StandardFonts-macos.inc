@@ -1,3 +1,6 @@
+#
+ifdef
+StandardFonts
 static
 const
 char
@@ -1283,3 +1286,16 @@ Math
 "
 }
 ;
+static
+const
+char
+*
+kLangPackFonts
+[
+]
+=
+{
+}
+;
+#
+endif

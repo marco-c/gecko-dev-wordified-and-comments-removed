@@ -48,6 +48,11 @@ TestCoord
 cpp
 "
 "
+TestFontOverlapPrevention
+.
+cpp
+"
+"
 TestGfxWidgets
 .
 cpp
