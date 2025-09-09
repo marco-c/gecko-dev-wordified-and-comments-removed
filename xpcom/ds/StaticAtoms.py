@@ -8180,6 +8180,16 @@ onclose
 Atom
 (
 "
+onclosing
+"
+"
+onclosing
+"
+)
+    
+Atom
+(
+"
 oncontentvisibilityautostatechange
 "
 "

@@ -267,6 +267,10 @@ error
 )
 IMPL_EVENT_HANDLER
 (
+closing
+)
+IMPL_EVENT_HANDLER
+(
 close
 )
 void
@@ -416,6 +420,11 @@ AnnounceClosed
 )
 ;
 void
+GracefulClose
+(
+)
+;
+void
 DecrementBufferedAmount
 (
 size_t
@@ -463,11 +472,6 @@ UpdateMustKeepAlive
 ;
 void
 DontKeepAliveAnyMore
-(
-)
-;
-void
-GracefulClose
 (
 )
 ;
