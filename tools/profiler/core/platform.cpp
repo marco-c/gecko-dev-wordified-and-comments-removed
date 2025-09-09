@@ -35227,6 +35227,11 @@ StackCaptureOptions
 :
 :
 NoStack
+|
+|
+profiler_is_locked_on_current_thread
+(
+)
 )
 {
 return
