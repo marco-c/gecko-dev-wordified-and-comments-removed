@@ -345,7 +345,7 @@ aStart
 LengthMode
 aLengthIncludesSkipped
 uint32_t
-aLength
+aRemainingLength
 )
 :
 mIterator
@@ -354,7 +354,7 @@ aStart
 )
 mRemainingLength
 (
-aLength
+aRemainingLength
 )
 mRunLength
 (
