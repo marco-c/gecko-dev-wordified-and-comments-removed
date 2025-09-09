@@ -8965,6 +8965,9 @@ bool
 aIsSerializable
 bool
 aDelegatesFocus
+const
+nsAString
+&
 )
 ;
 static

@@ -11962,6 +11962,16 @@ shadow
 Atom
 (
 "
+shadowrootreferencetarget
+"
+"
+shadowrootreferencetarget
+"
+)
+    
+Atom
+(
+"
 shape
 "
 "
