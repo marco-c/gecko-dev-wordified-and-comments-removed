@@ -3042,6 +3042,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 nullptr
 nullptr
@@ -3190,6 +3191,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3478,6 +3480,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3760,6 +3763,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 nullptr
 nullptr
@@ -3846,6 +3850,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 nullptr
 nullptr
@@ -3973,6 +3978,7 @@ originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
 extraCertificates
+sctsFromTLSInput
 builtChain
 nullptr
 nullptr
