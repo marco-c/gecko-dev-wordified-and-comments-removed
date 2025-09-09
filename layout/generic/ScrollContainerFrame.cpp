@@ -14655,6 +14655,16 @@ return
 ;
 }
 }
+PresShell
+(
+)
+-
+>
+UpdateAnchorPosLayoutForScroll
+(
+this
+)
+;
 presContext
 -
 >
