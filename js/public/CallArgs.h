@@ -618,7 +618,7 @@ i
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 i
 <
