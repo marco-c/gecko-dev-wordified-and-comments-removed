@@ -237,7 +237,7 @@ android
 layout_marginTop
 =
 "
-12dp
+48dp
 "
 android
 :
@@ -365,6 +365,13 @@ layout_height
 =
 "
 match_parent
+"
+android
+:
+background
+=
+"
+null
 "
 android
 :
