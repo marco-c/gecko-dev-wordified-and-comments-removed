@@ -1113,9 +1113,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 GetOrAddWeakMapEntry
@@ -1384,8 +1381,6 @@ args
 )
 ;
 }
-#
-endif
 size_t
 WeakCollectionObject
 :
@@ -2715,9 +2710,6 @@ set
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -2738,8 +2730,6 @@ WeakMapGetOrInsertComputed
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

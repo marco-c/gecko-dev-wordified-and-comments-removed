@@ -618,9 +618,6 @@ return
 map
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 MapGetOrInsertComputed
 (
@@ -744,10 +741,3 @@ return
 value
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD

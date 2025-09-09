@@ -78,9 +78,6 @@ nextItem
 ;
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 WeakMapGetOrInsertComputed
 (
@@ -190,10 +187,3 @@ return
 value
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
