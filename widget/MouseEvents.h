@@ -1400,6 +1400,12 @@ Event
 >
 mTriggerEvent
 ;
+Maybe
+<
+uint64_t
+>
+mCallbackId
+;
 void
 AssignMouseEventData
 (
