@@ -5999,6 +5999,9 @@ openThreeDotMenu
 composeTestRule
 )
 {
+verifyTryRecommendedExtensionButton
+(
+)
 }
 .
 clickExtensionsChevronFromMainMenu
