@@ -118,9 +118,10 @@ android
 fillColor
 =
 "
-color
+?
+attr
 /
-mozac_ui_shield_slash_bg_fill_critical
+mozac_ic_shield_slash_bg_fill_critical
 "
 android
 :
@@ -549,9 +550,10 @@ android
 fillColor
 =
 "
-color
+?
+attr
 /
-mozac_ui_shield_slash_fill_critical
+mozac_ic_shield_slash_fill_critical
 "
 android
 :
