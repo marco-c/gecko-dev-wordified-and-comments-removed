@@ -518,6 +518,13 @@ is_git
 (
 command_context
 )
+or
+conditions
+.
+is_jj
+(
+command_context
+)
 :
         
 git
