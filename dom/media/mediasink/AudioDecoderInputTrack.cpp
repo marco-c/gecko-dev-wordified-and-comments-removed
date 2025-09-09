@@ -3392,6 +3392,12 @@ mOnOutput
 Notify
 (
 mWrittenFrames
+TimeStamp
+:
+:
+Now
+(
+)
 AwakeTimeStamp
 :
 :
