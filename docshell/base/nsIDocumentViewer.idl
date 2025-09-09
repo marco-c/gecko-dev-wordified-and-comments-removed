@@ -534,15 +534,12 @@ PermitUnloadResult
 :
 8
 {
-eContinue
+eAllowNavigation
 =
 0
-eCanceledByBeforeUnload
+eRequestBlockNavigation
 =
 1
-eCanceledByNavigate
-=
-2
 }
 ;
 /

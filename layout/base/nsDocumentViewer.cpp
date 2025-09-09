@@ -4547,9 +4547,9 @@ viewer
 DispatchBeforeUnload
 (
 )
-!
 =
-eContinue
+=
+eRequestBlockNavigation
 )
 {
 foundBlocker
@@ -4758,7 +4758,7 @@ mContainer
 )
 {
 return
-eContinue
+eAllowNavigation
 ;
 }
 RefPtr
@@ -4799,7 +4799,7 @@ document
 )
 ;
 return
-eContinue
+eAllowNavigation
 ;
 }
 NS_ASSERTION
@@ -5060,11 +5060,11 @@ IsEmpty
 )
 {
 return
-eCanceledByBeforeUnload
+eRequestBlockNavigation
 ;
 }
 return
-eContinue
+eAllowNavigation
 ;
 }
 NS_IMETHODIMP
