@@ -10,6 +10,10 @@ assertions_on_result_states
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 manual_let_else
 clippy
 :
@@ -30,7 +34,10 @@ uninlined_format_args
 macro_use
 ]
 mod
-macros
+snapshot
+;
+mod
+debug
 ;
 use
 quote

@@ -759,7 +759,7 @@ Input
 Action
 )
 ;
-6
+7
 ]
 =
 [
@@ -829,6 +829,14 @@ CLOSURE_ARGS
 )
 (
 ConsumeLifetime
+SetState
+(
+&
+CLOSURE
+)
+)
+(
+ConsumeIdent
 SetState
 (
 &

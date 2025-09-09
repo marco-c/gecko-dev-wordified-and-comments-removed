@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 float_cmp
 clippy
 :
@@ -34,7 +38,10 @@ uninlined_format_args
 macro_use
 ]
 mod
-macros
+snapshot
+;
+mod
+debug
 ;
 use
 proc_macro2

@@ -20,7 +20,7 @@ syn
 .
 0
 .
-87
+106
 "
 )
 ]
@@ -111,6 +111,10 @@ doc_markdown
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 enum_glob_use
 clippy
 :
@@ -120,6 +124,10 @@ clippy
 :
 :
 explicit_auto_deref
+clippy
+:
+:
+fn_params_excessive_bools
 clippy
 :
 :
@@ -160,10 +168,6 @@ clippy
 :
 :
 match_like_matches_macro
-clippy
-:
-:
-match_on_vec_items
 clippy
 :
 :
@@ -276,6 +280,15 @@ clippy
 :
 :
 wildcard_imports
+)
+]
+#
+!
+[
+allow
+(
+unknown_lints
+mismatched_lifetime_syntaxes
 )
 ]
 extern

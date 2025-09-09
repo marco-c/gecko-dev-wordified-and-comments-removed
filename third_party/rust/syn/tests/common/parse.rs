@@ -31,15 +31,6 @@ rustc_ast
 ast
 ;
 use
-rustc_ast
-:
-:
-ptr
-:
-:
-P
-;
-use
 rustc_session
 :
 :
@@ -73,7 +64,7 @@ str
 >
 Option
 <
-P
+Box
 <
 ast
 :
