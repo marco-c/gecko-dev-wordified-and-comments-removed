@@ -15639,6 +15639,12 @@ aSource
 .
 mOverflowWrap
 )
+mTextAutospace
+(
+aSource
+.
+mTextAutospace
+)
 mHyphens
 (
 aSource
@@ -15788,12 +15794,6 @@ mTextWrapStyle
 aSource
 .
 mTextWrapStyle
-)
-mTextAutospace
-(
-aSource
-.
-mTextAutospace
 )
 {
 MOZ_COUNT_CTOR
