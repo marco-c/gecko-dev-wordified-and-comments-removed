@@ -1650,14 +1650,12 @@ template
 typename
 SpecificScopeType
 >
-UniquePtr
-<
 typename
 SpecificScopeType
 :
 :
 RuntimeData
->
+*
 createSpecificScopeData
 (
 JSContext

@@ -3213,10 +3213,6 @@ scope
 >
 sizeOfExcludingThis
 (
-rtStats
--
->
-mallocSizeOf_
 )
 ;
 break
