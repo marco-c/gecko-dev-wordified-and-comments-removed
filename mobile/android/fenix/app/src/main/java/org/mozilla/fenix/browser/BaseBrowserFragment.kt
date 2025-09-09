@@ -13276,6 +13276,18 @@ store
 BrowserStore
 )
 {
+if
+(
+findInPageIntegration
+.
+get
+(
+)
+=
+=
+null
+)
+{
 val
 findInPageBar
 =
@@ -13355,6 +13367,7 @@ view
 =
 view
 )
+}
 findInPageIntegration
 .
 withFeature
