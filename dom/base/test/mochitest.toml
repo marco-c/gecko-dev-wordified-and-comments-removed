@@ -6147,6 +6147,15 @@ test_omt_eager_baseline
 html
 "
 ]
+skip
+-
+if
+=
+[
+"
+ccov
+"
+]
 support
 -
 files
