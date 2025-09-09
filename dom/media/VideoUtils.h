@@ -1253,15 +1253,6 @@ aCodec
 )
 ;
 bool
-IsWhitelistedH264Codec
-(
-const
-nsAString
-&
-aCodec
-)
-;
-bool
 IsH265CodecString
 (
 const
