@@ -21163,6 +21163,10 @@ CombiningMark
 {
 if
 (
+!
+atStart
+&
+&
 mTextAutospace
 -
 >
