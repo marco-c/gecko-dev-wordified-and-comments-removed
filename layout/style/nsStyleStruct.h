@@ -1634,7 +1634,7 @@ mEntry
 }
 ;
 Result
-Lookup
+InsertOrModify
 (
 const
 nsAtom

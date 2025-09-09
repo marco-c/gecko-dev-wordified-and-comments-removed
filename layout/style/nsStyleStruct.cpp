@@ -1521,7 +1521,7 @@ Result
 AnchorPosReferencedAnchors
 :
 :
-Lookup
+InsertOrModify
 (
 const
 nsAtom

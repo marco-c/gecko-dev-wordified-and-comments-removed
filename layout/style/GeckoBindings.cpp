@@ -10512,7 +10512,7 @@ result
 aReferencedAnchors
 -
 >
-Lookup
+InsertOrModify
 (
 anchorName
 true
@@ -11297,7 +11297,7 @@ aParams
 mReferencedAnchors
 -
 >
-Lookup
+InsertOrModify
 (
 anchorName
 false
