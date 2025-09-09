@@ -43,6 +43,13 @@ js
 ]
 [
 "
+browser_NavigationManager_committed
+.
+js
+"
+]
+[
+"
 browser_NavigationManager_failed_navigation
 .
 js
