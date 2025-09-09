@@ -60,15 +60,6 @@ include
 "
 mozilla
 /
-StateMirroring
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -572,6 +563,7 @@ const
 MediaEventSource
 <
 int64_t
+AwakeTimeStamp
 >
 &
 OnOutput
@@ -881,6 +873,7 @@ mDecoderThread
 MediaEventProducer
 <
 int64_t
+AwakeTimeStamp
 >
 mOnOutput
 ;

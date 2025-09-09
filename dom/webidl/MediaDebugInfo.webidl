@@ -581,6 +581,12 @@ lastOutputTime
 0
 ;
 long
+long
+lastReportedPosition
+=
+0
+;
+long
 playing
 =
 0
