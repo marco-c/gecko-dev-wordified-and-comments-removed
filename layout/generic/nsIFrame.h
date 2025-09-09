@@ -9676,17 +9676,6 @@ return
 false
 ;
 }
-nsIFrame
-*
-FindAnchorPosAnchor
-(
-const
-nsAtom
-*
-aAnchorSpec
-)
-const
-;
 virtual
 void
 InvalidateFrame
