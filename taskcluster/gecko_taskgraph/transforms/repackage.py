@@ -2053,6 +2053,8 @@ fetch
 -
 dir
 }
+/
+extensions
 "
         
 ]
@@ -3558,17 +3560,23 @@ split
             
 )
         
-elif
+if
 config
 .
 kind
-=
-=
+in
+(
 "
 repackage
 -
 flatpak
 "
+"
+repackage
+-
+rpm
+"
+)
 :
             
 assert
@@ -3634,8 +3642,6 @@ shippable
 :
                     
 if
-(
-                        
 t
 .
 kind
@@ -3648,8 +3654,34 @@ l10n
 -
 signing
 "
+:
                         
-or
+continue
+                    
+if
+t
+.
+attributes
+[
+"
+shipping_product
+"
+]
+!
+=
+job
+[
+"
+shipping
+-
+product
+"
+]
+:
+                        
+continue
+                    
+if
 t
 .
 attributes
@@ -3658,12 +3690,20 @@ attributes
 build_platform
 "
 ]
-!
-=
+not
+in
+(
+                        
 "
 linux64
 -
 shippable
+"
+                        
+"
+linux64
+-
+devedition
 "
                     
 )
