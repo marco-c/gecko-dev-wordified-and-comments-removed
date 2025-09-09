@@ -173,7 +173,7 @@ dom
 PermitUnloadResult
 :
 :
-eAllowNavigation
+eContinue
 mozilla
 :
 :
@@ -183,7 +183,7 @@ dom
 PermitUnloadResult
 :
 :
-eRequestBlockNavigation
+eCanceledByNavigate
 >
 {
 }
