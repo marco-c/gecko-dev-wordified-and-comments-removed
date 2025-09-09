@@ -162,6 +162,15 @@ browser
 .
 toml
 "
+"
+test
+/
+search
+/
+browser
+.
+toml
+"
 ]
 with
 Files
