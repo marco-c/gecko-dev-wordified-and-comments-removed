@@ -103,6 +103,10 @@ const
 nsACString
 &
 aLabel
+const
+nsAString
+&
+aOrigin
 bool
 aOrdered
 Nullable
@@ -135,9 +139,6 @@ aWindow
 nsresult
 Init
 (
-nsPIDOMWindowInner
-*
-aDOMWindow
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -534,6 +535,10 @@ nsID
 mUuid
 ;
 const
+nsString
+mOrigin
+;
+const
 nsCString
 mLabel
 ;
@@ -574,9 +579,6 @@ RefPtr
 DataChannel
 >
 mDataChannel
-;
-nsString
-mOrigin
 ;
 bool
 mCheckMustKeepAlive
