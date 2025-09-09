@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsIDocumentViewer
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -2926,7 +2933,10 @@ aLoadState
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
+nsIDocumentViewer
+:
+:
+PermitUnloadResult
 MaybeFireTraversableTraverseHistory
 (
 const
