@@ -112,7 +112,16 @@ mjs
 const
 FRECENCY_SCORE_FOR_ONE_VISIT
 =
-100
+PlacesUtils
+.
+history
+.
+pageFrecencyThreshold
+(
+0
+1
+false
+)
 ;
 const
 TEST_VISITS
