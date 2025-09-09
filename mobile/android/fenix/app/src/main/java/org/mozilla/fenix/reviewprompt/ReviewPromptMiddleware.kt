@@ -470,6 +470,12 @@ sequence
 {
 yield
 (
+settings
+.
+customReviewPromptFeatureEnabled
+)
+yield
+(
 hasNotBeenPromptedLastFourMonths
 (
 settings
