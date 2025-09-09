@@ -75,6 +75,11 @@ testArrayBufferWithUserOwnedContents
 cpp
 "
 "
+testAssemblerCodeGen
+.
+cpp
+"
+"
 testAtomicOperations
 .
 cpp
