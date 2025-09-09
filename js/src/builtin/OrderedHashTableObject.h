@@ -3385,6 +3385,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 template
 <
 typename
@@ -3549,6 +3552,8 @@ entry
 element
 ;
 }
+#
+endif
 bool
 remove
 (
@@ -6915,6 +6920,9 @@ value
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 template
 <
 typename
@@ -6976,6 +6984,8 @@ value
 )
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG

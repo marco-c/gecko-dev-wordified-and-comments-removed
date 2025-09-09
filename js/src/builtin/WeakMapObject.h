@@ -380,6 +380,9 @@ CallArgs
 args
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -418,6 +421,8 @@ Value
 vp
 )
 ;
+#
+endif
 }
 ;
 }

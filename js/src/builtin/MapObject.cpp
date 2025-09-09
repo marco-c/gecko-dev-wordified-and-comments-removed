@@ -2102,6 +2102,9 @@ MapForEach
 2
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -2122,6 +2125,8 @@ MapGetOrInsertComputed
 2
 0
 )
+#
+endif
 JS_FN
 (
 "
@@ -3155,6 +3160,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 bool
 MapObject
 :
@@ -3314,6 +3322,8 @@ return
 true
 ;
 }
+#
+endif
 MapObject
 *
 MapObject
@@ -5349,6 +5359,9 @@ args
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 bool
 MapObject
 :
@@ -5470,6 +5483,8 @@ args
 )
 ;
 }
+#
+endif
 bool
 MapObject
 :
@@ -10929,6 +10944,9 @@ rval
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 JS_PUBLIC_API
 bool
 JS
@@ -11084,6 +11102,8 @@ rval
 )
 ;
 }
+#
+endif
 JS_PUBLIC_API
 bool
 JS
