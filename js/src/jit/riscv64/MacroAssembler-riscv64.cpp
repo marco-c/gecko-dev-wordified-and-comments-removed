@@ -26732,7 +26732,7 @@ L
 )
 ;
 }
-void
+bool
 MacroAssemblerRiscv64
 :
 :
@@ -26750,6 +26750,7 @@ Operand
 rt
 )
 {
+return
 BranchShortCheck
 (
 offset
@@ -26760,7 +26761,7 @@ rt
 )
 ;
 }
-void
+bool
 MacroAssemblerRiscv64
 :
 :
@@ -26779,6 +26780,7 @@ Operand
 rt
 )
 {
+return
 BranchShortCheck
 (
 0
@@ -26946,6 +26948,9 @@ InvertCondition
 cond
 )
 ;
+(
+void
+)
 BranchShort
 (
 &
@@ -27009,6 +27014,9 @@ InvertCondition
 cond
 )
 ;
+(
+void
+)
 BranchShort
 (
 &
@@ -27045,6 +27053,9 @@ EmitConstPoolWithJumpIfNeeded
 }
 else
 {
+if
+(
+!
 BranchShort
 (
 L
@@ -27052,7 +27063,18 @@ cond
 rs
 rt
 )
+)
+{
+ma_branch
+(
+L
+cond
+rs
+rt
+LongJump
+)
 ;
+}
 }
 }
 }
