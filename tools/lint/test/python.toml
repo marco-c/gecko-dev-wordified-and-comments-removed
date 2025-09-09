@@ -181,6 +181,13 @@ py
 ]
 [
 "
+test_gecko_trace
+.
+py
+"
+]
+[
+"
 test_glean_parser
 .
 py
