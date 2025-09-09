@@ -6752,6 +6752,16 @@ aMimeType
 )
 ;
 static
+bool
+IsCssMimeType
+(
+const
+nsAString
+&
+aMimeType
+)
+;
+static
 void
 SplitMimeType
 (
