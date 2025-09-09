@@ -2357,6 +2357,7 @@ self
 scan_dependency
 (
 dep
+false
 )
 ;
 }
@@ -2406,6 +2407,7 @@ self
 scan_dependency
 (
 dep
+false
 )
 ;
 }
@@ -2460,6 +2462,7 @@ self
 scan_dependency
 (
 dep
+false
 )
 ;
 }
@@ -2513,6 +2516,7 @@ self
 scan_dependency
 (
 dep
+false
 )
 ;
 }
@@ -2554,6 +2558,7 @@ self
 scan_dependency
 (
 dep
+false
 )
 ;
 }
@@ -2652,6 +2657,7 @@ scan_dependency
 dependency
 .
 dep
+false
 )
 ;
 true
@@ -2673,6 +2679,9 @@ dependency
 :
 &
 Dependency
+set_scope
+:
+bool
 )
 -
 >
@@ -2694,7 +2703,20 @@ mut
 self
 .
 matching_context
-None
+set_scope
+.
+then
+(
+|
+|
+self
+.
+element
+.
+opaque
+(
+)
+)
 )
 }
 fn
@@ -2709,6 +2731,9 @@ dependency
 '
 selectors
 Dependency
+set_scope
+:
+bool
 )
 {
 debug_assert
@@ -2790,6 +2815,7 @@ self
 check_dependency
 (
 dependency
+set_scope
 )
 |
 |
@@ -2900,6 +2926,7 @@ slice
 [
 0
 ]
+false
 )
 ;
 }
@@ -2967,6 +2994,7 @@ self
 scan_dependency
 (
 dep
+true
 )
 ;
 }
