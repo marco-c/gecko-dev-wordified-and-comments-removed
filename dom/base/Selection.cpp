@@ -10006,8 +10006,7 @@ textFrame
 CharacterDataBuffer
 (
 )
--
->
+.
 GetLength
 (
 )

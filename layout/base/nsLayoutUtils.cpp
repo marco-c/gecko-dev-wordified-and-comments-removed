@@ -46900,8 +46900,7 @@ textFrame
 CharacterDataBuffer
 (
 )
--
->
+.
 AppendTo
 (
 aResult
