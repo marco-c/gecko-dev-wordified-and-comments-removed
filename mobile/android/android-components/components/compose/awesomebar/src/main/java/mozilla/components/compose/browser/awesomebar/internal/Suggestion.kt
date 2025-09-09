@@ -203,7 +203,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -703,7 +703,7 @@ fontSize
 sp
 maxLines
 =
-1
+2
 overflow
 =
 TextOverflow
