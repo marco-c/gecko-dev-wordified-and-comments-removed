@@ -451,6 +451,16 @@ border
 -
 radius
 -
+xsmall
+:
+2px
+;
+-
+-
+border
+-
+radius
+-
 small
 :
 4px
@@ -473,7 +483,7 @@ radius
 -
 large
 :
-12px
+16px
 ;
 -
 -
