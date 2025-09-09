@@ -2676,7 +2676,6 @@ aOffsetX
 aOffsetY
 aEvent
 aWindow
-aCallback
 )
 {
 var
@@ -2703,7 +2702,6 @@ top
 aOffsetY
 aEvent
 aWindow
-aCallback
 )
 ;
 }
@@ -2716,7 +2714,6 @@ aEvent
 aWindow
 =
 window
-aCallback
 )
 {
 if
@@ -3025,7 +3022,6 @@ isDOMEventSynthesized
 isWidgetEventSynthesized
 isAsyncEnabled
 }
-aCallback
 )
 ;
 }
@@ -3103,7 +3099,6 @@ isDOMEventSynthesized
 isWidgetEventSynthesized
 isAsyncEnabled
 }
-aCallback
 )
 ;
 _EU_maybeWrap
@@ -3138,7 +3133,6 @@ isDOMEventSynthesized
 isWidgetEventSynthesized
 isAsyncEnabled
 }
-aCallback
 )
 ;
 }
@@ -3230,7 +3224,6 @@ synthesizeMouseAtCenter
 aTarget
 aEvent
 aWindow
-aCallback
 )
 {
 var
@@ -3258,7 +3251,6 @@ height
 2
 aEvent
 aWindow
-aCallback
 )
 ;
 }
