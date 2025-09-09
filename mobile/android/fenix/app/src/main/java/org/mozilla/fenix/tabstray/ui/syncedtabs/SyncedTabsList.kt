@@ -1130,6 +1130,8 @@ syncedTabItem
 .
 displayName
 }
+-
+index
 "
 )
 {
@@ -1159,6 +1161,8 @@ syncedTabItem
 .
 errorText
 }
+-
+index
 "
 )
 {
