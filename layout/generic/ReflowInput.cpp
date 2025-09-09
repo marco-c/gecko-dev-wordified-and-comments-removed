@@ -7765,6 +7765,16 @@ here
 "
 )
 ;
+MOZ_ASSERT
+(
+mStyleDisplay
+-
+>
+IsAbsolutelyPositionedStyle
+(
+)
+)
+;
 const
 auto
 anchorResolutionParams
@@ -8280,11 +8290,6 @@ cbwm
 }
 }
 }
-LogicalSize
-cbSize
-=
-aCBSize
-;
 LogicalMargin
 offsets
 (
@@ -8320,7 +8325,7 @@ nsLayoutUtils
 :
 ComputeCBDependentValue
 (
-cbSize
+aCBSize
 .
 ISize
 (
@@ -8359,7 +8364,7 @@ nsLayoutUtils
 :
 ComputeCBDependentValue
 (
-cbSize
+aCBSize
 .
 ISize
 (
@@ -8459,7 +8464,7 @@ nsLayoutUtils
 :
 ComputeCBDependentValue
 (
-cbSize
+aCBSize
 .
 BSize
 (
@@ -8498,7 +8503,7 @@ nsLayoutUtils
 :
 ComputeCBDependentValue
 (
-cbSize
+aCBSize
 .
 BSize
 (
@@ -8628,14 +8633,14 @@ ComputeSize
 (
 mRenderingContext
 wm
-cbSize
+aCBSize
 .
 ConvertTo
 (
 wm
 cbwm
 )
-cbSize
+aCBSize
 .
 ConvertTo
 (
@@ -8911,7 +8916,7 @@ IStart
 cbwm
 )
 =
-cbSize
+aCBSize
 .
 ISize
 (
@@ -8978,7 +8983,7 @@ IEnd
 cbwm
 )
 =
-cbSize
+aCBSize
 .
 ISize
 (
@@ -9169,7 +9174,7 @@ BStart
 cbwm
 )
 =
-cbSize
+aCBSize
 .
 BSize
 (
@@ -9236,7 +9241,7 @@ BEnd
 cbwm
 )
 =
-cbSize
+aCBSize
 .
 BSize
 (
@@ -9288,7 +9293,7 @@ isOrthogonal
 nscoord
 autoBSize
 =
-cbSize
+aCBSize
 .
 BSize
 (
