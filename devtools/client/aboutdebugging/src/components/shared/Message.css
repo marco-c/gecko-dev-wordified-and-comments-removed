@@ -437,9 +437,11 @@ var
 (
 -
 -
-base
+border
 -
-unit
+radius
+-
+small
 )
 ;
 color
