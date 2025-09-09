@@ -452,14 +452,9 @@ js
 to
 :
 '
-.
-.
-/
-.
-.
-/
-.
-.
+{
+topsrcdir
+}
 /
 toolkit
 /

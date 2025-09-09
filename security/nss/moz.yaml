@@ -138,15 +138,8 @@ cwd
 :
 '
 {
-yaml_dir
+topsrcdir
 }
-/
-.
-.
-/
-.
-.
-/
 '
 script
 :

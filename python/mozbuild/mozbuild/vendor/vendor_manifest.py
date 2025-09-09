@@ -23,6 +23,8 @@ collections
 import
 defaultdict
 import
+buildconfig
+import
 mozfile
 import
 mozpack
@@ -2755,6 +2757,32 @@ directory
 "
 ]
             
+)
+        
+elif
+"
+{
+topsrcdir
+}
+"
+in
+path
+:
+            
+path
+=
+path
+.
+replace
+(
+"
+{
+topsrcdir
+}
+"
+buildconfig
+.
+topsrcdir
 )
         
 else
@@ -5763,6 +5791,12 @@ yaml_dir
 "
 {
 tmpextractdir
+}
+"
+                            
+"
+{
+topsrcdir
 }
 "
                         
