@@ -1,4 +1,15 @@
 #
+!
+[
+allow
+(
+clippy
+:
+:
+ignore_without_reason
+)
+]
+#
 [
 test
 ]
