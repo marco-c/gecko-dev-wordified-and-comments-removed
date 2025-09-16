@@ -1557,7 +1557,7 @@ border
 -
 radius
 :
-12px
+16px
 ;
 }
 "
@@ -1591,13 +1591,13 @@ messages
 rejected
 (
 "
-12px
+16px
 "
 )
 description
 :
 "
-12px
+16px
 should
 be
 fixed
