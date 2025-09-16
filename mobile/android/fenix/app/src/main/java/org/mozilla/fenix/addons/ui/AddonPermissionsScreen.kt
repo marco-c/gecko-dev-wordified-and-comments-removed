@@ -141,6 +141,14 @@ compose
 .
 material3
 .
+HorizontalDivider
+import
+androidx
+.
+compose
+.
+material3
+.
 Text
 import
 androidx
@@ -230,16 +238,6 @@ ui
 unit
 .
 dp
-import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-Divider
 import
 mozilla
 .
@@ -636,7 +634,7 @@ MAX_VALUE
 }
 item
 {
-Divider
+HorizontalDivider
 (
 )
 }
@@ -723,7 +721,7 @@ MAX_VALUE
 }
 item
 {
-Divider
+HorizontalDivider
 (
 )
 }
@@ -984,7 +982,7 @@ onRemoveOptionalPermissions
 }
 item
 {
-Divider
+HorizontalDivider
 (
 )
 }
@@ -1034,7 +1032,7 @@ requiredDataCollectionPermissions
 }
 item
 {
-Divider
+HorizontalDivider
 (
 )
 }
@@ -1120,7 +1118,7 @@ onRemoveOptionalPermissions
 }
 item
 {
-Divider
+HorizontalDivider
 (
 )
 }

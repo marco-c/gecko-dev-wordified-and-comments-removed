@@ -185,6 +185,14 @@ compose
 .
 material3
 .
+HorizontalDivider
+import
+androidx
+.
+compose
+.
+material3
+.
 Switch
 import
 androidx
@@ -308,16 +316,6 @@ ui
 unit
 .
 dp
-import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-Divider
 import
 mozilla
 .
@@ -885,7 +883,7 @@ onLearnMoreClicked
 =
 learnMoreTechnicalData
 )
-Divider
+HorizontalDivider
 (
 )
 StudiesSection
@@ -904,7 +902,7 @@ onClick
 =
 onStudiesClick
 )
-Divider
+HorizontalDivider
 (
 )
 /
@@ -966,7 +964,7 @@ onLearnMoreClicked
 =
 learnMoreDailyUsage
 )
-Divider
+HorizontalDivider
 (
 )
 /
@@ -998,7 +996,7 @@ onLearnMoreClicked
 =
 learnMoreCrashReport
 )
-Divider
+HorizontalDivider
 (
 )
 /
