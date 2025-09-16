@@ -2473,7 +2473,7 @@ stringified
 =
 KeyShortcuts
 .
-stringify
+stringifyShortcut
 (
 shortcut
 )
