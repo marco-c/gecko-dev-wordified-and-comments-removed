@@ -545,11 +545,7 @@ this
 message
 }
 <
-/
-p
->
-<
-div
+span
 class
 =
 "
@@ -592,7 +588,11 @@ slot
 >
 <
 /
-div
+span
+>
+<
+/
+p
 >
 <
 /
