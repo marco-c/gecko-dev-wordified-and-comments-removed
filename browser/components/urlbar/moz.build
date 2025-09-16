@@ -81,7 +81,7 @@ DIRS
 unitconverters
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -443,14 +443,7 @@ sys
 mjs
 "
 ]
-EXTRA_JS_MODULES
-[
-"
-urlbar
-/
-private
-"
-]
+MOZ_SRC_FILES
 +
 =
 [
