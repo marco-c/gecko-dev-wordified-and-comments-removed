@@ -8115,6 +8115,14 @@ mode
 BrowsingMode
 .
 Private
+&
+&
+!
+settings
+(
+)
+.
+allowScreenshotsInPrivateMode
 )
 {
 window
