@@ -5112,6 +5112,13 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
+uint32_t
+mDispatchingControlRunnables
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
 JSContext
 *
 mJSContext
