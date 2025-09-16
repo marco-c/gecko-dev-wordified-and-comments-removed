@@ -2599,26 +2599,6 @@ self
 log
 )
         
-options
-[
-"
-threadCount
-"
-]
-=
-min
-(
-options
-[
-"
-threadCount
-"
-]
-or
-4
-4
-)
-        
 self
 .
 options
