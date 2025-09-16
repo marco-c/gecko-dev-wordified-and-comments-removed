@@ -985,7 +985,7 @@ user_accepted_tou
 to
 userAcceptedTou
 "
-no_shortcuts_or_stories_opt_out
+no_shortcuts_or_stories_opt_outs
 "
 to
 noShortcutsOrStoriesOptOuts

@@ -528,7 +528,7 @@ true
 put
 (
 "
-no_shortcuts_or_stories_opt_out
+no_shortcuts_or_stories_opt_outs
 "
 true
 )
