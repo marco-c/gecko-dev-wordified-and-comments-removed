@@ -99,13 +99,6 @@ run
 time
 :
 2400
-env
-:
-TASKGRAPH_SERIAL
-:
-"
-1
-"
 #
 Uncomment
 to
@@ -117,6 +110,9 @@ generations
 as
 artifacts
 .
+#
+env
+:
 #
 XDG_CACHE_HOME
 :
