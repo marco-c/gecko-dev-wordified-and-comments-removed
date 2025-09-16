@@ -3775,7 +3775,7 @@ R
 .
 string
 .
-create_collection_tabs_saved_new_collection
+create_collection_tabs_saved_new_collection_2
 tabSize
 =
 =
@@ -3786,7 +3786,7 @@ R
 .
 string
 .
-create_collection_tab_saved
+create_collection_tab_saved_2
 else
 -
 >
@@ -3876,7 +3876,7 @@ R
 .
 string
 .
-snackbar_message_bookmarks_saved_in
+snackbar_message_bookmarks_saved_in_2
 }
 else
 -

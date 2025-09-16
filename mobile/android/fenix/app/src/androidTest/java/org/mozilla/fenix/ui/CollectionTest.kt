@@ -506,7 +506,6 @@ verifySnackBarText
 "
 Collection
 saved
-!
 "
 )
 }
@@ -596,7 +595,6 @@ verifySnackBarText
 "
 Collection
 saved
-!
 "
 )
 }
@@ -1380,7 +1378,6 @@ verifySnackBarText
 "
 Tab
 saved
-!
 "
 )
 }
@@ -1538,7 +1535,6 @@ verifySnackBarText
 "
 Tab
 saved
-!
 "
 )
 verifyTabSavedInCollection
@@ -1761,7 +1757,6 @@ verifySnackBarText
 "
 Collection
 saved
-!
 "
 )
 waitUntilSnackbarGone
@@ -2393,7 +2388,6 @@ verifySnackBarText
 "
 Collection
 saved
-!
 "
 )
 waitUntilSnackbarGone
@@ -2511,7 +2505,6 @@ verifySnackBarText
 "
 Collection
 saved
-!
 "
 )
 waitUntilSnackbarGone

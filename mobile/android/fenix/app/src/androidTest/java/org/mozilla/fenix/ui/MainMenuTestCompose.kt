@@ -2310,7 +2310,6 @@ verifySnackBarText
 "
 Tab
 saved
-!
 "
 )
 }
