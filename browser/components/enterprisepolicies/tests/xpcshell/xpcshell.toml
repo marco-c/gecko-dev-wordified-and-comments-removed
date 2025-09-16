@@ -160,6 +160,13 @@ js
 ]
 [
 "
+test_local_network_access
+.
+js
+"
+]
+[
+"
 test_macosparser_unflatten
 .
 js
