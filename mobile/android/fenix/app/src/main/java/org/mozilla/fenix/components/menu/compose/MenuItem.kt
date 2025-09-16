@@ -229,6 +229,14 @@ compose
 .
 material3
 .
+HorizontalDivider
+import
+androidx
+.
+compose
+.
+material3
+.
 Icon
 import
 androidx
@@ -464,16 +472,6 @@ ui
 unit
 .
 dp
-import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-Divider
 import
 mozilla
 .
@@ -918,7 +916,7 @@ maxDescriptionLines
 :
 Int
 =
-1
+2
 stateDescription
 :
 String
@@ -1753,7 +1751,7 @@ colors
 layer2
 )
 }
-Divider
+HorizontalDivider
 (
 modifier
 =
@@ -2619,7 +2617,7 @@ onClick
 {
 }
 )
-Divider
+HorizontalDivider
 (
 color
 =
@@ -2685,7 +2683,7 @@ drawable
 mozac_ic_chevron_right_24
 )
 )
-Divider
+HorizontalDivider
 (
 color
 =
@@ -2758,7 +2756,7 @@ onAfterIconClick
 {
 }
 )
-Divider
+HorizontalDivider
 (
 color
 =

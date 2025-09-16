@@ -207,6 +207,14 @@ compose
 .
 material3
 .
+HorizontalDivider
+import
+androidx
+.
+compose
+.
+material3
+.
 Icon
 import
 androidx
@@ -1036,7 +1044,7 @@ false
 )
 }
 }
-Divider
+HorizontalDivider
 (
 color
 =
