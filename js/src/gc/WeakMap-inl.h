@@ -2249,9 +2249,6 @@ key
 }
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 mayHaveSymbolKeys
@@ -2300,8 +2297,6 @@ false
 }
 }
 }
-#
-endif
 if
 (
 mayHaveKeyDelegates
@@ -2964,9 +2959,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 symbolsAsWeakMapKeysEnabled
 =
@@ -3017,8 +3009,6 @@ return
 true
 ;
 }
-#
-endif
 return
 false
 ;
