@@ -583,9 +583,7 @@ KEY_CONTENT_LENGTH
 val
 builder
 =
-AlertDialog
-.
-Builder
+MaterialAlertDialogBuilder
 (
 requireContext
 (

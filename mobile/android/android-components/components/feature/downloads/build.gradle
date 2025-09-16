@@ -374,6 +374,12 @@ androidx
 room
 .
 runtime
+implementation
+libs
+.
+google
+.
+material
 ksp
 libs
 .

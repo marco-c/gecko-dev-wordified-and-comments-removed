@@ -846,7 +846,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -1018,7 +1018,7 @@ id
 button1
 "
 "
-OPEN
+Open
 "
 )
 )
@@ -1210,7 +1210,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -1396,7 +1396,7 @@ id
 button1
 "
 "
-OPEN
+Open
 "
 )
 )

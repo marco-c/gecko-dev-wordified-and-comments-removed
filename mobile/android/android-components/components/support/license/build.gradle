@@ -175,6 +175,12 @@ libs
 kotlinx
 .
 coroutines
+implementation
+libs
+.
+google
+.
+material
 }
 apply
 from

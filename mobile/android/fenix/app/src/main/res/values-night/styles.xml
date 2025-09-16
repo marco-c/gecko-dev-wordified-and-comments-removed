@@ -91,7 +91,7 @@ DialogStyleNormal
 parent
 =
 "
-DialogStyleDark
+BaseDialogStyle
 "
 /
 >

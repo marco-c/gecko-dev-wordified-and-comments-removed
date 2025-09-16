@@ -488,7 +488,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -600,7 +600,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -704,7 +704,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -993,7 +993,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
@@ -1132,7 +1132,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )

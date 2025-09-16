@@ -1318,7 +1318,7 @@ id
 button2
 "
 "
-CANCEL
+Cancel
 "
 )
 )
