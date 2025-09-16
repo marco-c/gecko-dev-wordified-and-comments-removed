@@ -445,7 +445,7 @@ assertEq
 ab2
 .
 maxByteLength
-20
+50
 <
 <
 16
