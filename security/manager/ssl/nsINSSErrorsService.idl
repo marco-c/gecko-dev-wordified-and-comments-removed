@@ -74,6 +74,17 @@ nsresult
 aXPCOMErrorCode
 )
 ;
+[
+must_use
+]
+boolean
+isErrorOverridable
+(
+in
+nsresult
+aXPCOMErrorCode
+)
+;
 const
 unsigned
 long
