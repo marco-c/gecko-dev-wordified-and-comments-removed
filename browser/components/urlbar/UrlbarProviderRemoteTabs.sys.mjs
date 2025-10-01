@@ -1399,16 +1399,11 @@ lazy
 .
 UrlbarResult
 (
-{
-type
-:
 UrlbarUtils
 .
 RESULT_TYPE
 .
 REMOTE_TAB
-source
-:
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -1482,7 +1477,6 @@ lastUsed
 1000
 }
 )
-}
 )
 ;
 /
