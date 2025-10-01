@@ -1035,6 +1035,19 @@ TASK_ID
 "
 ]
     
+os
+.
+environ
+[
+"
+TASKGRAPH_SERIAL
+"
+]
+=
+"
+1
+"
+    
 tgg
 =
 TaskGraphGenerator
