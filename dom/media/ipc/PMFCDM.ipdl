@@ -402,10 +402,6 @@ Requirement
 persistentState
 ;
 bool
-?
-isHDCP22Compatible
-;
-bool
 isHardwareDecryption
 ;
 }

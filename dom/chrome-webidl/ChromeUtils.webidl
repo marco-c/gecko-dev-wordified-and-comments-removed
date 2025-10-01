@@ -7216,10 +7216,6 @@ clearlead
 ;
 required
 boolean
-isHDCP22Compatible
-;
-required
-boolean
 isHardwareDecryption
 ;
 }

@@ -404,7 +404,6 @@ class
 CapabilitesFlag
 {
 HarewareDecryption
-NeedHDCPCheck
 NeedClearLeadCheck
 IsPrivateBrowsing
 }
