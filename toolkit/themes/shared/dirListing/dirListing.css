@@ -107,7 +107,16 @@ border
 -
 radius
 :
-10px
+var
+(
+-
+-
+border
+-
+radius
+-
+medium
+)
 ;
 padding
 :
