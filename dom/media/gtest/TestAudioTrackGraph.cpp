@@ -20713,18 +20713,12 @@ unwrap
 ]
 ;
 }
-#
-ifndef
-ANDROID
 TEST
 (
 TestAudioTrackGraph
 DefaultOutputDeviceIDTracking
 )
 {
-#
-if
-0
 #
 ifdef
 ANDROID
@@ -20764,8 +20758,6 @@ devid
 .
 "
 ;
-#
-endif
 #
 endif
 MockCubeb
@@ -21530,8 +21522,6 @@ unwrap
 ]
 ;
 }
-#
-endif
 #
 undef
 Invoke
