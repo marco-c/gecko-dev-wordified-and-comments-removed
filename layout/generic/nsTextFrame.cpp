@@ -37903,7 +37903,10 @@ decorationRect
 uint32_t
 blurFlags
 =
-0
+nsContextBoxBlur
+:
+:
+DISABLE_HARDWARE_ACCELERATION_BLUR
 ;
 uint32_t
 numGlyphRuns

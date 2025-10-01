@@ -3692,7 +3692,7 @@ const
 IntSize
 inflation
 =
-gfxGaussianBlur
+gfxAlphaBoxBlur
 :
 :
 CalculateBlurRadius
@@ -3909,7 +3909,7 @@ stdDev
 IntSize
 inflation
 =
-gfxGaussianBlur
+gfxAlphaBoxBlur
 :
 :
 CalculateBlurRadius

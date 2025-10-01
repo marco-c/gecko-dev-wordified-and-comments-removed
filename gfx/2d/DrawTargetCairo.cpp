@@ -4849,7 +4849,7 @@ width
 height
 )
 ;
-GaussianBlur
+AlphaBoxBlur
 blur
 (
 extents
@@ -4857,15 +4857,12 @@ cairo_image_surface_get_stride
 (
 blursurf
 )
-Point
-(
 aShadow
 .
 mSigma
 aShadow
 .
 mSigma
-)
 )
 ;
 blur

@@ -28563,6 +28563,10 @@ AppUnitsPerDevPixel
 aDestCtx
 aDirtyRect
 nullptr
+nsContextBoxBlur
+:
+:
+DISABLE_HARDWARE_ACCELERATION_BLUR
 )
 ;
 if

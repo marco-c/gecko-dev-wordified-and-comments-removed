@@ -7305,7 +7305,7 @@ Shutdown
 (
 )
 ;
-gfxGaussianBlur
+gfxAlphaBoxBlur
 :
 :
 ShutdownBlurCache
