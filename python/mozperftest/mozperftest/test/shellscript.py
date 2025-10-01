@@ -1200,6 +1200,18 @@ copytree
 testing_dir
 output_dir
 )
+                    
+self
+.
+env
+.
+set_arg
+(
+"
+output
+"
+output_dir
+)
         
 metadata
 .
