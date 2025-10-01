@@ -233,7 +233,6 @@ gSyscallsQueue
 new
 SandboxProfilerQueue
 (
-15
 )
 ;
 }
@@ -248,7 +247,6 @@ gLogsQueue
 new
 SandboxProfilerQueue
 (
-15
 )
 ;
 }
