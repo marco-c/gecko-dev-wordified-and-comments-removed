@@ -276,6 +276,16 @@ candidate
 )
 ;
 virtual
+bool
+RemoveCandidate
+(
+const
+IceCandidate
+*
+candidate
+)
+;
+virtual
 size_t
 RemoveCandidates
 (
