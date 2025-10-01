@@ -3517,12 +3517,6 @@ logging
 :
 rtc_event_log_api
 "
-#
-"
-p2p
-:
-rtc_p2p
-"
 "
 pc
 :
