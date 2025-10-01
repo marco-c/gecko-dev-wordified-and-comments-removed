@@ -10238,6 +10238,9 @@ bool
 aFocusPreviousElement
 bool
 aFireEvents
+Element
+*
+aSource
 ErrorResult
 &
 aRv
