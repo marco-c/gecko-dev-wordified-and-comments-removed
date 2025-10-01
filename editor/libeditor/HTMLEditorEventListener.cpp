@@ -1608,15 +1608,11 @@ eventTarget
 ;
 if
 (
-eventTargetElement
-&
-&
 HTMLEditUtils
 :
 :
-IsImageElement
+IsImage
 (
-*
 eventTargetElement
 )
 )

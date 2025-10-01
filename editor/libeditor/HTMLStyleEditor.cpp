@@ -12407,7 +12407,6 @@ pointToPutCaret
 ;
 for
 (
-const
 OwningNonNull
 <
 Element
@@ -12669,7 +12668,7 @@ href
 HTMLEditUtils
 :
 :
-IsHyperlinkElement
+IsLink
 (
 element
 )
@@ -15781,9 +15780,8 @@ if
 HTMLEditUtils
 :
 :
-IsNamedAnchorElement
+IsNamedAnchor
 (
-*
 element
 )
 )
@@ -15833,9 +15831,8 @@ if
 HTMLEditUtils
 :
 :
-IsNamedAnchorElement
+IsNamedAnchor
 (
-*
 element
 )
 )
