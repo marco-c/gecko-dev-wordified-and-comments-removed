@@ -10847,12 +10847,6 @@ buffer
 )
 )
 ;
-bool
-ownerWasTenured
-=
-!
-nurseryOwned
-;
 zone
 -
 >
@@ -10861,7 +10855,7 @@ bufferAllocator
 markNurseryOwnedAlloc
 (
 buffer
-ownerWasTenured
+nurseryOwned
 )
 ;
 return

@@ -1349,7 +1349,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 ;
 friend
@@ -1479,7 +1479,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 ;
 bool
@@ -1948,7 +1948,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 ;
 bool
@@ -2140,7 +2140,7 @@ LargeBuffer
 *
 buffer
 bool
-ownerWasTenured
+nurseryOwned
 )
 ;
 bool
