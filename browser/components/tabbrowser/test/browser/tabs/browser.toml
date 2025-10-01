@@ -3912,6 +3912,13 @@ js
 ]
 [
 "
+browser_tabs_openURI_after_current
+.
+js
+"
+]
+[
+"
 browser_tabs_owner
 .
 js
