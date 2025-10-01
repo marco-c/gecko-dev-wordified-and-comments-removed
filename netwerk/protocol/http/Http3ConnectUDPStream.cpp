@@ -442,7 +442,7 @@ return
 false
 ;
 }
-void
+nsresult
 Http3ConnectUDPStream
 :
 :
@@ -505,6 +505,9 @@ mTrackingId
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsresult
 Http3ConnectUDPStream

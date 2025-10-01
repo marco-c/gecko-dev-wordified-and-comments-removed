@@ -204,6 +204,17 @@ return
 this
 ;
 }
+Http3StreamTunnel
+*
+GetHttp3StreamTunnel
+(
+)
+override
+{
+return
+nullptr
+;
+}
 nsresult
 TryActivating
 (
@@ -251,7 +262,7 @@ OnActivated
 )
 override
 ;
-void
+nsresult
 OnProcessDatagram
 (
 )

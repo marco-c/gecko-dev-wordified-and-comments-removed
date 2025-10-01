@@ -558,6 +558,11 @@ Http3Stream
 cpp
 "
 "
+Http3StreamTunnel
+.
+cpp
+"
+"
 Http3WebTransportSession
 .
 cpp

@@ -393,6 +393,11 @@ false
 )
 override
 ;
+void
+OnConnected
+(
+)
+;
 private
 :
 nsresult
@@ -478,6 +483,11 @@ false
 ;
 bool
 mLastTransactionExpectedNoContent
+=
+false
+;
+bool
+mConnected
 =
 false
 ;
