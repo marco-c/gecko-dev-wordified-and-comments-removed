@@ -490,3 +490,15 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+places
+.
+semanticHistory
+.
+featureGate
+"
+false
+)
+;

@@ -4072,6 +4072,16 @@ enabled
 False
         
 "
+places
+.
+semanticHistory
+.
+featureGate
+"
+:
+False
+        
+"
 startup
 .
 homepage_welcome_url
