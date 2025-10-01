@@ -182,7 +182,7 @@ dom
 ElementState
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -2207,6 +2207,7 @@ _
 )
 =
 >
+{
 unreachable
 !
 (
@@ -2218,6 +2219,7 @@ invalidation
 ?
 "
 )
+}
 DependencyInvalidationKind
 :
 :

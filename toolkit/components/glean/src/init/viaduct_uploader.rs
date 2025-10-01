@@ -41,11 +41,11 @@ viaduct
 :
 :
 {
+Request
 ViaductError
 :
 :
 *
-Request
 }
 ;
 extern
@@ -403,12 +403,14 @@ _
 BackendAlreadyInitialized
 =
 >
+{
 UploadResult
 :
 :
 unrecoverable_failure
 (
 )
+}
 RequestHeaderError
 (
 _
