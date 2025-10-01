@@ -295,12 +295,6 @@ TableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 name

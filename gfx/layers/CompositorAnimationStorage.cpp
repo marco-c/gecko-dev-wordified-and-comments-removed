@@ -328,12 +328,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 property

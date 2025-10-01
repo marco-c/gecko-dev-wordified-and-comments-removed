@@ -377,12 +377,6 @@ schema
 SetTableLabel
 (
 "
-{
-marker
-.
-name
-}
--
 [
 {
 marker

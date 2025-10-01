@@ -872,12 +872,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 id
