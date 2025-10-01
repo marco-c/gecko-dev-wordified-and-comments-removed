@@ -3167,10 +3167,6 @@ mIsPopup
 (
 false
 )
-mIsLineParticipant
-(
-false
-)
 mIsRenderedLegend
 (
 false
@@ -3352,11 +3348,6 @@ mIsBlock
 ;
 bool
 mIsPopup
-:
-1
-;
-bool
-mIsLineParticipant
 :
 1
 ;
