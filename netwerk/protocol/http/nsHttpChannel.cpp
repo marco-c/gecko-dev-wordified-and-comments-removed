@@ -1108,16 +1108,6 @@ h
 "
 #
 endif
-#
-define
-LOG_DICTIONARIES
-(
-x
-)
-LOG
-(
-x
-)
 namespace
 mozilla
 {
@@ -28627,7 +28617,7 @@ GetInstance
 )
 )
 ;
-LOG
+LOG_DICTIONARIES
 (
 (
 "
@@ -29406,7 +29396,7 @@ Content_Encoding
 contentEncoding
 )
 ;
-LOG
+LOG_DICTIONARIES
 (
 (
 "
@@ -29421,10 +29411,7 @@ p
 s
 "
 this
-PromiseFlatCString
-(
 contentEncoding
-)
 .
 get
 (
@@ -29502,7 +29489,7 @@ if
 listener
 )
 {
-LOG
+LOG_DICTIONARIES
 (
 (
 "
@@ -29536,7 +29523,7 @@ true
 ;
 }
 else
-LOG
+LOG_DICTIONARIES
 (
 (
 "
