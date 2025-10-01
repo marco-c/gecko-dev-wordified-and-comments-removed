@@ -325,11 +325,16 @@ results
 new
 UrlbarResult
 (
+{
+type
+:
 UrlbarUtils
 .
 RESULT_TYPE
 .
 URL
+source
+:
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -351,6 +356,7 @@ payloadAndSimpleHighlights
 payload
 }
 )
+}
 )
 ]
 priority

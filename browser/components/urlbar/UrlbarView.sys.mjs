@@ -3086,15 +3086,14 @@ tip
 let
 tip
 =
-Object
-.
-assign
-(
 new
 lazy
 .
 UrlbarResult
 (
+{
+type
+:
 lazy
 .
 UrlbarUtils
@@ -3102,6 +3101,8 @@ UrlbarUtils
 RESULT_TYPE
 .
 TIP
+source
+:
 lazy
 .
 UrlbarUtils
@@ -3109,6 +3110,8 @@ UrlbarUtils
 RESULT_SOURCE
 .
 OTHER_LOCAL
+payload
+:
 {
 type
 :
@@ -3155,8 +3158,6 @@ icon32
 png
 "
 }
-)
-{
 rowLabel
 :
 !
