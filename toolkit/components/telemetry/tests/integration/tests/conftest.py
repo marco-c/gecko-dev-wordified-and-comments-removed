@@ -973,7 +973,7 @@ getCachedProfileGroupID
 )
     
 def
-get_default_search_engine
+get_default_search_engine_telemetry_id
 (
 self
 )
@@ -1108,7 +1108,7 @@ searchService
 .
 defaultEngine
 .
-identifier
+telemetryId
 )
 ;
         

@@ -286,7 +286,7 @@ search
 .
 defaultEngine
 .
-identifier
+id
 "
 appDefault
 "
@@ -310,7 +310,7 @@ search
 .
 defaultPrivateEngine
 .
-identifier
+id
 "
 appDefault
 "
@@ -417,7 +417,7 @@ search
 .
 defaultEngine
 .
-identifier
+id
 "
 appDefault
 "
@@ -441,7 +441,7 @@ search
 .
 defaultPrivateEngine
 .
-identifier
+id
 "
 localeFR
 "
@@ -515,7 +515,7 @@ e
 >
 e
 .
-identifier
+id
 )
 [
 "
@@ -551,7 +551,7 @@ search
 .
 defaultEngine
 .
-identifier
+id
 "
 appDefault
 "
@@ -575,7 +575,7 @@ search
 .
 defaultPrivateEngine
 .
-identifier
+id
 "
 localeFR
 "

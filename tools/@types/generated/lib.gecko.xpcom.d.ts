@@ -61760,11 +61760,6 @@ telemetryId
 string
 ;
 readonly
-identifier
-:
-string
-;
-readonly
 loadPath
 :
 string

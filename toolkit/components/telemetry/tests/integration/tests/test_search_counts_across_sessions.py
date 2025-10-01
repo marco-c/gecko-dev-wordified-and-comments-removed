@@ -32,11 +32,11 @@ sessions
 "
 "
     
-search_engine
+search_engine_telemetry_id
 =
 browser
 .
-get_default_search_engine
+get_default_search_engine_telemetry_id
 (
 )
     
@@ -253,14 +253,16 @@ SEARCH_COUNTS
 "
 ]
 [
+        
 f
 "
 {
-search_engine
+search_engine_telemetry_id
 }
 .
 urlbar
 "
+    
 ]
     
 assert
@@ -720,14 +722,16 @@ SEARCH_COUNTS
 "
 ]
 [
+        
 f
 "
 {
-search_engine
+search_engine_telemetry_id
 }
 .
 urlbar
 "
+    
 ]
     
 assert

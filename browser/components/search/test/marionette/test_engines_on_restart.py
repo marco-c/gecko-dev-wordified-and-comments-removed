@@ -145,7 +145,7 @@ searchService
 .
 defaultEngine
 .
-identifier
+id
 )
 ;
         
@@ -196,20 +196,16 @@ self
         
 self
 .
-assertTrue
+assertEqual
 (
 self
 .
 get_default_search_engine
 (
 )
-.
-startswith
-(
 "
 google
 "
-)
 )
         
 self
@@ -246,18 +242,14 @@ True
         
 self
 .
-assertTrue
+assertEqual
 (
 self
 .
 get_default_search_engine
 (
 )
-.
-startswith
-(
 "
 google
 "
-)
 )

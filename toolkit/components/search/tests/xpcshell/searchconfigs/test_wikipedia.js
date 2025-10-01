@@ -7,7 +7,7 @@ const
 testConfiguration
 =
 {
-identifier
+identifierStartsWith
 :
 "
 wikipedia

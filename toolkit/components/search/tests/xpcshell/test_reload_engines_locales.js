@@ -236,7 +236,7 @@ e
 >
 e
 .
-identifier
+id
 )
 [
 "
@@ -347,7 +347,7 @@ e
 >
 e
 .
-identifier
+id
 )
 [
 "
