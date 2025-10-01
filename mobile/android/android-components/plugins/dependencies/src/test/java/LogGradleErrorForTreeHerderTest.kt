@@ -106,14 +106,6 @@ n
 )
 actual
 .
-trimEnd
-(
-'
-\
-n
-'
-)
-.
 split
 (
 "
