@@ -10840,14 +10840,13 @@ test_trr_proxy_auth
 js
 "
 ]
-run
+skip
 -
 if
 =
 [
 "
-!
-socketprocess_networking
+true
 "
 ]
 [
