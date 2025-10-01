@@ -801,6 +801,9 @@ JSContext
 cx
 PropertyInfo
 prop
+bool
+*
+wasTrackedProp
 )
 ;
 void
