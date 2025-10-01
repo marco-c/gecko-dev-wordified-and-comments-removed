@@ -1958,14 +1958,6 @@ nsresult
 aRv
 )
 ;
-bool
-IsAlreadyHandledForCachePreparation
-(
-ScriptLoadRequest
-*
-aRequest
-)
-;
 void
 MaybePrepareModuleForCacheBeforeExecute
 (
