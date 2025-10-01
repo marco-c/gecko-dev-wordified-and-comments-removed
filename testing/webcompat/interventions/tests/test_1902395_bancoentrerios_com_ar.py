@@ -77,9 +77,6 @@ FAILURE_CSS
 is_displayed
 =
 True
-timeout
-=
-30
 )
 pytest
 .
