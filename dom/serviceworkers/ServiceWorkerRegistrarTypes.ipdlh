@@ -13,6 +13,15 @@ dom
 struct
 ServiceWorkerRegistrationData
 {
+int64_t
+numberOfAttemptedActivations
+;
+bool
+isBroken
+;
+int64_t
+cacheAPIId
+;
 nsCString
 scope
 ;
