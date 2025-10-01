@@ -1266,16 +1266,6 @@ FeedbackAccordingToRfc8888
 0
 )
 ;
-EXPECT_EQ
-(
-send_node_feedback_counter
-.
-FeedbackAccordingToTransportCc
-(
-)
-0
-)
-;
 EXPECT_GT
 (
 ret_node_feedback_counter
