@@ -79,6 +79,13 @@ algorithm
 #
 include
 "
+AnchorPositioningUtils
+.
+h
+"
+#
+include
+"
 FrameProperties
 .
 h
@@ -4836,6 +4843,9 @@ nsMargin
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 AnchorPosReferences
+mozilla
+:
+:
 AnchorPosReferenceData
 )
 ;
@@ -15547,6 +15557,9 @@ const
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 AnchorPosReferenceData
 *
 aAnchorPosReferenceData
