@@ -6390,11 +6390,8 @@ onView
 withText
 (
 "
-Sync
-and
-save
-your
-data
+Sign
+in
 "
 )
 )
