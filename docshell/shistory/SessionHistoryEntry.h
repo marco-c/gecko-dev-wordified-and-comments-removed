@@ -787,14 +787,6 @@ GetNavigationState
 )
 const
 ;
-void
-SetNavigationState
-(
-nsStructuredCloneContainer
-*
-aState
-)
-;
 already_AddRefed
 <
 nsIURI
