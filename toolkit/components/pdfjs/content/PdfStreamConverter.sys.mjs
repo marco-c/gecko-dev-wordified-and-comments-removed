@@ -3401,6 +3401,7 @@ case
 string
 "
 :
+{
 /
 /
 The
@@ -3474,6 +3475,7 @@ str
 ;
 break
 ;
+}
 }
 }
 sendResponse

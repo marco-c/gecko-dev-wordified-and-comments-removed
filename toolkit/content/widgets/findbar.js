@@ -1369,6 +1369,7 @@ KeyEvent
 .
 DOM_VK_TAB
 :
+{
 let
 shouldHandle
 =
@@ -1414,6 +1415,7 @@ event
 }
 break
 ;
+}
 case
 KeyEvent
 .

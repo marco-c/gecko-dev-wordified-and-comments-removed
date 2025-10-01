@@ -337,6 +337,7 @@ case
 mousemove
 "
 :
+{
 if
 (
 Date
@@ -432,6 +433,7 @@ now
 ;
 break
 ;
+}
 }
 }
 }

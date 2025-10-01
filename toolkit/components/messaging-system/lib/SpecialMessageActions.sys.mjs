@@ -4081,6 +4081,7 @@ case
 OPEN_ABOUT_PAGE
 "
 :
+{
 let
 aboutPageURL
 =
@@ -4141,6 +4142,7 @@ tab
 ;
 break
 ;
+}
 case
 "
 OPEN_FIREFOX_VIEW
@@ -4227,6 +4229,7 @@ case
 HIGHLIGHT_FEATURE
 "
 :
+{
 const
 highlight
 =
@@ -4272,6 +4275,7 @@ true
 }
 break
 ;
+}
 case
 "
 INSTALL_ADDON_FROM_URL
@@ -4483,6 +4487,7 @@ case
 CONFIRM_LAUNCH_ON_LOGIN
 "
 :
+{
 const
 {
 WindowsLaunchOnLogin
@@ -4518,11 +4523,13 @@ createLaunchOnLogin
 ;
 break
 ;
+}
 case
 "
 PIN_CURRENT_TAB
 "
 :
+{
 let
 tab
 =
@@ -4576,11 +4583,13 @@ description
 ;
 break
 ;
+}
 case
 "
 SHOW_FIREFOX_ACCOUNTS
 "
 :
+{
 if
 (
 !
@@ -4685,6 +4694,7 @@ createNullPrincipal
 ;
 break
 ;
+}
 case
 "
 FXA_SIGNIN_FLOW
@@ -4718,6 +4728,7 @@ case
 OPEN_PROTECTION_PANEL
 "
 :
+{
 let
 {
 gProtectionsHandler
@@ -4735,6 +4746,7 @@ showProtectionsPopup
 ;
 break
 ;
+}
 case
 "
 OPEN_PROTECTION_REPORT
@@ -5005,6 +5017,7 @@ case
 CLICK_ELEMENT
 "
 :
+{
 const
 clickElement
 =
@@ -5030,6 +5043,7 @@ click
 ;
 break
 ;
+}
 case
 "
 RELOAD_BROWSER
@@ -5189,6 +5203,7 @@ case
 SUMMARIZE_PAGE
 "
 :
+{
 const
 entry
 =
@@ -5214,11 +5229,13 @@ entry
 ;
 break
 ;
+}
 case
 "
 OPEN_PANEL
 "
 :
+{
 let
 {
 anchor_id
@@ -5323,11 +5340,13 @@ anchor
 ;
 break
 ;
+}
 case
 "
 CREATE_TASKBAR_TAB
 "
 :
+{
 let
 currentTab
 =
@@ -5349,6 +5368,7 @@ currentTab
 ;
 break
 ;
+}
 }
 return
 undefined

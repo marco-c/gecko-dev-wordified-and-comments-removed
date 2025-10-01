@@ -334,6 +334,7 @@ case
 click
 "
 :
+{
 let
 elem
 =
@@ -405,6 +406,7 @@ docShell
 }
 break
 ;
+}
 }
 }
 RPMGetInnerMostURI
