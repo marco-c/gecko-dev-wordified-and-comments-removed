@@ -752,15 +752,6 @@ mingw
 #
 ifdef
 HAVE_WINHTTP_H
-#
-Disable
-until
-Bug
-1985118
-is
-resolved
-.
-#
 !
 define
 DESKTOP_LAUNCHER_ENABLED

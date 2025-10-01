@@ -279,6 +279,8 @@ AddTaskbarSC
 Var
 AddDesktopSC
 Var
+AddDesktopLauncher
+Var
 AddPrivateBrowsingSC
 Var
 InstallMaintenanceService
@@ -4223,9 +4225,13 @@ current
 {
 EndIf
 }
-!
-ifdef
-DESKTOP_LAUNCHER_ENABLED
+{
+If
+}
+AddDesktopLauncher
+=
+=
+1
 ;
 Entry
 point
@@ -4239,10 +4245,8 @@ being
 installed
 Call
 OnInstallDesktopLauncherHandler
-!
-else
 {
-If
+ElseIf
 }
 AddDesktopSC
 =
@@ -4499,8 +4503,6 @@ EndIf
 {
 EndIf
 }
-!
-endif
 !
 ifdef
 MOZ_OPTIONAL_EXTENSIONS
