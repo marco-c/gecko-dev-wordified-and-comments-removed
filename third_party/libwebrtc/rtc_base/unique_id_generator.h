@@ -135,9 +135,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
 {
-webrtc
-:
-:
 SequenceChecker
 :
 :

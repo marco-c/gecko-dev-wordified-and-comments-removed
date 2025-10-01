@@ -8826,9 +8826,6 @@ cmsWait
 ;
 msStop
 =
-webrtc
-:
-:
 TimeAfter
 (
 cmsWait
@@ -8854,9 +8851,6 @@ fWait_
 )
 {
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -9017,9 +9011,6 @@ true
 }
 else
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -9093,15 +9084,9 @@ kForeverMs
 {
 msWait
 =
-webrtc
-:
-:
 TimeDiff
 (
 msStop
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -9140,9 +9125,6 @@ PhysicalSocketServer
 :
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 max_wait_duration
 bool
@@ -9183,9 +9165,6 @@ cmsElapsed
 int64_t
 msStart
 =
-webrtc
-:
-:
 Time
 (
 )
@@ -9225,9 +9204,6 @@ socket_ev_
 )
 ;
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -9491,9 +9467,6 @@ true
 }
 else
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -10022,9 +9995,6 @@ break
 ;
 cmsElapsed
 =
-webrtc
-:
-:
 TimeSince
 (
 msStart

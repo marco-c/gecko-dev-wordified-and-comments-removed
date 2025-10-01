@@ -272,9 +272,6 @@ SetServerRole
 SSLRole
 role
 =
-webrtc
-:
-:
 SSL_SERVER
 )
 override
@@ -816,9 +813,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 OpenSSLIdentity
 >
 identity_

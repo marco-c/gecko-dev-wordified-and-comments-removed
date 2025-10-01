@@ -135,9 +135,6 @@ adapter_type
 AdapterType
 underlying_type_for_vpn
 =
-webrtc
-:
-:
 ADAPTER_TYPE_UNKNOWN
 ;
 NetworkPreference

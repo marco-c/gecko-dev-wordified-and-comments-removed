@@ -1622,9 +1622,6 @@ reset
 (
 static_cast
 <
-webrtc
-:
-:
 OpenSSLIdentity
 *
 >
@@ -5778,9 +5775,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 OpenSSLCertificate
 >
 (

@@ -384,9 +384,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 callback_sequence_
 {
-webrtc
-:
-:
 SequenceChecker
 :
 :

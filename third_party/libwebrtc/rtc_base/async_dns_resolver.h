@@ -104,9 +104,6 @@ class
 AsyncDnsResolver
 ;
 RTC_NO_UNIQUE_ADDRESS
-webrtc
-:
-:
 SequenceChecker
 sequence_checker_
 ;

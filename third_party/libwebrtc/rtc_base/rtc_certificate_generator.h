@@ -94,9 +94,6 @@ void
 (
 scoped_refptr
 <
-webrtc
-:
-:
 RTCCertificate
 >
 )

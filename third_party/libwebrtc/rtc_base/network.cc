@@ -870,9 +870,6 @@ bool
 IpAddressAttributesEnabled
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
@@ -896,9 +893,6 @@ IPv6NetworkResolutionFixes
 )
 )
 {
-webrtc
-:
-:
 FieldTrialParameter
 <
 bool
@@ -911,9 +905,6 @@ IpAddressAttributesEnabled
 false
 )
 ;
-webrtc
-:
-:
 ParseFieldTrial
 (
 {
@@ -4722,9 +4713,6 @@ ADAPTER_TYPE_VPN
 &
 IsVpnMacAddress
 (
-webrtc
-:
-:
 ArrayView
 <
 const

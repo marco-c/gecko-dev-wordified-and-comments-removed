@@ -704,9 +704,6 @@ kFakeIPv6NetworkPrefixLength
 IPAddress
 prefix
 =
-webrtc
-:
-:
 TruncateIP
 (
 it

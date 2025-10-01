@@ -244,9 +244,6 @@ give_up_after
 .
 RoundUpTo
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -550,9 +547,6 @@ tv
 .
 tv_usec
 *
-webrtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 #
