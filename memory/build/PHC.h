@@ -242,6 +242,11 @@ mFragmentationBytes
 =
 0
 ;
+size_t
+mAllocatedBytes
+=
+0
+;
 }
 ;
 MOZ_JEMALLOC_API
