@@ -470,7 +470,7 @@ ClosestBlockElement
 AncestorType
 :
 :
-AllowRootOrAncestorLimiterElement
+ReturnAncestorLimiterIfNoProperAncestor
 AncestorType
 :
 :
@@ -495,7 +495,7 @@ ClosestBlockElement
 AncestorType
 :
 :
-AllowRootOrAncestorLimiterElement
+ReturnAncestorLimiterIfNoProperAncestor
 AncestorType
 :
 :
