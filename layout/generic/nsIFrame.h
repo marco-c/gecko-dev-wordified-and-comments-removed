@@ -4856,6 +4856,12 @@ mozilla
 DeleteAnchorPosReferenceData
 )
 ;
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
+(
+LastSuccessfulPositionFallback
+uint32_t
+)
+;
 struct
 PageValues
 {
