@@ -1067,7 +1067,7 @@ None
                     
 break
                 
-data
+file
 =
 tar
 .
@@ -1075,11 +1075,19 @@ extractfile
 (
 info
 )
+                
+if
+file
+:
+                    
+data
+=
+file
 .
 read
 (
 )
-                
+                    
 yield
 (
 info
