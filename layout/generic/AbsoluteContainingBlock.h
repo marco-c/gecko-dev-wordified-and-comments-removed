@@ -354,7 +354,7 @@ aReflowInput
 const
 nsRect
 &
-aContainingBlockRect
+aOriginalContainingBlockRect
 AbsPosReflowFlags
 aFlags
 nsIFrame
@@ -369,8 +369,6 @@ aOverflowAreas
 AnchorPosReferenceData
 *
 aAnchorPosReferenceData
-=
-nullptr
 )
 ;
 void
