@@ -639,6 +639,16 @@ codecs
 (
 )
 ;
+if
+(
+desc
+-
+>
+rtp_header_extensions_set
+(
+)
+)
+{
 params
 -
 >
@@ -646,6 +656,7 @@ extensions
 =
 extensions
 ;
+}
 params
 -
 >
