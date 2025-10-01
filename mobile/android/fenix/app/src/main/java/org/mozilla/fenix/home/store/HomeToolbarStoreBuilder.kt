@@ -316,7 +316,7 @@ interactions
 .
 *
 param
-lifecycleOwner
+fragment
 [
 Fragment
 ]
@@ -391,7 +391,7 @@ build
 context
 :
 Context
-lifecycleOwner
+fragment
 :
 Fragment
 navController
@@ -412,7 +412,7 @@ StoreProvider
 .
 get
 (
-lifecycleOwner
+fragment
 )
 {
 BrowserToolbarStore
@@ -452,6 +452,9 @@ context
 components
 .
 useCases
+fragment
+=
+fragment
 )
 BrowserToolbarSearchMiddleware
 (
@@ -494,11 +497,9 @@ BrowserToolbarEnvironment
 context
 =
 context
-viewLifecycleOwner
+fragment
 =
-lifecycleOwner
-.
-viewLifecycleOwner
+fragment
 navController
 =
 navController
@@ -508,7 +509,7 @@ browsingModeManager
 )
 )
 )
-lifecycleOwner
+fragment
 .
 viewLifecycleOwner
 .
