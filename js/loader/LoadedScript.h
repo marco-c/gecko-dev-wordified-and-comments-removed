@@ -1133,6 +1133,11 @@ public
 DataType
 mDataType
 ;
+uint8_t
+mFetchCount
+=
+0
+;
 private
 :
 ScriptKind
