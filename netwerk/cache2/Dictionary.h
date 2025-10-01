@@ -175,6 +175,10 @@ nsICacheEntryOpenCallback
 public
 nsIStreamListener
 {
+friend
+class
+DictionaryOrigin
+;
 private
 :
 ~
@@ -1044,6 +1048,11 @@ FinishAddEntry
 DictionaryCacheEntry
 *
 aEntry
+)
+;
+void
+DumpEntries
+(
 )
 ;
 void
