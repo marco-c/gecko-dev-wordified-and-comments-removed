@@ -84,3 +84,9 @@ release
 gperf
 \
 procps
+\
+libdbus
+-
+1
+-
+3
