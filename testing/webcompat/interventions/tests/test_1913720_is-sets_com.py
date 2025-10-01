@@ -23,9 +23,8 @@ root
 BLOCKED_TEXT
 =
 "
-404
-Not
-Found
+403
+Forbidden
 "
 pytest
 .

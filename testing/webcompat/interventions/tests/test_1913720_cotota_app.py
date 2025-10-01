@@ -7,9 +7,9 @@ https
 :
 /
 /
-h2breeze
+cotota
 .
-com
+app
 /
 "
 SUCCESS_CSS
@@ -21,9 +21,8 @@ content
 BLOCKED_TEXT
 =
 "
-404
-Not
-Found
+403
+Forbidden
 "
 pytest
 .
@@ -75,6 +74,9 @@ SUCCESS_CSS
 is_displayed
 =
 True
+timeout
+=
+20
 )
     
 assert
@@ -138,6 +140,9 @@ BLOCKED_TEXT
 is_displayed
 =
 True
+timeout
+=
+20
 )
     
 assert
@@ -201,6 +206,9 @@ SUCCESS_CSS
 is_displayed
 =
 True
+timeout
+=
+20
 )
     
 assert
