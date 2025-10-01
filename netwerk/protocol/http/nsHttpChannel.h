@@ -963,7 +963,7 @@ aStatusText
 override
 ;
 NS_IMETHOD
-GetDictionary
+GetDecompressDictionary
 (
 DictionaryCacheEntry
 *
@@ -973,7 +973,7 @@ aDictionary
 override
 ;
 NS_IMETHOD
-SetDictionary
+SetDecompressDictionary
 (
 DictionaryCacheEntry
 *
@@ -2059,6 +2059,8 @@ aEntry
 nsHttpResponseHead
 *
 aResponseHead
+bool
+aModified
 )
 ;
 [
@@ -2072,6 +2074,8 @@ AddCacheEntryHeaders
 nsICacheEntry
 *
 entry
+bool
+aModified
 )
 ;
 [
@@ -2692,6 +2696,18 @@ RefPtr
 nsChannelClassifier
 >
 mChannelClassifier
+;
+RefPtr
+<
+DictionaryCacheEntry
+>
+mDictDecompress
+;
+RefPtr
+<
+DictionaryCacheEntry
+>
+mDictSaving
 ;
 void
 ReleaseMainThreadOnlyReferences
