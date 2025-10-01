@@ -9912,6 +9912,9 @@ bergamotWasmBlobPromise
 return
 {
 bergamotWasmBlob
+bergamotWasmArrayBuffer
+:
+null
 translationModelPayloads
 isMocked
 :
