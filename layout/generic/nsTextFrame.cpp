@@ -21757,6 +21757,9 @@ after
 }
 if
 (
+mWordSpacing
+&
+&
 IsCSSWordSpacingSpace
 (
 mCharacterDataBuffer
