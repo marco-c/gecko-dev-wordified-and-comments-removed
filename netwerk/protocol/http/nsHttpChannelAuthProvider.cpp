@@ -7945,7 +7945,9 @@ type
 EqualsLiteral
 (
 "
-masque
+connect
+-
+udp
 "
 )
 )
