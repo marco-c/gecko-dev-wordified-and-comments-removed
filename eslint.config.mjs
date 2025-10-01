@@ -3211,7 +3211,7 @@ configs
 "
 flat
 /
-valid
+require
 -
 jsdoc
 "

@@ -830,6 +830,17 @@ declaration
 to
 match
 *
+param
+{
+string
+}
+tokenCSS
+the
+token
+to
+match
+against
+*
 returns
 {
 boolean
