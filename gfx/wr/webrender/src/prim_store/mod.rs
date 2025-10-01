@@ -5027,6 +5027,9 @@ LinearGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
+use_legacy_path
+:
+bool
 }
 CachedLinearGradient
 {
@@ -5045,7 +5048,7 @@ RadialGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-cached
+use_legacy_path
 :
 bool
 }
@@ -5057,7 +5060,7 @@ ConicGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-cached
+use_legacy_path
 :
 bool
 }

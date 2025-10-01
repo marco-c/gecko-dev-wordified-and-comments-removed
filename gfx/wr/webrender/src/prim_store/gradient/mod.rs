@@ -101,13 +101,6 @@ pub
 enum
 GradientKind
 {
-#
-[
-allow
-(
-unused
-)
-]
 Linear
 =
 0
