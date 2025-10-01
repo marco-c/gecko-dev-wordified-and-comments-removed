@@ -78,6 +78,16 @@ ElementStateManager
 (
 )
 ;
+enum
+class
+PreventDefault
+:
+bool
+{
+No
+Yes
+}
+;
 void
 SetTargetElement
 (
@@ -87,6 +97,8 @@ dom
 EventTarget
 *
 aTarget
+PreventDefault
+aTouchStartPreventDefault
 )
 ;
 void
