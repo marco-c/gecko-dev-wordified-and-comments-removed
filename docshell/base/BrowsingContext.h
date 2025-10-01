@@ -4844,6 +4844,8 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
+bool
+aCheckForCancelation
 std
 :
 :

@@ -40691,6 +40691,8 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+bool
+aCheckForCancelation
 HistoryGoResolver
 &
 &
@@ -40730,6 +40732,7 @@ aOffset
 aHistoryEpoch
 aRequireUserInteraction
 aUserActivation
+aCheckForCancelation
 Some
 (
 ChildID
@@ -40773,6 +40776,8 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
+bool
+aCheckForCancelation
 NavigationTraverseResolver
 &
 &
@@ -40809,6 +40814,7 @@ NavigationTraverse
 aKey
 aHistoryEpoch
 aUserActivation
+aCheckForCancelation
 Some
 (
 ChildID

@@ -10698,6 +10698,8 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+bool
+aCheckForCancelation
 )
 returns
 (
@@ -10717,6 +10719,8 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
+bool
+aCheckForCancelation
 )
 returns
 (

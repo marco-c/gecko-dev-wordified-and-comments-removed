@@ -549,12 +549,15 @@ static
 void
 LoadURIs
 (
+const
 nsTArray
 <
 LoadEntryResult
 >
 &
 aLoadResults
+bool
+aCheckForCancelation
 const
 std
 :
@@ -594,6 +597,7 @@ static
 void
 LoadURIOrBFCache
 (
+const
 LoadEntryResult
 &
 aLoadEntry
