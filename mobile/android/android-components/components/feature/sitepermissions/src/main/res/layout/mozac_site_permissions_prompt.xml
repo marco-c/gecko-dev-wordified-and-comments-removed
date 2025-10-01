@@ -829,11 +829,9 @@ style
 =
 "
 ?
-android
-:
 attr
 /
-borderlessButtonStyle
+materialButtonOutlinedStyle
 "
 android
 :
