@@ -1531,9 +1531,7 @@ isFullyOccluded
 &
 &
 !
-HasTaskbarIconBeenCreated
-(
-)
+mHasBeenShown
 )
 {
 isFullyOccluded
