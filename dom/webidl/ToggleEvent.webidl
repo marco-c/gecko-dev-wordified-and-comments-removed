@@ -156,12 +156,6 @@ attribute
 DOMString
 newState
 ;
-readonly
-attribute
-Element
-?
-source
-;
 }
 ;
 dictionary
