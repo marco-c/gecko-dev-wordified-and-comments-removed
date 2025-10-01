@@ -139,7 +139,6 @@ util
 .
 hg
 import
-get_hg_commit_message
 get_hg_revision_branch
 get_hg_revision_info
 from
@@ -1611,21 +1610,6 @@ options
     
 }
     
-commit_message
-=
-get_hg_commit_message
-(
-os
-.
-path
-.
-join
-(
-GECKO
-product_dir
-)
-)
-    
 repo_path
 =
 os
@@ -1640,6 +1624,26 @@ get_repository
 (
 repo_path
 )
+    
+try
+:
+        
+commit_message
+=
+repo
+.
+get_commit_message
+(
+)
+    
+except
+UnicodeDecodeError
+:
+        
+commit_message
+=
+"
+"
     
 parameters
 [
