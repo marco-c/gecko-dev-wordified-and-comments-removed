@@ -142,6 +142,15 @@ browser
 /
 genai
 /
+smartAssistPage
+.
+html
+content
+/
+browser
+/
+genai
+/
 content
 /
 (
