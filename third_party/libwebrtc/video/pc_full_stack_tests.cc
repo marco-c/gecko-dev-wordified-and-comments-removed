@@ -3603,9 +3603,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -3628,9 +3625,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -3799,9 +3793,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -3824,9 +3815,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -3978,9 +3966,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4003,9 +3988,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4176,9 +4158,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4201,9 +4180,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4355,9 +4331,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4388,9 +4361,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4559,9 +4529,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4592,9 +4559,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }

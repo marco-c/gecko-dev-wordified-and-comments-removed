@@ -728,9 +728,6 @@ payload_type
 VideoCodecType
 video_codec
 const
-webrtc
-:
-:
 CodecParameterMap
 &
 codec_params
@@ -1793,9 +1790,6 @@ std
 map
 <
 uint8_t
-webrtc
-:
-:
 CodecParameterMap
 >
 pt_codec_params_
@@ -1810,9 +1804,6 @@ std
 map
 <
 uint8_t
-webrtc
-:
-:
 VideoCodecType
 >
 pt_codec_

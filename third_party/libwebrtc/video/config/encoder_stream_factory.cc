@@ -3186,9 +3186,6 @@ simulcast_layers
 ]
 (
 const
-webrtc
-:
-:
 VideoStream
 &
 layer

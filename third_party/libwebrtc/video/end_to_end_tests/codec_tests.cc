@@ -1531,9 +1531,6 @@ SendsAndReceivesH264PacketizationMode0
 SdpVideoFormat
 codec
 (
-webrtc
-:
-:
 kH264CodecName
 )
 ;
@@ -1541,9 +1538,6 @@ codec
 .
 parameters
 [
-webrtc
-:
-:
 kH264FmtpPacketizationMode
 ]
 =
@@ -1643,9 +1637,6 @@ SendsAndReceivesH264PacketizationMode1
 SdpVideoFormat
 codec
 (
-webrtc
-:
-:
 kH264CodecName
 )
 ;
@@ -1653,9 +1644,6 @@ codec
 .
 parameters
 [
-webrtc
-:
-:
 kH264FmtpPacketizationMode
 ]
 =

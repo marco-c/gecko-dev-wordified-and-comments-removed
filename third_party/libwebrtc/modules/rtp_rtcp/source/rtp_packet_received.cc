@@ -106,9 +106,7 @@ const
 ExtensionManager
 *
 extensions
-webrtc
-:
-:
+class
 Timestamp
 arrival_time
 )
