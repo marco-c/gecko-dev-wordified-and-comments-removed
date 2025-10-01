@@ -605,6 +605,11 @@ promiseDismissPasteButton
 )
 ;
 await
+promiseDismissPasteButton
+(
+)
+;
+await
 Assert
 .
 rejects
