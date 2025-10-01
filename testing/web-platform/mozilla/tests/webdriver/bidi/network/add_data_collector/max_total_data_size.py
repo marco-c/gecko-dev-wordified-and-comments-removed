@@ -88,8 +88,6 @@ fetch
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -103,11 +101,6 @@ RESPONSE_COMPLETED_EVENT
 ]
     
 )
-    
-network_events
-[
-RESPONSE_COMPLETED_EVENT
-]
     
 await
 bidi_session
