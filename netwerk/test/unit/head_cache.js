@@ -33,9 +33,6 @@ function
 evict_cache_entries
 (
 where
-lci
-=
-null
 )
 {
 var
@@ -98,10 +95,6 @@ cache2
 .
 memoryCacheStorage
 (
-lci
-?
-lci
-:
 Services
 .
 loadContextInfo
@@ -130,10 +123,6 @@ cache2
 .
 diskCacheStorage
 (
-lci
-?
-lci
-:
 Services
 .
 loadContextInfo
@@ -538,7 +527,6 @@ asyncCheckCacheEntryPresence
 key
 where
 shouldExist
-lci
 continuation
 )
 {
@@ -551,7 +539,7 @@ Ci
 nsICacheStorage
 .
 OPEN_READONLY
-lci
+null
 function
 (
 status
@@ -570,13 +558,6 @@ TEST
 -
 INFO
 |
-status
-:
-"
-+
-status
-+
-"
 checking
 cache
 key
