@@ -444,6 +444,7 @@ kind
 "
 test
 mochitest
+reftest
 "
     
 title

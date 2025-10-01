@@ -5,6 +5,9 @@ TEST_KINDS
 mochitest
 "
 "
+reftest
+"
+"
 test
 "
 )
