@@ -290,6 +290,15 @@ toolkit
 /
 components
 /
+gecko
+-
+trace
+/
+-
+toolkit
+/
+components
+/
 glean
 /
 -

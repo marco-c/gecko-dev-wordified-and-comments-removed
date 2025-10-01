@@ -3,6 +3,11 @@ DIRS
 =
 [
 "
+exporters
+/
+otlp
+"
+"
 sdk
 /
 src

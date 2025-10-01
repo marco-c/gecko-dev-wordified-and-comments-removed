@@ -11591,6 +11591,15 @@ ByteBuf
 buf
 )
 ;
+parent
+:
+async
+GeckoTraceExport
+(
+ByteBuf
+aBuf
+)
+;
 child
 :
 /

@@ -25,7 +25,7 @@ gecko
 .
 process
 .
-id
+internal_id
 "
 ;
 static

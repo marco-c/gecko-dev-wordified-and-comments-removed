@@ -416,7 +416,7 @@ gecko
 .
 process
 .
-id
+internal_id
 :
 type
 :
@@ -464,11 +464,6 @@ version
 type
 :
 string
-dropped_attributes_count
-:
-type
-:
-number
 scope_spans
 :
 type
@@ -907,16 +902,6 @@ string
 source
 .
 line
-:
-type
-:
-number
-dropped_attributes_count
-:
-type
-:
-number
-dropped_events_count
 :
 type
 :

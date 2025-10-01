@@ -291,6 +291,13 @@ ByteBuf
 buf
 )
 ;
+async
+GeckoTraceExport
+(
+ByteBuf
+aBuf
+)
+;
 #
 if
 defined
