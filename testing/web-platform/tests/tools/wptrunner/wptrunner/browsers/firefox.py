@@ -2014,10 +2014,6 @@ os
 "
         
 "
-os_version
-"
-        
-"
 debug
 "
         
@@ -2074,6 +2070,9 @@ os
 [
 "
 version
+"
+"
+os_version
 "
 ]
         
