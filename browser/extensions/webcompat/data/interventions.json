@@ -14640,7 +14640,7 @@ ua_string
 :
 [
 "
-add_Chrome
+Safari_with_FxQuantum
 "
 ]
 }
@@ -16304,7 +16304,7 @@ ua_string
 :
 [
 "
-Safari
+add_Safari
 "
 ]
 }
