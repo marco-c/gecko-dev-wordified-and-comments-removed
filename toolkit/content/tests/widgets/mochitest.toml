@@ -506,6 +506,13 @@ html
 ]
 [
 "
+test_ua_widget_trusted_types
+.
+html
+"
+]
+[
+"
 test_ua_widget_unbind
 .
 html
