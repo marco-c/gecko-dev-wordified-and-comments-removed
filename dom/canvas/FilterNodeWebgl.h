@@ -67,14 +67,14 @@ return
 FILTER_BACKEND_WEBGL
 ;
 }
-bool
+void
 ReserveInputIndex
 (
 uint32_t
 aIndex
 )
 ;
-bool
+void
 SetInputAccel
 (
 uint32_t
@@ -84,7 +84,7 @@ SourceSurface
 aSurface
 )
 ;
-bool
+void
 SetInputSoftware
 (
 uint32_t
