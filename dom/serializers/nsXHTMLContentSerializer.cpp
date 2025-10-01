@@ -475,7 +475,7 @@ nsXHTMLContentSerializer
 :
 AppendText
 (
-nsIContent
+Text
 *
 aText
 int32_t
