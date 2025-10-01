@@ -397,3 +397,10 @@ browser_resistfingerprinting_readpixels
 js
 "
 ]
+[
+"
+browser_resistfingerprinting_getbuffersubdata
+.
+js
+"
+]
