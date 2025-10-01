@@ -144,6 +144,7 @@ zip
 liblzma
 -
 dev
+jq
 file
 &
 &
