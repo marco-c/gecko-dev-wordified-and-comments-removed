@@ -443,6 +443,7 @@ kind
 =
 "
 test
+mochitest
 "
     
 title
